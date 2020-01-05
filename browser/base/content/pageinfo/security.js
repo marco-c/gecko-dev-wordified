@@ -2017,11 +2017,10 @@ hasChildNodes
 )
 element
 .
-removeChild
-(
-element
-.
 firstChild
+.
+remove
+(
 )
 ;
 var

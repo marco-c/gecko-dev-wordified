@@ -8273,11 +8273,10 @@ firstChild
 {
 notice
 .
-removeChild
-(
-notice
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

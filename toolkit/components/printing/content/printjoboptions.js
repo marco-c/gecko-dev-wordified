@@ -849,13 +849,10 @@ this
 .
 paperListElement
 .
-removeChild
-(
-this
-.
-paperListElement
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

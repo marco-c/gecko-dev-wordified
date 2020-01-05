@@ -1522,11 +1522,10 @@ firstChild
 )
 aPreview
 .
-removeChild
-(
-aPreview
-.
 firstChild
+.
+remove
+(
 )
 ;
 if

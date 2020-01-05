@@ -3377,11 +3377,10 @@ firstChild
 {
 elm
 .
-removeChild
-(
-elm
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

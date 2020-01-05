@@ -531,11 +531,10 @@ hasChildNodes
 {
 blocklistsText
 .
-removeChild
-(
-blocklistsText
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

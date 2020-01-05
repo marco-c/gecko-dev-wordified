@@ -752,13 +752,10 @@ this
 .
 container
 .
-removeChild
-(
-this
-.
-container
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

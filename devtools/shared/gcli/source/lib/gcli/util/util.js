@@ -2731,11 +2731,10 @@ hasChildNodes
 {
 elem
 .
-removeChild
-(
-elem
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

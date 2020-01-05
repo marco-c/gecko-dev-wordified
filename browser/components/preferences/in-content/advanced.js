@@ -3790,11 +3790,10 @@ firstChild
 {
 list
 .
-removeChild
-(
-list
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

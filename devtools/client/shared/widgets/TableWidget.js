@@ -10391,13 +10391,10 @@ this
 .
 label
 .
-removeChild
-(
-this
-.
-label
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

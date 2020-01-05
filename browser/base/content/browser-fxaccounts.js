@@ -2319,11 +2319,10 @@ hasChildNodes
 {
 devicesPopup
 .
-removeChild
-(
-devicesPopup
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

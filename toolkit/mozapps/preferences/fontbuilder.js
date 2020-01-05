@@ -164,11 +164,10 @@ hasChildNodes
 )
 aMenuList
 .
-removeChild
-(
-aMenuList
-.
 firstChild
+.
+remove
+(
 )
 ;
 var

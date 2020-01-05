@@ -348898,11 +348898,10 @@ count
 {
 e
 .
-removeChild
-(
-e
-.
 firstChild
+.
+remove
+(
 )
 }
 return

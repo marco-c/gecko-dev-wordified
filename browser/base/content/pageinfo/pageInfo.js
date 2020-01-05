@@ -3239,11 +3239,10 @@ firstChild
 )
 feedListbox
 .
-removeChild
-(
-feedListbox
-.
 firstChild
+.
+remove
+(
 )
 ;
 /

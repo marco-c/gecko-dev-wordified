@@ -26,10 +26,9 @@ publicdomain
 /
 document
 .
-removeChild
-(
-document
-.
 firstChild
+.
+remove
+(
 )
 ;

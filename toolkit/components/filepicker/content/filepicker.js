@@ -3560,11 +3560,10 @@ hasChildNodes
 {
 menu
 .
-removeChild
-(
-menu
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

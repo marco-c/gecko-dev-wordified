@@ -2128,11 +2128,10 @@ firstChild
 )
 aElm
 .
-removeChild
-(
-aElm
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

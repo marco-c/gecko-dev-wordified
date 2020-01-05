@@ -1493,11 +1493,10 @@ hasChildNodes
 )
 permissionsText
 .
-removeChild
-(
-permissionsText
-.
 firstChild
+.
+remove
+(
 )
 ;
 permissionsText
