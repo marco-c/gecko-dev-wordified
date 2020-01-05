@@ -2957,6 +2957,10 @@ location
 ;
 pub
 mod
+mediaerror
+;
+pub
+mod
 messageevent
 ;
 pub
