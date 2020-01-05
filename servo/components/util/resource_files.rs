@@ -63,10 +63,7 @@ std
 fs
 :
 :
-{
 File
-PathExt
-}
 ;
 use
 std
@@ -154,6 +151,15 @@ std
 :
 :
 env
+;
+use
+std
+:
+:
+fs
+:
+:
+PathExt
 ;
 match
 opts
