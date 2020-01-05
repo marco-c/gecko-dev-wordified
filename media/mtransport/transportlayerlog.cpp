@@ -256,8 +256,6 @@ len
 )
 ;
 }
-else
-{
 return
 static_cast
 <
@@ -267,7 +265,6 @@ TransportResult
 len
 )
 ;
-}
 }
 void
 TransportLayerLogging
