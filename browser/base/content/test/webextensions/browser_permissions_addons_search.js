@@ -322,6 +322,9 @@ add_task
 testInstallMethod
 (
 installSearch
+"
+installAmo
+"
 )
 )
 ;

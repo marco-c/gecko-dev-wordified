@@ -164,6 +164,9 @@ add_task
 testInstallMethod
 (
 installFile
+"
+installLocal
+"
 )
 )
 ;
