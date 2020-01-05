@@ -2522,10 +2522,12 @@ static
 bool
 ExtractAlphaBitmap
 (
+const
 sk_sp
 <
 SkImage
 >
+&
 aImage
 SkBitmap
 *
