@@ -242,6 +242,15 @@ bit_depth
 vpx_color_space_t
 color_space
 ;
+vpx_color_range_t
+color_range
+;
+int
+render_width
+;
+int
+render_height
+;
 int
 corrupted
 ;
@@ -292,7 +301,7 @@ ybf
 )
 ;
 int
-vp9_alloc_frame_buffer
+vpx_alloc_frame_buffer
 (
 YV12_BUFFER_CONFIG
 *
@@ -426,7 +435,7 @@ on
 failure
 .
 int
-vp9_realloc_frame_buffer
+vpx_realloc_frame_buffer
 (
 YV12_BUFFER_CONFIG
 *
@@ -461,7 +470,7 @@ cb_priv
 )
 ;
 int
-vp9_free_frame_buffer
+vpx_free_frame_buffer
 (
 YV12_BUFFER_CONFIG
 *

@@ -94,6 +94,15 @@ VP8_COMMON_FINDNEARMV_H_
 #
 include
 "
+.
+/
+vpx_config
+.
+h
+"
+#
+include
+"
 mv
 .
 h
@@ -130,6 +139,7 @@ C
 #
 endif
 static
+INLINE
 void
 mv_bias
 (
@@ -200,6 +210,7 @@ RIGHT_BOTTOM_MARGIN
 3
 )
 static
+INLINE
 void
 vp8_clamp_mv2
 (
@@ -340,6 +351,7 @@ RIGHT_BOTTOM_MARGIN
 ;
 }
 static
+INLINE
 void
 vp8_clamp_mv
 (
@@ -466,6 +478,7 @@ row
 ;
 }
 static
+INLINE
 unsigned
 int
 vp8_check_mv_bounds
@@ -644,7 +657,8 @@ vp8_mbsplit_offset
 ]
 ;
 static
-int
+INLINE
+uint32_t
 left_block_mv
 (
 const
@@ -730,7 +744,8 @@ as_int
 ;
 }
 static
-int
+INLINE
+uint32_t
 above_block_mv
 (
 const
@@ -820,6 +835,7 @@ as_int
 ;
 }
 static
+INLINE
 B_PREDICTION_MODE
 left_block_mode
 (
@@ -935,6 +951,7 @@ as_mode
 ;
 }
 static
+INLINE
 B_PREDICTION_MODE
 above_block_mode
 (

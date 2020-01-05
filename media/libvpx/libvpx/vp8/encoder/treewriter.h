@@ -119,6 +119,15 @@ October
 #
 include
 "
+.
+/
+vpx_config
+.
+h
+"
+#
+include
+"
 vp8
 /
 common
@@ -297,6 +306,7 @@ bits
 *
 /
 static
+INLINE
 unsigned
 int
 vp8_cost_branch
@@ -453,6 +463,7 @@ n
 ;
 }
 static
+INLINE
 void
 vp8_write_token
 (
@@ -579,6 +590,7 @@ c
 ;
 }
 static
+INLINE
 int
 vp8_cost_token
 (

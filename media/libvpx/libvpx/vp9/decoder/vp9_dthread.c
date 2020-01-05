@@ -161,7 +161,7 @@ file
 void
 vp9_frameworker_lock_stats
 (
-VP9Worker
+VPxWorker
 *
 const
 worker
@@ -202,7 +202,7 @@ endif
 void
 vp9_frameworker_unlock_stats
 (
-VP9Worker
+VPxWorker
 *
 const
 worker
@@ -243,7 +243,7 @@ endif
 void
 vp9_frameworker_signal_stats
 (
-VP9Worker
+VPxWorker
 *
 const
 worker
@@ -371,7 +371,7 @@ code
 void
 vp9_frameworker_wait
 (
-VP9Worker
+VPxWorker
 *
 const
 worker
@@ -474,7 +474,7 @@ not
 have
 owner
 .
-VP9Worker
+VPxWorker
 *
 const
 ref_worker
@@ -734,7 +734,7 @@ row
 #
 if
 CONFIG_MULTITHREAD
-VP9Worker
+VPxWorker
 *
 worker
 =
@@ -837,11 +837,11 @@ CONFIG_MULTITHREAD
 void
 vp9_frameworker_copy_context
 (
-VP9Worker
+VPxWorker
 *
 const
 dst_worker
-VP9Worker
+VPxWorker
 *
 const
 src_worker

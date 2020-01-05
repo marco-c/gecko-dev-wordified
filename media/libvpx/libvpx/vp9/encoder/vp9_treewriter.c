@@ -105,7 +105,7 @@ vp9_token
 *
 tokens
 const
-vp9_tree_index
+vpx_tree_index
 *
 tree
 int
@@ -128,7 +128,7 @@ l
 do
 {
 const
-vp9_tree_index
+vpx_tree_index
 j
 =
 tree
@@ -198,7 +198,7 @@ vp9_token
 *
 tokens
 const
-vp9_tree_index
+vpx_tree_index
 *
 tree
 )
@@ -221,7 +221,7 @@ convert_distribution
 unsigned
 int
 i
-vp9_tree
+vpx_tree
 tree
 unsigned
 int
@@ -355,7 +355,7 @@ right
 void
 vp9_tree_probs_from_distribution
 (
-vp9_tree
+vpx_tree
 tree
 unsigned
 int

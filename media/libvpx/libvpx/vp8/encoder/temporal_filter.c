@@ -117,6 +117,10 @@ h
 #
 include
 "
+vp8
+/
+encoder
+/
 quantize
 .
 h

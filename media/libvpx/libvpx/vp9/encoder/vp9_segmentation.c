@@ -324,7 +324,7 @@ calc_segtree_probs
 int
 *
 segcounts
-vp9_prob
+vpx_prob
 *
 segment_tree_probs
 )
@@ -520,7 +520,7 @@ cost_segmap
 int
 *
 segcounts
-vp9_prob
+vpx_prob
 *
 probs
 )
@@ -925,8 +925,6 @@ mi
 ]
 -
 >
-mbmi
-.
 segment_id
 ;
 set_mi_row_col
@@ -1000,8 +998,6 @@ mi
 ]
 -
 >
-mbmi
-.
 sb_type
 ;
 /
@@ -1022,7 +1018,7 @@ const
 int
 pred_segment_id
 =
-vp9_get_segment_id
+get_segment_id
 (
 cm
 cm
@@ -1077,8 +1073,6 @@ mi
 ]
 -
 >
-mbmi
-.
 seg_id_predicted
 =
 pred_flag
@@ -1215,8 +1209,6 @@ mi
 ]
 -
 >
-mbmi
-.
 sb_type
 ]
 ;
@@ -1230,8 +1222,6 @@ mi
 ]
 -
 >
-mbmi
-.
 sb_type
 ]
 ;
@@ -1534,19 +1524,19 @@ MAX_SEGMENTS
 0
 }
 ;
-vp9_prob
+vpx_prob
 no_pred_tree
 [
 SEG_TREE_PROBS
 ]
 ;
-vp9_prob
+vpx_prob
 t_pred_tree
 [
 SEG_TREE_PROBS
 ]
 ;
-vp9_prob
+vpx_prob
 t_nopred_prob
 [
 PREDICTION_PROBS

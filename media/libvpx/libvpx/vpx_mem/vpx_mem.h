@@ -189,9 +189,6 @@ memblk
 ;
 #
 if
-CONFIG_VP9
-&
-&
 CONFIG_VP9_HIGHBITDEPTH
 void
 *

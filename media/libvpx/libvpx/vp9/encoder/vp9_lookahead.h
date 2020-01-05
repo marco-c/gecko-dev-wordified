@@ -186,7 +186,6 @@ MAX_PRE_FRAMES
 struct
 lookahead_ctx
 {
-unsigned
 int
 max_sz
 ;
@@ -199,7 +198,6 @@ the
 queue
 *
 /
-unsigned
 int
 sz
 ;
@@ -214,7 +212,6 @@ the
 queue
 *
 /
-unsigned
 int
 read_idx
 ;
@@ -224,7 +221,6 @@ Read
 index
 *
 /
-unsigned
 int
 write_idx
 ;

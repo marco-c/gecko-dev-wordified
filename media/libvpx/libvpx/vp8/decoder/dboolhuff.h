@@ -108,6 +108,8 @@ h
 #
 include
 "
+.
+/
 vpx_config
 .
 h
@@ -423,7 +425,6 @@ bit
 }
 {
 register
-unsigned
 int
 shift
 =
@@ -476,6 +477,7 @@ bit
 ;
 }
 static
+INLINE
 int
 vp8_decode_value
 (
@@ -532,6 +534,7 @@ z
 ;
 }
 static
+INLINE
 int
 vp8dx_bool_error
 (

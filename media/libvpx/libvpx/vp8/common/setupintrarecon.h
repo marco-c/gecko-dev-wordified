@@ -94,6 +94,15 @@ VP8_COMMON_SETUPINTRARECON_H_
 #
 include
 "
+.
+/
+vpx_config
+.
+h
+"
+#
+include
+"
 vpx_scale
 /
 yv12config
@@ -129,6 +138,7 @@ ybf
 )
 ;
 static
+INLINE
 void
 setup_intra_recon_left
 (

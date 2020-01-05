@@ -108,6 +108,15 @@ vp9_onyxc_int
 h
 "
 #
+include
+"
+vpx_dsp
+/
+vpx_dsp_common
+.
+h
+"
+#
 define
 MIN_TILE_WIDTH_B64
 4
@@ -158,7 +167,7 @@ log2
 MI_BLOCK_SIZE_LOG2
 ;
 return
-MIN
+VPXMIN
 (
 offset
 mis

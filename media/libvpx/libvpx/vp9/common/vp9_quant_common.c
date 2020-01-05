@@ -1972,7 +1972,7 @@ base_qindex
 {
 if
 (
-vp9_segfeature_active
+segfeature_active
 (
 seg
 segment_id
@@ -1984,7 +1984,7 @@ const
 int
 data
 =
-vp9_get_segdata
+get_segdata
 (
 seg
 segment_id

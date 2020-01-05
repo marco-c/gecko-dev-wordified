@@ -105,11 +105,9 @@ h
 #
 include
 "
-vp9
+vpx_dsp
 /
-common
-/
-vp9_convolve
+vpx_convolve
 .
 h
 "

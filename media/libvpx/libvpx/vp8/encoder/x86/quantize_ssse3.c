@@ -144,7 +144,8 @@ int
 mask
 )
 {
-int
+unsigned
+long
 eob
 ;
 _BitScanReverse

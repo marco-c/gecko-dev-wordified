@@ -250,6 +250,7 @@ assert
 h
 >
 static
+INLINE
 void
 Scale2Ratio
 (

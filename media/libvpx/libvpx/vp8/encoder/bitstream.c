@@ -914,7 +914,6 @@ unsigned
 int
 split
 ;
-unsigned
 int
 shift
 ;
@@ -2066,6 +2065,9 @@ pos
 ;
 }
 }
+#
+if
+CONFIG_MULTITHREAD
 static
 void
 pack_mb_row_tokens
@@ -2152,6 +2154,11 @@ tokens
 ;
 }
 }
+#
+endif
+/
+/
+CONFIG_MULTITHREAD
 static
 void
 write_mv_ref
@@ -9121,6 +9128,9 @@ bc
 else
 #
 endif
+/
+/
+CONFIG_MULTITHREAD
 vp8_pack_tokens
 (
 &

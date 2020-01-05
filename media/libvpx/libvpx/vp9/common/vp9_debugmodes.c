@@ -338,14 +338,10 @@ char
 *
 )
 (
-&
 mi
 [
 0
 ]
--
->
-mbmi
 )
 +
 member_offset
@@ -449,7 +445,7 @@ Partitions
 "
 offsetof
 (
-MB_MODE_INFO
+MODE_INFO
 sb_type
 )
 )
@@ -464,7 +460,7 @@ Modes
 "
 offsetof
 (
-MB_MODE_INFO
+MODE_INFO
 mode
 )
 )
@@ -480,7 +476,7 @@ frame
 "
 offsetof
 (
-MB_MODE_INFO
+MODE_INFO
 ref_frame
 [
 0
@@ -498,7 +494,7 @@ Transform
 "
 offsetof
 (
-MB_MODE_INFO
+MODE_INFO
 tx_size
 )
 )
@@ -514,7 +510,7 @@ Modes
 "
 offsetof
 (
-MB_MODE_INFO
+MODE_INFO
 uv_mode
 )
 )
@@ -586,8 +582,6 @@ mi
 ]
 -
 >
-mbmi
-.
 skip
 )
 ;
@@ -696,8 +690,6 @@ mi
 ]
 -
 >
-mbmi
-.
 mv
 [
 0
@@ -712,8 +704,6 @@ mi
 ]
 -
 >
-mbmi
-.
 mv
 [
 0

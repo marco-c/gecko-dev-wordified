@@ -112,6 +112,14 @@ vp9_encoder
 .
 h
 "
+int
+vp9_get_refresh_mask
+(
+VP9_COMP
+*
+cpi
+)
+;
 void
 vp9_pack_bitstream
 (

@@ -117,7 +117,7 @@ vp9_seg_common
 h
 "
 const
-vp9_prob
+vpx_prob
 vp9_kf_y_mode_prob
 [
 INTRA_MODES
@@ -1805,7 +1805,7 @@ tm
 }
 ;
 const
-vp9_prob
+vpx_prob
 vp9_kf_uv_mode_prob
 [
 INTRA_MODES
@@ -1981,7 +1981,7 @@ tm
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_if_y_probs
 [
 BLOCK_SIZE_GROUPS
@@ -2062,7 +2062,7 @@ block_size
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_if_uv_probs
 [
 INTRA_MODES
@@ -2237,7 +2237,7 @@ tm
 }
 ;
 const
-vp9_prob
+vpx_prob
 vp9_kf_partition_probs
 [
 PARTITION_CONTEXTS
@@ -2473,7 +2473,7 @@ split
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_partition_probs
 [
 PARTITION_CONTEXTS
@@ -2709,7 +2709,7 @@ split
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_inter_mode_probs
 [
 INTER_MODE_CONTEXTS
@@ -2834,7 +2834,7 @@ INTRAMODECONTEXTNODES
 *
 /
 const
-vp9_tree_index
+vpx_tree_index
 vp9_intra_mode_tree
 [
 TREE_SIZE
@@ -2938,7 +2938,7 @@ D153_NODE
 }
 ;
 const
-vp9_tree_index
+vpx_tree_index
 vp9_inter_mode_tree
 [
 TREE_SIZE
@@ -2973,7 +2973,7 @@ NEWMV
 }
 ;
 const
-vp9_tree_index
+vpx_tree_index
 vp9_partition_tree
 [
 TREE_SIZE
@@ -2997,7 +2997,7 @@ PARTITION_SPLIT
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_intra_inter_p
 [
 INTRA_INTER_CONTEXTS
@@ -3012,7 +3012,7 @@ INTRA_INTER_CONTEXTS
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_comp_inter_p
 [
 COMP_INTER_CONTEXTS
@@ -3028,7 +3028,7 @@ COMP_INTER_CONTEXTS
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_comp_ref_p
 [
 REF_CONTEXTS
@@ -3044,7 +3044,7 @@ REF_CONTEXTS
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_single_ref_p
 [
 REF_CONTEXTS
@@ -3353,7 +3353,7 @@ TX_8X8
 }
 static
 const
-vp9_prob
+vpx_prob
 default_skip_probs
 [
 SKIP_CONTEXTS
@@ -3367,7 +3367,7 @@ SKIP_CONTEXTS
 ;
 static
 const
-vp9_prob
+vpx_prob
 default_switchable_interp_prob
 [
 SWITCHABLE_FILTER_CONTEXTS
@@ -3397,8 +3397,9 @@ SWITCHABLE_FILTERS
 }
 }
 ;
+static
 void
-vp9_init_mode_probs
+init_mode_probs
 (
 FRAME_CONTEXT
 *
@@ -3504,7 +3505,7 @@ default_inter_mode_probs
 ;
 }
 const
-vp9_tree_index
+vpx_tree_index
 vp9_switchable_interp_tree
 [
 TREE_SIZE
@@ -3769,7 +3770,7 @@ i
 +
 +
 )
-vp9_tree_merge_probs
+vpx_tree_merge_probs
 (
 vp9_inter_mode_tree
 pre_fc
@@ -3809,7 +3810,7 @@ i
 +
 +
 )
-vp9_tree_merge_probs
+vpx_tree_merge_probs
 (
 vp9_intra_mode_tree
 pre_fc
@@ -3849,7 +3850,7 @@ INTRA_MODES
 +
 i
 )
-vp9_tree_merge_probs
+vpx_tree_merge_probs
 (
 vp9_intra_mode_tree
 pre_fc
@@ -3889,7 +3890,7 @@ i
 +
 +
 )
-vp9_tree_merge_probs
+vpx_tree_merge_probs
 (
 vp9_partition_tree
 pre_fc
@@ -3940,7 +3941,7 @@ i
 +
 +
 )
-vp9_tree_merge_probs
+vpx_tree_merge_probs
 (
 vp9_switchable_interp_tree
 pre_fc
@@ -4530,7 +4531,7 @@ vp9_default_coef_probs
 cm
 )
 ;
-vp9_init_mode_probs
+init_mode_probs
 (
 cm
 -
