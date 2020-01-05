@@ -1099,7 +1099,7 @@ close_task
 box
 CloseTask
 {
-addr
+address
 :
 address
 failed
@@ -1159,7 +1159,7 @@ close_task
 box
 CloseTask
 {
-addr
+address
 :
 address
 failed
@@ -2067,7 +2067,7 @@ open_thread
 box
 ConnectionEstablishedTask
 {
-addr
+address
 :
 moved_address
 .
@@ -2426,7 +2426,7 @@ task
 box
 BufferedAmountTask
 {
-addr
+address
 :
 address
 }
@@ -3570,7 +3570,7 @@ established
 struct
 ConnectionEstablishedTask
 {
-addr
+address
 :
 Trusted
 <
@@ -3607,7 +3607,7 @@ ws
 =
 self
 .
-addr
+address
 .
 root
 (
@@ -3678,7 +3678,7 @@ fail_the_websocket_connection
 (
 self
 .
-addr
+address
 sender
 )
 ;
@@ -3885,7 +3885,7 @@ open
 struct
 BufferedAmountTask
 {
-addr
+address
 :
 Trusted
 <
@@ -3978,7 +3978,7 @@ ws
 =
 self
 .
-addr
+address
 .
 root
 (
@@ -4007,7 +4007,7 @@ false
 struct
 CloseTask
 {
-addr
+address
 :
 Trusted
 <
@@ -4050,7 +4050,7 @@ ws
 =
 self
 .
-addr
+address
 .
 root
 (
@@ -4161,19 +4161,11 @@ upcast
 (
 )
 .
-fire_event
+fire_simple_event
 (
 "
 error
 "
-EventBubbles
-:
-:
-DoesNotBubble
-EventCancelable
-:
-:
-Cancelable
 )
 ;
 }
