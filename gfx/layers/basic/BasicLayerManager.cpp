@@ -4495,10 +4495,6 @@ RecordFrame
 (
 )
 ;
-PostPresent
-(
-)
-;
 if
 (
 !
