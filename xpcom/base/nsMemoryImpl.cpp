@@ -383,7 +383,9 @@ fd
 MemTotal
 :
 %
-llu
+"
+PRIu64
+"
 kB
 "
 &

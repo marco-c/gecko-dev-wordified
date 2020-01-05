@@ -128,8 +128,8 @@ defined
 (
 __arm__
 )
-&
-&
+|
+|
 !
 (
 defined
