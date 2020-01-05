@@ -790,7 +790,6 @@ should_create_absolute_file_url_if_base_url_is_none_and_str_url_looks_filey
 let
 file
 =
-~
 "
 local
 .
@@ -894,7 +893,6 @@ should_create_url_based_on_old_url_1
 let
 old_str
 =
-~
 "
 http
 :
@@ -917,7 +915,6 @@ None
 let
 new_str
 =
-~
 "
 index
 .
@@ -996,7 +993,6 @@ should_create_url_based_on_old_url_2
 let
 old_str
 =
-~
 "
 http
 :
@@ -1020,7 +1016,6 @@ None
 let
 new_str
 =
-~
 "
 index
 .
@@ -1099,7 +1094,6 @@ should_create_url_based_on_old_url_3
 let
 old_str
 =
-~
 "
 http
 :
@@ -1126,7 +1120,6 @@ None
 let
 new_str
 =
-~
 "
 crumpet
 .
@@ -1205,7 +1198,6 @@ should_create_url_based_on_old_url_4
 let
 old_str
 =
-~
 "
 http
 :
@@ -1234,7 +1226,6 @@ None
 let
 new_str
 =
-~
 "
 crumpet
 .
@@ -1315,7 +1306,6 @@ should_create_url_based_on_old_url_5
 let
 old_str
 =
-~
 "
 http
 :
@@ -1342,7 +1332,6 @@ None
 let
 new_str
 =
-~
 "
 #
 top
@@ -1446,7 +1435,6 @@ UserInfo
 let
 old_str
 =
-~
 "
 http
 :
@@ -1478,7 +1466,6 @@ None
 let
 new_str
 =
-~
 "
 #
 top
@@ -1621,7 +1608,6 @@ should_create_url_based_on_old_url_7
 let
 old_str
 =
-~
 "
 https
 :
@@ -1650,7 +1636,6 @@ None
 let
 new_str
 =
-~
 "
 /
 /

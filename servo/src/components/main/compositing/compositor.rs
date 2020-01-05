@@ -3319,10 +3319,6 @@ url
 parse_url
 (
 url_string
-.
-to_str
-(
-)
 None
 )
 )
