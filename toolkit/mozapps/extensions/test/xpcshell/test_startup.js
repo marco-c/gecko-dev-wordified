@@ -4999,7 +4999,6 @@ extensions
 .
 enabledScopes
 "
-0
 )
 ;
 var

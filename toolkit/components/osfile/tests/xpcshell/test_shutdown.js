@@ -571,7 +571,6 @@ async_shutdown
 .
 testing
 "
-true
 )
 ;
 throw

@@ -2692,9 +2692,6 @@ principal
 msg
 .
 type
-msg
-.
-value
 )
 ;
 return

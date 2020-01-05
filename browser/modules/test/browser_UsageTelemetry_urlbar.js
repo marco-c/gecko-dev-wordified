@@ -737,7 +737,6 @@ prefs
 clearUserPref
 (
 SUGGEST_URLBAR_PREF
-true
 )
 ;
 Services

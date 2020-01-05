@@ -241,7 +241,6 @@ prefs
 clearUserPref
 (
 NET_INFO_PREF
-true
 )
 ;
 Services
@@ -251,7 +250,6 @@ prefs
 clearUserPref
 (
 NET_XHR_PREF
-true
 )
 ;
 }

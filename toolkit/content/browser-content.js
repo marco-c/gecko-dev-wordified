@@ -2788,7 +2788,6 @@ print
 .
 use_global_printsettings
 "
-false
 )
 &
 &
@@ -2803,7 +2802,6 @@ print
 .
 save_print_settings
 "
-false
 )
 ;
 }
