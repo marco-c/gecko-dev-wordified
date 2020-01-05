@@ -153,6 +153,9 @@ namespace
 layers
 {
 class
+CompositableClient
+;
+class
 CompositorBridgeChild
 ;
 class
@@ -238,6 +241,14 @@ AllocExternalImageId
 (
 uint64_t
 aAsyncContainerID
+)
+;
+uint64_t
+AllocExternalImageIdForCompositable
+(
+CompositableClient
+*
+aCompositable
 )
 ;
 void
@@ -331,6 +342,11 @@ WebRenderBridgeChild
 )
 {
 }
+uint64_t
+GetNextExternalImageId
+(
+)
+;
 /
 /
 manage

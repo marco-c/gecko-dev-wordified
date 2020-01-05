@@ -197,7 +197,7 @@ override
 protected
 :
 uint64_t
-mImageId
+mExternalImageId
 ;
 /
 /
