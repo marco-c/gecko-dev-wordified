@@ -2163,10 +2163,8 @@ GetMenuBar
 (
 )
 ;
-NS_IMETHOD_
-(
+virtual
 void
-)
 SetInputContext
 (
 const
@@ -2180,10 +2178,8 @@ aAction
 )
 override
 ;
-NS_IMETHOD_
-(
+virtual
 InputContext
-)
 GetInputContext
 (
 )
@@ -2193,10 +2189,8 @@ return
 mInputContext
 ;
 }
-NS_IMETHOD_
-(
+virtual
 bool
-)
 ExecuteNativeKeyBinding
 (
 NativeKeyBindingsType

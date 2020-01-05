@@ -18988,10 +18988,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -19107,10 +19104,7 @@ aAction
 )
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :

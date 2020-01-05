@@ -1217,10 +1217,8 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHOD_
-(
+virtual
 void
-)
 SetInputContext
 (
 const
@@ -1234,10 +1232,8 @@ aAction
 )
 override
 ;
-NS_IMETHOD_
-(
+virtual
 InputContext
-)
 GetInputContext
 (
 )

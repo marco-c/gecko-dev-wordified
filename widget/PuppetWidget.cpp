@@ -2725,10 +2725,7 @@ AsyncPanZoomEnabled
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 PuppetWidget
 :
 :
@@ -3537,10 +3534,7 @@ aEvent
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 PuppetWidget
 :
 :
@@ -3683,10 +3677,7 @@ mFocusChange
 )
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 PuppetWidget
 :
 :
@@ -3907,10 +3898,7 @@ return
 context
 ;
 }
-NS_IMETHODIMP_
-(
 NativeIMEContext
-)
 PuppetWidget
 :
 :
