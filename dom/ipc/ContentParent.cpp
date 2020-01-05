@@ -6911,6 +6911,9 @@ aFrameElement
 ContentParent
 *
 aOpenerContentParent
+TabParent
+*
+aSameTabGroupAs
 )
 {
 PROFILER_LABEL_FUNC
@@ -7305,6 +7308,19 @@ take
 (
 )
 tabId
+aSameTabGroupAs
+?
+aSameTabGroupAs
+-
+>
+GetTabId
+(
+)
+:
+TabId
+(
+0
+)
 aContext
 .
 AsIPCTabContext
@@ -16797,6 +16813,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -16821,6 +16841,7 @@ nsIContentParent
 AllocPBrowserParent
 (
 aTabId
+aSameTabGroupAs
 aContext
 aChromeFlags
 aCpId
@@ -21887,6 +21908,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -21912,6 +21937,7 @@ SendPBrowserConstructor
 (
 aActor
 aTabId
+aSameTabGroupAs
 aContext
 aChromeFlags
 aCpId
@@ -26272,6 +26298,10 @@ const
 nsCString
 &
 aProfile
+const
+bool
+&
+aIsExitProfile
 )
 {
 #
@@ -26288,6 +26318,7 @@ mProfilerController
 RecvProfile
 (
 aProfile
+aIsExitProfile
 )
 ;
 }
