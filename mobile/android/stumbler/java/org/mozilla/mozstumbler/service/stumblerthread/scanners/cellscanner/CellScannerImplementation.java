@@ -267,6 +267,7 @@ CellScannerImpl
 {
 protected
 static
+final
 String
 LOG_TAG
 =

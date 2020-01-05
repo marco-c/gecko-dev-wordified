@@ -149,6 +149,7 @@ passwords
 ;
 public
 static
+final
 long
 PASSWORDS_TTL
 =

@@ -912,6 +912,7 @@ browser
 .
 public
 static
+final
 String
 HISTORY_VISITS_DATE
 =
@@ -921,6 +922,7 @@ date
 ;
 public
 static
+final
 String
 HISTORY_VISITS_COUNT
 =
@@ -930,6 +932,7 @@ visits
 ;
 public
 static
+final
 String
 HISTORY_VISITS_URL
 =
