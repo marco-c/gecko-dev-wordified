@@ -3130,7 +3130,7 @@ origin_url
 )
 .
 prePath
-formSubmitURL
+submitURL
 :
 null
 httpRealm
@@ -3210,7 +3210,7 @@ SCHEME_HTML
 :
 loginInfo
 .
-formSubmitURL
+submitURL
 =
 NetUtil
 .
