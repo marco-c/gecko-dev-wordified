@@ -127,7 +127,6 @@ addEventListener
 (
 eventName
 function
-onEvent
 (
 .
 .
@@ -135,14 +134,6 @@ onEvent
 args
 )
 {
-iframe
-.
-removeEventListener
-(
-eventName
-onEvent
-)
-;
 resolve
 (
 .
@@ -151,6 +142,11 @@ resolve
 args
 )
 ;
+}
+{
+once
+:
+true
 }
 )
 ;
