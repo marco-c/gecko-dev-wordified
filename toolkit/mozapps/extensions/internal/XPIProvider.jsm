@@ -678,6 +678,13 @@ jsm
 "
 )
 ;
+const
+{
+nsIBlocklistService
+}
+=
+Ci
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -697,9 +704,9 @@ blocklist
 ;
 1
 "
-Ci
-.
+"
 nsIBlocklistService
+"
 )
 ;
 XPCOMUtils
@@ -1877,7 +1884,7 @@ Corp
 "
 level
 :
-Blocklist
+nsIBlocklistService
 .
 STATE_BLOCKED
 blockID
@@ -1896,7 +1903,7 @@ org
 "
 level
 :
-Blocklist
+nsIBlocklistService
 .
 STATE_BLOCKED
 blockID
@@ -5467,7 +5474,7 @@ aAddon
 blocklistState
 =
 =
-Blocklist
+nsIBlocklistService
 .
 STATE_BLOCKED
 )
@@ -7419,7 +7426,7 @@ addon
 blocklistState
 =
 =
-Blocklist
+nsIBlocklistService
 .
 STATE_SOFTBLOCKED
 ;
@@ -9408,7 +9415,7 @@ addon
 blocklistState
 =
 =
-Blocklist
+nsIBlocklistService
 .
 STATE_SOFTBLOCKED
 ;
