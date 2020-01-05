@@ -9459,6 +9459,17 @@ label
 ;
 inline
 void
+branchIfNotRope
+(
+Register
+str
+Label
+*
+label
+)
+;
+inline
+void
 branchLatin1String
 (
 Register
@@ -13173,6 +13184,9 @@ Register
 index
 Register
 output
+Label
+*
+fail
 )
 ;
 void
