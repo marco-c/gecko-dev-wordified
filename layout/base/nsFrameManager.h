@@ -642,6 +642,7 @@ nsStyleContext
 *
 GetUndisplayedContent
 (
+const
 nsIContent
 *
 aContent
@@ -757,6 +758,7 @@ nsStyleContext
 *
 GetDisplayContentsStyleFor
 (
+const
 nsIContent
 *
 aContent
@@ -1207,6 +1209,7 @@ GetStyleContextInMap
 UndisplayedMap
 *
 aMap
+const
 nsIContent
 *
 aContent
