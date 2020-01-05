@@ -4959,7 +4959,7 @@ api
 .
 enabled
 "
-false
+true
 )
 ;
 pref
