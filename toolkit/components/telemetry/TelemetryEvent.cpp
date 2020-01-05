@@ -4516,11 +4516,6 @@ the
 same
 timeline
 .
-bool
-inconsistent
-=
-false
-;
 double
 relativeTimestamp
 =
@@ -4534,7 +4529,6 @@ TimeStamp
 :
 ProcessCreation
 (
-inconsistent
 )
 )
 .

@@ -76469,18 +76469,6 @@ slicesArray
 return
 nullptr
 ;
-bool
-ignored
-;
-/
-/
-Ignore
-inconsistencies
-in
-process
-creation
-timestamp
-.
 TimeStamp
 originTime
 =
@@ -76489,7 +76477,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 ;
 size_t

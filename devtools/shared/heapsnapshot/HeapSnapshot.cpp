@@ -9449,9 +9449,6 @@ TimeStamp
 now
 )
 {
-bool
-ignored
-;
 auto
 duration
 =
@@ -9462,7 +9459,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 ;
 return

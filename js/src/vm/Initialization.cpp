@@ -652,9 +652,6 @@ during
 /
 startup
 .
-bool
-ignored
-;
 mozilla
 :
 :
@@ -663,7 +660,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 ;
 #

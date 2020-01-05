@@ -649,9 +649,6 @@ PR_Now
 )
 )
 ;
-bool
-ignored
-;
 sStartTime
 =
 TimeStamp
@@ -659,7 +656,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 ;
 initialized

@@ -240,9 +240,6 @@ Now
 (
 )
 ;
-bool
-ignored
-;
 return
 (
 now
@@ -255,7 +252,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 )
 .

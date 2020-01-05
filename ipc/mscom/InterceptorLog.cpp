@@ -1516,9 +1516,6 @@ Now
 (
 )
 ;
-bool
-inconsistent
-;
 TimeDuration
 duration
 =
@@ -1529,7 +1526,6 @@ TimeStamp
 :
 ProcessCreation
 (
-inconsistent
 )
 ;
 return

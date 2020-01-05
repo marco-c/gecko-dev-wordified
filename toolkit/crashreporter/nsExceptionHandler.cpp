@@ -5711,11 +5711,6 @@ crashTimeString
 )
 ;
 }
-bool
-ignored
-=
-false
-;
 double
 uptimeTS
 =
@@ -5732,7 +5727,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 )
 .
@@ -17063,11 +17057,6 @@ crashTimeString
 )
 )
 ;
-bool
-ignored
-=
-false
-;
 double
 uptimeTS
 =
@@ -17084,7 +17073,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 )
 .
@@ -18686,10 +18674,6 @@ GetCurrentProcessId
 )
 )
 )
-.
-release
-(
-)
 ;
 const
 std
@@ -18894,10 +18878,6 @@ getpid
 (
 )
 )
-)
-.
-release
-(
 )
 ;
 const

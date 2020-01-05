@@ -377,11 +377,6 @@ TimeStamp
 aTime
 )
 {
-bool
-isInconsistent
-=
-false
-;
 mTime
 =
 (
@@ -392,7 +387,6 @@ TimeStamp
 :
 ProcessCreation
 (
-isInconsistent
 )
 )
 .

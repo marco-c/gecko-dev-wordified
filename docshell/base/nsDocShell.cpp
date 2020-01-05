@@ -16141,9 +16141,6 @@ DOMHighResTimeStamp
 aWhen
 )
 {
-bool
-ignore
-;
 *
 aWhen
 =
@@ -16160,7 +16157,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignore
 )
 )
 .

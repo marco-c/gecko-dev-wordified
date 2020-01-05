@@ -644,9 +644,6 @@ mLoadingEnabled
 false
 ;
 }
-bool
-isInconsistent
-;
 mMostRecentRequestChange
 =
 TimeStamp
@@ -654,7 +651,6 @@ TimeStamp
 :
 ProcessCreation
 (
-isInconsistent
 )
 ;
 }

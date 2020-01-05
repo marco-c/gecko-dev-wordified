@@ -18500,11 +18500,6 @@ double
 aRetval
 )
 {
-bool
-isInconsistent
-=
-false
-;
 TimeStamp
 start
 =
@@ -18513,7 +18508,6 @@ TimeStamp
 :
 ProcessCreation
 (
-isInconsistent
 )
 ;
 *
