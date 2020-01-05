@@ -703,8 +703,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 void
@@ -3852,8 +3850,6 @@ hook
 void
 FinishConstruction
 (
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 void
@@ -3897,6 +3893,16 @@ SetStyleBits
 (
 )
 ;
+/
+/
+Only
+called
+for
+Gecko
+-
+backed
+nsStyleContexts
+.
 void
 ApplyStyleFixups
 (
@@ -5697,8 +5703,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 #
