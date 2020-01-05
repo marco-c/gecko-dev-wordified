@@ -141,6 +141,17 @@ reset
 ;
 mPath
 .
+setFillType
+(
+Path
+.
+FillType
+.
+INVERSE_EVEN_ODD
+)
+;
+mPath
+.
 addCircle
 (
 width
