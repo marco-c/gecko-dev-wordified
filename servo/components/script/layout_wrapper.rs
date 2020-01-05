@@ -731,6 +731,15 @@ use
 style
 :
 :
+font_metrics
+:
+:
+ServoMetricsProvider
+;
+use
+style
+:
+:
 properties
 :
 :
@@ -2714,6 +2723,11 @@ ServoLayoutNode
 '
 le
 >
+;
+type
+FontMetricsProvider
+=
+ServoMetricsProvider
 ;
 fn
 as_node

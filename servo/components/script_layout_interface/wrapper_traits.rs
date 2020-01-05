@@ -194,6 +194,15 @@ use
 style
 :
 :
+font_metrics
+:
+:
+ServoMetricsProvider
+;
+use
+style
+:
+:
 properties
 :
 :
@@ -3212,6 +3221,8 @@ CascadeFlags
 empty
 (
 )
+&
+ServoMetricsProvider
 )
 ;
 data
@@ -3317,6 +3328,8 @@ primary
 values
 (
 )
+&
+ServoMetricsProvider
 )
 ;
 data

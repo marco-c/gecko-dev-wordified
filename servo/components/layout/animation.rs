@@ -155,6 +155,15 @@ use
 style
 :
 :
+font_metrics
+:
+:
+ServoMetricsProvider
+;
+use
+style
+:
+:
 selector_parser
 :
 :
@@ -1036,6 +1045,8 @@ mut
 fragment
 .
 style
+&
+ServoMetricsProvider
 )
 ;
 damage

@@ -106,6 +106,12 @@ point
 Point2D
 ;
 use
+font_metrics
+:
+:
+FontMetricsProvider
+;
+use
 keyframes
 :
 :
@@ -3000,6 +3006,10 @@ style_from_cascade
 :
 &
 ComputedValues
+font_metrics_provider
+:
+&
+FontMetricsProvider
 )
 -
 >
@@ -3158,13 +3168,7 @@ None
 context
 .
 error_reporter
-/
-*
-Metrics
-provider
-*
-/
-None
+font_metrics_provider
 CascadeFlags
 :
 :
@@ -3796,6 +3800,10 @@ Arc
 <
 ComputedValues
 >
+font_metrics_provider
+:
+&
+FontMetricsProvider
 )
 {
 debug
@@ -4695,6 +4703,7 @@ style
 state
 .
 cascade_style
+font_metrics_provider
 )
 ;
 /
@@ -4787,6 +4796,7 @@ from_style
 state
 .
 cascade_style
+font_metrics_provider
 )
 ;
 let

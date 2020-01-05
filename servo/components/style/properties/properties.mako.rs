@@ -14391,6 +14391,10 @@ error_reporter
 :
 &
 ParseErrorReporter
+font_metrics_provider
+:
+&
+FontMetricsProvider
 flags
 :
 CascadeFlags
@@ -14608,7 +14612,7 @@ inherited_style
 layout_parent_style
 cascade_info
 error_reporter
-None
+font_metrics_provider
 flags
 )
 }
@@ -14692,12 +14696,8 @@ error_reporter
 ParseErrorReporter
 font_metrics_provider
 :
-Option
-<
-<
 &
 FontMetricsProvider
->
 flags
 :
 CascadeFlags
@@ -15365,6 +15365,11 @@ LonghandId
 :
 :
 TransitionProperty
+|
+LonghandId
+:
+:
+XLang
 %
 endif
 )
