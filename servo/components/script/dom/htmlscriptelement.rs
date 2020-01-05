@@ -344,7 +344,7 @@ EncodingRef
 }
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName

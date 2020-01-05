@@ -555,7 +555,7 @@ label
 encoding_from_whatwg_label
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName

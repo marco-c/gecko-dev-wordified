@@ -64,7 +64,7 @@ ByteString
 struct
 .
 use
-html5ever_atoms
+html5ever
 :
 :
 {

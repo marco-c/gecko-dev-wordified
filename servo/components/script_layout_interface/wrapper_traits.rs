@@ -93,7 +93,7 @@ combine_id_with_fragment_type
 }
 ;
 use
-html5ever_atoms
+html5ever
 :
 :
 {

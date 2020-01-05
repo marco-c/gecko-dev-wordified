@@ -577,7 +577,7 @@ macro_use
 ]
 extern
 crate
-html5ever_atoms
+html5ever
 ;
 #
 [
@@ -1219,7 +1219,7 @@ servo
 ]
 pub
 use
-html5ever_atoms
+html5ever
 :
 :
 Prefix
@@ -1237,7 +1237,7 @@ servo
 ]
 pub
 use
-html5ever_atoms
+html5ever
 :
 :
 LocalName
@@ -1255,7 +1255,7 @@ servo
 ]
 pub
 use
-html5ever_atoms
+html5ever
 :
 :
 Namespace
