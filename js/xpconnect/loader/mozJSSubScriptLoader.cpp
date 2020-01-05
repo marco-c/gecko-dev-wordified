@@ -2384,9 +2384,6 @@ uriStr
 nsIIOService
 *
 serv
-nsIPrincipal
-*
-principal
 bool
 reuseGlobal
 MutableHandleScript
@@ -3686,7 +3683,6 @@ get
 )
 )
 serv
-principal
 reusingGlobal
 &
 script

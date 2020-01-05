@@ -234,9 +234,6 @@ uriStr
 nsIIOService
 *
 serv
-nsIPrincipal
-*
-principal
 bool
 reuseGlobal
 JS
