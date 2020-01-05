@@ -7810,7 +7810,7 @@ true
 ;
 GeckoThread
 .
-init
+initMainProcess
 (
 /
 *
@@ -7819,7 +7819,6 @@ profile
 /
 null
 args
-action
 /
 *
 debugging

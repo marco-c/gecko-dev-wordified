@@ -708,11 +708,6 @@ File
 mMozillaDir
 ;
 private
-final
-Context
-mApplicationContext
-;
-private
 Object
 mData
 ;
@@ -2303,14 +2298,6 @@ directory
 )
 ;
 }
-mApplicationContext
-=
-context
-.
-getApplicationContext
-(
-)
-;
 mName
 =
 profileName

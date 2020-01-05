@@ -478,11 +478,9 @@ GeckoThread
 .
 initChildProcess
 (
-null
 args
 crashReporterFd
 ipcFd
-false
 )
 )
 {
