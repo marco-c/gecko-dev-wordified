@@ -940,6 +940,16 @@ id
 =
 =
 "
+performanceGroup
+"
+|
+|
+child
+.
+id
+=
+=
+"
 header
 -
 general
