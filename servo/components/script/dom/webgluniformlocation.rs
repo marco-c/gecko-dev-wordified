@@ -222,7 +222,7 @@ trait
 WebGLUniformLocationHelpers
 {
 fn
-get_id
+id
 (
 self
 )
@@ -244,7 +244,7 @@ a
 WebGLUniformLocation
 {
 fn
-get_id
+id
 (
 self
 )
