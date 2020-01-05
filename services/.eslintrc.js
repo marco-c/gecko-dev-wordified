@@ -88,15 +88,6 @@ ternary
 "
 warn
 "
-"
-no
--
-undef
-"
-:
-"
-error
-"
 }
 }
 ;

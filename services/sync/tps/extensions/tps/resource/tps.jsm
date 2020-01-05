@@ -1165,12 +1165,6 @@ the
 appropriate
 authentication
 module
-/
-*
-global
-Authentication
-*
-/
 if
 (
 this

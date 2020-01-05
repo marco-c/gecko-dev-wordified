@@ -2666,8 +2666,6 @@ shutup
 :
 function
 (
-request
-response
 )
 {
 let

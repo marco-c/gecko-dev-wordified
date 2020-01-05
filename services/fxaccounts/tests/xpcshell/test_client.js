@@ -5389,14 +5389,6 @@ promise
 rejects
 "
 ;
-let
-emptyMessage
-=
-"
-{
-}
-"
-;
 const
 server
 =
@@ -5955,8 +5947,6 @@ baseURI
 )
 ;
 yield
-Assert
-.
 rejects
 (
 client

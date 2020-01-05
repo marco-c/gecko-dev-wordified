@@ -1018,7 +1018,6 @@ error
 null
 )
 ;
-let
 records
 =
 yield
@@ -1392,7 +1391,6 @@ clear
 (
 )
 ;
-let
 records
 =
 yield

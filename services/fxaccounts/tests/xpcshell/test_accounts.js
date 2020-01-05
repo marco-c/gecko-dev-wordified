@@ -1497,8 +1497,6 @@ html
 "
 )
 ;
-Assert
-.
 rejects
 (
 fxAccounts
