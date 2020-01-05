@@ -209,6 +209,15 @@ io
 :
 TcpStream
 ;
+use
+std
+:
+:
+num
+:
+:
+Float
+;
 #
 [
 deriving

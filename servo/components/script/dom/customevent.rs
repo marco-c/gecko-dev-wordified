@@ -190,7 +190,6 @@ event
 {
 Event
 EventTypeId
-CustomEventTypeId
 }
 ;
 use
@@ -273,7 +272,10 @@ type_id
 )
 =
 =
-CustomEventTypeId
+EventTypeId
+:
+:
+CustomEvent
 }
 }
 impl
@@ -337,7 +339,10 @@ CustomEvent
 :
 new_inherited
 (
-CustomEventTypeId
+EventTypeId
+:
+:
+CustomEvent
 )
 global
 CustomEventBinding

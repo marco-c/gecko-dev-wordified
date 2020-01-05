@@ -93,10 +93,9 @@ flow
 :
 {
 BaseFlow
-ForceNonfloated
-TableColGroupFlowClass
 FlowClass
 Flow
+ForceNonfloatedFlag
 }
 ;
 use
@@ -106,7 +105,7 @@ fragment
 {
 Fragment
 FragmentBoundsIterator
-TableColumnFragment
+SpecificFragmentInfo
 }
 ;
 use
@@ -321,6 +320,9 @@ clone
 )
 )
 writing_mode
+ForceNonfloatedFlag
+:
+:
 ForceNonfloated
 )
 fragment
@@ -356,7 +358,10 @@ self
 >
 FlowClass
 {
-TableColGroupFlowClass
+FlowClass
+:
+:
+TableColGroup
 }
 fn
 as_table_colgroup
@@ -460,7 +465,10 @@ fragment
 .
 specific
 {
-TableColumnFragment
+SpecificFragmentInfo
+:
+:
+TableColumn
 (
 col_fragment
 )

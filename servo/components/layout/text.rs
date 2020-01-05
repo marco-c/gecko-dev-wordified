@@ -76,8 +76,8 @@ fragment
 :
 {
 Fragment
+SpecificFragmentInfo
 ScannedTextFragmentInfo
-UnscannedTextFragment
 }
 ;
 use
@@ -724,7 +724,10 @@ unwrap
 .
 specific
 {
-UnscannedTextFragment
+SpecificFragmentInfo
+:
+:
+UnscannedText
 (
 _
 )
@@ -1070,7 +1073,10 @@ in_fragment
 .
 specific
 {
-UnscannedTextFragment
+SpecificFragmentInfo
+:
+:
+UnscannedText
 (
 ref
 text_fragment_info
@@ -1538,7 +1544,10 @@ debug
 "
 Elided
 an
-UnscannedTextFragment
+SpecificFragmentInfo
+:
+:
+UnscannedText
 because
 it
 was

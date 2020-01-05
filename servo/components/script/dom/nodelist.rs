@@ -302,6 +302,9 @@ NodeList
 new
 (
 window
+NodeListType
+:
+:
 Simple
 (
 elements
@@ -361,6 +364,9 @@ NodeList
 new
 (
 window
+NodeListType
+:
+:
 Children
 (
 JS
@@ -402,6 +408,9 @@ self
 .
 list_type
 {
+NodeListType
+:
+:
 Simple
 (
 ref
@@ -416,6 +425,9 @@ len
 )
 as
 u32
+NodeListType
+:
+:
 Children
 (
 ref
@@ -483,6 +495,9 @@ Length
 =
 >
 None
+NodeListType
+:
+:
 Simple
 (
 ref
@@ -509,6 +524,9 @@ clone
 )
 )
 )
+NodeListType
+:
+:
 Children
 (
 ref

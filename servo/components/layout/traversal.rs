@@ -89,9 +89,8 @@ matching
 :
 {
 ApplicableDeclarations
-CannotShare
 MatchMethods
-StyleWasShared
+StyleSharingResult
 }
 ;
 use
@@ -1338,6 +1337,9 @@ selectors
 match
 sharing_result
 {
+StyleSharingResult
+:
+:
 CannotShare
 (
 mut
@@ -1473,6 +1475,9 @@ node
 ;
 }
 }
+StyleSharingResult
+:
+:
 StyleWasShared
 (
 index

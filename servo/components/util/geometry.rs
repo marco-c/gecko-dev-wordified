@@ -124,6 +124,7 @@ num
 :
 :
 {
+Float
 NumCast
 Zero
 }

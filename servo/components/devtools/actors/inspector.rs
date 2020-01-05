@@ -182,6 +182,15 @@ io
 :
 TcpStream
 ;
+use
+std
+:
+:
+num
+:
+:
+Float
+;
 pub
 struct
 InspectorActor

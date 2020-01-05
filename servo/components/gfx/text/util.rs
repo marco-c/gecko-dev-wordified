@@ -57,6 +57,15 @@ MPL
 *
 /
 use
+self
+:
+:
+CompressionMode
+:
+:
+*
+;
+use
 text
 :
 :

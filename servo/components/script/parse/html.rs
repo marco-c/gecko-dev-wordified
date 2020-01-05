@@ -161,7 +161,7 @@ element
 Element
 AttributeHandlers
 ElementHelpers
-ParserCreated
+ElementCreator
 }
 ;
 use
@@ -243,7 +243,7 @@ types
 :
 {
 Encoding
-DecodeReplace
+DecoderTrap
 }
 ;
 use
@@ -675,6 +675,9 @@ name
 None
 *
 doc
+ElementCreator
+:
+:
 ParserCreated
 )
 .
@@ -1505,6 +1508,9 @@ IN_HTML_PARSER
 match
 input
 {
+HTMLInput
+:
+:
 InputString
 (
 s
@@ -1520,6 +1526,9 @@ s
 )
 ;
 }
+HTMLInput
+:
+:
 InputUrl
 (
 load_response
@@ -1658,7 +1667,10 @@ data
 as_slice
 (
 )
-DecodeReplace
+DecoderTrap
+:
+:
+Replace
 )
 .
 unwrap

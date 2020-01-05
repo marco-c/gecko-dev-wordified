@@ -92,7 +92,7 @@ compositing
 windowing
 :
 :
-LoadUrlWindowEvent
+WindowEvent
 ;
 use
 std
@@ -224,7 +224,10 @@ core
 :
 send_window_event
 (
-LoadUrlWindowEvent
+WindowEvent
+:
+:
+LoadUrl
 (
 String
 :

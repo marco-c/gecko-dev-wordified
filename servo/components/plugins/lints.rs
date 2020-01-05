@@ -728,15 +728,6 @@ node
 ast
 :
 :
-TyUniq
-(
-ref
-t
-)
-|
-ast
-:
-:
 TyVec
 (
 ref

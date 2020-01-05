@@ -69,6 +69,9 @@ use
 types
 :
 :
+cef_paint_element_type_t
+:
+:
 PET_VIEW
 ;
 use

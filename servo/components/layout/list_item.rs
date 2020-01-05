@@ -129,7 +129,6 @@ flow
 {
 Flow
 FlowClass
-ListItemFlowClass
 }
 ;
 use
@@ -327,7 +326,10 @@ self
 >
 FlowClass
 {
-ListItemFlowClass
+FlowClass
+:
+:
+ListItem
 }
 fn
 as_block

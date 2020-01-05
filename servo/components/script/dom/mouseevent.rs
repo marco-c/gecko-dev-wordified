@@ -202,7 +202,7 @@ event
 :
 {
 Event
-MouseEventTypeId
+EventTypeId
 }
 ;
 use
@@ -354,7 +354,10 @@ type_id
 )
 =
 =
-MouseEventTypeId
+EventTypeId
+:
+:
+MouseEvent
 }
 }
 impl
@@ -377,7 +380,10 @@ UIEvent
 :
 new_inherited
 (
-MouseEventTypeId
+EventTypeId
+:
+:
+MouseEvent
 )
 screen_x
 :

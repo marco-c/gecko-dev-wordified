@@ -153,7 +153,7 @@ eventtarget
 :
 {
 EventTarget
-WebSocketTypeId
+EventTargetTypeId
 }
 ;
 use
@@ -204,7 +204,10 @@ EventTarget
 :
 new_inherited
 (
-WebSocketTypeId
+EventTargetTypeId
+:
+:
+WebSocket
 )
 url
 :

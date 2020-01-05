@@ -189,7 +189,7 @@ event
 :
 {
 Event
-MessageEventTypeId
+EventTypeId
 }
 ;
 use
@@ -278,7 +278,10 @@ type_id
 )
 =
 =
-MessageEventTypeId
+EventTypeId
+:
+:
+MessageEvent
 }
 }
 impl
@@ -310,7 +313,10 @@ Event
 :
 new_inherited
 (
-MessageEventTypeId
+EventTypeId
+:
+:
+MessageEvent
 )
 data
 :

@@ -382,8 +382,6 @@ format
 (
 "
 {
-:
-s
 }
 Watcher
 "
@@ -446,8 +444,6 @@ debug
 (
 "
 {
-:
-s
 }
 failed
 notifying

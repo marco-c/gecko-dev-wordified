@@ -84,7 +84,7 @@ compositor_task
 :
 {
 CompositorProxy
-ScrollTimeout
+Msg
 }
 ;
 use
@@ -329,6 +329,9 @@ sender
 .
 send
 (
+ToScrollingTimerMsg
+:
+:
 ScrollEventProcessedMsg
 (
 timestamp
@@ -350,6 +353,9 @@ sender
 .
 send
 (
+ToScrollingTimerMsg
+:
+:
 ExitMsg
 )
 ;
@@ -380,6 +386,9 @@ recv_opt
 {
 Ok
 (
+ToScrollingTimerMsg
+:
+:
 ScrollEventProcessedMsg
 (
 timestamp
@@ -433,6 +442,9 @@ compositor_proxy
 .
 send
 (
+Msg
+:
+:
 ScrollTimeout
 (
 timestamp
@@ -442,6 +454,9 @@ timestamp
 }
 Ok
 (
+ToScrollingTimerMsg
+:
+:
 ExitMsg
 )
 |

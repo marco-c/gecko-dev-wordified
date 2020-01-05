@@ -69,11 +69,10 @@ use
 image_cache_task
 :
 :
-{
-ImageReady
-ImageNotReady
-ImageFailed
-}
+ImageResponseMsg
+:
+:
+*
 ;
 use
 local_image_cache

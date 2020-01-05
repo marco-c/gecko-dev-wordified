@@ -157,7 +157,6 @@ windowing
 :
 :
 {
-IdleWindowEvent
 WindowEvent
 WindowMethods
 }
@@ -600,7 +599,10 @@ self
 >
 WindowEvent
 {
-IdleWindowEvent
+WindowEvent
+:
+:
+Idle
 }
 }
 impl

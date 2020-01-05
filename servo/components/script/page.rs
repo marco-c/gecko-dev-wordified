@@ -352,7 +352,7 @@ std
 num
 :
 :
-abs
+Float
 ;
 use
 std
@@ -3401,7 +3401,6 @@ size
 *
 VIEWPORT_SCROLL_MARGIN_SIZE
 ;
-abs
 (
 clip_rect
 .
@@ -3415,6 +3414,10 @@ origin
 .
 x
 )
+.
+abs
+(
+)
 <
 =
 viewport_scroll_margin
@@ -3422,7 +3425,6 @@ viewport_scroll_margin
 width
 |
 |
-abs
 (
 clip_rect
 .
@@ -3436,6 +3438,10 @@ max_x
 (
 )
 )
+.
+abs
+(
+)
 <
 =
 viewport_scroll_margin
@@ -3443,7 +3449,6 @@ viewport_scroll_margin
 width
 |
 |
-abs
 (
 clip_rect
 .
@@ -3456,6 +3461,10 @@ new_viewport
 origin
 .
 y
+)
+.
+abs
+(
 )
 <
 =
@@ -3464,7 +3473,6 @@ viewport_scroll_margin
 height
 |
 |
-abs
 (
 clip_rect
 .
@@ -3477,6 +3485,10 @@ new_viewport
 max_y
 (
 )
+)
+.
+abs
+(
 )
 <
 =

@@ -394,9 +394,6 @@ PrototypeList
 :
 :
 id
-:
-:
-ID
 ;
 /
 /
@@ -1797,6 +1794,9 @@ default
 >
 StringificationBehavior
 {
+StringificationBehavior
+:
+:
 Default
 }
 }
@@ -2007,6 +2007,9 @@ if
 nullBehavior
 =
 =
+StringificationBehavior
+:
+:
 Empty
 &
 &
