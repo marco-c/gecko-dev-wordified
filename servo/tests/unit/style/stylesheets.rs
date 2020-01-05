@@ -294,6 +294,9 @@ UserAgent
 media
 :
 None
+dirty_on_viewport_size_change
+:
+false
 rules
 :
 vec
