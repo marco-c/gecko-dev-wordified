@@ -255,16 +255,7 @@ mozilla
 ipc
 :
 :
-IProtocolManager
-<
-mozilla
-:
-:
-ipc
-:
-:
 IProtocol
->
 :
 :
 ActorDestroyReason
