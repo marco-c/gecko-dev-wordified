@@ -1001,6 +1001,11 @@ CantInlineDebuggee
 \
 _
 (
+CantInlineUnknownProps
+)
+\
+_
+(
 CantInlineExceededDepth
 )
 \
