@@ -66,7 +66,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 ClientRectListBinding

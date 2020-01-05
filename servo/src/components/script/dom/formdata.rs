@@ -96,7 +96,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 FormDataBinding

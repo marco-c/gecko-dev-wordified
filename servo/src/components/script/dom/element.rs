@@ -95,7 +95,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 ElementBinding

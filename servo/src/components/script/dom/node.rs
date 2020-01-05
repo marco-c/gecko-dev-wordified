@@ -172,7 +172,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 NodeBinding

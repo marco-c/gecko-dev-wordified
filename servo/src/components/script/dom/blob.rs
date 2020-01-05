@@ -110,7 +110,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 BlobBinding

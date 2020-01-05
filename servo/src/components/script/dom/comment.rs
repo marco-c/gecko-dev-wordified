@@ -81,7 +81,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 CommentBinding

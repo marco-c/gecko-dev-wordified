@@ -84,7 +84,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 HTMLCollectionBinding

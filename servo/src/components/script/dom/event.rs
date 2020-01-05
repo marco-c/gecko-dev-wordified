@@ -66,7 +66,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 EventBinding
@@ -81,7 +81,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 EventBinding

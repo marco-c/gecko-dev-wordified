@@ -66,7 +66,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 DOMParserBinding
@@ -81,7 +81,7 @@ bindings
 codegen
 :
 :
-BindingDeclarations
+Bindings
 :
 :
 DOMParserBinding
