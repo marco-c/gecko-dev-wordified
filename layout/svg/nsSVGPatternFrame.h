@@ -772,6 +772,9 @@ reference
 this
 one
 frame
+mozilla
+:
+:
 SVGGeometryFrame
 *
 mSource
