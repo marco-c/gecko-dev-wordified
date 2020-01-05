@@ -1226,6 +1226,12 @@ nsIFrame
 aFrame
 )
 ;
+inline
+void
+UpdateOnlyAnimationStyles
+(
+)
+;
 /
 /
 Get
