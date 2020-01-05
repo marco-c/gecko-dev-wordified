@@ -10776,6 +10776,7 @@ platform
 )
         
 for
+test_type
 path
 tests
 in
@@ -10792,16 +10793,8 @@ tests_root
 path
 )
             
-for
-test
-in
-tests
-:
-                
 if
-test
-.
-item_type
+test_type
 not
 in
 [
@@ -10811,10 +10804,19 @@ testharness
 "
 reftest
 "
+"
+wdspec
+"
 ]
 :
-                    
+                
 continue
+            
+for
+test
+in
+tests
+:
                 
 obj
 .
