@@ -2772,17 +2772,22 @@ unwrap
 }
 )
 ;
-loop
-{
-match
+while
+let
+Ok
+(
+msg
+)
+=
 receiver
 .
 recv
 (
 )
 {
-Ok
-(
+match
+msg
+{
 DevtoolsControlMsg
 :
 :
@@ -2794,7 +2799,6 @@ ChromeToDevtoolsControlMsg
 AddClient
 (
 stream
-)
 )
 )
 =
@@ -2853,8 +2857,6 @@ unwrap
 }
 )
 }
-Ok
-(
 DevtoolsControlMsg
 :
 :
@@ -2869,7 +2871,6 @@ actor_name
 tick
 )
 )
-)
 =
 >
 handle_framerate_tick
@@ -2882,8 +2883,6 @@ clone
 actor_name
 tick
 )
-Ok
-(
 DevtoolsControlMsg
 :
 :
@@ -2897,7 +2896,6 @@ NewGlobal
 ids
 script_sender
 pageinfo
-)
 )
 )
 =
@@ -2919,8 +2917,6 @@ mut
 actor_workers
 pageinfo
 )
-Ok
-(
 DevtoolsControlMsg
 :
 :
@@ -2934,7 +2930,6 @@ ConsoleAPI
 id
 console_message
 worker_id
-)
 )
 )
 =
@@ -2954,8 +2949,6 @@ actor_pipelines
 &
 actor_workers
 )
-Ok
-(
 DevtoolsControlMsg
 :
 :
@@ -2968,7 +2961,6 @@ NetworkEvent
 (
 request_id
 network_event
-)
 )
 )
 =
@@ -3070,8 +3062,6 @@ network_event
 )
 ;
 }
-Ok
-(
 DevtoolsControlMsg
 :
 :
@@ -3081,12 +3071,6 @@ ChromeToDevtoolsControlMsg
 :
 :
 ServerExitMsg
-)
-)
-|
-Err
-(
-RecvError
 )
 =
 >
