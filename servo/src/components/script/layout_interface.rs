@@ -344,12 +344,7 @@ ScriptView
 >
 Chan
 <
-Result
-<
 ContentBoxResponse
-(
-)
->
 >
 )
 /
@@ -379,12 +374,7 @@ ScriptView
 >
 Chan
 <
-Result
-<
 ContentBoxesResponse
-(
-)
->
 >
 )
 /
