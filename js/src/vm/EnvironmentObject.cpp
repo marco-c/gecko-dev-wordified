@@ -8751,7 +8751,7 @@ callee
 (
 )
 .
-nonLazyScript
+existingScriptNonDelazifying
 (
 )
 )
