@@ -15222,6 +15222,13 @@ mHadNonBlankPaint
 =
 true
 ;
+if
+(
+IsRootContentDocument
+(
+)
+)
+{
 RefPtr
 <
 nsDOMNavigationTiming
@@ -15243,10 +15250,11 @@ timing
 timing
 -
 >
-NotifyNonBlankPaint
+NotifyNonBlankPaintForRootContentDocument
 (
 )
 ;
+}
 }
 }
 bool
