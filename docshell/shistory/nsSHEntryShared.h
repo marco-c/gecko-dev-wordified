@@ -419,7 +419,7 @@ Duplicate
 )
 implementation
 .
-uint64_t
+nsID
 mDocShellID
 ;
 nsCOMArray

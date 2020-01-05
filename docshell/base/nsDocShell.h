@@ -6068,7 +6068,7 @@ mInEnsureScriptEnv
 ;
 #
 endif
-uint64_t
+nsID
 mHistoryID
 ;
 uint32_t

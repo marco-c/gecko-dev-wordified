@@ -433,7 +433,9 @@ nsSHEntryShared
 :
 mDocShellID
 (
+{
 0
+}
 )
 mIsFrameNavigation
 (
