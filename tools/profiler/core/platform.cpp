@@ -19526,8 +19526,8 @@ const
 char
 *
 aInfo
-TracingMetadata
-aMetaData
+TracingKind
+aKind
 )
 {
 /
@@ -19588,7 +19588,7 @@ new
 ProfilerMarkerTracing
 (
 aCategory
-aMetaData
+aKind
 )
 ;
 locked_profiler_add_marker
@@ -19612,8 +19612,8 @@ char
 aInfo
 UniqueProfilerBacktrace
 aCause
-TracingMetadata
-aMetaData
+TracingKind
+aKind
 )
 {
 /
@@ -19674,7 +19674,7 @@ new
 ProfilerMarkerTracing
 (
 aCategory
-aMetaData
+aKind
 mozilla
 :
 :

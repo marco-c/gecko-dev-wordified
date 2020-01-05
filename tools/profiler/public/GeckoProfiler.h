@@ -313,7 +313,7 @@ class
 nsIProfilerStartParams
 ;
 enum
-TracingMetadata
+TracingKind
 {
 TRACING_EVENT
 TRACING_INTERVAL_START
@@ -1100,8 +1100,8 @@ const
 char
 *
 aInfo
-TracingMetadata
-metaData
+TracingKind
+aKind
 =
 TRACING_EVENT
 )
@@ -1120,8 +1120,8 @@ char
 aInfo
 UniqueProfilerBacktrace
 aCause
-TracingMetadata
-metaData
+TracingKind
+aKind
 =
 TRACING_EVENT
 )
