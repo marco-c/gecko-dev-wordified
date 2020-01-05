@@ -311,7 +311,7 @@ script_traits
 :
 {
 MsDuration
-TimerEventChan
+TimerEvent
 TimerEventId
 TimerEventRequest
 TimerSource
@@ -354,10 +354,7 @@ sync
 mpsc
 :
 :
-{
 Receiver
-Sender
-}
 ;
 use
 timers
@@ -446,7 +443,7 @@ ConstellationChan
 pub
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
@@ -735,7 +732,7 @@ std
 ]
 scheduler_chan
 :
-Sender
+IpcSender
 <
 TimerEventRequest
 >
@@ -767,11 +764,9 @@ DevtoolScriptControlMsg
 >
 timer_event_chan
 :
-Box
+IpcSender
 <
-TimerEventChan
-+
-Send
+TimerEvent
 >
 )
 -
@@ -1023,7 +1018,7 @@ self
 )
 -
 >
-Sender
+IpcSender
 <
 TimerEventRequest
 >
