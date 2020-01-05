@@ -173,6 +173,9 @@ mozilla
 class
 MediaRawData
 ;
+class
+ChromiumCDMProxy
+;
 enum
 DecryptStatus
 {
@@ -1348,6 +1351,17 @@ GetDecryptorId
 {
 return
 0
+;
+}
+virtual
+ChromiumCDMProxy
+*
+AsChromiumCDMProxy
+(
+)
+{
+return
+nullptr
 ;
 }
 protected
