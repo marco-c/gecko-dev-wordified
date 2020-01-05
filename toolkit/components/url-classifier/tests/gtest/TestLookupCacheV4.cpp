@@ -216,6 +216,9 @@ LookupCacheV4
 >
 (
 GTEST_TABLE
+EmptyCString
+(
+)
 file
 )
 ;

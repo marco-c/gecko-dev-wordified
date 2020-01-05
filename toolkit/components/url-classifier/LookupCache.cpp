@@ -398,6 +398,10 @@ const
 nsACString
 &
 aTableName
+const
+nsACString
+&
+aProvider
 nsIFile
 *
 aRootStoreDir
@@ -410,6 +414,10 @@ false
 mTableName
 (
 aTableName
+)
+mProvider
+(
+aProvider
 )
 mRootStoreDirectory
 (
@@ -508,6 +516,7 @@ GetPrivateStoreDirectory
 (
 mRootStoreDirectory
 mTableName
+mProvider
 getter_AddRefs
 (
 mStoreDirectory
@@ -2778,6 +2787,7 @@ HashStore
 store
 (
 mTableName
+mProvider
 mRootStoreDirectory
 )
 ;
