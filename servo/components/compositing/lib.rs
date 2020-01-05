@@ -150,10 +150,6 @@ msg
 ;
 extern
 crate
-net
-;
-extern
-crate
 num
 ;
 #

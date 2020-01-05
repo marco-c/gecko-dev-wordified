@@ -251,7 +251,7 @@ KeyModifiers
 }
 ;
 use
-net
+net_traits
 :
 :
 net_error_list

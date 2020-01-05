@@ -269,10 +269,6 @@ url
 ;
 extern
 crate
-net
-;
-extern
-crate
 net_traits
 ;
 extern

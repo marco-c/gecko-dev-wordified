@@ -121,7 +121,7 @@ c95
 wchar_t
 ;
 use
-net
+net_traits
 :
 :
 net_error_list

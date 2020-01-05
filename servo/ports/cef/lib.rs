@@ -230,7 +230,7 @@ script_traits
 ;
 extern
 crate
-net
+net_traits
 ;
 extern
 crate

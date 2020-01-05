@@ -279,6 +279,10 @@ image_cache_task
 ;
 pub
 mod
+net_error_list
+;
+pub
+mod
 storage_task
 ;
 pub
