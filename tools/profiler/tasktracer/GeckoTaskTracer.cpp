@@ -548,6 +548,7 @@ mCurTaskId
 newId
 ;
 uintptr_t
+*
 namePtr
 ;
 #
@@ -570,6 +571,7 @@ namePtr
 =
 (
 uintptr_t
+*
 )
 &
 CreateSourceEvent
@@ -634,7 +636,6 @@ LogVirtualTablePtr
 (
 newId
 newId
-&
 namePtr
 )
 ;
@@ -1809,7 +1810,6 @@ p
 "
 ACTION_GET_VTABLE
 aTaskId
-*
 aVptr
 )
 ;
