@@ -174,6 +174,10 @@ msg
 ;
 extern
 crate
+num_traits
+;
+extern
+crate
 serde
 ;
 extern

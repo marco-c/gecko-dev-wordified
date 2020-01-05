@@ -223,6 +223,13 @@ i64
 impl
 File
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 new_inherited
 (
@@ -329,6 +336,13 @@ i64
 }
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new
