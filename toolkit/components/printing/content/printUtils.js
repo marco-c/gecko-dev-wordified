@@ -830,7 +830,9 @@ try
 let
 PSSVC
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -849,7 +851,9 @@ service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIPrintSettingsService
 )
