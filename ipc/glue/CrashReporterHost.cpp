@@ -607,9 +607,12 @@ analysis
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+Unused
+<
+<
+NS_WARN_IF
 (
-NS_SUCCEEDED
+NS_FAILED
 (
 rv
 )
