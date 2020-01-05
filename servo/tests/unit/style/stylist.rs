@@ -104,7 +104,6 @@ properties
 {
 PropertyDeclarationBlock
 PropertyDeclaration
-DeclaredValue
 }
 ;
 use
@@ -287,11 +286,6 @@ PropertyDeclaration
 :
 Display
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -302,7 +296,6 @@ SpecifiedValue
 :
 :
 block
-)
 )
 Importance
 :

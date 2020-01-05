@@ -199,6 +199,7 @@ properties
 :
 {
 CSSWideKeyword
+DeclaredValueOwned
 PropertyDeclaration
 PropertyDeclarationBlock
 }
@@ -210,10 +211,7 @@ style
 properties
 :
 :
-{
-DeclaredValue
 longhands
-}
 ;
 use
 style
@@ -917,11 +915,6 @@ PropertyDeclaration
 :
 Display
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -932,7 +925,6 @@ SpecifiedValue
 :
 :
 none
-)
 )
 Importance
 :
@@ -954,7 +946,7 @@ from
 a
 "
 )
-DeclaredValue
+DeclaredValueOwned
 :
 :
 CSSWideKeyword
@@ -1247,11 +1239,6 @@ PropertyDeclaration
 :
 Display
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1262,7 +1249,6 @@ SpecifiedValue
 :
 :
 block
-)
 )
 Importance
 :
@@ -1500,11 +1486,6 @@ PropertyDeclaration
 :
 BackgroundColor
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1555,7 +1536,6 @@ new
 )
 }
 )
-)
 Importance
 :
 :
@@ -1566,11 +1546,6 @@ PropertyDeclaration
 :
 :
 BackgroundPositionX
-(
-DeclaredValue
-:
-:
-Value
 (
 longhands
 :
@@ -1596,7 +1571,6 @@ get_initial_position_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1610,11 +1584,6 @@ PropertyDeclaration
 :
 BackgroundPositionY
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1641,7 +1610,6 @@ get_initial_position_value
 ]
 )
 )
-)
 Importance
 :
 :
@@ -1652,11 +1620,6 @@ PropertyDeclaration
 :
 :
 BackgroundRepeat
-(
-DeclaredValue
-:
-:
-Value
 (
 longhands
 :
@@ -1682,7 +1645,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1696,11 +1658,6 @@ PropertyDeclaration
 :
 BackgroundAttachment
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1725,7 +1682,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1739,11 +1695,6 @@ PropertyDeclaration
 :
 BackgroundImage
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1768,7 +1719,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1782,11 +1732,6 @@ PropertyDeclaration
 :
 BackgroundSize
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1811,7 +1756,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1825,11 +1769,6 @@ PropertyDeclaration
 :
 BackgroundOrigin
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1854,7 +1793,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1868,11 +1806,6 @@ PropertyDeclaration
 :
 BackgroundClip
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -1897,7 +1830,6 @@ get_initial_specified_value
 (
 )
 ]
-)
 )
 )
 Importance
@@ -1999,11 +1931,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -2013,7 +1940,6 @@ Percentage
 (
 0
 .
-)
 )
 )
 )
@@ -2084,11 +2010,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -2098,7 +2019,6 @@ Percentage
 (
 1
 .
-)
 )
 )
 )
@@ -2112,11 +2032,6 @@ PropertyDeclaration
 :
 :
 AnimationPlayState
-(
-DeclaredValue
-:
-:
-Value
 (
 animation_play_state
 :
@@ -2134,7 +2049,6 @@ SingleSpecifiedValue
 :
 running
 ]
-)
 )
 )
 Importance

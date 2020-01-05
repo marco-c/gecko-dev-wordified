@@ -105,7 +105,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 PropertyDeclarationBlock
 Importance
@@ -381,11 +380,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -397,7 +391,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -443,11 +436,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -459,7 +447,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -478,11 +465,6 @@ PropertyDeclaration
 :
 Height
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -494,7 +476,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -761,11 +742,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -777,7 +753,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -796,11 +771,6 @@ PropertyDeclaration
 :
 Height
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -812,7 +782,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -850,11 +819,6 @@ PropertyDeclaration
 :
 Height
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -866,7 +830,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -1130,11 +1093,6 @@ PropertyDeclaration
 :
 Width
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -1146,7 +1104,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
@@ -1165,11 +1122,6 @@ PropertyDeclaration
 :
 Height
 (
-DeclaredValue
-:
-:
-Value
-(
 LengthOrPercentageOrAuto
 :
 :
@@ -1181,7 +1133,6 @@ NoCalcLength
 from_px
 (
 20f32
-)
 )
 )
 )
