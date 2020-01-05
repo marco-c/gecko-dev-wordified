@@ -1522,6 +1522,9 @@ refcnt
 ;
 if
 (
+mThread
+&
+&
 count
 =
 =
