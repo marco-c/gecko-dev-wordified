@@ -2967,7 +2967,7 @@ classList
 contains
 (
 "
-active
+checked
 "
 )
 expected

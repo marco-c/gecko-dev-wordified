@@ -334,7 +334,7 @@ touchButtonClass
 +
 =
 "
-active
+checked
 "
 ;
 }
