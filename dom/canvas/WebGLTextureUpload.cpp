@@ -200,6 +200,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -4708,7 +4717,9 @@ needs
 u
 has
 %
-u
+"
+PRIuSIZE
+"
 )
 "
 funcName
@@ -9471,7 +9482,9 @@ error
 during
 upload
 :
-0x04x
+0x
+%
+04x
 "
 funcName
 glError
