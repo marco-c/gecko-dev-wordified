@@ -164,16 +164,6 @@ NS_DECL_NSISHELLSERVICE
 NS_DECL_NSIWINDOWSSHELLSERVICE
 protected
 :
-bool
-IsDefaultBrowserVista
-(
-bool
-aCheckAllTypes
-bool
-*
-aIsDefaultBrowser
-)
-;
 nsresult
 LaunchControlPanelDefaultsSelectionUI
 (
