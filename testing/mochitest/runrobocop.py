@@ -58,8 +58,6 @@ json
 import
 os
 import
-shutil
-import
 sys
 import
 tempfile
@@ -2202,25 +2200,6 @@ time
 by
 not
 pushing
-        
-shutil
-.
-rmtree
-(
-os
-.
-path
-.
-join
-(
-self
-.
-localProfile
-'
-webapps
-'
-)
-)
         
 os
 .
