@@ -677,6 +677,16 @@ info
 .
 fieldName
 )
+|
+|
+FormAutofillContent
+.
+getFormHandler
+(
+focusedInput
+)
+.
+filledProfileGUID
 )
 {
 let
