@@ -920,6 +920,17 @@ JSObject
 aOutObj
 )
 ;
+NS_IMETHOD
+ControlGPUProcessForXPCShell
+(
+bool
+aEnable
+bool
+*
+_retval
+)
+override
+;
 private
 :
 virtual
