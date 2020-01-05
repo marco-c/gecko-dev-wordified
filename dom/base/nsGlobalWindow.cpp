@@ -43163,6 +43163,9 @@ nsGlobalWindow
 :
 HomeOuter
 (
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -43436,6 +43439,8 @@ LOAD_FLAGS_NONE
 nullptr
 nullptr
 nullptr
+&
+aSubjectPrincipal
 )
 ;
 }
@@ -43445,6 +43450,9 @@ nsGlobalWindow
 :
 Home
 (
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -43454,6 +43462,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 HomeOuter
 (
+aSubjectPrincipal
 aError
 )
 aError
