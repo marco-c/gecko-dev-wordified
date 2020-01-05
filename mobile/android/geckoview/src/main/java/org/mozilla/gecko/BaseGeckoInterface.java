@@ -223,17 +223,6 @@ listener
 )
 {
 }
-Override
-public
-boolean
-areTabsShown
-(
-)
-{
-return
-false
-;
-}
 /
 /
 Bug
