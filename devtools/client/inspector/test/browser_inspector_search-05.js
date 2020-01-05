@@ -78,6 +78,11 @@ the
 right
 nodes
 .
+requestLongerTimeout
+(
+2
+)
+;
 const
 IFRAME_SRC
 =
