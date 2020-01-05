@@ -251,10 +251,6 @@ utf
 '
 )
 f
-.
-read
-(
-)
 mode
 =
 f
