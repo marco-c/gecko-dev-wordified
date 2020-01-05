@@ -13437,14 +13437,6 @@ gUseStackWalk
 =
 false
 ;
-if
-(
-gIsActive
-)
-PlatformStop
-(
-)
-;
 /
 /
 Destroy
