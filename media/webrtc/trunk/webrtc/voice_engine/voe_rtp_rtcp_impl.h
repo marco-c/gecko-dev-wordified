@@ -361,6 +361,17 @@ stats
 override
 ;
 int
+GetRTCPPacketTypeCounters
+(
+int
+channel
+RtcpPacketTypeCounter
+&
+stats
+)
+override
+;
+int
 GetRemoteRTCPReportBlocks
 (
 int
