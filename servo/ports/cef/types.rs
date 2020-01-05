@@ -285,7 +285,7 @@ pub
 type
 cef_window_handle_t
 =
-c_uint
+c_ulong
 ;
 #
 [
