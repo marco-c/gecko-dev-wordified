@@ -599,9 +599,7 @@ assertEqual
 (
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 get_pref
 (

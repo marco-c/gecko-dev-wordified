@@ -73,14 +73,6 @@ api
 appinfo
 import
 AppInfo
-from
-firefox_puppeteer
-.
-api
-.
-prefs
-import
-Preferences
 class
 ActiveUpdate
 (
@@ -1381,15 +1373,6 @@ marionette
         
 self
 .
-prefs
-=
-Preferences
-(
-marionette
-)
-        
-self
-.
 _mar_channels
 =
 MARChannels
@@ -1733,7 +1716,7 @@ disabled_addons
 :
 self
 .
-prefs
+marionette
 .
 get_pref
 (
@@ -2475,13 +2458,14 @@ channel
 return
 self
 .
-prefs
+marionette
 .
 get_pref
 (
 self
 .
 PREF_APP_UPDATE_CHANNEL
+                                        
 default_branch
 =
 True
@@ -2530,7 +2514,7 @@ use
         
 self
 .
-prefs
+marionette
 .
 set_pref
 (
@@ -2538,6 +2522,7 @@ self
 .
 PREF_APP_UPDATE_CHANNEL
 channel
+                                 
 default_branch
 =
 True
@@ -2571,13 +2556,14 @@ checks
 return
 self
 .
-prefs
+marionette
 .
 get_pref
 (
 self
 .
 PREF_APP_UPDATE_URL
+                                        
 default_branch
 =
 True
@@ -2626,7 +2612,7 @@ use
         
 self
 .
-prefs
+marionette
 .
 set_pref
 (
@@ -2634,6 +2620,7 @@ self
 .
 PREF_APP_UPDATE_URL
 url
+                                 
 default_branch
 =
 True

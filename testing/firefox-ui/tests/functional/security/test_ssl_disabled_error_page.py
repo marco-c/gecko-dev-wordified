@@ -190,9 +190,7 @@ Possible_values_and_their_effects
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (
@@ -210,9 +208,7 @@ min
         
 self
 .
-puppeteer
-.
-prefs
+marionette
 .
 set_pref
 (
