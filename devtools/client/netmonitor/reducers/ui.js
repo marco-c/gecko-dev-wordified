@@ -112,7 +112,7 @@ statisticsOpen
 false
 waterfallWidth
 :
-300
+null
 }
 )
 ;
