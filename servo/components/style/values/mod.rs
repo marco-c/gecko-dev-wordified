@@ -905,7 +905,7 @@ name
 inline
 ]
 fn
-interpolate
+add_weighted
 (
 &
 self
@@ -913,7 +913,10 @@ _other
 :
 &
 Self
-_progress
+_self_progress
+:
+f64
+_other_progress
 :
 f64
 )
