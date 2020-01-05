@@ -111,6 +111,12 @@ use
 file_loader
 ;
 use
+filemanager_thread
+:
+:
+FileManagerThreadFactory
+;
+use
 hsts
 :
 :
@@ -1297,6 +1303,12 @@ devtools_chan
 profiler_chan
 )
 StorageThreadFactory
+:
+:
+new
+(
+)
+FileManagerThreadFactory
 :
 :
 new
