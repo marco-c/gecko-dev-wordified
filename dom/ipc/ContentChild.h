@@ -3192,9 +3192,10 @@ const
 nsCString
 &
 aURI
-PBlobChild
-*
-aBlobChild
+const
+IPCBlob
+&
+aBlob
 const
 IPC
 :
