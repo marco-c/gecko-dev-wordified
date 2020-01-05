@@ -18476,6 +18476,12 @@ test
 false
 )
 ;
+if
+(
+this
+.
+SharedArrayBuffer
+)
 test
 (
 true
