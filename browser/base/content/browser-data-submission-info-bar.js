@@ -474,7 +474,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {

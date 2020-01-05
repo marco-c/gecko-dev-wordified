@@ -1802,7 +1802,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {

@@ -4358,7 +4358,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {
@@ -43860,7 +43859,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {

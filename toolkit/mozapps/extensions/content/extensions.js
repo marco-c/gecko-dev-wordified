@@ -8862,7 +8862,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {
