@@ -66,8 +66,6 @@ h
 #
 include
 "
-client
-/
 windows
 /
 handler
