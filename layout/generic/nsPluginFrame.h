@@ -225,6 +225,9 @@ undef
 LoadIcon
 #
 undef
+LoadImage
+#
+undef
 GetObject
 #
 endif
