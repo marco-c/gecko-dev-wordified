@@ -69,13 +69,6 @@ vector
 #
 include
 "
-FuzzerInternal
-.
-h
-"
-#
-include
-"
 hasht
 .
 h
@@ -101,13 +94,6 @@ shared
 .
 h
 "
-extern
-const
-uint16_t
-DEFAULT_MAX_LENGTH
-=
-4096U
-;
 const
 std
 :

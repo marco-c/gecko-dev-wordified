@@ -20428,6 +20428,9 @@ BL_SetForkState
 PR_FALSE
 )
 ;
+#
+ifndef
+NSS_TEST_BUILD
 /
 *
 unload
@@ -20463,6 +20466,8 @@ BL_Unload
 (
 )
 ;
+#
+endif
 /
 *
 clean
