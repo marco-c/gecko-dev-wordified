@@ -336,6 +336,15 @@ aBaseDomain
 )
 override
 ;
+NS_IMETHOD
+GetAddonId
+(
+nsAString
+&
+aAddonId
+)
+override
+;
 nsresult
 GetOriginInternal
 (
