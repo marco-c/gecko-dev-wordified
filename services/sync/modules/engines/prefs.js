@@ -1598,6 +1598,16 @@ nsPref
 changed
 "
 :
+if
+(
+this
+.
+ignoreAll
+)
+{
+break
+;
+}
 /
 /
 Trigger
