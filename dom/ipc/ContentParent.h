@@ -3090,6 +3090,14 @@ nsIChannel
 aChannel
 )
 ;
+nsresult
+TransmitPermissionsForPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 protected
 :
 void
