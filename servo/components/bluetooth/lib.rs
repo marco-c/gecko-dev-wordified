@@ -6493,9 +6493,9 @@ BluetoothResponseResult
 StartNotifications
 )
 Step
-2
--
 3
+-
+4
 .
 /
 /
@@ -6673,7 +6673,7 @@ EnableNotification
 StartNotification
 )
 Step
-4
+5
 .
 Err
 (
@@ -6697,7 +6697,7 @@ NotSupported
 StartNotification
 )
 Step
-3
+4
 .
 None
 =
