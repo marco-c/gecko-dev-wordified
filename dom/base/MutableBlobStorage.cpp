@@ -1491,11 +1491,6 @@ mBlobStorage
 ;
 MOZ_ASSERT
 (
-aParent
-)
-;
-MOZ_ASSERT
-(
 aCallback
 )
 ;
@@ -1718,11 +1713,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aParent
 )
 ;
 MOZ_ASSERT
