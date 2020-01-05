@@ -1783,6 +1783,10 @@ sCheckForIMEUnawareWebApps
 ;
 static
 bool
+sInputModeSupported
+;
+static
+bool
 sRemoteHasFocus
 ;
 class
