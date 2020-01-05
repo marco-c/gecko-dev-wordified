@@ -5586,6 +5586,11 @@ shouldGenerateMaskLayer
 |
 maskUsage
 .
+shouldApplyClipPath
+|
+|
+maskUsage
+.
 shouldGenerateClipMaskLayer
 )
 ;
@@ -5806,6 +5811,11 @@ if
 maskUsage
 .
 shouldGenerateClipMaskLayer
+|
+|
+maskUsage
+.
+shouldApplyClipPath
 )
 {
 matSR
