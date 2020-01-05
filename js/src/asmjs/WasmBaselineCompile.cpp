@@ -19891,7 +19891,7 @@ X64
 }
 :
 :
-visitAsmJSLoadGlobalVar
+visitWasmLoadGlobal
 (
 )
 void
@@ -20479,7 +20479,7 @@ endif
 CodeGeneratorX64
 :
 :
-visitAsmJSStoreGlobalVar
+visitWasmStoreGlobal
 (
 )
 void
