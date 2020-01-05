@@ -592,13 +592,21 @@ talos_trigger_tests
 >
 1
 and
-'
-talos_suite
-'
-in
 task
 .
 attributes
+.
+get
+(
+'
+unittest_suite
+'
+)
+=
+=
+'
+talos
+'
 :
             
 task
