@@ -7274,7 +7274,7 @@ AdvanceKnownTracksTime
 STREAM_TIME_MAX
 )
 ;
-MM_LOG
+LOG
 (
 (
 "
@@ -21275,7 +21275,7 @@ mRemoved
 return
 ;
 }
-MM_LOG
+LOG
 (
 (
 "
@@ -22382,7 +22382,7 @@ NS_IsMainThread
 )
 )
 ;
-MM_LOG
+LOG
 (
 (
 "
