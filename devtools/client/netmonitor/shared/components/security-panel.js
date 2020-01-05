@@ -899,15 +899,11 @@ securityInfo
 PropTypes
 .
 object
-.
-isRequired
 url
 :
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 function
@@ -1014,7 +1010,7 @@ textbox
 -
 input
 "
-readonly
+readOnly
 :
 "
 true
