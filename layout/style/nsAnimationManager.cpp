@@ -2572,12 +2572,12 @@ result
 }
 class
 MOZ_STACK_CLASS
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 final
 {
 public
 :
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 (
 nsStyleContext
 *
@@ -3659,7 +3659,7 @@ forget
 ;
 }
 bool
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 BuildKeyframes
@@ -3827,7 +3827,7 @@ nsTArray
 <
 Keyframe
 >
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 BuildAnimationFrames
@@ -5022,7 +5022,7 @@ Maybe
 <
 ComputedTimingFunction
 >
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 GetKeyframeTimingFunction
@@ -5191,7 +5191,7 @@ nsTArray
 <
 PropertyValuePair
 >
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 GetKeyframePropertyValues
@@ -5624,7 +5624,7 @@ false
 ;
 }
 void
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 FillInMissingKeyframeValues
@@ -6038,7 +6038,7 @@ mPropertyValues
 }
 }
 void
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 AppendProperty
@@ -6087,7 +6087,7 @@ propertyValue
 ;
 }
 nsCSSValue
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 :
 :
 GetComputedValue
@@ -6577,7 +6577,7 @@ GetPseudoType
 )
 )
 ;
-CSSAnimationBuilder
+GeckoCSSAnimationBuilder
 builder
 (
 aStyleContext
