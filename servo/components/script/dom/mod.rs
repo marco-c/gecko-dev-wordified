@@ -2529,7 +2529,7 @@ bluetooth
 ;
 pub
 mod
-bluetoothadvertisingdata
+bluetoothadvertisingevent
 ;
 pub
 mod
