@@ -865,8 +865,6 @@ reload
 "
 "
 #
-urlbar
--
 reload
 -
 button
@@ -878,8 +876,6 @@ stop
 "
 "
 #
-urlbar
--
 stop
 -
 button

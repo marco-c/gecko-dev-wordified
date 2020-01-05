@@ -34897,8 +34897,6 @@ document
 getElementById
 (
 "
-urlbar
--
 reload
 -
 button
@@ -34913,8 +34911,6 @@ document
 getElementById
 (
 "
-urlbar
--
 stop
 -
 button
@@ -38928,8 +38924,6 @@ newTabButton
 tooltip
 "
 "
-urlbar
--
 reload
 -
 button
@@ -38941,8 +38935,6 @@ reloadButton
 tooltip
 "
 "
-urlbar
--
 stop
 -
 button
@@ -39057,8 +39049,6 @@ button
 key_newNavigatorTab
 "
 "
-urlbar
--
 reload
 -
 button
@@ -39068,8 +39058,6 @@ button
 key_reload
 "
 "
-urlbar
--
 stop
 -
 button

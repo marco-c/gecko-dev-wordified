@@ -746,8 +746,6 @@ document
 getElementById
 (
 "
-urlbar
--
 reload
 -
 button

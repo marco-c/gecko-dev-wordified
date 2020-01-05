@@ -878,8 +878,6 @@ forward
 button
 "
 "
-urlbar
--
 stop
 -
 button
@@ -892,8 +890,6 @@ go
 button
 "
 "
-urlbar
--
 reload
 -
 button
