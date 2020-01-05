@@ -597,7 +597,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPInvalidAccessError
+kGMPTypeError
 message
 strlen
 (
