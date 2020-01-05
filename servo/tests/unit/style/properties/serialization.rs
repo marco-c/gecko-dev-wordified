@@ -5222,6 +5222,15 @@ override
 :
 normal
 ;
+\
+font
+-
+feature
+-
+settings
+:
+normal
+;
 "
 ;
 let
