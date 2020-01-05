@@ -4093,6 +4093,11 @@ TimedMetadata
 aMetadata
 )
 ;
+bool
+ShouldThrottleDownload
+(
+)
+;
 /
 /
 This
