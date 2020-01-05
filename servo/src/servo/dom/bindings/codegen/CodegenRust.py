@@ -10245,6 +10245,9 @@ False
 extern
 =
 False
+pub
+=
+False
 templateArgs
 =
 None
@@ -10311,6 +10314,13 @@ self
 templateArgs
 =
 templateArgs
+        
+self
+.
+pub
+=
+pub
+;
     
 def
 _argstring
@@ -10461,6 +10471,21 @@ static
 )
             
 pass
+        
+if
+self
+.
+pub
+:
+            
+decorators
+.
+append
+(
+'
+pub
+'
+)
         
 if
 not
@@ -12464,6 +12489,8 @@ sometime
 *
 /
   
+/
+*
 if
 (
 (
@@ -12493,6 +12520,8 @@ null
 ;
   
 }
+*
+/
   
 /
 *
@@ -13059,6 +13088,9 @@ DefineDOMInterface
 bool
 '
 args
+pub
+=
+True
 )
     
 def
