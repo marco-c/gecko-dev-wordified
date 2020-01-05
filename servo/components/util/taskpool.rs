@@ -284,11 +284,10 @@ rx
 for
 i
 in
-range
-(
 0
+.
+.
 tasks
-)
 {
 let
 state

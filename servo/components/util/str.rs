@@ -2447,13 +2447,11 @@ self
 &
 str
 {
+&
+*
 self
 .
 inner
-.
-as_slice
-(
-)
 }
 }
 /

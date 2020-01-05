@@ -237,6 +237,7 @@ self
 .
 write_str
 (
+&
 s
 .
 len
@@ -244,10 +245,6 @@ len
 )
 .
 to_string
-(
-)
-.
-as_slice
 (
 )
 )
@@ -275,11 +272,8 @@ self
 .
 write_str
 (
+&
 s
-.
-as_slice
-(
-)
 )
 .
 unwrap
@@ -414,11 +408,8 @@ num
 :
 from_str_radix
 (
+&
 packet_len_str
-.
-as_slice
-(
-)
 10
 )
 .
@@ -473,11 +464,8 @@ Json
 :
 from_str
 (
+&
 packet
-.
-as_slice
-(
-)
 )
 .
 unwrap

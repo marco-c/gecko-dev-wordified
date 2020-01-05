@@ -2144,11 +2144,8 @@ time_profiler_chan
 {
 load_from_memory
 (
+&
 data
-.
-as_slice
-(
-)
 )
 }
 )
@@ -3207,11 +3204,8 @@ image_data
 .
 push_all
 (
+&
 data
-.
-as_slice
-(
-)
 )
 ;
 }

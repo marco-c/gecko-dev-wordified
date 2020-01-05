@@ -570,13 +570,11 @@ self
 a
 str
 {
+&
+*
 self
 .
 identifier
-.
-as_slice
-(
-)
 }
 /
 /

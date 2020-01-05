@@ -61,14 +61,6 @@ MPL
 [
 feature
 (
-core
-)
-]
-#
-!
-[
-feature
-(
 collections
 )
 ]

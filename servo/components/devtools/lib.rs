@@ -612,6 +612,8 @@ TcpListener
 :
 bind
 (
+&
+*
 format
 !
 (
@@ -632,10 +634,6 @@ format
 1
 "
 port
-)
-.
-as_slice
-(
 )
 )
 ;
@@ -1395,11 +1393,8 @@ find
 ConsoleActor
 >
 (
+&
 console_actor_name
-.
-as_slice
-(
-)
 )
 ;
 match
@@ -1571,10 +1566,6 @@ TabActor
 >
 (
 tab_actor_name
-.
-as_slice
-(
-)
 )
 ;
 let

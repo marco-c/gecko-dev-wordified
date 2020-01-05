@@ -249,9 +249,10 @@ FcSetSystem
 for
 i
 in
-range
-(
 0
+.
+.
+(
 (
 *
 fontSet
@@ -563,9 +564,10 @@ nfont
 for
 i
 in
-range
-(
 0
+.
+.
+(
 (
 *
 matches

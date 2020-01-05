@@ -7564,13 +7564,10 @@ start_point
 gradient
 .
 end_point
+&
 gradient
 .
 stops
-.
-as_slice
-(
-)
 )
 ;
 }
