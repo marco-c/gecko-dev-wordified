@@ -1059,4 +1059,8 @@ IpcSender
 (
 )
 >
+pub
+layout_threads
+:
+usize
 }

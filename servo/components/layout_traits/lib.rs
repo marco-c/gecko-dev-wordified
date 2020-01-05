@@ -362,6 +362,9 @@ webrender_traits
 :
 RenderApiSender
 >
+layout_threads
+:
+usize
 )
 ;
 }
