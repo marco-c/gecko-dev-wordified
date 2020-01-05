@@ -5187,9 +5187,8 @@ position
 after
 unlocking
 .
-static
 LayoutDeviceIntPoint
-sPreLockPoint
+mPreLockPoint
 ;
 /
 /
@@ -5803,7 +5802,6 @@ FireContextClick
 (
 )
 ;
-static
 void
 SetPointerLock
 (
