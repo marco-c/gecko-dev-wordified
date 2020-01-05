@@ -3058,8 +3058,11 @@ RenderContext
 {
 draw_target
 :
-&
 draw_target
+.
+clone
+(
+)
 font_ctx
 :
 &
