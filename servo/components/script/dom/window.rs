@@ -10370,10 +10370,6 @@ EventTarget
 :
 new_inherited
 (
-EventTargetTypeId
-:
-:
-Window
 )
 script_chan
 :

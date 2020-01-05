@@ -4629,6 +4629,7 @@ a
 DOM
 object
 .
+pub
 unsafe
 fn
 get_dom_class
@@ -4643,6 +4644,9 @@ JSObject
 >
 Result
 <
+&
+'
+static
 DOMClass
 (
 )
@@ -4712,7 +4716,9 @@ DOMJSClass
 return
 Ok
 (
+&
 (
+&
 *
 domjsclass
 )
@@ -4756,6 +4762,7 @@ DOMClass
 return
 Ok
 (
+&
 *
 dom_class
 )

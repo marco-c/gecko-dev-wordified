@@ -277,11 +277,9 @@ htmlelement
 [
 derive
 (
-JSTraceable
 Copy
 Clone
 Debug
-HeapSizeOf
 )
 ]
 pub

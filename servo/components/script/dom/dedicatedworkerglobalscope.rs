@@ -1291,10 +1291,6 @@ WorkerGlobalScope
 :
 new_inherited
 (
-WorkerGlobalScopeTypeId
-:
-:
-DedicatedGlobalScope
 init
 worker_url
 runtime
@@ -2866,7 +2862,7 @@ WorkerGlobalScope
 WorkerGlobalScopeTypeId
 :
 :
-DedicatedGlobalScope
+DedicatedWorkerGlobalScope
 )
 =
 >

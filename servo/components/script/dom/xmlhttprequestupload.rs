@@ -184,10 +184,6 @@ XMLHttpRequestEventTarget
 :
 new_inherited
 (
-XMLHttpRequestEventTargetTypeId
-:
-:
-XMLHttpRequestUpload
 )
 }
 }
