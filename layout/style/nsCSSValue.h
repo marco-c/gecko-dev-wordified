@@ -6476,6 +6476,15 @@ CalcValue
 aCalc
 )
 ;
+nsStyleCoord
+:
+:
+CalcValue
+GetCalcValue
+(
+)
+const
+;
 /
 /
 These
