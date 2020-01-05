@@ -195,6 +195,9 @@ FunctionGenerator
 class
 CompileTask
 ;
+class
+FuncCompileUnit
+;
 /
 /
 Return
@@ -305,6 +308,9 @@ BaselineCompileFunction
 CompileTask
 *
 task
+FuncCompileUnit
+*
+unit
 )
 ;
 }

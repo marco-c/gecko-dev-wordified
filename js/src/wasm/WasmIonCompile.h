@@ -201,6 +201,9 @@ wasm
 class
 CompileTask
 ;
+class
+FuncCompileUnit
+;
 /
 /
 Generates
@@ -221,6 +224,9 @@ IonCompileFunction
 CompileTask
 *
 task
+FuncCompileUnit
+*
+unit
 )
 ;
 }
