@@ -55,7 +55,7 @@ and
 options
 requestLongerTimeout
 (
-3
+4
 )
 ;
 /
