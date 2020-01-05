@@ -638,13 +638,6 @@ nsCSSValueSharedList
 *
 list
 )
-SERVO_BINDING_FUNC
-(
-Servo_AnimationValue_DeepEqual
-bool
-RawServoAnimationValueBorrowed
-RawServoAnimationValueBorrowed
-)
 /
 /
 Style
