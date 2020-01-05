@@ -5424,20 +5424,22 @@ type
 '
 ]
             
+'
+expires
+'
+:
+task_def
+[
+'
+expires
+'
+]
 #
-Use
-the
-default
-artifact
-expiration
-(
+always
+expire
+with
 the
 task
-'
-s
-expiration
-time
-)
         
 }
         
