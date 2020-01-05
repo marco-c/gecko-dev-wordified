@@ -55090,8 +55090,11 @@ and
 respectively
 .
 #
-ifdef
+if
+defined
+(
 XP_UNIX
+)
 &
 &
 !
