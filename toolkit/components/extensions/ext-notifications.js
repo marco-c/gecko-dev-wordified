@@ -64,7 +64,7 @@ js
 ;
 var
 {
-SingletonEventManager
+EventManager
 ignoreEvent
 }
 =
@@ -796,7 +796,7 @@ result
 onClosed
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -828,8 +828,6 @@ byUser
 argument
 .
 fire
-.
-async
 (
 notificationId
 true
@@ -884,7 +882,7 @@ api
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -907,8 +905,6 @@ notificationId
 >
 {
 fire
-.
-async
 (
 notificationId
 true

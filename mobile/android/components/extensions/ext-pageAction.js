@@ -877,8 +877,6 @@ event
 >
 {
 fire
-.
-async
 (
 )
 ;

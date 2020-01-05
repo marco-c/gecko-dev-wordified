@@ -365,8 +365,6 @@ eventName
 >
 {
 fire
-.
-sync
 (
 )
 ;
@@ -431,8 +429,6 @@ eventName
 >
 {
 fire
-.
-sync
 (
 )
 ;
@@ -499,8 +495,6 @@ disposition
 >
 {
 fire
-.
-sync
 (
 text
 disposition
@@ -636,8 +630,6 @@ id
 >
 {
 fire
-.
-sync
 (
 text
 id

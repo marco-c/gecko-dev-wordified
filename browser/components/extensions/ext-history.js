@@ -1450,10 +1450,11 @@ data
 =
 >
 {
-fire
+context
 .
-sync
+runSafe
 (
+fire
 data
 )
 ;
@@ -1522,10 +1523,11 @@ data
 =
 >
 {
-fire
+context
 .
-sync
+runSafe
 (
+fire
 data
 )
 ;

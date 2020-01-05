@@ -178,7 +178,7 @@ let
 register
 =
 (
-fire
+callback
 filter
 info
 )
@@ -484,10 +484,11 @@ opt
 }
 }
 return
-fire
+context
 .
-sync
+runSafe
 (
+callback
 data2
 )
 ;

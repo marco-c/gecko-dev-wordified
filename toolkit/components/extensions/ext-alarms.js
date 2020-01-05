@@ -39,7 +39,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 }
 =
 ExtensionUtils
@@ -870,7 +870,7 @@ cleared
 onAlarm
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -890,8 +890,6 @@ alarm
 >
 {
 fire
-.
-sync
 (
 alarm
 .

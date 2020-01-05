@@ -141,7 +141,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 promiseObserved
 }
 =
@@ -217,8 +217,6 @@ window
 >
 {
 fire
-.
-async
 (
 WindowManager
 .
@@ -257,8 +255,6 @@ window
 >
 {
 fire
-.
-async
 (
 WindowManager
 .
@@ -277,7 +273,7 @@ api
 onFocusChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -383,8 +379,6 @@ lastOnFocusChangedWindowId
 )
 {
 fire
-.
-async
 (
 windowId
 )
