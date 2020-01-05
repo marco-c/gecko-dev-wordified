@@ -1197,15 +1197,6 @@ JSContext
 cx
 )
 ;
-static
-void
-notifyBufferDetached
-(
-JSObject
-*
-view
-)
-;
 template
 <
 typename
