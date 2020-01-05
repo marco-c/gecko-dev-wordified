@@ -7572,9 +7572,10 @@ _retval
 HKEY
 key
 ;
-NS_NAMED_LITERAL_STRING
-(
+LPCWSTR
 keyName
+=
+L
 "
 Software
 \
@@ -7594,7 +7595,6 @@ Explorer
 Shell
 Folders
 "
-)
 ;
 DWORD
 res
@@ -7605,10 +7605,6 @@ RegOpenKeyExW
 (
 HKEY_CURRENT_USER
 keyName
-.
-get
-(
-)
 0
 KEY_READ
 &
