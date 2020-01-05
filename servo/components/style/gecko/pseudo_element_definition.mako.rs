@@ -117,6 +117,12 @@ Before
 "
 After
 "
+"
+FirstLine
+"
+"
+FirstLetter
+"
 ]
 %
 >
