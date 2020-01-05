@@ -502,15 +502,6 @@ endif
 ;
 }
 ;
-nsresult
-NS_NewPagePrintTimer
-(
-nsPagePrintTimer
-*
-*
-aResult
-)
-;
 #
 endif
 /
