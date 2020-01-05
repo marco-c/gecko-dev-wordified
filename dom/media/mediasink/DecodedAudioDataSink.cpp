@@ -324,10 +324,6 @@ AudioChannel
 aChannel
 )
 :
-AudioSink
-(
-aAudioQueue
-)
 mStartTime
 (
 aStartTime
@@ -385,6 +381,10 @@ mLastEndTime
 mIsAudioDataAudible
 (
 false
+)
+mAudioQueue
+(
+aAudioQueue
 )
 {
 bool
@@ -2381,9 +2381,7 @@ latency
 .
 while
 (
-AudioQueue
-(
-)
+mAudioQueue
 .
 GetSize
 (
@@ -2391,9 +2389,7 @@ GetSize
 &
 &
 (
-AudioQueue
-(
-)
+mAudioQueue
 .
 IsFinished
 (
@@ -2421,9 +2417,7 @@ AudioData
 >
 data
 =
-AudioQueue
-(
-)
+mAudioQueue
 .
 PopFront
 (
@@ -3198,9 +3192,7 @@ data
 }
 if
 (
-AudioQueue
-(
-)
+mAudioQueue
 .
 IsFinished
 (

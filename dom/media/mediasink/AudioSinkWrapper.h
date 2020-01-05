@@ -192,7 +192,7 @@ namespace
 media
 {
 class
-AudioSink
+DecodedAudioDataSink
 ;
 /
 *
@@ -236,7 +236,7 @@ Creator
 {
 }
 virtual
-AudioSink
+DecodedAudioDataSink
 *
 Create
 (
@@ -285,7 +285,7 @@ aFunc
 )
 {
 }
-AudioSink
+DecodedAudioDataSink
 *
 Create
 (
@@ -550,7 +550,7 @@ mCreator
 ;
 RefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 mAudioSink
 ;
