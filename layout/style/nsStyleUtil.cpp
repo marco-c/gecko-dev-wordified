@@ -5365,6 +5365,14 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 nonce
+false
+/
+/
+aParserCreated
+only
+applies
+to
+scripts
 aStyleText
 aLineNumber
 &

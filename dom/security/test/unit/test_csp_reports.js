@@ -911,6 +911,10 @@ TYPE_SCRIPT
 /
 /
 aNonce
+false
+/
+/
+aParserCreated
 "
 "
 /
@@ -1291,6 +1295,10 @@ TYPE_SCRIPT
 /
 /
 aNonce
+false
+/
+/
+aParserCreated
 "
 "
 /
