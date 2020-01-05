@@ -2821,7 +2821,6 @@ gecko_ffi_name
 in
 "
 nsStyleBorder
-nsStylePosition
 nsStyleDisplay
 nsStyleList
 nsStyleBackground
@@ -2829,7 +2828,6 @@ nsStyleBackground
 \
 "
 nsStyleFont
-nsStyleEffects
 nsStyleSVGReset
 "
 .
