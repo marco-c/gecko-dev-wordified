@@ -882,13 +882,9 @@ collapse
 ;
 }
 panelview
-:
-not
-(
 [
-title
+mainview
 ]
-)
 >
 .
 panel
