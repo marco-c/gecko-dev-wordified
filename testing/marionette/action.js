@@ -2962,6 +2962,7 @@ InputState
 Key
 =
 class
+Key
 extends
 InputState
 {
@@ -3341,6 +3342,7 @@ InputState
 Null
 =
 class
+Null
 extends
 InputState
 {
@@ -3418,6 +3420,7 @@ InputState
 Pointer
 =
 class
+Pointer
 extends
 InputState
 {
