@@ -4952,7 +4952,7 @@ mouse_window_event
 MouseWindowEvent
 :
 :
-MouseWindowClickEvent
+Click
 (
 _
 p
@@ -4963,7 +4963,7 @@ p
 MouseWindowEvent
 :
 :
-MouseWindowMouseDownEvent
+MouseDown
 (
 _
 p
@@ -4974,7 +4974,7 @@ p
 MouseWindowEvent
 :
 :
-MouseWindowMouseUpEvent
+MouseUp
 (
 _
 p

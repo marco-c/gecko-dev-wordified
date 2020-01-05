@@ -2382,7 +2382,7 @@ event
 MouseWindowEvent
 :
 :
-MouseWindowClickEvent
+Click
 (
 button
 _
@@ -2397,7 +2397,7 @@ event_point
 MouseWindowEvent
 :
 :
-MouseWindowMouseDownEvent
+MouseDown
 (
 button
 _
@@ -2412,7 +2412,7 @@ event_point
 MouseWindowEvent
 :
 :
-MouseWindowMouseUpEvent
+MouseUp
 (
 button
 _

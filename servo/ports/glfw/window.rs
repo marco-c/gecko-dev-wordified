@@ -114,8 +114,7 @@ windowing
 :
 {
 KeyEvent
-MouseWindowClickEvent
-MouseWindowMouseDownEvent
+MouseWindowEvent
 }
 ;
 use
@@ -137,10 +136,7 @@ compositing
 windowing
 :
 :
-{
-MouseWindowMouseUpEvent
 Refresh
-}
 ;
 use
 compositing
@@ -2798,7 +2794,10 @@ button
 )
 )
 ;
-MouseWindowMouseDownEvent
+MouseWindowEvent
+:
+:
+MouseDown
 (
 button
 as
@@ -2901,7 +2900,10 @@ max_pixel_dist
 let
 click_event
 =
-MouseWindowClickEvent
+MouseWindowEvent
+:
+:
+Click
 (
 button
 as
@@ -2944,7 +2946,10 @@ _
 (
 )
 }
-MouseWindowMouseUpEvent
+MouseWindowEvent
+:
+:
+MouseUp
 (
 button
 as
