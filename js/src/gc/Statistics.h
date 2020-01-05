@@ -483,7 +483,7 @@ _
 (
 BeginCallback
 "
-beginCB
+bgnCB
 "
 PHASE_GC_BEGIN
 )
@@ -501,7 +501,7 @@ _
 (
 DiscardCode
 "
-discard
+discrd
 "
 PHASE_MARK_DISCARD_CODE
 )
@@ -510,7 +510,7 @@ _
 (
 RelazifyFunc
 "
-relazify
+relzfy
 "
 PHASE_RELAZIFY_FUNCTIONS
 )
@@ -519,7 +519,7 @@ _
 (
 PurgeTables
 "
-purgeTables
+prgTbl
 "
 PHASE_PURGE_SHAPE_TABLES
 )
@@ -555,7 +555,7 @@ _
 (
 Compact
 "
-compact
+cmpct
 "
 PHASE_COMPACT
 )
@@ -573,7 +573,7 @@ _
 (
 Barriers
 "
-barriers
+brrier
 "
 PHASE_BARRIER
 )
