@@ -1257,12 +1257,6 @@ mozilla
 :
 MediaByteRange
 &
-aFtyp
-mozilla
-:
-:
-MediaByteRange
-&
 aMoov
 )
 ;
