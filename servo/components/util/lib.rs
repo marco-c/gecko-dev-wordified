@@ -173,14 +173,6 @@ step_trait
 [
 feature
 (
-thunk
-)
-]
-#
-!
-[
-feature
-(
 zero_one
 )
 ]
