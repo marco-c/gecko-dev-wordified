@@ -1817,13 +1817,6 @@ aDecoder
 )
 ;
 void
-SetDormant
-(
-bool
-aDormant
-)
-;
-void
 SetAudioCaptured
 (
 bool
