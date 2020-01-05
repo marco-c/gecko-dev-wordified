@@ -148,6 +148,13 @@ h
 #
 include
 "
+MemoryBlobImpl
+.
+h
+"
+#
+include
+"
 MultipartBlobImpl
 .
 h
@@ -224,7 +231,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplMemory
+MemoryBlobImpl
 (
 data
 aLength

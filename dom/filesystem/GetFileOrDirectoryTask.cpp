@@ -137,7 +137,7 @@ mozilla
 /
 dom
 /
-File
+FileBlobImpl
 .
 h
 "
@@ -1117,7 +1117,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplFile
+FileBlobImpl
 (
 mTargetPath
 )

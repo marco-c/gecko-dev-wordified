@@ -145,7 +145,7 @@ mozilla
 /
 dom
 /
-File
+BaseBlobImpl
 .
 h
 "
@@ -184,7 +184,7 @@ class
 ArchiveZipBlobImpl
 :
 public
-BlobImplBase
+BaseBlobImpl
 {
 public
 :
@@ -209,7 +209,7 @@ BlobImpl
 aBlobImpl
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 aName
 aContentType
@@ -256,7 +256,7 @@ BlobImpl
 aBlobImpl
 )
 :
-BlobImplBase
+BaseBlobImpl
 (
 aContentType
 aStart

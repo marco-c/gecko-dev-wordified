@@ -217,6 +217,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIXULRuntime
 .
 h

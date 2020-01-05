@@ -233,6 +233,13 @@ h
 #
 include
 "
+nsTemporaryFileInputStream
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

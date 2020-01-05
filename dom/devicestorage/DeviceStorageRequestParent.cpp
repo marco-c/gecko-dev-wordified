@@ -151,7 +151,7 @@ mozilla
 /
 dom
 /
-File
+FileBlobImpl
 .
 h
 "
@@ -1519,7 +1519,7 @@ BlobImpl
 blob
 =
 new
-BlobImplFile
+FileBlobImpl
 (
 fullPath
 mime

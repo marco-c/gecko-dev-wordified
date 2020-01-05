@@ -151,6 +151,13 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+nsIInputStream
+.
+h
+"
 using
 namespace
 mozilla
