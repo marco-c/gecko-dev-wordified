@@ -321,7 +321,6 @@ Key
 KeyModifiers
 KeyState
 LoadData
-MouseButton
 }
 ;
 use
@@ -397,6 +396,7 @@ script_traits
 :
 :
 {
+MouseButton
 TouchEventType
 TouchId
 }

@@ -1015,7 +1015,6 @@ constellation_msg
 :
 :
 {
-MouseButton
 PipelineId
 SubpageId
 }
@@ -1071,6 +1070,7 @@ script_traits
 :
 {
 AnimationState
+MouseButton
 MouseEventType
 MozBrowserEvent
 }

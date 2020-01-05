@@ -819,18 +819,7 @@ constellation_msg
 :
 :
 {
-MouseButton
 PipelineId
-}
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-{
 PipelineNamespace
 }
 ;
@@ -1007,6 +996,7 @@ script_traits
 :
 {
 InitialScriptState
+MouseButton
 MouseEventType
 MozBrowserEvent
 NewLayoutInfo
