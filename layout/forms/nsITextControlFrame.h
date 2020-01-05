@@ -149,9 +149,9 @@ aEditor
 NS_IMETHOD
 SetSelectionRange
 (
-int32_t
+uint32_t
 aSelectionStart
-int32_t
+uint32_t
 aSelectionEnd
 SelectionDirection
 aDirection
