@@ -2615,6 +2615,12 @@ defined
 (
 DEBUG
 )
+|
+|
+defined
+(
+FUZZING
+)
 const
 char
 *
