@@ -872,6 +872,11 @@ target
 buffer
 )
 ;
+if
+(
+byteLen
+)
+{
 const
 auto
 mappedBytes
@@ -899,11 +904,6 @@ See
 bug
 1225033
 .
-if
-(
-byteLen
-)
-{
 memcpy
 (
 bytes
@@ -911,7 +911,6 @@ mappedBytes
 byteLen
 )
 ;
-}
 gl
 -
 >
@@ -920,6 +919,7 @@ fUnmapBuffer
 target
 )
 ;
+}
 }
 }
 /
