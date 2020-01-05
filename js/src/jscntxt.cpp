@@ -3463,7 +3463,12 @@ PrintErrorKind
 :
 Error
 :
-break
+MOZ_CRASH
+(
+"
+unreachable
+"
+)
 ;
 case
 PrintErrorKind
