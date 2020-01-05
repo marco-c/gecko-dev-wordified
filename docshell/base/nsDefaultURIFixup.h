@@ -240,15 +240,6 @@ aPostData
 )
 ;
 bool
-PossiblyByteExpandedFileName
-(
-const
-nsAString
-&
-aIn
-)
-;
-bool
 PossiblyHostPortUrl
 (
 const
