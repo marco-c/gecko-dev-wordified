@@ -19938,7 +19938,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 false
 )
