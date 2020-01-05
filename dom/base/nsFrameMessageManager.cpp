@@ -9064,6 +9064,13 @@ script
 cx
 )
 ;
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 script
 =
 ScriptPreloader
@@ -9079,6 +9086,7 @@ cx
 url
 )
 ;
+}
 if
 (
 !
@@ -9432,6 +9440,13 @@ data
 )
 )
 {
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 ScriptPreloader
 :
 :
@@ -9446,6 +9461,7 @@ url
 script
 )
 ;
+}
 /
 /
 Root
