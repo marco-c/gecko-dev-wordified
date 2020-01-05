@@ -120,6 +120,15 @@ LayerBufferSet
 }
 ;
 use
+servo_msg
+:
+:
+constellation_msg
+:
+:
+PipelineId
+;
+use
 font_context
 :
 :
@@ -429,7 +438,7 @@ C
 {
 id
 :
-uint
+PipelineId
 port
 :
 Port
@@ -536,7 +545,7 @@ create
 (
 id
 :
-uint
+PipelineId
 port
 :
 Port

@@ -22718,9 +22718,9 @@ get_wrappercache
 ;
   
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 aCx
 )
@@ -22731,7 +22731,13 @@ handler
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -24164,9 +24170,9 @@ CGGeneric
 (
 "
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 aCx
 )
@@ -24186,7 +24192,13 @@ s_ids_mut
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -25921,15 +25933,13 @@ body
 =
 "
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 aCx
 )
 ;
-\
-n
 "
         
 #
@@ -26195,7 +26205,13 @@ null
   
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_mut_ref
+(
 )
 .
 dom_static
@@ -26263,7 +26279,13 @@ body
 "
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -31594,9 +31616,9 @@ setup
 =
 "
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 cx
 )
@@ -31659,7 +31681,13 @@ method_ids
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -31756,7 +31784,13 @@ attr_ids
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -31853,7 +31887,13 @@ const_ids
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 dom_static
@@ -34363,9 +34403,9 @@ now
 .
   
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 cx
 )
@@ -34376,10 +34416,10 @@ global
 =
 (
 *
-script_context
+page
 )
 .
-root_frame
+frame
 .
 get_ref
 (
@@ -39757,7 +39797,10 @@ XXXjdm
 script_task
 :
 :
-task_from_context
+{
+JSPageInfo
+page_from_context
+}
 '
                           
 '

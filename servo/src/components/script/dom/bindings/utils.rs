@@ -93,7 +93,7 @@ use
 script_task
 :
 :
-task_from_context
+page_from_context
 ;
 use
 std
@@ -1538,9 +1538,9 @@ Compartment
 unsafe
 {
 let
-script_context
+page
 =
-task_from_context
+page_from_context
 (
 cx
 )
@@ -1550,7 +1550,13 @@ compartment
 =
 (
 *
-script_context
+page
+)
+.
+js_info
+.
+get_ref
+(
 )
 .
 js_compartment
