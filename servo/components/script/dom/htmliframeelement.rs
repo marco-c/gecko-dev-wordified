@@ -370,7 +370,6 @@ constellation_msg
 :
 {
 ConstellationChan
-MozBrowserEvent
 }
 ;
 use
@@ -396,12 +395,6 @@ use
 script_traits
 :
 :
-IFrameLoadInfo
-;
-use
-script_traits
-:
-:
 IFrameSandboxState
 :
 :
@@ -414,9 +407,13 @@ use
 script_traits
 :
 :
+{
+IFrameLoadInfo
+MozBrowserEvent
 ScriptMsg
 as
 ConstellationMsg
+}
 ;
 use
 std

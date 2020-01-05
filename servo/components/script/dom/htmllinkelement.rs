@@ -307,10 +307,7 @@ msg
 constellation_msg
 :
 :
-{
 ConstellationChan
-MozBrowserEvent
-}
 ;
 use
 net_traits
@@ -335,9 +332,12 @@ use
 script_traits
 :
 :
+{
+MozBrowserEvent
 ScriptMsg
 as
 ConstellationMsg
+}
 ;
 use
 std
