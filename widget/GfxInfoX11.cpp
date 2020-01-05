@@ -2182,15 +2182,6 @@ aFeature
 nsIGfxInfo
 :
 :
-FEATURE_WEBGL2
-|
-|
-aFeature
-=
-=
-nsIGfxInfo
-:
-:
 FEATURE_WEBGL_MSAA
 )
 {
