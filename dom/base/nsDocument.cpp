@@ -28888,6 +28888,10 @@ mIsGoingAway
 &
 &
 !
+mInUnlinkOrDeletion
+&
+&
+!
 mIgnoreDocGroupMismatches
 )
 {
