@@ -1408,6 +1408,9 @@ JSRef
 EventTarget
 >
 )
+-
+>
+bool
 ;
 }
 impl
@@ -1481,6 +1484,9 @@ JSRef
 EventTarget
 >
 )
+-
+>
+bool
 {
 self
 .
@@ -1495,6 +1501,5 @@ dispatch_event
 (
 self
 )
-;
 }
 }
