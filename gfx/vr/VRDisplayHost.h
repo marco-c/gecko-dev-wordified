@@ -601,17 +601,6 @@ GetPose
 (
 )
 ;
-virtual
-void
-SetHand
-(
-dom
-:
-:
-GamepadHand
-aHand
-)
-;
 dom
 :
 :

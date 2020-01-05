@@ -393,6 +393,11 @@ public
 explicit
 VRControllerOpenVR
 (
+dom
+:
+:
+GamepadHand
+aHand
 )
 ;
 void
