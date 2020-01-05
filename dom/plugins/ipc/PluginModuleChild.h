@@ -1477,10 +1477,6 @@ if
 NP_Shutdown
 has
 run
-Transport
-*
-mTransport
-;
 /
 /
 we

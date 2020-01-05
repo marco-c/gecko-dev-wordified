@@ -742,10 +742,6 @@ mHasShutdown
 (
 false
 )
-mTransport
-(
-nullptr
-)
 mShutdownFunc
 (
 0
@@ -1149,10 +1145,6 @@ return
 false
 ;
 }
-mTransport
-=
-aChannel
-;
 mLibrary
 =
 GetChrome
