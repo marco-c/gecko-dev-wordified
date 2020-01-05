@@ -544,6 +544,17 @@ BasicLayerManager
 ;
 public
 :
+BasicLayerManager
+*
+AsBasicLayerManager
+(
+)
+override
+{
+return
+this
+;
+}
 /
 *
 *
