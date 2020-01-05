@@ -340,12 +340,7 @@ root
 =
 helpers
 .
-getRootDir
-(
-module
-.
-filename
-)
+rootDir
 ;
 for
 (

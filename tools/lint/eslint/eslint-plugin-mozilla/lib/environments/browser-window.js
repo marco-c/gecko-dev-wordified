@@ -314,12 +314,7 @@ rootDir
 =
 helpers
 .
-getRootDir
-(
-module
-.
-filename
-)
+rootDir
 ;
 /
 /
