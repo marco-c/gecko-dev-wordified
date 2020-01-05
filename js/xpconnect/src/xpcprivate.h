@@ -9777,14 +9777,6 @@ GET_IT
 WANT_PRECREATE
 )
 bool
-WantAddProperty
-(
-)
-GET_IT
-(
-WANT_ADDPROPERTY
-)
-bool
 WantGetProperty
 (
 )
