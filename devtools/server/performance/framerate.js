@@ -64,9 +64,7 @@ strict
 const
 {
 on
-once
 off
-emit
 }
 =
 require
@@ -139,9 +137,6 @@ framerate
 js
 *
 /
-var
-Framerate
-=
 exports
 .
 Framerate
