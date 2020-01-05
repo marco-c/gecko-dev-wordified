@@ -333,7 +333,6 @@ GetCallback
 (
 )
 :
-:
 nullptr
 ;
 if
