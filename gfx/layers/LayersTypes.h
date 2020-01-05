@@ -1835,6 +1835,17 @@ mHandle
 ;
 }
 ;
+enum
+class
+ScrollDirection
+:
+uint32_t
+{
+NONE
+VERTICAL
+HORIZONTAL
+}
+;
 }
 /
 /
