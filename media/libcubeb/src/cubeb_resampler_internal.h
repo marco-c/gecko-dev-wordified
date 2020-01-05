@@ -1296,6 +1296,9 @@ output
 (
 size_t
 output_frame_count
+size_t
+*
+input_frames_used
 )
 {
 if
@@ -1394,6 +1397,11 @@ frames_to_samples
 in_len
 )
 )
+;
+*
+input_frames_used
+=
+in_len
 ;
 return
 resampling_out_buffer
@@ -2241,6 +2249,9 @@ output
 (
 uint32_t
 frames_needed
+size_t
+*
+input_frames_used
 )
 {
 if
@@ -2299,6 +2310,11 @@ frames_to_samples
 frames_needed
 )
 )
+;
+*
+input_frames_used
+=
+frames_needed
 ;
 return
 delay_output_buffer
