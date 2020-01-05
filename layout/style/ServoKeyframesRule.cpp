@@ -1437,10 +1437,6 @@ name
 forget
 (
 )
-.
-take
-(
-)
 )
 ;
 }
