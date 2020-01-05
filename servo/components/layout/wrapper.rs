@@ -6812,6 +6812,15 @@ get_insertion_point_for_layout
 )
 }
 ;
+if
+let
+Some
+(
+insertion_point
+)
+=
+insertion_point
+{
 let
 text
 =
@@ -6872,6 +6881,7 @@ CharIndex
 character_count
 )
 )
+}
 }
 None
 }
