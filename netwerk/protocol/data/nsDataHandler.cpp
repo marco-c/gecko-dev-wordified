@@ -497,10 +497,11 @@ context
 .
 if
 (
+!
 nsIOService
 :
 :
-IsInheritSecurityContextForDataURIEnabled
+IsDataURIUniqueOpaqueOrigin
 (
 )
 )

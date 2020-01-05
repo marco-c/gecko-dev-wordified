@@ -637,7 +637,7 @@ IsLinkUp
 ;
 static
 bool
-IsInheritSecurityContextForDataURIEnabled
+IsDataURIUniqueOpaqueOrigin
 (
 )
 ;
@@ -1127,7 +1127,7 @@ mNetworkNotifyChanged
 ;
 static
 bool
-sDataURIInheritSecurityContext
+sIsDataURIUniqueOpaqueOrigin
 ;
 uint32_t
 mTotalRequests
