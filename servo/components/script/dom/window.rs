@@ -1207,6 +1207,7 @@ WebFontLoaded
 FramedContentChanged
 IFrameLoadEvent
 MissingExplicitReflow
+ElementStateChanged
 }
 pub
 type
@@ -14125,6 +14126,16 @@ MissingExplicitReflow
 "
 \
 tMissingExplicitReflow
+"
+ReflowReason
+:
+:
+ElementStateChanged
+=
+>
+"
+\
+tElementStateChanged
 "
 }
 )
