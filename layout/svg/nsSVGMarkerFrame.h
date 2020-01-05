@@ -262,6 +262,9 @@ NS_FRAME_IS_NONDISPLAY
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGMarkerFrame
+)
 /
 /
 nsIFrame
@@ -823,6 +826,9 @@ SVGMarkerAnonChild
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGMarkerAnonChildFrame
+)
 #
 ifdef
 DEBUG

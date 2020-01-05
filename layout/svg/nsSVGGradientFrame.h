@@ -901,6 +901,9 @@ SVGLinearGradient
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGLinearGradientFrame
+)
 /
 /
 nsIFrame
@@ -1225,6 +1228,9 @@ SVGRadialGradient
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGRadialGradientFrame
+)
 /
 /
 nsIFrame

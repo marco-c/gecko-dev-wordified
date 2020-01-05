@@ -203,6 +203,9 @@ nsIStatefulFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsTextControlFrame
+)
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 ContentScrollPos

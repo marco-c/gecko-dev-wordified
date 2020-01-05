@@ -289,10 +289,6 @@ DrawTarget
 ;
 public
 :
-NS_DECL_QUERYFRAME_TARGET
-(
-nsComboboxControlFrame
-)
 friend
 nsComboboxControlFrame
 *
@@ -327,6 +323,9 @@ nsComboboxControlFrame
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsComboboxControlFrame
+)
 /
 /
 nsIAnonymousContentCreator

@@ -226,6 +226,9 @@ SourceSurface
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGPatternFrame
+)
 friend
 nsIFrame
 *

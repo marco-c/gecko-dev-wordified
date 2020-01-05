@@ -232,6 +232,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsGridRowLeafFrame
+)
 friend
 nsIFrame
 *

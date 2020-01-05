@@ -142,6 +142,9 @@ DrawResult
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsFieldSetFrame
+)
 explicit
 nsFieldSetFrame
 (

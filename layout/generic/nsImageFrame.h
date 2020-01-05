@@ -370,6 +370,10 @@ LayerManager
 LayerManager
 ;
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsImageFrame
+)
+NS_DECL_QUERYFRAME
 explicit
 nsImageFrame
 (
@@ -391,11 +395,6 @@ Image
 )
 {
 }
-NS_DECL_QUERYFRAME_TARGET
-(
-nsImageFrame
-)
-NS_DECL_QUERYFRAME
 virtual
 void
 DestroyFrom

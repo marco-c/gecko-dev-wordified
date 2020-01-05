@@ -162,6 +162,9 @@ nsSplittableFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsTableColFrame
+)
 enum
 {
 eWIDTH_SOURCE_NONE

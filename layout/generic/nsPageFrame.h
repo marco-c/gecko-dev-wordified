@@ -149,12 +149,11 @@ nsContainerFrame
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsPageFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 friend
 nsPageFrame
 *
@@ -481,6 +480,9 @@ public
 nsLeafFrame
 {
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsPageBreakFrame
+)
 explicit
 nsPageBreakFrame
 (

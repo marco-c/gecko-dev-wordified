@@ -829,11 +829,10 @@ TableReflowInput
 ;
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableFrame
 )
-NS_DECL_FRAMEARENA_HELPERS
 typedef
 nsTArray
 <

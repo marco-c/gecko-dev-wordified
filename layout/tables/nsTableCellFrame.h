@@ -326,12 +326,11 @@ LogicalMargin
 ;
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableCellFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 /
 /
 default
@@ -1823,6 +1822,9 @@ DrawResult
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsBCTableCellFrame
+)
 nsBCTableCellFrame
 (
 nsStyleContext

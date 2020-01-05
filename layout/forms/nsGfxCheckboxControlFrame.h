@@ -124,6 +124,9 @@ nsFormControlFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsGfxCheckboxControlFrame
+)
 explicit
 nsGfxCheckboxControlFrame
 (

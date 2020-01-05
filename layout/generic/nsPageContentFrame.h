@@ -148,6 +148,9 @@ ViewportFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsPageContentFrame
+)
 friend
 nsPageContentFrame
 *

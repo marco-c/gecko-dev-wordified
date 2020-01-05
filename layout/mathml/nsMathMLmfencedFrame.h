@@ -146,6 +146,9 @@ nsMathMLContainerFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmfencedFrame
+)
 friend
 nsIFrame
 *

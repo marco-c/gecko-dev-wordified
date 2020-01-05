@@ -224,6 +224,9 @@ override
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsFileControlFrame
+)
 /
 /
 nsIFormControlFrame
