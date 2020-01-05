@@ -200,15 +200,6 @@ geometry
 ViewportPx
 ;
 use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
-;
-use
 values
 :
 :

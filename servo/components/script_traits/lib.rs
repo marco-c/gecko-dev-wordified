@@ -114,6 +114,7 @@ plugin
 [
 plugin
 (
+heapsize_plugin
 plugins
 serde_macros
 )
@@ -145,6 +146,10 @@ euclid
 extern
 crate
 gfx_traits
+;
+extern
+crate
+heapsize
 ;
 extern
 crate
@@ -370,15 +375,6 @@ ipc
 :
 :
 OptionalOpaqueIpcSender
-;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
 ;
 pub
 use

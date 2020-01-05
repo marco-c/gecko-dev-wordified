@@ -991,15 +991,6 @@ use
 util
 :
 :
-mem
-:
-:
-HeapSizeOf
-;
-use
-util
-:
-:
 str
 :
 :

@@ -57,10 +57,7 @@ MPL
 *
 /
 use
-util
-:
-:
-mem
+heapsize
 :
 :
 HeapSizeOf

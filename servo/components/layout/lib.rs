@@ -165,6 +165,14 @@ unsafe_code
 [
 plugin
 (
+heapsize_plugin
+)
+]
+#
+!
+[
+plugin
+(
 plugins
 )
 ]
@@ -211,6 +219,10 @@ gfx
 extern
 crate
 gfx_traits
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

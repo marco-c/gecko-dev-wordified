@@ -141,6 +141,14 @@ plugin
 [
 plugin
 (
+heapsize_plugin
+)
+]
+#
+!
+[
+plugin
+(
 serde_macros
 )
 ]
@@ -171,6 +179,10 @@ cssparser
 extern
 crate
 euclid
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

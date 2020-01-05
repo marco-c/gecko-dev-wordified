@@ -126,15 +126,6 @@ string_cache
 :
 Atom
 ;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
-;
 /
 /
 Does

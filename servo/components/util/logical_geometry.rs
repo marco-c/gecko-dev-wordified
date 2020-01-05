@@ -131,6 +131,7 @@ bitflags
 [
 derive
 (
+HeapSizeOf
 RustcEncodable
 )
 ]

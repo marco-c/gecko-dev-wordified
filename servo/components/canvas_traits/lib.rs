@@ -103,8 +103,9 @@ plugin
 [
 plugin
 (
-serde_macros
+heapsize_plugin
 plugins
+serde_macros
 )
 ]
 extern
@@ -126,6 +127,10 @@ euclid
 extern
 crate
 gfx_traits
+;
+extern
+crate
+heapsize
 ;
 extern
 crate
@@ -344,15 +349,6 @@ mpsc
 :
 :
 Sender
-;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
 ;
 #
 [

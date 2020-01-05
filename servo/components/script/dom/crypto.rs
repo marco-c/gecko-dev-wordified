@@ -240,6 +240,16 @@ Crypto
 reflector_
 :
 Reflector
+#
+[
+ignore_heap_size_of
+=
+"
+Defined
+in
+rand
+"
+]
 rng
 :
 DOMRefCell

@@ -186,15 +186,6 @@ jsval
 :
 UndefinedValue
 ;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
-;
 /
 /
 /
