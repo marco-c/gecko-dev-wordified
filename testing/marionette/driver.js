@@ -2999,6 +2999,7 @@ childCount
 =
 0
 )
+{
 this
 .
 curBrowser
@@ -3008,6 +3009,7 @@ frameRegsPending
 =
 1
 ;
+}
 }
 }
 }
@@ -4050,9 +4052,9 @@ number
 of
 active
 sessions
-.
 "
 )
+;
 }
 this
 .
