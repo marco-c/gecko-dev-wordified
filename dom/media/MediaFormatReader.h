@@ -853,6 +853,13 @@ aTrack
 )
 ;
 void
+NotifyWaitingForKey
+(
+TrackType
+aTrack
+)
+;
+void
 NotifyEndOfStream
 (
 TrackType
@@ -972,6 +979,10 @@ mDemuxEOS
 false
 )
 mWaitingForData
+(
+false
+)
+mWaitingForKey
 (
 false
 )
@@ -1271,6 +1282,9 @@ bool
 mWaitingForData
 ;
 bool
+mWaitingForKey
+;
+bool
 mReceivedNewData
 ;
 /
@@ -1389,6 +1403,9 @@ OnTaskQueue
 ;
 return
 mWaitingForData
+|
+|
+mWaitingForKey
 ;
 }
 /
@@ -2136,6 +2153,10 @@ mDemuxEOS
 false
 ;
 mWaitingForData
+=
+false
+;
+mWaitingForKey
 =
 false
 ;
@@ -3125,6 +3146,9 @@ mDecoderFactory
 ;
 MediaEventListener
 mCompositorUpdatedListener
+;
+MediaEventListener
+mOnTrackWaitingForKeyListener
 ;
 void
 OnFirstDemuxCompleted
