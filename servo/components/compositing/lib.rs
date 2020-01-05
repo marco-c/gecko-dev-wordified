@@ -144,6 +144,10 @@ extern
 crate
 num
 ;
+#
+[
+macro_use
+]
 extern
 crate
 profile_traits
