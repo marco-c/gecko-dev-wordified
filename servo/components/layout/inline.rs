@@ -9076,7 +9076,7 @@ font_style
 =
 style
 .
-get_font_arc
+clone_font
 (
 )
 ;
@@ -9284,7 +9284,7 @@ node
 .
 style
 .
-get_font_arc
+clone_font
 (
 )
 ;

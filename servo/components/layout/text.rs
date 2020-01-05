@@ -1231,7 +1231,7 @@ style
 (
 )
 .
-get_font_arc
+clone_font
 (
 )
 ;

@@ -91,6 +91,13 @@ std
 :
 fmt
 ;
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 fn
 serialize_four_sides
@@ -574,6 +581,13 @@ Ok
 )
 }
 }
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 fn
 is_overflow_shorthand

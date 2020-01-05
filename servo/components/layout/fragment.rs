@@ -15329,7 +15329,7 @@ self
 .
 style
 .
-get_font_arc
+clone_font
 (
 )
 )
@@ -16072,7 +16072,7 @@ font_context
 )
 style
 .
-get_font_arc
+clone_font
 (
 )
 )

@@ -126,6 +126,7 @@ rlib
 deny
 (
 unsafe_code
+missing_docs
 )
 ]
 #
