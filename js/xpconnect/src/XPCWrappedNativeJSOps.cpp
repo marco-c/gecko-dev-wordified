@@ -1606,8 +1606,9 @@ MOZ_UNLIKELY
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+cx
 )
 )
 )
