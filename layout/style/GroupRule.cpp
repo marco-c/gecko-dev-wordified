@@ -1961,11 +1961,6 @@ rv
 sheet
 -
 >
-AsGecko
-(
-)
--
->
 InsertRuleIntoGroup
 (
 aRule
@@ -2107,11 +2102,6 @@ nsresult
 rv
 =
 sheet
--
->
-AsGecko
-(
-)
 -
 >
 DeleteRuleFromGroup
