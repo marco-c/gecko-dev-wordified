@@ -1409,7 +1409,7 @@ space
 .
 *
 /
-nsresult
+bool
 ComputeBounds
 (
 )

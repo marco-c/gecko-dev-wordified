@@ -362,11 +362,9 @@ PRIMITIVEUNITS
 ;
 if
 (
-NS_FAILED
-(
+!
 ComputeBounds
 (
-)
 )
 )
 {
@@ -378,7 +376,7 @@ mInitialized
 true
 ;
 }
-nsresult
+bool
 nsSVGFilterInstance
 :
 :
@@ -790,7 +788,7 @@ as
 appropriate
 .
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 /
@@ -834,11 +832,11 @@ int
 overflow
 .
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 return
-NS_OK
+true
 ;
 }
 nsSVGFilterFrame
