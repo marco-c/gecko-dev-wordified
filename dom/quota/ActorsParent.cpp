@@ -32471,11 +32471,6 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-MOZ_ASSERT
-(
-aTimestamp
-)
-;
 nsCOMPtr
 <
 nsIBinaryInputStream
