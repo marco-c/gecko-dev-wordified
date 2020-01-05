@@ -6893,6 +6893,7 @@ defined
 (
 XP_WIN
 )
+MOZ_ASAN_BLACKLIST
 static
 bool
 HandleFault
@@ -7297,6 +7298,7 @@ return
 true
 ;
 }
+MOZ_ASAN_BLACKLIST
 static
 LONG
 WINAPI
