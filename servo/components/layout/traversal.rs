@@ -101,6 +101,7 @@ flow
 :
 :
 {
+MutableFlowUtils
 PreorderFlowTraversal
 PostorderFlowTraversal
 }
@@ -2912,7 +2913,7 @@ layout_context
 ;
 flow
 .
-store_overflow
+early_store_overflow
 (
 self
 .
