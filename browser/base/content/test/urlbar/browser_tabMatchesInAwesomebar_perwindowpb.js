@@ -548,14 +548,9 @@ awaitTabSwitch
 =
 BrowserTestUtils
 .
-removeTab
+tabRemoved
 (
 testTab
-{
-dontRemove
-:
-true
-}
 )
 }
 /
