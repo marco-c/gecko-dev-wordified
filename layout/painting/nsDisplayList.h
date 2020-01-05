@@ -27394,7 +27394,7 @@ space
 .
 *
 /
-bool
+void
 PaintMask
 (
 nsDisplayListBuilder
