@@ -2173,14 +2173,6 @@ GetDOMRule
 )
 override
 ;
-virtual
-nsIDOMCSSRule
-*
-GetExistingDOMRule
-(
-)
-override
-;
 #
 ifdef
 DEBUG
