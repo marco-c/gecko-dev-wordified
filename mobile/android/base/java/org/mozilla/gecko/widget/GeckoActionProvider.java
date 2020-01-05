@@ -1841,6 +1841,7 @@ GeckoApp
 .
 getTempDirectory
 (
+mContext
 )
 ;
 if
@@ -1933,6 +1934,7 @@ GeckoApp
 .
 deleteTempFiles
 (
+mContext
 )
 ;
 String
