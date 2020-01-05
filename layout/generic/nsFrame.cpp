@@ -21214,7 +21214,7 @@ NS_OK
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 IsSelectable
@@ -21551,7 +21551,7 @@ frame
 =
 const_cast
 <
-nsFrame
+nsIFrame
 *
 >
 (

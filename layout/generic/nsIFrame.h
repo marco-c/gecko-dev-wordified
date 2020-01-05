@@ -20217,7 +20217,6 @@ h
 .
 *
 /
-virtual
 nsresult
 IsSelectable
 (
@@ -20232,8 +20231,6 @@ StyleUserSelect
 aSelectStyle
 )
 const
-=
-0
 ;
 /
 *
