@@ -735,7 +735,7 @@ purposes
 ;
 enum
 class
-WrExternalImageIdType
+WrExternalImageType
 :
 uint32_t
 {
@@ -922,7 +922,7 @@ below
 -
 typedef
 uint64_t
-WrImageIdType
+WrExternalImageId
 ;
 /
 /
@@ -1890,17 +1890,9 @@ has_image_mask
 }
 ;
 struct
-WrExternalImageId
-{
-WrImageIdType
-id
-;
-}
-;
-struct
 WrExternalImage
 {
-WrExternalImageIdType
+WrExternalImageType
 type
 ;
 /

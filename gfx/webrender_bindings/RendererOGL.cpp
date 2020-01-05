@@ -219,8 +219,6 @@ renderer
 GetRenderTexture
 (
 aId
-.
-id
 )
 ;
 if
@@ -382,8 +380,6 @@ renderer
 GetRenderTexture
 (
 aId
-.
-id
 )
 ;
 MOZ_ASSERT
