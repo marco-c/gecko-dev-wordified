@@ -506,6 +506,7 @@ nsAString
 &
 aCssText
 )
+const
 ;
 /
 /
