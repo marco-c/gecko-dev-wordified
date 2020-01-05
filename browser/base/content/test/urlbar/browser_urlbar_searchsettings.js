@@ -197,7 +197,7 @@ about
 :
 preferences
 #
-search
+general
 "
 "
 Should

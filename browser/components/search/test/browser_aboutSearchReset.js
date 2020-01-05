@@ -621,8 +621,6 @@ false
 about
 :
 preferences
-#
-search
 "
 )
 gBrowser
