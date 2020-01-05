@@ -6890,6 +6890,8 @@ expect
 infallible
 "
 )
+None
+None
 )
 )
 ;
@@ -6970,6 +6972,8 @@ url
 clone
 (
 )
+None
+None
 )
 )
 ;
@@ -7851,6 +7855,21 @@ push
 to
 pending
 frames
+/
+/
+TODO
+-
+loaddata
+here
+should
+have
+referrer
+info
+(
+not
+None
+None
+)
 self
 .
 new_pipeline
@@ -7877,6 +7896,8 @@ LoadData
 new
 (
 new_url
+None
+None
 )
 )
 ;
@@ -11077,6 +11098,8 @@ url
 clone
 (
 )
+None
+None
 )
 None
 =

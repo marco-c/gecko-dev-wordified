@@ -662,6 +662,7 @@ PipelineId
 SubpageId
 WindowSizeData
 WindowSizeType
+ReferrerPolicy
 }
 ;
 use
@@ -2624,6 +2625,12 @@ no_jsmanaged_fields
 !
 (
 TouchpadPressurePhase
+)
+;
+no_jsmanaged_fields
+!
+(
+ReferrerPolicy
 )
 ;
 impl
