@@ -13152,6 +13152,10 @@ mZoomableByAPZ
 (
 false
 )
+mSuppressScrollbarRepaints
+(
+false
+)
 mVelocityQueue
 (
 aOuter
