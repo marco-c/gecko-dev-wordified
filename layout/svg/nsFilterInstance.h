@@ -1911,7 +1911,7 @@ space
 .
 *
 /
-nsresult
+bool
 ComputeUserSpaceToFilterSpaceScale
 (
 )
@@ -2172,6 +2172,11 @@ GetUserSpaceToFrameSpaceInCSSPxTransform
 (
 )
 const
+;
+bool
+ComputeTargetBBoxInFilterSpace
+(
+)
 ;
 /
 *
