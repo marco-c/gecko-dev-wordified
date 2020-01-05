@@ -1298,9 +1298,6 @@ enable_subpixel_aa
 opts
 .
 enable_subpixel_text_antialiasing
-clear_empty_tiles
-:
-true
 clear_framebuffer
 :
 true
@@ -1327,6 +1324,9 @@ new
 .
 0
 )
+render_target_debug
+:
+false
 }
 )
 }
