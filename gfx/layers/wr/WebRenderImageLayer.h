@@ -213,6 +213,13 @@ WrImageMask
 >
 RenderMaskLayer
 (
+const
+gfx
+:
+:
+Matrix4x4
+&
+aTransform
 )
 override
 ;
