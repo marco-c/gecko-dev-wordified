@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsTablePainter
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
