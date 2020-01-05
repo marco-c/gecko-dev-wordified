@@ -2527,7 +2527,7 @@ IsStyledByServo
 )
 )
 {
-NS_WARNING
+NS_ERROR
 (
 "
 stylo
