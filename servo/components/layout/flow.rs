@@ -10327,10 +10327,6 @@ style
 (
 style_context
 )
-.
-clone
-(
-)
 ;
 match
 self
@@ -10391,10 +10387,6 @@ node
 selected_style
 (
 style_context
-)
-.
-clone
-(
 )
 node
 .
@@ -10468,10 +10460,6 @@ node
 selected_style
 (
 style_context
-)
-.
-clone
-(
 )
 node
 .
@@ -10573,10 +10561,6 @@ node
 selected_style
 (
 style_context
-)
-.
-clone
-(
 )
 node
 .

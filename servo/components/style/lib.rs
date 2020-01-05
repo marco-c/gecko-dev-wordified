@@ -546,6 +546,10 @@ ordered_float
 ;
 extern
 crate
+parking_lot
+;
+extern
+crate
 quickersort
 ;
 extern
@@ -654,6 +658,10 @@ string_cache
 pub
 mod
 animation
+;
+pub
+mod
+atomic_refcell
 ;
 pub
 mod
