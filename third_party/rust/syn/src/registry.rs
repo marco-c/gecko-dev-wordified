@@ -2648,16 +2648,6 @@ to_string
 )
 ;
 let
-cfg
-=
-Vec
-:
-:
-new
-(
-)
-;
-let
 sess
 =
 ParseSess
@@ -2678,7 +2668,6 @@ parse_crate_from_source_str
 (
 name
 source
-cfg
 &
 sess
 )

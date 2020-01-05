@@ -551,9 +551,14 @@ token
 self
 Token
 DelimToken
-keywords
-str_to_ident
 }
+;
+pub
+use
+symbol
+:
+:
+keywords
 ;
 pub
 use

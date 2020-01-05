@@ -287,6 +287,10 @@ impl
 a
 >
 Visitor
+<
+'
+a
+>
 for
 ShowSpanVisitor
 <
@@ -303,6 +307,8 @@ self
 e
 :
 &
+'
+a
 ast
 :
 :
@@ -354,6 +360,8 @@ self
 p
 :
 &
+'
+a
 ast
 :
 :
@@ -405,6 +413,8 @@ self
 t
 :
 &
+'
+a
 ast
 :
 :
@@ -456,6 +466,8 @@ self
 mac
 :
 &
+'
+a
 ast
 :
 :

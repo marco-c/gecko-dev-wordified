@@ -155,10 +155,7 @@ use
 codemap
 :
 :
-{
 Spanned
-respan
-}
 ;
 use
 parse
@@ -861,15 +858,10 @@ self
 .
 process_cfg_attr
 (
-respan
-(
-mi
-.
-span
 ast
 :
 :
-Attribute_
+Attribute
 {
 id
 :
@@ -883,8 +875,6 @@ style
 :
 attr
 .
-node
-.
 style
 value
 :
@@ -896,8 +886,12 @@ clone
 is_sugared_doc
 :
 false
+span
+:
+mi
+.
+span
 }
-)
 )
 }
 else
@@ -1042,8 +1036,6 @@ mis
 match
 attr
 .
-node
-.
 value
 .
 node
@@ -1056,7 +1048,6 @@ MetaItemKind
 :
 List
 (
-_
 ref
 mis
 )
@@ -1268,8 +1259,6 @@ EXPLAIN_STMT_ATTR_SYNTAX
 ;
 if
 attr
-.
-node
 .
 is_sugared_doc
 {
