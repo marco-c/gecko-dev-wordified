@@ -2474,17 +2474,6 @@ return
 NS_OK
 ;
 }
-#
-if
-defined
-(
-XP_WIN
-)
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 ProxyAccessible
 *
 proxy
@@ -2535,8 +2524,6 @@ targets
 return
 NS_OK
 ;
-#
-endif
 }
 NS_IMETHODIMP
 xpcAccessible
