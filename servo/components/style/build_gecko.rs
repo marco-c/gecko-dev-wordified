@@ -1238,6 +1238,7 @@ DOS_SOLARIS
 1
 "
 )
+;
 }
 else
 if
@@ -1274,6 +1275,7 @@ DOS_DRAGONFLY
 1
 "
 )
+;
 }
 else
 if
@@ -1310,6 +1312,7 @@ DOS_FREEBSD
 1
 "
 )
+;
 }
 else
 if
@@ -1346,6 +1349,7 @@ DOS_NETBSD
 1
 "
 )
+;
 }
 else
 if
@@ -1382,6 +1386,7 @@ DOS_OPENBSD
 1
 "
 )
+;
 }
 else
 if
