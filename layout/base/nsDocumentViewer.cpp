@@ -2373,7 +2373,6 @@ aTop
 {
 DispatchEventToWindowTree
 (
-mTop
 NS_LITERAL_STRING
 (
 "
@@ -2390,7 +2389,6 @@ AutoPrintEventDispatcher
 {
 DispatchEventToWindowTree
 (
-mTop
 NS_LITERAL_STRING
 (
 "
@@ -2402,13 +2400,9 @@ afterprint
 }
 private
 :
-static
 void
 DispatchEventToWindowTree
 (
-nsIDocument
-*
-aDoc
 const
 nsAString
 &
@@ -2423,7 +2417,7 @@ targets
 ;
 CollectDocuments
 (
-aDoc
+mTop
 &
 targets
 )
