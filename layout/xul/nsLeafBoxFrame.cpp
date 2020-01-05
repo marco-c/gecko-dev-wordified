@@ -959,8 +959,8 @@ const
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 {
 /
@@ -987,7 +987,7 @@ aAvailableISize
 aMargin
 aBorder
 aPadding
-aShrinkWrap
+aFlags
 )
 ;
 }

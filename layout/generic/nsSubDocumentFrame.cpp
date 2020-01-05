@@ -4207,8 +4207,8 @@ const
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 {
 if
@@ -4232,7 +4232,7 @@ aAvailableISize
 aMargin
 aBorder
 aPadding
-aShrinkWrap
+aFlags
 )
 ;
 }

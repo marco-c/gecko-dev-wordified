@@ -2186,7 +2186,7 @@ mozilla
 :
 :
 WritingMode
-aWritingMode
+aWM
 const
 mozilla
 :
@@ -2236,7 +2236,7 @@ mozilla
 :
 :
 WritingMode
-aWritingMode
+aWM
 const
 mozilla
 :
@@ -2267,8 +2267,8 @@ mozilla
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 override
 ;

@@ -404,8 +404,8 @@ const
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 {
 /
@@ -432,7 +432,12 @@ NS_UNCONSTRAINEDSIZE
 ;
 if
 (
-aShrinkWrap
+aFlags
+&
+ComputeSizeFlags
+:
+:
+eShrinkWrap
 )
 {
 result

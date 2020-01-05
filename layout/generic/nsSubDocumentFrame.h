@@ -510,8 +510,8 @@ mozilla
 LogicalSize
 &
 aPadding
-bool
-aShrinkWrap
+ComputeSizeFlags
+aFlags
 )
 override
 ;
