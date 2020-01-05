@@ -26792,6 +26792,7 @@ return
 CGGeneric
 (
 "
+pub
 static
 %
 s
