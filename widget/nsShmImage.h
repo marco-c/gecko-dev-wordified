@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+8
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -289,6 +289,11 @@ aSize
 ;
 void
 DestroyImage
+(
+)
+;
+void
+WaitIfPendingReply
 (
 )
 ;
