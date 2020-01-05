@@ -318,10 +318,6 @@ Arc
 ;
 pub
 mod
-bezier
-;
-pub
-mod
 cache
 ;
 pub
