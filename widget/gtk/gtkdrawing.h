@@ -1197,7 +1197,6 @@ menus
 *
 /
 MOZ_GTK_MENUITEM
-MOZ_GTK_IMAGEMENUITEM
 /
 *
 Paints
