@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsSVGPathGeometryElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 InternalMutationEvent
@@ -407,13 +414,6 @@ h
 include
 "
 SVGContentUtils
-.
-h
-"
-#
-include
-"
-SVGGeometryElement
 .
 h
 "

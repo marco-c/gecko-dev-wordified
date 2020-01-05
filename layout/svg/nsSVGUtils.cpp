@@ -420,14 +420,14 @@ h
 #
 include
 "
-SVGGeometryElement
+nsSVGPathGeometryElement
 .
 h
 "
 #
 include
 "
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 .
 h
 "
@@ -2428,7 +2428,7 @@ GetCanvasTM
 return
 static_cast
 <
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 >
 (
@@ -8047,7 +8047,7 @@ type
 nsGkAtoms
 :
 :
-svgGeometryFrame
+svgPathGeometryFrame
 )
 {
 return
@@ -8630,7 +8630,7 @@ const
 gfxRect
 &
 aPathExtents
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aFrame
 const

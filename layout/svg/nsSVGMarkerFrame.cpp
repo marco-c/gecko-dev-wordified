@@ -146,14 +146,14 @@ h
 #
 include
 "
-SVGGeometryElement
+nsSVGPathGeometryElement
 .
 h
 "
 #
 include
 "
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 .
 h
 "
@@ -560,7 +560,7 @@ NS_ASSERTION
 mMarkedFrame
 "
 null
-SVGGeometry
+nsSVGPathGeometry
 frame
 "
 )
@@ -731,7 +731,7 @@ const
 gfxMatrix
 &
 aToMarkedFrameUserSpace
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 nsSVGMark
@@ -1103,7 +1103,7 @@ Matrix
 aToBBoxUserspace
 uint32_t
 aFlags
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 const
@@ -1528,7 +1528,7 @@ AutoMarkerReferencer
 nsSVGMarkerFrame
 *
 aFrame
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aMarkedFrame
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL

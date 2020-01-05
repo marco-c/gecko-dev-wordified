@@ -202,7 +202,7 @@ h
 #
 include
 "
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 .
 h
 "
@@ -2867,7 +2867,7 @@ mSource
 =
 static_cast
 <
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 >
 (

@@ -462,7 +462,7 @@ SVGPolygonElement
 -
 /
 /
-SVGGeometryElement
+nsSVGPathGeometryElement
 methods
 void
 SVGPolygonElement
@@ -478,7 +478,7 @@ nsSVGMark
 aMarks
 )
 {
-SVGPolyElement
+nsSVGPolyElement
 :
 :
 GetMarkPoints
@@ -638,7 +638,7 @@ the
 start
 point
 that
-SVGPolyElement
+nsSVGPolyElement
 :
 :
 GetMarkPoints

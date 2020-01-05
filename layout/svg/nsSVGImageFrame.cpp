@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsSVGPathGeometryFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -193,13 +200,6 @@ h
 include
 "
 SVGContentUtils
-.
-h
-"
-#
-include
-"
-SVGGeometryFrame
 .
 h
 "
@@ -322,7 +322,7 @@ class
 nsSVGImageFrame
 :
 public
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 public
 nsIReflowCallback
 {
@@ -349,7 +349,7 @@ nsStyleContext
 aContext
 )
 :
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 (
 aContext
 )
@@ -418,7 +418,7 @@ override
 ;
 /
 /
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 methods
 :
 virtual
@@ -845,7 +845,7 @@ image
 "
 )
 ;
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 Init
@@ -1411,7 +1411,7 @@ true
 }
 }
 return
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 AttributeChanged
@@ -1454,7 +1454,7 @@ if
 imageLoader
 )
 {
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 OnVisibilityChange
@@ -1475,7 +1475,7 @@ aNewVisibility
 aNonvisibleAction
 )
 ;
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 OnVisibilityChange
@@ -3291,7 +3291,7 @@ svgImageFrame
 -
 /
 /
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 methods
 :
 /

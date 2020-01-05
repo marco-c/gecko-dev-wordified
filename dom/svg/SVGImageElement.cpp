@@ -1743,7 +1743,7 @@ name
 -
 /
 /
-SVGGeometryElement
+nsSVGPathGeometryElement
 methods
 /
 *

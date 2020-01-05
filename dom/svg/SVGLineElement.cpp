@@ -998,7 +998,7 @@ sLengthInfo
 -
 /
 /
-SVGGeometryElement
+nsSVGPathGeometryElement
 methods
 void
 SVGLineElement

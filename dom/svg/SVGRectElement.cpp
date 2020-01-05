@@ -978,7 +978,7 @@ sLengthInfo
 -
 /
 /
-SVGGeometryElement
+nsSVGPathGeometryElement
 methods
 bool
 SVGRectElement

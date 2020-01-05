@@ -279,6 +279,9 @@ class
 nsSVGOuterSVGFrame
 ;
 class
+nsSVGPathGeometryFrame
+;
+class
 nsTextFrame
 ;
 struct
@@ -295,9 +298,6 @@ SVGContextPaint
 ;
 struct
 SVGContextPaintImpl
-;
-class
-SVGGeometryFrame
 ;
 namespace
 dom
@@ -941,13 +941,6 @@ mozilla
 :
 SVGContextPaintImpl
 SVGContextPaintImpl
-;
-typedef
-mozilla
-:
-:
-SVGGeometryFrame
-SVGGeometryFrame
 ;
 typedef
 mozilla
@@ -3180,7 +3173,7 @@ const
 gfxRect
 &
 aPathExtents
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 aFrame
 const

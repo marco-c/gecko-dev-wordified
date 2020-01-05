@@ -5237,7 +5237,7 @@ Markers
 currently
 contribute
 to
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 mRect
@@ -5447,7 +5447,7 @@ a
 waste
 on
 non
-SVGGeometryFrames
+nsSVGPathGeometryFrames
 .
 hint
 |
@@ -5498,7 +5498,7 @@ Stroke
 currently
 contributes
 to
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 mRect
@@ -5534,7 +5534,7 @@ dashoffset
 does
 not
 affect
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 mRect
@@ -6705,7 +6705,7 @@ mVectorEffect
 Stroke
 currently
 affects
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 mRect
@@ -6736,7 +6736,7 @@ in
 order
 to
 have
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 /
@@ -22690,7 +22690,7 @@ mPointerEvents
 {
 /
 /
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 '
 s
 mRect
@@ -22709,7 +22709,7 @@ pointer
 events
 .
 See
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 :
 :
 ReflowSVG

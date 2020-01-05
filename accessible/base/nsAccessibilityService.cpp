@@ -426,7 +426,7 @@ h
 #
 include
 "
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 .
 h
 "
@@ -8354,9 +8354,9 @@ IsSVGElement
 )
 )
 {
-SVGGeometryFrame
+nsSVGPathGeometryFrame
 *
-geometryFrame
+pathGeometryFrame
 =
 do_QueryFrame
 (
@@ -8365,7 +8365,7 @@ frame
 ;
 if
 (
-geometryFrame
+pathGeometryFrame
 )
 {
 /
