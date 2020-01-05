@@ -288,7 +288,7 @@ cors_cache
 ;
 pub
 mod
-request
+methods
 ;
 pub
 mod
