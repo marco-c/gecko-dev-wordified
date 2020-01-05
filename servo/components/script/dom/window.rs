@@ -1180,7 +1180,7 @@ geometry
 :
 {
 self
-MAX_RECT
+max_rect
 }
 ;
 use
@@ -6308,10 +6308,6 @@ visible_viewport
 .
 height
 .
-get
-(
-)
-.
 to_i32
 (
 )
@@ -6377,10 +6373,6 @@ e
 visible_viewport
 .
 width
-.
-get
-(
-)
 .
 to_i32
 (
@@ -12496,7 +12488,9 @@ had_clip_rect
 clip_rect
 !
 =
-MAX_RECT
+max_rect
+(
+)
 ;
 if
 had_clip_rect
@@ -12551,7 +12545,9 @@ for
 infinite
 clip
 (
-MAX_RECT
+max_rect
+(
+)
 )
 .
 had_clip_rect
@@ -13758,7 +13754,9 @@ Cell
 :
 new
 (
-MAX_RECT
+max_rect
+(
+)
 )
 fragment_name
 :

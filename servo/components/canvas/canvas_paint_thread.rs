@@ -4360,8 +4360,11 @@ state
 .
 transform
 =
-*
 transform
+.
+clone
+(
+)
 ;
 self
 .

@@ -134,7 +134,10 @@ euclid
 rect
 :
 :
+{
 Rect
+TypedRect
+}
 ;
 use
 euclid
@@ -4211,7 +4214,7 @@ self
 font_context
 page_rect
 :
-Rect
+TypedRect
 :
 :
 from_untyped
@@ -4231,7 +4234,7 @@ display_list_origin
 )
 screen_rect
 :
-Rect
+TypedRect
 :
 :
 from_untyped

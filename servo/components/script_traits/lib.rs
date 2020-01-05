@@ -2825,8 +2825,8 @@ MsDuration
 =
 Length
 <
-Milliseconds
 u64
+Milliseconds
 >
 ;
 /
@@ -2842,8 +2842,8 @@ NsDuration
 =
 Length
 <
-Nanoseconds
 u64
+Nanoseconds
 >
 ;
 /
@@ -4583,8 +4583,8 @@ initial_viewport
 :
 TypedSize2D
 <
-ViewportPx
 f32
+ViewportPx
 >
 /
 /
@@ -4609,8 +4609,8 @@ visible_viewport
 :
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 /
 /
@@ -4636,9 +4636,9 @@ device_pixel_ratio
 :
 ScaleFactor
 <
+f32
 ViewportPx
 DevicePixel
-f32
 >
 }
 /

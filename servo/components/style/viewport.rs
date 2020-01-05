@@ -4046,8 +4046,8 @@ initial_viewport
 :
 TypedSize2D
 <
-ViewportPx
 f32
+ViewportPx
 >
 rule
 :
@@ -4074,8 +4074,8 @@ initial_viewport
 :
 TypedSize2D
 <
-ViewportPx
 f32
+ViewportPx
 >
 rule
 :
@@ -4614,10 +4614,6 @@ from_f32_px
 initial_viewport
 .
 width
-.
-get
-(
-)
 )
 Au
 :
@@ -4627,10 +4623,6 @@ from_f32_px
 initial_viewport
 .
 height
-.
-get
-(
-)
 )
 )
 ;
@@ -5400,10 +5392,10 @@ ViewportConstraints
 {
 size
 :
-Size2D
+TypedSize2D
 :
 :
-typed
+new
 (
 width
 .

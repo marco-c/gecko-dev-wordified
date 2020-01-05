@@ -78,7 +78,7 @@ euclid
 size
 :
 :
-Size2D
+TypedSize2D
 ;
 use
 std
@@ -4612,10 +4612,10 @@ MediaType
 Screen
 viewport_size
 :
-Size2D
+TypedSize2D
 :
 :
-typed
+new
 (
 200
 .
@@ -4812,10 +4812,10 @@ MediaType
 Screen
 viewport_size
 :
-Size2D
+TypedSize2D
 :
 :
-typed
+new
 (
 200
 .
@@ -5529,10 +5529,10 @@ MediaType
 Screen
 viewport_size
 :
-Size2D
+TypedSize2D
 :
 :
-typed
+new
 (
 200
 .

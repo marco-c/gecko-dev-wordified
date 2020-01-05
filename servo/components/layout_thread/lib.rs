@@ -985,7 +985,7 @@ util
 geometry
 :
 :
-MAX_RECT
+max_rect
 ;
 use
 util
@@ -4431,7 +4431,9 @@ ReflowGoal
 ForDisplay
 page_clip_rect
 :
-MAX_RECT
+max_rect
+(
+)
 }
 ;
 let
@@ -7512,10 +7514,6 @@ from_f32_px
 initial_viewport
 .
 width
-.
-get
-(
-)
 )
 Au
 :
@@ -7525,10 +7523,6 @@ from_f32_px
 initial_viewport
 .
 height
-.
-get
-(
-)
 )
 )
 ;
@@ -7654,10 +7648,6 @@ constraints
 size
 .
 width
-.
-get
-(
-)
 )
 Au
 :
@@ -7669,10 +7659,6 @@ constraints
 size
 .
 height
-.
-get
-(
-)
 )
 )
 }
@@ -9114,7 +9100,9 @@ ReflowGoal
 ForDisplay
 page_clip_rect
 :
-MAX_RECT
+max_rect
+(
+)
 }
 ;
 let
@@ -9416,7 +9404,9 @@ ReflowGoal
 ForDisplay
 page_clip_rect
 :
-MAX_RECT
+max_rect
+(
+)
 }
 ;
 let
@@ -9600,7 +9590,9 @@ ReflowGoal
 ForDisplay
 page_clip_rect
 :
-MAX_RECT
+max_rect
+(
+)
 }
 ;
 let
