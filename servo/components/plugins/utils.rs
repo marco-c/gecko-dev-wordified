@@ -334,10 +334,6 @@ b
 match
 seg
 .
-as_slice
-(
-)
-.
 last
 (
 )
@@ -363,13 +359,10 @@ a
 {
 Some
 (
+&
 a
 .
 types
-.
-as_slice
-(
-)
 )
 }
 _

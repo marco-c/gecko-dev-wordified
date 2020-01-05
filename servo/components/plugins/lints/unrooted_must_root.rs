@@ -1481,6 +1481,7 @@ UNROOTED_MUST_ROOT
 expr
 .
 span
+&
 format
 !
 (
@@ -1502,10 +1503,6 @@ cx
 .
 tcx
 )
-)
-.
-as_slice
-(
 )
 )
 ;

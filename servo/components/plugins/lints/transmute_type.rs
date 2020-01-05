@@ -308,6 +308,7 @@ TRANSMUTE_TYPE_LINT
 ex
 .
 span
+&
 format
 !
 (
@@ -353,10 +354,6 @@ repr
 (
 tcx
 )
-)
-.
-as_slice
-(
 )
 )
 ;

@@ -2352,13 +2352,9 @@ unused
 let
 i
 =
-(
-&
-*
 self
 .
 detail_lookup
-)
 .
 binary_search_index
 (
@@ -2496,10 +2492,6 @@ i
 self
 .
 detail_lookup
-.
-as_slice
-(
-)
 .
 binary_search_index
 (

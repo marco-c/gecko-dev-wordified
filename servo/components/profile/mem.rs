@@ -4488,11 +4488,8 @@ seg_re
 .
 captures
 (
+&
 line
-.
-as_slice
-(
-)
 )
 {
 Some
@@ -4694,11 +4691,8 @@ rss_re
 .
 captures
 (
+&
 line
-.
-as_slice
-(
-)
 )
 {
 Some

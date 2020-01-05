@@ -1450,11 +1450,8 @@ bytes
 .
 push_all
 (
+&
 data
-.
-as_slice
-(
-)
 )
 ;
 }
@@ -1563,11 +1560,8 @@ image
 =
 load_from_memory
 (
+&
 bytes
-.
-as_slice
-(
-)
 )
 ;
 let

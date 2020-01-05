@@ -1184,11 +1184,8 @@ util
 :
 transform_text
 (
+&
 in_fragment
-.
-as_slice
-(
-)
 compression
 last_whitespace
 &

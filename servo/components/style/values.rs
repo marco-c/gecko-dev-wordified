@@ -6979,11 +6979,8 @@ parse_dimension
 value
 .
 value
+&
 unit
-.
-as_slice
-(
-)
 )
 }
 _

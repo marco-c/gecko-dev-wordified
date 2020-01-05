@@ -1238,10 +1238,6 @@ if
 cached_font_entry
 .
 family
-.
-as_slice
-(
-)
 =
 =
 family

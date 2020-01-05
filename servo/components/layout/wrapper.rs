@@ -2250,13 +2250,10 @@ s
 .
 push_str
 (
+&
 self
 .
 debug_str
-(
-)
-.
-as_slice
 (
 )
 )

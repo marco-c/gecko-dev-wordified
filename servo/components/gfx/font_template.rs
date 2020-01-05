@@ -1075,13 +1075,10 @@ FontTemplateData
 :
 new
 (
+&
 self
 .
 identifier
-.
-as_slice
-(
-)
 None
 )
 )

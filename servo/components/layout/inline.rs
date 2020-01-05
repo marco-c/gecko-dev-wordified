@@ -10880,10 +10880,6 @@ self
 .
 lines
 .
-as_slice
-(
-)
-.
 last
 (
 )

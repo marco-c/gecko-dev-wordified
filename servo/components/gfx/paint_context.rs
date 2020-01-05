@@ -1122,10 +1122,6 @@ pixels
 (
 4
 pixels
-.
-as_slice
-(
-)
 SurfaceFormat
 :
 :
@@ -1144,10 +1140,6 @@ pixels
 (
 1
 pixels
-.
-as_slice
-(
-)
 SurfaceFormat
 :
 :

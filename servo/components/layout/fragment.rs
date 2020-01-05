@@ -10813,13 +10813,10 @@ str
 :
 is_whitespace
 (
+&
 text_fragment_info
 .
 text
-.
-as_slice
-(
-)
 )
 }
 _

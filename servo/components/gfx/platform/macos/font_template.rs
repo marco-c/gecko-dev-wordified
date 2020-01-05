@@ -227,10 +227,6 @@ CGDataProvider
 from_buffer
 (
 bytes
-.
-as_slice
-(
-)
 )
 ;
 let
@@ -293,11 +289,8 @@ font
 :
 new_from_name
 (
+&
 identifier
-.
-as_slice
-(
-)
 0
 .
 0
