@@ -823,10 +823,6 @@ secError
 int
 i
 ;
-error
-=
-0
-;
 errorStack
 =
 NSS_GetErrorStack
@@ -4527,6 +4523,12 @@ cc
 if
 (
 stanProfile
+&
+&
+profileTime
+&
+&
+emailProfile
 )
 {
 /

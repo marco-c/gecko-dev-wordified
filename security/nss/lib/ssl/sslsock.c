@@ -7012,6 +7012,7 @@ count
 int
 i
 k
+j
 ;
 const
 sslNamedGroupDef
@@ -7369,17 +7370,17 @@ SSL_NAMED_GROUP_COUNT
 ;
 for
 (
-i
+j
 =
 0
 ;
-i
+j
 <
 k
 ;
 +
 +
-i
+j
 )
 {
 /
@@ -7392,7 +7393,7 @@ if
 (
 enabled
 [
-i
+j
 ]
 =
 =

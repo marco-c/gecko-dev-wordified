@@ -6287,6 +6287,14 @@ ssl3_config_match
 /
 if
 (
+ss
+-
+>
+version
+<
+SSL_LIBRARY_VERSION_TLS_1_3
+&
+&
 !
 ss
 -

@@ -850,6 +850,16 @@ nicknames
 >
 nicknames
 ;
+if
+(
+!
+certList
+)
+{
+goto
+loser
+;
+}
 flags
 =
 (
