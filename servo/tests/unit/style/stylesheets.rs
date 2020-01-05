@@ -484,7 +484,12 @@ Origin
 UserAgent
 media
 :
-None
+Default
+:
+:
+default
+(
+)
 dirty_on_viewport_size_change
 :
 false
