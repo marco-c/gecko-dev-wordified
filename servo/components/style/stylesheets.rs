@@ -130,7 +130,7 @@ media_queries
 :
 {
 Device
-MediaQueryList
+MediaList
 parse_media_query_list
 }
 ;
@@ -416,7 +416,7 @@ media
 :
 Option
 <
-MediaQueryList
+MediaList
 >
 pub
 origin
@@ -638,7 +638,7 @@ CSSRule
 Option
 <
 &
-MediaQueryList
+MediaList
 >
 )
 -
@@ -840,7 +840,7 @@ Arc
 <
 RwLock
 <
-MediaQueryList
+MediaList
 >
 >
 pub
@@ -1309,7 +1309,7 @@ seen_viewport_percentages
 /
 Set
 the
-MediaQueryList
+MediaList
 associated
 with
 the
@@ -1328,7 +1328,7 @@ media
 :
 Option
 <
-MediaQueryList
+MediaList
 >
 )
 {
@@ -1360,7 +1360,7 @@ depending
 on
 the
 associated
-MediaQueryList
+MediaList
 .
 /
 /
@@ -1373,7 +1373,7 @@ true
 if
 no
 associated
-MediaQueryList
+MediaList
 exists
 .
 pub
@@ -1961,7 +1961,7 @@ Arc
 <
 RwLock
 <
-MediaQueryList
+MediaList
 >
 >
 )

@@ -225,7 +225,7 @@ F
 Fn
 (
 &
-MediaQueryList
+MediaList
 &
 str
 )
@@ -345,7 +345,7 @@ F
 FnMut
 (
 &
-MediaQueryList
+MediaList
 )
 {
 for
