@@ -431,6 +431,9 @@ FileSystemEntryCallbackHelper
 :
 Call
 (
+GetParentObject
+(
+)
 aSuccessCallback
 mParentEntry
 )
@@ -443,6 +446,9 @@ FileSystemEntryCallbackHelper
 :
 Call
 (
+GetParentObject
+(
+)
 aSuccessCallback
 this
 )

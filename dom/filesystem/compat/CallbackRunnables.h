@@ -451,6 +451,9 @@ static
 void
 Call
 (
+nsIGlobalObject
+*
+aGlobalObject
 const
 Optional
 <
