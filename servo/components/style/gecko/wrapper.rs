@@ -8631,6 +8631,16 @@ NonTSPseudoClass
 :
 :
 MozMeterSubSubOptimum
+|
+NonTSPseudoClass
+:
+:
+MozAutofill
+|
+NonTSPseudoClass
+:
+:
+MozAutofillPreview
 =
 >
 {
