@@ -226,7 +226,7 @@ sync
 .
 repositories
 .
-Server11RepositorySession
+Server15RepositorySession
 ;
 import
 org
@@ -239,7 +239,7 @@ sync
 .
 repositories
 .
-Server11Repository
+Server15Repository
 ;
 import
 org
@@ -359,7 +359,7 @@ class
 BatchingDownloaderDelegateTest
 {
 private
-Server11RepositorySession
+Server15RepositorySession
 repositorySession
 ;
 private
@@ -589,10 +589,10 @@ Exception
 repositorySession
 =
 new
-Server11RepositorySession
+Server15RepositorySession
 (
 new
-Server11Repository
+Server15Repository
 (
 "
 dummyCollection

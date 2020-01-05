@@ -116,7 +116,7 @@ sync
 .
 repositories
 .
-Server11Repository
+Server15Repository
 ;
 import
 java
@@ -149,7 +149,7 @@ class
 )
 public
 class
-TestServer11Repository
+TestServer15Repository
 {
 private
 static
@@ -259,11 +259,11 @@ testCollectionURI
 throws
 URISyntaxException
 {
-Server11Repository
+Server15Repository
 noTrailingSlash
 =
 new
-Server11Repository
+Server15Repository
 (
 COLLECTION
 SYNC_DEADLINE
@@ -273,11 +273,11 @@ infoCollections
 infoConfiguration
 )
 ;
-Server11Repository
+Server15Repository
 trailingSlash
 =
 new
-Server11Repository
+Server15Repository
 (
 COLLECTION
 SYNC_DEADLINE

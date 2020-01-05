@@ -124,7 +124,7 @@ sync
 .
 repositories
 .
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 ;
 import
 org
@@ -318,7 +318,7 @@ getCollection
 ;
 return
 new
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 (
 collection
 session

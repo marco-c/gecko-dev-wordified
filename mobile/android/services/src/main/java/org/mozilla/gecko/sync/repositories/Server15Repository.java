@@ -161,7 +161,7 @@ Nullable
 *
 *
 A
-Server11Repository
+Server15Repository
 implements
 fetching
 and
@@ -199,7 +199,7 @@ rnewman
 /
 public
 class
-Server11Repository
+Server15Repository
 extends
 Repository
 {
@@ -320,7 +320,7 @@ URISyntaxException
 *
 /
 public
-Server11Repository
+Server15Repository
 (
 NonNull
 String
@@ -484,7 +484,7 @@ delegate
 onSessionCreated
 (
 new
-Server11RepositorySession
+Server15RepositorySession
 (
 this
 )

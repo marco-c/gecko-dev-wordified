@@ -89,7 +89,7 @@ session
 /
 public
 class
-Server11PreviousPostFailedException
+Server15PreviousPostFailedException
 extends
 SyncException
 {

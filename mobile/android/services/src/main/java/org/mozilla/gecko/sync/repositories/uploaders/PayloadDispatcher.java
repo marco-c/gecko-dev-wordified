@@ -111,7 +111,7 @@ gecko
 .
 sync
 .
-Server11RecordPostFailedException
+Server15RecordPostFailedException
 ;
 import
 org
@@ -873,7 +873,7 @@ recordGuid
 recordFailed
 (
 new
-Server11RecordPostFailedException
+Server15RecordPostFailedException
 (
 )
 recordGuid

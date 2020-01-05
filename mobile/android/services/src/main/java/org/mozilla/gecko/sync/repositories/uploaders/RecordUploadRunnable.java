@@ -118,7 +118,7 @@ gecko
 .
 sync
 .
-Server11PreviousPostFailedException
+Utils
 ;
 import
 org
@@ -129,7 +129,7 @@ gecko
 .
 sync
 .
-Utils
+Server15PreviousPostFailedException
 ;
 import
 org
@@ -891,7 +891,7 @@ uploadDelegate
 handleRequestError
 (
 new
-Server11PreviousPostFailedException
+Server15PreviousPostFailedException
 (
 )
 )
