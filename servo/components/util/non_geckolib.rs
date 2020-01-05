@@ -259,6 +259,7 @@ s
 derive
 (
 PartialEq
+Clone
 )
 ]
 pub

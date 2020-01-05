@@ -144,10 +144,7 @@ bindings
 js
 :
 :
-{
-JS
 Root
-}
 ;
 use
 dom
@@ -287,15 +284,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
 ;
 /
 /
