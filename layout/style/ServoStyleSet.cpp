@@ -4839,6 +4839,7 @@ mRawSet
 get
 (
 )
+mAuthorStyleDisabled
 )
 ;
 }
