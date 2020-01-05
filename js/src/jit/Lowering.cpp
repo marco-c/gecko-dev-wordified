@@ -28360,6 +28360,9 @@ is
 /
 a
 SETELEM
+or
+INITELEM
+op
 .
 LDefinition
 tempD
@@ -28383,7 +28386,7 @@ BogusTemp
 ;
 if
 (
-IsSetElemPC
+IsElemPC
 (
 ins
 -
