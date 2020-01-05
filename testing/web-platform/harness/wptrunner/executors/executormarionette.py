@@ -3695,6 +3695,9 @@ marionette
 .
 screenshot
 (
+full
+=
+False
 )
         
 #
