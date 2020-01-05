@@ -3230,7 +3230,7 @@ background_color
 color
 :
 :
-black
+transparent_black
 (
 )
 scroll_policy
