@@ -1064,6 +1064,8 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+nsLoadFlags
+aLoadFlags
 )
 ;
 void

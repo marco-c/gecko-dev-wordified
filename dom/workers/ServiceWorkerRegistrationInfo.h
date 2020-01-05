@@ -163,6 +163,10 @@ mUpdateState
 uint64_t
 mLastUpdateCheckTime
 ;
+const
+nsLoadFlags
+mLoadFlags
+;
 RefPtr
 <
 ServiceWorkerInfo
@@ -268,6 +272,8 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+nsLoadFlags
+aLoadFlags
 )
 ;
 already_AddRefed
@@ -708,6 +714,12 @@ work
 .
 bool
 IsIdle
+(
+)
+const
+;
+nsLoadFlags
+GetLoadFlags
 (
 )
 const
