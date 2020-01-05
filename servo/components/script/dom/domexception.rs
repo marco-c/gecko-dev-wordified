@@ -475,6 +475,13 @@ TimeoutError
 error
 :
 :
+DataClone
+=
+>
+DataCloneError
+error
+:
+:
 FailureUnknown
 =
 >
