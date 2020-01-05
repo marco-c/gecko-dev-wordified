@@ -8136,9 +8136,9 @@ ease
 -
 in
 0s
-infinite
 normal
 forwards
+infinite
 paused
 bounce
 ;
@@ -8260,9 +8260,9 @@ ease
 -
 in
 0s
-infinite
 normal
 forwards
+infinite
 paused
 bounce
 \
@@ -8271,9 +8271,9 @@ bounce
 2s
 linear
 1s
-2
 reverse
 backwards
+2
 running
 roll
 ;
