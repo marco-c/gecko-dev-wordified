@@ -10324,7 +10324,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetToRGBAColor
+SetValueFromComplexColor
 (
 val
 StyleBackground

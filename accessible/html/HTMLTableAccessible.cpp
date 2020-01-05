@@ -7505,7 +7505,10 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+rowFrame
+)
 ;
 if
 (

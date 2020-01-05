@@ -7635,13 +7635,18 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+frame
+)
 )
 >
 0
 )
+{
 break
 ;
+}
 if
 (
 frame
@@ -7837,6 +7842,7 @@ result
 >
 IsTransparent
 (
+aForFrame
 )
 )
 {
@@ -8678,6 +8684,7 @@ htmlBG
 >
 IsTransparent
 (
+aRootElementFrame
 )
 ;
 }
@@ -14911,6 +14918,7 @@ bg
 >
 IsTransparent
 (
+aStyleContext
 )
 )
 {

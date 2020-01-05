@@ -8478,6 +8478,7 @@ StyleBackground
 >
 IsTransparent
 (
+f
 )
 |
 |
@@ -44043,7 +44044,10 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+bgFrame
+)
 ;
 }
 bool

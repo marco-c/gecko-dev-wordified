@@ -626,6 +626,7 @@ if
 (
 frame
 )
+{
 *
 aBackground
 =
@@ -637,8 +638,12 @@ StyleBackground
 )
 -
 >
-mBackgroundColor
+BackgroundColor
+(
+frame
+)
 ;
+}
 return
 S_OK
 ;
