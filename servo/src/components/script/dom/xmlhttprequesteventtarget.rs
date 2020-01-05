@@ -251,3 +251,8 @@ mut_reflector
 )
 }
 }
+pub
+trait
+XMLHttpRequestEventTargetMethods
+{
+}
