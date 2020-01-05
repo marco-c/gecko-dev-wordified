@@ -5767,15 +5767,9 @@ MOZ_ASSERT
 surface
 -
 >
-GetType
+IsDataSourceSurface
 (
 )
-=
-=
-SurfaceType
-:
-:
-DATA
 "
 The
 snapshot
