@@ -338,6 +338,10 @@ aUseSSL
 const
 bool
 &
+aReuseAddrPort
+const
+bool
+&
 aUseArrayBuffers
 const
 nsCString

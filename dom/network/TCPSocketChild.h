@@ -327,6 +327,8 @@ uint16_t
 aLocalPort
 bool
 aUseSSL
+bool
+aUseRealtimeOptions
 )
 ;
 NS_IMETHOD
