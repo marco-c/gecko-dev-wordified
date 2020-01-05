@@ -579,7 +579,10 @@ dom
 processinginstruction
 :
 :
+{
 ProcessingInstruction
+ProcessingInstructionHelpers
+}
 ;
 use
 dom
@@ -11626,11 +11629,7 @@ new
 (
 pi
 .
-target
-(
-)
-.
-clone
+Target
 (
 )
 CharacterDataCast
