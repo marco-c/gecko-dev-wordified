@@ -1089,10 +1089,6 @@ box_
 .
 border_box
 .
-borrow
-(
-)
-.
 origin
 .
 x
@@ -1107,10 +1103,6 @@ block_flow
 box_
 .
 border_box
-.
-borrow
-(
-)
 .
 size
 .
@@ -1492,6 +1484,7 @@ mut
 table_wrapper
 .
 block_flow
+&
 input
 )
 ;
@@ -2267,6 +2260,7 @@ mut
 BlockFlow
 input
 :
+&
 WidthConstraintInput
 )
 -

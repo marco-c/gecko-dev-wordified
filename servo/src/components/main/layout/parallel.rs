@@ -509,6 +509,8 @@ flow
 *
 ~
 Flow
+:
+Share
 )
 -
 >
@@ -537,6 +539,8 @@ flow
 mut
 ~
 Flow
+:
+Share
 )
 -
 >
@@ -936,6 +940,8 @@ flow
 mut
 ~
 Flow
+:
+Share
 =
 cast
 :
@@ -1102,6 +1108,8 @@ parent
 mut
 ~
 Flow
+:
+Share
 =
 cast
 :
@@ -1291,6 +1299,8 @@ flow
 mut
 ~
 Flow
+:
+Share
 =
 cast
 :
@@ -2643,6 +2653,8 @@ root
 mut
 ~
 Flow
+:
+Share
 profiler_chan
 :
 ProfilerChan

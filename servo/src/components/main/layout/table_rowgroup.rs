@@ -631,7 +631,6 @@ let
 mut
 position
 =
-*
 self
 .
 block_flow
@@ -639,10 +638,6 @@ block_flow
 box_
 .
 border_box
-.
-borrow
-(
-)
 ;
 position
 .
@@ -652,7 +647,6 @@ height
 =
 height
 ;
-*
 self
 .
 block_flow
@@ -660,10 +654,6 @@ block_flow
 box_
 .
 border_box
-.
-borrow_mut
-(
-)
 =
 position
 ;

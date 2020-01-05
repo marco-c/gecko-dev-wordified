@@ -115,6 +115,8 @@ Option
 <
 ~
 Flow
+:
+Share
 >
 ;
 #
@@ -526,6 +528,8 @@ next
 :
 ~
 Flow
+:
+Share
 prev
 :
 Rawlink
@@ -1012,6 +1016,8 @@ new_head
 :
 ~
 Flow
+:
+Share
 )
 {
 match
@@ -1165,6 +1171,8 @@ Option
 <
 ~
 Flow
+:
+Share
 >
 {
 self
@@ -1271,6 +1279,8 @@ new_tail
 :
 ~
 Flow
+:
+Share
 )
 {
 if
@@ -1394,6 +1404,8 @@ Option
 <
 ~
 Flow
+:
+Share
 >
 {
 if
