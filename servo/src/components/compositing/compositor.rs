@@ -1019,6 +1019,13 @@ hidpi_factor
 (
 )
 ;
+let
+show_debug_borders
+=
+opts
+.
+show_debug_borders
+;
 IOCompositor
 {
 window
@@ -1035,7 +1042,10 @@ context
 rendergl
 :
 :
-init_render_context
+RenderContext
+:
+:
+new
 (
 CompositorTask
 :
@@ -1043,6 +1053,7 @@ CompositorTask
 create_graphics_context
 (
 )
+show_debug_borders
 )
 root_pipeline
 :
