@@ -474,15 +474,6 @@ ToMicroseconds
 ;
 return
 InvokeAsync
-<
-bool
-media
-:
-:
-TimeUnit
-&
-&
->
 (
 mReader
 -
@@ -591,11 +582,6 @@ StartTime
 ;
 return
 InvokeAsync
-<
-SeekTarget
-&
-&
->
 (
 mReader
 -
