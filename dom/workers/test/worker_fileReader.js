@@ -1300,7 +1300,7 @@ convertToDataURL
 )
 0
 "
-empt
+empty
 binary
 string
 reading
