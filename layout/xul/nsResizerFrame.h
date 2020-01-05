@@ -129,6 +129,7 @@ nsIBaseWindow
 ;
 class
 nsResizerFrame
+final
 :
 public
 nsTitleBarFrame

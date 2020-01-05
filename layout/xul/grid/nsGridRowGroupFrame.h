@@ -218,6 +218,7 @@ group
 /
 class
 nsGridRowGroupFrame
+final
 :
 public
 nsBoxFrame

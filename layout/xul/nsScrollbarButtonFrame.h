@@ -150,6 +150,7 @@ h
 "
 class
 nsScrollbarButtonFrame
+final
 :
 public
 nsButtonBoxFrame

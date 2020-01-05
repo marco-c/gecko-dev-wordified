@@ -318,6 +318,7 @@ aDestructRoot
 }
 class
 nsDisplayXULTreeColSplitterTarget
+final
 :
 public
 nsDisplayItem

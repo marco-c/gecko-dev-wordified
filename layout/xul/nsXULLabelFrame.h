@@ -146,6 +146,7 @@ included
 endif
 class
 nsXULLabelFrame
+final
 :
 public
 nsBlockFrame

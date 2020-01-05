@@ -139,6 +139,7 @@ aContext
 ;
 class
 nsSplitterFrame
+final
 :
 public
 nsBoxFrame

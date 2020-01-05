@@ -650,6 +650,7 @@ class
 nsImageBoxFrame
 class
 nsDisplayXULImage
+final
 :
 public
 nsDisplayImageContainer

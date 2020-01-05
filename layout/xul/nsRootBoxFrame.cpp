@@ -270,6 +270,7 @@ rootBox
 }
 class
 nsRootBoxFrame
+final
 :
 public
 nsBoxFrame

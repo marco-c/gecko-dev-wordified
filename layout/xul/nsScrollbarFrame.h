@@ -139,6 +139,7 @@ aContext
 ;
 class
 nsScrollbarFrame
+final
 :
 public
 nsBoxFrame

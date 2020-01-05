@@ -128,6 +128,7 @@ nsBoxLayoutState
 ;
 class
 nsListBoxLayout
+final
 :
 public
 nsGridRowGroupLayout

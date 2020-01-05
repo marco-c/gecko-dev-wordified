@@ -126,6 +126,7 @@ aContext
 ;
 class
 nsTreeColFrame
+final
 :
 public
 nsBoxFrame

@@ -176,6 +176,7 @@ image
 ;
 class
 nsGroupBoxFrame
+final
 :
 public
 nsBoxFrame
@@ -523,6 +524,7 @@ nsGroupBoxFrame
 )
 class
 nsDisplayXULGroupBorder
+final
 :
 public
 nsDisplayItem

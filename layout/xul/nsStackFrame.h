@@ -156,6 +156,7 @@ h
 "
 class
 nsStackFrame
+final
 :
 public
 nsBoxFrame
