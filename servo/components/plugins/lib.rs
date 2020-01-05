@@ -435,6 +435,9 @@ box
 lints
 :
 :
+transmute_type
+:
+:
 TransmutePass
 as
 LintPassObject
@@ -446,6 +449,9 @@ register_lint_pass
 (
 box
 lints
+:
+:
+unrooted_must_root
 :
 :
 UnrootedPass
@@ -461,6 +467,9 @@ box
 lints
 :
 :
+privatize
+:
+:
 PrivatizePass
 as
 LintPassObject
@@ -474,6 +483,9 @@ box
 lints
 :
 :
+inheritance_integrity
+:
+:
 InheritancePass
 as
 LintPassObject
@@ -485,6 +497,9 @@ register_lint_pass
 (
 box
 lints
+:
+:
+str_to_string
 :
 :
 StrToStringPass
