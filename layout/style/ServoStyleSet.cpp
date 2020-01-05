@@ -1394,10 +1394,11 @@ PrepareAndTraverseSubtree
 (
 RawGeckoElementBorrowed
 aRoot
+mozilla
+:
+:
 TraversalRootBehavior
 aRootBehavior
-TraversalRestyleBehavior
-aRestyleBehavior
 )
 {
 /
@@ -1498,7 +1499,6 @@ get
 (
 )
 aRootBehavior
-aRestyleBehavior
 )
 ;
 MOZ_ASSERT_IF
@@ -1556,7 +1556,6 @@ get
 (
 )
 aRootBehavior
-aRestyleBehavior
 )
 )
 {
@@ -4363,10 +4362,6 @@ TraversalRootBehavior
 :
 :
 Normal
-TraversalRestyleBehavior
-:
-:
-Normal
 )
 )
 {
@@ -4419,10 +4414,6 @@ TraversalRootBehavior
 :
 :
 Normal
-TraversalRestyleBehavior
-:
-:
-Normal
 )
 ;
 MOZ_ASSERT
@@ -4454,10 +4445,6 @@ TraversalRootBehavior
 :
 :
 UnstyledChildrenOnly
-TraversalRestyleBehavior
-:
-:
-Normal
 )
 ;
 /
