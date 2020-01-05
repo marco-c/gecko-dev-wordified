@@ -322,3 +322,7 @@ DEPRECATED_OPERATION
 (
 URLCreateObjectURL_MediaStream
 )
+DEPRECATED_OPERATION
+(
+XMLBaseAttribute
+)
