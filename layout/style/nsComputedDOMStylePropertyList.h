@@ -1882,6 +1882,11 @@ BoxPack
 )
 COMPUTED_STYLE_PROP
 (
+_moz_context_properties
+ContextProperties
+)
+COMPUTED_STYLE_PROP
+(
 _moz_float_edge
 FloatEdge
 )

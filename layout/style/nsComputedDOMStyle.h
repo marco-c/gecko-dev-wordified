@@ -3864,6 +3864,14 @@ DoGetPaintOrder
 (
 )
 ;
+already_AddRefed
+<
+CSSValue
+>
+DoGetContextProperties
+(
+)
+;
 /
 *
 Custom
