@@ -1492,15 +1492,6 @@ null
 ]
 [
 "
-Gecko_AnimationAppendKeyframe
-"
-"
-aKeyframes
-"
-null
-]
-[
-"
 Gecko_GetOrCreateKeyframeAtStart
 "
 "
@@ -2786,9 +2777,6 @@ being
 initialized
 here
 .
-"
-Gecko_AnimationAppendKeyframe
-"
 "
 Gecko_GetOrCreateKeyframeAtStart
 "
