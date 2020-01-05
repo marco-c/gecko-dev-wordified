@@ -77,14 +77,6 @@ box_syntax
 [
 feature
 (
-core_intrinsics
-)
-]
-#
-!
-[
-feature
-(
 link_args
 )
 ]
