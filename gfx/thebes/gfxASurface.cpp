@@ -475,8 +475,6 @@ mSurface
 )
 ;
 }
-else
-{
 /
 /
 the
@@ -500,7 +498,6 @@ return
 +
 mFloatingRefs
 ;
-}
 }
 nsrefcnt
 gfxASurface
@@ -611,8 +608,6 @@ return
 refcnt
 ;
 }
-else
-{
 if
 (
 -
@@ -633,7 +628,6 @@ return
 return
 mFloatingRefs
 ;
-}
 }
 void
 gfxASurface

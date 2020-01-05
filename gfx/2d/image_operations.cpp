@@ -1919,6 +1919,7 @@ ImageOperations
 :
 RESIZE_SUBPIXEL
 )
+{
 return
 ResizeSubpixel
 (
@@ -1928,7 +1929,7 @@ dest_height
 dest_subset
 )
 ;
-else
+}
 return
 ResizeBasic
 (

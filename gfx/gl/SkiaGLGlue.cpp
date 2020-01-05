@@ -522,8 +522,6 @@ ES
 )
 ;
 }
-else
-{
 return
 reinterpret_cast
 <
@@ -539,7 +537,6 @@ GLubyte
 "
 )
 ;
-}
 }
 else
 if
@@ -979,8 +976,6 @@ ES
 )
 ;
 }
-else
-{
 return
 reinterpret_cast
 <
@@ -996,7 +991,6 @@ GLubyte
 "
 )
 ;
-}
 }
 return
 aContext

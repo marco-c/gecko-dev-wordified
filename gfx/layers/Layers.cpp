@@ -4041,6 +4041,7 @@ AsHostLayer
 (
 )
 )
+{
 return
 shadow
 -
@@ -4049,7 +4050,7 @@ GetShadowTransform
 (
 )
 ;
-else
+}
 return
 GetTransform
 (
@@ -6773,8 +6774,6 @@ TraversalFlag
 Continue
 ;
 }
-else
-{
 aToSort
 .
 AppendElement
@@ -6788,7 +6787,6 @@ TraversalFlag
 :
 Skip
 ;
-}
 }
 )
 ;

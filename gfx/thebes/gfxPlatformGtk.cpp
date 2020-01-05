@@ -2239,7 +2239,6 @@ return
 0
 ;
 }
-else
 if
 (
 dpi
@@ -2253,8 +2252,6 @@ return
 5
 ;
 }
-else
-{
 return
 round
 (
@@ -2265,7 +2262,6 @@ dpi
 0
 )
 ;
-}
 }
 bool
 gfxPlatformGtk

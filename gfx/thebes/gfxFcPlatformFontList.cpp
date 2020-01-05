@@ -880,7 +880,6 @@ return
 100
 ;
 }
-else
 if
 (
 aFcWeight
@@ -899,7 +898,6 @@ return
 200
 ;
 }
-else
 if
 (
 aFcWeight
@@ -918,7 +916,6 @@ return
 300
 ;
 }
-else
 if
 (
 aFcWeight
@@ -942,7 +939,6 @@ return
 400
 ;
 }
-else
 if
 (
 aFcWeight
@@ -961,7 +957,6 @@ return
 500
 ;
 }
-else
 if
 (
 aFcWeight
@@ -980,7 +975,6 @@ return
 600
 ;
 }
-else
 if
 (
 aFcWeight
@@ -999,7 +993,6 @@ return
 700
 ;
 }
-else
 if
 (
 aFcWeight
@@ -1018,7 +1011,6 @@ return
 800
 ;
 }
-else
 if
 (
 aFcWeight

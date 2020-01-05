@@ -4938,8 +4938,6 @@ return
 result
 ;
 }
-else
-{
 bool
 geometryChanged
 =
@@ -4983,7 +4981,6 @@ geometryChanged
 return
 invalid
 ;
-}
 }
 void
 LayerPropertiesBase
