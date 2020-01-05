@@ -142,10 +142,10 @@ gecko_ffi_name
 "
 mBoxAlign
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_BOX_ALIGN
+StyleBoxAlign
 "
 animatable
 =

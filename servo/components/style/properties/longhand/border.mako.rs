@@ -659,6 +659,11 @@ break
 slice
 clone
 "
+gecko_enum_prefix
+=
+"
+StyleBoxDecorationBreak
+"
 products
 =
 "
