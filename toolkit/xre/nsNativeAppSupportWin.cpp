@@ -611,6 +611,7 @@ wrapper
 struct
 Win32Mutex
 {
+explicit
 Win32Mutex
 (
 const

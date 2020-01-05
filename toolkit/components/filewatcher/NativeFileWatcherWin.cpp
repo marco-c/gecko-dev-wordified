@@ -1444,6 +1444,7 @@ Runnable
 {
 public
 :
+explicit
 NativeFileWatcherIOTask
 (
 HANDLE

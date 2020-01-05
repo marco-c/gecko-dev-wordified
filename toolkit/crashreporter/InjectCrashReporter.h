@@ -124,6 +124,7 @@ Runnable
 {
 public
 :
+explicit
 InjectCrashRunnable
 (
 DWORD
