@@ -903,6 +903,10 @@ opts
 from_cmdline_args
 (
 args
+.
+as_slice
+(
+)
 )
 ;
 match
