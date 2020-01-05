@@ -442,9 +442,7 @@ connection
 "
 )
 "
-keep
--
-alive
+close
 "
 )
 ;

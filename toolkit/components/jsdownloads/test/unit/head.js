@@ -4455,12 +4455,6 @@ HttpServer
 ;
 gHttpServer
 .
-keepAliveEnabled
-=
-false
-;
-gHttpServer
-.
 registerDirectory
 (
 "
@@ -5243,7 +5237,6 @@ aResponse
 .
 processAsync
 (
-false
 )
 ;
 aResponse

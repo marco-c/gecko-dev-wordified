@@ -2583,9 +2583,7 @@ headers
 .
 connection
 "
-keep
--
-alive
+close
 "
 )
 ;
