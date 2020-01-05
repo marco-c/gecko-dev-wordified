@@ -1540,6 +1540,9 @@ mPaused
 bool
 mDestroyed
 ;
+bool
+mIsSnapshotting
+;
 /
 /
 Can
