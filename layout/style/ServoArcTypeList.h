@@ -193,6 +193,11 @@ RawServoSupportsRule
 )
 SERVO_ARC_TYPE
 (
+DocumentRule
+RawServoDocumentRule
+)
+SERVO_ARC_TYPE
+(
 RuleNode
 RawServoRuleNode
 )
