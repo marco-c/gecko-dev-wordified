@@ -2495,7 +2495,9 @@ compilations
 void
 CancelOffThreadIonCompile
 (
+const
 CompilationSelector
+&
 selector
 bool
 discardLazyLinkList
