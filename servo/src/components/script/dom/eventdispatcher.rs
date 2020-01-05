@@ -306,11 +306,6 @@ rev_iter
 (
 )
 {
-/
-/
-XXX
-bad
-clone
 let
 stopped
 =
@@ -324,10 +319,6 @@ eventtarget
 get_listeners_for
 (
 type_
-.
-clone
-(
-)
 Capturing
 )
 {
@@ -452,10 +443,6 @@ eventtarget
 get_listeners
 (
 type_
-.
-clone
-(
-)
 )
 ;
 for
@@ -539,11 +526,6 @@ iter
 (
 )
 {
-/
-/
-XXX
-bad
-clone
 let
 stopped
 =
@@ -557,10 +539,6 @@ eventtarget
 get_listeners_for
 (
 type_
-.
-clone
-(
-)
 Bubbling
 )
 {

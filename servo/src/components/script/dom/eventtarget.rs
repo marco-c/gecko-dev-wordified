@@ -642,7 +642,7 @@ get_listeners
 self
 type_
 :
-~
+&
 str
 )
 -
@@ -700,7 +700,7 @@ get_listeners_for
 self
 type_
 :
-~
+&
 str
 desired_phase
 :
