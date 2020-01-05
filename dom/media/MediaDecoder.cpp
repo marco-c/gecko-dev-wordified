@@ -5586,6 +5586,16 @@ DownloadProgressed
 (
 )
 ;
+mResource
+-
+>
+ThrottleReadahead
+(
+CanPlayThrough
+(
+)
+)
+;
 }
 void
 MediaDecoder
