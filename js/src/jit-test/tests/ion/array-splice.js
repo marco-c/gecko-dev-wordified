@@ -181,7 +181,16 @@ arr
 [
 0
 ]
-80
+undefined
+)
+;
+assertEq
+(
+arr
+[
+1
+]
+81
 )
 ;
 }
