@@ -412,14 +412,6 @@ list_artifacts
 from
 mozbuild
 .
-action
-.
-test_archive
-import
-OBJDIR_TEST_FILES
-from
-mozbuild
-.
 util
 import
 (
@@ -1425,6 +1417,15 @@ filename
 processed_filename
 )
 :
+        
+from
+mozbuild
+.
+action
+.
+test_archive
+import
+OBJDIR_TEST_FILES
         
 added_entry
 =
