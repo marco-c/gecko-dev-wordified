@@ -388,7 +388,7 @@ StyleGeometryBox
 :
 uint8_t
 {
-Content
+ContentBox
 /
 /
 Used
@@ -399,7 +399,7 @@ transform
 -
 box
 .
-Padding
+PaddingBox
 /
 /
 Used
@@ -410,8 +410,8 @@ transform
 -
 box
 .
-Border
-Margin
+BorderBox
+MarginBox
 /
 /
 XXX
@@ -436,9 +436,9 @@ and
 mask
 -
 clip
+/
+/
 we
-/
-/
 do
 not
 implement
@@ -450,10 +450,10 @@ of
 support
 in
 other
+/
+/
 browsers
 .
-/
-/
 clip
 -
 path
@@ -462,7 +462,7 @@ reference
 box
 only
 .
-Fill
+FillBox
 /
 /
 Used
@@ -473,7 +473,7 @@ shape
 -
 box
 .
-Stroke
+StrokeBox
 /
 /
 mask
@@ -491,7 +491,7 @@ reference
 box
 only
 .
-View
+ViewBox
 /
 /
 Used

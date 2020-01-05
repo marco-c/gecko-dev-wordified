@@ -22072,7 +22072,7 @@ aClip
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 |
 |
 aClip
@@ -22081,7 +22081,7 @@ aClip
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 )
 {
 nsMargin
@@ -22102,7 +22102,7 @@ aClip
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 )
 {
 border

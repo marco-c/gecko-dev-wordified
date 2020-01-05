@@ -9753,7 +9753,7 @@ case
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 :
 return
 GetContentBoxBorderRadii
@@ -9765,7 +9765,7 @@ case
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 :
 return
 GetPaddingBoxBorderRadii
@@ -9777,7 +9777,7 @@ case
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 :
 return
 GetBorderRadii
@@ -9789,7 +9789,7 @@ case
 StyleGeometryBox
 :
 :
-Margin
+MarginBox
 :
 return
 GetMarginBoxBorderRadii
