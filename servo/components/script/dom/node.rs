@@ -301,9 +301,9 @@ InheritTypes
 :
 {
 ElementCast
-NodeCast
 ElementDerived
 EventTargetCast
+NodeCast
 }
 ;
 use
@@ -320,8 +320,8 @@ InheritTypes
 :
 :
 {
-HTMLLegendElementDerived
 HTMLFieldSetElementDerived
+HTMLLegendElementDerived
 }
 ;
 use
@@ -400,8 +400,8 @@ Error
 :
 :
 {
-NotFound
 HierarchyRequest
+NotFound
 Syntax
 }
 ;
@@ -507,8 +507,8 @@ utils
 :
 :
 {
-namespace_from_domstring
 Reflectable
+namespace_from_domstring
 reflect_dom_object
 }
 ;
@@ -542,8 +542,8 @@ document
 :
 {
 Document
-IsHTMLDocument
 DocumentSource
+IsHTMLDocument
 }
 ;
 use
@@ -679,14 +679,12 @@ Msg
 ;
 use
 libc
-;
-use
-libc
 :
 :
 {
-uintptr_t
+self
 c_void
+uintptr_t
 }
 ;
 use
@@ -749,8 +747,8 @@ cell
 :
 {
 Cell
-RefCell
 Ref
+RefCell
 RefMut
 }
 ;

@@ -358,8 +358,8 @@ utils
 :
 :
 {
-Reflector
 Reflectable
+Reflector
 }
 ;
 use
@@ -379,8 +379,8 @@ jsapi
 :
 :
 {
-JSObject
 Heap
+JSObject
 JSTracer
 }
 ;

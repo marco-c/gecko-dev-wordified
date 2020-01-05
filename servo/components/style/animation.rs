@@ -61,8 +61,8 @@ cssparser
 :
 :
 {
-RGBA
 Color
+RGBA
 }
 ;
 use
@@ -416,10 +416,10 @@ computed
 :
 :
 {
-LengthOrPercentage
-Length
-Time
 Calc
+Length
+LengthOrPercentage
+Time
 }
 ;
 #

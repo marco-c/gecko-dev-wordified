@@ -124,6 +124,7 @@ plugin
 [
 plugin
 (
+plugins
 serde_macros
 )
 ]

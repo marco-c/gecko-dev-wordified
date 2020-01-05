@@ -90,8 +90,8 @@ canvas_traits
 {
 CanvasMsg
 CanvasWebGLMsg
-WebGLResult
 WebGLError
+WebGLResult
 }
 ;
 use

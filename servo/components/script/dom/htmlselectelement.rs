@@ -133,8 +133,8 @@ InheritTypes
 :
 :
 {
-HTMLSelectElementDerived
 HTMLFieldSetElementDerived
+HTMLSelectElementDerived
 }
 ;
 use

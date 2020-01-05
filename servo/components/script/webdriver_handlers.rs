@@ -160,9 +160,9 @@ InheritTypes
 :
 :
 {
-NodeCast
 ElementCast
 HTMLIFrameElementCast
+NodeCast
 }
 ;
 use
@@ -245,8 +245,8 @@ jsapi
 :
 :
 {
-RootedValue
 HandleValue
+RootedValue
 }
 ;
 use
@@ -278,10 +278,10 @@ webdriver_msg
 :
 :
 {
-WebDriverJSValue
+WebDriverFrameId
 WebDriverJSError
 WebDriverJSResult
-WebDriverFrameId
+WebDriverJSValue
 }
 ;
 use

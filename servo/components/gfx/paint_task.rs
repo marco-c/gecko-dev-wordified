@@ -80,10 +80,10 @@ azure_hl
 :
 :
 {
-SurfaceFormat
+BackendType
 Color
 DrawTarget
-BackendType
+SurfaceFormat
 }
 ;
 use

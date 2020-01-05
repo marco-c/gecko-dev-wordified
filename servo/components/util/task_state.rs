@@ -118,10 +118,10 @@ imp
 :
 :
 {
-initialize
-get
 enter
 exit
+get
+initialize
 }
 ;
 bitflags
@@ -299,8 +299,8 @@ super
 :
 :
 {
-TaskState
 TYPES
+TaskState
 }
 ;
 thread_local

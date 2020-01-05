@@ -70,8 +70,8 @@ ProgressMsg
 :
 :
 {
-Payload
 Done
+Payload
 }
 ;
 use
@@ -79,9 +79,9 @@ net_traits
 :
 :
 {
+LoadConsumer
 LoadData
 Metadata
-LoadConsumer
 }
 ;
 use
@@ -89,9 +89,9 @@ resource_task
 :
 :
 {
+ProgressSender
 start_sending
 start_sending_sniffed
-ProgressSender
 }
 ;
 use

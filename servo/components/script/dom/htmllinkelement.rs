@@ -263,9 +263,9 @@ event
 :
 :
 {
+Event
 EventBubbles
 EventCancelable
-Event
 }
 ;
 use

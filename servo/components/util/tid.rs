@@ -85,8 +85,8 @@ atomic
 :
 :
 {
-AtomicUsize
 ATOMIC_USIZE_INIT
+AtomicUsize
 Ordering
 }
 ;

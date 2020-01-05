@@ -86,8 +86,8 @@ mime
 :
 {
 Mime
-TopLevel
 SubLevel
+TopLevel
 }
 ;
 use
@@ -110,9 +110,9 @@ net_traits
 :
 :
 {
+LoadConsumer
 LoadData
 Metadata
-LoadConsumer
 }
 ;
 use

@@ -166,8 +166,8 @@ mpsc
 :
 :
 {
-Sender
 Receiver
+Sender
 channel
 }
 ;

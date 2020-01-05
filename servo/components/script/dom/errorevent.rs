@@ -133,8 +133,8 @@ InheritTypes
 :
 :
 {
-EventCast
 ErrorEventDerived
+EventCast
 }
 ;
 use
@@ -172,8 +172,8 @@ js
 :
 :
 {
-Root
 MutHeapJSVal
+Root
 }
 ;
 use
@@ -209,9 +209,9 @@ event
 :
 {
 Event
-EventTypeId
 EventBubbles
 EventCancelable
+EventTypeId
 }
 ;
 use
@@ -222,8 +222,8 @@ jsapi
 :
 :
 {
-JSContext
 HandleValue
+JSContext
 }
 ;
 use

@@ -190,8 +190,8 @@ types
 :
 :
 {
-EncodingRef
 DecoderTrap
+EncodingRef
 }
 ;
 use
@@ -228,13 +228,10 @@ use
 std
 :
 :
+{
 ptr
-;
-use
-std
-:
-:
 slice
+}
 ;
 use
 util

@@ -173,8 +173,8 @@ global
 :
 :
 {
-GlobalRef
 GlobalField
+GlobalRef
 }
 ;
 use
@@ -188,9 +188,9 @@ js
 :
 :
 {
-Root
 JS
 MutNullableHeap
+Root
 }
 ;
 use
@@ -216,8 +216,8 @@ utils
 :
 :
 {
-reflect_dom_object
 Reflectable
+reflect_dom_object
 }
 ;
 use
@@ -237,8 +237,8 @@ domexception
 :
 :
 {
-DOMException
 DOMErrorName
+DOMException
 }
 ;
 use
@@ -249,8 +249,8 @@ event
 :
 :
 {
-EventCancelable
 EventBubbles
+EventCancelable
 }
 ;
 use
@@ -297,8 +297,8 @@ types
 :
 :
 {
-EncodingRef
 DecoderTrap
+EncodingRef
 }
 ;
 use
@@ -309,8 +309,8 @@ mime
 :
 :
 {
-Mime
 Attr
+Mime
 }
 ;
 use
@@ -321,10 +321,10 @@ base64
 :
 :
 {
-Config
-ToBase64
 CharacterSet
+Config
 Newline
+ToBase64
 }
 ;
 use
@@ -341,10 +341,10 @@ script_task
 :
 :
 {
-ScriptChan
-Runnable
-ScriptPort
 CommonScriptMsg
+Runnable
+ScriptChan
+ScriptPort
 }
 ;
 use

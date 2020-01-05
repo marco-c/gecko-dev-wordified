@@ -62,8 +62,8 @@ canvas_traits
 :
 {
 FillOrStrokeStyle
-SurfaceStyle
 RepetitionStyle
+SurfaceStyle
 }
 ;
 use

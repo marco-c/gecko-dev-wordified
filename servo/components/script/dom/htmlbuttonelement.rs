@@ -122,8 +122,8 @@ InheritTypes
 :
 {
 ElementCast
-HTMLElementCast
 HTMLButtonElementCast
+HTMLElementCast
 NodeCast
 }
 ;
@@ -220,8 +220,8 @@ htmlformelement
 :
 :
 {
-FormSubmitter
 FormControl
+FormSubmitter
 }
 ;
 use

@@ -212,13 +212,10 @@ use
 profile_traits
 :
 :
+{
 mem
-;
-use
-profile_traits
-:
-:
 time
+}
 ;
 use
 script_traits

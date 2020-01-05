@@ -191,8 +191,8 @@ glyph
 :
 :
 {
-GlyphStore
 GlyphId
+GlyphStore
 }
 ;
 use

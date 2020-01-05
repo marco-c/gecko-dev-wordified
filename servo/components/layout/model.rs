@@ -153,8 +153,8 @@ computed
 :
 :
 {
-LengthOrPercentageOrNone
 LengthOrPercentage
+LengthOrPercentageOrNone
 }
 ;
 use

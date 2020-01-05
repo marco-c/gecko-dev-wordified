@@ -189,8 +189,8 @@ collections
 :
 :
 {
-LinkedList
 HashMap
+LinkedList
 }
 ;
 use

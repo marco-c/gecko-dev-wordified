@@ -191,9 +191,9 @@ mpsc
 :
 :
 {
-channel
-Sender
 Receiver
+Sender
+channel
 }
 ;
 use

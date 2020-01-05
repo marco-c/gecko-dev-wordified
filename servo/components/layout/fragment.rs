@@ -109,12 +109,12 @@ ClearType
 ;
 use
 flow
-;
-use
-flow
 :
 :
+{
+self
 Flow
+}
 ;
 use
 flow_ref
@@ -447,9 +447,9 @@ logical_geometry
 :
 :
 {
+LogicalMargin
 LogicalRect
 LogicalSize
-LogicalMargin
 WritingMode
 }
 ;

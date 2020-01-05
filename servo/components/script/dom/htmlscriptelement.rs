@@ -218,8 +218,8 @@ InheritTypes
 :
 :
 {
-HTMLScriptElementDerived
 HTMLScriptElementCast
+HTMLScriptElementDerived
 }
 ;
 use
@@ -414,9 +414,9 @@ types
 :
 :
 {
+DecoderTrap
 Encoding
 EncodingRef
-DecoderTrap
 }
 ;
 use
@@ -466,9 +466,9 @@ net_traits
 :
 :
 {
-Metadata
 AsyncResponseListener
 AsyncResponseTarget
+Metadata
 }
 ;
 use
@@ -494,9 +494,9 @@ script_task
 :
 :
 {
-ScriptChan
-Runnable
 CommonScriptMsg
+Runnable
+ScriptChan
 }
 ;
 use
@@ -516,8 +516,8 @@ cell
 :
 :
 {
-RefCell
 Cell
+RefCell
 }
 ;
 use

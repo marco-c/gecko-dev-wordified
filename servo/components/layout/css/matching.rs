@@ -267,8 +267,8 @@ properties
 :
 {
 ComputedValues
-cascade
 PropertyDeclaration
+cascade
 }
 ;
 use
@@ -279,8 +279,8 @@ selector_matching
 :
 :
 {
-Stylist
 DeclarationBlock
+Stylist
 }
 ;
 use

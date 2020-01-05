@@ -221,8 +221,8 @@ js
 :
 :
 {
-JSCLASS_IS_GLOBAL
 JSCLASS_IS_DOMJSCLASS
+JSCLASS_IS_GLOBAL
 }
 ;
 use
@@ -255,9 +255,9 @@ script_task
 :
 :
 {
+CommonScriptMsg
 ScriptChan
 ScriptPort
-CommonScriptMsg
 ScriptTask
 }
 ;

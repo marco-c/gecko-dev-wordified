@@ -149,8 +149,8 @@ layout_traits
 :
 :
 {
-LayoutTaskFactory
 LayoutControlChan
+LayoutTaskFactory
 }
 ;
 use
@@ -177,9 +177,9 @@ constellation_msg
 :
 {
 LoadData
-WindowSizeData
-PipelineExitType
 MozBrowserEvent
+PipelineExitType
+WindowSizeData
 }
 ;
 use

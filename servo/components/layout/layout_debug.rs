@@ -86,11 +86,6 @@ layout
 debugging
 easier
 .
-#
-!
-[
-macro_use
-]
 use
 flow
 ;
@@ -153,9 +148,9 @@ atomic
 :
 :
 {
+ATOMIC_USIZE_INIT
 AtomicUsize
 Ordering
-ATOMIC_USIZE_INIT
 }
 ;
 thread_local

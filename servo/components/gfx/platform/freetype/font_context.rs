@@ -130,8 +130,8 @@ libc
 :
 :
 {
-c_void
 c_long
+c_void
 }
 ;
 use

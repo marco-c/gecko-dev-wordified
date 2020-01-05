@@ -61,10 +61,10 @@ cssparser
 :
 :
 {
-Parser
-decode_stylesheet_bytes
-QualifiedRuleParser
 AtRuleParser
+Parser
+QualifiedRuleParser
+decode_stylesheet_bytes
 }
 ;
 use
@@ -72,8 +72,8 @@ cssparser
 :
 :
 {
-RuleListParser
 AtRuleType
+RuleListParser
 }
 ;
 use

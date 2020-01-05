@@ -118,8 +118,8 @@ global
 :
 :
 {
-GlobalRef
 GlobalField
+GlobalRef
 }
 ;
 use
@@ -224,9 +224,9 @@ script_task
 :
 :
 {
-ScriptTask
 MainThreadRunnable
 MainThreadScriptMsg
+ScriptTask
 }
 ;
 use

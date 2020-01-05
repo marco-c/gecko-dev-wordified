@@ -61,9 +61,9 @@ canvas_traits
 :
 :
 {
+CanvasCommonMsg
 CanvasMsg
 CanvasWebGLMsg
-CanvasCommonMsg
 FromLayoutMsg
 FromPaintMsg
 }
@@ -73,8 +73,8 @@ canvas_traits
 :
 :
 {
-WebGLShaderParameter
 WebGLFramebufferBindingRequest
+WebGLShaderParameter
 }
 ;
 use
@@ -154,9 +154,9 @@ offscreen_gl_context
 :
 :
 {
+ColorAttachmentType
 GLContext
 GLContextAttributes
-ColorAttachmentType
 }
 ;
 use
@@ -191,8 +191,8 @@ mpsc
 :
 :
 {
-channel
 Sender
+channel
 }
 ;
 use

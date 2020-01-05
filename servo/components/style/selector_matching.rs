@@ -117,8 +117,8 @@ matching
 :
 :
 {
-SelectorMap
 Rule
+SelectorMap
 }
 ;
 use
@@ -156,9 +156,9 @@ stylesheets
 :
 :
 {
-Stylesheet
 CSSRuleIteratorExt
 Origin
+Stylesheet
 }
 ;
 use

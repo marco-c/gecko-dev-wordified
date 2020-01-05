@@ -198,8 +198,8 @@ InheritTypes
 :
 :
 {
-HTMLTextAreaElementDerived
 HTMLFieldSetElementDerived
+HTMLTextAreaElementDerived
 }
 ;
 use
@@ -376,8 +376,8 @@ script_task
 :
 :
 {
-Runnable
 CommonScriptMsg
+Runnable
 }
 ;
 use
@@ -409,9 +409,9 @@ textinput
 :
 :
 {
-TextInput
-Lines
 KeyReaction
+Lines
+TextInput
 }
 ;
 use

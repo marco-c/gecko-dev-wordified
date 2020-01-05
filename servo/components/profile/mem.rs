@@ -103,9 +103,9 @@ mem
 {
 ProfilerChan
 ProfilerMsg
+ReportKind
 Reporter
 ReporterRequest
-ReportKind
 }
 ;
 use
@@ -2674,8 +2674,8 @@ mem
 :
 {
 Report
-ReporterRequest
 ReportKind
+ReporterRequest
 }
 ;
 use

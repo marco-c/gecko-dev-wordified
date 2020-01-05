@@ -102,8 +102,8 @@ flow
 :
 {
 MutableFlowUtils
-PreorderFlowTraversal
 PostorderFlowTraversal
+PreorderFlowTraversal
 }
 ;
 use
@@ -180,8 +180,8 @@ wrapper
 :
 :
 {
-ThreadSafeLayoutNode
-UnsafeLayoutNode
+LayoutNode
+layout_node_to_unsafe_layout_node
 }
 ;
 use
@@ -189,8 +189,8 @@ wrapper
 :
 :
 {
-layout_node_to_unsafe_layout_node
-LayoutNode
+ThreadSafeLayoutNode
+UnsafeLayoutNode
 }
 ;
 /

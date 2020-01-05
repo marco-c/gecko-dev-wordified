@@ -254,8 +254,8 @@ node
 {
 Node
 NodeTypeId
-window_from_node
 document_from_node
+window_from_node
 }
 ;
 use

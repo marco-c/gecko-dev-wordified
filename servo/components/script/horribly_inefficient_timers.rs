@@ -127,8 +127,8 @@ mpsc
 :
 :
 {
-channel
 Receiver
+channel
 }
 ;
 use
@@ -139,8 +139,8 @@ thread
 :
 :
 {
-spawn
 sleep_ms
+spawn
 }
 ;
 pub

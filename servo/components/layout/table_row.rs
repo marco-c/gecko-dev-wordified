@@ -121,8 +121,8 @@ flow
 {
 self
 EarlyAbsolutePositionInfo
-FlowClass
 Flow
+FlowClass
 ImmutableFlowUtils
 OpaqueFlow
 }
@@ -165,8 +165,8 @@ rustc_serialize
 :
 :
 {
-Encoder
 Encodable
+Encoder
 }
 ;
 use

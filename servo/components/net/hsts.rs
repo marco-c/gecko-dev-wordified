@@ -61,9 +61,9 @@ net_traits
 :
 :
 {
-IncludeSubdomains
 IPV4_REGEX
 IPV6_REGEX
+IncludeSubdomains
 }
 ;
 use

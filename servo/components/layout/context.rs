@@ -276,8 +276,8 @@ mpsc
 :
 :
 {
-channel
 Sender
+channel
 }
 ;
 use

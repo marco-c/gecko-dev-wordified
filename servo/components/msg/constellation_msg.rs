@@ -194,9 +194,9 @@ mpsc
 :
 :
 {
-channel
-Sender
 Receiver
+Sender
+channel
 }
 ;
 use
@@ -249,8 +249,8 @@ webdriver_msg
 :
 :
 {
-WebDriverScriptCommand
 LoadStatus
+WebDriverScriptCommand
 }
 ;
 #

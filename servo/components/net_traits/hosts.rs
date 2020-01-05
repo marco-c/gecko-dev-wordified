@@ -57,6 +57,14 @@ MPL
 *
 /
 use
+:
+:
+{
+IPV4_REGEX
+IPV6_REGEX
+}
+;
+use
 std
 :
 :
@@ -97,12 +105,6 @@ url
 :
 :
 Url
-;
-use
-{
-IPV4_REGEX
-IPV6_REGEX
-}
 ;
 static
 mut

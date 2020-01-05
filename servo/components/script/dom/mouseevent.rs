@@ -122,8 +122,8 @@ InheritTypes
 :
 {
 EventCast
-UIEventCast
 MouseEventDerived
+UIEventCast
 }
 ;
 use
@@ -188,9 +188,9 @@ event
 :
 {
 Event
-EventTypeId
 EventBubbles
 EventCancelable
+EventTypeId
 }
 ;
 use

@@ -202,9 +202,9 @@ jsapi
 :
 :
 {
-JSContext
-Heap
 HandleValue
+Heap
+JSContext
 }
 ;
 use

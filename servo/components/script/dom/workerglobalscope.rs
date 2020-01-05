@@ -61,8 +61,8 @@ devtools_traits
 :
 :
 {
-ScriptToDevtoolsControlMsg
 DevtoolScriptControlMsg
+ScriptToDevtoolsControlMsg
 }
 ;
 use
@@ -130,9 +130,9 @@ Error
 :
 :
 {
-Syntax
-Network
 JSFailed
+Network
+Syntax
 }
 ;
 use
@@ -175,8 +175,8 @@ js
 :
 {
 JS
-Root
 MutNullableHeap
+Root
 }
 ;
 use
@@ -265,9 +265,9 @@ jsapi
 :
 :
 {
-JSContext
 HandleValue
 JSAutoRequest
+JSContext
 }
 ;
 use
@@ -297,8 +297,8 @@ net_traits
 :
 :
 {
-load_whole_resource
 ResourceTask
+load_whole_resource
 }
 ;
 use
@@ -314,8 +314,8 @@ script_task
 {
 CommonScriptMsg
 ScriptChan
-TimerSource
 ScriptPort
+TimerSource
 }
 ;
 use
@@ -363,9 +363,9 @@ timers
 :
 {
 IsInterval
+TimerCallback
 TimerId
 TimerManager
-TimerCallback
 }
 ;
 use

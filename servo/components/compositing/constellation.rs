@@ -314,8 +314,8 @@ constellation_msg
 :
 {
 Key
-KeyState
 KeyModifiers
+KeyState
 LoadData
 }
 ;
@@ -391,9 +391,9 @@ pipeline
 :
 :
 {
-Pipeline
 CompositionPipeline
 InitialPipelineState
+Pipeline
 }
 ;
 use

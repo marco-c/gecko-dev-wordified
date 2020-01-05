@@ -132,8 +132,8 @@ actor
 :
 {
 Actor
-ActorRegistry
 ActorMessageStatus
+ActorRegistry
 }
 ;
 use

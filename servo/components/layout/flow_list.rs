@@ -79,8 +79,8 @@ collections
 :
 :
 {
-linked_list
 LinkedList
+linked_list
 }
 ;
 /

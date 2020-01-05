@@ -116,8 +116,8 @@ euclid
 :
 :
 {
-Size2D
 Point2D
+Size2D
 }
 ;
 use
@@ -150,8 +150,8 @@ constellation_msg
 :
 {
 Key
-KeyState
 KeyModifiers
+KeyState
 }
 ;
 use
@@ -177,9 +177,9 @@ fmt
 :
 :
 {
+Debug
 Error
 Formatter
-Debug
 }
 ;
 use

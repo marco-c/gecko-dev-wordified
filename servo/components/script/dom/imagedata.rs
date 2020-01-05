@@ -145,9 +145,9 @@ jsapi
 :
 :
 {
+Heap
 JSContext
 JSObject
-Heap
 }
 ;
 use
@@ -158,8 +158,8 @@ jsapi
 :
 :
 {
-JS_NewUint8ClampedArray
 JS_GetUint8ClampedArrayData
+JS_NewUint8ClampedArray
 }
 ;
 use

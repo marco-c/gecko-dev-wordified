@@ -168,8 +168,8 @@ error
 :
 :
 {
-Fallible
 ErrorResult
+Fallible
 }
 ;
 use

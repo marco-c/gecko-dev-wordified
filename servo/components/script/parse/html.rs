@@ -332,8 +332,8 @@ servohtmlparser
 :
 :
 {
-ServoHTMLParser
 FragmentContext
+ServoHTMLParser
 }
 ;
 use
@@ -371,8 +371,8 @@ TraversalScope
 :
 :
 {
-IncludeNode
 ChildrenOnly
+IncludeNode
 }
 ;
 use
@@ -383,9 +383,9 @@ serialize
 :
 :
 {
+AttrRef
 Serializable
 Serializer
-AttrRef
 }
 ;
 use

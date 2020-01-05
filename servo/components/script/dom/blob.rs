@@ -127,8 +127,8 @@ global
 :
 :
 {
-GlobalRef
 GlobalField
+GlobalRef
 }
 ;
 use
@@ -201,8 +201,8 @@ cmp
 :
 :
 {
-min
 max
+min
 }
 ;
 use
