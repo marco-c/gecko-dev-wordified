@@ -390,7 +390,7 @@ instructions
 for
 (
 let
-data
+arrayItem
 of
 aArray
 )
@@ -427,7 +427,7 @@ qdata
 new
 queryData
 (
-data
+arrayItem
 )
 ;
 if
@@ -1198,7 +1198,7 @@ ex
 /
 use
 the
-data
+arrayItem
 object
 here
 in
@@ -1217,7 +1217,7 @@ URI
 :
 "
 +
-data
+arrayItem
 .
 uri
 )

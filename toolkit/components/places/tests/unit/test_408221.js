@@ -513,7 +513,7 @@ vals
 ;
 for
 (
-var
+let
 i
 =
 0

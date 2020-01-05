@@ -625,7 +625,7 @@ domwindowopened
 )
 {
 let
-win
+targetWin
 =
 aSubject
 .
@@ -651,11 +651,11 @@ sendKey
 "
 RETURN
 "
-win
+targetWin
 )
 ;
 }
-win
+targetWin
 )
 ;
 }

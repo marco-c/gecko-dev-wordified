@@ -1679,9 +1679,9 @@ let
 obs
 =
 (
-subject
-topic
-data
+aSubject
+aTopic
+aData
 )
 =
 >
@@ -1703,12 +1703,12 @@ obs
 removeObserver
 (
 obs
-topic
+aTopic
 )
 ;
 resolve
 (
-subject
+aSubject
 )
 ;
 }

@@ -10472,7 +10472,7 @@ reference
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -11663,14 +11663,14 @@ aTree
 columns
 ;
 var
-a
+array
 =
 [
 ]
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -11686,7 +11686,7 @@ i
 +
 )
 {
-a
+array
 .
 push
 (
@@ -11699,7 +11699,7 @@ i
 )
 ;
 }
-a
+array
 .
 sort
 (
@@ -11752,7 +11752,7 @@ o2
 )
 ;
 return
-a
+array
 ;
 }
 function
@@ -11924,7 +11924,7 @@ clicks
 .
 for
 (
-var
+let
 i
 =
 1
@@ -12075,7 +12075,7 @@ false
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -12135,7 +12135,7 @@ Count
 ;
 for
 (
-var
+let
 i
 =
 0

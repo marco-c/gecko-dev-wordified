@@ -2067,7 +2067,7 @@ isURIVisited
 aURI
 function
 (
-aURI
+unused
 aIsVisited
 )
 {
@@ -2307,13 +2307,13 @@ isURIVisited
 aURI
 function
 (
-aURI
-aIsVisited
+uri
+isVisited
 )
 {
 is
 (
-aIsVisited
+isVisited
 !
 aShouldBeCleared
 "
@@ -2321,7 +2321,7 @@ history
 visit
 "
 +
-aURI
+uri
 .
 spec
 +
@@ -2522,7 +2522,7 @@ true
 function
 content_script
 (
-aStopFromProgressListener
+contentStopFromProgressListener
 )
 {
 let
@@ -2736,7 +2736,7 @@ n
 ;
 stopContent
 (
-aStopFromProgressListener
+contentStopFromProgressListener
 chan
 .
 originalURI
@@ -6460,7 +6460,7 @@ function
 PTO_observe
 (
 aSubject
-aTopic
+aTopic2
 aData
 )
 {
@@ -6471,7 +6471,7 @@ obs
 removeObserver
 (
 PTO_observe
-aTopic
+aTopic2
 )
 ;
 resolve
@@ -7374,7 +7374,7 @@ report
 status
 "
 (
-subject
+unused
 data
 )
 =
