@@ -160,7 +160,7 @@ kWasmH3
 var
 kWasmV0
 =
-0x1
+1
 ;
 var
 kWasmV1
