@@ -1066,6 +1066,12 @@ objectIsLive
 =
 IsMarked
 (
+marker
+-
+>
+runtime
+(
+)
 const_cast
 <
 PreBarrieredObject
@@ -1193,6 +1199,12 @@ closure
 !
 IsMarked
 (
+marker
+-
+>
+runtime
+(
+)
 &
 entry
 .

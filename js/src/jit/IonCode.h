@@ -4130,6 +4130,9 @@ inline
 bool
 IsMarked
 (
+JSRuntime
+*
+rt
 const
 jit
 :

@@ -5195,6 +5195,9 @@ TypeSet
 :
 IsTypeMarked
 (
+JSRuntime
+*
+rt
 TypeSet
 :
 :
@@ -5231,6 +5234,7 @@ rv
 =
 IsMarkedUnbarriered
 (
+rt
 &
 obj
 )
@@ -5273,6 +5277,7 @@ rv
 =
 IsMarkedUnbarriered
 (
+rt
 &
 group
 )

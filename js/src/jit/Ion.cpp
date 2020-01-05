@@ -4033,6 +4033,17 @@ baselineSetPropReturnAddr_
 =
 nullptr
 ;
+JSRuntime
+*
+rt
+=
+fop
+-
+>
+runtime
+(
+)
+;
 if
 (
 stringConcatStub_
@@ -4041,6 +4052,7 @@ stringConcatStub_
 !
 IsMarkedUnbarriered
 (
+rt
 &
 stringConcatStub_
 )
@@ -4057,6 +4069,7 @@ regExpMatcherStub_
 !
 IsMarkedUnbarriered
 (
+rt
 &
 regExpMatcherStub_
 )
@@ -4073,6 +4086,7 @@ regExpSearcherStub_
 !
 IsMarkedUnbarriered
 (
+rt
 &
 regExpSearcherStub_
 )
@@ -4089,6 +4103,7 @@ regExpTesterStub_
 !
 IsMarkedUnbarriered
 (
+rt
 &
 regExpTesterStub_
 )

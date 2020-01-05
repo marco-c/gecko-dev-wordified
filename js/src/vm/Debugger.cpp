@@ -4745,6 +4745,9 @@ Debugger
 :
 hasAnyLiveHooks
 (
+JSRuntime
+*
+rt
 )
 const
 {
@@ -4826,6 +4829,7 @@ if
 (
 IsMarkedUnbarriered
 (
+rt
 &
 bp
 -
@@ -18982,6 +18986,7 @@ if
 !
 IsMarkedUnbarriered
 (
+rt
 &
 global
 )
@@ -19148,6 +19153,7 @@ dbgMarked
 =
 IsMarked
 (
+rt
 &
 dbgobj
 )
@@ -19163,6 +19169,7 @@ dbg
 >
 hasAnyLiveHooks
 (
+rt
 )
 )
 {
@@ -19253,6 +19260,7 @@ if
 (
 IsMarkedUnbarriered
 (
+rt
 &
 bp
 -
@@ -19291,6 +19299,7 @@ if
 !
 IsMarked
 (
+rt
 &
 bp
 -
