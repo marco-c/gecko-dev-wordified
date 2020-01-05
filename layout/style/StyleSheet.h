@@ -792,6 +792,13 @@ StyleSheet
 aSheet
 )
 ;
+StyleSheet
+*
+GetFirstChild
+(
+)
+const
+;
 /
 /
 Principal
