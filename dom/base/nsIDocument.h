@@ -4582,12 +4582,9 @@ document
 *
 /
 virtual
-nsresult
+bool
 GetAllowPlugins
 (
-bool
-*
-aAllowPlugins
 )
 =
 0
