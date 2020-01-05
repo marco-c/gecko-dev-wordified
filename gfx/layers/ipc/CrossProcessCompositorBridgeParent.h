@@ -463,6 +463,9 @@ const
 uint64_t
 &
 child
+CompositorOptions
+*
+aOptions
 )
 override
 ;
@@ -487,6 +490,9 @@ base
 ProcessId
 &
 pid
+CompositorOptions
+*
+aOptions
 )
 override
 ;
@@ -504,6 +510,9 @@ const
 uint64_t
 &
 child
+CompositorOptions
+*
+aOptions
 )
 override
 {

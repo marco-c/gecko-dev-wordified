@@ -869,6 +869,9 @@ aOtherPid
 uint64_t
 *
 aOutLayersId
+CompositorOptions
+*
+aOutCompositorOptions
 )
 ;
 void

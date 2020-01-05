@@ -974,6 +974,9 @@ const
 uint64_t
 &
 id
+CompositorOptions
+*
+aOptions
 )
 ;
 bool

@@ -4771,6 +4771,9 @@ const
 uint64_t
 &
 id
+CompositorOptions
+*
+aOptions
 )
 {
 if
@@ -4790,6 +4793,7 @@ PCompositorBridgeChild
 SendNotifyChildCreated
 (
 id
+aOptions
 )
 ;
 }

@@ -4428,6 +4428,9 @@ layersId
 =
 0
 ;
+CompositorOptions
+compositorOptions
+;
 if
 (
 aIframeMoz
@@ -4537,6 +4540,8 @@ aWindowIsNew
 textureFactoryIdentifier
 &
 layersId
+&
+compositorOptions
 )
 ;
 }
@@ -4604,6 +4609,8 @@ urlToLoad
 textureFactoryIdentifier
 &
 layersId
+&
+compositorOptions
 )
 )
 {
@@ -4929,6 +4936,7 @@ DoFakeShow
 (
 textureFactoryIdentifier
 layersId
+compositorOptions
 renderFrame
 showInfo
 )

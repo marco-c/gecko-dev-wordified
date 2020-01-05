@@ -4649,6 +4649,9 @@ aOtherPid
 uint64_t
 *
 aOutLayersId
+CompositorOptions
+*
+aOutCompositorOptions
 )
 {
 uint64_t
@@ -4751,6 +4754,7 @@ aCompositorBridge
 SendNotifyChildCreated
 (
 layersId
+aOutCompositorOptions
 )
 ;
 }
@@ -4784,6 +4788,7 @@ SendMapAndNotifyChildCreated
 (
 layersId
 aOtherPid
+aOutCompositorOptions
 )
 ;
 }
