@@ -104,6 +104,7 @@ const
 {
 getUrlQuery
 parseQueryString
+parseFormData
 }
 =
 require
@@ -404,7 +405,7 @@ PARAMS_FORM_DATA
 =
 getProperties
 (
-parseQueryString
+parseFormData
 (
 sections
 )
