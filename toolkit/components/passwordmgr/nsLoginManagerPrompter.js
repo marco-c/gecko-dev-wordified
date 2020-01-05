@@ -6775,7 +6775,7 @@ this
 _getLocalizedString
 (
 "
-togglePasswordAccessKey
+togglePasswordAccessKey2
 "
 )
 ;
