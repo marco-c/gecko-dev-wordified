@@ -469,6 +469,11 @@ TypeOf
 \
 _
 (
+ToAsync
+)
+\
+_
+(
 ToId
 )
 \

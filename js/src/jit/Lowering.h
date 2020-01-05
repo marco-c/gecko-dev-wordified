@@ -927,6 +927,14 @@ ins
 )
 ;
 void
+visitToAsync
+(
+MToAsync
+*
+ins
+)
+;
+void
 visitToId
 (
 MToId

@@ -5352,6 +5352,12 @@ jsop_typeof
 ;
 MOZ_MUST_USE
 bool
+jsop_toasync
+(
+)
+;
+MOZ_MUST_USE
+bool
 jsop_toid
 (
 )
