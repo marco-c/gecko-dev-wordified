@@ -1393,6 +1393,7 @@ build_one_stage
 (
 cc
 cxx
+asm
 ld
 ar
 ranlib
@@ -1638,7 +1639,7 @@ s
 %
 slashify_path
 (
-cc
+asm
 [
 0
 ]
@@ -1707,6 +1708,26 @@ s
 join
 (
 cxx
+[
+1
+:
+]
+)
+                  
+"
+-
+DCMAKE_ASM_FLAGS
+=
+%
+s
+"
+%
+'
+'
+.
+join
+(
+asm
 [
 1
 :
@@ -4033,6 +4054,24 @@ cxx
 "
 )
     
+asm
+=
+get_tool
+(
+config
+"
+ml
+"
+if
+is_windows
+(
+)
+else
+"
+as
+"
+)
+    
 ld
 =
 get_tool
@@ -4507,6 +4546,11 @@ libc
 "
 ]
         
+extra_asmflags
+=
+[
+]
+        
 extra_ldflags
 =
 [
@@ -4572,6 +4616,11 @@ libstdc
 +
 +
 "
+]
+        
+extra_asmflags
+=
+[
 ]
         
 extra_ldflags
@@ -4740,6 +4789,11 @@ c
 +
 14
 '
+]
+        
+extra_asmflags
+=
+[
 ]
         
 extra_ldflags
@@ -4953,6 +5007,11 @@ extra_cxxflags2
 =
 extra_flags
         
+extra_asmflags
++
+=
+extra_flags
+        
 extra_ldflags
 =
 [
@@ -4996,6 +5055,12 @@ cxx
 ]
 +
 extra_cxxflags
+        
+[
+asm
+]
++
+extra_asmflags
         
 [
 ld
@@ -5094,6 +5159,28 @@ exe_ext
 extra_cxxflags2
             
 [
+stage1_inst_dir
++
+"
+/
+bin
+/
+%
+s
+%
+s
+"
+%
+                
+(
+cc_name
+exe_ext
+)
+]
++
+extra_asmflags
+            
+[
 ld
 ]
 +
@@ -5179,6 +5266,28 @@ exe_ext
 ]
 +
 extra_cxxflags2
+            
+[
+stage2_inst_dir
++
+"
+/
+bin
+/
+%
+s
+%
+s
+"
+%
+                
+(
+cc_name
+exe_ext
+)
+]
++
+extra_asmflags
             
 [
 ld
