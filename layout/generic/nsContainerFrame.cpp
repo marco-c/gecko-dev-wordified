@@ -5691,9 +5691,6 @@ GetWritingMode
 mozilla
 :
 :
-css
-:
-:
 Side
 startSide
 =
@@ -5705,9 +5702,6 @@ eLogicalEdgeStart
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side

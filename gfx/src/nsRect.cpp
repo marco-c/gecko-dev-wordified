@@ -212,9 +212,6 @@ The
 mozilla
 :
 :
-css
-:
-:
 Side
 sequence
 must

@@ -6904,9 +6904,6 @@ aWM
 mozilla
 :
 :
-css
-:
-:
 Side
 inlineStart
 =
@@ -6918,9 +6915,6 @@ eLogicalSideIStart
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -6936,9 +6930,6 @@ eLogicalSideIEnd
 mozilla
 :
 :
-css
-:
-:
 Side
 blockStart
 =
@@ -6950,9 +6941,6 @@ eLogicalSideBStart
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -8725,9 +8713,6 @@ GetWritingMode
 mozilla
 :
 :
-css
-:
-:
 Side
 startSide
 =
@@ -8743,9 +8728,6 @@ eLogicalEdgeStart
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side

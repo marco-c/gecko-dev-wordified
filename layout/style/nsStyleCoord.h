@@ -1793,9 +1793,6 @@ GetUnit
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -1834,9 +1831,6 @@ nsStyleCoord
 Get
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -2144,9 +2138,6 @@ Set
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 const
@@ -2199,9 +2190,6 @@ nscoord
 ToLength
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -3473,9 +3461,6 @@ GetUnit
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -3567,9 +3552,6 @@ nsStyleSides
 Get
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -3670,9 +3652,6 @@ nsStyleSides
 Set
 (
 mozilla
-:
-:
-css
 :
 :
 Side

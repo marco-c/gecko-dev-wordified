@@ -495,9 +495,6 @@ _s
 mozilla
 :
 :
-css
-:
-:
 Side
 (
 (
@@ -517,9 +514,6 @@ PREV_SIDE
 _s
 )
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -859,9 +853,6 @@ static
 mozilla
 :
 :
-css
-:
-:
 Side
 GetHorizontalSide
 (
@@ -896,9 +887,6 @@ NS_SIDE_BOTTOM
 }
 static
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -946,9 +934,6 @@ GetCWCorner
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -980,9 +965,6 @@ Corner
 GetCCWCorner
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1040,9 +1022,6 @@ bool
 IsHorizontalSide
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -3218,9 +3197,6 @@ _
 mozilla
 :
 :
-css
-:
-:
 Side
 sideH
 (
@@ -3231,9 +3207,6 @@ aCorner
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -3572,9 +3545,6 @@ nsCSSBorderRenderer
 GetSideClipWithoutCornersRect
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -4781,9 +4751,6 @@ GetSideClipSubPath
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -5519,9 +5486,6 @@ GetStraightBorderPoint
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 mozilla
@@ -5928,9 +5892,6 @@ otherSide
 |
 |
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -9619,9 +9580,6 @@ _
 mozilla
 :
 :
-css
-:
-:
 Side
 sideH
 (
@@ -9632,9 +9590,6 @@ aCorner
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -13150,9 +13105,6 @@ aDash
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 Float
@@ -15190,9 +15142,6 @@ GetBorderLength
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 const
@@ -15276,9 +15225,6 @@ nsCSSBorderRenderer
 DrawDashedOrDottedSide
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -15828,9 +15774,6 @@ nsCSSBorderRenderer
 DrawDottedSideSlow
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -19411,9 +19354,6 @@ DrawDashedOrDottedCorner
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 mozilla
@@ -19778,9 +19718,6 @@ return
 mozilla
 :
 :
-css
-:
-:
 Side
 sideH
 (
@@ -19791,9 +19728,6 @@ aCorner
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -20313,9 +20247,6 @@ DrawDottedCornerSlow
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 mozilla
@@ -20349,9 +20280,6 @@ dotted
 mozilla
 :
 :
-css
-:
-:
 Side
 sideH
 (
@@ -20362,9 +20290,6 @@ aCorner
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -20924,9 +20849,6 @@ DrawDashedCornerSlow
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 mozilla
@@ -20960,9 +20882,6 @@ dashed
 mozilla
 :
 :
-css
-:
-:
 Side
 sideH
 (
@@ -20973,9 +20892,6 @@ aCorner
 )
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -21889,9 +21805,6 @@ nsCSSBorderRenderer
 DrawFallbackSolidCorner
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -27687,9 +27600,6 @@ const
 mozilla
 :
 :
-css
-:
-:
 Side
 sides
 [
@@ -27698,9 +27608,6 @@ sides
 =
 {
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -28226,16 +28133,10 @@ cornerSide
 mozilla
 :
 :
-css
-:
-:
 Side
 side
 =
 mozilla
-:
-:
-css
 :
 :
 Side

@@ -1774,9 +1774,6 @@ property
 mozilla
 :
 :
-css
-:
-:
 Side
 side
 ;

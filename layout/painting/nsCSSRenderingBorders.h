@@ -988,9 +988,6 @@ GetSideClipWithoutCornersRect
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -1090,9 +1087,6 @@ GetSideClipSubPath
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -1113,9 +1107,6 @@ Point
 GetStraightBorderPoint
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1442,9 +1433,6 @@ aDash
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 Float
@@ -1468,9 +1456,6 @@ DrawDashedOrDottedSide
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -1491,9 +1476,6 @@ DrawDottedSideSlow
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -1511,9 +1493,6 @@ void
 DrawDashedOrDottedCorner
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1544,9 +1523,6 @@ DrawDottedCornerSlow
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 mozilla
@@ -1573,9 +1549,6 @@ void
 DrawDashedCornerSlow
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1606,9 +1579,6 @@ void
 DrawFallbackSolidCorner
 (
 mozilla
-:
-:
-css
 :
 :
 Side

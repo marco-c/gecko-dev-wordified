@@ -2141,9 +2141,6 @@ const
 mozilla
 :
 :
-css
-:
-:
 Side
 kLogicalBlockSides
 [
@@ -2387,9 +2384,6 @@ mode
 static
 const
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -2826,9 +2820,6 @@ LogicalSide
 LogicalSideForPhysicalSide
 (
 mozilla
-:
-:
-css
 :
 :
 Side

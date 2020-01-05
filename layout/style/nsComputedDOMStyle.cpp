@@ -28048,9 +28048,6 @@ GetOffsetWidthFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -28185,9 +28182,6 @@ nsComputedDOMStyle
 GetAbsoluteOffset
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -28598,9 +28592,6 @@ s_
 mozilla
 :
 :
-css
-:
-:
 Side
 (
 (
@@ -28623,9 +28614,6 @@ nsComputedDOMStyle
 GetRelativeOffset
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -28817,9 +28805,6 @@ GetStickyOffset
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -28997,9 +28982,6 @@ GetStaticOffset
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -29048,9 +29030,6 @@ nsComputedDOMStyle
 GetPaddingWidthFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -29385,9 +29364,6 @@ GetBorderColorsFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -29528,9 +29504,6 @@ GetBorderWidthFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -29614,9 +29587,6 @@ GetBorderColorFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -29662,9 +29632,6 @@ nsComputedDOMStyle
 GetMarginWidthFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -29805,9 +29772,6 @@ nsComputedDOMStyle
 GetBorderStyleFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
