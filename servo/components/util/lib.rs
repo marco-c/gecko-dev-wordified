@@ -125,14 +125,6 @@ io
 [
 feature
 (
-libc
-)
-]
-#
-!
-[
-feature
-(
 optin_builtin_traits
 )
 ]
