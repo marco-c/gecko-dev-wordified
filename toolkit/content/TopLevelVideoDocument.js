@@ -254,7 +254,7 @@ we
 re
 not
 in
-broser
+browser
 fullscreen
 mode
 prevent

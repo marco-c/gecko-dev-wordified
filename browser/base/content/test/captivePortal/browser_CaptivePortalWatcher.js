@@ -222,7 +222,7 @@ have
 focus
 .
 A
-brower
+browser
 window
 is
 focused

@@ -68,7 +68,7 @@ frame
 -
 script
 for
-brower
+browser
 /
 devtools
 /
