@@ -356,6 +356,7 @@ size
 derive
 (
 Debug
+Serialize
 )
 ]
 enum
@@ -880,6 +881,7 @@ property
 derive
 (
 Debug
+Serialize
 )
 ]
 struct
@@ -1955,6 +1957,7 @@ alignment
 derive
 (
 Debug
+Serialize
 )
 ]
 struct
@@ -2825,6 +2828,7 @@ flex
 derive
 (
 Debug
+Serialize
 )
 ]
 pub
@@ -4127,6 +4131,9 @@ debug
 !
 (
 "
+flex
+:
+:
 block_mode_assign_inline_sizes
 "
 )

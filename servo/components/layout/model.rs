@@ -3771,6 +3771,7 @@ derive
 Clone
 Copy
 Debug
+Serialize
 )
 ]
 pub
