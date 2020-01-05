@@ -333,6 +333,7 @@ DXGLInterop2
 IOSurface
 GLXDrawable
 SharedGLTexture
+AndroidSurfaceTexture
 Max
 }
 ;
