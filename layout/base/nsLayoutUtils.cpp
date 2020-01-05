@@ -4257,10 +4257,10 @@ RawServoAnimationValue
 UpdateMinMaxScale
 (
 aFrame
-{
+AnimationValue
+(
 baseStyle
-nullptr
-}
+)
 aMinScale
 aMaxScale
 )
