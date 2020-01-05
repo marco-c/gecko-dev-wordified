@@ -1224,8 +1224,6 @@ height
 ]
 :
             
-self
-.
 start_size
 [
 "
@@ -1236,8 +1234,6 @@ width
 =
 1
             
-self
-.
 start_size
 [
 "
