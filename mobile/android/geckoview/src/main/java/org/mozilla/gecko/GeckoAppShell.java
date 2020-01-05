@@ -10837,7 +10837,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /

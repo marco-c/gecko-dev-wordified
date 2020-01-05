@@ -722,7 +722,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
