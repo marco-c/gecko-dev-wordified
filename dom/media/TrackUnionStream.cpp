@@ -451,11 +451,6 @@ i
 )
 )
 ;
-EndTrack
-(
-i
-)
-;
 nsTArray
 <
 RefPtr
@@ -503,6 +498,11 @@ mOutputTrackID
 )
 ;
 }
+EndTrack
+(
+i
+)
+;
 mTrackMap
 .
 RemoveElementAt
