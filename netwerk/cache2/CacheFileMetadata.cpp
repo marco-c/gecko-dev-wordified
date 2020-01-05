@@ -381,11 +381,6 @@ get
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-CacheFileMetadata
-)
-;
 memset
 (
 &
@@ -545,11 +540,6 @@ get
 (
 )
 )
-)
-;
-MOZ_COUNT_CTOR
-(
-CacheFileMetadata
 )
 ;
 memset
@@ -719,11 +709,6 @@ this
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-CacheFileMetadata
-)
-;
 memset
 (
 &
@@ -764,11 +749,6 @@ p
 "
 this
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-CacheFileMetadata
 )
 ;
 MOZ_ASSERT

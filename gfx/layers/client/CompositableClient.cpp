@@ -424,11 +424,6 @@ mTextureFlags
 aTextureFlags
 )
 {
-MOZ_COUNT_CTOR
-(
-CompositableClient
-)
-;
 }
 CompositableClient
 :
@@ -438,11 +433,6 @@ CompositableClient
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-CompositableClient
-)
-;
 Destroy
 (
 )

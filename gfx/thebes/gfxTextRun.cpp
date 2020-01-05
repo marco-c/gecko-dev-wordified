@@ -1078,11 +1078,6 @@ scale
 "
 )
 ;
-MOZ_COUNT_CTOR
-(
-gfxTextRun
-)
-;
 NS_ADDREF
 (
 mFontGroup
@@ -1294,11 +1289,6 @@ mFontGroup
 )
 ;
 }
-MOZ_COUNT_DTOR
-(
-gfxTextRun
-)
-;
 }
 void
 gfxTextRun

@@ -6852,11 +6852,6 @@ NS_DispatchToMainThread
 threadStart
 )
 ;
-MOZ_COUNT_CTOR
-(
-CamerasParent
-)
-;
 }
 CamerasParent
 :
@@ -6878,11 +6873,6 @@ p
 "
 this
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-CamerasParent
 )
 ;
 #

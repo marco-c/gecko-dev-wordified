@@ -2866,11 +2866,6 @@ mResponseMsg
 aResponseMsg
 )
 {
-MOZ_COUNT_CTOR
-(
-nsFtpChildAsyncAlert
-)
-;
 }
 protected
 :
@@ -2880,11 +2875,6 @@ nsFtpChildAsyncAlert
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsFtpChildAsyncAlert
-)
-;
 }
 public
 :

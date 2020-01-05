@@ -170,11 +170,6 @@ mValidateAssertionCallback
 nullptr
 )
 {
-MOZ_COUNT_CTOR
-(
-RTCIdentityProviderRegistrar
-)
-;
 }
 RTCIdentityProviderRegistrar
 :
@@ -184,11 +179,6 @@ RTCIdentityProviderRegistrar
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-RTCIdentityProviderRegistrar
-)
-;
 }
 nsIGlobalObject
 *

@@ -1024,11 +1024,6 @@ mRefCnt
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-SharedThreadPool
-)
-;
 mEventTarget
 =
 do_QueryInterface
@@ -1045,11 +1040,6 @@ SharedThreadPool
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-SharedThreadPool
-)
-;
 }
 nsresult
 SharedThreadPool

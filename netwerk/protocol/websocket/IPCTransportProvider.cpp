@@ -162,11 +162,6 @@ TransportProviderParent
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-TransportProviderParent
-)
-;
 }
 TransportProviderParent
 :
@@ -176,11 +171,6 @@ TransportProviderParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-TransportProviderParent
-)
-;
 }
 NS_IMETHODIMP
 TransportProviderParent
@@ -343,11 +333,6 @@ TransportProviderChild
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-TransportProviderChild
-)
-;
 }
 TransportProviderChild
 :
@@ -357,11 +342,6 @@ TransportProviderChild
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-TransportProviderChild
-)
-;
 Send__delete__
 (
 this

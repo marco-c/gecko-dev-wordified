@@ -1061,11 +1061,6 @@ mITimer
 aTimer
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTimerImpl
-)
-;
 /
 /
 XXXbsmedberg
@@ -1108,11 +1103,6 @@ nsTimerImpl
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsTimerImpl
-)
-;
 ReleaseCallback
 (
 )

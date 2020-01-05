@@ -87,11 +87,6 @@ key
 nullptr
 )
 {
-MOZ_COUNT_CTOR
-(
-nsHtml5OwningUTF16Buffer
-)
-;
 }
 nsHtml5OwningUTF16Buffer
 :
@@ -117,11 +112,6 @@ key
 aKey
 )
 {
-MOZ_COUNT_CTOR
-(
-nsHtml5OwningUTF16Buffer
-)
-;
 }
 nsHtml5OwningUTF16Buffer
 :
@@ -131,11 +121,6 @@ nsHtml5OwningUTF16Buffer
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsHtml5OwningUTF16Buffer
-)
-;
 DeleteBuffer
 (
 )

@@ -1803,11 +1803,6 @@ mParent
 aHostElement
 )
 {
-MOZ_COUNT_CTOR
-(
-DistributedContentList
-)
-;
 if
 (
 aHostElement
@@ -1902,11 +1897,6 @@ DistributedContentList
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-DistributedContentList
-)
-;
 }
 nsIContent
 *
