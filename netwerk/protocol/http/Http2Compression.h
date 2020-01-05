@@ -445,14 +445,14 @@ MOZ_INIT_OUTSIDE_CTOR
 Telemetry
 :
 :
-ID
+HistogramID
 mPeakSizeID
 ;
 MOZ_INIT_OUTSIDE_CTOR
 Telemetry
 :
 :
-ID
+HistogramID
 mPeakCountID
 ;
 private

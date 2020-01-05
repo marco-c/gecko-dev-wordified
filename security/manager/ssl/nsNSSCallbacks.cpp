@@ -323,7 +323,7 @@ AccumulateCipherSuite
 Telemetry
 :
 :
-ID
+HistogramID
 probe
 const
 SSLChannelInfo
@@ -3110,15 +3110,9 @@ OnStreamComplete
 status
 failed
 %
+d
 "
-PRIu32
-static_cast
-<
-uint32_t
->
-(
 aStatus
-)
 )
 )
 ;
@@ -4957,7 +4951,7 @@ AccumulateNonECCKeySize
 Telemetry
 :
 :
-ID
+HistogramID
 probe
 uint32_t
 bits
@@ -5215,7 +5209,7 @@ AccumulateECCCurve
 Telemetry
 :
 :
-ID
+HistogramID
 probe
 uint32_t
 bits
@@ -5283,7 +5277,7 @@ AccumulateCipherSuite
 Telemetry
 :
 :
-ID
+HistogramID
 probe
 const
 SSLChannelInfo

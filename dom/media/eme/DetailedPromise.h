@@ -241,12 +241,12 @@ aName
 Telemetry
 :
 :
-ID
+HistogramID
 aSuccessLatencyProbe
 Telemetry
 :
 :
-ID
+HistogramID
 aFailureLatencyProbe
 )
 ;
@@ -364,12 +364,12 @@ aName
 Telemetry
 :
 :
-ID
+HistogramID
 aSuccessLatencyProbe
 Telemetry
 :
 :
-ID
+HistogramID
 aFailureLatencyProbe
 )
 ;
@@ -407,7 +407,7 @@ Optional
 Telemetry
 :
 :
-ID
+HistogramID
 >
 mSuccessLatencyProbe
 ;
@@ -416,7 +416,7 @@ Optional
 Telemetry
 :
 :
-ID
+HistogramID
 >
 mFailureLatencyProbe
 ;

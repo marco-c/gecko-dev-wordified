@@ -642,7 +642,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 nsJPEGDecoder
 :

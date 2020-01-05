@@ -257,7 +257,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 bool
 aEnabled
@@ -283,7 +283,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aHistogram
 uint32_t
 aSample
@@ -298,7 +298,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 const
 nsCString
@@ -343,7 +343,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 const
 nsCString
@@ -448,7 +448,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 )
 ;

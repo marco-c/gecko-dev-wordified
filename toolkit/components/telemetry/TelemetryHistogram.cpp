@@ -1208,7 +1208,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 >
 CharPtrEntryType
 ;
@@ -1791,7 +1791,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 kRecordingInitiallyDisabledIDs
 [
 ]
@@ -2020,7 +2020,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 )
 {
@@ -2034,7 +2034,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 )
 -
 1
@@ -3277,7 +3277,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 *
 id
 )
@@ -3343,7 +3343,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 Histogram
 *
@@ -3757,7 +3757,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -3889,7 +3889,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 existingId
 Histogram
 &
@@ -4042,7 +4042,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -4490,7 +4490,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -4823,7 +4823,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aHistogram
 uint32_t
 aSample
@@ -4854,7 +4854,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -4965,7 +4965,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 corruptID
 =
 mozilla
@@ -5701,7 +5701,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -6143,7 +6143,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 &
 id
 )
@@ -7325,7 +7325,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 &
 id
 )
@@ -8493,7 +8493,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 bool
 aEnabled
@@ -8615,7 +8615,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 uint32_t
 aSample
@@ -8690,7 +8690,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 const
 nsCString
@@ -8780,7 +8780,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aHistogram
 uint32_t
 aSample
@@ -8851,7 +8851,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 const
 nsCString
@@ -8957,7 +8957,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -9032,7 +9032,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 if
@@ -9068,7 +9068,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 uint32_t
 aSample
@@ -9147,7 +9147,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 const
 nsCString
@@ -9664,7 +9664,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 if
@@ -10448,7 +10448,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -12958,7 +12958,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 )
 i
 ;
@@ -13589,7 +13589,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 bool
 aEnabled
@@ -13731,7 +13731,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 uint32_t
 aSample
@@ -13789,7 +13789,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aID
 const
 nsCString
@@ -13877,7 +13877,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -13949,7 +13949,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 ;
 nsresult
@@ -13991,7 +13991,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aId
 const
 nsCString
@@ -14477,7 +14477,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 )
 {
@@ -14765,7 +14765,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 id
 =
 mozilla
@@ -14774,7 +14774,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 (
 i
 )

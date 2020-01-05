@@ -2203,7 +2203,7 @@ errorCode
 Telemetry
 :
 :
-ID
+HistogramID
 telemetryID
 =
 Telemetry
@@ -2249,7 +2249,7 @@ const
 Telemetry
 :
 :
-ID
+HistogramID
 mTelemetryID
 ;
 const
@@ -10032,7 +10032,7 @@ else
 Telemetry
 :
 :
-ID
+HistogramID
 successTelemetry
 =
 Telemetry
@@ -10043,7 +10043,7 @@ SSL_SUCCESFUL_CERT_VALIDATION_TIME_MOZILLAPKIX
 Telemetry
 :
 :
-ID
+HistogramID
 failureTelemetry
 =
 Telemetry
@@ -11693,7 +11693,7 @@ errorCode
 Telemetry
 :
 :
-ID
+HistogramID
 telemetryID
 uint32_t
 telemetryValue

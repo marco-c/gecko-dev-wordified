@@ -7929,7 +7929,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 nsGIFDecoder2
 :

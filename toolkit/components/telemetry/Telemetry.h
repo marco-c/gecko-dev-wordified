@@ -542,7 +542,7 @@ record
 void
 Accumulate
 (
-ID
+HistogramID
 id
 uint32_t
 sample
@@ -597,7 +597,7 @@ to
 void
 Accumulate
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -900,7 +900,7 @@ Accumulate
 (
 static_cast
 <
-ID
+HistogramID
 >
 (
 CategoricalLabelId
@@ -1004,7 +1004,7 @@ histogram
 void
 AccumulateCategorical
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -1053,7 +1053,7 @@ time
 void
 AccumulateTimeDelta
 (
-ID
+HistogramID
 id
 TimeStamp
 start
@@ -1135,7 +1135,7 @@ on
 void
 SetHistogramRecordingEnabled
 (
-ID
+HistogramID
 id
 bool
 enabled
@@ -1146,7 +1146,7 @@ char
 *
 GetHistogramName
 (
-ID
+HistogramID
 id
 )
 ;
@@ -1189,7 +1189,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 TimeStamp
 start
@@ -1208,7 +1208,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -1242,7 +1242,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 TimeStamp
 start
@@ -1282,7 +1282,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -1338,7 +1338,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 TimeStamp
 start
@@ -1378,7 +1378,7 @@ static
 void
 compute
 (
-ID
+HistogramID
 id
 const
 nsCString
@@ -1423,7 +1423,7 @@ ToMicroseconds
 ;
 template
 <
-ID
+HistogramID
 id
 TimerResolution
 res
@@ -1549,7 +1549,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 template
 <
-ID
+HistogramID
 id
 >
 class

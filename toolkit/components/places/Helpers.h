@@ -1570,7 +1570,7 @@ AsyncStatementTelemetryTimer
 Telemetry
 :
 :
-ID
+HistogramID
 aHistogramId
 TimeStamp
 aStart
@@ -1606,7 +1606,7 @@ const
 Telemetry
 :
 :
-ID
+HistogramID
 mHistogramId
 ;
 const

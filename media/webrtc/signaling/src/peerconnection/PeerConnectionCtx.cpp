@@ -1482,7 +1482,7 @@ Value
 0
 )
 {
-ID
+HistogramID
 id
 ;
 if
@@ -1576,7 +1576,7 @@ WasPassed
 )
 )
 {
-ID
+HistogramID
 id
 ;
 if
@@ -1637,7 +1637,7 @@ s
 mIsRemote
 )
 ;
-ID
+HistogramID
 id
 =
 isAudio
@@ -1789,7 +1789,7 @@ delta_ms
 60000
 )
 {
-ID
+HistogramID
 id
 ;
 if

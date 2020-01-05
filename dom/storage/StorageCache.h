@@ -1229,7 +1229,7 @@ mozilla
 Telemetry
 :
 :
-ID
+HistogramID
 aTelemetryID
 )
 ;

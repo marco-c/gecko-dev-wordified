@@ -203,7 +203,7 @@ namespace
 Telemetry
 {
 enum
-ID
+HistogramID
 :
 uint32_t
 ;
@@ -347,7 +347,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 &
 aSpeedHistogram
@@ -480,7 +480,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 mSpeedHistogram
 ;
@@ -2562,7 +2562,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 SpeedHistogram
 (

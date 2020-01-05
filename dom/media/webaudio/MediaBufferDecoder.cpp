@@ -1504,7 +1504,7 @@ Accumulate
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 MEDIA_CODEC_USED

@@ -4758,7 +4758,7 @@ Accumulate
 Telemetry
 :
 :
-ID
+HistogramID
 :
 :
 MEDIA_CODEC_USED
@@ -5920,15 +5920,9 @@ NotifyDownloadEnded
 status
 =
 %
+x
 "
-PRIx32
-static_cast
-<
-uint32_t
->
-(
 aStatus
-)
 )
 ;
 if

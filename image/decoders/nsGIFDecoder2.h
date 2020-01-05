@@ -246,7 +246,7 @@ Maybe
 Telemetry
 :
 :
-ID
+HistogramID
 >
 SpeedHistogram
 (

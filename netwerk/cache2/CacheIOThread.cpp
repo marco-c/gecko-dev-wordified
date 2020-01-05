@@ -264,7 +264,7 @@ static
 Telemetry
 :
 :
-ID
+HistogramID
 telemetryID
 [
 ]

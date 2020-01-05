@@ -322,7 +322,7 @@ print
 (
 "
 enum
-ID
+HistogramID
 :
 uint32_t
 {
