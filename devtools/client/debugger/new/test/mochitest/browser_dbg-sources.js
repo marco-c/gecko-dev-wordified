@@ -128,6 +128,15 @@ getState
 =
 dbg
 ;
+yield
+waitForSources
+(
+dbg
+"
+simple1
+"
+)
+;
 /
 /
 Expand
