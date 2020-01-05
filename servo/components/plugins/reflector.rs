@@ -206,8 +206,6 @@ match_ty_unwrap
 *
 f
 .
-node
-.
 ty
 &
 [
@@ -256,11 +254,7 @@ field_name
 =
 f
 .
-node
-.
 ident
-(
-)
 ;
 let
 impl_item
@@ -403,11 +397,7 @@ fields
 0
 ]
 .
-node
-.
 ident
-(
-)
 ;
 let
 impl_item

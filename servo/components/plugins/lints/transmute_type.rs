@@ -60,6 +60,12 @@ use
 rustc
 :
 :
+hir
+;
+use
+rustc
+:
+:
 lint
 :
 :
@@ -70,12 +76,6 @@ LintArray
 LateLintPass
 LintContext
 }
-;
-use
-rustc_front
-:
-:
-hir
 ;
 use
 syntax
