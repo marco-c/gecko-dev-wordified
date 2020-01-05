@@ -674,7 +674,10 @@ disable
 {
 abortReason_
 =
-AbortReason_Disable
+AbortReason
+:
+:
+Disable
 ;
 }
 AbortReason
@@ -842,7 +845,10 @@ abortReason
 )
 =
 =
-AbortReason_PreliminaryObjects
+AbortReason
+:
+:
+PreliminaryObjects
 all
 groups
 with
@@ -905,7 +911,10 @@ shouldForceAbort_
 /
 /
 Force
-AbortReason_Disable
+AbortReason
+:
+:
+Disable
 ObjectGroupVector
 abortedPreliminaryGroups_
 ;
