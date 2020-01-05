@@ -1271,6 +1271,11 @@ cbData
 )
 ;
 }
+RegCloseKey
+(
+hkey
+)
+;
 return
 result
 ;
