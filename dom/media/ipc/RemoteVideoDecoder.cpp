@@ -831,7 +831,7 @@ if
 VideoDecoderManagerChild
 :
 :
-GetSingleton
+GetManagerThread
 (
 )
 )

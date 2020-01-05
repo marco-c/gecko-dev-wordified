@@ -167,6 +167,9 @@ class
 RemoteDecoderModule
 ;
 class
+VideoDecoderManagerChild
+;
+class
 VideoDecoderChild
 final
 :
@@ -343,6 +346,12 @@ been
 destroyed
 void
 IPDLActorDestroyed
+(
+)
+;
+VideoDecoderManagerChild
+*
+GetManager
 (
 )
 ;

@@ -149,6 +149,13 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+VideoDecoderManagerChild
+;
+}
+namespace
 layers
 {
 /
@@ -180,6 +187,12 @@ public
 :
 GPUVideoImage
 (
+dom
+:
+:
+VideoDecoderManagerChild
+*
+aManager
 const
 SurfaceDescriptorGPUVideo
 &
@@ -234,6 +247,7 @@ CreateWithData
 new
 GPUVideoTextureData
 (
+aManager
 aSD
 aSize
 )
