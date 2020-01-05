@@ -327,7 +327,7 @@ aHasFloats
 #
 define
 NS_FLOAT_MANAGER_CACHE_SIZE
-4
+64
 /
 *
 *
