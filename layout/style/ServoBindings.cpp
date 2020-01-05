@@ -5166,7 +5166,7 @@ aLoader
 ServoStyleSheet
 *
 aParent
-RawServoImportRuleStrong
+RawServoImportRuleBorrowed
 aImportRule
 const
 uint8_t
@@ -5360,18 +5360,6 @@ urlSpec
 )
 )
 ;
-RefPtr
-<
-RawServoImportRule
->
-import
-=
-aImportRule
-.
-Consume
-(
-)
-;
 aLoader
 -
 >
@@ -5381,7 +5369,7 @@ aParent
 uri
 media
 nullptr
-import
+aImportRule
 nullptr
 )
 ;

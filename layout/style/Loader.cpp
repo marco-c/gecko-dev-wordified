@@ -9211,6 +9211,7 @@ aParentSheet
 ImportRule
 *
 aGeckoParentRule
+const
 RawServoImportRule
 *
 aServoParentRule
@@ -14665,6 +14666,7 @@ aMedia
 ImportRule
 *
 aGeckoParentRule
+const
 RawServoImportRule
 *
 aServoParentRule
