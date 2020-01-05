@@ -1210,7 +1210,10 @@ compilingWasm
 ?
 sizeof
 (
-AsmJSFrame
+wasm
+:
+:
+Frame
 )
 :
 sizeof

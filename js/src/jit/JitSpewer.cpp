@@ -557,9 +557,7 @@ true
 /
 /
 Disable
-asm
-.
-js
+wasm
 output
 when
 filter

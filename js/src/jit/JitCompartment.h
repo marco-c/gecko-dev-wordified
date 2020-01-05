@@ -454,9 +454,7 @@ for
 all
 code
 except
-asm
-.
-js
+wasm
 code
 and
 Ion

@@ -33559,7 +33559,7 @@ rpc
 {
 /
 /
-AsmJS
+wasm
 signal
 handler
 ran

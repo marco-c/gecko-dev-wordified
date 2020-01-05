@@ -1141,7 +1141,7 @@ compilingWasm
 )
 masm
 .
-numAsmJSAbsoluteAddresses
+numWasmSymbolicAccesses
 (
 )
 =
@@ -32923,7 +32923,7 @@ JSScript
 or
 /
 /
-AsmJS
+wasm
 module
 after
 code
@@ -66070,9 +66070,7 @@ JitSpew_Codegen
 "
 #
 Emitting
-asm
-.
-js
+wasm
 code
 "
 )

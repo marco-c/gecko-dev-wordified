@@ -19615,7 +19615,7 @@ we
 '
 re
 compiling
-AsmJS
+wasm
 don
 '
 t
@@ -19640,7 +19640,7 @@ it
 wants
 .
 Also
-AsmJS
+wasm
 /
 /
 doesn
@@ -22692,7 +22692,7 @@ truncation
 is
 disabled
 for
-AsmJS
+wasm
 because
 the
 truncation
@@ -22718,7 +22718,7 @@ logic
 fails
 .
 As
-AsmJS
+wasm
 code
 has
 no

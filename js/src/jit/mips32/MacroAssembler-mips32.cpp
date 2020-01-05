@@ -4581,7 +4581,10 @@ dest
 {
 append
 (
-AsmJSAbsoluteAddress
+wasm
+:
+:
+SymbolicAccess
 (
 CodeOffset
 (
@@ -12940,7 +12943,7 @@ uint32_t
 *
 stackAdjust
 bool
-callFromAsmJS
+callFromWasm
 )
 {
 MOZ_ASSERT
@@ -12992,11 +12995,14 @@ else
 uint32_t
 alignmentAtPrologue
 =
-callFromAsmJS
+callFromWasm
 ?
 sizeof
 (
-AsmJSFrame
+wasm
+:
+:
+Frame
 )
 :
 0

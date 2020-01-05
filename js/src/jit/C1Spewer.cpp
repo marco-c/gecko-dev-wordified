@@ -299,9 +299,7 @@ printf
 name
 \
 "
-asm
-.
-js
+wasm
 compilation
 \
 "
@@ -318,9 +316,7 @@ printf
 method
 \
 "
-asm
-.
-js
+wasm
 compilation
 \
 "

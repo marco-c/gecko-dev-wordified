@@ -571,14 +571,14 @@ t8
 static
 constexpr
 Register
-AsmJSIonExitRegReturnData
+WasmIonExitRegReturnData
 =
 JSReturnReg_Data
 ;
 static
 constexpr
 Register
-AsmJSIonExitRegReturnType
+WasmIonExitRegReturnType
 =
 JSReturnReg_Type
 ;
@@ -980,7 +980,7 @@ SimdMemoryAlignment
 static
 constexpr
 uint32_t
-AsmJSStackAlignment
+WasmStackAlignment
 =
 SimdMemoryAlignment
 ;

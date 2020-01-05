@@ -22369,9 +22369,7 @@ as
 when
 compiling
 an
-asm
-.
-js
+wasm
 module
 which
 /

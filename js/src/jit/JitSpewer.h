@@ -807,7 +807,7 @@ LIR
 graphs
 of
 an
-AsmJS
+Wasm
 /
 Ion
 compilation

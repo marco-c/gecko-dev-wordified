@@ -238,9 +238,7 @@ passed
 by
 reference
 but
-asm
-.
-js
+wasm
 /
 /
 doesn
@@ -455,9 +453,7 @@ passed
 by
 reference
 but
-asm
-.
-js
+wasm
 /
 /
 doesn

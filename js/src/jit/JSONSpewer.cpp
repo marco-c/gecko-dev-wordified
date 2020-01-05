@@ -750,9 +750,7 @@ stringProperty
 name
 "
 "
-asm
-.
-js
+wasm
 compilation
 "
 )

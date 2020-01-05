@@ -331,7 +331,7 @@ ABI
 we
 like
 .
-visitAsmJSPassArg
+visitWasmStackArg
 assumes
 /
 /

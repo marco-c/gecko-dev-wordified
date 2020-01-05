@@ -2565,7 +2565,7 @@ on
 the
 stack
 frame
-AsmJSGlobalVar
+WasmGlobalVar
 =
 1
 <
@@ -2577,9 +2577,11 @@ An
 asm
 .
 js
+/
+wasm
 global
 var
-AsmJSHeap
+WasmHeap
 =
 1
 <
@@ -2591,6 +2593,8 @@ An
 asm
 .
 js
+/
+wasm
 heap
 load
 TypedArrayLength
@@ -11993,9 +11997,7 @@ an
 Int32
 (
 for
-asm
-.
-js
+wasm
 )
 .
 /
@@ -28707,9 +28709,7 @@ double
 (
 coming
 from
-asm
-.
-js
+wasm
 )
 .
 class
@@ -28813,9 +28813,7 @@ float32
 (
 coming
 from
-asm
-.
-js
+wasm
 )
 .
 class
@@ -32537,9 +32535,7 @@ optimization
 phase
 and
 by
-asm
-.
-js
+wasm
 pre
 -
 processing
@@ -67037,7 +67033,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 return
@@ -67049,7 +67045,7 @@ Load
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -67153,7 +67149,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -67450,7 +67446,7 @@ Load
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -67572,7 +67568,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -67741,7 +67737,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -67892,7 +67888,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -68062,7 +68058,7 @@ Store
 AliasSet
 :
 :
-AsmJSHeap
+WasmHeap
 )
 ;
 }
@@ -68193,7 +68189,7 @@ Load
 AliasSet
 :
 :
-AsmJSGlobalVar
+WasmGlobalVar
 )
 ;
 }
@@ -68290,7 +68286,7 @@ Store
 AliasSet
 :
 :
-AsmJSGlobalVar
+WasmGlobalVar
 )
 ;
 }

@@ -15257,7 +15257,7 @@ wasm
 :
 NaN32GlobalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 ToFloatRegister
 (
@@ -15278,7 +15278,7 @@ wasm
 :
 NaN64GlobalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 ToFloatRegister
 (
@@ -17913,7 +17913,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 if
 (
@@ -18059,7 +18059,7 @@ globalDataOffset
 (
 )
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 if
 (

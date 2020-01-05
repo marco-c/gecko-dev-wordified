@@ -20283,9 +20283,7 @@ splitting
 method
 when
 compiling
-asm
-.
-js
+wasm
 code
 to
 look

@@ -347,9 +347,7 @@ aren
 '
 t
 in
-asm
-.
-js
+wasm
 /
 /
 and
@@ -396,7 +394,7 @@ MBitAnd
 .
 MOZ_ASSERT
 (
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )

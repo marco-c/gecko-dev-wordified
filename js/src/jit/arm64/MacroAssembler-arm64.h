@@ -4955,7 +4955,10 @@ dest
 ;
 append
 (
-AsmJSAbsoluteAddress
+wasm
+:
+:
+SymbolicAccess
 (
 CodeOffset
 (
@@ -17629,7 +17632,7 @@ Address
 GlobalReg
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 dest
 )
@@ -17678,7 +17681,7 @@ adds32
 (
 Imm32
 (
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 GlobalReg
 )

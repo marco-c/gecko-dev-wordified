@@ -267,7 +267,7 @@ and
 for
 inter
 -
-AsmJS
+wasm
 /
 /
 calls
@@ -284,7 +284,7 @@ HardFp
 and
 inter
 -
-AsmJS
+wasm
 calls
 /
 /

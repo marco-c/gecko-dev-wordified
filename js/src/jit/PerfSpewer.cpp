@@ -1907,7 +1907,7 @@ js
 jit
 :
 :
-writePerfSpewerAsmJSFunctionMap
+writePerfSpewerWasmFunctionMap
 (
 uintptr_t
 base

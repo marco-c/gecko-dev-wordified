@@ -11257,7 +11257,7 @@ DEBUG
 if
 (
 !
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )
@@ -17229,7 +17229,7 @@ callWithABIPre
 stackAdjust
 /
 *
-callFromAsmJS
+callFromWasm
 =
 *
 /
@@ -19003,7 +19003,10 @@ alreadyPushed
 =
 sizeof
 (
-AsmJSFrame
+wasm
+:
+:
+Frame
 )
 +
 framePushed

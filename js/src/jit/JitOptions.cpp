@@ -498,9 +498,7 @@ of
 large
 /
 /
-asm
-.
-js
+wasm
 programs
 .
 SET_DEFAULT

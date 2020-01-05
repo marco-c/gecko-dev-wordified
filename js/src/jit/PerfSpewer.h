@@ -401,7 +401,7 @@ msg
 ;
 /
 /
-AsmJS
+wasm
 doesn
 '
 t
@@ -410,7 +410,7 @@ block
 annotations
 .
 class
-AsmJSPerfSpewer
+WasmPerfSpewer
 :
 public
 PerfSpewer
@@ -449,7 +449,7 @@ true
 }
 ;
 void
-writePerfSpewerAsmJSFunctionMap
+writePerfSpewerWasmFunctionMap
 (
 uintptr_t
 base

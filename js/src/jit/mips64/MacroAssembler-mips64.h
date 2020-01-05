@@ -7286,7 +7286,7 @@ Address
 GlobalReg
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 dest
 )
@@ -7336,7 +7336,7 @@ ma_daddu
 GlobalReg
 Imm32
 (
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 )
 )
 ;

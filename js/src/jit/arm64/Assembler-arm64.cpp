@@ -249,7 +249,7 @@ used
 for
 inter
 -
-AsmJS
+wasm
 calls
 and
 may

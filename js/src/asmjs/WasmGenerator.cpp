@@ -420,7 +420,7 @@ masm_
 MacroAssembler
 :
 :
-AsmJSToken
+WasmToken
 (
 )
 masmAlloc_
@@ -456,7 +456,7 @@ false
 {
 MOZ_ASSERT
 (
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )
@@ -2982,7 +2982,7 @@ masm
 MacroAssembler
 :
 :
-AsmJSToken
+WasmToken
 (
 )
 alloc
@@ -3839,7 +3839,7 @@ i
 <
 masm_
 .
-numAsmJSAbsoluteAddresses
+numWasmSymbolicAccesses
 (
 )
 ;
@@ -3848,12 +3848,12 @@ i
 +
 )
 {
-AsmJSAbsoluteAddress
+SymbolicAccess
 src
 =
 masm_
 .
-asmJSAbsoluteAddress
+wasmSymbolicAccess
 (
 i
 )

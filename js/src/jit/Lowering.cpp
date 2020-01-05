@@ -653,9 +653,7 @@ Implicit
 interrupt
 checks
 require
-asm
-.
-js
+wasm
 signal
 handlers
 to
@@ -30141,9 +30139,7 @@ MOZ_CRASH
 (
 "
 Unexpected
-asm
-.
-js
+wasm
 return
 type
 "

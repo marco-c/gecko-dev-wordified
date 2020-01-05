@@ -283,14 +283,14 @@ void
 OptimizationInfo
 :
 :
-initAsmjsOptimizationInfo
+initWasmOptimizationInfo
 (
 )
 {
 /
 /
 The
-AsmJS
+Wasm
 optimization
 level
 /
@@ -305,7 +305,7 @@ t
 work
 well
 with
-asmjs
+wasm
 .
 /
 /
@@ -327,7 +327,7 @@ level_
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 ;
 ama_
 =
@@ -343,7 +343,7 @@ false
 ;
 /
 /
-AsmJS
+wasm
 has
 no
 boxing
@@ -364,7 +364,7 @@ false
 ;
 /
 /
-AsmJS
+wasm
 has
 no
 objects
@@ -718,10 +718,10 @@ infos_
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 ]
 .
-initAsmjsOptimizationInfo
+initWasmOptimizationInfo
 (
 )
 ;
@@ -821,7 +821,7 @@ case
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 :
 case
 OptimizationLevel

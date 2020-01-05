@@ -187,7 +187,7 @@ warnings
 static
 const
 uint32_t
-AsmJSStackAlignment
+WasmStackAlignment
 =
 8
 ;

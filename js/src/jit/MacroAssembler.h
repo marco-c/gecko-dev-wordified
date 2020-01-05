@@ -1994,9 +1994,7 @@ nullptr
 ;
 /
 /
-asm
-.
-js
+wasm
 compilation
 handles
 its
@@ -2005,14 +2003,14 @@ JitContext
 -
 pushing
 struct
-AsmJSToken
+WasmToken
 {
 }
 ;
 explicit
 MacroAssembler
 (
-AsmJSToken
+WasmToken
 TempAllocator
 &
 alloc
@@ -3791,7 +3789,7 @@ uint32_t
 *
 stackAdjust
 bool
-callFromAsmJS
+callFromWasm
 =
 false
 )

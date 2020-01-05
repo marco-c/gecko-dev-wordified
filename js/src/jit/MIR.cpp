@@ -2717,7 +2717,7 @@ case
 :
 return
 "
-AsmJSGlobalVar
+WasmGlobalVar
 "
 ;
 case
@@ -2725,7 +2725,7 @@ case
 :
 return
 "
-AsmJSHeap
+WasmHeap
 "
 ;
 case
@@ -7273,7 +7273,7 @@ Value
 MOZ_ASSERT
 (
 !
-IsCompilingAsmJS
+IsCompilingWasm
 (
 )
 )
@@ -26871,9 +26871,7 @@ t
 have
 bailouts
 in
-asm
-.
-js
+wasm
 code
 .
 ins

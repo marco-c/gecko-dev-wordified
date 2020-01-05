@@ -13548,7 +13548,7 @@ localSize_
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 /
 /
@@ -14172,7 +14172,7 @@ framePushed
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 JitStackAlignment
 )
@@ -19990,7 +19990,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -20162,7 +20162,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -20313,7 +20313,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 VFPRegister
 vd
@@ -20439,7 +20439,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -20578,7 +20578,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -20750,7 +20750,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -20901,7 +20901,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 VFPRegister
 vd
@@ -21027,7 +21027,7 @@ addr
 =
 globalDataOffset
 -
-AsmJSGlobalRegBias
+WasmGlobalRegBias
 ;
 masm
 .
@@ -46177,7 +46177,7 @@ offsetFromArgBase
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 )
 )
@@ -46233,7 +46233,7 @@ offsetFromArgBase
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 )
 )
@@ -46289,7 +46289,7 @@ offsetFromArgBase
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 )
 )
@@ -46345,7 +46345,7 @@ offsetFromArgBase
 +
 sizeof
 (
-AsmJSFrame
+Frame
 )
 )
 )

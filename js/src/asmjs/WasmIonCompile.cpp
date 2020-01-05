@@ -5534,7 +5534,7 @@ via
 MIRGenerator
 :
 :
-maxAsmJSStackArgBytes
+maxWasmStackArgBytes
 .
 )
 Naively
@@ -6304,7 +6304,7 @@ call
 -
 >
 maxChildStackBytes_
-AsmJSStackAlignment
+WasmStackAlignment
 )
 ;
 for
@@ -24942,13 +24942,13 @@ get
 OptimizationLevel
 :
 :
-AsmJS
+Wasm
 )
 )
 ;
 mir
 .
-initMinAsmJSHeapLength
+initMinWasmHeapLength
 (
 task
 -
