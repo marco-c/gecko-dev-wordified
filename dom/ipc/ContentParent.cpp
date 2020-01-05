@@ -28801,6 +28801,10 @@ aLastModified
 const
 bool
 &
+aExistenceCheck
+const
+bool
+&
 aIsFromNsIFile
 )
 {
@@ -28823,6 +28827,7 @@ aType
 aName
 aLastModifiedPassed
 aLastModified
+aExistenceCheck
 aIsFromNsIFile
 getter_AddRefs
 (

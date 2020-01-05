@@ -17486,6 +17486,8 @@ int64_t
 &
 aLastModified
 bool
+aExistenceCheck
+bool
 aIsFromNsIFile
 )
 {
@@ -17546,6 +17548,7 @@ aName
 )
 lastModifiedPassed
 lastModified
+aExistenceCheck
 aIsFromNsIFile
 )
 ;
