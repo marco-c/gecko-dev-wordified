@@ -3384,8 +3384,8 @@ result
 NULL
 )
 {
-goto
-fail
+return
+NULL
 ;
 }
 /
