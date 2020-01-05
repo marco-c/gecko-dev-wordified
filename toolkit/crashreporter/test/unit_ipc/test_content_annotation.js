@@ -88,7 +88,7 @@ crashType
 =
 CrashTestUtils
 .
-CRASH_RUNTIMEABORT
+CRASH_MOZ_CRASH
 ;
 crashReporter
 .
