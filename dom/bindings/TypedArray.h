@@ -1971,10 +1971,7 @@ understand
 TypedArray
 as
 with
-Promise
-:
-:
-ArgumentToJSValue
+ToJSValue
 .
 template
 <
