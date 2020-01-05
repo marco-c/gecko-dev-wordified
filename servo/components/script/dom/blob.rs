@@ -1273,7 +1273,7 @@ the
 type_string
 pub
 fn
-get_type_string
+type_string
 (
 &
 self
