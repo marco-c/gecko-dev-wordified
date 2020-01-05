@@ -2437,6 +2437,10 @@ pub
 mod
 attr
 ;
+pub
+mod
+beforeunloadevent
+;
 mod
 create
 ;
