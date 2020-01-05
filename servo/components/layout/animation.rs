@@ -160,7 +160,13 @@ update_style_for_animation
 }
 ;
 use
-time
+style
+:
+:
+timer
+:
+:
+Timer
 ;
 /
 /
@@ -240,6 +246,10 @@ Animation
 pipeline_id
 :
 PipelineId
+timer
+:
+&
+Timer
 )
 {
 let
@@ -402,6 +412,7 @@ update_from_other
 (
 &
 state
+timer
 )
 ;
 should_push
@@ -468,10 +479,9 @@ return
 let
 now
 =
-time
-:
-:
-precise_time_s
+timer
+.
+seconds
 (
 )
 ;

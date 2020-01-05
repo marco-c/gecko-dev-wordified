@@ -295,10 +295,6 @@ style_traits
 ;
 extern
 crate
-time
-;
-extern
-crate
 unicode_bidi
 ;
 extern
