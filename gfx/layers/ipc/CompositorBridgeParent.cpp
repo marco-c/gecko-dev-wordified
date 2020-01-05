@@ -2659,9 +2659,6 @@ mCompositionManager
 nullptr
 ;
 }
-#
-ifdef
-MOZ_ENABLE_WEBRENDER
 if
 (
 mWRBridge
@@ -2737,8 +2734,6 @@ mWRBridge
 nullptr
 ;
 }
-#
-endif
 if
 (
 mCompositor
