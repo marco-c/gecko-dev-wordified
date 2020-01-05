@@ -3412,7 +3412,7 @@ CTFontCreateWithGraphicsFont
 aCGFont
 aSize
 nullptr
-nullptr
+aFontDesc
 )
 ;
 }
