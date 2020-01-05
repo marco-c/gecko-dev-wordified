@@ -660,14 +660,6 @@ const
 ;
 #
 endif
-void
-AppendStyleSheet
-(
-CSSStyleSheet
-*
-aSheet
-)
-;
 /
 /
 XXX
