@@ -1739,7 +1739,7 @@ RawServoStyleSheet
 "
             
 "
-ServoDeclarationBlock
+RawServoDeclarationBlock
 "
         
 ]
@@ -1776,6 +1776,10 @@ RawGeckoElement
             
 "
 RawGeckoDocument
+"
+            
+"
+RawServoDeclarationBlockStrong
 "
         
 ]
