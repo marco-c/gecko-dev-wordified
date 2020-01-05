@@ -795,6 +795,7 @@ enum
 NodeTypeId
 {
 DoctypeNodeTypeId
+DocumentFragmentNodeTypeId
 CommentNodeTypeId
 ElementNodeTypeId
 (
@@ -3692,6 +3693,10 @@ DoctypeNodeTypeId
 =
 >
 10
+DocumentFragmentNodeTypeId
+=
+>
+11
 }
 }
 pub
@@ -3788,6 +3793,16 @@ clone
 )
 }
 }
+DocumentFragmentNodeTypeId
+=
+>
+~
+"
+#
+document
+-
+fragment
+"
 }
 )
 }
@@ -3833,6 +3848,8 @@ CommentNodeTypeId
 TextNodeTypeId
 |
 DoctypeNodeTypeId
+|
+DocumentFragmentNodeTypeId
 =
 >
 Some
@@ -4096,6 +4113,8 @@ self
 .
 type_id
 {
+DocumentFragmentNodeTypeId
+|
 ElementNodeTypeId
 (
 *
@@ -4493,6 +4512,8 @@ self
 .
 type_id
 {
+DocumentFragmentNodeTypeId
+|
 ElementNodeTypeId
 (
 *

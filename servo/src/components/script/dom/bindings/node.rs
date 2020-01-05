@@ -113,6 +113,7 @@ node
 :
 {
 DoctypeNodeTypeId
+DocumentFragmentNodeTypeId
 ScriptView
 }
 ;
@@ -980,6 +981,14 @@ DocumentType
 <
 ScriptView
 >
+)
+DocumentFragmentNodeTypeId
+=
+>
+generate_element
+!
+(
+DocumentFragment
 )
 TextNodeTypeId
 =
