@@ -602,13 +602,6 @@ mContentClient
 =
 nullptr
 ;
-ClientLayer
-:
-:
-Disconnect
-(
-)
-;
 }
 protected
 :
