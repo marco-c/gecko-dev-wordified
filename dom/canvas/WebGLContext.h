@@ -11678,7 +11678,8 @@ Has64BitTimestamps
 const
 ;
 struct
-ScopedMaskWorkaround
+ScopedDrawCallWrapper
+final
 {
 WebGLContext
 &
@@ -11907,7 +11908,7 @@ false
 ;
 }
 explicit
-ScopedMaskWorkaround
+ScopedDrawCallWrapper
 (
 WebGLContext
 &
@@ -11915,7 +11916,7 @@ webgl
 )
 ;
 ~
-ScopedMaskWorkaround
+ScopedDrawCallWrapper
 (
 )
 ;

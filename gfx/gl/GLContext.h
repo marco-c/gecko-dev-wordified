@@ -4486,6 +4486,10 @@ GLint
 stencil
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 mSymbols
@@ -4499,6 +4503,10 @@ stencil
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
@@ -4514,6 +4522,10 @@ GLfloat
 value
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 mSymbols
@@ -4526,6 +4538,10 @@ value
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
@@ -4541,6 +4557,10 @@ GLint
 value
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 mSymbols
@@ -4553,6 +4573,10 @@ value
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
@@ -4568,6 +4592,10 @@ GLuint
 value
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 mSymbols
@@ -4580,6 +4608,10 @@ value
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
