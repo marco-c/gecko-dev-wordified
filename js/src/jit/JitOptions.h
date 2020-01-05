@@ -435,10 +435,10 @@ uint32_t
 branchPruningThreshold
 ;
 uint32_t
-wasmBatchThreshold
+wasmBatchIonThreshold
 ;
 uint32_t
-wasmBatchIonScaleFactor
+wasmBatchBaselineThreshold
 ;
 mozilla
 :
