@@ -547,16 +547,6 @@ nsIDocShell
 aDocShell
 )
 ;
-/
-/
-BeforeAfterKeyboardEvent
-preference
-static
-bool
-BeforeAfterKeyboardEventEnabled
-(
-)
-;
 static
 bool
 IsTargetIframe
