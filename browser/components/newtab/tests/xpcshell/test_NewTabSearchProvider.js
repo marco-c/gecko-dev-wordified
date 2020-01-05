@@ -18,12 +18,6 @@ Services
 /
 /
 *
-exported
-run_test
-*
-/
-/
-*
 jscs
 :
 disable

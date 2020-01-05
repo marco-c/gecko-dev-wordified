@@ -28,12 +28,6 @@ equal
 ok
 *
 /
-/
-*
-exported
-run_test
-*
-/
 const
 {
 utils

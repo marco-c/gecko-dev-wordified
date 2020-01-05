@@ -39,12 +39,6 @@ use
 strict
 "
 ;
-/
-*
-exported
-run_test
-*
-/
 function
 run_test
 (

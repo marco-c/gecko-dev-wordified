@@ -15,12 +15,6 @@ run_next_test
 /
 /
 *
-exported
-run_test
-*
-/
-/
-*
 jscs
 :
 disable
