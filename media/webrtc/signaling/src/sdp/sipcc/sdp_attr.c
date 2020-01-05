@@ -2847,10 +2847,14 @@ fmtpVal
 size_t
 len
 =
-PL_strlen
+fmtpVal
+?
+strlen
 (
 fmtpVal
 )
+:
+0
 ;
 /
 /
@@ -3032,7 +3036,7 @@ NULL
 {
 len
 =
-PL_strlen
+strlen
 (
 temp
 )

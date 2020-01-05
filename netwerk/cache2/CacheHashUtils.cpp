@@ -380,15 +380,6 @@ c
 len
 ;
 /
-/
-length
-=
-PL_strlen
-(
-key
-)
-;
-/
 *
 Set
 up
