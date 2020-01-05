@@ -1264,7 +1264,7 @@ elem
 >
 elem
 .
-image
+image_url
 (
 )
 .

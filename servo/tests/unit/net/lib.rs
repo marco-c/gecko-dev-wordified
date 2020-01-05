@@ -119,16 +119,6 @@ test
 )
 ]
 mod
-image_cache_task
-;
-#
-[
-cfg
-(
-test
-)
-]
-mod
 mime_classifier
 ;
 #

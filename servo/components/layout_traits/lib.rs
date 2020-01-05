@@ -335,7 +335,7 @@ PaintChan
 resource_task
 :
 ResourceTask
-img_cache_task
+image_cache_task
 :
 ImageCacheTask
 font_cache_task
