@@ -1472,6 +1472,12 @@ shareable
 ;
 }
 else
+if
+node
+.
+has_changed
+(
+)
 {
 ThreadSafeLayoutNode
 :
