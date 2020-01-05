@@ -178,6 +178,9 @@ payload
 void
 StreamJSON
 (
+ProfileBuffer
+*
+aBuffer
 SpliceableJSONWriter
 &
 aWriter

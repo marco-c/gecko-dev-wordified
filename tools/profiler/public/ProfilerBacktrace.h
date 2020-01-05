@@ -121,6 +121,9 @@ __PROFILER_BACKTRACE_H
 define
 __PROFILER_BACKTRACE_H
 class
+ProfileBuffer
+;
+class
 SyncProfile
 ;
 class
@@ -137,6 +140,9 @@ public
 explicit
 ProfilerBacktrace
 (
+ProfileBuffer
+*
+aBuffer
 SyncProfile
 *
 aProfile
@@ -236,6 +242,10 @@ const
 ProfilerBacktrace
 &
 )
+;
+ProfileBuffer
+*
+mBuffer
 ;
 SyncProfile
 *
