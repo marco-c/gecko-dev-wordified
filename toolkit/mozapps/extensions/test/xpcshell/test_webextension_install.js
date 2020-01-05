@@ -3112,7 +3112,7 @@ deepEqual
 (
 perms
 .
-hosts
+origins
 [
 "
 https
