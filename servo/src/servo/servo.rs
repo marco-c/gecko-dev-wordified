@@ -202,7 +202,7 @@ osmain
 /
 /
 The
-compositor
+renderer
 let
 renderer
 =
