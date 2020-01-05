@@ -1017,6 +1017,10 @@ dom
 :
 RemoteDecoderModule
 ;
+friend
+class
+EMEDecoderModule
+;
 /
 /
 Creates
