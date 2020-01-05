@@ -900,7 +900,7 @@ spawn
 (
 browser
 id
-id
+contentId
 =
 >
 {
@@ -948,7 +948,7 @@ document
 .
 getElementById
 (
-id
+contentId
 )
 .
 appendChild
@@ -2265,16 +2265,17 @@ spawn
 (
 browser
 id
-id
+contentId
 =
 >
+{
 content
 .
 document
 .
 getElementById
 (
-id
+contentId
 )
 .
 removeChild
@@ -2290,6 +2291,8 @@ t6_span
 '
 )
 )
+;
+}
 )
 ;
 yield

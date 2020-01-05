@@ -346,6 +346,7 @@ browser
 )
 =
 >
+{
 content
 .
 document
@@ -360,6 +361,8 @@ checkbox
 checked
 =
 true
+;
+}
 )
 ;
 let
@@ -419,6 +422,7 @@ browser
 )
 =
 >
+{
 content
 .
 document
@@ -437,6 +441,8 @@ designMode
 '
 on
 '
+;
+}
 )
 ;
 event
