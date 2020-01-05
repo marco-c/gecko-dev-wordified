@@ -447,6 +447,7 @@ window
 {
 Window
 WindowMethods
+WindowHelpers
 }
 ;
 use

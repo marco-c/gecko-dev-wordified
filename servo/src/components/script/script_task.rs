@@ -289,6 +289,7 @@ window
 {
 TimerId
 Window
+WindowHelpers
 }
 ;
 use
