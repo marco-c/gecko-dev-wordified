@@ -16116,15 +16116,6 @@ obj_getOwnPropertyDescriptor
 JS_FN
 (
 "
-std_Object_hasOwnProperty
-"
-obj_hasOwnProperty
-1
-0
-)
-JS_FN
-(
-"
 std_Object_toString
 "
 obj_toString
