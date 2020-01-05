@@ -1044,6 +1044,8 @@ executableCopy
 uint8_t
 *
 buffer
+bool
+flushICache
 )
 {
 MOZ_ASSERT
@@ -1146,6 +1148,10 @@ value
 )
 ;
 }
+if
+(
+flushICache
+)
 AutoFlushICache
 :
 :

@@ -1310,6 +1310,7 @@ executableCopy
 (
 void
 *
+bool
 )
 {
 MOZ_CRASH

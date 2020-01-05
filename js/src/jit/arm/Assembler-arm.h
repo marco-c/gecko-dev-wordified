@@ -8208,14 +8208,6 @@ other
 )
 ;
 void
-executableCopy
-(
-void
-*
-buffer
-)
-;
-void
 copyJumpRelocationTable
 (
 uint8_t
@@ -11091,6 +11083,10 @@ executableCopy
 uint8_t
 *
 buffer
+bool
+flushICache
+=
+true
 )
 ;
 /

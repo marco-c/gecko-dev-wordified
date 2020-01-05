@@ -844,6 +844,8 @@ executableCopy
 uint8_t
 *
 buffer
+bool
+flushICache
 )
 {
 /
@@ -1128,6 +1130,10 @@ work
 .
 }
 }
+if
+(
+flushICache
+)
 AutoFlushICache
 :
 :
