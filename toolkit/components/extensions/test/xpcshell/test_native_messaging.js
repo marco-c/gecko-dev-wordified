@@ -62,7 +62,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionCommon
 .
 jsm
 "
@@ -651,7 +651,7 @@ forgetOnClose
 class
 MockContext
 extends
-ExtensionUtils
+ExtensionCommon
 .
 BaseContext
 {
@@ -2097,7 +2097,7 @@ manifest
 ;
 }
 let
-mockContext
+context
 =
 new
 MockContext
@@ -2111,7 +2111,7 @@ app
 new
 NativeApp
 (
-mockContext
+context
 "
 wontdie
 "
@@ -2208,7 +2208,7 @@ NativeApp
 .
 encodeMessage
 (
-mockContext
+context
 MSG
 )
 ;

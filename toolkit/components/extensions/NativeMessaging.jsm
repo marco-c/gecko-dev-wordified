@@ -194,7 +194,7 @@ defineLazyModuleGetter
 (
 this
 "
-ExtensionUtils
+ExtensionChild
 "
 "
 resource
@@ -205,7 +205,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionChild
 .
 jsm
 "
@@ -1930,7 +1930,7 @@ let
 port
 =
 new
-ExtensionUtils
+ExtensionChild
 .
 Port
 (
