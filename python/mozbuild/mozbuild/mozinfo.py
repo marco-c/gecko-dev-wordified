@@ -1004,6 +1004,27 @@ MOZILLA_OFFICIAL
 )
 )
     
+d
+[
+'
+updater
+'
+]
+=
+substs
+.
+get
+(
+'
+MOZ_UPDATER
+'
+)
+=
+=
+'
+1
+'
+    
 def
 guess_platform
 (
