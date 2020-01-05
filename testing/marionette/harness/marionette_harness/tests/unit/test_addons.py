@@ -55,8 +55,6 @@ MPL
 .
 import
 os
-import
-unittest
 from
 marionette_driver
 .
@@ -68,6 +66,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip
 here
 =
 os
@@ -339,12 +338,10 @@ install
 addon_path
 )
     
-unittest
-.
 skip
 (
 "
-need
+Need
 to
 get
 the
