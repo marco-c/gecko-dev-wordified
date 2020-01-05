@@ -381,11 +381,6 @@ AbstractMediaDecoder
 {
 public
 :
-struct
-SeekResolveValue
-{
-}
-;
 /
 /
 Used
@@ -598,7 +593,12 @@ false
 typedef
 MozPromise
 <
-SeekResolveValue
+bool
+/
+*
+aIgnored
+*
+/
 bool
 /
 *
@@ -2686,8 +2686,6 @@ OnSeekRejected
 void
 OnSeekResolved
 (
-SeekResolveValue
-aVal
 )
 ;
 void
