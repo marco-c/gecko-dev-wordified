@@ -1266,6 +1266,15 @@ MOZ_CRASHREPORTER_NO_REPORT
 '
 1
 '
+                    
+'
+MOZ_CRASHREPORTER_SHUTDOWN
+'
+:
+'
+1
+'
+                    
 }
 )
         
