@@ -359,6 +359,13 @@ FILE_PATTERNS_TO_IGNORE
 .
 pyc
 "
+"
+fake
+-
+ld
+.
+sh
+"
 ]
 SPEC_BASE_PATH
 =
