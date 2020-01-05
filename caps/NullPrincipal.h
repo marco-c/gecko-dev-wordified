@@ -359,15 +359,6 @@ aAddonId
 )
 override
 ;
-nsresult
-GetOriginNoSuffixInternal
-(
-nsACString
-&
-aOrigin
-)
-override
-;
 static
 already_AddRefed
 <
