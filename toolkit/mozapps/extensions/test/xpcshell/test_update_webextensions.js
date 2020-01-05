@@ -290,6 +290,7 @@ cache
 -
 entry
 "
+null
 )
 ;
 return
@@ -1579,6 +1580,7 @@ cache
 -
 entry
 "
+null
 )
 ;
 if

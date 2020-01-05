@@ -773,6 +773,7 @@ notifyObservers
 (
 null
 topic
+null
 )
 ;
 service
@@ -781,6 +782,7 @@ notifyObservers
 (
 null
 topic
+null
 )
 ;
 G_Assert

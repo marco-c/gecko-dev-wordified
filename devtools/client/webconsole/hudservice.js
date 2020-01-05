@@ -3457,6 +3457,7 @@ console
 -
 destroyed
 "
+null
 )
 ;
 this

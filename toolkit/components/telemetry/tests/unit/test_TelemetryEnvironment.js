@@ -5977,6 +5977,7 @@ notifyObservers
 (
 null
 DISTRIBUTION_CUSTOMIZATION_COMPLETE_TOPIC
+null
 )
 ;
 environmentData
@@ -7263,6 +7264,7 @@ notifyObservers
 (
 null
 PLUGIN_UPDATED_TOPIC
+null
 )
 ;
 yield
@@ -7467,6 +7469,7 @@ notifyObservers
 (
 null
 PLUGIN_UPDATED_TOPIC
+null
 )
 ;
 yield

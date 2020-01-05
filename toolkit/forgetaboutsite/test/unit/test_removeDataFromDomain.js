@@ -3423,6 +3423,7 @@ quit
 -
 application
 "
+null
 )
 ;
 do_test_finished

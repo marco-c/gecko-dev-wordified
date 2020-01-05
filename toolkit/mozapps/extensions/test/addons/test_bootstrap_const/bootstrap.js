@@ -44,6 +44,8 @@ addon
 -
 install
 "
+"
+"
 )
 ;
 }

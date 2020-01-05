@@ -288,6 +288,7 @@ cache
 -
 entry
 "
+null
 )
 ;
 xpi

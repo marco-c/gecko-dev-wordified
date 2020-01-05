@@ -1842,6 +1842,7 @@ network
 .
 info
 TOPIC_INTERFACE_REGISTERED
+null
 )
 ;
 debug
@@ -3251,6 +3252,7 @@ network
 .
 info
 TOPIC_INTERFACE_UNREGISTERED
+null
 )
 ;
 debug
@@ -5387,6 +5389,7 @@ this
 .
 activeNetworkInfo
 TOPIC_ACTIVE_CHANGED
+null
 )
 ;
 }
@@ -5780,6 +5783,7 @@ this
 .
 activeNetworkInfo
 TOPIC_ACTIVE_CHANGED
+null
 )
 ;
 }

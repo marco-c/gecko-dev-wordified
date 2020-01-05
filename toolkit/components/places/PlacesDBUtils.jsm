@@ -479,6 +479,7 @@ notifyObservers
 (
 null
 FINISHED_MAINTENANCE_TOPIC
+null
 )
 ;
 }

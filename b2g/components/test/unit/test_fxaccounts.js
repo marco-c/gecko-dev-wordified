@@ -326,6 +326,7 @@ wrappedJSObject
 aMsg
 }
 aEventName
+null
 )
 ;
 }
