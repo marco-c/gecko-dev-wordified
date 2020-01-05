@@ -722,6 +722,10 @@ update_href
 (
 &
 self
+url
+:
+&
+Url
 )
 {
 self
@@ -745,28 +749,16 @@ atom
 href
 "
 )
-self
-.
+DOMString
+:
+:
+from
+(
 url
-.
-borrow
-(
-)
-.
-as_ref
-(
-)
-.
-unwrap
-(
-)
 .
 as_str
 (
 )
-.
-into
-(
 )
 )
 ;
@@ -1489,6 +1481,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -1712,6 +1705,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -1909,6 +1903,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -2340,6 +2335,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -2537,6 +2533,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -2755,6 +2752,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -2941,6 +2939,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -3152,6 +3151,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
@@ -3358,6 +3358,7 @@ self
 .
 update_href
 (
+url
 )
 ;
 }
