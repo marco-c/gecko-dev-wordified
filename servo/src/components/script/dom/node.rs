@@ -323,7 +323,6 @@ error
 :
 :
 {
-ErrorResult
 Fallible
 NotFound
 HierarchyRequest
@@ -11876,9 +11875,6 @@ Option
 DOMString
 >
 )
--
->
-ErrorResult
 {
 match
 self
@@ -11903,11 +11899,8 @@ val
 _
 =
 >
-Ok
-(
-(
-)
-)
+{
+}
 }
 }
 /
@@ -12121,9 +12114,6 @@ Option
 DOMString
 >
 )
--
->
-ErrorResult
 {
 let
 value
@@ -12325,11 +12315,6 @@ DocumentNodeTypeId
 {
 }
 }
-Ok
-(
-(
-)
-)
 }
 /
 /
