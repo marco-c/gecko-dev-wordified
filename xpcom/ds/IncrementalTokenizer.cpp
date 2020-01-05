@@ -160,6 +160,8 @@ IncrementalTokenizer
 IncrementalTokenizer
 (
 Consumer
+&
+&
 aConsumer
 const
 char
@@ -201,7 +203,10 @@ mInputCursor
 )
 mConsumer
 (
+Move
+(
 aConsumer
+)
 )
 {
 mInputFinished

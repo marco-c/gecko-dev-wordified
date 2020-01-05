@@ -8534,7 +8534,9 @@ uint32_t
 >
 &
 aGrowableTracks
+const
 FitContentClamper
+&
 aFitContentClamper
 )
 const
@@ -9155,7 +9157,9 @@ TrackSize
 :
 StateBits
 aSelector
+const
 FitContentClamper
+&
 aFitContentClamper
 )
 const

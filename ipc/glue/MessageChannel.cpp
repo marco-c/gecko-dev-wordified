@@ -7374,6 +7374,7 @@ MessageChannel
 :
 PeekMessages
 (
+const
 std
 :
 :
@@ -7387,6 +7388,7 @@ Message
 aMsg
 )
 >
+&
 aInvoke
 )
 {

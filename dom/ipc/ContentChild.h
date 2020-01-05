@@ -3632,7 +3632,9 @@ AnonymousTemporaryFileCallback
 nsresult
 AsyncOpenAnonymousTemporaryFile
 (
+const
 AnonymousTemporaryFileCallback
+&
 aCallback
 )
 ;
