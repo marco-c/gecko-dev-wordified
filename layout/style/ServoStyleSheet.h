@@ -186,9 +186,6 @@ css
 class
 Loader
 ;
-class
-Rule
-;
 }
 /
 *
@@ -447,10 +444,7 @@ ImportRule
 /
 version
 .
-css
-:
-:
-Rule
+nsIDOMCSSRule
 *
 GetDOMOwnerRule
 (
