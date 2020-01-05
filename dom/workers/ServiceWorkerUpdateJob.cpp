@@ -2138,6 +2138,12 @@ mRegistration
 mScope
 mScriptSpec
 aNewCacheName
+mRegistration
+-
+>
+GetLoadFlags
+(
+)
 )
 ;
 mRegistration

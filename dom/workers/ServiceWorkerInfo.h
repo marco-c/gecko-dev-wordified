@@ -241,6 +241,10 @@ const
 nsString
 mCacheName
 ;
+const
+nsLoadFlags
+mLoadFlags
+;
 ServiceWorkerState
 mState
 ;
@@ -469,6 +473,8 @@ const
 nsAString
 &
 aCacheName
+nsLoadFlags
+aLoadFlags
 )
 ;
 ServiceWorkerState
@@ -503,6 +509,16 @@ const
 {
 return
 mCacheName
+;
+}
+nsLoadFlags
+GetLoadFlags
+(
+)
+const
+{
+return
+mLoadFlags
 ;
 }
 uint64_t
