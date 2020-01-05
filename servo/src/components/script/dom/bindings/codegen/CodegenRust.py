@@ -6673,7 +6673,6 @@ CGGeneric
 (
 "
 let
-mut
 "
 )
             
@@ -16987,56 +16986,6 @@ arguments
 :
             
 #
-This
-is
-a
-workaround
-for
-a
-bug
-in
-Apple
-'
-s
-clang
-.
-            
-if
-a
-.
-type
-.
-isObject
-(
-)
-and
-not
-a
-.
-type
-.
-nullable
-(
-)
-and
-not
-a
-.
-optional
-:
-                
-name
-=
-"
-(
-JSObject
-&
-)
-"
-+
-name
-            
-#
 XXXjdm
 Perhaps
 we
@@ -17080,7 +17029,6 @@ name
 =
 "
 &
-mut
 "
 +
 name
@@ -19711,7 +19659,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -20251,7 +20198,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -20910,7 +20856,6 @@ n
                              
 "
 let
-mut
 this
 =
 this
@@ -28992,7 +28937,6 @@ n
                    
 "
 let
-mut
 this
 =
 this
@@ -29549,7 +29493,6 @@ n
                         
 "
 let
-mut
 this
 =
 this
@@ -30007,7 +29950,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -30251,7 +30193,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -30372,7 +30313,6 @@ n
                     
 "
 let
-mut
 this
 =
 this
@@ -30710,7 +30650,6 @@ n
                        
 "
 let
-mut
 this
 =
 this
@@ -30878,7 +30817,6 @@ n
                      
 "
 let
-mut
 this
 =
 this
@@ -31353,7 +31291,6 @@ n
                                    
 "
 let
-mut
 this
 =
 this
@@ -31549,7 +31486,6 @@ n
                         
 "
 let
-mut
 this
 =
 this
