@@ -1420,6 +1420,11 @@ test_abort
 (
 )
 {
+const
+TIMESTAMP
+=
+1274380462
+;
 function
 handler
 (

@@ -346,6 +346,8 @@ headers
 )
 )
 {
+this
+.
 setHeader
 (
 k
