@@ -215,6 +215,9 @@ class
 nsIDocument
 ;
 class
+nsIEventTarget
+;
+class
 nsIOutputStream
 ;
 class
@@ -449,6 +452,9 @@ aPrincipal
 nsILoadGroup
 *
 aLoadGroup
+nsIEventTarget
+*
+aMainThreadEventTarget
 bool
 aIsTrackingFetch
 )
@@ -563,6 +569,12 @@ nsAutoPtr
 SRICheckDataVerifier
 >
 mSRIDataVerifier
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mMainThreadEventTarget
 ;
 SRIMetadata
 mSRIMetadata
