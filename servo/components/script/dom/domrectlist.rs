@@ -331,7 +331,6 @@ DOMRectList
 fn
 Length
 (
-&
 self
 )
 -
@@ -351,7 +350,6 @@ u32
 fn
 Item
 (
-&
 self
 index
 :
@@ -414,7 +412,6 @@ None
 fn
 IndexedGetter
 (
-&
 self
 index
 :

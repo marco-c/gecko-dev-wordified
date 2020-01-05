@@ -745,7 +745,6 @@ HTMLObjectElement
 fn
 Validity
 (
-&
 self
 )
 -
@@ -760,7 +759,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .

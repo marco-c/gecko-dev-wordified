@@ -465,7 +465,6 @@ children
 fn
 Children
 (
-&
 self
 )
 -
@@ -480,7 +479,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -500,7 +498,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -528,7 +525,6 @@ queryselector
 fn
 QuerySelector
 (
-&
 self
 selectors
 :
@@ -560,7 +556,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -594,7 +589,6 @@ queryselectorall
 fn
 QuerySelectorAll
 (
-&
 self
 selectors
 :
@@ -623,7 +617,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

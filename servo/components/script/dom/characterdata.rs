@@ -355,7 +355,6 @@ CharacterData
 fn
 Data
 (
-&
 self
 )
 -
@@ -381,7 +380,6 @@ clone
 fn
 SetData
 (
-&
 self
 arg
 :
@@ -415,7 +413,6 @@ Ok
 fn
 Length
 (
-&
 self
 )
 -
@@ -443,7 +440,6 @@ u32
 fn
 SubstringData
 (
-&
 self
 offset
 :
@@ -495,7 +491,6 @@ to_string
 fn
 AppendData
 (
-&
 self
 arg
 :
@@ -535,7 +530,6 @@ Ok
 fn
 InsertData
 (
-&
 self
 offset
 :
@@ -560,7 +554,6 @@ arg
 fn
 DeleteData
 (
-&
 self
 offset
 :
@@ -590,7 +583,6 @@ to_string
 fn
 ReplaceData
 (
-&
 self
 offset
 :
@@ -794,7 +786,6 @@ remove
 fn
 Remove
 (
-&
 self
 )
 {
@@ -811,7 +802,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

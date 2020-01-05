@@ -388,8 +388,6 @@ new
 (
 data
 *
-&
-*
 document
 )
 )

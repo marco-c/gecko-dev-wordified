@@ -385,7 +385,6 @@ HTMLDataListElement
 fn
 Options
 (
-&
 self
 )
 -
@@ -445,7 +444,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

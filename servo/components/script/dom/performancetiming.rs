@@ -276,7 +276,6 @@ PerformanceTiming
 fn
 NavigationStart
 (
-&
 self
 )
 -
@@ -295,7 +294,6 @@ PerformanceTimingHelpers
 fn
 NavigationStartPrecise
 (
-&
 self
 )
 -
@@ -320,7 +318,6 @@ PerformanceTiming
 fn
 NavigationStartPrecise
 (
-&
 self
 )
 -

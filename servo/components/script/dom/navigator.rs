@@ -271,7 +271,6 @@ Navigator
 fn
 Product
 (
-&
 self
 )
 -
@@ -288,7 +287,6 @@ Product
 fn
 TaintEnabled
 (
-&
 self
 )
 -
@@ -305,7 +303,6 @@ TaintEnabled
 fn
 AppName
 (
-&
 self
 )
 -
@@ -322,7 +319,6 @@ AppName
 fn
 AppCodeName
 (
-&
 self
 )
 -
@@ -339,7 +335,6 @@ AppCodeName
 fn
 Platform
 (
-&
 self
 )
 -

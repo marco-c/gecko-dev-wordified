@@ -1073,7 +1073,6 @@ DedicatedWorkerGlobalScope
 fn
 PostMessage
 (
-&
 self
 cx
 :
@@ -1166,7 +1165,6 @@ nbytes
 fn
 GetOnmessage
 (
-&
 self
 )
 -
@@ -1189,7 +1187,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1205,7 +1202,6 @@ message
 fn
 SetOnmessage
 (
-&
 self
 listener
 :
@@ -1228,7 +1224,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1249,7 +1244,6 @@ PrivateDedicatedWorkerGlobalScopeHelpers
 fn
 delayed_release_worker
 (
-&
 self
 )
 ;
@@ -1271,7 +1265,6 @@ DedicatedWorkerGlobalScope
 fn
 delayed_release_worker
 (
-&
 self
 )
 {

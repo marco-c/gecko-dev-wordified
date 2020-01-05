@@ -1350,7 +1350,6 @@ Url
 fn
 quirks_mode
 (
-&
 self
 )
 -
@@ -1360,7 +1359,6 @@ QuirksMode
 fn
 set_quirks_mode
 (
-&
 self
 mode
 :
@@ -1370,7 +1368,6 @@ QuirksMode
 fn
 set_last_modified
 (
-&
 self
 value
 :
@@ -1380,7 +1377,6 @@ DOMString
 fn
 set_encoding_name
 (
-&
 self
 name
 :
@@ -1390,14 +1386,12 @@ DOMString
 fn
 content_changed
 (
-&
 self
 )
 ;
 fn
 damage_and_reflow
 (
-&
 self
 damage
 :
@@ -1407,14 +1401,12 @@ DocumentDamageLevel
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 ;
 fn
 unregister_named_element
 (
-&
 self
 to_unregister
 :
@@ -1430,7 +1422,6 @@ DOMString
 fn
 register_named_element
 (
-&
 self
 element
 :
@@ -1446,7 +1437,6 @@ DOMString
 fn
 load_anchor_href
 (
-&
 self
 href
 :
@@ -1496,7 +1486,6 @@ url
 fn
 quirks_mode
 (
-&
 self
 )
 -
@@ -1518,7 +1507,6 @@ get
 fn
 set_quirks_mode
 (
-&
 self
 mode
 :
@@ -1542,7 +1530,6 @@ mode
 fn
 set_last_modified
 (
-&
 self
 value
 :
@@ -1571,7 +1558,6 @@ value
 fn
 set_encoding_name
 (
-&
 self
 name
 :
@@ -1597,7 +1583,6 @@ name
 fn
 content_changed
 (
-&
 self
 )
 {
@@ -1612,7 +1597,6 @@ ContentChangedDocumentDamage
 fn
 damage_and_reflow
 (
-&
 self
 damage
 :
@@ -1636,7 +1620,6 @@ damage
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 {
@@ -1674,7 +1657,6 @@ document
 fn
 unregister_named_element
 (
-&
 self
 to_unregister
 :
@@ -1818,7 +1800,6 @@ id
 fn
 register_named_element
 (
-&
 self
 element
 :
@@ -2141,7 +2122,6 @@ elements
 fn
 load_anchor_href
 (
-&
 self
 href
 :
@@ -2688,8 +2668,6 @@ node
 set_owner_doc
 (
 *
-&
-*
 document
 )
 ;
@@ -2698,8 +2676,6 @@ Temporary
 :
 from_rooted
 (
-*
-&
 *
 document
 )
@@ -2744,7 +2720,6 @@ PrivateDocumentHelpers
 fn
 createNodeList
 (
-&
 self
 callback
 :
@@ -2770,7 +2745,6 @@ NodeList
 fn
 get_html_element
 (
-&
 self
 )
 -
@@ -2801,7 +2775,6 @@ Document
 fn
 createNodeList
 (
-&
 self
 callback
 :
@@ -2935,7 +2908,6 @@ nodes
 fn
 get_html_element
 (
-&
 self
 )
 -
@@ -3061,7 +3033,6 @@ implementation
 fn
 Implementation
 (
-&
 self
 )
 -
@@ -3097,7 +3068,6 @@ DOMImplementation
 :
 new
 (
-*
 self
 )
 )
@@ -3149,7 +3119,6 @@ url
 fn
 URL
 (
-&
 self
 )
 -
@@ -3189,7 +3158,6 @@ documenturi
 fn
 DocumentURI
 (
-&
 self
 )
 -
@@ -3225,7 +3193,6 @@ compatmode
 fn
 CompatMode
 (
-&
 self
 )
 -
@@ -3292,7 +3259,6 @@ characterset
 fn
 CharacterSet
 (
-&
 self
 )
 -
@@ -3342,7 +3308,6 @@ content_type
 fn
 ContentType
 (
-&
 self
 )
 -
@@ -3380,7 +3345,6 @@ doctype
 fn
 GetDoctype
 (
-&
 self
 )
 -
@@ -3406,7 +3370,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -3489,7 +3452,6 @@ documentelement
 fn
 GetDocumentElement
 (
-&
 self
 )
 -
@@ -3515,7 +3477,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -3566,7 +3527,6 @@ getelementsbytagname
 fn
 GetElementsByTagName
 (
-&
 self
 tag_name
 :
@@ -3602,7 +3562,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 tag_name
@@ -3631,7 +3590,6 @@ getelementsbytagnamens
 fn
 GetElementsByTagNameNS
 (
-&
 self
 maybe_ns
 :
@@ -3673,7 +3631,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 tag_name
@@ -3703,7 +3660,6 @@ getelementsbyclassname
 fn
 GetElementsByClassName
 (
-&
 self
 classes
 :
@@ -3739,7 +3695,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 classes
@@ -3768,7 +3723,6 @@ getelementbyid
 fn
 GetElementById
 (
-&
 self
 id
 :
@@ -3859,7 +3813,6 @@ createelement
 fn
 CreateElement
 (
-&
 self
 local_name
 :
@@ -3929,7 +3882,6 @@ namespace
 :
 :
 HTML
-*
 self
 )
 )
@@ -3957,7 +3909,6 @@ createelementns
 fn
 CreateElementNS
 (
-&
 self
 namespace
 :
@@ -4345,7 +4296,6 @@ to_string
 (
 )
 ns
-*
 self
 )
 )
@@ -4378,7 +4328,6 @@ to_string
 (
 )
 )
-*
 self
 )
 )
@@ -4407,7 +4356,6 @@ createdocumentfragment
 fn
 CreateDocumentFragment
 (
-&
 self
 )
 -
@@ -4422,7 +4370,6 @@ DocumentFragment
 :
 new
 (
-*
 self
 )
 }
@@ -4449,7 +4396,6 @@ createtextnode
 fn
 CreateTextNode
 (
-&
 self
 data
 :
@@ -4468,7 +4414,6 @@ Text
 new
 (
 data
-*
 self
 )
 }
@@ -4495,7 +4440,6 @@ createcomment
 fn
 CreateComment
 (
-&
 self
 data
 :
@@ -4514,7 +4458,6 @@ Comment
 new
 (
 data
-*
 self
 )
 }
@@ -4541,7 +4484,6 @@ createprocessinginstruction
 fn
 CreateProcessingInstruction
 (
-&
 self
 target
 :
@@ -4626,7 +4568,6 @@ new
 (
 target
 data
-*
 self
 )
 )
@@ -4654,7 +4595,6 @@ importnode
 fn
 ImportNode
 (
-&
 self
 node
 :
@@ -4726,7 +4666,6 @@ clone
 node
 Some
 (
-*
 self
 )
 clone_children
@@ -4756,7 +4695,6 @@ adoptnode
 fn
 AdoptNode
 (
-&
 self
 node
 :
@@ -4805,7 +4743,6 @@ Node
 adopt
 (
 node
-*
 self
 )
 ;
@@ -4848,7 +4785,6 @@ createevent
 fn
 CreateEvent
 (
-&
 self
 interface
 :
@@ -5028,7 +4964,6 @@ lastmodified
 fn
 LastModified
 (
-&
 self
 )
 -
@@ -5113,7 +5048,6 @@ createrange
 fn
 CreateRange
 (
-&
 self
 )
 -
@@ -5128,7 +5062,6 @@ Range
 :
 new
 (
-*
 self
 )
 }
@@ -5155,7 +5088,6 @@ createtreewalker
 fn
 CreateTreeWalker
 (
-&
 self
 root
 :
@@ -5185,7 +5117,6 @@ TreeWalker
 :
 new
 (
-*
 self
 root
 whatToShow
@@ -5221,7 +5152,6 @@ title
 fn
 Title
 (
-&
 self
 )
 -
@@ -5432,7 +5362,6 @@ title
 fn
 SetTitle
 (
-&
 self
 title
 :
@@ -5646,7 +5575,6 @@ title
 to_string
 (
 )
-*
 self
 )
 .
@@ -5780,7 +5708,6 @@ head
 fn
 GetHead
 (
-&
 self
 )
 -
@@ -5916,7 +5843,6 @@ body
 fn
 GetBody
 (
-&
 self
 )
 -
@@ -6065,7 +5991,6 @@ body
 fn
 SetBody
 (
-&
 self
 new_body
 :
@@ -6410,7 +6335,6 @@ getelementsbyname
 fn
 GetElementsByName
 (
-&
 self
 name
 :
@@ -6508,7 +6432,6 @@ as_slice
 fn
 Images
 (
-&
 self
 )
 -
@@ -6550,7 +6473,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6607,7 +6529,6 @@ clone
 fn
 Embeds
 (
-&
 self
 )
 -
@@ -6649,7 +6570,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6706,7 +6626,6 @@ clone
 fn
 Plugins
 (
-&
 self
 )
 -
@@ -6725,7 +6644,6 @@ Embeds
 fn
 Links
 (
-&
 self
 )
 -
@@ -6767,7 +6685,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6824,7 +6741,6 @@ clone
 fn
 Forms
 (
-&
 self
 )
 -
@@ -6866,7 +6782,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6923,7 +6838,6 @@ clone
 fn
 Scripts
 (
-&
 self
 )
 -
@@ -6965,7 +6879,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7022,7 +6935,6 @@ clone
 fn
 Anchors
 (
-&
 self
 )
 -
@@ -7064,7 +6976,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7121,7 +7032,6 @@ clone
 fn
 Applets
 (
-&
 self
 )
 -
@@ -7176,7 +7086,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7233,7 +7142,6 @@ clone
 fn
 Location
 (
-&
 self
 )
 -
@@ -7283,7 +7191,6 @@ children
 fn
 Children
 (
-&
 self
 )
 -
@@ -7316,7 +7223,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -7344,7 +7250,6 @@ queryselector
 fn
 QuerySelector
 (
-&
 self
 selectors
 :
@@ -7376,7 +7281,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7410,7 +7314,6 @@ queryselectorall
 fn
 QuerySelectorAll
 (
-&
 self
 selectors
 :
@@ -7439,7 +7342,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7453,7 +7355,6 @@ selectors
 fn
 GetOnclick
 (
-&
 self
 )
 -
@@ -7476,7 +7377,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7492,7 +7392,6 @@ click
 fn
 SetOnclick
 (
-&
 self
 listener
 :
@@ -7515,7 +7414,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7532,7 +7430,6 @@ listener
 fn
 GetOnload
 (
-&
 self
 )
 -
@@ -7555,7 +7452,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -7571,7 +7467,6 @@ load
 fn
 SetOnload
 (
-&
 self
 listener
 :
@@ -7594,7 +7489,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;

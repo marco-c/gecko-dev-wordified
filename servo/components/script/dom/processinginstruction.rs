@@ -350,7 +350,6 @@ ProcessingInstruction
 fn
 Target
 (
-&
 self
 )
 -

@@ -388,7 +388,6 @@ PrivateDOMTokenListHelpers
 fn
 attribute
 (
-&
 self
 )
 -
@@ -408,7 +407,6 @@ check_token_exceptions
 a
 >
 (
-&
 self
 token
 :
@@ -445,7 +443,6 @@ DOMTokenList
 fn
 attribute
 (
-&
 self
 )
 -
@@ -490,7 +487,6 @@ check_token_exceptions
 a
 >
 (
-&
 self
 token
 :
@@ -601,7 +597,6 @@ length
 fn
 Length
 (
-&
 self
 )
 -
@@ -683,7 +678,6 @@ item
 fn
 Item
 (
-&
 self
 index
 :
@@ -759,7 +753,6 @@ to_string
 fn
 IndexedGetter
 (
-&
 self
 index
 :
@@ -821,7 +814,6 @@ contains
 fn
 Contains
 (
-&
 self
 token
 :

@@ -674,7 +674,6 @@ code
 fn
 Code
 (
-&
 self
 )
 -
@@ -739,7 +738,6 @@ names
 fn
 Name
 (
-&
 self
 )
 -
@@ -777,7 +775,6 @@ names
 fn
 Message
 (
-&
 self
 )
 -

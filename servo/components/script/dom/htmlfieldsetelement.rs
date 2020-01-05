@@ -456,7 +456,6 @@ elements
 fn
 Elements
 (
-&
 self
 )
 -
@@ -597,7 +596,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -633,7 +631,6 @@ filter
 fn
 Validity
 (
-&
 self
 )
 -
@@ -648,7 +645,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -713,7 +709,6 @@ disabled
 fn
 SetDisabled
 (
-&
 self
 disabled
 :
@@ -733,7 +728,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

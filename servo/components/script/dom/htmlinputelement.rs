@@ -442,7 +442,6 @@ disabled
 fn
 SetDisabled
 (
-&
 self
 disabled
 :
@@ -462,7 +461,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

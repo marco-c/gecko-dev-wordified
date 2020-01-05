@@ -503,7 +503,6 @@ createdocumenttype
 fn
 CreateDocumentType
 (
-&
 self
 qname
 :
@@ -625,7 +624,6 @@ createdocument
 fn
 CreateDocument
 (
-&
 self
 namespace
 :
@@ -940,7 +938,6 @@ createhtmldocument
 fn
 CreateHTMLDocument
 (
-&
 self
 title
 :

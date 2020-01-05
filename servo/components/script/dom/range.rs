@@ -354,7 +354,6 @@ detach
 fn
 Detach
 (
-&
 self
 )
 {

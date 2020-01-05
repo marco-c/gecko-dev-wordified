@@ -289,7 +289,6 @@ Performance
 fn
 Timing
 (
-&
 self
 )
 -
@@ -316,7 +315,6 @@ clone
 fn
 Now
 (
-&
 self
 )
 -

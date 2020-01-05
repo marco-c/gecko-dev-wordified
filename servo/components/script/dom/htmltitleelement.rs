@@ -403,7 +403,6 @@ text
 fn
 Text
 (
-&
 self
 )
 -
@@ -423,7 +422,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -525,7 +523,6 @@ text
 fn
 SetText
 (
-&
 self
 value
 :
@@ -545,7 +542,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

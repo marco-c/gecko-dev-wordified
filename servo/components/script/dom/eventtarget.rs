@@ -682,12 +682,7 @@ EventTargetHelpers
 {
 fn
 dispatch_event_with_target
-<
-'
-a
->
 (
-&
 self
 target
 :
@@ -695,8 +690,6 @@ Option
 <
 JSRef
 <
-'
-a
 EventTarget
 >
 >
@@ -717,7 +710,6 @@ bool
 fn
 set_inline_event_listener
 (
-&
 self
 ty
 :
@@ -733,7 +725,6 @@ EventListener
 fn
 get_inline_event_listener
 (
-&
 self
 ty
 :
@@ -749,7 +740,6 @@ EventListener
 fn
 set_event_handler_uncompiled
 (
-&
 self
 cx
 :
@@ -781,7 +771,6 @@ T
 CallbackContainer
 >
 (
-&
 self
 ty
 :
@@ -803,7 +792,6 @@ T
 CallbackContainer
 >
 (
-&
 self
 ty
 :
@@ -820,7 +808,6 @@ T
 fn
 has_handlers
 (
-&
 self
 )
 -
@@ -844,12 +831,7 @@ EventTarget
 {
 fn
 dispatch_event_with_target
-<
-'
-b
->
 (
-&
 self
 target
 :
@@ -857,8 +839,6 @@ Option
 <
 JSRef
 <
-'
-b
 EventTarget
 >
 >
@@ -922,7 +902,6 @@ Ok
 (
 dispatch_event
 (
-*
 self
 target
 event
@@ -932,7 +911,6 @@ event
 fn
 set_inline_event_listener
 (
-&
 self
 ty
 :
@@ -1100,7 +1078,6 @@ unwrap
 fn
 get_inline_event_listener
 (
-&
 self
 ty
 :
@@ -1196,7 +1173,6 @@ get_listener
 fn
 set_event_handler_uncompiled
 (
-&
 self
 cx
 :
@@ -1482,7 +1458,6 @@ T
 CallbackContainer
 >
 (
-&
 self
 ty
 :
@@ -1540,7 +1515,6 @@ T
 CallbackContainer
 >
 (
-&
 self
 ty
 :
@@ -1593,7 +1567,6 @@ callback
 fn
 has_handlers
 (
-&
 self
 )
 -
@@ -1635,7 +1608,6 @@ EventTarget
 fn
 AddEventListener
 (
-&
 self
 ty
 :
@@ -1759,7 +1731,6 @@ _
 fn
 RemoveEventListener
 (
-&
 self
 ty
 :
@@ -1896,7 +1867,6 @@ _
 fn
 DispatchEvent
 (
-&
 self
 event
 :

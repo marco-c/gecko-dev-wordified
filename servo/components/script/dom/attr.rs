@@ -815,7 +815,6 @@ Attr
 fn
 LocalName
 (
-&
 self
 )
 -
@@ -839,7 +838,6 @@ to_string
 fn
 Value
 (
-&
 self
 )
 -
@@ -863,7 +861,6 @@ to_string
 fn
 SetValue
 (
-&
 self
 value
 :
@@ -916,7 +913,6 @@ value
 fn
 Name
 (
-&
 self
 )
 -
@@ -938,7 +934,6 @@ to_string
 fn
 GetNamespaceURI
 (
-&
 self
 )
 -
@@ -978,7 +973,6 @@ to_string
 fn
 GetPrefix
 (
-&
 self
 )
 -
@@ -1004,7 +998,6 @@ AttrHelpers
 fn
 set_value
 (
-&
 self
 set_type
 :
@@ -1057,7 +1050,6 @@ Atom
 fn
 summarize
 (
-&
 self
 )
 -
@@ -1082,7 +1074,6 @@ Attr
 fn
 set_value
 (
-&
 self
 set_type
 :
@@ -1285,7 +1276,6 @@ local_name
 fn
 summarize
 (
-&
 self
 )
 -
