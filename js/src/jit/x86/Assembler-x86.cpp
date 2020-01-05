@@ -443,6 +443,7 @@ offset_
 ;
 public
 :
+explicit
 RelocationIterator
 (
 CompactBufferReader

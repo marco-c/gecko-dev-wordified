@@ -1987,6 +1987,7 @@ bc
 ;
 public
 :
+explicit
 ScratchI32
 (
 BaseCompiler
@@ -2043,6 +2044,7 @@ false
 else
 public
 :
+explicit
 ScratchI32
 (
 BaseCompiler

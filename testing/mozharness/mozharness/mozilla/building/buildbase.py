@@ -2871,6 +2871,25 @@ py
 '
         
 '
+cross
+-
+universal
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_cross_universal
+.
+py
+'
+        
+'
 debug
 '
 :
