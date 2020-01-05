@@ -2081,7 +2081,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 nsAutoString
 refpol
@@ -2101,7 +2101,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 for
 (

@@ -7304,7 +7304,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 )
 mBlockAllMixedContent
 (
@@ -14039,7 +14039,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 rv
 =

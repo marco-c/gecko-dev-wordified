@@ -517,7 +517,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 allowThirdPartyFixup
 :
 true

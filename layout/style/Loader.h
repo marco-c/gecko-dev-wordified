@@ -2518,7 +2518,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 const
 nsAString
 &
@@ -3282,7 +3282,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 const
 nsAString
 &
