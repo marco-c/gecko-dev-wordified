@@ -290,10 +290,6 @@ new
 LocalizationHelper
 (
 "
-chrome
-:
-/
-/
 devtools
 -
 shared
