@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-RestyleManagerBase
+RestyleManager
 .
 h
 "
