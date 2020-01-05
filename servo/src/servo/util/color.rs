@@ -88,7 +88,7 @@ import
 cmp
 :
 :
-eq
+Eq
 ;
 enum
 Color
@@ -111,7 +111,7 @@ float
 impl
 Color
 :
-eq
+Eq
 {
 pure
 fn
