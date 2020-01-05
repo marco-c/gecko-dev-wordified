@@ -541,6 +541,17 @@ size
 )
 )
 ;
+if
+(
+varyingRows
+>
+maxVaryingVectors
+)
+{
+return
+false
+;
+}
 /
 /
 "
