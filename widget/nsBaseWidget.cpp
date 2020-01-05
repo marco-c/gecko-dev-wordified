@@ -8619,8 +8619,6 @@ result
 )
 ;
 }
-else
-{
 WidgetWheelEvent
 *
 wheelEvent
@@ -8672,7 +8670,6 @@ MOZ_CRASH
 (
 )
 ;
-}
 }
 nsEventStatus
 status
