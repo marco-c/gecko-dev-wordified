@@ -209,13 +209,6 @@ HashSet
 <
 >
 (
-)
-;
-Collections
-.
-addAll
-(
-aboutUrls
 AboutPages
 .
 DEFAULT_ICON_PAGES
