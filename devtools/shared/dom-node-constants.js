@@ -62,6 +62,12 @@ strict
 "
 ;
 /
+*
+globals
+define
+*
+/
+/
 /
 Make
 this

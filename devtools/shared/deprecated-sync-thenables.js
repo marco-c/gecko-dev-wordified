@@ -75,6 +75,13 @@ INSTEAD
 .
 *
 /
+/
+*
+eslint
+-
+disable
+*
+/
 "
 use
 strict

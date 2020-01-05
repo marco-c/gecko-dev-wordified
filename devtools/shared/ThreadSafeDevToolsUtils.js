@@ -698,11 +698,6 @@ name
 return
 function
 (
-/
-*
-arguments
-*
-/
 )
 {
 try
@@ -898,6 +893,10 @@ catch
 ee
 )
 {
+/
+/
+Ignore
+.
 }
 /
 /
@@ -980,6 +979,10 @@ catch
 ee
 )
 {
+/
+/
+Ignore
+.
 }
 /
 /
@@ -2075,9 +2078,6 @@ resolutionValues
 )
 ;
 return
-deferred
-.
-promise
 ;
 }
 function

@@ -65,7 +65,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -595,14 +594,18 @@ catch
 e
 )
 {
+/
+/
+Ignore
+.
 }
 }
+else
+{
 /
 /
 Not
 B2G
-else
-{
 os
 =
 appInfo
@@ -1351,7 +1354,7 @@ Ci
 nsIToolkitProfileService
 )
 ;
-var
+let
 profiles
 =
 profservice
@@ -1398,8 +1401,6 @@ path
 )
 {
 return
-profile
-=
 profile
 .
 name
@@ -2118,9 +2119,6 @@ e
 )
 ;
 }
-let
-req
-=
 settingsService
 .
 createLock
@@ -2134,7 +2132,7 @@ name
 handle
 :
 (
-name
+_
 value
 )
 =
