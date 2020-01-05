@@ -749,8 +749,10 @@ CompositableHost
 *
 FindCompositable
 (
-uint64_t
-aId
+const
+CompositableHandle
+&
+aHandle
 )
 ;
 protected
