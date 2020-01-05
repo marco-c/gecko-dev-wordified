@@ -304,7 +304,6 @@ testURI
 )
 ;
 }
-;
 function
 openPrivateBrowsingModeByUI
 (
@@ -417,7 +416,6 @@ cmd
 )
 ;
 }
-;
 function
 testOnWindow
 (
@@ -502,7 +500,6 @@ aWin
 )
 ;
 }
-;
 /
 /
 this

@@ -179,7 +179,6 @@ mode
 )
 ;
 }
-;
 let
 testURI
 =

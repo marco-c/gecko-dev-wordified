@@ -313,7 +313,6 @@ removeCurrentTab
 )
 ;
 }
-;
 let
 win
 =
