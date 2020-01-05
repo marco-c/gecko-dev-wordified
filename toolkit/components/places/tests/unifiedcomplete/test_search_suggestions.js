@@ -103,13 +103,13 @@ suggestionsFn
 fn
 ;
 }
+async
 function
-*
 cleanUpSuggestions
 (
 )
 {
-yield
+await
 cleanup
 (
 )
@@ -131,8 +131,8 @@ null
 }
 add_task
 (
+async
 function
-*
 setUp
 (
 )
@@ -352,7 +352,7 @@ oldCurrentEngine
 let
 engine
 =
-yield
+await
 addTestEngine
 (
 ENGINE_NAME
@@ -372,8 +372,8 @@ engine
 ;
 add_task
 (
+async
 function
-*
 disabled_urlbarSuggestions
 (
 )
@@ -398,7 +398,7 @@ SUGGEST_ENABLED_PREF
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -435,7 +435,7 @@ true
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -445,8 +445,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 disabled_allSuggestions
 (
 )
@@ -471,7 +471,7 @@ SUGGEST_ENABLED_PREF
 false
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -508,7 +508,7 @@ true
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -518,8 +518,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 disabled_privateWindow
 (
 )
@@ -544,7 +544,7 @@ SUGGEST_ENABLED_PREF
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -584,7 +584,7 @@ true
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -594,8 +594,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 singleWordQuery
 (
 )
@@ -620,7 +620,7 @@ SUGGEST_ENABLED_PREF
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -759,7 +759,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -769,8 +769,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 multiWordQuery
 (
 )
@@ -795,7 +795,7 @@ SUGGEST_ENABLED_PREF
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -942,7 +942,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -952,8 +952,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 suffixMatch
 (
 )
@@ -1015,7 +1015,7 @@ searchStr
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1154,7 +1154,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -1164,8 +1164,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 queryIsNotASubstring
 (
 )
@@ -1199,7 +1199,7 @@ bbb
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1334,7 +1334,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -1344,8 +1344,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 restrictToken
 (
 )
@@ -1406,7 +1406,7 @@ search
 /
 suggestions
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1471,7 +1471,7 @@ bookmark
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -1525,7 +1525,7 @@ visit
 and
 bookmark
 .
-yield
+await
 check_autocomplete
 (
 {
@@ -1741,7 +1741,7 @@ only
 suggestions
 appear
 .
-yield
+await
 check_autocomplete
 (
 {
@@ -1895,7 +1895,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -1905,8 +1905,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 mixup_frecency
 (
 )
@@ -1957,7 +1957,7 @@ search
 /
 suggestions
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2183,7 +2183,7 @@ i
 +
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2345,7 +2345,7 @@ hi
 i
 }
 ;
-yield
+await
 addBookmark
 (
 {
@@ -2417,7 +2417,7 @@ visit
 and
 bookmark
 .
-yield
+await
 check_autocomplete
 (
 {
@@ -2830,7 +2830,7 @@ frecency
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -2840,8 +2840,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 prohibit_suggestions
 (
 )
@@ -2856,7 +2856,7 @@ SUGGEST_PREF
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3040,7 +3040,7 @@ localhost
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3108,7 +3108,7 @@ still
 get
 suggestions
 :
-yield
+await
 check_autocomplete
 (
 {
@@ -3332,7 +3332,7 @@ dns_first_for_single_words
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3388,7 +3388,7 @@ false
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3456,7 +3456,7 @@ still
 get
 suggestions
 :
-yield
+await
 check_autocomplete
 (
 {
@@ -3618,7 +3618,7 @@ dns_first_for_single_words
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3678,7 +3678,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3741,7 +3741,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3792,7 +3792,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3839,7 +3839,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3891,7 +3891,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3928,7 +3928,7 @@ true
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
@@ -3938,8 +3938,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 avoid_url_suggestions
 (
 )
@@ -4002,7 +4002,7 @@ s
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4092,7 +4092,7 @@ icon
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )
