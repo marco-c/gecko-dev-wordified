@@ -795,11 +795,7 @@ msg
 compositor_msg
 :
 :
-{
-EventResult
 LayerId
-ScriptToCompositorMsg
-}
 ;
 use
 msg
@@ -1001,6 +997,7 @@ script_traits
 {
 CompositorEvent
 ConstellationControlMsg
+EventResult
 InitialScriptState
 NewLayoutInfo
 }
@@ -1022,6 +1019,7 @@ script_traits
 :
 {
 ScriptTaskFactory
+ScriptToCompositorMsg
 TimerEvent
 TimerEventRequest
 TimerSource
