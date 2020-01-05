@@ -82,6 +82,10 @@ layers
 ;
 extern
 crate
+png
+;
+extern
+crate
 util
 ;
 extern
