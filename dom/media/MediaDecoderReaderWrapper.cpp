@@ -254,7 +254,7 @@ AsyncReadMetadata
 )
 -
 >
-Then
+ThenPromise
 (
 mOwnerThread
 __func__
@@ -269,11 +269,6 @@ MediaDecoderReaderWrapper
 :
 :
 OnMetadataNotRead
-)
--
->
-CompletionPromise
-(
 )
 ;
 }

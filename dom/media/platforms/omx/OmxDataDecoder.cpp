@@ -1415,7 +1415,7 @@ nullptr
 )
 -
 >
-Then
+ThenPromise
 (
 mOmxTaskQueue
 __func__
@@ -1476,12 +1476,7 @@ Shutdown
 )
 -
 >
-CompletionPromise
-(
-)
--
->
-Then
+ThenPromise
 (
 mOmxTaskQueue
 __func__
@@ -1650,11 +1645,6 @@ Shutdown
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 -
 >
@@ -4907,7 +4897,7 @@ nullptr
 )
 -
 >
-Then
+ThenPromise
 (
 mOmxTaskQueue
 __func__
@@ -5026,11 +5016,6 @@ __func__
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 -
 >
