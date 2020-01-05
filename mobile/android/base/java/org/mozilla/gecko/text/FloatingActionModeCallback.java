@@ -349,9 +349,11 @@ getId
 )
 )
 ;
-GeckoApp
+textSelection
 .
-getEventDispatcher
+geckoApp
+.
+getAppEventDispatcher
 (
 )
 .
