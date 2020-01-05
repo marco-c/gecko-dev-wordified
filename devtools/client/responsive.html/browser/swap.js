@@ -464,7 +464,7 @@ function
 {
 tab
 .
-isReponsiveDesignMode
+isResponsiveDesignMode
 =
 true
 ;
@@ -1313,7 +1313,7 @@ activateRemoteFrame
 delete
 tab
 .
-isReponsiveDesignMode
+isResponsiveDesignMode
 ;
 }
 }
