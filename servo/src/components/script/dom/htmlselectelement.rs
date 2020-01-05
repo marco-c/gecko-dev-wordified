@@ -78,10 +78,7 @@ bindings
 utils
 :
 :
-{
-DOMString
 ErrorResult
-}
 ;
 use
 dom
@@ -130,6 +127,15 @@ validitystate
 :
 :
 ValidityState
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

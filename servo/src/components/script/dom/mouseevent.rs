@@ -81,7 +81,6 @@ utils
 {
 ErrorResult
 Fallible
-DOMString
 }
 ;
 use
@@ -148,6 +147,15 @@ windowproxy
 :
 :
 WindowProxy
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

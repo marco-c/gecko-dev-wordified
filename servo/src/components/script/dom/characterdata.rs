@@ -75,9 +75,8 @@ utils
 :
 :
 {
-DOMString
-ErrorResult
 Fallible
+ErrorResult
 }
 ;
 use
@@ -115,6 +114,15 @@ node
 Node
 NodeTypeId
 }
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

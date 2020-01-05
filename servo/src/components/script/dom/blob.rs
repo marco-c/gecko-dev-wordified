@@ -67,7 +67,6 @@ utils
 :
 :
 {
-DOMString
 Reflectable
 Reflector
 reflect_dom_object
@@ -105,6 +104,15 @@ window
 :
 :
 Window
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 pub
 struct

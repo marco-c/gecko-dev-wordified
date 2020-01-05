@@ -113,9 +113,8 @@ utils
 :
 :
 {
-DOMString
-ErrorResult
 Fallible
+ErrorResult
 }
 ;
 use
@@ -135,6 +134,15 @@ uievent
 :
 :
 UIEvent
+;
+use
+servo_util
+:
+:
+str
+:
+:
+DOMString
 ;
 use
 geom
