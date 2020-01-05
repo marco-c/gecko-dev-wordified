@@ -146,6 +146,15 @@ algorithm
 #
 include
 "
+mozilla
+/
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
 nsCSSRuleProcessor
 .
 h

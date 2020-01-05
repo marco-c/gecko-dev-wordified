@@ -128,6 +128,17 @@ include
 "
 mozilla
 /
+css
+/
+Rule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleBackendType
 .
 h

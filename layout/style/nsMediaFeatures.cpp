@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

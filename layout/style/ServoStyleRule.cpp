@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+DeclarationBlockInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
