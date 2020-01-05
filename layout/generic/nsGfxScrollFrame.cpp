@@ -20367,6 +20367,14 @@ aCreateLayer
 |
 |
 isOverlayScrollbar
+|
+|
+gfxPrefs
+:
+:
+AlwaysLayerizeScrollbarTrackTestOnly
+(
+)
 ;
 nsDisplayListBuilder
 :
