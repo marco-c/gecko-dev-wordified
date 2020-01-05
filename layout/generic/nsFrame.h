@@ -4754,15 +4754,6 @@ aContent
 nullptr
 )
 ;
-mozilla
-:
-:
-WritingMode
-GetWritingModeDeferringToRootElem
-(
-)
-const
-;
 private
 :
 void
