@@ -226,6 +226,15 @@ use
 servo_msg
 :
 :
+constellation_msg
+:
+:
+PipelineExitType
+;
+use
+servo_msg
+:
+:
 compositor_msg
 :
 :
@@ -499,6 +508,7 @@ closed
 ExitPipelineMsg
 (
 PipelineId
+PipelineExitType
 )
 /
 /

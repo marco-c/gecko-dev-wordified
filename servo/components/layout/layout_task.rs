@@ -439,9 +439,9 @@ constellation_msg
 :
 {
 ConstellationChan
-PipelineId
 Failure
 FailureMsg
+PipelineExitType
 }
 ;
 use
@@ -452,6 +452,7 @@ constellation_msg
 :
 :
 {
+PipelineId
 SetCursorMsg
 }
 ;
@@ -2399,6 +2400,9 @@ layout_traits
 :
 :
 ExitNowMsg
+(
+exit_type
+)
 =
 >
 {
@@ -2410,6 +2414,9 @@ Msg
 :
 :
 ExitNow
+(
+exit_type
+)
 possibly_locked_rw_data
 )
 }
@@ -2915,6 +2922,9 @@ Msg
 :
 :
 ExitNow
+(
+exit_type
+)
 =
 >
 {
@@ -2934,6 +2944,7 @@ self
 exit_now
 (
 possibly_locked_rw_data
+exit_type
 )
 ;
 return
@@ -3066,6 +3077,9 @@ Msg
 :
 :
 ExitNow
+(
+exit_type
+)
 =
 >
 {
@@ -3088,6 +3102,7 @@ self
 exit_now
 (
 possibly_locked_rw_data
+exit_type
 )
 ;
 break
@@ -3170,6 +3185,9 @@ a
 LayoutTaskData
 >
 >
+exit_type
+:
+PipelineExitType
 )
 {
 let
@@ -3247,6 +3265,7 @@ Some
 (
 response_chan
 )
+exit_type
 )
 )
 ;
