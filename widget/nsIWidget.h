@@ -6947,7 +6947,8 @@ widget
 *
 *
 /
-NS_IMETHOD
+virtual
+void
 HideWindowChrome
 (
 bool

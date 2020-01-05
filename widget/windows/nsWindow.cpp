@@ -21476,7 +21476,7 @@ chrome
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -21526,7 +21526,6 @@ context
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -21537,7 +21536,6 @@ mHideChrome
 aShouldHide
 )
 return
-NS_OK
 ;
 DWORD_PTR
 style
@@ -21684,9 +21682,6 @@ hwnd
 GWL_EXSTYLE
 exStyle
 )
-;
-return
-NS_OK
 ;
 }
 /
