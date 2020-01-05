@@ -251,7 +251,7 @@ mTarget
 aTarget
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 len
 =

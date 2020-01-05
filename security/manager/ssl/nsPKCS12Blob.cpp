@@ -75,6 +75,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Casting
 .
 h
@@ -1372,7 +1381,7 @@ nsIFile
 >
 localFileRef
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mToken
 "

@@ -2757,7 +2757,7 @@ subsequent
 renegotiation
 handshakes
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 mCertVerificationState
 !
@@ -2831,7 +2831,7 @@ SSLErrorMessageType
 errorMessageType
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mCertVerificationState
 =
@@ -4386,7 +4386,7 @@ fd
 >
 secret
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 socketInfo
 "
@@ -4435,7 +4435,7 @@ mFd
 PR_TOP_IO_LAYER
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 popped
 &
@@ -6735,13 +6735,13 @@ in_flags
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 in_flags
 &
 PR_POLL_EXCEPT
 "
-caller
+Caller
 did
 not
 poll
@@ -12383,9 +12383,8 @@ if
 sslSock
 )
 {
-NS_ASSERTION
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 NSS
 :
@@ -13681,9 +13680,8 @@ if
 sslSock
 )
 {
-NS_ASSERTION
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 NSS
 :
