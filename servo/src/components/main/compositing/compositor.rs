@@ -410,7 +410,6 @@ The
 application
 window
 .
-pub
 window
 :
 Rc
@@ -428,7 +427,6 @@ we
 receive
 messages
 .
-pub
 port
 :
 Receiver
@@ -442,7 +440,6 @@ The
 render
 context
 .
-pub
 context
 :
 RenderContext
@@ -453,7 +450,6 @@ The
 root
 ContainerLayer
 .
-pub
 root_layer
 :
 Rc
@@ -467,7 +463,6 @@ The
 root
 pipeline
 .
-pub
 root_pipeline
 :
 Option
@@ -484,7 +479,6 @@ paint
 a
 page
 .
-pub
 scene
 :
 Scene
@@ -496,7 +490,6 @@ application
 window
 size
 .
-pub
 window_size
 :
 Size2D
@@ -513,7 +506,6 @@ specific
 graphics
 context
 .
-pub
 graphics_context
 :
 NativeCompositingGraphicsContext
@@ -529,7 +521,6 @@ finished
 its
 first
 rendering
-pub
 composite_ready
 :
 bool
@@ -547,7 +538,6 @@ of
 shutting
 down
 .
-pub
 shutting_down
 :
 bool
@@ -561,7 +551,6 @@ should
 close
 compositor
 .
-pub
 done
 :
 bool
@@ -579,7 +568,6 @@ composite
 a
 page
 .
-pub
 recomposite
 :
 bool
@@ -594,7 +582,6 @@ current
 zoom
 factor
 .
-pub
 world_zoom
 :
 f32
@@ -610,7 +597,6 @@ has
 happend
 recently
 .
-pub
 zoom_action
 :
 bool
@@ -627,7 +613,6 @@ action
 has
 started
 .
-pub
 zoom_time
 :
 f64
@@ -642,7 +627,6 @@ status
 of
 the
 page
-pub
 ready_state
 :
 ReadyState
@@ -682,7 +666,6 @@ a
 single
 page
 .
-pub
 load_complete
 :
 bool
@@ -695,7 +678,6 @@ line
 option
 flags
 .
-pub
 opts
 :
 Opts
@@ -705,7 +687,6 @@ Opts
 The
 root
 CompositorLayer
-pub
 compositor_layer
 :
 Option
@@ -727,7 +708,6 @@ to
 the
 constellation
 .
-pub
 constellation_chan
 :
 ConstellationChan
@@ -746,7 +726,6 @@ to
 the
 profiler
 .
-pub
 profiler_chan
 :
 ProfilerChan
@@ -760,7 +739,6 @@ fragment
 event
 if
 any
-pub
 fragment_point
 :
 Option
@@ -774,7 +752,6 @@ f32
 impl
 IOCompositor
 {
-pub
 fn
 new
 (
