@@ -8516,6 +8516,9 @@ instance
 .
 close
 (
+clean
+=
+True
 )
                 
 self

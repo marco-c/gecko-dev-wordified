@@ -4905,12 +4905,24 @@ self
 instance
 :
             
+#
+stop
+application
+and
+if
+applicable
+stop
+emulator
+            
 self
 .
 instance
 .
 close
 (
+clean
+=
+True
 )
     
 def
