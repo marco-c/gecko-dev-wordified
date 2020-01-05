@@ -1532,6 +1532,8 @@ come
 up
 with
 !
+rv
+=
 NS_EscapeURL
 (
 NS_ConvertUTF16toUTF8
@@ -1542,6 +1544,13 @@ esc_OnlyNonASCII
 |
 esc_AlwaysCopy
 aceDomain
+fallible
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
