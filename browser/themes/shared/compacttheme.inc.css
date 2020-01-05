@@ -2047,6 +2047,9 @@ none
 important
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 forward
 -
@@ -2068,6 +2071,8 @@ none
 important
 ;
 }
+%
+endif
 /
 *
 Override
@@ -2501,6 +2506,9 @@ css
 #
 urlbar
 {
+%
+ifndef
+MOZ_PHOTON_THEME
 border
 -
 inline
@@ -2511,6 +2519,8 @@ none
 !
 important
 ;
+%
+endif
 opacity
 :
 1

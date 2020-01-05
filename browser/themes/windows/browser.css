@@ -6809,6 +6809,9 @@ color
 white
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 conditionalForwardWithUrlbar
 >
 #
@@ -7111,6 +7114,8 @@ direction
 reverse
 ;
 }
+%
+endif
 html
 |
 *
@@ -7213,6 +7218,10 @@ input
 box
 {
 margin
+-
+inline
+-
+start
 :
 0
 ;

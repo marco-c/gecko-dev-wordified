@@ -281,6 +281,9 @@ right
 2px
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 conditionalForwardWithUrlbar
 >
 #
@@ -477,6 +480,8 @@ overlap
 )
 ;
 }
+%
+endif
 /
 *
 MAIN
