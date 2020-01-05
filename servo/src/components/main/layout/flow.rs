@@ -5467,6 +5467,7 @@ AbsDescendants
 =
 Descendants
 ;
+pub
 type
 DescendantIter
 <
@@ -5481,6 +5482,7 @@ a
 Rawlink
 >
 ;
+pub
 type
 DescendantOffsetIter
 <

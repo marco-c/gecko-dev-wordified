@@ -1486,6 +1486,7 @@ Au
 }
 }
 }
+pub
 enum
 MarginCollapseState
 {

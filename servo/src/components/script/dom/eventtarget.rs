@@ -199,6 +199,7 @@ Eq
 Encodable
 )
 ]
+pub
 struct
 EventListenerEntry
 {

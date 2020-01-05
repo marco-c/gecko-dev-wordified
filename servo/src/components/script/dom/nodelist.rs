@@ -124,6 +124,7 @@ deriving
 Encodable
 )
 ]
+pub
 enum
 NodeListType
 {

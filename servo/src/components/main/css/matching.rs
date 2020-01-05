@@ -369,6 +369,7 @@ deriving
 Clone
 )
 ]
+pub
 struct
 ApplicableDeclarationsCacheEntry
 {
@@ -1013,6 +1014,7 @@ deriving
 Clone
 )
 ]
+pub
 struct
 StyleSharingCandidate
 {

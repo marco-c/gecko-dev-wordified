@@ -4103,6 +4103,7 @@ and
 traversal
 /
 /
+pub
 type
 ChildElementIterator
 <

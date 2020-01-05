@@ -588,6 +588,7 @@ the
 line
 itself
 .
+pub
 struct
 LineBox
 {
