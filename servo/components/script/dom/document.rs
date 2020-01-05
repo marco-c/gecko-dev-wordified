@@ -742,10 +742,7 @@ dom
 htmliframeelement
 :
 :
-{
-self
 HTMLIFrameElement
-}
 ;
 use
 dom
@@ -1408,6 +1405,15 @@ percent_encoding
 :
 :
 percent_decode
+;
+use
+util
+:
+:
+prefs
+:
+:
+mozbrowser_enabled
 ;
 use
 util
@@ -10046,9 +10052,6 @@ MozBrowserEvent
 )
 {
 if
-htmliframeelement
-:
-:
 mozbrowser_enabled
 (
 )

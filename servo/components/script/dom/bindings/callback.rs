@@ -1215,6 +1215,8 @@ CallSetup
 let
 global
 =
+unsafe
+{
 global_root_from_object
 (
 callback
@@ -1223,6 +1225,7 @@ callback
 (
 )
 )
+}
 ;
 let
 cx
