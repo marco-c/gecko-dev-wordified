@@ -125,9 +125,6 @@ TimeStamp
 h
 "
 class
-ThreadInfo
-;
-class
 CheckResponsivenessTask
 ;
 class
@@ -138,9 +135,6 @@ public
 explicit
 ThreadResponsiveness
 (
-ThreadInfo
-*
-aThreadInfo
 )
 ;
 ~
@@ -151,6 +145,11 @@ ThreadResponsiveness
 void
 Update
 (
+bool
+aIsMainThread
+nsIThread
+*
+aThread
 )
 ;
 mozilla
@@ -192,10 +191,6 @@ IsNull
 }
 private
 :
-ThreadInfo
-*
-mThreadInfo
-;
 RefPtr
 <
 CheckResponsivenessTask
