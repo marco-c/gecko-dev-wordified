@@ -198,7 +198,10 @@ dom
 event
 :
 :
+{
 Event
+EventHelpers
+}
 ;
 use
 dom
@@ -2060,6 +2063,13 @@ InvalidState
 )
 ;
 }
+event
+.
+set_trusted
+(
+false
+)
+;
 Ok
 (
 self
