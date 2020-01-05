@@ -3784,8 +3784,10 @@ aStatus
 )
 {
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 nsLineLayout
 *

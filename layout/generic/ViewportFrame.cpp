@@ -1928,8 +1928,10 @@ Initialize
 OUT
 parameters
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 /
 /

@@ -3902,8 +3902,10 @@ n
 #
 endif
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 /
 /
@@ -5419,8 +5421,6 @@ OK
 )
 nsReflowStatus
 reflowStatus
-=
-NS_FRAME_COMPLETE
 ;
 ReflowAbsoluteFrames
 (

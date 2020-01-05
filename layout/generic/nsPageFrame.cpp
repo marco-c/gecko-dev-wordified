@@ -376,8 +376,10 @@ aStatus
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 /
 /
@@ -5194,8 +5196,10 @@ mHaveReflowed
 true
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 nsIAtom

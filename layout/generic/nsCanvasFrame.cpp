@@ -4012,8 +4012,10 @@ Initialize
 OUT
 parameter
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 nsCanvasFrame
 *

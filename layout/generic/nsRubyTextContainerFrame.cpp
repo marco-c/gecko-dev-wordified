@@ -846,8 +846,9 @@ continuations
 returning
 /
 /
-NS_FRAME_COMPLETE
-here
+complete
+reflow
+status
 is
 still
 safe
@@ -878,8 +879,10 @@ our
 continuations
 .
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 WritingMode
 lineWM

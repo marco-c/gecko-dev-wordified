@@ -1169,8 +1169,10 @@ SetOverflowAreasToDesiredBounds
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 void

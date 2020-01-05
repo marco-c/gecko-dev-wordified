@@ -746,8 +746,10 @@ mFloatManagerStateBefore
 never
 popped
 mReflowStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 mNextInFlow
 =

@@ -1148,8 +1148,10 @@ when
 painting
 .
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 FinishReflowWithAbsoluteFrames
 (
@@ -1191,8 +1193,10 @@ flow
 ever
 .
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 MOZ_ASSERT
 (

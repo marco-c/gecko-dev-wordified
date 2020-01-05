@@ -208,8 +208,10 @@ aStatus
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 /
 /
@@ -774,8 +776,6 @@ fixed
 frames
 nsReflowStatus
 fixedStatus
-=
-NS_FRAME_COMPLETE
 ;
 ReflowAbsoluteFrames
 (

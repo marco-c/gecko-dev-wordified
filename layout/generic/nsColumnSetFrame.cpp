@@ -253,10 +253,6 @@ mLastBalanceBSize
 (
 NS_INTRINSICSIZE
 )
-mLastFrameStatus
-(
-NS_FRAME_COMPLETE
-)
 {
 }
 nsIAtom
@@ -7677,8 +7673,10 @@ Initialize
 OUT
 parameter
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 /
 /
@@ -7821,8 +7819,6 @@ ocBounds
 ;
 nsReflowStatus
 ocStatus
-=
-NS_FRAME_COMPLETE
 ;
 if
 (
@@ -8204,8 +8200,10 @@ Fix
 that
 .
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 }
 NS_ASSERTION

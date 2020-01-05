@@ -4529,8 +4529,10 @@ ComputeAutoSize
 )
 ;
 aStatus
-=
-NS_FRAME_COMPLETE
+.
+Reset
+(
+)
 ;
 NS_ASSERTION
 (
