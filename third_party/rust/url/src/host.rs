@@ -1085,6 +1085,13 @@ S
 u16
 )
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 HostAndPort
