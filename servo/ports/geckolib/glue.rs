@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-allow
-(
-unsafe_code
-)
-]
 use
 app_units
 :
