@@ -615,7 +615,7 @@ tab
 .
 linkedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 |
 |
 loadEvent
@@ -670,7 +670,7 @@ win
 =
 gBrowser
 .
-contentWindow
+contentWindowAsCPOW
 ;
 if
 (
