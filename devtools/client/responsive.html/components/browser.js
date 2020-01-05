@@ -107,11 +107,12 @@ getToplevelWindow
 require
 (
 "
-sdk
-/
-window
+.
+.
 /
 utils
+/
+window
 "
 )
 ;
