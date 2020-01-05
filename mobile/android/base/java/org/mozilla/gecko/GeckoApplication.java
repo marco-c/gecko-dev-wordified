@@ -1114,6 +1114,15 @@ install
 this
 )
 ;
+registerActivityLifecycleCallbacks
+(
+GeckoActivityMonitor
+.
+getInstance
+(
+)
+)
+;
 final
 Context
 context
