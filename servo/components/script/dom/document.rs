@@ -5459,6 +5459,17 @@ title_changed
 self
 )
 {
+if
+self
+.
+browsing_context
+(
+)
+.
+is_some
+(
+)
+{
 /
 /
 https
@@ -5511,6 +5522,7 @@ send_title_to_compositor
 (
 )
 ;
+}
 }
 /
 /
