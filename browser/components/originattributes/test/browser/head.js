@@ -1117,14 +1117,6 @@ _add_task
 aTask
 )
 {
-add_task
-(
-function
-*
-addTaskForIsolationTests
-(
-)
-{
 let
 testSettings
 =
@@ -1228,9 +1220,6 @@ aTask
 )
 ;
 }
-}
-)
-;
 }
 _addTaskForMode
 (
