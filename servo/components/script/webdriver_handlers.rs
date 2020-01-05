@@ -265,10 +265,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-SubpageId
-}
 ;
 use
 msg
@@ -839,10 +836,7 @@ Result
 <
 Option
 <
-(
 PipelineId
-SubpageId
-)
 >
 (
 )
@@ -996,7 +990,7 @@ x
 |
 x
 .
-and_then
+map
 (
 |
 x
@@ -1007,7 +1001,7 @@ r
 (
 )
 .
-parent_info
+pipeline
 (
 )
 )

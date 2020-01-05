@@ -3542,10 +3542,7 @@ Ok
 (
 Some
 (
-(
 pipeline_id
-subpage_id
-)
 )
 )
 =
@@ -3589,7 +3586,6 @@ ConstellationMsg
 GetFrame
 (
 pipeline_id
-subpage_id
 sender
 )
 )

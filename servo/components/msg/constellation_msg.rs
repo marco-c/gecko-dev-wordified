@@ -1148,16 +1148,11 @@ document
 with
 the
 provided
-parent
 pipeline
-id
-and
-subpage
 id
 GetFrame
 (
 PipelineId
-SubpageId
 IpcSender
 <
 Option
