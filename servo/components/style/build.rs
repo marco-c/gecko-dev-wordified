@@ -88,7 +88,7 @@ bindgen
 ]
 extern
 crate
-libbindgen
+bindgen
 ;
 #
 [
