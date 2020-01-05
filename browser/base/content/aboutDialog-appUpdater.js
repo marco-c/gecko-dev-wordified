@@ -68,14 +68,6 @@ in
 aboutDialog
 .
 xul
-and
-preferences
-/
-advanced
-.
-xul
-/
-/
 if
 MOZ_UPDATER
 is
