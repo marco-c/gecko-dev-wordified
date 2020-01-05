@@ -24473,8 +24473,6 @@ DOM_PROTO_UNFORGEABLE_HOLDER_SLOT
                    
 ObjectValue
 (
-&
-*
 unforgeable_holder
 .
 get
@@ -55131,8 +55129,6 @@ callable
 =
 ObjectValue
 (
-&
-*
 self
 .
 parent
@@ -55455,8 +55451,6 @@ CGGeneric
 '
 ObjectValue
 (
-&
-*
 self
 .
 parent
@@ -56073,8 +56067,6 @@ arg0
 =
 ObjectValue
 (
-&
-*
 arg0
 )
 )
@@ -56129,8 +56121,6 @@ UndefinedValue
 )
 ObjectValue
 (
-&
-*
 *
 _obj
 )

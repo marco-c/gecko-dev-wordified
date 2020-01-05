@@ -2055,8 +2055,6 @@ jsval
 :
 ObjectValue
 (
-&
-*
 array_buffer
 .
 get

@@ -2595,8 +2595,6 @@ set
 (
 ObjectValue
 (
-&
-*
 ToWindowProxyIfWindow
 (
 obj
@@ -2613,8 +2611,6 @@ set
 (
 ObjectValue
 (
-&
-*
 obj
 )
 )
