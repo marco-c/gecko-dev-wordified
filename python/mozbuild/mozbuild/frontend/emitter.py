@@ -516,23 +516,6 @@ shell
     
 (
 '
-xpctest
-'
-'
-js
-/
-xpconnect
-/
-tests
-/
-components
-/
-native
-'
-)
-    
-(
-'
 test_AsXXX_helpers
 '
 '
