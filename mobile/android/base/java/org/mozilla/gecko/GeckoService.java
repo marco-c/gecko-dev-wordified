@@ -994,14 +994,6 @@ GeckoThread
 initWithProfile
 (
 profileName
-!
-=
-null
-?
-profileName
-:
-"
-"
 profileDir
 !
 =
