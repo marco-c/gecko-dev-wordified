@@ -4181,9 +4181,9 @@ HTMLSelectElement
 :
 MatchSelectedOptions
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 /
 *
@@ -4215,7 +4215,7 @@ HTMLOptionElement
 :
 FromContent
 (
-aContent
+aElement
 )
 ;
 return

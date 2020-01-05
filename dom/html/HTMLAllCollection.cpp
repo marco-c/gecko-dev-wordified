@@ -150,6 +150,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsHTMLDocument
 .
 h
@@ -400,9 +411,9 @@ static
 bool
 DocAllResultMatch
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom
@@ -415,7 +426,7 @@ aData
 {
 if
 (
-aContent
+aElement
 -
 >
 GetID
@@ -439,7 +450,7 @@ nsGenericHTMLElement
 :
 FromContent
 (
-aContent
+aElement
 )
 ;
 if

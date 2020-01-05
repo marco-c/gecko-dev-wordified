@@ -695,9 +695,9 @@ static
 bool
 MatchListedElements
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom

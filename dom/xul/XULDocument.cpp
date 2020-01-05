@@ -11546,9 +11546,9 @@ XULDocument
 :
 MatchAttribute
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom
@@ -11561,7 +11561,7 @@ aData
 {
 NS_PRECONDITION
 (
-aContent
+aElement
 "
 Must
 have
@@ -11612,7 +11612,7 @@ EqualsLiteral
 "
 )
 ?
-aContent
+aElement
 -
 >
 HasAttr
@@ -11621,7 +11621,7 @@ aNamespaceID
 aAttrName
 )
 :
-aContent
+aElement
 -
 >
 AttrValueIs
@@ -11648,7 +11648,7 @@ work
 uint32_t
 count
 =
-aContent
+aElement
 -
 >
 GetAttrCount
@@ -11676,7 +11676,7 @@ nsAttrName
 *
 name
 =
-aContent
+aElement
 -
 >
 GetAttrNameAt
@@ -11770,7 +11770,7 @@ EqualsLiteral
 )
 |
 |
-aContent
+aElement
 -
 >
 AttrValueIs
