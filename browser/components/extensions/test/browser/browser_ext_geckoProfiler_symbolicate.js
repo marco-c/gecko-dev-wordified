@@ -263,6 +263,7 @@ testProfilerControl
 (
 )
 {
+await
 SpecialPowers
 .
 pushPrefEnv
