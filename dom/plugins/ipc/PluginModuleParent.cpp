@@ -333,6 +333,13 @@ h
 #
 include
 "
+prclist
+.
+h
+"
+#
+include
+"
 PluginQuirks
 .
 h
