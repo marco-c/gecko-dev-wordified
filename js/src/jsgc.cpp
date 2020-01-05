@@ -47067,6 +47067,17 @@ argc
 vp
 )
 ;
+AutoLockGC
+lock
+(
+cx
+-
+>
+runtime
+(
+)
+)
+;
 args
 .
 rval
