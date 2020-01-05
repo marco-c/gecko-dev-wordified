@@ -3223,8 +3223,7 @@ side
 )
 {
 return
-!
-IsInlineReversed
+IsBidiLTR
 (
 )
 ?
