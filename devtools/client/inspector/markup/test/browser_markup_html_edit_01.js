@@ -72,6 +72,11 @@ the
 markup
 -
 view
+requestLongerTimeout
+(
+2
+)
+;
 loadHelperScript
 (
 "
