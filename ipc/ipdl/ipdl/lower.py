@@ -22462,7 +22462,7 @@ NL
 ]
 )
         
-optinherits
+inherits
 =
 [
 ]
@@ -22475,7 +22475,7 @@ isToplevel
 )
 :
             
-optinherits
+inherits
 .
 append
 (
@@ -22486,7 +22486,29 @@ p
 openedProtocolInterfaceType
 (
 )
-                                      
+                                    
+viz
+=
+'
+public
+'
+)
+)
+        
+else
+:
+            
+inherits
+.
+append
+(
+Inherit
+(
+p
+.
+managerInterfaceType
+(
+)
 viz
 =
 '
@@ -22548,24 +22570,7 @@ clsname
             
 inherits
 =
-[
-Inherit
-(
-p
-.
-managerInterfaceType
-(
-)
-viz
-=
-'
-public
-'
-)
-]
-+
-            
-optinherits
+inherits
             
 abstract
 =

@@ -1126,6 +1126,9 @@ actor
 /
 class
 IToplevelProtocol
+:
+public
+IProtocol
 {
 template
 <
