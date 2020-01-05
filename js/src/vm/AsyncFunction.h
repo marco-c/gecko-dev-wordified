@@ -219,17 +219,6 @@ HandleValue
 reason
 )
 ;
-MOZ_MUST_USE
-bool
-CheckAsyncResumptionValue
-(
-JSContext
-*
-cx
-HandleValue
-v
-)
-;
 }
 /
 /

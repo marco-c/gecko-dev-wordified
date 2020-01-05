@@ -15956,7 +15956,7 @@ the
 return
 value
 '
-result
+promise
 '
 stops
 interpretation
@@ -15964,7 +15964,7 @@ interpretation
 and
 returns
 '
-result
+promise
 '
 .
 Pushes
@@ -15990,7 +15990,7 @@ yieldAndAwaitIndex
 *
 Stack
 :
-result
+promise
 gen
 =
 >

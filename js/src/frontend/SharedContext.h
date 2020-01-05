@@ -3538,11 +3538,6 @@ return
 isStarGenerator
 (
 )
-|
-|
-isAsync
-(
-)
 ;
 }
 bool
