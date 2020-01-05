@@ -1651,7 +1651,7 @@ first_box_size
 =
 first_box
 .
-position
+border_box
 .
 get
 (
@@ -2073,7 +2073,7 @@ _
 >
 l_box
 .
-position
+border_box
 .
 get
 (
@@ -2093,7 +2093,7 @@ None
 >
 l_box
 .
-position
+border_box
 .
 get
 (
@@ -2113,7 +2113,7 @@ r_box
 >
 r_box
 .
-position
+border_box
 .
 get
 (
@@ -2227,7 +2227,7 @@ _
 >
 l_box
 .
-position
+border_box
 .
 get
 (
@@ -2247,7 +2247,7 @@ None
 >
 l_box
 .
-position
+border_box
 .
 get
 (
@@ -2267,7 +2267,7 @@ r_box
 >
 r_box
 .
-position
+border_box
 .
 get
 (
@@ -3055,7 +3055,7 @@ len
 )
 in_box
 .
-position
+border_box
 .
 get
 (
@@ -3238,7 +3238,7 @@ width
 +
 in_box
 .
-position
+border_box
 .
 get
 (
@@ -3843,7 +3843,7 @@ width
 +
 box_
 .
-position
+border_box
 .
 get
 (
@@ -3879,7 +3879,7 @@ size
 height
 box_
 .
-position
+border_box
 .
 get
 (
@@ -5122,7 +5122,7 @@ size
 =
 box_
 .
-position
+border_box
 .
 get
 (
@@ -5132,7 +5132,7 @@ size
 ;
 box_
 .
-position
+border_box
 .
 set
 (
@@ -5143,7 +5143,7 @@ Point2D
 offset_x
 box_
 .
-position
+border_box
 .
 get
 (
@@ -6525,7 +6525,7 @@ Point2D
 (
 cur_box
 .
-position
+border_box
 .
 get
 (
@@ -6563,7 +6563,7 @@ height
 =
 cur_box
 .
-position
+border_box
 .
 get
 (
@@ -7000,7 +7000,7 @@ bottom_from_base
 }
 cur_box
 .
-position
+border_box
 .
 borrow_mut
 (
@@ -7217,7 +7217,7 @@ baseline_offset
 ;
 cur_box
 .
-position
+border_box
 .
 borrow_mut
 (
@@ -7233,7 +7233,7 @@ y
 =
 cur_box
 .
-position
+border_box
 .
 get
 (

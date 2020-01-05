@@ -2995,7 +2995,7 @@ position
 =
 box_
 .
-position
+border_box
 .
 get
 (
@@ -3205,7 +3205,7 @@ bottom
 ;
 box_
 .
-position
+border_box
 .
 set
 (
@@ -3386,7 +3386,7 @@ height
 =
 box_
 .
-position
+border_box
 .
 get
 (
@@ -3897,7 +3897,7 @@ position
 =
 box_
 .
-position
+border_box
 .
 get
 (
@@ -4063,7 +4063,7 @@ height
 ;
 box_
 .
-position
+border_box
 .
 set
 (
@@ -5616,7 +5616,7 @@ position_ref
 =
 box_
 .
-position
+border_box
 .
 borrow_mut
 (
