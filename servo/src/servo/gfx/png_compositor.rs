@@ -153,17 +153,6 @@ cast
 reinterpret_cast
 ;
 use
-vec_from_buf
-=
-vec
-:
-:
-raw
-:
-:
-from_buf
-;
-use
 ptr
 :
 :
