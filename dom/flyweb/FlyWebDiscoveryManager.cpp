@@ -203,6 +203,17 @@ FlyWebDiscoveryManagerBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 namespace
 mozilla
 {
