@@ -2434,6 +2434,8 @@ BaseStyle
 (
 aProperty
 )
+.
+mGecko
 ;
 }
 return
@@ -7168,6 +7170,8 @@ propertyValue
 .
 mProperty
 )
+.
+mGecko
 )
 cssValue
 )
@@ -10353,7 +10357,7 @@ eCSSProperty_transform
 continue
 ;
 }
-StyleAnimationValue
+AnimationValue
 baseStyle
 =
 BaseStyle
