@@ -3289,7 +3289,6 @@ args
 continue
 ;
 }
-else
 if
 (
 func
