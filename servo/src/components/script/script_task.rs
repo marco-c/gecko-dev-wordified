@@ -1575,7 +1575,9 @@ doc
 {
 doc
 .
-root
+GetDocumentElement
+(
+)
 }
 ;
 match
@@ -1988,7 +1990,9 @@ doc
 {
 doc
 .
-root
+GetDocumentElement
+(
+)
 }
 }
 }
@@ -5763,7 +5767,9 @@ doc
 {
 doc
 .
-root
+GetDocumentElement
+(
+)
 }
 ;
 if
