@@ -1512,10 +1512,43 @@ Expand
 wildcards
 .
         
+#
+One
+variable
+is
+for
+ordering
+.
+The
+other
+for
+membership
+tests
+.
+        
+#
+(
+Membership
+testing
+on
+a
+list
+can
+be
+slow
+.
+)
+        
 allpaths
 =
 [
 ]
+        
+all_paths_set
+=
+set
+(
+)
         
 for
 p
@@ -1536,8 +1569,15 @@ if
 p
 not
 in
-allpaths
+all_paths_set
 :
+                    
+all_paths_set
+.
+add
+(
+p
+)
                     
 allpaths
 .
@@ -1582,8 +1622,15 @@ if
 path
 not
 in
-allpaths
+all_paths_set
 :
+                    
+all_paths_set
+.
+add
+(
+path
+)
                     
 allpaths
 .
