@@ -2614,6 +2614,7 @@ code
 "
 "
 rval
+1
 )
 }
 /
@@ -2652,6 +2653,9 @@ str
 rval
 :
 MutableHandleValue
+line_number
+:
+u32
 )
 {
 let
@@ -2837,7 +2841,7 @@ filename
 as_ptr
 (
 )
-1
+line_number
 )
 ;
 unsafe
