@@ -4092,6 +4092,11 @@ create
 :
 true
 }
+{
+winAllowLengthBeyondMaxPathWithCaveats
+:
+true
+}
 )
 ;
 try
