@@ -1024,7 +1024,6 @@ contents
 into
 aMaskDT
 :
-{
 /
 /
 We
@@ -1269,7 +1268,6 @@ PopClip
 (
 )
 ;
-}
 }
 /
 /
