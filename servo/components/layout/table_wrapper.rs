@@ -187,6 +187,7 @@ flow
 {
 IMPACTED_BY_LEFT_FLOATS
 IMPACTED_BY_RIGHT_FLOATS
+OpaqueFlow
 }
 ;
 use
@@ -247,7 +248,7 @@ util
 logical_geometry
 :
 :
-LogicalRect
+LogicalSize
 ;
 use
 std
@@ -2470,14 +2471,17 @@ block_position
 )
 }
 fn
-generated_containing_block_rect
+generated_containing_block_size
 (
 &
 self
+flow
+:
+OpaqueFlow
 )
 -
 >
-LogicalRect
+LogicalSize
 <
 Au
 >
@@ -2486,8 +2490,9 @@ self
 .
 block_flow
 .
-generated_containing_block_rect
+generated_containing_block_size
 (
+flow
 )
 }
 fn

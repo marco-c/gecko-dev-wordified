@@ -105,6 +105,7 @@ self
 FlowClass
 Flow
 ImmutableFlowUtils
+OpaqueFlow
 }
 ;
 use
@@ -281,7 +282,7 @@ logical_geometry
 :
 :
 {
-LogicalRect
+LogicalSize
 PhysicalSide
 WritingMode
 }
@@ -2913,14 +2914,17 @@ compute_overflow
 )
 }
 fn
-generated_containing_block_rect
+generated_containing_block_size
 (
 &
 self
+flow
+:
+OpaqueFlow
 )
 -
 >
-LogicalRect
+LogicalSize
 <
 Au
 >
@@ -2929,8 +2933,9 @@ self
 .
 block_flow
 .
-generated_containing_block_rect
+generated_containing_block_size
 (
+flow
 )
 }
 fn
