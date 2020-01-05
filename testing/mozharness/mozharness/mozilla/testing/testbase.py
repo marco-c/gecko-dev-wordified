@@ -3819,6 +3819,14 @@ mochitest
 '
             
 '
+geckoview
+'
+:
+'
+mochitest
+'
+            
+'
 jsreftest
 '
 :
