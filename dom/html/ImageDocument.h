@@ -311,16 +311,6 @@ aGivenProto
 override
 ;
 bool
-ImageResizingEnabled
-(
-)
-const
-{
-return
-true
-;
-}
-bool
 ImageIsOverflowing
 (
 )
