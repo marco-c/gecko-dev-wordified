@@ -481,7 +481,7 @@ WebMDecoder
 :
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

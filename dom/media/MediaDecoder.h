@@ -3206,7 +3206,7 @@ virtual
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

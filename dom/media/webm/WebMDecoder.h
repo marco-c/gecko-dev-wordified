@@ -249,7 +249,7 @@ aContainerType
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )

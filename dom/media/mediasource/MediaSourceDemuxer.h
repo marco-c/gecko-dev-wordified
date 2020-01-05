@@ -353,7 +353,7 @@ purposes
 void
 GetMozDebugReaderData
 (
-nsAString
+nsACString
 &
 aString
 )
