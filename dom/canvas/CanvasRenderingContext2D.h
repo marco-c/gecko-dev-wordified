@@ -3380,7 +3380,7 @@ exist
 *
 /
 static
-uint32_t
+uintptr_t
 sNumLivingContexts
 ;
 static

@@ -6308,7 +6308,7 @@ our
 static
 variables
 .
-uint32_t
+uintptr_t
 CanvasRenderingContext2D
 :
 :
