@@ -214,7 +214,7 @@ macro_use
 allow
 (
 improper_ctypes
-safe_extern_statics
+non_camel_case_types
 )
 ]
 pub
