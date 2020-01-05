@@ -3463,6 +3463,8 @@ return
 nsChangeHint_UpdateOverflow
 |
 nsChangeHint_SchedulePaint
+|
+nsChangeHint_RepaintFrame
 ;
 }
 if
