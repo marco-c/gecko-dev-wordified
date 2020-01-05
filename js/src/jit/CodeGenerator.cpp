@@ -32368,7 +32368,7 @@ anything
 Register
 temp
 =
-AllocatableGeneralRegisterSet
+GeneralRegisterSet
 (
 EntryTempMask
 )
