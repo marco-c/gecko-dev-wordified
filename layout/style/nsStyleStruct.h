@@ -21497,8 +21497,11 @@ mBoxPack
 [
 reset
 ]
-bool
-mStretchStack
+mozilla
+:
+:
+StyleStackSizing
+mStackSizing
 ;
 /
 /
