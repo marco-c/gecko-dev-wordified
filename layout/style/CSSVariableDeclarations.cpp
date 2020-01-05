@@ -474,7 +474,7 @@ INHERIT_VALUE
 {
 aType
 =
-eInitial
+eInherit
 ;
 aTokenStream
 .
