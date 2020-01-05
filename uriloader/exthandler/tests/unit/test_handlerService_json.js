@@ -85,10 +85,6 @@ backend
 .
 *
 /
-"
-use
-strict
-"
 Cu
 .
 import
