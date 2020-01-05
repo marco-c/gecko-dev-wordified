@@ -3447,8 +3447,6 @@ aCategory
 void
 *
 aFrameAddress
-bool
-aCopy
 uint32_t
 aLine
 const
@@ -3500,7 +3498,6 @@ push
 aInfo
 aCategory
 aFrameAddress
-aCopy
 aLine
 aDynamicString
 )
@@ -4017,7 +4014,6 @@ profiler_call_enter
 aInfo
 aCategory
 this
-false
 line
 )
 ;
@@ -4077,7 +4073,6 @@ profiler_call_enter
 aInfo
 aCategory
 this
-true
 aLine
 aDynamicString
 )
