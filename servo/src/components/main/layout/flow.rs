@@ -2723,11 +2723,17 @@ f
 ?
 %
 ?
+size
+%
+?
 "
 base
 .
 id
 repr
+base
+.
+position
 )
 }
 }
