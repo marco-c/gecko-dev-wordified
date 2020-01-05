@@ -5103,13 +5103,6 @@ resource_task
 clone
 (
 )
-self
-.
-image_cache_task
-.
-clone
-(
-)
 page
 .
 next_subpage_id
