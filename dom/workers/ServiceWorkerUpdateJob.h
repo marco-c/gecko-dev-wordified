@@ -238,6 +238,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
+nsLoadFlags
+aLoadFlags
 )
 ;
 already_AddRefed
@@ -283,6 +285,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
+nsLoadFlags
+aLoadFlags
 )
 ;
 virtual
@@ -479,6 +483,19 @@ Update
 (
 )
 ;
+nsLoadFlags
+GetLoadFlags
+(
+)
+const
+;
+void
+SetLoadFlags
+(
+nsLoadFlags
+aLoadFlags
+)
+;
 private
 :
 class
@@ -585,6 +602,9 @@ nsCOMPtr
 nsILoadGroup
 >
 mLoadGroup
+;
+nsLoadFlags
+mLoadFlags
 ;
 RefPtr
 <
