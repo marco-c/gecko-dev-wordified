@@ -2428,7 +2428,7 @@ a
 hash
     
 algorithm
-name
+constant
 for
 use
 by
@@ -2446,7 +2446,7 @@ AlgorithmIdentifier
 (
 )
     
-algorithmName
+algorithmType
 =
 None
     
@@ -2463,13 +2463,11 @@ sha1WithRSAEncryption
 '
 :
         
-algorithmName
+algorithmType
 =
-'
-SHA
--
-1
-'
+pykey
+.
+HASH_SHA1
         
 algorithm
 =
@@ -2486,13 +2484,11 @@ sha256WithRSAEncryption
 '
 :
         
-algorithmName
+algorithmType
 =
-'
-SHA
--
-256
-'
+pykey
+.
+HASH_SHA256
         
 algorithm
 =
@@ -2526,11 +2522,11 @@ md5WithRSAEncryption
 '
 :
         
-algorithmName
+algorithmType
 =
-'
-MD5
-'
+pykey
+.
+HASH_MD5
         
 algorithm
 =
@@ -2547,11 +2543,11 @@ ecdsaWithSHA256
 '
 :
         
-algorithmName
+algorithmType
 =
-'
-sha256
-'
+pykey
+.
+HASH_SHA256
         
 algorithm
 =
@@ -2598,7 +2594,7 @@ algorithm
 return
 (
 algorithmIdentifier
-algorithmName
+algorithmType
 )
 def
 datetimeToTime
@@ -5455,7 +5451,7 @@ self
         
 (
 signatureOID
-hashName
+hashAlgorithm
 )
 =
 stringToAlgorithmIdentifiers
@@ -5684,7 +5680,7 @@ issuerKey
 sign
 (
 tbsDER
-hashName
+hashAlgorithm
 )
 )
         
