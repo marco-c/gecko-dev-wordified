@@ -3141,11 +3141,10 @@ pool
 for
 i
 in
-range
-(
 t
+.
+.
 b
-)
 {
 let
 _
@@ -3616,11 +3615,10 @@ usize
 for
 i
 in
-range
-(
 t
+.
+.
 b
-)
 {
 buf
 .

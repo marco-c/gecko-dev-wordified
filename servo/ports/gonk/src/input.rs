@@ -1070,9 +1070,10 @@ false
 for
 idx
 in
-range
-(
 0
+.
+.
+(
 count
 as
 int

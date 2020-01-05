@@ -434,11 +434,10 @@ x
 for
 _
 in
-range
-(
 0
+.
+.
 NEWTON_METHOD_ITERATIONS
-)
 {
 let
 x2

@@ -4734,9 +4734,10 @@ i32
 for
 i
 in
-range
 (
 0
+.
+.
 string
 .
 len

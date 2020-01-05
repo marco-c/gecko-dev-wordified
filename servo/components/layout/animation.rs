@@ -222,9 +222,9 @@ ComputedValues
 for
 i
 in
-range
-(
 0
+.
+.
 new_style
 .
 get_animation
@@ -237,7 +237,6 @@ transition_property
 .
 len
 (
-)
 )
 {
 /
