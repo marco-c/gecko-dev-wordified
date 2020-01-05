@@ -309,7 +309,7 @@ List
 ;
 public
 class
-ActivityStream
+ActivityStreamPanel
 extends
 FrameLayout
 {
@@ -414,7 +414,7 @@ int
 tileMargin
 ;
 public
-ActivityStream
+ActivityStreamPanel
 (
 Context
 context

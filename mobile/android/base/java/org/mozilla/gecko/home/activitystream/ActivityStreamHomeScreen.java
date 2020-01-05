@@ -203,7 +203,7 @@ public
 class
 ActivityStreamHomeScreen
 extends
-ActivityStream
+ActivityStreamPanel
 implements
 HomeScreen
 {
