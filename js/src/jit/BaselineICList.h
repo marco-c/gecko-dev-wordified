@@ -167,6 +167,11 @@ _
 TypeMonitor_PrimitiveSet
 )
 \
+_
+(
+TypeMonitor_AnyValue
+)
+\
 \
 _
 (
