@@ -10717,8 +10717,14 @@ only
 bool
 CanMoveResizeWindows
 (
-bool
-aCallerIsChrome
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 /
