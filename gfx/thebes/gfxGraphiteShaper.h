@@ -145,7 +145,6 @@ gfxGraphiteShaper
 (
 )
 ;
-virtual
 bool
 ShapeText
 (
@@ -164,10 +163,13 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText
 )
+override
 ;
 static
 void
@@ -180,9 +182,6 @@ protected
 nsresult
 SetGlyphsFromSegment
 (
-DrawTarget
-*
-aDrawTarget
 gfxShapedText
 *
 aShapedText
@@ -197,6 +196,8 @@ aText
 gr_segment
 *
 aSegment
+RoundingFlags
+aRounding
 )
 ;
 static

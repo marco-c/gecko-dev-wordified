@@ -460,6 +460,8 @@ Script
 aScript
 bool
 aVertical
+RoundingFlags
+aRounding
 gfxShapedText
 *
 aShapedText
@@ -578,6 +580,7 @@ aOffset
 aLength
 aScript
 aVertical
+aRounding
 aShapedText
 )
 ;
