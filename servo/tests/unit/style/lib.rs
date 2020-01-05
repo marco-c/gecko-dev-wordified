@@ -125,6 +125,14 @@ extern
 crate
 servo_url
 ;
+#
+[
+macro_use
+]
+extern
+crate
+size_of_test
+;
 extern
 crate
 style

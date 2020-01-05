@@ -629,6 +629,7 @@ gecko
 [
 macro_use
 ]
+pub
 extern
 crate
 nsstring_vendor
