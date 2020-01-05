@@ -3462,7 +3462,7 @@ characteristic
 (
 name
 :
-BluetoothServiceUUID
+BluetoothCharacteristicUUID
 )
 -
 >
