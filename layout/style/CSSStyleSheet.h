@@ -1229,10 +1229,12 @@ needed
 for
 cycle
 collection
+virtual
 void
 UnlinkInner
 (
 )
+override
 ;
 /
 /
@@ -1244,12 +1246,14 @@ needed
 for
 cycle
 collection
+virtual
 void
 TraverseInner
 (
 nsCycleCollectionTraversalCallback
 &
 )
+override
 ;
 protected
 :
