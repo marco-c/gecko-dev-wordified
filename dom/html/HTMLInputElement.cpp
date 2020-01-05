@@ -19326,8 +19326,10 @@ if
 tes
 )
 {
+RefPtr
+<
 nsFrameSelection
-*
+>
 fs
 =
 tes
