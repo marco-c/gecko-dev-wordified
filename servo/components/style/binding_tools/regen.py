@@ -540,13 +540,7 @@ NODE_
 "
             
 "
-NS_FONT_STRETCH_
-.
-*
-"
-            
-"
-NS_FONT_STYLE_
+NS_FONT_
 .
 *
 "
