@@ -137,17 +137,6 @@ extern
 crate
 libc
 ;
-#
-[
-cfg
-(
-target_os
-=
-"
-macos
-"
-)
-]
 pub
 mod
 task_basic_info
