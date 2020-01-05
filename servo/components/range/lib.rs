@@ -61,14 +61,6 @@ MPL
 [
 feature
 (
-proc_macro
-)
-]
-#
-!
-[
-feature
-(
 step_trait
 )
 ]

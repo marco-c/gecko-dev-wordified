@@ -137,14 +137,6 @@ unsafe_code
 )
 ]
 #
-!
-[
-feature
-(
-proc_macro
-)
-]
-#
 [
 allow
 (

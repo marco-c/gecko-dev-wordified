@@ -106,7 +106,6 @@ script
 feature
 (
 plugin
-proc_macro
 )
 ]
 #
