@@ -224,7 +224,7 @@ aOutTokens
 )
 ;
 nsCString
-ToBase64
+ToHexString
 (
 const
 nsTArray
@@ -235,7 +235,6 @@ uint8_t
 aBytes
 )
 ;
-static
 nsCString
 ToHexString
 (
