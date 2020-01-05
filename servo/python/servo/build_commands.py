@@ -145,6 +145,7 @@ import
 CommandBase
 cd
 call
+check_call
 BIN_SUFFIX
 from
 servo
@@ -1653,6 +1654,12 @@ target
 target
 )
         
+self
+.
+ensure_clobbered
+(
+)
+        
 if
 debug_mozjs
 :
@@ -3042,6 +3049,12 @@ ensure_bootstrapped
 (
 )
         
+self
+.
+ensure_clobbered
+(
+)
+        
 ret
 =
 None
@@ -3426,6 +3439,12 @@ ensure_bootstrapped
 (
 )
         
+self
+.
+ensure_clobbered
+(
+)
+        
 env
 =
 self
@@ -3777,7 +3796,12 @@ clean
 (
 self
 manifest_path
+=
+None
 params
+=
+[
+]
 verbose
 =
 False
@@ -3833,7 +3857,7 @@ opts
 params
         
 return
-call
+check_call
 (
 [
 "
@@ -3845,7 +3869,7 @@ clean
 ]
 +
 opts
-                    
+                          
 env
 =
 self
