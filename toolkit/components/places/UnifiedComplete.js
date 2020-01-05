@@ -11645,9 +11645,6 @@ ftp
 "
 chrome
 "
-"
-resource
-"
 ]
 )
 ;
