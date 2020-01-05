@@ -4786,10 +4786,7 @@ _existing_values
 &
 '
 a
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option

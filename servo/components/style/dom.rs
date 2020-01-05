@@ -3313,10 +3313,7 @@ current_computed_values
 &
 '
 a
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option
