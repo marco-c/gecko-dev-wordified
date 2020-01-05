@@ -801,12 +801,12 @@ stmt
 ;
 RefPtr
 <
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 >
 spinner
 =
 new
-AsyncStatementSpinner
+PlacesAsyncStatementSpinner
 (
 )
 ;
