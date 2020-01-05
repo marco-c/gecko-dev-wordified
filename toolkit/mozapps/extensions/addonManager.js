@@ -1172,7 +1172,7 @@ aMessage
 target
 payload
 .
-principalToInherit
+triggeringPrincipal
 payload
 .
 uri
