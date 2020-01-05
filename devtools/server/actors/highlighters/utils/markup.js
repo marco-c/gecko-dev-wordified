@@ -3451,6 +3451,13 @@ if
 this
 .
 highlighterEnv
+&
+&
+this
+.
+highlighterEnv
+.
+pageListenerTarget
 )
 {
 let
