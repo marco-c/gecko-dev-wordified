@@ -7834,6 +7834,9 @@ extra_data
 =
 ExtraStyleData
 {
+author_style_disabled
+:
+None
 marker
 :
 PhantomData

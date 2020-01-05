@@ -9339,6 +9339,9 @@ Servo_StyleSet_NoteStyleSheetsChanged
 set
 :
 RawServoStyleSetBorrowed
+author_style_disabled
+:
+bool
 )
 ;
 }
