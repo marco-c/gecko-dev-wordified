@@ -695,6 +695,14 @@ val
 ;
 }
 else
+if
+(
+val
+!
+=
+=
+undefined
+)
 {
 results
 .
