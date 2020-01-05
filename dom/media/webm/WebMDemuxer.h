@@ -1394,7 +1394,7 @@ is
 used
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mSharedVideoTrackInfo
 ;

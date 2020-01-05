@@ -4127,7 +4127,7 @@ h
 mSharedVideoTrackInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 mInfo
 .

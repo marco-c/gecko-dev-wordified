@@ -2237,7 +2237,7 @@ info
 .
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mSharedAudioTrackInfo
 ;

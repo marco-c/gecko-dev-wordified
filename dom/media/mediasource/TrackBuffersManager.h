@@ -2344,7 +2344,7 @@ received
 .
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mInfo
 ;
@@ -2365,7 +2365,7 @@ segment
 .
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mLastInfo
 ;

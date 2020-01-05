@@ -10266,7 +10266,7 @@ mQueuedSamples
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 info
 =

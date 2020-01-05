@@ -4901,7 +4901,7 @@ decoder
 mSharedAudioTrackInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 mInfo
 .

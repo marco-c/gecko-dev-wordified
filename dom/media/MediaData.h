@@ -250,7 +250,7 @@ class
 MediaByteBuffer
 ;
 class
-SharedTrackInfo
+TrackInfoSharedPtr
 ;
 /
 /
@@ -3625,7 +3625,7 @@ mDiscardPadding
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mTrackInfo
 ;
