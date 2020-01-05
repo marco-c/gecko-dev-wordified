@@ -834,7 +834,6 @@ removeObserver
 (
 listener
 ADDON_NAME
-false
 )
 ;
 info

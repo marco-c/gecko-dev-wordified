@@ -409,7 +409,6 @@ enter
 -
 text
 "
-true
 )
 ;
 this

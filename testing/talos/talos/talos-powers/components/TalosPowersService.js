@@ -414,7 +414,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

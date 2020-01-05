@@ -9241,7 +9241,6 @@ this
 .
 RECENTLY_BOOKMARKED_PREF
 prefObserver
-false
 )
 ;
 PlacesUtils

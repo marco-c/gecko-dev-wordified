@@ -685,7 +685,6 @@ removeObserver
 (
 pref
 this
-false
 )
 ;
 }

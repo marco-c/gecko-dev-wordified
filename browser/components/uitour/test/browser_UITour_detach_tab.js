@@ -233,7 +233,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 windowDestroyedDeferred

@@ -371,7 +371,6 @@ removeObserver
 (
 this
 CURRENT_ENGINE
-true
 )
 ;
 }

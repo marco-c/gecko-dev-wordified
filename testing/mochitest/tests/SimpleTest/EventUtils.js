@@ -4098,7 +4098,6 @@ repaints
 -
 flushed
 "
-false
 )
 ;
 aWindow

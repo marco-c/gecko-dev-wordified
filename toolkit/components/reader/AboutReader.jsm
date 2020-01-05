@@ -2266,7 +2266,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 this

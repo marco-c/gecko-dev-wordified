@@ -1149,7 +1149,6 @@ repaints
 -
 flushed
 "
-false
 )
 ;
 setTimeout

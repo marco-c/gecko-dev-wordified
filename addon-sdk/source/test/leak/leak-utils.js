@@ -537,7 +537,6 @@ windowObserver
 "
 domwindowopened
 "
-false
 )
 ;
 yield

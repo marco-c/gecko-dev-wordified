@@ -302,7 +302,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

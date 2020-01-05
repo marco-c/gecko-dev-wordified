@@ -9238,7 +9238,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 this

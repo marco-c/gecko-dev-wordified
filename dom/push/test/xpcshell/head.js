@@ -369,7 +369,6 @@ removeObserver
 (
 observe
 topic
-false
 )
 ;
 serviceExports
@@ -807,7 +806,6 @@ removeObserver
 (
 observe
 topic
-false
 )
 ;
 resolve

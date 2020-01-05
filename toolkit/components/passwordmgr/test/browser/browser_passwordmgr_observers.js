@@ -855,7 +855,6 @@ dialog
 -
 updated
 "
-false
 )
 ;
 pmDialog

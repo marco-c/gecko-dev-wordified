@@ -12397,7 +12397,6 @@ application
 -
 background
 "
-false
 )
 ;
 }

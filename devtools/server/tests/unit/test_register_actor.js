@@ -681,7 +681,6 @@ onActorEvent
 "
 actor
 "
-false
 )
 ;
 client
