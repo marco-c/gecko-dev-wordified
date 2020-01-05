@@ -903,6 +903,9 @@ Instruction
 instr
 )
 {
+#
+ifdef
+DEBUG
 for
 (
 auto
@@ -922,6 +925,8 @@ IsConstVisitor
 )
 ;
 }
+#
+endif
 DecodeInstruction
 (
 instr

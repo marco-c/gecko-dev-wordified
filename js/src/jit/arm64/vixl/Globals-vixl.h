@@ -597,11 +597,8 @@ define
 VIXL_UNREACHABLE
 (
 )
+MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
 (
-(
-void
-)
-0
 )
 #
 endif
