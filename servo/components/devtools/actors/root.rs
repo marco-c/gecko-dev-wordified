@@ -249,6 +249,7 @@ derive
 RustcEncodable
 )
 ]
+pub
 struct
 RootActorMsg
 {

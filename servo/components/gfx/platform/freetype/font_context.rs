@@ -221,6 +221,7 @@ each
 FreeType
 instance
 .
+pub
 struct
 User
 {
