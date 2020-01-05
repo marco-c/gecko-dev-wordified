@@ -22697,7 +22697,10 @@ if
 !
 FetchName
 <
-true
+GetNameMode
+:
+:
+TypeOf
 >
 (
 cx
@@ -22719,7 +22722,10 @@ if
 !
 FetchName
 <
-false
+GetNameMode
+:
+:
+Normal
 >
 (
 cx
