@@ -738,7 +738,7 @@ IUnknown
 *
 aOuter
 HRESULT
-&
+*
 aResult
 )
 ;

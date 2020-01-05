@@ -152,7 +152,7 @@ mozilla
 /
 mscom
 /
-IHandlerPayload
+IHandlerProvider
 .
 h
 "
@@ -242,7 +242,7 @@ IInterceptorSink
 public
 ICallFrameEvents
 public
-HandlerPayload
+HandlerProvider
 {
 virtual
 STDMETHODIMP
