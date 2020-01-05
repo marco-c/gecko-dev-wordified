@@ -135,6 +135,13 @@ h
 #
 include
 "
+DrawResult
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
