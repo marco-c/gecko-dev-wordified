@@ -28258,6 +28258,7 @@ PartialEq
 Copy
 Clone
 HeapSizeOf
+Debug
 )
 ]
 pub
