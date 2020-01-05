@@ -343,6 +343,12 @@ nsString
 >
 mUrls
 ;
+nsTArray
+<
+bool
+>
+mAvailabilityOfUrl
+;
 }
 ;
 }

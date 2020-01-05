@@ -257,6 +257,13 @@ virtual
 bool
 RecvNotifyAvailableChange
 (
+nsTArray
+<
+nsString
+>
+&
+&
+aAvailabilityUrls
 const
 bool
 &
