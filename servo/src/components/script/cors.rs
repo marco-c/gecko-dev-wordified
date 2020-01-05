@@ -95,14 +95,14 @@ etc
 please
 check
 what
+/
+/
+!
 the
 request
 mode
 should
 be
-/
-/
-!
 and
 compare
 with
