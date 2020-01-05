@@ -66,7 +66,7 @@ marionette_driver
 .
 errors
 import
-ElementNotVisibleException
+ElementNotInteractableException
 from
 marionette_driver
 .
@@ -2967,7 +2967,7 @@ foo
 )
     
 def
-testShouldThrowElementNotVisibleWhenInputHidden
+test_not_interactable_if_hidden
 (
 self
 )
@@ -3017,7 +3017,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
 not_displayed
 .
 send_keys

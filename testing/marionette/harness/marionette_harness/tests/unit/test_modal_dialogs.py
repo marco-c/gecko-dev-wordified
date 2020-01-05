@@ -65,7 +65,7 @@ marionette_driver
 errors
 import
 NoAlertPresentException
-ElementNotVisibleException
+ElementNotInteractableException
 from
 marionette_driver
 .
@@ -1045,7 +1045,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
 alert
 .
 send_keys

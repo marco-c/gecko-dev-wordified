@@ -63,11 +63,8 @@ import
 By
 from
 marionette_driver
-.
-errors
 import
-NoSuchElementException
-ElementNotVisibleException
+errors
 from
 marionette_driver
 .
@@ -495,6 +492,8 @@ timeout
 30
 ignored_exceptions
 =
+errors
+.
 NoSuchElementException
 )
 .
@@ -569,7 +568,9 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+errors
+.
+ElementNotInteractableException
 )
 :
             
@@ -945,7 +946,9 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+errors
+.
+ElementClickInterceptedException
 )
 :
             
