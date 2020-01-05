@@ -354,6 +354,10 @@ of
 *
 display
 :
+[
+inline
+-
+]
 grid
 elements
 .
