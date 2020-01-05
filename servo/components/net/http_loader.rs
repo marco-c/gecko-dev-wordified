@@ -65,7 +65,7 @@ ControlMsg
 CookieSource
 LoadData
 Metadata
-ResponseSenders
+LoadConsumer
 }
 ;
 use
@@ -323,7 +323,7 @@ Invoke
 <
 (
 LoadData
-ResponseSenders
+LoadConsumer
 Arc
 <
 MIMEClassifier
@@ -377,7 +377,7 @@ err
 String
 start_chan
 :
-ResponseSenders
+LoadConsumer
 )
 {
 let
@@ -563,7 +563,7 @@ load_data
 LoadData
 start_chan
 :
-ResponseSenders
+LoadConsumer
 classifier
 :
 Arc
@@ -2738,7 +2738,7 @@ mut
 R
 start_chan
 :
-ResponseSenders
+LoadConsumer
 metadata
 :
 Metadata

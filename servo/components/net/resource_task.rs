@@ -107,7 +107,6 @@ net_traits
 ControlMsg
 LoadData
 LoadResponse
-ResponseSenders
 LoadConsumer
 }
 ;
@@ -594,7 +593,7 @@ start_sending
 (
 start_chan
 :
-ResponseSenders
+LoadConsumer
 metadata
 :
 Metadata
@@ -641,7 +640,7 @@ start_sending_sniffed
 (
 start_chan
 :
-ResponseSenders
+LoadConsumer
 metadata
 :
 Metadata
@@ -703,7 +702,7 @@ start_sending_sniffed_opt
 (
 start_chan
 :
-ResponseSenders
+LoadConsumer
 mut
 metadata
 :
@@ -914,7 +913,7 @@ start_sending_opt
 (
 start_chan
 :
-ResponseSenders
+LoadConsumer
 metadata
 :
 Metadata
@@ -931,7 +930,7 @@ ProgressSender
 match
 start_chan
 {
-ResponseSenders
+LoadConsumer
 :
 :
 Channel
@@ -1001,7 +1000,7 @@ Err
 )
 }
 }
-ResponseSenders
+LoadConsumer
 :
 :
 Listener
@@ -1881,7 +1880,7 @@ factory
 fn
 (
 LoadData
-ResponseSenders
+LoadConsumer
 Arc
 <
 MIMEClassifier
@@ -1896,7 +1895,7 @@ Invoke
 <
 (
 LoadData
-ResponseSenders
+LoadConsumer
 Arc
 <
 MIMEClassifier
@@ -1925,17 +1924,6 @@ classifier
 )
 }
 }
-let
-senders
-=
-ResponseSenders
-:
-:
-from_consumer
-(
-consumer
-)
-;
 let
 loader
 =
@@ -2038,7 +2026,7 @@ scheme
 ;
 start_sending
 (
-senders
+consumer
 Metadata
 :
 :
@@ -2108,7 +2096,7 @@ invoke
 (
 (
 load_data
-senders
+consumer
 self
 .
 mime_classifier

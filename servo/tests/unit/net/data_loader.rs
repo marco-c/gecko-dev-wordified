@@ -64,7 +64,7 @@ use
 net_traits
 :
 :
-ResponseSenders
+LoadConsumer
 :
 :
 Channel
