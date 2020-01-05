@@ -589,13 +589,6 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
-adapter
-.
-open
-(
-)
-;
 /
 /
 Kinto
@@ -1556,13 +1549,6 @@ adapter
 do_get_kinto_adapter
 (
 sqliteHandle
-)
-;
-yield
-adapter
-.
-open
-(
 )
 ;
 yield
