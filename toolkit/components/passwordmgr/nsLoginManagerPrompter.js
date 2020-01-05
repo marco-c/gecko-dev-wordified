@@ -6717,15 +6717,6 @@ icon
 mainAction
 secondaryActions
 {
-timeout
-:
-Date
-.
-now
-(
-)
-+
-10000
 displayURI
 :
 Services
@@ -6741,6 +6732,9 @@ null
 null
 )
 persistWhileVisible
+:
+true
+persistent
 :
 true
 passwordNotificationType

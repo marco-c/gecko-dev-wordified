@@ -21702,6 +21702,9 @@ support
 e10sAccessibilityUrl
 "
 )
+persistent
+:
+true
 persistWhileVisible
 :
 true
