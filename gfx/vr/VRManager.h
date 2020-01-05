@@ -237,7 +237,12 @@ false
 )
 ;
 void
-ScanForDevices
+ScanForControllers
+(
+)
+;
+void
+RemoveControllers
 (
 )
 ;

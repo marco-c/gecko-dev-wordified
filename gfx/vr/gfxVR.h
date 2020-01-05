@@ -1513,6 +1513,14 @@ ScanForDevices
 =
 0
 ;
+virtual
+void
+RemoveDevices
+(
+)
+=
+0
+;
 void
 NewButtonEvent
 (
