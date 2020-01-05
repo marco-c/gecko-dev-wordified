@@ -286,6 +286,8 @@ glyphs
 pub
 trait
 FontHandleMethods
+:
+Sized
 {
 fn
 new_from_template

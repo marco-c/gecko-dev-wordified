@@ -2942,7 +2942,7 @@ to_owned
 (
 )
 .
-into_boxed_slice
+into_boxed_str
 (
 )
 ;

@@ -480,6 +480,9 @@ trait_def
 =
 TraitDef
 {
+is_unsafe
+:
+false
 span
 :
 span

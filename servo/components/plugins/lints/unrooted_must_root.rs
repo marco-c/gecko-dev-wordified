@@ -1118,7 +1118,10 @@ kind
 visit
 :
 :
-FkItemFn
+FnKind
+:
+:
+ItemFn
 (
 i
 _
@@ -1131,7 +1134,10 @@ _
 visit
 :
 :
-FkMethod
+FnKind
+:
+:
+Method
 (
 i
 _
@@ -1193,7 +1199,10 @@ return
 visit
 :
 :
-FkItemFn
+FnKind
+:
+:
+ItemFn
 (
 _
 _

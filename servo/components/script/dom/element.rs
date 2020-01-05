@@ -4859,7 +4859,7 @@ index
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -4914,7 +4914,7 @@ index
 Arc
 :
 :
-make_unique
+make_mut
 (
 &
 mut
@@ -5032,7 +5032,7 @@ existing_declarations
 Arc
 :
 :
-make_unique
+make_mut
 (
 existing_declarations
 )
@@ -5273,7 +5273,7 @@ from
 Arc
 :
 :
-make_unique
+make_mut
 (
 from
 )
@@ -5284,7 +5284,7 @@ to
 Arc
 :
 :
-make_unique
+make_mut
 (
 to
 )
