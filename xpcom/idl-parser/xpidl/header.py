@@ -4415,6 +4415,22 @@ outputfile
     
 cachedir
 =
+os
+.
+path
+.
+dirname
+(
+outputfile
+.
+name
+if
+outputfile
+else
+'
+'
+)
+or
 '
 .
 '
