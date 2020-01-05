@@ -427,6 +427,16 @@ aHeadersDataStream
 ?
 *
 param
+aNoOpenerImplied
+if
+the
+link
+implies
+"
+noopener
+"
+*
+param
 aDocShell
 (
 out
@@ -478,6 +488,10 @@ nsIInputStream
 aHeadersDataStream
 =
 0
+bool
+aNoOpenerImplied
+=
+false
 nsIDocShell
 *
 *
