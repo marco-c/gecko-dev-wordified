@@ -764,7 +764,7 @@ aFontKey
 Range
 <
 const
-WRGlyphInstance
+WrGlyphInstance
 >
 aGlyphBuffer
 float

@@ -631,7 +631,7 @@ a
 }
 ;
 struct
-WRGlyphInstance
+WrGlyphInstance
 {
 uint32_t
 index
@@ -648,7 +648,7 @@ operator
 =
 (
 const
-WRGlyphInstance
+WrGlyphInstance
 &
 other
 )
@@ -700,7 +700,7 @@ bindings
 .
 rs
 .
-WRGlyphInstance
+WrGlyphInstance
 /
 /
 versus
@@ -741,7 +741,7 @@ color
 ;
 nsTArray
 <
-WRGlyphInstance
+WrGlyphInstance
 >
 glyphs
 ;
@@ -1968,7 +1968,7 @@ color
 WrFontKey
 font_Key
 const
-WRGlyphInstance
+WrGlyphInstance
 *
 glyphs
 uint32_t

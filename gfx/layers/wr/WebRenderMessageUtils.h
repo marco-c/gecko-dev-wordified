@@ -664,7 +664,7 @@ template
 struct
 ParamTraits
 <
-WRGlyphInstance
+WrGlyphInstance
 >
 {
 static
@@ -675,7 +675,7 @@ Message
 *
 aMsg
 const
-WRGlyphInstance
+WrGlyphInstance
 &
 aParam
 )
@@ -716,7 +716,7 @@ aMsg
 PickleIterator
 *
 aIter
-WRGlyphInstance
+WrGlyphInstance
 *
 aResult
 )
