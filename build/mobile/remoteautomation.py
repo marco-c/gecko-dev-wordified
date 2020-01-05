@@ -2675,6 +2675,37 @@ except
 DMError
 :
                 
+#
+we
+currently
+don
+'
+t
+retry
+properly
+in
+the
+pullFile
+                
+#
+function
+in
+dmSUT
+so
+an
+error
+here
+is
+not
+necessarily
+                
+#
+the
+end
+of
+the
+world
+                
 return
 False
             

@@ -4250,6 +4250,17 @@ error_summary_file
 :
 error_summary_file
             
+'
+dm_trans
+'
+:
+c
+[
+'
+device_manager
+'
+]
+            
 #
 marionette
 options

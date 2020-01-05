@@ -311,6 +311,14 @@ socket
 "
     
 "
+device_manager
+"
+:
+"
+adb
+"
+    
+"
 exes
 "
 :
@@ -586,6 +594,14 @@ options
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 app
 =
 %
@@ -810,6 +826,14 @@ options
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 app
 =
 %
@@ -1014,6 +1038,14 @@ options
 "
 :
 [
+                
+"
+-
+-
+dm_trans
+=
+adb
+"
                 
 "
 -
@@ -1242,6 +1274,14 @@ options
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 app
 =
 %
@@ -1442,6 +1482,14 @@ options
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 app
 =
 %
@@ -1636,6 +1684,14 @@ options
 "
 :
 [
+                
+"
+-
+-
+dm_trans
+=
+adb
+"
                 
 "
 -
@@ -1852,6 +1908,14 @@ options
 "
 :
 [
+                
+"
+-
+-
+dm_trans
+=
+adb
+"
                 
 "
 -
@@ -2091,6 +2155,14 @@ ignore
 window
 -
 size
+"
+                
+"
+-
+-
+dm_trans
+=
+adb
 "
                 
 "
@@ -2341,6 +2413,14 @@ size
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 remote
 -
 webserver
@@ -2542,6 +2622,14 @@ size
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 remote
 -
 webserver
@@ -2736,6 +2824,14 @@ size
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 remote
 -
 webserver
@@ -2909,6 +3005,14 @@ ignore
 window
 -
 size
+"
+                
+"
+-
+-
+dm_trans
+=
+adb
 "
                 
 "
@@ -3123,6 +3227,14 @@ size
 "
 -
 -
+dm_trans
+=
+adb
+"
+                
+"
+-
+-
 remote
 -
 webserver
@@ -3296,6 +3408,14 @@ options
 "
 :
 [
+                
+"
+-
+-
+dm_trans
+=
+adb
+"
                 
 "
 -
@@ -3489,6 +3609,14 @@ path
 xre_path
 )
 s
+"
+                
+"
+-
+-
+dm_trans
+=
+adb
 "
                 
 "

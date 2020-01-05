@@ -1091,6 +1091,14 @@ xrePath
         
 args
 .
+dm_trans
+=
+"
+adb
+"
+        
+args
+.
 ignoreWindowSize
 =
 True
