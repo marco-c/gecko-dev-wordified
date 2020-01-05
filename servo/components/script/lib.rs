@@ -253,6 +253,10 @@ bitflags
 ;
 extern
 crate
+bluetooth_traits
+;
+extern
+crate
 canvas_traits
 ;
 extern

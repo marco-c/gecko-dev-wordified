@@ -348,14 +348,6 @@ blob_url_store
 ;
 pub
 mod
-bluetooth_scanfilter
-;
-pub
-mod
-bluetooth_thread
-;
-pub
-mod
 filemanager_thread
 ;
 pub
