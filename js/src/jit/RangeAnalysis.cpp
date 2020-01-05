@@ -194,7 +194,7 @@ include
 "
 vm
 /
-TypedArrayCommon
+TypedArrayObject
 .
 h
 "
