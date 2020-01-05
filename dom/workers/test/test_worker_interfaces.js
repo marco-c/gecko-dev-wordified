@@ -373,6 +373,9 @@ WeakMap
 "
 WeakSet
 "
+"
+WebAssembly
+"
 ]
 ;
 /

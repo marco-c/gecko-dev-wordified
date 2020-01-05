@@ -530,16 +530,6 @@ enabled
 "
 true
 ]
-[
-"
-javascript
-.
-options
-.
-wasm
-"
-true
-]
 ]
 }
 nextTestHarnessStep
