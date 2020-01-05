@@ -479,7 +479,7 @@ screen_rect
 :
 Rect
 <
-uint
+usize
 >
 /
 /
@@ -5315,7 +5315,7 @@ DrawOptions
 :
 new
 (
-1u
+1
 as
 AzFloat
 0
@@ -5376,7 +5376,7 @@ border_width
 (
 dash_size
 as
-int
+i32
 )
 as
 AzFloat
@@ -5385,7 +5385,7 @@ border_width
 (
 dash_size
 as
-int
+i32
 )
 as
 AzFloat
@@ -5410,7 +5410,7 @@ CapStyle
 :
 :
 Butt
-10u
+10
 as
 AzFloat
 &

@@ -211,7 +211,7 @@ buffers
 .
 mem
 :
-uint
+usize
 /
 /
 /
@@ -236,7 +236,7 @@ exceeded
 .
 max_mem
 :
-uint
+usize
 /
 /
 /
@@ -255,7 +255,7 @@ used
 .
 counter
 :
-uint
+usize
 }
 /
 /
@@ -290,7 +290,7 @@ struct
 BufferKey
 (
 [
-uint
+usize
 ;
 2
 ]
@@ -422,7 +422,7 @@ input
 :
 Size2D
 <
-uint
+usize
 >
 )
 -
@@ -492,7 +492,7 @@ last
 requested
 last_action
 :
-uint
+usize
 }
 impl
 BufferMap
@@ -515,7 +515,7 @@ new
 (
 max_mem
 :
-uint
+usize
 )
 -
 >
@@ -533,13 +533,13 @@ new
 )
 mem
 :
-0u
+0
 max_mem
 :
 max_mem
 counter
 :
-0u
+0
 }
 }
 /
@@ -972,7 +972,7 @@ size
 :
 Size2D
 <
-uint
+usize
 >
 )
 -

@@ -376,7 +376,7 @@ FnOnce
 *
 const
 u8
-uint
+usize
 )
 {
 panic

@@ -850,7 +850,7 @@ returned
 .
 used_buffer_count
 :
-uint
+usize
 }
 /
 /
@@ -2210,7 +2210,7 @@ width
 4
 )
 as
-uint
+usize
 painted_with_cpu
 :
 true
@@ -4094,8 +4094,6 @@ width
 *
 4
 )
-as
-uint
 painted_with_cpu
 :
 false

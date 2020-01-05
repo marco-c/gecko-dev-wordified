@@ -545,7 +545,7 @@ ShapedGlyphData
 {
 count
 :
-int
+usize
 glyph_infos
 :
 *
@@ -613,13 +613,6 @@ mut
 glyph_count
 )
 ;
-let
-glyph_count
-=
-glyph_count
-as
-int
-;
 assert
 !
 (
@@ -648,13 +641,6 @@ mut
 pos_count
 )
 ;
-let
-pos_count
-=
-pos_count
-as
-int
-;
 assert
 !
 (
@@ -680,6 +666,8 @@ ShapedGlyphData
 count
 :
 glyph_count
+as
+usize
 glyph_infos
 :
 glyph_infos
@@ -703,11 +691,11 @@ byte_offset_of_glyph
 self
 i
 :
-int
+usize
 )
 -
 >
-int
+u32
 {
 assert
 !
@@ -731,6 +719,8 @@ glyph_infos
 offset
 (
 i
+as
+isize
 )
 ;
 (
@@ -739,8 +729,6 @@ glyph_info_i
 )
 .
 cluster
-as
-int
 }
 }
 pub
@@ -752,7 +740,7 @@ self
 )
 -
 >
-int
+usize
 {
 self
 .
@@ -786,7 +774,7 @@ get_entry_for_glyph
 self
 i
 :
-int
+usize
 y_pos
 :
 &
@@ -819,6 +807,8 @@ glyph_infos
 offset
 (
 i
+as
+isize
 )
 ;
 let
@@ -831,6 +821,8 @@ pos_infos
 offset
 (
 i
+as
+isize
 )
 ;
 let
@@ -1746,8 +1738,6 @@ text
 len
 (
 )
-as
-int
 ;
 let
 char_max
@@ -1761,8 +1751,6 @@ chars
 count
 (
 )
-as
-int
 ;
 /
 /
@@ -1912,8 +1900,6 @@ NO_GLYPH
 take
 (
 byte_max
-as
-uint
 )
 .
 collect
@@ -1933,8 +1919,6 @@ CONTINUATION_BYTE
 take
 (
 byte_max
-as
-uint
 )
 .
 collect
@@ -2016,6 +2000,8 @@ byte_offset_of_glyph
 (
 i
 )
+as
+usize
 ;
 if
 loc
@@ -2028,8 +2014,6 @@ assert
 byte_to_glyph
 [
 loc
-as
-uint
 ]
 !
 =
@@ -2039,8 +2023,6 @@ CONTINUATION_BYTE
 byte_to_glyph
 [
 loc
-as
-uint
 ]
 =
 i
@@ -2173,7 +2155,7 @@ glyph_span
 :
 Range
 <
-int
+usize
 >
 =
 Range
@@ -2231,7 +2213,7 @@ char_byte_span
 :
 Range
 <
-int
+usize
 >
 =
 Range
@@ -2356,6 +2338,8 @@ char_byte_span
 reset
 (
 char_byte_start
+as
+usize
 0
 )
 ;
@@ -2404,8 +2388,6 @@ char_byte_span
 end
 (
 )
-as
-uint
 )
 ;
 drop
@@ -2422,8 +2404,6 @@ extend_to
 range
 .
 next
-as
-int
 )
 ;
 debug
@@ -2485,8 +2465,6 @@ char_byte_span
 end
 (
 )
-as
-uint
 ]
 =
 =
@@ -2532,8 +2510,6 @@ char_byte_span
 end
 (
 )
-as
-uint
 )
 ;
 drop
@@ -2550,8 +2526,6 @@ extend_to
 range
 .
 next
-as
-int
 )
 ;
 }
@@ -2606,8 +2580,6 @@ if
 byte_to_glyph
 [
 i
-as
-uint
 ]
 >
 NO_GLYPH
@@ -2622,11 +2594,9 @@ max
 byte_to_glyph
 [
 i
-as
-uint
 ]
 as
-int
+usize
 +
 1
 max_glyph_idx
@@ -2814,6 +2784,8 @@ char_byte_span
 contains
 (
 loc
+as
+usize
 )
 {
 all_glyphs_are_within_cluster
@@ -3059,8 +3031,6 @@ covered_byte_span
 end
 (
 )
-as
-uint
 ]
 =
 =
@@ -3078,8 +3048,6 @@ covered_byte_span
 end
 (
 )
-as
-uint
 )
 ;
 drop
@@ -3096,8 +3064,6 @@ extend_to
 range
 .
 next
-as
-int
 )
 ;
 }
@@ -3389,8 +3355,6 @@ char_byte_span
 begin
 (
 )
-as
-uint
 )
 ;
 let
@@ -3584,8 +3548,6 @@ text
 char_range_at
 (
 i
-as
-uint
 )
 ;
 drop
@@ -3600,8 +3562,6 @@ i
 range
 .
 next
-as
-int
 ;
 if
 i
@@ -4487,7 +4447,7 @@ const
 u8
 len
 :
-uint
+usize
 |
 {
 /

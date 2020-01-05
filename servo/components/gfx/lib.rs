@@ -91,14 +91,6 @@ core
 #
 !
 [
-feature
-(
-int_uint
-)
-]
-#
-!
-[
 cfg_attr
 (
 any

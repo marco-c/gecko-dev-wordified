@@ -404,8 +404,6 @@ u32
 <
 <
 GLYPH_ADVANCE_SHIFT
-as
-uint
 ;
 GlyphEntry
 :
@@ -453,7 +451,7 @@ starts_ligature
 bool
 glyph_count
 :
-int
+usize
 )
 -
 >
@@ -470,7 +468,7 @@ u16
 :
 MAX
 as
-int
+usize
 )
 ;
 debug
@@ -538,8 +536,6 @@ u32
 <
 <
 GLYPH_COUNT_SHIFT
-as
-uint
 ;
 GlyphEntry
 :
@@ -578,7 +574,7 @@ missing
 (
 glyph_count
 :
-int
+usize
 )
 -
 >
@@ -595,7 +591,7 @@ u16
 :
 MAX
 as
-int
+usize
 )
 ;
 GlyphEntry
@@ -611,8 +607,6 @@ u32
 <
 <
 GLYPH_COUNT_SHIFT
-as
-uint
 )
 }
 }
@@ -1109,8 +1103,6 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
-as
-uint
 )
 )
 =
@@ -1191,8 +1183,6 @@ GLYPH_ADVANCE_MASK
 >
 >
 GLYPH_ADVANCE_SHIFT
-as
-uint
 )
 .
 unwrap
@@ -1374,8 +1364,6 @@ FLAG_CAN_BREAK_MASK
 >
 >
 FLAG_CAN_BREAK_SHIFT
-as
-uint
 )
 as
 u8
@@ -1532,8 +1520,6 @@ u32
 <
 <
 FLAG_CAN_BREAK_SHIFT
-as
-uint
 ;
 GlyphEntry
 :
@@ -1583,8 +1569,6 @@ GLYPH_COUNT_MASK
 >
 >
 GLYPH_COUNT_SHIFT
-as
-uint
 )
 as
 u16
@@ -1847,7 +1831,7 @@ glyphs
 buffer
 detail_offset
 :
-int
+usize
 }
 impl
 PartialOrd
@@ -2109,8 +2093,6 @@ detail_buffer
 len
 (
 )
-as
-int
 }
 ;
 debug
@@ -2330,7 +2312,7 @@ assert
 (
 count
 as
-uint
+usize
 )
 <
 =
@@ -2408,7 +2390,7 @@ i
 (
 count
 as
-uint
+usize
 )
 <
 =
@@ -2441,7 +2423,7 @@ i
 +
 count
 as
-uint
+usize
 ]
 }
 fn
@@ -2471,7 +2453,7 @@ assert
 (
 detail_offset
 as
-uint
+usize
 )
 <
 =
@@ -2549,7 +2531,7 @@ i
 (
 detail_offset
 as
-uint
+usize
 )
 <
 self
@@ -2571,7 +2553,7 @@ i
 (
 detail_offset
 as
-uint
+usize
 )
 ]
 }
@@ -3696,7 +3678,7 @@ new
 (
 length
 :
-int
+usize
 is_whitespace
 :
 bool
@@ -3730,8 +3712,6 @@ initial
 take
 (
 length
-as
-uint
 )
 .
 collect
@@ -4162,8 +4142,6 @@ data_for_glyphs
 len
 (
 )
-as
-int
 ;
 let
 first_glyph_data
@@ -4208,8 +4186,6 @@ DetailedGlyph
 .
 .
 glyph_count
-as
-uint
 )
 .
 map
@@ -5296,11 +5272,7 @@ GLYPH_ADVANCE_MASK
 )
 >
 >
-(
 GLYPH_ADVANCE_SHIFT
-as
-uint
-)
 )
 +
 Au
@@ -5336,11 +5308,7 @@ GLYPH_ADVANCE_MASK
 advance
 <
 <
-(
 GLYPH_ADVANCE_SHIFT
-as
-uint
-)
 )
 ;
 }

@@ -7933,7 +7933,7 @@ debug_with_level
 self
 level
 :
-uint
+u32
 )
 {
 let

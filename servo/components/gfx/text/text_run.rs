@@ -1462,7 +1462,7 @@ char_i
 )
 =
 (
-0u
+0
 CharIndex
 (
 0
@@ -2377,7 +2377,7 @@ CharIndex
 >
 Option
 <
-uint
+usize
 >
 {
 (

@@ -337,7 +337,7 @@ FnOnce
 *
 const
 u8
-uint
+usize
 )
 {
 blk
@@ -361,7 +361,7 @@ len
 (
 )
 as
-uint
+usize
 )
 ;
 }
