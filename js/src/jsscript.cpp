@@ -21458,6 +21458,14 @@ srcFun
 isStarGenerator
 (
 )
+|
+|
+srcFun
+-
+>
+isAsync
+(
+)
 )
 {
 cloneProto
