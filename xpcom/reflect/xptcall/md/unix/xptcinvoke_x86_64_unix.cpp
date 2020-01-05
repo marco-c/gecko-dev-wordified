@@ -183,16 +183,6 @@ nr_gpr
 =
 0u
 ;
-/
-/
-skip
-one
-GP
-register
-for
-'
-that
-'
 uint32_t
 nr_fpr
 =
