@@ -435,10 +435,7 @@ undefined
 if
 ENABLE_INTL_API
 VERTICAL_ORIENTATION_R
-0
-/
-/
-IdentifierType
+XIDMOD_NOT_CHARS
 #
 else
 uint8_t
@@ -455,10 +452,7 @@ PAIRED_BRACKET_TYPE_NONE
 EastAsianWidthFWH
 HB_UNICODE_GENERAL_CATEGORY_UNASSIGNED
 eCharType_LeftToRight
-0
-/
-/
-IdentifierType
+XIDMOD_NOT_CHARS
 -
 1
 /
