@@ -2757,7 +2757,6 @@ aAnimationValue
 nsIFrame
 *
 aFrame
-const
 TransformReferenceBox
 &
 aRefBox
@@ -2833,12 +2832,6 @@ GetCSSValueSharedListValue
 (
 )
 ;
-TransformReferenceBox
-refBox
-(
-aFrame
-)
-;
 AddTransformFunctions
 (
 list
@@ -2857,7 +2850,7 @@ aFrame
 PresContext
 (
 )
-refBox
+aRefBox
 aAnimatable
 .
 get_ArrayOfTransformFunction
@@ -2889,7 +2882,6 @@ aProperty
 nsIFrame
 *
 aFrame
-const
 TransformReferenceBox
 &
 aRefBox
