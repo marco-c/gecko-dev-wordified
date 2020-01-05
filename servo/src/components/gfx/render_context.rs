@@ -1109,7 +1109,7 @@ origin
 .
 x
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1120,7 +1120,7 @@ origin
 .
 y
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1134,7 +1134,7 @@ size
 .
 width
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1145,7 +1145,7 @@ size
 .
 height
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1201,7 +1201,7 @@ self
 .
 top
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1210,7 +1210,7 @@ self
 .
 right
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1219,7 +1219,7 @@ self
 .
 bottom
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -1228,7 +1228,7 @@ self
 .
 left
 .
-to_px
+to_nearest_px
 (
 )
 as

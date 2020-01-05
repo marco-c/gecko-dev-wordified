@@ -2472,7 +2472,7 @@ root_size
 .
 width
 .
-to_px
+to_nearest_px
 (
 )
 as
@@ -2481,7 +2481,7 @@ root_size
 .
 height
 .
-to_px
+to_nearest_px
 (
 )
 as
