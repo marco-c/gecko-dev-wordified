@@ -1363,6 +1363,10 @@ complete
 ;
 }
 else
+if
+(
+noFilesFound
+)
 {
 /
 /
@@ -1422,11 +1426,6 @@ after
 Firefox
 Reset
 .
-if
-(
-noFilesFound
-)
-{
 /
 /
 There
@@ -1615,7 +1614,6 @@ state
 STATE_RUNNING_STR
 )
 ;
-}
 }
 /
 /

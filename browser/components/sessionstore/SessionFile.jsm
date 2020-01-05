@@ -1945,7 +1945,10 @@ break
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 OS
@@ -1965,10 +1968,9 @@ exists
 false
 ;
 }
-catch
-(
-ex
+else
 if
+(
 ex
 instanceof
 OS
@@ -2028,10 +2030,9 @@ corrupted
 true
 ;
 }
-catch
-(
-ex
+else
 if
+(
 ex
 instanceof
 SyntaxError
@@ -2069,6 +2070,7 @@ corrupted
 =
 true
 ;
+}
 }
 finally
 {

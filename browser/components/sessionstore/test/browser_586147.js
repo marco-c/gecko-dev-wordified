@@ -106,7 +106,6 @@ false
 )
 ;
 }
-;
 function
 test
 (

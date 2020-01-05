@@ -440,10 +440,10 @@ blank
 state
 &
 docStop
-=
+)
+!
 =
 docStop
-)
 )
 {
 return

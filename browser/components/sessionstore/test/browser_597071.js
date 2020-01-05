@@ -54,6 +54,7 @@ window
 add_task
 (
 function
+*
 test_close_last_nonpopup_window
 (
 )

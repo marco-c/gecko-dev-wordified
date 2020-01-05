@@ -260,7 +260,6 @@ getClosedState
 )
 ;
 }
-;
 function
 getClosedState
 (

@@ -5723,7 +5723,10 @@ gCurrentEpoch
 catch
 (
 ex
+)
+{
 if
+(
 ex
 &
 &
@@ -5758,6 +5761,7 @@ telemetry
 }
 )
 ;
+}
 }
 }
 }
