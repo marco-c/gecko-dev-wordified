@@ -495,7 +495,9 @@ window
 openPreferences
 (
 "
-paneAdvanced
+advanced
+-
+reports
 "
 )
 ;
