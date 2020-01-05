@@ -3860,6 +3860,9 @@ RawGeckoPresContext
 RawGeckoPresContextOwned
 "
 "
+RefPtr
+"
+"
 ThreadSafeURIHolder
 "
 "
