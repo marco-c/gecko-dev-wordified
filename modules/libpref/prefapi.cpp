@@ -2878,13 +2878,11 @@ s2
 return
 0
 ;
-else
 return
 -
 1
 ;
 }
-else
 if
 (
 !
@@ -2893,7 +2891,6 @@ s2
 return
 1
 ;
-else
 return
 strcmp
 (
