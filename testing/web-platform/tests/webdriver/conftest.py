@@ -225,6 +225,20 @@ _session
 )
 )
     
+request
+.
+addfinalizer
+(
+lambda
+:
+cleanup
+.
+ensure_valid_window
+(
+_session
+)
+)
+    
 return
 _session
 pytest
