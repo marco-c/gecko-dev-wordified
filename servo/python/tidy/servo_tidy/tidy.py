@@ -2182,9 +2182,6 @@ exceptions
 =
 [
 "
-bitflags
-"
-"
 lazy_static
 "
 ]
