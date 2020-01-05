@@ -24380,8 +24380,8 @@ GetParent
 }
 }
 }
-~
-EnterLeaveDispatcher
+void
+Dispatch
 (
 )
 {
@@ -24934,6 +24934,12 @@ mLastOverElement
 aMovingInto
 )
 ;
+leaveDispatcher
+.
+Dispatch
+(
+)
+;
 wrapper
 -
 >
@@ -25376,6 +25382,13 @@ ePointerOver
 eMouseOver
 aContent
 lastOverElement
+)
+;
+enterDispatcher
+-
+>
+Dispatch
+(
 )
 ;
 wrapper
