@@ -203,7 +203,7 @@ containers
 =
 ContextualIdentityService
 .
-getIdentities
+getPublicIdentities
 (
 )
 ;
@@ -574,7 +574,7 @@ identity
 =
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )

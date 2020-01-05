@@ -8373,7 +8373,7 @@ bundle_browser
 ;
 ContextualIdentityService
 .
-getIdentities
+getPublicIdentities
 (
 )
 .

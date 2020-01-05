@@ -3445,7 +3445,7 @@ menuseparator
 }
 ContextualIdentityService
 .
-getIdentities
+getPublicIdentities
 (
 )
 .

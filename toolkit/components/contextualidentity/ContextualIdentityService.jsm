@@ -1381,7 +1381,7 @@ error
 ;
 }
 }
-getIdentities
+getPublicIdentities
 (
 )
 {
@@ -1457,7 +1457,7 @@ name
 )
 ;
 }
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
@@ -1509,7 +1509,7 @@ identity
 =
 this
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
@@ -1518,12 +1518,6 @@ if
 (
 !
 identity
-|
-|
-!
-identity
-.
-public
 )
 {
 return
@@ -1605,7 +1599,7 @@ identity
 =
 this
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
@@ -1850,7 +1844,7 @@ identity
 =
 this
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
@@ -1870,12 +1864,6 @@ if
 (
 !
 identity
-|
-|
-!
-identity
-.
-public
 )
 {
 return
