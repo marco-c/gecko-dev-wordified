@@ -898,10 +898,8 @@ type
 ;
 if
 (
+!
 func
-=
-=
-NULL
 )
 GXV_TRACE
 (

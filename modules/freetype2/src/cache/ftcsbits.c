@@ -2537,13 +2537,11 @@ these
 /
 if
 (
+!
 sbit
 -
 >
 buffer
-=
-=
-NULL
 &
 &
 sbit

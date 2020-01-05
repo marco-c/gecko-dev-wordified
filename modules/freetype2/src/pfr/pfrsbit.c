@@ -3462,6 +3462,8 @@ PFR_Size
 size
 FT_UInt
 glyph_index
+FT_Bool
+metrics_only
 )
 {
 FT_Error
@@ -4743,6 +4745,13 @@ FT_Long
 )
 ysize
 )
+;
+if
+(
+metrics_only
+)
+goto
+Exit1
 ;
 /
 *

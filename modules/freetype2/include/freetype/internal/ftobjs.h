@@ -4814,6 +4814,8 @@ const
 char
 *
 service_id
+FT_Bool
+global
 )
 ;
 #
@@ -9135,7 +9137,7 @@ pixels
 FT_Byte
 lcd_weights
 [
-7
+5
 ]
 ;
 /

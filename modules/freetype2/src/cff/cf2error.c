@@ -623,11 +623,9 @@ if
 error
 &
 &
+!
 *
 error
-=
-=
-0
 )
 *
 error

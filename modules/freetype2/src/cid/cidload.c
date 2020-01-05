@@ -3503,14 +3503,9 @@ FT_UNUSED
 face
 )
 ;
-FT_MEM_ZERO
+FT_ZERO
 (
 loader
-sizeof
-(
-*
-loader
-)
 )
 ;
 }
@@ -4252,6 +4247,8 @@ binary_length
 )
 |
 |
+FT_SET_ERROR
+(
 cid_hex_to_binary
 (
 face
@@ -4267,6 +4264,7 @@ parser
 >
 data_offset
 face
+)
 )
 )
 goto

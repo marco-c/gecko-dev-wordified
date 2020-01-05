@@ -2608,10 +2608,12 @@ fracUp
 CF2_Fixed
 downMoveUp
 =
+(
 fracDown
 =
 =
 0
+)
 ?
 0
 :
@@ -2625,10 +2627,12 @@ fracDown
 CF2_Fixed
 upMoveUp
 =
+(
 fracUp
 =
 =
 0
+)
 ?
 0
 :

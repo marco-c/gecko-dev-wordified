@@ -484,13 +484,11 @@ stringLength
 0
 &
 &
+!
 entry
 -
 >
 string
-=
-=
-NULL
 )
 {
 FT_Memory

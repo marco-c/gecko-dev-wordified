@@ -4374,7 +4374,7 @@ Function
 /
 /
 *
-tt_face_load_max_profile
+tt_face_load_maxp
 *
 /
 /

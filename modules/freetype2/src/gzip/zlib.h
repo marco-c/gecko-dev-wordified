@@ -270,7 +270,7 @@ _ZLIB_H
 #
 include
 "
-zconf
+ftzconf
 .
 h
 "

@@ -310,6 +310,8 @@ PFR_Size
 size
 FT_UInt
 glyph_index
+FT_Bool
+metrics_only
 )
 ;
 FT_END_HEADER

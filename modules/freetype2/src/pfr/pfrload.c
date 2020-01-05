@@ -4027,9 +4027,6 @@ phy_font
 -
 >
 font_id
-!
-=
-NULL
 )
 goto
 Exit
@@ -4145,9 +4142,6 @@ phy_font
 vertical
 .
 stem_snaps
-!
-=
-NULL
 )
 goto
 Exit

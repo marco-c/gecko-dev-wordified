@@ -3344,13 +3344,11 @@ FT_Err_Ok
 ;
 if
 (
+!
 face
 -
 >
 glyph
-=
-=
-NULL
 )
 {
 /
