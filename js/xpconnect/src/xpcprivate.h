@@ -2356,16 +2356,6 @@ GetRuntimeInstance
 (
 )
 ;
-XPCJSContext
-*
-GetContext
-(
-)
-{
-return
-mContext
-;
-}
 static
 bool
 IsISupportsDescendant
@@ -2598,10 +2588,6 @@ gSelf
 static
 bool
 gOnceAliveNowDead
-;
-XPCJSContext
-*
-mContext
 ;
 XPCJSRuntime
 *
