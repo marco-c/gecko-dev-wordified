@@ -1221,7 +1221,7 @@ return
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 thread_state_flavor_t
 flavor
@@ -1270,7 +1270,7 @@ __DARWIN_UNIX03
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 thread_state_flavor_t
 flavor
@@ -1330,7 +1330,7 @@ architecture
 endif
 /
 /
-SPS_ARCH_
+GP_ARCH_
 *
 if
 (
@@ -1603,7 +1603,7 @@ altered
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 asm
 (
@@ -1694,7 +1694,7 @@ fp
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 asm
 (

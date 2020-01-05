@@ -217,7 +217,7 @@ abstraction
 if
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 typedef
 mach_header

@@ -369,7 +369,7 @@ if
 !
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 #
 pragma
@@ -709,7 +709,7 @@ if
 !
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 #
 pragma

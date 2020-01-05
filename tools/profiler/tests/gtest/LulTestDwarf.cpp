@@ -16897,7 +16897,7 @@ helpful
 if
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 #
 define
@@ -16911,13 +16911,13 @@ DW_REG_ARM_R11
 elif
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 |
 |
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 #
 define

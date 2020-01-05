@@ -411,7 +411,7 @@ DW_REG_CFA
 if
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 /
 /
@@ -439,7 +439,7 @@ DW_REG_ARM_R15
 elif
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 /
 /
@@ -483,7 +483,7 @@ DW_REG_INTEL_XIP
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 DW_REG_INTEL_XBP
 =
@@ -2507,13 +2507,13 @@ mCfaExpr
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 |
 |
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 LExpr
 mXipExpr
@@ -2532,7 +2532,7 @@ mXbpExpr
 elif
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 LExpr
 mR15expr
@@ -2613,13 +2613,13 @@ reg
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 |
 |
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 case
 DW_REG_INTEL_XBP
@@ -2637,7 +2637,7 @@ true
 elif
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 case
 DW_REG_ARM_R7

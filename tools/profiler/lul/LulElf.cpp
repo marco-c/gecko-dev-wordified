@@ -633,7 +633,7 @@ h
 if
 defined
 (
-SPS_PLAT_arm_android
+GP_PLAT_arm_android
 )
 &
 &

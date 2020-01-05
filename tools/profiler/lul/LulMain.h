@@ -1165,7 +1165,7 @@ UnwindRegs
 if
 defined
 (
-SPS_ARCH_arm
+GP_ARCH_arm
 )
 TaggedUWord
 r7
@@ -1189,13 +1189,13 @@ r15
 elif
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 |
 |
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 TaggedUWord
 xbp

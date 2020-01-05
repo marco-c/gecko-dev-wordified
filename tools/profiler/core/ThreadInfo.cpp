@@ -134,7 +134,7 @@ h
 if
 defined
 (
-SPS_OS_darwin
+GP_OS_darwin
 )
 #
 include
@@ -222,13 +222,13 @@ mMutex
 if
 defined
 (
-SPS_OS_linux
+GP_OS_linux
 )
 |
 |
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 mRssMemory
 (
@@ -267,7 +267,7 @@ mac
 if
 defined
 (
-SPS_OS_darwin
+GP_OS_darwin
 )
 pthread_t
 self

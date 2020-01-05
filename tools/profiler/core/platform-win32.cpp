@@ -1401,7 +1401,7 @@ flags
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 context
 .
@@ -1442,7 +1442,7 @@ return
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 sample
 -
@@ -1773,7 +1773,7 @@ pContext
 if
 defined
 (
-SPS_ARCH_amd64
+GP_ARCH_amd64
 )
 pc
 =
@@ -1818,7 +1818,7 @@ Rbp
 elif
 defined
 (
-SPS_ARCH_x86
+GP_ARCH_x86
 )
 pc
 =

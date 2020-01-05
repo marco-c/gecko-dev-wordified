@@ -303,7 +303,7 @@ h
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 #
 include
@@ -356,7 +356,7 @@ h
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 extern
 "
@@ -633,7 +633,7 @@ MOZ_WIDGET_GONK
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 if
 (
@@ -705,7 +705,7 @@ endif
 /
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 dl_iterate_phdr
 (
@@ -727,7 +727,7 @@ MOZ_WIDGET_GONK
 if
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 |
 |
@@ -1135,7 +1135,7 @@ endif
 /
 defined
 (
-SPS_OS_android
+GP_OS_android
 )
 |
 |
