@@ -202,6 +202,12 @@ append
 here
 )
         
+self
+.
+_activate_virtualenv
+(
+)
+        
 return
 cli
 .
