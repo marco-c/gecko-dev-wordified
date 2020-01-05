@@ -1087,6 +1087,18 @@ VS
 23918
 '
 )
+VS_2015u3
+=
+VS
+(
+'
+19
+.
+00
+.
+24213
+'
+)
 VS_PLATFORM_X86
 =
 {
@@ -1220,7 +1232,7 @@ version
 .
 00
 .
-23918
+24213
 '
 :
 VS
@@ -1230,7 +1242,7 @@ VS
 .
 00
 .
-23918
+24213
 '
 )
 [
@@ -5385,7 +5397,9 @@ VS_PLATFORM_X86
         
 '
 /
-usr
+opt
+/
+VS_2015u2
 /
 bin
 /
@@ -5393,6 +5407,19 @@ cl
 '
 :
 VS_2015u2
++
+VS_PLATFORM_X86
+        
+'
+/
+usr
+/
+bin
+/
+cl
+'
+:
+VS_2015u3
 +
 VS_PLATFORM_X86
         
@@ -5645,7 +5672,7 @@ C
 +
 2015
 Update
-2
+3
 or
 newer
 in
@@ -5711,7 +5738,7 @@ C
 +
 2015
 Update
-2
+3
 or
 newer
 in
@@ -5777,7 +5804,7 @@ C
 +
 2015
 Update
-2
+3
 or
 newer
 in
@@ -5843,7 +5870,7 @@ C
 +
 2015
 Update
-2
+3
 or
 newer
 in
@@ -5875,6 +5902,72 @@ Windows_Build_Prerequisites
     
 VS_2015u2_RESULT
 =
+(
+        
+'
+This
+version
+(
+19
+.
+00
+.
+23918
+)
+of
+the
+MSVC
+compiler
+is
+not
+supported
+.
+\
+n
+'
+        
+'
+You
+must
+install
+Visual
+C
++
++
+2015
+Update
+3
+or
+newer
+in
+order
+to
+build
+.
+\
+n
+'
+        
+'
+See
+https
+:
+/
+/
+developer
+.
+mozilla
+.
+org
+/
+en
+/
+Windows_Build_Prerequisites
+'
+)
+    
+VS_2015u3_RESULT
+=
 CompilerResult
 (
         
@@ -5890,7 +5983,7 @@ version
 .
 00
 .
-23918
+24213
 '
         
 type
@@ -5918,7 +6011,7 @@ C
     
 )
     
-VSXX_2015u2_RESULT
+VSXX_2015u3_RESULT
 =
 CompilerResult
 (
@@ -5935,7 +6028,7 @@ version
 .
 00
 .
-23918
+24213
 '
         
 type
@@ -5996,7 +6089,7 @@ version
 .
 00
 .
-23918
+24213
 '
 '
 -
@@ -6011,7 +6104,7 @@ version
 .
 00
 .
-23918
+24213
 '
         
 type
@@ -6077,7 +6170,7 @@ version
 .
 00
 .
-23918
+24213
 '
 '
 -
@@ -6092,7 +6185,7 @@ version
 .
 00
 .
-23918
+24213
 '
         
 type
@@ -6181,7 +6274,7 @@ LinuxToolchainTest
 GXX_5_RESULT
     
 #
-VS2015u2
+VS2015u3
 or
 greater
 is
@@ -6210,7 +6303,7 @@ c_compiler
 :
 self
 .
-VS_2015u2_RESULT
+VS_2015u3_RESULT
             
 '
 cxx_compiler
@@ -6218,7 +6311,7 @@ cxx_compiler
 :
 self
 .
-VSXX_2015u2_RESULT
+VSXX_2015u3_RESULT
         
 }
 )
@@ -6229,6 +6322,46 @@ test_unsupported_msvc
 self
 )
 :
+        
+self
+.
+do_toolchain_test
+(
+self
+.
+PATHS
+{
+            
+'
+c_compiler
+'
+:
+self
+.
+VS_2015u2_RESULT
+        
+}
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+/
+opt
+/
+VS_2015u2
+/
+bin
+/
+cl
+'
+        
+}
+)
         
 self
 .
@@ -6827,7 +6960,7 @@ bin
 cl
 '
 :
-VS_2015u2
+VS_2015u3
 +
 VS_PLATFORM_X86_64
         
@@ -6979,7 +7112,9 @@ VS_PLATFORM_X86_64
         
 '
 /
-usr
+opt
+/
+VS_2015u2
 /
 bin
 /
@@ -6987,6 +7122,19 @@ cl
 '
 :
 VS_2015u2
++
+VS_PLATFORM_X86_64
+        
+'
+/
+usr
+/
+bin
+/
+cl
+'
+:
+VS_2015u3
 +
 VS_PLATFORM_X86_64
         
@@ -7223,7 +7371,7 @@ bin
 cl
 '
 :
-VS_2015u2
+VS_2015u3
 +
 VS_PLATFORM_X86
         
