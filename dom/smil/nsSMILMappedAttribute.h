@@ -173,15 +173,15 @@ the
 key
 for
 storing
-*
 an
+*
 element
 '
 s
 animated
 content
 style
-rule
+declaration
 in
 its
 Property
@@ -243,7 +243,7 @@ names
 /
 #
 define
-SMIL_MAPPED_ATTR_STYLERULE_ATOM
+SMIL_MAPPED_ATTR_STYLEDECL_ATOM
 nsGkAtoms
 :
 :

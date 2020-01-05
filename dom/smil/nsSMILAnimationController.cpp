@@ -5790,7 +5790,7 @@ from
 nsSVGElement
 :
 :
-GetAnimatedContentStyleRule
+GetAnimatedContentDeclarationBlock
 .
 nsRestyleHint
 rshint
