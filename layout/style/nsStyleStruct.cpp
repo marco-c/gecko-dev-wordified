@@ -10464,6 +10464,14 @@ aOther
 mLegacySyntax
 |
 |
+mMozLegacySyntax
+!
+=
+aOther
+.
+mMozLegacySyntax
+|
+|
 mBgPosX
 !
 =
@@ -10641,6 +10649,10 @@ mRepeating
 false
 )
 mLegacySyntax
+(
+false
+)
+mMozLegacySyntax
 (
 false
 )
