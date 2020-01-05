@@ -3355,6 +3355,7 @@ ellipse
 .
 class
 EllipseShapeInfo
+final
 :
 public
 ShapeInfo
@@ -3488,7 +3489,7 @@ aBlockStart
 )
 ;
 }
-protected
+private
 :
 /
 /
