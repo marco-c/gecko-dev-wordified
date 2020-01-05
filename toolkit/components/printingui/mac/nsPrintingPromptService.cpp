@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsObjCExceptions
-.
-h
-"
-#
-include
-"
 nsIPrintingPromptService
 .
 h
@@ -527,8 +520,6 @@ nsIPrintSettings
 printSettings
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 nsCOMPtr
 <
 nsIPrintDialogService
@@ -566,8 +557,6 @@ webBrowserPrint
 }
 return
 NS_ERROR_FAILURE
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -642,8 +631,6 @@ nsIObserver
 aObs
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 nsCOMPtr
 <
 nsIPrintDialogService
@@ -680,8 +667,6 @@ printSettings
 }
 return
 NS_ERROR_FAILURE
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
