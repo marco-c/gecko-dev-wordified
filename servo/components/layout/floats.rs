@@ -96,16 +96,7 @@ computed_values
 float
 ;
 use
-util
-:
-:
-logical_geometry
-:
-:
-WritingMode
-;
-use
-util
+style
 :
 :
 logical_geometry
@@ -114,6 +105,7 @@ logical_geometry
 {
 LogicalRect
 LogicalSize
+WritingMode
 }
 ;
 use
