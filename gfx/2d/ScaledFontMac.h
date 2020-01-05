@@ -292,6 +292,17 @@ void
 aBaton
 )
 ;
+virtual
+bool
+CanSerialize
+(
+)
+override
+{
+return
+true
+;
+}
 #
 ifdef
 USE_CAIRO_SCALED_FONT
