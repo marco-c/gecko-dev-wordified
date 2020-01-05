@@ -939,7 +939,7 @@ NS_ASSERTION
 aStyleContext
 -
 >
-StyleDisplay
+ThreadsafeStyleDisplay
 (
 )
 =
