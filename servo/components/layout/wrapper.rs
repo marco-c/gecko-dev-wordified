@@ -4416,7 +4416,7 @@ false
 }
 pub
 fn
-is_before_or_after
+is_replaced_content
 (
 &
 self
@@ -7544,7 +7544,7 @@ self
 .
 pseudo
 .
-is_before_or_after
+is_replaced_content
 (
 )
 {
