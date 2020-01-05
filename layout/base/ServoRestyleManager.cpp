@@ -2917,6 +2917,10 @@ IncrementRestyleGeneration
 )
 ;
 }
+FlushOverflowChangedTracker
+(
+)
+;
 mInStyleRefresh
 =
 false
