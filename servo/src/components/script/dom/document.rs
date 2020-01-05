@@ -645,6 +645,10 @@ str
 impl
 Document
 {
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 new
@@ -1073,6 +1077,10 @@ DerivedWrapper
 for
 AbstractDocument
 {
+#
+[
+fixed_stack_segment
+]
 fn
 wrap
 (
@@ -2719,6 +2727,10 @@ content_changed
 )
 }
 }
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 teardown

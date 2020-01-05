@@ -225,6 +225,10 @@ clone
 )
 }
 }
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 get_available_families
@@ -413,6 +417,10 @@ return
 family_map
 ;
 }
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 load_variations_for_family
@@ -923,6 +931,10 @@ Drop
 for
 AutoPattern
 {
+#
+[
+fixed_stack_segment
+]
 fn
 drop
 (
@@ -942,6 +954,10 @@ pattern
 }
 }
 }
+#
+[
+fixed_stack_segment
+]
 pub
 fn
 path_from_identifier
