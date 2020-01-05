@@ -31742,9 +31742,10 @@ this
 if
 (
 !
-NS_FRAME_OVERFLOW_IS_INCOMPLETE
-(
 aFloatStatus
+.
+IsOverflowIncomplete
+(
 )
 )
 {
@@ -31789,9 +31790,10 @@ this
 }
 if
 (
-NS_FRAME_OVERFLOW_IS_INCOMPLETE
-(
 aFloatStatus
+.
+IsOverflowIncomplete
+(
 )
 )
 {

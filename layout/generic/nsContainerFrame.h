@@ -2774,7 +2774,7 @@ Sets
 aStatus
 '
 s
-NS_FRAME_OVERFLOW_IS_INCOMPLETE
+mOverflowIncomplete
 flag
 (
 along

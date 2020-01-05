@@ -1171,9 +1171,10 @@ ruby
 MOZ_ASSERT
 (
 !
-NS_FRAME_OVERFLOW_IS_INCOMPLETE
-(
 aStatus
+.
+IsOverflowIncomplete
+(
 )
 )
 ;

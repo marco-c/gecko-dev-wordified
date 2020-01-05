@@ -5976,9 +5976,10 @@ aStatus
 ;
 if
 (
-NS_FRAME_OVERFLOW_IS_INCOMPLETE
-(
 aStatus
+.
+IsOverflowIncomplete
+(
 )
 )
 {
