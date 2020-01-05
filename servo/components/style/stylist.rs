@@ -5392,10 +5392,6 @@ ApplicableDeclarationBlock
 from_declarations
 (
 anim
-.
-clone
-(
-)
 CascadeLevel
 :
 :
@@ -5692,10 +5688,6 @@ ApplicableDeclarationBlock
 from_declarations
 (
 anim
-.
-clone
-(
-)
 CascadeLevel
 :
 :
