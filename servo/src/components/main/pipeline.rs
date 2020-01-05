@@ -1034,6 +1034,9 @@ reload
 self
 )
 {
+let
+url
+=
 self
 .
 url
@@ -1045,6 +1048,8 @@ borrow
 clone
 (
 )
+;
+url
 .
 map
 (
