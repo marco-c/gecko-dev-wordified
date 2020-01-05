@@ -1185,6 +1185,13 @@ Stylesheet
 )
 {
 if
+stylesheet
+.
+disabled
+(
+)
+|
+|
 !
 stylesheet
 .

@@ -850,6 +850,16 @@ window_from_node
 (
 self
 )
+self
+.
+upcast
+:
+:
+<
+Element
+>
+(
+)
 "
 text
 /
