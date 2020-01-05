@@ -10795,7 +10795,12 @@ LOCAL_GL_BACK
 gl
 -
 >
-fReadBuffer
+Screen
+(
+)
+-
+>
+SetReadBuffer
 (
 LOCAL_GL_BACK
 )
@@ -10818,7 +10823,12 @@ LOCAL_GL_BACK
 gl
 -
 >
-fReadBuffer
+Screen
+(
+)
+-
+>
+SetReadBuffer
 (
 readBufferMode
 )
