@@ -2054,11 +2054,11 @@ false
 let
 oldDoSync
 =
-gSyncUI
+gSync
 .
 doSync
 ;
-gSyncUI
+gSync
 .
 doSync
 =
@@ -2076,7 +2076,7 @@ hasSyncedThisSession
 =
 true
 ;
-gSyncUI
+gSync
 .
 doSync
 =
