@@ -1497,6 +1497,11 @@ node
 .
 cascade_node
 (
+self
+.
+layout_context
+.
+shared
 parent_opt
 &
 applicable_declarations
