@@ -918,6 +918,12 @@ SizeOfExcludingThis
 )
 const
 ;
+#
+if
+defined
+(
+ENABLE_STACK_CAPTURE
+)
 /
 *
 *
@@ -938,6 +944,8 @@ Clear
 (
 )
 ;
+#
+endif
 private
 :
 std
@@ -1713,6 +1721,12 @@ return
 NS_OK
 ;
 }
+#
+if
+defined
+(
+ENABLE_STACK_CAPTURE
+)
 void
 CombinedStacks
 :
@@ -1738,6 +1752,8 @@ clear
 )
 ;
 }
+#
+endif
 class
 HangReports
 {
@@ -1940,6 +1956,12 @@ aMallocSizeOf
 )
 const
 ;
+#
+if
+defined
+(
+MOZ_GECKO_PROFILER
+)
 void
 AddHang
 (
@@ -1968,6 +1990,8 @@ size_t
 aRemovedStackIndex
 )
 ;
+#
+endif
 uint32_t
 GetDuration
 (
@@ -2104,6 +2128,12 @@ mStacks
 ;
 }
 ;
+#
+if
+defined
+(
+MOZ_GECKO_PROFILER
+)
 void
 HangReports
 :
@@ -2588,6 +2618,8 @@ Remove
 }
 }
 }
+#
+endif
 size_t
 HangReports
 :
