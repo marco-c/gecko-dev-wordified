@@ -901,6 +901,11 @@ null
 location
 .
 column
+bias
+:
+SourceMapConsumer
+.
+LEAST_UPPER_BOUND
 }
 )
 ;
