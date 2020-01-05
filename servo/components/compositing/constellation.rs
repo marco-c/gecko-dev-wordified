@@ -64,7 +64,7 @@ compositor_task
 CompositorChan
 LoadComplete
 ShutdownComplete
-SetLayerClipRect
+SetLayerOrigin
 SetIds
 }
 ;
@@ -3788,7 +3788,7 @@ compositor_chan
 .
 send
 (
-SetLayerClipRect
+SetLayerOrigin
 (
 pipeline
 .
@@ -3804,6 +3804,8 @@ rect
 to_untyped
 (
 )
+.
+origin
 )
 )
 ;

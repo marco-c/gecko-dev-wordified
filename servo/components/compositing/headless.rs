@@ -82,7 +82,7 @@ compositor_task
 :
 :
 {
-SetLayerClipRect
+SetLayerOrigin
 Paint
 ScrollFragmentPoint
 LoadComplete
@@ -581,7 +581,7 @@ CreateOrUpdateDescendantLayer
 .
 )
 |
-SetLayerClipRect
+SetLayerOrigin
 (
 .
 .
