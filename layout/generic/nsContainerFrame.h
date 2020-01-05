@@ -2780,7 +2780,7 @@ flag
 along
 with
 *
-NS_FRAME_REFLOW_NEXTINFLOW
+mNextInFlowNeedsReflow
 as
 necessary
 )

@@ -4585,8 +4585,10 @@ nextFrame
 |
 |
 aStatus
-&
-NS_FRAME_REFLOW_NEXTINFLOW
+.
+NextInFlowNeedsReflow
+(
+)
 "
 If
 it
