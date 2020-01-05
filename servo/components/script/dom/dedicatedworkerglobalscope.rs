@@ -1738,9 +1738,12 @@ unwrap
 let
 runtime
 =
+unsafe
+{
 new_rt_and_cx
 (
 )
+}
 ;
 *
 main_thread_rt
