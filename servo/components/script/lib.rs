@@ -141,6 +141,10 @@ debug
 ;
 extern
 crate
+devtools_traits
+;
+extern
+crate
 cssparser
 ;
 extern
@@ -249,6 +253,10 @@ msg
 extern
 crate
 url
+;
+extern
+crate
+uuid
 ;
 pub
 mod

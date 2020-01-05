@@ -89,6 +89,12 @@ ExitPipelineMsg
 }
 ;
 use
+devtools_traits
+:
+:
+DevtoolsControlChan
+;
+use
 gfx
 :
 :
@@ -379,6 +385,12 @@ ConstellationChan
 compositor_chan
 :
 CompositorChan
+devtools_chan
+:
+Option
+<
+DevtoolsControlChan
+>
 image_cache_task
 :
 ImageCacheTask
@@ -559,6 +571,7 @@ image_cache_task
 clone
 (
 )
+devtools_chan
 window_size
 )
 ;

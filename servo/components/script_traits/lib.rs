@@ -89,6 +89,10 @@ unused_variable
 ]
 extern
 crate
+devtools_traits
+;
+extern
+crate
 geom
 ;
 extern
@@ -146,7 +150,7 @@ here
 instead
 of
 in
-layout
+script
 so
 /
 /
@@ -162,6 +166,12 @@ depend
 on
 script
 .
+use
+devtools_traits
+:
+:
+DevtoolsControlChan
+;
 use
 servo_msg
 :
@@ -668,6 +678,12 @@ ResourceTask
 image_cache_task
 :
 ImageCacheTask
+devtools_chan
+:
+Option
+<
+DevtoolsControlChan
+>
 window_size
 :
 WindowSizeData
