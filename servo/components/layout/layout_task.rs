@@ -349,12 +349,6 @@ ImageCacheTask
 ;
 use
 parallel
-:
-:
-{
-self
-WorkQueueData
-}
 ;
 use
 profile_traits
@@ -661,6 +655,15 @@ media_queries
 Device
 MediaType
 }
+;
+use
+style
+:
+:
+parallel
+:
+:
+WorkQueueData
 ;
 use
 style
@@ -7311,7 +7314,7 @@ None
 sequential
 :
 :
-traverse_dom_preorder
+traverse_dom
 :
 :
 <
@@ -7337,7 +7340,7 @@ traversal
 parallel
 :
 :
-traverse_dom_preorder
+traverse_dom
 :
 :
 <
