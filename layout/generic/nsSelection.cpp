@@ -6871,7 +6871,7 @@ need
 FlushType
 :
 :
-Style
+Frames
 here
 to
 make
@@ -6953,7 +6953,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Style
+Frames
 )
 ;
 return
