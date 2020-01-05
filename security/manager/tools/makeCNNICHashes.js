@@ -1302,9 +1302,6 @@ gCertDB
 constructX509
 (
 certData
-certData
-.
-length
 )
 ;
 }

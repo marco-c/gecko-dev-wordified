@@ -246,8 +246,8 @@ nsresult
 FindCertByDBKey
 (
 const
-char
-*
+nsACString
+&
 aDBKey
 mozilla
 :
