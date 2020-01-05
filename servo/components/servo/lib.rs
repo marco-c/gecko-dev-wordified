@@ -1249,7 +1249,9 @@ opts
 webrender_debug
 enable_recording
 :
-false
+opts
+.
+webrender_record
 precache_shaders
 :
 opts
