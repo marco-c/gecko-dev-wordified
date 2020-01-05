@@ -7825,7 +7825,6 @@ layout_root
 .
 layer_id
 (
-0
 )
 ;
 let
