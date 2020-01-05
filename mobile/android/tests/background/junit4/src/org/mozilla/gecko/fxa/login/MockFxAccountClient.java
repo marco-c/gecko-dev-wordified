@@ -70,6 +70,19 @@ background
 fxa
 .
 FxAccountClient20
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+background
+.
+fxa
+.
+FxAccountClient20
 .
 AccountStatusResponse
 ;
@@ -182,8 +195,6 @@ mozilla
 gecko
 .
 fxa
-.
-devices
 .
 FxAccountDevice
 ;
@@ -1431,7 +1442,6 @@ null
 null
 null
 null
-null
 )
 ;
 requestDelegate
@@ -1521,9 +1531,6 @@ type
 existingDevice
 .
 isCurrentDevice
-existingDevice
-.
-lastAccessTime
 existingDevice
 .
 pushCallback

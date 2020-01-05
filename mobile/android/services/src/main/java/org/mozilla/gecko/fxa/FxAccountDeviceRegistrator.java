@@ -64,8 +64,6 @@ mozilla
 gecko
 .
 fxa
-.
-devices
 ;
 import
 android
@@ -2829,8 +2827,9 @@ id
 device
 .
 type
-null
-null
+device
+.
+isCurrentDevice
 device
 .
 pushCallback
