@@ -4348,6 +4348,27 @@ status
 )
 :
             
+#
+No
+screenshots
+and
+page
+source
+for
+skipped
+tests
+            
+if
+status
+=
+=
+"
+SKIP
+"
+:
+                
+return
+            
 rv
 =
 {
