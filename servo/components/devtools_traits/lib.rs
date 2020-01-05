@@ -493,7 +493,10 @@ TracingMetadata
 pub
 time
 :
-u64
+time
+:
+:
+PreciseTime
 pub
 stack
 :
@@ -884,7 +887,10 @@ time
 time
 :
 :
-precise_time_ns
+PreciseTime
+:
+:
+now
 (
 )
 stack
