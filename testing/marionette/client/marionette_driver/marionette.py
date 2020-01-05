@@ -15776,6 +15776,9 @@ base64
 full
 =
 True
+scroll
+=
+True
 )
 :
         
@@ -15999,6 +16002,35 @@ is
 None
 .
         
+:
+param
+scroll
+:
+When
+element
+is
+provided
+scroll
+to
+it
+before
+            
+taking
+the
+screenshot
+(
+default
+)
+.
+Otherwise
+avoid
+scrolling
+            
+element
+into
+view
+.
+        
 "
 "
 "
@@ -16059,6 +16091,12 @@ hash
 "
 :
 False
+                
+"
+scroll
+"
+:
+scroll
 }
         
 if
