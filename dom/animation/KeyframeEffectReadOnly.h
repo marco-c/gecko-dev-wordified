@@ -317,6 +317,9 @@ class
 ErrorResult
 ;
 struct
+AnimationRule
+;
+struct
 TimingParams
 ;
 namespace
@@ -1784,10 +1787,7 @@ aPropertiesToSkip
 void
 ComposeStyle
 (
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
 aStyleRule
 const

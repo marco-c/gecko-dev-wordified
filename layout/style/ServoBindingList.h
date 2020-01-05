@@ -587,6 +587,13 @@ ServoComputedValuesBorrowed
 ServoComputedValuesBorrowedOrNull
 RawGeckoPresContextBorrowed
 )
+SERVO_BINDING_FUNC
+(
+Servo_AnimationValues_Uncompute
+RawServoDeclarationBlockStrong
+RawServoAnimationValueBorrowedListBorrowed
+value
+)
 /
 /
 Style

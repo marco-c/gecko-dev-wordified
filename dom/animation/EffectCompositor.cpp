@@ -2714,6 +2714,8 @@ AnimationRule
 (
 aCascadeLevel
 )
+.
+mGecko
 ;
 }
 /
@@ -4139,12 +4141,9 @@ EffectCompositeOrderComparator
 )
 )
 ;
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
-animationRule
+animRule
 =
 effects
 -
@@ -4154,7 +4153,9 @@ AnimationRule
 aCascadeLevel
 )
 ;
-animationRule
+animRule
+.
+mGecko
 =
 nullptr
 ;
@@ -4242,7 +4243,7 @@ GetAnimation
 >
 ComposeStyle
 (
-animationRule
+animRule
 propertiesToSkip
 )
 ;
