@@ -124,14 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-Components
-PdfJs
-Services
-*
-/
 "
 use
 strict

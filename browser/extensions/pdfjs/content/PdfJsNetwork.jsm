@@ -124,13 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-Components
-Services
-*
-/
 "
 use
 strict

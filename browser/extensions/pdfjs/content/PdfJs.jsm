@@ -124,17 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-Components
-Services
-XPCOMUtils
-PdfjsChromeUtils
-PdfjsContentUtils
-PdfStreamConverter
-*
-/
 "
 use
 strict

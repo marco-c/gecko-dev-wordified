@@ -124,14 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-Components
-Services
-XPCOMUtils
-*
-/
 "
 use
 strict

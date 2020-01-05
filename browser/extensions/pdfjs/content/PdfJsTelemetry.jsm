@@ -139,13 +139,6 @@ error
 ]
 *
 /
-/
-*
-globals
-Components
-Services
-*
-/
 "
 use
 strict
