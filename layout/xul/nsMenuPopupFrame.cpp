@@ -3460,14 +3460,8 @@ view
 nsViewVisibility_kShow
 )
 ;
-nsContainerFrame
-:
-:
 SyncFrameViewProperties
 (
-pc
-this
-nullptr
 view
 )
 ;
