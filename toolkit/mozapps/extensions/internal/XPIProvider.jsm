@@ -49912,7 +49912,6 @@ addon
 .
 type
 )
-;
 if
 (
 theme
