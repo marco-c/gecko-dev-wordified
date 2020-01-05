@@ -123,15 +123,6 @@ SlotRef
 }
 ;
 use
-servo_util
-:
-:
-tree
-:
-:
-TreeNodeRef
-;
-use
 std
 :
 :

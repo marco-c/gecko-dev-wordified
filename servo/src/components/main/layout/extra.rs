@@ -96,15 +96,6 @@ AbstractNode
 LayoutView
 }
 ;
-use
-servo_util
-:
-:
-tree
-:
-:
-TreeNodeRef
-;
 /
 /
 /

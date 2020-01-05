@@ -105,17 +105,6 @@ node
 :
 AbstractNode
 ;
-use
-servo_util
-:
-:
-tree
-:
-:
-{
-TreeNodeRef
-}
-;
 /
 /
 See

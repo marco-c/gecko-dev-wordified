@@ -93,7 +93,10 @@ use
 style
 :
 :
+{
 ComputedValues
+TNode
+}
 ;
 use
 script
@@ -109,15 +112,6 @@ node
 AbstractNode
 LayoutView
 }
-;
-use
-servo_util
-:
-:
-tree
-:
-:
-TreeNodeRef
 ;
 pub
 trait
