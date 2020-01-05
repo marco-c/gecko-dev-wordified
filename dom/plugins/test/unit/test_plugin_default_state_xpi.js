@@ -569,6 +569,10 @@ registerProvider
 provider
 )
 ;
+dirSvc
+=
+null
+;
 /
 /
 We
