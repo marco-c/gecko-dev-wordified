@@ -1663,6 +1663,15 @@ null
 ]
 [
 "
+Gecko_nsStyleFont_FixupNoneGeneric
+"
+"
+aFont
+"
+null
+]
+[
+"
 Gecko_StyleTransition_SetUnsupportedProperty
 "
 "
