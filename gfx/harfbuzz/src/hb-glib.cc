@@ -1521,14 +1521,6 @@ _hb_glib_unicode_funcs
 )
 ;
 }
-#
-if
-GLIB_CHECK_VERSION
-(
-2
-31
-10
-)
 /
 *
 *
@@ -1593,5 +1585,3 @@ g_bytes_unref
 )
 ;
 }
-#
-endif
