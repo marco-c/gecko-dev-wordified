@@ -610,7 +610,7 @@ pending
 .
 pub
 fn
-GetCallableProperty
+get_callable_property
 (
 &
 self
@@ -761,7 +761,7 @@ cx
 .
 pub
 fn
-WrapCallThisObject
+wrap_call_this_object
 <
 T
 :
@@ -1009,7 +1009,7 @@ call
 .
 pub
 fn
-GetContext
+get_context
 (
 &
 self

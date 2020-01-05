@@ -38013,9 +38013,7 @@ bindings
 callback
 :
 :
-{
-WrapCallThisObject
-}
+wrap_call_this_object
 '
             
 '
@@ -39344,7 +39342,7 @@ argnamesWithThis
 "
 s
 .
-GetContext
+get_context
 (
 )
 "
@@ -39361,7 +39359,7 @@ argnamesWithoutThis
 "
 s
 .
-GetContext
+get_context
 (
 )
 "
@@ -39582,7 +39580,7 @@ n
 if
 s
 .
-GetContext
+get_context
 (
 )
 .
@@ -39626,11 +39624,11 @@ setupCall
 let
 thisObjJS
 =
-WrapCallThisObject
+wrap_call_this_object
 (
 s
 .
-GetContext
+get_context
 (
 )
 thisObj
@@ -41734,7 +41732,7 @@ cx
 =
 s
 .
-GetContext
+get_context
 (
 )
 ;
@@ -42436,7 +42434,7 @@ self
 .
 parent
 .
-GetCallableProperty
+get_callable_property
 (
 cx
 "
