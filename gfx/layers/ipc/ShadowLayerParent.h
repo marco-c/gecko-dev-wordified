@@ -259,13 +259,6 @@ AsImageLayer
 )
 const
 ;
-BorderLayer
-*
-AsBorderLayer
-(
-)
-const
-;
 RefLayer
 *
 AsRefLayer

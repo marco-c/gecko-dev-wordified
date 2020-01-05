@@ -866,16 +866,6 @@ override
 virtual
 already_AddRefed
 <
-BorderLayer
->
-CreateBorderLayer
-(
-)
-override
-;
-virtual
-already_AddRefed
-<
 ReadbackLayer
 >
 CreateReadbackLayer
