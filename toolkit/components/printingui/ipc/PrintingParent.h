@@ -206,12 +206,6 @@ const
 bool
 &
 isForPrinting
-bool
-*
-notifyOnOpen
-nsresult
-*
-result
 )
 ;
 virtual
