@@ -9074,6 +9074,7 @@ iter
 .
 readFunctionEnd
 (
+bodyEnd
 )
 )
 return

@@ -454,6 +454,11 @@ I64TruncUF64Code
 =
 0xb1
 ;
+const
+FirstInvalidOpcode
+=
+0xc0
+;
 /
 /
 DefinitionKind
