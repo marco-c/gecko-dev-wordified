@@ -7652,6 +7652,25 @@ options
 .
 jscov_dir_prefix
 )
+            
+if
+options
+.
+cleanupCrashes
+:
+                
+self
+.
+urlOpts
+.
+append
+(
+"
+cleanupCrashes
+=
+true
+"
+)
     
 def
 normflavor
