@@ -219,6 +219,14 @@ MOZ_DUMP_PAINTING
 )
 }
 virtual
+YUVColorSpace
+GetYUVColorSpace
+(
+)
+const
+override
+;
+virtual
 gfx
 :
 :
