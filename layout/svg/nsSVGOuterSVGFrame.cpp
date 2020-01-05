@@ -4827,7 +4827,7 @@ children
 gfxMatrix
 tm
 =
-nsSVGIntegrationUtils
+nsSVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
