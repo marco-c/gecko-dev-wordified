@@ -1272,7 +1272,7 @@ thread_local
 !
 (
 static
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 :
 RefCell
 <
@@ -1313,7 +1313,7 @@ libc
 c_void
 )
 {
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
@@ -4795,7 +4795,7 @@ script_port
 script_chan
 )
 ;
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
@@ -5424,7 +5424,7 @@ Option
 ParserRoot
 >
 {
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
@@ -5470,7 +5470,7 @@ id
 PipelineId
 )
 {
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
@@ -5516,7 +5516,7 @@ msg
 CommonScriptMsg
 )
 {
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
@@ -16716,7 +16716,7 @@ mut
 self
 )
 {
-SCRIPT_TASK_ROOT
+SCRIPT_THREAD_ROOT
 .
 with
 (
