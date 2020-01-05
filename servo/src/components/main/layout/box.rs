@@ -182,10 +182,7 @@ gfx
 font
 :
 :
-{
 FontStyle
-FontWeight300
-}
 ;
 use
 gfx
@@ -3590,6 +3587,15 @@ true
 )
 }
 ;
+let
+font_weight
+=
+my_style
+.
+Font
+.
+font_weight
+;
 FontStyle
 {
 pt_size
@@ -3597,7 +3603,7 @@ pt_size
 font_size
 weight
 :
-FontWeight300
+font_weight
 italic
 :
 italic
