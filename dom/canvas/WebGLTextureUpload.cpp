@@ -8422,6 +8422,9 @@ zOffset
 GLenum
 glError
 ;
+if
+(
+!
 blob
 -
 >
@@ -8440,7 +8443,11 @@ zOffset
 &
 glError
 )
+)
+{
+return
 ;
+}
 if
 (
 glError
@@ -9028,6 +9035,9 @@ false
 GLenum
 glError
 ;
+if
+(
+!
 blob
 -
 >
@@ -9046,7 +9056,11 @@ zOffset
 &
 glError
 )
+)
+{
+return
 ;
+}
 if
 (
 glError
