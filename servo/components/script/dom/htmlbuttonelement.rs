@@ -323,10 +323,10 @@ HeapSizeOf
 enum
 ButtonType
 {
-ButtonSubmit
-ButtonReset
-ButtonButton
-ButtonMenu
+Submit
+Reset
+Button
+Menu
 }
 #
 [
@@ -402,7 +402,7 @@ new
 ButtonType
 :
 :
-ButtonSubmit
+Submit
 )
 }
 }
@@ -1766,7 +1766,7 @@ state
 ButtonType
 :
 :
-ButtonSubmit
+Submit
 =
 >
 {
