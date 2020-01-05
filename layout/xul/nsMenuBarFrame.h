@@ -787,16 +787,6 @@ nsMenuFrame
 *
 mCurrentMenu
 ;
-mozilla
-:
-:
-dom
-:
-:
-EventTarget
-*
-mTarget
-;
 }
 ;
 /
