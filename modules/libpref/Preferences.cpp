@@ -2035,8 +2035,8 @@ GetPrefBranch
 )
 ;
 const
-char
-*
+auto
+&
 pref
 =
 prefBranch
@@ -2109,6 +2109,10 @@ nsDependentCString
 prefString
 (
 pref
+.
+get
+(
+)
 )
 ;
 uint32_t
