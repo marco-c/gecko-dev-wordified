@@ -1335,7 +1335,7 @@ js
 jit
 :
 :
-Simulator
+SimulatorProcess
 :
 :
 FlushICache
