@@ -719,7 +719,7 @@ const
 uint32_t
 CompilerSmallFunctionWarmupThreshold
 =
-100
+CompilerWarmupThreshold
 ;
 /
 /
