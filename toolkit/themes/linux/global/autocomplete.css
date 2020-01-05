@@ -774,6 +774,12 @@ richlistitem
 selected
 ]
 {
+background
+-
+color
+:
+Highlight
+;
 color
 :
 HighlightText
