@@ -657,6 +657,15 @@ constellation_chan
 )
 ;
 let
+scheduler_chan
+=
+global
+.
+scheduler_chan
+(
+)
+;
+let
 (
 sender
 receiver
@@ -860,6 +869,9 @@ optional_sender
 constellation_chan
 :
 constellation_chan
+scheduler_chan
+:
+scheduler_chan
 worker_id
 :
 worker_id

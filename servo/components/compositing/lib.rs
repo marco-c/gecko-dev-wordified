@@ -93,6 +93,14 @@ vec_push_all
 [
 feature
 (
+mpsc_select
+)
+]
+#
+!
+[
+feature
+(
 plugin
 )
 ]
@@ -286,6 +294,9 @@ scrolling
 ;
 mod
 surface_map
+;
+mod
+timer_scheduler
 ;
 pub
 mod

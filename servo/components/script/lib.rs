@@ -495,9 +495,6 @@ pub
 mod
 dom
 ;
-mod
-horribly_inefficient_timers
-;
 pub
 mod
 layout_interface
