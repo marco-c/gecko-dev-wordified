@@ -656,12 +656,14 @@ document
 :
 Option
 <
+mut
 Document
 >
 window
 :
 Option
 <
+mut
 Window
 >
 doc_url
@@ -922,6 +924,7 @@ cx
 )
 as
 *
+mut
 Content
 }
 }
@@ -1239,6 +1242,7 @@ js_scripts
 let
 document
 =
+mut
 Document
 (
 root
@@ -1247,6 +1251,7 @@ root
 let
 window
 =
+mut
 Window
 (
 self
