@@ -2077,6 +2077,9 @@ SyncObjectD3D11
 (
 SyncHandle
 aSyncHandle
+ID3D11Device
+*
+aDevice
 )
 ;
 virtual
