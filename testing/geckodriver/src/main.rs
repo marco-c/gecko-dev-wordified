@@ -646,6 +646,10 @@ new
 (
 settings
 )
+vec
+!
+[
+]
 )
 ;
 }
