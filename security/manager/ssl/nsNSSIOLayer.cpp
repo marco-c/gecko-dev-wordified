@@ -9986,9 +9986,9 @@ nsIProxyInfo
 *
 proxy
 const
-nsACString
+NeckoOriginAttributes
 &
-firstPartyDomain
+originAttributes
 PRFileDesc
 *
 *
@@ -10029,7 +10029,7 @@ family
 host
 port
 proxy
-firstPartyDomain
+originAttributes
 sock
 info
 forSTARTTLS
@@ -14077,9 +14077,9 @@ nsIProxyInfo
 *
 proxy
 const
-nsACString
+NeckoOriginAttributes
 &
-firstPartyDomain
+originAttributes
 PRFileDesc
 *
 fd
@@ -14185,9 +14185,9 @@ port
 infoObject
 -
 >
-SetFirstPartyDomain
+SetOriginAttributes
 (
-firstPartyDomain
+originAttributes
 )
 ;
 bool
