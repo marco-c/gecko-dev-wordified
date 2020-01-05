@@ -776,8 +776,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-char
-*
+SmprintfPointer
 newData
 =
 mozilla
@@ -817,6 +816,10 @@ NS_ERROR_OUT_OF_MEMORY
 PR_SetEnv
 (
 newData
+.
+get
+(
+)
 )
 ;
 if
@@ -845,6 +848,10 @@ entry
 mData
 =
 newData
+.
+release
+(
+)
 ;
 return
 NS_OK

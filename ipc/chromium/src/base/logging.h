@@ -143,6 +143,15 @@ Logging
 h
 "
 #
+include
+"
+mozilla
+/
+Printf
+.
+h
+"
+#
 ifdef
 NO_CHROMIUM_LOGGING
 #
@@ -224,10 +233,6 @@ mLine
 (
 line
 )
-mMsg
-(
-NULL
-)
 {
 }
 ~
@@ -296,8 +301,7 @@ mFile
 int
 mLine
 ;
-char
-*
+SmprintfPointer
 mMsg
 ;
 DISALLOW_EVIL_CONSTRUCTORS

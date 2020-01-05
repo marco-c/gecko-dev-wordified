@@ -11829,8 +11829,7 @@ duplicateCounter
 1
 )
 {
-char
-*
+SmprintfPointer
 tmp
 =
 mozilla
@@ -11893,14 +11892,10 @@ tmpBase
 Append
 (
 tmp
-)
-;
-mozilla
-:
-:
-SmprintfFree
+.
+get
 (
-tmp
+)
 )
 ;
 }
