@@ -1587,9 +1587,6 @@ const
 nsDisplayListSet
 &
 aLists
-nsDisplayTableItem
-*
-aDisplayItem
 DisplayGenericTablePartTraversal
 aTraversal
 =
