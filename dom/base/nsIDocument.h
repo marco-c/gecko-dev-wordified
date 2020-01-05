@@ -5161,6 +5161,14 @@ return
 mPageUnloadingEventTimeStamp
 ;
 }
+virtual
+void
+NotifyLayerManagerRecreated
+(
+)
+=
+0
+;
 protected
 :
 virtual
