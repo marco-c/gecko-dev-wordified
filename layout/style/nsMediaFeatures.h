@@ -151,7 +151,7 @@ struct
 nsMediaFeature
 ;
 typedef
-nsresult
+void
 (
 *
 nsMediaFeatureValueGetter
