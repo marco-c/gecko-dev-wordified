@@ -288,8 +288,7 @@ undefined
 {
 ToNumber
 :
-{
-}
+5
 }
 [
 ]
