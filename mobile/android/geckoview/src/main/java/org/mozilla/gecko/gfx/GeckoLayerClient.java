@@ -154,15 +154,6 @@ util
 FloatUtils
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-;
-import
 android
 .
 content

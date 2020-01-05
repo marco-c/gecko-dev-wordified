@@ -234,9 +234,9 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
-AppConstants
+BuildConfig
 ;
 public
 final
@@ -2464,7 +2464,7 @@ ABI
 :
 "
 +
-AppConstants
+BuildConfig
 .
 MOZ_APP_ABI
 +

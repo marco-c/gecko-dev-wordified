@@ -131,17 +131,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-.
-Versions
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 annotation
 .
 WrapForJNI

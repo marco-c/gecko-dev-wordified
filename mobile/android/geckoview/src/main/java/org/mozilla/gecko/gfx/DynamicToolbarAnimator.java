@@ -105,15 +105,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 PrefsHelper
 ;
 import

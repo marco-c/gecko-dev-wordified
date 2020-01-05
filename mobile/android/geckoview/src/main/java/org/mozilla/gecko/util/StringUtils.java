@@ -122,17 +122,6 @@ text
 TextUtils
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-.
-Versions
-;
-import
 java
 .
 util

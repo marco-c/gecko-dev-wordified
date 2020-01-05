@@ -139,17 +139,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-.
-Versions
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 gfx
 .
 DynamicToolbarAnimator

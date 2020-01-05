@@ -104,17 +104,6 @@ util
 Collection
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-.
-Versions
-;
-import
 android
 .
 content
