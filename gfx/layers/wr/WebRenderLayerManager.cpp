@@ -144,6 +144,17 @@ mozilla
 /
 layers
 /
+CompositorBridgeChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClient
 .
 h

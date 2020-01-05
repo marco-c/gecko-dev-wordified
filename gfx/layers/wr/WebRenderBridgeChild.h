@@ -170,6 +170,7 @@ KnowsCompositor
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WebRenderBridgeChild
+override
 )
 public
 :
@@ -223,12 +224,14 @@ TextureForwarder
 GetTextureForwarder
 (
 )
+override
 ;
 LayersIPCActor
 *
 GetLayersIPCActor
 (
 )
+override
 ;
 uint64_t
 AllocExternalImageId
