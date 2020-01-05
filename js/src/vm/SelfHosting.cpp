@@ -17936,15 +17936,6 @@ intl_DateTimeFormat_availableLocales
 JS_FN
 (
 "
-intl_defaultCalendar
-"
-intl_defaultCalendar
-1
-0
-)
-JS_FN
-(
-"
 intl_defaultTimeZone
 "
 intl_defaultTimeZone
