@@ -979,6 +979,14 @@ RawGeckoElementBorrowed
 element
 )
 ;
+nsIAtom
+*
+Gecko_GetXMLLangValue
+(
+RawGeckoElementBorrowed
+element
+)
+;
 /
 /
 Attributes
