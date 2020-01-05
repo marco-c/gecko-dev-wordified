@@ -2105,7 +2105,7 @@ call
 batching
 .
 pub
-webrender_batch
+webrender_disable_batch
 :
 bool
 /
@@ -2610,9 +2610,9 @@ batch
 >
 self
 .
-webrender_batch
+webrender_disable_batch
 =
-false
+true
 "
 msaa
 "
@@ -7098,9 +7098,10 @@ debug_options
 webrender_record
 webrender_batch
 :
+!
 debug_options
 .
-webrender_batch
+webrender_disable_batch
 precache_shaders
 :
 debug_options
