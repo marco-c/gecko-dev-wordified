@@ -1719,6 +1719,16 @@ Self
 >
 bool
 {
+if
+self
+=
+=
+other
+{
+return
+true
+;
+}
 let
 a
 =
