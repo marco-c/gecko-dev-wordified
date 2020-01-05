@@ -2583,6 +2583,7 @@ UpdateIMEState
 (
 newState
 content
+*
 this
 )
 ;
@@ -3627,6 +3628,7 @@ UpdateIMEState
 (
 newState
 content
+*
 this
 )
 ;
