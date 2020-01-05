@@ -936,7 +936,10 @@ bool
 aVisual
 )
 ;
-NS_IMETHOD
+UniquePtr
+<
+SelectionDetails
+>
 LookUpSelection
 (
 nsIContent
@@ -950,8 +953,7 @@ UniquePtr
 <
 SelectionDetails
 >
-*
-aReturnDetails
+aDetailsHead
 SelectionType
 aSelectionType
 bool
