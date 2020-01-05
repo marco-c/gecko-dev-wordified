@@ -946,6 +946,11 @@ allowAltSvc
 )
 a
 .
+beConservative
+(
+)
+a
+.
 loadInfo
 (
 )
@@ -2323,6 +2328,10 @@ bool
 &
 allowAltSvc
 const
+bool
+&
+beConservative
+const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs
@@ -3615,6 +3624,14 @@ mChannel
 SetAllowAltSvc
 (
 allowAltSvc
+)
+;
+mChannel
+-
+>
+SetBeConservative
+(
+beConservative
 )
 ;
 mChannel
