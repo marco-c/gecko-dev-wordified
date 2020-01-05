@@ -10577,7 +10577,10 @@ aNewURL
 void
 FlushPendingNotifications
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 ;

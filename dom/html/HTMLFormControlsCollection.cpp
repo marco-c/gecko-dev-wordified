@@ -669,7 +669,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Content
+FlushType
+:
+:
+Content
 )
 ;
 }

@@ -10913,7 +10913,10 @@ GetShell
 {
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -15058,7 +15061,10 @@ mParentDocument
 >
 FlushPendingNotifications
 (
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }
@@ -20724,7 +20730,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 }

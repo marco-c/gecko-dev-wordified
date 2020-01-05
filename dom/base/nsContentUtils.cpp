@@ -14329,7 +14329,10 @@ GetUncomposedDoc
 >
 FlushPendingNotifications
 (
-Flush_Content
+FlushType
+:
+:
+Content
 )
 ;
 nsContentList
@@ -35676,7 +35679,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }

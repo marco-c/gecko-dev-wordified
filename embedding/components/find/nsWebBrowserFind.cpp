@@ -3861,7 +3861,10 @@ theDoc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 nsCOMPtr

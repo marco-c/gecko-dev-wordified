@@ -14391,7 +14391,10 @@ GetComposedDoc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 }

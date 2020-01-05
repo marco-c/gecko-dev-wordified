@@ -2185,7 +2185,10 @@ aRefreshDriver
 AddRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mRegisteredWithRefreshDriver
@@ -2272,7 +2275,10 @@ aRefreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mRegisteredWithRefreshDriver
@@ -3431,7 +3437,10 @@ document
 >
 FlushPendingNotifications
 (
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }

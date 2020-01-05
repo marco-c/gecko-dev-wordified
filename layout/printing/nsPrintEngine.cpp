@@ -13019,7 +13019,10 @@ mPresShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 nsresult
@@ -17190,7 +17193,10 @@ mPresShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 rv

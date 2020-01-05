@@ -1168,7 +1168,10 @@ mDocument
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 nsSMILAnimationController

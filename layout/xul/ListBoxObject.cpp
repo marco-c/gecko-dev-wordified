@@ -808,7 +808,10 @@ false
 /
 *
 does
-Flush_Frames
+FlushType
+:
+:
+Frames
 *
 /
 :

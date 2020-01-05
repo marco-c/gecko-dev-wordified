@@ -797,7 +797,10 @@ virtual
 void
 FlushPendingNotifications
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 override
@@ -3536,7 +3539,10 @@ RefreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Display
+FlushType
+:
+:
+Display
 )
 ;
 mPresShell

@@ -5780,10 +5780,16 @@ flush
 to
 do
 typically
-Flush_Frames
+FlushType
+:
+:
+Frames
 or
 *
-Flush_Layout
+FlushType
+:
+:
+Layout
 *
 return
 the
@@ -5795,7 +5801,7 @@ nsIFrame
 *
 GetPrimaryFrame
 (
-mozFlushType
+FlushType
 aType
 )
 ;

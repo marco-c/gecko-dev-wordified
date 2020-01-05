@@ -8553,7 +8553,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }

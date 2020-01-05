@@ -3999,7 +3999,10 @@ virtual
 void
 FlushPendingNotifications
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 override
@@ -4008,7 +4011,10 @@ virtual
 void
 FlushExternalResources
 (
-mozFlushType
+mozilla
+:
+:
+FlushType
 aType
 )
 override

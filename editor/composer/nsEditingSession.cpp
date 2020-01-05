@@ -147,10 +147,10 @@ h
 /
 /
 for
-mozFlushType
+FlushType
 :
 :
-Flush_Frames
+Frames
 #
 include
 "
@@ -2782,7 +2782,13 @@ document
 >
 FlushPendingNotifications
 (
-Flush_Frames
+mozilla
+:
+:
+FlushType
+:
+:
+Frames
 )
 ;
 if

@@ -1158,7 +1158,10 @@ frame
 =
 GetPrimaryFrame
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -1428,7 +1431,10 @@ currentDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -1521,7 +1527,10 @@ currentDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }

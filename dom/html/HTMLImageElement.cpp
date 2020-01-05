@@ -1143,7 +1143,10 @@ frame
 =
 GetPrimaryFrame
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if

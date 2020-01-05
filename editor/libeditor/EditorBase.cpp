@@ -369,10 +369,10 @@ h
 /
 /
 for
-mozFlushType
+FlushType
 :
 :
-Flush_Frames
+Frames
 #
 include
 "
@@ -15334,7 +15334,10 @@ ps
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 }

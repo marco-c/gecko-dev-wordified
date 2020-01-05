@@ -918,7 +918,7 @@ virtual
 void
 FlushPendingNotifications
 (
-mozFlushType
+FlushType
 aType
 )
 override
@@ -5555,7 +5555,7 @@ HTMLContentSink
 :
 FlushPendingNotifications
 (
-mozFlushType
+FlushType
 aType
 )
 {
@@ -5624,7 +5624,10 @@ if
 aType
 >
 =
-Flush_ContentAndNotify
+FlushType
+:
+:
+ContentAndNotify
 )
 {
 FlushTags
@@ -5638,7 +5641,10 @@ if
 aType
 >
 =
-Flush_InterruptibleLayout
+FlushType
+:
+:
+InterruptibleLayout
 )
 {
 /

@@ -2230,7 +2230,10 @@ RestoreImage
 ;
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -3365,7 +3368,10 @@ mImageContent
 >
 GetPrimaryFrame
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 if

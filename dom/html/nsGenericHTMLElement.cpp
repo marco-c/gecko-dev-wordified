@@ -6222,7 +6222,10 @@ GetComposedDoc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+FlushType
+:
+:
+Frames
 )
 ;
 }
@@ -16737,7 +16740,10 @@ frame
 =
 GetPrimaryFrame
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 if
@@ -17435,7 +17441,10 @@ if
 !
 GetPrimaryFrame
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 )
 {

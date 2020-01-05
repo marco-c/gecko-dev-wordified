@@ -1886,7 +1886,10 @@ presShell
 >
 FlushPendingNotifications
 (
-Flush_Display
+FlushType
+:
+:
+Display
 )
 ;
 RefPtr
@@ -8177,7 +8180,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -8417,7 +8423,10 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 }
@@ -9358,7 +9367,10 @@ targetDoc
 >
 FlushPendingNotifications
 (
-Flush_Layout
+FlushType
+:
+:
+Layout
 )
 ;
 nsEventStatus

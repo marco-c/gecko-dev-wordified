@@ -456,7 +456,10 @@ performs
 a
 synchronous
 "
-Flush_Layout
+FlushType
+:
+:
+Layout
 "
 on
 the

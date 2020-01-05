@@ -3444,7 +3444,10 @@ document
 >
 FlushPendingNotifications
 (
-Flush_Display
+FlushType
+:
+:
+Display
 )
 ;
 return

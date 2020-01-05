@@ -1645,7 +1645,10 @@ refreshDriver
 AddRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }
@@ -1677,7 +1680,10 @@ refreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }
