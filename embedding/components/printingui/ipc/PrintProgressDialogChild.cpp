@@ -118,6 +118,11 @@ mOpenObserver
 aOpenObserver
 )
 {
+MOZ_COUNT_CTOR
+(
+PrintProgressDialogChild
+)
+;
 }
 PrintProgressDialogChild
 :
@@ -184,6 +189,11 @@ Unused
 Send__delete__
 (
 this
+)
+;
+MOZ_COUNT_DTOR
+(
+PrintProgressDialogChild
 )
 ;
 }

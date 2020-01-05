@@ -3262,6 +3262,11 @@ mLoadInBackground
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+BaseMediaResource
+)
+;
 NS_ASSERTION
 (
 !
@@ -3293,6 +3298,11 @@ BaseMediaResource
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+BaseMediaResource
+)
+;
 }
 const
 nsCString

@@ -203,6 +203,11 @@ ImageData
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ImageData
+)
+;
 DropData
 (
 )
@@ -235,6 +240,11 @@ mData
 aData
 )
 {
+MOZ_COUNT_CTOR
+(
+ImageData
+)
+;
 HoldData
 (
 )

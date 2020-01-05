@@ -361,6 +361,11 @@ mTrustedCaller
 aTrustedCaller
 )
 {
+MOZ_COUNT_CTOR
+(
+PostMessageEvent
+)
+;
 }
 PostMessageEvent
 :
@@ -370,6 +375,11 @@ PostMessageEvent
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+PostMessageEvent
+)
+;
 }
 NS_IMETHODIMP
 PostMessageEvent

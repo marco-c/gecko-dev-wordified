@@ -178,6 +178,11 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_COUNT_CTOR
+(
+BufferDecoder
+)
+;
 }
 BufferDecoder
 :
@@ -201,6 +206,11 @@ cannot
 be
 sure
 .
+MOZ_COUNT_DTOR
+(
+BufferDecoder
+)
+;
 }
 void
 BufferDecoder

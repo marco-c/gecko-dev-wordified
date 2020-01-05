@@ -201,6 +201,11 @@ mAppCache
 aAppCache
 )
 {
+MOZ_COUNT_CTOR
+(
+AppCacheStorage
+)
+;
 }
 AppCacheStorage
 :
@@ -213,6 +218,11 @@ AppCacheStorage
 ProxyReleaseMainThread
 (
 mAppCache
+)
+;
+MOZ_COUNT_DTOR
+(
+AppCacheStorage
 )
 ;
 }

@@ -237,6 +237,11 @@ mStatus
 NotStarted
 )
 {
+MOZ_COUNT_CTOR
+(
+ArchiveInputStream
+)
+;
 /
 /
 Reset
@@ -278,6 +283,11 @@ ArchiveInputStream
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveInputStream
+)
+;
 Close
 (
 )

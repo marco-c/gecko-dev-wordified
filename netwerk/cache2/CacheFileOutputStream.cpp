@@ -300,6 +300,11 @@ this
 )
 )
 ;
+MOZ_COUNT_CTOR
+(
+CacheFileOutputStream
+)
+;
 if
 (
 mAlternativeData
@@ -342,6 +347,11 @@ p
 "
 this
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+CacheFileOutputStream
 )
 ;
 }

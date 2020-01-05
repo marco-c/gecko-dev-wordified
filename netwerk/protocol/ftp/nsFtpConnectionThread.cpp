@@ -10080,6 +10080,11 @@ mResponseMsg
 aResponseMsg
 )
 {
+MOZ_COUNT_CTOR
+(
+nsFtpAsyncAlert
+)
+;
 }
 protected
 :
@@ -10089,6 +10094,11 @@ nsFtpAsyncAlert
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsFtpAsyncAlert
+)
+;
 }
 public
 :

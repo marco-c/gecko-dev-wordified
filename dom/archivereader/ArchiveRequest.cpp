@@ -200,6 +200,11 @@ mRequest
 aRequest
 )
 {
+MOZ_COUNT_CTOR
+(
+ArchiveRequestEvent
+)
+;
 }
 protected
 :
@@ -208,6 +213,11 @@ ArchiveRequestEvent
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveRequestEvent
+)
+;
 }
 private
 :
@@ -284,6 +294,11 @@ MOZ_ASSERT
 aReader
 )
 ;
+MOZ_COUNT_CTOR
+(
+ArchiveRequest
+)
+;
 /
 *
 An
@@ -322,6 +337,11 @@ ArchiveRequest
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveRequest
+)
+;
 }
 nsresult
 ArchiveRequest

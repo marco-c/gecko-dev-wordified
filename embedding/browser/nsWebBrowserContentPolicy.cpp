@@ -156,6 +156,11 @@ nsWebBrowserContentPolicy
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsWebBrowserContentPolicy
+)
+;
 }
 nsWebBrowserContentPolicy
 :
@@ -165,6 +170,11 @@ nsWebBrowserContentPolicy
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsWebBrowserContentPolicy
+)
+;
 }
 NS_IMPL_ISUPPORTS
 (

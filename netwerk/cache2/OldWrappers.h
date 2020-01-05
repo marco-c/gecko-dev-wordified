@@ -1066,6 +1066,11 @@ mHit
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+_OldVisitCallbackWrapper
+)
+;
 }
 private
 :

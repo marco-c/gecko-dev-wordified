@@ -198,6 +198,11 @@ mCanSend
 true
 )
 {
+MOZ_COUNT_CTOR
+(
+CompositableChild
+)
+;
 }
 CompositableChild
 :
@@ -207,6 +212,11 @@ CompositableChild
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+CompositableChild
+)
+;
 }
 bool
 CompositableChild

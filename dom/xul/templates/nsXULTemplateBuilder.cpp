@@ -787,6 +787,11 @@ mObservedDocument
 nullptr
 )
 {
+MOZ_COUNT_CTOR
+(
+nsXULTemplateBuilder
+)
+;
 }
 void
 nsXULTemplateBuilder
@@ -927,6 +932,11 @@ gObserverService
 )
 ;
 }
+MOZ_COUNT_DTOR
+(
+nsXULTemplateBuilder
+)
+;
 }
 nsresult
 nsXULTemplateBuilder

@@ -329,6 +329,11 @@ MediaDecoder
 aOwner
 )
 {
+MOZ_COUNT_CTOR
+(
+DirectShowDecoder
+)
+;
 }
 DirectShowDecoder
 :
@@ -337,9 +342,13 @@ DirectShowDecoder
 DirectShowDecoder
 (
 )
-=
-default
+{
+MOZ_COUNT_DTOR
+(
+DirectShowDecoder
+)
 ;
+}
 }
 /
 /

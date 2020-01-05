@@ -353,6 +353,11 @@ LayersBackend
 LAYERS_NONE
 )
 {
+MOZ_COUNT_CTOR
+(
+VRManagerChild
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -383,6 +388,11 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+VRManagerChild
 )
 ;
 }
