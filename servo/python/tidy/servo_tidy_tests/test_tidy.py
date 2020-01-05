@@ -1995,6 +1995,9 @@ loadTestsFromTestCase
 CheckTidiness
 )
     
+return
+0
+if
 unittest
 .
 TextTestRunner
@@ -2008,3 +2011,9 @@ run
 (
 suite
 )
+.
+wasSuccessful
+(
+)
+else
+1
