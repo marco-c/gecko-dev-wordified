@@ -381,6 +381,8 @@ native
 js
 /
 src
+/
+build
 "
 out_dir
 )
