@@ -2050,7 +2050,7 @@ self
 bool
 ;
 fn
-is_root
+is_document
 (
 &
 self
