@@ -1370,6 +1370,13 @@ RawGeckoElementBorrowed
 element
 )
 ;
+RawServoDeclarationBlockStrongBorrowedOrNull
+Gecko_GetExtraContentStyleDeclarations
+(
+RawGeckoElementBorrowed
+element
+)
+;
 /
 /
 Animations
