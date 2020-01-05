@@ -521,6 +521,9 @@ mozilla
 namespace
 dom
 {
+class
+Location
+;
 /
 /
 The
@@ -3272,9 +3275,15 @@ GetNavigator
 0
 ;
 virtual
-nsIDOMLocation
+mozilla
+:
+:
+dom
+:
+:
+Location
 *
-GetLocation
+Location
 (
 )
 =

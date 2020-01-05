@@ -146,17 +146,6 @@ nsIDOMEvent
 #
 include
 "
-nsIDOMLocation
-.
-h
-"
-/
-/
-for
-nsIDOMLocation
-#
-include
-"
 nsIURI
 .
 h
