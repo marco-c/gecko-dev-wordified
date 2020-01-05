@@ -1389,6 +1389,16 @@ return
 false
 ;
 }
+if
+(
+!
+aDataCallback
+)
+{
+return
+true
+;
+}
 RefPtr
 <
 IDWriteFontFile
@@ -1598,8 +1608,6 @@ GetIndex
 (
 )
 mSize
-0
-nullptr
 aBaton
 )
 ;

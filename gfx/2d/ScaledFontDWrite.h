@@ -266,6 +266,17 @@ aBaton
 )
 ;
 virtual
+bool
+CanSerialize
+(
+)
+override
+{
+return
+true
+;
+}
+virtual
 AntialiasMode
 GetDefaultAAMode
 (
