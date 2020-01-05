@@ -497,13 +497,6 @@ i
 1
 )
 ;
-timer
--
->
-Cancel
-(
-)
-;
 nsCOMArray
 <
 nsIFile
@@ -528,6 +521,13 @@ void
 arg
 )
 )
+)
+;
+timer
+-
+>
+Cancel
+(
 )
 ;
 if
