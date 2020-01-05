@@ -5808,8 +5808,6 @@ return
 true
 ;
 }
-else
-{
 return
 !
 gCorruptHistograms
@@ -5817,7 +5815,6 @@ gCorruptHistograms
 id
 ]
 ;
-}
 }
 }
 /
