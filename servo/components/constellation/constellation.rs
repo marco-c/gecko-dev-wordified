@@ -296,15 +296,6 @@ TraversalDirection
 }
 ;
 use
-msg
-:
-:
-constellation_msg
-:
-:
-WindowSizeType
-;
-use
 net_traits
 :
 :
@@ -466,6 +457,7 @@ script_traits
 {
 SWManagerMsg
 ScopeThings
+WindowSizeType
 }
 ;
 use

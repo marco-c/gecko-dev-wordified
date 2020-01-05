@@ -220,18 +220,7 @@ constellation_msg
 PipelineId
 PipelineIndex
 PipelineNamespaceId
-}
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-{
 TraversalDirection
-WindowSizeType
 }
 ;
 use
@@ -314,6 +303,7 @@ TouchpadPressurePhase
 TouchEventType
 TouchId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
