@@ -24578,7 +24578,13 @@ override
 {
 MOZ_ASSERT
 (
-false
+mAudioContextOperation
+=
+=
+AudioContextOperation
+:
+:
+Close
 "
 We
 should
