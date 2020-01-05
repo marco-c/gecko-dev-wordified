@@ -5065,7 +5065,7 @@ isSamplingCurrentThread
 |
 jsIter
 .
-isAsmJS
+isWasm
 (
 )
 )
@@ -5829,9 +5829,7 @@ jsIndex
 Stringifying
 non
 -
-asm
-.
-js
+wasm
 JIT
 frames
 is
@@ -6012,7 +6010,7 @@ JS
 ProfilingFrameIterator
 :
 :
-Frame_AsmJS
+Frame_Wasm
 )
 {
 addDynamicTag

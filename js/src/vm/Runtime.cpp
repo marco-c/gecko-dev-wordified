@@ -2022,7 +2022,7 @@ tasks
 .
 Waiting
 for
-AsmJS
+wasm
 and
 compression
 tasks

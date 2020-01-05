@@ -5143,9 +5143,7 @@ table
 .
 Note
 that
-asm
-.
-js
+wasm
 compilation
 depends
 on
@@ -5173,9 +5171,7 @@ on
 other
 off
 thread
-asm
-.
-js
+wasm
 compilation
 tasks
 .

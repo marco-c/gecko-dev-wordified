@@ -3580,9 +3580,7 @@ a
 segfault
 in
 the
-asm
-.
-js
+wasm
 signal
 handler
 .
@@ -3604,9 +3602,7 @@ interrupt
 of
 JIT
 /
-asm
-.
-js
+wasm
 code
 in
 /

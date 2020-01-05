@@ -13737,9 +13737,7 @@ Let
 '
 s
 skip
-asm
-.
-js
+wasm
 for
 now
 .

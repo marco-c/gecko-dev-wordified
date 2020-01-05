@@ -531,9 +531,7 @@ allow
 a
 single
 parallel
-asm
-.
-js
+wasm
 compilation
 to
 happen

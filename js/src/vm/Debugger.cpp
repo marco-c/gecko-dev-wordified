@@ -17170,7 +17170,7 @@ if
 comp
 -
 >
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 =
@@ -17182,7 +17182,7 @@ continue
 comp
 -
 >
-updateDebuggerObservesAsmJS
+updateDebuggerObservesWasm
 (
 )
 ;
@@ -22328,7 +22328,7 @@ compartment
 comp
 -
 >
-updateDebuggerObservesAsmJS
+updateDebuggerObservesWasm
 (
 )
 ;
@@ -25657,7 +25657,7 @@ setIsDebuggee
 debuggeeCompartment
 -
 >
-updateDebuggerObservesAsmJS
+updateDebuggerObservesWasm
 (
 )
 ;
@@ -26552,7 +26552,7 @@ compartment
 )
 -
 >
-updateDebuggerObservesAsmJS
+updateDebuggerObservesWasm
 (
 )
 ;
@@ -36943,10 +36943,8 @@ inner
 function
 could
 be
-an
-asm
-.
-js
+a
+wasm
 native
 .
 if

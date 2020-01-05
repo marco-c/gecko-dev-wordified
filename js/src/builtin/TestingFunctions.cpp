@@ -11155,12 +11155,12 @@ JS
 ProfilingFrameIterator
 :
 :
-Frame_AsmJS
+Frame_Wasm
 :
 frameKindStr
 =
 "
-asmjs
+wasm
 "
 ;
 break
@@ -29048,9 +29048,7 @@ n
 "
 "
 (
-asm
-.
-js
+wasm
 )
 programs
 .

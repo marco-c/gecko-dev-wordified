@@ -412,7 +412,7 @@ wasm
 :
 ProfilingFrameIterator
 &
-asmJSIter
+wasmIter
 (
 )
 {
@@ -426,7 +426,7 @@ done
 ;
 MOZ_ASSERT
 (
-isAsmJS
+isWasm
 (
 )
 )
@@ -462,7 +462,7 @@ wasm
 :
 ProfilingFrameIterator
 &
-asmJSIter
+wasmIter
 (
 )
 const
@@ -477,7 +477,7 @@ done
 ;
 MOZ_ASSERT
 (
-isAsmJS
+isWasm
 (
 )
 )
@@ -777,7 +777,7 @@ FrameKind
 {
 Frame_Baseline
 Frame_Ion
-Frame_AsmJS
+Frame_Wasm
 }
 ;
 struct
@@ -804,7 +804,7 @@ label
 }
 ;
 bool
-isAsmJS
+isWasm
 (
 )
 const

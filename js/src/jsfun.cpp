@@ -2589,7 +2589,7 @@ isInterpreted
 fun
 -
 >
-isAsmJSNative
+isWasmNative
 (
 )
 )
@@ -6129,6 +6129,8 @@ For
 asm
 .
 js
+/
+wasm
 modules
 there
 '

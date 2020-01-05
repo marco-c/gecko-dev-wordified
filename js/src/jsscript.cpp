@@ -5285,7 +5285,7 @@ MOZ_ASSERT
 function
 -
 >
-isAsmJSNative
+isWasmNative
 (
 )
 )
@@ -20506,9 +20506,7 @@ safely
 left
 null
 for
-asm
-.
-js
+wasm
 frames
 .
 if
@@ -21551,7 +21549,7 @@ MOZ_ASSERT
 innerFun
 -
 >
-isAsmJSNative
+isWasmNative
 (
 )
 )

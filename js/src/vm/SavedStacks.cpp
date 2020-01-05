@@ -9699,9 +9699,7 @@ for
 this
 frame
 (
-asm
-.
-js
+wasm
 frames
 )
 we

@@ -1662,9 +1662,7 @@ pc
 /
 *
 Enter
-asm
-.
-js
+wasm
 code
 *
 /

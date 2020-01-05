@@ -2875,9 +2875,7 @@ LocationValue
 because
 /
 /
-asm
-.
-js
+wasm
 does
 not
 always

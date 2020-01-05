@@ -5006,7 +5006,7 @@ SingletonObject
 JSFunction
 :
 :
-ASMJS_CTOR
+WASM_CTOR
 )
 )
 ;
