@@ -4584,13 +4584,16 @@ C
 {
 pub
 fn
-Gecko_ClearStyleContents
+Gecko_ClearAndResizeStyleContents
 (
 content
 :
 *
 mut
 nsStyleContent
+how_many
+:
+u32
 )
 ;
 }
