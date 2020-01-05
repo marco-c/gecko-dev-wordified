@@ -830,7 +830,7 @@ FaviconRequest
 "
 :
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequestForResult
 (
