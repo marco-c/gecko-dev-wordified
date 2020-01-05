@@ -2384,6 +2384,10 @@ domstringmap
 ;
 pub
 mod
+closeevent
+;
+pub
+mod
 comment
 ;
 pub
