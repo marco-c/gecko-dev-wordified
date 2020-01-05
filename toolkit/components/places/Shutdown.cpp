@@ -1197,6 +1197,7 @@ mDatabase
 >
 Shutdown
 (
+true
 )
 ;
 mState
