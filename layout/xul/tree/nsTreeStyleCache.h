@@ -216,7 +216,7 @@ aContent
 nsStyleContext
 *
 aContext
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoElement
 const

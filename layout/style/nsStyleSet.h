@@ -2060,7 +2060,7 @@ dom
 Element
 *
 aParentElement
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoTag
 nsStyleContext

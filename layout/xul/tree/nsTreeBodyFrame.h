@@ -1812,7 +1812,7 @@ when
 hit
 testing
 .
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 GetItemWithinCellAt
 (
@@ -1869,7 +1869,7 @@ nsTreeColumn
 *
 *
 aCol
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 *
 aChildElt
@@ -2142,7 +2142,7 @@ nsStyleContext
 *
 GetPseudoStyleContext
 (
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoElement
 )

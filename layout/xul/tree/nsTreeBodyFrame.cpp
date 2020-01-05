@@ -5708,7 +5708,7 @@ nsTreeColumn
 *
 col
 ;
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 child
 ;
@@ -8477,7 +8477,7 @@ width
 width
 ;
 }
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 nsTreeBodyFrame
 :
@@ -9520,7 +9520,7 @@ nsTreeColumn
 *
 *
 aCol
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 *
 aChildElt
@@ -15076,7 +15076,7 @@ nsTreeColumn
 *
 col
 ;
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 child
 ;
@@ -27409,7 +27409,7 @@ nsTreeBodyFrame
 :
 GetPseudoStyleContext
 (
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoElement
 )
