@@ -1616,7 +1616,7 @@ HandleCDMProxyReady
 {
 }
 virtual
-bool
+void
 HandleAudioDecoded
 (
 MediaData
@@ -1624,9 +1624,6 @@ MediaData
 aAudio
 )
 {
-return
-false
-;
 }
 virtual
 bool
@@ -3160,7 +3157,7 @@ return
 DECODER_STATE_DECODING_FIRSTFRAME
 ;
 }
-bool
+void
 HandleAudioDecoded
 (
 MediaData
@@ -3184,9 +3181,6 @@ AUDIO_DATA
 MaybeFinishDecodeFirstFrame
 (
 )
-;
-return
-true
 ;
 }
 bool
@@ -3641,7 +3635,7 @@ return
 DECODER_STATE_DECODING
 ;
 }
-bool
+void
 HandleAudioDecoded
 (
 MediaData
@@ -3665,9 +3659,6 @@ AUDIO_DATA
 MaybeStopPrerolling
 (
 )
-;
-return
-true
 ;
 }
 bool
@@ -5323,7 +5314,7 @@ return
 DECODER_STATE_SEEKING
 ;
 }
-bool
+void
 HandleAudioDecoded
 (
 MediaData
@@ -5336,9 +5327,6 @@ MOZ_ASSERT
 (
 false
 )
-;
-return
-true
 ;
 }
 bool
@@ -5891,7 +5879,7 @@ return
 DECODER_STATE_BUFFERING
 ;
 }
-bool
+void
 HandleAudioDecoded
 (
 MediaData
@@ -5941,9 +5929,6 @@ mMaster
 ScheduleStateMachine
 (
 )
-;
-return
-true
 ;
 }
 bool
