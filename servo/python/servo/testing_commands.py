@@ -3968,8 +3968,19 @@ self
 .
 get_binary_path
 (
-True
-False
+kwargs
+[
+"
+release
+"
+]
+not
+kwargs
+[
+"
+release
+"
+]
 )
 ]
                 
@@ -4090,8 +4101,19 @@ self
 .
 get_binary_path
 (
-True
-False
+kwargs
+[
+"
+release
+"
+]
+not
+kwargs
+[
+"
+release
+"
+]
 )
 ]
                 
