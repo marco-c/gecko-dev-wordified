@@ -497,7 +497,7 @@ a
 background
 thread
 and
-delagates
+delegates
 /
 /
 calls

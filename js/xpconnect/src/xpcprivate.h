@@ -15410,7 +15410,7 @@ NS_DECL_ISUPPORTS
 /
 we
 manually
-delagate
+delegate
 these
 to
 nsJSID
@@ -15486,7 +15486,7 @@ NS_DECL_ISUPPORTS
 /
 we
 manually
-delagate
+delegate
 these
 to
 nsJSID
