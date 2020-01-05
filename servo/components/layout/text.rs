@@ -1015,10 +1015,12 @@ T
 nowrap
 =
 >
+{
 CompressionMode
 :
 :
 CompressWhitespaceNewline
+}
 white_space
 :
 :
@@ -1119,10 +1121,12 @@ text_fragment_info
 )
 =
 >
+{
 &
 text_fragment_info
 .
 text
+}
 _
 =
 >

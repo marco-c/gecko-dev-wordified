@@ -644,7 +644,10 @@ style
 computed_values
 :
 :
+{
 filter
+mix_blend_mode
+}
 ;
 use
 style
@@ -5062,6 +5065,13 @@ new
 (
 )
 )
+mix_blend_mode
+:
+:
+T
+:
+:
+normal
 Some
 (
 paint_layer
