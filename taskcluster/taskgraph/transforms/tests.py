@@ -5243,6 +5243,7 @@ opt
 '
             
 and
+(
 test
 [
 '
@@ -5254,6 +5255,19 @@ suite
 '
 talos
 '
+or
+test
+[
+'
+suite
+'
+]
+=
+=
+'
+awsy
+'
+)
             
 and
 config
