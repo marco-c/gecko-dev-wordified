@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+allow
+(
+dead_code
+)
+]
 use
 dom
 :

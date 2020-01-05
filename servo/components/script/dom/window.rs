@@ -1301,15 +1301,6 @@ IFrameLoadEvent
 MissingExplicitReflow
 ElementStateChanged
 }
-pub
-type
-ScrollPoint
-=
-Point2D
-<
-Au
->
-;
 #
 [
 dom_struct

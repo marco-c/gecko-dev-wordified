@@ -162,13 +162,14 @@ states
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #
 [
-derive
+allow
 (
-HeapSizeOf
+dead_code
 )
 ]
 pub
