@@ -262,6 +262,14 @@ profile_args
 )
 )
         
+self
+.
+logger
+=
+get_default_logger
+(
+)
+        
 #
 process
 environment
@@ -598,16 +606,14 @@ debug_args
 +
 cmd
         
-logger
-=
-get_default_logger
-(
-)
-        
 if
+self
+.
 logger
 :
             
+self
+.
 logger
 .
 info
@@ -1178,16 +1184,15 @@ False
 "
 "
 "
-        
 Check
 for
-a
 possible
-crash
+crashes
 and
 output
+the
 stack
-trace
+traces
 .
         
 :
@@ -1246,18 +1251,25 @@ stdout
 :
 returns
 :
-True
-if
-a
-crash
-was
+Number
+of
+crashes
+which
+have
+been
 detected
-otherwise
-False
+since
+the
+last
+invocation
         
 "
 "
 "
+        
+crash_count
+=
+0
         
 if
 not
@@ -1293,28 +1305,11 @@ self
 .
 dump_save_path
         
-try
-:
-            
-logger
-=
-get_default_logger
-(
-)
-            
 if
-logger
-is
 not
-None
-:
-                
-if
 test_name
-is
-None
 :
-                    
+            
 test_name
 =
 "
@@ -1322,21 +1317,29 @@ runner
 .
 py
 "
+        
+try
+:
+            
+if
+self
+.
+logger
+:
                 
 if
 mozcrash
 :
                     
-self
-.
-crashed
-+
+crash_count
 =
 mozcrash
 .
 log_crashes
 (
                         
+self
+.
 logger
                         
 dump_directory
@@ -1357,6 +1360,8 @@ test_name
 else
 :
                     
+self
+.
 logger
 .
 warning
@@ -1378,7 +1383,7 @@ if
 mozcrash
 :
                     
-crashed
+crash_count
 =
 mozcrash
 .
@@ -1403,34 +1408,13 @@ quiet
 =
 quiet
 )
-                    
-if
-crashed
-:
-                        
+            
 self
 .
 crashed
 +
 =
-1
-                
-else
-:
-                    
-logger
-.
-warning
-(
-"
-Can
-not
-log
-crashes
-without
-mozcrash
-"
-)
+crash_count
         
 except
 :
@@ -1442,9 +1426,7 @@ print_exc
 )
         
 return
-self
-.
-crashed
+crash_count
     
 def
 cleanup
