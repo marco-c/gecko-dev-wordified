@@ -1015,6 +1015,9 @@ aFrameElement
 ContentParent
 *
 aOpenerContentParent
+TabParent
+*
+aSameTabGroupAs
 )
 ;
 static
@@ -3452,6 +3455,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupsAs
+const
 IPCTabContext
 &
 context
@@ -4267,6 +4274,10 @@ const
 TabId
 &
 aTabId
+const
+TabId
+&
+aSameTabGroupAs
 const
 IPCTabContext
 &

@@ -615,6 +615,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -640,6 +644,7 @@ SendPBrowserConstructor
 (
 aActor
 aTabId
+aSameTabGroupAs
 aContext
 aChromeFlags
 aCpID
@@ -814,6 +819,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -838,6 +847,7 @@ nsIContentParent
 AllocPBrowserParent
 (
 aTabId
+aSameTabGroupAs
 aContext
 aChromeFlags
 aCpID

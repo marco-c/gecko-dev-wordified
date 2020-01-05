@@ -368,6 +368,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -467,6 +471,10 @@ TabId
 &
 aTabId
 const
+TabId
+&
+aSameTabGroupAs
+const
 IPCTabContext
 &
 aContext
@@ -509,6 +517,10 @@ const
 TabId
 &
 aTabId
+const
+TabId
+&
+aSameTabGroupAs
 const
 IPCTabContext
 &
