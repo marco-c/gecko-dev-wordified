@@ -337,6 +337,13 @@ class
 ErrorResult
 ;
 namespace
+dom
+{
+class
+MediaList
+;
+}
+namespace
 css
 {
 class
@@ -574,7 +581,10 @@ aRv
 )
 override
 ;
-nsMediaList
+dom
+:
+:
+MediaList
 *
 Media
 (

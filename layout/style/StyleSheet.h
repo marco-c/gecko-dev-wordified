@@ -204,9 +204,6 @@ class
 nsIPrincipal
 ;
 class
-nsMediaList
-;
-class
 nsCSSRuleProcessor
 ;
 namespace
@@ -229,6 +226,9 @@ dom
 {
 class
 CSSRuleList
+;
+class
+MediaList
 ;
 class
 SRIMetadata
@@ -930,7 +930,10 @@ aTitle
 void
 SetMedia
 (
-nsMediaList
+dom
+:
+:
+MediaList
 *
 aMedia
 )
@@ -1074,7 +1077,10 @@ fine
 for
 WebIDL
 .
-nsMediaList
+dom
+:
+:
+MediaList
 *
 Media
 (
@@ -1696,7 +1702,10 @@ weak
 ref
 RefPtr
 <
-nsMediaList
+dom
+:
+:
+MediaList
 >
 mMedia
 ;
