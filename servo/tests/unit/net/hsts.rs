@@ -178,7 +178,12 @@ ResourceManager
 :
 new
 (
-None
+"
+"
+.
+to_owned
+(
+)
 tx
 list
 None

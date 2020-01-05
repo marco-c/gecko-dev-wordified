@@ -149,7 +149,12 @@ resource_task
 =
 new_resource_task
 (
-None
+"
+"
+.
+to_owned
+(
+)
 None
 )
 ;
@@ -182,7 +187,12 @@ resource_task
 =
 new_resource_task
 (
-None
+"
+"
+.
+to_owned
+(
+)
 None
 )
 ;
