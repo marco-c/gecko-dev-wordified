@@ -747,6 +747,11 @@ Servo
 "
 )
 )
+.
+with_transparent_corner_radius
+(
+8
+)
 }
 #
 [
