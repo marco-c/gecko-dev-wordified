@@ -352,12 +352,6 @@ aOther
 .
 sandboxBrokerServices
 ;
-sandboxPermissionsService
-=
-aOther
-.
-sandboxPermissionsService
-;
 #
 endif
 return
