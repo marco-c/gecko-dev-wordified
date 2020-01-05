@@ -9587,9 +9587,6 @@ false
 ;
 if
 (
-fd
-&
-&
 mFastOpenCallback
 &
 &
