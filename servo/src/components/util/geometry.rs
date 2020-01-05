@@ -176,6 +176,15 @@ fmt
 Formatter
 )
 {
+let
+Au
+(
+n
+)
+=
+*
+obj
+;
 write
 !
 (
@@ -189,8 +198,7 @@ Au
 }
 )
 "
-*
-obj
+n
 )
 ;
 }
