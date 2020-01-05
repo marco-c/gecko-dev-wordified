@@ -11731,6 +11731,14 @@ mut
 remaining_inline_size
 =
 max_inline_size
+-
+self
+.
+border_padding
+.
+inline_start_end
+(
+)
 ;
 let
 mut
