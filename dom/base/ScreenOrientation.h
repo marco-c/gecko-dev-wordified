@@ -422,6 +422,8 @@ specification
 OrientationType
 GetType
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
