@@ -3067,6 +3067,9 @@ bool
 marked
 ;
 bool
+warnedAboutDateToLocaleFormat
+;
+bool
 warnedAboutExprClosure
 ;
 bool
