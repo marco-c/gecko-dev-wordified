@@ -6192,6 +6192,15 @@ CURRENT
 ;
 }
 ;
+auto
+DisposeNative
+(
+)
+const
+-
+>
+void
+;
 struct
 OnError_t
 {
