@@ -601,8 +601,6 @@ values
 .
 textContent
 "
-\
-"
 This
 is
 a
@@ -610,8 +608,6 @@ base
 64
 string
 .
-\
-"
 "
 "
 The
