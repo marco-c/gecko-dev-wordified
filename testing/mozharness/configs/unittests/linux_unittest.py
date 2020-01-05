@@ -3200,13 +3200,6 @@ jetpack
 ]
                             
 "
-xpcshell
-"
-:
-[
-]
-                            
-"
 gtest
 "
 :
