@@ -373,8 +373,6 @@ const
 nsACString
 &
 tables
-uint32_t
-aFreshnessGuarantee
 LookupResultArray
 &
 aResults

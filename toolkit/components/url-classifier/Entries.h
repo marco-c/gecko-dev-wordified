@@ -1654,6 +1654,13 @@ SubComplete
 >
 SubCompleteArray
 ;
+typedef
+FallibleTArray
+<
+Prefix
+>
+MissPrefixArray
+;
 /
 *
 *
