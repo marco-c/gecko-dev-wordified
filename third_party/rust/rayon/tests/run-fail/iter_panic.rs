@@ -40,10 +40,6 @@ into_par_iter
 (
 )
 .
-weight_max
-(
-)
-.
 for_each
 (
 |

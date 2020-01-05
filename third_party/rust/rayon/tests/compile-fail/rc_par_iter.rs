@@ -29,7 +29,7 @@ use
 rayon
 :
 :
-par_iter
+iter
 :
 :
 IntoParallelIterator
