@@ -202,15 +202,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoApplication
 ;
 import
