@@ -205,14 +205,6 @@ plugin
 [
 feature
 (
-ref_slice
-)
-]
-#
-!
-[
-feature
-(
 slice_patterns
 )
 ]
@@ -391,6 +383,10 @@ profile_traits
 extern
 crate
 rand
+;
+extern
+crate
+ref_slice
 ;
 extern
 crate
