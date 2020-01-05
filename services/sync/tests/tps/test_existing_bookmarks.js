@@ -357,9 +357,9 @@ phases
 /
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -381,9 +381,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Bookmarks
@@ -405,9 +405,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Bookmarks
@@ -435,9 +435,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync
