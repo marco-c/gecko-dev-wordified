@@ -1392,7 +1392,7 @@ GetStringFromName
 "
 captivePortal
 .
-showLoginPage
+showLoginPage2
 "
 )
 callback
@@ -1440,7 +1440,7 @@ GetStringFromName
 "
 captivePortal
 .
-infoMessage2
+infoMessage3
 "
 )
 ;
