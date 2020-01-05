@@ -735,7 +735,6 @@ fn
 SetAlt
 (
 &
-mut
 self
 alt
 :
@@ -756,7 +755,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 src
 :
@@ -777,7 +775,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 use_map
 :
@@ -798,7 +795,6 @@ fn
 SetIsMap
 (
 &
-mut
 self
 is_map
 :
@@ -819,7 +815,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 width
 :
@@ -840,7 +835,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 height
 :
@@ -861,7 +855,6 @@ fn
 SetName
 (
 &
-mut
 self
 name
 :
@@ -882,7 +875,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 align
 :
@@ -903,7 +895,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 hspace
 :
@@ -924,7 +915,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 vspace
 :
@@ -945,7 +935,6 @@ fn
 SetLongDesc
 (
 &
-mut
 self
 longdesc
 :
@@ -966,7 +955,6 @@ fn
 SetBorder
 (
 &
-mut
 self
 border
 :
@@ -1028,7 +1016,6 @@ fn
 SetAlt
 (
 &
-mut
 self
 alt
 :
@@ -1039,7 +1026,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1048,7 +1034,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1103,7 +1089,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 src
 :
@@ -1114,7 +1099,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1123,7 +1107,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1178,7 +1162,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 use_map
 :
@@ -1189,7 +1172,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1198,7 +1180,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1265,7 +1247,6 @@ fn
 SetIsMap
 (
 &
-mut
 self
 is_map
 :
@@ -1276,7 +1257,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1285,7 +1265,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1355,7 +1335,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 width
 :
@@ -1366,7 +1345,6 @@ let
 elem
 :
 &
-mut
 JSRef
 <
 Element
@@ -1375,7 +1353,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1441,7 +1419,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 height
 :
@@ -1452,7 +1429,6 @@ let
 elem
 :
 &
-mut
 JSRef
 <
 Element
@@ -1461,7 +1437,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1516,7 +1492,6 @@ fn
 SetName
 (
 &
-mut
 self
 name
 :
@@ -1527,7 +1502,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1536,7 +1510,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1591,7 +1565,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 align
 :
@@ -1602,7 +1575,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1611,7 +1583,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1678,7 +1650,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 hspace
 :
@@ -1689,7 +1660,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1698,7 +1668,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1765,7 +1735,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 vspace
 :
@@ -1776,7 +1745,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1785,7 +1753,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1840,7 +1808,6 @@ fn
 SetLongDesc
 (
 &
-mut
 self
 longdesc
 :
@@ -1851,7 +1818,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1860,7 +1826,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1915,7 +1881,6 @@ fn
 SetBorder
 (
 &
-mut
 self
 border
 :
@@ -1926,7 +1891,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -1935,7 +1899,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )

@@ -3146,8 +3146,12 @@ tmp
 tmp_borrow
 ;
 let
-mut
 element
+:
+Root
+<
+Element
+>
 =
 build_element_from_tag
 (
@@ -3275,6 +3279,10 @@ ns
 ;
 element
 .
+deref
+(
+)
+.
 set_attribute_from_parser
 (
 attr
@@ -3353,6 +3361,10 @@ rel
 =
 element
 .
+deref
+(
+)
+.
 get_attribute
 (
 Null
@@ -3392,6 +3404,10 @@ let
 href
 =
 element
+.
+deref
+(
+)
 .
 get_attribute
 (
@@ -3609,6 +3625,10 @@ _
 unsafe
 {
 element
+.
+deref
+(
+)
 .
 to_hubbub_node
 (

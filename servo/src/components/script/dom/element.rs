@@ -1182,7 +1182,6 @@ fn
 set_attribute_from_parser
 (
 &
-mut
 self
 local_name
 :
@@ -1205,7 +1204,6 @@ fn
 set_attribute
 (
 &
-mut
 self
 namespace
 :
@@ -1225,7 +1223,6 @@ fn
 do_set_attribute
 (
 &
-mut
 self
 local_name
 :
@@ -1263,7 +1260,6 @@ fn
 remove_attribute
 (
 &
-mut
 self
 namespace
 :
@@ -1344,7 +1340,6 @@ fn
 set_url_attribute
 (
 &
-mut
 self
 name
 :
@@ -1373,7 +1368,6 @@ fn
 set_string_attribute
 (
 &
-mut
 self
 name
 :
@@ -1388,7 +1382,6 @@ fn
 set_uint_attribute
 (
 &
-mut
 self
 name
 :
@@ -1547,7 +1540,6 @@ fn
 set_attribute_from_parser
 (
 &
-mut
 self
 local_name
 :
@@ -1626,7 +1618,6 @@ fn
 set_attribute
 (
 &
-mut
 self
 namespace
 :
@@ -1738,15 +1729,6 @@ None
 }
 }
 let
-self_alias
-=
-self
-.
-clone
-(
-)
-;
-let
 node
 :
 &
@@ -1760,8 +1742,7 @@ NodeCast
 :
 from_ref
 (
-&
-self_alias
+self
 )
 ;
 node
@@ -1857,7 +1838,6 @@ fn
 do_set_attribute
 (
 &
-mut
 self
 local_name
 :
@@ -2074,7 +2054,6 @@ fn
 remove_attribute
 (
 &
-mut
 self
 namespace
 :
@@ -2168,7 +2147,6 @@ let
 node
 :
 &
-mut
 JSRef
 <
 Node
@@ -2177,7 +2155,7 @@ Node
 NodeCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -2226,6 +2204,16 @@ Value
 (
 )
 ;
+let
+mut
+self_alias
+=
+self
+.
+clone
+(
+)
+;
 vtable_for
 (
 NodeCast
@@ -2233,7 +2221,9 @@ NodeCast
 :
 from_mut_ref
 (
-self
+&
+mut
+self_alias
 )
 )
 .
@@ -2443,7 +2433,6 @@ fn
 set_url_attribute
 (
 &
-mut
 self
 name
 :
@@ -2527,7 +2516,6 @@ fn
 set_string_attribute
 (
 &
-mut
 self
 name
 :
@@ -2577,7 +2565,6 @@ fn
 set_uint_attribute
 (
 &
-mut
 self
 name
 :
@@ -2855,7 +2842,6 @@ fn
 SetId
 (
 &
-mut
 self
 id
 :
@@ -2876,7 +2862,6 @@ fn
 SetClassName
 (
 &
-mut
 self
 class
 :
@@ -2887,7 +2872,6 @@ fn
 Attributes
 (
 &
-mut
 self
 )
 -
@@ -2939,7 +2923,6 @@ fn
 SetAttribute
 (
 &
-mut
 self
 name
 :
@@ -2956,7 +2939,6 @@ fn
 SetAttributeNS
 (
 &
-mut
 self
 namespace_url
 :
@@ -2979,7 +2961,6 @@ fn
 RemoveAttribute
 (
 &
-mut
 self
 name
 :
@@ -2993,7 +2974,6 @@ fn
 RemoveAttributeNS
 (
 &
-mut
 self
 namespace
 :
@@ -3164,7 +3144,6 @@ fn
 Remove
 (
 &
-mut
 self
 )
 ;
@@ -3421,7 +3400,6 @@ fn
 SetId
 (
 &
-mut
 self
 id
 :
@@ -3502,7 +3480,6 @@ fn
 SetClassName
 (
 &
-mut
 self
 class
 :
@@ -3544,7 +3521,6 @@ fn
 Attributes
 (
 &
-mut
 self
 )
 -
@@ -3877,7 +3853,6 @@ fn
 SetAttribute
 (
 &
-mut
 self
 name
 :
@@ -4040,7 +4015,6 @@ fn
 SetAttributeNS
 (
 &
-mut
 self
 namespace_url
 :
@@ -4426,7 +4400,6 @@ fn
 RemoveAttribute
 (
 &
-mut
 self
 name
 :
@@ -4492,7 +4465,6 @@ fn
 RemoveAttributeNS
 (
 &
-mut
 self
 namespace
 :
@@ -5245,7 +5217,6 @@ fn
 Remove
 (
 &
-mut
 self
 )
 {
@@ -5253,7 +5224,6 @@ let
 node
 :
 &
-mut
 JSRef
 <
 Node
@@ -5262,7 +5232,7 @@ Node
 NodeCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
