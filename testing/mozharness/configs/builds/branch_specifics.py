@@ -2902,12 +2902,30 @@ fig
 {
 }
     
-#
 '
 graphics
 '
 :
 {
+        
+'
+stage_server
+'
+:
+'
+upload
+.
+ffxbld
+.
+productdelivery
+.
+prod
+.
+mozaws
+.
+net
+'
+    
 }
     
 #
