@@ -1435,6 +1435,9 @@ const
 nsIntRegion
 &
 aOldValidRegionBack
+nsIntRegion
+*
+aUpdatedRegionBack
 )
 override
 {

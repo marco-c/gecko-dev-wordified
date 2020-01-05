@@ -1779,11 +1779,6 @@ GetReadLock
 )
 -
 >
-AsNonBlockingLock
-(
-)
--
->
 GetReadCount
 (
 )
