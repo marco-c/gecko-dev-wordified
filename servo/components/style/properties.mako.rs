@@ -12904,10 +12904,8 @@ FontFamily
 :
 FamilyName
 (
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 serif
