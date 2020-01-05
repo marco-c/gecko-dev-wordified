@@ -5275,6 +5275,14 @@ FetchedIncorrectFilesize
             
 )
             
+sleeptime
+=
+30
+            
+attempts
+=
+5
+            
 error_message
 =
 "
@@ -9083,14 +9091,23 @@ attempt
 %
 d
 caught
+%
+s
 exception
 :
 %
 s
 '
 %
+                         
 (
 n
+type
+(
+e
+)
+.
+__name__
 str
 (
 e
