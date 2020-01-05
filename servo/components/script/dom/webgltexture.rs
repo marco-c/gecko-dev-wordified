@@ -574,10 +574,10 @@ CanvasWebGLMsg
 :
 BindTexture
 (
+target
 self
 .
 id
-target
 )
 )
 )
