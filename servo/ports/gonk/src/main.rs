@@ -323,10 +323,10 @@ std
 env
 ;
 mod
-window
+input
 ;
 mod
-input
+window
 ;
 struct
 BrowserWrapper
