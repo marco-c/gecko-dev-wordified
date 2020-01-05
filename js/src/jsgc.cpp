@@ -15602,6 +15602,17 @@ fixupAfterMovingGC
 (
 )
 ;
+zone
+-
+>
+externalStringCache
+(
+)
+.
+purge
+(
+)
+;
 /
 /
 Iterate
