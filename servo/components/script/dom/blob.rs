@@ -162,7 +162,7 @@ BlobBinding
 BlobMethods
 ;
 use
-servo_util
+util
 :
 :
 str

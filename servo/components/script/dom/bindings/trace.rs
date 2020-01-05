@@ -519,7 +519,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -531,7 +531,7 @@ SmallVec
 }
 ;
 use
-servo_util
+util
 :
 :
 str

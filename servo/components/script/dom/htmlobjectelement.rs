@@ -281,7 +281,7 @@ image_cache_task
 ImageCacheTask
 ;
 use
-servo_util
+util
 :
 :
 str

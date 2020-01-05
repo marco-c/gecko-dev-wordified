@@ -106,7 +106,7 @@ url
 Url
 ;
 use
-servo_util
+util
 :
 :
 str
@@ -115,7 +115,7 @@ str
 DOMString
 ;
 use
-servo_util
+util
 :
 :
 task

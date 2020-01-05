@@ -94,7 +94,7 @@ sniffer_task
 SnifferTask
 ;
 use
-servo_util
+util
 :
 :
 task

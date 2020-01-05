@@ -97,7 +97,7 @@ c_void
 }
 ;
 use
-servo_util
+util
 :
 :
 opts

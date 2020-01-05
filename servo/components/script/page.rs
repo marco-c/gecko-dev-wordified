@@ -270,7 +270,7 @@ storage_task
 StorageTask
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -282,13 +282,13 @@ MAX_RECT
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
 ;
 use
-servo_util
+util
 :
 :
 str
@@ -297,7 +297,7 @@ str
 DOMString
 ;
 use
-servo_util
+util
 :
 :
 smallvec

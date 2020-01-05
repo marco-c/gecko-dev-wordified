@@ -271,7 +271,7 @@ JSObject
 }
 ;
 use
-servo_util
+util
 :
 :
 fnv
@@ -280,7 +280,7 @@ fnv
 FnvHasher
 ;
 use
-servo_util
+util
 :
 :
 str

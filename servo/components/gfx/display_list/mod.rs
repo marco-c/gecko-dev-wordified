@@ -374,7 +374,7 @@ base
 Image
 ;
 use
-servo_util
+util
 :
 :
 cursor
@@ -383,7 +383,7 @@ cursor
 Cursor
 ;
 use
-servo_util
+util
 :
 :
 dlist
@@ -391,7 +391,7 @@ as
 servo_dlist
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -405,7 +405,7 @@ ZERO_RECT
 }
 ;
 use
-servo_util
+util
 :
 :
 range
@@ -414,7 +414,7 @@ range
 Range
 ;
 use
-servo_util
+util
 :
 :
 smallvec

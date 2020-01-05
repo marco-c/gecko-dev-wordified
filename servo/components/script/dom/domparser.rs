@@ -245,7 +245,7 @@ parse_html
 }
 ;
 use
-servo_util
+util
 :
 :
 str

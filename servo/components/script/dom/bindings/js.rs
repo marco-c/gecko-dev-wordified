@@ -726,7 +726,7 @@ script_task
 STACK_ROOTS
 ;
 use
-servo_util
+util
 :
 :
 smallvec

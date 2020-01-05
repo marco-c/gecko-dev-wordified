@@ -153,7 +153,7 @@ channel
 }
 ;
 use
-servo_util
+util
 :
 :
 task

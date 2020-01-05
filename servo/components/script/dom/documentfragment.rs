@@ -227,7 +227,7 @@ nodelist
 NodeList
 ;
 use
-servo_util
+util
 :
 :
 str

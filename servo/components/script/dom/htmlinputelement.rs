@@ -469,7 +469,7 @@ Lines
 Single
 ;
 use
-servo_util
+util
 :
 :
 str

@@ -80,7 +80,7 @@ FractionalPixel
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -89,13 +89,13 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 geometry
 ;
 use
-servo_util
+util
 :
 :
 str

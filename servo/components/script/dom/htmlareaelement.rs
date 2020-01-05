@@ -251,7 +251,7 @@ string_cache
 Atom
 ;
 use
-servo_util
+util
 :
 :
 str

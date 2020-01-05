@@ -221,7 +221,7 @@ KeyModifiers
 }
 ;
 use
-servo_util
+util
 :
 :
 cursor
@@ -230,7 +230,7 @@ cursor
 Cursor
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -239,7 +239,7 @@ geometry
 PagePx
 ;
 use
-servo_util
+util
 :
 :
 memory
@@ -248,7 +248,7 @@ memory
 MemoryProfilerChan
 ;
 use
-servo_util
+util
 :
 :
 time

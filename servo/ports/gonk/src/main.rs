@@ -82,11 +82,7 @@ time
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 extern
 crate
@@ -117,7 +113,7 @@ crate
 egl
 ;
 use
-servo_util
+util
 :
 :
 opts

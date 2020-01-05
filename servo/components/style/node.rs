@@ -103,7 +103,7 @@ selectors
 AttrSelector
 ;
 use
-servo_util
+util
 :
 :
 str

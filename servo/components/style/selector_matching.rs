@@ -108,7 +108,7 @@ url
 Url
 ;
 use
-servo_util
+util
 :
 :
 bloom
@@ -117,7 +117,7 @@ bloom
 BloomFilter
 ;
 use
-servo_util
+util
 :
 :
 resource_files
@@ -126,7 +126,7 @@ resource_files
 read_resource_file
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -135,7 +135,7 @@ smallvec
 VecLike
 ;
 use
-servo_util
+util
 :
 :
 sort

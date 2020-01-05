@@ -159,7 +159,7 @@ LoadData
 }
 ;
 use
-servo_util
+util
 :
 :
 cursor
@@ -168,7 +168,7 @@ cursor
 Cursor
 ;
 use
-servo_util
+util
 :
 :
 geometry

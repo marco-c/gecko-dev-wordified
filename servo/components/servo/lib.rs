@@ -134,11 +134,7 @@ macro_use
 ]
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 extern
 crate
@@ -353,7 +349,7 @@ test
 )
 ]
 use
-servo_util
+util
 :
 :
 time
@@ -372,7 +368,7 @@ test
 )
 ]
 use
-servo_util
+util
 :
 :
 memory
@@ -391,7 +387,7 @@ test
 )
 ]
 use
-servo_util
+util
 :
 :
 opts
@@ -407,7 +403,7 @@ test
 )
 ]
 use
-servo_util
+util
 :
 :
 taskpool
@@ -557,7 +553,7 @@ Window
 {
 :
 :
-servo_util
+util
 :
 :
 opts

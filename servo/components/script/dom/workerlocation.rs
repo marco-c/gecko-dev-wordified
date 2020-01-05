@@ -150,7 +150,7 @@ workerglobalscope
 WorkerGlobalScope
 ;
 use
-servo_util
+util
 :
 :
 str

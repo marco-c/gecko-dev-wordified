@@ -190,11 +190,7 @@ lazy_static
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 pub
 use

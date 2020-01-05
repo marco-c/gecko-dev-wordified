@@ -265,7 +265,7 @@ borrow
 ToOwned
 ;
 use
-servo_util
+util
 :
 :
 str

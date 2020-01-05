@@ -147,7 +147,7 @@ window
 Window
 ;
 use
-servo_util
+util
 :
 :
 str

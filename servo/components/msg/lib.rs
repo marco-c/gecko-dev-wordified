@@ -118,11 +118,7 @@ serialize
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 extern
 crate

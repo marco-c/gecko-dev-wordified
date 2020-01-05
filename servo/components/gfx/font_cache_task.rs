@@ -184,7 +184,7 @@ load_whole_resource
 }
 ;
 use
-servo_util
+util
 :
 :
 task
@@ -193,7 +193,7 @@ task
 spawn_named
 ;
 use
-servo_util
+util
 :
 :
 str

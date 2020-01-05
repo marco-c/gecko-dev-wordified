@@ -202,7 +202,7 @@ parse
 Parser
 ;
 use
-servo_util
+util
 :
 :
 task_state

@@ -118,7 +118,7 @@ mpsc
 Sender
 ;
 use
-servo_util
+util
 :
 :
 task

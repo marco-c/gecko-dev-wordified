@@ -153,7 +153,7 @@ EventTargetTypeId
 }
 ;
 use
-servo_util
+util
 :
 :
 str

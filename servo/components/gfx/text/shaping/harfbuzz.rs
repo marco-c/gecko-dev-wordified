@@ -367,7 +367,7 @@ c_char
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -376,7 +376,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 range

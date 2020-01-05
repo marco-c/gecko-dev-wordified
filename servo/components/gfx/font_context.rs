@@ -129,7 +129,7 @@ font
 FontHandle
 ;
 use
-servo_util
+util
 :
 :
 cache
@@ -138,7 +138,7 @@ cache
 HashCache
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -150,7 +150,7 @@ SmallVec8
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -159,7 +159,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 arc_ptr_eq

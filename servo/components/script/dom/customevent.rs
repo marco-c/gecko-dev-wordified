@@ -211,7 +211,7 @@ NullValue
 }
 ;
 use
-servo_util
+util
 :
 :
 str

@@ -150,7 +150,7 @@ WindowSizeData
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry

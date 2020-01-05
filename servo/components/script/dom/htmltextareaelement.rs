@@ -360,7 +360,7 @@ virtualmethods
 VirtualMethods
 ;
 use
-servo_util
+util
 :
 :
 str

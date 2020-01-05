@@ -106,11 +106,7 @@ servo_net
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 /
 /
@@ -206,7 +202,7 @@ resource_task
 ResourceTask
 ;
 use
-servo_util
+util
 :
 :
 time
