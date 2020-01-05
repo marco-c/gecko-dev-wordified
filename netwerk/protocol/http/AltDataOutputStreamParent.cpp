@@ -159,6 +159,10 @@ mStatus
 (
 NS_OK
 )
+mIPCOpen
+(
+true
+)
 {
 MOZ_ASSERT
 (
@@ -220,6 +224,11 @@ mStatus
 )
 )
 {
+if
+(
+mIPCOpen
+)
+{
 Unused
 <
 <
@@ -228,6 +237,7 @@ SendError
 mStatus
 )
 ;
+}
 return
 IPC_OK
 (
@@ -284,6 +294,9 @@ NS_FAILED
 (
 rv
 )
+&
+&
+mIPCOpen
 )
 {
 Unused
@@ -324,6 +337,11 @@ mStatus
 )
 )
 {
+if
+(
+mIPCOpen
+)
+{
 Unused
 <
 <
@@ -332,6 +350,7 @@ SendError
 mStatus
 )
 ;
+}
 return
 IPC_OK
 (
@@ -361,6 +380,9 @@ NS_FAILED
 (
 rv
 )
+&
+&
+mIPCOpen
 )
 {
 Unused
@@ -393,6 +415,10 @@ ActorDestroyReason
 aWhy
 )
 {
+mIPCOpen
+=
+false
+;
 }
 }
 /

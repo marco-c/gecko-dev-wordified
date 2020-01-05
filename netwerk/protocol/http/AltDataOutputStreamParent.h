@@ -352,6 +352,9 @@ asynchronously
 nsresult
 mStatus
 ;
+bool
+mIPCOpen
+;
 }
 ;
 }
