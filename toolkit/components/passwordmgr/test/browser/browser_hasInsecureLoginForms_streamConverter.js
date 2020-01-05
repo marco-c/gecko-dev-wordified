@@ -612,9 +612,11 @@ streamConverter_content
 sjs
 "
 {
-relatedBrowser
+sameProcessAsFrameLoader
 :
 originalBrowser
+.
+frameLoader
 }
 )
 ;

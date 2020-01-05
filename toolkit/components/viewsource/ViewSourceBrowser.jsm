@@ -1284,9 +1284,11 @@ this
 .
 browser
 .
-relatedBrowser
+sameProcessAsFrameLoader
 =
 browser
+.
+frameLoader
 ;
 /
 /
