@@ -288,7 +288,7 @@ count
 =
 p
 .
-num_threads
+current_num_threads
 (
 )
 ;
