@@ -214,6 +214,21 @@ mozharness
 .
 mozilla
 .
+testing
+.
+codecoverage
+import
+(
+    
+CodeCoverageMixin
+    
+code_coverage_config_options
+)
+from
+mozharness
+.
+mozilla
+.
 structuredlog
 import
 StructuredOutputParser
@@ -246,6 +261,7 @@ TestingMixin
 MercurialScript
 BlobUploadMixin
 TransferMixin
+CodeCoverageMixin
 )
 :
     
@@ -771,6 +787,15 @@ copy
 deepcopy
 (
 blobupload_config_options
+)
+\
+        
++
+copy
+.
+deepcopy
+(
+code_coverage_config_options
 )
     
 error_list
