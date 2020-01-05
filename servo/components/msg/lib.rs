@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-feature
-(
-int_uint
-)
-]
 extern
 crate
 azure

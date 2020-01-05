@@ -1478,7 +1478,7 @@ cache
 :
 LRUCache
 <
-uint
+usize
 Cell
 <
 &

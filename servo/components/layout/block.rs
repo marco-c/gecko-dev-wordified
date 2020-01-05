@@ -14562,7 +14562,7 @@ layer_id
 self
 fragment_index
 :
-uint
+u32
 )
 -
 >
@@ -14640,7 +14640,7 @@ id
 (
 )
 as
-uint
+usize
 fragment_index
 )
 }

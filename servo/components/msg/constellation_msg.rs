@@ -1472,7 +1472,7 @@ struct
 FrameId
 (
 pub
-uint
+u32
 )
 ;
 #
@@ -1492,7 +1492,7 @@ struct
 WorkerId
 (
 pub
-uint
+u32
 )
 ;
 #
@@ -1512,7 +1512,7 @@ struct
 PipelineId
 (
 pub
-uint
+u32
 )
 ;
 #
@@ -1532,7 +1532,7 @@ struct
 SubpageId
 (
 pub
-uint
+u32
 )
 ;
 /

@@ -285,7 +285,7 @@ struct
 Epoch
 (
 pub
-uint
+u32
 )
 ;
 impl
@@ -334,9 +334,9 @@ struct
 LayerId
 (
 pub
-uint
+usize
 pub
-uint
+u32
 )
 ;
 impl

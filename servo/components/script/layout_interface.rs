@@ -966,7 +966,7 @@ identifier
 pub
 id
 :
-uint
+u32
 /
 /
 /

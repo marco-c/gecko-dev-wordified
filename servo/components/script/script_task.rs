@@ -6485,7 +6485,7 @@ pipeline_id
 PipelineId
 reflow_id
 :
-uint
+u32
 )
 {
 debug

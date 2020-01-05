@@ -794,7 +794,7 @@ tasks
 .
 outstanding_paint_msgs
 :
-uint
+u32
 /
 /
 /
@@ -2984,7 +2984,7 @@ mut
 self
 count
 :
-uint
+u32
 )
 {
 /
