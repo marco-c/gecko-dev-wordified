@@ -290,7 +290,7 @@ delta
         
 self
 .
-assertAlmostEqual
+assertGreaterEqual
 (
             
 actual
@@ -307,9 +307,7 @@ max
 width
 "
 ]
-            
-delta
-=
+-
 delta
             
 msg
@@ -321,6 +319,7 @@ is
 not
 within
 {
+delta
 }
 px
 of
@@ -332,11 +331,16 @@ availWidth
 current
 width
 {
+expected
 }
-and
+should
+be
+greater
+than
 max
 width
 {
+max
 }
 "
                 
@@ -344,12 +348,18 @@ width
 format
 (
 delta
+=
+delta
+expected
+=
 actual
 [
 "
 width
 "
 ]
+max
+=
 self
 .
 max
@@ -358,12 +368,14 @@ max
 width
 "
 ]
+-
+delta
 )
 )
         
 self
 .
-assertAlmostEqual
+assertGreaterEqual
 (
             
 actual
@@ -380,10 +392,6 @@ max
 height
 "
 ]
-            
-delta
-=
-delta
             
 msg
 =
@@ -394,21 +402,28 @@ is
 not
 within
 {
+delta
 }
 px
 of
 availHeight
+:
 "
                 
 "
 current
 height
 {
+expected
 }
-and
+should
+be
+greater
+than
 max
-height
+width
 {
+max
 }
 "
                 
@@ -416,12 +431,18 @@ height
 format
 (
 delta
+=
+delta
+expected
+=
 actual
 [
 "
 height
 "
 ]
+max
+=
 self
 .
 max
@@ -430,6 +451,8 @@ max
 height
 "
 ]
+-
+delta
 )
 )
     
