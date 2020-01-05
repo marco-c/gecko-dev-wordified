@@ -339,7 +339,7 @@ raw_pointer_derive
 ]
 pub
 struct
-BrowserContext
+BrowsingContext
 {
 history
 :
@@ -369,7 +369,7 @@ Element
 >
 }
 impl
-BrowserContext
+BrowsingContext
 {
 pub
 fn
@@ -389,9 +389,9 @@ Element
 )
 -
 >
-BrowserContext
+BrowsingContext
 {
-BrowserContext
+BrowsingContext
 {
 history
 :
@@ -759,7 +759,7 @@ children
 :
 Vec
 <
-BrowserContext
+BrowsingContext
 >
 }
 impl
