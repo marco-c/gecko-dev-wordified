@@ -892,9 +892,6 @@ bool
 mRegistered
 ;
 uint32_t
-mContextFlags
-;
-uint32_t
 mPersistentAttributesDirty
 ;
 /

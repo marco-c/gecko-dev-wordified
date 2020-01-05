@@ -2867,12 +2867,6 @@ CreateChromeWindow2
 (
 aParentChrome
 aChromeFlags
-0
-/
-*
-contextFlag
-*
-/
 aOpeningTabParent
 aOpener
 &
