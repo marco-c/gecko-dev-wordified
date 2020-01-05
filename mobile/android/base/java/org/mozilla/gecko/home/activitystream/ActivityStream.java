@@ -402,6 +402,7 @@ StreamRecyclerAdapter
 (
 )
 ;
+final
 RecyclerView
 rv
 =
