@@ -21533,6 +21533,11 @@ mPresShell
 IsEventHandlingEnabled
 (
 )
+|
+|
+AnimationsPaused
+(
+)
 )
 {
 /
@@ -55584,6 +55589,12 @@ mPresShell
 &
 &
 IsEventHandlingEnabled
+(
+)
+&
+&
+!
+AnimationsPaused
 (
 )
 )
