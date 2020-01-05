@@ -185,7 +185,7 @@ txt
 define
 SERVICEWORKERREGISTRAR_VERSION
 "
-6
+7
 "
 #
 define
