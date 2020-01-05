@@ -140,7 +140,7 @@ pub
 struct
 Comment
 {
-element
+characterdata
 :
 CharacterData
 }
@@ -164,7 +164,7 @@ Comment
 {
 Comment
 {
-element
+characterdata
 :
 CharacterData
 :

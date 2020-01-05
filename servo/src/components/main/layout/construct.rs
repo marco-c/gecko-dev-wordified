@@ -5023,7 +5023,7 @@ text
 |
 text
 .
-element
+characterdata
 .
 data
 .

@@ -6771,7 +6771,7 @@ content
 +
 text
 .
-element
+characterdata
 .
 Data
 (
@@ -10025,14 +10025,14 @@ target
 (
 pi
 .
-element
+characterdata
 .
 data
 =
 =
 other_pi
 .
-element
+characterdata
 .
 data
 )
