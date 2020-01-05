@@ -762,7 +762,7 @@ pipeline_id
 }
 pub
 fn
-set_root_display_list
+set_display_list
 (
 &
 mut
@@ -809,11 +809,7 @@ insert
 pipeline_id
 built_display_list
 .
-all_display_items
-(
-)
-.
-to_vec
+into_display_items
 (
 )
 )

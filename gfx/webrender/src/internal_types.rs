@@ -176,6 +176,7 @@ webrender_traits
 :
 :
 {
+ExternalImageData
 ExternalImageId
 ScrollLayerId
 }
@@ -366,7 +367,7 @@ CacheTextureId
 )
 External
 (
-ExternalImageId
+ExternalImageData
 )
 #
 [
@@ -1958,7 +1959,7 @@ pub
 enum
 HardwareCompositeOp
 {
-Alpha
+PremultipliedAlpha
 }
 impl
 HardwareCompositeOp
@@ -1981,13 +1982,13 @@ self
 HardwareCompositeOp
 :
 :
-Alpha
+PremultipliedAlpha
 =
 >
 BlendMode
 :
 :
-Alpha
+PremultipliedAlpha
 }
 }
 }

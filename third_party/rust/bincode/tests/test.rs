@@ -62,9 +62,6 @@ use
 bincode
 :
 :
-SizeLimit
-:
-:
 {
 Infinite
 Bounded
@@ -347,6 +344,7 @@ serialize
 :
 :
 <
+_
 _
 byteorder
 :
@@ -1546,6 +1544,7 @@ deserialize_from_little
 <
 _
 _
+_
 >
 (
 &
@@ -1596,6 +1595,7 @@ deserialize_from_little
 :
 :
 <
+_
 _
 _
 >
@@ -1732,6 +1732,7 @@ deserialize_from_little
 :
 :
 <
+_
 _
 _
 >
@@ -2985,6 +2986,7 @@ serialize
 :
 :
 <
+_
 _
 byteorder
 :

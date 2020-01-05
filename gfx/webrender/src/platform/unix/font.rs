@@ -320,17 +320,14 @@ mut
 lib
 )
 ;
-if
+assert
 !
+(
 result
 .
 succeeded
 (
 )
-{
-panic
-!
-(
 "
 Unable
 to
@@ -345,7 +342,6 @@ library
 result
 )
 ;
-}
 /
 /
 TODO

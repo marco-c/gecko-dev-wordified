@@ -4283,7 +4283,13 @@ descriptor
 to_descriptor
 (
 )
+ImageData
+:
+:
+new
+(
 copied_bytes
+)
 None
 )
 ;
@@ -4511,7 +4517,7 @@ See
 the
 documentation
 of
-set_root_display_list
+set_display_list
 in
 api
 .
@@ -4670,7 +4676,7 @@ aux_descriptor
 ;
 api
 .
-set_root_display_list
+set_display_list
 (
 Some
 (
@@ -4760,7 +4766,7 @@ pipeline_id
 ;
 api
 .
-set_root_display_list
+set_display_list
 (
 Some
 (
@@ -7241,6 +7247,12 @@ descriptor
 :
 &
 BlobImageDescriptor
+_dirty_rect
+:
+Option
+<
+DeviceUintRect
+>
 )
 {
 let
