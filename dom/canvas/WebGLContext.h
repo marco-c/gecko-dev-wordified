@@ -11917,6 +11917,9 @@ mNeedsFakeNoStencil
 bool
 mNeedsEmulatedLoneDepthStencil
 ;
+bool
+mNeedsIndexValidation
+;
 const
 bool
 mAllowFBInvalidation
