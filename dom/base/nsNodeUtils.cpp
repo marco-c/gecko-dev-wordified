@@ -3274,6 +3274,7 @@ elem
 >
 NodeInfoChanged
 (
+oldDoc
 )
 ;
 }

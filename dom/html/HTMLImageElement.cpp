@@ -3890,6 +3890,9 @@ HTMLImageElement
 :
 NodeInfoChanged
 (
+nsIDocument
+*
+aOldDoc
 )
 {
 /

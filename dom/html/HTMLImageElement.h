@@ -533,6 +533,9 @@ virtual
 void
 NodeInfoChanged
 (
+nsIDocument
+*
+aOldDoc
 )
 override
 ;

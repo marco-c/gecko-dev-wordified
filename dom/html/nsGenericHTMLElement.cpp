@@ -16487,6 +16487,9 @@ nsGenericHTMLFormElementWithState
 :
 NodeInfoChanged
 (
+nsIDocument
+*
+aOldDoc
 )
 {
 mStateKey
