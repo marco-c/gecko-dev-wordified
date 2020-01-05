@@ -232,6 +232,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
