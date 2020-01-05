@@ -180,15 +180,6 @@ include
 "
 mozilla
 /
-MaybeOneOf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PodOperations
 .
 h
@@ -3072,7 +3063,7 @@ options
 mozilla
 :
 :
-MaybeOneOf
+Variant
 <
 const
 JS
