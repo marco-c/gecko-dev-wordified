@@ -934,10 +934,6 @@ n
 )
 ;
 }
-NS_IMPL_ISUPPORTS0
-(
-nsNPAPIPlugin
-)
 nsNPAPIPlugin
 :
 :
@@ -11753,9 +11749,12 @@ return
 NPERR_NO_ERROR
 ;
 }
+else
+{
 return
 NPERR_GENERIC_ERROR
 ;
+}
 }
 #
 endif

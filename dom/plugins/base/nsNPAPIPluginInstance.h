@@ -258,6 +258,15 @@ include
 "
 mozilla
 /
+RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -1977,8 +1986,10 @@ mFakeURL
 ;
 private
 :
+RefPtr
+<
 nsNPAPIPlugin
-*
+>
 mPlugin
 ;
 nsTArray
