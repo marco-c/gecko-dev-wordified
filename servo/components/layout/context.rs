@@ -168,6 +168,12 @@ parking_lot
 RwLock
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 servo_url
 :
 :
@@ -245,12 +251,6 @@ LocalStyleContext
 StyleContext
 SharedStyleContext
 }
-;
-use
-util
-:
-:
-opts
 ;
 struct
 LocalLayoutContext

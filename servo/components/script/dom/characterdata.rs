@@ -258,6 +258,12 @@ text
 Text
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -265,12 +271,6 @@ cell
 :
 :
 Ref
-;
-use
-util
-:
-:
-opts
 ;
 /
 /

@@ -747,7 +747,7 @@ QualName
 }
 ;
 use
-util
+servo_config
 :
 :
 prefs

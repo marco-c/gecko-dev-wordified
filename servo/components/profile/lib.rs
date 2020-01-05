@@ -213,6 +213,10 @@ extern
 crate
 serde_json
 ;
+extern
+crate
+servo_config
+;
 #
 [
 cfg
@@ -233,10 +237,6 @@ crate
 time
 as
 std_time
-;
-extern
-crate
-util
 ;
 #
 [

@@ -82,7 +82,7 @@ serde_derive
 ;
 extern
 crate
-util
+servo_config
 ;
 pub
 mod

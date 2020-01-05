@@ -430,6 +430,12 @@ ThreadSafeLayoutNode
 }
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 servo_url
 :
 :
@@ -653,12 +659,6 @@ traversal
 :
 :
 PostorderNodeMutTraversal
-;
-use
-util
-:
-:
-opts
 ;
 use
 wrapper

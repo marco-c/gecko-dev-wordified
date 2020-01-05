@@ -134,6 +134,12 @@ ThreadSafeLayoutNode
 }
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -229,12 +235,6 @@ traversal
 :
 :
 PerLevelTraversalData
-;
-use
-util
-:
-:
-opts
 ;
 use
 wrapper

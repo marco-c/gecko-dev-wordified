@@ -151,6 +151,12 @@ gfx_traits
 ScrollRootId
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 style
 :
 :
@@ -184,12 +190,6 @@ AssignISizes
 BubbleISizes
 BuildDisplayList
 }
-;
-use
-util
-:
-:
-opts
 ;
 pub
 use

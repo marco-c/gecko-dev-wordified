@@ -758,6 +758,10 @@ servo_atoms
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
 servo_url
 ;
 extern
@@ -786,10 +790,6 @@ unused_extern_crates
 extern
 crate
 unicode_segmentation
-;
-extern
-crate
-util
 ;
 pub
 mod

@@ -161,11 +161,11 @@ serde_derive
 ;
 extern
 crate
-signpost
+servo_config
 ;
 extern
 crate
-util
+signpost
 ;
 #
 [

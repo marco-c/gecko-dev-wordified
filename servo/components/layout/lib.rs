@@ -289,6 +289,10 @@ servo_atoms
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
 servo_url
 ;
 extern
@@ -310,10 +314,6 @@ unicode_bidi
 extern
 crate
 unicode_script
-;
-extern
-crate
-util
 ;
 extern
 crate

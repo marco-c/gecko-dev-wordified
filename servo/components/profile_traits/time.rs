@@ -87,13 +87,13 @@ std_time
 precise_time_ns
 ;
 use
-signpost
-;
-use
-util
+servo_config
 :
 :
 opts
+;
+use
+signpost
 ;
 #
 [

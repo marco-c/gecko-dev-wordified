@@ -82,6 +82,12 @@ time
 ProfilerCategory
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -131,12 +137,6 @@ path
 :
 :
 Path
-;
-use
-util
-:
-:
-opts
 ;
 static
 mut
