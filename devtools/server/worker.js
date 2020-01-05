@@ -66,6 +66,10 @@ strict
 eslint
 -
 env
+mozilla
+/
+chrome
+-
 worker
 *
 /
