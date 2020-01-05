@@ -679,9 +679,10 @@ face_index
 ptr
 :
 :
-to_unsafe_ptr
+to_mut_unsafe_ptr
 (
 &
+mut
 face
 )
 )
@@ -1779,9 +1780,10 @@ face_index
 ptr
 :
 :
-to_unsafe_ptr
+to_mut_unsafe_ptr
 (
 &
+mut
 face
 )
 )
@@ -1931,9 +1933,10 @@ face_index
 ptr
 :
 :
-to_unsafe_ptr
+to_mut_unsafe_ptr
 (
 &
+mut
 face
 )
 )
