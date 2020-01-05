@@ -355,6 +355,8 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleSet_Init
 RawServoStyleSetOwned
+RawGeckoPresContextBorrowed
+pres_context
 )
 SERVO_BINDING_FUNC
 (
