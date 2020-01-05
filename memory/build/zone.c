@@ -1327,13 +1327,18 @@ zone
 .
 c
 .
+See
+the
+comment
+there
+.
 *
 /
 if
 (
 isthreaded
 )
-jemalloc_postfork_parent
+jemalloc_postfork_child
 (
 )
 ;
@@ -1349,7 +1354,7 @@ void
 ;
 extern
 void
-_malloc_postfork
+_malloc_postfork_child
 (
 void
 )
@@ -1427,7 +1432,7 @@ library
 .
 *
 /
-_malloc_postfork
+_malloc_postfork_child
 (
 )
 ;
