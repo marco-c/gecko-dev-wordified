@@ -307,7 +307,7 @@ JSRef
 <
 Window
 >
-type_
+_type
 :
 DOMString
 init
