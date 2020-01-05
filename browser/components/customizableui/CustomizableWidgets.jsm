@@ -945,6 +945,9 @@ image
 "
 checked
 "
+"
+style
+"
 ]
 ;
 let
