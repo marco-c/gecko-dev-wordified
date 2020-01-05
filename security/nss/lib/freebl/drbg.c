@@ -2950,6 +2950,9 @@ entropy
 nonce
 *
 /
+#
+ifndef
+UNSAFE_FUZZER_MODE
 unsigned
 int
 numBytes
@@ -2959,6 +2962,8 @@ rv
 =
 SECSuccess
 ;
+#
+endif
 if
 (
 globalrng
@@ -3076,6 +3081,9 @@ return
 PR_FAILURE
 ;
 }
+#
+ifndef
+UNSAFE_FUZZER_MODE
 /
 *
 Try
@@ -3240,6 +3248,8 @@ return
 PR_FAILURE
 ;
 }
+#
+endif
 /
 *
 the
