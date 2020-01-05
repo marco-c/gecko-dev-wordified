@@ -118,6 +118,8 @@ unicode_literals
 import
 json
 import
+os
+import
 time
 from
 copy
@@ -163,6 +165,10 @@ Any
 Required
 Optional
 Extra
+from
+taskgraph
+import
+GECKO
 from
 .
 gecko_v2_whitelist
@@ -8602,6 +8608,13 @@ check_v2_routes
 with
 open
 (
+os
+.
+path
+.
+join
+(
+GECKO
 "
 testing
 /
@@ -8613,6 +8626,7 @@ routes
 .
 json
 "
+)
 "
 rb
 "
