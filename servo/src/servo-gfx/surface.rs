@@ -33,6 +33,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -44,6 +46,7 @@ bool
 {
 match
 (
+*
 self
 *
 other
@@ -62,6 +65,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &

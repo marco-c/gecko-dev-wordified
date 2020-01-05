@@ -764,6 +764,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -774,6 +776,7 @@ CSSFontWeight
 bool
 {
 (
+*
 self
 as
 uint
@@ -791,6 +794,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -801,7 +806,10 @@ CSSFontWeight
 bool
 {
 !
+(
+*
 self
+)
 .
 eq
 (
@@ -983,6 +991,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -1057,6 +1067,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -1067,7 +1079,10 @@ FontStyle
 bool
 {
 !
+(
+*
 self
+)
 .
 eq
 (
@@ -1200,6 +1215,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -1232,6 +1249,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -1242,7 +1261,10 @@ FontDescriptor
 bool
 {
 !
+(
+*
 self
+)
 .
 eq
 (
@@ -1346,6 +1368,8 @@ pure
 fn
 eq
 (
+&
+self
 other
 :
 &
@@ -1357,7 +1381,6 @@ bool
 {
 match
 (
-&
 self
 other
 )
@@ -1399,6 +1422,8 @@ pure
 fn
 ne
 (
+&
+self
 other
 :
 &
@@ -1409,7 +1434,10 @@ FontSelector
 bool
 {
 !
+(
+*
 self
+)
 .
 eq
 (
