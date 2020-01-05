@@ -7051,10 +7051,6 @@ unwrap
 if
 elem
 .
-deref
-(
-)
-.
 is_void
 (
 )

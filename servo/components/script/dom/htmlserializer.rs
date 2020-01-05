@@ -167,7 +167,10 @@ dom
 element
 :
 :
+{
 Element
+ElementHelpers
+}
 ;
 use
 dom
@@ -1347,14 +1350,12 @@ _
 }
 if
 !
-elem
-.
-deref
 (
-)
+elem
 .
 is_void
 (
+)
 )
 {
 open_elements
