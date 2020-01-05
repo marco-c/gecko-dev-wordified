@@ -357,14 +357,14 @@ to
 {
 }
 /
-l10n
--
-nightly
+{
+}
 "
 .
 format
 (
 d
+f
 )
         
 "
@@ -400,6 +400,13 @@ base
 =
 .
 .
+/
+.
+.
+/
+mozilla
+-
+aurora
 "
 )
         
@@ -437,6 +444,22 @@ android
 -
 x86
 /
+"
+]
+        
+for
+f
+in
+[
+"
+l10n
+-
+mozconfig
+"
+"
+l10n
+-
+release
 "
 ]
     
