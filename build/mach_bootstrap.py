@@ -260,6 +260,12 @@ configobj
 '
 python
 /
+dlmanager
+'
+    
+'
+python
+/
 futures
 '
     
@@ -649,6 +655,20 @@ tests
 tools
 /
 wptserve
+'
+    
+'
+testing
+/
+web
+-
+platform
+/
+tests
+/
+tools
+/
+six
 '
     
 '

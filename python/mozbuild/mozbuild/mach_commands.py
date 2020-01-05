@@ -12338,17 +12338,6 @@ taskcluster
 .
 32
 '
-                        
-'
-mozregression
-=
-=
-1
-.
-0
-.
-2
-'
 )
 :
             
