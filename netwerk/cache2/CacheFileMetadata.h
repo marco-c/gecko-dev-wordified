@@ -1020,6 +1020,13 @@ aHash
 )
 ;
 nsresult
+RemoveHash
+(
+uint32_t
+aIndex
+)
+;
+nsresult
 AddFlags
 (
 uint32_t
