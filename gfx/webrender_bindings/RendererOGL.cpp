@@ -511,6 +511,11 @@ texture
 deletions
 /
 unlocks
+and
+/
+/
+textureHosts
+recycling
 .
 return
 true
