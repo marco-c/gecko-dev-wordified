@@ -285,16 +285,6 @@ AccurateSeekTask
 (
 )
 ;
-void
-RequestVideoData
-(
-)
-;
-void
-RequestAudioData
-(
-)
-;
 nsresult
 DropAudioUpToSeekTarget
 (
