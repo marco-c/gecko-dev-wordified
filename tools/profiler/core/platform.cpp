@@ -1790,7 +1790,7 @@ s
 /
 /
 what
-moz_profiler_set_verbosity
+profiler_set_verbosity
 is
 for
 .
@@ -1820,7 +1820,7 @@ ProfilerVerbosity
 UNCHECKED
 ;
 bool
-moz_profiler_verbose
+profiler_verbose
 (
 )
 {
@@ -1874,7 +1874,7 @@ VERBOSE
 ;
 }
 void
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 pv
@@ -2221,7 +2221,7 @@ PROFILER_HELP
 Enable
 verbose
 output
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 :
@@ -2241,7 +2241,7 @@ the
 next
 enquiry
 of
-moz_profiler_verbose
+profiler_verbose
 to
 re
 -
@@ -2252,7 +2252,7 @@ env
 var
 MOZ_PROFILER_VERBOSE
 .
-moz_profiler_set_verbosity
+profiler_set_verbosity
 (
 ProfilerVerbosity
 :
