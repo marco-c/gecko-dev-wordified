@@ -701,6 +701,10 @@ mLayersId
 (
 0
 )
+mLayersConnected
+(
+false
+)
 mFrameLoader
 (
 aFrameLoader
@@ -864,6 +868,8 @@ GetCompositorBridgeChild
 )
 )
 {
+mLayersConnected
+=
 lm
 -
 >
@@ -918,6 +924,8 @@ GetTabId
 mLayersId
 )
 ;
+mLayersConnected
+=
 CompositorBridgeChild
 :
 :
@@ -1507,6 +1515,8 @@ GetCompositorBridgeChild
 )
 )
 {
+mLayersConnected
+=
 lm
 -
 >
@@ -2057,6 +2067,8 @@ GetCompositorBridgeChild
 return
 ;
 }
+mLayersConnected
+=
 lm
 -
 >

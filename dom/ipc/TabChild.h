@@ -1762,6 +1762,10 @@ const
 uint64_t
 &
 aLayersId
+const
+bool
+&
+aLayersConnected
 PRenderFrameChild
 *
 aRenderFrame
@@ -2872,6 +2876,15 @@ LayersId
 {
 return
 mLayersId
+;
+}
+bool
+IsLayersConnected
+(
+)
+{
+return
+mLayersConnected
 ;
 }
 void
@@ -4051,6 +4064,9 @@ mUnscaledOuterRect
 ;
 nscolor
 mLastBackgroundColor
+;
+bool
+mLayersConnected
 ;
 bool
 mDidFakeShow
