@@ -2155,6 +2155,12 @@ action
 append
 '
                           
+dest
+=
+'
+addons
+'
+                          
 help
 =
 "
