@@ -1616,6 +1616,10 @@ nsChangeHint
 "
             
 "
+nsCursorImage
+"
+            
+"
 nsFont
 "
             
