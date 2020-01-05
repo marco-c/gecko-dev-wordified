@@ -5307,6 +5307,12 @@ IsPlayingAudio
 (
 )
 ;
+bool
+IsDocumentLoaded
+(
+)
+const
+;
 mozilla
 :
 :
