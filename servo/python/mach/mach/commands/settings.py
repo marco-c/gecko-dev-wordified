@@ -67,12 +67,7 @@ mach
 .
 decorators
 import
-(
-    
-CommandProvider
-    
 Command
-)
 #
 CommandProvider
 class
