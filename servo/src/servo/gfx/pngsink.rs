@@ -576,14 +576,14 @@ sanity_check
 listen
 {
 |
-ch
+self_channel
 |
 let
 sink
 =
 pngsink
 (
-ch
+self_channel
 )
 ;
 let
