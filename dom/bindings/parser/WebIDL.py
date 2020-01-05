@@ -47239,9 +47239,9 @@ want
 to
 parametrize
 on
+ReturnType
     
 #
-ReturnType
 not
 Type
 .
@@ -47254,11 +47254,11 @@ end
 up
 picking
 up
-    
-#
 the
 Promise
 interface
+    
+#
 for
 now
 hence
@@ -47266,6 +47266,23 @@ the
 games
 with
 IDLUnresolvedType
+.
+Promise
+types
+can
+'
+t
+be
+    
+#
+null
+hence
+no
+"
+Null
+"
+in
+there
 .
     
 def
@@ -47286,7 +47303,6 @@ PROMISE
 LT
 ReturnType
 GT
-Null
         
 "
 "
@@ -47315,7 +47331,10 @@ Promise
 "
 )
         
-type
+p
+[
+0
+]
 =
 IDLUnresolvedType
 (
@@ -47330,22 +47349,6 @@ promiseIdent
 p
 [
 3
-]
-)
-        
-p
-[
-0
-]
-=
-self
-.
-handleNullable
-(
-type
-p
-[
-5
 ]
 )
     
