@@ -214,10 +214,11 @@ Any
 WebExtension
 or
 addon
+except
 with
 mpc
 =
-true
+false
 "
 release
 "

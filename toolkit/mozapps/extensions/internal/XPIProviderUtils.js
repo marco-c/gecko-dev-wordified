@@ -803,6 +803,9 @@ dependencies
 "
 hasEmbeddedWebExtension
 "
+"
+mpcOptedOut
+"
 ]
 ;
 /

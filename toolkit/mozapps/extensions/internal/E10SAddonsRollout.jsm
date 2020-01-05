@@ -985,11 +985,10 @@ if
 (
 aAddon
 .
-multiprocessCompatible
+mpcOptedOut
 =
 =
-=
-false
+true
 )
 {
 return
