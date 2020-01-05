@@ -387,6 +387,7 @@ DeferredMessage
 {
 public
 :
+explicit
 DeferredUpdateMessage
 (
 HWND
