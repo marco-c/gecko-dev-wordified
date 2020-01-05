@@ -7617,9 +7617,6 @@ event
 .
 if
 (
-aCalledFromJS
-&
-&
 parentDocShell
 &
 &
