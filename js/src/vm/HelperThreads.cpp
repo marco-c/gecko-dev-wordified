@@ -5077,7 +5077,7 @@ js
 oom
 :
 :
-THREAD_TYPE_ASMJS
+THREAD_TYPE_WASM
 )
 )
 return
@@ -11296,7 +11296,7 @@ js
 oom
 :
 :
-THREAD_TYPE_ASMJS
+THREAD_TYPE_WASM
 )
 ;
 handleWasmWorkload
