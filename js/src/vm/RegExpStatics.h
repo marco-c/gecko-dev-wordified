@@ -117,6 +117,13 @@ vm_RegExpStatics_h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
@@ -137,7 +144,7 @@ include
 "
 vm
 /
-RegExpObject
+RegExpShared
 .
 h
 "

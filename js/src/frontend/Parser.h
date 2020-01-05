@@ -151,6 +151,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsiter
 .
 h
