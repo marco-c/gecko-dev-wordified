@@ -98,6 +98,13 @@ h
 #
 include
 "
+PlatformDecoderModule
+.
+h
+"
+#
+include
+"
 prlink
 .
 h
