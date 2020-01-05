@@ -526,6 +526,7 @@ mRuntime
 >
 Shutdown
 (
+mJSContext
 )
 ;
 /

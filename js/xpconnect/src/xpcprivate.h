@@ -4518,11 +4518,17 @@ MOZ_IS_CLASS_INIT
 void
 Initialize
 (
+JSContext
+*
+cx
 )
 ;
 void
 Shutdown
 (
+JSContext
+*
+cx
 )
 override
 ;
