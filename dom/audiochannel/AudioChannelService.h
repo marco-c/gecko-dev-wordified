@@ -1390,6 +1390,14 @@ aActive
 )
 ;
 void
+MaybeNotifyMediaBlocked
+(
+AudioChannelAgent
+*
+aAgent
+)
+;
+void
 RequestAudioFocus
 (
 AudioChannelAgent
