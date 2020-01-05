@@ -496,6 +496,18 @@ util
 .
 List
 ;
+import
+static
+org
+.
+mozilla
+.
+gecko
+.
+Tabs
+.
+TabEvents
+;
 public
 class
 CustomTabsActivity
@@ -1326,8 +1338,6 @@ onTabChanged
 (
 Tab
 tab
-Tabs
-.
 TabEvents
 msg
 String
@@ -1357,8 +1367,6 @@ if
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 START
@@ -1367,8 +1375,6 @@ START
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 STOP
@@ -1377,8 +1383,6 @@ STOP
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 ADDED
@@ -1387,8 +1391,6 @@ ADDED
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 LOAD_ERROR
@@ -1397,8 +1399,6 @@ LOAD_ERROR
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 LOADED
@@ -1407,8 +1407,6 @@ LOADED
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 LOCATION_CHANGE
@@ -1441,8 +1439,6 @@ if
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 LOCATION_CHANGE
@@ -1451,8 +1447,6 @@ LOCATION_CHANGE
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 SECURITY_CHANGE
@@ -1461,8 +1455,6 @@ SECURITY_CHANGE
 msg
 =
 =
-Tabs
-.
 TabEvents
 .
 TITLE
