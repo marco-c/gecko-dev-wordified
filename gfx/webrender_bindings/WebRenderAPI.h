@@ -197,6 +197,9 @@ layers
 class
 CompositorBridgeParentBase
 ;
+class
+WebRenderBridgeParent
+;
 }
 namespace
 wr
@@ -640,6 +643,13 @@ mUseANGLE
 friend
 class
 DisplayListBuilder
+;
+friend
+class
+layers
+:
+:
+WebRenderBridgeParent
 ;
 }
 ;

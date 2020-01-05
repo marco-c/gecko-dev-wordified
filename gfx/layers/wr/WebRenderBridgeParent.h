@@ -1230,6 +1230,13 @@ return
 sIdNameSpace
 ;
 }
+void
+FlushRendering
+(
+bool
+aIsSync
+)
+;
 private
 :
 virtual
@@ -1709,7 +1716,7 @@ bool
 mDestroyed
 ;
 bool
-mIsSnapshotting
+mForceRendering
 ;
 /
 /
