@@ -2256,6 +2256,17 @@ Message
 aMsg
 )
 ;
+already_AddRefed
+<
+nsIEventTarget
+>
+GetActorEventTarget
+(
+IProtocol
+*
+aActor
+)
+;
 protected
 :
 virtual
