@@ -655,15 +655,6 @@ A
 drop
 unsafe
 {
-error
-!
-(
-"
-dropp
-!
-"
-)
-;
 for
 self
 .
