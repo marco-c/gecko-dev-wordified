@@ -98,11 +98,8 @@ i
 )
 ;
 }
-window
-.
-startRecursion
-=
 function
+startRecursion
 (
 )
 {

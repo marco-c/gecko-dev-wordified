@@ -31,7 +31,7 @@ zero
 const
 {
 setupTestRunner
-editorSelect
+returnvalues
 }
 =
 require
@@ -64,7 +64,7 @@ this
 )
 ;
 yield
-editorSelect
+returnvalues
 (
 this
 )
