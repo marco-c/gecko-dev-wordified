@@ -1184,6 +1184,15 @@ finish
 Assumptions
 assumptions_
 ;
+LinkDataTier
+*
+linkDataTier_
+;
+/
+/
+Owned
+by
+linkData_
 LinkData
 linkData_
 ;

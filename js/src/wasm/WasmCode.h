@@ -226,6 +226,9 @@ struct
 LinkData
 ;
 struct
+LinkDataTier
+;
+struct
 Metadata
 ;
 struct
@@ -575,7 +578,7 @@ ShareableBytes
 &
 bytecode
 const
-LinkData
+LinkDataTier
 &
 linkData
 const
@@ -597,7 +600,7 @@ ShareableBytes
 &
 bytecode
 const
-LinkData
+LinkDataTier
 &
 linkData
 const
@@ -669,7 +672,7 @@ ShareableBytes
 &
 bytecode
 const
-LinkData
+LinkDataTier
 &
 linkData
 const
@@ -691,7 +694,7 @@ ShareableBytes
 &
 bytecode
 const
-LinkData
+LinkDataTier
 &
 linkData
 const
@@ -904,7 +907,7 @@ uint8_t
 *
 cursor
 const
-LinkData
+LinkDataTier
 &
 linkData
 )
@@ -924,7 +927,7 @@ ShareableBytes
 &
 bytecode
 const
-LinkData
+LinkDataTier
 &
 linkData
 const
@@ -1847,6 +1850,9 @@ memoryUsage
 uint32_t
 minMemoryLength
 ;
+uint32_t
+globalDataLength
+;
 Maybe
 <
 uint32_t
@@ -1878,6 +1884,10 @@ MemoryUsage
 None
 )
 minMemoryLength
+(
+0
+)
+globalDataLength
 (
 0
 )
