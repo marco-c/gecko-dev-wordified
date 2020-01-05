@@ -3153,8 +3153,6 @@ getComputedStyle
 frame
 .
 frameElement
-"
-"
 )
 .
 borderLeftWidth
@@ -3169,8 +3167,6 @@ getComputedStyle
 frame
 .
 frameElement
-"
-"
 )
 .
 borderTopWidth

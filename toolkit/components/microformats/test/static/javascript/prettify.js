@@ -4846,7 +4846,6 @@ defaultView
 getComputedStyle
 (
 node
-null
 )
 .
 getPropertyValue
@@ -8820,7 +8819,6 @@ defaultView
 getComputedStyle
 (
 node
-null
 )
 .
 getPropertyValue

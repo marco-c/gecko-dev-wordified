@@ -266,7 +266,6 @@ window
 getComputedStyle
 (
 aTree
-null
 )
 .
 direction

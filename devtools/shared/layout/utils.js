@@ -2519,7 +2519,6 @@ frame
 getComputedStyle
 (
 frame
-null
 )
 ;
 /

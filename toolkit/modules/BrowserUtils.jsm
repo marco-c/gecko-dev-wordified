@@ -1224,8 +1224,6 @@ win
 getComputedStyle
 (
 parentFrame
-"
-"
 )
 ;
 let

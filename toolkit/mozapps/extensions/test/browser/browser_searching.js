@@ -1013,8 +1013,6 @@ defaultView
 getComputedStyle
 (
 item
-"
-"
 )
 ;
 if

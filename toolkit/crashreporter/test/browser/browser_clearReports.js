@@ -119,8 +119,6 @@ defaultView
 getComputedStyle
 (
 button
-"
-"
 )
 ;
 Assert

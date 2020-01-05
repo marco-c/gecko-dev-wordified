@@ -720,7 +720,6 @@ messageNodes
 [
 i
 ]
-null
 )
 ;
 if

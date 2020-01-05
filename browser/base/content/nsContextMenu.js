@@ -7976,8 +7976,6 @@ defaultView
 getComputedStyle
 (
 aElem
-"
-"
 )
 .
 getPropertyValue
@@ -8026,8 +8024,6 @@ defaultView
 getComputedStyle
 (
 aElem
-"
-"
 )
 .
 getPropertyCSSValue

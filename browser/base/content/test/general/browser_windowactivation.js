@@ -1099,8 +1099,6 @@ content
 getComputedStyle
 (
 area
-"
-"
 )
 .
 backgroundColor

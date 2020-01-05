@@ -688,8 +688,6 @@ getComputedStyle
 this
 .
 _scrollable
-"
-"
 )
 .
 getPropertyValue
@@ -717,8 +715,6 @@ getComputedStyle
 this
 .
 _scrollable
-"
-"
 )
 .
 getPropertyValue

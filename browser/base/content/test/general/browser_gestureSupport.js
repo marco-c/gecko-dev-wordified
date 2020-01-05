@@ -4311,7 +4311,6 @@ window
 getComputedStyle
 (
 aImageElement
-null
 )
 .
 transform

@@ -363,8 +363,6 @@ getComputedStyle
 subdialog
 .
 _overlay
-"
-"
 )
 .
 visibility
@@ -544,8 +542,6 @@ getComputedStyle
 subdialog
 .
 _overlay
-"
-"
 )
 .
 visibility

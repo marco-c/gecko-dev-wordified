@@ -1061,7 +1061,6 @@ content
 document
 .
 body
-null
 )
 ;
 return
@@ -1162,7 +1161,6 @@ content
 getComputedStyle
 (
 span
-null
 )
 ;
 return

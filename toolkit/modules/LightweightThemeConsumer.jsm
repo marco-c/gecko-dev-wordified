@@ -825,8 +825,6 @@ defaultView
 getComputedStyle
 (
 root
-"
-"
 )
 .
 color

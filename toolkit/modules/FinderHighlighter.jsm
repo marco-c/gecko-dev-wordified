@@ -4942,8 +4942,6 @@ defaultView
 getComputedStyle
 (
 node
-"
-"
 )
 ;
 let
@@ -5961,7 +5959,6 @@ window
 getComputedStyle
 (
 node
-null
 )
 ;
 if

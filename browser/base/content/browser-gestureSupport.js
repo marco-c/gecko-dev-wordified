@@ -3444,7 +3444,6 @@ window
 getComputedStyle
 (
 contentElement
-null
 )
 .
 transform

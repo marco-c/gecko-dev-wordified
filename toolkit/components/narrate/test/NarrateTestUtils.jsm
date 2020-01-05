@@ -295,8 +295,6 @@ defaultView
 getComputedStyle
 (
 element
-"
-"
 )
 ;
 if

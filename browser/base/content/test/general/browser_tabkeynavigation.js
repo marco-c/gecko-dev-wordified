@@ -649,8 +649,6 @@ getComputedStyle
 gBrowser
 .
 mTabBox
-"
-"
 )
 .
 direction
@@ -1090,8 +1088,6 @@ getComputedStyle
 gBrowser
 .
 mTabBox
-"
-"
 )
 .
 direction

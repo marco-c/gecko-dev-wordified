@@ -509,7 +509,6 @@ settings
 [
 0
 ]
-null
 )
 ;
 is
