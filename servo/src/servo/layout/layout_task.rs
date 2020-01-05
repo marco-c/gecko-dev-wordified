@@ -1030,8 +1030,6 @@ node
 .
 restyle_subtree
 (
-&
-layout_ctx
 ctx
 )
 ;

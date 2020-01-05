@@ -68,10 +68,6 @@ MatchMethods
 fn
 restyle_subtree
 (
-ctx
-:
-&
-LayoutContext
 select_ctx
 :
 &
@@ -133,10 +129,6 @@ style
 fn
 restyle_subtree
 (
-ctx
-:
-&
-LayoutContext
 select_ctx
 :
 &
@@ -171,7 +163,6 @@ kid
 .
 restyle_subtree
 (
-ctx
 select_ctx
 )
 ;
