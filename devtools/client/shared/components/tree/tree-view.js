@@ -472,7 +472,7 @@ object
 )
 ;
 *
-renderCelL
+renderCell
 :
 function
 (
@@ -647,7 +647,7 @@ renderRow
 PropTypes
 .
 func
-renderCelL
+renderCell
 :
 PropTypes
 .
