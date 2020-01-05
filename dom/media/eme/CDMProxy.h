@@ -176,6 +176,9 @@ MediaRawData
 class
 ChromiumCDMProxy
 ;
+namespace
+eme
+{
 enum
 DecryptStatus
 {
@@ -192,6 +195,13 @@ AbortedErr
 =
 3
 }
+;
+}
+using
+eme
+:
+:
+DecryptStatus
 ;
 struct
 DecryptResult
