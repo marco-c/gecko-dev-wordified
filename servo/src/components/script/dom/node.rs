@@ -5047,6 +5047,10 @@ JS
 Node
 >
 {
+#
+[
+inline
+]
 unsafe
 fn
 type_id_for_layout
@@ -5069,6 +5073,10 @@ unsafe_get
 .
 type_id
 }
+#
+[
+inline
+]
 unsafe
 fn
 is_element_for_layout
@@ -5273,6 +5281,10 @@ get
 (
 )
 }
+#
+[
+inline
+]
 unsafe
 fn
 owner_doc_for_layout
