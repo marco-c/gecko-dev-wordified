@@ -175,6 +175,9 @@ DocAccessibleChild
 DocAccessible
 *
 aDoc
+IProtocol
+*
+aManager
 )
 :
 DocAccessibleChildBase
@@ -220,6 +223,11 @@ Shutdown
 )
 ;
 }
+SetManager
+(
+aManager
+)
+;
 }
 DocAccessibleChild
 :

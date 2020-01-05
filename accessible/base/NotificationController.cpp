@@ -6454,6 +6454,12 @@ new
 DocAccessibleChild
 (
 childDoc
+parentIPCDoc
+-
+>
+Manager
+(
+)
 )
 ;
 childDoc
