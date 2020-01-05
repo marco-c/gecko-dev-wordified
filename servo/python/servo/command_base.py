@@ -2497,7 +2497,17 @@ git
 submodule
 "
 "
+-
+-
+quiet
+"
+"
 sync
+"
+"
+-
+-
+recursive
 "
 ]
 )
