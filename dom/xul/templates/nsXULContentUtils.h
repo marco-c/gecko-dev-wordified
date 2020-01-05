@@ -143,9 +143,6 @@ class
 nsIRDFService
 ;
 class
-nsIDateTimeFormat
-;
-class
 nsICollation
 ;
 /
@@ -604,11 +601,6 @@ static
 nsIRDFService
 *
 gRDF
-;
-static
-nsIDateTimeFormat
-*
-gFormat
 ;
 static
 nsICollation
