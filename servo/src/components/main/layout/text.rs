@@ -125,7 +125,7 @@ layout
 flow
 :
 :
-FlowContext
+Flow
 ;
 use
 servo_util
@@ -202,7 +202,7 @@ flow
 :
 &
 mut
-FlowContext
+Flow
 )
 {
 {
@@ -723,7 +723,7 @@ flow
 :
 &
 mut
-FlowContext
+Flow
 last_whitespace
 :
 bool

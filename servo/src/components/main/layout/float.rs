@@ -99,7 +99,7 @@ flow
 {
 FloatFlowClass
 FlowClass
-FlowContext
+Flow
 FlowData
 }
 ;
@@ -653,7 +653,7 @@ FloatFlow
 }
 }
 impl
-FlowContext
+Flow
 for
 FloatFlow
 {
