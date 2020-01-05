@@ -437,9 +437,6 @@ CommandArgument
 '
 params
 '
-default
-=
-None
 nargs
 =
 '
