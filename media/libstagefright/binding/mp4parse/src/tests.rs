@@ -5589,8 +5589,8 @@ assert_eq
 (
 s
 "
-avcC
-box
+read_buf
+size
 exceeds
 BUF_SIZE_LIMIT
 "
@@ -5789,8 +5789,8 @@ assert_eq
 (
 s
 "
-esds
-box
+read_buf
+size
 exceeds
 BUF_SIZE_LIMIT
 "
