@@ -8202,7 +8202,7 @@ i
 nscoord
 axis
 =
-NS_HALF_CORNER_IS_X
+HalfCornerIsX
 (
 i
 )
