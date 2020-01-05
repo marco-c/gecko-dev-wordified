@@ -354,6 +354,16 @@ opt
 '
 linux64
 -
+fuzzing
+-
+asan
+-
+opt
+'
+    
+'
+linux64
+-
 ccov
 -
 opt
