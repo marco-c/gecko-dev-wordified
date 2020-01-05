@@ -533,6 +533,10 @@ num_traits
 ;
 extern
 crate
+ordered_float
+;
+extern
+crate
 rand
 ;
 extern
