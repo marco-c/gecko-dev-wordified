@@ -11064,6 +11064,7 @@ true
 [
 derive
 (
+Clone
 PartialEq
 Debug
 )
