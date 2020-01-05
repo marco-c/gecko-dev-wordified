@@ -523,9 +523,14 @@ x
 .
 )
 \
-NS_DebugBreak
+printf_stderr
 (
-NS_DEBUG_WARNING
+"
+%
+s
+\
+n
+"
 nsPrintfCString
 (
 "
@@ -544,10 +549,6 @@ __VA_ARGS__
 get
 (
 )
-nullptr
-nullptr
--
-1
 )
 #
 define
