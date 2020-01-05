@@ -2618,8 +2618,6 @@ Pinch
 -
 zoom
 on
-B2G
-or
 fennec
 .
 float
