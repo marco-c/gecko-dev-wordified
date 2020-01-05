@@ -767,6 +767,16 @@ ClearStyleAndImageCaches
 (
 )
 ;
+nsresult
+RemoveImageCacheEntry
+(
+int32_t
+aRowIndex
+nsITreeColumn
+*
+aCol
+)
+;
 void
 CancelImageRequests
 (
