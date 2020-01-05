@@ -179,7 +179,9 @@ h
 #
 include
 "
-prclist
+mozilla
+/
+LinkedList
 .
 h
 "
@@ -203,7 +205,13 @@ nsSHistory
 final
 :
 public
-PRCList
+mozilla
+:
+:
+LinkedListElement
+<
+nsSHistory
+>
 public
 nsISHistory
 public
