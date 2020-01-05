@@ -5557,6 +5557,10 @@ cookie
 cookie_msg_to_cookie
 (
 cookie
+.
+into_inner
+(
+)
 )
 }
 )
@@ -5677,6 +5681,10 @@ cookie
 cookie_msg_to_cookie
 (
 cookie
+.
+into_inner
+(
+)
 )
 }
 )

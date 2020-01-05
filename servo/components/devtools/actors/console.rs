@@ -629,7 +629,7 @@ json_type
 {
 json_type
 .
-as_string
+as_str
 (
 )
 .
@@ -1008,7 +1008,7 @@ listener
 |
 listener
 .
-as_string
+as_str
 (
 )
 .
@@ -1146,7 +1146,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .

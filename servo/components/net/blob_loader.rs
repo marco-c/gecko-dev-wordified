@@ -102,6 +102,12 @@ http
 RawStatus
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -657,12 +663,15 @@ content_type
 :
 Some
 (
+Serde
+(
 ContentType
 (
 content_type
 .
 clone
 (
+)
 )
 )
 )
@@ -689,7 +698,10 @@ headers
 :
 Some
 (
+Serde
+(
 headers
+)
 )
 /
 /
@@ -711,6 +723,8 @@ status
 :
 Some
 (
+Serde
+(
 RawStatus
 (
 200
@@ -720,6 +734,7 @@ OK
 .
 into
 (
+)
 )
 )
 )

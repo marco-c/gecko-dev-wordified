@@ -375,6 +375,12 @@ size
 Size2D
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -1681,7 +1687,10 @@ IpcSender
 <
 Vec
 <
+Serde
+<
 Cookie
+>
 >
 >
 )
@@ -1816,7 +1825,10 @@ IpcSender
 <
 Vec
 <
+Serde
+<
 Cookie
+>
 >
 >
 )

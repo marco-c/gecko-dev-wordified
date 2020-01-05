@@ -295,6 +295,12 @@ SubLevel
 }
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 ipc_channel
 :
 :
@@ -2210,6 +2216,8 @@ if
 let
 Some
 (
+Serde
+(
 ContentType
 (
 Mime
@@ -2223,6 +2231,7 @@ SubLevel
 :
 Css
 _
+)
 )
 )
 )
@@ -2379,6 +2388,8 @@ map_or
 (
 false
 |
+Serde
+(
 ContentType
 (
 Mime
@@ -2386,6 +2397,7 @@ Mime
 top
 sub
 _
+)
 )
 )
 |
@@ -2689,10 +2701,13 @@ map_or
 (
 false
 |
+Serde
+(
 RawStatus
 (
 code
 _
+)
 )
 |
 code

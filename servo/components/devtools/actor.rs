@@ -1235,7 +1235,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .
@@ -1297,7 +1297,7 @@ unwrap
 (
 )
 .
-as_string
+as_str
 (
 )
 .

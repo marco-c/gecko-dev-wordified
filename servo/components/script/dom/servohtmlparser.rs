@@ -360,6 +360,12 @@ TopLevel
 }
 ;
 use
+hyper_serde
+:
+:
+Serde
+;
+use
 js
 :
 :
@@ -844,6 +850,14 @@ meta
 meta
 .
 content_type
+)
+.
+map
+(
+Serde
+:
+:
+into_inner
 )
 ;
 let
