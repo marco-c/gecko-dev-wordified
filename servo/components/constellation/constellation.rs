@@ -7325,7 +7325,7 @@ deadlock
 /
 Channels
 to
-recieve
+receive
 signals
 when
 threads
