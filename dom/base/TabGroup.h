@@ -705,6 +705,15 @@ nsIDocShellTreeItem
 aFoundItem
 )
 ;
+nsTArray
+<
+nsPIDOMWindowOuter
+*
+>
+GetTopLevelWindows
+(
+)
+;
 private
 :
 ~
