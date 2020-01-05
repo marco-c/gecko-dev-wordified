@@ -10767,6 +10767,16 @@ setData
 newData
 )
 ;
+if
+(
+trc
+-
+>
+isTenuringTracer
+(
+)
+)
+{
 Nursery
 &
 nursery
@@ -10803,6 +10813,7 @@ direct
 false
 )
 ;
+}
 }
 if
 (
