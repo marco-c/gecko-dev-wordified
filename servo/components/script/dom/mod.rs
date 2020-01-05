@@ -2222,9 +2222,6 @@ for
 /
 /
 !
-&
-'
-a
 Foo
 ;
 /
@@ -2257,8 +2254,13 @@ only
 applicable
 to
 new
+types
+inheriting
+/
+/
+!
+from
 HTMLElement
-s
 )
 /
 /
