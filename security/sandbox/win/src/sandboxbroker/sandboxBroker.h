@@ -131,15 +131,6 @@ windows
 .
 h
 >
-#
-include
-"
-base
-/
-child_privileges
-.
-h
-"
 namespace
 sandbox
 {
@@ -220,11 +211,6 @@ SetSecurityLevelForContentProcess
 (
 int32_t
 aSandboxLevel
-base
-:
-:
-ChildPrivileges
-aPrivs
 )
 ;
 #
