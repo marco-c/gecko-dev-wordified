@@ -13028,11 +13028,6 @@ pc
 return
 nullptr
 ;
-ParseNode
-*
-body
-;
-{
 /
 /
 All
@@ -13068,6 +13063,8 @@ pc
 return
 nullptr
 ;
+ParseNode
+*
 body
 =
 statementList
@@ -13109,7 +13106,6 @@ body
 return
 nullptr
 ;
-}
 /
 /
 It
