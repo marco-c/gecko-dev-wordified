@@ -1245,6 +1245,7 @@ user
 input
 "
 "
+auto
 none
 enabled
 disabled
@@ -1399,6 +1400,7 @@ user
 focus
 "
 "
+none
 ignore
 normal
 select
@@ -1416,7 +1418,6 @@ same
 select
 -
 all
-none
 "
 products
 =
