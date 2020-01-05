@@ -697,14 +697,6 @@ define
 '
 )
     
-#
-XXXjdm
-No
-union
-support
-yet
-    
-#
 generate_file
 (
 config
@@ -713,10 +705,11 @@ UnionTypes
 '
 '
 declare
++
+define
 '
 )
     
-#
 generate_file
 (
 config
@@ -725,6 +718,8 @@ UnionConversions
 '
 '
 declare
++
+define
 '
 )
 if
