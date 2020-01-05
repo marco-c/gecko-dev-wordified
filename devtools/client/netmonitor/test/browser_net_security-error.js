@@ -159,9 +159,9 @@ waitForDOM
 document
 "
 #
-panel
+security
 -
-5
+panel
 "
 )
 ;
@@ -197,10 +197,9 @@ querySelector
 (
 "
 #
-tab
+security
 -
-5
-a
+tab
 "
 )
 .

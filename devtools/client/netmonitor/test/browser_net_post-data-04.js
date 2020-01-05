@@ -182,9 +182,9 @@ waitForDOM
 document
 "
 #
-panel
+params
 -
-2
+panel
 .
 tree
 -
@@ -223,10 +223,9 @@ querySelector
 (
 "
 #
-tab
+params
 -
-2
-a
+tab
 "
 )
 .
@@ -246,9 +245,9 @@ querySelector
 (
 "
 #
-panel
+params
 -
-2
+panel
 "
 )
 ;

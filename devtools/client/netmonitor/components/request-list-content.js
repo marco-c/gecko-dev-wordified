@@ -1666,7 +1666,9 @@ Actions
 .
 selectDetailsPanelTab
 (
-5
+"
+security
+"
 )
 )
 ;
