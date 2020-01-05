@@ -1019,8 +1019,9 @@ CategoryNode
 CategoryNode
 (
 )
-{
-}
+=
+default
+;
 void
 *
 CategoryNode

@@ -577,8 +577,9 @@ nsSingletonEnumerator
 nsSingletonEnumerator
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsSingletonEnumerator
@@ -909,8 +910,9 @@ nsUnionEnumerator
 nsUnionEnumerator
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsUnionEnumerator

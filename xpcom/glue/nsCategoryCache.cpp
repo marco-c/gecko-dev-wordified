@@ -423,8 +423,9 @@ nsCategoryObserver
 nsCategoryObserver
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsCategoryObserver
