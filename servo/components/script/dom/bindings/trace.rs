@@ -582,6 +582,15 @@ SmallVec
 }
 ;
 use
+servo_util
+:
+:
+str
+:
+:
+LengthOrPercentageOrAuto
+;
+use
 layout_interface
 :
 :
@@ -1780,3 +1789,8 @@ Do
 nothing
 }
 }
+untraceable
+!
+(
+LengthOrPercentageOrAuto
+)

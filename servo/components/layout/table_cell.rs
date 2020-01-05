@@ -516,6 +516,9 @@ in
 automatic
 table
 layout
+/
+/
+/
 calculation
 .
 fn
@@ -524,10 +527,6 @@ bubble_inline_sizes
 &
 mut
 self
-ctx
-:
-&
-LayoutContext
 )
 {
 let
@@ -563,7 +562,6 @@ block_flow
 .
 bubble_inline_sizes
 (
-ctx
 )
 ;
 let
@@ -588,9 +586,6 @@ content_inline_size
 (
 )
 Au
-:
-:
-new
 (
 0
 )
@@ -624,7 +619,6 @@ intrinsic_inline_sizes
 minimum_inline_size
 =
 specified_inline_size
-;
 }
 if
 self

@@ -2019,10 +2019,6 @@ bubble_inline_sizes
 &
 mut
 self
-_ctx
-:
-&
-LayoutContext
 )
 {
 fail
