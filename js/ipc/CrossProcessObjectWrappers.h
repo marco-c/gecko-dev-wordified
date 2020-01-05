@@ -275,6 +275,11 @@ CpowEntry
 cpows
 )
 ;
+~
+CrossProcessCpowHolder
+(
+)
+;
 bool
 ToObject
 (
@@ -301,6 +306,9 @@ CpowEntry
 >
 &
 cpows_
+;
+bool
+unwrapped_
 ;
 }
 ;
