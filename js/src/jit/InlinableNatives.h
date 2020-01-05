@@ -634,6 +634,11 @@ IntrinsicIsMapIterator
 \
 _
 (
+IntrinsicIsSetIterator
+)
+\
+_
+(
 IntrinsicIsStringIterator
 )
 \
