@@ -111,7 +111,6 @@ rustc_attrs
 [
 plugin
 (
-heapsize_plugin
 plugins
 )
 ]
@@ -142,6 +141,14 @@ euclid
 extern
 crate
 heapsize
+;
+#
+[
+macro_use
+]
+extern
+crate
+heapsize_derive
 ;
 extern
 crate

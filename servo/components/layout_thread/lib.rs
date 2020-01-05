@@ -116,9 +116,9 @@ plugin
 #
 !
 [
-plugin
+feature
 (
-heapsize_plugin
+proc_macro
 )
 ]
 #
@@ -160,6 +160,14 @@ gfx_traits
 extern
 crate
 heapsize
+;
+#
+[
+macro_use
+]
+extern
+crate
+heapsize_derive
 ;
 extern
 crate
