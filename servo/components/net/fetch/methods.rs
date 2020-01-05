@@ -8137,7 +8137,9 @@ clone
 (
 )
 )
-false
+request
+.
+is_service_worker_global_scope
 request
 .
 pipeline_id
