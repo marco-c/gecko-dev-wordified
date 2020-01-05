@@ -209,7 +209,7 @@ FakeSSLStatus
 (
 certFromFile
 (
-'
+"
 a
 .
 pinning2
@@ -219,7 +219,7 @@ example
 com
 -
 pinningroot
-'
+"
 )
 )
 ;
@@ -304,7 +304,7 @@ FakeSSLStatus
 (
 certFromFile
 (
-'
+"
 a
 .
 pinning2
@@ -314,7 +314,7 @@ example
 com
 -
 pinningroot
-'
+"
 )
 )
 ;

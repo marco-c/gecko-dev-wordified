@@ -459,9 +459,9 @@ document
 .
 getElementById
 (
-'
+"
 checkCertButton
-'
+"
 )
 .
 disabled
@@ -724,9 +724,9 @@ req
 .
 open
 (
-'
+"
 GET
-'
+"
 uri
 .
 prePath
@@ -1220,9 +1220,9 @@ document
 .
 getElementById
 (
-'
+"
 checkCertButton
-'
+"
 )
 ;
 checkCertButton

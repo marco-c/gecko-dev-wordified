@@ -268,9 +268,9 @@ converter
 .
 charset
 =
-'
+"
 utf8
-'
+"
 ;
 value
 =
@@ -428,9 +428,9 @@ converter
 .
 charset
 =
-'
+"
 utf8
-'
+"
 ;
 let
 stream

@@ -1812,8 +1812,8 @@ getRawDER
 let
 derString
 =
-'
-'
+"
+"
 ;
 for
 (

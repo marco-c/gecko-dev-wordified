@@ -182,10 +182,10 @@ stateFileContents
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 .
 slice

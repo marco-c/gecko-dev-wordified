@@ -289,10 +289,10 @@ n
 let
 replacement
 =
-'
+"
 \
 x22
-'
+"
 ;
 if
 (
@@ -309,10 +309,10 @@ replacement
 {
 replacement
 =
-'
+"
 \
 x23
-'
+"
 ;
 }
 der
