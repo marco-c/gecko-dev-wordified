@@ -231,6 +231,9 @@ mozilla
 class
 nsCSSValue
 ;
+struct
+nsFontFaceRuleContainer
+;
 class
 nsIDocument
 ;
@@ -319,6 +322,13 @@ mozilla
 StyleAnimation
 >
 RawGeckoStyleAnimationList
+;
+typedef
+nsTArray
+<
+nsFontFaceRuleContainer
+>
+RawGeckoFontFaceRuleList
 ;
 /
 /
@@ -850,6 +860,10 @@ nsTimingFunction
 DECL_BORROWED_REF_TYPE_FOR
 (
 nsTimingFunction
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+RawGeckoFontFaceRuleList
 )
 #
 undef

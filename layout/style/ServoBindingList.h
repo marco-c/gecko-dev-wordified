@@ -442,6 +442,15 @@ computed_values
 RawGeckoKeyframeListBorrowedMut
 keyframe_list
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSet_GetFontFaceRules
+void
+RawServoStyleSetBorrowed
+set
+RawGeckoFontFaceRuleListBorrowedMut
+list
+)
 /
 /
 CSSRuleList
