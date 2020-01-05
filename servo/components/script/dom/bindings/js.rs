@@ -3436,7 +3436,10 @@ fn
 new_root
 <
 '
+b
+'
 a
+:
 '
 b
 T
@@ -3826,7 +3829,10 @@ JSObject
 impl
 <
 '
+b
+'
 a
+:
 '
 b
 T
@@ -4025,7 +4031,10 @@ unsafe_destructor
 impl
 <
 '
+b
+'
 a
+:
 '
 b
 T
@@ -4065,7 +4074,10 @@ self
 impl
 <
 '
+b
+'
 a
+:
 '
 b
 T
