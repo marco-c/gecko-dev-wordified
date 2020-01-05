@@ -554,10 +554,7 @@ ScaledFont
 *
 aFont
 const
-gfx
-:
-:
-Point
+LayerPoint
 &
 aOffset
 const

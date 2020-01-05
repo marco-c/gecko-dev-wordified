@@ -191,10 +191,7 @@ GetLocalOpacity
 (
 )
 ;
-gfx
-:
-:
-Rect
+LayerRect
 relBounds
 =
 GetWrRelBounds
