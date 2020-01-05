@@ -624,6 +624,13 @@ RawServoDeclarationBlockStrong
 RawServoAnimationValueBorrowedListBorrowed
 value
 )
+SERVO_BINDING_FUNC
+(
+Servo_AnimationValues_GetOpacity
+float
+RawServoAnimationValueBorrowed
+value
+)
 /
 /
 Style
