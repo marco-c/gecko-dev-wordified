@@ -220,7 +220,6 @@ Chan
 <
 LayerBufferSet
 >
-+
 draw_me
 :
 LayerBufferSet

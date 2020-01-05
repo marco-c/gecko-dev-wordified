@@ -157,10 +157,7 @@ core_foundation
 base
 :
 :
-{
 CFIndex
-CFWrapper
-}
 ;
 use
 core_foundation
@@ -657,8 +654,6 @@ to
 let
 normalized
 =
-unsafe
-{
 self
 .
 ctfont
@@ -670,7 +665,6 @@ all_traits
 normalized_weight
 (
 )
-}
 ;
 /
 /
@@ -999,8 +993,6 @@ as
 CGGlyph
 ]
 ;
-unsafe
-{
 let
 advance
 =
@@ -1025,15 +1017,12 @@ null
 1
 )
 ;
-return
 Some
 (
 advance
 as
 FractionalPixel
 )
-;
-}
 }
 fn
 get_metrics
