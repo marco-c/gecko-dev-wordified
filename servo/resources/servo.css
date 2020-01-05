@@ -873,7 +873,7 @@ box
 ;
 }
 /
-/
+*
 https
 :
 /
@@ -901,6 +901,8 @@ and
 summary
 -
 elements
+*
+/
 details
 {
 display
