@@ -3437,7 +3437,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
