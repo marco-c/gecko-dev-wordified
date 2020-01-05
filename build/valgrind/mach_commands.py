@@ -857,6 +857,33 @@ list
 of
 used
 suppressions
+                
+#
+Avoid
+excessive
+delays
+in
+the
+presence
+of
+spinlocks
+.
+                
+#
+See
+bug
+1309851
+.
+                
+'
+-
+-
+fair
+-
+sched
+=
+yes
+'
             
 ]
             
