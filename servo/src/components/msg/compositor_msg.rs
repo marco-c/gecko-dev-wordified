@@ -150,6 +150,9 @@ renderer
 [
 deriving
 (
+Eq
+Ord
+PartialOrd
 PartialEq
 Clone
 )
@@ -158,13 +161,16 @@ pub
 enum
 RenderState
 {
-IdleRenderState
 RenderingRenderState
+IdleRenderState
 }
 #
 [
 deriving
 (
+Eq
+Ord
+PartialOrd
 PartialEq
 Clone
 )
@@ -267,6 +273,7 @@ conditions
 deriving
 (
 PartialEq
+PartialOrd
 )
 ]
 pub
@@ -743,6 +750,9 @@ self
 render_state
 :
 RenderState
+pipeline_id
+:
+PipelineId
 )
 ;
 }
@@ -794,6 +804,9 @@ set_ready_state
 (
 &
 self
+pipeline_id
+:
+PipelineId
 ReadyState
 )
 ;
