@@ -6050,12 +6050,6 @@ GetID
 ;
 decoder
 .
-mInfo
-=
-info
-;
-decoder
-.
 mLastStreamSourceID
 =
 info
@@ -6114,6 +6108,12 @@ decoder
 ShutdownDecoder
 (
 )
+;
+decoder
+.
+mInfo
+=
+info
 ;
 if
 (
