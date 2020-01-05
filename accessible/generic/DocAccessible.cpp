@@ -564,6 +564,11 @@ aria_describedby
 nsGkAtoms
 :
 :
+aria_details
+&
+nsGkAtoms
+:
+:
 aria_owns
 &
 nsGkAtoms
@@ -575,6 +580,11 @@ nsGkAtoms
 :
 :
 aria_flowto
+&
+nsGkAtoms
+:
+:
+aria_errormessage
 &
 nsGkAtoms
 :
