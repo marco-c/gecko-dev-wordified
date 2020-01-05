@@ -1491,6 +1491,13 @@ enabled
 "
 media
 .
+cubeb
+.
+backend
+"
+"
+media
+.
 cubeb_latency_msg_frames
 "
 "
