@@ -245,6 +245,7 @@ i32
 match_ignore_ascii_case
 !
 {
+&
 unit
 "
 n
@@ -303,6 +304,7 @@ value
 match_ignore_ascii_case
 !
 {
+&
 value
 "
 even
@@ -469,6 +471,7 @@ value
 match_ignore_ascii_case
 !
 {
+&
 value
 "
 n
