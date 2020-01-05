@@ -596,7 +596,7 @@ to
 /
 NotifyAnimatedFromScrollHandler
 .
-AutoWeakFrame
+WeakFrame
 mAnimatingScrollHandlerFrame
 ;
 /
@@ -727,7 +727,7 @@ aObject
 ;
 public
 :
-AutoWeakFrame
+WeakFrame
 mCurrentScrollHandlerFrame
 ;
 private

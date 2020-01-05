@@ -1004,7 +1004,7 @@ NS_OK
 }
 private
 :
-AutoWeakFrame
+WeakFrame
 mFrame
 ;
 }

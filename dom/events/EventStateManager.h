@@ -278,7 +278,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 OverOutElementsWrapper
 )
-AutoWeakFrame
+WeakFrame
 mLastOverFrame
 ;
 nsCOMPtr
@@ -5271,7 +5271,7 @@ static
 LayoutDeviceIntPoint
 sSynthCenteringPoint
 ;
-AutoWeakFrame
+WeakFrame
 mCurrentTarget
 ;
 nsCOMPtr

@@ -5751,6 +5751,10 @@ IsXULBoxFrame
 )
 ?
 mTopFrame
+.
+GetFrame
+(
+)
 :
 nullptr
 ;
@@ -5792,6 +5796,10 @@ IsXULBoxFrame
 )
 ?
 mTopFrame
+.
+GetFrame
+(
+)
 :
 nullptr
 ;
@@ -6142,6 +6150,10 @@ IsXULBoxFrame
 )
 ?
 mTopFrame
+.
+GetFrame
+(
+)
 :
 nullptr
 ;

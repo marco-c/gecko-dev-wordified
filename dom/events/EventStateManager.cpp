@@ -27544,6 +27544,11 @@ remoteStatus
 ;
 }
 }
+AutoWeakFrame
+currentTraget
+=
+mCurrentTarget
+;
 FireDragEnterOrExit
 (
 aPresContext
@@ -27551,7 +27556,7 @@ aDragEvent
 eDragEnter
 lastContent
 targetContent
-mCurrentTarget
+currentTraget
 )
 ;
 if
