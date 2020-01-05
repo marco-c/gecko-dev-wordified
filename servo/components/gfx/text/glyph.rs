@@ -138,15 +138,6 @@ mem
 u16
 }
 ;
-use
-util
-:
-:
-vec
-:
-:
-*
-;
 /
 /
 /
@@ -1682,7 +1673,7 @@ self
 .
 detail_lookup
 .
-binary_search_index
+binary_search
 (
 &
 key
@@ -1819,7 +1810,7 @@ self
 .
 detail_lookup
 .
-binary_search_index
+binary_search
 (
 &
 key

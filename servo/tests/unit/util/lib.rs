@@ -150,13 +150,3 @@ test
 mod
 thread
 ;
-#
-[
-cfg
-(
-test
-)
-]
-mod
-vec
-;
