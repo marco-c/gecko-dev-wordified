@@ -1828,6 +1828,10 @@ reflector
 ;
 pub
 mod
+settings_stack
+;
+pub
+mod
 str
 ;
 pub
