@@ -16508,42 +16508,6 @@ self
 )
 :
         
-customDefineProperty
-=
-'
-defineProperty_
-'
-        
-if
-self
-.
-descriptor
-.
-operations
-[
-'
-IndexedSetter
-'
-]
-or
-self
-.
-descriptor
-.
-operations
-[
-'
-NamedSetter
-'
-]
-:
-            
-customDefineProperty
-=
-'
-defineProperty
-'
-        
 body
 =
 "
@@ -16574,8 +16538,7 @@ defineProperty
 :
 Some
 (
-%
-s
+defineProperty_
 )
   
 getOwnPropertyNames
@@ -16742,7 +16705,6 @@ _
 "
 %
 (
-customDefineProperty
 FINALIZE_HOOK_NAME
        
 TRACE_HOOK_NAME
@@ -17969,44 +17931,6 @@ argCount
 ]
 )
         
-errorResult
-=
-None
-        
-if
-self
-.
-isFallible
-(
-)
-:
-            
-if
-nativeMethodName
-=
-=
-"
-NamedSetter
-"
-:
-                
-errorResult
-=
-"
-false
-"
-            
-else
-:
-                
-errorResult
-=
-"
-false
-as
-JSBool
-"
-        
 cgThings
 .
 append
@@ -18014,7 +17938,19 @@ append
 CGCallGenerator
 (
                     
-errorResult
+'
+false
+as
+JSBool
+'
+if
+self
+.
+isFallible
+(
+)
+else
+None
                     
 self
 .
@@ -31652,7 +31588,12 @@ NamedGetter
         
 if
 namedGetter
+and
+False
 :
+#
+XXXjdm
+unfinished
             
 getNamed
 =
@@ -31660,13 +31601,10 @@ getNamed
 "
 if
 (
-RUST_JSID_IS_STRING
+JSID_IS_STRING
 (
 id
 )
-!
-=
-0
 )
 {
 \
@@ -31756,6 +31694,14 @@ define
 \
 n
 "
+)
+%
+(
+self
+.
+descriptor
+.
+concreteType
 )
         
 else
