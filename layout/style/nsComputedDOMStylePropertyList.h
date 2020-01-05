@@ -1078,6 +1078,11 @@ FontVariantPosition
 )
 COMPUTED_STYLE_PROP
 (
+font_variation_settings
+FontVariationSettings
+)
+COMPUTED_STYLE_PROP
+(
 font_weight
 FontWeight
 )
