@@ -518,6 +518,11 @@ SetIsPreflight
 (
 )
 ;
+void
+SetUpgradeInsecureRequests
+(
+)
+;
 private
 :
 /
