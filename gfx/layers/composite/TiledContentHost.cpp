@@ -483,7 +483,7 @@ tile
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -500,7 +500,7 @@ tile
 mTextureHostOnWhite
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -997,7 +997,7 @@ aCompositor
 aTexture
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -1857,7 +1857,7 @@ tile
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aLayerManager
 -

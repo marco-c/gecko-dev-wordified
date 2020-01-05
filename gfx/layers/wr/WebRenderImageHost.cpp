@@ -795,7 +795,7 @@ img
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )

@@ -1231,7 +1231,7 @@ img
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -1387,7 +1387,7 @@ img
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 GetCompositor
 (
@@ -2479,7 +2479,7 @@ img
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
