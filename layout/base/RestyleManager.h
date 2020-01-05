@@ -1286,7 +1286,7 @@ mReframingStyleContexts
 *
 *
 Try
-starting
+initiating
 a
 transition
 for
@@ -1330,7 +1330,7 @@ started
 Returns
 *
 true
-iff
+if
 it
 does
 change
@@ -1369,7 +1369,7 @@ element
 /
 static
 bool
-TryStartingTransition
+TryInitiatingTransition
 (
 nsPresContext
 *

@@ -2426,7 +2426,7 @@ from
 RestyleManager
 :
 :
-TryStartingTransition
+TryInitiatingTransition
 when
 the
 *
@@ -2901,7 +2901,7 @@ aNewStyleContext
 )
 ;
 void
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 nsCSSPropertyID
 aProperty

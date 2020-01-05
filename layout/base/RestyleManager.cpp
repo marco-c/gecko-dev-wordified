@@ -1295,7 +1295,7 @@ enqueued
 so
 that
 we
-start
+initiate
 transitions
 .
 /
@@ -6312,7 +6312,7 @@ bool
 RestyleManager
 :
 :
-TryStartingTransition
+TryInitiatingTransition
 (
 nsPresContext
 *
@@ -8321,7 +8321,7 @@ of
 nsTransitionManager
 :
 :
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 .
 #
 if
@@ -8332,7 +8332,7 @@ if
 copyFromContinuation
 )
 {
-TryStartingTransition
+TryInitiatingTransition
 (
 mPresContext
 aFrame
@@ -20420,7 +20420,7 @@ changedStyle
 RestyleManager
 :
 :
-TryStartingTransition
+TryInitiatingTransition
 (
 mPresContext
 aSelf
@@ -20442,11 +20442,13 @@ changedStyle
 LOG_RESTYLE_CONTINUE
 (
 "
-TryStartingTransition
+TryInitiatingTransition
 changed
 the
 new
 style
+"
+"
 context
 "
 )
