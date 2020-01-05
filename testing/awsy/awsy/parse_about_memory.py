@@ -450,10 +450,6 @@ Main
 "
 "
     
-data
-=
-None
-    
 try
 :
         
