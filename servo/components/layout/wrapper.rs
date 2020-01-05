@@ -812,10 +812,10 @@ white_space
 }
 ;
 use
-style
-:
-:
 selectors
+:
+:
+parser
 :
 :
 {

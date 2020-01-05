@@ -192,7 +192,10 @@ ToComputedValue
 }
 ;
 use
-selector_matching
+selectors
+:
+:
+matching
 :
 :
 DeclarationBlock
@@ -22573,6 +22576,12 @@ applicable_declarations
 &
 [
 DeclarationBlock
+<
+Vec
+<
+PropertyDeclaration
+>
+>
 ]
 shareable
 :
@@ -23293,6 +23302,12 @@ applicable_declarations
 &
 [
 DeclarationBlock
+<
+Vec
+<
+PropertyDeclaration
+>
+>
 ]
 shareable
 :

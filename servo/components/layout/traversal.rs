@@ -174,7 +174,7 @@ PostorderDomTraversal
 }
 ;
 use
-servo_util
+selectors
 :
 :
 bloom

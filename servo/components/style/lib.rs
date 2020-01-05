@@ -101,14 +101,6 @@ std_misc
 [
 feature
 (
-hash
-)
-]
-#
-!
-[
-feature
-(
 collections
 )
 ]
@@ -200,6 +192,10 @@ extern
 crate
 string_cache
 ;
+extern
+crate
+selectors
+;
 #
 [
 macro_use
@@ -231,10 +227,6 @@ stylesheets
 pub
 mod
 parser
-;
-pub
-mod
-selectors
 ;
 pub
 mod
