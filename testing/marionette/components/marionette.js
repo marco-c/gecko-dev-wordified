@@ -255,11 +255,6 @@ logging
 "
 ;
 const
-DEFAULT_PORT
-=
-2828
-;
-const
 DEFAULT_LOG_LEVEL
 =
 "
