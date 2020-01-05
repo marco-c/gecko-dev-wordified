@@ -74,12 +74,16 @@ SEARCH_PATHS
     
 '
 marionette
+/
+harness
 '
     
 '
 marionette
 /
-marionette
+harness
+/
+marionette_harness
 /
 runner
 /
