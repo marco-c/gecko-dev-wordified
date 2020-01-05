@@ -144,12 +144,6 @@ nsIHttpChannel
 :
 :
 REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
-RP_Default
-=
-nsIHttpChannel
-:
-:
-REFERRER_POLICY_DEFAULT
 /
 *
 spec
