@@ -7897,6 +7897,8 @@ funcpn
 Node
 functionDefinition
 (
+Node
+func
 InHandling
 inHandling
 YieldHandling
@@ -7909,10 +7911,6 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
-InvokedPrediction
-invoked
-=
-PredictUninvoked
 )
 ;
 /
