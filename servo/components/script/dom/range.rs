@@ -172,7 +172,10 @@ dom
 document
 :
 :
+{
 Document
+DocumentHelpers
+}
 ;
 #
 [
