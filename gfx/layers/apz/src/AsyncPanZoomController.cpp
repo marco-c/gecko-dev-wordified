@@ -7115,7 +7115,7 @@ GetApzcTreeManager
 )
 -
 >
-FindScrollNode
+FindScrollThumbNode
 (
 aDragMetrics
 )
