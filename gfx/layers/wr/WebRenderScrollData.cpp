@@ -355,6 +355,15 @@ GetScrollThumbData
 (
 )
 ;
+mScrollbarAnimationId
+=
+aLayer
+-
+>
+GetCompositorAnimationsId
+(
+)
+;
 mScrollbarTargetContainerId
 =
 aLayer
