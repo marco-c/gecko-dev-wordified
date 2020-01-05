@@ -105,6 +105,7 @@ test
 ]
 }
 )
+;
 /
 /
 Test
@@ -126,6 +127,8 @@ NormandyApi
 get
 (
 "
+browser
+/
 test_server
 .
 sjs
