@@ -671,7 +671,7 @@ env
 )
     
 def
-getHeadAndTailFiles
+getHeadFiles
 (
 self
 test
@@ -697,25 +697,13 @@ lists
 of
 head
 -
-and
-tail
 files
 .
 Returns
 a
-tuple
-containing
-        
-a
 list
 of
 head
-files
-and
-a
-list
-of
-tail
 files
 .
         
@@ -840,21 +828,7 @@ head
 '
 )
         
-taillist
-=
-test
-.
-get
-(
-'
-tail
-'
-'
-'
-)
-        
 return
-(
 list
 (
 sanitize_list
@@ -863,18 +837,6 @@ headlist
 '
 head
 '
-)
-)
-                
-list
-(
-sanitize_list
-(
-taillist
-'
-tail
-'
-)
 )
 )
     

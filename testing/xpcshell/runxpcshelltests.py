@@ -3072,7 +3072,6 @@ buildCmdHead
 (
 self
 headfiles
-tailfiles
 xpcscmd
 )
 :
@@ -3089,8 +3088,6 @@ arguments
 for
 the
 head
-and
-tail
 files
           
 along
@@ -3164,42 +3161,6 @@ headfiles
 ]
 )
         
-cmdT
-=
-"
-"
-.
-join
-(
-[
-'
-"
-'
-+
-f
-.
-replace
-(
-'
-\
-\
-'
-'
-/
-'
-)
-+
-'
-"
-'
-                       
-for
-f
-in
-tailfiles
-]
-)
-        
 dbgport
 =
 0
@@ -3258,23 +3219,6 @@ e
 '
 '
 const
-_TAIL_FILES
-=
-[
-%
-s
-]
-;
-'
-%
-cmdT
-                 
-'
--
-e
-'
-'
-const
 _JSDEBUGGER_PORT
 =
 %
@@ -3287,7 +3231,7 @@ dbgport
 ]
     
 def
-getHeadAndTailFiles
+getHeadFiles
 (
 self
 test
@@ -3302,25 +3246,13 @@ lists
 of
 head
 -
-and
-tail
 files
 .
 Returns
 a
-tuple
-        
-containing
-a
 list
 of
 head
-files
-and
-a
-list
-of
-tail
 files
 .
         
@@ -3478,21 +3410,7 @@ head
 '
 )
         
-taillist
-=
-test
-.
-get
-(
-'
-tail
-'
-'
-'
-)
-        
 return
-(
 list
 (
 sanitize_list
@@ -3501,18 +3419,6 @@ headlist
 '
 head
 '
-)
-)
-                
-list
-(
-sanitize_list
-(
-taillist
-'
-tail
-'
-)
 )
 )
     
@@ -3545,9 +3451,8 @@ path
 before
 other
 head
-test
 and
-tail
+test
 files
 .
           
@@ -5138,11 +5043,10 @@ buildXpcsCmd
 )
         
 head_files
-tail_files
 =
 self
 .
-getHeadAndTailFiles
+getHeadFiles
 (
 self
 .
@@ -5156,7 +5060,6 @@ self
 buildCmdHead
 (
 head_files
-tail_files
 self
 .
 xpcsCmd

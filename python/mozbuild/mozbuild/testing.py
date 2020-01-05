@@ -2842,15 +2842,6 @@ set
                         
 (
 '
-tail
-'
-set
-(
-)
-)
-                        
-(
-'
 support
 -
 files
@@ -3301,8 +3292,6 @@ support
 *
 for
 head
-and
-tail
 .
                 
 elif
