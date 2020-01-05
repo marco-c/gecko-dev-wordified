@@ -1179,7 +1179,6 @@ CachedScript
 *
 >
 {
-explicit
 StatusMatcher
 (
 ScriptStatus
