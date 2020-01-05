@@ -4217,9 +4217,9 @@ coordinates
 )
 *
 *
-*
 /
-NS_IMETHOD
+virtual
+void
 MoveClient
 (
 double
@@ -4481,9 +4481,9 @@ should
 be
 repainted
 *
-*
 /
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double
@@ -4635,9 +4635,9 @@ should
 be
 repainted
 *
-*
 /
-NS_IMETHOD
+virtual
+void
 ResizeClient
 (
 double
