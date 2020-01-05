@@ -516,12 +516,6 @@ nsDocument
 :
 MozSetImageElement
 ;
-using
-nsDocument
-:
-:
-GetMozFullScreenElement
-;
 /
 /
 nsIDOMNode
