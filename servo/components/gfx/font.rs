@@ -117,7 +117,7 @@ smallvec
 :
 {
 SmallVec
-SmallVec1
+SmallVec8
 }
 ;
 use
@@ -1213,7 +1213,7 @@ FontGroup
 pub
 fonts
 :
-SmallVec1
+SmallVec8
 <
 Rc
 <
@@ -1233,7 +1233,7 @@ new
 (
 fonts
 :
-SmallVec1
+SmallVec8
 <
 Rc
 <

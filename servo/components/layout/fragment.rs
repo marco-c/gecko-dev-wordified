@@ -5183,7 +5183,7 @@ self
 .
 style
 .
-get_font
+get_font_arc
 (
 )
 ;
@@ -10346,7 +10346,7 @@ self
 .
 style
 .
-get_font
+get_font_arc
 (
 )
 ;
