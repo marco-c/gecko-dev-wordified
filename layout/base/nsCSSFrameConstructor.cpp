@@ -70802,6 +70802,14 @@ content
 IsStyledByServo
 (
 )
+&
+&
+content
+-
+>
+IsElement
+(
+)
 content
 -
 >
