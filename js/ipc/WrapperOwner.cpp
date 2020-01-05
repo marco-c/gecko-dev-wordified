@@ -2519,6 +2519,7 @@ UnwrapArg
 nsIJSID
 >
 (
+cx
 idobj
 getter_AddRefs
 (

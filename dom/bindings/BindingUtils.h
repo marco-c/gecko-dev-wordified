@@ -443,6 +443,9 @@ MozMap
 nsresult
 UnwrapArgImpl
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -465,6 +468,9 @@ ppArg
 nsresult
 UnwrapWindowProxyImpl
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -502,6 +508,9 @@ inline
 nsresult
 UnwrapArg
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -520,6 +529,7 @@ ppArg
 return
 UnwrapArgImpl
 (
+cx
 src
 NS_GET_TEMPLATE_IID
 (
@@ -547,6 +557,9 @@ UnwrapArg
 nsPIDOMWindowOuter
 >
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -565,6 +578,7 @@ ppArg
 return
 UnwrapWindowProxyImpl
 (
+cx
 src
 ppArg
 )
