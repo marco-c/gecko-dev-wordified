@@ -235,7 +235,7 @@ param
 {
 string
 }
-url
+text
 -
 A
 filter
@@ -250,7 +250,7 @@ set
 function
 setFilterText
 (
-url
+text
 )
 {
 return
@@ -258,7 +258,7 @@ return
 type
 :
 SET_FILTER_TEXT
-url
+text
 }
 ;
 }

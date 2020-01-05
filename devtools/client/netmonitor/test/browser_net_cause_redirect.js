@@ -202,9 +202,7 @@ i
 >
 {
 let
-{
-attachment
-}
+item
 =
 RequestsMenu
 .
@@ -215,7 +213,7 @@ i
 ;
 is
 (
-attachment
+item
 .
 status
 status
@@ -235,7 +233,7 @@ let
 stacktrace
 }
 =
-attachment
+item
 .
 cause
 ;

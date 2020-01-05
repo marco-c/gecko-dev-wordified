@@ -484,8 +484,6 @@ is
 (
 item
 .
-attachment
-.
 method
 "
 GET
@@ -503,8 +501,6 @@ correct
 is
 (
 item
-.
-attachment
 .
 url
 TEST_PATH

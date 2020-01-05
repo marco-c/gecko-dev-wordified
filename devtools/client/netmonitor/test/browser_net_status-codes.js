@@ -647,6 +647,7 @@ index
 yield
 verifyRequestItemTarget
 (
+RequestsMenu
 item
 request
 .
@@ -1006,6 +1007,8 @@ circle
 getAttribute
 (
 "
+data
+-
 code
 "
 )
@@ -1511,6 +1514,18 @@ EVENTS
 TAB_UPDATED
 )
 ;
+let
+target
+=
+getItemTarget
+(
+RequestsMenu
+requestItems
+[
+index
+]
+)
+;
 EventUtils
 .
 sendMouseEvent
@@ -1522,11 +1537,6 @@ type
 mousedown
 "
 }
-requestItems
-[
-index
-]
-.
 target
 )
 ;

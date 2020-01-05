@@ -274,8 +274,6 @@ reportedOneSecond
 =
 requestItem
 .
-attachment
-.
 eventTimings
 .
 timings
