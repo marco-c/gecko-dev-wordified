@@ -227,6 +227,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIPresentationRespondingListener
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupports
+)
 NS_INTERFACE_MAP_END
 /
 *
