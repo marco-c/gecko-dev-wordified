@@ -360,7 +360,7 @@ Button6
 is
 missing
 an
-accesible
+accessible
 name
         
 "

@@ -1940,7 +1940,7 @@ event
 '
 s
 dialog
-accesible
+accessible
 or
 accessible
 document

@@ -513,7 +513,7 @@ string
 equivalent
 for
 an
-accessilbe
+accessible
 role
 value
 .

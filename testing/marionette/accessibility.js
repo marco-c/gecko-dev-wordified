@@ -1277,7 +1277,7 @@ boolean
 True
 if
 the
-accesible
+accessible
 object
 has
 a

@@ -1356,7 +1356,7 @@ selectable
 *
 Tests
 an
-acessible
+accessible
 and
 its
 sub

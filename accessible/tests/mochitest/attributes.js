@@ -963,7 +963,7 @@ exposed
 on
 hyper
 text
-accessbile
+accessible
 var
 attrs
 =
@@ -1046,7 +1046,7 @@ exposed
 on
 hyper
 text
-accessbile
+accessible
 var
 expectedAttrs
 =
