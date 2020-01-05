@@ -4926,7 +4926,10 @@ self
 )
 -
 >
+~
 ImageResponder
+:
+Send
 {
 /
 /
@@ -4973,6 +4976,7 @@ factory
 to
 produce
 callbacks
+~
 LayoutImageResponder
 {
 id
@@ -4995,7 +4999,10 @@ clone
 )
 }
 as
+~
 ImageResponder
+:
+Send
 }
 /
 /
