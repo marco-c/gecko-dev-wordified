@@ -19490,9 +19490,9 @@ fillSettingsRows
 (
 aScrollToPreferences
 (
-function
-(
 )
+=
+>
 {
 this
 .
@@ -19507,12 +19507,6 @@ notifyViewChanged
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }
