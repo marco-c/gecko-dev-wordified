@@ -4301,7 +4301,7 @@ WebElement
 name
 :
 &
-String
+str
 )
 -
 >
@@ -4357,7 +4357,7 @@ clone
 )
 name
 .
-clone
+to_owned
 (
 )
 sender
@@ -4472,7 +4472,7 @@ WebElement
 name
 :
 &
-String
+str
 )
 -
 >
@@ -4528,7 +4528,7 @@ clone
 )
 name
 .
-clone
+to_owned
 (
 )
 sender

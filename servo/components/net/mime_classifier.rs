@@ -820,11 +820,11 @@ get_media_type
 media_type
 :
 &
-String
+str
 media_subtype
 :
 &
-String
+str
 )
 -
 >
