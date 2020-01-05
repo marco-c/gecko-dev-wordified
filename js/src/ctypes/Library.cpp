@@ -1176,7 +1176,7 @@ library
 PR_LoadLibraryWithFlags
 (
 libSpec
-0
+PR_LD_NOW
 )
 ;
 #
