@@ -490,7 +490,7 @@ searchBundle
 GetStringFromName
 (
 "
-error_invalid_engine_title
+error_invalid_format_title
 "
 )
 ;
@@ -502,12 +502,15 @@ searchBundle
 formatStringFromName
 (
 "
-error_invalid_engine_msg
+error_invalid_engine_msg2
 "
 [
 brandName
+engineURL
+.
+spec
 ]
-1
+2
 )
 ;
 Services
