@@ -19044,9 +19044,9 @@ void
 LIRGenerator
 :
 :
-visitGetNextMapEntryForIterator
+visitGetNextEntryForIterator
 (
-MGetNextMapEntryForIterator
+MGetNextEntryForIterator
 *
 ins
 )
@@ -19102,7 +19102,7 @@ alloc
 (
 )
 )
-LGetNextMapEntryForIterator
+LGetNextEntryForIterator
 (
 useRegister
 (

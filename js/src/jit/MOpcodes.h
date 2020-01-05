@@ -1024,7 +1024,7 @@ SetArrayLength
 \
 _
 (
-GetNextMapEntryForIterator
+GetNextEntryForIterator
 )
 \
 _

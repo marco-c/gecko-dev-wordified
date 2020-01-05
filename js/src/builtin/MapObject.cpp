@@ -6230,6 +6230,14 @@ cx
 {
 /
 /
+Check
+invariants
+for
+inlined
+_GetNextSetEntryForIterator
+.
+/
+/
 The
 array
 should

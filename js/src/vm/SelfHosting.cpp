@@ -16494,7 +16494,7 @@ intrinsic_CreateSetIterationResult
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 _GetNextSetEntryForIterator
@@ -16502,6 +16502,7 @@ _GetNextSetEntryForIterator
 intrinsic_GetNextSetEntryForIterator
 2
 0
+IntrinsicGetNextSetEntryForIterator
 )
 JS_FN
 (
