@@ -6783,11 +6783,13 @@ ex
 if
 (
 !
+(
 ex
 instanceof
 errors
 .
 TimeoutError
+)
 )
 {
 throw

@@ -4606,11 +4606,13 @@ ex
 if
 (
 !
+(
 ex
 instanceof
 errors
 .
 AssertionError
+)
 )
 {
 throw

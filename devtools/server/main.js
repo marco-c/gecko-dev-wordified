@@ -6883,9 +6883,11 @@ module
 if
 (
 !
+(
 setupParent
 in
 m
+)
 )
 {
 dumpn

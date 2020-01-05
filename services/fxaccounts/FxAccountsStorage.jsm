@@ -3616,6 +3616,7 @@ ex
 if
 (
 !
+(
 ex
 instanceof
 this
@@ -3623,6 +3624,7 @@ this
 secureStorage
 .
 STORAGE_LOCKED
+)
 )
 {
 throw

@@ -458,9 +458,11 @@ aElement
 if
 (
 !
+(
 aElement
 instanceof
 HTMLInputElement
+)
 )
 return
 false

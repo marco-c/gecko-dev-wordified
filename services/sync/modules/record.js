@@ -348,9 +348,11 @@ resource
 if
 (
 !
+(
 resource
 instanceof
 Resource
+)
 )
 {
 throw
@@ -422,9 +424,11 @@ resource
 if
 (
 !
+(
 resource
 instanceof
 Resource
+)
 )
 {
 throw

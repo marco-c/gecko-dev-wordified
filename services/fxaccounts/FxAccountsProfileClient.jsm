@@ -732,9 +732,11 @@ ex
 if
 (
 !
+(
 ex
 instanceof
 FxAccountsProfileClientError
+)
 |
 |
 ex
@@ -887,9 +889,11 @@ ex
 if
 (
 !
+(
 ex
 instanceof
 FxAccountsProfileClientError
+)
 |
 |
 ex

@@ -6545,6 +6545,7 @@ value
 if
 (
 !
+(
 value
 instanceof
 File
@@ -6552,6 +6553,7 @@ File
 DirectoryIterator
 .
 Entry
+)
 )
 {
 throw
@@ -7066,11 +7068,13 @@ stat
 if
 (
 !
+(
 stat
 instanceof
 File
 .
 Info
+)
 )
 {
 throw
