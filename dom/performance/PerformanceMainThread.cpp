@@ -369,7 +369,7 @@ third
 argument
 (
 an
-nsIHtttpChannel
+nsIHttpChannel
 )
 is
 null

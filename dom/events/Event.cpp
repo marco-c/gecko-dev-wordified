@@ -5584,15 +5584,11 @@ times
 relative
 to
 the
-navigation
+creation
+time
 /
 /
-start
 of
-the
-document
-that
-created
 the
 worker
 which
@@ -5601,8 +5597,6 @@ the
 same
 as
 the
-/
-/
 timebase
 for
 performance
@@ -5641,7 +5635,7 @@ mTimeStamp
 workerPrivate
 -
 >
-NowBaseTimeStamp
+CreationTimeStamp
 (
 )
 ;
