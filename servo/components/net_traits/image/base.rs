@@ -103,6 +103,7 @@ constellation_msg
 :
 {
 Image
+ImageMetadata
 PixelFormat
 }
 ;

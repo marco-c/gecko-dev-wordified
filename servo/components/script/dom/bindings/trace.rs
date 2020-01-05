@@ -676,7 +676,10 @@ image
 base
 :
 :
+{
 Image
+ImageMetadata
+}
 ;
 use
 net_traits
@@ -2188,6 +2191,7 @@ no_jsmanaged_fields
 !
 (
 Image
+ImageMetadata
 ImageCacheChan
 ImageCacheThread
 )
