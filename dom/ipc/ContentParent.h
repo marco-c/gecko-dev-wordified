@@ -3478,6 +3478,9 @@ aIsOffline
 bool
 *
 aIsConnected
+int32_t
+*
+aCaptivePortalState
 bool
 *
 aIsLangRTL
