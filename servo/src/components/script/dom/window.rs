@@ -724,6 +724,7 @@ Navigator
 :
 new
 (
+self
 )
 )
 ;
