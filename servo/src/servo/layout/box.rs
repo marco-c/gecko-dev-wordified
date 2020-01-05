@@ -1378,7 +1378,7 @@ right_range
 :
 Option
 <
-Range
+MutableRange
 >
 =
 None
@@ -1429,6 +1429,8 @@ run
 .
 iter_indivisible_pieces_for_range
 (
+&
+const
 data
 .
 range
@@ -1651,7 +1653,10 @@ right_range
 =
 Some
 (
-Range
+MutableRange
+:
+:
+new
 (
 piece_range
 .
@@ -1722,7 +1727,10 @@ right_range
 =
 Some
 (
-Range
+MutableRange
+:
+:
+new
 (
 piece_range
 .
@@ -1804,11 +1812,9 @@ d
 data
 .
 run
+&
+const
 left_range
-.
-as_immutable
-(
-)
 )
 )
 }
@@ -1832,7 +1838,8 @@ None
 range
 :
 &
-Range
+const
+MutableRange
 |
 {
 Some
@@ -1853,7 +1860,6 @@ d
 data
 .
 run
-*
 range
 )
 )
@@ -2082,6 +2088,8 @@ run
 .
 min_width_for_range
 (
+&
+const
 d
 .
 range
@@ -2321,6 +2329,8 @@ run
 .
 iter_natural_lines_for_range
 (
+&
+const
 d
 .
 range

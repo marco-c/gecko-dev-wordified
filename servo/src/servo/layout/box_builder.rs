@@ -1187,11 +1187,9 @@ elems
 add_mapping
 (
 node
+&
+const
 node_range
-.
-as_immutable
-(
-)
 )
 ;
 }
