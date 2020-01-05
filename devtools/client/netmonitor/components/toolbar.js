@@ -817,7 +817,7 @@ tabIndex
 "
 0
 "
-onClick
+onMouseDown
 :
 toggleNetworkDetails
 }

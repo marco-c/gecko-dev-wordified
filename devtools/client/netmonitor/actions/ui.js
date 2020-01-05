@@ -126,7 +126,7 @@ open
 Change
 performance
 statistics
-panel
+view
 open
 state
 .
@@ -141,7 +141,6 @@ visible
 expected
 performance
 statistics
-panel
 open
 state
 *
@@ -284,9 +283,13 @@ networkDetailsOpen
 *
 *
 Toggle
+to
+show
+/
+hide
 performance
 statistics
-panel
+view
 .
 *
 /
