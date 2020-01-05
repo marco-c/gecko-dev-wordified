@@ -1164,6 +1164,8 @@ if
 aWindow
 .
 location
+.
+href
 =
 =
 =
