@@ -423,11 +423,6 @@ IsVideoSeekComplete
 )
 const
 ;
-void
-MaybeFinishSeek
-(
-)
-;
 /
 /
 Update
