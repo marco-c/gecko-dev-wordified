@@ -63,7 +63,7 @@ net
 url
 :
 :
-url
+Url
 ;
 enum
 Token
@@ -1277,7 +1277,7 @@ spawn_html_lexer_task
 -
 url
 :
-url
+Url
 resource_task
 :
 ResourceTask
