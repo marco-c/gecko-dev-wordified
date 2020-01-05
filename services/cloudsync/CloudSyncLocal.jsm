@@ -212,9 +212,6 @@ weave
 /
 locale
 /
-services
-/
-/
 {
 name
 }

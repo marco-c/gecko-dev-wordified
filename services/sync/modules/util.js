@@ -1659,8 +1659,6 @@ weave
 /
 locale
 /
-services
-/
 {
 name
 }
