@@ -986,6 +986,7 @@ PrintTarget
 (
 )
 ;
+static
 already_AddRefed
 <
 DrawTarget

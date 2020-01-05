@@ -865,6 +865,11 @@ mRefDT
 )
 ;
 }
+/
+*
+static
+*
+/
 already_AddRefed
 <
 DrawTarget
