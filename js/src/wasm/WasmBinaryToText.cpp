@@ -11850,6 +11850,12 @@ buffer
 GeneratedSourceMap
 *
 sourceMap
+/
+*
+=
+nullptr
+*
+/
 )
 {
 LifoAlloc
