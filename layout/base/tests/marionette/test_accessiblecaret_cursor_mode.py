@@ -1344,8 +1344,10 @@ content_to_add
 !
 '
         
-target_content
+non_target_content
 =
+content_to_add
++
 sel
 .
 content
@@ -1353,8 +1355,6 @@ content
 string
 .
 ascii_letters
-+
-content_to_add
         
 el
 .
@@ -1475,11 +1475,12 @@ perform
 The
 content
 should
+not
 be
 inserted
 at
 the
-end
+front
 of
 the
 <
@@ -1496,9 +1497,9 @@ content_to_add
         
 self
 .
-assertEqual
+assertNotEqual
 (
-target_content
+non_target_content
 sel
 .
 content
