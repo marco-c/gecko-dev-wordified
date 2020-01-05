@@ -981,9 +981,6 @@ Ref
 T
 >
 BorrowError
-<
-T
->
 >
 {
 debug_assert
@@ -1103,9 +1100,6 @@ RefMut
 T
 >
 BorrowMutError
-<
-T
->
 >
 {
 debug_assert

@@ -117,6 +117,9 @@ feature
 (
 custom_derive
 plugin
+proc_macro
+rustc_attrs
+structural_match
 )
 ]
 #
@@ -125,7 +128,6 @@ plugin
 plugin
 (
 plugins
-serde_macros
 )
 ]
 #
@@ -143,6 +145,14 @@ ipc_channel
 extern
 crate
 serde
+;
+#
+[
+macro_use
+]
+extern
+crate
+serde_derive
 ;
 extern
 crate

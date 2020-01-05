@@ -183,9 +183,9 @@ plugin
 #
 !
 [
-plugin
+feature
 (
-serde_macros
+proc_macro
 )
 ]
 #
@@ -243,6 +243,14 @@ msg
 extern
 crate
 serde
+;
+#
+[
+macro_use
+]
+extern
+crate
+serde_derive
 ;
 extern
 crate
