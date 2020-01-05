@@ -1012,7 +1012,7 @@ DeleteOldImages
 )
 ;
 void
-ProcessWebrenderCommands
+ProcessWebRenderCommands
 (
 const
 gfx

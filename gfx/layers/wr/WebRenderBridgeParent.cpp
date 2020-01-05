@@ -1240,7 +1240,7 @@ mWrEpoch
 Update
 webrender
 epoch
-ProcessWebrenderCommands
+ProcessWebRenderCommands
 (
 aSize
 aCommands
@@ -1436,7 +1436,7 @@ void
 WebRenderBridgeParent
 :
 :
-ProcessWebrenderCommands
+ProcessWebRenderCommands
 (
 const
 gfx
