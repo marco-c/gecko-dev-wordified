@@ -297,6 +297,7 @@ UIEventTypeId
 )
 ErrorEvent
 CloseEvent
+WebGLContextEvent
 }
 #
 [

@@ -2747,6 +2747,10 @@ webglbuffer
 ;
 pub
 mod
+webglcontextevent
+;
+pub
+mod
 webglframebuffer
 ;
 pub
