@@ -800,6 +800,9 @@ vector
 JsConstraints
 >
 constraints
+(
+mJsEncodeConstraints
+)
 ;
 std
 :
