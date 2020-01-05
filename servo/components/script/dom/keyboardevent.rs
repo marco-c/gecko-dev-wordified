@@ -202,7 +202,10 @@ dom
 uievent
 :
 :
+{
 UIEvent
+UIEventTypeId
+}
 ;
 use
 dom
@@ -404,7 +407,13 @@ type_id
 EventTypeId
 :
 :
+UIEvent
+(
+UIEventTypeId
+:
+:
 KeyboardEvent
+)
 }
 }
 impl
@@ -427,7 +436,7 @@ UIEvent
 :
 new_inherited
 (
-EventTypeId
+UIEventTypeId
 :
 :
 KeyboardEvent
