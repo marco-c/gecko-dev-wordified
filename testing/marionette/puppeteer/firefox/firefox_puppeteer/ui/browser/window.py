@@ -342,20 +342,6 @@ self
 _tabbar
 =
 None
-        
-#
-Timeout
-for
-loading
-remote
-web
-pages
-        
-self
-.
-timeout_page_load
-=
-30
     
 property
     

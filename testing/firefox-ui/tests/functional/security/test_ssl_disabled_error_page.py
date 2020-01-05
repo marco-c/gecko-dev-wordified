@@ -517,9 +517,11 @@ timeout
 =
 self
 .
-browser
+marionette
 .
-timeout_page_load
+timeout
+.
+page_load
 )
 .
 until
