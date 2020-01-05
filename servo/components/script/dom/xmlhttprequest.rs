@@ -1327,9 +1327,10 @@ upload
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 XMLHttpRequestUpload
 :
 :

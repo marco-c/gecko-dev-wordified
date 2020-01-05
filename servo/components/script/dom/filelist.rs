@@ -284,9 +284,11 @@ r
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
+*
 r
 )
 )

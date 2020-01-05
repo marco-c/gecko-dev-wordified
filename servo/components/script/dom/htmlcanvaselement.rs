@@ -1165,9 +1165,10 @@ Context2d
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 context
 )
 )
@@ -1403,9 +1404,10 @@ WebGL
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 ctx
 )
 )

@@ -8189,9 +8189,10 @@ Gradient
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 gradient
 )
 )
@@ -8259,9 +8260,10 @@ Pattern
 JS
 :
 :
-from_rooted
+from_ref
 (
 &
+*
 pattern
 )
 )
