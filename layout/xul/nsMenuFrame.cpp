@@ -6020,6 +6020,7 @@ GetParent
 )
 nullptr
 true
+false
 )
 ;
 nsIFrame
@@ -6145,6 +6146,7 @@ GetParent
 (
 )
 menu
+true
 true
 )
 ;
