@@ -1316,6 +1316,12 @@ remote
 =
 true
 ]
+:
+not
+(
+.
+lightweight
+)
 {
 -
 moz
