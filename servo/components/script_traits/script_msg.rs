@@ -742,7 +742,8 @@ String
 /
 Get
 the
-frame
+browsing
+context
 id
 for
 a
@@ -935,10 +936,7 @@ traversal
 .
 TraverseHistory
 (
-Option
-<
-PipelineId
->
+TopLevelBrowsingContextId
 TraversalDirection
 )
 /
@@ -958,7 +956,7 @@ constellation
 .
 JointSessionHistoryLength
 (
-PipelineId
+TopLevelBrowsingContextId
 IpcSender
 <
 u32

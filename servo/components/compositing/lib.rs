@@ -186,6 +186,15 @@ constellation_msg
 PipelineId
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+TopLevelBrowsingContextId
+;
+use
 script_traits
 :
 :
@@ -274,6 +283,10 @@ pub
 id
 :
 PipelineId
+pub
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 pub
 script_chan
 :
