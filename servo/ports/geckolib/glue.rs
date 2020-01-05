@@ -1429,17 +1429,6 @@ should_traverse
 (
 )
 {
-error
-!
-(
-"
-Unnecessary
-call
-to
-traverse_subtree
-"
-)
-;
 return
 ;
 }
