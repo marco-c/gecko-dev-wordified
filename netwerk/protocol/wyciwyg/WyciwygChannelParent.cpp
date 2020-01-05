@@ -262,6 +262,11 @@ cycle
 to
 break
 here
+if
+(
+mChannel
+)
+{
 mChannel
 -
 >
@@ -270,6 +275,7 @@ SetNotificationCallbacks
 nullptr
 )
 ;
+}
 }
 /
 /
