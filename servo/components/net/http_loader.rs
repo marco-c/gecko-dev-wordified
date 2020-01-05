@@ -163,6 +163,8 @@ use
 hyper
 :
 :
+Error
+as
 HttpError
 ;
 use
@@ -1138,7 +1140,7 @@ Err
 HttpError
 :
 :
-HttpIoError
+Io
 (
 ref
 io_error
