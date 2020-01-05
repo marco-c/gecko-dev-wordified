@@ -1853,9 +1853,10 @@ stdin
 .
 write
 (
-bytes
-(
 jsonStr
+.
+encode
+(
 '
 utf8
 '
