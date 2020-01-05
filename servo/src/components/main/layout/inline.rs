@@ -8501,7 +8501,6 @@ FragmentMap
 {
 list
 :
-mut
 other_list
 }
 =
@@ -8844,7 +8843,6 @@ with_capacity
 here
 .
 let
-mut
 old_list
 =
 mem

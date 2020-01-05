@@ -4809,7 +4809,6 @@ push_descendants
 &
 mut
 self
-mut
 given_descendants
 :
 Descendants
