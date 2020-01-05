@@ -16484,8 +16484,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 =
 =
 overflow_x
@@ -19195,8 +19193,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 )
 {
 (

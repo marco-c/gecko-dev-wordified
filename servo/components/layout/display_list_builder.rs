@@ -15117,8 +15117,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 ;
 self
 .
@@ -15387,8 +15385,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 {
 content_size
 .
@@ -15422,8 +15418,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 |
 |
 overflow_x

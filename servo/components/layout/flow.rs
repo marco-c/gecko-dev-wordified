@@ -2619,8 +2619,6 @@ get_box
 )
 .
 overflow_y
-.
-0
 {
 overflow
 .
