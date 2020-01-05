@@ -3950,6 +3950,11 @@ TokenStream
 :
 reportStrictModeErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 bool
@@ -4008,6 +4013,10 @@ true
 return
 reportCompileErrorNumberVA
 (
+Move
+(
+notes
+)
 offset
 flags
 errorNumber
@@ -4199,6 +4208,11 @@ TokenStream
 :
 reportCompileErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 unsigned
@@ -4313,6 +4327,15 @@ err
 =
 *
 tempErrPtr
+;
+err
+.
+notes
+=
+Move
+(
+notes
+)
 ;
 err
 .
@@ -5022,6 +5045,7 @@ result
 =
 reportStrictModeErrorNumberVA
 (
+nullptr
 currentToken
 (
 )
@@ -5072,6 +5096,7 @@ result
 =
 reportCompileErrorNumberVA
 (
+nullptr
 currentToken
 (
 )
@@ -5120,6 +5145,7 @@ result
 =
 reportCompileErrorNumberVA
 (
+nullptr
 NoOffset
 JSREPORT_ERROR
 errorNumber
@@ -5162,6 +5188,7 @@ result
 =
 reportCompileErrorNumberVA
 (
+nullptr
 currentToken
 (
 )
@@ -5189,6 +5216,11 @@ TokenStream
 :
 reportExtraWarningErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 unsigned
@@ -5212,6 +5244,10 @@ true
 return
 reportCompileErrorNumberVA
 (
+Move
+(
+notes
+)
 offset
 JSREPORT_STRICT
 |
@@ -5260,6 +5296,7 @@ JSREPORT_WARNING
 ;
 reportCompileErrorNumberVA
 (
+nullptr
 offset
 flags
 errorNumber
@@ -5304,6 +5341,7 @@ result
 endif
 reportCompileErrorNumberVA
 (
+nullptr
 currentToken
 (
 )
@@ -5370,6 +5408,7 @@ result
 endif
 reportCompileErrorNumberVA
 (
+nullptr
 offset
 JSREPORT_ERROR
 errorNumber

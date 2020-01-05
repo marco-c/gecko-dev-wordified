@@ -21266,6 +21266,7 @@ tokenStream
 >
 reportCompileErrorNumberVA
 (
+nullptr
 pos
 .
 begin
@@ -21339,6 +21340,7 @@ tokenStream
 >
 reportExtraWarningErrorNumberVA
 (
+nullptr
 pos
 .
 begin
@@ -21411,6 +21413,7 @@ tokenStream
 >
 reportStrictModeErrorNumberVA
 (
+nullptr
 pos
 .
 begin
