@@ -785,13 +785,11 @@ pref
 '
 shell
 .
-quit
+builtin
 -
-on
+key
 -
-escape
-.
-enabled
+shortcuts
 =
 false
 '
