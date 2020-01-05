@@ -537,7 +537,7 @@ word
 in
 value
 .
-split_iter
+split
 (
 '
 '

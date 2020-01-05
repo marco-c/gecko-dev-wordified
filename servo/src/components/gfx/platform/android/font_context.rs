@@ -162,10 +162,6 @@ Drop
 for
 FreeTypeLibraryHandle
 {
-#
-[
-fixed_stack_segment
-]
 fn
 drop
 (
@@ -201,10 +197,6 @@ ctx
 impl
 FontContextHandle
 {
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 new
@@ -321,7 +313,6 @@ s
 name
 )
 ;
-do
 path_from_identifier
 (
 name
@@ -330,6 +321,7 @@ style
 )
 .
 and_then
+(
 |
 file_name
 |
@@ -364,5 +356,6 @@ to_owned
 style
 )
 }
+)
 }
 }

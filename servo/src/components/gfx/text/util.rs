@@ -206,7 +206,7 @@ ch
 in
 text
 .
-iter
+chars
 (
 )
 {
@@ -302,7 +302,7 @@ ch
 in
 text
 .
-iter
+chars
 (
 )
 {

@@ -69,7 +69,7 @@ use
 layout
 :
 :
-box
+box_
 :
 :
 Box
@@ -105,7 +105,7 @@ ExtraDisplayListData
 fn
 new
 (
-box
+box_
 :
 &
 Box
@@ -130,7 +130,7 @@ OpaqueNode
 fn
 new
 (
-box
+box_
 :
 &
 Box
@@ -139,7 +139,7 @@ Box
 >
 OpaqueNode
 {
-box
+box_
 .
 node
 }
@@ -265,14 +265,14 @@ struct
 DisplayListBuilder
 <
 '
-self
+a
 >
 {
 ctx
 :
 &
 '
-self
+a
 LayoutContext
 }
 /

@@ -66,7 +66,7 @@ use
 layout
 :
 :
-box
+box_
 :
 :
 {
@@ -165,6 +165,7 @@ containing
 TextBox
 es
 .
+pub
 struct
 TextRunScanner
 {
@@ -1052,7 +1053,11 @@ run
 ~
 fontgroup
 .
-with_borrow
+borrow
+(
+)
+.
+with
 (
 |
 fg
@@ -1228,7 +1233,6 @@ transformed_strs
 str
 ]
 =
-do
 vec
 :
 :
@@ -1240,7 +1244,6 @@ clump
 .
 length
 (
-)
 )
 |
 i
@@ -1362,6 +1365,7 @@ new_whitespace
 ;
 new_str
 }
+)
 ;
 new_whitespace
 =
@@ -1634,7 +1638,11 @@ len
 {
 fontgroup
 .
-with_borrow
+borrow
+(
+)
+.
+with
 (
 |
 fg
@@ -1647,7 +1655,11 @@ fonts
 0
 ]
 .
-with_mut_borrow
+borrow
+(
+)
+.
+with_mut
 (
 |
 font
@@ -1882,7 +1894,7 @@ boxes
 for
 (
 i
-box
+box_
 )
 in
 in_boxes
@@ -1912,7 +1924,7 @@ s
 }
 "
 i
-box
+box_
 .
 debug_str
 (
@@ -1964,7 +1976,7 @@ boxes
 for
 (
 i
-box
+box_
 )
 in
 out_boxes
@@ -1994,7 +2006,7 @@ s
 }
 "
 i
-box
+box_
 .
 debug_str
 (

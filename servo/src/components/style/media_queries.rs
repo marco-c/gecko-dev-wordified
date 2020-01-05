@@ -699,7 +699,6 @@ Device
 >
 bool
 {
-do
 self
 .
 media_queries
@@ -709,6 +708,7 @@ iter
 )
 .
 any
+(
 |
 mq
 |
@@ -744,5 +744,6 @@ Level
 3
 expressions
 }
+)
 }
 }

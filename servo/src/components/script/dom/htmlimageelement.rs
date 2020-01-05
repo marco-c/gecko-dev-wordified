@@ -826,7 +826,10 @@ port
 chan
 )
 =
-stream
+Chan
+:
+:
+new
 (
 )
 ;
@@ -963,7 +966,10 @@ port
 chan
 )
 =
-stream
+Chan
+:
+:
+new
 (
 )
 ;

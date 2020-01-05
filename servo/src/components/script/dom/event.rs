@@ -229,7 +229,7 @@ pub
 fn
 from_box
 (
-box
+box_
 :
 *
 mut
@@ -246,7 +246,7 @@ AbstractEvent
 {
 event
 :
-box
+box_
 }
 }
 /
@@ -280,7 +280,7 @@ T
 unsafe
 {
 let
-box
+box_
 :
 *
 Box
@@ -301,7 +301,7 @@ T
 &
 (
 *
-box
+box_
 )
 .
 data
@@ -331,7 +331,7 @@ T
 unsafe
 {
 let
-box
+box_
 :
 *
 mut
@@ -355,7 +355,7 @@ T
 mut
 (
 *
-box
+box_
 )
 .
 data

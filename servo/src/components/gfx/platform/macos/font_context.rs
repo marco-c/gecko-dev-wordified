@@ -186,10 +186,10 @@ style
 pt_size
 )
 ;
-do
 ctfont_result
 .
 and_then
+(
 |
 ctfont
 |
@@ -203,5 +203,6 @@ self
 ctfont
 )
 }
+)
 }
 }

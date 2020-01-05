@@ -61,12 +61,6 @@ std
 :
 :
 comm
-;
-use
-std
-:
-:
-comm
 :
 :
 {
@@ -91,8 +85,7 @@ Send
 (
 f
 :
-~
-fn
+proc
 (
 Port
 <
@@ -102,7 +95,7 @@ A
 )
 -
 >
-Chan
+SharedChan
 <
 A
 >
@@ -113,10 +106,10 @@ setup_port
 setup_chan
 )
 =
-comm
+Chan
 :
 :
-stream
+new
 (
 )
 ;
@@ -132,10 +125,10 @@ port
 chan
 )
 =
-comm
+SharedChan
 :
 :
-stream
+new
 (
 )
 ;

@@ -264,7 +264,7 @@ from_box
 T
 >
 (
-box
+box_
 :
 *
 mut
@@ -281,7 +281,7 @@ AbstractEventTarget
 {
 eventtarget
 :
-box
+box_
 as
 *
 mut
@@ -456,7 +456,7 @@ T
 unsafe
 {
 let
-box
+box_
 :
 *
 Box
@@ -477,7 +477,7 @@ T
 &
 (
 *
-box
+box_
 )
 .
 data
@@ -508,7 +508,7 @@ T
 unsafe
 {
 let
-box
+box_
 :
 *
 mut
@@ -532,7 +532,7 @@ T
 mut
 (
 *
-box
+box_
 )
 .
 data
@@ -718,7 +718,6 @@ EventListener
 ]
 >
 {
-do
 self
 .
 handlers
@@ -730,6 +729,7 @@ type_
 )
 .
 map
+(
 |
 listeners
 |
@@ -754,6 +754,7 @@ collect
 (
 )
 }
+)
 }
 pub
 fn
@@ -779,7 +780,6 @@ EventListener
 ]
 >
 {
-do
 self
 .
 handlers
@@ -791,6 +791,7 @@ type_
 )
 .
 map
+(
 |
 listeners
 |
@@ -833,6 +834,7 @@ collect
 (
 )
 }
+)
 }
 pub
 fn

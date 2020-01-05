@@ -258,10 +258,6 @@ callback
 callback
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 GetCallableProperty
@@ -381,10 +377,6 @@ callback
 (
 )
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 WrapCallThisObject
