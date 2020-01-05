@@ -377,7 +377,7 @@ msg
 constellation_msg
 :
 :
-FrameId
+BrowsingContextId
 ;
 use
 net_traits
@@ -1667,7 +1667,7 @@ iframe_sizes
 Vec
 <
 (
-FrameId
+BrowsingContextId
 TypedSize2D
 <
 f32
@@ -13455,7 +13455,7 @@ push
 (
 fragment_info
 .
-frame_id
+browsing_context_id
 TypedSize2D
 :
 :

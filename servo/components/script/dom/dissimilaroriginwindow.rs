@@ -1548,7 +1548,7 @@ self
 .
 window_proxy
 .
-frame_id
+browsing_context_id
 (
 )
 origin

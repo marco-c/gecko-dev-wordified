@@ -109,7 +109,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 PipelineId
 }
 ;
@@ -2119,7 +2119,8 @@ iframe
 element
 returns
 its
-frame
+browsing
+context
 ID
 .
 If
@@ -2136,14 +2137,14 @@ element
 fails
 .
 fn
-iframe_frame_id
+iframe_browsing_context_id
 (
 &
 self
 )
 -
 >
-FrameId
+BrowsingContextId
 ;
 /
 /

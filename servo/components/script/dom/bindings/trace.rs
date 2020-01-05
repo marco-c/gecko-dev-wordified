@@ -705,7 +705,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 FrameType
 PipelineId
 }
@@ -2733,7 +2733,7 @@ unsafe_no_jsmanaged_fields
 !
 (
 DocumentActivity
-FrameId
+BrowsingContextId
 FrameType
 WindowSizeData
 WindowSizeType

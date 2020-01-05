@@ -252,7 +252,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 PipelineId
 }
 ;
@@ -3633,9 +3633,9 @@ this
 iframe
 .
 pub
-frame_id
+browsing_context_id
 :
-FrameId
+BrowsingContextId
 /
 /
 /
@@ -3684,11 +3684,11 @@ N
 IframeFragmentInfo
 {
 let
-frame_id
+browsing_context_id
 =
 node
 .
-iframe_frame_id
+iframe_browsing_context_id
 (
 )
 ;
@@ -3703,9 +3703,9 @@ iframe_pipeline_id
 ;
 IframeFragmentInfo
 {
-frame_id
+browsing_context_id
 :
-frame_id
+browsing_context_id
 pipeline_id
 :
 pipeline_id

@@ -1165,7 +1165,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 Key
 KeyModifiers
 KeyState
@@ -15158,9 +15158,9 @@ find_iframe
 (
 &
 self
-frame_id
+browsing_context_id
 :
-FrameId
+BrowsingContextId
 )
 -
 >
@@ -15185,12 +15185,12 @@ node
 |
 node
 .
-frame_id
+browsing_context_id
 (
 )
 =
 =
-frame_id
+browsing_context_id
 )
 }
 pub

@@ -1051,7 +1051,7 @@ handle_mut
 }
 pub
 fn
-handle_get_frame_id
+handle_get_pipeline_id
 (
 documents
 :
