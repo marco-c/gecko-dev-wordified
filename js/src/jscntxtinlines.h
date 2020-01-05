@@ -2526,8 +2526,6 @@ zone
 types
 .
 typeLifoAlloc
-.
-ref
 (
 )
 ;
