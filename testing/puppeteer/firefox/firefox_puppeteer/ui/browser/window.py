@@ -316,11 +316,14 @@ kwargs
 )
 :
         
-BaseWindow
+super
+(
+BrowserWindow
+self
+)
 .
 __init__
 (
-self
 *
 args
 *

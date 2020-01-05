@@ -1573,11 +1573,14 @@ window_handle
 )
 :
         
-BaseLib
+super
+(
+BaseWindow
+self
+)
 .
 __init__
 (
-self
 marionette
 )
         

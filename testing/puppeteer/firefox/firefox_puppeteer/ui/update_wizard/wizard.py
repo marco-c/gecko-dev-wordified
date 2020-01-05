@@ -93,11 +93,14 @@ kwargs
 )
 :
         
-UIBaseLib
+super
+(
+Wizard
+self
+)
 .
 __init__
 (
-self
 *
 args
 *

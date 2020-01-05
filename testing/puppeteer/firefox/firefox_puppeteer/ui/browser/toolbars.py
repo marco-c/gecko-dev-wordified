@@ -112,11 +112,14 @@ kwargs
 )
 :
         
-UIBaseLib
+super
+(
+NavBar
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -533,11 +536,14 @@ kwargs
 )
 :
         
-UIBaseLib
+super
+(
+LocationBar
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -3044,11 +3050,14 @@ kwargs
 )
 :
         
-UIBaseLib
+super
+(
+IdentityPopup
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
