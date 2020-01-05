@@ -472,6 +472,22 @@ pgo
 '
     
 '
+linux
+-
+qr
+-
+debug
+'
+    
+'
+linux
+-
+qr
+-
+opt
+'
+    
+'
 linux32
 -
 nightly
