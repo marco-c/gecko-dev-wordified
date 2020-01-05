@@ -161,6 +161,16 @@ _setStatus
 "
 )
 ;
+sinon
+.
+stub
+(
+formAutofillParent
+"
+_updateSavedFieldNames
+"
+)
+;
 /
 /
 _enabled
