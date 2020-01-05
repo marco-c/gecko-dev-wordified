@@ -7502,6 +7502,14 @@ fop
 )
 ;
 void
+sweepJitDataOnMainThread
+(
+FreeOp
+*
+fop
+)
+;
+void
 endSweepingSweepGroup
 (
 )
