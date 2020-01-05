@@ -3101,9 +3101,17 @@ description
 '
 Run
 the
-web
-platform
 tests
+harness
+that
+verifies
+that
+the
+test
+failures
+are
+reported
+correctly
 '
              
 category
@@ -3204,9 +3212,11 @@ description
 '
 Run
 the
+regular
 web
 platform
-tests
+test
+suite
 '
              
 category
@@ -3708,7 +3718,7 @@ manifest
 description
 =
 '
-run
+Run
 test
 -
 wpt
@@ -4309,6 +4319,7 @@ Run
 the
 web
 platform
+CSS
 tests
 '
              
@@ -4421,6 +4432,7 @@ Update
 the
 web
 platform
+CSS
 tests
 '
              
@@ -4596,7 +4608,7 @@ compare_dromaeo
 description
 =
 '
-compare
+Compare
 outputs
 of
 two
