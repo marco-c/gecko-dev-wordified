@@ -2417,7 +2417,7 @@ transform
 flags
 =
 "
-ALIAS_PROPERTY
+SHORTHAND_ALIAS_PROPERTY
 "
 spec
 =
