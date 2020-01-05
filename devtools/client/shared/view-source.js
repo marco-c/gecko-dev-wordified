@@ -535,7 +535,7 @@ _actions
 (
 )
 .
-selectSourceByURL
+selectSourceURL
 (
 sourceURL
 {
