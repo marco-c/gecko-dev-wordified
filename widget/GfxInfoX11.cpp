@@ -854,12 +854,14 @@ unameobj
 ;
 if
 (
-!
 uname
 (
 &
 unameobj
 )
+>
+=
+0
 )
 {
 mOS
