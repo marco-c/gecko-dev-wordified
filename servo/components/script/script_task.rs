@@ -2842,10 +2842,6 @@ page
 .
 layout_join_port
 .
-deref
-(
-)
-.
 borrow
 (
 )
@@ -2864,10 +2860,6 @@ resize_event
 page
 .
 resize_event
-.
-deref
-(
-)
 .
 get
 (
@@ -2906,10 +2898,6 @@ None
 page
 .
 resize_event
-.
-deref
-(
-)
 .
 set
 (
@@ -3286,10 +3274,6 @@ pipeline
 page
 .
 resize_event
-.
-deref
-(
-)
 .
 set
 (
@@ -4705,10 +4689,6 @@ parent_page
 .
 window_size
 .
-deref
-(
-)
-.
 get
 (
 )
@@ -4755,10 +4735,6 @@ parent_page
 .
 resource_task
 .
-deref
-(
-)
-.
 clone
 (
 )
@@ -4794,10 +4770,6 @@ clone
 parent_page
 .
 children
-.
-deref
-(
-)
 .
 borrow_mut
 (
@@ -5033,10 +5005,6 @@ page
 .
 last_reflow_id
 .
-deref
-(
-)
-.
 get
 (
 )
@@ -5054,10 +5022,6 @@ layout_join_port
 page
 .
 layout_join_port
-.
-deref
-(
-)
 .
 borrow_mut
 (
@@ -5274,10 +5238,6 @@ bug
 page
 .
 window_size
-.
-deref
-(
-)
 .
 set
 (
@@ -7112,10 +7072,6 @@ page
 .
 window_size
 .
-deref
-(
-)
-.
 set
 (
 new_size
@@ -7479,10 +7435,6 @@ in_layout
 page
 .
 layout_join_port
-.
-deref
-(
-)
 .
 borrow
 (
@@ -8452,7 +8404,6 @@ ref
 chan
 )
 =
-*
 page
 .
 layout_chan
@@ -8607,7 +8558,6 @@ ref
 chan
 )
 =
-*
 page
 .
 layout_chan

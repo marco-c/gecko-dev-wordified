@@ -491,7 +491,6 @@ ref
 layout_chan
 )
 =
-*
 win
 .
 deref

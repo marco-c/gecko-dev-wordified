@@ -648,10 +648,6 @@ characterdata
 .
 data
 .
-deref
-(
-)
-.
 borrow
 (
 )
@@ -835,10 +831,6 @@ characterdata
 .
 data
 .
-deref
-(
-)
-.
 borrow
 (
 )
@@ -861,10 +853,6 @@ deref
 characterdata
 .
 data
-.
-deref
-(
-)
 .
 borrow
 (
@@ -892,10 +880,6 @@ deref
 characterdata
 .
 data
-.
-deref
-(
-)
 .
 borrow
 (
@@ -973,10 +957,6 @@ deref
 characterdata
 .
 data
-.
-deref
-(
-)
 .
 borrow
 (
@@ -1270,10 +1250,6 @@ deref
 .
 data
 .
-deref
-(
-)
-.
 borrow
 (
 )
@@ -1292,10 +1268,6 @@ deref
 )
 .
 data
-.
-deref
-(
-)
 .
 borrow
 (
