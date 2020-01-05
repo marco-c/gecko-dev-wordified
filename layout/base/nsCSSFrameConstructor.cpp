@@ -20922,7 +20922,7 @@ BuildScrollFrame
 .
 *
 /
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -21138,9 +21138,6 @@ SetInitialChildList
 kPrincipalList
 childItems
 )
-;
-return
-NS_OK
 ;
 }
 nsIFrame
@@ -39977,7 +39974,7 @@ rootFrame
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -40010,10 +40007,8 @@ do
 *
 /
 return
-NS_OK
 ;
 }
-return
 RecreateFramesForContent
 (
 rootElement
@@ -41981,7 +41976,7 @@ split
 .
 *
 /
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -42671,7 +42666,6 @@ true
 ;
 }
 return
-NS_OK
 ;
 }
 /
@@ -42689,9 +42683,6 @@ kPrincipalList
 aPrevSibling
 aFrameList
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -48154,7 +48145,7 @@ return
 false
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -48448,7 +48439,6 @@ nsGkAtoms
 treerow
 )
 return
-NS_OK
 ;
 }
 #
@@ -48540,9 +48530,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 bindingParent
@@ -48556,7 +48543,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -48739,7 +48725,6 @@ NoteDirtyDescendantsForServo
 ;
 }
 return
-NS_OK
 ;
 }
 if
@@ -48774,7 +48759,6 @@ NoteDirtyDescendantsForServo
 ;
 }
 return
-NS_OK
 ;
 }
 /
@@ -48857,7 +48841,6 @@ parentFrame
 )
 {
 return
-NS_OK
 ;
 }
 LAYOUT_PHASE_TEMP_EXIT
@@ -48879,7 +48862,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 LAYOUT_PHASE_TEMP_REENTER
@@ -48934,7 +48916,6 @@ nullptr
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -48955,9 +48936,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 parentFrame
@@ -48976,7 +48954,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -49797,7 +49774,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 LAYOUT_PHASE_TEMP_REENTER
@@ -50476,9 +50452,6 @@ nullptr
 }
 #
 endif
-return
-NS_OK
-;
 }
 #
 ifdef
@@ -50659,7 +50632,7 @@ endif
 /
 /
 MOZ_XUL
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -50678,7 +50651,6 @@ bool
 aAllowLazyConstruction
 )
 {
-return
 ContentRangeInserted
 (
 aContainer
@@ -50962,7 +50934,7 @@ frame
 tree
 )
 .
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -51365,7 +51337,6 @@ CONTENT_INSERTED
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -51413,7 +51384,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 }
@@ -51512,7 +51482,6 @@ just
 bail
 out
 return
-NS_OK
 ;
 }
 NS_PRECONDITION
@@ -51680,7 +51649,6 @@ aEndChild
 #
 endif
 return
-NS_OK
 ;
 }
 if
@@ -51786,9 +51754,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 bindingParent
@@ -51802,7 +51767,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -52062,7 +52026,6 @@ NoteDirtyDescendantsForServo
 ;
 }
 return
-NS_OK
 ;
 }
 /
@@ -52143,7 +52106,6 @@ NoteDirtyDescendantsForServo
 ;
 }
 return
-NS_OK
 ;
 }
 }
@@ -52308,7 +52270,6 @@ mParentFrame
 )
 {
 return
-NS_OK
 ;
 }
 bool
@@ -52380,7 +52341,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 nsIContent
@@ -52430,7 +52390,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 LAYOUT_PHASE_TEMP_REENTER
@@ -52599,9 +52558,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 insertion
@@ -52622,7 +52578,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -52739,9 +52694,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 insertion
@@ -52762,7 +52714,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -52808,7 +52759,6 @@ aEndChild
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -52831,9 +52781,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 insertion
@@ -52854,7 +52801,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 Maybe
@@ -53479,7 +53425,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 container
@@ -53999,7 +53944,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 LAYOUT_PHASE_TEMP_REENTER
@@ -55339,11 +55283,8 @@ aEndChild
 }
 #
 endif
-return
-NS_OK
-;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -55581,11 +55522,6 @@ stdout
 }
 #
 endif
-nsresult
-rv
-=
-NS_OK
-;
 nsIFrame
 *
 childFrame
@@ -55813,7 +55749,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-NS_OK
 ;
 }
 }
@@ -55866,8 +55801,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-rv
-=
 ContentRemoved
 (
 aChild
@@ -55880,12 +55813,6 @@ aDestroyedFramesFor
 ;
 LAYOUT_PHASE_TEMP_REENTER
 (
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -55901,7 +55828,6 @@ aDidReconstruct
 )
 {
 return
-rv
 ;
 }
 }
@@ -55956,7 +55882,6 @@ mTempFrameTreeState
 ;
 }
 return
-NS_OK
 ;
 }
 #
@@ -56294,9 +56219,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 bindingParent
@@ -56310,7 +56232,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 if
@@ -56366,8 +56287,6 @@ MaybeRecreateContainerForFrameRemoval
 childFrame
 aFlags
 &
-rv
-&
 container
 )
 )
@@ -56398,7 +56317,6 @@ container
 ;
 }
 return
-rv
 ;
 }
 LAYOUT_PHASE_TEMP_REENTER
@@ -56475,9 +56393,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 parentFrame
@@ -56496,7 +56411,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -56591,9 +56505,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 possibleMathMLAncestor
@@ -56612,7 +56523,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -56738,9 +56648,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 grandparentFrame
@@ -56759,7 +56666,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 #
@@ -57077,7 +56983,6 @@ aContainer
 )
 ;
 return
-NS_OK
 ;
 }
 parentFrame
@@ -57714,9 +57619,6 @@ stdout
 #
 endif
 }
-return
-rv
-;
 }
 /
 *
@@ -58151,7 +58053,7 @@ GetPrimaryFrame
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -58175,11 +58077,6 @@ GetPresContext
 )
 FrameC
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 if
 (
@@ -58267,9 +58164,6 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
-nsresult
-rv
-=
 RecreateFramesForContent
 (
 aContent
@@ -58283,7 +58177,6 @@ LAYOUT_PHASE_TEMP_REENTER
 )
 ;
 return
-rv
 ;
 }
 /
@@ -58660,9 +58553,6 @@ block
 ;
 }
 }
-return
-rv
-;
 }
 void
 nsCSSFrameConstructor
@@ -62916,9 +62806,6 @@ nsIFrame
 aFrame
 RemoveFlags
 aFlags
-nsresult
-*
-aResult
 nsIContent
 *
 *
@@ -62951,17 +62838,6 @@ shouldn
 t
 be
 root
-"
-)
-;
-NS_PRECONDITION
-(
-aResult
-"
-Null
-out
-param
-?
 "
 )
 ;
@@ -63077,9 +62953,6 @@ n
 }
 #
 endif
-*
-aResult
-=
 ReframeContainingBlock
 (
 aFrame
@@ -63167,9 +63040,6 @@ if
 there
 is
 one
-*
-aResult
-=
 RecreateFramesForContent
 (
 aFrame
@@ -63277,9 +63147,6 @@ is
 /
 generated
 .
-*
-aResult
-=
 RecreateFramesForContent
 (
 aFrame
@@ -63651,9 +63518,6 @@ parent
 '
 s
 content
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -63932,9 +63796,6 @@ right
 content
 node
 .
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -64075,9 +63936,6 @@ container
 should
 exist
 .
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -64297,9 +64155,6 @@ frame
 s
 parent
 )
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -64459,9 +64314,6 @@ frame
 s
 grandparent
 )
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -64531,9 +64383,6 @@ GetPopupSetFrame
 aFrame
 )
 {
-*
-aResult
-=
 ReconstructDocElementHierarchy
 (
 )
@@ -64638,9 +64487,6 @@ GetNextInFlow
 )
 )
 {
-*
-aResult
-=
 RecreateFramesForContent
 (
 parent
@@ -64904,9 +64750,6 @@ n
 }
 #
 endif
-*
-aResult
-=
 ReframeContainingBlock
 (
 parent
@@ -64918,7 +64761,7 @@ return
 true
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -65025,17 +64868,23 @@ bug
 157322
 )
 .
-NS_ENSURE_TRUE
+if
 (
+NS_WARN_IF
+(
+!
 aContent
 -
 >
 GetComposedDoc
 (
 )
-NS_ERROR_FAILURE
 )
+)
+{
+return
 ;
+}
 /
 /
 Is
@@ -65565,11 +65414,6 @@ aDestroyedFramesFor
 ;
 }
 }
-nsresult
-rv
-=
-NS_OK
-;
 nsIContent
 *
 container
@@ -65583,8 +65427,6 @@ MaybeRecreateContainerForFrameRemoval
 (
 frame
 aFlags
-&
-rv
 &
 container
 )
@@ -65607,7 +65449,6 @@ container
 ;
 }
 return
-rv
 ;
 }
 nsINode
@@ -65756,8 +65597,6 @@ REMOVE_FOR_RECONSTRUCTION
 :
 aFlags
 ;
-rv
-=
 ContentRemoved
 (
 container
@@ -65769,18 +65608,6 @@ didReconstruct
 aDestroyedFramesFor
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-rv
-;
-}
 if
 (
 reconstruct
@@ -65873,8 +65700,6 @@ nsChangeHint_ReconstructFrame
 }
 else
 {
-rv
-=
 ContentInserted
 (
 container
@@ -65886,9 +65711,6 @@ false
 }
 }
 }
-return
-rv
-;
 }
 void
 nsCSSFrameConstructor
@@ -75846,7 +75668,7 @@ style
 is
 present
 .
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -75873,11 +75695,6 @@ nsFrameItems
 aFrameItems
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 XXXbz
@@ -76821,9 +76638,6 @@ nullptr
 }
 #
 endif
-return
-rv
-;
 }
 /
 /
@@ -78846,7 +78660,7 @@ return
 nullptr
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -78915,7 +78729,6 @@ floatFrame
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -78969,7 +78782,6 @@ textFrame
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -79003,7 +78815,6 @@ Somethings
 really
 wrong
 return
-NS_OK
 ;
 }
 nsContainerFrame
@@ -79029,7 +78840,6 @@ Somethings
 really
 wrong
 return
-NS_OK
 ;
 }
 /
@@ -79098,7 +78908,6 @@ textContent
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -79384,11 +79193,8 @@ TEXT_OFFSETS_NEED_FIXING
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -79800,11 +79606,8 @@ GetNextSibling
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -79845,29 +79648,14 @@ stopLooking
 =
 false
 ;
-nsresult
-rv
-;
 do
 {
-rv
-=
 RemoveFloatingFirstLetterFrames
 (
 aPresShell
 continuation
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
-rv
-=
 RemoveFirstLetterFrames
 (
 aPresShell
@@ -79877,7 +79665,6 @@ aBlockFrame
 stopLooking
 )
 ;
-}
 if
 (
 stopLooking
@@ -79907,9 +79694,6 @@ while
 (
 continuation
 )
-;
-return
-rv
 ;
 }
 /
@@ -80188,7 +79972,7 @@ letterFrames
 listbox
 Widget
 Routines
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -80214,11 +79998,6 @@ aIsAppend
 #
 ifdef
 MOZ_XUL
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 Construct
@@ -80371,7 +80150,6 @@ aNewFrame
 nullptr
 ;
 return
-NS_OK
 ;
 }
 BeginUpdate
@@ -80448,8 +80226,6 @@ if
 (
 aIsAppend
 )
-rv
-=
 (
 (
 nsListBoxBodyFrame
@@ -80465,8 +80241,6 @@ frameItems
 )
 ;
 else
-rv
-=
 (
 (
 nsListBoxBodyFrame
@@ -80537,14 +80311,6 @@ GetNextSibling
 #
 endif
 }
-return
-rv
-;
-#
-else
-return
-NS_ERROR_FAILURE
-;
 #
 endif
 }
@@ -86548,7 +86314,7 @@ return
 true
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -86738,7 +86504,6 @@ Reflow
 )
 ;
 return
-NS_OK
 ;
 }
 /
@@ -86959,7 +86724,7 @@ nullptr
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -87165,9 +86930,6 @@ BindingManager
 ProcessAttachedQueue
 (
 )
-;
-return
-NS_OK
 ;
 }
 /

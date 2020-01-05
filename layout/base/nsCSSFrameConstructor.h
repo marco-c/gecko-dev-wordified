@@ -270,6 +270,7 @@ namespace
 mozilla
 class
 nsCSSFrameConstructor
+final
 :
 public
 nsFrameManager
@@ -330,7 +331,7 @@ nsCSSFrameConstructor
 void
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mUpdateCount
 =
@@ -439,7 +440,7 @@ ConstructRootFrame
 (
 )
 ;
-nsresult
+void
 ReconstructDocElementHierarchy
 (
 )
@@ -1461,7 +1462,7 @@ in
 the
 DOM
 .
-nsresult
+void
 ContentAppended
 (
 nsIContent
@@ -1499,7 +1500,7 @@ be
 done
 lazily
 .
-nsresult
+void
 ContentInserted
 (
 nsIContent
@@ -1617,7 +1618,7 @@ initialized
 /
 TreeMatchContext
 .
-nsresult
+void
 ContentRangeInserted
 (
 nsIContent
@@ -1825,7 +1826,7 @@ ancestor
 .
 *
 /
-nsresult
+void
 ContentRemoved
 (
 nsIContent
@@ -1850,7 +1851,7 @@ aDestroyedFramesFor
 nullptr
 )
 ;
-nsresult
+void
 CharacterDataChanged
 (
 nsIContent
@@ -1950,14 +1951,14 @@ aContent
 ;
 /
 /
-generate
+Generate
 the
 child
 frames
 and
 process
 bindings
-nsresult
+void
 GenerateChildFrames
 (
 nsContainerFrame
@@ -2224,7 +2225,7 @@ nsIContent
 aChild
 )
 ;
-nsresult
+void
 CreateListBoxContent
 (
 nsContainerFrame
@@ -2939,7 +2940,7 @@ we
 create
 *
 /
-nsresult
+void
 CreateAttributeContent
 (
 nsIContent
@@ -3246,7 +3247,7 @@ the
 child
 list
 .
-nsresult
+void
 AppendFramesToParent
 (
 nsFrameConstructorState
@@ -11308,7 +11309,7 @@ widget
 or
 not
 .
-nsresult
+void
 InitializeSelectFrame
 (
 nsFrameConstructorState
@@ -11492,7 +11493,7 @@ aContent
 .
 *
 /
-nsresult
+void
 RecreateFramesForContent
 (
 nsIContent
@@ -11661,9 +11662,6 @@ nsIFrame
 aFrame
 RemoveFlags
 aFlags
-nsresult
-*
-aResult
 nsIContent
 *
 *
@@ -12465,7 +12463,7 @@ nsIFrame
 aPrevSibling
 )
 ;
-nsresult
+void
 ReframeContainingBlock
 (
 nsIFrame
@@ -12792,7 +12790,7 @@ aBlockFrame
 ;
 /
 /
-nsresult
+void
 RemoveLetterFrames
 (
 nsIPresShell
@@ -12809,7 +12807,7 @@ Recursive
 helper
 for
 RemoveLetterFrames
-nsresult
+void
 RemoveFirstLetterFrames
 (
 nsIPresShell
@@ -12839,7 +12837,7 @@ first
 -
 letter
 frames
-nsresult
+void
 RemoveFloatingFirstLetterFrames
 (
 nsIPresShell
@@ -13102,7 +13100,7 @@ nsFrameItems
 aFrameItems
 )
 ;
-nsresult
+void
 InsertFirstLineFrames
 (
 nsFrameConstructorState

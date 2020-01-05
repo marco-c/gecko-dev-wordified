@@ -6357,7 +6357,7 @@ document
 *
 /
 virtual
-nsresult
+void
 ReconstructFrames
 (
 )
