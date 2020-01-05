@@ -1287,6 +1287,9 @@ a
 whitelist
 .
 bool
+nsHttpChannel
+:
+:
 WillRedirect
 (
 nsHttpResponseHead
@@ -1295,9 +1298,6 @@ response
 )
 {
 return
-nsHttpChannel
-:
-:
 IsRedirectStatus
 (
 response
