@@ -1950,7 +1950,7 @@ arguments
 list
 .
 uint32_t
-preludeStart
+toStringStart
 ;
 uint32_t
 srcStart
@@ -9835,7 +9835,7 @@ false
 asmJSMetadata_
 -
 >
-preludeStart
+toStringStart
 =
 moduleFunctionNode_
 -
@@ -9843,7 +9843,7 @@ moduleFunctionNode_
 pn_funbox
 -
 >
-preludeStart
+toStringStart
 ;
 asmJSMetadata_
 -
@@ -46377,7 +46377,7 @@ Operand
 )
 ;
 uint32_t
-preludeStart
+toStringStart
 =
 tokenStream
 .
@@ -46576,7 +46576,7 @@ newFunctionBox
 (
 fn
 fun
-preludeStart
+toStringStart
 directives
 NotGenerator
 SyncFunction
@@ -52974,7 +52974,7 @@ begin
 =
 metadata
 .
-preludeStart
+toStringStart
 ;
 uint32_t
 end
@@ -56137,7 +56137,7 @@ init
 asmJSMetadata
 -
 >
-preludeStart
+toStringStart
 =
 parser
 .
@@ -56149,7 +56149,7 @@ functionBox
 )
 -
 >
-preludeStart
+toStringStart
 ;
 asmJSMetadata
 -
@@ -58303,7 +58303,7 @@ begin
 =
 metadata
 .
-preludeStart
+toStringStart
 ;
 uint32_t
 end

@@ -3021,7 +3021,7 @@ JSFunction
 *
 fun
 uint32_t
-preludeStart
+toStringStart
 Directives
 directives
 bool
@@ -3083,11 +3083,11 @@ startColumn
 (
 0
 )
-preludeStart
+toStringStart
 (
-preludeStart
+toStringStart
 )
-postludeEnd
+toStringEnd
 (
 0
 )
@@ -5117,7 +5117,7 @@ JSFunction
 *
 fun
 uint32_t
-preludeStart
+toStringStart
 Directives
 inheritedDirectives
 GeneratorKind
@@ -5227,7 +5227,7 @@ context
 alloc
 traceListHead
 fun
-preludeStart
+toStringStart
 inheritedDirectives
 options
 (
@@ -15211,7 +15211,7 @@ bufEnd
 funbox
 -
 >
-preludeStart
+toStringStart
 funbox
 -
 >
@@ -15740,7 +15740,7 @@ fn
 fun
 /
 *
-preludeStart
+toStringStart
 =
 *
 /
@@ -19596,7 +19596,7 @@ ParseNode
 *
 pn
 uint32_t
-preludeStart
+toStringStart
 FunctionSyntaxKind
 kind
 bool
@@ -19695,7 +19695,7 @@ newFunctionBox
 (
 pn
 fun
-preludeStart
+toStringStart
 Directives
 (
 /
@@ -19975,7 +19975,7 @@ skipLazyInnerFunction
 Node
 pn
 uint32_t
-preludeStart
+toStringStart
 FunctionSyntaxKind
 kind
 bool
@@ -20336,7 +20336,7 @@ functionDefinition
 Node
 pn
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -20421,7 +20421,7 @@ if
 skipLazyInnerFunction
 (
 pn
-preludeStart
+toStringStart
 kind
 tryAnnexB
 )
@@ -20684,7 +20684,7 @@ trySyntaxParseInnerFunction
 (
 pn
 fun
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 kind
@@ -20826,7 +20826,7 @@ pn
 HandleFunction
 fun
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -21062,7 +21062,7 @@ newFunctionBox
 (
 pn
 fun
-preludeStart
+toStringStart
 inheritedDirectives
 generatorKind
 asyncKind
@@ -21100,7 +21100,7 @@ SyntaxParseHandler
 NodeGeneric
 pc
 funbox
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 kind
@@ -21302,7 +21302,7 @@ innerFunction
 pn
 pc
 fun
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 kind
@@ -21331,7 +21331,7 @@ pn
 HandleFunction
 fun
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -21372,7 +21372,7 @@ innerFunction
 pn
 pc
 fun
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 kind
@@ -21407,7 +21407,7 @@ FunctionBox
 *
 funbox
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -21553,7 +21553,7 @@ outerpc
 HandleFunction
 fun
 uint32_t
-preludeStart
+toStringStart
 InHandling
 inHandling
 YieldHandling
@@ -21643,7 +21643,7 @@ newFunctionBox
 (
 pn
 fun
-preludeStart
+toStringStart
 inheritedDirectives
 generatorKind
 asyncKind
@@ -21673,7 +21673,7 @@ innerFunction
 pn
 outerpc
 funbox
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 kind
@@ -21833,7 +21833,7 @@ pn
 fun
 /
 *
-preludeStart
+toStringStart
 =
 *
 /
@@ -23122,7 +23122,7 @@ ParseHandler
 functionStmt
 (
 uint32_t
-preludeStart
+toStringStart
 YieldHandling
 yieldHandling
 DefaultHandling
@@ -23761,7 +23761,7 @@ return
 functionDefinition
 (
 pn
-preludeStart
+toStringStart
 InAllowed
 newYieldHandling
 name
@@ -23791,7 +23791,7 @@ ParseHandler
 functionExpr
 (
 uint32_t
-preludeStart
+toStringStart
 InvokedPrediction
 invoked
 FunctionAsyncKind
@@ -23990,7 +23990,7 @@ return
 functionDefinition
 (
 pn
-preludeStart
+toStringStart
 InAllowed
 yieldHandling
 name
@@ -32746,7 +32746,7 @@ exportFunctionDeclaration
 uint32_t
 begin
 uint32_t
-preludeStart
+toStringStart
 FunctionAsyncKind
 asyncKind
 /
@@ -32784,7 +32784,7 @@ kid
 =
 functionStmt
 (
-preludeStart
+toStringStart
 YieldIsKeyword
 NameRequired
 asyncKind
@@ -33171,7 +33171,7 @@ exportDefaultFunctionDeclaration
 uint32_t
 begin
 uint32_t
-preludeStart
+toStringStart
 FunctionAsyncKind
 asyncKind
 /
@@ -33209,7 +33209,7 @@ kid
 =
 functionStmt
 (
-preludeStart
+toStringStart
 YieldIsKeyword
 AllowDefaultName
 asyncKind
@@ -33692,7 +33692,7 @@ TOK_FUNCTION
 )
 {
 uint32_t
-preludeStart
+toStringStart
 =
 pos
 (
@@ -33711,7 +33711,7 @@ return
 exportDefaultFunctionDeclaration
 (
 begin
-preludeStart
+toStringStart
 AsyncFunction
 )
 ;
@@ -33930,7 +33930,7 @@ TOK_FUNCTION
 )
 {
 uint32_t
-preludeStart
+toStringStart
 =
 pos
 (
@@ -33949,7 +33949,7 @@ return
 exportFunctionDeclaration
 (
 begin
-preludeStart
+toStringStart
 AsyncFunction
 )
 ;
@@ -43080,7 +43080,7 @@ null
 /
 Amend
 the
-postlude
+toStringEnd
 offset
 for
 the
@@ -43090,9 +43090,9 @@ that
 we
 '
 ve
+/
+/
 finished
-/
-/
 parsing
 the
 class
@@ -43146,7 +43146,7 @@ lazyScript
 )
 -
 >
-setPostludeEnd
+setToStringEnd
 (
 classEndOffset
 )
@@ -43154,7 +43154,7 @@ classEndOffset
 ctorbox
 -
 >
-postludeEnd
+toStringEnd
 =
 classEndOffset
 ;
@@ -45326,7 +45326,7 @@ TOK_FUNCTION
 )
 {
 uint32_t
-preludeStart
+toStringStart
 =
 pos
 (
@@ -45344,7 +45344,7 @@ TOK_FUNCTION
 return
 functionStmt
 (
-preludeStart
+toStringStart
 yieldHandling
 NameRequired
 AsyncFunction
@@ -48382,7 +48382,7 @@ null
 )
 ;
 uint32_t
-preludeStart
+toStringStart
 =
 pos
 (
@@ -48524,7 +48524,7 @@ arrowFunc
 functionDefinition
 (
 pn
-preludeStart
+toStringStart
 inHandling
 yieldHandling
 nullptr
@@ -50613,7 +50613,7 @@ genfn
 fun
 /
 *
-preludeStart
+toStringStart
 =
 *
 /
@@ -57991,7 +57991,7 @@ ParseHandler
 methodDefinition
 (
 uint32_t
-preludeStart
+toStringStart
 PropertyType
 propType
 HandleAtom
@@ -58206,7 +58206,7 @@ return
 functionDefinition
 (
 pn
-preludeStart
+toStringStart
 InAllowed
 yieldHandling
 funName
@@ -58929,7 +58929,7 @@ TOK_FUNCTION
 )
 {
 uint32_t
-preludeStart
+toStringStart
 =
 pos
 (
@@ -58947,7 +58947,7 @@ TOK_FUNCTION
 return
 functionExpr
 (
-preludeStart
+toStringStart
 PredictUninvoked
 AsyncFunction
 )

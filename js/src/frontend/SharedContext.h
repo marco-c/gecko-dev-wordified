@@ -2789,10 +2789,10 @@ uint32_t
 startColumn
 ;
 uint32_t
-preludeStart
+toStringStart
 ;
 uint32_t
-postludeEnd
+toStringEnd
 ;
 uint16_t
 length
@@ -3089,7 +3089,7 @@ JSFunction
 *
 fun
 uint32_t
-preludeStart
+toStringStart
 Directives
 directives
 bool
@@ -4069,7 +4069,7 @@ buffer
 and
 /
 /
-postlude
+toString
 ending
 positions
 are
@@ -4082,7 +4082,7 @@ override
 /
 /
 the
-postlude
+toString
 ending
 position
 with
@@ -4097,7 +4097,7 @@ bufEnd
 =
 end
 ;
-postludeEnd
+toStringEnd
 =
 end
 ;
