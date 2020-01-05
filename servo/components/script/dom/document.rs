@@ -6706,10 +6706,6 @@ string
 =
 >
 string
-.
-clone
-(
-)
 None
 =
 >
