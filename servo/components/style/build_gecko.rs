@@ -5010,6 +5010,12 @@ css
 URLValue
 "
 "
+mozilla
+:
+:
+Side
+"
+"
 RawGeckoAnimationPropertySegment
 "
 "
