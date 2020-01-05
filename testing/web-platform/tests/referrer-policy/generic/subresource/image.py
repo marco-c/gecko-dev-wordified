@@ -4,7 +4,7 @@ sys
 array
 json
 math
-cStringIO
+StringIO
 sys
 .
 path
@@ -705,7 +705,7 @@ string
     
 f
 =
-cStringIO
+StringIO
 .
 StringIO
 (
