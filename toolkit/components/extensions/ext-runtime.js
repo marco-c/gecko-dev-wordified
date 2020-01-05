@@ -270,6 +270,17 @@ fire
 >
 {
 let
+temporary
+=
+!
+!
+extension
+.
+addonData
+.
+temporarilyInstalled
+;
+let
 listener
 =
 (
@@ -306,6 +317,7 @@ reason
 "
 browser_update
 "
+temporary
 }
 )
 ;
@@ -327,6 +339,7 @@ reason
 "
 install
 "
+temporary
 }
 )
 ;
@@ -354,6 +367,7 @@ extension
 addonData
 .
 oldVersion
+temporary
 }
 )
 ;
