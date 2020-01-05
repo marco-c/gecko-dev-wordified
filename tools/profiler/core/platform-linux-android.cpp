@@ -2187,6 +2187,13 @@ mSamplerTid
 1
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 #
 if
 defined
@@ -2522,6 +2529,13 @@ PSLockRef
 aLock
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 /
 /
 Restore
