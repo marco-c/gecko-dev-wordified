@@ -759,14 +759,11 @@ HSTSList
 {
 read_resource_file
 (
-&
-[
 "
 hsts_preload
 .
 json
 "
-]
 )
 .
 ok
