@@ -213,18 +213,6 @@ use
 std
 :
 :
-collections
-:
-:
-hash_state
-:
-:
-DefaultState
-;
-use
-std
-:
-:
 default
 :
 :
@@ -238,6 +226,7 @@ hash
 :
 :
 {
+BuildHasherDefault
 Hash
 Hasher
 }
@@ -740,7 +729,7 @@ Rc
 <
 FontGroup
 >
-DefaultState
+BuildHasherDefault
 <
 FnvHasher
 >
@@ -805,7 +794,7 @@ layout_font_group_cache
 HashMap
 :
 :
-with_hash_state
+with_hasher
 (
 Default
 :

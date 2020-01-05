@@ -515,13 +515,10 @@ use
 std
 :
 :
-collections
+hash
 :
 :
-hash_state
-:
-:
-DefaultState
+BuildHasherDefault
 ;
 use
 std
@@ -1612,7 +1609,7 @@ Rect
 <
 Au
 >
-DefaultState
+BuildHasherDefault
 <
 FnvHasher
 >
@@ -3200,7 +3197,7 @@ new
 HashMap
 :
 :
-with_hash_state
+with_hasher
 (
 Default
 :
@@ -7848,7 +7845,7 @@ old_visible_rects
 HashMap
 :
 :
-with_hash_state
+with_hasher
 (
 Default
 :
