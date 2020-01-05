@@ -5256,6 +5256,13 @@ onalerting
 )
 GK_ATOM
 (
+onanimationcancel
+"
+onanimationcancel
+"
+)
+GK_ATOM
+(
 onanimationend
 "
 onanimationend

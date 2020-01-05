@@ -2736,6 +2736,13 @@ eAnimationIteration
 EventNameType_All
 eAnimationEventClass
 )
+EVENT
+(
+animationcancel
+eAnimationCancel
+EventNameType_All
+eAnimationEventClass
+)
 /
 /
 Webkit

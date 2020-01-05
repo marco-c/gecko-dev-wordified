@@ -2013,6 +2013,10 @@ NS_EVENT_MESSAGE
 (
 eAnimationIteration
 )
+NS_EVENT_MESSAGE
+(
+eAnimationCancel
+)
 /
 /
 Webkit
