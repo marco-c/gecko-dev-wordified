@@ -12412,6 +12412,7 @@ uint64_t
 packedFields
 )
 ;
+static
 inline
 JSFunction
 *
@@ -12420,8 +12421,12 @@ functionDelazifying
 JSContext
 *
 cx
+Handle
+<
+LazyScript
+*
+>
 )
-const
 ;
 JSFunction
 *
