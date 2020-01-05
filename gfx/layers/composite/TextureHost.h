@@ -3830,6 +3830,10 @@ friend
 class
 TiledLayerBufferComposite
 ;
+friend
+class
+TextureSourceProvider
+;
 }
 ;
 /
