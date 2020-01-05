@@ -190,6 +190,12 @@ JSRef
 <
 Window
 >
+navigation_start
+:
+u64
+navigation_start_precise
+:
+f64
 )
 -
 >
@@ -218,6 +224,8 @@ PerformanceTiming
 new
 (
 window
+navigation_start
+navigation_start_precise
 )
 )
 }
@@ -232,6 +240,12 @@ JSRef
 <
 Window
 >
+navigation_start
+:
+u64
+navigation_start_precise
+:
+f64
 )
 -
 >
@@ -249,6 +263,8 @@ Performance
 new_inherited
 (
 window
+navigation_start
+navigation_start_precise
 )
 global
 :
