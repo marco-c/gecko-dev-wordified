@@ -69,6 +69,10 @@ bits
 .
 pub
 mod
+arc_types
+;
+pub
+mod
 conversions
 ;
 pub

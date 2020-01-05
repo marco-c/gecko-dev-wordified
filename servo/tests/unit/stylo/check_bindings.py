@@ -368,6 +368,27 @@ as
 glue_output
 :
     
+glue_output
+.
+write
+(
+"
+pub
+use
+style
+:
+:
+gecko
+:
+:
+arc_types
+:
+:
+*
+;
+"
+)
+    
 for
 line
 in
