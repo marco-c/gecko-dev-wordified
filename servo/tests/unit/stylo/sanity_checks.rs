@@ -489,6 +489,9 @@ include
 .
 .
 /
+.
+.
+/
 components
 /
 style
