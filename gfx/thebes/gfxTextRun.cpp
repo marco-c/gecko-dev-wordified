@@ -5664,7 +5664,10 @@ GetHyphensOption
 )
 =
 =
-NS_STYLE_HYPHENS_AUTO
+StyleHyphens
+:
+:
+Auto
 |
 |
 (
@@ -5676,7 +5679,10 @@ GetHyphensOption
 )
 =
 =
-NS_STYLE_HYPHENS_MANUAL
+StyleHyphens
+:
+:
+Manual
 &
 &
 (
