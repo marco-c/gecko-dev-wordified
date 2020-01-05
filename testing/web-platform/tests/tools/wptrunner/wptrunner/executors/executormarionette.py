@@ -178,6 +178,9 @@ __init__
 self
 executor
 browser
+timeout_multiplier
+=
+1
 )
 :
         
@@ -207,6 +210,12 @@ marionette_port
 browser
 .
 marionette_port
+        
+self
+.
+timeout_multiplier
+=
+timeout_multiplier
         
 self
 .
@@ -270,6 +279,18 @@ self
 marionette_port
 )
         
+startup_timeout
+=
+marionette
+.
+Marionette
+.
+DEFAULT_STARTUP_TIMEOUT
+*
+self
+.
+timeout_multiplier
+        
 self
 .
 marionette
@@ -293,6 +314,10 @@ marionette_port
 socket_timeout
 =
 None
+                                                
+startup_timeout
+=
+startup_timeout
 )
         
 #
@@ -329,6 +354,10 @@ marionette
 wait_for_port
 (
 60
+*
+self
+.
+timeout_multiplier
 )
             
 #
@@ -3061,6 +3090,7 @@ MarionetteProtocol
 (
 self
 browser
+timeout_multiplier
 )
         
 self
