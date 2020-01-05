@@ -3413,13 +3413,10 @@ Image
 :
 for_cascade
 (
-Some
-(
 url
 .
 into
 (
-)
 )
 specified
 :
