@@ -1679,13 +1679,6 @@ stack
 by
 Ion
 .
-if
-(
-nbytes
->
-0
-)
-{
 nursery
 .
 maybeSetForwardingPointer
@@ -1718,7 +1711,6 @@ uintptr_t
 )
 )
 ;
-}
 return
 newObj
 -
