@@ -252,6 +252,16 @@ xpcshell_name
 XPCSHELL_NAME
     
 "
+virtualenv_modules
+"
+:
+[
+'
+pypiwin32
+'
+]
+    
+"
 virtualenv_path
 "
 :
