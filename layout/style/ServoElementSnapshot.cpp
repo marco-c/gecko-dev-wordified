@@ -244,12 +244,8 @@ aElement
 ;
 if
 (
-HasAny
+HasAttrs
 (
-Flags
-:
-:
-Attributes
 )
 )
 {

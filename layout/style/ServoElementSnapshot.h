@@ -402,6 +402,7 @@ bool
 HasAttrs
 (
 )
+const
 {
 return
 HasAny
@@ -417,6 +418,7 @@ bool
 HasState
 (
 )
+const
 {
 return
 HasAny
@@ -528,6 +530,13 @@ aIndex
 )
 const
 {
+MOZ_ASSERT
+(
+HasAttrs
+(
+)
+)
+;
 if
 (
 aIndex
@@ -600,6 +609,13 @@ aNamespaceID
 )
 const
 {
+MOZ_ASSERT
+(
+HasAttrs
+(
+)
+)
+;
 uint32_t
 i
 len
@@ -739,6 +755,7 @@ HasAny
 Flags
 aFlags
 )
+const
 {
 return
 bool
