@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+ServoImportRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoKeyframesRule
 .
 h
@@ -723,6 +732,11 @@ CASE_RULE
 (
 STYLE
 Style
+)
+CASE_RULE
+(
+IMPORT
+Import
 )
 CASE_RULE
 (
