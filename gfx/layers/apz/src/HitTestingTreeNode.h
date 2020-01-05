@@ -753,9 +753,6 @@ FrameMetrics
 :
 ViewID
 aScrollViewId
-Layer
-:
-:
 ScrollDirection
 aDir
 int32_t
@@ -960,9 +957,6 @@ FrameMetrics
 ViewID
 mScrollViewId
 ;
-Layer
-:
-:
 ScrollDirection
 mScrollDir
 ;

@@ -4071,6 +4071,9 @@ scrollbarDirection
 (
 )
 =
+(
+uint32_t
+)
 mutant
 -
 >

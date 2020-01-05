@@ -771,9 +771,6 @@ const
 AsyncPanZoomController
 *
 aApzc
-Layer
-:
-:
 ScrollDirection
 aDirection
 )

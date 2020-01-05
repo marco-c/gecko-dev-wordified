@@ -389,7 +389,7 @@ CanScrollInDirection
 (
 &
 mApzc
-Layer
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -424,7 +424,7 @@ CanScrollInDirection
 (
 &
 mApzc
-Layer
+ScrollDirection
 :
 :
 VERTICAL

@@ -6394,7 +6394,7 @@ GetScrollbarDirection
 )
 =
 =
-Layer
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -8765,7 +8765,7 @@ GetScrollbarDirection
 )
 !
 =
-Layer
+ScrollDirection
 :
 :
 NONE
@@ -9074,7 +9074,7 @@ GetScrollbarDirection
 )
 =
 =
-Layer
+ScrollDirection
 :
 :
 VERTICAL
@@ -9624,7 +9624,7 @@ GetScrollbarDirection
 )
 =
 =
-Layer
+ScrollDirection
 :
 :
 HORIZONTAL

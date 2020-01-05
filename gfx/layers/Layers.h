@@ -8855,14 +8855,6 @@ Mutated
 ;
 }
 }
-enum
-ScrollDirection
-{
-NONE
-VERTICAL
-HORIZONTAL
-}
-;
 /
 *
 *

@@ -2980,9 +2980,6 @@ direction
 bool
 CanScroll
 (
-Layer
-:
-:
 ScrollDirection
 aDirection
 )
