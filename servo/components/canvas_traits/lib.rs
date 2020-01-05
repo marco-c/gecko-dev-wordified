@@ -1597,7 +1597,10 @@ DrawTarget
 )
 -
 >
+Option
+<
 Pattern
+>
 {
 match
 *
@@ -1614,6 +1617,8 @@ color
 =
 >
 {
+Some
+(
 Pattern
 :
 :
@@ -1641,6 +1646,7 @@ blue
 color
 .
 alpha
+)
 )
 )
 )
@@ -1723,6 +1729,8 @@ collect
 (
 )
 ;
+Some
+(
 Pattern
 :
 :
@@ -1784,6 +1792,7 @@ Matrix2D
 :
 identity
 (
+)
 )
 )
 )
@@ -1866,6 +1875,8 @@ collect
 (
 )
 ;
+Some
+(
 Pattern
 :
 :
@@ -1940,6 +1951,7 @@ identity
 )
 )
 )
+)
 }
 FillOrStrokeStyle
 :
@@ -1952,9 +1964,6 @@ surface_style
 =
 >
 {
-let
-source_surface
-=
 drawtarget
 .
 create_source_surface_from_data
@@ -1978,7 +1987,13 @@ SurfaceFormat
 :
 B8G8R8A8
 )
-;
+.
+map
+(
+|
+source_surface
+|
+{
 Pattern
 :
 :
@@ -2006,6 +2021,8 @@ identity
 (
 )
 )
+)
+}
 )
 }
 }
