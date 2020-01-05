@@ -16662,6 +16662,7 @@ aFrameType
 mFlags
 aBorder
 aPadding
+mStyleDisplay
 )
 ;
 /
@@ -17117,6 +17118,7 @@ aFrameType
 mFlags
 aBorder
 aPadding
+mStyleDisplay
 )
 ;
 /
@@ -19092,6 +19094,10 @@ const
 nsMargin
 *
 aPadding
+const
+nsStyleDisplay
+*
+aDisplay
 )
 {
 DISPLAY_INIT_OFFSETS
@@ -19312,8 +19318,9 @@ disp
 mFrame
 -
 >
-StyleDisplay
+StyleDisplayWithOptionalParam
 (
+aDisplay
 )
 ;
 bool

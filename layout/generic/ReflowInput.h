@@ -2243,6 +2243,12 @@ nsMargin
 aPadding
 =
 nullptr
+const
+nsStyleDisplay
+*
+aDisplay
+=
+nullptr
 )
 ;
 /
