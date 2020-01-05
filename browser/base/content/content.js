@@ -8854,14 +8854,6 @@ result
 }
 /
 /
-*
-*
-*
-*
-*
-*
-*
-*
 Other
 Misc
 Stuff
