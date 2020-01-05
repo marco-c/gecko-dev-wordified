@@ -459,6 +459,7 @@ Chrome
 s
 sandbox
 .
+explicit
 PlatformData
 (
 int
