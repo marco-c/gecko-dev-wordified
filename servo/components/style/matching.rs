@@ -2298,11 +2298,12 @@ attrs
 element_class_attributes
 =
 =
+*
 candidate
 .
 class_attributes
 .
-clone
+as_ref
 (
 )
 .
