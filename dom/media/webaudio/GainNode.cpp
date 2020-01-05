@@ -747,12 +747,12 @@ GainNodeEngine
 :
 :
 GAIN
-"
-gain
-"
 1
 .
 0f
+"
+gain
+"
 )
 )
 {
