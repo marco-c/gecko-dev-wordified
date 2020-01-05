@@ -16726,10 +16726,6 @@ doc
 >
 SuppressEventHandling
 (
-nsIDocument
-:
-:
-eEvents
 )
 ;
 }
