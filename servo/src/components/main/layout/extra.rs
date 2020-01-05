@@ -213,10 +213,6 @@ mutate_layout_data
 match
 *
 layout_data_ref
-.
-get
-(
-)
 {
 None
 =
@@ -224,10 +220,6 @@ None
 {
 *
 layout_data_ref
-.
-get
-(
-)
 =
 Some
 (

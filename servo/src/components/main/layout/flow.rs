@@ -669,7 +669,7 @@ use
 std
 :
 :
-vec
+slice
 :
 :
 MutItems

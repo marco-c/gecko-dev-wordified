@@ -222,10 +222,6 @@ self
 .
 page
 .
-borrow
-(
-)
-.
 encode
 (
 s
@@ -362,10 +358,6 @@ self
 extra
 .
 page
-.
-borrow
-(
-)
 .
 get_url
 (

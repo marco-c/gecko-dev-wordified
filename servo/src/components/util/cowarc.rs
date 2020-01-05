@@ -231,8 +231,6 @@ T
 :
 Eq
 +
-Freeze
-+
 Clone
 >
 Eq
@@ -277,8 +275,6 @@ impl
 <
 T
 :
-Freeze
-+
 Clone
 >
 Clone
@@ -340,8 +336,6 @@ impl
 <
 T
 :
-Freeze
-+
 Clone
 >
 CowArc

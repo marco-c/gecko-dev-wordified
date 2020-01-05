@@ -529,9 +529,9 @@ mod
 test
 {
 use
-std
-:
-:
+rand
+;
+use
 rand
 :
 :
@@ -539,12 +539,6 @@ rand
 Rng
 task_rng
 }
-;
-use
-std
-:
-:
-rand
 ;
 use
 sort

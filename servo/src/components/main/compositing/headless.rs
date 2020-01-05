@@ -95,7 +95,7 @@ comm
 Empty
 Disconnected
 Data
-Port
+Receiver
 }
 ;
 use
@@ -177,7 +177,7 @@ messages
 .
 port
 :
-Port
+Receiver
 <
 Msg
 >
@@ -190,7 +190,7 @@ new
 (
 port
 :
-Port
+Receiver
 <
 Msg
 >
@@ -212,7 +212,7 @@ create
 (
 port
 :
-Port
+Receiver
 <
 Msg
 >
