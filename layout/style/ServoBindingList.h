@@ -595,16 +595,6 @@ AnimationValues
 handling
 SERVO_BINDING_FUNC
 (
-Servo_AnimationValues_Populate
-void
-RawGeckoAnimationValueListBorrowedMut
-RawServoDeclarationBlockBorrowed
-ServoComputedValuesBorrowed
-ServoComputedValuesBorrowedOrNull
-RawGeckoPresContextBorrowed
-)
-SERVO_BINDING_FUNC
-(
 Servo_AnimationValues_Interpolate
 RawServoAnimationValueStrong
 RawServoAnimationValueBorrowed
