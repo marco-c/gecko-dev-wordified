@@ -9403,6 +9403,10 @@ None
 rerun_failures
 =
 False
+threadCount
+=
+NUM_THREADS
+                 
 failure_manifest
 =
 None
@@ -10271,6 +10275,14 @@ self
 failure_manifest
 =
 failure_manifest
+        
+self
+.
+threadCount
+=
+threadCount
+or
+NUM_THREADS
         
 self
 .
@@ -11515,7 +11527,9 @@ threads
 .
 "
 %
-NUM_THREADS
+self
+.
+threadCount
 )
         
 #
@@ -11523,7 +11537,7 @@ keep
 a
 set
 of
-NUM_THREADS
+threadCount
 running
 tests
 and
@@ -11538,7 +11552,7 @@ the
 queue
 at
 most
-NUM_THREADS
+threadCount
 at
 a
 time
@@ -11669,7 +11683,9 @@ len
 running_tests
 )
 <
-NUM_THREADS
+self
+.
+threadCount
 )
 :
                 
