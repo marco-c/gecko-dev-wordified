@@ -224,6 +224,12 @@ WorkerLocation
 class
 WorkerNavigator
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 namespace
 cache
 {
@@ -730,6 +736,8 @@ const
 RequestInit
 &
 aInit
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

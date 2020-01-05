@@ -1902,6 +1902,8 @@ const
 RequestOrUSVString
 &
 aRequest
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -2065,6 +2067,7 @@ Move
 (
 requestList
 )
+aCallerType
 aRv
 )
 ;
@@ -2088,6 +2091,8 @@ OwningRequestOrUSVString
 >
 &
 aRequestList
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -2351,6 +2356,7 @@ Move
 (
 requestList
 )
+aCallerType
 aRv
 )
 ;
@@ -3231,6 +3237,8 @@ Request
 &
 &
 aRequestList
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -3413,6 +3421,7 @@ requestOrString
 RequestInit
 (
 )
+aCallerType
 aRv
 )
 ;

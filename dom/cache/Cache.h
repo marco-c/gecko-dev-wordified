@@ -217,6 +217,12 @@ T
 class
 Sequence
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 namespace
 cache
 {
@@ -308,6 +314,8 @@ const
 RequestOrUSVString
 &
 aRequest
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -329,6 +337,8 @@ OwningRequestOrUSVString
 >
 &
 aRequests
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -553,6 +563,8 @@ Request
 &
 &
 aRequestList
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

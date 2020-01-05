@@ -180,6 +180,12 @@ WorkletGlobalScope
 class
 WorkletFetchHandler
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 class
 Worklet
 final
@@ -256,6 +262,8 @@ const
 nsAString
 &
 aModuleURL
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
