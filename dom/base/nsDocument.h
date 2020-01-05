@@ -2866,6 +2866,16 @@ aSpeculative
 )
 override
 ;
+virtual
+already_AddRefed
+<
+nsIParser
+>
+CreatorParserOrNull
+(
+)
+override
+;
 /
 *
 *
