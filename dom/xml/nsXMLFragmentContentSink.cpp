@@ -326,7 +326,6 @@ nsXMLFragmentContentSink
 (
 )
 ;
-NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 /
 /
 nsISupports

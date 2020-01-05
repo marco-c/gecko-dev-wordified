@@ -158,17 +158,6 @@ member
 #
 include
 "
-nsCRT
-.
-h
-"
-/
-/
-for
-NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
-#
-include
-"
 nsCompatibility
 .
 h
@@ -1196,7 +1185,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IDOCUMENT_IID
 )
-NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 #
 ifdef
 MOZILLA_INTERNAL_API
