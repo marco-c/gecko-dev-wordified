@@ -3065,6 +3065,10 @@ mediaerror
 ;
 pub
 mod
+mediaquerylist
+;
+pub
+mod
 messageevent
 ;
 pub
