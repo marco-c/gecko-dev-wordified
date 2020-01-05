@@ -2679,6 +2679,8 @@ SMALLCAPS
 all
 -
 small
+-
+caps
 "
 :
 "
@@ -2697,6 +2699,8 @@ PETITECAPS
 all
 -
 petite
+-
+caps
 "
 :
 "
@@ -2738,6 +2742,13 @@ extra_gecko_values
 all
 -
 small
+-
+caps
+petite
+-
+caps
+all
+-
 petite
 -
 caps
