@@ -154,6 +154,9 @@ use
 devtools_traits
 :
 :
+DevtoolScriptControlMsg
+:
+:
 WantsLiveNotifications
 ;
 use
