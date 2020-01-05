@@ -1210,6 +1210,13 @@ h
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -1615,6 +1622,13 @@ nsLayoutUtils
 :
 :
 PaintFrameFlags
+;
+typedef
+FrameMetrics
+:
+:
+ViewID
+ViewID
 ;
 CapturingContentInfo
 nsIPresShell

@@ -128,7 +128,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
+StyleSetHandleInlines
 .
 h
 "
