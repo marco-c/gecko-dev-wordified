@@ -11418,9 +11418,9 @@ nsMenuPopupFrame
 :
 CanAdjustEdges
 (
-int8_t
+Side
 aHorizontalSide
-int8_t
+Side
 aVerticalSide
 LayoutDeviceIntPoint
 &

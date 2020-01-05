@@ -13826,8 +13826,8 @@ on
 these
 matching
 the
-NS_SIDE_
-*
+enum
+Side
 constants
 .
 eCSSProperty_border_top_color

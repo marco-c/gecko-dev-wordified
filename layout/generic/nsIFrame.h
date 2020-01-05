@@ -8715,13 +8715,13 @@ is
 a
 union
 of
-SIDE_BIT_LEFT
+eSideBitsLeft
 /
-RIGHT
+Right
 /
-TOP
+Top
 /
-BOTTOM
+Bottom
 bits
 that
 says

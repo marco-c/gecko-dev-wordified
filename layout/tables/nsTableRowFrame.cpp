@@ -9461,7 +9461,7 @@ NS_ERROR
 (
 "
 invalid
-NS_SIDE
+LogicalSide
 arg
 "
 )
