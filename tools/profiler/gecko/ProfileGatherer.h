@@ -103,12 +103,11 @@ ProfileGatherer
 final
 :
 public
-nsIObserver
+nsISupports
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 explicit
 ProfileGatherer
 (
