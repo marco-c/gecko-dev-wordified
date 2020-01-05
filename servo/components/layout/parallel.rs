@@ -250,6 +250,14 @@ usize
 =
 64
 ;
+pub
+struct
+WorkQueueData
+(
+usize
+usize
+)
+;
 #
 [
 allow
@@ -2700,7 +2708,7 @@ mut
 WorkQueue
 <
 SharedLayoutContextWrapper
-UnsafeLayoutNode
+WorkQueueData
 >
 callback
 :
@@ -2778,7 +2786,7 @@ mut
 WorkQueue
 <
 SharedLayoutContextWrapper
-UnsafeLayoutNode
+WorkQueueData
 >
 )
 {
@@ -2876,7 +2884,7 @@ mut
 WorkQueue
 <
 SharedLayoutContextWrapper
-UnsafeLayoutNode
+WorkQueueData
 >
 )
 {
@@ -3029,7 +3037,7 @@ mut
 WorkQueue
 <
 SharedLayoutContextWrapper
-UnsafeLayoutNode
+WorkQueueData
 >
 )
 {
