@@ -173,11 +173,11 @@ Spinner
 }
 protected
 :
-virtual
 ~
 Spinner
 (
 )
+override
 =
 default
 ;

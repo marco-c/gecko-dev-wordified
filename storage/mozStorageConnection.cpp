@@ -2385,6 +2385,7 @@ NS_OK
 AsyncCloseConnection
 (
 )
+override
 {
 NS_ReleaseOnMainThread
 (
@@ -2679,6 +2680,7 @@ NS_DISPATCH_NORMAL
 AsyncInitializeClone
 (
 )
+override
 {
 nsCOMPtr
 <
