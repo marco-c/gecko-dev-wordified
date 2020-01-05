@@ -431,7 +431,7 @@ mem
 :
 ProfilerChan
 pub
-devtools_chan
+to_devtools_sender
 :
 Option
 <
@@ -441,7 +441,7 @@ ScriptToDevtoolsControlMsg
 >
 >
 pub
-devtools_sender
+from_devtools_sender
 :
 Option
 <
@@ -609,7 +609,7 @@ ipc
 channel
 "
 ]
-devtools_chan
+to_devtools_sender
 :
 Option
 <
@@ -649,7 +649,7 @@ from
 within
 the
 worker
-devtools_sender
+from_devtools_sender
 :
 Option
 <
@@ -688,7 +688,7 @@ doesn
 '
 t
 exist
-devtools_receiver
+from_devtools_receiver
 :
 Receiver
 <
@@ -757,7 +757,7 @@ Rc
 <
 Runtime
 >
-devtools_receiver
+from_devtools_receiver
 :
 Receiver
 <
@@ -858,19 +858,19 @@ mem_profiler_chan
 init
 .
 mem_profiler_chan
-devtools_chan
+to_devtools_sender
 :
 init
 .
-devtools_chan
-devtools_sender
+to_devtools_sender
+from_devtools_sender
 :
 init
 .
-devtools_sender
-devtools_receiver
+from_devtools_sender
+from_devtools_receiver
 :
-devtools_receiver
+from_devtools_receiver
 devtools_wants_updates
 :
 Cell
@@ -928,7 +928,7 @@ ScriptToDevtoolsControlMsg
 {
 self
 .
-devtools_chan
+to_devtools_sender
 .
 clone
 (
@@ -936,7 +936,7 @@ clone
 }
 pub
 fn
-devtools_sender
+from_devtools_sender
 (
 &
 self
@@ -953,7 +953,7 @@ DevtoolScriptControlMsg
 {
 self
 .
-devtools_sender
+from_devtools_sender
 .
 clone
 (
@@ -961,7 +961,7 @@ clone
 }
 pub
 fn
-devtools_port
+from_devtools_receiver
 (
 &
 self
@@ -977,7 +977,7 @@ DevtoolScriptControlMsg
 &
 self
 .
-devtools_receiver
+from_devtools_receiver
 }
 pub
 fn

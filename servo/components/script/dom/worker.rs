@@ -887,14 +887,14 @@ global
 mem_profiler_chan
 (
 )
-devtools_chan
+to_devtools_sender
 :
 global
 .
 devtools_chan
 (
 )
-devtools_sender
+from_devtools_sender
 :
 optional_sender
 constellation_chan
