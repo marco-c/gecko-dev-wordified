@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+script
+:
+:
 dom
 :
 :
@@ -66,6 +69,9 @@ characterdata
 CharacterData
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -75,6 +81,9 @@ element
 Element
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -84,6 +93,9 @@ eventtarget
 EventTarget
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -93,6 +105,9 @@ htmldivelement
 HTMLDivElement
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -102,6 +117,9 @@ htmlelement
 HTMLElement
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -111,6 +129,9 @@ htmlspanelement
 HTMLSpanElement
 ;
 use
+script
+:
+:
 dom
 :
 :
@@ -120,6 +141,9 @@ node
 Node
 ;
 use
+script
+:
+:
 dom
 :
 :
