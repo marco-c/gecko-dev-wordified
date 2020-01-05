@@ -392,6 +392,7 @@ a
 MediaKeys
 first
 .
+return
 navigator
 .
 requestMediaKeySystemAccess
@@ -469,6 +470,7 @@ allow
 scripts
 '
 )
+;
 }
 )
 .

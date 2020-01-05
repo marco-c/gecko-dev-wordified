@@ -601,7 +601,7 @@ with
 an
 /
 /
-InvalidAccessError
+TypeError
 .
 Returns
 a
