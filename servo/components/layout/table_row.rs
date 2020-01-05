@@ -2550,6 +2550,12 @@ size
 extra_column_computed_inline_size
 .
 size
++
+self
+.
+spacing
+.
+horizontal
 ;
 }
 computed_inline_size_for_cells
