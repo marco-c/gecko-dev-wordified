@@ -8280,6 +8280,16 @@ data
 *
 const
 nsACString_internal
+base
+:
+*
+const
+nsACString_internal
+extraData
+:
+*
+const
+GeckoParserExtraData
 )
 -
 >
