@@ -9066,9 +9066,13 @@ aDocArray
 {
 static_cast
 <
-nsCOMArray
+AutoTArray
+<
+nsCOMPtr
 <
 nsIDocument
+>
+32
 >
 *
 >
@@ -9077,7 +9081,7 @@ aDocArray
 )
 -
 >
-AppendObject
+AppendElement
 (
 aDocument
 )
@@ -9112,9 +9116,13 @@ mPresContext
 return
 ;
 }
-nsCOMArray
+AutoTArray
+<
+nsCOMPtr
 <
 nsIDocument
+>
+32
 >
 documents
 ;
@@ -9132,7 +9140,7 @@ documents
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -9141,7 +9149,7 @@ i
 <
 documents
 .
-Count
+Length
 (
 )
 ;
