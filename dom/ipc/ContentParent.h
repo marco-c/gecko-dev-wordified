@@ -4095,6 +4095,13 @@ uint8_t
 &
 &
 aKeyHandle
+nsTArray
+<
+uint8_t
+>
+&
+&
+aApplication
 bool
 *
 aIsValidKeyHandle
