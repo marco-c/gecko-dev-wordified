@@ -310,7 +310,6 @@ u8
 MockResponse
 {
 let
-mut
 headers
 =
 Headers
@@ -323,8 +322,6 @@ new
 respond_with_headers
 (
 body
-&
-mut
 headers
 )
 }
@@ -337,10 +334,9 @@ Vec
 <
 u8
 >
+mut
 headers
 :
-&
-mut
 Headers
 )
 -
@@ -369,10 +365,6 @@ MockResponse
 new
 (
 headers
-.
-clone
-(
-)
 StatusCode
 :
 :
@@ -856,7 +848,6 @@ ResponseType
 WithHeaders
 (
 b
-mut
 h
 )
 =
@@ -867,8 +858,6 @@ Ok
 respond_with_headers
 (
 b
-&
-mut
 h
 )
 )
