@@ -1159,11 +1159,6 @@ closeWindow
 newWin
 )
 ;
-yield
-forceSaveState
-(
-)
-;
 /
 /
 Now
