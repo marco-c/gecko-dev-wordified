@@ -144,6 +144,11 @@ template
 .
 render
 (
+PRODUCT
+=
+'
+servo
+'
 )
 properties
 =
