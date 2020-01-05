@@ -4573,8 +4573,6 @@ Methods
 for
 dispatching
 KeyboardEvent
-and
-BeforeAfterKeyboardEvent
 .
 /
 /
