@@ -263,7 +263,6 @@ entry
 SECOidTag
 oid_tag
 ;
-const
 unsigned
 char
 ev_root_sha256_fingerprint
