@@ -54,15 +54,18 @@ MPL
 /
 .
 from
-firefox_ui_harness
-.
-testcases
+firefox_puppeteer
 import
-FirefoxTestCase
+PuppeteerMixin
+from
+marionette
+import
+MarionetteTestCase
 class
 TestPageInfoWindow
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

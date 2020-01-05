@@ -54,9 +54,13 @@ MPL
 /
 .
 from
-marionette_driver
+firefox_puppeteer
 import
-Wait
+PuppeteerMixin
+from
+marionette
+import
+MarionetteTestCase
 from
 marionette
 .
@@ -64,15 +68,14 @@ marionette_test
 import
 skip_if_e10s
 from
-firefox_ui_harness
-.
-testcases
+marionette_driver
 import
-FirefoxTestCase
+Wait
 class
 TestSSLStatusAfterRestart
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

@@ -54,21 +54,24 @@ MPL
 /
 .
 from
-firefox_ui_harness
-.
-testcases
+firefox_puppeteer
 import
-FirefoxTestCase
+PuppeteerMixin
 from
 firefox_puppeteer
 .
 errors
 import
 NoCertificateError
+from
+marionette
+import
+MarionetteTestCase
 class
 TestTabBar
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     
@@ -908,7 +911,8 @@ tabs
 class
 TestTab
 (
-FirefoxTestCase
+PuppeteerMixin
+MarionetteTestCase
 )
 :
     

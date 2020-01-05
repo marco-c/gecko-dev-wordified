@@ -67,12 +67,7 @@ from
 marionette
 import
 BaseMarionetteTestRunner
-from
-firefox_ui_harness
-.
-testcases
-import
-FirefoxTestCase
+MarionetteTestCase
 class
 FirefoxUITestRunner
 (
@@ -122,7 +117,7 @@ self
 test_handlers
 =
 [
-FirefoxTestCase
+MarionetteTestCase
 ]
     
 def
