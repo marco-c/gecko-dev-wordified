@@ -6612,7 +6612,7 @@ enable
 !
 traceLoggerScriptEvent_
 .
-hasPayload
+hasTextId
 (
 )
 )
