@@ -451,13 +451,13 @@ False
 enable_talos_sendchange
 '
 :
-False
+True
     
 '
 enable_unittest_sendchange
 '
 :
-False
+True
     
 #
 #
