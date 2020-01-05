@@ -1433,7 +1433,7 @@ aActive
 )
 ;
 void
-MaybeNotifyMediaBlocked
+MaybeNotifyMediaBlockStart
 (
 AudioChannelAgent
 *
