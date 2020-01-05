@@ -6309,7 +6309,6 @@ return
 true
 ;
 }
-else
 if
 (
 IsPopupWidget
