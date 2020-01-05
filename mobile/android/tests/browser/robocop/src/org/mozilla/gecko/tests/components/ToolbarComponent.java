@@ -1077,6 +1077,7 @@ use
 *
 {
 link
+#
 assertTitle
 }
 instead
