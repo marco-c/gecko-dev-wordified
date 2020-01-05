@@ -2735,14 +2735,7 @@ Sampler
 :
 RegisterCurrentThread
 (
-isMainThread
-?
 gGeckoThreadName
-:
-"
-Application
-Thread
-"
 stack
 isMainThread
 stackTop
