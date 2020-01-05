@@ -1109,8 +1109,7 @@ aAudible
 Notified
 by
 the
-shutdown
-manager
+decoder
 that
 XPCOM
 shutdown
