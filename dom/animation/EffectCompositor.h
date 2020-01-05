@@ -341,6 +341,8 @@ cascade
 enum
 class
 CascadeLevel
+:
+uint32_t
 {
 /
 /
@@ -369,6 +371,8 @@ CSS
 markup
 )
 Animations
+=
+0
 /
 /
 The
@@ -385,6 +389,8 @@ CSS
 markup
 )
 Transitions
+=
+1
 }
 ;
 /
