@@ -94,7 +94,7 @@ client
 /
 inspector
 /
-layout
+boxmodel
 /
 reducers
 /
