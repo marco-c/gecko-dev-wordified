@@ -95,6 +95,11 @@ cef_string_map_t
 }
 pub
 enum
+cef_string_multimap_t
+{
+}
+pub
+enum
 cef_string_list_t
 {
 }
