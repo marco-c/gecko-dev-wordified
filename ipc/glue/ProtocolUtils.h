@@ -2277,6 +2277,7 @@ mOtherPid
 IDMap
 <
 IProtocol
+*
 >
 mActorMap
 ;
@@ -2289,6 +2290,7 @@ Shmem
 :
 :
 SharedMemory
+*
 >
 mShmemMap
 ;
