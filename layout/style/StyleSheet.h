@@ -232,13 +232,6 @@ SRIMetadata
 /
 namespace
 dom
-namespace
-css
-{
-class
-Rule
-;
-}
 /
 *
 *
@@ -1002,10 +995,7 @@ WebIDL
 CSSStyleSheet
 API
 virtual
-css
-:
-:
-Rule
+nsIDOMCSSRule
 *
 GetDOMOwnerRule
 (
