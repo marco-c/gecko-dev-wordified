@@ -3646,10 +3646,6 @@ mPixelStore_ColorspaceConversion
 =
 BROWSER_DEFAULT_WEBGL
 ;
-mPixelStore_RequireFastPath
-=
-false
-;
 /
 /
 GLES
