@@ -1,7 +1,8 @@
 /
 /
-META
-:
+<
+meta
+>
 timeout
 =
 long
