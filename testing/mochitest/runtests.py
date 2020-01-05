@@ -199,6 +199,7 @@ import
 Marionette
 except
 ImportError
+as
 e
 :
     
@@ -6537,9 +6538,11 @@ e
 :
             
 print
+(
 str
 (
 e
+)
 )
             
 sys
@@ -17387,6 +17390,7 @@ dirs
 :
             
 print
+(
 "
 dir
 :
@@ -17395,6 +17399,7 @@ s
 "
 %
 d
+)
             
 #
 BEGIN
@@ -17819,6 +17824,7 @@ browser
 :
             
 print
+(
 "
 TEST
 -
@@ -17828,16 +17834,20 @@ checking
 window
 state
 "
+)
             
 print
+(
 "
 Browser
 Chrome
 Test
 Summary
 "
+)
             
 print
+(
 "
 \
 tPassed
@@ -17849,8 +17859,10 @@ s
 self
 .
 countpass
+)
             
 print
+(
 "
 \
 tFailed
@@ -17862,8 +17874,10 @@ s
 self
 .
 countfail
+)
             
 print
+(
 "
 \
 tTodo
@@ -17875,8 +17889,10 @@ s
 self
 .
 counttodo
+)
             
 print
+(
 "
 \
 tMode
@@ -17886,8 +17902,10 @@ s
 "
 %
 e10s_mode
+)
             
 print
+(
 "
 *
 *
@@ -17900,11 +17918,13 @@ Results
 *
 *
 "
+)
         
 else
 :
             
 print
+(
 "
 0
 INFO
@@ -17914,8 +17934,10 @@ START
 |
 Shutdown
 "
+)
             
 print
+(
 "
 1
 INFO
@@ -17928,8 +17950,10 @@ s
 self
 .
 countpass
+)
             
 print
+(
 "
 2
 INFO
@@ -17942,8 +17966,10 @@ s
 self
 .
 countfail
+)
             
 print
+(
 "
 3
 INFO
@@ -17956,8 +17982,10 @@ s
 self
 .
 counttodo
+)
             
 print
+(
 "
 4
 INFO
@@ -17968,14 +17996,17 @@ s
 "
 %
 e10s_mode
+)
             
 print
+(
 "
 5
 INFO
 SimpleTest
 FINISHED
 "
+)
         
 return
 result
