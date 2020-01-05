@@ -478,11 +478,13 @@ entry
 ;
 while
 (
+(
 entry
 =
 entries
 .
 nextFile
+)
 )
 size
 +
