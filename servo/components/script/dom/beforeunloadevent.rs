@@ -192,10 +192,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 use
 servo_atoms
@@ -280,10 +280,10 @@ pub
 fn
 new_uninitialized
 (
-global
+window
 :
 &
-GlobalScope
+Window
 )
 -
 >
@@ -301,7 +301,7 @@ BeforeUnloadEvent
 new_inherited
 (
 )
-global
+window
 BeforeUnloadEventBinding
 :
 :
@@ -312,10 +312,10 @@ pub
 fn
 new
 (
-global
+window
 :
 &
-GlobalScope
+Window
 type_
 :
 Atom
@@ -341,7 +341,7 @@ BeforeUnloadEvent
 :
 new_uninitialized
 (
-global
+window
 )
 ;
 {
