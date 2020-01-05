@@ -21309,6 +21309,7 @@ policy
 webextensions
 &
 &
+(
 aAddon
 .
 type
@@ -21317,6 +21318,19 @@ type
 "
 webextension
 "
+|
+|
+aAddon
+.
+type
+=
+=
+"
+webextension
+-
+theme
+"
+)
 )
 {
 return
