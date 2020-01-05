@@ -704,6 +704,15 @@ dom
 .
 webcomponents
 .
+customelements
+.
+enabled
+"
+"
+dom
+.
+webcomponents
+.
 enabled
 "
 "
