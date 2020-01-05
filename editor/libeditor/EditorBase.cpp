@@ -3725,9 +3725,12 @@ GetDocument
 *
 aIsDocumentEditable
 =
-!
-!
 doc
+&
+&
+IsModifiable
+(
+)
 ;
 return
 NS_OK
