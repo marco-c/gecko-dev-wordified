@@ -578,7 +578,7 @@ trait
 PaintListener
 {
 fn
-get_graphics_metadata
+graphics_metadata
 (
 &
 mut

@@ -1312,7 +1312,7 @@ image
 }
 }
 fn
-get_renderer
+renderer
 (
 &
 self
@@ -1368,7 +1368,7 @@ get_renderer
 }
 }
 fn
-get_canvas_width
+canvas_width
 (
 &
 self
@@ -1414,7 +1414,7 @@ get_canvas_width
 }
 }
 fn
-get_canvas_height
+canvas_height
 (
 &
 self

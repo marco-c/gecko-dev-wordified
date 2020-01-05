@@ -1568,7 +1568,7 @@ get_shareable
 )
 registry
 .
-get_start_stamp
+start_stamp
 (
 )
 stream
@@ -1633,7 +1633,7 @@ new
 (
 registry
 .
-get_start_stamp
+start_stamp
 (
 )
 PreciseTime
@@ -1682,7 +1682,7 @@ new
 (
 registry
 .
-get_start_stamp
+start_stamp
 (
 )
 PreciseTime

@@ -2327,7 +2327,7 @@ from_px
 (
 node
 .
-get_canvas_width
+canvas_width
 (
 )
 as
@@ -2343,7 +2343,7 @@ from_px
 (
 node
 .
-get_canvas_height
+canvas_height
 (
 )
 as
@@ -2355,7 +2355,7 @@ renderer
 :
 node
 .
-get_renderer
+renderer
 (
 )
 .

@@ -734,7 +734,7 @@ clone
 }
 pub
 fn
-get_event_actor
+event_actor
 (
 &
 self
@@ -819,7 +819,7 @@ false
 }
 pub
 fn
-get_response_start
+response_start
 (
 &
 self

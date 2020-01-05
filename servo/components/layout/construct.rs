@@ -2132,7 +2132,7 @@ new
 node
 node
 .
-get_object_data
+object_data
 (
 )
 &
@@ -8955,7 +8955,7 @@ restyle_damage
 match
 node
 .
-get_construction_result
+construction_result_mut
 (
 layout_data
 )
@@ -10617,7 +10617,7 @@ self
 bool
 ;
 fn
-get_construction_result
+construction_result_mut
 <
 '
 a
@@ -10866,7 +10866,7 @@ false
 }
 }
 fn
-get_construction_result
+construction_result_mut
 <
 '
 a
@@ -10992,7 +10992,7 @@ dst
 =
 self
 .
-get_construction_result
+construction_result_mut
 (
 layout_data
 )
@@ -11049,7 +11049,7 @@ data
 ;
 self
 .
-get_construction_result
+construction_result_mut
 (
 layout_data
 )
@@ -11154,7 +11154,7 @@ as
 a
 URL
 fn
-get_object_data
+object_data
 (
 &
 self
@@ -11298,7 +11298,7 @@ false
 }
 }
 fn
-get_object_data
+object_data
 (
 &
 self

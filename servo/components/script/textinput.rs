@@ -2471,7 +2471,7 @@ self
 .
 clipboard_provider
 .
-get_clipboard_contents
+clipboard_contents
 (
 )
 ;

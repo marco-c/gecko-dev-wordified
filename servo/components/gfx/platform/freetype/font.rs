@@ -784,7 +784,7 @@ face
 }
 }
 fn
-get_template
+template
 (
 &
 self
@@ -1487,7 +1487,7 @@ None
 }
 }
 fn
-get_metrics
+metrics
 (
 &
 self
@@ -1514,7 +1514,7 @@ face
 =
 self
 .
-get_face_rec
+face_rec_mut
 (
 )
 ;
@@ -2080,7 +2080,7 @@ Err
 }
 }
 fn
-get_face_rec
+face_rec_mut
 (
 &
 '
@@ -2125,7 +2125,7 @@ face
 =
 self
 .
-get_face_rec
+face_rec_mut
 (
 )
 ;

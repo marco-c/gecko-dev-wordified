@@ -1393,7 +1393,7 @@ font
 .
 handle
 .
-get_template
+template
 (
 )
 actual_pt_size
