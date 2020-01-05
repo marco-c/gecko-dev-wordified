@@ -116,10 +116,10 @@ line
 -
 height
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -1378,7 +1378,7 @@ full
 -
 width
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1432,7 +1432,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1503,7 +1503,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1574,10 +1574,10 @@ Au
 )
 )
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -1661,7 +1661,7 @@ gecko_constant_prefix
 "
 NS_STYLE_OVERFLOWWRAP
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1745,7 +1745,7 @@ gecko_constant_prefix
 "
 NS_STYLE_WORDBREAK
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1842,7 +1842,7 @@ gecko_enum_prefix
 "
 StyleTextJustify
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2141,7 +2141,7 @@ gecko_constant_prefix
 "
 NS_STYLE_TEXT_ALIGN
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2206,7 +2206,7 @@ text
 -
 align
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -3323,10 +3323,10 @@ letter
 -
 spacing
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -3922,10 +3922,10 @@ word
 -
 spacing
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -4553,7 +4553,7 @@ products
 "
 servo
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -5157,7 +5157,7 @@ needs_conversion
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -5386,10 +5386,10 @@ text
 -
 shadow
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateTextShadowList
 "
 spec
 =
@@ -6913,7 +6913,7 @@ boxed
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8549,7 +8549,7 @@ emphasis
 -
 position
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9095,10 +9095,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 complex_color
 =
@@ -9176,7 +9176,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9255,10 +9255,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 complex_color
 =
@@ -9336,10 +9336,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 complex_color
 =
@@ -9397,7 +9397,7 @@ stroke
 -
 width
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9630,7 +9630,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9680,7 +9680,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9760,7 +9760,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9828,7 +9828,7 @@ optimizespeed
 optimizelegibility
 geometricprecision
 "
-animation_type
+animation_value_type
 =
 "
 none

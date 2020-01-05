@@ -163,7 +163,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -225,7 +225,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -282,7 +282,7 @@ gecko_constant_prefix
 "
 NS_STYLE_COLOR_INTERPOLATION
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -344,7 +344,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -400,7 +400,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -457,7 +457,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -508,7 +508,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -562,7 +562,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -627,10 +627,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -677,7 +677,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -727,7 +727,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -783,7 +783,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -836,7 +836,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -908,7 +908,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -975,10 +975,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -1041,7 +1041,7 @@ StyleFillRule
 gecko_inexhaustive
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -1098,7 +1098,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1155,7 +1155,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1212,7 +1212,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1254,7 +1254,7 @@ paint
 -
 order
 "
-animation_type
+animation_value_type
 =
 "
 none

@@ -298,10 +298,10 @@ side
 color
 "
 )
-animation_type
+animation_value_type
 =
 "
-normal
+IntermediateColor
 "
 logical
 =
@@ -379,7 +379,7 @@ side
 style
 "
 )
-animation_type
+animation_value_type
 =
 "
 none
@@ -459,10 +459,10 @@ side
 -
 width
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 logical
 =
@@ -752,10 +752,10 @@ corner
 boxed
 =
 True
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 )
 }
@@ -816,7 +816,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -895,7 +895,7 @@ float
 edge
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -916,7 +916,7 @@ image
 -
 source
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1468,7 +1468,7 @@ image
 -
 outset
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2447,7 +2447,7 @@ image
 -
 repeat
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -3005,7 +3005,7 @@ image
 -
 width
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -4600,7 +4600,7 @@ boxed
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
 none

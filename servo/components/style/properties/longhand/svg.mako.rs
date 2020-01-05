@@ -155,7 +155,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -208,7 +208,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -282,7 +282,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -335,7 +335,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -412,7 +412,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -465,7 +465,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -531,7 +531,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -602,7 +602,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -645,7 +645,7 @@ clip
 -
 path
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -860,7 +860,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -908,7 +908,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1101,10 +1101,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -1384,10 +1384,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -1698,7 +1698,7 @@ extra_prefixes
 "
 webkit
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1776,7 +1776,7 @@ extra_prefixes
 "
 webkit
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1824,10 +1824,10 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 extra_prefixes
 =
@@ -2008,7 +2008,7 @@ extra_prefixes
 "
 webkit
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2056,7 +2056,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none

@@ -447,7 +447,7 @@ font
 -
 family
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2658,7 +2658,7 @@ font
 -
 style
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -2791,7 +2791,7 @@ caps
 custom_consts
 =
 font_variant_caps_custom_consts
-animation_type
+animation_value_type
 =
 "
 none
@@ -2815,10 +2815,10 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -4419,10 +4419,10 @@ need_clone
 "
 True
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -7228,10 +7228,10 @@ size
 -
 adjust
 "
-animation_type
+animation_value_type
 =
 "
-normal
+ComputedValue
 "
 spec
 =
@@ -8158,7 +8158,7 @@ font
 -
 synthesis
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8656,7 +8656,7 @@ font
 -
 stretch
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8719,7 +8719,7 @@ font
 -
 stretch
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -8775,7 +8775,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -9675,7 +9675,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -10685,7 +10685,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -11825,7 +11825,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -12887,7 +12887,7 @@ variant
 -
 position
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -12913,7 +12913,7 @@ products
 "
 none
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -13847,7 +13847,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -14851,7 +14851,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -15112,7 +15112,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -15298,7 +15298,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -15852,7 +15852,7 @@ web
 exposed
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -15951,7 +15951,7 @@ web
 exposed
 )
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -15983,7 +15983,7 @@ products
 "
 gecko
 "
-animation_type
+animation_value_type
 =
 "
 none

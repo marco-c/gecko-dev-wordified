@@ -118,7 +118,7 @@ gecko
 '
 }
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1215,7 +1215,7 @@ events
 auto
 none
 "
-animation_type
+animation_value_type
 =
 "
 none
@@ -1293,7 +1293,7 @@ StyleUserInput
 gecko_inexhaustive
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -1375,7 +1375,7 @@ StyleUserModify
 needs_conversion
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -1466,7 +1466,7 @@ StyleUserFocus
 gecko_inexhaustive
 =
 True
-animation_type
+animation_value_type
 =
 "
 none
@@ -1550,10 +1550,14 @@ caret
 -
 color
 "
-animation_type
+animation_value_type
 =
 "
-normal
+Either
+<
+IntermediateColor
+Auto
+>
 "
 boxed
 =
