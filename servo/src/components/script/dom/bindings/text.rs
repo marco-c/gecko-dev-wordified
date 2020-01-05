@@ -110,7 +110,6 @@ node
 :
 {
 AbstractNode
-Text
 Comment
 Doctype
 TextNodeTypeId
@@ -128,6 +127,15 @@ node
 DoctypeNodeTypeId
 ScriptView
 }
+;
+use
+dom
+:
+:
+text
+:
+:
+Text
 ;
 use
 js
