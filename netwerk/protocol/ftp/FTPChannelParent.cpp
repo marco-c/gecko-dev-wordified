@@ -2952,7 +2952,7 @@ pcp
 )
 -
 >
-TransmitPermissionsFor
+AboutToLoadDocumentForChild
 (
 chan
 )

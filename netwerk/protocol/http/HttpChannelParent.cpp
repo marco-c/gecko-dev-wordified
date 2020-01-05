@@ -7071,7 +7071,7 @@ pcp
 )
 -
 >
-TransmitPermissionsFor
+AboutToLoadDocumentForChild
 (
 chan
 )
