@@ -148,6 +148,15 @@ h
 #
 include
 "
+vm
+/
+Shape
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h

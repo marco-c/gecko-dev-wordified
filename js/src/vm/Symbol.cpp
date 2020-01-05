@@ -199,6 +199,8 @@ JS
 :
 SymbolCode
 code
+uint32_t
+hash
 JSAtom
 *
 description
@@ -281,6 +283,7 @@ p
 Symbol
 (
 code
+hash
 description
 )
 ;
@@ -390,6 +393,17 @@ newInternal
 (
 cx
 code
+cx
+-
+>
+compartment
+(
+)
+-
+>
+randomHashCode
+(
+)
 atom
 lock
 )
@@ -495,6 +509,12 @@ SymbolCode
 :
 :
 InSymbolRegistry
+atom
+-
+>
+hash
+(
+)
 atom
 lock
 )
