@@ -300,15 +300,6 @@ text
 Text
 ;
 use
-encoding
-:
-:
-types
-:
-:
-Encoding
-;
-use
 html5ever
 :
 :
