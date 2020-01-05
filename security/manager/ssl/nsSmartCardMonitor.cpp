@@ -2315,7 +2315,7 @@ SmartCard
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 SmartCard
