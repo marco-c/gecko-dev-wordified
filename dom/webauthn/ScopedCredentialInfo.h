@@ -222,7 +222,7 @@ public
 explicit
 ScopedCredentialInfo
 (
-nsPIDOMWindowInner
+WebAuthentication
 *
 aParent
 )
@@ -236,7 +236,7 @@ ScopedCredentialInfo
 ;
 public
 :
-nsISupports
+WebAuthentication
 *
 GetParentObject
 (
@@ -305,9 +305,9 @@ WebAuthnAttestation
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowInner
+WebAuthentication
 >
 mParent
 ;

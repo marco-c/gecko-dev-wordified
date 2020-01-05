@@ -216,7 +216,7 @@ public
 explicit
 WebAuthnAssertion
 (
-nsPIDOMWindowInner
+WebAuthentication
 *
 aParent
 )
@@ -230,7 +230,7 @@ WebAuthnAssertion
 ;
 public
 :
-nsPIDOMWindowInner
+WebAuthentication
 *
 GetParentObject
 (
@@ -360,9 +360,9 @@ aBuffer
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowInner
+WebAuthentication
 >
 mParent
 ;

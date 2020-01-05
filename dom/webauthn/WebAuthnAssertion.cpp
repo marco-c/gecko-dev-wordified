@@ -176,7 +176,7 @@ WebAuthnAssertion
 :
 WebAuthnAssertion
 (
-nsPIDOMWindowInner
+WebAuthentication
 *
 aParent
 )
