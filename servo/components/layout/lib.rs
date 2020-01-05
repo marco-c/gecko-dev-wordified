@@ -88,6 +88,7 @@ macro_rules
 phase
 thread_local
 unsafe_destructor
+if_let
 )
 ]
 #
