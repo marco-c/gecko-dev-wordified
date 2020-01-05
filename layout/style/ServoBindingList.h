@@ -460,6 +460,15 @@ nsIAtom
 *
 local_name
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSet_HasStateDependency
+bool
+RawServoStyleSetBorrowed
+set
+uint64_t
+state
+)
 /
 /
 CSSRuleList
