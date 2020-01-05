@@ -662,5 +662,7 @@ places
 overlay
 "
 )
+.
+globals
 }
 ;

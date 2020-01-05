@@ -479,5 +479,7 @@ getSavedEnvironmentItems
 simpletest
 "
 )
+.
+globals
 }
 ;
