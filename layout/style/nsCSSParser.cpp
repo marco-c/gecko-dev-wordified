@@ -10258,7 +10258,7 @@ return
 mSheet
 -
 >
-GetDocument
+GetAssociatedDocument
 (
 )
 ;
