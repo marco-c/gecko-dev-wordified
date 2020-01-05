@@ -1623,10 +1623,6 @@ StyleClipPath
 "
             
 "
-nscoord
-"
-            
-"
 nsCSSKeyword
 "
             
@@ -1836,6 +1832,14 @@ nsStyleVisibility
             
 "
 nsStyleXUL
+"
+            
+"
+nscoord
+"
+            
+"
+nsresult
 "
         
 ]
