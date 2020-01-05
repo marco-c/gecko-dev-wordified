@@ -19,7 +19,7 @@ C
 )
 1995
 -
-2011
+2016
 Mark
 Adler
 *
@@ -459,6 +459,9 @@ state
 >
 wbits
 =
+(
+uInt
+)
 windowBits
 ;
 state
