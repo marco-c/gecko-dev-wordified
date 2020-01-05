@@ -534,11 +534,7 @@ values
 .
 textContent
 "
-\
-"
 bar
-\
-"
 "
 "
 The
@@ -584,11 +580,7 @@ values
 .
 textContent
 "
-\
-"
 123
-\
-"
 "
 "
 The
