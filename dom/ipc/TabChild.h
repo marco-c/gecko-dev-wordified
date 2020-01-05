@@ -2507,6 +2507,7 @@ widget
 AutoCacheNativeKeyCommands
 *
 aAutoCache
+const
 WidgetKeyboardEvent
 *
 aEvent
