@@ -757,16 +757,6 @@ iframe
 '
 )
 ;
-iframe
-.
-style
-.
-display
-=
-'
-none
-'
-;
 if
 (
 typeof
