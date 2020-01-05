@@ -300,6 +300,12 @@ _
 TraceLoggerGraphState
 600
 )
+\
+_
+(
+VTuneLock
+600
+)
 namespace
 js
 {

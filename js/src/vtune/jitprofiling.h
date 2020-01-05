@@ -5160,6 +5160,12 @@ iJIT_IsProfilingActive
 void
 )
 ;
+int
+loadiJIT_Funcs
+(
+void
+)
+;
 /
 *
 *

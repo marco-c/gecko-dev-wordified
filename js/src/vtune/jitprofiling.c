@@ -803,7 +803,6 @@ value
 0
 *
 /
-static
 int
 loadiJIT_Funcs
 (
@@ -1098,7 +1097,6 @@ value
 0
 *
 /
-static
 int
 loadiJIT_Funcs
 (
