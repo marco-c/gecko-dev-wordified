@@ -3066,7 +3066,6 @@ def
 enterScope
 (
 self
-node
 )
 :
         
@@ -3117,7 +3116,6 @@ def
 exitScope
 (
 self
-node
 )
 :
         
@@ -4879,7 +4877,6 @@ symtab
 .
 enterScope
 (
-sd
 )
         
 sd
@@ -5018,7 +5015,6 @@ symtab
 .
 exitScope
 (
-sd
 )
     
 def
@@ -5332,7 +5328,6 @@ symtab
 .
 enterScope
 (
-p
 )
         
 seenmgrs
@@ -5767,7 +5762,6 @@ symtab
 .
 exitScope
 (
-p
 )
     
 def
@@ -6257,7 +6251,6 @@ symtab
 .
 enterScope
 (
-md
 )
         
 msgtype
@@ -6503,7 +6496,6 @@ symtab
 .
 exitScope
 (
-md
 )
         
 md
