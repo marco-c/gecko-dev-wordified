@@ -4258,6 +4258,9 @@ nsIInputStream
 >
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 params
@@ -19791,6 +19794,9 @@ FileDescriptor
 >
 fds
 ;
+InputStreamHelper
+:
+:
 SerializeInputStream
 (
 stream
@@ -21717,6 +21723,9 @@ nsIInputStream
 >
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 aParams

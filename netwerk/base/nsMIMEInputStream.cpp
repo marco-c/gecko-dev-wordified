@@ -1216,6 +1216,9 @@ mStream
 InputStreamParams
 wrappedParams
 ;
+InputStreamHelper
+:
+:
 SerializeInputStream
 (
 mStream
@@ -1402,6 +1405,9 @@ stream
 ;
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 wrappedParams

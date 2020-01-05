@@ -1111,6 +1111,9 @@ mWeakIPCSerializableInputStream
 SlicedInputStreamParams
 params
 ;
+InputStreamHelper
+:
+:
 SerializeInputStream
 (
 mInputStream
@@ -1243,6 +1246,9 @@ nsIInputStream
 >
 stream
 =
+InputStreamHelper
+:
+:
 DeserializeInputStream
 (
 params
