@@ -1046,16 +1046,6 @@ JSObject
 wrapper
 )
 ;
-static
-JSObject
-*
-wrappedObjectMaybeGray
-(
-JSObject
-*
-wrapper
-)
-;
 unsigned
 flags
 (

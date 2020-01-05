@@ -2725,17 +2725,6 @@ MutableHandleObject
 obj
 )
 {
-MOZ_ASSERT
-(
-JS
-:
-:
-ObjectIsNotGray
-(
-obj
-)
-)
-;
 /
 /
 If
