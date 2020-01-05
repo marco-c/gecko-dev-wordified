@@ -2898,6 +2898,9 @@ reportPath
 )
 ;
 }
+#
+ifndef
+RELEASE_OR_BETA
 static
 string
 GetMinidumpAnalyzerPath
@@ -2942,6 +2945,8 @@ return
 path
 ;
 }
+#
+endif
 int
 main
 (
@@ -3036,6 +3041,9 @@ UIShowDefaultUI
 }
 else
 {
+#
+ifndef
+RELEASE_OR_BETA
 /
 /
 start
@@ -3043,6 +3051,17 @@ by
 running
 minidump
 analyzer
+this
+is
+currently
+enabled
+only
+in
+/
+/
+nightly
+and
+aurora
 UIRunMinidumpAnalyzer
 (
 GetMinidumpAnalyzerPath
@@ -3051,6 +3070,8 @@ GetMinidumpAnalyzerPath
 gReporterDumpFile
 )
 ;
+#
+endif
 /
 /
 go
