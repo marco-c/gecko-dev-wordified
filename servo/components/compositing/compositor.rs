@@ -400,6 +400,7 @@ constellation_msg
 :
 :
 {
+LoadData
 PipelineId
 ResizedWindowMsg
 WindowSizeData
@@ -4425,6 +4426,11 @@ msg
 LoadUrlMsg
 (
 root_pipeline_id
+LoadData
+:
+:
+new
+(
 Url
 :
 :
@@ -4439,6 +4445,7 @@ as_slice
 .
 unwrap
 (
+)
 )
 )
 ;

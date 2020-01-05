@@ -207,7 +207,10 @@ servo_msg
 constellation_msg
 :
 :
+{
+LoadData
 SubpageId
+}
 ;
 use
 servo_msg
@@ -253,12 +256,6 @@ any
 :
 :
 Any
-;
-use
-url
-:
-:
-Url
 ;
 use
 geom
@@ -385,7 +382,7 @@ pipeline
 LoadMsg
 (
 PipelineId
-Url
+LoadData
 )
 /
 /

@@ -217,6 +217,7 @@ constellation_msg
 :
 :
 {
+LoadData
 NavigationType
 PipelineId
 RendererReadyMsg
@@ -2107,9 +2108,9 @@ Rc
 Pipeline
 >
 >
-url
+load_data
 :
-Url
+LoadData
 )
 -
 >
@@ -2194,7 +2195,7 @@ clone
 (
 )
 script_pipeline
-url
+load_data
 )
 ;
 pipe
@@ -2691,7 +2692,7 @@ be
 LoadUrlMsg
 (
 source_id
-url
+load_data
 )
 =
 >
@@ -2713,7 +2714,7 @@ self
 handle_load_url_msg
 (
 source_id
-url
+load_data
 )
 ;
 }
@@ -3362,6 +3363,11 @@ new_pipeline
 new_id
 subpage_id
 None
+LoadData
+:
+:
+new
+(
 Url
 :
 :
@@ -3376,6 +3382,7 @@ failure
 .
 unwrap
 (
+)
 )
 )
 ;
@@ -3482,7 +3489,13 @@ new_pipeline
 next_pipeline_id
 None
 None
+LoadData
+:
+:
+new
+(
 url
+)
 )
 ;
 self
@@ -4365,6 +4378,8 @@ source_url
 =
 source_pipeline
 .
+load_data
+.
 url
 .
 clone
@@ -4513,7 +4528,13 @@ Some
 subpage_id
 )
 new_pipeline
+LoadData
+:
+:
+new
+(
 url
+)
 )
 ;
 let
@@ -4628,9 +4649,9 @@ self
 source_id
 :
 PipelineId
-url
+load_data
 :
-Url
+LoadData
 )
 {
 debug
@@ -4648,6 +4669,8 @@ load
 s
 }
 "
+load_data
+.
 url
 .
 to_string
@@ -4908,7 +4931,7 @@ new_pipeline
 next_pipeline_id
 subpage_id
 None
-url
+load_data
 )
 ;
 self
