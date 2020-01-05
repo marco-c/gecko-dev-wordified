@@ -86,6 +86,7 @@ resolve
 add_task
 (
 function
+*
 asyncTest_no1
 (
 )
@@ -105,6 +106,7 @@ true
 add_task
 (
 function
+*
 asyncTest_no2
 (
 )

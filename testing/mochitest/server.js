@@ -2774,6 +2774,7 @@ directory
 *
 /
 function
+*
 dirIter
 (
 dir
