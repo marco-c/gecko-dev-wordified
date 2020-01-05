@@ -537,6 +537,7 @@ number_of_variants
 impl
 ViewportDescriptor
 {
+pub
 fn
 discriminant_value
 (
