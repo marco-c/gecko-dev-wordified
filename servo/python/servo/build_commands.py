@@ -1472,13 +1472,19 @@ opts
 -
 target
 "
+self
+.
+config
+[
 "
-arm
--
-linux
--
-androideabi
+android
 "
+]
+[
+"
+target
+"
+]
 ]
         
 if
@@ -2274,10 +2280,6 @@ ensure_bootstrapped
 (
 )
         
-ret
-=
-None
-        
 opts
 =
 [
@@ -2339,13 +2341,19 @@ opts
 -
 target
 "
+self
+.
+config
+[
 "
-arm
--
-linux
--
-androideabi
+android
 "
+]
+[
+"
+target
+"
+]
 ]
         
 env
