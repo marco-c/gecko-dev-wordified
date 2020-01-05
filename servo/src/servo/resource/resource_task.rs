@@ -56,6 +56,15 @@ net
 :
 :
 url
+;
+import
+std
+:
+:
+net
+:
+:
+url
 :
 :
 {
@@ -797,7 +806,7 @@ fn
 +
 _url
 :
-url
+Url
 progress_chan
 :
 Chan
