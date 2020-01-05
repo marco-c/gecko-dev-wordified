@@ -20331,8 +20331,6 @@ init
 (
 )
 {
-try
-{
 this
 .
 enabled
@@ -20350,15 +20348,9 @@ update
 .
 badge
 "
+false
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 this
