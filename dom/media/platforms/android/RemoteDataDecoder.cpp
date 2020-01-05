@@ -1007,6 +1007,19 @@ CodecProxy
 :
 Create
 (
+false
+/
+/
+false
+indicates
+to
+create
+a
+decoder
+and
+true
+denotes
+encoder
 mFormat
 mSurfaceTexture
 -
@@ -1436,6 +1449,7 @@ CodecProxy
 :
 Create
 (
+false
 mFormat
 nullptr
 mJavaCallbacks

@@ -643,6 +643,8 @@ synchronized
 CodecProxy
 createCodec
 (
+boolean
+isEncoder
 MediaFormat
 format
 Surface
@@ -704,6 +706,7 @@ CodecProxy
 .
 createCodecProxy
 (
+isEncoder
 format
 surface
 callbacks
