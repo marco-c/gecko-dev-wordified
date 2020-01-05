@@ -447,7 +447,7 @@ this
 set
 .
 nsCSSPropertyIDSet
-Invert
+Inverse
 (
 )
 const
