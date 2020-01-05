@@ -296,7 +296,7 @@ use
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 msg
@@ -602,7 +602,7 @@ LoadData
 LoadConsumer
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 CancellationListener
 )
@@ -982,7 +982,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 connector
 :
@@ -8030,7 +8030,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 cancel_listener
 :

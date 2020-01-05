@@ -111,7 +111,7 @@ use
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 net_traits
@@ -228,7 +228,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 )
 {
@@ -453,7 +453,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 entry
 :

@@ -74,7 +74,7 @@ mime_classifier
 :
 {
 Mp4Matcher
-MIMEClassifier
+MimeClassifier
 ApacheBugFlag
 NoSniffFlag
 }
@@ -407,7 +407,7 @@ test_validate_classifier
 let
 classifier
 =
-MIMEClassifier
+MimeClassifier
 :
 :
 new
@@ -533,7 +533,7 @@ filename_orig
 let
 classifier
 =
-MIMEClassifier
+MimeClassifier
 :
 :
 new

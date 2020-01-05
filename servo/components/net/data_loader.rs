@@ -75,7 +75,7 @@ use
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 net_traits
@@ -165,7 +165,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 cancel_listener
 :
@@ -681,7 +681,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 cancel_listener
 :

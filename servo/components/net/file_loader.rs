@@ -63,7 +63,7 @@ use
 mime_classifier
 :
 :
-MIMEClassifier
+MimeClassifier
 ;
 use
 mime_guess
@@ -510,7 +510,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 buf
 :
@@ -592,7 +592,7 @@ classifier
 :
 Arc
 <
-MIMEClassifier
+MimeClassifier
 >
 cancel_listener
 :
