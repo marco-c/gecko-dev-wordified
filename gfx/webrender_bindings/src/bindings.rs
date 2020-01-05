@@ -93,7 +93,6 @@ ImageFormat
 ImageKey
 ImageMask
 ImageRendering
-RendererKind
 MixBlendMode
 }
 ;
@@ -1367,7 +1366,7 @@ pipeline_id
 ;
 let
 (
-pipeline_id
+_
 dl
 aux
 )
@@ -1582,8 +1581,6 @@ true
 let
 dl_slice
 =
-unsafe
-{
 slice
 :
 :
@@ -1592,7 +1589,6 @@ from_raw_parts
 dl_data
 dl_size
 )
-}
 ;
 let
 mut
@@ -1641,8 +1637,6 @@ dl_descriptor
 let
 aux_slice
 =
-unsafe
-{
 slice
 :
 :
@@ -1651,7 +1645,6 @@ from_raw_parts
 aux_data
 aux_size
 )
-}
 ;
 let
 mut
@@ -1960,7 +1953,6 @@ default
 ;
 let
 (
-mut
 renderer
 sender
 )
@@ -3524,7 +3516,6 @@ to_rect
 )
 ;
 let
-mut
 overflow
 =
 overflow
