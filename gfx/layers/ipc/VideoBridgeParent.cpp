@@ -146,13 +146,6 @@ mozilla
 :
 gfx
 ;
-using
-namespace
-mozilla
-:
-:
-media
-;
 static
 VideoBridgeParent
 *
