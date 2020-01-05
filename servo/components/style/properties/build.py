@@ -481,6 +481,16 @@ directories
 [
 BASE
 ]
+                                
+input_encoding
+=
+"
+utf8
+"
+                                
+strict_undefined
+=
+True
 )
         
 template
