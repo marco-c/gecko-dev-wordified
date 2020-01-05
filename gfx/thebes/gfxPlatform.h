@@ -4769,6 +4769,12 @@ InitGPUProcessPrefs
 (
 )
 ;
+static
+bool
+IsDXInterop2Blocked
+(
+)
+;
 RefPtr
 <
 gfxASurface
