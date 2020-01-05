@@ -595,7 +595,7 @@ explicit
 SamplerThread
 (
 double
-interval
+aInterval
 )
 :
 mThread
@@ -604,20 +604,16 @@ kNoThread
 )
 mInterval
 (
-interval
-)
-{
-mInterval
-=
 floor
 (
-interval
+aInterval
 +
 0
 .
 5
 )
-;
+)
+{
 if
 (
 mInterval
@@ -812,6 +808,8 @@ static
 void
 StartSampler
 (
+double
+aInterval
 )
 {
 MOZ_RELEASE_ASSERT
@@ -832,7 +830,7 @@ mInstance
 new
 SamplerThread
 (
-gInterval
+aInterval
 )
 ;
 mInstance
@@ -1631,6 +1629,8 @@ static
 void
 PlatformStart
 (
+double
+aInterval
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1655,6 +1655,7 @@ SamplerThread
 :
 StartSampler
 (
+aInterval
 )
 ;
 }
