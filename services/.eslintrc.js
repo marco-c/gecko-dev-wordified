@@ -139,15 +139,6 @@ octal
 "
 warn
 "
-"
-no
--
-redeclare
-"
-:
-"
-warn
-"
 }
 }
 ;
