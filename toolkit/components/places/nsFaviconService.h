@@ -538,9 +538,12 @@ asynchronously
 *
 *
 param
-aFaviconURI
+aFaviconSpec
 *
 The
+spec
+of
+the
 URI
 representing
 the
@@ -595,9 +598,10 @@ index
 nsresult
 GetFaviconDataAsync
 (
-nsIURI
-*
-aFaviconURI
+const
+nsCString
+&
+aFaviconSpec
 mozIStorageStatementCallback
 *
 aCallback
