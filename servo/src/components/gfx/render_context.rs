@@ -190,7 +190,7 @@ extra
 arc
 :
 :
-ARC
+Arc
 ;
 pub
 struct
@@ -742,7 +742,7 @@ Au
 >
 image
 :
-ARC
+Arc
 <
 ~
 Image

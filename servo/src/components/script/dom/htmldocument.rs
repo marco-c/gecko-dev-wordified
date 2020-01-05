@@ -173,7 +173,7 @@ servo_util
 tree
 :
 :
-TreeUtils
+TreeNodeRef
 ;
 use
 std
@@ -368,7 +368,6 @@ WrappableDocument
 for
 HTMLDocument
 {
-pub
 fn
 init_wrapper
 (
@@ -551,6 +550,8 @@ let
 _
 =
 for
+child
+in
 self
 .
 parent
@@ -558,9 +559,8 @@ parent
 root
 .
 traverse_preorder
-|
-child
-|
+(
+)
 {
 if
 child

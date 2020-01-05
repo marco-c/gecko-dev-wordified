@@ -134,7 +134,7 @@ servo_util
 tree
 :
 :
-TreeUtils
+TreeNodeRef
 ;
 pub
 trait
@@ -381,12 +381,13 @@ complete_results
 ;
 }
 for
+kid
+in
 self
 .
-each_child
-|
-kid
-|
+children
+(
+)
 {
 kid
 .

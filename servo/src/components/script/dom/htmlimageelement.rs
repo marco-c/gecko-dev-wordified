@@ -85,9 +85,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :

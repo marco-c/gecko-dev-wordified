@@ -103,9 +103,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :
@@ -118,7 +115,7 @@ extra
 arc
 :
 :
-ARC
+Arc
 ;
 /
 /
@@ -190,7 +187,7 @@ requested
 /
 and
 an
-ARC
+Arc
 will
 be
 stored
@@ -198,7 +195,7 @@ stored
 Clones
 of
 this
-ARC
+Arc
 are
 given
 out
@@ -216,7 +213,7 @@ image
 :
 Option
 <
-ARC
+Arc
 <
 ~
 Image
@@ -572,7 +569,7 @@ self
 >
 Option
 <
-ARC
+Arc
 <
 ~
 Image

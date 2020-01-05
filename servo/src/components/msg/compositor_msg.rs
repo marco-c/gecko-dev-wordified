@@ -418,7 +418,7 @@ layer_buffer_set
 arc
 :
 :
-ARC
+Arc
 <
 LayerBufferSet
 >

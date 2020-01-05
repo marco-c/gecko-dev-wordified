@@ -379,7 +379,6 @@ a
 new
 window
 .
-pub
 fn
 new
 (
@@ -403,7 +402,6 @@ of
 the
 window
 .
-pub
 fn
 size
 (
@@ -433,7 +431,6 @@ page
 flipping
 )
 .
-pub
 fn
 present
 (
@@ -455,7 +452,6 @@ the
 next
 event
 .
-pub
 fn
 recv
 (
@@ -478,7 +474,6 @@ the
 current
 page
 .
-pub
 fn
 set_ready_state
 (
@@ -501,7 +496,6 @@ the
 current
 page
 .
-pub
 fn
 set_render_state
 (
@@ -523,7 +517,6 @@ of
 the
 monitor
 .
-pub
 fn
 hidpi_factor
 (

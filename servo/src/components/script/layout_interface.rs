@@ -182,9 +182,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :
@@ -542,6 +539,7 @@ this
 function
 removed
 .
+pub
 fn
 add
 (

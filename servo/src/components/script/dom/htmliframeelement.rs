@@ -130,9 +130,6 @@ use
 extra
 :
 :
-net
-:
-:
 url
 :
 :

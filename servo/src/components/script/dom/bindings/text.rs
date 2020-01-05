@@ -188,12 +188,6 @@ std
 :
 libc
 ;
-use
-std
-:
-:
-result
-;
 extern
 fn
 finalize_text
@@ -681,11 +675,6 @@ cx
 let
 obj
 =
-result
-:
-:
-unwrap
-(
 compartment
 .
 new_object_with_proto
@@ -698,6 +687,9 @@ global_obj
 .
 ptr
 )
+.
+unwrap
+(
 )
 ;
 let

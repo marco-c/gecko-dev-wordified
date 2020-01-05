@@ -119,12 +119,6 @@ std
 :
 cast
 ;
-use
-std
-:
-:
-f32
-;
 pub
 struct
 ClientRect
@@ -312,10 +306,6 @@ self
 >
 f32
 {
-f32
-:
-:
-abs
 (
 self
 .
@@ -324,6 +314,10 @@ right
 self
 .
 left
+)
+.
+abs
+(
 )
 }
 pub
@@ -337,10 +331,6 @@ self
 >
 f32
 {
-f32
-:
-:
-abs
 (
 self
 .
@@ -349,6 +339,10 @@ bottom
 self
 .
 top
+)
+.
+abs
+(
 )
 }
 }

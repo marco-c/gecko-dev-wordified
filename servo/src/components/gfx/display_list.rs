@@ -305,7 +305,7 @@ extra
 arc
 :
 :
-ARC
+Arc
 ;
 /
 /
@@ -481,6 +481,8 @@ list
 )
 ;
 for
+item
+in
 self
 .
 list
@@ -488,11 +490,6 @@ list
 iter
 (
 )
-.
-advance
-|
-item
-|
 {
 /
 /
@@ -738,7 +735,7 @@ E
 >
 image
 :
-ARC
+Arc
 <
 ~
 Image
@@ -1106,6 +1103,7 @@ color
 }
 }
 }
+pub
 fn
 base
 <
@@ -1206,6 +1204,7 @@ base
 }
 }
 }
+pub
 fn
 bounds
 (

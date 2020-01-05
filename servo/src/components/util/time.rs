@@ -200,6 +200,7 @@ msg
 deriving
 (
 Eq
+Clone
 )
 ]
 pub
@@ -386,7 +387,6 @@ order
 of
 categories
 ?
-priv
 fn
 empty_buckets
 (
@@ -506,7 +506,6 @@ of
 the
 enum
 categories
-priv
 fn
 check_order
 (
@@ -517,20 +516,17 @@ ProfilerBuckets
 )
 {
 for
-vec
-.
-iter
-(
-)
-.
-advance
-|
 &
 (
 category
 _
 )
-|
+in
+vec
+.
+iter
+(
+)
 {
 if
 category
@@ -758,7 +754,6 @@ msg
 ;
 }
 }
-priv
 fn
 handle_msg
 (
@@ -875,7 +870,6 @@ msg
 )
 ;
 }
-priv
 fn
 print_buckets
 (
@@ -942,6 +936,8 @@ size_
 )
 ;
 for
+bucket
+in
 self
 .
 buckets
@@ -949,11 +945,6 @@ buckets
 mut_iter
 (
 )
-.
-advance
-|
-bucket
-|
 {
 let
 (
@@ -1016,7 +1007,7 @@ iter
 (
 )
 .
-transform
+map
 (
 |
 &

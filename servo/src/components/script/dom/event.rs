@@ -318,10 +318,13 @@ self
 >
 DOMString
 {
-copy
 self
 .
 type_
+.
+clone
+(
+)
 }
 pub
 fn

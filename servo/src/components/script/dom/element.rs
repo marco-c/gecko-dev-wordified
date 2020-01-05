@@ -397,13 +397,10 @@ str
 eq_slice
 ;
 use
-extra
+std
 :
 :
-net
-:
-:
-url
+FromStr
 ;
 pub
 struct
@@ -1369,6 +1366,8 @@ in
 Rust
 .
 for
+attr
+in
 self
 .
 attrs
@@ -1376,11 +1375,6 @@ attrs
 iter
 (
 )
-.
-advance
-|
-attr
-|
 {
 if
 eq_slice
@@ -1461,6 +1455,8 @@ found
 false
 ;
 for
+attr
+in
 self
 .
 attrs
@@ -1468,11 +1464,6 @@ attrs
 mut_iter
 (
 )
-.
-advance
-|
-attr
-|
 {
 if
 eq_slice
@@ -1557,7 +1548,7 @@ Stylesheet
 :
 from_attribute
 (
-url
+FromStr
 :
 :
 from_str
@@ -1646,7 +1637,7 @@ parent
 .
 owner_doc
 .
-get
+unwrap
 (
 )
 ;
@@ -1664,7 +1655,7 @@ doc
 .
 window
 .
-get
+unwrap
 (
 )
 )
@@ -2509,7 +2500,7 @@ None
 }
 }
 .
-get
+unwrap
 (
 )
 ;
