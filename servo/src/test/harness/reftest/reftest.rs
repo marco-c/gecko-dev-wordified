@@ -157,12 +157,6 @@ std
 os
 ;
 use
-std
-:
-:
-str
-;
-use
 test
 :
 :
