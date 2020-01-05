@@ -641,12 +641,6 @@ count
 0
 )
 {
-ContextualIdentityService
-.
-disableContainers
-(
-)
-;
 Services
 .
 prefs
@@ -817,12 +811,6 @@ rv
 ContextualIdentityService
 .
 closeContainerTabs
-(
-)
-;
-ContextualIdentityService
-.
-disableContainers
 (
 )
 ;
