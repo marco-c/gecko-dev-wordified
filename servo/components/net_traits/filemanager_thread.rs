@@ -955,6 +955,15 @@ DecRef
 (
 SelectedFileId
 FileOrigin
+IpcSender
+<
+Result
+<
+(
+)
+BlobURLStoreError
+>
+>
 )
 /
 /

@@ -206,7 +206,6 @@ load_blob
 (
 load_data
 :
-&
 LoadData
 start_chan
 :
@@ -225,11 +224,9 @@ String
 >
 rel_pos
 :
-&
 RelativePos
 entry
 :
-&
 BlobURLStoreEntry
 )
 {
