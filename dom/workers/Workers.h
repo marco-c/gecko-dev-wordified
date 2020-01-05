@@ -1169,6 +1169,9 @@ mServiceWorkerCacheName
 ChannelInfo
 mChannelInfo
 ;
+nsLoadFlags
+mLoadFlags
+;
 uint64_t
 mWindowID
 ;

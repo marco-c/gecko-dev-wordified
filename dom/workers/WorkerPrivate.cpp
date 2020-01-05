@@ -7736,6 +7736,13 @@ WorkerLoadInfo
 (
 )
 :
+mLoadFlags
+(
+nsIRequest
+:
+:
+LOAD_NORMAL
+)
 mWindowID
 (
 UINT64_MAX
@@ -7988,6 +7995,12 @@ mServiceWorkerCacheName
 aOther
 .
 mServiceWorkerCacheName
+;
+mLoadFlags
+=
+aOther
+.
+mLoadFlags
 ;
 mWindowID
 =
