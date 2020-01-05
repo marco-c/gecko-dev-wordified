@@ -357,7 +357,6 @@ HTMLFormElement
 >
 global
 :
-&
 GlobalRef
 )
 -
@@ -395,6 +394,7 @@ GlobalField
 :
 from_rooted
 (
+&
 global
 )
 form
@@ -431,7 +431,6 @@ HTMLFormElement
 >
 global
 :
-&
 GlobalRef
 )
 -
@@ -452,7 +451,6 @@ new_inherited
 form
 global
 )
-*
 global
 FormDataBinding
 :
@@ -466,7 +464,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 form
 :
@@ -1096,7 +1093,6 @@ File
 :
 new
 (
-&
 global
 .
 r

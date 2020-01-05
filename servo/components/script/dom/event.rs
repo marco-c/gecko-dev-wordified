@@ -661,7 +661,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -733,7 +732,6 @@ Event
 :
 new
 (
-*
 global
 type_
 bubbles

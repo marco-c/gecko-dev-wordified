@@ -334,7 +334,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 data
 :

@@ -693,7 +693,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r
@@ -1283,7 +1282,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r
@@ -1591,7 +1589,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r
@@ -1940,7 +1937,6 @@ Blob
 :
 new
 (
-&
 global
 .
 r

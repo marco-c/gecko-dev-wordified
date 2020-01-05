@@ -335,7 +335,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 text
 :

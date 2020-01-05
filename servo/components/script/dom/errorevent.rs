@@ -417,7 +417,6 @@ new_uninitialized
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -440,7 +439,6 @@ EventTypeId
 :
 ErrorEvent
 )
-*
 global
 ErrorEventBinding
 :
@@ -454,7 +452,6 @@ new
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -631,7 +628,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 type_
 :

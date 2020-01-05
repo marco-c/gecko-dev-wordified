@@ -364,7 +364,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 init
 :
@@ -391,7 +390,6 @@ URLSearchParams
 :
 new
 (
-*
 global
 )
 .

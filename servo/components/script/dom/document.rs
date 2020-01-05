@@ -3618,7 +3618,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 )
 -

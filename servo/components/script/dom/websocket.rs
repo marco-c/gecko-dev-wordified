@@ -251,7 +251,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 url
 :
@@ -274,7 +273,6 @@ WebSocket
 :
 new
 (
-*
 global
 url
 )

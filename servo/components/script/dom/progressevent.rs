@@ -398,7 +398,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -429,7 +428,6 @@ ProgressEvent
 :
 new
 (
-*
 global
 type_
 init

@@ -1206,7 +1206,6 @@ new_inherited
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -1269,7 +1268,6 @@ XMLHttpRequestUpload
 :
 new
 (
-*
 global
 )
 )
@@ -1444,6 +1442,7 @@ GlobalField
 :
 from_rooted
 (
+&
 global
 )
 timer
@@ -1502,7 +1501,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -1522,7 +1520,6 @@ new_inherited
 (
 global
 )
-*
 global
 XMLHttpRequestBinding
 :
@@ -1536,7 +1533,6 @@ Constructor
 (
 global
 :
-&
 GlobalRef
 )
 -
