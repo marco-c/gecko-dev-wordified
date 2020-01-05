@@ -592,6 +592,7 @@ GamepadServiceType
 Standard
 aNumButtons
 aNumAxes
+0
 )
 ;
 NotifyGamepadChange
