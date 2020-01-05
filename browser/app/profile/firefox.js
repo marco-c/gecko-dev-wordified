@@ -342,16 +342,6 @@ webextPermissionPrompts
 true
 )
 ;
-pref
-(
-"
-extensions
-.
-webextOptionalPermissionPrompts
-"
-true
-)
-;
 /
 /
 Preferences
@@ -18730,9 +18720,6 @@ su
 fx
 -
 devtools
-toolkit
-/
-require
 url_advisor
 kaspersky
 .
@@ -19049,9 +19036,6 @@ sig
 savefrom
 .
 net
-browser
--
-loader
 ImageSaver
 Merci
 .
