@@ -102,6 +102,7 @@ net_traits
 {
 LoadData
 Metadata
+NetworkError
 }
 ;
 use
@@ -917,6 +918,11 @@ InvalidDataUri
 send_error
 (
 url
+NetworkError
+:
+:
+Internal
+(
 "
 invalid
 data
@@ -925,6 +931,7 @@ uri
 .
 to_owned
 (
+)
 )
 start_chan
 )
@@ -940,6 +947,11 @@ NonBase64DataUri
 send_error
 (
 url
+NetworkError
+:
+:
+Internal
+(
 "
 non
 -
@@ -950,6 +962,7 @@ uri
 .
 to_owned
 (
+)
 )
 start_chan
 )

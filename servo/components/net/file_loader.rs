@@ -91,6 +91,7 @@ net_traits
 LoadConsumer
 LoadData
 Metadata
+NetworkError
 }
 ;
 use
@@ -394,6 +395,11 @@ Done
 (
 Err
 (
+NetworkError
+:
+:
+Internal
+(
 "
 load
 cancelled
@@ -401,6 +407,7 @@ cancelled
 .
 to_owned
 (
+)
 )
 )
 )
@@ -580,6 +587,11 @@ send_error
 load_data
 .
 url
+NetworkError
+:
+:
+Internal
+(
 "
 Could
 not
@@ -589,6 +601,7 @@ path
 .
 to_owned
 (
+)
 )
 senders
 )
@@ -775,6 +788,11 @@ Done
 (
 Err
 (
+NetworkError
+:
+:
+Internal
+(
 "
 load
 cancelled
@@ -782,6 +800,7 @@ cancelled
 .
 to_owned
 (
+)
 )
 )
 )
@@ -961,7 +980,13 @@ send_error
 load_data
 .
 url
+NetworkError
+:
+:
+Internal
+(
 e
+)
 senders
 )
 ;

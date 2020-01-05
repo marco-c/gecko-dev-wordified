@@ -94,6 +94,7 @@ net_traits
 {
 LoadData
 LoadContext
+NetworkError
 }
 ;
 use
@@ -347,6 +348,11 @@ Done
 (
 Err
 (
+NetworkError
+:
+:
+Internal
+(
 "
 invalid
 data
@@ -355,6 +361,7 @@ uri
 .
 to_owned
 (
+)
 )
 )
 )
