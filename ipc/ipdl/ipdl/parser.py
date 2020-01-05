@@ -662,20 +662,9 @@ self
 debug
 )
         
-except
-ParseError
-p
+finally
 :
             
-print
->
->
-errout
-p
-            
-return
-None
-        
 Parser
 .
 current
