@@ -1853,7 +1853,13 @@ stdin
 .
 write
 (
+bytes
+(
 jsonStr
+'
+utf8
+'
+)
 )
         
 i
