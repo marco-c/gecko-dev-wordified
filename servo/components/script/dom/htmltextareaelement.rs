@@ -365,6 +365,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+InputEvent
+;
+use
+script_task
+:
+:
 {
 Runnable
 CommonScriptMsg
@@ -2837,6 +2846,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+InputEvent
 box
 dispatcher
 )

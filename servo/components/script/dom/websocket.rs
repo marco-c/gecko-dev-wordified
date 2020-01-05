@@ -331,6 +331,15 @@ use
 script_task
 :
 :
+ScriptTaskEventCategory
+:
+:
+WebSocketEvent
+;
+use
+script_task
+:
+:
 {
 Runnable
 CommonScriptMsg
@@ -1578,6 +1587,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WebSocketEvent
 task
 )
 )
@@ -1639,6 +1649,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WebSocketEvent
 open_task
 )
 )
@@ -1812,6 +1823,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WebSocketEvent
 task
 )
 )
@@ -1859,6 +1871,7 @@ CommonScriptMsg
 :
 RunnableMsg
 (
+WebSocketEvent
 message_task
 )
 )
