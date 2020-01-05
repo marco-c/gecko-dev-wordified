@@ -2268,6 +2268,9 @@ mBatching
 bool
 mAllowResolveStaleStyles
 ;
+bool
+mAuthorStyleDisabled
+;
 /
 /
 Stores
