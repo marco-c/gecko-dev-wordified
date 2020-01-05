@@ -706,6 +706,11 @@ case
 bookmark
 "
 :
+case
+"
+microsummary
+"
+:
 return
 Bookmark
 ;
@@ -2546,6 +2551,11 @@ case
 case
 "
 bookmark
+"
+:
+case
+"
+microsummary
 "
 :
 key
