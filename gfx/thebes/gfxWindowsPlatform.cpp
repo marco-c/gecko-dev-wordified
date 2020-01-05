@@ -2490,10 +2490,6 @@ UpdateANGLEConfig
 (
 )
 ;
-BumpDeviceCounter
-(
-)
-;
 return
 true
 ;

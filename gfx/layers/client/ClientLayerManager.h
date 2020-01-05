@@ -1699,12 +1699,6 @@ aCallbackData
 EndTransactionFlags
 )
 ;
-bool
-DependsOnStaleDevice
-(
-)
-const
-;
 LayerRefArray
 mKeepAlive
 ;
