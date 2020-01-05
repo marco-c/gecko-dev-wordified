@@ -5902,6 +5902,7 @@ get
 )
 ;
 }
+async
 get
 (
 )

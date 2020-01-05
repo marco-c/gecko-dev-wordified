@@ -157,6 +157,7 @@ prototype
 removed
 :
 false
+async
 removeClientData
 (
 )

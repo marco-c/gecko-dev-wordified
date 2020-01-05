@@ -613,6 +613,8 @@ syncKeyBundle
 let
 result
 =
+(
+await
 serverKeys
 .
 upload
@@ -624,6 +626,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .

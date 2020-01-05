@@ -1206,8 +1206,11 @@ length
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
+test
 (
 )
 {
@@ -1216,10 +1219,6 @@ initTestLogging
 "
 Trace
 "
-)
-;
-do_test_pending
-(
 )
 ;
 let
@@ -1438,6 +1437,7 @@ open
 let
 content
 =
+await
 proxiedRes
 .
 get
@@ -1613,6 +1613,7 @@ resource
 ;
 content
 =
+await
 res
 .
 get
@@ -1865,6 +1866,7 @@ protected
 ;
 content
 =
+await
 res2
 .
 get
@@ -1973,6 +1975,7 @@ auth
 ;
 content
 =
+await
 res3
 .
 get
@@ -2048,6 +2051,7 @@ baseURI
 ;
 content
 =
+await
 res4
 .
 get
@@ -2160,6 +2164,7 @@ upload
 ;
 content
 =
+await
 res5
 .
 put
@@ -2215,6 +2220,7 @@ object
 ;
 content
 =
+await
 res5
 .
 put
@@ -2282,6 +2288,7 @@ sample_data
 ;
 content
 =
+await
 res5
 .
 put
@@ -2343,6 +2350,7 @@ sample_data
 ;
 content
 =
+await
 res5
 .
 put
@@ -2392,6 +2400,7 @@ string
 ;
 content
 =
+await
 res5
 .
 post
@@ -2447,6 +2456,7 @@ object
 ;
 content
 =
+await
 res5
 .
 post
@@ -2514,6 +2524,7 @@ sample_data
 ;
 content
 =
+await
 res5
 .
 post
@@ -2575,6 +2586,7 @@ sample_data
 ;
 content
 =
+await
 res5
 .
 post
@@ -2636,6 +2648,7 @@ delete
 ;
 content
 =
+await
 res6
 .
 delete
@@ -2690,6 +2703,7 @@ json
 ;
 content
 =
+await
 res7
 .
 get
@@ -2798,6 +2812,7 @@ timestamp
 ;
 content
 =
+await
 res8
 .
 get
@@ -2842,6 +2857,7 @@ headers
 ;
 content
 =
+await
 res9
 .
 get
@@ -2875,6 +2891,7 @@ plain
 ;
 content
 =
+await
 res9
 .
 put
@@ -2925,6 +2942,7 @@ plain
 ;
 content
 =
+await
 res9
 .
 post
@@ -3011,6 +3029,7 @@ awesome
 ;
 content
 =
+await
 res9
 .
 get
@@ -3138,6 +3157,7 @@ world
 ;
 content
 =
+await
 res9
 .
 get
@@ -3200,6 +3220,7 @@ headers
 ;
 content
 =
+await
 res9
 .
 get
@@ -3267,6 +3288,7 @@ foobar
 ;
 content
 =
+await
 res9
 .
 put
@@ -3301,6 +3323,7 @@ foobar
 ;
 content
 =
+await
 res9
 .
 post
@@ -3396,6 +3419,7 @@ backoff
 ;
 content
 =
+await
 res10
 .
 get
@@ -3478,6 +3502,7 @@ error
 ;
 content
 =
+await
 res10
 .
 get
@@ -3526,6 +3551,7 @@ notice
 ;
 content
 =
+await
 res10
 .
 get
@@ -3591,6 +3617,7 @@ try
 {
 content
 =
+await
 res11
 .
 get
@@ -3746,6 +3773,7 @@ try
 {
 content
 =
+await
 res18
 .
 get
@@ -3783,9 +3811,9 @@ NS_ERROR_MALFORMED_URI
 do_check_eq
 (
 error
+.
+message
 "
-Error
-:
 NS_ERROR_MALFORMED_URI
 "
 )
@@ -3952,6 +3980,7 @@ try
 {
 content
 =
+await
 res18
 .
 get
@@ -3989,9 +4018,9 @@ NS_ERROR_XPC_JS_THREW_STRING
 do_check_eq
 (
 error
+.
+message
 "
-Error
-:
 NS_ERROR_XPC_JS_THREW_STRING
 "
 )
@@ -4099,6 +4128,7 @@ try
 {
 content
 =
+await
 res19
 .
 get
@@ -4268,3 +4298,5 @@ do_test_finished
 )
 ;
 }
+)
+;

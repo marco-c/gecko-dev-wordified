@@ -1903,6 +1903,8 @@ syncKeyBundle
 do_check_eq
 (
 200
+(
+await
 wbo
 .
 upload
@@ -1914,6 +1916,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .

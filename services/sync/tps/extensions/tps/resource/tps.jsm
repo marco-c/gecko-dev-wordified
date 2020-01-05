@@ -4845,11 +4845,16 @@ engine
 let
 serverRecords
 =
+Async
+.
+promiseSpinningly
+(
 validator
 .
 getServerItems
 (
 engine
+)
 )
 ;
 let

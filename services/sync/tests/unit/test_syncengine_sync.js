@@ -720,6 +720,7 @@ undefined
 let
 metaGlobal
 =
+await
 Service
 .
 recordManager

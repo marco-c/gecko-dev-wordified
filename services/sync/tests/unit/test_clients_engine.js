@@ -806,6 +806,7 @@ wbo
 payload
 ;
 }
+async
 function
 uploadNewKeys
 (
@@ -848,6 +849,8 @@ syncKeyBundle
 ;
 ok
 (
+(
+await
 serverKeys
 .
 upload
@@ -859,6 +862,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .
@@ -1062,6 +1066,8 @@ syncKeyBundle
 ;
 ok
 (
+(
+await
 serverKeys
 .
 upload
@@ -1073,6 +1079,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .
@@ -1323,6 +1330,7 @@ check_clients_count
 0
 )
 ;
+await
 uploadNewKeys
 (
 )
@@ -1362,6 +1370,7 @@ record
 is
 wrong
 .
+await
 uploadNewKeys
 (
 )
@@ -2413,6 +2422,7 @@ record
 "
 )
 ;
+await
 engine
 .
 removeClientData

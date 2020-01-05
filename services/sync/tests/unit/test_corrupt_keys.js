@@ -594,6 +594,7 @@ storageVersion
 STORAGE_VERSION
 }
 ;
+await
 m
 .
 upload
@@ -682,6 +683,8 @@ syncKeyBundle
 ;
 do_check_true
 (
+(
+await
 serverKeys
 .
 upload
@@ -693,6 +696,7 @@ resource
 Service
 .
 cryptoKeysURL
+)
 )
 )
 .
@@ -1044,6 +1048,7 @@ no
 "
 )
 ;
+await
 rec
 .
 fetch

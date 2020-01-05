@@ -559,6 +559,7 @@ hasSyncedThisSession
 false
 ;
 }
+async
 removeClientData
 (
 )
@@ -582,6 +583,7 @@ clientsEngine
 .
 localID
 ;
+await
 this
 .
 service

@@ -6067,6 +6067,7 @@ return
 inspectionInfo
 ;
 }
+async
 _getServerState
 (
 engine
@@ -6173,6 +6174,7 @@ cleartext
 let
 resp
 =
+await
 collection
 .
 getBatched
@@ -6230,6 +6232,7 @@ true
 let
 serverState
 =
+await
 this
 .
 _getServerState

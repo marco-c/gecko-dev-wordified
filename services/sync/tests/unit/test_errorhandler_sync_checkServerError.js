@@ -525,6 +525,7 @@ FakeCryptoService
 )
 ;
 }
+async
 function
 generateAndUploadKeys
 (
@@ -594,11 +595,14 @@ keys
 )
 ;
 return
+(
+await
 serverKeys
 .
 upload
 (
 res
+)
 )
 .
 success
@@ -702,6 +706,7 @@ the
 !
 do_check_true
 (
+await
 generateAndUploadKeys
 (
 server
@@ -902,6 +907,7 @@ enforceBackoff
 ;
 do_check_true
 (
+await
 generateAndUploadKeys
 (
 server
@@ -1074,6 +1080,7 @@ SYNC_SUCCEEDED
 ;
 do_check_true
 (
+await
 generateAndUploadKeys
 (
 server
@@ -1529,6 +1536,7 @@ SYNC_SUCCEEDED
 ;
 do_check_true
 (
+await
 generateAndUploadKeys
 (
 server
@@ -1675,6 +1683,7 @@ SYNC_SUCCEEDED
 ;
 do_check_true
 (
+await
 generateAndUploadKeys
 (
 server
