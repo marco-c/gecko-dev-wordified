@@ -455,6 +455,7 @@ struct
 test_struct
 {
 *
+const
 AVClass
 *
 class
@@ -714,7 +715,7 @@ test_struct
 *
 ret
 =
-av_malloc
+av_mallocz
 (
 sizeof
 (

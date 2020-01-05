@@ -4978,6 +4978,17 @@ dt
 dt2
 ;
 }
+dt
+.
+tm_isdst
+=
+is_utc
+?
+0
+:
+-
+1
+;
 t
 =
 is_utc
