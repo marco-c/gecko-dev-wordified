@@ -89,6 +89,11 @@ getCookieStoreIdForTab
 :
 true
 "
+getDevToolsTargetForContext
+"
+:
+true
+"
 makeWidgetId
 "
 :
