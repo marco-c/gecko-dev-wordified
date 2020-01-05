@@ -390,8 +390,15 @@ TcpStream
 )
 -
 >
+Result
+<
 bool
+(
+)
+>
 {
+Ok
+(
 match
 msg_type
 .
@@ -685,6 +692,7 @@ _
 >
 false
 }
+)
 }
 }
 impl

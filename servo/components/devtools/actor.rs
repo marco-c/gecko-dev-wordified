@@ -219,7 +219,12 @@ TcpStream
 )
 -
 >
+Result
+<
 bool
+(
+)
+>
 ;
 fn
 name
@@ -1383,6 +1388,15 @@ stream
 mut
 TcpStream
 )
+-
+>
+Result
+<
+(
+)
+(
+)
+>
 {
 let
 to
@@ -1489,6 +1503,9 @@ unwrap
 ;
 if
 !
+try
+!
+(
 actor
 .
 handle_message
@@ -1502,6 +1519,7 @@ to_string
 )
 msg
 stream
+)
 )
 {
 println
@@ -1587,5 +1605,10 @@ actor
 )
 ;
 }
+Ok
+(
+(
+)
+)
 }
 }
