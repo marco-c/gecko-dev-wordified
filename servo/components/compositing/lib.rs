@@ -93,14 +93,6 @@ old_io
 [
 feature
 (
-old_path
-)
-]
-#
-!
-[
-feature
-(
 rustc_private
 )
 ]
