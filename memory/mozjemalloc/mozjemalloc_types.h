@@ -441,7 +441,7 @@ Fill
 allocated
 memory
 with
-0xe4
+kAllocJunk
 ?
 *
 /
@@ -454,7 +454,7 @@ Fill
 free
 memory
 with
-0xe5
+kAllocPoison
 ?
 *
 /
