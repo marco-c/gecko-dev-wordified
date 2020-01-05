@@ -1794,14 +1794,6 @@ nsPluginTagType
 result
 )
 ;
-nsresult
-GetMode
-(
-int32_t
-*
-result
-)
-;
 /
 /
 check
