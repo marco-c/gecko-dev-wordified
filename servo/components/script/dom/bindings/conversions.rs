@@ -2165,7 +2165,7 @@ is_dom_class
 clasp
 )
 {
-debug
+trace
 !
 (
 "
@@ -2209,7 +2209,7 @@ is_dom_proxy
 obj
 )
 {
-debug
+trace
 !
 (
 "
