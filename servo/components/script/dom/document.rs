@@ -431,7 +431,6 @@ MutNullableJS
 JS
 JSRef
 Temporary
-OptionalSettable
 TemporaryPushable
 }
 ;

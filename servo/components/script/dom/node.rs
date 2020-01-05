@@ -420,7 +420,6 @@ js
 :
 :
 {
-OptionalSettable
 TemporaryPushable
 OptionalRootedRootable
 }

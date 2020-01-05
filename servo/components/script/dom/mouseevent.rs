@@ -165,7 +165,6 @@ MutNullableJS
 JSRef
 RootedReference
 Temporary
-OptionalSettable
 }
 ;
 use
