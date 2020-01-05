@@ -1856,9 +1856,8 @@ zone
 JS
 :
 :
-MarkStringAsLive
+StringReadBarrier
 (
-zone
 cache
 -
 >
