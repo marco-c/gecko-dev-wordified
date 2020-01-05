@@ -503,6 +503,9 @@ list_style_type
 :
 :
 SpecifiedValue
+:
+:
+CounterStyle
 (
 CounterStyleOrNone
 :
