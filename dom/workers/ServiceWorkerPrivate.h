@@ -585,10 +585,8 @@ aMessage
 const
 Sequence
 <
-JS
-:
-:
-Value
+JSObject
+*
 >
 &
 aTransferable
