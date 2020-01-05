@@ -959,6 +959,7 @@ GetPropIRGenerator
 gen
 (
 cx
+outerScript
 pc
 ic
 -

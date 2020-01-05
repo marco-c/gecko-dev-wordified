@@ -266,6 +266,12 @@ PerfSpewer
 \
 _
 (
+CacheIRSpewer
+500
+)
+\
+_
+(
 TraceLoggerThreadState
 500
 )
