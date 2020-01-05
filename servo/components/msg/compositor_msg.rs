@@ -109,7 +109,7 @@ platform
 surface
 :
 :
-NativeGraphicsMetadata
+NativeDisplay
 ;
 use
 layers
@@ -660,7 +660,7 @@ trait
 PaintListener
 {
 fn
-graphics_metadata
+native_display
 (
 &
 mut
@@ -670,7 +670,7 @@ self
 >
 Option
 <
-NativeGraphicsMetadata
+NativeDisplay
 >
 ;
 /

@@ -102,7 +102,7 @@ platform
 surface
 :
 :
-NativePaintingGraphicsContext
+NativeDisplay
 ;
 use
 layers
@@ -557,10 +557,10 @@ insert
 &
 mut
 self
-graphics_context
+display
 :
 &
-NativePaintingGraphicsContext
+NativeDisplay
 new_buffer
 :
 Box
@@ -660,7 +660,7 @@ new_buffer
 .
 destroy
 (
-graphics_context
+display
 )
 ;
 return
@@ -904,7 +904,7 @@ condemned_buffer
 .
 destroy
 (
-graphics_context
+display
 )
 ;
 list
@@ -1150,10 +1150,10 @@ clear
 &
 mut
 self
-graphics_context
+display
 :
 &
-NativePaintingGraphicsContext
+NativeDisplay
 )
 {
 let
@@ -1204,7 +1204,7 @@ tile
 .
 destroy
 (
-graphics_context
+display
 )
 }
 }

@@ -521,7 +521,7 @@ false
 Msg
 :
 :
-GetGraphicsMetadata
+GetNativeDisplay
 (
 chan
 )
