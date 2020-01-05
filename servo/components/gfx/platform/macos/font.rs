@@ -1598,7 +1598,10 @@ FontTableTag
 >
 Option
 <
+Box
+<
 FontTable
+>
 >
 {
 let
@@ -1628,6 +1631,7 @@ data
 {
 Some
 (
+box
 FontTable
 :
 :

@@ -450,7 +450,10 @@ FontTableTag
 >
 Option
 <
+Box
+<
 FontTable
+>
 >
 ;
 }
@@ -1247,7 +1250,10 @@ FontTableTag
 >
 Option
 <
+Box
+<
 FontTable
+>
 >
 {
 let
