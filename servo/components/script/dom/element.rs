@@ -1567,7 +1567,6 @@ ElementHelpers
 fn
 html_element_in_html_document
 (
-&
 self
 )
 -
@@ -1651,7 +1650,6 @@ Element
 fn
 html_element_in_html_document
 (
-&
 self
 )
 -
@@ -1671,7 +1669,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
