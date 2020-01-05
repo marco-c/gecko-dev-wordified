@@ -5841,7 +5841,7 @@ g_h
 /
 *
 from
-vp8_encoder
+vpx_encoder
 .
 h
 for
