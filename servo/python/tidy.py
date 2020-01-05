@@ -1574,9 +1574,6 @@ cargo
 exceptions
 =
 [
-"
-cocoa
-"
 ]
     
 import
