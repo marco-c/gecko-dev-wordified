@@ -4652,10 +4652,7 @@ stats
 gcstats
 :
 :
-PhaseKind
-:
-:
-MARK_CCWS
+PHASE_MARK_CCWS
 )
 ;
 MOZ_ASSERT

@@ -526,7 +526,7 @@ progress
 gcstats
 :
 :
-PhaseKind
+Phase
 outer
 =
 gc
@@ -536,7 +536,7 @@ stats
 (
 )
 .
-currentPhaseKind
+currentPhase
 (
 )
 ;
@@ -548,10 +548,7 @@ outer
 gcstats
 :
 :
-PhaseKind
-:
-:
-NONE
+PHASE_NONE
 )
 gc
 -
@@ -574,7 +571,7 @@ stats
 (
 )
 .
-currentPhaseKind
+currentPhase
 (
 )
 =
@@ -582,10 +579,7 @@ currentPhaseKind
 gcstats
 :
 :
-PhaseKind
-:
-:
-NONE
+PHASE_NONE
 )
 ;
 if
@@ -607,10 +601,7 @@ outer
 gcstats
 :
 :
-PhaseKind
-:
-:
-NONE
+PHASE_NONE
 )
 gc
 -
