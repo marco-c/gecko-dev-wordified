@@ -816,6 +816,12 @@ nsAString
 aContentProcessType
 )
 ;
+static
+void
+ReleaseCachedProcesses
+(
+)
+;
 /
 *
 *
