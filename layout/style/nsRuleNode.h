@@ -6383,6 +6383,16 @@ aFontSizeType
 eFontSize_HTML
 )
 ;
+static
+uint32_t
+ParseFontLanguageOverride
+(
+const
+nsAString
+&
+aLangTag
+)
+;
 /
 *
 *

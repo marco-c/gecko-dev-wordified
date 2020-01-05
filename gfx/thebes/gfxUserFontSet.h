@@ -1289,7 +1289,7 @@ override
 result
 of
 calling
-gfxFontStyle
+nsRuleNode
 :
 :
 ParseFontLanguageOverride

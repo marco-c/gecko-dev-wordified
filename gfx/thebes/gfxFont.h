@@ -480,9 +480,7 @@ bool
 aWeightSynthesis
 bool
 aStyleSynthesis
-const
-nsString
-&
+uint32_t
 aLanguageOverride
 )
 ;
@@ -1594,16 +1592,6 @@ languageOverride
 )
 ;
 }
-static
-uint32_t
-ParseFontLanguageOverride
-(
-const
-nsString
-&
-aLangTag
-)
-;
 }
 ;
 struct

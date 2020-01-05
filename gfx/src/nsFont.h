@@ -856,8 +856,10 @@ languagetags
 htm
 )
 .
-nsString
+uint32_t
 languageOverride
+=
+0
 ;
 /
 /
