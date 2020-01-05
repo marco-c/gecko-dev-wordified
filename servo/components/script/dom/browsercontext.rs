@@ -170,9 +170,7 @@ bindings
 utils
 :
 :
-{
-GetArrayIndexFromId
-}
+get_array_index_from_id
 ;
 use
 dom
@@ -786,7 +784,7 @@ Window
 let
 index
 =
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -1071,7 +1069,7 @@ JSPropertyDescriptor
 bool
 {
 if
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -1419,7 +1417,7 @@ JSVal
 bool
 {
 if
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id

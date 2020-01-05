@@ -2632,7 +2632,7 @@ is_object
 &
 &
 !
-IsPlatformObject
+is_platform_object
 (
 %
 s
@@ -5608,7 +5608,7 @@ template
             
 "
 match
-FindEnumStringIndex
+find_enum_string_index
 (
 cx
 {
@@ -14361,7 +14361,7 @@ create
 let
 obj
 =
-CreateDOMGlobal
+create_dom_global
 (
 aCx
 &
@@ -15128,7 +15128,7 @@ descriptor
         
 self
 .
-staticMethods
+static_methods
 =
 MethodDefiner
 (
@@ -15136,7 +15136,7 @@ descriptor
 "
 StaticMethods
 "
-                                           
+                                            
 static
 =
 True
@@ -15144,7 +15144,7 @@ True
         
 self
 .
-staticAttrs
+static_attrs
 =
 AttrDefiner
 (
@@ -15152,7 +15152,7 @@ descriptor
 "
 StaticAttributes
 "
-                                       
+                                        
 static
 =
 True
@@ -15213,10 +15213,10 @@ arrayNames
 return
 [
 "
-staticMethods
+static_methods
 "
 "
-staticAttrs
+static_attrs
 "
 "
 methods
@@ -15816,7 +15816,7 @@ else
 constructHook
 =
 "
-ThrowingConstructor
+throwing_constructor
 "
                 
 constructArgs
@@ -15875,21 +15875,21 @@ call
 "
 \
 return
-CreateInterfaceObjects2
+do_create_interface_objects
 (
 aCx
 aGlobal
 aReceiver
 parentProto
-                               
+                                   
 &
 PrototypeClass
 %
 s
-                               
+                                   
 %
 s
-                               
+                                   
 &
 sNativeProperties
 )
@@ -16172,7 +16172,7 @@ installed
 let
 protoOrIfaceArray
 =
-GetProtoOrIfaceArray
+get_proto_or_iface_array
 (
 aGlobal
 )
@@ -29411,7 +29411,7 @@ setOrIndexedGet
 let
 index
 =
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -30040,7 +30040,7 @@ id
 &
 &
 !
-HasPropertyOnPrototype
+has_property_on_prototype
 (
 cx
 proxy
@@ -30487,7 +30487,7 @@ set
 let
 index
 =
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -30622,7 +30622,7 @@ set
 (
 "
 if
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -31424,7 +31424,7 @@ indexed
 let
 index
 =
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -31598,7 +31598,7 @@ id
 &
 &
 !
-HasPropertyOnPrototype
+has_property_on_prototype
 (
 cx
 proxy
@@ -32075,7 +32075,7 @@ getIndexedOrExpando
 let
 index
 =
-GetArrayIndexFromId
+get_array_index_from_id
 (
 cx
 id
@@ -32424,7 +32424,7 @@ false
 ;
 if
 !
-GetPropertyOnPrototype
+get_property_on_prototype
 (
 cx
 proxy
@@ -37746,8 +37746,8 @@ utils
 :
 :
 {
-CreateDOMGlobal
-CreateInterfaceObjects2
+create_dom_global
+do_create_interface_objects
 }
 '
             
@@ -37806,8 +37806,8 @@ utils
 :
 :
 {
-FindEnumStringIndex
-GetArrayIndexFromId
+find_enum_string_index
+get_array_index_from_id
 }
 '
             
@@ -37822,8 +37822,8 @@ utils
 :
 :
 {
-GetPropertyOnPrototype
-GetProtoOrIfaceArray
+get_property_on_prototype
+get_proto_or_iface_array
 }
 '
             
@@ -37837,7 +37837,7 @@ bindings
 utils
 :
 :
-HasPropertyOnPrototype
+has_property_on_prototype
 '
             
 '
@@ -37850,7 +37850,7 @@ bindings
 utils
 :
 :
-IsPlatformObject
+is_platform_object
 '
             
 '
@@ -37893,9 +37893,7 @@ bindings
 utils
 :
 :
-{
-ThrowingConstructor
-}
+throwing_constructor
 '
             
 '
