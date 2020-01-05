@@ -179,6 +179,8 @@ style
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -263,6 +265,8 @@ run
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub

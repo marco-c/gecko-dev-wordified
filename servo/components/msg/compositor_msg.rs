@@ -426,6 +426,8 @@ Clone
 PartialEq
 Eq
 Copy
+Deserialize
+Serialize
 )
 ]
 pub

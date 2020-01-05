@@ -123,6 +123,14 @@ and
 azure
 directly
 .
+#
+[
+derive
+(
+Deserialize
+Serialize
+)
+]
 pub
 struct
 FontTemplateData

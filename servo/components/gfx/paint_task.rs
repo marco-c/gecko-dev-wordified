@@ -401,6 +401,8 @@ task
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2428,10 +2430,10 @@ as
 the
 info
 we
+/
+/
 give
 to
-/
-/
 the
 compositor
 is
@@ -2662,7 +2664,6 @@ transform
 perspective
 next_parent_id
 )
-;
 }
 }
 }

@@ -427,6 +427,7 @@ None
 }
 ;
 match
+*
 template
 .
 ctfont
