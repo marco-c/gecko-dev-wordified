@@ -258,12 +258,16 @@ ignored_files
 Upstream
     
 "
+.
+/
 support
 /
 *
 "
     
 "
+.
+/
 tests
 /
 wpt
@@ -272,6 +276,8 @@ wpt
 "
     
 "
+.
+/
 python
 /
 mach
@@ -280,6 +286,8 @@ mach
 "
     
 "
+.
+/
 python
 /
 mozdebug
@@ -288,6 +296,8 @@ mozdebug
 "
     
 "
+.
+/
 python
 /
 mozinfo
@@ -296,6 +306,8 @@ mozinfo
 "
     
 "
+.
+/
 python
 /
 mozlog
@@ -304,6 +316,8 @@ mozlog
 "
     
 "
+.
+/
 python
 /
 toml
@@ -312,6 +326,8 @@ toml
 "
     
 "
+.
+/
 components
 /
 script
@@ -328,6 +344,8 @@ parser
 "
     
 "
+.
+/
 components
 /
 script
@@ -358,12 +376,16 @@ use
 cleanup
     
 "
+.
+/
 target
 /
 *
 "
     
 "
+.
+/
 ports
 /
 gonk
@@ -376,6 +398,8 @@ cpp
 "
     
 "
+.
+/
 ports
 /
 cef
@@ -388,6 +412,8 @@ MIT
 license
     
 "
+.
+/
 components
 /
 util
@@ -406,6 +432,8 @@ files
 directories
     
 "
+.
+/
 .
 *
 "
@@ -3412,13 +3440,33 @@ python_dependencies
     
 all_files
 =
+(
 os
 .
-listdir
+path
+.
+join
+(
+r
+f
+)
+for
+r
+_
+files
+in
+os
+.
+walk
 (
 "
 .
 "
+)
+for
+f
+in
+files
 )
     
 files_to_check
@@ -3452,26 +3500,32 @@ checking_functions
     
 reftest_files
 =
-[
+(
 os
 .
 path
 .
 join
 (
-reftest_dir
-file
+r
+f
 )
 for
-file
+r
+_
+files
 in
 os
 .
-listdir
+walk
 (
 reftest_dir
 )
-]
+for
+f
+in
+files
+)
     
 reftest_to_check
 =
