@@ -443,9 +443,6 @@ WR_INLINE
 void
 wr_pop_dl_builder
 (
-wrwindowstate
-*
-wrWindow
 wrstate
 *
 wrState
