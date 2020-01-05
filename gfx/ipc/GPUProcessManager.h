@@ -1257,6 +1257,11 @@ EnsureVRManager
 (
 )
 ;
+void
+EnsureUiCompositorController
+(
+)
+;
 RefPtr
 <
 CompositorSession
