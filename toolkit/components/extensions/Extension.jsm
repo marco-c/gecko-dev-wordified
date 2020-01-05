@@ -2684,7 +2684,6 @@ be
 added
 here
 .
-get
 userPermissions
 (
 )
@@ -2693,7 +2692,7 @@ let
 result
 =
 {
-origins
+hosts
 :
 this
 .
@@ -2740,7 +2739,7 @@ content_scripts
 {
 result
 .
-origins
+hosts
 .
 push
 (
@@ -2788,7 +2787,7 @@ p
 !
 result
 .
-origins
+hosts
 .
 includes
 (
@@ -2911,11 +2910,11 @@ prompt
 .
 return
 {
-origins
+hosts
 :
 newPermissions
 .
-origins
+hosts
 .
 filter
 (
@@ -2925,7 +2924,7 @@ perm
 !
 oldPermissions
 .
-origins
+hosts
 .
 includes
 (

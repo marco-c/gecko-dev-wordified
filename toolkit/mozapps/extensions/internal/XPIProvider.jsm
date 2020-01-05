@@ -7112,6 +7112,8 @@ userPermissions
 extension
 .
 userPermissions
+(
+)
 ;
 addon
 .
