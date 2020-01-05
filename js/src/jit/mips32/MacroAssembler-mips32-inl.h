@@ -7131,7 +7131,7 @@ Replace
 with
 new
 value
-Assembler
+AssemblerMIPSShared
 :
 :
 UpdateLuiOriValue
