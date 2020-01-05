@@ -3932,7 +3932,7 @@ denied
 for
 (
 let
-url
+urlString
 of
 [
 "
@@ -3973,7 +3973,7 @@ format
 {
 strictRelativeUrl
 :
-url
+urlString
 }
 )
 /
@@ -5318,7 +5318,7 @@ toStringTag
 )
 {
 let
-target
+stringTarget
 =
 {
 prop1
@@ -5336,7 +5336,7 @@ value3
 ]
 }
 ;
-target
+stringTarget
 [
 Symbol
 .
@@ -5355,12 +5355,12 @@ Object
 "
 ;
 let
-proxy
+stringProxy
 =
 new
 Proxy
 (
-target
+stringTarget
 {
 }
 )
@@ -5379,7 +5379,7 @@ testing
 .
 quack
 (
-proxy
+stringProxy
 )
 /
 Expected
