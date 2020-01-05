@@ -360,6 +360,16 @@ nsIIOService2
 checkService
 (
 "
+intl
+"
+Ci
+.
+mozIMozIntl
+)
+;
+checkService
+(
+"
 locale
 "
 Ci
