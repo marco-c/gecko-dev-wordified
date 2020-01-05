@@ -1672,9 +1672,6 @@ BuildSourcePaint
 SourceInfo
 *
 aPrimitive
-DrawTarget
-*
-aTargetDT
 )
 ;
 /
@@ -1715,9 +1712,6 @@ respectively
 DrawResult
 BuildSourcePaints
 (
-DrawTarget
-*
-aTargetDT
 )
 ;
 /
@@ -1749,9 +1743,6 @@ mSourceSurface
 DrawResult
 BuildSourceImage
 (
-DrawTarget
-*
-aTargetDT
 )
 ;
 /
