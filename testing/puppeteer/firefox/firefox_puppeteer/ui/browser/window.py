@@ -1981,7 +1981,7 @@ platformName
 =
 =
 '
-WINDOWS_NT
+windows_nt
 '
 :
                     
