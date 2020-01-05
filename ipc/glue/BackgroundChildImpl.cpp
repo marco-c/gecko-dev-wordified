@@ -458,6 +458,7 @@ protected
 TestChild
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -467,7 +468,6 @@ TestChild
 }
 public
 :
-virtual
 mozilla
 :
 :

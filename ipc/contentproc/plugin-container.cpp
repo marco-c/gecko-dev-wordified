@@ -325,7 +325,6 @@ SandboxStarter
 {
 public
 :
-virtual
 bool
 Start
 (
@@ -391,7 +390,6 @@ return
 rv
 ;
 }
-virtual
 void
 SetSandboxInfo
 (
