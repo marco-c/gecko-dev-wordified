@@ -175,11 +175,6 @@ bool
 aSuccess
 )
 {
-*
-aSuccess
-=
-false
-;
 nsresult
 rv
 =
@@ -344,11 +339,6 @@ classification
 actually
 happens
 .
-*
-aSuccess
-=
-false
-;
 ClassificationFailed
 (
 )

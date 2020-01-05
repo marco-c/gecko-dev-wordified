@@ -26515,11 +26515,6 @@ MOZ_ASSERT
 aActor
 )
 ;
-*
-aSuccess
-=
-false
-;
 auto
 *
 actor
