@@ -60,7 +60,7 @@ MPL
 /
 !
 The
-task
+thread
 that
 handles
 all
@@ -143,10 +143,10 @@ size
 Size2D
 ;
 use
-font_cache_task
+font_cache_thread
 :
 :
-FontCacheTask
+FontCacheThread
 ;
 use
 font_context
@@ -359,13 +359,13 @@ use
 util
 :
 :
-task
+thread
 ;
 use
 util
 :
 :
-task_state
+thread_state
 ;
 #
 [
@@ -411,7 +411,7 @@ sends
 to
 the
 painting
-task
+thread
 .
 #
 [
@@ -1382,7 +1382,7 @@ Exit
 }
 pub
 struct
-PaintTask
+PaintThread
 <
 C
 >
@@ -1474,7 +1474,7 @@ passed
 by
 the
 layout
-task
+thread
 current_epoch
 :
 Option
@@ -1540,7 +1540,7 @@ borrowing
 /
 the
 whole
-PaintTask
+PaintThread
 struct
 .
 macro_rules
@@ -1548,14 +1548,14 @@ macro_rules
 native_display
 (
 (
-task
+thread
 :
 expr
 )
 =
 >
 (
-task
+thread
 .
 native_display
 .
@@ -1582,7 +1582,7 @@ impl
 <
 C
 >
-PaintTask
+PaintThread
 <
 C
 >
@@ -1633,9 +1633,9 @@ ConstellationChan
 <
 ConstellationMsg
 >
-font_cache_task
+font_cache_thread
 :
-FontCacheTask
+FontCacheThread
 failure_msg
 :
 Failure
@@ -1672,7 +1672,7 @@ clone
 (
 )
 ;
-task
+thread
 :
 :
 spawn_named_with_send_on_failure
@@ -1681,7 +1681,7 @@ format
 !
 (
 "
-PaintTask
+PaintThread
 {
 :
 ?
@@ -1689,7 +1689,7 @@ PaintTask
 "
 id
 )
-task_state
+thread_state
 :
 :
 PAINT
@@ -1704,7 +1704,7 @@ Ensures
 that
 the
 paint
-task
+thread
 and
 graphics
 context
@@ -1753,7 +1753,7 @@ native_display
 clone
 (
 )
-font_cache_task
+font_cache_thread
 time_profiler_chan
 .
 clone
@@ -1763,9 +1763,9 @@ clone
 ;
 let
 mut
-paint_task
+paint_thread
 =
-PaintTask
+PaintThread
 {
 id
 :
@@ -1831,7 +1831,7 @@ run_with_memory_reporting
 |
 |
 {
-paint_task
+paint_thread
 .
 start
 (
@@ -1862,7 +1862,7 @@ worker_thread
 in
 &
 mut
-paint_task
+paint_thread
 .
 worker_threads
 {
@@ -1877,7 +1877,7 @@ debug
 !
 (
 "
-paint_task
+paint_thread
 :
 shutdown_chan
 send
@@ -1920,7 +1920,7 @@ debug
 !
 (
 "
-PaintTask
+PaintThread
 :
 beginning
 painting
@@ -2266,7 +2266,7 @@ debug
 !
 (
 "
-PaintTask
+PaintThread
 :
 Ignoring
 requests
@@ -2306,7 +2306,7 @@ debug
 !
 (
 "
-PaintTask
+PaintThread
 :
 returning
 surfaces
@@ -2420,7 +2420,7 @@ eventually
 measure
 the
 paint
-task
+thread
 .
 channel
 .
@@ -2466,7 +2466,7 @@ holding
 for
 this
 paint
-task
+thread
 .
 /
 /
@@ -2489,7 +2489,7 @@ self
 .
 compositor
 .
-notify_paint_task_exiting
+notify_paint_thread_exiting
 (
 self
 .
@@ -2500,7 +2500,7 @@ debug
 !
 (
 "
-PaintTask
+PaintThread
 :
 Exiting
 .
@@ -2549,7 +2549,7 @@ holding
 for
 this
 paint
-task
+thread
 .
 /
 /
@@ -2572,7 +2572,7 @@ self
 .
 compositor
 .
-notify_paint_task_exiting
+notify_paint_thread_exiting
 (
 self
 .
@@ -2583,7 +2583,7 @@ debug
 !
 (
 "
-PaintTask
+PaintThread
 :
 Exiting
 .
@@ -3423,9 +3423,9 @@ Option
 <
 NativeDisplay
 >
-font_cache_task
+font_cache_thread
 :
-FontCacheTask
+FontCacheThread
 time_profiler_chan
 :
 time
@@ -3501,9 +3501,9 @@ channel
 )
 ;
 let
-font_cache_task
+font_cache_thread
 =
-font_cache_task
+font_cache_thread
 .
 clone
 (
@@ -3518,7 +3518,7 @@ clone
 (
 )
 ;
-task
+thread
 :
 :
 spawn_named
@@ -3546,7 +3546,7 @@ new
 from_worker_sender
 to_worker_receiver
 native_display
-font_cache_task
+font_cache_thread
 time_profiler_chan
 )
 ;
@@ -3863,9 +3863,9 @@ Option
 <
 NativeDisplay
 >
-font_cache_task
+font_cache_thread
 :
-FontCacheTask
+FontCacheThread
 time_profiler_sender
 :
 time
@@ -3904,7 +3904,7 @@ FontContext
 :
 new
 (
-font_cache_task
+font_cache_thread
 .
 clone
 (
@@ -4822,7 +4822,7 @@ transit
 to
 the
 compositor
-task
+thread
 .
 let
 width

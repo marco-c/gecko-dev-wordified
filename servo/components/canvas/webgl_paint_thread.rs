@@ -190,7 +190,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -206,7 +206,7 @@ byte_swap
 ;
 pub
 struct
-WebGLPaintTask
+WebGLPaintThread
 {
 size
 :
@@ -228,7 +228,7 @@ NativeGLContext
 >
 }
 impl
-WebGLPaintTask
+WebGLPaintThread
 {
 fn
 new
@@ -247,7 +247,7 @@ GLContextAttributes
 >
 Result
 <
-WebGLPaintTask
+WebGLPaintThread
 &
 '
 static
@@ -341,7 +341,7 @@ size
 ;
 Ok
 (
-WebGLPaintTask
+WebGLPaintThread
 {
 size
 :
@@ -1695,7 +1695,7 @@ NO_ERROR
 Creates
 a
 new
-WebGLPaintTask
+WebGLPaintThread
 and
 returns
 the
@@ -1808,7 +1808,7 @@ clone
 spawn_named
 (
 "
-WebGLTask
+WebGLThread
 "
 .
 to_owned
@@ -1823,7 +1823,7 @@ mut
 painter
 =
 match
-WebGLPaintTask
+WebGLPaintThread
 :
 :
 new
@@ -1834,7 +1834,7 @@ attrs
 {
 Ok
 (
-task
+thread
 )
 =
 >
@@ -1854,7 +1854,7 @@ unwrap
 (
 )
 ;
-task
+thread
 }
 Err
 (
@@ -2043,7 +2043,7 @@ Wrong
 message
 sent
 to
-WebGLTask
+WebGLThread
 "
 )
 }
@@ -2415,7 +2415,7 @@ texture
 gl
 :
 :
-gen_textures
+gen_framebuffers
 (
 1
 )

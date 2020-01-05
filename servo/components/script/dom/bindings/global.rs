@@ -242,7 +242,7 @@ use
 net_traits
 :
 :
-ResourceTask
+ResourceThread
 ;
 use
 profile_traits
@@ -251,14 +251,14 @@ profile_traits
 mem
 ;
 use
-script_task
+script_thread
 :
 :
 {
 CommonScriptMsg
 ScriptChan
 ScriptPort
-ScriptTask
+ScriptThread
 }
 ;
 use
@@ -586,7 +586,7 @@ Extract
 a
 Window
 causing
-task
+thread
 failure
 if
 the
@@ -722,7 +722,7 @@ to
 the
 memory
 profiler
-task
+thread
 .
 pub
 fn
@@ -913,7 +913,7 @@ Devtools
 /
 /
 /
-task
+thread
 when
 available
 .
@@ -973,7 +973,7 @@ devtools_chan
 /
 Get
 the
-ResourceTask
+ResourceThread
 for
 this
 global
@@ -981,14 +981,14 @@ scope
 .
 pub
 fn
-resource_task
+resource_thread
 (
 &
 self
 )
 -
 >
-ResourceTask
+ResourceThread
 {
 match
 *
@@ -1036,7 +1036,7 @@ loader
 *
 loader
 .
-resource_task
+resource_thread
 )
 .
 clone
@@ -1055,7 +1055,7 @@ worker
 >
 worker
 .
-resource_task
+resource_thread
 (
 )
 .
@@ -1263,7 +1263,7 @@ thread
 .
 pub
 fn
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 &
 self
@@ -1293,7 +1293,7 @@ window
 >
 window
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 GlobalRef
@@ -1337,7 +1337,7 @@ thread
 .
 pub
 fn
-user_interaction_task_source
+user_interaction_thread_source
 (
 &
 self
@@ -1367,7 +1367,7 @@ window
 >
 window
 .
-user_interaction_task_source
+user_interaction_thread_source
 (
 )
 GlobalRef
@@ -1411,7 +1411,7 @@ thread
 .
 pub
 fn
-networking_task_source
+networking_thread_source
 (
 &
 self
@@ -1441,7 +1441,7 @@ window
 >
 window
 .
-networking_task_source
+networking_thread_source
 (
 )
 GlobalRef
@@ -1485,7 +1485,7 @@ thread
 .
 pub
 fn
-history_traversal_task_source
+history_traversal_thread_source
 (
 &
 self
@@ -1515,7 +1515,7 @@ window
 >
 window
 .
-history_traversal_task_source
+history_traversal_thread_source
 (
 )
 GlobalRef
@@ -1559,7 +1559,7 @@ thread
 .
 pub
 fn
-file_reading_task_source
+file_reading_thread_source
 (
 &
 self
@@ -1589,7 +1589,7 @@ window
 >
 window
 .
-file_reading_task_source
+file_reading_thread_source
 (
 )
 GlobalRef
@@ -1730,7 +1730,7 @@ next
 event
 in
 the
-task
+thread
 queue
 for
 /
@@ -1763,7 +1763,7 @@ _
 )
 =
 >
-ScriptTask
+ScriptThread
 :
 :
 process_event

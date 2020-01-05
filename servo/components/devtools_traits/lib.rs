@@ -358,7 +358,7 @@ DevtoolsControlMsg
 /
 Messages
 from
-tasks
+threads
 in
 the
 chrome
@@ -380,7 +380,7 @@ ChromeToDevtoolsControlMsg
 Messages
 from
 script
-tasks
+threads
 FromScript
 (
 ScriptToDevtoolsControlMsg
@@ -564,7 +564,7 @@ processed
 in
 a
 script
-task
+thread
 .
 /
 /
@@ -869,7 +869,7 @@ in
 a
 particular
 script
-task
+thread
 as
 instructed
 by

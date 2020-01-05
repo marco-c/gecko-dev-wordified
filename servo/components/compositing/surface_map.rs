@@ -142,7 +142,7 @@ use
 /
 The
 paint
-task
+thread
 can
 quickly
 query

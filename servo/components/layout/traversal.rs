@@ -178,7 +178,7 @@ traversal
 :
 :
 {
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 recalc_style_at
 }
 ;
@@ -709,7 +709,7 @@ of
 the
 /
 /
-LayoutTask
+LayoutThread
 generally
 much
 longer
@@ -1225,7 +1225,7 @@ reflow
 root
 eat
 the
-task
+thread
 -
 local
 bloom
@@ -1269,7 +1269,7 @@ to_unsafe
 (
 )
 ;
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 &

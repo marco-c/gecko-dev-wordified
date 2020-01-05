@@ -76,7 +76,7 @@ test
 )
 ]
 mod
-font_cache_task
+font_cache_thread
 ;
 #
 [

@@ -412,16 +412,16 @@ ref_slice
 ref_slice
 ;
 use
-script_task
+script_thread
 :
 :
-ScriptTaskEventCategory
+ScriptThreadEventCategory
 :
 :
 WebSocketEvent
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -1053,7 +1053,7 @@ there
 is
 a
 running
-task
+thread
 to
 clear
 buffered_amount
@@ -1441,7 +1441,7 @@ again
 in
 the
 resource
-task
+thread
 /
 /
 we
@@ -1810,7 +1810,7 @@ r
 )
 global
 .
-networking_task_source
+networking_thread_source
 (
 )
 )
@@ -1894,7 +1894,7 @@ communication
 with
 the
 resource
-task
+thread
 let
 (
 dom_action_sender
@@ -1965,18 +1965,18 @@ resource_action_receiver
 }
 ;
 let
-resource_task
+resource_thread
 =
 global
 .
-resource_task
+resource_thread
 (
 )
 ;
 let
 _
 =
-resource_task
+resource_thread
 .
 send
 (
@@ -2015,7 +2015,7 @@ sender
 =
 global
 .
-networking_task_source
+networking_thread_source
 (
 )
 ;
@@ -2056,7 +2056,7 @@ protocols
 >
 {
 let
-open_task
+open_thread
 =
 box
 ConnectionEstablishedTask
@@ -2086,7 +2086,7 @@ CommonScriptMsg
 RunnableMsg
 (
 WebSocketEvent
-open_task
+open_thread
 )
 )
 .
@@ -2106,7 +2106,7 @@ message
 >
 {
 let
-message_task
+message_thread
 =
 box
 MessageReceivedTask
@@ -2133,7 +2133,7 @@ CommonScriptMsg
 RunnableMsg
 (
 WebSocketEvent
-message_task
+message_thread
 )
 )
 .
@@ -2150,7 +2150,7 @@ Close
 >
 {
 let
-task
+thread
 =
 box
 CloseTask
@@ -2174,7 +2174,7 @@ CommonScriptMsg
 RunnableMsg
 (
 WebSocketEvent
-task
+thread
 )
 )
 .
@@ -2306,7 +2306,7 @@ r
 (
 )
 .
-networking_task_source
+networking_thread_source
 (
 )
 ;
@@ -3752,7 +3752,7 @@ Closing
 )
 ;
 let
-task
+thread
 =
 box
 CloseTask
@@ -3773,7 +3773,7 @@ r
 (
 )
 .
-networking_task_source
+networking_thread_source
 (
 )
 ;
@@ -3787,7 +3787,7 @@ CommonScriptMsg
 RunnableMsg
 (
 WebSocketEvent
-task
+thread
 )
 )
 .

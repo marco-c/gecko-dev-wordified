@@ -254,7 +254,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -273,7 +273,7 @@ impl
 '
 a
 >
-CanvasPaintTask
+CanvasPaintThread
 <
 '
 a
@@ -582,7 +582,7 @@ image_data
 }
 pub
 struct
-CanvasPaintTask
+CanvasPaintThread
 <
 '
 a
@@ -853,7 +853,7 @@ impl
 '
 a
 >
-CanvasPaintTask
+CanvasPaintThread
 <
 '
 a
@@ -871,7 +871,7 @@ i32
 )
 -
 >
-CanvasPaintTask
+CanvasPaintThread
 <
 '
 a
@@ -880,7 +880,7 @@ a
 let
 draw_target
 =
-CanvasPaintTask
+CanvasPaintThread
 :
 :
 create
@@ -897,7 +897,7 @@ create_path_builder
 (
 )
 ;
-CanvasPaintTask
+CanvasPaintThread
 {
 drawtarget
 :
@@ -929,7 +929,7 @@ new
 Creates
 a
 new
-CanvasPaintTask
+CanvasPaintThread
 and
 returns
 the
@@ -1053,7 +1053,7 @@ clone
 spawn_named
 (
 "
-CanvasTask
+CanvasThread
 "
 .
 to_owned
@@ -1067,7 +1067,7 @@ let
 mut
 painter
 =
-CanvasPaintTask
+CanvasPaintThread
 :
 :
 new
@@ -1806,7 +1806,7 @@ message
 sent
 to
 Canvas2D
-task
+thread
 "
 )
 }
@@ -4354,7 +4354,7 @@ self
 .
 drawtarget
 =
-CanvasPaintTask
+CanvasPaintThread
 :
 :
 create

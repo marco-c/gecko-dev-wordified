@@ -100,7 +100,7 @@ Metadata
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 {
@@ -174,7 +174,7 @@ t
 spawn
 a
 new
-task
+thread
 .
 /
 /
@@ -216,7 +216,7 @@ easy
 moving
 to
 a
-task
+thread
 if
 desired
 .

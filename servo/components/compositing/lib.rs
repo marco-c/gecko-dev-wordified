@@ -284,13 +284,13 @@ util
 ;
 pub
 use
-compositor_task
+compositor_thread
 :
 :
 {
 CompositorEventListener
 CompositorProxy
-CompositorTask
+CompositorThread
 }
 ;
 pub
@@ -394,7 +394,7 @@ compositor_layer
 ;
 pub
 mod
-compositor_task
+compositor_thread
 ;
 pub
 mod

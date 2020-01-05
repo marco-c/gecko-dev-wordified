@@ -76,7 +76,7 @@ platform
 /
 .
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -367,7 +367,7 @@ like
 /
 CompositorMessageWindowEvent
 (
-compositor_task
+compositor_thread
 :
 :
 Msg

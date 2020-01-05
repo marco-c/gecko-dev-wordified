@@ -527,7 +527,7 @@ use
 layout_debug
 ;
 use
-layout_task
+layout_thread
 :
 :
 DISPLAY_PORT_SIZE_FACTOR

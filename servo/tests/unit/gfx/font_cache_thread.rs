@@ -60,10 +60,10 @@ use
 gfx
 :
 :
-font_cache_task
+font_cache_thread
 :
 :
-FontCacheTask
+FontCacheThread
 ;
 use
 ipc_channel
@@ -136,9 +136,9 @@ unwrap
 )
 ;
 let
-font_cache_task
+font_cache_thread
 =
-FontCacheTask
+FontCacheThread
 :
 :
 new
@@ -187,7 +187,7 @@ face
 )
 )
 ;
-font_cache_task
+font_cache_thread
 .
 add_web_font
 (

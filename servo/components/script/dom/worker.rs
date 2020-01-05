@@ -324,7 +324,7 @@ jsval
 UndefinedValue
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -613,11 +613,11 @@ Syntax
 }
 ;
 let
-resource_task
+resource_thread
 =
 global
 .
-resource_task
+resource_thread
 (
 )
 ;
@@ -680,7 +680,7 @@ r
 )
 global
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 )
@@ -815,9 +815,9 @@ init
 =
 WorkerGlobalScopeInit
 {
-resource_task
+resource_thread
 :
-resource_task
+resource_thread
 mem_profiler_chan
 :
 global
@@ -862,7 +862,7 @@ devtools_receiver
 worker_ref
 global
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 sender
@@ -1290,7 +1290,7 @@ r
 (
 )
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 )

@@ -214,7 +214,7 @@ AnimationState
 /
 /
 Layout
-task
+thread
 failure
 .
 Failure
@@ -348,7 +348,7 @@ the
 GPU
 .
 )
-CreateCanvasPaintTask
+CreateCanvasPaintThread
 (
 Size2D
 <
@@ -408,7 +408,7 @@ the
 GPU
 .
 )
-CreateWebGLPaintTask
+CreateWebGLPaintThread
 (
 Size2D
 <
@@ -476,7 +476,7 @@ PipelineId
 /
 /
 Script
-task
+thread
 failure
 .
 Failure

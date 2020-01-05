@@ -425,16 +425,16 @@ PreInvoke
 }
 ;
 use
-script_task
+script_thread
 :
 :
-ScriptTaskEventCategory
+ScriptThreadEventCategory
 :
 :
 ScriptEvent
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -2182,7 +2182,7 @@ script_chan
 =
 window
 .
-networking_task_source
+networking_thread_source
 (
 )
 ;
@@ -3315,7 +3315,7 @@ chan
 =
 window
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 ;
@@ -3399,7 +3399,7 @@ chan
 =
 window
 .
-dom_manipulation_task_source
+dom_manipulation_thread_source
 (
 )
 ;

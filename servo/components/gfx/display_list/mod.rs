@@ -339,7 +339,7 @@ paint_context
 PaintContext
 ;
 use
-paint_task
+paint_thread
 :
 :
 {
@@ -7948,7 +7948,7 @@ useful
 for
 performing
 auxiliary
-tasks
+threads
 with
 /
 /

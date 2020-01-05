@@ -525,7 +525,7 @@ each
 layout
 /
 paint
-task
+thread
 .
 GetImageIfAvailable
 (
@@ -556,7 +556,7 @@ before
 shutting
 down
 the
-ResourceTask
+ResourceThread
 Exit
 (
 IpcSender
@@ -594,7 +594,7 @@ of
 the
 image
 cache
-task
+thread
 .
 This
 can
@@ -608,7 +608,7 @@ and
 passed
 to
 different
-tasks
+threads
 .
 #
 [
@@ -621,7 +621,7 @@ Serialize
 ]
 pub
 struct
-ImageCacheTask
+ImageCacheThread
 {
 chan
 :
@@ -640,10 +640,10 @@ for
 the
 image
 cache
-task
+thread
 .
 impl
-ImageCacheTask
+ImageCacheThread
 {
 /
 /
@@ -666,9 +666,9 @@ ImageCacheCommand
 )
 -
 >
-ImageCacheTask
+ImageCacheThread
 {
-ImageCacheTask
+ImageCacheThread
 {
 chan
 :
@@ -837,7 +837,7 @@ Shutdown
 the
 image
 cache
-task
+thread
 .
 pub
 fn

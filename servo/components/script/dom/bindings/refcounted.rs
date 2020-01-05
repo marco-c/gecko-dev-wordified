@@ -76,12 +76,12 @@ transferred
 /
 !
 between
-tasks
+threads
 (
 or
 intra
 -
-task
+thread
 for
 asynchronous
 events
@@ -118,7 +118,7 @@ occurs
 on
 the
 script
-task
+thread
 via
 /
 /
@@ -209,7 +209,7 @@ obtained
 on
 the
 script
-task
+thread
 /
 /
 !
@@ -250,7 +250,7 @@ resides
 in
 the
 script
-task
+thread
 keyed
 on
 the
@@ -320,7 +320,7 @@ dispatched
 to
 the
 script
-task
+thread
 to
 remove
 /
@@ -430,7 +430,7 @@ use
 libc
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -646,7 +646,7 @@ be
 /
 shared
 among
-tasks
+threads
 for
 use
 in
@@ -720,7 +720,7 @@ Trusted
 T
 >
 between
-tasks
+threads
 regardless
 of
 T
@@ -1264,7 +1264,7 @@ fail
 if
 the
 script
-task
+thread
 /
 /
 has
@@ -1387,7 +1387,7 @@ LiveDOMReferences
 Set
 up
 the
-task
+thread
 -
 local
 data

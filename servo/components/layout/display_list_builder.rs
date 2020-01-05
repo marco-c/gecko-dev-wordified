@@ -322,7 +322,7 @@ use
 gfx
 :
 :
-paint_task
+paint_thread
 :
 :
 THREAD_TINT_COLORS
@@ -405,7 +405,7 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
 UsePlaceholder
@@ -8172,7 +8172,7 @@ renderer
 to
 the
 paint
-task
+thread
 .
 layout_context
 .

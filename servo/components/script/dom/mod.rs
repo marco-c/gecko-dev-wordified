@@ -474,7 +474,7 @@ rooting
 pointers
 from
 across
-task
+thread
 boundaries
 or
 in
@@ -2363,7 +2363,7 @@ runs
 while
 the
 layout
-task
+thread
 is
 accessing
 the

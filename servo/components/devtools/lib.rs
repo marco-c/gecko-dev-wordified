@@ -524,7 +524,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -3187,7 +3187,7 @@ them
 spawning
 a
 new
-task
+thread
 for
 each
 one

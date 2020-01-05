@@ -415,7 +415,7 @@ event
 into
 the
 paint
-task
+thread
 '
 s
 queue

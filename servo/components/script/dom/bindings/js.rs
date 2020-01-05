@@ -424,7 +424,7 @@ layout_interface
 TrustedNodeAddress
 ;
 use
-script_task
+script_thread
 :
 :
 STACK_ROOTS
@@ -493,7 +493,7 @@ use
 util
 :
 :
-task_state
+thread_state
 ;
 /
 /
@@ -703,7 +703,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -803,7 +803,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -873,7 +873,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -936,7 +936,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1143,7 +1143,7 @@ U
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1213,7 +1213,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1299,7 +1299,7 @@ JSObject
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1558,7 +1558,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1615,7 +1615,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1690,7 +1690,7 @@ Node
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1885,7 +1885,7 @@ MutHeapJSVal
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -1948,7 +1948,7 @@ JSVal
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2014,7 +2014,7 @@ JSVal
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2182,7 +2182,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2239,7 +2239,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2299,7 +2299,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2638,7 +2638,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2735,7 +2735,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2852,7 +2852,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -2928,7 +2928,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3002,7 +3002,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3200,7 +3200,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3340,7 +3340,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3782,7 +3782,7 @@ RootCollection
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3835,7 +3835,7 @@ Reflector
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -3930,7 +3930,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -4462,7 +4462,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -4654,7 +4654,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get

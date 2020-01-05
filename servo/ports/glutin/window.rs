@@ -72,7 +72,7 @@ use
 compositing
 :
 :
-compositor_task
+compositor_thread
 :
 :
 {
@@ -2578,7 +2578,7 @@ results
 in
 the
 paint
-task
+thread
 getting
 stuck
 /
@@ -2616,7 +2616,7 @@ window
 )
 the
 paint
-task
+thread
 /
 /
 never
@@ -6713,7 +6713,7 @@ sender
 :
 Sender
 <
-compositor_task
+compositor_thread
 :
 :
 Msg
@@ -6764,7 +6764,7 @@ send
 self
 msg
 :
-compositor_task
+compositor_thread
 :
 :
 Msg

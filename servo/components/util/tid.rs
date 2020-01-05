@@ -133,7 +133,7 @@ None
 /
 /
 Every
-task
+thread
 gets
 one
 that

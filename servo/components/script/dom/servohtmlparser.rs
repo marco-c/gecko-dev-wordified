@@ -336,12 +336,12 @@ parse
 Parser
 ;
 use
-script_task
+script_thread
 :
 :
 {
 ScriptChan
-ScriptTask
+ScriptThread
 }
 ;
 use
@@ -1627,7 +1627,7 @@ clone
 let
 parser
 =
-ScriptTask
+ScriptThread
 :
 :
 page_fetch_complete
@@ -2698,7 +2698,7 @@ self
 .
 pipeline
 {
-ScriptTask
+ScriptThread
 :
 :
 parsing_complete

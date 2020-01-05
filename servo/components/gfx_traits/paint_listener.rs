@@ -289,7 +289,7 @@ to
 exit
 .
 fn
-notify_paint_task_exiting
+notify_paint_thread_exiting
 (
 &
 mut

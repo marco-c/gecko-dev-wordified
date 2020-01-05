@@ -2657,7 +2657,7 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
 {
@@ -2692,7 +2692,7 @@ image_cache
 =
 window
 .
-image_cache_task
+image_cache_thread
 (
 )
 ;

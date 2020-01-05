@@ -104,7 +104,7 @@ net_traits
 AsyncResponseTarget
 LoadContext
 PendingAsyncLoad
-ResourceTask
+ResourceThread
 ResponseAction
 }
 ;
@@ -268,7 +268,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -601,7 +601,7 @@ to
 the
 font
 cache
-task
+thread
 .
 #
 [
@@ -676,7 +676,7 @@ from
 the
 font
 cache
-task
+thread
 to
 the
 FontContext
@@ -712,7 +712,7 @@ FontTemplateData
 The
 font
 cache
-task
+thread
 itself
 .
 It
@@ -772,9 +772,9 @@ FontTemplates
 font_context
 :
 FontContextHandle
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 }
 fn
 populate_generic_fonts
@@ -1168,7 +1168,7 @@ LoadContext
 Font
 self
 .
-resource_task
+resource_thread
 .
 clone
 (
@@ -2336,7 +2336,7 @@ to
 the
 font
 cache
-task
+thread
 used
 exclusively
 by
@@ -2348,7 +2348,7 @@ per
 -
 thread
 /
-task
+thread
 FontContext
 structures
 .
@@ -2364,7 +2364,7 @@ Debug
 ]
 pub
 struct
-FontCacheTask
+FontCacheThread
 {
 chan
 :
@@ -2374,19 +2374,19 @@ Command
 >
 }
 impl
-FontCacheTask
+FontCacheThread
 {
 pub
 fn
 new
 (
-resource_task
+resource_thread
 :
-ResourceTask
+ResourceThread
 )
 -
 >
-FontCacheTask
+FontCacheThread
 {
 let
 (
@@ -2417,7 +2417,7 @@ clone
 spawn_named
 (
 "
-FontCacheTask
+FontCacheThread
 "
 .
 to_owned
@@ -2483,9 +2483,9 @@ FontContextHandle
 new
 (
 )
-resource_task
+resource_thread
 :
-resource_task
+resource_thread
 }
 ;
 cache
@@ -2503,7 +2503,7 @@ run
 }
 )
 ;
-FontCacheTask
+FontCacheThread
 {
 chan
 :

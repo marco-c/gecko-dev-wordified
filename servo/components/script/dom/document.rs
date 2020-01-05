@@ -1072,13 +1072,13 @@ num
 ToPrimitive
 ;
 use
-script_task
+script_thread
 :
 :
 CSSError
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -19011,7 +19011,7 @@ self
 .
 window
 .
-resource_task
+resource_thread
 (
 )
 .
@@ -19142,7 +19142,7 @@ self
 .
 window
 .
-resource_task
+resource_thread
 (
 )
 .

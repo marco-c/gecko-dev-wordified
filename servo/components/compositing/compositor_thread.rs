@@ -63,7 +63,7 @@ Communication
 with
 the
 compositor
-task
+thread
 .
 use
 CompositorMsg
@@ -889,7 +889,7 @@ down
 when
 a
 paint
-task
+thread
 /
 /
 is
@@ -924,7 +924,7 @@ case
 since
 the
 paint
-task
+thread
 /
 /
 will
@@ -1170,7 +1170,7 @@ properties
 ;
 }
 fn
-notify_paint_task_exiting
+notify_paint_thread_exiting
 (
 &
 mut
@@ -1187,7 +1187,7 @@ send
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 pipeline_id
 )
@@ -1201,15 +1201,15 @@ Messages
 from
 the
 painting
-task
+thread
 and
 the
 constellation
-task
+thread
 to
 the
 compositor
-task
+thread
 .
 pub
 enum
@@ -1712,7 +1712,7 @@ compositor
 that
 the
 paint
-task
+thread
 for
 the
 given
@@ -1720,7 +1720,7 @@ pipeline
 has
 exited
 .
-PaintTaskExited
+PaintThreadExited
 (
 PipelineId
 )
@@ -1792,7 +1792,7 @@ Signal
 that
 the
 paint
-task
+thread
 ignored
 the
 paint
@@ -2289,7 +2289,7 @@ CreatePng
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 .
 .
@@ -2301,7 +2301,7 @@ write
 (
 f
 "
-PaintTaskExited
+PaintThreadExited
 "
 )
 Msg
@@ -2503,10 +2503,10 @@ PipelineExited
 }
 pub
 struct
-CompositorTask
+CompositorThread
 ;
 impl
-CompositorTask
+CompositorThread
 {
 pub
 fn

@@ -290,7 +290,7 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
 {
@@ -299,16 +299,16 @@ ImageResponse
 }
 ;
 use
-script_task
+script_thread
 :
 :
-ScriptTaskEventCategory
+ScriptThreadEventCategory
 :
 :
 UpdateReplacedElement
 ;
 use
-script_task
+script_thread
 :
 :
 {
@@ -707,7 +707,7 @@ image_cache
 =
 window
 .
-image_cache_task
+image_cache_thread
 (
 )
 ;
@@ -811,7 +811,7 @@ new
 self
 window
 .
-networking_task_source
+networking_thread_source
 (
 )
 )
@@ -838,7 +838,7 @@ script_chan
 =
 window
 .
-networking_task_source
+networking_thread_source
 (
 )
 ;
@@ -877,7 +877,7 @@ message
 to
 the
 script
-task
+thread
 which
 marks
 the

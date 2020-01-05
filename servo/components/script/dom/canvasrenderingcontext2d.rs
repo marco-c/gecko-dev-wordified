@@ -60,7 +60,7 @@ use
 canvas
 :
 :
-canvas_paint_task
+canvas_paint_thread
 :
 :
 RectToi32
@@ -483,7 +483,7 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
 ImageResponse
@@ -969,7 +969,7 @@ send
 ConstellationMsg
 :
 :
-CreateCanvasPaintTask
+CreateCanvasPaintThread
 (
 size
 sender

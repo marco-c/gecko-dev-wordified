@@ -717,7 +717,7 @@ the
 /
 owning
 paint
-task
+thread
 .
 fn
 remove_root_layer_with_pipeline_id
@@ -776,7 +776,7 @@ only
 when
 the
 paint
-task
+thread
 is
 destined
 to
@@ -809,7 +809,7 @@ we
 know
 the
 paint
-task
+thread
 is
 going
 away
@@ -2060,7 +2060,7 @@ buffers
 to
 the
 paint
-task
+thread
 let
 child
 =
@@ -2152,7 +2152,7 @@ only
 when
 the
 paint
-task
+thread
 is
 destined
 to
@@ -2185,7 +2185,7 @@ we
 know
 the
 paint
-task
+thread
 is
 going
 away

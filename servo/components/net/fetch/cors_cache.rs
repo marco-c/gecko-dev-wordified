@@ -1606,10 +1606,10 @@ be
 sent
 to
 a
-CORSCacheTask
+CORSCacheThread
 pub
 enum
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 {
 Clear
 (
@@ -1684,7 +1684,7 @@ A
 Sender
 to
 a
-CORSCacheTask
+CORSCacheThread
 /
 /
 /
@@ -1726,7 +1726,7 @@ CORSCacheSender
 =
 Sender
 <
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 >
 ;
 impl
@@ -1762,7 +1762,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Clear
@@ -1807,7 +1807,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Cleanup
@@ -1861,7 +1861,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeader
@@ -1925,7 +1925,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeaderUpdate
@@ -1986,7 +1986,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethod
@@ -2045,7 +2045,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethodUpdate
@@ -2096,7 +2096,7 @@ self
 .
 send
 (
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Insert
@@ -2122,7 +2122,7 @@ recv
 /
 A
 simple
-task
+thread
 -
 based
 CORS
@@ -2148,9 +2148,9 @@ ignore
 /
 /
 let
-task
+thread
 =
-CORSCacheTask
+CORSCacheThread
 :
 :
 new
@@ -2163,7 +2163,7 @@ new
 let
 builder
 =
-TaskBuilder
+ThreadBuilder
 :
 :
 new
@@ -2173,7 +2173,7 @@ new
 named
 (
 "
-XHRTask
+XHRThread
 "
 )
 ;
@@ -2184,7 +2184,7 @@ let
 mut
 sender
 =
-task
+thread
 .
 sender
 (
@@ -2201,7 +2201,7 @@ move
 |
 |
 {
-task
+thread
 .
 run
 (
@@ -2235,13 +2235,13 @@ here
 /
 pub
 struct
-CORSCacheTask
+CORSCacheThread
 {
 receiver
 :
 Receiver
 <
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 >
 cache
 :
@@ -2251,7 +2251,7 @@ sender
 CORSCacheSender
 }
 impl
-CORSCacheTask
+CORSCacheThread
 {
 pub
 fn
@@ -2260,7 +2260,7 @@ new
 )
 -
 >
-CORSCacheTask
+CORSCacheThread
 {
 let
 (
@@ -2272,7 +2272,7 @@ channel
 (
 )
 ;
-CORSCacheTask
+CORSCacheThread
 {
 receiver
 :
@@ -2300,7 +2300,7 @@ sender
 to
 the
 cache
-task
+thread
 pub
 fn
 sender
@@ -2326,7 +2326,7 @@ clone
 Runs
 the
 cache
-task
+thread
 /
 /
 /
@@ -2334,7 +2334,7 @@ This
 blocks
 the
 current
-task
+thread
 so
 it
 is
@@ -2346,7 +2346,7 @@ to
 spawn
 a
 new
-task
+thread
 for
 this
 /
@@ -2384,7 +2384,7 @@ unwrap
 (
 )
 {
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Clear
@@ -2416,7 +2416,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Cleanup
@@ -2446,7 +2446,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeader
@@ -2478,7 +2478,7 @@ header
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchHeaderUpdate
@@ -2512,7 +2512,7 @@ new_max_age
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethod
@@ -2543,7 +2543,7 @@ method
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 MatchMethodUpdate
@@ -2576,7 +2576,7 @@ new_max_age
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 Insert
@@ -2608,7 +2608,7 @@ send
 )
 ;
 }
-CORSCacheTaskMsg
+CORSCacheThreadMsg
 :
 :
 ExitMsg

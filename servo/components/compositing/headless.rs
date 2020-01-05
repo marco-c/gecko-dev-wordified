@@ -62,7 +62,7 @@ as
 ConstellationMsg
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -71,7 +71,7 @@ CompositorReceiver
 }
 ;
 use
-compositor_task
+compositor_thread
 :
 :
 {
@@ -522,7 +522,7 @@ blocking
 /
 /
 another
-task
+thread
 from
 finishing
 (
@@ -901,7 +901,7 @@ CreatePng
 Msg
 :
 :
-PaintTaskExited
+PaintThreadExited
 (
 .
 .

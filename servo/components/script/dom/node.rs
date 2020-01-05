@@ -772,7 +772,7 @@ use
 util
 :
 :
-task_state
+thread_state
 ;
 use
 uuid
@@ -1076,7 +1076,7 @@ information
 Only
 the
 layout
-task
+thread
 may
 touch
 this
@@ -1095,7 +1095,7 @@ back
 to
 the
 layout
-task
+thread
 to
 be
 destroyed
@@ -1570,7 +1570,7 @@ back
 to
 the
 layout
-task
+thread
 to
 be
 destroyed
@@ -1589,7 +1589,7 @@ Node
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get

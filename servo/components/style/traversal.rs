@@ -253,7 +253,7 @@ the
 DOM
 tree
 a
-task
+thread
 -
 local
 bloom
@@ -413,7 +413,7 @@ When
 this
 happens
 the
-task
+thread
 local
 bloom
 filter
@@ -460,7 +460,7 @@ None
 /
 Returns
 the
-task
+thread
 local
 bloom
 filter
@@ -502,7 +502,7 @@ and
 reused
 .
 fn
-take_task_local_bloom_filter
+take_thread_local_bloom_filter
 <
 '
 ln
@@ -795,7 +795,7 @@ bloom_filter
 }
 pub
 fn
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 :
@@ -841,7 +841,7 @@ a
 never
 -
 taken
-task
+thread
 -
 local
 bloom
@@ -1550,7 +1550,7 @@ let
 mut
 bf
 =
-take_task_local_bloom_filter
+take_thread_local_bloom_filter
 (
 parent_opt
 root
@@ -2004,7 +2004,7 @@ the
 way
 up
 .
-put_task_local_bloom_filter
+put_thread_local_bloom_filter
 (
 bf
 &

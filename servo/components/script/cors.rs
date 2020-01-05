@@ -258,7 +258,7 @@ PreInvoke
 }
 ;
 use
-script_task
+script_thread
 :
 :
 ScriptChan
@@ -331,7 +331,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named
@@ -1106,7 +1106,7 @@ handled
 by
 the
 resource
-task
+thread
 ?
 let
 req

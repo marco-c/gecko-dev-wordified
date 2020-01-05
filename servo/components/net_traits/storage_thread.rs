@@ -113,7 +113,7 @@ Serialize
 ]
 pub
 enum
-StorageTaskMsg
+StorageThreadMsg
 {
 /
 /
@@ -324,7 +324,7 @@ StorageType
 shut
 down
 this
-task
+thread
 Exit
 }
 /
@@ -334,13 +334,13 @@ Handle
 to
 a
 storage
-task
+thread
 pub
 type
-StorageTask
+StorageThread
 =
 IpcSender
 <
-StorageTaskMsg
+StorageThreadMsg
 >
 ;

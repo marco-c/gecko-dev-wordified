@@ -106,13 +106,13 @@ use
 util
 :
 :
-task_state
+thread_state
 ;
 use
 util
 :
 :
-task_state
+thread_state
 :
 :
 SCRIPT
@@ -277,7 +277,7 @@ use
 in
 the
 layout
-task
+thread
 only
 .
 #
@@ -303,7 +303,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -429,7 +429,7 @@ issues
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -498,7 +498,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -676,7 +676,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -817,7 +817,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get
@@ -875,7 +875,7 @@ restyle
 while
 the
 script
-task
+thread
 /
 /
 /
@@ -899,7 +899,7 @@ T
 debug_assert
 !
 (
-task_state
+thread_state
 :
 :
 get

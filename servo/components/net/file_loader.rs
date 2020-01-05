@@ -94,7 +94,7 @@ Metadata
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 {
@@ -103,7 +103,7 @@ ProgressSender
 }
 ;
 use
-resource_task
+resource_thread
 :
 :
 {
@@ -176,7 +176,7 @@ use
 util
 :
 :
-task
+thread
 :
 :
 spawn_named

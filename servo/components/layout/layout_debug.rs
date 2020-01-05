@@ -833,7 +833,7 @@ end_trace
 {
 let
 mut
-task_state
+thread_state
 =
 STATE_KEY
 .
@@ -861,7 +861,7 @@ unwrap
 assert
 !
 (
-task_state
+thread_state
 .
 scope_stack
 .
@@ -877,7 +877,7 @@ let
 mut
 root_scope
 =
-task_state
+thread_state
 .
 scope_stack
 .
@@ -906,7 +906,7 @@ base
 (
 &
 *
-task_state
+thread_state
 .
 flow_root
 )

@@ -108,7 +108,7 @@ thread
 Builder
 ;
 use
-task_state
+thread_state
 ;
 pub
 fn
@@ -321,7 +321,7 @@ a
 channel
 if
 the
-task
+thread
 fails
 .
 pub
@@ -338,10 +338,10 @@ name
 String
 state
 :
-task_state
+thread_state
 :
 :
-TaskState
+ThreadState
 f
 :
 F
@@ -412,7 +412,7 @@ move
 |
 |
 {
-task_state
+thread_state
 :
 :
 initialize

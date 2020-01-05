@@ -66,7 +66,7 @@ that
 gives
 the
 painting
-task
+thread
 a
 little
 time
@@ -79,7 +79,7 @@ user
 scrolls
 .
 use
-compositor_task
+compositor_thread
 :
 :
 {

@@ -1016,7 +1016,7 @@ on
 which
 events
 script
-tasks
+threads
 spend
 their
 processing
@@ -1635,7 +1635,7 @@ Profile
 which
 events
 script
-tasks
+threads
 spend
 their
 time
@@ -2619,7 +2619,7 @@ Enable
 heartbeats
 for
 all
-task
+thread
 categories
 .
 "
@@ -4223,7 +4223,7 @@ fail
 "
 Exit
 on
-task
+thread
 failure
 instead
 of

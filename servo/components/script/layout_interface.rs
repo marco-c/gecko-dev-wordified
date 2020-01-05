@@ -188,10 +188,10 @@ use
 net_traits
 :
 :
-image_cache_task
+image_cache_thread
 :
 :
-ImageCacheTask
+ImageCacheThread
 ;
 use
 profile_traits
@@ -417,7 +417,7 @@ Requests
 that
 the
 layout
-task
+thread
 render
 the
 next
@@ -434,7 +434,7 @@ Requests
 that
 the
 layout
-task
+thread
 reflow
 with
 a
@@ -523,7 +523,7 @@ Requests
 that
 the
 layout
-task
+thread
 measure
 its
 memory
@@ -554,7 +554,7 @@ Requests
 that
 the
 layout
-task
+thread
 enter
 a
 quiescent
@@ -604,7 +604,7 @@ Requests
 that
 the
 layout
-task
+thread
 immediately
 shut
 down
@@ -638,7 +638,7 @@ counter
 for
 this
 layout
-task
+thread
 .
 GetCurrentEpoch
 (
@@ -653,7 +653,7 @@ Epoch
 Asks
 the
 layout
-task
+thread
 whether
 any
 Web
@@ -690,7 +690,7 @@ Creates
 a
 new
 layout
-task
+thread
 .
 /
 /
@@ -712,9 +712,9 @@ one
 -
 way
 .
-CreateLayoutTask
+CreateLayoutThread
 (
-NewLayoutTaskInfo
+NewLayoutThreadInfo
 )
 /
 /
@@ -786,7 +786,7 @@ only
 with
 respect
 to
-LayoutTaskData
+LayoutThreadData
 /
 /
 /
@@ -1384,7 +1384,7 @@ channel
 to
 the
 layout
-task
+thread
 .
 #
 [
@@ -1679,7 +1679,7 @@ unwrap
 }
 pub
 struct
-NewLayoutTaskInfo
+NewLayoutThreadInfo
 {
 pub
 id
@@ -1723,9 +1723,9 @@ IpcSender
 ConstellationControlMsg
 >
 pub
-image_cache_task
+image_cache_thread
 :
-ImageCacheTask
+ImageCacheThread
 pub
 paint_chan
 :
