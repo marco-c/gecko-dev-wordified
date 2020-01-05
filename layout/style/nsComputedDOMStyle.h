@@ -4357,6 +4357,11 @@ nsStyleFilter
 aStyleFilter
 )
 ;
+template
+<
+typename
+ReferenceBox
+>
 already_AddRefed
 <
 CSSValue
@@ -4368,6 +4373,9 @@ mozilla
 :
 :
 StyleShapeSource
+<
+ReferenceBox
+>
 &
 aShapeSource
 const

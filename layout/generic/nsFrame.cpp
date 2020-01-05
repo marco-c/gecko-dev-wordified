@@ -9295,7 +9295,7 @@ GetReferenceBox
 )
 {
 case
-StyleGeometryBox
+StyleShapeOutsideShapeBox
 :
 :
 NoBox
@@ -9304,7 +9304,7 @@ return
 false
 ;
 case
-StyleGeometryBox
+StyleShapeOutsideShapeBox
 :
 :
 Content
@@ -9316,7 +9316,7 @@ aRadii
 )
 ;
 case
-StyleGeometryBox
+StyleShapeOutsideShapeBox
 :
 :
 Padding
@@ -9328,7 +9328,7 @@ aRadii
 )
 ;
 case
-StyleGeometryBox
+StyleShapeOutsideShapeBox
 :
 :
 Border
@@ -9340,7 +9340,7 @@ aRadii
 )
 ;
 case
-StyleGeometryBox
+StyleShapeOutsideShapeBox
 :
 :
 Margin
@@ -9350,20 +9350,6 @@ GetMarginBoxBorderRadii
 (
 aRadii
 )
-;
-default
-:
-MOZ_ASSERT_UNREACHABLE
-(
-"
-Unexpected
-box
-value
-"
-)
-;
-return
-false
 ;
 }
 return

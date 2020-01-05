@@ -200,7 +200,7 @@ nsIFrame
 *
 aFrame
 const
-StyleShapeSource
+StyleClipPath
 aClipPathStyle
 )
 :
@@ -306,7 +306,7 @@ nsIFrame
 *
 mTargetFrame
 ;
-StyleShapeSource
+StyleClipPath
 mClipPathStyle
 ;
 }
