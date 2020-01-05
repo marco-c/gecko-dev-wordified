@@ -181,6 +181,7 @@ properties
 :
 PropertyDeclarationBlock
 }
+pub
 fn
 parse_stylesheet
 (
@@ -676,6 +677,7 @@ lower_name
 impl
 Stylesheet
 {
+pub
 fn
 iter_style_rules
 <
