@@ -477,7 +477,7 @@ NS_FONT_VARIANT_CAPS_NORMAL
 uint8_t
 variantNumeric
 =
-0
+NS_FONT_VARIANT_NUMERIC_NORMAL
 ;
 uint8_t
 variantPosition
@@ -492,12 +492,12 @@ NS_FONT_VARIANT_WIDTH_NORMAL
 uint16_t
 variantLigatures
 =
-0
+NS_FONT_VARIANT_LIGATURES_NORMAL
 ;
 uint16_t
 variantEastAsian
 =
-0
+NS_FONT_VARIANT_EAST_ASIAN_NORMAL
 ;
 /
 /
@@ -551,7 +551,7 @@ propvals
 uint16_t
 variantAlternates
 =
-0
+NS_FONT_VARIANT_ALTERNATES_NORMAL
 ;
 /
 /
