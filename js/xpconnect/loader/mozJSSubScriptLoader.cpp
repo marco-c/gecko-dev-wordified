@@ -2400,14 +2400,8 @@ nsIPrincipal
 principal
 bool
 reuseGlobal
-JS
-:
-:
 MutableHandleScript
 script
-JS
-:
-:
 MutableHandleFunction
 function
 )
