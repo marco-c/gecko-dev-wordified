@@ -654,14 +654,9 @@ isMediaPlaying
 )
 )
 {
-mController
-.
-getTransportControls
+notifyControlInterfaceChanged
 (
-)
-.
-play
-(
+ACTION_PAUSE
 )
 ;
 }
