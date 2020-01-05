@@ -5640,11 +5640,10 @@ GetKey
 ;
 if
 (
-!
 doc
 -
 >
-ParentDoc
+IsTopLevel
 (
 )
 )
