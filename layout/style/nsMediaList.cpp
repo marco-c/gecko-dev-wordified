@@ -3777,7 +3777,7 @@ doc
 sheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 ;

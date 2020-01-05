@@ -14794,7 +14794,7 @@ owningNode
 check
 for
 an
-owning
+associated
 document
 :
 if
@@ -14806,9 +14806,9 @@ bother
 walking
 up
 the
+/
+/
 parent
-/
-/
 sheets
 /
 /
@@ -14860,7 +14860,7 @@ if
 aParentSheet
 -
 >
-GetOwningDocument
+GetAssociatedDocument
 (
 )
 &

@@ -728,11 +728,13 @@ may
 be
 null
 void
-SetOwningDocument
+SetAssociatedDocument
 (
 nsIDocument
 *
 aDocument
+DocumentAssociationMode
+aAssociationMode
 )
 ;
 /
