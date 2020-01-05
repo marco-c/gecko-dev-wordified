@@ -311,6 +311,7 @@ blk
 :
 |
 *
+const
 u8
 uint
 |
@@ -758,6 +759,7 @@ UniChar
 ]
 ;
 let
+mut
 glyphs
 :
 [
@@ -795,6 +797,7 @@ characters
 0
 ]
 &
+mut
 glyphs
 [
 0
@@ -917,7 +920,7 @@ glyphs
 ptr
 :
 :
-null
+mut_null
 (
 )
 1

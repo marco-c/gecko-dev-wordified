@@ -849,10 +849,10 @@ Rect
 (
 Point2D
 (
-0
+0u
 as
 AzFloat
-0
+0u
 as
 AzFloat
 )
@@ -1904,7 +1904,7 @@ DrawOptions
 :
 new
 (
-1
+1u
 as
 AzFloat
 0
@@ -1921,10 +1921,10 @@ StrokeOptions
 :
 new
 (
-0
+0u
 as
 AzFloat
-10
+10u
 as
 AzFloat
 )
@@ -1941,10 +1941,10 @@ AzFloat
 ]
 =
 [
-0
+0u
 as
 AzFloat
-0
+0u
 as
 AzFloat
 ]
@@ -2032,7 +2032,7 @@ mDashPattern
 =
 dash
 .
-as_ptr
+as_mut_ptr
 (
 )
 ;

@@ -341,6 +341,7 @@ _blk
 :
 |
 *
+const
 u8
 uint
 |
@@ -644,6 +645,7 @@ FT_Library
 cbuf
 :
 *
+const
 u8
 cbuflen
 :
@@ -675,7 +677,7 @@ FT_Face
 ptr
 :
 :
-null
+mut_null
 (
 )
 ;
@@ -820,6 +822,8 @@ raw
 :
 from_c_str
 (
+&
+*
 (
 *
 self
@@ -851,6 +855,8 @@ raw
 :
 from_c_str
 (
+&
+*
 FT_Get_Postscript_Name
 (
 self
@@ -944,6 +950,7 @@ ft_sfnt_os2
 )
 as
 *
+mut
 TT_OS2
 ;
 let
@@ -1721,6 +1728,7 @@ ft_sfnt_os2
 )
 as
 *
+mut
 TT_OS2
 ;
 let
@@ -2007,11 +2015,13 @@ self
 &
 '
 a
+mut
 FT_FaceRec
 {
 unsafe
 {
 &
+mut
 (
 *
 self

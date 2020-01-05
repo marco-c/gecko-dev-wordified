@@ -2991,6 +2991,7 @@ uint
 self
 as
 *
+const
 Fragment
 as
 uint

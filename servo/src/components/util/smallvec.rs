@@ -408,6 +408,7 @@ uint
 -
 >
 *
+const
 T
 ;
 fn
@@ -436,6 +437,7 @@ self
 -
 >
 *
+const
 T
 ;
 unsafe
@@ -540,6 +542,7 @@ self
 -
 >
 *
+const
 T
 {
 unsafe
@@ -577,6 +580,7 @@ self
 -
 >
 *
+const
 T
 {
 unsafe
@@ -1094,6 +1098,7 @@ transmute
 :
 <
 *
+const
 T
 &
 mut
@@ -1224,6 +1229,7 @@ ptr
 )
 as
 *
+mut
 u8
 )
 }
@@ -1777,10 +1783,12 @@ T
 ptr
 :
 *
+const
 T
 end
 :
 *
+const
 T
 lifetime
 :
@@ -2295,6 +2303,7 @@ local_free
 allocation
 as
 *
+mut
 u8
 )
 }
@@ -2378,6 +2387,7 @@ uint
 ptr
 :
 *
+const
 T
 data
 :
@@ -2450,12 +2460,14 @@ uint
 -
 >
 *
+const
 T
 {
 let
 ptr
 :
 *
+const
 T
 =
 &
@@ -2512,6 +2524,7 @@ self
 -
 >
 *
+const
 T
 {
 self
@@ -2937,6 +2950,7 @@ ptr
 )
 as
 *
+mut
 u8
 )
 }

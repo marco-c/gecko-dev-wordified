@@ -579,6 +579,7 @@ pub
 stylist
 :
 *
+const
 Stylist
 /
 /

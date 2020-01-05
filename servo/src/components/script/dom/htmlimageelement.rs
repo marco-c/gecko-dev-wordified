@@ -1118,7 +1118,7 @@ isMap
 "
 is_map
 .
-to_str
+to_string
 (
 )
 )
@@ -1764,7 +1764,6 @@ Option
 '
 a
 VirtualMethods
-+
 >
 {
 let
@@ -1790,7 +1789,6 @@ htmlelement
 as
 &
 VirtualMethods
-+
 )
 }
 fn

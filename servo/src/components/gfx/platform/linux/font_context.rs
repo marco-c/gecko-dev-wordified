@@ -168,6 +168,7 @@ c_long
 -
 >
 *
+mut
 c_void
 {
 unsafe
@@ -188,6 +189,7 @@ size_t
 ptr
 as
 *
+mut
 c_void
 }
 }
@@ -201,6 +203,7 @@ FT_Memory
 block
 :
 *
+mut
 c_void
 )
 {
@@ -212,10 +215,6 @@ libc
 free
 (
 block
-as
-*
-mut
-c_void
 )
 ;
 }
@@ -236,11 +235,13 @@ c_long
 block
 :
 *
+mut
 c_void
 )
 -
 >
 *
+mut
 c_void
 {
 unsafe
@@ -254,10 +255,6 @@ libc
 realloc
 (
 block
-as
-*
-mut
-c_void
 new_size
 as
 size_t
@@ -266,6 +263,7 @@ size_t
 ptr
 as
 *
+mut
 c_void
 }
 }
@@ -406,7 +404,7 @@ user
 ptr
 :
 :
-null
+mut_null
 (
 )
 alloc
@@ -422,6 +420,7 @@ ft_realloc
 )
 ;
 let
+mut
 ctx
 :
 FT_Library
@@ -429,7 +428,7 @@ FT_Library
 ptr
 :
 :
-null
+mut_null
 (
 )
 ;
@@ -442,6 +441,7 @@ ptr
 as
 FT_Memory
 &
+mut
 ctx
 )
 ;

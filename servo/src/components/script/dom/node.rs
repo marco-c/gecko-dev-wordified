@@ -1302,6 +1302,7 @@ SharedLayoutData
 _data
 :
 *
+const
 (
 )
 }
@@ -1523,6 +1524,7 @@ self
 -
 >
 *
+const
 Option
 <
 LayoutData
@@ -4176,9 +4178,11 @@ deref
 )
 as
 *
+const
 Node
 as
 *
+const
 libc
 :
 :
@@ -5238,6 +5242,7 @@ let
 boxed_node
 :
 *
+const
 Node
 =
 utils
@@ -6925,6 +6930,7 @@ uintptr_t
 t
 as
 *
+const
 T
 as
 uintptr_t
@@ -14678,7 +14684,6 @@ Option
 '
 a
 VirtualMethods
-+
 >
 {
 let
@@ -14704,7 +14709,6 @@ eventtarget
 as
 &
 VirtualMethods
-+
 )
 }
 }

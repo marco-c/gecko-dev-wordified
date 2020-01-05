@@ -100,6 +100,7 @@ cef_browser_host_create_browser
 _windowInfo
 :
 *
+const
 cef_window_info_t
 _client
 :
@@ -109,10 +110,12 @@ cef_client_t
 _url
 :
 *
+const
 cef_string_t
 _settings
 :
 *
+const
 cef_browser_settings_t
 _request_context
 :
@@ -141,6 +144,7 @@ cef_browser_host_create_browser_sync
 _windowInfo
 :
 *
+const
 cef_window_info_t
 _client
 :
@@ -150,10 +154,12 @@ cef_client_t
 _url
 :
 *
+const
 cef_string_t
 _settings
 :
 *
+const
 cef_browser_settings_t
 _request_context
 :

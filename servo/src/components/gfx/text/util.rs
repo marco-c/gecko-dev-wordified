@@ -698,6 +698,8 @@ i32
 <
 <
 before
+as
+uint
 )
 *
 (
@@ -735,6 +737,8 @@ f64
 <
 <
 before
+as
+uint
 )
 as
 f64
@@ -766,6 +770,8 @@ before
 -
 1
 )
+as
+uint
 ;
 if
 f
@@ -781,6 +787,8 @@ f
 >
 >
 before
+as
+uint
 )
 as
 int
@@ -797,6 +805,8 @@ f
 >
 >
 before
+as
+uint
 )
 as
 int

@@ -342,6 +342,7 @@ owned_flow_to_unsafe_flow
 flow
 :
 *
+const
 FlowRef
 )
 -
@@ -1679,7 +1680,7 @@ let
 mut
 child_count
 =
-0
+0u
 ;
 for
 _
@@ -2078,7 +2079,7 @@ let
 mut
 child_count
 =
-0
+0u
 ;
 for
 _
@@ -2601,7 +2602,7 @@ let
 mut
 absolutely_positioned_child_count
 =
-0
+0u
 ;
 for
 kid

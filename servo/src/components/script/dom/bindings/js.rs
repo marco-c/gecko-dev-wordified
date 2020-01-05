@@ -1205,6 +1205,7 @@ T
 ptr
 :
 *
+const
 T
 }
 impl
@@ -1345,6 +1346,7 @@ ptr
 addr
 as
 *
+const
 Node
 }
 }
@@ -1386,6 +1388,7 @@ ptr
 addr
 as
 *
+const
 XMLHttpRequest
 }
 }
@@ -1426,6 +1429,7 @@ from_raw
 raw
 :
 *
+const
 T
 )
 -
@@ -4119,6 +4123,7 @@ T
 ptr
 :
 *
+const
 T
 chain
 :

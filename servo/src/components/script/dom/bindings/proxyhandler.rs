@@ -419,6 +419,7 @@ jsid
 desc
 :
 *
+mut
 JSPropertyDescriptor
 )
 -
@@ -462,6 +463,7 @@ let
 setter
 :
 *
+const
 libc
 :
 :
@@ -484,6 +486,7 @@ let
 setter_stub
 :
 *
+const
 libc
 :
 :
@@ -616,6 +619,7 @@ jsid
 desc
 :
 *
+mut
 JSPropertyDescriptor
 )
 -
@@ -732,6 +736,7 @@ JSContext
 className
 :
 *
+const
 libc
 :
 :
@@ -1059,7 +1064,7 @@ cx
 ptr
 :
 :
-null
+mut_null
 (
 )
 ptr

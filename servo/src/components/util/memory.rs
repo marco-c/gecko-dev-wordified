@@ -915,6 +915,7 @@ je_mallctl
 name
 :
 *
+const
 c_char
 oldp
 :
@@ -1150,7 +1151,7 @@ statm
 match
 f
 .
-read_to_str
+read_to_string
 (
 )
 {

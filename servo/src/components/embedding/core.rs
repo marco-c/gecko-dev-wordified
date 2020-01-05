@@ -123,6 +123,7 @@ cef_initialize
 args
 :
 *
+const
 cef_main_args_t
 _settings
 :
@@ -137,6 +138,7 @@ cef_app_t
 _windows_sandbox_info
 :
 *
+const
 c_void
 )
 -
@@ -406,7 +408,9 @@ start
 0
 as
 *
+const
 *
+const
 u8
 proc
 (
@@ -454,6 +458,7 @@ cef_execute_process
 _args
 :
 *
+const
 cef_main_args_t
 _app
 :

@@ -128,6 +128,7 @@ type
 cef_binary_value
 =
 *
+mut
 c_void
 ;
 pub
@@ -135,6 +136,7 @@ type
 cef_dictionary_value
 =
 *
+mut
 c_void
 ;
 pub
@@ -166,6 +168,7 @@ type
 cef_frame
 =
 *
+mut
 c_void
 ;
 pub
@@ -173,6 +176,7 @@ type
 cef_domnode
 =
 *
+mut
 c_void
 ;
 pub
@@ -180,6 +184,7 @@ type
 cef_load_handler
 =
 *
+mut
 c_void
 ;
 pub
@@ -187,6 +192,7 @@ type
 cef_request
 =
 *
+mut
 c_void
 ;
 pub
@@ -194,6 +200,7 @@ type
 cef_navigation_type
 =
 *
+mut
 c_void
 ;
 pub
@@ -219,6 +226,7 @@ type
 cef_v8context
 =
 *
+mut
 c_void
 ;
 pub
@@ -226,6 +234,7 @@ type
 cef_v8exception
 =
 *
+mut
 c_void
 ;
 pub
@@ -233,6 +242,7 @@ type
 cef_v8stack_trace
 =
 *
+mut
 c_void
 ;
 pub
@@ -426,7 +436,9 @@ pub
 argv
 :
 *
+const
 *
+const
 u8
 }
 pub
@@ -4723,6 +4735,7 @@ c_int
 argv
 :
 *
+const
 u8
 )
 /
@@ -4774,6 +4787,7 @@ cef_command_line
 command_line
 :
 *
+const
 cef_string_t
 )
 /
@@ -5049,6 +5063,7 @@ cef_command_line
 name
 :
 *
+const
 cef_string_t
 )
 /
@@ -5128,6 +5143,7 @@ cef_command_line
 name
 :
 *
+const
 cef_string_t
 )
 -
@@ -5201,6 +5217,7 @@ cef_command_line
 name
 :
 *
+const
 cef_string_t
 )
 -
@@ -5307,6 +5324,7 @@ cef_command_line
 name
 :
 *
+const
 cef_string_t
 )
 /
@@ -5349,10 +5367,12 @@ cef_command_line
 name
 :
 *
+const
 cef_string_t
 value
 :
 *
+const
 cef_string_t
 )
 /
@@ -5461,6 +5481,7 @@ cef_command_line
 argument
 :
 *
+const
 cef_string_t
 )
 /
@@ -5513,6 +5534,7 @@ cef_command_line
 wrapper
 :
 *
+const
 cef_string_t
 )
 }
@@ -6225,6 +6247,7 @@ cef_scheme_registrar
 scheme_name
 :
 *
+const
 cef_string_t
 is_standard
 :
@@ -6503,6 +6526,7 @@ c_int
 data
 :
 *
+mut
 *
 mut
 c_void
@@ -7532,6 +7556,7 @@ c_int
 value
 :
 *
+const
 cef_string_t
 )
 -
@@ -9241,10 +9266,12 @@ cef_file_dialog_mode_t
 title
 :
 *
+const
 cef_string_t
 default_file_name
 :
 *
+const
 cef_string_t
 accept_types
 :
@@ -9292,6 +9319,7 @@ cef_browser_host
 url
 :
 *
+const
 cef_string_t
 )
 /
@@ -9421,6 +9449,7 @@ c_int
 searchText
 :
 *
+const
 cef_string_t
 forward
 :
@@ -9500,6 +9529,7 @@ cef_browser_host
 windowInfo
 :
 *
+const
 cef_window_info_t
 client
 :
@@ -9509,6 +9539,7 @@ cef_client_t
 settings
 :
 *
+const
 cef_browser_settings_t
 )
 /
@@ -9963,6 +9994,7 @@ cef_browser_host
 dirtyRect
 :
 *
+const
 cef_rect
 t
 :
@@ -10001,6 +10033,7 @@ cef_browser_host
 event
 :
 *
+const
 cef_key_event
 )
 /
@@ -10060,6 +10093,7 @@ cef_browser_host
 event
 :
 *
+const
 cef_mouse_event
 t
 :
@@ -10128,6 +10162,7 @@ cef_browser_host
 event
 :
 *
+const
 cef_mouse_event
 mouseLeave
 :
@@ -10237,6 +10272,7 @@ cef_browser_host
 event
 :
 *
+const
 cef_mouse_event
 deltaX
 :
@@ -11157,6 +11193,7 @@ cef_browser
 name
 :
 *
+const
 cef_string_t
 )
 -
@@ -12421,6 +12458,7 @@ cef_app_t
 process_type
 :
 *
+const
 cef_string_t
 command_line
 :
@@ -13220,6 +13258,7 @@ cef_post_data_element
 fileName
 :
 *
+const
 cef_string_t
 )
 /
@@ -13268,6 +13307,7 @@ size_t
 bytes
 :
 *
+const
 c_void
 )
 /
@@ -13609,6 +13649,7 @@ size_t
 elements
 :
 *
+mut
 *
 mut
 cef_post_data_element

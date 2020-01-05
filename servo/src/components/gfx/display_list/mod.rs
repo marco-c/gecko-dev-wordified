@@ -715,6 +715,7 @@ is_not_null
 )
 ;
 let
+mut
 options
 =
 struct__AzDrawOptions
@@ -927,6 +928,7 @@ will
 assert
 .
 let
+mut
 glyphbuf
 =
 struct__AzGlyphBuffer
@@ -935,7 +937,7 @@ mGlyphs
 :
 azglyphs
 .
-as_ptr
+as_mut_ptr
 (
 )
 mNumGlyphs
@@ -976,14 +978,16 @@ get_ref
 (
 )
 &
+mut
 glyphbuf
 azure_pattern
 &
+mut
 options
 ptr
 :
 :
-null
+mut_null
 (
 )
 )

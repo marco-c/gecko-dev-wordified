@@ -1398,7 +1398,7 @@ string
 |
 string
 .
-to_str
+to_string
 (
 )
 )

@@ -494,7 +494,7 @@ self
 )
 ;
 return
-str
+String
 :
 :
 from_chars
@@ -557,6 +557,7 @@ with_buffer
 self
 |
 *
+const
 u8
 uint
 |

@@ -131,10 +131,12 @@ FlowRef
 vtable
 :
 *
+const
 u8
 ptr
 :
 *
+const
 u8
 }
 impl

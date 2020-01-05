@@ -63,6 +63,7 @@ fptr_is_null
 fptr
 :
 *
+const
 u8
 )
 -
