@@ -37264,8 +37264,6 @@ nullptr
 )
 ;
 }
-else
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -37293,7 +37291,6 @@ Run
 return
 true
 ;
-}
 }
 nsresult
 nsGlobalWindow
@@ -80103,8 +80100,6 @@ aRv
 )
 ;
 }
-else
-{
 aRv
 .
 Throw
@@ -80115,7 +80110,6 @@ NS_ERROR_TYPE_ERR
 return
 nullptr
 ;
-}
 }
 /
 /
