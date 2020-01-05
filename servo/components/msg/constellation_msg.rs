@@ -802,7 +802,7 @@ in
 experimental
 mode
 .
-MozBrowserEventMsg
+MozBrowserEvent
 (
 PipelineId
 SubpageId
@@ -886,7 +886,7 @@ has
 received
 focus
 .
-FocusMsg
+Focus
 (
 PipelineId
 )
@@ -917,7 +917,7 @@ Dispatch
 a
 webdriver
 command
-WebDriverCommandMsg
+WebDriverCommand
 (
 PipelineId
 WebDriverScriptCommand

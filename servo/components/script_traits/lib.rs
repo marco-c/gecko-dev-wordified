@@ -609,7 +609,7 @@ an
 iframe
 it
 owns
-MozBrowserEventMsg
+MozBrowserEvent
 (
 PipelineId
 SubpageId
@@ -653,7 +653,7 @@ iframe
 gains
 focus
 .
-FocusIFrameMsg
+FocusIFrame
 (
 PipelineId
 SubpageId
@@ -670,7 +670,7 @@ script
 task
 for
 execution
-WebDriverCommandMsg
+WebDriverCommand
 (
 PipelineId
 WebDriverScriptCommand

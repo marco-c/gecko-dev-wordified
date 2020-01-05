@@ -2686,7 +2686,7 @@ pipeline_id
 ConstellationMsg
 :
 :
-MozBrowserEventMsg
+MozBrowserEvent
 (
 pipeline_id
 subpage_id
@@ -2751,7 +2751,7 @@ resp_chan
 ConstellationMsg
 :
 :
-FocusMsg
+Focus
 (
 pipeline_id
 )
@@ -2857,7 +2857,7 @@ unwrap
 ConstellationMsg
 :
 :
-WebDriverCommandMsg
+WebDriverCommand
 (
 pipeline_id
 command
@@ -4029,7 +4029,7 @@ send
 LayoutControlMsg
 :
 :
-TickAnimationsMsg
+TickAnimations
 )
 .
 unwrap
@@ -5395,7 +5395,7 @@ event
 ConstellationControlMsg
 :
 :
-FocusIFrameMsg
+FocusIFrame
 (
 containing_pipeline_id
 subpage_id
@@ -5507,7 +5507,7 @@ control_msg
 ConstellationControlMsg
 :
 :
-WebDriverCommandMsg
+WebDriverCommand
 (
 pipeline_id
 msg

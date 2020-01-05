@@ -4202,7 +4202,7 @@ event
 ConstellationMsg
 :
 :
-FocusMsg
+Focus
 (
 window
 .
@@ -6750,7 +6750,7 @@ event
 ConstellationMsg
 :
 :
-MozBrowserEventMsg
+MozBrowserEvent
 (
 containing_pipeline_id
 subpage_id

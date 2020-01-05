@@ -232,11 +232,11 @@ pub
 enum
 LayoutControlMsg
 {
-ExitNowMsg
+ExitNow
 (
 PipelineExitType
 )
-TickAnimationsMsg
+TickAnimations
 }
 /
 /
