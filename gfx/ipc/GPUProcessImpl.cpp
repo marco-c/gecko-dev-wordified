@@ -179,6 +179,13 @@ GPUProcessImpl
 :
 Init
 (
+int
+aArgc
+char
+*
+aArgv
+[
+]
 )
 {
 return
