@@ -121,6 +121,13 @@ nsIDOMEvent
 .
 h
 "
+#
+include
+"
+nsPIWindowRoot
+.
+h
+"
 /
 /
 Drag

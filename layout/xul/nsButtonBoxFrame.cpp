@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsIDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMNodeList
 .
 h
