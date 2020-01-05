@@ -860,7 +860,7 @@ js
 jsapi
 :
 :
-Class
+JSClass
 /
 /
 /

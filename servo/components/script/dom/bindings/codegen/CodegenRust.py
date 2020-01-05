@@ -16268,7 +16268,7 @@ js
 jsapi
 :
 :
-ClassOps
+JSClassOps
 =
 js
 :
@@ -16276,7 +16276,7 @@ js
 jsapi
 :
 :
-ClassOps
+JSClassOps
 {
     
 addProperty
@@ -16366,7 +16366,7 @@ js
 jsapi
 :
 :
-Class
+JSClass
 {
         
 name
@@ -16434,32 +16434,17 @@ cOps
 &
 CLASS_OPS
         
-spec
+reserved
 :
-ptr
-:
-:
-null
-(
-)
-        
-ext
-:
-ptr
-:
-:
-null
-(
-)
-        
-oOps
-:
-ptr
-:
-:
-null
-(
-)
+[
+0
+as
+*
+mut
+_
+;
+3
+]
     
 }
     
@@ -19347,16 +19332,6 @@ base
 as
 *
 const
-js
-:
-:
-jsapi
-:
-:
-Class
-as
-*
-const
 JSClass
 proto
 .
@@ -20539,27 +20514,9 @@ create_global_object
 cx
     
 &
-*
-(
-&
 Class
 .
 base
-as
-*
-const
-js
-:
-:
-jsapi
-:
-:
-Class
-as
-*
-const
-_
-)
     
 raw
 as
@@ -23453,16 +23410,6 @@ holderClass
 Class
 .
 base
-as
-*
-const
-js
-:
-:
-jsapi
-:
-:
-Class
 as
 *
 const
@@ -42468,7 +42415,7 @@ Argument
 '
 *
 mut
-FreeOp
+JSFreeOp
 '
 '
 _fop
@@ -43434,7 +43381,6 @@ jsapi
 AutoIdVector
 Call
 CallArgs
-FreeOp
 GetPropertyKeys
 }
 '
