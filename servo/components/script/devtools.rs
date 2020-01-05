@@ -1410,7 +1410,6 @@ element
 for
 modification
 in
-&
 modifications
 {
 match
@@ -1420,7 +1419,6 @@ newValue
 {
 Some
 (
-ref
 string
 )
 =
@@ -1436,15 +1434,7 @@ SetAttribute
 modification
 .
 attributeName
-.
-clone
-(
-)
 string
-.
-clone
-(
-)
 )
 ;
 }
@@ -1458,10 +1448,6 @@ RemoveAttribute
 modification
 .
 attributeName
-.
-clone
-(
-)
 )
 }
 }
