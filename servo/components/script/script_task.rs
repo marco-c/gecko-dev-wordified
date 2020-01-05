@@ -249,6 +249,7 @@ JS
 JSRef
 Temporary
 OptionalRootable
+RootedReference
 }
 ;
 use
@@ -6079,7 +6080,6 @@ page
 {
 Some
 (
-*
 page
 .
 frame
@@ -6750,6 +6750,10 @@ last_modified
 {
 document
 .
+r
+(
+)
+.
 set_last_modified
 (
 dom_last_modified
@@ -6774,6 +6778,10 @@ r
 (
 )
 parent_window
+.
+r
+(
+)
 )
 ;
 {
@@ -10175,13 +10183,17 @@ ptr
 *
 node_address
 )
+.
+root
+(
+)
 ;
 let
 maybe_node
 =
 temp_node
 .
-root
+r
 (
 )
 .
@@ -11316,6 +11328,10 @@ r
 )
 ;
 event
+.
+r
+(
+)
 .
 set_trusted
 (
