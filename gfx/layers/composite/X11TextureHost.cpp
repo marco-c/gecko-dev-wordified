@@ -350,7 +350,7 @@ mTextureSource
 mTextureSource
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
