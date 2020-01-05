@@ -527,12 +527,14 @@ nullptr
 ;
 }
 return
-&
-*
 it
 -
 >
 second
+.
+get
+(
+)
 ;
 }
 void
