@@ -159,6 +159,9 @@ RawServoStyleRule
 namespace
 mozilla
 {
+class
+ServoElementSnapshot
+;
 namespace
 dom
 {
@@ -195,6 +198,12 @@ dom
 :
 :
 StyleChildrenIterator
+;
+using
+mozilla
+:
+:
+ServoElementSnapshot
 ;
 typedef
 nsINode
@@ -603,6 +612,10 @@ DECL_OWNED_REF_TYPE_FOR
 (
 StyleChildrenIterator
 )
+DECL_OWNED_REF_TYPE_FOR
+(
+ServoElementSnapshot
+)
 /
 /
 We
@@ -694,6 +707,10 @@ RawGeckoDocument
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 StyleChildrenIterator
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+ServoElementSnapshot
 )
 DECL_BORROWED_REF_TYPE_FOR
 (

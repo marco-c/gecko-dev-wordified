@@ -2395,6 +2395,14 @@ AsElement
 (
 )
 mStyleContext
+ConsumeStyleBehavior
+:
+:
+DontConsume
+LazyComputeBehavior
+:
+:
+Allow
 )
 ;
 if

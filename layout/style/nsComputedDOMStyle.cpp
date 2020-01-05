@@ -2693,6 +2693,14 @@ ResolveStyleFor
 (
 aElement
 parentContext
+ConsumeStyleBehavior
+:
+:
+DontConsume
+LazyComputeBehavior
+:
+:
+Allow
 )
 ;
 }

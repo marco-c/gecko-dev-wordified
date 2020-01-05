@@ -3594,6 +3594,14 @@ AsElement
 (
 )
 nullptr
+ConsumeStyleBehavior
+:
+:
+DontConsume
+LazyComputeBehavior
+:
+:
+Allow
 )
 ;
 nscoord

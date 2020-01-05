@@ -1501,6 +1501,14 @@ AsElement
 (
 )
 parentStyleContext
+ConsumeStyleBehavior
+:
+:
+Consume
+LazyComputeBehavior
+:
+:
+Allow
 )
 ;
 SetStyleContextWithoutNotification

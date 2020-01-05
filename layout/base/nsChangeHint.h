@@ -152,6 +152,9 @@ constants
 enum
 nsChangeHint
 {
+nsChangeHint_Empty
+=
+0
 /
 /
 change

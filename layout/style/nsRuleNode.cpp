@@ -3887,6 +3887,11 @@ StyleSet
 )
 -
 >
+AsGecko
+(
+)
+-
+>
 ResolveStyleFor
 (
 docElement
