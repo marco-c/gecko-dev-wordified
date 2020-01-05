@@ -169,12 +169,6 @@ JS
 DOMRect
 >
 >
-window
-:
-JS
-<
-Window
->
 }
 impl
 DOMRectList
@@ -185,10 +179,6 @@ new_inherited
 T
 >
 (
-window
-:
-&
-Window
 rects
 :
 T
@@ -241,15 +231,6 @@ r
 collect
 (
 )
-window
-:
-JS
-:
-:
-from_ref
-(
-window
-)
 }
 }
 pub
@@ -294,7 +275,6 @@ DOMRectList
 :
 new_inherited
 (
-window
 rects
 )
 GlobalRef
