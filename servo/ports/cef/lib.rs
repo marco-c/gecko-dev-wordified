@@ -149,14 +149,6 @@ str_utf16
 [
 feature
 (
-thread_local
-)
-]
-#
-!
-[
-feature
-(
 unicode
 )
 ]
