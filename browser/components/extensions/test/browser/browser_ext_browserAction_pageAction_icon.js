@@ -2573,6 +2573,11 @@ iconSet
 "
 )
 ;
+yield
+promiseAnimationFrame
+(
+)
+;
 let
 browserActionButton
 =

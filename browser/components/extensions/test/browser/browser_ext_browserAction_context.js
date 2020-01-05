@@ -968,6 +968,7 @@ onMessage
 "
 nextTest
 "
+async
 (
 expecting
 testsRemaining
@@ -975,6 +976,11 @@ testsRemaining
 =
 >
 {
+await
+promiseAnimationFrame
+(
+)
+;
 checkDetails
 (
 expecting

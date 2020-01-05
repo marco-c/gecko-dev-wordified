@@ -774,6 +774,15 @@ shown
 return
 ;
 }
+window
+.
+requestAnimationFrame
+(
+(
+)
+=
+>
+{
 let
 button
 =
@@ -891,6 +900,9 @@ hidden
 tabData
 .
 show
+;
+}
+)
 ;
 }
 getIconData

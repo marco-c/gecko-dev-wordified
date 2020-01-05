@@ -895,6 +895,11 @@ page
 action
 "
 ;
+yield
+promiseAnimationFrame
+(
+)
+;
 let
 browserActionButton
 =
