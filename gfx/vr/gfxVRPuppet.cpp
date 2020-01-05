@@ -2315,14 +2315,6 @@ VRControllerPuppet
 hand
 )
 ;
-puppetController
--
->
-SetIndex
-(
-mControllerCount
-)
-;
 mPuppetController
 .
 AppendElement
