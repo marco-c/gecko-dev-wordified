@@ -812,7 +812,6 @@ to
 this
 object
 .
-pub
 script_sender
 :
 ConstellationChan
@@ -835,7 +834,6 @@ to
 this
 object
 .
-pub
 compositor_sender
 :
 Sender
@@ -859,7 +857,6 @@ to
 this
 object
 .
-pub
 layout_sender
 :
 ConstellationChan
@@ -882,7 +879,6 @@ to
 this
 object
 .
-pub
 panic_sender
 :
 ConstellationChan
@@ -897,7 +893,6 @@ messages
 from
 scripts
 .
-pub
 script_receiver
 :
 Receiver
@@ -912,7 +907,6 @@ messages
 from
 the
 compositor
-pub
 compositor_receiver
 :
 Receiver
@@ -928,7 +922,6 @@ from
 the
 layout
 thread
-pub
 layout_receiver
 :
 Receiver
@@ -942,7 +935,6 @@ Receives
 panic
 messages
 .
-pub
 panic_receiver
 :
 Receiver
@@ -977,7 +969,6 @@ to
 the
 compositor
 .
-pub
 compositor_proxy
 :
 Box
@@ -1000,7 +991,6 @@ the
 resource
 thread
 .
-pub
 resource_thread
 :
 ResourceThread
@@ -1021,7 +1011,6 @@ image
 cache
 thread
 .
-pub
 image_cache_thread
 :
 ImageCacheThread
@@ -1303,7 +1292,6 @@ the
 time
 profiler
 .
-pub
 time_profiler_chan
 :
 time
@@ -1326,7 +1314,6 @@ the
 memory
 profiler
 .
-pub
 mem_profiler_chan
 :
 mem
