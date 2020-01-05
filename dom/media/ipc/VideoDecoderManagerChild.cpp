@@ -1157,6 +1157,10 @@ this
 SurfaceDescriptor
 sd
 ;
+if
+(
+NS_FAILED
+(
 sVideoDecoderChildThread
 -
 >
@@ -1202,7 +1206,13 @@ sd
 )
 NS_DISPATCH_NORMAL
 )
+)
+)
+{
+return
+nullptr
 ;
+}
 task
 .
 Wait
