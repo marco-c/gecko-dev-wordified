@@ -487,7 +487,13 @@ like
 /
 SetIds
 .
-NewLayer
+CreateRootCompositorLayerIfNecessary
+(
+.
+.
+)
+|
+CreateDescendantCompositorLayerIfNecessary
 (
 .
 .
@@ -505,7 +511,7 @@ SetLayerClipRect
 .
 )
 |
-DeleteLayer
+DeleteLayerGroup
 (
 .
 .

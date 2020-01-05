@@ -114,15 +114,6 @@ RenderTask
 }
 ;
 use
-layout
-:
-:
-util
-:
-:
-OpaqueNode
-;
-use
 script
 :
 :
@@ -267,9 +258,6 @@ LayoutChan
 render_chan
 :
 RenderChan
-<
-OpaqueNode
->
 layout_shutdown_port
 :
 Port
@@ -337,9 +325,6 @@ ScriptChan
 render_chan
 :
 RenderChan
-<
-OpaqueNode
->
 }
 impl
 Pipeline
@@ -914,9 +899,6 @@ LayoutChan
 render_chan
 :
 RenderChan
-<
-OpaqueNode
->
 layout_shutdown_port
 :
 Port
