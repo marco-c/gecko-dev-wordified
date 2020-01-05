@@ -1981,10 +1981,6 @@ mSizeOfQueue
 if
 (
 mDecoder
-&
-&
-!
-mFlushed
 )
 {
 RefPtr
