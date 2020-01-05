@@ -5829,6 +5829,10 @@ UpdateFilter
 (
 )
 ;
+EnsureTarget
+(
+)
+;
 }
 MOZ_ASSERT
 (
