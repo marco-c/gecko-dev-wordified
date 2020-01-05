@@ -110,6 +110,13 @@ include
 <
 vector
 >
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 mozilla
 {
