@@ -1797,7 +1797,7 @@ image_rendering
 T
 :
 :
-Auto
+auto
 =
 >
 Filter
@@ -1810,7 +1810,7 @@ image_rendering
 T
 :
 :
-CrispEdges
+crispedges
 |
 image_rendering
 :
@@ -1818,7 +1818,7 @@ image_rendering
 T
 :
 :
-Pixelated
+pixelated
 =
 >
 Filter
