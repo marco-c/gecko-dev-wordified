@@ -224,9 +224,10 @@ final
 void
 ProcessPage
 (
-Shmem
+const
+nsCString
 &
-aStoredPage
+aPageFileName
 )
 ;
 mozilla
