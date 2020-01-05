@@ -499,14 +499,14 @@ MOZ_GECKO_PROFILER
 #
 include
 "
-ProfilerMarkers
+ProfilerMarkerPayload
 .
 h
 "
 /
 /
 for
-ProfilerMarkers
+LayerTranslationPayload
 #
 endif
 #
