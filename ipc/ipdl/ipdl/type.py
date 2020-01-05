@@ -3091,7 +3091,7 @@ currentScope
 dict
 )
         
-if
+assert
 not
 hasattr
 (
@@ -3100,8 +3100,7 @@ node
 symtab
 '
 )
-:
-            
+        
 node
 .
 symtab
