@@ -144,7 +144,7 @@ client
 /
 netmonitor
 /
-events
+constants
 "
 )
 ;

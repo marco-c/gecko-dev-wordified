@@ -113,7 +113,7 @@ client
 /
 netmonitor
 /
-events
+constants
 "
 )
 ;

@@ -199,7 +199,7 @@ client
 /
 netmonitor
 /
-events
+constants
 "
 )
 ;
