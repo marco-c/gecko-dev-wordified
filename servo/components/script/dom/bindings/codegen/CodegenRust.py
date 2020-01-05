@@ -29126,8 +29126,25 @@ n
 "
                 
 "
+/
+/
+Note
+:
+callback
+cannot
+be
+moved
+after
+calling
+init
+.
+\
+n
+"
+                
+"
 match
-rc
+Rc
 :
 :
 get_mut
