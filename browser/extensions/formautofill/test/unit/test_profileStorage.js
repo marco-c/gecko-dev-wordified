@@ -8,12 +8,6 @@ object
 .
 *
 /
-/
-*
-global
-ProfileStorage
-*
-/
 "
 use
 strict

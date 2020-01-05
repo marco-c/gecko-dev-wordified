@@ -13,12 +13,6 @@ Parent
 .
 *
 /
-/
-*
-global
-FormAutofillParent
-*
-/
 "
 use
 strict
@@ -487,8 +481,6 @@ target
 :
 {
 sendAsyncMessage
-:
-function
 (
 name
 data
