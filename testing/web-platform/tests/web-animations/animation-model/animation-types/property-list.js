@@ -2337,6 +2337,9 @@ spacing
 types
 :
 [
+'
+lengthPair
+'
 ]
 }
 '
