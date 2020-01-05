@@ -1625,6 +1625,13 @@ uint32_t
 flags
 )
 ;
+void
+Gecko_SetOwnerDocumentNeedsStyleFlush
+(
+RawGeckoElementBorrowed
+element
+)
+;
 /
 /
 Incremental
