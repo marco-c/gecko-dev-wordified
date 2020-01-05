@@ -149,6 +149,14 @@ heap_api
 [
 feature
 (
+mpsc_select
+)
+]
+#
+!
+[
+feature
+(
 plugin
 )
 ]
