@@ -175,9 +175,6 @@ const
 SurfaceCaps
 &
 caps
-GLContextGLX
-*
-shareContext
 bool
 isOffscreen
 Display
@@ -410,9 +407,6 @@ const
 SurfaceCaps
 &
 caps
-GLContext
-*
-shareContext
 bool
 isOffscreen
 Display
