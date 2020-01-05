@@ -246,9 +246,11 @@ prefs
 getBoolPref
 (
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "
@@ -322,9 +324,11 @@ prefs
 getBoolPref
 (
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "

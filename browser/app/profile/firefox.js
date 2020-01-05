@@ -20252,9 +20252,11 @@ endif
 pref
 (
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "

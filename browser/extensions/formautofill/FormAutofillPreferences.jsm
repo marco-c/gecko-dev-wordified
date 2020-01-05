@@ -109,9 +109,11 @@ const
 PREF_AUTOFILL_ENABLED
 =
 "
-browser
+extensions
 .
 formautofill
+.
+addresses
 .
 enabled
 "
