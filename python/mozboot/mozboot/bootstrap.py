@@ -2418,6 +2418,7 @@ instance
 ensure_stylo_packages
 (
 state_dir
+checkout_root
 )
         
 print
