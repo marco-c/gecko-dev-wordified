@@ -1977,9 +1977,11 @@ PYTHON
 }
 -
 u
+"
 {
 scriptPath
 }
+"
 %
 *
 \
