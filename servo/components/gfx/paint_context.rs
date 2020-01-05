@@ -1810,7 +1810,7 @@ image_rendering
 T
 :
 :
-crispedges
+crisp_edges
 |
 image_rendering
 :

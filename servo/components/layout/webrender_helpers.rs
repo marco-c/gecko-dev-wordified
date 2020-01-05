@@ -1569,7 +1569,7 @@ image_rendering
 T
 :
 :
-crispedges
+crisp_edges
 =
 >
 webrender_traits

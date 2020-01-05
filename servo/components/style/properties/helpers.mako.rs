@@ -2415,6 +2415,9 @@ extra_gecko_values
 '
 extra_servo_values
 '
+'
+custom_consts
+'
 ]
 }
 %
