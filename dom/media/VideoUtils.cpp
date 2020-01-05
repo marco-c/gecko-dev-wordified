@@ -2161,6 +2161,10 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
+const
+char
+*
+aName
 )
 {
 RefPtr
@@ -2179,6 +2183,7 @@ MediaThreadType
 :
 PLATFORM_DECODER
 )
+aName
 )
 ;
 return

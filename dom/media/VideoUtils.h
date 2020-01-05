@@ -1724,6 +1724,10 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
+const
+char
+*
+aName
 )
 ;
 /

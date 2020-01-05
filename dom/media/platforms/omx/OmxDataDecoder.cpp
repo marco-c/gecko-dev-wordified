@@ -552,6 +552,12 @@ mOmxTaskQueue
 (
 CreateMediaDecodeTaskQueue
 (
+"
+OmxDataDecoder
+:
+:
+mOmxTaskQueue
+"
 )
 )
 mImageContainer

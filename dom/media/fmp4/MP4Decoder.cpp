@@ -1878,6 +1878,15 @@ MediaThreadType
 :
 PLATFORM_DECODER
 )
+"
+MP4Decoder
+:
+:
+IsVideoAccelerated
+:
+:
+taskQueue
+"
 )
 ;
 VideoInfo

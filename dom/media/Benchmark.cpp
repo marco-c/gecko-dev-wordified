@@ -911,6 +911,12 @@ MediaThreadType
 :
 PLAYBACK
 )
+"
+BenchmarkPlayback
+:
+:
+QueueObject
+"
 )
 )
 mMainThreadState
@@ -929,6 +935,12 @@ MediaThreadType
 :
 PLATFORM_DECODER
 )
+"
+BenchmarkPlayback
+:
+:
+mDecoderTaskQueue
+"
 )
 )
 mDemuxer

@@ -475,6 +475,12 @@ MediaThreadType
 :
 PLAYBACK
 )
+"
+MediaDecoderReader
+:
+:
+mTaskQueue
+"
 /
 *
 aSupportsTailDispatch
