@@ -261,6 +261,9 @@ char
 productUniqueIdUTF8
 uint32_t
 productUniqueIdUTF8Length
+pid_t
+*
+pid
 )
 ;
 /
@@ -393,6 +396,9 @@ char
 productUniqueIdUTF8
 uint32_t
 productUniqueIdUTF8Length
+pid_t
+*
+pid
 )
 ;
 virtual

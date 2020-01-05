@@ -395,7 +395,7 @@ uint32_t
 productUniqueIdUTF8Length
 =
 0
-int32_t
+pid_t
 *
 pid
 =
