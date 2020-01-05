@@ -258,8 +258,6 @@ aFileSystem
 nsIFile
 *
 aTargetPath
-bool
-aDirectoryOnly
 ErrorResult
 &
 aRv
@@ -296,7 +294,6 @@ GetFileOrDirectoryTaskChild
 (
 aFileSystem
 aTargetPath
-aDirectoryOnly
 )
 ;
 /
@@ -399,8 +396,6 @@ aFileSystem
 nsIFile
 *
 aTargetPath
-bool
-aDirectoryOnly
 )
 :
 FileSystemTaskChildBase
