@@ -378,7 +378,7 @@ use
 canvas
 :
 :
-canvas_paint_task
+canvas_msg
 :
 :
 CanvasMsg
