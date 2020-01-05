@@ -3364,6 +3364,14 @@ cubeb_destroy
 ctx
 )
 ;
+got_drain
+=
+0
+;
+do_drain
+=
+0
+;
 }
 TEST
 (
