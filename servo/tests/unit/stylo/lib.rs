@@ -131,6 +131,9 @@ style_traits
 mod
 sanity_checks
 ;
+mod
+size_of
+;
 #
 [
 path
