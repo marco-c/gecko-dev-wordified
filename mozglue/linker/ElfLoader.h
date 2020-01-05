@@ -2522,6 +2522,13 @@ expect_shutdown
 true
 )
 {
+pthread_mutex_init
+(
+&
+handlesMutex
+nullptr
+)
+;
 }
 ~
 ElfLoader
@@ -2670,6 +2677,9 @@ LibHandleList
 ;
 LibHandleList
 handles
+;
+pthread_mutex_t
+handlesMutex
 ;
 protected
 :
