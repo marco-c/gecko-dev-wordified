@@ -207,6 +207,9 @@ customstyling
 "
 )
 ;
+var
+usedSelectBackgroundColor
+;
 this
 .
 SelectParentHelper
@@ -424,6 +427,17 @@ color
 selectBackgroundColor
 }
 ;
+;
+usedSelectBackgroundColor
+=
+selectBackgroundColor
+;
+}
+else
+{
+usedSelectBackgroundColor
+=
+uaSelectBackgroundColor
 ;
 }
 if
@@ -1845,7 +1859,7 @@ option
 backgroundColor
 !
 =
-uaBackgroundColor
+usedSelectBackgroundColor
 )
 {
 ruleBody
