@@ -672,6 +672,8 @@ ConfigurationChanged
 aConfig
 )
 ;
+return
+;
 }
 RefPtr
 <
