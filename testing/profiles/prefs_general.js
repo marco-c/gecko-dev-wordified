@@ -4857,7 +4857,7 @@ testing
 user_pref
 (
 "
-browser
+extensions
 .
 formautofill
 .

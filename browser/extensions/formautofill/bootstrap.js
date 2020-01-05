@@ -338,7 +338,7 @@ prefs
 getBoolPref
 (
 "
-browser
+extensions
 .
 formautofill
 .

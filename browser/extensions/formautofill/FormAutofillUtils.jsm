@@ -166,7 +166,7 @@ ConsoleAPI
 maxLogLevelPref
 :
 "
-browser
+extensions
 .
 formautofill
 .
