@@ -34588,7 +34588,7 @@ content
 into
 the
 supplied
-issupportsarray
+nsTArray
 at
 offset
 *
