@@ -3995,6 +3995,16 @@ exit
 )
 ;
 }
+#
+[
+cfg
+(
+not
+(
+windows
+)
+)
+]
 fn
 setup_common
 <
