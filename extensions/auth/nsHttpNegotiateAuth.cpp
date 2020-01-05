@@ -2001,8 +2001,9 @@ virtual
 GetNextTokenRunnable
 (
 )
-{
-}
+=
+default
+;
 public
 :
 GetNextTokenRunnable
