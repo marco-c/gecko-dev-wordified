@@ -250,7 +250,7 @@ aWillAddAttr
 ;
 NS_DECL_ISUPPORTS
 void
-SetAndTakeAttr
+SetAndSwapAttr
 (
 nsIAtom
 *
@@ -258,6 +258,9 @@ aAttrName
 nsAttrValue
 &
 aValue
+bool
+*
+aValueWasSet
 )
 ;
 const

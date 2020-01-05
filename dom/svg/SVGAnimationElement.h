@@ -347,6 +347,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )

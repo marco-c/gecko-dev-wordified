@@ -266,7 +266,7 @@ override
 ;
 virtual
 bool
-SetMappedAttribute
+SetAndSwapMappedAttribute
 (
 nsIAtom
 *
@@ -274,6 +274,9 @@ aName
 nsAttrValue
 &
 aValue
+bool
+*
+aValueWasSet
 nsresult
 *
 aRetval

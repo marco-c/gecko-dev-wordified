@@ -440,6 +440,11 @@ nsAttrValue
 oldValue
 ;
 bool
+oldValueSet
+=
+false
+;
+bool
 hasListeners
 =
 aNotify
@@ -561,6 +566,10 @@ SetTo
 oldValueStr
 )
 ;
+oldValueSet
+=
+true
+;
 }
 }
 else
@@ -667,7 +676,12 @@ nsGkAtoms
 :
 style
 nullptr
+oldValueSet
+?
+&
 oldValue
+:
+nullptr
 attrValue
 modType
 hasListeners
@@ -925,6 +939,9 @@ or
 document
 notifications
 anyway
+bool
+oldValueSet
+;
 nsresult
 rv
 =
@@ -937,6 +954,8 @@ nsGkAtoms
 :
 style
 attrValue
+&
+oldValueSet
 )
 ;
 NS_ENSURE_SUCCESS

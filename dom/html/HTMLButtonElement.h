@@ -471,6 +471,7 @@ been
 changed
 *
 /
+virtual
 nsresult
 AfterSetAttr
 (
@@ -483,6 +484,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
