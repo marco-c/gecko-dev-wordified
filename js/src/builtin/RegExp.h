@@ -715,6 +715,9 @@ cx
 JSObject
 *
 proto
+uint8_t
+*
+result
 )
 ;
 extern
@@ -746,6 +749,9 @@ obj
 JSObject
 *
 proto
+uint8_t
+*
+result
 )
 ;
 extern
