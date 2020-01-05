@@ -5745,6 +5745,20 @@ in
 files_to_check
 :
         
+if
+not
+os
+.
+path
+.
+exists
+(
+filename
+)
+:
+            
+continue
+        
 with
 open
 (
