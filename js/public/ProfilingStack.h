@@ -208,10 +208,7 @@ h
 /
 /
 class
-JS_PUBLIC_API
-(
 ProfileEntry
-)
 {
 /
 /

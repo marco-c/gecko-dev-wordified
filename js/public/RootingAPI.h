@@ -5004,10 +5004,7 @@ Lookup
 T
 ;
 static
-JS_PUBLIC_API
-(
 bool
-)
 hasHash
 (
 const
@@ -5017,10 +5014,7 @@ l
 )
 ;
 static
-JS_PUBLIC_API
-(
 bool
-)
 ensureHash
 (
 const
@@ -5030,10 +5024,7 @@ l
 )
 ;
 static
-JS_PUBLIC_API
-(
 HashNumber
-)
 hash
 (
 const
@@ -5043,10 +5034,7 @@ l
 )
 ;
 static
-JS_PUBLIC_API
-(
 bool
-)
 match
 (
 const

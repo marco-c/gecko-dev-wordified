@@ -159,10 +159,7 @@ JS
 namespace
 ubi
 {
-JS_PUBLIC_API
-(
 void
-)
 CountDeleter
 :
 :
@@ -213,10 +210,7 @@ ptr
 )
 ;
 }
-JS_PUBLIC_API
-(
 bool
-)
 Census
 :
 :
@@ -6446,10 +6440,7 @@ Handler
 *
 *
 /
-JS_PUBLIC_API
-(
 bool
-)
 CensusHandler
 :
 :
@@ -6808,10 +6799,7 @@ v
 )
 ;
 }
-JS_PUBLIC_API
-(
 CountTypePtr
-)
 ParseBreakdown
 (
 JSContext
@@ -8058,10 +8046,7 @@ other
 )
 ;
 }
-JS_PUBLIC_API
-(
 bool
-)
 ParseCensusOptions
 (
 JSContext

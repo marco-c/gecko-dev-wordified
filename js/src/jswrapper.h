@@ -2759,10 +2759,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
-(
 void
-)
 NukeCrossCompartmentWrapper
 (
 JSContext

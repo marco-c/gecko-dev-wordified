@@ -992,10 +992,7 @@ safe
 /
 struct
 MOZ_RAII
-JS_PUBLIC_DATA
-(
 AutoEnterOOMUnsafeRegion
-)
 {
 MOZ_NORETURN
 MOZ_COLD

@@ -11076,10 +11076,7 @@ length
 }
 }
 ;
-JS_PUBLIC_API
-(
 bool
-)
 ConstructSavedFrameStackSlow
 (
 JSContext
