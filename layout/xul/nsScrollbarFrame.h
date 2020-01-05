@@ -165,6 +165,14 @@ LayoutFrameType
 :
 Scrollbar
 )
+mIncrement
+(
+0
+)
+mSmoothScroll
+(
+false
+)
 mScrollbarMediator
 (
 nullptr
