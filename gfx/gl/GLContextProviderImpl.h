@@ -515,6 +515,16 @@ context
 for
 *
 param
+aWebRender
+If
+the
+compositor
+is
+a
+WebRender
+compositor
+*
+param
 aForceAccelerated
 true
 if
@@ -544,6 +554,8 @@ CreateForWindow
 nsIWidget
 *
 aWidget
+bool
+aWebRender
 bool
 aForceAccelerated
 )
