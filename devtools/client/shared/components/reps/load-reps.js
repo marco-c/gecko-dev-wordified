@@ -150,6 +150,9 @@ parseURLEncodedText
 let
 parseURLParams
 ;
+let
+getSelectableInInspectorGrips
+;
 /
 /
 useRepsBundle
@@ -238,6 +241,12 @@ parseURLParams
 bundle
 .
 parseURLParams
+;
+getSelectableInInspectorGrips
+=
+bundle
+.
+getSelectableInInspectorGrips
 ;
 }
 else
@@ -382,6 +391,12 @@ exports
 parseURLParams
 =
 parseURLParams
+;
+exports
+.
+getSelectableInInspectorGrips
+=
+getSelectableInInspectorGrips
 ;
 }
 )
