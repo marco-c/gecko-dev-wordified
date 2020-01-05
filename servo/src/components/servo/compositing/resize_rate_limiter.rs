@@ -73,13 +73,13 @@ events
 sent
 to
 the
-content
+script
 task
 based
 on
 how
 fast
-content
+script
 dispatches
 those
 events
@@ -350,7 +350,8 @@ warn
 "
 osmain
 :
-content
+script
+task
 can
 '
 t

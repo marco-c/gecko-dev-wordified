@@ -864,7 +864,9 @@ fn
 Periodically
 check
 if
-content
+the
+script
+task
 responded
 to
 our

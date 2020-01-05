@@ -588,7 +588,7 @@ Size2D
 <
 uint
 >
-content_join_chan
+script_join_chan
 :
 comm
 :
@@ -633,7 +633,7 @@ Msg
 >
 (
 |
-from_content
+from_script
 |
 {
 let
@@ -652,7 +652,7 @@ img_cache_task
 clone
 (
 )
-from_content
+from_script
 &
 opts
 )
@@ -680,7 +680,7 @@ local_image_cache
 :
 mut
 LocalImageCache
-from_content
+from_script
 :
 Port
 <
@@ -720,7 +720,7 @@ RenderTask
 image_cache_task
 :
 ImageCacheTask
-from_content
+from_script
 :
 Port
 <
@@ -769,9 +769,9 @@ LocalImageCache
 (
 image_cache_task
 )
-from_content
+from_script
 :
-from_content
+from_script
 font_ctx
 :
 fctx
@@ -826,7 +826,7 @@ bool
 match
 self
 .
-from_content
+from_script
 .
 recv
 (
@@ -1663,7 +1663,7 @@ building
 /
 /
 Tell
-content
+script
 that
 we
 '
@@ -1672,7 +1672,7 @@ done
 .
 data
 .
-content_join_chan
+script_join_chan
 .
 send
 (
@@ -2010,7 +2010,7 @@ message
 /
 to
 the
-content
+script
 task
 and
 ultimately
@@ -2041,7 +2041,7 @@ to
 /
 /
 the
-content
+script
 task
 for
 this
