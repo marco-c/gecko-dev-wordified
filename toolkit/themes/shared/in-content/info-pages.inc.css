@@ -455,6 +455,15 @@ style
 disc
 ;
 }
+dt
+{
+font
+-
+weight
+:
+bold
+;
+}
 /
 *
 Buttons
