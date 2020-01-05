@@ -621,8 +621,11 @@ int16_t
 aRefCounter
 int16_t
 aMaxReferenceCount
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 aFrame
@@ -1015,6 +1018,7 @@ mRefCounter
 int16_t
 mMaxReferenceCount
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
