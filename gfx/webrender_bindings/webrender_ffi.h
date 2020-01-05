@@ -2086,6 +2086,16 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_api_generate_frame
+(
+WrAPI
+*
+api
+)
+WR_FUNC
+;
+WR_INLINE
+void
 wr_api_send_external_event
 (
 WrAPI
