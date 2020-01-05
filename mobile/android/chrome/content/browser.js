@@ -16904,7 +16904,7 @@ category
 aCategory
 }
 ;
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -16920,7 +16920,7 @@ aValue
 aTabID
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
