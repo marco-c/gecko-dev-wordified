@@ -194,7 +194,6 @@ margin
 h4
 blockquote
 fieldset
-form
 dir
 menu
 {
@@ -983,4 +982,19 @@ style
 display
 :
 none
+}
+input
+[
+type
+=
+"
+hidden
+"
+]
+{
+display
+:
+none
+!
+important
 }
