@@ -535,6 +535,9 @@ container
 inherited_style
 :
 initial_style
+layout_parent_style
+:
+initial_style
 style
 :
 initial_style
