@@ -549,9 +549,7 @@ GlType
 Gl
 =
 >
-{
 GL_FORMAT_BGRA_GL
-}
 gl
 :
 :
@@ -561,9 +559,7 @@ GlType
 Gles
 =
 >
-{
 GL_FORMAT_BGRA_GLES
-}
 }
 }
 #
@@ -8836,6 +8832,7 @@ BlobImageError
 InvalidKey
 )
 }
+;
 }
 }
 impl
