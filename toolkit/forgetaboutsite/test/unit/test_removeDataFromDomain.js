@@ -411,8 +411,6 @@ nsIIOService
 newURI
 (
 aURIString
-null
-null
 )
 ;
 }
