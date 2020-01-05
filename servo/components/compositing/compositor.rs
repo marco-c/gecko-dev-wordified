@@ -6869,6 +6869,16 @@ in_scroll_transaction
 {
 (
 false
+None
+)
+=
+>
+ScrollEventPhase
+:
+:
+Start
+(
+false
 Some
 (
 last_scroll
