@@ -1942,16 +1942,8 @@ CacheRegisterAllocator
 :
 init
 (
-const
-AllocatableGeneralRegisterSet
-&
-available
 )
 {
-availableRegs_
-=
-available
-;
 if
 (
 !
