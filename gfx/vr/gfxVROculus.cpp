@@ -2859,7 +2859,7 @@ predictedFrameTime
 ovr_GetPredictedDisplayTime
 (
 mSession
-mInputFrameID
+0
 )
 ;
 frameDelta
