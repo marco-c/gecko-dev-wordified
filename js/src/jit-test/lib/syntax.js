@@ -10803,6 +10803,10 @@ each
 .
 .
 in
+enableForEach
+(
+)
+;
 test
 (
 "
@@ -10984,6 +10988,10 @@ in
 y
 )
 "
+)
+;
+disableForEach
+(
 )
 ;
 /
