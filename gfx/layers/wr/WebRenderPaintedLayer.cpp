@@ -636,10 +636,7 @@ GetWrRelBounds
 (
 )
 ;
-gfx
-:
-:
-Rect
+LayerRect
 rect
 (
 0
@@ -652,10 +649,7 @@ size
 height
 )
 ;
-gfx
-:
-:
-Rect
+LayerRect
 clipRect
 =
 GetWrClipRect
