@@ -102,10 +102,10 @@ flow
 :
 :
 {
+BaseFlow
 BlockFlowClass
 FlowClass
 Flow
-FlowData
 ImmutableFlowUtils
 }
 ;
@@ -332,7 +332,7 @@ flows
 .
 base
 :
-FlowData
+BaseFlow
 /
 /
 /
@@ -386,7 +386,7 @@ new
 (
 base
 :
-FlowData
+BaseFlow
 )
 -
 >
@@ -414,7 +414,7 @@ from_box
 (
 base
 :
-FlowData
+BaseFlow
 box_
 :
 Box
@@ -448,7 +448,7 @@ float_from_box
 (
 base
 :
-FlowData
+BaseFlow
 float_type
 :
 FloatType
@@ -495,7 +495,7 @@ new_root
 (
 base
 :
-FlowData
+BaseFlow
 )
 -
 >
@@ -523,7 +523,7 @@ new_float
 (
 base
 :
-FlowData
+BaseFlow
 float_type
 :
 FloatType
