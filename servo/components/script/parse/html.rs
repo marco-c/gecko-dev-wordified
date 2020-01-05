@@ -2523,7 +2523,6 @@ parse_progress
 (
 parser
 :
-&
 JSRef
 <
 ServoHTMLParser
@@ -2934,7 +2933,6 @@ page
 ;
 parse_progress
 (
-&
 parser
 url
 &
@@ -2948,7 +2946,6 @@ _
 {
 parse_progress
 (
-&
 parser
 url
 &
