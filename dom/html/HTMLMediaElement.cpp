@@ -40697,10 +40697,7 @@ OwnerDoc
 Dispatch
 (
 "
-HTMLMediaElement
-:
-:
-AsyncResolvePendingPlayPromises
+nsResolveOrRejectPendingPlayPromisesRunner
 "
 TaskCategory
 :
@@ -40756,10 +40753,7 @@ OwnerDoc
 Dispatch
 (
 "
-HTMLMediaElement
-:
-:
-AsyncRejectPendingPlayPromises
+nsResolveOrRejectPendingPlayPromisesRunner
 "
 TaskCategory
 :
