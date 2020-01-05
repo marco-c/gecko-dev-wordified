@@ -432,5 +432,12 @@ wave
 -
 quicktime
 atom
+ProtectionSystemSpecificHeaderBox
+0x70737368
+/
+/
+"
+pssh
+"
 )
 ;
