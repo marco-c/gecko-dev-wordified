@@ -147,7 +147,7 @@ Forward
 fatal
 asserts
 to
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 when
 built
 inside
@@ -161,7 +161,7 @@ XASSERT
 (
 expr
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 expr
 )
