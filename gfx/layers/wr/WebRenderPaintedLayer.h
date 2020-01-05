@@ -197,10 +197,6 @@ LayerManager
 :
 NONE
 )
-mExternalImageId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -224,6 +220,10 @@ WebRenderPaintedLayer
 if
 (
 mExternalImageId
+.
+isSome
+(
+)
 )
 {
 WrBridge
@@ -234,6 +234,10 @@ WrBridge
 DeallocExternalImageId
 (
 mExternalImageId
+.
+ref
+(
+)
 )
 ;
 }
@@ -255,7 +259,13 @@ mManager
 )
 ;
 }
-uint64_t
+Maybe
+<
+wr
+:
+:
+ExternalImageId
+>
 mExternalImageId
 ;
 public

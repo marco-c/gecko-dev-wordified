@@ -5785,7 +5785,10 @@ OtherPid
 )
 ;
 }
-uint64_t
+wr
+:
+:
+ExternalImageId
 ImageBridgeChild
 :
 :
@@ -5826,7 +5829,13 @@ imageId
 sNextID
 ;
 return
+wr
+:
+:
+ToExternalImageId
+(
 imageId
+)
 ;
 }
 }

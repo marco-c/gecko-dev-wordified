@@ -230,7 +230,13 @@ GetImageClientType
 (
 )
 ;
-uint64_t
+Maybe
+<
+wr
+:
+:
+ExternalImageId
+>
 mExternalImageId
 ;
 Maybe
