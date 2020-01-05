@@ -1431,12 +1431,7 @@ bytesSent
 =
 0
 ;
-while
-(
-bytesSent
-<
-amount
-)
+do
 {
 while
 (
@@ -1576,6 +1571,13 @@ return
 }
 }
 }
+while
+(
+bytesSent
+<
+amount
+)
+;
 return
 bytesSent
 ;

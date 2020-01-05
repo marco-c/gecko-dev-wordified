@@ -4361,12 +4361,7 @@ count
 =
 0
 ;
-while
-(
-amount
->
-0
-)
+do
 {
 temp
 =
@@ -4442,6 +4437,13 @@ amount
 temp
 ;
 }
+while
+(
+amount
+>
+0
+)
+;
 return
 count
 ;
