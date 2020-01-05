@@ -249,6 +249,12 @@ StyleAnimationValue
 aBaseAnimationStyle
 )
 ;
+static
+uint64_t
+GetNextCompositorAnimationsId
+(
+)
+;
 }
 ;
 }
