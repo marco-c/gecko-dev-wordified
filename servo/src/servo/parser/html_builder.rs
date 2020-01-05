@@ -522,6 +522,7 @@ Element
 (
 ElementData
 (
+copy
 tag_name
 element_kind
 )
@@ -570,7 +571,9 @@ link_up_attribute
 (
 scope
 cur
+copy
 key
+copy
 value
 )
 ;
@@ -677,12 +680,6 @@ is_whitespace
 )
 {
 let
-s
-<
--
-s
-;
-let
 new_node
 =
 scope
@@ -691,6 +688,7 @@ new_node
 (
 Text
 (
+copy
 s
 )
 )
