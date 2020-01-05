@@ -1438,6 +1438,14 @@ GetOnmessage
 SetOnmessage
 )
 ;
+event_handler
+!
+(
+error
+GetOnerror
+SetOnerror
+)
+;
 }
 pub
 struct
