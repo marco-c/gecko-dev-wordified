@@ -120,6 +120,7 @@ resource_task
 :
 :
 {
+CancellationListener
 send_error
 start_sending_sniffed_opt
 }
@@ -174,6 +175,9 @@ Arc
 <
 MIMEClassifier
 >
+cancel_listener
+:
+CancellationListener
 )
 {
 match
@@ -407,5 +411,6 @@ factory
 load_data
 start_chan
 classifier
+cancel_listener
 )
 }
