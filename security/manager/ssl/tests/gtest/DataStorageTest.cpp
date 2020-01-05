@@ -191,11 +191,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 const
 :
