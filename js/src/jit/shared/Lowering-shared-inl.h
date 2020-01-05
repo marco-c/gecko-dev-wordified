@@ -1728,6 +1728,13 @@ isCall
 )
 )
 ;
+gen
+-
+>
+setPerformsCall
+(
+)
+;
 uint32_t
 vreg
 =
