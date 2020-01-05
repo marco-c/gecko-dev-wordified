@@ -13497,10 +13497,6 @@ node
 :
 :
 TElement
-<
-'
-a
->
 for
 &
 '
@@ -13510,6 +13506,7 @@ Element
 fn
 is_link
 (
+&
 self
 )
 -
@@ -13533,6 +13530,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -13643,6 +13641,7 @@ inline
 fn
 is_unvisited_link
 (
+&
 self
 )
 -
@@ -13662,6 +13661,7 @@ inline
 fn
 is_visited_link
 (
+&
 self
 )
 -
@@ -13672,14 +13672,21 @@ false
 }
 fn
 get_local_name
+<
+'
+b
+>
 (
+&
+'
+b
 self
 )
 -
 >
 &
 '
-a
+b
 Atom
 {
 /
@@ -13739,19 +13746,27 @@ local_name
 }
 get_local_name
 (
+*
 self
 )
 }
 fn
 get_namespace
+<
+'
+b
+>
 (
+&
+'
+b
 self
 )
 -
 >
 &
 '
-a
+b
 Namespace
 {
 /
@@ -13811,12 +13826,14 @@ namespace
 }
 get_namespace
 (
+*
 self
 )
 }
 fn
 get_hover_state
 (
+&
 self
 )
 -
@@ -13831,6 +13848,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -13843,6 +13861,7 @@ get_hover_state
 fn
 get_focus_state
 (
+&
 self
 )
 -
@@ -13906,6 +13925,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -13918,6 +13938,7 @@ get_focus_state
 fn
 get_id
 (
+&
 self
 )
 -
@@ -14037,6 +14058,7 @@ Atom
 fn
 get_disabled_state
 (
+&
 self
 )
 -
@@ -14051,6 +14073,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -14063,6 +14086,7 @@ get_disabled_state
 fn
 get_enabled_state
 (
+&
 self
 )
 -
@@ -14077,6 +14101,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -14089,6 +14114,7 @@ get_enabled_state
 fn
 get_checked_state
 (
+&
 self
 )
 -
@@ -14109,6 +14135,7 @@ HTMLInputElementCast
 :
 to_ref
 (
+*
 self
 )
 ;
@@ -14135,6 +14162,7 @@ false
 fn
 get_indeterminate_state
 (
+&
 self
 )
 -
@@ -14155,6 +14183,7 @@ HTMLInputElementCast
 :
 to_ref
 (
+*
 self
 )
 ;
@@ -14181,6 +14210,7 @@ false
 fn
 has_class
 (
+&
 self
 name
 :
@@ -14244,6 +14274,7 @@ name
 }
 has_class
 (
+*
 self
 name
 )
@@ -14254,6 +14285,7 @@ each_class
 F
 >
 (
+&
 self
 mut
 callback
@@ -14333,8 +14365,9 @@ token
 }
 }
 fn
-has_nonzero_border
+has_servo_nonzero_border
 (
+&
 self
 )
 -
@@ -14355,6 +14388,7 @@ HTMLTableElementCast
 :
 to_ref
 (
+*
 self
 )
 ;

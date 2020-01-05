@@ -678,15 +678,6 @@ use
 style
 :
 :
-node
-:
-:
-TNode
-;
-use
-style
-:
-:
 selector_matching
 :
 :
