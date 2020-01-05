@@ -11,17 +11,6 @@ wasm
 baseline
 compiler
 .
-load
-(
-libdir
-+
-"
-wasm
-.
-js
-"
-)
-;
 /
 /
 Boolean

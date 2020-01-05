@@ -2,17 +2,6 @@
 /
 Bug
 1316181
-load
-(
-libdir
-+
-"
-wasm
-.
-js
-"
-)
-;
 /
 /
 There

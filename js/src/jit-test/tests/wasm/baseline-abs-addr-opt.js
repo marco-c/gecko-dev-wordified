@@ -77,17 +77,6 @@ is
 being
 applied
 .
-load
-(
-libdir
-+
-"
-wasm
-.
-js
-"
-)
-;
 /
 /
 Memory

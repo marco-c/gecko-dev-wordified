@@ -14,17 +14,6 @@ wasm
 check
 -
 bce
-load
-(
-libdir
-+
-"
-wasm
-.
-js
-"
-)
-;
 const
 RuntimeError
 =

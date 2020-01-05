@@ -35,17 +35,6 @@ the
 GC
 graph
 .
-load
-(
-libdir
-+
-'
-wasm
-.
-js
-'
-)
-;
 const
 Module
 =
