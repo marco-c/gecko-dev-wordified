@@ -132,6 +132,14 @@ appendStats
 (
 dict
 .
+rtpContributingSourceStats
+report
+)
+;
+appendStats
+(
+dict
+.
 mediaStreamTrackStats
 report
 )
