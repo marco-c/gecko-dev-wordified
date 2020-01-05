@@ -40030,9 +40030,6 @@ sig
 name
 descriptorProvider
 needThisHandling
-rethrowContentException
-=
-False
 )
 :
         
@@ -40062,13 +40059,6 @@ otherwise
 "
 "
 "
-        
-assert
-not
-rethrowContentException
-or
-not
-needThisHandling
         
 self
 .
@@ -40227,12 +40217,6 @@ else
 "
 pub
 "
-        
-self
-.
-rethrowContentException
-=
-rethrowContentException
         
 #
 We
@@ -41292,34 +41276,6 @@ aRethrowExceptions
 argument
 .
             
-if
-self
-.
-rethrowContentException
-:
-                
-args
-.
-append
-(
-Argument
-(
-"
-JSCompartment
-*
-"
-"
-aCompartment
-"
-"
-nullptr
-"
-)
-)
-            
-else
-:
-                
 args
 .
 append
@@ -41332,7 +41288,7 @@ ExceptionHandling
 "
 aExceptionHandling
 "
-                                     
+                                 
 "
 ReportExceptions
 "
@@ -41422,8 +41378,9 @@ return
 "
 "
         
-callSetup
-=
+return
+(
+            
 "
 CallSetup
 s
@@ -41432,69 +41389,9 @@ CallbackPreserveColor
 (
 )
 aRv
-"
-        
-if
-self
-.
-rethrowContentException
-:
-            
-#
-getArgs
-doesn
-'
-t
-add
-the
 aExceptionHandling
-argument
-but
-does
-add
-            
-#
-aCompartment
-for
-us
-.
-            
-callSetup
-+
-=
-"
-RethrowContentExceptions
-aCompartment
-"
-        
-else
-:
-            
-callSetup
-+
-=
-"
-aExceptionHandling
-"
-        
-callSetup
-+
-=
-"
 )
 ;
-"
-        
-return
-string
-.
-Template
-(
-            
-"
-{
-callSetup
-}
 \
 n
 "
@@ -41541,19 +41438,6 @@ n
 \
 n
 "
-)
-.
-substitute
-(
-{
-                
-"
-callSetup
-"
-:
-callSetup
-            
-}
 )
     
 def
@@ -41759,9 +41643,6 @@ sig
 name
 descriptorProvider
 needThisHandling
-rethrowContentException
-=
-False
 )
 :
         
@@ -41775,7 +41656,6 @@ name
 descriptorProvider
                                 
 needThisHandling
-rethrowContentException
 )
     
 def
@@ -42094,9 +41974,6 @@ jsName
 nativeName
 descriptor
 singleOperation
-rethrowContentException
-=
-False
 )
 :
         
@@ -42121,7 +41998,6 @@ signature
 nativeName
 descriptor
 singleOperation
-rethrowContentException
 )
     
 def
@@ -42466,16 +42342,6 @@ interface
 isSingleOperationInterface
 (
 )
-                                       
-rethrowContentException
-=
-descriptor
-.
-interface
-.
-isJSImplemented
-(
-)
 )
 class
 CallbackGetter
@@ -42534,16 +42400,6 @@ descriptor
 needThisHandling
 =
 False
-                                
-rethrowContentException
-=
-descriptor
-.
-interface
-.
-isJSImplemented
-(
-)
 )
     
 def
@@ -42722,16 +42578,6 @@ descriptor
 needThisHandling
 =
 False
-                                
-rethrowContentException
-=
-descriptor
-.
-interface
-.
-isJSImplemented
-(
-)
 )
     
 def
