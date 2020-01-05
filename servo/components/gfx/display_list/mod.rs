@@ -3208,7 +3208,7 @@ Au
 /
 /
 The
-size
+rect
 of
 the
 contents
@@ -3223,9 +3223,9 @@ scroll
 root
 .
 pub
-size
+content_rect
 :
-Size2D
+Rect
 <
 Au
 >
