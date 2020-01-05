@@ -1583,7 +1583,7 @@ Some
 (
 self
 .
-pipeline
+pipeline_id
 (
 )
 )
@@ -2929,7 +2929,7 @@ script_chan
 }
 pub
 fn
-pipeline
+pipeline_id
 (
 &
 self
@@ -2978,7 +2978,7 @@ dedicated
 return
 dedicated
 .
-pipeline
+pipeline_id
 (
 )
 ;
@@ -2996,7 +2996,7 @@ service_worker
 return
 service_worker
 .
-pipeline
+pipeline_id
 (
 )
 ;

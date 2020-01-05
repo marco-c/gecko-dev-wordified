@@ -3269,7 +3269,7 @@ pipeline_id
 =
 global
 .
-pipeline
+pipeline_id
 (
 )
 ;

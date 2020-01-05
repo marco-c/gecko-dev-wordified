@@ -212,7 +212,7 @@ ConsoleAPI
 (
 global
 .
-pipeline
+pipeline_id
 (
 )
 console_message

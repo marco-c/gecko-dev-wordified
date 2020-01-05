@@ -1844,7 +1844,7 @@ implicit_wait_timeout
 }
 }
 fn
-pipeline
+pipeline_id
 (
 &
 self
@@ -2020,7 +2020,7 @@ PipelineId
 {
 self
 .
-pipeline
+pipeline_id
 (
 None
 )
@@ -2040,7 +2040,7 @@ PipelineId
 {
 self
 .
-pipeline
+pipeline_id
 (
 self
 .

@@ -435,7 +435,7 @@ Some
 (
 global
 .
-pipeline
+pipeline_id
 (
 )
 )
@@ -468,7 +468,7 @@ pipeline_id
 :
 global
 .
-pipeline
+pipeline_id
 (
 )
 init
