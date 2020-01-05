@@ -1345,7 +1345,7 @@ gecko_enum_prefix
 "
 StyleUserModify
 "
-gecko_inexhaustive
+needs_conversion
 =
 True
 animatable
