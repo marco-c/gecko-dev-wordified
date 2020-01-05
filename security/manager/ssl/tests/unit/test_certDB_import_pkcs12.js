@@ -385,7 +385,6 @@ gCertDB
 .
 importPKCS12File
 (
-null
 certFile
 )
 ;

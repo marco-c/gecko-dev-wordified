@@ -2017,7 +2017,6 @@ certdb
 .
 exportPKCS12File
 (
-null
 fp
 .
 file
@@ -2455,7 +2454,6 @@ certdb
 .
 importPKCS12File
 (
-null
 fp
 .
 file
