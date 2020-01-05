@@ -392,8 +392,6 @@ API
 *
 /
 init
-:
-function
 (
 )
 {
@@ -665,8 +663,6 @@ false
 }
 }
 uninit
-:
-function
 (
 )
 {
@@ -916,8 +912,6 @@ registration
 *
 /
 notifyChildOfSettingsChange
-:
-function
 (
 )
 {
@@ -1036,8 +1030,6 @@ Events
 *
 /
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1066,8 +1058,6 @@ uninit
 }
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
@@ -1303,8 +1293,6 @@ Internal
 *
 /
 _findbarFromMessage
-:
-function
 (
 aMsg
 )
@@ -1345,8 +1333,6 @@ tab
 ;
 }
 _updateControlState
-:
-function
 (
 aMsg
 )
@@ -1377,8 +1363,6 @@ findPrevious
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1531,10 +1515,6 @@ handleEvent
 '
 {
 type
-:
-type
-detail
-:
 detail
 }
 )
@@ -1563,8 +1543,6 @@ findcasesensitivitychange
 '
 ]
 _addEventListener
-:
-function
 (
 aMsg
 )
@@ -1702,8 +1680,6 @@ true
 }
 }
 _removeEventListener
-:
-function
 (
 aMsg
 )
@@ -1813,8 +1789,6 @@ true
 }
 }
 _ensurePreferenceAllowed
-:
-function
 (
 aPrefName
 )
@@ -1902,8 +1876,6 @@ msg
 }
 }
 _clearUserPref
-:
-function
 (
 aPrefName
 )
@@ -1926,8 +1898,6 @@ aPrefName
 ;
 }
 _setIntPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -1952,8 +1922,6 @@ aPrefValue
 ;
 }
 _setBoolPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -1978,8 +1946,6 @@ aPrefValue
 ;
 }
 _setCharPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -2004,8 +1970,6 @@ aPrefValue
 ;
 }
 _setStringPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -2096,8 +2060,6 @@ parent
 *
 /
 isDefaultHandlerApp
-:
-function
 (
 )
 {
@@ -2161,8 +2123,6 @@ correctly
 *
 /
 _displayWarning
-:
-function
 (
 aMsg
 )
@@ -2268,8 +2228,6 @@ fallbackDownload
 '
 {
 download
-:
-download
 }
 )
 ;
@@ -2290,8 +2248,6 @@ data
 .
 accessKey
 callback
-:
-function
 (
 )
 {

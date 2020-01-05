@@ -740,8 +740,6 @@ the
 document
 language
 getLanguage
-:
-function
 (
 )
 {
@@ -764,8 +762,6 @@ the
 current
 language
 getDirection
-:
-function
 (
 )
 {
@@ -876,8 +872,6 @@ ltr
 ;
 }
 getReadyState
-:
-function
 (
 )
 {
@@ -886,8 +880,6 @@ gReadyState
 ;
 }
 setExternalLocalizerServices
-:
-function
 (
 externalLocalizerServices
 )

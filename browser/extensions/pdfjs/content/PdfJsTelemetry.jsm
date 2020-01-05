@@ -193,8 +193,6 @@ PdfJsTelemetry
 =
 {
 onViewerIsUsed
-:
-function
 (
 )
 {
@@ -221,8 +219,6 @@ true
 ;
 }
 onFallback
-:
-function
 (
 )
 {
@@ -249,8 +245,6 @@ true
 ;
 }
 onDocumentSize
-:
-function
 (
 size
 )
@@ -280,8 +274,6 @@ size
 ;
 }
 onDocumentVersion
-:
-function
 (
 versionId
 )
@@ -309,8 +301,6 @@ versionId
 ;
 }
 onDocumentGenerator
-:
-function
 (
 generatorId
 )
@@ -338,8 +328,6 @@ generatorId
 ;
 }
 onEmbed
-:
-function
 (
 isObject
 )
@@ -367,8 +355,6 @@ isObject
 ;
 }
 onFontType
-:
-function
 (
 fontTypeId
 )
@@ -396,8 +382,6 @@ fontTypeId
 ;
 }
 onForm
-:
-function
 (
 isAcroform
 )
@@ -425,8 +409,6 @@ isAcroform
 ;
 }
 onPrint
-:
-function
 (
 )
 {
@@ -453,8 +435,6 @@ true
 ;
 }
 onStreamType
-:
-function
 (
 streamTypeId
 )
@@ -482,8 +462,6 @@ streamTypeId
 ;
 }
 onTimeToView
-:
-function
 (
 ms
 )

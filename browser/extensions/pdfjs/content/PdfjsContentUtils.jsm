@@ -250,8 +250,6 @@ PROCESS_TYPE_CONTENT
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -351,8 +349,6 @@ false
 }
 }
 uninit
-:
-function
 (
 )
 {
@@ -442,8 +438,6 @@ utils
 *
 /
 clearUserPref
-:
-function
 (
 aPrefName
 )
@@ -470,8 +464,6 @@ aPrefName
 ;
 }
 setIntPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -502,8 +494,6 @@ aPrefValue
 ;
 }
 setBoolPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -534,8 +524,6 @@ aPrefValue
 ;
 }
 setCharPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -566,8 +554,6 @@ aPrefValue
 ;
 }
 setStringPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -625,8 +611,6 @@ process
 *
 /
 isDefaultHandlerApp
-:
-function
 (
 )
 {
@@ -680,13 +664,11 @@ correctly
 *
 /
 displayWarning
-:
-function
 (
 aWindow
 aMessage
 aLabel
-accessKey
+aAccessKey
 )
 {
 /
@@ -756,7 +738,7 @@ label
 aLabel
 accessKey
 :
-accessKey
+aAccessKey
 }
 )
 ;
@@ -768,8 +750,6 @@ Events
 *
 /
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -798,8 +778,6 @@ uninit
 }
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
