@@ -8687,29 +8687,6 @@ MozTagAnonymousMemory
 .
 #
 ifdef
-MOZ_DEBUG
-#
-define
-assert
-(
-e
-)
-MOZ_ASSERT
-(
-e
-)
-#
-else
-#
-define
-assert
-(
-e
-)
-#
-endif
-#
-ifdef
 MOZ_MEMORY_ANDROID
 /
 /
@@ -8808,7 +8785,7 @@ RELEASE_ASSERT
 (
 assertion
 )
-assert
+MOZ_ASSERT
 (
 assertion
 )
@@ -10520,7 +10497,7 @@ csize
 size_t
 pminsize
 ;
-assert
+MOZ_ASSERT
 (
 minsize
 !
@@ -12851,7 +12828,7 @@ MAP_ANON
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 ret
 !
@@ -13292,7 +13269,7 @@ MAP_ANON
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 ret
 !
@@ -13576,7 +13553,7 @@ defined
 __linux__
 )
 )
-assert
+MOZ_ASSERT
 (
 ret
 =
@@ -13609,7 +13586,7 @@ addr
 ;
 #
 else
-assert
+MOZ_ASSERT
 (
 ret
 =
@@ -13764,7 +13741,7 @@ size_t
 n
 )
 {
-assert
+MOZ_ASSERT
 (
 (
 void
@@ -13784,7 +13761,7 @@ pagesize_mask
 dest
 )
 ;
-assert
+MOZ_ASSERT
 (
 n
 >
@@ -13792,7 +13769,7 @@ n
 VM_COPY_MIN
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 void
@@ -14512,7 +14489,7 @@ check
 define
 MALLOC_RTREE_GET_VALIDATE
 \
-assert
+MOZ_ASSERT
 (
 malloc_rtree_get_locked
 (
@@ -14953,7 +14930,7 @@ addr
 leadsize
 )
 ;
-assert
+MOZ_ASSERT
 (
 alloc_size
 >
@@ -15178,7 +15155,7 @@ ret
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 ret
 !
@@ -15386,7 +15363,7 @@ alignment
 )
 ;
 }
-assert
+MOZ_ASSERT
 (
 ret
 !
@@ -15840,7 +15817,7 @@ node
 >
 addr
 ;
-assert
+MOZ_ASSERT
 (
 node
 -
@@ -16226,7 +16203,7 @@ i
 +
 +
 )
-assert
+MOZ_ASSERT
 (
 p
 [
@@ -16337,7 +16314,7 @@ void
 *
 ret
 ;
-assert
+MOZ_ASSERT
 (
 size
 !
@@ -16345,7 +16322,7 @@ size
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 size
@@ -16357,7 +16334,7 @@ chunksize_mask
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 alignment
 !
@@ -16365,7 +16342,7 @@ alignment
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 alignment
@@ -16487,7 +16464,7 @@ NULL
 ;
 }
 }
-assert
+MOZ_ASSERT
 (
 CHUNK_ADDR2BASE
 (
@@ -17135,7 +17112,7 @@ size_t
 size
 )
 {
-assert
+MOZ_ASSERT
 (
 chunk
 !
@@ -17143,7 +17120,7 @@ chunk
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 CHUNK_ADDR2BASE
 (
@@ -17154,7 +17131,7 @@ chunk
 chunk
 )
 ;
-assert
+MOZ_ASSERT
 (
 size
 !
@@ -17162,7 +17139,7 @@ size
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 size
@@ -17634,7 +17611,7 @@ uintptr_t
 )
 b
 ;
-assert
+MOZ_ASSERT
 (
 a
 !
@@ -17642,7 +17619,7 @@ a
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 b
 !
@@ -17717,7 +17694,7 @@ uintptr_t
 )
 b
 ;
-assert
+MOZ_ASSERT
 (
 a
 !
@@ -17725,7 +17702,7 @@ a
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 b
 !
@@ -17954,7 +17931,7 @@ mask
 bit
 regind
 ;
-assert
+MOZ_ASSERT
 (
 run
 -
@@ -17965,7 +17942,7 @@ magic
 ARENA_RUN_MAGIC
 )
 ;
-assert
+MOZ_ASSERT
 (
 run
 -
@@ -18073,7 +18050,7 @@ SIZEOF_INT_2POW
 bit
 )
 ;
-assert
+MOZ_ASSERT
 (
 regind
 <
@@ -18218,7 +18195,7 @@ SIZEOF_INT_2POW
 bit
 )
 ;
-assert
+MOZ_ASSERT
 (
 regind
 <
@@ -18731,7 +18708,7 @@ regind
 elm
 bit
 ;
-assert
+MOZ_ASSERT
 (
 run
 -
@@ -18742,7 +18719,7 @@ magic
 ARENA_RUN_MAGIC
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 (
@@ -19413,14 +19390,14 @@ size
 pagesize_2pow
 )
 ;
-assert
+MOZ_ASSERT
 (
 need_pages
 >
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 need_pages
 <
@@ -19716,7 +19693,7 @@ exclusive
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 !
 (
@@ -20672,7 +20649,7 @@ arena_chunk_map_t
 mapelm
 key
 ;
-assert
+MOZ_ASSERT
 (
 size
 <
@@ -20680,7 +20657,7 @@ size
 arena_maxclass
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 size
@@ -21088,7 +21065,7 @@ arena
 chunks_dirty
 chunk
 )
-assert
+MOZ_ASSERT
 (
 ndirty
 =
@@ -21275,7 +21252,7 @@ CHUNK_MAP_MADVISED
 ;
 #
 endif
-assert
+MOZ_ASSERT
 (
 (
 chunk
@@ -21358,7 +21335,7 @@ i
 -
 -
 ;
-assert
+MOZ_ASSERT
 (
 (
 chunk
@@ -22499,7 +22476,7 @@ newsize
 >
 pagesize_2pow
 ;
-assert
+MOZ_ASSERT
 (
 oldsize
 >
@@ -22623,7 +22600,7 @@ newsize
 >
 pagesize_2pow
 ;
-assert
+MOZ_ASSERT
 (
 oldsize
 >
@@ -23430,7 +23407,7 @@ try_nregs
 try_mask_nelms
 try_reg0_offset
 ;
-assert
+MOZ_ASSERT
 (
 min_run_size
 >
@@ -23438,7 +23415,7 @@ min_run_size
 pagesize
 )
 ;
-assert
+MOZ_ASSERT
 (
 min_run_size
 <
@@ -23852,7 +23829,7 @@ RUN_MAX_OVRHD
 try_run_size
 )
 ;
-assert
+MOZ_ASSERT
 (
 sizeof
 (
@@ -23876,7 +23853,7 @@ good_mask_nelms
 good_reg0_offset
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 good_mask_nelms
@@ -24478,7 +24455,7 @@ bool
 zero
 )
 {
-assert
+MOZ_ASSERT
 (
 arena
 !
@@ -24497,7 +24474,7 @@ magic
 ARENA_MAGIC
 )
 ;
-assert
+MOZ_ASSERT
 (
 size
 !
@@ -24505,7 +24482,7 @@ size
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 QUANTUM_CEILING
 (
@@ -24557,7 +24534,7 @@ size_t
 size
 )
 {
-assert
+MOZ_ASSERT
 (
 size
 !
@@ -24677,7 +24654,7 @@ arena_chunk_t
 *
 chunk
 ;
-assert
+MOZ_ASSERT
 (
 (
 size
@@ -24689,7 +24666,7 @@ pagesize_mask
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 alignment
@@ -24772,7 +24749,7 @@ alignment
 1
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 offset
@@ -24784,7 +24761,7 @@ pagesize_mask
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 offset
 <
@@ -24886,7 +24863,7 @@ space
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 trailsize
 <
@@ -25588,7 +25565,7 @@ false
 )
 ;
 }
-assert
+MOZ_ASSERT
 (
 (
 (
@@ -25649,7 +25626,7 @@ size_t
 pageind
 mapbits
 ;
-assert
+MOZ_ASSERT
 (
 ptr
 !
@@ -25657,7 +25634,7 @@ ptr
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 CHUNK_ADDR2BASE
 (
@@ -26023,7 +26000,7 @@ arena_chunk_t
 *
 chunk
 ;
-assert
+MOZ_ASSERT
 (
 ptr
 !
@@ -26056,7 +26033,7 @@ Region
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 chunk
 -
@@ -26831,7 +26808,7 @@ arena_chunk_map_t
 *
 mapelm
 ;
-assert
+MOZ_ASSERT
 (
 ptr
 !
@@ -26839,7 +26816,7 @@ ptr
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 offset
 !
@@ -26847,7 +26824,7 @@ offset
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 CHUNK_ADDR2OFFSET
 (
@@ -26880,7 +26857,7 @@ chunk
 >
 arena
 ;
-assert
+MOZ_ASSERT
 (
 arena
 !
@@ -27012,7 +26989,7 @@ ptr
 size_t
 offset
 ;
-assert
+MOZ_ASSERT
 (
 ptr
 !
@@ -27066,7 +27043,7 @@ size_t
 oldsize
 )
 {
-assert
+MOZ_ASSERT
 (
 size
 <
@@ -27221,7 +27198,7 @@ run
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 size
 >
@@ -27885,7 +27862,7 @@ oldsize
 arena_maxclass
 )
 {
-assert
+MOZ_ASSERT
 (
 size
 >
@@ -28117,7 +28094,7 @@ size
 size_t
 oldsize
 ;
-assert
+MOZ_ASSERT
 (
 ptr
 !
@@ -28125,7 +28102,7 @@ ptr
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 size
 !
@@ -29850,7 +29827,7 @@ huge
 key
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 !
@@ -29858,7 +29835,7 @@ node
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 -
@@ -30052,7 +30029,7 @@ huge
 key
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 !
@@ -30060,7 +30037,7 @@ node
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 -
@@ -30307,7 +30284,7 @@ huge
 key
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 !
@@ -30315,7 +30292,7 @@ node
 NULL
 )
 ;
-assert
+MOZ_ASSERT
 (
 node
 -
@@ -31388,7 +31365,7 @@ sysconf
 _SC_PAGESIZE
 )
 ;
-assert
+MOZ_ASSERT
 (
 result
 !
@@ -31415,7 +31392,7 @@ of
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 (
 (
@@ -32193,7 +32170,7 @@ pagesize
 1
 )
 ;
-assert
+MOZ_ASSERT
 (
 opt_quantum_2pow
 >
@@ -32207,7 +32184,7 @@ opt_quantum_2pow
 -
 TINY_MIN_2POW
 ;
-assert
+MOZ_ASSERT
 (
 ntbins
 <
@@ -32282,7 +32259,7 @@ small_min
 =
 1
 ;
-assert
+MOZ_ASSERT
 (
 small_min
 <
@@ -32382,7 +32359,7 @@ fail
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 (
 chunksize
@@ -32394,7 +32371,7 @@ pagesize
 0
 )
 ;
-assert
+MOZ_ASSERT
 (
 (
 1
@@ -32433,7 +32410,7 @@ configuration
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 quantum
 >
@@ -32445,7 +32422,7 @@ void
 )
 )
 ;
-assert
+MOZ_ASSERT
 (
 quantum
 <
@@ -32453,7 +32430,7 @@ quantum
 pagesize
 )
 ;
-assert
+MOZ_ASSERT
 (
 chunksize
 >
@@ -32461,7 +32438,7 @@ chunksize
 pagesize
 )
 ;
-assert
+MOZ_ASSERT
 (
 quantum
 *
@@ -33209,7 +33186,7 @@ void
 *
 ret
 ;
-assert
+MOZ_ASSERT
 (
 (
 (
@@ -33887,7 +33864,7 @@ ptr
 NULL
 )
 {
-assert
+MOZ_ASSERT
 (
 malloc_initialized
 )
@@ -34086,7 +34063,7 @@ NULL
 .
 *
 /
-assert
+MOZ_ASSERT
 (
 CHUNK_ADDR2OFFSET
 (
@@ -34527,7 +34504,7 @@ i
 non_arena_mapped
 chunk_header_size
 ;
-assert
+MOZ_ASSERT
 (
 stats
 !
@@ -34709,7 +34686,7 @@ allocated
 =
 huge_allocated
 ;
-assert
+MOZ_ASSERT
 (
 huge_mapped
 >
@@ -34752,7 +34729,7 @@ bookkeeping
 =
 base_committed
 ;
-assert
+MOZ_ASSERT
 (
 base_mapped
 >
@@ -35054,7 +35031,7 @@ arena
 lock
 )
 ;
-assert
+MOZ_ASSERT
 (
 arena_mapped
 >
@@ -35062,7 +35039,7 @@ arena_mapped
 arena_committed
 )
 ;
-assert
+MOZ_ASSERT
 (
 arena_committed
 >
@@ -35213,7 +35190,7 @@ waste
 =
 chunk_header_size
 ;
-assert
+MOZ_ASSERT
 (
 stats
 -
