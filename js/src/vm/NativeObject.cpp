@@ -3208,6 +3208,17 @@ uint32_t
 newCount
 )
 {
+/
+/
+IC
+code
+calls
+this
+directly
+.
+AutoCheckCannotGC
+nogc
+;
 if
 (
 !
