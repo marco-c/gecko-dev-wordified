@@ -521,3 +521,17 @@ dumpStringRepresentation
 s
 )
 ;
+for
+(
+var
+str
+of
+representativeStringArray
+(
+)
+)
+dumpStringRepresentation
+(
+str
+)
+;
