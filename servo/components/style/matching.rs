@@ -1491,7 +1491,7 @@ rare_style_affecting_attributes
 [
 LocalName
 ;
-3
+4
 ]
 {
 [
@@ -1514,6 +1514,13 @@ local_name
 (
 "
 colspan
+"
+)
+local_name
+!
+(
+"
+rowspan
 "
 )
 ]
