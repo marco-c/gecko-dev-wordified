@@ -221,6 +221,7 @@ document
 :
 {
 Document
+HasBrowsingContext
 IsHTMLDocument
 }
 ;
@@ -674,7 +675,10 @@ XMLDocument
 new
 (
 win
-None
+HasBrowsingContext
+:
+:
+No
 None
 self
 .
@@ -971,7 +975,10 @@ Document
 new
 (
 win
-None
+HasBrowsingContext
+:
+:
+No
 None
 self
 .

@@ -300,7 +300,6 @@ clone
 )
 ;
 let
-mut
 result
 =
 VREyeParameters

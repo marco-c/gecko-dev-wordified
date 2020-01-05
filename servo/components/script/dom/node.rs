@@ -448,6 +448,7 @@ document
 {
 Document
 DocumentSource
+HasBrowsingContext
 IsHTMLDocument
 }
 ;
@@ -12524,7 +12525,10 @@ Document
 new
 (
 window
-None
+HasBrowsingContext
+:
+:
+No
 Some
 (
 document

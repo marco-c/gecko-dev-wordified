@@ -391,7 +391,6 @@ default
 )
 ;
 let
-mut
 framedata
 =
 VRFrameData

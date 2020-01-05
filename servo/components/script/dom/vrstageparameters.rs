@@ -269,7 +269,6 @@ GlobalScope
 VRStageParameters
 {
 let
-mut
 stage
 =
 VRStageParameters
