@@ -478,7 +478,7 @@ pt_size
 :
 Option
 <
-f64
+Au
 >
 )
 -
@@ -650,7 +650,7 @@ pt_size
 :
 Option
 <
-f64
+Au
 >
 )
 -
@@ -1986,7 +1986,7 @@ face
 FT_Face
 pt_size
 :
-f64
+Au
 )
 -
 >
@@ -2009,6 +2009,10 @@ float_to_fixed_ft
 5f64
 +
 pt_size
+.
+to_subpx
+(
+)
 )
 .
 floor
