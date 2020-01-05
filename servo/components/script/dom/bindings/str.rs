@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 /
 /
 !
