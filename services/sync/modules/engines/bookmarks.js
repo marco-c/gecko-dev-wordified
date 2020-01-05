@@ -3833,7 +3833,7 @@ id
 )
 ;
 }
-resetClient
+_resetClient
 (
 )
 {
@@ -3841,7 +3841,7 @@ SyncEngine
 .
 prototype
 .
-resetClient
+_resetClient
 .
 call
 (
