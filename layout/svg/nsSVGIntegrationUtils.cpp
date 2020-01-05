@@ -269,7 +269,7 @@ include
 "
 mozilla
 /
-RestyleManager
+GeckoRestyleManager
 .
 h
 "
@@ -1216,11 +1216,6 @@ PresContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsGecko
 (
 )
 -

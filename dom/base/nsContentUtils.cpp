@@ -6348,13 +6348,10 @@ eParseHTMLInteger_ErrorOverflow
 break
 ;
 }
-else
-{
 foundValue
 =
 true
 ;
-}
 }
 else
 if
@@ -27341,7 +27338,6 @@ aFallible
 )
 ;
 }
-else
 if
 (
 aDeep
@@ -27356,8 +27352,6 @@ aFallible
 )
 ;
 }
-else
-{
 for
 (
 nsIContent
@@ -27418,7 +27412,6 @@ ok
 return
 false
 ;
-}
 }
 }
 }
@@ -31984,8 +31977,6 @@ GetCurrentJSContext
 )
 ;
 }
-else
-{
 return
 workers
 :
@@ -31994,7 +31985,6 @@ GetCurrentThreadJSContext
 (
 )
 ;
-}
 }
 template
 <
@@ -48149,7 +48139,6 @@ StorageAccess
 eDeny
 ;
 }
-else
 if
 (
 perm
@@ -48175,7 +48164,6 @@ eSessionScoped
 )
 ;
 }
-else
 if
 (
 perm

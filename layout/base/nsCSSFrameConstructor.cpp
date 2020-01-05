@@ -702,7 +702,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -711,7 +711,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -2995,7 +2995,8 @@ static
 void
 ReparentFrame
 (
-RestyleManagerHandle
+RestyleManager
+*
 aRestyleManager
 nsContainerFrame
 *
@@ -3038,7 +3039,8 @@ nsFrameList
 aFrameList
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aFrameConstructor
@@ -12191,7 +12193,7 @@ if
 mozilla
 :
 :
-RestyleManager
+GeckoRestyleManager
 *
 geckoRM
 =
@@ -12205,7 +12207,7 @@ GetAsGecko
 )
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -12242,7 +12244,7 @@ if
 oldStyleContext
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition
@@ -32060,7 +32062,7 @@ if
 mozilla
 :
 :
-RestyleManager
+GeckoRestyleManager
 *
 geckoRM
 =
@@ -32074,7 +32076,7 @@ GetAsGecko
 )
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -32125,7 +32127,7 @@ if
 oldStyleContext
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition
@@ -48137,11 +48139,6 @@ RestyleManager
 )
 -
 >
-AsBase
-(
-)
--
->
 IsInStyleRefresh
 (
 )
@@ -51328,11 +51325,6 @@ IsStyledByServo
 &
 !
 RestyleManager
-(
-)
--
->
-AsBase
 (
 )
 -
