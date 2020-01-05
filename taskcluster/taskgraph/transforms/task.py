@@ -2953,6 +2953,8 @@ public
 image
 .
 tar
+.
+zst
 "
             
 "

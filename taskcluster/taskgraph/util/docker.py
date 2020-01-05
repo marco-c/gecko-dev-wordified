@@ -129,6 +129,15 @@ testing
 docker
 '
 )
+INDEX_PREFIX
+=
+'
+docker
+.
+images
+.
+v2
+'
 ARTIFACT_URL
 =
 '
