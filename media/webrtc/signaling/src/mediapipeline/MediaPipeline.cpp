@@ -13069,17 +13069,6 @@ enter
 monitor_
 )
 ;
-#
-endif
-/
-/
-MOZILLA_INTERNAL_API
-#
-if
-defined
-(
-MOZILLA_INTERNAL_API
-)
 if
 (
 buffer
@@ -13127,6 +13116,9 @@ CreatePlanarYCbCrImage
 ;
 #
 endif
+/
+/
+MOZ_WIDGET_GONK
 uint8_t
 *
 frame
