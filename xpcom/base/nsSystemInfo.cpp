@@ -1210,7 +1210,8 @@ status
 RegOpenKeyExW
 (
 HKEY_LOCAL_MACHINE
-L
+NS_LITERAL_STRING
+(
 "
 SOFTWARE
 \
@@ -1224,6 +1225,11 @@ NT
 \
 CurrentVersion
 "
+)
+.
+get
+(
+)
 0
 KEY_READ
 |

@@ -3662,7 +3662,7 @@ alive
 )
 ;
 const
-nsLiteralCString
+nsACString
 *
 connectionType
 =
