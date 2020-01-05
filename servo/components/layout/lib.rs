@@ -304,6 +304,10 @@ unicode_bidi
 ;
 extern
 crate
+unicode_script
+;
+extern
+crate
 url
 ;
 #

@@ -415,6 +415,8 @@ dependency
 .
 extern
 crate
+harfbuzz_sys
+as
 harfbuzz
 ;
 extern
@@ -495,6 +497,10 @@ style
 extern
 crate
 time
+;
+extern
+crate
+unicode_script
 ;
 extern
 crate
