@@ -173,6 +173,8 @@ is
 history
 .
 index
+-
+1
 2
 "
 At
@@ -208,7 +210,7 @@ entries
 0
 ]
 .
-uri
+url
 DUMMY_1_URL
 "
 Page
@@ -227,7 +229,7 @@ entries
 1
 ]
 .
-uri
+url
 TEST_URL
 "
 Page
@@ -246,7 +248,7 @@ entries
 2
 ]
 .
-uri
+url
 DUMMY_2_URL
 "
 Page
@@ -294,6 +296,8 @@ is
 history
 .
 index
+-
+1
 1
 "
 At
@@ -329,7 +333,7 @@ entries
 0
 ]
 .
-uri
+url
 DUMMY_1_URL
 "
 Page
@@ -348,7 +352,7 @@ entries
 1
 ]
 .
-uri
+url
 TEST_URL
 "
 Page
@@ -367,7 +371,7 @@ entries
 2
 ]
 .
-uri
+url
 DUMMY_2_URL
 "
 Page
@@ -618,6 +622,8 @@ is
 history
 .
 index
+-
+1
 1
 "
 At
@@ -653,7 +659,7 @@ entries
 0
 ]
 .
-uri
+url
 DUMMY_1_URL
 "
 Page
@@ -672,7 +678,7 @@ entries
 1
 ]
 .
-uri
+url
 TEST_URL
 "
 Page
@@ -691,7 +697,7 @@ entries
 2
 ]
 .
-uri
+url
 DUMMY_2_URL
 "
 Page
