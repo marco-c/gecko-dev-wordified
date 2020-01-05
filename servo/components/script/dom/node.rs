@@ -12197,15 +12197,11 @@ unwrap
 ;
 copy_doc
 .
-set_encoding_name
+set_encoding
 (
 node_doc
 .
-encoding_name
-(
-)
-.
-clone
+encoding
 (
 )
 )
