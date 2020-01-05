@@ -5748,9 +5748,6 @@ val_
 HandleValue
 idVal_
 ;
-ICStubEngine
-engine_
-;
 bool
 *
 isTemporarilyUnoptimizable_
@@ -6145,8 +6142,6 @@ jsbytecode
 pc
 CacheKind
 cacheKind
-ICStubEngine
-engine
 bool
 *
 isTemporarilyUnoptimizable

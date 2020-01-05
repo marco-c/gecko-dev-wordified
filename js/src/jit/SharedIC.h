@@ -13627,8 +13627,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 ICStub
 *
 firstMonitorStub
@@ -13641,7 +13639,10 @@ ICStub
 :
 :
 GetProp_Generic
-engine
+ICStubEngine
+:
+:
+Baseline
 )
 firstMonitorStub_
 (
