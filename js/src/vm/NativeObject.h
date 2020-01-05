@@ -4192,12 +4192,15 @@ Shape
 shape
 )
 ;
+static
 bool
 clearFlag
 (
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 BaseShape
 :
 :
