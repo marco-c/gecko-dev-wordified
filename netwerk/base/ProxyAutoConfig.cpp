@@ -3494,6 +3494,10 @@ mIncludePath
 (
 false
 )
+mExtraHeapSize
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -4375,6 +4379,8 @@ JSContextWrapper
 *
 Create
 (
+uint32_t
+aExtraHeapSize
 )
 {
 JSContext
@@ -4384,6 +4390,8 @@ cx
 JS_NewContext
 (
 sContextHeapSize
++
+aExtraHeapSize
 )
 ;
 if
@@ -4502,7 +4510,7 @@ private
 :
 static
 const
-unsigned
+uint32_t
 sContextHeapSize
 =
 4
@@ -4821,6 +4829,8 @@ nsCString
 aPACScript
 bool
 aIncludePath
+uint32_t
+aExtraHeapSize
 )
 {
 mPACURI
@@ -4841,6 +4851,10 @@ aPACScript
 mIncludePath
 =
 aIncludePath
+;
+mExtraHeapSize
+=
+aExtraHeapSize
 ;
 if
 (
@@ -4922,6 +4936,7 @@ JSContextWrapper
 :
 Create
 (
+mExtraHeapSize
 )
 ;
 if

@@ -229,6 +229,8 @@ nsCString
 aPACScript
 bool
 aIncludePath
+uint32_t
+aExtraHeapSize
 )
 ;
 void
@@ -669,6 +671,9 @@ mPACURI
 ;
 bool
 mIncludePath
+;
+uint32_t
+mExtraHeapSize
 ;
 nsCString
 mRunningHost
