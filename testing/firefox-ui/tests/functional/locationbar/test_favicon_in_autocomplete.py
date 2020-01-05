@@ -101,11 +101,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestFaviconInAutocomplete
+self
+)
 .
 setUp
 (
-self
 )
         
 #
@@ -259,11 +262,14 @@ PREF_SUGGEST_BOOKMARK
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestFaviconInAutocomplete
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

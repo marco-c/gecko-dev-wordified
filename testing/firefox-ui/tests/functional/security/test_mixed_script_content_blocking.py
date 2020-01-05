@@ -78,11 +78,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestMixedScriptContentBlocking
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -208,11 +211,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestMixedScriptContentBlocking
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

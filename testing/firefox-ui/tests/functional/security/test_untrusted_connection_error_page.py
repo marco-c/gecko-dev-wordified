@@ -86,11 +86,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestUntrustedConnectionErrorPage
+self
+)
 .
 setUp
 (
-self
 )
         
 self

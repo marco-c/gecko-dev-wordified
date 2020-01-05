@@ -85,11 +85,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestNavBar
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -730,11 +733,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestLocationBar
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -1259,11 +1265,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestAutoCompleteResults
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -1342,11 +1351,14 @@ pass
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestAutoCompleteResults
+self
+)
 .
 tearDown
 (
-self
 )
     
 def
@@ -1871,11 +1883,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestIdentityPopup
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -1966,11 +1981,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestIdentityPopup
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

@@ -81,11 +81,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSafeBrowsingNotificationBar
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -520,11 +523,14 @@ enabled
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSafeBrowsingNotificationBar
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

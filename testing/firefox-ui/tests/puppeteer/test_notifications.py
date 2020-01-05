@@ -98,11 +98,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestNotifications
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -243,11 +246,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestNotifications
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

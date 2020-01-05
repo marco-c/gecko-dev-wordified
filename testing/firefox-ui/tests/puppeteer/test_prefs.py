@@ -73,11 +73,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+testPreferences
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -243,11 +246,14 @@ homepage
 finally
 :
             
-FirefoxTestCase
+super
+(
+testPreferences
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

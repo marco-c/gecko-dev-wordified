@@ -358,11 +358,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSafeBrowsingInitialDownload
+self
+)
 .
 setUp
 (
-self
 )
         
 #
@@ -462,11 +465,14 @@ True
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSafeBrowsingInitialDownload
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

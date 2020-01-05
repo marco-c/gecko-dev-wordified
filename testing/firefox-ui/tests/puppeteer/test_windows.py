@@ -228,11 +228,14 @@ timer
 "
 "
         
-FirefoxTestCase
+super
+(
+BaseWindowTestCase
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -285,11 +288,14 @@ shutdownTimeoutSecs
 finally
 :
             
-FirefoxTestCase
+super
+(
+BaseWindowTestCase
+self
+)
 .
 tearDown
 (
-self
 )
 class
 TestWindows
@@ -326,11 +332,14 @@ browser
 finally
 :
             
-BaseWindowTestCase
+super
+(
+TestWindows
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

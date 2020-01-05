@@ -78,11 +78,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestPlaces
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -155,11 +158,14 @@ remove_all_history
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestPlaces
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

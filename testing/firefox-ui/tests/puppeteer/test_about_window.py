@@ -73,11 +73,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestAboutWindow
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -130,11 +133,14 @@ browser
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestAboutWindow
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

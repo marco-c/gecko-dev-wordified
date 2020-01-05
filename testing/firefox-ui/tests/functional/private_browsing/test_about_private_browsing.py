@@ -88,11 +88,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestAboutPrivateBrowsing
+self
+)
 .
 setUp
 (
-self
 )
         
 #
@@ -170,11 +173,14 @@ baseURL
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestAboutPrivateBrowsing
+self
+)
 .
 tearDown
 (
-self
 )
     
 def

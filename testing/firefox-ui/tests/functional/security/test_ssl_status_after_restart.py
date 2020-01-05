@@ -83,11 +83,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestSSLStatusAfterRestart
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -347,11 +350,14 @@ page
 finally
 :
             
-FirefoxTestCase
+super
+(
+TestSSLStatusAfterRestart
+self
+)
 .
 tearDown
 (
-self
 )
     
 skip_if_e10s

@@ -77,11 +77,14 @@ self
 )
 :
         
-FirefoxTestCase
+super
+(
+TestAccessLocationBar
+self
+)
 .
 setUp
 (
-self
 )
         
 #
