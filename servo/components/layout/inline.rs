@@ -10819,14 +10819,6 @@ self
 base
 .
 block_container_explicit_block_size
-.
-unwrap_or
-(
-Au
-(
-0
-)
-)
 ;
 for
 fragment
