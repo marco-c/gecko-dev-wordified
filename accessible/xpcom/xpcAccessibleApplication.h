@@ -232,6 +232,10 @@ xpcAccessibleApplication
 (
 )
 {
+Shutdown
+(
+)
+;
 }
 private
 :
