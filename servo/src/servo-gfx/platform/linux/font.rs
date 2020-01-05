@@ -1599,6 +1599,10 @@ None
 }
 pub
 impl
+<
+'
+self
+>
 FontHandle
 {
 priv
@@ -1974,6 +1978,8 @@ fn
 get_face_rec
 (
 &
+'
+self
 self
 )
 -
