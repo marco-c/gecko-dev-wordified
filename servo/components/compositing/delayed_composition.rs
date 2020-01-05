@@ -205,7 +205,6 @@ Sender
 ToDelayedCompositionTimerMsg
 >
 }
-pub
 struct
 DelayedCompositionTimer
 {
@@ -368,7 +367,6 @@ unwrap
 impl
 DelayedCompositionTimer
 {
-pub
 fn
 run
 (
