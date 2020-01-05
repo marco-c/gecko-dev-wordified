@@ -222,8 +222,16 @@ webrender_traits
 self
 DisplayListBuilder
 ExtendMode
+}
+;
+use
+webrender_traits
+:
+:
+{
 LayoutTransform
 ClipId
+ClipRegionToken
 }
 ;
 pub
@@ -863,7 +871,7 @@ trait
 ToClipRegion
 {
 fn
-to_clip_region
+push_clip_region
 (
 &
 self
@@ -875,10 +883,7 @@ DisplayListBuilder
 )
 -
 >
-webrender_traits
-:
-:
-ClipRegion
+ClipRegionToken
 ;
 }
 impl
@@ -887,7 +892,7 @@ for
 ClippingRegion
 {
 fn
-to_clip_region
+push_clip_region
 (
 &
 self
@@ -899,14 +904,11 @@ DisplayListBuilder
 )
 -
 >
-webrender_traits
-:
-:
-ClipRegion
+ClipRegionToken
 {
 builder
 .
-new_clip_region
+push_clip_region
 (
 &
 self
@@ -954,10 +956,6 @@ to_border_radius
 )
 )
 }
-)
-.
-collect
-(
 )
 None
 )
@@ -1934,7 +1932,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2188,7 +2186,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2287,7 +2285,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2353,7 +2351,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2422,7 +2420,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2834,7 +2832,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -2964,7 +2962,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -3103,7 +3101,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -3200,7 +3198,7 @@ base
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
@@ -3394,7 +3392,7 @@ scroll_root
 .
 clip
 .
-to_clip_region
+push_clip_region
 (
 builder
 )
