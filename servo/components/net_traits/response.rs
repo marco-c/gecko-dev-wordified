@@ -392,6 +392,10 @@ state
 derive
 (
 Clone
+Copy
+HeapSizeOf
+Deserialize
+Serialize
 )
 ]
 pub

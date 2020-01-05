@@ -341,6 +341,15 @@ use
 net_traits
 :
 :
+response
+:
+:
+HttpsState
+;
+use
+net_traits
+:
+:
 storage_thread
 :
 :
@@ -3394,6 +3403,9 @@ iframe
 >
 .
 SecurityChange
+(
+HttpsState
+)
 /
 /
 /
@@ -3612,6 +3624,9 @@ MozBrowserEvent
 :
 :
 SecurityChange
+(
+_
+)
 =
 >
 "
