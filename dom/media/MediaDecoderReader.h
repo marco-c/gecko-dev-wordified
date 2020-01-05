@@ -1679,7 +1679,7 @@ the
 video
 decoder
 to
-NullDecoderModule
+BlankDecoderModule
 .
 It
 might
@@ -1711,10 +1711,10 @@ decoder
 .
 virtual
 void
-SetVideoNullDecode
+SetVideoBlankDecode
 (
 bool
-aIsNullDecode
+aIsBlankDecode
 )
 {
 }

@@ -496,7 +496,7 @@ GMPCrashHelper
 mCrashHelper
 ;
 bool
-mUseNullDecoder
+mUseBlankDecoder
 =
 false
 ;
@@ -608,12 +608,12 @@ void
 Set
 (
 bool
-aUseNullDecoder
+aUseBlankDecoder
 )
 {
-mUseNullDecoder
+mUseBlankDecoder
 =
-aUseNullDecoder
+aUseBlankDecoder
 ;
 }
 void
