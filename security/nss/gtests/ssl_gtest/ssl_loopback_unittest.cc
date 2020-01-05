@@ -985,7 +985,7 @@ Action
 FilterRecord
 (
 const
-RecordHeader
+TlsRecordHeader
 &
 record_header
 const
@@ -1054,7 +1054,7 @@ hhdr
 )
 )
 ;
-RecordHeader
+TlsRecordHeader
 nhdr
 (
 record_header

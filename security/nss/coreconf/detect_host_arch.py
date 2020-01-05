@@ -132,7 +132,7 @@ i86pc
 host_arch
 =
 '
-x64
+ia32
 '
     
 elif

@@ -66,6 +66,13 @@ h
 #
 include
 "
+asn1_mutators
+.
+h
+"
+#
+include
+"
 cert
 .
 h
@@ -193,6 +200,12 @@ cert_fuzzing_target
 Certificate
 Import
 "
+{
+&
+ASN1MutatorFlipConstructed
+&
+ASN1MutatorChangeType
+}
 )
 extern
 "
@@ -236,4 +249,10 @@ spki_fuzzing_target
 SPKI
 Import
 "
+{
+&
+ASN1MutatorFlipConstructed
+&
+ASN1MutatorChangeType
+}
 )

@@ -2014,6 +2014,9 @@ v
 -
 -
 fuzz
+-
+-
+ubsan
 "
 ]
 artifacts

@@ -5086,6 +5086,13 @@ DisableECDHEServerKeyReuse
 (
 )
 {
+ASSERT_TRUE
+(
+EnsureTlsSetup
+(
+)
+)
+;
 ASSERT_EQ
 (
 TlsAgent

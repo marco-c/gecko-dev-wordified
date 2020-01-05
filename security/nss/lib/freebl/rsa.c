@@ -9507,6 +9507,9 @@ bp
 )
 )
 {
+#
+ifndef
+UNSAFE_FUZZER_MODE
 if
 (
 -
@@ -9520,6 +9523,8 @@ counter
 >
 0
 )
+#
+endif
 {
 /
 *

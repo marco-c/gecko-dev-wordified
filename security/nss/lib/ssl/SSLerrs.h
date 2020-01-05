@@ -3517,7 +3517,6 @@ SSL_ERROR_BASE
 SSL
 expected
 a
-missing
 PSK
 key
 exchange

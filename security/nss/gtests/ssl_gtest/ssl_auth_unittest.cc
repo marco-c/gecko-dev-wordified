@@ -1805,7 +1805,7 @@ Action
 FilterRecord
 (
 const
-RecordHeader
+TlsRecordHeader
 &
 header
 const
@@ -3221,9 +3221,8 @@ it
 client_
 -
 >
-SetPacketFilter
+DeletePacketFilter
 (
-nullptr
 )
 ;
 }
@@ -3386,9 +3385,8 @@ now
 client_
 -
 >
-SetPacketFilter
+DeletePacketFilter
 (
-nullptr
 )
 ;
 EXPECT_EQ
