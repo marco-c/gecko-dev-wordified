@@ -1920,9 +1920,9 @@ optional
 *
 /
 const
-NeckoOriginAttributes
-&
-originAttributes
+char
+*
+firstPartyDomain
 /
 *
 optional
@@ -2452,7 +2452,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2882,7 +2882,7 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3351,7 +3351,7 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3660,7 +3660,7 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3722,7 +3722,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3865,7 +3865,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3973,7 +3973,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4157,7 +4157,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4214,7 +4214,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4271,7 +4271,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-originAttributes
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4395,9 +4395,9 @@ optional
 *
 /
 const
-NeckoOriginAttributes
-&
-originAttributes
+char
+*
+firstPartyDomain
 /
 *
 optional
@@ -4544,7 +4544,7 @@ builtChain
 flags
 stapledOCSPResponse
 sctsFromTLS
-originAttributes
+firstPartyDomain
 evOidPolicy
 ocspStaplingStatus
 keySizeStatus

@@ -9084,7 +9084,7 @@ flags
 infoObject
 -
 >
-GetOriginAttributes
+GetFirstPartyDomainRaw
 (
 )
 &

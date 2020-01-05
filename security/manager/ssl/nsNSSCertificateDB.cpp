@@ -8291,9 +8291,10 @@ t
 save
 intermediates
 aFlags
-NeckoOriginAttributes
-(
-)
+nullptr
+/
+/
+firstPartyDomain
 &
 evOidPolicy
 )
@@ -8332,9 +8333,10 @@ nullptr
 /
 /
 sctsFromTLSExtension
-NeckoOriginAttributes
-(
-)
+nullptr
+/
+/
+firstPartyDomain
 &
 evOidPolicy
 )
