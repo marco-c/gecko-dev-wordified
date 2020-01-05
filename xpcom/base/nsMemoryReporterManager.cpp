@@ -206,6 +206,13 @@ nsIXPConnect
 h
 "
 #
+include
+"
+GeckoProfilerReporter
+.
+h
+"
+#
 if
 defined
 (

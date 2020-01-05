@@ -201,6 +201,13 @@ h
 #
 include
 "
+GeckoProfilerReporter
+.
+h
+"
+#
+include
+"
 ProfilerIOInterposeObserver
 .
 h
