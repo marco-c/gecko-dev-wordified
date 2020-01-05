@@ -85,6 +85,13 @@ FunctionsGL
 h
 "
 namespace
+egl
+{
+class
+Surface
+;
+}
+namespace
 rx
 {
 class
@@ -272,6 +279,13 @@ const
 RendererGL
 *
 mRenderer
+;
+egl
+:
+:
+Surface
+*
+mCurrentDrawSurface
 ;
 }
 ;

@@ -111,6 +111,10 @@ PoolAlloc
 .
 h
 "
+using
+namespace
+sh
+;
 class
 IntermNodeTest
 :

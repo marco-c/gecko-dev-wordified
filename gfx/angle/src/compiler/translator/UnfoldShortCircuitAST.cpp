@@ -58,6 +58,9 @@ UnfoldShortCircuitAST
 h
 "
 namespace
+sh
+{
+namespace
 {
 /
 /
@@ -310,3 +313,8 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+sh

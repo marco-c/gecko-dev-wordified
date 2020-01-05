@@ -135,6 +135,10 @@ compiler_test
 .
 h
 "
+using
+namespace
+sh
+;
 class
 QualificationVertexShaderTestESSL31
 :
@@ -162,7 +166,7 @@ SetUp
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+InitBuiltInResources
 (
 &
 resources

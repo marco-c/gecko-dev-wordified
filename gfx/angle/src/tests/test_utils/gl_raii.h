@@ -237,6 +237,15 @@ glGenRenderbuffers
 glDeleteRenderbuffers
 >
 ;
+using
+GLSampler
+=
+GLWrapper
+<
+glGenSamplers
+glDeleteSamplers
+>
+;
 class
 GLProgram
 {

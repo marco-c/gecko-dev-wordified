@@ -256,7 +256,6 @@ return
 mHasData
 ;
 }
-const
 rx
 :
 :
@@ -266,19 +265,6 @@ getImplementation
 (
 )
 const
-{
-return
-mPath
-;
-}
-rx
-:
-:
-PathImpl
-*
-getImplementation
-(
-)
 {
 return
 mPath

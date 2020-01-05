@@ -89,6 +89,9 @@ Diagnostics
 .
 h
 "
+namespace
+sh
+{
 static
 TBehavior
 getBehavior
@@ -1114,3 +1117,8 @@ supported
 ;
 }
 }
+}
+/
+/
+namespace
+sh

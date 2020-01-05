@@ -1063,9 +1063,7 @@ ASSERT
 (
 mFormatSet
 .
-format
-.
-id
+formatID
 !
 =
 angle
@@ -1235,9 +1233,7 @@ ASSERT
 (
 mFormatSet
 .
-format
-.
-id
+formatID
 !
 =
 angle

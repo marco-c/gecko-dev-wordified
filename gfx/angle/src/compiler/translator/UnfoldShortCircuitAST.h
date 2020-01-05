@@ -93,6 +93,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 /
 /
 This
@@ -165,6 +168,11 @@ override
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

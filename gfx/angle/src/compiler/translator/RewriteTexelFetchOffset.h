@@ -141,10 +141,6 @@ RewriteTexelFetchOffset
 TIntermNode
 *
 root
-unsigned
-int
-*
-tempIndex
 const
 TSymbolTable
 &

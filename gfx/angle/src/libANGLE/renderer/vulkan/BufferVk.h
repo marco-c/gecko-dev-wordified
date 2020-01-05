@@ -90,6 +90,13 @@ public
 :
 BufferVk
 (
+const
+gl
+:
+:
+BufferState
+&
+state
 )
 ;
 ~

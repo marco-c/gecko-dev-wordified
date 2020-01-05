@@ -647,6 +647,14 @@ return
 Cube_uint4_
 "
 ;
+case
+EbtSamplerExternalOES
+:
+return
+"
+_External
+"
+;
 default
 :
 /

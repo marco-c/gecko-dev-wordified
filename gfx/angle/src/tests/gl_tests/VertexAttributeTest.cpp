@@ -443,8 +443,6 @@ test
 .
 type
 )
-*
-typeSize
 ;
 glBindBuffer
 (

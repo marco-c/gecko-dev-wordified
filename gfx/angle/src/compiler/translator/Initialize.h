@@ -85,6 +85,9 @@ SymbolTable
 .
 h
 "
+namespace
+sh
+{
 void
 InsertBuiltInFunctions
 (
@@ -191,6 +194,11 @@ TExtensionBehavior
 extensionBehavior
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

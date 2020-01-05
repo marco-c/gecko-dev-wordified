@@ -113,6 +113,9 @@ VariableInfo
 .
 h
 "
+namespace
+sh
+{
 /
 /
 The
@@ -318,7 +321,7 @@ std
 string
 name
 ;
-TIntermAggregate
+TIntermFunctionDefinition
 *
 node
 ;
@@ -391,9 +394,9 @@ size_t
 findIndex
 (
 const
-TIntermAggregate
+TFunctionSymbolInfo
 *
-function
+functionInfo
 )
 const
 ;
@@ -461,6 +464,11 @@ CallDAGCreator
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

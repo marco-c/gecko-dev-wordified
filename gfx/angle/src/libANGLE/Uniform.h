@@ -239,6 +239,12 @@ getElementSize
 )
 const
 ;
+size_t
+getElementComponents
+(
+)
+const
+;
 uint8_t
 *
 getDataPtrToElement

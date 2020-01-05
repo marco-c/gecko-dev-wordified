@@ -77,6 +77,9 @@ COMPILER_TRANSLATOR_ARRAYRETURNVALUETOOUTPARAMETER_H_
 #
 define
 COMPILER_TRANSLATOR_ARRAYRETURNVALUETOOUTPARAMETER_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -92,6 +95,11 @@ int
 temporaryIndex
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

@@ -296,6 +296,9 @@ a
 workaround
 .
 namespace
+sh
+{
+namespace
 {
 class
 AliasingBreaker
@@ -579,9 +582,6 @@ mLoopLevel
 /
 anonymous
 namespace
-namespace
-sh
-{
 void
 BreakVariableAliasingInInnerLoops
 (

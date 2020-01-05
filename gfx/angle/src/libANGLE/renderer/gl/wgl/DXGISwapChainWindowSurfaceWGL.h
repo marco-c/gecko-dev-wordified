@@ -338,6 +338,10 @@ WorkaroundsGL
 &
 mWorkarounds
 ;
+RendererGL
+*
+mRenderer
+;
 const
 FunctionsGL
 *

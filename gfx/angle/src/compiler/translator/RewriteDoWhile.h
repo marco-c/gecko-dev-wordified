@@ -71,6 +71,9 @@ COMPILER_TRANSLATOR_REWRITEDOWHILE_H_
 #
 define
 COMPILER_TRANSLATOR_REWRITEDOWHILE_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -86,6 +89,11 @@ int
 temporaryIndex
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

@@ -75,6 +75,9 @@ angle_gl
 .
 h
 "
+namespace
+sh
+{
 bool
 ForLoopUnrollMarker
 :
@@ -378,7 +381,7 @@ getInit
 )
 -
 >
-getAsAggregate
+getAsDeclarationNode
 (
 )
 -
@@ -586,3 +589,8 @@ UNREACHABLE
 }
 }
 }
+}
+/
+/
+namespace
+sh

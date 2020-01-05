@@ -116,6 +116,10 @@ disabled
 (
 false
 )
+expansionCount
+(
+0
+)
 type
 (
 kTypeObj
@@ -138,6 +142,10 @@ predefined
 mutable
 bool
 disabled
+;
+mutable
+int
+expansionCount
 ;
 Type
 type

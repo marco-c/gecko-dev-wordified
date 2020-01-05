@@ -170,6 +170,9 @@ COMPILER_TRANSLATOR_SEPARATEARRAYINITIALIZATION_H_
 #
 define
 COMPILER_TRANSLATOR_SEPARATEARRAYINITIALIZATION_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -181,6 +184,11 @@ TIntermNode
 root
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

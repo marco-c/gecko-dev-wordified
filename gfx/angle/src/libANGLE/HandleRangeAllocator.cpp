@@ -263,11 +263,6 @@ current
 >
 first
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-firstId
-)
-;
 GLuint
 lastId
 =

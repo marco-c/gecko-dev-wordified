@@ -72,6 +72,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 /
 /
 /
@@ -563,6 +566,11 @@ mFunctions
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

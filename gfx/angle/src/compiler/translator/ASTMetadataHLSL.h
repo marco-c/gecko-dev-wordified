@@ -73,6 +73,9 @@ include
 <
 vector
 >
+namespace
+sh
+{
 class
 CallDAG
 ;
@@ -80,7 +83,7 @@ class
 TIntermNode
 ;
 class
-TIntermSelection
+TIntermIfElse
 ;
 class
 TIntermLoop
@@ -152,7 +155,7 @@ node
 bool
 hasGradientLoop
 (
-TIntermSelection
+TIntermIfElse
 *
 node
 )
@@ -249,7 +252,7 @@ std
 :
 set
 <
-TIntermSelection
+TIntermIfElse
 *
 >
 mIfsContainingGradientLoop
@@ -310,6 +313,11 @@ CallDAG
 callDag
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

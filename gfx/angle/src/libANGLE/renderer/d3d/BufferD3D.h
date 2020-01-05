@@ -127,6 +127,13 @@ public
 :
 BufferD3D
 (
+const
+gl
+:
+:
+BufferState
+&
+state
 BufferFactoryD3D
 *
 factory

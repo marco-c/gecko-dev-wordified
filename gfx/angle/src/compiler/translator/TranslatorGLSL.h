@@ -63,6 +63,9 @@ Compiler
 .
 h
 "
+namespace
+sh
+{
 class
 TranslatorGLSL
 :
@@ -114,6 +117,14 @@ shouldFlattenPragmaStdglInvariantAll
 )
 override
 ;
+bool
+shouldCollectVariables
+(
+ShCompileOptions
+compileOptions
+)
+override
+;
 private
 :
 void
@@ -143,6 +154,11 @@ builtinVaryingName
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

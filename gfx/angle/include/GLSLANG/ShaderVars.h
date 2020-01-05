@@ -160,7 +160,6 @@ consistency
 of
 interpolation
 qualifiers
-COMPILER_EXPORT
 bool
 InterpolationTypesMatch
 (
@@ -266,7 +265,6 @@ id
 =
 697
 struct
-COMPILER_EXPORT
 ShaderVariable
 {
 ShaderVariable
@@ -652,7 +650,6 @@ other
 }
 ;
 struct
-COMPILER_EXPORT
 Uniform
 :
 public
@@ -826,7 +823,6 @@ GL
 API
 .
 struct
-COMPILER_EXPORT
 InterfaceVariable
 :
 public
@@ -900,7 +896,6 @@ location
 }
 ;
 struct
-COMPILER_EXPORT
 Attribute
 :
 public
@@ -971,7 +966,6 @@ other
 }
 ;
 struct
-COMPILER_EXPORT
 OutputVariable
 :
 public
@@ -1042,7 +1036,6 @@ other
 }
 ;
 struct
-COMPILER_EXPORT
 InterfaceBlockField
 :
 public
@@ -1174,7 +1167,6 @@ isRowMajorLayout
 }
 ;
 struct
-COMPILER_EXPORT
 Varying
 :
 public
@@ -1362,7 +1354,6 @@ isInvariant
 }
 ;
 struct
-COMPILER_EXPORT
 InterfaceBlock
 {
 InterfaceBlock
@@ -1488,7 +1479,6 @@ fields
 }
 ;
 struct
-COMPILER_EXPORT
 WorkGroupSize
 {
 void

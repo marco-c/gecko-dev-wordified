@@ -72,6 +72,9 @@ DiagnosticsBase
 .
 h
 "
+namespace
+sh
+{
 class
 TInfoSink
 ;
@@ -251,6 +254,11 @@ mNumWarnings
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

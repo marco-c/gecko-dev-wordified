@@ -100,6 +100,13 @@ public
 BufferGL
 (
 const
+gl
+:
+:
+BufferState
+&
+state
+const
 FunctionsGL
 *
 functions

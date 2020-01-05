@@ -77,6 +77,9 @@ Common
 .
 h
 "
+namespace
+sh
+{
 /
 /
 Returns
@@ -704,6 +707,11 @@ obj
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

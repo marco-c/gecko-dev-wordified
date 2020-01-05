@@ -132,6 +132,9 @@ IntermNode
 h
 "
 namespace
+sh
+{
+namespace
 {
 bool
 IsProblematicPow
@@ -590,3 +593,8 @@ needAnotherIteration
 )
 ;
 }
+}
+/
+/
+namespace
+sh

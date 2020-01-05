@@ -106,15 +106,15 @@ EDIT
 /
 Generated
 by
-gen_texture_format_table
-.
-py
+{
+script_name
+}
 using
 data
 from
-texture_format_data
-.
-json
+{
+data_source_name
+}
 /
 /
 /
@@ -336,7 +336,7 @@ UNREACHABLE
 ;
     
 static
-const
+constexpr
 Format
 defaultInfo
 ;
@@ -2007,7 +2007,7 @@ space
 space
 }
 static
-const
+constexpr
 Format
 info
 (
@@ -2071,10 +2071,6 @@ space
 {
 initializer
 }
-{
-space
-}
-deviceCaps
 )
 ;
 {
@@ -2111,7 +2107,7 @@ space
 space
 }
 static
-const
+constexpr
 Format
 info
 (
@@ -2175,10 +2171,6 @@ space
 {
 initializer
 }
-{
-space
-}
-deviceCaps
 )
 ;
 {
@@ -2790,14 +2782,17 @@ json
 '
 )
 )
-with
-open
-(
+data_source_name
+=
 '
 texture_format_data
 .
 json
 '
+with
+open
+(
+data_source_name
 )
 as
 texture_format_json_file
@@ -2846,6 +2841,15 @@ template_texture_format_table_autogen_cpp
 format
 (
         
+script_name
+=
+sys
+.
+argv
+[
+0
+]
+        
 copyright_year
 =
 date
@@ -2859,6 +2863,10 @@ year
 angle_format_info_cases
 =
 angle_format_cases
+        
+data_source_name
+=
+data_source_name
 )
     
 with

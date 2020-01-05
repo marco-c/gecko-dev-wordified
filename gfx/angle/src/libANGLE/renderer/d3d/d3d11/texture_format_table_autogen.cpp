@@ -211,7 +211,7 @@ GL_ALPHA16F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -233,7 +233,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_FLOAT
 GL_RGBA16F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -245,7 +244,7 @@ GL_ALPHA32F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -267,7 +266,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32B32A32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -287,7 +285,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -309,7 +307,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -319,7 +316,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -341,7 +338,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -363,7 +359,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -385,7 +381,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B5G6R5_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -395,7 +390,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -417,7 +412,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -430,7 +424,7 @@ GL_BGR5_A1_ANGLEX
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -452,7 +446,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B8G8R8A8_UNORM
 GL_BGRA8_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -464,7 +457,7 @@ GL_BGRA4_ANGLEX
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -486,7 +479,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B8G8R8A8_UNORM
 GL_BGRA8_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -498,7 +490,7 @@ GL_BGRA8_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -520,7 +512,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B8G8R8A8_UNORM
 GL_BGRA8_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -532,7 +523,7 @@ GL_COMPRESSED_R11_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -554,7 +545,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -566,7 +556,7 @@ GL_COMPRESSED_RG11_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -588,7 +578,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -600,7 +589,7 @@ GL_COMPRESSED_RGB8_ETC2
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -629,7 +618,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -641,7 +629,7 @@ GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -670,7 +658,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -682,7 +669,7 @@ GL_COMPRESSED_RGBA8_ETC2_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -704,7 +691,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -716,7 +702,7 @@ GL_COMPRESSED_RGBA_ASTC_10x10_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -738,7 +724,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -750,7 +735,7 @@ GL_COMPRESSED_RGBA_ASTC_10x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -772,7 +757,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -784,7 +768,7 @@ GL_COMPRESSED_RGBA_ASTC_10x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -806,7 +790,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -818,7 +801,7 @@ GL_COMPRESSED_RGBA_ASTC_10x8_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -840,7 +823,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -852,7 +834,7 @@ GL_COMPRESSED_RGBA_ASTC_12x10_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -874,7 +856,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -886,7 +867,7 @@ GL_COMPRESSED_RGBA_ASTC_12x12_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -908,7 +889,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -920,7 +900,7 @@ GL_COMPRESSED_RGBA_ASTC_4x4_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -942,7 +922,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -954,7 +933,7 @@ GL_COMPRESSED_RGBA_ASTC_5x4_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -976,7 +955,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -988,7 +966,7 @@ GL_COMPRESSED_RGBA_ASTC_5x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1010,7 +988,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1022,7 +999,7 @@ GL_COMPRESSED_RGBA_ASTC_6x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1044,7 +1021,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1056,7 +1032,7 @@ GL_COMPRESSED_RGBA_ASTC_6x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1078,7 +1054,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1090,7 +1065,7 @@ GL_COMPRESSED_RGBA_ASTC_8x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1112,7 +1087,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1124,7 +1098,7 @@ GL_COMPRESSED_RGBA_ASTC_8x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1146,7 +1120,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1158,7 +1131,7 @@ GL_COMPRESSED_RGBA_ASTC_8x8_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1180,7 +1153,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1192,7 +1164,7 @@ GL_COMPRESSED_RGBA_S3TC_DXT1_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1214,7 +1186,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_BC1_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1226,7 +1197,7 @@ GL_COMPRESSED_RGBA_S3TC_DXT3_ANGLE
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1248,7 +1219,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_BC2_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1260,7 +1230,7 @@ GL_COMPRESSED_RGBA_S3TC_DXT5_ANGLE
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1282,7 +1252,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_BC3_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1294,7 +1263,7 @@ GL_COMPRESSED_RGB_S3TC_DXT1_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1316,7 +1285,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_BC1_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1328,7 +1296,7 @@ GL_COMPRESSED_SIGNED_R11_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1350,7 +1318,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_SNORM
 GL_RGBA8_SNORM
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1362,7 +1329,7 @@ GL_COMPRESSED_SIGNED_RG11_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1384,7 +1351,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_SNORM
 GL_RGBA8_SNORM
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1396,7 +1362,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x10_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1418,7 +1384,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1430,7 +1395,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1452,7 +1417,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1464,7 +1428,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1486,7 +1450,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1498,7 +1461,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x8_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1520,7 +1483,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1532,7 +1494,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x10_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1554,7 +1516,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1566,7 +1527,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x12_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1588,7 +1549,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1600,7 +1560,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_4x4_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1622,7 +1582,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1634,7 +1593,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x4_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1656,7 +1615,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1668,7 +1626,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1690,7 +1648,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1702,7 +1659,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1724,7 +1681,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1736,7 +1692,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1758,7 +1714,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1770,7 +1725,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x5_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1792,7 +1747,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1804,7 +1758,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x6_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1826,7 +1780,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1838,7 +1791,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x8_KHR
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1860,7 +1813,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1872,7 +1824,7 @@ GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1894,7 +1846,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
 GL_SRGB8_ALPHA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1906,7 +1857,7 @@ GL_COMPRESSED_SRGB8_ETC2
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1935,7 +1886,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -1947,7 +1897,7 @@ GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -1969,7 +1919,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
 GL_SRGB8_ALPHA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -1989,7 +1938,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2011,7 +1960,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_R24_UNORM_X8_TYPELESS
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2021,7 +1969,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2043,7 +1991,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_UNKNOWN
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2056,7 +2003,7 @@ GL_DEPTH32F_STENCIL8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2078,7 +2025,6 @@ DXGI_FORMAT_D32_FLOAT_S8X24_UINT
 DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2098,7 +2044,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2120,7 +2066,6 @@ DXGI_FORMAT_D16_UNORM
 DXGI_FORMAT_R16_UNORM
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2130,7 +2075,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2152,7 +2097,6 @@ DXGI_FORMAT_D16_UNORM
 DXGI_FORMAT_UNKNOWN
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2173,7 +2117,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2195,7 +2139,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_R24_UNORM_X8_TYPELESS
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2205,7 +2148,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2227,7 +2170,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_UNKNOWN
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2240,7 +2182,7 @@ GL_DEPTH_COMPONENT32F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2262,7 +2204,6 @@ DXGI_FORMAT_D32_FLOAT
 DXGI_FORMAT_R32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2282,7 +2223,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2304,7 +2245,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_R24_UNORM_X8_TYPELESS
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2314,7 +2254,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2336,7 +2276,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_UNKNOWN
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2349,7 +2288,7 @@ GL_ETC1_RGB8_LOSSY_DECODE_ANGLE
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2371,7 +2310,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_BC1_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2383,7 +2321,7 @@ GL_ETC1_RGB8_OES
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2412,7 +2350,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -2424,7 +2361,7 @@ GL_LUMINANCE16F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2456,7 +2393,6 @@ gl
 :
 Float16One
 >
-deviceCaps
 )
 ;
 return
@@ -2468,7 +2404,7 @@ GL_LUMINANCE32F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2500,7 +2436,6 @@ gl
 :
 Float32One
 >
-deviceCaps
 )
 ;
 return
@@ -2512,7 +2447,7 @@ GL_LUMINANCE8_ALPHA8_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2534,7 +2469,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2546,7 +2480,7 @@ GL_LUMINANCE8_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2575,7 +2509,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -2587,7 +2520,7 @@ GL_LUMINANCE_ALPHA16F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2609,7 +2542,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_FLOAT
 GL_RGBA16F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2621,7 +2553,7 @@ GL_LUMINANCE_ALPHA32F_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2643,7 +2575,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32B32A32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2655,7 +2586,7 @@ GL_NONE
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2677,7 +2608,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_UNKNOWN
 GL_NONE
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2689,7 +2619,7 @@ GL_R11F_G11F_B10F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2711,7 +2641,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R11G11B10_FLOAT
 GL_RGBA16F_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2723,7 +2652,7 @@ GL_R16F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2745,7 +2674,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16_FLOAT
 GL_RGBA16F_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2757,7 +2685,7 @@ GL_R16I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2779,7 +2707,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16_SINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2791,7 +2718,7 @@ GL_R16UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2813,7 +2740,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16_UINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2825,7 +2751,7 @@ GL_R16_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2847,7 +2773,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16_UNORM
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2859,7 +2784,7 @@ GL_R16_SNORM_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2881,7 +2806,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16_SNORM
 GL_RGBA16_SNORM_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2893,7 +2817,7 @@ GL_R32F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2915,7 +2839,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2927,7 +2850,7 @@ GL_R32I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2949,7 +2872,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32_SINT
 GL_RGBA32I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2961,7 +2883,7 @@ GL_R32UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -2983,7 +2905,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32_UINT
 GL_RGBA32I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -2995,7 +2916,7 @@ GL_R8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3017,7 +2938,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3029,7 +2949,7 @@ GL_R8I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3051,7 +2971,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_SINT
 GL_RGBA8I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3063,7 +2982,7 @@ GL_R8UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3085,7 +3004,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_UINT
 GL_RGBA8I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3097,7 +3015,7 @@ GL_R8_SNORM
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3119,7 +3037,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8_SNORM
 GL_RGBA8_SNORM
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3131,7 +3048,7 @@ GL_RG16F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3153,7 +3070,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16_FLOAT
 GL_RGBA16F_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3165,7 +3081,7 @@ GL_RG16I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3187,7 +3103,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16_SINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3199,7 +3114,7 @@ GL_RG16UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3221,7 +3136,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16_UINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3233,7 +3147,7 @@ GL_RG16_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3255,7 +3169,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16_UNORM
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3267,7 +3180,7 @@ GL_RG16_SNORM_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3289,7 +3202,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16_SNORM
 GL_RGBA16_SNORM_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3301,7 +3213,7 @@ GL_RG32F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3323,7 +3235,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3335,7 +3246,7 @@ GL_RG32I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3357,7 +3268,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32_SINT
 GL_RGBA32I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3369,7 +3279,7 @@ GL_RG32UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3391,7 +3301,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32_UINT
 GL_RGBA32I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3403,7 +3312,7 @@ GL_RG8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3425,7 +3334,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3437,7 +3345,7 @@ GL_RG8I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3459,7 +3367,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_SINT
 GL_RGBA8I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3471,7 +3378,7 @@ GL_RG8UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3493,7 +3400,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_UINT
 GL_RGBA8I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3505,7 +3411,7 @@ GL_RG8_SNORM
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3527,7 +3433,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8_SNORM
 GL_RGBA8_SNORM
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3539,7 +3444,7 @@ GL_RGB
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3568,7 +3473,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -3580,7 +3484,7 @@ GL_RGB10_A2
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3602,7 +3506,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R10G10B10A2_UNORM
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3614,7 +3517,7 @@ GL_RGB10_A2UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3636,7 +3539,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R10G10B10A2_UINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -3648,7 +3550,7 @@ GL_RGB16F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3680,7 +3582,6 @@ gl
 :
 Float16One
 >
-deviceCaps
 )
 ;
 return
@@ -3692,7 +3593,7 @@ GL_RGB16I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3721,7 +3622,6 @@ GLshort
 0x0000
 0x0001
 >
-deviceCaps
 )
 ;
 return
@@ -3733,7 +3633,7 @@ GL_RGB16UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3762,7 +3662,6 @@ GLushort
 0x0000
 0x0001
 >
-deviceCaps
 )
 ;
 return
@@ -3774,7 +3673,7 @@ GL_RGB16_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3803,7 +3702,6 @@ GLubyte
 0x0000
 0xFFFF
 >
-deviceCaps
 )
 ;
 return
@@ -3815,7 +3713,7 @@ GL_RGB16_SNORM_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3844,7 +3742,6 @@ GLushort
 0x0000
 0x7FFF
 >
-deviceCaps
 )
 ;
 return
@@ -3856,7 +3753,7 @@ GL_RGB32F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3888,7 +3785,6 @@ gl
 :
 Float32One
 >
-deviceCaps
 )
 ;
 return
@@ -3900,7 +3796,7 @@ GL_RGB32I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3929,7 +3825,6 @@ GLint
 0x00000000
 0x00000001
 >
-deviceCaps
 )
 ;
 return
@@ -3941,7 +3836,7 @@ GL_RGB32UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -3970,7 +3865,6 @@ GLuint
 0x00000000
 0x00000001
 >
-deviceCaps
 )
 ;
 return
@@ -3991,7 +3885,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4013,7 +3907,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B5G6R5_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4023,7 +3916,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4052,7 +3945,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -4074,7 +3966,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4096,7 +3988,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B5G5R5A1_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4106,7 +3997,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4128,7 +4019,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4141,7 +4031,7 @@ GL_RGB8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4170,7 +4060,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -4182,7 +4071,7 @@ GL_RGB8I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4211,7 +4100,6 @@ GLbyte
 0x00
 0x01
 >
-deviceCaps
 )
 ;
 return
@@ -4223,7 +4111,7 @@ GL_RGB8UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4252,7 +4140,6 @@ GLubyte
 0x00
 0x01
 >
-deviceCaps
 )
 ;
 return
@@ -4264,7 +4151,7 @@ GL_RGB8_SNORM
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4293,7 +4180,6 @@ GLbyte
 0x00
 0x7F
 >
-deviceCaps
 )
 ;
 return
@@ -4305,7 +4191,7 @@ GL_RGB9_E5
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4327,7 +4213,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R9G9B9E5_SHAREDEXP
 GL_RGBA16F_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4339,7 +4224,7 @@ GL_RGBA
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4361,7 +4246,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4373,7 +4257,7 @@ GL_RGBA16F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4395,7 +4279,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_FLOAT
 GL_RGBA16F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4407,7 +4290,7 @@ GL_RGBA16I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4429,7 +4312,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_SINT
 GL_RGBA16I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4441,7 +4323,7 @@ GL_RGBA16UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4463,7 +4345,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_UINT
 GL_RGBA16UI
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4475,7 +4356,7 @@ GL_RGBA16_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4497,7 +4378,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_UNORM
 GL_RGBA16_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4509,7 +4389,7 @@ GL_RGBA16_SNORM_EXT
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4531,7 +4411,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R16G16B16A16_SNORM
 GL_RGBA16_SNORM_EXT
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4543,7 +4422,7 @@ GL_RGBA32F
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4565,7 +4444,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32B32A32_FLOAT
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4577,7 +4455,7 @@ GL_RGBA32I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4599,7 +4477,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32B32A32_SINT
 GL_RGBA32I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4611,7 +4488,7 @@ GL_RGBA32UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4633,7 +4510,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R32G32B32A32_UINT
 GL_RGBA32UI
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4654,7 +4530,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4676,7 +4552,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_B4G4R4A4_UNORM
 GL_RGBA4
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4686,7 +4561,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4708,7 +4583,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4721,7 +4595,7 @@ GL_RGBA8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4743,7 +4617,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM
 GL_RGBA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4755,7 +4628,7 @@ GL_RGBA8I
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4777,7 +4650,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_SINT
 GL_RGBA8I
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4789,7 +4661,7 @@ GL_RGBA8UI
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4811,7 +4683,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UINT
 GL_RGBA8UI
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4823,7 +4694,7 @@ GL_RGBA8_SNORM
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4845,7 +4716,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_SNORM
 GL_RGBA8_SNORM
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4857,7 +4727,7 @@ GL_SRGB8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4886,7 +4756,6 @@ GLubyte
 0x00
 0xFF
 >
-deviceCaps
 )
 ;
 return
@@ -4898,7 +4767,7 @@ GL_SRGB8_ALPHA8
 :
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4920,7 +4789,6 @@ DXGI_FORMAT_UNKNOWN
 DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
 GL_SRGB8_ALPHA8
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4940,7 +4808,7 @@ deviceCaps
 )
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4962,7 +4830,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_R24_UNORM_X8_TYPELESS
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -4972,7 +4839,7 @@ info
 else
 {
 static
-const
+constexpr
 Format
 info
 (
@@ -4994,7 +4861,6 @@ DXGI_FORMAT_D24_UNORM_S8_UINT
 DXGI_FORMAT_UNKNOWN
 GL_RGBA32F
 nullptr
-deviceCaps
 )
 ;
 return
@@ -5018,7 +4884,7 @@ UNREACHABLE
 )
 ;
 static
-const
+constexpr
 Format
 defaultInfo
 ;

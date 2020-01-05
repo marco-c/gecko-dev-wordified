@@ -89,6 +89,13 @@ Buffer9
 :
 Buffer9
 (
+const
+gl
+:
+:
+BufferState
+&
+state
 Renderer9
 *
 renderer
@@ -96,6 +103,7 @@ renderer
 :
 BufferD3D
 (
+state
 renderer
 )
 mSize

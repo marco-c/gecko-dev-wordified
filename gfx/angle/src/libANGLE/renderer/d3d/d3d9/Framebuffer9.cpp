@@ -1427,10 +1427,11 @@ pack
 PackPixels
 (
 packParams
-*
 d3dFormatInfo
 .
 info
+(
+)
 inputPitch
 source
 pixels
@@ -2639,8 +2640,9 @@ return
 d3dFormatInfo
 .
 info
--
->
+(
+)
+.
 glInternalFormat
 ;
 }

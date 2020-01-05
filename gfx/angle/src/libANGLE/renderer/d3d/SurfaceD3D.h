@@ -338,8 +338,10 @@ Config
 config
 EGLNativeWindowType
 window
+EGLenum
+buftype
 EGLClientBuffer
-shareHandle
+clientBuffer
 const
 egl
 :
@@ -448,6 +450,10 @@ mSwapInterval
 HANDLE
 mShareHandle
 ;
+IUnknown
+*
+mD3DTexture
+;
 }
 ;
 class
@@ -535,8 +541,10 @@ egl
 Config
 *
 config
+EGLenum
+buftype
 EGLClientBuffer
-shareHandle
+clientBuffer
 const
 egl
 :

@@ -2512,11 +2512,6 @@ attrib
 nullptr
 )
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-bufferD3D
-)
-;
 size_t
 totalCount
 =

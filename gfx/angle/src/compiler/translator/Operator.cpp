@@ -400,14 +400,6 @@ return
 "
 ;
 case
-EOpVectorSwizzle
-:
-return
-"
-.
-"
-;
-case
 EOpRadians
 :
 return

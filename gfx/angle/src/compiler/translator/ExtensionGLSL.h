@@ -91,6 +91,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 /
 /
 Traverses
@@ -220,6 +223,11 @@ mRequiredExtensions
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

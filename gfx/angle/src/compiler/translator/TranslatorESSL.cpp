@@ -97,6 +97,9 @@ angle_gl
 .
 h
 "
+namespace
+sh
+{
 TranslatorESSL
 :
 :
@@ -548,8 +551,12 @@ getNameMap
 getSymbolTable
 (
 )
+getShaderType
+(
+)
 shaderVer
 precisionEmulation
+compileOptions
 )
 ;
 root
@@ -782,3 +789,8 @@ n
 }
 }
 }
+}
+/
+/
+namespace
+sh

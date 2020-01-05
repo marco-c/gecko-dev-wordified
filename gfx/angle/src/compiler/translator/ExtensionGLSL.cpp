@@ -86,6 +86,9 @@ VersionGLSL
 .
 h
 "
+namespace
+sh
+{
 TExtensionGLSL
 :
 :
@@ -388,3 +391,8 @@ break
 ;
 }
 }
+}
+/
+/
+namespace
+sh

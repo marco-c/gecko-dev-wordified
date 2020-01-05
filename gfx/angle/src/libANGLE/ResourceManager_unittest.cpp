@@ -213,6 +213,7 @@ EXPECT_CALL
 mMockFactory
 createBuffer
 (
+_
 )
 )
 .

@@ -96,6 +96,10 @@ compiler_test
 .
 h
 "
+using
+namespace
+sh
+;
 namespace
 {
 class

@@ -104,6 +104,9 @@ COMPILER_TRANSLATOR_REMOVEPOW_H_
 #
 define
 COMPILER_TRANSLATOR_REMOVEPOW_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -115,6 +118,11 @@ TIntermNode
 root
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

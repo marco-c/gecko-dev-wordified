@@ -57,6 +57,9 @@ OutputESSL
 .
 h
 "
+namespace
+sh
+{
 TOutputESSL
 :
 :
@@ -75,10 +78,17 @@ nameMap
 TSymbolTable
 &
 symbolTable
+sh
+:
+:
+GLenum
+shaderType
 int
 shaderVersion
 bool
 forceHighp
+ShCompileOptions
+compileOptions
 )
 :
 TOutputGLSLBase
@@ -88,8 +98,10 @@ clampingStrategy
 hashFunction
 nameMap
 symbolTable
+shaderType
 shaderVersion
 SH_ESSL_OUTPUT
+compileOptions
 )
 mForceHighp
 (
@@ -150,3 +162,8 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+sh

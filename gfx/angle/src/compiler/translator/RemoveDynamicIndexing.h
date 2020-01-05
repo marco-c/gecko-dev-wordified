@@ -86,6 +86,9 @@ COMPILER_TRANSLATOR_REMOVEDYNAMICINDEXING_H_
 #
 define
 COMPILER_TRANSLATOR_REMOVEDYNAMICINDEXING_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -110,6 +113,11 @@ int
 shaderVersion
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

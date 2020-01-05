@@ -563,6 +563,13 @@ Context11
 :
 createBuffer
 (
+const
+gl
+:
+:
+BufferState
+&
+state
 )
 {
 Buffer11
@@ -572,6 +579,7 @@ buffer
 new
 Buffer11
 (
+state
 mRenderer
 )
 ;

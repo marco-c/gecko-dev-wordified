@@ -409,11 +409,6 @@ NULL
 mConstantBuffer
 )
 ;
-UNUSED_ASSERTION_VARIABLE
-(
-result
-)
-;
 ASSERT
 (
 SUCCEEDED

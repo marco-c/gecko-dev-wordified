@@ -63,6 +63,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 TLoopIndexInfo
 {
@@ -422,6 +425,11 @@ pop
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

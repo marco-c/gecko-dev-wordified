@@ -457,6 +457,9 @@ n
 "
 ;
 namespace
+sh
+{
+namespace
 {
 class
 ArrayBoundsClamperMarker
@@ -700,3 +703,8 @@ kIntClampDefinition
 kIntClampEnd
 ;
 }
+}
+/
+/
+namespace
+sh

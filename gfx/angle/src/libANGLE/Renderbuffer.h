@@ -332,16 +332,6 @@ RenderbufferImpl
 getImplementation
 (
 )
-;
-const
-rx
-:
-:
-RenderbufferImpl
-*
-getImplementation
-(
-)
 const
 ;
 GLsizei

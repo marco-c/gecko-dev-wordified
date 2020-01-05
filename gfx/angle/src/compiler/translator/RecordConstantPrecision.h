@@ -171,6 +171,9 @@ COMPILER_TRANSLATOR_RECORDCONSTANTPRECISION_H_
 #
 define
 COMPILER_TRANSLATOR_RECORDCONSTANTPRECISION_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -186,6 +189,11 @@ int
 temporaryIndex
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

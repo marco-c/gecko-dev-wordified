@@ -106,7 +106,10 @@ a_resources
 )
 )
 ;
-ShInitBuiltInResources
+sh
+:
+:
+InitBuiltInResources
 (
 &
 a_resources
@@ -126,7 +129,10 @@ b_resources
 )
 )
 ;
-ShInitBuiltInResources
+sh
+:
+:
+InitBuiltInResources
 (
 &
 b_resources

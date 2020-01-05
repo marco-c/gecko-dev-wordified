@@ -186,6 +186,16 @@ HandleList
 HandleList
 mFreeValues
 ;
+/
+/
+Represents
+an
+inclusive
+range
+[
+begin
+end
+]
 struct
 HandleRange
 {

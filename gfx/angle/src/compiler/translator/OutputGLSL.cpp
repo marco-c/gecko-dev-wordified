@@ -57,6 +57,9 @@ OutputGLSL
 .
 h
 "
+namespace
+sh
+{
 TOutputGLSL
 :
 :
@@ -75,10 +78,17 @@ nameMap
 TSymbolTable
 &
 symbolTable
+sh
+:
+:
+GLenum
+shaderType
 int
 shaderVersion
 ShShaderOutput
 output
+ShCompileOptions
+compileOptions
 )
 :
 TOutputGLSLBase
@@ -88,8 +98,10 @@ clampingStrategy
 hashFunction
 nameMap
 symbolTable
+shaderType
 shaderVersion
 output
+compileOptions
 )
 {
 }
@@ -166,6 +178,9 @@ gl_FragColor
 "
 &
 &
+sh
+:
+:
 IsGLSL130OrNewer
 (
 getShaderOutput
@@ -193,6 +208,9 @@ gl_FragData
 "
 &
 &
+sh
+:
+:
 IsGLSL130OrNewer
 (
 getShaderOutput
@@ -420,6 +438,9 @@ char
 mapping
 =
 (
+sh
+:
+:
 IsGLSL130OrNewer
 (
 getShaderOutput
@@ -478,3 +499,8 @@ return
 name
 ;
 }
+}
+/
+/
+namespace
+sh

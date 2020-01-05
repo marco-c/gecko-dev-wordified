@@ -113,6 +113,9 @@ PoolAlloc
 .
 h
 "
+namespace
+sh
+{
 struct
 TSourceLoc
 {
@@ -768,6 +771,11 @@ return
 buffer
 ;
 }
+}
+/
+/
+namespace
+sh
 #
 endif
 /

@@ -71,6 +71,9 @@ assert
 .
 h
 >
+namespace
+sh
+{
 TLSIndex
 GlobalParseContextIndex
 =
@@ -176,3 +179,8 @@ GlobalParseContextIndex
 )
 ;
 }
+}
+/
+/
+namespace
+sh

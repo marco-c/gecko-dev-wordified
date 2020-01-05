@@ -192,7 +192,6 @@ varyings
 )
 .
 class
-COMPILER_EXPORT
 HLSLBlockEncoder
 :
 public
@@ -357,7 +356,6 @@ same
 rules
 )
 .
-COMPILER_EXPORT
 unsigned
 int
 HLSLVariableRegisterCount
@@ -370,7 +368,6 @@ bool
 transposeMatrices
 )
 ;
-COMPILER_EXPORT
 unsigned
 int
 HLSLVariableRegisterCount

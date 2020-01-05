@@ -261,6 +261,7 @@ rx
 :
 Buffer11
 (
+mBufferState
 mRenderer
 )
 ;
@@ -839,6 +840,12 @@ GLushort
 >
 mushortIndices
 ;
+gl
+:
+:
+BufferState
+mBufferState
+;
 }
 ;
 /
@@ -1067,6 +1074,12 @@ calls
 have
 been
 made
+gl
+:
+:
+BufferState
+cleanSourceState
+;
 rx
 :
 :
@@ -1080,6 +1093,7 @@ rx
 :
 Buffer11
 (
+cleanSourceState
 mRenderer
 )
 ;

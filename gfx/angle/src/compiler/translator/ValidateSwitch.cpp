@@ -68,6 +68,9 @@ ParseContext
 .
 h
 "
+namespace
+sh
+{
 bool
 ValidateSwitch
 :
@@ -79,7 +82,7 @@ switchType
 TParseContext
 *
 context
-TIntermAggregate
+TIntermBlock
 *
 statementList
 const
@@ -341,11 +344,11 @@ bool
 ValidateSwitch
 :
 :
-visitSelection
+visitIfElse
 (
 Visit
 visit
-TIntermSelection
+TIntermIfElse
 *
 )
 {
@@ -1045,3 +1048,8 @@ mDefaultCount
 mDuplicateCases
 ;
 }
+}
+/
+/
+namespace
+sh

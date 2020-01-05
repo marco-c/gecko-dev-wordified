@@ -287,8 +287,10 @@ egl
 Config
 *
 configuration
+EGLenum
+buftype
 EGLClientBuffer
-shareHandle
+clientBuffer
 const
 egl
 :

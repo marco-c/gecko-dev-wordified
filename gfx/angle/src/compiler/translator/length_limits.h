@@ -97,6 +97,9 @@ the
 compiler
 sources
 .
+namespace
+sh
+{
 size_t
 GetGlobalMaxTokenSize
 (
@@ -104,6 +107,11 @@ ShShaderSpec
 spec
 )
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

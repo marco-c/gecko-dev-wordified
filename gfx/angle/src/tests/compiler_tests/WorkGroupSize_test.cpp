@@ -110,6 +110,10 @@ compiler_test
 .
 h
 "
+using
+namespace
+sh
+;
 class
 WorkGroupSizeTest
 :
@@ -137,7 +141,7 @@ override
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+InitBuiltInResources
 (
 &
 resources
@@ -334,9 +338,6 @@ shaderString
 )
 ;
 const
-sh
-:
-:
 WorkGroupSize
 &
 localSize
@@ -447,9 +448,6 @@ shaderString
 )
 ;
 const
-sh
-:
-:
 WorkGroupSize
 &
 localSize
@@ -563,9 +561,6 @@ shaderString
 )
 ;
 const
-sh
-:
-:
 WorkGroupSize
 &
 localSize

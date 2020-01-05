@@ -133,6 +133,9 @@ NativeWindow9
 nativeWindow
 HANDLE
 shareHandle
+IUnknown
+*
+d3dTexture
 GLenum
 backBufferFormat
 GLenum

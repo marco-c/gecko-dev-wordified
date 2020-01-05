@@ -113,6 +113,10 @@ TranslatorGLSL
 .
 h
 "
+using
+namespace
+sh
+;
 class
 RemovePowTest
 :
@@ -152,7 +156,10 @@ allocator
 ShBuiltInResources
 resources
 ;
-ShInitBuiltInResources
+sh
+:
+:
+InitBuiltInResources
 (
 &
 resources
@@ -161,6 +168,9 @@ resources
 mTranslatorGLSL
 =
 new
+sh
+:
+:
 TranslatorGLSL
 (
 GL_FRAGMENT_SHADER
@@ -306,6 +316,9 @@ mASTRoot
 ;
 }
 private
+:
+sh
+:
 :
 TranslatorGLSL
 *

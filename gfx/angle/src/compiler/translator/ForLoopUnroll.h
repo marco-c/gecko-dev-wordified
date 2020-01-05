@@ -61,6 +61,9 @@ LoopInfo
 .
 h
 "
+namespace
+sh
+{
 /
 /
 This
@@ -243,6 +246,11 @@ mHasRunLoopValidation
 ;
 }
 ;
+}
+/
+/
+namespace
+sh
 #
 endif
 /

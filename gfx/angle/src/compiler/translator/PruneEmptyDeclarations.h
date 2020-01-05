@@ -67,6 +67,9 @@ COMPILER_TRANSLATOR_PRUNEEMPTYDECLARATIONS_H_
 #
 define
 COMPILER_TRANSLATOR_PRUNEEMPTYDECLARATIONS_H_
+namespace
+sh
+{
 class
 TIntermNode
 ;
@@ -78,6 +81,7 @@ TIntermNode
 root
 )
 ;
+}
 #
 endif
 /

@@ -121,7 +121,6 @@ struct
 InterfaceBlock
 ;
 struct
-COMPILER_EXPORT
 BlockMemberInfo
 {
 BlockMemberInfo
@@ -213,7 +212,6 @@ isRowMajorMatrix
 }
 ;
 class
-COMPILER_EXPORT
 BlockLayoutEncoder
 {
 public
@@ -391,7 +389,6 @@ ES
 0
 specification
 class
-COMPILER_EXPORT
 Std140BlockEncoder
 :
 public
