@@ -18,7 +18,7 @@ time
 (
 msg
 :
-~
+&
 str
 callback
 :
