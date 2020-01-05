@@ -136,10 +136,6 @@ devtools_traits
 ;
 extern
 crate
-collections
-;
-extern
-crate
 flate2
 ;
 extern

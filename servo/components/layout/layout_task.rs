@@ -6179,14 +6179,12 @@ stacking_context
 .
 print
 (
-String
-:
-:
-from_str
-(
 "
 #
 "
+.
+to_owned
+(
 )
 )
 ;

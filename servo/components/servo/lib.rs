@@ -179,14 +179,6 @@ the
 WindowMethods
 trait
 .
-#
-!
-[
-feature
-(
-thread_local
-)
-]
 extern
 crate
 compositing

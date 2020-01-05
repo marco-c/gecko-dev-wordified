@@ -125,14 +125,6 @@ str_char
 [
 feature
 (
-thread_local
-)
-]
-#
-!
-[
-feature
-(
 unsafe_no_drop_flag
 )
 ]
@@ -237,10 +229,6 @@ canvas_traits
 extern
 crate
 clock_ticks
-;
-extern
-crate
-collections
 ;
 extern
 crate

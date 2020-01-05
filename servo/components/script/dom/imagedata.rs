@@ -183,7 +183,7 @@ vec
 Vec
 ;
 use
-collections
+std
 :
 :
 slice
