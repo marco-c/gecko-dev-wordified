@@ -548,7 +548,7 @@ an
 instance
 of
 *
-nsNullPrincipal
+NullPrincipal
 .
 *
 *

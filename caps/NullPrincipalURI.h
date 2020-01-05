@@ -127,10 +127,10 @@ thread
 /
 #
 ifndef
-__nsNullPrincipalURI_h__
+__NullPrincipalURI_h__
 #
 define
-__nsNullPrincipalURI_h__
+__NullPrincipalURI_h__
 #
 include
 "
@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -225,7 +225,7 @@ NS_NULLPRINCIPALURI_IMPLEMENTATION_CID
 }
 }
 class
-nsNullPrincipalURI
+NullPrincipalURI
 final
 :
 public
@@ -288,7 +288,7 @@ should
 call
 Create
 .
-nsNullPrincipalURI
+NullPrincipalURI
 (
 )
 ;
@@ -302,7 +302,7 @@ failure
 static
 already_AddRefed
 <
-nsNullPrincipalURI
+NullPrincipalURI
 >
 Create
 (
@@ -310,16 +310,16 @@ Create
 ;
 private
 :
-nsNullPrincipalURI
+NullPrincipalURI
 (
 const
-nsNullPrincipalURI
+NullPrincipalURI
 &
 aOther
 )
 ;
 ~
-nsNullPrincipalURI
+NullPrincipalURI
 (
 )
 {
@@ -344,4 +344,4 @@ mPath
 endif
 /
 /
-__nsNullPrincipalURI_h__
+__NullPrincipalURI_h__

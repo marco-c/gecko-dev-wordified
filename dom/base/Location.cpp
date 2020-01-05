@@ -308,7 +308,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -1078,7 +1078,7 @@ it
 is
 not
 an
-nsNullPrincipalURI
+NullPrincipalURI
 .
 We
 /

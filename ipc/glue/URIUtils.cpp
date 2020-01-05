@@ -191,7 +191,7 @@ h
 #
 include
 "
-nsNullPrincipalURI
+NullPrincipalURI
 .
 h
 "
@@ -528,7 +528,7 @@ TNullPrincipalURIParams
 serializable
 =
 new
-nsNullPrincipalURI
+NullPrincipalURI
 (
 )
 ;

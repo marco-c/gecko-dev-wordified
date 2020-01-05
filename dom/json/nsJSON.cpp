@@ -249,7 +249,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -2291,7 +2291,7 @@ nsIPrincipal
 >
 nullPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

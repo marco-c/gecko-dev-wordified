@@ -361,7 +361,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -4201,7 +4201,7 @@ origin
 .
 mOriginHeaderPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes

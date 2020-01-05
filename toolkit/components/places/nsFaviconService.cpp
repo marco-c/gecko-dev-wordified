@@ -317,7 +317,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -1448,7 +1448,7 @@ params
 ;
 loadingPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -2570,7 +2570,7 @@ params
 ;
 loadingPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

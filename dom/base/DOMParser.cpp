@@ -212,7 +212,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -1930,7 +1930,7 @@ true
 ;
 mPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -2614,7 +2614,7 @@ nsIPrincipal
 >
 prin
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

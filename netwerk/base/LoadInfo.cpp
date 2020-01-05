@@ -237,7 +237,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -2790,7 +2790,7 @@ mLoadingPrincipal
 {
 mSandboxedLoadingPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -2809,7 +2809,7 @@ mOriginAttributes
 ;
 mSandboxedLoadingPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -3695,7 +3695,7 @@ nsIPrincipal
 >
 newNullPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create

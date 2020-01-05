@@ -198,7 +198,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -3146,7 +3146,7 @@ inheritsPrincipal
 )
 {
 return
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -3210,7 +3210,7 @@ principal
 )
 {
 return
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -3340,7 +3340,7 @@ CreateCodebasePrincipal
 does
 not
 support
-nsNullPrincipal
+NullPrincipal
 "
 )
 ;

@@ -137,10 +137,10 @@ themselves
 /
 #
 ifndef
-nsNullPrincipal_h__
+NullPrincipal_h
 #
 define
-nsNullPrincipal_h__
+NullPrincipal_h
 #
 include
 "
@@ -232,7 +232,7 @@ moz
 nullprincipal
 "
 class
-nsNullPrincipal
+NullPrincipal
 final
 :
 public
@@ -271,7 +271,7 @@ CreateWithInheritedAttributes
 /
 methods
 .
-nsNullPrincipal
+NullPrincipal
 (
 )
 :
@@ -371,7 +371,7 @@ override
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 CreateWithInheritedAttributes
 (
@@ -429,7 +429,7 @@ NULL_PRINCIPAL_FIRST_PARTY_DOMAIN
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 CreateWithInheritedAttributes
 (
@@ -445,7 +445,7 @@ false
 static
 already_AddRefed
 <
-nsNullPrincipal
+NullPrincipal
 >
 Create
 (
@@ -508,11 +508,12 @@ protected
 :
 virtual
 ~
-nsNullPrincipal
+NullPrincipal
 (
 )
-{
-}
+=
+default
+;
 bool
 SubsumesInternal
 (
@@ -552,4 +553,4 @@ mURI
 endif
 /
 /
-nsNullPrincipal_h__
+NullPrincipal_h__

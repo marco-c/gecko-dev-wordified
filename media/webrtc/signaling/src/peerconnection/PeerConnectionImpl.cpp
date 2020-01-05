@@ -523,7 +523,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -11235,7 +11235,7 @@ in
 SetDtlsConnected
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes

@@ -963,7 +963,7 @@ h
 #
 include
 "
-nsNullPrincipal
+NullPrincipal
 .
 h
 "
@@ -9338,7 +9338,7 @@ attributes
 .
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -9431,7 +9431,7 @@ attributes
 .
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -46196,7 +46196,7 @@ aPrincipal
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -46209,7 +46209,7 @@ else
 {
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -73505,7 +73505,7 @@ LoadingPrincipal
 {
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -73540,7 +73540,7 @@ attrs
 ;
 principalToInherit
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 Create
@@ -74773,7 +74773,7 @@ case
 .
 triggeringPrincipal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
@@ -84059,7 +84059,7 @@ nsIPrincipal
 >
 principal
 =
-nsNullPrincipal
+NullPrincipal
 :
 :
 CreateWithInheritedAttributes
