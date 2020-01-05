@@ -136,3 +136,13 @@ test
 mod
 mem
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+str
+;
