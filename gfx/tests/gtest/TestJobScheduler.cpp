@@ -122,6 +122,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+SyncObject
+;
 /
 /
 Artificially
