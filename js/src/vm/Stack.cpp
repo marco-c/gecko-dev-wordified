@@ -11144,6 +11144,9 @@ from
 the
 runtime
 .
+AutoNoteSingleThreadedRegion
+anstr
+;
 savedPrevJitTop_
 =
 activation_
