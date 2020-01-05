@@ -502,6 +502,7 @@ PartialEq
 Eq
 Copy
 Clone
+Debug
 Deserialize
 Serialize
 )
@@ -1995,6 +1996,18 @@ ScriptCommand
 (
 PipelineId
 WebDriverScriptCommand
+)
+SendKeys
+(
+PipelineId
+Vec
+<
+(
+Key
+KeyModifiers
+KeyState
+)
+>
 )
 TakeScreenshot
 (
