@@ -1165,7 +1165,15 @@ aLevel
 )
 )
 {
-PR_LogPrint
+MOZ_LOG
+(
+GetGFX2DLog
+(
+)
+PRLogLevelForLevel
+(
+aLevel
+)
 (
 "
 %
@@ -1187,6 +1195,7 @@ aNoNewline
 \
 n
 "
+)
 )
 ;
 }

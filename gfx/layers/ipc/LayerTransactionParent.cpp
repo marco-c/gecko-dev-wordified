@@ -3415,7 +3415,7 @@ VisualFrameWarning
 severity
 )
 ;
-PR_LogPrint
+printf_stderr
 (
 "
 LayerTransactionParent

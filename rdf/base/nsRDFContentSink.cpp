@@ -2595,7 +2595,13 @@ ToNewCString
 tagStr
 )
 ;
-PR_LogPrint
+MOZ_LOG
+(
+gLog
+LogLevel
+:
+:
+Warning
 (
 "
 rdfxml
@@ -2621,6 +2627,7 @@ fix
 me
 *
 /
+)
 )
 ;
 free
