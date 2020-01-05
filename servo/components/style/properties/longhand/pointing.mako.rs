@@ -1230,6 +1230,7 @@ visible
 painted
 fill
 stroke
+all
 "
 spec
 =
