@@ -931,6 +931,17 @@ uninit
 )
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+!
+JSRuntime
+:
+:
+hasLiveRuntimes
+(
+)
+)
+;
 JS_ShutDown
 (
 )

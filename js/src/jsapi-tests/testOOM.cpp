@@ -387,6 +387,17 @@ cx
 )
 OOM_TEST_FINISHED
 ;
+CHECK
+(
+!
+JSRuntime
+:
+:
+hasLiveRuntimes
+(
+)
+)
+;
 END_OOM_TEST
 ;
 JS_DestroyContext
