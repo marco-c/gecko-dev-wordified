@@ -448,7 +448,7 @@ void
 Send
 (
 const
-InputStreamParams
+IPCStream
 &
 aStream
 const
