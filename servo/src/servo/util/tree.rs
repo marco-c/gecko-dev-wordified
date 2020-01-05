@@ -15,7 +15,7 @@ Use
 traits
 .
 type
-fields
+Tree
 <
 T
 >
@@ -59,7 +59,7 @@ T
 }
 ;
 iface
-rd_tree_ops
+ReadMethods
 <
 T
 >
@@ -75,7 +75,7 @@ f
 :
 fn
 (
-fields
+Tree
 <
 T
 >
@@ -90,7 +90,7 @@ R
 ;
 }
 iface
-wr_tree_ops
+WriteMethods
 <
 T
 >
@@ -106,7 +106,7 @@ f
 :
 fn
 (
-fields
+Tree
 <
 T
 >
@@ -128,7 +128,7 @@ T
 copy
 O
 :
-rd_tree_ops
+ReadMethods
 <
 T
 >
@@ -226,7 +226,7 @@ T
 )
 -
 >
-fields
+Tree
 <
 T
 >
@@ -262,7 +262,7 @@ T
 copy
 O
 :
-wr_tree_ops
+WriteMethods
 <
 T
 >
@@ -439,7 +439,7 @@ T
 copy
 O
 :
-rd_tree_ops
+ReadMethods
 <
 T
 >
@@ -490,7 +490,7 @@ dummy
 {
 fields
 :
-fields
+Tree
 <
 dummy
 >
@@ -506,7 +506,7 @@ dtree
 }
 impl
 of
-rd_tree_ops
+ReadMethods
 <
 dummy
 >
@@ -526,7 +526,7 @@ f
 :
 fn
 (
-fields
+Tree
 <
 dummy
 >
@@ -549,7 +549,7 @@ fields
 }
 impl
 of
-wr_tree_ops
+WriteMethods
 <
 dummy
 >
@@ -569,7 +569,7 @@ f
 :
 fn
 (
-fields
+Tree
 <
 dummy
 >
