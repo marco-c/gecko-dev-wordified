@@ -78,16 +78,6 @@ synstructure
 ;
 #
 [
-cfg
-(
-not
-(
-test
-)
-)
-]
-#
-[
 proc_macro_derive
 (
 JSTraceable

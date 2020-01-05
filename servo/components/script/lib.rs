@@ -205,14 +205,6 @@ DOM
 [
 plugin
 (
-plugins
-)
-]
-#
-!
-[
-plugin
-(
 script_plugins
 )
 ]
