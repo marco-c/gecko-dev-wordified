@@ -967,6 +967,9 @@ None
 verbose
 =
 0
+headless
+=
+False
 )
 :
         
@@ -1124,6 +1127,12 @@ self
 verbose
 =
 verbose
+        
+self
+.
+headless
+=
+headless
     
 property
     
@@ -1865,6 +1874,40 @@ environ
 copy
 (
 )
+        
+if
+self
+.
+headless
+:
+            
+env
+[
+"
+MOZ_HEADLESS
+"
+]
+=
+"
+1
+"
+            
+env
+[
+"
+DISPLAY
+"
+]
+=
+"
+77
+"
+#
+Set
+a
+fake
+display
+.
         
 #
 environment
@@ -3369,6 +3412,18 @@ browser
 safebrowsing
 .
 downloads
+.
+enabled
+"
+:
+False
+        
+"
+browser
+.
+safebrowsing
+.
+forbiddenURIs
 .
 enabled
 "

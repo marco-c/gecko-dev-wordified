@@ -504,9 +504,13 @@ GetInstance
 )
 #
 endif
-NS_GENERIC_FACTORY_CONSTRUCTOR
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
+nsISound
 nsSound
+:
+:
+GetInstance
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
@@ -1163,7 +1167,7 @@ endif
 kNS_SOUND_CID
 false
 nullptr
-nsSoundConstructor
+nsISoundConstructor
 Module
 :
 :

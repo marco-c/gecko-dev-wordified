@@ -2893,6 +2893,46 @@ add_argument
 '
 -
 -
+headless
+'
+                          
+action
+=
+'
+store_true
+'
+                          
+dest
+=
+'
+headless
+'
+                          
+default
+=
+False
+                          
+help
+=
+'
+Enable
+headless
+mode
+when
+running
+marionette
+tests
+.
+'
+)
+        
+self
+.
+add_argument
+(
+'
+-
+-
 tag
 '
                           
@@ -4091,6 +4131,9 @@ True
 emulator
 =
 False
+headless
+=
+False
 *
 *
 kwargs
@@ -4367,6 +4410,12 @@ self
 verbose
 =
 verbose
+        
+self
+.
+headless
+=
+headless
         
 self
 .
@@ -5974,6 +6023,21 @@ self
 .
 workspace_path
         
+if
+self
+.
+headless
+:
+            
+kwargs
+[
+'
+headless
+'
+]
+=
+True
+        
 return
 kwargs
     
@@ -7560,6 +7624,14 @@ instance
 is
 not
 None
+                
+"
+headless
+"
+:
+self
+.
+headless
             
 }
             
