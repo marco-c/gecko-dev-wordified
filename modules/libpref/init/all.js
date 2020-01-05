@@ -65838,6 +65838,6 @@ IntersectionObserver
 .
 enabled
 "
-true
+false
 )
 ;
