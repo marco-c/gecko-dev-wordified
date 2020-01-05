@@ -159,7 +159,10 @@ namespace
 js
 {
 struct
+JS_PUBLIC_API
+(
 PerformanceGroup
+)
 ;
 }
 /

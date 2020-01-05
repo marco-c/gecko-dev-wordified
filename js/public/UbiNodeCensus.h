@@ -685,7 +685,10 @@ CountBase
 struct
 CountDeleter
 {
+JS_PUBLIC_API
+(
 void
+)
 operator
 (
 )
@@ -1489,7 +1492,10 @@ nullptr
 {
 }
 MOZ_MUST_USE
+JS_PUBLIC_API
+(
 bool
+)
 init
 (
 )
@@ -1607,7 +1613,10 @@ NodeData
 }
 ;
 MOZ_MUST_USE
+JS_PUBLIC_API
+(
 bool
+)
 operator
 (
 )
@@ -1669,7 +1678,10 @@ CountType
 tree
 .
 MOZ_MUST_USE
+JS_PUBLIC_API
+(
 bool
+)
 ParseCensusOptions
 (
 JSContext
@@ -1731,7 +1743,10 @@ to
 the
 cx
 .
+JS_PUBLIC_API
+(
 CountTypePtr
+)
 ParseBreakdown
 (
 JSContext

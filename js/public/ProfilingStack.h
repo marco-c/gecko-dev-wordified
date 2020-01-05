@@ -1040,8 +1040,11 @@ return
 spOrScript
 ;
 }
+JS_PUBLIC_API
+(
 JSScript
 *
+)
 script
 (
 )

@@ -1208,7 +1208,10 @@ NoTransferables
 ;
 class
 MOZ_NON_MEMMOVABLE
+JS_PUBLIC_API
+(
 JSStructuredCloneData
+)
 :
 public
 mozilla
