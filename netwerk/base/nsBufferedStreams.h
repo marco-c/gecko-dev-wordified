@@ -548,6 +548,12 @@ nsBufferedInputStream
 )
 {
 }
+bool
+IsIPCSerializable
+(
+)
+const
+;
 NS_IMETHOD
 Fill
 (
