@@ -514,7 +514,7 @@ join
 (
 self
 .
-awsy_path
+testdir
 '
 html
 '
@@ -532,7 +532,7 @@ join
 (
 self
 .
-awsy_path
+testdir
 '
 results
 '
