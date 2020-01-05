@@ -6060,6 +6060,8 @@ js
 jsm
 |
 java
+|
+webidl
 )
 (
 ?
