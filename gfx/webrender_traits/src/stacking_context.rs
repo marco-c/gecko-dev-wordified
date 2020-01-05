@@ -125,9 +125,6 @@ Matrix4D
 <
 f32
 >
-establishes_3d_context
-:
-bool
 mix_blend_mode
 :
 MixBlendMode
@@ -164,14 +161,6 @@ overflow
 z_index
 :
 z_index
-display_lists
-:
-Vec
-:
-:
-new
-(
-)
 transform
 :
 transform
@@ -186,9 +175,6 @@ perspective
 clone
 (
 )
-establishes_3d_context
-:
-establishes_3d_context
 mix_blend_mode
 :
 mix_blend_mode

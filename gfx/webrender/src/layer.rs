@@ -101,6 +101,13 @@ root
 stacking
 contexts
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Layer
