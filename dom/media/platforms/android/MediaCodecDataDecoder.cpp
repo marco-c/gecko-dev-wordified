@@ -688,12 +688,6 @@ AndroidSurfaceTexture
 >
 mSurfaceTexture
 ;
-RefPtr
-<
-SamplesWaitingForKey
->
-mSamplesWaitingForKey
-;
 }
 ;
 class
