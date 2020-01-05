@@ -339,11 +339,6 @@ if
 image
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 return
 nullptr
 ;
@@ -640,11 +635,6 @@ data
 )
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 return
 nullptr
 ;
