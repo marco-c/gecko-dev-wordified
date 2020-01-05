@@ -604,6 +604,9 @@ mod
 serviceworker_manager
 ;
 mod
+serviceworkerjob
+;
+mod
 task_source
 ;
 pub
