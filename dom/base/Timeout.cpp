@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsIScriptTimeoutHandler
+nsITimeoutHandler
 .
 h
 "
