@@ -1967,6 +1967,9 @@ n
 ;
 ASSERT_EQ
 (
+(
+bool
+)
 sdp_attr_get_rtcp_fb_remb_enabled
 (
 sdp_ptr_
@@ -2007,6 +2010,9 @@ n
 ;
 ASSERT_EQ
 (
+(
+bool
+)
 sdp_attr_get_rtcp_fb_remb_enabled
 (
 sdp_ptr_
@@ -3280,6 +3286,9 @@ sdp_ptr_
 ;
 ASSERT_EQ
 (
+(
+bool
+)
 sdp_attr_get_rtcp_fb_remb_enabled
 (
 sdp_ptr_
@@ -3291,6 +3300,9 @@ true
 ;
 ASSERT_EQ
 (
+(
+bool
+)
 sdp_attr_get_rtcp_fb_remb_enabled
 (
 sdp_ptr_
