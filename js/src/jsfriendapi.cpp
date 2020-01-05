@@ -1573,6 +1573,8 @@ fs
 -
 >
 flags
+|
+JSPROP_RESOLVING
 )
 )
 ;
