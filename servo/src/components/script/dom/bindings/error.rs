@@ -175,6 +175,7 @@ NotSupported
 InvalidState
 Syntax
 NamespaceError
+InvalidAccess
 Security
 Network
 }
