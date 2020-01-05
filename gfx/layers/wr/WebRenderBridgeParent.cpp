@@ -1154,7 +1154,7 @@ MOZ_ASSERT
 mWRState
 )
 ;
-wr_dp_begin
+wr_window_dp_begin
 (
 mWRWindowState
 mWRState
@@ -2241,7 +2241,7 @@ get_OpDPPushIframe
 (
 )
 ;
-wr_dp_push_iframe
+wr_window_dp_push_iframe
 (
 mWRWindowState
 mWRState
@@ -2368,7 +2368,7 @@ i
 .
 glyphs
 ;
-wr_dp_push_text
+wr_window_dp_push_text
 (
 mWRWindowState
 mWRState
@@ -2433,7 +2433,7 @@ reached
 ;
 }
 }
-wr_dp_end
+wr_window_dp_end
 (
 mWRWindowState
 mWRState
