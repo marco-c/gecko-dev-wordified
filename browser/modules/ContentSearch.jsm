@@ -2840,6 +2840,13 @@ openPreferences
 "
 paneGeneral
 "
+{
+origin
+:
+"
+contentSearch
+"
+}
 )
 ;
 }

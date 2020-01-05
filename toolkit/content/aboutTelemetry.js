@@ -1837,6 +1837,13 @@ openAdvancedPreferences
 "
 dataChoicesTab
 "
+{
+origin
+:
+"
+aboutTelemetry
+"
+}
 )
 ;
 }
@@ -1849,6 +1856,13 @@ openPreferences
 "
 paneAdvanced
 "
+{
+origin
+:
+"
+aboutTelemetry
+"
+}
 )
 ;
 }

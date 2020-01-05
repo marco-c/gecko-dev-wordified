@@ -413,6 +413,13 @@ openPreferences
 "
 paneGeneral
 "
+{
+origin
+:
+"
+contentSearch
+"
+}
 )
 ;
 }
