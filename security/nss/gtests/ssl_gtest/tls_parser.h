@@ -236,6 +236,12 @@ kTlsHandshakeServerKeyExchange
 ;
 const
 uint8_t
+kTlsHandshakeCertificateRequest
+=
+13
+;
+const
+uint8_t
 kTlsHandshakeCertificateVerify
 =
 15
