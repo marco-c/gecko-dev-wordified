@@ -362,6 +362,15 @@ rules
 nsTArrayBorrowed_uintptr_t
 result
 )
+SERVO_BINDING_FUNC
+(
+Servo_CssRules_GetStyleRuleAt
+RawServoStyleRuleStrong
+ServoCssRulesBorrowed
+rules
+uint32_t
+index
+)
 /
 /
 Animations
