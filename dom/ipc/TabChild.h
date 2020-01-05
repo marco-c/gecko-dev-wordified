@@ -2663,7 +2663,7 @@ NotifyPainted
 )
 ;
 void
-RequestNativeKeyBindings
+RequestEditCommands
 (
 nsIWidget
 :
