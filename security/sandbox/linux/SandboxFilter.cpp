@@ -1243,6 +1243,15 @@ Allow
 #
 ifdef
 CLOCK_MONOTONIC_COARSE
+/
+/
+Used
+by
+SandboxReporter
+among
+other
+things
+.
 .
 ElseIf
 (
