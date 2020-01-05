@@ -243,7 +243,9 @@ xhtml
 const
 FAVICON_ERRORPAGE_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
