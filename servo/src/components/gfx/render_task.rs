@@ -2262,6 +2262,8 @@ draw_into_context
 &
 mut
 ctx
+&
+matrix
 )
 ;
 ctx

@@ -310,6 +310,16 @@ SpecificNamespace
 AnyNamespace
 }
 ;
+pub
+use
+cssparser
+:
+:
+{
+Color
+RGBA
+}
+;
 mod
 stylesheets
 ;
