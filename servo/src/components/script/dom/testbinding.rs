@@ -1737,8 +1737,6 @@ f64
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableStringWithDefault

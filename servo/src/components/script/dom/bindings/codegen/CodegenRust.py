@@ -5803,15 +5803,12 @@ return
 handleDefault
 (
 conversionCode
-                                     
 "
 {
 declName
 }
-.
-SetNull
-(
-)
+=
+None
 ;
 "
 )
