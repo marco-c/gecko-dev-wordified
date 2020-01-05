@@ -141,15 +141,6 @@ stats
 '
         
 '
-generate
--
-balrog
--
-properties
-'
-        
-#
-'
 update
 '
 #
