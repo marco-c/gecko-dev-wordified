@@ -332,6 +332,16 @@ true
 "
 )
 ;
+if
+(
+!
+aProfile
+.
+IsEmpty
+(
+)
+)
+{
 mWriter
 -
 >
@@ -347,6 +357,7 @@ get
 )
 )
 ;
+}
 mPendingProfiles
 -
 -
