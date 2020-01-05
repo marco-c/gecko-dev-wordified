@@ -865,6 +865,8 @@ read
 )
 .
 declarations
+(
+)
 )
 ;
 }

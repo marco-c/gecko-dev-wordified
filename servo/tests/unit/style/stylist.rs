@@ -278,12 +278,9 @@ RwLock
 new
 (
 PropertyDeclarationBlock
-{
-declarations
 :
-vec
-!
-[
+:
+with_one
 (
 PropertyDeclaration
 :
@@ -312,11 +309,6 @@ Importance
 :
 Normal
 )
-]
-important_count
-:
-0
-}
 )
 )
 }
