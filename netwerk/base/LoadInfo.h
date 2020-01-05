@@ -522,9 +522,6 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aSandboxedLoadingPrincipal
-nsIURI
-*
-aResultPrincipalURI
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
@@ -731,12 +728,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mSandboxedLoadingPrincipal
-;
-nsCOMPtr
-<
-nsIURI
->
-mResultPrincipalURI
 ;
 nsWeakPtr
 mLoadingContext
