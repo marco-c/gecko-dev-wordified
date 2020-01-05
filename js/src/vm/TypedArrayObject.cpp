@@ -8244,9 +8244,6 @@ if
 (
 !
 TypedArrayMethods
-<
-TypedArrayObject
->
 :
 :
 setFromTypedArray
@@ -8602,9 +8599,6 @@ if
 (
 !
 TypedArrayMethods
-<
-TypedArrayObject
->
 :
 :
 initFromIterablePackedArray
@@ -9030,9 +9024,6 @@ if
 (
 !
 TypedArrayMethods
-<
-TypedArrayObject
->
 :
 :
 setFromNonTypedArray
@@ -9703,9 +9694,6 @@ TypedArrayObject
 :
 is
 TypedArrayMethods
-<
-TypedArrayObject
->
 :
 :
 set
