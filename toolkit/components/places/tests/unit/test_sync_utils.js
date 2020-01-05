@@ -12690,6 +12690,11 @@ parentTitle
 Bookmarks
 Menu
 "
+dateAdded
+:
+item
+.
+dateAdded
 title
 :
 "
@@ -12779,6 +12784,9 @@ parentTitle
 "
 "
 title
+"
+"
+dateAdded
 "
 ]
 .
@@ -13005,6 +13013,9 @@ parentTitle
 "
 title
 "
+"
+dateAdded
+"
 ]
 .
 sort
@@ -13202,6 +13213,9 @@ folder
 "
 parentTitle
 "
+"
+dateAdded
+"
 ]
 .
 sort
@@ -13323,6 +13337,9 @@ query
 "
 "
 parentTitle
+"
+"
+dateAdded
 "
 ]
 .
@@ -13537,6 +13554,9 @@ parentTitle
 "
 "
 title
+"
+"
+dateAdded
 "
 ]
 .
