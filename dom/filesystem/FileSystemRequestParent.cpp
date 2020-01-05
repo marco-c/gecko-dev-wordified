@@ -128,13 +128,6 @@ h
 #
 include
 "
-CreateDirectoryTask
-.
-h
-"
-#
-include
-"
 GetDirectoryListingTask
 .
 h
@@ -331,10 +324,6 @@ type
 )
 )
 {
-FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
-(
-CreateDirectory
-)
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
 GetDirectoryListing
