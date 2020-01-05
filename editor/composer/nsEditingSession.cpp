@@ -138,7 +138,9 @@ etc
 #
 include
 "
-mozFlushType
+mozilla
+/
+FlushType
 .
 h
 "
