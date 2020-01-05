@@ -150,6 +150,16 @@ unstable
 -
 rust
 "
+            
+"
+-
+-
+disable
+-
+name
+-
+namespacing
+"
         
 ]
         
@@ -306,17 +316,11 @@ flags
 "
 -
 -
-ignore
--
-functions
+generate
 "
-            
 "
--
--
-ignore
--
-methods
+types
+vars
 "
         
 ]
@@ -398,6 +402,21 @@ mozilla
 dom
 /
 Element
+.
+h
+"
+            
+"
+{
+}
+/
+dist
+/
+include
+/
+mozilla
+/
+ServoBindings
 .
 h
 "
@@ -514,9 +533,11 @@ blacklist_types
 "
 :
 [
+            
 "
 nsString
 "
+        
 ]
         
 "
@@ -580,6 +601,43 @@ whitelist
 "
 :
 [
+            
+"
+RawGecko
+.
+*
+"
+            
+"
+mozilla_ServoElementSnapshot
+.
+*
+"
+            
+"
+mozilla_ConsumeStyleBehavior
+"
+            
+"
+mozilla_LazyComputeBehavior
+"
+            
+"
+mozilla_css_SheetParsingMode
+"
+            
+"
+mozilla_SkipRootBehavior
+"
+            
+"
+.
+*
+ThreadSafe
+.
+*
+Holder
+"
             
 "
 AnonymousContent
@@ -666,11 +724,11 @@ nsBorderColors
 "
             
 "
-nsChangeHint
+nscolor
 "
             
 "
-nscolor
+nsChangeHint
 "
             
 "
@@ -810,14 +868,6 @@ nsStyleCoord
 "
             
 "
-nsStyleCoord
-"
-            
-"
-nsStyleCoord
-"
-            
-"
 nsStyleCounterData
 "
             
@@ -851,14 +901,6 @@ nsStyleImage
             
 "
 nsStyleImageLayers
-"
-            
-"
-nsStyleImageLayers_Layer
-"
-            
-"
-nsStyleImageLayers_LayerType
 "
             
 "
@@ -966,7 +1008,7 @@ SheetParsingMode
 "
             
 "
-Side
+mozilla_Side
 "
             
 "
@@ -975,10 +1017,6 @@ StaticRefPtr
             
 "
 StyleAnimation
-"
-            
-"
-StyleBasicShape
 "
             
 "
@@ -1049,18 +1087,41 @@ nsACString_internal_incompatible_char_type
 "
 RefPtr_Proxy
 "
-"
-nsAutoPtr_Proxy
-"
-"
-Pair_Base
-"
             
 "
 RefPtr_Proxy_member_function
 "
+            
+"
+nsAutoPtr_Proxy
+"
+            
 "
 nsAutoPtr_Proxy_member_function
+"
+            
+"
+mozilla_detail_PointerType
+"
+            
+"
+mozilla_Pair_Base
+"
+            
+"
+mozilla_SupportsWeakPtr
+"
+            
+"
+SupportsWeakPtr
+"
+            
+"
+mozilla_detail_WeakReference
+"
+            
+"
+mozilla_WeakPtr
 "
             
 "
@@ -1069,32 +1130,6 @@ nsWritingIterator_reference
 "
 nsReadingIterator_reference
 "
-            
-"
-Heap
-"
-"
-TenuredHeap
-"
-"
-Rooted
-"
-"
-WeakPtr
-"
-#
-<
--
-More
-template
-magic
-than
-what
-                                                         
-#
-we
-support
-.
             
 "
 nsTObserverArray
@@ -1109,15 +1144,6 @@ nsAutoTObserverArray
 T
 0
 >
-            
-"
-PLArenaPool
-"
-#
-<
--
-Bindgen
-bug
             
 "
 nsTHashtable
@@ -1216,37 +1242,12 @@ conditionally
 .
             
 "
-SupportsWeakPtr
+JS_Rooted
 "
             
 "
-Maybe
+mozilla_Maybe
 "
-#
-<
--
-AlignedStorage
-which
-means
-templated
-union
-which
-                      
-#
-means
-impossible
-to
-represent
-in
-stable
-rust
-as
-of
-                      
-#
-right
-now
-.
             
 "
 gfxSize
@@ -1254,7 +1255,6 @@ gfxSize
 #
 <
 -
-Same
 union
 {
 struct
@@ -1415,22 +1415,6 @@ gecko_bindings
 "
         
 "
-blacklist_types
-"
-:
-[
-            
-"
-nsACString_internal
-"
-            
-"
-nsAString_internal
-"
-        
-]
-        
-"
 raw_lines
 "
 :
@@ -1476,9 +1460,10 @@ flags
 "
 -
 -
-ignore
--
-methods
+generate
+"
+"
+functions
 "
         
 ]
@@ -1538,45 +1523,6 @@ h
         
 ]
         
-"
-whitelist
-"
-:
-[
-            
-"
-RawGeckoDocument
-"
-            
-"
-RawGeckoElement
-"
-            
-"
-RawGeckoNode
-"
-            
-"
-ThreadSafe
-.
-*
-Holder
-"
-            
-"
-ConsumeStyleBehavior
-"
-            
-"
-LazyComputeBehavior
-"
-            
-"
-SkipRootBehavior
-"
-        
-]
-        
 #
 Types
 to
@@ -1595,7 +1541,35 @@ structs_types
 [
             
 "
-Element
+RawGeckoDocument
+"
+            
+"
+RawGeckoElement
+"
+            
+"
+RawGeckoNode
+"
+            
+"
+ThreadSafeURIHolder
+"
+            
+"
+ThreadSafePrincipalHolder
+"
+            
+"
+ConsumeStyleBehavior
+"
+            
+"
+LazyComputeBehavior
+"
+            
+"
+SkipRootBehavior
 "
             
 "
@@ -1656,26 +1630,6 @@ nsFont
             
 "
 nsIAtom
-"
-            
-"
-nsIDocument
-"
-            
-"
-nsINode
-"
-            
-"
-nsIPrincipal
-"
-            
-"
-nsIURI
-"
-            
-"
-nsMainThreadPtrHolder
 "
             
 "
@@ -4362,6 +4316,7 @@ flags
 append
 (
 "
+mozilla_
 {
 }
 "

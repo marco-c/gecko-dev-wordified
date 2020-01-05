@@ -1625,7 +1625,7 @@ impl_threadsafe_refcount
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 ThreadSafePrincipalHolder
@@ -1641,7 +1641,7 @@ impl_threadsafe_refcount
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 ThreadSafeURIHolder
@@ -1692,7 +1692,7 @@ RefPtr
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 ThreadSafePrincipalHolder
@@ -1709,7 +1709,7 @@ RefPtr
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 ThreadSafeURIHolder
