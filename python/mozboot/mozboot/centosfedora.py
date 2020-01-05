@@ -366,6 +366,14 @@ python2
 -
 devel
 '
+                
+'
+redhat
+-
+rpm
+-
+config
+'
             
 ]
             
