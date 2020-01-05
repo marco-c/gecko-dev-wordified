@@ -2274,6 +2274,9 @@ let
 pattern
 =
 ColorPattern
+:
+:
+new
 (
 color
 )
