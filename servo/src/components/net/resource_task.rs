@@ -1306,6 +1306,10 @@ factory
 "
 http
 "
+|
+"
+https
+"
 =
 >
 http_loader
