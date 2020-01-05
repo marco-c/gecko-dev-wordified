@@ -167,7 +167,7 @@ Error
 :
 {
 InvalidCharacter
-NamespaceError
+Namespace
 }
 ;
 use
@@ -567,7 +567,7 @@ Name
 >
 Err
 (
-NamespaceError
+Namespace
 )
 /
 /

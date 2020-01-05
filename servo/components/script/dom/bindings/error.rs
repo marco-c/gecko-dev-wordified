@@ -275,7 +275,7 @@ Syntax
 /
 NamespaceError
 DOMException
-NamespaceError
+Namespace
 /
 /
 /
@@ -317,14 +317,14 @@ DataClone
 /
 NoModificationAllowedError
 DOMException
-NoModificationAllowedError
+NoModificationAllowed
 /
 /
 /
 TypeError
 JavaScript
 Error
-TypeError
+Type
 (
 DOMString
 )
@@ -526,7 +526,7 @@ SyntaxError
 Error
 :
 :
-NamespaceError
+Namespace
 =
 >
 DOMErrorName
@@ -596,7 +596,7 @@ DataCloneError
 Error
 :
 :
-NoModificationAllowedError
+NoModificationAllowed
 =
 >
 DOMErrorName
@@ -606,7 +606,7 @@ NoModificationAllowedError
 Error
 :
 :
-TypeError
+Type
 (
 message
 )

@@ -171,7 +171,7 @@ Error
 {
 IndexSize
 NotSupported
-TypeError
+Type
 }
 ;
 use
@@ -5748,7 +5748,7 @@ is_infinite
 return
 Err
 (
-TypeError
+Type
 (
 "
 One
@@ -5943,7 +5943,7 @@ is_infinite
 return
 Err
 (
-TypeError
+Type
 (
 "
 One

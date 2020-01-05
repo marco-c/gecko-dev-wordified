@@ -1485,7 +1485,7 @@ Err
 Error
 :
 :
-NoModificationAllowedError
+NoModificationAllowed
 )
 ;
 }
@@ -1880,7 +1880,7 @@ Err
 Error
 :
 :
-NoModificationAllowedError
+NoModificationAllowed
 )
 ;
 }
@@ -2227,7 +2227,7 @@ Err
 Error
 :
 :
-NoModificationAllowedError
+NoModificationAllowed
 )
 ;
 }
