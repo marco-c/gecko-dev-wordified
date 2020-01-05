@@ -949,6 +949,16 @@ declarations
 nsCSSPropertyID
 property
 )
+SERVO_BINDING_FUNC
+(
+Servo_AnimationCompose
+void
+RawServoAnimationValueMapBorrowed
+nsCSSPropertyID
+property
+RawGeckoAnimationPropertySegmentBorrowed
+RawGeckoComputedTimingBorrowed
+)
 /
 /
 presentation
