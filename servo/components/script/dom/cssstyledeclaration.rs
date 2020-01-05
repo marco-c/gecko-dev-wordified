@@ -397,6 +397,9 @@ value
 :
 DOMString
 )
+-
+>
+ErrorResult
 {
 self
 .
@@ -409,11 +412,6 @@ to_owned
 )
 value
 )
-.
-unwrap
-(
-)
-;
 }
 )
 *
