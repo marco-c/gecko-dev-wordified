@@ -1471,8 +1471,6 @@ txt
         
 os
 .
-path
-.
 remove
 (
 build_dir
