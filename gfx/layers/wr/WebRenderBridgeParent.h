@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-layers
+webrender
 /
 WebRenderTypes
 .
@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-layers
+webrender
 /
 WebRenderAPI
 .
