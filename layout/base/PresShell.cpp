@@ -7314,6 +7314,12 @@ if
 mPresContext
 )
 {
+const
+bool
+mayFlushUserFontSet
+=
+false
+;
 gfxUserFontSet
 *
 fs
@@ -7323,6 +7329,7 @@ mPresContext
 >
 GetUserFontSet
 (
+mayFlushUserFontSet
 )
 ;
 if
