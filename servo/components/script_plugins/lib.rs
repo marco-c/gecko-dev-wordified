@@ -216,7 +216,6 @@ box_syntax
 plugin
 plugin_registrar
 rustc_private
-slice_patterns
 )
 ]
 #

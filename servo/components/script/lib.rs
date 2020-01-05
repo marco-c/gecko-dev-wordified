@@ -141,14 +141,6 @@ proc_macro
 [
 feature
 (
-slice_patterns
-)
-]
-#
-!
-[
-feature
-(
 stmt_expr_attributes
 )
 ]

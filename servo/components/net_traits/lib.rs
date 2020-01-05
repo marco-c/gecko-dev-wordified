@@ -69,14 +69,6 @@ box_syntax
 [
 feature
 (
-slice_patterns
-)
-]
-#
-!
-[
-feature
-(
 step_by
 )
 ]
