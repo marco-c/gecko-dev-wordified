@@ -3181,7 +3181,7 @@ enabled
 state
 based
 on
-isAlternate
+aIsAlternate
 void
 PrepareSheet
 (
@@ -3206,7 +3206,7 @@ Element
 *
 aScopeElement
 bool
-isAlternate
+aIsAlternate
 )
 ;
 nsresult
