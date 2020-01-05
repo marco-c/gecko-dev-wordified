@@ -789,7 +789,7 @@ int
 len
 )
 {
-ScopedPK11SlotInfo
+UniquePK11SlotInfo
 slot
 (
 PK11_GetInternalSlot
@@ -811,6 +811,10 @@ rv
 PK11_GenerateRandomOnSlot
 (
 slot
+.
+get
+(
+)
 buf
 len
 )
