@@ -598,6 +598,15 @@ aPromise
 )
 ;
 }
+FileCreatorHelper
+:
+:
+~
+FileCreatorHelper
+(
+)
+{
+}
 void
 FileCreatorHelper
 :
