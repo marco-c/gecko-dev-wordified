@@ -5534,7 +5534,6 @@ extend
 debug_string
 )
 {
-return
 args_fail
 (
 &

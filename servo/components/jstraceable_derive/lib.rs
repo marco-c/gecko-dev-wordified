@@ -228,7 +228,6 @@ let
 (
 impl_generics
 ty_generics
-mut
 where_clause
 )
 =
@@ -237,6 +236,16 @@ type_
 generics
 .
 split_for_impl
+(
+)
+;
+let
+mut
+where_clause
+=
+where_clause
+.
+clone
 (
 )
 ;
@@ -372,8 +381,6 @@ tokens
 quote
 !
 {
-#
-type_
 impl
 #
 impl_generics
