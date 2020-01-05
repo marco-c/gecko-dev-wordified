@@ -5755,6 +5755,17 @@ InitChannelInfo
 channel
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mWorkerPrivate
+-
+>
+FinalChannelPrincipalIsValid
+(
+channel
+)
+)
+;
 /
 /
 We
