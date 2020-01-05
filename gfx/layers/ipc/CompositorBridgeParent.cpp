@@ -8612,6 +8612,7 @@ parent
 new
 WebRenderBridgeParent
 (
+nullptr
 aPipelineId
 mWidget
 glc
