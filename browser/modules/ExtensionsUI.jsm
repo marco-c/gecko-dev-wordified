@@ -707,9 +707,6 @@ icon
 addon
 .
 iconURL
-|
-|
-DEFAULT_EXTENSION_ICON
 type
 :
 "
@@ -748,6 +745,16 @@ browser
 info
 )
 {
+info
+.
+icon
+=
+info
+.
+addon
+.
+iconURL
+;
 info
 .
 type
@@ -2061,6 +2068,9 @@ popupIconURL
 info
 .
 icon
+|
+|
+DEFAULT_EXTENSION_ICON
 persistent
 :
 true
