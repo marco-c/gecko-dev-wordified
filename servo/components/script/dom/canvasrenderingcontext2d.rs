@@ -544,7 +544,6 @@ Clone
 HeapSizeOf
 )
 ]
-pub
 enum
 CanvasFillOrStrokeStyle
 {
