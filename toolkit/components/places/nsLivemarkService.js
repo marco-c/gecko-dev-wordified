@@ -2105,6 +2105,9 @@ writeFeedURI
 aLivemarkInfo
 .
 feedURI
+aLivemarkInfo
+.
+source
 )
 ;
 if
@@ -2121,6 +2124,9 @@ writeSiteURI
 aLivemarkInfo
 .
 siteURI
+aLivemarkInfo
+.
+source
 )
 ;
 }
@@ -2152,6 +2158,11 @@ aLivemarkInfo
 .
 lastModified
 )
+source
+:
+aLivemarkInfo
+.
+source
 }
 )
 ;
@@ -2392,6 +2403,13 @@ remove
 aLivemarkInfo
 .
 guid
+{
+source
+:
+aLivemarkInfo
+.
+source
+}
 )
 ;
 }
@@ -3828,6 +3846,7 @@ _status
 writeFeedURI
 (
 aFeedURI
+aSource
 )
 {
 PlacesUtils
@@ -3851,6 +3870,7 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+aSource
 )
 ;
 this
@@ -3863,6 +3883,7 @@ aFeedURI
 writeSiteURI
 (
 aSiteURI
+aSource
 )
 {
 if
@@ -3883,6 +3904,7 @@ id
 PlacesUtils
 .
 LMANNO_SITEURI
+aSource
 )
 this
 .
@@ -3972,6 +3994,7 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+aSource
 )
 ;
 this
