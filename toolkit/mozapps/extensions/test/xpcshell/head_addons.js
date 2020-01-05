@@ -7033,13 +7033,11 @@ up
 .
 if
 (
-"
-theme
-"
-in
 aData
 .
 manifest
+.
+theme
 )
 return
 installs

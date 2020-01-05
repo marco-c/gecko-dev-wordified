@@ -252,7 +252,7 @@ uri
 yield
 extension
 .
-readManifest
+parseManifest
 (
 )
 ;

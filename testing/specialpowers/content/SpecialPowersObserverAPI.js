@@ -3837,7 +3837,7 @@ rootURI
 ;
 extensionData
 .
-readManifest
+loadManifest
 (
 )
 .
@@ -3896,7 +3896,7 @@ errors
 {
 /
 /
-readManifest
+loadManifest
 (
 )
 will

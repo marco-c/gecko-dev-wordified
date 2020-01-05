@@ -6643,7 +6643,7 @@ manifest
 yield
 extension
 .
-readManifest
+loadManifest
 (
 )
 ;
