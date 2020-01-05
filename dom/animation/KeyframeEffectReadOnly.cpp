@@ -3592,6 +3592,8 @@ Servo_AnimationCompose
 (
 &
 aAnimationValues
+&
+mBaseStyleValuesForServo
 aProperty
 .
 mProperty
