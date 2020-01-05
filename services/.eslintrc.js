@@ -80,17 +80,6 @@ warn
 "
 no
 -
-native
--
-reassign
-"
-:
-"
-warn
-"
-"
-no
--
 nested
 -
 ternary
