@@ -3121,6 +3121,8 @@ rv
 ;
 while
 (
+NS_SUCCEEDED
+(
 catEntries
 -
 >
@@ -3129,6 +3131,9 @@ HasMoreElements
 &
 hasMoreEngines
 )
+)
+&
+&
 hasMoreEngines
 )
 {
