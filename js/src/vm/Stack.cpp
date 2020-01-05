@@ -10488,10 +10488,6 @@ savedPrevJitTop_
 (
 nullptr
 )
-nogc_
-(
-cx
-)
 {
 if
 (

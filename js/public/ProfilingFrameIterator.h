@@ -376,12 +376,6 @@ void
 *
 savedPrevJitTop_
 ;
-JS
-:
-:
-AutoCheckCannotGC
-nogc_
-;
 static
 const
 unsigned
@@ -891,6 +885,7 @@ iteratorDone
 )
 ;
 }
+JS_HAZ_GC_INVALIDATED
 ;
 JS_FRIEND_API
 (
