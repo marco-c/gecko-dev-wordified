@@ -9715,6 +9715,15 @@ path
 extra_env
 =
 {
+            
+'
+MOZ_DEVELOPER_REPO_DIR
+'
+:
+self
+.
+topsrcdir
+        
 }
         
 if
