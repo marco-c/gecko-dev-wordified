@@ -2510,10 +2510,14 @@ _use_stable_rust
 :
             
 return
+os
+.
+path
+.
+join
+(
+version
 "
-%
-s
-/
 rustc
 -
 %
@@ -2525,9 +2529,9 @@ s
 %
 (
 version
-version
 host_triple
 (
+)
 )
 )
         
@@ -2535,10 +2539,14 @@ else
 :
             
 return
+os
+.
+path
+.
+join
+(
+version
 "
-%
-s
-/
 rustc
 -
 nightly
@@ -2548,9 +2556,9 @@ s
 "
 %
 (
-version
 host_triple
 (
+)
 )
 )
     
