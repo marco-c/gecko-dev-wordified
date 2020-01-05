@@ -172,6 +172,13 @@ nsIStorageStream
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 {
 void
