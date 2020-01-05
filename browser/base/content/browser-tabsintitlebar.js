@@ -1934,6 +1934,12 @@ ToolbarIconColor
 .
 inferFromText
 (
+"
+tabsintitlebar
+"
+TabsInTitlebar
+.
+enabled
 )
 ;
 if

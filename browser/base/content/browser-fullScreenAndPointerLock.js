@@ -4487,6 +4487,10 @@ ToolbarIconColor
 .
 inferFromText
 (
+"
+fullscreen
+"
+aEnterFS
 )
 ;
 /
