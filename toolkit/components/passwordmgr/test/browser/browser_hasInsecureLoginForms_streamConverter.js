@@ -303,16 +303,6 @@ URI
 ;
 channel
 .
-loadInfo
-.
-resultPrincipalURI
-=
-channel
-.
-originalURI
-;
-channel
-.
 loadGroup
 =
 aRequest
