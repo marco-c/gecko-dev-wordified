@@ -713,6 +713,15 @@ property
 RawServoAnimationValueBorrowed
 value
 )
+SERVO_BINDING_FUNC
+(
+Servo_ComputedValues_ExtractAnimationValue
+RawServoAnimationValueStrong
+ServoComputedValuesBorrowed
+computed_values
+nsCSSPropertyID
+property
+)
 /
 /
 AnimationValues
