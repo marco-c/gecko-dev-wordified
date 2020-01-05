@@ -365,6 +365,10 @@ mActiveWorker
 nullptr
 ;
 }
+NotifyChromeRegistrationListeners
+(
+)
+;
 }
 ServiceWorkerRegistrationInfo
 :
@@ -1325,6 +1329,10 @@ ServiceWorkerState
 Activated
 )
 ;
+NotifyChromeRegistrationListeners
+(
+)
+;
 RefPtr
 <
 ServiceWorkerManager
@@ -1615,10 +1623,6 @@ forget
 (
 )
 )
-)
-;
-NotifyChromeRegistrationListeners
-(
 )
 ;
 }
@@ -2135,6 +2139,10 @@ mInstallingWorker
 =
 nullptr
 ;
+NotifyChromeRegistrationListeners
+(
+)
+;
 }
 void
 ServiceWorkerRegistrationInfo
@@ -2261,6 +2269,10 @@ ServiceWorkerState
 :
 :
 Installed
+)
+;
+NotifyChromeRegistrationListeners
+(
 )
 ;
 RefPtr
@@ -2478,6 +2490,10 @@ ACTIVE_WORKER
 Invalidate
 )
 ;
+NotifyChromeRegistrationListeners
+(
+)
+;
 }
 void
 ServiceWorkerRegistrationInfo
@@ -2576,6 +2592,10 @@ ServiceWorkerState
 :
 :
 Activating
+)
+;
+NotifyChromeRegistrationListeners
+(
 )
 ;
 }
