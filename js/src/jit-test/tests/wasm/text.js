@@ -207,7 +207,7 @@ b
 )
 SyntaxError
 /
-function
+Function
 label
 '
 \
@@ -345,7 +345,7 @@ a
 )
 SyntaxError
 /
-local
+Local
 label
 '
 \
@@ -426,7 +426,7 @@ abc
 )
 SyntaxError
 /
-function
+Function
 label
 '
 \
@@ -473,7 +473,7 @@ const
 )
 SyntaxError
 /
-signature
+Signature
 label
 '
 \
@@ -524,7 +524,7 @@ get_local
 )
 SyntaxError
 /
-signature
+Signature
 label
 '
 \
