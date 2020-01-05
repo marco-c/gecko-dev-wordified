@@ -29,8 +29,8 @@ result
 :
 :
 {
-result
-ok
+Result
+Ok
 }
 ;
 import
@@ -164,7 +164,7 @@ char
 )
 -
 >
-option
+Option
 <
 GlyphIndex
 >
@@ -172,7 +172,7 @@ GlyphIndex
 /
 /
 FIXME
-some
+Some
 (
 40u
 )
@@ -203,7 +203,7 @@ GlyphIndex
 )
 -
 >
-option
+Option
 <
 int
 >
@@ -211,7 +211,7 @@ int
 /
 /
 FIXME
-some
+Some
 (
 15
 )
@@ -230,7 +230,7 @@ u8
 )
 -
 >
-result
+Result
 <
 QuartzNativeFont
 (
@@ -309,7 +309,7 @@ is_not_null
 )
 ;
 return
-ok
+Ok
 (
 QuartzNativeFont
 (
