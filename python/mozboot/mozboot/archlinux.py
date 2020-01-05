@@ -69,9 +69,16 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozboot
+.
+linux_common
+import
+StyloInstall
 class
 ArchlinuxBootstrapper
 (
+StyloInstall
 BaseBootstrapper
 )
 :

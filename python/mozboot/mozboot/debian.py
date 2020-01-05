@@ -63,6 +63,12 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozboot
+.
+linux_common
+import
+StyloInstall
 MERCURIAL_INSTALL_PROMPT
 =
 '
@@ -203,6 +209,7 @@ strip
 class
 DebianBootstrapper
 (
+StyloInstall
 BaseBootstrapper
 )
 :
