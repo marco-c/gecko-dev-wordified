@@ -1,13 +1,3 @@
-DEFAULT_TIMEOUT
-=
-10
-#
-seconds
-LONG_TIMEOUT
-=
-60
-#
-seconds
 import
 os
 import
@@ -663,6 +653,18 @@ test_type
 =
 None
     
+default_timeout
+=
+10
+#
+seconds
+    
+long_timeout
+=
+60
+#
+seconds
+    
 def
 __init__
 (
@@ -674,7 +676,7 @@ test_metadata
                  
 timeout
 =
-DEFAULT_TIMEOUT
+None
 path
 =
 None
@@ -715,6 +717,15 @@ self
 timeout
 =
 timeout
+if
+timeout
+is
+not
+None
+else
+self
+.
+default_timeout
         
 self
 .
@@ -773,7 +784,9 @@ test_metadata
         
 timeout
 =
-LONG_TIMEOUT
+cls
+.
+long_timeout
 if
 manifest_item
 .
@@ -784,7 +797,9 @@ timeout
 long
 "
 else
-DEFAULT_TIMEOUT
+cls
+.
+default_timeout
         
 protocol
 =
@@ -1074,6 +1089,45 @@ None
                 
 return
 True
+        
+return
+False
+    
+property
+    
+def
+leaks
+(
+self
+)
+:
+        
+for
+meta
+in
+self
+.
+itermeta
+(
+None
+)
+:
+            
+leaks
+=
+meta
+.
+leaks
+            
+if
+leaks
+is
+not
+None
+:
+                
+return
+leaks
         
 return
 False
@@ -1432,14 +1486,13 @@ references
                  
 timeout
 =
-DEFAULT_TIMEOUT
+None
 path
 =
 None
 viewport_size
 =
 None
-                 
 dpi
 =
 None
@@ -1535,7 +1588,9 @@ None
         
 timeout
 =
-LONG_TIMEOUT
+cls
+.
+long_timeout
 if
 manifest_test
 .
@@ -1546,7 +1601,9 @@ timeout
 long
 "
 else
-DEFAULT_TIMEOUT
+cls
+.
+default_timeout
         
 if
 nodes
@@ -1895,6 +1952,14 @@ test_type
 "
 wdspec
 "
+    
+default_timeout
+=
+25
+    
+long_timeout
+=
+120
 manifest_test_cls
 =
 {
