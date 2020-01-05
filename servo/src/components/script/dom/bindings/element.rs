@@ -636,15 +636,6 @@ Wrap
 generate_cacheable_wrapper_htmlelement
 !
 (
-HTMLMainElement
-HTMLMainElementBinding
-:
-:
-Wrap
-)
-generate_cacheable_wrapper_htmlelement
-!
-(
 HTMLMapElement
 HTMLMapElementBinding
 :

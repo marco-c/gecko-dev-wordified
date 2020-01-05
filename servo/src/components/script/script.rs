@@ -562,10 +562,6 @@ htmllinkelement
 ;
 pub
 mod
-htmlmainelement
-;
-pub
-mod
 htmlmapelement
 ;
 pub
