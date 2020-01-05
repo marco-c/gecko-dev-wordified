@@ -108,6 +108,7 @@ of
 the
 entire
 TextRun
+pure
 fn
 size
 (
@@ -123,6 +124,7 @@ self
 .
 size_
 }
+pure
 fn
 min_break_width
 (
