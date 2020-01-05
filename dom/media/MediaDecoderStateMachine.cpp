@@ -4741,10 +4741,6 @@ Move
 aSeekJob
 )
 ;
-mVisibility
-=
-aVisibility
-;
 /
 /
 Always
@@ -5019,7 +5015,7 @@ ToMicroseconds
 ;
 if
 (
-mVisibility
+aVisibility
 =
 =
 EventVisibility
@@ -5638,14 +5634,6 @@ SeekCompleted
 ;
 SeekJob
 mSeekJob
-;
-EventVisibility
-mVisibility
-=
-EventVisibility
-:
-:
-Observable
 ;
 MozPromiseRequestHolder
 <
