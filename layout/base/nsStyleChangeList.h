@@ -247,6 +247,7 @@ operator
 [
 ]
 ;
+explicit
 nsStyleChangeList
 (
 mozilla
