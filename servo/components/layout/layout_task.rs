@@ -7900,6 +7900,12 @@ new
 (
 )
 ;
+display_list
+.
+append_from
+(
+&
+mut
 flow
 :
 :
@@ -7915,13 +7921,6 @@ layout_root
 )
 .
 display_list_building_result
-.
-add_to
-(
-&
-mut
-*
-display_list
 )
 ;
 let
