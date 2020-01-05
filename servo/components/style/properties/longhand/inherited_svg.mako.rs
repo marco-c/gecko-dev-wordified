@@ -109,7 +109,7 @@ data
 new_style_struct
 (
 "
-SVGInherited
+InheritedSVG
 "
 inherited
 =
