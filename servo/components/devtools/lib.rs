@@ -161,6 +161,14 @@ box_syntax
 [
 feature
 (
+custom_attribute
+)
+]
+#
+!
+[
+feature
+(
 custom_derive
 )
 ]
@@ -235,6 +243,10 @@ rustc_serialize
 extern
 crate
 serde
+;
+extern
+crate
+serde_json
 ;
 extern
 crate
