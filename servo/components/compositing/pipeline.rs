@@ -783,10 +783,6 @@ clone
 (
 )
 resource_task
-.
-clone
-(
-)
 storage_task
 .
 clone
@@ -987,7 +983,6 @@ paint_chan
 clone
 (
 )
-resource_task
 image_cache_task
 font_cache_task
 time_profiler_chan
