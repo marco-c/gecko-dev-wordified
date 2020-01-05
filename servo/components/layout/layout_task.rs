@@ -2797,12 +2797,10 @@ map
 |
 node
 |
-OpaqueNodeMethods
-:
-:
-from_layout_node
-(
 node
+.
+opaque
+(
 )
 )
 dirty
