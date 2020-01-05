@@ -29632,6 +29632,16 @@ extraParams
 {
 }
 ;
+extraParams
+.
+temporarilyInstalled
+=
+aInstallLocation
+=
+=
+=
+TemporaryInstallLocation
+;
 if
 (
 oldAddon

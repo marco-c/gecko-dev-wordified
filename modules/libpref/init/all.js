@@ -63147,6 +63147,16 @@ pref
 "
 plugins
 .
+http_https_only
+"
+true
+)
+;
+pref
+(
+"
+plugins
+.
 flashBlock
 .
 enabled
