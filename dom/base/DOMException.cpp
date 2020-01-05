@@ -633,7 +633,7 @@ val
 message
 }
 static
-const
+constexpr
 struct
 ResultStruct
 {

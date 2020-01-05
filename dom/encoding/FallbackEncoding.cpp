@@ -175,7 +175,7 @@ namespace
 dom
 {
 static
-const
+constexpr
 nsUConvProp
 localesFallbacks
 [
@@ -194,7 +194,7 @@ h
 }
 ;
 static
-const
+constexpr
 nsUConvProp
 domainsFallbacks
 [
@@ -213,7 +213,7 @@ h
 }
 ;
 static
-const
+constexpr
 nsUConvProp
 nonParticipatingDomains
 [
