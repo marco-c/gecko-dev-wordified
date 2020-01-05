@@ -570,9 +570,6 @@ aDOMTiming
 nsITimedChannel
 *
 aChannel
-Performance
-*
-aParentPerformance
 )
 {
 MOZ_ASSERT
@@ -594,7 +591,6 @@ PerformanceMainThread
 aWindow
 aDOMTiming
 aChannel
-aParentPerformance
 )
 ;
 return

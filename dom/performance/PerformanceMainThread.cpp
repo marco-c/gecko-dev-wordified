@@ -154,7 +154,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mTiming
 mNavigation
-mParentPerformance
 )
 tmp
 -
@@ -181,7 +180,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mTiming
 mNavigation
-mParentPerformance
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
@@ -238,9 +236,6 @@ aDOMTiming
 nsITimedChannel
 *
 aChannel
-Performance
-*
-aParentPerformance
 )
 :
 Performance
@@ -254,10 +249,6 @@ aDOMTiming
 mChannel
 (
 aChannel
-)
-mParentPerformance
-(
-aParentPerformance
 )
 {
 MOZ_ASSERT

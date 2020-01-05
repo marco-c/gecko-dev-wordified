@@ -255,9 +255,6 @@ aDOMTiming
 nsITimedChannel
 *
 aChannel
-Performance
-*
-aParentPerformance
 )
 ;
 static
@@ -535,16 +532,6 @@ virtual
 nsITimedChannel
 *
 GetChannel
-(
-)
-const
-=
-0
-;
-virtual
-Performance
-*
-GetParentPerformance
 (
 )
 const
