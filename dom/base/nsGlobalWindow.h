@@ -2838,14 +2838,14 @@ IsRequestIdleCallbackEnabled
 (
 JSContext
 *
+aCx
+JSObject
+*
 /
 *
 unused
 *
 /
-JSObject
-*
-aObj
 )
 ;
 bool
