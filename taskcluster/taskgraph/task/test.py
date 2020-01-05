@@ -393,6 +393,33 @@ name
 =
 test_name
                 
+if
+test_platform
+[
+'
+nightly
+'
+]
+:
+                    
+test
+.
+setdefault
+(
+'
+attributes
+'
+{
+}
+)
+[
+'
+nightly
+'
+]
+=
+True
+                
 logger
 .
 debug
@@ -466,8 +493,6 @@ build
 platform
 to
 task
-        
-label
 .
 "
 "
@@ -572,8 +597,6 @@ platform
 ]
 =
 task
-.
-label
         
 return
 builds_by_platform
@@ -708,6 +731,25 @@ test_platform
 {
                 
 '
+nightly
+'
+:
+builds_by_platform
+[
+build_platform
+]
+.
+attributes
+.
+get
+(
+'
+nightly
+'
+False
+)
+                
+'
 build
 -
 platform
@@ -725,6 +767,8 @@ builds_by_platform
 [
 build_platform
 ]
+.
+label
             
 }
             
