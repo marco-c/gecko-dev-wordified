@@ -1509,8 +1509,6 @@ ViewportConstraints
 :
 maybe_new
 (
-self
-.
 device
 .
 viewport_size
