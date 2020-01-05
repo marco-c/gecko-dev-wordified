@@ -131,7 +131,7 @@ include
 "
 jit
 /
-BaselineCacheIR
+BaselineIC
 .
 h
 "
@@ -140,7 +140,7 @@ include
 "
 jit
 /
-BaselineIC
+CacheIRCompiler
 .
 h
 "

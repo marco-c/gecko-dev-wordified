@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_BaselineCacheIR_h
+jit_BaselineCacheIRCompiler_h
 #
 define
-jit_BaselineCacheIR_h
+jit_BaselineCacheIRCompiler_h
 #
 include
 "
@@ -205,6 +205,6 @@ js
 endif
 /
 *
-jit_BaselineCacheIR_h
+jit_BaselineCacheIRCompiler_h
 *
 /
