@@ -333,8 +333,9 @@ sty
 ty
 :
 :
-ty_ptr
+TyRef
 (
+_
 ref
 tm
 )
@@ -342,9 +343,8 @@ tm
 ty
 :
 :
-ty_rptr
+TyRawPtr
 (
-_
 ref
 tm
 )
@@ -379,7 +379,7 @@ sty
 ty
 :
 :
-ty_str
+TyStr
 =
 >
 true

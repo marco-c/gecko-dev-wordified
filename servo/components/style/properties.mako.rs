@@ -75,6 +75,40 @@ makotemplates
 .
 org
 /
+/
+/
+XXXManishearth
+remove
+all
+unsafe
+blocks
+when
+/
+/
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+rust
+/
+issues
+/
+24880
+is
+fixed
+/
+/
+See
+#
+6376
 use
 std
 :
@@ -37867,6 +37901,8 @@ style_struct
 name
 }
 {
+unsafe
+{
 &
 mut
 *
@@ -37881,6 +37917,7 @@ ident
 make_unique
 (
 )
+}
 }
 %
 endfor
@@ -38634,6 +38671,8 @@ clone
 }
 }
 ;
+unsafe
+{
 style_
 {
 style_struct
@@ -38653,6 +38692,7 @@ ident
 =
 computed_value
 ;
+}
 %
 endif
 %
@@ -38710,6 +38750,8 @@ property
 name
 ]
 :
+unsafe
+{
 style_
 {
 derived
@@ -38750,6 +38792,7 @@ computed_value
 context
 )
 ;
+}
 %
 endfor
 %
@@ -38821,6 +38864,8 @@ get_font_family
 (
 )
 {
+unsafe
+{
 compute_font_hash
 (
 &
@@ -38832,6 +38877,7 @@ make_unique
 (
 )
 )
+}
 }
 ComputedValues
 {
@@ -40278,6 +40324,8 @@ clone
 }
 }
 ;
+unsafe
+{
 style_
 {
 style_struct
@@ -40297,6 +40345,7 @@ ident
 =
 computed_value
 ;
+}
 %
 if
 property
@@ -40316,6 +40365,8 @@ property
 name
 ]
 :
+unsafe
+{
 style_
 {
 derived
@@ -40357,6 +40408,7 @@ computed_value
 context
 )
 ;
+}
 %
 endfor
 %
@@ -40423,11 +40475,14 @@ time
 let
 border
 =
+unsafe
+{
 style_border
 .
 make_unique
 (
 )
+}
 ;
 %
 for
@@ -40513,11 +40568,14 @@ get_display
 let
 box_
 =
+unsafe
+{
 style_box_
 .
 make_unique
 (
 )
+}
 ;
 box_
 .
@@ -40574,6 +40632,8 @@ get_font_family
 (
 )
 {
+unsafe
+{
 compute_font_hash
 (
 &
@@ -40585,6 +40645,7 @@ make_unique
 (
 )
 )
+}
 }
 (
 ComputedValues
@@ -40755,6 +40816,8 @@ root_font_size
 let
 border
 =
+unsafe
+{
 result
 .
 border
@@ -40762,6 +40825,7 @@ border
 make_unique
 (
 )
+}
 ;
 %
 for
@@ -41012,6 +41076,8 @@ T
 :
 inline
 {
+unsafe
+{
 let
 mut
 style
@@ -41071,6 +41137,7 @@ T
 static_
 ;
 }
+}
 /
 /
 Reset
@@ -41112,6 +41179,8 @@ T
 :
 baseline
 {
+unsafe
+{
 let
 mut
 style
@@ -41145,6 +41214,7 @@ T
 :
 :
 baseline
+}
 }
 /
 /
@@ -41239,6 +41309,8 @@ Au
 )
 )
 {
+unsafe
+{
 let
 mut
 style
@@ -41332,6 +41404,7 @@ Au
 )
 )
 ;
+}
 }
 }
 /
@@ -41439,6 +41512,8 @@ side
 :
 PhysicalSide
 )
+{
+unsafe
 {
 let
 mut
@@ -41755,6 +41830,7 @@ Au
 0
 )
 )
+}
 }
 }
 }

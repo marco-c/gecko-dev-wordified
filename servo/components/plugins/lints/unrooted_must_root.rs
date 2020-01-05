@@ -64,7 +64,6 @@ syntax
 ast
 codemap
 visit
-ast_map
 }
 ;
 use
@@ -75,6 +74,12 @@ attr
 :
 :
 AttrMetaMethods
+;
+use
+rustc
+:
+:
+ast_map
 ;
 use
 rustc
@@ -1499,7 +1504,7 @@ sty
 ty
 :
 :
-ty_struct
+TyStruct
 (
 did
 _
@@ -1508,7 +1513,7 @@ _
 ty
 :
 :
-ty_enum
+TyEnum
 (
 did
 _

@@ -60,6 +60,12 @@ use
 rustc
 :
 :
+ast_map
+;
+use
+rustc
+:
+:
 lint
 :
 :
@@ -90,10 +96,7 @@ use
 syntax
 :
 :
-{
 ast
-ast_map
-}
 ;
 use
 syntax
