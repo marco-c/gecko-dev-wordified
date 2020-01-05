@@ -868,6 +868,7 @@ ARRAY_SIZE
 [
 inline
 ]
+pub
 fn
 insert_hash
 (
@@ -977,6 +978,7 @@ elem
 [
 inline
 ]
+pub
 fn
 remove_hash
 (
@@ -1086,6 +1088,7 @@ elem
 [
 inline
 ]
+pub
 fn
 might_contain_hash
 (
@@ -1228,10 +1231,6 @@ slot
 =
 0xff
 }
-#
-[
-inline
-]
 fn
 hash
 <
