@@ -166,6 +166,7 @@ utils
 const
 {
 decodeUnicodeUrl
+getFormattedProtocol
 getUrlBaseName
 getUrlHost
 getUrlQuery
@@ -3166,10 +3167,6 @@ url
 ;
 let
 {
-httpVersion
-=
-"
-"
 remoteAddress
 remotePort
 totalTime
@@ -3225,6 +3222,14 @@ eventTimings
 timings
 .
 wait
+)
+;
+let
+protocol
+=
+getFormattedProtocol
+(
+requestItem
 )
 ;
 if
@@ -3521,7 +3526,7 @@ protocol
 )
 .
 textContent
-httpVersion
+protocol
 "
 The
 displayed
@@ -3554,7 +3559,7 @@ getAttribute
 title
 "
 )
-httpVersion
+protocol
 "
 The
 tooltip
