@@ -149,6 +149,15 @@ h
 #
 include
 "
+openvr
+/
+openvr
+.
+h
+"
+#
+include
+"
 gfxVR
 .
 h
@@ -395,6 +404,11 @@ uint32_t
 aNumButtons
 uint32_t
 aNumAxes
+vr
+:
+:
+ETrackedDeviceClass
+aDeviceType
 )
 ;
 void

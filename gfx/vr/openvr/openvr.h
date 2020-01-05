@@ -742,6 +742,16 @@ TrackedDeviceClass_Controller
 /
 Tracked
 controllers
+TrackedDeviceClass_GenericTracker
+=
+3
+/
+/
+Generic
+trackers
+similar
+to
+controllers
 TrackedDeviceClass_TrackingReference
 =
 4
