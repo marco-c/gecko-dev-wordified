@@ -132,7 +132,7 @@ plain
 '
 }
         
-req
+json_req
 =
 requests
 .
@@ -155,7 +155,7 @@ headers
 )
         
 assert
-req
+json_req
 .
 status_code
 =
