@@ -2113,6 +2113,9 @@ nsStyleContext
 oldstyle
 ServoComputedValuesBorrowed
 newstyle
+bool
+*
+any_style_changed
 )
 ;
 nsChangeHint
