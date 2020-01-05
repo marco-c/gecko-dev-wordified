@@ -1345,7 +1345,7 @@ CHECK
 FinalizeCalls
 =
 =
-3
+4
 )
 ;
 return
@@ -1368,7 +1368,7 @@ CHECK
 (
 FinalizeCalls
 %
-2
+3
 =
 =
 1
@@ -1382,7 +1382,7 @@ FinalizeCalls
 1
 )
 /
-2
+3
 >
 1
 )
@@ -1443,7 +1443,7 @@ FinalizeCalls
 i
 +
 =
-2
+3
 )
 {
 CHECK
@@ -1451,6 +1451,19 @@ CHECK
 StatusBuffer
 [
 i
+]
+=
+=
+JSFINALIZE_GROUP_PREPARE
+)
+;
+CHECK
+(
+StatusBuffer
+[
+i
++
+1
 ]
 =
 =
@@ -1463,7 +1476,7 @@ StatusBuffer
 [
 i
 +
-1
+2
 ]
 =
 =
