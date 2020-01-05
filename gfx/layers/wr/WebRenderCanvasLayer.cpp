@@ -597,9 +597,6 @@ AddWebRenderCommand
 (
 OpDPPushExternalImageId
 (
-LayerIntRegion
-(
-)
 ToWRRect
 (
 rect
