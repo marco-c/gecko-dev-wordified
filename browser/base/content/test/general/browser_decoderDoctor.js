@@ -1245,6 +1245,13 @@ url
 "
 DocURL
 "
+label
+:
+"
+type
+-
+media
+"
 problem_type
 :
 "
@@ -1396,6 +1403,13 @@ url
 :
 "
 DocURL
+"
+label
+:
+"
+type
+-
+media
 "
 problem_type
 :
