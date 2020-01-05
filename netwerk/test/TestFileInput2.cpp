@@ -1945,6 +1945,10 @@ Test
 (
 CreateFun
 create
+const
+char
+*
+name
 uint32_t
 count
 nsIFile
@@ -2335,8 +2339,9 @@ done
 ;
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+name
 getter_AddRefs
 (
 thread
@@ -2767,6 +2772,15 @@ FileChannelWorker
 :
 Create
 ;
+const
+char
+*
+name
+=
+"
+FileChannelWorker
+"
+;
 Test
 (
 create
@@ -2822,6 +2836,7 @@ n
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2833,6 +2848,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2844,6 +2860,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2855,6 +2872,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2866,6 +2884,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2877,6 +2896,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2888,6 +2908,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2899,6 +2920,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2910,6 +2932,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2926,6 +2949,12 @@ FileSpecWorker
 :
 :
 Create
+;
+name
+=
+"
+FileSpecWorker
+"
 ;
 printf
 (
@@ -2974,6 +3003,7 @@ if
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2985,6 +3015,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -2996,6 +3027,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3007,6 +3039,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3018,6 +3051,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3029,6 +3063,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3040,6 +3075,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3051,6 +3087,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3062,6 +3099,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3078,6 +3116,7 @@ if
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3089,6 +3128,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3100,6 +3140,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3111,6 +3152,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3122,6 +3164,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3133,6 +3176,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3144,6 +3188,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3155,6 +3200,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
@@ -3166,6 +3212,7 @@ outDirFile
 Test
 (
 create
+name
 20
 inDirFile
 outDirFile
