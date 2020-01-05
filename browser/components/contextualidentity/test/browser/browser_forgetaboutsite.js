@@ -2528,6 +2528,13 @@ is
 enabled
 .
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -2549,6 +2556,10 @@ enabled
 true
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

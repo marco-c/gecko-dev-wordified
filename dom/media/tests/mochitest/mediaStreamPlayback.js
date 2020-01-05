@@ -1635,6 +1635,12 @@ p
 )
 =
 >
+new
+Promise
+(
+r
+=
+>
 SpecialPowers
 .
 pushPrefEnv
@@ -1644,6 +1650,8 @@ set
 :
 p
 }
+r
+)
 )
 ;
 /

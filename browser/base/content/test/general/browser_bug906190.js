@@ -720,6 +720,12 @@ test_initialize
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
 SpecialPowers
 .
 pushPrefEnv
@@ -742,6 +748,8 @@ true
 ]
 ]
 }
+resolve
+)
 )
 ;
 }

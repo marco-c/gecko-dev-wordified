@@ -179,6 +179,16 @@ behavior
 )
 {
 return
+new
+Promise
+(
+(
+resolve
+reject
+)
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -194,6 +204,10 @@ kPrefName
 behavior
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;
