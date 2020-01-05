@@ -5103,9 +5103,6 @@ ProxyObject
 :
 renew
 (
-JSContext
-*
-cx
 const
 BaseProxyHandler
 *

@@ -2099,9 +2099,6 @@ Wrapper
 :
 Renew
 (
-JSContext
-*
-cx
 JSObject
 *
 existing
@@ -2126,7 +2123,6 @@ ProxyObject
 .
 renew
 (
-cx
 handler
 ObjectValue
 (

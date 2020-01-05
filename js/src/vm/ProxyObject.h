@@ -732,9 +732,6 @@ obj
 void
 renew
 (
-JSContext
-*
-cx
 const
 BaseProxyHandler
 *
