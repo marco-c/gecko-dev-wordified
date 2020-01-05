@@ -222,6 +222,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 /
 /
 /
