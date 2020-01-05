@@ -206,6 +206,9 @@ aContext
 )
 ;
 }
+namespace
+mozilla
+{
 DetailsFrame
 :
 :
@@ -719,3 +722,8 @@ mDefaultSummary
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla
