@@ -156,7 +156,7 @@ usage
 "
 )
 ;
-getUsage
+getCurrentUsage
 (
 grabUsageAndContinueHandler
 )
@@ -262,7 +262,7 @@ usage
 "
 )
 ;
-getUsage
+getCurrentUsage
 (
 grabUsageAndContinueHandler
 )

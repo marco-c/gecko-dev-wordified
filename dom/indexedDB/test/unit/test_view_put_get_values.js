@@ -424,7 +424,7 @@ view
 yield
 undefined
 ;
-getUsage
+getCurrentUsage
 (
 grabFileUsageAndContinueHandler
 )

@@ -130,10 +130,10 @@ dom
 namespace
 quota
 {
-UsageResult
+OriginUsageResult
 :
 :
-UsageResult
+OriginUsageResult
 (
 uint64_t
 aUsage
@@ -159,11 +159,11 @@ aLimit
 }
 NS_IMPL_ISUPPORTS
 (
-UsageResult
-nsIQuotaUsageResult
+OriginUsageResult
+nsIQuotaOriginUsageResult
 )
 NS_IMETHODIMP
-UsageResult
+OriginUsageResult
 :
 :
 GetUsage
@@ -188,7 +188,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-UsageResult
+OriginUsageResult
 :
 :
 GetFileUsage
@@ -213,7 +213,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-UsageResult
+OriginUsageResult
 :
 :
 GetLimit

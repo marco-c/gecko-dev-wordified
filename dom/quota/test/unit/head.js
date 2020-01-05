@@ -1282,7 +1282,7 @@ usage
 ;
 }
 function
-getUsage
+getCurrentUsage
 (
 usageHandler
 )

@@ -419,7 +419,7 @@ void
 HandleResponse
 (
 const
-UsageResponse
+OriginUsageResponse
 &
 aResponse
 )

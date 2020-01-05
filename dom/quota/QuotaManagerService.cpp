@@ -2630,7 +2630,7 @@ aPrincipal
 aCallback
 )
 ;
-UsageParams
+OriginUsageParams
 params
 ;
 nsresult
