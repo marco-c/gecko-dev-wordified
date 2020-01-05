@@ -15506,17 +15506,6 @@ GetSize
 (
 )
 >
-0
-&
-&
-VideoQueue
-(
-)
-.
-GetSize
-(
-)
->
 =
 GetAmpleVideoFrames
 (
