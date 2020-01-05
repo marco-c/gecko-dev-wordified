@@ -17328,6 +17328,7 @@ getAllTypes
 descriptors
 dictionaries
 callbacks
+typedefs
 )
 :
     
@@ -17458,12 +17459,28 @@ t
 None
 None
 )
+    
+for
+typedef
+in
+typedefs
+:
+        
+yield
+(
+typedef
+.
+innerType
+None
+None
+)
 def
 UnionTypes
 (
 descriptors
 dictionaries
 callbacks
+typedefs
 config
 )
 :
@@ -17753,6 +17770,7 @@ getAllTypes
 descriptors
 dictionaries
 callbacks
+typedefs
 )
 :
         
@@ -57831,6 +57849,10 @@ config
 getCallbacks
 (
 )
+                          
+config
+.
+typedefs
                           
 config
 )
