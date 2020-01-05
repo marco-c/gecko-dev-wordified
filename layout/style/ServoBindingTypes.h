@@ -142,6 +142,9 @@ struct
 ServoComputedValues
 ;
 struct
+ServoCssRules
+;
+struct
 RawServoStyleSheet
 ;
 struct
@@ -539,6 +542,10 @@ ServoComputedValues
 )
 DECL_ARC_REF_TYPE_FOR
 (
+ServoCssRules
+)
+DECL_ARC_REF_TYPE_FOR
+(
 RawServoStyleSheet
 )
 DECL_ARC_REF_TYPE_FOR
@@ -826,6 +833,11 @@ aPtr
 ;
 \
 }
+DEFINE_REFPTR_TRAITS
+(
+CssRules
+ServoCssRules
+)
 DEFINE_REFPTR_TRAITS
 (
 StyleSheet
