@@ -11558,6 +11558,12 @@ CacheKind
 :
 GetName
 :
+case
+CacheKind
+:
+:
+BindName
+:
 MOZ_ASSERT
 (
 numInputs
@@ -11594,6 +11600,8 @@ t
 know
 that
 GetName
+/
+BindName
 is
 only
 using
@@ -11817,6 +11825,12 @@ CacheKind
 :
 :
 HasOwn
+:
+case
+CacheKind
+:
+:
+BindName
 :
 stubDataOffset
 =
