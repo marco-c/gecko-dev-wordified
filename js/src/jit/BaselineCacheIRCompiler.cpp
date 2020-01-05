@@ -3829,7 +3829,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitGuardDOMExpandoObject
+emitGuardDOMExpandoMissingOrGuardShape
 (
 )
 {
@@ -3957,7 +3957,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitGuardDOMExpandoGeneration
+emitLoadDOMExpandoValueGuardGeneration
 (
 )
 {

@@ -5633,7 +5633,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitGuardDOMExpandoObject
+emitGuardDOMExpandoMissingOrGuardShape
 (
 )
 {
@@ -5746,7 +5746,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitGuardDOMExpandoGeneration
+emitLoadDOMExpandoValueGuardGeneration
 (
 )
 {
