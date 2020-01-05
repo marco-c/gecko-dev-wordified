@@ -2501,14 +2501,6 @@ reftest
 "
 -
 -
-disable
--
-e10s
-"
-                        
-"
--
--
 setpref
 =
 reftest
