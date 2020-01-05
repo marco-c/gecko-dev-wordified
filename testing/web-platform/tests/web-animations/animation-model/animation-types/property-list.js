@@ -316,6 +316,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -1105,6 +1108,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -2001,6 +2007,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -2165,6 +2174,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -2363,6 +2375,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -3010,6 +3025,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -3279,6 +3297,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -4369,6 +4390,9 @@ FloodColorProperty
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -6651,6 +6675,9 @@ LightingColorProperty
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -8757,6 +8784,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -10471,6 +10501,9 @@ StopColorProperty
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -11122,6 +11155,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
@@ -11288,6 +11324,9 @@ color
 types
 :
 [
+'
+color
+'
 ]
 }
 '
