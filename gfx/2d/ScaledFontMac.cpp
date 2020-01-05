@@ -549,6 +549,10 @@ ScaledFontBase
 aUnscaledFont
 aSize
 )
+mFont
+(
+aFont
+)
 {
 if
 (
@@ -591,8 +595,6 @@ be
 taking
 a
 reference
-mFont
-=
 CGFontRetain
 (
 aFont
