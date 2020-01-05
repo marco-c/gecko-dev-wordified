@@ -4291,6 +4291,15 @@ base
 :
 :
 PRIVILEGES_DEFAULT
+|
+|
+privs
+=
+=
+base
+:
+:
+PRIVILEGES_FILEREAD
 )
 {
 privs
@@ -6675,6 +6684,7 @@ mSandboxBroker
 SetSecurityLevelForContentProcess
 (
 mSandboxLevel
+mPrivileges
 )
 ;
 shouldSandboxCurrentProcess
