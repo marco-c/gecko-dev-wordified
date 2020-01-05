@@ -347,6 +347,11 @@ AnimationEvent
 NS_EVENT_CLASS
 (
 Internal
+SVGZoomEvent
+)
+NS_EVENT_CLASS
+(
+Internal
 SMILTimeEvent
 )
 /
