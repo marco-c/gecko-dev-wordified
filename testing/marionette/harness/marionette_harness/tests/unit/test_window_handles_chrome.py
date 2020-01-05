@@ -53,11 +53,13 @@ MPL
 0
 /
 .
+import
+types
 from
 marionette_driver
 import
 By
-Wait
+errors
 from
 marionette_harness
 import
@@ -174,6 +176,92 @@ tearDown
 )
     
 def
+assert_window_handles
+(
+self
+)
+:
+        
+try
+:
+            
+self
+.
+assertIsInstance
+(
+self
+.
+marionette
+.
+current_chrome_window_handle
+types
+.
+StringTypes
+)
+            
+self
+.
+assertIsInstance
+(
+self
+.
+marionette
+.
+current_window_handle
+types
+.
+StringTypes
+)
+        
+except
+errors
+.
+NoSuchWindowException
+:
+            
+pass
+        
+for
+handle
+in
+self
+.
+marionette
+.
+chrome_window_handles
+:
+            
+self
+.
+assertIsInstance
+(
+handle
+types
+.
+StringTypes
+)
+        
+for
+handle
+in
+self
+.
+marionette
+.
+window_handles
+:
+            
+self
+.
+assertIsInstance
+(
+handle
+types
+.
+StringTypes
+)
+    
+def
 test_chrome_window_handles_with_scopes
 (
 self
@@ -220,6 +308,12 @@ open
 ;
 "
 )
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -284,6 +378,12 @@ aboutName
 click
 (
 )
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -455,6 +555,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -508,6 +614,12 @@ marionette
 switch_to_window
 (
 new_win
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -635,6 +747,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -662,6 +780,12 @@ switch_to_window
 self
 .
 start_window
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -770,6 +894,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -811,6 +941,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -927,6 +1063,12 @@ start_tab
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 self
@@ -982,6 +1124,12 @@ self
 marionette
 .
 close
+(
+)
+        
+self
+.
+assert_window_handles
 (
 )
         
@@ -1108,6 +1256,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1161,6 +1315,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -1288,6 +1448,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1315,6 +1481,12 @@ switch_to_window
 self
 .
 start_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -1423,6 +1595,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1467,6 +1645,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1492,6 +1676,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -1738,6 +1928,12 @@ trigger
 open_with_menu
 )
         
+self
+.
+assert_window_handles
+(
+)
+        
 #
 We
 still
@@ -1844,6 +2040,12 @@ new_tab
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 self
@@ -1859,6 +2061,12 @@ self
 marionette
 .
 close
+(
+)
+        
+self
+.
+assert_window_handles
 (
 )
         
@@ -1895,6 +2103,12 @@ start_tab
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 self
@@ -1905,4 +2119,32 @@ current_window_handle
 self
 .
 start_tab
+)
+    
+def
+test_window_handles_after_closing_last_window
+(
+self
+)
+:
+        
+self
+.
+close_all_windows
+(
+)
+        
+self
+.
+assertEqual
+(
+self
+.
+marionette
+.
+close_chrome_window
+(
+)
+[
+]
 )

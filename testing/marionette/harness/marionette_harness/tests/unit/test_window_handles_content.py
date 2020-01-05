@@ -53,10 +53,13 @@ MPL
 0
 /
 .
+import
+types
 from
 marionette_driver
 import
 By
+errors
 Wait
 from
 marionette_harness
@@ -158,6 +161,58 @@ tearDown
 )
     
 def
+assert_window_handles
+(
+self
+)
+:
+        
+try
+:
+            
+self
+.
+assertIsInstance
+(
+self
+.
+marionette
+.
+current_window_handle
+types
+.
+StringTypes
+)
+        
+except
+errors
+.
+NoSuchWindowException
+:
+            
+pass
+        
+for
+handle
+in
+self
+.
+marionette
+.
+window_handles
+:
+            
+self
+.
+assertIsInstance
+(
+handle
+types
+.
+StringTypes
+)
+    
+def
 test_window_handles_after_opening_new_tab
 (
 self
@@ -207,6 +262,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -248,6 +309,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -378,6 +445,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -405,6 +478,12 @@ switch_to_window
 self
 .
 start_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -486,6 +565,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -539,6 +624,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -681,6 +772,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -708,6 +805,12 @@ switch_to_window
 self
 .
 start_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -839,6 +942,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -884,6 +993,12 @@ new_tab
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 self
@@ -918,6 +1033,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -945,6 +1066,12 @@ switch_to_window
 self
 .
 start_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -1011,6 +1138,12 @@ open_with_link
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1055,6 +1188,12 @@ close
         
 self
 .
+assert_window_handles
+(
+)
+        
+self
+.
 assertEqual
 (
 len
@@ -1080,6 +1219,12 @@ marionette
 switch_to_window
 (
 new_tab
+)
+        
+self
+.
+assert_window_handles
+(
 )
         
 self
@@ -1149,4 +1294,32 @@ self
 .
 empty_page
 )
+)
+    
+def
+test_window_handles_after_closing_last_tab
+(
+self
+)
+:
+        
+self
+.
+close_all_tabs
+(
+)
+        
+self
+.
+assertEqual
+(
+self
+.
+marionette
+.
+close
+(
+)
+[
+]
 )
