@@ -1800,6 +1800,16 @@ settings
 .
 send_hsts_priming
 ]
+[
+"
+security
+.
+mixed_content
+.
+hsts_priming_request_timeout
+"
+30000
+]
 ]
 ;
 if
