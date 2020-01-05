@@ -1817,7 +1817,7 @@ if
 getenv
 (
 "
-MOZ_SANDBOX_VERBOSE
+MOZ_SANDBOX_LOGGING
 "
 )
 )

@@ -273,7 +273,7 @@ kEnabledForMedia
 /
 Env
 var
-MOZ_SANDBOX_VERBOSE
+MOZ_SANDBOX_LOGGING
 .
 kVerbose
 =
