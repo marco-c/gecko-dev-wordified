@@ -2214,9 +2214,6 @@ PScreenManagerParent
 *
 AllocPScreenManagerParent
 (
-uint32_t
-*
-aNumberOfScreens
 float
 *
 aSystemDefaultScale

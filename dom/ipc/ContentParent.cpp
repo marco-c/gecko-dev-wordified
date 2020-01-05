@@ -18246,9 +18246,6 @@ ContentParent
 :
 AllocPScreenManagerParent
 (
-uint32_t
-*
-aNumberOfScreens
 float
 *
 aSystemDefaultScale
@@ -18261,7 +18258,6 @@ return
 new
 ScreenManagerParent
 (
-aNumberOfScreens
 aSystemDefaultScale
 aSuccess
 )

@@ -271,9 +271,6 @@ InvalidateCache
 (
 )
 ;
-uint32_t
-mNumberOfScreens
-;
 float
 mSystemDefaultScale
 ;
