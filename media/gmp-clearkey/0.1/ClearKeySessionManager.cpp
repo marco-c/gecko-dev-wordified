@@ -1327,7 +1327,6 @@ failure
 =
 [
 self
-sessionId
 aPromiseId
 ]
 {
@@ -3335,7 +3334,6 @@ resolve
 [
 self
 aPromiseId
-sessionId
 ]
 (
 )
@@ -3376,7 +3374,6 @@ reject
 [
 self
 aPromiseId
-sessionId
 ]
 (
 )
