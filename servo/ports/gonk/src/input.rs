@@ -156,7 +156,7 @@ geom
 point
 :
 :
-TypedPoint2D
+Point2D
 ;
 use
 errno
@@ -1175,7 +1175,10 @@ dist
 let
 click_pt
 =
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 slotA
 .
@@ -1399,7 +1402,10 @@ WindowEvent
 :
 Scroll
 (
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 (
 slotA
@@ -1420,7 +1426,10 @@ last_y
 as
 f32
 )
-TypedPoint2D
+Point2D
+:
+:
+typed
 (
 slotA
 .

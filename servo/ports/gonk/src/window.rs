@@ -107,7 +107,10 @@ geom
 size
 :
 :
+{
+Size2D
 TypedSize2D
+}
 ;
 use
 layers
@@ -4988,7 +4991,10 @@ DevicePixel
 u32
 >
 {
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 self
 .
@@ -5034,7 +5040,10 @@ ScreenPx
 f32
 >
 {
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 self
 .

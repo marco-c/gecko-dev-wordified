@@ -1303,6 +1303,9 @@ new
 (
 &
 Point2D
+:
+:
+new
 (
 linear_gradient_style
 .
@@ -1317,6 +1320,9 @@ AzFloat
 )
 &
 Point2D
+:
+:
+new
 (
 linear_gradient_style
 .
@@ -1440,6 +1446,9 @@ new
 (
 &
 Point2D
+:
+:
+new
 (
 radial_gradient_style
 .
@@ -1454,6 +1463,9 @@ AzFloat
 )
 &
 Point2D
+:
+:
+new
 (
 radial_gradient_style
 .

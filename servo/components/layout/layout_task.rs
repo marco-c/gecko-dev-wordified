@@ -240,7 +240,7 @@ use
 geom
 :
 :
-matrix
+Matrix4
 ;
 use
 geom
@@ -2216,6 +2216,9 @@ let
 screen_size
 =
 Size2D
+:
+:
+new
 (
 Au
 (
@@ -6264,8 +6267,14 @@ let
 origin
 =
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 Au
 (
@@ -6299,7 +6308,7 @@ origin
 origin
 0
 &
-matrix
+Matrix4
 :
 :
 identity
@@ -6631,6 +6640,9 @@ let
 current_screen_size
 =
 Size2D
+:
+:
+new
 (
 Au
 :
@@ -6770,6 +6782,9 @@ rw_data
 screen_size
 =
 Size2D
+:
+:
+new
 (
 Au
 :
@@ -7567,6 +7582,9 @@ let
 inflation_amount
 =
 Size2D
+:
+:
+new
 (
 rw_data
 .
@@ -8973,6 +8991,9 @@ let
 point
 =
 Point2D
+:
+:
+new
 (
 Au
 :
@@ -9169,6 +9190,9 @@ let
 point
 =
 Point2D
+:
+:
+new
 (
 Au
 :

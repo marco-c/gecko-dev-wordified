@@ -3074,6 +3074,9 @@ let
 initial_viewport
 =
 Size2D
+:
+:
+new
 (
 Au
 :
@@ -3616,7 +3619,10 @@ ViewportConstraints
 {
 size
 :
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 width
 .

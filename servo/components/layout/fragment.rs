@@ -13949,6 +13949,9 @@ establishes_stacking_context
 {
 return
 Rect
+:
+:
+new
 (
 ZERO_POINT
 border_box
@@ -14121,8 +14124,14 @@ writing_mode
 )
 ;
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 stacking_relative_border_box
 .
@@ -14144,6 +14153,9 @@ border_padding
 top
 )
 Size2D
+:
+:
+new
 (
 stacking_relative_border_box
 .
@@ -14665,6 +14677,9 @@ let
 offset
 =
 Point2D
+:
+:
+new
 (
 box_shadow
 .

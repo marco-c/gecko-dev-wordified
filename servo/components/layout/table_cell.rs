@@ -1994,6 +1994,9 @@ writing_mode
 *
 border_bounds
 Size2D
+:
+:
+new
 (
 Au
 (
@@ -2075,6 +2078,9 @@ to_physical
 (
 writing_mode
 Size2D
+:
+:
+new
 (
 Au
 (

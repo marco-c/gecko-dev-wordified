@@ -1639,8 +1639,14 @@ let
 bounds
 =
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 Au
 (
@@ -1650,6 +1656,9 @@ Au
 ascent
 )
 Size2D
+:
+:
+new
 (
 advance
 ascent

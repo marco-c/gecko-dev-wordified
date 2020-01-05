@@ -63,7 +63,7 @@ geom
 size
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 style
@@ -4515,7 +4515,10 @@ MediaType
 Screen
 viewport_size
 :
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 200
 .
@@ -4712,7 +4715,10 @@ MediaType
 Screen
 viewport_size
 :
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 200
 .
@@ -5426,7 +5432,10 @@ MediaType
 Screen
 viewport_size
 :
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 200
 .

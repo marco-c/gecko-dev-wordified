@@ -101,7 +101,10 @@ geom
 size
 :
 :
+{
+Size2D
 TypedSize2D
+}
 ;
 use
 layers
@@ -1899,7 +1902,10 @@ webdriver_port
 None
 initial_window_size
 :
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 800
 600
@@ -3332,7 +3338,10 @@ collect
 (
 )
 ;
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 res
 [
@@ -3348,7 +3357,10 @@ None
 =
 >
 {
-TypedSize2D
+Size2D
+:
+:
+typed
 (
 800
 600

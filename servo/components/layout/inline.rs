@@ -11621,6 +11621,9 @@ let
 container_size
 =
 Size2D
+:
+:
+new
 (
 self
 .

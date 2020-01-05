@@ -10533,6 +10533,9 @@ let
 point
 =
 Point2D
+:
+:
+new
 (
 rect
 .

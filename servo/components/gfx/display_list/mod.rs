@@ -3619,8 +3619,14 @@ let
 interior_rect
 =
 Rect
+:
+:
+new
 (
 Point2D
+:
+:
+new
 (
 border
 .
@@ -3654,6 +3660,9 @@ border_widths
 top
 )
 Size2D
+:
+:
+new
 (
 border
 .
@@ -3795,6 +3804,9 @@ transform_point
 (
 &
 Point2D
+:
+:
+new
 (
 point
 .
@@ -3816,6 +3828,9 @@ to_f32_px
 point
 =
 Point2D
+:
+:
+new
 (
 Au
 :

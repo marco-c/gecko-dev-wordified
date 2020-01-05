@@ -7960,6 +7960,9 @@ let
 container_size
 =
 Size2D
+:
+:
+new
 (
 self
 .
@@ -12819,6 +12822,9 @@ let
 container_size
 =
 Size2D
+:
+:
+new
 (
 self
 .
@@ -13598,6 +13604,9 @@ writing_mode
 origin_for_children
 =
 Point2D
+:
+:
+new
 (
 -
 margin
@@ -13711,6 +13720,9 @@ None
 =
 >
 Rect
+:
+:
+new
 (
 Point2D
 :

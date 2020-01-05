@@ -787,6 +787,9 @@ i32
 >
 {
 Size2D
+:
+:
+new
 (
 self
 .
