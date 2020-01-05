@@ -2727,7 +2727,7 @@ const
 u8
 length
 :
-u8
+u32
 cache
 :
 *
@@ -2793,12 +2793,12 @@ pub
 fn
 Servo_CSSSupports
 (
-property
+name
 :
 *
 const
 u8
-property_length
+name_length
 :
 u32
 value
