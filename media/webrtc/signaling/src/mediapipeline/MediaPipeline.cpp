@@ -4634,7 +4634,13 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
+RefPtr
+<
+MediaPipeline
+>
+(
 this
+)
 &
 MediaPipeline
 :
@@ -4689,7 +4695,13 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
+RefPtr
+<
+MediaPipeline
+>
+(
 this
+)
 &
 MediaPipeline
 :
