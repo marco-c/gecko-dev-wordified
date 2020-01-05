@@ -142,8 +142,9 @@ js
 :
 :
 {
-MutNullableJS
+JS
 JSRef
+MutNullableHeap
 Temporary
 }
 ;
@@ -269,9 +270,12 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableJS
+MutNullableHeap
+<
+JS
 <
 DOMTokenList
+>
 >
 }
 impl
