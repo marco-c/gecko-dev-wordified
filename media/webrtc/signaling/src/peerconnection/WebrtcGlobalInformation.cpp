@@ -5422,7 +5422,7 @@ Value
 RTCStatsType
 :
 :
-Localcandidate
+Local_candidate
 )
 {
 candBitmask
