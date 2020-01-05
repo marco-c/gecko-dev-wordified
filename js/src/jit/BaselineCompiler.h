@@ -1147,6 +1147,11 @@ JSOP_ENDITER
 \
 _
 (
+JSOP_ISGENCLOSING
+)
+\
+_
+(
 JSOP_GENERATOR
 )
 \
@@ -1858,6 +1863,12 @@ const
 ValueOperand
 &
 val
+)
+;
+MOZ_MUST_USE
+bool
+emitIsMagicValue
+(
 )
 ;
 MOZ_MUST_USE
