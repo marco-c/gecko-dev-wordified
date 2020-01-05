@@ -186,13 +186,7 @@ self
 assertEqual
 (
 "
-rgba
-(
-0
-0
-0
-0
-)
+transparent
 "
 background_colour
 )
