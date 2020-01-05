@@ -99,7 +99,10 @@ use
 devtools_traits
 :
 :
+{
 ScriptToDevtoolsControlMsg
+WorkerId
+}
 ;
 use
 dom
@@ -244,7 +247,6 @@ constellation_msg
 {
 ConstellationChan
 PipelineId
-WorkerId
 }
 ;
 use

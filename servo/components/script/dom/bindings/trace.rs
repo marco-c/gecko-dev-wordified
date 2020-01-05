@@ -422,6 +422,12 @@ cssparser
 RGBA
 ;
 use
+devtools_traits
+:
+:
+WorkerId
+;
+use
 dom
 :
 :
@@ -649,7 +655,6 @@ constellation_msg
 PipelineId
 SubpageId
 WindowSizeData
-WorkerId
 }
 ;
 use

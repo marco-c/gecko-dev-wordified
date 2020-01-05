@@ -378,6 +378,7 @@ devtools_traits
 :
 {
 ScriptToDevtoolsControlMsg
+WorkerId
 }
 ;
 use
@@ -396,10 +397,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-WorkerId
-}
 ;
 use
 protocol

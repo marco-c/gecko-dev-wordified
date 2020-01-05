@@ -70,6 +70,7 @@ devtools_traits
 ScriptToDevtoolsControlMsg
 TimelineMarker
 TimelineMarkerType
+WorkerId
 }
 ;
 use
@@ -572,7 +573,6 @@ LoadData
 PipelineId
 SubpageId
 WindowSizeData
-WorkerId
 }
 ;
 use

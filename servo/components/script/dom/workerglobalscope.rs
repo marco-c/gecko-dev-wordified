@@ -63,6 +63,7 @@ devtools_traits
 {
 DevtoolScriptControlMsg
 ScriptToDevtoolsControlMsg
+WorkerId
 }
 ;
 use
@@ -288,7 +289,6 @@ constellation_msg
 {
 ConstellationChan
 PipelineId
-WorkerId
 }
 ;
 use
