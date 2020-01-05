@@ -415,7 +415,7 @@ computed_values
 overflow_wrap
 overflow_x
 position
-text_decoration
+text_decoration_line
 transform
 }
 ;
@@ -10781,6 +10781,7 @@ Returns
 the
 text
 decoration
+line
 of
 this
 fragment
@@ -10813,6 +10814,7 @@ the
 actual
 text
 decoration
+line
 because
 of
 the
@@ -10879,14 +10881,14 @@ afterward
 .
 pub
 fn
-text_decoration
+text_decoration_line
 (
 &
 self
 )
 -
 >
-text_decoration
+text_decoration_line
 :
 :
 T
@@ -10901,7 +10903,7 @@ get_text
 (
 )
 .
-text_decoration
+text_decoration_line
 }
 /
 /
@@ -17621,14 +17623,14 @@ get_font
 |
 self
 .
-text_decoration
+text_decoration_line
 (
 )
 !
 =
 other
 .
-text_decoration
+text_decoration_line
 (
 )
 |
