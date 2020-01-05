@@ -4868,13 +4868,10 @@ inline_end
 inline_end
 .
 new_line_pos
-=
-in_fragment
 .
-new_line_pos
-.
-clone
+remove
 (
+0
 )
 ;
 self
