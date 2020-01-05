@@ -140,8 +140,6 @@ exec_
     
 memoize
     
-memoized_property
-    
 ReadOnlyDict
     
 ReadOnlyNamespace
@@ -428,12 +426,15 @@ dependencies
         
 ]
     
-memoized_property
+memoize
     
 def
 result
 (
 self
+need_help_dependency
+=
+False
 )
 :
         
@@ -452,6 +453,8 @@ _value_for
 self
 .
 when
+                                                     
+need_help_dependency
 )
 :
             
@@ -468,7 +471,9 @@ sandbox
 _value_for
 (
 d
+need_help_dependency
 )
+                         
 for
 d
 in
@@ -717,12 +722,15 @@ wrapper
 flatten_deps
 )
     
-memoized_property
+memoize
     
 def
 result
 (
 self
+need_help_dependency
+=
+False
 )
 :
         
@@ -774,7 +782,9 @@ sandbox
 _value_for
 (
 d
+need_help_dependency
 )
+                         
 for
 d
 in
@@ -2904,6 +2914,9 @@ return
 obj
 .
 result
+(
+need_help_dependency
+)
     
 memoize
     

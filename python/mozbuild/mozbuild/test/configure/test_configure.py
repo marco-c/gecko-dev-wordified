@@ -2772,6 +2772,8 @@ bar
 ]
 .
 result
+(
+)
         
 self
 .
