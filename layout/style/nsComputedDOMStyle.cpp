@@ -3937,13 +3937,6 @@ ClearStyleContext
 return
 ;
 }
-document
--
->
-FlushPendingLinkUpdates
-(
-)
-;
 /
 /
 Flush

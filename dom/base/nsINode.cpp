@@ -16472,13 +16472,6 @@ TreeMatchContext
 eNeverMatchVisited
 )
 ;
-doc
--
->
-FlushPendingLinkUpdates
-(
-)
-;
 AddScopeElements
 (
 matchingContext
