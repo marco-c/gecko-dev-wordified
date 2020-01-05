@@ -29906,7 +29906,7 @@ identity
 =
 ContextualIdentityService
 .
-getIdentityFromId
+getPublicIdentityFromId
 (
 userContextId
 )
