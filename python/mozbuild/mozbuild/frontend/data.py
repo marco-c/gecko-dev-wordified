@@ -2455,7 +2455,7 @@ KIND
 host
 '
 def
-cargo_target_directory
+cargo_output_directory
 (
 context
 target_var
@@ -2630,7 +2630,7 @@ cargo_file
         
 cargo_dir
 =
-cargo_target_directory
+cargo_output_directory
 (
 context
 self
@@ -3240,7 +3240,7 @@ dependencies
         
 build_dir
 =
-cargo_target_directory
+cargo_output_directory
 (
 context
 self
