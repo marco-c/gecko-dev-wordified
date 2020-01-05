@@ -1590,7 +1590,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 content
@@ -6330,8 +6329,6 @@ nullptr
 )
 ;
 }
-else
-{
 NS_NOTREACHED
 (
 "
@@ -6347,7 +6344,6 @@ channel
 return
 NS_BINDING_ABORTED
 ;
-}
 }
 /
 /
@@ -6581,7 +6577,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
 if
 (
 status

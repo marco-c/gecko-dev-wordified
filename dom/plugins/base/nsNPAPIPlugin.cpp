@@ -11749,12 +11749,9 @@ return
 NPERR_NO_ERROR
 ;
 }
-else
-{
 return
 NPERR_GENERIC_ERROR
 ;
-}
 }
 #
 endif
