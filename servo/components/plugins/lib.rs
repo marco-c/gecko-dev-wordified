@@ -343,6 +343,10 @@ pub
 mod
 heap_size
 ;
+pub
+mod
+lints
+;
 /
 /
 /
@@ -353,10 +357,6 @@ Reflectable
 on
 DOM
 structs
-pub
-mod
-lints
-;
 pub
 mod
 reflector
