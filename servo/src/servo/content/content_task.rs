@@ -755,10 +755,12 @@ Event
 bool
 {
 match
+move
 msg
 {
 Left
 (
+move
 control_msg
 )
 =
@@ -771,6 +773,7 @@ control_msg
 )
 Right
 (
+move
 event
 )
 =
@@ -796,10 +799,12 @@ ControlMsg
 bool
 {
 match
+move
 control_msg
 {
 ParseMsg
 (
+move
 url
 )
 =
@@ -858,6 +863,7 @@ parse_html
 self
 .
 scope
+copy
 url
 self
 .
@@ -1043,15 +1049,16 @@ window
 )
 )
 ;
-for
+do
 vec
 :
 :
-each
+consume
 (
 js_scripts
 )
 |
+_i
 bytes
 |
 {
@@ -1064,7 +1071,6 @@ evaluate_script
 compartment
 .
 global_obj
-*
 bytes
 ~
 "
@@ -1288,6 +1294,7 @@ msg
 }
 Ok
 (
+move
 bytes
 )
 =
@@ -1330,6 +1337,7 @@ compartment
 .
 global_obj
 bytes
+copy
 url
 .
 path

@@ -693,7 +693,7 @@ self
 .
 reflow
 ;
-do
+for
 NodeTree
 .
 each_child
@@ -712,10 +712,9 @@ inheritance_wrapper
 layout_ctx
 *
 child
+copy
 reflow
 )
-;
-true
 }
 }
 /

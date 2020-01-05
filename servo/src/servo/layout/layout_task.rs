@@ -505,6 +505,7 @@ aux
 |
 a
 |
+copy
 *
 a
 )
@@ -951,6 +952,7 @@ apply_style
 &
 layout_ctx
 node
+copy
 layout_ctx
 .
 reflow_cb

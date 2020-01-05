@@ -673,6 +673,7 @@ compartment
 .
 add_name
 (
+copy
 name
 )
 flags
@@ -961,6 +962,7 @@ compartment
 .
 add_name
 (
+copy
 name
 )
 flags
@@ -1209,6 +1211,16 @@ null
 40
 }
 }
+/
+/
+FIXME
+:
+A
+lot
+of
+string
+copies
+here
 pub
 fn
 define_empty_prototype
@@ -1250,6 +1262,7 @@ utils
 :
 prototype_jsclass
 (
+copy
 name
 )
 )
@@ -1268,10 +1281,12 @@ result
 unwrap
 (
 match
+move
 proto
 {
 Some
 (
+move
 s
 )
 =
@@ -1280,6 +1295,7 @@ compartment
 .
 new_object_with_proto
 (
+copy
 name
 s
 compartment
@@ -1295,6 +1311,7 @@ compartment
 .
 new_object
 (
+copy
 name
 null
 (
@@ -1312,6 +1329,7 @@ compartment
 .
 define_property
 (
+copy
 name
 RUST_OBJECT_TO_JSVAL
 (
