@@ -10674,6 +10674,15 @@ base
 .
 block_container_writing_mode
 ;
+let
+container_block_size
+=
+self
+.
+base
+.
+block_container_explicit_block_size
+;
 self
 .
 base
@@ -10748,6 +10757,7 @@ fragment
 assign_replaced_inline_size_if_necessary
 (
 inline_size
+container_block_size
 )
 ;
 }
