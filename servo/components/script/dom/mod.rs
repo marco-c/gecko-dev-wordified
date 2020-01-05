@@ -2819,6 +2819,10 @@ text
 ;
 pub
 mod
+textdecoder
+;
+pub
+mod
 textencoder
 ;
 pub
