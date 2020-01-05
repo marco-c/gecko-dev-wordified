@@ -512,6 +512,16 @@ context
 application
 )
 ;
+message
+=
+NativeApp
+.
+encodeMessage
+(
+context
+message
+)
+;
 return
 app
 .
