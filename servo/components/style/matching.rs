@@ -165,7 +165,7 @@ rule_tree
 StrongRuleNode
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {
@@ -173,12 +173,6 @@ PseudoElement
 RestyleDamage
 TheSelectorImpl
 }
-;
-use
-selector_matching
-:
-:
-ApplicableDeclarationBlock
 ;
 use
 selectors
@@ -255,6 +249,12 @@ sync
 :
 :
 Arc
+;
+use
+stylist
+:
+:
+ApplicableDeclarationBlock
 ;
 use
 util

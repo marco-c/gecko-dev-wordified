@@ -154,7 +154,7 @@ StyleSource
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {

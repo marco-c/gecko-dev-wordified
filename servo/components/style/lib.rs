@@ -928,11 +928,11 @@ rule_tree
 ;
 pub
 mod
-selector_impl
+selector_parser
 ;
 pub
 mod
-selector_matching
+stylist
 ;
 #
 [

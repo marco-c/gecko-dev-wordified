@@ -247,7 +247,7 @@ use
 style
 :
 :
-selector_impl
+selector_parser
 :
 :
 PseudoElement

@@ -92,7 +92,7 @@ restyle_hints
 ElementSnapshot
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {
@@ -102,7 +102,7 @@ TheSelectorImpl
 }
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {

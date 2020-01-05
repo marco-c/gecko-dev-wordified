@@ -183,7 +183,7 @@ style
 gecko
 :
 :
-selector_impl
+selector_parser
 :
 :
 {
@@ -537,7 +537,7 @@ use
 style
 :
 :
-selector_impl
+selector_parser
 :
 :
 PseudoElementCascadeType

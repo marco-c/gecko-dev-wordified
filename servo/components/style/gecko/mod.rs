@@ -90,7 +90,7 @@ conversions
 ;
 pub
 mod
-selector_impl
+selector_parser
 ;
 pub
 mod

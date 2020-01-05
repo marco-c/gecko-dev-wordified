@@ -97,7 +97,7 @@ heapsize
 HeapSizeOf
 ;
 use
-selector_impl
+selector_parser
 :
 :
 {
