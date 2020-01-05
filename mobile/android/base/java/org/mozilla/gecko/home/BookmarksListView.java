@@ -1183,6 +1183,9 @@ moveToChildFolder
 (
 folderId
 folderTitle
+getFirstVisiblePosition
+(
+)
 )
 ;
 final
