@@ -1164,6 +1164,14 @@ return
 mGMPContentChildCount
 >
 0
+|
+|
+!
+mGetContentParentPromises
+.
+IsEmpty
+(
+)
 ;
 }
 void
