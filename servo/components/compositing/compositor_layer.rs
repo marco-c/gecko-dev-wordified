@@ -2232,7 +2232,7 @@ iter
 (
 )
 .
-position
+any
 (
 |
 properties
@@ -2247,10 +2247,6 @@ extra_data
 .
 id
 }
-)
-.
-is_some
-(
 )
 ;
 /
