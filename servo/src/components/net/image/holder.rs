@@ -205,6 +205,13 @@ out
 on
 demand
 .
+#
+[
+deriving
+(
+Clone
+)
+]
 pub
 struct
 ImageHolder

@@ -348,6 +348,7 @@ box
 :
 Option
 <
+~
 Box
 >
 /
@@ -420,6 +421,7 @@ base
 FlowData
 box
 :
+~
 Box
 )
 -
@@ -457,6 +459,7 @@ float_type
 FloatType
 box
 :
+~
 Box
 )
 -
@@ -1151,6 +1154,7 @@ compute_block_margins
 self
 box
 :
+&
 Box
 remaining_width
 :
@@ -1439,6 +1443,7 @@ compute_float_margins
 self
 box
 :
+&
 Box
 remaining_width
 :
@@ -1690,7 +1695,6 @@ float_ctx
 Invalid
 ;
 for
-&
 box
 in
 self
@@ -2046,7 +2050,6 @@ first_in_flow
 true
 ;
 for
-&
 box
 in
 self
@@ -2430,7 +2433,6 @@ collapsing
 }
 ;
 for
-&
 box
 in
 self
@@ -3187,7 +3189,6 @@ Au
 )
 ;
 for
-&
 box
 in
 self
@@ -3569,6 +3570,10 @@ self
 .
 box
 .
+as_ref
+(
+)
+.
 map_default
 (
 Au
@@ -3629,6 +3634,10 @@ do
 self
 .
 box
+.
+as_ref
+(
+)
 .
 map_default
 (
@@ -3693,6 +3702,10 @@ self
 .
 box
 .
+as_ref
+(
+)
+.
 map_default
 (
 Au
@@ -3731,6 +3744,10 @@ do
 self
 .
 box
+.
+as_ref
+(
+)
 .
 map_default
 (
@@ -4844,7 +4861,6 @@ false
 ;
 }
 for
-&
 box
 in
 self
@@ -4986,6 +5002,7 @@ self
 .
 compute_float_margins
 (
+*
 box
 remaining_width
 )
@@ -4996,6 +5013,7 @@ self
 .
 compute_block_margins
 (
+*
 box
 remaining_width
 available_width
@@ -5549,7 +5567,6 @@ return
 ;
 }
 for
-&
 box
 in
 self
@@ -5861,6 +5878,7 @@ box
 {
 Some
 (
+ref
 rb
 )
 =
