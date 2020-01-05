@@ -287,6 +287,10 @@ string
 ;
 pub
 mod
+string_list
+;
+pub
+mod
 task
 ;
 pub
