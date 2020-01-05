@@ -400,7 +400,7 @@ querySelectorAll
 .
 requests
 -
-menu
+list
 -
 icon
 [
@@ -441,7 +441,7 @@ querySelector
 .
 requests
 -
-menu
+list
 -
 icon
 [
@@ -461,7 +461,7 @@ The
 image
 requests
 -
-menu
+list
 -
 icon
 thumbnail
@@ -482,7 +482,7 @@ querySelector
 .
 requests
 -
-menu
+list
 -
 icon
 [
@@ -502,7 +502,7 @@ The
 image
 requests
 -
-menu
+list
 -
 icon
 thumbnail

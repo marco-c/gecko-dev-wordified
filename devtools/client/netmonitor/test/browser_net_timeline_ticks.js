@@ -158,7 +158,7 @@ test
 #
 requests
 -
-menu
+list
 -
 transferred
 -
@@ -179,7 +179,7 @@ true
 #
 requests
 -
-menu
+list
 -
 item
 -
@@ -187,7 +187,7 @@ template
 .
 requests
 -
-menu
+list
 -
 transferred
 "
@@ -210,7 +210,7 @@ ok
 #
 requests
 -
-menu
+list
 -
 waterfall
 -
@@ -241,7 +241,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -385,7 +385,7 @@ ok
 #
 requests
 -
-menu
+list
 -
 waterfall
 -
@@ -415,7 +415,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
@@ -454,7 +454,7 @@ all
 .
 requests
 -
-menu
+list
 -
 timings
 -
