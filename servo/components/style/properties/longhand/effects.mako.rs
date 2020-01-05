@@ -117,6 +117,9 @@ Opacity
 animatable
 =
 True
+creates_stacking_context
+=
+True
 spec
 =
 "
@@ -752,6 +755,16 @@ extra_prefixes
 =
 "
 webkit
+"
+creates_stacking_context
+=
+"
+True
+"
+fixpos_cb
+=
+"
+True
 "
 spec
 =
@@ -4369,6 +4382,9 @@ NS_STYLE_BLEND
 animatable
 =
 False
+creates_stacking_context
+=
+True
 spec
 =
 "
