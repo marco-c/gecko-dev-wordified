@@ -839,8 +839,8 @@ typedef
 mozilla
 :
 :
-StyleClipPathGeometryBox
-StyleClipPathGeometryBox
+StyleGeometryBox
+StyleGeometryBox
 ;
 /
 *
@@ -19495,7 +19495,7 @@ ComputeGeometryBox
 nsIFrame
 *
 aFrame
-StyleClipPathGeometryBox
+StyleGeometryBox
 aGeometryBox
 )
 ;
