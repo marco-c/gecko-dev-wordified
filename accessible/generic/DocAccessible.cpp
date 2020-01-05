@@ -12900,6 +12900,13 @@ applicable
 .
 if
 (
+owner
+!
+=
+this
+&
+&
+(
 !
 mAccessibleCache
 .
@@ -12922,6 +12929,7 @@ owner
 >
 IsInDocument
 (
+)
 )
 )
 {
