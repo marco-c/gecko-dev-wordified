@@ -12469,8 +12469,8 @@ define
         
 if
 defn
-is
-not
+!
+=
 "
 "
 :
@@ -28454,8 +28454,8 @@ if
 self
 .
 visibility
-is
-not
+!
+=
 '
 priv
 '
