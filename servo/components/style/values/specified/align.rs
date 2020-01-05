@@ -127,12 +127,6 @@ style_traits
 :
 ToCss
 ;
-use
-values
-:
-:
-HasViewportPercentage
-;
 bitflags
 !
 {
