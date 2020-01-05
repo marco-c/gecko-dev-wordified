@@ -214,6 +214,7 @@ addObserver
 (
 PREF_ENABLED
 this
+false
 )
 ;
 Services
@@ -230,6 +231,7 @@ before
 -
 change
 "
+false
 )
 ;
 /

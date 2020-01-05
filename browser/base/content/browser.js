@@ -8630,6 +8630,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 }
@@ -8922,6 +8923,7 @@ plugin
 -
 crashed
 "
+false
 )
 ;
 window
@@ -10811,6 +10813,7 @@ perm
 -
 changed
 "
+false
 )
 ;
 Services
@@ -10829,6 +10832,7 @@ session
 -
 history
 "
+false
 )
 ;
 Services
@@ -10844,6 +10848,7 @@ QuotaManager
 :
 StoragePressure
 "
+false
 )
 ;
 Services
@@ -10860,6 +10865,7 @@ install
 -
 disabled
 "
+false
 )
 ;
 Services
@@ -10876,6 +10882,7 @@ install
 -
 started
 "
+false
 )
 ;
 Services
@@ -10892,6 +10899,7 @@ install
 -
 blocked
 "
+false
 )
 ;
 Services
@@ -10910,6 +10918,7 @@ origin
 -
 blocked
 "
+false
 )
 ;
 Services
@@ -10926,6 +10935,7 @@ install
 -
 failed
 "
+false
 )
 ;
 Services
@@ -10942,6 +10952,7 @@ install
 -
 confirmation
 "
+false
 )
 ;
 Services
@@ -10958,6 +10969,7 @@ install
 -
 complete
 "
+false
 )
 ;
 window
@@ -11278,6 +11290,7 @@ gHomeButton
 .
 prefDomain
 gHomeButton
+false
 )
 ;
 var
@@ -11523,6 +11536,7 @@ ctrlTab
 .
 prefName
 ctrlTab
+false
 )
 ;
 /
@@ -20324,6 +20338,7 @@ addObserver
 (
 this
 t
+false
 )
 ;
 }
@@ -21657,6 +21672,7 @@ login
 -
 abort
 "
+false
 )
 ;
 Services
@@ -21675,6 +21691,7 @@ login
 -
 success
 "
+false
 )
 ;
 }
@@ -27114,6 +27131,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 }
@@ -29669,6 +29687,7 @@ document
 -
 shown
 "
+false
 )
 ;
 Services
@@ -29681,6 +29700,7 @@ windowClosed
 "
 domwindowclosed
 "
+false
 )
 ;
 var
@@ -37991,6 +38011,7 @@ mode
 -
 change
 "
+false
 )
 ;
 }
@@ -42626,6 +42647,7 @@ status
 -
 changed
 "
+false
 )
 ;
 this
@@ -43993,6 +44015,7 @@ this
 this
 .
 _permissionsPrompt
+false
 )
 ;
 }
@@ -45369,6 +45392,7 @@ EM
 -
 pong
 "
+false
 )
 ;
 Services
@@ -45568,6 +45592,7 @@ EM
 -
 loaded
 "
+false
 )
 ;
 }
@@ -56981,6 +57006,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 break
@@ -57518,6 +57544,7 @@ styling
 -
 update
 "
+false
 )
 ;
 /

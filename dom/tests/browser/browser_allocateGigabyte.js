@@ -164,6 +164,13 @@ addObserver
 (
 observer
 topic
+/
+*
+weak
+=
+*
+/
+false
 )
 ;
 }

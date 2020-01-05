@@ -289,6 +289,7 @@ addObserver
 "
 "
 buildOverrides
+false
 )
 ;
 Services
@@ -299,6 +300,7 @@ addObserver
 (
 PREF_OVERRIDES_ENABLED
 buildOverrides
+false
 )
 ;
 try
@@ -319,6 +321,7 @@ useragent
 -
 request
 "
+false
 )
 ;
 }

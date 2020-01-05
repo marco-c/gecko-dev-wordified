@@ -221,6 +221,7 @@ bookmarks
 addObserver
 (
 bmObserver
+false
 )
 ;
 yield

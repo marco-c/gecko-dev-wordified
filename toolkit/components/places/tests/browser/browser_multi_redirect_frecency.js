@@ -480,6 +480,7 @@ history
 addObserver
 (
 historyObserver
+false
 )
 ;
 }

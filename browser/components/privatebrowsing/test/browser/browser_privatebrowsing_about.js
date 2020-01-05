@@ -751,6 +751,7 @@ addObserver
 enabled
 "
 prefObserver
+false
 )
 ;
 }

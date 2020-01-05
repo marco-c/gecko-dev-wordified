@@ -273,6 +273,7 @@ history
 addObserver
 (
 historyObserver
+false
 )
 ;
 }

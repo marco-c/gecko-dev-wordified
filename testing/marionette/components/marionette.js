@@ -1027,6 +1027,7 @@ addObserver
 (
 PREF_ENABLED
 this
+false
 )
 ;
 if
@@ -1412,6 +1413,7 @@ windows
 -
 restored
 "
+false
 )
 ;
 prefs
@@ -1473,6 +1475,7 @@ this
 "
 domwindowopened
 "
+false
 )
 ;
 }
@@ -1526,6 +1529,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 this
@@ -1698,6 +1702,7 @@ this
 "
 domwindowclosed
 "
+false
 )
 ;
 }
@@ -1715,6 +1720,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 this

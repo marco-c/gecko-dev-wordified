@@ -889,6 +889,7 @@ api
 -
 loaded
 "
+false
 )
 ;
 Services
@@ -905,6 +906,7 @@ api
 -
 hello
 "
+false
 )
 ;
 do_register_cleanup

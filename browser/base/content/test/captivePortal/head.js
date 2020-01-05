@@ -1300,6 +1300,7 @@ window
 -
 visible
 "
+false
 )
 ;
 }

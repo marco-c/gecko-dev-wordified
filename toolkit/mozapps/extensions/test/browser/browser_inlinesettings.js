@@ -766,6 +766,7 @@ observer
 AddonManager
 .
 OPTIONS_NOTIFICATION_DISPLAYED
+false
 )
 ;
 Services
@@ -778,6 +779,7 @@ observer
 AddonManager
 .
 OPTIONS_NOTIFICATION_HIDDEN
+false
 )
 ;
 run_next_test

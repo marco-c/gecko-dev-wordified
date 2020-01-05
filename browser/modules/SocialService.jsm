@@ -2405,6 +2405,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 try

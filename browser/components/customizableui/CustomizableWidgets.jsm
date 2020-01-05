@@ -2965,6 +2965,7 @@ this
 SyncedTabs
 .
 TOPIC_TABS_CHANGED
+false
 )
 ;
 if

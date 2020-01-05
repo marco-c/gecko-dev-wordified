@@ -414,6 +414,7 @@ hs
 addObserver
 (
 historyObserver
+false
 )
 ;
 function

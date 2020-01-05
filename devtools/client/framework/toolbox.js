@@ -3039,6 +3039,7 @@ disabled
 this
 .
 _applyCacheSettings
+false
 )
 ;
 Services
@@ -3059,6 +3060,7 @@ enabled
 this
 .
 _applyServiceWorkersTestingSettings
+false
 )
 ;
 this
@@ -16548,6 +16550,7 @@ addObserver
 (
 leakCheckObserver
 topic
+false
 )
 ;
 this

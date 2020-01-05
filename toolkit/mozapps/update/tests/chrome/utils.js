@@ -6578,6 +6578,7 @@ addObserver
 (
 aObservePref
 this
+false
 )
 ;
 }

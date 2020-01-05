@@ -563,6 +563,7 @@ addObserver
 (
 observe
 SPELL_CHECK_STARTED_TOPIC
+false
 )
 ;
 os
@@ -571,6 +572,7 @@ addObserver
 (
 observe
 SPELL_CHECK_ENDED_TOPIC
+false
 )
 ;
 let

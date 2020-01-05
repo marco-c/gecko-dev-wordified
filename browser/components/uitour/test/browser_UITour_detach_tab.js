@@ -300,6 +300,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 yield
@@ -679,6 +680,7 @@ window
 -
 destroyed
 "
+false
 )
 ;
 gContentWindow

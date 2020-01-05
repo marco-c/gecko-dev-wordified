@@ -291,6 +291,7 @@ context
 -
 exiting
 "
+false
 )
 ;
 Services
@@ -309,6 +310,7 @@ context
 -
 exited
 "
+false
 )
 ;
 expectedExiting

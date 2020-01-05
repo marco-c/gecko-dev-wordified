@@ -977,6 +977,7 @@ historyService
 addObserver
 (
 historyObserver
+false
 )
 ;
 var
@@ -993,6 +994,7 @@ bookmarkService
 addObserver
 (
 bookmarkObserver
+false
 )
 ;
 when

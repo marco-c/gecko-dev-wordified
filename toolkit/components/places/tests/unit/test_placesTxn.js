@@ -587,6 +587,7 @@ bmsvc
 addObserver
 (
 observer
+false
 )
 ;
 do_register_cleanup

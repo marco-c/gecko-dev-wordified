@@ -259,6 +259,7 @@ aCallback
 ;
 }
 SEARCH_SERVICE_TOPIC
+false
 )
 ;
 }

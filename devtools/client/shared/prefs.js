@@ -1040,6 +1040,7 @@ addObserver
 "
 "
 this
+false
 )
 ;
 }
@@ -1213,6 +1214,7 @@ addObserver
 "
 "
 this
+false
 )
 ;
 EventEmitter

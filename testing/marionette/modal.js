@@ -341,6 +341,7 @@ addObserver
 (
 handler
 topic
+false
 )
 ;
 }

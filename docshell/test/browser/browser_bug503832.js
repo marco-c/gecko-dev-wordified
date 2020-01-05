@@ -364,6 +364,7 @@ historyService
 addObserver
 (
 historyObserver
+false
 )
 ;
 }

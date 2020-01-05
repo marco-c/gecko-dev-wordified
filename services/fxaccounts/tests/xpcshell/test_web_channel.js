@@ -2562,6 +2562,7 @@ addObserver
 (
 callback
 aObserveTopic
+false
 )
 ;
 return

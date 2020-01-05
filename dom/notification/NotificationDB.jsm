@@ -385,6 +385,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 this

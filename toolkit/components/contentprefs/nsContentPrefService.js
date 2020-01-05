@@ -255,6 +255,7 @@ context
 -
 exited
 "
+false
 )
 ;
 /
@@ -282,6 +283,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }

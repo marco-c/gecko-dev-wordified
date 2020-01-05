@@ -643,6 +643,7 @@ addObserver
 (
 PREF_BRANCH_LOG
 this
+false
 )
 ;
 /
@@ -801,6 +802,7 @@ windows
 -
 restored
 "
+false
 )
 ;
 }

@@ -223,6 +223,7 @@ update
 -
 complete
 "
+false
 )
 ;
 AddonManagerPrivate

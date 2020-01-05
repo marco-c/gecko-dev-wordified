@@ -479,6 +479,7 @@ bs
 addObserver
 (
 bookmarksObserver
+false
 )
 ;
 /

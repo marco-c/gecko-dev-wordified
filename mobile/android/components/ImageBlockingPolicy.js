@@ -337,6 +337,7 @@ addObserver
 (
 this
 TOPIC_GATHER_TELEMETRY
+false
 )
 ;
 }

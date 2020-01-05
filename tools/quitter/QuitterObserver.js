@@ -384,6 +384,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 obs
@@ -400,6 +401,7 @@ global
 -
 created
 "
+false
 )
 ;
 }

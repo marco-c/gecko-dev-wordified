@@ -377,6 +377,7 @@ addObserver
 (
 countingObserver
 TOPIC
+false
 )
 ;
 /

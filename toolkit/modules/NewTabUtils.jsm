@@ -2188,6 +2188,7 @@ addObserver
 (
 PREF_NEWTAB_ROWS
 this
+false
 )
 ;
 Services
@@ -2198,6 +2199,7 @@ addObserver
 (
 PREF_NEWTAB_COLUMNS
 this
+false
 )
 ;
 }
@@ -7999,6 +8001,7 @@ addObserver
 (
 this
 TOPIC_GATHER_TELEMETRY
+false
 )
 ;
 }

@@ -1444,6 +1444,7 @@ build
 -
 contextmenu
 "
+false
 )
 ;
 }
@@ -3997,6 +3998,7 @@ pocket
 enabled
 "
 prefObserver
+false
 )
 ;
 if

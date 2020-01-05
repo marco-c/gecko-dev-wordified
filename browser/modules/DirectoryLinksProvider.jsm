@@ -1712,6 +1712,7 @@ addObserver
 (
 prefName
 this
+false
 )
 ;
 }

@@ -85,6 +85,7 @@ addon
 -
 install
 "
+false
 )
 ;
 yield

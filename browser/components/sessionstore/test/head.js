@@ -1625,6 +1625,7 @@ addObserver
 (
 observer
 aTopic
+false
 )
 ;
 }
@@ -2292,6 +2293,7 @@ tab
 -
 restored
 "
+false
 )
 ;
 this
@@ -3008,6 +3010,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 }

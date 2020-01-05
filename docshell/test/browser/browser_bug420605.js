@@ -729,6 +729,7 @@ historyService
 addObserver
 (
 historyObserver
+false
 )
 ;
 function

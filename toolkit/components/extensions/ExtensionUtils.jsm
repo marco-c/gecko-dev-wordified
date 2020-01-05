@@ -1196,6 +1196,7 @@ startupcache
 -
 invalidate
 "
+false
 )
 ;
 class
@@ -7229,6 +7230,7 @@ addObserver
 (
 observer
 topic
+false
 )
 ;
 }

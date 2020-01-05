@@ -234,6 +234,7 @@ engine
 -
 modified
 "
+false
 )
 ;
 registerCleanupFunction

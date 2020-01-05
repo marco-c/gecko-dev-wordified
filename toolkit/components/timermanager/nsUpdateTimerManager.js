@@ -432,6 +432,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }

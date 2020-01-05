@@ -240,6 +240,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 }

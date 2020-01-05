@@ -3545,6 +3545,7 @@ manager
 -
 close
 "
+false
 )
 ;
 /

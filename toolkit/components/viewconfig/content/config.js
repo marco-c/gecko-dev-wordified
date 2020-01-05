@@ -2339,6 +2339,7 @@ addObserver
 "
 "
 gPrefListener
+false
 )
 ;
 var

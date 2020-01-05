@@ -372,6 +372,7 @@ true
 "
 domwindowopened
 "
+false
 )
 ;
 cmd

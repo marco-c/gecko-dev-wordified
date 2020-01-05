@@ -657,6 +657,7 @@ hs
 addObserver
 (
 historyObserver
+false
 )
 ;
 /

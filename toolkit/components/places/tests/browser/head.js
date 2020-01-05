@@ -803,6 +803,7 @@ history
 addObserver
 (
 historyObserver
+false
 )
 ;
 }
@@ -1825,6 +1826,7 @@ before
 -
 change
 "
+false
 )
 ;
 }

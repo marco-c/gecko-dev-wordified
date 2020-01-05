@@ -812,6 +812,7 @@ before
 -
 change
 "
+false
 )
 ;
 /
@@ -846,6 +847,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 /
@@ -879,6 +881,7 @@ do
 -
 change
 "
+false
 )
 ;
 /
@@ -910,6 +913,7 @@ rdf
 -
 replace
 "
+false
 )
 ;
 }

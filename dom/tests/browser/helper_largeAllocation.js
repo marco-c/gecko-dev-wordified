@@ -208,6 +208,13 @@ addObserver
 (
 observer
 topic
+/
+*
+weak
+=
+*
+/
+false
 )
 ;
 kill
@@ -328,6 +335,13 @@ addObserver
 (
 observer
 topic
+/
+*
+weak
+=
+*
+/
+false
 )
 ;
 return

@@ -6154,6 +6154,7 @@ addObserver
 (
 DownloadObserver
 topic
+false
 )
 ;
 }
@@ -7955,6 +7956,7 @@ history
 addObserver
 (
 this
+false
 )
 ;
 }

@@ -3188,6 +3188,7 @@ quit
 -
 application
 "
+false
 )
 ;
 if
@@ -3319,6 +3320,7 @@ attributes
 -
 data
 "
+false
 )
 ;
 /
@@ -3381,6 +3383,7 @@ status
 -
 changed
 "
+false
 )
 ;
 /
@@ -3431,6 +3434,7 @@ idle
 -
 daily
 "
+false
 )
 ;
 /
@@ -3461,6 +3465,7 @@ perm
 -
 changed
 "
+false
 )
 ;
 }

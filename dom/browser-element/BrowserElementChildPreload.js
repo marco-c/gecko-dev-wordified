@@ -1343,6 +1343,7 @@ addObserver
 (
 this
 aTopic
+false
 )
 ;
 }

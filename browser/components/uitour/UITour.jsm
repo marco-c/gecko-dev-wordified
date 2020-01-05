@@ -4514,6 +4514,7 @@ manager
 -
 close
 "
+false
 )
 ;
 window

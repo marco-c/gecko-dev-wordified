@@ -810,6 +810,7 @@ hs
 addObserver
 (
 historyObserver
+false
 )
 ;
 /

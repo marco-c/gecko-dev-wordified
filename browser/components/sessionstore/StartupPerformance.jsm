@@ -431,6 +431,7 @@ addObserver
 (
 this
 topic
+false
 )
 ;
 }
@@ -653,6 +654,7 @@ window
 -
 restored
 "
+false
 )
 ;
 this

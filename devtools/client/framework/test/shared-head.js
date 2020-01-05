@@ -662,6 +662,7 @@ log
 -
 event
 "
+false
 )
 ;
 registerCleanupFunction

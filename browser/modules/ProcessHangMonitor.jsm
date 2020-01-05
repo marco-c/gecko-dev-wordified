@@ -366,6 +366,7 @@ hang
 -
 report
 "
+false
 )
 ;
 Services
@@ -382,6 +383,7 @@ hang
 -
 report
 "
+false
 )
 ;
 Services
@@ -396,6 +398,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 Services

@@ -191,6 +191,7 @@ addObserver
 (
 observe
 topic
+false
 )
 ;
 }

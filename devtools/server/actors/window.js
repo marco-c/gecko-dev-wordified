@@ -462,6 +462,7 @@ webnavigation
 -
 destroy
 "
+false
 )
 ;
 }

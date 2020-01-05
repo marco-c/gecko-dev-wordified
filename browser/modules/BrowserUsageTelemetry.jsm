@@ -1811,6 +1811,7 @@ addObserver
 (
 this
 WINDOWS_RESTORED_TOPIC
+false
 )
 ;
 urlbarListener
@@ -3213,6 +3214,7 @@ addObserver
 (
 this
 DOMWINDOW_OPENED_TOPIC
+false
 )
 ;
 Services
@@ -3223,6 +3225,7 @@ addObserver
 (
 this
 TELEMETRY_SUBSESSIONSPLIT_TOPIC
+false
 )
 ;
 /

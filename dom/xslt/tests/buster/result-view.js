@@ -658,6 +658,7 @@ addObserver
 panelsetready
 "
 this
+false
 )
 ;
 this

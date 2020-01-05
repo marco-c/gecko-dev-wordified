@@ -538,6 +538,7 @@ addObserver
 (
 onMessage
 CHROME_MSG
+false
 )
 ;
 attachMocks

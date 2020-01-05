@@ -222,6 +222,7 @@ bookmarks
 addObserver
 (
 this
+false
 )
 ;
 /
@@ -238,6 +239,7 @@ addObserver
 (
 this
 TOPIC_SHUTDOWN
+false
 )
 ;
 }

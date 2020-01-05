@@ -610,6 +610,7 @@ xpcom
 -
 shutdown
 "
+false
 )
 ;
 /

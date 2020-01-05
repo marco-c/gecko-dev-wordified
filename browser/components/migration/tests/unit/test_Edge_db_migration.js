@@ -3382,6 +3382,7 @@ bookmarks
 addObserver
 (
 bookmarkObserver
+false
 )
 ;
 let
@@ -4292,6 +4293,7 @@ bookmarks
 addObserver
 (
 bookmarkObserver
+false
 )
 ;
 let

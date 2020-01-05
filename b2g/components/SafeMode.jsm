@@ -451,6 +451,7 @@ addObserver
 (
 kSafeModePref
 observer
+false
 )
 ;
 }

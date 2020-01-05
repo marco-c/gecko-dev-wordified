@@ -66,6 +66,7 @@ log
 -
 event
 "
+false
 )
 ;
 Services
@@ -84,6 +85,7 @@ examine
 -
 response
 "
+false
 )
 ;
 registerCleanupFunction

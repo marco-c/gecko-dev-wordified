@@ -99,6 +99,7 @@ install
 -
 failed
 "
+false
 )
 ;
 }

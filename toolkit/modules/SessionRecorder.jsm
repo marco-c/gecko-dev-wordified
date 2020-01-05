@@ -1708,6 +1708,7 @@ before
 -
 change
 "
+false
 )
 ;
 this
@@ -1724,6 +1725,7 @@ interaction
 -
 active
 "
+false
 )
 ;
 this
@@ -1740,6 +1742,7 @@ interaction
 -
 inactive
 "
+false
 )
 ;
 this
@@ -1754,6 +1757,7 @@ idle
 -
 daily
 "
+false
 )
 ;
 /

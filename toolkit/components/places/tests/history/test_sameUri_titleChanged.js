@@ -123,6 +123,7 @@ history
 addObserver
 (
 historyObserver
+false
 )
 ;
 }

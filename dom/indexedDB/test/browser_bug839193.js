@@ -277,6 +277,7 @@ bug839193
 -
 loaded
 "
+false
 )
 ;
 Services
@@ -291,6 +292,7 @@ bug839193
 -
 unloaded
 "
+false
 )
 ;
 gBugWindow

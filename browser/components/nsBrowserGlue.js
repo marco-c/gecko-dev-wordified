@@ -3528,6 +3528,7 @@ open
 -
 settings
 "
+false
 )
 ;
 os
@@ -3544,6 +3545,7 @@ app
 -
 defaults
 "
+false
 )
 ;
 os
@@ -3558,6 +3560,7 @@ ui
 -
 startup
 "
+false
 )
 ;
 os
@@ -3574,6 +3577,7 @@ startup
 -
 finished
 "
+false
 )
 ;
 os
@@ -3588,6 +3592,7 @@ windows
 -
 restored
 "
+false
 )
 ;
 os
@@ -3604,6 +3609,7 @@ session
 -
 history
 "
+false
 )
 ;
 os
@@ -3618,6 +3624,7 @@ application
 -
 requested
 "
+false
 )
 ;
 os
@@ -3632,6 +3639,7 @@ application
 -
 granted
 "
+false
 )
 ;
 if
@@ -3653,6 +3661,7 @@ close
 -
 requested
 "
+false
 )
 ;
 os
@@ -3669,6 +3678,7 @@ close
 -
 granted
 "
+false
 )
 ;
 }
@@ -3684,6 +3694,7 @@ service
 :
 ready
 "
+false
 )
 ;
 os
@@ -3696,6 +3707,7 @@ fxaccounts
 :
 onverified
 "
+false
 )
 ;
 os
@@ -3708,6 +3720,7 @@ fxaccounts
 :
 device_connected
 "
+false
 )
 ;
 os
@@ -3720,6 +3733,7 @@ fxaccounts
 :
 device_disconnected
 "
+false
 )
 ;
 os
@@ -3738,6 +3752,7 @@ display
 -
 uris
 "
+false
 )
 ;
 os
@@ -3750,6 +3765,7 @@ session
 -
 save
 "
+false
 )
 ;
 os
@@ -3764,6 +3780,7 @@ init
 -
 complete
 "
+false
 )
 ;
 this
@@ -3784,6 +3801,7 @@ database
 -
 locked
 "
+false
 )
 ;
 this
@@ -3804,6 +3822,7 @@ customization
 -
 complete
 "
+false
 )
 ;
 os
@@ -3820,6 +3839,7 @@ text
 -
 link
 "
+false
 )
 ;
 os
@@ -3834,6 +3854,7 @@ before
 -
 change
 "
+false
 )
 ;
 if
@@ -3853,6 +3874,7 @@ keyword
 -
 search
 "
+false
 )
 ;
 }
@@ -3870,6 +3892,7 @@ engine
 -
 modified
 "
+false
 )
 ;
 os
@@ -3886,6 +3909,7 @@ safe
 -
 mode
 "
+false
 )
 ;
 os
@@ -3900,6 +3924,7 @@ plugin
 -
 hang
 "
+false
 )
 ;
 os
@@ -3914,6 +3939,7 @@ signature
 -
 changed
 "
+false
 )
 ;
 this

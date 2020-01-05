@@ -88,6 +88,7 @@ addObserver
 (
 observe
 NOTIFICATION
+false
 )
 ;
 registerCleanupFunction

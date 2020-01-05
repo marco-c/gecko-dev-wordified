@@ -395,6 +395,7 @@ perm
 -
 changed
 "
+false
 )
 ;
 onUnloadRegistry

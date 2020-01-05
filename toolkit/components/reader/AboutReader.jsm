@@ -841,6 +841,7 @@ window
 -
 destroyed
 "
+false
 )
 ;
 doc

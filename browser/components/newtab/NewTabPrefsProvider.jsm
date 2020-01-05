@@ -608,6 +608,7 @@ addObserver
 (
 pref
 this
+false
 )
 ;
 }

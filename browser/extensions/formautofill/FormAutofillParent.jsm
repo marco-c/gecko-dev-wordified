@@ -510,6 +510,7 @@ pane
 -
 loaded
 "
+false
 )
 ;
 Services
@@ -570,6 +571,7 @@ addObserver
 (
 ENABLED_PREF
 this
+false
 )
 ;
 Services
@@ -586,6 +588,7 @@ storage
 -
 changed
 "
+false
 )
 ;
 /

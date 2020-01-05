@@ -225,6 +225,7 @@ history
 addObserver
 (
 obs
+false
 )
 ;
 }
@@ -888,6 +889,7 @@ history
 addObserver
 (
 observer
+false
 )
 ;
 }

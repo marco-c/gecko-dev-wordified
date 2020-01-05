@@ -838,6 +838,7 @@ addObserver
 (
 prefPdfiumEnable
 prefObserver
+false
 )
 ;
 Services

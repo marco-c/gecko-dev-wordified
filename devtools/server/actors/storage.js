@@ -1362,6 +1362,7 @@ addObserver
 (
 this
 observationTopic
+false
 )
 ;
 }
@@ -5953,6 +5954,7 @@ cookie
 -
 changed
 "
+false
 )
 ;
 return
@@ -15706,6 +15708,7 @@ global
 -
 created
 "
+false
 )
 ;
 Services
@@ -15722,6 +15725,7 @@ window
 -
 destroyed
 "
+false
 )
 ;
 this

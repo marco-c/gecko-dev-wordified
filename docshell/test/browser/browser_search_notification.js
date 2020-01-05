@@ -319,6 +319,7 @@ keyword
 -
 search
 "
+false
 )
 ;
 gURLBar

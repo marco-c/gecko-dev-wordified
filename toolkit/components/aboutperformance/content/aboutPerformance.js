@@ -7142,6 +7142,7 @@ addObserver
 (
 testUpdate
 TEST_DRIVER_TOPIC
+false
 )
 ;
 window

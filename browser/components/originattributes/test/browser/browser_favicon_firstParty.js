@@ -410,6 +410,7 @@ favicons
 -
 expired
 "
+false
 )
 ;
 faviconService
@@ -846,6 +847,7 @@ modify
 -
 request
 "
+false
 )
 ;
 }
@@ -1025,6 +1027,7 @@ examine
 -
 response
 "
+false
 )
 ;
 Services
@@ -1045,6 +1048,7 @@ cached
 -
 response
 "
+false
 )
 ;
 }
@@ -1122,6 +1126,7 @@ history
 addObserver
 (
 observer
+false
 )
 ;
 }

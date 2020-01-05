@@ -1523,6 +1523,7 @@ onDeleteVisits
 {
 }
 }
+false
 )
 ;
 return

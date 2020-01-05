@@ -524,6 +524,7 @@ observer_
 this
 .
 topic_
+false
 )
 ;
 }
@@ -743,6 +744,7 @@ addObserver
 (
 o1
 topic
+false
 )
 ;
 new
