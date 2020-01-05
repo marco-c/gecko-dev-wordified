@@ -4490,7 +4490,7 @@ mCheckTimer
 mCheckTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 CheckTimerFired
 nullptr
@@ -4499,6 +4499,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+nsWindowMemoryReporter
+:
+:
+AsyncCheckForGhostWindows_timer
+"
 )
 ;
 }

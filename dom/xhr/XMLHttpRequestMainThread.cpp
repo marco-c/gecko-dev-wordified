@@ -2163,6 +2163,10 @@ nsITimerCallback
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsINamed
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsISizeOfEventTarget
 )
 NS_INTERFACE_MAP_END_INHERITING
@@ -20655,7 +20659,7 @@ ChangeStateToDone
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 XMLHttpRequestMainThread
 :
 :
@@ -20679,7 +20683,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 XMLHttpRequestMainThread
 :
 :

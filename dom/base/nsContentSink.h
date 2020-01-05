@@ -485,6 +485,8 @@ public
 nsStubDocumentObserver
 public
 nsITimerCallback
+public
+nsINamed
 {
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
@@ -496,6 +498,7 @@ nsICSSLoaderObserver
 /
 nsITimerCallback
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 /
 /
 nsICSSLoaderObserver

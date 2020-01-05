@@ -635,7 +635,7 @@ gIPCTimer
 gIPCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TelemetryIPCAccumulator
 :
@@ -647,6 +647,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+TelemetryIPCAccumulator
+:
+:
+IPCTimerFired
+"
 )
 ;
 gIPCTimerArmed
@@ -701,6 +707,12 @@ DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+TelemetryIPCAccumulator
+:
+:
+ArmIPCTimer
+"
 [
 ]
 (

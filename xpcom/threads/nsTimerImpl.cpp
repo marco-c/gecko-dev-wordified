@@ -3961,9 +3961,7 @@ aName
 AssignLiteral
 (
 "
-Anonymous
-callback
-timer
+Anonymous_callback_timer
 "
 )
 ;
@@ -4013,9 +4011,7 @@ aName
 AssignLiteral
 (
 "
-Anonymous
-interface
-timer
+Anonymous_interface_timer
 "
 )
 ;
@@ -4065,9 +4061,7 @@ aName
 AssignLiteral
 (
 "
-Anonymous
-observer
-timer
+Anonymous_observer_timer
 "
 )
 ;
@@ -4088,8 +4082,7 @@ aName
 AssignLiteral
 (
 "
-Anonymous
-timer
+Canceled_timer
 "
 )
 ;

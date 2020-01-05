@@ -7029,6 +7029,10 @@ CreateTimer
 (
 nsTimerCallbackFunc
 aCallback
+const
+char
+*
+aName
 uint32_t
 aDelay
 )
