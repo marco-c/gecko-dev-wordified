@@ -4635,7 +4635,8 @@ IntRect
 aRect
 )
 {
-profiler_tracing
+GeckoProfilerTracingRAII
+tracer
 (
 "
 Paint
@@ -4643,7 +4644,6 @@ Paint
 "
 Composite
 "
-TRACING_INTERVAL_START
 )
 ;
 PROFILER_LABEL
@@ -5656,17 +5656,6 @@ Telemetry
 :
 COMPOSITE_TIME
 start
-)
-;
-profiler_tracing
-(
-"
-Paint
-"
-"
-Composite
-"
-TRACING_INTERVAL_END
 )
 ;
 }

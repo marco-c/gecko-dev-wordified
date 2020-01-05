@@ -958,7 +958,8 @@ EditReply
 reply
 )
 {
-profiler_tracing
+GeckoProfilerTracingRAII
+tracer
 (
 "
 Paint
@@ -966,7 +967,6 @@ Paint
 "
 LayerTransaction
 "
-TRACING_INTERVAL_START
 )
 ;
 PROFILER_LABEL
@@ -4545,17 +4545,6 @@ ToMilliseconds
 ;
 }
 }
-profiler_tracing
-(
-"
-Paint
-"
-"
-LayerTransaction
-"
-TRACING_INTERVAL_END
-)
-;
 return
 IPC_OK
 (
