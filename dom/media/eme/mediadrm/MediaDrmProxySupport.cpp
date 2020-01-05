@@ -1463,12 +1463,6 @@ Create
 (
 mKeySystem
 mJavaCallbacks
-MediaPrefs
-:
-:
-PDMAndroidRemoteCodecEnabled
-(
-)
 )
 ;
 MOZ_ASSERT
