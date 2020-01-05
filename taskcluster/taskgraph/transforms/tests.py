@@ -3025,32 +3025,6 @@ android
 )
 :
             
-if
-'
-geckoview
-'
-in
-test
-[
-'
-test
--
-name
-'
-]
-:
-                
-target
-=
-'
-geckoview_example
-.
-apk
-'
-            
-else
-:
-                
 target
 =
 '
@@ -5328,7 +5302,7 @@ append
 '
 -
 -
-spsProfile
+geckoProfile
 '
 )
         

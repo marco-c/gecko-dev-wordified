@@ -2309,7 +2309,7 @@ add_argument
 '
 -
 -
-spsProfile
+geckoProfile
 '
 dest
 =
