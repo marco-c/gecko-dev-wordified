@@ -10439,7 +10439,7 @@ imageInfo
 colorType
 (
 )
-=
+!
 =
 kUnknown_SkColorType
 )

@@ -277,9 +277,6 @@ DrawTarget
 >
 GetReferenceDrawTarget
 (
-DrawEventRecorder
-*
-aRecorder
 )
 final
 ;
