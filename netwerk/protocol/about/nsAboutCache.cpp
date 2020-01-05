@@ -2652,6 +2652,9 @@ uint32_t
 aExpirationTime
 bool
 aPinned
+nsILoadContextInfo
+*
+aInfo
 )
 {
 /
