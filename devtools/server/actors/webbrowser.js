@@ -5252,6 +5252,11 @@ _tabbrowser
 {
 if
 (
+this
+.
+_browser
+&
+&
 typeof
 this
 .
@@ -5566,6 +5571,11 @@ if
 this
 .
 _browser
+&
+&
+this
+.
+_browser
 .
 __SS_restore
 )
@@ -5749,6 +5759,11 @@ zombie
 tabs
 if
 (
+this
+.
+_browser
+&
+&
 this
 .
 _browser
