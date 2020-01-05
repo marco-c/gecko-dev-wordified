@@ -3052,6 +3052,11 @@ if
 mMedia
 )
 {
+MOZ_ASSERT
+(
+aPresContext
+)
+;
 auto
 media
 =
@@ -3074,6 +3079,7 @@ media
 >
 Matches
 (
+*
 aPresContext
 &
 aKey
