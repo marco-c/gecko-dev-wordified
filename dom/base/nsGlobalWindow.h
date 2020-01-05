@@ -2428,13 +2428,6 @@ FireDelayedDOMEvents
 )
 override
 ;
-virtual
-bool
-IsRunningTimeout
-(
-)
-override
-;
 /
 /
 Outer

@@ -1026,14 +1026,6 @@ return
 mDoc
 ;
 }
-virtual
-bool
-IsRunningTimeout
-(
-)
-=
-0
-;
 protected
 :
 /
@@ -5071,6 +5063,11 @@ dom
 TimeoutManager
 &
 TimeoutManager
+(
+)
+;
+bool
+IsRunningTimeout
 (
 )
 ;
