@@ -478,6 +478,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 DirectShowReader
 (
 AbstractMediaDecoder

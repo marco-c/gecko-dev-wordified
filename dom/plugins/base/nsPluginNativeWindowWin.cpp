@@ -839,6 +839,7 @@ Runnable
 {
 public
 :
+explicit
 nsDelayedPopupsEnabledEvent
 (
 nsNPAPIPluginInstance
