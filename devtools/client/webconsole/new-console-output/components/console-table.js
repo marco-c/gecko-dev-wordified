@@ -427,6 +427,11 @@ item
 [
 key
 ]
+mode
+:
+"
+short
+"
 }
 )
 )
