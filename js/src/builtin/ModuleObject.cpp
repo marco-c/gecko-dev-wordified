@@ -7097,6 +7097,7 @@ getArity
 )
 =
 =
+(
 pn
 -
 >
@@ -7108,6 +7109,7 @@ PNK_EXPORT
 PN_UNARY
 :
 PN_BINARY
+)
 )
 ;
 bool
