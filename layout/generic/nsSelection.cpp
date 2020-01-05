@@ -1762,9 +1762,11 @@ NS_FAILED
 result
 )
 )
+{
 return
 result
 ;
+}
 }
 return
 mTimer
@@ -1886,9 +1888,11 @@ if
 !
 frame
 )
+{
 return
 NS_OK
 ;
+}
 mContent
 =
 nullptr
@@ -1939,9 +1943,11 @@ IsAlive
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 NS_ASSERTION
 (
 frame
@@ -9637,9 +9643,11 @@ mDomSelections
 index
 ]
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 return
 mDomSelections
 [
@@ -9682,8 +9690,10 @@ mDomSelections
 index
 ]
 )
+{
 return
 ;
+}
 mDomSelections
 [
 index
@@ -27503,6 +27513,7 @@ if
 !
 mFrameSelection
 )
+{
 return
 NS_OK
 ;
@@ -27511,6 +27522,7 @@ NS_OK
 nothing
 to
 do
+}
 if
 (
 !
@@ -27542,9 +27554,11 @@ NS_FAILED
 result
 )
 )
+{
 return
 result
 ;
+}
 }
 result
 =
@@ -27563,9 +27577,11 @@ NS_FAILED
 result
 )
 )
+{
 return
 result
 ;
+}
 return
 DoAutoScroll
 (
@@ -27628,6 +27644,7 @@ if
 (
 mAutoScrollTimer
 )
+{
 (
 void
 )
@@ -27638,6 +27655,7 @@ Stop
 (
 )
 ;
+}
 nsPresContext
 *
 presContext
