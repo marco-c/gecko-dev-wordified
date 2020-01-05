@@ -372,6 +372,11 @@ D
 (
 ZoneChange
 )
+\
+D
+(
+CompartmentRevived
+)
 enum
 class
 AbortReason
