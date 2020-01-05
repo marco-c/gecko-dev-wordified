@@ -2339,7 +2339,10 @@ aData
 SetKeywordValue
 (
 eCSSProperty_white_space
-NS_STYLE_WHITESPACE_NOWRAP
+StyleWhiteSpace
+:
+:
+Nowrap
 )
 ;
 }
