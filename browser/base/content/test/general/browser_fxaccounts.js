@@ -1091,6 +1091,12 @@ updateUI
 2
 )
 ;
+gFxAccounts
+.
+_profileFetched
+=
+false
+;
 configureProfileURL
 (
 {
@@ -1251,6 +1257,12 @@ updateUI
 "
 2
 )
+;
+gFxAccounts
+.
+_profileFetched
+=
+false
 ;
 configureProfileURL
 (
