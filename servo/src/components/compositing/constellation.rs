@@ -404,7 +404,6 @@ pub
 image_cache_task
 :
 ImageCacheTask
-pub
 pipelines
 :
 HashMap

@@ -6209,7 +6209,7 @@ false
 /
 /
 /
-add_custom_scheme
+_add_custom_scheme
 :
 extern
 "

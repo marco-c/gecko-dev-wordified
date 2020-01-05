@@ -109,7 +109,7 @@ phase
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
