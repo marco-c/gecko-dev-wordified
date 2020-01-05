@@ -3316,6 +3316,9 @@ False
 num_jobs
 =
 0
+keep_going
+=
+False
 )
 :
         
@@ -3744,6 +3747,20 @@ append
 '
 -
 w
+'
+)
+        
+if
+keep_going
+:
+            
+args
+.
+append
+(
+'
+-
+k
 '
 )
         

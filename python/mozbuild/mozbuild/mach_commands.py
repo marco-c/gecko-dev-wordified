@@ -2059,6 +2059,34 @@ running
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+keep
+-
+going
+'
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Keep
+building
+after
+an
+error
+has
+occurred
+'
+)
+    
 def
 build
 (
@@ -2077,6 +2105,9 @@ directory
 =
 None
 verbose
+=
+False
+keep_going
 =
 False
 )
@@ -2949,6 +2980,9 @@ False
 print_directory
 =
 False
+keep_going
+=
+keep_going
 )
                 
 #
@@ -3058,6 +3092,10 @@ b
 1
 '
 }
+                        
+keep_going
+=
+keep_going
 )
                     
 if
@@ -3326,6 +3364,9 @@ silent
 =
 not
 verbose
+keep_going
+=
+keep_going
 )
                 
 self
