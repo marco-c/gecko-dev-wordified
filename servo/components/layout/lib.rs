@@ -319,6 +319,10 @@ style
 ;
 extern
 crate
+style_traits
+;
+extern
+crate
 unicode_bidi
 ;
 extern

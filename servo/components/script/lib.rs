@@ -316,6 +316,10 @@ extern
 crate
 style
 ;
+extern
+crate
+style_traits
+;
 #
 [
 macro_use
@@ -515,6 +519,10 @@ page
 pub
 mod
 parse
+;
+pub
+mod
+reporter
 ;
 #
 [

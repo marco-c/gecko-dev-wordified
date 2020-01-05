@@ -249,6 +249,12 @@ parse_one_declaration
 }
 ;
 use
+style_traits
+:
+:
+ParseErrorReporter
+;
+use
 util
 :
 :
@@ -1803,6 +1809,11 @@ value
 window
 .
 get_url
+(
+)
+window
+.
+css_error_reporter
 (
 )
 )
