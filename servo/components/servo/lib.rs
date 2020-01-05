@@ -1670,6 +1670,17 @@ time_profiler_chan
 clone
 (
 )
+opts
+.
+config_dir
+.
+map
+(
+Into
+:
+:
+into
+)
 )
 ;
 let

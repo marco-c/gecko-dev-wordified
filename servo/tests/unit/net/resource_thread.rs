@@ -343,6 +343,7 @@ ProfilerChan
 tx
 )
 filemanager_chan
+None
 )
 ;
 resource_thread
@@ -447,6 +448,7 @@ ProfilerChan
 tx
 )
 filemanager_chan
+None
 )
 ;
 let
@@ -2748,6 +2750,7 @@ ProfilerChan
 tx
 )
 filemanager_chan
+None
 )
 ;
 let
