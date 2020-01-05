@@ -175,6 +175,8 @@ yield
 openPanel
 (
 extension
+undefined
+true
 )
 ;
 function
