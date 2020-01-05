@@ -694,7 +694,6 @@ result
 return
 NS_OK
 ;
-else
 return
 MapGIOResult
 (
@@ -1714,12 +1713,9 @@ mMountErrorCode
 )
 ;
 }
-else
-{
 return
 NS_OK
 ;
-}
 }
 /
 *
@@ -2839,7 +2835,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 mDirOpen
