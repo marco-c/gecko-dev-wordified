@@ -5979,8 +5979,6 @@ DeclaredValue
 :
 Value
 (
-PositionContainer
-(
 Position
 {
 horizontal
@@ -6014,7 +6012,6 @@ from_px
 )
 )
 }
-)
 )
 ;
 let
@@ -6397,8 +6394,6 @@ DeclaredValue
 :
 Value
 (
-PositionContainer
-(
 Position
 {
 horizontal
@@ -6432,7 +6427,6 @@ from_px
 )
 )
 }
-)
 )
 ;
 let
@@ -6812,8 +6806,6 @@ DeclaredValue
 :
 Value
 (
-PositionContainer
-(
 Position
 {
 horizontal
@@ -6847,7 +6839,6 @@ from_px
 )
 )
 }
-)
 )
 ;
 let
