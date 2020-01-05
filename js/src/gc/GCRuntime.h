@@ -7897,6 +7897,17 @@ ref
 GCMarker
 marker
 ;
+Vector
+<
+JS
+:
+:
+GCCellPtr
+0
+SystemAllocPolicy
+>
+unmarkGrayStack
+;
 /
 *
 Track
