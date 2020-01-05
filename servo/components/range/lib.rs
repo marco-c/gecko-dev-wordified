@@ -88,10 +88,6 @@ extern
 crate
 num_traits
 ;
-extern
-crate
-rustc_serialize
-;
 #
 [
 macro_use
@@ -950,7 +946,6 @@ Clone
 Copy
 Deserialize
 HeapSizeOf
-RustcEncodable
 Serialize
 )
 ]
