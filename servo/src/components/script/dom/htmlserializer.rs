@@ -474,9 +474,6 @@ DocumentFragmentNodeTypeId
 "
 }
 DocumentNodeTypeId
-(
-_
-)
 =
 >
 {

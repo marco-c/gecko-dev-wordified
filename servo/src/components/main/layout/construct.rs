@@ -4601,9 +4601,6 @@ DoctypeNodeTypeId
 DocumentFragmentNodeTypeId
 |
 DocumentNodeTypeId
-(
-_
-)
 |
 ProcessingInstructionNodeTypeId
 =
@@ -5088,9 +5085,6 @@ DoctypeNodeTypeId
 DocumentFragmentNodeTypeId
 |
 DocumentNodeTypeId
-(
-_
-)
 |
 ElementNodeTypeId
 (
