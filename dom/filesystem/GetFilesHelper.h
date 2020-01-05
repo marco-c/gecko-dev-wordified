@@ -344,7 +344,7 @@ mTargetPathArray
 ;
 nsTHashtable
 <
-nsCStringHashKey
+nsStringHashKey
 >
 mExploredDirectories
 ;
