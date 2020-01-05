@@ -1642,7 +1642,7 @@ URL
 .
 ChangePageUrl
 (
-FrameId
+PipelineId
 Url
 )
 /

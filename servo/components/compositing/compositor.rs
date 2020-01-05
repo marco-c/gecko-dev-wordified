@@ -90,10 +90,7 @@ use
 constellation
 :
 :
-{
-FrameId
 SendableFrameTree
-}
 ;
 use
 pipeline
@@ -1730,7 +1727,7 @@ Msg
 :
 ChangePageUrl
 (
-frame_id
+pipeline_id
 url
 )
 ShutdownState
@@ -1745,7 +1742,7 @@ self
 .
 change_page_url
 (
-frame_id
+pipeline_id
 url
 )
 ;
@@ -2811,7 +2808,7 @@ mut
 self
 _
 :
-FrameId
+PipelineId
 url
 :
 Url
