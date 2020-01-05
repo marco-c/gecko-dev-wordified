@@ -3088,9 +3088,6 @@ JS
 SourceBufferHolder
 &
 srcBuf
-SourceCompressionTask
-*
-tok
 )
 ;
 void
