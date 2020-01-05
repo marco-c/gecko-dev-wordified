@@ -131,6 +131,10 @@ basic_shape
 ;
 pub
 mod
+image
+;
+pub
+mod
 position
 ;
 #
