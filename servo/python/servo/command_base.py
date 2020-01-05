@@ -255,7 +255,6 @@ android
         
 os_type
 =
-=
 "
 linux
 -
@@ -266,7 +265,6 @@ else
 :
         
 os_type
-=
 =
 "
 unknown
