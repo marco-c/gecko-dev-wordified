@@ -352,6 +352,19 @@ dist
 /
 include
 /
+gfxFontConstants
+.
+h
+"
+            
+"
+{
+}
+/
+dist
+/
+include
+/
 nsThemeConstants
 .
 h
@@ -522,6 +535,12 @@ NS_THEME_
             
 "
 NODE_
+.
+*
+"
+            
+"
+NS_FONT_STRETCH_
 .
 *
 "
