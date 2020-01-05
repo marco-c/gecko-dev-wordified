@@ -1840,6 +1840,11 @@ nullptr
 )
 op
 .
+opacity
+(
+)
+op
+.
 matrix
 (
 )

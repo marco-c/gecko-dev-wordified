@@ -1691,6 +1691,9 @@ WrImageMask
 *
 aMask
 const
+float
+aOpacity
+const
 gfx
 :
 :
@@ -1709,6 +1712,7 @@ mWrState
 aBounds
 aOverflow
 aMask
+aOpacity
 &
 aTransform
 .

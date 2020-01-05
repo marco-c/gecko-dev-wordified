@@ -625,6 +625,9 @@ a
 wrapper
 .
 const
+float
+aOpacity
+const
 gfx
 :
 :
