@@ -33369,7 +33369,7 @@ bsize
 or
 if
 we
-recieved
+received
 the
 "
 eUseAutoBSize
