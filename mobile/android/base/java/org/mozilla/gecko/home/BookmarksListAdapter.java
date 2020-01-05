@@ -1405,7 +1405,7 @@ view
 .
 *
 param
-cursor
+c
 A
 cursor
 moved
