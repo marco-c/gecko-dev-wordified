@@ -340,20 +340,6 @@ rs
 "
     
 "
-components
-/
-servo
-/
-target
-/
-*
-"
-    
-"
-ports
-/
-gonk
-/
 target
 /
 *

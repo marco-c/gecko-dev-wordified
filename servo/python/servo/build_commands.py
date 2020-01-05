@@ -1024,19 +1024,10 @@ features
         
 base_path
 =
-path
+self
 .
-join
+get_target_dir
 (
-"
-components
-"
-"
-servo
-"
-"
-target
-"
 )
         
 release_path
