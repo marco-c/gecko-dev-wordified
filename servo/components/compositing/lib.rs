@@ -93,14 +93,6 @@ io
 [
 feature
 (
-libc
-)
-]
-#
-!
-[
-feature
-(
 rustc_private
 )
 ]
