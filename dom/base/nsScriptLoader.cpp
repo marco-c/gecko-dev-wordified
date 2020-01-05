@@ -10623,7 +10623,7 @@ docGroup
 Dispatch
 (
 "
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadScriptLoader
 "
 TaskCategory
 :

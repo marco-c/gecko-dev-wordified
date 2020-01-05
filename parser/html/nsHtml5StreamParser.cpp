@@ -8250,7 +8250,7 @@ GetDocument
 Dispatch
 (
 "
-nsHtml5ExecutorFlusher
+FlushTreeOpsAndDisarmTimer
 "
 dom
 :

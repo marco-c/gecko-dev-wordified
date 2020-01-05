@@ -626,7 +626,7 @@ global
 Dispatch
 (
 "
-AsyncEventDispatcher
+AsyncEvent
 "
 TaskCategory
 :
@@ -690,7 +690,7 @@ doc
 Dispatch
 (
 "
-AsyncEventDispatcher
+AsyncEvent
 "
 TaskCategory
 :

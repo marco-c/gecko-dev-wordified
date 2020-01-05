@@ -1082,15 +1082,6 @@ const
 aCallback
 )
 :
-Runnable
-(
-"
-CacheEntry
-:
-:
-AvailableCallbackRunnable
-"
-)
 mEntry
 (
 aEntry

@@ -1820,9 +1820,6 @@ mozilla
 :
 Runnable
 (
-"
-DummyEvent
-"
 )
 ;
 return
