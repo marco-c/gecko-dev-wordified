@@ -1573,7 +1573,7 @@ width
 .
 *
 /
-nsresult
+void
 AddFloat
 (
 nsIFrame
@@ -2890,8 +2890,8 @@ ifdef
 NS_BUILD_REFCNT_LOGGING
 FloatInfo
 (
-const
 FloatInfo
+&
 &
 aOther
 )
