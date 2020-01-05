@@ -3671,12 +3671,12 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-nsIMEUpdatePreference
+IMENotificationRequests
 )
 TextInputProcessor
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 {
@@ -3694,7 +3694,7 @@ change
 notifications
 .
 return
-nsIMEUpdatePreference
+IMENotificationRequests
 (
 )
 ;

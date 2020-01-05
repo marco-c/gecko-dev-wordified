@@ -285,12 +285,12 @@ aNotification
 }
 NS_IMETHODIMP_
 (
-nsIMEUpdatePreference
+IMENotificationRequests
 )
 WinTextEventDispatcherListener
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 {
@@ -298,7 +298,7 @@ return
 IMEHandler
 :
 :
-GetUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;

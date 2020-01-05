@@ -205,10 +205,6 @@ nsIWidget
 .
 h
 "
-/
-/
-for
-nsIMEUpdatePreference
 #
 include
 "
@@ -331,6 +327,13 @@ IMENotification
 :
 TextChangeDataBase
 TextChangeDataBase
+;
+typedef
+widget
+:
+:
+IMENotificationRequests
+IMENotificationRequests
 ;
 typedef
 widget
@@ -558,7 +561,7 @@ KeepAliveDuringDeactive
 const
 {
 return
-mUpdatePreference
+mIMENotificationRequests
 .
 WantDuringDeactive
 (
@@ -1666,8 +1669,8 @@ EventStateManager
 *
 mESM
 ;
-nsIMEUpdatePreference
-mUpdatePreference
+IMENotificationRequests
+mIMENotificationRequests
 ;
 uint32_t
 mPreAttrChangeLength

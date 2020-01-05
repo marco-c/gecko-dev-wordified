@@ -1694,6 +1694,16 @@ mozilla
 widget
 :
 :
+IMENotificationRequests
+IMENotificationRequests
+;
+typedef
+mozilla
+:
+:
+widget
+:
+:
 IMEState
 IMEState
 ;
@@ -11307,8 +11317,8 @@ updates
 *
 /
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
+IMENotificationRequests
+GetIMENotificationRequests
 (
 )
 =

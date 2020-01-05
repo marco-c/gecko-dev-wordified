@@ -1902,8 +1902,8 @@ true
 ;
 }
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
+IMENotificationRequests
+GetIMENotificationRequests
 (
 )
 override

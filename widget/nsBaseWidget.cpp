@@ -11691,7 +11691,7 @@ if
 mIMEHasFocus
 &
 &
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 .
@@ -12100,11 +12100,11 @@ rv2
 }
 }
 }
-nsIMEUpdatePreference
+IMENotificationRequests
 nsBaseWidget
 :
 :
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 {
@@ -12138,7 +12138,7 @@ to
 NotifyIME
 .
 return
-nsIMEUpdatePreference
+IMENotificationRequests
 (
 )
 ;
@@ -12147,7 +12147,7 @@ return
 listener
 -
 >
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;

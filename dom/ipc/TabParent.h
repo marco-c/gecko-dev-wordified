@@ -1063,9 +1063,12 @@ widget
 IMENotification
 &
 aEventMessage
-nsIMEUpdatePreference
+widget
+:
+:
+IMENotificationRequests
 *
-aPreference
+aRequests
 )
 override
 ;
