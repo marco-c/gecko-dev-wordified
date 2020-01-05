@@ -309,7 +309,6 @@ mut
 JSContext
 global
 :
-&
 GlobalRef
 result
 :
@@ -339,7 +338,6 @@ DOMException
 :
 new_from_error
 (
-*
 global
 result
 )
