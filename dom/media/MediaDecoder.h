@@ -3747,7 +3747,10 @@ offload
 player
 .
 virtual
-int64_t
+media
+:
+:
+TimeUnit
 CurrentPosition
 (
 )
@@ -3756,10 +3759,6 @@ return
 mCurrentPosition
 .
 Ref
-(
-)
-.
-ToMicroseconds
 (
 )
 ;
