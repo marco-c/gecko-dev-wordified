@@ -595,9 +595,6 @@ openPreferencesViaOpenPreferencesAPI
 "
 advanced
 "
-"
-updateTab
-"
 {
 leaveOpen
 :
@@ -745,9 +742,6 @@ openPreferencesViaOpenPreferencesAPI
 (
 "
 advanced
-"
-"
-updateTab
 "
 {
 leaveOpen
