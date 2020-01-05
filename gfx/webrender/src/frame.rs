@@ -224,7 +224,7 @@ webrender_traits
 ScrollLayerState
 ScrollLocation
 ScrollPolicy
-ServoScrollRootId
+SpecificDisplayItem
 }
 ;
 use
@@ -232,7 +232,6 @@ webrender_traits
 :
 :
 {
-SpecificDisplayItem
 StackingContext
 TileOffset
 WorldPoint
@@ -1489,12 +1488,9 @@ self
 origin
 :
 LayerPoint
-pipeline_id
+id
 :
-PipelineId
-scroll_root_id
-:
-ServoScrollRootId
+ScrollLayerId
 )
 -
 >
@@ -1507,8 +1503,7 @@ clip_scroll_tree
 scroll_nodes
 (
 origin
-pipeline_id
-scroll_root_id
+id
 )
 }
 /
@@ -2054,9 +2049,6 @@ clip_rect
 item
 .
 content_size
-item
-.
-scroll_root_id
 clip
 &
 mut
@@ -3030,13 +3022,6 @@ iframe_clip
 main
 .
 size
-Some
-(
-ServoScrollRootId
-(
-0
-)
-)
 iframe_clip
 &
 mut
