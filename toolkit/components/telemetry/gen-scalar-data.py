@@ -311,7 +311,6 @@ print
 }
 }
 "
-\
           
 .
 format
