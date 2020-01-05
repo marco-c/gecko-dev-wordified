@@ -5487,16 +5487,6 @@ localName
 !
 =
 "
-splitmenu
-"
-&
-&
-node
-.
-localName
-!
-=
-"
 hbox
 "
 &

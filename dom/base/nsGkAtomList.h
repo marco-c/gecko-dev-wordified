@@ -8663,13 +8663,6 @@ split
 )
 GK_ATOM
 (
-splitmenu
-"
-splitmenu
-"
-)
-GK_ATOM
-(
 splitter
 "
 splitter
