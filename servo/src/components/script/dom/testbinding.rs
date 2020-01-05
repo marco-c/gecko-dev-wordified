@@ -996,22 +996,6 @@ Blob
 )
 {
 }
-/
-/
-FIXME
-(
-issue
-#
-1813
-)
-Doesn
-'
-t
-currently
-compile
-.
-/
-/
 pub
 fn
 PassOptionalBoolean
@@ -1027,8 +1011,6 @@ bool
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalByte
@@ -1044,8 +1026,6 @@ i8
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalOctet
@@ -1061,8 +1041,6 @@ u8
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalShort
@@ -1078,8 +1056,6 @@ i16
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalUnsignedShort
@@ -1095,8 +1071,6 @@ u16
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalLong
@@ -1112,8 +1086,6 @@ i32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalUnsignedLong
@@ -1129,8 +1101,6 @@ u32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalLongLong
@@ -1146,8 +1116,6 @@ i64
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalUnsignedLongLong
@@ -1163,8 +1131,6 @@ u64
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalFloat
@@ -1180,8 +1146,6 @@ f32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalDouble
@@ -1249,8 +1213,6 @@ JSVal
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableBoolean
@@ -1269,8 +1231,6 @@ bool
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableByte
@@ -1289,8 +1249,6 @@ i8
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableOctet
@@ -1309,8 +1267,6 @@ u8
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableShort
@@ -1329,8 +1285,6 @@ i16
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableUnsignedShort
@@ -1349,8 +1303,6 @@ u16
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableLong
@@ -1369,8 +1321,6 @@ i32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableUnsignedLong
@@ -1389,8 +1339,6 @@ u32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableLongLong
@@ -1409,8 +1357,6 @@ i64
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableUnsignedLongLong
@@ -1429,8 +1375,6 @@ u64
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableFloat
@@ -1449,8 +1393,6 @@ f32
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableDouble

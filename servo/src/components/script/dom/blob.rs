@@ -293,10 +293,16 @@ Slice
 self
 _start
 :
+Option
+<
 i64
+>
 _end
 :
+Option
+<
 i64
+>
 _contentType
 :
 Option
