@@ -806,7 +806,7 @@ spawn_named
 PullTimelineMarkers
 "
 .
-to_string
+to_owned
 (
 )
 move
@@ -1674,7 +1674,7 @@ __type__
 markers
 "
 .
-to_string
+to_owned
 (
 )
 markers
@@ -1776,7 +1776,7 @@ __type__
 framerate
 "
 .
-to_string
+to_owned
 (
 )
 from
@@ -1871,7 +1871,7 @@ __type__
 memory
 "
 .
-to_string
+to_owned
 (
 )
 from
