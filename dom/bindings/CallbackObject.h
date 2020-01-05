@@ -3266,6 +3266,7 @@ typename
 T
 >
 class
+MOZ_RAII
 RootedCallback
 :
 public
@@ -3294,6 +3295,10 @@ Rooted
 <
 T
 >
+(
+cx
+)
+mCx
 (
 cx
 )
@@ -3601,6 +3606,10 @@ isInitialized
 )
 ;
 }
+JSContext
+*
+mCx
+;
 }
 ;
 }
