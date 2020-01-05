@@ -13953,7 +13953,6 @@ IPC_OK
 )
 ;
 }
-else
 if
 (
 !
@@ -14831,8 +14830,6 @@ aTabChild
 )
 ;
 }
-else
-{
 return
 PBrowserOrId
 (
@@ -14844,7 +14841,6 @@ GetTabId
 )
 )
 ;
-}
 }
 mozilla
 :
