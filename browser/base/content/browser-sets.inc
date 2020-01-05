@@ -3742,7 +3742,7 @@ key
 id
 =
 "
-toggleReaderMode
+key_toggleReaderMode
 "
 key
 =

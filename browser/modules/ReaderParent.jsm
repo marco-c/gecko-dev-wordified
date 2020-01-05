@@ -735,7 +735,7 @@ document
 getElementById
 (
 "
-toggleReaderMode
+key_toggleReaderMode
 "
 )
 ;
