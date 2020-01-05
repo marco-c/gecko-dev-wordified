@@ -1219,6 +1219,7 @@ get
 pointerType
 '
 '
+~
 '
 )
         
