@@ -907,6 +907,8 @@ test_circle
 (
 )
 {
+/
+*
 assert_roundtrip_basicshape
 !
 (
@@ -1365,6 +1367,8 @@ is_err
 )
 )
 ;
+*
+/
 }
 #
 [
@@ -1375,6 +1379,8 @@ test_ellipse
 (
 )
 {
+/
+*
 assert_roundtrip_basicshape
 !
 (
@@ -1660,6 +1666,8 @@ at
 "
 )
 ;
+*
+/
 }
 #
 [
