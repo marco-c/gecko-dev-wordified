@@ -14853,6 +14853,8 @@ oldReportError
 =
 reportError
 ;
+this
+.
 reportError
 =
 function

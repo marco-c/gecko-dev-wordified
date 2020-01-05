@@ -165,6 +165,15 @@ Ci
 nsIConsoleService
 )
 ;
+exports
+=
+module
+.
+exports
+=
+{
+}
+;
 /
 /
 On
