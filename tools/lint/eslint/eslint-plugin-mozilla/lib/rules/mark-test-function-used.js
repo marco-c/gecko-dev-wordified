@@ -15,8 +15,8 @@ or
 run_test
 as
 used
-when
 *
+when
 in
 mochitests
 or
@@ -28,8 +28,8 @@ This
 avoids
 ESLint
 telling
-us
 *
+us
 that
 the
 function
