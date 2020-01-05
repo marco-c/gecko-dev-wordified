@@ -257,6 +257,7 @@ idGenerator
 .
 getNextId
 (
+packet
 )
 )
 ;
@@ -1146,6 +1147,11 @@ timeStamp
 networkEvent
 .
 timeStamp
+totalTime
+:
+networkEvent
+.
+totalTime
 }
 )
 ;
