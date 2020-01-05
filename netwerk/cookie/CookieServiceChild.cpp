@@ -779,6 +779,8 @@ const
 char
 *
 aServerTime
+bool
+aFromHttp
 )
 {
 NS_ENSURE_ARG
@@ -958,6 +960,7 @@ isForeign
 cookieString
 serverTime
 attrs
+aFromHttp
 )
 ;
 return
@@ -1107,6 +1110,7 @@ aHostURI
 aChannel
 aCookieString
 nullptr
+false
 )
 ;
 }
@@ -1139,7 +1143,14 @@ aChannel
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+SetCookieStringInternal
+(
+aHostURI
+aChannel
+aCookieString
+aServerTime
+true
+)
 ;
 }
 }

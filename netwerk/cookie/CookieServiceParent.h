@@ -213,6 +213,10 @@ const
 OriginAttributes
 &
 aAttrs
+const
+bool
+&
+aFromHttp
 )
 override
 ;
