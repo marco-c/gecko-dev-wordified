@@ -691,6 +691,18 @@ Disallow
 UnionTypes
 .
 h
+            
+"
+nsINode
+.
+h
+"
+#
+<
+-
+For
+NodeFlags
+.
         
 ]
         
@@ -753,6 +765,10 @@ ComputedTimingProperties
             
 "
 FastComputedTimingProperties
+"
+            
+"
+nsINode
 "
         
 ]
