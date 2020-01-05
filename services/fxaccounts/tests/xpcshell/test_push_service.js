@@ -138,7 +138,7 @@ jsm
 )
 ;
 let
-scope
+importScope
 =
 {
 }
@@ -162,13 +162,13 @@ FxAccountsPush
 .
 js
 "
-scope
+importScope
 )
 ;
 const
 FxAccountsPushService
 =
-scope
+importScope
 .
 FxAccountsPushService
 ;

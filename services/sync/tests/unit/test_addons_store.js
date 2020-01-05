@@ -2172,7 +2172,7 @@ id
 pref
 .
 let
-prefs
+extensionPrefs
 =
 new
 Preferences
@@ -2268,7 +2268,7 @@ dummy
 )
 )
 ;
-prefs
+extensionPrefs
 .
 set
 (
@@ -2386,7 +2386,7 @@ uninstallAddon
 addon
 )
 ;
-prefs
+extensionPrefs
 .
 reset
 (
