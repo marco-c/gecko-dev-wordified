@@ -1474,7 +1474,7 @@ WasmUnsignedToDouble
 \
 _
 (
-AsmJSUnsignedToFloat32
+WasmUnsignedToFloat32
 )
 \
 _

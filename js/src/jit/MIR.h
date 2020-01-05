@@ -28832,7 +28832,7 @@ js
 )
 .
 class
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 :
 public
 MUnaryInstruction
@@ -28843,7 +28843,7 @@ NoTypePolicy
 Data
 {
 explicit
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 (
 MDefinition
 *
@@ -28872,10 +28872,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSUnsignedToFloat32
+WasmUnsignedToFloat32
 )
 static
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 *
 NewAsmJS
 (
@@ -28892,7 +28892,7 @@ new
 (
 alloc
 )
-MAsmJSUnsignedToFloat32
+MWasmUnsignedToFloat32
 (
 def
 )
