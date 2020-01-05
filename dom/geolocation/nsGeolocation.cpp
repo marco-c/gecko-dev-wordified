@@ -6130,8 +6130,6 @@ rv
 )
 ;
 }
-return
-;
 }
 nsresult
 Geolocation
