@@ -5237,6 +5237,9 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
+nsIEventTarget
+*
+aTarget
 )
 {
 MOZ_ASSERT
