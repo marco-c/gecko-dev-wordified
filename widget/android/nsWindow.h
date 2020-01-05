@@ -282,6 +282,11 @@ mScreenId
 aScreenId
 ;
 }
+void
+EnableEventDispatcher
+(
+)
+;
 private
 :
 uint32_t
