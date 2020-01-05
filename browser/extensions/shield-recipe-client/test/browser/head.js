@@ -177,6 +177,12 @@ Ci
 mozIJSSubScriptLoader
 )
 ;
+/
+*
+global
+sinon
+*
+/
 loader
 .
 loadSubScript

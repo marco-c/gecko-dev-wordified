@@ -127,13 +127,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-setTimeout
-clearTimeout
-*
-/
 Cu
 .
 import

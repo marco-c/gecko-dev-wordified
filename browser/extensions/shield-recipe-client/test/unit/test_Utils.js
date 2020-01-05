@@ -3,12 +3,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-Cu
-*
-/
 Cu
 .
 import

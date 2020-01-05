@@ -407,12 +407,6 @@ fetch
 ]
 )
 ;
-/
-*
-globals
-fetch
-*
-/
 this
 .
 EXPORTED_SYMBOLS
