@@ -730,6 +730,9 @@ class
 HostLayer
 ;
 class
+KnowsCompositor
+;
+class
 ShadowableLayer
 ;
 class
@@ -1461,6 +1464,17 @@ virtual
 ShadowLayerForwarder
 *
 AsShadowForwarder
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+KnowsCompositor
+*
+AsKnowsCompositor
 (
 )
 {

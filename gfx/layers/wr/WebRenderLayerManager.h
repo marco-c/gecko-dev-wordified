@@ -149,6 +149,9 @@ class
 CompositorBridgeChild
 ;
 class
+KnowsCompositor
+;
+class
 PCompositorBridgeChild
 ;
 class
@@ -463,6 +466,14 @@ WebRenderLayerManager
 ;
 public
 :
+virtual
+KnowsCompositor
+*
+AsKnowsCompositor
+(
+)
+override
+;
 WebRenderLayerManager
 *
 AsWebRenderLayerManager
