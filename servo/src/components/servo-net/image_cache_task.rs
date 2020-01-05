@@ -148,10 +148,7 @@ core
 util
 :
 :
-{
 replace
-swap
-}
 ;
 use
 std
