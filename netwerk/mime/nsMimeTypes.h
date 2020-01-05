@@ -866,6 +866,14 @@ matroska
 "
 #
 define
+AUDIO_AAC
+"
+audio
+/
+aac
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
