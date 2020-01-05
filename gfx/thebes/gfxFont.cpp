@@ -16620,7 +16620,6 @@ aHash
 aRunScript
 aAppUnitsPerDevUnit
 aFlags
-aRounding
 )
 ;
 CacheHashEntry
@@ -16792,7 +16791,6 @@ aLength
 aRunScript
 aAppUnitsPerDevUnit
 aFlags
-aRounding
 )
 ;
 entry
@@ -16930,20 +16928,6 @@ aKey
 -
 >
 mFlags
-|
-|
-sw
--
->
-GetRounding
-(
-)
-!
-=
-aKey
--
->
-mRounding
 |
 |
 sw
