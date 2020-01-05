@@ -233,7 +233,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -282,7 +282,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 other
@@ -401,7 +401,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -436,7 +436,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -615,7 +615,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -694,7 +694,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 confi
@@ -904,7 +904,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -983,7 +983,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 help
@@ -1145,7 +1145,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -1192,7 +1192,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -1395,7 +1395,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -1432,7 +1432,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 NotANumber
@@ -1545,7 +1545,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -1590,7 +1590,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 too
@@ -1730,7 +1730,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -1777,7 +1777,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -1940,7 +1940,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -1995,7 +1995,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -2162,7 +2162,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -2237,7 +2237,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -2345,7 +2345,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -2382,7 +2382,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 ]
 )
@@ -2496,7 +2496,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -2686,7 +2686,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -2768,7 +2768,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 ]
 )
@@ -2905,7 +2905,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -2952,7 +2952,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -3159,7 +3159,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -3425,7 +3425,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -3438,7 +3438,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -
@@ -3556,7 +3556,7 @@ App
 new
 (
 "
-myprog
+prog
 "
 )
 /
@@ -3569,7 +3569,7 @@ vec
 !
 [
 "
-myprog
+prog
 "
 "
 -

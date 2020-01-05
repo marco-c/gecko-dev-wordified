@@ -131,6 +131,9 @@ did_you_mean
 '
 a
 T
+:
+?
+Sized
 I
 >
 (
@@ -301,6 +304,9 @@ did_you_mean
 '
 a
 T
+:
+?
+Sized
 I
 >
 (
@@ -595,6 +601,15 @@ to
 determine
 message
 formatting
+#
+[
+derive
+(
+Copy
+Clone
+Debug
+)
+]
 pub
 enum
 DidYouMeanMessageStyle

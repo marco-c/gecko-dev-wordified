@@ -355,6 +355,8 @@ debug_assert
 !
 arg
 .
+b
+.
 name
 .
 is_empty
@@ -385,10 +387,14 @@ usage
 ;
 arg
 .
+v
+.
 num_vals
 =
 match
 arg
+.
+v
 .
 val_names
 {
@@ -443,6 +449,8 @@ vals
 }
 "
 arg
+.
+v
 .
 val_names
 )
@@ -590,12 +598,16 @@ name
 ;
 arg
 .
+b
+.
 name
 =
 name
 ;
 if
 arg
+.
+s
 .
 long
 .
@@ -605,6 +617,8 @@ is_none
 &
 &
 arg
+.
+s
 .
 short
 .
@@ -681,6 +695,8 @@ v
 =
 arg
 .
+v
+.
 val_names
 {
 let
@@ -723,6 +739,8 @@ name
 )
 ;
 arg
+.
+v
 .
 val_names
 =
@@ -1008,6 +1026,8 @@ name
 ;
 arg
 .
+b
+.
 name
 =
 name
@@ -1034,6 +1054,8 @@ name
 )
 ;
 arg
+.
+s
 .
 long
 =
@@ -1139,6 +1161,8 @@ short
 ;
 arg
 .
+s
+.
 short
 =
 Some
@@ -1148,6 +1172,8 @@ short
 ;
 if
 arg
+.
+b
 .
 name
 .
@@ -1206,6 +1232,8 @@ name
 )
 ;
 arg
+.
+b
 .
 name
 =
@@ -1346,8 +1374,6 @@ Multiple
 if
 arg
 .
-settings
-.
 is_set
 (
 ArgSettings
@@ -1379,6 +1405,8 @@ ValueDelimiterNotSet
 if
 arg
 .
+v
+.
 val_delim
 .
 is_none
@@ -1386,6 +1414,8 @@ is_none
 )
 {
 arg
+.
+v
 .
 val_delim
 =
@@ -1514,6 +1544,8 @@ pos
 )
 ;
 arg
+.
+b
 .
 help
 =
@@ -1810,6 +1842,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 flag
@@ -1820,6 +1854,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 .
@@ -1836,6 +1872,8 @@ assert
 (
 a
 .
+s
+.
 long
 .
 is_none
@@ -1847,6 +1885,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -1880,6 +1920,8 @@ assert
 (
 a
 .
+v
+.
 val_names
 .
 is_none
@@ -1891,6 +1933,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -1927,6 +1971,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 flag
@@ -1937,6 +1983,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -1953,6 +2001,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -1963,6 +2013,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -1997,6 +2049,8 @@ assert
 (
 a
 .
+v
+.
 val_names
 .
 is_none
@@ -2008,6 +2062,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -2041,6 +2097,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 flag
@@ -2051,6 +2109,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -2067,6 +2127,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -2077,6 +2139,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -2111,6 +2175,8 @@ assert
 (
 b
 .
+v
+.
 val_names
 .
 is_none
@@ -2122,6 +2188,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -2160,6 +2228,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 flag
@@ -2170,6 +2240,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 short
 .
@@ -2186,6 +2258,8 @@ assert_eq
 (
 c
 .
+s
+.
 long
 .
 unwrap
@@ -2200,6 +2274,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -2233,6 +2309,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -2244,6 +2322,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -2282,6 +2362,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 flag
@@ -2292,6 +2374,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 short
 .
@@ -2308,6 +2392,8 @@ assert
 (
 d
 .
+s
+.
 long
 .
 is_none
@@ -2319,6 +2405,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -2351,6 +2439,8 @@ assert
 (
 d
 .
+v
+.
 val_names
 .
 is_none
@@ -2362,6 +2452,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -2403,6 +2495,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flag
@@ -2413,6 +2507,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 long
 .
@@ -2428,6 +2524,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -2444,6 +2542,8 @@ assert_eq
 (
 e
 .
+b
+.
 help
 .
 unwrap
@@ -2475,6 +2575,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2486,6 +2588,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2524,6 +2628,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flag
@@ -2534,6 +2640,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 long
 .
@@ -2549,6 +2657,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -2565,6 +2675,8 @@ assert_eq
 (
 e
 .
+b
+.
 help
 .
 unwrap
@@ -2596,6 +2708,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2607,6 +2721,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2635,6 +2751,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flags
@@ -2645,6 +2763,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 long
 .
@@ -2661,6 +2781,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2672,6 +2794,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2703,6 +2827,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flags
@@ -2713,6 +2839,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 long
 .
@@ -2743,6 +2871,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2754,6 +2884,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2784,6 +2916,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flags
@@ -2794,6 +2928,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -2810,6 +2946,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2821,6 +2959,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2854,6 +2994,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 flags
@@ -2864,6 +3006,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -2894,6 +3038,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -2905,6 +3051,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -2937,6 +3085,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 f
@@ -2947,6 +3097,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 .
@@ -2962,6 +3114,8 @@ assert
 !
 (
 a
+.
+s
 .
 long
 .
@@ -2975,6 +3129,8 @@ assert_eq
 (
 a
 .
+b
+.
 help
 .
 unwrap
@@ -3007,6 +3163,8 @@ assert
 (
 a
 .
+v
+.
 val_names
 .
 is_none
@@ -3018,6 +3176,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -3045,6 +3205,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 f
@@ -3055,6 +3217,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -3071,6 +3235,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -3082,6 +3248,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -3112,6 +3280,8 @@ assert_eq
 (
 e
 .
+b
+.
 name
 "
 f
@@ -3122,6 +3292,8 @@ assert_eq
 !
 (
 e
+.
+s
 .
 short
 .
@@ -3152,6 +3324,8 @@ assert
 (
 e
 .
+v
+.
 val_names
 .
 is_none
@@ -3163,6 +3337,8 @@ assert
 !
 (
 e
+.
+v
 .
 num_vals
 .
@@ -3215,6 +3391,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -3225,6 +3403,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 .
@@ -3241,6 +3421,8 @@ assert
 (
 a
 .
+s
+.
 long
 .
 is_none
@@ -3252,6 +3434,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -3314,6 +3498,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -3347,6 +3533,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -3392,6 +3580,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 o
@@ -3402,6 +3592,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 short
 .
@@ -3418,6 +3610,8 @@ assert
 (
 b
 .
+s
+.
 long
 .
 is_none
@@ -3428,6 +3622,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -3491,6 +3687,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -3524,6 +3722,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -3572,6 +3772,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -3582,6 +3784,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 short
 .
@@ -3598,6 +3802,8 @@ assert
 (
 c
 .
+s
+.
 long
 .
 is_none
@@ -3609,6 +3815,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -3670,6 +3878,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -3703,6 +3913,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -3748,6 +3960,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 o
@@ -3758,6 +3972,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 short
 .
@@ -3774,6 +3990,8 @@ assert
 (
 d
 .
+s
+.
 long
 .
 is_none
@@ -3785,6 +4003,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -3846,6 +4066,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -3879,6 +4101,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -3930,6 +4154,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -3940,6 +4166,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 .
@@ -3956,6 +4184,8 @@ assert
 (
 a
 .
+s
+.
 long
 .
 is_none
@@ -3967,6 +4197,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -4028,6 +4260,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -4061,6 +4295,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -4112,6 +4348,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -4122,6 +4360,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 .
@@ -4138,6 +4378,8 @@ assert
 (
 a
 .
+s
+.
 long
 .
 is_none
@@ -4149,6 +4391,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -4210,6 +4454,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -4243,6 +4489,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -4291,6 +4539,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 o
@@ -4301,6 +4551,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 short
 .
@@ -4317,6 +4569,8 @@ assert
 (
 b
 .
+s
+.
 long
 .
 is_none
@@ -4327,6 +4581,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -4389,6 +4645,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -4422,6 +4680,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -4473,6 +4733,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -4483,6 +4745,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 short
 .
@@ -4499,6 +4763,8 @@ assert
 (
 c
 .
+s
+.
 long
 .
 is_none
@@ -4510,6 +4776,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -4570,6 +4838,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -4603,6 +4873,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -4654,6 +4926,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -4664,6 +4938,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 short
 .
@@ -4680,6 +4956,8 @@ assert
 (
 c
 .
+s
+.
 long
 .
 is_none
@@ -4691,6 +4969,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -4751,6 +5031,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -4784,6 +5066,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -4832,6 +5116,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 o
@@ -4842,6 +5128,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 short
 .
@@ -4858,6 +5146,8 @@ assert
 (
 d
 .
+s
+.
 long
 .
 is_none
@@ -4869,6 +5159,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -4929,6 +5221,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -4962,6 +5256,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -5011,6 +5307,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -5021,6 +5319,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -5037,6 +5337,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -5048,6 +5350,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -5110,6 +5414,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -5143,6 +5449,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -5189,6 +5497,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -5199,6 +5509,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -5215,6 +5527,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -5225,6 +5539,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -5288,6 +5604,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -5321,6 +5639,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -5370,6 +5690,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -5380,6 +5702,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -5396,6 +5720,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -5407,6 +5733,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -5468,6 +5796,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -5501,6 +5831,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -5547,6 +5879,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -5557,6 +5891,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -5573,6 +5909,8 @@ assert
 (
 d
 .
+s
+.
 short
 .
 is_none
@@ -5584,6 +5922,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -5645,6 +5985,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -5678,6 +6020,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -5730,6 +6074,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -5740,6 +6086,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -5756,6 +6104,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -5767,6 +6117,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -5828,6 +6180,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -5861,6 +6215,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -5913,6 +6269,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -5923,6 +6281,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -5939,6 +6299,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -5950,6 +6312,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -6011,6 +6375,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -6044,6 +6410,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -6093,6 +6461,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -6103,6 +6473,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -6119,6 +6491,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -6129,6 +6503,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -6191,6 +6567,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -6224,6 +6602,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -6276,6 +6656,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -6286,6 +6668,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -6302,6 +6686,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -6313,6 +6699,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -6373,6 +6761,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -6406,6 +6796,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -6458,6 +6850,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -6468,6 +6862,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -6484,6 +6880,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -6495,6 +6893,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -6555,6 +6955,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -6588,6 +6990,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -6637,6 +7041,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -6647,6 +7053,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -6663,6 +7071,8 @@ assert
 (
 d
 .
+s
+.
 short
 .
 is_none
@@ -6674,6 +7084,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -6734,6 +7146,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -6767,6 +7181,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -6817,6 +7233,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -6827,6 +7245,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -6843,6 +7263,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -6854,6 +7276,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -6916,6 +7340,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -6949,6 +7375,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -6996,6 +7424,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -7006,6 +7436,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -7022,6 +7454,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -7032,6 +7466,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -7095,6 +7531,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -7128,6 +7566,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -7178,6 +7618,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -7188,6 +7630,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -7204,6 +7648,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -7215,6 +7661,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -7276,6 +7724,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -7309,6 +7759,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -7356,6 +7808,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -7366,6 +7820,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -7382,6 +7838,8 @@ assert
 (
 d
 .
+s
+.
 short
 .
 is_none
@@ -7393,6 +7851,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -7454,6 +7914,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -7487,6 +7949,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -7540,6 +8004,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -7550,6 +8016,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -7566,6 +8034,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -7577,6 +8047,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -7638,6 +8110,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -7671,6 +8145,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -7724,6 +8200,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -7734,6 +8212,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -7750,6 +8230,8 @@ assert
 (
 a
 .
+s
+.
 short
 .
 is_none
@@ -7761,6 +8243,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -7822,6 +8306,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -7855,6 +8341,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -7905,6 +8393,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -7915,6 +8405,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -7931,6 +8423,8 @@ assert
 (
 b
 .
+s
+.
 short
 .
 is_none
@@ -7941,6 +8435,8 @@ is_none
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -8003,6 +8499,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -8036,6 +8534,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -8089,6 +8589,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -8099,6 +8601,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -8115,6 +8619,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -8126,6 +8632,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -8186,6 +8694,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -8219,6 +8729,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -8272,6 +8784,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -8282,6 +8796,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -8298,6 +8814,8 @@ assert
 (
 c
 .
+s
+.
 short
 .
 is_none
@@ -8309,6 +8827,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -8369,6 +8889,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -8402,6 +8924,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -8452,6 +8976,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -8462,6 +8988,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -8478,6 +9006,8 @@ assert
 (
 d
 .
+s
+.
 short
 .
 is_none
@@ -8489,6 +9019,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -8549,6 +9081,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -8582,6 +9116,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -8633,6 +9169,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -8643,6 +9181,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -8659,6 +9199,8 @@ assert_eq
 (
 a
 .
+s
+.
 short
 .
 unwrap
@@ -8673,6 +9215,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -8735,6 +9279,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -8768,6 +9314,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -8816,6 +9364,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -8826,6 +9376,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -8842,6 +9394,8 @@ assert_eq
 (
 b
 .
+s
+.
 short
 .
 unwrap
@@ -8855,6 +9409,8 @@ o
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -8918,6 +9474,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -8951,6 +9509,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -9002,6 +9562,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -9012,6 +9574,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -9028,6 +9592,8 @@ assert_eq
 (
 c
 .
+s
+.
 short
 .
 unwrap
@@ -9042,6 +9608,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -9103,6 +9671,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -9136,6 +9706,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -9184,6 +9756,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -9194,6 +9768,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -9210,6 +9786,8 @@ assert_eq
 (
 d
 .
+s
+.
 short
 .
 unwrap
@@ -9224,6 +9802,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -9285,6 +9865,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -9318,6 +9900,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -9372,6 +9956,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -9382,6 +9968,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -9398,6 +9986,8 @@ assert_eq
 (
 a
 .
+s
+.
 short
 .
 unwrap
@@ -9412,6 +10002,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -9473,6 +10065,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -9506,6 +10100,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -9557,6 +10153,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -9567,6 +10165,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -9583,6 +10183,8 @@ assert_eq
 (
 b
 .
+s
+.
 short
 .
 unwrap
@@ -9596,6 +10198,8 @@ o
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -9658,6 +10262,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -9691,6 +10297,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -9745,6 +10353,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -9755,6 +10365,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -9771,6 +10383,8 @@ assert_eq
 (
 c
 .
+s
+.
 short
 .
 unwrap
@@ -9785,6 +10399,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -9845,6 +10461,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -9878,6 +10496,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -9929,6 +10549,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -9939,6 +10561,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -9955,6 +10579,8 @@ assert_eq
 (
 d
 .
+s
+.
 short
 .
 unwrap
@@ -9969,6 +10595,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -10029,6 +10657,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -10062,6 +10692,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -10114,6 +10746,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -10124,6 +10758,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -10140,6 +10776,8 @@ assert_eq
 (
 a
 .
+s
+.
 short
 .
 unwrap
@@ -10154,6 +10792,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -10216,6 +10856,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -10249,6 +10891,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -10298,6 +10942,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -10308,6 +10954,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -10324,6 +10972,8 @@ assert_eq
 (
 b
 .
+s
+.
 short
 .
 unwrap
@@ -10337,6 +10987,8 @@ o
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -10400,6 +11052,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -10433,6 +11087,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -10485,6 +11141,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -10495,6 +11153,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -10511,6 +11171,8 @@ assert_eq
 (
 c
 .
+s
+.
 short
 .
 unwrap
@@ -10525,6 +11187,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -10586,6 +11250,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -10619,6 +11285,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -10668,6 +11336,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -10678,6 +11348,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -10694,6 +11366,8 @@ assert_eq
 (
 d
 .
+s
+.
 short
 .
 unwrap
@@ -10708,6 +11382,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -10769,6 +11445,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -10802,6 +11480,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -10857,6 +11537,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 option
@@ -10867,6 +11549,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 .
@@ -10883,6 +11567,8 @@ assert_eq
 (
 a
 .
+s
+.
 short
 .
 unwrap
@@ -10897,6 +11583,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -10958,6 +11646,8 @@ assert_eq
 (
 a
 .
+v
+.
 val_names
 .
 unwrap
@@ -10991,6 +11681,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -11043,6 +11735,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 opt
@@ -11053,6 +11747,8 @@ assert_eq
 !
 (
 b
+.
+s
 .
 long
 .
@@ -11069,6 +11765,8 @@ assert_eq
 (
 b
 .
+s
+.
 short
 .
 unwrap
@@ -11082,6 +11780,8 @@ o
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -11144,6 +11844,8 @@ assert_eq
 (
 b
 .
+v
+.
 val_names
 .
 unwrap
@@ -11177,6 +11879,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -11232,6 +11936,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 option
@@ -11242,6 +11948,8 @@ assert_eq
 !
 (
 c
+.
+s
 .
 long
 .
@@ -11258,6 +11966,8 @@ assert_eq
 (
 c
 .
+s
+.
 short
 .
 unwrap
@@ -11272,6 +11982,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -11332,6 +12044,8 @@ assert_eq
 (
 c
 .
+v
+.
 val_names
 .
 unwrap
@@ -11365,6 +12079,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -11417,6 +12133,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -11427,6 +12145,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -11443,6 +12163,8 @@ assert_eq
 (
 d
 .
+s
+.
 short
 .
 unwrap
@@ -11457,6 +12179,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -11517,6 +12241,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -11550,6 +12276,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -11598,6 +12326,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 o
@@ -11608,6 +12338,8 @@ assert
 !
 (
 d
+.
+s
 .
 long
 .
@@ -11620,6 +12352,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 short
 .
@@ -11635,6 +12369,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -11696,6 +12432,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -11733,6 +12471,8 @@ assert_eq
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -11785,6 +12525,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 o
@@ -11795,6 +12537,8 @@ assert
 !
 (
 d
+.
+s
 .
 long
 .
@@ -11807,6 +12551,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 short
 .
@@ -11822,6 +12568,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -11882,6 +12630,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -11919,6 +12669,8 @@ assert_eq
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -11972,6 +12724,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -11982,6 +12736,8 @@ assert
 !
 (
 d
+.
+s
 .
 short
 .
@@ -11994,6 +12750,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -12009,6 +12767,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -12069,6 +12829,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -12106,6 +12868,8 @@ assert_eq
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -12159,6 +12923,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 myopt
@@ -12169,6 +12935,8 @@ assert
 !
 (
 d
+.
+s
 .
 short
 .
@@ -12181,6 +12949,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -12196,6 +12966,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -12258,6 +13030,8 @@ assert_eq
 (
 d
 .
+v
+.
 val_names
 .
 unwrap
@@ -12295,6 +13069,8 @@ assert_eq
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -12345,6 +13121,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 opt
@@ -12355,6 +13133,8 @@ assert
 !
 (
 d
+.
+s
 .
 short
 .
@@ -12367,6 +13147,8 @@ assert_eq
 !
 (
 d
+.
+s
 .
 long
 .
@@ -12382,6 +13164,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -12443,6 +13227,8 @@ assert_eq
 (
 d
 .
+v
+.
 num_vals
 .
 unwrap
@@ -12486,6 +13272,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 pos
@@ -12496,6 +13284,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 .
@@ -12544,6 +13334,8 @@ assert
 (
 a
 .
+v
+.
 val_names
 .
 is_none
@@ -12555,6 +13347,8 @@ assert
 !
 (
 a
+.
+v
 .
 num_vals
 .
@@ -12598,6 +13392,8 @@ assert_eq
 (
 b
 .
+b
+.
 name
 "
 pos
@@ -12607,6 +13403,8 @@ pos
 assert_eq
 !
 (
+b
+.
 b
 .
 help
@@ -12655,6 +13453,8 @@ assert
 (
 b
 .
+v
+.
 val_names
 .
 is_none
@@ -12666,6 +13466,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -12712,6 +13514,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -12722,6 +13526,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -12769,6 +13575,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -12780,6 +13588,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -12828,6 +13638,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -12838,6 +13650,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -12886,6 +13700,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -12897,6 +13713,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -12947,6 +13765,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -12957,6 +13777,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -13006,6 +13828,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -13017,6 +13841,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -13067,6 +13893,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -13077,6 +13905,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -13127,6 +13957,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -13138,6 +13970,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -13191,6 +14025,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -13201,6 +14037,8 @@ assert_eq
 !
 (
 c
+.
+b
 .
 help
 .
@@ -13253,6 +14091,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -13264,6 +14104,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -13310,6 +14152,8 @@ assert_eq
 (
 d
 .
+b
+.
 name
 "
 pos
@@ -13320,6 +14164,8 @@ assert_eq
 !
 (
 d
+.
+b
 .
 help
 .
@@ -13366,6 +14212,8 @@ assert
 (
 d
 .
+v
+.
 val_names
 .
 is_none
@@ -13377,6 +14225,8 @@ assert
 !
 (
 d
+.
+v
 .
 num_vals
 .
@@ -13413,6 +14263,8 @@ pos
 assert_eq
 !
 (
+b
+.
 b
 .
 name
@@ -13455,6 +14307,8 @@ assert
 (
 b
 .
+v
+.
 val_names
 .
 is_none
@@ -13466,6 +14320,8 @@ assert
 !
 (
 b
+.
+v
 .
 num_vals
 .
@@ -13507,6 +14363,8 @@ assert_eq
 (
 c
 .
+b
+.
 name
 "
 pos
@@ -13547,6 +14405,8 @@ assert
 (
 c
 .
+v
+.
 val_names
 .
 is_none
@@ -13558,6 +14418,8 @@ assert
 !
 (
 c
+.
+v
 .
 num_vals
 .
@@ -13598,6 +14460,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 ASCII
@@ -13608,6 +14472,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
@@ -13639,6 +14505,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 "
@@ -13648,6 +14516,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
@@ -13679,6 +14549,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 "
@@ -13688,6 +14560,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
@@ -13717,6 +14591,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 "
@@ -13726,6 +14602,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 short
 Some
@@ -13739,6 +14617,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
@@ -13771,6 +14651,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 "
@@ -13780,6 +14662,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 Some
@@ -13793,6 +14677,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
@@ -13834,6 +14720,8 @@ assert_eq
 (
 a
 .
+b
+.
 name
 "
 m
@@ -13844,6 +14732,8 @@ assert_eq
 !
 (
 a
+.
+s
 .
 long
 Some
@@ -13858,6 +14748,8 @@ assert_eq
 !
 (
 a
+.
+v
 .
 val_names
 .
@@ -13891,6 +14783,8 @@ assert_eq
 !
 (
 a
+.
+b
 .
 help
 Some
