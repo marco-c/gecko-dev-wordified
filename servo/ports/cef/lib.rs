@@ -69,14 +69,6 @@ borrow_state
 [
 feature
 (
-box_raw
-)
-]
-#
-!
-[
-feature
-(
 box_syntax
 )
 ]
