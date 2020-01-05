@@ -117,7 +117,7 @@ Configuration
 import
 *
 from
-Codegen
+CodegenRust
 import
 GlobalGenRoots
 replaceFileIfChanged
@@ -170,7 +170,7 @@ name
 +
 '
 .
-h
+rs
 '
         
 code
@@ -178,6 +178,54 @@ code
 root
 .
 declare
+(
+)
+    
+elif
+action
+=
+=
+'
+declare
++
+define
+'
+:
+        
+filename
+=
+name
++
+'
+.
+rs
+'
+        
+code
+=
+root
+.
+declare
+(
+)
+        
+root2
+=
+getattr
+(
+GlobalGenRoots
+name
+)
+(
+config
+)
+        
+code
++
+=
+root2
+.
+define
 (
 )
     
@@ -197,7 +245,7 @@ name
 +
 '
 .
-cpp
+rs
 '
         
 code
@@ -564,6 +612,8 @@ PrototypeList
 '
 '
 declare
++
+define
 '
 )
     
@@ -582,20 +632,19 @@ RegisterBindings
 '
 '
 declare
-'
-)
-    
-generate_file
-(
-config
-'
-RegisterBindings
-'
-'
++
 define
 '
 )
     
+#
+XXXjdm
+No
+union
+support
+yet
+    
+#
 generate_file
 (
 config
@@ -607,6 +656,7 @@ declare
 '
 )
     
+#
 generate_file
 (
 config
