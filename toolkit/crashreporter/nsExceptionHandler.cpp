@@ -3228,10 +3228,17 @@ return
 new
 xpstring
 (
+static_cast
+<
+wchar_t
+*
+>
+(
 path
 .
 get
 (
+)
 )
 path
 .
