@@ -196,6 +196,10 @@ collections
 ;
 extern
 crate
+encoding
+;
+extern
+crate
 green
 ;
 extern
