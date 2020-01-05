@@ -139,6 +139,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsIPresShellInlines
+.
+h
+"
 namespace
 mozilla
 {
@@ -1548,11 +1555,6 @@ ProcessPendingRestyles
 )
 .
 presShell
--
->
-GetDocument
-(
-)
 -
 >
 SetNeedStyleFlush
