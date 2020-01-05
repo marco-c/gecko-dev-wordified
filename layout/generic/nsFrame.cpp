@@ -69637,9 +69637,9 @@ not
 "
 "
 (
-NS_FRAME_REFLOW_NEXTINFLOW
-&
 aStatus
+&
+NS_FRAME_REFLOW_NEXTINFLOW
 )
 ?
 "
@@ -74567,7 +74567,9 @@ aFrame
 ReflowOutput
 &
 aMetrics
+const
 nsReflowStatus
+&
 aStatus
 void
 *
