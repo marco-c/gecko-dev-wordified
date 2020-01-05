@@ -67,6 +67,14 @@ core
 #
 !
 [
+feature
+(
+collections
+)
+]
+#
+!
+[
 allow
 (
 missing_copy_implementations

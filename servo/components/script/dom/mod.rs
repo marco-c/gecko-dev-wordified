@@ -2703,6 +2703,10 @@ htmlunknownelement
 ;
 pub
 mod
+imagedata
+;
+pub
+mod
 keyboardevent
 ;
 pub
