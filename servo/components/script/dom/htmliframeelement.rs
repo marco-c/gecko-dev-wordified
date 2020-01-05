@@ -239,7 +239,6 @@ error
 {
 Error
 ErrorResult
-Fallible
 }
 ;
 use
