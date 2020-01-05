@@ -8,13 +8,7 @@ collections
 BTreeMap
 ;
 use
-serialize
-:
-:
-json
-;
-use
-serialize
+rustc_serialize
 :
 :
 json
@@ -71,7 +65,7 @@ MatchType
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -217,7 +211,7 @@ TakeScreenshotParameters
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -327,7 +321,7 @@ body
 )
 ;
 match
-json
+Json
 :
 :
 from_str
@@ -2284,7 +2278,7 @@ Self
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -2462,7 +2456,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -2713,7 +2707,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -2962,7 +2956,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -3140,7 +3134,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -3381,7 +3375,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -3545,7 +3539,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -3723,7 +3717,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -4085,7 +4079,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -4290,7 +4284,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -5127,7 +5121,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -5305,7 +5299,7 @@ data
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
