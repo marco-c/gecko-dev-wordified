@@ -645,7 +645,7 @@ function
 {
 /
 /
-setTimeout
+step_timeout
 is
 a
 work
@@ -669,7 +669,7 @@ after
 the
 load
 event
-setTimeout
+step_timeout
 (
 t
 .

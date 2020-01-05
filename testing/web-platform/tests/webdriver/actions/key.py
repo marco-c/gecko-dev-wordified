@@ -1,3 +1,9 @@
+#
+META
+:
+timeout
+=
+long
 import
 pytest
 from

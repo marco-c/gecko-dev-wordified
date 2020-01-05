@@ -142,7 +142,7 @@ windows_before
 =
 session
 .
-window_handles
+handles
     
 name
 =
@@ -164,7 +164,7 @@ len
 (
 session
 .
-window_handles
+handles
 )
 =
 =
@@ -177,11 +177,17 @@ windows_before
     
 new_windows
 =
+set
+(
 session
 .
-window_handles
+handles
+)
 -
+set
+(
 windows_before
+)
     
 return
 new_windows
@@ -568,6 +574,17 @@ session
 )
 :
     
+with
+pytest
+.
+raises
+(
+webdriver
+.
+InvalidArgumentException
+)
+:
+        
 session
 .
 url
@@ -575,11 +592,6 @@ url
 "
 foo
 "
-    
-assert
-session
-.
-url
 def
 test_get_current_url_after_modified_location
 (
@@ -728,7 +740,7 @@ session
 .
 switch_frame
 (
-frame
+inner_frame
 )
     
 assert
