@@ -1857,10 +1857,8 @@ eachi
 )
 {
 let
-range
+logical_offset
 =
-new_ranges
-[
 i
 -
 self
@@ -1870,6 +1868,13 @@ clump
 begin
 (
 )
+;
+let
+range
+=
+new_ranges
+[
+logical_offset
 ]
 ;
 if
@@ -1981,7 +1986,7 @@ new_line_pos
 =
 new_line_positions
 [
-i
+logical_offset
 ]
 .
 new_line_pos
