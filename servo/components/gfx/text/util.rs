@@ -1268,7 +1268,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1276,7 +1276,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1286,7 +1286,7 @@ n
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1295,7 +1295,7 @@ foo
 nbar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1305,7 +1305,7 @@ bar
 nbaz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1314,7 +1314,7 @@ bar
 baz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1325,7 +1325,7 @@ n
 n
 "
 .
-to_string
+into_string
 (
 )
 ]
@@ -1345,7 +1345,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1353,7 +1353,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1363,7 +1363,7 @@ n
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1372,7 +1372,7 @@ foo
 nbar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1382,7 +1382,7 @@ bar
 nbaz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1391,7 +1391,7 @@ bar
 baz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1402,7 +1402,7 @@ n
 n
 "
 .
-to_string
+into_string
 (
 )
 ]
@@ -1504,7 +1504,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1512,7 +1512,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1522,7 +1522,7 @@ n
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1531,7 +1531,7 @@ foo
 nbar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1541,7 +1541,7 @@ bar
 nbaz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1550,7 +1550,7 @@ bar
 baz
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1561,7 +1561,7 @@ n
 n
 "
 .
-to_string
+into_string
 (
 )
 ]
@@ -1581,7 +1581,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1589,7 +1589,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1597,7 +1597,7 @@ foo
 bar
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -1605,16 +1605,7 @@ foo
 bar
 "
 .
-to_string
-(
-)
-"
-foo
-bar
-baz
-"
-.
-to_string
+into_string
 (
 )
 "
@@ -1623,14 +1614,23 @@ bar
 baz
 "
 .
-to_string
+into_string
+(
+)
+"
+foo
+bar
+baz
+"
+.
+into_string
 (
 )
 "
 foobarbaz
 "
 .
-to_string
+into_string
 (
 )
 ]

@@ -352,14 +352,14 @@ Unicode
 MS
 "
 .
-to_string
+into_string
 (
 )
 "
 Arial
 "
 .
-to_string
+into_string
 (
 )
 )

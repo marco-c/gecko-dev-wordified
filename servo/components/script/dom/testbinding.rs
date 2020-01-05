@@ -600,7 +600,7 @@ DOMString
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -753,7 +753,7 @@ eString
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1213,7 +1213,7 @@ Some
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1359,7 +1359,7 @@ eString
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1524,7 +1524,7 @@ DOMString
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -1642,7 +1642,7 @@ eString
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1853,7 +1853,7 @@ Some
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1983,7 +1983,7 @@ eString
 "
 "
 .
-to_string
+into_string
 (
 )
 )

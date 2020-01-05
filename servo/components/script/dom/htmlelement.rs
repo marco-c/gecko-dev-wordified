@@ -1689,7 +1689,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 )

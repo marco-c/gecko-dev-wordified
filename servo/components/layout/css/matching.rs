@@ -1505,7 +1505,7 @@ string
 |
 string
 .
-to_string
+into_string
 (
 )
 )

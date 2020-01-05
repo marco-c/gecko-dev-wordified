@@ -1155,7 +1155,7 @@ text
 :
 text
 .
-to_string
+into_string
 (
 )
 options

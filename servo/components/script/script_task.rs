@@ -6290,7 +6290,7 @@ unwrap_or
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6465,7 +6465,7 @@ window
 DOMContentLoaded
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -6602,7 +6602,7 @@ window
 load
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -7625,7 +7625,7 @@ keyup
 "
 }
 .
-to_string
+into_string
 (
 )
 ;
@@ -7664,14 +7664,14 @@ props
 .
 key
 .
-to_string
+into_string
 (
 )
 props
 .
 code
 .
-to_string
+into_string
 (
 )
 props
@@ -7829,7 +7829,7 @@ window
 keypress
 "
 .
-to_string
+into_string
 (
 )
 true
@@ -7844,14 +7844,14 @@ props
 .
 key
 .
-to_string
+into_string
 (
 )
 props
 .
 code
 .
-to_string
+into_string
 (
 )
 props
@@ -8581,7 +8581,7 @@ clone
 resize
 "
 .
-to_string
+into_string
 (
 )
 false
@@ -8968,7 +8968,7 @@ window
 click
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles

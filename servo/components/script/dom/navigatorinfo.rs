@@ -91,7 +91,7 @@ DOMString
 Gecko
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -119,7 +119,7 @@ DOMString
 Netscape
 "
 .
-to_string
+into_string
 (
 )
 /
@@ -142,7 +142,7 @@ DOMString
 Mozilla
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -158,7 +158,7 @@ DOMString
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -199,7 +199,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 }

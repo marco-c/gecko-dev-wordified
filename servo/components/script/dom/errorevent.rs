@@ -366,7 +366,7 @@ new
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -380,7 +380,7 @@ new
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -661,7 +661,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 }

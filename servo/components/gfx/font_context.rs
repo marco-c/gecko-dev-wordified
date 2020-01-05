@@ -1198,7 +1198,7 @@ name
 (
 )
 .
-to_string
+into_string
 (
 )
 desc
@@ -1272,7 +1272,7 @@ name
 (
 )
 .
-to_string
+into_string
 (
 )
 font
@@ -1316,7 +1316,7 @@ name
 (
 )
 .
-to_string
+into_string
 (
 )
 font

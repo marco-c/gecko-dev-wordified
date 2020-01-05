@@ -710,7 +710,7 @@ Multiple
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1368,7 +1368,7 @@ DOMString
 textarea
 "
 .
-to_string
+into_string
 (
 )
 }

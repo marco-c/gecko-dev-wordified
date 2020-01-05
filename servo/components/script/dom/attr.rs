@@ -1030,7 +1030,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 }
@@ -1053,7 +1053,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 }
@@ -1222,7 +1222,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 }
@@ -1268,7 +1268,7 @@ Some
 (
 url
 .
-to_string
+into_string
 (
 )
 )
@@ -1630,7 +1630,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 name

@@ -787,7 +787,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 name
@@ -833,7 +833,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 prefix

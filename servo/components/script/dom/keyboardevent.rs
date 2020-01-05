@@ -391,7 +391,7 @@ new
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -405,7 +405,7 @@ new
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -639,14 +639,14 @@ location
 "
 "
 .
-to_string
+into_string
 (
 )
 repeat
 "
 "
 .
-to_string
+into_string
 (
 )
 )
