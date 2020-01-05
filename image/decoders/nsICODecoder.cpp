@@ -2718,9 +2718,7 @@ BITMAPINFOSIZE
 ;
 if
 (
-mDirEntry
-.
-mBitCount
+mBPP
 <
 =
 8
