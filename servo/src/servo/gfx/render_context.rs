@@ -659,6 +659,8 @@ self
 .
 canvas
 .
+rect
+.
 size
 .
 width
@@ -667,6 +669,8 @@ AzFloat
 self
 .
 canvas
+.
+rect
 .
 size
 .
