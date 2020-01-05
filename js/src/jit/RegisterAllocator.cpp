@@ -4657,7 +4657,7 @@ dumpInstructions
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 fprintf
 (
 stderr
@@ -5350,5 +5350,5 @@ n
 endif
 /
 /
-DEBUG
+JS_JITSPEW
 }
