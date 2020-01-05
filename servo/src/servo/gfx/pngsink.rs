@@ -619,7 +619,7 @@ dlist
 listen
 {
 |
-resp
+from_renderer
 |
 renderer
 .
@@ -630,11 +630,11 @@ renderer
 :
 ExitMsg
 (
-resp
+from_renderer
 )
 )
 ;
-resp
+from_renderer
 .
 recv
 (
