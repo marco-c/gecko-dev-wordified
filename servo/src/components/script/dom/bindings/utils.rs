@@ -3614,7 +3614,7 @@ JSVal
 )
 -
 >
-bool
+JSBool
 {
 unsafe
 {
@@ -3674,8 +3674,11 @@ obj
 )
 ;
 return
-true
+1
 ;
+/
+/
+JS_TRUE
 }
 let
 obj
@@ -3696,8 +3699,11 @@ is_null
 )
 {
 return
-false
+0
 ;
+/
+/
+JS_FALSE
 }
 /
 /
@@ -3740,9 +3746,6 @@ transmute
 vp
 )
 )
-!
-=
-0
 ;
 }
 }

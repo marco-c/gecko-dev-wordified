@@ -610,7 +610,7 @@ out
 str
 :
 :
-from_bytes
+from_utf8
 (
 res
 .

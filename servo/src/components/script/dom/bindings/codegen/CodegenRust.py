@@ -9463,7 +9463,7 @@ str
 str
 :
 :
-from_bytes
+from_utf8
 (
 data
 )
@@ -11192,6 +11192,15 @@ define
 (
 )
     
+if
+typeName
+!
+=
+"
+bool
+"
+:
+        
 return
 (
 template
@@ -11206,6 +11215,20 @@ s
 "
 %
 typeName
+)
+    
+else
+:
+        
+return
+(
+template
+declType
+None
+isOptional
+"
+false
+"
 )
 def
 instantiateJSToNativeConversionTemplate
@@ -12809,8 +12832,9 @@ if
 (
 %
 s
-as
-bool
+!
+=
+0
 )
 {
 \
@@ -13720,8 +13744,9 @@ obj
 jsvalPtr
 }
 )
-as
-bool
+!
+=
+0
 )
 "
 %
@@ -41340,8 +41365,9 @@ haveValue
 =
 "
 found
-as
-bool
+!
+=
+0
 "
         
 #
