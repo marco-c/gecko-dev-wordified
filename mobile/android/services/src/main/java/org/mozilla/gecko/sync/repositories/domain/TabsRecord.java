@@ -225,7 +225,7 @@ final
 long
 TABS_TTL
 =
-7
+21
 *
 24
 *
@@ -235,7 +235,7 @@ TABS_TTL
 ;
 /
 /
-7
+21
 days
 in
 seconds
