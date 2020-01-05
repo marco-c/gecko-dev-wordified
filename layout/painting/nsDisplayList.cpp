@@ -29260,12 +29260,16 @@ aList
 AnimatedGeometryRoot
 *
 aExpectedAnimatedGeometryRootForChildren
+LayerState
+aDefaultState
+=
+LAYER_INACTIVE
 )
 {
 LayerState
 result
 =
-LAYER_INACTIVE
+aDefaultState
 ;
 for
 (
@@ -46421,6 +46425,7 @@ mList
 GetAnimatedGeometryRoot
 (
 )
+LAYER_SVG_EFFECTS
 )
 ;
 }
