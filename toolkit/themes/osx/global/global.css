@@ -295,6 +295,9 @@ shadow
 focusRingShadow
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 -
@@ -324,6 +327,8 @@ yosemiteFocusRingShadow
 ;
 }
 }
+%
+endif
 /
 *
 :
