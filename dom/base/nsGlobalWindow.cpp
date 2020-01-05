@@ -84566,6 +84566,7 @@ T
 GetDocGroup
 (
 )
+const
 {
 nsIDocument
 *
@@ -84667,15 +84668,12 @@ nsIEventTarget
 nsGlobalWindow
 :
 :
-CreateEventTarget
+EventTargetFor
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 )
+const
 {
 MOZ_RELEASE_ASSERT
 (
@@ -84697,9 +84695,8 @@ GetDocGroup
 )
 -
 >
-CreateEventTarget
+EventTargetFor
 (
-aName
 aCategory
 )
 ;
@@ -84708,9 +84705,8 @@ return
 DispatcherTrait
 :
 :
-CreateEventTarget
+EventTargetFor
 (
-aName
 aCategory
 )
 ;

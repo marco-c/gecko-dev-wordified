@@ -11645,12 +11645,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
-CreateEventTarget
+EventTargetFor
 (
-const
-char
-*
-aName
 mozilla
 :
 :
@@ -11660,6 +11656,7 @@ dom
 TaskCategory
 aCategory
 )
+const
 override
 ;
 protected
