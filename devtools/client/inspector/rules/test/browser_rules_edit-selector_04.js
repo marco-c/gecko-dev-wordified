@@ -246,6 +246,7 @@ icon
 let
 icon
 =
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
