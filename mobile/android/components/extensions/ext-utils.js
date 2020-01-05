@@ -408,7 +408,7 @@ NOTIFY_LOCATION
 for
 (
 let
-tab
+nativeTab
 of
 this
 .
@@ -423,7 +423,7 @@ this
 .
 addBrowserProgressListener
 (
-tab
+nativeTab
 .
 browser
 )
@@ -469,7 +469,7 @@ this
 for
 (
 let
-tab
+nativeTab
 of
 this
 .
@@ -484,7 +484,7 @@ this
 .
 removeProgressListener
 (
-tab
+nativeTab
 .
 browser
 )
@@ -947,11 +947,11 @@ this
 }
 getId
 (
-tab
+nativeTab
 )
 {
 return
-tab
+nativeTab
 .
 id
 ;
@@ -977,7 +977,7 @@ win
 )
 {
 let
-tab
+nativeTab
 =
 win
 .
@@ -990,11 +990,11 @@ id
 ;
 if
 (
-tab
+nativeTab
 )
 {
 return
-tab
+nativeTab
 ;
 }
 }
@@ -1042,7 +1042,7 @@ target
 ownerGlobal
 ;
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1069,7 +1069,7 @@ this
 .
 emitCreated
 (
-tab
+nativeTab
 )
 ;
 break
@@ -1083,7 +1083,7 @@ this
 .
 emitRemoved
 (
-tab
+nativeTab
 false
 )
 ;
@@ -1093,7 +1093,7 @@ break
 }
 emitCreated
 (
-tab
+nativeTab
 )
 {
 this
@@ -1106,14 +1106,14 @@ tab
 created
 "
 {
-tab
+nativeTab
 }
 )
 ;
 }
 emitRemoved
 (
-tab
+nativeTab
 isWindowClosing
 )
 {
@@ -1124,7 +1124,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 browser
 .
@@ -1138,7 +1138,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 Services
@@ -1164,7 +1164,7 @@ tab
 removed
 "
 {
-tab
+nativeTab
 tabId
 windowId
 isWindowClosing
@@ -1227,7 +1227,7 @@ ownerGlobal
 )
 ;
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1238,7 +1238,7 @@ browser
 ;
 if
 (
-tab
+nativeTab
 )
 {
 result
@@ -1249,7 +1249,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1340,7 +1340,7 @@ audible
 return
 this
 .
-tab
+nativeTab
 .
 playingAudio
 ;
@@ -1353,7 +1353,7 @@ browser
 return
 this
 .
-tab
+nativeTab
 .
 browser
 ;
@@ -1369,7 +1369,7 @@ getCookieStoreIdForTab
 this
 this
 .
-tab
+nativeTab
 )
 ;
 }
@@ -1420,7 +1420,7 @@ indexOf
 (
 this
 .
-tab
+nativeTab
 )
 ;
 }
@@ -1454,7 +1454,7 @@ active
 return
 this
 .
-tab
+nativeTab
 .
 getActive
 (
@@ -1469,7 +1469,7 @@ selected
 return
 this
 .
-tab
+nativeTab
 .
 getActive
 (
@@ -1691,7 +1691,7 @@ extension
 for
 (
 let
-tab
+nativeTab
 of
 this
 .
@@ -1707,7 +1707,7 @@ tabManager
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1738,7 +1738,7 @@ undefined
 )
 {
 let
-tab
+nativeTab
 =
 tabTracker
 .
@@ -1750,7 +1750,7 @@ default_
 ;
 if
 (
-tab
+nativeTab
 )
 {
 return
@@ -1758,7 +1758,7 @@ this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1768,7 +1768,7 @@ default_
 }
 addActiveTabPermission
 (
-tab
+nativeTab
 =
 tabTracker
 .
@@ -1780,13 +1780,13 @@ super
 .
 addActiveTabPermission
 (
-tab
+nativeTab
 )
 ;
 }
 revokeActiveTabPermission
 (
-tab
+nativeTab
 =
 tabTracker
 .
@@ -1798,13 +1798,13 @@ super
 .
 revokeActiveTabPermission
 (
-tab
+nativeTab
 )
 ;
 }
 wrapTab
 (
-tab
+nativeTab
 )
 {
 return
@@ -1814,8 +1814,8 @@ Tab
 this
 .
 extension
-tab
-tab
+nativeTab
+nativeTab
 .
 id
 )

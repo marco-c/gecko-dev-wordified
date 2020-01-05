@@ -439,7 +439,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -501,7 +501,7 @@ TabBase
 constructor
 (
 extension
-tab
+nativeTab
 id
 )
 {
@@ -527,9 +527,9 @@ id
 ;
 this
 .
-tab
+nativeTab
 =
-tab
+nativeTab
 ;
 this
 .
@@ -1497,7 +1497,7 @@ contentTitle
 |
 this
 .
-tab
+nativeTab
 .
 label
 ;
@@ -6228,7 +6228,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -6260,7 +6260,7 @@ abstract
 /
 getId
 (
-tab
+nativeTab
 )
 {
 throw
@@ -9291,7 +9291,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -9306,7 +9306,7 @@ permissions
 /
 addActiveTabPermission
 (
-tab
+nativeTab
 )
 {
 if
@@ -9376,13 +9376,14 @@ permissions
 for
 it
 .
+let
 tab
 =
 this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 tab
@@ -9424,7 +9425,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -9439,14 +9440,14 @@ permissions
 /
 revokeActiveTabPermission
 (
-tab
+nativeTab
 )
 {
 this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 .
 activeTabWindowID
@@ -9488,7 +9489,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -9520,7 +9521,7 @@ tab
 /
 hasActiveTabPermission
 (
-tab
+nativeTab
 )
 {
 return
@@ -9528,7 +9529,7 @@ this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 .
 hasActiveTabPermission
@@ -9587,7 +9588,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -9618,7 +9619,7 @@ tab
 /
 hasTabPermission
 (
-tab
+nativeTab
 )
 {
 return
@@ -9626,7 +9627,7 @@ this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 .
 hasTabPermission
@@ -9671,7 +9672,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 tab
@@ -9699,7 +9700,7 @@ tab
 /
 getWrapper
 (
-tab
+nativeTab
 )
 {
 return
@@ -9709,7 +9710,7 @@ _tabs
 .
 get
 (
-tab
+nativeTab
 )
 ;
 }
@@ -9755,7 +9756,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -9773,7 +9774,7 @@ Object
 /
 convert
 (
-tab
+nativeTab
 )
 {
 return
@@ -9781,7 +9782,7 @@ this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 .
 convert
@@ -10097,7 +10098,7 @@ param
 {
 NativeTab
 }
-tab
+nativeTab
 *
 The
 native
@@ -10133,7 +10134,7 @@ jsdoc
 /
 wrapTab
 (
-tab
+nativeTab
 )
 {
 throw

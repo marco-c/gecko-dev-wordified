@@ -478,7 +478,7 @@ gBrowser
 )
 {
 let
-tab
+nativeTab
 =
 gBrowser
 .
@@ -491,14 +491,14 @@ xulBrowser
 ;
 if
 (
-tab
+nativeTab
 )
 {
 gBrowser
 .
 removeTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -594,7 +594,7 @@ browser
 ownerGlobal
 ;
 let
-tab
+nativeTab
 =
 gBrowser
 .
@@ -625,7 +625,7 @@ initializingTabs
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 /
@@ -651,7 +651,7 @@ tabReadyPromises
 .
 get
 (
-tab
+nativeTab
 )
 ;
 if
@@ -663,7 +663,7 @@ deferred
 .
 resolve
 (
-tab
+nativeTab
 )
 ;
 this
@@ -672,7 +672,7 @@ tabReadyPromises
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 }
@@ -738,7 +738,7 @@ param
 {
 XULElement
 }
-tab
+nativeTab
 The
 <
 tab
@@ -762,7 +762,7 @@ ready
 /
 awaitTabReady
 (
-tab
+nativeTab
 )
 {
 let
@@ -774,7 +774,7 @@ tabReadyPromises
 .
 get
 (
-tab
+nativeTab
 )
 ;
 if
@@ -800,19 +800,19 @@ initializingTabs
 .
 has
 (
-tab
+nativeTab
 )
 &
 &
 (
-tab
+nativeTab
 .
 linkedBrowser
 .
 innerWindowID
 |
 |
-tab
+nativeTab
 .
 linkedBrowser
 .
@@ -834,7 +834,7 @@ deferred
 .
 resolve
 (
-tab
+nativeTab
 )
 ;
 }
@@ -852,7 +852,7 @@ tabReadyPromises
 .
 set
 (
-tab
+nativeTab
 deferred
 )
 ;
@@ -974,7 +974,7 @@ awaitTabReady
 (
 tab
 .
-tab
+nativeTab
 )
 ;
 return
@@ -1010,7 +1010,7 @@ event
 >
 {
 let
-tab
+nativeTab
 =
 event
 .
@@ -1023,7 +1023,7 @@ tabTracker
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 let
@@ -1033,7 +1033,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1089,7 +1089,7 @@ convert
 (
 event
 .
-tab
+nativeTab
 )
 )
 ;
@@ -1222,7 +1222,7 @@ event
 >
 {
 let
-tab
+nativeTab
 =
 event
 .
@@ -1236,7 +1236,7 @@ tabTracker
 .
 getId
 (
-tab
+nativeTab
 )
 ]
 ;
@@ -1247,7 +1247,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1737,7 +1737,7 @@ event
 >
 {
 let
-tab
+nativeTab
 =
 event
 .
@@ -1749,7 +1749,7 @@ ignoreNextMove
 .
 has
 (
-tab
+nativeTab
 )
 )
 {
@@ -1757,7 +1757,7 @@ ignoreNextMove
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 return
@@ -1771,7 +1771,7 @@ tabTracker
 .
 getId
 (
-tab
+nativeTab
 )
 {
 windowId
@@ -1780,7 +1780,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1791,7 +1791,7 @@ event
 detail
 toIndex
 :
-tab
+nativeTab
 .
 _tPos
 }
@@ -2845,7 +2845,7 @@ initTabReady
 )
 ;
 let
-tab
+nativeTab
 =
 window
 .
@@ -2896,7 +2896,7 @@ gBrowser
 .
 selectedTab
 =
-tab
+nativeTab
 ;
 }
 if
@@ -2916,7 +2916,7 @@ gBrowser
 .
 moveTabTo
 (
-tab
+nativeTab
 createProperties
 .
 index
@@ -2936,7 +2936,7 @@ gBrowser
 .
 pinTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3049,7 +3049,7 @@ initializingTabs
 .
 add
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3058,7 +3058,7 @@ tabManager
 .
 convert
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3098,7 +3098,7 @@ tabs
 )
 {
 let
-tab
+nativeTab
 =
 tabTracker
 .
@@ -3107,7 +3107,7 @@ getTab
 tabId
 )
 ;
-tab
+nativeTab
 .
 ownerGlobal
 .
@@ -3115,7 +3115,7 @@ gBrowser
 .
 removeTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3128,7 +3128,7 @@ updateProperties
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -3138,7 +3138,7 @@ tabId
 let
 tabbrowser
 =
-tab
+nativeTab
 .
 ownerGlobal
 .
@@ -3203,7 +3203,7 @@ url
 )
 ;
 }
-tab
+nativeTab
 .
 linkedBrowser
 .
@@ -3235,7 +3235,7 @@ tabbrowser
 .
 selectedTab
 =
-tab
+nativeTab
 ;
 }
 else
@@ -3270,7 +3270,7 @@ null
 {
 if
 (
-tab
+nativeTab
 .
 muted
 !
@@ -3280,7 +3280,7 @@ updateProperties
 muted
 )
 {
-tab
+nativeTab
 .
 toggleMuteAudio
 (
@@ -3313,7 +3313,7 @@ tabbrowser
 .
 pinTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3323,7 +3323,7 @@ tabbrowser
 .
 unpinTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3341,7 +3341,7 @@ tabManager
 .
 convert
 (
-tab
+nativeTab
 )
 ;
 }
@@ -3353,7 +3353,7 @@ reloadProperties
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -3389,7 +3389,7 @@ nsIWebNavigation
 LOAD_FLAGS_BYPASS_CACHE
 ;
 }
-tab
+nativeTab
 .
 linkedBrowser
 .
@@ -3405,22 +3405,16 @@ get
 tabId
 )
 {
-let
-tab
-=
-tabTracker
-.
-getTab
-(
-tabId
-)
-;
 return
 tabManager
 .
+get
+(
+tabId
+)
+.
 convert
 (
-tab
 )
 ;
 }
@@ -3429,7 +3423,7 @@ getCurrent
 )
 {
 let
-tab
+tabData
 ;
 if
 (
@@ -3438,7 +3432,7 @@ context
 tabId
 )
 {
-tab
+tabData
 =
 tabManager
 .
@@ -3459,7 +3453,7 @@ Promise
 .
 resolve
 (
-tab
+tabData
 )
 ;
 }
@@ -3620,7 +3614,7 @@ awaitTabReady
 (
 tab
 .
-tab
+nativeTab
 )
 ;
 return
@@ -3944,7 +3938,7 @@ tabId
 for
 (
 let
-tab
+nativeTab
 of
 tabs
 )
@@ -3970,7 +3964,7 @@ window
 destinationWindow
 |
 |
-tab
+nativeTab
 .
 ownerGlobal
 ;
@@ -4098,7 +4092,7 @@ _numPinnedTabs
 let
 ok
 =
-tab
+nativeTab
 .
 pinned
 ?
@@ -4133,7 +4127,7 @@ insertionPoint
 ;
 if
 (
-tab
+nativeTab
 .
 ownerGlobal
 !
@@ -4165,13 +4159,13 @@ the
 new
 window
 .
-tab
+nativeTab
 =
 gBrowser
 .
 adoptTab
 (
-tab
+nativeTab
 insertionPoint
 false
 )
@@ -4199,7 +4193,7 @@ gBrowser
 .
 moveTabTo
 (
-tab
+nativeTab
 insertionPoint
 )
 ;
@@ -4208,7 +4202,7 @@ tabsMoved
 .
 push
 (
-tab
+nativeTab
 )
 ;
 }
@@ -4217,14 +4211,14 @@ tabsMoved
 .
 map
 (
-tab
+nativeTab
 =
 >
 tabManager
 .
 convert
 (
-tab
+nativeTab
 )
 )
 ;
@@ -4235,7 +4229,7 @@ tabId
 )
 {
 let
-tab
+nativeTab
 =
 tabTracker
 .
@@ -4247,7 +4241,7 @@ tabId
 let
 gBrowser
 =
-tab
+nativeTab
 .
 ownerGlobal
 .
@@ -4260,7 +4254,7 @@ gBrowser
 .
 duplicateTab
 (
-tab
+nativeTab
 )
 ;
 return
@@ -4367,7 +4361,7 @@ pinned
 .
 if
 (
-tab
+nativeTab
 .
 pinned
 )
@@ -4385,7 +4379,7 @@ gBrowser
 moveTabTo
 (
 newTab
-tab
+nativeTab
 .
 _tPos
 +
@@ -4459,7 +4453,7 @@ tabId
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -4471,7 +4465,7 @@ let
 ZoomManager
 }
 =
-tab
+nativeTab
 .
 ownerGlobal
 ;
@@ -4482,7 +4476,7 @@ ZoomManager
 .
 getZoomForBrowser
 (
-tab
+nativeTab
 .
 linkedBrowser
 )
@@ -4503,7 +4497,7 @@ zoom
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -4516,7 +4510,7 @@ FullZoom
 ZoomManager
 }
 =
-tab
+nativeTab
 .
 ownerGlobal
 ;
@@ -4547,7 +4541,7 @@ FullZoom
 .
 reset
 (
-tab
+nativeTab
 .
 linkedBrowser
 )
@@ -4577,7 +4571,7 @@ FullZoom
 setZoom
 (
 zoom
-tab
+nativeTab
 .
 linkedBrowser
 )
@@ -4635,7 +4629,7 @@ tabId
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -4647,7 +4641,7 @@ let
 FullZoom
 }
 =
-tab
+nativeTab
 .
 ownerGlobal
 ;
@@ -4707,7 +4701,7 @@ settings
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -4721,9 +4715,12 @@ this
 .
 _getZoomSettings
 (
-tab
+tabTracker
 .
-id
+getId
+(
+nativeTab
+)
 )
 ;
 if
@@ -4884,7 +4881,7 @@ browserWindows
 for
 (
 let
-tab
+nativeTab
 of
 window
 .
@@ -4896,7 +4893,7 @@ tabs
 let
 browser
 =
-tab
+nativeTab
 .
 linkedBrowser
 ;
@@ -4928,7 +4925,7 @@ browser
 =
 event
 .
-tab
+nativeTab
 .
 linkedBrowser
 ;
@@ -5025,7 +5022,7 @@ browser
 ownerGlobal
 ;
 let
-tab
+nativeTab
 =
 gBrowser
 .
@@ -5037,7 +5034,7 @@ browser
 if
 (
 !
-tab
+nativeTab
 )
 {
 /
@@ -5102,7 +5099,7 @@ tabTracker
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 fire
