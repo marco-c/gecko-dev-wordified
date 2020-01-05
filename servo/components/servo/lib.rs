@@ -184,7 +184,6 @@ trait
 [
 feature
 (
-libc
 thread_local
 )
 ]
