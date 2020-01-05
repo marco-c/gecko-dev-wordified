@@ -541,7 +541,7 @@ style
 }
 ;
 struct
-WRLayoutSize
+WrLayoutSize
 {
 float
 width
@@ -555,7 +555,7 @@ operator
 =
 (
 const
-WRLayoutSize
+WrLayoutSize
 &
 aRhs
 )
@@ -1537,13 +1537,13 @@ WRBorderSide
 bottom
 WRBorderSide
 left
-WRLayoutSize
+WrLayoutSize
 top_left_radius
-WRLayoutSize
+WrLayoutSize
 top_right_radius
-WRLayoutSize
+WrLayoutSize
 bottom_left_radius
-WRLayoutSize
+WrLayoutSize
 bottom_right_radius
 )
 WR_FUNC
