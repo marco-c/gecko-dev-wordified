@@ -287,11 +287,14 @@ pipeline_id
 :
 PipelineId
 pub
-subpage_id
+parent
 :
 Option
 <
+(
+PipelineId
 SubpageId
+)
 >
 }
 #
