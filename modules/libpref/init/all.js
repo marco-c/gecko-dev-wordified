@@ -3134,7 +3134,7 @@ media
 .
 cache_resume_threshold
 "
-999999
+30
 )
 ;
 /
@@ -3184,7 +3184,7 @@ media
 .
 cache_readahead_limit
 "
-999999
+60
 )
 ;
 /
