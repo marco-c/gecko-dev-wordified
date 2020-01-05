@@ -5269,7 +5269,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-gFxAccounts
+gSync
 "
 remoteClients
 "
@@ -5281,7 +5281,7 @@ Object
 .
 defineProperty
 (
-gFxAccounts
+gSync
 "
 remoteClients
 "
@@ -5311,7 +5311,7 @@ Object
 .
 defineProperty
 (
-gFxAccounts
+gSync
 "
 remoteClients
 "

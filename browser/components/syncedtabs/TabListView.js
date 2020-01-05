@@ -1543,7 +1543,7 @@ this
 _window
 )
 .
-gSyncUI
+gSync
 .
 formatLastSyncDate
 (
