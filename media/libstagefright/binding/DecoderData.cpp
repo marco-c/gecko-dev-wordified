@@ -1381,7 +1381,7 @@ MOZ_ASSERT
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 data
 )
@@ -1391,7 +1391,7 @@ MOZ_ASSERT
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 length
 >
@@ -1410,7 +1410,7 @@ readUint16
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 data
 +
@@ -1594,7 +1594,7 @@ if
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 length
 >
@@ -1609,13 +1609,13 @@ AppendElements
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 data
 audio
 -
 >
-codec_specific_config
+extra_data
 .
 length
 )
@@ -1626,7 +1626,7 @@ if
 audio
 -
 >
-codec_specific_data
+codec_specific_config
 .
 length
 >
@@ -1641,13 +1641,13 @@ AppendElements
 audio
 -
 >
-codec_specific_data
+codec_specific_config
 .
 data
 audio
 -
 >
-codec_specific_data
+codec_specific_config
 .
 length
 )
