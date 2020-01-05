@@ -1687,6 +1687,14 @@ sidebarBroadcaster
 id
 )
 ;
+this
+.
+lastOpenedId
+=
+sidebarBroadcaster
+.
+id
+;
 let
 title
 =
