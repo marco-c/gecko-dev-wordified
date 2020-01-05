@@ -2246,15 +2246,6 @@ expiration
 default
 "
 and
-\
-           
-whitelists
-is
-not
-None
-and
-\
-           
 name
 not
 in
@@ -4332,6 +4323,7 @@ def
 load_histograms_into_dict
 (
 ordered_pairs
+strict_type_checks
 )
 :
     
@@ -4351,6 +4343,8 @@ ordered_pairs
 :
         
 if
+strict_type_checks
+and
 key
 in
 d
@@ -4432,6 +4426,7 @@ def
 from_Histograms_json
 (
 filename
+strict_type_checks
 )
 :
     
@@ -4450,6 +4445,20 @@ f
 try
 :
             
+def
+hook
+(
+ps
+)
+:
+                
+return
+load_histograms_into_dict
+(
+ps
+strict_type_checks
+)
+            
 histograms
 =
 json
@@ -4459,7 +4468,7 @@ load
 f
 object_pairs_hook
 =
-load_histograms_into_dict
+hook
 )
         
 except
@@ -4496,6 +4505,7 @@ def
 from_UseCounters_conf
 (
 filename
+strict_type_checks
 )
 :
     
@@ -4510,6 +4520,7 @@ def
 from_nsDeprecatedOperationList
 (
 filename
+strict_type_checks
 )
 :
     
@@ -4739,6 +4750,9 @@ def
 from_files
 (
 filenames
+strict_type_checks
+=
+True
 )
 :
     
@@ -4797,6 +4811,7 @@ histograms
 parser
 (
 filename
+strict_type_checks
 )
         
 #
@@ -5154,5 +5169,5 @@ name
 definition
 strict_type_checks
 =
-True
+strict_type_checks
 )
