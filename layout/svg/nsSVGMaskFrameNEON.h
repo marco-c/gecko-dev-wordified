@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__LUMINANCENEON_H__
+__NS_SVGMASKFRAMENEON_H__
 #
 define
-__LUMINANCENEON_H__
+__NS_SVGMASKFRAMENEON_H__
 #
 include
 "
@@ -142,6 +142,6 @@ aOpacity
 endif
 /
 *
-__LUMINANCENEON_H__
+__NS_SVGMASKFRAMENEON_H__
 *
 /
