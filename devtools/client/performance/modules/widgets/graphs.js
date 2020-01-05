@@ -310,9 +310,6 @@ line
 graphs
 *
 /
-/
-/
-px
 const
 HEIGHT
 =
@@ -326,6 +323,9 @@ STROKE_WIDTH
 =
 1
 ;
+/
+/
+px
 const
 DAMPEN_VALUES
 =
@@ -385,9 +385,6 @@ timeline
 overview
 *
 /
-/
-/
-px
 const
 MARKERS_GRAPH_HEADER_HEIGHT
 =
@@ -409,6 +406,9 @@ MARKERS_GROUP_VERTICAL_PADDING
 =
 4
 ;
+/
+/
+px
 /
 *
 *

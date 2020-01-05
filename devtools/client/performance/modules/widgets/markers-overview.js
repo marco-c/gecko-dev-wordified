@@ -267,9 +267,6 @@ markers
 "
 )
 ;
-/
-/
-px
 const
 OVERVIEW_HEADER_HEIGHT
 =
@@ -283,6 +280,9 @@ OVERVIEW_ROW_HEIGHT
 =
 11
 ;
+/
+/
+px
 const
 OVERVIEW_SELECTION_LINE_COLOR
 =
@@ -299,9 +299,6 @@ OVERVIEW_CLIPHEAD_LINE_COLOR
 555
 "
 ;
-/
-/
-ms
 const
 OVERVIEW_HEADER_TICKS_MULTIPLE
 =
@@ -309,7 +306,7 @@ OVERVIEW_HEADER_TICKS_MULTIPLE
 ;
 /
 /
-px
+ms
 const
 OVERVIEW_HEADER_TICKS_SPACING_MIN
 =
@@ -323,6 +320,9 @@ OVERVIEW_HEADER_TEXT_FONT_SIZE
 =
 9
 ;
+/
+/
+px
 const
 OVERVIEW_HEADER_TEXT_FONT_FAMILY
 =
@@ -332,9 +332,6 @@ sans
 serif
 "
 ;
-/
-/
-px
 const
 OVERVIEW_HEADER_TEXT_PADDING_LEFT
 =
@@ -364,6 +361,9 @@ OVERVIEW_GROUP_VERTICAL_PADDING
 =
 5
 ;
+/
+/
+px
 /
 *
 *

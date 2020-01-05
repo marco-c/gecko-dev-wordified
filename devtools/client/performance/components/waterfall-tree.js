@@ -125,9 +125,7 @@ row
 ;
 /
 /
-px
--
-keep
+Keep
 in
 sync
 with
@@ -152,6 +150,9 @@ WATERFALL_TREE_ROW_HEIGHT
 =
 15
 ;
+/
+/
+px
 /
 *
 *

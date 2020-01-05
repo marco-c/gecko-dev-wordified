@@ -78,14 +78,14 @@ constants
 "
 )
 ;
-/
-/
-ms
 const
 REQUESTS_REFRESH_RATE
 =
 50
 ;
+/
+/
+ms
 /
 *
 *

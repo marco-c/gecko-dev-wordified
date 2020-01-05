@@ -121,9 +121,6 @@ utils
 "
 )
 ;
-/
-/
-px
 const
 LEVEL_INDENT
 =
@@ -146,6 +143,9 @@ WATERFALL_MARKER_TIMEBAR_WIDTH_MIN
 =
 5
 ;
+/
+/
+px
 function
 buildMarkerSidebar
 (

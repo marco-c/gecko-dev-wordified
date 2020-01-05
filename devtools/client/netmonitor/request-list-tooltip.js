@@ -118,9 +118,6 @@ utils
 "
 )
 ;
-/
-/
-px
 const
 REQUESTS_TOOLTIP_IMAGE_MAX_DIM
 =
@@ -134,6 +131,9 @@ REQUESTS_TOOLTIP_STACK_TRACE_WIDTH
 =
 600
 ;
+/
+/
+px
 const
 HTML_NS
 =

@@ -2604,13 +2604,6 @@ temporary
 /
 )
 ;
-/
-/
-eslint
--
-disable
--
-line
 }
 /
 *

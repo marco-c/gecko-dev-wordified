@@ -273,11 +273,6 @@ Services
 appinfo
 .
 PROCESS_TYPE_CONTENT
-/
-*
-XPCShell
-*
-/
 |
 |
 Services
@@ -289,6 +284,11 @@ ID
 =
 =
 undefined
+/
+*
+XPCShell
+*
+/
 |
 |
 Services

@@ -34,16 +34,6 @@ strict
 ;
 /
 /
-eslint
--
-disable
-no
--
-inline
--
-comments
-/
-/
 Test
 basic
 functionality

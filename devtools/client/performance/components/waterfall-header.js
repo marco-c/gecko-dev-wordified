@@ -142,9 +142,6 @@ ticks
 "
 )
 ;
-/
-/
-ms
 const
 WATERFALL_HEADER_TICKS_MULTIPLE
 =
@@ -152,7 +149,7 @@ WATERFALL_HEADER_TICKS_MULTIPLE
 ;
 /
 /
-px
+ms
 const
 WATERFALL_HEADER_TICKS_SPACING_MIN
 =
@@ -166,6 +163,9 @@ WATERFALL_HEADER_TEXT_PADDING
 =
 3
 ;
+/
+/
+px
 function
 WaterfallHeader
 (
