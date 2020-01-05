@@ -3768,9 +3768,7 @@ dtOptions
 year
 :
 "
-2
--
-digit
+numeric
 "
 month
 :
