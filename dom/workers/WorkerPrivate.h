@@ -3551,6 +3551,9 @@ WorkerHolder
 >
 mHolders
 ;
+uint32_t
+mNumHoldersPreventingShutdownStart
+;
 nsTArray
 <
 nsAutoPtr
