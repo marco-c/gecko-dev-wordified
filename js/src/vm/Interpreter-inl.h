@@ -3629,7 +3629,7 @@ JSContext
 cx
 JSOp
 op
-MutableHandleValue
+HandleValue
 lref
 HandleValue
 rref

@@ -9752,9 +9752,13 @@ _
 (
 MixPolicy
 <
-ObjectPolicy
+BoxExceptPolicy
 <
 0
+MIRType
+:
+:
+Object
 >
 CacheIdPolicy
 <

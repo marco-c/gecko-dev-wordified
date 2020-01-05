@@ -6565,7 +6565,6 @@ GetElementOperation
 (
 cx
 op
-&
 lhsCopy
 rhs
 res

@@ -1599,6 +1599,15 @@ bool
 useConstant
 )
 ;
+inline
+LBoxAllocation
+useBoxOrTyped
+(
+MDefinition
+*
+mir
+)
+;
 /
 /
 Returns

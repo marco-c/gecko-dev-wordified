@@ -3406,8 +3406,8 @@ LInstruction
 ins
 LiveRegisterSet
 liveRegs
-Register
-objReg
+TypedOrValueRegister
+value
 const
 ConstantOrRegister
 &
