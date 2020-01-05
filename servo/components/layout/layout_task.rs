@@ -579,10 +579,7 @@ parser
 PseudoElement
 ;
 use
-serde
-:
-:
-json
+serde_json
 ;
 use
 std
@@ -7967,7 +7964,7 @@ println
 {
 }
 "
-json
+serde_json
 :
 :
 to_string_pretty

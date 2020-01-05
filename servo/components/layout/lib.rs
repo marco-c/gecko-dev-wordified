@@ -324,6 +324,10 @@ serde
 ;
 extern
 crate
+serde_json
+;
+extern
+crate
 smallvec
 ;
 extern
