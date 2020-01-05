@@ -5312,11 +5312,6 @@ mLinkHandler
 ;
 ParagraphSeparator
 mDefaultParagraphSeparator
-=
-ParagraphSeparator
-:
-:
-div
 ;
 public
 :

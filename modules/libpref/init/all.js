@@ -13940,6 +13940,16 @@ offset
 0
 )
 ;
+pref
+(
+"
+editor
+.
+use_div_for_default_newlines
+"
+true
+)
+;
 /
 /
 Scripts
