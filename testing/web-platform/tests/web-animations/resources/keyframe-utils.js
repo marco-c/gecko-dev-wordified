@@ -3004,7 +3004,9 @@ offset
 5
 computedOffset
 :
-1
+0
+.
+5
 easing
 :
 "
