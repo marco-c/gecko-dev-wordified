@@ -1046,10 +1046,6 @@ Init
 mParams
 )
 ;
-mAudioSinkPromise
-.
-Begin
-(
 mEndPromise
 -
 >
@@ -1073,6 +1069,11 @@ AudioSinkWrapper
 :
 OnAudioEnded
 )
+-
+>
+Track
+(
+mAudioSinkPromise
 )
 ;
 }

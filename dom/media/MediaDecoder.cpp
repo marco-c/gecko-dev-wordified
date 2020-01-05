@@ -4046,10 +4046,6 @@ mSeekDOMPromise
 =
 aPromise
 ;
-mSeekRequest
-.
-Begin
-(
 mDecoderStateMachine
 -
 >
@@ -4080,6 +4076,11 @@ MediaDecoder
 :
 OnSeekRejected
 )
+-
+>
+Track
+(
+mSeekRequest
 )
 ;
 }

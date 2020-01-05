@@ -1180,10 +1180,6 @@ AppendElement
 aSample
 )
 ;
-mInitPromiseRequest
-.
-Begin
-(
 mDecoder
 -
 >
@@ -1218,6 +1214,11 @@ H264Converter
 :
 OnDecoderInitFailed
 )
+-
+>
+Track
+(
+mInitPromiseRequest
 )
 ;
 return

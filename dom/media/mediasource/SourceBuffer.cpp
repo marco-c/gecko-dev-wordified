@@ -1737,10 +1737,6 @@ self
 =
 this
 ;
-mPendingRemoval
-.
-Begin
-(
 mTrackBuffersManager
 -
 >
@@ -1808,6 +1804,11 @@ false
 ;
 }
 )
+-
+>
+Track
+(
+mPendingRemoval
 )
 ;
 }
@@ -2512,10 +2513,6 @@ StartUpdating
 (
 )
 ;
-mPendingAppend
-.
-Begin
-(
 mTrackBuffersManager
 -
 >
@@ -2547,6 +2544,11 @@ SourceBuffer
 :
 AppendDataErrored
 )
+-
+>
+Track
+(
+mPendingAppend
 )
 ;
 }

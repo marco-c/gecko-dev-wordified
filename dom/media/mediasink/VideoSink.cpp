@@ -1059,10 +1059,6 @@ self
 =
 this
 ;
-mVideoSinkEndRequest
-.
-Begin
-(
 p
 -
 >
@@ -1168,6 +1164,11 @@ MaybeResolveEndPromise
 ;
 }
 )
+-
+>
+Track
+(
+mVideoSinkEndRequest
 )
 ;
 }

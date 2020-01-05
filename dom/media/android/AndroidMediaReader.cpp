@@ -2400,10 +2400,6 @@ self
 =
 this
 ;
-mSeekRequest
-.
-Begin
-(
 DecodeToFirstVideoData
 (
 )
@@ -2515,6 +2511,11 @@ __func__
 ;
 }
 )
+-
+>
+Track
+(
+mSeekRequest
 )
 ;
 }
