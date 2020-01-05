@@ -37403,18 +37403,6 @@ member
 .
 defaultValue
                                          
-failureCode
-=
-"
-return
-Err
-(
-(
-)
-)
-;
-"
-                                         
 exceptionCode
 =
 "
