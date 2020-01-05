@@ -1843,6 +1843,13 @@ stop
 experimentName
 false
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 }
