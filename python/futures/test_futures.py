@@ -16,6 +16,8 @@ import
 re
 import
 time
+import
+gc
 from
 StringIO
 import
@@ -1495,6 +1497,12 @@ _threads
 del
 executor
         
+gc
+.
+collect
+(
+)
+        
 for
 t
 in
@@ -1726,6 +1734,12 @@ _processes
         
 del
 executor
+        
+gc
+.
+collect
+(
+)
         
 queue_management_thread
 .
@@ -3700,6 +3714,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 pending
@@ -3729,6 +3745,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 running
@@ -3758,6 +3776,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 cancelled
@@ -3787,6 +3807,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 cancelled
@@ -3817,6 +3839,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 finished
@@ -3849,6 +3873,8 @@ at
 f
 ]
 +
+L
+?
 state
 =
 finished
