@@ -4329,6 +4329,9 @@ RawGeckoPresContext
 RawGeckoPresContextOwned
 "
 "
+RawGeckoStyleAnimationList
+"
+"
 GeckoParserExtraData
 "
 "
@@ -4657,6 +4660,9 @@ RawServoDeclarationBlockStrong
 "
 "
 RawGeckoPresContext
+"
+"
+RawGeckoStyleAnimationList
 "
 ]
 ;
