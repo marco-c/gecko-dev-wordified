@@ -1326,8 +1326,6 @@ Require
 spaces
 around
 operators
-/
-/
 "
 space
 -
@@ -1336,9 +1334,18 @@ infix
 ops
 "
 :
+[
 "
 error
 "
+{
+"
+int32Hint
+"
+:
+true
+}
+]
 /
 /
 +
