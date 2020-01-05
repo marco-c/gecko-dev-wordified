@@ -334,6 +334,11 @@ UnscaledFontFontconfig
 aUnscaledFont
 Float
 aSize
+NativeFontResource
+*
+aNativeFontResource
+=
+nullptr
 )
 ;
 FcPattern
