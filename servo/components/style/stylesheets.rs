@@ -113,6 +113,7 @@ parser
 :
 {
 ParserContext
+ParserContextExtraData
 log_css_error
 }
 ;
@@ -631,6 +632,9 @@ ParseErrorReporter
 +
 Send
 >
+extra_data
+:
+ParserContextExtraData
 )
 -
 >
@@ -683,6 +687,7 @@ protocol_encoding_label
 environment_encoding
 origin
 error_reporter
+extra_data
 )
 }
 pub
@@ -722,6 +727,9 @@ ParseErrorReporter
 +
 Send
 >
+extra_data
+:
+ParserContextExtraData
 )
 -
 >
@@ -767,6 +775,7 @@ string
 base_url
 origin
 error_reporter
+extra_data
 )
 }
 pub
@@ -791,6 +800,9 @@ ParseErrorReporter
 +
 Send
 >
+extra_data
+:
+ParserContextExtraData
 )
 -
 >
@@ -809,7 +821,7 @@ context
 ParserContext
 :
 :
-new
+new_with_extra_data
 (
 origin
 &
@@ -819,6 +831,7 @@ error_reporter
 clone
 (
 )
+extra_data
 )
 state
 :

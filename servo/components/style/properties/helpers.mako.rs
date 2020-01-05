@@ -406,7 +406,10 @@ use
 parser
 :
 :
+{
 ParserContext
+ParserContextExtraData
+}
 ;
 use
 properties
