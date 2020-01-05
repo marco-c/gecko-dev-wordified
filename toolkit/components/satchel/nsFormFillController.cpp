@@ -3091,7 +3091,7 @@ rv
 ;
 Nullable
 <
-int32_t
+uint32_t
 >
 end
 =
