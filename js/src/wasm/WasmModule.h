@@ -906,6 +906,8 @@ const
 uint8_t
 *
 compiledBegin
+size_t
+remain
 )
 ;
 static
