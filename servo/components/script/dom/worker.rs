@@ -1151,11 +1151,15 @@ upcast
 (
 )
 .
-fire_simple_event
+fire_event
+(
+atom
+!
 (
 "
 error
 "
+)
 )
 ;
 }
