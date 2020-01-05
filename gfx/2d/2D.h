@@ -212,6 +212,15 @@ GenericRefCounted
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 /
 /
 This

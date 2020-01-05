@@ -108,6 +108,13 @@ cstdlib
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
