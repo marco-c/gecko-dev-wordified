@@ -987,6 +987,7 @@ of
 EditorBase
 interface
 methods
+virtual
 nsresult
 EndUpdateViewBatch
 (
@@ -3219,6 +3220,7 @@ bool
 aDoDeleteSelection
 )
 ;
+virtual
 nsresult
 InsertFromDataTransfer
 (
