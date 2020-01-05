@@ -142,6 +142,11 @@ animation_direction
 computed_value
 :
 :
+single_value
+:
+:
+T
+as
 AnimationDirection
 ;
 use
@@ -172,6 +177,11 @@ animation_play_state
 computed_value
 :
 :
+single_value
+:
+:
+T
+as
 AnimationPlayState
 ;
 use
@@ -3007,6 +3017,8 @@ get
 (
 &
 name
+.
+0
 )
 {
 debug
@@ -3262,6 +3274,8 @@ Keyframes
 (
 node
 name
+.
+0
 .
 clone
 (
@@ -3757,6 +3771,8 @@ name
 =
 =
 animation_name
+.
+0
 )
 ;
 let
