@@ -96,7 +96,6 @@ constellation_msg
 :
 :
 {
-AnimationState
 ConstellationChan
 PipelineId
 }
@@ -105,9 +104,12 @@ use
 script_traits
 :
 :
+{
+AnimationState
 LayoutMsg
 as
 ConstellationMsg
+}
 ;
 use
 std

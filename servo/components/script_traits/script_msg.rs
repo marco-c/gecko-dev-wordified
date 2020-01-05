@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+AnimationState
+;
+use
 DocumentState
 ;
 use
@@ -109,9 +112,8 @@ constellation_msg
 :
 :
 {
-AnimationState
-NavigationDirection
 Failure
+NavigationDirection
 PipelineId
 }
 ;
