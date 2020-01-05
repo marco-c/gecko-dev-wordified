@@ -83,10 +83,14 @@ False
              
 comments
 =
+(
 '
 ;
+'
+'
 #
 '
+)
 separators
 =
 (
@@ -332,12 +336,19 @@ comment
 lines
         
 if
+any
+(
 stripped
-[
-0
-]
+.
+startswith
+(
+c
+)
+for
+c
 in
 comments
+)
 :
             
 continue
