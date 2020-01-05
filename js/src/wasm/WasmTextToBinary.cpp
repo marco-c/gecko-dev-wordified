@@ -10779,6 +10779,14 @@ exprs
 ;
 if
 (
+!
+result
+)
+return
+nullptr
+;
+if
+(
 op
 =
 =
