@@ -327,6 +327,14 @@ c_str
 }
 if
 (
+gfxPrefs
+:
+:
+WebRenderOMTAEnabled
+(
+)
+&
+&
 GetAnimations
 (
 )
