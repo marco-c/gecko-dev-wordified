@@ -759,7 +759,7 @@ supports
 )
 SERVO_BINDING_FUNC
 (
-Servo_CSSSupports
+Servo_CSSSupports2
 bool
 const
 nsACString
@@ -769,6 +769,15 @@ const
 nsACString
 *
 value
+)
+SERVO_BINDING_FUNC
+(
+Servo_CSSSupports
+bool
+const
+nsACString
+*
+cond
 )
 /
 /
