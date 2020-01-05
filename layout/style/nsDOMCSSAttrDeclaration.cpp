@@ -476,11 +476,6 @@ mElement
 SetSMILOverrideStyleDeclaration
 (
 aDecl
--
->
-AsGecko
-(
-)
 true
 )
 :

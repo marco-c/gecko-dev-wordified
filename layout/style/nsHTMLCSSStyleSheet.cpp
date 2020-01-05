@@ -494,8 +494,6 @@ content
 s
 STYLE
 attribute
-if
-(
 DeclarationBlock
 *
 declaration
@@ -506,6 +504,10 @@ aElement
 GetInlineStyleDeclaration
 (
 )
+;
+if
+(
+declaration
 )
 {
 declaration
@@ -529,11 +531,6 @@ AsGecko
 )
 ;
 }
-css
-:
-:
-Declaration
-*
 declaration
 =
 aElement
@@ -649,6 +646,11 @@ aRuleWalker
 Forward
 (
 declaration
+-
+>
+AsGecko
+(
+)
 )
 ;
 }

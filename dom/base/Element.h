@@ -1512,10 +1512,7 @@ null
 *
 /
 virtual
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 GetSMILOverrideStyleDeclaration
 (
@@ -1566,10 +1563,7 @@ virtual
 nsresult
 SetSMILOverrideStyleDeclaration
 (
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDeclaration
 bool
