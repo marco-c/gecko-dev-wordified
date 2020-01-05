@@ -301,6 +301,7 @@ function
 setupStore
 (
 input
+hud
 )
 {
 const
@@ -308,6 +309,7 @@ store
 =
 configureStore
 (
+hud
 )
 ;
 /
