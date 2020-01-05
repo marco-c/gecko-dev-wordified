@@ -3225,6 +3225,12 @@ nsACString
 aKey
 )
 {
+MutexAutoLock
+captureStackMutex
+(
+mStackCapturerMutex
+)
+;
 /
 /
 Check
@@ -3512,12 +3518,6 @@ new
 stack
 info
 .
-MutexAutoLock
-captureStackMutex
-(
-mStackCapturerMutex
-)
-;
 size_t
 stackIndex
 =
