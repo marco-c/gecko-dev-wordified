@@ -487,9 +487,6 @@ from_ref
 (
 owner
 )
-pseudo
-:
-pseudo
 readonly
 :
 modification_access
@@ -499,6 +496,9 @@ CSSModificationAccess
 :
 :
 Readonly
+pseudo
+:
+pseudo
 }
 }
 pub
