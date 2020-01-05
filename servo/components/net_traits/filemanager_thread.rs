@@ -823,6 +823,10 @@ SelectedFile
 >
 >
 FileOrigin
+Option
+<
+String
+>
 )
 /
 /
@@ -852,6 +856,13 @@ SelectedFile
 >
 >
 FileOrigin
+Option
+<
+Vec
+<
+String
+>
+>
 )
 /
 /
