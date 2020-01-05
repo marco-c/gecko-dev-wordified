@@ -477,6 +477,10 @@ name
 :
 ~
 str
+lower_name
+:
+~
+str
 namespace
 :
 Option
@@ -2752,6 +2756,13 @@ AttrSelector
 namespace
 :
 namespace
+lower_name
+:
+local_name
+.
+to_ascii_lower
+(
+)
 name
 :
 local_name
