@@ -326,7 +326,6 @@ boxModelContainer
 this
 .
 boxModelContainer
-setSelectedNode
 ref
 :
 boxModelMain
@@ -343,7 +342,6 @@ boxModelMain
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
-onShowBoxModelHighlighterForNode
 }
 )
 BoxModelInfo
@@ -359,6 +357,9 @@ BoxModelProperties
 (
 {
 boxModel
+setSelectedNode
+onHideBoxModelHighlighter
+onShowBoxModelHighlighterForNode
 }
 )
 :
