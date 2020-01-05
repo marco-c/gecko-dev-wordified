@@ -348,6 +348,7 @@ WebAuthentication
 )
 public
 :
+explicit
 WebAuthentication
 (
 nsPIDOMWindowInner
