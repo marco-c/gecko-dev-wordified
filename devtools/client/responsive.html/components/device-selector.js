@@ -157,6 +157,13 @@ PropTypes
 string
 .
 isRequired
+viewportId
+:
+PropTypes
+.
+number
+.
+isRequired
 onChangeDevice
 :
 PropTypes
@@ -171,7 +178,7 @@ PropTypes
 func
 .
 isRequired
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 :
 PropTypes
 .
@@ -196,9 +203,10 @@ target
 let
 {
 devices
+viewportId
 onChangeDevice
 onResizeViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 =
 this
@@ -216,9 +224,10 @@ value
 OPEN_DEVICE_MODAL_VALUE
 )
 {
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 (
 true
+viewportId
 )
 ;
 return
@@ -271,6 +280,7 @@ height
 onChangeDevice
 (
 device
+type
 )
 ;
 return

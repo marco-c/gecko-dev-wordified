@@ -219,7 +219,7 @@ PropTypes
 func
 .
 isRequired
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 :
 PropTypes
 .
@@ -243,7 +243,7 @@ onContentResize
 onRemoveDevice
 onResizeViewport
 onRotateViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 =
 this
@@ -298,7 +298,7 @@ onContentResize
 onRemoveDevice
 onResizeViewport
 onRotateViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 )
 ;

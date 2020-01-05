@@ -438,11 +438,10 @@ Update
 the
 device
 modal
-open
 state
 .
 "
-UPDATE_DEVICE_MODAL_OPEN
+UPDATE_DEVICE_MODAL
 "
 ]
 module

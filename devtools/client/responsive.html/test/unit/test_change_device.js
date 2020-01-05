@@ -247,6 +247,9 @@ Firefox
 OS
 Flame
 "
+"
+phones
+"
 )
 )
 ;

@@ -271,7 +271,7 @@ PropTypes
 func
 .
 isRequired
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 :
 PropTypes
 .
@@ -763,7 +763,7 @@ onChangeDevice
 onContentResize
 onResizeViewport
 onRotateViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 =
 this
@@ -840,15 +840,11 @@ ViewportToolbar
 (
 {
 devices
-selectedDevice
-:
 viewport
-.
-device
 onChangeDevice
 onResizeViewport
 onRotateViewport
-onUpdateDeviceModalOpen
+onUpdateDeviceModal
 }
 )
 dom
