@@ -3365,6 +3365,11 @@ whitelist_vars
 =
 [
 "
+NS_AUTHOR_SPECIFIED_
+.
+*
+"
+"
 NS_THEME_
 .
 *
