@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

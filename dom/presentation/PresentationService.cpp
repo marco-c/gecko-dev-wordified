@@ -4166,7 +4166,7 @@ to
 dispatch
 /
 /
-PresentationConnectionClosedEvent
+PresentationConnectionCloseEvent
 if
 the
 page

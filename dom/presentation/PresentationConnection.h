@@ -165,7 +165,7 @@ mozilla
 /
 dom
 /
-PresentationConnectionClosedEventBinding
+PresentationConnectionCloseEventBinding
 .
 h
 "
@@ -471,7 +471,7 @@ aReason
 )
 ;
 nsresult
-DispatchConnectionClosedEvent
+DispatchConnectionCloseEvent
 (
 PresentationConnectionClosedReason
 aReason
