@@ -17324,14 +17324,6 @@ aURL
 )
 const
 ;
-bool
-PrerenderHref
-(
-nsIURI
-*
-aHref
-)
-;
 protected
 :
 bool

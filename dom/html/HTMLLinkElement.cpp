@@ -803,7 +803,7 @@ IsInComposedDoc
 )
 )
 {
-TryDNSPrefetchPreconnectOrPrefetchOrPrerender
+TryDNSPrefetchPreconnectOrPrefetch
 (
 )
 ;
@@ -2115,7 +2115,7 @@ IsInComposedDoc
 )
 )
 {
-TryDNSPrefetchPreconnectOrPrefetchOrPrerender
+TryDNSPrefetchPreconnectOrPrefetch
 (
 )
 ;
