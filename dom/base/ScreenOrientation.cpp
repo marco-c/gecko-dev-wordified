@@ -1769,8 +1769,10 @@ accepted
 if
 (
 aIsFullScreen
-&
-&
+)
+{
+if
+(
 !
 mFullScreenListener
 )
@@ -1782,6 +1784,7 @@ FullScreenEventListener
 (
 )
 ;
+}
 aRv
 =
 target
