@@ -13460,6 +13460,11 @@ tag
 niceName
 (
 )
+tag
+.
+sandboxScript
+(
+)
 )
 )
 ;
@@ -14632,6 +14637,12 @@ tag
 -
 >
 GetNiceFileName
+(
+)
+tag
+-
+>
+SandboxScript
 (
 )
 )
