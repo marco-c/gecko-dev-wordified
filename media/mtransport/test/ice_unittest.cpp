@@ -441,11 +441,11 @@ char
 *
 )
 "
-global
-.
 stun
 .
-twilio
+l
+.
+google
 .
 com
 "
@@ -477,7 +477,7 @@ const
 uint16_t
 kDefaultStunServerPort
 =
-3478
+19305
 ;
 const
 std
