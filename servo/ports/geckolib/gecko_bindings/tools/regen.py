@@ -1044,6 +1044,26 @@ LayerType
 "
             
 "
+nsStyleUnit
+"
+"
+nsStyleUnion
+"
+"
+nsStyleCoord
+:
+:
+CalcValue
+"
+            
+"
+nsStyleCoord
+:
+:
+Calc
+"
+            
+"
 SheetParsingMode
 "
 "
