@@ -107,9 +107,8 @@ azure_hl
 :
 :
 {
-Matrix5x4
-TableTransferAttribute
-TableTransferInput
+GaussianBlurAttribute
+GaussianBlurInput
 }
 ;
 use
@@ -120,8 +119,9 @@ azure_hl
 :
 :
 {
-GaussianBlurAttribute
-GaussianBlurInput
+Matrix5x4
+TableTransferAttribute
+TableTransferInput
 }
 ;
 use

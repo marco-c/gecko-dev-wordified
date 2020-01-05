@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-syntax
-:
-:
-ast
-;
-use
 rustc
 :
 :
@@ -83,6 +77,12 @@ middle
 :
 :
 ty
+;
+use
+syntax
+:
+:
+ast
 ;
 declare_lint
 !

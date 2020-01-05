@@ -69,12 +69,6 @@ Moz2D
 Azure
 .
 use
-gfx_traits
-:
-:
-color
-;
-use
 display_list
 :
 :
@@ -114,6 +108,12 @@ font_context
 :
 :
 FontContext
+;
+use
+gfx_traits
+:
+:
+color
 ;
 use
 text

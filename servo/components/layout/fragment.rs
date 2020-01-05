@@ -170,6 +170,9 @@ Size2D
 ;
 use
 gfx
+;
+use
+gfx
 :
 :
 display_list
@@ -206,9 +209,6 @@ text_run
 TextRun
 TextRunSlice
 }
-;
-use
-gfx
 ;
 use
 ipc_channel
@@ -426,6 +426,9 @@ Url
 ;
 use
 util
+;
+use
+util
 :
 :
 geometry
@@ -470,9 +473,6 @@ str
 is_whitespace
 slice_chars
 }
-;
-use
-util
 ;
 /
 /

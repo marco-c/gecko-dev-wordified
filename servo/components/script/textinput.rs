@@ -98,10 +98,8 @@ constellation_msg
 :
 :
 {
-SHIFT
-CONTROL
-ALT
-SUPER
+Key
+KeyModifiers
 }
 ;
 use
@@ -112,8 +110,10 @@ constellation_msg
 :
 :
 {
-Key
-KeyModifiers
+SHIFT
+CONTROL
+ALT
+SUPER
 }
 ;
 use

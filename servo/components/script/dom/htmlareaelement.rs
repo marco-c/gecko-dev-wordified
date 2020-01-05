@@ -111,10 +111,7 @@ codegen
 InheritTypes
 :
 :
-{
-HTMLAreaElementDerived
-HTMLElementCast
-}
+ElementCast
 ;
 use
 dom
@@ -129,7 +126,10 @@ codegen
 InheritTypes
 :
 :
-ElementCast
+{
+HTMLAreaElementDerived
+HTMLElementCast
+}
 ;
 use
 dom

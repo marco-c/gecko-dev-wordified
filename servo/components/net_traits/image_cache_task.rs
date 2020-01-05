@@ -78,12 +78,6 @@ IpcSender
 }
 ;
 use
-url
-:
-:
-Url
-;
-use
 std
 :
 :
@@ -91,6 +85,12 @@ sync
 :
 :
 Arc
+;
+use
+url
+:
+:
+Url
 ;
 use
 util

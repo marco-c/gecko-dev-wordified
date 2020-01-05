@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+browser
+:
+:
+ServoCefBrowserExtensions
+;
+use
 eutil
 :
 :
@@ -82,12 +88,6 @@ types
 cef_string_t
 cef_string_userfree_t
 }
-;
-use
-browser
-:
-:
-ServoCefBrowserExtensions
 ;
 use
 compositing

@@ -84,6 +84,9 @@ window
 init_window
 ;
 use
+browser
+;
+use
 libc
 :
 :
@@ -92,12 +95,6 @@ c_char
 c_int
 c_void
 }
-;
-use
-util
-:
-:
-opts
 ;
 use
 std
@@ -112,7 +109,10 @@ std
 str
 ;
 use
-browser
+util
+:
+:
+opts
 ;
 const
 MAX_RENDERING_THREADS

@@ -437,6 +437,12 @@ MarginCollapseInfo
 }
 ;
 use
+multicol
+:
+:
+MulticolFlow
+;
+use
 parallel
 :
 :
@@ -487,12 +493,6 @@ table_wrapper
 :
 :
 TableWrapperFlow
-;
-use
-multicol
-:
-:
-MulticolFlow
 ;
 use
 wrapper

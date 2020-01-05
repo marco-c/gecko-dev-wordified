@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-syntax
-:
-:
-ast
-;
-use
 rustc
 :
 :
@@ -74,6 +68,12 @@ Context
 LintPass
 LintArray
 }
+;
+use
+syntax
+:
+:
+ast
 ;
 use
 utils
