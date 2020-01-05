@@ -18325,6 +18325,16 @@ mWidths
 mozilla
 :
 :
+Array
+<
+uint8_t
+4
+>
+mBorderStyles
+;
+mozilla
+:
+:
 LayerRect
 mRect
 ;
