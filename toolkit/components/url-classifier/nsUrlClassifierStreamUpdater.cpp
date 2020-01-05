@@ -704,12 +704,6 @@ mDownloadErrorCallback
 =
 nullptr
 ;
-mTelemetryProvider
-.
-Truncate
-(
-)
-;
 }
 /
 /
@@ -4899,6 +4893,12 @@ FinishUpdate
 )
 ;
 }
+mTelemetryProvider
+.
+Truncate
+(
+)
+;
 mChannel
 =
 nullptr
