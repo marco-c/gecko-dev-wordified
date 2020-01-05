@@ -426,7 +426,6 @@ def
 build_package
 (
 package_build_dir
-run_cmake
 cmake_args
 )
 :
@@ -450,10 +449,6 @@ mkdir
 package_build_dir
 )
     
-if
-run_cmake
-:
-        
 run_in
 (
 package_build_dir
@@ -1404,9 +1399,51 @@ stage_dir
 clang
 "
     
-run_cmake
-=
-True
+#
+If
+CMake
+has
+already
+been
+run
+it
+may
+have
+been
+run
+with
+different
+    
+#
+arguments
+so
+we
+need
+to
+re
+-
+run
+it
+.
+Make
+sure
+the
+cached
+copy
+of
+the
+    
+#
+previous
+CMake
+run
+is
+cleared
+before
+running
+it
+again
+.
     
 if
 os
@@ -1419,16 +1456,28 @@ build_dir
 +
 "
 /
-build
+CMakeCache
 .
-ninja
+txt
 "
 )
 :
         
-run_cmake
-=
-False
+os
+.
+path
+.
+remove
+(
+build_dir
++
+"
+/
+CMakeCache
+.
+txt
+"
+)
     
 #
 cmake
@@ -1679,7 +1728,6 @@ ON
 build_package
 (
 build_dir
-run_cmake
 cmake_args
 )
     
