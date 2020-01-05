@@ -2366,14 +2366,6 @@ NS_EVENT_MESSAGE
 (
 eMediaRecorderStop
 )
-/
-/
-SpeakerManager
-events
-NS_EVENT_MESSAGE
-(
-eSpeakerForcedChange
-)
 #
 ifdef
 MOZ_GAMEPAD
