@@ -6374,7 +6374,7 @@ BACKOFF
 /
 /
 Allowing
-3
+20
 seconds
 worth
 of
@@ -6402,7 +6402,7 @@ minimumExpectedDelay
 (
 BACKOFF
 -
-3
+20
 )
 *
 1000
