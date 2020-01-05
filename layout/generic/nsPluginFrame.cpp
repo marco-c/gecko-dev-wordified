@@ -1978,7 +1978,11 @@ frame
 >
 GetVisitedDependentColor
 (
-eCSSProperty_background_color
+&
+nsStyleBackground
+:
+:
+mBackgroundColor
 )
 ;
 if
