@@ -287,6 +287,12 @@ enable_signing
 False
     
 '
+enable_ccache
+'
+:
+False
+    
+'
 vcs_share_base
 '
 :
