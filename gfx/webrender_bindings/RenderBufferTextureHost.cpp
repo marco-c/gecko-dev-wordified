@@ -93,7 +93,7 @@ MPL
 #
 include
 "
-RenderTextureHost
+RenderBufferTextureHost
 .
 h
 "
