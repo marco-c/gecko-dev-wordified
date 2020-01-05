@@ -295,11 +295,6 @@ item_count
 :
 u32
 }
-type
-ImageMaskIndex
-=
-u16
-;
 #
 [
 derive

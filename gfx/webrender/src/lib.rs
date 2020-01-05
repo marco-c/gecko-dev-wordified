@@ -683,6 +683,7 @@ record
 {
 ApiRecordingReceiver
 set_recording_detour
+WEBRENDER_RECORDING_HEADER
 }
 ;
 mod
