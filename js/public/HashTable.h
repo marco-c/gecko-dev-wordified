@@ -993,6 +993,7 @@ Impl
 Ptr
 Ptr
 ;
+MOZ_ALWAYS_INLINE
 Ptr
 lookup
 (
@@ -1046,6 +1047,7 @@ modify
 the
 map
 .
+MOZ_ALWAYS_INLINE
 Ptr
 readonlyThreadsafeLookup
 (
@@ -1509,6 +1511,7 @@ Impl
 AddPtr
 AddPtr
 ;
+MOZ_ALWAYS_INLINE
 AddPtr
 lookupForAdd
 (
@@ -3331,6 +3334,7 @@ Impl
 Ptr
 Ptr
 ;
+MOZ_ALWAYS_INLINE
 Ptr
 lookup
 (
@@ -3384,6 +3388,7 @@ modify
 the
 map
 .
+MOZ_ALWAYS_INLINE
 Ptr
 readonlyThreadsafeLookup
 (
@@ -3811,6 +3816,7 @@ Impl
 AddPtr
 AddPtr
 ;
+MOZ_ALWAYS_INLINE
 AddPtr
 lookupForAdd
 (
@@ -10455,6 +10461,7 @@ entryCount
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 bool
 match
 (
@@ -10558,6 +10565,7 @@ so
 rarely
 .
 )
+MOZ_ALWAYS_INLINE
 Entry
 &
 lookup
@@ -12565,6 +12573,7 @@ mallocSizeOf
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 Ptr
 lookup
 (
@@ -12623,6 +12632,7 @@ this
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 Ptr
 readonlyThreadsafeLookup
 (
@@ -12671,6 +12681,7 @@ this
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 AddPtr
 lookupForAdd
 (

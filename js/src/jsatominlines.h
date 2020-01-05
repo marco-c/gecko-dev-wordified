@@ -1012,7 +1012,7 @@ hash
 ;
 }
 }
-inline
+MOZ_ALWAYS_INLINE
 bool
 AtomHasher
 :
