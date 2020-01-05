@@ -810,6 +810,12 @@ const
 Lookup
 &
 v
+const
+mozilla
+:
+:
+HashCodeScrambler
+&
 )
 {
 return
