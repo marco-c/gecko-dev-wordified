@@ -1866,12 +1866,12 @@ item
 Kind
 (
 )
-=
+!
 =
 DataTransferItem
 :
 :
-KIND_STRING
+KIND_FILE
 |
 |
 type
@@ -1890,6 +1890,8 @@ entry
 has
 kind
 KIND_STRING
+or
+KIND_OTHER
 we
 want
 to
