@@ -37901,11 +37901,6 @@ return
 bool
 enableTsf
 =
-IsVistaOrLater
-(
-)
-&
-&
 Preferences
 :
 :

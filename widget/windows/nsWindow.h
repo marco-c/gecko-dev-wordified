@@ -2986,14 +2986,6 @@ HDC
 aDC
 )
 ;
-static
-void
-ActivateOtherWindowHelper
-(
-HWND
-aWnd
-)
-;
 void
 ClearCachedResources
 (
@@ -3222,8 +3214,8 @@ bool
 sIsInMouseCapture
 ;
 static
-int
-sTrimOnMinimize
+bool
+sHaveInitializedPrefs
 ;
 /
 /

@@ -617,8 +617,6 @@ aWidgetRect
 RECT
 *
 aClipRect
-gfxFloat
-aAppUnits
 )
 ;
 private

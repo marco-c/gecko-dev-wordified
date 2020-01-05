@@ -8871,12 +8871,6 @@ GetBool
 kShellIconPref
 true
 )
-|
-|
-!
-IsVistaOrLater
-(
-)
 )
 {
 shortcutFormatStr

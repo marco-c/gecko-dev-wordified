@@ -377,10 +377,7 @@ SP_GRIPPERVERT
 9
 /
 /
-Vista
-only
-;
-implict
+Implicit
 hover
 state
 .
