@@ -890,7 +890,10 @@ body
 )
 )
 ;
+DebugOnly
+<
 bool
+>
 ok
 =
 aAutoStream
@@ -902,7 +905,7 @@ body
 aManager
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 ok
 )

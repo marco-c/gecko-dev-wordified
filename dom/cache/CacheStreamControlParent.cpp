@@ -419,7 +419,10 @@ stream
 )
 )
 ;
+DebugOnly
+<
 bool
+>
 ok
 =
 autoStream
@@ -433,7 +436,7 @@ Manager
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 ok
 )
