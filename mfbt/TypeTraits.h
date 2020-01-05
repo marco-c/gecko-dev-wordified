@@ -379,7 +379,7 @@ struct
 IntegralConstant
 {
 static
-const
+constexpr
 T
 value
 =
