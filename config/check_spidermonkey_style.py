@@ -984,6 +984,16 @@ ICU
 '
 unicode
 /
+uloc
+.
+h
+'
+#
+ICU
+    
+'
+unicode
+/
 unorm2
 .
 h
