@@ -6938,15 +6938,8 @@ if
 gl
 -
 >
-IsSupported
+IsGLES
 (
-gl
-:
-:
-GLFeature
-:
-:
-ES2_compatibility
 )
 )
 {
