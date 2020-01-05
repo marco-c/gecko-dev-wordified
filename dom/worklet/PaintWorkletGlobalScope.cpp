@@ -139,14 +139,10 @@ mozilla
 /
 dom
 /
-RTCPeerConnectionBinding
+FunctionBinding
 .
 h
 "
-/
-/
-For
-VoidFunction
 namespace
 mozilla
 {
