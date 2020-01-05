@@ -841,8 +841,11 @@ JSContext
 )
 -
 >
+Option
+<
 mut
 CacheableWrapper
+>
 {
 self
 .

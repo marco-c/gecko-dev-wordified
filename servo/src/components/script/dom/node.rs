@@ -3422,17 +3422,6 @@ Compartment
 bindings
 :
 :
-window
-:
-:
-init
-(
-compartment
-)
-;
-bindings
-:
-:
 node
 :
 :
