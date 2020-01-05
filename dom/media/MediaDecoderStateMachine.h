@@ -2205,7 +2205,7 @@ we
 have
 less
 than
-aUsecs
+aThreshold
 of
 buffered
 data
@@ -2214,8 +2214,13 @@ available
 bool
 HasLowBufferedData
 (
-int64_t
-aUsecs
+const
+media
+:
+:
+TimeUnit
+&
+aThreshold
 )
 ;
 void
