@@ -869,6 +869,16 @@ clone
 }
 ;
 let
+private_ssl_client
+=
+create_ssl_client
+(
+"
+certs
+"
+)
+;
+let
 private_resource_group
 =
 ResourceGroup
@@ -889,7 +899,7 @@ new
 )
 ssl_client
 :
-ssl_client
+private_ssl_client
 .
 clone
 (
@@ -898,7 +908,7 @@ connector
 :
 create_http_connector
 (
-ssl_client
+private_ssl_client
 )
 }
 ;
