@@ -476,6 +476,13 @@ uint32_t
 aPromiseID
 )
 ;
+void
+VibrateHapticComplete
+(
+uint32_t
+aPromiseID
+)
+;
 /
 /
 The
@@ -501,8 +508,11 @@ nsIThread
 >
 mVibrateThread
 ;
+Atomic
+<
 bool
-mIsVibrating
+>
+mIsVibrateStopped
 ;
 }
 ;

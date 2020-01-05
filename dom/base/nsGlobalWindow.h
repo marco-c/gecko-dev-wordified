@@ -4233,6 +4233,11 @@ SyncGamepadState
 (
 )
 ;
+void
+StopGamepadHaptics
+(
+)
+;
 /
 /
 Inner
