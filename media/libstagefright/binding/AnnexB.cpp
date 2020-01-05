@@ -159,8 +159,7 @@ aSample
 ;
 if
 (
-!
-IsAVCC
+IsAnnexB
 (
 aSample
 )
@@ -182,6 +181,12 @@ Data
 ;
 if
 (
+IsAVCC
+(
+aSample
+)
+&
+&
 !
 ConvertSampleTo4BytesAVCC
 (
@@ -393,6 +398,12 @@ aSample
 -
 >
 mKeyframe
+&
+&
+IsAVCC
+(
+aSample
+)
 )
 {
 RefPtr
