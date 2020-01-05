@@ -5190,9 +5190,6 @@ dest
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 if
 (
 iid
@@ -5290,11 +5287,6 @@ dest
 ;
 }
 }
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 /
 /
 Don
@@ -6249,9 +6241,6 @@ return
 false
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 /
 /
 Deal
@@ -6352,11 +6341,6 @@ dest
 ;
 }
 }
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 }
 RefPtr
 <

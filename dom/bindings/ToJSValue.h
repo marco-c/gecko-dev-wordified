@@ -1899,9 +1899,6 @@ aValue
 )
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 /
 /
 Accept
@@ -1935,11 +1932,6 @@ Value
 aValue
 )
 ;
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 /
 /
 Accept

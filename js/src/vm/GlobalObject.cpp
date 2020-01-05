@@ -233,9 +233,6 @@ Object
 h
 "
 #
-ifdef
-SPIDERMONKEY_PROMISE
-#
 include
 "
 builtin
@@ -244,8 +241,6 @@ Promise
 .
 h
 "
-#
-endif
 #
 include
 "

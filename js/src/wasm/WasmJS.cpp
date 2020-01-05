@@ -10174,9 +10174,6 @@ true
 }
 #
 endif
-#
-ifdef
-SPIDERMONKEY_PROMISE
 static
 bool
 Nop
@@ -11722,8 +11719,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 WebAssembly_validate
@@ -11874,9 +11869,6 @@ WebAssembly_toSource
 )
 #
 endif
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS_FN
 (
 "
@@ -11895,8 +11887,6 @@ WebAssembly_instantiate
 2
 0
 )
-#
-endif
 JS_FN
 (
 "

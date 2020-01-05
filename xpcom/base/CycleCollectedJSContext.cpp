@@ -3296,9 +3296,6 @@ empty
 )
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 mUncaughtRejections
 .
 reset
@@ -3311,11 +3308,6 @@ reset
 (
 )
 ;
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 JS_DestroyContext
 (
 mJSContext
@@ -3751,9 +3743,6 @@ mJSContext
 GetIncumbentGlobalCallback
 )
 ;
-#
-ifdef
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -3830,11 +3819,6 @@ SystemAllocPolicy
 )
 )
 ;
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -6366,9 +6350,6 @@ return
 true
 ;
 }
-#
-ifdef
-SPIDERMONKEY_PROMISE
 /
 *
 static
@@ -6471,11 +6452,6 @@ aPromise
 ;
 }
 }
-#
-endif
-/
-/
-SPIDERMONKEY_PROMISE
 struct
 JsGcTracer
 :
