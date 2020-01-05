@@ -288,6 +288,9 @@ char
 device_unique_idUTF8
 uint32_t
 device_unique_idUTF8Length
+pid_t
+*
+pid
 )
 ;
 /

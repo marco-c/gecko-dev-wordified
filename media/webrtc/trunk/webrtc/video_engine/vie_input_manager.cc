@@ -486,6 +486,9 @@ char
 device_unique_idUTF8
 uint32_t
 device_unique_idUTF8Length
+pid_t
+*
+pid
 )
 {
 CriticalSectionScoped
@@ -518,6 +521,9 @@ device_nameUTF8
 device_name_length
 device_unique_idUTF8
 device_unique_idUTF8Length
+NULL
+0
+pid
 )
 ;
 }

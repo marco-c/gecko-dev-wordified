@@ -1314,6 +1314,10 @@ const
 nsCString
 &
 device_id
+const
+bool
+&
+scary
 )
 override
 ;
@@ -1501,6 +1505,11 @@ const
 unsigned
 int
 unique_idUTF8Length
+bool
+*
+scary
+=
+nullptr
 )
 ;
 void
@@ -1794,6 +1803,9 @@ mReplyDeviceName
 ;
 nsCString
 mReplyDeviceID
+;
+bool
+mReplyScary
 ;
 }
 ;
