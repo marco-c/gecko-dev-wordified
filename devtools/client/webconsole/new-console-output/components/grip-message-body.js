@@ -235,8 +235,6 @@ components
 /
 reps
 /
-load
--
 reps
 "
 )

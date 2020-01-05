@@ -201,8 +201,6 @@ components
 /
 reps
 /
-load
--
 reps
 "
 )
