@@ -203,6 +203,10 @@ callback
 ;
 pub
 mod
+error
+;
+pub
+mod
 conversions
 ;
 pub

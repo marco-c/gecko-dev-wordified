@@ -166,7 +166,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 {
