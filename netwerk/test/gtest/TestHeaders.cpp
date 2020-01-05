@@ -87,6 +87,12 @@ Strict_Transport_Security
 NS_LITERAL_CSTRING
 (
 "
+Strict_Transport_Security
+"
+)
+NS_LITERAL_CSTRING
+(
+"
 max
 -
 age
@@ -163,6 +169,12 @@ nsHttp
 :
 :
 Strict_Transport_Security
+NS_LITERAL_CSTRING
+(
+"
+Strict_Transport_Security
+"
+)
 NS_LITERAL_CSTRING
 (
 "

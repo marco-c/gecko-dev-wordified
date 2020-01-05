@@ -1026,7 +1026,7 @@ aName
 =
 =
 "
-Link
+link
 "
 )
 {
@@ -1050,7 +1050,7 @@ aName
 =
 =
 "
-Location
+location
 "
 )
 {
@@ -1126,7 +1126,7 @@ aName
 =
 =
 "
-Link
+link
 "
 )
 {
@@ -1186,7 +1186,7 @@ aName
 =
 =
 "
-Location
+location
 "
 )
 {
@@ -1404,7 +1404,7 @@ aName
 =
 =
 "
-Link
+link
 "
 )
 {
@@ -1464,7 +1464,7 @@ aName
 =
 =
 "
-Location
+location
 "
 )
 {
@@ -1555,7 +1555,7 @@ request
 getOriginalResponseHeader
 (
 "
-Link
+link
 "
 {
 visitHeader
