@@ -508,7 +508,7 @@ endif
 #
 include
 "
-nsIMediaList
+nsMediaList
 .
 h
 "
