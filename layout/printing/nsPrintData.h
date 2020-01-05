@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsIPrintOptions
+nsIPrintSettings
 .
 h
 "

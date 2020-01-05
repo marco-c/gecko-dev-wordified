@@ -116,14 +116,10 @@ h
 #
 include
 "
-nsIPrintOptions
+nsIPrinterEnumerator
 .
 h
 "
-/
-/
-For
-nsIPrinterEnumerator
 #
 include
 "

@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIPrintOptions
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

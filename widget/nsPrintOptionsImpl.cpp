@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsIPrinterEnumerator
+.
+h
+"
+#
+include
+"
 nsPrintingProxy
 .
 h
@@ -283,7 +290,6 @@ RemotePrintJobChild
 NS_IMPL_ISUPPORTS
 (
 nsPrintOptions
-nsIPrintOptions
 nsIPrintSettingsService
 )
 /
