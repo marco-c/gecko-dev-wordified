@@ -13262,7 +13262,7 @@ Step
 15
 .
 var
-s
+style
 =
 lazyNumberFormatData
 .
@@ -13272,7 +13272,7 @@ internalProps
 .
 style
 =
-s
+style
 ;
 /
 /
@@ -13282,7 +13282,7 @@ Steps
 .
 if
 (
-s
+style
 =
 =
 =
@@ -14414,7 +14414,7 @@ Step
 14
 .
 var
-s
+style
 =
 GetOption
 (
@@ -14445,7 +14445,7 @@ lazyNumberFormatData
 .
 style
 =
-s
+style
 ;
 /
 /
@@ -14496,7 +14496,7 @@ cDigits
 ;
 if
 (
-s
+style
 =
 =
 =
@@ -14583,7 +14583,7 @@ symbol
 ;
 if
 (
-s
+style
 =
 =
 =
@@ -14608,7 +14608,7 @@ SetNumberFormatDigitOptions
 (
 lazyNumberFormatData
 options
-s
+style
 =
 =
 =
@@ -14640,7 +14640,7 @@ undefined
 let
 mxfdDefault
 =
-s
+style
 =
 =
 =
@@ -14650,7 +14650,7 @@ currency
 ?
 cDigits
 :
-s
+style
 =
 =
 =
