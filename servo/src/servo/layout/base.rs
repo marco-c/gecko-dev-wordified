@@ -125,10 +125,7 @@ layout
 text
 :
 :
-{
-text_box
-text_layout_methods
-}
+*
 ;
 import
 util
