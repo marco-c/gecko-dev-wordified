@@ -8027,12 +8027,6 @@ effectSet
 >
 LastTransformSyncTime
 (
-mAnimation
--
->
-CascadeLevel
-(
-)
 )
 ;
 /
