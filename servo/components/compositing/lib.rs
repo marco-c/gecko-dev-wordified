@@ -89,6 +89,14 @@ vec_push_all
 )
 ]
 #
+!
+[
+deny
+(
+unsafe_code
+)
+]
+#
 [
 macro_use
 ]
