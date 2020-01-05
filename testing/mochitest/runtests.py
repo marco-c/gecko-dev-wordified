@@ -110,6 +110,10 @@ from
 argparse
 import
 Namespace
+from
+collections
+import
+defaultdict
 import
 ctypes
 import
@@ -6162,6 +6166,15 @@ None
         
 self
 .
+tests_by_manifest
+=
+defaultdict
+(
+list
+)
+        
+self
+.
 _active_tests
 =
 None
@@ -10358,18 +10371,9 @@ log
 .
 suite_start
 (
-[
-t
-[
-'
-path
-'
-]
-for
-t
-in
-tests
-]
+self
+.
+tests_by_manifest
 )
         
 for
@@ -11433,12 +11437,6 @@ self
 .
 testRootAbs
         
-manifests
-=
-set
-(
-)
-        
 for
 test
 in
@@ -11579,10 +11577,8 @@ manifest
                 
 continue
             
-manifests
-.
-add
-(
+manifest_relpath
+=
 os
 .
 path
@@ -11597,6 +11593,17 @@ manifest
 ]
 manifest_root
 )
+            
+self
+.
+tests_by_manifest
+[
+manifest_relpath
+]
+.
+append
+(
+tp
 )
             
 testob
@@ -11969,7 +11976,13 @@ join
 (
 sorted
 (
-manifests
+self
+.
+tests_by_manifest
+.
+keys
+(
+)
 )
 )
 )
