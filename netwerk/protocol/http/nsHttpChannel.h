@@ -830,15 +830,6 @@ uint32_t
 status
 )
 ;
-static
-bool
-WillRedirect
-(
-nsHttpResponseHead
-*
-response
-)
-;
 /
 /
 Methods

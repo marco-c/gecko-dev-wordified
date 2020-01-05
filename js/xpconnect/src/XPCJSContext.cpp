@@ -24661,9 +24661,6 @@ event
 /
 handlers
 .
-mozilla
-:
-:
 UniquePtr
 <
 XPCJSSourceHook
