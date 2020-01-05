@@ -2190,6 +2190,10 @@ enumerate_devices
 =
 NULL
 .
+device_collection_destroy
+=
+NULL
+.
 destroy
 =
 sndio_destroy

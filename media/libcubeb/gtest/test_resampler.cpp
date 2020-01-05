@@ -3909,6 +3909,11 @@ got
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }
 /
 /
@@ -4131,6 +4136,11 @@ got
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }
 template
 <
@@ -4938,4 +4948,9 @@ BUF_BASE_SIZE
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }
