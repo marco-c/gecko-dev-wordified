@@ -1948,6 +1948,7 @@ timing
 new
 nsDOMNavigationTiming
 (
+nullptr
 )
 ;
 timing
