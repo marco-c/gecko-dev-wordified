@@ -1123,6 +1123,16 @@ equivalent
 as
 well
 .
+if
+(
+!
+name
+)
+{
+return
+false
+;
+}
 let
 previousWasCJK
 =
