@@ -625,10 +625,6 @@ mPendingRequestRegistered
 (
 false
 )
-mFrameCreateCalled
-(
-false
-)
 {
 if
 (
@@ -2598,10 +2594,6 @@ null
 "
 )
 ;
-mFrameCreateCalled
-=
-true
-;
 TrackImage
 (
 mCurrentRequest
@@ -2704,10 +2696,6 @@ is
 null
 "
 )
-;
-mFrameCreateCalled
-=
-false
 ;
 /
 /
