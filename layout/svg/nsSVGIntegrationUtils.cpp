@@ -2893,7 +2893,7 @@ aUserSpaceToFrameSpaceOffset
 {
 }
 virtual
-DrawResult
+void
 Paint
 (
 gfxContext
@@ -2910,6 +2910,9 @@ const
 nsIntRect
 *
 aDirtyRect
+imgDrawingParams
+&
+aImgParams
 )
 override
 {
@@ -2989,12 +2992,6 @@ SetTarget
 (
 oldCtx
 )
-;
-return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 private
@@ -7023,7 +7020,7 @@ return
 result
 ;
 }
-DrawResult
+void
 nsSVGIntegrationUtils
 :
 :
@@ -7033,6 +7030,9 @@ const
 PaintFramesParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 {
 MOZ_ASSERT
@@ -7108,10 +7108,6 @@ frame
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 float
@@ -7139,10 +7135,6 @@ opacity
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 /
@@ -7207,10 +7199,6 @@ HasInvalidFilter
 )
 {
 return
-DrawResult
-:
-:
-NOT_READY
 ;
 }
 gfxContext
@@ -7383,9 +7371,6 @@ GetCSSPxToDevPxMatrix
 frame
 )
 ;
-DrawResult
-result
-=
 nsFilterInstance
 :
 :
@@ -7402,6 +7387,7 @@ tm
 callback
 &
 dirtyRegion
+aImgParams
 )
 ;
 if
@@ -7421,9 +7407,6 @@ PopGroupAndBlend
 )
 ;
 }
-return
-result
-;
 }
 class
 PaintFrameCallback

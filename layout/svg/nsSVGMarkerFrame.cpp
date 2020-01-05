@@ -702,7 +702,7 @@ return
 kid
 ;
 }
-DrawResult
+void
 nsSVGMarkerFrame
 :
 :
@@ -723,8 +723,9 @@ nsSVGMark
 aMark
 float
 aStrokeWidth
-uint32_t
-aFlags
+imgDrawingParams
+&
+aImgParams
 )
 {
 /
@@ -770,10 +771,6 @@ mInUse
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 AutoMarkerReferencer
@@ -808,10 +805,6 @@ HasValidDimensions
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 const
@@ -863,10 +856,6 @@ are
 zero
 .
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 mStrokeWidth
@@ -1042,9 +1031,6 @@ nsSVGDisplayableFrame
 TRANSFORM_CHANGED
 )
 ;
-DrawResult
-result
-=
 nsSVGUtils
 :
 :
@@ -1053,8 +1039,7 @@ PaintFrameWithEffects
 kid
 aContext
 markTM
-nullptr
-aFlags
+aImgParams
 )
 ;
 if
@@ -1073,9 +1058,6 @@ aContext
 Restore
 (
 )
-;
-return
-result
 ;
 }
 SVGBBox

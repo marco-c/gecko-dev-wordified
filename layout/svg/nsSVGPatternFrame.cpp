@@ -2848,13 +2848,11 @@ there
 s
 a
 loop
-DrawResult
-result
-=
-DrawResult
-:
-:
-SUCCESS
+imgDrawingParams
+imgParams
+(
+aFlags
+)
 ;
 if
 (
@@ -2985,9 +2983,6 @@ eUserSpaceToParent
 )
 ;
 }
-result
-&
-=
 nsSVGUtils
 :
 :
@@ -2997,8 +2992,7 @@ kid
 *
 ctx
 tm
-nullptr
-aFlags
+imgParams
 )
 ;
 }
@@ -3058,6 +3052,8 @@ Snapshot
 return
 MakePair
 (
+imgParams
+.
 result
 Move
 (

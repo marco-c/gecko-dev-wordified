@@ -124,8 +124,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+imgDrawingParams
+imgDrawingParams
 ;
 /
 *
@@ -237,7 +237,7 @@ glyph
 *
 /
 virtual
-DrawResult
+void
 Paint
 (
 gfxContext
@@ -254,6 +254,9 @@ const
 nsIntRect
 *
 aDirtyRect
+imgDrawingParams
+&
+aImgParams
 )
 =
 0
