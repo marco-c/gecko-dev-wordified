@@ -1072,6 +1072,9 @@ iterator
 &
 mut
 FragmentBorderBoxIterator
+level
+:
+i32
 stacking_context_position
 :
 &
@@ -1088,6 +1091,7 @@ block_flow
 iterate_through_fragment_border_boxes
 (
 iterator
+level
 stacking_context_position
 )
 ;
@@ -1116,6 +1120,7 @@ iterator
 process
 (
 marker
+level
 &
 marker
 .
