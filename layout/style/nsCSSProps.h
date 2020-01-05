@@ -5821,10 +5821,6 @@ normal
 stretch
 /
 baseline
-/
-last
--
-baseline
 '
 static
 const
@@ -5841,10 +5837,6 @@ normal
 stretch
 /
 baseline
-/
-last
--
-baseline
 '
 static
 const
@@ -5858,10 +5850,6 @@ kAlignNormalBaseline
 '
 normal
 /
-baseline
-/
-last
--
 baseline
 '
 static
