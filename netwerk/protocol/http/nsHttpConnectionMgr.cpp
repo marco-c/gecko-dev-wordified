@@ -24054,16 +24054,6 @@ out
 mBackupStreamOut
 )
 ;
-MOZ_ASSERT
-(
-mTransaction
--
->
-IsNullTransaction
-(
-)
-)
-;
 /
 /
 Here

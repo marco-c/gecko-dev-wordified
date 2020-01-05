@@ -15669,6 +15669,10 @@ nsAHttpTransaction
 >
 trans
 ;
+DontReuse
+(
+)
+;
 if
 (
 mUsingSpdyVersion
@@ -15697,7 +15701,7 @@ http2
 we
 do
 not
-nee
+need
 to
 do
 similar
@@ -15718,10 +15722,6 @@ this
 transaction
 anyway
 .
-DontReuse
-(
-)
-;
 mUsingSpdyVersion
 =
 0
