@@ -4012,7 +4012,7 @@ array
 .
 opt
 (
-0
+i
 )
 )
 ;
@@ -4293,7 +4293,7 @@ Object
 values
 =
 new
-String
+Object
 [
 obj
 .
