@@ -154,7 +154,6 @@ os
 run
 io
 str
-vec
 }
 ;
 use
@@ -422,7 +421,8 @@ TestDescAndFn
 ]
 {
 let
-all_files
+mut
+files
 =
 list_dir_path
 (
@@ -435,15 +435,10 @@ source_dir
 )
 )
 ;
-let
-html_files
-=
-vec
-:
-:
-filter
+files
+.
+retain
 (
-all_files
 |
 file
 |
@@ -463,7 +458,7 @@ html
 )
 ;
 return
-html_files
+files
 .
 map
 (
