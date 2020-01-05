@@ -235,9 +235,7 @@ setGeckoInterface
 new
 BaseGeckoInterface
 (
-getApplicationContext
-(
-)
+this
 )
 )
 ;
