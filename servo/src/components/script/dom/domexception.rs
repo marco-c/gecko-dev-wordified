@@ -66,6 +66,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 DOMExceptionBinding
 ;
 use
@@ -76,6 +79,9 @@ bindings
 :
 :
 codegen
+:
+:
+BindingDeclarations
 :
 :
 DOMExceptionBinding

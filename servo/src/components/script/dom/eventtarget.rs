@@ -108,6 +108,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 EventListenerBinding
 ;
 use

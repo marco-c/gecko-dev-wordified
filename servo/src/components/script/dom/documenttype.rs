@@ -81,6 +81,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 DocumentTypeBinding
 ;
 use

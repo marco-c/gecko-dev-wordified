@@ -141,6 +141,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 DocumentBinding
 ;
 use

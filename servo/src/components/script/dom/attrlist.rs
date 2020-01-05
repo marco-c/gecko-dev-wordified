@@ -75,6 +75,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 AttrListBinding
 ;
 use

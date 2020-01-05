@@ -78,6 +78,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 TestBindingBinding
 ;
 use

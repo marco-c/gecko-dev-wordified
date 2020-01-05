@@ -171,6 +171,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 NodeBinding
 :
 :

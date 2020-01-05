@@ -106,6 +106,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 BlobBinding
 ;
 use

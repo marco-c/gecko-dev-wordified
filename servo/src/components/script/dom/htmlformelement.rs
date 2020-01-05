@@ -66,6 +66,9 @@ bindings
 codegen
 :
 :
+BindingDeclarations
+:
+:
 HTMLFormElementBinding
 ;
 use
