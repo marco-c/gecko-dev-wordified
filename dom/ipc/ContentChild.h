@@ -786,13 +786,6 @@ PVRManagerChild
 &
 &
 aVRBridge
-Endpoint
-<
-PVideoDecoderManagerChild
->
-&
-&
-aVideoManager
 )
 override
 ;
@@ -820,13 +813,6 @@ PVRManagerChild
 &
 &
 aVRBridge
-Endpoint
-<
-PVideoDecoderManagerChild
->
-&
-&
-aVideoManager
 )
 override
 ;
