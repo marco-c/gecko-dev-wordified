@@ -321,9 +321,7 @@ self
 .
 marionette
 .
-get_window_position
-(
-)
+window_rect
         
 wanted_position
 =
