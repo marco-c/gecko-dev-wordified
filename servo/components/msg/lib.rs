@@ -86,6 +86,10 @@ png
 ;
 extern
 crate
+rustc_serialize
+;
+extern
+crate
 util
 ;
 extern
@@ -95,10 +99,6 @@ url
 extern
 crate
 style
-;
-extern
-crate
-webdriver_traits
 ;
 #
 [
@@ -137,4 +137,8 @@ compositor_msg
 pub
 mod
 constellation_msg
+;
+pub
+mod
+webdriver_msg
 ;

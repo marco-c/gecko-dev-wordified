@@ -302,10 +302,6 @@ string_cache
 ;
 extern
 crate
-webdriver_traits
-;
-extern
-crate
 offscreen_gl_context
 ;
 pub
