@@ -38783,7 +38783,7 @@ define
 def
 argument_type
 (
-descriptorProvdider
+descriptorProvider
 ty
 optional
 =
@@ -38803,7 +38803,7 @@ getJSToNativeConversionInfo
 (
         
 ty
-descriptorProvdider
+descriptorProvider
 isArgument
 =
 True
