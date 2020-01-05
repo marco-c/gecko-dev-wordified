@@ -2339,7 +2339,6 @@ addObserver
 "
 "
 gPrefListener
-false
 )
 ;
 var

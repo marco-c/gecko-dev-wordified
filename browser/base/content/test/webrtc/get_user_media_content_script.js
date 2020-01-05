@@ -311,7 +311,6 @@ addObserver
 (
 observer
 topic
-false
 )
 ;
 }
@@ -664,7 +663,6 @@ topic
 }
 }
 topic
-false
 )
 ;
 }

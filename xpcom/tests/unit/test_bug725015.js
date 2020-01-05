@@ -293,7 +293,6 @@ addObserver
 (
 observe_category
 observerTopic
-false
 )
 ;
 Components

@@ -568,7 +568,6 @@ console
 -
 destroyed
 "
-false
 )
 ;
 registerCleanupFunction

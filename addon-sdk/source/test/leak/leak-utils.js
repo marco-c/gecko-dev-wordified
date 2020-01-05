@@ -486,7 +486,6 @@ windowObserver
 "
 domwindowopened
 "
-false
 )
 ;
 /

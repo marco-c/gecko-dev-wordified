@@ -356,7 +356,6 @@ log
 -
 event
 "
-false
 )
 ;
 aWindow

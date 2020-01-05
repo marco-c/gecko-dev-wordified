@@ -886,7 +886,6 @@ addObserver
 (
 this
 TOPIC_XPCOM_SHUTDOWN
-false
 )
 ;
 Services
@@ -897,7 +896,6 @@ addObserver
 (
 this
 TOPIC_MOZSETTINGS_CHANGED
-false
 )
 ;
 Services
@@ -908,7 +906,6 @@ addObserver
 (
 PREF_RIL_DEBUG_ENABLED
 this
-false
 )
 ;
 }

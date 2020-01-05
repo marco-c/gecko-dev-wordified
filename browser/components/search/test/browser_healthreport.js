@@ -520,7 +520,6 @@ engine
 -
 modified
 "
-false
 )
 ;
 SpecialPowers

@@ -2194,7 +2194,6 @@ gObserver
 "
 invalidformsubmit
 "
-false
 )
 ;
 executeSoon

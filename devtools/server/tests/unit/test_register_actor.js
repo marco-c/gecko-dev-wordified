@@ -395,7 +395,6 @@ onActorEvent
 "
 actor
 "
-false
 )
 ;
 DebuggerServer

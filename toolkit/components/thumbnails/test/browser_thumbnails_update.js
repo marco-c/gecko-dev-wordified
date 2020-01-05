@@ -443,7 +443,6 @@ thumbnail
 :
 create
 "
-false
 )
 ;
 /

@@ -777,7 +777,6 @@ sync
 :
 finish
 "
-false
 )
 ;
 Services
@@ -796,7 +795,6 @@ start
 -
 over
 "
-false
 )
 ;
 /
@@ -825,7 +823,6 @@ addObserver
 (
 PREF_SHOW_REMOTE_ICONS
 observe
-false
 )
 ;
 observe

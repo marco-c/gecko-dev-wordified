@@ -342,7 +342,6 @@ visit
 -
 saved
 "
-false
 )
 ;
 BrowserTestUtils

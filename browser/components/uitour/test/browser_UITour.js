@@ -3377,7 +3377,6 @@ engine
 -
 modified
 "
-false
 )
 ;
 registerCleanupFunction

@@ -3077,7 +3077,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

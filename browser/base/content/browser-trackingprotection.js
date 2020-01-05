@@ -197,7 +197,6 @@ this
 .
 PREF_ENABLED_GLOBALLY
 this
-false
 )
 ;
 Services
@@ -210,7 +209,6 @@ this
 .
 PREF_ENABLED_IN_PRIVATE_WINDOWS
 this
-false
 )
 ;
 this

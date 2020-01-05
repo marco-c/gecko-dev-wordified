@@ -496,7 +496,6 @@ update
 -
 finished
 "
-false
 )
 ;
 let

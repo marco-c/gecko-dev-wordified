@@ -1157,7 +1157,6 @@ enter
 -
 text
 "
-false
 )
 ;
 }
@@ -1864,7 +1863,6 @@ this
 "
 earlyformsubmit
 "
-false
 )
 ;
 if

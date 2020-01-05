@@ -1167,7 +1167,6 @@ bookmarks
 addObserver
 (
 proxifiedObserver
-false
 )
 ;
 }
@@ -1303,7 +1302,6 @@ history
 addObserver
 (
 proxifiedObserver
-false
 )
 ;
 }

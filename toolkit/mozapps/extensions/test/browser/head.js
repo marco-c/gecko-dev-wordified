@@ -3176,7 +3176,6 @@ EM
 -
 loaded
 "
-false
 )
 ;
 gBrowser
@@ -3245,7 +3244,6 @@ EM
 -
 loaded
 "
-false
 )
 ;
 openDialog

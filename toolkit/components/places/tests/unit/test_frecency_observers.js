@@ -596,7 +596,6 @@ history
 addObserver
 (
 obs
-false
 )
 ;
 return
@@ -665,7 +664,6 @@ history
 addObserver
 (
 obs
-false
 )
 ;
 return

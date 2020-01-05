@@ -2984,7 +2984,6 @@ manager
 -
 close
 "
-false
 )
 ;
 Services

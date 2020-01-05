@@ -173,7 +173,6 @@ callback
 ;
 }
 topic
-false
 )
 ;
 }

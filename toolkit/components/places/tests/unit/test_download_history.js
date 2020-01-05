@@ -212,7 +212,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 }
@@ -298,7 +297,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 }
@@ -384,7 +382,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 }
@@ -1571,7 +1568,6 @@ annotations
 addObserver
 (
 annoObserver
-false
 )
 ;
 PlacesUtils
@@ -1581,7 +1577,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 /

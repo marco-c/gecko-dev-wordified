@@ -699,7 +699,6 @@ resolve
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
-false
 )
 ;
 }

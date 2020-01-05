@@ -1909,7 +1909,6 @@ addObserver
 (
 nsIObserver
 topic
-false
 )
 ;
 events
@@ -2134,7 +2133,6 @@ nsIObserver
 "
 *
 "
-false
 )
 ;
 events

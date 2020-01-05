@@ -1832,7 +1832,6 @@ EM
 -
 ping
 "
-false
 )
 ;
 Services

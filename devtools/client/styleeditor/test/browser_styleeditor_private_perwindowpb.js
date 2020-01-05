@@ -568,7 +568,6 @@ startup
 -
 finished
 "
-false
 )
 ;
 return

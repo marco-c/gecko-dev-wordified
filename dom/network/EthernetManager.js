@@ -1174,7 +1174,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

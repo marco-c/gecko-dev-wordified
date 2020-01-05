@@ -2050,7 +2050,6 @@ api
 -
 profiler
 "
-false
 )
 ;
 console

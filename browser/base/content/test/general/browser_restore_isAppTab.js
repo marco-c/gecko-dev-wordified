@@ -395,7 +395,6 @@ content
 -
 shutdown
 "
-false
 )
 ;
 registerCleanupFunction

@@ -269,7 +269,6 @@ device
 -
 events
 '
-false
 )
 ;
 Services
@@ -288,7 +287,6 @@ ipc
 -
 events
 '
-false
 )
 ;
 }

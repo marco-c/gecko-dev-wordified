@@ -1197,7 +1197,6 @@ log
 -
 event
 '
-false
 )
 ;
 let

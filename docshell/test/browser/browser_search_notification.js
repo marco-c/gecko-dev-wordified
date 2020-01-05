@@ -319,7 +319,6 @@ keyword
 -
 search
 "
-false
 )
 ;
 gURLBar

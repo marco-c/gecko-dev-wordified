@@ -445,7 +445,6 @@ Migration
 :
 Ended
 "
-false
 )
 ;
 migrator

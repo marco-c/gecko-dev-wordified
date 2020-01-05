@@ -463,7 +463,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 /

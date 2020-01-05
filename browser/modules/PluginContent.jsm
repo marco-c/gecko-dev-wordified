@@ -577,7 +577,6 @@ doctor
 -
 notification
 "
-false
 )
 ;
 }

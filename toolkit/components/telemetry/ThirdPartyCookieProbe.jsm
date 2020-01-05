@@ -429,7 +429,6 @@ before
 -
 change
 "
-false
 )
 ;
 Services
@@ -448,7 +447,6 @@ cookie
 -
 accepted
 "
-false
 )
 ;
 Services
@@ -467,7 +465,6 @@ cookie
 -
 rejected
 "
-false
 )
 ;
 }

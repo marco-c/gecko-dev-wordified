@@ -1523,7 +1523,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 Services

@@ -1047,7 +1047,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

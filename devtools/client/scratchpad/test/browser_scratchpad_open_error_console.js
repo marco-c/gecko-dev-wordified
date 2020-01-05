@@ -232,7 +232,6 @@ console
 -
 created
 "
-false
 )
 ;
 let

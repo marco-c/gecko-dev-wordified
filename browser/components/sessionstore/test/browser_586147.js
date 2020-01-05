@@ -102,7 +102,6 @@ callback
 ;
 }
 topic
-false
 )
 ;
 }

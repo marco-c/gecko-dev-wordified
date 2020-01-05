@@ -215,7 +215,6 @@ this
 .
 PREF_DISK_CACHE_SSL
 this
-false
 )
 ;
 this

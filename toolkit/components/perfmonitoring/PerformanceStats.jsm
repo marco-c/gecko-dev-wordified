@@ -3693,7 +3693,6 @@ value
 ;
 }
 FINALIZATION_TOPIC
-false
 )
 ;
 /

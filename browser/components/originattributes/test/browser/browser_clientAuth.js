@@ -44,7 +44,6 @@ dialog
 -
 loaded
 "
-false
 )
 ;
 registerCleanupFunction

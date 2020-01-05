@@ -669,7 +669,6 @@ disabled
 this
 .
 _prefChanged
-false
 )
 ;
 Services
@@ -686,7 +685,6 @@ theme
 this
 .
 _prefChanged
-false
 )
 ;
 gDevTools

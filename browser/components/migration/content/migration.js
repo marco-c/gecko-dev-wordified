@@ -212,7 +212,6 @@ Migration
 :
 Started
 "
-false
 )
 ;
 os
@@ -225,7 +224,6 @@ Migration
 :
 ItemBeforeMigrate
 "
-false
 )
 ;
 os
@@ -238,7 +236,6 @@ Migration
 :
 ItemAfterMigrate
 "
-false
 )
 ;
 os
@@ -251,7 +248,6 @@ Migration
 :
 ItemError
 "
-false
 )
 ;
 os
@@ -264,7 +260,6 @@ Migration
 :
 Ended
 "
-false
 )
 ;
 this

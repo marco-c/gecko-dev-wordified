@@ -644,7 +644,6 @@ addObserver
 (
 observer
 PLACES_AUTOCOMPLETE_FEEDBACK_UPDATED_TOPIC
-false
 )
 ;
 let

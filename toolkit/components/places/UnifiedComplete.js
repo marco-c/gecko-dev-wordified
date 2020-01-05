@@ -4173,7 +4173,6 @@ addObserver
 (
 PREF_BRANCH
 store
-false
 )
 ;
 Services

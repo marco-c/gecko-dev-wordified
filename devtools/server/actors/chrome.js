@@ -892,7 +892,6 @@ webnavigation
 -
 create
 "
-false
 )
 ;
 Services
@@ -909,7 +908,6 @@ webnavigation
 -
 destroy
 "
-false
 )
 ;
 /

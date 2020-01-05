@@ -657,7 +657,6 @@ hs
 addObserver
 (
 historyObserver
-false
 )
 ;
 /

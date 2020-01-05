@@ -4204,7 +4204,6 @@ node
 -
 demise
 "
-false
 )
 ;
 emit

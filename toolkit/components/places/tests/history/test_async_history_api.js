@@ -6042,7 +6042,6 @@ history
 addObserver
 (
 silentObserver
-false
 )
 ;
 let
@@ -6261,7 +6260,6 @@ history
 addObserver
 (
 titleChangeObserver
-false
 )
 ;
 }
@@ -6329,7 +6327,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }
@@ -6616,7 +6613,6 @@ history
 addObserver
 (
 visitObserver
-false
 )
 ;
 let
@@ -6698,7 +6694,6 @@ addObserver
 (
 observer
 URI_VISIT_SAVED
-false
 )
 ;
 PlacesUtils
@@ -7370,7 +7365,6 @@ history
 addObserver
 (
 frecencyObserverCheck
-false
 )
 ;
 }
@@ -8246,7 +8240,6 @@ history
 addObserver
 (
 visitObserver
-false
 )
 ;
 }
@@ -8368,7 +8361,6 @@ history
 addObserver
 (
 visitObserver
-false
 )
 ;
 }
@@ -8483,7 +8475,6 @@ history
 addObserver
 (
 visitObserver
-false
 )
 ;
 }

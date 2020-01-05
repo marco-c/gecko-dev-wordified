@@ -602,7 +602,6 @@ link
 -
 visited
 "
-false
 )
 ;
 /

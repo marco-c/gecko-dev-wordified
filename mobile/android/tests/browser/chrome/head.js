@@ -379,7 +379,6 @@ addObserver
 (
 observe
 topic
-false
 )
 ;
 info
@@ -567,7 +566,6 @@ addObserver
 (
 observe
 topic
-false
 )
 ;
 info

@@ -676,7 +676,6 @@ observe
 :
 onPrefChange
 }
-false
 )
 ;
 onPrefChange

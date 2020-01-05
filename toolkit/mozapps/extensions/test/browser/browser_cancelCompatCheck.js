@@ -597,7 +597,6 @@ aData
 ;
 }
 aTopic
-false
 )
 ;
 return

@@ -298,7 +298,6 @@ resolve
 }
 }
 TOPIC
-false
 )
 ;
 /

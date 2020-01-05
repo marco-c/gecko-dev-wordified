@@ -622,7 +622,6 @@ addObserver
 (
 OVERFLOW_THRESH
 this
-false
 )
 ;
 }

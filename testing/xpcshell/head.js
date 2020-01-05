@@ -3284,7 +3284,6 @@ addObserver
 (
 observe
 topic
-false
 )
 ;
 }
