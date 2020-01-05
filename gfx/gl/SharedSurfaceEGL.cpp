@@ -152,13 +152,6 @@ SharedSurface
 .
 h
 "
-#
-include
-"
-TextureGarbageBin
-.
-h
-"
 namespace
 mozilla
 {

@@ -138,9 +138,6 @@ class
 GLLibraryEGL
 ;
 class
-TextureGarbageBin
-;
-class
 SharedSurface_EGLImage
 :
 public
