@@ -782,7 +782,7 @@ this
 onTitleChanged
 (
 aURI
-aTitle
+aLastKnownTitle
 aGuid
 )
 ;
