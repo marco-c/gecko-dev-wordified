@@ -8335,15 +8335,6 @@ oldBack
 )
 )
 {
-/
-*
-Dup
-the
-last
-element
-.
-*
-/
 return
 nullptr
 ;
@@ -8354,6 +8345,8 @@ size_t
 i
 =
 oldLength
+-
+1
 ;
 i
 >
