@@ -3218,6 +3218,11 @@ TruncatedSmallGIFTestCase
 (
 )
 ;
+ImageTestCase
+GreenMultipleSizesICOTestCase
+(
+)
+;
 }
 /
 /
