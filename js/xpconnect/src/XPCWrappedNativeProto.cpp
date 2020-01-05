@@ -630,6 +630,10 @@ obj
 =
 =
 mJSProtoObject
+.
+unbarrieredGet
+(
+)
 "
 huh
 ?

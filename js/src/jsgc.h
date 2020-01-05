@@ -3961,6 +3961,17 @@ segments
 }
 }
 ;
+enum
+ShouldCheckThresholds
+{
+DontCheckThresholds
+=
+0
+CheckThresholds
+=
+1
+}
+;
 class
 ArenaLists
 {
@@ -5203,6 +5214,8 @@ Zone
 zone
 AllocKind
 thingKind
+ShouldCheckThresholds
+checkThresholds
 AutoMaybeStartBackgroundAllocation
 &
 maybeStartBGAlloc
@@ -6180,7 +6193,6 @@ dependencies
 .
 public
 :
-virtual
 void
 runFromHelperThread
 (

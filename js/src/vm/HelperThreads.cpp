@@ -6713,6 +6713,12 @@ parallelSection
 locked
 )
 ;
+gc
+:
+:
+AutoSetThreadIsPerformingGC
+performingGC
+;
 uint64_t
 timeStart
 =
