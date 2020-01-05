@@ -238,6 +238,7 @@ filemanager_thread
 :
 :
 {
+FileOrigin
 SelectedFileId
 FileManagerThreadMsg
 }
@@ -1093,7 +1094,7 @@ id
 =
 blob
 .
-get_id
+get_blob_url_id
 (
 )
 ;
@@ -1331,7 +1332,7 @@ msg
 FileManagerThreadMsg
 :
 :
-DecRef
+RevokeBlobURL
 (
 id
 origin
@@ -1452,14 +1453,6 @@ id
 result
 }
 /
-/
-XXX
-:
-change
-String
-to
-FileOrigin
-/
 *
 NOTE
 (
@@ -1513,7 +1506,7 @@ Url
 )
 -
 >
-String
+FileOrigin
 {
 if
 url
