@@ -165,6 +165,9 @@ dom
 class
 MessagePort
 ;
+class
+StringOrWorkerOptions
+;
 }
 }
 /
@@ -248,12 +251,9 @@ nsAString
 &
 aScriptURL
 const
-Optional
-<
-nsAString
->
+StringOrWorkerOptions
 &
-aName
+aOptions
 ErrorResult
 &
 aRv

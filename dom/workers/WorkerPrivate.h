@@ -415,6 +415,9 @@ WorkerDebuggerGlobalScope
 class
 WorkerGlobalScope
 ;
+struct
+WorkerOptions
+;
 }
 /
 /
@@ -1232,7 +1235,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 &
 aLoadInfo
@@ -3006,13 +3009,6 @@ WorkerName
 )
 const
 {
-MOZ_ASSERT
-(
-IsSharedWorker
-(
-)
-)
-;
 return
 mWorkerName
 ;
@@ -3795,6 +3791,10 @@ const
 nsAString
 &
 aScriptURL
+const
+WorkerOptions
+&
+aOptions
 ErrorResult
 &
 aRv
@@ -3822,7 +3822,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 *
 aLoadInfo
@@ -3852,7 +3852,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 *
 aLoadInfo
@@ -5106,7 +5106,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 &
 aLoadInfo
