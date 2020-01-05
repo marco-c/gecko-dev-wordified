@@ -373,7 +373,15 @@ test_populateFieldValues
 (
 )
 {
+let
+formAutofillParent
+=
+new
 FormAutofillParent
+(
+)
+;
+formAutofillParent
 .
 init
 (
@@ -382,7 +390,7 @@ init
 let
 store
 =
-FormAutofillParent
+formAutofillParent
 .
 getProfileStore
 (
@@ -455,7 +463,7 @@ resolve
 =
 >
 {
-FormAutofillParent
+formAutofillParent
 .
 receiveMessage
 (
@@ -585,7 +593,7 @@ notifyUsedCalledCount
 1
 )
 ;
-FormAutofillParent
+formAutofillParent
 .
 _uninit
 (
@@ -593,7 +601,7 @@ _uninit
 ;
 do_check_null
 (
-FormAutofillParent
+formAutofillParent
 .
 getProfileStore
 (
@@ -611,7 +619,15 @@ test_populateFieldValues_with_invalid_guid
 (
 )
 {
+let
+formAutofillParent
+=
+new
 FormAutofillParent
+(
+)
+;
+formAutofillParent
 .
 init
 (
@@ -626,7 +642,7 @@ throws
 =
 >
 {
-FormAutofillParent
+formAutofillParent
 .
 receiveMessage
 (
@@ -669,7 +685,7 @@ profile
 /
 )
 ;
-FormAutofillParent
+formAutofillParent
 .
 _uninit
 (
