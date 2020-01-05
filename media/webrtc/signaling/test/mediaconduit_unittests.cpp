@@ -3044,6 +3044,7 @@ if
 !
 mAudioSession
 )
+{
 ASSERT_NE
 (
 mAudioSession
@@ -3054,6 +3055,7 @@ void
 nullptr
 )
 ;
+}
 mozilla
 :
 :
@@ -3083,6 +3085,7 @@ if
 !
 mAudioSession2
 )
+{
 ASSERT_NE
 (
 mAudioSession2
@@ -3093,6 +3096,7 @@ void
 nullptr
 )
 ;
+}
 WebrtcMediaTransport
 *
 xport
@@ -3786,6 +3790,7 @@ if
 !
 mVideoSession
 )
+{
 ASSERT_NE
 (
 mVideoSession
@@ -3796,6 +3801,7 @@ void
 nullptr
 )
 ;
+}
 /
 /
 This
@@ -3833,6 +3839,7 @@ if
 !
 mVideoSession2
 )
+{
 ASSERT_NE
 (
 mVideoSession2
@@ -3843,6 +3850,7 @@ void
 nullptr
 )
 ;
+}
 if
 (
 !
@@ -4653,6 +4661,7 @@ if
 !
 videoSession
 )
+{
 ASSERT_NE
 (
 videoSession
@@ -4663,6 +4672,7 @@ void
 nullptr
 )
 ;
+}
 /
 /
 Test
@@ -6293,6 +6303,7 @@ if
 !
 mVideoSession
 )
+{
 ASSERT_NE
 (
 mVideoSession
@@ -6303,6 +6314,7 @@ void
 nullptr
 )
 ;
+}
 mozilla
 :
 :

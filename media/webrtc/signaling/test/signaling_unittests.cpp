@@ -9128,6 +9128,7 @@ pObserver
 addIceCandidateState
 =
 =
+(
 expectSuccess
 ?
 TestObserver
@@ -9139,6 +9140,7 @@ TestObserver
 :
 :
 stateError
+)
 )
 ;
 /
