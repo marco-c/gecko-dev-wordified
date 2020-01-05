@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Sanity
@@ -363,7 +368,7 @@ toString
 for
 (
 let
-path
+pth
 of
 paths
 )
@@ -381,7 +386,7 @@ for
 let
 part
 of
-path
+pth
 )
 {
 dumpn
@@ -444,14 +449,14 @@ dumpn
 for
 (
 let
-path
+path2
 of
 paths
 )
 {
 ok
 (
-path
+path2
 .
 length
 >
@@ -467,7 +472,7 @@ paths
 ;
 ok
 (
-path
+path2
 [
 0
 ]
@@ -496,7 +501,7 @@ for
 let
 part
 of
-path
+path2
 )
 {
 ok

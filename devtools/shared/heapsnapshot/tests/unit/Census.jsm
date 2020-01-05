@@ -40,6 +40,11 @@ census
 .
 js
 .
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -514,6 +519,7 @@ elt
 =
 0
 )
+{
 throw
 new
 Error
@@ -530,6 +536,7 @@ found
 elt
 )
 ;
+}
 }
 }
 ;
@@ -772,7 +779,7 @@ object
 "
 )
 {
-var
+let
 unvisited
 =
 new
@@ -818,15 +825,12 @@ prop
 )
 ;
 }
-else
-{
 return
 extra
 (
 prop
 )
 ;
-}
 }
 done
 :
@@ -856,8 +860,6 @@ expectedObject
 }
 ;
 }
-else
-{
 return
 {
 enter
@@ -878,7 +880,6 @@ basis
 )
 }
 ;
-}
 }
 ;
 }
@@ -983,6 +984,7 @@ a
 =
 b
 )
+{
 throw
 new
 Error
@@ -1003,6 +1005,7 @@ got
 b
 )
 ;
+}
 }
 missing
 :
@@ -1219,7 +1222,7 @@ compare
 :
 (
 subject
-basis
+base
 )
 =
 >
@@ -1231,7 +1234,7 @@ abs
 (
 subject
 -
-basis
+base
 )
 <
 =

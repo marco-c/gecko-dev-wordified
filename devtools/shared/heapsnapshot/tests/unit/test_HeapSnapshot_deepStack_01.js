@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -171,8 +176,10 @@ n
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 Make

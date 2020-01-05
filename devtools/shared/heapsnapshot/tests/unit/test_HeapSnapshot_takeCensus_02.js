@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 HeapSnapshot
@@ -173,13 +178,15 @@ not
 find
 anything
 .
-var
+let
 dbg
 =
 new
 Debugger
+(
+)
 ;
-var
+let
 census0
 =
 saveHeapSnapshotAndTakeCensus
@@ -205,7 +212,7 @@ newGlobalWithDefs
 (
 )
 {
-var
+let
 g
 =
 newGlobal
@@ -283,7 +290,7 @@ census
 finds
 them
 .
-var
+let
 g
 =
 newGlobalWithDefs
@@ -392,7 +399,7 @@ times
 "
 )
 ;
-var
+let
 census1
 =
 dbg

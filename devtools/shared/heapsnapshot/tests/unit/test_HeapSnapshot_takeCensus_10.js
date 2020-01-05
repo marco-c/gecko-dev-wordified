@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Check
@@ -240,9 +245,6 @@ allocationMarker
 7
 )
 ;
-/
-/
-8
 dbg
 .
 memory

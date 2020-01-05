@@ -40,6 +40,14 @@ into
 HeapSnapshot
 instances
 .
+/
+*
+eslint
+-
+disable
+strict
+*
+/
 if
 (
 typeof

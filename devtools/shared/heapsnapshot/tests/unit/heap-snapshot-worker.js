@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 console
 .
 log
@@ -42,7 +47,7 @@ self
 .
 onmessage
 =
-e
+ex
 =
 >
 {

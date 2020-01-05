@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 HeapSnapshot
@@ -65,7 +70,12 @@ start
 <
 30
 )
-;
+{
+/
+/
+do
+nothing
+}
 }
 function
 run_test

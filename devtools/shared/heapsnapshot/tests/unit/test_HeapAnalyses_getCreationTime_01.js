@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -74,7 +79,12 @@ start
 <
 30
 )
-;
+{
+/
+/
+do
+nothing
+}
 }
 function
 run_test

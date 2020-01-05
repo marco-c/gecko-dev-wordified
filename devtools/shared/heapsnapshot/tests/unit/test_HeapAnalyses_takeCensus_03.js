@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -203,6 +208,9 @@ to
 read
 a
 file
+"
++
+"
 that
 is
 not

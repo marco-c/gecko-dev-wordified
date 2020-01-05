@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -77,14 +82,14 @@ run_test
 (
 )
 {
-var
+let
 g
 =
 newGlobal
 (
 )
 ;
-var
+let
 dbg
 =
 new
@@ -156,7 +161,7 @@ census
 "
 )
 ;
-var
+let
 allocationMarkerCount
 ;
 g

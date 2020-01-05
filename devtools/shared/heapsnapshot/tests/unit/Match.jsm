@@ -38,6 +38,11 @@ server
 xpcshell
 tests
 .
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -82,6 +87,7 @@ instanceof
 Pattern
 )
 )
+{
 return
 new
 Pattern
@@ -89,6 +95,7 @@ Pattern
 template
 )
 ;
+}
 this
 .
 template
@@ -139,7 +146,10 @@ act
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 MatchError
@@ -149,6 +159,10 @@ return
 false
 ;
 }
+}
+return
+false
+;
 }
 assert
 :
@@ -172,7 +186,10 @@ act
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 MatchError
@@ -203,6 +220,10 @@ message
 ;
 }
 }
+return
+false
+;
+}
 toString
 :
 (
@@ -223,6 +244,8 @@ ANY
 =
 new
 Pattern
+(
+)
 ;
 Pattern
 .
@@ -240,6 +263,8 @@ NUMBER
 =
 new
 Pattern
+(
+)
 ;
 Pattern
 .
@@ -259,9 +284,9 @@ act
 !
 =
 =
-'
+"
 number
-'
+"
 )
 {
 throw
@@ -283,12 +308,16 @@ act
 ;
 }
 }
+;
 Pattern
 .
 NATURAL
 =
 new
 Pattern
+(
+)
+;
 Pattern
 .
 NATURAL
@@ -307,9 +336,9 @@ act
 !
 =
 =
-'
+"
 number
-'
+"
 |
 |
 act
@@ -349,7 +378,8 @@ act
 ;
 }
 }
-var
+;
+let
 quote
 =
 uneval
@@ -575,6 +605,7 @@ isNaN
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -592,6 +623,7 @@ act
 )
 )
 ;
+}
 return
 true
 ;
@@ -613,6 +645,7 @@ act
 =
 null
 )
+{
 throw
 new
 MatchError
@@ -630,6 +663,7 @@ act
 )
 )
 ;
+}
 return
 true
 ;
@@ -661,6 +695,7 @@ act
 .
 source
 )
+{
 throw
 new
 MatchError
@@ -685,6 +720,7 @@ act
 )
 )
 ;
+}
 return
 true
 ;
@@ -708,6 +744,7 @@ act
 =
 exp
 )
+{
 throw
 new
 MatchError
@@ -731,6 +768,7 @@ act
 )
 )
 ;
+}
 return
 true
 ;
@@ -752,6 +790,7 @@ exp
 =
 act
 )
+{
 throw
 new
 MatchError
@@ -772,6 +811,7 @@ act
 )
 )
 ;
+}
 return
 true
 ;
@@ -809,6 +849,7 @@ isObject
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -825,9 +866,10 @@ act
 )
 )
 ;
+}
 for
 (
-var
+let
 key
 in
 exp
@@ -842,6 +884,7 @@ in
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -868,6 +911,7 @@ act
 )
 )
 ;
+}
 match
 (
 act
@@ -900,6 +944,7 @@ isFunction
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -916,6 +961,7 @@ act
 )
 )
 ;
+}
 if
 (
 act
@@ -924,6 +970,7 @@ act
 =
 exp
 )
+{
 throw
 new
 MatchError
@@ -948,6 +995,7 @@ function
 act
 )
 ;
+}
 }
 function
 matchArray
@@ -974,6 +1022,7 @@ in
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -993,7 +1042,8 @@ act
 )
 )
 ;
-var
+}
+let
 length
 =
 exp
@@ -1012,6 +1062,7 @@ exp
 .
 length
 )
+{
 throw
 new
 MatchError
@@ -1038,9 +1089,10 @@ act
 )
 )
 ;
+}
 for
 (
-var
+let
 i
 =
 0
@@ -1070,6 +1122,7 @@ in
 act
 )
 )
+{
 throw
 new
 MatchError
@@ -1094,6 +1147,7 @@ act
 )
 )
 ;
+}
 match
 (
 act
@@ -1129,15 +1183,18 @@ Pattern
 .
 ANY
 )
+{
 return
 true
 ;
+}
 if
 (
 exp
 instanceof
 Pattern
 )
+{
 return
 exp
 .
@@ -1146,6 +1203,7 @@ match
 act
 )
 ;
+}
 if
 (
 isAtom
@@ -1153,6 +1211,7 @@ isAtom
 exp
 )
 )
+{
 return
 matchAtom
 (
@@ -1160,6 +1219,7 @@ act
 exp
 )
 ;
+}
 if
 (
 isArrayLike
@@ -1167,6 +1227,7 @@ isArrayLike
 exp
 )
 )
+{
 return
 matchArray
 (
@@ -1174,6 +1235,7 @@ act
 exp
 )
 ;
+}
 if
 (
 isFunction
@@ -1181,6 +1243,7 @@ isFunction
 exp
 )
 )
+{
 return
 matchFunction
 (
@@ -1188,6 +1251,7 @@ act
 exp
 )
 ;
+}
 return
 matchObject
 (
@@ -1199,10 +1263,6 @@ exp
 return
 {
 Pattern
-:
-Pattern
-MatchError
-:
 MatchError
 }
 ;

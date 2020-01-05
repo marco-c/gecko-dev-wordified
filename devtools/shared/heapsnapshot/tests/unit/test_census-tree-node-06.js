@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -88,12 +93,6 @@ bytes
 true
 }
 }
-;
-let
-stack1
-stack2
-stack3
-stack4
 ;
 function
 a

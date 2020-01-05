@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 HeapSnapshot
@@ -69,14 +74,14 @@ run_test
 (
 )
 {
-var
+let
 g
 =
 newGlobal
 (
 )
 ;
-var
+let
 dbg
 =
 new
@@ -149,9 +154,6 @@ f
 ;
 /
 /
-6
-/
-/
 Create
 one
 allocationMarker
@@ -185,6 +187,7 @@ allocationSamplingProbability
 ;
 for
 (
+let
 [
 func
 n

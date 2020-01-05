@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -182,9 +187,6 @@ allocationMarker
 5
 )
 ;
-/
-/
-6
 /
 /
 Create
@@ -503,9 +505,12 @@ instanceof
 .
 equal
 (
-map
+Object
 .
-__proto__
+getPrototypeOf
+(
+map
+)
 .
 constructor
 .

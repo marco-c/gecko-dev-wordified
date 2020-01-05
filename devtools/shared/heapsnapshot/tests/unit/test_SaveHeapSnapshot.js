@@ -34,6 +34,15 @@ the
 ChromeUtils
 interface
 .
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
 if
 (
 typeof
@@ -546,6 +555,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 let
 sandboxes
@@ -614,6 +625,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 ChromeUtils
 .

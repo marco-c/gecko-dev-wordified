@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -362,6 +367,9 @@ a
 list
 of
 children
+"
++
+"
 or
 undefined
 meaning

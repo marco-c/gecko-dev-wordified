@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 HeapSnapshot
@@ -75,13 +80,15 @@ run_test
 (
 )
 {
-var
+let
 dbg
 =
 new
 Debugger
+(
+)
 ;
-var
+let
 census0
 =
 saveHeapSnapshotAndTakeCensus
@@ -102,7 +109,7 @@ Census
 assertAllZeros
 )
 ;
-var
+let
 g1
 =
 newGlobal
@@ -116,7 +123,7 @@ addDebuggee
 g1
 )
 ;
-var
+let
 census1
 =
 saveHeapSnapshotAndTakeCensus
@@ -140,7 +147,7 @@ census0
 )
 )
 ;
-var
+let
 g2
 =
 newGlobal
@@ -154,7 +161,7 @@ addDebuggee
 g2
 )
 ;
-var
+let
 census2
 =
 saveHeapSnapshotAndTakeCensus
@@ -185,7 +192,7 @@ removeDebuggee
 g2
 )
 ;
-var
+let
 census3
 =
 saveHeapSnapshotAndTakeCensus
@@ -216,7 +223,7 @@ removeDebuggee
 g1
 )
 ;
-var
+let
 census4
 =
 saveHeapSnapshotAndTakeCensus
