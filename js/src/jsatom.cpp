@@ -4019,7 +4019,7 @@ lengthAndEncoding
 &
 0x1
 ;
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -4237,11 +4237,6 @@ size
 chars
 =
 cx
--
->
-runtime
-(
-)
 -
 >
 pod_malloc
