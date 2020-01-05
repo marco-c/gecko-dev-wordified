@@ -236,6 +236,15 @@ double
 aIncrement
 )
 ;
+virtual
+STDMETHODIMP
+get_mozState
+(
+uint64_t
+*
+aState
+)
+;
 private
 :
 GeckoCustom
