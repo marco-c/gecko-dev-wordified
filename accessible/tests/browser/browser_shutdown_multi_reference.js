@@ -205,7 +205,7 @@ will
 resolve
 only
 if
-canShutdown
+canShutdonw
 flag
 is
 set
