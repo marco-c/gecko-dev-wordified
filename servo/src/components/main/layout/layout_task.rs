@@ -1694,10 +1694,10 @@ what
 needs
 painting
 .
-for
+do
 layout_root
 .
-traverse_preorder
+partially_traverse_preorder
 |
 flow
 |
@@ -1716,7 +1716,6 @@ position
 )
 display_list
 )
-;
 }
 let
 root_size
@@ -2404,7 +2403,15 @@ new
 )
 )
 ;
+do
 flow
+.
+partially_traverse_preorder
+|
+this_flow
+|
+{
+this_flow
 .
 build_display_list
 (
@@ -2418,7 +2425,7 @@ position
 )
 display_list
 )
-;
+}
 let
 (
 x
