@@ -18701,11 +18701,7 @@ GET_BACKTRACE_DEFAULT_ENTRIES
 )
 ;
 ThreadInfo
-*
 threadInfo
-=
-new
-ThreadInfo
 (
 "
 SyncProfile
@@ -18727,8 +18723,7 @@ nullptr
 )
 ;
 threadInfo
--
->
+.
 SetHasProfile
 (
 )
@@ -18736,6 +18731,7 @@ SetHasProfile
 TickSample
 sample
 (
+&
 threadInfo
 )
 ;
@@ -18819,8 +18815,11 @@ UniqueProfilerBacktrace
 new
 ProfilerBacktrace
 (
+"
+SyncProfile
+"
+tid
 buffer
-threadInfo
 )
 )
 ;
