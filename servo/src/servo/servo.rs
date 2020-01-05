@@ -288,7 +288,7 @@ timer
 :
 sleep
 (
-10u
+200u
 )
 ;
 if
