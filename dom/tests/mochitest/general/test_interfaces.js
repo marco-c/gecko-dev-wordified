@@ -5030,9 +5030,6 @@ name
 "
 IdleDeadline
 "
-nightly
-:
-true
 }
 /
 /
