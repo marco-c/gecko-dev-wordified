@@ -240,7 +240,10 @@ bindings
 global
 :
 :
+{
 GlobalField
+GlobalRef
+}
 ;
 use
 dom
@@ -4854,6 +4857,9 @@ pub
 fn
 BooleanAttributeStatic
 (
+_
+:
+GlobalRef
 )
 -
 >
@@ -4867,6 +4873,9 @@ SetBooleanAttributeStatic
 (
 _
 :
+GlobalRef
+_
+:
 bool
 )
 {
@@ -4875,6 +4884,9 @@ pub
 fn
 ReceiveVoidStatic
 (
+_
+:
+GlobalRef
 )
 {
 }
