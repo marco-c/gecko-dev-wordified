@@ -2110,8 +2110,7 @@ here
 let
 text
 =
-'
-'
+null
 ;
 if
 (
