@@ -898,7 +898,6 @@ block
 (
 trait_span
 stmts
-None
 )
 )
 }
