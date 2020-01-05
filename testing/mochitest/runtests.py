@@ -465,26 +465,6 @@ mozilla
 .
 org
 .
-#
-MOZ_LOG
-=
-"
-signaling
-:
-3
-mtransport
-:
-4
-DataChannel
-:
-4
-jsep
-:
-4
-MediaPipelineFactory
-:
-4
-"
 MOZ_LOG
 =
 "
@@ -5946,6 +5926,9 @@ __init__
 (
 self
 logger_options
+quiet
+=
+False
 )
 :
         
@@ -6098,6 +6081,9 @@ logger
 self
 .
 log
+buffering
+=
+quiet
 )
         
 #
@@ -14760,10 +14746,6 @@ bisectChunk
 =
 None
                
-quiet
-=
-False
-               
 marionette_args
 =
 None
@@ -14817,21 +14799,6 @@ seconds
 "
 "
 "
-        
-#
-configure
-the
-message
-logger
-buffering
-        
-self
-.
-message_logger
-.
-buffering
-=
-quiet
         
 #
 It
@@ -18613,12 +18580,6 @@ options
 .
 bisectChunk
                                  
-quiet
-=
-options
-.
-quiet
-                                 
 marionette_args
 =
 marionette_args
@@ -20543,6 +20504,11 @@ runner
 MochitestDesktop
 (
 logger_options
+quiet
+=
+options
+.
+quiet
 )
     
 options
