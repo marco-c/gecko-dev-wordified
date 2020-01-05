@@ -7099,6 +7099,12 @@ self
 perform_updates_after_scroll
 (
 )
+;
+self
+.
+send_viewport_rects_for_all_layers
+(
+)
 }
 else
 {
