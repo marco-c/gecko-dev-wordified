@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsHtml5RefPtr
+nsHtml5StreamParserPtr
 .
 h
 "
@@ -152,7 +152,7 @@ problem
 mDelegate
 is
 an
-nsHtml5RefPtr
+nsHtml5StreamParserPtr
 which
 releases
 the
@@ -252,7 +252,7 @@ have
 a
 mutex
 around
-nsHtml5RefPtr
+nsHtml5StreamParserPtr
 to
 *
 prevent
@@ -311,10 +311,7 @@ nsHtml5StreamListener
 (
 )
 ;
-nsHtml5RefPtr
-<
-nsHtml5StreamParser
->
+nsHtml5StreamParserPtr
 mDelegate
 ;
 }

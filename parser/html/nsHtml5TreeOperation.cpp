@@ -3657,7 +3657,7 @@ nsHtml5SVGLoadDispatcher
 TaskCategory
 :
 :
-Other
+Network
 event
 .
 forget
