@@ -14003,7 +14003,10 @@ longhands
 float
 :
 :
-SpecifiedValue
+computed_value
+:
+:
+T
 :
 :
 none
