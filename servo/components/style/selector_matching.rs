@@ -84,10 +84,7 @@ use
 error_reporting
 :
 :
-{
-ParseErrorReporter
 StdoutErrorReporter
-}
 ;
 use
 media_queries
@@ -104,7 +101,6 @@ properties
 :
 {
 self
-ComputedValues
 PropertyDeclaration
 PropertyDeclarationBlock
 }

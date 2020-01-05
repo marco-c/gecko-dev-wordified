@@ -212,10 +212,6 @@ net_traits
 ;
 extern
 crate
-num_traits
-;
-extern
-crate
 offscreen_gl_context
 ;
 #

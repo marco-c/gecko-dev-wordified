@@ -3809,15 +3809,6 @@ ViewportConstraints
 >
 {
 use
-num_traits
-:
-:
-{
-Float
-ToPrimitive
-}
-;
-use
 std
 :
 :

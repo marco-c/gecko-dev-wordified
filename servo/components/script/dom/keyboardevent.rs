@@ -183,10 +183,7 @@ bindings
 reflector
 :
 :
-{
-Reflectable
 reflect_dom_object
-}
 ;
 use
 dom

@@ -369,12 +369,6 @@ PreInvoke
 }
 ;
 use
-script_runtime
-:
-:
-ScriptChan
-;
-use
 script_thread
 :
 :
@@ -409,12 +403,6 @@ string_cache
 :
 :
 Atom
-;
-use
-task_source
-:
-:
-TaskSource
 ;
 use
 task_source

@@ -91,15 +91,6 @@ properties
 longhands
 ;
 use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
-use
 util
 :
 :

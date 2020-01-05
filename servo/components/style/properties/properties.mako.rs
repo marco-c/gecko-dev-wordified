@@ -10292,7 +10292,6 @@ style_struct_traits
 {
 Border
 Box
-Color
 Font
 Outline
 }

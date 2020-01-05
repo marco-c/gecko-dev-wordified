@@ -527,10 +527,7 @@ use
 num_traits
 :
 :
-{
-Float
 ToPrimitive
-}
 ;
 use
 script_traits

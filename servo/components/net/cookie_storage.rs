@@ -95,12 +95,6 @@ net_traits
 CookieSource
 ;
 use
-rustc_serialize
-:
-:
-Encoder
-;
-use
 std
 :
 :

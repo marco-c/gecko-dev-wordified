@@ -218,15 +218,6 @@ use
 style
 :
 :
-error_reporting
-:
-:
-ParseErrorReporter
-;
-use
-style
-:
-:
 properties
 :
 :

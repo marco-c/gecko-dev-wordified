@@ -277,7 +277,6 @@ flow
 {
 self
 AbsoluteDescendants
-Flow
 IS_ABSOLUTELY_POSITIONED
 ImmutableFlowUtils
 }
@@ -636,7 +635,6 @@ wrapper
 :
 :
 {
-LayoutNode
 PseudoElementType
 TextContent
 ThreadSafeLayoutElement

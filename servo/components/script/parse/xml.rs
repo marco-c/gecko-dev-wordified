@@ -107,7 +107,6 @@ js
 {
 JS
 Root
-RootedReference
 }
 ;
 use

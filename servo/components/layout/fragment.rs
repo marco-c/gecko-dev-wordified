@@ -119,7 +119,6 @@ flow
 :
 {
 self
-Flow
 ImmutableFlowUtils
 }
 ;
