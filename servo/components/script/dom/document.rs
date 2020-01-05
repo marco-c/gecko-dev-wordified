@@ -2501,7 +2501,7 @@ MozBrowserEvent
 /
 /
 /
-http
+https
 :
 /
 /
@@ -2542,7 +2542,7 @@ i32
 /
 /
 /
-http
+https
 :
 /
 /
@@ -2574,7 +2574,7 @@ i32
 /
 /
 /
-http
+https
 :
 /
 /
@@ -7397,7 +7397,7 @@ unwrap
 /
 /
 /
-http
+https
 :
 /
 /
@@ -7551,7 +7551,7 @@ ident
 /
 /
 /
-http
+https
 :
 /
 /
@@ -7678,7 +7678,7 @@ unwrap
 /
 /
 /
-http
+https
 :
 /
 /
