@@ -10241,13 +10241,9 @@ Step
 let
 credentials
 =
-request
+response
 .
 headers
-.
-borrow
-(
-)
 .
 get
 :

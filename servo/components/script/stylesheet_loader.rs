@@ -1499,6 +1499,9 @@ self
 source
 :
 StylesheetContextSource
+integrity_metadata
+:
+String
 )
 {
 let
@@ -1808,6 +1811,9 @@ url
 referrer_policy
 :
 referrer_policy
+integrity_metadata
+:
+integrity_metadata
 .
 .
 RequestInit
@@ -1879,6 +1885,12 @@ import
 clone
 (
 )
+)
+"
+"
+.
+to_owned
+(
 )
 )
 }
