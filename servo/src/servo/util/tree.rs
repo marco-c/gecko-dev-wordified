@@ -58,7 +58,7 @@ T
 >
 }
 ;
-iface
+trait
 ReadMethods
 <
 T
@@ -89,7 +89,7 @@ R
 R
 ;
 }
-iface
+trait
 WriteMethods
 <
 T
