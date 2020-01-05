@@ -6095,12 +6095,10 @@ value
 type
 >
 void
-SetIntValue
+SetEnumValue
 (
 T
 aValue
-nsCSSUnit
-aUnit
 )
 {
 static_assert
@@ -6140,7 +6138,7 @@ int32_t
 (
 aValue
 )
-aUnit
+eCSSUnit_Enumerated
 )
 ;
 }
