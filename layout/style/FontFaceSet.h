@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsCSSRules
+nsCSSFontFaceRule
 .
 h
 "
