@@ -14,7 +14,7 @@ constants
 Services
 :
 var
-blacklist_test_service_uuid
+blocklist_test_service_uuid
 =
 "
 611c954a
@@ -48,7 +48,7 @@ d65e7b9277af
 Characteristics
 :
 var
-blacklist_exclude_reads_characteristic_uuid
+blocklist_exclude_reads_characteristic_uuid
 =
 "
 bad1c9a2
@@ -82,7 +82,7 @@ d65e7b9277af
 Descriptors
 :
 var
-blacklist_exclude_reads_descriptor_uuid
+blocklist_exclude_reads_descriptor_uuid
 =
 "
 aaaaaaaa
@@ -97,7 +97,7 @@ aaaa
 "
 ;
 var
-blacklist_descriptor_uuid
+blocklist_descriptor_uuid
 =
 "
 07711111
@@ -181,10 +181,10 @@ unicode_device
 '
 UnicodeDeviceAdapter
 '
-blacklist
+blocklist
 :
 '
-BlacklistTestAdapter
+BlocklistTestAdapter
 '
 missing_characteristic_heart_rate
 :
