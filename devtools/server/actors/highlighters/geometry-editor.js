@@ -677,9 +677,7 @@ win
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 offsetParent
@@ -4579,9 +4577,7 @@ this
 .
 currentNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 [
 "
 scroll

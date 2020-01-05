@@ -501,9 +501,7 @@ window
 |
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 let

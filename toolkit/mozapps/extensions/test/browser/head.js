@@ -1949,9 +1949,7 @@ managerWindow
 =
 addon
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /
@@ -3750,9 +3748,7 @@ style
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

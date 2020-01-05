@@ -281,9 +281,7 @@ chromeWin
 =
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

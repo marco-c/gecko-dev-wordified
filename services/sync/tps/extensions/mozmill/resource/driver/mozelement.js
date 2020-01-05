@@ -2888,9 +2888,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -2910,9 +2908,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -4365,9 +4361,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 return

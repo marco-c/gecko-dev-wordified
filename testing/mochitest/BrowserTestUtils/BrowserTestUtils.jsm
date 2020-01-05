@@ -621,9 +621,7 @@ originalWindow
 =
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 result
@@ -641,9 +639,7 @@ finalWindow
 =
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -1442,9 +1438,7 @@ mm
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 messageManager
 ;
@@ -2776,9 +2770,7 @@ if
 !
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )
@@ -4829,9 +4821,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tab
@@ -5741,9 +5731,7 @@ closing
 {
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 .
@@ -6887,9 +6875,7 @@ gBrowser
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -7031,9 +7017,7 @@ MutationObserver
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 MutationObserver
 ;

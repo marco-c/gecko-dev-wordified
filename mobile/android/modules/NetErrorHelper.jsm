@@ -1233,9 +1233,7 @@ page
 .
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 setTimeout
 (

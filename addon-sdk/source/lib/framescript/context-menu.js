@@ -694,9 +694,7 @@ node
 instanceof
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 HTMLVideoElement
 &
@@ -722,9 +720,7 @@ HTMLAudioElement
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 node
@@ -1679,9 +1675,7 @@ node
 >
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getSelection
 (
@@ -1733,9 +1727,7 @@ node
 !
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 frameElement
 )

@@ -43561,9 +43561,7 @@ this
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 let

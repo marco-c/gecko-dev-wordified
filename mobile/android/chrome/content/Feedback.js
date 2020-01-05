@@ -378,9 +378,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 ;

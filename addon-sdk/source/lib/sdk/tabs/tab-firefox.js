@@ -618,9 +618,7 @@ get
 tab
 )
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -902,9 +900,7 @@ domWindow
 =
 tabElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 modelFor
@@ -1597,9 +1593,7 @@ maybeWindowFor
 (
 tabElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 if
@@ -1742,9 +1736,7 @@ domWindow
 =
 tabElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

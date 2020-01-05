@@ -281,9 +281,7 @@ win
 =
 editableElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 editor
 =

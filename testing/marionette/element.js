@@ -5519,9 +5519,7 @@ win
 =
 el
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 c
@@ -5776,9 +5774,7 @@ win
 =
 el
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

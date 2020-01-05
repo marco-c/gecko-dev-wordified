@@ -431,9 +431,7 @@ element
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 frameElement
 ;

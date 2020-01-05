@@ -169,9 +169,7 @@ containerWindow
 =
 pluginElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 function
 mapValue

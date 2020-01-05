@@ -195,9 +195,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 editingSession

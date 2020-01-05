@@ -1622,9 +1622,7 @@ win
 =
 elem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /
@@ -1855,9 +1853,7 @@ win
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 rect
 =

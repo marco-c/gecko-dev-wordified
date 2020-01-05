@@ -1017,9 +1017,7 @@ window
 =
 anchor
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

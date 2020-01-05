@@ -1155,9 +1155,7 @@ win
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 x
@@ -1212,9 +1210,7 @@ win
 =
 parentFrame
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 cstyle

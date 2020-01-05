@@ -3904,9 +3904,7 @@ e
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /
@@ -4107,9 +4105,7 @@ e
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

@@ -266,9 +266,7 @@ win
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 rect

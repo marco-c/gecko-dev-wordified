@@ -243,9 +243,7 @@ containerWindow
 =
 pluginElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

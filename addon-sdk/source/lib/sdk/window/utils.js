@@ -2654,9 +2654,7 @@ getToplevelWindow
 (
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 /

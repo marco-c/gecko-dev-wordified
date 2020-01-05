@@ -2279,9 +2279,7 @@ nsIDocShell
 .
 chromeEventHandler
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 chromeWin

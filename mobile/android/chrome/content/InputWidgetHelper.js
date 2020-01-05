@@ -195,9 +195,7 @@ window
 :
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 title
 :
 Strings

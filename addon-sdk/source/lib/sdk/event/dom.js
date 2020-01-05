@@ -222,9 +222,7 @@ nsIDOMNode
 ?
 x
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 :
 null
 ;

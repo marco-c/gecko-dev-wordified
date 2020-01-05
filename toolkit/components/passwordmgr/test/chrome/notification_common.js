@@ -183,9 +183,7 @@ nsIDocShell
 .
 chromeEventHandler
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 popupNotifications
@@ -707,9 +705,7 @@ nsIDocShell
 .
 chromeEventHandler
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 nb

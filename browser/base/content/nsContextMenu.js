@@ -7969,9 +7969,7 @@ aProp
 return
 aElem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -8017,9 +8015,7 @@ url
 =
 aElem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

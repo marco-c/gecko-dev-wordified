@@ -1440,9 +1440,7 @@ MutationObserver
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 const
 observer

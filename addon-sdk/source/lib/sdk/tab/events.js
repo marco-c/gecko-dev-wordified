@@ -712,9 +712,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 BrowserApp
 .

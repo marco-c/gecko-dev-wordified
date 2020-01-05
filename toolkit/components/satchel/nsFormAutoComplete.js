@@ -431,9 +431,7 @@ window
 =
 formField
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 topDocShell

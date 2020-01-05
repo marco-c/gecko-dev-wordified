@@ -4144,9 +4144,7 @@ win
 =
 elt
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 offsetX

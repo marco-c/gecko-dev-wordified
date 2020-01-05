@@ -3254,9 +3254,7 @@ aEvent
 .
 currentTarget
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 switch
 (

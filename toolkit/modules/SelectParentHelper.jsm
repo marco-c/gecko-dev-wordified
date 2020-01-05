@@ -276,9 +276,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /
@@ -991,9 +989,7 @@ this
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -1006,9 +1002,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -1021,9 +1015,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -1097,9 +1089,7 @@ this
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -1112,9 +1102,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -1127,9 +1115,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -1232,9 +1218,7 @@ win
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

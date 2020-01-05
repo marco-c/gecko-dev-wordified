@@ -4619,9 +4619,7 @@ windowOrRange
 .
 startContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 window

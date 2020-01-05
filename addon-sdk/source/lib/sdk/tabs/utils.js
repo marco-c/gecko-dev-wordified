@@ -735,9 +735,7 @@ ownerDocument
 return
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 /
 /

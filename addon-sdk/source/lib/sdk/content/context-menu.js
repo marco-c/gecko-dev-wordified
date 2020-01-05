@@ -798,9 +798,7 @@ if
 !
 popupNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getSelection
 (
@@ -913,9 +911,7 @@ if
 !
 popupNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getSelection
 (
@@ -1198,9 +1194,7 @@ window
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 data
@@ -1951,9 +1945,7 @@ getItemWorkerForWindow
 this
 popupNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 if
@@ -2052,9 +2044,7 @@ getItemWorkerForWindow
 this
 popupNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 let

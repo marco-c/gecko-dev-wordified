@@ -518,9 +518,7 @@ getNewPrompter
 (
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 .
 alert

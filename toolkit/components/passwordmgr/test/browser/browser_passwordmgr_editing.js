@@ -256,9 +256,7 @@ clickCount
 }
 aTree
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

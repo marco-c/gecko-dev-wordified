@@ -719,9 +719,7 @@ currentWindow
 .
 realFrameElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 targetDocShell

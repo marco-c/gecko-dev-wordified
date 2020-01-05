@@ -679,9 +679,7 @@ this
 .
 _scrollable
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -706,9 +704,7 @@ this
 .
 _scrollable
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -896,9 +892,7 @@ _scrollable
 =
 aNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -6328,9 +6322,7 @@ eventTarget
 :
 eventTarget
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 eventTarget
 .
@@ -8717,9 +8709,7 @@ Node
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 Node
 ;
@@ -9229,9 +9219,7 @@ Node
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 Node
 ;
@@ -10860,9 +10848,7 @@ window
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 dir
@@ -11515,9 +11501,7 @@ aElement
 return
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

@@ -529,9 +529,7 @@ tab
 .
 linkedBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tab
