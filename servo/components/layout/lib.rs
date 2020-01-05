@@ -77,6 +77,14 @@ arc_unique
 [
 feature
 (
+box_str
+)
+]
+#
+!
+[
+feature
+(
 box_syntax
 )
 ]

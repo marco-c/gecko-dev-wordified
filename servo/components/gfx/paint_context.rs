@@ -10441,10 +10441,7 @@ DrawTarget
 run
 :
 &
-Box
-<
 TextRun
->
 range
 :
 &
@@ -10484,10 +10481,7 @@ DrawTarget
 run
 :
 &
-Box
-<
 TextRun
->
 range
 :
 &

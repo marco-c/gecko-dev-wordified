@@ -2049,7 +2049,6 @@ Arc
 :
 new
 (
-box
 TextRun
 :
 :
@@ -2905,7 +2904,6 @@ return
 ;
 string_before
 =
-box
 unscanned_text_fragment_info
 .
 text
@@ -2920,6 +2918,10 @@ position
 ]
 .
 to_owned
+(
+)
+.
+into_boxed_slice
 (
 )
 ;
@@ -2927,7 +2929,6 @@ unscanned_text_fragment_info
 .
 text
 =
-box
 unscanned_text_fragment_info
 .
 text
@@ -2942,6 +2943,10 @@ position
 ]
 .
 to_owned
+(
+)
+.
+into_boxed_slice
 (
 )
 ;

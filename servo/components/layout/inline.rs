@@ -3757,7 +3757,6 @@ strip_trailing_whitespace_if_necessary
 (
 &
 *
-*
 scanned_text_fragment_info
 .
 run
