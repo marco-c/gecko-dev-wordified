@@ -209,7 +209,7 @@ void
 pinArg
 )
 ;
-SECStatus
+nsresult
 SetTrustedRoot
 (
 AppTrustedRoot
