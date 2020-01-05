@@ -3145,7 +3145,6 @@ key
 +
 value
 ;
-}
 defaults
 .
 _prefBranch
@@ -3159,6 +3158,7 @@ nsIPrefLocalizedString
 localizedStr
 )
 ;
+}
 }
 catch
 (
