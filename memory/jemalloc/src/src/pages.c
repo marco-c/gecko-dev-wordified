@@ -1086,7 +1086,7 @@ size
 ;
 #
 ifdef
-JEMALLOC_THP
+JEMALLOC_HAVE_MADVISE_HUGE
 return
 (
 madvise
@@ -1144,7 +1144,7 @@ size
 ;
 #
 ifdef
-JEMALLOC_THP
+JEMALLOC_HAVE_MADVISE_HUGE
 return
 (
 madvise
