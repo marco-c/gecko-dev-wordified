@@ -1519,10 +1519,10 @@ padding_bottom
 get_padding
 .
 padding_left
-get_box
+get_position
 .
 width
-get_box
+get_position
 .
 height
 get_inheritedtext

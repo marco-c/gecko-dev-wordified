@@ -1234,7 +1234,7 @@ font_weight
 [
 Height
 ;
-get_box
+get_position
 ;
 height
 ]
@@ -1395,7 +1395,7 @@ visibility
 [
 Width
 ;
-get_box
+get_position
 ;
 width
 ]
@@ -1962,7 +1962,7 @@ font_weight
 [
 Height
 ;
-mutate_box
+mutate_position
 ;
 height
 ]
@@ -2137,7 +2137,7 @@ visibility
 [
 Width
 ;
-mutate_box
+mutate_position
 ;
 width
 ]
