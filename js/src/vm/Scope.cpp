@@ -3640,7 +3640,7 @@ mode
 =
 XDR_DECODE
 )
-js_delete
+DeleteScopeData
 (
 data
 .
@@ -5568,7 +5568,7 @@ mode
 =
 XDR_DECODE
 )
-js_delete
+DeleteScopeData
 (
 data
 .
