@@ -2572,7 +2572,7 @@ IsEmpty
 {
 nsCOMPtr
 <
-nsIDOMHTMLElement
+Element
 >
 element
 =
