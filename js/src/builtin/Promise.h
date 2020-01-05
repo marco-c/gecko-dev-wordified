@@ -231,6 +231,16 @@ false
 )
 ;
 static
+PromiseObject
+*
+createSkippingExecutor
+(
+JSContext
+*
+cx
+)
+;
+static
 JSObject
 *
 unforgeableResolve
