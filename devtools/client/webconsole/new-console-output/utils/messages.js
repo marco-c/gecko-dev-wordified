@@ -1110,7 +1110,6 @@ exceptionMessage
 :
 messageText
 exceptionDocURL
-frame
 result
 :
 parameters
@@ -1150,7 +1149,6 @@ level
 messageText
 parameters
 exceptionDocURL
-frame
 }
 )
 ;
