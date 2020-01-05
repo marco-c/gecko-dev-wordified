@@ -1673,6 +1673,11 @@ CancelOffThreadParses
 this
 )
 ;
+CancelOffThreadCompressions
+(
+this
+)
+;
 /
 *
 Remove
