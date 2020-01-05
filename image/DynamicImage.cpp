@@ -362,8 +362,6 @@ DynamicImage
 :
 OnSurfaceDiscarded
 (
-SurfaceKey
-aSurfaceKey
 )
 {
 }

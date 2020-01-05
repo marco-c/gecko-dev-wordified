@@ -1511,8 +1511,6 @@ virtual
 void
 OnSurfaceDiscarded
 (
-SurfaceKey
-aSurfaceKey
 )
 =
 0
@@ -1668,8 +1666,6 @@ virtual
 void
 OnSurfaceDiscarded
 (
-SurfaceKey
-aSurfaceKey
 )
 override
 {

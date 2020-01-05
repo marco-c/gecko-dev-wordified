@@ -314,8 +314,6 @@ virtual
 void
 OnSurfaceDiscarded
 (
-SurfaceKey
-aSurfaceKey
 )
 override
 ;
