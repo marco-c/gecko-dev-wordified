@@ -120,10 +120,6 @@ nsSHTransaction_h
 #
 define
 nsSHTransaction_h
-/
-/
-Helper
-Classes
 #
 include
 "
@@ -131,10 +127,6 @@ nsCOMPtr
 .
 h
 "
-/
-/
-Needed
-interfaces
 #
 include
 "
@@ -169,9 +161,6 @@ nsSHTransaction
 ;
 protected
 :
-bool
-mPersist
-;
 nsISHTransaction
 *
 mPrev
@@ -191,6 +180,9 @@ nsCOMPtr
 nsISHEntry
 >
 mSHEntry
+;
+bool
+mPersist
 ;
 }
 ;
