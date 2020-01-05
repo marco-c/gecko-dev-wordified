@@ -7380,17 +7380,6 @@ mut
 PaintContext
 )
 {
-if
-paint_context
-.
-layer_kind
-=
-=
-LayerKind
-:
-:
-NoTransform
-{
 let
 this_clip
 =
@@ -7443,7 +7432,6 @@ clone
 (
 )
 )
-}
 }
 match
 *
