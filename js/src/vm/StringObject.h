@@ -347,6 +347,7 @@ LENGTH_SLOT
 }
 private
 :
+static
 inline
 bool
 init
@@ -354,6 +355,12 @@ init
 JSContext
 *
 cx
+Handle
+<
+StringObject
+*
+>
+obj
 HandleString
 str
 )
