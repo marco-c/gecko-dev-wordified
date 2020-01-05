@@ -124,7 +124,7 @@ clients
 }
 public
 Cursor
-getRemoteClientsByRecencyCursor
+getRemoteClientsNoStaleSorted
 (
 Context
 context
@@ -153,7 +153,7 @@ List
 <
 RemoteClient
 >
-getClientsWithoutTabsByRecencyFromCursor
+getClientsWithoutTabsNoStaleSortedFromCursor
 (
 final
 Cursor

@@ -7546,7 +7546,7 @@ remoteClientsCursor
 =
 tabsAccessor
 .
-getRemoteClientsByRecencyCursor
+getRemoteClientsNoStaleSorted
 (
 mContext
 )

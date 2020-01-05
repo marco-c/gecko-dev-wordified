@@ -516,7 +516,7 @@ file
 private
 final
 Uri
-clientsRecencyUriWithProfile
+clientsNoStaleSortedUriWithProfile
 ;
 private
 final
@@ -563,7 +563,7 @@ Clients
 CONTENT_URI
 )
 ;
-clientsRecencyUriWithProfile
+clientsNoStaleSortedUriWithProfile
 =
 DBUtils
 .
@@ -574,7 +574,7 @@ BrowserContract
 .
 Clients
 .
-CONTENT_RECENCY_URI
+CONTENT_NO_STALE_SORTED_URI
 )
 ;
 }
@@ -604,9 +604,8 @@ guid
 and
 sorted
 by
-most
-recently
-used
+name
+alphabetically
 .
 *
 /
@@ -616,7 +615,7 @@ List
 <
 RemoteClient
 >
-getClientsWithoutTabsByRecencyFromCursor
+getClientsWithoutTabsNoStaleSortedFromCursor
 (
 Cursor
 cursor
@@ -1272,7 +1271,7 @@ clients
 Override
 public
 Cursor
-getRemoteClientsByRecencyCursor
+getRemoteClientsNoStaleSorted
 (
 Context
 context
@@ -1282,7 +1281,7 @@ final
 Uri
 uri
 =
-clientsRecencyUriWithProfile
+clientsNoStaleSortedUriWithProfile
 ;
 return
 context
