@@ -216,6 +216,11 @@ window
 "
 )
 ;
+yield
+forceSaveState
+(
+)
+;
 win
 =
 SessionStore
