@@ -3256,9 +3256,7 @@ nsSVGFELightingElement
 :
 AddLightingAttributes
 (
-const
 FilterPrimitiveDescription
-&
 aDescription
 nsSVGFilterInstance
 *
@@ -3423,6 +3421,7 @@ Empty
 ;
 }
 FilterPrimitiveDescription
+&
 descr
 =
 aDescription
