@@ -1335,6 +1335,7 @@ already_AddRefed
 <
 T
 >
+MOZ_MAY_CALL_AFTER_MUST_RETURN
 forget
 (
 )
