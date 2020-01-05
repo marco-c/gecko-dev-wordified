@@ -1611,14 +1611,6 @@ Sampler
 )
 ;
 void
-RegisterThread
-(
-ThreadInfo
-*
-aInfo
-)
-;
-void
 ToStreamAsJSON
 (
 std
