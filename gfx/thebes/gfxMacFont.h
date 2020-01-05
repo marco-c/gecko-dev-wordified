@@ -180,7 +180,6 @@ in
 gfxFont
 *
 /
-virtual
 uint32_t
 GetSpaceGlyph
 (
@@ -191,7 +190,6 @@ return
 mSpaceGlyph
 ;
 }
-virtual
 bool
 SetupCairoFont
 (
@@ -212,7 +210,6 @@ for
 antialiasing
 *
 /
-virtual
 RunMetrics
 Measure
 (
@@ -284,7 +281,6 @@ small
 pixel
 sizes
 .
-virtual
 bool
 ProvidesGlyphWidths
 (
@@ -319,7 +315,6 @@ x
 )
 ;
 }
-virtual
 int32_t
 GetGlyphWidth
 (
@@ -331,7 +326,6 @@ aGID
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -356,7 +350,6 @@ aTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -378,7 +371,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -394,7 +386,6 @@ aSizes
 const
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -410,7 +401,6 @@ aSizes
 const
 override
 ;
-virtual
 FontType
 GetType
 (
@@ -482,7 +472,6 @@ nullptr
 ;
 protected
 :
-virtual
 const
 Metrics
 &
@@ -508,7 +497,6 @@ that
 depend
 on
 AAT
-virtual
 bool
 ShapeText
 (
