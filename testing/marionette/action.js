@@ -4694,7 +4694,7 @@ undefined
 {
 assert
 .
-positiveInteger
+integer
 (
 item
 .
@@ -4715,9 +4715,8 @@ x
 )
 to
 be
->
-=
-0
+an
+Integer
 )
 ;
 }
@@ -4744,7 +4743,7 @@ undefined
 {
 assert
 .
-positiveInteger
+integer
 (
 item
 .
@@ -4765,9 +4764,8 @@ y
 )
 to
 be
->
-=
-0
+an
+Integer
 )
 ;
 }
@@ -9160,6 +9158,12 @@ assert
 number
 (
 x
+Expected
+x
+to
+be
+finite
+number
 )
 ;
 assert
@@ -9167,6 +9171,12 @@ assert
 number
 (
 y
+Expected
+y
+to
+be
+finite
+number
 )
 ;
 /
