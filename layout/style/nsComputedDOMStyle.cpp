@@ -12770,7 +12770,7 @@ nsStyleUtil
 :
 AppendEscapedCSSIdent
 (
-nsDependentString
+nsDependentAtomString
 (
 aStyleImage
 .

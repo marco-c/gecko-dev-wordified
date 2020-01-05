@@ -2976,9 +2976,10 @@ aGradient
 void
 SetElementId
 (
-const
-char16_t
-*
+already_AddRefed
+<
+nsIAtom
+>
 aElementId
 )
 ;
@@ -3139,7 +3140,7 @@ mGradient
 ;
 }
 const
-char16_t
+nsIAtom
 *
 GetElementId
 (
@@ -3878,7 +3879,7 @@ separately
 from
 mImage
 .
-char16_t
+nsIAtom
 *
 mElementId
 ;
