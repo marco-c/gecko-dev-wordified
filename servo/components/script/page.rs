@@ -479,6 +479,13 @@ Root
 Window
 >
 {
+Root
+:
+:
+from_ref
+(
+&
+*
 self
 .
 frame
@@ -496,9 +503,6 @@ unwrap
 )
 .
 window
-.
-root
-(
 )
 }
 pub
@@ -515,6 +519,13 @@ Root
 Document
 >
 {
+Root
+:
+:
+from_ref
+(
+&
+*
 self
 .
 frame
@@ -532,9 +543,6 @@ unwrap
 )
 .
 document
-.
-root
-(
 )
 }
 /

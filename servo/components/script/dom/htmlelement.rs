@@ -3136,14 +3136,6 @@ iter
 (
 )
 .
-map
-(
-JS
-:
-:
-root
-)
-.
 filter_map
 (
 |
@@ -3154,10 +3146,6 @@ let
 raw_name
 =
 attr
-.
-r
-(
-)
 .
 local_name
 (
