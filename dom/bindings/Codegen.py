@@ -18202,8 +18202,14 @@ flags
 "
 :
 "
-JSPROP_ENUMERATE
+0
 "
+#
+Not
+enumerable
+per
+spec
+.
                 
 "
 condition
@@ -23450,6 +23456,18 @@ prop
 "
 iteratorId
 "
+                    
+enumFlags
+=
+"
+0
+"
+#
+Not
+enumerable
+per
+spec
+.
                 
 elif
 alias
@@ -23503,13 +23521,6 @@ s
 '
 %
 alias
-                
-return
-CGList
-(
-[
-                    
-getSymbolJSID
                     
 #
 XXX
@@ -23545,6 +23556,19 @@ being
 aliased
 .
                     
+enumFlags
+=
+"
+JSPROP_ENUMERATE
+"
+                
+return
+CGList
+(
+[
+                    
+getSymbolJSID
+                    
 CGGeneric
 (
 fill
@@ -23567,7 +23591,9 @@ proto
 prop
 }
 aliasedVal
-JSPROP_ENUMERATE
+{
+enumFlags
+}
 )
 )
 {
@@ -23590,6 +23616,10 @@ defineFn
 prop
 =
 prop
+                        
+enumFlags
+=
+enumFlags
                         
 failureCode
 =
