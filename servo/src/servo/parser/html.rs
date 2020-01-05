@@ -907,16 +907,9 @@ result_port
 task
 :
 :
-spawn_listener
-:
-:
-<
-(
-)
->
+spawn
 {
 |
-_child_port
 |
 let
 file_data
