@@ -976,8 +976,6 @@ LOW_VIDEO_FRAMES
 /
 /
 Threshold
-in
-usecs
 that
 used
 to
@@ -1010,7 +1008,7 @@ than
 /
 /
 |
-LOW_VIDEO_THRESHOLD_USECS
+LOW_VIDEO_THRESHOLD
 *
 mPlaybackRate
 |
@@ -1039,7 +1037,7 @@ keyframe
 static
 constexpr
 auto
-LOW_VIDEO_THRESHOLD_USECS
+LOW_VIDEO_THRESHOLD
 =
 TimeUnit
 :
@@ -13780,7 +13778,7 @@ mMaster
 >
 mPlaybackRate
 >
-LOW_VIDEO_THRESHOLD_USECS
+LOW_VIDEO_THRESHOLD
 .
 ToMicroseconds
 (
