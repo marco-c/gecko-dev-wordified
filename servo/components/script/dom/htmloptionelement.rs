@@ -789,7 +789,7 @@ collect
 ;
 v
 .
-connect
+join
 (
 "
 "

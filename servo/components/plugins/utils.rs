@@ -322,6 +322,8 @@ a
 .
 identifier
 .
+name
+.
 as_str
 (
 )

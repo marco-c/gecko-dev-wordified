@@ -205,6 +205,8 @@ method
 .
 node
 .
+name
+.
 as_str
 (
 )

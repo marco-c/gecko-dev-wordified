@@ -1139,6 +1139,8 @@ _
 if
 i
 .
+name
+.
 as_str
 (
 )
@@ -1151,6 +1153,8 @@ new
 |
 i
 .
+name
+.
 as_str
 (
 )
@@ -1162,6 +1166,8 @@ new_inherited
 |
 |
 i
+.
+name
 .
 as_str
 (

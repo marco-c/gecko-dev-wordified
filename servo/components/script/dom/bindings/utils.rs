@@ -2843,9 +2843,6 @@ ProtoOrIfaceArray
 >
 =
 box
-(
-)
-(
 [
 0
 as
@@ -2863,7 +2860,6 @@ Count
 as
 usize
 ]
-)
 ;
 unsafe
 {

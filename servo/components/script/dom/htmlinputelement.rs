@@ -487,15 +487,6 @@ use
 std
 :
 :
-ascii
-:
-:
-OwnedAsciiExt
-;
-use
-std
-:
-:
 borrow
 :
 :
