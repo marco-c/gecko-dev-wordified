@@ -16864,6 +16864,15 @@ i
 ;
 if
 (
+ShouldProfileThread
+(
+aLock
+info
+)
+)
+{
+MOZ_RELEASE_ASSERT
+(
 info
 -
 >
@@ -16871,7 +16880,7 @@ HasProfile
 (
 )
 )
-{
+;
 info
 -
 >
