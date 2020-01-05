@@ -802,9 +802,6 @@ nsVideoFrame
 (
 )
 ;
-nsMargin
-mBorderPadding
-;
 /
 /
 Anonymous
