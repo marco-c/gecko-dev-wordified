@@ -10464,10 +10464,7 @@ style
 properties
 :
 :
-declaration_block
-:
-:
-Importance
+LonghandIdSet
 ;
 use
 style
@@ -10476,10 +10473,10 @@ style
 properties
 :
 :
-property_bit_field
+declaration_block
 :
 :
-PropertyBitField
+Importance
 ;
 use
 style
@@ -10645,7 +10642,7 @@ let
 mut
 seen
 =
-PropertyBitField
+LonghandIdSet
 :
 :
 new
@@ -11168,10 +11165,7 @@ style
 properties
 :
 :
-property_bit_field
-:
-:
-PropertyBitField
+LonghandIdSet
 ;
 let
 data
@@ -11570,7 +11564,7 @@ let
 mut
 seen
 =
-PropertyBitField
+LonghandIdSet
 :
 :
 new
