@@ -648,15 +648,6 @@ win
 "
 ]
 }
-/
-/
-services
-/
-cloudsync
-/
-CloudSyncLocal
-.
-jsm
 {
 file
 :
