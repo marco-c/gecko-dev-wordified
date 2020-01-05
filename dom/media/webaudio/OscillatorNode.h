@@ -121,7 +121,7 @@ OscillatorNode_h_
 #
 include
 "
-AudioScheduledSourceNode
+AudioNode
 .
 h
 "
@@ -167,7 +167,7 @@ OscillatorNode
 final
 :
 public
-AudioScheduledSourceNode
+AudioNode
 public
 MainThreadMediaStreamListener
 {
@@ -196,7 +196,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 OscillatorNode
-AudioScheduledSourceNode
+AudioNode
 )
 static
 already_AddRefed
@@ -386,7 +386,6 @@ ErrorResult
 &
 aRv
 )
-override
 ;
 void
 Stop
@@ -397,7 +396,6 @@ ErrorResult
 &
 aRv
 )
-override
 ;
 void
 SetPeriodicWave
@@ -433,6 +431,10 @@ SendTypeToStream
 )
 ;
 }
+IMPL_EVENT_HANDLER
+(
+ended
+)
 void
 NotifyMainThreadStreamFinished
 (

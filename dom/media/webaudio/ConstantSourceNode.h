@@ -121,7 +121,7 @@ ConstantSourceNode_h_
 #
 include
 "
-AudioScheduledSourceNode
+AudioNode
 .
 h
 "
@@ -157,7 +157,7 @@ ConstantSourceNode
 final
 :
 public
-AudioScheduledSourceNode
+AudioNode
 public
 MainThreadMediaStreamListener
 {
@@ -175,7 +175,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 ConstantSourceNode
-AudioScheduledSourceNode
+AudioNode
 )
 JSObject
 *
@@ -257,7 +257,6 @@ ErrorResult
 &
 rv
 )
-override
 ;
 void
 Stop
@@ -268,8 +267,11 @@ ErrorResult
 &
 rv
 )
-override
 ;
+IMPL_EVENT_HANDLER
+(
+ended
+)
 void
 NotifyMainThreadStreamFinished
 (
