@@ -317,7 +317,7 @@ layers
 layers
 :
 :
-ContainerLayer
+Layer
 ;
 use
 opengles
@@ -2363,15 +2363,12 @@ Rc
 :
 new
 (
-ContainerLayer
+Layer
 :
 :
 new
 (
-Some
-(
 size
-)
 self
 .
 opts
