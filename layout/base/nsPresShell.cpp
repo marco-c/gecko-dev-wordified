@@ -45728,6 +45728,15 @@ event
 ;
 }
 }
+aEvent
+-
+>
+mFlags
+.
+mIsSuppressedOrDelayed
+=
+true
+;
 return
 NS_OK
 ;
