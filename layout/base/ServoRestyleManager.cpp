@@ -3172,6 +3172,12 @@ nsAttrValue
 aOldValue
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 #
 ifdef
 DEBUG

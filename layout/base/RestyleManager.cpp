@@ -2082,6 +2082,12 @@ aOutRestyleHint
 {
 MOZ_ASSERT
 (
+!
+mInStyleRefresh
+)
+;
+MOZ_ASSERT
+(
 aOutChangeHint
 )
 ;

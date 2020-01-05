@@ -1614,6 +1614,12 @@ nsAttrValue
 aOldValue
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 /
 /
 Hold
