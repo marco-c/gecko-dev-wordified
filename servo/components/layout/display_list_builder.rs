@@ -4425,7 +4425,7 @@ image_rendering
 :
 style
 .
-get_effects
+get_inheritedbox
 (
 )
 .
@@ -8576,7 +8576,7 @@ self
 .
 style
 .
-get_effects
+get_inheritedbox
 (
 )
 .
