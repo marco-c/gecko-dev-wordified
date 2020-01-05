@@ -93,14 +93,6 @@ box_syntax
 [
 feature
 (
-cell_extras
-)
-]
-#
-!
-[
-feature
-(
 const_fn
 )
 ]
