@@ -1834,11 +1834,13 @@ and
 whatnot
 .
 void
-Gecko_ClearStyleContents
+Gecko_ClearAndResizeStyleContents
 (
 nsStyleContent
 *
 content
+uint32_t
+how_many
 )
 ;
 void
