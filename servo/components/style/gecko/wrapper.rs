@@ -7975,6 +7975,11 @@ mInner
 mName
 .
 raw
+:
+:
+<
+nsIAtom
+>
 (
 )
 )

@@ -5429,6 +5429,12 @@ gecko_bindings
 :
 :
 structs
+:
+:
+{
+self
+nsIAtom
+}
 ;
 use
 values
@@ -5686,6 +5692,11 @@ gecko_font
 mLanguage
 .
 raw
+:
+:
+<
+nsIAtom
+>
 (
 )
 &
