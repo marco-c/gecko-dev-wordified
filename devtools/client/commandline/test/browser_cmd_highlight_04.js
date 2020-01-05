@@ -53,6 +53,11 @@ command
 parameters
 and
 options
+requestLongerTimeout
+(
+3
+)
+;
 /
 /
 Creating
