@@ -686,10 +686,6 @@ aSample
 -
 >
 mDuration
-.
-ToMicroseconds
-(
-)
 buffer
 aSample
 -

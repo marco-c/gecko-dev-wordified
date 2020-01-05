@@ -740,9 +740,15 @@ inputInfo
 mDisplaySize
 offset
 presentationTimeUs
+TimeUnit
+:
+:
+FromMicroseconds
+(
 inputInfo
 .
 mDurationUs
+)
 img
 !
 !

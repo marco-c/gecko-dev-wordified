@@ -368,6 +368,14 @@ base
 time
 (
 )
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -376,6 +384,7 @@ base
 .
 duration
 (
+)
 )
 image
 aData

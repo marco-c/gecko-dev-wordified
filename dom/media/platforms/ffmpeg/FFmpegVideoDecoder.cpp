@@ -2338,7 +2338,16 @@ aSample
 >
 mOffset
 pts
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 duration
+)
 b
 !
 !
