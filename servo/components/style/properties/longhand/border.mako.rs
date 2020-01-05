@@ -431,11 +431,13 @@ side
 "
 alias
 =
+"
+{
 maybe_moz_logical_alias
 (
 product
 side
-"
+'
 -
 moz
 -
@@ -445,8 +447,10 @@ border
 s
 -
 width
-"
+'
 )
+}
+"
 spec
 =
 "
