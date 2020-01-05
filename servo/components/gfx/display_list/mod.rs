@@ -376,7 +376,7 @@ compositor_msg
 LayerId
 ;
 use
-net
+net_traits
 :
 :
 image

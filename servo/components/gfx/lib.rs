@@ -236,7 +236,7 @@ unicode
 ;
 extern
 crate
-net
+net_traits
 ;
 #
 [

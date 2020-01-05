@@ -120,10 +120,7 @@ FontTemplateDescriptor
 }
 ;
 use
-net
-:
-:
-resource_task
+net_traits
 :
 :
 {

@@ -572,7 +572,7 @@ WorkerId
 }
 ;
 use
-net
+net_traits
 :
 :
 image_cache_task
@@ -581,7 +581,7 @@ image_cache_task
 ImageCacheTask
 ;
 use
-net
+net_traits
 :
 :
 storage_task

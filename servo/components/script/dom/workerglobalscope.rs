@@ -274,15 +274,12 @@ constellation_msg
 WorkerId
 ;
 use
-net
-:
-:
-resource_task
+net_traits
 :
 :
 {
-ResourceTask
 load_whole_resource
+ResourceTask
 }
 ;
 use
