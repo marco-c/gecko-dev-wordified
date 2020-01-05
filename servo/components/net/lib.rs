@@ -188,6 +188,10 @@ time
 ;
 extern
 crate
+unicase
+;
+extern
+crate
 url
 ;
 extern
@@ -267,7 +271,7 @@ of
 the
 [
 Fetch
-spec
+specification
 ]
 (
 https
