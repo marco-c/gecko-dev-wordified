@@ -773,11 +773,6 @@ IsFennec
 (
 )
 ;
-int
-GetAPIVersion
-(
-)
-;
 }
 /
 /

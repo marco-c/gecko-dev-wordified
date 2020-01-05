@@ -356,7 +356,7 @@ MyClass
 >
 :
 :
-AttachNative
+AttachInstance
 (
 *
 instance
@@ -597,7 +597,7 @@ MyClass
 >
 :
 :
-AttachNative
+AttachInstance
 (
 instance
 this
@@ -780,7 +780,7 @@ MyClass
 >
 :
 :
-AttachNative
+AttachInstance
 (
 *
 instance
