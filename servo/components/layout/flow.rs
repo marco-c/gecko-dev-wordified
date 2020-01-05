@@ -2345,6 +2345,12 @@ a
 parent_thread_id
 :
 u8
+_content_box
+:
+LogicalRect
+<
+Au
+>
 )
 -
 >

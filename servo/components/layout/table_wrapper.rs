@@ -302,7 +302,10 @@ style
 logical_geometry
 :
 :
+{
+LogicalRect
 LogicalSize
+}
 ;
 use
 style
@@ -2608,6 +2611,12 @@ a
 parent_thread_id
 :
 u8
+content_box
+:
+LogicalRect
+<
+Au
+>
 )
 -
 >
@@ -2621,6 +2630,7 @@ assign_block_size_for_inorder_child_if_necessary
 (
 layout_context
 parent_thread_id
+content_box
 )
 }
 fn
