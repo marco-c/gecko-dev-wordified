@@ -1117,11 +1117,6 @@ JSOP_TOASYNC
 \
 _
 (
-JSOP_TOASYNCGEN
-)
-\
-_
-(
 JSOP_TOID
 )
 \
