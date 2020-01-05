@@ -2486,13 +2486,13 @@ WrapperObject
 |
 MOZ_UNLIKELY
 (
+stopAtWindowProxy
+&
+&
 IsWindowProxy
 (
 obj
 )
-&
-&
-stopAtWindowProxy
 )
 )
 {
