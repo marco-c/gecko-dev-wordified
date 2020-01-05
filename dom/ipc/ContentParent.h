@@ -1419,6 +1419,12 @@ const
 ContentParentId
 &
 aCpId
+Endpoint
+<
+PContentBridgeParent
+>
+*
+aEndpoint
 )
 override
 ;
