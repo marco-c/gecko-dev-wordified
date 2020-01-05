@@ -1332,6 +1332,16 @@ nsIAtom
 aPseudoTagOrNull
 )
 ;
+bool
+Gecko_ElementHasCSSTransitions
+(
+RawGeckoElementBorrowed
+aElement
+nsIAtom
+*
+aPseudoTagOrNull
+)
+;
 double
 Gecko_GetProgressFromComputedTiming
 (
