@@ -1039,6 +1039,14 @@ ins
 )
 ;
 void
+visitNearbyInt
+(
+MNearbyInt
+*
+ins
+)
+;
+void
 visitMinMax
 (
 MMinMax

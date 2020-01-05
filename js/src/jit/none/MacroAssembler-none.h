@@ -1294,6 +1294,17 @@ return
 false
 ;
 }
+static
+bool
+HasRoundInstruction
+(
+RoundingMode
+)
+{
+return
+false
+;
+}
 void
 executableCopy
 (
