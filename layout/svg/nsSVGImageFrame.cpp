@@ -2527,8 +2527,6 @@ Some
 (
 SVGImageContext
 (
-Some
-(
 CSSIntSize
 :
 :
@@ -2536,7 +2534,6 @@ Truncate
 (
 width
 height
-)
 )
 Some
 (
