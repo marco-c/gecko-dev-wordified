@@ -2698,6 +2698,7 @@ add_raw_font
 (
 font_key
 bytes
+0
 )
 (
 None
@@ -2735,6 +2736,7 @@ bytes
 clone
 (
 )
+0
 )
 }
 font_key
