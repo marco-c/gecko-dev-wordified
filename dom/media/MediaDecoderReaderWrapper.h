@@ -894,15 +894,6 @@ StartTimeRendezvous
 >
 mStartTimeRendezvous
 ;
-Maybe
-<
-media
-:
-:
-TimeUnit
->
-mStartTime
-;
 MozPromiseRequestHolder
 <
 MediaDataPromise
