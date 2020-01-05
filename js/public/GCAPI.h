@@ -2050,6 +2050,9 @@ GCDescription
 bool
 isZone_
 ;
+bool
+isComplete_
+;
 JSGCInvocationKind
 invocationKind_
 ;
@@ -2063,6 +2066,8 @@ GCDescription
 (
 bool
 isZone
+bool
+isComplete
 JSGCInvocationKind
 kind
 gcreason
@@ -2075,6 +2080,10 @@ reason
 isZone_
 (
 isZone
+)
+isComplete_
+(
+isComplete
 )
 invocationKind_
 (
