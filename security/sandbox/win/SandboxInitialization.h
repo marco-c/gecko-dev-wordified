@@ -192,6 +192,9 @@ painful
 namespace
 sandboxing
 {
+class
+PermissionsService
+;
 /
 *
 *
@@ -304,6 +307,12 @@ sandbox
 BrokerServices
 *
 GetInitializedBrokerServices
+(
+)
+;
+PermissionsService
+*
+GetPermissionsService
 (
 )
 ;
