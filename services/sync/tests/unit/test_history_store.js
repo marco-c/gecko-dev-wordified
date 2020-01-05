@@ -340,7 +340,7 @@ options
 ;
 }
 function
-onNextTitleChanged
+onNextVisit
 (
 callback
 )
@@ -383,6 +383,14 @@ onTitleChanged
 (
 )
 {
+}
+onVisit
+:
+function
+onVisit
+(
+)
+{
 PlacesUtils
 .
 history
@@ -399,14 +407,6 @@ nextTick
 callback
 )
 ;
-}
-onVisit
-:
-function
-onVisit
-(
-)
-{
 }
 onDeleteVisits
 :
@@ -942,7 +942,7 @@ nsINavHistoryService
 TRANSITION_TYPED
 }
 ;
-onNextTitleChanged
+onNextVisit
 (
 ensureThrows
 (
@@ -1114,7 +1114,7 @@ com
 "
 )
 ;
-onNextTitleChanged
+onNextVisit
 (
 ensureThrows
 (

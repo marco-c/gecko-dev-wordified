@@ -1187,7 +1187,7 @@ line
 *
 There
 are
-3
+2
 linkChanged
 events
 :
@@ -1216,11 +1216,6 @@ type
 calculation
 etc
 )
-*
-3
-.
-title
-change
 *
 /
 if
@@ -1258,7 +1253,7 @@ linkChangedMsgCount
 =
 =
 =
-3
+2
 )
 {
 ok
