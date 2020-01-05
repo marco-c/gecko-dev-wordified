@@ -4577,8 +4577,9 @@ if
 IsSuspended
 (
 )
-&
-&
+|
+|
+!
 mOwner
 -
 >
