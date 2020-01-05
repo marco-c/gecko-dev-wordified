@@ -1649,6 +1649,16 @@ try
 if
 not
 app
+and
+kwargs
+[
+"
+bin
+"
+]
+is
+not
+None
 :
                 
 app_id
@@ -1660,18 +1670,16 @@ get_version
 binary
 =
 kwargs
-.
-get
-(
-'
+[
+"
 bin
-'
-)
+"
+]
 )
 [
-'
+"
 application_id
-'
+"
 ]
                 
 app
@@ -1689,8 +1697,21 @@ app
 ]
         
 except
+(
+IOError
 KeyError
+)
 :
+            
+exc
+val
+tb
+=
+sys
+.
+exc_info
+(
+)
             
 msg
 =
@@ -1715,7 +1736,6 @@ of
             
 raise
 NotImplementedError
-(
 msg
 .
 format
@@ -1727,7 +1747,7 @@ keys
 (
 )
 )
-)
+tb
         
 return
 instance_class
