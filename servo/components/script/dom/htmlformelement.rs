@@ -6025,7 +6025,7 @@ i
 |
 i
 .
-FormAction
+FormEnctype
 (
 )
 |
@@ -6033,7 +6033,7 @@ f
 |
 f
 .
-Action
+Enctype
 (
 )
 )
@@ -6204,7 +6204,7 @@ i
 |
 i
 .
-FormAction
+FormMethod
 (
 )
 |
@@ -6212,7 +6212,7 @@ f
 |
 f
 .
-Action
+Method
 (
 )
 )
@@ -6346,7 +6346,7 @@ i
 |
 i
 .
-FormAction
+FormTarget
 (
 )
 |
@@ -6354,7 +6354,7 @@ f
 |
 f
 .
-Action
+Target
 (
 )
 )
