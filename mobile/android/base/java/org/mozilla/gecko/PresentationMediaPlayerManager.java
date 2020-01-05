@@ -341,6 +341,14 @@ null
 return
 ;
 }
+if
+(
+isPresentationMode
+)
+{
+return
+;
+}
 MediaRouter
 .
 RouteInfo
