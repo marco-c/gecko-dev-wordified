@@ -9805,14 +9805,14 @@ target
 function
 previewTheme
 (
-aPreviewThemeEvent
+aEvent
 )
 {
 LightweightThemeManager
 .
 previewTheme
 (
-aPreviewThemeEvent
+aEvent
 .
 target
 .
@@ -9823,7 +9823,7 @@ id
 =
 DEFAULT_THEME_ID
 ?
-aPreviewThemeEvent
+aEvent
 .
 target
 .

@@ -498,16 +498,6 @@ our
 native
 extensions
 )
-/
-*
-eslint
--
-disable
-no
--
-shadow
-*
-/
 Cu
 .
 import

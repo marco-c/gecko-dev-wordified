@@ -304,7 +304,7 @@ true
 function
 content_script
 (
-contentStopFromProgressListener
+aStopFromProgressListener
 )
 {
 let
@@ -518,7 +518,7 @@ n
 ;
 stopContent
 (
-contentStopFromProgressListener
+aStopFromProgressListener
 chan
 .
 originalURI

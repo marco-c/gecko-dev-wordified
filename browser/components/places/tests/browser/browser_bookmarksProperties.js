@@ -3185,7 +3185,7 @@ windowObserver
 )
 ;
 let
-observerWindow
+win
 =
 aSubject
 .
@@ -3228,7 +3228,7 @@ is
 loaded
 ok
 (
-observerWindow
+win
 .
 gEditItemOverlay
 .
@@ -3244,7 +3244,7 @@ gCurrentTest
 .
 window
 =
-observerWindow
+win
 ;
 try
 {
@@ -3283,7 +3283,7 @@ message
 )
 ;
 }
-observerWindow
+win
 )
 ;
 }

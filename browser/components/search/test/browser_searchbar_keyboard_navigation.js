@@ -256,7 +256,7 @@ kValues
 )
 ;
 let
-addOps
+ops
 =
 kValues
 .
@@ -293,7 +293,7 @@ FormHistory
 .
 update
 (
-addOps
+ops
 {
 handleCompletion
 :
@@ -322,7 +322,7 @@ kValues
 )
 ;
 let
-removeOps
+ops
 =
 kValues
 .
@@ -359,7 +359,7 @@ FormHistory
 .
 update
 (
-removeOps
+ops
 )
 ;
 }

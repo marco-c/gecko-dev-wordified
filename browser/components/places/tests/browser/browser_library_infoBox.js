@@ -1365,7 +1365,7 @@ length
 )
 {
 var
-testCase
+test
 =
 gTests
 .
@@ -1381,7 +1381,7 @@ TEST
 :
 "
 +
-testCase
+test
 .
 desc
 )
@@ -1393,7 +1393,7 @@ TEST
 :
 "
 +
-testCase
+test
 .
 desc
 +
@@ -1403,7 +1403,7 @@ n
 "
 )
 ;
-testCase
+test
 .
 run
 (

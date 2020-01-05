@@ -136,7 +136,7 @@ function
 )
 {
 let
-updatedGetter
+getter
 =
 PlacesUIUtils
 .
@@ -154,7 +154,7 @@ cachedLeftPaneFolderIdGetter
 &
 typeof
 (
-updatedGetter
+getter
 )
 !
 =
@@ -971,7 +971,7 @@ isURIVisited
 aURI
 function
 (
-unused
+aURI
 aIsVisited
 )
 {

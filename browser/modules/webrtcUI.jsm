@@ -2213,11 +2213,16 @@ aBrowser
 ownerDocument
 ;
 let
-stringBundle
+chromeWin
 =
 chromeDoc
 .
 defaultView
+;
+let
+stringBundle
+=
+chromeWin
 .
 gNavigatorBundle
 ;
@@ -2726,7 +2731,7 @@ return
 true
 ;
 let
-doc
+chromeDoc
 =
 this
 .
@@ -2778,7 +2783,7 @@ Screen
 let
 video
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -2834,7 +2839,7 @@ src
 =
 null
 ;
-doc
+chromeDoc
 .
 getElementById
 (
@@ -2853,7 +2858,7 @@ true
 let
 menupopup
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -3190,8 +3195,13 @@ videoDevices
 deviceIndex
 )
 ;
+let
+perms
+=
 Services
 .
+perms
+;
 perms
 .
 add
@@ -3200,13 +3210,9 @@ uri
 "
 MediaManagerVideo
 "
-Services
-.
 perms
 .
 ALLOW_ACTION
-Services
-.
 perms
 .
 EXPIRE_SESSION
@@ -3464,7 +3470,7 @@ substr
 let
 label
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -3478,7 +3484,7 @@ label
 )
 ;
 let
-gumStringId
+stringId
 =
 "
 getUserMedia
@@ -3499,7 +3505,7 @@ stringBundle
 .
 getString
 (
-gumStringId
+stringId
 +
 "
 .
@@ -3519,7 +3525,7 @@ stringBundle
 .
 getString
 (
-gumStringId
+stringId
 +
 "
 .
@@ -3585,7 +3591,7 @@ menupopup
 .
 appendChild
 (
-doc
+chromeDoc
 .
 createElement
 (
@@ -3782,7 +3788,7 @@ sepIndex
 )
 ;
 let
-sawcStringId
+stringId
 =
 "
 getUserMedia
@@ -3806,7 +3812,7 @@ stringBundle
 .
 getString
 (
-sawcStringId
+stringId
 )
 )
 .
@@ -3884,7 +3890,7 @@ type
 "
 item
 .
-doc
+chromeDoc
 .
 getElementById
 (
@@ -3904,7 +3910,7 @@ value
 "
 )
 ;
-doc
+chromeDoc
 .
 getElementById
 (
@@ -3934,7 +3940,7 @@ event
 let
 video
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -3996,7 +4002,7 @@ deviceId
 undefined
 )
 {
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4032,7 +4038,7 @@ scary
 let
 warning
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4053,7 +4059,7 @@ scary
 let
 chromeWin
 =
-doc
+chromeDoc
 .
 defaultView
 ;
@@ -4183,7 +4189,7 @@ else
 let
 brand
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4242,7 +4248,7 @@ io
 .
 newURI
 (
-doc
+chromeDoc
 .
 documentURI
 null
@@ -4377,7 +4383,7 @@ stream
 =
 stream
 ;
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4439,7 +4445,7 @@ type
 let
 menuitem
 =
-doc
+chromeDoc
 .
 createElement
 (
@@ -4503,7 +4509,7 @@ return
 menuitem
 ;
 }
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4524,7 +4530,7 @@ length
 |
 sharingScreen
 ;
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4546,7 +4552,7 @@ videoDevices
 .
 length
 ;
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4570,7 +4576,7 @@ sharingAudio
 let
 camMenupopup
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4586,7 +4592,7 @@ menupopup
 let
 windowMenupopup
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4602,7 +4608,7 @@ menupopup
 let
 micMenupopup
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4704,7 +4710,7 @@ menulist
 let
 videoDeviceIndex
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -4820,7 +4826,7 @@ sharingAudio
 let
 audioDeviceIndex
 =
-doc
+chromeDoc
 .
 getElementById
 (
@@ -5138,9 +5144,7 @@ icon
 ;
 notification
 =
-chromeDoc
-.
-defaultView
+chromeWin
 .
 PopupNotifications
 .
@@ -5858,6 +5862,7 @@ menuitem
 "
 )
 ;
+let
 labelId
 =
 "
@@ -5868,6 +5873,7 @@ controlSharingOn
 menuitem
 "
 ;
+let
 label
 =
 stream

@@ -1167,8 +1167,7 @@ placesCmd_open
 tab
 "
 :
-{
-let
+var
 selectedNode
 =
 this
@@ -1188,7 +1187,6 @@ nodeIsURI
 selectedNode
 )
 ;
-}
 case
 "
 placesCmd_new
@@ -5607,8 +5605,9 @@ otherwise
 *
 /
 function
-isNodeContainedBy
+isContainedBy
 (
+node
 parent
 )
 {
@@ -5665,8 +5664,9 @@ j
 {
 if
 (
-isNodeContainedBy
+isContainedBy
 (
+node
 pastFolders
 [
 j

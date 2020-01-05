@@ -637,6 +637,7 @@ for
 menuID
 )
 ;
+let
 shownPromise
 =
 popupShown

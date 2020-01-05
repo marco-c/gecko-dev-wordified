@@ -1312,7 +1312,7 @@ return
 false
 ;
 let
-translationNotification
+notification
 =
 this
 .
@@ -1327,9 +1327,9 @@ translation
 ;
 if
 (
-translationNotification
+notification
 )
-translationNotification
+notification
 .
 close
 (

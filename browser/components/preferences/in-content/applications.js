@@ -9598,7 +9598,7 @@ follow
 them
 .
 let
-menuseparator
+menuItem
 =
 document
 .
@@ -9613,7 +9613,7 @@ menuPopup
 .
 appendChild
 (
-menuseparator
+menuItem
 )
 ;
 /
@@ -12033,7 +12033,7 @@ possible
 handlers
 .
 let
-handler
+handlerInfo
 =
 this
 .
@@ -12048,7 +12048,7 @@ selectedItem
 type
 ]
 ;
-handler
+handlerInfo
 .
 addPossibleApplicationHandler
 (

@@ -57,7 +57,7 @@ aTestNumber
 )
 {
 let
-testCase
+test
 =
 _referrerTests
 [
@@ -66,7 +66,7 @@ aTestNumber
 ;
 if
 (
-testCase
+test
 )
 {
 /
@@ -80,7 +80,7 @@ tests
 to
 fail
 !
-testCase
+test
 .
 result
 =
@@ -89,7 +89,7 @@ result
 ;
 }
 return
-testCase
+test
 ;
 }
 function

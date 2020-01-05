@@ -9035,8 +9035,8 @@ palette
 Attempt
 to
 locate
-an
-element
+a
+node
 with
 a
 matching
@@ -9048,7 +9048,7 @@ the
 palette
 .
 let
-element
+node
 =
 toolbox
 .
@@ -9067,7 +9067,7 @@ aId
 ;
 if
 (
-element
+node
 )
 {
 /
@@ -9112,7 +9112,7 @@ elsewhere
 if
 (
 !
-element
+node
 .
 hasAttribute
 (
@@ -9122,7 +9122,7 @@ removable
 )
 )
 {
-element
+node
 .
 setAttribute
 (
@@ -9134,7 +9134,7 @@ true
 ;
 }
 return
-element
+node
 ;
 }
 }

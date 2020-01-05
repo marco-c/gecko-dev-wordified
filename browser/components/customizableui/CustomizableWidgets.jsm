@@ -1654,7 +1654,7 @@ onItemCommand
 =
 function
 (
-aItemCommandEvent
+aEvent
 )
 {
 /
@@ -1680,7 +1680,7 @@ otherwise
 .
 if
 (
-aItemCommandEvent
+aEvent
 .
 type
 =
@@ -1690,7 +1690,7 @@ click
 "
 &
 &
-aItemCommandEvent
+aEvent
 .
 button
 !
@@ -1704,7 +1704,7 @@ return
 let
 item
 =
-aItemCommandEvent
+aEvent
 .
 target
 ;
@@ -1720,7 +1720,7 @@ getAttribute
 targetURI
 "
 )
-aItemCommandEvent
+aEvent
 )
 ;
 CustomizableUI
@@ -5543,7 +5543,7 @@ updateZoomResetButton
 )
 ;
 let
-newAreaType
+areaType
 =
 CustomizableUI
 .
@@ -5554,7 +5554,7 @@ aArea
 ;
 if
 (
-newAreaType
+areaType
 =
 =
 CustomizableUI
@@ -5586,7 +5586,7 @@ updateZoomResetButton
 else
 if
 (
-newAreaType
+areaType
 =
 =
 CustomizableUI
@@ -5640,7 +5640,7 @@ id
 return
 ;
 let
-formerAreaType
+areaType
 =
 CustomizableUI
 .
@@ -5651,7 +5651,7 @@ aPrevArea
 ;
 if
 (
-formerAreaType
+areaType
 =
 =
 CustomizableUI
@@ -5683,7 +5683,7 @@ updateZoomResetButton
 else
 if
 (
-formerAreaType
+areaType
 =
 =
 CustomizableUI

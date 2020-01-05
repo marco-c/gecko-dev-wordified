@@ -27,13 +27,6 @@ zero
 /
 *
 /
-add_task
-(
-function
-*
-(
-)
-{
 const
 url
 =
@@ -49,6 +42,13 @@ body
 hi
 "
 ;
+add_task
+(
+function
+*
+(
+)
+{
 yield
 *
 testURL

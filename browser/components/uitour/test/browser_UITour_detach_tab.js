@@ -313,7 +313,7 @@ gBrowser
 .
 selectedBrowser
 myDocIdentifier
-contentMyDocIdentifier
+myDocIdentifier
 =
 >
 {
@@ -379,7 +379,7 @@ document
 .
 myExpando
 =
-contentMyDocIdentifier
+myDocIdentifier
 ;
 }
 )
@@ -466,7 +466,7 @@ selectedTab
 .
 linkedBrowser
 myDocIdentifier
-contentMyDocIdentifier
+myDocIdentifier
 =
 >
 {
@@ -477,7 +477,7 @@ content
 document
 .
 myExpando
-contentMyDocIdentifier
+myDocIdentifier
 "
 Document
 should

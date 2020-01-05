@@ -2516,7 +2516,7 @@ aFrameId
 function
 *
 (
-contentFrameId
+aFrameId
 )
 {
 let
@@ -2528,7 +2528,7 @@ wrappedJSObject
 ;
 if
 (
-contentFrameId
+aFrameId
 )
 global
 =
@@ -2538,7 +2538,7 @@ document
 .
 getElementById
 (
-contentFrameId
+aFrameId
 )
 .
 contentWindow
@@ -2851,13 +2851,13 @@ screen
 let
 convertId
 =
-idToConvert
+id
 =
 >
 {
 if
 (
-idToConvert
+id
 =
 =
 "
@@ -2871,7 +2871,7 @@ video
 ;
 if
 (
-idToConvert
+id
 =
 =
 "
@@ -2884,7 +2884,7 @@ audio
 "
 ;
 return
-idToConvert
+id
 ;
 }
 ;

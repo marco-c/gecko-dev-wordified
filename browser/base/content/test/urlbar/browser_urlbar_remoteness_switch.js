@@ -101,9 +101,10 @@ wpl
 {
 onLocationChange
 (
-unused
-unused2
+wpl
+request
 location
+flags
 )
 {
 if
