@@ -581,7 +581,7 @@ for
 enum
 Mode
 {
-ASCII
+LATIN1
 =
 1
 CHAR16
