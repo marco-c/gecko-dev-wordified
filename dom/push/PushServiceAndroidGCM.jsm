@@ -195,7 +195,7 @@ jsm
 *
 global
 :
-Messaging
+EventDispatcher
 *
 /
 Cu
@@ -1019,7 +1019,9 @@ debug
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1125,7 +1127,9 @@ then
 =
 >
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1161,7 +1165,9 @@ uninit
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1272,7 +1278,9 @@ are
 unrecognized
 .
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1573,7 +1581,9 @@ handles
 errors
 .
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1711,7 +1721,9 @@ record
 )
 ;
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (

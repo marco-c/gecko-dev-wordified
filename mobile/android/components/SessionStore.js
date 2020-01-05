@@ -179,7 +179,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -13626,7 +13626,9 @@ Java
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

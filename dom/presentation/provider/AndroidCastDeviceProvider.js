@@ -213,7 +213,7 @@ jsm
 /
 /
 globals
-Messaging
+EventDispatcher
 Cu
 .
 import
@@ -1797,7 +1797,9 @@ service
 in
 Android
 .
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1944,7 +1946,9 @@ Disconnect
 from
 Chromecast
 .
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -2368,7 +2372,9 @@ found
 by
 Android
 .
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

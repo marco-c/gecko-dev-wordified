@@ -713,7 +713,9 @@ payload
 "
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
