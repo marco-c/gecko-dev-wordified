@@ -418,10 +418,10 @@ new
 NetworkThrottleManager
 (
 {
-roundTripTimeMean
+latencyMean
 :
 1
-roundTripTimeMax
+latencyMax
 :
 1
 downloadBPSMean

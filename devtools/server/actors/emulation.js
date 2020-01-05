@@ -626,10 +626,10 @@ let
 throttleData
 =
 {
-roundTripTimeMean
+latencyMean
 :
 latency
-roundTripTimeMax
+latencyMax
 :
 latency
 downloadBPSMean
@@ -870,7 +870,7 @@ let
 {
 downloadBPSMax
 uploadBPSMax
-roundTripTimeMax
+latencyMax
 }
 =
 throttleData
@@ -885,7 +885,7 @@ uploadThroughput
 uploadBPSMax
 latency
 :
-roundTripTimeMax
+latencyMax
 }
 ;
 }
