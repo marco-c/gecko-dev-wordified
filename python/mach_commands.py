@@ -84,6 +84,12 @@ as_completed
     
 thread
 )
+import
+mozinfo
+from
+manifestparser
+import
+TestManifest
 from
 mozbuild
 .
@@ -987,6 +993,37 @@ message
 return
 1
         
+mp
+=
+TestManifest
+(
+)
+        
+mp
+.
+tests
+.
+extend
+(
+test_objects
+)
+        
+tests
+=
+mp
+.
+active_tests
+(
+disabled
+=
+False
+*
+*
+mozinfo
+.
+info
+)
+        
 self
 .
 jobs
@@ -1043,7 +1080,7 @@ path
 for
 test
 in
-test_objects
+tests
 ]
             
 try
