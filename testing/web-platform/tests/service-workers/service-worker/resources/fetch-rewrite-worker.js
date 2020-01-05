@@ -652,6 +652,8 @@ NO_ACCEPT
 )
 ;
 }
+return
+;
 }
 event
 .
