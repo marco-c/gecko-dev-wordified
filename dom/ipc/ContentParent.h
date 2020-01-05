@@ -6064,7 +6064,7 @@ ipc
 :
 :
 IPCResult
-RecvAccumulateChildHistograms
+RecvAccumulateChildHistogram
 (
 InfallibleTArray
 <
@@ -6084,7 +6084,7 @@ ipc
 :
 :
 IPCResult
-RecvAccumulateChildKeyedHistograms
+RecvAccumulateChildKeyedHistogram
 (
 InfallibleTArray
 <

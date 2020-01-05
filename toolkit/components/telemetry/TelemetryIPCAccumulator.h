@@ -129,9 +129,6 @@ class
 nsCString
 ;
 namespace
-mozilla
-{
-namespace
 TelemetryIPCAccumulator
 {
 /
@@ -274,7 +271,6 @@ nsIRunnable
 aEvent
 )
 ;
-}
 }
 #
 endif
