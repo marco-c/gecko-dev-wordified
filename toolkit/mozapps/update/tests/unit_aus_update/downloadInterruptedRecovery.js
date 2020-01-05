@@ -772,7 +772,7 @@ to
 online
 .
 let
-tm
+tm2
 =
 Cc
 [
@@ -796,7 +796,7 @@ Ci
 nsIThreadManager
 )
 ;
-tm
+tm2
 .
 mainThread
 .
