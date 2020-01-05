@@ -290,6 +290,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -297,12 +303,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -364,7 +364,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -421,7 +421,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1511,7 +1511,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -1608,7 +1608,7 @@ check_ancestors_disabled_state_for_form_control
 }
 }
 &
-atom
+local_name
 !
 (
 "

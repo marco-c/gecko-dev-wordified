@@ -116,6 +116,12 @@ Visitor
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -173,12 +179,6 @@ sync
 :
 :
 Mutex
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 url

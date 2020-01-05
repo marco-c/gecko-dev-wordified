@@ -67,6 +67,16 @@ SourcePosition
 }
 ;
 use
+html5ever_atoms
+:
+:
+{
+Namespace
+as
+NsAtom
+}
+;
+use
 media_queries
 :
 :
@@ -86,6 +96,12 @@ parser
 :
 :
 *
+;
+use
+servo_atoms
+:
+:
+Atom
 ;
 use
 std
@@ -113,17 +129,6 @@ sync
 :
 :
 Mutex
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-as
-NsAtom
-}
 ;
 use
 style
@@ -511,8 +516,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -532,7 +535,6 @@ org
 /
 xhtml
 "
-)
 )
 }
 )
@@ -589,8 +591,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -611,7 +611,6 @@ org
 xhtml
 "
 )
-)
 }
 )
 SimpleSelector
@@ -623,7 +622,7 @@ LocalName
 {
 name
 :
-atom
+local_name
 !
 (
 "
@@ -632,7 +631,7 @@ input
 )
 lower_name
 :
-atom
+local_name
 !
 (
 "
@@ -650,7 +649,7 @@ AttrSelector
 {
 name
 :
-atom
+local_name
 !
 (
 "
@@ -659,7 +658,7 @@ type
 )
 lower_name
 :
-atom
+local_name
 !
 (
 "
@@ -866,8 +865,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -888,7 +885,6 @@ org
 xhtml
 "
 )
-)
 }
 )
 SimpleSelector
@@ -900,7 +896,7 @@ LocalName
 {
 name
 :
-atom
+local_name
 !
 (
 "
@@ -909,7 +905,7 @@ html
 )
 lower_name
 :
-atom
+local_name
 !
 (
 "
@@ -979,8 +975,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -1001,7 +995,6 @@ org
 xhtml
 "
 )
-)
 }
 )
 SimpleSelector
@@ -1013,7 +1006,7 @@ LocalName
 {
 name
 :
-atom
+local_name
 !
 (
 "
@@ -1022,7 +1015,7 @@ body
 )
 lower_name
 :
-atom
+local_name
 !
 (
 "
@@ -1173,8 +1166,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -1194,7 +1185,6 @@ org
 /
 xhtml
 "
-)
 )
 }
 )
@@ -1244,8 +1234,6 @@ None
 url
 :
 NsAtom
-(
-Atom
 :
 :
 from
@@ -1265,7 +1253,6 @@ org
 /
 xhtml
 "
-)
 )
 }
 )

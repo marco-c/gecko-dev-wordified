@@ -210,7 +210,7 @@ jsval
 JSVal
 ;
 use
-string_cache
+servo_atoms
 :
 :
 Atom

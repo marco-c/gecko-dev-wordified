@@ -60,6 +60,12 @@ use
 gdi32
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -97,12 +103,6 @@ std
 :
 :
 ptr
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 webrender_traits

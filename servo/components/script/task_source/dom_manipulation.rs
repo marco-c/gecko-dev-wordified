@@ -124,6 +124,12 @@ ScriptThread
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -143,12 +149,6 @@ mpsc
 :
 :
 Sender
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 task_source

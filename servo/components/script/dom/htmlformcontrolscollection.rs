@@ -439,7 +439,7 @@ elem
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -457,7 +457,7 @@ elem
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "

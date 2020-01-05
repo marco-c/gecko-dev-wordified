@@ -144,10 +144,10 @@ virtualmethods
 VirtualMethods
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
-Atom
+LocalName
 ;
 use
 style
@@ -179,7 +179,7 @@ new_inherited
 (
 tag_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -220,7 +220,7 @@ state
 ElementState
 tag_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -270,7 +270,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option

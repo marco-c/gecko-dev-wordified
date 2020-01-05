@@ -12264,7 +12264,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -12282,7 +12282,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -12354,7 +12354,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -12372,7 +12372,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

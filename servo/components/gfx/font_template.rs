@@ -90,6 +90,12 @@ font_template
 FontTemplateData
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -130,12 +136,6 @@ std
 :
 :
 u32
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style

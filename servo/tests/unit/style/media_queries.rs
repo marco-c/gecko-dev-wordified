@@ -90,7 +90,7 @@ borrow
 ToOwned
 ;
 use
-string_cache
+style
 :
 :
 Atom

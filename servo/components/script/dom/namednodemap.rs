@@ -204,6 +204,12 @@ window
 Window
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -211,12 +217,6 @@ ascii
 :
 :
 AsciiExt
-;
-use
-string_cache
-:
-:
-Atom
 ;
 #
 [
@@ -540,7 +540,7 @@ get_attribute
 &
 ns
 &
-Atom
+LocalName
 :
 :
 from
@@ -782,7 +782,7 @@ remove_attribute
 &
 ns
 &
-Atom
+LocalName
 :
 :
 from

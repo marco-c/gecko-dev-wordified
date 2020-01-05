@@ -186,6 +186,12 @@ globalscope
 GlobalScope
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -193,12 +199,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 /
 /

@@ -396,6 +396,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -430,12 +436,6 @@ rc
 :
 :
 Rc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -494,7 +494,7 @@ new_inherited
 (
 tag_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -535,7 +535,7 @@ state
 ElementState
 tag_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -601,7 +601,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -730,7 +730,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -875,7 +875,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -915,7 +915,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3358,11 +3358,11 @@ directly
 from
 DOMString
 to
-Atom
+LocalName
 let
 local_name
 =
-Atom
+LocalName
 :
 :
 from
@@ -3454,11 +3454,11 @@ directly
 from
 DOMString
 to
-Atom
+LocalName
 let
 local_name
 =
-Atom
+LocalName
 :
 :
 from
@@ -3721,7 +3721,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -4091,7 +4091,7 @@ Element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -4262,7 +4262,7 @@ elem
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "

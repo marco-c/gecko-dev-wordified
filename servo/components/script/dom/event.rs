@@ -205,6 +205,12 @@ script_thread
 Runnable
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -221,12 +227,6 @@ default
 :
 :
 Default
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 time

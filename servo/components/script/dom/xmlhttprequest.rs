@@ -693,6 +693,12 @@ script_runtime
 ScriptChan
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -745,12 +751,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 time

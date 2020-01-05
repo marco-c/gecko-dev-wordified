@@ -1551,9 +1551,6 @@ specified
 }
 ;
 use
-string_cache
-:
-:
 Atom
 ;
 {

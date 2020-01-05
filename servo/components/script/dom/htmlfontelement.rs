@@ -183,7 +183,13 @@ virtualmethods
 VirtualMethods
 ;
 use
-string_cache
+html5ever_atoms
+:
+:
+LocalName
+;
+use
+servo_atoms
 :
 :
 Atom
@@ -238,7 +244,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -282,7 +288,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -544,7 +550,7 @@ element
 set_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -611,7 +617,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -624,7 +630,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -645,7 +651,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -666,7 +672,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -822,7 +828,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -892,7 +898,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -965,7 +971,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

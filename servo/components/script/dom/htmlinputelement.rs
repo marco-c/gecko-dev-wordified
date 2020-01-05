@@ -419,6 +419,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -481,6 +487,12 @@ as
 ConstellationMsg
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -506,12 +518,6 @@ ops
 :
 :
 Range
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -906,7 +912,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1110,7 +1116,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1181,7 +1187,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1551,7 +1557,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3004,7 +3010,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3067,7 +3073,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3296,7 +3302,7 @@ Element
 set_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6303,7 +6309,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -7429,7 +7435,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -7567,7 +7573,7 @@ read_write
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -7645,7 +7651,7 @@ false
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -7695,7 +7701,7 @@ DEFAULT_INPUT_SIZE
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8122,7 +8128,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -8392,7 +8398,7 @@ update_placeholder_shown_state
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8472,7 +8478,7 @@ update_placeholder_shown_state
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8526,7 +8532,7 @@ as_atom
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8610,7 +8616,7 @@ Int
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8694,7 +8700,7 @@ Int
 }
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8784,7 +8790,7 @@ update_placeholder_shown_state
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -8880,7 +8886,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -8893,7 +8899,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -8914,7 +8920,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -8935,7 +8941,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -8957,7 +8963,7 @@ into
 DEFAULT_INPUT_SIZE
 )
 &
-atom
+local_name
 !
 (
 "
@@ -8978,7 +8984,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -9000,7 +9006,7 @@ into
 DEFAULT_MAX_LENGTH
 )
 &
-atom
+local_name
 !
 (
 "

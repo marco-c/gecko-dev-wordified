@@ -198,10 +198,10 @@ virtualmethods
 VirtualMethods
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
-Atom
+LocalName
 ;
 #
 [
@@ -223,7 +223,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -267,7 +267,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -428,7 +428,7 @@ elem
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -458,7 +458,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -494,7 +494,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "

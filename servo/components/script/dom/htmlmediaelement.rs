@@ -367,6 +367,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -427,6 +433,12 @@ ScriptThread
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -446,12 +458,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 task_source
@@ -1781,7 +1787,7 @@ new_inherited
 (
 tag_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -3115,7 +3121,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -5272,7 +5278,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "

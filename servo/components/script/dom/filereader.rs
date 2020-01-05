@@ -396,6 +396,12 @@ script_thread
 RunnableWrapper
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -418,12 +424,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 task_source

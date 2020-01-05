@@ -300,6 +300,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -307,12 +313,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -478,7 +478,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -548,7 +548,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -663,7 +663,7 @@ self
 atom
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -792,7 +792,7 @@ self
 atom
 :
 &
-Atom
+LocalName
 section
 :
 Option
@@ -1000,7 +1000,7 @@ self
 atom
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -1051,7 +1051,7 @@ match
 atom
 {
 &
-atom
+local_name
 !
 (
 "
@@ -1071,7 +1071,7 @@ section
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1167,7 +1167,7 @@ self
 atom
 :
 &
-Atom
+LocalName
 )
 {
 if
@@ -1584,7 +1584,7 @@ HTMLTableCaptionElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -1716,7 +1716,7 @@ self
 get_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -1769,7 +1769,7 @@ self
 set_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -1848,7 +1848,7 @@ self
 create_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -1891,7 +1891,7 @@ self
 delete_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -1943,7 +1943,7 @@ self
 get_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -1996,7 +1996,7 @@ self
 set_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2062,7 +2062,7 @@ name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -2075,7 +2075,7 @@ name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -2132,7 +2132,7 @@ self
 create_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2175,7 +2175,7 @@ self
 delete_first_section_of_type
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2272,7 +2272,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -2390,7 +2390,7 @@ HTMLTableSectionElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -2466,7 +2466,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -2617,7 +2617,7 @@ HTMLTableRowElement
 :
 new
 (
-atom
+local_name
 !
 (
 "
@@ -2715,7 +2715,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -3483,7 +3483,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3626,7 +3626,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3731,7 +3731,7 @@ local_name
 (
 )
 {
-atom
+local_name
 !
 (
 "
@@ -3794,7 +3794,7 @@ unwrap_or
 )
 ;
 }
-atom
+local_name
 !
 (
 "
@@ -3855,7 +3855,7 @@ self
 local_name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -3868,7 +3868,7 @@ match
 *
 local_name
 {
-atom
+local_name
 !
 (
 "
@@ -3889,7 +3889,7 @@ into
 )
 1
 )
-atom
+local_name
 !
 (
 "
@@ -3909,7 +3909,7 @@ into
 (
 )
 )
-atom
+local_name
 !
 (
 "

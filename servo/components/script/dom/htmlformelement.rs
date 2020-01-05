@@ -508,6 +508,12 @@ label
 encoding_from_whatwg_label
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 hyper
 :
 :
@@ -592,12 +598,6 @@ mpsc
 Sender
 ;
 use
-string_cache
-:
-:
-Atom
-;
-use
 style
 :
 :
@@ -680,7 +680,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -753,7 +753,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1913,7 +1913,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -2210,7 +2210,7 @@ Element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -2242,7 +2242,7 @@ Element
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -5873,7 +5873,7 @@ input_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -5913,7 +5913,7 @@ button_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -5986,7 +5986,7 @@ input_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6026,7 +6026,7 @@ button_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6165,7 +6165,7 @@ input_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6205,7 +6205,7 @@ button_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6307,7 +6307,7 @@ input_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6347,7 +6347,7 @@ button_element
 get_form_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6421,7 +6421,7 @@ input_element
 get_form_boolean_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6461,7 +6461,7 @@ button_element
 get_form_boolean_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6591,7 +6591,7 @@ elem
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -6710,7 +6710,7 @@ self
 attr
 :
 &
-Atom
+LocalName
 input
 :
 InputFn
@@ -6799,7 +6799,7 @@ self
 attr
 :
 &
-Atom
+LocalName
 input
 :
 InputFn
@@ -6965,7 +6965,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -6978,7 +6978,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "

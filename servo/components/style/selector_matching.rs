@@ -63,6 +63,12 @@ Selector
 matching
 .
 use
+{
+Atom
+LocalName
+}
+;
+use
 dom
 :
 :
@@ -201,6 +207,8 @@ parser
 Selector
 SimpleSelector
 LocalName
+as
+LocalNameSelector
 ComplexSelector
 }
 ;
@@ -272,12 +280,6 @@ sync
 :
 :
 Arc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style_traits
@@ -4389,7 +4391,7 @@ local_name_hash
 :
 FnvHashMap
 <
-Atom
+LocalName
 Vec
 <
 Rule
@@ -4423,7 +4425,7 @@ lower_local_name_hash
 :
 FnvHashMap
 <
-Atom
+LocalName
 Vec
 <
 Rule
@@ -5445,7 +5447,7 @@ if
 let
 Some
 (
-LocalName
+LocalNameSelector
 {
 name
 lower_name
@@ -5709,7 +5711,7 @@ Rule
 >
 Option
 <
-LocalName
+LocalNameSelector
 <
 TheSelectorImpl
 >
@@ -5742,7 +5744,7 @@ ss
 return
 Some
 (
-LocalName
+LocalNameSelector
 {
 name
 :

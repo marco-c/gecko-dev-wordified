@@ -226,6 +226,12 @@ jsval
 JSVal
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -233,12 +239,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 #
 [

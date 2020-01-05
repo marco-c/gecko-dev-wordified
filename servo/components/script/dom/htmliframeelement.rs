@@ -493,6 +493,12 @@ Window
 }
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 ipc_channel
 :
 :
@@ -581,6 +587,12 @@ IFrameUnsandboxed
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -588,12 +600,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -839,7 +845,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -1524,7 +1530,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -1620,7 +1626,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -2117,7 +2123,7 @@ element
 has_attribute
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -2322,7 +2328,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2397,7 +2403,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3390,7 +3396,7 @@ Element
 get_string_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3445,7 +3451,7 @@ Element
 set_url_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3514,7 +3520,7 @@ Element
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -3830,7 +3836,7 @@ element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -3902,7 +3908,7 @@ element
 set_bool_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -4651,7 +4657,7 @@ element
 set_bool_attribute
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -4703,7 +4709,7 @@ element
 has_attribute
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -4794,7 +4800,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -4918,7 +4924,7 @@ modes
 ;
 }
 &
-atom
+local_name
 !
 (
 "
@@ -4980,7 +4986,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -4993,7 +4999,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -5014,7 +5020,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "
@@ -5035,7 +5041,7 @@ into
 )
 )
 &
-atom
+local_name
 !
 (
 "

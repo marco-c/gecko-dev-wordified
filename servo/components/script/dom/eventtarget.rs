@@ -454,6 +454,12 @@ size_t
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -539,12 +545,6 @@ rc
 :
 :
 Rc
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 url

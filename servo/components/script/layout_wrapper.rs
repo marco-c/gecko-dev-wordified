@@ -470,6 +470,15 @@ gfx_traits
 ByteIndex
 ;
 use
+html5ever_atoms
+:
+:
+{
+LocalName
+Namespace
+}
+;
+use
 msg
 :
 :
@@ -568,6 +577,12 @@ NamespaceConstraint
 }
 ;
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -611,15 +626,6 @@ atomic
 :
 :
 Ordering
-;
-use
-string_cache
-:
-:
-{
-Atom
-Namespace
-}
 ;
 use
 style
@@ -3161,7 +3167,7 @@ Namespace
 attr
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -3195,7 +3201,7 @@ Namespace
 attr
 :
 &
-Atom
+LocalName
 val
 :
 &
@@ -3675,7 +3681,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -4388,7 +4394,7 @@ self
 -
 >
 &
-Atom
+LocalName
 {
 self
 .
@@ -4569,7 +4575,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -4622,7 +4628,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -6680,7 +6686,7 @@ get_local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -6811,7 +6817,7 @@ get_local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -7322,7 +7328,7 @@ Namespace
 name
 :
 &
-Atom
+LocalName
 )
 -
 >
@@ -7888,7 +7894,7 @@ self
 -
 >
 &
-Atom
+LocalName
 {
 self
 .

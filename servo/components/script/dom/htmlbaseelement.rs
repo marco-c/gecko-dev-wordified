@@ -187,10 +187,10 @@ virtualmethods
 VirtualMethods
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
-Atom
+LocalName
 ;
 use
 style
@@ -227,7 +227,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -271,7 +271,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -368,7 +368,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -493,7 +493,7 @@ Element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -585,7 +585,7 @@ Element
 has_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -648,7 +648,7 @@ Element
 get_url_attribute
 (
 &
-atom
+local_name
 !
 (
 "
@@ -817,7 +817,7 @@ local_name
 )
 =
 =
-atom
+local_name
 !
 (
 "

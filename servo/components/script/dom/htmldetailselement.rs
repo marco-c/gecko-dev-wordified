@@ -204,6 +204,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 script_thread
 :
 :
@@ -217,12 +223,6 @@ cell
 :
 :
 Cell
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 task_source
@@ -256,7 +256,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -309,7 +309,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -519,7 +519,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "

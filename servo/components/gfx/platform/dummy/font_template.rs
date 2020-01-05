@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+servo_atoms
+:
+:
+Atom
+;
+use
 std
 :
 :
@@ -64,12 +70,6 @@ io
 :
 :
 Error
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 webrender_traits

@@ -738,11 +738,11 @@ svgsvgelement
 SVGSVGElement
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
 {
-Atom
+Prefix
 QualName
 }
 ;
@@ -923,7 +923,7 @@ name
 .
 local
 {
-atom
+local_name
 !
 (
 "
@@ -1120,7 +1120,7 @@ name
 .
 local
 {
-atom
+local_name
 !
 (
 "
@@ -1134,7 +1134,7 @@ make
 (
 HTMLAnchorElement
 )
-atom
+local_name
 !
 (
 "
@@ -1148,7 +1148,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1162,7 +1162,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1176,7 +1176,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1190,7 +1190,7 @@ make
 (
 HTMLAppletElement
 )
-atom
+local_name
 !
 (
 "
@@ -1204,7 +1204,7 @@ make
 (
 HTMLAreaElement
 )
-atom
+local_name
 !
 (
 "
@@ -1218,7 +1218,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1232,7 +1232,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1246,7 +1246,7 @@ make
 (
 HTMLAudioElement
 )
-atom
+local_name
 !
 (
 "
@@ -1260,7 +1260,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1274,7 +1274,7 @@ make
 (
 HTMLBaseElement
 )
-atom
+local_name
 !
 (
 "
@@ -1288,7 +1288,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1330,7 +1330,7 @@ and
 apis
 :
 bgsound
-atom
+local_name
 !
 (
 "
@@ -1344,7 +1344,7 @@ make
 (
 HTMLUnknownElement
 )
-atom
+local_name
 !
 (
 "
@@ -1386,7 +1386,7 @@ and
 apis
 :
 blink
-atom
+local_name
 !
 (
 "
@@ -1422,7 +1422,7 @@ the
 blockquote
 -
 element
-atom
+local_name
 !
 (
 "
@@ -1436,7 +1436,7 @@ make
 (
 HTMLQuoteElement
 )
-atom
+local_name
 !
 (
 "
@@ -1450,7 +1450,7 @@ make
 (
 HTMLBodyElement
 )
-atom
+local_name
 !
 (
 "
@@ -1464,7 +1464,7 @@ make
 (
 HTMLBRElement
 )
-atom
+local_name
 !
 (
 "
@@ -1478,7 +1478,7 @@ make
 (
 HTMLButtonElement
 )
-atom
+local_name
 !
 (
 "
@@ -1492,7 +1492,7 @@ make
 (
 HTMLCanvasElement
 )
-atom
+local_name
 !
 (
 "
@@ -1506,7 +1506,7 @@ make
 (
 HTMLTableCaptionElement
 )
-atom
+local_name
 !
 (
 "
@@ -1520,7 +1520,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1534,7 +1534,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1548,7 +1548,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1562,7 +1562,7 @@ make
 (
 HTMLTableColElement
 )
-atom
+local_name
 !
 (
 "
@@ -1576,7 +1576,7 @@ make
 (
 HTMLTableColElement
 )
-atom
+local_name
 !
 (
 "
@@ -1590,7 +1590,7 @@ make
 (
 HTMLDataElement
 )
-atom
+local_name
 !
 (
 "
@@ -1604,7 +1604,7 @@ make
 (
 HTMLDataListElement
 )
-atom
+local_name
 !
 (
 "
@@ -1618,7 +1618,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1632,7 +1632,7 @@ make
 (
 HTMLModElement
 )
-atom
+local_name
 !
 (
 "
@@ -1646,7 +1646,7 @@ make
 (
 HTMLDetailsElement
 )
-atom
+local_name
 !
 (
 "
@@ -1660,7 +1660,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1674,7 +1674,7 @@ make
 (
 HTMLDialogElement
 )
-atom
+local_name
 !
 (
 "
@@ -1688,7 +1688,7 @@ make
 (
 HTMLDirectoryElement
 )
-atom
+local_name
 !
 (
 "
@@ -1702,7 +1702,7 @@ make
 (
 HTMLDivElement
 )
-atom
+local_name
 !
 (
 "
@@ -1716,7 +1716,7 @@ make
 (
 HTMLDListElement
 )
-atom
+local_name
 !
 (
 "
@@ -1730,7 +1730,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1744,7 +1744,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1758,7 +1758,7 @@ make
 (
 HTMLEmbedElement
 )
-atom
+local_name
 !
 (
 "
@@ -1772,7 +1772,7 @@ make
 (
 HTMLFieldSetElement
 )
-atom
+local_name
 !
 (
 "
@@ -1786,7 +1786,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1800,7 +1800,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1814,7 +1814,7 @@ make
 (
 HTMLFontElement
 )
-atom
+local_name
 !
 (
 "
@@ -1828,7 +1828,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -1842,7 +1842,7 @@ make
 (
 HTMLFormElement
 )
-atom
+local_name
 !
 (
 "
@@ -1856,7 +1856,7 @@ make
 (
 HTMLFrameElement
 )
-atom
+local_name
 !
 (
 "
@@ -1870,7 +1870,7 @@ make
 (
 HTMLFrameSetElement
 )
-atom
+local_name
 !
 (
 "
@@ -1888,7 +1888,7 @@ HeadingLevel
 :
 Heading1
 )
-atom
+local_name
 !
 (
 "
@@ -1906,7 +1906,7 @@ HeadingLevel
 :
 Heading2
 )
-atom
+local_name
 !
 (
 "
@@ -1924,7 +1924,7 @@ HeadingLevel
 :
 Heading3
 )
-atom
+local_name
 !
 (
 "
@@ -1942,7 +1942,7 @@ HeadingLevel
 :
 Heading4
 )
-atom
+local_name
 !
 (
 "
@@ -1960,7 +1960,7 @@ HeadingLevel
 :
 Heading5
 )
-atom
+local_name
 !
 (
 "
@@ -1978,7 +1978,7 @@ HeadingLevel
 :
 Heading6
 )
-atom
+local_name
 !
 (
 "
@@ -1992,7 +1992,7 @@ make
 (
 HTMLHeadElement
 )
-atom
+local_name
 !
 (
 "
@@ -2006,7 +2006,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2020,7 +2020,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2034,7 +2034,7 @@ make
 (
 HTMLHRElement
 )
-atom
+local_name
 !
 (
 "
@@ -2048,7 +2048,7 @@ make
 (
 HTMLHtmlElement
 )
-atom
+local_name
 !
 (
 "
@@ -2062,7 +2062,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2076,7 +2076,7 @@ make
 (
 HTMLIFrameElement
 )
-atom
+local_name
 !
 (
 "
@@ -2090,7 +2090,7 @@ make
 (
 HTMLImageElement
 )
-atom
+local_name
 !
 (
 "
@@ -2104,7 +2104,7 @@ make
 (
 HTMLInputElement
 )
-atom
+local_name
 !
 (
 "
@@ -2148,7 +2148,7 @@ apis
 isindex
 -
 2
-atom
+local_name
 !
 (
 "
@@ -2162,7 +2162,7 @@ make
 (
 HTMLUnknownElement
 )
-atom
+local_name
 !
 (
 "
@@ -2176,7 +2176,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2190,7 +2190,7 @@ make
 (
 HTMLLabelElement
 )
-atom
+local_name
 !
 (
 "
@@ -2204,7 +2204,7 @@ make
 (
 HTMLLegendElement
 )
-atom
+local_name
 !
 (
 "
@@ -2218,7 +2218,7 @@ make
 (
 HTMLLIElement
 )
-atom
+local_name
 !
 (
 "
@@ -2261,7 +2261,7 @@ and
 apis
 :
 listing
-atom
+local_name
 !
 (
 "
@@ -2275,7 +2275,7 @@ make
 (
 HTMLPreElement
 )
-atom
+local_name
 !
 (
 "
@@ -2289,7 +2289,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2303,7 +2303,7 @@ make
 (
 HTMLMapElement
 )
-atom
+local_name
 !
 (
 "
@@ -2317,7 +2317,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2331,7 +2331,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2345,7 +2345,7 @@ make
 (
 HTMLMetaElement
 )
-atom
+local_name
 !
 (
 "
@@ -2387,7 +2387,7 @@ and
 apis
 :
 multicol
-atom
+local_name
 !
 (
 "
@@ -2401,7 +2401,7 @@ make
 (
 HTMLUnknownElement
 )
-atom
+local_name
 !
 (
 "
@@ -2443,7 +2443,7 @@ and
 apis
 :
 nextid
-atom
+local_name
 !
 (
 "
@@ -2457,7 +2457,7 @@ make
 (
 HTMLUnknownElement
 )
-atom
+local_name
 !
 (
 "
@@ -2471,7 +2471,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2485,7 +2485,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2499,7 +2499,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2513,7 +2513,7 @@ make
 (
 HTMLObjectElement
 )
-atom
+local_name
 !
 (
 "
@@ -2527,7 +2527,7 @@ make
 (
 HTMLOListElement
 )
-atom
+local_name
 !
 (
 "
@@ -2541,7 +2541,7 @@ make
 (
 HTMLOptGroupElement
 )
-atom
+local_name
 !
 (
 "
@@ -2555,7 +2555,7 @@ make
 (
 HTMLOptionElement
 )
-atom
+local_name
 !
 (
 "
@@ -2569,7 +2569,7 @@ make
 (
 HTMLOutputElement
 )
-atom
+local_name
 !
 (
 "
@@ -2583,7 +2583,7 @@ make
 (
 HTMLParagraphElement
 )
-atom
+local_name
 !
 (
 "
@@ -2597,7 +2597,7 @@ make
 (
 HTMLParamElement
 )
-atom
+local_name
 !
 (
 "
@@ -2611,7 +2611,7 @@ make
 (
 HTMLPreElement
 )
-atom
+local_name
 !
 (
 "
@@ -2625,7 +2625,7 @@ make
 (
 HTMLPreElement
 )
-atom
+local_name
 !
 (
 "
@@ -2639,7 +2639,7 @@ make
 (
 HTMLProgressElement
 )
-atom
+local_name
 !
 (
 "
@@ -2653,7 +2653,7 @@ make
 (
 HTMLQuoteElement
 )
-atom
+local_name
 !
 (
 "
@@ -2667,7 +2667,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2681,7 +2681,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2695,7 +2695,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2709,7 +2709,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2723,7 +2723,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2738,7 +2738,7 @@ make
 HTMLScriptElement
 creator
 )
-atom
+local_name
 !
 (
 "
@@ -2752,7 +2752,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2766,7 +2766,7 @@ make
 (
 HTMLSelectElement
 )
-atom
+local_name
 !
 (
 "
@@ -2780,7 +2780,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2822,7 +2822,7 @@ and
 apis
 :
 spacer
-atom
+local_name
 !
 (
 "
@@ -2836,7 +2836,7 @@ make
 (
 HTMLUnknownElement
 )
-atom
+local_name
 !
 (
 "
@@ -2850,7 +2850,7 @@ make
 (
 HTMLSpanElement
 )
-atom
+local_name
 !
 (
 "
@@ -2864,7 +2864,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2878,7 +2878,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2892,7 +2892,7 @@ make
 (
 HTMLStyleElement
 )
-atom
+local_name
 !
 (
 "
@@ -2906,7 +2906,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2920,7 +2920,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2934,7 +2934,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -2948,7 +2948,7 @@ make
 (
 HTMLTableElement
 )
-atom
+local_name
 !
 (
 "
@@ -2962,7 +2962,7 @@ make
 (
 HTMLTableSectionElement
 )
-atom
+local_name
 !
 (
 "
@@ -2976,7 +2976,7 @@ make
 (
 HTMLTableDataCellElement
 )
-atom
+local_name
 !
 (
 "
@@ -2990,7 +2990,7 @@ make
 (
 HTMLTemplateElement
 )
-atom
+local_name
 !
 (
 "
@@ -3032,7 +3032,7 @@ concept
 element
 -
 dom
-atom
+local_name
 !
 (
 "
@@ -3046,7 +3046,7 @@ make
 (
 HTMLTableSectionElement
 )
-atom
+local_name
 !
 (
 "
@@ -3088,7 +3088,7 @@ concept
 element
 -
 dom
-atom
+local_name
 !
 (
 "
@@ -3102,7 +3102,7 @@ make
 (
 HTMLTableSectionElement
 )
-atom
+local_name
 !
 (
 "
@@ -3116,7 +3116,7 @@ make
 (
 HTMLTimeElement
 )
-atom
+local_name
 !
 (
 "
@@ -3130,7 +3130,7 @@ make
 (
 HTMLTitleElement
 )
-atom
+local_name
 !
 (
 "
@@ -3144,7 +3144,7 @@ make
 (
 HTMLTableRowElement
 )
-atom
+local_name
 !
 (
 "
@@ -3158,7 +3158,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -3172,7 +3172,7 @@ make
 (
 HTMLTrackElement
 )
-atom
+local_name
 !
 (
 "
@@ -3186,7 +3186,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -3200,7 +3200,7 @@ make
 (
 HTMLUListElement
 )
-atom
+local_name
 !
 (
 "
@@ -3214,7 +3214,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -3228,7 +3228,7 @@ make
 (
 HTMLVideoElement
 )
-atom
+local_name
 !
 (
 "
@@ -3242,7 +3242,7 @@ make
 (
 HTMLElement
 )
-atom
+local_name
 !
 (
 "
@@ -3277,7 +3277,7 @@ prefix
 :
 Option
 <
-Atom
+Prefix
 >
 document
 :
@@ -3304,7 +3304,7 @@ ajeffrey
 Convert
 directly
 from
-Atom
+Prefix
 to
 DOMString
 .

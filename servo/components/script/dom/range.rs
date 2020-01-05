@@ -7327,7 +7327,7 @@ local_name
 =
 =
 &
-atom
+local_name
 !
 (
 "
@@ -7365,7 +7365,7 @@ HTMLBodyElement
 :
 new
 (
-atom
+local_name
 !
 (
 "

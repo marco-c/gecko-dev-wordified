@@ -518,10 +518,10 @@ svgsvgelement
 SVGSVGElement
 ;
 use
-string_cache
+html5ever_atoms
 :
 :
-Atom
+LocalName
 ;
 use
 style
@@ -725,7 +725,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString

@@ -430,7 +430,7 @@ HTMLOptionElement
 :
 new
 (
-atom
+local_name
 !
 (
 "

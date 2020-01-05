@@ -220,6 +220,9 @@ sync
 Arc
 ;
 use
+Atom
+;
+use
 app_units
 :
 :
@@ -297,12 +300,6 @@ size
 :
 :
 Size2D
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 computed_values

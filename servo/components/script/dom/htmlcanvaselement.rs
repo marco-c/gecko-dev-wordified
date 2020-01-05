@@ -346,6 +346,12 @@ size
 Size2D
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 image
 :
 :
@@ -425,12 +431,6 @@ iter
 :
 :
 repeat
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style
@@ -522,7 +522,7 @@ new_inherited
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -575,7 +575,7 @@ new
 (
 local_name
 :
-Atom
+LocalName
 prefix
 :
 Option
@@ -915,7 +915,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -946,7 +946,7 @@ ns
 (
 )
 &
-atom
+local_name
 !
 (
 "
@@ -2461,7 +2461,7 @@ local_name
 )
 {
 &
-atom
+local_name
 !
 (
 "
@@ -2470,7 +2470,7 @@ width
 )
 |
 &
-atom
+local_name
 !
 (
 "
@@ -2500,7 +2500,7 @@ self
 name
 :
 &
-Atom
+LocalName
 value
 :
 DOMString
@@ -2513,7 +2513,7 @@ match
 name
 {
 &
-atom
+local_name
 !
 (
 "
@@ -2535,7 +2535,7 @@ into
 DEFAULT_WIDTH
 )
 &
-atom
+local_name
 !
 (
 "

@@ -230,6 +230,12 @@ FormDatum
 }
 ;
 use
+html5ever_atoms
+:
+:
+LocalName
+;
+use
 std
 :
 :
@@ -262,12 +268,6 @@ std
 :
 iter
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 dom_struct
@@ -285,7 +285,7 @@ DOMRefCell
 <
 HashMap
 <
-Atom
+LocalName
 Vec
 <
 FormDatum
@@ -317,7 +317,7 @@ hashmap
 :
 HashMap
 <
-Atom
+LocalName
 Vec
 <
 FormDatum
@@ -355,7 +355,7 @@ hashmap
 .
 entry
 (
-Atom
+LocalName
 :
 :
 from
@@ -624,7 +624,7 @@ data
 .
 entry
 (
-Atom
+LocalName
 :
 :
 from
@@ -792,7 +792,7 @@ data
 .
 entry
 (
-Atom
+LocalName
 :
 :
 from
@@ -881,7 +881,7 @@ borrow_mut
 remove
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -940,7 +940,7 @@ borrow
 get
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -1063,7 +1063,7 @@ borrow
 get
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -1200,7 +1200,7 @@ borrow
 contains_key
 (
 &
-Atom
+LocalName
 :
 :
 from
@@ -1254,7 +1254,7 @@ borrow_mut
 .
 insert
 (
-Atom
+LocalName
 :
 :
 from
@@ -1373,7 +1373,7 @@ borrow_mut
 .
 insert
 (
-Atom
+LocalName
 :
 :
 from
