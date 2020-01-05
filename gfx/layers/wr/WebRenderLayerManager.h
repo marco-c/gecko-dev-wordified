@@ -643,6 +643,16 @@ CreateRefLayer
 override
 ;
 virtual
+already_AddRefed
+<
+TextLayer
+>
+CreateTextLayer
+(
+)
+override
+;
+virtual
 bool
 NeedsWidgetInvalidation
 (
