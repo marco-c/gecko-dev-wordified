@@ -1065,7 +1065,7 @@ signal
 -
 safe
 .
-struct
+class
 PseudoStack
 {
 public
