@@ -4348,6 +4348,14 @@ staticPrototype
 )
 )
 ;
+if
+(
+!
+checkObj
+)
+return
+false
+;
 RootedNativeObject
 holder
 (
