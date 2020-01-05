@@ -1728,15 +1728,6 @@ void
 *
 *
 aOffThreadToken
-mozilla
-:
-:
-Vector
-<
-uint8_t
->
-&
-aBytecodeBuf
 JS
 :
 :
@@ -1812,7 +1803,6 @@ if
 StartIncrementalEncoding
 (
 mCx
-aBytecodeBuf
 aScript
 )
 )

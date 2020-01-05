@@ -2061,6 +2061,12 @@ XDRIncrementalEncoder
 :
 linearize
 (
+JS
+:
+:
+TranscodeBuffer
+&
+buffer
 )
 {
 if
@@ -2341,7 +2347,7 @@ length
 if
 (
 !
-buffer_
+buffer
 .
 append
 (
