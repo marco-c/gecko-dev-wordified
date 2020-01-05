@@ -317,9 +317,7 @@ _getState
 /
 frames
 is
-an
-empty
-array
+null
 when
 the
 debugger
@@ -330,8 +328,6 @@ if
 (
 !
 frames
-.
-toJS
 )
 {
 return
