@@ -9044,10 +9044,6 @@ mMaster
 GetMediaTime
 (
 )
-.
-ToMicroseconds
-(
-)
 ;
 mDuration
 =
@@ -9136,6 +9132,10 @@ aSampleTime
 <
 =
 currentTime
+.
+ToMicroseconds
+(
+)
 ;
 }
 )
@@ -9504,6 +9504,10 @@ aVideo
 mTime
 >
 mCurrentTime
+.
+ToMicroseconds
+(
+)
 )
 {
 mMaster
@@ -10195,12 +10199,9 @@ state
 .
 *
 /
-int64_t
+TimeUnit
 mCurrentTime
 ;
-media
-:
-:
 TimeUnit
 mDuration
 ;
