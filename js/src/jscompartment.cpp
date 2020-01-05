@@ -411,6 +411,10 @@ isSystem_
 (
 false
 )
+isAtomsCompartment_
+(
+false
+)
 isSelfHosting
 (
 false

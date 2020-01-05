@@ -1689,6 +1689,13 @@ setIsSystem
 true
 )
 ;
+atomsCompartment
+-
+>
+setIsAtomsCompartment
+(
+)
+;
 atomsZone
 .
 forget
