@@ -1048,6 +1048,14 @@ bool
 nsCSSPropertyID
 property
 )
+SERVO_BINDING_FUNC
+(
+Servo_GetProperties_Overriding_Animation
+void
+RawGeckoElementBorrowed
+RawGeckoCSSPropertyIDListBorrowed
+nsCSSPropertyIDSetBorrowedMut
+)
 /
 /
 AnimationValues
