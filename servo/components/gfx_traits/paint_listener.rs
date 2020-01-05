@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+LayerId
+;
+use
+LayerProperties
+;
+use
 layers
 :
 :
@@ -90,8 +96,6 @@ compositor_msg
 {
 Epoch
 FrameTreeId
-LayerId
-LayerProperties
 }
 ;
 use

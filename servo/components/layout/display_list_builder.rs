@@ -342,7 +342,10 @@ use
 gfx_traits
 :
 :
+{
 color
+ScrollPolicy
+}
 ;
 use
 inline
@@ -381,15 +384,6 @@ self
 MaybeAuto
 ToGfxMatrix
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-ScrollPolicy
 ;
 use
 net_traits
