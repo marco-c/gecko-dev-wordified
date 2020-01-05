@@ -6537,6 +6537,11 @@ return
 newShape
 ;
 }
+/
+*
+static
+*
+/
 bool
 NativeObject
 :
@@ -6546,6 +6551,8 @@ removeProperty
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 jsid
 id_
 )
@@ -6555,13 +6562,6 @@ id
 (
 cx
 id_
-)
-;
-RootedNativeObject
-self
-(
-cx
-this
 )
 ;
 AutoKeepShapeTables
@@ -6592,6 +6592,9 @@ Shape
 search
 (
 cx
+obj
+-
+>
 lastProperty
 (
 )
@@ -6646,7 +6649,7 @@ mode
 if
 (
 !
-self
+obj
 -
 >
 inDictionaryMode
@@ -6658,7 +6661,7 @@ inDictionaryMode
 shape
 !
 =
-self
+obj
 -
 >
 lastProperty
@@ -6667,7 +6670,7 @@ lastProperty
 |
 |
 !
-self
+obj
 -
 >
 canRemoveLastProperty
@@ -6679,7 +6682,7 @@ canRemoveLastProperty
 if
 (
 !
-self
+obj
 -
 >
 toDictionaryMode
@@ -6694,7 +6697,7 @@ ShapeTable
 *
 table
 =
-self
+obj
 -
 >
 lastProperty
@@ -6824,7 +6827,7 @@ cx
 ;
 if
 (
-self
+obj
 -
 >
 inDictionaryMode
@@ -6889,7 +6892,7 @@ if
 shape
 =
 =
-self
+obj
 -
 >
 lastProperty
@@ -6952,7 +6955,7 @@ RootedShape
 previous
 (
 cx
-self
+obj
 -
 >
 lastProperty
@@ -6966,7 +6969,7 @@ parent
 StackBaseShape
 base
 (
-self
+obj
 -
 >
 lastProperty
@@ -7033,7 +7036,7 @@ hasSlot
 )
 )
 {
-self
+obj
 -
 >
 freeSlot
@@ -7120,7 +7123,7 @@ place
 /
 if
 (
-self
+obj
 -
 >
 inDictionaryMode
@@ -7132,7 +7135,7 @@ ShapeTable
 *
 table
 =
-self
+obj
 -
 >
 lastProperty
@@ -7240,7 +7243,7 @@ Shape
 *
 aprop
 =
-self
+obj
 -
 >
 lastProperty
@@ -7280,7 +7283,7 @@ aprop
 !
 =
 shape
-self
+obj
 -
 >
 contains
@@ -7313,7 +7316,7 @@ Shape
 *
 oldLastProp
 =
-self
+obj
 -
 >
 lastProperty
@@ -7325,7 +7328,7 @@ shape
 >
 removeFromDictionary
 (
-self
+obj
 )
 ;
 /
@@ -7348,7 +7351,7 @@ oldLastProp
 >
 handoffTableTo
 (
-self
+obj
 -
 >
 lastProperty
@@ -7372,7 +7375,7 @@ infallibly
 /
 JS_ALWAYS_TRUE
 (
-self
+obj
 -
 >
 generateOwnShape
@@ -7504,7 +7507,7 @@ MOZ_ASSERT
 shape
 =
 =
-self
+obj
 -
 >
 lastProperty
@@ -7512,7 +7515,7 @@ lastProperty
 )
 )
 ;
-self
+obj
 -
 >
 removeLastProperty
@@ -7521,7 +7524,7 @@ cx
 )
 ;
 }
-self
+obj
 -
 >
 checkShapeConsistency
@@ -7829,12 +7832,13 @@ break
 if
 (
 !
-obj
--
->
+NativeObject
+:
+:
 removeProperty
 (
 cx
+obj
 obj
 -
 >

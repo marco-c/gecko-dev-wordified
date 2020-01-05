@@ -5240,12 +5240,15 @@ object
 .
 *
 /
+static
 bool
 removeProperty
 (
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 jsid
 id
 )
