@@ -6133,7 +6133,7 @@ crop_rect
 .
 size
 .
-height
+width
 *
 4
 ;
