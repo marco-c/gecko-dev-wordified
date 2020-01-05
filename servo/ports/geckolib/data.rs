@@ -60,7 +60,7 @@ use
 bindings
 :
 :
-ServoStyleSetData
+RawServoStyleSet
 ;
 use
 euclid
@@ -524,7 +524,7 @@ data
 :
 *
 mut
-ServoStyleSetData
+RawServoStyleSet
 )
 -
 >
