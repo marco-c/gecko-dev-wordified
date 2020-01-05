@@ -453,7 +453,7 @@ stringification
 -
 behavior
 fn
-Stringify
+Stringifier
 (
 self
 )
