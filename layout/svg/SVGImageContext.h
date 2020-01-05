@@ -211,6 +211,10 @@ mGlobalOpacity
 .
 0
 )
+mIsPaintingSVGImageElement
+(
+false
+)
 {
 }
 /
