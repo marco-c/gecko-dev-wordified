@@ -1140,7 +1140,7 @@ less
 than
 this
 much
-undecoded
+buffered
 data
 available
 we
@@ -1155,7 +1155,7 @@ be
 running
 low
 on
-undecoded
+buffered
 data
 .
 We
@@ -1164,7 +1164,7 @@ how
 much
 /
 /
-undecoded
+buffered
 data
 we
 have
@@ -1184,7 +1184,7 @@ implementation
 static
 const
 int64_t
-LOW_DATA_THRESHOLD_USECS
+LOW_BUFFER_THRESHOLD_USECS
 =
 5000000
 ;
@@ -1198,12 +1198,12 @@ TimeUnit
 :
 FromMicroseconds
 (
-LOW_DATA_THRESHOLD_USECS
+LOW_BUFFER_THRESHOLD_USECS
 )
 ;
 /
 /
-LOW_DATA_THRESHOLD_USECS
+LOW_BUFFER_THRESHOLD_USECS
 needs
 to
 be
@@ -1233,11 +1233,11 @@ data
 .
 static_assert
 (
-LOW_DATA_THRESHOLD_USECS
+LOW_BUFFER_THRESHOLD_USECS
 >
 AMPLE_AUDIO_USECS
 "
-LOW_DATA_THRESHOLD_USECS
+LOW_BUFFER_THRESHOLD_USECS
 is
 too
 small
