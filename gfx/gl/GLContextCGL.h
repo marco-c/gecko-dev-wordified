@@ -196,8 +196,6 @@ NSOpenGLContext
 context
 bool
 isOffscreen
-ContextProfile
-profile
 )
 ;
 ~
