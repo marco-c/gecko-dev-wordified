@@ -257,6 +257,9 @@ ipc
 namespace
 layers
 {
+struct
+ImageCompositeNotificationInfo
+;
 /
 *
 *
@@ -530,9 +533,6 @@ const
 uint64_t
 &
 aID
-PImageContainerParent
-*
-aImageContainer
 )
 override
 ;
@@ -761,7 +761,7 @@ NotifyImageComposites
 (
 nsTArray
 <
-ImageCompositeNotification
+ImageCompositeNotificationInfo
 >
 &
 aNotifications

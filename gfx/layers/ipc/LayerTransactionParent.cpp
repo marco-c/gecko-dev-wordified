@@ -6303,7 +6303,6 @@ CreateIPDLActor
 (
 this
 aInfo
-0
 )
 ;
 }
