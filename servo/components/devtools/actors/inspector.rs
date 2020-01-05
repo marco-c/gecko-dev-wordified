@@ -131,7 +131,7 @@ use
 protocol
 :
 :
-JsonPacketSender
+JsonPacketStream
 ;
 use
 collections
