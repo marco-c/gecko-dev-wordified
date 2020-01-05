@@ -122,6 +122,12 @@ style_traits
 :
 ToCss
 ;
+use
+stylesheets
+:
+:
+CssRuleType
+;
 #
 [
 derive
@@ -1756,6 +1762,10 @@ in_keyframe
 *
 /
 false
+CssRuleType
+:
+:
+Style
 )
 ;
 let

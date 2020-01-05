@@ -121,5 +121,8 @@ propdef
 -
 margin
 "
+allowed_in_page_rule
+=
+True
 )
 }
