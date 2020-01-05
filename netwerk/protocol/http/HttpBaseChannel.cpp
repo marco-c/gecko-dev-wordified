@@ -1114,7 +1114,7 @@ LOG
 Creating
 HttpBaseChannel
 %
-x
+p
 \
 n
 "
@@ -1223,7 +1223,7 @@ LOG
 Destroying
 HttpBaseChannel
 %
-x
+p
 \
 n
 "
@@ -5967,10 +5967,16 @@ p
 seting
 status
 %
-x
 "
+PRIx32
 mChannel
+static_cast
+<
+uint32_t
+>
+(
 aStatusCode
+)
 )
 )
 ;

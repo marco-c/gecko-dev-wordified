@@ -687,7 +687,7 @@ FTP
 creating
 handler
 %
-x
+p
 \
 n
 "
@@ -717,7 +717,7 @@ FTP
 destroying
 handler
 %
-x
+p
 \
 n
 "

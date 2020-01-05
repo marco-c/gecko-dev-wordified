@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -6299,7 +6308,9 @@ referrer
 directive
 got
 %
-d
+"
+PRIuSIZE
+"
 expected
 1
 "

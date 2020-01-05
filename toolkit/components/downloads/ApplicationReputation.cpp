@@ -345,6 +345,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -6019,7 +6028,7 @@ lookups
 this
 =
 %
-x
+p
 ]
 "
 this
@@ -7963,7 +7972,7 @@ Reputation
 verdict
 is
 %
-lu
+u
 obtained
 in
 %
@@ -9198,7 +9207,9 @@ p
 length
 =
 %
-d
+"
+PRIuSIZE
+"
 )
 %
 s

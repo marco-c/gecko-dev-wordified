@@ -2166,7 +2166,7 @@ s
 (
 0x
 %
-X
+lX
 )
 modifier
 =

@@ -10833,7 +10833,9 @@ reported
 "
 (
 %
-lld
+"
+PRId64
+"
 )
 in
 index
@@ -11559,12 +11561,14 @@ target
 for
 time
 %
-lld
+"
+PRId64
+"
 is
 offset
 %
-lld
 "
+PRId64
 aTarget
 r
 .
@@ -12633,8 +12637,8 @@ segment
 length
 :
 %
-lld
 "
+PRId64
 mLength
 )
 )

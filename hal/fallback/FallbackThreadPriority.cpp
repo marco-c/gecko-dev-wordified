@@ -98,7 +98,7 @@ FallbackThreadPriority
 SetCurrentThreadPriority
 (
 %
-d
+s
 )
 \
 n
@@ -129,7 +129,7 @@ SetThreadPriority
 %
 d
 %
-d
+s
 )
 \
 n

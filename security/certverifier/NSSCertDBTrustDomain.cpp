@@ -2905,7 +2905,13 @@ error
 %
 d
 "
+static_cast
+<
+int
+>
+(
 cachedResponseResult
+)
 )
 )
 ;

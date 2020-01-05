@@ -560,8 +560,8 @@ MediaTimer
 :
 WaitUntil
 %
-lld
 "
+PRId64
 RelativeMicroseconds
 (
 aTimeStamp

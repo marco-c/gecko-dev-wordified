@@ -589,7 +589,7 @@ Debug
 Destroying
 nsHttpConnectionInfo
 %
-x
+p
 \
 n
 "

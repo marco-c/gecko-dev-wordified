@@ -158,8 +158,8 @@ DumpTracks
 :
 mTracksKnownTime
 %
-lld
 "
+PRId64
 mTracksKnownTime
 )
 )
@@ -251,7 +251,9 @@ d
 d
 :
 %
-lld
+"
+PRId64
+"
 "
 i
 track

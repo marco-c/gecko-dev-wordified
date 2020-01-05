@@ -162,6 +162,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SRILogHelper
@@ -2577,7 +2586,9 @@ s
 length
 =
 %
-lu
+"
+PRIuSIZE
+"
 )
 "
 requestURL

@@ -195,6 +195,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -3519,8 +3528,8 @@ recognized
 n
 =
 %
-d
 "
+PRIuSIZE
 aTokens
 .
 Length

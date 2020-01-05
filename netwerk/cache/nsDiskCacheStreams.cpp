@@ -707,8 +707,6 @@ was
 closed
 "
 this
-buffer
-count
 )
 )
 ;
@@ -749,8 +747,6 @@ of
 file
 "
 this
-buffer
-count
 )
 )
 ;
@@ -793,8 +789,6 @@ file
 )
 "
 this
-buffer
-count
 )
 )
 ;

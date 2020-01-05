@@ -693,9 +693,15 @@ failed
 rv
 =
 %
-d
 "
+PRIu32
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 )
 ;

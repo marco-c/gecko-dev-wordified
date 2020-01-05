@@ -336,6 +336,14 @@ aTopLevelOrigin
 get
 (
 )
+NS_ConvertUTF16toUTF8
+(
+aName
+)
+.
+get
+(
+)
 )
 ;
 /

@@ -1089,7 +1089,9 @@ file
 %
 s
 %
-x
+"
+PRIx32
+"
 \
 n
 "
@@ -1098,7 +1100,13 @@ lockFileName
 get
 (
 )
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 )
 ;

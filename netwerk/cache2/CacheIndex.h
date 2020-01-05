@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SHA1
 .
 h
@@ -1924,7 +1933,9 @@ u
 originAttrsHash
 =
 %
-llx
+"
+PRIx64
+"
 frecency
 =
 %

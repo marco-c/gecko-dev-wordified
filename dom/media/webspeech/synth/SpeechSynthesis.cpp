@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -887,8 +896,8 @@ AdvanceQueue
 length
 =
 %
-d
 "
+PRIuSIZE
 mSpeechQueue
 .
 Length

@@ -552,7 +552,7 @@ buffer
 p
 size
 %
-d
+lu
 "
 aData
 -
@@ -1673,7 +1673,7 @@ completed
 port
 type
 %
-d
+lu
 "
 aData2
 )

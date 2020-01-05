@@ -138,6 +138,15 @@ Mutex
 h
 "
 #
+include
+"
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
 undef
 LOG
 #
@@ -916,7 +925,9 @@ use
 increased
 :
 %
-d
+"
+PRIuSIZE
+"
 buffers
 "
 mMaxPoolUse

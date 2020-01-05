@@ -151,6 +151,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 nsICryptoHash
 .
 h
@@ -970,7 +979,9 @@ new
 length
 =
 %
-d
+"
+PRIuSIZE
+"
 )
 "
 mAlgorithm

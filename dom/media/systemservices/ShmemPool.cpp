@@ -383,7 +383,9 @@ use
 increased
 :
 %
-d
+"
+PRIuSIZE
+"
 buffers
 "
 mMaxPoolUse
@@ -473,7 +475,9 @@ usage
 reduced
 to
 %
-d
+"
+PRIuSIZE
+"
 buffers
 "
 poolUse

@@ -168,6 +168,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 MediaPrefs
 .
 h
@@ -1974,7 +1983,9 @@ at
 time
 =
 %
-lld
+"
+PRId64
+"
 offset
 =
 %

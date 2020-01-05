@@ -1129,7 +1129,10 @@ writer
 !
 =
 nullptr
+NS_ConvertUTF16toUTF8
+(
 mimeType
+)
 .
 get
 (

@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -864,8 +873,8 @@ delta
 chunks
 :
 %
-d
 "
+PRIuSIZE
 mIndexDeltas
 .
 Length

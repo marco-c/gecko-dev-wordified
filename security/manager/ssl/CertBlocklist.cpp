@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -3717,7 +3726,9 @@ BlocklistUpdate
 interval
 is
 %
-i
+"
+PRId64
+"
 staleness
 %
 u

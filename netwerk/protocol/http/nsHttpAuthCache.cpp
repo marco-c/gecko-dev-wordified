@@ -1001,7 +1001,7 @@ s
 metadata
 =
 %
-x
+p
 ]
 \
 n
@@ -3378,7 +3378,7 @@ LOG
 Creating
 nsHttpAuthNode
 %
-x
+p
 \
 n
 "
@@ -3402,7 +3402,7 @@ LOG
 Destroying
 nsHttpAuthNode
 %
-x
+p
 \
 n
 "

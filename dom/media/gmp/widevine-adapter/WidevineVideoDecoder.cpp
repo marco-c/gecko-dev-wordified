@@ -1020,7 +1020,9 @@ Decode
 timestamp
 =
 %
-lld
+"
+PRId64
+"
 )
 rv
 =
