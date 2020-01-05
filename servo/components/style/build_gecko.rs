@@ -3753,6 +3753,9 @@ RawGeckoAnimationValueList
 RawServoAnimationValue
 "
 "
+RawServoAnimationValueList
+"
+"
 RawGeckoPresContext
 "
 "
@@ -4096,6 +4099,9 @@ nsCSSValue
 "
 "
 RawGeckoAnimationValueList
+"
+"
+RawServoAnimationValueList
 "
 ]
 ;
