@@ -338,6 +338,10 @@ pub
 mod
 textinput
 ;
+pub
+mod
+clipboard_provider
+;
 mod
 devtools
 ;
