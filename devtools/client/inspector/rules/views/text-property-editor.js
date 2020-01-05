@@ -5146,6 +5146,8 @@ if
 this
 .
 isDisplayGrid
+(
+)
 )
 {
 this
