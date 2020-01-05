@@ -6234,6 +6234,14 @@ if
 apzDragEnabled
 &
 &
+gfxPrefs
+:
+:
+APZDragInitiationEnabled
+(
+)
+&
+&
 startsDrag
 &
 &
