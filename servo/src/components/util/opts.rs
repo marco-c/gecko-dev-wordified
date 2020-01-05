@@ -83,10 +83,7 @@ use
 geometry
 :
 :
-{
-DevicePixel
 ScreenPx
-}
 ;
 use
 azure
@@ -122,6 +119,15 @@ scale_factor
 :
 :
 ScaleFactor
+;
+use
+layers
+:
+:
+geometry
+:
+:
+DevicePixel
 ;
 use
 getopts

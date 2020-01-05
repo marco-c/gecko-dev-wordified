@@ -111,6 +111,15 @@ scale_factor
 ScaleFactor
 ;
 use
+layers
+:
+:
+geometry
+:
+:
+DevicePixel
+;
+use
 serialize
 :
 :
@@ -124,7 +133,6 @@ geometry
 :
 :
 {
-DevicePixel
 PagePx
 ViewportPx
 }

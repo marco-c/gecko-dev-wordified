@@ -103,6 +103,15 @@ size
 TypedSize2D
 ;
 use
+layers
+:
+:
+geometry
+:
+:
+DevicePixel
+;
+use
 servo_msg
 :
 :
@@ -121,10 +130,7 @@ servo_util
 geometry
 :
 :
-{
 ScreenPx
-DevicePixel
-}
 ;
 use
 std
