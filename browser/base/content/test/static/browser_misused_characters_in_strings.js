@@ -1497,11 +1497,6 @@ entities
 /
 Some
 files
-such
-as
-requestAutocomplete
-.
-dtd
 have
 no
 entities
