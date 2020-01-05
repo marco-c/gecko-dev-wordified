@@ -27524,7 +27524,7 @@ bool
 BytecodeEmitter
 :
 :
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 ParseNode
 *
@@ -27824,7 +27824,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 defaultExpr
 )
@@ -29340,7 +29340,7 @@ false
 if
 (
 !
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 member
 flav
@@ -29480,7 +29480,7 @@ false
 if
 (
 !
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 member
 flav
@@ -29870,7 +29870,7 @@ true
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 pndefault
 )
@@ -29938,7 +29938,7 @@ isElision
 if
 (
 !
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 subpattern
 flav
@@ -30167,7 +30167,7 @@ isElision
 if
 (
 !
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 subpattern
 flav
@@ -35859,7 +35859,7 @@ stmtInfo
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 pn
 -
@@ -35926,7 +35926,7 @@ part
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 pn
 -
@@ -35987,7 +35987,7 @@ part
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 elseNode
 )
@@ -40917,7 +40917,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 forBody
 )
@@ -46337,7 +46337,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 pn
 -
@@ -53654,7 +53654,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 &
 conditional
@@ -53682,7 +53682,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 &
 conditional
@@ -57332,7 +57332,7 @@ false
 if
 (
 !
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 initializer
 )
@@ -60702,7 +60702,7 @@ bool
 BytecodeEmitter
 :
 :
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 ParseNode
 *
