@@ -1,15 +1,3 @@
-/
-/
-TODO
-:
-binary
-text
-format
-.
-quit
-(
-)
-;
 var
 importedArgs
 =
