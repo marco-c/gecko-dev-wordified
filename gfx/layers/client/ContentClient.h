@@ -1059,6 +1059,17 @@ aDidSelfCopy
 =
 0
 ;
+ContentClientRemote
+*
+AsContentClientRemote
+(
+)
+override
+{
+return
+this
+;
+}
 }
 ;
 /
