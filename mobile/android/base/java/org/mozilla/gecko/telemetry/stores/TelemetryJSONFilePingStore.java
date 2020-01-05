@@ -1673,7 +1673,7 @@ b
 size
 :
 %
-l
+d
 .
 "
 file
