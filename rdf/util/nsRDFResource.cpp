@@ -524,7 +524,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 rv
@@ -542,12 +541,9 @@ return
 NS_OK
 ;
 }
-else
-{
 return
 rv
 ;
-}
 }
 /
 /
