@@ -406,6 +406,11 @@ nsAString
 aInputValue
 )
 ;
+nsresult
+ShowPopup
+(
+)
+;
 inline
 nsIDocShell
 *
