@@ -1084,6 +1084,11 @@ nsFocusManager
 nsFocusManager
 (
 )
+:
+mEventHandlingNeedsFlush
+(
+false
+)
 {
 }
 nsFocusManager
@@ -9933,6 +9938,10 @@ are
 up
 to
 date
+mEventHandlingNeedsFlush
+=
+false
+;
 doc
 -
 >
