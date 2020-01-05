@@ -1170,6 +1170,17 @@ uint8_t
 aBreakBefore
 )
 ;
+enum
+class
+HyphenType
+:
+uint8_t
+{
+None
+Manual
+Auto
+}
+;
 /
 *
 *
@@ -1298,7 +1309,7 @@ GetHyphenationBreaks
 (
 Range
 aRange
-bool
+HyphenType
 *
 aBreakBefore
 )
