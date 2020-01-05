@@ -156,6 +156,12 @@ dom
 :
 :
 window
+:
+:
+{
+self
+WindowHelpers
+}
 ;
 use
 script_task
@@ -695,11 +701,9 @@ window
 >
 window
 .
-page
+resource_task
 (
 )
-.
-resource_task
 .
 clone
 (

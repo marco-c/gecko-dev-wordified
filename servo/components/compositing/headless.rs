@@ -735,7 +735,7 @@ ChangePageTitle
 Msg
 :
 :
-ChangePageLoadData
+ChangePageUrl
 (
 .
 .

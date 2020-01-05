@@ -251,6 +251,15 @@ virtualmethods
 VirtualMethods
 ;
 use
+dom
+:
+:
+window
+:
+:
+WindowHelpers
+;
+use
 cssparser
 :
 :

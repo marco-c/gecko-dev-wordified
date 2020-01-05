@@ -2210,11 +2210,9 @@ r
 (
 )
 .
-page
+pipeline
 (
 )
-.
-id
 load_data
 )
 )

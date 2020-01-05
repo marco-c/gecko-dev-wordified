@@ -2500,7 +2500,7 @@ send
 CompositorMsg
 :
 :
-ChangePageLoadData
+ChangePageUrl
 (
 new_frame
 .
@@ -2513,7 +2513,7 @@ borrow
 (
 )
 .
-load_data
+url
 .
 clone
 (
@@ -2923,16 +2923,6 @@ self
 window_size
 script_pipeline
 load_data
-.
-clone
-(
-)
-)
-;
-pipe
-.
-load
-(
 )
 ;
 Rc
@@ -5727,8 +5717,6 @@ source_url
 =
 source_pipeline
 .
-load_data
-.
 url
 .
 clone
@@ -6687,7 +6675,7 @@ borrow
 (
 )
 .
-load
+activate
 (
 )
 ;

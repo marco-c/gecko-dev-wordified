@@ -687,6 +687,15 @@ InheritTypes
 :
 ElementCast
 ;
+use
+dom
+:
+:
+window
+:
+:
+WindowHelpers
+;
 #
 [
 allow
