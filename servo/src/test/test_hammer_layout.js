@@ -59,6 +59,8 @@ styled
 '
 )
 ;
+/
+/
 div
 .
 getBoundingClientRect
@@ -87,5 +89,11 @@ start
 count
 *
 1e6
+)
+;
+window
+.
+close
+(
 )
 ;

@@ -445,7 +445,6 @@ FontEntry
 :
 new
 (
-family
 handle
 )
 ;

@@ -919,10 +919,6 @@ pub
 struct
 FontEntry
 {
-family
-:
-mut
-FontFamily
 face_name
 :
 ~
@@ -956,10 +952,6 @@ pub
 fn
 new
 (
-family
-:
-mut
-FontFamily
 handle
 :
 FontHandle
@@ -970,9 +962,6 @@ FontEntry
 {
 FontEntry
 {
-family
-:
-family
 face_name
 :
 handle
