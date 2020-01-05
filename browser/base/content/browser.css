@@ -4639,7 +4639,7 @@ height
 #
 PopupAutoCompleteRichResult
 >
-deck
+hbox
 [
 anonid
 =
@@ -4669,7 +4669,7 @@ PopupAutoCompleteRichResult
 .
 showSearchSuggestionsNotification
 >
-deck
+hbox
 [
 anonid
 =
