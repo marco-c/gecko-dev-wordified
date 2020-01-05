@@ -440,10 +440,6 @@ RefCounted
 <
 LibHandle
 AtomicRefCount
-DefaultDelete
-<
-LibHandle
->
 >
 :
 :
@@ -460,10 +456,6 @@ RefCounted
 <
 LibHandle
 AtomicRefCount
-DefaultDelete
-<
-LibHandle
->
 >
 :
 :
@@ -1408,10 +1400,6 @@ RefCounted
 <
 LibHandle
 AtomicRefCount
-DefaultDelete
-<
-LibHandle
->
 >
 :
 :
