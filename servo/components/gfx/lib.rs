@@ -131,14 +131,6 @@ io
 #
 !
 [
-feature
-(
-libc
-)
-]
-#
-!
-[
 cfg_attr
 (
 any
