@@ -88,6 +88,10 @@ extern
 crate
 precomputed_hash
 ;
+extern
+crate
+smallvec
+;
 pub
 mod
 bloom
