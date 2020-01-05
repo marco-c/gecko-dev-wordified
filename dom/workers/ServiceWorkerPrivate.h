@@ -517,7 +517,7 @@ ServiceWorkerPrivate
 final
 :
 public
-nsISupports
+nsIObserver
 {
 friend
 class
@@ -530,6 +530,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 ServiceWorkerPrivate
 )
+NS_DECL_NSIOBSERVER
 explicit
 ServiceWorkerPrivate
 (
@@ -832,6 +833,14 @@ IsIdle
 (
 )
 const
+;
+void
+AddPendingWindow
+(
+Runnable
+*
+aPendingWindow
+)
 ;
 private
 :
@@ -1195,6 +1204,13 @@ WorkerRunnable
 >
 >
 mPendingFunctionalEvents
+;
+nsTArray
+<
+Runnable
+*
+>
+pendingWindows
 ;
 }
 ;
