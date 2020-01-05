@@ -1912,6 +1912,18 @@ checksums
 -
 signing
 '
+'
+nightly
+-
+l10n
+'
+'
+nightly
+-
+l10n
+-
+signing
+'
             
 ]
 :
