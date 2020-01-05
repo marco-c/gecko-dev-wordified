@@ -1016,6 +1016,10 @@ strings
 const
 string
 &
+aHash
+const
+string
+&
 aSessionId
 )
 {
@@ -1086,6 +1090,15 @@ crashId
 GetDumpLocalID
 (
 )
+;
+payload
+[
+"
+minidumpSha256Hash
+"
+]
+=
+aHash
 ;
 payload
 [
@@ -1365,6 +1378,10 @@ aUuid
 const
 string
 &
+aHash
+const
+string
+&
 aClientId
 const
 string
@@ -1631,6 +1648,7 @@ payload
 CreatePayloadNode
 (
 strings
+aHash
 aSessionId
 )
 ;
@@ -1890,6 +1908,10 @@ SendCrashPing
 StringTable
 &
 strings
+const
+string
+&
+aHash
 string
 &
 pingUuid
@@ -2042,6 +2064,7 @@ CreateRootNode
 (
 strings
 uuid
+aHash
 clientId
 sessionId
 name
