@@ -222,7 +222,11 @@ worker
 ]
 [
 '
-chainOfTrust
+chain
+-
+of
+-
+trust
 '
 ]
 =

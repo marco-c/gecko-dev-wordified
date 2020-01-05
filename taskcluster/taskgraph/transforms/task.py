@@ -1338,7 +1338,11 @@ bool
 Required
 (
 '
-chainOfTrust
+chain
+-
+of
+-
+trust
 '
 default
 =
@@ -2915,7 +2919,11 @@ worker
 get
 (
 '
-chainOfTrust
+chain
+-
+of
+-
+trust
 '
 )
 :
