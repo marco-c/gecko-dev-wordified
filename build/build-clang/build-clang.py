@@ -1282,6 +1282,19 @@ cxx
                   
 "
 -
+DCMAKE_ASM_COMPILER
+=
+%
+s
+"
+%
+cc
+[
+0
+]
+                  
+"
+-
 DCMAKE_C_FLAGS
 =
 %
