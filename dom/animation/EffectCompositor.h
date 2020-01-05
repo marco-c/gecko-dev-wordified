@@ -2136,6 +2136,11 @@ bool
 >
 mElementsToRestyle
 ;
+bool
+mIsInPreTraverse
+=
+false
+;
 class
 AnimationStyleRuleProcessor
 final
