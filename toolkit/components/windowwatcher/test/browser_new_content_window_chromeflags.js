@@ -488,7 +488,7 @@ defaults_to
 false
 }
 "
-macsuppressanimation
+suppressanimation
 "
 :
 {
