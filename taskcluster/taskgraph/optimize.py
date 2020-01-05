@@ -1491,6 +1491,20 @@ buildername
 bbb_task
 =
 True
+        
+#
+never
+optimize
+with
+SETA
+for
+BBB
+-
+bug
+1364421
+        
+return
+False
     
 else
 :
@@ -1591,7 +1605,9 @@ False
 optimization
 (
 '
-files
+skip
+-
+unless
 -
 changed
 '
@@ -1670,9 +1686,9 @@ matching
 a
 pattern
 in
-when
-.
-files
+skip
+-
+unless
 -
 changed
 for

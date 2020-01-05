@@ -1013,6 +1013,23 @@ tree
 )
 )
         
+#
+"
+only
+when
+files
+changed
+"
+implies
+"
+skip
+if
+files
+have
+not
+changed
+"
+        
 job
 .
 setdefault
@@ -1028,7 +1045,9 @@ append
 (
 [
 '
-files
+skip
+-
+unless
 -
 changed
 '
