@@ -120,6 +120,9 @@ true
 file
 :
 true
+protocol
+:
+false
 domain
 :
 true
