@@ -3276,10 +3276,8 @@ BothValuesEqualTo
 (
 nsCSSValue
 (
-StyleBorderImageRepeat
-:
-:
-Stretch
+NS_STYLE_BORDER_IMAGE_REPEAT_STRETCH
+eCSSUnit_Enumerated
 )
 )
 ;

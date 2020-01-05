@@ -9477,12 +9477,6 @@ StyleOrient
 Inline
 Vertical
 )
-DEFINE_ENUM_CLASS_SETTER
-(
-StyleBorderImageRepeat
-Stretch
-Space
-)
 #
 ifdef
 MOZ_XUL
@@ -52377,10 +52371,7 @@ parentBorder
 -
 >
 mBorderImageRepeatH
-StyleBorderImageRepeat
-:
-:
-Stretch
+NS_STYLE_BORDER_IMAGE_REPEAT_STRETCH
 )
 ;
 SetValue
@@ -52400,10 +52391,7 @@ parentBorder
 -
 >
 mBorderImageRepeatV
-StyleBorderImageRepeat
-:
-:
-Stretch
+NS_STYLE_BORDER_IMAGE_REPEAT_STRETCH
 )
 ;
 COMPUTE_END_RESET

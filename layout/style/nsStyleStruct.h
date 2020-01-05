@@ -8686,10 +8686,7 @@ mBorderImageFill
 [
 reset
 ]
-mozilla
-:
-:
-StyleBorderImageRepeat
+uint8_t
 mBorderImageRepeatH
 ;
 /
@@ -8697,10 +8694,11 @@ mBorderImageRepeatH
 [
 reset
 ]
-mozilla
-:
-:
-StyleBorderImageRepeat
+see
+nsStyleConsts
+.
+h
+uint8_t
 mBorderImageRepeatV
 ;
 /
