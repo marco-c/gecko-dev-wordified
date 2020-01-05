@@ -1453,6 +1453,16 @@ GDK_Tab
 KEY_MAP_GTK
 (
 Tab
+GDK_ISO_Left_Tab
+)
+/
+/
+Shift
++
+Tab
+KEY_MAP_GTK
+(
+Tab
 GDK_KP_Tab
 )
 KEY_MAP_ANDROID
