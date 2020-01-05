@@ -220,8 +220,6 @@ return
 true
 ;
 }
-else
-{
 /
 /
 Some
@@ -266,7 +264,6 @@ ssrc
 return
 false
 ;
-}
 }
 if
 (

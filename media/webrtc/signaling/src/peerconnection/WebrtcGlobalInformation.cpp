@@ -2290,7 +2290,6 @@ return
 rv
 ;
 }
-else
 if
 (
 !
@@ -2825,7 +2824,6 @@ return
 rv
 ;
 }
-else
 if
 (
 !
