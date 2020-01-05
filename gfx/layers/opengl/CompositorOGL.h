@@ -918,6 +918,7 @@ XRE_GetProcessType
 GetMaxTextureSize
 (
 )
+false
 mFBOTextureTarget
 =
 =

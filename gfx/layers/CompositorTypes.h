@@ -1136,6 +1136,9 @@ int32_t
 mMaxTextureSize
 ;
 bool
+mCompositorUseANGLE
+;
+bool
 mSupportsTextureBlitting
 ;
 bool
@@ -1166,6 +1169,10 @@ aMaxTextureSize
 =
 4096
 bool
+aCompositorUseANGLE
+=
+false
+bool
 aSupportsTextureBlitting
 =
 false
@@ -1194,6 +1201,10 @@ aParentProcessType
 mMaxTextureSize
 (
 aMaxTextureSize
+)
+mCompositorUseANGLE
+(
+aCompositorUseANGLE
 )
 mSupportsTextureBlitting
 (

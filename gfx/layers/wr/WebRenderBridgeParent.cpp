@@ -4215,6 +4215,12 @@ mApi
 GetMaxTextureSize
 (
 )
+mApi
+-
+>
+GetUseANGLE
+(
+)
 )
 ;
 }
