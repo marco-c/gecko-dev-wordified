@@ -3179,7 +3179,9 @@ servoFromValue
 segment
 -
 >
-mServoFromValue
+mFromValue
+.
+mServo
 ;
 RawServoAnimationValue
 *
@@ -3188,7 +3190,9 @@ servoToValue
 segment
 -
 >
-mServoToValue
+mToValue
+.
+mServo
 ;
 /
 /
@@ -3534,6 +3538,8 @@ segment
 -
 >
 mFromValue
+.
+mGecko
 segment
 -
 >
@@ -3555,6 +3561,8 @@ segment
 -
 >
 mToValue
+.
+mGecko
 segment
 -
 >
@@ -3627,6 +3635,8 @@ lastSegment
 .
 mToValue
 .
+mGecko
+.
 IsNull
 (
 )
@@ -3644,6 +3654,8 @@ mGecko
 lastSegment
 .
 mToValue
+.
+mGecko
 ;
 fromValue
 =
@@ -5853,6 +5865,8 @@ mProperty
 s
 .
 mFromValue
+.
+mGecko
 fromValue
 )
 ;
@@ -5870,6 +5884,8 @@ mProperty
 s
 .
 mToValue
+.
+mGecko
 toValue
 )
 ;
@@ -6452,6 +6468,8 @@ mTimingFunction
 segment
 .
 mFromValue
+.
+mGecko
 segment
 .
 mFromComposite
@@ -6619,11 +6637,15 @@ segmentIdx
 ]
 .
 mFromValue
+.
+mGecko
 !
 =
 segment
 .
 mToValue
+.
+mGecko
 )
 {
 binding_detail
@@ -6646,6 +6668,8 @@ Nothing
 segment
 .
 mToValue
+.
+mGecko
 segment
 .
 mToComposite
@@ -9436,6 +9460,8 @@ mProperty
 segment
 .
 mFromValue
+.
+mGecko
 aStyleContext
 )
 ;
@@ -9453,6 +9479,8 @@ mProperty
 segment
 .
 mToValue
+.
+mGecko
 aStyleContext
 )
 ;

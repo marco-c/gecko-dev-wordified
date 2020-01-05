@@ -4267,6 +4267,8 @@ aFrame
 segment
 .
 mFromValue
+.
+mGecko
 aMinScale
 aMaxScale
 )
@@ -4294,6 +4296,8 @@ aFrame
 segment
 .
 mToValue
+.
+mGecko
 aMinScale
 aMaxScale
 )

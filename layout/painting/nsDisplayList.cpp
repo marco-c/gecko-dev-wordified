@@ -3776,6 +3776,8 @@ mProperty
 segment
 .
 mFromValue
+.
+mGecko
 aFrame
 refBox
 animSegment
@@ -3794,6 +3796,8 @@ mProperty
 segment
 .
 mToValue
+.
+mGecko
 aFrame
 refBox
 animSegment
