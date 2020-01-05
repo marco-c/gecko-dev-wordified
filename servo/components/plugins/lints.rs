@@ -595,10 +595,10 @@ format
 (
 "
 Transmute
-from
+to
 {
 }
-to
+from
 {
 }
 detected
