@@ -1357,6 +1357,13 @@ openPreferences
 '
 paneContainers
 '
+{
+origin
+:
+'
+ContainersCommand
+'
+}
 )
 ;
 "
