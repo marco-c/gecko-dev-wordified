@@ -153,6 +153,9 @@ True
 need_clone
 =
 True
+boxed
+=
+True
 spec
 =
 "
@@ -246,12 +249,6 @@ specified
 :
 :
 BorderStyle
-;
-use
-values
-:
-:
-NoViewportPercentage
 ;
 use
 values

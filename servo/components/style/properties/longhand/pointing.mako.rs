@@ -148,7 +148,7 @@ use
 values
 :
 :
-NoViewportPercentage
+HasViewportPercentage
 ;
 use
 values
@@ -177,12 +177,12 @@ for
 SpecifiedValue
 {
 }
-impl
-NoViewportPercentage
-for
+no_viewport_percentage
+!
+(
 SpecifiedValue
-{
-}
+)
+;
 pub
 mod
 computed_value

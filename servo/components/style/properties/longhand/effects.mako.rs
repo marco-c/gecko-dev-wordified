@@ -690,6 +690,11 @@ animatable
 "
 False
 "
+boxed
+=
+"
+True
+"
 spec
 =
 "

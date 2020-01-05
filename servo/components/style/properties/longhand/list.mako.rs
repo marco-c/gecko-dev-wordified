@@ -383,9 +383,7 @@ None_
 "
 animatable
 =
-"
 False
-"
 spec
 =
 "
@@ -492,7 +490,7 @@ use
 values
 :
 :
-NoViewportPercentage
+HasViewportPercentage
 ;
 pub
 use
@@ -555,12 +553,12 @@ for
 SpecifiedValue
 {
 }
-impl
-NoViewportPercentage
-for
+no_viewport_percentage
+!
+(
 SpecifiedValue
-{
-}
+)
+;
 impl
 ToCss
 for

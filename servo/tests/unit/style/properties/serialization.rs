@@ -2014,6 +2014,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -2043,6 +2048,7 @@ authored
 :
 None
 }
+)
 )
 ;
 let
@@ -2053,6 +2059,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -2082,6 +2093,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -2438,6 +2450,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -2467,6 +2484,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -2597,6 +2615,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -2626,6 +2649,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -4018,6 +4042,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -4047,6 +4076,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -4301,6 +4331,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -4330,6 +4365,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -4464,6 +4500,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -4493,6 +4534,7 @@ authored
 :
 None
 }
+)
 )
 ;
 properties
@@ -6128,6 +6170,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -6157,6 +6204,7 @@ authored
 :
 None
 }
+)
 )
 ;
 let
@@ -6563,6 +6611,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -6592,6 +6645,7 @@ authored
 :
 None
 }
+)
 )
 ;
 let
@@ -6995,6 +7049,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -7024,6 +7083,7 @@ authored
 :
 None
 }
+)
 )
 ;
 let

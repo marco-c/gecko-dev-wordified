@@ -3496,6 +3496,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSColor
 {
 parsed
@@ -3511,6 +3516,7 @@ authored
 :
 None
 }
+)
 )
 )
 )
@@ -3790,6 +3796,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 CSSRGBA
 {
 parsed
@@ -3799,6 +3810,7 @@ authored
 :
 None
 }
+)
 )
 )
 )
@@ -4034,6 +4046,11 @@ DeclaredValue
 :
 Value
 (
+Box
+:
+:
+new
+(
 border_spacing
 :
 :
@@ -4050,6 +4067,7 @@ vertical
 :
 width_value
 }
+)
 )
 )
 )
