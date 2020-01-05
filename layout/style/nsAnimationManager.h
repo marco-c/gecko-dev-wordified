@@ -187,6 +187,9 @@ CSSPseudoElementType
 uint8_t
 ;
 struct
+NonOwningAnimationTarget
+;
+struct
 AnimationEventInfo
 {
 RefPtr
@@ -2432,14 +2435,12 @@ BuildAnimations
 nsStyleContext
 *
 aStyleContext
+const
 mozilla
 :
 :
-dom
-:
-:
-Element
-*
+NonOwningAnimationTarget
+&
 aTarget
 CSSAnimationCollection
 *
