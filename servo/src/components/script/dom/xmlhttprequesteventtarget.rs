@@ -318,7 +318,6 @@ fn
 SetOnloadstart
 (
 &
-mut
 self
 listener
 :
@@ -345,7 +344,6 @@ fn
 SetOnprogress
 (
 &
-mut
 self
 listener
 :
@@ -372,7 +370,6 @@ fn
 SetOnabort
 (
 &
-mut
 self
 listener
 :
@@ -399,7 +396,6 @@ fn
 SetOnerror
 (
 &
-mut
 self
 listener
 :
@@ -426,7 +422,6 @@ fn
 SetOnload
 (
 &
-mut
 self
 listener
 :
@@ -453,7 +448,6 @@ fn
 SetOntimeout
 (
 &
-mut
 self
 listener
 :
@@ -480,7 +474,6 @@ fn
 SetOnloadend
 (
 &
-mut
 self
 listener
 :
@@ -548,7 +541,6 @@ fn
 SetOnloadstart
 (
 &
-mut
 self
 listener
 :
@@ -562,7 +554,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -571,7 +562,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -629,7 +620,6 @@ fn
 SetOnprogress
 (
 &
-mut
 self
 listener
 :
@@ -643,7 +633,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -652,7 +641,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -710,7 +699,6 @@ fn
 SetOnabort
 (
 &
-mut
 self
 listener
 :
@@ -724,7 +712,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -733,7 +720,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -791,7 +778,6 @@ fn
 SetOnerror
 (
 &
-mut
 self
 listener
 :
@@ -805,7 +791,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -814,7 +799,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -872,7 +857,6 @@ fn
 SetOnload
 (
 &
-mut
 self
 listener
 :
@@ -886,7 +870,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -895,7 +878,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -953,7 +936,6 @@ fn
 SetOntimeout
 (
 &
-mut
 self
 listener
 :
@@ -967,7 +949,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -976,7 +957,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1034,7 +1015,6 @@ fn
 SetOnloadend
 (
 &
-mut
 self
 listener
 :
@@ -1048,7 +1028,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -1057,7 +1036,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )

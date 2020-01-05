@@ -3988,6 +3988,14 @@ deref
 .
 browser_context
 .
+deref
+(
+)
+.
+borrow
+(
+)
+.
 get_ref
 (
 )
