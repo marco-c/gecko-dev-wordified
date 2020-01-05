@@ -941,7 +941,7 @@ script_traits
 ScriptMsg
 as
 ConstellationMsg
-TimerEventRequest
+TimerSchedulerMsg
 WindowSizeData
 WindowSizeType
 }
@@ -13895,7 +13895,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 timer_event_chan
 :

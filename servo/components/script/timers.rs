@@ -235,6 +235,14 @@ script_traits
 TimerEvent
 TimerEventId
 TimerEventRequest
+}
+;
+use
+script_traits
+:
+:
+{
+TimerSchedulerMsg
 TimerSource
 }
 ;
@@ -365,7 +373,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 next_timer_handle
 :
@@ -902,7 +910,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 )
 -
@@ -1908,7 +1916,13 @@ scheduler_chan
 .
 send
 (
+TimerSchedulerMsg
+:
+:
+Request
+(
 request
+)
 )
 .
 unwrap

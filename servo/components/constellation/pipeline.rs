@@ -263,7 +263,7 @@ script_traits
 :
 {
 ScriptThreadFactory
-TimerEventRequest
+TimerSchedulerMsg
 WindowSizeData
 }
 ;
@@ -1009,7 +1009,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 /
 /
@@ -3218,7 +3218,7 @@ scheduler_chan
 :
 IpcSender
 <
-TimerEventRequest
+TimerSchedulerMsg
 >
 devtools_chan
 :
