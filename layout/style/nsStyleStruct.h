@@ -2376,9 +2376,10 @@ nsStyleImageRequest
 (
 Mode
 aModeFlags
-nsStringBuffer
-*
-aURLBuffer
+const
+nsAString
+&
+aURL
 already_AddRefed
 <
 mozilla
