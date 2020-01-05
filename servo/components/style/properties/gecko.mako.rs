@@ -678,9 +678,6 @@ Arc
 ComputedValuesMap
 >
 >
-shareable
-:
-bool
 pub
 writing_mode
 :
@@ -742,11 +739,6 @@ custom_properties
 clone
 (
 )
-shareable
-:
-parent
-.
-shareable
 writing_mode
 :
 parent
@@ -833,9 +825,6 @@ Arc
 ComputedValuesMap
 >
 >
-shareable
-:
-bool
 writing_mode
 :
 WritingMode
@@ -891,9 +880,6 @@ ComputedValues
 custom_properties
 :
 custom_properties
-shareable
-:
-shareable
 writing_mode
 :
 writing_mode
@@ -951,9 +937,6 @@ ComputedValues
 custom_properties
 :
 None
-shareable
-:
-true
 writing_mode
 :
 WritingMode
