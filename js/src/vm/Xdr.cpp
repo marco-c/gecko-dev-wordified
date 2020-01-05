@@ -269,6 +269,15 @@ JS
 :
 :
 TranscodeResult_Ok
+|
+|
+resultCode_
+=
+=
+JS
+:
+:
+TranscodeResult_Throw
 )
 ;
 resultCode_
