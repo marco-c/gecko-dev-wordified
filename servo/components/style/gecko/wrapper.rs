@@ -1466,12 +1466,17 @@ self
 .
 mBoolFlags
 &
+(
+1u32
+<
+<
 nsINode_BooleanFlag
 :
 :
 NodeIsElement
 as
 u32
+)
 !
 =
 0
