@@ -4234,6 +4234,13 @@ mLastOutputTime
 =
 aTime
 ;
+int64_t
+currentTime
+=
+GetPosition
+(
+)
+;
 /
 /
 Remove
@@ -4272,7 +4279,7 @@ a
 >
 mTime
 <
-aTime
+currentTime
 ;
 )
 {
