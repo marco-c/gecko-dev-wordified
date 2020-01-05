@@ -202,6 +202,9 @@ class
 WebGLContext
 ;
 struct
+FloatOrInt
+;
+struct
 TexImageSource
 ;
 namespace
@@ -1252,12 +1255,10 @@ TexTarget
 texTarget
 GLenum
 pname
-GLint
-*
-maybeIntParam
-GLfloat
-*
-maybeFloatParam
+const
+FloatOrInt
+&
+param
 )
 ;
 /

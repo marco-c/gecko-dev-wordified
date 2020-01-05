@@ -213,8 +213,10 @@ char
 funcName
 GLenum
 pname
-GLint
-paramInt
+const
+FloatOrInt
+&
+param
 )
 ;
 private
@@ -242,10 +244,10 @@ mWrapT
 TexWrap
 mWrapR
 ;
-GLint
+GLfloat
 mMinLod
 ;
-GLint
+GLfloat
 mMaxLod
 ;
 TexCompareMode
