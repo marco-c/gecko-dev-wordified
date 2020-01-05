@@ -1514,8 +1514,8 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 VRSystemManager
 )
 virtual
-bool
-Init
+void
+Destroy
 (
 )
 =
@@ -1523,7 +1523,7 @@ Init
 ;
 virtual
 void
-Destroy
+Shutdown
 (
 )
 =

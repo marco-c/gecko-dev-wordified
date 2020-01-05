@@ -404,6 +404,11 @@ Destroy
 )
 ;
 void
+Shutdown
+(
+)
+;
+void
 DispatchVRDisplayInfoUpdate
 (
 )
