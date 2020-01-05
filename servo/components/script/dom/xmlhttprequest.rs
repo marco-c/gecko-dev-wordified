@@ -1357,10 +1357,6 @@ document
 url
 (
 )
-.
-clone
-(
-)
 )
 document
 .

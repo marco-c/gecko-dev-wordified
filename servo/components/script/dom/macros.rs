@@ -984,10 +984,6 @@ url
 (
 )
 .
-clone
-(
-)
-.
 into_string
 (
 )

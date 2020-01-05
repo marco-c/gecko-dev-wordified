@@ -1380,10 +1380,6 @@ document
 url
 (
 )
-.
-clone
-(
-)
 )
 )
 )
