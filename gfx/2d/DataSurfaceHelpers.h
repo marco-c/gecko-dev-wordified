@@ -118,6 +118,15 @@ mozilla
 namespace
 gfx
 {
+int32_t
+StrideForFormatAndWidth
+(
+SurfaceFormat
+aFormat
+int32_t
+aWidth
+)
+;
 /
 *
 *
