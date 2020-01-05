@@ -3642,6 +3642,12 @@ endswith
 ;
 "
 )
+and
+'
+{
+'
+in
+line
 :
                 
 yield
