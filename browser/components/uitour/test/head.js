@@ -2413,8 +2413,6 @@ example
 .
 org
 "
-null
-null
 )
 ;
 let
@@ -2435,8 +2433,6 @@ example
 .
 org
 "
-null
-null
 )
 ;
 Services

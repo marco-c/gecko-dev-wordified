@@ -627,8 +627,6 @@ io
 newURI
 (
 uriSpec
-null
-null
 )
 )
 ;
@@ -1048,8 +1046,6 @@ io
 newURI
 (
 entryURISpec
-null
-null
 )
 ;
 }

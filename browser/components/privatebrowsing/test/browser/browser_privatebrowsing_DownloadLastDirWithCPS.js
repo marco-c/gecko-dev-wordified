@@ -436,8 +436,6 @@ test1
 com
 /
 "
-null
-null
 )
 ;
 let
@@ -459,8 +457,6 @@ test2
 com
 /
 "
-null
-null
 )
 ;
 let
@@ -482,8 +478,6 @@ test3
 com
 /
 "
-null
-null
 )
 ;
 let
@@ -505,8 +499,6 @@ test4
 com
 /
 "
-null
-null
 )
 ;
 /

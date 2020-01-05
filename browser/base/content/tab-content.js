@@ -3233,8 +3233,6 @@ newURI
 currentStyleSheet
 .
 href
-null
-null
 )
 ;
 }

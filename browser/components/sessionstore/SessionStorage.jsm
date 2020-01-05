@@ -823,8 +823,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 principal

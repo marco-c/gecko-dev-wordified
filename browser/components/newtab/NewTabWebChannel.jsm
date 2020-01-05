@@ -1591,8 +1591,6 @@ newURI
 this
 .
 origin
-null
-null
 )
 )
 ;

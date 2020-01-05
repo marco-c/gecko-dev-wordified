@@ -8474,8 +8474,6 @@ NetUtil
 newURI
 (
 url
-null
-null
 )
 .
 spec

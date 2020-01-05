@@ -963,8 +963,6 @@ io
 newURI
 (
 urlString
-null
-null
 )
 ;
 if

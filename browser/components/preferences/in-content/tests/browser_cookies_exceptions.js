@@ -586,8 +586,6 @@ test
 .
 com
 "
-null
-null
 )
 ;
 params
@@ -694,8 +692,6 @@ test
 .
 com
 "
-null
-null
 )
 ;
 params
@@ -1795,8 +1791,6 @@ ioService
 newURI
 (
 URL
-null
-null
 )
 ;
 params
@@ -2239,8 +2233,6 @@ ioService
 newURI
 (
 URL
-null
-null
 )
 ;
 params

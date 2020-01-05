@@ -2063,8 +2063,6 @@ newURI
 aResult
 .
 uri
-null
-null
 )
 ;
 let
@@ -2349,8 +2347,6 @@ newURI
 aResult
 .
 uri
-null
-null
 )
 ;
 let

@@ -2221,8 +2221,6 @@ io
 newURI
 (
 href
-null
-null
 )
 ;
 }
@@ -2392,8 +2390,6 @@ newURI
 aRequest
 .
 documentURI
-null
-null
 )
 ;
 let
@@ -4355,8 +4351,6 @@ newURI
 doc
 .
 documentURI
-null
-null
 )
 ;
 perms

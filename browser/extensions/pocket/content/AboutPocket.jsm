@@ -321,8 +321,6 @@ newURI
 this
 .
 chromeURL
-null
-null
 )
 ;
 let

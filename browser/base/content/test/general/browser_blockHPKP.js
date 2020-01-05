@@ -719,8 +719,6 @@ https
 "
 +
 kPinningDomain
-null
-null
 )
 ;
 gSSService

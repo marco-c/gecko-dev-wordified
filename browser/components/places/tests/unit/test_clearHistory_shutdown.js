@@ -1144,8 +1144,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 "
 "
@@ -1233,8 +1231,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 "
 "

@@ -123,8 +123,6 @@ https
 "
 +
 TEST_URL_TAIL
-null
-null
 )
 ;
 const
@@ -144,8 +142,6 @@ http
 "
 +
 TEST_URL_TAIL
-null
-null
 )
 ;
 const
@@ -170,8 +166,6 @@ TEST_URL_TAIL
 ?
 object
 "
-null
-null
 )
 ;
 /

@@ -574,8 +574,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 ;
 let
@@ -723,8 +721,6 @@ io
 newURI
 (
 aURL
-null
-null
 )
 ;
 }

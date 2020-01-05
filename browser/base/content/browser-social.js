@@ -3026,8 +3026,6 @@ newURI
 pageData
 .
 url
-null
-null
 )
 :
 gBrowser
@@ -3655,8 +3653,6 @@ io
 newURI
 (
 shareEndpoint
-null
-null
 )
 ;
 iframe

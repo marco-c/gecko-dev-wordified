@@ -285,8 +285,6 @@ pluginReplaceBinding
 .
 css
 "
-null
-null
 )
 ;
 PluginContent

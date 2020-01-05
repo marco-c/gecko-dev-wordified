@@ -172,8 +172,6 @@ com
 /
 file
 "
-null
-null
 )
 }
 ;

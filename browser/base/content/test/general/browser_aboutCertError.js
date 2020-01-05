@@ -2473,8 +2473,6 @@ io
 newURI
 (
 BAD_STS_CERT
-null
-null
 )
 ;
 is

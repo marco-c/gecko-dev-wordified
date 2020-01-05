@@ -4858,8 +4858,6 @@ newURI
 tab
 .
 url
-null
-null
 )
 )
 )
