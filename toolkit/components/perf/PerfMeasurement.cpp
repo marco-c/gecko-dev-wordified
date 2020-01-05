@@ -571,9 +571,6 @@ targetObj
 cx
 )
 ;
-nsresult
-rv
-=
 loader
 -
 >
@@ -582,12 +579,6 @@ FindTargetObject
 cx
 &
 targetObj
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 *

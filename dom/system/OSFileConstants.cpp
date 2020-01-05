@@ -6485,8 +6485,6 @@ targetObj
 aCx
 )
 ;
-rv
-=
 loader
 -
 >
@@ -6495,12 +6493,6 @@ FindTargetObject
 aCx
 &
 targetObj
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
