@@ -482,6 +482,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -600,6 +601,7 @@ ctx
 i
 ]
 NULL
+NULL
 )
 ;
 ASSERT_EQ
@@ -686,6 +688,7 @@ ctx
 "
 test_context_variables
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -852,6 +855,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -984,6 +988,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -1157,6 +1162,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -1344,6 +1350,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -1990,6 +1997,7 @@ i
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -2163,6 +2171,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -2410,6 +2419,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ
@@ -3165,6 +3175,7 @@ ctx
 "
 test_sanity
 "
+NULL
 )
 ;
 ASSERT_EQ

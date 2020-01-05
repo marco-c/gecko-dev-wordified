@@ -710,6 +710,7 @@ test
 :
 channels
 "
+NULL
 )
 ;
 if
@@ -1021,6 +1022,7 @@ Cubeb
 audio
 test
 "
+NULL
 )
 ;
 if
