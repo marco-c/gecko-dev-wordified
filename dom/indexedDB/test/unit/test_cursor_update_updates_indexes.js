@@ -222,6 +222,7 @@ true
 "
 )
 ;
+let
 request
 =
 indexedDB
@@ -252,6 +253,7 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
+let
 event
 =
 yield

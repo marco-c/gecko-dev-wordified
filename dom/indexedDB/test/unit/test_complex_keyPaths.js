@@ -1414,6 +1414,7 @@ indexName
 ;
 try
 {
+var
 request
 =
 store
@@ -2204,6 +2205,7 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
+let
 e
 =
 yield
@@ -2240,6 +2242,7 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
+let
 e
 =
 yield

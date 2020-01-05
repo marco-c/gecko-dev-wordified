@@ -314,6 +314,7 @@ data
 "
 )
 ;
+let
 index
 =
 objectStore

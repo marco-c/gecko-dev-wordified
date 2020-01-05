@@ -585,6 +585,12 @@ in
 this
 )
 {
+/
+*
+global
+SimpleTest
+*
+/
 SimpleTest
 .
 expectUncaughtException

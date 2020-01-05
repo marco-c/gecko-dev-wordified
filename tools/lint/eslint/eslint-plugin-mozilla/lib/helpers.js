@@ -2485,6 +2485,7 @@ filter
 name
 =
 >
+(
 name
 .
 startsWith
@@ -2492,6 +2493,19 @@ startsWith
 "
 head
 "
+)
+|
+|
+name
+.
+startsWith
+(
+"
+xpcshell
+-
+head
+"
+)
 )
 &
 &

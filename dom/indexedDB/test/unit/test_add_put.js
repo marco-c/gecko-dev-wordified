@@ -289,6 +289,7 @@ null
 }
 )
 ;
+let
 test
 =
 "
@@ -489,6 +490,7 @@ are
 passed
 to
 function
+let
 args
 =
 [
