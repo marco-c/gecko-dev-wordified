@@ -307,6 +307,9 @@ impl
 NodeAddress
 :
 Send
++
+'
+static
 >
 LocalImageCache
 <

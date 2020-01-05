@@ -2418,6 +2418,9 @@ map
 dppx_str
 |
 ScaleFactor
+:
+:
+new
 (
 dppx_str
 .

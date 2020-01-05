@@ -394,11 +394,10 @@ item
 :
 &
 Item
-mut
 push
 :
-Box
-<
+&
+mut
 FnMut
 (
 P
@@ -406,7 +405,6 @@ P
 Item
 >
 )
->
 )
 {
 let

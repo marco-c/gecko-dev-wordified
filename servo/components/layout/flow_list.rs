@@ -76,8 +76,8 @@ collections
 :
 :
 {
-dlist
-DList
+linked_list
+LinkedList
 }
 ;
 /
@@ -109,7 +109,7 @@ just
 a
 wrapper
 around
-DList
+LinkedList
 .
 pub
 struct
@@ -117,7 +117,7 @@ FlowList
 {
 flows
 :
-DList
+LinkedList
 <
 FlowRef
 >
@@ -132,7 +132,7 @@ a
 {
 it
 :
-dlist
+linked_list
 :
 :
 Iter
@@ -152,7 +152,7 @@ a
 {
 it
 :
-dlist
+linked_list
 :
 :
 IterMut
@@ -585,7 +585,7 @@ FlowList
 {
 flows
 :
-DList
+LinkedList
 :
 :
 new

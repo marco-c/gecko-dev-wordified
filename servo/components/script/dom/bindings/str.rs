@@ -81,7 +81,7 @@ hash
 :
 {
 Hash
-SipHasher
+Hasher
 }
 ;
 use
@@ -1118,14 +1118,16 @@ rule
 }
 impl
 Hash
-<
-SipHasher
->
 for
 ByteString
 {
 fn
 hash
+<
+H
+:
+Hasher
+>
 (
 &
 self
@@ -1133,7 +1135,7 @@ state
 :
 &
 mut
-SipHasher
+H
 )
 {
 let

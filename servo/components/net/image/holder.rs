@@ -242,6 +242,9 @@ impl
 NodeAddress
 :
 Send
++
+'
+static
 >
 ImageHolder
 <

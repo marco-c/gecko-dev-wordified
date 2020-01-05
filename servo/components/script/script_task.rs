@@ -6595,8 +6595,6 @@ iter
 position
 (
 |
-&
-:
 load
 |
 {

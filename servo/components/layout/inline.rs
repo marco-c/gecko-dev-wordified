@@ -168,7 +168,7 @@ collections
 :
 :
 {
-RingBuf
+VecDeque
 }
 ;
 use
@@ -1876,7 +1876,7 @@ on
 .
 work_list
 :
-RingBuf
+VecDeque
 <
 Fragment
 >
@@ -2005,7 +2005,7 @@ new
 )
 work_list
 :
-RingBuf
+VecDeque
 :
 :
 new
@@ -4669,8 +4669,6 @@ let
 split_fragment
 =
 |
-&
-:
 split
 :
 SplitInfo
@@ -10859,7 +10857,7 @@ relative_containing_block_mode
 CoordinateSystem
 :
 :
-Self
+Own
 )
 ;
 let

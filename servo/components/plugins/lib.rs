@@ -205,14 +205,6 @@ unicode
 )
 ]
 #
-!
-[
-allow
-(
-missing_copy_implementations
-)
-]
-#
 [
 macro_use
 ]

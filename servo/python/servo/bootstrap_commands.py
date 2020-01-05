@@ -637,6 +637,9 @@ join
 (
 rust_dir
 "
+rustc
+"
+"
 bin
 "
 "
@@ -1163,6 +1166,12 @@ split
 [
 1
 ]
+                              
+"
+rust
+-
+docs
+"
 "
 share
 "
@@ -1176,6 +1185,7 @@ rust
 html
 "
 )
+                    
 docs_dir
 )
         

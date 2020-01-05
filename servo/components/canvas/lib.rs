@@ -72,14 +72,6 @@ feature
 collections
 )
 ]
-#
-!
-[
-allow
-(
-missing_copy_implementations
-)
-]
 extern
 crate
 azure

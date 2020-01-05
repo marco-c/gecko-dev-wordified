@@ -900,6 +900,17 @@ Arc
 StackingContext
 >
 >
+/
+/
+/
+Performs
+CSS
+selector
+matching
+and
+style
+resolution
+.
 pub
 stylist
 :
@@ -1453,8 +1464,6 @@ clone
 box
 move
 |
-&
-:
 _
 node_address
 |
@@ -2086,6 +2095,9 @@ as_f32
 )
 *
 ScaleFactor
+:
+:
+new
 (
 1
 .
@@ -4060,8 +4072,6 @@ stylist
 device
 &
 |
-&
-:
 family
 src
 |

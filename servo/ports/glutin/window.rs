@@ -3634,6 +3634,9 @@ f32
 >
 {
 ScaleFactor
+:
+:
+new
 (
 self
 .
@@ -5000,6 +5003,9 @@ f32
 >
 {
 ScaleFactor
+:
+:
+new
 (
 1
 .

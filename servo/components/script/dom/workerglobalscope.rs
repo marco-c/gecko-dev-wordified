@@ -603,7 +603,7 @@ WorkerGlobalScope
 >
 {
 fn
-Self
+Self_
 (
 self
 )

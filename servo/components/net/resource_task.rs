@@ -317,7 +317,7 @@ host_file_path
 env
 :
 :
-var_string
+var
 (
 "
 HOST_FILE
@@ -1868,8 +1868,6 @@ skip
 {
 if
 token
-[
-]
 .
 as_bytes
 (
@@ -2370,8 +2368,6 @@ Send
 box
 move
 |
-&
-:
 (
 load_data
 start_chan

@@ -189,7 +189,7 @@ collections
 :
 :
 {
-DList
+LinkedList
 HashMap
 }
 ;
@@ -3796,7 +3796,7 @@ let
 mut
 fragments
 =
-DList
+LinkedList
 :
 :
 new

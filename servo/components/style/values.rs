@@ -6844,6 +6844,15 @@ use
 std
 :
 :
+marker
+:
+:
+MarkerTrait
+;
+use
+std
+:
+:
 ops
 :
 :
@@ -7105,6 +7114,8 @@ ComputedValue
 pub
 trait
 ComputedValueAsSpecified
+:
+MarkerTrait
 {
 }
 impl

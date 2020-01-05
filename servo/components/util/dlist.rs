@@ -74,7 +74,7 @@ std
 collections
 :
 :
-DList
+LinkedList
 ;
 use
 std
@@ -113,14 +113,14 @@ list
 :
 &
 mut
-DList
+LinkedList
 <
 T
 >
 )
 -
 >
-DList
+LinkedList
 <
 T
 >
@@ -165,7 +165,7 @@ mem
 replace
 (
 list
-DList
+LinkedList
 :
 :
 new
@@ -227,7 +227,7 @@ this
 :
 &
 mut
-DList
+LinkedList
 <
 T
 >
@@ -235,7 +235,7 @@ other
 :
 &
 mut
-DList
+LinkedList
 <
 T
 >

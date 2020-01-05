@@ -72,14 +72,6 @@ feature
 int_uint
 )
 ]
-#
-!
-[
-allow
-(
-missing_copy_implementations
-)
-]
 extern
 crate
 azure

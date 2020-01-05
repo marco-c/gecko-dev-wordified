@@ -1231,6 +1231,9 @@ root
 "
 ]
 "
+rustc
+"
+"
 bin
 "
 )
@@ -1259,6 +1262,9 @@ rust
 root
 "
 ]
+"
+rustc
+"
 "
 lib
 "
@@ -1326,6 +1332,9 @@ cargo
 root
 "
 ]
+"
+cargo
+"
 "
 bin
 "
@@ -2376,12 +2385,7 @@ the
 openssl
 build
             
-env
-[
-"
-OPENSSL_PATH
-"
-]
+openssl_dir
 =
 "
 %
@@ -2429,6 +2433,32 @@ GONK_PRODUCT
 "
 ]
 }
+            
+env
+[
+"
+OPENSSL_LIB_DIR
+"
+]
+=
+openssl_dir
+            
+env
+[
+'
+OPENSSL_INCLUDE_DIR
+'
+]
+=
+path
+.
+join
+(
+openssl_dir
+"
+include
+"
+)
         
 #
 FIXME
@@ -2837,6 +2867,9 @@ root
 "
 ]
 "
+rustc
+"
+"
 bin
 "
 "
@@ -2907,6 +2940,9 @@ cargo
 root
 "
 ]
+"
+cargo
+"
 "
 bin
 "

@@ -2333,6 +2333,9 @@ f32
 Point2D
 (
 Length
+:
+:
+new
 (
 new_offset
 .
@@ -2353,6 +2356,9 @@ min_x
 )
 )
 Length
+:
+:
+new
 (
 new_offset
 .

@@ -727,8 +727,6 @@ let
 filterer
 =
 |
-&
-:
 c
 :
 &
@@ -876,8 +874,6 @@ let
 reducer
 =
 |
-&
-:
 acc
 :
 String

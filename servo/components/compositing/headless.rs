@@ -382,6 +382,9 @@ TypedSize2D
 device_pixel_ratio
 :
 ScaleFactor
+:
+:
+new
 (
 1
 .

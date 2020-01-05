@@ -778,7 +778,7 @@ std
 marker
 :
 :
-ContravariantLifetime
+PhantomData
 ;
 use
 std
@@ -5583,7 +5583,7 @@ self
 ptr
 chain
 :
-ContravariantLifetime
+PhantomData
 }
 }
 /
@@ -5651,7 +5651,7 @@ self
 ptr
 chain
 :
-ContravariantLifetime
+PhantomData
 }
 }
 }
@@ -5786,10 +5786,13 @@ T
 >
 chain
 :
-ContravariantLifetime
+PhantomData
 <
+&
 '
 a
+(
+)
 >
 }
 impl

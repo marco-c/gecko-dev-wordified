@@ -130,11 +130,10 @@ item
 :
 &
 Item
-mut
 push
 :
-Box
-<
+&
+mut
 FnMut
 (
 P
@@ -146,7 +145,6 @@ Item
 >
 (
 )
->
 )
 {
 if

@@ -72,6 +72,14 @@ feature
 io
 )
 ]
+#
+!
+[
+feature
+(
+old_io
+)
+]
 use
 std
 :
@@ -105,7 +113,7 @@ out_dir
 env
 :
 :
-var_string
+var
 (
 "
 OUT_DIR

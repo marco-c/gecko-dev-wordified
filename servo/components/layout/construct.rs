@@ -514,7 +514,7 @@ std
 collections
 :
 :
-DList
+LinkedList
 ;
 use
 std
@@ -1011,7 +1011,7 @@ up
 pub
 splits
 :
-DList
+LinkedList
 <
 InlineBlockSplit
 >
@@ -1031,7 +1031,7 @@ splits
 pub
 fragments
 :
-DList
+LinkedList
 <
 Fragment
 >
@@ -1251,7 +1251,7 @@ flow
 pub
 predecessors
 :
-DList
+LinkedList
 <
 Fragment
 >
@@ -1304,7 +1304,7 @@ fragments
 .
 fragments
 :
-DList
+LinkedList
 <
 Fragment
 >
@@ -1369,7 +1369,7 @@ InlineFragmentsAccumulator
 {
 fragments
 :
-DList
+LinkedList
 :
 :
 new
@@ -1395,7 +1395,7 @@ InlineFragmentsAccumulator
 let
 fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -1432,7 +1432,7 @@ self
 mut
 fragments
 :
-DList
+LinkedList
 <
 Fragment
 >
@@ -1468,7 +1468,7 @@ self
 )
 -
 >
-DList
+LinkedList
 <
 Fragment
 >
@@ -3462,7 +3462,7 @@ ThreadSafeLayoutNode
 mut
 initial_fragments
 :
-DList
+LinkedList
 <
 Fragment
 >
@@ -3950,7 +3950,7 @@ let
 mut
 initial_fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -4152,7 +4152,7 @@ fragments
 :
 &
 mut
-DList
+LinkedList
 <
 Fragment
 >
@@ -4537,12 +4537,12 @@ let
 mut
 opt_inline_block_splits
 :
-DList
+LinkedList
 <
 InlineBlockSplit
 >
 =
-DList
+LinkedList
 :
 :
 new
@@ -5349,7 +5349,7 @@ let
 mut
 fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -5448,7 +5448,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-DList
+LinkedList
 :
 :
 new
@@ -5595,7 +5595,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-DList
+LinkedList
 :
 :
 new
@@ -5766,7 +5766,7 @@ InlineFragmentsConstructionResult
 {
 splits
 :
-DList
+LinkedList
 :
 :
 new
@@ -7478,7 +7478,7 @@ let
 mut
 unscanned_marker_fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -7690,7 +7690,7 @@ let
 mut
 initial_fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -11028,7 +11028,7 @@ this
 :
 &
 mut
-DList
+LinkedList
 <
 Fragment
 >
@@ -11121,7 +11121,7 @@ this
 :
 &
 mut
-DList
+LinkedList
 <
 Fragment
 >

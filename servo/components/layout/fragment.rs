@@ -367,7 +367,7 @@ std
 collections
 :
 :
-DList
+LinkedList
 ;
 use
 std
@@ -5836,7 +5836,7 @@ let
 mut
 unscanned_ellipsis_fragments
 =
-DList
+LinkedList
 :
 :
 new
@@ -14145,7 +14145,7 @@ Otherwise
 if
 coordinate_system
 is
-Self
+Own
 and
 this
 fragment
@@ -14299,7 +14299,7 @@ coordinate_system
 CoordinateSystem
 :
 :
-Self
+Own
 &
 &
 self
@@ -15658,7 +15658,7 @@ context
 if
 applicable
 .
-Self
+Own
 }
 /
 /

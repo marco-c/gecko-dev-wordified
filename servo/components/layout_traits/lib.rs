@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-allow
-(
-missing_copy_implementations
-)
-]
 extern
 crate
 gfx
