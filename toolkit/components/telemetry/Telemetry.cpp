@@ -1697,8 +1697,9 @@ mAnnotations
 AnnotationInfo
 (
 )
-{
-}
+=
+default
+;
 AnnotationInfo
 &
 operator
@@ -15413,8 +15414,9 @@ ProcessedStack
 ProcessedStack
 (
 )
-{
-}
+=
+default
+;
 size_t
 ProcessedStack
 :

@@ -451,8 +451,9 @@ nsIUTF8StringEnumerator
 GIOUTF8StringEnumerator
 (
 )
-{
-}
+=
+default
+;
 public
 :
 GIOUTF8StringEnumerator

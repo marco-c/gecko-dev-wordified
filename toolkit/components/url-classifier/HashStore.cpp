@@ -1803,8 +1803,9 @@ HashStore
 HashStore
 (
 )
-{
-}
+=
+default
+;
 nsresult
 HashStore
 :

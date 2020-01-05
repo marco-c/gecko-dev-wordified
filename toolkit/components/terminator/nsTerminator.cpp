@@ -1221,8 +1221,9 @@ constexpr
 PR_CloseDelete
 (
 )
-{
-}
+=
+default
+;
 PR_CloseDelete
 (
 const
@@ -1230,8 +1231,9 @@ PR_CloseDelete
 &
 aOther
 )
-{
-}
+=
+default
+;
 void
 operator
 (
