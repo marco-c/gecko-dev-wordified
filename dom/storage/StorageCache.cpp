@@ -145,7 +145,7 @@ h
 #
 include
 "
-StorageManager
+LocalStorageManager
 .
 h
 "
@@ -669,7 +669,7 @@ StorageCache
 :
 Init
 (
-StorageManagerBase
+LocalStorageManager
 *
 aManager
 bool
@@ -866,7 +866,7 @@ Origin
 const
 {
 return
-StorageManagerBase
+LocalStorageManager
 :
 :
 CreateOrigin
@@ -1172,7 +1172,7 @@ aDelta
 &
 newOriginUsage
 >
-StorageManagerBase
+LocalStorageManager
 :
 :
 GetQuota
@@ -3694,7 +3694,7 @@ aDelta
 &
 newUsage
 >
-StorageManagerBase
+LocalStorageManager
 :
 :
 GetQuota
@@ -3823,7 +3823,7 @@ else
 /
 /
 Use
-DOMLocalStorageManager
+LocalStorageManager
 :
 :
 Ensure
@@ -3863,7 +3863,7 @@ db
 new
 StorageDBChild
 (
-DOMLocalStorageManager
+LocalStorageManager
 :
 :
 Ensure

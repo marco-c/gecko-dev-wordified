@@ -189,7 +189,7 @@ namespace
 dom
 {
 class
-DOMLocalStorageManager
+LocalStorageManager
 ;
 /
 /
@@ -258,7 +258,7 @@ public
 explicit
 StorageDBChild
 (
-DOMLocalStorageManager
+LocalStorageManager
 *
 aManager
 )
@@ -668,7 +668,7 @@ to
 .
 RefPtr
 <
-DOMLocalStorageManager
+LocalStorageManager
 >
 mManager
 ;

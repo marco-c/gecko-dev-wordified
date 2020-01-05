@@ -131,13 +131,6 @@ h
 #
 include
 "
-StorageManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1690,7 +1683,7 @@ aDelta
 &
 newOriginUsage
 >
-StorageManagerBase
+LocalStorageManager
 :
 :
 GetQuota

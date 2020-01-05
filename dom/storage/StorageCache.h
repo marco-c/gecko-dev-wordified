@@ -192,10 +192,10 @@ class
 LocalStorage
 ;
 class
-StorageUsage
+LocalStorageManager
 ;
 class
-StorageManagerBase
+StorageUsage
 ;
 class
 StorageDBBridge
@@ -795,7 +795,7 @@ public
 void
 Init
 (
-StorageManagerBase
+LocalStorageManager
 *
 aManager
 bool
@@ -1308,7 +1308,7 @@ deletion
 .
 friend
 class
-StorageManagerBase
+LocalStorageManager
 ;
 static
 const
@@ -1704,7 +1704,7 @@ ref
 .
 RefPtr
 <
-StorageManagerBase
+LocalStorageManager
 >
 mManager
 ;
