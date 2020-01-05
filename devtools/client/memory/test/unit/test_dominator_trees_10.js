@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -51,9 +56,6 @@ them
 .
 let
 {
-snapshotState
-:
-states
 dominatorTreeState
 labelDisplays
 viewState

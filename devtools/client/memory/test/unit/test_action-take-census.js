@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -52,7 +57,6 @@ snapshotState
 :
 states
 censusDisplays
-censusState
 censusState
 viewState
 }

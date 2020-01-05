@@ -52,9 +52,6 @@ displays
 /
 let
 {
-snapshotState
-:
-states
 censusState
 viewState
 }

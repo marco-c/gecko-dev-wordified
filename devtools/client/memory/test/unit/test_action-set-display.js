@@ -67,9 +67,6 @@ that
 let
 {
 censusDisplays
-snapshotState
-:
-states
 censusState
 viewState
 }

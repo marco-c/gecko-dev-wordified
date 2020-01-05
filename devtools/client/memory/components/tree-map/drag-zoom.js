@@ -1440,15 +1440,6 @@ scrollDelta
 ZOOM_SPEED
 )
 ;
-let
-deltaZoom
-=
-dragZoom
-.
-zoom
--
-prevZoom
-;
 /
 /
 Calculate

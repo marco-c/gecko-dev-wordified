@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -57,9 +62,6 @@ fetched
 .
 const
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 labelDisplays
@@ -124,7 +126,6 @@ view
 const
 {
 takeSnapshotAndCensus
-computeAndFetchDominatorTree
 }
 =
 require

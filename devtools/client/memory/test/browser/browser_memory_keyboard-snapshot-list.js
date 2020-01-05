@@ -51,7 +51,6 @@ strict
 ;
 const
 {
-snapshotState
 viewState
 censusState
 }

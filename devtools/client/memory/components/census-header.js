@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 DOM
@@ -107,9 +112,6 @@ models
 "
 )
 ;
-const
-CensusHeader
-=
 module
 .
 exports

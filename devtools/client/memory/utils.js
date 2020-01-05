@@ -56,9 +56,13 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
-Cu
 Cc
 Ci
 }
@@ -2703,6 +2707,10 @@ nsIFilePicker
 .
 modeSave
 :
+null
+;
+mode
+=
 mode
 =
 =

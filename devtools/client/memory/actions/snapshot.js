@@ -249,9 +249,6 @@ Object
 }
 *
 /
-const
-takeSnapshotAndCensus
-=
 exports
 .
 takeSnapshotAndCensus
@@ -552,9 +549,6 @@ snapshotId
 id
 *
 /
-const
-selectSnapshotAndRefresh
-=
 exports
 .
 selectSnapshotAndRefresh
@@ -1316,6 +1310,7 @@ canTakeCensus
 (
 snapshot
 )
+"
 Attempting
 to
 take
@@ -1331,6 +1326,8 @@ a
 ready
 state
 .
+"
++
 snapshot
 .
 state
@@ -1340,6 +1337,7 @@ snapshot
 .
 state
 }
++
 census
 .
 state
@@ -2011,9 +2009,6 @@ node
 .
 *
 /
-const
-focusIndividual
-=
 exports
 .
 focusIndividual
@@ -2511,9 +2506,6 @@ HeapAnalysesClient
 heapWorker
 *
 /
-const
-refreshIndividuals
-=
 exports
 .
 refreshIndividuals
@@ -2722,9 +2714,6 @@ HeapAnalysesClient
 heapWorker
 *
 /
-const
-refreshSelectedCensus
-=
 exports
 .
 refreshSelectedCensus
@@ -2944,9 +2933,6 @@ HeapAnalysesClient
 heapWorker
 *
 /
-const
-refreshSelectedTreeMap
-=
 exports
 .
 refreshSelectedTreeMap
@@ -3693,9 +3679,6 @@ DominatorTreeLazyChildren
 lazyChildren
 *
 /
-const
-fetchImmediatelyDominated
-=
 exports
 .
 fetchImmediatelyDominated
@@ -3951,7 +3934,6 @@ error
 )
 ;
 return
-null
 ;
 }
 }
@@ -3998,6 +3980,8 @@ response
 moreChildrenAvailable
 }
 )
+;
+return
 ;
 }
 }
@@ -4168,9 +4152,6 @@ HeapAnalysesClient
 heapWorker
 *
 /
-const
-refreshSelectedDominatorTree
-=
 exports
 .
 refreshSelectedDominatorTree
@@ -4447,9 +4428,6 @@ HeapAnalysesClient
 heapWorker
 *
 /
-const
-clearSnapshots
-=
 exports
 .
 clearSnapshots
@@ -4721,9 +4699,6 @@ snapshotModel
 snapshot
 *
 /
-const
-deleteSnapshot
-=
 exports
 .
 deleteSnapshot
@@ -4851,9 +4826,6 @@ CensusTreeNode
 node
 *
 /
-const
-expandCensusNode
-=
 exports
 .
 expandCensusNode
@@ -4902,9 +4874,6 @@ CensusTreeNode
 node
 *
 /
-const
-collapseCensusNode
-=
 exports
 .
 collapseCensusNode
@@ -4961,9 +4930,6 @@ DominatorTreeNode
 node
 *
 /
-const
-focusCensusNode
-=
 exports
 .
 focusCensusNode
@@ -5012,9 +4978,6 @@ DominatorTreeTreeNode
 node
 *
 /
-const
-expandDominatorTreeNode
-=
 exports
 .
 expandDominatorTreeNode
@@ -5063,9 +5026,6 @@ DominatorTreeTreeNode
 node
 *
 /
-const
-collapseDominatorTreeNode
-=
 exports
 .
 collapseDominatorTreeNode
@@ -5120,9 +5080,6 @@ DominatorTreeNode
 node
 *
 /
-const
-focusDominatorTreeNode
-=
 exports
 .
 focusDominatorTreeNode

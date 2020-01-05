@@ -50,7 +50,6 @@ strict
 const
 {
 dominatorTreeState
-snapshotState
 viewState
 censusState
 }
@@ -144,15 +143,6 @@ panelWin
 gHeapAnalysesClient
 ;
 const
-front
-=
-panel
-.
-panelWin
-.
-gFront
-;
-const
 store
 =
 panel
@@ -163,7 +153,6 @@ gStore
 ;
 const
 {
-getState
 dispatch
 }
 =

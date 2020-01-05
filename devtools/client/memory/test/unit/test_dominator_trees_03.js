@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -54,9 +59,6 @@ trees
 .
 const
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 }

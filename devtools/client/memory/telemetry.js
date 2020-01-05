@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 This
@@ -143,7 +148,6 @@ DevToolsUtils
 const
 {
 labelDisplays
-treeMapDisplays
 censusDisplays
 }
 =

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -116,7 +121,6 @@ panelWin
 const
 {
 getState
-dispatch
 }
 =
 gStore

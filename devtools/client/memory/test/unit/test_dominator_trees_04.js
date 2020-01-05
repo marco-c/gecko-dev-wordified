@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -177,6 +182,7 @@ READ
 {
 dumpn
 (
+"
 Testing
 switching
 to
@@ -188,6 +194,8 @@ the
 middle
 of
 the
+"
++
 {
 intermediateSnapshotState
 }

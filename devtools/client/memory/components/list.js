@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 DOM
@@ -118,9 +123,6 @@ handler
 .
 *
 /
-const
-List
-=
 module
 .
 exports

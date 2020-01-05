@@ -58,9 +58,6 @@ snapshot
 const
 {
 censusDisplays
-snapshotState
-:
-states
 viewState
 censusState
 }

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -44,9 +49,6 @@ tree
 .
 const
 {
-snapshotState
-:
-states
 dominatorTreeState
 viewState
 }
@@ -67,7 +69,6 @@ constants
 const
 {
 takeSnapshotAndCensus
-selectSnapshotAndRefresh
 fetchImmediatelyDominated
 }
 =

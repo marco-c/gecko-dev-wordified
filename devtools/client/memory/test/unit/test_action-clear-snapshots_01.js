@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -59,9 +64,6 @@ snapshot
 ;
 let
 {
-snapshotState
-:
-states
 actions
 }
 =

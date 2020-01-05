@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -48,9 +53,6 @@ census
 const
 {
 censusDisplays
-snapshotState
-:
-states
 censusState
 viewState
 }
