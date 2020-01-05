@@ -602,10 +602,12 @@ CrossProcessSemaphore
 :
 Wait
 (
+const
 Maybe
 <
 TimeDuration
 >
+&
 aWaitTime
 )
 {

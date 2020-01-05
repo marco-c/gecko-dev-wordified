@@ -452,10 +452,12 @@ otherwise
 bool
 Wait
 (
+const
 Maybe
 <
 TimeDuration
 >
+&
 aWaitTime
 =
 Nothing
