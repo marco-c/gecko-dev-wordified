@@ -194,6 +194,9 @@ nsRuleData
 namespace
 mozilla
 {
+class
+ServoSpecifiedValues
+;
 /
 /
 This
@@ -277,7 +280,7 @@ public
 MOZ_DECL_STYLO_METHODS
 (
 nsRuleData
-nsRuleData
+ServoSpecifiedValues
 )
 /
 /
