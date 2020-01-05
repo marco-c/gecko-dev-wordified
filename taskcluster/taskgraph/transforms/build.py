@@ -158,6 +158,18 @@ tier
 1
 )
         
+job
+.
+setdefault
+(
+'
+needs
+-
+sccache
+'
+True
+)
+        
 if
 job
 [
