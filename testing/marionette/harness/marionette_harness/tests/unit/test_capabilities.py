@@ -381,7 +381,8 @@ implicit
 0
                               
 "
-pageLoad
+page
+load
 "
 :
 300000
@@ -2533,7 +2534,8 @@ implicit
 123
 u
 "
-pageLoad
+page
+load
 "
 :
 456
