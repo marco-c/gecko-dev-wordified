@@ -1989,7 +1989,7 @@ INVALID_HANDLE_VALUE
 if
 (
 mWindowsVersion
-=
+>
 =
 kWindows8
 &
