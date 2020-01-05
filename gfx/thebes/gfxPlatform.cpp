@@ -13917,6 +13917,14 @@ with
 e10s
 if
 (
+gfxPrefs
+:
+:
+WebRenderEnabled
+(
+)
+&
+&
 !
 gfxPrefs
 :
