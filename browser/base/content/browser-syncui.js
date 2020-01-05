@@ -1079,7 +1079,7 @@ the
 correct
 state
 .
-_loginFailed
+loginFailed
 (
 )
 {
@@ -1144,7 +1144,7 @@ log
 debug
 (
 "
-_loginFailed
+loginFailed
 has
 sync
 not
@@ -1166,7 +1166,7 @@ log
 debug
 (
 "
-_loginFailed
+loginFailed
 has
 sync
 state
@@ -1293,7 +1293,7 @@ loginFailed
 =
 this
 .
-_loginFailed
+loginFailed
 (
 )
 ;
@@ -2051,7 +2051,7 @@ needsSetup
 |
 this
 .
-_loginFailed
+loginFailed
 (
 )
 )
@@ -2853,7 +2853,7 @@ loginFailed
 =
 this
 .
-_loginFailed
+loginFailed
 (
 )
 ;
