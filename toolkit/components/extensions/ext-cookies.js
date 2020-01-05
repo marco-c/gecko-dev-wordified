@@ -241,8 +241,6 @@ storeId
 if
 (
 !
-global
-.
 isContainerCookieStoreId
 (
 storeId
@@ -298,24 +296,18 @@ storeId
 )
 {
 return
-global
-.
 isDefaultCookieStoreId
 (
 storeId
 )
 |
 |
-global
-.
 isPrivateCookieStoreId
 (
 storeId
 )
 |
 |
-global
-.
 isContainerCookieStoreId
 (
 storeId
@@ -1359,8 +1351,6 @@ storeId
 if
 (
 !
-global
-.
 isValidCookieStoreId
 (
 details
@@ -1374,8 +1364,6 @@ return
 }
 if
 (
-global
-.
 isDefaultCookieStoreId
 (
 details
@@ -1392,8 +1380,6 @@ false
 else
 if
 (
-global
-.
 isPrivateCookieStoreId
 (
 details
@@ -1410,8 +1396,6 @@ true
 else
 if
 (
-global
-.
 isContainerCookieStoreId
 (
 details
@@ -1426,8 +1410,6 @@ false
 ;
 userContextId
 =
-global
-.
 getContainerForCookieStoreId
 (
 details
@@ -2508,8 +2490,6 @@ userContextId
 ;
 if
 (
-global
-.
 isDefaultCookieStoreId
 (
 details
@@ -2526,8 +2506,6 @@ false
 else
 if
 (
-global
-.
 isPrivateCookieStoreId
 (
 details
@@ -2544,8 +2522,6 @@ true
 else
 if
 (
-global
-.
 isContainerCookieStoreId
 (
 details
@@ -2557,8 +2533,6 @@ storeId
 let
 containerId
 =
-global
-.
 getContainerForCookieStoreId
 (
 details
