@@ -249,6 +249,12 @@ VideoStreamTrack
 class
 MediaStreamError
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 /
 *
 *
@@ -724,6 +730,8 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 )
 ;
 /
@@ -1559,6 +1567,8 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

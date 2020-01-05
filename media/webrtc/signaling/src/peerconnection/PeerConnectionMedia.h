@@ -968,6 +968,11 @@ dom
 MediaTrackConstraints
 &
 aConstraints
+dom
+:
+:
+CallerType
+aCallerType
 )
 override
 ;
