@@ -582,6 +582,7 @@ GeckoNode
 ln
 >
 {
+pub
 unsafe
 fn
 from_raw
