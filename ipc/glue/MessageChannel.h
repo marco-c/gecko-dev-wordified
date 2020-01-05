@@ -284,6 +284,9 @@ stack
 namespace
 mozilla
 {
+class
+AbstractThread
+;
 namespace
 ipc
 {
@@ -3142,6 +3145,12 @@ where
 work
 is
 done
+RefPtr
+<
+AbstractThread
+>
+mAbstractThread
+;
 RefPtr
 <
 CancelableRunnable
