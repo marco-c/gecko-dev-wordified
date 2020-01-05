@@ -1273,6 +1273,10 @@ aLineNumber
 aColumnNumber
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 }
 nsCSSFontFaceRule
 (
@@ -1307,6 +1311,10 @@ aCopy
 mDecl
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 }
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
@@ -1427,12 +1435,6 @@ aCssText
 )
 const
 override
-;
-nsICSSDeclaration
-*
-Style
-(
-)
 ;
 virtual
 size_t
