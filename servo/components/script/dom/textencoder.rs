@@ -651,7 +651,7 @@ JSObject
 unsafe
 {
 let
-output
+encoded
 =
 self
 .
@@ -676,7 +676,7 @@ unwrap
 let
 length
 =
-output
+encoded
 .
 len
 (
@@ -716,7 +716,7 @@ ptr
 copy_nonoverlapping
 (
 js_object_data
-output
+encoded
 .
 as_ptr
 (

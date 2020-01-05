@@ -4817,6 +4817,8 @@ struct
 Root
 <
 T
+:
+Reflectable
 >
 {
 /

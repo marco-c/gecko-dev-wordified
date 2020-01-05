@@ -661,9 +661,9 @@ x
 for
 _
 in
-range
-(
 0
+.
+.
 self
 .
 block_flow
@@ -674,7 +674,6 @@ children
 .
 len
 (
-)
 )
 {
 if

@@ -624,6 +624,8 @@ struct
 Trusted
 <
 T
+:
+Reflectable
 >
 {
 /
