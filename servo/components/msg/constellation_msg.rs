@@ -1694,6 +1694,7 @@ WebDriverScriptCommand
 )
 TakeScreenshot
 (
+PipelineId
 Sender
 <
 Option
