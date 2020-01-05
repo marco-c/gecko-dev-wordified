@@ -90,6 +90,10 @@ log
 ;
 extern
 crate
+hbs_pow
+;
+extern
+crate
 ipc_channel
 ;
 extern
@@ -151,4 +155,7 @@ mem
 pub
 mod
 time
+;
+mod
+heartbeats
 ;
