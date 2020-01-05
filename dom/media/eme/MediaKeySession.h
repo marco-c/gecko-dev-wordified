@@ -355,15 +355,6 @@ KeyStatuses
 const
 ;
 void
-GetKeySystem
-(
-nsString
-&
-aRetval
-)
-const
-;
-void
 GetSessionId
 (
 nsString
