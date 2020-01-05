@@ -22,6 +22,7 @@ base
 {
 nk_div
 nk_img
+nk_text
 node
 }
 ;
@@ -55,8 +56,8 @@ base
 bk_block
 bk_inline
 bk_intrinsic
+bk_text
 box
-box_kind
 }
 ;
 import
@@ -71,6 +72,7 @@ base
 :
 :
 {
+box_kind
 btree
 node_methods
 ntree
@@ -735,6 +737,16 @@ size
 nk_div
 {
 bk_block
+}
+nk_text
+(
+s
+)
+{
+bk_text
+(
+s
+)
 }
 }
 }
