@@ -1372,6 +1372,17 @@ min
 .
 js
 '
+'
+:
+(
+exclude
+)
+*
+.
+min
+.
+css
+'
 ]
             
 env
