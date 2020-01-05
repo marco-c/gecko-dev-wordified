@@ -373,10 +373,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-msg
-:
-:
-constellation_msg
+script_traits
 :
 :
 ScriptMsg

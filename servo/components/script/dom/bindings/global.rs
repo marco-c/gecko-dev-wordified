@@ -233,17 +233,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 ConstellationChan
 PipelineId
@@ -278,6 +267,9 @@ script_traits
 :
 {
 MsDuration
+ScriptMsg
+as
+ConstellationMsg
 TimerEventRequest
 }
 ;

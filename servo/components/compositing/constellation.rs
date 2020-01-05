@@ -293,17 +293,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-FromScriptMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 WebDriverCommandMsg
 ;
 use
@@ -466,6 +455,9 @@ script_traits
 :
 :
 {
+ScriptMsg
+as
+FromScriptMsg
 ScriptState
 ScriptTaskFactory
 }
