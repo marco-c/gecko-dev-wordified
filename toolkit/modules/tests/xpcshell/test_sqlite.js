@@ -5922,13 +5922,6 @@ error
 error
 )
 ;
-errors
-.
-push
-(
-error
-)
-;
 deferred
 .
 reject

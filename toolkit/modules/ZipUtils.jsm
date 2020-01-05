@@ -475,9 +475,9 @@ catch
 e
 )
 {
-logger
+Cu
 .
-error
+reportError
 (
 "
 Failed
@@ -517,9 +517,9 @@ function
 e
 )
 {
-logger
+Cu
 .
-error
+reportError
 (
 "
 Failed
