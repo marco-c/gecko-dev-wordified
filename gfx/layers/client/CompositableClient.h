@@ -248,6 +248,9 @@ PCompositableChild
 class
 TextureClientRecycleAllocator
 ;
+class
+ContentClientRemote
+;
 /
 *
 *
@@ -1088,6 +1091,17 @@ TextureClient
 aTexture
 )
 ;
+virtual
+ContentClientRemote
+*
+AsContentClientRemote
+(
+)
+{
+return
+nullptr
+;
+}
 static
 RefPtr
 <
