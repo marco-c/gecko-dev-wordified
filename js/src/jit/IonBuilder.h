@@ -4650,6 +4650,16 @@ AbortReasonOr
 <
 Ok
 >
+jsop_checkiscallable
+(
+uint8_t
+kind
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_checkobjcoercible
 (
 )
