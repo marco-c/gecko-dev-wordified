@@ -178,7 +178,7 @@ gfx_traits
 ;
 extern
 crate
-style
+style_traits
 ;
 #
 [

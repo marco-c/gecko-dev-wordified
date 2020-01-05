@@ -164,6 +164,15 @@ PropertyDeclarationBlock
 }
 ;
 use
+style_traits
+:
+:
+viewport
+:
+:
+ViewportConstraints
+;
+use
 stylesheets
 :
 :
@@ -178,7 +187,7 @@ viewport
 :
 :
 {
-ViewportConstraints
+MaybeNew
 ViewportRuleCascade
 }
 ;
