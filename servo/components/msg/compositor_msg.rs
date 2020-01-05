@@ -80,7 +80,6 @@ Key
 KeyModifiers
 KeyState
 PipelineId
-SubpageId
 }
 ;
 use
@@ -1238,19 +1237,6 @@ pub
 pipeline_id
 :
 PipelineId
-/
-/
-/
-The
-ID
-of
-the
-subpage
-.
-pub
-subpage_id
-:
-SubpageId
 /
 /
 /
