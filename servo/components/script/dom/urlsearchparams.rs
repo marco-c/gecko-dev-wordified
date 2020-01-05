@@ -691,7 +691,7 @@ borrow
 (
 )
 .
-find_equiv
+get
 (
 &
 name
@@ -732,7 +732,7 @@ borrow
 (
 )
 .
-contains_key_equiv
+contains_key
 (
 &
 name

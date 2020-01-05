@@ -1048,7 +1048,7 @@ je_mallctl
 (
 c_name
 .
-unwrap
+into_inner
 (
 )
 oldp

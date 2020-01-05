@@ -82,6 +82,14 @@ deny
 unused_variables
 )
 ]
+#
+!
+[
+allow
+(
+missing_copy_implementations
+)
+]
 extern
 crate
 collections

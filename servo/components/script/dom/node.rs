@@ -5756,7 +5756,6 @@ selectors
 map
 (
 |
-mut
 iter
 |
 {

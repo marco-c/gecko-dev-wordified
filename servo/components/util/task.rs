@@ -328,7 +328,7 @@ proc
 match
 future_result
 .
-unwrap
+into_inner
 (
 )
 {

@@ -749,7 +749,7 @@ borrow
 (
 )
 .
-contains_key_equiv
+contains_key
 (
 &
 name
@@ -848,7 +848,7 @@ borrow
 (
 )
 .
-contains_key_equiv
+contains_key
 (
 &
 name

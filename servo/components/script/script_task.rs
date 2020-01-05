@@ -938,7 +938,7 @@ thread_local
 (
 pub
 static
-StackRoots
+STACK_ROOTS
 :
 Cell
 <
@@ -1461,7 +1461,7 @@ RootCollection
 >
 StackRootTLS
 {
-StackRoots
+STACK_ROOTS
 .
 with
 (
@@ -1505,7 +1505,7 @@ mut
 self
 )
 {
-StackRoots
+STACK_ROOTS
 .
 with
 (

@@ -119,7 +119,7 @@ unicode
 char
 :
 :
-to_lowercase
+UnicodeChar
 ;
 pub
 type
@@ -2376,7 +2376,14 @@ chars
 .
 map
 (
+|
+c
+|
+c
+.
 to_lowercase
+(
+)
 )
 .
 collect
