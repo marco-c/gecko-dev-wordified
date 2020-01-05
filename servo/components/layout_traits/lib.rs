@@ -74,11 +74,7 @@ script_traits
 ;
 extern
 crate
-"
 msg
-"
-as
-servo_msg
 ;
 extern
 crate
@@ -154,7 +150,7 @@ paint_task
 PaintChan
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

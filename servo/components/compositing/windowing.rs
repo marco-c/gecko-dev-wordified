@@ -133,7 +133,7 @@ surface
 NativeGraphicsMetadata
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -145,7 +145,7 @@ ReadyState
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

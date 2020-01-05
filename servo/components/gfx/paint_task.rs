@@ -199,7 +199,7 @@ use
 layers
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -212,7 +212,7 @@ LayerId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -225,7 +225,7 @@ ScrollPolicy
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -236,7 +236,7 @@ as
 ConstellationMsg
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -249,7 +249,7 @@ PipelineId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

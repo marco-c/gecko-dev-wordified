@@ -154,11 +154,7 @@ unstable
 ]
 extern
 crate
-"
 msg
-"
-as
-servo_msg
 ;
 extern
 crate
@@ -212,7 +208,7 @@ Decoder
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

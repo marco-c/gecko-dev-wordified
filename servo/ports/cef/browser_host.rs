@@ -148,7 +148,7 @@ c_int
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

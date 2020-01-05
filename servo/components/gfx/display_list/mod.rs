@@ -353,7 +353,7 @@ paint_task
 PaintLayer
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg

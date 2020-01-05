@@ -448,7 +448,7 @@ UntrustedNodeAddress
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -457,7 +457,7 @@ compositor_msg
 ScrollPolicy
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -468,7 +468,7 @@ as
 ConstellationMsg
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

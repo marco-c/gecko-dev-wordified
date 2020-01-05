@@ -245,7 +245,7 @@ Encoder
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

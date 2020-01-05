@@ -167,7 +167,7 @@ pipeline
 CompositionPipeline
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -181,7 +181,7 @@ ReadyState
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -195,7 +195,7 @@ ScrollPolicy
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -208,7 +208,7 @@ PipelineId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
