@@ -199,6 +199,12 @@ mozilla
 namespace
 gmp
 {
+static
+uint32_t
+sDecryptorCount
+=
+1
+;
 GMPDecryptorChild
 :
 :
@@ -216,6 +222,12 @@ nullptr
 mPlugin
 (
 aPlugin
+)
+mDecryptorId
+(
+sDecryptorCount
++
++
 )
 {
 MOZ_ASSERT
@@ -556,7 +568,7 @@ process
 .
 SendSetDecryptorId
 (
-Id
+DecryptorId
 (
 )
 )
