@@ -254,6 +254,10 @@ mThrottledQueuesInitialized
 (
 false
 )
+mIsChrome
+(
+aIsChrome
+)
 {
 for
 (
@@ -496,6 +500,9 @@ IsEmpty
 MOZ_RELEASE_ASSERT
 (
 mLastWindowLeft
+|
+|
+mIsChrome
 )
 ;
 }
@@ -1161,10 +1168,8 @@ leaves
 .
 if
 (
-sChromeTabGroup
 !
-=
-this
+mIsChrome
 &
 &
 mWindows
@@ -1697,10 +1702,7 @@ MOZ_RELEASE_ASSERT
 mThrottledQueuesInitialized
 |
 |
-this
-=
-=
-sChromeTabGroup
+mIsChrome
 )
 ;
 }
