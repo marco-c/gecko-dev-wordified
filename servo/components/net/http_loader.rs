@@ -521,6 +521,9 @@ pub
 fn
 factory
 (
+user_agent
+:
+String
 hsts_list
 :
 Arc
@@ -570,7 +573,6 @@ Arc
 <
 MIMEClassifier
 >
-String
 )
 +
 Send
@@ -584,7 +586,6 @@ load_data
 LoadData
 senders
 classifier
-user_agent
 |
 {
 spawn_named
