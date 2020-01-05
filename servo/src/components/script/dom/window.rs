@@ -245,7 +245,7 @@ for
 Window
 {
 fn
-finalize
+drop
 (
 &
 self

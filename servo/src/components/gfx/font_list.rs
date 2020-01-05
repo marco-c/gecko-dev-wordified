@@ -869,7 +869,11 @@ this
 .
 entries
 .
-each
+iter
+(
+)
+.
+advance
 |
 entry
 |

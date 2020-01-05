@@ -484,7 +484,11 @@ self
 .
 list
 .
-each
+iter
+(
+)
+.
+advance
 |
 item
 |

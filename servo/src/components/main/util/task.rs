@@ -95,7 +95,7 @@ spawn_listener
 <
 A
 :
-Owned
+Send
 >
 (
 f
@@ -173,10 +173,10 @@ spawn_conversation
 <
 A
 :
-Owned
+Send
 B
 :
-Owned
+Send
 >
 (
 f

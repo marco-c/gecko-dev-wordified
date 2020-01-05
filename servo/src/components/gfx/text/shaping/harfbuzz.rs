@@ -865,8 +865,10 @@ Au
 {
 *
 y_pos
--
 =
+*
+y_pos
+-
 y_advance
 ;
 }
@@ -949,7 +951,7 @@ for
 Shaper
 {
 fn
-finalize
+drop
 (
 &
 self

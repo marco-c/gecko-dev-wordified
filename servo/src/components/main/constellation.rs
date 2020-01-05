@@ -1396,10 +1396,16 @@ self
 .
 pipelines
 .
-each
+iter
+(
+)
+.
+advance
 |
+(
 _
 pipeline
+)
 |
 {
 pipeline
@@ -1650,7 +1656,7 @@ Load
 >
 {
 let
-evicted
+_evicted
 =
 self
 .

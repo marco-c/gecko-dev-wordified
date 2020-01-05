@@ -19467,6 +19467,7 @@ return
 [
 allow
 (
+non_uppercase_statics
 unused_imports
 unused_variable
 unused_unsafe

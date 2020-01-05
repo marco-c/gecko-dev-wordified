@@ -800,7 +800,11 @@ self
 .
 glyphs
 .
-foldl
+iter
+(
+)
+.
+fold
 (
 0u
 )
@@ -1082,7 +1086,11 @@ self
 .
 glyphs
 .
-each
+iter
+(
+)
+.
+advance
 |
 slice_glyphs
 |
