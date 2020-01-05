@@ -7242,6 +7242,16 @@ GetAlternativeDataType
 altDataType
 )
 ;
+int64_t
+altDataLen
+=
+chan
+-
+>
+GetAltDataLength
+(
+)
+;
 /
 /
 !
@@ -7326,6 +7336,7 @@ GetPeerAddr
 redirectCount
 cacheKeyValue
 altDataType
+altDataLen
 )
 )
 {

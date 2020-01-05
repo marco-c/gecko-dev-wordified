@@ -2193,6 +2193,15 @@ only
 .
 *
 /
+int64_t
+GetAltDataLength
+(
+)
+{
+return
+mAltDataLength
+;
+}
 bool
 IsNavigation
 (
@@ -3564,6 +3573,9 @@ returned
 .
 nsCString
 mAvailableCachedAltDataType
+;
+int64_t
+mAltDataLength
 ;
 bool
 mForceMainDocumentChannel
