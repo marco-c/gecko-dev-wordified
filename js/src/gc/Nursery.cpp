@@ -2622,7 +2622,7 @@ ObjectElements
 *
 newHeader
 uint32_t
-nelems
+capacity
 )
 {
 /
@@ -2655,12 +2655,9 @@ newHeader
 elements
 (
 )
-nelems
+capacity
 >
-ObjectElements
-:
-:
-VALUES_PER_HEADER
+0
 )
 ;
 }
