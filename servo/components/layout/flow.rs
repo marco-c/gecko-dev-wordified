@@ -6000,6 +6000,7 @@ derive
 (
 RustcEncodable
 Copy
+Clone
 )
 ]
 pub

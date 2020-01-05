@@ -23583,6 +23583,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 #
@@ -44649,6 +44650,7 @@ deriving
 "
 PartialEq
 Copy
+Clone
 "
 )
             
@@ -44666,6 +44668,7 @@ deriving
 "
 PartialEq
 Copy
+Clone
 "
 )
         

@@ -252,6 +252,7 @@ both
 derive
 (
 Copy
+Clone
 )
 ]
 pub

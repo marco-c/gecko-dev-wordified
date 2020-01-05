@@ -308,6 +308,7 @@ functions
 derive
 (
 Copy
+Clone
 )
 ]
 pub

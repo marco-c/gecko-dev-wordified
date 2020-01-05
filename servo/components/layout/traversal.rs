@@ -1105,6 +1105,7 @@ node
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1697,6 +1698,7 @@ nodes
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2418,6 +2420,7 @@ Reflow
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2584,6 +2587,7 @@ FinishAndStoreOverflow
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2757,6 +2761,7 @@ REFLOW
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2821,6 +2826,7 @@ compute_absolute_position
 derive
 (
 Copy
+Clone
 )
 ]
 pub

@@ -760,6 +760,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 #

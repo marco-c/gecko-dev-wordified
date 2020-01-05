@@ -155,6 +155,7 @@ context
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -234,6 +235,7 @@ type
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -316,6 +318,7 @@ mode
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -362,6 +365,7 @@ mode
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -406,6 +410,7 @@ tainting
 derive
 (
 Copy
+Clone
 )
 ]
 pub

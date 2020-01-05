@@ -1759,6 +1759,7 @@ remove
 derive
 (
 Copy
+Clone
 )
 ]
 enum
@@ -2276,6 +2277,7 @@ nodes
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )
@@ -9650,6 +9652,7 @@ not
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

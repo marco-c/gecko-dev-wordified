@@ -391,6 +391,7 @@ derive
 (
 Debug
 Copy
+Clone
 )
 ]
 pub
@@ -550,6 +551,7 @@ derive
 RustcEncodable
 Debug
 Copy
+Clone
 )
 ]
 pub
@@ -659,6 +661,7 @@ derive
 RustcEncodable
 Debug
 Copy
+Clone
 )
 ]
 pub

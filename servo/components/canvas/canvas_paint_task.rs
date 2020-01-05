@@ -1459,11 +1459,9 @@ rgba
 bgra
 byte_swap
 (
+&
+mut
 imagedata
-.
-as_mut_slice
-(
-)
 )
 ;
 self

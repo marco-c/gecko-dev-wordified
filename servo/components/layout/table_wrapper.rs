@@ -332,6 +332,7 @@ LengthOrPercentageOrAuto
 derive
 (
 Copy
+Clone
 RustcEncodable
 Debug
 )
@@ -3546,6 +3547,7 @@ to
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

@@ -284,6 +284,7 @@ derive
 (
 Eq
 Copy
+Clone
 )
 ]
 struct

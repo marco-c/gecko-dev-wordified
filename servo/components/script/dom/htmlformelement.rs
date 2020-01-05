@@ -1341,6 +1341,7 @@ FromFormResetMethod
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1355,6 +1356,7 @@ NotFromFormSubmitMethod
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -3474,6 +3476,7 @@ DOMString
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -3489,6 +3492,7 @@ FormDataEncoded
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -3504,6 +3508,7 @@ FormDialog
 derive
 (
 Copy
+Clone
 )
 ]
 pub

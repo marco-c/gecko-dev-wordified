@@ -63,6 +63,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 )
 ]
 pub

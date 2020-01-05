@@ -803,6 +803,7 @@ keeps
 [
 derive
 (
+Clone
 Copy
 )
 ]

@@ -10912,6 +10912,7 @@ gradients
 derive
 (
 Copy
+Clone
 )
 ]
 struct

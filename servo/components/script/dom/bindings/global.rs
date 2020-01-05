@@ -267,6 +267,7 @@ object
 derive
 (
 Copy
+Clone
 )
 ]
 pub

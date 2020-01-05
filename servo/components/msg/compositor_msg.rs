@@ -278,6 +278,7 @@ PartialEq
 Eq
 Debug
 Copy
+Clone
 )
 ]
 pub
@@ -521,6 +522,7 @@ itself
 derive
 (
 Copy
+Clone
 )
 ]
 pub

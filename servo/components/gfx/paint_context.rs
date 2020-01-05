@@ -568,6 +568,7 @@ ClippingRegion
 derive
 (
 Copy
+Clone
 )
 ]
 enum
@@ -583,6 +584,7 @@ Bottom
 derive
 (
 Copy
+Clone
 )
 ]
 enum

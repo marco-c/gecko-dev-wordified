@@ -183,6 +183,7 @@ call
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

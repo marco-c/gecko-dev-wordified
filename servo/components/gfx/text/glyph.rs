@@ -643,6 +643,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 pub
@@ -2754,6 +2755,7 @@ GlyphStore
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2926,6 +2928,7 @@ offsets
 derive
 (
 Copy
+Clone
 )
 ]
 pub

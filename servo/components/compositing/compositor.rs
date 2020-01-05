@@ -1049,6 +1049,7 @@ CompositingReason
 [
 derive
 (
+Clone
 Copy
 PartialEq
 Debug

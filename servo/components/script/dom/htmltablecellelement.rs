@@ -191,6 +191,7 @@ Cell
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

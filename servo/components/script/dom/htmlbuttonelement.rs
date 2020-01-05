@@ -344,6 +344,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 )
 ]
 #

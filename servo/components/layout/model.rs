@@ -198,6 +198,7 @@ CSS
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -437,6 +438,7 @@ CSS
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -1860,6 +1862,7 @@ Au
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -2603,6 +2606,7 @@ elements
 derive
 (
 Copy
+Clone
 PartialEq
 Debug
 )

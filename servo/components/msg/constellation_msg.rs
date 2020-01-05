@@ -249,6 +249,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]
@@ -309,6 +310,7 @@ SubpageId
 derive
 (
 Copy
+Clone
 )
 ]
 pub
@@ -628,6 +630,7 @@ pipeline
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -1737,6 +1740,7 @@ termination
 derive
 (
 Copy
+Clone
 )
 ]
 pub

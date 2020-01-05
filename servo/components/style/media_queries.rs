@@ -138,6 +138,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]
@@ -505,6 +506,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 Debug
 )
 ]
@@ -572,6 +574,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]
@@ -682,6 +685,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]
@@ -706,6 +710,7 @@ derive
 PartialEq
 Eq
 Copy
+Clone
 Debug
 )
 ]

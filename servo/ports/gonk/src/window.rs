@@ -977,6 +977,7 @@ C
 derive
 (
 Copy
+Clone
 )
 ]
 pub

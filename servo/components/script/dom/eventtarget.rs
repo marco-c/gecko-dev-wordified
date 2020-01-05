@@ -383,6 +383,7 @@ HashMap
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -402,6 +403,7 @@ Bubbling
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -434,6 +436,7 @@ XMLHttpRequestEventTargetTypeId
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]
@@ -497,6 +500,7 @@ listener
 derive
 (
 Copy
+Clone
 PartialEq
 )
 ]

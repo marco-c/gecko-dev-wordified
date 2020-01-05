@@ -215,6 +215,7 @@ HTML5
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )
@@ -259,6 +260,7 @@ HTML5
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )
@@ -306,6 +308,7 @@ HTML5
 derive
 (
 Copy
+Clone
 PartialEq
 Eq
 )
