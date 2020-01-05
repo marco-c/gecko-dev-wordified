@@ -117,7 +117,9 @@ MPL
 #
 include
 "
-nsXPCOMGlue
+mozilla
+/
+Bootstrap
 .
 h
 "
@@ -223,6 +225,15 @@ r
 "
 #
 endif
+typedef
+void
+(
+*
+NSFuncPtr
+)
+(
+)
+;
 #
 if
 defined

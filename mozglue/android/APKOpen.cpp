@@ -319,13 +319,6 @@ XREChildData
 .
 h
 "
-#
-include
-"
-nsXPCOMGlue
-.
-h
-"
 /
 *
 Android
