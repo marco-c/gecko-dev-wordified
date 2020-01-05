@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-core
-:
-:
-default
-:
-:
-Default
-;
-use
 cssparser
 :
 :
