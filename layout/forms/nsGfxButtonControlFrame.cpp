@@ -571,7 +571,7 @@ type
 form
 -
 >
-GetType
+ControlType
 (
 )
 ;

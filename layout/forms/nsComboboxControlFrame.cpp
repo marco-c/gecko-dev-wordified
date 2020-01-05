@@ -9772,7 +9772,7 @@ formControl
 formControl
 -
 >
-GetType
+ControlType
 (
 )
 =
