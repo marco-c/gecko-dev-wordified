@@ -2885,6 +2885,7 @@ LoadData
 new
 (
 action_components
+None
 doc
 .
 get_referrer_policy

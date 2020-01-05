@@ -275,7 +275,7 @@ the
 size
 of
 the
-pipeline
+frame
 '
 s
 viewport
@@ -285,7 +285,7 @@ FrameSizes
 Vec
 <
 (
-PipelineId
+FrameId
 TypedSize2D
 <
 f32
@@ -1085,6 +1085,8 @@ IFrameLoadInfoWithData
 A
 load
 of
+the
+initial
 about
 :
 blank
@@ -1095,7 +1097,7 @@ in
 an
 IFrame
 .
-ScriptLoadedAboutBlankInIFrame
+ScriptNewIFrame
 (
 IFrameLoadInfo
 IpcSender
