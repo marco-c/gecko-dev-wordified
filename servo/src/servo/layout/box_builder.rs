@@ -126,7 +126,7 @@ util
 range
 :
 :
-MutableRange
+Range
 ;
 use
 newcss
@@ -1113,9 +1113,9 @@ let
 mut
 node_range
 :
-MutableRange
+Range
 =
-MutableRange
+Range
 :
 :
 new

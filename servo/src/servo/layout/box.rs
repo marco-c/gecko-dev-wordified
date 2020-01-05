@@ -1357,7 +1357,7 @@ let
 mut
 left_range
 =
-MutableRange
+Range
 :
 :
 new
@@ -1378,7 +1378,7 @@ right_range
 :
 Option
 <
-MutableRange
+Range
 >
 =
 None
@@ -1653,7 +1653,7 @@ right_range
 =
 Some
 (
-MutableRange
+Range
 :
 :
 new
@@ -1727,7 +1727,7 @@ right_range
 =
 Some
 (
-MutableRange
+Range
 :
 :
 new
@@ -1839,7 +1839,7 @@ range
 :
 &
 const
-MutableRange
+Range
 |
 {
 Some

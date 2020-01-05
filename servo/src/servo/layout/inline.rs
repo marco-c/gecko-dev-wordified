@@ -129,10 +129,7 @@ util
 range
 :
 :
-{
-MutableRange
 Range
-}
 ;
 use
 newcss
@@ -354,7 +351,7 @@ node
 Node
 range
 :
-MutableRange
+Range
 }
 impl
 NodeRange
@@ -371,7 +368,7 @@ range
 :
 &
 const
-MutableRange
+Range
 )
 -
 >
@@ -433,7 +430,7 @@ range
 :
 &
 const
-MutableRange
+Range
 )
 {
 self
@@ -1183,6 +1180,9 @@ item
 .
 entry_idx
 Range
+:
+:
+new
 (
 item
 .
@@ -1204,7 +1204,7 @@ entry_idx
 .
 range
 =
-MutableRange
+Range
 :
 :
 new
@@ -1353,7 +1353,7 @@ TextRunScanner
 {
 clump
 :
-MutableRange
+Range
 }
 priv
 impl
@@ -1372,7 +1372,7 @@ TextRunScanner
 {
 clump
 :
-MutableRange
+Range
 :
 :
 empty
@@ -2263,7 +2263,7 @@ d
 run
 &
 const
-MutableRange
+Range
 :
 :
 new
@@ -2484,7 +2484,7 @@ new_ranges
 :
 DVec
 <
-MutableRange
+Range
 >
 =
 DVec
@@ -2512,7 +2512,7 @@ new_ranges
 .
 push
 (
-MutableRange
+Range
 :
 :
 new
@@ -3112,7 +3112,7 @@ pending_line
 mut
 range
 :
-MutableRange
+Range
 mut
 width
 :
@@ -3122,7 +3122,7 @@ line_spans
 :
 DVec
 <
-MutableRange
+Range
 >
 }
 fn
@@ -3164,7 +3164,7 @@ pending_line
 mut
 range
 :
-MutableRange
+Range
 :
 :
 empty
@@ -5026,7 +5026,7 @@ lines
 :
 DVec
 <
-MutableRange
+Range
 >
 /
 /
