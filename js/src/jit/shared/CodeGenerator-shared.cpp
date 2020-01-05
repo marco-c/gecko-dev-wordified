@@ -6102,7 +6102,7 @@ allTypes
 ;
 JitSpew
 (
-JitSpew_OptimizationTracking
+JitSpew_OptimizationTrackingExtended
 "
 =
 =
@@ -6131,7 +6131,7 @@ trackedOptimizationsMapSize_
 ;
 JitSpew
 (
-JitSpew_OptimizationTracking
+JitSpew_OptimizationTrackingExtended
 "
 with
 type
