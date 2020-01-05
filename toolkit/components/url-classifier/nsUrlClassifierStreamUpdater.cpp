@@ -274,8 +274,8 @@ safebrowsing
 ;
 #
 define
-DEFAULT_RESPONSE_TIMEOUT
-5
+DEFAULT_RESPONSE_TIMEOUT_MS
+15
 *
 1000
 #
@@ -288,7 +288,7 @@ static_assert
 (
 DEFAULT_TIMEOUT_MS
 >
-DEFAULT_RESPONSE_TIMEOUT
+DEFAULT_RESPONSE_TIMEOUT_MS
 "
 General
 timeout
@@ -317,7 +317,7 @@ static
 uint32_t
 sResponseTimeoutMs
 =
-DEFAULT_RESPONSE_TIMEOUT
+DEFAULT_RESPONSE_TIMEOUT_MS
 ;
 static
 uint32_t
@@ -1478,7 +1478,7 @@ update
 .
 response_timeout_ms
 "
-DEFAULT_RESPONSE_TIMEOUT
+DEFAULT_RESPONSE_TIMEOUT_MS
 )
 ;
 preferencesInitialized
