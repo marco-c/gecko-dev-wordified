@@ -1113,7 +1113,6 @@ getString
 "
 label
 "
-null
 )
 ;
 }

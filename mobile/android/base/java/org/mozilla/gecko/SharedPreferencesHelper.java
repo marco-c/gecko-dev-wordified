@@ -528,7 +528,6 @@ getString
 "
 profileName
 "
-null
 )
 ;
 if
@@ -574,7 +573,6 @@ getString
 "
 branch
 "
-null
 )
 ;
 if
@@ -1788,7 +1786,6 @@ getString
 "
 profileName
 "
-null
 )
 ;
 final
@@ -1806,7 +1803,6 @@ getString
 "
 branch
 "
-null
 )
 )
 ;

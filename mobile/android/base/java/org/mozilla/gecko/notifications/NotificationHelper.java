@@ -1474,6 +1474,8 @@ message
 getString
 (
 COOKIE_ATTR
+"
+"
 )
 )
 ;
@@ -1778,6 +1780,8 @@ message
 getString
 (
 SMALLICON_ATTR
+"
+"
 )
 )
 ;
@@ -1944,6 +1948,8 @@ message
 getString
 (
 LARGE_ICON_ATTR
+"
+"
 )
 )
 ;
@@ -2106,6 +2112,8 @@ action
 getString
 (
 ACTION_ICON_ATTR
+"
+"
 )
 )
 ;
@@ -2653,6 +2661,8 @@ getString
 "
 handlerKey
 "
+"
+"
 )
 ;
 final
@@ -2665,6 +2675,8 @@ getString
 (
 "
 cookie
+"
+"
 "
 )
 ;
@@ -2800,12 +2812,16 @@ obj
 getString
 (
 HANDLER_ATTR
+"
+"
 )
 obj
 .
 getString
 (
 COOKIE_ATTR
+"
+"
 )
 )
 ;

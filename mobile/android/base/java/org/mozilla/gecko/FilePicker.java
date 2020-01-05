@@ -367,6 +367,8 @@ getString
 "
 mode
 "
+"
+"
 )
 ;
 final
@@ -395,6 +397,8 @@ getString
 "
 title
 "
+"
+"
 )
 ;
 if
@@ -417,6 +421,8 @@ getString
 (
 "
 mimeType
+"
+"
 "
 )
 ;
@@ -446,6 +452,8 @@ getString
 (
 "
 extensions
+"
+"
 "
 )
 )

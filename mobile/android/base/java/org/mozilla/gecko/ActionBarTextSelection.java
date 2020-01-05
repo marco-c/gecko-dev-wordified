@@ -1139,6 +1139,8 @@ getString
 "
 label
 "
+"
+"
 )
 )
 ;
@@ -1185,6 +1187,8 @@ getString
 (
 "
 icon
+"
+"
 "
 )
 ;
@@ -1301,6 +1305,8 @@ getString
 (
 "
 id
+"
+"
 "
 )
 )
