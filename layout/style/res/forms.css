@@ -3610,6 +3610,12 @@ radio
 "
 ]
 {
+display
+:
+inline
+-
+block
+;
 -
 moz
 -
@@ -3665,6 +3671,12 @@ checkbox
 "
 ]
 {
+display
+:
+inline
+-
+block
+;
 -
 moz
 -
