@@ -259,7 +259,6 @@ abspath
 filename
 )
 includedirs
-errout
 )
     
 except
