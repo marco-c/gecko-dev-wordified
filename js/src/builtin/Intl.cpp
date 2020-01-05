@@ -2400,12 +2400,6 @@ disabled
 )
 ;
 }
-}
-/
-/
-anonymous
-namespace
-static
 int32_t
 udat_getSymbols
 (
@@ -2439,6 +2433,11 @@ disabled
 )
 ;
 }
+}
+/
+/
+anonymous
+namespace
 #
 endif
 /
@@ -9882,6 +9881,12 @@ JSAtomState
 :
 *
 ;
+#
+if
+defined
+(
+ICU_UNUM_HAS_FORMATDOUBLEFORFIELDS
+)
 static
 FieldType
 GetFieldTypeForNumberField
@@ -10183,6 +10188,8 @@ field
 "
 )
 ;
+break
+;
 case
 UNUM_EXPONENT_SYMBOL_FIELD
 :
@@ -10218,6 +10225,8 @@ requested
 "
 )
 ;
+break
+;
 case
 UNUM_FIELD_COUNT
 :
@@ -10236,6 +10245,8 @@ iterator
 !
 "
 )
+;
+break
 ;
 }
 MOZ_ASSERT_UNREACHABLE
@@ -10257,12 +10268,6 @@ return
 nullptr
 ;
 }
-#
-if
-defined
-(
-ICU_UNUM_HAS_FORMATDOUBLEFORFIELDS
-)
 static
 bool
 intl_FormatNumberToParts
