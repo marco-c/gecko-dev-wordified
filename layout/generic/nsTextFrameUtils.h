@@ -628,7 +628,7 @@ discarded
 *
 *
 param
-aCompressWhitespace
+aCompression
 control
 what
 is
