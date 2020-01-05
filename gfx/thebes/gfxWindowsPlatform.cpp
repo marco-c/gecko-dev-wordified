@@ -2294,6 +2294,14 @@ mDWriteFactory
 =
 factory
 ;
+Factory
+:
+:
+SetDWriteFactory
+(
+mDWriteFactory
+)
+;
 SetupClearTypeParams
 (
 )
