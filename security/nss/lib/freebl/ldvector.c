@@ -525,6 +525,17 @@ Version
 018
 *
 /
+EC_GetPointSize
+/
+*
+End
+of
+Version
+3
+.
+019
+*
+/
 }
 ;
 const

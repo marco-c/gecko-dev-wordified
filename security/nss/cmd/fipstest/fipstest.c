@@ -16835,10 +16835,10 @@ SECITEM_AllocItem
 NULL
 &
 pubkey
+EC_GetPointSize
+(
 ecparams
--
->
-pointSize
+)
 )
 ;
 if

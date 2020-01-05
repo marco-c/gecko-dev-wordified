@@ -653,6 +653,12 @@ point
 ECPointEncoding
 encoding
 ;
+/
+*
+deprecated
+ignored
+*
+/
 }
 ;
 typedef

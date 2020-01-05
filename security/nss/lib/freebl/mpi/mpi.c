@@ -9622,9 +9622,6 @@ theoretic
 functions
 *
 /
-#
-if
-MP_NUMTH
 /
 *
 {
@@ -14181,14 +14178,6 @@ mp_invmod
 }
 }
 }
-*
-/
-#
-endif
-/
-*
-if
-MP_NUMTH
 *
 /
 /

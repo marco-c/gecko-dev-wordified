@@ -127,7 +127,7 @@ return
 0
 ;
 }
-INIT_NUMBERS
+INIT_FOUR_NUMBERS
 /
 /
 We

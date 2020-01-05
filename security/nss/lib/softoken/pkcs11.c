@@ -12202,6 +12202,9 @@ unsigned
 int
 keyLen
 =
+EC_GetPointSize
+(
+&
 pubKey
 -
 >
@@ -12210,8 +12213,7 @@ u
 ec
 .
 ecParams
-.
-pointSize
+)
 ;
 /
 *

@@ -2952,7 +2952,7 @@ nonce
 /
 #
 ifndef
-UNSAFE_FUZZER_MODE
+UNSAFE_RNG_NO_URANDOM_SEED
 unsigned
 int
 numBytes
@@ -3083,7 +3083,7 @@ PR_FAILURE
 }
 #
 ifndef
-UNSAFE_FUZZER_MODE
+UNSAFE_RNG_NO_URANDOM_SEED
 /
 *
 Try

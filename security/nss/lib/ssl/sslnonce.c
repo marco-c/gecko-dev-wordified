@@ -193,11 +193,6 @@ h
 #
 endif
 PRUint32
-ssl_sid_timeout
-=
-100
-;
-PRUint32
 ssl3_sid_timeout
 =
 86400L
@@ -2934,7 +2929,7 @@ ticket
 >
 ticket_lifetime_hint
 *
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 )
 ;
 return

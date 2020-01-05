@@ -64,9 +64,7 @@ define
 _FREEBL_H_
 /
 *
-point
-encoding
-type
+deprecated
 *
 /
 typedef
@@ -74,6 +72,7 @@ enum
 {
 ECPoint_Uncompressed
 ECPoint_XOnly
+ECPoint_Undefined
 }
 ECPointEncoding
 ;

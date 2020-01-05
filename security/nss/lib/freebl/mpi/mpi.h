@@ -1596,9 +1596,6 @@ Number
 theoretic
 *
 /
-#
-if
-MP_NUMTH
 mp_err
 mp_gcd
 (
@@ -1681,14 +1678,6 @@ mp_int
 c
 )
 ;
-#
-endif
-/
-*
-end
-MP_NUMTH
-*
-/
 /
 *
 Input
