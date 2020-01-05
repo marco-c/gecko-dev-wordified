@@ -18234,6 +18234,10 @@ Enable
 blocking
 of
 e10s
+and
+e10s
+-
+multi
 for
 add
 -
@@ -18253,6 +18257,16 @@ pref
 extensions
 .
 e10sBlocksEnabling
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
+e10sMultiBlocksEnabling
 "
 true
 )
