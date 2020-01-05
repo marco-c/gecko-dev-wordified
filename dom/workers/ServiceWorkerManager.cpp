@@ -16231,9 +16231,9 @@ namespace
 *
 *
 See
-browser
+toolkit
 /
-components
+modules
 /
 sessionstore
 /
