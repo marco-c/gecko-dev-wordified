@@ -67151,7 +67151,7 @@ false
 ;
 #
 ifdef
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 pref
 (
 "
