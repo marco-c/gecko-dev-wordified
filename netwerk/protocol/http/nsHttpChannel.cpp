@@ -12217,9 +12217,9 @@ we
 see
 something
 like
-Alternate
+Alt
 -
-Protocol
+Svc
 :
 "
 443
@@ -12230,7 +12230,7 @@ p
 1
 "
 nsAutoCString
-alt_protocol
+alt_service
 ;
 mResponseHead
 -
@@ -12240,8 +12240,8 @@ GetHeader
 nsHttp
 :
 :
-Alternate_Protocol
-alt_protocol
+Alternate_Service
+alt_service
 )
 ;
 bool
@@ -12249,7 +12249,7 @@ saw_quic
 =
 (
 !
-alt_protocol
+alt_service
 .
 IsEmpty
 (
@@ -12258,7 +12258,7 @@ IsEmpty
 &
 PL_strstr
 (
-alt_protocol
+alt_service
 .
 get
 (
