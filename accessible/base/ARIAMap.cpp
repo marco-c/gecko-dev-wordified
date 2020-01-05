@@ -607,7 +607,10 @@ eNoValue
 eNoAction
 eNoLiveAttr
 eList
-kNoReqStates
+states
+:
+:
+READONLY
 }
 {
 /
