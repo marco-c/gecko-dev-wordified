@@ -1697,9 +1697,9 @@ cx
 void
 UpdateJitActivationsForMinorGC
 (
-ZoneGroup
+JSRuntime
 *
-group
+rt
 JSTracer
 *
 trc
