@@ -701,15 +701,6 @@ if
 size
 >
 0
-&
-&
-durationUs
-.
-value
-(
-)
->
-0
 )
 {
 RefPtr
