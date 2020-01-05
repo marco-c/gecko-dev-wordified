@@ -386,6 +386,16 @@ nsIURI
 aUri
 )
 ;
+void
+AddShutdownObserver
+(
+)
+;
+void
+RemoveShutdownObserver
+(
+)
+;
 public
 :
 /

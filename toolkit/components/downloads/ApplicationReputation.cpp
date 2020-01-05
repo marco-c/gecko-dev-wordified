@@ -472,6 +472,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 using
 mozilla
 :
@@ -819,6 +826,8 @@ public
 nsITimerCallback
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -2590,6 +2599,7 @@ PendingLookup
 nsIStreamListener
 nsIRequestObserver
 nsIObserver
+nsISupportsWeakReference
 )
 PendingLookup
 :
@@ -10889,7 +10899,7 @@ quit
 -
 application
 "
-false
+true
 )
 ;
 return
