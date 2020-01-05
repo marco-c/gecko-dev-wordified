@@ -27678,7 +27678,7 @@ aStyleSheet
 )
 ;
 }
-nsIFrame
+nsPlaceholderFrame
 *
 PresShell
 :

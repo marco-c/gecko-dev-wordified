@@ -9395,7 +9395,7 @@ CalculateHypotheticalPosition
 nsPresContext
 *
 aPresContext
-nsIFrame
+nsPlaceholderFrame
 *
 aPlaceholderFrame
 const
@@ -12099,7 +12099,7 @@ bEndIsAuto
 )
 )
 {
-nsIFrame
+nsPlaceholderFrame
 *
 placeholderFrame
 =
@@ -12116,7 +12116,7 @@ GetPlaceholderFrameFor
 mFrame
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 placeholderFrame
 "

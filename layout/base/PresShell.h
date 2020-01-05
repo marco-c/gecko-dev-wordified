@@ -749,7 +749,7 @@ const
 override
 ;
 virtual
-nsIFrame
+nsPlaceholderFrame
 *
 GetPlaceholderFrameFor
 (

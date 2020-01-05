@@ -493,6 +493,9 @@ class
 nsIScrollableFrame
 ;
 class
+nsPlaceholderFrame
+;
+class
 gfxContext
 ;
 class
@@ -2656,7 +2659,7 @@ manager
 *
 /
 virtual
-nsIFrame
+nsPlaceholderFrame
 *
 GetPlaceholderFrameFor
 (
