@@ -741,7 +741,9 @@ is
 defined
     
 '
-jsautokw
+frontend
+/
+ReservedWordsGenerated
 .
 h
 '
@@ -1104,7 +1106,9 @@ CTypes
 h
     
 '
-jsautokw
+frontend
+/
+ReservedWordsGenerated
 .
 h
 '
