@@ -2240,7 +2240,7 @@ getMixedModeActive
 =
 MixedMode
 .
-MIXED_CONTENT_LOADED
+LOADED
 )
 {
 /
@@ -2312,7 +2312,7 @@ getMixedModeDisplay
 =
 MixedMode
 .
-MIXED_CONTENT_LOADED
+LOADED
 )
 {
 /
@@ -2363,7 +2363,7 @@ getMixedModeActive
 =
 MixedMode
 .
-MIXED_CONTENT_BLOCKED
+BLOCKED
 )
 {
 mMixedContentActivity
@@ -2614,7 +2614,7 @@ getMixedModeActive
 =
 MixedMode
 .
-MIXED_CONTENT_BLOCKED
+BLOCKED
 |
 |
 siteIdentity
@@ -2626,7 +2626,7 @@ getMixedModeDisplay
 =
 MixedMode
 .
-MIXED_CONTENT_BLOCKED
+BLOCKED
 )
 {
 mMixedContentActivity
