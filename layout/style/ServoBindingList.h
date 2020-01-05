@@ -797,6 +797,15 @@ to
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValues_ComputeDistance
+double
+RawServoAnimationValueBorrowed
+from
+RawServoAnimationValueBorrowed
+to
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValue_Serialize
 void
 RawServoAnimationValueBorrowed
