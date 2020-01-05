@@ -5772,22 +5772,11 @@ self
 )
 :
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 return
 [
-python
+sys
+.
+executable
 '
 mach
 '
@@ -8877,24 +8866,13 @@ tooltool_manifest_src
 ]
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 cmd
 =
 [
             
-python
+sys
+.
+executable
 '
 -
 u
