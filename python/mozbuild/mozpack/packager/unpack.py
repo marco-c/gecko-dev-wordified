@@ -125,12 +125,7 @@ packager
 .
 formats
 import
-(
-    
 FlatFormatter
-    
-STARTUP_CACHE_PATHS
-)
 from
 urlparse
 import
@@ -1583,21 +1578,6 @@ find
 )
 :
         
-if
-mozpath
-.
-split
-(
-p
-)
-[
-0
-]
-not
-in
-STARTUP_CACHE_PATHS
-:
-            
 packager
 .
 add
