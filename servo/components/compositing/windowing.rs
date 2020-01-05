@@ -152,6 +152,7 @@ constellation_msg
 Key
 KeyModifiers
 KeyState
+MouseButton
 }
 ;
 use
@@ -168,7 +169,6 @@ script_traits
 :
 :
 {
-MouseButton
 TouchEventType
 TouchId
 }

@@ -2109,7 +2109,10 @@ i32
 )
 {
 use
-script_traits
+msg
+:
+:
+constellation_msg
 :
 :
 MouseButton

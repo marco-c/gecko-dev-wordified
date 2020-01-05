@@ -179,13 +179,8 @@ constellation_msg
 self
 KeyModifiers
 KeyState
-}
-;
-use
-script_traits
-:
-:
 MouseButton
+}
 ;
 use
 std
