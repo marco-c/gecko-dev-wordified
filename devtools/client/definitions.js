@@ -3640,6 +3640,9 @@ buttons
 .
 splitconsole
 "
+"
+Esc
+"
 )
 isTargetSupported
 :
