@@ -547,6 +547,10 @@ catch
 ex
 )
 {
+do_get_profile
+(
+)
+;
 this
 .
 _dirSvc
@@ -867,7 +871,7 @@ _dirSvc
 get
 (
 "
-CurProcD
+ProfD
 "
 Ci
 .
