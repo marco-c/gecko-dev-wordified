@@ -3916,4 +3916,12 @@ String
 apkName
 )
 ;
+public
+static
+native
+boolean
+neonCompatible
+(
+)
+;
 }
