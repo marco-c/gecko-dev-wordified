@@ -1076,9 +1076,10 @@ aStatus
 ;
 if
 (
-NS_INLINE_IS_BREAK
-(
 aStatus
+.
+IsInlineBreak
+(
 )
 )
 {

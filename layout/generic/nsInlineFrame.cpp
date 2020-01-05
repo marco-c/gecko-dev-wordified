@@ -4745,9 +4745,10 @@ aStatus
 ;
 done
 =
-NS_INLINE_IS_BREAK
-(
 aStatus
+.
+IsInlineBreak
+(
 )
 |
 |
@@ -5006,9 +5007,10 @@ aStatus
 ;
 if
 (
-NS_INLINE_IS_BREAK
-(
 aStatus
+.
+IsInlineBreak
+(
 )
 |
 |
