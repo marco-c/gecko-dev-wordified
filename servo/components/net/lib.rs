@@ -188,6 +188,10 @@ time
 ;
 extern
 crate
+tinyfiledialogs
+;
+extern
+crate
 unicase
 ;
 extern
