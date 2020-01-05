@@ -682,6 +682,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >
@@ -695,6 +699,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 mPicture
 )
 ;
@@ -957,6 +965,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

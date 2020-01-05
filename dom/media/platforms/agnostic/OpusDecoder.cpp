@@ -1163,6 +1163,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 {
 /
@@ -1186,6 +1190,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 )
 ;
 }
@@ -1599,6 +1607,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 /
 /

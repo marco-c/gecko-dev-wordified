@@ -933,6 +933,10 @@ mLastVideoFrame
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 0
 )
 ;
@@ -1816,7 +1820,7 @@ a
 valid
 timestamp
 .
-int64_t
+auto
 duration
 =
 v
@@ -1834,13 +1838,7 @@ mLastVideoFrame
 >
 UpdateDuration
 (
-TimeUnit
-:
-:
-FromMicroseconds
-(
 duration
-)
 )
 ;
 /
@@ -2326,6 +2324,10 @@ v
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 self
 -

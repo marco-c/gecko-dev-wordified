@@ -750,6 +750,10 @@ raw
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 =
 =
 aTimecode

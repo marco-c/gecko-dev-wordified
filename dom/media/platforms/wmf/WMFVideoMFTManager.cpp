@@ -4091,6 +4091,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 &
 inputSample
 )
@@ -4127,6 +4131,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 mSamplesCount
 +
@@ -6438,10 +6446,6 @@ aOutData
 mTime
 =
 pts
-.
-ToMicroseconds
-(
-)
 ;
 aOutData
 -

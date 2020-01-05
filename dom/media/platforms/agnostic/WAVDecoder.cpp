@@ -510,6 +510,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 ;
 int32_t
 frames

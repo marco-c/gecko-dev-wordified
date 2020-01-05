@@ -1184,6 +1184,10 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 info
 )
 ;
@@ -2837,6 +2841,10 @@ sample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
 0
 )
 ;
