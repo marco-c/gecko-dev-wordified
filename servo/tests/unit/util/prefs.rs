@@ -103,7 +103,7 @@ true
 \
 \
 "
-net
+network
 .
 mime
 .
