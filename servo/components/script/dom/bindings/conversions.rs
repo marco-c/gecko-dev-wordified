@@ -1933,6 +1933,7 @@ failed
 [
 inline
 ]
+unsafe
 fn
 convert_int_from_jsval
 <
@@ -1953,6 +1954,7 @@ option
 ConversionBehavior
 convert_fn
 :
+unsafe
 fn
 (
 *
@@ -2177,10 +2179,13 @@ bool
 {
 Ok
 (
+unsafe
+{
 ToBoolean
 (
 val
 )
+}
 )
 }
 }
@@ -2289,6 +2294,8 @@ i8
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -2296,6 +2303,7 @@ val
 option
 ToInt32
 )
+}
 }
 }
 /
@@ -2403,6 +2411,8 @@ u8
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -2410,6 +2420,7 @@ val
 option
 ToInt32
 )
+}
 }
 }
 /
@@ -2517,6 +2528,8 @@ i16
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -2524,6 +2537,7 @@ val
 option
 ToInt32
 )
+}
 }
 }
 /
@@ -2634,6 +2648,8 @@ u16
 (
 )
 >
+{
+unsafe
 {
 convert_int_from_jsval
 (
@@ -2644,6 +2660,7 @@ ToUint16
 )
 }
 }
+}
 /
 /
 http
@@ -2747,6 +2764,8 @@ i32
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -2754,6 +2773,7 @@ val
 option
 ToInt32
 )
+}
 }
 }
 /
@@ -2863,6 +2883,8 @@ u32
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -2870,6 +2892,7 @@ val
 option
 ToUint32
 )
+}
 }
 }
 /
@@ -2983,6 +3006,8 @@ i64
 (
 )
 >
+{
+unsafe
 {
 convert_int_from_jsval
 (
@@ -2993,6 +3018,7 @@ ToInt64
 )
 }
 }
+}
 /
 /
 http
@@ -3109,6 +3135,8 @@ u64
 )
 >
 {
+unsafe
+{
 convert_int_from_jsval
 (
 cx
@@ -3116,6 +3144,7 @@ val
 option
 ToUint64
 )
+}
 }
 }
 /
@@ -3231,11 +3260,14 @@ f32
 let
 result
 =
+unsafe
+{
 ToNumber
 (
 cx
 val
 )
+}
 ;
 result
 .
@@ -3358,11 +3390,14 @@ f64
 )
 >
 {
+unsafe
+{
 ToNumber
 (
 cx
 val
 )
+}
 }
 }
 impl
@@ -4301,11 +4336,14 @@ else
 let
 jsstr
 =
+unsafe
+{
 ToString
 (
 cx
 value
 )
+}
 ;
 if
 jsstr
@@ -4450,11 +4488,14 @@ USVString
 let
 jsstr
 =
+unsafe
+{
 ToString
 (
 cx
 value
 )
+}
 ;
 if
 jsstr
@@ -4738,11 +4779,14 @@ ByteString
 let
 string
 =
+unsafe
+{
 ToString
 (
 cx
 value
 )
+}
 ;
 if
 string
