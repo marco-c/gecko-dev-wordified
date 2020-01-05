@@ -3407,6 +3407,19 @@ to
 listeners
 .
 let
+{
+source
+=
+Bookmarks
+.
+SOURCES
+.
+DEFAULT
+}
+=
+options
+;
+let
 observers
 =
 PlacesUtils
@@ -3466,8 +3479,6 @@ guid
 item
 .
 parentGuid
-removeInfo
-.
 source
 ]
 )
@@ -3541,8 +3552,6 @@ entry
 parentGuid
 "
 "
-removeInfo
-.
 source
 ]
 )
