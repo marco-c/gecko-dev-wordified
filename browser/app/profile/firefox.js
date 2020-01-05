@@ -6884,6 +6884,16 @@ restrict_opener_access
 true
 )
 ;
+pref
+(
+"
+privacy
+.
+resistFingerprinting
+"
+false
+)
+;
 /
 /
 Time
