@@ -570,7 +570,7 @@ should
 be
 wrapped
 in
-WebDriverError
+UnknownError
 equal
 (
 error
@@ -585,7 +585,7 @@ Error
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -601,7 +601,7 @@ Error
 )
 )
 instanceof
-WebDriverError
+UnknownError
 )
 ;
 equal
@@ -618,7 +618,7 @@ EvalError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -636,7 +636,7 @@ InternalError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -654,7 +654,7 @@ RangeError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -672,7 +672,7 @@ ReferenceError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -690,7 +690,7 @@ SyntaxError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -708,7 +708,7 @@ TypeError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
@@ -726,7 +726,7 @@ URIError
 .
 name
 "
-WebDriverError
+UnknownError
 "
 )
 ;
