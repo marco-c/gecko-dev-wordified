@@ -105,6 +105,15 @@ ReadyState
 RenderState
 }
 ;
+use
+std
+:
+:
+rc
+:
+:
+Rc
+;
 pub
 enum
 MouseWindowEvent
@@ -424,8 +433,10 @@ A
 )
 -
 >
-mut
+Rc
+<
 Self
+>
 ;
 /
 /
@@ -470,7 +481,6 @@ fn
 present
 (
 &
-mut
 self
 )
 ;
@@ -490,7 +500,7 @@ event
 fn
 recv
 (
-mut
+&
 self
 )
 -
@@ -512,7 +522,7 @@ page
 fn
 set_ready_state
 (
-mut
+&
 self
 ready_state
 :
@@ -534,7 +544,7 @@ page
 fn
 set_render_state
 (
-mut
+&
 self
 render_state
 :
@@ -555,7 +565,7 @@ monitor
 fn
 hidpi_factor
 (
-mut
+&
 self
 )
 -

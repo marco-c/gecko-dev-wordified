@@ -350,6 +350,7 @@ renderer
 deriving
 (
 Eq
+Clone
 )
 ]
 pub
@@ -364,6 +365,7 @@ RenderingRenderState
 deriving
 (
 Eq
+Clone
 )
 ]
 pub
