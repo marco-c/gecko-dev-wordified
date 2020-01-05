@@ -1557,7 +1557,7 @@ EventWindow
 0
 10
 10
-nullptr
+HWND_MESSAGE
 nullptr
 module
 nullptr
