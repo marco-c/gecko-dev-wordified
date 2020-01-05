@@ -106,6 +106,13 @@ h
 #
 include
 "
+DisplayItemClipChain
+.
+h
+"
+#
+include
+"
 DisplayItemScrollClip
 .
 h
