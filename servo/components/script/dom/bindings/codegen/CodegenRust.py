@@ -20039,13 +20039,16 @@ unwrapFailureCode
 (
                 
 "
-MOZ_ASSERT
-(
+assert
 !
+(
 JS_IsExceptionPending
 (
 cx
 )
+=
+=
+0
 )
 ;
 \
@@ -20053,16 +20056,11 @@ n
 "
                 
 "
-JS_SET_RVAL
-(
-cx
+*
 vp
-JS
-:
-:
+=
 UndefinedValue
 (
-)
 )
 ;
 \
@@ -20071,7 +20069,7 @@ n
                 
 "
 return
-true
+1
 ;
 "
 )
@@ -20634,13 +20632,16 @@ unwrapFailureCode
 (
                 
 "
-MOZ_ASSERT
-(
+assert
 !
+(
 JS_IsExceptionPending
 (
 cx
 )
+=
+=
+0
 )
 ;
 \
@@ -20649,7 +20650,7 @@ n
                 
 "
 return
-true
+1
 ;
 "
 )
@@ -33967,7 +33968,18 @@ if
 hasLenientGetter
 :
             
-pass
+cgThings
+.
+append
+(
+CGGenericGetter
+(
+descriptor
+lenientThis
+=
+True
+)
+)
         
 if
 hasSetter
@@ -33987,7 +33999,18 @@ if
 hasLenientSetter
 :
             
-pass
+cgThings
+.
+append
+(
+CGGenericSetter
+(
+descriptor
+lenientThis
+=
+True
+)
+)
         
 if
 descriptor
