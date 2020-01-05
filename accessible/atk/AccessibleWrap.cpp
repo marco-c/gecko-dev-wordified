@@ -2988,7 +2988,7 @@ name
 &
 &
 !
-strncmp
+strcmp
 (
 aAtkObj
 -
@@ -2997,11 +2997,6 @@ name
 newNameUTF8
 .
 get
-(
-)
-newNameUTF8
-.
-Length
 (
 )
 )
