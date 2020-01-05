@@ -15606,7 +15606,7 @@ name
 return
 IDLCallbackType
 (
-self
+obj
 .
 location
 obj
@@ -47848,13 +47848,9 @@ type
 =
 IDLCallbackType
 (
-self
+obj
 .
-getLocation
-(
-p
-1
-)
+location
 obj
 )
                 
