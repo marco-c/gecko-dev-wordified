@@ -1708,13 +1708,6 @@ mozilla
 InheritTarget
 target
 )
-SERVO_BINDING_FUNC
-(
-Servo_ComputedValues_GetVisitedStyle
-ServoComputedValuesStrong
-ServoComputedValuesBorrowed
-values
-)
 /
 /
 Initialize
