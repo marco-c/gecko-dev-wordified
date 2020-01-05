@@ -3964,7 +3964,7 @@ DebuggerObservesAllExecution
 <
 <
 1
-DebuggerObservesWasm
+DebuggerObservesAsmJS
 =
 1
 <
@@ -4002,7 +4002,7 @@ DebuggerObservesAllExecution
 |
 DebuggerObservesCoverage
 |
-DebuggerObservesWasm
+DebuggerObservesAsmJS
 ;
 void
 updateDebuggerObservesFlag
@@ -5002,7 +5002,7 @@ is
 disabled
 .
 See
-debuggerObservesWasm
+debuggerObservesAsmJS
 below
 .
 /
@@ -5440,7 +5440,7 @@ to
 Debugger
 .
 bool
-debuggerObservesWasm
+debuggerObservesAsmJS
 (
 )
 const
@@ -5452,7 +5452,7 @@ Mask
 =
 IsDebuggee
 |
-DebuggerObservesWasm
+DebuggerObservesAsmJS
 ;
 return
 (
@@ -5466,13 +5466,13 @@ Mask
 ;
 }
 void
-updateDebuggerObservesWasm
+updateDebuggerObservesAsmJS
 (
 )
 {
 updateDebuggerObservesFlag
 (
-DebuggerObservesWasm
+DebuggerObservesAsmJS
 )
 ;
 }

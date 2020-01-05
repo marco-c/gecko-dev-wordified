@@ -17168,7 +17168,7 @@ if
 comp
 -
 >
-debuggerObservesWasm
+debuggerObservesAsmJS
 (
 )
 =
@@ -17180,7 +17180,7 @@ continue
 comp
 -
 >
-updateDebuggerObservesWasm
+updateDebuggerObservesAsmJS
 (
 )
 ;
@@ -22326,7 +22326,7 @@ compartment
 comp
 -
 >
-updateDebuggerObservesWasm
+updateDebuggerObservesAsmJS
 (
 )
 ;
@@ -25655,7 +25655,7 @@ setIsDebuggee
 debuggeeCompartment
 -
 >
-updateDebuggerObservesWasm
+updateDebuggerObservesAsmJS
 (
 )
 ;
@@ -26550,7 +26550,7 @@ compartment
 )
 -
 >
-updateDebuggerObservesWasm
+updateDebuggerObservesAsmJS
 (
 )
 ;
