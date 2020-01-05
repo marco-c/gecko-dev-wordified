@@ -852,12 +852,12 @@ CreateHeadlessWidget
 ;
 if
 (
+!
 mWindow
 )
 {
-rv
-=
-NS_OK
+return
+NS_ERROR_FAILURE
 ;
 }
 }
@@ -872,7 +872,6 @@ kWindowCID
 rv
 )
 ;
-}
 if
 (
 NS_OK
@@ -884,6 +883,7 @@ rv
 return
 rv
 ;
+}
 }
 /
 *
