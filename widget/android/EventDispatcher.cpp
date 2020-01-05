@@ -5166,12 +5166,6 @@ mDispatcher
 DispatchToThreads
 (
 aEvent
-/
-*
-js
-*
-/
-nullptr
 data
 callback
 )

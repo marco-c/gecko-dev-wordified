@@ -105,17 +105,6 @@ gecko
 .
 util
 .
-NativeJSObject
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 ThreadUtils
 ;
 import
