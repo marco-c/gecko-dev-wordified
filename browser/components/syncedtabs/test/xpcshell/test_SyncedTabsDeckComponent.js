@@ -1415,12 +1415,6 @@ testActions
 )
 {
 let
-listComponent
-=
-{
-}
-;
-let
 windowMock
 =
 {

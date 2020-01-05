@@ -162,13 +162,6 @@ initially
 "
 )
 ;
-let
-currentVersion
-=
-CustomizableUIBSPass
-.
-kVersion
-;
 /
 /
 Add

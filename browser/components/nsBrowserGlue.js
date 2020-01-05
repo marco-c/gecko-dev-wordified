@@ -11269,9 +11269,6 @@ tab
 }
 ]
 ;
-let
-notification
-=
 notifyBox
 .
 appendNotification

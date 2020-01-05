@@ -5178,9 +5178,6 @@ not
 been
 selected
 .
-var
-dir
-=
 Services
 .
 dirsvc

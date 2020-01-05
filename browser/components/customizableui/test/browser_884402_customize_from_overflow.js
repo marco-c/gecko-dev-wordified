@@ -151,15 +151,6 @@ toolbar
 "
 )
 ;
-let
-oldChildCount
-=
-navbar
-.
-customizationTarget
-.
-childElementCount
-;
 window
 .
 resizeTo

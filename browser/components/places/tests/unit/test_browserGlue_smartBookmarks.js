@@ -330,9 +330,6 @@ init
 -
 complete
 .
-let
-bg
-=
 Cc
 [
 "

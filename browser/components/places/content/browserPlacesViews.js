@@ -9270,13 +9270,6 @@ PT__getDropPoint
 aEvent
 )
 {
-let
-result
-=
-this
-.
-result
-;
 if
 (
 !

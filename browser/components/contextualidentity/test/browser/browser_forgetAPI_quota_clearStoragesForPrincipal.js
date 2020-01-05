@@ -598,9 +598,6 @@ result
 ;
 try
 {
-let
-transaction
-=
 db
 .
 transaction

@@ -1519,11 +1519,8 @@ false
 let
 {
 itemId
-itemGuid
 isItem
 isURI
-uri
-title
 isBookmark
 bulkTagging
 uris
@@ -4648,15 +4645,6 @@ PlacesUIUtils
 useAsyncTransactions
 )
 {
-let
-itemId
-=
-this
-.
-_paneInfo
-.
-itemId
-;
 let
 txn
 =

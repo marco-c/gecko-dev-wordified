@@ -3516,9 +3516,6 @@ dataURI
 }
 )
 ;
-let
-links
-=
 yield
 fetchData
 (
@@ -11883,9 +11880,6 @@ dataURI
 }
 )
 ;
-let
-links
-=
 yield
 fetchData
 (
@@ -13224,11 +13218,6 @@ test_blockSuggestedTiles
 /
 Initial
 setup
-let
-suggestedTile
-=
-suggestedTile1
-;
 let
 topSites
 =

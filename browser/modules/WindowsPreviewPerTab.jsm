@@ -3338,7 +3338,6 @@ for
 (
 let
 [
-tab
 preview
 ]
 of
@@ -5397,7 +5396,6 @@ for
 let
 [
 tab
-preview
 ]
 of
 win

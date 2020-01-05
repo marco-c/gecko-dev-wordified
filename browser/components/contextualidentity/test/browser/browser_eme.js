@@ -863,9 +863,6 @@ the
 media
 key
 .
-let
-result
-=
 yield
 new
 Promise

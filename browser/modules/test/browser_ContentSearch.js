@@ -784,13 +784,6 @@ addTab
 )
 ;
 let
-searchBrowser
-=
-gBrowser
-.
-selectedBrowser
-;
-let
 engine
 =
 Services

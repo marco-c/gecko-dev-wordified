@@ -2554,11 +2554,6 @@ into
 a
 table
 var
-count
-=
-0
-;
-var
 enumerator
 =
 Services

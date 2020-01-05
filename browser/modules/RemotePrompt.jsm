@@ -319,11 +319,6 @@ getTabModalPromptBox
 browser
 )
 let
-callbackInvoked
-=
-false
-;
-let
 newPrompt
 ;
 let

@@ -768,14 +768,6 @@ in
 that
 context
 .
-let
-value
-=
-USER_CONTEXTS
-[
-userContextId
-]
-;
 /
 /
 Open

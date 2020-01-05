@@ -3425,9 +3425,6 @@ getRootDirectory
 gTestPath
 )
 ;
-let
-tab
-=
 yield
 BrowserTestUtils
 .

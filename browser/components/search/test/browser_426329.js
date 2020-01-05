@@ -1139,8 +1139,6 @@ testShiftAltReturn
 {
 return
 ;
-/
-*
 yield
 *
 prepareTest
@@ -1185,9 +1183,6 @@ true
 }
 )
 ;
-let
-newTab
-=
 yield
 newTabPromise
 ;
@@ -1231,8 +1226,6 @@ page
 "
 )
 ;
-*
-/
 }
 )
 ;

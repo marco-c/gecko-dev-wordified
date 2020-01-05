@@ -2603,9 +2603,6 @@ blob
 is
 malformed
 .
-var
-unwrappedNodes
-=
 PlacesUtils
 .
 unwrapNodes
@@ -11034,13 +11031,6 @@ about
 :
 blank
 "
-;
-let
-title
-=
-data
-.
-label
 ;
 unwrapped
 =

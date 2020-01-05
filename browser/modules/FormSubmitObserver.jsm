@@ -1114,12 +1114,6 @@ offset
 =
 0
 ;
-let
-position
-=
-"
-"
-;
 if
 (
 aElement

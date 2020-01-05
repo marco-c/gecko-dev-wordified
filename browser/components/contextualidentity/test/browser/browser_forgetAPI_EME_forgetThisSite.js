@@ -751,9 +751,6 @@ the
 EME
 key
 .
-let
-result
-=
 yield
 new
 Promise

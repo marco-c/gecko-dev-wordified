@@ -920,15 +920,6 @@ an
 edit
 field
 .
-let
-urlbarRect
-=
-urlBarContainer
-.
-getBoundingClientRect
-(
-)
-;
 EventUtils
 .
 synthesizeMouse

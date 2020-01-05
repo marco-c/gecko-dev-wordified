@@ -2911,9 +2911,6 @@ deferred
 .
 promise
 ;
-let
-request
-=
 httpRequest
 (
 url

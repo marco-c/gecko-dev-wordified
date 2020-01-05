@@ -607,15 +607,6 @@ jsm
 .
 SessionStore
 ;
-let
-backupState
-=
-SessionStore
-.
-getBrowserState
-(
-)
-;
 /
 /
 Load

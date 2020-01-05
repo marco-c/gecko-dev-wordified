@@ -857,7 +857,6 @@ m
 {
 let
 [
-foo
 itemIndex
 iprop
 ilocale

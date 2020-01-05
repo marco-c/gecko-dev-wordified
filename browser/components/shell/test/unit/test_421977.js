@@ -455,9 +455,6 @@ tests
 /
 will
 fail
-var
-gsettings
-=
 Cc
 [
 "
