@@ -100,6 +100,13 @@ use
 strict
 "
 ;
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+null
+"
+)
+;
 /
 /
 Test
