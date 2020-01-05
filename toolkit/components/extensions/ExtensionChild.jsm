@@ -373,7 +373,6 @@ jsm
 const
 {
 DefaultMap
-EventManager
 SingletonEventManager
 SpreadArgs
 defineLazyGetter
@@ -766,7 +765,7 @@ json
 onDisconnect
 :
 new
-EventManager
+SingletonEventManager
 (
 this
 .
@@ -805,7 +804,7 @@ error
 ;
 fire
 .
-withoutClone
+asyncWithoutClone
 (
 portObj
 )
@@ -822,7 +821,7 @@ api
 onMessage
 :
 new
-EventManager
+SingletonEventManager
 (
 this
 .
@@ -861,7 +860,7 @@ cloneScope
 ;
 fire
 .
-withoutClone
+asyncWithoutClone
 (
 msg
 portObj
