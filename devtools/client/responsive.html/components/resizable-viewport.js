@@ -236,7 +236,7 @@ PropTypes
 func
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -654,7 +654,7 @@ this
 .
 props
 .
-onChangeViewportDevice
+onChangeDevice
 (
 {
 name
@@ -687,7 +687,7 @@ screenshot
 swapAfterMount
 viewport
 onBrowserMounted
-onChangeViewportDevice
+onChangeDevice
 onContentResize
 onResizeViewport
 onRotateViewport
@@ -773,7 +773,7 @@ selectedDevice
 viewport
 .
 device
-onChangeViewportDevice
+onChangeDevice
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModalOpen

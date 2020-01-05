@@ -236,7 +236,7 @@ pixelRatio
 )
 .
 isRequired
-onChangeViewportPixelRatio
+onChangePixelRatio
 :
 PropTypes
 .
@@ -299,7 +299,7 @@ this
 .
 props
 .
-onChangeViewportPixelRatio
+onChangePixelRatio
 (
 +
 target

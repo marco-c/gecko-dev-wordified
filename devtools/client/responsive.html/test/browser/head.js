@@ -1812,8 +1812,6 @@ once
 (
 ui
 "
-viewport
--
 device
 -
 changed
@@ -2315,8 +2313,6 @@ once
 (
 ui
 "
-viewport
--
 device
 -
 changed

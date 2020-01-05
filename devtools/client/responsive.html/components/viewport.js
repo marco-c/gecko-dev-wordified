@@ -205,7 +205,7 @@ PropTypes
 func
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -241,7 +241,7 @@ func
 .
 isRequired
 }
-onChangeViewportDevice
+onChangeDevice
 (
 device
 )
@@ -249,14 +249,14 @@ device
 let
 {
 viewport
-onChangeViewportDevice
+onChangeDevice
 }
 =
 this
 .
 props
 ;
-onChangeViewportDevice
+onChangeDevice
 (
 viewport
 .
@@ -335,7 +335,7 @@ props
 ;
 let
 {
-onChangeViewportDevice
+onChangeDevice
 onRotateViewport
 onResizeViewport
 }
@@ -358,7 +358,7 @@ ViewportDimension
 (
 {
 viewport
-onChangeViewportDevice
+onChangeDevice
 onResizeViewport
 }
 )
@@ -371,7 +371,7 @@ screenshot
 swapAfterMount
 viewport
 onBrowserMounted
-onChangeViewportDevice
+onChangeDevice
 onContentResize
 onResizeViewport
 onRotateViewport

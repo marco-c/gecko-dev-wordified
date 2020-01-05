@@ -138,7 +138,7 @@ viewport
 )
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -552,7 +552,7 @@ this
 .
 props
 .
-onChangeViewportDevice
+onChangeDevice
 (
 {
 name

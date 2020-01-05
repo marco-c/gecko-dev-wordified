@@ -394,8 +394,6 @@ once
 (
 ui
 "
-viewport
--
 device
 -
 changed

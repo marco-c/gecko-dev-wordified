@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-UPDATE_TOUCH_SIMULATION_ENABLED
+CHANGE_TOUCH_SIMULATION
 }
 =
 require
@@ -92,7 +92,7 @@ reducers
 =
 {
 [
-UPDATE_TOUCH_SIMULATION_ENABLED
+CHANGE_TOUCH_SIMULATION
 ]
 (
 touchSimulation
