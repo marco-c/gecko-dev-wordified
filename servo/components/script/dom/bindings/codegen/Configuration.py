@@ -1327,6 +1327,20 @@ proxy
 =
 False
         
+self
+.
+weakReferenceable
+=
+desc
+.
+get
+(
+'
+weakReferenceable
+'
+False
+)
+        
 #
 If
 we
