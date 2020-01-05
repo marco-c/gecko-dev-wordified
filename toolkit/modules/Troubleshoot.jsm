@@ -3147,8 +3147,8 @@ getSupportedExtensions
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 /
