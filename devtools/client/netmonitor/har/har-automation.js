@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 eslint
@@ -75,6 +70,11 @@ some
 requires
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 Ci

@@ -27,11 +27,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 import
@@ -56,6 +51,11 @@ head
 js
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 shared
