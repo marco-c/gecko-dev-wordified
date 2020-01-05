@@ -1857,10 +1857,12 @@ size
 map
 .
 mStride
-SurfaceFormat
-:
-:
-B8G8R8A8
+dSurf
+-
+>
+GetFormat
+(
+)
 )
 ;
 auto
