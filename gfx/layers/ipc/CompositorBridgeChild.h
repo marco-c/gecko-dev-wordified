@@ -301,6 +301,9 @@ class
 CompositorBridgeParent
 ;
 class
+CompositorOptions
+;
+class
 TextureClient
 ;
 class
@@ -494,8 +497,10 @@ uint64_t
 aLayerTreeId
 CSSToLayoutDeviceScale
 aScale
-bool
-aUseAPZ
+const
+CompositorOptions
+&
+aOptions
 bool
 aUseExternalSurface
 const
@@ -1419,13 +1424,6 @@ PCompositorWidgetChild
 aActor
 )
 override
-;
-bool
-GetAPZEnabled
-(
-uint64_t
-aLayerTreeId
-)
 ;
 PAPZCTreeManagerChild
 *
