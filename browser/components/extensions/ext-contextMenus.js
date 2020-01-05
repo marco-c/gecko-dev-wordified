@@ -127,6 +127,7 @@ jsm
 var
 {
 EventManager
+ExtensionError
 IconDetails
 }
 =
@@ -2173,7 +2174,7 @@ this
 {
 throw
 new
-Error
+ExtensionError
 (
 "
 MenuItem
