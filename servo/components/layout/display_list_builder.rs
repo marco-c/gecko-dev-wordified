@@ -589,6 +589,7 @@ computed
 :
 :
 {
+AngleOrCorner
 Gradient
 GradientKind
 LengthOrPercentage
@@ -606,7 +607,6 @@ specified
 :
 :
 {
-AngleOrCorner
 HorizontalDirection
 VerticalDirection
 }

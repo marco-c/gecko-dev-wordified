@@ -122,6 +122,7 @@ image
 :
 :
 {
+AngleOrCorner
 EndingShape
 as
 GradientShape

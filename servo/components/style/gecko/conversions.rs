@@ -1005,6 +1005,7 @@ computed
 :
 :
 {
+AngleOrCorner
 GradientKind
 GradientShape
 LengthOrKeyword
@@ -1027,18 +1028,7 @@ specified
 :
 :
 {
-AngleOrCorner
 HorizontalDirection
-}
-;
-use
-values
-:
-:
-specified
-:
-:
-{
 SizeKeyword
 VerticalDirection
 }
