@@ -6826,14 +6826,10 @@ DataStorage
 :
 Get
 (
-NS_LITERAL_STRING
-(
-"
+DataStorageClass
+:
+:
 AlternateServices
-.
-txt
-"
-)
 )
 ;
 if

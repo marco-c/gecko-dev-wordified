@@ -10978,7 +10978,7 @@ storage
 DataStorage
 :
 :
-GetIfExists
+GetFromRawFileName
 (
 aFilename
 )
@@ -11052,7 +11052,7 @@ storage
 DataStorage
 :
 :
-GetIfExists
+GetFromRawFileName
 (
 aFilename
 )
@@ -11105,7 +11105,7 @@ storage
 DataStorage
 :
 :
-GetIfExists
+GetFromRawFileName
 (
 aFilename
 )
