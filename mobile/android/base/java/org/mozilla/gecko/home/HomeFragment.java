@@ -121,15 +121,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoApplication
 ;
 import
@@ -1963,7 +1954,7 @@ run
 (
 )
 {
-GeckoAppShell
+GeckoApplication
 .
 createShortcut
 (

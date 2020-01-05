@@ -110,7 +110,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "
@@ -175,6 +175,15 @@ aURI
 Length
 (
 )
+|
+|
+!
+jni
+:
+:
+IsFennec
+(
+)
 )
 return
 NS_ERROR_FAILURE
@@ -182,7 +191,7 @@ NS_ERROR_FAILURE
 java
 :
 :
-GeckoAppShell
+GeckoApplication
 :
 :
 CreateShortcut
