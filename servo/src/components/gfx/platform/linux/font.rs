@@ -342,6 +342,7 @@ fail
 )
 }
 }
+pub
 enum
 FontSource
 {

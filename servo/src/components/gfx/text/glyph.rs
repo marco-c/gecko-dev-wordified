@@ -2949,6 +2949,7 @@ using
 provided
 offsets
 .
+pub
 enum
 GlyphInfo
 <
@@ -3205,12 +3206,14 @@ vector
 /
 optimization
 .
+priv
 entry_buffer
 :
 ~
 [
 GlyphEntry
 ]
+priv
 detail_store
 :
 DetailedGlyphStore

@@ -63,6 +63,7 @@ deriving
 Eq
 )
 ]
+pub
 enum
 CompressionMode
 {

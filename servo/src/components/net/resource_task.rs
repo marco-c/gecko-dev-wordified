@@ -956,7 +956,6 @@ recv
 (
 )
 }
-pub
 struct
 ResourceManager
 {
@@ -985,7 +984,6 @@ LoaderTaskFactory
 )
 ]
 }
-pub
 fn
 ResourceManager
 (
