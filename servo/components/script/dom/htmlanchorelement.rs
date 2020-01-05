@@ -649,10 +649,6 @@ borrow
 (
 )
 {
-None
-=
->
-return
 Some
 (
 ref
