@@ -509,15 +509,6 @@ mozilla
 namespace
 net
 {
-extern
-bool
-WillRedirect
-(
-nsHttpResponseHead
-*
-response
-)
-;
 namespace
 {
 const
@@ -19019,6 +19010,9 @@ instead
 if
 (
 !
+nsHttpChannel
+:
+:
 WillRedirect
 (
 aResponseHead
@@ -19041,6 +19035,9 @@ true
 ;
 if
 (
+nsHttpChannel
+:
+:
 WillRedirect
 (
 mResponseHead
