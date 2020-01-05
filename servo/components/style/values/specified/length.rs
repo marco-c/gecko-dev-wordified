@@ -5109,7 +5109,7 @@ value
 !
 context
 .
-length_parsing_mode
+parsing_mode
 .
 allows_unitless_lengths
 (
@@ -7728,7 +7728,7 @@ value
 !
 context
 .
-length_parsing_mode
+parsing_mode
 .
 allows_unitless_lengths
 (
@@ -8517,7 +8517,7 @@ value
 !
 context
 .
-length_parsing_mode
+parsing_mode
 .
 allows_unitless_lengths
 (

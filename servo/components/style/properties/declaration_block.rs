@@ -109,7 +109,8 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
+ParsingMode
 ParserContext
 log_css_error
 }
@@ -4252,10 +4253,7 @@ CssRuleType
 :
 Style
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;
@@ -4347,9 +4345,9 @@ error_reporter
 :
 &
 ParseErrorReporter
-length_parsing_mode
+parsing_mode
 :
-LengthParsingMode
+ParsingMode
 quirks_mode
 :
 QuirksMode
@@ -4384,7 +4382,7 @@ CssRuleType
 :
 Style
 )
-length_parsing_mode
+parsing_mode
 quirks_mode
 )
 ;

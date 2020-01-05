@@ -97,7 +97,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 ParserContext
 }
 ;
@@ -208,10 +208,7 @@ CssRuleType
 :
 Style
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :

@@ -387,7 +387,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 ParserContext
 as
 CssParserContext
@@ -2211,10 +2211,7 @@ CssRuleType
 :
 Media
 )
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 document
 .
 quirks_mode

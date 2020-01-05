@@ -367,7 +367,7 @@ parser
 :
 :
 {
-LengthParsingMode
+PARSING_MODE_DEFAULT
 Parse
 ParserContext
 }
@@ -3337,10 +3337,7 @@ Author
 url_data
 error_reporter
 None
-LengthParsingMode
-:
-:
-Default
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;
