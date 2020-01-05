@@ -751,13 +751,6 @@ of
 track
 type
 .
-Don
-'
-t
-use
-with
-kUndefinedTrack
-.
 const
 char
 *

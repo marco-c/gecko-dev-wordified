@@ -430,6 +430,11 @@ aType
 )
 const
 ;
+using
+ResultAndTrackInfo
+=
+ResultAndType
+<
 mozilla
 :
 :
@@ -440,6 +445,9 @@ mozilla
 :
 TrackInfo
 >
+>
+;
+ResultAndTrackInfo
 GetTrackInfo
 (
 mozilla
