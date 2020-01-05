@@ -5379,6 +5379,9 @@ return
 }
 MOZ_ASSERT
 (
+mState
+=
+=
 STATE_CONTEXT_READY
 )
 ;
