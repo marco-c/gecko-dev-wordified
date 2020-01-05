@@ -1708,6 +1708,13 @@ this
 ;
 }
 void
+SetInitialThumbPos
+(
+CSSCoord
+aThumbPos
+)
+;
+void
 SetDragMetrics
 (
 const
@@ -1731,6 +1738,9 @@ private
 :
 AsyncDragMetrics
 mDragMetrics
+;
+CSSCoord
+mInitialThumbPos
 ;
 bool
 mReceivedMouseUp
