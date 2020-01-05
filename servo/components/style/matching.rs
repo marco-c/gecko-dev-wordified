@@ -85,12 +85,6 @@ missing_docs
 )
 ]
 use
-atomic_refcell
-:
-:
-AtomicRefMut
-;
-use
 cascade_info
 :
 :
@@ -6274,10 +6268,7 @@ data
 :
 &
 mut
-AtomicRefMut
-<
 ElementData
->
 )
 -
 >
