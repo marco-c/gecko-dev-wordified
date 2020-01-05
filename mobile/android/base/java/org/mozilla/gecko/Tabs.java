@@ -3970,6 +3970,16 @@ parent
 !
 =
 null
+&
+&
+parent
+.
+getType
+(
+)
+=
+=
+type
 )
 {
 /
@@ -4823,7 +4833,7 @@ false
 )
 )
 {
-GeckoApp
+GeckoAppShell
 .
 launchOrBringToFront
 (
