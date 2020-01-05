@@ -3691,7 +3691,7 @@ vec
 [
 value
 .
-to_vec
+into
 (
 )
 ]

@@ -107,6 +107,9 @@ mod
 dom
 {
 mod
+bindings
+;
+mod
 blob
 ;
 }
