@@ -4037,16 +4037,17 @@ or
                 
 (
 '
-/
-/
-XXXjdm
-ThrowErrorMessage
+throw_type_error
 (
 cx
-MSG_NOT_OBJECT
 "
 %
 s
+is
+not
+an
+object
+.
 "
 )
 ;
