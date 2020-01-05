@@ -78,6 +78,18 @@ MPL
 .
 *
 /
+/
+*
+eslint
+-
+env
+mozilla
+/
+browser
+-
+window
+*
+/
 var
 Ci
 =
@@ -241,6 +253,9 @@ Deprecated
 :
 false
 E10SUtils
+:
+false
+ExtensionsUI
 :
 false
 FormValidationHandler
@@ -2140,6 +2155,8 @@ globals
 gBrowser
 gNavToolbox
 gURLBar
+:
+true
 gNavigatorBundle
 *
 /

@@ -6883,6 +6883,8 @@ snapshots
 let
 currIndex
 =
+this
+.
 _getCurrentHistoryIndex
 (
 )

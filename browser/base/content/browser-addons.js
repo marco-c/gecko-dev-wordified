@@ -1619,11 +1619,6 @@ xpinstallDisabledMessageLocked
 "
 )
 ;
-buttons
-=
-[
-]
-;
 }
 else
 {

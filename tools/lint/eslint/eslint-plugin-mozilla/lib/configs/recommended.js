@@ -2079,6 +2079,11 @@ dump
 "
 :
 true
+"
+ImageDocument
+"
+:
+false
 /
 /
 Specific
