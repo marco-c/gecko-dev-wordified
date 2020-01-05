@@ -310,10 +310,6 @@ object
 }
 }
 impl
-<
-'
-a
->
 DerefMut
 for
 FlowRef
