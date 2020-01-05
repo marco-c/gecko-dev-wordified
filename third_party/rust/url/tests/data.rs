@@ -217,10 +217,12 @@ run_parsing
 (
 input
 :
-String
+&
+str
 base
 :
-String
+&
+str
 expected
 :
 Result
@@ -1102,7 +1104,9 @@ move
 |
 run_parsing
 (
+&
 input
+&
 base
 expected
 )

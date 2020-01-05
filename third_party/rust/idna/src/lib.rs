@@ -2,8 +2,11 @@
 /
 Copyright
 2016
-Simon
-Sapin
+The
+rust
+-
+url
+developers
 .
 /
 /
