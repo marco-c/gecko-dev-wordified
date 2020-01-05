@@ -13,13 +13,6 @@ test_prefs_store
 .
 js
 /
-*
-global
-pref
-user_pref
-*
-/
-/
 /
 The
 prefs

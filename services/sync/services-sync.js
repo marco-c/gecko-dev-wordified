@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-pref
-*
-/
 pref
 (
 "
