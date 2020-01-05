@@ -458,11 +458,6 @@ mCreationTime
 (
 aCreationTime
 )
-/
-/
-Defaults
-to
-60s
 mIsSession
 (
 aIsSession
