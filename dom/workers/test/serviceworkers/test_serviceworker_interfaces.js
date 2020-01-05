@@ -1604,9 +1604,16 @@ a
 DOM
 peer
 !
+{
+name
+:
 "
 StorageManager
 "
+nightly
+:
+true
+}
 /
 /
 IMPORTANT
