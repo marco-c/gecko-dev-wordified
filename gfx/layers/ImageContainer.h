@@ -2338,10 +2338,8 @@ proxy
 explicit
 ImageContainer
 (
-const
-CompositableHandle
-&
-aHandle
+uint64_t
+aAsyncContainerID
 )
 ;
 typedef
@@ -3029,8 +3027,8 @@ thread
 .
 *
 /
-CompositableHandle
-GetAsyncContainerHandle
+uint64_t
+GetAsyncContainerID
 (
 )
 ;
@@ -4024,8 +4022,8 @@ ImageClient
 >
 mImageClient
 ;
-CompositableHandle
-mAsyncContainerHandle
+uint64_t
+mAsyncContainerID
 ;
 nsTArray
 <

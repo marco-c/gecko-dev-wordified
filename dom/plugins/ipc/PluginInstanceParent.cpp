@@ -6513,10 +6513,7 @@ mImageContainer
 new
 ImageContainer
 (
-CompositableHandle
-(
 aScrollCaptureId
-)
 )
 ;
 return

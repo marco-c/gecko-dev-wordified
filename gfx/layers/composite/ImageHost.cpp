@@ -2367,7 +2367,7 @@ ImageCompositeNotification
 (
 mAsyncRef
 .
-mHandle
+mAsyncId
 img
 -
 >
