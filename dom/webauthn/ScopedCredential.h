@@ -219,7 +219,7 @@ public
 explicit
 ScopedCredential
 (
-WebAuthentication
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -233,7 +233,7 @@ ScopedCredential
 ;
 public
 :
-WebAuthentication
+nsISupports
 *
 GetParentObject
 (
@@ -305,9 +305,9 @@ aBuffer
 ;
 private
 :
-RefPtr
+nsCOMPtr
 <
-WebAuthentication
+nsPIDOMWindowInner
 >
 mParent
 ;
