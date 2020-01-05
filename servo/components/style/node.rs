@@ -401,4 +401,16 @@ str
 >
 bool
 ;
+fn
+each_class
+(
+self
+callback
+:
+|
+&
+Atom
+|
+)
+;
 }

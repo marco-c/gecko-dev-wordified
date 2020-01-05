@@ -177,8 +177,8 @@ wrapper
 :
 :
 {
-PreorderDOMTraversal
-PostorderDOMTraversal
+PreorderDomTraversal
+PostorderDomTraversal
 }
 ;
 use
@@ -491,9 +491,9 @@ traversal
 .
 pub
 trait
-ParallelPreorderDOMTraversal
+ParallelPreorderDomTraversal
 :
-PreorderDOMTraversal
+PreorderDomTraversal
 {
 fn
 run_parallel
@@ -774,9 +774,9 @@ DOM
 traversal
 .
 trait
-ParallelPostorderDOMTraversal
+ParallelPostorderDomTraversal
 :
-PostorderDOMTraversal
+PostorderDomTraversal
 {
 /
 /
@@ -1977,7 +1977,7 @@ impl
 '
 a
 >
-ParallelPostorderDOMTraversal
+ParallelPostorderDomTraversal
 for
 ConstructFlows
 <
@@ -1991,7 +1991,7 @@ impl
 '
 a
 >
-ParallelPreorderDOMTraversal
+ParallelPreorderDomTraversal
 for
 RecalcStyleForNode
 <
