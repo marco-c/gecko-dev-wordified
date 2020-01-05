@@ -820,10 +820,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mMessageManager
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mGlobal
-)
 tmp
 -
 >
@@ -859,10 +855,6 @@ DOMEventTargetHelper
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mMessageManager
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mGlobal
 )
 tmp
 -
