@@ -904,14 +904,15 @@ PR_NSPR_IO_LAYER
 )
 ;
 /
-/
+*
 ignore
 a
 socket
 without
 PR_NSPR_IO_LAYER
 available
-.
+*
+/
 if
 (
 (
