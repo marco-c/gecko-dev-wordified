@@ -677,7 +677,7 @@ format
 (
 &
 self
-output
+_output
 :
 &
 Option
@@ -1760,6 +1760,9 @@ chan
 =
 >
 {
+let
+_
+=
 chan
 .
 send
@@ -2441,6 +2444,9 @@ print_buckets
 (
 )
 ;
+let
+_
+=
 chan
 .
 send
@@ -2600,6 +2606,10 @@ _events_
 \
 n
 "
+)
+.
+unwrap
+(
 )
 ;
 for
@@ -2815,6 +2825,10 @@ min
 max
 data_len
 )
+.
+unwrap
+(
+)
 ;
 }
 }
@@ -2826,8 +2840,7 @@ OutputOptions
 :
 Stdout
 (
-ref
-period
+_
 )
 )
 =

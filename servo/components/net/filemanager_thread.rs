@@ -169,6 +169,7 @@ PathBuf
 impl
 FileManager
 {
+pub
 fn
 new
 (
@@ -204,6 +205,7 @@ new
 )
 }
 }
+pub
 fn
 new_thread
 (
