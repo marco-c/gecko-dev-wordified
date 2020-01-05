@@ -4284,6 +4284,16 @@ forget
 )
 ;
 }
+if
+(
+!
+mRawSurface
+)
+{
+return
+nullptr
+;
+}
 return
 CreateLockedSurface
 (
