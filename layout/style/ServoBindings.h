@@ -1684,6 +1684,13 @@ ServoComputedValuesBorrowed
 newstyle
 )
 ;
+nsChangeHint
+Gecko_HintsHandledForDescendants
+(
+nsChangeHint
+aHint
+)
+;
 /
 /
 Element
