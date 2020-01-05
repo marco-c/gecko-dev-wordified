@@ -331,6 +331,14 @@ extern
 crate
 log
 ;
+#
+[
+macro_use
+]
+extern
+crate
+mime
+;
 extern
 crate
 msg
