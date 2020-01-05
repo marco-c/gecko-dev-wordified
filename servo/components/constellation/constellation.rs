@@ -1308,7 +1308,6 @@ LTF
 STF
 )
 >
-pub
 window_size
 :
 WindowSizeData
@@ -1680,7 +1679,6 @@ the
 frame
 tree
 .
-pub
 struct
 Frame
 {
@@ -2163,7 +2161,6 @@ LoadStatus
 impl
 WebDriverData
 {
-pub
 fn
 new
 (
