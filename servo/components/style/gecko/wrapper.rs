@@ -8840,6 +8840,11 @@ NonTSPseudoClass
 :
 :
 MozBrowserFrame
+|
+NonTSPseudoClass
+:
+:
+MozNativeAnonymous
 =
 >
 unsafe
