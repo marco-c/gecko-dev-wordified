@@ -272,13 +272,13 @@ windowListener
 {
 onOpenWindow
 (
-aWindow
+window
 )
 {
 let
 domWindow
 =
-aWindow
+window
 .
 QueryInterface
 (
