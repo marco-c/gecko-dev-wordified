@@ -815,14 +815,8 @@ name
 pub
 fn
 get_attribute
-<
-'
-a
->
 (
 &
-'
-a
 self
 namespace_url
 :
