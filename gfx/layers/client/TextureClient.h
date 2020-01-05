@@ -1429,6 +1429,11 @@ Serialize
 ReadLockDescriptor
 &
 aOutput
+base
+:
+:
+ProcessId
+aOther
 )
 =
 0
@@ -1438,6 +1443,7 @@ LockType
 {
 TYPE_NONBLOCKING_MEMORY
 TYPE_NONBLOCKING_SHMEM
+TYPE_CROSS_PROCESS_MUTEX
 }
 ;
 virtual
@@ -3988,6 +3994,11 @@ mFwdTransactionId
 }
 void
 EnableReadLock
+(
+)
+;
+void
+EnableBlockingReadLock
 (
 )
 ;
