@@ -2040,6 +2040,12 @@ aBuilder
 aFrame
 &
 tmpList
+aBuilder
+-
+>
+CurrentActiveScrolledRoot
+(
+)
 )
 ;
 }
@@ -2836,9 +2842,8 @@ appunits
 .
 nestedClipState
 .
-EnterStackingContextContents
+Clear
 (
-true
 )
 ;
 }
