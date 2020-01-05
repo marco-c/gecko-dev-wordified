@@ -655,6 +655,12 @@ linux
 notify_linux
         
 "
+linux2
+"
+:
+notify_linux
+        
+"
 win
 "
 :
