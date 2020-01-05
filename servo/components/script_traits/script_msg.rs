@@ -136,7 +136,10 @@ use
 offscreen_gl_context
 :
 :
+{
 GLContextAttributes
+GLLimits
+}
 ;
 use
 style_traits
@@ -408,10 +411,13 @@ IpcSender
 <
 Result
 <
+(
 IpcSender
 <
 CanvasMsg
 >
+GLLimits
+)
 String
 >
 >

@@ -715,6 +715,12 @@ storage_thread
 StorageType
 ;
 use
+offscreen_gl_context
+:
+:
+GLLimits
+;
+use
 profile_traits
 :
 :
@@ -2519,6 +2525,7 @@ no_jsmanaged_fields
 !
 (
 WebGLError
+GLLimits
 )
 ;
 no_jsmanaged_fields
