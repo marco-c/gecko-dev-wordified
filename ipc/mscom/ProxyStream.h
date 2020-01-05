@@ -356,6 +356,9 @@ IUnknown
 >
 mUnmarshaledProxy
 ;
+HRESULT
+mUnmarshalResult
+;
 }
 ;
 }
