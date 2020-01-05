@@ -169,6 +169,13 @@ Reset
 (
 )
 ;
+void
+Start2
+(
+double
+aSinceTime
+)
+;
 nsTArray
 <
 nsCString
