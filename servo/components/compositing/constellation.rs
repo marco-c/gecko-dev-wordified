@@ -3579,7 +3579,7 @@ _
 UnprivilegedPipelineContent
 )
 {
-panic
+error
 !
 (
 "
@@ -3591,6 +3591,14 @@ on
 Windows
 .
 "
+)
+;
+process
+:
+:
+exit
+(
+1
 )
 ;
 }
