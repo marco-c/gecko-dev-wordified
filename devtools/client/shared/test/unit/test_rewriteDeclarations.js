@@ -4228,7 +4228,7 @@ n
 color
 :
 #
-f0c
+f06
 ;
 *
 /
@@ -4372,7 +4372,7 @@ n
 color
 :
 #
-f0c
+f06
 ;
 background
 -

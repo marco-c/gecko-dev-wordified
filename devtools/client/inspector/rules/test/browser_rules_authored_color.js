@@ -161,7 +161,7 @@ color
 :
 "
 #
-f0c
+f06
 "
 result
 :
@@ -223,7 +223,7 @@ color
 :
 "
 #
-F0C
+F06
 "
 result
 :
