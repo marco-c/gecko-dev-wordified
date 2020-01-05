@@ -1041,7 +1041,7 @@ GetAsSourceSurface
 if
 (
 !
-image
+source
 )
 {
 *
