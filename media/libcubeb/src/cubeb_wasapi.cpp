@@ -7053,7 +7053,7 @@ or
 AvRevertMmThreadCharacteristics
 :
 %
-x
+lx
 "
 GetLastError
 (
@@ -11029,7 +11029,6 @@ emergency_bailout
 if
 we
 could
-not
 join
 the
 thread
