@@ -136,10 +136,8 @@ PseudoStack
 *
 stack
 =
+new
 PseudoStack
-:
-:
-create
 (
 )
 ;
@@ -205,10 +203,8 @@ PseudoStack
 *
 stack
 =
+new
 PseudoStack
-:
-:
-create
 (
 )
 ;
@@ -339,10 +335,8 @@ PseudoStack
 *
 stack
 =
+new
 PseudoStack
-:
-:
-create
 (
 )
 ;
@@ -522,10 +516,8 @@ PseudoStack
 *
 stack
 =
+new
 PseudoStack
-:
-:
-create
 (
 )
 ;
