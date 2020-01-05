@@ -5968,7 +5968,7 @@ immediately
 /
 after
 the
-block
+margin
 -
 end
 border
@@ -5994,6 +5994,15 @@ contains
 BLOCK_POSITION_IS_STATIC
 )
 {
+let
+previous_bottom_margin
+=
+margin_collapse_info
+.
+current_float_ceiling
+(
+)
+;
 flow
 :
 :
@@ -6023,6 +6032,8 @@ collapsible_margins
 block_start_margin_for_noncollapsible_context
 (
 )
++
+previous_bottom_margin
 }
 kid
 .
