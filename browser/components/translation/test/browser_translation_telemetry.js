@@ -763,12 +763,8 @@ anonid
 var
 offerTranslationFor
 =
-Task
-.
 async
-(
 function
-*
 (
 text
 from
@@ -804,7 +800,7 @@ text
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -854,17 +850,12 @@ return
 tab
 ;
 }
-)
 ;
 var
 acceptTranslationOffer
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 )
@@ -888,7 +879,7 @@ doCommand
 (
 )
 ;
-yield
+await
 waitForMessage
 (
 browser
@@ -900,17 +891,12 @@ Finished
 )
 ;
 }
-)
 ;
 var
 translate
 =
-Task
-.
 async
-(
 function
-*
 (
 text
 from
@@ -922,14 +908,14 @@ true
 let
 tab
 =
-yield
+await
 offerTranslationFor
 (
 text
 from
 )
 ;
-yield
+await
 acceptTranslationOffer
 (
 tab
@@ -955,7 +941,6 @@ return
 tab
 ;
 }
-)
 ;
 function
 waitForMessage
@@ -1025,8 +1010,8 @@ doCommand
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1202,8 +1187,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_telemetry
 (
 )
@@ -1214,7 +1199,7 @@ Translate
 a
 page
 .
-yield
+await
 translate
 (
 "
@@ -1238,7 +1223,7 @@ Translate
 another
 page
 .
-yield
+await
 translate
 (
 "
@@ -1267,7 +1252,7 @@ de
 "
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -1319,8 +1304,8 @@ deniedOffers
 ;
 add_task
 (
+async
 function
-*
 test_deny_translation_metric
 (
 )
@@ -1390,7 +1375,7 @@ tab
 )
 ;
 }
-yield
+await
 offerAndDeny
 (
 "
@@ -1398,7 +1383,7 @@ notNow
 "
 )
 ;
-yield
+await
 offerAndDeny
 (
 "
@@ -1406,7 +1391,7 @@ neverForSite
 "
 )
 ;
-yield
+await
 offerAndDeny
 (
 "
@@ -1414,7 +1399,7 @@ neverForLanguage
 "
 )
 ;
-yield
+await
 offerAndDeny
 (
 "
@@ -1453,7 +1438,7 @@ state
 let
 tab
 =
-yield
+await
 translate
 (
 "
@@ -1474,7 +1459,7 @@ de
 false
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -1498,8 +1483,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_show_original
 (
 )
@@ -1507,7 +1492,7 @@ test_show_original
 let
 tab
 =
-yield
+await
 translate
 (
 "
@@ -1537,7 +1522,7 @@ de
 false
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -1566,7 +1551,7 @@ doCommand
 (
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -1593,8 +1578,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_language_change
 (
 )
@@ -1639,7 +1624,7 @@ vars
 let
 tab
 =
-yield
+await
 offerTranslationFor
 (
 "
@@ -1724,7 +1709,7 @@ de
 "
 )
 ;
-yield
+await
 acceptTranslationOffer
 (
 tab
@@ -1893,7 +1878,7 @@ tab
 )
 ;
 }
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -1916,8 +1901,8 @@ targetLanguageChanged
 ;
 add_task
 (
+async
 function
-*
 test_never_offer_translation
 (
 )
@@ -1943,7 +1928,7 @@ fr
 let
 tab
 =
-yield
+await
 offerTranslationFor
 (
 "
@@ -1963,7 +1948,7 @@ fr
 "
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions
@@ -2002,8 +1987,8 @@ neverForLanguages
 ;
 add_task
 (
+async
 function
-*
 test_translation_preferences
 (
 )
@@ -2145,7 +2130,7 @@ init
 (
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions

@@ -961,8 +961,8 @@ saves
 cleanly
 add_task
 (
+async
 function
-*
 test_basic_save_succeeds
 (
 )
@@ -987,7 +987,7 @@ Test
 Data
 "
 ;
-yield
+await
 tester
 .
 save
@@ -1044,8 +1044,8 @@ the
 data
 add_task
 (
+async
 function
-*
 test_two_saves
 (
 )
@@ -1143,7 +1143,7 @@ true
 do_report_unexpected_exception
 )
 ;
-yield
+await
 tester
 .
 save
@@ -1204,8 +1204,8 @@ the
 data
 add_task
 (
+async
 function
-*
 test_two_saves_delay
 (
 )
@@ -1321,7 +1321,7 @@ save
 )
 to
 run
-yield
+await
 delay
 (
 2
@@ -1363,7 +1363,7 @@ timer
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 /
@@ -1388,7 +1388,7 @@ DeferredSave
 to
 finish
 saving
-yield
+await
 saving
 ;
 do_check_true
@@ -1474,8 +1474,8 @@ is
 cleared
 add_task
 (
+async
 function
-*
 test_error_immediate
 (
 )
@@ -1519,7 +1519,7 @@ setQuickMockTimer
 (
 )
 ;
-yield
+await
 tester
 .
 save
@@ -1577,7 +1577,7 @@ and
 clear
 the
 error
-yield
+await
 tester
 .
 save
@@ -1662,8 +1662,8 @@ write
 succeeds
 add_task
 (
+async
 function
-*
 dirty_while_writing
 (
 )
@@ -1798,7 +1798,7 @@ writer
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -1846,7 +1846,7 @@ in
 -
 progress
 write
-yield
+await
 delay
 (
 1
@@ -1900,7 +1900,7 @@ do
 the
 third
 change
-yield
+await
 delay
 (
 1
@@ -1929,7 +1929,7 @@ finish
 the
 first
 write
-yield
+await
 delay
 (
 1
@@ -1951,7 +1951,7 @@ let
 everything
 else
 finish
-yield
+await
 thirdWrite
 ;
 do_check_true
@@ -2124,8 +2124,8 @@ another
 save
 add_task
 (
+async
 function
-*
 flush_after_save
 (
 )
@@ -2150,7 +2150,7 @@ after
 save
 "
 ;
-yield
+await
 tester
 .
 save
@@ -2158,7 +2158,7 @@ save
 dataToSave
 )
 ;
-yield
+await
 tester
 .
 flush
@@ -2198,8 +2198,8 @@ is
 clean
 add_task
 (
+async
 function
-*
 flush_during_write
 (
 )
@@ -2284,7 +2284,7 @@ do_report_unexpected_exception
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -2317,7 +2317,7 @@ flush
 disabled_write_callback
 )
 ;
-yield
+await
 delay
 (
 2
@@ -2341,7 +2341,7 @@ the
 flush
 to
 finish
-yield
+await
 flushing
 ;
 do_check_true
@@ -2399,8 +2399,8 @@ changed
 later
 add_task
 (
+async
 function
-*
 flush_while_dirty
 (
 )
@@ -2495,7 +2495,7 @@ start
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 let
@@ -2562,7 +2562,7 @@ invalid
 data
 "
 ;
-yield
+await
 flushing
 ;
 do_check_true
@@ -2654,8 +2654,8 @@ modified
 later
 add_task
 (
+async
 function
-*
 flush_writing_dirty
 (
 )
@@ -2780,7 +2780,7 @@ it
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 activeTimer
@@ -2792,7 +2792,7 @@ callback
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -2931,7 +2931,7 @@ write
 flush
 to
 complete
-yield
+await
 flushing
 ;
 do_check_true
@@ -3097,8 +3097,8 @@ normal
 save
 add_task
 (
+async
 function
-*
 data_throw
 (
 )
@@ -3119,7 +3119,7 @@ DeferredSaveTester
 badDataProvider
 )
 ;
-yield
+await
 tester
 .
 save
@@ -3165,8 +3165,8 @@ during
 flush
 add_task
 (
+async
 function
-*
 data_throw_during_flush
 (
 )
@@ -3256,7 +3256,7 @@ will
 cancel
 the
 timer
-yield
+await
 tester
 .
 flush
@@ -3370,8 +3370,8 @@ torn
 down
 add_task
 (
+async
 function
-*
 delay_flush_race
 (
 )
@@ -3462,7 +3462,7 @@ writeCallback
 )
 ;
 (
-yield
+await
 timerPromise
 )
 .
@@ -3473,7 +3473,7 @@ callback
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -3519,7 +3519,7 @@ firstData
 length
 )
 ;
-yield
+await
 firstSave
 ;
 do_check_eq
@@ -3546,7 +3546,7 @@ flush
 (
 )
 ;
-yield
+await
 secondSave
 ;
 do_check_eq
@@ -3557,7 +3557,7 @@ writtenData
 thirdData
 )
 ;
-yield
+await
 flushing
 ;
 do_check_eq

@@ -96,8 +96,8 @@ chevron
 /
 add_task
 (
+async
 function
-*
 test_overflow_anchor
 (
 )
@@ -118,7 +118,7 @@ didn
 t
 finish
 .
-yield
+await
 task_resetState
 (
 )
@@ -314,7 +314,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForOverflowed
 (
 button
@@ -336,7 +336,7 @@ doCommand
 (
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -438,7 +438,7 @@ un
 -
 overflowed
 .
-yield
+await
 waitForOverflowed
 (
 button
@@ -468,7 +468,7 @@ doCommand
 (
 )
 ;
-yield
+await
 promise
 ;
 is

@@ -214,8 +214,8 @@ once
 that
 becomes
 available
+async
 function
-*
 visitsForURL
 (
 url
@@ -229,7 +229,7 @@ visitCount
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -238,7 +238,7 @@ promiseDBConnection
 ;
 visitCount
 =
-yield
+await
 db
 .
 execute
@@ -312,8 +312,8 @@ from
 /
 add_task
 (
+async
 function
-*
 checkMigratorPicking
 (
 )
@@ -545,8 +545,8 @@ from
 /
 add_task
 (
+async
 function
-*
 checkProfilePicking
 (
 )
@@ -894,8 +894,8 @@ startup
 /
 add_task
 (
+async
 function
-*
 checkIntegration
 (
 )
@@ -1074,8 +1074,8 @@ automigrator
 /
 add_task
 (
+async
 function
-*
 checkUndoPreconditions
 (
 )
@@ -1331,7 +1331,7 @@ profile
 "
 )
 ;
-yield
+await
 migrationFinishedPromise
 ;
 Assert
@@ -1367,7 +1367,7 @@ ok
 (
 !
 (
-yield
+await
 AutoMigrate
 .
 canUndo
@@ -1492,7 +1492,7 @@ profile
 "
 )
 ;
-yield
+await
 migrationFinishedPromise
 ;
 let
@@ -1575,7 +1575,7 @@ Assert
 ok
 (
 (
-yield
+await
 AutoMigrate
 .
 canUndo
@@ -1598,7 +1598,7 @@ data
 "
 )
 ;
-yield
+await
 AutoMigrate
 .
 undo
@@ -1707,8 +1707,8 @@ removed
 /
 add_task
 (
+async
 function
-*
 checkUndoRemoval
 (
 )
@@ -1853,7 +1853,7 @@ for
 that
 URI
 .
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -1893,7 +1893,7 @@ bookmark
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2042,7 +2042,7 @@ observer
 }
 )
 ;
-yield
+await
 MigrationUtils
 .
 insertVisitsWrapper
@@ -2088,7 +2088,7 @@ kUsecPerMin
 ]
 )
 ;
-yield
+await
 frecencyUpdatePromise
 ;
 /
@@ -2188,7 +2188,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 AutoMigrate
 .
 saveUndoState
@@ -2224,7 +2224,7 @@ migration
 "
 )
 ;
-yield
+await
 AutoMigrate
 .
 undo
@@ -2457,7 +2457,7 @@ bookmarks
 :
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2560,8 +2560,8 @@ logins
 ;
 add_task
 (
+async
 function
-*
 checkUndoBookmarksState
 (
 )
@@ -2621,7 +2621,7 @@ guid
 lastModified
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -2638,7 +2638,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -2676,7 +2676,7 @@ guid
 lastModified
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -2716,7 +2716,7 @@ guid
 lastModified
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -2751,7 +2751,7 @@ guid
 lastModified
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -2784,7 +2784,7 @@ let
 bookmarksUndo
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -2907,7 +2907,7 @@ bookmarksUndo
 kid2
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2921,8 +2921,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 testBookmarkRemovalByUndo
 (
 )
@@ -2980,7 +2980,7 @@ let
 guid
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -3015,7 +3015,7 @@ itemsToRemove
 guid
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -3054,7 +3054,7 @@ innerFolderGuid
 guid
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -3089,7 +3089,7 @@ guid
 guid
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -3136,7 +3136,7 @@ guid
 guid
 }
 =
-yield
+await
 MigrationUtils
 .
 insertBookmarkWrapper
@@ -3169,7 +3169,7 @@ itemsToRemove
 let
 dbResultForGuid
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3204,7 +3204,7 @@ let
 bookmarkUndoState
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -3238,7 +3238,7 @@ migration
 let
 newItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3271,7 +3271,7 @@ com
 }
 )
 ;
-yield
+await
 AutoMigrate
 .
 _removeUnchangedBookmarks
@@ -3296,7 +3296,7 @@ items
 let
 itemFromDB
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3329,7 +3329,7 @@ there
 ;
 itemFromDB
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3372,7 +3372,7 @@ itemsToRemove
 let
 dbResultForGuid
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3419,7 +3419,7 @@ dbgStr
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3433,8 +3433,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 checkUndoLoginsState
 (
 )
@@ -3547,7 +3547,7 @@ let
 undoLoginData
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -3588,8 +3588,8 @@ removeAllLogins
 ;
 add_task
 (
+async
 function
-*
 testLoginsRemovalByUndo
 (
 )
@@ -3818,7 +3818,7 @@ let
 undoLoginData
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -3833,7 +3833,7 @@ logins
 "
 )
 ;
-yield
+await
 AutoMigrate
 .
 _removeUnchangedLogins
@@ -3955,8 +3955,8 @@ removeAllLogins
 ;
 add_task
 (
+async
 function
-*
 checkUndoVisitsState
 (
 )
@@ -3967,7 +3967,7 @@ initializeUndoData
 (
 )
 ;
-yield
+await
 MigrationUtils
 .
 insertVisitsWrapper
@@ -4238,7 +4238,7 @@ let
 undoVisitData
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -4481,7 +4481,7 @@ getTime
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -4493,8 +4493,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 checkUndoVisitsState
 (
 )
@@ -4505,7 +4505,7 @@ initializeUndoData
 (
 )
 ;
-yield
+await
 MigrationUtils
 .
 insertVisitsWrapper
@@ -4899,7 +4899,7 @@ resolve
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -5045,14 +5045,14 @@ Date
 ]
 )
 ;
-yield
+await
 frecencyUpdatesHandled
 ;
 let
 undoVisitData
 =
 (
-yield
+await
 MigrationUtils
 .
 stopAndRetrieveUndoData
@@ -5416,7 +5416,7 @@ addObserver
 observer
 )
 ;
-yield
+await
 AutoMigrate
 .
 _removeSomeVisits
@@ -5433,7 +5433,7 @@ removeObserver
 observer
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -5445,7 +5445,7 @@ values
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -5461,7 +5461,7 @@ Assert
 .
 equal
 (
-yield
+await
 visitsForURL
 (
 "
@@ -5507,7 +5507,7 @@ Assert
 .
 equal
 (
-yield
+await
 visitsForURL
 (
 "
@@ -5546,7 +5546,7 @@ Assert
 .
 equal
 (
-yield
+await
 visitsForURL
 (
 "
@@ -5585,7 +5585,7 @@ Assert
 .
 equal
 (
-yield
+await
 visitsForURL
 (
 "
@@ -5624,7 +5624,7 @@ import
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -5636,8 +5636,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 checkHistoryRemovalCompletion
 (
 )
@@ -5658,7 +5658,7 @@ logins
 0
 }
 ;
-yield
+await
 AutoMigrate
 .
 _removeSomeVisits
@@ -5767,7 +5767,7 @@ removed
 already
 )
 .
-yield
+await
 AutoMigrate
 .
 _removeUnchangedBookmarks
@@ -5857,7 +5857,7 @@ bookmark
 "
 )
 ;
-yield
+await
 AutoMigrate
 .
 _removeUnchangedLogins

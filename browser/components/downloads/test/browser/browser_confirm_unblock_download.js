@@ -108,8 +108,8 @@ verdicts
 /
 add_task
 (
+async
 function
-*
 test_unblock_dialog_unblock
 (
 )
@@ -157,7 +157,7 @@ Test
 both
 buttons
 .
-yield
+await
 assertDialogResult
 (
 {
@@ -175,7 +175,7 @@ unblock
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -216,8 +216,8 @@ downloads
 /
 add_task
 (
+async
 function
-*
 test_chooseUnblock_dialog
 (
 )
@@ -250,7 +250,7 @@ the
 three
 buttons
 .
-yield
+await
 assertDialogResult
 (
 {
@@ -268,7 +268,7 @@ unblock
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -286,7 +286,7 @@ cancel
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -325,8 +325,8 @@ downloads
 /
 add_task
 (
+async
 function
-*
 test_chooseOpen_dialog
 (
 )
@@ -359,7 +359,7 @@ the
 three
 buttons
 .
-yield
+await
 assertDialogResult
 (
 {
@@ -377,7 +377,7 @@ open
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -395,7 +395,7 @@ cancel
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {

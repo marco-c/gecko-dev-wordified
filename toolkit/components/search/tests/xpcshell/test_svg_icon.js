@@ -314,13 +314,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_svg_icon
 (
 )
 {
-yield
+await
 asyncInit
 (
 )
@@ -330,7 +330,7 @@ let
 engine
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -375,10 +375,10 @@ searchTerms
 ]
 )
 ;
-yield
+await
 requestHandled
 ;
-yield
+await
 promiseAfterCache
 (
 )

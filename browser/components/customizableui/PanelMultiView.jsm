@@ -2342,12 +2342,9 @@ window
 this
 ;
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -2759,7 +2756,7 @@ try
 let
 results
 =
-yield
+await
 Promise
 .
 all
@@ -4231,6 +4228,8 @@ bind
 (
 this
 )
+)
+(
 )
 ;
 }

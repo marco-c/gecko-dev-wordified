@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -25,7 +25,7 @@ no
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -44,7 +44,7 @@ tabContainer
 .
 firstChild
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -123,7 +123,7 @@ chrome
 window
 but
 async
-yield
+await
 promiseWindowWillBeClosed
 (
 win
@@ -134,8 +134,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -159,7 +159,7 @@ no
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -178,7 +178,7 @@ tabContainer
 .
 firstChild
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -341,7 +341,7 @@ selected
 )
 ;
 }
-yield
+await
 promiseWindowClosed
 (
 win

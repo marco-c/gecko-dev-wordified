@@ -385,8 +385,8 @@ task
 .
 *
 /
+async
 function
-*
 task_populateDB
 (
 aArray
@@ -463,7 +463,7 @@ visit
 for
 this
 node
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -759,7 +759,7 @@ page
 details
 for
 testing
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -930,7 +930,7 @@ qdata
 isFolder
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -971,7 +971,7 @@ qdata
 isLivemark
 )
 {
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -987,7 +987,7 @@ title
 parentId
 :
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1099,7 +1099,7 @@ lastModified
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1116,7 +1116,7 @@ qdata
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1171,7 +1171,7 @@ qdata
 isSeparator
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks

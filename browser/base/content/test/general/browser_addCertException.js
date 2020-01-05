@@ -185,12 +185,12 @@ icons
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -198,7 +198,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 loadBadCertPage
 (
 "
@@ -258,7 +258,7 @@ com
 1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

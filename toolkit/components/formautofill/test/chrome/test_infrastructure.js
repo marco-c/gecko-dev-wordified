@@ -70,8 +70,8 @@ function
 /
 add_task
 (
+async
 function
-*
 test_assert_truth
 (
 )
@@ -103,8 +103,8 @@ function
 /
 add_task
 (
+async
 function
-*
 test_assert_equality
 (
 )
@@ -141,8 +141,8 @@ framework
 /
 add_task
 (
+async
 function
-*
 test_utility_functions
 (
 )
@@ -220,7 +220,7 @@ contents
 let
 path
 =
-yield
+await
 TestUtils
 .
 getTempFile
@@ -234,7 +234,7 @@ txt
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -261,14 +261,14 @@ few
 utility
 functions
 .
-yield
+await
 TestUtils
 .
 waitForTick
 (
 )
 ;
-yield
+await
 TestUtils
 .
 waitMs
@@ -304,7 +304,7 @@ topic
 "
 )
 ;
-yield
+await
 promiseMyNotification
 ;
 /
@@ -327,7 +327,7 @@ Assert
 equal
 (
 (
-yield
+await
 OS
 .
 File
@@ -367,8 +367,8 @@ above
 /
 add_task
 (
+async
 function
-*
 test_content
 (
 )
@@ -444,7 +444,7 @@ dispatchEvent
 event
 )
 ;
-yield
+await
 promiseMyEvent
 ;
 }

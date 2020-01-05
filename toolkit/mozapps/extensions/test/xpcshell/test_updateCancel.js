@@ -535,8 +535,8 @@ profileDir
 ;
 add_task
 (
+async
 function
-*
 cancel_during_check
 (
 )
@@ -548,7 +548,7 @@ startupManager
 let
 a1
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -603,7 +603,7 @@ request
 response
 ]
 =
-yield
+await
 httpReceived
 .
 promise
@@ -633,7 +633,7 @@ cancelUpdate
 let
 updateResult
 =
-yield
+await
 listener
 .
 promise
@@ -726,7 +726,7 @@ cancelUpdate
 )
 )
 ;
-yield
+await
 true
 ;
 }
@@ -757,8 +757,8 @@ in
 progress
 add_task
 (
+async
 function
-*
 shutdown_during_check
 (
 )
@@ -780,7 +780,7 @@ defer
 let
 a1
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -835,7 +835,7 @@ request
 response
 ]
 =
-yield
+await
 httpReceived
 .
 promise
@@ -847,7 +847,7 @@ shutdownManager
 let
 updateResult
 =
-yield
+await
 listener
 .
 promise
@@ -915,7 +915,7 @@ finish
 (
 )
 ;
-yield
+await
 testserver
 .
 stop

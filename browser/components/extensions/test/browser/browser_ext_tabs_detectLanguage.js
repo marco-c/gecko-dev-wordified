@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testDetectLanguage
 (
 )
@@ -397,14 +397,14 @@ detectLanguage
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -414,7 +414,7 @@ detectLanguage
 "
 )
 ;
-yield
+await
 extension
 .
 unload

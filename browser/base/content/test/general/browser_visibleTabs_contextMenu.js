@@ -84,8 +84,8 @@ Bar
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -246,7 +246,7 @@ to
 device
 menu
 item
-yield
+await
 ensureSyncReady
 (
 )
@@ -259,7 +259,7 @@ setupRemoteClientsFixture
 remoteClientsFixture
 )
 ;
-yield
+await
 updateTabContextMenu
 (
 origTab

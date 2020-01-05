@@ -266,8 +266,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_api_injection
 (
 )
@@ -522,7 +522,7 @@ resolve
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -554,7 +554,7 @@ html
 let
 message
 =
-yield
+await
 awaitConsole
 ;
 ok
@@ -595,7 +595,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

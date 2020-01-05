@@ -24,8 +24,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -160,7 +160,7 @@ Migrate
 unencrypted
 cookies
 .
-yield
+await
 promiseMigration
 (
 migrator
@@ -319,7 +319,7 @@ prop
 /
 Cleanup
 .
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

@@ -129,8 +129,8 @@ recursion
 /
 add_task
 (
+async
 function
-*
 test_watch_recursively
 (
 )
@@ -194,7 +194,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -233,7 +233,7 @@ level1
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -313,7 +313,7 @@ start
 watching
 it
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -339,7 +339,7 @@ the
 watched
 directory
 .
-yield
+await
 OS
 .
 File
@@ -370,7 +370,7 @@ created
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -413,7 +413,7 @@ to
 unregister
 )
 .
-yield
+await
 promiseRemovePath
 (
 watcher
@@ -438,7 +438,7 @@ of
 its
 content
 .
-yield
+await
 OS
 .
 File

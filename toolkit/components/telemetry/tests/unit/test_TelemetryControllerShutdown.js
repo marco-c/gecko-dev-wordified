@@ -286,8 +286,8 @@ plain
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -345,7 +345,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -407,8 +407,8 @@ complete
 /
 add_task
 (
+async
 function
-*
 test_sendTelemetryShutsDownWithinReasonableTimeout
 (
 )
@@ -530,7 +530,7 @@ start
 1
 )
 ;
-yield
+await
 TelemetryController
 .
 testSetup
@@ -610,7 +610,7 @@ the
 ping
 submission
 .
-yield
+await
 submissionPromise
 ;
 /

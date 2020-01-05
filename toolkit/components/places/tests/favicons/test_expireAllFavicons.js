@@ -61,8 +61,8 @@ bookmarked
 ;
 add_task
 (
+async
 function
-*
 test_expireAllFavicons
 (
 )
@@ -74,7 +74,7 @@ a
 visited
 page
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -99,7 +99,7 @@ our
 test
 page
 .
-yield
+await
 setFaviconForPage
 (
 TEST_PAGE_URI
@@ -115,7 +115,7 @@ with
 a
 bookmark
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -151,7 +151,7 @@ for
 our
 bookmark
 .
-yield
+await
 setFaviconForPage
 (
 BOOKMARKED_PAGE_URI
@@ -190,7 +190,7 @@ expireAllFavicons
 (
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -207,13 +207,13 @@ added
 were
 removed
 .
-yield
+await
 promiseFaviconMissingForPage
 (
 TEST_PAGE_URI
 )
 ;
-yield
+await
 promiseFaviconMissingForPage
 (
 BOOKMARKED_PAGE_URI

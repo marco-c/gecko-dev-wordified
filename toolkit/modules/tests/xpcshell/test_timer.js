@@ -81,8 +81,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setTimeout
 (
 )
@@ -146,7 +146,7 @@ clearTimeout
 timeout1
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -270,8 +270,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_setInterval
 (
 )
@@ -346,7 +346,7 @@ calls
 =
 0
 ;
-yield
+await
 new
 Promise
 (

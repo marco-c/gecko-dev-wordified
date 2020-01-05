@@ -529,8 +529,8 @@ getTime
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -622,7 +622,7 @@ tag
 ]
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -756,7 +756,7 @@ telemetry
 null
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -808,7 +808,7 @@ i
 +
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -864,13 +864,13 @@ max_pages
 0
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 2
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 2
@@ -1168,7 +1168,7 @@ maintenanceOnIdle
 (
 )
 ;
-yield
+await
 promiseTopicObserved
 (
 "

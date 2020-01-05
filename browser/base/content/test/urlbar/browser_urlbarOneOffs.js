@@ -12,8 +12,8 @@ gMaxResults
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -80,7 +80,7 @@ off
 let
 engine
 =
-yield
+await
 promiseNewSearchEngine
 (
 TEST_ENGINE_BASENAME
@@ -98,17 +98,17 @@ engine
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 hidePopup
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -118,7 +118,7 @@ clearHistory
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -208,7 +208,7 @@ TRANSITION_TYPED
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -253,8 +253,8 @@ textbox
 .
 add_task
 (
+async
 function
-*
 history
 (
 )
@@ -275,7 +275,7 @@ VK_DOWN
 {
 }
 )
-yield
+await
 promisePopupShown
 (
 gURLBar
@@ -766,7 +766,7 @@ assertState
 "
 )
 ;
-yield
+await
 hidePopup
 (
 )
@@ -808,8 +808,8 @@ textbox
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -848,7 +848,7 @@ typedValue
 browser_urlbarOneOffs
 "
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 typedValue
@@ -1263,7 +1263,7 @@ assertState
 typedValue
 )
 ;
-yield
+await
 hidePopup
 (
 )
@@ -1306,8 +1306,8 @@ selected
 .
 add_task
 (
+async
 function
-*
 searchWith
 (
 )
@@ -1319,7 +1319,7 @@ typedValue
 foo
 "
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 typedValue
@@ -1503,7 +1503,7 @@ updated
 "
 )
 ;
-yield
+await
 hidePopup
 (
 )
@@ -1521,8 +1521,8 @@ off
 .
 add_task
 (
+async
 function
-*
 oneOffClick
 (
 )
@@ -1577,7 +1577,7 @@ foo
 bar
 "
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 typedValue
@@ -1642,7 +1642,7 @@ oneOffs
 }
 )
 ;
-yield
+await
 resultsPromise
 ;
 gBrowser
@@ -1673,8 +1673,8 @@ selected
 .
 add_task
 (
+async
 function
-*
 oneOffReturn
 (
 )
@@ -1729,7 +1729,7 @@ foo
 bar
 "
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 typedValue
@@ -1813,7 +1813,7 @@ VK_RETURN
 {
 }
 )
-yield
+await
 resultsPromise
 ;
 gBrowser
@@ -1905,8 +1905,8 @@ textValue
 ;
 }
 }
+async
 function
-*
 hidePopup
 (
 )
@@ -1922,7 +1922,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

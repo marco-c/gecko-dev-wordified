@@ -29,8 +29,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -45,7 +45,7 @@ and
 hide
 it
 .
-yield
+await
 setLinks
 (
 "
@@ -67,8 +67,7 @@ setPinnedLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -80,13 +79,12 @@ gBrowser
 .
 selectedTab
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -116,7 +114,7 @@ enabled
 =
 false
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -125,8 +123,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

@@ -236,8 +236,8 @@ frames
 /
 add_task
 (
+async
 function
-*
 test_scroll
 (
 )
@@ -259,7 +259,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -272,7 +272,7 @@ down
 a
 little
 .
-yield
+await
 sendMessage
 (
 browser
@@ -293,7 +293,7 @@ SCROLL_Y
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -339,7 +339,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -348,7 +348,7 @@ tab2
 let
 scroll
 =
-yield
+await
 sendMessage
 (
 browser2
@@ -408,13 +408,13 @@ reload
 (
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser2
 )
 ;
-yield
+await
 checkScroll
 (
 tab2
@@ -454,13 +454,13 @@ nsIWebNavigation
 LOAD_FLAGS_BYPASS_CACHE
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser2
 )
 ;
-yield
+await
 checkScroll
 (
 tab2
@@ -524,7 +524,7 @@ default
 scroll
 position
 .
-yield
+await
 sendMessage
 (
 browser
@@ -545,7 +545,7 @@ y
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -561,13 +561,13 @@ stored
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 tab
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2
@@ -604,8 +604,8 @@ framesets
 /
 add_task
 (
+async
 function
-*
 test_scroll_nested
 (
 )
@@ -627,7 +627,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -644,7 +644,7 @@ down
 a
 little
 .
-yield
+await
 sendMessage
 (
 browser
@@ -668,7 +668,7 @@ frame
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -701,7 +701,7 @@ down
 a
 little
 .
-yield
+await
 sendMessage
 (
 browser
@@ -725,7 +725,7 @@ frame
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -782,7 +782,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -791,7 +791,7 @@ tab2
 let
 scroll
 =
-yield
+await
 sendMessage
 (
 browser2
@@ -844,7 +844,7 @@ correctly
 ;
 scroll
 =
-yield
+await
 sendMessage
 (
 browser2
@@ -915,7 +915,7 @@ the
 serialized
 value
 .
-yield
+await
 sendMessage
 (
 browser
@@ -939,7 +939,7 @@ frame
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -977,7 +977,7 @@ the
 stored
 value
 .
-yield
+await
 sendMessage
 (
 browser
@@ -1001,7 +1001,7 @@ frame
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -1017,13 +1017,13 @@ stored
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 tab
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2
@@ -1080,8 +1080,8 @@ bug
 /
 add_task
 (
+async
 function
-*
 test_scroll_background_tabs
 (
 )
@@ -1103,7 +1103,7 @@ true
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1129,7 +1129,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1144,7 +1144,7 @@ down
 a
 little
 .
-yield
+await
 sendMessage
 (
 browser
@@ -1165,7 +1165,7 @@ SCROLL_Y
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -1204,7 +1204,7 @@ loadURI
 URL2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1219,7 +1219,7 @@ down
 a
 little
 .
-yield
+await
 sendMessage
 (
 browser
@@ -1240,7 +1240,7 @@ SCROLL2_Y
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -1264,7 +1264,7 @@ fine
 Close
 the
 window
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1272,7 +1272,7 @@ closeWindow
 newWin
 )
 ;
-yield
+await
 forceSaveState
 (
 )
@@ -1305,7 +1305,7 @@ to
 be
 restored
 .
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -1397,7 +1397,7 @@ in
 the
 child
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1433,13 +1433,13 @@ selectedTab
 =
 tab
 ;
-yield
+await
 promiseTabRestored
 (
 tab
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -1496,7 +1496,7 @@ goBack
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1504,7 +1504,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1512,7 +1512,7 @@ flush
 browser
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -1532,7 +1532,7 @@ back
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

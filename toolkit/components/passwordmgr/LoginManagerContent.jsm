@@ -2534,7 +2534,6 @@ new
 DeferredTask
 (
 function
-*
 deferredInputProcessing
 (
 )

@@ -261,13 +261,13 @@ play
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -313,8 +313,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 block_not_in_tree_media
 (
 )
@@ -356,7 +356,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -379,7 +379,7 @@ blocked
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -400,7 +400,7 @@ state
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -428,7 +428,7 @@ state
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -450,7 +450,7 @@ audio
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -474,7 +474,7 @@ blocked
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -491,7 +491,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -514,7 +514,7 @@ resumed
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -533,7 +533,7 @@ audible
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -550,7 +550,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

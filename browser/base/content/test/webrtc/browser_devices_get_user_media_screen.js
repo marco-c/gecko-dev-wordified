@@ -118,8 +118,8 @@ only
 "
 run
 :
+async
 function
-*
 checkScreenOnly
 (
 )
@@ -136,7 +136,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -147,10 +147,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -595,7 +595,7 @@ visible
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -784,7 +784,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -810,7 +810,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -822,7 +822,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -839,7 +839,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -860,10 +860,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -875,7 +875,7 @@ Screen
 }
 )
 ;
-yield
+await
 closeStream
 (
 )
@@ -892,8 +892,8 @@ only
 "
 run
 :
+async
 function
-*
 checkWindowOnly
 (
 )
@@ -910,7 +910,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -921,10 +921,10 @@ window
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -1391,7 +1391,7 @@ hidden
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -1604,7 +1604,7 @@ hidden
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -1726,7 +1726,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -1752,7 +1752,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -1764,7 +1764,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -1781,7 +1781,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -1802,10 +1802,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -1817,7 +1817,7 @@ Window
 }
 )
 ;
-yield
+await
 closeStream
 (
 )
@@ -1834,8 +1834,8 @@ only
 "
 run
 :
+async
 function
-*
 checkAppOnly
 (
 )
@@ -1906,7 +1906,7 @@ promiseMessageReceived
 (
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -1920,7 +1920,7 @@ application
 let
 message
 =
-yield
+await
 Promise
 .
 race
@@ -1958,7 +1958,7 @@ running
 return
 ;
 }
-yield
+await
 expectObserverCalled
 (
 "
@@ -2410,7 +2410,7 @@ hidden
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -2486,7 +2486,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -2512,7 +2512,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -2524,7 +2524,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -2541,7 +2541,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -2562,10 +2562,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -2577,7 +2577,7 @@ Application
 }
 )
 ;
-yield
+await
 closeStream
 (
 )
@@ -2595,8 +2595,8 @@ screen
 "
 run
 :
+async
 function
-*
 checkAudioVideo
 (
 )
@@ -2662,7 +2662,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 true
@@ -2673,10 +2673,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -2870,7 +2870,7 @@ visible
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -2947,7 +2947,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -2973,7 +2973,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -2985,7 +2985,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3002,7 +3002,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -3028,10 +3028,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -3046,7 +3046,7 @@ Screen
 }
 )
 ;
-yield
+await
 closeStream
 (
 )
@@ -3070,8 +3070,8 @@ denies
 "
 run
 :
+async
 function
-*
 checkClickThroughDenies
 (
 )
@@ -3088,7 +3088,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -3099,10 +3099,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3119,7 +3119,7 @@ false
 true
 )
 ;
-yield
+await
 promiseMessage
 (
 permissionError
@@ -3143,7 +3143,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3155,7 +3155,7 @@ deny
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3167,7 +3167,7 @@ ended
 "
 )
 ;
-yield
+await
 checkNotSharing
 (
 )
@@ -3219,8 +3219,8 @@ Allow
 "
 run
 :
+async
 function
-*
 checkDontShare
 (
 )
@@ -3237,7 +3237,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -3248,10 +3248,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3268,7 +3268,7 @@ false
 true
 )
 ;
-yield
+await
 promiseMessage
 (
 permissionError
@@ -3285,7 +3285,7 @@ kActionDeny
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3297,7 +3297,7 @@ deny
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3309,7 +3309,7 @@ ended
 "
 )
 ;
-yield
+await
 checkNotSharing
 (
 )
@@ -3413,8 +3413,8 @@ timeout
 return
 ;
 }
+async
 function
-*
 share
 (
 audio
@@ -3434,7 +3434,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 audio
@@ -3453,10 +3453,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3501,7 +3501,7 @@ doCommand
 )
 ;
 }
-yield
+await
 promiseMessage
 (
 "
@@ -3527,7 +3527,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3539,7 +3539,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3886,8 +3886,8 @@ UI
 "
 run
 :
+async
 function
-*
 checkReloading
 (
 )
@@ -3904,7 +3904,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -3915,10 +3915,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -3964,7 +3964,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -3990,7 +3990,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4002,7 +4002,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4019,7 +4019,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -4040,10 +4040,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -4055,7 +4055,7 @@ Screen
 }
 )
 ;
-yield
+await
 reloadAndAssertClosedStreams
 (
 )
@@ -4074,8 +4074,8 @@ icon
 "
 run
 :
+async
 function
-*
 checkShowControlCenter
 (
 )
@@ -4092,7 +4092,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -4103,10 +4103,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4152,7 +4152,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -4178,7 +4178,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4190,7 +4190,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4207,7 +4207,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -4228,10 +4228,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -4333,7 +4333,7 @@ elt
 win
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -4374,12 +4374,12 @@ hidden
 =
 true
 ;
-yield
+await
 expectNoObserverCalled
 (
 )
 ;
-yield
+await
 closeStream
 (
 )
@@ -4401,8 +4401,8 @@ sharing
 "
 run
 :
+async
 function
-*
 checkPersistentPermissions
 (
 )
@@ -4464,7 +4464,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -4475,10 +4475,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4664,7 +4664,7 @@ persistent
 block
 permission
 .
-yield
+await
 promiseMessage
 (
 permissionError
@@ -4681,7 +4681,7 @@ kActionDeny
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4693,7 +4693,7 @@ deny
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4705,7 +4705,7 @@ ended
 "
 )
 ;
-yield
+await
 checkNotSharing
 (
 )
@@ -4774,7 +4774,7 @@ promiseMessage
 permissionError
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -4785,10 +4785,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4853,7 +4853,7 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
@@ -4864,10 +4864,10 @@ screen
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4959,7 +4959,7 @@ cleanup
 .
 .
 .
-yield
+await
 promiseMessage
 (
 permissionError
@@ -4976,7 +4976,7 @@ kActionDeny
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -4988,7 +4988,7 @@ deny
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "

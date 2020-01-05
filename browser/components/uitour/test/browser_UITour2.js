@@ -723,8 +723,8 @@ reportError
 }
 taskify
 (
+async
 function
-*
 test_bookmarks_menu
 (
 )
@@ -769,7 +769,7 @@ bookmarks
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (
@@ -804,7 +804,7 @@ bookmarks
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (

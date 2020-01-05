@@ -1446,13 +1446,13 @@ redirect_perm
 /
 add_task
 (
+async
 function
-*
 test_add_visits_to_database
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2264,7 +2264,7 @@ in
 the
 database
 .
-yield
+await
 task_populateDB
 (
 visits
@@ -2275,8 +2275,8 @@ visits
 ;
 add_task
 (
+async
 function
-*
 test_redirects
 (
 )
@@ -2293,7 +2293,7 @@ wait
 for
 them
 .
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2403,7 +2403,7 @@ sorting_options
 check_results_callback
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2412,7 +2412,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

@@ -61,8 +61,8 @@ sessionstore
 /
 add_task
 (
+async
 function
-*
 test_prevent_file_stealing
 (
 )
@@ -95,7 +95,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -167,7 +167,7 @@ in
 form
 values
 .
-yield
+await
 setInputValue
 (
 browser
@@ -190,7 +190,7 @@ secret2
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -231,7 +231,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -240,7 +240,7 @@ tab2
 let
 thief
 =
-yield
+await
 getInputValue
 (
 browser2
@@ -275,7 +275,7 @@ value
 let
 reverse_thief
 =
-yield
+await
 getInputValue
 (
 browser2
@@ -311,7 +311,7 @@ path
 let
 bystander
 =
-yield
+await
 getInputValue
 (
 browser2

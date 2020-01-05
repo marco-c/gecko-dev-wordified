@@ -53,8 +53,8 @@ window
 /
 add_task
 (
+async
 function
-*
 test_close_last_nonpopup_window
 (
 )
@@ -149,7 +149,7 @@ tab
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -182,7 +182,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -244,7 +244,7 @@ closed
 window
 count
 .
-yield
+await
 BrowserTestUtils
 .
 closeWindow

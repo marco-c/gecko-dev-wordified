@@ -130,8 +130,8 @@ sort
 ;
 add_task
 (
+async
 function
-*
 testSettingsProperties
 (
 )
@@ -209,7 +209,7 @@ browsingData
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -228,7 +228,7 @@ settings
 let
 settings
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -460,7 +460,7 @@ settings
 ;
 settings
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -511,7 +511,7 @@ settings
 ;
 settings
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -543,7 +543,7 @@ false
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -555,8 +555,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testSettingsSince
 (
 )
@@ -695,7 +695,7 @@ browsingData
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -750,7 +750,7 @@ settings
 let
 settings
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -821,7 +821,7 @@ value
 )
 ;
 }
-yield
+await
 extension
 .
 unload

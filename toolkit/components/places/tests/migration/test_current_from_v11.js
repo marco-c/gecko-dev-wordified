@@ -29,13 +29,13 @@ zero
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -50,8 +50,8 @@ sqlite
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -75,7 +75,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -87,7 +87,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -102,8 +102,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_moz_hosts
 (
 )
@@ -111,7 +111,7 @@ test_moz_hosts
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -130,7 +130,7 @@ does
 not
 exist
 .
-yield
+await
 db
 .
 execute
@@ -158,7 +158,7 @@ need
 to
 wait
 .
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -187,7 +187,7 @@ moz_places
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -297,8 +297,8 @@ entries
 ;
 add_task
 (
+async
 function
-*
 test_journal
 (
 )
@@ -306,7 +306,7 @@ test_journal
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -316,7 +316,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute

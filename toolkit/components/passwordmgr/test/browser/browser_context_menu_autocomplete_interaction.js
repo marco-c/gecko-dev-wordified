@@ -70,8 +70,8 @@ fill
 /
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -170,13 +170,13 @@ autocompleteUnexpectedPopupShowing
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_username
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -252,13 +252,13 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_password
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -384,8 +384,8 @@ element
 .
 *
 /
+async
 function
-*
 openContextMenu
 (
 browser
@@ -428,7 +428,7 @@ button
 2
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -477,7 +477,7 @@ button
 2
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -487,7 +487,7 @@ eventDetails
 browser
 )
 ;
-yield
+await
 contextMenuShownPromise
 ;
 /
@@ -500,7 +500,7 @@ popups
 are
 shown
 .
-yield
+await
 new
 Promise
 (

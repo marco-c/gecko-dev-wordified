@@ -295,8 +295,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -313,7 +313,7 @@ startAddonManagerOnly
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testSetup
@@ -817,8 +817,8 @@ buildId
 }
 add_task
 (
+async
 function
-*
 test_simpleFields
 (
 )
@@ -1903,7 +1903,7 @@ reason
 =
 null
 ;
-yield
+await
 applicableFromManifestData
 (
 entry
@@ -2044,8 +2044,8 @@ expectedReason
 ;
 add_task
 (
+async
 function
-*
 test_times
 (
 )
@@ -2509,7 +2509,7 @@ entry
 ]
 )
 ;
-yield
+await
 applicableFromManifestData
 (
 entry
@@ -2625,13 +2625,13 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_shutdown
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testShutdown

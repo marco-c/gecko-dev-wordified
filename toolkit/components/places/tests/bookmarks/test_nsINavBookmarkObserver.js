@@ -618,8 +618,8 @@ gBookmarkSkipObserver
 ;
 add_task
 (
+async
 function
-*
 batch
 (
 )
@@ -697,7 +697,7 @@ Nothing
 null
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -705,8 +705,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemAdded_bookmark
 (
 )
@@ -1033,7 +1033,7 @@ DEFAULT_INDEX
 TITLE
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -1041,8 +1041,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemAdded_separator
 (
 )
@@ -1330,7 +1330,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -1338,8 +1338,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemAdded_folder
 (
 )
@@ -1636,7 +1636,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -1644,8 +1644,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemChanged_title_bookmark
 (
 )
@@ -1984,7 +1984,7 @@ id
 TITLE
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -1992,8 +1992,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemChanged_tags_bookmark
 (
 )
@@ -3543,7 +3543,7 @@ TAG
 ]
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -3551,8 +3551,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemMoved_bookmark
 (
 )
@@ -4117,7 +4117,7 @@ unfiledBookmarksFolderId
 0
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -4125,8 +4125,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemMoved_bookmark
 (
 )
@@ -4410,7 +4410,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -4418,8 +4418,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemRemoved_bookmark
 (
 )
@@ -4968,7 +4968,7 @@ removeItem
 id
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -4976,8 +4976,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemRemoved_separator
 (
 )
@@ -5520,7 +5520,7 @@ removeItem
 id
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -5528,8 +5528,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemRemoved_folder
 (
 )
@@ -6072,7 +6072,7 @@ removeItem
 id
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -6080,8 +6080,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 onItemRemoved_folder_recursive
 (
 )
@@ -8357,7 +8357,7 @@ removeItem
 folder
 )
 ;
-yield
+await
 promise
 ;
 }

@@ -106,13 +106,13 @@ be
 working
 add_task
 (
+async
 function
-*
 test_working
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -152,7 +152,7 @@ xpi
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -208,8 +208,8 @@ be
 broken
 add_task
 (
+async
 function
-*
 test_broken
 (
 )
@@ -253,7 +253,7 @@ xpi
 let
 installs
 =
-yield
+await
 Promise
 .
 all

@@ -115,8 +115,8 @@ task_clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_indicatorDrop
 (
 )
@@ -442,7 +442,7 @@ didn
 t
 finish
 .
-yield
+await
 task_resetState
 (
 )
@@ -458,7 +458,7 @@ startServer
 let
 win
 =
-yield
+await
 openLibrary
 (
 "
@@ -481,7 +481,7 @@ close
 }
 )
 ;
-yield
+await
 drop
 (
 win
@@ -497,7 +497,7 @@ txt
 ]
 )
 ;
-yield
+await
 drop
 (
 win

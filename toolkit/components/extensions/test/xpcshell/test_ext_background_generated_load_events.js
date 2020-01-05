@@ -62,8 +62,8 @@ listeners
 /
 add_task
 (
+async
 function
-*
 test_DOMContentLoaded_in_generated_background_page
 (
 )
@@ -125,7 +125,7 @@ reportListener
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -137,7 +137,7 @@ equal
 "
 DOMContentLoaded
 "
-yield
+await
 extension
 .
 awaitMessage
@@ -153,7 +153,7 @@ equal
 "
 load
 "
-yield
+await
 extension
 .
 awaitMessage
@@ -164,7 +164,7 @@ eventname
 )
 )
 ;
-yield
+await
 extension
 .
 unload

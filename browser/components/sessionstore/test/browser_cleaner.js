@@ -100,26 +100,6 @@ jsm
 this
 )
 ;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-this
-)
-;
 const
 LONG_TIME_AGO
 =
@@ -281,8 +261,8 @@ CLOSED_STATE
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -317,8 +297,8 @@ window
 ;
 add_task
 (
+async
 function
-*
 test_open_and_close
 (
 )
@@ -333,7 +313,7 @@ addTab
 URL_TAB1
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 newTab1
@@ -351,7 +331,7 @@ addTab
 URL_TAB2
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 newTab2
@@ -362,7 +342,7 @@ linkedBrowser
 let
 newWin
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -379,7 +359,7 @@ addTab
 URL_NEWWIN
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -387,7 +367,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flushWindow
@@ -395,7 +375,7 @@ flushWindow
 window
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flushWindow
@@ -588,7 +568,7 @@ this
 should
 add
 closeAt
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -596,13 +576,13 @@ closeWindow
 newWin
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 newTab1
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 newTab2
@@ -737,8 +717,8 @@ recently
 ;
 add_task
 (
+async
 function
-*
 test_restore
 (
 )
@@ -762,7 +742,7 @@ closedAt
 "
 )
 ;
-yield
+await
 promiseBrowserState
 (
 CLOSED_STATE
@@ -778,7 +758,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 promiseDelayedStartupFinished
 (
 newWin
@@ -795,7 +775,7 @@ window
 0
 )
 ;
-yield
+await
 promiseTabRestored
 (
 newTab2
@@ -812,7 +792,7 @@ window
 0
 )
 ;
-yield
+await
 promiseTabRestored
 (
 newTab1
@@ -950,7 +930,7 @@ closedAt
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -977,8 +957,8 @@ newTab2
 ;
 add_task
 (
+async
 function
-*
 test_old_data
 (
 )
@@ -1053,7 +1033,7 @@ _closedTabs
 .
 closedAt
 ;
-yield
+await
 promiseBrowserState
 (
 state
@@ -1215,7 +1195,7 @@ recently
 "
 )
 ;
-yield
+await
 promiseCleanup
 (
 )
@@ -1225,8 +1205,8 @@ promiseCleanup
 ;
 add_task
 (
+async
 function
-*
 test_cleanup
 (
 )
@@ -1252,7 +1232,7 @@ eventually
 "
 )
 ;
-yield
+await
 promiseCleanup
 (
 )
@@ -1335,7 +1315,7 @@ entries
 .
 url
 ;
-yield
+await
 promiseBrowserState
 (
 state
@@ -1466,7 +1446,7 @@ here
 "
 )
 ;
-yield
+await
 promiseCleanup
 (
 )

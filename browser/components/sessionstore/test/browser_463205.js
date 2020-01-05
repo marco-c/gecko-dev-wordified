@@ -87,8 +87,8 @@ pages
 /
 add_task
 (
+async
 function
-*
 test_check_urls_before_restoring
 (
 )
@@ -121,7 +121,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -137,7 +137,7 @@ a
 valid
 URL
 .
-yield
+await
 promiseTabState
 (
 tab
@@ -150,7 +150,7 @@ URL
 let
 value
 =
-yield
+await
 getInputValue
 (
 browser
@@ -186,7 +186,7 @@ an
 invalid
 URL
 .
-yield
+await
 promiseTabState
 (
 tab
@@ -207,7 +207,7 @@ com
 ;
 value
 =
-yield
+await
 getInputValue
 (
 browser

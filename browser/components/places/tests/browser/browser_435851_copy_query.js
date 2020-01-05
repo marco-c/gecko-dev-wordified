@@ -82,8 +82,8 @@ maxResults
 ;
 add_task
 (
+async
 function
-*
 copy_toolbar_shortcut
 (
 )
@@ -91,7 +91,7 @@ copy_toolbar_shortcut
 let
 library
 =
-yield
+await
 promiseLibrary
 (
 )
@@ -133,7 +133,7 @@ BookmarksToolbar
 "
 )
 ;
-yield
+await
 promiseClipboard
 (
 function
@@ -270,8 +270,8 @@ shortcut
 ;
 add_task
 (
+async
 function
-*
 copy_history_query
 (
 )
@@ -279,7 +279,7 @@ copy_history_query
 let
 library
 =
-yield
+await
 promiseLibrary
 (
 )
@@ -295,7 +295,7 @@ History
 "
 )
 ;
-yield
+await
 promiseClipboard
 (
 function

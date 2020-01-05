@@ -2134,8 +2134,8 @@ tc
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2396,7 +2396,7 @@ correctly
 "
 )
 ;
-yield
+await
 Promise
 .
 all

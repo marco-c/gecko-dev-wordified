@@ -614,7 +614,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -656,7 +656,7 @@ checkbox
 "
 )
 ;
-yield
+await
 promiseElementVisible
 (
 checkbox
@@ -810,7 +810,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -852,7 +852,7 @@ checkbox
 "
 )
 ;
-yield
+await
 promiseElementVisible
 (
 checkbox
@@ -987,7 +987,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -1029,7 +1029,7 @@ checkbox
 "
 )
 ;
-yield
+await
 promiseElementVisible
 (
 checkbox
@@ -1360,7 +1360,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -1440,7 +1440,7 @@ notification
 disabled
 )
 ;
-yield
+await
 promiseElementVisible
 (
 checkbox

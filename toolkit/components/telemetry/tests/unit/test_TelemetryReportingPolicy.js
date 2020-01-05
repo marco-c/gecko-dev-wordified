@@ -510,8 +510,8 @@ aNewPolicyVersion
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -570,7 +570,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -623,8 +623,8 @@ setup
 ;
 add_task
 (
+async
 function
-*
 test_firstRun
 (
 )
@@ -799,8 +799,8 @@ runs
 ;
 add_task
 (
+async
 function
-*
 test_prefs
 (
 )
@@ -1399,8 +1399,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 test_migratePrefs
 (
 )
@@ -1550,8 +1550,8 @@ removed
 ;
 add_task
 (
+async
 function
-*
 test_userNotifiedOfCurrentPolicy
 (
 )
@@ -1819,8 +1819,8 @@ fail
 ;
 add_task
 (
+async
 function
-*
 test_canSend
 (
 )
@@ -1859,7 +1859,7 @@ PingServer
 port
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1944,7 +1944,7 @@ now
 )
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -1991,7 +1991,7 @@ testInfobarShown
 let
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -2053,7 +2053,7 @@ it
 gets
 sent
 .
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2075,7 +2075,7 @@ type
 .
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -2135,7 +2135,7 @@ a
 pending
 ping
 .
-yield
+await
 TelemetryController
 .
 addPendingPing
@@ -2145,7 +2145,7 @@ TEST_PING_TYPE
 }
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -2165,7 +2165,7 @@ out
 .
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -2227,7 +2227,7 @@ it
 gets
 sent
 .
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2249,7 +2249,7 @@ type
 .
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -2299,7 +2299,7 @@ ping
 "
 )
 ;
-yield
+await
 PingServer
 .
 stop

@@ -64,8 +64,8 @@ nline
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -85,7 +85,7 @@ mimetype
 let
 win
 =
-yield
+await
 loadViewSourceWindow
 (
 "
@@ -102,13 +102,13 @@ content
 )
 )
 ;
-yield
+await
 checkViewSource
 (
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -118,7 +118,7 @@ win
 ;
 win
 =
-yield
+await
 loadViewSourceWindow
 (
 "
@@ -135,13 +135,13 @@ content
 )
 )
 ;
-yield
+await
 checkViewSource
 (
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -155,12 +155,8 @@ win
 var
 checkViewSource
 =
-Task
-.
 async
-(
 function
-*
 (
 aWindow
 )
@@ -248,7 +244,7 @@ goToLine
 i
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -257,8 +253,8 @@ aWindow
 .
 gBrowser
 i
+async
 function
-*
 (
 i
 )
@@ -296,7 +292,7 @@ selected
 }
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -341,5 +337,4 @@ text
 ;
 }
 }
-)
 ;

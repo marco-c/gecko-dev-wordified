@@ -64,8 +64,8 @@ user
 /
 add_task
 (
+async
 function
-*
 test_formdata
 (
 )
@@ -150,8 +150,8 @@ closes
 the
 tab
 .
+async
 function
-*
 createAndRemoveTab
 (
 )
@@ -180,7 +180,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -192,7 +192,7 @@ Modify
 form
 data
 .
-yield
+await
 setInputValue
 (
 browser
@@ -208,7 +208,7 @@ OUTER_VALUE
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -233,15 +233,14 @@ Remove
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab
 )
 ;
 }
-yield
-*
+await
 createAndRemoveTab
 (
 )
@@ -331,8 +330,7 @@ privacy_level
 1
 )
 ;
-yield
-*
+await
 createAndRemoveTab
 (
 )
@@ -417,8 +415,7 @@ privacy_level
 2
 )
 ;
-yield
-*
+await
 createAndRemoveTab
 (
 )
@@ -529,8 +526,8 @@ so
 /
 add_task
 (
+async
 function
-*
 test_url_check
 (
 )
@@ -603,7 +600,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -709,7 +706,7 @@ URL
 is
 (
 (
-yield
+await
 restoreStateWithURL
 (
 URL
@@ -743,7 +740,7 @@ URL
 is
 (
 (
-yield
+await
 restoreStateWithURL
 (
 URL
@@ -766,7 +763,7 @@ restored
 is
 (
 (
-yield
+await
 restoreStateWithURL
 (
 )
@@ -820,8 +817,8 @@ sets
 /
 add_task
 (
+async
 function
-*
 test_nested
 (
 )
@@ -964,7 +961,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -980,7 +977,7 @@ field
 s
 value
 .
-yield
+await
 sendMessage
 (
 browser
@@ -1017,7 +1014,7 @@ form
 data
 correctly
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1092,7 +1089,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -1110,7 +1107,7 @@ the
 right
 value
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1199,8 +1196,8 @@ expected
 /
 add_task
 (
+async
 function
-*
 test_design_mode
 (
 )
@@ -1278,7 +1275,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1291,7 +1288,7 @@ the
 document
 content
 .
-yield
+await
 sendMessage
 (
 browser
@@ -1319,7 +1316,7 @@ restore
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1341,7 +1338,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -1360,7 +1357,7 @@ restored
 let
 html
 =
-yield
+await
 getInnerHTML
 (
 browser
@@ -1416,7 +1413,7 @@ restore
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1438,7 +1435,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -1456,7 +1453,7 @@ restored
 .
 html
 =
-yield
+await
 getInnerHTML
 (
 browser

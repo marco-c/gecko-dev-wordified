@@ -34,8 +34,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -338,7 +338,7 @@ userContextId
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -361,7 +361,7 @@ about
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

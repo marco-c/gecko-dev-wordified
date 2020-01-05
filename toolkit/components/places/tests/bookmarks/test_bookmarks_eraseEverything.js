@@ -30,13 +30,13 @@ zero
 /
 add_task
 (
+async
 function
-*
 test_eraseEverything
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -62,7 +62,7 @@ com
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -143,7 +143,7 @@ frecencyForMozilla
 let
 unfiledFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -176,7 +176,7 @@ unfiledFolder
 let
 unfiledBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -221,7 +221,7 @@ unfiledBookmark
 let
 unfiledBookmarkInFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -268,7 +268,7 @@ annotations
 setItemAnnotation
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -291,7 +291,7 @@ testvalue1
 let
 menuFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -324,7 +324,7 @@ menuFolder
 let
 menuBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -369,7 +369,7 @@ menuBookmark
 let
 menuBookmarkInFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -416,7 +416,7 @@ annotations
 setItemAnnotation
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -439,7 +439,7 @@ testvalue1
 let
 toolbarFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -472,7 +472,7 @@ toolbarFolder
 let
 toolbarBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -517,7 +517,7 @@ toolbarBookmark
 let
 toolbarBookmarkInFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -564,7 +564,7 @@ annotations
 setItemAnnotation
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -584,7 +584,7 @@ testvalue1
 0
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -633,7 +633,7 @@ com
 frecencyForMozilla
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -694,7 +694,7 @@ annotations
 let
 conn
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -704,7 +704,7 @@ promiseDBConnection
 let
 annoAttrs
 =
-yield
+await
 conn
 .
 execute
@@ -761,7 +761,7 @@ MOBILE_ROOT_ANNO
 let
 annos
 =
-yield
+await
 conn
 .
 execute
@@ -836,13 +836,13 @@ id
 ;
 add_task
 (
+async
 function
-*
 test_eraseEverything_roots
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -865,7 +865,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -884,7 +884,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -903,7 +903,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -922,7 +922,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -941,7 +941,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -961,8 +961,8 @@ rootGuid
 ;
 add_task
 (
+async
 function
-*
 test_eraseEverything_reparented
 (
 )
@@ -983,7 +983,7 @@ it
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1011,7 +1011,7 @@ TYPE_FOLDER
 let
 bookmark1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1052,7 +1052,7 @@ folder
 let
 folder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1095,7 +1095,7 @@ folder2
 .
 guid
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1110,7 +1110,7 @@ bookmark1
 Erase
 everything
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1152,7 +1152,7 @@ guid
 ]
 )
 {
-yield
+await
 Assert
 .
 rejects

@@ -430,19 +430,16 @@ aSchemaVersion
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 connection
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -454,7 +451,7 @@ aPath
 }
 )
 ;
-yield
+await
 connection
 .
 execute
@@ -572,7 +569,7 @@ TEXT
 "
 )
 ;
-yield
+await
 connection
 .
 setSchemaVersion
@@ -584,6 +581,8 @@ return
 connection
 ;
 }
+)
+(
 )
 ;
 }
@@ -1669,12 +1668,9 @@ aDownloadRow
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -1762,7 +1758,7 @@ aDownload
 succeeded
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 aDownload
@@ -1981,7 +1977,7 @@ target
 .
 partFilePath
 ;
-yield
+await
 promiseVerifyContents
 (
 fileToCheck
@@ -2030,6 +2026,8 @@ saveToDisk
 ;
 }
 )
+(
+)
 ;
 }
 /
@@ -2065,8 +2063,8 @@ procedure
 /
 add_task
 (
+async
 function
-*
 prepareDownloadsToImport
 (
 )
@@ -2086,7 +2084,7 @@ txt
 let
 sourceEntityId
 =
-yield
+await
 promiseEntityID
 (
 sourceUrl
@@ -2170,7 +2168,7 @@ txt
 )
 tempPath
 :
-yield
+await
 getPartialFile
 (
 "
@@ -2369,7 +2367,7 @@ txt
 )
 tempPath
 :
-yield
+await
 getPartialFile
 (
 "
@@ -2473,7 +2471,7 @@ txt
 )
 tempPath
 :
-yield
+await
 getPartialFile
 (
 "
@@ -3036,7 +3034,7 @@ txt
 )
 tempPath
 :
-yield
+await
 getPartialFile
 (
 "
@@ -3150,8 +3148,8 @@ procedure
 /
 add_task
 (
+async
 function
-*
 prepareNonImportableDownloads
 (
 )
@@ -3685,8 +3683,8 @@ correctly
 /
 add_task
 (
+async
 function
-*
 test_downloadImport
 (
 )
@@ -3721,7 +3719,7 @@ database
 .
 connection
 =
-yield
+await
 promiseEmptyDatabaseConnection
 (
 {
@@ -3757,7 +3755,7 @@ of
 gDownloadsRowToImport
 )
 {
-yield
+await
 promiseInsertRow
 (
 connection
@@ -3773,7 +3771,7 @@ of
 gDownloadsRowNonImportable
 )
 {
-yield
+await
 promiseInsertRow
 (
 connection
@@ -3793,7 +3791,7 @@ inserted
 do_check_eq
 (
 (
-yield
+await
 promiseTableCount
 (
 connection
@@ -3823,7 +3821,7 @@ can
 open
 it
 .
-yield
+await
 connection
 .
 close
@@ -3839,13 +3837,13 @@ items
 let
 list
 =
-yield
+await
 promiseNewList
 (
 false
 )
 ;
-yield
+await
 new
 DownloadImport
 (
@@ -3860,7 +3858,7 @@ import
 let
 items
 =
-yield
+await
 list
 .
 getAll
@@ -3895,7 +3893,7 @@ i
 +
 )
 {
-yield
+await
 checkDownload
 (
 items

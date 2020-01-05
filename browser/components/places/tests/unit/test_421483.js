@@ -176,8 +176,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 smart_bookmarks_disabled
 (
 )
@@ -199,7 +199,7 @@ smartBookmarksVersion
 1
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -267,8 +267,8 @@ smartBookmarksVersion
 ;
 add_task
 (
+async
 function
-*
 create_smart_bookmarks
 (
 )
@@ -289,7 +289,7 @@ smartBookmarksVersion
 0
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -356,8 +356,8 @@ smartBookmarksVersion
 ;
 add_task
 (
+async
 function
-*
 remove_smart_bookmark_and_restore
 (
 )
@@ -396,7 +396,7 @@ restore
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -407,7 +407,7 @@ smartBookmarkItemIds
 ]
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -433,7 +433,7 @@ smartBookmarksVersion
 0
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -499,8 +499,8 @@ smartBookmarksVersion
 ;
 add_task
 (
+async
 function
-*
 move_smart_bookmark_rename_and_restore
 (
 )
@@ -540,7 +540,7 @@ place
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -554,7 +554,7 @@ smartBookmarkItemIds
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -583,7 +583,7 @@ it
 let
 subfolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -627,7 +627,7 @@ move
 into
 new
 subfolder
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -676,7 +676,7 @@ smartBookmarksVersion
 0
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -704,7 +704,7 @@ smartBookmarksCount
 ;
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -717,7 +717,7 @@ smartBookmarkItemIds
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

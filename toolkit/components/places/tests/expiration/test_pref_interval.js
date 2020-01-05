@@ -226,8 +226,8 @@ expectedTimerDelay
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -312,7 +312,7 @@ let
 data
 ]
 =
-yield
+await
 promise
 ;
 Assert

@@ -17,8 +17,8 @@ engine
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -53,7 +53,7 @@ browser_bug970746
 xhtml
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -450,7 +450,7 @@ of
 tests
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -471,8 +471,8 @@ id
 :
 null
 }
+async
 function
-*
 (
 arg
 )
@@ -532,7 +532,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -559,7 +559,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -687,7 +687,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

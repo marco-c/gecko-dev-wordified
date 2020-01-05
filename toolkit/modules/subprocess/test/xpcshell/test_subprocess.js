@@ -35,25 +35,6 @@ gre
 /
 modules
 /
-Task
-.
-jsm
-"
-)
-;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 Timer
 .
 jsm
@@ -165,12 +146,8 @@ count
 let
 readAll
 =
-Task
-.
 async
-(
 function
-*
 (
 pipe
 )
@@ -189,7 +166,7 @@ while
 (
 string
 =
-yield
+await
 pipe
 .
 readString
@@ -216,19 +193,18 @@ join
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
 PYTHON
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -270,8 +246,8 @@ PYTHON
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_io
 (
 )
@@ -279,7 +255,7 @@ test_subprocess_io
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -589,7 +565,7 @@ proc
 stdout
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -608,7 +584,7 @@ let
 output
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -667,7 +643,7 @@ write
 LINE2
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -685,7 +661,7 @@ resolve
 output
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -750,7 +726,7 @@ n
 ;
 output
 =
-yield
+await
 proc
 .
 stdout
@@ -792,7 +768,7 @@ output
 "
 )
 ;
-yield
+await
 proc
 .
 stdin
@@ -806,7 +782,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -830,8 +806,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_large_io
 (
 )
@@ -839,7 +815,7 @@ test_subprocess_large_io
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1002,7 +978,7 @@ LINE
 let
 output
 =
-yield
+await
 read
 (
 proc
@@ -1024,7 +1000,7 @@ output
 ;
 output
 =
-yield
+await
 read
 (
 proc
@@ -1046,7 +1022,7 @@ output
 ;
 output
 =
-yield
+await
 read
 (
 proc
@@ -1079,7 +1055,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1103,8 +1079,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_huge
 (
 )
@@ -1112,7 +1088,7 @@ test_subprocess_huge
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1197,7 +1173,7 @@ msg
 let
 output
 =
-yield
+await
 read
 (
 proc
@@ -1230,7 +1206,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1254,8 +1230,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_round_trip_perf
 (
 )
@@ -1289,7 +1265,7 @@ i
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1365,7 +1341,7 @@ let
 output
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -1450,7 +1426,7 @@ now
 /
 COUNT
 ;
-yield
+await
 proc
 .
 stdin
@@ -1464,7 +1440,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1515,8 +1491,8 @@ ms
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_stderr_default
 (
 )
@@ -1554,7 +1530,7 @@ n
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1601,7 +1577,7 @@ default
 let
 stdout
 =
-yield
+await
 readAll
 (
 proc
@@ -1627,7 +1603,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1651,8 +1627,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_stderr_pipe
 (
 )
@@ -1690,7 +1666,7 @@ n
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1727,7 +1703,7 @@ stdout
 stderr
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -1779,7 +1755,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1803,8 +1779,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_stderr_merged
 (
 )
@@ -1842,7 +1818,7 @@ n
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -1894,7 +1870,7 @@ default
 let
 stdout
 =
-yield
+await
 readAll
 (
 proc
@@ -1923,7 +1899,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -1947,8 +1923,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_read_after_exit
 (
 )
@@ -1986,7 +1962,7 @@ n
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2022,7 +1998,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -2048,7 +2024,7 @@ stdout
 stderr
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -2100,8 +2076,8 @@ output
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_lazy_close_output
 (
 )
@@ -2109,7 +2085,7 @@ test_subprocess_lazy_close_output
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2199,7 +2175,7 @@ close
 let
 output1
 =
-yield
+await
 read
 (
 proc
@@ -2210,7 +2186,7 @@ stdout
 let
 output2
 =
-yield
+await
 read
 (
 proc
@@ -2218,7 +2194,7 @@ proc
 stdout
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2259,7 +2235,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -2283,8 +2259,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_lazy_close_input
 (
 )
@@ -2292,7 +2268,7 @@ test_subprocess_lazy_close_input
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2375,7 +2351,7 @@ close
 let
 len
 =
-yield
+await
 readPromise
 ;
 equal
@@ -2386,7 +2362,7 @@ LINE
 length
 )
 ;
-yield
+await
 closedPromise
 ;
 /
@@ -2435,7 +2411,7 @@ written
 the
 message
 .
-yield
+await
 proc
 .
 wait
@@ -2447,8 +2423,8 @@ wait
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_force_close
 (
 )
@@ -2456,7 +2432,7 @@ test_subprocess_force_close
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2503,7 +2479,7 @@ close
 true
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2557,10 +2533,10 @@ closed
 "
 )
 ;
-yield
+await
 closedPromise
 ;
-yield
+await
 proc
 .
 stdin
@@ -2574,7 +2550,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -2598,8 +2574,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_eof
 (
 )
@@ -2607,7 +2583,7 @@ test_subprocess_eof
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2642,7 +2618,7 @@ readUint32
 (
 )
 ;
-yield
+await
 proc
 .
 stdin
@@ -2651,7 +2627,7 @@ close
 (
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2708,7 +2684,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -2732,8 +2708,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_invalid_json
 (
 )
@@ -2741,7 +2717,7 @@ test_subprocess_invalid_json
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -2802,7 +2778,7 @@ close
 let
 count
 =
-yield
+await
 proc
 .
 stdout
@@ -2823,7 +2799,7 @@ readJSON
 count
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2877,7 +2853,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -2916,8 +2892,8 @@ win
 {
 add_task
 (
+async
 function
-*
 test_subprocess_inherited_descriptors
 (
 )
@@ -2992,7 +2968,7 @@ secAttr
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3122,7 +3098,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -3147,8 +3123,8 @@ code
 }
 add_task
 (
+async
 function
-*
 test_subprocess_wait
 (
 )
@@ -3156,7 +3132,7 @@ test_subprocess_wait
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3188,7 +3164,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -3212,8 +3188,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_pathSearch
 (
 )
@@ -3254,7 +3230,7 @@ PYTHON_DIR
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -3294,8 +3270,8 @@ executable
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_workdir
 (
 )
@@ -3303,7 +3279,7 @@ test_subprocess_workdir
 let
 procDir
 =
-yield
+await
 OS
 .
 File
@@ -3422,7 +3398,7 @@ pwdOutput
 let
 dir
 =
-yield
+await
 pwd
 (
 {
@@ -3447,7 +3423,7 @@ directory
 ;
 dir
 =
-yield
+await
 pwd
 (
 {
@@ -3476,7 +3452,7 @@ workdir
 ;
 dir
 =
-yield
+await
 OS
 .
 File
@@ -3509,8 +3485,8 @@ process
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_term
 (
 )
@@ -3518,7 +3494,7 @@ test_subprocess_term
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3597,7 +3573,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 kill
@@ -3621,7 +3597,7 @@ code
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -3646,8 +3622,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_kill
 (
 )
@@ -3655,7 +3631,7 @@ test_subprocess_kill
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3694,7 +3670,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 kill
@@ -3720,7 +3696,7 @@ code
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -3746,8 +3722,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_kill_timeout
 (
 )
@@ -3755,7 +3731,7 @@ test_subprocess_kill_timeout
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -3804,7 +3780,7 @@ ready
 let
 msg
 =
-yield
+await
 read
 (
 proc
@@ -3869,7 +3845,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 kill
@@ -3964,7 +3940,7 @@ code
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -3990,8 +3966,8 @@ code
 ;
 add_task
 (
+async
 function
-*
 test_subprocess_arguments
 (
 )
@@ -4082,7 +4058,7 @@ quotes
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -4128,7 +4104,7 @@ entries
 let
 val
 =
-yield
+await
 read
 (
 proc
@@ -4158,7 +4134,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -4215,8 +4191,8 @@ win
 {
 add_task
 (
+async
 function
-*
 test_subprocess_environment
 (
 )
@@ -4224,7 +4200,7 @@ test_subprocess_environment
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -4266,7 +4242,7 @@ BAR
 let
 path
 =
-yield
+await
 read
 (
 proc
@@ -4277,7 +4253,7 @@ stdout
 let
 foo
 =
-yield
+await
 read
 (
 proc
@@ -4317,7 +4293,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -4342,8 +4318,8 @@ code
 }
 add_task
 (
+async
 function
-*
 test_subprocess_environmentAppend
 (
 )
@@ -4351,7 +4327,7 @@ test_subprocess_environmentAppend
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -4396,7 +4372,7 @@ BAR
 let
 path
 =
-yield
+await
 read
 (
 proc
@@ -4407,7 +4383,7 @@ stdout
 let
 foo
 =
-yield
+await
 read
 (
 proc
@@ -4453,7 +4429,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -4474,7 +4450,7 @@ code
 ;
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -4509,7 +4485,7 @@ true
 ;
 path
 =
-yield
+await
 read
 (
 proc
@@ -4519,7 +4495,7 @@ stdout
 ;
 foo
 =
-yield
+await
 read
 (
 proc
@@ -4564,7 +4540,7 @@ value
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -4602,8 +4578,8 @@ win
 {
 add_task
 (
+async
 function
-*
 test_subprocess_nonASCII
 (
 )
@@ -4716,7 +4692,7 @@ charCodeAt
 let
 proc
 =
-yield
+await
 Subprocess
 .
 call
@@ -4746,7 +4722,7 @@ FOO
 let
 foo
 =
-yield
+await
 read
 (
 proc
@@ -4782,7 +4758,7 @@ let
 exitCode
 }
 =
-yield
+await
 proc
 .
 wait
@@ -4807,8 +4783,8 @@ code
 }
 add_task
 (
+async
 function
-*
 test_bad_executable
 (
 )
@@ -4855,7 +4831,7 @@ arguments
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -4948,7 +4924,7 @@ arguments
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -4988,8 +4964,8 @@ executable
 ;
 add_task
 (
+async
 function
-*
 test_cleanup
 (
 )
@@ -5034,7 +5010,7 @@ getWorker
 let
 openFiles
 =
-yield
+await
 worker
 .
 call
@@ -5049,7 +5025,7 @@ getOpenFiles
 let
 processes
 =
-yield
+await
 worker
 .
 call

@@ -256,7 +256,6 @@ installed
 blank
 :
 {
-*
 setup
 (
 )
@@ -333,7 +332,6 @@ installed
 withAppSet
 :
 {
-*
 setup
 (
 )
@@ -418,7 +416,6 @@ installed
 withProfileSet
 :
 {
-*
 setup
 (
 )
@@ -506,7 +503,6 @@ installed
 withBothSets
 :
 {
-*
 setup
 (
 )
@@ -1226,8 +1222,8 @@ xpi
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1241,7 +1237,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1251,8 +1247,8 @@ promiseShutdownManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1313,7 +1309,7 @@ TESTS
 testName
 ]
 ;
-yield
+await
 execSystemAddonTest
 (
 setupName

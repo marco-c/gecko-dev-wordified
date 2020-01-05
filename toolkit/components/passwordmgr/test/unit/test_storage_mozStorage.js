@@ -80,14 +80,14 @@ CURRENT_SCHEMA
 =
 6
 ;
+async
 function
-*
 copyFile
 (
 aLeafName
 )
 {
-yield
+await
 OS
 .
 File
@@ -539,8 +539,8 @@ DENY_ACTION
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -1146,8 +1146,7 @@ v999
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -1407,8 +1406,7 @@ a
 clean
 state
 .
-yield
-*
+await
 copyFile
 (
 "
@@ -1422,7 +1420,7 @@ sqlite
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1475,7 +1473,7 @@ corrupt
 .
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -1488,7 +1486,7 @@ origFile
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -1499,7 +1497,7 @@ failFile
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1551,8 +1549,7 @@ v2
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -1804,8 +1801,7 @@ properly
 /
 upgraded
 .
-yield
-*
+await
 copyFile
 (
 "
@@ -2127,8 +2123,7 @@ v3
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -2397,8 +2392,7 @@ properly
 /
 upgraded
 .
-yield
-*
+await
 copyFile
 (
 "
@@ -2731,8 +2725,7 @@ v4
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -2969,8 +2962,7 @@ v3
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -3237,8 +3229,7 @@ v4
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -3370,7 +3361,7 @@ v4
 storage
 "
 ;
-yield
+await
 copyFile
 (
 "
@@ -3499,8 +3490,7 @@ v6
 storage
 "
 ;
-yield
-*
+await
 copyFile
 (
 "
@@ -3951,7 +3941,7 @@ profileDir
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -4020,7 +4010,7 @@ file
 exists
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -4049,7 +4039,7 @@ been
 deleted
 do_check_false
 (
-yield
+await
 OS
 .
 File

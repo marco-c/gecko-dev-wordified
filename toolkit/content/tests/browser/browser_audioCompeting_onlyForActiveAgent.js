@@ -732,8 +732,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 audio_competing_for_active_agent
 (
 url
@@ -760,7 +760,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -789,7 +789,7 @@ suspened
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -844,7 +844,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -853,7 +853,7 @@ DOMAudioPlaybackStopped
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -870,7 +870,7 @@ pause
 check_all_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -894,7 +894,7 @@ page
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -904,7 +904,7 @@ null
 play_audio1_from_page
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -929,7 +929,7 @@ suspended
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -941,7 +941,7 @@ SUSPENDED_PAUSE_DISPOSABLE
 check_audio2_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -970,7 +970,7 @@ page
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -980,7 +980,7 @@ null
 stop_audio1_from_page
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1005,7 +1005,7 @@ suspended
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1017,7 +1017,7 @@ SUSPENDED_PAUSE_DISPOSABLE
 check_audio2_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1037,13 +1037,13 @@ check_audio2_pause_state
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1095,13 +1095,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_suspended_pause_disposable
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

@@ -566,12 +566,8 @@ i
 var
 showSidebarPopup
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -645,7 +641,6 @@ popupShownPromise
 )
 ;
 }
-)
 ;
 /
 /
@@ -659,8 +654,8 @@ default
 items
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -668,7 +663,7 @@ addWidget
 (
 )
 ;
-yield
+await
 showSidebarPopup
 (
 )
@@ -746,7 +741,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 subviewHiddenPromise
 ;
 removeWidget
@@ -766,8 +761,8 @@ teardown
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -784,7 +779,7 @@ addWidget
 (
 )
 ;
-yield
+await
 setup
 (
 )
@@ -805,7 +800,7 @@ bar
 "
 )
 ;
-yield
+await
 showSidebarPopup
 (
 )
@@ -902,10 +897,10 @@ displayed
 }
 )
 ;
-yield
+await
 subviewHiddenPromise
 ;
-yield
+await
 teardown
 (
 )
@@ -940,7 +935,6 @@ listener
 works
 "
 function
-*
 (
 )
 {
@@ -958,7 +952,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -990,7 +983,6 @@ listener
 works
 "
 function
-*
 (
 )
 {
@@ -1008,7 +1000,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1042,7 +1033,6 @@ listeners
 works
 "
 function
-*
 (
 )
 {
@@ -1072,7 +1062,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1106,7 +1095,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -1130,7 +1118,6 @@ true
 ;
 }
 function
-*
 (
 )
 {
@@ -1161,7 +1148,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -1185,7 +1171,6 @@ true
 ;
 }
 function
-*
 (
 )
 {
@@ -1218,7 +1203,6 @@ attributes
 works
 "
 function
-*
 (
 )
 {
@@ -1260,7 +1244,6 @@ true
 ;
 }
 function
-*
 (
 )
 {
@@ -1298,7 +1281,6 @@ listener
 works
 "
 function
-*
 (
 )
 {
@@ -1334,7 +1316,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1372,7 +1353,6 @@ listener
 works
 "
 function
-*
 (
 )
 {
@@ -1408,7 +1388,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1447,7 +1426,6 @@ event
 (
 "
 function
-*
 (
 )
 {
@@ -1483,7 +1461,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1519,7 +1496,6 @@ event
 (
 "
 function
-*
 (
 )
 {
@@ -1555,7 +1531,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -1589,7 +1564,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -1676,7 +1650,6 @@ testbroadcaster
 ;
 }
 function
-*
 (
 )
 {
@@ -1723,7 +1696,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -1810,7 +1782,6 @@ testbroadcaster
 ;
 }
 function
-*
 (
 )
 {
@@ -1859,7 +1830,6 @@ attributes
 works
 "
 function
-*
 (
 )
 {
@@ -1964,7 +1934,6 @@ testbroadcaster
 ;
 }
 function
-*
 (
 )
 {
@@ -2017,7 +1986,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -2116,7 +2084,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -2169,7 +2136,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -2268,7 +2234,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -2329,7 +2294,6 @@ event
 (
 "
 function
-*
 (
 )
 {
@@ -2428,7 +2392,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -2486,7 +2449,6 @@ event
 (
 "
 function
-*
 (
 )
 {
@@ -2585,7 +2547,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {
@@ -2634,7 +2595,6 @@ listener
 works
 "
 function
-*
 (
 )
 {
@@ -2702,7 +2662,6 @@ testcommand
 ;
 }
 function
-*
 (
 )
 {
@@ -2750,7 +2709,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -2824,7 +2782,6 @@ testcommand
 ;
 }
 function
-*
 (
 )
 {
@@ -2879,7 +2836,6 @@ attribute
 works
 "
 function
-*
 (
 )
 {
@@ -2965,7 +2921,6 @@ testcommand
 ;
 }
 function
-*
 (
 )
 {
@@ -3013,7 +2968,6 @@ click
 events
 "
 function
-*
 (
 )
 {
@@ -3111,7 +3065,6 @@ sawEvent
 ;
 }
 function
-*
 (
 )
 {

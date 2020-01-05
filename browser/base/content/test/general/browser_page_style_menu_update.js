@@ -117,8 +117,8 @@ browser
 {
 PAGE
 }
+async
 function
-*
 (
 args
 )
@@ -213,15 +213,15 @@ selected
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -242,7 +242,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -251,7 +251,7 @@ browser
 PAGE
 )
 ;
-yield
+await
 promiseStylesheetsUpdated
 (
 browser
@@ -447,7 +447,7 @@ ContentTask
 for
 us
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -455,8 +455,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -548,7 +548,7 @@ selected
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

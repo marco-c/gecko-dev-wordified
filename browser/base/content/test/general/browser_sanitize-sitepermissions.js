@@ -111,8 +111,8 @@ result
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -369,7 +369,7 @@ one
 /
 Clear
 it
-yield
+await
 s
 .
 sanitize

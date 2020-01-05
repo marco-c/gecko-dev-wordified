@@ -389,8 +389,8 @@ pending
 operations
 add_task
 (
+async
 function
-*
 first_run
 (
 )
@@ -403,7 +403,7 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }
@@ -423,8 +423,8 @@ and
 re
 -
 check
+async
 function
-*
 trigger_db_load
 (
 )
@@ -455,7 +455,7 @@ resolve
 let
 addonList
 =
-yield
+await
 addonDefer
 .
 promise
@@ -472,7 +472,7 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }
@@ -492,8 +492,8 @@ check
 again
 add_task
 (
+async
 function
-*
 restart_and_recheck
 (
 )
@@ -506,7 +506,7 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }

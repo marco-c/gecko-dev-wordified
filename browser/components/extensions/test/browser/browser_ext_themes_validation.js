@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -286,8 +286,8 @@ waitForConsole
 }
 add_task
 (
+async
 function
-*
 test_that_theme_with_invalid_properties_fails_to_load
 (
 )
@@ -324,7 +324,7 @@ in
 invalidProps
 )
 {
-yield
+await
 testThemeWithInvalidProperties
 (
 [
@@ -333,7 +333,7 @@ prop
 )
 ;
 }
-yield
+await
 testThemeWithInvalidProperties
 (
 invalidProps

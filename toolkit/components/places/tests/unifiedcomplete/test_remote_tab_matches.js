@@ -434,8 +434,8 @@ tests
 .
 add_task
 (
+async
 function
-*
 test_nomatch
 (
 )
@@ -495,7 +495,7 @@ expect
 search
 results
 .
-yield
+await
 check_autocomplete
 (
 {
@@ -534,8 +534,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_minimal
 (
 )
@@ -590,7 +590,7 @@ com
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -646,8 +646,8 @@ Desktop
 ;
 add_task
 (
+async
 function
-*
 test_maximal
 (
 )
@@ -716,7 +716,7 @@ favicon
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -796,8 +796,8 @@ favicon
 ;
 add_task
 (
+async
 function
-*
 test_noShowIcons
 (
 )
@@ -871,7 +871,7 @@ favicon
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -967,8 +967,8 @@ showRemoteIcons
 ;
 add_task
 (
+async
 function
-*
 test_matches_title
 (
 )
@@ -1030,7 +1030,7 @@ Example
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1094,8 +1094,8 @@ Example
 ;
 add_task
 (
+async
 function
-*
 test_localtab_matches_override
 (
 )
@@ -1220,7 +1220,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1244,7 +1244,7 @@ uri
 1
 )
 ;
-yield
+await
 check_autocomplete
 (
 {

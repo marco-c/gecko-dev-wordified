@@ -43,8 +43,8 @@ http
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -137,8 +137,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -197,7 +197,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -230,7 +230,7 @@ in
 an
 iframe
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -239,8 +239,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

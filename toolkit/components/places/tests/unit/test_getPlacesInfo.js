@@ -189,8 +189,8 @@ placeId
 )
 ;
 }
+async
 function
-*
 test_getPlacesInfoExistentPlace
 (
 )
@@ -215,7 +215,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -226,7 +226,7 @@ testURI
 let
 getPlacesInfoResult
 =
-yield
+await
 promiseGetPlacesInfo
 (
 [
@@ -326,8 +326,8 @@ add_task
 test_getPlacesInfoExistentPlace
 )
 ;
+async
 function
-*
 test_getPlacesInfoNonExistentPlace
 (
 )
@@ -355,7 +355,7 @@ tld
 let
 getPlacesInfoResult
 =
-yield
+await
 promiseGetPlacesInfo
 (
 testURI
@@ -387,8 +387,8 @@ add_task
 test_getPlacesInfoNonExistentPlace
 )
 ;
+async
 function
-*
 test_promisedHelper
 (
 )
@@ -413,7 +413,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -424,7 +424,7 @@ uri
 let
 placeInfo
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -462,7 +462,7 @@ tld
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -497,8 +497,8 @@ add_task
 test_promisedHelper
 )
 ;
+async
 function
-*
 test_infoByGUID
 (
 )
@@ -523,7 +523,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -534,7 +534,7 @@ testURI
 let
 placeInfoByURI
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -545,7 +545,7 @@ testURI
 let
 placeInfoByGUID
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -567,15 +567,15 @@ add_task
 test_infoByGUID
 )
 ;
+async
 function
-*
 test_invalid_guid
 (
 )
 {
 try
 {
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -611,8 +611,8 @@ add_task
 test_invalid_guid
 )
 ;
+async
 function
-*
 test_mixed_selection
 (
 )
@@ -641,7 +641,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -651,7 +651,7 @@ uri
 ;
 placeInfo1
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -678,7 +678,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -688,7 +688,7 @@ uri
 ;
 placeInfo2
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -699,7 +699,7 @@ uri
 let
 getPlacesInfoResult
 =
-yield
+await
 promiseGetPlacesInfo
 (
 [

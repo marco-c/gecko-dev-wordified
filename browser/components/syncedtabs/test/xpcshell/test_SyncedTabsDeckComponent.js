@@ -193,8 +193,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 testInitUninit
 (
 )
@@ -700,8 +700,8 @@ TOPIC_TABS_CHANGED
 }
 add_task
 (
+async
 function
-*
 testObserver
 (
 )
@@ -1080,8 +1080,8 @@ again
 ;
 add_task
 (
+async
 function
-*
 testPanelStatus
 (
 )
@@ -1184,7 +1184,7 @@ isAuthed
 let
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1215,7 +1215,7 @@ true
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1248,7 +1248,7 @@ false
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1281,7 +1281,7 @@ false
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1334,7 +1334,7 @@ clients
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1365,7 +1365,7 @@ client
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1416,7 +1416,7 @@ err
 ;
 result
 =
-yield
+await
 component
 .
 getPanelStatus
@@ -1469,7 +1469,7 @@ selectPanel
 "
 )
 ;
-yield
+await
 component
 .
 updatePanel
@@ -1499,8 +1499,8 @@ panelId
 ;
 add_task
 (
+async
 function
-*
 testActions
 (
 )

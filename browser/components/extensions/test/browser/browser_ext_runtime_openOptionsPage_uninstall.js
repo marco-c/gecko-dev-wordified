@@ -231,8 +231,8 @@ extension
 }
 add_task
 (
+async
 function
-*
 test_inline_options_uninstall
 (
 )
@@ -240,7 +240,7 @@ test_inline_options_uninstall
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -261,7 +261,7 @@ com
 let
 extension
 =
-yield
+await
 loadExtension
 (
 {
@@ -596,7 +596,7 @@ stack
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -610,7 +610,7 @@ open
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -644,7 +644,7 @@ open
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -654,7 +654,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

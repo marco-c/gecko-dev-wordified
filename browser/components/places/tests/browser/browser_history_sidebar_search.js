@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -105,7 +105,7 @@ FILTERED_COUNT
 =
 1
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -188,7 +188,7 @@ TRANSITION_TYPED
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -196,14 +196,13 @@ addVisits
 places
 )
 ;
-yield
+await
 withSidebarTree
 (
 "
 history
 "
 function
-*
 (
 )
 {
@@ -345,7 +344,7 @@ pages
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

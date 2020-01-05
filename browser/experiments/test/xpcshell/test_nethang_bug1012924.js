@@ -93,8 +93,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -336,7 +336,7 @@ e
 }
 )
 ;
-yield
+await
 experiments
 .
 uninit

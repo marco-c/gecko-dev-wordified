@@ -239,8 +239,8 @@ obs
 }
 add_task
 (
+async
 function
-*
 test_autocomplete_on_value_removed
 (
 )
@@ -297,7 +297,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -350,7 +350,7 @@ spec
 true
 )
 ;
-yield
+await
 promise
 ;
 }

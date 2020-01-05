@@ -267,8 +267,8 @@ buttons
 )
 add_UITour_task
 (
+async
 function
-*
 test_info_buttons_1
 (
 )
@@ -321,7 +321,7 @@ UITourTooltipIcon
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -899,7 +899,7 @@ childNodes
 window
 )
 ;
-yield
+await
 promiseHidden
 ;
 ok
@@ -916,7 +916,7 @@ automatically
 let
 returnValue
 =
-yield
+await
 waitForCallbackResultPromise
 (
 )
@@ -944,8 +944,8 @@ called
 ;
 add_UITour_task
 (
+async
 function
-*
 test_info_buttons_2
 (
 )
@@ -998,7 +998,7 @@ UITourTooltipIcon
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -1364,7 +1364,7 @@ childNodes
 window
 )
 ;
-yield
+await
 promiseHidden
 ;
 ok
@@ -1381,7 +1381,7 @@ automatically
 let
 returnValue
 =
-yield
+await
 waitForCallbackResultPromise
 (
 )
@@ -1408,8 +1408,8 @@ called
 )
 add_UITour_task
 (
+async
 function
-*
 test_info_close_button
 (
 )
@@ -1426,7 +1426,7 @@ UITourTooltipClose
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -1462,7 +1462,7 @@ window
 let
 returnValue
 =
-yield
+await
 waitForCallbackResultPromise
 (
 )
@@ -1487,8 +1487,8 @@ called
 )
 add_UITour_task
 (
+async
 function
-*
 test_info_target_callback
 (
 )
@@ -1505,7 +1505,7 @@ UITourTooltip
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -1534,7 +1534,7 @@ makeInfoOptions
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -1544,7 +1544,7 @@ show
 let
 returnValue
 =
-yield
+await
 waitForCallbackResultPromise
 (
 )
@@ -1608,7 +1608,7 @@ mousedown
 /
 Cleanup
 .
-yield
+await
 hideInfoPromise
 (
 )
@@ -1626,13 +1626,13 @@ animate
 )
 add_UITour_task
 (
+async
 function
-*
 test_getConfiguration_selectedSearchEngine
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -1648,12 +1648,8 @@ search
 .
 init
 (
-Task
-.
 async
-(
 function
-*
 (
 rv
 )
@@ -1685,7 +1681,7 @@ defaultEngine
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -1714,7 +1710,6 @@ resolve
 ;
 }
 )
-)
 ;
 }
 )
@@ -1724,8 +1719,8 @@ resolve
 ;
 add_UITour_task
 (
+async
 function
-*
 test_setSearchTerm
 (
 )
@@ -1739,7 +1734,7 @@ Search
 Term
 "
 ;
-yield
+await
 gContentAPI
 .
 setSearchTerm
@@ -1783,7 +1778,7 @@ after
 a
 tick
 .
-yield
+await
 waitForConditionPromise
 (
 (
@@ -1808,13 +1803,13 @@ set
 ;
 add_UITour_task
 (
+async
 function
-*
 test_clearSearchTerm
 (
 )
 {
-yield
+await
 gContentAPI
 .
 setSearchTerm
@@ -1859,7 +1854,7 @@ after
 a
 tick
 .
-yield
+await
 waitForConditionPromise
 (
 (

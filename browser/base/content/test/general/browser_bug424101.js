@@ -14,12 +14,12 @@ elements
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -203,7 +203,7 @@ tests
 index
 ]
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -224,8 +224,8 @@ test
 type
 index
 }
+async
 function
-*
 (
 arg
 )
@@ -303,7 +303,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -329,7 +329,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -403,7 +403,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

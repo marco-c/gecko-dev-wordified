@@ -40,8 +40,8 @@ Bug
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -83,7 +83,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -138,15 +138,15 @@ href
 true
 ;
 }
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 feeds
+async
 function
-*
 (
 contentFeeds
 )

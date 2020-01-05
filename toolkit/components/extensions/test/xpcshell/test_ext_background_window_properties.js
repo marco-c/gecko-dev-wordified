@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testBackgroundWindowProperties
 (
 )
@@ -187,14 +187,14 @@ done
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -208,7 +208,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -6381,8 +6381,8 @@ string
 }
 add_task
 (
+async
 function
-*
 checkAllTheFiles
 (
 )
@@ -6428,7 +6428,7 @@ libxulPath
 let
 libxul
 =
-yield
+await
 OS
 .
 File
@@ -6587,7 +6587,7 @@ sync
 let
 uris
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDir
@@ -6736,7 +6736,7 @@ manifest
 to
 be
 parsed
-yield
+await
 Promise
 .
 all
@@ -6852,7 +6852,7 @@ have
 actually
 loaded
 :
-yield
+await
 Promise
 .
 all

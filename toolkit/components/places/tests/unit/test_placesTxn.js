@@ -136,8 +136,8 @@ bookmarkProperties
 description
 "
 ;
+async
 function
-*
 promiseKeyword
 (
 keyword
@@ -153,7 +153,7 @@ true
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -202,7 +202,7 @@ postData
 break
 ;
 }
-yield
+await
 new
 Promise
 (
@@ -576,8 +576,8 @@ bookmarksMenuFolderId
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -610,8 +610,8 @@ observer
 ;
 add_task
 (
+async
 function
-*
 test_create_folder_with_description
 (
 )
@@ -882,8 +882,8 @@ bmStartIndex
 ;
 add_task
 (
+async
 function
-*
 test_create_item
 (
 )
@@ -1089,8 +1089,8 @@ bmStartIndex
 ;
 add_task
 (
+async
 function
-*
 test_create_item_to_folder
 (
 )
@@ -1301,8 +1301,8 @@ bmStartIndex
 ;
 add_task
 (
+async
 function
-*
 test_move_items_to_folder
 (
 )
@@ -1817,8 +1817,8 @@ _itemMovedNewIndex
 ;
 add_task
 (
+async
 function
-*
 test_remove_folder
 (
 )
@@ -1993,8 +1993,8 @@ _itemAddedIndex
 ;
 add_task
 (
+async
 function
-*
 test_remove_item_with_tag
 (
 )
@@ -2300,8 +2300,8 @@ TAG_NAME
 ;
 add_task
 (
+async
 function
-*
 test_remove_item_with_keyword
 (
 )
@@ -2400,7 +2400,7 @@ item1
 /
 set
 keyword
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2458,7 +2458,7 @@ _itemRemovedIndex
 0
 )
 ;
-yield
+await
 promiseKeyword
 (
 KEYWORD
@@ -2494,7 +2494,7 @@ _itemAddedIndex
 0
 )
 ;
-yield
+await
 promiseKeyword
 (
 KEYWORD
@@ -2533,7 +2533,7 @@ _itemRemovedIndex
 0
 )
 ;
-yield
+await
 promiseKeyword
 (
 KEYWORD
@@ -2567,8 +2567,8 @@ _itemAddedIndex
 ;
 add_task
 (
+async
 function
-*
 test_creating_separator
 (
 )
@@ -2725,8 +2725,8 @@ _itemRemovedIndex
 ;
 add_task
 (
+async
 function
-*
 test_removing_separator
 (
 )
@@ -2905,8 +2905,8 @@ _itemAddedIndex
 ;
 add_task
 (
+async
 function
-*
 test_editing_item_title
 (
 )
@@ -3111,8 +3111,8 @@ TITLE
 ;
 add_task
 (
+async
 function
-*
 test_editing_item_uri
 (
 )
@@ -3530,8 +3530,8 @@ stringify
 ;
 add_task
 (
+async
 function
-*
 test_edit_description_transaction
 (
 )
@@ -3644,8 +3644,8 @@ DESCRIPTION_ANNO
 ;
 add_task
 (
+async
 function
-*
 test_edit_keyword
 (
 )
@@ -3803,8 +3803,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_edit_specific_keyword
 (
 )
@@ -3864,7 +3864,7 @@ to
 this
 uri
 .
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3890,7 +3890,7 @@ postData1
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3975,7 +3975,7 @@ KEYWORD
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4013,7 +4013,7 @@ postData1
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 KEYWORD
@@ -4025,7 +4025,7 @@ postData2
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -4083,7 +4083,7 @@ postData1
 ;
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4121,7 +4121,7 @@ postData1
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -4135,7 +4135,7 @@ postData2
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -4149,8 +4149,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_LoadInSidebar_transaction
 (
 )
@@ -4305,8 +4305,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_generic_item_annotation
 (
 )
@@ -4499,8 +4499,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_editing_item_date_added
 (
 )
@@ -4616,8 +4616,8 @@ testBkmId
 ;
 add_task
 (
+async
 function
-*
 test_edit_item_last_modified
 (
 )
@@ -4733,8 +4733,8 @@ testBkmId
 ;
 add_task
 (
+async
 function
-*
 test_generic_page_annotation
 (
 )
@@ -4880,8 +4880,8 @@ TEST_ANNO
 ;
 add_task
 (
+async
 function
-*
 test_sort_folder_by_name
 (
 )
@@ -5206,8 +5206,8 @@ b3
 ;
 add_task
 (
+async
 function
-*
 test_tagURI_untagURI
 (
 )
@@ -5457,8 +5457,8 @@ TAG_2
 ;
 add_task
 (
+async
 function
-*
 test_aggregate_removeItem_Txn
 (
 )
@@ -6340,8 +6340,8 @@ newBkmk1Id
 ;
 add_task
 (
+async
 function
-*
 test_create_item_with_childTxn
 (
 )
@@ -6738,8 +6738,8 @@ ex
 ;
 add_task
 (
+async
 function
-*
 test_create_folder_with_child_itemTxn
 (
 )

@@ -774,8 +774,8 @@ targetDir
 }
 add_task
 (
+async
 function
-*
 test_empty
 (
 )
@@ -793,7 +793,7 @@ getTestDirs
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -842,8 +842,8 @@ targetDir
 ;
 add_task
 (
+async
 function
-*
 test_migrate_files
 (
 )
@@ -1070,7 +1070,7 @@ migration
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1130,8 +1130,8 @@ sessionStateContent
 ;
 add_task
 (
+async
 function
-*
 test_fallback_fhr_state
 (
 )
@@ -1222,7 +1222,7 @@ migration
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1268,8 +1268,8 @@ stateContent
 ;
 add_task
 (
+async
 function
-*
 test_datareporting_not_dir
 (
 )
@@ -1307,7 +1307,7 @@ directory
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1347,8 +1347,8 @@ targetDir
 ;
 add_task
 (
+async
 function
-*
 test_datareporting_empty
 (
 )
@@ -1385,7 +1385,7 @@ datareporting
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1435,8 +1435,8 @@ datareporting
 ;
 add_task
 (
+async
 function
-*
 test_healthreport_empty
 (
 )
@@ -1478,7 +1478,7 @@ healthreport
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1522,8 +1522,8 @@ targetDir
 ;
 add_task
 (
+async
 function
-*
 test_datareporting_many
 (
 )
@@ -1614,7 +1614,7 @@ emptyDir
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1669,8 +1669,8 @@ shouldBeCopied
 ;
 add_task
 (
+async
 function
-*
 test_no_session_state
 (
 )
@@ -1733,7 +1733,7 @@ stateContent
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1779,8 +1779,8 @@ stateContent
 ;
 add_task
 (
+async
 function
-*
 test_no_state
 (
 )
@@ -1847,7 +1847,7 @@ sessionStateContent
 let
 ok
 =
-yield
+await
 promiseTelemetryMigrator
 (
 srcDir
@@ -1895,8 +1895,8 @@ sessionStateContent
 ;
 add_task
 (
+async
 function
-*
 test_times_migration
 (
 )
@@ -1960,7 +1960,7 @@ now
 let
 ok
 =
-yield
+await
 promiseMigrator
 (
 "

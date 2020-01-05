@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -94,8 +94,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1162,7 +1162,7 @@ shutdown
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1193,7 +1193,7 @@ ready
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1251,7 +1251,7 @@ test
 test
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1286,7 +1286,7 @@ finish
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1296,7 +1296,7 @@ gone
 "
 )
 ;
-yield
+await
 extension
 .
 unload

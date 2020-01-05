@@ -43,8 +43,8 @@ http
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -237,8 +237,8 @@ page
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -279,7 +279,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -294,7 +294,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -302,7 +302,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 notificationPromise
 ;
 /
@@ -325,7 +325,7 @@ a
 new
 page
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -335,8 +335,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -363,7 +363,7 @@ remove
 }
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -466,8 +466,8 @@ page
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -498,7 +498,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -513,7 +513,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -521,7 +521,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 notificationPromise
 ;
 /
@@ -544,7 +544,7 @@ a
 new
 page
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -554,8 +554,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -587,12 +587,12 @@ remove
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -610,7 +610,7 @@ html
 let
 notification
 =
-yield
+await
 waitForNotificationBar
 (
 "

@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_json_parser
 (
 )
@@ -249,7 +249,7 @@ ExtensionData
 uri
 )
 ;
-yield
+await
 extension
 .
 parseManifest

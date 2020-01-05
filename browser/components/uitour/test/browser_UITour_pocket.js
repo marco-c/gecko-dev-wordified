@@ -61,8 +61,8 @@ tests
 [
 taskify
 (
+async
 function
-*
 test_menu_show_navbar
 (
 )
@@ -104,7 +104,7 @@ widgetPanel
 =
 null
 ;
-yield
+await
 waitForConditionPromise
 (
 (
@@ -231,8 +231,8 @@ widgetPanel
 )
 taskify
 (
+async
 function
-*
 test_menu_show_appMenu
 (
 )
@@ -282,7 +282,7 @@ pocket
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (

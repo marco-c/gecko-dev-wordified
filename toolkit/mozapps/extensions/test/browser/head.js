@@ -1861,12 +1861,8 @@ test
 var
 get_tooltip_info
 =
-Task
-.
 async
-(
 function
-*
 (
 addon
 )
@@ -1982,7 +1978,7 @@ false
 event
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -2010,7 +2006,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -2100,7 +2096,6 @@ length
 }
 ;
 }
-)
 ;
 function
 get_addon_file_url

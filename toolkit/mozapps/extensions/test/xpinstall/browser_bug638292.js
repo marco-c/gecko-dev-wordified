@@ -88,15 +88,15 @@ is
 working
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 testtab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -111,8 +111,8 @@ html
 "
 )
 ;
+async
 function
-*
 verify
 (
 link
@@ -138,7 +138,7 @@ waitForNewTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -159,10 +159,10 @@ selectedBrowser
 let
 newtab
 =
-yield
+await
 waitForNewTabPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -175,7 +175,7 @@ linkedBrowser
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -185,8 +185,8 @@ newtab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -256,7 +256,7 @@ link3
 "
 )
 {
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -274,8 +274,7 @@ newtab
 )
 ;
 }
-yield
-*
+await
 verify
 (
 "
@@ -284,8 +283,7 @@ link1
 0
 )
 ;
-yield
-*
+await
 verify
 (
 "
@@ -294,8 +292,7 @@ link2
 0
 )
 ;
-yield
-*
+await
 verify
 (
 "

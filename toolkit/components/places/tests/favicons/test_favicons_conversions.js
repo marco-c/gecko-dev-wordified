@@ -236,8 +236,8 @@ finished
 .
 *
 /
+async
 function
-*
 checkFaviconDataConversion
 (
 aFileName
@@ -270,7 +270,7 @@ page
 aFileName
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -331,7 +331,7 @@ length
 aFileMimeType
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -458,8 +458,8 @@ getSystemPrincipal
 }
 add_task
 (
+async
 function
-*
 test_storing_a_normal_16x16_icon
 (
 )
@@ -476,7 +476,7 @@ bytes
 optimized
 :
 no
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -501,8 +501,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_storing_a_normal_32x32_icon
 (
 )
@@ -519,7 +519,7 @@ bytes
 optimized
 :
 no
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -544,8 +544,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_storing_a_big_16x16_icon
 (
 )
@@ -564,7 +564,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -591,8 +591,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_storing_an_oversize_4x4_icon
 (
 )
@@ -611,7 +611,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -636,8 +636,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_storing_an_oversize_32x32_icon
 (
 )
@@ -656,7 +656,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -681,8 +681,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_storing_an_oversize_48x48_icon
 (
 )
@@ -723,7 +723,7 @@ depths
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -750,8 +750,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_storing_an_oversize_64x64_icon
 (
 )
@@ -770,7 +770,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -795,8 +795,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_scaling_an_oversize_160x3_icon
 (
 )
@@ -815,7 +815,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "
@@ -840,8 +840,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_scaling_an_oversize_3x160_icon
 (
 )
@@ -860,7 +860,7 @@ bytes
 optimized
 :
 yes
-yield
+await
 checkFaviconDataConversion
 (
 "

@@ -186,8 +186,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ a
 corrupt
 database
 .
-yield
+await
 createCorruptDB
 (
 )
@@ -284,7 +284,7 @@ have
 been
 created
 .
-yield
+await
 promiseTopicObserved
 (
 "
@@ -301,7 +301,7 @@ complete
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -322,7 +322,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -343,7 +343,7 @@ restored
 .
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

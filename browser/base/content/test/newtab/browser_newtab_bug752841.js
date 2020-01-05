@@ -64,8 +64,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -84,8 +84,8 @@ length
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -197,8 +197,7 @@ previousValues
 8
 ]
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -231,7 +230,7 @@ i
 let
 existingTabGridLength
 =
-yield
+await
 getCellsCount
 (
 )
@@ -257,7 +256,7 @@ correctly
 "
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -271,7 +270,7 @@ row
 ]
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -287,7 +286,7 @@ column
 ;
 existingTabGridLength
 =
-yield
+await
 getCellsCount
 (
 )
@@ -310,8 +309,7 @@ correctly
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -326,7 +324,7 @@ selectedTab
 let
 newTabGridLength
 =
-yield
+await
 getCellsCount
 (
 )
@@ -349,7 +347,7 @@ correctly
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

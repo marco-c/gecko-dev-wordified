@@ -217,8 +217,8 @@ tab
 .
 *
 /
+async
 function
-*
 waitForTabBlockEvent
 (
 tab
@@ -281,7 +281,7 @@ changes
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -373,8 +373,8 @@ attribute
 .
 *
 /
+async
 function
-*
 waitForTabPlayingEvent
 (
 tab
@@ -437,7 +437,7 @@ changes
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -755,7 +755,6 @@ disable
 ;
 }
 function
-*
 hover_icon
 (
 icon

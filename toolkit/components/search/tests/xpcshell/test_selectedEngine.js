@@ -72,13 +72,13 @@ defaultenginename
 pref
 add_task
 (
+async
 function
-*
 test_defaultEngine
 (
 )
 {
-yield
+await
 asyncInit
 (
 )
@@ -117,8 +117,8 @@ engine
 .
 add_task
 (
+async
 function
-*
 test_selectedEngine
 (
 )
@@ -147,7 +147,7 @@ kSelectedEnginePref
 kTestEngineName
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -190,7 +190,7 @@ kDefaultenginenamePref
 kTestEngineName
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -233,8 +233,8 @@ restarts
 .
 add_task
 (
+async
 function
-*
 test_persistAcrossRestarts
 (
 )
@@ -275,7 +275,7 @@ name
 kTestEngineName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -293,7 +293,7 @@ saved
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -322,7 +322,7 @@ still
 the
 same
 .
-yield
+await
 asyncReInit
 (
 )
@@ -391,8 +391,8 @@ ignored
 .
 add_task
 (
+async
 function
-*
 test_ignoreInvalidHash
 (
 )
@@ -433,7 +433,7 @@ name
 kTestEngineName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -455,7 +455,7 @@ invalid
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -468,7 +468,7 @@ hash
 invalid
 "
 ;
-yield
+await
 promiseSaveGlobalMetadata
 (
 metadata
@@ -491,7 +491,7 @@ file
 is
 ignored
 .
-yield
+await
 asyncReInit
 (
 )
@@ -529,8 +529,8 @@ value
 .
 add_task
 (
+async
 function
-*
 test_settingToDefault
 (
 )
@@ -571,7 +571,7 @@ name
 kTestEngineName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -589,7 +589,7 @@ saved
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -633,7 +633,7 @@ getDefaultEngineName
 )
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -656,7 +656,7 @@ file
 .
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -675,8 +675,8 @@ current
 ;
 add_task
 (
+async
 function
-*
 test_resetToOriginalDefaultEngine
 (
 )
@@ -727,7 +727,7 @@ name
 kTestEngineName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -752,7 +752,7 @@ name
 defaultName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -762,8 +762,8 @@ promiseAfterCache
 ;
 add_task
 (
+async
 function
-*
 test_fallback_kept_after_restart
 (
 )
@@ -854,7 +854,7 @@ nonDefaultBuiltInEngine
 name
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -988,7 +988,7 @@ name
 defaultName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -1006,7 +1006,7 @@ still
 be
 unchanged
 .
-yield
+await
 asyncReInit
 (
 )

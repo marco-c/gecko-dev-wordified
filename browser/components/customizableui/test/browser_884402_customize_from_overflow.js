@@ -92,12 +92,12 @@ it
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -186,7 +186,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -256,7 +256,7 @@ click
 (
 )
 ;
-yield
+await
 shownPanelPromise
 ;
 let
@@ -349,7 +349,7 @@ button
 }
 )
 ;
-yield
+await
 shownContextPromise
 ;
 is
@@ -515,10 +515,10 @@ hidePopup
 (
 )
 ;
-yield
+await
 hiddenContextPromise
 ;
-yield
+await
 hiddenPromise
 ;
 let
@@ -601,7 +601,7 @@ Wait
 for
 it
 :
-yield
+await
 waitForCondition
 (
 (

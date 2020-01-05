@@ -9893,7 +9893,7 @@ visit_count
 and
 last_visit_date
 "
-*
+async
 setup
 (
 )
@@ -10064,7 +10064,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -10112,7 +10112,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -10166,7 +10166,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -10222,7 +10222,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -10623,12 +10623,12 @@ for
 redirects
 .
 "
-*
+async
 setup
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -11155,7 +11155,7 @@ _getForeignCount
 )
 ;
 }
-*
+async
 _getForeignCount
 (
 )
@@ -11163,7 +11163,7 @@ _getForeignCount
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -11173,7 +11173,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -11335,7 +11335,7 @@ when
 missing
 .
 "
-*
+async
 setup
 (
 )
@@ -11345,7 +11345,7 @@ this
 _pageGuid
 =
 (
-yield
+await
 PlacesUtils
 .
 history
@@ -11390,7 +11390,7 @@ Assert
 ok
 (
 (
-yield
+await
 this
 .
 _getHash
@@ -11401,7 +11401,7 @@ _getHash
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 withConnectionWrapper
@@ -11411,17 +11411,13 @@ change
 url
 hash
 "
-Task
-.
 async
-(
 function
-*
 (
 db
 )
 {
-yield
+await
 db
 .
 execute
@@ -11436,14 +11432,13 @@ url_hash
 ;
 }
 )
-)
 ;
 Assert
 .
 equal
 (
 (
-yield
+await
 this
 .
 _getHash
@@ -11454,7 +11449,7 @@ _getHash
 )
 ;
 }
-*
+async
 _getHash
 (
 )
@@ -11462,7 +11457,7 @@ _getHash
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -11472,7 +11467,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -11678,7 +11673,7 @@ null
 _separatorId
 :
 null
-*
+async
 setup
 (
 )
@@ -11695,7 +11690,7 @@ a
 bunch
 of
 items
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -11840,7 +11835,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -11902,14 +11897,8 @@ EXPIRE_NEVER
 )
 ;
 }
-check
-:
-Task
-.
 async
-(
-function
-*
+check
 (
 )
 {
@@ -11924,7 +11913,7 @@ correct
 let
 isVisited
 =
-yield
+await
 promiseIsURIVisited
 (
 this
@@ -11939,7 +11928,7 @@ isVisited
 ;
 isVisited
 =
-yield
+await
 promiseIsURIVisited
 (
 this
@@ -12032,7 +12021,7 @@ length
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 keywords
@@ -12093,7 +12082,7 @@ anno
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -12133,7 +12122,6 @@ resolve
 )
 ;
 }
-)
 }
 )
 ;
@@ -12219,8 +12207,8 @@ resolve
 -
 add_task
 (
+async
 function
-*
 test_preventive_maintenance
 (
 )
@@ -12319,7 +12307,7 @@ n
 "
 )
 ;
-yield
+await
 test
 .
 setup
@@ -12367,7 +12355,7 @@ callbackInvoked
 true
 )
 ;
-yield
+await
 promiseMaintenanceFinished
 ;
 do_check_true
@@ -12404,7 +12392,7 @@ lastMaintenance
 null
 )
 ;
-yield
+await
 test
 .
 check

@@ -99,8 +99,8 @@ fill
 /
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -202,8 +202,8 @@ iframe
 /
 add_task
 (
+async
 function
-*
 test_context_menu_iframe_fill
 (
 )
@@ -222,7 +222,7 @@ schemeUpgrades
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -235,8 +235,8 @@ TEST_HOSTNAME
 +
 IFRAME_PAGE_PATH
 }
+async
 function
-*
 (
 browser
 )
@@ -346,7 +346,7 @@ eventDetails
 browser
 )
 ;
-yield
+await
 contextMenuShownPromise
 ;
 /
@@ -398,7 +398,7 @@ popupHeader
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -483,7 +483,7 @@ value
 let
 usernameOriginalValue
 =
-yield
+await
 promiseFrameInputValue
 (
 "
@@ -520,8 +520,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -559,7 +559,7 @@ password
 "
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -598,7 +598,7 @@ doCommand
 (
 )
 ;
-yield
+await
 passwordChangedPromise
 ;
 /
@@ -626,7 +626,7 @@ label
 let
 passwordValue
 =
-yield
+await
 promiseFrameInputValue
 (
 "
@@ -656,7 +656,7 @@ correct
 let
 usernameNewValue
 =
-yield
+await
 promiseFrameInputValue
 (
 "

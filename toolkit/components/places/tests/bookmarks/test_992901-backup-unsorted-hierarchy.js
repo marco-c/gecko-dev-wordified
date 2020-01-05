@@ -107,8 +107,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -229,7 +229,7 @@ Create
 a
 backup
 .
-yield
+await
 PlacesBackups
 .
 create
@@ -255,13 +255,13 @@ removeItem
 f1
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
 (
 (
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup

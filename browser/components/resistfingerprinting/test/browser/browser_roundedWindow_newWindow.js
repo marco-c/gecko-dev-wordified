@@ -83,13 +83,13 @@ gMaxAvailHeight
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -123,7 +123,7 @@ size
 let
 maxAvailSize
 =
-yield
+await
 calcMaximumAvailSize
 (
 )
@@ -145,8 +145,8 @@ maxAvailHeight
 ;
 add_task
 (
+async
 function
-*
 test_new_window
 (
 )
@@ -161,7 +161,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -182,7 +182,7 @@ size
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -199,7 +199,7 @@ html
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -211,8 +211,8 @@ linkedBrowser
 gMaxAvailWidth
 gMaxAvailHeight
 }
+async
 function
-*
 (
 input
 )
@@ -308,7 +308,7 @@ value
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -316,7 +316,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

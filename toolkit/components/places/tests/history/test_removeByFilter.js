@@ -242,8 +242,8 @@ wildcard
 /
 add_task
 (
+async
 function
-*
 test_removeByFilter
 (
 )
@@ -251,14 +251,14 @@ test_removeByFilter
 /
 /
 Cleanup
-yield
+await
 PlacesTestUtils
 .
 clearHistory
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -301,7 +301,7 @@ random
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -314,7 +314,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -334,12 +334,8 @@ database
 let
 removeByFilterTester
 =
-Task
-.
 async
-(
 function
-*
 (
 visits
 filter
@@ -355,7 +351,7 @@ Add
 visits
 for
 URIs
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -390,7 +386,7 @@ bookmarkedUri
 )
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -519,7 +515,7 @@ size
 ;
 removed
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -582,7 +578,7 @@ else
 {
 removed
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -597,7 +593,7 @@ checkAfterRemove
 (
 )
 ;
-yield
+await
 promiseObserved
 ;
 if
@@ -640,7 +636,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -662,7 +658,6 @@ return
 removed
 ;
 }
-)
 ;
 const
 remoteUriList
@@ -981,8 +976,8 @@ title
 let
 assertInDB
 =
+async
 function
-*
 (
 aUri
 )
@@ -992,7 +987,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -1007,8 +1002,8 @@ aUri
 let
 assertNotInDB
 =
+async
 function
-*
 (
 aUri
 )
@@ -1019,7 +1014,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -1131,7 +1126,7 @@ A
 1
 :
 Dates
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1194,7 +1189,7 @@ Single
 Sub
 -
 host
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1244,7 +1239,7 @@ A
 :
 Multiple
 subhost
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -1297,7 +1292,7 @@ A
 4
 :
 Localhost
-yield
+await
 removeByFilterTester
 (
 localhostVisits
@@ -1339,7 +1334,7 @@ A
 :
 Local
 Files
-yield
+await
 removeByFilterTester
 (
 fileVisits
@@ -1393,7 +1388,7 @@ B
 1
 :
 Date
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1450,7 +1445,7 @@ B
 :
 Single
 subhost
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1496,7 +1491,7 @@ B
 :
 Multiple
 subhosts
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -1549,7 +1544,7 @@ C
 :
 single
 subhost
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1613,7 +1608,7 @@ C
 :
 multiple
 subhost
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -1681,8 +1676,8 @@ error
 cases
 add_task
 (
+async
 function
-*
 test_error_cases
 (
 )

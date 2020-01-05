@@ -262,8 +262,8 @@ entry
 .
 *
 /
+async
 function
-*
 promiseKeyword
 (
 keyword
@@ -277,7 +277,7 @@ null
 ;
 do
 {
-yield
+await
 new
 Promise
 (
@@ -294,7 +294,7 @@ resolve
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -326,8 +326,8 @@ expectedHref
 )
 ;
 }
+async
 function
-*
 check_no_orphans
 (
 )
@@ -335,7 +335,7 @@ check_no_orphans
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -345,7 +345,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 executeCached
@@ -595,8 +595,8 @@ observer
 }
 add_task
 (
+async
 function
-*
 test_invalid_input
 (
 )
@@ -1420,13 +1420,13 @@ keyword
 ;
 add_task
 (
+async
 function
-*
 test_addKeyword
 (
 )
 {
-yield
+await
 check_keyword
 (
 false
@@ -1448,7 +1448,7 @@ keyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -1470,7 +1470,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1506,7 +1506,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -1530,7 +1530,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -1568,7 +1568,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1588,7 +1588,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -1612,7 +1612,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -1641,7 +1641,7 @@ Check
 using
 URL
 .
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1673,7 +1673,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -1692,7 +1692,7 @@ keyword
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1704,7 +1704,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -1723,7 +1723,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_no_orphans
 (
 )
@@ -1733,13 +1733,13 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_addBookmarkAndKeyword
 (
 )
 {
-yield
+await
 check_keyword
 (
 false
@@ -1761,7 +1761,7 @@ keyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -1779,7 +1779,7 @@ com
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1823,7 +1823,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1866,7 +1866,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1892,7 +1892,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1920,7 +1920,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -1944,7 +1944,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -1985,7 +1985,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2012,7 +2012,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2037,7 +2037,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2065,7 +2065,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -2089,7 +2089,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2125,7 +2125,7 @@ remove
 the
 bookmark
 .
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2159,7 +2159,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2200,7 +2200,7 @@ for
 while
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2245,7 +2245,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -2264,7 +2264,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_no_orphans
 (
 )
@@ -2274,13 +2274,13 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_addKeywordToURIHavingKeyword
 (
 )
 {
-yield
+await
 check_keyword
 (
 false
@@ -2302,7 +2302,7 @@ keyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -2324,7 +2324,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2360,7 +2360,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -2384,7 +2384,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2409,7 +2409,7 @@ fc
 +
 1
 keyword
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2437,7 +2437,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -2456,7 +2456,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -2480,7 +2480,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2514,7 +2514,7 @@ entries
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2580,7 +2580,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2592,7 +2592,7 @@ keyword
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2612,7 +2612,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -2631,7 +2631,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -2655,7 +2655,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2678,7 +2678,7 @@ fc
 -
 1
 keyword
-yield
+await
 check_no_orphans
 (
 )
@@ -2688,13 +2688,13 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_addBookmarkToURIHavingKeyword
 (
 )
 {
-yield
+await
 check_keyword
 (
 false
@@ -2716,7 +2716,7 @@ keyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -2738,7 +2738,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2774,7 +2774,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -2798,7 +2798,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2832,7 +2832,7 @@ expectBookmarkNotifications
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2874,7 +2874,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2913,7 +2913,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2954,7 +2954,7 @@ for
 while
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -2999,7 +2999,7 @@ check
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -3018,7 +3018,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_no_orphans
 (
 )
@@ -3028,8 +3028,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_sameKeywordDifferentURL
 (
 )
@@ -3037,7 +3037,7 @@ test_sameKeywordDifferentURL
 let
 fc1
 =
-yield
+await
 foreign_count
 (
 "
@@ -3055,7 +3055,7 @@ com
 let
 bookmark1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3095,7 +3095,7 @@ unfiledGuid
 let
 fc2
 =
-yield
+await
 foreign_count
 (
 "
@@ -3113,7 +3113,7 @@ com
 let
 bookmark2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3150,7 +3150,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3178,7 +3178,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -3202,7 +3202,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3230,7 +3230,7 @@ bookmark
 +
 1
 keyword
-yield
+await
 check_keyword
 (
 false
@@ -3254,7 +3254,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3296,7 +3296,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3339,7 +3339,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3364,7 +3364,7 @@ bookmark1
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3399,7 +3399,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3425,7 +3425,7 @@ bookmark2
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3453,7 +3453,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -3477,7 +3477,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3502,7 +3502,7 @@ fc1
 -
 1
 keyword
-yield
+await
 check_keyword
 (
 true
@@ -3526,7 +3526,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3564,7 +3564,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3591,7 +3591,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3616,7 +3616,7 @@ bookmark2
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3644,7 +3644,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -3663,7 +3663,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -3687,7 +3687,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3712,7 +3712,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3737,7 +3737,7 @@ fc2
 -
 1
 keyword
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3747,7 +3747,7 @@ remove
 bookmark1
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3762,7 +3762,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3788,7 +3788,7 @@ bookmark
 while
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3810,7 +3810,7 @@ com
 -
 1
 keyword
-yield
+await
 check_no_orphans
 (
 )
@@ -3820,8 +3820,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_sameURIDifferentKeyword
 (
 )
@@ -3829,7 +3829,7 @@ test_sameURIDifferentKeyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -3854,7 +3854,7 @@ expectBookmarkNotifications
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3891,7 +3891,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -3919,7 +3919,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -3943,7 +3943,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -3986,7 +3986,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4012,7 +4012,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4046,7 +4046,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4074,7 +4074,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4093,7 +4093,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4117,7 +4117,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -4157,7 +4157,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4183,7 +4183,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4218,7 +4218,7 @@ a
 third
 keyword
 .
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4246,7 +4246,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4265,7 +4265,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4284,7 +4284,7 @@ keyword2
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4308,7 +4308,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -4347,7 +4347,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4359,7 +4359,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -4378,7 +4378,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4397,7 +4397,7 @@ keyword2
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4431,7 +4431,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4456,7 +4456,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4489,7 +4489,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -4521,7 +4521,7 @@ remove
 the
 bookmark
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4534,7 +4534,7 @@ bookmark
 while
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -4551,7 +4551,7 @@ com
 )
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -4570,7 +4570,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -4589,7 +4589,7 @@ keyword2
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -4617,8 +4617,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_deleteKeywordMultipleBookmarks
 (
 )
@@ -4626,7 +4626,7 @@ test_deleteKeywordMultipleBookmarks
 let
 fc
 =
-yield
+await
 foreign_count
 (
 "
@@ -4651,7 +4651,7 @@ expectBookmarkNotifications
 let
 bookmark1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4691,7 +4691,7 @@ unfiledGuid
 let
 bookmark2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4728,7 +4728,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4756,7 +4756,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -4780,7 +4780,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -4823,7 +4823,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4849,7 +4849,7 @@ bookmark2
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4884,7 +4884,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4910,7 +4910,7 @@ bookmark1
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -4944,7 +4944,7 @@ expectBookmarkNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4956,7 +4956,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -4980,7 +4980,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -5020,7 +5020,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5045,7 +5045,7 @@ bookmark2
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5080,7 +5080,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5105,7 +5105,7 @@ bookmark1
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5140,7 +5140,7 @@ remove
 the
 bookmarks
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5150,7 +5150,7 @@ remove
 bookmark1
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5165,7 +5165,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -5197,13 +5197,13 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_multipleKeywordsSamePostData
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5236,7 +5236,7 @@ postData1
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -5269,7 +5269,7 @@ postData
 should
 fail
 .
-yield
+await
 Assert
 .
 rejects
@@ -5311,7 +5311,7 @@ failed
 /
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -5333,7 +5333,7 @@ postData1
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5354,8 +5354,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_oldPostDataAPI
 (
 )
@@ -5363,7 +5363,7 @@ test_oldPostDataAPI
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5400,7 +5400,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5431,7 +5431,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5441,7 +5441,7 @@ bookmark
 guid
 )
 ;
-yield
+await
 PlacesUtils
 .
 setPostDataForBookmark
@@ -5452,7 +5452,7 @@ postData
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -5489,7 +5489,7 @@ postData
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5501,7 +5501,7 @@ keyword
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5520,8 +5520,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_oldKeywordsAPI
 (
 )
@@ -5529,7 +5529,7 @@ test_oldKeywordsAPI
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5566,7 +5566,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -5588,7 +5588,7 @@ keyword
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -5610,7 +5610,7 @@ keyword
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -5645,7 +5645,7 @@ itemId
 "
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -5654,7 +5654,7 @@ keyword
 null
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5701,7 +5701,7 @@ keyword
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5732,7 +5732,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5751,8 +5751,8 @@ check_no_orphans
 ;
 add_task
 (
+async
 function
-*
 test_bookmarkURLChange
 (
 )
@@ -5760,7 +5760,7 @@ test_bookmarkURLChange
 let
 fc1
 =
-yield
+await
 foreign_count
 (
 "
@@ -5778,7 +5778,7 @@ com
 let
 fc2
 =
-yield
+await
 foreign_count
 (
 "
@@ -5796,7 +5796,7 @@ com
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5833,7 +5833,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5861,7 +5861,7 @@ com
 }
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -5885,7 +5885,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -5913,7 +5913,7 @@ bookmark
 +
 1
 keyword
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5941,7 +5941,7 @@ com
 }
 )
 ;
-yield
+await
 promiseKeyword
 (
 "
@@ -5959,7 +5959,7 @@ com
 "
 )
 ;
-yield
+await
 check_keyword
 (
 false
@@ -5978,7 +5978,7 @@ keyword
 "
 )
 ;
-yield
+await
 check_keyword
 (
 true
@@ -6002,7 +6002,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -6033,7 +6033,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "

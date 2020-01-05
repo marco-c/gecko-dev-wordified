@@ -231,8 +231,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -248,12 +248,12 @@ test
 let
 recipeParent
 =
-yield
+await
 LoginManagerParent
 .
 recipeParentPromise
 ;
-yield
+await
 recipeParent
 .
 load
@@ -294,13 +294,13 @@ pass
 ;
 add_task
 (
+async
 function
-*
 test_remember_opens
 (
 )
 {
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -309,7 +309,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -380,13 +379,13 @@ remove
 ;
 add_task
 (
+async
 function
-*
 test_clickNever
 (
 )
 {
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -534,7 +533,7 @@ effect
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -543,7 +542,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -679,13 +677,13 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_clickRemember
 (
 )
 {
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -912,7 +910,7 @@ login
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -921,7 +919,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1109,8 +1106,8 @@ tests
 /
 add_task
 (
+async
 function
-*
 test_rememberSignonsFalse
 (
 )
@@ -1146,7 +1143,7 @@ rememberSignons
 false
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1155,7 +1152,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1245,8 +1241,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_rememberSignonsTrue
 (
 )
@@ -1279,7 +1275,7 @@ rememberSignons
 true
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1288,7 +1284,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1392,8 +1387,8 @@ tests
 /
 add_task
 (
+async
 function
-*
 test_autocompleteOffUsername
 (
 )
@@ -1415,7 +1410,7 @@ username
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1424,7 +1419,6 @@ subtst_notifications_2
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1518,8 +1512,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_autocompleteOffPassword
 (
 )
@@ -1541,7 +1535,7 @@ password
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1550,7 +1544,6 @@ subtst_notifications_3
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1644,8 +1637,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_autocompleteOffForm
 (
 )
@@ -1667,7 +1660,7 @@ form
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1676,7 +1669,6 @@ subtst_notifications_4
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1770,8 +1762,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_noPasswordField
 (
 )
@@ -1792,7 +1784,7 @@ present
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1801,7 +1793,6 @@ subtst_notifications_5
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -1891,8 +1882,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_pwOnlyLoginMatchesForm
 (
 )
@@ -1925,7 +1916,7 @@ addLogin
 login2
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -1934,7 +1925,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -2098,8 +2088,8 @@ login2
 ;
 add_task
 (
+async
 function
-*
 test_pwOnlyFormMatchesLogin
 (
 )
@@ -2133,7 +2123,7 @@ addLogin
 login1
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -2142,7 +2132,6 @@ subtst_notifications_6
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -2303,8 +2292,8 @@ login1
 ;
 add_task
 (
+async
 function
-*
 test_pwOnlyFormDoesntMatchExisting
 (
 )
@@ -2340,7 +2329,7 @@ addLogin
 login1B
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -2349,7 +2338,6 @@ subtst_notifications_6
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -2515,8 +2503,8 @@ login1B
 ;
 add_task
 (
+async
 function
-*
 test_changeUPLoginOnUPForm_dont
 (
 )
@@ -2556,7 +2544,7 @@ addLogin
 login1
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -2743,8 +2731,8 @@ login1
 ;
 add_task
 (
+async
 function
-*
 test_changeUPLoginOnUPForm_change
 (
 )
@@ -2780,7 +2768,7 @@ addLogin
 login1
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3014,8 +3002,8 @@ notifyp1
 ;
 add_task
 (
+async
 function
-*
 test_changePLoginOnUPForm
 (
 )
@@ -3051,7 +3039,7 @@ addLogin
 login2
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3261,8 +3249,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 test_changePLoginOnPForm
 (
 )
@@ -3289,7 +3277,7 @@ form
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3493,8 +3481,8 @@ login2
 ;
 add_task
 (
+async
 function
-*
 test_checkUPSaveText
 (
 )
@@ -3514,7 +3502,7 @@ popup
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3523,7 +3511,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -3672,8 +3659,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_checkPSaveText
 (
 )
@@ -3693,7 +3680,7 @@ popup
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3702,7 +3689,6 @@ subtst_notifications_6
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -3851,8 +3837,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_capture2pw0un
 (
 )
@@ -3890,7 +3876,7 @@ logins
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -3899,7 +3885,6 @@ subtst_notifications_2pw_0un
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -3992,8 +3977,8 @@ yet
 ;
 add_task
 (
+async
 function
-*
 test_change2pw0unExistingDifferentUP
 (
 )
@@ -4046,7 +4031,7 @@ addLogin
 login1B
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -4055,7 +4040,6 @@ subtst_notifications_2pw_0un
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -4221,8 +4205,8 @@ login1B
 ;
 add_task
 (
+async
 function
-*
 test_change2pw0unExistingDifferentP
 (
 )
@@ -4275,7 +4259,7 @@ addLogin
 login2B
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -4284,7 +4268,6 @@ subtst_notifications_2pw_0un
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -4449,8 +4432,8 @@ login2B
 ;
 add_task
 (
+async
 function
-*
 test_change2pw0unExistingWithSameP
 (
 )
@@ -4505,7 +4488,7 @@ addLogin
 login2
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -4514,7 +4497,6 @@ subtst_notifications_2pw_0un
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -4686,8 +4668,8 @@ login2
 ;
 add_task
 (
+async
 function
-*
 test_changeUPLoginOnPUpdateForm
 (
 )
@@ -4722,7 +4704,7 @@ addLogin
 login1
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -4956,8 +4938,8 @@ notifyp1
 ;
 add_task
 (
+async
 function
-*
 test_recipeCaptureFields_NewLogin
 (
 )
@@ -4983,7 +4965,7 @@ use
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -5216,8 +5198,8 @@ used
 ;
 add_task
 (
+async
 function
-*
 test_recipeCaptureFields_ExistingLogin
 (
 )
@@ -5251,7 +5233,7 @@ login
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -5260,7 +5242,6 @@ subtst_notifications_2pw_1un_1text
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -5441,8 +5422,8 @@ removeAllLogins
 ;
 add_task
 (
+async
 function
-*
 test_noShowPasswordOnDismissal
 (
 )
@@ -5464,7 +5445,7 @@ dismissed
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -5472,8 +5453,8 @@ subtst_notifications_1
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -5533,7 +5514,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promiseHidden
 ;
 info
@@ -5570,7 +5551,7 @@ click
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 let

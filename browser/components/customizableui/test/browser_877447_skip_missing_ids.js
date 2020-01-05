@@ -226,13 +226,13 @@ placements
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

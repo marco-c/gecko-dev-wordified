@@ -49,8 +49,8 @@ only
 .
 add_task
 (
+async
 function
-*
 testTempPermissionOnReload
 (
 )
@@ -80,7 +80,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -88,8 +88,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -178,7 +178,7 @@ temp
 permission
 )
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -201,10 +201,10 @@ reload
 )
 )
 ;
-yield
+await
 reloaded
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -287,7 +287,7 @@ reloadButton
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -390,7 +390,7 @@ button
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -445,7 +445,7 @@ reloadMenuItem
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -505,8 +505,8 @@ tabs
 .
 add_task
 (
+async
 function
-*
 testTempPermissionOnReloadAllTabs
 (
 )
@@ -536,7 +536,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -544,8 +544,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -617,7 +617,7 @@ button
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -671,7 +671,7 @@ reloadMenuItem
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -731,8 +731,8 @@ tab
 .
 add_task
 (
+async
 function
-*
 testTempPermissionOnNavigation
 (
 )
@@ -763,7 +763,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -771,8 +771,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -846,7 +846,7 @@ to
 another
 domain
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -876,7 +876,7 @@ org
 "
 )
 ;
-yield
+await
 loaded
 ;
 /
@@ -941,7 +941,7 @@ the
 original
 domain
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -971,7 +971,7 @@ com
 "
 )
 ;
-yield
+await
 loaded
 ;
 /

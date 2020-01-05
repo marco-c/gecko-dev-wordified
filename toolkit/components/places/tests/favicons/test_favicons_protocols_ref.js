@@ -71,12 +71,12 @@ png
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -135,7 +135,7 @@ png
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -181,7 +181,7 @@ png
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -200,7 +200,7 @@ icon
 +
 PAGE_URL
 ;
-yield
+await
 compareFavicons
 (
 PAGE_ICON_URL
@@ -247,7 +247,7 @@ devicePixelRatio
 0
 }
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -283,7 +283,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -319,7 +319,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -355,7 +355,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -391,7 +391,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -427,7 +427,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -463,7 +463,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -511,7 +511,7 @@ page
 with
 ref
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -526,7 +526,7 @@ other
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -541,7 +541,7 @@ ICON16_URL
 false
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -556,7 +556,7 @@ ICON32_URL
 false
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -598,7 +598,7 @@ retained
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -663,7 +663,7 @@ unref
 ed
 url
 .
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -713,7 +713,7 @@ devicePixelRatio
 1
 }
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils
@@ -751,7 +751,7 @@ icon
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 PlacesUtils

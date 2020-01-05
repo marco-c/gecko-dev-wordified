@@ -92,8 +92,8 @@ button
 .
 add_task
 (
+async
 function
-*
 addToolbarWith2SpringsAndDownloadsButton
 (
 )
@@ -289,7 +289,7 @@ spring2Id
 ]
 )
 ;
-yield
+await
 removeCustomToolbars
 (
 )
@@ -308,8 +308,8 @@ button
 .
 add_task
 (
+async
 function
-*
 addSeparatorsAroundDownloadsButton
 (
 )
@@ -461,7 +461,7 @@ separator2Id
 ]
 )
 ;
-yield
+await
 removeCustomToolbars
 (
 )
@@ -480,8 +480,8 @@ button
 .
 add_task
 (
+async
 function
-*
 addSpacersAroundDownloadsButton
 (
 )
@@ -633,7 +633,7 @@ spacer2Id
 ]
 )
 ;
-yield
+await
 removeCustomToolbars
 (
 )
@@ -643,13 +643,13 @@ removeCustomToolbars
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

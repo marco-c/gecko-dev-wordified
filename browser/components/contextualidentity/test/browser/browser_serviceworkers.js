@@ -161,8 +161,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -175,7 +175,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -221,8 +221,8 @@ infos
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -293,7 +293,7 @@ wait
 for
 tab
 load
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -327,7 +327,7 @@ allRegistered
 )
 )
 {
-yield
+await
 promiseAllRegistered
 (
 )
@@ -363,7 +363,7 @@ of
 infos
 )
 {
-yield
+await
 promiseUnregister
 (
 info

@@ -170,8 +170,8 @@ backgroundScript
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -186,14 +186,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -203,7 +203,7 @@ onmessage_removelistener
 "
 )
 ;
-yield
+await
 extension
 .
 unload

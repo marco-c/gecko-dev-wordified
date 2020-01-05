@@ -125,13 +125,13 @@ tab
 .
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -292,13 +292,13 @@ link
 /
 add_task
 (
+async
 function
-*
 test_new_remote_window_flags_target_blank
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -309,8 +309,8 @@ url
 :
 ANCHOR_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -324,7 +324,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -340,7 +340,7 @@ browser
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 assertFlags
@@ -348,7 +348,7 @@ assertFlags
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -379,8 +379,8 @@ open
 /
 add_task
 (
+async
 function
-*
 test_new_remote_window_flags_window_open
 (
 )
@@ -394,7 +394,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -405,8 +405,8 @@ url
 :
 SCRIPT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -414,7 +414,7 @@ browser
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 assertFlags
@@ -422,7 +422,7 @@ assertFlags
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -458,8 +458,8 @@ open
 /
 add_task
 (
+async
 function
-*
 test_new_remote_window_flags_content_open
 (
 )
@@ -473,7 +473,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -482,8 +482,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -507,7 +507,7 @@ _blank
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 assertFlags
@@ -515,7 +515,7 @@ assertFlags
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

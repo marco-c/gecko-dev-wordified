@@ -186,8 +186,8 @@ messages
 work
 add_task
 (
+async
 function
-*
 test_simple_args
 (
 )
@@ -209,7 +209,7 @@ random
 let
 result
 =
-yield
+await
 worker
 .
 post
@@ -257,8 +257,8 @@ a
 message
 add_task
 (
+async
 function
-*
 test_no_args
 (
 )
@@ -266,7 +266,7 @@ test_no_args
 let
 result
 =
-yield
+await
 worker
 .
 post
@@ -308,8 +308,8 @@ promise
 work
 add_task
 (
+async
 function
-*
 test_promise_args
 (
 )
@@ -341,7 +341,7 @@ JSON
 stringify
 (
 (
-yield
+await
 Promise
 .
 resolve
@@ -359,7 +359,7 @@ message
 let
 result
 =
-yield
+await
 worker
 .
 post
@@ -397,8 +397,8 @@ promise
 work
 add_task
 (
+async
 function
-*
 test_delayed_promise_args
 (
 )
@@ -448,7 +448,7 @@ JSON
 stringify
 (
 (
-yield
+await
 Promise
 .
 resolve
@@ -466,7 +466,7 @@ message
 let
 result
 =
-yield
+await
 worker
 .
 post
@@ -506,8 +506,8 @@ appropriate
 errors
 add_task
 (
+async
 function
-*
 test_rejected_promise_args
 (
 )
@@ -537,7 +537,7 @@ error
 ;
 try
 {
-yield
+await
 worker
 .
 post
@@ -608,8 +608,8 @@ argument
 transfer
 add_task
 (
+async
 function
-*
 test_transfer_args
 (
 )
@@ -671,7 +671,7 @@ let
 result
 =
 (
-yield
+await
 worker
 .
 post
@@ -808,8 +808,8 @@ of
 Meta
 add_task
 (
+async
 function
-*
 test_transfer_with_meta
 (
 )
@@ -891,7 +891,7 @@ let
 result
 =
 (
-yield
+await
 worker
 .
 post
@@ -1027,15 +1027,15 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_throw_error
 (
 )
 {
 try
 {
-yield
+await
 worker
 .
 post

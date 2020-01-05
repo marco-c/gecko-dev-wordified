@@ -108,19 +108,16 @@ do_test_pending
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -342,7 +339,7 @@ exists
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -354,7 +351,7 @@ length
 0
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -376,7 +373,7 @@ created
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -391,7 +388,7 @@ length
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -476,6 +473,8 @@ do_test_finished
 (
 )
 }
+)
+(
 )
 ;
 }

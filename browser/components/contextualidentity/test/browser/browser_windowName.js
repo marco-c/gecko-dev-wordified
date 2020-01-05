@@ -79,8 +79,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -93,7 +93,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -133,8 +133,8 @@ open_newwindow
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -181,7 +181,7 @@ getBrowserForTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -189,7 +189,7 @@ browserLoaded
 browser1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -258,7 +258,7 @@ getBrowserForTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -266,7 +266,7 @@ browserLoaded
 browser2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -330,7 +330,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -346,13 +346,13 @@ BASE_URI
 new
 "
 }
+async
 function
-*
 (
 opts
 )
 {
-yield
+await
 (
 new
 content

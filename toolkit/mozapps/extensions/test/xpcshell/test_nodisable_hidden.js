@@ -158,8 +158,8 @@ disabled
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -235,7 +235,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 NORMAL_ID
@@ -445,8 +445,8 @@ disabled
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -521,7 +521,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 SYSTEM_ID

@@ -469,8 +469,8 @@ cohort
 }
 add_task
 (
+async
 function
-*
 no_request_if_prefed_off
 (
 )
@@ -503,7 +503,7 @@ geoSpecificDefaults
 false
 )
 ;
-yield
+await
 asyncInit
 (
 )
@@ -512,7 +512,7 @@ checkNoRequest
 (
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -562,7 +562,7 @@ metadata
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -621,8 +621,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 should_get_geo_defaults_only_once
 (
 )
@@ -706,7 +706,7 @@ FR
 "
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -727,7 +727,7 @@ name
 kTestEngineName
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -744,7 +744,7 @@ correctly
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -829,7 +829,7 @@ trigger
 a
 request
 .
-yield
+await
 asyncReInit
 (
 )
@@ -855,8 +855,8 @@ kTestEngineName
 ;
 add_task
 (
+async
 function
-*
 should_request_when_countryCode_not_set
 (
 )
@@ -876,7 +876,7 @@ countryCode
 "
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -885,7 +885,7 @@ checkRequest
 (
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -895,13 +895,13 @@ promiseAfterCache
 ;
 add_task
 (
+async
 function
-*
 should_recheck_if_interval_expired
 (
 )
 {
-yield
+await
 forceExpiration
 (
 )
@@ -915,7 +915,7 @@ now
 (
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -924,7 +924,7 @@ checkRequest
 (
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -943,7 +943,7 @@ updated
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -995,8 +995,8 @@ kYearInSeconds
 ;
 add_task
 (
+async
 function
-*
 should_recheck_when_broken_hash
 (
 )
@@ -1056,7 +1056,7 @@ completed
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -1082,7 +1082,7 @@ searchDefaultHash
 broken
 "
 ;
-yield
+await
 promiseSaveGlobalMetadata
 (
 metadata
@@ -1114,7 +1114,7 @@ asyncReInit
 (
 )
 ;
-yield
+await
 unInitPromise
 ;
 /
@@ -1179,14 +1179,14 @@ search
 .
 isInitialized
 )
-yield
+await
 reInitPromise
 ;
 checkRequest
 (
 )
 ;
-yield
+await
 commitPromise
 ;
 /
@@ -1204,7 +1204,7 @@ value
 .
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -1288,14 +1288,14 @@ time
 "
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
 ;
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -1361,7 +1361,7 @@ yet
 another
 request
 .
-yield
+await
 asyncReInit
 (
 )
@@ -1387,8 +1387,8 @@ kTestEngineName
 ;
 add_task
 (
+async
 function
-*
 should_remember_cohort_id
 (
 )
@@ -1460,7 +1460,7 @@ a
 new
 request
 .
-yield
+await
 forceExpiration
 (
 )
@@ -1472,7 +1472,7 @@ promiseAfterCache
 (
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -1481,7 +1481,7 @@ checkRequest
 (
 )
 ;
-yield
+await
 commitPromise
 ;
 /
@@ -1568,7 +1568,7 @@ longer
 sending
 it
 .
-yield
+await
 forceExpiration
 (
 )
@@ -1579,7 +1579,7 @@ promiseAfterCache
 (
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -1589,7 +1589,7 @@ checkRequest
 cohort
 )
 ;
-yield
+await
 commitPromise
 ;
 do_check_eq
@@ -1614,8 +1614,8 @@ PREF_INVALID
 ;
 add_task
 (
+async
 function
-*
 should_retry_after_failure
 (
 )
@@ -1667,12 +1667,12 @@ a
 new
 request
 .
-yield
+await
 forceExpiration
 (
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -1704,7 +1704,7 @@ call
 forceExpiration
 again
 .
-yield
+await
 asyncReInit
 (
 )
@@ -1718,8 +1718,8 @@ checkRequest
 ;
 add_task
 (
+async
 function
-*
 should_honor_retry_after_header
 (
 )
@@ -1771,7 +1771,7 @@ a
 new
 request
 .
-yield
+await
 forceExpiration
 (
 )
@@ -1792,7 +1792,7 @@ promiseAfterCache
 (
 )
 ;
-yield
+await
 asyncReInit
 (
 )
@@ -1801,7 +1801,7 @@ checkRequest
 (
 )
 ;
-yield
+await
 commitPromise
 ;
 /
@@ -1818,7 +1818,7 @@ updated
 let
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )
@@ -1878,7 +1878,7 @@ not
 be
 triggered
 .
-yield
+await
 asyncReInit
 (
 )

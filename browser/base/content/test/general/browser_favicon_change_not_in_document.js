@@ -35,8 +35,8 @@ html
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -214,7 +214,7 @@ true
 }
 )
 ;
-yield
+await
 tabLoaded
 ;
 expectedFavicon
@@ -244,7 +244,7 @@ defer
 (
 )
 ;
-yield
+await
 haveChanged
 .
 promise

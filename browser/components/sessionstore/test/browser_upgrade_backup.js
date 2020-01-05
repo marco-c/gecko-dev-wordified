@@ -80,26 +80,6 @@ gre
 /
 modules
 /
-Task
-.
-jsm
-"
-this
-)
-;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 Preferences
 .
 jsm
@@ -181,12 +161,8 @@ backup
 var
 prepareTest
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -244,7 +220,6 @@ return
 result
 ;
 }
-)
 ;
 /
 *
@@ -266,12 +241,8 @@ array
 var
 getUpgradeBackups
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -310,7 +281,7 @@ in
 the
 backup
 directory
-yield
+await
 iterator
 .
 forEach
@@ -384,12 +355,11 @@ return
 backups
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -401,12 +371,12 @@ until
 initialization
 is
 complete
-yield
+await
 SessionStore
 .
 promiseInitialized
 ;
-yield
+await
 SessionFile
 .
 wipe
@@ -418,8 +388,8 @@ wipe
 ;
 add_task
 (
+async
 function
-*
 test_upgrade_backup
 (
 )
@@ -427,7 +397,7 @@ test_upgrade_backup
 let
 test
 =
-yield
+await
 prepareTest
 (
 )
@@ -448,7 +418,7 @@ backup
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -463,7 +433,7 @@ test
 contents
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -481,7 +451,7 @@ read
 initializes
 the
 SessionWorker
-yield
+await
 SessionFile
 .
 write
@@ -526,7 +496,7 @@ set
 is
 (
 (
-yield
+await
 OS
 .
 File
@@ -552,7 +522,7 @@ created
 let
 data
 =
-yield
+await
 OS
 .
 File
@@ -631,7 +601,7 @@ random
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -644,7 +614,7 @@ clean
 newContents
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -656,7 +626,7 @@ read
 Reinitialize
 the
 SessionWorker
-yield
+await
 SessionFile
 .
 write
@@ -681,7 +651,7 @@ the
 backup
 data
 =
-yield
+await
 OS
 .
 File
@@ -724,8 +694,8 @@ changed
 ;
 add_task
 (
+async
 function
-*
 test_upgrade_backup_removal
 (
 )
@@ -733,7 +703,7 @@ test_upgrade_backup_removal
 let
 test
 =
-yield
+await
 prepareTest
 (
 )
@@ -768,7 +738,7 @@ many
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -811,7 +781,7 @@ nextUpgradeBackup
 )
 )
 {
-yield
+await
 OS
 .
 File
@@ -829,7 +799,7 @@ nextUpgradeBackup
 create
 dummy
 backups
-yield
+await
 OS
 .
 File
@@ -847,7 +817,7 @@ upgradeBackupPrefix
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -865,7 +835,7 @@ upgradeBackupPrefix
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -883,7 +853,7 @@ upgradeBackupPrefix
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -901,7 +871,7 @@ upgradeBackupPrefix
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -919,7 +889,7 @@ upgradeBackupPrefix
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -946,7 +916,7 @@ backups
 let
 backups
 =
-yield
+await
 getUpgradeBackups
 (
 )
@@ -956,7 +926,7 @@ getUpgradeBackups
 trigger
 new
 backup
-yield
+await
 SessionFile
 .
 read
@@ -974,7 +944,7 @@ read
 initializes
 the
 SessionWorker
-yield
+await
 SessionFile
 .
 write
@@ -1036,7 +1006,7 @@ set
 is
 (
 (
-yield
+await
 OS
 .
 File
@@ -1072,7 +1042,7 @@ count
 let
 newBackups
 =
-yield
+await
 getUpgradeBackups
 (
 )
@@ -1187,7 +1157,7 @@ removed
 "
 )
 ;
-yield
+await
 SessionFile
 .
 write
@@ -1210,7 +1180,7 @@ trigger
 anything
 backups
 =
-yield
+await
 getUpgradeBackups
 (
 )

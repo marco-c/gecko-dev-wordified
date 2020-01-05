@@ -53,8 +53,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -101,7 +101,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -153,7 +153,7 @@ removeItem
 id
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -183,7 +183,7 @@ frecency
 should
 increase
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits

@@ -93,12 +93,12 @@ disabled
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -123,7 +123,7 @@ false
 }
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -144,12 +144,12 @@ contents
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -170,7 +170,7 @@ hide
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 CustomizableUI

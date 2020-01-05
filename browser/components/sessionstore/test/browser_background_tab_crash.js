@@ -189,8 +189,8 @@ closed
 .
 *
 /
+async
 function
-*
 setupBackgroundTabs
 (
 testFn
@@ -264,7 +264,7 @@ loadURI
 NON_REMOTE_PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -289,7 +289,7 @@ process
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -305,7 +305,7 @@ tab1
 .
 linkedBrowser
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -316,7 +316,7 @@ remoteBrowser1
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -332,7 +332,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -451,7 +451,7 @@ browser
 .
 .
 .
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -460,7 +460,7 @@ gBrowser
 initialTab
 )
 ;
-yield
+await
 testFn
 (
 [
@@ -469,7 +469,7 @@ tab2
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -477,7 +477,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -552,8 +552,8 @@ state
 .
 *
 /
+async
 function
-*
 crashBackgroundTabs
 (
 tabs
@@ -654,7 +654,7 @@ t
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -668,7 +668,7 @@ linkedBrowser
 false
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -676,7 +676,7 @@ all
 remotenessChangePromises
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -774,8 +774,8 @@ pending
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -801,7 +801,7 @@ this
 /
 test
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -918,17 +918,17 @@ demand
 /
 add_task
 (
+async
 function
-*
 test_background_crash_simple
 (
 )
 {
-yield
+await
 setupBackgroundTabs
 (
+async
 function
-*
 (
 [
 tab1
@@ -951,7 +951,7 @@ now
 .
 .
 .
-yield
+await
 crashBackgroundTabs
 (
 [
@@ -994,7 +994,7 @@ null
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1003,7 +1003,7 @@ gBrowser
 tab1
 )
 ;
-yield
+await
 tabCrashedPagePromise
 ;
 /
@@ -1024,7 +1024,7 @@ promiseTabRestored
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1033,7 +1033,7 @@ gBrowser
 tab2
 )
 ;
-yield
+await
 tabRestored
 ;
 }
@@ -1085,13 +1085,13 @@ shown
 /
 add_task
 (
+async
 function
-*
 test_background_crash_autosubmit_backlogged
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1116,11 +1116,11 @@ true
 }
 )
 ;
-yield
+await
 setupBackgroundTabs
 (
+async
 function
-*
 (
 [
 tab1
@@ -1143,7 +1143,7 @@ now
 .
 .
 .
-yield
+await
 crashBackgroundTabs
 (
 [
@@ -1170,7 +1170,7 @@ promiseTabRestored
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1179,7 +1179,7 @@ gBrowser
 tab1
 )
 ;
-yield
+await
 tabRestored
 ;
 /
@@ -1199,7 +1199,7 @@ promiseTabRestored
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1208,13 +1208,13 @@ gBrowser
 tab2
 )
 ;
-yield
+await
 tabRestored
 ;
 }
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -1328,8 +1328,8 @@ restore
 /
 add_task
 (
+async
 function
-*
 test_background_crash_multiple
 (
 )
@@ -1341,11 +1341,11 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 setupBackgroundTabs
 (
+async
 function
-*
 (
 [
 tab1
@@ -1368,7 +1368,7 @@ now
 .
 .
 .
-yield
+await
 crashBackgroundTabs
 (
 [
@@ -1411,7 +1411,7 @@ null
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1420,7 +1420,7 @@ gBrowser
 tab1
 )
 ;
-yield
+await
 tabCrashedPagePromise
 ;
 /
@@ -1438,7 +1438,7 @@ tab
 .
 .
 .
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1447,11 +1447,11 @@ gBrowser
 initialTab
 )
 ;
-yield
+await
 setupBackgroundTabs
 (
+async
 function
-*
 (
 [
 tab3
@@ -1459,7 +1459,7 @@ tab4
 ]
 )
 {
-yield
+await
 crashBackgroundTabs
 (
 [
@@ -1486,7 +1486,7 @@ promiseTabRestored
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1495,7 +1495,7 @@ gBrowser
 tab2
 )
 ;
-yield
+await
 tabRestored
 ;
 /
@@ -1531,7 +1531,7 @@ null
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1540,7 +1540,7 @@ gBrowser
 tab4
 )
 ;
-yield
+await
 tabCrashedPagePromise
 ;
 /
@@ -1560,7 +1560,7 @@ promiseTabRestored
 tab3
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1569,7 +1569,7 @@ gBrowser
 tab3
 )
 ;
-yield
+await
 tabRestored
 ;
 }

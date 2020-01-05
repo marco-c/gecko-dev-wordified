@@ -788,8 +788,8 @@ recursive
 }
 add_task
 (
+async
 function
-*
 test_downloads
 (
 )
@@ -967,14 +967,14 @@ false
 )
 ;
 }
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1004,7 +1004,7 @@ the
 url
 property
 .
-yield
+await
 testDownload
 (
 {
@@ -1031,7 +1031,7 @@ a
 filename
 property
 .
-yield
+await
 testDownload
 (
 {
@@ -1071,7 +1071,7 @@ filename
 with
 subdirs
 .
-yield
+await
 testDownload
 (
 {
@@ -1122,7 +1122,7 @@ with
 existing
 subdirs
 .
-yield
+await
 testDownload
 (
 {
@@ -1191,7 +1191,7 @@ Windows
 path
 separator
 .
-yield
+await
 testDownload
 (
 {
@@ -1252,7 +1252,7 @@ subdir
 skipping
 parts
 .
-yield
+await
 testDownload
 (
 {
@@ -1309,7 +1309,7 @@ touch
 FILE_NAME
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1361,7 +1361,7 @@ touch
 FILE_NAME
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1391,7 +1391,7 @@ download
 in
 invalid
 url
-yield
+await
 download
 (
 {
@@ -1474,7 +1474,7 @@ an
 empty
 path
 .
-yield
+await
 download
 (
 {
@@ -1579,7 +1579,7 @@ txt
 "
 )
 ;
-yield
+await
 download
 (
 {
@@ -1655,7 +1655,7 @@ if
 WINDOWS
 )
 {
-yield
+await
 download
 (
 {
@@ -1747,7 +1747,7 @@ path
 containing
 .
 .
-yield
+await
 download
 (
 {
@@ -1849,7 +1849,7 @@ path
 containing
 .
 .
-yield
+await
 download
 (
 {
@@ -1961,7 +1961,7 @@ Hello
 world
 "
 ;
-yield
+await
 testDownload
 (
 {
@@ -2005,7 +2005,7 @@ without
 a
 given
 filename
-yield
+await
 testDownload
 (
 {
@@ -2039,7 +2039,7 @@ killTheBlob
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2051,8 +2051,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_download_post
 (
 )
@@ -2360,7 +2360,7 @@ manifest
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2414,7 +2414,7 @@ option
 let
 result
 =
-yield
+await
 download
 (
 {
@@ -2448,7 +2448,7 @@ GET
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2499,7 +2499,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2541,7 +2541,7 @@ values
 .
 result
 =
-yield
+await
 download
 (
 {
@@ -2594,7 +2594,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2656,7 +2656,7 @@ headers
 .
 result
 =
-yield
+await
 download
 (
 {
@@ -2718,7 +2718,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2784,7 +2784,7 @@ headers
 .
 result
 =
-yield
+await
 download
 (
 {
@@ -2848,7 +2848,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2916,7 +2916,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2991,7 +2991,7 @@ log
 "
 )
 ;
-yield
+await
 extension
 .
 unload

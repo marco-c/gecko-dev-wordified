@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -449,13 +449,13 @@ array
 ;
 add_task
 (
+async
 function
-*
 reorder_nonexistent_guid
 (
 )
 {
-yield
+await
 Assert
 .
 rejects
@@ -498,8 +498,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 reorder
 (
 )
@@ -623,7 +623,7 @@ sorted
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -777,7 +777,7 @@ push
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -813,7 +813,7 @@ i
 let
 item
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -924,7 +924,7 @@ n
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -960,7 +960,7 @@ i
 let
 item
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1085,7 +1085,7 @@ n
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1121,7 +1121,7 @@ i
 let
 item
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1161,7 +1161,7 @@ position
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -1171,7 +1171,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -1240,8 +1240,8 @@ positions
 ;
 add_task
 (
+async
 function
-*
 move_and_reorder
 (
 )
@@ -1251,7 +1251,7 @@ move_and_reorder
 Start
 clean
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1263,7 +1263,7 @@ eraseEverything
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1296,7 +1296,7 @@ unfiledGuid
 let
 f1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1324,7 +1324,7 @@ unfiledGuid
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1355,7 +1355,7 @@ guid
 let
 f2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1383,7 +1383,7 @@ unfiledGuid
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1414,7 +1414,7 @@ guid
 let
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1445,7 +1445,7 @@ guid
 let
 bm5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1502,7 +1502,7 @@ natural
 insertion
 order
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1539,7 +1539,7 @@ index
 =
 0
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1551,7 +1551,7 @@ bm1
 ;
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1575,7 +1575,7 @@ index
 ;
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1599,7 +1599,7 @@ index
 ;
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1623,7 +1623,7 @@ index
 ;
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1647,7 +1647,7 @@ index
 ;
 bm5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1704,7 +1704,7 @@ get
 messed
 up
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1726,7 +1726,7 @@ guid
 ;
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1750,7 +1750,7 @@ index
 ;
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1774,7 +1774,7 @@ index
 ;
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1798,7 +1798,7 @@ index
 ;
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1822,7 +1822,7 @@ index
 ;
 bm5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1849,8 +1849,8 @@ index
 ;
 add_task
 (
+async
 function
-*
 reorder_empty_folder_invalid_children
 (
 )
@@ -1860,7 +1860,7 @@ reorder_empty_folder_invalid_children
 Start
 clean
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1872,7 +1872,7 @@ eraseEverything
 let
 f1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1928,7 +1928,7 @@ empty
 folder
 threw
 .
-yield
+await
 PlacesUtils
 .
 bookmarks

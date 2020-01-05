@@ -562,8 +562,8 @@ originalSyncedTabsInternal
 =
 null
 ;
+async
 function
-*
 testClean
 (
 )
@@ -618,7 +618,7 @@ _internal
 =
 originalSyncedTabsInternal
 ;
-yield
+await
 new
 Promise
 (
@@ -667,13 +667,13 @@ hide
 }
 add_task
 (
+async
 function
-*
 testSyncedTabsSidebarList
 (
 )
 {
-yield
+await
 SidebarUI
 .
 show
@@ -828,7 +828,7 @@ FIXTURE
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -881,7 +881,7 @@ it
 here
 as
 well
-yield
+await
 syncedTabsDeckComponent
 .
 tabListComponent
@@ -1159,13 +1159,13 @@ testClean
 ;
 add_task
 (
+async
 function
-*
 testSyncedTabsSidebarFilteredList
 (
 )
 {
-yield
+await
 SidebarUI
 .
 show
@@ -1305,7 +1305,7 @@ FIXTURE
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -1358,7 +1358,7 @@ it
 here
 as
 well
-yield
+await
 syncedTabsDeckComponent
 .
 tabListComponent
@@ -1401,7 +1401,7 @@ blur
 (
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 tabListComponent
@@ -1628,7 +1628,7 @@ a
 lastUsed
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 tabListComponent
@@ -1685,8 +1685,8 @@ testClean
 ;
 add_task
 (
+async
 function
-*
 testSyncedTabsSidebarStatus
 (
 )
@@ -1696,7 +1696,7 @@ accountExists
 =
 false
 ;
-yield
+await
 SidebarUI
 .
 show
@@ -1822,7 +1822,7 @@ error
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -1903,7 +1903,7 @@ accountExists
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -1956,7 +1956,7 @@ accountExists
 =
 true
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -2014,7 +2014,7 @@ isConfiguredToSyncTabs
 =
 true
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -2095,7 +2095,7 @@ resolve
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -2183,7 +2183,7 @@ mock
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -2242,13 +2242,13 @@ testClean
 ;
 add_task
 (
+async
 function
-*
 testSyncedTabsSidebarContextMenu
 (
 )
 {
-yield
+await
 SidebarUI
 .
 show
@@ -2388,7 +2388,7 @@ FIXTURE
 )
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
@@ -2441,7 +2441,7 @@ it
 here
 as
 well
-yield
+await
 syncedTabsDeckComponent
 .
 tabListComponent
@@ -2590,8 +2590,7 @@ syncedTabsRefreshFilter
 "
 ]
 ;
-yield
-*
+await
 testContextMenu
 (
 syncedTabsDeckComponent
@@ -2755,8 +2754,7 @@ false
 ]
 ]
 ;
-yield
-*
+await
 testContextMenu
 (
 syncedTabsDeckComponent
@@ -2931,8 +2929,7 @@ false
 ]
 ]
 ;
-yield
-*
+await
 testContextMenu
 (
 syncedTabsDeckComponent
@@ -3106,8 +3103,7 @@ false
 ]
 ]
 ;
-yield
-*
+await
 testContextMenu
 (
 syncedTabsDeckComponent
@@ -3386,8 +3382,8 @@ ID
 ;
 }
 }
+async
 function
-*
 testContextMenu
 (
 syncedTabsDeckComponent
@@ -3576,7 +3572,7 @@ height
 4
 )
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouseAtPoint
@@ -3596,7 +3592,7 @@ button
 chromeWindow
 )
 ;
-yield
+await
 promisePopupShown
 ;
 is
@@ -3652,7 +3648,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 ;
 }

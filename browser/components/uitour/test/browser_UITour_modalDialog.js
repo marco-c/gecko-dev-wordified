@@ -505,8 +505,8 @@ tests
 [
 taskify
 (
+async
 function
-*
 test_modal_dialog_while_opening_tooltip
 (
 )
@@ -635,7 +635,7 @@ test
 )
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (
@@ -657,10 +657,10 @@ assigned
 100
 )
 ;
-yield
+await
 panelShown
 ;
-yield
+await
 hideInfoPromise
 (
 )

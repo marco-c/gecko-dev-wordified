@@ -208,8 +208,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -655,7 +655,7 @@ back
 to
 title
 sort
-yield
+await
 PlacesUtils
 .
 keywords
@@ -676,7 +676,7 @@ a
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -922,7 +922,7 @@ promiseOnItemVisited
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -937,7 +937,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 waitForVisited
 ;
 do_print

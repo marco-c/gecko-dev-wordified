@@ -231,8 +231,8 @@ test
 .
 add_task
 (
+async
 function
-*
 test_hasEngineWithURL
 (
 )
@@ -244,7 +244,7 @@ deprecated
 synchronous
 initialization
 .
-yield
+await
 asyncInit
 (
 )

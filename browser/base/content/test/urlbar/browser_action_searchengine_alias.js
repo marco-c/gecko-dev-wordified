@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -109,7 +109,7 @@ engine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -186,7 +186,7 @@ clearHistory
 }
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -286,7 +286,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 tabPromise
 ;
 is

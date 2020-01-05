@@ -39,8 +39,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -198,7 +198,7 @@ a
 simple
 visit
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits

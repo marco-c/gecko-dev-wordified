@@ -243,19 +243,15 @@ true
 var
 check_history
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
 let
 sessionHistory
 =
-yield
+await
 get_remote_history
 (
 gBrowser
@@ -382,7 +378,6 @@ title
 ;
 }
 }
-)
 ;
 function
 clear_history
@@ -418,12 +413,8 @@ history
 var
 waitForLoad
 =
-Task
-.
 async
-(
 function
-*
 (
 uri
 )
@@ -477,7 +468,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -511,7 +502,6 @@ contentTitle
 )
 ;
 }
-)
 ;
 /
 /
@@ -527,12 +517,8 @@ history
 var
 waitForLoadWithFlags
 =
-Task
-.
 async
-(
 function
-*
 (
 uri
 flags
@@ -573,7 +559,7 @@ null
 null
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -645,17 +631,12 @@ contentTitle
 ;
 }
 }
-)
 ;
 var
 back
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -673,7 +654,7 @@ goBack
 (
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -685,17 +666,12 @@ index
 -
 ;
 }
-)
 ;
 var
 forward
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -713,7 +689,7 @@ goForward
 (
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -725,7 +701,6 @@ index
 +
 ;
 }
-)
 ;
 /
 /
@@ -760,8 +735,8 @@ retains
 history
 add_task
 (
+async
 function
-*
 test_navigation
 (
 )
@@ -819,7 +794,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -884,7 +859,7 @@ info
 Load
 another
 page
-yield
+await
 waitForLoad
 (
 "
@@ -937,7 +912,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -957,7 +932,7 @@ non
 -
 remote
 page
-yield
+await
 waitForLoad
 (
 "
@@ -1003,7 +978,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1021,7 +996,7 @@ Load
 a
 remote
 page
-yield
+await
 waitForLoad
 (
 "
@@ -1074,7 +1049,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1086,7 +1061,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1127,7 +1102,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1139,7 +1114,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1180,7 +1155,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1192,7 +1167,7 @@ info
 "
 )
 ;
-yield
+await
 forward
 (
 )
@@ -1233,7 +1208,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1245,7 +1220,7 @@ info
 "
 )
 ;
-yield
+await
 forward
 (
 )
@@ -1286,7 +1261,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1298,7 +1273,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1339,7 +1314,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1381,7 +1356,7 @@ length
 1
 )
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -1434,7 +1409,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1487,8 +1462,8 @@ browser
 synchronously
 add_task
 (
+async
 function
-*
 test_synchronous
 (
 )
@@ -1546,7 +1521,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -1621,7 +1596,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1672,7 +1647,7 @@ same
 "
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1744,7 +1719,7 @@ org
 DUMMY_PATH
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1802,7 +1777,7 @@ same
 "
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1884,8 +1859,8 @@ normal
 loads
 add_task
 (
+async
 function
-*
 test_loadflags
 (
 )
@@ -1934,7 +1909,7 @@ true
 }
 )
 ;
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -1961,7 +1936,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1986,7 +1961,7 @@ with
 some
 custom
 flags
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -2025,7 +2000,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -2045,7 +2020,7 @@ non
 -
 remote
 page
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -2072,7 +2047,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -2090,7 +2065,7 @@ Load
 another
 remote
 page
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -2129,7 +2104,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )

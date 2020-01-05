@@ -29,13 +29,13 @@ zero
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -76,7 +76,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -91,7 +91,7 @@ path
 Add
 pages
 .
-yield
+await
 db
 .
 execute
@@ -156,7 +156,7 @@ test3_______
 Add
 keywords
 .
-yield
+await
 db
 .
 execute
@@ -216,7 +216,7 @@ index
 =
 0
 ;
-yield
+await
 db
 .
 execute
@@ -638,7 +638,7 @@ bookmark8___
 Add
 postData
 .
-yield
+await
 db
 .
 execute
@@ -664,7 +664,7 @@ someOtherAnno
 )
 )
 ;
-yield
+await
 db
 .
 execute
@@ -833,7 +833,7 @@ postData3
 )
 )
 ;
-yield
+await
 db
 .
 close
@@ -845,8 +845,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -870,7 +870,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -882,7 +882,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -897,8 +897,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_keywords
 (
 )
@@ -926,7 +926,7 @@ preferred
 let
 entry1
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -974,7 +974,7 @@ postData1
 let
 entry2
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1022,7 +1022,7 @@ postData2
 let
 entry3
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1068,7 +1068,7 @@ null
 let
 entry4
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1091,7 +1091,7 @@ null
 let
 entry5
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1141,7 +1141,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -1171,7 +1171,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "
@@ -1201,7 +1201,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 "

@@ -77,8 +77,8 @@ confuses
 completeDefaultIndex
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_1
 (
 )
@@ -95,7 +95,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -126,7 +126,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -154,7 +154,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -164,8 +164,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_2
 (
 )
@@ -182,7 +182,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -213,7 +213,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -244,7 +244,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -254,8 +254,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_3
 (
 )
@@ -272,7 +272,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -303,7 +303,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -337,7 +337,7 @@ link
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -347,8 +347,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_4
 (
 )
@@ -365,7 +365,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -396,7 +396,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -433,7 +433,7 @@ link
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -443,8 +443,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_5
 (
 )
@@ -461,7 +461,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -492,7 +492,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -517,7 +517,7 @@ illa
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -527,8 +527,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_not_autofill_ws_6
 (
 )
@@ -545,7 +545,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -576,7 +576,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -598,7 +598,7 @@ mozilla
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

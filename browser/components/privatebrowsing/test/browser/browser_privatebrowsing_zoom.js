@@ -87,8 +87,8 @@ bug
 )
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -97,7 +97,7 @@ let
 win
 =
 (
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -114,7 +114,7 @@ let
 tabAbout
 =
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -133,7 +133,7 @@ let
 tabMozilla
 =
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -216,7 +216,7 @@ to
 about
 :
 tab
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -234,7 +234,7 @@ back
 to
 mozilla
 tab
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -289,7 +289,7 @@ reset
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -310,7 +310,7 @@ tabAbout
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

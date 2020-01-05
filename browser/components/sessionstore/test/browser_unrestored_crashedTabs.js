@@ -126,13 +126,13 @@ A
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -141,7 +141,7 @@ true
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -152,13 +152,13 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 TabStateFlusher
 .
 flush
@@ -316,7 +316,7 @@ the
 selected
 browser
 .
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -378,7 +378,7 @@ selectedTab
 =
 unrestoredTab
 ;
-yield
+await
 promiseTabRestored
 (
 unrestoredTab
@@ -501,7 +501,7 @@ reviveCrashedTab
 originalTab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 originalTab
@@ -512,7 +512,7 @@ originalTab
 Clean
 up
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab

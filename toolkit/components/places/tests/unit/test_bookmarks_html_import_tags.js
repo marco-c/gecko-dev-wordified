@@ -164,8 +164,8 @@ tags
 /
 add_task
 (
+async
 function
-*
 test_import_tags
 (
 )
@@ -208,7 +208,7 @@ html
 if
 (
 (
-yield
+await
 OS
 .
 File
@@ -219,7 +219,7 @@ HTMLFile
 )
 )
 )
-yield
+await
 OS
 .
 File
@@ -263,7 +263,7 @@ bookmarkList
 .
 add
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -307,7 +307,7 @@ a
 HTML
 file
 .
-yield
+await
 BookmarkHTMLUtils
 .
 exportToFile
@@ -333,7 +333,7 @@ of
 bookmarkList
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -358,7 +358,7 @@ the
 HTML
 file
 .
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile

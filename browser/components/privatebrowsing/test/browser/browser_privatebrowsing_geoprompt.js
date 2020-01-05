@@ -82,8 +82,8 @@ mode
 .
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -128,12 +128,9 @@ aWindow
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -152,7 +149,7 @@ addTab
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -193,7 +190,7 @@ while
 notification
 )
 {
-yield
+await
 new
 Promise
 (
@@ -308,12 +305,14 @@ removeCurrentTab
 ;
 }
 )
+(
+)
 ;
 }
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -336,7 +335,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -344,7 +343,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 checkGeolocation
 (
 false
@@ -354,7 +353,7 @@ win
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -382,7 +381,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -390,7 +389,7 @@ browserLoaded
 privateBrowser
 )
 ;
-yield
+await
 checkGeolocation
 (
 true
@@ -400,7 +399,7 @@ privateWin
 /
 /
 Cleanup
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -408,7 +407,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

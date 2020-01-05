@@ -65,8 +65,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_engineUpdate
 (
 )
@@ -110,7 +110,7 @@ ONE_DAY_IN_MS
 *
 1000
 ;
-yield
+await
 asyncInit
 (
 )
@@ -120,7 +120,7 @@ let
 engine
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -193,7 +193,7 @@ gDataUrl
 +
 FILENAME
 ;
-yield
+await
 new
 Promise
 (

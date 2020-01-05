@@ -95,29 +95,6 @@ defineLazyModuleGetter
 (
 this
 "
-Task
-"
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetter
-(
-this
-"
 fxAccounts
 "
 "
@@ -292,7 +269,7 @@ signOut
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -340,7 +317,7 @@ html
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -545,12 +522,12 @@ reject
 )
 ;
 }
-yield
+await
 deferred
 .
 promise
 ;
-yield
+await
 promisePrefsOpened
 ;
 }
@@ -580,7 +557,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -641,7 +618,7 @@ tab
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -681,7 +658,7 @@ to
 be
 shown
 .
-yield
+await
 checkVisibilities
 (
 tab
@@ -755,7 +732,7 @@ signOut
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -824,7 +801,7 @@ uri
 expected_url
 )
 ;
-yield
+await
 setSignedInUser
 (
 )
@@ -832,7 +809,7 @@ setSignedInUser
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -885,7 +862,7 @@ done
 its
 thing
 .
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -903,7 +880,7 @@ to
 be
 shown
 .
-yield
+await
 checkVisibilities
 (
 tab
@@ -970,7 +947,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -1013,7 +990,7 @@ let
 tab
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -1027,7 +1004,7 @@ signin
 "
 )
 ;
-yield
+await
 checkVisibilities
 (
 tab
@@ -1102,7 +1079,7 @@ toggleOfflineStatus
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -1155,7 +1132,7 @@ let
 tab
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -1169,7 +1146,7 @@ signin
 "
 )
 ;
-yield
+await
 checkVisibilities
 (
 tab
@@ -1238,7 +1215,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -1281,7 +1258,7 @@ tab
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -1321,7 +1298,7 @@ to
 be
 shown
 .
-yield
+await
 checkVisibilities
 (
 tab
@@ -1389,7 +1366,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -1426,7 +1403,7 @@ uri
 expected_url
 )
 ;
-yield
+await
 setSignedInUser
 (
 )
@@ -1434,7 +1411,7 @@ setSignedInUser
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -1448,7 +1425,7 @@ signup
 "
 )
 ;
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -1466,7 +1443,7 @@ to
 be
 shown
 .
-yield
+await
 checkVisibilities
 (
 tab
@@ -1536,7 +1513,7 @@ signOut
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -1572,7 +1549,7 @@ uri
 expected_url
 )
 ;
-yield
+await
 setSignedInUser
 (
 )
@@ -1582,7 +1559,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -1677,7 +1654,7 @@ signOut
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -1893,7 +1870,7 @@ fxAccountsCommon
 DEFAULT_STORAGE_FILENAME
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1978,7 +1955,7 @@ accounts
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -2056,7 +2033,7 @@ path
 let
 response
 =
-yield
+await
 readyPromise
 ;
 /
@@ -2078,7 +2055,7 @@ URL
 let
 expected
 =
-yield
+await
 fxAccounts
 .
 promiseAccountsForceSigninURI
@@ -2098,7 +2075,7 @@ expected
 let
 userData
 =
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -2156,7 +2133,7 @@ value
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -2166,7 +2143,7 @@ remove
 fxAccountsStorage
 )
 ;
-yield
+await
 OS
 .
 File
@@ -2212,7 +2189,7 @@ signOut
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -2321,7 +2298,7 @@ in
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -2399,7 +2376,7 @@ path
 let
 response
 =
-yield
+await
 readyPromise
 ;
 /
@@ -2420,7 +2397,7 @@ URL
 let
 expected
 =
-yield
+await
 fxAccounts
 .
 promiseAccountsSignUpURI
@@ -2449,7 +2426,7 @@ user
 let
 userData
 =
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -2495,7 +2472,7 @@ value
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -2530,7 +2507,7 @@ removeCurrentTab
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -2560,7 +2537,7 @@ com
 "
 )
 ;
-yield
+await
 setSignedInUser
 (
 )
@@ -2568,7 +2545,7 @@ setSignedInUser
 let
 tab
 =
-yield
+await
 promiseNewTabLoadEvent
 (
 "
@@ -2607,7 +2584,7 @@ load
 "
 )
 ;
-yield
+await
 signOut
 (
 )
@@ -2620,7 +2597,7 @@ the
 new
 load
 .
-yield
+await
 loadPromise
 ;
 is
@@ -2673,7 +2650,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -2726,7 +2703,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -2792,7 +2769,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -2852,7 +2829,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -2916,7 +2893,7 @@ gBrowser
 removeCurrentTab
 (
 )
-*
+async
 run
 (
 )
@@ -2976,7 +2953,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -3061,7 +3038,7 @@ removeCurrentTab
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -3122,7 +3099,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -3209,7 +3186,7 @@ removeCurrentTab
 )
 ;
 }
-*
+async
 run
 (
 )
@@ -3272,7 +3249,7 @@ let
 url
 ]
 =
-yield
+await
 promiseNewTabWithIframeLoadEvent
 (
 "
@@ -3329,12 +3306,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -3355,7 +3329,7 @@ desc
 ;
 try
 {
-yield
+await
 testCase
 .
 run
@@ -3365,7 +3339,7 @@ run
 }
 finally
 {
-yield
+await
 testCase
 .
 teardown
@@ -3379,6 +3353,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

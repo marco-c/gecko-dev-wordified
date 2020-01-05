@@ -468,8 +468,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_bookmarks
 (
 )
@@ -2383,7 +2383,7 @@ fetch
 let
 u
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4428,7 +4428,7 @@ DEFAULT_INDEX
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

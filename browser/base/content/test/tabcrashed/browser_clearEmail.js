@@ -92,8 +92,8 @@ server
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -265,7 +265,7 @@ it
 back
 on
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -364,8 +364,8 @@ address
 /
 add_task
 (
+async
 function
-*
 test_clear_email
 (
 )
@@ -381,8 +381,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -487,7 +487,7 @@ getTabForBrowser
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -575,7 +575,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -586,7 +586,7 @@ SSTabRestored
 "
 )
 ;
-yield
+await
 crashReport
 ;
 is

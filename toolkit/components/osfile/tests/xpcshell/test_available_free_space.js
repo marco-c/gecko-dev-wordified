@@ -168,8 +168,8 @@ getAvailableFreeSpace
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -218,7 +218,7 @@ test
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -241,7 +241,7 @@ user
 let
 availableBytes
 =
-yield
+await
 OS
 .
 File

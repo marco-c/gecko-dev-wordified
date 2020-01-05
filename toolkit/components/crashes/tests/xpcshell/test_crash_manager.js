@@ -108,26 +108,6 @@ gre
 /
 modules
 /
-Task
-.
-jsm
-"
-this
-)
-;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 osfile
 .
 jsm
@@ -281,8 +261,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_constructor_ok
 (
 )
@@ -338,8 +318,8 @@ created
 ;
 add_task
 (
+async
 function
-*
 test_constructor_invalid
 (
 )
@@ -371,8 +351,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_get_manager
 (
 )
@@ -380,7 +360,7 @@ test_get_manager
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -397,7 +377,7 @@ obtained
 "
 )
 ;
-yield
+await
 m
 .
 createDummyDump
@@ -405,7 +385,7 @@ createDummyDump
 true
 )
 ;
-yield
+await
 m
 .
 createDummyDump
@@ -429,8 +409,8 @@ properly
 .
 add_task
 (
+async
 function
-*
 test_pending_dumps
 (
 )
@@ -438,7 +418,7 @@ test_pending_dumps
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -483,7 +463,7 @@ ids
 .
 push
 (
-yield
+await
 m
 .
 createDummyDump
@@ -502,7 +482,7 @@ i
 )
 ;
 }
-yield
+await
 m
 .
 createIgnoredDumpFile
@@ -516,7 +496,7 @@ false
 let
 entries
 =
-yield
+await
 m
 .
 pendingDumps
@@ -695,8 +675,8 @@ properly
 .
 add_task
 (
+async
 function
-*
 test_submitted_dumps
 (
 )
@@ -704,7 +684,7 @@ test_submitted_dumps
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -730,7 +710,7 @@ i
 +
 )
 {
-yield
+await
 m
 .
 createDummyDump
@@ -739,7 +719,7 @@ true
 )
 ;
 }
-yield
+await
 m
 .
 createIgnoredDumpFile
@@ -753,7 +733,7 @@ true
 let
 entries
 =
-yield
+await
 m
 .
 submittedDumps
@@ -779,7 +759,7 @@ detected
 let
 hrID
 =
-yield
+await
 m
 .
 createDummyDump
@@ -794,7 +774,7 @@ true
 ;
 entries
 =
-yield
+await
 m
 .
 submittedDumps
@@ -866,8 +846,8 @@ inactivity
 .
 add_task
 (
+async
 function
-*
 test_store_expires
 (
 )
@@ -875,7 +855,7 @@ test_store_expires
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -898,7 +878,7 @@ value
 let
 store
 =
-yield
+await
 m
 .
 _getStore
@@ -922,7 +902,7 @@ m
 _store
 )
 ;
-yield
+await
 sleep
 (
 300
@@ -960,8 +940,8 @@ works
 .
 add_task
 (
+async
 function
-*
 test_unprocessed_events_files
 (
 )
@@ -969,12 +949,12 @@ test_unprocessed_events_files
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -997,7 +977,7 @@ foo
 0
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1020,7 +1000,7 @@ bar
 0
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1046,7 +1026,7 @@ baz
 let
 paths
 =
-yield
+await
 m
 .
 _getUnprocessedEventsFiles
@@ -1082,8 +1062,8 @@ time
 .
 add_task
 (
+async
 function
-*
 test_aggregate_events_locking
 (
 )
@@ -1091,7 +1071,7 @@ test_aggregate_events_locking
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -1144,8 +1124,8 @@ deleted
 .
 add_task
 (
+async
 function
-*
 test_malformed_files_deleted
 (
 )
@@ -1153,12 +1133,12 @@ test_malformed_files_deleted
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1187,7 +1167,7 @@ nbar
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1205,7 +1185,7 @@ count
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -1224,7 +1204,7 @@ length
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1253,8 +1233,8 @@ ignored
 .
 add_task
 (
+async
 function
-*
 test_aggregate_ignore_unknown_events
 (
 )
@@ -1262,12 +1242,12 @@ test_aggregate_ignore_unknown_events
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1288,7 +1268,7 @@ id1
 "
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1313,7 +1293,7 @@ dummy
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1330,7 +1310,7 @@ count
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1347,7 +1327,7 @@ count
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1367,8 +1347,8 @@ count
 ;
 add_task
 (
+async
 function
-*
 test_prune_old
 (
 )
@@ -1376,7 +1356,7 @@ test_prune_old
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -1411,7 +1391,7 @@ now
 10000
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1432,7 +1412,7 @@ id1
 "
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -1449,7 +1429,7 @@ id2
 newDate
 )
 ;
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -1459,7 +1439,7 @@ aggregateEventsFiles
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -1476,7 +1456,7 @@ length
 2
 )
 ;
-yield
+await
 m
 .
 pruneOldCrashes
@@ -1496,7 +1476,7 @@ getTime
 ;
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -1574,7 +1554,7 @@ as
 JS
 dates
 .
-yield
+await
 m
 .
 pruneOldCrashes
@@ -1594,7 +1574,7 @@ getTime
 ;
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -1616,8 +1596,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_schedule_maintenance
 (
 )
@@ -1625,12 +1605,12 @@ test_schedule_maintenance
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1678,7 +1658,7 @@ PURGE_OLDER_THAN_DAYS
 1000
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -1699,7 +1679,7 @@ id2
 "
 )
 ;
-yield
+await
 m
 .
 scheduleMaintenance
@@ -1710,7 +1690,7 @@ scheduleMaintenance
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -1827,8 +1807,8 @@ OK
 ;
 add_task
 (
+async
 function
-*
 test_main_crash_event_file
 (
 )
@@ -1843,7 +1823,7 @@ Checker
 (
 )
 ;
-yield
+await
 ac
 .
 promiseInit
@@ -1904,7 +1884,7 @@ MyValue
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -2012,7 +1992,7 @@ ping
 n
 "
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -2032,7 +2012,7 @@ fileContent
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -2050,7 +2030,7 @@ count
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -2206,7 +2186,7 @@ DUMMY_DATE
 let
 found
 =
-yield
+await
 ac
 .
 promiseFindPing
@@ -2365,7 +2345,7 @@ out
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -2385,8 +2365,8 @@ count
 ;
 add_task
 (
+async
 function
-*
 test_main_crash_event_file_noenv
 (
 )
@@ -2401,7 +2381,7 @@ Checker
 (
 )
 ;
-yield
+await
 ac
 .
 promiseInit
@@ -2445,12 +2425,12 @@ n
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -2470,7 +2450,7 @@ fileContent
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -2488,7 +2468,7 @@ count
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -2571,7 +2551,7 @@ DUMMY_DATE
 let
 found
 =
-yield
+await
 ac
 .
 promiseFindPing
@@ -2654,7 +2634,7 @@ environment
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -2674,8 +2654,8 @@ count
 ;
 add_task
 (
+async
 function
-*
 test_crash_submission_event_file
 (
 )
@@ -2683,12 +2663,12 @@ test_crash_submission_event_file
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -2709,7 +2689,7 @@ crash1
 "
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -2786,7 +2766,7 @@ crash2
 "
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -2818,7 +2798,7 @@ nbp
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -2836,7 +2816,7 @@ count
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -3096,7 +3076,7 @@ getTime
 ;
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -3116,8 +3096,8 @@ count
 ;
 add_task
 (
+async
 function
-*
 test_multiline_crash_id_rejected
 (
 )
@@ -3125,12 +3105,12 @@ test_multiline_crash_id_rejected
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 createEventsFile
@@ -3153,7 +3133,7 @@ nid2
 "
 )
 ;
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -3163,7 +3143,7 @@ aggregateEventsFiles
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -3199,8 +3179,8 @@ mark
 .
 add_task
 (
+async
 function
-*
 test_high_water_mark
 (
 )
@@ -3208,7 +3188,7 @@ test_high_water_mark
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -3216,7 +3196,7 @@ getManager
 let
 store
 =
-yield
+await
 m
 .
 _getStore
@@ -3243,7 +3223,7 @@ i
 +
 )
 {
-yield
+await
 m
 .
 createEventsFile
@@ -3272,7 +3252,7 @@ i
 let
 count
 =
-yield
+await
 m
 .
 aggregateEventsFiles
@@ -3310,7 +3290,7 @@ collected
 .
 store
 =
-yield
+await
 m
 .
 _getStore
@@ -3336,8 +3316,8 @@ HIGH_WATER_DAILY_THRESHOLD
 ;
 add_task
 (
+async
 function
-*
 test_addCrash
 (
 )
@@ -3345,7 +3325,7 @@ test_addCrash
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -3353,7 +3333,7 @@ getManager
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -3370,7 +3350,7 @@ length
 0
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3389,7 +3369,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3408,7 +3388,7 @@ hang
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3427,7 +3407,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3446,7 +3426,7 @@ hang
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3465,7 +3445,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3484,7 +3464,7 @@ hang
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3503,7 +3483,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3522,7 +3502,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3541,7 +3521,7 @@ item
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -3562,7 +3542,7 @@ DUMMY_DATE_2
 ;
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -4228,8 +4208,8 @@ CRASH_TYPE_HANG
 ;
 add_task
 (
+async
 function
-*
 test_child_process_crash_ping
 (
 )
@@ -4237,7 +4217,7 @@ test_child_process_crash_ping
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -4285,7 +4265,7 @@ Checker
 (
 )
 ;
-yield
+await
 ac
 .
 promiseInit
@@ -4323,14 +4303,14 @@ ping
 let
 id
 =
-yield
+await
 m
 .
 createDummyDump
 (
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -4364,7 +4344,7 @@ ping
 }
 )
 ;
-yield
+await
 m
 .
 _pingPromise
@@ -4372,7 +4352,7 @@ _pingPromise
 let
 found
 =
-yield
+await
 ac
 .
 promiseFindPing
@@ -4556,14 +4536,14 @@ UNEXPECTED_PROCESSES
 let
 id
 =
-yield
+await
 m
 .
 createDummyDump
 (
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -4597,7 +4577,7 @@ ping
 }
 )
 ;
-yield
+await
 m
 .
 _pingPromise
@@ -4618,7 +4598,7 @@ ping
 let
 found
 =
-yield
+await
 ac
 .
 promiseFindPing
@@ -4667,8 +4647,8 @@ types
 ;
 add_task
 (
+async
 function
-*
 test_generateSubmissionID
 (
 )
@@ -4676,7 +4656,7 @@ test_generateSubmissionID
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -4773,8 +4753,8 @@ id
 ;
 add_task
 (
+async
 function
-*
 test_addSubmissionAttemptAndResult
 (
 )
@@ -4782,7 +4762,7 @@ test_addSubmissionAttemptAndResult
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -4790,7 +4770,7 @@ getManager
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -4807,7 +4787,7 @@ length
 0
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -4826,7 +4806,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addSubmissionAttempt
@@ -4842,7 +4822,7 @@ submission
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 addSubmissionResult
@@ -4863,7 +4843,7 @@ SUBMISSION_RESULT_OK
 ;
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -4973,8 +4953,8 @@ SUBMISSION_RESULT_OK
 ;
 add_task
 (
+async
 function
-*
 test_addSubmissionAttemptEarlyCall
 (
 )
@@ -4982,7 +4962,7 @@ test_addSubmissionAttemptEarlyCall
 let
 m
 =
-yield
+await
 getManager
 (
 )
@@ -4990,7 +4970,7 @@ getManager
 let
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -5076,7 +5056,7 @@ SUBMISSION_RESULT_OK
 }
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -5097,7 +5077,7 @@ DUMMY_DATE
 ;
 crashes
 =
-yield
+await
 m
 .
 getCrashes
@@ -5114,7 +5094,7 @@ length
 1
 )
 ;
-yield
+await
 p
 ;
 let
@@ -5210,8 +5190,8 @@ SUBMISSION_RESULT_OK
 ;
 add_task
 (
+async
 function
-*
 test_setCrashClassifications
 (
 )
@@ -5219,12 +5199,12 @@ test_setCrashClassifications
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -5243,7 +5223,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 setCrashClassifications
@@ -5264,7 +5244,7 @@ let
 classifications
 =
 (
-yield
+await
 m
 .
 getCrashes
@@ -5300,8 +5280,8 @@ a
 ;
 add_task
 (
+async
 function
-*
 test_setRemoteCrashID
 (
 )
@@ -5309,12 +5289,12 @@ test_setRemoteCrashID
 let
 m
 =
-yield
+await
 getManager
 (
 )
 ;
-yield
+await
 m
 .
 addCrash
@@ -5333,7 +5313,7 @@ crash
 DUMMY_DATE
 )
 ;
-yield
+await
 m
 .
 setRemoteCrashID
@@ -5355,7 +5335,7 @@ Assert
 equal
 (
 (
-yield
+await
 m
 .
 getCrashes

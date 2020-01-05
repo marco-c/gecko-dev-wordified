@@ -145,8 +145,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -160,7 +160,7 @@ size
 0
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -292,7 +292,7 @@ registered
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -435,7 +435,7 @@ persist
 through
 a
 restart
-yield
+await
 promiseShutdownManager
 (
 )
@@ -454,7 +454,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseWebExtensionStartup
 (
 )
@@ -483,7 +483,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -651,7 +651,7 @@ userDisabled
 =
 false
 ;
-yield
+await
 promiseWebExtensionStartup
 (
 )
@@ -706,7 +706,7 @@ ID
 )
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -727,12 +727,12 @@ should
 work
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseWriteWebManifestForExtension
 (
 {
@@ -772,7 +772,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseWebExtensionStartup
 (
 )
@@ -780,7 +780,7 @@ promiseWebExtensionStartup
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -896,7 +896,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -906,8 +906,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 test_manifest_localization
 (
 )
@@ -924,7 +924,7 @@ mozilla
 org
 "
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -938,7 +938,7 @@ webextension_3
 true
 )
 ;
-yield
+await
 promiseWebExtensionStartup
 (
 )
@@ -946,7 +946,7 @@ promiseWebExtensionStartup
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 extensionId
@@ -1001,14 +1001,14 @@ FR
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 extensionId
@@ -1057,14 +1057,14 @@ de
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 extensionId
@@ -1118,12 +1118,12 @@ a
 failure
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseWriteWebManifestForExtension
 (
 {
@@ -1152,7 +1152,7 @@ ID
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1160,7 +1160,7 @@ promiseRestartManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1190,7 +1190,7 @@ exists
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1209,12 +1209,12 @@ a
 failure
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseWriteWebManifestForExtension
 (
 {
@@ -1250,7 +1250,7 @@ ID
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1258,7 +1258,7 @@ promiseRestartManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1288,7 +1288,7 @@ exists
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1310,12 +1310,12 @@ manifest
 json
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 Promise
 .
 all
@@ -1336,7 +1336,7 @@ true
 ]
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1358,7 +1358,7 @@ org
 let
 first_addon
 =
-yield
+await
 promiseAddonByID
 (
 installrdf_id
@@ -1408,7 +1408,7 @@ org
 let
 last_addon
 =
-yield
+await
 promiseAddonByID
 (
 manifestjson_id
@@ -1420,7 +1420,7 @@ last_addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1444,8 +1444,8 @@ correctly
 .
 add_task
 (
+async
 function
-*
 test_options_ui
 (
 )
@@ -1532,7 +1532,7 @@ mozilla
 org
 "
 ;
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -1572,7 +1572,7 @@ html
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 extensionId
@@ -1644,7 +1644,7 @@ mozilla
 org
 "
 ;
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -1688,7 +1688,7 @@ true
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -1764,8 +1764,8 @@ dependencies
 .
 add_task
 (
+async
 function
-*
 test_experiments_dependencies
 (
 )
@@ -1826,7 +1826,7 @@ meh
 }
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1837,7 +1837,7 @@ addonFile
 let
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -1917,8 +1917,8 @@ correctly
 .
 add_task
 (
+async
 function
-*
 test_experiments_api
 (
 )
@@ -1983,7 +1983,7 @@ API
 }
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1994,7 +1994,7 @@ addonFile
 let
 addons
 =
-yield
+await
 AddonManager
 .
 getAddonsByTypes
@@ -2037,7 +2037,7 @@ extension
 ;
 addons
 =
-yield
+await
 AddonManager
 .
 getAddonsByTypes
@@ -2083,8 +2083,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 developerShouldOverride
 (
 )
@@ -2092,7 +2092,7 @@ developerShouldOverride
 let
 addon
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2197,7 +2197,7 @@ en
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addon
@@ -2245,8 +2245,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 developerEmpty
 (
 )
@@ -2274,7 +2274,7 @@ null
 let
 addon
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2322,7 +2322,7 @@ version
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addon
@@ -2369,8 +2369,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 authorNotString
 (
 )
@@ -2392,7 +2392,7 @@ of
 let
 addon
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2423,7 +2423,7 @@ version
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addon
@@ -2451,8 +2451,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 testThemeExtension
 (
 )
@@ -2460,7 +2460,7 @@ testThemeExtension
 let
 addon
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2513,7 +2513,7 @@ png
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addon
@@ -2653,7 +2653,7 @@ section
 .
 addon
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2694,7 +2694,7 @@ null
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addon

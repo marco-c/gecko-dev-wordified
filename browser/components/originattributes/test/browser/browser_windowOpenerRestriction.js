@@ -126,8 +126,8 @@ file_windowOpenerRestrictionTarget
 html
 "
 ;
+async
 function
-*
 testPref
 (
 aIsPrefEnabled
@@ -240,7 +240,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -248,7 +248,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -263,8 +263,8 @@ isPrefEnabled
 :
 aIsPrefEnabled
 }
+async
 function
-*
 (
 obj
 )
@@ -439,7 +439,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -490,15 +490,15 @@ correct
 Close
 Tabs
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -513,7 +513,7 @@ close
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -536,8 +536,8 @@ removeAll
 }
 add_task
 (
+async
 function
-*
 runTests
 (
 )
@@ -565,7 +565,7 @@ isolation
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -598,7 +598,7 @@ of
 tests
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -625,7 +625,7 @@ enabled
 }
 )
 ;
-yield
+await
 testPref
 (
 enabled
@@ -647,7 +647,7 @@ isolation
 is
 disabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -680,7 +680,7 @@ of
 tests
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -756,7 +756,7 @@ the
 target
 page
 .
-yield
+await
 testPref
 (
 false

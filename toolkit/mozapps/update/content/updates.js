@@ -9304,14 +9304,8 @@ wizard
 .
 *
 /
-onExtra2
-:
-Task
-.
 async
-(
-function
-*
+onExtra2
 (
 )
 {
@@ -9377,7 +9371,6 @@ cancel
 )
 ;
 }
-)
 }
 ;
 /

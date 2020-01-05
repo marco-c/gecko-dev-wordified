@@ -43,8 +43,8 @@ to
 /
 add_task
 (
+async
 function
-*
 test_background_notifications_dont_reshow_in_foreground
 (
 )
@@ -111,7 +111,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -140,7 +140,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -225,7 +225,7 @@ yet
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -291,7 +291,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -300,7 +300,7 @@ gBrowser
 tabC
 )
 ;
-yield
+await
 panelShown
 ;
 Assert
@@ -387,10 +387,10 @@ remove
 notification
 )
 ;
-yield
+await
 panelHidden
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -398,7 +398,7 @@ removeTab
 tabB
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

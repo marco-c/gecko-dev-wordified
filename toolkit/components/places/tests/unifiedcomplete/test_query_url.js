@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_no_slash
 (
 )
@@ -79,7 +79,7 @@ host
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -135,7 +135,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -163,7 +163,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -173,8 +173,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_w_slash
 (
 )
@@ -195,7 +195,7 @@ nothing
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -251,7 +251,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -282,7 +282,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -292,8 +292,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_middle
 (
 )
@@ -314,7 +314,7 @@ url
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -370,7 +370,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -410,7 +410,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -420,8 +420,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_nonhost
 (
 )
@@ -444,7 +444,7 @@ url
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -476,7 +476,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -498,7 +498,7 @@ file
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

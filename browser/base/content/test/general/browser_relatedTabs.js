@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -175,7 +175,7 @@ linkedBrowser
 )
 ;
 }
-yield
+await
 addTab
 (
 "
@@ -203,7 +203,7 @@ tabs
 0
 ]
 ;
-yield
+await
 addTab
 (
 "
@@ -222,7 +222,7 @@ test
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -244,7 +244,7 @@ gBrowser
 currentURI
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -288,7 +288,7 @@ tabs
 0
 ]
 ;
-yield
+await
 addTab
 (
 "
@@ -319,7 +319,7 @@ tabs
 3
 ]
 ;
-yield
+await
 addTab
 (
 "
@@ -352,7 +352,7 @@ pop
 )
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -375,7 +375,7 @@ selectedTab
 1
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -397,12 +397,12 @@ gBrowser
 currentURI
 )
 ;
-yield
+await
 addTab
 (
 )
 ;
-yield
+await
 addTab
 (
 "

@@ -83,8 +83,8 @@ mode
 .
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -198,7 +198,7 @@ test
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -226,7 +226,7 @@ loadURI
 testURI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -253,7 +253,7 @@ privateWin
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -276,7 +276,7 @@ loadURI
 testURI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -303,7 +303,7 @@ win
 /
 /
 Cleanup
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -311,7 +311,7 @@ closeWindow
 privateWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

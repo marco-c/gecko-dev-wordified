@@ -255,13 +255,13 @@ resolve
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -358,8 +358,8 @@ audio
 /
 add_task
 (
+async
 function
-*
 media_should_be_able_to_play_in_visible_tab
 (
 )
@@ -409,7 +409,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -419,7 +419,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -453,7 +453,7 @@ paused
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -464,7 +464,7 @@ gBrowser
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -488,7 +488,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -512,7 +512,7 @@ playing
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -524,7 +524,7 @@ false
 check_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -548,7 +548,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_enabled
 (
 )
@@ -54,7 +54,7 @@ url
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -79,7 +79,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -129,7 +129,7 @@ enabled
 false
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -172,7 +172,7 @@ enabled
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -196,7 +196,7 @@ title
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -206,8 +206,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_sync_enabled
 (
 )

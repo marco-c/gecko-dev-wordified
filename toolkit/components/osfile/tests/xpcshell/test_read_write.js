@@ -61,8 +61,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -115,8 +115,8 @@ previous
 operation
 add_test_pair
 (
+async
 function
-*
 ordering
 (
 )
@@ -149,7 +149,7 @@ random
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -173,7 +173,7 @@ string2
 let
 string3
 =
-yield
+await
 OS
 .
 File
@@ -240,12 +240,9 @@ suffix
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -305,7 +302,7 @@ copy
 let
 currentDir
 =
-yield
+await
 OS
 .
 File
@@ -330,7 +327,7 @@ EXISTING_FILE
 let
 contents
 =
-yield
+await
 OS
 .
 File
@@ -363,7 +360,7 @@ byteLength
 let
 bytesWritten
 =
-yield
+await
 OS
 .
 File
@@ -412,7 +409,7 @@ optionsBackup
 )
 )
 ;
-yield
+await
 reference_compare_files
 (
 pathSource
@@ -510,7 +507,7 @@ noOverwrite
 =
 true
 ;
-yield
+await
 OS
 .
 File
@@ -582,7 +579,7 @@ suffix
 )
 ;
 }
-yield
+await
 reference_compare_files
 (
 pathSource
@@ -680,7 +677,7 @@ LENGTH
 ;
 bytesWritten
 =
-yield
+await
 OS
 .
 File
@@ -701,7 +698,7 @@ LENGTH
 let
 array2
 =
-yield
+await
 OS
 .
 File
@@ -753,7 +750,7 @@ START
 /
 Cleanup
 .
-yield
+await
 OS
 .
 File
@@ -763,7 +760,7 @@ remove
 DEST_PATH
 )
 ;
-yield
+await
 OS
 .
 File
@@ -774,6 +771,8 @@ TMP_PATH
 )
 ;
 }
+)
+(
 )
 ;
 }

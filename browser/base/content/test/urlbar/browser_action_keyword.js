@@ -1,11 +1,11 @@
+async
 function
-*
 promise_first_result
 (
 inputText
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 inputText
@@ -59,13 +59,13 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -92,7 +92,7 @@ s
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -121,12 +121,12 @@ s
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -138,7 +138,7 @@ get
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -161,7 +161,7 @@ length
 1
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -180,8 +180,8 @@ selectedTab
 ;
 add_task
 (
+async
 function
-*
 get_keyword
 (
 )
@@ -189,7 +189,7 @@ get_keyword
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -205,7 +205,7 @@ mozilla
 let
 result
 =
-yield
+await
 promise_first_result
 (
 "
@@ -611,7 +611,7 @@ result
 }
 )
 ;
-yield
+await
 tabPromise
 ;
 is
@@ -664,7 +664,7 @@ result
 ;
 result
 =
-yield
+await
 promise_first_result
 (
 "
@@ -791,7 +791,7 @@ button
 let
 tabOpenEvent
 =
-yield
+await
 tabPromise
 ;
 let
@@ -801,7 +801,7 @@ tabOpenEvent
 .
 target
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -847,8 +847,8 @@ result
 ;
 add_task
 (
+async
 function
-*
 post_keyword
 (
 )
@@ -856,7 +856,7 @@ post_keyword
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -872,7 +872,7 @@ mozilla
 let
 result
 =
-yield
+await
 promise_first_result
 (
 "
@@ -1059,7 +1059,7 @@ result
 }
 )
 ;
-yield
+await
 tabPromise
 ;
 is
@@ -1087,7 +1087,7 @@ result
 let
 postData
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1096,8 +1096,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

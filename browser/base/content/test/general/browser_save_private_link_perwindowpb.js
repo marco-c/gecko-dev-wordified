@@ -516,8 +516,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -555,7 +555,7 @@ html
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -570,7 +570,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -621,7 +621,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -645,7 +645,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 popupShown
 ;
 let
@@ -725,7 +725,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHidden
 ;
 /
@@ -737,16 +737,16 @@ download
 let
 fileName
 =
-yield
+await
 imageDownloaded
 ;
-yield
+await
 promiseNoCacheEntry
 (
 fileName
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

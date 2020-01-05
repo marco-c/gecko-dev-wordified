@@ -61,8 +61,8 @@ available
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -126,8 +126,8 @@ available
 /
 add_task
 (
+async
 function
-*
 test_without_dump
 (
 )
@@ -143,8 +143,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -159,7 +159,7 @@ getTabForBrowser
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -177,15 +177,15 @@ tabRemoved
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -280,7 +280,7 @@ click
 }
 )
 ;
-yield
+await
 tabRemovedPromise
 ;
 }

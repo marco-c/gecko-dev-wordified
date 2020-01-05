@@ -242,12 +242,9 @@ do_register_cleanup
 )
 =
 >
-Task
-.
-spawn
 (
+async
 function
-*
 cleanup
 (
 )
@@ -259,7 +256,7 @@ added
 form
 history
 entries
-yield
+await
 updateSearchHistory
 (
 "
@@ -293,6 +290,8 @@ enabled
 ;
 }
 )
+(
+)
 )
 ;
 run_next_test
@@ -302,8 +301,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 add_test_engines
 (
 )
@@ -386,7 +385,7 @@ postEngine
 unresolvableEngine
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -468,8 +467,8 @@ Begin
 tests
 add_task
 (
+async
 function
-*
 simple_no_result_callback
 (
 )
@@ -547,7 +546,7 @@ false
 getEngine
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -557,8 +556,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 simple_no_result_callback_and_promise
 (
 )
@@ -638,7 +637,7 @@ resolve
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -682,7 +681,7 @@ length
 0
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -692,8 +691,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 simple_no_result_promise
 (
 )
@@ -709,7 +708,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -758,8 +757,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 simple_remote_no_local_result
 (
 )
@@ -775,7 +774,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -861,8 +860,8 @@ mom
 ;
 add_task
 (
+async
 function
-*
 remote_term_case_mismatch
 (
 )
@@ -878,7 +877,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -934,13 +933,13 @@ Mismatch
 ;
 add_task
 (
+async
 function
-*
 simple_local_no_remote_result
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -964,7 +963,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1023,7 +1022,7 @@ length
 0
 )
 ;
-yield
+await
 updateSearchHistory
 (
 "
@@ -1041,13 +1040,13 @@ entries
 ;
 add_task
 (
+async
 function
-*
 simple_non_ascii
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -1070,7 +1069,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1145,13 +1144,13 @@ Mozilla
 ;
 add_task
 (
+async
 function
-*
 both_local_remote_result_dedupe
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -1173,7 +1172,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1259,8 +1258,8 @@ mom
 ;
 add_task
 (
+async
 function
-*
 POST_both_local_remote_result_dedupe
 (
 )
@@ -1276,7 +1275,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1362,13 +1361,13 @@ mom
 ;
 add_task
 (
+async
 function
-*
 both_local_remote_result_dedupe2
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -1390,7 +1389,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1476,8 +1475,8 @@ modern
 ;
 add_task
 (
+async
 function
-*
 both_local_remote_result_dedupe3
 (
 )
@@ -1492,7 +1491,7 @@ entries
 also
 exist
 locally
-yield
+await
 updateSearchHistory
 (
 "
@@ -1514,7 +1513,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1600,8 +1599,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 fetch_twice_in_a_row
 (
 )
@@ -1623,7 +1622,7 @@ not
 the
 second
 .
-yield
+await
 updateSearchHistory
 (
 "
@@ -1635,7 +1634,7 @@ local
 "
 )
 ;
-yield
+await
 updateSearchHistory
 (
 "
@@ -1702,7 +1701,7 @@ false
 getEngine
 )
 ;
-yield
+await
 resultPromise1
 .
 then
@@ -1721,7 +1720,7 @@ results
 let
 result
 =
-yield
+await
 resultPromise2
 ;
 do_check_eq
@@ -1786,8 +1785,8 @@ delayed
 ;
 add_task
 (
+async
 function
-*
 fetch_twice_subset_reuse_formHistoryResult
 (
 )
@@ -1826,7 +1825,7 @@ not
 the
 second
 .
-yield
+await
 updateSearchHistory
 (
 "
@@ -1838,7 +1837,7 @@ local
 "
 )
 ;
-yield
+await
 updateSearchHistory
 (
 "
@@ -1861,7 +1860,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -1961,7 +1960,7 @@ the
 cached
 formHistoryResult
 .
-yield
+await
 updateSearchHistory
 (
 "
@@ -1976,7 +1975,7 @@ local
 let
 result2
 =
-yield
+await
 controller
 .
 fetch
@@ -2050,8 +2049,8 @@ delayed
 ;
 add_task
 (
+async
 function
-*
 both_identical_with_more_than_max_results
 (
 )
@@ -2100,7 +2099,7 @@ charCode
 +
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -2142,7 +2141,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -2295,8 +2294,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 noremote_maxLocal
 (
 )
@@ -2335,7 +2334,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -2431,8 +2430,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 someremote_maxLocal
 (
 )
@@ -2460,7 +2459,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -2626,8 +2625,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 one_of_each
 (
 )
@@ -2655,7 +2654,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -2730,8 +2729,8 @@ B
 ;
 add_task
 (
+async
 function
-*
 local_result_returned_remote_result_disabled
 (
 )
@@ -2777,7 +2776,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -2887,8 +2886,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 local_result_returned_remote_result_disabled_after_creation_of_controller
 (
 )
@@ -2934,7 +2933,7 @@ false
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3044,8 +3043,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 one_of_each_disabled_before_creation_enabled_after_creation_of_controller
 (
 )
@@ -3109,7 +3108,7 @@ true
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3184,8 +3183,8 @@ B
 ;
 add_task
 (
+async
 function
-*
 reset_suggestions_pref
 (
 )
@@ -3213,8 +3212,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 one_local_zero_remote
 (
 )
@@ -3242,7 +3241,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3334,8 +3333,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 zero_local_one_remote
 (
 )
@@ -3363,7 +3362,7 @@ maxRemoteResults
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3424,8 +3423,8 @@ A
 ;
 add_task
 (
+async
 function
-*
 stop_search
 (
 )
@@ -3482,7 +3481,7 @@ stop
 (
 )
 ;
-yield
+await
 resultPromise
 .
 then
@@ -3506,8 +3505,8 @@ result
 ;
 add_task
 (
+async
 function
-*
 empty_searchTerm
 (
 )
@@ -3540,7 +3539,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3586,8 +3585,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 slow_timeout
 (
 )
@@ -3653,7 +3652,7 @@ length
 )
 ;
 }
-yield
+await
 updateSearchHistory
 (
 "
@@ -3718,7 +3717,7 @@ resolve
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3735,7 +3734,7 @@ check_result
 result
 )
 ;
-yield
+await
 d
 .
 promise
@@ -3745,8 +3744,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 slow_stop
 (
 )
@@ -3826,7 +3825,7 @@ resolve
 0
 )
 ;
-yield
+await
 resultPromise
 .
 then
@@ -3845,7 +3844,7 @@ result
 }
 )
 ;
-yield
+await
 d
 .
 promise
@@ -3859,13 +3858,13 @@ Error
 handling
 add_task
 (
+async
 function
-*
 remote_term_mismatch
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -3889,7 +3888,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -3953,13 +3952,13 @@ length
 ;
 add_task
 (
+async
 function
-*
 http_404
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -3983,7 +3982,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -4047,13 +4046,13 @@ length
 ;
 add_task
 (
+async
 function
-*
 http_500
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -4077,7 +4076,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -4141,13 +4140,13 @@ length
 ;
 add_task
 (
+async
 function
-*
 unresolvable_server
 (
 )
 {
-yield
+await
 updateSearchHistory
 (
 "
@@ -4171,7 +4170,7 @@ SearchSuggestionController
 let
 result
 =
-yield
+await
 controller
 .
 fetch
@@ -4239,8 +4238,8 @@ Exception
 handling
 add_task
 (
+async
 function
-*
 missing_pb
 (
 )
@@ -4284,8 +4283,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 missing_engine
 (
 )
@@ -4330,8 +4329,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 invalid_engine
 (
 )
@@ -4378,8 +4377,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 no_results_requested
 (
 )
@@ -4438,8 +4437,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 minus_one_results_requested
 (
 )
@@ -4494,8 +4493,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_userContextId
 (
 )

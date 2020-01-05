@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ so
 matching
 happens
 correctly
-yield
+await
 promiseTabLoaded
 (
 baseTab

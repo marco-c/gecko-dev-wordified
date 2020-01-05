@@ -161,8 +161,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -173,7 +173,7 @@ add
 pages
 to
 history
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -181,7 +181,7 @@ addVisits
 TEST_URI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -244,7 +244,7 @@ not
 -
 bookmarked
 page
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -260,7 +260,7 @@ charset
 on
 bookmarked
 page
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -305,7 +305,7 @@ page
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -326,7 +326,7 @@ page
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -337,7 +337,7 @@ TEST_BOOKMARKED_URI
 charset
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -359,7 +359,7 @@ page
 do_check_neq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -425,7 +425,7 @@ page
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -447,7 +447,7 @@ check
 that
 has
 gone
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -460,7 +460,7 @@ TEST_BOOKMARKED_URI
 do_check_neq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI

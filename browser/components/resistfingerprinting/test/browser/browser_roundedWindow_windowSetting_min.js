@@ -169,13 +169,13 @@ initHeight
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -219,7 +219,7 @@ Height
 let
 popUpChromeUISize
 =
-yield
+await
 calcPopUpWindowChromeUISize
 (
 )
@@ -247,7 +247,7 @@ size
 let
 maxAvailSize
 =
-yield
+await
 calcMaximumAvailSize
 (
 gPopupChromeUIWidth
@@ -271,8 +271,8 @@ maxAvailHeight
 ;
 add_task
 (
+async
 function
-*
 test_window_size_setting
 (
 )
@@ -288,7 +288,7 @@ test
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -322,7 +322,7 @@ window
 .
 innerHeight
 .
-yield
+await
 testWindowSizeSetting
 (
 tab
@@ -364,7 +364,7 @@ window
 .
 outerHeight
 .
-yield
+await
 testWindowSizeSetting
 (
 tab
@@ -396,7 +396,7 @@ gPopupChromeUIHeight
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab

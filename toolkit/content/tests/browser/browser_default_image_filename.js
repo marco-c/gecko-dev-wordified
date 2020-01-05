@@ -73,8 +73,8 @@ id
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,7 +131,7 @@ gAwXEQA7
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 let
@@ -147,7 +147,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -170,7 +170,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -259,7 +259,7 @@ doCommand
 (
 )
 ;
-yield
+await
 showFilePickerPromise
 ;
 let
@@ -293,7 +293,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

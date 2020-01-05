@@ -130,12 +130,12 @@ conditions
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

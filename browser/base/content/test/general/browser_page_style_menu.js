@@ -88,8 +88,8 @@ browser
 {
 PAGE
 }
+async
 function
-*
 (
 args
 )
@@ -213,15 +213,15 @@ menu
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -242,7 +242,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -251,7 +251,7 @@ browser
 PAGE
 )
 ;
-yield
+await
 promiseStylesheetsUpdated
 (
 browser
@@ -363,7 +363,7 @@ true
 let
 validLinks
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -758,7 +758,7 @@ found
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

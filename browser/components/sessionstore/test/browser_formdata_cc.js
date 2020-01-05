@@ -80,8 +80,8 @@ collected
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -263,8 +263,8 @@ trigger
 data
 collection
 .
+async
 function
-*
 createAndRemoveTab
 (
 formValue
@@ -294,7 +294,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -306,7 +306,7 @@ Set
 form
 value
 .
-yield
+await
 setInputValue
 (
 browser
@@ -319,7 +319,7 @@ Remove
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -345,7 +345,7 @@ of
 validCCNumbers
 )
 {
-yield
+await
 createAndRemoveTab
 (
 number
@@ -411,7 +411,7 @@ of
 invalidCCNumbers
 )
 {
-yield
+await
 createAndRemoveTab
 (
 number
@@ -480,8 +480,8 @@ spawn
 (
 browser
 formValue
+async
 function
-*
 (
 newValue
 )

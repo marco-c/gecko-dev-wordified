@@ -162,8 +162,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -419,8 +419,8 @@ experiments
 .
 add_task
 (
+async
 function
-*
 test_disableExperiments
 (
 )
@@ -689,7 +689,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -718,7 +718,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -746,7 +746,7 @@ empty
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -801,7 +801,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -829,7 +829,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -878,7 +878,7 @@ active
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -928,7 +928,7 @@ PREF_EXPERIMENTS_ENABLED
 false
 )
 ;
-yield
+await
 experiments
 .
 _mainTask
@@ -954,7 +954,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1004,7 +1004,7 @@ active
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1062,7 +1062,7 @@ now
 ;
 try
 {
-yield
+await
 experiments
 .
 updateManifest
@@ -1110,7 +1110,7 @@ notify
 (
 )
 ;
-yield
+await
 experiments
 .
 _mainTask
@@ -1135,7 +1135,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1186,7 +1186,7 @@ active
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1228,12 +1228,12 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )

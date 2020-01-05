@@ -56,8 +56,8 @@ requestCompleteLog
 ;
 add_task
 (
+async
 function
-*
 testWindowsEvents
 (
 )
@@ -470,14 +470,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -558,7 +558,7 @@ window
 let
 win1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -568,7 +568,7 @@ openNewBrowserWindow
 let
 win1Id
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -623,7 +623,7 @@ focus
 let
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -664,7 +664,7 @@ window
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -674,7 +674,7 @@ openNewBrowserWindow
 let
 win2Id
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -705,7 +705,7 @@ focus
 ;
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -743,7 +743,7 @@ window
 1
 )
 ;
-yield
+await
 focusWindow
 (
 win1
@@ -751,7 +751,7 @@ win1
 ;
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -789,7 +789,7 @@ window
 2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -799,7 +799,7 @@ win2
 ;
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -834,7 +834,7 @@ window
 1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -850,7 +850,7 @@ focus
 ;
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -879,7 +879,7 @@ ID
 ;
 winId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -909,7 +909,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -921,7 +921,7 @@ events
 "
 )
 ;
-yield
+await
 extension
 .
 unload

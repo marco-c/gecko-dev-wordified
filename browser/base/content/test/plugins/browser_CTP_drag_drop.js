@@ -43,8 +43,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -141,8 +141,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -201,7 +201,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -223,7 +223,7 @@ around
 for
 delayed
 PluginBindingAttached
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -231,7 +231,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -250,8 +250,8 @@ plugins
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -283,7 +283,7 @@ call
 ?
 ?
 ?
-yield
+await
 waitForEvent
 (
 gNewWindow
@@ -294,7 +294,7 @@ null
 true
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -398,8 +398,8 @@ now
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -427,7 +427,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -488,7 +488,7 @@ around
 for
 delayed
 PluginBindingAttached
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -501,12 +501,12 @@ selectedBrowser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promisePopupNotification
 (
 "
@@ -531,13 +531,13 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 promiseWaitForFocus
 (
 gNewWindow
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -561,8 +561,8 @@ selectedBrowser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -649,7 +649,7 @@ now
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -677,7 +677,7 @@ activated
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -689,8 +689,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -851,7 +851,7 @@ panel
 .
 firstChild
 ;
-yield
+await
 promiseForCondition
 (
 condition
@@ -862,8 +862,8 @@ condition
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -897,7 +897,7 @@ click
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

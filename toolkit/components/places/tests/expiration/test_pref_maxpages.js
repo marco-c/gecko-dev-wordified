@@ -436,8 +436,8 @@ anything
 ;
 add_task
 (
+async
 function
-*
 test_pref_maxpages
 (
 )
@@ -612,7 +612,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -723,7 +723,7 @@ maxPages
 Expire
 now
 .
-yield
+await
 promiseForceExpirationStep
 (
 -
@@ -755,7 +755,7 @@ expectedNotifications
 Clean
 up
 .
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -767,7 +767,7 @@ clearMaxPages
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

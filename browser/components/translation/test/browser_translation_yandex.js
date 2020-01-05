@@ -169,8 +169,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -271,8 +271,8 @@ page
 /
 add_task
 (
+async
 function
-*
 test_yandex_translation
 (
 )
@@ -301,7 +301,7 @@ html
 let
 tab
 =
-yield
+await
 promiseTestPageLoad
 (
 url
@@ -330,15 +330,15 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -406,7 +406,7 @@ en
 let
 result
 =
-yield
+await
 client
 .
 translate
@@ -458,8 +458,8 @@ attributed
 /
 add_task
 (
+async
 function
-*
 test_yandex_attribution
 (
 )
@@ -488,7 +488,7 @@ html
 let
 tab
 =
-yield
+await
 promiseTestPageLoad
 (
 url
@@ -564,8 +564,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_preference_attribution
 (
 )
@@ -584,7 +584,7 @@ general
 let
 tab
 =
-yield
+await
 promiseTestPageLoad
 (
 prefUrl

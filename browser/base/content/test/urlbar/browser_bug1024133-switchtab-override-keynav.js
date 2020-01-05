@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_switchtab_override_keynav
 (
 )
@@ -105,7 +105,7 @@ tab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -217,7 +217,7 @@ e
 }
 )
 ;
-yield
+await
 promiseSearchComplete
 (
 )

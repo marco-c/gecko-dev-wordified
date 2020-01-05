@@ -20,8 +20,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -45,7 +45,7 @@ input
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -57,7 +57,7 @@ uri
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -105,7 +105,7 @@ countUpdates
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -140,7 +140,7 @@ countUpdates
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -148,7 +148,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

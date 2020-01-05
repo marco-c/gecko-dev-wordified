@@ -139,8 +139,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_getBookmarkedURIFor
 (
 )
@@ -184,7 +184,7 @@ and
 a
 bookmark
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -270,7 +270,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -449,7 +449,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

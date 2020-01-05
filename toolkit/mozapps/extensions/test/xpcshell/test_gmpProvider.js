@@ -516,8 +516,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notInstalled
 (
 )
@@ -575,7 +575,7 @@ false
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -924,8 +924,8 @@ pluginFullpath
 ;
 add_task
 (
+async
 function
-*
 test_installed
 (
 )
@@ -974,7 +974,7 @@ getTime
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1328,8 +1328,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_enable
 (
 )
@@ -1337,7 +1337,7 @@ test_enable
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1441,8 +1441,8 @@ PERM_CAN_DISABLE
 ;
 add_task
 (
+async
 function
-*
 test_globalEmeDisabled
 (
 )
@@ -1450,7 +1450,7 @@ test_globalEmeDisabled
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1586,8 +1586,8 @@ startup
 ;
 add_task
 (
+async
 function
-*
 test_autoUpdatePrefPersistance
 (
 )
@@ -1595,7 +1595,7 @@ test_autoUpdatePrefPersistance
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1937,8 +1937,8 @@ element
 }
 add_task
 (
+async
 function
-*
 test_pluginRegistration
 (
 )
@@ -2182,7 +2182,7 @@ clearPaths
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2276,7 +2276,7 @@ clearPaths
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2349,7 +2349,7 @@ ABI
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2438,7 +2438,7 @@ UpdateUtils
 ABI
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2539,7 +2539,7 @@ clearPaths
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2786,7 +2786,7 @@ clearPaths
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2906,8 +2906,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_periodicUpdate
 (
 )
@@ -2939,7 +2939,7 @@ true
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -3014,7 +3014,7 @@ KEY_UPDATE_LAST_CHECK
 let
 result
 =
-yield
+await
 addon
 .
 findUpdates
@@ -3064,7 +3064,7 @@ now
 ;
 result
 =
-yield
+await
 addon
 .
 findUpdates
@@ -3115,7 +3115,7 @@ gInstalledAddonId
 ;
 result
 =
-yield
+await
 addon
 .
 findUpdates

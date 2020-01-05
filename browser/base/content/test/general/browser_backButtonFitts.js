@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -64,7 +64,7 @@ dummy_page
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -73,7 +73,7 @@ gBrowser
 firstLocation
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -83,8 +83,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -268,7 +268,7 @@ maximized
 let
 resultLocation
 =
-yield
+await
 new
 Promise
 (

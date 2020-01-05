@@ -336,16 +336,16 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_history_clear
 (
 )
 {
-yield
+await
 promiseInit
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -651,7 +651,7 @@ bookmark
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -704,7 +704,7 @@ TRANSITION_LINK
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -737,7 +737,7 @@ clear
 (
 )
 ;
-yield
+await
 promiseWaitClearHistory
 ;
 /
@@ -757,7 +757,7 @@ history
 hasHistoryEntries
 )
 ;
-yield
+await
 promiseTopicObserved
 (
 PlacesUtils
@@ -765,7 +765,7 @@ PlacesUtils
 TOPIC_EXPIRATION_FINISHED
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates

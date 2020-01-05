@@ -99,8 +99,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 test_tabicon_after_bg_tab_crash
 (
 )
@@ -112,7 +112,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -123,8 +123,8 @@ url
 :
 PAGE_URL
 }
+async
 function
-*
 (
 browser
 )
@@ -146,7 +146,7 @@ set
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -155,7 +155,7 @@ gBrowser
 originalTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser

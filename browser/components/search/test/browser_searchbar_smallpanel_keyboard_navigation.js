@@ -159,13 +159,13 @@ os
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
 {
-yield
+await
 promiseNewEngine
 (
 "
@@ -190,7 +190,7 @@ left
 things
 there
 .
-yield
+await
 new
 Promise
 (
@@ -244,7 +244,7 @@ reject
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -391,8 +391,8 @@ reject
 ;
 add_task
 (
+async
 function
-*
 test_arrows
 (
 )
@@ -426,7 +426,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -1085,8 +1085,8 @@ unmodified
 ;
 add_task
 (
+async
 function
-*
 test_tab
 (
 )
@@ -1353,7 +1353,7 @@ VK_TAB
 }
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -1396,8 +1396,8 @@ focused
 ;
 add_task
 (
+async
 function
-*
 test_shift_tab
 (
 )
@@ -1450,7 +1450,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -1731,7 +1731,7 @@ true
 }
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -1774,8 +1774,8 @@ focused
 ;
 add_task
 (
+async
 function
-*
 test_alt_down
 (
 )
@@ -1828,7 +1828,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -2175,8 +2175,8 @@ selected
 ;
 add_task
 (
+async
 function
-*
 test_alt_up
 (
 )
@@ -2539,8 +2539,8 @@ anymore
 ;
 add_task
 (
+async
 function
-*
 test_tab_and_arrows
 (
 )
@@ -2827,7 +2827,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -2835,8 +2835,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_open_search
 (
 )
@@ -2849,7 +2849,7 @@ getRootDirectory
 gTestPath
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2893,7 +2893,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -3327,7 +3327,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 gBrowser

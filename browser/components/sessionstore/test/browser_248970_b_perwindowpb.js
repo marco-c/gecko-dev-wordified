@@ -340,8 +340,8 @@ filePath
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -353,7 +353,7 @@ of
 windowsToClose
 )
 {
-yield
+await
 BrowserTestUtils
 .
 closeWindow

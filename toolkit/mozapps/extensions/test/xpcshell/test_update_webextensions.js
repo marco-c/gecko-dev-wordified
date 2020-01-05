@@ -307,12 +307,8 @@ id
 var
 checkUpdates
 =
-Task
-.
 async
-(
 function
-*
 (
 aData
 aReason
@@ -771,13 +767,13 @@ json
 let
 addon
 =
-yield
+await
 awaitInstall
 ;
 let
 updates
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -794,7 +790,6 @@ return
 updates
 ;
 }
-)
 ;
 function
 run_test
@@ -851,8 +846,8 @@ applied
 .
 add_task
 (
+async
 function
-*
 checkUpdateMetadata
 (
 )
@@ -860,7 +855,7 @@ checkUpdateMetadata
 let
 update
 =
-yield
+await
 checkUpdates
 (
 {
@@ -1044,8 +1039,8 @@ succeed
 .
 add_task
 (
+async
 function
-*
 checkUpdateToWebExt
 (
 )
@@ -1053,7 +1048,7 @@ checkUpdateToWebExt
 let
 update
 =
-yield
+await
 checkUpdates
 (
 {
@@ -1170,7 +1165,7 @@ version
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1193,7 +1188,7 @@ promiseWebExtensionStartup
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 update
@@ -1246,8 +1241,8 @@ fail
 .
 add_task
 (
+async
 function
-*
 checkUpdateToRDF
 (
 )
@@ -1255,7 +1250,7 @@ checkUpdateToRDF
 let
 update
 =
-yield
+await
 checkUpdates
 (
 {
@@ -1347,7 +1342,7 @@ version
 let
 result
 =
-yield
+await
 new
 Promise
 (
@@ -1416,7 +1411,7 @@ type
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 update
@@ -1466,8 +1461,8 @@ rejected
 .
 add_task
 (
+async
 function
-*
 checkIllegalUpdateURL
 (
 )
@@ -1519,7 +1514,7 @@ let
 messages
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 (

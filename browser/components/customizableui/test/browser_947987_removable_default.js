@@ -220,8 +220,8 @@ with
 defaultArea
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -411,7 +411,7 @@ navbar
 let
 otherWin
 =
-yield
+await
 openAndLoadWindow
 (
 true
@@ -553,7 +553,7 @@ spec
 id
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 otherWin
@@ -564,13 +564,13 @@ otherWin
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

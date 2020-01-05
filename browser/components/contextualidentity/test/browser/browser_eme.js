@@ -136,8 +136,8 @@ USER_ID_PERSONAL
 =
 1
 ;
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -203,7 +203,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -588,8 +588,8 @@ keyInfo
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -602,7 +602,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -668,8 +668,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -687,7 +687,7 @@ container
 let
 defaultContainer
 =
-yield
+await
 openTabInUserContext
 (
 TEST_URL
@@ -733,7 +733,7 @@ container
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -742,8 +742,8 @@ defaultContainer
 .
 browser
 keyInfo
+async
 function
-*
 (
 aKeyInfo
 )
@@ -751,7 +751,7 @@ aKeyInfo
 let
 access
 =
-yield
+await
 content
 .
 navigator
@@ -808,7 +808,7 @@ required
 let
 mediaKeys
 =
-yield
+await
 access
 .
 createMediaKeys
@@ -840,7 +840,7 @@ the
 media
 key
 .
-yield
+await
 new
 Promise
 (
@@ -1000,7 +1000,7 @@ close
 (
 )
 ;
-yield
+await
 session
 .
 closed
@@ -1077,7 +1077,7 @@ container
 let
 personalContainer
 =
-yield
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1090,7 +1090,7 @@ html
 USER_ID_PERSONAL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1099,8 +1099,8 @@ personalContainer
 .
 browser
 keyInfo
+async
 function
-*
 (
 aKeyInfo
 )
@@ -1108,7 +1108,7 @@ aKeyInfo
 let
 access
 =
-yield
+await
 content
 .
 navigator
@@ -1165,7 +1165,7 @@ required
 let
 mediaKeys
 =
-yield
+await
 access
 .
 createMediaKeys
@@ -1203,7 +1203,7 @@ with
 default
 container
 .
-yield
+await
 session
 .
 load
@@ -1262,7 +1262,7 @@ default
 container
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1279,7 +1279,7 @@ personal
 container
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab

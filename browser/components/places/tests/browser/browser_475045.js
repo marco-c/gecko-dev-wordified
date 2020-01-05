@@ -130,8 +130,8 @@ EventUtils
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -183,7 +183,7 @@ toolbar
 collapsed
 )
 {
-yield
+await
 promiseSetToolbarVisibility
 (
 toolbar

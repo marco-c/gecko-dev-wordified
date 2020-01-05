@@ -116,8 +116,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -286,7 +286,7 @@ TRANSITION_FRAMED_LINK
 ;
 }
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits

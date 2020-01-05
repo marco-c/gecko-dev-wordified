@@ -694,12 +694,8 @@ tab
 var
 restart
 =
-Task
-.
 async
-(
 function
-*
 (
 browser
 )
@@ -747,7 +743,7 @@ tab
 state
 before
 crashing
-yield
+await
 TabStateFlusher
 .
 flush
@@ -768,7 +764,7 @@ Crash
 "
 )
 ;
-yield
+await
 promiseWaitForEvent
 (
 browser
@@ -796,19 +792,18 @@ reviveCrashedTab
 tab
 )
 ;
-yield
+await
 promiseTabLoaded
 (
 tab
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 navigate
 (
 )
@@ -840,7 +835,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -853,7 +848,7 @@ browser
 let
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -886,7 +881,7 @@ tab
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -914,7 +909,7 @@ loadURI
 DUMMY
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -926,7 +921,7 @@ browser
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -956,7 +951,7 @@ tab
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -989,7 +984,7 @@ tab
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -1021,7 +1016,7 @@ robots
 "
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1033,7 +1028,7 @@ browser
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -1065,8 +1060,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 crash
 (
 )
@@ -1111,7 +1106,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1124,7 +1119,7 @@ browser
 let
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -1157,7 +1152,7 @@ tab
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser
@@ -1178,7 +1173,7 @@ tab
 "
 )
 ;
-yield
+await
 restart
 (
 browser
@@ -1191,7 +1186,7 @@ browser
 ;
 isAppTab
 =
-yield
+await
 isBrowserAppTab
 (
 browser

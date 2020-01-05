@@ -158,8 +158,8 @@ Preferences
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -173,7 +173,7 @@ search
 .
 currentEngine
 ;
-yield
+await
 promiseNewEngine
 (
 "
@@ -226,8 +226,8 @@ hiddenOneOffs
 ;
 add_task
 (
+async
 function
-*
 test_hidden
 (
 )
@@ -275,7 +275,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -348,7 +348,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -356,8 +356,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_shown
 (
 )
@@ -418,7 +418,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -476,7 +476,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 }

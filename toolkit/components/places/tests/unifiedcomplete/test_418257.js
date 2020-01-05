@@ -110,8 +110,8 @@ endash
 /
 add_task
 (
+async
 function
-*
 test_javascript_match
 (
 )
@@ -180,7 +180,7 @@ page4
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -229,7 +229,7 @@ tagged
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -251,7 +251,7 @@ tag1
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -276,7 +276,7 @@ tag2
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -301,7 +301,7 @@ tag3
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -346,7 +346,7 @@ tags
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -401,7 +401,7 @@ page2
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -463,7 +463,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -521,7 +521,7 @@ page4
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -585,7 +585,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -662,7 +662,7 @@ tag
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

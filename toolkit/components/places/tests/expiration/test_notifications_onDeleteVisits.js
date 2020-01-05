@@ -380,8 +380,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notifications_onDeleteVisits
 (
 )
@@ -567,7 +567,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -645,7 +645,7 @@ org
 /
 "
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -817,7 +817,7 @@ historyObserver
 Expire
 now
 .
-yield
+await
 promiseForceExpirationStep
 (
 currentTest
@@ -848,7 +848,7 @@ expectedNotifications
 Clean
 up
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -857,7 +857,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -869,7 +869,7 @@ clearMaxPages
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -878,7 +878,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

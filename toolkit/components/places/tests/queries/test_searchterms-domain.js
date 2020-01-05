@@ -670,13 +670,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_searchterms_domain
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData
@@ -921,7 +921,7 @@ TRANSITION_LINK
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change1
@@ -981,7 +981,7 @@ moz
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change2
@@ -1112,7 +1112,7 @@ gone
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change3
@@ -1234,7 +1234,7 @@ z
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change4

@@ -122,8 +122,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_watch_single_path_file_deletion
 (
 )
@@ -187,7 +187,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -274,7 +274,7 @@ watchedDir
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -311,7 +311,7 @@ start
 watching
 it
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -347,7 +347,7 @@ Removing
 tmpFilePath
 )
 ;
-yield
+await
 OS
 .
 File
@@ -374,7 +374,7 @@ deleted
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -417,7 +417,7 @@ to
 unregister
 )
 .
-yield
+await
 promiseRemovePath
 (
 watcher
@@ -442,7 +442,7 @@ of
 its
 content
 .
-yield
+await
 OS
 .
 File

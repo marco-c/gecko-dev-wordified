@@ -507,8 +507,8 @@ bootstrap
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -556,7 +556,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -607,7 +607,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -635,8 +635,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -689,7 +689,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -740,7 +740,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -768,8 +768,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -817,7 +817,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -868,7 +868,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -912,8 +912,8 @@ its
 signing
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -977,7 +977,7 @@ scan
 will
 catch
 that
-yield
+await
 promiseSetExtensionModifiedTime
 (
 file
@@ -999,7 +999,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1043,7 +1043,7 @@ getActiveVersion
 2
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1076,7 +1076,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1156,7 +1156,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1194,8 +1194,8 @@ bootstrap
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1243,7 +1243,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1294,12 +1294,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1323,8 +1323,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1377,7 +1377,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1428,12 +1428,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1457,8 +1457,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1506,7 +1506,7 @@ it
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1557,12 +1557,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1602,8 +1602,8 @@ its
 signing
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1667,7 +1667,7 @@ scan
 will
 catch
 that
-yield
+await
 promiseSetExtensionModifiedTime
 (
 file
@@ -1689,7 +1689,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1734,7 +1734,7 @@ ID
 )
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1755,7 +1755,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1835,12 +1835,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1877,8 +1877,8 @@ bootstrap
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1886,7 +1886,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1903,7 +1903,7 @@ signed
 ]
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1968,7 +1968,7 @@ version
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1985,7 +1985,7 @@ clearCache
 staged
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -2003,8 +2003,8 @@ bootstrap
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2068,7 +2068,7 @@ version
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2103,7 +2103,7 @@ clearCache
 file
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -2128,8 +2128,8 @@ should
 work
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2159,7 +2159,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2209,7 +2209,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -2251,8 +2251,8 @@ staged
 install
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2300,7 +2300,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2350,7 +2350,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

@@ -149,8 +149,8 @@ infoToModify
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -158,7 +158,7 @@ setupFakeHandler
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -277,7 +277,7 @@ item
 let
 list
 =
-yield
+await
 waitForCondition
 (
 (
@@ -393,7 +393,7 @@ cmdEvent
 let
 dialog
 =
-yield
+await
 dialogLoadedPromise
 ;
 info
@@ -514,7 +514,7 @@ result
 :
 list
 =
-yield
+await
 waitForCondition
 (
 (
@@ -680,7 +680,7 @@ cmdEvent
 ;
 dialog
 =
-yield
+await
 dialogLoadedPromise
 ;
 info
@@ -863,7 +863,7 @@ result
 :
 list
 =
-yield
+await
 waitForCondition
 (
 (

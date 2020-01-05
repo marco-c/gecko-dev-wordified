@@ -64,8 +64,8 @@ file_sharedworker
 html
 "
 ;
+async
 function
-*
 getResultFromSharedworker
 (
 aBrowser
@@ -74,15 +74,15 @@ aBrowser
 let
 response
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -107,7 +107,7 @@ isolationSharedWorkerTest
 let
 result
 =
-yield
+await
 new
 Promise
 (

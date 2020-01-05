@@ -286,8 +286,8 @@ length
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -300,7 +300,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -352,8 +352,8 @@ the
 newly
 opened
 tab
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -417,7 +417,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -431,8 +431,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -456,8 +456,7 @@ userContextId
 let
 tab
 =
-yield
-*
+await
 openTabInUserContext
 (
 FILE_URI

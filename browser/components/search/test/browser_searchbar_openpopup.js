@@ -276,7 +276,6 @@ utils
 screenPixelsPerCSSPixel
 ;
 function
-*
 synthesizeNativeMouseClick
 (
 aElement
@@ -428,13 +427,13 @@ null
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
 {
-yield
+await
 promiseNewEngine
 (
 "
@@ -459,7 +458,7 @@ left
 things
 there
 .
-yield
+await
 new
 Promise
 (
@@ -513,7 +512,7 @@ reject
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -681,8 +680,8 @@ task
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -723,12 +722,11 @@ popupshowing
 listener
 )
 ;
-yield
-Task
-.
-spawn
+await
 (
 task
+)
+(
 )
 ;
 searchPopup
@@ -838,8 +836,8 @@ popup
 .
 add_no_popup_task
 (
+async
 function
-*
 open_icon_context
 (
 )
@@ -882,7 +880,7 @@ context_click
 searchIcon
 )
 ;
-yield
+await
 promise
 ;
 promise
@@ -901,7 +899,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -943,8 +941,8 @@ again
 .
 add_task
 (
+async
 function
-*
 open_empty
 (
 )
@@ -983,7 +981,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -1083,13 +1081,13 @@ popup
 "
 )
 ;
-yield
+await
 synthesizeNativeMouseClick
 (
 searchIcon
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -1177,7 +1175,6 @@ popup
 add_no_popup_task
 (
 function
-*
 click_doesnt_open_popup
 (
 )
@@ -1277,8 +1274,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 click_opens_popup
 (
 )
@@ -1317,7 +1314,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -1412,7 +1409,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -1447,8 +1444,8 @@ menu
 .
 add_no_popup_task
 (
+async
 function
-*
 right_click_doesnt_open_popup
 (
 )
@@ -1507,7 +1504,7 @@ context_click
 textbox
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -1580,7 +1577,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -1608,8 +1605,8 @@ the
 popup
 add_task
 (
+async
 function
-*
 focus_change_closes_popup
 (
 )
@@ -1648,7 +1645,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -1762,10 +1759,10 @@ true
 }
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 promise2
 ;
 textbox
@@ -1794,8 +1791,8 @@ small
 popup
 add_task
 (
+async
 function
-*
 focus_change_closes_small_popup
 (
 )
@@ -1855,7 +1852,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -1935,10 +1932,10 @@ true
 }
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 promise2
 ;
 }
@@ -1955,8 +1952,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 escape_closes_popup
 (
 )
@@ -1995,7 +1992,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -2095,7 +2092,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -2119,8 +2116,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 contextmenu_closes_popup
 (
 )
@@ -2159,7 +2156,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -2277,7 +2274,7 @@ null
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -2320,7 +2317,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -2351,8 +2348,8 @@ text
 .
 add_task
 (
+async
 function
-*
 tab_opens_popup
 (
 )
@@ -2393,7 +2390,7 @@ VK_TAB
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -2488,7 +2485,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -2524,7 +2521,6 @@ text
 add_no_popup_task
 (
 function
-*
 tab_doesnt_open_popup
 (
 )
@@ -2641,8 +2637,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 refocus_window_doesnt_open_popup_mouse
 (
 )
@@ -2681,7 +2677,7 @@ searchbar
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -2777,7 +2773,7 @@ OpenBrowserWindow
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2791,7 +2787,7 @@ newWin
 )
 )
 ;
-yield
+await
 promise
 ;
 function
@@ -2840,7 +2836,7 @@ close
 (
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -2864,7 +2860,7 @@ are
 going
 to
 .
-yield
+await
 new
 Promise
 (
@@ -2877,7 +2873,7 @@ resolve
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2890,7 +2886,7 @@ resolve
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2946,8 +2942,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 refocus_window_doesnt_open_popup_keyboard
 (
 )
@@ -2988,7 +2984,7 @@ VK_TAB
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -3084,7 +3080,7 @@ OpenBrowserWindow
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -3098,7 +3094,7 @@ newWin
 )
 )
 ;
-yield
+await
 promise
 ;
 function
@@ -3147,7 +3143,7 @@ close
 (
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -3171,7 +3167,7 @@ are
 going
 to
 .
-yield
+await
 new
 Promise
 (
@@ -3184,7 +3180,7 @@ resolve
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -3197,7 +3193,7 @@ resolve
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -3245,8 +3241,8 @@ the
 popup
 add_no_popup_task
 (
+async
 function
-*
 search_go_doesnt_open_popup
 (
 )
@@ -3302,7 +3298,7 @@ goButton
 }
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -3340,8 +3336,8 @@ click
 .
 add_task
 (
+async
 function
-*
 dont_consume_clicks
 (
 )
@@ -3380,7 +3376,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -3469,13 +3465,13 @@ popuphidden
 "
 )
 ;
-yield
+await
 synthesizeNativeMouseClick
 (
 gURLBar
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -3521,8 +3517,8 @@ the
 popup
 add_task
 (
+async
 function
-*
 drop_opens_popup
 (
 )
@@ -3570,7 +3566,7 @@ move
 window
 )
 ;
-yield
+await
 promise
 ;
 isnot
@@ -3631,7 +3627,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promise
 ;
 textbox
@@ -3661,8 +3657,8 @@ popup
 .
 add_task
 (
+async
 function
-*
 dont_rollup_oncaretmove
 (
 )
@@ -3702,7 +3698,7 @@ textbox
 }
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -4339,7 +4335,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
 textbox

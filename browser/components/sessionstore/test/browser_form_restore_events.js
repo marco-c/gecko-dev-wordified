@@ -71,8 +71,8 @@ bug
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -103,7 +103,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -113,7 +113,7 @@ browser
 /
 text
 fields
-yield
+await
 setInputValue
 (
 browser
@@ -133,7 +133,7 @@ random
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -156,7 +156,7 @@ now
 /
 /
 textareas
-yield
+await
 setInputValue
 (
 browser
@@ -176,7 +176,7 @@ random
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -216,7 +216,7 @@ Ci
 nsIFile
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -237,7 +237,7 @@ path
 /
 /
 select
-yield
+await
 setSelectedIndex
 (
 browser
@@ -253,7 +253,7 @@ index
 }
 )
 ;
-yield
+await
 setMultipleSelected
 (
 browser
@@ -276,7 +276,7 @@ indices
 /
 /
 checkbox
-yield
+await
 setInputChecked
 (
 browser
@@ -292,7 +292,7 @@ true
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -311,7 +311,7 @@ false
 /
 /
 radio
-yield
+await
 setInputChecked
 (
 browser
@@ -327,7 +327,7 @@ true
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -385,7 +385,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -394,7 +394,7 @@ tab2
 let
 inputFired
 =
-yield
+await
 getTextContent
 (
 browser2
@@ -432,7 +432,7 @@ join
 let
 changeFired
 =
-yield
+await
 getTextContent
 (
 browser2

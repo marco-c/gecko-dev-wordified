@@ -87,8 +87,8 @@ bug
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -208,7 +208,7 @@ spec
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -219,12 +219,12 @@ uriString
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -280,7 +280,7 @@ doCommand
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForErrorPage
@@ -290,7 +290,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -81,7 +81,7 @@ about
 mozilla
 "
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -211,8 +211,8 @@ present
 "
 )
 ;
+async
 function
-*
 drop
 (
 dragData
@@ -244,7 +244,7 @@ window
 let
 setHomepageDialog
 =
-yield
+await
 setHomepageDialogPromise
 ;
 ok
@@ -262,7 +262,7 @@ drop
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -413,7 +413,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 setHomepagePromise
 ;
 }
@@ -583,8 +583,7 @@ window
 )
 ;
 }
-yield
-*
+await
 drop
 (
 [
@@ -628,8 +627,7 @@ test
 "
 )
 ;
-yield
-*
+await
 drop
 (
 [
@@ -721,7 +719,7 @@ c
 "
 )
 ;
-yield
+await
 dropInvalidURI
 (
 )

@@ -1019,8 +1019,8 @@ GC
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -1046,7 +1046,7 @@ we
 get
 measurements
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1495,7 +1495,7 @@ GCs
 "
 )
 ;
-yield
+await
 Promise
 .
 all

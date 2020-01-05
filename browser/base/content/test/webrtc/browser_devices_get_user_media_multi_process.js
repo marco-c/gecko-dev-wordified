@@ -79,8 +79,8 @@ process
 "
 run
 :
+async
 function
-*
 checkMultiProcess
 (
 )
@@ -155,16 +155,16 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 true
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -186,7 +186,7 @@ promiseIndicatorWindow
 (
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -212,7 +212,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -224,7 +224,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -241,7 +241,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -260,10 +260,10 @@ shared
 "
 )
 ;
-yield
+await
 indicator
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -359,7 +359,7 @@ stream
 "
 )
 ;
-yield
+await
 expectNoObserverCalled
 (
 )
@@ -521,7 +521,7 @@ maxContentProcess
 1
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -600,7 +600,7 @@ http
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -637,17 +637,17 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 false
 true
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -663,7 +663,7 @@ false
 true
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -689,7 +689,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -701,7 +701,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -713,7 +713,7 @@ events
 "
 )
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -846,7 +846,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -872,7 +872,7 @@ tab
 s
 stream
 .
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -971,7 +971,7 @@ stream
 "
 )
 ;
-yield
+await
 checkSharingUI
 (
 {
@@ -1031,7 +1031,7 @@ the
 first
 tab
 .
-yield
+await
 ignoreObserversCalled
 (
 )
@@ -1053,7 +1053,7 @@ indicators
 are
 removed
 .
-yield
+await
 closeStream
 (
 )

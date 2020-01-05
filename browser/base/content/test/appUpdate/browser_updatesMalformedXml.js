@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testMalformedXml
 (
 )
@@ -55,7 +55,7 @@ xmlMalformed
 1
 "
 ;
-yield
+await
 runUpdateTest
 (
 updateParams
@@ -116,12 +116,12 @@ updateDetailsUrl
 )
 ;
 }
-*
+async
 cleanup
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

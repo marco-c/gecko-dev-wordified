@@ -83,8 +83,8 @@ contents
 /
 add_task
 (
+async
 function
-*
 test_same_date_same_hash
 (
 )
@@ -117,7 +117,7 @@ alone
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -168,7 +168,7 @@ count
 hash
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -240,7 +240,7 @@ backupFolder
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -261,7 +261,7 @@ which
 fallbacks
 to
 rename
-yield
+await
 PlacesBackups
 .
 create
@@ -271,7 +271,7 @@ create
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -340,7 +340,7 @@ UTF
 let
 result
 =
-yield
+await
 OS
 .
 File
@@ -383,7 +383,7 @@ jsonString
 /
 /
 Cleanup
-yield
+await
 OS
 .
 File
@@ -393,7 +393,7 @@ remove
 backupFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -423,8 +423,8 @@ backupFiles
 ;
 add_task
 (
+async
 function
-*
 test_same_date_diff_hash
 (
 )
@@ -463,7 +463,7 @@ version
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -498,7 +498,7 @@ let
 count
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -556,7 +556,7 @@ backupFolder
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -567,7 +567,7 @@ tempPath
 backupFile
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -582,7 +582,7 @@ backup
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -639,7 +639,7 @@ UTF
 let
 result
 =
-yield
+await
 OS
 .
 File
@@ -689,7 +689,7 @@ jsonString
 /
 /
 Cleanup
-yield
+await
 OS
 .
 File
@@ -699,7 +699,7 @@ remove
 mostRecentBackupFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -729,8 +729,8 @@ backupFiles
 ;
 add_task
 (
+async
 function
-*
 test_diff_date_same_hash
 (
 )
@@ -772,7 +772,7 @@ contents
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -808,7 +808,7 @@ count
 hash
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -925,7 +925,7 @@ backupFolder
 newFilename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -944,7 +944,7 @@ has
 been
 renamed
 correctly
-yield
+await
 PlacesBackups
 .
 create
@@ -954,7 +954,7 @@ create
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -972,7 +972,7 @@ newBackupFile
 /
 /
 Cleanup
-yield
+await
 OS
 .
 File
@@ -982,7 +982,7 @@ remove
 mostRecentBackupFile
 )
 ;
-yield
+await
 OS
 .
 File

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -118,10 +118,10 @@ loadURI
 dataUri
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -142,7 +142,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -152,8 +152,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -226,7 +226,7 @@ e
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -291,7 +291,7 @@ scrolling
 at
 all
 .
-yield
+await
 new
 Promise
 (
@@ -309,7 +309,7 @@ resolve
 let
 msg
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -319,8 +319,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -507,7 +507,7 @@ runs
 too
 soon
 .
-yield
+await
 SimpleTest
 .
 promiseFocus

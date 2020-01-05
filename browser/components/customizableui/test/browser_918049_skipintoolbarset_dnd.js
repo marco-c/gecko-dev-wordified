@@ -80,8 +80,8 @@ work
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -180,7 +180,7 @@ button
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -315,13 +315,13 @@ state
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 endCustomizing
 (
 )
@@ -332,7 +332,7 @@ remove
 (
 )
 ;
-yield
+await
 resetCustomization
 (
 )

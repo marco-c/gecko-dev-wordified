@@ -93,8 +93,8 @@ restore_on_demand
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -149,7 +149,7 @@ robots
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -538,7 +538,7 @@ state
 )
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -609,7 +609,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 promiseTabRestored
 (
 tab

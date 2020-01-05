@@ -297,8 +297,8 @@ makeFakeAppDir
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -313,7 +313,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 createFakeAppDir
 (
 )
@@ -334,7 +334,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -344,8 +344,8 @@ setEmptyPrefWatchlist
 ;
 add_task
 (
+async
 function
-*
 test_migrateUnsentPings
 (
 )
@@ -498,7 +498,7 @@ json
 "
 )
 ;
-yield
+await
 TelemetryStorage
 .
 savePingToFile
@@ -520,7 +520,7 @@ list
 is
 empty
 .
-yield
+await
 TelemetryStorage
 .
 testClearPendingPings
@@ -538,7 +538,7 @@ TelemetryStorage
 let
 pendingPings
 =
-yield
+await
 TelemetryStorage
 .
 loadPendingPingList
@@ -634,7 +634,7 @@ profile
 let
 migratedPing
 =
-yield
+await
 TelemetryStorage
 .
 loadPendingPing
@@ -750,7 +750,7 @@ ok
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -789,7 +789,7 @@ sure
 nothing
 breaks
 .
-yield
+await
 OS
 .
 File
@@ -810,7 +810,7 @@ ok
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -838,7 +838,7 @@ reset
 (
 )
 ;
-yield
+await
 TelemetryStorage
 .
 loadPendingPingList

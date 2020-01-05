@@ -397,8 +397,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -848,7 +848,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -860,8 +860,8 @@ selectedBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -890,7 +890,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -955,7 +955,7 @@ _checkForSideloaded
 (
 )
 ;
-yield
+await
 changePromise
 ;
 /
@@ -1020,7 +1020,7 @@ entries
 for
 sideloaded
 extensions
-yield
+await
 PanelUI
 .
 show
@@ -1109,7 +1109,7 @@ addons
 let
 panel
 =
-yield
+await
 popupPromise
 ;
 is
@@ -1253,7 +1253,7 @@ click
 let
 value
 =
-yield
+await
 disablePromise
 ;
 is
@@ -1276,7 +1276,7 @@ addon3
 addon4
 ]
 =
-yield
+await
 AddonManager
 .
 getAddonsByIDs
@@ -1368,7 +1368,7 @@ disabled
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1389,7 +1389,7 @@ in
 the
 hamburger
 menu
-yield
+await
 PanelUI
 .
 show
@@ -1459,7 +1459,7 @@ click
 ;
 panel
 =
-yield
+await
 popupPromise
 ;
 /
@@ -1585,7 +1585,7 @@ click
 ;
 value
 =
-yield
+await
 disablePromise
 ;
 is
@@ -1609,7 +1609,7 @@ addon3
 addon4
 ]
 =
-yield
+await
 AddonManager
 .
 getAddonsByIDs
@@ -1697,7 +1697,7 @@ in
 the
 hamburger
 menu
-yield
+await
 PanelUI
 .
 show
@@ -1742,7 +1742,7 @@ to
 the
 addons
 manager
-yield
+await
 PanelUI
 .
 hide
@@ -1751,7 +1751,7 @@ hide
 ;
 win
 =
-yield
+await
 BrowserOpenAddonsMgr
 (
 VIEW
@@ -1913,7 +1913,7 @@ selectedBrowser
 ;
 panel
 =
-yield
+await
 popupPromise
 ;
 checkNotification
@@ -1955,7 +1955,7 @@ click
 ;
 value
 =
-yield
+await
 disablePromise
 ;
 is
@@ -1975,7 +1975,7 @@ addon
 ;
 addon3
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -2009,7 +2009,7 @@ in
 the
 hamburger
 menu
-yield
+await
 PanelUI
 .
 show
@@ -2056,7 +2056,7 @@ page
 for
 this
 addon
-yield
+await
 PanelUI
 .
 hide
@@ -2065,7 +2065,7 @@ hide
 ;
 win
 =
-yield
+await
 BrowserOpenAddonsMgr
 (
 addons
@@ -2138,7 +2138,7 @@ selectedBrowser
 ;
 panel
 =
-yield
+await
 popupPromise
 ;
 checkNotification
@@ -2180,7 +2180,7 @@ click
 ;
 value
 =
-yield
+await
 disablePromise
 ;
 is
@@ -2200,7 +2200,7 @@ addon
 ;
 addon4
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -2283,7 +2283,7 @@ badge
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

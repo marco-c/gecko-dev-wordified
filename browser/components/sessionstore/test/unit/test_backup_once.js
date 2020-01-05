@@ -86,32 +86,6 @@ jsm
 ;
 var
 {
-Task
-}
-=
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-{
-}
-)
-;
-var
-{
 SessionWorker
 }
 =
@@ -226,8 +200,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -315,7 +289,7 @@ Finish
 initialization
 of
 SessionFile
-yield
+await
 SessionFile
 .
 read
@@ -342,12 +316,9 @@ shouldExist
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -378,7 +349,7 @@ exist
 if
 (
 (
-yield
+await
 OS
 .
 File
@@ -424,6 +395,8 @@ exist
 }
 }
 )
+(
+)
 ;
 }
 function
@@ -434,12 +407,9 @@ expect
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -463,7 +433,7 @@ contents
 let
 actual
 =
-yield
+await
 OS
 .
 File
@@ -505,6 +475,8 @@ data
 )
 ;
 }
+)
+(
 )
 ;
 }
@@ -599,8 +571,8 @@ old
 data
 add_task
 (
+async
 function
-*
 test_first_write_backup
 (
 )
@@ -641,7 +613,7 @@ exist
 "
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -650,7 +622,7 @@ backups
 false
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -660,7 +632,7 @@ Paths
 backups
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -685,7 +657,7 @@ utf
 }
 )
 ;
-yield
+await
 SessionFile
 .
 write
@@ -709,7 +681,7 @@ created
 "
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -718,7 +690,7 @@ backups
 true
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -727,7 +699,7 @@ clean
 false
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -736,7 +708,7 @@ cleanBackup
 true
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -745,7 +717,7 @@ recovery
 true
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -754,7 +726,7 @@ recoveryBackup
 false
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -763,7 +735,7 @@ nextUpgradeBackup
 true
 )
 ;
-yield
+await
 promise_check_contents
 (
 Paths
@@ -772,7 +744,7 @@ recovery
 new_content
 )
 ;
-yield
+await
 promise_check_contents
 (
 Paths
@@ -825,8 +797,8 @@ previous
 data
 add_task
 (
+async
 function
-*
 test_second_write_no_backup
 (
 )
@@ -844,7 +816,7 @@ test_2
 let
 previous_backup_content
 =
-yield
+await
 File
 .
 read
@@ -872,7 +844,7 @@ parse
 previous_backup_content
 )
 ;
-yield
+await
 OS
 .
 File
@@ -884,7 +856,7 @@ Paths
 cleanBackup
 )
 ;
-yield
+await
 SessionFile
 .
 write
@@ -892,7 +864,7 @@ write
 new_content
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -901,7 +873,7 @@ backups
 true
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -910,7 +882,7 @@ clean
 false
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -919,7 +891,7 @@ cleanBackup
 false
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -928,7 +900,7 @@ recovery
 true
 )
 ;
-yield
+await
 promise_check_exist
 (
 Paths
@@ -937,7 +909,7 @@ nextUpgradeBackup
 true
 )
 ;
-yield
+await
 promise_check_contents
 (
 Paths
@@ -946,7 +918,7 @@ recovery
 new_content
 )
 ;
-yield
+await
 promise_check_contents
 (
 Paths
@@ -980,8 +952,8 @@ upon
 shutdown
 add_task
 (
+async
 function
-*
 test_shutdown
 (
 )
@@ -996,7 +968,7 @@ test_3
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1011,7 +983,7 @@ disappear
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1027,7 +999,7 @@ disappear
 "
 )
 ;
-yield
+await
 SessionWorker
 .
 post
@@ -1051,7 +1023,7 @@ true
 do_check_false
 (
 (
-yield
+await
 File
 .
 exists
@@ -1066,7 +1038,7 @@ recovery
 do_check_false
 (
 (
-yield
+await
 File
 .
 exists
@@ -1078,7 +1050,7 @@ recoveryBackup
 )
 )
 ;
-yield
+await
 promise_check_contents
 (
 Paths

@@ -275,8 +275,8 @@ panel
 ;
 add_task
 (
+async
 function
-*
 sidebar_initial_install
 (
 )
@@ -314,7 +314,7 @@ loadExtension
 extData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -329,7 +329,7 @@ is
 opened
 on
 install
-yield
+await
 extension
 .
 awaitMessage
@@ -390,7 +390,7 @@ UI
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -482,8 +482,8 @@ UI
 ;
 add_task
 (
+async
 function
-*
 sidebar_two_sidebar_addons
 (
 )
@@ -498,7 +498,7 @@ loadExtension
 extData
 )
 ;
-yield
+await
 extension2
 .
 startup
@@ -513,7 +513,7 @@ is
 opened
 on
 install
-yield
+await
 extension2
 .
 awaitMessage
@@ -599,7 +599,7 @@ loadExtension
 extData
 )
 ;
-yield
+await
 extension3
 .
 startup
@@ -614,7 +614,7 @@ is
 opened
 on
 install
-yield
+await
 extension3
 .
 awaitMessage
@@ -647,7 +647,7 @@ visible
 "
 )
 ;
-yield
+await
 extension3
 .
 unload
@@ -691,7 +691,7 @@ visible
 "
 )
 ;
-yield
+await
 extension2
 .
 unload
@@ -703,8 +703,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 sidebar_empty_panel
 (
 )
@@ -719,7 +719,7 @@ loadExtension
 extData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -734,7 +734,7 @@ is
 opened
 on
 install
-yield
+await
 extension
 .
 awaitMessage
@@ -781,14 +781,14 @@ panel
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -800,8 +800,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )

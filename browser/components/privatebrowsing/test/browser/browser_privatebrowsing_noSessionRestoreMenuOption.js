@@ -48,8 +48,8 @@ session
 /
 add_task
 (
+async
 function
-*
 test_no_session_restore_menu_option
 (
 )
@@ -57,7 +57,7 @@ test_no_session_restore_menu_option
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -95,7 +95,7 @@ mozilla
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -105,7 +105,7 @@ win
 ;
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -196,7 +196,7 @@ mode
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -356,8 +356,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -617,7 +617,7 @@ of
 URIS
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -654,7 +654,7 @@ cache
 "
 )
 ;
-yield
+await
 storeCache
 (
 FTP_URL
@@ -673,7 +673,7 @@ history
 "
 )
 ;
-yield
+await
 addFormHistory
 (
 )
@@ -683,7 +683,7 @@ Assert
 equal
 (
 (
-yield
+await
 getFormHistoryCount
 (
 )
@@ -707,7 +707,7 @@ shutdown
 "
 )
 ;
-yield
+await
 shutdownPlaces
 (
 )
@@ -717,7 +717,7 @@ Assert
 equal
 (
 (
-yield
+await
 getFormHistoryCount
 (
 )
@@ -813,7 +813,7 @@ cache
 Check
 cache
 .
-yield
+await
 checkCache
 (
 FTP_URL

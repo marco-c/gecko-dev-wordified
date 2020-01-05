@@ -248,8 +248,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 blockMixedActiveContentTest
 (
 )
@@ -293,7 +293,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -311,7 +311,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -442,7 +442,7 @@ reload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -450,7 +450,7 @@ browserLoaded
 gTestBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -545,8 +545,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 overrideMCB
 (
 )
@@ -578,7 +578,7 @@ disableMixedContentProtection
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -586,7 +586,7 @@ browserLoaded
 gTestBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

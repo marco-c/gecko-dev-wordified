@@ -153,12 +153,8 @@ focus
 let
 createPrivateWindow
 =
-Task
-.
 async
-(
 function
-*
 createPrivateWindow
 (
 url
@@ -166,7 +162,7 @@ url
 {
 gPrivateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -212,7 +208,7 @@ gPrivateBrowser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -221,12 +217,11 @@ gPrivateBrowser
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -351,7 +346,7 @@ nsIPluginTag
 .
 STATE_CLICKTOPLAY
 ;
-yield
+await
 promise
 ;
 }
@@ -359,13 +354,13 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test1a
 (
 )
 {
-yield
+await
 createPrivateWindow
 (
 gHttpTestRoot
@@ -382,8 +377,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test1b
 (
 )
@@ -427,7 +422,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -513,7 +508,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 let
@@ -614,7 +609,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -627,8 +622,8 @@ gTestBrowser
 ;
 add_task
 (
+async
 function
-*
 test2a
 (
 )
@@ -678,7 +673,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -767,7 +762,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 PopupNotifications
@@ -782,15 +777,15 @@ click
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -831,7 +826,7 @@ objLoadingContent
 .
 activated
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -858,8 +853,8 @@ activate
 ;
 add_task
 (
+async
 function
-*
 test2c
 (
 )
@@ -878,7 +873,7 @@ updateNotShowing
 "
 )
 ;
-yield
+await
 createPrivateWindow
 (
 gHttpTestRoot
@@ -890,7 +885,7 @@ html
 "
 )
 ;
-yield
+await
 topicObserved
 ;
 let
@@ -932,7 +927,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1016,7 +1011,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 let
@@ -1078,7 +1073,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1091,8 +1086,8 @@ gTestBrowser
 ;
 add_task
 (
+async
 function
-*
 test3a
 (
 )
@@ -1142,7 +1137,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1231,7 +1226,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 PopupNotifications
@@ -1246,15 +1241,15 @@ click
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1295,7 +1290,7 @@ objLoadingContent
 .
 activated
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -1322,8 +1317,8 @@ activate
 ;
 add_task
 (
+async
 function
-*
 test3c
 (
 )
@@ -1342,7 +1337,7 @@ updateNotShowing
 "
 )
 ;
-yield
+await
 createPrivateWindow
 (
 gHttpTestRoot
@@ -1354,7 +1349,7 @@ html
 "
 )
 ;
-yield
+await
 topicObserved
 ;
 let
@@ -1425,7 +1420,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 let
@@ -1477,7 +1472,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1490,8 +1485,8 @@ gPrivateBrowser
 ;
 add_task
 (
+async
 function
-*
 test3d
 (
 )
@@ -1565,7 +1560,7 @@ reshow
 (
 )
 ;
-yield
+await
 promiseShown
 ;
 let

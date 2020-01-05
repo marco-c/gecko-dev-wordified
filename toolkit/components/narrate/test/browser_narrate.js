@@ -77,8 +77,8 @@ teardown
 ;
 add_task
 (
+async
 function
-*
 testNarrate
 (
 )
@@ -87,12 +87,12 @@ setup
 (
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -274,7 +274,7 @@ selected
 "
 )
 ;
-yield
+await
 prefChanged
 ;
 ok
@@ -329,7 +329,7 @@ let
 speechinfo
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -390,7 +390,7 @@ click
 speechinfo
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -458,7 +458,7 @@ click
 speechinfo
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -502,7 +502,7 @@ click
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -558,7 +558,7 @@ click
 speechinfo
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -645,7 +645,7 @@ let
 newspeechinfo
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -679,7 +679,7 @@ changed
 "
 )
 ;
-yield
+await
 prefChanged
 ;
 promiseEvent
@@ -704,10 +704,10 @@ click
 (
 )
 ;
-yield
+await
 promiseEvent
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -758,7 +758,7 @@ scrollBy
 10
 )
 ;
-yield
+await
 promiseEvent
 ;
 ok
@@ -823,7 +823,7 @@ click
 (
 )
 ;
-yield
+await
 promiseEvent
 ;
 NarrateTestUtils
@@ -855,7 +855,7 @@ scrollBy
 10
 )
 ;
-yield
+await
 promiseEvent
 ;
 ok
@@ -972,7 +972,7 @@ click
 while
 (
 (
-yield
+await
 promiseEvent
 )
 .
@@ -1009,7 +1009,7 @@ scroll
 0
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

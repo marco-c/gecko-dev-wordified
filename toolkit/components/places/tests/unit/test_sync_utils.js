@@ -459,12 +459,8 @@ message
 var
 populateTree
 =
-Task
-.
 async
-(
 function
-*
 populate
 (
 parentGuid
@@ -530,7 +526,7 @@ case
 query
 "
 :
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -568,7 +564,7 @@ case
 separator
 "
 :
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -595,7 +591,7 @@ case
 folder
 "
 :
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -632,8 +628,7 @@ Object
 assign
 (
 guids
-yield
-*
+await
 populate
 (
 guid
@@ -677,7 +672,7 @@ exclude
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -726,17 +721,12 @@ return
 guids
 ;
 }
-)
 ;
 var
 syncIdToId
 =
-Task
-.
 async
-(
 function
-*
 syncIdToId
 (
 syncId
@@ -745,7 +735,7 @@ syncId
 let
 guid
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -764,17 +754,12 @@ guid
 )
 ;
 }
-)
 ;
 var
 moveSyncedBookmarksToUnsyncedParent
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -790,7 +775,7 @@ bookmarks
 let
 syncedGuids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -875,7 +860,7 @@ at
 least
 once
 .
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -924,7 +909,7 @@ folder
 let
 unsyncedFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -980,7 +965,7 @@ syncedGuids
 )
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1012,17 +997,12 @@ unsyncedFolder
 }
 ;
 }
-)
 ;
 var
 setChangesSynced
 =
-Task
-.
 async
-(
 function
-*
 (
 changes
 )
@@ -1045,7 +1025,7 @@ synced
 true
 ;
 }
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1056,24 +1036,19 @@ changes
 )
 ;
 }
-)
 ;
 var
 ignoreChangedRoots
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1153,19 +1128,18 @@ changes
 )
 ;
 }
-yield
+await
 setChangesSynced
 (
 changes
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_fetchURLFrecency
 (
 )
@@ -1239,7 +1213,7 @@ of
 arrayOfURLsToVisit
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1259,7 +1233,7 @@ arrayOfURLsToVisit
 let
 frecency
 =
-yield
+await
 PlacesSyncUtils
 .
 history
@@ -1343,7 +1317,7 @@ arrayOfURLsNotVisited
 let
 frecency
 =
-yield
+await
 PlacesSyncUtils
 .
 history
@@ -1366,8 +1340,8 @@ frecency
 ;
 add_task
 (
+async
 function
-*
 test_order
 (
 )
@@ -1384,7 +1358,7 @@ bookmarks
 let
 guids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -1492,7 +1466,7 @@ guids
 siblingBmk
 ]
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1510,7 +1484,7 @@ order
 let
 childSyncIds
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1553,7 +1527,7 @@ children
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1578,7 +1552,7 @@ siblingBmk
 let
 childSyncIds
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1633,7 +1607,7 @@ children
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1658,7 +1632,7 @@ siblingSep
 let
 childSyncIds
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1720,7 +1694,7 @@ children
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1760,7 +1734,7 @@ makeGuid
 let
 childSyncIds
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1801,7 +1775,7 @@ ignored
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1810,7 +1784,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1824,13 +1798,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_dedupe
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -1838,7 +1812,7 @@ ignoreChangedRoots
 let
 parentFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1867,7 +1841,7 @@ menu
 let
 differentParentFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1896,7 +1870,7 @@ menu
 let
 mozBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1936,7 +1910,7 @@ org
 let
 fxBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -1976,7 +1950,7 @@ com
 let
 tbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2013,7 +1987,7 @@ com
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2047,7 +2021,7 @@ items
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2098,7 +2072,7 @@ parent
 let
 localId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2118,7 +2092,7 @@ makeGuid
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2240,7 +2214,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2265,7 +2239,7 @@ exist
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2295,7 +2269,7 @@ ID
 let
 newMozBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2326,7 +2300,7 @@ ID
 ;
 equal
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2347,7 +2321,7 @@ cache
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -2371,7 +2345,7 @@ parent
 let
 localId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2391,7 +2365,7 @@ makeGuid
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2527,7 +2501,7 @@ be
 let
 newFxBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2561,7 +2535,7 @@ parent
 ;
 equal
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2585,7 +2559,7 @@ ID
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -2609,7 +2583,7 @@ parent
 let
 localId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2636,7 +2610,7 @@ makeGuid
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2757,7 +2731,7 @@ be
 ;
 equal
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2781,14 +2755,14 @@ ID
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2797,7 +2771,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2811,8 +2785,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_order_roots
 (
 )
@@ -2820,7 +2794,7 @@ test_order_roots
 let
 oldOrder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2834,7 +2808,7 @@ bookmarks
 rootGuid
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2855,7 +2829,7 @@ oldOrder
 let
 newOrder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2883,7 +2857,7 @@ roots
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2892,7 +2866,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2906,8 +2880,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_update_tags
 (
 )
@@ -2925,7 +2899,7 @@ tags
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -2974,7 +2948,7 @@ tags
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3067,7 +3041,7 @@ tag
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3171,7 +3145,7 @@ whitespace
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3273,7 +3247,7 @@ tags
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3331,7 +3305,7 @@ tags
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3340,7 +3314,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3354,13 +3328,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_tags
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -3380,7 +3354,7 @@ URL
 let
 firstItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3420,7 +3394,7 @@ org
 let
 secondItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3460,7 +3434,7 @@ org
 let
 untaggedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3500,7 +3474,7 @@ org
 let
 taggedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3588,7 +3562,7 @@ tagsFolderId
 let
 tagFolderGuid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -3612,7 +3586,7 @@ changeset
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3655,7 +3629,7 @@ changeset
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -3700,7 +3674,7 @@ TaGgY
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3784,7 +3758,7 @@ URL
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -3892,7 +3866,7 @@ title
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -3937,7 +3911,7 @@ folder
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -3958,7 +3932,7 @@ update
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4005,7 +3979,7 @@ folder
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4050,7 +4024,7 @@ folder
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -4109,7 +4083,7 @@ org
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4196,7 +4170,7 @@ URI
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -4221,7 +4195,7 @@ update
 let
 tagGuid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -4237,7 +4211,7 @@ tagFolderId
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4265,7 +4239,7 @@ com
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4346,7 +4320,7 @@ URL
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -4398,7 +4372,7 @@ tagsFolderId
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4460,14 +4434,14 @@ service
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4476,7 +4450,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4490,8 +4464,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_update_keyword
 (
 )
@@ -4509,7 +4483,7 @@ keyword
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4559,7 +4533,7 @@ keyword
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4599,7 +4573,7 @@ keyword
 let
 entryByKeyword
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4641,7 +4615,7 @@ URL
 let
 entryByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4696,7 +4670,7 @@ keyword
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4736,7 +4710,7 @@ keyword
 let
 newEntry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4777,7 +4751,7 @@ URL
 let
 oldEntry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4815,7 +4789,7 @@ keyword
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4854,7 +4828,7 @@ properties
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4904,7 +4878,7 @@ keyword
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -4926,7 +4900,7 @@ null
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -4991,7 +4965,7 @@ same
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5029,7 +5003,7 @@ succeeds
 ;
 item2
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5092,7 +5066,7 @@ succeed
 ;
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5123,7 +5097,7 @@ keyword
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5164,7 +5138,7 @@ nothing
 let
 newEntry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5241,7 +5215,7 @@ url
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5280,7 +5254,7 @@ succeeds
 let
 newItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5341,7 +5315,7 @@ succeed
 ;
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5393,7 +5367,7 @@ same
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5432,7 +5406,7 @@ succeeds
 let
 updatedItem2
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5470,7 +5444,7 @@ succeeds
 ;
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5501,7 +5475,7 @@ keyword
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5542,7 +5516,7 @@ nothing
 let
 newEntry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5618,7 +5592,7 @@ keyword
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5657,7 +5631,7 @@ succeeds
 let
 updatedItem2
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5693,7 +5667,7 @@ succeeds
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5718,7 +5692,7 @@ href
 ;
 updatedItem2
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5749,7 +5723,7 @@ updated
 ;
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5779,7 +5753,7 @@ keyword
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -5788,7 +5762,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5802,13 +5776,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_conflicting_keywords
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -5827,7 +5801,7 @@ keyword
 let
 tbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -5873,7 +5847,7 @@ tbird
 let
 entryByKeyword
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5916,7 +5890,7 @@ URL
 let
 entryByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -5959,7 +5933,7 @@ keyword
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6004,7 +5978,7 @@ keyword
 let
 dupeTbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6050,7 +6024,7 @@ tb
 let
 oldKeywordByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6083,7 +6057,7 @@ keyword
 let
 entryByKeyword
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6126,7 +6100,7 @@ URL
 let
 entryByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6169,7 +6143,7 @@ keyword
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6215,7 +6189,7 @@ keyword
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -6233,7 +6207,7 @@ keyword
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6274,7 +6248,7 @@ thunderbird
 let
 oldKeywordByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6305,7 +6279,7 @@ keyword
 let
 entryByKeyword
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6348,7 +6322,7 @@ URL
 let
 entryByURL
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6391,7 +6365,7 @@ keyword
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6437,14 +6411,14 @@ keyword
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -6453,7 +6427,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6467,8 +6441,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_update_annos
 (
 )
@@ -6476,7 +6450,7 @@ test_update_annos
 let
 guids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -6534,7 +6508,7 @@ description
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6576,7 +6550,7 @@ description
 let
 id
 =
-yield
+await
 syncIdToId
 (
 updatedItem
@@ -6621,7 +6595,7 @@ description
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6658,7 +6632,7 @@ description
 let
 id
 =
-yield
+await
 syncIdToId
 (
 updatedItem
@@ -6701,7 +6675,7 @@ anno
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6736,7 +6710,7 @@ anno
 let
 id
 =
-yield
+await
 syncIdToId
 (
 updatedItem
@@ -6781,7 +6755,7 @@ anno
 let
 updatedItem
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6819,7 +6793,7 @@ anno
 let
 id
 =
-yield
+await
 syncIdToId
 (
 updatedItem
@@ -6851,7 +6825,7 @@ bookmark
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -6860,7 +6834,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6874,8 +6848,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_update_move_root
 (
 )
@@ -6905,7 +6879,7 @@ op
 let
 sameRoot
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -6973,7 +6947,7 @@ root
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -6999,7 +6973,7 @@ toolbar
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7008,7 +6982,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7022,8 +6996,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert
 (
 )
@@ -7040,7 +7014,7 @@ bookmark
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7082,7 +7056,7 @@ let
 type
 }
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7128,7 +7102,7 @@ query
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7182,7 +7156,7 @@ let
 type
 }
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7229,7 +7203,7 @@ folder
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7266,7 +7240,7 @@ let
 type
 }
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7312,7 +7286,7 @@ separator
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7343,7 +7317,7 @@ let
 type
 }
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7377,7 +7351,7 @@ type
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7386,7 +7360,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7400,8 +7374,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_livemark
 (
 )
@@ -7433,7 +7407,7 @@ URL
 let
 livemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7472,7 +7446,7 @@ menu
 let
 bmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7482,7 +7456,7 @@ fetch
 {
 guid
 :
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7536,7 +7510,7 @@ URLs
 let
 livemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7595,7 +7569,7 @@ livemark
 let
 livemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7650,13 +7624,13 @@ livemark
 }
 finally
 {
-yield
+await
 stopServer
 (
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -7665,7 +7639,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7679,8 +7653,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_update_livemark
 (
 )
@@ -7743,7 +7717,7 @@ URLs
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -7775,7 +7749,7 @@ DEFAULT_INDEX
 }
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7824,7 +7798,7 @@ replaced
 .
 equal
 (
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -7853,7 +7827,7 @@ replaced
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7872,7 +7846,7 @@ site
 ;
 equal
 (
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -7901,7 +7875,7 @@ replaced
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -7923,7 +7897,7 @@ site
 ;
 equal
 (
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -7969,7 +7943,7 @@ URL
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -8027,7 +8001,7 @@ and
 new
 ones
 .
-yield
+await
 Assert
 .
 rejects
@@ -8072,7 +8046,7 @@ record
 let
 newLivemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8171,7 +8145,7 @@ URL
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -8225,7 +8199,7 @@ URI
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -8261,7 +8235,7 @@ record
 let
 newLivemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8393,7 +8367,7 @@ URL
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -8425,7 +8399,7 @@ DEFAULT_INDEX
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -8462,7 +8436,7 @@ record
 let
 newLivemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8563,7 +8537,7 @@ URL
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -8595,7 +8569,7 @@ DEFAULT_INDEX
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -8638,7 +8612,7 @@ record
 let
 newLivemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8793,7 +8767,7 @@ livemark
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -8827,7 +8801,7 @@ folder
 let
 livemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8880,13 +8854,13 @@ folder
 }
 finally
 {
-yield
+await
 stopServer
 (
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -8895,7 +8869,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8909,13 +8883,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_tags
 (
 )
 {
-yield
+await
 Promise
 .
 all
@@ -9205,7 +9179,7 @@ queries
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -9214,7 +9188,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9228,8 +9202,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_tags_whitespace
 (
 )
@@ -9247,7 +9221,7 @@ tags
 let
 taggedBlanks
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9360,7 +9334,7 @@ tags
 let
 taggedDupes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9575,7 +9549,7 @@ tags
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -9584,7 +9558,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9598,8 +9572,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_keyword
 (
 )
@@ -9616,7 +9590,7 @@ keyword
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9661,7 +9635,7 @@ makeGuid
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -9712,7 +9686,7 @@ keyword
 )
 ;
 {
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9757,7 +9731,7 @@ makeGuid
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -9797,7 +9771,7 @@ item
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -9806,7 +9780,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9820,8 +9794,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_annos
 (
 )
@@ -9838,7 +9812,7 @@ description
 let
 descBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9903,7 +9877,7 @@ description
 let
 id
 =
-yield
+await
 syncIdToId
 (
 descBmk
@@ -9948,7 +9922,7 @@ description
 let
 descFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10002,7 +9976,7 @@ description
 let
 id
 =
-yield
+await
 syncIdToId
 (
 descFolder
@@ -10048,7 +10022,7 @@ anno
 let
 sidebarBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10108,7 +10082,7 @@ bookmark
 let
 id
 =
-yield
+await
 syncIdToId
 (
 sidebarBmk
@@ -10152,7 +10126,7 @@ anno
 let
 noSidebarBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10214,7 +10188,7 @@ bookmark
 let
 id
 =
-yield
+await
 syncIdToId
 (
 noSidebarBmk
@@ -10247,7 +10221,7 @@ bookmark
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -10256,7 +10230,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10270,8 +10244,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_tag_query
 (
 )
@@ -10317,7 +10291,7 @@ yet
 let
 query
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10496,7 +10470,7 @@ maxResults
 let
 query
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10669,7 +10643,7 @@ correctly
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -10821,7 +10795,7 @@ untagged
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -10830,7 +10804,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10844,13 +10818,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_insert_orphans
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -10893,7 +10867,7 @@ child
 let
 child
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -10961,7 +10935,7 @@ unfiled
 ;
 childId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -11002,7 +10976,7 @@ grandparent
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11062,7 +11036,7 @@ parent
 let
 parent
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11142,7 +11116,7 @@ reparenting
 let
 child
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11174,7 +11148,7 @@ parent
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11183,7 +11157,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11197,8 +11171,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_move_orphans
 (
 )
@@ -11213,7 +11187,7 @@ makeGuid
 let
 fxBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11251,7 +11225,7 @@ com
 let
 tbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11301,7 +11275,7 @@ match
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11351,7 +11325,7 @@ API
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11384,7 +11358,7 @@ DEFAULT_INDEX
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11427,7 +11401,7 @@ API
 let
 tbId
 =
-yield
+await
 syncIdToId
 (
 tbBmk
@@ -11455,7 +11429,7 @@ DEFAULT_INDEX
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11479,7 +11453,7 @@ bookmark
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11488,7 +11462,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11502,8 +11476,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_reorder_orphans
 (
 )
@@ -11518,7 +11492,7 @@ makeGuid
 let
 fxBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11556,7 +11530,7 @@ com
 let
 tbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11594,7 +11568,7 @@ com
 let
 mozBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11644,7 +11618,7 @@ match
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11694,7 +11668,7 @@ orphans
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11719,7 +11693,7 @@ syncId
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11747,7 +11721,7 @@ bookmarks
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11756,7 +11730,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11770,8 +11744,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_set_orphan_indices
 (
 )
@@ -11786,7 +11760,7 @@ makeGuid
 let
 fxBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11824,7 +11798,7 @@ com
 let
 tbBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -11874,7 +11848,7 @@ match
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -11926,7 +11900,7 @@ indices
 let
 fxId
 =
-yield
+await
 syncIdToId
 (
 fxBmk
@@ -11937,7 +11911,7 @@ syncId
 let
 tbId
 =
-yield
+await
 syncIdToId
 (
 tbBmk
@@ -11979,7 +11953,7 @@ tbId
 null
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -11989,7 +11963,7 @@ promiseAsyncUpdates
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -12013,7 +11987,7 @@ indices
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -12022,7 +11996,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12036,8 +12010,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_unsynced_orphans
 (
 )
@@ -12052,7 +12026,7 @@ makeGuid
 let
 newBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12090,7 +12064,7 @@ com
 let
 unknownBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12125,7 +12099,7 @@ com
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -12177,7 +12151,7 @@ orphan
 let
 unknownId
 =
-yield
+await
 syncIdToId
 (
 unknownBmk
@@ -12205,7 +12179,7 @@ DEFAULT_INDEX
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -12251,7 +12225,7 @@ orphans
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -12273,7 +12247,7 @@ syncId
 let
 orphanGuids
 =
-yield
+await
 fetchGuidsWithAnno
 (
 SYNC_PARENT_ANNO
@@ -12298,7 +12272,7 @@ bookmarks
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -12307,7 +12281,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12321,8 +12295,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_fetch
 (
 )
@@ -12330,7 +12304,7 @@ test_fetch
 let
 folder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12365,7 +12339,7 @@ description
 let
 bmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12421,7 +12395,7 @@ taggy
 let
 folderBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12466,7 +12440,7 @@ kw
 let
 folderSep
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12495,7 +12469,7 @@ separator
 let
 tagQuery
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12575,7 +12549,7 @@ pathname
 let
 smartBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12637,7 +12611,7 @@ description
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12733,7 +12707,7 @@ tags
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12961,7 +12935,7 @@ annos
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13127,7 +13101,7 @@ separator
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13167,7 +13141,7 @@ query
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13292,7 +13266,7 @@ bookmark
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13377,7 +13351,7 @@ bookmarks
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -13386,7 +13360,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13400,8 +13374,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_fetch_livemark
 (
 )
@@ -13429,7 +13403,7 @@ livemark
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -13506,7 +13480,7 @@ livemark
 let
 item
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13653,13 +13627,13 @@ empty
 }
 finally
 {
-yield
+await
 stopServer
 (
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -13668,7 +13642,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13682,13 +13656,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_new_parent
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -13699,7 +13673,7 @@ syncedGuids
 unsyncedFolder
 }
 =
-yield
+await
 moveSyncedBookmarksToUnsyncedParent
 (
 )
@@ -13721,7 +13695,7 @@ tracked
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13777,7 +13751,7 @@ parent
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -13786,7 +13760,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -13800,13 +13774,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_deleted_folder
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -13817,7 +13791,7 @@ syncedGuids
 unsyncedFolder
 }
 =
-yield
+await
 moveSyncedBookmarksToUnsyncedParent
 (
 )
@@ -13832,7 +13806,7 @@ folder
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -13864,7 +13838,7 @@ not
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14001,7 +13975,7 @@ guid
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14010,7 +13984,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14024,13 +13998,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_import_html
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -14047,7 +14021,7 @@ bookmark
 let
 unsyncedBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14087,7 +14061,7 @@ com
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -14156,7 +14130,7 @@ html
 "
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile
@@ -14186,7 +14160,7 @@ up
 let
 mozBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14214,7 +14188,7 @@ org
 let
 fxBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14292,7 +14266,7 @@ let
 toolbarSubfolder
 =
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14330,7 +14304,7 @@ toolbarGuid
 let
 importedFields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -14393,7 +14367,7 @@ imports
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14450,7 +14424,7 @@ file
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -14503,7 +14477,7 @@ statuses
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14512,7 +14486,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14526,13 +14500,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_import_json
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -14549,7 +14523,7 @@ folder
 let
 syncedFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14579,7 +14553,7 @@ syncedFolder
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -14629,7 +14603,7 @@ json
 "
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -14642,7 +14616,7 @@ false
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -14720,7 +14694,7 @@ imports
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14776,7 +14750,7 @@ backup
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -14826,7 +14800,7 @@ statuses
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14835,7 +14809,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -14849,13 +14823,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_restore_json_tracked
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -14863,7 +14837,7 @@ ignoreChangedRoots
 let
 unsyncedBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14915,7 +14889,7 @@ guid
 let
 syncedFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -14958,7 +14932,7 @@ guid
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -14985,7 +14959,7 @@ NORMAL
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -15068,7 +15042,7 @@ json
 "
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -15081,7 +15055,7 @@ true
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -15146,7 +15120,7 @@ JSON
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15211,7 +15185,7 @@ backup
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -15303,7 +15277,7 @@ guid
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -15312,7 +15286,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15326,13 +15300,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pullChanges_custom_roots
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -15351,7 +15325,7 @@ root
 let
 unsyncedGuids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -15475,7 +15449,7 @@ menu
 let
 syncedGuids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -15528,7 +15502,7 @@ info
 let
 newChanges
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15574,7 +15548,7 @@ roots
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 newChanges
@@ -15596,7 +15570,7 @@ root
 let
 unsyncedSibling
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -15626,7 +15600,7 @@ club
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15670,7 +15644,7 @@ API
 let
 unsyncedRootId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -15692,7 +15666,7 @@ unsyncedRootId
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15730,7 +15704,7 @@ root
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -15745,7 +15719,7 @@ rootFolder
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15785,7 +15759,7 @@ menu
 let
 syncedSibling
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -15817,7 +15791,7 @@ ninja
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15862,14 +15836,14 @@ parent
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -15878,7 +15852,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -15892,13 +15866,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_pushChanges
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -15915,7 +15889,7 @@ bookmarks
 let
 guids
 =
-yield
+await
 populateTree
 (
 PlacesUtils
@@ -16049,7 +16023,7 @@ statuses
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -16137,7 +16111,7 @@ counter
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16174,7 +16148,7 @@ bookmark
 )
 ;
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16189,7 +16163,7 @@ deletedBmk
 let
 tombstones
 =
-yield
+await
 PlacesTestUtils
 .
 fetchSyncTombstones
@@ -16239,7 +16213,7 @@ changes
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16385,7 +16359,7 @@ counter
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16481,7 +16455,7 @@ synced
 true
 ;
 }
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16495,7 +16469,7 @@ changes
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -16546,7 +16520,7 @@ bookmarks
 let
 tombstones
 =
-yield
+await
 PlacesTestUtils
 .
 fetchSyncTombstones
@@ -16586,7 +16560,7 @@ syncing
 let
 syncFields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -16807,7 +16781,7 @@ counter
 ;
 }
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16816,7 +16790,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16830,20 +16804,20 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_touch
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
 ;
 strictEqual
 (
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16868,7 +16842,7 @@ items
 let
 folder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16896,7 +16870,7 @@ menu
 ;
 strictEqual
 (
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16921,7 +16895,7 @@ folders
 let
 bmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -16961,7 +16935,7 @@ org
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17033,7 +17007,7 @@ be
 "
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -17078,7 +17052,7 @@ try
 let
 livemark
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17117,7 +17091,7 @@ unfiled
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17192,13 +17166,13 @@ be
 }
 finally
 {
-yield
+await
 stopServer
 (
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -17207,7 +17181,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17221,18 +17195,18 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_separator
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17272,7 +17246,7 @@ com
 let
 childBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17319,7 +17293,7 @@ makeGuid
 let
 separator
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17343,7 +17317,7 @@ separatorSyncId
 }
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17383,7 +17357,7 @@ foo
 let
 child2Id
 =
-yield
+await
 syncIdToId
 (
 childBmk
@@ -17394,7 +17368,7 @@ syncId
 let
 parentId
 =
-yield
+await
 syncIdToId
 (
 "
@@ -17405,7 +17379,7 @@ menu
 let
 separatorId
 =
-yield
+await
 syncIdToId
 (
 separator
@@ -17453,7 +17427,7 @@ separator
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17488,7 +17462,7 @@ sort
 )
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -17518,7 +17492,7 @@ parentId
 ;
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17553,7 +17527,7 @@ sort
 )
 )
 ;
-yield
+await
 setChangesSynced
 (
 changes
@@ -17572,7 +17546,7 @@ update
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -17591,7 +17565,7 @@ index
 ;
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17626,7 +17600,7 @@ sort
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -17635,7 +17609,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17649,13 +17623,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_remove
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -17673,7 +17647,7 @@ removal
 let
 parentFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17702,7 +17676,7 @@ makeGuid
 let
 childBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17742,7 +17716,7 @@ com
 let
 childFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17771,7 +17745,7 @@ makeGuid
 let
 grandChildBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -17817,7 +17791,7 @@ subtree
 "
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18041,7 +18015,7 @@ solution
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18075,7 +18049,7 @@ subtree
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -18084,7 +18058,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18098,13 +18072,13 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_remove_partial
 (
 )
 {
-yield
+await
 ignoreChangedRoots
 (
 )
@@ -18123,7 +18097,7 @@ removal
 let
 parentFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18154,7 +18128,7 @@ makeGuid
 let
 prevSiblingBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18194,7 +18168,7 @@ net
 let
 childBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18234,7 +18208,7 @@ com
 let
 nextSiblingBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18274,7 +18248,7 @@ org
 let
 childFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18303,7 +18277,7 @@ makeGuid
 let
 grandChildBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18343,7 +18317,7 @@ edu
 let
 grandChildSiblingBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18383,7 +18357,7 @@ org
 let
 grandChildFolder
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18412,7 +18386,7 @@ makeGuid
 let
 greatGrandChildPrevSiblingBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18452,7 +18426,7 @@ com
 let
 greatGrandChildNextSiblingBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18492,7 +18466,7 @@ com
 let
 menuBmk
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18546,7 +18520,7 @@ subtree
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18680,7 +18654,7 @@ greatGrandChildNextSiblingBmk
 let
 menuChildren
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18809,7 +18783,7 @@ ancestor
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -18818,7 +18792,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -18832,8 +18806,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_migrateOldTrackerEntries
 (
 )
@@ -18841,7 +18815,7 @@ test_migrateOldTrackerEntries
 let
 unknownBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -18880,7 +18854,7 @@ Firefox
 let
 newBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -18919,7 +18893,7 @@ Thunderbird
 let
 normalBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -18953,7 +18927,7 @@ Mozilla
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 setBookmarkSyncFields
@@ -19027,7 +19001,7 @@ makeGuid
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -19063,7 +19037,7 @@ modified
 let
 changes
 =
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -19110,7 +19084,7 @@ tombstone
 let
 fields
 =
-yield
+await
 PlacesTestUtils
 .
 fetchBookmarkSyncFields
@@ -19243,7 +19217,7 @@ NORMAL
 let
 tombstones
 =
-yield
+await
 PlacesTestUtils
 .
 fetchSyncTombstones
@@ -19278,7 +19252,7 @@ item
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -19287,7 +19261,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesSyncUtils
 .
 bookmarks

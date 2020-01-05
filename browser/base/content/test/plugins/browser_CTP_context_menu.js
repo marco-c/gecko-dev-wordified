@@ -43,8 +43,8 @@ http
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -151,8 +151,8 @@ plugins
 works
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -227,7 +227,7 @@ true
 true
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -242,7 +242,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -250,7 +250,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 bindingPromise
 ;
 let
@@ -300,7 +300,7 @@ state
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -346,7 +346,7 @@ activation
 menu
 options
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -356,8 +356,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -513,7 +513,7 @@ timeout
 on
 win7
 opt
-yield
+await
 promiseForCondition
 (
 (
@@ -585,7 +585,7 @@ actMenuItem
 }
 )
 ;
-yield
+await
 promiseForCondition
 (
 (
@@ -631,7 +631,7 @@ plugin
 state
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

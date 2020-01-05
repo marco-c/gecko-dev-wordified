@@ -248,8 +248,8 @@ database
 .
 *
 /
+async
 function
-*
 task_add_visit
 (
 uri
@@ -291,7 +291,7 @@ now
 *
 1000
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -319,8 +319,8 @@ timestamp
 }
 add_task
 (
+async
 function
-*
 test_onVisit
 (
 )
@@ -461,14 +461,14 @@ now
 *
 1000
 ;
-yield
+await
 task_add_visit
 (
 testuri
 testtime
 )
 ;
-yield
+await
 promiseNotify
 ;
 }
@@ -476,8 +476,8 @@ promiseNotify
 ;
 add_task
 (
+async
 function
-*
 test_onVisit
 (
 )
@@ -619,7 +619,7 @@ now
 *
 1000
 ;
-yield
+await
 task_add_visit
 (
 testuri
@@ -627,7 +627,7 @@ testtime
 TRANSITION_FRAMED_LINK
 )
 ;
-yield
+await
 promiseNotify
 ;
 }
@@ -635,8 +635,8 @@ promiseNotify
 ;
 add_task
 (
+async
 function
-*
 test_multiple_onVisit
 (
 )
@@ -893,7 +893,7 @@ observer
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -929,7 +929,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 promiseNotifications
 ;
 }
@@ -937,8 +937,8 @@ promiseNotifications
 ;
 add_task
 (
+async
 function
-*
 test_onDeleteURI
 (
 )
@@ -1013,7 +1013,7 @@ let
 testuri
 ]
 =
-yield
+await
 task_add_visit
 (
 )
@@ -1026,7 +1026,7 @@ do_get_guid_for_uri
 testuri
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -1036,7 +1036,7 @@ remove
 testuri
 )
 ;
-yield
+await
 promiseNotify
 ;
 }
@@ -1044,8 +1044,8 @@ promiseNotify
 ;
 add_task
 (
+async
 function
-*
 test_onDeleteVisits
 (
 )
@@ -1152,7 +1152,7 @@ let
 testuri
 ]
 =
-yield
+await
 task_add_visit
 (
 undefined
@@ -1201,7 +1201,7 @@ do_get_guid_for_uri
 testuri
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -1211,7 +1211,7 @@ remove
 testuri
 )
 ;
-yield
+await
 promiseNotify
 ;
 }
@@ -1219,8 +1219,8 @@ promiseNotify
 ;
 add_task
 (
+async
 function
-*
 test_onTitleChanged
 (
 )
@@ -1272,7 +1272,7 @@ let
 testuri
 ]
 =
-yield
+await
 task_add_visit
 (
 )
@@ -1286,7 +1286,7 @@ test
 title
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1299,7 +1299,7 @@ title
 }
 )
 ;
-yield
+await
 promiseNotify
 ;
 }
@@ -1307,8 +1307,8 @@ promiseNotify
 ;
 add_task
 (
+async
 function
-*
 test_onPageChanged
 (
 )
@@ -1375,7 +1375,7 @@ let
 testuri
 ]
 =
-yield
+await
 task_add_visit
 (
 )
@@ -1448,7 +1448,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 promiseNotify
 ;
 }

@@ -85,8 +85,8 @@ urls
 /
 add_task
 (
+async
 function
-*
 test_escape
 (
 )
@@ -125,7 +125,7 @@ happytimes
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -171,7 +171,7 @@ http
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -197,7 +197,7 @@ title
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

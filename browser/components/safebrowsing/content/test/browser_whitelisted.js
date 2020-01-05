@@ -196,8 +196,8 @@ present
 }
 add_task
 (
+async
 function
-*
 testNormalBrowsing
 (
 )
@@ -255,7 +255,7 @@ net
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -299,7 +299,7 @@ PREF_WHITELISTED_HOSTNAMES
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab

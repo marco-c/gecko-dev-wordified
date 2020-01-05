@@ -90,8 +90,8 @@ nsIXMLHttpRequest
 ;
 add_task
 (
+async
 function
-*
 test_i18n_css
 (
 )
@@ -535,7 +535,7 @@ bidi_end_edge__
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -545,7 +545,7 @@ startup
 let
 cssURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -638,7 +638,7 @@ send
 let
 css
 =
-yield
+await
 fetch
 (
 cssURL
@@ -671,7 +671,7 @@ scope
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -688,7 +688,7 @@ html
 let
 maxWidth
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -698,8 +698,8 @@ contentPage
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -744,7 +744,7 @@ applied
 "
 )
 ;
-yield
+await
 contentPage
 .
 close
@@ -771,7 +771,7 @@ css
 ;
 css
 =
-yield
+await
 fetch
 (
 cssURL
@@ -914,7 +914,7 @@ rtl
 ;
 css
 =
-yield
+await
 fetch
 (
 cssURL
@@ -968,7 +968,7 @@ reset
 DIR_LEGACY
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -980,7 +980,7 @@ css
 "
 )
 ;
-yield
+await
 extension
 .
 unload

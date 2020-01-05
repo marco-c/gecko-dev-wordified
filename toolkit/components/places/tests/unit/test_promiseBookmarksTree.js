@@ -56,8 +56,8 @@ MPL
 .
 *
 /
+async
 function
-*
 check_has_child
 (
 aParentGuid
@@ -67,7 +67,7 @@ aChildGuid
 let
 parentTree
 =
-yield
+await
 PlacesUtils
 .
 promiseBookmarksTree
@@ -108,8 +108,8 @@ null
 )
 ;
 }
+async
 function
-*
 compareToNode
 (
 aItem
@@ -396,7 +396,7 @@ in
 aItem
 )
 ;
-yield
+await
 check_has_child
 (
 aItem
@@ -738,7 +738,7 @@ i
 nodesCount
 +
 =
-yield
+await
 compareToNode
 (
 aItem
@@ -1030,7 +1030,7 @@ compare_prop_to_value
 "
 charset
 "
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -1042,7 +1042,7 @@ itemURI
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -1293,8 +1293,8 @@ very
 test
 )
 .
+async
 function
-*
 test_promiseBookmarksTreeForEachNode
 (
 aNode
@@ -1321,7 +1321,7 @@ length
 let
 item
 =
-yield
+await
 PlacesUtils
 .
 promiseBookmarksTree
@@ -1332,8 +1332,7 @@ bookmarkGuid
 aOptions
 )
 ;
-yield
-*
+await
 compareToNode
 (
 item
@@ -1381,7 +1380,7 @@ PlacesUtils
 .
 tagsFolderId
 )
-yield
+await
 test_promiseBookmarksTreeForEachNode
 (
 child
@@ -1398,8 +1397,8 @@ return
 item
 ;
 }
+async
 function
-*
 test_promiseBookmarksTreeAgainstResult
 (
 aItemGuid
@@ -1421,7 +1420,7 @@ itemId
 =
 aItemGuid
 ?
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1446,7 +1445,7 @@ itemId
 root
 ;
 return
-yield
+await
 test_promiseBookmarksTreeForEachNode
 (
 node
@@ -1457,8 +1456,8 @@ aExcludedGuids
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1473,7 +1472,7 @@ various
 use
 cases
 .
-yield
+await
 new_bookmark
 (
 {
@@ -1487,7 +1486,7 @@ toolbarGuid
 }
 )
 ;
-yield
+await
 new_folder
 (
 {
@@ -1540,7 +1539,7 @@ bookmarks
 menuGuid
 }
 ;
-yield
+await
 PlacesTransactions
 .
 NewSeparator
@@ -1555,7 +1554,7 @@ transact
 let
 folderGuid
 =
-yield
+await
 new_folder
 (
 {
@@ -1569,7 +1568,7 @@ menuGuid
 }
 )
 ;
-yield
+await
 new_bookmark
 (
 {
@@ -1631,7 +1630,7 @@ favicon
 "
 )
 ;
-yield
+await
 new_bookmark
 (
 {
@@ -1644,7 +1643,7 @@ urlWithCharsetAndFavicon
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -1657,7 +1656,7 @@ UTF
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 urlWithCharsetAndFavicon
@@ -1675,7 +1674,7 @@ without
 specifying
 it
 .
-yield
+await
 test_promiseBookmarksTreeAgainstResult
 (
 )
@@ -1685,7 +1684,7 @@ test_promiseBookmarksTreeAgainstResult
 Do
 specify
 it
-yield
+await
 test_promiseBookmarksTreeAgainstResult
 (
 PlacesUtils
@@ -1789,7 +1788,7 @@ Set
 let
 placesRootWithoutTheMenu
 =
-yield
+await
 test_promiseBookmarksTreeAgainstResult
 (
 PlacesUtils

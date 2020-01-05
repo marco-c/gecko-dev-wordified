@@ -116,8 +116,8 @@ a
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -143,7 +143,7 @@ lz
 let
 data
 =
-yield
+await
 OS
 .
 File
@@ -192,8 +192,8 @@ lz4
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -269,8 +269,8 @@ decayRate
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -289,7 +289,7 @@ decayRate
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -486,8 +486,8 @@ historyObserver
 )
 ;
 }
+async
 function
-*
 testURIFields
 (
 url
@@ -498,7 +498,7 @@ expectedHidden
 let
 frecency
 =
-yield
+await
 promiseFieldForUrl
 (
 url
@@ -531,7 +531,7 @@ spec
 let
 hidden
 =
-yield
+await
 promiseFieldForUrl
 (
 url
@@ -572,8 +572,8 @@ expectedTargetFrecency
 ;
 add_task
 (
+async
 function
-*
 test_multiple_redirect
 (
 )
@@ -665,7 +665,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -676,7 +676,7 @@ newTabPromise
 ]
 )
 ;
-yield
+await
 testURIFields
 (
 REDIRECT_URI
@@ -684,7 +684,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_1
@@ -692,7 +692,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_2
@@ -700,7 +700,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 TARGET_URI
@@ -719,8 +719,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 redirect_check_second_typed_visit
 (
 )
@@ -809,7 +809,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -820,7 +820,7 @@ newTabPromise
 ]
 )
 ;
-yield
+await
 testURIFields
 (
 REDIRECT_URI
@@ -828,7 +828,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_1
@@ -836,7 +836,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_2
@@ -844,7 +844,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 TARGET_URI
@@ -863,8 +863,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 redirect_check_subsequent_link_visit
 (
 )
@@ -946,7 +946,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -957,7 +957,7 @@ newTabPromise
 ]
 )
 ;
-yield
+await
 testURIFields
 (
 REDIRECT_URI
@@ -965,7 +965,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_1
@@ -973,7 +973,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 INTERMEDIATE_URI_2
@@ -981,7 +981,7 @@ expectedRedirectSourceFrecency
 1
 )
 ;
-yield
+await
 testURIFields
 (
 TARGET_URI

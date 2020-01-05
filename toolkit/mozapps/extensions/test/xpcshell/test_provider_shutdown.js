@@ -308,8 +308,8 @@ shutdown
 /
 add_task
 (
+async
 function
-*
 blockRepoShutdown
 (
 )
@@ -426,7 +426,7 @@ call
 provider
 shutdown
 .
-yield
+await
 mockProvider
 .
 shutdownPromise
@@ -520,7 +520,7 @@ start
 waiting
 for
 it
-yield
+await
 mockRepo
 .
 shutdownPromise
@@ -623,7 +623,7 @@ doneResolve
 (
 )
 ;
-yield
+await
 managerDown
 ;
 /

@@ -323,13 +323,13 @@ counts
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -394,7 +394,7 @@ correctly
 let
 newWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -402,7 +402,7 @@ promiseOpenAndLoadWindow
 true
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWin
@@ -478,8 +478,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testNewWindow
 (
 )
@@ -487,7 +487,7 @@ testNewWindow
 let
 newWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -498,7 +498,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -593,7 +593,7 @@ clear
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -663,7 +663,7 @@ tracking
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -861,7 +861,7 @@ doCommand
 (
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 todo_is
@@ -984,7 +984,7 @@ doCommand
 (
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 todo_is
@@ -1061,7 +1061,7 @@ COUNTING
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWin
@@ -1108,8 +1108,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsing
 (
 )
@@ -1117,7 +1117,7 @@ testPrivateBrowsing
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -1131,7 +1131,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1178,14 +1178,14 @@ telemetry
 data
 is
 gathered
-yield
+await
 promiseTabLoadEvent
 (
 tab
 BENIGN_PAGE
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -1220,7 +1220,7 @@ doCommand
 (
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 tabReloadPromise
@@ -1250,7 +1250,7 @@ doCommand
 (
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 /
@@ -1354,7 +1354,7 @@ mode
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 privateWin

@@ -71,8 +71,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 ignore_cache_files_without_engines
 (
 )
@@ -83,7 +83,7 @@ commitPromise
 promiseAfterCache
 (
 )
-yield
+await
 asyncInit
 (
 )
@@ -126,7 +126,7 @@ mess
 with
 it
 .
-yield
+await
 commitPromise
 ;
 /
@@ -142,7 +142,7 @@ file
 let
 cache
 =
-yield
+await
 promiseCacheData
 (
 )
@@ -154,7 +154,7 @@ engines
 [
 ]
 ;
-yield
+await
 promiseSaveCacheData
 (
 cache
@@ -183,7 +183,7 @@ commitPromise
 promiseAfterCache
 (
 )
-yield
+await
 asyncReInit
 (
 )
@@ -202,7 +202,7 @@ getEngines
 length
 )
 ;
-yield
+await
 commitPromise
 ;
 /
@@ -223,7 +223,7 @@ same
 engine
 count
 .
-yield
+await
 promiseSaveCacheData
 (
 cache
@@ -248,7 +248,7 @@ asyncReInit
 (
 )
 ;
-yield
+await
 unInitPromise
 ;
 do_check_false
@@ -297,7 +297,7 @@ search
 isInitialized
 )
 ;
-yield
+await
 reInitPromise
 ;
 }
@@ -305,8 +305,8 @@ reInitPromise
 ;
 add_task
 (
+async
 function
-*
 skip_writing_cache_without_engines
 (
 )
@@ -330,7 +330,7 @@ asyncReInit
 (
 )
 ;
-yield
+await
 unInitPromise
 ;
 /
@@ -404,7 +404,7 @@ async
 reInit
 happen
 .
-yield
+await
 reInitPromise
 ;
 do_check_eq
@@ -455,7 +455,7 @@ asyncReInit
 (
 )
 ;
-yield
+await
 unInitPromise
 ;
 /
@@ -478,7 +478,7 @@ removeCacheFile
 )
 )
 ;
-yield
+await
 reInitPromise
 ;
 }

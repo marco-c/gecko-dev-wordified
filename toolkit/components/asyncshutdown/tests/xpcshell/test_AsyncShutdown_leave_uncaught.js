@@ -90,8 +90,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_phase_simple_async
 (
 )
@@ -341,7 +341,7 @@ outParam
 isFinished
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -413,7 +413,7 @@ test
 resolution
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -428,8 +428,8 @@ wait
 ;
 add_task
 (
+async
 function
-*
 test_phase_many
 (
 )
@@ -610,7 +610,7 @@ isFinished
 )
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -640,8 +640,8 @@ isFinished
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

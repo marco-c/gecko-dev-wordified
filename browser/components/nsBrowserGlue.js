@@ -6460,14 +6460,8 @@ samples
 )
 ;
 }
-_calculateProfileAgeInDays
-:
-Task
-.
 async
-(
-function
-*
+_calculateProfileAgeInDays
 (
 )
 {
@@ -6510,7 +6504,7 @@ null
 let
 creationDate
 =
-yield
+await
 profileAge
 .
 created
@@ -6518,7 +6512,7 @@ created
 let
 resetDate
 =
-yield
+await
 profileAge
 .
 reset
@@ -6573,7 +6567,6 @@ profileDate
 ONE_DAY
 ;
 }
-)
 _showSlowStartupNotification
 (
 profileAge
@@ -11852,12 +11845,9 @@ defaultPath
 )
 ;
 }
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -11927,7 +11917,7 @@ backup
 for
 today
 .
-yield
+await
 this
 .
 _backupBookmarks
@@ -12023,7 +12013,7 @@ JSON
 backup
 lastBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -12041,7 +12031,7 @@ restore
 from
 JSON
 backup
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -12080,7 +12070,7 @@ true
 ;
 if
 (
-yield
+await
 OS
 .
 File
@@ -12221,7 +12211,7 @@ initialization
 .
 try
 {
-yield
+await
 this
 .
 _distributionCustomizer
@@ -12230,7 +12220,7 @@ applyBookmarks
 (
 )
 ;
-yield
+await
 this
 .
 ensurePlacesDefaultQueriesInitialized
@@ -12377,7 +12367,7 @@ html
 else
 if
 (
-yield
+await
 OS
 .
 File
@@ -12420,7 +12410,7 @@ file
 .
 try
 {
-yield
+await
 BookmarkHTMLUtils
 .
 importFromURL
@@ -12474,7 +12464,7 @@ after
 Places
 initialization
 .
-yield
+await
 this
 .
 _distributionCustomizer
@@ -12499,7 +12489,7 @@ is
 /
 complete
 .
-yield
+await
 this
 .
 ensurePlacesDefaultQueriesInitialized
@@ -12657,7 +12647,7 @@ undefined
 )
 lastBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -12856,6 +12846,8 @@ bind
 this
 )
 )
+(
+)
 .
 catch
 (
@@ -12957,19 +12949,16 @@ BG__backupBookmarks
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 lastBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -13037,7 +13026,7 @@ max_backups
 "
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -13047,6 +13036,8 @@ maxBackups
 ;
 }
 }
+)
+(
 )
 ;
 }
@@ -16131,14 +16122,8 @@ aParentWindow
 )
 ;
 }
-ensurePlacesDefaultQueriesInitialized
-:
-Task
-.
 async
-(
-function
-*
+ensurePlacesDefaultQueriesInitialized
 (
 )
 {
@@ -16554,7 +16539,7 @@ smartBookmark
 .
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -16570,7 +16555,7 @@ smartBookmark
 url
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16588,7 +16573,7 @@ continue
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16783,7 +16768,7 @@ smartBookmark
 guid
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16867,7 +16852,7 @@ menuIndex
 }
 smartBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -16880,7 +16865,7 @@ smartBookmark
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -16951,7 +16936,7 @@ length
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -17008,7 +16993,7 @@ bookmarks
 TYPE_SEPARATOR
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -17075,7 +17060,6 @@ null
 ;
 }
 }
-)
 /
 *
 *

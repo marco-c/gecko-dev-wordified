@@ -469,8 +469,8 @@ iframe_prompt
 ;
 add_task
 (
+async
 function
-*
 runTest
 (
 )
@@ -526,7 +526,7 @@ loaded
 "
 )
 ;
-yield
+await
 iframe1Loaded
 ;
 info
@@ -542,7 +542,7 @@ loaded
 "
 )
 ;
-yield
+await
 iframe2Loaded
 ;
 let
@@ -643,7 +643,7 @@ click
 "
 )
 ;
-yield
+await
 promptDone
 ;
 /
@@ -718,7 +718,7 @@ click
 "
 )
 ;
-yield
+await
 promptDone
 ;
 /
@@ -787,7 +787,7 @@ click
 "
 )
 ;
-yield
+await
 promptDone
 ;
 /
@@ -839,7 +839,7 @@ click
 "
 )
 ;
-yield
+await
 promptDone
 ;
 }
@@ -847,8 +847,8 @@ promptDone
 ;
 add_task
 (
+async
 function
-*
 runTestAuth
 (
 )
@@ -1052,10 +1052,10 @@ pass
 mochipass1
 "
 ;
-yield
+await
 promptDone
 ;
-yield
+await
 iframe3Loaded
 ;
 checkEchoedAuthInfo
@@ -1286,10 +1286,10 @@ realm
 mochitest
 "
 ;
-yield
+await
 promptDone
 ;
-yield
+await
 iframe3Loaded
 ;
 checkEchoedAuthInfo

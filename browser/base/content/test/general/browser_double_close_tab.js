@@ -246,8 +246,8 @@ callback
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -263,7 +263,7 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 testTab
@@ -350,7 +350,7 @@ called
 just
 fine
 .
-yield
+await
 new
 Promise
 (
@@ -520,7 +520,7 @@ click
 }
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (

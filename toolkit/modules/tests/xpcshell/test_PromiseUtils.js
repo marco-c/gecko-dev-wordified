@@ -146,8 +146,8 @@ defer
 /
 add_task
 (
+async
 function
-*
 test_resolve_string
 (
 )
@@ -187,7 +187,7 @@ expected
 let
 result
 =
-yield
+await
 def
 .
 promise
@@ -236,8 +236,8 @@ object
 /
 add_task
 (
+async
 function
-*
 test_resolve_undefined
 (
 )
@@ -260,7 +260,7 @@ resolve
 let
 result
 =
-yield
+await
 def
 .
 promise
@@ -306,8 +306,8 @@ object
 /
 add_task
 (
+async
 function
-*
 test_resolve_pending_promise
 (
 )
@@ -371,7 +371,7 @@ p
 let
 result
 =
-yield
+await
 def
 .
 promise
@@ -421,8 +421,8 @@ object
 /
 add_task
 (
+async
 function
-*
 test_resolve_resolved_promise
 (
 )
@@ -478,7 +478,7 @@ p
 let
 result
 =
-yield
+await
 def
 .
 promise
@@ -525,8 +525,8 @@ method
 /
 add_task
 (
+async
 function
-*
 test_resolve_rejected_promise
 (
 )
@@ -574,7 +574,7 @@ resolve
 p
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -628,8 +628,8 @@ defer
 /
 add_task
 (
+async
 function
-*
 test_reject_Error
 (
 )
@@ -658,7 +658,7 @@ rejects
 )
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -708,8 +708,8 @@ object
 /
 add_task
 (
+async
 function
-*
 test_reject_pending_promise
 (
 )
@@ -759,7 +759,7 @@ reject
 p
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -811,8 +811,8 @@ method
 /
 add_task
 (
+async
 function
-*
 test_reject_resolved_promise
 (
 )
@@ -854,7 +854,7 @@ reject
 p
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -906,8 +906,8 @@ method
 /
 add_task
 (
+async
 function
-*
 test_reject_resolved_promise
 (
 )
@@ -965,7 +965,7 @@ reject
 p
 )
 ;
-yield
+await
 Assert
 .
 rejects

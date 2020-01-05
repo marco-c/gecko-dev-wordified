@@ -113,15 +113,15 @@ Define
 the
 testing
 function
+async
 function
-*
 doTest
 (
 aBrowser
 )
 {
 return
-yield
+await
 ContentTask
 .
 spawn

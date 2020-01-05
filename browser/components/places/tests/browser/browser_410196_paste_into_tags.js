@@ -77,15 +77,15 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 organizer
 =
-yield
+await
 promiseLibrary
 (
 )
@@ -162,7 +162,7 @@ history
 TRANSITION_TYPED
 }
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -182,7 +182,7 @@ with
 let
 newBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -304,7 +304,7 @@ PlacesOrganizer
 ContentTree
 )
 ;
-yield
+await
 promiseClipboard
 (
 populate
@@ -467,7 +467,7 @@ bookmarks
 [
 ]
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -598,7 +598,7 @@ same
 "
 )
 ;
-yield
+await
 promiseLibraryClosed
 (
 organizer
@@ -665,7 +665,7 @@ gone
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -674,7 +674,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

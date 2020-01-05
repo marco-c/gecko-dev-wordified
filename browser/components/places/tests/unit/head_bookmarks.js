@@ -498,12 +498,8 @@ name
 var
 createCorruptDB
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -530,7 +526,7 @@ sqlite
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -550,7 +546,7 @@ database
 let
 dir
 =
-yield
+await
 OS
 .
 File
@@ -576,7 +572,7 @@ sqlite
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -602,7 +598,7 @@ Assert
 ok
 (
 (
-yield
+await
 OS
 .
 File
@@ -622,7 +618,6 @@ now
 )
 ;
 }
-)
 ;
 /
 *
@@ -982,12 +977,8 @@ attempts
 var
 waitForResolvedPromise
 =
-Task
-.
 async
-(
 function
-*
 (
 promiseFn
 timeoutMsg
@@ -1008,7 +999,7 @@ try
 let
 value
 =
-yield
+await
 promiseFn
 (
 )
@@ -1023,7 +1014,7 @@ ex
 )
 {
 }
-yield
+await
 new
 Promise
 (
@@ -1056,5 +1047,4 @@ timeoutMsg
 )
 ;
 }
-)
 ;

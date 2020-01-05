@@ -13,13 +13,13 @@ disabled
 .
 add_task
 (
+async
 function
-*
 test_disabled
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -36,7 +36,7 @@ false
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

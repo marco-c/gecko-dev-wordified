@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_sendMessage_to_self_should_not_trigger_onMessage
 (
 )
@@ -360,14 +360,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -394,7 +394,7 @@ frame
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -411,7 +411,7 @@ onMessage
 "
 )
 ;
-yield
+await
 extension
 .
 unload

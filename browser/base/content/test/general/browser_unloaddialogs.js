@@ -381,8 +381,8 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -397,7 +397,7 @@ testUrls
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -432,7 +432,7 @@ so
 everything
 settles
 .
-yield
+await
 new
 Promise
 (
@@ -446,7 +446,7 @@ resolve
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

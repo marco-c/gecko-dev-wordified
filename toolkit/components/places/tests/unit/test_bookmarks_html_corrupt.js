@@ -86,8 +86,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_corrupt_file
 (
 )
@@ -151,7 +151,7 @@ html
 "
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile
@@ -173,14 +173,14 @@ have
 been
 imported
 .
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
 (
 )
 ;
-yield
+await
 database_check
 (
 )
@@ -190,8 +190,8 @@ database_check
 ;
 add_task
 (
+async
 function
-*
 test_corrupt_database
 (
 )
@@ -209,7 +209,7 @@ export
 let
 corruptBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -247,7 +247,7 @@ belugas
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 withConnectionWrapper
@@ -255,17 +255,13 @@ withConnectionWrapper
 "
 test
 "
-Task
-.
 async
-(
 function
-*
 (
 db
 )
 {
-yield
+await
 db
 .
 execute
@@ -293,7 +289,6 @@ guid
 )
 ;
 }
-)
 )
 ;
 let
@@ -324,7 +319,7 @@ html
 if
 (
 (
-yield
+await
 OS
 .
 File
@@ -335,7 +330,7 @@ bookmarksFile
 )
 )
 )
-yield
+await
 OS
 .
 File
@@ -345,7 +340,7 @@ remove
 bookmarksFile
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 exportToFile
@@ -362,7 +357,7 @@ check
 for
 correctness
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -371,7 +366,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile
@@ -380,14 +375,14 @@ bookmarksFile
 true
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
 (
 )
 ;
-yield
+await
 database_check
 (
 )
@@ -426,12 +421,8 @@ Never
 var
 database_check
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -640,7 +631,7 @@ title
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -730,7 +721,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -902,7 +893,7 @@ title
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -1043,7 +1034,7 @@ false
 /
 /
 favicons
-yield
+await
 new
 Promise
 (
@@ -1157,5 +1148,4 @@ resolve
 )
 ;
 }
-)
 ;

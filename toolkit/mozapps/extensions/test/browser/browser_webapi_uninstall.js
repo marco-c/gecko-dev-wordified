@@ -86,12 +86,12 @@ task
 )
 {
 return
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -116,8 +116,8 @@ spawn
 (
 browser
 id
+async
 function
-*
 (
 id
 )
@@ -125,7 +125,7 @@ id
 let
 addon
 =
-yield
+await
 content
 .
 navigator
@@ -140,7 +140,7 @@ id
 let
 result
 =
-yield
+await
 addon
 .
 uninstall
@@ -158,8 +158,8 @@ add_task
 (
 testWithAPI
 (
+async
 function
-*
 (
 browser
 )
@@ -246,7 +246,7 @@ a1
 a2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -280,7 +280,7 @@ installed
 let
 result
 =
-yield
+await
 API_uninstallByID
 (
 browser
@@ -304,7 +304,7 @@ a1
 a2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -338,7 +338,7 @@ installed
 ;
 result
 =
-yield
+await
 API_uninstallByID
 (
 browser
@@ -361,7 +361,7 @@ succeeded
 a2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [

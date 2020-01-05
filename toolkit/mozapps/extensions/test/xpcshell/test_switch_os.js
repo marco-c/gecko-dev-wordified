@@ -112,8 +112,8 @@ XPCShell
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -121,7 +121,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -135,7 +135,7 @@ test_bootstrap1_1
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -168,7 +168,7 @@ addon
 isActive
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -267,7 +267,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID

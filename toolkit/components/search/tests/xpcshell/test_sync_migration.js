@@ -90,8 +90,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_sync_metadata_migration
 (
 )
@@ -122,7 +122,7 @@ search
 isInitialized
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -141,7 +141,7 @@ correctly
 let
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )
@@ -176,7 +176,7 @@ foo
 ;
 metadata
 =
-yield
+await
 promiseGlobalMetadata
 (
 )

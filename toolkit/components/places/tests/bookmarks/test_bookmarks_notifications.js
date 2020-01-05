@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 insert_separator_notification
 (
 )
@@ -46,7 +46,7 @@ expectNotifications
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -74,7 +74,7 @@ unfiledGuid
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -87,7 +87,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -147,8 +147,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 insert_folder_notification
 (
 )
@@ -163,7 +163,7 @@ expectNotifications
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -197,7 +197,7 @@ folder
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -210,7 +210,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -272,8 +272,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 insert_folder_notitle_notification
 (
 )
@@ -288,7 +288,7 @@ expectNotifications
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -316,7 +316,7 @@ unfiledGuid
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -329,7 +329,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -389,8 +389,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 insert_bookmark_notification
 (
 )
@@ -405,7 +405,7 @@ expectNotifications
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -455,7 +455,7 @@ bookmark
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -468,7 +468,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -532,8 +532,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 insert_bookmark_notitle_notification
 (
 )
@@ -548,7 +548,7 @@ expectNotifications
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -592,7 +592,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -605,7 +605,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -667,8 +667,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 insert_bookmark_tag_notification
 (
 )
@@ -676,7 +676,7 @@ insert_bookmark_tag_notification
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -722,7 +722,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -735,7 +735,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -748,7 +748,7 @@ parentGuid
 let
 tagFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -788,7 +788,7 @@ expectNotifications
 let
 tag
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -832,7 +832,7 @@ com
 let
 tagId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -845,7 +845,7 @@ guid
 let
 tagParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -947,8 +947,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 update_bookmark_lastModified
 (
 )
@@ -956,7 +956,7 @@ update_bookmark_lastModified
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1008,7 +1008,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1033,7 +1033,7 @@ Date
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1046,7 +1046,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1114,8 +1114,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 update_bookmark_title
 (
 )
@@ -1123,7 +1123,7 @@ update_bookmark_title
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1175,7 +1175,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1200,7 +1200,7 @@ title
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1213,7 +1213,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1277,8 +1277,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 update_bookmark_uri
 (
 )
@@ -1286,7 +1286,7 @@ update_bookmark_uri
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1338,7 +1338,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1369,7 +1369,7 @@ org
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1382,7 +1382,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1458,8 +1458,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 update_move_same_folder
 (
 )
@@ -1496,7 +1496,7 @@ on
 that
 )
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1524,7 +1524,7 @@ unfiledGuid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1570,7 +1570,7 @@ com
 let
 bmItemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1583,7 +1583,7 @@ guid
 let
 bmParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1609,7 +1609,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1713,7 +1713,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1802,8 +1802,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 update_move_different_folder
 (
 )
@@ -1811,7 +1811,7 @@ update_move_different_folder
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1857,7 +1857,7 @@ com
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1885,7 +1885,7 @@ unfiledGuid
 let
 bmItemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1918,7 +1918,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1959,7 +1959,7 @@ index
 let
 bmNewParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2019,8 +2019,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark
 (
 )
@@ -2028,7 +2028,7 @@ remove_bookmark
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2074,7 +2074,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2087,7 +2087,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2106,7 +2106,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2183,8 +2183,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 remove_folder
 (
 )
@@ -2192,7 +2192,7 @@ remove_folder
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2220,7 +2220,7 @@ unfiledGuid
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2233,7 +2233,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2252,7 +2252,7 @@ expectNotifications
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2308,8 +2308,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark_tag_notification
 (
 )
@@ -2317,7 +2317,7 @@ remove_bookmark_tag_notification
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2363,7 +2363,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2376,7 +2376,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2389,7 +2389,7 @@ parentGuid
 let
 tagFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2422,7 +2422,7 @@ tag
 let
 tag
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2466,7 +2466,7 @@ com
 let
 tagId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2479,7 +2479,7 @@ guid
 let
 tagParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2496,7 +2496,7 @@ expectNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2594,8 +2594,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 remove_folder_notification
 (
 )
@@ -2603,7 +2603,7 @@ remove_folder_notification
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2631,7 +2631,7 @@ unfiledGuid
 let
 folder1Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2644,7 +2644,7 @@ guid
 let
 folder1ParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2657,7 +2657,7 @@ parentGuid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2699,7 +2699,7 @@ com
 let
 bmItemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2712,7 +2712,7 @@ guid
 let
 folder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2738,7 +2738,7 @@ guid
 let
 folder2Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2751,7 +2751,7 @@ guid
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2793,7 +2793,7 @@ com
 let
 bm2ItemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2810,7 +2810,7 @@ expectNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2963,8 +2963,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 eraseEverything_notification
 (
 )
@@ -2980,7 +2980,7 @@ a
 clean
 situation
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2992,7 +2992,7 @@ eraseEverything
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3020,7 +3020,7 @@ unfiledGuid
 let
 folder1Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3033,7 +3033,7 @@ guid
 let
 folder1ParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3046,7 +3046,7 @@ parentGuid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3088,7 +3088,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3101,7 +3101,7 @@ guid
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3114,7 +3114,7 @@ parentGuid
 let
 folder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3142,7 +3142,7 @@ unfiledGuid
 let
 folder2Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3155,7 +3155,7 @@ guid
 let
 folder2ParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3168,7 +3168,7 @@ parentGuid
 let
 toolbarBm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3212,7 +3212,7 @@ com
 let
 toolbarBmId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3225,7 +3225,7 @@ guid
 let
 toolbarBmParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3238,7 +3238,7 @@ parentGuid
 let
 menuBm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3282,7 +3282,7 @@ com
 let
 menuBmId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3295,7 +3295,7 @@ guid
 let
 menuBmParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3312,7 +3312,7 @@ expectNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3506,8 +3506,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 eraseEverything_reparented_notification
 (
 )
@@ -3523,7 +3523,7 @@ a
 clean
 situation
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3535,7 +3535,7 @@ eraseEverything
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3563,7 +3563,7 @@ unfiledGuid
 let
 folder1Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3576,7 +3576,7 @@ guid
 let
 folder1ParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3589,7 +3589,7 @@ parentGuid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3631,7 +3631,7 @@ com
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3644,7 +3644,7 @@ guid
 let
 folder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3672,7 +3672,7 @@ unfiledGuid
 let
 folder2Id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3685,7 +3685,7 @@ guid
 let
 folder2ParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3705,7 +3705,7 @@ guid
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3718,7 +3718,7 @@ bm
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -3735,7 +3735,7 @@ expectNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3863,8 +3863,8 @@ SOURCE_DEFAULT
 ;
 add_task
 (
+async
 function
-*
 reorder_notification
 (
 )
@@ -4009,7 +4009,7 @@ sorted
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4054,7 +4054,7 @@ expectNotifications
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4114,7 +4114,7 @@ i
 let
 childId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId

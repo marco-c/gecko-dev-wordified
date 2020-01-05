@@ -370,13 +370,13 @@ testnamespace
 }
 add_task
 (
+async
 function
-*
 testParameterValidation
 (
 )
 {
-yield
+await
 Schemas
 .
 load
@@ -818,13 +818,13 @@ cb
 ;
 add_task
 (
+async
 function
-*
 testAsyncResults
 (
 )
 {
-yield
+await
 Schemas
 .
 load
@@ -842,8 +842,8 @@ schemaJson
 )
 )
 ;
+async
 function
-*
 runWithCallback
 (
 func
@@ -866,7 +866,7 @@ result
 )
 ;
 return
-yield
+await
 new
 Promise
 (
@@ -944,8 +944,8 @@ value
 )
 ;
 }
+async
 function
-*
 runFailCallback
 (
 func
@@ -968,7 +968,7 @@ error
 )
 ;
 return
-yield
+await
 new
 Promise
 (
@@ -1138,7 +1138,7 @@ Promise
 ;
 do_check_eq
 (
-yield
+await
 promise
 1
 )
@@ -1177,7 +1177,7 @@ Promise
 ;
 do_check_eq
 (
-yield
+await
 promise
 2
 )
@@ -1185,8 +1185,7 @@ promise
 }
 do_check_eq
 (
-yield
-*
+await
 runWithCallback
 (
 testnamespace
@@ -1198,8 +1197,7 @@ async_required
 ;
 do_check_eq
 (
-yield
-*
+await
 runWithCallback
 (
 testnamespace
@@ -1376,7 +1374,7 @@ promises
 for
 chrome
 .
-yield
+await
 Assert
 .
 rejects
@@ -1410,7 +1408,7 @@ catch
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1447,8 +1445,7 @@ catch
 }
 do_check_eq
 (
-yield
-*
+await
 runFailCallback
 (
 testnamespace
@@ -1462,8 +1459,7 @@ ONE
 ;
 do_check_eq
 (
-yield
-*
+await
 runFailCallback
 (
 testnamespace

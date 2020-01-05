@@ -635,8 +635,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -701,8 +701,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -732,8 +732,8 @@ focus
 }
 add_task
 (
+async
 function
-*
 checkTogglingCaretBrowsing
 (
 )
@@ -741,7 +741,7 @@ checkTogglingCaretBrowsing
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -750,7 +750,7 @@ gBrowser
 kURL
 )
 ;
-yield
+await
 focusInput
 (
 tab
@@ -772,7 +772,7 @@ hitF7
 let
 prompt
 =
-yield
+await
 promiseGotKey
 ;
 let
@@ -849,7 +849,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 promiseDialogUnloaded
 ;
 info
@@ -860,7 +860,7 @@ unloaded
 "
 )
 ;
-yield
+await
 waitForFocusOnInput
 (
 tab
@@ -906,7 +906,7 @@ hitF7
 ;
 prompt
 =
-yield
+await
 promiseGotKey
 ;
 doc
@@ -981,7 +981,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 promiseDialogUnloaded
 ;
 info
@@ -992,7 +992,7 @@ unloaded
 "
 )
 ;
-yield
+await
 waitForFocusOnInput
 (
 tab
@@ -1041,7 +1041,7 @@ hitF7
 ;
 prompt
 =
-yield
+await
 promiseGotKey
 ;
 doc
@@ -1116,7 +1116,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 promiseDialogUnloaded
 ;
 info
@@ -1127,7 +1127,7 @@ unloaded
 "
 )
 ;
-yield
+await
 waitForFocusOnInput
 (
 tab
@@ -1191,7 +1191,7 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1204,8 +1204,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 toggleCheckboxNoCaretBrowsing
 (
 )
@@ -1213,7 +1213,7 @@ toggleCheckboxNoCaretBrowsing
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1222,7 +1222,7 @@ gBrowser
 kURL
 )
 ;
-yield
+await
 focusInput
 (
 tab
@@ -1244,7 +1244,7 @@ hitF7
 let
 prompt
 =
-yield
+await
 promiseGotKey
 ;
 let
@@ -1350,7 +1350,7 @@ click
 (
 )
 ;
-yield
+await
 promiseDialogUnloaded
 ;
 info
@@ -1361,7 +1361,7 @@ unloaded
 "
 )
 ;
-yield
+await
 waitForFocusOnInput
 (
 tab
@@ -1468,7 +1468,7 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1481,8 +1481,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 toggleCheckboxWantCaretBrowsing
 (
 )
@@ -1490,7 +1490,7 @@ toggleCheckboxWantCaretBrowsing
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1499,7 +1499,7 @@ gBrowser
 kURL
 )
 ;
-yield
+await
 focusInput
 (
 tab
@@ -1521,7 +1521,7 @@ hitF7
 let
 prompt
 =
-yield
+await
 promiseGotKey
 ;
 let
@@ -1620,7 +1620,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 promiseDialogUnloaded
 ;
 info
@@ -1631,7 +1631,7 @@ unloaded
 "
 )
 ;
-yield
+await
 waitForFocusOnInput
 (
 tab
@@ -1747,7 +1747,7 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

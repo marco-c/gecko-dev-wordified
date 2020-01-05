@@ -313,8 +313,8 @@ empty
 /
 add_task
 (
+async
 function
-*
 test_ensure_histogram_exists_and_empty
 (
 )
@@ -379,8 +379,8 @@ present
 /
 add_task
 (
+async
 function
-*
 test_no_files_exist
 (
 )
@@ -399,7 +399,7 @@ reset_session
 (
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -512,8 +512,8 @@ corrupted
 /
 add_task
 (
+async
 function
-*
 test_one_file_valid
 (
 )
@@ -565,7 +565,7 @@ invalidSession
 }
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -676,8 +676,8 @@ corrupted
 /
 add_task
 (
+async
 function
-*
 test_all_files_corrupt
 (
 )
@@ -718,7 +718,7 @@ invalidSession
 }
 )
 ;
-yield
+await
 SessionFile
 .
 read

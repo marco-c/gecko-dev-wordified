@@ -97,8 +97,8 @@ json
 /
 add_task
 (
+async
 function
-*
 test_missing_file
 (
 )
@@ -112,7 +112,7 @@ init
 let
 checkpoints
 =
-yield
+await
 CrashMonitor
 .
 previousCheckpoints

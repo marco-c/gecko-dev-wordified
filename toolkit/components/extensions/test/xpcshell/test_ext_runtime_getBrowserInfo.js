@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -80,8 +80,8 @@ mockAppInfo
 ;
 add_task
 (
+async
 function
-*
 test_getBrowserInfo
 (
 )
@@ -206,14 +206,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -225,7 +225,7 @@ getBrowserInfo
 "
 )
 ;
-yield
+await
 extension
 .
 unload

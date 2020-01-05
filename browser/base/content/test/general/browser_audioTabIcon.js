@@ -50,8 +50,8 @@ getIntPref
 TABATTR_REMOVAL_PREFNAME
 )
 ;
+async
 function
-*
 wait_for_tab_playing_event
 (
 tab
@@ -99,7 +99,7 @@ true
 ;
 }
 return
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -205,8 +205,8 @@ false
 )
 ;
 }
+async
 function
-*
 is_audio_playing
 (
 tab
@@ -222,7 +222,7 @@ linkedBrowser
 let
 isPlaying
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -230,8 +230,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -262,8 +262,8 @@ return
 isPlaying
 ;
 }
+async
 function
-*
 play
 (
 tab
@@ -276,7 +276,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -284,8 +284,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -353,7 +353,7 @@ audioMuted
 return
 ;
 }
-yield
+await
 wait_for_tab_playing_event
 (
 tab
@@ -361,8 +361,8 @@ true
 )
 ;
 }
+async
 function
-*
 pause
 (
 tab
@@ -449,7 +449,7 @@ tab
 false
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -457,8 +457,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -556,7 +556,7 @@ pausing
 "
 )
 ;
-yield
+await
 awaitDOMAudioPlaybackStopped
 ;
 ok
@@ -585,7 +585,7 @@ DOMAudioPlaybackStopped
 )
 ;
 }
-yield
+await
 awaitTabPausedAttrModified
 ;
 ok
@@ -710,7 +710,6 @@ disable
 ;
 }
 function
-*
 hover_icon
 (
 icon
@@ -1418,8 +1417,8 @@ tab
 )
 ;
 }
+async
 function
-*
 test_muting_using_menu
 (
 tab
@@ -1474,7 +1473,7 @@ button
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 /
@@ -1593,7 +1592,7 @@ attribute
 "
 )
 ;
-yield
+await
 play
 (
 tab
@@ -1646,7 +1645,7 @@ incorrect
 "
 )
 ;
-yield
+await
 pause
 (
 tab
@@ -1744,10 +1743,10 @@ toggleMute
 }
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
-yield
+await
 mutedPromise
 ;
 }
@@ -2174,8 +2173,8 @@ true
 )
 ;
 }
+async
 function
-*
 test_swapped_browser_while_playing
 (
 oldTab
@@ -2319,7 +2318,7 @@ newTab
 oldTab
 )
 ;
-yield
+await
 AttrChangePromise
 ;
 ok
@@ -2406,7 +2405,7 @@ icon
 "
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -2418,8 +2417,8 @@ true
 )
 ;
 }
+async
 function
-*
 test_swapped_browser_while_not_playing
 (
 oldTab
@@ -2631,7 +2630,7 @@ newTab
 oldTab
 )
 ;
-yield
+await
 AttrChangePromise
 ;
 ok
@@ -2714,7 +2713,7 @@ event
 is
 dispatched
 .
-yield
+await
 AudioPlaybackPromise
 ;
 ok
@@ -2801,7 +2800,7 @@ icon
 "
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -2813,8 +2812,8 @@ true
 )
 ;
 }
+async
 function
-*
 test_browser_swapping
 (
 tab
@@ -2833,7 +2832,7 @@ but
 muted
 tab
 .
-yield
+await
 play
 (
 tab
@@ -2857,7 +2856,7 @@ icon
 "
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -2865,7 +2864,7 @@ icon
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -2880,13 +2879,13 @@ about
 blank
 "
 }
+async
 function
-*
 (
 newBrowser
 )
 {
-yield
+await
 test_swapped_browser_while_playing
 (
 tab
@@ -2930,13 +2929,13 @@ getTabForBrowser
 newBrowser
 )
 ;
-yield
+await
 pause
 (
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -2965,8 +2964,8 @@ secondAboutBlankBrowser
 )
 ;
 }
+async
 function
-*
 test_click_on_pinned_tab_after_mute
 (
 )
@@ -3193,7 +3192,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -3219,14 +3218,14 @@ useful
 in
 e10s
 !
+async
 function
-*
 test_cross_process_load
 (
 )
 {
+async
 function
-*
 taskFn
 (
 browser
@@ -3253,7 +3252,7 @@ it
 to
 finish
 .
-yield
+await
 play
 (
 tab
@@ -3306,7 +3305,7 @@ about
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -3314,7 +3313,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 soundPlayingStoppedPromise
 ;
 ok
@@ -3359,7 +3358,7 @@ more
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -3374,14 +3373,14 @@ taskFn
 )
 ;
 }
+async
 function
-*
 test_mute_keybinding
 (
 )
 {
+async
 function
-*
 test_muting_using_keyboard
 (
 tab
@@ -3410,7 +3409,7 @@ true
 }
 )
 ;
-yield
+await
 mutedPromise
 ;
 mutedPromise
@@ -3435,7 +3434,7 @@ true
 }
 )
 ;
-yield
+await
 mutedPromise
 ;
 }
@@ -3622,7 +3621,7 @@ tab
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -3637,8 +3636,8 @@ taskFn
 )
 ;
 }
+async
 function
-*
 test_on_browser
 (
 browser
@@ -3664,7 +3663,7 @@ a
 normal
 tab
 .
-yield
+await
 test_playing_icon_on_tab
 (
 tab
@@ -3689,7 +3688,7 @@ a
 pinned
 tab
 .
-yield
+await
 test_playing_icon_on_tab
 (
 tab
@@ -3728,7 +3727,7 @@ spec
 PAGE
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -3759,7 +3758,7 @@ browser
 }
 else
 {
-yield
+await
 test_browser_swapping
 (
 tab
@@ -3768,8 +3767,8 @@ browser
 ;
 }
 }
+async
 function
-*
 test_delayed_tabattr_removal
 (
 )
@@ -3860,7 +3859,7 @@ true
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -3877,12 +3876,12 @@ taskFn
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -3917,13 +3916,13 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 test_page
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

@@ -81,8 +81,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -109,7 +109,7 @@ the
 items
 first
 .
-yield
+await
 new
 Promise
 (
@@ -388,7 +388,7 @@ the
 baseline
 point
 .
-yield
+await
 s
 .
 sanitize
@@ -443,7 +443,7 @@ input
 "
 )
 ;
-yield
+await
 s
 .
 sanitize

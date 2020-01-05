@@ -88,8 +88,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -203,7 +203,7 @@ html
 if
 (
 (
-yield
+await
 OS
 .
 File
@@ -215,7 +215,7 @@ file
 )
 )
 {
-yield
+await
 OS
 .
 File
@@ -226,7 +226,7 @@ file
 )
 ;
 }
-yield
+await
 BookmarkHTMLUtils
 .
 exportToFile
@@ -253,7 +253,7 @@ removeItem
 bm
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile

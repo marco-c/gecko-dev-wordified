@@ -316,8 +316,8 @@ area
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -372,7 +372,7 @@ successfully
 for
 some
 reason
-yield
+await
 resetCustomization
 (
 )

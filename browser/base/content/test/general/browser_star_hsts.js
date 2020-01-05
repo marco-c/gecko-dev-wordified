@@ -88,8 +88,8 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 test_star_redirect
 (
 )
@@ -208,7 +208,7 @@ the
 HSTS
 cache
 .
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -228,7 +228,7 @@ the
 secure
 page
 .
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -236,7 +236,7 @@ unsecureURL
 secureURL
 )
 ;
-yield
+await
 promiseStarState
 (
 BookmarkingUI
@@ -284,7 +284,7 @@ at
 that
 point
 .
-yield
+await
 promiseBookmark
 ;
 is

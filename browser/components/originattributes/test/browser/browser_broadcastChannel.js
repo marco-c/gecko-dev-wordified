@@ -62,8 +62,8 @@ file_broadcastChannel
 html
 "
 ;
+async
 function
-*
 doTest
 (
 aBrowser
@@ -72,15 +72,15 @@ aBrowser
 let
 response
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -224,7 +224,7 @@ toString
 let
 receivedData
 =
-yield
+await
 new
 Promise
 (

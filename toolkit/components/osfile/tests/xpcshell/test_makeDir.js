@@ -235,8 +235,8 @@ use
 /
 add_task
 (
+async
 function
-*
 test_basic
 (
 )
@@ -264,7 +264,7 @@ test
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -281,7 +281,7 @@ dir
 Make
 a
 directory
-yield
+await
 OS
 .
 File
@@ -298,7 +298,7 @@ if
 the
 directory
 exists
-yield
+await
 OS
 .
 File
@@ -319,7 +319,7 @@ exists
 this
 should
 succeed
-yield
+await
 OS
 .
 File
@@ -336,7 +336,7 @@ a
 directory
 with
 ignoreExisting
-yield
+await
 OS
 .
 File
@@ -366,7 +366,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -431,8 +431,8 @@ already
 exists
 add_task
 (
+async
 function
-*
 test_root
 (
 )
@@ -446,7 +446,7 @@ Constants
 Win
 )
 {
-yield
+await
 OS
 .
 File
@@ -459,7 +459,7 @@ C
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -477,7 +477,7 @@ C
 }
 else
 {
-yield
+await
 OS
 .
 File
@@ -503,8 +503,8 @@ subdirectories
 /
 add_task
 (
+async
 function
-*
 test_option_from
 (
 )
@@ -538,7 +538,7 @@ test
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -555,7 +555,7 @@ dir
 Make
 a
 directory
-yield
+await
 OS
 .
 File
@@ -577,7 +577,7 @@ if
 the
 directory
 exists
-yield
+await
 OS
 .
 File
@@ -598,7 +598,7 @@ exists
 this
 should
 succeed
-yield
+await
 OS
 .
 File
@@ -615,7 +615,7 @@ a
 directory
 with
 ignoreExisting
-yield
+await
 OS
 .
 File
@@ -645,7 +645,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -732,7 +732,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -809,7 +809,7 @@ f
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -821,7 +821,7 @@ dir3
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -839,7 +839,7 @@ profileDir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -917,7 +917,7 @@ g
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -929,7 +929,7 @@ dir4
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -947,7 +947,7 @@ profileDir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File

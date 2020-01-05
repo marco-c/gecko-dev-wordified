@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_untrimmed_secure_www
 (
 )
@@ -79,7 +79,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -112,7 +112,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -146,7 +146,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -156,8 +156,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_secure_www_path
 (
 )
@@ -179,7 +179,7 @@ path
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -212,7 +212,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -254,7 +254,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -264,8 +264,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_secure
 (
 )
@@ -284,7 +284,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -315,7 +315,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -347,7 +347,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -357,8 +357,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_secure_path
 (
 )
@@ -379,7 +379,7 @@ path
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -410,7 +410,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -450,7 +450,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -460,8 +460,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_www
 (
 )
@@ -481,7 +481,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -514,7 +514,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -544,7 +544,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -554,8 +554,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_www_path
 (
 )
@@ -577,7 +577,7 @@ path
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -610,7 +610,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -652,7 +652,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -662,8 +662,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_ftp
 (
 )
@@ -682,7 +682,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -713,7 +713,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -745,7 +745,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -755,8 +755,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untrimmed_ftp_path
 (
 )
@@ -777,7 +777,7 @@ path
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -808,7 +808,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -848,7 +848,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -858,8 +858,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_1
 (
 )
@@ -874,7 +874,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1007,7 +1007,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1035,7 +1035,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1045,8 +1045,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_2
 (
 )
@@ -1061,7 +1061,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1168,7 +1168,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1196,7 +1196,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1206,8 +1206,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_3
 (
 )
@@ -1222,7 +1222,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1305,7 +1305,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1333,7 +1333,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1343,8 +1343,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_4
 (
 )
@@ -1359,7 +1359,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1418,7 +1418,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1448,7 +1448,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1458,8 +1458,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_5
 (
 )
@@ -1474,7 +1474,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1533,7 +1533,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1565,7 +1565,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1575,8 +1575,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_priority_6
 (
 )
@@ -1591,7 +1591,7 @@ priority
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1652,7 +1652,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1682,7 +1682,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1692,8 +1692,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_longer_domain
 (
 )
@@ -1746,7 +1746,7 @@ the
 trigger
 bug
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1821,7 +1821,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1849,7 +1849,7 @@ co
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1859,8 +1859,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_escaped_chars
 (
 )
@@ -1880,7 +1880,7 @@ escaped
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1913,7 +1913,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1968,7 +1968,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1978,8 +1978,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_unsecure_secure
 (
 )
@@ -2001,7 +2001,7 @@ ones
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2034,7 +2034,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2088,7 +2088,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2098,8 +2098,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_unsecure_secure_domain
 (
 )
@@ -2121,7 +2121,7 @@ ones
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2154,7 +2154,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2200,7 +2200,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2210,8 +2210,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_www
 (
 )
@@ -2246,7 +2246,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2276,7 +2276,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2304,7 +2304,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2314,8 +2314,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_ftp
 (
 )
@@ -2350,7 +2350,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2378,7 +2378,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2406,7 +2406,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2416,8 +2416,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_secure
 (
 )
@@ -2452,7 +2452,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2480,7 +2480,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2508,7 +2508,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2518,8 +2518,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_secure_www
 (
 )
@@ -2558,7 +2558,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2588,7 +2588,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2616,7 +2616,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

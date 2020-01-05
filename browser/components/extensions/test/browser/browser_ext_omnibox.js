@@ -132,7 +132,6 @@ tests
 *
 /
 function
-*
 setup
 (
 )
@@ -182,8 +181,8 @@ SUGGEST_URLBAR_PREF
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -697,8 +696,8 @@ disposition
 ;
 }
 }
+async
 function
-*
 startInputSession
 (
 )
@@ -725,7 +724,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -750,7 +749,7 @@ t
 }
 )
 ;
-yield
+await
 expectEvent
 (
 "
@@ -814,7 +813,7 @@ check
 matches
 count
 .
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -1929,19 +1928,19 @@ currentTab
 )
 ;
 }
-yield
+await
 setup
 (
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -1949,7 +1948,7 @@ promiseFocus
 window
 )
 ;
-yield
+await
 testInputEvents
 (
 )
@@ -1964,7 +1963,7 @@ with
 default
 suggestions
 .
-yield
+await
 testHeuristicResult
 (
 "
@@ -1979,7 +1978,7 @@ setDefaultSuggestion
 /
 )
 ;
-yield
+await
 testHeuristicResult
 (
 "
@@ -1994,7 +1993,7 @@ setDefaultSuggestion
 /
 )
 ;
-yield
+await
 testHeuristicResult
 (
 "
@@ -2068,7 +2067,7 @@ suggestions
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2089,7 +2088,7 @@ and
 search
 disposition
 .
-yield
+await
 testDisposition
 (
 1
@@ -2104,7 +2103,7 @@ suggestions
 content
 )
 ;
-yield
+await
 testDisposition
 (
 2
@@ -2119,7 +2118,7 @@ suggestions
 content
 )
 ;
-yield
+await
 testDisposition
 (
 3
@@ -2148,7 +2147,7 @@ suggestions
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2167,7 +2166,7 @@ adding
 suggestions
 asynchronously
 .
-yield
+await
 testSuggestions
 (
 {
@@ -2189,7 +2188,7 @@ suggestions
 }
 )
 ;
-yield
+await
 testSuggestions
 (
 {
@@ -2296,7 +2295,7 @@ keyword
 }
 )
 ;
-yield
+await
 extension2
 .
 startup
@@ -2323,17 +2322,17 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
-yield
+await
 extension2
 .
 unload
 (
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -14,13 +14,13 @@ this
 file
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

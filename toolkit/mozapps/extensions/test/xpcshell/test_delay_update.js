@@ -285,7 +285,6 @@ addons
 )
 ;
 function
-*
 createIgnoreAddon
 (
 )
@@ -411,7 +410,6 @@ js
 ;
 }
 function
-*
 createCompleteAddon
 (
 )
@@ -537,7 +535,6 @@ js
 ;
 }
 function
-*
 createDeferAddon
 (
 )
@@ -676,12 +673,12 @@ update
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 createIgnoreAddon
 (
 )
@@ -693,7 +690,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 IGNORE_ID
@@ -764,7 +761,7 @@ extension
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -777,7 +774,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -805,7 +802,7 @@ delayed
 let
 addon_postponed
 =
-yield
+await
 promiseAddonByID
 (
 IGNORE_ID
@@ -892,7 +889,7 @@ allows
 upgrade
 to
 proceed
-yield
+await
 promiseRestartManager
 (
 )
@@ -900,7 +897,7 @@ promiseRestartManager
 let
 addon_upgraded
 =
-yield
+await
 promiseAddonByID
 (
 IGNORE_ID
@@ -968,7 +965,7 @@ extension
 "
 )
 ;
-yield
+await
 shutdownManager
 (
 )
@@ -990,12 +987,12 @@ update
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 createCompleteAddon
 (
 )
@@ -1007,7 +1004,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 COMPLETE_ID
@@ -1078,7 +1075,7 @@ extension
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -1091,7 +1088,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1108,7 +1105,7 @@ postponed
 let
 addon_postponed
 =
-yield
+await
 promiseAddonByID
 (
 COMPLETE_ID
@@ -1188,7 +1185,7 @@ let
 addon_allowed
 ]
 =
-yield
+await
 promiseAddonEvent
 (
 "
@@ -1263,7 +1260,7 @@ extension
 restarting
 changes
 nothing
-yield
+await
 promiseRestartManager
 (
 )
@@ -1271,7 +1268,7 @@ promiseRestartManager
 let
 addon_upgraded
 =
-yield
+await
 promiseAddonByID
 (
 COMPLETE_ID
@@ -1339,7 +1336,7 @@ extension
 "
 )
 ;
-yield
+await
 shutdownManager
 (
 )
@@ -1363,12 +1360,12 @@ allows
 upgrade
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 createDeferAddon
 (
 )
@@ -1380,7 +1377,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 DEFER_ID
@@ -1451,7 +1448,7 @@ extension
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -1464,7 +1461,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1481,7 +1478,7 @@ postponed
 let
 addon_postponed
 =
-yield
+await
 promiseAddonByID
 (
 DEFER_ID
@@ -1583,7 +1580,7 @@ let
 addon_allowed
 ]
 =
-yield
+await
 promiseAddonEvent
 (
 "
@@ -1658,7 +1655,7 @@ extension
 restarting
 changes
 nothing
-yield
+await
 promiseRestartManager
 (
 )
@@ -1666,7 +1663,7 @@ promiseRestartManager
 let
 addon_upgraded
 =
-yield
+await
 promiseAddonByID
 (
 DEFER_ID
@@ -1734,7 +1731,7 @@ extension
 "
 )
 ;
-yield
+await
 shutdownManager
 (
 )

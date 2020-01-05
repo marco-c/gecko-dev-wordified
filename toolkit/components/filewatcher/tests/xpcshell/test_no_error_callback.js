@@ -123,8 +123,8 @@ occurs
 /
 add_task
 (
+async
 function
-*
 test_error_with_no_error_callback
 (
 )
@@ -244,8 +244,8 @@ occur
 /
 add_task
 (
+async
 function
-*
 test_watch_single_path_file_creation_no_error_cb
 (
 )
@@ -309,7 +309,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -367,7 +367,7 @@ an
 error
 callback
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -400,7 +400,7 @@ watchedDir
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -431,7 +431,7 @@ created
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -490,7 +490,7 @@ of
 its
 content
 .
-yield
+await
 OS
 .
 File

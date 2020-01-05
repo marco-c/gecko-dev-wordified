@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ continue
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -86,7 +86,7 @@ page
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -100,8 +100,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -139,7 +139,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -207,7 +207,7 @@ click
 }
 )
 ;
-yield
+await
 browserLoaded
 ;
 ok
@@ -274,7 +274,7 @@ expectUncaughtException
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -283,8 +283,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -336,7 +336,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

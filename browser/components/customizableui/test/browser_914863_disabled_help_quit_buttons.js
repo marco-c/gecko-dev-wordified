@@ -73,12 +73,12 @@ buttons
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -103,7 +103,7 @@ false
 }
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -194,7 +194,7 @@ mode
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

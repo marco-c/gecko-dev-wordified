@@ -101,8 +101,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 search_bookmark_by_lastModified_dateDated
 (
 )
@@ -131,7 +131,7 @@ details
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -212,7 +212,7 @@ b4
 let
 b1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -262,7 +262,7 @@ getTime
 let
 b2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -312,7 +312,7 @@ getTime
 let
 b3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -362,7 +362,7 @@ getTime
 let
 b4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -433,7 +433,7 @@ getTime
 5000
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -462,7 +462,7 @@ getTime
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -491,7 +491,7 @@ getTime
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -520,7 +520,7 @@ getTime
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -598,7 +598,7 @@ folderIds
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId

@@ -97,8 +97,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -111,7 +111,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -141,8 +141,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )

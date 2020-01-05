@@ -62,8 +62,8 @@ RELATIVE_DIR
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -171,7 +171,7 @@ handlerInfo
 preferredAction
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -186,8 +186,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -202,7 +202,7 @@ opened
 with
 internal
 viewer
-yield
+await
 waitForPdfJS
 (
 browser
@@ -215,15 +215,15 @@ pdf
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -596,7 +596,7 @@ wrappedJSObject
 .
 PDFViewerApplication
 ;
-yield
+await
 viewer
 .
 close

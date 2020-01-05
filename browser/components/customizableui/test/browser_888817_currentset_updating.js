@@ -76,8 +76,8 @@ currentset
 attributes
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -199,7 +199,7 @@ currentSet
 let
 otherWin
 =
-yield
+await
 openAndLoadWindow
 (
 )
@@ -528,7 +528,7 @@ remove
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 otherWin
@@ -552,8 +552,8 @@ us
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -576,7 +576,7 @@ personalbar
 false
 )
 ;
-yield
+await
 resetCustomization
 (
 )

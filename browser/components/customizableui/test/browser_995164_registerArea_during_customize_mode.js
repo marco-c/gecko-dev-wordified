@@ -111,12 +111,12 @@ button
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 startCustomizing
 (
 )
@@ -304,7 +304,7 @@ toolbar
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -337,7 +337,7 @@ mode
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -688,7 +688,7 @@ toolbar
 let
 otherWin
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -1242,7 +1242,7 @@ close
 let
 windowClosed
 =
-yield
+await
 windowCloseDeferred
 .
 promise
@@ -1346,14 +1346,14 @@ instance
 "
 )
 ;
-yield
+await
 gCustomizeMode
 .
 reset
 (
 )
 ;
-yield
+await
 endCustomizing
 (
 )

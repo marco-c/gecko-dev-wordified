@@ -287,8 +287,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -411,8 +411,7 @@ of
 testCases
 )
 {
-yield
-*
+await
 testTabsCreateInvalidURL
 (
 tabsCreateURL

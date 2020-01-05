@@ -145,8 +145,8 @@ it
 /
 add_task
 (
+async
 function
-*
 test_save_reload
 (
 )
@@ -183,7 +183,7 @@ to
 be
 saved
 .
-yield
+await
 storeForSave
 .
 load
@@ -352,7 +352,7 @@ org
 "
 )
 ;
-yield
+await
 storeForSave
 .
 _save
@@ -378,7 +378,7 @@ storeForSave
 path
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -552,8 +552,8 @@ arrays
 /
 add_task
 (
+async
 function
-*
 test_load_empty
 (
 )
@@ -574,7 +574,7 @@ path
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -587,7 +587,7 @@ path
 )
 )
 ;
-yield
+await
 store
 .
 load
@@ -596,7 +596,7 @@ load
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -655,8 +655,8 @@ file
 /
 add_task
 (
+async
 function
-*
 test_save_empty
 (
 )
@@ -675,7 +675,7 @@ TEST_STORE_FILE_NAME
 path
 )
 ;
-yield
+await
 store
 .
 load
@@ -685,7 +685,7 @@ load
 let
 createdFile
 =
-yield
+await
 OS
 .
 File
@@ -702,14 +702,14 @@ true
 }
 )
 ;
-yield
+await
 createdFile
 .
 close
 (
 )
 ;
-yield
+await
 store
 .
 _save
@@ -718,7 +718,7 @@ _save
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -773,8 +773,8 @@ loaded
 /
 add_task
 (
+async
 function
-*
 test_load_string_predefined
 (
 )
@@ -1029,7 +1029,7 @@ org
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1062,7 +1062,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1236,8 +1236,8 @@ string
 /
 add_task
 (
+async
 function
-*
 test_load_string_malformed
 (
 )
@@ -1300,7 +1300,7 @@ id
 1
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1333,7 +1333,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1352,7 +1352,7 @@ created
 .
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -1370,7 +1370,7 @@ corrupt
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1449,8 +1449,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_load_string_malformed_sync
 (
 )
@@ -1513,7 +1513,7 @@ id
 1
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1564,7 +1564,7 @@ created
 .
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -1582,7 +1582,7 @@ corrupt
 )
 )
 ;
-yield
+await
 OS
 .
 File

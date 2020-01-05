@@ -243,8 +243,8 @@ crash
 /
 add_task
 (
+async
 function
-*
 test_content_url_annotation
 (
 )
@@ -303,7 +303,7 @@ file_redirect_to
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -311,8 +311,8 @@ withNewTab
 {
 gBrowser
 }
+async
 function
-*
 (
 browser
 )
@@ -353,8 +353,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -371,7 +371,7 @@ n
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -431,7 +431,7 @@ loadURI
 url
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -442,7 +442,7 @@ tab
 let
 annotations
 =
-yield
+await
 BrowserTestUtils
 .
 crashBrowser

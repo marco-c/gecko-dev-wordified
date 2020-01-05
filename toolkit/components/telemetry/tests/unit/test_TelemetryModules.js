@@ -661,8 +661,8 @@ null
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -671,7 +671,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -682,7 +682,7 @@ libModulesFile
 libUnicodeFile
 )
 ;
-yield
+await
 OS
 .
 File

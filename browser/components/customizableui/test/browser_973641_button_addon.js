@@ -79,12 +79,12 @@ spec
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -243,7 +243,7 @@ navbar
 "
 )
 ;
-yield
+await
 checkButtonFunctionality
 (
 addonButton
@@ -309,7 +309,7 @@ in
 the
 Panel
 Menu
-yield
+await
 PanelUI
 .
 show
@@ -363,7 +363,7 @@ Menu
 "
 )
 ;
-yield
+await
 checkButtonFunctionality
 (
 addonButtonInPanel
@@ -377,8 +377,8 @@ addonButtonInPanel
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -396,7 +396,7 @@ to
 the
 default
 state
-yield
+await
 resetCustomization
 (
 )
@@ -488,8 +488,8 @@ selectedTab
 )
 ;
 }
+async
 function
-*
 checkButtonFunctionality
 (
 aButton
@@ -501,7 +501,7 @@ click
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (

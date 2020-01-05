@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ this
 .
 otherWin
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -98,7 +98,7 @@ true
 true
 )
 ;
-yield
+await
 startCustomizing
 (
 this
@@ -257,7 +257,7 @@ enabled
 "
 )
 ;
-yield
+await
 this
 .
 otherWin
@@ -314,7 +314,7 @@ disabled
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 this
@@ -322,7 +322,7 @@ this
 otherWin
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 this
@@ -335,8 +335,8 @@ otherWin
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -356,7 +356,7 @@ otherWin
 closed
 )
 {
-yield
+await
 promiseWindowClosed
 (
 this

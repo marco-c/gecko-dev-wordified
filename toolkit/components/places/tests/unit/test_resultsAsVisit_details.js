@@ -50,8 +50,8 @@ history
 PlacesUtils
 add_task
 (
+async
 function
-*
 test_addVisitCheckFields
 (
 )
@@ -75,7 +75,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -452,7 +452,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -464,8 +464,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_bookmarkFields
 (
 )
@@ -652,7 +652,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 bookmarks
 .
 eraseEverything

@@ -73,8 +73,8 @@ open
 /
 add_task
 (
+async
 function
-*
 test_downloads_last_dir_toggle
 (
 )
@@ -135,7 +135,7 @@ true
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -293,7 +293,7 @@ file
 =
 tmpDir
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -312,7 +312,7 @@ window
 "
 )
 ;
-yield
+await
 testHelper
 (
 {
@@ -337,7 +337,7 @@ window
 "
 )
 ;
-yield
+await
 testHelper
 (
 {
@@ -364,7 +364,7 @@ directory
 "
 )
 ;
-yield
+await
 testHelper
 (
 {
@@ -396,7 +396,7 @@ directory
 "
 )
 ;
-yield
+await
 testHelper
 (
 {
@@ -421,7 +421,7 @@ history
 "
 )
 ;
-yield
+await
 testHelper
 (
 {
@@ -453,7 +453,7 @@ directory
 "
 )
 ;
-yield
+await
 testHelper
 (
 {

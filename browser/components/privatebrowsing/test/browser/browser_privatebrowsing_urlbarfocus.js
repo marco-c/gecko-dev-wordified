@@ -231,15 +231,15 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 win
 =
-yield
+await
 openNewPrivateWindow
 (
 )
@@ -260,8 +260,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -294,7 +294,7 @@ resetNewTabURL
 let
 win
 =
-yield
+await
 openNewPrivateWindow
 (
 )

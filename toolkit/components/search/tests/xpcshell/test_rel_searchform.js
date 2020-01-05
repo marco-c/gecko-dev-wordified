@@ -76,8 +76,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_rel_searchform
 (
 )
@@ -217,7 +217,7 @@ for
 let
 engine
 of
-yield
+await
 addTestEngines
 (
 items

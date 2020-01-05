@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -20,8 +20,8 @@ about
 config
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -42,15 +42,15 @@ com
 /
 "
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 newTabURL
+async
 function
-*
 (
 newTabURL
 )
@@ -143,7 +143,7 @@ gBrowser
 newTabURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -162,7 +162,7 @@ browser
 let
 newTab
 =
-yield
+await
 awaitNewTab
 ;
 is
@@ -183,7 +183,7 @@ page
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -224,7 +224,7 @@ gBrowser
 newTabURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -249,7 +249,7 @@ true
 browser
 )
 ;
-yield
+await
 awaitNewTab
 ;
 is
@@ -268,7 +268,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -308,7 +308,7 @@ gBrowser
 newTabURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -329,7 +329,7 @@ browser
 ;
 newTab
 =
-yield
+await
 awaitNewTab
 ;
 is
@@ -350,7 +350,7 @@ page
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

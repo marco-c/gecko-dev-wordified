@@ -116,8 +116,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -210,7 +210,7 @@ TOTAL_SITES
 1000
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

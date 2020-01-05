@@ -35,8 +35,8 @@ about_newtab
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -250,7 +250,7 @@ engineOneOff
 0
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -343,8 +343,8 @@ done
 .
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -374,7 +374,7 @@ removeEngine
 engineOneOff
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -401,8 +401,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_context_menu
 (
 )
@@ -456,7 +456,7 @@ text
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -492,7 +492,7 @@ page
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -502,8 +502,8 @@ tab
 linkedBrowser
 "
 "
+async
 function
-*
 (
 )
 {
@@ -619,7 +619,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupPromise
 ;
 info
@@ -842,7 +842,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -852,7 +852,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -865,8 +865,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_about_newtab
 (
 )
@@ -906,7 +906,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -920,7 +920,7 @@ newtab
 false
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -929,12 +929,12 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -981,7 +981,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 typeInSearchField
 (
 tab
@@ -1000,7 +1000,7 @@ text
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -1015,7 +1015,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 p
 ;
 /
@@ -1198,7 +1198,7 @@ MozSearch
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

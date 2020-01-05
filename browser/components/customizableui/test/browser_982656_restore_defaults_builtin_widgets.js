@@ -76,8 +76,8 @@ the
 toolbar
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ navbar
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )
@@ -242,8 +242,8 @@ custom
 toolbars
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -424,7 +424,7 @@ toolbar
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )

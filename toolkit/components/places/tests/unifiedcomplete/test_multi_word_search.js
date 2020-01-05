@@ -151,8 +151,8 @@ bookmark
 /
 add_task
 (
+async
 function
-*
 test_match_beginning
 (
 )
@@ -277,7 +277,7 @@ p
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -362,7 +362,7 @@ r
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -386,7 +386,7 @@ r
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -422,7 +422,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -474,7 +474,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -547,7 +547,7 @@ matched
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -634,7 +634,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -693,7 +693,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -739,7 +739,7 @@ nothing
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -758,7 +758,7 @@ matches
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

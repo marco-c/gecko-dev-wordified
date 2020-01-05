@@ -302,7 +302,6 @@ utils
 screenPixelsPerCSSPixel
 ;
 function
-*
 synthesizeNativeMouseMove
 (
 aElement
@@ -439,13 +438,13 @@ null
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
 {
-yield
+await
 promiseNewEngine
 (
 "
@@ -460,8 +459,8 @@ xml
 ;
 add_task
 (
+async
 function
-*
 test_notext
 (
 )
@@ -495,7 +494,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -550,7 +549,7 @@ entered
 "
 )
 ;
-yield
+await
 synthesizeNativeMouseMove
 (
 searchSettings
@@ -634,7 +633,7 @@ getOneOffs
 (
 )
 ;
-yield
+await
 synthesizeNativeMouseMove
 (
 buttons
@@ -740,7 +739,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -748,8 +747,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_text
 (
 )
@@ -820,7 +819,7 @@ searchIcon
 }
 )
 ;
-yield
+await
 promise
 ;
 is
@@ -884,7 +883,7 @@ getOneOffs
 (
 )
 ;
-yield
+await
 synthesizeNativeMouseMove
 (
 buttons
@@ -960,7 +959,7 @@ selected
 "
 )
 ;
-yield
+await
 synthesizeNativeMouseMove
 (
 searchSettings
@@ -1082,7 +1081,7 @@ engine
 "
 )
 ;
-yield
+await
 synthesizeNativeMouseMove
 (
 searchbarEngine
@@ -1129,7 +1128,7 @@ uri
 .
 spec
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -1155,7 +1154,7 @@ with
 other
 tests
 .
-yield
+await
 synthesizeNativeMouseMove
 (
 searchbar

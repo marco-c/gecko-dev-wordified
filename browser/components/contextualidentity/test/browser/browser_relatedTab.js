@@ -29,8 +29,8 @@ specified
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -104,7 +104,7 @@ usercontextid
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -162,7 +162,7 @@ usercontextid
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -222,7 +222,7 @@ usercontextid
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -282,7 +282,7 @@ usercontextid
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -290,7 +290,7 @@ removeTab
 relatedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

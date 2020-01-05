@@ -114,13 +114,13 @@ listener
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 ExtensionTestUtils
 .
 startAddonManager
@@ -132,8 +132,8 @@ startAddonManager
 ;
 add_task
 (
+async
 function
-*
 test_experiments_api
 (
 )
@@ -959,7 +959,7 @@ on
 let
 apiAddon
 =
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1026,7 +1026,7 @@ on
 let
 boringAddon
 =
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1034,7 +1034,7 @@ installTemporaryAddon
 boringAddonFile
 )
 ;
-yield
+await
 promiseAddonStartup
 (
 )
@@ -1068,7 +1068,7 @@ resolve
 let
 addon
 =
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1076,7 +1076,7 @@ installTemporaryAddon
 addonFile
 )
 ;
-yield
+await
 promiseAddonStartup
 (
 )
@@ -1084,7 +1084,7 @@ promiseAddonStartup
 let
 hello
 =
-yield
+await
 promise
 ;
 equal
@@ -1122,7 +1122,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 new
 Promise
 (

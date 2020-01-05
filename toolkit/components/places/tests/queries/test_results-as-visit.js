@@ -423,8 +423,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_results_as_visit
 (
 )
@@ -433,7 +433,7 @@ createTestData
 (
 )
 ;
-yield
+await
 task_populateDB
 (
 testData
@@ -681,7 +681,7 @@ moz
 )
 ;
 }
-yield
+await
 task_populateDB
 (
 tmp
@@ -765,7 +765,7 @@ html
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change2
@@ -902,7 +902,7 @@ moz
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change3
@@ -1013,7 +1013,7 @@ z
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change4

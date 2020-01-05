@@ -122,8 +122,8 @@ bar
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -187,7 +187,7 @@ the
 plugin
 hidden
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -209,8 +209,8 @@ TEST_PLUGIN_NAME
 ;
 add_task
 (
+async
 function
-*
 test_plugin_accessible_in_subframe
 (
 )
@@ -335,7 +335,7 @@ expireTime
 /
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -346,13 +346,13 @@ url
 :
 DOMAIN_1
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -362,8 +362,8 @@ browser
 TEST_PLUGIN_NAME
 DOMAIN_2
 ]
+async
 function
-*
 (
 [
 pluginName
@@ -452,7 +452,7 @@ appendChild
 subframe
 )
 ;
-yield
+await
 loadedPromise
 ;
 /

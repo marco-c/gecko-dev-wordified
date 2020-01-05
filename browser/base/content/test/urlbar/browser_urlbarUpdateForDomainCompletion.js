@@ -46,12 +46,12 @@ accordingly
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -72,7 +72,7 @@ false
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -87,8 +87,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -145,7 +145,7 @@ return
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 is

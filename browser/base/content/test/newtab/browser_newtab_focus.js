@@ -50,12 +50,12 @@ expected
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -145,7 +145,7 @@ new
 tab
 page
 .
-yield
+await
 setLinks
 (
 "
@@ -167,8 +167,7 @@ setPinnedLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )

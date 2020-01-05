@@ -723,8 +723,8 @@ Meh
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -743,7 +743,7 @@ stringify
 json
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -2506,8 +2506,8 @@ checkCaptured
 ;
 add_task
 (
+async
 function
-*
 test_neuter
 (
 )

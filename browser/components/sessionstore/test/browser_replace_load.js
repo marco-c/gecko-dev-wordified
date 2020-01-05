@@ -104,12 +104,12 @@ around
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 testSwitchToTab
 (
 "
@@ -128,7 +128,7 @@ whenComparingAndReplace
 }
 )
 ;
-yield
+await
 testSwitchToTab
 (
 "
@@ -153,12 +153,8 @@ true
 var
 testSwitchToTab
 =
-Task
-.
 async
-(
 function
-*
 (
 url
 options
@@ -192,7 +188,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -271,7 +267,7 @@ pending
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -299,7 +295,7 @@ Tab
 should
 now
 restore
-yield
+await
 promiseTabRestored
 (
 tab
@@ -333,15 +329,15 @@ any
 history
 entries
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -411,5 +407,4 @@ tab
 )
 ;
 }
-)
 ;

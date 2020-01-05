@@ -83,8 +83,8 @@ restoration
 /
 add_task
 (
+async
 function
-*
 docshell_capabilities
 (
 )
@@ -92,7 +92,7 @@ docshell_capabilities
 let
 tab
 =
-yield
+await
 createTab
 (
 )
@@ -261,7 +261,7 @@ reload
 (
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -278,7 +278,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -390,7 +390,7 @@ state
 into
 it
 .
-yield
+await
 promiseTabState
 (
 tab
@@ -423,7 +423,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -505,7 +505,7 @@ with
 disallowed
 features
 .
-yield
+await
 promiseTabState
 (
 tab

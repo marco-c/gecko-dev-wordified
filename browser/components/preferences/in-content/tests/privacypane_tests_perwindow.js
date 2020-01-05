@@ -25,8 +25,8 @@ head
 js
 *
 /
+async
 function
-*
 runTestOnPrivacyPrefPane
 (
 testFunc
@@ -43,7 +43,7 @@ entered
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -104,7 +104,7 @@ browser
 contentWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

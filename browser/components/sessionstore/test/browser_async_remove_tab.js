@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 createTabWithRandomValue
 (
 url
@@ -27,7 +27,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -75,7 +75,7 @@ no
 scheduled
 messages
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -216,8 +216,8 @@ spawn
 (
 browser
 snippet
+async
 function
-*
 (
 codeSnippet
 )
@@ -473,8 +473,8 @@ WeakMap
 ;
 add_task
 (
+async
 function
-*
 dont_save_empty_tabs
 (
 )
@@ -485,7 +485,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -536,7 +536,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -568,8 +568,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 save_worthy_tabs_remote
 (
 )
@@ -580,7 +580,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -648,7 +648,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -678,8 +678,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 save_worthy_tabs_nonremote
 (
 )
@@ -690,7 +690,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -755,7 +755,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -785,8 +785,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 save_worthy_tabs_remote_final
 (
 )
@@ -797,7 +797,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -872,7 +872,7 @@ getSystemPrincipal
 )
 '
 ;
-yield
+await
 promiseNewLocationAndHistoryEntryReplaced
 (
 browser
@@ -949,7 +949,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -982,8 +982,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 save_worthy_tabs_nonremote_final
 (
 )
@@ -994,7 +994,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -1036,7 +1036,7 @@ non
 remote
 entry
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1076,7 +1076,7 @@ about
 :
 blank
 .
-yield
+await
 promiseHistoryEntryReplacedNonRemote
 (
 browser
@@ -1130,7 +1130,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -1163,8 +1163,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 dont_save_empty_tabs_final
 (
 )
@@ -1175,7 +1175,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -1228,7 +1228,7 @@ blank
 )
 '
 ;
-yield
+await
 promiseNewLocationAndHistoryEntryReplaced
 (
 browser
@@ -1277,7 +1277,7 @@ saved
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -1315,8 +1315,8 @@ saved
 ;
 add_task
 (
+async
 function
-*
 undo_worthy_tabs
 (
 )
@@ -1327,7 +1327,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -1423,7 +1423,7 @@ final
 update
 message
 .
-yield
+await
 promise
 ;
 /
@@ -1461,7 +1461,7 @@ closed
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1472,8 +1472,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 forget_worthy_tabs_remote
 (
 )
@@ -1484,7 +1484,7 @@ tab
 r
 }
 =
-yield
+await
 createTabWithRandomValue
 (
 "
@@ -1576,7 +1576,7 @@ final
 update
 message
 .
-yield
+await
 promise
 ;
 /

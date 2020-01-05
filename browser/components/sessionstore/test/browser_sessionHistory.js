@@ -54,8 +54,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_load_start
 (
 )
@@ -88,7 +88,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -101,7 +101,7 @@ a
 new
 URI
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -125,7 +125,7 @@ has
 finished
 loading
 .
-yield
+await
 promiseContentMessage
 (
 browser
@@ -138,7 +138,7 @@ OnHistoryReplaceEntry
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -167,7 +167,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -231,8 +231,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_hashchange
 (
 )
@@ -293,7 +293,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -311,7 +311,7 @@ single
 shistory
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -385,7 +385,7 @@ a
 }
 )
 ;
-yield
+await
 promiseContentMessage
 (
 browser
@@ -409,7 +409,7 @@ two
 shistory
 entries
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -482,8 +482,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_pageshow
 (
 )
@@ -562,7 +562,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -583,7 +583,7 @@ loadURI
 URL2
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -610,7 +610,7 @@ goBack
 (
 )
 ;
-yield
+await
 promiseContentMessage
 (
 browser
@@ -651,7 +651,7 @@ did
 invalidate
 shistory
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -718,8 +718,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_subframes
 (
 )
@@ -848,7 +848,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -865,7 +865,7 @@ single
 shistory
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -953,7 +953,7 @@ a1
 }
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -974,7 +974,7 @@ subframes
 Check
 shistory
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1050,7 +1050,7 @@ goBack
 (
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1095,7 +1095,7 @@ a2
 }
 )
 ;
-yield
+await
 promiseContentMessage
 (
 browser
@@ -1113,7 +1113,7 @@ hashchange
 Check
 shistory
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1208,8 +1208,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_about_page_navigate
 (
 )
@@ -1242,7 +1242,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1259,7 +1259,7 @@ single
 shistory
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1360,7 +1360,7 @@ robots
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1377,7 +1377,7 @@ the
 history
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1472,8 +1472,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_pushstate_replacestate
 (
 )
@@ -1512,7 +1512,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1529,7 +1529,7 @@ single
 shistory
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1595,7 +1595,7 @@ correct
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1603,8 +1603,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1642,7 +1642,7 @@ the
 history
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1712,7 +1712,7 @@ correct
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1720,8 +1720,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1759,7 +1759,7 @@ the
 history
 entry
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1865,8 +1865,8 @@ shistory
 /
 add_task
 (
+async
 function
-*
 test_slow_subframe_load
 (
 )
@@ -1984,13 +1984,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush

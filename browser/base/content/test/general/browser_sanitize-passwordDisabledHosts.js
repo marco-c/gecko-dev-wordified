@@ -82,8 +82,8 @@ Sanitizer
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -99,7 +99,7 @@ capture
 is
 disabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -353,7 +353,7 @@ true
 /
 Clear
 it
-yield
+await
 s
 .
 sanitize
@@ -406,7 +406,7 @@ cleared
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv

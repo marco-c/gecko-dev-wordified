@@ -41,8 +41,8 @@ set
 /
 add_task
 (
+async
 function
-*
 test_chrome_opens_window
 (
 )
@@ -85,7 +85,7 @@ a
 new
 tab
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -130,7 +130,7 @@ com
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -139,8 +139,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -169,7 +169,7 @@ _blank
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 let
@@ -181,15 +181,15 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -250,7 +250,7 @@ principal
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

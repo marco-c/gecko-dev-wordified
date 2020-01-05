@@ -95,8 +95,8 @@ expectedData
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -111,13 +111,13 @@ window
 let
 newWindow
 =
-yield
+await
 loadViewSourceWindow
 (
 source
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -125,8 +125,7 @@ promiseFocus
 newWindow
 )
 ;
-yield
-*
+await
 onViewSourceWindowOpen
 (
 newWindow
@@ -155,8 +154,7 @@ of
 expectedData
 )
 {
-yield
-*
+await
 checkMenuItems
 (
 contextMenu
@@ -180,7 +178,7 @@ test
 )
 ;
 }
-yield
+await
 new
 Promise
 (
@@ -213,7 +211,7 @@ expectedData
 let
 newTab
 =
-yield
+await
 openDocumentSelect
 (
 source
@@ -222,8 +220,7 @@ body
 "
 )
 ;
-yield
-*
+await
 onViewSourceWindowOpen
 (
 window
@@ -249,8 +246,7 @@ of
 expectedData
 )
 {
-yield
-*
+await
 checkMenuItems
 (
 contextMenu
@@ -289,7 +285,7 @@ in
 view
 source
 window
-yield
+await
 pushPrefs
 (
 [
@@ -309,7 +305,7 @@ expectedData
 ;
 newWindow
 =
-yield
+await
 openDocumentSelect
 (
 source
@@ -318,7 +314,7 @@ body
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -326,8 +322,7 @@ promiseFocus
 newWindow
 )
 ;
-yield
-*
+await
 onViewSourceWindowOpen
 (
 newWindow
@@ -355,8 +350,7 @@ of
 expectedData
 )
 {
-yield
-*
+await
 checkMenuItems
 (
 contextMenu
@@ -380,7 +374,7 @@ test
 )
 ;
 }
-yield
+await
 new
 Promise
 (
@@ -400,8 +394,8 @@ resolve
 }
 )
 ;
+async
 function
-*
 onViewSourceWindowOpen
 (
 aWindow
@@ -471,15 +465,15 @@ gViewSourceWindow
 .
 gBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 arg
 )
@@ -628,8 +622,8 @@ null
 )
 ;
 }
+async
 function
-*
 checkMenuItems
 (
 contextMenu
@@ -653,7 +647,7 @@ gViewSourceWindow
 .
 gBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -662,8 +656,8 @@ browser
 {
 selector
 }
+async
 function
-*
 (
 arg
 )
@@ -699,7 +693,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -718,7 +712,7 @@ button
 browser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 is
@@ -785,7 +779,7 @@ copyLinkExpected
 copyEmailExpected
 )
 {
-yield
+await
 new
 Promise
 (
@@ -848,7 +842,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

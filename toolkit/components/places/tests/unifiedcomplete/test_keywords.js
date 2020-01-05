@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_non_keyword
 (
 )
@@ -79,7 +79,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -110,7 +110,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -136,7 +136,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -164,7 +164,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -174,8 +174,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_keyword
 (
 )
@@ -194,7 +194,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -225,7 +225,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -256,7 +256,7 @@ moz
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -278,7 +278,7 @@ moz
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -288,8 +288,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_more_than_keyword
 (
 )
@@ -309,7 +309,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -340,7 +340,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -371,7 +371,7 @@ moz
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -399,7 +399,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -409,8 +409,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_less_than_keyword
 (
 )
@@ -430,7 +430,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -461,7 +461,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -492,7 +492,7 @@ moz
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -520,7 +520,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -530,8 +530,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_keyword_casing
 (
 )
@@ -550,7 +550,7 @@ insensitive
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -581,7 +581,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -612,7 +612,7 @@ moz
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -634,7 +634,7 @@ MoZ
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

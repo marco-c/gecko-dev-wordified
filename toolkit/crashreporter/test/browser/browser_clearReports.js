@@ -325,8 +325,8 @@ oldPrompt
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -668,7 +668,7 @@ cleanup_fake_appdir
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -683,8 +683,8 @@ about
 crashes
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -725,7 +725,7 @@ pendingdir
 path
 ]
 ;
-yield
+await
 ContentTask
 .
 spawn

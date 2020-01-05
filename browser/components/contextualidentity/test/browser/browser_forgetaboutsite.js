@@ -481,8 +481,8 @@ length
 )
 ;
 }
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -548,7 +548,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -874,8 +874,8 @@ functions
 /
 /
 Cookies
+async
 function
-*
 test_cookie_cleared
 (
 )
@@ -947,8 +947,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -970,7 +969,7 @@ Close
 this
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1091,7 +1090,7 @@ Forget
 the
 site
 .
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1540,8 +1539,8 @@ cleared
 /
 Image
 Cache
+async
 function
-*
 test_image_cache_cleared
 (
 )
@@ -1584,8 +1583,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 "
@@ -1612,7 +1610,7 @@ html
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1681,7 +1679,7 @@ Forget
 the
 site
 .
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1739,8 +1737,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 "
@@ -1767,7 +1764,7 @@ html
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1822,8 +1819,8 @@ times
 /
 Offline
 Storage
+async
 function
-*
 test_storage_cleared
 (
 )
@@ -1888,8 +1885,7 @@ context
 let
 tabInfo
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1916,7 +1912,7 @@ been
 set
 correctly
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -1932,8 +1928,8 @@ USER_CONTEXTS
 userContextId
 ]
 }
+async
 function
-*
 (
 arg
 )
@@ -2043,7 +2039,7 @@ idb
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -2112,7 +2108,7 @@ get
 1
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2171,7 +2167,7 @@ Close
 this
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2188,7 +2184,7 @@ Forget
 the
 site
 .
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2251,8 +2247,7 @@ storage
 let
 tabInfo
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -2276,7 +2271,7 @@ cleared
 or
 not
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -2285,8 +2280,8 @@ tabInfo
 .
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -2396,7 +2391,7 @@ idb
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -2493,7 +2488,7 @@ Close
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2507,8 +2502,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -2521,7 +2516,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2621,8 +2616,8 @@ test_storage_cleared
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )

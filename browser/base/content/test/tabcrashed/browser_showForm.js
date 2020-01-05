@@ -108,8 +108,8 @@ default
 /
 add_task
 (
+async
 function
-*
 test_show_form
 (
 )
@@ -125,8 +125,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -161,7 +161,7 @@ root
 sendReport
 "
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -185,7 +185,7 @@ crash
 the
 browser
 .
-yield
+await
 BrowserTestUtils
 .
 crashBrowser

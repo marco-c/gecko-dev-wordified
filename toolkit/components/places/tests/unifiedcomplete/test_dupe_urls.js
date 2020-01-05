@@ -43,8 +43,8 @@ pages
 .
 add_task
 (
+async
 function
-*
 test_dupe_urls
 (
 )
@@ -64,7 +64,7 @@ one
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -113,7 +113,7 @@ org
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -186,13 +186,13 @@ heuristic
 ;
 add_task
 (
+async
 function
-*
 test_dupe_secure_urls
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -241,7 +241,7 @@ org
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {

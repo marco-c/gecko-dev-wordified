@@ -175,8 +175,8 @@ test
 /
 add_task
 (
+async
 function
-*
 test_watch_multi_paths
 (
 )
@@ -583,7 +583,7 @@ directory
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -625,7 +625,7 @@ are
 being
 watched
 .
-yield
+await
 deferredSuccesses
 .
 promise
@@ -672,7 +672,7 @@ i
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -702,7 +702,7 @@ files
 were
 created
 .
-yield
+await
 deferredChanges
 .
 promise
@@ -772,7 +772,7 @@ watches
 the
 resources
 .
-yield
+await
 deferredShutdown
 .
 promise

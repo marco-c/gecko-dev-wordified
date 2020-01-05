@@ -114,8 +114,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -124,7 +124,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 makeFakeAppDir
 (
 )
@@ -134,8 +134,8 @@ makeFakeAppDir
 ;
 add_task
 (
+async
 function
-*
 test_main_process_crash
 (
 )
@@ -289,7 +289,7 @@ true
 let
 count
 =
-yield
+await
 deferred
 .
 promise
@@ -315,7 +315,7 @@ seen
 let
 crashes
 =
-yield
+await
 cm
 .
 getCrashes

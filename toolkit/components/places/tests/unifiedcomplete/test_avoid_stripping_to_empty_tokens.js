@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_protocol_trimming
 (
 )
@@ -158,7 +158,7 @@ transition
 TRANSITION_TYPED
 }
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -298,7 +298,7 @@ for
 input
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -310,7 +310,7 @@ matches
 )
 ;
 }
-yield
+await
 cleanup
 (
 )

@@ -161,8 +161,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -175,7 +175,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -215,8 +215,8 @@ processCount
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -296,7 +296,7 @@ wait
 for
 tab
 load
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -386,7 +386,7 @@ foo
 9999
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -463,7 +463,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

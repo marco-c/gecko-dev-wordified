@@ -167,8 +167,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 hitEnterLoadInRightTab
 (
 )
@@ -205,7 +205,7 @@ let
 oldTab
 =
 (
-yield
+await
 oldTabCreatedPromise
 )
 .
@@ -268,7 +268,7 @@ keyword
 "
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -351,7 +351,7 @@ let
 newTab
 =
 (
-yield
+await
 newTabCreatedPromise
 )
 .
@@ -405,7 +405,7 @@ loaded
 )
 )
 ;
-yield
+await
 Promise
 .
 race
@@ -468,7 +468,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -485,7 +485,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

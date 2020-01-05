@@ -145,8 +145,8 @@ decoded
 /
 add_task
 (
+async
 function
-*
 test_tag_match_url
 (
 )
@@ -212,7 +212,7 @@ firefox3
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -241,7 +241,7 @@ title
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -272,7 +272,7 @@ tag
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -303,7 +303,7 @@ tag
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -371,7 +371,7 @@ tag
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

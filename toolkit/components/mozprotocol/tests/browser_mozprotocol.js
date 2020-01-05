@@ -20,8 +20,8 @@ new
 url
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ content
 length
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -85,7 +85,7 @@ html
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -95,8 +95,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 )
 {
@@ -113,7 +113,7 @@ a
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForLocationChange

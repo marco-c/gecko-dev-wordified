@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 moveMultiple
 (
 )
@@ -78,7 +78,7 @@ of
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -661,14 +661,14 @@ move
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -680,7 +680,7 @@ move
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -695,7 +695,7 @@ of
 tabs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab

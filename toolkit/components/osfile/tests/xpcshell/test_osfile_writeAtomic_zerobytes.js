@@ -38,8 +38,8 @@ SHARED_PATH
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -75,8 +75,8 @@ tmp
 ;
 add_test_pair
 (
+async
 function
-*
 test_osfile_writeAtomic_zerobytes
 (
 )
@@ -105,7 +105,7 @@ encode
 string1
 )
 ;
-yield
+await
 OS
 .
 File
@@ -127,7 +127,7 @@ TextDecoder
 let
 bin
 =
-yield
+await
 OS
 .
 File

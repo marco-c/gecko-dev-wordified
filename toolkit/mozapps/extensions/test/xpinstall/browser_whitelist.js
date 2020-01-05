@@ -392,12 +392,8 @@ cancel
 const
 finish_test
 =
-Task
-.
 async
-(
 function
-*
 (
 count
 )
@@ -422,7 +418,7 @@ installed
 const
 results
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -499,7 +495,6 @@ finish
 )
 ;
 }
-)
 ;
 /
 /

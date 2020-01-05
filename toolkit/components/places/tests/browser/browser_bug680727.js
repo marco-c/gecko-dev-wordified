@@ -1020,8 +1020,8 @@ finish
 }
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -1049,7 +1049,7 @@ offline
 =
 false
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

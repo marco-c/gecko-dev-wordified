@@ -128,15 +128,15 @@ from
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -242,7 +242,7 @@ ve
 broken
 this
 .
-yield
+await
 new
 Promise
 (
@@ -303,7 +303,7 @@ synchronously
 "
 )
 ;
-yield
+await
 pageLoadPromise
 ;
 ok
@@ -339,7 +339,7 @@ obs
 =
 null
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

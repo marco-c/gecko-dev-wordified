@@ -819,8 +819,8 @@ expectedSubsessionCounter
 ;
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -882,7 +882,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -900,8 +900,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_subsessionsChaining
 (
 )
@@ -1120,14 +1120,14 @@ to
 be
 archived
 .
-yield
+await
 TelemetryController
 .
 testSetup
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1196,7 +1196,7 @@ testReset
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1272,7 +1272,7 @@ callback
 }
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1347,7 +1347,7 @@ ok
 schedulerTickCallback
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1407,7 +1407,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1477,7 +1477,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1533,7 +1533,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1566,7 +1566,7 @@ the
 daily
 ping
 .
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1651,7 +1651,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1675,7 +1675,7 @@ an
 environment
 change
 .
-yield
+await
 TelemetryController
 .
 testReset
@@ -1739,7 +1739,7 @@ session
 ping
 save
 .
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1766,7 +1766,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1801,7 +1801,7 @@ the
 daily
 ping
 .
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1865,7 +1865,7 @@ session
 ping
 save
 .
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1889,14 +1889,14 @@ ping
 gets
 archived
 .
-yield
+await
 TelemetryController
 .
 testReset
 (
 )
 ;
-yield
+await
 promiseValidateArchivedPings
 (
 expectedReasons
@@ -1907,12 +1907,12 @@ expectedReasons
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testShutdown

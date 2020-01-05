@@ -1572,13 +1572,13 @@ unloaded
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1622,8 +1622,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_all_icons
 (
 )
@@ -1944,7 +1944,7 @@ svg
 ]
 ]
 ;
-yield
+await
 runTestWithIcons
 (
 icons
@@ -1955,8 +1955,8 @@ icons
 ;
 add_task
 (
+async
 function
-*
 teardown
 (
 )
@@ -1978,8 +1978,8 @@ restore
 ;
 add_task
 (
+async
 function
-*
 test_some_icons
 (
 )
@@ -2219,7 +2219,7 @@ svg
 ]
 ]
 ;
-yield
+await
 runTestWithIcons
 (
 icons
@@ -2230,8 +2230,8 @@ icons
 ;
 add_task
 (
+async
 function
-*
 teardown
 (
 )

@@ -166,8 +166,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 search_engine_match
 (
 )
@@ -175,7 +175,7 @@ search_engine_match
 let
 engine
 =
-yield
+await
 promiseDefaultSearchEngine
 (
 )
@@ -192,7 +192,7 @@ getResultDomain
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -249,8 +249,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 no_match
 (
 )
@@ -258,7 +258,7 @@ no_match
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -274,8 +274,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 hide_search_engine_nomatch
 (
 )
@@ -283,7 +283,7 @@ hide_search_engine_nomatch
 let
 engine
 =
-yield
+await
 promiseDefaultSearchEngine
 (
 )
@@ -318,7 +318,7 @@ removeEngine
 engine
 )
 ;
-yield
+await
 promiseTopic
 ;
 do_check_true
@@ -331,7 +331,7 @@ hidden
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -351,8 +351,8 @@ substr
 ;
 add_task
 (
+async
 function
-*
 add_search_engine_match
 (
 )
@@ -372,7 +372,7 @@ added
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -424,13 +424,13 @@ searchTerms
 "
 )
 ;
-yield
+await
 promiseTopic
 ;
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -481,8 +481,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_aliased_search_engine_match
 (
 )
@@ -490,7 +490,7 @@ test_aliased_search_engine_match
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -508,7 +508,7 @@ case
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -553,7 +553,7 @@ case
 let
 match1
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -598,7 +598,7 @@ case
 let
 match2
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -641,8 +641,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_aliased_search_engine_match_upper_case_alias
 (
 )
@@ -662,7 +662,7 @@ added
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -714,7 +714,7 @@ searchTerms
 "
 )
 ;
-yield
+await
 promiseTopic
 ;
 /
@@ -724,7 +724,7 @@ case
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -769,7 +769,7 @@ case
 let
 match1
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -814,7 +814,7 @@ case
 let
 match2
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -857,8 +857,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 remove_search_engine_nomatch
 (
 )
@@ -898,13 +898,13 @@ removeEngine
 engine
 )
 ;
-yield
+await
 promiseTopic
 ;
 do_check_eq
 (
 null
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -920,8 +920,8 @@ bacon
 ;
 add_task
 (
+async
 function
-*
 test_parseSubmissionURL_basic
 (
 )
@@ -958,7 +958,7 @@ here
 let
 engine
 =
-yield
+await
 promiseDefaultSearchEngine
 (
 )

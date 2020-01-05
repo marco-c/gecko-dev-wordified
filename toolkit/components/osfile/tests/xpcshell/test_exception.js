@@ -70,8 +70,8 @@ open
 |
 add_test_pair
 (
+async
 function
-*
 test_typeerror
 (
 )
@@ -84,7 +84,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -159,8 +159,8 @@ read
 |
 add_test_pair
 (
+async
 function
-*
 test_bad_encoding
 (
 )
@@ -178,7 +178,7 @@ encoding
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -238,7 +238,7 @@ exception
 }
 try
 {
-yield
+await
 OS
 .
 File
@@ -312,8 +312,8 @@ exception
 ;
 add_test_pair
 (
+async
 function
-*
 test_bad_compression
 (
 )
@@ -333,7 +333,7 @@ compression
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -405,7 +405,7 @@ compression
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -479,8 +479,8 @@ exception
 ;
 add_test_pair
 (
+async
 function
-*
 test_bad_bytes
 (
 )
@@ -501,7 +501,7 @@ bytes
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -577,8 +577,8 @@ exception
 ;
 add_test_pair
 (
+async
 function
-*
 read_non_existent
 (
 )
@@ -598,7 +598,7 @@ file
 ;
 try
 {
-yield
+await
 OS
 .
 File

@@ -410,7 +410,7 @@ Test
 #
 3
 "
-*
+async
 run
 (
 )
@@ -423,7 +423,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -478,7 +478,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -490,7 +490,7 @@ complete
 =
 false
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -508,7 +508,7 @@ org
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -540,7 +540,7 @@ complete
 =
 true
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -637,7 +637,7 @@ Test
 #
 4
 "
-*
+async
 run
 (
 )
@@ -650,7 +650,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -724,7 +724,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -736,7 +736,7 @@ complete
 =
 false
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -754,7 +754,7 @@ org
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -802,7 +802,7 @@ complete
 =
 true
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -898,7 +898,7 @@ Test
 #
 5
 "
-*
+async
 run
 (
 )
@@ -911,7 +911,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -966,7 +966,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -978,7 +978,7 @@ complete
 =
 false
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -996,7 +996,7 @@ org
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -1383,7 +1383,7 @@ Test
 #
 7
 "
-*
+async
 run
 (
 )
@@ -1439,7 +1439,7 @@ showNotification
 notifyObj
 )
 ;
-yield
+await
 promiseTopic
 ;
 isnot

@@ -227,8 +227,8 @@ once
 /
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -336,7 +336,7 @@ TEST_STATE
 let
 win
 =
-yield
+await
 promiseWindow
 ;
 /
@@ -421,7 +421,7 @@ as
 dirty
 before
 .
-yield
+await
 new
 Promise
 (
@@ -454,7 +454,7 @@ checkWindows
 /
 Cleanup
 .
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -462,7 +462,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 promiseBrowserState
 (
 backupState

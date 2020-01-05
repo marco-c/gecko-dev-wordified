@@ -119,8 +119,8 @@ simultaneously
 /
 add_task
 (
+async
 function
-*
 test_fill_notification_buffer
 (
 )
@@ -184,7 +184,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -378,7 +378,7 @@ start
 watching
 it
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -433,7 +433,7 @@ fileNameBase
 i
 )
 ;
-yield
+await
 OS
 .
 File
@@ -447,7 +447,7 @@ content
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -478,7 +478,7 @@ modified
 and
 removed
 .
-yield
+await
 deferred
 .
 promise
@@ -511,7 +511,7 @@ to
 unregister
 )
 .
-yield
+await
 promiseRemovePath
 (
 watcher

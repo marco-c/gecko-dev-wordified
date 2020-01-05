@@ -188,8 +188,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_annos_expire_history
 (
 )
@@ -295,7 +295,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -451,7 +451,7 @@ visit
 before
 bookmarking
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -468,7 +468,7 @@ now
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -660,7 +660,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -764,7 +764,7 @@ and
 the
 bookmarks
 .
-yield
+await
 promiseForceExpirationStep
 (
 10

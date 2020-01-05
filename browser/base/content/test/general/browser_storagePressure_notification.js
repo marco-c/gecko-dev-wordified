@@ -169,8 +169,8 @@ given
 interval
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ TEST_NOTIFICATION_INTERVAL_MS
 =
 2000
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -202,7 +202,7 @@ true
 }
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -227,7 +227,7 @@ TEST_NOTIFICATION_INTERVAL_MS
 }
 )
 ;
-yield
+await
 notifyStoragePressure
 (
 )
@@ -286,7 +286,7 @@ close
 (
 )
 ;
-yield
+await
 notifyStoragePressure
 (
 )
@@ -327,7 +327,7 @@ interval
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -343,7 +343,7 @@ TEST_NOTIFICATION_INTERVAL_MS
 )
 )
 ;
-yield
+await
 notifyStoragePressure
 (
 )
@@ -407,12 +407,12 @@ given
 threshold
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -435,7 +435,7 @@ true
 }
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -487,7 +487,7 @@ usageThresholdGB
 "
 )
 ;
-yield
+await
 notifyStoragePressure
 (
 USAGE_THRESHOLD_BYTES
@@ -569,7 +569,7 @@ doCommand
 (
 )
 ;
-yield
+await
 aboutPrefPromise
 ;
 let

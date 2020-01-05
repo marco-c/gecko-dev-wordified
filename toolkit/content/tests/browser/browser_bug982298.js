@@ -68,8 +68,8 @@ a
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -91,7 +91,7 @@ btoa
 scrollHtml
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -100,8 +100,8 @@ withNewTab
 gBrowser
 url
 }
+async
 function
-*
 (
 browser
 )
@@ -241,7 +241,7 @@ F
 "
 )
 ;
-yield
+await
 awaitFindResult
 ;
 let
@@ -334,7 +334,7 @@ scrollTest
 false
 )
 ;
-yield
+await
 awaitScrollDone
 ;
 info
@@ -346,7 +346,7 @@ event
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -359,7 +359,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -545,7 +545,7 @@ e
 0
 )
 ;
-yield
+await
 awaitFindResult2
 ;
 }

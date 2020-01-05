@@ -217,8 +217,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -282,7 +282,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -518,8 +518,8 @@ length
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -532,7 +532,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -645,8 +645,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -663,7 +663,7 @@ the
 icon
 data
 .
-yield
+await
 getIconFile
 (
 )
@@ -771,8 +771,7 @@ context
 let
 tabInfo
 =
-yield
-*
+await
 openTabInUserContext
 (
 testURL
@@ -789,7 +788,7 @@ to
 the
 userContext
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -848,7 +847,7 @@ newURI
 testFaviconURL
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -891,7 +890,7 @@ contentPrincipal
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

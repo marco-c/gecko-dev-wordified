@@ -55,8 +55,8 @@ startupManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ install
 "
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [

@@ -27,8 +27,8 @@ bug
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -95,7 +95,7 @@ interval
 pref
 to
 0
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -128,7 +128,7 @@ addTab
 testURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -138,7 +138,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -382,7 +382,7 @@ removeAll
 (
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 gBrowser

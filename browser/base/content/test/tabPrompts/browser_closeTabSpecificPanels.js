@@ -60,8 +60,8 @@ open
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -226,7 +226,7 @@ openPopupAtScreen
 210
 )
 ;
-yield
+await
 specificPanelPromise
 ;
 is
@@ -266,7 +266,7 @@ openPopupAtScreen
 510
 )
 ;
-yield
+await
 generalPanelPromise
 ;
 is

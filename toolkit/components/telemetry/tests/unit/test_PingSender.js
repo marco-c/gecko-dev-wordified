@@ -362,8 +362,8 @@ reject
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -423,8 +423,8 @@ start
 ;
 add_task
 (
+async
 function
-*
 test_pingSender
 (
 )
@@ -490,7 +490,7 @@ stuff
 }
 }
 ;
-yield
+await
 TelemetryStorage
 .
 savePing
@@ -755,7 +755,7 @@ still
 exists
 locally
 .
-yield
+await
 deferred404Hit
 .
 promise
@@ -765,7 +765,7 @@ Assert
 ok
 (
 (
-yield
+await
 OS
 .
 File
@@ -839,7 +839,7 @@ pingPath
 let
 req
 =
-yield
+await
 PingServer
 .
 promiseNextRequest
@@ -1049,7 +1049,7 @@ the
 pending
 ping
 .
-yield
+await
 waitForPingDeletion
 (
 data
@@ -1089,7 +1089,7 @@ with
 the
 test
 .
-yield
+await
 new
 Promise
 (
@@ -1109,13 +1109,13 @@ r
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 PingServer
 .
 stop

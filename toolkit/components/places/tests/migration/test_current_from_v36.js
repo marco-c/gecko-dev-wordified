@@ -11,8 +11,8 @@ gTestcases
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -62,7 +62,7 @@ an
 existing
 one
 .
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -103,7 +103,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -116,7 +116,7 @@ path
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -246,7 +246,7 @@ info
 )
 ;
 }
-yield
+await
 db
 .
 close
@@ -258,8 +258,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -283,7 +283,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -295,7 +295,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -310,8 +310,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_icons
 (
 )
@@ -319,7 +319,7 @@ test_icons
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -329,7 +329,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -392,7 +392,7 @@ page_url
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -580,7 +580,7 @@ id
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -652,7 +652,7 @@ page_id
 ;
 rows
 =
-yield
+await
 db
 .
 execute

@@ -29,13 +29,13 @@ is
 opened
 add_task
 (
+async
 function
-*
 test_menu_with_timeout
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -130,7 +130,7 @@ visible
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -226,7 +226,7 @@ mousedown
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -284,7 +284,7 @@ contextIdItem
 let
 tab
 =
-yield
+await
 waitForTabPromise
 ;
 is
@@ -308,7 +308,7 @@ i
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -322,13 +322,13 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_menu_without_timeout
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -423,7 +423,7 @@ visible
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -519,7 +519,7 @@ mousedown
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -577,7 +577,7 @@ contextIdItem
 let
 tab
 =
-yield
+await
 waitForTabPromise
 ;
 is
@@ -601,7 +601,7 @@ i
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -615,13 +615,13 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_no_menu
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -754,8 +754,8 @@ popup
 ;
 add_task
 (
+async
 function
-*
 test_private_mode
 (
 )
@@ -763,7 +763,7 @@ test_private_mode
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -907,7 +907,7 @@ popup
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

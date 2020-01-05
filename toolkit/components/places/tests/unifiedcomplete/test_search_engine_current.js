@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -103,7 +103,7 @@ engine
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -149,7 +149,7 @@ input
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -201,7 +201,7 @@ words
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -327,7 +327,7 @@ currentEngine
 =
 engine
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -366,7 +366,7 @@ true
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

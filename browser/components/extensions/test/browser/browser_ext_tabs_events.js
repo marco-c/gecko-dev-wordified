@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testTabEvents
 (
 )
@@ -1470,14 +1470,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1489,7 +1489,7 @@ events
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1501,8 +1501,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testTabEventsSize
 (
 )
@@ -1897,7 +1897,7 @@ height
 )
 ;
 }
-yield
+await
 Promise
 .
 all
@@ -1970,7 +1970,7 @@ tab
 let
 tabId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1986,7 +1986,7 @@ id
 ;
 checkDimensions
 (
-yield
+await
 extension
 .
 awaitMessage
@@ -2004,7 +2004,7 @@ create
 ;
 checkDimensions
 (
-yield
+await
 extension
 .
 awaitMessage
@@ -2024,7 +2024,7 @@ onCreated
 ;
 checkDimensions
 (
-yield
+await
 extension
 .
 awaitMessage
@@ -2056,7 +2056,7 @@ tabId
 ;
 checkDimensions
 (
-yield
+await
 extension
 .
 awaitMessage
@@ -2074,7 +2074,7 @@ update
 ;
 checkDimensions
 (
-yield
+await
 extension
 .
 awaitMessage
@@ -2104,7 +2104,7 @@ tab
 tabId
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2117,7 +2117,7 @@ removed
 )
 ;
 }
-yield
+await
 extension
 .
 unload
@@ -2136,8 +2136,8 @@ RESOLUTION_PREF
 ;
 add_task
 (
+async
 function
-*
 testTabRemovalEvent
 (
 )
@@ -2454,14 +2454,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -2473,7 +2473,7 @@ events
 "
 )
 ;
-yield
+await
 extension
 .
 unload

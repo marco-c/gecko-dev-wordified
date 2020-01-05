@@ -54,13 +54,13 @@ table
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -75,8 +75,8 @@ sqlite
 ;
 add_task
 (
+async
 function
-*
 corrupt_database_not_exists
 (
 )
@@ -112,7 +112,7 @@ ok
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -136,8 +136,8 @@ exist
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -161,7 +161,7 @@ DATABASE_STATUS_CORRUPT
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -173,7 +173,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -188,8 +188,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 check_columns
 (
 )
@@ -210,14 +210,14 @@ otherwise
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
 (
 )
 ;
-yield
+await
 db
 .
 execute
@@ -230,7 +230,7 @@ moz_places
 "
 )
 ;
-yield
+await
 db
 .
 execute
@@ -248,8 +248,8 @@ moz_inputhistory
 ;
 add_task
 (
+async
 function
-*
 corrupt_database_exists
 (
 )
@@ -284,7 +284,7 @@ Assert
 ok
 (
 (
-yield
+await
 OS
 .
 File

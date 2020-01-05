@@ -59,8 +59,8 @@ inline
 scripts
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -130,7 +130,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -164,7 +164,7 @@ pre
 restore
 allowed
 )
-yield
+await
 injectInlineScript
 (
 browser
@@ -193,7 +193,7 @@ promiseBrowserLoaded
 browser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -286,10 +286,10 @@ click
 }
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -340,7 +340,7 @@ URI
 close
 the
 tab
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -365,7 +365,7 @@ window
 0
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -377,7 +377,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn

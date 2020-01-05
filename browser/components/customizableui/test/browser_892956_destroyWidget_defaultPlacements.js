@@ -89,8 +89,8 @@ a
 defaultArea
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -163,13 +163,13 @@ finish
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

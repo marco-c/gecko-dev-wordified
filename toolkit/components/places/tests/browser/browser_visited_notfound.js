@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -73,7 +73,7 @@ decayRate
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -83,8 +83,8 @@ gBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -103,7 +103,7 @@ decayRate
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -111,7 +111,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -150,7 +150,7 @@ not
 found
 page
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -165,7 +165,7 @@ TEST_URL
 let
 frecency
 =
-yield
+await
 PlacesTestUtils
 .
 fieldInDB
@@ -287,12 +287,12 @@ loadURI
 TEST_URL
 )
 ;
-yield
+await
 promiseVisit
 ;
 is
 (
-yield
+await
 PlacesTestUtils
 .
 fieldInDB
@@ -313,7 +313,7 @@ unchanged
 ;
 is
 (
-yield
+await
 PlacesTestUtils
 .
 fieldInDB
@@ -335,7 +335,7 @@ hidden
 ;
 is
 (
-yield
+await
 PlacesTestUtils
 .
 fieldInDB

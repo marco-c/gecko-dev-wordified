@@ -41,8 +41,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 testSidebarOpenClose
 (
 )
@@ -62,7 +62,7 @@ _countableEvents
 {
 }
 ;
-yield
+await
 SidebarUI
 .
 show
@@ -104,7 +104,7 @@ show
 }
 )
 ;
-yield
+await
 SidebarUI
 .
 hide
@@ -134,7 +134,7 @@ hide
 }
 )
 ;
-yield
+await
 SidebarUI
 .
 show
@@ -195,7 +195,7 @@ record
 a
 close
 .
-yield
+await
 SidebarUI
 .
 show
@@ -238,7 +238,7 @@ hide
 }
 )
 ;
-yield
+await
 SidebarUI
 .
 hide
@@ -288,7 +288,7 @@ re
 -
 open
 viewTabsSidebar
-yield
+await
 SidebarUI
 .
 toggle
@@ -331,7 +331,7 @@ hide
 }
 )
 ;
-yield
+await
 SidebarUI
 .
 toggle

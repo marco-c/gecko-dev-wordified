@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testWindowCreate
 (
 )
@@ -741,14 +741,14 @@ outerHeight
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -760,7 +760,7 @@ size
 "
 )
 ;
-yield
+await
 extension
 .
 unload

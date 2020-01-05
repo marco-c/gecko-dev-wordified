@@ -164,8 +164,8 @@ down
 /
 add_task
 (
+async
 function
-*
 test_legacy_extension_context
 (
 )
@@ -600,7 +600,7 @@ unload
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -610,7 +610,7 @@ startup
 let
 extensionInfo
 =
-yield
+await
 waitForExtensionInfo
 ;
 equal
@@ -751,7 +751,7 @@ singleMsg
 msgSender
 }
 =
-yield
+await
 waitMessage
 ;
 equal
@@ -833,7 +833,7 @@ has
 been
 received
 .
-yield
+await
 new
 Promise
 (
@@ -978,7 +978,7 @@ connect
 let
 port
 =
-yield
+await
 waitConnectPort
 ;
 ok
@@ -1102,7 +1102,7 @@ message
 let
 msg
 =
-yield
+await
 waitPortMessage
 ;
 equal
@@ -1161,7 +1161,7 @@ disconnect
 "
 )
 ;
-yield
+await
 waitForDisconnect
 ;
 do_print
@@ -1176,7 +1176,7 @@ unload
 "
 )
 ;
-yield
+await
 extension
 .
 shutdown

@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -78,7 +78,7 @@ insertionIndex
 let
 newBookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -121,7 +121,7 @@ com
 let
 newBookmarkId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -131,7 +131,7 @@ newBookmark
 guid
 )
 ;
-yield
+await
 withSidebarTree
 (
 "
@@ -254,8 +254,8 @@ folder
 )
 ;
 }
+async
 function
-*
 test
 (
 dialogWin
@@ -325,13 +325,13 @@ VK_RETURN
 dialogWin
 )
 ;
-yield
+await
 promiseTitleChangeNotification
 ;
 let
 newFolder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -369,7 +369,7 @@ edited
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -379,7 +379,7 @@ remove
 newFolder
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

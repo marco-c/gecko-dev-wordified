@@ -50,8 +50,8 @@ checkAudioVideo
 (
 )
 {
+async
 function
-*
 getStreamAndCheckBackgroundAnim
 (
 aAudio
@@ -76,17 +76,17 @@ shareDevices
 "
 )
 ;
-yield
+await
 promiseRequestDevice
 (
 aAudio
 aVideo
 )
 ;
-yield
+await
 popupPromise
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -96,7 +96,7 @@ request
 "
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -122,7 +122,7 @@ click
 }
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -134,7 +134,7 @@ allow
 "
 )
 ;
-yield
+await
 expectObserverCalled
 (
 "
@@ -177,7 +177,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -332,7 +332,7 @@ is
 now
 visible
 .
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -437,7 +437,7 @@ selecting
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -506,7 +506,7 @@ closing
 the
 stream
 .
-yield
+await
 closeStream
 (
 )
@@ -535,7 +535,7 @@ promiseWaitForCondition
 (
 )
 .
-yield
+await
 promiseWaitForCondition
 (
 (

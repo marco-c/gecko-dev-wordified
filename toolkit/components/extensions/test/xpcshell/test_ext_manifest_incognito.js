@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_manifest_incognito
 (
 )
@@ -59,7 +59,7 @@ test_manifest_incognito
 let
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest
@@ -128,7 +128,7 @@ string
 ;
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest

@@ -241,8 +241,8 @@ NetUtil
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -284,7 +284,7 @@ close
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -302,7 +302,7 @@ default
 bookmarks
 import
 .
-yield
+await
 new
 Promise
 (
@@ -351,7 +351,7 @@ with
 various
 visit
 types
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -478,8 +478,8 @@ count
 "
 )
 ;
+async
 function
-*
 testOnWindow
 (
 aIsPrivate
@@ -489,7 +489,7 @@ aCount
 let
 win
 =
-yield
+await
 new
 Promise
 (
@@ -526,7 +526,7 @@ be
 retrievable
 by
 query
-yield
+await
 checkHistoryItems
 (
 )
@@ -595,7 +595,7 @@ com
 /
 "
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -615,7 +615,7 @@ menuGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -635,7 +635,7 @@ count
 ok
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -698,19 +698,19 @@ Test
 on
 windows
 .
-yield
+await
 testOnWindow
 (
 false
 )
 ;
-yield
+await
 testOnWindow
 (
 true
 )
 ;
-yield
+await
 testOnWindow
 (
 false
@@ -883,8 +883,8 @@ return
 cc
 ;
 }
+async
 function
-*
 checkHistoryItems
 (
 )
@@ -918,7 +918,7 @@ i
 ok
 (
 (
-yield
+await
 promiseIsURIVisited
 (
 visitedUri
@@ -945,7 +945,7 @@ spec
 is
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -970,7 +970,7 @@ else
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB

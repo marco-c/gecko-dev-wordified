@@ -14,8 +14,8 @@ works
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -108,7 +108,7 @@ annoObserver
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -170,12 +170,12 @@ rdf
 }
 )
 ;
-yield
+await
 annoPromise
 ;
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -198,7 +198,7 @@ ok
 livemark
 )
 ;
-yield
+await
 PlacesUtils
 .
 livemarks

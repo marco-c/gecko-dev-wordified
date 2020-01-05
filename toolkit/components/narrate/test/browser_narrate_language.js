@@ -77,8 +77,8 @@ teardown
 ;
 add_task
 (
+async
 function
-*
 testVoiceselectDropdownAutoclose
 (
 )
@@ -91,7 +91,7 @@ automatic
 true
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
@@ -416,8 +416,8 @@ correctly
 ;
 add_task
 (
+async
 function
-*
 testVoiceselectDropdownAutoclose
 (
 )
@@ -430,7 +430,7 @@ automatic
 true
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ITALIAN_ARTICLE

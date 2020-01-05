@@ -54,13 +54,13 @@ initially
 .
 add_task
 (
+async
 function
-*
 check_init
 (
 )
 {
-yield
+await
 OS
 .
 File
@@ -104,8 +104,8 @@ successful
 .
 add_task
 (
+async
 function
-*
 check_success
 (
 )
@@ -125,7 +125,7 @@ correctly
 let
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -160,7 +160,7 @@ correctly
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -203,8 +203,8 @@ fails
 .
 add_task
 (
+async
 function
-*
 check_failure
 (
 )
@@ -227,7 +227,7 @@ file
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -259,7 +259,7 @@ exception
 =
 err
 ;
-yield
+await
 OS
 .
 File

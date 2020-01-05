@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 test_searchEngine_autoFill
 (
 )
@@ -193,7 +193,7 @@ Search
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -201,7 +201,7 @@ addVisits
 visits
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -215,7 +215,7 @@ bookmark
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -261,7 +261,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -295,7 +295,7 @@ com
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -305,8 +305,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_noautoFill
 (
 )
@@ -327,7 +327,7 @@ xml
 let
 engine
 =
-yield
+await
 addTestEngine
 (
 engineName
@@ -370,7 +370,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -412,7 +412,7 @@ domain
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -440,7 +440,7 @@ com
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

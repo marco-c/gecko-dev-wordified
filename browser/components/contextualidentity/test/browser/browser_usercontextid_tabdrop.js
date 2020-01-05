@@ -53,8 +53,8 @@ set
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -77,7 +77,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -276,13 +276,13 @@ undefined
 event
 )
 ;
-yield
+await
 awaitDrop
 ;
 let
 tab2
 =
-yield
+await
 newTabPromise
 ;
 Assert
@@ -309,7 +309,7 @@ attribute
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -319,7 +319,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -329,8 +329,8 @@ tab2
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -449,7 +449,7 @@ empty
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -457,7 +457,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -498,8 +498,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -527,7 +527,7 @@ userContextId
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -726,13 +726,13 @@ undefined
 event
 )
 ;
-yield
+await
 awaitDrop
 ;
 let
 tab2
 =
-yield
+await
 newTabPromise
 ;
 Assert
@@ -750,7 +750,7 @@ usercontextid
 1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -760,7 +760,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -770,8 +770,8 @@ tab2
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -890,7 +890,7 @@ empty
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -898,7 +898,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -975,8 +975,8 @@ userContext
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1004,7 +1004,7 @@ userContextId
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1038,7 +1038,7 @@ userContextId
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1102,7 +1102,7 @@ link
 window
 )
 ;
-yield
+await
 awaitDrop
 ;
 Assert
@@ -1120,7 +1120,7 @@ usercontextid
 2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1130,7 +1130,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1140,8 +1140,8 @@ tab2
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1270,7 +1270,7 @@ empty
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1278,7 +1278,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

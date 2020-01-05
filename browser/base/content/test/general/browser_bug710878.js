@@ -105,12 +105,12 @@ content
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -121,8 +121,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -165,7 +165,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -186,7 +186,7 @@ button
 browser
 )
 ;
-yield
+await
 awaitPopupShown
 ;
 is
@@ -216,7 +216,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 awaitPopupHidden
 ;
 }

@@ -92,8 +92,8 @@ navigate
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -125,7 +125,7 @@ mozilla
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -149,7 +149,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -262,7 +262,7 @@ enlarge
 (
 )
 ;
-yield
+await
 zoomChangePromise
 ;
 is
@@ -311,10 +311,10 @@ selectedTab
 =
 tab2
 ;
-yield
+await
 tabSelectPromise
 ;
-yield
+await
 new
 Promise
 (
@@ -375,7 +375,7 @@ reset
 (
 )
 ;
-yield
+await
 zoomResetPromise
 ;
 is
@@ -421,7 +421,7 @@ enlarge
 (
 )
 ;
-yield
+await
 zoomChangePromise
 ;
 is
@@ -476,7 +476,7 @@ v
 }
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab1
@@ -487,7 +487,7 @@ home
 "
 )
 ;
-yield
+await
 attributeChangePromise
 ;
 is
@@ -513,7 +513,7 @@ home
 "
 )
 ;
-yield
+await
 promiseTabHistoryNavigation
 (
 -

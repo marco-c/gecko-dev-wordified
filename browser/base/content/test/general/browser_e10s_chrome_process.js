@@ -44,8 +44,8 @@ transitionTask
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ loadURI
 startURL
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -190,7 +190,7 @@ transitionTask
 let
 expectSyncChange
 =
-yield
+await
 asyncTask
 (
 browser
@@ -221,7 +221,7 @@ synchronously
 )
 ;
 }
-yield
+await
 docLoadedPromise
 ;
 is
@@ -355,8 +355,8 @@ PATH
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -616,8 +616,8 @@ process
 }
 add_task
 (
+async
 function
-*
 test_chrome
 (
 )
@@ -634,8 +634,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_any
 (
 )
@@ -652,8 +652,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_remote
 (
 )
@@ -781,8 +781,8 @@ browser
 .
 loadURI
 directly
+async
 function
-*
 loadURI
 (
 browser
@@ -799,7 +799,7 @@ loadURI
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -835,7 +835,6 @@ and
 clicking
 it
 function
-*
 clickLink
 (
 browser

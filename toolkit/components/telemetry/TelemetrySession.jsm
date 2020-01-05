@@ -11343,7 +11343,6 @@ new
 DeferredTask
 (
 function
-*
 (
 )
 {

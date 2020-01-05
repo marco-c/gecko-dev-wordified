@@ -41,8 +41,8 @@ profileDir
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -186,8 +186,8 @@ below
 .
 add_task
 (
+async
 function
-*
 test_implicit_id
 (
 )
@@ -228,7 +228,7 @@ enabled
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 IMPLICIT_ID_ID
@@ -256,7 +256,7 @@ do_get_file
 IMPLICIT_ID_XPI
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -276,7 +276,7 @@ promiseWebExtensionStartup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 IMPLICIT_ID_ID
@@ -346,8 +346,8 @@ signature
 )
 add_task
 (
+async
 function
-*
 test_implicit_id_temp
 (
 )
@@ -388,7 +388,7 @@ enabled
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 IMPLICIT_ID_ID
@@ -416,7 +416,7 @@ do_get_file
 IMPLICIT_ID_XPI
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -436,7 +436,7 @@ promiseWebExtensionStartup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 IMPLICIT_ID_ID
@@ -551,8 +551,8 @@ manifest
 .
 add_task
 (
+async
 function
-*
 test_unsigned_no_id_temp_install
 (
 )
@@ -596,7 +596,7 @@ version
 const
 addonDir
 =
-yield
+await
 promiseWriteWebManifestForExtension
 (
 manifest
@@ -625,7 +625,7 @@ const
 addon
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -785,7 +785,7 @@ const
 secondAddon
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -897,8 +897,8 @@ extensions
 .
 add_task
 (
+async
 function
-*
 test_multiple_no_id_extensions
 (
 )
@@ -973,7 +973,7 @@ temporary
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -995,7 +995,7 @@ startup
 const
 allAddons
 =
-yield
+await
 AddonManager
 .
 getAllAddons
@@ -1087,14 +1087,14 @@ name
 "
 )
 ;
-yield
+await
 extension1
 .
 unload
 (
 )
 ;
-yield
+await
 extension2
 .
 unload
@@ -1123,8 +1123,8 @@ from
 browser_specific_settings
 add_task
 (
+async
 function
-*
 test_bss_id
 (
 )
@@ -1188,7 +1188,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1225,7 +1225,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1234,7 +1234,7 @@ startup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1253,7 +1253,7 @@ installed
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1288,8 +1288,8 @@ browser_specific_settings
 .
 add_task
 (
+async
 function
-*
 test_two_ids
 (
 )
@@ -1394,7 +1394,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1404,7 +1404,7 @@ startup
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 BAD_ID
@@ -1429,7 +1429,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 GOOD_ID
@@ -1451,7 +1451,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1479,8 +1479,8 @@ extension
 .
 add_task
 (
+async
 function
-*
 test_strict_min_max
 (
 )
@@ -1652,7 +1652,7 @@ maxVersion
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1678,7 +1678,7 @@ valid
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -1799,7 +1799,7 @@ maxVersion
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1824,7 +1824,7 @@ valid
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -1943,7 +1943,7 @@ maxVersion
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1970,7 +1970,7 @@ valid
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -2080,7 +2080,7 @@ minVersion
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2107,7 +2107,7 @@ valid
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -2217,7 +2217,7 @@ maxVersion
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2244,7 +2244,7 @@ valid
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -2321,7 +2321,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2330,7 +2330,7 @@ startup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonId
@@ -2367,7 +2367,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2439,7 +2439,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2448,7 +2448,7 @@ startup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 newId
@@ -2485,7 +2485,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2556,7 +2556,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2565,7 +2565,7 @@ startup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 newId
@@ -2602,7 +2602,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2699,7 +2699,7 @@ temporary
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2740,7 +2740,7 @@ exception
 let
 minStarAddon
 =
-yield
+await
 promiseAddonByID
 (
 newId
@@ -2842,7 +2842,7 @@ checkCompatibility
 =
 false
 ;
-yield
+await
 extension
 .
 startup
@@ -2851,7 +2851,7 @@ startup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 newId
@@ -2888,7 +2888,7 @@ ID
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2911,8 +2911,8 @@ permissions
 prompt
 add_task
 (
+async
 function
-*
 test_permissions_prompt
 (
 )
@@ -2993,7 +2993,7 @@ manifest
 let
 install
 =
-yield
+await
 AddonManager
 .
 getInstallForFile
@@ -3025,7 +3025,7 @@ resolve
 ;
 }
 ;
-yield
+await
 promiseCompleteInstall
 (
 install
@@ -3161,7 +3161,7 @@ correct
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 perminfo
@@ -3188,7 +3188,7 @@ uninstall
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -3211,8 +3211,8 @@ prompt
 cancellation
 add_task
 (
+async
 function
-*
 test_permissions_prompt_cancel
 (
 )
@@ -3267,7 +3267,7 @@ manifest
 let
 install
 =
-yield
+await
 AddonManager
 .
 getInstallForFile
@@ -3299,7 +3299,7 @@ reject
 ;
 }
 ;
-yield
+await
 promiseCompleteInstall
 (
 install
@@ -3320,7 +3320,7 @@ invoked
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 perminfo
@@ -3342,7 +3342,7 @@ installed
 "
 )
 ;
-yield
+await
 OS
 .
 File

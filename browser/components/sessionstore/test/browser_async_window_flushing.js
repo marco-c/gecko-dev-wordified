@@ -57,8 +57,8 @@ completed
 /
 add_task
 (
+async
 function
-*
 test_add_interesting_window
 (
 )
@@ -92,7 +92,7 @@ with
 this
 test
 .
-yield
+await
 pushPrefs
 (
 [
@@ -166,7 +166,7 @@ store
 another
 closed
 window
-yield
+await
 pushPrefs
 (
 [
@@ -235,7 +235,7 @@ array
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -292,15 +292,15 @@ t
 know
 about
 this
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 PAGE
+async
 function
-*
 (
 newPage
 )
@@ -314,7 +314,7 @@ newPage
 }
 )
 ;
-yield
+await
 promiseContentMessage
 (
 browser
@@ -450,7 +450,7 @@ close
 (
 )
 ;
-yield
+await
 domWindowClosed
 ;
 /
@@ -490,7 +490,7 @@ array
 "
 )
 ;
-yield
+await
 windowClosed
 ;
 /
@@ -586,8 +586,8 @@ interesting
 /
 add_task
 (
+async
 function
-*
 test_remove_uninteresting_window
 (
 )
@@ -621,7 +621,7 @@ with
 this
 test
 .
-yield
+await
 pushPrefs
 (
 [
@@ -695,7 +695,7 @@ store
 another
 closed
 window
-yield
+await
 pushPrefs
 (
 [
@@ -715,7 +715,7 @@ initialClosedWindows
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -762,7 +762,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -772,7 +772,7 @@ false
 PAGE
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -803,15 +803,15 @@ itself
 seem
 uninteresting
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -965,7 +965,7 @@ close
 (
 )
 ;
-yield
+await
 domWindowClosed
 ;
 /
@@ -1006,7 +1006,7 @@ array
 "
 )
 ;
-yield
+await
 windowClosed
 ;
 /
@@ -1071,8 +1071,8 @@ array
 /
 add_task
 (
+async
 function
-*
 test_synchronously_remove_window_state
 (
 )
@@ -1170,7 +1170,7 @@ interesting
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1193,7 +1193,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1203,7 +1203,7 @@ false
 PAGE
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1360,7 +1360,7 @@ window
 to
 go
 away
-yield
+await
 windowClosed
 ;
 }

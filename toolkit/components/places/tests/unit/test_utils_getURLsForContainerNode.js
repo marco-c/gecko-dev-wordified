@@ -1491,8 +1491,8 @@ false
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1504,7 +1504,7 @@ of
 tests
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1522,7 +1522,7 @@ test
 /
 Cleanup
 .
-yield
+await
 PlacesUtils
 .
 bookmarks

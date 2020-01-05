@@ -588,8 +588,8 @@ global
 ;
 add_task
 (
+async
 function
-*
 run_test
 (
 )
@@ -602,7 +602,7 @@ initialization
 is
 complete
 .
-yield
+await
 SessionStore
 .
 promiseInitialized
@@ -630,7 +630,7 @@ window
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -931,7 +931,7 @@ Close
 our
 window
 .
-yield
+await
 BrowserTestUtils
 .
 closeWindow

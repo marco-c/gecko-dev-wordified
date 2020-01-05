@@ -82,7 +82,6 @@ tests
 add_task_in_parent_process
 (
 function
-*
 test_cancel_init
 (
 )
@@ -117,8 +116,8 @@ canceled
 /
 add_task
 (
+async
 function
-*
 test_cancel
 (
 )
@@ -153,7 +152,7 @@ requestAutocomplete
 let
 errorEvent
 =
-yield
+await
 promise
 ;
 Assert

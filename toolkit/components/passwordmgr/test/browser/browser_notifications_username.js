@@ -61,8 +61,8 @@ usernames
 /
 add_task
 (
+async
 function
-*
 test_edit_username
 (
 )
@@ -334,7 +334,7 @@ password
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -372,8 +372,8 @@ form_basic
 html
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -435,7 +435,7 @@ PopupNotifications
 panel
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -444,8 +444,8 @@ browser
 testCase
 .
 usernameInPage
+async
 function
-*
 (
 usernameInPage
 )
@@ -511,7 +511,7 @@ submit
 }
 )
 ;
-yield
+await
 promiseShown
 ;
 let
@@ -723,7 +723,7 @@ let
 result
 ]
 =
-yield
+await
 promiseLogin
 ;
 /

@@ -258,8 +258,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_create_iframe
 (
 )
@@ -826,7 +826,7 @@ resolve
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -855,7 +855,7 @@ html
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -950,7 +950,7 @@ URL
 "
 )
 ;
-yield
+await
 extension
 .
 unload

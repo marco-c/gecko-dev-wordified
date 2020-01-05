@@ -189,8 +189,8 @@ value
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -217,7 +217,7 @@ recording
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -301,8 +301,8 @@ animation
 /
 add_task
 (
+async
 function
-*
 test_close_time_anim_probe
 (
 )
@@ -310,7 +310,7 @@ test_close_time_anim_probe
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -318,7 +318,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -344,7 +344,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -415,8 +415,8 @@ animation
 /
 add_task
 (
+async
 function
-*
 test_close_time_no_anim_probe
 (
 )
@@ -424,7 +424,7 @@ test_close_time_no_anim_probe
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -432,7 +432,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -458,7 +458,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

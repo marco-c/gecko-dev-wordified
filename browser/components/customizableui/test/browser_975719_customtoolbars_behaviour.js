@@ -124,8 +124,8 @@ button
 ;
 add_task
 (
+async
 function
-*
 customizeToolbarAndKeepIt
 (
 )
@@ -412,7 +412,7 @@ toolbar1
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -436,7 +436,7 @@ t
 get
 removed
 .
-yield
+await
 endCustomizing
 (
 )
@@ -550,7 +550,7 @@ button
 let
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -594,7 +594,7 @@ window
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -621,7 +621,7 @@ does
 get
 removed
 .
-yield
+await
 startCustomizing
 (
 )
@@ -774,7 +774,7 @@ again
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -803,7 +803,7 @@ removed
 ;
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -837,7 +837,7 @@ window
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -892,8 +892,8 @@ area
 ;
 add_task
 (
+async
 function
-*
 resetShouldDealWithCustomToolbars
 (
 )
@@ -1168,7 +1168,7 @@ toolbar2
 let
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -1212,7 +1212,7 @@ window
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -1226,7 +1226,7 @@ reset
 ;
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -1260,7 +1260,7 @@ window
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -1405,15 +1405,15 @@ area
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 newWin
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -1475,7 +1475,7 @@ toolbar2
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWin

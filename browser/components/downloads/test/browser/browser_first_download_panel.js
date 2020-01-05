@@ -108,8 +108,8 @@ automatically
 /
 add_task
 (
+async
 function
-*
 test_first_download_panel
 (
 )
@@ -276,7 +276,7 @@ didn
 t
 finish
 .
-yield
+await
 task_resetState
 (
 )
@@ -336,7 +336,7 @@ start
 "
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -472,7 +472,7 @@ does
 not
 open
 .
-yield
+await
 new
 Promise
 (

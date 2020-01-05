@@ -65,8 +65,8 @@ logActiveElement
 (
 )
 ;
+async
 function
-*
 waitForSearchBarFocus
 (
 )
@@ -83,7 +83,7 @@ searchbar
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 function
@@ -137,12 +137,12 @@ panel
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -228,10 +228,10 @@ sendWebSearchKeyCommand
 (
 )
 ;
-yield
+await
 shownPanelPromise
 ;
-yield
+await
 waitForSearchBarFocus
 (
 )
@@ -255,7 +255,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 hiddenPanelPromise
 ;
 CustomizableUI
@@ -294,8 +294,8 @@ opened
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -369,14 +369,14 @@ command
 }
 )
 ;
-yield
+await
 shownPanelPromise
 ;
 sendWebSearchKeyCommand
 (
 )
 ;
-yield
+await
 waitForSearchBarFocus
 (
 )
@@ -400,7 +400,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 hiddenPanelPromise
 ;
 CustomizableUI
@@ -436,8 +436,8 @@ overflowed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -510,7 +510,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -567,7 +567,7 @@ sendWebSearchKeyCommand
 (
 )
 ;
-yield
+await
 shownPanelPromise
 ;
 let
@@ -588,7 +588,7 @@ button
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -600,7 +600,7 @@ chevron
 open
 )
 ;
-yield
+await
 waitForSearchBarFocus
 (
 )
@@ -624,7 +624,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 hiddenPanelPromise
 ;
 navbar
@@ -650,7 +650,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -715,8 +715,8 @@ overflowing
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -756,7 +756,7 @@ sendWebSearchKeyCommand
 (
 )
 ;
-yield
+await
 waitForSearchBarFocus
 (
 )

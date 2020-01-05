@@ -299,8 +299,8 @@ events
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -520,8 +520,8 @@ BOOTSTRAP
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -538,7 +538,7 @@ events
 "
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -573,7 +573,7 @@ length
 =
 0
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -597,7 +597,7 @@ events
 "
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -621,7 +621,7 @@ events
 "
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -678,7 +678,7 @@ length
 =
 0
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -768,7 +768,7 @@ length
 =
 0
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -803,7 +803,7 @@ length
 =
 0
 ;
-yield
+await
 promiseRestartManager
 (
 )

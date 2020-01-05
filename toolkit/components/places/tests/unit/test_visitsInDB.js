@@ -43,8 +43,8 @@ et
 /
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -68,7 +68,7 @@ com
 do_check_eq
 (
 0
-yield
+await
 PlacesTestUtils
 .
 visitsInDB
@@ -77,7 +77,7 @@ TEST_URI
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -92,7 +92,7 @@ TEST_URI
 do_check_eq
 (
 1
-yield
+await
 PlacesTestUtils
 .
 visitsInDB
@@ -101,7 +101,7 @@ TEST_URI
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -116,7 +116,7 @@ TEST_URI
 do_check_eq
 (
 2
-yield
+await
 PlacesTestUtils
 .
 visitsInDB

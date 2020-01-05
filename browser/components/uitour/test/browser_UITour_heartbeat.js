@@ -1126,13 +1126,13 @@ number
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
 {
-yield
+await
 setup_UITourTest
 (
 )
@@ -1191,8 +1191,8 @@ closes
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_stars_show
 (
 )
@@ -1355,7 +1355,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -1408,7 +1408,7 @@ flowId
 ;
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -1425,7 +1425,7 @@ timestamp
 ;
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -1466,7 +1466,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -1490,8 +1490,8 @@ URL
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_take_optional_icon_URL
 (
 )
@@ -1676,7 +1676,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -1761,7 +1761,7 @@ flowId
 ;
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -1778,7 +1778,7 @@ timestamp
 ;
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -1819,7 +1819,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -1844,8 +1844,8 @@ URL
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_null_engagementURL
 (
 )
@@ -2009,7 +2009,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -2119,7 +2119,7 @@ flowId
 ;
 data
 =
-yield
+await
 votedPromise
 ;
 validateTimestamp
@@ -2143,7 +2143,7 @@ timestamp
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -2188,7 +2188,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -2251,7 +2251,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -2280,8 +2280,8 @@ URL
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_invalid_engagement_URL
 (
 )
@@ -2452,7 +2452,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -2562,7 +2562,7 @@ flowId
 ;
 data
 =
-yield
+await
 votedPromise
 ;
 validateTimestamp
@@ -2586,7 +2586,7 @@ timestamp
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -2631,7 +2631,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -2694,7 +2694,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -2715,8 +2715,8 @@ reported
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_stars_vote
 (
 )
@@ -2885,7 +2885,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -2995,7 +2995,7 @@ expectedScore
 ;
 data
 =
-yield
+await
 votedPromise
 ;
 validateTimestamp
@@ -3038,7 +3038,7 @@ vote
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -3083,7 +3083,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -3146,7 +3146,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -3170,8 +3170,8 @@ voting
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_engagement_tab
 (
 )
@@ -3355,7 +3355,7 @@ timestamp
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -3465,7 +3465,7 @@ flowId
 ;
 data
 =
-yield
+await
 votedPromise
 ;
 validateTimestamp
@@ -3498,7 +3498,7 @@ opened
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -3551,7 +3551,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -3614,7 +3614,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -3637,8 +3637,8 @@ URL
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_engagement_button
 (
 )
@@ -3827,7 +3827,7 @@ Me
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -3999,7 +3999,7 @@ doCommand
 ;
 data
 =
-yield
+await
 engagedPromise
 ;
 validateTimestamp
@@ -4032,7 +4032,7 @@ opened
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -4085,7 +4085,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -4130,7 +4130,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -4164,8 +4164,8 @@ it
 /
 add_UITour_task
 (
+async
 function
-*
 test_heartbeat_learnmore
 (
 )
@@ -4349,7 +4349,7 @@ dummyURL
 let
 data
 =
-yield
+await
 shownPromise
 ;
 validateTimestamp
@@ -4448,7 +4448,7 @@ flowId
 ;
 data
 =
-yield
+await
 learnMorePromise
 ;
 validateTimestamp
@@ -4477,7 +4477,7 @@ closed
 .
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -4531,7 +4531,7 @@ out
 .
 data
 =
-yield
+await
 pingSentPromise
 ;
 info
@@ -4576,15 +4576,15 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
 )
 add_UITour_task
 (
+async
 function
-*
 test_invalidEngagementButtonLabel
 (
 )
@@ -4653,7 +4653,7 @@ engagementButtonLabel
 }
 )
 ;
-yield
+await
 eventPromise
 ;
 ok
@@ -4678,8 +4678,8 @@ init
 )
 add_UITour_task
 (
+async
 function
-*
 test_privateWindowsOnly_noneOpen
 (
 )
@@ -4754,7 +4754,7 @@ true
 }
 )
 ;
-yield
+await
 eventPromise
 ;
 ok
@@ -4786,8 +4786,8 @@ prevented
 )
 add_UITour_task
 (
+async
 function
-*
 test_privateWindowsOnly_notMostRecent
 (
 )
@@ -4822,7 +4822,7 @@ random
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -4837,7 +4837,7 @@ true
 let
 mostRecentWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -4887,7 +4887,7 @@ true
 }
 )
 ;
-yield
+await
 eventPromise
 ;
 is
@@ -4959,7 +4959,7 @@ window
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -4967,7 +4967,7 @@ closeWindow
 mostRecentWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -4979,8 +4979,8 @@ privateWin
 )
 add_UITour_task
 (
+async
 function
-*
 test_privateWindowsOnly
 (
 )
@@ -5033,7 +5033,7 @@ random
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -5045,7 +5045,7 @@ true
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -5145,7 +5145,7 @@ true
 }
 )
 ;
-yield
+await
 promisePageEvent
 (
 )
@@ -5270,7 +5270,7 @@ click
 let
 learnMoreTab
 =
-yield
+await
 learnMoreTabPromise
 ;
 is
@@ -5317,7 +5317,7 @@ private
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -5394,7 +5394,7 @@ doCommand
 let
 engagementTab
 =
-yield
+await
 engagementTabPromise
 ;
 is
@@ -5439,7 +5439,7 @@ private
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -5447,7 +5447,7 @@ removeTab
 engagementTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -5477,8 +5477,8 @@ Telemetry
 /
 add_UITour_task
 (
+async
 function
-*
 test_telemetry_surveyExpired
 (
 )
@@ -5703,7 +5703,7 @@ TelemetrySent
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -5725,7 +5725,7 @@ data
 let
 data
 =
-yield
+await
 pingPromise
 ;
 checkTelemetry
@@ -5771,7 +5771,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }
@@ -5797,8 +5797,8 @@ ping
 /
 add_UITour_task
 (
+async
 function
-*
 test_telemetry_params
 (
 )
@@ -5999,7 +5999,7 @@ null
 extraParams
 )
 ;
-yield
+await
 shownPromise
 ;
 let
@@ -6041,7 +6041,7 @@ closed
 let
 data
 =
-yield
+await
 closedPromise
 ;
 validateTimestamp
@@ -6067,7 +6067,7 @@ out
 .
 data
 =
-yield
+await
 pingPromise
 ;
 info
@@ -6146,7 +6146,7 @@ notification
 is
 received
 .
-yield
+await
 receivedExpectedPromise
 ;
 }

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_folder_shortcuts
 (
 )
@@ -9,7 +9,7 @@ test_folder_shortcuts
 let
 shortcutInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -78,7 +78,7 @@ strictEqual
 shortcutNode
 .
 itemId
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -153,7 +153,7 @@ well
 .
 shortcutInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -207,7 +207,7 @@ strictEqual
 shortcutNode
 .
 itemId
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -277,8 +277,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_plain_folder
 (
 )
@@ -286,7 +286,7 @@ test_plain_folder
 let
 folderInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -373,8 +373,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 test_non_item_query
 (
 )

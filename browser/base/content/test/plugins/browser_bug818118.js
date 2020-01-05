@@ -43,8 +43,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -126,8 +126,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -176,7 +176,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -198,7 +198,7 @@ around
 for
 delayed
 PluginBindingAttached
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -242,7 +242,7 @@ notification
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -285,7 +285,7 @@ activated
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

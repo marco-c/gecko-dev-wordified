@@ -1256,14 +1256,8 @@ null
 ;
 }
 }
-showIntroPanel
-:
-Task
-.
 async
-(
-function
-*
+showIntroPanel
 (
 )
 {
@@ -1481,7 +1475,7 @@ primary
 let
 panelTarget
 =
-yield
+await
 UITour
 .
 getTarget
@@ -1553,6 +1547,5 @@ dontShowIntroPanelAgain
 )
 ;
 }
-)
 }
 ;

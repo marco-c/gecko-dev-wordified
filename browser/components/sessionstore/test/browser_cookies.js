@@ -169,8 +169,8 @@ cleanup
 .
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -205,8 +205,8 @@ storage
 .
 add_task
 (
+async
 function
-*
 test_run
 (
 )
@@ -248,7 +248,7 @@ com
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 gBrowser
@@ -263,7 +263,7 @@ a
 session
 cookie
 .
-yield
+await
 promiseSetCookie
 (
 "
@@ -303,7 +303,7 @@ a
 session
 cookie
 .
-yield
+await
 promiseSetCookie
 (
 "
@@ -368,7 +368,7 @@ getDate
 2
 )
 ;
-yield
+await
 promiseSetCookie
 (
 foo
@@ -422,7 +422,7 @@ a
 session
 cookie
 .
-yield
+await
 promiseSetCookie
 (
 "
@@ -463,7 +463,7 @@ the
 session
 cookie
 .
-yield
+await
 promiseSetCookie
 (
 "
@@ -515,7 +515,7 @@ a
 session
 cookie
 .
-yield
+await
 promiseSetCookie
 (
 "
@@ -591,7 +591,7 @@ cleared
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 gBrowser

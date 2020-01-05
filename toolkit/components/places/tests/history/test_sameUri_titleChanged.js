@@ -21,8 +21,8 @@ titleChanged
 .
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -147,7 +147,7 @@ single
 place
 entry
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -416,7 +416,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 promiseTitleChangedNotifications
 ;
 }

@@ -429,8 +429,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 testBadPermissions
 (
 )
@@ -438,7 +438,7 @@ testBadPermissions
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -459,7 +459,7 @@ com
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -489,7 +489,7 @@ permissions
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -525,7 +525,7 @@ permissions
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -568,7 +568,7 @@ press
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -746,7 +746,7 @@ press
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -822,7 +822,7 @@ click
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -871,7 +871,7 @@ click
 "
 )
 ;
-yield
+await
 testHasNoPermission
 (
 {
@@ -949,7 +949,7 @@ id
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -957,7 +957,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -970,8 +970,8 @@ tab1
 ;
 add_task
 (
+async
 function
-*
 testMatchDataURI
 (
 )
@@ -1283,14 +1283,14 @@ done
 }
 )
 ;
-yield
+await
 scripts
 .
 startup
 (
 )
 ;
-yield
+await
 target
 .
 startup
@@ -1311,7 +1311,7 @@ iframe
 const
 page
 =
-yield
+await
 scripts
 .
 awaitMessage
@@ -1354,7 +1354,7 @@ execute
 "
 )
 ;
-yield
+await
 scripts
 .
 awaitMessage
@@ -1409,7 +1409,7 @@ data
 const
 url
 =
-yield
+await
 scripts
 .
 awaitMessage
@@ -1446,7 +1446,7 @@ execute
 "
 )
 ;
-yield
+await
 scripts
 .
 awaitMessage
@@ -1456,7 +1456,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1466,14 +1466,14 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 scripts
 .
 unload
 (
 )
 ;
-yield
+await
 target
 .
 unload
@@ -1485,8 +1485,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testBadURL
 (
 )
@@ -1849,14 +1849,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1868,7 +1868,7 @@ lastError
 "
 )
 ;
-yield
+await
 extension
 .
 unload

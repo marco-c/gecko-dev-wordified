@@ -389,8 +389,8 @@ frecency
 .
 "
 ;
+async
 function
-*
 task_initializeBucket
 (
 bucket
@@ -700,7 +700,7 @@ searchTerm
 UnvisitedTyped
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -976,7 +976,7 @@ lastIndexOf
 1
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1014,7 +1014,7 @@ matchTitle
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1222,8 +1222,8 @@ NS_ERROR_NO_INTERFACE
 }
 add_task
 (
+async
 function
-*
 test_frecency
 (
 )
@@ -1282,7 +1282,7 @@ of
 bucketPrefs
 )
 {
-yield
+await
 task_initializeBucket
 (
 bucket
@@ -1400,7 +1400,7 @@ true
 ;
 }
 )
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1842,7 +1842,7 @@ startSearch
 searchTerm
 )
 ;
-yield
+await
 deferred
 .
 promise

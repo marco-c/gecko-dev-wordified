@@ -51,22 +51,22 @@ value
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -116,7 +116,7 @@ BrowserOpenTab
 let
 tab
 =
-yield
+await
 tabOpenedAndSwitchedTo
 ;
 is
@@ -192,7 +192,7 @@ tab
 =
 null
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -216,7 +216,7 @@ window
 "
 )
 ;
-yield
+await
 forceSaveState
 (
 )
@@ -230,7 +230,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -281,7 +281,7 @@ a
 preloaded
 browser
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -369,7 +369,7 @@ state
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -427,7 +427,7 @@ Date
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -438,7 +438,7 @@ gBrowser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -462,7 +462,7 @@ window
 "
 )
 ;
-yield
+await
 forceSaveState
 (
 )
@@ -476,7 +476,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -499,7 +499,7 @@ subject
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -511,7 +511,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -613,7 +613,7 @@ Date
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -651,7 +651,7 @@ Date
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -117,8 +117,8 @@ is
 installed
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -142,7 +142,7 @@ clearUserPref
 pref
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -159,7 +159,7 @@ true
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ADDON_ID
@@ -320,7 +320,7 @@ FAIL_ID_PREF
 }
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

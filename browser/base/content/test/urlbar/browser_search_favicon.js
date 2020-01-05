@@ -60,8 +60,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -80,8 +80,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -192,7 +192,7 @@ client
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -210,7 +210,7 @@ Search
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -247,7 +247,7 @@ favicon
 "
 element
 .
-yield
+await
 promiseAutocompleteResultPopup
 (
 "

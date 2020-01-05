@@ -194,8 +194,8 @@ errors
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -295,7 +295,7 @@ true
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -303,7 +303,7 @@ promiseRestartManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -364,7 +364,7 @@ rejected
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon

@@ -163,8 +163,8 @@ aBrowser
 fn
 timeout
 ]
+async
 function
-*
 (
 [
 contentFn
@@ -195,7 +195,7 @@ _notification
 =
 notification
 ;
-yield
+await
 new
 Promise
 (

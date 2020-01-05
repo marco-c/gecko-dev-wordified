@@ -9608,8 +9608,8 @@ confidence
 }
 add_task
 (
+async
 function
-*
 test_pairs
 (
 )
@@ -9734,7 +9734,7 @@ item
 let
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage
@@ -9776,8 +9776,8 @@ string
 .
 add_task
 (
+async
 function
-*
 test_worker_flush
 (
 )
@@ -9865,7 +9865,7 @@ with
 let
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage
@@ -9976,7 +9976,7 @@ timeout
 to
 elapse
 .
-yield
+await
 new
 Promise
 (
@@ -10076,7 +10076,7 @@ flushed
 .
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage

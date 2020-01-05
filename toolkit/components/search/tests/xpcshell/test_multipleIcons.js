@@ -71,8 +71,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_multipleIcons
 (
 )
@@ -82,7 +82,7 @@ let
 engine
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -326,8 +326,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_icon_not_in_file
 (
 )
@@ -348,7 +348,7 @@ xml
 let
 engine
 =
-yield
+await
 new
 Promise
 (

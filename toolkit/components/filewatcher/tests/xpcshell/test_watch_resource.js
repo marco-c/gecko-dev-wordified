@@ -110,8 +110,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_watching_non_existing
 (
 )
@@ -202,7 +202,7 @@ error
 let
 error
 =
-yield
+await
 deferred
 .
 promise

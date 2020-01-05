@@ -141,8 +141,8 @@ aTab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -232,8 +232,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -290,7 +290,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -325,7 +325,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -370,7 +370,7 @@ selectedTab
 =
 newTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 if
@@ -418,7 +418,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -454,7 +454,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -502,7 +502,7 @@ selectedTab
 =
 originalTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 /
@@ -522,7 +522,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -560,7 +560,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -607,7 +607,7 @@ selectedTab
 =
 newTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 /
@@ -627,7 +627,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -665,7 +665,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -700,8 +700,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -753,7 +753,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -788,7 +788,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -821,7 +821,7 @@ selectedTab
 =
 newTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 if
@@ -862,7 +862,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -898,7 +898,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -932,7 +932,7 @@ selectedTab
 =
 originalTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 parentSide
@@ -944,7 +944,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -982,7 +982,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab
@@ -1017,7 +1017,7 @@ selectedTab
 =
 newTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 parentSide
@@ -1029,7 +1029,7 @@ newTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 newTab
@@ -1067,7 +1067,7 @@ originalTab
 ;
 childSide
 =
-yield
+await
 getChildTabState
 (
 originalTab

@@ -5247,12 +5247,9 @@ _openFile
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 _openFile
 (
 )
@@ -5263,7 +5260,7 @@ this
 .
 _file
 =
-yield
+await
 OS
 .
 File
@@ -5317,6 +5314,8 @@ bind
 (
 this
 )
+)
+(
 )
 ;
 }

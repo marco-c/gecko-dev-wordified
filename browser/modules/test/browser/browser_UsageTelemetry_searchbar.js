@@ -134,12 +134,8 @@ i
 let
 searchInSearchbar
 =
-Task
-.
 async
-(
 function
-*
 (
 inputText
 )
@@ -149,7 +145,7 @@ win
 =
 window
 ;
-yield
+await
 new
 Promise
 (
@@ -212,7 +208,7 @@ popup
 to
 show
 .
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -237,7 +233,7 @@ search
 to
 complete
 .
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -273,7 +269,6 @@ complete
 )
 ;
 }
-)
 ;
 /
 *
@@ -494,8 +489,8 @@ break
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -743,7 +738,7 @@ Enable
 Extended
 Telemetry
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -808,7 +803,6 @@ done
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -866,8 +860,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_plainQuery
 (
 )
@@ -927,7 +921,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -964,7 +958,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -982,7 +976,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 /
@@ -1193,7 +1187,7 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1230,8 +1224,8 @@ key
 .
 add_task
 (
+async
 function
-*
 test_oneOff_enter
 (
 )
@@ -1291,7 +1285,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1333,7 +1327,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -1382,7 +1376,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 /
@@ -1593,7 +1587,7 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1644,8 +1638,8 @@ else
 .
 add_task
 (
+async
 function
-*
 test_oneOff_enterSelection
 (
 )
@@ -1724,7 +1718,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -1791,7 +1785,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1835,7 +1829,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -1902,7 +1896,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 let
@@ -1942,7 +1936,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1986,8 +1980,8 @@ else
 .
 add_task
 (
+async
 function
-*
 test_oneOff_click
 (
 )
@@ -2032,7 +2026,7 @@ clear
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2067,7 +2061,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -2111,7 +2105,7 @@ click
 (
 )
 ;
-yield
+await
 p
 ;
 let
@@ -2134,7 +2128,7 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2160,8 +2154,8 @@ engine
 .
 add_task
 (
+async
 function
-*
 test_suggestion_click
 (
 )
@@ -2255,7 +2249,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -2322,7 +2316,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2364,7 +2358,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -2390,7 +2384,7 @@ queryfoo
 "
 )
 ;
-yield
+await
 p
 ;
 /
@@ -2625,7 +2619,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2678,8 +2672,8 @@ else
 .
 add_task
 (
+async
 function
-*
 test_suggestion_enterSelection
 (
 )
@@ -2758,7 +2752,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -2825,7 +2819,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2869,7 +2863,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInSearchbar
 (
 "
@@ -2911,7 +2905,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 let
@@ -2951,7 +2945,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

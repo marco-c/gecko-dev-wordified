@@ -1526,8 +1526,8 @@ event
 }
 ;
 }
+async
 function
-*
 promiseNoUnexpectedPopupShown
 (
 )
@@ -1557,7 +1557,7 @@ occur
 "
 )
 ;
-yield
+await
 new
 Promise
 (

@@ -7067,8 +7067,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
@@ -7076,7 +7076,7 @@ cleanup
 let
 addons
 =
-yield
+await
 AddonManager
 .
 getAddonsByTypes
@@ -7101,7 +7101,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -7110,7 +7110,7 @@ shutdownManager
 (
 )
 ;
-yield
+await
 new
 Promise
 (

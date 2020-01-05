@@ -614,8 +614,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -647,7 +647,7 @@ visit
 that
 force
 hidden
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -663,7 +663,7 @@ check_results
 let
 placeId
 =
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -718,7 +718,7 @@ visit_count
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -747,7 +747,7 @@ visit_count
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -776,7 +776,7 @@ visit_count
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -823,7 +823,7 @@ retaining
 correct
 visit_count
 .
-yield
+await
 task_add_visit
 (
 TEST_URI

@@ -73,19 +73,15 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 registerCleanupFunction
 (
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -137,7 +133,7 @@ in
 "
 )
 ;
-yield
+await
 asyncSetAndUpdateBlocklist
 (
 gTestRoot
@@ -172,7 +168,6 @@ null
 ;
 }
 )
-)
 ;
 }
 )
@@ -202,8 +197,8 @@ play
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -294,12 +289,12 @@ in
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -361,7 +356,7 @@ plugin
 of
 type
 test
-yield
+await
 ContentTask
 .
 spawn
@@ -369,8 +364,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -402,7 +397,7 @@ test
 }
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -453,7 +448,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -639,7 +634,7 @@ click
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -670,7 +665,7 @@ plugin
 of
 type
 test
-yield
+await
 ContentTask
 .
 spawn
@@ -678,8 +673,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -713,7 +708,7 @@ test
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -765,8 +760,8 @@ play
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -774,7 +769,7 @@ clearAllPluginPermissions
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -836,7 +831,7 @@ plugin
 of
 type
 test
-yield
+await
 ContentTask
 .
 spawn
@@ -844,8 +839,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -877,7 +872,7 @@ test
 }
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -928,7 +923,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -956,7 +951,7 @@ action
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1000,7 +995,7 @@ panel
 .
 firstChild
 ;
-yield
+await
 promiseForCondition
 (
 condition
@@ -1032,7 +1027,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1056,7 +1051,7 @@ activated
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1064,8 +1059,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1099,7 +1094,7 @@ test
 }
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -1115,7 +1110,7 @@ plugins
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1140,7 +1135,7 @@ activated
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

@@ -92,8 +92,8 @@ reset
 :
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -257,12 +257,12 @@ addition
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
 ;
-yield
+await
 gCustomizeMode
 .
 reset
@@ -350,7 +350,7 @@ toolbar
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

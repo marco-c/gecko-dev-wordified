@@ -2280,29 +2280,6 @@ defineLazyModuleGetter
 (
 this
 "
-Task
-"
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetter
-(
-this
-"
 NetUtil
 "
 "
@@ -4533,8 +4510,8 @@ _mainEnqueuer
 .
 enqueue
 (
+async
 function
-*
 (
 )
 {
@@ -4571,12 +4548,11 @@ impossible
 rv
 =
 (
-yield
-Task
-.
-spawn
+await
 (
 aTask
+)
+(
 )
 )
 ;
@@ -5007,7 +4983,6 @@ _mainEnqueuer
 enqueue
 (
 function
-*
 (
 )
 {
@@ -7199,8 +7174,8 @@ after
 redo
 *
 /
+async
 function
-*
 ExecuteCreateItem
 (
 aTransaction
@@ -7217,7 +7192,7 @@ null
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -7226,7 +7201,7 @@ aParentGuid
 )
 itemId
 =
-yield
+await
 aCreateItemFunction
 (
 parentId
@@ -7235,7 +7210,7 @@ parentId
 )
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -7335,14 +7310,14 @@ aTransaction
 .
 redo
 =
+async
 function
-*
 (
 )
 {
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -7352,7 +7327,7 @@ aParentGuid
 ;
 itemId
 =
-yield
+await
 aCreateItemFunction
 (
 parentId
@@ -7363,7 +7338,7 @@ if
 (
 aOnRedo
 )
-yield
+await
 aOnRedo
 (
 )
@@ -7669,8 +7644,8 @@ siteURI
 ]
 ;
 }
+async
 function
-*
 createItem
 (
 aItem
@@ -7701,7 +7676,7 @@ undefined
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -7779,7 +7754,7 @@ in
 aItem
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -7889,7 +7864,7 @@ undefined
 )
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -7916,7 +7891,7 @@ aItem
 children
 )
 {
-yield
+await
 createItem
 (
 child
@@ -7931,7 +7906,7 @@ else
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -8661,7 +8636,6 @@ ExecuteCreateItem
 this
 aParentGuid
 function
-*
 (
 parentId
 guidToRestore
@@ -8799,7 +8773,6 @@ ExecuteCreateItem
 this
 aParentGuid
 function
-*
 (
 parentId
 guidToRestore
@@ -8965,8 +8938,8 @@ aIndex
 let
 createItem
 =
+async
 function
-*
 (
 )
 {
@@ -8974,7 +8947,7 @@ livemarkInfo
 .
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -8985,7 +8958,7 @@ aParentGuid
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -9222,7 +9195,7 @@ Object
 seal
 (
 {
-*
+async
 execute
 (
 aGuid
@@ -9233,7 +9206,7 @@ aNewIndex
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -9262,7 +9235,7 @@ itemId
 )
 newParentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -9424,7 +9397,7 @@ Object
 seal
 (
 {
-*
+async
 execute
 (
 aGuid
@@ -9434,7 +9407,7 @@ aTitle
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -9538,7 +9511,7 @@ Object
 seal
 (
 {
-*
+async
 execute
 (
 aGuid
@@ -9548,7 +9521,7 @@ aURI
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -9847,7 +9820,7 @@ Annotate
 prototype
 =
 {
-*
+async
 execute
 (
 aGuids
@@ -9880,7 +9853,7 @@ aGuids
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -10022,8 +9995,8 @@ this
 .
 redo
 =
+async
 function
-*
 (
 )
 {
@@ -10038,7 +10011,7 @@ aGuids
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -10316,7 +10289,7 @@ SortByName
 prototype
 =
 {
-*
+async
 execute
 (
 aGuid
@@ -10325,7 +10298,7 @@ aGuid
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -10757,7 +10730,7 @@ Remove
 prototype
 =
 {
-*
+async
 execute
 (
 aGuids
@@ -10835,7 +10808,7 @@ toRestore
 .
 push
 (
-yield
+await
 promiseBookmarksTree
 (
 guid
@@ -10846,12 +10819,8 @@ guid
 let
 removeThem
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -10869,7 +10838,7 @@ bookmarks
 .
 removeItem
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -10880,9 +10849,8 @@ guid
 ;
 }
 }
-)
 ;
-yield
+await
 removeThem
 (
 )
@@ -10891,12 +10859,8 @@ this
 .
 undo
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -10908,7 +10872,7 @@ of
 toRestore
 )
 {
-yield
+await
 createItemsFromBookmarksTree
 (
 info
@@ -10917,7 +10881,6 @@ true
 ;
 }
 }
-)
 ;
 this
 .
@@ -11454,7 +11417,6 @@ Untag
 prototype
 =
 {
-*
 execute
 (
 aURIs
@@ -11691,7 +11653,7 @@ Copy
 prototype
 =
 {
-*
+async
 execute
 (
 aGuid
@@ -11709,7 +11671,7 @@ try
 {
 creationInfo
 =
-yield
+await
 PlacesUtils
 .
 promiseBookmarksTree
@@ -11769,7 +11731,7 @@ aNewIndex
 let
 newItemId
 =
-yield
+await
 createItemsFromBookmarksTree
 (
 creationInfo
@@ -11786,8 +11748,8 @@ this
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -11800,7 +11762,7 @@ newItemInfo
 let
 newItemGuid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -11810,7 +11772,7 @@ newItemId
 ;
 newItemInfo
 =
-yield
+await
 PlacesUtils
 .
 promiseBookmarksTree
@@ -11850,7 +11812,7 @@ true
 ;
 }
 return
-yield
+await
 PlacesUtils
 .
 promiseItemGuid

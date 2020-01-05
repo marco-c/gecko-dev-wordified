@@ -29,8 +29,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ by
 clicking
 middle
 button
-yield
+await
 pushPrefs
 (
 [
@@ -64,7 +64,7 @@ rows
 ]
 )
 ;
-yield
+await
 setLinks
 (
 "
@@ -72,8 +72,7 @@ setLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -89,13 +88,12 @@ to
 honor
 max
 rows
-yield
-*
+await
 addNewTabPageTab
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -108,8 +106,8 @@ index
 :
 0
 }
+async
 function
-*
 (
 args
 )
@@ -251,7 +249,7 @@ make
 sure
 it
 happened
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -274,7 +272,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 messagePromise
 ;
 ok
@@ -301,8 +299,7 @@ t
 actually
 get
 blocked
-yield
-*
+await
 checkGrid
 (
 "

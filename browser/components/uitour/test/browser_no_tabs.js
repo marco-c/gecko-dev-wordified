@@ -360,8 +360,8 @@ browsers
 /
 add_task
 (
+async
 function
-*
 test_windowless_UITour
 (
 )
@@ -745,7 +745,7 @@ ping
 to
 complete
 .
-yield
+await
 deferredPing
 .
 promise

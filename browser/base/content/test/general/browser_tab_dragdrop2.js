@@ -85,8 +85,8 @@ caught
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -134,7 +134,7 @@ tests
 were
 run
 .
-yield
+await
 promiseTestsDone
 (
 win
@@ -326,7 +326,7 @@ window
 is
 ready
 .
-yield
+await
 Promise
 .
 all
@@ -397,7 +397,7 @@ test_panels
 (
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -416,13 +416,13 @@ time
 /
 Cleanup
 .
-yield
+await
 promiseWindowClosed
 (
 win2
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 win

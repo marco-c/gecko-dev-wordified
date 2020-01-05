@@ -44,8 +44,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -121,7 +121,7 @@ url
 let
 tabs
 =
-yield
+await
 Promise
 .
 all
@@ -243,12 +243,12 @@ returned
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 Promise
 .
 all

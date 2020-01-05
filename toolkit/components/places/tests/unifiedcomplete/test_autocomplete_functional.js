@@ -78,8 +78,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_disabling_autocomplete
 (
 )
@@ -105,7 +105,7 @@ PREF_AUTOCOMPLETE_ENABLED
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -135,7 +135,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -157,7 +157,7 @@ vis
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -167,8 +167,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_urls_order
 (
 )
@@ -234,7 +234,7 @@ TRANSITION_TYPED
 }
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -242,7 +242,7 @@ addVisits
 places
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -274,7 +274,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -284,8 +284,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_ignore_prefix
 (
 )
@@ -323,7 +323,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -348,7 +348,7 @@ org
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -380,7 +380,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -390,8 +390,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_after_host
 (
 )
@@ -429,7 +429,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -454,7 +454,7 @@ org
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -491,7 +491,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -501,8 +501,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_respect_www
 (
 )
@@ -546,7 +546,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -571,7 +571,7 @@ org
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -609,7 +609,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -619,8 +619,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_bookmark_first
 (
 )
@@ -661,7 +661,7 @@ typed
 false
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -687,7 +687,7 @@ org
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -712,7 +712,7 @@ foo
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -744,7 +744,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -754,8 +754,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_full_path
 (
 )
@@ -862,7 +862,7 @@ smokey
 }
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -870,7 +870,7 @@ addVisits
 places
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -902,7 +902,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -912,8 +912,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_complete_to_slash
 (
 )
@@ -1020,7 +1020,7 @@ smokey
 }
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1028,7 +1028,7 @@ addVisits
 places
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1074,7 +1074,7 @@ foo
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1084,8 +1084,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_complete_to_slash_with_www
 (
 )
@@ -1196,7 +1196,7 @@ smokey
 }
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1204,7 +1204,7 @@ addVisits
 places
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1252,7 +1252,7 @@ foo
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1262,8 +1262,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_complete_querystring
 (
 )
@@ -1300,7 +1300,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1329,7 +1329,7 @@ delicious
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1382,7 +1382,7 @@ delicious
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1392,8 +1392,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_complete_fragment
 (
 )
@@ -1430,7 +1430,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1461,7 +1461,7 @@ bar
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1523,7 +1523,7 @@ bar
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1533,8 +1533,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_autocomplete_enabled_pref
 (
 )

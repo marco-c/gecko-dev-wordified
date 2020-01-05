@@ -807,8 +807,8 @@ remote
 *
 *
 /
+async
 function
-*
 runScenarios
 (
 scenarios
@@ -889,7 +889,7 @@ state
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1002,7 +1002,7 @@ tab
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1087,7 +1087,7 @@ selectedTab
 tabToSelect
 )
 {
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1196,7 +1196,7 @@ i
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1248,8 +1248,8 @@ demand
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1292,7 +1292,7 @@ requestLongerTimeout
 5
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1741,8 +1741,7 @@ true
 }
 ]
 ;
-yield
-*
+await
 runScenarios
 (
 TEST_SCENARIOS

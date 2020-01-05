@@ -46,13 +46,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -109,8 +109,8 @@ opener
 /
 add_task
 (
+async
 function
-*
 test_select_profile
 (
 )
@@ -130,7 +130,7 @@ uiWindow
 promiseResult
 }
 =
-yield
+await
 FormAutofillTest
 .
 showUI
@@ -173,7 +173,7 @@ uiWindow
 let
 result
 =
-yield
+await
 promiseResult
 ;
 Assert
@@ -293,8 +293,8 @@ dialog
 /
 add_task
 (
+async
 function
-*
 test_cancel
 (
 )
@@ -314,7 +314,7 @@ uiWindow
 promiseResult
 }
 =
-yield
+await
 FormAutofillTest
 .
 showUI
@@ -357,7 +357,7 @@ uiWindow
 let
 result
 =
-yield
+await
 promiseResult
 ;
 Assert

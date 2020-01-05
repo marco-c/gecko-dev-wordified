@@ -365,8 +365,8 @@ exists
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -472,7 +472,7 @@ customization
 complete
 notification
 .
-yield
+await
 promiseTopicObserved
 (
 TOPIC_CUSTOMIZATION_COMPLETE
@@ -491,7 +491,7 @@ menu
 let
 menuItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -528,7 +528,7 @@ Before
 ;
 menuItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -576,7 +576,7 @@ exists
 for
 this
 bookmark
-yield
+await
 Assert
 .
 rejects
@@ -625,7 +625,7 @@ found
 let
 keywordItem
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -664,7 +664,7 @@ toolbar
 let
 toolbarItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -714,7 +714,7 @@ bookmark
 let
 faviconItem
 =
-yield
+await
 waitForResolvedPromise
 (
 (
@@ -831,7 +831,7 @@ spec
 ;
 keywordItem
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -875,7 +875,7 @@ b
 ;
 toolbarItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

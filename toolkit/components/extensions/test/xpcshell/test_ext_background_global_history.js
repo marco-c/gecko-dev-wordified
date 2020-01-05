@@ -69,8 +69,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_global_history
 (
 )
@@ -107,7 +107,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -117,7 +117,7 @@ startup
 let
 backgroundURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -129,7 +129,7 @@ loaded
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -139,7 +139,7 @@ unload
 let
 exists
 =
-yield
+await
 PlacesTestUtils
 .
 isPageInDB

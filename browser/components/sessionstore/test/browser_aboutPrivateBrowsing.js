@@ -40,8 +40,8 @@ Tabs
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -66,7 +66,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -126,7 +126,7 @@ foobar
 r
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

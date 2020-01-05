@@ -120,8 +120,8 @@ subviewId
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -206,7 +206,7 @@ changedPlacement
 true
 ;
 }
-yield
+await
 PanelUI
 .
 show
@@ -229,7 +229,7 @@ click
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -410,7 +410,7 @@ hide
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 if
@@ -430,12 +430,12 @@ reset
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

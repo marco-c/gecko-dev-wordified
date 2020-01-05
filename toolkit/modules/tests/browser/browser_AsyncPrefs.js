@@ -799,13 +799,13 @@ changed
 }
 add_task
 (
+async
 function
-*
 runInParent
 (
 )
 {
-yield
+await
 runTest
 (
 )
@@ -824,8 +824,8 @@ gMultiProcessBrowser
 {
 add_task
 (
+async
 function
-*
 runInChild
 (
 )
@@ -848,7 +848,7 @@ process
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

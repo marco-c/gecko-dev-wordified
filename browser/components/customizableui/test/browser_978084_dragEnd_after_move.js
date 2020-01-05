@@ -66,8 +66,8 @@ the
 palette
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -143,7 +143,7 @@ appendChild
 draggedItem
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -187,7 +187,7 @@ palette
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -205,8 +205,8 @@ target
 itself
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -294,7 +294,7 @@ appendChild
 draggedItem
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -333,7 +333,7 @@ removed
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -343,18 +343,18 @@ endCustomizing
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 endCustomizing
 (
 )
 ;
-yield
+await
 resetCustomization
 (
 )

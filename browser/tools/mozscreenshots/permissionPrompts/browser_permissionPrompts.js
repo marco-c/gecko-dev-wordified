@@ -78,8 +78,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 capture
 (
 )
@@ -107,7 +107,7 @@ PermissionPrompts
 "
 ]
 ;
-yield
+await
 TestRunner
 .
 start

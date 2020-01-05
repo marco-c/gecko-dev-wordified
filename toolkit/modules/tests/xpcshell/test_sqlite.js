@@ -149,25 +149,6 @@ gre
 /
 modules
 /
-Task
-.
-jsm
-"
-)
-;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 XPCOMUtils
 .
 jsm
@@ -589,8 +570,8 @@ c
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -630,8 +611,8 @@ Trace
 ;
 add_task
 (
+async
 function
-*
 test_open_normal
 (
 )
@@ -639,7 +620,7 @@ test_open_normal
 let
 c
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -655,7 +636,7 @@ sqlite
 }
 )
 ;
-yield
+await
 c
 .
 close
@@ -667,8 +648,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_open_unshared
 (
 )
@@ -699,7 +680,7 @@ sqlite
 let
 c
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -712,7 +693,7 @@ false
 }
 )
 ;
-yield
+await
 c
 .
 close
@@ -724,8 +705,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_get_dummy_database
 (
 )
@@ -733,7 +714,7 @@ test_get_dummy_database
 let
 db
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -752,7 +733,7 @@ object
 "
 )
 ;
-yield
+await
 db
 .
 close
@@ -764,8 +745,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_schema_version
 (
 )
@@ -773,7 +754,7 @@ test_schema_version
 let
 db
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -784,7 +765,7 @@ schema_version
 let
 version
 =
-yield
+await
 db
 .
 getSchemaVersion
@@ -806,7 +787,7 @@ setSchemaVersion
 ;
 version
 =
-yield
+await
 db
 .
 getSchemaVersion
@@ -840,7 +821,7 @@ success
 ;
 try
 {
-yield
+await
 db
 .
 setSchemaVersion
@@ -910,7 +891,7 @@ success
 ;
 version
 =
-yield
+await
 db
 .
 getSchemaVersion
@@ -924,7 +905,7 @@ version
 )
 ;
 }
-yield
+await
 db
 .
 close
@@ -936,8 +917,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_simple_insert
 (
 )
@@ -945,7 +926,7 @@ test_simple_insert
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -956,7 +937,7 @@ simple_insert
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -993,7 +974,7 @@ length
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -1005,8 +986,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_simple_bound_array
 (
 )
@@ -1014,7 +995,7 @@ test_simple_bound_array
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1025,7 +1006,7 @@ simple_bound_array
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -1056,7 +1037,7 @@ length
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -1068,8 +1049,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_simple_bound_object
 (
 )
@@ -1077,7 +1058,7 @@ test_simple_bound_object
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1088,7 +1069,7 @@ simple_bound_object
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -1127,7 +1108,7 @@ length
 ;
 result
 =
-yield
+await
 c
 .
 execute
@@ -1183,7 +1164,7 @@ foo
 "
 )
 ;
-yield
+await
 c
 .
 close
@@ -1209,8 +1190,8 @@ work
 .
 add_task
 (
+async
 function
-*
 test_simple_insert_then_select
 (
 )
@@ -1218,7 +1199,7 @@ test_simple_insert_then_select
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1226,7 +1207,7 @@ simple_insert_then_select
 "
 )
 ;
-yield
+await
 c
 .
 execute
@@ -1245,7 +1226,7 @@ foo
 "
 )
 ;
-yield
+await
 c
 .
 execute
@@ -1272,7 +1253,7 @@ bar
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -1362,7 +1343,7 @@ expected
 )
 ;
 }
-yield
+await
 c
 .
 close
@@ -1374,8 +1355,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_repeat_execution
 (
 )
@@ -1383,7 +1364,7 @@ test_repeat_execution
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1408,7 +1389,7 @@ path
 )
 "
 ;
-yield
+await
 c
 .
 executeCached
@@ -1423,7 +1404,7 @@ foo
 }
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -1434,7 +1415,7 @@ sql
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -1455,7 +1436,7 @@ length
 2
 )
 ;
-yield
+await
 c
 .
 close
@@ -1467,8 +1448,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_table_exists
 (
 )
@@ -1476,7 +1457,7 @@ test_table_exists
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1486,7 +1467,7 @@ table_exists
 ;
 do_check_false
 (
-yield
+await
 c
 .
 tableExists
@@ -1499,7 +1480,7 @@ does_not_exist
 ;
 do_check_true
 (
-yield
+await
 c
 .
 tableExists
@@ -1512,7 +1493,7 @@ dirs
 ;
 do_check_true
 (
-yield
+await
 c
 .
 tableExists
@@ -1523,7 +1504,7 @@ files
 )
 )
 ;
-yield
+await
 c
 .
 close
@@ -1535,8 +1516,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_index_exists
 (
 )
@@ -1544,7 +1525,7 @@ test_index_exists
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1554,7 +1535,7 @@ index_exists
 ;
 do_check_false
 (
-yield
+await
 c
 .
 indexExists
@@ -1565,7 +1546,7 @@ does_not_exist
 )
 )
 ;
-yield
+await
 c
 .
 execute
@@ -1584,7 +1565,7 @@ path
 ;
 do_check_true
 (
-yield
+await
 c
 .
 indexExists
@@ -1595,7 +1576,7 @@ my_index
 )
 )
 ;
-yield
+await
 c
 .
 close
@@ -1607,8 +1588,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_temp_table_exists
 (
 )
@@ -1616,7 +1597,7 @@ test_temp_table_exists
 let
 c
 =
-yield
+await
 getDummyTempDatabase
 (
 "
@@ -1626,7 +1607,7 @@ temp_table_exists
 ;
 do_check_false
 (
-yield
+await
 c
 .
 tableExists
@@ -1639,7 +1620,7 @@ temp_does_not_exist
 ;
 do_check_true
 (
-yield
+await
 c
 .
 tableExists
@@ -1652,7 +1633,7 @@ dirs
 ;
 do_check_true
 (
-yield
+await
 c
 .
 tableExists
@@ -1663,7 +1644,7 @@ files
 )
 )
 ;
-yield
+await
 c
 .
 close
@@ -1675,8 +1656,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_temp_index_exists
 (
 )
@@ -1684,7 +1665,7 @@ test_temp_index_exists
 let
 c
 =
-yield
+await
 getDummyTempDatabase
 (
 "
@@ -1694,7 +1675,7 @@ temp_index_exists
 ;
 do_check_false
 (
-yield
+await
 c
 .
 indexExists
@@ -1705,7 +1686,7 @@ temp_does_not_exist
 )
 )
 ;
-yield
+await
 c
 .
 execute
@@ -1724,7 +1705,7 @@ path
 ;
 do_check_true
 (
-yield
+await
 c
 .
 indexExists
@@ -1735,7 +1716,7 @@ my_index
 )
 )
 ;
-yield
+await
 c
 .
 close
@@ -1747,8 +1728,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_close_cached
 (
 )
@@ -1756,7 +1737,7 @@ test_close_cached
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1764,7 +1745,7 @@ close_cached
 "
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -1777,7 +1758,7 @@ dirs
 "
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -1790,7 +1771,7 @@ files
 "
 )
 ;
-yield
+await
 c
 .
 close
@@ -1802,8 +1783,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_execute_invalid_statement
 (
 )
@@ -1811,7 +1792,7 @@ test_execute_invalid_statement
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1870,7 +1851,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -1899,7 +1880,7 @@ size
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -1911,8 +1892,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_incorrect_like_bindings
 (
 )
@@ -1920,7 +1901,7 @@ test_incorrect_like_bindings
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -1991,7 +1972,7 @@ clause
 /
 )
 ;
-yield
+await
 c
 .
 close
@@ -2003,8 +1984,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_on_row_exception_ignored
 (
 )
@@ -2012,7 +1993,7 @@ test_on_row_exception_ignored
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2052,7 +2033,7 @@ i
 +
 )
 {
-yield
+await
 c
 .
 executeCached
@@ -2076,7 +2057,7 @@ i
 let
 hasResult
 =
-yield
+await
 c
 .
 execute
@@ -2125,7 +2106,7 @@ i
 10
 )
 ;
-yield
+await
 c
 .
 close
@@ -2148,8 +2129,8 @@ stop
 .
 add_task
 (
+async
 function
-*
 test_on_row_stop_iteration
 (
 )
@@ -2157,7 +2138,7 @@ test_on_row_stop_iteration
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2197,7 +2178,7 @@ i
 +
 )
 {
-yield
+await
 c
 .
 executeCached
@@ -2221,7 +2202,7 @@ i
 let
 hasResult
 =
-yield
+await
 c
 .
 execute
@@ -2270,7 +2251,7 @@ i
 5
 )
 ;
-yield
+await
 c
 .
 close
@@ -2295,8 +2276,8 @@ selected
 .
 add_task
 (
+async
 function
-*
 test_on_row_stop_iteration
 (
 )
@@ -2304,7 +2285,7 @@ test_on_row_stop_iteration
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2320,7 +2301,7 @@ i
 let
 hasResult
 =
-yield
+await
 c
 .
 execute
@@ -2361,7 +2342,7 @@ i
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -2373,8 +2354,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_invalid_transaction_type
 (
 )
@@ -2382,7 +2363,7 @@ test_invalid_transaction_type
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2403,7 +2384,6 @@ c
 executeTransaction
 (
 function
-*
 (
 )
 {
@@ -2426,7 +2406,7 @@ throw
 "
 )
 ;
-yield
+await
 c
 .
 close
@@ -2438,8 +2418,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_execute_transaction_success
 (
 )
@@ -2447,7 +2427,7 @@ test_execute_transaction_success
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2462,7 +2442,7 @@ c
 transactionInProgress
 )
 ;
-yield
+await
 c
 .
 executeTransaction
@@ -2521,7 +2501,7 @@ transactionInProgress
 let
 rows
 =
-yield
+await
 c
 .
 execute
@@ -2552,7 +2532,7 @@ length
 1
 )
 ;
-yield
+await
 c
 .
 close
@@ -2564,8 +2544,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_execute_transaction_rollback
 (
 )
@@ -2573,7 +2553,7 @@ test_execute_transaction_rollback
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2685,7 +2665,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2693,7 +2673,7 @@ promise
 let
 rows
 =
-yield
+await
 c
 .
 execute
@@ -2714,7 +2694,7 @@ length
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -2726,8 +2706,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_close_during_transaction
 (
 )
@@ -2735,7 +2715,7 @@ test_close_during_transaction
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -2743,7 +2723,7 @@ close_during_transaction
 "
 )
 ;
-yield
+await
 c
 .
 execute
@@ -2802,14 +2782,14 @@ bar
 }
 )
 ;
-yield
+await
 c
 .
 close
 (
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -2843,7 +2823,7 @@ it
 let
 c2
 =
-yield
+await
 getConnection
 (
 "
@@ -2854,7 +2834,7 @@ close_during_transaction
 let
 rows
 =
-yield
+await
 c2
 .
 execute
@@ -2875,7 +2855,7 @@ length
 1
 )
 ;
-yield
+await
 c2
 .
 close
@@ -2896,8 +2876,8 @@ transactions
 .
 add_task
 (
+async
 function
-*
 test_multiple_transactions
 (
 )
@@ -2905,7 +2885,7 @@ test_multiple_transactions
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -3010,7 +2990,7 @@ i
 i
 )
 {
-yield
+await
 c
 .
 executeTransaction
@@ -3068,7 +3048,7 @@ dirs
 let
 rows
 =
-yield
+await
 c
 .
 execute
@@ -3089,7 +3069,7 @@ length
 20
 )
 ;
-yield
+await
 c
 .
 close
@@ -3121,8 +3101,8 @@ exists
 .
 add_task
 (
+async
 function
-*
 test_wrapped_connection_transaction
 (
 )
@@ -3159,7 +3139,7 @@ sqlite
 let
 c
 =
-yield
+await
 new
 Promise
 (
@@ -3229,7 +3209,7 @@ status
 let
 wrapper
 =
-yield
+await
 Sqlite
 .
 wrapStorageConnection
@@ -3251,7 +3231,7 @@ the
 raw
 connection
 .
-yield
+await
 c
 .
 executeSimpleSQLAsync
@@ -3276,7 +3256,7 @@ in
 a
 transaction
 .
-yield
+await
 wrapper
 .
 executeTransaction
@@ -3323,7 +3303,7 @@ not
 been
 created
 .
-yield
+await
 c
 .
 executeSimpleSQLAsync
@@ -3333,7 +3313,7 @@ COMMIT
 "
 )
 ;
-yield
+await
 wrapper
 .
 execute
@@ -3363,14 +3343,14 @@ the
 /
 database
 .
-yield
+await
 wrapper
 .
 close
 (
 )
 ;
-yield
+await
 c
 .
 asyncClose
@@ -3382,8 +3362,8 @@ asyncClose
 ;
 add_task
 (
+async
 function
-*
 test_shrink_memory
 (
 )
@@ -3391,7 +3371,7 @@ test_shrink_memory
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -3424,14 +3404,14 @@ actually
 does
 anything
 .
-yield
+await
 c
 .
 shrinkMemory
 (
 )
 ;
-yield
+await
 c
 .
 close
@@ -3443,8 +3423,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_no_shrink_on_init
 (
 )
@@ -3452,7 +3432,7 @@ test_no_shrink_on_init
 let
 c
 =
-yield
+await
 getConnection
 (
 "
@@ -3506,7 +3486,7 @@ has
 been
 executed
 .
-yield
+await
 sleep
 (
 220
@@ -3518,7 +3498,7 @@ count
 0
 )
 ;
-yield
+await
 c
 .
 execute
@@ -3529,7 +3509,7 @@ SELECT
 "
 )
 ;
-yield
+await
 sleep
 (
 220
@@ -3541,7 +3521,7 @@ count
 1
 )
 ;
-yield
+await
 c
 .
 close
@@ -3553,8 +3533,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_idle_shrink_fires
 (
 )
@@ -3562,7 +3542,7 @@ test_idle_shrink_fires
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -3682,7 +3662,7 @@ _startIdleShrinkTimer
 (
 )
 ;
-yield
+await
 sleep
 (
 220
@@ -3702,7 +3682,7 @@ length
 1
 )
 ;
-yield
+await
 shrinkPromises
 [
 0
@@ -3728,7 +3708,7 @@ statement
 was
 executed
 .
-yield
+await
 sleep
 (
 300
@@ -3740,7 +3720,7 @@ count
 1
 )
 ;
-yield
+await
 c
 .
 execute
@@ -3751,7 +3731,7 @@ SELECT
 "
 )
 ;
-yield
+await
 sleep
 (
 300
@@ -3771,13 +3751,13 @@ length
 1
 )
 ;
-yield
+await
 shrinkPromises
 [
 0
 ]
 ;
-yield
+await
 c
 .
 close
@@ -3789,8 +3769,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_idle_shrink_reset_on_operation
 (
 )
@@ -3803,7 +3783,7 @@ INTERVAL
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -3948,7 +3928,7 @@ Date
 initialIdle
 )
 {
-yield
+await
 c
 .
 execute
@@ -4011,7 +3991,7 @@ for
 idle
 timer
 .
-yield
+await
 sleep
 (
 INTERVAL
@@ -4037,13 +4017,13 @@ length
 1
 )
 ;
-yield
+await
 shrinkPromises
 [
 0
 ]
 ;
-yield
+await
 c
 .
 close
@@ -4055,8 +4035,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_in_progress_counts
 (
 )
@@ -4064,7 +4044,7 @@ test_in_progress_counts
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -4096,7 +4076,7 @@ size
 0
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4229,7 +4209,7 @@ both
 to
 finish
 .
-yield
+await
 c
 .
 executeCached
@@ -4460,7 +4440,7 @@ size
 0
 )
 ;
-yield
+await
 c
 .
 close
@@ -4472,8 +4452,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_discard_while_active
 (
 )
@@ -4481,7 +4461,7 @@ test_discard_while_active
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -4489,7 +4469,7 @@ discard_while_active
 "
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4510,7 +4490,7 @@ foo
 "
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4552,7 +4532,7 @@ FROM
 dirs
 "
 ;
-yield
+await
 c
 .
 executeCached
@@ -4626,7 +4606,7 @@ discardCachedStatements
 )
 )
 ;
-yield
+await
 c
 .
 close
@@ -4638,8 +4618,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_discard_cached
 (
 )
@@ -4647,7 +4627,7 @@ test_discard_cached
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -4655,7 +4635,7 @@ discard_cached
 "
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4680,7 +4660,7 @@ _cachedStatements
 size
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4705,7 +4685,7 @@ _cachedStatements
 size
 )
 ;
-yield
+await
 c
 .
 executeCached
@@ -4748,7 +4728,7 @@ _cachedStatements
 size
 )
 ;
-yield
+await
 c
 .
 close
@@ -4760,8 +4740,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_programmatic_binding
 (
 )
@@ -4769,7 +4749,7 @@ test_programmatic_binding
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -4832,7 +4812,7 @@ path
 let
 result
 =
-yield
+await
 c
 .
 execute
@@ -4852,7 +4832,7 @@ length
 let
 rows
 =
-yield
+await
 c
 .
 executeCached
@@ -4873,7 +4853,7 @@ length
 3
 )
 ;
-yield
+await
 c
 .
 close
@@ -4885,8 +4865,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_programmatic_binding_transaction
 (
 )
@@ -4894,7 +4874,7 @@ test_programmatic_binding_transaction
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -4954,7 +4934,7 @@ path
 )
 "
 ;
-yield
+await
 c
 .
 executeTransaction
@@ -5020,7 +5000,7 @@ committed
 let
 rows
 =
-yield
+await
 c
 .
 executeCached
@@ -5041,7 +5021,7 @@ length
 3
 )
 ;
-yield
+await
 c
 .
 close
@@ -5053,8 +5033,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_programmatic_binding_transaction_partial_rollback
 (
 )
@@ -5062,7 +5042,7 @@ test_programmatic_binding_transaction_partial_rollback
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -5127,7 +5107,7 @@ the
 batch
 insert
 .
-yield
+await
 c
 .
 execute
@@ -5152,7 +5132,7 @@ false
 ;
 try
 {
-yield
+await
 c
 .
 executeTransaction
@@ -5305,7 +5285,7 @@ exists
 let
 rows
 =
-yield
+await
 c
 .
 executeCached
@@ -5344,7 +5324,7 @@ works
 "
 )
 ;
-yield
+await
 c
 .
 close
@@ -5375,8 +5355,8 @@ mozStorage
 .
 add_task
 (
+async
 function
-*
 test_programmatic_binding_implicit_transaction
 (
 )
@@ -5384,7 +5364,7 @@ test_programmatic_binding_implicit_transaction
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -5439,7 +5419,7 @@ secondSucceeded
 =
 false
 ;
-yield
+await
 c
 .
 execute
@@ -5459,7 +5439,7 @@ works
 ;
 try
 {
-yield
+await
 c
 .
 execute
@@ -5506,7 +5486,7 @@ failed
 let
 rows
 =
-yield
+await
 c
 .
 executeCached
@@ -5545,7 +5525,7 @@ works
 "
 )
 ;
-yield
+await
 c
 .
 close
@@ -5586,8 +5566,8 @@ Bug
 .
 add_task
 (
+async
 function
-*
 test_direct
 (
 )
@@ -5840,7 +5820,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -5952,7 +5932,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -5985,7 +5965,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -6032,7 +6012,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -6049,8 +6029,8 @@ cloneStorageConnection
 .
 add_task
 (
+async
 function
-*
 test_cloneStorageConnection
 (
 )
@@ -6087,7 +6067,7 @@ sqlite
 let
 c
 =
-yield
+await
 new
 Promise
 (
@@ -6157,7 +6137,7 @@ status
 let
 clone
 =
-yield
+await
 Sqlite
 .
 cloneStorageConnection
@@ -6180,7 +6160,7 @@ that
 it
 works
 .
-yield
+await
 clone
 .
 execute
@@ -6194,7 +6174,7 @@ SELECT
 let
 clone2
 =
-yield
+await
 Sqlite
 .
 cloneStorageConnection
@@ -6217,7 +6197,7 @@ that
 it
 works
 .
-yield
+await
 clone2
 .
 execute
@@ -6243,21 +6223,21 @@ should
 not
 matter
 .
-yield
+await
 c
 .
 asyncClose
 (
 )
 ;
-yield
+await
 clone2
 .
 close
 (
 )
 ;
-yield
+await
 clone
 .
 close
@@ -6278,15 +6258,15 @@ argument
 .
 add_task
 (
+async
 function
-*
 test_cloneStorageConnection
 (
 )
 {
 try
 {
-yield
+await
 Sqlite
 .
 cloneStorageConnection
@@ -6349,8 +6329,8 @@ method
 .
 add_task
 (
+async
 function
-*
 test_clone
 (
 )
@@ -6358,7 +6338,7 @@ test_clone
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -6369,7 +6349,7 @@ clone
 let
 clone
 =
-yield
+await
 c
 .
 clone
@@ -6384,7 +6364,7 @@ that
 it
 works
 .
-yield
+await
 clone
 .
 execute
@@ -6403,14 +6383,14 @@ should
 not
 matter
 .
-yield
+await
 c
 .
 close
 (
 )
 ;
-yield
+await
 clone
 .
 close
@@ -6431,8 +6411,8 @@ method
 .
 add_task
 (
+async
 function
-*
 test_readOnly_clone
 (
 )
@@ -6463,7 +6443,7 @@ sqlite
 let
 c
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -6479,7 +6459,7 @@ false
 let
 clone
 =
-yield
+await
 c
 .
 clone
@@ -6495,7 +6475,7 @@ that
 it
 works
 .
-yield
+await
 clone
 .
 execute
@@ -6516,7 +6496,7 @@ able
 to
 write
 .
-yield
+await
 Assert
 .
 rejects
@@ -6550,14 +6530,14 @@ should
 not
 matter
 .
-yield
+await
 c
 .
 close
 (
 )
 ;
-yield
+await
 clone
 .
 close
@@ -6576,8 +6556,8 @@ wrapStorageConnection
 .
 add_task
 (
+async
 function
-*
 test_wrapStorageConnection
 (
 )
@@ -6614,7 +6594,7 @@ sqlite
 let
 c
 =
-yield
+await
 new
 Promise
 (
@@ -6684,7 +6664,7 @@ status
 let
 wrapper
 =
-yield
+await
 Sqlite
 .
 wrapStorageConnection
@@ -6704,7 +6684,7 @@ that
 it
 works
 .
-yield
+await
 wrapper
 .
 execute
@@ -6715,7 +6695,7 @@ SELECT
 "
 )
 ;
-yield
+await
 wrapper
 .
 executeCached
@@ -6743,14 +6723,14 @@ the
 /
 database
 .
-yield
+await
 wrapper
 .
 close
 (
 )
 ;
-yield
+await
 c
 .
 asyncClose
@@ -6766,8 +6746,8 @@ Test
 finalization
 add_task
 (
+async
 function
-*
 test_closed_by_witness
 (
 )
@@ -6780,7 +6760,7 @@ false
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -6841,7 +6821,7 @@ forget
 (
 )
 ;
-yield
+await
 c
 .
 _connectionData
@@ -6869,8 +6849,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_warning_message_on_finalization
 (
 )
@@ -6883,7 +6863,7 @@ false
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -7036,7 +7016,7 @@ forget
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -7060,8 +7040,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_error_message_on_unknown_finalization
 (
 )
@@ -7163,7 +7143,7 @@ foo
 "
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -7187,8 +7167,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_forget_witness_on_close
 (
 )
@@ -7196,7 +7176,7 @@ test_forget_witness_on_close
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -7238,7 +7218,7 @@ forget
 }
 }
 ;
-yield
+await
 c
 .
 close
@@ -7265,8 +7245,8 @@ forgetCalled
 ;
 add_task
 (
+async
 function
-*
 test_close_database_on_gc
 (
 )
@@ -7314,7 +7294,7 @@ defer
 let
 c
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -7426,7 +7406,7 @@ collected
 let
 last
 =
-yield
+await
 getDummyDatabase
 (
 "
@@ -7434,7 +7414,7 @@ gc_last
 "
 )
 ;
-yield
+await
 last
 .
 close
@@ -7465,7 +7445,7 @@ forceShrinkingGC
 (
 )
 ;
-yield
+await
 finalPromise
 ;
 failTestsOnAutoClose
@@ -7484,8 +7464,8 @@ supported
 datatypes
 add_task
 (
+async
 function
-*
 test_datatypes
 (
 )
@@ -7493,7 +7473,7 @@ test_datatypes
 let
 c
 =
-yield
+await
 getConnection
 (
 "
@@ -7501,7 +7481,7 @@ datatypes
 "
 )
 ;
-yield
+await
 c
 .
 execute
@@ -7515,7 +7495,7 @@ datatypes
 "
 )
 ;
-yield
+await
 c
 .
 execute
@@ -7639,7 +7619,7 @@ false
 }
 ]
 ;
-yield
+await
 c
 .
 execute
@@ -7668,7 +7648,7 @@ bindings
 let
 rows
 =
-yield
+await
 c
 .
 execute
@@ -7800,7 +7780,7 @@ colName
 ;
 }
 }
-yield
+await
 c
 .
 close

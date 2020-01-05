@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_cleared_alarm_does_not_fire
 (
 )
@@ -218,14 +218,14 @@ alarms
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -237,7 +237,7 @@ cleared
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -209,8 +209,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 async_init
 (
 )
@@ -221,7 +221,7 @@ commitPromise
 promiseAfterCache
 (
 )
-yield
+await
 asyncInit
 (
 )
@@ -334,7 +334,7 @@ written
 to
 disk
 .
-yield
+await
 commitPromise
 ;
 }
@@ -342,8 +342,8 @@ commitPromise
 ;
 add_task
 (
+async
 function
-*
 sync_init
 (
 )
@@ -367,7 +367,7 @@ asyncReInit
 (
 )
 ;
-yield
+await
 unInitPromise
 ;
 do_check_false
@@ -493,7 +493,7 @@ engine
 null
 )
 ;
-yield
+await
 reInitPromise
 ;
 }
@@ -501,8 +501,8 @@ reInitPromise
 ;
 add_task
 (
+async
 function
-*
 invalid_engine
 (
 )
@@ -514,7 +514,7 @@ a
 new
 request
 .
-yield
+await
 forceExpiration
 (
 )
@@ -628,7 +628,7 @@ kUrlPref
 url
 )
 ;
-yield
+await
 asyncReInit
 (
 )

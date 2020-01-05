@@ -45,8 +45,8 @@ is
 closed
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -91,7 +91,7 @@ popup
 should
 be
 closed
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -118,7 +118,7 @@ we
 will
 switch
 to
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -133,7 +133,7 @@ openPopup
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab

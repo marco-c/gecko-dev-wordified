@@ -477,8 +477,8 @@ source
 .
 *
 /
+async
 function
-*
 openViewSource
 (
 browser
@@ -532,7 +532,7 @@ browser
 ;
 return
 (
-yield
+await
 openPromise
 )
 ;
@@ -612,8 +612,8 @@ source
 .
 *
 /
+async
 function
-*
 openViewPartialSource
 (
 aCSSSelector
@@ -644,7 +644,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -665,7 +665,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -745,12 +745,12 @@ item
 }
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 return
 (
-yield
+await
 openPromise
 )
 ;
@@ -809,8 +809,8 @@ source
 .
 *
 /
+async
 function
-*
 openViewFrameSourceTab
 (
 aCSSSelector
@@ -841,7 +841,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -862,7 +862,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -898,7 +898,7 @@ frameContextMenu
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -948,12 +948,12 @@ item
 }
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 return
 (
-yield
+await
 newTabPromise
 )
 ;
@@ -1185,8 +1185,8 @@ source
 .
 *
 /
+async
 function
-*
 openDocumentSelect
 (
 aURI
@@ -1196,7 +1196,7 @@ aCSSSelector
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1221,7 +1221,7 @@ tab
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1234,8 +1234,8 @@ selector
 :
 aCSSSelector
 }
+async
 function
-*
 (
 arg
 )
@@ -1271,7 +1271,7 @@ element
 let
 tabOrWindow
 =
-yield
+await
 openViewPartialSource
 (
 aCSSSelector
@@ -1287,7 +1287,7 @@ has
 been
 loaded
 .
-yield
+await
 waitForSourceLoaded
 (
 tabOrWindow

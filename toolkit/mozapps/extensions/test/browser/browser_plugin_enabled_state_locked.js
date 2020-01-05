@@ -659,8 +659,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 initializeState
 (
 )
@@ -694,7 +694,7 @@ getTestPluginPref
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 )
@@ -707,7 +707,7 @@ CategoryUtilities
 gManagerWindow
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -720,7 +720,7 @@ plugin
 let
 plugins
 =
-yield
+await
 getPlugins
 (
 )
@@ -751,8 +751,8 @@ is
 unlocked
 add_task
 (
+async
 function
-*
 taskCheckStateMenuIsEnabled
 (
 )
@@ -762,7 +762,7 @@ checkStateMenu
 false
 )
 ;
-yield
+await
 checkStateMenuDetail
 (
 false
@@ -784,8 +784,8 @@ plugin
 category
 add_task
 (
+async
 function
-*
 reinitializeState
 (
 )
@@ -806,7 +806,7 @@ getTestPluginPref
 )
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -826,7 +826,7 @@ element
 let
 plugins
 =
-yield
+await
 getPlugins
 (
 )
@@ -857,8 +857,8 @@ is
 locked
 add_task
 (
+async
 function
-*
 taskCheckStateMenuIsDisabled
 (
 )
@@ -868,7 +868,7 @@ checkStateMenu
 true
 )
 ;
-yield
+await
 checkStateMenuDetail
 (
 true
@@ -879,13 +879,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 testCleanup
 (
 )
 {
-yield
+await
 close_manager
 (
 gManagerWindow

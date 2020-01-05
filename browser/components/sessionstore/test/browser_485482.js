@@ -71,8 +71,8 @@ documents
 /
 add_task
 (
+async
 function
-*
 test_xpath_exp_for_strange_documents
 (
 )
@@ -104,7 +104,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -126,7 +126,7 @@ random
 (
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -147,7 +147,7 @@ uniqueValue
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -191,7 +191,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -214,7 +214,7 @@ values
 let
 text
 =
-yield
+await
 getInputValue
 (
 browser2
@@ -248,7 +248,7 @@ valid
 let
 checkbox
 =
-yield
+await
 getInputChecked
 (
 browser2

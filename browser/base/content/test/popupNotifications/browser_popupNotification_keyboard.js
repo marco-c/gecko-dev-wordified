@@ -309,12 +309,12 @@ Test
 #
 2
 "
-*
+async
 run
 (
 )
 {
-yield
+await
 waitForWindowReadyForPopupNotifications
 (
 window
@@ -470,7 +470,6 @@ Test
 #
 3
 "
-*
 run
 (
 )
@@ -526,7 +525,6 @@ notifyObj
 )
 ;
 }
-*
 onShown
 (
 popup
@@ -1012,7 +1010,6 @@ Test
 #
 5
 "
-*
 run
 (
 )
@@ -1068,7 +1065,6 @@ notifyObj
 )
 ;
 }
-*
 onShown
 (
 popup
@@ -1314,7 +1310,7 @@ Test
 #
 6
 "
-*
+async
 run
 (
 )
@@ -1326,7 +1322,7 @@ this
 .
 id
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1349,8 +1345,8 @@ input
 /
 >
 "
+async
 function
-*
 (
 browser
 )
@@ -1364,7 +1360,7 @@ BasicNotification
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1411,7 +1407,7 @@ showNotification
 notifyObj
 )
 ;
-yield
+await
 opened
 ;
 /
@@ -1506,7 +1502,7 @@ inside
 the
 browser
 .
-yield
+await
 ContentTask
 .
 spawn

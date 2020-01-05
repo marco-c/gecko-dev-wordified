@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testCompleteAndPartialPatchesWithBadSizes
 (
 )
@@ -35,7 +35,7 @@ invalidCompleteSize
 1
 "
 ;
-yield
+await
 runUpdateTest
 (
 updateParams
@@ -160,12 +160,12 @@ new
 )
 ;
 }
-*
+async
 cleanup
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

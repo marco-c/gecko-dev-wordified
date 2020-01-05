@@ -5487,7 +5487,6 @@ TabBase
 }
 *
 /
-*
 getTabs
 (
 )
@@ -10928,7 +10927,6 @@ WindowBase
 abstract
 *
 /
-*
 getAll
 (
 )

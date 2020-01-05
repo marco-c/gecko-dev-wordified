@@ -29,12 +29,12 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -51,7 +51,7 @@ com
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -61,8 +61,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -175,7 +175,7 @@ mouseup
 let
 event
 =
-yield
+await
 popupShownPromise
 ;
 ok
@@ -202,7 +202,7 @@ before
 continuing
 the
 test
-yield
+await
 new
 Promise
 (

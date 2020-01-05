@@ -95,8 +95,8 @@ functions
 .
 /
 /
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -162,7 +162,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -209,8 +209,8 @@ functions
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -223,7 +223,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -253,8 +253,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_cookie_getCookiesWithOriginAttributes
 (
 )
@@ -333,8 +333,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -356,7 +355,7 @@ Close
 this
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab

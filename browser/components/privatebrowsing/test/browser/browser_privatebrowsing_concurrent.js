@@ -210,13 +210,13 @@ is
 1
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -244,8 +244,8 @@ processCount
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -337,7 +337,7 @@ true
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -352,7 +352,7 @@ Step
 let
 private_window
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -397,7 +397,7 @@ value2
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -427,7 +427,7 @@ test2
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -438,7 +438,7 @@ non_private_browser
 let
 elts
 =
-yield
+await
 getElts
 (
 non_private_browser
@@ -507,7 +507,7 @@ test
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -517,7 +517,7 @@ private_browser
 ;
 elts
 =
-yield
+await
 getElts
 (
 private_browser
@@ -591,7 +591,7 @@ close
 ;
 private_window
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -607,7 +607,7 @@ private_browser
 =
 null
 ;
-yield
+await
 new
 Promise
 (
@@ -650,7 +650,7 @@ test2
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -673,7 +673,7 @@ test2
 ;
 elts
 =
-yield
+await
 getElts
 (
 private_browser
@@ -757,7 +757,7 @@ close
 ;
 private_window
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -773,7 +773,7 @@ private_browser
 =
 null
 ;
-yield
+await
 new
 Promise
 (
@@ -820,7 +820,7 @@ value3
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -830,7 +830,7 @@ private_browser
 ;
 elts
 =
-yield
+await
 getElts
 (
 private_browser
@@ -875,7 +875,7 @@ true
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

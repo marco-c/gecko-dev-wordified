@@ -447,8 +447,8 @@ status
 }
 add_task
 (
+async
 function
-*
 test_default_values
 (
 )
@@ -473,7 +473,7 @@ startupManager
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 {
@@ -689,7 +689,7 @@ skipped
 .
 updates
 =
-yield
+await
 checkUpdates
 (
 {
@@ -763,7 +763,7 @@ error
 .
 updates
 =
-yield
+await
 checkUpdates
 (
 {
@@ -802,8 +802,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_explicit_values
 (
 )
@@ -826,7 +826,7 @@ provided
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 {
@@ -1102,8 +1102,8 @@ updateInfoURL
 ;
 add_task
 (
+async
 function
-*
 test_secure_hashes
 (
 )
@@ -1215,7 +1215,7 @@ result
 updates
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 (
@@ -1435,8 +1435,8 @@ warning
 ;
 add_task
 (
+async
 function
-*
 test_strict_compat
 (
 )
@@ -1491,7 +1491,7 @@ result
 updates
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 (
@@ -1810,8 +1810,8 @@ warning
 ;
 add_task
 (
+async
 function
-*
 test_update_url_security
 (
 )
@@ -1837,7 +1837,7 @@ result
 updates
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 (
@@ -2069,8 +2069,8 @@ message
 ;
 add_task
 (
+async
 function
-*
 test_no_update_key
 (
 )
@@ -2094,7 +2094,7 @@ let
 messages
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 function
@@ -2223,8 +2223,8 @@ error
 ;
 add_task
 (
+async
 function
-*
 test_type_detection
 (
 )
@@ -2452,7 +2452,7 @@ let
 messages
 }
 =
-yield
+await
 promiseConsoleOutput
 (
 function

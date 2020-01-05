@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -209,7 +209,7 @@ awaitTabClose
 2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -227,8 +227,8 @@ html
 a
 "
 }
+async
 function
-*
 (
 browser1
 )
@@ -313,7 +313,7 @@ length
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -381,7 +381,7 @@ link
 }
 )
 ;
-yield
+await
 requestMade
 ;
 is
@@ -397,7 +397,7 @@ length
 }
 )
 ;
-yield
+await
 closed1
 ;
 /
@@ -457,7 +457,7 @@ awaitTabClose
 2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -475,8 +475,8 @@ html
 a
 "
 }
+async
 function
-*
 (
 browser1
 )
@@ -533,7 +533,7 @@ getSystemPrincipal
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -556,7 +556,7 @@ linkedBrowser
 frameLoader
 )
 ;
-yield
+await
 awaitProcessChange
 (
 browser1
@@ -565,7 +565,7 @@ browser1
 }
 )
 ;
-yield
+await
 closed2
 ;
 /

@@ -103,8 +103,8 @@ stolen
 ;
 add_task
 (
+async
 function
-*
 testInsecurePasswordWarning
 (
 )
@@ -797,7 +797,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -809,7 +809,6 @@ url
 testURL
 }
 function
-*
 (
 )
 {

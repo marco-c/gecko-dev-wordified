@@ -270,8 +270,8 @@ backgroundScript
 ;
 add_task
 (
+async
 function
-*
 test_localStorage
 (
 )
@@ -315,7 +315,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -325,7 +325,7 @@ startup
 let
 actual
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -335,7 +335,7 @@ result
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -345,7 +345,7 @@ localStorage
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -51,8 +51,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +70,7 @@ html
 let
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -94,7 +94,7 @@ browser
 contentPage
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -106,7 +106,7 @@ contentPage
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -134,7 +134,7 @@ browser
 contentPage
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -397,8 +397,8 @@ prefix
 test
 .
 subtest
+async
 function
-*
 (
 aSrc
 )
@@ -421,7 +421,7 @@ aSrc
 }
 )
 ;
-yield
+await
 promise
 ;
 if
@@ -480,20 +480,20 @@ links
 to
 update
 .
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
 (
+async
 function
-*
 (
 )
 {
 let
 color
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -506,8 +506,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -622,7 +622,7 @@ message
 ;
 }
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -630,7 +630,7 @@ closeWindow
 normalWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

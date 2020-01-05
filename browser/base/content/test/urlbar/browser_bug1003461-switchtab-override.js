@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_switchtab_override
 (
 )
@@ -105,7 +105,7 @@ tab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -287,7 +287,7 @@ e
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -512,12 +512,12 @@ keyup
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

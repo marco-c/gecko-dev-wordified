@@ -167,8 +167,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -391,7 +391,7 @@ version
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -430,7 +430,7 @@ title
 let
 folderId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -575,7 +575,7 @@ version
 let
 organizer
 =
-yield
+await
 promiseLibrary
 (
 )
@@ -744,7 +744,7 @@ working
 "
 )
 ;
-yield
+await
 promiseLibraryClosed
 (
 organizer

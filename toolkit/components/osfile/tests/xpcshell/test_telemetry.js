@@ -85,8 +85,8 @@ not
 launched
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -95,7 +95,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 File
 .
 resetWorker
@@ -168,8 +168,8 @@ relevant
 histograms
 add_task
 (
+async
 function
-*
 test_startup
 (
 )
@@ -205,7 +205,7 @@ OS
 .
 File
 worker
-yield
+await
 File
 .
 getCurrentDirectory
@@ -322,8 +322,8 @@ relevant
 histograms
 add_task
 (
+async
 function
-*
 test_writeAtomic
 (
 )
@@ -369,7 +369,7 @@ tmp
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic

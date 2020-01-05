@@ -92,8 +92,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -112,7 +112,7 @@ folder
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -173,7 +173,7 @@ hash
 hash
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -225,7 +225,7 @@ json
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -277,7 +277,7 @@ today
 s
 date
 .
-yield
+await
 PlacesBackups
 .
 create
@@ -296,7 +296,7 @@ backup
 let
 backupFiles
 =
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -439,7 +439,7 @@ the
 existing
 one
 .
-yield
+await
 PlacesBackups
 .
 create
@@ -459,7 +459,7 @@ length
 let
 recentBackup
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -548,7 +548,7 @@ removeItem
 bookmarkId
 )
 ;
-yield
+await
 PlacesBackups
 .
 create

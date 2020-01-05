@@ -801,13 +801,13 @@ password
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -830,7 +830,7 @@ true
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -905,8 +905,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_empty_first_entry
 (
 )
@@ -940,7 +940,7 @@ restoreForm
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -977,12 +977,12 @@ down
 let
 results
 =
-yield
+await
 shownPromise
 ;
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1042,7 +1042,7 @@ down
 "
 )
 ;
-yield
+await
 index0Promise
 ;
 checkACForm
@@ -1074,7 +1074,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1094,8 +1094,8 @@ pass
 ;
 add_task
 (
+async
 function
-*
 test_empty_second_entry
 (
 )
@@ -1121,7 +1121,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -1158,7 +1158,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1178,8 +1178,8 @@ pass1
 ;
 add_task
 (
+async
 function
-*
 test_search
 (
 )
@@ -1252,7 +1252,7 @@ open
 let
 results
 =
-yield
+await
 shownPromise
 ;
 checkArrayValues
@@ -1298,7 +1298,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1316,7 +1316,7 @@ pass1
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1341,8 +1341,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 test_delete_first_entry
 (
 )
@@ -1371,7 +1371,7 @@ down
 "
 )
 ;
-yield
+await
 shownPromise
 ;
 let
@@ -1389,7 +1389,7 @@ down
 "
 )
 ;
-yield
+await
 index0Promise
 ;
 let
@@ -1449,7 +1449,7 @@ delete
 shiftModifier
 )
 ;
-yield
+await
 deletionPromise
 ;
 checkACForm
@@ -1463,7 +1463,7 @@ checkACForm
 let
 results
 =
-yield
+await
 notifyMenuChanged
 (
 2
@@ -1497,7 +1497,7 @@ first
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1527,7 +1527,7 @@ escape
 ;
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1552,8 +1552,8 @@ ESC
 ;
 add_task
 (
+async
 function
-*
 test_delete_duplicate_entry
 (
 )
@@ -1582,7 +1582,7 @@ down
 "
 )
 ;
-yield
+await
 shownPromise
 ;
 let
@@ -1600,7 +1600,7 @@ down
 "
 )
 ;
-yield
+await
 index0Promise
 ;
 let
@@ -1660,7 +1660,7 @@ delete
 shiftModifier
 )
 ;
-yield
+await
 deletionPromise
 ;
 checkACForm
@@ -1772,7 +1772,7 @@ remain
 let
 results
 =
-yield
+await
 notifyMenuChanged
 (
 1
@@ -1804,7 +1804,7 @@ name1
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1834,7 +1834,7 @@ escape
 ;
 popupState
 =
-yield
+await
 getPopupState
 (
 )

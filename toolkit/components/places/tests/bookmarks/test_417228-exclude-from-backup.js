@@ -746,8 +746,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -789,7 +789,7 @@ populate
 (
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -802,7 +802,7 @@ jsonFile
 restore
 json
 file
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -837,7 +837,7 @@ false
 /
 /
 cleanup
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -869,7 +869,7 @@ _excludeRootId
 restore
 json
 file
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -897,7 +897,7 @@ true
 /
 clean
 up
-yield
+await
 OS
 .
 File

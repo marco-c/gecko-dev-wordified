@@ -56,8 +56,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 check_http_redirect
 (
 )
@@ -115,7 +115,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -130,7 +130,7 @@ tab
 "
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -214,7 +214,7 @@ cleared
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -241,8 +241,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 check_js_redirect
 (
 )
@@ -375,7 +375,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -390,10 +390,10 @@ tab
 "
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -477,7 +477,7 @@ cleared
 /
 Cleanup
 .
-yield
+await
 promiseRemoveTab
 (
 tab

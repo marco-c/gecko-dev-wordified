@@ -149,8 +149,8 @@ info
 /
 add_task
 (
+async
 function
-*
 test_legacy_extension_context_contentscript_connection
 (
 )
@@ -603,7 +603,7 @@ startup
 let
 extensionInstance
 =
-yield
+await
 waitForExtensionInstance
 ;
 /
@@ -770,7 +770,7 @@ object
 "
 )
 ;
-yield
+await
 waitForExtensionReady
 ;
 extension
@@ -791,7 +791,7 @@ let
 tab
 }
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -813,7 +813,7 @@ singleMsg
 msgSender
 }
 =
-yield
+await
 waitMessage
 ;
 is
@@ -940,7 +940,7 @@ has
 been
 received
 .
-yield
+await
 extension
 .
 awaitMessage
@@ -957,7 +957,7 @@ message
 let
 port
 =
-yield
+await
 waitConnectPort
 ;
 ok
@@ -1130,7 +1130,7 @@ message
 let
 msg
 =
-yield
+await
 waitPortMessage
 ;
 is
@@ -1207,7 +1207,7 @@ tab
 "
 )
 ;
-yield
+await
 waitForDisconnect
 ;
 info
@@ -1226,7 +1226,7 @@ closed
 let
 success
 =
-yield
+await
 waitForTestDone
 ;
 ok
@@ -1239,7 +1239,7 @@ successfully
 "
 )
 ;
-yield
+await
 extension
 .
 unload

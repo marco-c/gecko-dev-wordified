@@ -123,8 +123,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_watch_single_path_directory_deletion
 (
 )
@@ -195,7 +195,7 @@ the
 watched
 directory
 .
-yield
+await
 OS
 .
 File
@@ -228,7 +228,7 @@ start
 watching
 it
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -273,7 +273,7 @@ changed
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -316,7 +316,7 @@ to
 unregister
 )
 .
-yield
+await
 promiseRemovePath
 (
 watcher

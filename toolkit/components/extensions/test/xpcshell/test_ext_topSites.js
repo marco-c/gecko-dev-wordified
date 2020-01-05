@@ -271,8 +271,8 @@ places
 }
 add_task
 (
+async
 function
-*
 test_topSites
 (
 )
@@ -481,7 +481,7 @@ addProvider
 provider
 )
 ;
-yield
+await
 NewTabUtils
 .
 links
@@ -490,7 +490,7 @@ populateCache
 (
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -500,7 +500,7 @@ startup
 let
 result
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -522,7 +522,7 @@ topSites
 "
 )
 ;
-yield
+await
 extension
 .
 unload

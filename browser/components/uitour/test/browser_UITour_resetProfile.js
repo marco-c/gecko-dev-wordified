@@ -35,8 +35,8 @@ is
 triggered
 add_UITour_task
 (
+async
 function
-*
 test_resetFirefox
 (
 )
@@ -44,7 +44,7 @@ test_resetFirefox
 let
 canReset
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -324,7 +324,7 @@ profileName
 ;
 canReset
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -359,14 +359,14 @@ manager
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 resetFirefox
 (
 )
 ;
-yield
+await
 dialogPromise
 ;
 tempProfile
@@ -378,7 +378,7 @@ false
 ;
 canReset
 =
-yield
+await
 getConfigurationPromise
 (
 "

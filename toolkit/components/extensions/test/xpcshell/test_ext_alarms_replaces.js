@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_duplicate_alarm_name_replaces_alarm
 (
 )
@@ -337,14 +337,14 @@ alarms
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -356,7 +356,7 @@ duplicate
 "
 )
 ;
-yield
+await
 extension
 .
 unload

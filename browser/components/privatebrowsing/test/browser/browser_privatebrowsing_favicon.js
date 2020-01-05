@@ -1157,8 +1157,8 @@ observer
 )
 ;
 }
+async
 function
-*
 assignCookies
 (
 aBrowser
@@ -1169,14 +1169,14 @@ aCookieValue
 let
 tabInfo
 =
-yield
+await
 openTab
 (
 aBrowser
 aURL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1185,8 +1185,8 @@ tabInfo
 .
 browser
 aCookieValue
+async
 function
-*
 (
 value
 )
@@ -1202,7 +1202,7 @@ value
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1213,8 +1213,8 @@ tab
 )
 ;
 }
+async
 function
-*
 openTab
 (
 aBrowser
@@ -1267,7 +1267,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1390,8 +1390,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_favicon_privateBrowsing
 (
 )
@@ -1419,7 +1419,7 @@ favicons
 in
 Places
 .
-yield
+await
 clearAllPlacesFavicons
 (
 )
@@ -1435,7 +1435,7 @@ window
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1524,7 +1524,7 @@ cookie
 into
 it
 .
-yield
+await
 assignCookies
 (
 privateWindow
@@ -1554,7 +1554,7 @@ cookie
 into
 it
 .
-yield
+await
 assignCookies
 (
 gBrowser
@@ -1608,7 +1608,7 @@ window
 let
 tabInfo
 =
-yield
+await
 openTab
 (
 privateWindow
@@ -1627,7 +1627,7 @@ are
 all
 made
 .
-yield
+await
 promiseObserveFavicon
 ;
 /
@@ -1636,7 +1636,7 @@ Close
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1689,7 +1689,7 @@ window
 .
 tabInfo
 =
-yield
+await
 openTab
 (
 gBrowser
@@ -1706,7 +1706,7 @@ are
 all
 made
 .
-yield
+await
 promiseObserveFavicon
 ;
 /
@@ -1715,7 +1715,7 @@ Close
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1725,7 +1725,7 @@ tabInfo
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1738,8 +1738,8 @@ privateWindow
 ;
 add_task
 (
+async
 function
-*
 test_favicon_cache_privateBrowsing
 (
 )
@@ -1805,7 +1805,7 @@ favicons
 in
 Places
 .
-yield
+await
 clearAllPlacesFavicons
 (
 )
@@ -1849,7 +1849,7 @@ window
 let
 tabInfoNonPrivate
 =
-yield
+await
 openTab
 (
 gBrowser
@@ -1859,13 +1859,13 @@ TEST_CACHE_PAGE
 let
 response
 =
-yield
+await
 waitOnFaviconResponse
 (
 FAVICON_CACHE_URI
 )
 ;
-yield
+await
 promiseFaviconLoaded
 ;
 /
@@ -1950,7 +1950,7 @@ window
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1975,7 +1975,7 @@ window
 let
 tabInfoPrivate
 =
-yield
+await
 openTab
 (
 privateWindow
@@ -1998,7 +1998,7 @@ tab
 .
 response
 =
-yield
+await
 waitOnFaviconResponse
 (
 FAVICON_CACHE_URI
@@ -2071,7 +2071,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2081,7 +2081,7 @@ tabInfoPrivate
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2091,7 +2091,7 @@ tabInfoNonPrivate
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

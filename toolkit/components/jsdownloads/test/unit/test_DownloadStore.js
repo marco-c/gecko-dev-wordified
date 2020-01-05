@@ -288,8 +288,8 @@ them
 /
 add_task
 (
+async
 function
-*
 test_save_reload
 (
 )
@@ -300,7 +300,7 @@ listForSave
 storeForSave
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -311,7 +311,7 @@ listForLoad
 storeForLoad
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 storeForSave
@@ -323,7 +323,7 @@ listForSave
 .
 add
 (
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -341,7 +341,7 @@ listForSave
 .
 add
 (
-yield
+await
 Downloads
 .
 createDownload
@@ -391,7 +391,7 @@ succeeds
 let
 pdfDownload
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -467,7 +467,7 @@ sessions
 let
 adjustedDownload
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -517,12 +517,12 @@ adjustedDownload
 let
 legacyDownload
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
 ;
-yield
+await
 legacyDownload
 .
 cancel
@@ -536,14 +536,14 @@ add
 legacyDownload
 )
 ;
-yield
+await
 storeForSave
 .
 save
 (
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -582,7 +582,7 @@ pdfDownload
 let
 itemsForSave
 =
-yield
+await
 listForSave
 .
 getAll
@@ -592,7 +592,7 @@ getAll
 let
 itemsForLoad
 =
-yield
+await
 listForLoad
 .
 getAll
@@ -776,8 +776,8 @@ file
 /
 add_task
 (
+async
 function
-*
 test_save_empty
 (
 )
@@ -787,7 +787,7 @@ let
 store
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -795,7 +795,7 @@ promiseNewListAndStore
 let
 createdFile
 =
-yield
+await
 OS
 .
 File
@@ -812,14 +812,14 @@ true
 }
 )
 ;
-yield
+await
 createdFile
 .
 close
 (
 )
 ;
-yield
+await
 store
 .
 save
@@ -828,7 +828,7 @@ save
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -855,7 +855,7 @@ not
 generate
 exceptions
 .
-yield
+await
 store
 .
 save
@@ -886,8 +886,8 @@ list
 /
 add_task
 (
+async
 function
-*
 test_load_empty
 (
 )
@@ -898,14 +898,14 @@ list
 store
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -918,7 +918,7 @@ path
 )
 )
 ;
-yield
+await
 store
 .
 load
@@ -928,7 +928,7 @@ load
 let
 items
 =
-yield
+await
 list
 .
 getAll
@@ -995,8 +995,8 @@ platform
 /
 add_task
 (
+async
 function
-*
 test_load_string_predefined
 (
 )
@@ -1007,7 +1007,7 @@ list
 store
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -1184,7 +1184,7 @@ filePathLiteral
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1217,7 +1217,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1227,7 +1227,7 @@ load
 let
 items
 =
-yield
+await
 list
 .
 getAll
@@ -1345,8 +1345,8 @@ data
 /
 add_task
 (
+async
 function
-*
 test_load_string_unrecognized
 (
 )
@@ -1357,7 +1357,7 @@ list
 store
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -1515,7 +1515,7 @@ copy
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1548,7 +1548,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1558,7 +1558,7 @@ load
 let
 items
 =
-yield
+await
 list
 .
 getAll
@@ -1625,8 +1625,8 @@ string
 /
 add_task
 (
+async
 function
-*
 test_load_string_malformed
 (
 )
@@ -1637,7 +1637,7 @@ list
 store
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -1699,7 +1699,7 @@ blank
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1734,7 +1734,7 @@ tmp
 ;
 try
 {
-yield
+await
 store
 .
 load
@@ -1794,7 +1794,7 @@ thrown
 let
 items
 =
-yield
+await
 list
 .
 getAll
@@ -1841,8 +1841,8 @@ preserved
 /
 add_task
 (
+async
 function
-*
 test_save_reload_unknownProperties
 (
 )
@@ -1853,7 +1853,7 @@ listForSave
 storeForSave
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 )
@@ -1864,7 +1864,7 @@ listForLoad
 storeForLoad
 ]
 =
-yield
+await
 promiseNewListAndStore
 (
 storeForSave
@@ -1875,7 +1875,7 @@ path
 let
 download1
 =
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -1947,12 +1947,12 @@ download1
 let
 download2
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
 ;
-yield
+await
 download2
 .
 cancel
@@ -1988,7 +1988,7 @@ download2
 let
 download3
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -2072,14 +2072,14 @@ add
 download3
 )
 ;
-yield
+await
 storeForSave
 .
 save
 (
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -2089,7 +2089,7 @@ load
 let
 itemsForSave
 =
-yield
+await
 listForSave
 .
 getAll
@@ -2099,7 +2099,7 @@ getAll
 let
 itemsForLoad
 =
-yield
+await
 listForLoad
 .
 getAll

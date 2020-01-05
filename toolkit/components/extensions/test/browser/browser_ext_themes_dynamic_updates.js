@@ -353,13 +353,13 @@ color
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -389,8 +389,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_dynamic_theme_updates
 (
 )
@@ -510,7 +510,7 @@ updated
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -561,7 +561,7 @@ TEXT_COLOR_1
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -628,7 +628,7 @@ TEXT_COLOR_2
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -651,7 +651,7 @@ ACCENT_COLOR_2
 TEXT_COLOR_2
 )
 ;
-yield
+await
 extension
 .
 unload

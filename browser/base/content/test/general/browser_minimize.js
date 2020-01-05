@@ -29,8 +29,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -80,7 +80,7 @@ linkedBrowser
 docShellIsActive
 ;
 }
-yield
+await
 promiseWaitForCondition
 (
 waitForActive
@@ -110,7 +110,7 @@ minimize
 (
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 waitForInactive
@@ -140,7 +140,7 @@ restore
 (
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 waitForActive

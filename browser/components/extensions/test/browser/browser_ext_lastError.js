@@ -159,8 +159,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 testLastError
 (
 )
@@ -260,7 +260,7 @@ true
 }
 )
 ;
-yield
+await
 sendMessage
 (
 {
@@ -276,7 +276,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }
@@ -339,7 +339,7 @@ missing
 }
 )
 ;
-yield
+await
 sendMessage
 (
 {
@@ -352,7 +352,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

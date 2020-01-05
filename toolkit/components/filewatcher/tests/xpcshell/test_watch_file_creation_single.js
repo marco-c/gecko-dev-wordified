@@ -122,8 +122,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_watch_single_path_file_creation
 (
 )
@@ -187,7 +187,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -266,7 +266,7 @@ to
 start
 watching
 .
-yield
+await
 promiseAddPath
 (
 watcher
@@ -289,7 +289,7 @@ the
 watched
 directory
 .
-yield
+await
 OS
 .
 File
@@ -320,7 +320,7 @@ created
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -363,7 +363,7 @@ to
 unregister
 )
 .
-yield
+await
 promiseRemovePath
 (
 watcher
@@ -388,7 +388,7 @@ of
 its
 content
 .
-yield
+await
 OS
 .
 File

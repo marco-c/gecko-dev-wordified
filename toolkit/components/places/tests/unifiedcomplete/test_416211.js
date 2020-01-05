@@ -85,8 +85,8 @@ title
 /
 add_task
 (
+async
 function
-*
 test_tag_match_has_bookmark_title
 (
 )
@@ -123,7 +123,7 @@ theuri
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -139,7 +139,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -160,7 +160,7 @@ superTag
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -201,7 +201,7 @@ tag
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

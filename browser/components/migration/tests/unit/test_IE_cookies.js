@@ -28,8 +28,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -705,7 +705,7 @@ initially
 Migrate
 cookies
 .
-yield
+await
 promiseMigration
 (
 migrator

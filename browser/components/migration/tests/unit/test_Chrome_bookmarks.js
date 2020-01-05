@@ -24,8 +24,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -269,7 +269,7 @@ globals
 OS
 *
 /
-yield
+await
 OS
 .
 File
@@ -302,7 +302,7 @@ Bookmarks
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -583,7 +583,7 @@ children
 ;
 }
 }
-yield
+await
 OS
 .
 File
@@ -759,7 +759,7 @@ Default
 "
 }
 ;
-yield
+await
 promiseMigration
 (
 migrator

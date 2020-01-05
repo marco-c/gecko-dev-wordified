@@ -43,8 +43,8 @@ msg
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -72,7 +72,7 @@ url
 selection
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -81,7 +81,7 @@ gBrowser
 url
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -102,7 +102,7 @@ the
 content
 area
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -112,8 +112,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 arg
 )
@@ -1253,7 +1253,7 @@ testid
 let
 menuPosition
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1264,8 +1264,8 @@ selectedBrowser
 {
 testid
 }
+async
 function
-*
 (
 arg
 )
@@ -1360,7 +1360,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtPoint
@@ -1388,7 +1388,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 checks
@@ -1417,7 +1417,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

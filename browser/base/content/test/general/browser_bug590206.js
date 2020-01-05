@@ -124,8 +124,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 test_webpage
 (
 )
@@ -140,7 +140,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 "
@@ -229,8 +229,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_blank
 (
 )
@@ -245,7 +245,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 "
@@ -327,8 +327,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_chrome
 (
 )
@@ -343,7 +343,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 "
@@ -435,8 +435,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_https
 (
 )
@@ -451,7 +451,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 "
@@ -540,8 +540,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_addons
 (
 )
@@ -556,7 +556,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 "
@@ -638,8 +638,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_file
 (
 )
@@ -663,7 +663,7 @@ getTestFilePath
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 fileURI
@@ -741,8 +741,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_resource_uri
 (
 )
@@ -774,7 +774,7 @@ jsm
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 dataURI
@@ -852,8 +852,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_data_uri
 (
 )
@@ -879,7 +879,7 @@ hi
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 dataURI
@@ -957,8 +957,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 test_about_uri
 (
 )
@@ -981,7 +981,7 @@ robots
 let
 newTab
 =
-yield
+await
 loadNewTab
 (
 aboutURI

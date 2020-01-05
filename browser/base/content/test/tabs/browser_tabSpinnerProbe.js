@@ -335,8 +335,8 @@ FX_TAB_SWITCH_SPINNER_VISIBLE_MS
 FX_TAB_SWITCH_SPINNER_VISIBLE_LONG_MS
 *
 /
+async
 function
-*
 testProbe
 (
 aProbe
@@ -480,7 +480,7 @@ makeDataURI
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -521,8 +521,8 @@ tab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -540,7 +540,7 @@ hang
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -558,7 +558,7 @@ snapshot
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -566,7 +566,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -599,13 +599,13 @@ bucket
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv

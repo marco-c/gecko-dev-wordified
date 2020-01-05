@@ -72,8 +72,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_installedresourceicon
 (
 )
@@ -84,7 +84,7 @@ engine1
 engine2
 ]
 =
-yield
+await
 addTestEngines
 (
 [

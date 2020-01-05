@@ -284,8 +284,8 @@ extension
 }
 add_tasks
 (
+async
 function
-*
 test_inline_options
 (
 extraOptions
@@ -312,7 +312,7 @@ extraOptions
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -333,7 +333,7 @@ com
 let
 extension
 =
-yield
+await
 loadExtension
 (
 Object
@@ -1180,7 +1180,7 @@ ui
 )
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1192,14 +1192,14 @@ ui
 "
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1212,8 +1212,8 @@ tab
 ;
 add_tasks
 (
+async
 function
-*
 test_tab_options
 (
 extraOptions
@@ -1242,7 +1242,7 @@ extraOptions
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1263,7 +1263,7 @@ com
 let
 extension
 =
-yield
+await
 loadExtension
 (
 Object
@@ -2149,7 +2149,7 @@ tab
 )
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -2163,14 +2163,14 @@ tab
 "
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

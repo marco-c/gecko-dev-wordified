@@ -115,8 +115,8 @@ fail
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -146,7 +146,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -266,7 +266,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -384,7 +384,7 @@ correctly
 let
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -431,7 +431,7 @@ correctly
 "
 )
 ;
-yield
+await
 openedFile
 .
 close
@@ -450,7 +450,7 @@ again
 "
 )
 ;
-yield
+await
 openedFile
 .
 close
@@ -490,8 +490,8 @@ exist
 /
 add_task
 (
+async
 function
-*
 test_error_attributes
 (
 )
@@ -534,7 +534,7 @@ txt
 ;
 try
 {
-yield
+await
 OS
 .
 File

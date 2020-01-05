@@ -770,8 +770,8 @@ updateData
 )
 ;
 }
+async
 function
-*
 test_install_broken
 (
 file
@@ -795,7 +795,7 @@ file
 let
 install
 =
-yield
+await
 createInstall
 (
 "
@@ -814,7 +814,7 @@ file
 leafName
 )
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -863,8 +863,8 @@ null
 )
 ;
 }
+async
 function
-*
 test_install_working
 (
 file
@@ -888,7 +888,7 @@ file
 let
 install
 =
-yield
+await
 createInstall
 (
 "
@@ -907,7 +907,7 @@ file
 leafName
 )
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -966,8 +966,8 @@ uninstall
 )
 ;
 }
+async
 function
-*
 test_update_broken
 (
 file
@@ -981,7 +981,7 @@ install
 the
 older
 version
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1018,7 +1018,7 @@ leafName
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1027,7 +1027,7 @@ ID
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -1040,7 +1040,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1108,8 +1108,8 @@ uninstall
 )
 ;
 }
+async
 function
-*
 test_update_working
 (
 file
@@ -1123,7 +1123,7 @@ install
 the
 older
 version
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1160,7 +1160,7 @@ leafName
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1169,7 +1169,7 @@ ID
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -1182,7 +1182,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1301,8 +1301,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1323,7 +1323,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1344,8 +1344,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1366,7 +1366,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1387,8 +1387,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1409,7 +1409,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1443,8 +1443,8 @@ incorrect
 ID
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1462,7 +1462,7 @@ bootstrap
 badid
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1486,8 +1486,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1505,7 +1505,7 @@ bootstrap
 unsigned
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1530,8 +1530,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1549,7 +1549,7 @@ bootstrap
 preliminary
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1573,8 +1573,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1592,7 +1592,7 @@ bootstrap
 signed
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1622,8 +1622,8 @@ Extensions
 OU
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1673,7 +1673,7 @@ bootstrap
 privileged
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1707,8 +1707,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1729,7 +1729,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1750,8 +1750,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1772,7 +1772,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1793,8 +1793,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1815,7 +1815,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1850,8 +1850,8 @@ incorrect
 ID
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1869,7 +1869,7 @@ bootstrap
 badid
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1894,8 +1894,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1913,7 +1913,7 @@ bootstrap
 unsigned
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1939,8 +1939,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1958,7 +1958,7 @@ bootstrap
 preliminary
 )
 ;
-yield
+await
 test_update_working
 (
 file
@@ -1983,8 +1983,8 @@ add
 on
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2002,7 +2002,7 @@ bootstrap
 signed
 )
 ;
-yield
+await
 test_update_working
 (
 file

@@ -450,8 +450,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -594,7 +594,7 @@ finalize
 }
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -630,7 +630,7 @@ json
 file
 try
 {
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -688,7 +688,7 @@ validate
 /
 clean
 up
-yield
+await
 OS
 .
 File

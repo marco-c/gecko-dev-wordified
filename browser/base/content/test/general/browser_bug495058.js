@@ -48,8 +48,8 @@ privatebrowsing
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +70,7 @@ addTab
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -91,7 +91,7 @@ replaceTabWithWindow
 tab
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -169,7 +169,7 @@ linkedBrowser
 isRemoteBrowser
 )
 {
-yield
+await
 BrowserTestUtils
 .
 waitForContentEvent
@@ -185,7 +185,7 @@ MozAfterPaint
 }
 else
 {
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -288,7 +288,7 @@ present
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

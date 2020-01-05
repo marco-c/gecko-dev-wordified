@@ -206,8 +206,8 @@ extension
 }
 add_task
 (
+async
 function
-*
 testMissingDefaultLocale
 (
 )
@@ -215,7 +215,7 @@ testMissingDefaultLocale
 let
 extension
 =
-yield
+await
 generateAddon
 (
 {
@@ -255,7 +255,7 @@ reported
 "
 )
 ;
-yield
+await
 extension
 .
 initAllLocales
@@ -325,8 +325,8 @@ error
 ;
 add_task
 (
+async
 function
-*
 testInvalidDefaultLocale
 (
 )
@@ -334,7 +334,7 @@ testInvalidDefaultLocale
 let
 extension
 =
-yield
+await
 generateAddon
 (
 {
@@ -434,7 +434,7 @@ error
 "
 )
 ;
-yield
+await
 extension
 .
 initAllLocales
@@ -504,8 +504,8 @@ error
 ;
 add_task
 (
+async
 function
-*
 testUnexpectedDefaultLocale
 (
 )
@@ -513,7 +513,7 @@ testUnexpectedDefaultLocale
 let
 extension
 =
-yield
+await
 generateAddon
 (
 {
@@ -597,7 +597,7 @@ error
 "
 )
 ;
-yield
+await
 extension
 .
 initAllLocales
@@ -667,8 +667,8 @@ error
 ;
 add_task
 (
+async
 function
-*
 testInvalidSyntax
 (
 )
@@ -676,7 +676,7 @@ testInvalidSyntax
 let
 extension
 =
-yield
+await
 generateAddon
 (
 {
@@ -796,7 +796,7 @@ error
 "
 )
 ;
-yield
+await
 extension
 .
 initAllLocales

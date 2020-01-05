@@ -112,8 +112,8 @@ data
 /
 add_task
 (
+async
 function
-*
 test_basic_functionality
 (
 )
@@ -174,7 +174,7 @@ Wait
 for
 focus
 first
-yield
+await
 promiseFocus
 (
 )
@@ -195,7 +195,7 @@ didn
 t
 finish
 .
-yield
+await
 task_resetState
 (
 )
@@ -257,7 +257,7 @@ by
 this
 test
 .
-yield
+await
 task_addDownloads
 (
 DownloadData
@@ -278,7 +278,7 @@ be
 fully
 loaded
 .
-yield
+await
 task_openPanel
 (
 )

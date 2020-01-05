@@ -298,13 +298,13 @@ ID
 fails
 add_task
 (
+async
 function
-*
 test_update_new_id
 (
 )
 {
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -318,7 +318,7 @@ test_updateid1
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -352,7 +352,7 @@ version
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -408,7 +408,7 @@ existingAddon
 addon
 )
 ;
-yield
+await
 Assert
 .
 rejects

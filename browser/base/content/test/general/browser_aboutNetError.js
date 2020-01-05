@@ -147,8 +147,8 @@ nsISessionStore
 ;
 add_task
 (
+async
 function
-*
 checkReturnToPreviousPage
 (
 )
@@ -187,7 +187,7 @@ browser
 let
 pageLoaded
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -241,7 +241,7 @@ error
 "
 )
 ;
-yield
+await
 pageLoaded
 ;
 /
@@ -285,15 +285,15 @@ in
 different
 processes
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 LOW_TLS_VERSION
+async
 function
-*
 (
 LOW_TLS_VERSION_
 )
@@ -398,7 +398,7 @@ click
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -430,7 +430,7 @@ page
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -82,8 +82,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 flush_on_tabclose
 (
 )
@@ -91,7 +91,7 @@ flush_on_tabclose
 let
 tab
 =
-yield
+await
 createTabWithStorageData
 (
 [
@@ -114,7 +114,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -131,7 +131,7 @@ close
 }
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -226,8 +226,8 @@ tab
 /
 add_task
 (
+async
 function
-*
 flush_on_duplicate
 (
 )
@@ -235,7 +235,7 @@ flush_on_duplicate
 let
 tab
 =
-yield
+await
 createTabWithStorageData
 (
 [
@@ -258,7 +258,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -284,13 +284,13 @@ window
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2
@@ -392,8 +392,8 @@ closed
 /
 add_task
 (
+async
 function
-*
 flush_on_windowclose
 (
 )
@@ -401,7 +401,7 @@ flush_on_windowclose
 let
 win
 =
-yield
+await
 promiseNewWindow
 (
 )
@@ -409,7 +409,7 @@ promiseNewWindow
 let
 tab
 =
-yield
+await
 createTabWithStorageData
 (
 [
@@ -433,7 +433,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -450,7 +450,7 @@ close
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -559,8 +559,8 @@ data
 /
 add_task
 (
+async
 function
-*
 flush_on_settabstate
 (
 )
@@ -568,7 +568,7 @@ flush_on_settabstate
 let
 tab
 =
-yield
+await
 createTabWithStorageData
 (
 [
@@ -607,7 +607,7 @@ to
 -
 date
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -625,7 +625,7 @@ getTabState
 tab
 )
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -670,7 +670,7 @@ flush
 browser
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -780,8 +780,8 @@ yet
 /
 add_task
 (
+async
 function
-*
 flush_on_tabclose_racy
 (
 )
@@ -789,7 +789,7 @@ flush_on_tabclose_racy
 let
 tab
 =
-yield
+await
 createTabWithStorageData
 (
 [
@@ -825,7 +825,7 @@ an
 empty
 queue
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -833,7 +833,7 @@ flush
 browser
 )
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -878,7 +878,7 @@ flush
 browser
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

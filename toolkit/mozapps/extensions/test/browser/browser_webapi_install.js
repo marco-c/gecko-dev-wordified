@@ -138,13 +138,13 @@ true
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -292,8 +292,8 @@ event
 is
 triggered
 .
+async
 function
-*
 testInstall
 (
 browser
@@ -305,7 +305,7 @@ description
 let
 success
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -315,8 +315,8 @@ browser
 args
 steps
 }
+async
 function
-*
 (
 opts
 )
@@ -332,7 +332,7 @@ opts
 let
 install
 =
-yield
+await
 content
 .
 navigator
@@ -350,7 +350,7 @@ if
 install
 )
 {
-yield
+await
 Promise
 .
 reject
@@ -394,7 +394,7 @@ STATE_AVAILABLE
 "
 )
 {
-yield
+await
 Promise
 .
 reject
@@ -420,7 +420,7 @@ error
 null
 )
 {
-yield
+await
 Promise
 .
 reject
@@ -852,7 +852,7 @@ install
 {
 try
 {
-yield
+await
 install
 .
 install
@@ -924,7 +924,7 @@ cancel
 "
 )
 {
-yield
+await
 install
 .
 cancel
@@ -951,7 +951,7 @@ action
 }
 else
 {
-yield
+await
 expectEvent
 (
 nextStep
@@ -985,8 +985,8 @@ task
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -1072,7 +1072,7 @@ waitForClear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1081,7 +1081,7 @@ TESTPAGE
 task
 )
 ;
-yield
+await
 clearPromise
 ;
 is
@@ -1115,8 +1115,8 @@ what
 return
 makeInstallTest
 (
+async
 function
-*
 (
 browser
 )
@@ -1230,7 +1230,7 @@ installed
 "
 )
 ;
-yield
+await
 testInstall
 (
 browser
@@ -1239,7 +1239,7 @@ steps
 what
 )
 ;
-yield
+await
 promptPromise
 ;
 let
@@ -1323,7 +1323,7 @@ AddonInstall
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1345,7 +1345,7 @@ addon
 "
 )
 ;
-yield
+await
 addons
 [
 0
@@ -1357,7 +1357,7 @@ uninstall
 ;
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1474,8 +1474,8 @@ add_task
 (
 makeInstallTest
 (
+async
 function
-*
 (
 browser
 )
@@ -1512,7 +1512,7 @@ null
 }
 ]
 ;
-yield
+await
 testInstall
 (
 browser
@@ -1533,7 +1533,7 @@ works
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1585,8 +1585,8 @@ add_task
 (
 makeInstallTest
 (
+async
 function
-*
 (
 browser
 )
@@ -1651,7 +1651,7 @@ ERROR_NETWORK_FAILURE
 }
 ]
 ;
-yield
+await
 testInstall
 (
 browser
@@ -1678,7 +1678,7 @@ fails
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1730,8 +1730,8 @@ add_task
 (
 makeInstallTest
 (
+async
 function
-*
 (
 browser
 )
@@ -1796,7 +1796,7 @@ ERROR_INCORRECT_HASH
 }
 ]
 ;
-yield
+await
 testInstall
 (
 browser
@@ -1825,7 +1825,7 @@ fails
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1875,8 +1875,8 @@ AddonInstall
 ;
 add_task
 (
+async
 function
-*
 test_permissions
 (
 )
@@ -1895,8 +1895,8 @@ BrowserTestUtils
 withNewTab
 (
 TESTPAGE
+async
 function
-*
 (
 browser
 )
@@ -1904,7 +1904,7 @@ browser
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -2049,7 +2049,7 @@ successMessage
 )
 ;
 }
-yield
+await
 testBadUrl
 (
 "
@@ -2072,7 +2072,7 @@ fails
 "
 )
 ;
-yield
+await
 testBadUrl
 (
 "

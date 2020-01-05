@@ -58,13 +58,13 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test_prefix_space_noautofill
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -112,7 +112,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -134,7 +134,7 @@ mo
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -144,13 +144,13 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_trailing_space_noautofill
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -198,7 +198,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -220,7 +220,7 @@ mo
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -230,8 +230,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_autofill
 (
 )
@@ -347,7 +347,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -377,7 +377,7 @@ search
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -387,8 +387,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_prefix_space_noautofill
 (
 )
@@ -505,7 +505,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -527,7 +527,7 @@ cu
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -537,8 +537,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_trailing_space_noautofill
 (
 )
@@ -655,7 +655,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -677,7 +677,7 @@ ba
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -687,8 +687,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_www_noautofill
 (
 )
@@ -808,7 +808,7 @@ t
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -836,7 +836,7 @@ ham
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -846,8 +846,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_different_scheme_noautofill
 (
 )
@@ -964,7 +964,7 @@ scheme
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -998,7 +998,7 @@ pie
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1008,8 +1008,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_searchEngine_matching_prefix_autofill
 (
 )
@@ -1126,7 +1126,7 @@ prefix
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1186,7 +1186,7 @@ prefix
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1239,7 +1239,7 @@ scheme
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1279,7 +1279,7 @@ search
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1289,13 +1289,13 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_prefix_autofill
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1326,7 +1326,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1379,7 +1379,7 @@ immediately
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1412,7 +1412,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

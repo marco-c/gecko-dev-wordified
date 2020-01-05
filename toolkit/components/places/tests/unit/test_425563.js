@@ -111,8 +111,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -268,7 +268,7 @@ for
 each
 transition
 type
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -517,7 +517,7 @@ count_visited_URIs
 {
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri
@@ -538,7 +538,7 @@ notcount_visited_URIs
 {
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri

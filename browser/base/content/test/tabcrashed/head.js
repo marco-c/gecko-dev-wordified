@@ -184,12 +184,9 @@ expectedExtra
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -212,7 +209,7 @@ let
 subject
 ]
 =
-yield
+await
 TestUtils
 .
 topicObserved
@@ -548,6 +545,8 @@ key
 }
 }
 }
+)
+(
 )
 ;
 }

@@ -24,27 +24,6 @@ jsm
 "
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 /
 *
 *
@@ -103,8 +82,8 @@ names
 .
 add_task
 (
+async
 function
-*
 test_nonproto
 (
 )
@@ -143,7 +122,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -208,7 +187,7 @@ modDate
 4000
 ;
 {
-yield
+await
 OS
 .
 File
@@ -223,7 +202,7 @@ modDate
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -289,7 +268,7 @@ differences
 )
 .
 {
-yield
+await
 OS
 .
 File
@@ -303,7 +282,7 @@ accDate
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -371,7 +350,7 @@ differences
 )
 .
 {
-yield
+await
 OS
 .
 File
@@ -384,7 +363,7 @@ path
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -433,7 +412,7 @@ objects
 this
 time
 {
-yield
+await
 OS
 .
 File
@@ -456,7 +435,7 @@ modDate
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -527,7 +506,7 @@ NaN
 {
 try
 {
-yield
+await
 OS
 .
 File
@@ -564,7 +543,7 @@ ex
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -601,7 +580,7 @@ getTime
 }
 try
 {
-yield
+await
 OS
 .
 File
@@ -638,7 +617,7 @@ ex
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -675,7 +654,7 @@ getTime
 }
 try
 {
-yield
+await
 OS
 .
 File
@@ -711,7 +690,7 @@ ex
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -758,7 +737,7 @@ the
 temp
 file
 again
-yield
+await
 OS
 .
 File
@@ -785,8 +764,8 @@ handles
 .
 add_task
 (
+async
 function
-*
 test_proto
 (
 )
@@ -888,7 +867,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -908,7 +887,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -973,7 +952,7 @@ modDate
 4000
 ;
 {
-yield
+await
 fd
 .
 setDates
@@ -985,7 +964,7 @@ modDate
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1048,7 +1027,7 @@ differences
 )
 .
 {
-yield
+await
 fd
 .
 setDates
@@ -1059,7 +1038,7 @@ accDate
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1124,7 +1103,7 @@ differences
 )
 .
 {
-yield
+await
 fd
 .
 setDates
@@ -1134,7 +1113,7 @@ setDates
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1180,7 +1159,7 @@ objects
 this
 time
 {
-yield
+await
 fd
 .
 setDates
@@ -1200,7 +1179,7 @@ modDate
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1268,7 +1247,7 @@ NaN
 {
 try
 {
-yield
+await
 fd
 .
 setDates
@@ -1302,7 +1281,7 @@ ex
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1336,7 +1315,7 @@ getTime
 }
 try
 {
-yield
+await
 fd
 .
 setDates
@@ -1370,7 +1349,7 @@ ex
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1404,7 +1383,7 @@ getTime
 }
 try
 {
-yield
+await
 fd
 .
 setDates
@@ -1437,7 +1416,7 @@ ex
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -1474,7 +1453,7 @@ getTime
 }
 finally
 {
-yield
+await
 fd
 .
 close
@@ -1492,7 +1471,7 @@ the
 temp
 file
 again
-yield
+await
 OS
 .
 File
@@ -1516,8 +1495,8 @@ directories
 .
 add_task
 (
+async
 function
-*
 test_dirs
 (
 )
@@ -1543,7 +1522,7 @@ test_osfile_async_setDates_dir
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1603,7 +1582,7 @@ modDate
 4000
 ;
 {
-yield
+await
 OS
 .
 File
@@ -1618,7 +1597,7 @@ modDate
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -1656,7 +1635,7 @@ getTime
 }
 finally
 {
-yield
+await
 OS
 .
 File

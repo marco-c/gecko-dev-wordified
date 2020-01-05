@@ -212,8 +212,8 @@ reset
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -597,7 +597,7 @@ begin
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -619,7 +619,7 @@ to
 record
 visits
 .
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -635,10 +635,10 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 visitUriPromise
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

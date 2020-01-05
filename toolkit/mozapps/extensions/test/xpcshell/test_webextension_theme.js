@@ -180,8 +180,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 setup_to_default_browserish_state
 (
 )
@@ -278,7 +278,7 @@ maxVersion
 profileDir
 )
 ;
-yield
+await
 promiseWriteWebManifestForExtension
 (
 {
@@ -599,7 +599,7 @@ t3
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 THEME_IDS
@@ -735,7 +735,7 @@ active
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -747,7 +747,7 @@ t3
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 THEME_IDS
@@ -891,8 +891,8 @@ switch
 to
 *
 /
+async
 function
-*
 setDisabledStateAndCheck
 (
 which
@@ -1055,7 +1055,7 @@ change
 let
 theme
 =
-yield
+await
 promiseAddonByID
 (
 which
@@ -1079,7 +1079,7 @@ for
 (
 theme
 of
-yield
+await
 promiseAddonsByIDs
 (
 THEME_IDS
@@ -1277,7 +1277,7 @@ active
 ;
 }
 }
-yield
+await
 promiseRestartManager
 (
 )
@@ -1301,7 +1301,7 @@ for
 (
 theme
 of
-yield
+await
 promiseAddonsByIDs
 (
 THEME_IDS
@@ -1431,8 +1431,8 @@ ensure_test_completed
 }
 add_task
 (
+async
 function
-*
 test_complete_themes
 (
 )
@@ -1444,8 +1444,7 @@ the
 complete
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1467,8 +1466,7 @@ the
 default
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1484,8 +1482,7 @@ Enable
 it
 again
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1506,8 +1503,7 @@ the
 active
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1526,8 +1522,7 @@ the
 WebExtension
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1541,8 +1536,8 @@ THEME_IDS
 ;
 add_task
 (
+async
 function
-*
 test_WebExtension_themes
 (
 )
@@ -1554,8 +1549,7 @@ the
 WebExtension
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1575,8 +1569,7 @@ the
 default
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1592,8 +1585,7 @@ Enable
 it
 again
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1613,8 +1605,7 @@ the
 active
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1632,8 +1623,7 @@ disable
 the
 LWT
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1647,8 +1637,8 @@ THEME_IDS
 ;
 add_task
 (
+async
 function
-*
 test_LWTs
 (
 )
@@ -1661,8 +1651,7 @@ enabling
 an
 LWT
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1682,8 +1671,7 @@ the
 default
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1699,8 +1687,7 @@ Enable
 it
 again
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1721,8 +1708,7 @@ the
 active
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1740,8 +1726,7 @@ disable
 the
 LWT
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1755,8 +1740,8 @@ THEME_IDS
 ;
 add_task
 (
+async
 function
-*
 test_default_theme
 (
 )
@@ -1769,8 +1754,7 @@ the
 default
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 DEFAULT_THEME
@@ -1784,8 +1768,7 @@ the
 WebExtension
 theme
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 THEME_IDS
@@ -1800,8 +1783,7 @@ Enable
 it
 again
 .
-yield
-*
+await
 setDisabledStateAndCheck
 (
 DEFAULT_THEME

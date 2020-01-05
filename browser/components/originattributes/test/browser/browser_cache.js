@@ -1089,8 +1089,8 @@ different
 test
 runs
 .
+async
 function
-*
 doTest
 (
 aBrowser
@@ -1108,15 +1108,15 @@ TEST_DOMAIN
 TEST_PATH
 }
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 aBrowser
 argObj
+async
 function
-*
 (
 arg
 )
@@ -1263,7 +1263,7 @@ they
 re
 finished
 .
-yield
+await
 new
 Promise
 (
@@ -1497,7 +1497,7 @@ it
 s
 finished
 .
-yield
+await
 new
 Promise
 (

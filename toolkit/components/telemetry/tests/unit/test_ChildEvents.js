@@ -486,8 +486,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -542,7 +542,7 @@ PREF_TELEMETRY_ENABLED
 true
 )
 ;
-yield
+await
 TelemetryController
 .
 testSetup
@@ -565,7 +565,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -633,7 +633,7 @@ js
 "
 )
 ;
-yield
+await
 do_await_remote_message
 (
 MESSAGE_CHILD_TEST_DONE
@@ -684,7 +684,7 @@ the
 parent
 process
 .
-yield
+await
 waitForContentEvents
 (
 )

@@ -298,13 +298,13 @@ opacity
 }
 add_task
 (
+async
 function
-*
 testNormalBrowsing
 (
 )
 {
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -452,7 +452,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -505,7 +505,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -549,8 +549,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsing
 (
 )
@@ -558,7 +558,7 @@ testPrivateBrowsing
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -712,7 +712,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -773,7 +773,7 @@ click
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab

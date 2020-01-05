@@ -111,8 +111,8 @@ sandbox
 }
 add_task
 (
+async
 function
-*
 test_post_unload_promises
 (
 )
@@ -198,7 +198,7 @@ catch
 )
 ]
 ;
-yield
+await
 Promise
 .
 all
@@ -313,7 +313,7 @@ resolution
 handlers
 above
 .
-yield
+await
 new
 Promise
 (
@@ -332,8 +332,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_post_unload_listeners
 (
 )
@@ -533,7 +533,7 @@ normally
 be
 called
 .
-yield
+await
 promise
 ;
 /
@@ -690,7 +690,7 @@ resolution
 handlers
 above
 .
-yield
+await
 new
 Promise
 (
@@ -847,8 +847,8 @@ json
 sandbox
 add_task
 (
+async
 function
-*
 test_stringify_toJSON
 (
 )
@@ -951,8 +951,8 @@ property
 throws
 add_task
 (
+async
 function
-*
 test_stringify_inaccessible
 (
 )
@@ -1054,8 +1054,8 @@ obj
 ;
 add_task
 (
+async
 function
-*
 test_stringify_accessible
 (
 )

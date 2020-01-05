@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ protocol
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -156,7 +156,7 @@ dots
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -309,7 +309,7 @@ dots
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -420,7 +420,7 @@ dots
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -531,7 +531,7 @@ dots
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -646,7 +646,7 @@ protocol
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -750,7 +750,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -858,7 +858,7 @@ url
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -897,7 +897,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -976,7 +976,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1022,7 +1022,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1122,7 +1122,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1185,7 +1185,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1295,7 +1295,7 @@ mozilla
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1364,7 +1364,7 @@ literal
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1434,7 +1434,7 @@ literal
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1577,7 +1577,7 @@ false
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1634,7 +1634,7 @@ false
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1699,7 +1699,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1760,7 +1760,7 @@ host
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1821,7 +1821,7 @@ port
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1883,7 +1883,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1935,7 +1935,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {

@@ -221,12 +221,9 @@ function
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -245,7 +242,7 @@ testCase
 desc
 )
 ;
-yield
+await
 testCase
 .
 run
@@ -254,6 +251,8 @@ run
 ;
 }
 }
+)
+(
 )
 .
 then
@@ -1582,8 +1581,8 @@ list
 "
 run
 :
+async
 function
-*
 checkLanguageExceptions
 (
 )
@@ -1662,7 +1661,7 @@ TranslationExceptions
 null
 )
 ;
-yield
+await
 waitForWindowLoad
 (
 win
@@ -2132,8 +2131,8 @@ list
 "
 run
 :
+async
 function
-*
 checkDomainExceptions
 (
 )
@@ -2251,7 +2250,7 @@ TranslationExceptions
 null
 )
 ;
-yield
+await
 waitForWindowLoad
 (
 win

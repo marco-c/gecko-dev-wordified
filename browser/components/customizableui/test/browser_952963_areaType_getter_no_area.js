@@ -184,8 +184,8 @@ areaTypes
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -382,13 +382,13 @@ kToolbarName
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

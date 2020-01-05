@@ -640,8 +640,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_tabsAndWindows
 (
 )
@@ -707,7 +707,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -807,7 +807,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -825,7 +825,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -901,7 +901,7 @@ tab
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -912,7 +912,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -932,7 +932,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -952,7 +952,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1016,7 +1016,7 @@ shouldn
 t
 change
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1073,7 +1073,7 @@ of
 openedTabs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1082,7 +1082,7 @@ tab
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1135,8 +1135,8 @@ totalUnfilteredURIs
 ;
 add_task
 (
+async
 function
-*
 test_subsessionSplit
 (
 )
@@ -1175,7 +1175,7 @@ tabs
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1192,7 +1192,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1212,7 +1212,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1232,7 +1232,7 @@ openedTabs
 .
 push
 (
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1337,7 +1337,7 @@ Remove
 a
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1487,7 +1487,7 @@ of
 openedTabs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1496,7 +1496,7 @@ tab
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1509,8 +1509,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 test_URIAndDomainCounts
 (
 )
@@ -1650,7 +1650,7 @@ total
 let
 firstTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1689,7 +1689,7 @@ check
 the
 counts
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1709,7 +1709,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1750,7 +1750,7 @@ count
 let
 secondTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1763,7 +1763,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -1787,7 +1787,7 @@ totalUnfilteredURIs
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1813,14 +1813,14 @@ address
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1842,7 +1842,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1893,7 +1893,7 @@ com
 r
 "
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2001,7 +2001,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -2025,7 +2025,7 @@ com
 "
 )
 ;
-yield
+await
 loadingStopped
 ;
 checkCounts
@@ -2064,7 +2064,7 @@ the
 unique
 count
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -2088,7 +2088,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -2131,7 +2131,7 @@ a
 different
 domain
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -2153,7 +2153,7 @@ org
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -2209,7 +2209,7 @@ embedded
 iframes
 )
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -2220,8 +2220,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -2288,7 +2288,7 @@ body
 firstChild
 )
 ;
-yield
+await
 promiseIframeLoaded
 ;
 }
@@ -2369,7 +2369,7 @@ a
 >
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -2382,7 +2382,7 @@ selectedBrowser
 TEST_PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -2414,7 +2414,7 @@ totalUnfilteredURIs
 Clean
 up
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2422,7 +2422,7 @@ removeTab
 firstTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

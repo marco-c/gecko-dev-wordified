@@ -81,8 +81,8 @@ overflow
 properly
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -148,7 +148,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -206,7 +206,7 @@ children
 let
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 )
@@ -225,7 +225,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -264,7 +264,7 @@ toolbar
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -280,7 +280,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -326,13 +326,13 @@ toolbar
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

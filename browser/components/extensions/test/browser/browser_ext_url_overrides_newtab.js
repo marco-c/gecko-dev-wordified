@@ -115,8 +115,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_multiple_extensions_overriding_newtab_page
 (
 )
@@ -236,7 +236,7 @@ NEWTAB_URI_3
 }
 )
 ;
-yield
+await
 ext1
 .
 startup
@@ -266,7 +266,7 @@ newtab
 "
 )
 ;
-yield
+await
 ext2
 .
 startup
@@ -297,7 +297,7 @@ extension
 "
 )
 ;
-yield
+await
 ext1
 .
 unload
@@ -329,7 +329,7 @@ extension
 "
 )
 ;
-yield
+await
 ext3
 .
 startup
@@ -361,7 +361,7 @@ extension
 "
 )
 ;
-yield
+await
 ext2
 .
 unload
@@ -392,7 +392,7 @@ extension
 "
 )
 ;
-yield
+await
 ext4
 .
 startup
@@ -423,7 +423,7 @@ extension
 "
 )
 ;
-yield
+await
 ext4
 .
 unload
@@ -454,7 +454,7 @@ extension
 "
 )
 ;
-yield
+await
 ext3
 .
 unload
@@ -489,8 +489,8 @@ newtab
 ;
 add_task
 (
+async
 function
-*
 test_sending_message_from_newtab_page
 (
 )
@@ -615,7 +615,7 @@ page
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -638,7 +638,7 @@ BrowserOpenTab
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -652,7 +652,7 @@ page
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -662,7 +662,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 extension
 .
 unload

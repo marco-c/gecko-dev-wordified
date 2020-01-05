@@ -48,8 +48,8 @@ gWrapperClickCount
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,8 +131,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -219,7 +219,7 @@ http
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -271,7 +271,7 @@ definitely
 executed
 afterwards
 .
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -285,7 +285,7 @@ state
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -332,7 +332,7 @@ plugins
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -340,8 +340,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -458,7 +458,7 @@ false
 }
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -468,7 +468,7 @@ plugin
 state
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -525,7 +525,7 @@ panel
 .
 firstChild
 ;
-yield
+await
 promiseForCondition
 (
 condition
@@ -550,7 +550,7 @@ plugin
 state
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

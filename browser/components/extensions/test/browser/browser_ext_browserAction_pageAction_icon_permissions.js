@@ -63,8 +63,8 @@ icon
 sizes
 add_task
 (
+async
 function
-*
 testInvalidIconSizes
 (
 )
@@ -472,7 +472,7 @@ size
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -498,7 +498,7 @@ size
 ]
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -529,8 +529,8 @@ correctly
 .
 add_task
 (
+async
 function
-*
 testDefaultDetails
 (
 )
@@ -839,7 +839,7 @@ imageBuffer
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -895,7 +895,7 @@ page
 action
 "
 ;
-yield
+await
 promiseAnimationFrame
 (
 )
@@ -975,7 +975,7 @@ expectedURL
 }
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1027,8 +1027,8 @@ fail
 .
 add_task
 (
+async
 function
-*
 testSecureURLsDenied
 (
 )
@@ -1232,14 +1232,14 @@ tests
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1251,7 +1251,7 @@ tests
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1263,8 +1263,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testSecureManifestURLsDenied
 (
 )
@@ -1452,7 +1452,7 @@ url
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1475,7 +1475,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

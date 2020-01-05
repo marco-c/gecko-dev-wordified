@@ -62,8 +62,8 @@ result
 ;
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -842,8 +842,8 @@ function
 ;
 add_task
 (
+async
 function
-*
 fetch_nonexistent_guid
 (
 )
@@ -851,7 +851,7 @@ fetch_nonexistent_guid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -895,8 +895,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 fetch_bookmark
 (
 )
@@ -904,7 +904,7 @@ fetch_bookmark
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -955,7 +955,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1102,7 +1102,7 @@ bookmark
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1119,8 +1119,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_bookmar_empty_title
 (
 )
@@ -1128,7 +1128,7 @@ fetch_bookmar_empty_title
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1177,7 +1177,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1226,7 +1226,7 @@ bm2
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1243,8 +1243,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_folder
 (
 )
@@ -1252,7 +1252,7 @@ fetch_folder
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1291,7 +1291,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1393,7 +1393,7 @@ bm2
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1410,8 +1410,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_folder_empty_title
 (
 )
@@ -1419,7 +1419,7 @@ fetch_folder_empty_title
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1456,7 +1456,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1505,7 +1505,7 @@ bm2
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1522,8 +1522,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_separator
 (
 )
@@ -1531,7 +1531,7 @@ fetch_separator
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1564,7 +1564,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1667,7 +1667,7 @@ bm2
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1684,8 +1684,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_byposition_nonexisting_parentGuid
 (
 )
@@ -1693,7 +1693,7 @@ fetch_byposition_nonexisting_parentGuid
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1740,8 +1740,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 fetch_byposition_nonexisting_index
 (
 )
@@ -1749,7 +1749,7 @@ fetch_byposition_nonexisting_index
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1798,8 +1798,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 fetch_byposition
 (
 )
@@ -1807,7 +1807,7 @@ fetch_byposition
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1858,7 +1858,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2019,8 +2019,8 @@ bookmark
 ;
 add_task
 (
+async
 function
-*
 fetch_byposition_default_index
 (
 )
@@ -2028,7 +2028,7 @@ fetch_byposition_default_index
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2080,7 +2080,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2239,7 +2239,7 @@ child
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2256,8 +2256,8 @@ guid
 ;
 add_task
 (
+async
 function
-*
 fetch_byurl_nonexisting
 (
 )
@@ -2265,7 +2265,7 @@ fetch_byurl_nonexisting
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2316,8 +2316,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 fetch_byurl
 (
 )
@@ -2325,7 +2325,7 @@ fetch_byurl
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2413,7 +2413,7 @@ Tag
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2557,7 +2557,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2603,7 +2603,7 @@ bookmark
 let
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2680,7 +2680,7 @@ bookmark
 should
 change
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2705,7 +2705,7 @@ title
 let
 bm5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

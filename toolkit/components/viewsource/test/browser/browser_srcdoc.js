@@ -79,8 +79,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -96,7 +96,7 @@ html
 source
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -111,8 +111,8 @@ checkFrameSource
 }
 )
 ;
+async
 function
-*
 checkFrameSource
 (
 )
@@ -120,7 +120,7 @@ checkFrameSource
 let
 sourceTab
 =
-yield
+await
 openViewFrameSourceTab
 (
 "
@@ -145,7 +145,7 @@ sourceTab
 }
 )
 ;
-yield
+await
 waitForSourceLoaded
 (
 sourceTab
@@ -161,7 +161,7 @@ selectedBrowser
 let
 textContent
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -169,8 +169,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -200,7 +200,7 @@ loaded
 let
 id
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -208,8 +208,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {

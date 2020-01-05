@@ -168,8 +168,8 @@ removeEmptyDir
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -233,7 +233,7 @@ test
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -252,7 +252,7 @@ non
 -
 existent
 directory
-yield
+await
 OS
 .
 File
@@ -271,7 +271,7 @@ existent
 directory
 with
 ignoreAbsent
-yield
+await
 OS
 .
 File
@@ -303,7 +303,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -359,7 +359,7 @@ becauseNoSuchFile
 Remove
 empty
 directory
-yield
+await
 OS
 .
 File
@@ -369,7 +369,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -382,7 +382,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File

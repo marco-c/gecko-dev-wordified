@@ -37,8 +37,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_closeTab
 (
 )
@@ -164,7 +164,7 @@ closeTab
 (
 )
 ;
-yield
+await
 closePromise
 ;
 gTestTab

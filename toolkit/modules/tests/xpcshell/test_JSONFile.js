@@ -420,8 +420,8 @@ prop2
 Tests
 add_task
 (
+async
 function
-*
 test_save_reload
 (
 )
@@ -444,7 +444,7 @@ path
 }
 )
 ;
-yield
+await
 storeForSave
 .
 load
@@ -477,7 +477,7 @@ data
 TEST_DATA
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -542,7 +542,7 @@ path
 }
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -564,8 +564,8 @@ TEST_DATA
 ;
 add_task
 (
+async
 function
-*
 test_load_sync
 (
 )
@@ -588,7 +588,7 @@ path
 }
 )
 ;
-yield
+await
 storeForSave
 .
 load
@@ -605,7 +605,7 @@ data
 TEST_DATA
 )
 ;
-yield
+await
 storeForSave
 .
 _save
@@ -648,8 +648,8 @@ TEST_DATA
 ;
 add_task
 (
+async
 function
-*
 test_load_with_dataPostProcessor
 (
 )
@@ -672,7 +672,7 @@ path
 }
 )
 ;
-yield
+await
 storeForSave
 .
 load
@@ -689,7 +689,7 @@ data
 TEST_DATA
 )
 ;
-yield
+await
 storeForSave
 .
 _save
@@ -746,7 +746,7 @@ data
 }
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -768,8 +768,8 @@ random
 ;
 add_task
 (
+async
 function
-*
 test_load_with_dataPostProcessor_fails
 (
 )
@@ -811,7 +811,7 @@ fails
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -841,8 +841,8 @@ dataReady
 ;
 add_task
 (
+async
 function
-*
 test_load_sync_with_dataPostProcessor_fails
 (
 )
@@ -954,8 +954,8 @@ loaded
 /
 add_task
 (
+async
 function
-*
 test_load_string_predefined
 (
 )
@@ -1026,7 +1026,7 @@ prop2
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1059,7 +1059,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1095,8 +1095,8 @@ string
 /
 add_task
 (
+async
 function
-*
 test_load_string_malformed
 (
 )
@@ -1158,7 +1158,7 @@ prop1
 1
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1191,7 +1191,7 @@ tmp
 }
 )
 ;
-yield
+await
 store
 .
 load
@@ -1210,7 +1210,7 @@ created
 .
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -1228,7 +1228,7 @@ corrupt
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1298,8 +1298,8 @@ path
 /
 add_task
 (
+async
 function
-*
 test_load_string_malformed_sync
 (
 )
@@ -1361,7 +1361,7 @@ prop1
 1
 "
 ;
-yield
+await
 OS
 .
 File
@@ -1412,7 +1412,7 @@ created
 .
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -1430,7 +1430,7 @@ corrupt
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1480,8 +1480,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 test_overwrite_data
 (
 )
@@ -1538,7 +1538,7 @@ prop2
 }
 }
 ;
-yield
+await
 OS
 .
 File
@@ -1606,7 +1606,7 @@ data
 TEST_DATA
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1671,7 +1671,7 @@ path
 }
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -1693,8 +1693,8 @@ TEST_DATA
 ;
 add_task
 (
+async
 function
-*
 test_beforeSave
 (
 )
@@ -1746,7 +1746,7 @@ saveSoon
 (
 )
 ;
-yield
+await
 promiseBeforeSave
 ;
 }
@@ -1754,8 +1754,8 @@ promiseBeforeSave
 ;
 add_task
 (
+async
 function
-*
 test_beforeSave_rejects
 (
 )
@@ -1855,7 +1855,7 @@ saveSoon
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1884,8 +1884,8 @@ oops
 ;
 add_task
 (
+async
 function
-*
 test_finalize
 (
 )
@@ -1936,7 +1936,7 @@ client
 }
 )
 ;
-yield
+await
 storeForSave
 .
 load
@@ -1964,7 +1964,7 @@ finalize
 (
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1982,7 +1982,7 @@ finalized
 /
 )
 ;
-yield
+await
 promiseFinalize
 ;
 do_check_false
@@ -2017,7 +2017,7 @@ been
 explicitly
 finalized
 .
-yield
+await
 barrier
 .
 wait
@@ -2035,7 +2035,7 @@ path
 }
 )
 ;
-yield
+await
 storeForLoad
 .
 load
@@ -2055,8 +2055,8 @@ TEST_DATA
 ;
 add_task
 (
+async
 function
-*
 test_finalize_on_shutdown
 (
 )
@@ -2107,7 +2107,7 @@ client
 }
 )
 ;
-yield
+await
 storeForSave
 .
 load
@@ -2144,7 +2144,7 @@ saveSoon
 (
 )
 ;
-yield
+await
 barrier
 .
 wait
@@ -2207,7 +2207,7 @@ changed
 if
 needed
 .
-yield
+await
 Assert
 .
 rejects
@@ -2243,7 +2243,7 @@ path
 }
 )
 ;
-yield
+await
 storeForLoad
 .
 load

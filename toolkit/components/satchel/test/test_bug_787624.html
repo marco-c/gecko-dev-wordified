@@ -452,8 +452,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_popup_not_move_input
 (
 )
@@ -478,7 +478,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -554,7 +554,7 @@ down
 "
 )
 ;
-yield
+await
 popupShown
 ;
 var

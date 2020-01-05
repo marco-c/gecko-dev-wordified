@@ -1068,8 +1068,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_savedsearches_history
 (
 )
@@ -1104,7 +1104,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1500,7 +1500,7 @@ that
 matches
 the
 query
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1556,7 +1556,7 @@ that
 matches
 the
 query
-yield
+await
 PlacesUtils
 .
 history

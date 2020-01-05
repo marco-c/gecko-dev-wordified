@@ -73,12 +73,12 @@ reflows
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -194,7 +194,7 @@ newtab
 "
 )
 ;
-yield
+await
 browserLoadedPromise
 ;
 /
@@ -212,7 +212,7 @@ page
 has
 loaded
 .
-yield
+await
 new
 Promise
 (

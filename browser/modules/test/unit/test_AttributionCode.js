@@ -539,8 +539,8 @@ com
 "
 ]
 ;
+async
 function
-*
 writeAttributionFile
 (
 data
@@ -597,7 +597,7 @@ AppConstants
 MOZ_APP_NAME
 )
 ;
-yield
+await
 OS
 .
 File
@@ -628,7 +628,7 @@ postSigningData
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -668,8 +668,8 @@ ones
 /
 add_task
 (
+async
 function
-*
 testValidAttrCodes
 (
 )
@@ -688,7 +688,7 @@ _clearCache
 (
 )
 ;
-yield
+await
 writeAttributionFile
 (
 entry
@@ -699,7 +699,7 @@ code
 let
 result
 =
-yield
+await
 AttributionCode
 .
 getAttrDataAsync
@@ -762,8 +762,8 @@ valid
 /
 add_task
 (
+async
 function
-*
 testInvalidAttrCodes
 (
 )
@@ -782,7 +782,7 @@ _clearCache
 (
 )
 ;
-yield
+await
 writeAttributionFile
 (
 code
@@ -791,7 +791,7 @@ code
 let
 result
 =
-yield
+await
 AttributionCode
 .
 getAttrDataAsync
@@ -856,8 +856,8 @@ code
 /
 add_task
 (
+async
 function
-*
 testDeletedFile
 (
 )
@@ -878,7 +878,7 @@ a
 valid
 file
 .
-yield
+await
 writeAttributionFile
 (
 validAttrCodes
@@ -892,7 +892,7 @@ code
 let
 result
 =
-yield
+await
 AttributionCode
 .
 getAttrDataAsync
@@ -941,7 +941,7 @@ back
 from
 cache
 .
-yield
+await
 AttributionCode
 .
 deleteFileAsync
@@ -950,7 +950,7 @@ deleteFileAsync
 ;
 result
 =
-yield
+await
 AttributionCode
 .
 getAttrDataAsync
@@ -1002,7 +1002,7 @@ _clearCache
 ;
 result
 =
-yield
+await
 AttributionCode
 .
 getAttrDataAsync

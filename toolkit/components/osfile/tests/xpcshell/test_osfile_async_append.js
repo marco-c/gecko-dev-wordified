@@ -32,27 +32,6 @@ jsm
 "
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 /
 *
 *
@@ -132,8 +111,8 @@ Test
 append
 mode
 .
+async
 function
-*
 test_append
 (
 mode
@@ -176,7 +155,7 @@ runs
 .
 try
 {
-yield
+await
 OS
 .
 File
@@ -240,7 +219,7 @@ trunc
 actually
 works
 .
-yield
+await
 OS
 .
 File
@@ -259,7 +238,7 @@ Uint8Array
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -272,7 +251,7 @@ mode
 ;
 try
 {
-yield
+await
 file
 .
 write
@@ -284,7 +263,7 @@ Uint8Array
 )
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -297,7 +276,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 read
@@ -316,7 +295,7 @@ length
 1000
 now
 .
-yield
+await
 file
 .
 write
@@ -342,7 +321,7 @@ now
 let
 stat
 =
-yield
+await
 file
 .
 stat
@@ -360,7 +339,7 @@ size
 }
 finally
 {
-yield
+await
 file
 .
 close
@@ -376,7 +355,7 @@ ex
 {
 try
 {
-yield
+await
 OS
 .
 File
@@ -411,8 +390,8 @@ no
 append
 mode
 .
+async
 function
-*
 test_no_append
 (
 mode
@@ -455,7 +434,7 @@ runs
 .
 try
 {
-yield
+await
 OS
 .
 File
@@ -519,7 +498,7 @@ trunc
 actually
 works
 .
-yield
+await
 OS
 .
 File
@@ -538,7 +517,7 @@ Uint8Array
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -551,7 +530,7 @@ mode
 ;
 try
 {
-yield
+await
 file
 .
 write
@@ -563,7 +542,7 @@ Uint8Array
 )
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -576,7 +555,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 read
@@ -595,7 +574,7 @@ length
 1000
 now
 .
-yield
+await
 file
 .
 write
@@ -621,7 +600,7 @@ now
 let
 stat
 =
-yield
+await
 file
 .
 stat
@@ -639,7 +618,7 @@ size
 }
 finally
 {
-yield
+await
 file
 .
 close
@@ -652,7 +631,7 @@ finally
 {
 try
 {
-yield
+await
 OS
 .
 File

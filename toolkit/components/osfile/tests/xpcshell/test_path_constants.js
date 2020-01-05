@@ -228,8 +228,8 @@ behavior
 .
 add_task
 (
+async
 function
-*
 test_before_after_profile
 (
 )
@@ -357,7 +357,7 @@ Path
 userApplicationDataDir
 )
 ;
-yield
+await
 makeFakeAppDir
 (
 )
@@ -397,8 +397,8 @@ simple
 paths
 add_task
 (
+async
 function
-*
 test_simple_paths
 (
 )
@@ -447,8 +447,8 @@ Desktop
 platforms
 add_task
 (
+async
 function
-*
 test_desktop_paths
 (
 )
@@ -633,8 +633,8 @@ Open
 libxul
 add_task
 (
+async
 function
-*
 test_libxul
 (
 )

@@ -988,8 +988,8 @@ observer
 )
 ;
 }
+async
 function
-*
 generateCookies
 (
 aHost
@@ -1063,7 +1063,7 @@ work
 let
 tabInfoA
 =
-yield
+await
 openTabInUserContext
 (
 aHost
@@ -1073,14 +1073,14 @@ USER_CONTEXT_ID_PERSONAL
 let
 tabInfoB
 =
-yield
+await
 openTabInUserContext
 (
 aHost
 USER_CONTEXT_ID_WORK
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1092,8 +1092,8 @@ cookies
 [
 0
 ]
+async
 function
-*
 (
 value
 )
@@ -1109,7 +1109,7 @@ value
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1121,8 +1121,8 @@ cookies
 [
 1
 ]
+async
 function
-*
 (
 value
 )
@@ -1138,7 +1138,7 @@ value
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1148,7 +1148,7 @@ tabInfoA
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1162,8 +1162,8 @@ return
 cookies
 ;
 }
+async
 function
-*
 doTest
 (
 aTestPage
@@ -1174,7 +1174,7 @@ aFaviconURL
 let
 cookies
 =
-yield
+await
 generateCookies
 (
 aFaviconHost
@@ -1271,7 +1271,7 @@ container
 let
 tabInfo
 =
-yield
+await
 openTabInUserContext
 (
 aTestPage
@@ -1288,7 +1288,7 @@ are
 all
 made
 .
-yield
+await
 observer
 .
 promise
@@ -1300,7 +1300,7 @@ for
 favicon
 loaded
 .
-yield
+await
 promiseWaitOnFaviconLoaded
 ;
 /
@@ -1309,7 +1309,7 @@ Close
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1347,7 +1347,7 @@ aFaviconURL
 ;
 tabInfo
 =
-yield
+await
 openTabInUserContext
 (
 aTestPage
@@ -1364,7 +1364,7 @@ are
 all
 made
 .
-yield
+await
 observer
 .
 promise
@@ -1387,7 +1387,7 @@ request
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1400,8 +1400,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1414,7 +1414,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1561,8 +1561,8 @@ clearAllPlacesFavicons
 ;
 add_task
 (
+async
 function
-*
 test_favicon_userContextId
 (
 )
@@ -1631,12 +1631,12 @@ Places
 favicon
 caches
 .
-yield
+await
 clearAllPlacesFavicons
 (
 )
 ;
-yield
+await
 doTest
 (
 TEST_PAGE
@@ -1649,8 +1649,8 @@ FAVICON_URI
 ;
 add_task
 (
+async
 function
-*
 test_thirdPartyFavicon_userContextId
 (
 )
@@ -1719,12 +1719,12 @@ Places
 favicon
 caches
 .
-yield
+await
 clearAllPlacesFavicons
 (
 )
 ;
-yield
+await
 doTest
 (
 TEST_THIRD_PARTY_PAGE

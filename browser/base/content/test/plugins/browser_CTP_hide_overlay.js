@@ -72,8 +72,8 @@ nsIPluginHost
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -166,8 +166,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -242,7 +242,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -264,7 +264,7 @@ around
 for
 delayed
 PluginBindingAttached
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -288,7 +288,7 @@ the
 close
 icon
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -297,8 +297,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -496,8 +496,8 @@ the
 overlay
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -532,7 +532,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -554,7 +554,7 @@ around
 for
 delayed
 PluginBindingAttached
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -562,7 +562,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -571,8 +571,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

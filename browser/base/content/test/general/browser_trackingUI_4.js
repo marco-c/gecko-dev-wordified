@@ -314,8 +314,8 @@ listener
 )
 ;
 }
+async
 function
-*
 testTrackingProtectionAnimation
 (
 )
@@ -337,7 +337,7 @@ elements
 let
 benignTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -402,7 +402,7 @@ elements
 let
 trackingTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -475,7 +475,7 @@ selectedTab
 =
 benignTab
 ;
-yield
+await
 securityChanged
 ;
 ok
@@ -545,7 +545,7 @@ selectedTab
 =
 trackingTab
 ;
-yield
+await
 securityChanged
 ;
 ok
@@ -610,7 +610,7 @@ reload
 (
 )
 ;
-yield
+await
 securityChanged
 ;
 ok
@@ -654,13 +654,13 @@ animate
 }
 add_task
 (
+async
 function
-*
 testNormalBrowsing
 (
 )
 {
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -719,7 +719,7 @@ pref
 "
 )
 ;
-yield
+await
 testTrackingProtectionAnimation
 (
 )
@@ -729,8 +729,8 @@ testTrackingProtectionAnimation
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsing
 (
 )
@@ -738,7 +738,7 @@ testPrivateBrowsing
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -803,7 +803,7 @@ pref
 "
 )
 ;
-yield
+await
 testTrackingProtectionAnimation
 (
 )

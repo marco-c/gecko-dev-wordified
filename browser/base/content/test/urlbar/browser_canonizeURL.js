@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -579,7 +579,7 @@ VK_RETURN
 options
 )
 ;
-yield
+await
 promiseLoad
 ;
 }

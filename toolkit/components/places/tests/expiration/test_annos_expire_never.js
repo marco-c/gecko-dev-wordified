@@ -229,8 +229,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_annos_expire_never
 (
 )
@@ -335,7 +335,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -492,7 +492,7 @@ visit
 before
 bookmarking
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -512,7 +512,7 @@ now
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -539,7 +539,7 @@ null
 let
 id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -694,7 +694,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -798,7 +798,7 @@ and
 the
 bookmarks
 .
-yield
+await
 promiseForceExpirationStep
 (
 10

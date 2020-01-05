@@ -94,12 +94,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -162,7 +162,7 @@ AREA_PANEL
 let
 newTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -173,7 +173,7 @@ true
 true
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -222,7 +222,7 @@ click
 (
 )
 ;
-yield
+await
 subviewShownPromise
 ;
 let
@@ -334,7 +334,7 @@ click
 (
 )
 ;
-yield
+await
 tabLoadPromise
 ;
 /
@@ -346,7 +346,7 @@ new
 encodng
 is
 applied
-yield
+await
 PanelUI
 .
 show
@@ -417,7 +417,7 @@ reset
 the
 initial
 encoding
-yield
+await
 PanelUI
 .
 show
@@ -446,10 +446,10 @@ click
 (
 )
 ;
-yield
+await
 tabLoadPromise
 ;
-yield
+await
 PanelUI
 .
 show
@@ -506,7 +506,7 @@ Unicode
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -519,8 +519,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -534,7 +534,7 @@ to
 the
 default
 state
-yield
+await
 resetCustomization
 (
 )

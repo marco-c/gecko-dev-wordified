@@ -84,13 +84,13 @@ Components
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 new
 Promise
 (

@@ -52,8 +52,8 @@ notificationsCount
 =
 0
 ;
+async
 function
-*
 openWindow
 (
 url
@@ -62,7 +62,7 @@ url
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -88,7 +88,7 @@ url
 flags
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 win
@@ -150,8 +150,8 @@ win
 )
 ;
 }
+async
 function
-*
 openTab
 (
 window
@@ -161,7 +161,7 @@ url
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -172,7 +172,7 @@ gBrowser
 url
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -186,8 +186,8 @@ return
 tab
 ;
 }
+async
 function
-*
 openAndCloseTab
 (
 window
@@ -197,14 +197,14 @@ url
 let
 tab
 =
-yield
+await
 openTab
 (
 window
 url
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -272,8 +272,8 @@ notification
 }
 add_task
 (
+async
 function
-*
 test_closedObjectsChangedNotifications
 (
 )
@@ -297,7 +297,7 @@ expect
 a
 notification
 .
-yield
+await
 openAndCloseWindow
 (
 "
@@ -330,7 +330,7 @@ the
 same
 session
 .
-yield
+await
 awaitNotification
 (
 (
@@ -388,7 +388,7 @@ window
 let
 win
 =
-yield
+await
 openWindow
 (
 "
@@ -410,7 +410,7 @@ tab
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -439,7 +439,7 @@ tab
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -484,7 +484,7 @@ MAX_TABS_UNDO_PREF
 }
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -531,7 +531,7 @@ win
 0
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -552,7 +552,7 @@ again
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -573,7 +573,7 @@ history
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -616,7 +616,7 @@ tab
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -688,7 +688,7 @@ matches
 .
 "
 )
-yield
+await
 awaitNotification
 (
 (
@@ -736,7 +736,7 @@ tab
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -757,7 +757,7 @@ assertNotificationCount
 9
 )
 ;
-yield
+await
 closeWindow
 (
 win

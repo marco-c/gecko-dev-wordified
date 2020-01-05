@@ -211,8 +211,8 @@ selection
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -246,12 +246,12 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -314,7 +314,7 @@ i
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -325,7 +325,7 @@ visits
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -338,7 +338,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -728,7 +728,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

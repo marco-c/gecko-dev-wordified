@@ -142,8 +142,8 @@ behaviour
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -168,7 +168,7 @@ hidden
 let
 openedTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -208,7 +208,7 @@ triggers
 the
 alert
 .
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -232,7 +232,7 @@ e10s
 .
 .
 .
-yield
+await
 openedTabGotAttentionPromise
 ;
 /
@@ -297,7 +297,7 @@ checkbox
 is
 displayed
 :
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -467,7 +467,7 @@ be
 handled
 completely
 .
-yield
+await
 new
 Promise
 (
@@ -569,7 +569,7 @@ click
 (
 )
 ;
-yield
+await
 shown
 ;
 let
@@ -700,7 +700,7 @@ to
 other
 tab
 again
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -768,7 +768,7 @@ wouldn
 t
 work
 .
-yield
+await
 openedTabSelectedPromise
 ;
 /
@@ -798,7 +798,7 @@ again
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

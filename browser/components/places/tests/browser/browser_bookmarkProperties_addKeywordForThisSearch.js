@@ -35,12 +35,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -95,8 +95,8 @@ withBookmarksDialog
 (
 true
 AddKeywordForSearchField
+async
 function
-*
 (
 dialogWin
 )
@@ -195,7 +195,7 @@ is
 instant
 apply
 .
-yield
+await
 promiseKeywordNotification
 ;
 /
@@ -226,7 +226,7 @@ created
 let
 entry
 ;
-yield
+await
 waitForCondition
 (
 function
@@ -343,7 +343,7 @@ saved
 let
 charset
 =
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -380,7 +380,7 @@ getShortcutOrURI
 let
 data
 =
-yield
+await
 getShortcutOrURIAndPostData
 (
 "
@@ -449,13 +449,13 @@ correct
 ;
 add_task
 (
+async
 function
-*
 reopen_same_field
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -533,7 +533,7 @@ the
 existing
 keyword
 .
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -589,7 +589,6 @@ withBookmarksDialog
 true
 AddKeywordForSearchField
 function
-*
 (
 dialogWin
 )
@@ -658,13 +657,13 @@ kw
 ;
 add_task
 (
+async
 function
-*
 open_other_field
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -737,7 +736,7 @@ the
 existing
 keyword
 .
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -793,7 +792,6 @@ withBookmarksDialog
 true
 AddKeywordForSearchField
 function
-*
 (
 dialogWin
 )

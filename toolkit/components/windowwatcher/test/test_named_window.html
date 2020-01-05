@@ -376,8 +376,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -419,7 +419,7 @@ a
 new
 tab
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -457,7 +457,7 @@ my_window
 "
 )
 ;
-yield
+await
 promiseEvent
 (
 win1
@@ -569,7 +569,7 @@ my_window
 "
 )
 ;
-yield
+await
 hashChange
 ;
 is
@@ -662,7 +662,7 @@ click
 (
 )
 ;
-yield
+await
 hashChange
 ;
 is

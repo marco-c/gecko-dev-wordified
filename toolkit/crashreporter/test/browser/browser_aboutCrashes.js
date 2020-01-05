@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -108,7 +108,7 @@ ok
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

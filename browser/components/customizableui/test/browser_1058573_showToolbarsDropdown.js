@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -93,7 +93,7 @@ toolbars
 "
 )
 ;
-yield
+await
 removeCustomToolbars
 (
 )
@@ -107,7 +107,7 @@ mode
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -168,8 +168,8 @@ displayed
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -183,7 +183,7 @@ mode
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

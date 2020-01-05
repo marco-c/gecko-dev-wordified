@@ -38,8 +38,8 @@ bar
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -66,7 +66,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -272,7 +272,7 @@ addProgressListener
 wpl
 )
 ;
-yield
+await
 continuePromise
 ;
 is
@@ -335,7 +335,7 @@ removeProgressListener
 wpl
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

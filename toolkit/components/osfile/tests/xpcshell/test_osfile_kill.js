@@ -636,8 +636,8 @@ request
 /
 add_task
 (
+async
 function
-*
 test_kill_race
 (
 )
@@ -703,7 +703,7 @@ fast
 -
 path
 .
-yield
+await
 OS
 .
 File
@@ -929,7 +929,7 @@ completes
 .
 .
 .
-yield
+await
 killRequest
 ;
 /
@@ -983,7 +983,7 @@ resolved
 or
 lost
 .
-yield
+await
 OS
 .
 File

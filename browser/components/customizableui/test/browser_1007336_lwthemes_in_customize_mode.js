@@ -108,8 +108,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -145,7 +145,7 @@ clearBuiltInThemes
 (
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -209,7 +209,7 @@ button
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 /
@@ -229,7 +229,7 @@ correct
 number
 of
 Themes
-yield
+await
 endCustomizing
 (
 )
@@ -243,7 +243,7 @@ mode
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -288,7 +288,7 @@ time
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -424,7 +424,7 @@ theme
 "
 )
 ;
-yield
+await
 themeChangedPromise
 ;
 popupShownPromise
@@ -453,7 +453,7 @@ button
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 is
@@ -645,7 +645,7 @@ time
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 firstLWTheme
@@ -684,7 +684,7 @@ again
 "
 )
 ;
-yield
+await
 themeChangedPromise
 ;
 /
@@ -698,7 +698,7 @@ Defaults
 button
 resets
 theme
-yield
+await
 gCustomizeMode
 .
 reset
@@ -720,7 +720,7 @@ default
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -769,7 +769,7 @@ themes
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -803,7 +803,7 @@ time
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 header
@@ -993,13 +993,13 @@ themes
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 endCustomizing
 (
 )

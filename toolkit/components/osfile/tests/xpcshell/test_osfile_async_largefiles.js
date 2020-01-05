@@ -75,27 +75,6 @@ jsm
 "
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 /
 *
 *
@@ -130,8 +109,8 @@ setPosition
 /
 getPosition
 .
+async
 function
-*
 test_setPosition
 (
 forward
@@ -176,7 +155,7 @@ runs
 .
 try
 {
-yield
+await
 OS
 .
 File
@@ -205,7 +184,7 @@ try
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -249,7 +228,7 @@ forward
 forward
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -270,7 +249,7 @@ forward
 do_check_eq
 (
 (
-yield
+await
 file
 .
 getPosition
@@ -300,7 +279,7 @@ current
 current
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -321,7 +300,7 @@ current
 do_check_eq
 (
 (
-yield
+await
 file
 .
 getPosition
@@ -352,7 +331,7 @@ backward
 backward
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -374,7 +353,7 @@ backward
 do_check_eq
 (
 (
-yield
+await
 file
 .
 getPosition
@@ -387,7 +366,7 @@ pos
 }
 finally
 {
-yield
+await
 file
 .
 setPosition
@@ -400,7 +379,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 close
@@ -416,7 +395,7 @@ ex
 {
 try
 {
-yield
+await
 OS
 .
 File
@@ -457,8 +436,8 @@ getPosition
 expected
 failures
 .
+async
 function
-*
 test_setPosition_failures
 (
 )
@@ -500,7 +479,7 @@ runs
 .
 try
 {
-yield
+await
 OS
 .
 File
@@ -529,7 +508,7 @@ try
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -565,7 +544,7 @@ position
 value
 try
 {
-yield
+await
 file
 .
 setPosition
@@ -641,7 +620,7 @@ all
 do_check_eq
 (
 (
-yield
+await
 file
 .
 getPosition
@@ -662,7 +641,7 @@ position
 value
 try
 {
-yield
+await
 file
 .
 setPosition
@@ -740,7 +719,7 @@ all
 do_check_eq
 (
 (
-yield
+await
 file
 .
 getPosition
@@ -794,7 +773,7 @@ js
 =
 =
 9007199254740992
-yield
+await
 file
 .
 setPosition
@@ -807,7 +786,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -857,7 +836,7 @@ ex
 }
 finally
 {
-yield
+await
 file
 .
 setPosition
@@ -870,7 +849,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 close
@@ -879,7 +858,7 @@ close
 ;
 try
 {
-yield
+await
 OS
 .
 File

@@ -185,8 +185,8 @@ expected
 /
 add_task
 (
+async
 function
-*
 test_embedded_webextension_utils
 (
 )
@@ -548,7 +548,7 @@ startup
 let
 embeddedExtensionAPI
 =
-yield
+await
 embeddedExtension
 .
 startup
@@ -609,7 +609,7 @@ port
 let
 port
 =
-yield
+await
 waitConnectPort
 ;
 ok
@@ -672,7 +672,7 @@ webextension
 let
 msg
 =
-yield
+await
 waitPortMessage
 ;
 equal
@@ -730,7 +730,7 @@ event
 "
 )
 ;
-yield
+await
 waitForDisconnect
 ;
 do_print
@@ -744,7 +744,7 @@ event
 "
 )
 ;
-yield
+await
 embeddedExtension
 .
 shutdown
@@ -938,8 +938,8 @@ shutdown
 }
 add_task
 (
+async
 function
-*
 test_startup_error_empty_manifest
 (
 )
@@ -993,7 +993,7 @@ generateZipFile
 files
 )
 ;
-yield
+await
 createManifestErrorTestCase
 (
 id
@@ -1006,8 +1006,8 @@ expectedError
 ;
 add_task
 (
+async
 function
-*
 test_startup_error_invalid_json_manifest
 (
 )
@@ -1070,7 +1070,7 @@ generateZipFile
 files
 )
 ;
-yield
+await
 createManifestErrorTestCase
 (
 id
@@ -1083,8 +1083,8 @@ expectedError
 ;
 add_task
 (
+async
 function
-*
 test_startup_error_blocking_validation_errors
 (
 )
@@ -1208,7 +1208,7 @@ generateZipFile
 files
 )
 ;
-yield
+await
 createManifestErrorTestCase
 (
 id

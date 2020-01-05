@@ -78,8 +78,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 capture
 (
 )
@@ -104,7 +104,7 @@ DevTools
 "
 ]
 ;
-yield
+await
 TestRunner
 .
 start

@@ -43,13 +43,13 @@ immediately
 /
 add_task
 (
+async
 function
-*
 checkNotificationsDismissed
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -132,7 +132,7 @@ guid
 lastModified
 }
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -246,7 +246,7 @@ true
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -287,7 +287,7 @@ tmp
 let
 firstTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -327,7 +327,7 @@ it
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForNotificationBar
@@ -343,7 +343,7 @@ kExpectedNotificationId
 let
 secondTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -383,7 +383,7 @@ it
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForNotificationBar
@@ -938,7 +938,7 @@ tab
 "
 )
 ;
-yield
+await
 firstTabNotificationRemovedPromise
 ;
 info
@@ -953,7 +953,7 @@ removed
 "
 )
 ;
-yield
+await
 bookmarkRemovedPromise
 ;
 info
@@ -968,7 +968,7 @@ reset
 "
 )
 ;
-yield
+await
 prefResetPromise
 ;
 info
@@ -980,7 +980,7 @@ tabs
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -988,7 +988,7 @@ removeTab
 firstTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

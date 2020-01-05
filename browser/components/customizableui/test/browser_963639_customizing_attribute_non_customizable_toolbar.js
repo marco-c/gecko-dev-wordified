@@ -82,8 +82,8 @@ attribute
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -201,7 +201,7 @@ true
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -241,7 +241,7 @@ attribute
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

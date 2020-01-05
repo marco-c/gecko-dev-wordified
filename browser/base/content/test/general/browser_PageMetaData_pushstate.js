@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -59,7 +59,7 @@ browser
 /
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -74,7 +74,7 @@ html
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -85,8 +85,8 @@ selectedBrowser
 {
 rooturi
 }
+async
 function
-*
 (
 args
 )

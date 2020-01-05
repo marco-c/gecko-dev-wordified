@@ -1033,8 +1033,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_abstime_annotation_uri
 (
 )
@@ -1043,7 +1043,7 @@ test_abstime_annotation_uri
 /
 Initialize
 database
-yield
+await
 task_populateDB
 (
 testData
@@ -1280,7 +1280,7 @@ mo
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change1
@@ -1339,7 +1339,7 @@ endTime
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change2
@@ -1419,7 +1419,7 @@ test
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change3

@@ -65,8 +65,8 @@ bug
 .
 add_task
 (
+async
 function
-*
 injectJSON
 (
 )
@@ -242,7 +242,7 @@ of
 inputStrs
 )
 {
-yield
+await
 checkInput
 (
 inputStr
@@ -379,8 +379,8 @@ blur
 ;
 add_task
 (
+async
 function
-*
 actionURILosslessDecode
 (
 )
@@ -417,7 +417,7 @@ http
 +
 urlNoScheme
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 url
@@ -600,14 +600,14 @@ blur
 }
 )
 ;
+async
 function
-*
 checkInput
 (
 inputStr
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 inputStr

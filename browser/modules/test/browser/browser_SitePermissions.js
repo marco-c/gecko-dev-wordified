@@ -102,8 +102,8 @@ tab
 .
 add_task
 (
+async
 function
-*
 testTempAllowThrows
 (
 )
@@ -135,7 +135,7 @@ id
 notifications
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -208,8 +208,8 @@ function
 .
 add_task
 (
+async
 function
-*
 testGetAllPermissionDetailsForBrowser
 (
 )
@@ -237,7 +237,7 @@ com
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -627,7 +627,7 @@ geo
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

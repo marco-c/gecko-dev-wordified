@@ -73,8 +73,8 @@ tabs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -97,7 +97,7 @@ outerWidth
 let
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "

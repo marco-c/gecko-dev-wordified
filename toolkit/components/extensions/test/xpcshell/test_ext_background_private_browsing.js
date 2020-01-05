@@ -209,8 +209,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 test_background_incognito
 (
 )
@@ -231,7 +231,7 @@ disabled
 "
 )
 ;
-yield
+await
 testBackgroundPage
 (
 {
@@ -294,7 +294,7 @@ autostart
 }
 )
 ;
-yield
+await
 testBackgroundPage
 (
 {

@@ -367,8 +367,8 @@ data
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -396,7 +396,7 @@ fail
 let
 got
 =
-yield
+await
 promiseNewChannelResponse
 (
 TEST_URI_GOOD
@@ -507,7 +507,7 @@ data
 .
 got
 =
-yield
+await
 promiseNewChannelResponse
 (
 TEST_URI_GOOD
@@ -762,7 +762,7 @@ an
 error
 got
 =
-yield
+await
 promiseNewChannelResponse
 (
 TEST_URI_BAD
@@ -882,7 +882,7 @@ webchannelWhitelistPref
 ;
 got
 =
-yield
+await
 promiseNewChannelResponse
 (
 TEST_URI_GOOD_OBJECT

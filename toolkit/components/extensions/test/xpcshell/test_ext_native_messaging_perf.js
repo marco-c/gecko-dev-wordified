@@ -265,13 +265,13 @@ gm
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupHosts
 (
 SCRIPTS
@@ -282,8 +282,8 @@ SCRIPTS
 ;
 add_task
 (
+async
 function
-*
 test_round_trip_perf
 (
 )
@@ -641,7 +641,7 @@ nativeMessaging
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -687,7 +687,7 @@ tests
 ;
 roundTripTime
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -698,7 +698,7 @@ result
 )
 ;
 }
-yield
+await
 extension
 .
 unload

@@ -105,8 +105,8 @@ messages
 .
 add_task
 (
+async
 function
-*
 test_telemetry
 (
 )
@@ -174,7 +174,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -191,7 +191,7 @@ submitted
 telemetry
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -245,7 +245,7 @@ Bug
 1357509
 )
 .
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -284,7 +284,7 @@ ok
 true
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -330,8 +330,8 @@ updated
 .
 add_task
 (
+async
 function
-*
 test_large_content
 (
 )
@@ -369,7 +369,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -386,7 +386,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -458,7 +458,7 @@ title
 OUTER_VALUE
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

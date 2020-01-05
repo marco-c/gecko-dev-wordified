@@ -85,8 +85,8 @@ URL
 /
 add_task
 (
+async
 function
-*
 clearURLBarAfterParentProcessURL
 (
 )
@@ -94,7 +94,7 @@ clearURLBarAfterParentProcessURL
 let
 tab
 =
-yield
+await
 new
 Promise
 (
@@ -176,7 +176,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -221,7 +221,7 @@ userTypedValue
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -261,8 +261,8 @@ xml
 /
 add_task
 (
+async
 function
-*
 clearURLBarAfterParentProcessURLInExistingTab
 (
 )
@@ -270,7 +270,7 @@ clearURLBarAfterParentProcessURLInExistingTab
 let
 tab
 =
-yield
+await
 new
 Promise
 (
@@ -358,7 +358,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -403,7 +403,7 @@ userTypedValue
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -464,8 +464,8 @@ bar
 /
 add_task
 (
+async
 function
-*
 clearURLBarAfterManuallyLoadingAboutHome
 (
 )
@@ -501,7 +501,7 @@ BrowserOpenTab
 let
 tab
 =
-yield
+await
 promiseTabOpenedAndSwitchedTo
 ;
 is
@@ -579,7 +579,7 @@ return
 "
 )
 ;
-yield
+await
 aboutHomeLoaded
 ;
 is
@@ -614,7 +614,7 @@ null
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -677,13 +677,13 @@ different
 /
 add_task
 (
+async
 function
-*
 dontTemporarilyShowAboutHome
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -722,7 +722,7 @@ OpenBrowserWindow
 (
 )
 ;
-yield
+await
 windowOpenedPromise
 ;
 let
@@ -749,10 +749,10 @@ BrowserOpenTab
 (
 )
 ;
-yield
+await
 promiseTabSwitch
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -764,7 +764,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -788,7 +788,7 @@ window
 "
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -812,7 +812,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 windowOpenedPromise
 ;
 let
@@ -884,7 +884,7 @@ home
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -895,7 +895,7 @@ gBrowser
 otherTab
 )
 ;
-yield
+await
 tabLoaded
 ;
 win
@@ -927,7 +927,7 @@ empty
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

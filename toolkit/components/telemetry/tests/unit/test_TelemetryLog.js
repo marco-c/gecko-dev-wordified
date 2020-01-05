@@ -217,8 +217,8 @@ i
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -254,7 +254,7 @@ PREF_TELEMETRY_ENABLED
 true
 )
 ;
-yield
+await
 TelemetryController
 .
 testSetup
@@ -546,7 +546,7 @@ undefined
 ]
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown

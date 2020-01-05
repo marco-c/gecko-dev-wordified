@@ -70,12 +70,12 @@ zoom
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -127,7 +127,7 @@ be
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -262,7 +262,7 @@ hide
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 info
@@ -280,8 +280,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )

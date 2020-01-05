@@ -65,13 +65,13 @@ canGoForward
 /
 add_task
 (
+async
 function
-*
 checkBackFromInvalidURI
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -87,7 +87,7 @@ false
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -139,7 +139,7 @@ handleCommand
 (
 )
 ;
-yield
+await
 promiseErrorPageLoaded
 ;
 ok
@@ -282,7 +282,7 @@ goBack
 (
 )
 ;
-yield
+await
 promiseOtherPageLoaded
 ;
 ok
@@ -307,7 +307,7 @@ page
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab

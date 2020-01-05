@@ -166,8 +166,8 @@ triggeringPrincipal_base64
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -186,14 +186,14 @@ blank
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
 state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

@@ -86,8 +86,8 @@ toplevel
 frameset
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -138,7 +138,7 @@ place
 "
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 tab
@@ -249,7 +249,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -297,7 +297,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -317,7 +317,7 @@ place
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -334,7 +334,7 @@ window
 0
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 newTab
@@ -364,7 +364,7 @@ goBack
 (
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 newTab
@@ -486,8 +486,8 @@ an
 iframe
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -543,7 +543,7 @@ place
 "
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 tab
@@ -665,7 +665,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -715,7 +715,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -737,7 +737,7 @@ place
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -754,7 +754,7 @@ window
 0
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 newTab
@@ -786,7 +786,7 @@ goBack
 (
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 newTab
@@ -926,8 +926,8 @@ added
 dynamically
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1020,7 +1020,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 tab
@@ -1100,7 +1100,7 @@ appendChild
 iframe
 )
 ;
-yield
+await
 waitForLoadsInBrowser
 (
 tab
@@ -1222,7 +1222,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -1272,7 +1272,7 @@ browser_b
 contentWindow
 )
 ;
-yield
+await
 promise
 ;
 info

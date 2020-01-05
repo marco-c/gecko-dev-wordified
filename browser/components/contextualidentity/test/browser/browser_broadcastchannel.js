@@ -71,8 +71,8 @@ the
 newly
 opened
 tab
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -136,7 +136,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -153,8 +153,8 @@ browser
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -167,7 +167,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -197,8 +197,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -206,8 +206,7 @@ test
 let
 receiver
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -231,7 +230,7 @@ received
 message
 on
 title
-yield
+await
 ContentTask
 .
 spawn
@@ -316,8 +315,7 @@ resolve
 let
 sender1
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -327,8 +325,7 @@ URI
 let
 sender2
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -399,7 +396,7 @@ sender2
 ]
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -477,7 +474,7 @@ must
 ve
 been
 blocked
-yield
+await
 ContentTask
 .
 spawn
@@ -488,13 +485,13 @@ browser
 sender2
 .
 message
+async
 function
-*
 (
 message
 )
 {
-yield
+await
 content
 .
 window

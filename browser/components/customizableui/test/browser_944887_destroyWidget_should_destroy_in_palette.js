@@ -90,8 +90,8 @@ the
 palette
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -116,12 +116,12 @@ palette
 }
 )
 ;
-yield
+await
 startCustomizing
 (
 )
 ;
-yield
+await
 endCustomizing
 (
 )

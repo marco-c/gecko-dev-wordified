@@ -175,15 +175,15 @@ firstrun
 "
 )
 ;
+async
 function
-*
 getForeignCountForURL
 (
 conn
 url
 )
 {
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -207,7 +207,7 @@ url
 let
 rows
 =
-yield
+await
 conn
 .
 executeCached
@@ -262,8 +262,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 add_remove_change_bookmark_test
 (
 )
@@ -271,7 +271,7 @@ add_remove_change_bookmark_test
 let
 conn
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -286,7 +286,7 @@ visit
 to
 the
 url
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -299,7 +299,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -349,7 +349,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -393,7 +393,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -428,7 +428,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -489,7 +489,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -512,7 +512,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -555,7 +555,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -570,8 +570,8 @@ URI2
 ;
 add_task
 (
+async
 function
-*
 maintenance_foreign_count_test
 (
 )
@@ -579,7 +579,7 @@ maintenance_foreign_count_test
 let
 conn
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -594,7 +594,7 @@ visit
 to
 the
 url
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -689,7 +689,7 @@ finalize
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -699,7 +699,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -754,7 +754,7 @@ maintenanceOnIdle
 (
 )
 ;
-yield
+await
 promiseMaintenanceFinished
 ;
 /
@@ -775,7 +775,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -790,8 +790,8 @@ T_URI
 ;
 add_task
 (
+async
 function
-*
 add_remove_tags_test
 (
 )
@@ -799,14 +799,14 @@ add_remove_tags_test
 let
 conn
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -819,7 +819,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -861,7 +861,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -905,7 +905,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn
@@ -955,7 +955,7 @@ Assert
 equal
 (
 (
-yield
+await
 getForeignCountForURL
 (
 conn

@@ -177,8 +177,8 @@ sidebar
 ;
 add_task
 (
+async
 function
-*
 sidebar_windows
 (
 )
@@ -193,7 +193,7 @@ loadExtension
 extData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -208,7 +208,7 @@ is
 opened
 on
 install
-yield
+await
 extension
 .
 awaitMessage
@@ -363,7 +363,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -375,7 +375,7 @@ window
 }
 )
 ;
-yield
+await
 secondSidebar
 ;
 ok
@@ -481,14 +481,14 @@ style
 "
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

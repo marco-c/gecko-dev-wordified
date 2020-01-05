@@ -98,13 +98,13 @@ this
 file
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -189,7 +189,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -201,8 +201,8 @@ selectedBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -231,7 +231,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

@@ -49,7 +49,6 @@ this
 )
 ;
 function
-*
 registerConverter
 (
 )
@@ -561,8 +560,8 @@ URI
 /
 add_task
 (
+async
 function
-*
 test_streamConverter
 (
 )
@@ -576,7 +575,7 @@ selectedTab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -637,7 +636,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 Promise
 .
 all
@@ -690,7 +689,7 @@ browser
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -698,15 +697,15 @@ removeTab
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 originalBrowser
 null
+async
 function
-*
 (
 )
 {

@@ -291,14 +291,8 @@ threshold
 .
 *
 /
-run
-:
-Task
-.
 async
-(
-function
-*
+run
 (
 burner
 max
@@ -327,7 +321,7 @@ max
 i
 )
 {
-yield
+await
 new
 Promise
 (
@@ -343,7 +337,7 @@ resolve
 ;
 try
 {
-yield
+await
 this
 [
 burner
@@ -387,7 +381,6 @@ return
 false
 ;
 }
-)
 dispose
 (
 )
@@ -1400,16 +1393,12 @@ prototype
 .
 promiseBurnCPOW
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
-yield
+await
 this
 .
 _promiseCPOWBurner
@@ -1448,7 +1437,7 @@ CPOW
 ;
 try
 {
-yield
+await
 burner
 (
 this
@@ -1502,7 +1491,6 @@ n
 ;
 }
 }
-)
 ;
 /
 *

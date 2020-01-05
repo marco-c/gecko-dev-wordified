@@ -550,8 +550,8 @@ tabs
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -828,7 +828,7 @@ directory
 source
 change
 completes
-yield
+await
 watchLinksChangeOnce
 (
 )
@@ -979,7 +979,7 @@ animation
 has
 finished
 .
-yield
+await
 waitForTransitionEnd
 (
 )

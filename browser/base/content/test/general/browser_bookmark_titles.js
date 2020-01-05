@@ -225,8 +225,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -322,10 +322,10 @@ browser
 uri
 )
 ;
-yield
+await
 promiseLoaded
 ;
-yield
+await
 checkBookmark
 (
 uri
@@ -513,7 +513,7 @@ browser
 uri
 )
 ;
-yield
+await
 promiseLoaded
 ;
 /
@@ -532,7 +532,7 @@ failed
 to
 load
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -575,7 +575,7 @@ outage
 }
 )
 ;
-yield
+await
 checkBookmark
 (
 uri
@@ -617,8 +617,8 @@ the
 bookmark
 .
 )
+async
 function
-*
 checkBookmark
 (
 uri
@@ -664,7 +664,7 @@ bookmarkCurrentPage
 false
 )
 ;
-yield
+await
 promiseBookmark
 ;
 let
@@ -768,12 +768,12 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent

@@ -98,8 +98,8 @@ string
 /
 add_task
 (
+async
 function
-*
 test_javascript_match
 (
 )
@@ -134,7 +134,7 @@ EAid
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -153,7 +153,7 @@ title
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -179,7 +179,7 @@ title
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

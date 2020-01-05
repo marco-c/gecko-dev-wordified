@@ -1302,8 +1302,8 @@ default
 /
 add_task
 (
+async
 function
-*
 test_new_remote_window_flags
 (
 )
@@ -1317,7 +1317,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1328,8 +1328,8 @@ url
 :
 SCRIPT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -1337,7 +1337,7 @@ browser
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 let
@@ -1445,15 +1445,15 @@ selectedBrowser
 let
 contentChromeFlags
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 b
 null
+async
 function
-*
 (
 )
 {
@@ -1593,7 +1593,7 @@ process
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1641,7 +1641,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1652,8 +1652,8 @@ url
 :
 SCRIPT_PAGE_FOR_CHROME_ALL
 }
+async
 function
-*
 (
 browser
 )
@@ -1661,7 +1661,7 @@ browser
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 let
@@ -1702,7 +1702,7 @@ CHROME_ALL
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

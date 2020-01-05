@@ -184,8 +184,8 @@ backgroundScript
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -199,14 +199,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -218,7 +218,7 @@ getPlatformInfo
 "
 )
 ;
-yield
+await
 extension
 .
 unload

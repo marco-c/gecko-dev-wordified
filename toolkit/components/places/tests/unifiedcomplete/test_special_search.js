@@ -180,8 +180,8 @@ false
 }
 add_task
 (
+async
 function
-*
 test_special_searches
 (
 )
@@ -420,7 +420,7 @@ tag
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -504,7 +504,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -519,7 +519,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -536,7 +536,7 @@ bar
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -551,7 +551,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -568,7 +568,7 @@ bar
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -592,7 +592,7 @@ bar
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -618,7 +618,7 @@ bar
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -642,7 +642,7 @@ bar
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -681,7 +681,7 @@ restrict
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -787,7 +787,7 @@ restrict
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -999,7 +999,7 @@ restrict
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1141,7 +1141,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1241,7 +1241,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1341,7 +1341,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1452,7 +1452,7 @@ history
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1566,7 +1566,7 @@ history
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1674,7 +1674,7 @@ history
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1888,7 +1888,7 @@ bookmark
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2095,7 +2095,7 @@ bookmark
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2308,7 +2308,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2513,7 +2513,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2667,7 +2667,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2815,7 +2815,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2966,7 +2966,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3110,7 +3110,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3191,7 +3191,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3275,7 +3275,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3354,7 +3354,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3447,7 +3447,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3526,7 +3526,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3584,7 +3584,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3655,7 +3655,7 @@ title
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3841,7 +3841,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3966,7 +3966,7 @@ as
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4115,7 +4115,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4175,7 +4175,7 @@ url
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4292,7 +4292,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4433,7 +4433,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4503,7 +4503,7 @@ tag
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4588,7 +4588,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4658,7 +4658,7 @@ typed
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4785,7 +4785,7 @@ history
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4926,7 +4926,7 @@ bookmark
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5222,7 +5222,7 @@ bookmark
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5329,7 +5329,7 @@ bookmark
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5578,7 +5578,7 @@ bookmark
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5765,7 +5765,7 @@ tag
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

@@ -97,8 +97,8 @@ would
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -116,7 +116,7 @@ show
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 is
@@ -180,7 +180,7 @@ hide
 (
 )
 ;
-yield
+await
 hiddenPromise
 ;
 ok
@@ -246,8 +246,8 @@ and
 closed
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -272,7 +272,7 @@ command
 }
 )
 ;
-yield
+await
 shownPromise
 ;
 is
@@ -343,7 +343,7 @@ command
 }
 )
 ;
-yield
+await
 hiddenPromise
 ;
 ok

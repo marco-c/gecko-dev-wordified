@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_execute_sidebar_action
 (
 )
@@ -246,14 +246,14 @@ opened
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -333,7 +333,7 @@ true
 }
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -349,7 +349,7 @@ opened
 "
 )
 ;
-yield
+await
 extension
 .
 unload

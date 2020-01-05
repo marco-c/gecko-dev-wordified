@@ -241,8 +241,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 allowLoopbackMixedContent
 (
 )
@@ -270,7 +270,7 @@ true
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -289,7 +289,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -343,15 +343,15 @@ is
 not
 blocked
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 LOOPBACK_PNG_URL
+async
 function
-*
 (
 loopbackPNGUrl
 )
@@ -421,7 +421,7 @@ appendChild
 img
 )
 ;
-yield
+await
 promiseImgLoaded
 ;
 const

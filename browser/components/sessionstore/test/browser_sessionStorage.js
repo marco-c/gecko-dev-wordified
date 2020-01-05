@@ -127,8 +127,8 @@ expected
 /
 add_task
 (
+async
 function
-*
 session_storage
 (
 )
@@ -150,7 +150,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -167,7 +167,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -270,7 +270,7 @@ inner
 frame
 only
 .
-yield
+await
 modifySessionStorage
 (
 browser
@@ -288,7 +288,7 @@ frameIndex
 }
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -392,7 +392,7 @@ for
 both
 frames
 .
-yield
+await
 modifySessionStorage
 (
 browser
@@ -405,7 +405,7 @@ modified
 }
 )
 ;
-yield
+await
 modifySessionStorage
 (
 browser
@@ -423,7 +423,7 @@ frameIndex
 }
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -543,7 +543,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -560,7 +560,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -682,7 +682,7 @@ with
 new
 data
 .
-yield
+await
 modifySessionStorage
 (
 browser2
@@ -695,7 +695,7 @@ modified3
 }
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -818,13 +818,13 @@ test
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser2
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -925,13 +925,13 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser2
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -978,13 +978,13 @@ discarded
 Clean
 up
 .
-yield
+await
 promiseRemoveTab
 (
 tab
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2
@@ -1020,8 +1020,8 @@ tabs
 /
 add_task
 (
+async
 function
-*
 purge_domain
 (
 )
@@ -1043,7 +1043,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1060,7 +1060,7 @@ mochi
 test
 "
 .
-yield
+await
 purgeDomainData
 (
 browser
@@ -1082,7 +1082,7 @@ received
 all
 data
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1167,7 +1167,7 @@ preserved
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1202,8 +1202,8 @@ user
 /
 add_task
 (
+async
 function
-*
 respect_privacy_level
 (
 )
@@ -1223,7 +1223,7 @@ secure
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -1231,7 +1231,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1355,7 +1355,7 @@ secure
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -1363,7 +1363,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1499,7 +1499,7 @@ secure
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -1517,13 +1517,13 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -1670,7 +1670,7 @@ privacy_level
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2

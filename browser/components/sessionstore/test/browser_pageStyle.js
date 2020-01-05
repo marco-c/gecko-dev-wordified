@@ -80,8 +80,8 @@ persisted
 /
 add_task
 (
+async
 function
-*
 page_style
 (
 )
@@ -103,7 +103,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -112,7 +112,7 @@ browser
 let
 sheets
 =
-yield
+await
 getStyleSheets
 (
 browser
@@ -143,7 +143,7 @@ of
 sheets
 )
 {
-yield
+await
 enableStyleSheetsForSet
 (
 browser
@@ -160,7 +160,7 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -169,7 +169,7 @@ tab2
 let
 tab2Sheets
 =
-yield
+await
 getStyleSheets
 (
 tab2
@@ -279,7 +279,7 @@ is
 correctly
 persisted
 .
-yield
+await
 setAuthorStyleDisabled
 (
 browser
@@ -296,7 +296,7 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -305,7 +305,7 @@ tab2
 let
 authorStyleDisabled
 =
-yield
+await
 getAuthorStyleDisabled
 (
 tab2
@@ -374,8 +374,8 @@ correctly
 /
 add_task
 (
+async
 function
-*
 nested_page_style
 (
 )
@@ -397,13 +397,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 enableSubDocumentStyleSheetsForSet
 (
 browser
@@ -412,7 +412,7 @@ alternate
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

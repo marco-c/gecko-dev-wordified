@@ -120,8 +120,8 @@ process
 /
 add_task
 (
+async
 function
-*
 test_content_and_chrome_selection
 (
 )
@@ -171,7 +171,7 @@ selectedText
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -180,7 +180,7 @@ gBrowser
 testPage
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -198,7 +198,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -264,14 +264,14 @@ mozilla
 org
 "
 ;
-yield
+await
 gURLBar
 .
 focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -327,7 +327,7 @@ text
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -390,8 +390,8 @@ menu
 .
 add_task
 (
+async
 function
-*
 test_active_selection_switches_properly
 (
 )
@@ -469,7 +469,7 @@ selectedText
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -478,7 +478,7 @@ gBrowser
 testPage1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -496,7 +496,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -525,7 +525,7 @@ selectedBrowser
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -534,7 +534,7 @@ gBrowser
 testPage2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -552,7 +552,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -578,7 +578,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -615,7 +615,7 @@ text
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -651,7 +651,7 @@ text
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -659,7 +659,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

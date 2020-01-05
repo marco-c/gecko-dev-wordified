@@ -633,8 +633,8 @@ ordinal
 }
 add_task
 (
+async
 function
-*
 testImport
 (
 )
@@ -667,7 +667,7 @@ profileDir
 src
 )
 ;
-yield
+await
 OS
 .
 File
@@ -725,8 +725,8 @@ checkOldStore
 ;
 add_task
 (
+async
 function
-*
 testTruncation
 (
 )
@@ -878,8 +878,8 @@ dos
 ;
 add_task
 (
+async
 function
-*
 testGetValue
 (
 )
@@ -932,8 +932,8 @@ width
 ;
 add_task
 (
+async
 function
-*
 testHasValue
 (
 )
@@ -983,8 +983,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testSetValue
 (
 )
@@ -1304,8 +1304,8 @@ bar
 ;
 add_task
 (
+async
 function
-*
 testRemoveValue
 (
 )

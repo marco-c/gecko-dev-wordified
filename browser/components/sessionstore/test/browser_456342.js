@@ -65,8 +65,8 @@ types
 /
 add_task
 (
+async
 function
-*
 test_restore_nonstandard_input_values
 (
 )
@@ -101,7 +101,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -123,7 +123,7 @@ random
 (
 )
 ;
-yield
+await
 setFormElementValues
 (
 browser
@@ -144,7 +144,7 @@ collected
 form
 data
 .
-yield
+await
 promiseRemoveTab
 (
 tab

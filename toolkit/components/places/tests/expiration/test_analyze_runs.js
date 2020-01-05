@@ -267,8 +267,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 init_tests
 (
 )
@@ -302,7 +302,7 @@ a
 test
 "
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -326,7 +326,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -410,8 +410,8 @@ TOPIC_AUTOCOMPLETE_FEEDBACK_INCOMING
 ;
 add_task
 (
+async
 function
-*
 test_timed
 (
 )
@@ -450,7 +450,7 @@ setInterval
 3
 )
 ;
-yield
+await
 promise
 ;
 setInterval
@@ -495,8 +495,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_debug
 (
 )
@@ -505,7 +505,7 @@ clearAnalyzeData
 (
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 1
@@ -548,8 +548,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_clear_history
 (
 )
@@ -599,7 +599,7 @@ onClearHistory
 (
 )
 ;
-yield
+await
 promise
 ;
 do_check_analyze_ran

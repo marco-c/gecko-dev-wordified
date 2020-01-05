@@ -586,8 +586,8 @@ b
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -621,7 +621,7 @@ to
 pref
 changes
 .
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -649,8 +649,8 @@ logic
 .
 add_task
 (
+async
 function
-*
 test_sendPendingPings
 (
 )
@@ -855,7 +855,7 @@ i
 const
 id
 =
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -865,7 +865,7 @@ TEST_TYPE_A
 }
 )
 ;
-yield
+await
 setPingLastModified
 (
 id
@@ -952,7 +952,7 @@ i
 const
 id
 =
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -962,7 +962,7 @@ TEST_TYPE_B
 }
 )
 ;
-yield
+await
 setPingLastModified
 (
 id
@@ -1135,7 +1135,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1148,7 +1148,7 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 Assert
@@ -1221,7 +1221,7 @@ limit
 let
 pings
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -1523,12 +1523,12 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 pings
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -1668,14 +1668,14 @@ pingSendTimeout
 )
 )
 ;
-yield
+await
 pingSendTimerCallback
 (
 )
 ;
 pings
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -1740,7 +1740,7 @@ pings
 "
 )
 ;
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -1758,8 +1758,8 @@ resetPingHandler
 ;
 add_task
 (
+async
 function
-*
 test_sendDateHeader
 (
 )
@@ -1783,7 +1783,7 @@ UTC
 )
 )
 ;
-yield
+await
 TelemetrySend
 .
 reset
@@ -1793,7 +1793,7 @@ reset
 let
 pingId
 =
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -1814,7 +1814,7 @@ header
 let
 req
 =
-yield
+await
 PingServer
 .
 promiseNextRequest
@@ -1903,8 +1903,8 @@ failures
 .
 add_task
 (
+async
 function
-*
 test_backoffTimeout
 (
 )
@@ -2007,7 +2007,7 @@ fakeNow
 0
 )
 ;
-yield
+await
 TelemetrySend
 .
 reset
@@ -2069,7 +2069,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2085,7 +2085,7 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 Assert
@@ -2192,7 +2192,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 callback
 (
 )
@@ -2202,7 +2202,7 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 +
@@ -2216,7 +2216,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 pingSendTimerCallback
 (
 )
@@ -2226,7 +2226,7 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 Assert
@@ -2391,7 +2391,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2406,7 +2406,7 @@ pingSendTimerCallback
 pingSendTimeout
 ]
 =
-yield
+await
 timerPromise
 ;
 Assert
@@ -2505,7 +2505,7 @@ waitForTimer
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2518,7 +2518,7 @@ TEST_TYPE_E
 let
 pings
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -2609,7 +2609,7 @@ pings
 "
 )
 ;
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -2742,8 +2742,8 @@ histograms
 ;
 add_task
 (
+async
 function
-*
 test_discardBigPings
 (
 )
@@ -2924,7 +2924,7 @@ in
 the
 histogram
 .
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -2939,7 +2939,7 @@ test
 }
 )
 ;
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -3104,7 +3104,7 @@ it
 gets
 discarded
 .
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -3113,7 +3113,7 @@ TEST_PING_TYPE
 OVERSIZED_PAYLOAD
 )
 ;
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -3275,8 +3275,8 @@ time
 ;
 add_task
 (
+async
 function
-*
 test_evictedOnServerErrors
 (
 )
@@ -3290,7 +3290,7 @@ test
 evicted
 "
 ;
-yield
+await
 TelemetrySend
 .
 reset
@@ -3438,7 +3438,7 @@ ping
 let
 pingId
 =
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -3448,7 +3448,7 @@ TEST_TYPE
 }
 )
 ;
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -3552,7 +3552,7 @@ not
 be
 persisted
 .
-yield
+await
 Assert
 .
 rejects
@@ -3594,7 +3594,7 @@ resetPingHandler
 ;
 pingId
 =
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -3607,7 +3607,7 @@ TEST_TYPE
 let
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPings
@@ -3647,7 +3647,7 @@ the
 error
 histogram
 .
-yield
+await
 TelemetrySend
 .
 testWaitOnOutgoingPings
@@ -3751,8 +3751,8 @@ shutdown
 .
 add_task
 (
+async
 function
-*
 test_persistCurrentPingsOnShutdown
 (
 )
@@ -3771,7 +3771,7 @@ PING_COUNT
 =
 5
 ;
-yield
+await
 TelemetrySend
 .
 reset
@@ -3889,7 +3889,7 @@ persist
 the
 pings
 .
-yield
+await
 TelemetrySend
 .
 shutdown
@@ -3901,7 +3901,7 @@ Assert
 ok
 (
 (
-yield
+await
 checkPingsSaved
 (
 ids
@@ -3932,7 +3932,7 @@ found
 when
 scanning
 .
-yield
+await
 TelemetrySend
 .
 reset
@@ -3963,8 +3963,8 @@ count
 ;
 add_task
 (
+async
 function
-*
 test_sendCheckOverride
 (
 )
@@ -3998,14 +3998,14 @@ any
 pending
 pings
 .
-yield
+await
 TelemetryController
 .
 testShutdown
 (
 )
 ;
-yield
+await
 TelemetryStorage
 .
 testClearPendingPings
@@ -4069,7 +4069,7 @@ enable
 the
 override
 .
-yield
+await
 TelemetryController
 .
 testReset
@@ -4155,7 +4155,7 @@ now
 )
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -4213,14 +4213,14 @@ resetPingHandler
 (
 )
 ;
-yield
+await
 TelemetrySend
 .
 reset
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 submitExternalPing
@@ -4247,7 +4247,7 @@ ping
 const
 ping
 =
-yield
+await
 PingServer
 .
 promiseNextPing
@@ -4304,13 +4304,13 @@ PREF_OVERRIDE_OFFICIAL_CHECK
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 PingServer
 .
 stop

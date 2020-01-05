@@ -215,8 +215,8 @@ u2013
 u00B7
 "
 ;
+async
 function
-*
 cleanup
 (
 )
@@ -354,7 +354,7 @@ enabled
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -363,7 +363,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -854,8 +854,8 @@ return
 true
 ;
 }
+async
 function
-*
 check_autocomplete
 (
 test
@@ -904,7 +904,7 @@ have
 to
 wait
 .
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1169,7 +1169,7 @@ test
 search
 )
 ;
-yield
+await
 searchCompletePromise
 ;
 Assert
@@ -1402,7 +1402,7 @@ Assert
 .
 ok
 (
-yield
+await
 _check_autocomplete_matches
 (
 matches
@@ -1590,7 +1590,7 @@ continue
 ;
 if
 (
-yield
+await
 _check_autocomplete_matches
 (
 matches
@@ -1854,12 +1854,8 @@ correct
 var
 addBookmark
 =
-Task
-.
 async
-(
 function
-*
 (
 aBookmarkObj
 )
@@ -1900,7 +1896,7 @@ unfiledBookmarksFolderId
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1911,7 +1907,7 @@ insert
 parentGuid
 :
 (
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -1938,7 +1934,7 @@ uri
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1955,7 +1951,7 @@ aBookmarkObj
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -2007,7 +2003,6 @@ tags
 ;
 }
 }
-)
 ;
 function
 addOpenPages
@@ -3034,8 +3029,8 @@ return
 httpServer
 ;
 }
+async
 function
-*
 addTestEngine
 (
 basename
@@ -3101,7 +3096,7 @@ basename
 )
 ;
 return
-yield
+await
 new
 Promise
 (
@@ -3280,8 +3275,8 @@ set
 .
 add_task
 (
+async
 function
-*
 ensure_search_engine
 (
 )
@@ -3405,7 +3400,7 @@ geoPref
 )
 )
 ;
-yield
+await
 new
 Promise
 (

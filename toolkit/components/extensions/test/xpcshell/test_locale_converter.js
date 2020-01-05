@@ -163,8 +163,8 @@ ID
 .
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -309,8 +309,8 @@ string
 .
 add_task
 (
+async
 function
-*
 testSynchronousConvert
 (
 )
@@ -413,8 +413,8 @@ token
 .
 add_task
 (
+async
 function
-*
 testAsyncConvert
 (
 )
@@ -624,7 +624,7 @@ NS_OK
 let
 result
 =
-yield
+await
 awaitResult
 ;
 equal
@@ -672,8 +672,8 @@ fails
 .
 add_task
 (
+async
 function
-*
 testInvalidUUID
 (
 )
@@ -863,8 +863,8 @@ NS_ERROR_ILLEGAL_VALUE
 .
 add_task
 (
+async
 function
-*
 testEmptyStream
 (
 )

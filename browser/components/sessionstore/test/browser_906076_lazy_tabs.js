@@ -309,13 +309,13 @@ browser
 /
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -359,7 +359,7 @@ getBrowserState
 (
 )
 ;
-yield
+await
 promiseBrowserState
 (
 TEST_STATE
@@ -400,7 +400,7 @@ tab
 "
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -563,7 +563,7 @@ closes
 let
 newWindow
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -581,7 +581,7 @@ TEST_STATE
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -747,7 +747,7 @@ close
 /
 Cleanup
 .
-yield
+await
 promiseBrowserState
 (
 backupState

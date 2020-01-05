@@ -711,8 +711,8 @@ all
 tests
 add_task
 (
+async
 function
-*
 test_common_initialize
 (
 )
@@ -762,7 +762,7 @@ the
 other
 tests
 .
-yield
+await
 OS
 .
 File
@@ -815,7 +815,7 @@ module
 are
 initialized
 .
-yield
+await
 Services
 .
 logins

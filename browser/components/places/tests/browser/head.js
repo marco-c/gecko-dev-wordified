@@ -1849,12 +1849,8 @@ open
 var
 withBookmarksDialog
 =
-Task
-.
 async
-(
 function
-*
 (
 autoCancel
 openFn
@@ -2069,7 +2065,7 @@ dialog
 let
 dialogWin
 =
-yield
+await
 dialogPromise
 ;
 /
@@ -2091,7 +2087,7 @@ loaded
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -2166,7 +2162,7 @@ textfield
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -2208,7 +2204,7 @@ task
 ;
 try
 {
-yield
+await
 taskFn
 (
 dialogWin
@@ -2267,7 +2263,6 @@ cancelDialog
 }
 }
 }
-)
 ;
 /
 *
@@ -2317,12 +2312,8 @@ opened
 var
 openContextMenuForContentSelector
 =
-Task
-.
 async
-(
 function
-*
 (
 browser
 selector
@@ -2359,7 +2350,7 @@ popupshown
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2368,8 +2359,8 @@ browser
 {
 selector
 }
+async
 function
-*
 (
 args
 )
@@ -2496,11 +2487,10 @@ true
 }
 )
 ;
-yield
+await
 contextPromise
 ;
 }
-)
 ;
 /
 *
@@ -2564,12 +2554,8 @@ tries
 var
 waitForCondition
 =
-Task
-.
 async
-(
 function
-*
 (
 conditionFn
 errorMsg
@@ -2594,7 +2580,7 @@ tries
 if
 (
 (
-yield
+await
 conditionFn
 (
 )
@@ -2602,7 +2588,7 @@ conditionFn
 )
 return
 ;
-yield
+await
 new
 Promise
 (
@@ -2736,7 +2722,6 @@ errorMsg
 )
 ;
 }
-)
 ;
 /
 *
@@ -2934,12 +2919,8 @@ input
 var
 withSidebarTree
 =
-Task
-.
 async
-(
 function
-*
 (
 type
 taskFn
@@ -3032,7 +3013,7 @@ show
 sidebarId
 )
 ;
-yield
+await
 sidebarLoadedPromise
 ;
 let
@@ -3094,7 +3075,7 @@ task
 ;
 try
 {
-yield
+await
 taskFn
 (
 tree
@@ -3111,5 +3092,4 @@ hide
 ;
 }
 }
-)
 ;

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -133,7 +133,7 @@ lastModified
 Normal
 bookmark
 .
-yield
+await
 insertAndTest
 (
 {
@@ -176,7 +176,7 @@ tld
 place
 :
 query
-yield
+await
 insertAndTest
 (
 {
@@ -213,7 +213,7 @@ BOOKMARKS_MENU
 /
 /
 folder
-yield
+await
 insertAndTest
 (
 {
@@ -241,7 +241,7 @@ Folder
 /
 /
 separator
-yield
+await
 insertAndTest
 (
 {

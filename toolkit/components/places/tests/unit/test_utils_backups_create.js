@@ -129,8 +129,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -270,7 +270,7 @@ folder
 let
 backupFolderPath
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -428,7 +428,7 @@ leafName
 )
 ;
 }
-yield
+await
 PlacesBackups
 .
 create

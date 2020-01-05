@@ -287,8 +287,8 @@ _response
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -333,7 +333,7 @@ fakePromptService
 }
 )
 ;
-yield
+await
 ExtensionTestUtils
 .
 startAddonManager
@@ -345,8 +345,8 @@ startAddonManager
 ;
 add_task
 (
+async
 function
-*
 test_management_uninstall_no_prompt
 (
 )
@@ -398,7 +398,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -408,7 +408,7 @@ startup
 let
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -438,7 +438,7 @@ uninstall
 "
 )
 ;
-yield
+await
 waitForUninstalled
 (
 )
@@ -468,8 +468,8 @@ entry
 ;
 add_task
 (
+async
 function
-*
 test_management_uninstall_prompt_uninstall
 (
 )
@@ -532,7 +532,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -542,7 +542,7 @@ startup
 let
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -572,7 +572,7 @@ uninstall
 "
 )
 ;
-yield
+await
 waitForUninstalled
 (
 )
@@ -680,8 +680,8 @@ entry
 ;
 add_task
 (
+async
 function
-*
 test_management_uninstall_prompt_keep
 (
 )
@@ -781,7 +781,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -791,7 +791,7 @@ startup
 let
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -821,7 +821,7 @@ uninstall
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -835,7 +835,7 @@ rejected
 ;
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -856,7 +856,7 @@ installed
 "
 )
 ;
-yield
+await
 extension
 .
 unload

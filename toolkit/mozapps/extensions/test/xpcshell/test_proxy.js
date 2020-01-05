@@ -91,8 +91,8 @@ works
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -247,7 +247,7 @@ unpackedAddon
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -279,7 +279,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -389,7 +389,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -428,8 +428,8 @@ bug
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -606,7 +606,7 @@ unpackedAddon
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -638,7 +638,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -673,7 +673,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

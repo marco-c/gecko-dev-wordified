@@ -1822,8 +1822,8 @@ array
 }
 add_task
 (
+async
 function
-*
 test_FileAppender
 (
 )
@@ -1857,7 +1857,7 @@ test_Log
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -1938,7 +1938,7 @@ harm
 .
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -1959,7 +1959,7 @@ OHAI
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1978,7 +1978,7 @@ OHAI
 "
 )
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -1986,7 +1986,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2014,7 +2014,7 @@ OHAI
 "
 )
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2022,7 +2022,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2063,7 +2063,7 @@ log
 some
 more
 .
-yield
+await
 appender
 .
 reset
@@ -2072,7 +2072,7 @@ reset
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -2096,7 +2096,7 @@ RLY
 "
 )
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2104,7 +2104,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2127,7 +2127,7 @@ n
 "
 )
 ;
-yield
+await
 appender
 .
 reset
@@ -2194,7 +2194,7 @@ all
 of
 these
 .
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2212,7 +2212,7 @@ order
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2284,8 +2284,8 @@ n
 ;
 add_task
 (
+async
 function
-*
 test_BoundedFileAppender
 (
 )
@@ -2313,7 +2313,7 @@ if
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -2325,7 +2325,7 @@ dir
 )
 )
 {
-yield
+await
 OS
 .
 File
@@ -2418,7 +2418,7 @@ TWO
 "
 )
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2426,7 +2426,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2483,12 +2483,12 @@ _removeFilePromise
 undefined
 )
 ;
-yield
+await
 appender
 .
 _removeFilePromise
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2496,7 +2496,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2527,7 +2527,7 @@ n
 "
 )
 ;
-yield
+await
 appender
 .
 reset
@@ -2578,12 +2578,12 @@ _removeFilePromise
 undefined
 )
 ;
-yield
+await
 appender
 .
 _removeFilePromise
 ;
-yield
+await
 appender
 .
 _lastWritePromise
@@ -2591,7 +2591,7 @@ _lastWritePromise
 do_check_eq
 (
 (
-yield
+await
 fileContents
 (
 path
@@ -2636,8 +2636,8 @@ formatting
 /
 add_task
 (
+async
 function
-*
 log_message_with_params
 (
 )
@@ -4477,8 +4477,8 @@ err
 /
 add_task
 (
+async
 function
-*
 test_log_err_only
 (
 )
@@ -4664,8 +4664,8 @@ formatter
 /
 add_task
 (
+async
 function
-*
 test_structured_basic
 (
 )
@@ -4938,8 +4938,8 @@ appender
 /
 add_task
 (
+async
 function
-*
 log_message_with_params
 (
 )
@@ -5141,8 +5141,8 @@ reasonably
 /
 add_task
 (
+async
 function
-*
 format_errors
 (
 )
@@ -5249,7 +5249,7 @@ formatted
 .
 try
 {
-yield
+await
 Promise
 .
 resolve

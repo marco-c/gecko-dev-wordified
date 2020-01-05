@@ -345,8 +345,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -712,7 +712,7 @@ tld
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1225,7 +1225,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

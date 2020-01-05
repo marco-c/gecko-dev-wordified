@@ -111,8 +111,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 compress_bookmark_backups_test
 (
 )
@@ -156,7 +156,7 @@ jsonlz4
 "
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -185,7 +185,7 @@ lz4
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -200,7 +200,7 @@ length
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -266,7 +266,7 @@ the
 /
 same
 date
-yield
+await
 OS
 .
 File
@@ -279,7 +279,7 @@ mostRecentBackupFile
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -342,7 +342,7 @@ json
 "
 )
 ;
-yield
+await
 PlacesBackups
 .
 saveBookmarksToJSONFile
@@ -353,7 +353,7 @@ jsonFile
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -437,7 +437,7 @@ the
 restore
 the
 backup
-yield
+await
 PlacesBackups
 .
 create
@@ -449,7 +449,7 @@ true
 let
 recentBackup
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -465,7 +465,7 @@ removeItem
 bm
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -529,7 +529,7 @@ unfiledBookmarksFolderId
 /
 Cleanup
 .
-yield
+await
 OS
 .
 File

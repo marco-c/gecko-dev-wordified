@@ -79,8 +79,8 @@ private
 mode
 add_task
 (
+async
 function
-*
 testNoSessionRestoreButton
 (
 )
@@ -101,7 +101,7 @@ session
 data
 .
 (
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -121,7 +121,7 @@ close
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -156,7 +156,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -164,15 +164,15 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {

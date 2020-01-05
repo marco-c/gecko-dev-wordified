@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 tabsSendMessageReply
 (
 )
@@ -787,14 +787,14 @@ script
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -804,7 +804,7 @@ sendMessage
 "
 )
 ;
-yield
+await
 extension
 .
 unload

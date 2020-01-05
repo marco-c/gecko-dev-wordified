@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ about
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -190,7 +190,7 @@ linkedBrowser
 let
 count
 =
-yield
+await
 promiseSHistoryCount
 (
 tab
@@ -218,7 +218,7 @@ entry
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -254,7 +254,7 @@ remote
 .
 count
 =
-yield
+await
 promiseSHistoryCount
 (
 tab
@@ -278,7 +278,7 @@ whatsoever
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -325,8 +325,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {

@@ -79,16 +79,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 viewSourceTab
 =
-yield
-*
+await
 openDocumentSelect
 (
 "
@@ -105,7 +104,7 @@ p
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -114,8 +113,8 @@ viewSourceTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -166,8 +165,7 @@ viewSourceTab
 ;
 viewSourceTab
 =
-yield
-*
+await
 openDocumentSelect
 (
 "
@@ -186,7 +184,7 @@ p
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -195,8 +193,8 @@ viewSourceTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

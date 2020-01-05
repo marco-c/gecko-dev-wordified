@@ -54,8 +54,8 @@ blank
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -191,7 +191,7 @@ pinned
 run
 the
 test
-yield
+await
 promiseBrowserState
 (
 TEST_STATE

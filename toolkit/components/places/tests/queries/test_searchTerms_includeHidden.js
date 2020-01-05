@@ -290,13 +290,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_initalize
 (
 )
 {
-yield
+await
 task_populateDB
 (
 VISITS
@@ -307,8 +307,8 @@ VISITS
 ;
 add_task
 (
+async
 function
-*
 test_searchTerms_includeHidden
 (
 )
@@ -395,7 +395,7 @@ with
 hidden
 visits
 .
-yield
+await
 task_populateDB
 (
 HIDDEN_VISITS
@@ -440,7 +440,7 @@ includeHidden
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 history

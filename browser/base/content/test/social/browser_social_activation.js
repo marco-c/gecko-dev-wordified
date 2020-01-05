@@ -206,12 +206,9 @@ postTestCleanup
 callback
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -232,7 +229,7 @@ of
 tabsToRemove
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -267,7 +264,7 @@ length
 0
 )
 {
-yield
+await
 removeProvider
 (
 Social
@@ -280,6 +277,8 @@ providers
 ;
 }
 }
+)
+(
 )
 .
 then
@@ -793,12 +792,9 @@ finishActivation
 aCallback
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -845,7 +841,7 @@ popupshown
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -861,7 +857,7 @@ resolve
 )
 )
 ;
-yield
+await
 popupShown
 ;
 info
@@ -937,7 +933,7 @@ element
 let
 notification
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -997,10 +993,10 @@ click
 )
 ;
 }
-yield
+await
 providerLoaded
 ;
-yield
+await
 popupHidden
 ;
 info
@@ -1025,6 +1021,8 @@ checkSocialUI
 ;
 }
 }
+)
+(
 )
 .
 then

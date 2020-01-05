@@ -30,8 +30,8 @@ observers
 /
 add_task
 (
+async
 function
-*
 test_removeFolderTransaction_reinsert
 (
 )
@@ -39,7 +39,7 @@ test_removeFolderTransaction_reinsert
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -73,7 +73,7 @@ folder
 let
 folderId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -86,7 +86,7 @@ guid
 let
 fx
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -123,7 +123,7 @@ com
 let
 fxId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -136,7 +136,7 @@ guid
 let
 tb
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -173,7 +173,7 @@ com
 let
 tbId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -421,7 +421,7 @@ GUID
 let
 newFolderGuid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid

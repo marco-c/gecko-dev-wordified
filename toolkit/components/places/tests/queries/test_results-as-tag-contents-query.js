@@ -426,13 +426,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_results_as_tag_contents_query
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData
@@ -670,7 +670,7 @@ query
 "
 )
 ;
-yield
+await
 task_populateDB
 (
 [
@@ -801,7 +801,7 @@ moz
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change2

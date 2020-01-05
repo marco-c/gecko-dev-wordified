@@ -149,8 +149,8 @@ functions
 .
 /
 /
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -216,7 +216,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -614,8 +614,8 @@ return
 the
 sessionId
 .
+async
 function
-*
 setupEMEKey
 (
 browser
@@ -646,15 +646,15 @@ key
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 keyInfo
+async
 function
-*
 (
 aKeyInfo
 )
@@ -662,7 +662,7 @@ aKeyInfo
 let
 access
 =
-yield
+await
 content
 .
 navigator
@@ -719,7 +719,7 @@ required
 let
 mediaKeys
 =
-yield
+await
 access
 .
 createMediaKeys
@@ -751,7 +751,7 @@ the
 EME
 key
 .
-yield
+await
 new
 Promise
 (
@@ -911,7 +911,7 @@ close
 (
 )
 ;
-yield
+await
 session
 .
 closed
@@ -971,8 +971,8 @@ has
 been
 cleared
 .
+async
 function
-*
 checkEMEKey
 (
 browser
@@ -1000,15 +1000,15 @@ sessionId
 =
 emeSessionId
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 keyInfo
+async
 function
-*
 (
 aKeyInfo
 )
@@ -1016,7 +1016,7 @@ aKeyInfo
 let
 access
 =
-yield
+await
 content
 .
 navigator
@@ -1073,7 +1073,7 @@ required
 let
 mediaKeys
 =
-yield
+await
 access
 .
 createMediaKeys
@@ -1102,7 +1102,7 @@ with
 the
 sessionId
 .
-yield
+await
 session
 .
 load
@@ -1168,8 +1168,8 @@ functions
 /
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1182,7 +1182,7 @@ userContext
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1248,8 +1248,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_EME_forgetThisSite
 (
 )
@@ -1295,8 +1295,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1320,7 +1319,7 @@ emeSessionIds
 userContextId
 ]
 =
-yield
+await
 setupEMEKey
 (
 tabs
@@ -1337,7 +1336,7 @@ Close
 this
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1450,8 +1449,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1474,7 +1472,7 @@ has
 been
 cleared
 .
-yield
+await
 checkEMEKey
 (
 tabs
@@ -1495,7 +1493,7 @@ Close
 this
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab

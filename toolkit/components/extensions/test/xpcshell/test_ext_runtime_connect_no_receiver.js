@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_connect_without_listener
 (
 )
@@ -150,14 +150,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -171,7 +171,7 @@ called
 "
 )
 ;
-yield
+await
 extension
 .
 unload

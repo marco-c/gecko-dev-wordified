@@ -360,7 +360,6 @@ currentPromiseResolver
 null
 ;
 function
-*
 getFocusedElementForBrowser
 (
 browser
@@ -1088,8 +1087,8 @@ type
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1127,7 +1126,7 @@ getBrowserForTab
 tab2
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab1
@@ -1145,7 +1144,7 @@ testPage1
 )
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab2
@@ -1211,7 +1210,7 @@ focus
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -1313,7 +1312,7 @@ focusedWindow
 let
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -1340,7 +1339,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -1382,8 +1381,7 @@ tabs
 "
 )
 ;
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab2
@@ -1405,7 +1403,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -1451,8 +1449,7 @@ should
 focus
 the
 browser
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab1
@@ -1474,7 +1471,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -1514,7 +1511,7 @@ tab
 should
 focus
 it
-yield
+await
 expectFocusShift
 (
 (
@@ -1546,7 +1543,7 @@ focused
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -1606,7 +1603,7 @@ to
 that
 button
 .
-yield
+await
 expectFocusShift
 (
 (
@@ -1641,7 +1638,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -1672,7 +1669,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -1715,8 +1712,7 @@ the
 other
 tab
 focused
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab2
@@ -1763,7 +1759,7 @@ in
 that
 tab
 .
-yield
+await
 expectFocusShift
 (
 (
@@ -1798,7 +1794,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -1830,7 +1826,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -1872,7 +1868,7 @@ should
 be
 retained
 there
-yield
+await
 expectFocusShift
 (
 (
@@ -1902,8 +1898,7 @@ element
 "
 )
 ;
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab1
@@ -1976,8 +1971,7 @@ true
 )
 ;
 }
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab2
@@ -2064,11 +2058,11 @@ if
 gMultiProcessBrowser
 )
 {
-yield
+await
 switchWaiter
 ;
 }
-yield
+await
 expectFocusShift
 (
 (
@@ -2133,7 +2127,7 @@ focus
 "
 )
 ;
-yield
+await
 expectFocusShift
 (
 (
@@ -2165,7 +2159,7 @@ focused
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -2193,7 +2187,7 @@ browser
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -2219,7 +2213,7 @@ browser
 "
 )
 ;
-yield
+await
 expectFocusShift
 (
 (
@@ -2271,8 +2265,7 @@ should
 focus
 the
 button
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab1
@@ -2301,7 +2294,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -2331,7 +2324,7 @@ browser
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -2373,7 +2366,7 @@ clear
 the
 active
 focus
-yield
+await
 expectFocusShift
 (
 (
@@ -2405,7 +2398,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -2473,7 +2466,7 @@ should
 have
 no
 effect
-yield
+await
 expectFocusShift
 (
 (
@@ -2539,8 +2532,7 @@ a
 currently
 focused
 element
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab2
@@ -2564,7 +2556,7 @@ tab
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -2609,7 +2601,7 @@ the
 /
 chrome
 window
-yield
+await
 expectFocusShift
 (
 (
@@ -2683,8 +2675,7 @@ have
 an
 active
 focus
-yield
-*
+await
 expectFocusShiftAfterTabSwitch
 (
 tab1
@@ -2709,7 +2700,7 @@ focus
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser1
@@ -2743,7 +2734,7 @@ browser
 ;
 focused
 =
-yield
+await
 getFocusedElementForBrowser
 (
 browser2
@@ -2796,7 +2787,7 @@ in
 the
 urlbar
 .
-yield
+await
 expectFocusShift
 (
 (
@@ -2825,7 +2816,7 @@ button
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab1
@@ -2855,7 +2846,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2980,7 +2971,7 @@ main
 window
 "
 ;
-yield
+await
 expectFocusShift
 (
 (
@@ -3868,8 +3859,8 @@ null
 )
 ;
 }
+async
 function
-*
 expectFocusShiftAfterTabSwitch
 (
 tab
@@ -3884,7 +3875,7 @@ tabSwitchPromise
 =
 null
 ;
-yield
+await
 expectFocusShift
 (
 (
@@ -3907,12 +3898,11 @@ expectedElement
 focusChanged
 testid
 )
-yield
+await
 tabSwitchPromise
 ;
 }
 function
-*
 expectFocusShift
 (
 callback

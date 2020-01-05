@@ -1352,13 +1352,13 @@ focus
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1396,7 +1396,7 @@ available
 "
 )
 ;
-yield
+await
 readyPromise
 ;
 }
@@ -1404,8 +1404,8 @@ readyPromise
 ;
 add_task
 (
+async
 function
-*
 test_autofilled
 (
 )
@@ -1454,7 +1454,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 removeFocus
@@ -1497,7 +1497,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -1505,8 +1505,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_autofilled_prefilled_un
 (
 )
@@ -1559,7 +1559,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 removeFocus
@@ -1602,7 +1602,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -1610,8 +1610,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_autofilled_focused_dynamic
 (
 )
@@ -1680,7 +1680,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 info
@@ -1705,13 +1705,13 @@ type
 password
 "
 ;
-yield
+await
 noPopupPromise
 ;
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -1770,7 +1770,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -1788,8 +1788,8 @@ saved
 logins
 add_task
 (
+async
 function
-*
 test_multiple
 (
 )
@@ -1836,7 +1836,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -1844,8 +1844,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_multiple_dynamic
 (
 )
@@ -1912,7 +1912,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 info
@@ -1939,7 +1939,7 @@ type
 password
 "
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -1947,8 +1947,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_multiple_prefilled_un1
 (
 )
@@ -2001,7 +2001,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 removeFocus
@@ -2044,7 +2044,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -2052,8 +2052,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_multiple_prefilled_un2
 (
 )
@@ -2106,7 +2106,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 removeFocus
@@ -2149,7 +2149,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -2157,8 +2157,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 test_multiple_prefilled_focused_dynamic
 (
 )
@@ -2231,7 +2231,7 @@ focus
 (
 )
 ;
-yield
+await
 noPopupPromise
 ;
 info
@@ -2256,13 +2256,13 @@ type
 password
 "
 ;
-yield
+await
 noPopupPromise
 ;
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -2321,7 +2321,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 }
@@ -2329,8 +2329,8 @@ shownPromise
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )

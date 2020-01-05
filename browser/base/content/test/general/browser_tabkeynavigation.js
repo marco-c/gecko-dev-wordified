@@ -19,8 +19,8 @@ content
 /
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -208,7 +208,7 @@ html
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -230,7 +230,7 @@ tab1
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -242,7 +242,7 @@ testPage2
 let
 tab3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab

@@ -25,8 +25,8 @@ title
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -47,7 +47,7 @@ addTab
 URL
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -61,7 +61,7 @@ Remove
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -119,8 +119,8 @@ title
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -148,7 +148,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -165,7 +165,7 @@ the
 initial
 title
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -180,15 +180,15 @@ a
 new
 title
 .
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -248,7 +248,7 @@ Remove
 the
 tab
 .
-yield
+await
 promiseRemoveTab
 (
 tab

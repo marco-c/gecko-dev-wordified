@@ -29,8 +29,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -104,7 +104,7 @@ linkedBrowser
 )
 ;
 }
-yield
+await
 addTab
 (
 "
@@ -123,7 +123,7 @@ test
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -142,7 +142,7 @@ test
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -161,7 +161,7 @@ test
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -206,7 +206,7 @@ the
 tab
 position
 .
-yield
+await
 setLinks
 (
 "
@@ -215,8 +215,7 @@ setLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -253,7 +252,7 @@ new
 tab
 page
 .
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -274,7 +273,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

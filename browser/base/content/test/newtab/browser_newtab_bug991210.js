@@ -29,8 +29,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ a
 newtab
 page
 loads
-yield
+await
 pushPrefs
 (
 [
@@ -115,7 +115,7 @@ before
 calling
 provider
 callback
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -136,7 +136,7 @@ callback
 ]
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -146,8 +146,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {

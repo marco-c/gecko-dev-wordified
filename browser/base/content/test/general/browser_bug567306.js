@@ -76,15 +76,15 @@ supportsFindClipboard
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 newwindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -100,7 +100,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 new
 Promise
 (
@@ -206,7 +206,7 @@ h1
 }
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -237,7 +237,7 @@ newwindow
 .
 gFindBar
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -245,8 +245,8 @@ spawn
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -316,7 +316,7 @@ range
 }
 )
 ;
-yield
+await
 findBar
 .
 onFindCommand
@@ -383,7 +383,7 @@ close
 (
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newwindow

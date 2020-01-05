@@ -100,8 +100,8 @@ should
 work
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -310,8 +310,8 @@ registerArea
 call
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -534,13 +534,13 @@ remove
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

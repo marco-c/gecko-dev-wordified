@@ -2129,8 +2129,8 @@ available
 }
 add_task
 (
+async
 function
-*
 checkAllTheCSS
 (
 )
@@ -2229,7 +2229,7 @@ sync
 let
 uris
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDir
@@ -2332,7 +2332,7 @@ HiddenFrame
 let
 win
 =
-yield
+await
 hiddenFrame
 .
 get
@@ -2403,7 +2403,7 @@ location
 =
 testFile
 ;
-yield
+await
 iframeLoaded
 ;
 let
@@ -2510,7 +2510,7 @@ manifest
 to
 be
 parsed
-yield
+await
 Promise
 .
 all
@@ -2845,7 +2845,7 @@ have
 actually
 loaded
 :
-yield
+await
 Promise
 .
 all

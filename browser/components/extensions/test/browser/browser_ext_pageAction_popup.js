@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testPageActionPopup
 (
 )
@@ -59,7 +59,7 @@ testPageActionPopup
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1095,12 +1095,8 @@ next
 -
 test
 "
-Task
-.
 async
-(
 function
-*
 (
 expecting
 =
@@ -1164,7 +1160,7 @@ exist
 "
 )
 ;
-yield
+await
 promisePopupShown
 (
 panel
@@ -1181,7 +1177,7 @@ popup
 "
 )
 ;
-yield
+await
 promisePopupHidden
 (
 panel
@@ -1215,7 +1211,7 @@ exist
 "
 )
 ;
-yield
+await
 promisePopupShown
 (
 panel
@@ -1270,7 +1266,7 @@ tabs
 0
 ]
 ;
-yield
+await
 hiddenPromise
 ;
 info
@@ -1294,7 +1290,7 @@ if
 panel
 )
 {
-yield
+await
 promisePopupShown
 (
 panel
@@ -1350,16 +1346,15 @@ test
 ;
 }
 )
-)
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1373,7 +1368,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1426,7 +1421,7 @@ document
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1439,8 +1434,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 testPageActionSecurity
 (
 )
@@ -1584,7 +1579,7 @@ URL
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1607,7 +1602,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

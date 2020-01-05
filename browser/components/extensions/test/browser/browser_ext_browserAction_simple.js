@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -276,7 +276,7 @@ found
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -323,7 +323,7 @@ clickBrowserAction
 extension
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -339,7 +339,7 @@ extension
 )
 ;
 }
-yield
+await
 extension
 .
 unload
@@ -352,7 +352,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

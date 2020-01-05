@@ -204,8 +204,8 @@ seen
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -228,7 +228,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -276,7 +276,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

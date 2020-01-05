@@ -422,8 +422,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_onlyBookmarked
 (
 )
@@ -443,7 +443,7 @@ with
 the
 above
 data
-yield
+await
 task_populateDB
 (
 testData
@@ -712,7 +712,7 @@ false
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 liveUpdateTestData

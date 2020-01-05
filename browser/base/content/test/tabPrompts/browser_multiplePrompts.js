@@ -59,8 +59,8 @@ one
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -268,7 +268,7 @@ loaded
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -286,7 +286,7 @@ loaded
 "
 )
 ;
-yield
+await
 promptsOpenedPromise
 ;
 let
@@ -480,7 +480,7 @@ to
 /
 happen
 .
-yield
+await
 new
 Promise
 (
@@ -535,7 +535,7 @@ dismissed
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

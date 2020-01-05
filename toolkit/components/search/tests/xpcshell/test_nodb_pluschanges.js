@@ -165,8 +165,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_nodb_pluschanges
 (
 )
@@ -177,7 +177,7 @@ engine1
 engine2
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -217,7 +217,7 @@ xml
 ]
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -269,7 +269,7 @@ flush
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -318,7 +318,7 @@ application
 "
 )
 ;
-yield
+await
 promiseCommit
 ;
 do_print
@@ -343,7 +343,7 @@ correctly
 let
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )

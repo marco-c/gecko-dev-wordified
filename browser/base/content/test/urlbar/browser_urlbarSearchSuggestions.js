@@ -28,8 +28,8 @@ first
 .
 add_task
 (
+async
 function
-*
 prepare
 (
 )
@@ -47,7 +47,7 @@ true
 let
 engine
 =
-yield
+await
 promiseNewSearchEngine
 (
 TEST_ENGINE_BASENAME
@@ -72,8 +72,8 @@ engine
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -112,7 +112,7 @@ that
 history
 now
 .
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -164,8 +164,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 clickSuggestion
 (
 )
@@ -173,7 +173,7 @@ clickSuggestion
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -187,7 +187,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -202,7 +202,7 @@ suggestion
 engineName
 ]
 =
-yield
+await
 promiseFirstSuggestion
 (
 )
@@ -278,10 +278,10 @@ click
 (
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -430,8 +430,8 @@ null
 ]
 ;
 }
+async
 function
-*
 promiseFirstSuggestion
 (
 )
@@ -446,7 +446,7 @@ null
 null
 ]
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition

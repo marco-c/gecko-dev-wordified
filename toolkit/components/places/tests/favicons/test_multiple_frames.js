@@ -51,8 +51,8 @@ files
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -108,7 +108,7 @@ page
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -195,7 +195,7 @@ icon
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -250,7 +250,7 @@ getFaviconDataForPage
 let
 icon
 =
-yield
+await
 getFaviconDataForPage
 (
 pageURI
@@ -294,7 +294,7 @@ protocol
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 Services
@@ -335,7 +335,7 @@ protocol
 "
 )
 ;
-yield
+await
 compareFavicons
 (
 Services

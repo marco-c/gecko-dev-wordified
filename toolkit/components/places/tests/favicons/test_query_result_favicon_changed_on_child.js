@@ -64,8 +64,8 @@ test_query_result
 ;
 add_task
 (
+async
 function
-*
 test_query_result_favicon_changed_on_child
 (
 )
@@ -85,7 +85,7 @@ the
 query
 resultset
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -409,7 +409,7 @@ containerOpen
 =
 true
 ;
-yield
+await
 promise
 ;
 /
@@ -463,7 +463,7 @@ in
 the
 meantime
 .
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates

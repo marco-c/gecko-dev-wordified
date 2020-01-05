@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_manifest_commands
 (
 )
@@ -59,7 +59,7 @@ test_manifest_commands
 let
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest

@@ -388,8 +388,8 @@ extensions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -481,7 +481,7 @@ id
 .
 path
 ;
-yield
+await
 promiseSetExtensionModifiedTime
 (
 path
@@ -540,7 +540,7 @@ a6
 a2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -573,7 +573,7 @@ a4
 a5
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -638,7 +638,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -987,7 +987,7 @@ O_EXLOCK
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -1067,7 +1067,7 @@ a5
 a6
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1422,7 +1422,7 @@ shutdownError
 e
 ;
 }
-yield
+await
 file
 .
 close
@@ -1585,7 +1585,7 @@ a5
 a6
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [

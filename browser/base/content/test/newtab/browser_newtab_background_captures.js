@@ -68,8 +68,8 @@ capturing_disabled
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -104,7 +104,7 @@ imports
 Disable
 captures
 .
-yield
+await
 pushPrefs
 (
 [
@@ -206,7 +206,7 @@ a
 top
 site
 .
-yield
+await
 setLinks
 (
 "
@@ -282,7 +282,7 @@ complete
 "
 )
 {
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -417,7 +417,7 @@ create
 Enable
 captures
 .
-yield
+await
 pushPrefs
 (
 [
@@ -426,7 +426,7 @@ false
 ]
 )
 ;
-yield
+await
 thumbnailCreatedPromise
 ;
 /

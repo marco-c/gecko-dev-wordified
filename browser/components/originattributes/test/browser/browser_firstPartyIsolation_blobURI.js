@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -129,8 +129,8 @@ firstPartyDomain
 /
 add_task
 (
+async
 function
-*
 test_blob_uri_inherit_oa_from_content
 (
 )
@@ -191,7 +191,7 @@ page
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -219,7 +219,7 @@ loadURI
 BASE_URI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -237,7 +237,7 @@ blob
 :
 URI
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -248,8 +248,8 @@ firstPartyDomain
 :
 BASE_DOMAIN
 }
+async
 function
-*
 (
 attrs
 )
@@ -403,7 +403,7 @@ to
 be
 loaded
 .
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -474,7 +474,7 @@ iframe
 to
 it
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -485,8 +485,8 @@ firstPartyDomain
 :
 BASE_DOMAIN
 }
+async
 function
-*
 (
 attrs
 )
@@ -695,7 +695,7 @@ correct
 origin
 attributes
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -706,8 +706,8 @@ firstPartyDomain
 :
 BASE_DOMAIN
 }
+async
 function
-*
 (
 attrs
 )

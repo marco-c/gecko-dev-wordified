@@ -85,8 +85,8 @@ work
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -173,13 +173,13 @@ widget
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

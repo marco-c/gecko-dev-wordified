@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -352,10 +352,10 @@ loadURI
 dataUri
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -457,7 +457,7 @@ autoscroller
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtPoint
@@ -474,7 +474,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 shownPromise
 ;
 /

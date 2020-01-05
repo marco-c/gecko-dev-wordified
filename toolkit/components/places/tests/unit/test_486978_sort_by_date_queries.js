@@ -295,8 +295,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -340,7 +340,7 @@ pages
 pageIndex
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

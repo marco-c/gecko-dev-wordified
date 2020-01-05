@@ -387,8 +387,8 @@ pass
 ;
 add_task
 (
+async
 function
-*
 test_changeUPLoginOnPUpdateForm_accept
 (
 )
@@ -433,7 +433,7 @@ addLogin
 login1B
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -839,8 +839,8 @@ login1B
 ;
 add_task
 (
+async
 function
-*
 test_changeUPLoginOnPUpdateForm_cancel
 (
 )
@@ -885,7 +885,7 @@ addLogin
 login1B
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "

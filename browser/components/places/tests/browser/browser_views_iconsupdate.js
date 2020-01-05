@@ -63,8 +63,8 @@ toolbar
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -161,7 +161,7 @@ if
 wasCollapsed
 )
 {
-yield
+await
 promiseSetToolbarVisibility
 (
 toolbar
@@ -170,12 +170,12 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseSetToolbarVisibility
 (
 toolbar
@@ -264,7 +264,7 @@ hide
 }
 )
 ;
-yield
+await
 promiseSidebarLoaded
 ;
 /
@@ -280,7 +280,7 @@ toolbar
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -352,7 +352,7 @@ wait
 for
 that
 .
-yield
+await
 new
 Promise
 (
@@ -393,7 +393,7 @@ window
 let
 sidebarRect
 =
-yield
+await
 getRectForSidebarItem
 (
 bm
@@ -412,7 +412,7 @@ sidebarRect
 window
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -472,7 +472,7 @@ wait
 for
 that
 .
-yield
+await
 new
 Promise
 (
@@ -742,8 +742,8 @@ element
 .
 *
 /
+async
 function
-*
 getRectForSidebarItem
 (
 guid
@@ -752,7 +752,7 @@ guid
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId

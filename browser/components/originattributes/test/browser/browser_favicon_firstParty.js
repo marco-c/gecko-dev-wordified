@@ -1128,8 +1128,8 @@ observer
 )
 ;
 }
+async
 function
-*
 openTab
 (
 aURL
@@ -1181,7 +1181,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1196,8 +1196,8 @@ browser
 }
 ;
 }
+async
 function
-*
 assignCookiesUnderFirstParty
 (
 aURL
@@ -1231,7 +1231,7 @@ aURL
 let
 tabInfo
 =
-yield
+await
 openTabInFirstParty
 (
 aURL
@@ -1246,7 +1246,7 @@ into
 the
 iframe
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -1255,8 +1255,8 @@ tabInfo
 .
 browser
 aCookieValue
+async
 function
-*
 (
 value
 )
@@ -1272,7 +1272,7 @@ value
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1418,8 +1418,8 @@ return
 cookies
 ;
 }
+async
 function
-*
 doTest
 (
 aTestPage
@@ -1511,7 +1511,7 @@ site
 let
 tabInfo
 =
-yield
+await
 openTab
 (
 TEST_SITE_ONE
@@ -1529,7 +1529,7 @@ are
 all
 made
 .
-yield
+await
 promiseObserveFavicon
 ;
 /
@@ -1539,7 +1539,7 @@ until
 favicon
 loaded
 .
-yield
+await
 promiseFaviconLoaded
 ;
 /
@@ -1548,7 +1548,7 @@ Close
 the
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1597,7 +1597,7 @@ site
 .
 tabInfo
 =
-yield
+await
 openTab
 (
 TEST_SITE_TWO
@@ -1615,10 +1615,10 @@ are
 all
 made
 .
-yield
+await
 promiseObserveFavicon
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1631,8 +1631,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1647,7 +1647,7 @@ isolation
 is
 enabled
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1783,8 +1783,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_favicon_firstParty
 (
 )
@@ -1860,7 +1860,7 @@ Places
 favicon
 caches
 .
-yield
+await
 clearAllPlacesFavicons
 (
 )
@@ -1868,7 +1868,7 @@ clearAllPlacesFavicons
 let
 cookies
 =
-yield
+await
 generateCookies
 (
 testThirdParty
@@ -1879,7 +1879,7 @@ if
 testThirdParty
 )
 {
-yield
+await
 doTest
 (
 TEST_THIRD_PARTY_PAGE
@@ -1892,7 +1892,7 @@ FAVICON_URI
 }
 else
 {
-yield
+await
 doTest
 (
 TEST_PAGE
@@ -1909,8 +1909,8 @@ FAVICON_URI
 ;
 add_task
 (
+async
 function
-*
 test_favicon_cache_firstParty
 (
 )
@@ -2032,7 +2032,7 @@ site
 let
 tabInfoA
 =
-yield
+await
 openTab
 (
 TEST_SITE_ONE
@@ -2051,7 +2051,7 @@ response
 let
 response
 =
-yield
+await
 responsePromise
 ;
 /
@@ -2135,7 +2135,7 @@ loaded
 and
 cached
 .
-yield
+await
 promiseForFaviconLoaded
 ;
 /
@@ -2156,7 +2156,7 @@ correctly
 let
 tabInfoB
 =
-yield
+await
 openTab
 (
 TEST_SITE_ONE
@@ -2249,7 +2249,7 @@ site
 let
 tabInfoC
 =
-yield
+await
 openTab
 (
 TEST_SITE_TWO
@@ -2298,7 +2298,7 @@ network
 .
 response
 =
-yield
+await
 promiseForFaviconResponse
 ;
 /
@@ -2375,7 +2375,7 @@ party
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2385,7 +2385,7 @@ tabInfoA
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2395,7 +2395,7 @@ tabInfoB
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

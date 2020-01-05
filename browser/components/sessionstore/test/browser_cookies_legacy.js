@@ -254,8 +254,8 @@ cleanup
 .
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -320,8 +320,8 @@ properly
 .
 add_task
 (
+async
 function
-*
 test_window
 (
 )
@@ -339,7 +339,7 @@ createTestState
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -366,10 +366,10 @@ state
 true
 )
 ;
-yield
+await
 promiseCookie
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -411,8 +411,8 @@ properly
 .
 add_task
 (
+async
 function
-*
 test_browser
 (
 )
@@ -436,7 +436,7 @@ createTestState
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -453,7 +453,7 @@ state
 ]
 )
 ;
-yield
+await
 promiseBrowserState
 (
 backupState

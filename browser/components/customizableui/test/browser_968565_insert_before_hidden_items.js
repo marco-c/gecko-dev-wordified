@@ -155,8 +155,8 @@ items
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -419,7 +419,7 @@ a
 particular
 item
 .
-yield
+await
 startCustomizing
 (
 )
@@ -446,7 +446,7 @@ navbar
 customizationTarget
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -477,7 +477,7 @@ item
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )

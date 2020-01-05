@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testWebNavigationGetNonExistentTab
 (
 )
@@ -261,7 +261,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -276,7 +276,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -288,7 +288,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -308,8 +308,8 @@ unloaded
 ;
 add_task
 (
+async
 function
-*
 testWebNavigationFrames
 (
 )
@@ -795,7 +795,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -817,7 +817,7 @@ getAllFramesDetails
 getFrameResults
 }
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1143,7 +1143,7 @@ checked
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1155,7 +1155,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

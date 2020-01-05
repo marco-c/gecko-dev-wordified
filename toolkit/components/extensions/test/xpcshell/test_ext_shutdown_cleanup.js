@@ -76,8 +76,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_global_manager_shutdown_cleanup
 (
 )
@@ -128,14 +128,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -166,7 +166,7 @@ started
 "
 )
 ;
-yield
+await
 extension
 .
 unload

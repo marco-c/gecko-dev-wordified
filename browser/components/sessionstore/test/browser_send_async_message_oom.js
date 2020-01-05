@@ -84,8 +84,8 @@ Telemetry
 /
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -245,8 +245,8 @@ sendSyncMessage
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -304,7 +304,7 @@ newTab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -401,7 +401,7 @@ report
 an
 error
 .
-yield
+await
 promiseReported
 ;
 /
@@ -415,7 +415,7 @@ handle
 that
 error
 .
-yield
+await
 new
 Promise
 (
@@ -480,8 +480,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
