@@ -1313,15 +1313,7 @@ restore
 }
 /
 /
-/
-/
-/
 helpers
-/
-/
-/
-/
-/
 _performCombo
 :
 function

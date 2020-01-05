@@ -146,8 +146,6 @@ intervalID
 /
 /
 /
-/
-/
 Handle
 "
 message

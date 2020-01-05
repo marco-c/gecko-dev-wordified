@@ -328,15 +328,7 @@ undefined
 ;
 /
 /
-/
-/
-/
 helpers
-/
-/
-/
-/
-/
 function
 toggleMenubarIfNecessary
 (

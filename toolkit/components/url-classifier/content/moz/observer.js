@@ -68,8 +68,6 @@ observers
 /
 /
 /
-/
-/
 Example1
 :
 /
@@ -107,8 +105,6 @@ topic
 observer
 )
 ;
-/
-/
 /
 /
 /

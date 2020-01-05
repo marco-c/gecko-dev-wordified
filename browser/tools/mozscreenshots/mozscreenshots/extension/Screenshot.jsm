@@ -575,15 +575,7 @@ filename
 }
 /
 /
-/
-/
-/
 helpers
-/
-/
-/
-/
-/
 _screenshotWindows
 (
 filename
