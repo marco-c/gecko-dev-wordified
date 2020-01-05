@@ -18069,7 +18069,7 @@ jni
 ExceptionMode
 :
 :
-ABORT
+IGNORE
 ;
 static
 const
@@ -18226,7 +18226,7 @@ jni
 ExceptionMode
 :
 :
-ABORT
+IGNORE
 ;
 static
 const

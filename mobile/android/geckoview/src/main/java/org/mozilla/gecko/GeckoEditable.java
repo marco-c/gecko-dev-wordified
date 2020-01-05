@@ -7449,6 +7449,11 @@ calledFrom
 "
 gecko
 "
+exceptionMode
+=
+"
+ignore
+"
 )
 private
 void
@@ -7661,6 +7666,11 @@ calledFrom
 =
 "
 gecko
+"
+exceptionMode
+=
+"
+ignore
 "
 )
 private
