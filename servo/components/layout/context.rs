@@ -899,6 +899,10 @@ borrow_mut
 (
 )
 }
+}
+impl
+SharedLayoutContext
+{
 fn
 get_or_request_image_synchronously
 (
@@ -961,8 +965,6 @@ let
 result
 =
 self
-.
-shared
 .
 image_cache_thread
 .
@@ -1070,8 +1072,6 @@ unwrap
 )
 ;
 self
-.
-shared
 .
 image_cache_thread
 .
@@ -1255,8 +1255,6 @@ result
 =
 self
 .
-shared
-.
 image_cache_thread
 .
 find_image_or_metadata
@@ -1332,8 +1330,6 @@ sender
 =
 self
 .
-shared
-.
 image_cache_sender
 .
 lock
@@ -1349,8 +1345,6 @@ clone
 )
 ;
 self
-.
-shared
 .
 image_cache_thread
 .
@@ -1447,8 +1441,6 @@ let
 webrender_image_cache
 =
 self
-.
-shared
 .
 webrender_image_cache
 .
@@ -1594,8 +1586,6 @@ mut
 webrender_image_cache
 =
 self
-.
-shared
 .
 webrender_image_cache
 .

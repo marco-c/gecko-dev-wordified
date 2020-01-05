@@ -2233,6 +2233,8 @@ image_url
 self
 .
 layout_context
+.
+shared
 )
 ;
 SpecificFragmentInfo
@@ -2278,6 +2280,8 @@ object_data
 self
 .
 layout_context
+.
+shared
 )
 ;
 SpecificFragmentInfo
@@ -2439,7 +2443,9 @@ node
 data
 self
 .
-layout_context
+style_context
+(
+)
 )
 )
 }
@@ -9158,6 +9164,8 @@ clone
 self
 .
 layout_context
+.
+shared
 )
 ;
 vec

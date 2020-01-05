@@ -114,7 +114,10 @@ use
 context
 :
 :
+{
 LayoutContext
+SharedLayoutContext
+}
 ;
 use
 display_list_builder
@@ -881,7 +884,7 @@ self
 layout_context
 :
 &
-LayoutContext
+SharedLayoutContext
 )
 {
 self
