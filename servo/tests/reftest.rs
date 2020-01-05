@@ -734,16 +734,8 @@ iter
 (
 )
 .
-map
+cloned
 (
-|
-x
-|
-x
-.
-clone
-(
-)
 )
 .
 collect
