@@ -39978,6 +39978,16 @@ return
 PartialPrerender
 ;
 }
+nsRect
+visual
+=
+aFrame
+-
+>
+GetVisualOverflowRect
+(
+)
+;
 EffectCompositor
 :
 :
