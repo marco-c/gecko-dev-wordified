@@ -258,7 +258,7 @@ servo_net
 resource_task
 :
 :
-ResourceTask
+new_resource_task
 ;
 #
 [
@@ -834,7 +834,7 @@ instance
 let
 resource_task
 =
-ResourceTask
+new_resource_task
 (
 )
 ;

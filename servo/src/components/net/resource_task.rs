@@ -1089,7 +1089,7 @@ default
 loaders
 pub
 fn
-ResourceTask
+new_resource_task
 (
 )
 -
@@ -1218,6 +1218,9 @@ chan
 )
 ;
 ResourceManager
+:
+:
+new
 (
 port
 loaders
@@ -1263,8 +1266,11 @@ LoaderTaskFactory
 )
 >
 }
-fn
+impl
 ResourceManager
+{
+fn
+new
 (
 from_client
 :
@@ -1294,6 +1300,7 @@ from_client
 loaders
 :
 loaders
+}
 }
 }
 impl
@@ -1557,7 +1564,7 @@ test_exit
 let
 resource_task
 =
-ResourceTask
+new_resource_task
 (
 )
 ;
@@ -1581,7 +1588,7 @@ test_bad_scheme
 let
 resource_task
 =
-ResourceTask
+new_resource_task
 (
 )
 ;
