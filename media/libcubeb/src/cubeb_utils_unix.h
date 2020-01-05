@@ -187,7 +187,7 @@ r
 endif
 }
 void
-enter
+lock
 (
 )
 {
@@ -225,7 +225,7 @@ Deadlock
 endif
 }
 void
-leave
+unlock
 (
 )
 {

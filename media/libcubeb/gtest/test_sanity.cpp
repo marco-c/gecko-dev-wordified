@@ -382,6 +382,11 @@ nframes
 0
 )
 ;
+assert
+(
+outputbuffer
+)
+;
 #
 if
 (
@@ -2955,6 +2960,11 @@ outputbuffer
 nframes
 >
 0
+)
+;
+assert
+(
+outputbuffer
 )
 ;
 if

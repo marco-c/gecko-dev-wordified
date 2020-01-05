@@ -140,7 +140,7 @@ critical_section
 ;
 }
 void
-enter
+lock
 (
 )
 {
@@ -179,7 +179,7 @@ GetCurrentThreadId
 endif
 }
 void
-leave
+unlock
 (
 )
 {
