@@ -348,7 +348,7 @@ intern
 dom_struct
 "
 )
-Modifier
+MultiModifier
 (
 box
 jstraceable
@@ -388,7 +388,7 @@ intern
 _generate_reflector
 "
 )
-Decorator
+MultiDecorator
 (
 box
 reflector
