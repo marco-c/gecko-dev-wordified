@@ -602,7 +602,7 @@ aTextContent
 mozilla
 :
 :
-ErrorResult
+OOMReporter
 &
 aError
 )
