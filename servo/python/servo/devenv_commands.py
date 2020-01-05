@@ -713,6 +713,12 @@ exit
 1
 )
         
+self
+.
+ensure_bootstrapped
+(
+)
+        
 for
 cargo_path
 in
