@@ -64,14 +64,6 @@ deny
 warnings
 )
 ]
-#
-[
-macro_use
-]
-extern
-crate
-style
-;
 extern
 crate
 app_units
@@ -115,6 +107,10 @@ selectors
 extern
 crate
 servo_url
+;
+extern
+crate
+style
 ;
 extern
 crate
