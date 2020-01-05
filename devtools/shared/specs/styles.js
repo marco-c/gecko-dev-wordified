@@ -783,6 +783,15 @@ Option
 boolean
 "
 )
+skipPseudo
+:
+Option
+(
+1
+"
+boolean
+"
+)
 filter
 :
 Option
