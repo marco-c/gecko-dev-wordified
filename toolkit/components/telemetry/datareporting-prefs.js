@@ -146,3 +146,16 @@ beta
 2
 )
 ;
+pref
+(
+"
+datareporting
+.
+policy
+.
+firstRunURL
+"
+"
+"
+)
+;
