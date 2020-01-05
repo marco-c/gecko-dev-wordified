@@ -671,6 +671,7 @@ self
 )
 -
 >
+&
 mem
 :
 :
@@ -735,6 +736,7 @@ self
 )
 -
 >
+&
 ConstellationChan
 <
 ConstellationMsg
@@ -795,6 +797,7 @@ self
 )
 -
 >
+&
 IpcSender
 <
 TimerEventRequest

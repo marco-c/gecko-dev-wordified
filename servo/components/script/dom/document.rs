@@ -3709,6 +3709,7 @@ ref
 layout_chan
 )
 =
+*
 self
 .
 window
@@ -5395,6 +5396,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window
@@ -10035,6 +10037,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window
@@ -10168,6 +10171,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window
@@ -10278,6 +10282,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window
@@ -10502,6 +10507,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window
@@ -10725,11 +10731,8 @@ loader
 .
 finish_load
 (
+&
 load
-.
-clone
-(
-)
 )
 ;
 }
@@ -11728,6 +11731,7 @@ ref
 chan
 )
 =
+*
 self
 .
 window

@@ -1296,6 +1296,7 @@ ref
 chan
 )
 =
+*
 window
 .
 constellation_chan

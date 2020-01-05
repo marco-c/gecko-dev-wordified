@@ -1680,9 +1680,11 @@ node
 let
 LayoutChan
 (
+ref
 chan
 )
 =
+*
 win
 .
 layout_chan

@@ -906,6 +906,10 @@ window
 constellation_chan
 (
 )
+.
+clone
+(
+)
 ;
 HTMLTextAreaElement
 {
