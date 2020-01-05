@@ -224,7 +224,7 @@ if
 (
 tab
 .
-activeMediaBlocked
+soundBlocked
 =
 =
 expectBlocked
@@ -303,8 +303,6 @@ changed
 indexOf
 (
 "
-activemedia
--
 blocked
 "
 )
@@ -317,7 +315,7 @@ is
 (
 tab
 .
-activeMediaBlocked
+soundBlocked
 expectBlocked
 "
 The
