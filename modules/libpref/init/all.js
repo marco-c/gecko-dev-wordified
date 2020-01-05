@@ -62370,6 +62370,10 @@ key
 %
 GOOGLE_API_KEY
 %
+&
+httpMethod
+=
+POST
 "
 )
 ;
@@ -62419,6 +62423,10 @@ key
 %
 GOOGLE_API_KEY
 %
+&
+httpMethod
+=
+POST
 "
 )
 ;
