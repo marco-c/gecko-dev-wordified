@@ -338,7 +338,6 @@ properties
 :
 :
 {
-longhands
 Angle
 AngleOrCorner
 AngleAoc
