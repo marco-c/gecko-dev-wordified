@@ -1046,8 +1046,6 @@ level
 -
 {
 }
--
-cron
 '
 .
 format
