@@ -260,9 +260,6 @@ the
 given
 font
 data
-and
-variation
-settings
 .
 *
 *
@@ -296,12 +293,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-uint32_t
-aVarDataSize
-const
-void
-*
-aVarData
 )
 ;
 ~

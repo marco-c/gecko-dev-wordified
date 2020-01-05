@@ -549,8 +549,6 @@ get
 tableSize
 index
 mSize
-0
-nullptr
 aBaton
 )
 ;

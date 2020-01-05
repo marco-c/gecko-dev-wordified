@@ -1598,8 +1598,6 @@ GetIndex
 (
 )
 mSize
-0
-nullptr
 aBaton
 )
 ;
