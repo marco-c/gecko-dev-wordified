@@ -5755,8 +5755,6 @@ DispatchResized
 )
 ;
 }
-return
-;
 }
 void
 nsWindow
@@ -5889,8 +5887,6 @@ DispatchResized
 )
 ;
 }
-return
-;
 }
 void
 nsWindow
