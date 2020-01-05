@@ -327,6 +327,14 @@ l10n
 '
                 
 '
+generate
+-
+balrog
+-
+properties
+'
+                
+'
 update
 '
             
