@@ -5975,9 +5975,6 @@ hiddenOneOffs
 "
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 pref
 (
 "
@@ -5992,8 +5989,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
@@ -19917,7 +19912,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 false
 )

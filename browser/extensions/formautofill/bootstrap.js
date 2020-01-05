@@ -195,7 +195,7 @@ browser
 .
 formautofill
 .
-enabled
+experimental
 "
 )
 )
