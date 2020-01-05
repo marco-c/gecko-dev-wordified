@@ -36,12 +36,9 @@ removed
 synced
 with
 the
-toolkit
+mozilla
 /
-.
-eslintrc
-.
-js
+recommended
 value
 .
 "
