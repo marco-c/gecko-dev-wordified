@@ -781,6 +781,10 @@ TraceLoggerEvent
 other
 )
 {
+return
+*
+this
+;
 }
 ;
 ~
