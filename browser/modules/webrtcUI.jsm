@@ -612,6 +612,7 @@ webrtc
 :
 StopRecording
 "
+this
 )
 ;
 mm
