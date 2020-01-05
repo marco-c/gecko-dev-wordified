@@ -427,6 +427,37 @@ url
 )
     
 if
+"
+redirect_referrerpolicy
+"
+in
+request
+.
+GET
+:
+        
+headers
+.
+append
+(
+(
+"
+Referrer
+-
+Policy
+"
+request
+.
+GET
+[
+'
+redirect_referrerpolicy
+'
+]
+)
+)
+    
+if
 token
 :
         
