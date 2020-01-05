@@ -10610,7 +10610,7 @@ self
 >
 bool
 {
-false
+true
 }
 }
 struct
