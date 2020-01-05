@@ -583,9 +583,9 @@ position
 of
 the
 cursor
-nsCOMPtr
+RefPtr
 <
-nsIDOMRange
+nsRange
 >
 mAnchorRange
 ;
@@ -637,9 +637,9 @@ position
 of
 the
 cursor
-nsCOMPtr
+RefPtr
 <
-nsIDOMRange
+nsRange
 >
 mOldNavigationAnchorRange
 ;
@@ -726,7 +726,7 @@ nsIDOMNode
 aNode
 int32_t
 aOffset
-nsIDOMRange
+nsRange
 *
 *
 aRange
