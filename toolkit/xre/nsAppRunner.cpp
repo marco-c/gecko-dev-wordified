@@ -26044,6 +26044,16 @@ aConfig
 ScopedLogging
 log
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 /
 /
 NB
