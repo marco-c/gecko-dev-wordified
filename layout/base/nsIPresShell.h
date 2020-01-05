@@ -3765,6 +3765,12 @@ mInFlush
 }
 inline
 void
+EnsureStyleFlush
+(
+)
+;
+inline
+void
 SetNeedStyleFlush
 (
 )
