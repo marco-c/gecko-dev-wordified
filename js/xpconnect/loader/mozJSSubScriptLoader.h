@@ -218,8 +218,10 @@ uri
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 targetObj
 const
 nsAString
@@ -255,8 +257,10 @@ ReadScriptAsync
 nsIURI
 *
 uri
-JSObject
-*
+JS
+:
+:
+HandleObject
 targetObj
 const
 nsAString
