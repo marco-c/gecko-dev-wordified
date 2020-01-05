@@ -220,7 +220,7 @@ JSContext
 cx
 JSObject
 *
-target_obj
+targetObj
 const
 nsAString
 &
@@ -257,7 +257,7 @@ nsIURI
 uri
 JSObject
 *
-target_obj
+targetObj
 const
 nsAString
 &
