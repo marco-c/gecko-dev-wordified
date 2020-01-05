@@ -1437,6 +1437,9 @@ def
 query_symbols_url
 (
 self
+raise_on_failure
+=
+False
 )
 :
         
@@ -1532,6 +1535,8 @@ socket
 .
 timeout
 )
+as
+ex
 :
                 
 self
@@ -1539,24 +1544,39 @@ self
 warning
 (
 "
-Can
-'
-t
-figure
-out
-symbols_url
-from
-installer_url
+Cannot
+open
+symbols
+url
+%
+s
+(
+installer
+url
 :
 %
 s
-!
+)
+:
+%
+s
 "
 %
+                    
+(
+symbols_url
 self
 .
 installer_url
+ex
 )
+)
+                
+if
+raise_on_failure
+:
+                    
+raise
         
 #
 If
@@ -4564,6 +4584,16 @@ self
 .
 query_symbols_url
                 
+kwargs
+=
+{
+'
+raise_on_failure
+'
+:
+True
+}
+                
 sleeptime
 =
 20
@@ -4632,6 +4662,12 @@ write_to_file
 True
 )
             
+if
+self
+.
+symbols_url
+:
+                
 self
 .
 download_unpack
