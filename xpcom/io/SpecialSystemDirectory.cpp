@@ -662,9 +662,6 @@ IShellItem
 >
 savePath
 ;
-HRESULT
-hr
-=
 SHLoadLibraryFromKnownFolder
 (
 aFolderId

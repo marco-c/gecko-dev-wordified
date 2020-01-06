@@ -992,9 +992,6 @@ we
 get
 a
 file
-int
-result
-=
 _mktemp_s
 (
 name
