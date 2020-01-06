@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsICryptoHash
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h
@@ -1285,12 +1278,6 @@ nsCOMPtr
 nsIFile
 >
 mToDeleteDirectory
-;
-nsCOMPtr
-<
-nsICryptoHash
->
-mCryptoHash
 ;
 nsTArray
 <
