@@ -20117,7 +20117,7 @@ cx
 SpeciesConstructor
 (
 cx
-PromiseCtor
+promiseObj
 JSProto_Promise
 IsPromiseSpecies
 )
