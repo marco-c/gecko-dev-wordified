@@ -157,10 +157,24 @@ lstrip
 def
 filter_action
 (
-action
+actions
 lines
 )
 :
+    
+if
+isinstance
+(
+actions
+basestring
+)
+:
+        
+actions
+=
+(
+actions
+)
     
 return
 filter
@@ -174,9 +188,8 @@ x
 action
 '
 ]
-=
-=
-action
+in
+actions
 lines
 )
 def
