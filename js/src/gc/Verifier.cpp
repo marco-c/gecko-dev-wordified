@@ -4157,6 +4157,9 @@ dumpCellPath
 (
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 cell
@@ -4199,6 +4202,8 @@ stderr
 )
 ;
 }
+#
+endif
 }
 }
 bool
