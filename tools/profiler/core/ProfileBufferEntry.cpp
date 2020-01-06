@@ -4201,9 +4201,7 @@ marker
 =
 entry
 .
-getMarker
-(
-)
+mTagMarker
 ;
 if
 (
@@ -4220,9 +4218,7 @@ aSinceTime
 {
 entry
 .
-getMarker
-(
-)
+mTagMarker
 -
 >
 StreamJSON
