@@ -42032,6 +42032,10 @@ GetCurrentScrollParentId
 (
 )
 )
+mShouldFlatten
+(
+false
+)
 mSubDocFrame
 (
 aSubDocFrame
