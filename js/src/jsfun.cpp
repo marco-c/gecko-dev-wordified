@@ -600,7 +600,7 @@ prototype
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 obj
@@ -630,7 +630,7 @@ length
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 obj
@@ -659,7 +659,7 @@ name
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 obj

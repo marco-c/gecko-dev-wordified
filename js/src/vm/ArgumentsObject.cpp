@@ -4198,7 +4198,7 @@ length
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -4227,7 +4227,7 @@ callee
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -4256,7 +4256,7 @@ iterator
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -4299,7 +4299,7 @@ i
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -5520,7 +5520,7 @@ length
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -5549,7 +5549,7 @@ callee
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -5578,7 +5578,7 @@ iterator
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
@@ -5621,7 +5621,7 @@ i
 if
 (
 !
-HasProperty
+HasOwnProperty
 (
 cx
 argsobj
