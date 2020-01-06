@@ -3737,9 +3737,9 @@ skin
 /
 plugins
 /
-notifyPluginCrashed
+pluginGeneric
 .
-png
+svg
 "
 ;
 let
