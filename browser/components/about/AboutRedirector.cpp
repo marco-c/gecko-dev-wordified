@@ -1548,6 +1548,11 @@ nsIAboutModule
 :
 :
 URI_MUST_LOAD_IN_CHILD
+|
+nsIAboutModule
+:
+:
+ENABLE_INDEXED_DB
 ;
 return
 NS_OK
