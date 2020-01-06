@@ -21472,7 +21472,7 @@ NS_IsOffline
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -21579,7 +21579,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

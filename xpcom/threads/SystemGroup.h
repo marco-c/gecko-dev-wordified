@@ -239,7 +239,7 @@ any
 thread
 .
 static
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

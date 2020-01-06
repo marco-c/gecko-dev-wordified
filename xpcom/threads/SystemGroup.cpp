@@ -454,7 +454,7 @@ aRunnable
 static
 *
 /
-nsIEventTarget
+nsISerialEventTarget
 *
 SystemGroup
 :

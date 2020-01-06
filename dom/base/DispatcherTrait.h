@@ -139,10 +139,10 @@ TaskCategory
 h
 "
 class
-nsIEventTarget
+nsIRunnable
 ;
 class
-nsIRunnable
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -298,7 +298,7 @@ not
 safe
 .
 The
-nsIEventTarget
+nsISerialEventTarget
 can
 /
 /
@@ -311,7 +311,7 @@ main
 thread
 .
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

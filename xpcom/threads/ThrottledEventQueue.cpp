@@ -670,7 +670,7 @@ any
 thread
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mBaseTarget
 ;
@@ -700,7 +700,7 @@ mShutdownStarted
 explicit
 Inner
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aBaseTarget
 )
@@ -1310,7 +1310,7 @@ Inner
 >
 Create
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aBaseTarget
 )
@@ -2113,6 +2113,7 @@ NS_IMPL_ISUPPORTS
 ThrottledEventQueue
 ThrottledEventQueue
 nsIEventTarget
+nsISerialEventTarget
 )
 ;
 ThrottledEventQueue
@@ -2180,7 +2181,7 @@ ThrottledEventQueue
 :
 Create
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aBaseTarget
 )

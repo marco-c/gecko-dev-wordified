@@ -875,7 +875,7 @@ the
 main
 thread
 .
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

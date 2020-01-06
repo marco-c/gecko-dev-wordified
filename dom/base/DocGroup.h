@@ -613,7 +613,7 @@ nsIRunnable
 aRunnable
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

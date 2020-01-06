@@ -499,7 +499,7 @@ Timer
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -1485,7 +1485,7 @@ nullptr
 )
 {
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 TabGroup
 :

@@ -17754,7 +17754,7 @@ aRunnable
 override
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

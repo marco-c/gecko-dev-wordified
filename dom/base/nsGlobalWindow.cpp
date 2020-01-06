@@ -84981,7 +84981,7 @@ aRunnable
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 nsGlobalWindow
 :
