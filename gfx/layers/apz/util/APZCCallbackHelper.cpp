@@ -1779,7 +1779,9 @@ base
 0
 baseCSS
 .
-width
+Width
+(
+)
 *
 nsPresContext
 :
@@ -1789,7 +1791,9 @@ AppUnitsPerCSSPixel
 )
 baseCSS
 .
-height
+Height
+(
+)
 *
 nsPresContext
 :

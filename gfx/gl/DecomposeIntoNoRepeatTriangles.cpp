@@ -1126,7 +1126,9 @@ NS_ASSERTION
 (
 aTexCoordRect
 .
-width
+Width
+(
+)
 <
 =
 aTexSize
@@ -1136,7 +1138,9 @@ width
 &
 aTexCoordRect
 .
-height
+Height
+(
+)
 <
 =
 aTexSize

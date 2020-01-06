@@ -2159,7 +2159,9 @@ x
 +
 aLeftEyeRect
 .
-width
+Width
+(
+)
 ;
 bounds
 .
@@ -2175,7 +2177,9 @@ y
 -
 aLeftEyeRect
 .
-height
+Height
+(
+)
 ;
 :
 :
@@ -2269,7 +2273,9 @@ x
 +
 aRightEyeRect
 .
-width
+Width
+(
+)
 ;
 bounds
 .
@@ -2285,7 +2291,9 @@ y
 -
 aRightEyeRect
 .
-height
+Height
+(
+)
 ;
 err
 =

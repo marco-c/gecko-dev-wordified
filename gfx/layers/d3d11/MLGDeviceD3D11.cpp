@@ -8278,7 +8278,9 @@ Width
 =
 aViewport
 .
-width
+Width
+(
+)
 ;
 vp
 .
@@ -8286,7 +8288,9 @@ Height
 =
 aViewport
 .
-height
+Height
+(
+)
 ;
 mCtx
 -

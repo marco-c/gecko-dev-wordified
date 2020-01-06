@@ -6485,7 +6485,9 @@ width
 *
 aLeftEyeRect
 .
-width
+Width
+(
+)
 ;
 layer
 .
@@ -6504,7 +6506,9 @@ height
 *
 aLeftEyeRect
 .
-height
+Height
+(
+)
 ;
 layer
 .
@@ -6561,7 +6565,9 @@ width
 *
 aRightEyeRect
 .
-width
+Width
+(
+)
 ;
 layer
 .
@@ -6580,7 +6586,9 @@ height
 *
 aRightEyeRect
 .
-height
+Height
+(
+)
 ;
 const
 Point3D

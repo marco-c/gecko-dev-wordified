@@ -1848,7 +1848,9 @@ set_w
 (
 aRect
 .
-width
+Width
+(
+)
 )
 ;
 aPacketRect
@@ -1858,7 +1860,9 @@ set_h
 (
 aRect
 .
-height
+Height
+(
+)
 )
 ;
 }

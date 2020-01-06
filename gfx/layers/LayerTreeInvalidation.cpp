@@ -706,10 +706,14 @@ aRect
 y
 aRect
 .
-width
+Width
+(
+)
 aRect
 .
-height
+Height
+(
+)
 )
 ;
 rect

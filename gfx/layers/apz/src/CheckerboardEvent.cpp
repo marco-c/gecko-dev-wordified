@@ -674,7 +674,9 @@ y
 <
 aRect
 .
-width
+Width
+(
+)
 <
 <
 "
@@ -683,7 +685,9 @@ width
 <
 aRect
 .
-height
+Height
+(
+)
 <
 <
 "
