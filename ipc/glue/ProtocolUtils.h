@@ -4314,15 +4314,6 @@ void
 aArray
 )
 ;
-const
-char
-*
-StringFromIPCMessageType
-(
-uint32_t
-aMessageType
-)
-;
 }
 /
 /

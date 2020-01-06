@@ -3252,10 +3252,7 @@ Telemetry
 IPC_READ_MAIN_THREAD_LATENCY_MS
 nsDependentCString
 (
-mozilla
-:
-:
-ipc
+IPC
 :
 :
 StringFromIPCMessageType

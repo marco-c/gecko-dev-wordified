@@ -13524,22 +13524,6 @@ replyId
 (
 )
         
-prettyName
-=
-md
-.
-prettyReplyName
-(
-protocol
-.
-name
-+
-'
-:
-:
-'
-)
-        
 replyEnum
 =
 '
@@ -13563,22 +13547,6 @@ md
 .
 msgId
 (
-)
-        
-prettyName
-=
-md
-.
-prettyMsgName
-(
-protocol
-.
-name
-+
-'
-:
-:
-'
 )
         
 replyEnum
@@ -14019,13 +13987,6 @@ segmentSize
                                       
 flags
                                       
-ExprLiteral
-.
-String
-(
-prettyName
-)
-                                      
 #
 Pass
 true
@@ -14079,13 +14040,6 @@ msgid
 )
                                       
 flags
-                                      
-ExprLiteral
-.
-String
-(
-prettyName
-)
 ]
 )
 )
