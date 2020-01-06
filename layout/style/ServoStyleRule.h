@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsICSSStyleRuleDOMWrapper
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h
