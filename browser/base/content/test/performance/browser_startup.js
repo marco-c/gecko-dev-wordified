@@ -535,6 +535,11 @@ nsSearchService
 .
 js
 "
+"
+UnifiedComplete
+.
+js
+"
 ]
 )
 }
