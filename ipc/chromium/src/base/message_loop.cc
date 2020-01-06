@@ -1189,9 +1189,9 @@ MessageLoop
 (
 Type
 type
-nsIThread
+nsIEventTarget
 *
-aThread
+aEventTarget
 )
 :
 type_
@@ -1308,7 +1308,7 @@ TYPE_MOZILLA_PARENT
 MOZ_RELEASE_ASSERT
 (
 !
-aThread
+aEventTarget
 )
 ;
 pump_
@@ -1322,7 +1322,7 @@ ipc
 :
 MessagePump
 (
-aThread
+aEventTarget
 )
 ;
 return
@@ -1333,7 +1333,7 @@ TYPE_MOZILLA_CHILD
 MOZ_RELEASE_ASSERT
 (
 !
-aThread
+aEventTarget
 )
 ;
 pump_
@@ -1420,7 +1420,7 @@ ipc
 :
 MessagePumpForNonMainThreads
 (
-aThread
+aEventTarget
 )
 ;
 return
@@ -1445,7 +1445,7 @@ ipc
 :
 MessagePumpForNonMainUIThreads
 (
-aThread
+aEventTarget
 )
 ;
 return
@@ -1463,7 +1463,7 @@ TYPE_MOZILLA_ANDROID_UI
 :
 MOZ_RELEASE_ASSERT
 (
-aThread
+aEventTarget
 )
 ;
 pump_
@@ -1477,7 +1477,7 @@ ipc
 :
 MessagePumpForAndroidUI
 (
-aThread
+aEventTarget
 )
 ;
 return
