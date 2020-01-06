@@ -2471,11 +2471,6 @@ this
 .
 _dispatcher
 =
-gvWin
-.
-WindowEventDispatcher
-|
-|
 EventDispatcher
 .
 for
