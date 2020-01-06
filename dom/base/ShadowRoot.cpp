@@ -514,7 +514,7 @@ SetFlags
 NODE_IS_IN_SHADOW_TREE
 )
 ;
-DOMSlots
+ExtendedDOMSlots
 (
 )
 -
@@ -523,7 +523,7 @@ mBindingParent
 =
 aContent
 ;
-DOMSlots
+ExtendedDOMSlots
 (
 )
 -
