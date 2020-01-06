@@ -579,7 +579,7 @@ void
 CanvasLayerMLGPU
 :
 :
-SetRegionToRender
+SetRenderRegion
 (
 LayerIntRegion
 &
@@ -603,7 +603,7 @@ mPictureRect
 LayerMLGPU
 :
 :
-SetRegionToRender
+SetRenderRegion
 (
 Move
 (

@@ -1788,6 +1788,11 @@ origin
 is
 important
 .
+template
+<
+typename
+RegionType
+>
 bool
 AddItems
 (
@@ -1799,7 +1804,7 @@ Info
 &
 aInfo
 const
-nsIntRegion
+RegionType
 &
 aDrawRegion
 )
@@ -1843,6 +1848,10 @@ Rect
 iter
 .
 Get
+(
+)
+.
+ToUnknownRect
 (
 )
 )
