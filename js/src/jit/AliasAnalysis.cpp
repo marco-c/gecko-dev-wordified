@@ -1067,6 +1067,10 @@ new
 alloc
 (
 )
+.
+fallible
+(
+)
 )
 LoopAliasInfo
 (
@@ -1077,6 +1081,14 @@ loop_
 *
 block
 )
+;
+if
+(
+!
+loop_
+)
+return
+false
 ;
 }
 for
