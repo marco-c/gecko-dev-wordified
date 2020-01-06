@@ -146,6 +146,7 @@ extract_inner_rect_safe
 TransformedRect
 }
 ;
+pub
 const
 MAX_CLIP
 :

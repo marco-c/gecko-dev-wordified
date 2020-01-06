@@ -550,6 +550,9 @@ mod
 profiler
 ;
 mod
+query
+;
+mod
 record
 ;
 mod
