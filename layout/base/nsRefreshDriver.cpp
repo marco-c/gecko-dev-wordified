@@ -11169,7 +11169,7 @@ false
 shell
 -
 >
-mSuppressInterruptibleReflows
+mWasLastReflowInterrupted
 =
 false
 ;

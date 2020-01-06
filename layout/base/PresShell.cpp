@@ -5000,7 +5000,7 @@ mObservesMutationsForPrint
 (
 false
 )
-mSuppressInterruptibleReflows
+mWasLastReflowInterrupted
 (
 false
 )
@@ -25074,7 +25074,9 @@ flushType
 >
 =
 (
-mSuppressInterruptibleReflows
+SuppressInterruptibleReflows
+(
+)
 ?
 FlushType
 :
@@ -25272,7 +25274,9 @@ flush
 or
 due
 to
-mSuppressInterruptibleReflows
+SuppressInterruptibleReflows
+(
+)
 .
 Either
 way
@@ -58670,7 +58674,7 @@ reflow
 event
 happens
 .
-mSuppressInterruptibleReflows
+mWasLastReflowInterrupted
 =
 true
 ;
