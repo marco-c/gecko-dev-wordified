@@ -494,6 +494,7 @@ nightly
 feature
 (
 const_fn
+thread_local_state
 )
 )
 ]
