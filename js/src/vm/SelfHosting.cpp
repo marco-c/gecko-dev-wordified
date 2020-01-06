@@ -11489,7 +11489,7 @@ length
 5
 )
 ;
-RootedObject
+RootedArrayObject
 matchResult
 (
 cx
@@ -11500,6 +11500,13 @@ args
 ]
 .
 toObject
+(
+)
+.
+as
+<
+ArrayObject
+>
 (
 )
 )

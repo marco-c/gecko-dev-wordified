@@ -9864,10 +9864,11 @@ pc
 )
 )
 ;
-RootedObject
+RootedArrayObject
 raw
 (
 cx
+&
 script
 -
 >
@@ -9879,6 +9880,14 @@ pc
 )
 +
 1
+)
+-
+>
+as
+<
+ArrayObject
+>
+(
 )
 )
 ;

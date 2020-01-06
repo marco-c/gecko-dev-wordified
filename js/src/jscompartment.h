@@ -6927,7 +6927,7 @@ cx
 js
 :
 :
-HandleObject
+HandleArrayObject
 rawStrings
 js
 :
@@ -6955,7 +6955,10 @@ JSObject
 *
 getExistingTemplateLiteralObject
 (
-JSObject
+js
+:
+:
+ArrayObject
 *
 rawStrings
 )

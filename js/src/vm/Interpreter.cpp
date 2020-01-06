@@ -21637,6 +21637,13 @@ getTemplateLiteralObject
 (
 cx
 raw
+.
+as
+<
+ArrayObject
+>
+(
+)
 &
 cso
 )

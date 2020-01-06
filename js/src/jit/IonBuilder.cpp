@@ -15262,10 +15262,11 @@ pc
 }
 else
 {
-JSObject
+ArrayObject
 *
 raw
 =
+&
 script
 (
 )
@@ -15279,6 +15280,14 @@ pc
 )
 +
 1
+)
+-
+>
+as
+<
+ArrayObject
+>
+(
 )
 ;
 JSObject

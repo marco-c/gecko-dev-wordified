@@ -700,7 +700,7 @@ JSString
 *
 *
 sepOut
-JSObject
+ArrayObject
 *
 *
 objOut
