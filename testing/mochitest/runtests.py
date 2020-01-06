@@ -10702,22 +10702,13 @@ self
 .
 log
 .
-error
+warning
 (
 "
-TEST
--
-UNEXPECTED
--
-ERROR
-|
 runtests
 .
 py
 |
-"
-                           
-"
 Cannot
 find
 failure
@@ -10725,6 +10716,7 @@ pattern
 file
 "
 +
+                             
 pat_file
 )
             
