@@ -425,6 +425,9 @@ UniqueLinkDataTier
 class
 LinkData
 {
+SharedMetadata
+metadata_
+;
 UniqueLinkDataTier
 linkData1_
 ;
@@ -453,6 +456,10 @@ initTier1
 (
 Tier
 tier
+const
+Metadata
+&
+metadata
 )
 ;
 bool
@@ -460,7 +467,16 @@ hasTier2
 (
 )
 const
+{
+return
+metadata_
+-
+>
+hasTier2
+(
+)
 ;
+}
 void
 setTier2
 (
