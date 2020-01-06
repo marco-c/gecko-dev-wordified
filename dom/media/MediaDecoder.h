@@ -160,6 +160,13 @@ h
 #
 include
 "
+MediaPromiseDefs
+.
+h
+"
+#
+include
+"
 MediaResource
 .
 h
@@ -2202,7 +2209,10 @@ return
 mAbstractMainThread
 ;
 }
-void
+RefPtr
+<
+SetCDMPromise
+>
 SetCDMProxy
 (
 CDMProxy
