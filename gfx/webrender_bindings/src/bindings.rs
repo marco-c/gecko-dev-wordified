@@ -6883,6 +6883,9 @@ c_filter
 .
 argument
 )
+c_filter
+.
+argument
 )
 WrFilterOpType
 :
@@ -6968,6 +6971,8 @@ Value
 *
 opacity
 )
+*
+opacity
 )
 )
 ;
@@ -7084,6 +7089,9 @@ anim
 id
 )
 )
+1
+.
+0
 )
 )
 WrAnimationType
