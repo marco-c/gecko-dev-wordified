@@ -515,7 +515,7 @@ the
 decompression
 session
 .
-nsresult
+MediaResult
 InitializeSession
 (
 )
