@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsQuickSort
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
