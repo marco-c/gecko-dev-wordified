@@ -5260,6 +5260,14 @@ and
 intrinsics
 .
 InliningResult
+inlineObject
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineObjectCreate
 (
 CallInfo
