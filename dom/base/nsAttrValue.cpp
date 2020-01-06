@@ -6290,7 +6290,10 @@ array
 >
 AppendElement
 (
+Move
+(
 classAtom
+)
 )
 )
 {
@@ -6366,7 +6369,10 @@ array
 >
 AppendElement
 (
+Move
+(
 classAtom
+)
 )
 )
 {
