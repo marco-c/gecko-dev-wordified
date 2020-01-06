@@ -2461,6 +2461,8 @@ dom
 Element
 *
 aElement
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 ;
 bool

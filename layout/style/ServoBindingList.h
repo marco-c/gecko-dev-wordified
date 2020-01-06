@@ -2134,6 +2134,11 @@ RawGeckoElementBorrowed
 element
 RawServoStyleSetBorrowed
 set
+mozilla
+:
+:
+TraversalRestyleBehavior
+restyle_behavior
 )
 SERVO_BINDING_FUNC
 (

@@ -3469,6 +3469,7 @@ StyleSet
 ResolveServoStyle
 (
 aElement
+aRestyleBehavior
 )
 ;
 MOZ_ASSERT

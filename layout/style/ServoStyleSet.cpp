@@ -1081,6 +1081,10 @@ computedValues
 ResolveServoStyle
 (
 element
+TraversalRestyleBehavior
+:
+:
+Normal
 )
 ;
 }
@@ -2577,6 +2581,10 @@ mRawSet
 get
 (
 )
+TraversalRestyleBehavior
+:
+:
+Normal
 )
 .
 Consume
@@ -5934,6 +5942,8 @@ ResolveServoStyle
 Element
 *
 aElement
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 {
 UpdateStylistIfNeeded
@@ -5949,6 +5959,7 @@ mRawSet
 get
 (
 )
+aRestyleBehavior
 )
 .
 Consume
