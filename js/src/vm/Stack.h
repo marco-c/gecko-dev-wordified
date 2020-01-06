@@ -248,7 +248,7 @@ include
 "
 wasm
 /
-WasmFrameIterator
+WasmFrameIter
 .
 h
 "
@@ -11334,7 +11334,7 @@ by
 wasm
 :
 :
-FrameIterator
+WasmFrameIter
 during
 stack
 unwinding
@@ -11610,7 +11610,7 @@ ionInlineFrameNo_
 wasm
 :
 :
-FrameIterator
+WasmFrameIter
 wasmFrames_
 ;
 Data

@@ -736,7 +736,7 @@ cx
 (
 )
 ;
-FrameIterator
+WasmFrameIter
 iter
 (
 activation
@@ -1255,7 +1255,7 @@ cx
 ;
 /
 /
-FrameIterator
+WasmFrameIter
 iterates
 down
 wasm
@@ -1288,7 +1288,7 @@ exitFP
 once
 each
 time
-FrameIterator
+WasmFrameIter
 is
 incremented
 ultimately
@@ -1299,7 +1299,7 @@ exitFP
 null
 when
 the
-FrameIterator
+WasmFrameIter
 is
 done
 (
@@ -1351,11 +1351,11 @@ becomes
 trash
 )
 .
-FrameIterator
+WasmFrameIter
 iter
 (
 activation
-FrameIterator
+WasmFrameIter
 :
 :
 Unwind
@@ -1406,7 +1406,7 @@ wasm
 Frame
 found
 by
-FrameIterator
+WasmFrameIter
 .
 /
 /

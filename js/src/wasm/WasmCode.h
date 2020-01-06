@@ -234,9 +234,6 @@ Metadata
 struct
 MetadataTier
 ;
-class
-FrameIterator
-;
 /
 /
 ShareableBytes

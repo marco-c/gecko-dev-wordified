@@ -182,7 +182,7 @@ include
 "
 wasm
 /
-WasmFrameIterator
+WasmFrameIter
 .
 h
 "
@@ -317,12 +317,12 @@ Swap
 /
 /
 /
-FrameIterator
+WasmFrameIter
 implementation
-FrameIterator
+WasmFrameIter
 :
 :
-FrameIterator
+WasmFrameIter
 (
 )
 :
@@ -366,10 +366,10 @@ done
 )
 ;
 }
-FrameIterator
+WasmFrameIter
 :
 :
-FrameIterator
+WasmFrameIter
 (
 WasmActivation
 *
@@ -682,7 +682,7 @@ done
 ;
 }
 bool
-FrameIterator
+WasmFrameIter
 :
 :
 done
@@ -720,7 +720,7 @@ fp_
 ;
 }
 void
-FrameIterator
+WasmFrameIter
 :
 :
 operator
@@ -919,7 +919,7 @@ popFrame
 ;
 }
 void
-FrameIterator
+WasmFrameIter
 :
 :
 popFrame
@@ -1079,7 +1079,7 @@ done
 const
 char
 *
-FrameIterator
+WasmFrameIter
 :
 :
 filename
@@ -1113,7 +1113,7 @@ get
 const
 char16_t
 *
-FrameIterator
+WasmFrameIter
 :
 :
 displayURL
@@ -1143,7 +1143,7 @@ displayURL
 ;
 }
 bool
-FrameIterator
+WasmFrameIter
 :
 :
 mutedErrors
@@ -1174,7 +1174,7 @@ mutedErrors
 }
 JSAtom
 *
-FrameIterator
+WasmFrameIter
 :
 :
 functionDisplayAtom
@@ -1250,7 +1250,7 @@ atom
 ;
 }
 unsigned
-FrameIterator
+WasmFrameIter
 :
 :
 lineOrBytecode
@@ -1298,7 +1298,7 @@ funcLineOrBytecode
 }
 Instance
 *
-FrameIterator
+WasmFrameIter
 :
 :
 instance
@@ -1327,7 +1327,7 @@ instance
 void
 *
 *
-FrameIterator
+WasmFrameIter
 :
 :
 unwoundAddressOfReturnAddress
@@ -1363,7 +1363,7 @@ unwoundAddressOfReturnAddress_
 ;
 }
 bool
-FrameIterator
+WasmFrameIter
 :
 :
 debugEnabled
@@ -1469,7 +1469,7 @@ length
 }
 DebugFrame
 *
-FrameIterator
+WasmFrameIter
 :
 :
 debugFrame
@@ -1517,7 +1517,7 @@ offsetOfFrame
 const
 CallSite
 *
-FrameIterator
+WasmFrameIter
 :
 :
 debugTrapCallsite
@@ -7506,7 +7506,7 @@ isWasm
 {
 for
 (
-FrameIterator
+WasmFrameIter
 fi
 (
 iter
