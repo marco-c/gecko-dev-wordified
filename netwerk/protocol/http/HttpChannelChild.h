@@ -760,10 +760,6 @@ cacheFetchCount
 const
 uint32_t
 &
-cacheLastFetched
-const
-uint32_t
-&
 cacheExpirationTime
 const
 nsCString
@@ -965,15 +961,6 @@ const
 int16_t
 &
 aPriority
-)
-override
-;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
 )
 override
 ;
@@ -1642,9 +1629,6 @@ int32_t
 mCacheFetchCount
 ;
 uint32_t
-mCacheLastFetched
-;
-uint32_t
 mCacheExpirationTime
 ;
 nsCString
@@ -2240,10 +2224,6 @@ const
 int32_t
 &
 cacheFetchCount
-const
-uint32_t
-&
-cacheLastFetched
 const
 uint32_t
 &
