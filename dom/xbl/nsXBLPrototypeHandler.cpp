@@ -744,7 +744,7 @@ aLineNumber
 )
 mReserved
 (
-false
+XBLReservedKey_False
 )
 mNextHandler
 (
@@ -785,7 +785,7 @@ nsXBLPrototypeHandler
 nsIContent
 *
 aHandlerElement
-bool
+XBLReservedKey
 aReserved
 )
 :
@@ -849,7 +849,7 @@ mLineNumber
 )
 mReserved
 (
-false
+XBLReservedKey_False
 )
 mNextHandler
 (

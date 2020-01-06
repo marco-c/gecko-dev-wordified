@@ -961,6 +961,9 @@ desktop
 -
 notification
 "
+"
+shortcuts
+"
 }
 ;
 /
