@@ -1968,7 +1968,7 @@ rbt_nil
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2026,7 +2026,7 @@ rbt_nil
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2086,7 +2086,7 @@ rbt_nil
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2146,7 +2146,7 @@ rbt_nil
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2289,7 +2289,7 @@ rbt_nil
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2352,7 +2352,7 @@ rbt_root
 r_node
 )
 =
-NULL
+nullptr
 ;
 \
 while
