@@ -13621,6 +13621,17 @@ reference
 =
 =
 "
+ExtensionSidebarPane
+"
+|
+|
+type
+.
+reference
+=
+=
+=
+"
 Port
 "
 )
