@@ -21257,6 +21257,7 @@ i
 SetClipChain
 (
 intersection
+true
 )
 ;
 }
@@ -21269,6 +21270,7 @@ IntersectClip
 (
 aBuilder
 aExtraClip
+true
 )
 ;
 aCache

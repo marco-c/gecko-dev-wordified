@@ -28615,6 +28615,7 @@ IntersectClip
 (
 aBuilder
 newClipChain
+true
 )
 ;
 itemToInsert
