@@ -9880,13 +9880,11 @@ putDataProperty
 cx
 obj
 id
-SHAPE_INVALID_SLOT
 desc
 .
 attributes
 (
 )
-0
 )
 ;
 }

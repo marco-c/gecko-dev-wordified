@@ -6075,12 +6075,8 @@ HandleNativeObject
 obj
 HandleId
 id
-uint32_t
-slot
 unsigned
 attrs
-unsigned
-flags
 )
 ;
 static
