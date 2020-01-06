@@ -255,19 +255,7 @@ libpulse
 '
         
 '
-mercurial
-'
-        
-'
 mesa
-'
-        
-'
-python2
-'
-        
-'
-unzip
 '
         
 '
@@ -280,10 +268,6 @@ xvfb
         
 '
 yasm
-'
-        
-'
-zip
 '
         
 '
