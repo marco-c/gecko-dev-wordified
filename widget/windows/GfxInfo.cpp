@@ -3906,9 +3906,6 @@ factory
 =
 nullptr
 ;
-HRESULT
-hrf
-=
 createDXGIFactory
 (
 __uuidof
