@@ -1643,6 +1643,7 @@ return
 bmFolder
 ;
 }
+async
 function
 apply
 (
@@ -1663,6 +1664,7 @@ applyIncoming
 record
 )
 ;
+await
 store
 .
 _orderChildren
@@ -1692,6 +1694,7 @@ bookmark
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -1794,6 +1797,7 @@ behind
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -1911,6 +1915,7 @@ folder
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -1933,6 +1938,7 @@ id31
 ]
 )
 ;
+await
 apply
 (
 f30
@@ -2069,6 +2075,7 @@ unfiled
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -2216,6 +2223,7 @@ append
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -2381,6 +2389,7 @@ id42
 ]
 )
 ;
+await
 apply
 (
 f40
@@ -2544,6 +2553,7 @@ id42
 id41
 ]
 ;
+await
 apply
 (
 f40
@@ -2709,6 +2719,7 @@ id41
 id42
 ]
 ;
+await
 apply
 (
 f40
@@ -2867,6 +2878,7 @@ update
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -3032,6 +3044,7 @@ f30
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -3050,6 +3063,7 @@ id10
 id31
 ]
 ;
+await
 apply
 (
 f30
@@ -3212,6 +3226,7 @@ f30
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -3231,6 +3246,7 @@ id20
 id31
 ]
 ;
+await
 apply
 (
 f30
@@ -3390,6 +3406,7 @@ f30
 "
 )
 ;
+await
 apply
 (
 bookmark
@@ -3409,6 +3426,7 @@ id10
 id31
 ]
 ;
+await
 apply
 (
 f30

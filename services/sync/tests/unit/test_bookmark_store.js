@@ -2390,8 +2390,9 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_move_order
 (
@@ -2638,6 +2639,7 @@ ignoreAll
 =
 true
 ;
+await
 store
 .
 _orderChildren
@@ -2723,10 +2725,6 @@ up
 store
 .
 wipe
-(
-)
-;
-run_next_test
 (
 )
 ;
