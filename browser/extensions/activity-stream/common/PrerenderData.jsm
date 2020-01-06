@@ -500,12 +500,6 @@ Pocket
 "
 }
 }
-topics
-:
-[
-{
-}
-]
 }
 {
 enabled
