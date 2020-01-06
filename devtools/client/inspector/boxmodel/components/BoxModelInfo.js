@@ -243,9 +243,17 @@ boxModel
 let
 {
 height
+=
+"
+-
+"
 isPositionEditable
 position
 width
+=
+"
+-
+"
 }
 =
 layout
