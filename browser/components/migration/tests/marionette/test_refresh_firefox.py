@@ -21,6 +21,14 @@ MarionetteTestCase
 )
 :
     
+_sandbox
+=
+"
+firefox
+-
+refresh
+"
+    
 _username
 =
 "
@@ -264,14 +272,14 @@ myLogin
 "
 script_args
 =
-[
+(
 self
 .
 _username
 self
 .
 _password
-]
+)
 )
     
 def
@@ -335,14 +343,14 @@ title
 "
 script_args
 =
-[
+(
 self
 .
 _bookmarkURL
 self
 .
 _bookmarkText
-]
+)
 )
     
 def
@@ -518,14 +526,14 @@ false
 "
 script_args
 =
-[
+(
 self
 .
 _historyURL
 self
 .
 _historyTitle
-]
+)
 )
         
 if
@@ -659,14 +667,14 @@ false
 "
 script_args
 =
-[
+(
 self
 .
 _formHistoryFieldName
 self
 .
 _formHistoryValue
-]
+)
 )
         
 if
@@ -755,7 +763,7 @@ expireTime
 "
 script_args
 =
-[
+(
 self
 .
 _cookieHost
@@ -768,7 +776,7 @@ _cookieName
 self
 .
 _cookieValue
-]
+)
 )
     
 def
@@ -1084,11 +1092,11 @@ tab
 "
 script_args
 =
-[
+(
 self
 .
 _expectedURLs
-]
+)
 )
     
 def
@@ -1351,11 +1359,11 @@ bookmarkIds
 "
 script_args
 =
-[
+(
 self
 .
 _bookmarkURL
-]
+)
 )
         
 self
@@ -1467,11 +1475,11 @@ e
 "
 script_args
 =
-[
+(
 self
 .
 _historyURL
-]
+)
 )
         
 if
@@ -1604,11 +1612,11 @@ results
 "
 script_args
 =
-[
+(
 self
 .
 _formHistoryFieldName
-]
+)
 )
         
 if
@@ -1948,11 +1956,11 @@ ex
 "
 script_args
 =
-[
+(
 self
 .
 _cookieHost
-]
+)
 )
         
 if
@@ -2520,13 +2528,19 @@ CONTEXT_CHROME
         
 self
 .
-marionette
-.
-execute_script
+runCode
 (
 "
 "
 "
+          
+window
+.
+global
+=
+{
+}
+;
           
 global
 .
@@ -2646,14 +2660,6 @@ FormHistory
 "
 "
 "
-new_sandbox
-=
-False
-sandbox
-=
-'
-system
-'
 )
     
 def
@@ -2677,16 +2683,20 @@ marionette
 execute_script
 (
 script
+                                              
 new_sandbox
 =
 False
+                                              
 sandbox
 =
-'
-system
-'
+self
+.
+_sandbox
+                                              
 *
 args
+                                              
 *
 *
 kwargs
@@ -2713,16 +2723,20 @@ marionette
 execute_async_script
 (
 script
+                                                    
 new_sandbox
 =
 False
+                                                    
 sandbox
 =
-'
-system
-'
+self
+.
+_sandbox
+                                                    
 *
 args
+                                                    
 *
 *
 kwargs
@@ -3012,11 +3026,11 @@ flush
 "
 script_args
 =
-[
+(
 self
 .
 profileNameToRemove
-]
+)
 )
             
 #
@@ -3315,7 +3329,7 @@ profileName
 "
 script_args
 =
-[
+(
 self
 .
 marionette
@@ -3326,7 +3340,7 @@ profile
 .
 profile
 profileName
-]
+)
 )
         
 profileLeafName
@@ -3594,9 +3608,9 @@ path
 "
 script_args
 =
-[
+(
 profileLeafName
-]
+)
 )
         
 self
