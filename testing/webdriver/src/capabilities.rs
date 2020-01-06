@@ -2079,12 +2079,12 @@ WebDriverResult
 {
 match
 value
+.
+as_i64
+(
+)
 {
-&
-Json
-:
-:
-I64
+Some
 (
 x
 )
