@@ -549,7 +549,7 @@ Clear
 )
 ;
 bool
-IsTopLevelContentDocument
+IsTopLevelContentDocumentInContentProcess
 (
 )
 const
