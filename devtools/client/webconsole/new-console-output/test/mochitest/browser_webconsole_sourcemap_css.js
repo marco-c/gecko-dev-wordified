@@ -209,12 +209,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -233,7 +233,7 @@ enabled
 true
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -251,7 +251,7 @@ true
 const
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 PAGE_URL
@@ -270,7 +270,7 @@ warning
 let
 node
 =
-yield
+await
 waitFor
 (
 (
@@ -314,7 +314,7 @@ applied
 let
 found
 =
-yield
+await
 waitFor
 (
 (

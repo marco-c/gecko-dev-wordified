@@ -150,8 +150,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -263,7 +263,7 @@ log
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -291,7 +291,7 @@ getToolbox
 target
 )
 ;
-yield
+await
 testOpenInDebugger
 (
 hud
@@ -308,8 +308,8 @@ trace
 }
 )
 ;
+async
 function
-*
 testOpenInDebugger
 (
 hud
@@ -333,7 +333,7 @@ text
 let
 messageNode
 =
-yield
+await
 waitFor
 (
 (
@@ -396,7 +396,7 @@ of
 frameLinksNode
 )
 {
-yield
+await
 checkClickOnNode
 (
 hud
@@ -414,7 +414,7 @@ again
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -426,8 +426,8 @@ webconsole
 ;
 }
 }
+async
 function
-*
 checkClickOnNode
 (
 hud
@@ -491,7 +491,7 @@ source
 )
 )
 ;
-yield
+await
 onSourceInDebuggerOpened
 ;
 let

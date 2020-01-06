@@ -120,8 +120,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -129,13 +129,13 @@ setupObserver
 (
 )
 ;
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
 )
 ;
-yield
+await
 waitFor
 (
 (
@@ -145,7 +145,7 @@ waitFor
 created
 )
 ;
-yield
+await
 closeTabAndToolbox
 (
 gBrowser
@@ -153,7 +153,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 waitFor
 (
 (

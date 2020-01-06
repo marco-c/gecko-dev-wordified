@@ -132,15 +132,15 @@ script
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -230,7 +230,6 @@ selectedBrowser
 {
 }
 function
-*
 (
 )
 {
@@ -255,7 +254,7 @@ message
 let
 msg
 =
-yield
+await
 waitFor
 (
 (
@@ -302,7 +301,7 @@ area
 "
 )
 ;
-yield
+await
 waitForBlurredInput
 (
 hud
@@ -358,7 +357,7 @@ focus
 "
 )
 ;
-yield
+await
 waitForBlurredInput
 (
 hud

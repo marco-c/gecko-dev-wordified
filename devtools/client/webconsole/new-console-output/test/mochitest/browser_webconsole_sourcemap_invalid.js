@@ -181,12 +181,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -208,7 +208,7 @@ true
 const
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 PAGE_URL
@@ -217,7 +217,7 @@ PAGE_URL
 const
 node
 =
-yield
+await
 waitFor
 (
 (

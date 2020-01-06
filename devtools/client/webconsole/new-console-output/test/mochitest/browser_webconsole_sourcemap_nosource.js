@@ -181,8 +181,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -207,7 +207,7 @@ debugger
 still
 turned
 on
-yield
+await
 pushPref
 (
 "
@@ -224,7 +224,7 @@ frontend
 true
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -246,7 +246,7 @@ true
 const
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 PAGE_URL
@@ -284,7 +284,7 @@ applied
 "
 )
 ;
-yield
+await
 waitFor
 (
 (
@@ -359,7 +359,7 @@ nosuchfile
 }
 )
 ;
-yield
+await
 testOpenInDebugger
 (
 hud
@@ -379,7 +379,7 @@ again
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -392,7 +392,7 @@ webconsole
 const
 node
 =
-yield
+await
 waitFor
 (
 (

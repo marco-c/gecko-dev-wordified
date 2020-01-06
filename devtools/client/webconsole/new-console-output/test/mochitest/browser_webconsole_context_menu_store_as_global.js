@@ -181,15 +181,15 @@ script
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -202,7 +202,7 @@ msgWithObj
 msgNested
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -359,7 +359,7 @@ messages
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -401,7 +401,7 @@ message
 "
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud
@@ -427,7 +427,7 @@ messages
 ;
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -470,7 +470,7 @@ message
 "
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud
@@ -494,7 +494,7 @@ messages
 "
 )
 ;
-yield
+await
 storeAsVariable
 (
 hud
@@ -523,7 +523,7 @@ set
 let
 executedResult
 =
-yield
+await
 hud
 .
 jsterm
@@ -576,7 +576,7 @@ messages
 "
 )
 ;
-yield
+await
 storeAsVariable
 (
 hud
@@ -604,7 +604,7 @@ set
 ;
 executedResult
 =
-yield
+await
 hud
 .
 jsterm
@@ -664,7 +664,7 @@ messages
 "
 )
 ;
-yield
+await
 storeAsVariable
 (
 hud
@@ -692,7 +692,7 @@ set
 ;
 executedResult
 =
-yield
+await
 hud
 .
 jsterm
@@ -733,8 +733,8 @@ textContent
 }
 )
 ;
+async
 function
-*
 storeAsVariable
 (
 hud
@@ -757,7 +757,7 @@ enabled
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -855,7 +855,7 @@ variable
 "
 )
 ;
-yield
+await
 onceInputSet
 ;
 info
@@ -871,7 +871,7 @@ hidden
 "
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud

@@ -206,15 +206,15 @@ object
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -227,7 +227,7 @@ msgWithObj
 msgNested
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -266,7 +266,7 @@ let
 groupMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -293,7 +293,7 @@ let
 collapsedGroupMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -320,7 +320,7 @@ let
 numberMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -345,7 +345,7 @@ let
 trueMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -370,7 +370,7 @@ let
 falseMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -395,7 +395,7 @@ let
 undefinedMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -420,7 +420,7 @@ let
 nullMsgObj
 ]
 =
-yield
+await
 waitFor
 (
 (
@@ -561,7 +561,7 @@ object
 let
 consoleMessages
 =
-yield
+await
 waitFor
 (
 (
@@ -593,7 +593,7 @@ location
 )
 )
 ;
-yield
+await
 testCopyObjectMenuItemDisabled
 (
 hud
@@ -622,7 +622,7 @@ the
 text
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -651,7 +651,7 @@ the
 text
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -676,7 +676,7 @@ messages
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -708,7 +708,7 @@ messages
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -746,7 +746,7 @@ messages
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -782,7 +782,7 @@ messages
 "
 )
 ;
-yield
+await
 testCopyObjectMenuItemDisabled
 (
 hud
@@ -812,7 +812,7 @@ collapsed
 messages
 )
 ;
-yield
+await
 testCopyObjectMenuItemDisabled
 (
 hud
@@ -838,7 +838,7 @@ numbers
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -860,7 +860,7 @@ booleans
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -869,7 +869,7 @@ true
 false
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -893,7 +893,7 @@ null
 "
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -902,7 +902,7 @@ undefined
 false
 )
 ;
-yield
+await
 testCopyObject
 (
 hud
@@ -914,8 +914,8 @@ false
 }
 )
 ;
+async
 function
-*
 testCopyObject
 (
 hud
@@ -938,7 +938,7 @@ enabled
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -1009,7 +1009,7 @@ object
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (
@@ -1041,14 +1041,14 @@ O
 ;
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
 element
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (
@@ -1065,8 +1065,8 @@ validatorFn
 )
 ;
 }
+async
 function
-*
 testCopyObjectMenuItemDisabled
 (
 hud
@@ -1076,7 +1076,7 @@ element
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -1113,7 +1113,7 @@ variables
 objects
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud

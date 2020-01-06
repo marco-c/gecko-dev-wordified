@@ -153,8 +153,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ debugger
 still
 turned
 on
-yield
+await
 pushPref
 (
 "
@@ -196,7 +196,7 @@ frontend
 true
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -211,7 +211,7 @@ error
 true
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -276,7 +276,7 @@ expectUncaughtException
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -304,7 +304,7 @@ getToolbox
 target
 )
 ;
-yield
+await
 testOpenInDebugger
 (
 hud
@@ -326,7 +326,7 @@ again
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -336,7 +336,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testOpenInDebugger
 (
 hud
@@ -367,7 +367,7 @@ again
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -377,7 +377,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testOpenInDebugger
 (
 hud

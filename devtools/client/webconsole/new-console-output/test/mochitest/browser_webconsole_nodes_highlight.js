@@ -157,15 +157,15 @@ HTML
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -183,7 +183,7 @@ hud
 target
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -214,7 +214,7 @@ h1
 let
 msg
 =
-yield
+await
 waitFor
 (
 (
@@ -319,7 +319,7 @@ view
 let
 nodeFront
 =
-yield
+await
 onNodeHighlight
 ;
 is
@@ -402,7 +402,7 @@ mousemove
 view
 )
 ;
-yield
+await
 onNodeUnhighlight
 ;
 ok
