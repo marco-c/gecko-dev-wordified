@@ -3975,6 +3975,11 @@ BaseShapeSet
 JS
 :
 :
+WeakCache
+<
+JS
+:
+:
 GCHashSet
 <
 ReadBarriered
@@ -3984,6 +3989,7 @@ UnownedBaseShape
 >
 StackBaseShape
 SystemAllocPolicy
+>
 >
 ;
 class
@@ -8316,11 +8322,17 @@ InitialShapeSet
 JS
 :
 :
+WeakCache
+<
+JS
+:
+:
 GCHashSet
 <
 InitialShapeEntry
 InitialShapeEntry
 SystemAllocPolicy
+>
 >
 ;
 struct

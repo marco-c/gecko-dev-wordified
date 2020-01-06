@@ -8703,10 +8703,6 @@ e
 baseShapes
 (
 )
-.
-get
-(
-)
 )
 ;
 !
@@ -9063,10 +9059,6 @@ Enum
 e
 (
 initialShapes
-(
-)
-.
-get
 (
 )
 )
@@ -9833,10 +9825,6 @@ MakeDependentAddPtr
 (
 cx
 table
-.
-get
-(
-)
 Lookup
 (
 clasp
@@ -10032,10 +10020,6 @@ add
 (
 cx
 table
-.
-get
-(
-)
 lookup
 InitialShapeEntry
 (
@@ -10832,10 +10816,6 @@ Enum
 e
 (
 initialShapes
-(
-)
-.
-get
 (
 )
 )
