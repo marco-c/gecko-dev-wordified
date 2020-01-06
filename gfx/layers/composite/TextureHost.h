@@ -3937,8 +3937,9 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT_UNREACHABLE
+MOZ_RELEASE_ASSERT
 (
+false
 "
 No
 CreateRenderTexture
