@@ -1225,11 +1225,7 @@ iterator
 )
 ThrowTypeError
 (
-JSMSG_NOT_ITERATOR
-ToString
-(
-iterator
-)
+JSMSG_GET_ITER_RETURNED_PRIMITIVE
 )
 ;
 /
