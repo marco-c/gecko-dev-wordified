@@ -589,9 +589,7 @@ return
 isDef
 ?
 "
-variable
--
-3
+type
 "
 :
 "

@@ -715,7 +715,6 @@ g
 "
 )
 ;
-;
 }
 function
 compare
