@@ -2046,21 +2046,19 @@ x64
 ]
 )
     
-with
+repo
+=
 get_repository_from_env
 (
 )
-as
-repo
-:
-        
+    
 #
 Select
 the
 appropriate
 files
 .
-        
+    
 for
 filename
 in
@@ -2070,7 +2068,7 @@ get_files_in_working_directory
 (
 )
 :
-            
+        
 if
 not
 filename
@@ -2087,9 +2085,9 @@ jit
 '
 )
 :
-                
-continue
             
+continue
+        
 if
 '
 MacroAssembler
@@ -2098,9 +2096,9 @@ not
 in
 filename
 :
-                
-continue
             
+continue
+        
 filename
 =
 os
@@ -2114,7 +2112,7 @@ repo
 path
 filename
 )
-            
+        
 if
 filename
 .
@@ -2127,7 +2125,7 @@ h
 '
 )
 :
-                
+            
 decls
 =
 append_signatures
@@ -2138,10 +2136,10 @@ get_macroassembler_declaration
 filename
 )
 )
-            
+        
 else
 :
-                
+            
 defs
 =
 append_signatures
