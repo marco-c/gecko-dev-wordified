@@ -383,17 +383,6 @@ mNamespace
 aNamespace
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-sInstance
--
->
-CanSend
-(
-)
-)
-;
 }
 sInstance
 =
