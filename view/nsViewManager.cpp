@@ -433,10 +433,6 @@ mHasPendingWidgetGeometryChanges
 (
 false
 )
-mPrintRelated
-(
-false
-)
 {
 if
 (
