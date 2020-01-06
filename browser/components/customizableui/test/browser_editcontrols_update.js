@@ -1227,11 +1227,6 @@ overflowing
 )
 )
 ;
-if
-(
-gPhotonStructure
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -1376,7 +1371,6 @@ select
 await
 overridePromise
 ;
-}
 }
 )
 ;
