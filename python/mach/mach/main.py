@@ -97,6 +97,8 @@ argparse
 import
 codecs
 import
+errno
+import
 imp
 import
 logging
@@ -118,6 +120,8 @@ CommandContext
     
 MachError
     
+MissingFileError
+    
 NoCommandError
     
 UnknownCommandError
@@ -132,11 +136,7 @@ decorators
 import
 (
     
-CommandArgument
-    
 CommandProvider
-    
-Command
 )
 from
 .
@@ -1752,11 +1752,47 @@ get_hex
 (
 )
         
+try
+:
+            
 imp
 .
 load_source
 (
 module_name
+path
+)
+        
+except
+IOError
+as
+e
+:
+            
+if
+e
+.
+errno
+!
+=
+errno
+.
+ENOENT
+:
+                
+raise
+            
+raise
+MissingFileError
+(
+'
+%
+s
+does
+not
+exist
+'
+%
 path
 )
     
