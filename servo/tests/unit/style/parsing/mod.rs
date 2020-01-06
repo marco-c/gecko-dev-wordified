@@ -697,14 +697,7 @@ Context
 is_root_element
 :
 true
-device
-:
-&
-device
-inherited_style
-:
-initial_style
-style
+builder
 :
 StyleBuilder
 :
@@ -714,6 +707,7 @@ for_derived_style
 &
 device
 initial_style
+None
 None
 )
 cached_system_font

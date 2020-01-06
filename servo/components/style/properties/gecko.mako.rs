@@ -9605,10 +9605,8 @@ mBorderImageSource
 set
 (
 image
-&
-mut
-false
 )
+;
 }
 }
 pub
@@ -28933,11 +28931,6 @@ self
 images
 :
 I
-cacheable
-:
-&
-mut
-bool
 )
 where
 I
@@ -29125,7 +29118,6 @@ mImage
 set
 (
 image
-cacheable
 )
 }
 }
