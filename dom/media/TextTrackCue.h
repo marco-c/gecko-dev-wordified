@@ -1473,7 +1473,6 @@ mTrackElement
 nsString
 mId
 ;
-MOZ_INIT_OUTSIDE_CTOR
 double
 mPosition
 ;
@@ -1504,7 +1503,6 @@ mVertical
 bool
 mLineIsAutoKeyword
 ;
-MOZ_INIT_OUTSIDE_CTOR
 double
 mLine
 ;
