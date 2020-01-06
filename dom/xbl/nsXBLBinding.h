@@ -123,15 +123,6 @@ nsXBLBinding_h_
 #
 include
 "
-mozilla
-/
-ServoBindings
-.
-h
-"
-#
-include
-"
 nsXBLService
 .
 h
@@ -209,6 +200,9 @@ nsIDocument
 namespace
 mozilla
 {
+class
+ServoStyleSet
+;
 namespace
 dom
 {

@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoRestyleManager
 .
 h
