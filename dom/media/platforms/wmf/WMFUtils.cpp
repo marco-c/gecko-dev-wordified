@@ -193,14 +193,14 @@ h
 #
 include
 <
-Shlobj
+shlobj
 .
 h
 >
 #
 include
 <
-Shlwapi
+shlwapi
 .
 h
 >
