@@ -1051,6 +1051,12 @@ seekable
 false
 ;
 int64_t
+length
+=
+-
+1
+;
+int64_t
 startOffset
 =
 aRequestOffset
@@ -1732,12 +1738,9 @@ HTTP_PARTIAL_RESPONSE_CODE
 )
 )
 {
-mCacheStream
-.
-NotifyDataLength
-(
+length
+=
 contentLength
-)
 ;
 }
 /
@@ -1900,6 +1903,7 @@ NotifyDataStarted
 mLoadID
 startOffset
 seekable
+length
 )
 ;
 mIsTransportSeekable
