@@ -365,8 +365,6 @@ getChild
 .
 title
 "
-bar
-title
 "
 )
 ;
@@ -381,8 +379,6 @@ getChild
 .
 title
 "
-foo
-title
 "
 )
 ;
