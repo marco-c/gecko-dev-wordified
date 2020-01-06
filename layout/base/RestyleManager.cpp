@@ -9876,10 +9876,10 @@ start
 nsCSSFrameConstructor
 :
 :
-LazyConstructionAllowed
+InsertionKind
 :
 :
-No
+Sync
 )
 ;
 }
@@ -9897,10 +9897,10 @@ nullptr
 nsCSSFrameConstructor
 :
 :
-LazyConstructionAllowed
+InsertionKind
 :
 :
-No
+Sync
 )
 ;
 }
