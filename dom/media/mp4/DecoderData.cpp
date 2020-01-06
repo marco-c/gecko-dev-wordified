@@ -59,8 +59,6 @@ MPL
 #
 include
 "
-mp4_demuxer
-/
 Adts
 .
 h
@@ -68,8 +66,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 AnnexB
 .
 h
