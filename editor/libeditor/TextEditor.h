@@ -372,6 +372,14 @@ aValue
 )
 override
 ;
+nsresult
+DocumentIsEmpty
+(
+bool
+*
+aIsEmpty
+)
+;
 NS_IMETHOD
 GetDocumentIsEmpty
 (
