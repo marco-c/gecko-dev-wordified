@@ -3126,6 +3126,34 @@ context
 key
 ]
             
+elif
+context
+.
+get
+(
+key
+)
+and
+isinstance
+(
+context
+[
+key
+]
+dict
+)
+:
+                
+context
+[
+key
+]
+.
+update
+(
+value
+)
+            
 else
 :
                 
