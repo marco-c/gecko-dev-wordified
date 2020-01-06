@@ -3140,6 +3140,10 @@ SchedulerImpl
 YieldCallback
 )
 ;
+Servo_InitializeCooperativeThread
+(
+)
+;
 }
 void
 SchedulerImpl
