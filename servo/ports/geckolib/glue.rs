@@ -24427,7 +24427,7 @@ computed_value
 match
 custom_properties
 .
-get_computed_value
+get
 (
 &
 name
@@ -24575,7 +24575,7 @@ property_name
 match
 custom_properties
 .
-get_name_at
+get_key_at
 (
 index
 )
