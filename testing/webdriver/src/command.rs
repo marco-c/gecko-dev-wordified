@@ -11077,14 +11077,14 @@ x
 :
 Nullable
 <
-u64
+i64
 >
 pub
 y
 :
 Nullable
 <
-u64
+i64
 >
 }
 impl
@@ -11227,7 +11227,7 @@ try_opt
 (
 x
 .
-as_u64
+as_i64
 (
 )
 ErrorStatus
@@ -11241,8 +11241,7 @@ x
 '
 was
 not
-a
-positive
+an
 integer
 "
 )
@@ -11281,7 +11280,7 @@ try_opt
 (
 y
 .
-as_u64
+as_i64
 (
 )
 ErrorStatus
@@ -11295,8 +11294,7 @@ y
 '
 was
 not
-a
-positive
+an
 integer
 "
 )
