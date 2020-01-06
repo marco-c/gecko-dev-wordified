@@ -3115,7 +3115,7 @@ toggleMuteAudio
 (
 extension
 .
-uuid
+id
 )
 ;
 }
