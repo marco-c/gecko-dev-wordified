@@ -16337,6 +16337,17 @@ IsExperimentalMobileType
 (
 mType
 )
+&
+&
+!
+(
+aFlags
+&
+nsTextEditorState
+:
+:
+eSetValue_BySetUserInput
+)
 )
 {
 nsDateTimeControlFrame
