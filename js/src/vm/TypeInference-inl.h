@@ -164,6 +164,13 @@ h
 #
 include
 "
+jsgc
+.
+h
+"
+#
+include
+"
 builtin
 /
 SymbolObject
