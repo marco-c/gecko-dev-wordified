@@ -141,6 +141,9 @@ class
 ClientManagerService
 ;
 class
+ClientSourceParent
+;
+class
 ClientHandleParent
 final
 :
@@ -152,6 +155,10 @@ RefPtr
 ClientManagerService
 >
 mService
+;
+ClientSourceParent
+*
+mSource
 ;
 /
 /
@@ -235,6 +242,13 @@ IPCClientInfo
 &
 aClientInfo
 )
+;
+ClientSourceParent
+*
+GetSource
+(
+)
+const
 ;
 }
 ;
