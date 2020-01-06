@@ -9249,7 +9249,7 @@ isGenerator
 if
 (
 !
-CheckStarGeneratorResumptionValue
+CheckGeneratorResumptionValue
 (
 cx
 vp

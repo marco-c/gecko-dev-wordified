@@ -22822,7 +22822,7 @@ cloneProto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 cx

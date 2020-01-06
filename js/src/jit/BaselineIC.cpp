@@ -24259,7 +24259,7 @@ it
 '
 s
 a
-StarGeneratorObject
+GeneratorObject
 .
 Register
 scratch

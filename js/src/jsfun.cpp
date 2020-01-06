@@ -3003,7 +3003,7 @@ objProto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorObjectPrototype
+getOrCreateGeneratorObjectPrototype
 (
 cx
 global
@@ -3966,7 +3966,7 @@ FirstWordFlag
 HasAtom
 =
 0x1
-HasStarGeneratorProto
+HasGeneratorProto
 =
 0x2
 IsLazy
@@ -4148,7 +4148,7 @@ isAsync
 firstword
 |
 =
-HasStarGeneratorProto
+HasGeneratorProto
 ;
 if
 (
@@ -4443,7 +4443,7 @@ if
 (
 firstword
 &
-HasStarGeneratorProto
+HasGeneratorProto
 )
 {
 /
@@ -4499,7 +4499,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 context
 cx
@@ -12951,7 +12951,7 @@ defaultProto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 global
@@ -14495,7 +14495,7 @@ cloneProto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 cx

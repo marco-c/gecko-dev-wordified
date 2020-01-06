@@ -16608,14 +16608,12 @@ functions
 are
 implemented
 as
-star
 generators
 and
-star
-/
-/
 generators
 are
+/
+/
 assumed
 to
 be
@@ -16624,8 +16622,6 @@ lists
 to
 prepend
 initial
-/
-/
 yield
 .
 Node
@@ -20269,7 +20265,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 context
@@ -49451,7 +49447,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 context

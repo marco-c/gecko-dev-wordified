@@ -954,7 +954,7 @@ update
 Baseline
 '
 s
-IsSuspendedStarGenerator
+IsSuspendedGenerator
 code
 if
 this
@@ -1337,7 +1337,7 @@ frame
 ;
 MOZ_MUST_USE
 bool
-CheckStarGeneratorResumptionValue
+CheckGeneratorResumptionValue
 (
 JSContext
 *
