@@ -89,6 +89,17 @@ proc
 macro
 derive
 panicked
+/
+/
+~
+|
+HELP
+Field
+v1
+should
+not
+be
+public
 struct
 Foo
 {
