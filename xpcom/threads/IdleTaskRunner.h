@@ -310,6 +310,10 @@ const
 CallbackType
 &
 aCallback
+const
+char
+*
+aRunnableName
 uint32_t
 aDelay
 int64_t
@@ -379,6 +383,10 @@ const
 CallbackType
 &
 aCallback
+const
+char
+*
+aRunnableName
 uint32_t
 aDelay
 int64_t
