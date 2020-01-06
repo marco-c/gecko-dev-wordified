@@ -311,10 +311,13 @@ nsIAboutModule
 .
 ALLOW_SCRIPT
 |
-|
 nsIAboutModule
 .
 ENABLE_INDEXED_DB
+|
+nsIAboutModule
+.
+HIDE_FROM_ABOUTABOUT
 ;
 }
 }
