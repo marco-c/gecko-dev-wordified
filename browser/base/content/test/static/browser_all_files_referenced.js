@@ -1653,7 +1653,7 @@ macosx
 /
 /
 Bug
-1370768
+1370766
 will
 reference
 this
@@ -1670,7 +1670,7 @@ formautofill
 /
 content
 /
-editCreditCard
+manageCreditCards
 .
 xhtml
 "
