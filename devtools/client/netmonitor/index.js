@@ -564,7 +564,7 @@ src
 /
 components
 /
-app
+App
 "
 )
 ;
