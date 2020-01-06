@@ -2080,6 +2080,7 @@ FontInstanceOptions
 render_mode
 subpx_dir
 synthetic_italics
+bg_color
 .
 .
 }
@@ -2131,6 +2132,7 @@ new
 .
 0
 )
+bg_color
 render_mode
 subpx_dir
 platform_options

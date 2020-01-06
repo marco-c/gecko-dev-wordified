@@ -69,6 +69,7 @@ api
 :
 {
 ColorF
+ColorU
 IdNamespace
 LayoutPoint
 SubpixelDirection
@@ -3046,6 +3047,16 @@ new
 0
 1
 .
+0
+)
+ColorU
+:
+:
+new
+(
+0
+0
+0
 0
 )
 FontRenderMode
