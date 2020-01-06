@@ -66,6 +66,10 @@ gfx
 ;
 extern
 crate
+gfx_traits
+;
+extern
+crate
 ipc_channel
 ;
 extern

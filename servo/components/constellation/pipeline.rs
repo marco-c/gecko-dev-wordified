@@ -3428,7 +3428,17 @@ new
 (
 self
 .
+id
+self
+.
 time_profiler_chan
+.
+clone
+(
+)
+self
+.
+layout_to_constellation_chan
 .
 clone
 (
