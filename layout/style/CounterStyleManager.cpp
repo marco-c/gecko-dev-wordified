@@ -10501,9 +10501,7 @@ CounterStyle
 *
 data
 =
-mStyles
-.
-Get
+GetCounterStyle
 (
 aName
 )
