@@ -116,14 +116,7 @@ h
 #
 include
 "
-nsIWindowsShellService
-.
-h
-"
-#
-include
-"
-nsITimer
+nsIShellService
 .
 h
 "
@@ -145,7 +138,7 @@ class
 nsWindowsShellService
 :
 public
-nsIWindowsShellService
+nsIShellService
 {
 virtual
 ~
@@ -161,7 +154,6 @@ nsWindowsShellService
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHELLSERVICE
-NS_DECL_NSIWINDOWSSHELLSERVICE
 protected
 :
 nsresult
