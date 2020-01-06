@@ -212,7 +212,7 @@ buildid
 20150825141628
 '
         
-arm_api15
+arm_api16
 =
 0b01111000001000000001001001110001
         
@@ -240,12 +240,12 @@ v7a
 '
 min_sdk
 =
-15
+16
 max_sdk
 =
 None
 )
-arm_api15
+arm_api16
 )
         
 self

@@ -659,7 +659,7 @@ build
     
 targeting
 API
-15
+16
 +
 which
 will
@@ -1237,7 +1237,7 @@ to
 11
 .
 The
-15
+16
 +
 APK
 directly
@@ -1257,7 +1257,7 @@ elif
 min_sdk
 =
 =
-15
+16
 :
             
 version
