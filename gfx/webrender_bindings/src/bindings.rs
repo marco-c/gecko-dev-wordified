@@ -5891,6 +5891,10 @@ vec
 [
 ]
 None
+ScrollSensitivity
+:
+:
+Script
 )
 ;
 state
