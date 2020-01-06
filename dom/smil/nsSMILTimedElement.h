@@ -3857,6 +3857,7 @@ nsSMILFillMode
 mFillMode
 ;
 static
+const
 nsAttrValue
 :
 :
@@ -3879,6 +3880,7 @@ nsSMILRestartMode
 mRestartMode
 ;
 static
+const
 nsAttrValue
 :
 :

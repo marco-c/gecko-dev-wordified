@@ -121,6 +121,7 @@ nsSMILTimeValue
 .
 h
 "
+const
 nsSMILTime
 nsSMILTimeValue
 :

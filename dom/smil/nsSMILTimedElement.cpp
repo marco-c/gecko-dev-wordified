@@ -1793,6 +1793,7 @@ newArray
 /
 Static
 members
+const
 nsAttrValue
 :
 :
@@ -1823,6 +1824,7 @@ nullptr
 }
 }
 ;
+const
 nsAttrValue
 :
 :
