@@ -69179,7 +69179,7 @@ if
 shape
 -
 >
-hasSlot
+isDataProperty
 (
 )
 &

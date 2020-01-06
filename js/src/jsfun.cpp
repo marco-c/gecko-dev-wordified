@@ -7786,16 +7786,7 @@ if
 shape
 -
 >
-hasSlot
-(
-)
-|
-|
-!
-shape
--
->
-hasDefaultGetter
+isDataProperty
 (
 )
 )

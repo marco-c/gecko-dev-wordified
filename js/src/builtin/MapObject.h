@@ -2554,7 +2554,7 @@ addShape
 addShape
 -
 >
-hasSlot
+isDataProperty
 (
 )
 )
