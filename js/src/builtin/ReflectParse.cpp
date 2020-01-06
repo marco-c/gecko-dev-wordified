@@ -9195,8 +9195,6 @@ binop
 (
 ParseNodeKind
 kind
-JSOp
-op
 )
 ;
 UnaryOperator
@@ -10071,8 +10069,6 @@ binop
 (
 ParseNodeKind
 kind
-JSOp
-op
 )
 {
 switch
@@ -14564,12 +14560,6 @@ pn
 getKind
 (
 )
-pn
--
->
-getOp
-(
-)
 )
 ;
 LOCAL_ASSERT
@@ -14834,12 +14824,6 @@ pn
 -
 >
 getKind
-(
-)
-pn
--
->
-getOp
 (
 )
 )

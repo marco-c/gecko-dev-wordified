@@ -1557,10 +1557,6 @@ right
 ParseContext
 *
 pc
-JSOp
-op
-=
-JSOP_NOP
 )
 {
 return
@@ -1570,7 +1566,6 @@ ParseNode
 appendOrCreateList
 (
 kind
-op
 left
 right
 this
@@ -6331,7 +6326,6 @@ newBinary
 PNK_ASSIGN
 arg
 defaultValue
-JSOP_NOP
 )
 ;
 if
