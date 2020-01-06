@@ -10153,6 +10153,11 @@ new_script_pair
 NetworkingTaskSource
 (
 tx
+global
+.
+pipeline_id
+(
+)
 )
 Some
 (

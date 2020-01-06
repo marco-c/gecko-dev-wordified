@@ -135,7 +135,7 @@ use
 script_traits
 :
 :
-PaintMetricType
+ProgressiveWebMetricType
 ;
 #
 [
@@ -157,7 +157,7 @@ new_inherited
 (
 metric_type
 :
-PaintMetricType
+ProgressiveWebMetricType
 start_time
 :
 f64
@@ -172,7 +172,7 @@ name
 match
 metric_type
 {
-PaintMetricType
+ProgressiveWebMetricType
 :
 :
 FirstPaint
@@ -189,7 +189,7 @@ first
 paint
 "
 )
-PaintMetricType
+ProgressiveWebMetricType
 :
 :
 FirstContentfulPaint
@@ -206,6 +206,17 @@ first
 contentful
 -
 paint
+"
+)
+_
+=
+>
+DOMString
+:
+:
+from
+(
+"
 "
 )
 }
@@ -252,7 +263,7 @@ global
 GlobalScope
 metric_type
 :
-PaintMetricType
+ProgressiveWebMetricType
 start_time
 :
 f64

@@ -451,6 +451,9 @@ TimeToFirstPaint
 TimeToFirstContentfulPaint
 =
 0x81
+TimeToInteractive
+=
+0x82
 ApplicationHeartbeat
 =
 0x90
