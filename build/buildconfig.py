@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-os
-import
 sys
 from
 mozbuild

@@ -87,8 +87,6 @@ argparse
 import
 errno
 import
-itertools
-import
 os
 import
 re
@@ -870,6 +868,7 @@ precious
 :
             
 print
+(
 '
 Removing
 %
@@ -883,8 +882,6 @@ change
 from
 :
 '
-\
-                
 %
 (
 data
@@ -897,8 +894,10 @@ file
 ]
 precious
 )
+)
             
 print
+(
 '
 %
 s
@@ -916,14 +915,18 @@ else
 undefined
 '
 )
+)
             
 print
+(
 '
 to
 :
 '
+)
             
 print
+(
 '
 %
 s
@@ -937,6 +940,7 @@ precious
 '
 undefined
 '
+)
 )
             
 os
@@ -1127,23 +1131,6 @@ return
 ]
 [
 ]
-    
-configure
-=
-mozpath
-.
-join
-(
-data
-[
-'
-srcdir
-'
-]
-'
-configure
-'
-)
     
 config_files
 =
@@ -1890,7 +1877,7 @@ os
 getcwd
 (
 )
-            
+                                                           
 args
 .
 cache_file
@@ -2097,6 +2084,7 @@ line
 break
         
 print
+(
 prefix_lines
 (
 line
@@ -2105,6 +2093,7 @@ rstrip
 (
 )
 prefix
+)
 )
         
 sys
@@ -2836,6 +2825,7 @@ create
 ]
         
 print
+(
 prefix_lines
 (
 '
@@ -2843,8 +2833,10 @@ configuring
 '
 relobjdir
 )
+)
         
 print
+(
 prefix_lines
 (
 '
@@ -2866,6 +2858,7 @@ command
 ]
 )
 relobjdir
+)
 )
         
 sys
@@ -3178,6 +3171,7 @@ skip_configure
 :
             
 print
+(
 prefix_lines
 (
 '
@@ -3187,6 +3181,7 @@ config
 status
 '
 relobjdir
+)
 )
             
 sys
@@ -3278,7 +3273,7 @@ list
 type
 =
 str
-        
+                        
 help
 =
 '
@@ -3305,7 +3300,7 @@ skip
 type
 =
 str
-        
+                        
 help
 =
 '
@@ -3335,7 +3330,7 @@ nargs
 '
 *
 '
-        
+                        
 help
 =
 '

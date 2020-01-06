@@ -1289,6 +1289,7 @@ digest
     
 except
 ValueError
+as
 ve
 :
         

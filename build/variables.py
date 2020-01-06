@@ -599,6 +599,7 @@ path
 .
 join
 (
+            
 buildconfig
 .
 topsrcdir

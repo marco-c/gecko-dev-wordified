@@ -837,6 +837,9 @@ to
 display
 them
 .
+'
+        
+'
 These
 commands
 are
@@ -845,6 +848,9 @@ for
 your
 current
 context
+'
+        
+'
 run
 "
 mach
@@ -2087,7 +2093,7 @@ get_state_dir
 0
 ]
 ]
-                              
+                             
 stdout
 =
 devnull
@@ -2415,7 +2421,7 @@ meta
 long
 '
 ]
-            
+                               
 meta
 [
 '
