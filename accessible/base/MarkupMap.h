@@ -889,6 +889,11 @@ roles
 :
 :
 SECTION
+Attr
+(
+xmlroles
+region
+)
 )
 MARKUPMAP
 (
