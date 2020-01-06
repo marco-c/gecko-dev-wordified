@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

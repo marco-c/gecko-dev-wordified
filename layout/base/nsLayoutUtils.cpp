@@ -48892,7 +48892,7 @@ works
 on
 /
 /
-nsIDOMHTMLImageElement
+HTMLImageElement
 and
 we
 support

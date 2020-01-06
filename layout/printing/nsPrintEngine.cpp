@@ -688,13 +688,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIContentViewerContainer
 .
 h

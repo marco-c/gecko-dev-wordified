@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

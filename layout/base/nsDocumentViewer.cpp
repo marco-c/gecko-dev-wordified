@@ -539,13 +539,6 @@ nsCopySupport
 h
 "
 #
-include
-"
-nsIDOMHTMLImageElement
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #

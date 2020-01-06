@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
