@@ -148,7 +148,7 @@ jsm
 "
 )
 ;
-var
+let
 satchelFormListener
 =
 {

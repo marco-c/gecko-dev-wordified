@@ -125,7 +125,7 @@ formNum
 name
 )
 {
-var
+let
 form
 =
 document
@@ -165,7 +165,7 @@ return
 null
 ;
 }
-var
+let
 element
 =
 form
@@ -321,7 +321,7 @@ aKey
 modifier
 )
 {
-var
+let
 keyName
 =
 "
@@ -334,7 +334,7 @@ toUpperCase
 (
 )
 ;
-var
+let
 key
 =
 SpecialPowers
@@ -374,7 +374,7 @@ fake
 key
 events
 .
-var
+let
 wutils
 =
 SpecialPowers
@@ -478,7 +478,7 @@ results
 )
 ;
 }
-var
+let
 results
 =
 gLastAutoCompleteResults
@@ -519,7 +519,7 @@ msg
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -803,7 +803,7 @@ out
 here
 /
 /
-var
+let
 expected
 =
 this
@@ -849,7 +849,7 @@ length
 0
 )
 {
-var
+let
 callback
 =
 checkObserver
@@ -901,7 +901,7 @@ getFormSubmitButton
 formNum
 )
 {
-var
+let
 form
 =
 (
@@ -960,7 +960,7 @@ form
 onsubmit
 handler
 .
-var
+let
 button
 =
 form
@@ -1653,7 +1653,7 @@ satchelCommonSetup
 (
 )
 {
-var
+let
 chromeURL
 =
 SimpleTest

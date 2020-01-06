@@ -249,7 +249,7 @@ getDBVersion
 dbfile
 )
 {
-var
+let
 ss
 =
 Cc
@@ -274,7 +274,7 @@ Ci
 mozIStorageService
 )
 ;
-var
+let
 dbConnection
 =
 ss
@@ -284,7 +284,7 @@ openDatabase
 dbfile
 )
 ;
-var
+let
 version
 =
 dbConnection
@@ -454,7 +454,7 @@ value
 then
 )
 {
-var
+let
 obj
 =
 {
@@ -578,7 +578,7 @@ value
 then
 )
 {
-var
+let
 obj
 =
 {

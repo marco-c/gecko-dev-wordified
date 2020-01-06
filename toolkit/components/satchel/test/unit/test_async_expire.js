@@ -345,7 +345,7 @@ init
 =
 =
 =
-var
+let
 testfile
 =
 do_get_file
@@ -357,7 +357,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 do_get_profile
@@ -623,7 +623,7 @@ the
 test
 runs
 .
-var
+let
 now
 =
 1000

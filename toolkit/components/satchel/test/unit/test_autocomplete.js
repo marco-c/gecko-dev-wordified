@@ -89,7 +89,7 @@ number
 length
 )
 {
-var
+let
 str
 =
 number
@@ -178,7 +178,7 @@ init
 =
 =
 =
-var
+let
 testfile
 =
 do_get_file
@@ -190,7 +190,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 dirSvc
@@ -215,7 +215,7 @@ tests
 or
 failures
 .
-var
+let
 destFile
 =
 profileDir
@@ -345,7 +345,7 @@ test0
 (
 )
 {
-var
+let
 maxTimeGroupings
 =
 prefs
@@ -361,7 +361,7 @@ maxTimeGroupings
 "
 )
 ;
-var
+let
 bucketSize
 =
 prefs

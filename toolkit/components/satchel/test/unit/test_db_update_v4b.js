@@ -108,7 +108,7 @@ init
 =
 =
 =
-var
+let
 testfile
 =
 do_get_file
@@ -120,7 +120,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 dirSvc
@@ -145,7 +145,7 @@ tests
 or
 failures
 .
-var
+let
 destFile
 =
 profileDir
