@@ -2324,7 +2324,7 @@ IsSource
 )
 &
 &
-ScriptLoader
+nsContentUtils
 :
 :
 IsBytecodeCacheEnabled
