@@ -116,6 +116,18 @@ log
 True
     
 '
+app
+.
+update
+.
+staging
+.
+enabled
+'
+:
+True
+    
+'
 startup
 .
 homepage_override_url
