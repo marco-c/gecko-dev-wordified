@@ -6069,7 +6069,7 @@ initSyncItems
 {
 gSync
 .
-initPageContextMenu
+updateContentContextMenu
 (
 this
 )
