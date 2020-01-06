@@ -111,7 +111,10 @@ Bindings
 DocumentBinding
 :
 :
+{
 DocumentMethods
+ElementCreationOptions
+}
 ;
 use
 dom
@@ -741,6 +744,16 @@ None
 }
 else
 {
+let
+options
+=
+ElementCreationOptions
+{
+is
+:
+None
+}
+;
 match
 doc
 .
@@ -757,6 +770,8 @@ CreateElementNS
 (
 maybe_namespace
 qname
+&
+options
 )
 {
 Err
