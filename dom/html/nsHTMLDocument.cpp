@@ -11766,7 +11766,7 @@ IsInsertionPointDefined
 {
 if
 (
-mExternalScriptsBeingEvaluated
+mIgnoreDestructiveWritesCounter
 )
 {
 /
@@ -11851,7 +11851,7 @@ mParser
 {
 if
 (
-mExternalScriptsBeingEvaluated
+mIgnoreDestructiveWritesCounter
 )
 {
 /

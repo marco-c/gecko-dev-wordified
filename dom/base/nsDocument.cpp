@@ -9226,7 +9226,7 @@ mEventsSuppressed
 (
 0
 )
-mExternalScriptsBeingEvaluated
+mIgnoreDestructiveWritesCounter
 (
 0
 )
