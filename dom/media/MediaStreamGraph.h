@@ -9207,6 +9207,12 @@ OnGraphThreadOrNotRunning
 )
 const
 ;
+bool
+OnGraphThread
+(
+)
+const
+;
 /
 /
 Media
