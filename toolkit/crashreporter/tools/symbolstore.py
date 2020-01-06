@@ -3910,9 +3910,6 @@ file
 "
 "
         
-try
-:
-            
 #
 we
 use
@@ -3924,7 +3921,7 @@ the
 targets
 of
 symlinks
-            
+        
 #
 and
 -
@@ -3937,31 +3934,19 @@ content
 not
 the
 filename
-            
+        
 return
-os
-.
-popen
+read_output
 (
-"
+'
 file
+'
+'
 -
 Lb
-"
-+
+'
 file
 )
-.
-read
-(
-)
-        
-except
-:
-            
-return
-"
-"
     
 #
 This
