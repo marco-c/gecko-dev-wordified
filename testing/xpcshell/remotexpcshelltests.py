@@ -63,6 +63,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 logging
 import
@@ -1341,6 +1346,7 @@ wrong
 .
             
 print
+(
 "
 Automation
 Error
@@ -1361,6 +1367,7 @@ device
 self
 .
 remoteMinidumpDir
+)
             
 #
 Whilst
@@ -2342,11 +2349,7 @@ else
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Couldn
 '
@@ -2357,6 +2360,12 @@ xpcshell
 test
 directory
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -3273,6 +3282,7 @@ detail
 :
                 
 print
+(
 "
 unable
 to
@@ -3285,6 +3295,7 @@ root
 str
 (
 detail
+)
 )
                 
 pass
@@ -3706,11 +3717,7 @@ local
 :
                 
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -3720,6 +3727,12 @@ s
 "
 %
 fname
+file
+=
+sys
+.
+stderr
+)
                 
 remoteFile
 =
@@ -3745,11 +3758,7 @@ else
 :
                 
 print
->
->
-sys
-.
-stderr
+(
 "
 *
 *
@@ -3771,6 +3780,12 @@ fname
 self
 .
 localBin
+)
+file
+=
+sys
+.
+stderr
 )
         
 local
@@ -4023,11 +4038,7 @@ so
 :
                         
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -4039,6 +4050,12 @@ s
 info
 .
 filename
+file
+=
+sys
+.
+stderr
+)
                         
 remoteFile
 =
@@ -4228,11 +4245,7 @@ so
 :
                 
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -4242,6 +4255,12 @@ s
 "
 %
 file
+file
+=
+sys
+.
+stderr
+)
                 
 if
 '
@@ -4252,11 +4271,7 @@ file
 :
                     
 print
->
->
-sys
-.
-stderr
+(
 "
 This
 is
@@ -4270,6 +4285,12 @@ a
 while
 .
 "
+file
+=
+sys
+.
+stderr
+)
                 
 localFile
 =
@@ -4392,11 +4413,7 @@ so
 :
                         
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -4406,6 +4423,12 @@ s
 "
 %
 file
+file
+=
+sys
+.
+stderr
+)
                         
 localFile
 =
@@ -4482,6 +4505,7 @@ self
 :
         
 print
+(
 '
 pushing
 %
@@ -4491,6 +4515,7 @@ s
 self
 .
 xpcDir
+)
         
 try
 :
@@ -5245,11 +5270,7 @@ version_info
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Error
 :
@@ -5270,6 +5291,12 @@ than
 .
 0
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -5380,11 +5407,7 @@ file
 )
                 
 print
->
->
-sys
-.
-stderr
+(
 "
 using
 APK
@@ -5394,6 +5417,12 @@ APK
 options
 .
 localAPK
+file
+=
+sys
+.
+stderr
+)
                 
 break
         
@@ -5401,11 +5430,7 @@ else
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Error
 :
@@ -5414,6 +5439,12 @@ specify
 an
 APK
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -5572,11 +5603,7 @@ testPath
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Error
 :
@@ -5591,6 +5618,12 @@ interactive
 mode
 !
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
