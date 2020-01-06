@@ -1348,6 +1348,8 @@ EndProcessingRestyles
 (
 )
 ;
+public
+:
 /
 /
 Perform
@@ -1621,8 +1623,6 @@ UpdateAnimationStyles
 (
 )
 ;
-public
-:
 void
 UpdateAnimationStylesForHitTesting
 (
