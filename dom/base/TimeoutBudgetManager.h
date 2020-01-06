@@ -171,7 +171,7 @@ StopRecording
 (
 )
 ;
-void
+TimeDuration
 RecordExecution
 (
 const

@@ -205,7 +205,7 @@ TimeStamp
 )
 ;
 }
-void
+TimeDuration
 TimeoutBudgetManager
 :
 :
@@ -258,6 +258,9 @@ of
 execution
 .
 return
+TimeDuration
+(
+)
 ;
 }
 TimeDuration
@@ -328,6 +331,9 @@ duration
 ;
 }
 }
+return
+duration
+;
 }
 void
 TimeoutBudgetManager
