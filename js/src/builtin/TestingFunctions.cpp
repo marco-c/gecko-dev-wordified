@@ -17379,6 +17379,10 @@ if
 (
 !
 buf
+|
+|
+!
+buf
 -
 >
 Init
@@ -17387,9 +17391,16 @@ nbytes
 nbytes
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 js_memcpy
 (
 buf
