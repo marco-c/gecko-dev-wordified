@@ -910,12 +910,24 @@ static
 const
 char
 *
-logTag
+pciLogTag
 =
 "
 PeerConnectionImpl
 "
 ;
+#
+ifdef
+LOGTAG
+#
+undef
+LOGTAG
+#
+endif
+#
+define
+LOGTAG
+pciLogTag
 static
 mozilla
 :
@@ -1346,7 +1358,7 @@ SECSuccess
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 NSS_NoDB_Init
 failed
@@ -1376,7 +1388,7 @@ InitializeCipherSuite
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Fail
 to
@@ -1960,7 +1972,7 @@ true
 }
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2235,7 +2247,7 @@ else
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 PeerConnectionCtx
 is
@@ -2252,7 +2264,7 @@ Ignoring
 }
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2407,7 +2419,7 @@ graph
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Created
 media
@@ -4178,7 +4190,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4247,7 +4259,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4318,7 +4330,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4372,7 +4384,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4486,7 +4498,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4636,7 +4648,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4692,7 +4704,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5274,7 +5286,7 @@ ReserveOMXCodec
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6355,7 +6367,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6404,7 +6416,7 @@ branch
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6748,7 +6760,7 @@ mDataConnection
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6819,7 +6831,7 @@ aMaxMessageSize
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6836,7 +6848,7 @@ NS_ERROR_FAILURE
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7031,7 +7043,7 @@ empty
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7091,7 +7103,7 @@ kApplication
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7166,7 +7178,7 @@ datachannel
 {
 CSFLogWarn
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7527,7 +7539,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -7583,7 +7595,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7652,7 +7664,7 @@ false
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7719,7 +7731,7 @@ rv
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7794,7 +7806,7 @@ get
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Transportflow
 [
@@ -8080,7 +8092,7 @@ NS_ERROR_FAILURE
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -8204,7 +8216,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -8648,7 +8660,7 @@ channel
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9088,7 +9100,7 @@ NS_OK
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 CreateOffer
 (
@@ -9240,7 +9252,7 @@ FinalizeIceRestart
 }
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Offerer
 restarting
@@ -9264,7 +9276,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9307,7 +9319,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -9397,7 +9409,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9505,7 +9517,7 @@ NS_OK
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 CreateAnswer
 (
@@ -9561,7 +9573,7 @@ IsIceRestarting
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Answerer
 restarting
@@ -9585,7 +9597,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9724,7 +9736,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9816,7 +9828,7 @@ IsIceRestarting
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9886,7 +9898,7 @@ empty
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -9989,7 +10001,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -10068,7 +10080,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -10186,7 +10198,7 @@ aSDP
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -10404,7 +10416,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -10713,7 +10725,7 @@ current_end
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 added
 track
@@ -10881,7 +10893,7 @@ aSegment
 ;
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Dispatched
 track
@@ -11161,7 +11173,7 @@ nrv
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Added
 remote
@@ -11688,7 +11700,7 @@ domTrack
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Added
 remote
@@ -11753,7 +11765,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 :
 OnAddTrack
@@ -11814,7 +11826,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 :
 OnAddStream
@@ -12138,7 +12150,7 @@ aSDP
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -12299,7 +12311,7 @@ nrv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -12474,7 +12486,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -12912,7 +12924,7 @@ UDP
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Blocking
 remote
@@ -12965,7 +12977,7 @@ Candidate
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 AddIceCandidate
 :
@@ -13235,7 +13247,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -13443,7 +13455,7 @@ doc
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Can
 '
@@ -13612,7 +13624,7 @@ doc
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Can
 '
@@ -13709,7 +13721,7 @@ else
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Can
 '
@@ -13814,7 +13826,7 @@ aError
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Encountered
 media
@@ -14168,7 +14180,7 @@ Length
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -14268,7 +14280,7 @@ res
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Added
 track
@@ -14972,7 +14984,7 @@ info
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -15014,7 +15026,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -15815,7 +15827,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -15894,7 +15906,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -15964,7 +15976,7 @@ info
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Could
 not
@@ -16064,7 +16076,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -16108,7 +16120,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Unexpected
 error
@@ -16156,7 +16168,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -16265,7 +16277,7 @@ mJsepSession
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 Updating
@@ -16296,7 +16308,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -16524,7 +16536,7 @@ info
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -16761,7 +16773,7 @@ info
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -16890,7 +16902,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Unable
 to
@@ -17487,7 +17499,7 @@ IsClosed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -17512,7 +17524,7 @@ mMedia
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -17544,7 +17556,7 @@ Close
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -17633,7 +17645,7 @@ false
 }
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -18283,7 +18295,7 @@ RecordEndOfCallTelemetry
 ;
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -18326,7 +18338,7 @@ mDataConnection
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -18813,7 +18825,7 @@ mJsepSession
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 Updating
@@ -18880,7 +18892,7 @@ AllLocalTracksAreAssigned
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 Not
 all
@@ -19702,7 +19714,7 @@ UDP
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Blocking
 local
@@ -19772,7 +19784,7 @@ GetLastError
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -19837,7 +19849,7 @@ skipped
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Skipped
 adding
@@ -19907,7 +19919,7 @@ return
 }
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Passing
 local
@@ -20184,7 +20196,7 @@ false
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -20661,7 +20673,7 @@ false
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -20893,7 +20905,7 @@ level
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -20926,7 +20938,7 @@ level
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -20983,7 +20995,7 @@ mThread
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Could
 not
@@ -21023,7 +21035,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Could
 not
@@ -21128,7 +21140,7 @@ iceCtx
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Could
 not
@@ -21839,7 +21851,7 @@ res
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -24195,7 +24207,7 @@ Failed
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Error
 firing
@@ -24411,7 +24423,7 @@ aStream
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
