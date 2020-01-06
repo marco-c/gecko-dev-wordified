@@ -20950,6 +20950,15 @@ JS
 CallArgs
 &
 aCallArgs
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 ErrorResult
 &
 aRv
