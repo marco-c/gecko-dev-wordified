@@ -373,7 +373,7 @@ Java
 .
         
 '
-jdk7
+jdk8
 -
 openjdk
 '
