@@ -569,7 +569,7 @@ tags
 {
 basestring
 :
-object
+basestring
 }
     
 #
