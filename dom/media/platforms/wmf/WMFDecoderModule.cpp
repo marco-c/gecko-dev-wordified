@@ -192,6 +192,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -1784,7 +1791,7 @@ mMimeType
 &
 (
 (
-MediaPrefs
+gfxPrefs
 :
 :
 PDMWMFAMDVP9DecoderEnabled

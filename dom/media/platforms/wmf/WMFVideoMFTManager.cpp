@@ -3684,7 +3684,7 @@ useDxva
 mCheckForAMDDecoder
 &
 &
-MediaPrefs
+gfxPrefs
 :
 :
 PDMWMFAMDVP9DecoderEnabled
