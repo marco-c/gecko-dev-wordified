@@ -1468,9 +1468,11 @@ MediaResourceCallback
 *
 aCallback
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 /
 /
 These
