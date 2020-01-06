@@ -1596,9 +1596,9 @@ struct
 FontInstancePlatformOptions
 {
 pub
-unused
+font_smoothing
 :
-u32
+bool
 }
 #
 [
@@ -1626,9 +1626,9 @@ FontInstancePlatformOptions
 {
 FontInstancePlatformOptions
 {
-unused
+font_smoothing
 :
-0
+true
 }
 }
 }

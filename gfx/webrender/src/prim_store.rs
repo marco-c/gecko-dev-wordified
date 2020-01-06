@@ -1017,6 +1017,10 @@ push
 self
 .
 color
+.
+premultiplied
+(
+)
 )
 ;
 }
@@ -1179,6 +1183,10 @@ color
 :
 ColorF
 pub
+wavy_line_thickness
+:
+f32
+pub
 style
 :
 LineStyle
@@ -1217,6 +1225,9 @@ request
 push
 (
 [
+self
+.
+wavy_line_thickness
 pack_as_float
 (
 self
@@ -1233,9 +1244,6 @@ orientation
 as
 u32
 )
-0
-.
-0
 0
 .
 0
@@ -3561,6 +3569,10 @@ self
 font
 .
 color
+)
+.
+premultiplied
+(
 )
 )
 ;
@@ -5997,7 +6009,6 @@ cpu_prim_index
 prepare_for_render
 (
 prim_index
-metadata
 prim_context
 render_tasks
 )

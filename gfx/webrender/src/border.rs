@@ -1478,6 +1478,10 @@ border_color
 .
 7
 )
+.
+premultiplied
+(
+)
 ;
 let
 top_color
@@ -1502,6 +1506,10 @@ border_color
 0
 .
 7
+)
+.
+premultiplied
+(
 )
 ;
 let
@@ -1528,6 +1536,10 @@ border_color
 .
 3
 )
+.
+premultiplied
+(
+)
 ;
 let
 bottom_color
@@ -1552,6 +1564,10 @@ border_color
 0
 .
 3
+)
+.
+premultiplied
+(
 )
 ;
 let

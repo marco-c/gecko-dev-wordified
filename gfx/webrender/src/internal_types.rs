@@ -873,7 +873,7 @@ Frame
 )
 -
 >
-RendererFrame
+Self
 {
 RendererFrame
 {

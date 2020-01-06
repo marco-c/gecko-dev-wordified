@@ -448,6 +448,9 @@ mod
 border
 ;
 mod
+box_shadow
+;
+mod
 clip
 ;
 mod
