@@ -433,7 +433,7 @@ prefs
 =
 GeckoSharedPrefs
 .
-forApp
+forProfile
 (
 getContext
 (
