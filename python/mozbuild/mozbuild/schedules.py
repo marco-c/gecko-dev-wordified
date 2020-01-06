@@ -125,7 +125,8 @@ lint
 '
     
 #
-tests
+test
+suites
 that
 only
 run
@@ -137,6 +138,14 @@ changed
     
 '
 jittest
+'
+    
+#
+test
+flavors
+    
+'
+jsreftest
 '
 ]
 INCLUSIVE_COMPONENTS
