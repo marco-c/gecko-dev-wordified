@@ -237,7 +237,7 @@ TEST
 var
 opt
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;

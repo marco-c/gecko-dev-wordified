@@ -3532,7 +3532,7 @@ i
 var
 o
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;
@@ -3571,7 +3571,7 @@ document
 all
 =
 !
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 *

@@ -77,7 +77,7 @@ MPL
 /
 /
 /
-objectEmulatingUndefined
+createIsHTMLDDA
 is
 only
 available
@@ -95,7 +95,7 @@ browser
 if
 (
 typeof
-objectEmulatingUndefined
+createIsHTMLDDA
 =
 =
 =
@@ -117,7 +117,7 @@ en
 -
 US
 '
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
