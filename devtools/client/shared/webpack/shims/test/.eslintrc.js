@@ -37,6 +37,9 @@ extends
 .
 /
 .
+.
+/
+.
 eslintrc
 .
 xpcshell
