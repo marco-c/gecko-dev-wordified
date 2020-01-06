@@ -352,13 +352,6 @@ uint8_t
 >
 &
 aRegister
-const
-nsTArray
-<
-uint8_t
->
-&
-aSignature
 )
 ;
 void

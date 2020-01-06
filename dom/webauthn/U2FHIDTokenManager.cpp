@@ -337,17 +337,6 @@ uint8_t
 >
 &
 aRegistration
-/
-*
-out
-*
-/
-nsTArray
-<
-uint8_t
->
-&
-aSignature
 )
 {
 return
