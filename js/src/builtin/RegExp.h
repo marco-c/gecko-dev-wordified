@@ -779,7 +779,8 @@ GetFirstDollarIndexRaw
 JSContext
 *
 cx
-HandleString
+JSString
+*
 str
 int32_t
 *
