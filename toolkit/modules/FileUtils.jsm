@@ -279,6 +279,13 @@ along
 the
 way
 are
+if
+pathArray
+has
+more
+than
+one
+item
 .
 *
 /
@@ -308,7 +315,11 @@ slice
 -
 1
 )
-true
+pathArray
+.
+length
+>
+1
 followLinks
 )
 ;
