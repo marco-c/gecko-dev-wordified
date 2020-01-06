@@ -492,11 +492,6 @@ body
 clone
 (
 )
-type_
-:
-request
-.
-type_
 destination
 :
 request

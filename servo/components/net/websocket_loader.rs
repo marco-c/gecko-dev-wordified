@@ -218,10 +218,7 @@ net_traits
 request
 :
 :
-{
 Destination
-Type
-}
 ;
 use
 servo_url
@@ -2435,10 +2432,6 @@ Step
 .
 set_default_accept
 (
-Type
-:
-:
-None
 Destination
 :
 :
@@ -3014,7 +3007,7 @@ scripts
 if
 should_be_blocked_due_to_nosniff
 (
-Type
+Destination
 :
 :
 None

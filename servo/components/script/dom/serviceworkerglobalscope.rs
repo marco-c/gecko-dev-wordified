@@ -284,9 +284,6 @@ request
 CredentialsMode
 Destination
 RequestInit
-Type
-as
-RequestType
 }
 ;
 use
@@ -1019,12 +1016,6 @@ script_url
 clone
 (
 )
-type_
-:
-RequestType
-:
-:
-Script
 destination
 :
 Destination

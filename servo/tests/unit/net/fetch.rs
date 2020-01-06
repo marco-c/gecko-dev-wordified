@@ -353,12 +353,12 @@ request
 :
 :
 {
+Destination
 Origin
 RedirectMode
 Referrer
 Request
 RequestMode
-Type
 }
 ;
 use
@@ -5774,9 +5774,9 @@ inline
 fn
 test_nosniff_request
 (
-request_type
+destination
 :
-Type
+Destination
 mime
 :
 Mime
@@ -5973,9 +5973,9 @@ None
 ;
 request
 .
-type_
+destination
 =
-request_type
+destination
 ;
 let
 fetch_response
@@ -6016,7 +6016,7 @@ vec
 !
 [
 (
-Type
+Destination
 :
 :
 Script
@@ -6038,7 +6038,7 @@ vec
 false
 )
 (
-Type
+Destination
 :
 :
 Script
@@ -6060,7 +6060,7 @@ vec
 true
 )
 (
-Type
+Destination
 :
 :
 Style
@@ -6090,7 +6090,7 @@ tests
 {
 let
 (
-type_
+destination
 mime
 should_error
 )
@@ -6099,7 +6099,7 @@ test
 ;
 test_nosniff_request
 (
-type_
+destination
 mime
 should_error
 )

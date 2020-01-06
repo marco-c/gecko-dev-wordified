@@ -376,9 +376,6 @@ request
 CredentialsMode
 Destination
 RequestInit
-Type
-as
-RequestType
 }
 ;
 use
@@ -1326,12 +1323,6 @@ worker_url
 clone
 (
 )
-type_
-:
-RequestType
-:
-:
-Script
 destination
 :
 Destination

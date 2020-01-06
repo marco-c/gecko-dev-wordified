@@ -179,7 +179,6 @@ request
 {
 Destination
 RequestInit
-Type
 }
 ;
 use
@@ -408,10 +407,6 @@ None
 {
 set_default_accept
 (
-Type
-:
-:
-None
 Destination
 :
 :

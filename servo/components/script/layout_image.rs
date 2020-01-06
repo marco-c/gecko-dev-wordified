@@ -188,9 +188,7 @@ request
 :
 :
 {
-Type
-as
-RequestType
+Destination
 RequestInit
 as
 FetchRequestInit
@@ -537,9 +535,9 @@ immutable
 clone
 (
 )
-type_
+destination
 :
-RequestType
+Destination
 :
 :
 Image

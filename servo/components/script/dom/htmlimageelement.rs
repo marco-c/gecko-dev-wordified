@@ -568,12 +568,7 @@ net_traits
 request
 :
 :
-{
 RequestInit
-Type
-as
-RequestType
-}
 ;
 use
 network_listener
@@ -2021,12 +2016,6 @@ immutable
 clone
 (
 )
-type_
-:
-RequestType
-:
-:
-Image
 pipeline_id
 :
 Some
