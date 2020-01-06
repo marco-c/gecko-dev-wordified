@@ -3947,9 +3947,6 @@ mInitOnAsyncConnect
 nsresult
 mAsyncInitRv
 ;
-NPError
-mAsyncInitError
-;
 /
 /
 mContentParent
