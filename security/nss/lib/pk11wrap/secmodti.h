@@ -1457,6 +1457,9 @@ slot
 CK_OBJECT_HANDLE
 objectID
 ;
+PRBool
+owner
+;
 }
 ;
 #

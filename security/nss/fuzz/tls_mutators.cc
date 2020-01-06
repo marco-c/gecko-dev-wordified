@@ -58,6 +58,11 @@ MPL
 /
 #
 include
+<
+algorithm
+>
+#
+include
 "
 shared
 .
