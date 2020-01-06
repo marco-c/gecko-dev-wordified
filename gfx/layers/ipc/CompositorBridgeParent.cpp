@@ -753,7 +753,7 @@ mozilla
 /
 layers
 /
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 .
 h
 "
@@ -9162,7 +9162,7 @@ GetWebRenderAPI
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 GetAnimationStorage
@@ -9399,12 +9399,12 @@ aSize
 ;
 RefPtr
 <
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 >
 holder
 =
 new
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 (
 WebRenderBridgeParent
 :
@@ -10675,7 +10675,7 @@ return
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 -

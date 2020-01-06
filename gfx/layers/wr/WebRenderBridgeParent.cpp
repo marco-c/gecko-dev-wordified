@@ -283,7 +283,7 @@ mozilla
 /
 layers
 /
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 .
 h
 "
@@ -750,11 +750,11 @@ WebRenderAPI
 aApi
 RefPtr
 <
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 >
 &
 &
-aImageMgr
+aHolder
 RefPtr
 <
 CompositorAnimationStorage
@@ -780,9 +780,9 @@ mApi
 (
 aApi
 )
-mAsyncImageManager
+mCompositableHolder
 (
-aImageMgr
+aHolder
 )
 mCompositorScheduler
 (
@@ -825,7 +825,7 @@ false
 {
 MOZ_ASSERT
 (
-mAsyncImageManager
+mCompositableHolder
 )
 ;
 MOZ_ASSERT
@@ -833,7 +833,7 @@ MOZ_ASSERT
 mAnimStorage
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 AddPipeline
@@ -3478,7 +3478,7 @@ get_OpUpdateAsyncImagePipeline
 (
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 UpdateAsyncImagePipeline
@@ -3803,7 +3803,7 @@ uint32_t
 aIdNameSpace
 )
 {
-mAsyncImageManager
+mCompositableHolder
 -
 >
 SetCompositionTime
@@ -4535,7 +4535,7 @@ aPipelineId
 wrHost
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 AddAsyncImagePipeline
@@ -4622,7 +4622,7 @@ ClearWrBridge
 (
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 RemoveAsyncImagePipeline
@@ -5058,9 +5058,9 @@ wr
 WebRenderAPI
 *
 aApi
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 *
-aImageMgr
+aHolder
 CompositorAnimationStorage
 *
 aAnimStorage
@@ -5084,7 +5084,7 @@ aApi
 ;
 MOZ_ASSERT
 (
-aImageMgr
+aHolder
 )
 ;
 MOZ_ASSERT
@@ -5306,9 +5306,9 @@ mApi
 =
 aApi
 ;
-mAsyncImageManager
+mCompositableHolder
 =
-aImageMgr
+aHolder
 ;
 mAnimStorage
 =
@@ -5332,9 +5332,9 @@ Register
 pipeline
 to
 updated
-AsyncImageManager
+CompositableHolder
 .
-mAsyncImageManager
+mCompositableHolder
 -
 >
 AddPipeline
@@ -6400,7 +6400,7 @@ WrTransformProperty
 >
 transformArray
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 SetCompositionTime
@@ -6413,7 +6413,7 @@ Now
 )
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 ApplyAsyncImages
@@ -6536,7 +6536,7 @@ GenerateFrame
 if
 (
 !
-mAsyncImageManager
+mCompositableHolder
 -
 >
 GetCompositeUntilTime
@@ -7412,7 +7412,7 @@ ClearWrBridge
 (
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 RemoveAsyncImagePipeline
@@ -7428,7 +7428,7 @@ Clear
 (
 )
 ;
-mAsyncImageManager
+mCompositableHolder
 -
 >
 RemovePipeline
