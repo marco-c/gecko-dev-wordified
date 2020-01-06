@@ -2578,6 +2578,9 @@ mDeviceModelId
 nsCString
 mUserAgent
 ;
+nsCString
+mSpoofedUserAgent
+;
 nsXPIDLCString
 mUserAgentOverride
 ;
