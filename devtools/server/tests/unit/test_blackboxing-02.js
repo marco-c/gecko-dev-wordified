@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 eslint
@@ -37,11 +42,6 @@ no
 shadow
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -354,6 +354,11 @@ test_black_box_breakpoint
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
 *
 /
 Components
@@ -492,6 +497,11 @@ SOURCE_URL
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 }

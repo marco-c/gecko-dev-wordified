@@ -337,6 +337,11 @@ location
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
 *
 /
 Cu
@@ -463,6 +468,11 @@ gDebuggee
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 }

@@ -257,6 +257,14 @@ test_black_box_exception
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
+no
+-
+unreachable
 *
 /
 Components
@@ -426,6 +434,11 @@ SOURCE_URL
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 }

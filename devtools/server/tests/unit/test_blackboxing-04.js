@@ -326,6 +326,11 @@ test_black_box_paused
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
 *
 /
 Components
@@ -461,6 +466,11 @@ SOURCE_URL
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 }

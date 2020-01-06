@@ -232,6 +232,11 @@ setup_code
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
 *
 /
 let
@@ -385,6 +390,11 @@ com
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 code

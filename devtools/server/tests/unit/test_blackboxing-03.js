@@ -285,6 +285,11 @@ test_black_box_dbg_statement
 eslint
 -
 disable
+no
+-
+multi
+-
+spaces
 *
 /
 Components
@@ -428,6 +433,11 @@ SOURCE_URL
 eslint
 -
 enable
+no
+-
+multi
+-
+spaces
 *
 /
 }
