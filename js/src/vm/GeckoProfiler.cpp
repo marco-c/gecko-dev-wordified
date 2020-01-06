@@ -350,7 +350,7 @@ fn
 ;
 }
 /
-*
+/
 Get
 a
 pointer
@@ -367,8 +367,6 @@ exit
 frame
 pointer
 .
-*
-/
 static
 void
 *
@@ -412,7 +410,7 @@ return
 .
 uint8_t
 *
-exitFP
+jsExitFP
 =
 act
 -
@@ -422,14 +420,14 @@ asJit
 )
 -
 >
-exitFP
+jsExitFP
 (
 )
 ;
 if
 (
 !
-exitFP
+jsExitFP
 )
 return
 nullptr
@@ -440,7 +438,7 @@ jit
 JitProfilingFrameIterator
 iter
 (
-exitFP
+jsExitFP
 )
 ;
 MOZ_ASSERT
