@@ -2199,7 +2199,7 @@ aShadow
 )
 ;
 void
-PopShadow
+PopAllShadows
 (
 )
 ;

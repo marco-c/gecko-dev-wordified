@@ -8159,7 +8159,7 @@ extern
 C
 "
 fn
-wr_dp_pop_shadow
+wr_dp_pop_all_shadows
 (
 state
 :
@@ -8185,7 +8185,7 @@ frame_builder
 .
 dl_builder
 .
-pop_shadow
+pop_all_shadows
 (
 )
 ;
