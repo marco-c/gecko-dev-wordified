@@ -1778,6 +1778,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 #
 ifdef
 XP_WIN
@@ -3914,15 +3918,9 @@ updated
 atomically
 .
 static
-mozilla
-:
-:
 Atomic
 <
 size_t
-mozilla
-:
-:
 ReleaseAcquire
 >
 gRecycledSize
@@ -4184,9 +4182,6 @@ been
 initialized
 .
 static
-mozilla
-:
-:
 Atomic
 <
 bool
@@ -6369,9 +6364,6 @@ pages
 are
 recommitted
 .
-mozilla
-:
-:
 DoublyLinkedListElement
 <
 arena_chunk_t
@@ -6922,9 +6914,6 @@ this
 arena
 manages
 .
-mozilla
-:
-:
 DoublyLinkedList
 <
 arena_chunk_t
@@ -8092,9 +8081,6 @@ thread_arena
 #
 else
 static
-mozilla
-:
-:
 detail
 :
 :
@@ -8102,9 +8088,6 @@ ThreadLocal
 <
 arena_t
 *
-mozilla
-:
-:
 detail
 :
 :
@@ -10592,9 +10575,6 @@ aPtr
 using
 UniqueBaseNode
 =
-mozilla
-:
-:
 UniquePtr
 <
 extent_node_t
@@ -17614,9 +17594,6 @@ aChunk
 >
 chunks_madvised_elem
 )
-mozilla
-:
-:
 DoublyLinkedListElement
 <
 arena_chunk_t
@@ -25778,9 +25755,6 @@ new
 &
 mChunksMAdvised
 )
-mozilla
-:
-:
 DoublyLinkedList
 <
 arena_chunk_t
@@ -30974,9 +30948,6 @@ npages
 pagesize_2pow
 )
 ;
-mozilla
-:
-:
 Unused
 <
 <
