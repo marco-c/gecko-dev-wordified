@@ -293,6 +293,9 @@ include
 <
 vector
 >
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -715,9 +718,9 @@ Open
 MessageChannel
 *
 aTargetChan
-MessageLoop
+nsIEventTarget
 *
-aTargetLoop
+aEventTarget
 Side
 aSide
 )
