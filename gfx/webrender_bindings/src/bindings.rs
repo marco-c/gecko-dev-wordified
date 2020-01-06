@@ -258,6 +258,11 @@ WrMixBlendMode
 MixBlendMode
 ;
 type
+WrTransformStyle
+=
+TransformStyle
+;
+type
 WrRenderer
 =
 Renderer
@@ -7030,6 +7035,9 @@ transform
 *
 const
 WrMatrix
+transform_style
+:
+WrTransformStyle
 mix_blend_mode
 :
 WrMixBlendMode
@@ -7420,10 +7428,7 @@ ScrollPolicy
 Scrollable
 bounds
 transform_binding
-TransformStyle
-:
-:
-Flat
+transform_style
 None
 mix_blend_mode
 filters
