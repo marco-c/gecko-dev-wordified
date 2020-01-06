@@ -18692,7 +18692,7 @@ nsACString
 aString
 )
 {
-nsAutoCString
+nsCString
 result
 ;
 nsAutoCString
