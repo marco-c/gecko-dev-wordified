@@ -1002,6 +1002,10 @@ VideoInfo
 &
 aVideoInfo
 const
+float
+&
+aFramerate
+const
 layers
 :
 :
@@ -1061,6 +1065,7 @@ VideoDecoderParent
 (
 this
 aVideoInfo
+aFramerate
 aIdentifier
 sManagerTaskQueue
 decodeTaskQueue

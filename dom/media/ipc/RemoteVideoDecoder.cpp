@@ -1121,6 +1121,11 @@ VideoConfig
 )
 aParams
 .
+mRate
+.
+mValue
+aParams
+.
 mKnowsCompositor
 -
 >

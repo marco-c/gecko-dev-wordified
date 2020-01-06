@@ -225,6 +225,10 @@ VideoInfo
 &
 aVideoInfo
 const
+float
+&
+aFramerate
+const
 layers
 :
 :
