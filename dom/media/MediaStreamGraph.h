@@ -5547,6 +5547,14 @@ return
 mStreamTracksStartTimeStamp
 ;
 }
+bool
+OpenNewAudioCallbackDriver
+(
+AudioDataListener
+*
+aListener
+)
+;
 /
 /
 XXX
