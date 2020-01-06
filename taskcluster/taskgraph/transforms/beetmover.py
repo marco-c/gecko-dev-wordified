@@ -818,16 +818,6 @@ en
 -
 US
 /
-bouncer
-.
-apk
-"
-    
-"
-en
--
-US
-/
 mozharness
 .
 zip
@@ -1040,12 +1030,6 @@ zip
 target_info
 .
 txt
-"
-    
-"
-bouncer
-.
-apk
 "
     
 "
