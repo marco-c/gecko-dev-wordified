@@ -2131,6 +2131,9 @@ mPipe
 this
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2202,7 +2205,7 @@ nullptr
 ;
 }
 return
-NS_OK
+rv
 ;
 }
 int32_t
