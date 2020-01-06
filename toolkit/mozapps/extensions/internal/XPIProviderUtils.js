@@ -665,6 +665,9 @@ blocklistState
 "
 blocklistURL
 "
+"
+startupData
+"
 ]
 ;
 /
