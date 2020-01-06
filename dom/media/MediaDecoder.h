@@ -4424,6 +4424,9 @@ mOnDecoderDoctorEvent
 MediaEventListener
 mOnMediaNotSeekable
 ;
+MediaEventListener
+mOnEncrypted
+;
 protected
 :
 /
