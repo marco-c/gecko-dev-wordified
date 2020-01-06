@@ -940,12 +940,12 @@ problem
 if
 someone
 calls
-MediaRecoder
+MediaRecorder
 :
 :
 Stop
 and
-MedaiRecorder
+MediaRecorder
 :
 :
 Start
@@ -992,7 +992,7 @@ Stop
 If
 someone
 call
-MediaRecoder
+MediaRecorder
 :
 :
 Start
@@ -1006,7 +1006,7 @@ same
 recording
 context
 in
-MediaRecoder
+MediaRecorder
 might
 be
 access
@@ -6188,7 +6188,7 @@ private
 Hold
 reference
 to
-MediaRecoder
+MediaRecorder
 that
 ensure
 MediaRecorder
