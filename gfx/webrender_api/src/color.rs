@@ -495,6 +495,7 @@ stable
 (
 float_bits_conv
 )
+pub
 trait
 ToBits
 {

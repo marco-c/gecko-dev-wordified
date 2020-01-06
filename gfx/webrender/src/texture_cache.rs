@@ -4468,14 +4468,10 @@ entry
 =
 Some
 (
-self
-.
-entries
-.
-create_weak_handle
-(
-&
 new_entry_handle
+.
+weak
+(
 )
 )
 ;
