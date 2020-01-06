@@ -731,10 +731,10 @@ SECItem
 ec_params
 SECItem
 server_ecpoint
-SSL3Random
+PRUint8
 *
 client_rand
-SSL3Random
+PRUint8
 *
 server_rand
 SSL3Hashes
@@ -3677,7 +3677,6 @@ ssl3_ComputeECDHKeyHash
 hashAlg
 ec_params
 ec_point
-&
 ss
 -
 >
@@ -3686,7 +3685,6 @@ ssl3
 hs
 .
 client_random
-&
 ss
 -
 >
@@ -4287,7 +4285,6 @@ u
 ec
 .
 publicValue
-&
 ss
 -
 >
@@ -4296,7 +4293,6 @@ ssl3
 hs
 .
 client_random
-&
 ss
 -
 >
