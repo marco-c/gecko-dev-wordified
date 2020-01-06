@@ -895,6 +895,9 @@ is
 focused
 |
 |
+!
+!
+(
 this
 .
 refs
@@ -909,6 +912,7 @@ refs
 searchbox
 .
 focused
+)
 ;
 }
 componentWillUnmount
