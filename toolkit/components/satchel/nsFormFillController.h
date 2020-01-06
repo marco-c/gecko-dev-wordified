@@ -459,6 +459,14 @@ nsIDOMEvent
 aEvent
 )
 ;
+bool
+IsTextControl
+(
+nsINode
+*
+aNode
+)
+;
 /
 /
 members
