@@ -8832,8 +8832,9 @@ end
 )
 )
 {
-/
-/
+NS_WARNING
+(
+"
 Invalid
 to
 register
@@ -8842,7 +8843,9 @@ same
 layer
 tree
 twice
-.
+"
+)
+;
 return
 IPC_FAIL_NO_REASON
 (
