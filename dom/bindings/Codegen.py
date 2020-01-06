@@ -38365,9 +38365,10 @@ entry
               
 if
 (
+!
 idsSeen
 .
-Contains
+EnsureInserted
 (
 propName
 )
@@ -38540,14 +38541,6 @@ recordEntries
 .
 AppendElement
 (
-)
-;
-                
-idsSeen
-.
-PutEntry
-(
-propName
 )
 ;
               
