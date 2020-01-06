@@ -293,9 +293,6 @@ inline
 void
 ResolveSameStructsAs
 (
-nsPresContext
-*
-aPresContext
 const
 ServoStyleContext
 *
