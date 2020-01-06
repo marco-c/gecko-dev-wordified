@@ -168,10 +168,8 @@ reset
 ;
 token
 .
-changePassword
+initPassword
 (
-"
-"
 "
 "
 )
