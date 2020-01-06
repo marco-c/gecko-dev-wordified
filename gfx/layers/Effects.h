@@ -1038,8 +1038,6 @@ TextureSource
 aSource
 YUVColorSpace
 aYUVColorSpace
-uint32_t
-aDepth
 gfx
 :
 :
@@ -1061,10 +1059,6 @@ mYUVColorSpace
 (
 aYUVColorSpace
 )
-mDepth
-(
-aDepth
-)
 {
 }
 virtual
@@ -1083,9 +1077,6 @@ EffectYCbCr
 }
 YUVColorSpace
 mYUVColorSpace
-;
-uint32_t
-mDepth
 ;
 }
 ;
@@ -1639,12 +1630,6 @@ aHost
 -
 >
 GetYUVColorSpace
-(
-)
-aHost
--
->
-GetDepth
 (
 )
 aSamplingFilter

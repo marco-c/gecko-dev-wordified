@@ -777,15 +777,7 @@ mYSize
 data
 -
 >
-mYStride
-data
--
->
 mCbCrSize
-data
--
->
-mCbCrStride
 data
 -
 >
@@ -794,10 +786,6 @@ data
 -
 >
 mYUVColorSpace
-data
--
->
-mDepth
 TextureFlags
 :
 :
