@@ -11672,6 +11672,15 @@ bug1367983
 #
 ifndef
 MOZ_WIDGET_ANDROID
+if
+(
+!
+mMaster
+-
+>
+mLooping
+)
+{
 /
 /
 We
@@ -11681,6 +11690,8 @@ decoded
 all
 samples
 .
+/
+/
 We
 don
 '
@@ -11688,6 +11699,9 @@ t
 need
 decoders
 anymore
+if
+not
+looping
 .
 Reader
 (
@@ -11698,6 +11712,7 @@ ReleaseResources
 (
 )
 ;
+}
 #
 endif
 bool
