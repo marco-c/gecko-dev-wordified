@@ -1071,6 +1071,13 @@ setAutoCancel
 true
 )
 .
+setDefaults
+(
+Notification
+.
+DEFAULT_SOUND
+)
+.
 setStyle
 (
 new
