@@ -230,11 +230,6 @@ try_match_ident_ignore_ascii_case
 !
 {
 input
-.
-expect_ident
-(
-)
-?
 "
 baseline
 "

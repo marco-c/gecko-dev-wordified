@@ -362,7 +362,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 use
 servo_arc
@@ -1361,6 +1361,15 @@ i
 >
 {
 let
+location
+=
+input
+.
+current_source_location
+(
+)
+;
+let
 ident
 =
 input
@@ -1468,7 +1477,11 @@ none
 >
 Err
 (
-SelectorParseError
+location
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -1479,9 +1492,6 @@ clone
 (
 )
 )
-.
-into
-(
 )
 )
 _
@@ -1492,6 +1502,7 @@ CustomIdent
 :
 from_ident
 (
+location
 ident
 &
 [

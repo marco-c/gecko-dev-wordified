@@ -765,7 +765,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 #
 [
@@ -780,7 +780,7 @@ style_traits
 :
 {
 ParseError
-StyleParseError
+StyleParseErrorKind
 }
 ;
 #
@@ -2146,7 +2146,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 #
 [
@@ -2174,7 +2174,7 @@ style_traits
 :
 {
 ParseError
-StyleParseError
+StyleParseErrorKind
 }
 ;
 #
@@ -5154,7 +5154,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 #
 [
@@ -5182,7 +5182,7 @@ style_traits
 :
 {
 ParseError
-StyleParseError
+StyleParseErrorKind
 }
 ;
 #
@@ -7301,13 +7301,14 @@ ret
 return
 Err
 (
-StyleParseError
+input
+.
+new_custom_error
+(
+StyleParseErrorKind
 :
 :
 UnspecifiedError
-.
-into
-(
 )
 )
 }

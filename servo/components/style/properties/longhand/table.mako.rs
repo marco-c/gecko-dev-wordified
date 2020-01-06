@@ -348,7 +348,7 @@ _
 :
 &
 ParserContext
-_
+input
 :
 &
 mut
@@ -374,13 +374,14 @@ i
 {
 Err
 (
-StyleParseError
+input
+.
+new_custom_error
+(
+StyleParseErrorKind
 :
 :
 UnspecifiedError
-.
-into
-(
 )
 )
 }
