@@ -2490,7 +2490,7 @@ public
 explicit
 MP4Stream
 (
-MediaResource
+SourceBufferResource
 *
 aResource
 )
@@ -2544,7 +2544,10 @@ override
 ;
 private
 :
-MediaResourceIndex
+RefPtr
+<
+SourceBufferResource
+>
 mResource
 ;
 }
@@ -2554,7 +2557,7 @@ MP4Stream
 :
 MP4Stream
 (
-MediaResource
+SourceBufferResource
 *
 aResource
 )
@@ -2639,10 +2642,6 @@ nsresult
 rv
 =
 mResource
-.
-GetResource
-(
-)
 -
 >
 ReadFromCache
@@ -2699,7 +2698,8 @@ aSize
 if
 (
 mResource
-.
+-
+>
 GetLength
 (
 )
@@ -2713,7 +2713,8 @@ false
 aSize
 =
 mResource
-.
+-
+>
 GetLength
 (
 )
