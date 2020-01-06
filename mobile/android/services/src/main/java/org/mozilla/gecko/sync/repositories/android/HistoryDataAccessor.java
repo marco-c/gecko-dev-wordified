@@ -193,12 +193,12 @@ Bundle
 ;
 public
 class
-AndroidBrowserHistoryDataAccessor
+HistoryDataAccessor
 extends
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 {
 public
-AndroidBrowserHistoryDataAccessor
+HistoryDataAccessor
 (
 Context
 context

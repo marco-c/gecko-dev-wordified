@@ -174,7 +174,7 @@ Uri
 public
 abstract
 class
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 {
 private
 static
@@ -218,7 +218,7 @@ QueryHelper
 queryHelper
 ;
 public
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 (
 Context
 context

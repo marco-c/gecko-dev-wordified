@@ -257,7 +257,7 @@ Context
 ;
 public
 class
-AndroidBrowserHistoryRepositorySession
+HistoryRepositorySession
 extends
 StoreTrackingRepositorySession
 {
@@ -273,7 +273,7 @@ ABHistoryRepoSess
 ;
 private
 final
-AndroidBrowserHistoryDataAccessor
+HistoryDataAccessor
 dbHelper
 ;
 private
@@ -288,7 +288,7 @@ storeCount
 0
 ;
 public
-AndroidBrowserHistoryRepositorySession
+HistoryRepositorySession
 (
 Repository
 repository
@@ -304,7 +304,7 @@ repository
 dbHelper
 =
 new
-AndroidBrowserHistoryDataAccessor
+HistoryDataAccessor
 (
 context
 )

@@ -80,19 +80,6 @@ sync
 .
 repositories
 .
-NullCursorException
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
-repositories
-.
 Repository
 ;
 import
@@ -135,7 +122,7 @@ Context
 public
 abstract
 class
-AndroidBrowserRepository
+ThreadedRepository
 extends
 Repository
 {
@@ -287,7 +274,7 @@ delegate
 .
 onCleanFailed
 (
-AndroidBrowserRepository
+ThreadedRepository
 .
 this
 e
@@ -300,7 +287,7 @@ delegate
 .
 onCleaned
 (
-AndroidBrowserRepository
+ThreadedRepository
 .
 this
 )
@@ -309,7 +296,7 @@ this
 }
 protected
 abstract
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 getDataAccessor
 (
 Context

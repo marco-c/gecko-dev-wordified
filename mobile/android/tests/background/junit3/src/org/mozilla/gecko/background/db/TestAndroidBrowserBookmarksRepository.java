@@ -203,7 +203,7 @@ repositories
 .
 android
 .
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 ;
 import
 org
@@ -218,7 +218,7 @@ repositories
 .
 android
 .
-AndroidBrowserBookmarksRepository
+BookmarksRepository
 ;
 import
 org
@@ -233,7 +233,7 @@ repositories
 .
 android
 .
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 ;
 import
 org
@@ -248,7 +248,7 @@ repositories
 .
 android
 .
-AndroidBrowserRepository
+ThreadedRepository
 ;
 import
 org
@@ -263,7 +263,7 @@ repositories
 .
 android
 .
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 ;
 import
 org
@@ -365,11 +365,11 @@ public
 class
 TestAndroidBrowserBookmarksRepository
 extends
-AndroidBrowserRepositoryTestCase
+ThreadedRepositoryTestCase
 {
 Override
 protected
-AndroidBrowserRepository
+ThreadedRepository
 getRepository
 (
 )
@@ -402,7 +402,7 @@ time
 /
 return
 new
-AndroidBrowserBookmarksRepository
+BookmarksRepository
 (
 )
 {
@@ -417,13 +417,13 @@ Context
 context
 )
 {
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 session
 ;
 session
 =
 new
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 (
 this
 context
@@ -478,14 +478,14 @@ session
 }
 Override
 protected
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 getDataAccessor
 (
 )
 {
 return
 new
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 (
 getApplicationContext
 (
@@ -536,7 +536,7 @@ ignore
 .
 addAll
 (
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -594,7 +594,7 @@ ignore
 .
 addAll
 (
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -775,7 +775,7 @@ records
 )
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 helper
 =
 getDataAccessor
@@ -1826,7 +1826,7 @@ timestampDelegate
 )
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 helper
 =
 getDataAccessor
@@ -2557,7 +2557,7 @@ createAndBeginSession
 (
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 db
 =
 getDataAccessor
@@ -3048,7 +3048,7 @@ createAndBeginSession
 (
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 db
 =
 getDataAccessor
@@ -3371,7 +3371,7 @@ createAndBeginSession
 (
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 db
 =
 getDataAccessor
@@ -3636,7 +3636,7 @@ createAndBeginSession
 (
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 db
 =
 getDataAccessor

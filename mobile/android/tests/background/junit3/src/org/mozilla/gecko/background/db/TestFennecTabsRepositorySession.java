@@ -1826,7 +1826,7 @@ createAndBeginSession
 ;
 performWait
 (
-AndroidBrowserRepositoryTestCase
+ThreadedRepositoryTestCase
 .
 storeRunnable
 (

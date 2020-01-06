@@ -399,7 +399,7 @@ BookmarksSessionHelper
 ;
 private
 final
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 dbAccessor
 ;
 /
@@ -1092,7 +1092,7 @@ BookmarksSessionHelper
 (
 StoreTrackingRepositorySession
 session
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 dbAccessor
 )
 {
@@ -1498,7 +1498,7 @@ existingRecord
 {
 if
 (
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -1633,7 +1633,7 @@ set
 from
 {
 link
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 #
 SPECIAL_GUIDS_MAP
 }
@@ -1677,7 +1677,7 @@ final
 String
 parentName
 =
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -4735,7 +4735,7 @@ didUpdate
 =
 (
 (
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 )
 dbHelper
 )
@@ -6305,7 +6305,7 @@ return
 }
 if
 (
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -6316,7 +6316,7 @@ parentGUID
 )
 {
 return
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -7320,7 +7320,7 @@ default
 String
 parentName
 =
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
@@ -8607,7 +8607,7 @@ cursor
 =
 (
 (
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 )
 dbHelper
 )

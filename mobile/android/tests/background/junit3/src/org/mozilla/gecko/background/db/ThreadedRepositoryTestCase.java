@@ -443,7 +443,7 @@ repositories
 .
 android
 .
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 ;
 import
 org
@@ -492,7 +492,7 @@ Context
 public
 abstract
 class
-AndroidBrowserRepositoryTestCase
+ThreadedRepositoryTestCase
 extends
 AndroidSyncTestCase
 {
@@ -510,7 +510,7 @@ static
 void
 wipe
 (
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 helper
 )
 {
@@ -644,7 +644,7 @@ setUp
 (
 )
 {
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 helper
 =
 getDataAccessor
@@ -1461,7 +1461,7 @@ getRepository
 ;
 protected
 abstract
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 getDataAccessor
 (
 )
@@ -1676,7 +1676,7 @@ Prepared
 "
 )
 ;
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 helper
 =
 getDataAccessor
@@ -1800,7 +1800,7 @@ to
 appear
 deleted
 .
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 db
 =
 getDataAccessor
@@ -4796,7 +4796,7 @@ protected
 void
 closeDataAccessor
 (
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 dataAccessor
 )
 {

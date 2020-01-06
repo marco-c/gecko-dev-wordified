@@ -317,7 +317,7 @@ Context
 ;
 public
 class
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 extends
 StoreTrackingRepositorySession
 {
@@ -922,7 +922,7 @@ reordering
 /
 private
 final
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 dataAccessor
 ;
 private
@@ -1259,7 +1259,7 @@ m
 dataAccessor
 =
 new
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 (
 context
 )

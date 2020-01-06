@@ -460,7 +460,7 @@ BookmarkDelete
 ;
 private
 final
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 dataAccessor
 ;
 private
@@ -613,7 +613,7 @@ occurs
 public
 BookmarksDeletionManager
 (
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 dataAccessor
 int
 flushThreshold

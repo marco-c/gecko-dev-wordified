@@ -213,19 +213,6 @@ sync
 .
 repositories
 .
-RepositorySession
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
-repositories
-.
 StoreTrackingRepositorySession
 ;
 import
@@ -643,7 +630,7 @@ private
 *
 /
 final
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 dbHelper
 ;
 /
@@ -657,7 +644,7 @@ SessionHelper
 (
 StoreTrackingRepositorySession
 session
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 dbHelper
 )
 {

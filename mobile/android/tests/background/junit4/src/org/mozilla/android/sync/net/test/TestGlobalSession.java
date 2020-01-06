@@ -482,7 +482,7 @@ sync
 .
 stage
 .
-AndroidBrowserBookmarksServerSyncStage
+BookmarksServerSyncStage
 ;
 import
 org
@@ -825,7 +825,7 @@ Stage
 syncBookmarks
 )
 instanceof
-AndroidBrowserBookmarksServerSyncStage
+BookmarksServerSyncStage
 )
 ;
 final
