@@ -2726,8 +2726,8 @@ get
 "
 root
 "
-[
-]
+{
+}
 )
 ]
 content
