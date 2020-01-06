@@ -1937,11 +1937,16 @@ GetCurrentThreadEventTarget
 (
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 target
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 nsCOMPtr
 <
 nsIIdleRunnable
