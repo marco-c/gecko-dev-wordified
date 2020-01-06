@@ -914,6 +914,14 @@ TFO_FAILED
 &
 &
 (
+mFastOpenStatus
+!
+=
+TFO_HTTP
+)
+&
+&
+(
 (
 mFastOpenStatus
 !
