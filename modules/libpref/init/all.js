@@ -13106,7 +13106,7 @@ local
 builds
 /
 nightly
-pref
+sticky_pref
 (
 "
 devtools
@@ -13122,7 +13122,7 @@ false
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
@@ -13146,7 +13146,7 @@ MOZILLA_OFFICIAL
 Disable
 debugging
 chrome
-pref
+sticky_pref
 (
 "
 devtools
@@ -13164,7 +13164,7 @@ Disable
 remote
 debugging
 connections
-pref
+sticky_pref
 (
 "
 devtools
@@ -13191,7 +13191,7 @@ browser
 toolbox
 by
 default
-pref
+sticky_pref
 (
 "
 devtools
@@ -13203,7 +13203,7 @@ enabled
 true
 )
 ;
-pref
+sticky_pref
 (
 "
 devtools
@@ -16979,23 +16979,6 @@ options
 mem
 .
 max
-"
--
-1
-)
-;
-pref
-(
-"
-javascript
-.
-options
-.
-mem
-.
-nursery
-.
-max_kb
 "
 -
 1
