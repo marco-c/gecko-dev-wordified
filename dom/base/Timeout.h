@@ -413,9 +413,7 @@ mTimeoutId
 /
 /
 Interval
-in
-milliseconds
-uint32_t
+TimeDuration
 mInterval
 ;
 /
