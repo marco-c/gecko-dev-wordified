@@ -502,7 +502,7 @@ PanelMultiView
 jsm
 "
 "
-onTransitionEnd
+_cleanupTransitionPhase
 resource
 :
 /
