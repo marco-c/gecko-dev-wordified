@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIController
 .
 h
@@ -473,10 +466,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 nsIControllers
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-XULControllers
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
