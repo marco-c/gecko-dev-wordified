@@ -239,7 +239,6 @@ _run_task_suffix
 (
 )
 :
-    
 "
 "
 "
@@ -259,7 +258,6 @@ task
 "
 "
 "
-    
 return
 hash_path
 (
@@ -284,9 +282,7 @@ taskref_or_string
 =
 Any
 (
-    
 basestring
-    
 {
 Required
 (
@@ -317,14 +313,12 @@ task_description_schema
 Schema
 (
 {
-    
 #
 the
 label
 for
 this
 task
-    
 Required
 (
 '
@@ -333,7 +327,6 @@ label
 )
 :
 basestring
-    
 #
 description
 of
@@ -343,7 +336,6 @@ task
 for
 metadata
 )
-    
 Required
 (
 '
@@ -352,13 +344,11 @@ description
 )
 :
 basestring
-    
 #
 attributes
 for
 this
 task
-    
 Optional
 (
 '
@@ -371,7 +361,6 @@ basestring
 :
 object
 }
-    
 #
 relative
 path
@@ -388,7 +377,6 @@ task
 was
 defined
 in
-    
 Optional
 (
 '
@@ -399,7 +387,6 @@ from
 )
 :
 basestring
-    
 #
 dependencies
 of
@@ -413,7 +400,6 @@ these
 are
 passed
 through
-    
 #
 verbatim
 and
@@ -427,11 +413,9 @@ Task
 '
 s
 get_dependencies
-    
 #
 method
 .
-    
 Optional
 (
 '
@@ -444,7 +428,6 @@ basestring
 :
 object
 }
-    
 #
 expiration
 and
@@ -456,7 +439,6 @@ task
 creation
 with
 units
-    
 #
 (
 e
@@ -477,7 +459,6 @@ on
 the
 project
 .
-    
 Optional
 (
 '
@@ -488,7 +469,6 @@ after
 )
 :
 basestring
-    
 Optional
 (
 '
@@ -499,7 +479,6 @@ after
 )
 :
 basestring
-    
 #
 custom
 routes
@@ -514,10 +493,8 @@ routes
 will
 be
 added
-    
 #
 automatically
-    
 Optional
 (
 '
@@ -528,7 +505,6 @@ routes
 [
 basestring
 ]
-    
 #
 custom
 scopes
@@ -544,7 +520,6 @@ the
 worker
 will
 be
-    
 #
 added
 automatically
@@ -557,11 +532,9 @@ be
 substituted
 in
 each
-    
 #
 scope
 :
-    
 #
 {
 level
@@ -574,7 +547,6 @@ level
 of
 this
 push
-    
 Optional
 (
 '
@@ -585,10 +557,8 @@ scopes
 [
 basestring
 ]
-    
 #
 Tags
-    
 Optional
 (
 '
@@ -601,7 +571,6 @@ basestring
 :
 basestring
 }
-    
 #
 custom
 "
@@ -610,7 +579,6 @@ task
 extra
 "
 content
-    
 Optional
 (
 '
@@ -623,7 +591,6 @@ basestring
 :
 object
 }
-    
 #
 treeherder
 -
@@ -631,7 +598,6 @@ related
 information
 ;
 see
-    
 #
 https
 :
@@ -656,7 +622,6 @@ treeherder
 config
 .
 json
-    
 #
 If
 not
@@ -669,13 +634,11 @@ or
 routes
 will
 be
-    
 #
 added
 to
 the
 task
-    
 Optional
 (
 '
@@ -684,7 +647,6 @@ treeherder
 )
 :
 {
-        
 #
 either
 a
@@ -698,18 +660,15 @@ sym
 )
 "
 .
-        
 '
 symbol
 '
 :
 basestring
-        
 #
 the
 job
 kind
-        
 '
 kind
 '
@@ -726,19 +685,16 @@ test
 other
 '
 )
-        
 #
 tier
 for
 this
 task
-        
 '
 tier
 '
 :
 int
-        
 #
 task
 platform
@@ -751,7 +707,6 @@ collection
 used
 to
 set
-        
 #
 treeherder
 .
@@ -763,18 +718,15 @@ treeherder
 .
 collection
 or
-        
 #
 treeherder
 .
 labels
-        
 '
 platform
 '
 :
 basestring
-        
 #
 treeherder
 environments
@@ -786,7 +738,6 @@ staging
 and
 production
 )
-        
 Required
 (
 '
@@ -812,9 +763,7 @@ production
 staging
 '
 ]
-    
 }
-    
 #
 information
 for
@@ -828,7 +777,6 @@ can
 be
 discovered
 ;
-    
 #
 if
 omitted
@@ -839,7 +787,6 @@ not
 be
 indexed
 .
-    
 Optional
 (
 '
@@ -848,7 +795,6 @@ index
 )
 :
 {
-        
 #
 the
 name
@@ -858,7 +804,6 @@ product
 this
 build
 produces
-        
 '
 product
 '
@@ -880,7 +825,6 @@ analysis
 devedition
 '
 )
-        
 #
 the
 names
@@ -893,7 +837,6 @@ in
 the
 TaskCluster
 index
-        
 '
 job
 -
@@ -901,7 +844,6 @@ name
 '
 :
 basestring
-        
 #
 Type
 of
@@ -910,7 +852,6 @@ v2
 index
 to
 use
-        
 '
 type
 '
@@ -936,7 +877,6 @@ multi
 l10n
 '
 )
-        
 #
 The
 rank
@@ -948,7 +888,6 @@ receive
 in
 the
 TaskCluster
-        
 #
 index
 .
@@ -959,7 +898,6 @@ task
 supercedes
 the
 currently
-        
 #
 indexed
 task
@@ -972,7 +910,6 @@ rank
 .
 If
 unspecified
-        
 #
 '
 by
@@ -984,14 +921,12 @@ will
 be
 used
 .
-        
 '
 rank
 '
 :
 Any
 (
-            
 #
 Rank
 is
@@ -1005,7 +940,6 @@ for
 tier
 -
 1
-            
 #
 tasks
 and
@@ -1025,7 +959,6 @@ tier
 2
 3
 }
-            
 #
 builds
 below
@@ -1036,13 +969,11 @@ in
 the
 index
 .
-            
 '
 by
 -
 tier
 '
-            
 #
 Rank
 is
@@ -1059,7 +990,6 @@ g
 zero
 to
 make
-            
 #
 sure
 a
@@ -1071,9 +1001,7 @@ the
 index
 )
 .
-            
 int
-            
 #
 Rank
 is
@@ -1086,7 +1014,6 @@ the
 build_date
 .
 This
-            
 #
 option
 can
@@ -1101,7 +1028,6 @@ by
 tier
 '
 behavior
-            
 #
 for
 non
@@ -1111,15 +1037,11 @@ tier
 1
 tasks
 .
-            
 '
 build_date
 '
-        
 )
-    
 }
-    
 #
 The
 run_on_projects
@@ -1133,7 +1055,6 @@ all
 This
 dictates
 the
-    
 #
 projects
 on
@@ -1149,7 +1070,6 @@ target
 task
 set
 .
-    
 #
 See
 the
@@ -1158,7 +1078,6 @@ documentation
 for
 details
 .
-    
 Optional
 (
 '
@@ -1173,7 +1092,6 @@ projects
 [
 basestring
 ]
-    
 #
 If
 the
@@ -1190,7 +1108,6 @@ in
 the
 coalesce
 key
-    
 #
 the
 project
@@ -1208,13 +1125,11 @@ try
 level
 1
 )
-    
 #
 tasks
 are
 never
 coalesced
-    
 Optional
 (
 '
@@ -1225,7 +1140,6 @@ name
 )
 :
 basestring
-    
 #
 Optimizations
 to
@@ -1237,7 +1151,6 @@ during
 the
 optimization
 phase
-    
 #
 specified
 in
@@ -1248,7 +1161,6 @@ optimizations
 are
 defined
 in
-    
 #
 taskcluster
 /
@@ -1258,7 +1170,6 @@ optimize
 .
 py
 .
-    
 Optional
 (
 '
@@ -1269,7 +1180,6 @@ optimizations
 [
 Any
 (
-        
 #
 search
 the
@@ -1285,7 +1195,6 @@ this
 task
 if
 found
-        
 [
 '
 index
@@ -1294,7 +1203,6 @@ search
 '
 basestring
 ]
-        
 #
 consult
 SETA
@@ -1308,13 +1216,11 @@ is
 low
 -
 value
-        
 [
 '
 seta
 '
 ]
-        
 #
 skip
 this
@@ -1327,7 +1233,6 @@ given
 file
 patterns
 match
-        
 [
 '
 skip
@@ -1340,10 +1245,8 @@ changed
 basestring
 ]
 ]
-    
 )
 ]
-    
 #
 the
 provisioner
@@ -1361,7 +1264,6 @@ The
 following
 parameters
 will
-    
 #
 be
 substituted
@@ -1369,7 +1271,6 @@ in
 this
 string
 :
-    
 #
 {
 level
@@ -1382,7 +1283,6 @@ level
 of
 this
 push
-    
 '
 worker
 -
@@ -1390,7 +1290,6 @@ type
 '
 :
 basestring
-    
 #
 Whether
 the
@@ -1401,7 +1300,6 @@ sccache
 compiler
 caching
 .
-    
 Required
 (
 '
@@ -1415,7 +1313,6 @@ False
 )
 :
 bool
-    
 #
 information
 specific
@@ -1428,7 +1325,6 @@ will
 run
 this
 task
-    
 '
 worker
 '
@@ -1436,7 +1332,6 @@ worker
 Any
 (
 {
-        
 Required
 (
 '
@@ -1457,7 +1352,6 @@ docker
 engine
 '
 )
-        
 Required
 (
 '
@@ -1468,7 +1362,6 @@ os
 '
 linux
 '
-        
 #
 For
 tasks
@@ -1486,7 +1379,6 @@ engine
 this
 is
 the
-        
 #
 name
 of
@@ -1506,7 +1398,6 @@ task
 in
 .
 If
-        
 #
 in
 -
@@ -1521,7 +1412,6 @@ automatically
 .
 This
 is
-        
 #
 generally
 desktop
@@ -1538,7 +1428,6 @@ lot
 like
 it
 .
-        
 Required
 (
 '
@@ -1550,7 +1439,6 @@ image
 :
 Any
 (
-            
 #
 a
 raw
@@ -1564,9 +1452,7 @@ image
 :
 tag
 )
-            
 basestring
-            
 #
 an
 in
@@ -1585,7 +1471,6 @@ docker
 name
 >
 )
-            
 {
 '
 in
@@ -1595,13 +1480,11 @@ tree
 :
 basestring
 }
-            
 #
 an
 indexed
 docker
 image
-            
 {
 '
 indexed
@@ -1609,9 +1492,7 @@ indexed
 :
 basestring
 }
-        
 )
-        
 #
 worker
 features
@@ -1619,7 +1500,6 @@ that
 should
 be
 enabled
-        
 Required
 (
 '
@@ -1633,7 +1513,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1649,7 +1528,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1663,7 +1541,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1677,7 +1554,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1691,7 +1567,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1705,7 +1580,6 @@ False
 )
 :
 bool
-        
 Required
 (
 '
@@ -1728,16 +1602,13 @@ aka
 dind
 '
 )
-        
 #
 Paths
 to
 Docker
 volumes
 .
-        
 #
-        
 #
 For
 in
@@ -1752,7 +1623,6 @@ parsed
 from
 Dockerfile
 .
-        
 #
 This
 only
@@ -1768,7 +1638,6 @@ volume
 is
 defined
 in
-        
 #
 a
 base
@@ -1787,7 +1656,6 @@ of
 -
 tree
 Docker
-        
 #
 images
 will
@@ -1797,9 +1665,7 @@ explicit
 volume
 annotation
 .
-        
 #
-        
 #
 Caches
 are
@@ -1815,7 +1681,6 @@ volumes
 .
 In
 this
-        
 #
 case
 they
@@ -1830,7 +1695,6 @@ But
 a
 volume
 still
-        
 #
 needs
 to
@@ -1840,7 +1704,6 @@ for
 the
 path
 .
-        
 Optional
 (
 '
@@ -1855,7 +1718,6 @@ default
 [
 basestring
 ]
-        
 #
 caches
 to
@@ -1864,7 +1726,6 @@ up
 for
 the
 task
-        
 Optional
 (
 '
@@ -1874,7 +1735,6 @@ caches
 :
 [
 {
-            
 #
 only
 one
@@ -1888,7 +1748,6 @@ the
 workers
 right
 now
-            
 '
 type
 '
@@ -1896,7 +1755,6 @@ type
 '
 persistent
 '
-            
 #
 name
 of
@@ -1911,17 +1769,14 @@ subsequent
 tasks
 naming
 the
-            
 #
 same
 cache
-            
 '
 name
 '
 :
 basestring
-            
 #
 location
 in
@@ -1934,7 +1789,6 @@ cache
 will
 be
 mounted
-            
 '
 mount
 -
@@ -1942,7 +1796,6 @@ point
 '
 :
 basestring
-            
 #
 Whether
 the
@@ -1953,7 +1806,6 @@ used
 in
 untrusted
 environments
-            
 #
 (
 like
@@ -1962,7 +1814,6 @@ Try
 repo
 )
 .
-            
 Optional
 (
 '
@@ -1976,10 +1827,8 @@ False
 )
 :
 bool
-        
 }
 ]
-        
 #
 artifacts
 to
@@ -1990,7 +1839,6 @@ task
 image
 after
 completion
-        
 Optional
 (
 '
@@ -2000,7 +1848,6 @@ artifacts
 :
 [
 {
-            
 #
 type
 of
@@ -2012,7 +1859,6 @@ file
 or
 recursive
 directory
-            
 '
 type
 '
@@ -2026,7 +1872,6 @@ file
 directory
 '
 )
-            
 #
 task
 image
@@ -2036,13 +1881,11 @@ which
 to
 read
 artifact
-            
 '
 path
 '
 :
 basestring
-            
 #
 name
 of
@@ -2055,26 +1898,21 @@ of
 the
 names
 for
-            
 #
 type
 =
 directory
 )
-            
 '
 name
 '
 :
 basestring
-        
 }
 ]
-        
 #
 environment
 variables
-        
 Required
 (
 '
@@ -2091,7 +1929,6 @@ basestring
 :
 taskref_or_string
 }
-        
 #
 the
 command
@@ -2108,14 +1945,12 @@ will
 default
 to
 the
-        
 #
 command
 in
 the
 docker
 image
-        
 Optional
 (
 '
@@ -2126,7 +1961,6 @@ command
 [
 taskref_or_string
 ]
-        
 #
 the
 maximum
@@ -2135,7 +1969,6 @@ to
 run
 in
 seconds
-        
 Required
 (
 '
@@ -2148,7 +1981,6 @@ time
 )
 :
 int
-        
 #
 the
 exit
@@ -2161,7 +1993,6 @@ task
 should
 be
 retried
-        
 Optional
 (
 '
@@ -2174,10 +2005,8 @@ status
 )
 :
 int
-    
 }
 {
-        
 Required
 (
 '
@@ -2190,7 +2019,6 @@ generic
 -
 worker
 '
-        
 Required
 (
 '
@@ -2207,7 +2035,6 @@ windows
 macosx
 '
 )
-        
 #
 see
 http
@@ -2229,7 +2056,6 @@ v1
 payload
 .
 json
-        
 #
 and
 https
@@ -2251,7 +2077,6 @@ generic
 worker
 /
 payload
-        
 #
 command
 is
@@ -2262,7 +2087,6 @@ commands
 to
 run
 sequentially
-        
 #
 on
 Windows
@@ -2279,12 +2103,10 @@ Linux
 each
 command
 is
-        
 #
 a
 string
 array
-        
 Required
 (
 '
@@ -2294,13 +2116,11 @@ command
 :
 Any
 (
-            
 [
 taskref_or_string
 ]
 #
 Windows
-            
 [
 [
 taskref_or_string
@@ -2311,9 +2131,7 @@ Linux
 /
 OS
 X
-        
 )
-        
 #
 artifacts
 to
@@ -2328,7 +2146,6 @@ completion
 note
 that
 artifacts
-        
 #
 for
 the
@@ -2337,7 +2154,6 @@ worker
 cannot
 have
 names
-        
 Optional
 (
 '
@@ -2347,7 +2163,6 @@ artifacts
 :
 [
 {
-            
 #
 type
 of
@@ -2359,7 +2174,6 @@ file
 or
 recursive
 directory
-            
 '
 type
 '
@@ -2373,7 +2187,6 @@ file
 directory
 '
 )
-            
 #
 filesystem
 path
@@ -2382,13 +2195,11 @@ which
 to
 read
 artifact
-            
 '
 path
 '
 :
 basestring
-            
 #
 if
 not
@@ -2399,7 +2210,6 @@ used
 for
 artifact
 name
-            
 Optional
 (
 '
@@ -2408,10 +2218,8 @@ name
 )
 :
 basestring
-        
 }
 ]
-        
 #
 Directories
 and
@@ -2422,7 +2230,6 @@ to
 be
 mounted
 .
-        
 #
 The
 actual
@@ -2434,7 +2241,6 @@ than
 the
 model
 below
-        
 #
 but
 this
@@ -2444,7 +2250,6 @@ simple
 starting
 point
 .
-        
 #
 See
 https
@@ -2466,7 +2271,6 @@ generic
 worker
 /
 payload
-        
 Optional
 (
 '
@@ -2476,7 +2280,6 @@ mounts
 :
 [
 {
-            
 #
 A
 unique
@@ -2489,7 +2292,6 @@ implies
 writable
 cache
 directory
-            
 #
 (
 otherwise
@@ -2504,7 +2306,6 @@ or
 directory
 )
 .
-            
 Optional
 (
 '
@@ -2515,7 +2316,6 @@ name
 )
 :
 basestring
-            
 #
 Optional
 content
@@ -2528,7 +2328,6 @@ or
 mandatory
 content
 for
-            
 #
 read
 -
@@ -2545,7 +2344,6 @@ can
 come
 from
 either
-            
 #
 a
 task
@@ -2555,7 +2353,6 @@ from
 a
 URL
 .
-            
 Optional
 (
 '
@@ -2564,7 +2361,6 @@ content
 )
 :
 {
-                
 #
 *
 *
@@ -2586,7 +2382,6 @@ specified
 *
 *
 *
-                
 #
 Artifact
 name
@@ -2595,7 +2390,6 @@ contains
 the
 content
 .
-                
 Optional
 (
 '
@@ -2604,7 +2398,6 @@ artifact
 )
 :
 basestring
-                
 #
 Task
 ID
@@ -2617,7 +2410,6 @@ contains
 the
 content
 .
-                
 Optional
 (
 '
@@ -2628,7 +2420,6 @@ id
 )
 :
 taskref_or_string
-                
 #
 URL
 that
@@ -2640,12 +2431,10 @@ response
 to
 an
 unauthenticated
-                
 #
 GET
 request
 .
-                
 Optional
 (
 '
@@ -2654,9 +2443,7 @@ url
 )
 :
 basestring
-            
 }
-            
 #
 *
 *
@@ -2672,7 +2459,6 @@ specified
 *
 *
 *
-            
 #
 If
 mounting
@@ -2687,7 +2473,6 @@ the
 filesystem
 location
 of
-            
 #
 the
 directory
@@ -2701,12 +2486,10 @@ path
 to
 the
 task
-            
 #
 directory
 here
 .
-            
 Optional
 (
 '
@@ -2715,7 +2498,6 @@ directory
 )
 :
 basestring
-            
 #
 If
 mounting
@@ -2728,7 +2510,6 @@ path
 within
 the
 task
-            
 #
 directory
 to
@@ -2744,7 +2525,6 @@ read
 only
 )
 .
-            
 Optional
 (
 '
@@ -2753,7 +2533,6 @@ file
 )
 :
 basestring
-            
 #
 Required
 if
@@ -2766,7 +2545,6 @@ specified
 and
 mounting
 a
-            
 #
 directory
 (
@@ -2783,7 +2561,6 @@ archive
 format
 of
 the
-            
 #
 content
 (
@@ -2799,7 +2576,6 @@ only
 directory
 )
 .
-            
 Optional
 (
 '
@@ -2826,14 +2602,11 @@ gz
 zip
 '
 )
-        
 }
 ]
-        
 #
 environment
 variables
-        
 Required
 (
 '
@@ -2850,7 +2623,6 @@ basestring
 :
 taskref_or_string
 }
-        
 #
 the
 maximum
@@ -2859,7 +2631,6 @@ to
 run
 in
 seconds
-        
 Required
 (
 '
@@ -2872,7 +2643,6 @@ time
 )
 :
 int
-        
 #
 os
 user
@@ -2881,7 +2651,6 @@ for
 test
 task
 workers
-        
 Optional
 (
 '
@@ -2898,11 +2667,9 @@ default
 [
 basestring
 ]
-        
 #
 optional
 features
-        
 Required
 (
 '
@@ -2918,10 +2685,8 @@ False
 )
 :
 bool
-    
 }
 {
-        
 Required
 (
 '
@@ -2934,10 +2699,8 @@ buildbot
 -
 bridge
 '
-        
 #
 see
-        
 #
 https
 :
@@ -2964,7 +2727,6 @@ schemas
 payload
 .
 yml
-        
 Required
 (
 '
@@ -2973,7 +2735,6 @@ buildername
 )
 :
 basestring
-        
 Required
 (
 '
@@ -2982,13 +2743,11 @@ sourcestamp
 )
 :
 {
-            
 '
 branch
 '
 :
 basestring
-            
 Optional
 (
 '
@@ -2997,7 +2756,6 @@ revision
 )
 :
 basestring
-            
 Optional
 (
 '
@@ -3006,7 +2764,6 @@ repository
 )
 :
 basestring
-            
 Optional
 (
 '
@@ -3015,9 +2772,7 @@ project
 )
 :
 basestring
-        
 }
-        
 Required
 (
 '
@@ -3026,13 +2781,11 @@ properties
 )
 :
 {
-            
 '
 product
 '
 :
 basestring
-            
 Extra
 :
 taskref_or_string
@@ -3041,12 +2794,9 @@ additional
 properties
 are
 allowed
-        
 }
-    
 }
 {
-        
 Required
 (
 '
@@ -3059,7 +2809,6 @@ native
 -
 engine
 '
-        
 Required
 (
 '
@@ -3076,7 +2825,6 @@ macosx
 linux
 '
 )
-        
 #
 A
 link
@@ -3085,7 +2833,6 @@ an
 executable
 to
 download
-        
 Optional
 (
 '
@@ -3094,7 +2841,6 @@ context
 )
 :
 basestring
-        
 #
 Tells
 the
@@ -3103,7 +2849,6 @@ whether
 machine
 should
 reboot
-        
 #
 after
 the
@@ -3111,7 +2856,6 @@ task
 is
 finished
 .
-        
 Optional
 (
 '
@@ -3119,7 +2863,6 @@ reboot
 '
 )
 :
-            
 Any
 (
 '
@@ -3136,13 +2879,11 @@ on
 failure
 '
 )
-        
 #
 the
 command
 to
 run
-        
 Optional
 (
 '
@@ -3153,11 +2894,9 @@ command
 [
 taskref_or_string
 ]
-        
 #
 environment
 variables
-        
 Optional
 (
 '
@@ -3170,7 +2909,6 @@ basestring
 :
 taskref_or_string
 }
-        
 #
 artifacts
 to
@@ -3181,7 +2919,6 @@ task
 image
 after
 completion
-        
 Optional
 (
 '
@@ -3191,7 +2928,6 @@ artifacts
 :
 [
 {
-            
 #
 type
 of
@@ -3203,7 +2939,6 @@ file
 or
 recursive
 directory
-            
 Required
 (
 '
@@ -3220,7 +2955,6 @@ file
 directory
 '
 )
-            
 #
 task
 image
@@ -3230,7 +2964,6 @@ which
 to
 read
 artifact
-            
 Required
 (
 '
@@ -3239,7 +2972,6 @@ path
 )
 :
 basestring
-            
 #
 name
 of
@@ -3252,13 +2984,11 @@ of
 the
 names
 for
-            
 #
 type
 =
 directory
 )
-            
 Required
 (
 '
@@ -3267,13 +2997,10 @@ name
 )
 :
 basestring
-        
 }
 ]
-    
 }
 {
-        
 Required
 (
 '
@@ -3286,7 +3013,6 @@ scriptworker
 -
 signing
 '
-        
 #
 the
 maximum
@@ -3296,7 +3022,6 @@ spend
 signing
 in
 seconds
-        
 Required
 (
 '
@@ -3312,7 +3037,6 @@ default
 )
 :
 int
-        
 #
 list
 of
@@ -3325,7 +3049,6 @@ that
 should
 be
 signed
-        
 Required
 (
 '
@@ -3337,7 +3060,6 @@ artifacts
 :
 [
 {
-            
 #
 taskId
 of
@@ -3346,7 +3068,6 @@ task
 with
 the
 artifact
-            
 Required
 (
 '
@@ -3355,7 +3076,6 @@ taskId
 )
 :
 taskref_or_string
-            
 #
 type
 of
@@ -3365,7 +3085,6 @@ task
 for
 CoT
 )
-            
 Required
 (
 '
@@ -3374,7 +3093,6 @@ taskType
 )
 :
 basestring
-            
 #
 Paths
 to
@@ -3382,7 +3100,6 @@ the
 artifacts
 to
 sign
-            
 Required
 (
 '
@@ -3393,7 +3110,6 @@ paths
 [
 basestring
 ]
-            
 #
 Signing
 formats
@@ -3404,7 +3120,6 @@ each
 of
 the
 paths
-            
 Required
 (
 '
@@ -3415,13 +3130,10 @@ formats
 [
 basestring
 ]
-        
 }
 ]
-    
 }
 {
-        
 Required
 (
 '
@@ -3432,7 +3144,6 @@ implementation
 '
 beetmover
 '
-        
 #
 the
 maximum
@@ -3442,7 +3153,6 @@ spend
 signing
 in
 seconds
-        
 Required
 (
 '
@@ -3458,7 +3168,6 @@ default
 )
 :
 int
-        
 #
 locale
 key
@@ -3469,7 +3178,6 @@ a
 locale
 beetmover
 job
-        
 Optional
 (
 '
@@ -3478,7 +3186,6 @@ locale
 )
 :
 basestring
-        
 #
 list
 of
@@ -3491,7 +3198,6 @@ that
 should
 be
 beetmoved
-        
 Required
 (
 '
@@ -3503,7 +3209,6 @@ artifacts
 :
 [
 {
-            
 #
 taskId
 of
@@ -3512,7 +3217,6 @@ task
 with
 the
 artifact
-            
 Required
 (
 '
@@ -3521,7 +3225,6 @@ taskId
 )
 :
 taskref_or_string
-            
 #
 type
 of
@@ -3531,7 +3234,6 @@ task
 for
 CoT
 )
-            
 Required
 (
 '
@@ -3540,7 +3242,6 @@ taskType
 )
 :
 basestring
-            
 #
 Paths
 to
@@ -3548,7 +3249,6 @@ the
 artifacts
 to
 sign
-            
 Required
 (
 '
@@ -3559,7 +3259,6 @@ paths
 [
 basestring
 ]
-            
 #
 locale
 is
@@ -3574,7 +3273,6 @@ for
 duplicate
 simple
 names
-            
 Required
 (
 '
@@ -3583,13 +3281,10 @@ locale
 )
 :
 basestring
-        
 }
 ]
-    
 }
 {
-        
 Required
 (
 '
@@ -3600,7 +3295,6 @@ implementation
 '
 balrog
 '
-        
 #
 list
 of
@@ -3613,7 +3307,6 @@ that
 should
 be
 beetmoved
-        
 Required
 (
 '
@@ -3625,7 +3318,6 @@ artifacts
 :
 [
 {
-            
 #
 taskId
 of
@@ -3634,7 +3326,6 @@ task
 with
 the
 artifact
-            
 Required
 (
 '
@@ -3643,7 +3334,6 @@ taskId
 )
 :
 taskref_or_string
-            
 #
 type
 of
@@ -3653,7 +3343,6 @@ task
 for
 CoT
 )
-            
 Required
 (
 '
@@ -3662,7 +3351,6 @@ taskType
 )
 :
 basestring
-            
 #
 Paths
 to
@@ -3670,7 +3358,6 @@ the
 artifacts
 to
 sign
-            
 Required
 (
 '
@@ -3681,13 +3368,10 @@ paths
 [
 basestring
 ]
-        
 }
 ]
-    
 }
 {
-        
 Required
 (
 '
@@ -3702,7 +3386,6 @@ apk
 -
 breakpoint
 '
-        
 Required
 (
 '
@@ -3711,10 +3394,8 @@ payload
 )
 :
 object
-    
 }
 {
-        
 Required
 (
 '
@@ -3725,7 +3406,6 @@ implementation
 '
 invalid
 '
-        
 #
 an
 invalid
@@ -3743,7 +3423,6 @@ this
 is
 used
 in
-        
 #
 release
 automation
@@ -3758,14 +3437,11 @@ doesn
 t
 make
 sense
-        
 Extra
 :
 object
-    
 }
 {
-        
 Required
 (
 '
@@ -3778,7 +3454,6 @@ push
 -
 apk
 '
-        
 #
 list
 of
@@ -3791,7 +3466,6 @@ that
 should
 be
 beetmoved
-        
 Required
 (
 '
@@ -3803,7 +3477,6 @@ artifacts
 :
 [
 {
-            
 #
 taskId
 of
@@ -3812,7 +3485,6 @@ task
 with
 the
 artifact
-            
 Required
 (
 '
@@ -3821,7 +3493,6 @@ taskId
 )
 :
 taskref_or_string
-            
 #
 type
 of
@@ -3831,7 +3502,6 @@ task
 for
 CoT
 )
-            
 Required
 (
 '
@@ -3840,7 +3510,6 @@ taskType
 )
 :
 basestring
-            
 #
 Paths
 to
@@ -3848,7 +3517,6 @@ the
 artifacts
 to
 sign
-            
 Required
 (
 '
@@ -3859,10 +3527,8 @@ paths
 [
 basestring
 ]
-        
 }
 ]
-        
 #
 "
 Invalid
@@ -3878,7 +3544,6 @@ non
 -
 supported
 branches
-        
 Required
 (
 '
@@ -3908,7 +3573,6 @@ rollout
 invalid
 '
 )
-        
 Required
 (
 '
@@ -3922,7 +3586,6 @@ True
 )
 :
 bool
-        
 Optional
 (
 '
@@ -3933,7 +3596,6 @@ percentage
 )
 :
 int
-    
 }
 )
 }
@@ -3941,7 +3603,6 @@ int
 GROUP_NAMES
 =
 {
-    
 '
 cram
 '
@@ -3950,7 +3611,6 @@ cram
 Cram
 tests
 '
-    
 '
 mocha
 '
@@ -3960,7 +3620,6 @@ Mocha
 unit
 tests
 '
-    
 '
 py
 '
@@ -3970,7 +3629,6 @@ Python
 unit
 tests
 '
-    
 '
 tc
 '
@@ -3980,7 +3638,6 @@ Executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -3994,7 +3651,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4014,7 +3670,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4038,7 +3693,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4058,7 +3712,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4082,7 +3735,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4095,7 +3747,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4112,7 +3763,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4129,7 +3779,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4142,7 +3791,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4159,7 +3807,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4174,7 +3821,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4192,7 +3838,6 @@ with
 Stylo
 disabled
 '
-    
 '
 tc
 -
@@ -4210,7 +3855,6 @@ with
 Stylo
 sequential
 '
-    
 '
 tc
 -
@@ -4229,7 +3873,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4250,7 +3893,6 @@ e10s
 Stylo
 disabled
 '
-    
 '
 tc
 -
@@ -4271,7 +3913,6 @@ e10s
 Stylo
 sequential
 '
-    
 '
 tc
 -
@@ -4286,7 +3927,6 @@ client
 marionette
 tests
 '
-    
 '
 tc
 -
@@ -4305,7 +3945,6 @@ tests
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4325,7 +3964,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4347,7 +3985,6 @@ e10s
 Stylo
 disabled
 '
-    
 '
 tc
 -
@@ -4369,7 +4006,6 @@ e10s
 Stylo
 sequential
 '
-    
 '
 tc
 -
@@ -4383,7 +4019,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4398,7 +4033,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4417,7 +4051,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4431,7 +4064,6 @@ executed
 by
 TaskCluster
 '
-    
 '
 tc
 -
@@ -4449,7 +4081,6 @@ TaskCluster
 with
 e10s
 '
-    
 '
 tc
 -
@@ -4463,7 +4094,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 tc
 -
@@ -4480,7 +4110,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 tc
 -
@@ -4497,7 +4126,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 tc
 -
@@ -4515,9 +4143,8 @@ executed
 by
 Taskcluster
 '
-    
 '
-c
+tc
 -
 Up
 '
@@ -4526,10 +4153,11 @@ Up
 Balrog
 submission
 of
-complete
 updates
+executed
+by
+Taskcluster
 '
-    
 '
 tc
 -
@@ -4543,7 +4171,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 tc
 -
@@ -4557,7 +4184,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 tc
 -
@@ -4571,7 +4197,6 @@ executed
 by
 Taskcluster
 '
-    
 '
 Aries
 '
@@ -4581,7 +4206,6 @@ Aries
 Device
 Image
 '
-    
 '
 Nexus
 5
@@ -4597,7 +4221,6 @@ L
 Device
 Image
 '
-    
 '
 I
 '
@@ -4607,7 +4230,6 @@ Docker
 Image
 Builds
 '
-    
 '
 TL
 '
@@ -4621,7 +4243,6 @@ Linux
 -
 bits
 '
-    
 '
 TM
 '
@@ -4632,7 +4253,6 @@ builds
 for
 OSX
 '
-    
 '
 TW32
 '
@@ -4646,7 +4266,6 @@ Windows
 -
 bits
 '
-    
 '
 TW64
 '
@@ -4660,7 +4279,6 @@ Windows
 -
 bits
 '
-    
 '
 SM
 -
@@ -4671,7 +4289,6 @@ tc
 Spidermonkey
 builds
 '
-    
 '
 pub
 '
@@ -4679,50 +4296,6 @@ pub
 '
 APK
 publishing
-'
-    
-'
-p
-'
-:
-'
-Partial
-generation
-'
-    
-'
-ps
-'
-:
-'
-Partials
-signing
-'
-    
-'
-pBM
-'
-:
-'
-Beetmover
-for
-partials
-'
-    
-'
-cp
--
-Up
-'
-:
-'
-Balrog
-submission
-of
-updates
-completes
-and
-partials
 '
 }
 UNKNOWN_GROUP_NAME
@@ -4745,7 +4318,6 @@ __file__
 V2_ROUTE_TEMPLATES
 =
 [
-    
 "
 index
 .
@@ -4769,7 +4341,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -4797,7 +4368,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -4827,7 +4397,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -4884,7 +4453,6 @@ configurations
 V2_TRUNK_ROUTE_TEMPLATES
 =
 [
-    
 "
 index
 .
@@ -4914,7 +4482,6 @@ name
 V2_NIGHTLY_TEMPLATES
 =
 [
-    
 "
 index
 .
@@ -4940,7 +4507,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -4974,7 +4540,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -5004,7 +4569,6 @@ job
 name
 }
 "
-    
 "
 index
 .
@@ -5038,7 +4602,6 @@ name
 V2_L10N_TEMPLATES
 =
 [
-    
 "
 index
 .
@@ -5072,7 +4635,6 @@ name
 locale
 }
 "
-    
 "
 index
 .
@@ -5106,7 +4668,6 @@ name
 locale
 }
 "
-    
 "
 index
 .
@@ -5151,7 +4712,6 @@ environment
 TREEHERDER_ROUTE_ROOTS
 =
 {
-    
 '
 production
 '
@@ -5161,7 +4721,6 @@ tc
 -
 treeherder
 '
-    
 '
 staging
 '
@@ -5195,7 +4754,6 @@ low
 BRANCH_PRIORITIES
 =
 {
-    
 '
 mozilla
 -
@@ -5205,7 +4763,6 @@ release
 '
 highest
 '
-    
 '
 comm
 -
@@ -5215,7 +4772,6 @@ esr45
 '
 highest
 '
-    
 '
 comm
 -
@@ -5225,7 +4781,6 @@ esr52
 '
 highest
 '
-    
 '
 mozilla
 -
@@ -5237,7 +4792,6 @@ very
 -
 high
 '
-    
 '
 mozilla
 -
@@ -5249,7 +4803,6 @@ very
 -
 high
 '
-    
 '
 mozilla
 -
@@ -5259,7 +4812,6 @@ beta
 '
 high
 '
-    
 '
 comm
 -
@@ -5269,7 +4821,6 @@ beta
 '
 high
 '
-    
 '
 mozilla
 -
@@ -5279,7 +4830,6 @@ central
 '
 medium
 '
-    
 '
 comm
 -
@@ -5289,7 +4839,6 @@ central
 '
 medium
 '
-    
 '
 comm
 -
@@ -5299,7 +4848,6 @@ aurora
 '
 medium
 '
-    
 '
 autoland
 '
@@ -5307,7 +4855,6 @@ autoland
 '
 low
 '
-    
 '
 mozilla
 -
@@ -5317,7 +4864,6 @@ inbound
 '
 low
 '
-    
 '
 try
 '
@@ -5327,7 +4873,6 @@ very
 -
 low
 '
-    
 '
 try
 -
@@ -5341,7 +4886,6 @@ very
 -
 low
 '
-    
 '
 alder
 '
@@ -5351,7 +4895,6 @@ very
 -
 low
 '
-    
 '
 ash
 '
@@ -5361,7 +4904,6 @@ very
 -
 low
 '
-    
 '
 birch
 '
@@ -5371,7 +4913,6 @@ very
 -
 low
 '
-    
 '
 cedar
 '
@@ -5381,7 +4922,6 @@ very
 -
 low
 '
-    
 '
 cypress
 '
@@ -5391,7 +4931,6 @@ very
 -
 low
 '
-    
 '
 date
 '
@@ -5401,7 +4940,6 @@ very
 -
 low
 '
-    
 '
 elm
 '
@@ -5411,7 +4949,6 @@ very
 -
 low
 '
-    
 '
 fig
 '
@@ -5421,7 +4958,6 @@ very
 -
 low
 '
-    
 '
 gum
 '
@@ -5431,7 +4967,6 @@ very
 -
 low
 '
-    
 '
 holly
 '
@@ -5441,7 +4976,6 @@ very
 -
 low
 '
-    
 '
 jamun
 '
@@ -5451,7 +4985,6 @@ very
 -
 low
 '
-    
 '
 larch
 '
@@ -5461,7 +4994,6 @@ very
 -
 low
 '
-    
 '
 maple
 '
@@ -5471,7 +5003,6 @@ very
 -
 low
 '
-    
 '
 oak
 '
@@ -5481,7 +5012,6 @@ very
 -
 low
 '
-    
 '
 pine
 '
@@ -5491,7 +5021,6 @@ very
 -
 low
 '
-    
 '
 graphics
 '
@@ -5501,7 +5030,6 @@ very
 -
 low
 '
-    
 '
 ux
 '
@@ -5534,24 +5062,20 @@ payload_builder
 name
 )
 :
-    
 def
 wrap
 (
 func
 )
 :
-        
 payload_builders
 [
 name
 ]
 =
 func
-        
 return
 func
-    
 return
 wrap
 #
@@ -5576,24 +5100,20 @@ index_builder
 name
 )
 :
-    
 def
 wrap
 (
 func
 )
 :
-        
 index_builders
 [
 name
 ]
 =
 func
-        
 return
 func
-    
 return
 wrap
 payload_builder
@@ -5612,7 +5132,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -5621,7 +5140,6 @@ task
 worker
 '
 ]
-    
 level
 =
 int
@@ -5635,7 +5153,6 @@ level
 '
 ]
 )
-    
 image
 =
 worker
@@ -5646,7 +5163,6 @@ docker
 image
 '
 ]
-    
 if
 isinstance
 (
@@ -5654,7 +5170,6 @@ image
 dict
 )
 :
-        
 if
 '
 in
@@ -5664,7 +5179,6 @@ tree
 in
 image
 :
-            
 name
 =
 image
@@ -5675,7 +5189,6 @@ in
 tree
 '
 ]
-            
 docker_image_task
 =
 '
@@ -5695,7 +5208,6 @@ in
 tree
 '
 ]
-            
 task
 .
 setdefault
@@ -5715,11 +5227,9 @@ image
 ]
 =
 docker_image_task
-            
 image
 =
 {
-                
 "
 path
 "
@@ -5733,7 +5243,6 @@ tar
 .
 zst
 "
-                
 "
 taskId
 "
@@ -5753,7 +5262,6 @@ image
 >
 "
 }
-                
 "
 type
 "
@@ -5763,16 +5271,13 @@ task
 -
 image
 "
-            
 }
-            
 #
 Find
 VOLUME
 in
 Dockerfile
 .
-            
 volumes
 =
 dockerutil
@@ -5781,7 +5286,6 @@ parse_volumes
 (
 name
 )
-            
 for
 v
 in
@@ -5790,7 +5294,6 @@ sorted
 volumes
 )
 :
-                
 if
 v
 in
@@ -5801,7 +5304,6 @@ volumes
 '
 ]
 :
-                    
 raise
 Exception
 (
@@ -5813,7 +5315,6 @@ already
 defined
 ;
 '
-                                    
 '
 if
 it
@@ -5823,7 +5324,6 @@ in
 a
 Dockerfile
 '
-                                    
 '
 it
 does
@@ -5835,7 +5335,6 @@ specified
 in
 the
 '
-                                    
 '
 worker
 definition
@@ -5843,7 +5342,6 @@ definition
 %
 v
 )
-                
 worker
 [
 '
@@ -5855,7 +5353,6 @@ append
 (
 v
 )
-        
 elif
 '
 indexed
@@ -5863,11 +5360,9 @@ indexed
 in
 image
 :
-            
 image
 =
 {
-                
 "
 path
 "
@@ -5881,7 +5376,6 @@ tar
 .
 zst
 "
-                
 "
 namespace
 "
@@ -5892,7 +5386,6 @@ image
 indexed
 '
 ]
-                
 "
 type
 "
@@ -5902,12 +5395,9 @@ indexed
 -
 image
 "
-            
 }
-        
 else
 :
-            
 raise
 Exception
 (
@@ -5918,12 +5408,10 @@ image
 type
 "
 )
-    
 features
 =
 {
 }
-    
 if
 worker
 .
@@ -5936,7 +5424,6 @@ proxy
 '
 )
 :
-        
 features
 [
 '
@@ -5945,7 +5432,6 @@ relengAPIProxy
 ]
 =
 True
-    
 if
 worker
 .
@@ -5958,7 +5444,6 @@ proxy
 '
 )
 :
-        
 features
 [
 '
@@ -5967,7 +5452,6 @@ taskclusterProxy
 ]
 =
 True
-    
 if
 worker
 .
@@ -5980,7 +5464,6 @@ ptrace
 '
 )
 :
-        
 features
 [
 '
@@ -5989,7 +5472,6 @@ allowPtrace
 ]
 =
 True
-        
 task_def
 [
 '
@@ -6009,7 +5491,6 @@ feature
 allowPtrace
 '
 )
-    
 if
 worker
 .
@@ -6024,7 +5505,6 @@ trust
 '
 )
 :
-        
 features
 [
 '
@@ -6033,7 +5513,6 @@ chainOfTrust
 ]
 =
 True
-    
 if
 worker
 .
@@ -6048,7 +5527,6 @@ docker
 '
 )
 :
-        
 features
 [
 '
@@ -6057,7 +5535,6 @@ dind
 ]
 =
 True
-    
 if
 task
 .
@@ -6070,7 +5547,6 @@ sccache
 '
 )
 :
-        
 features
 [
 '
@@ -6079,7 +5555,6 @@ taskclusterProxy
 ]
 =
 True
-        
 task_def
 [
 '
@@ -6089,7 +5564,6 @@ scopes
 .
 append
 (
-            
 '
 assume
 :
@@ -6110,7 +5584,6 @@ buckets
 .
 format
 (
-                
 level
 =
 config
@@ -6122,9 +5595,7 @@ level
 '
 ]
 )
-        
 )
-        
 worker
 [
 '
@@ -6140,10 +5611,8 @@ USE_SCCACHE
 '
 1
 '
-    
 else
 :
-        
 worker
 [
 '
@@ -6159,12 +5628,10 @@ SCCACHE_DISABLE
 '
 1
 '
-    
 capabilities
 =
 {
 }
-    
 for
 lo
 in
@@ -6175,7 +5642,6 @@ audio
 video
 '
 :
-        
 if
 worker
 .
@@ -6189,7 +5655,6 @@ loopback
 lo
 )
 :
-            
 capitalized
 =
 '
@@ -6201,7 +5666,6 @@ lo
 capitalize
 (
 )
-            
 devices
 =
 capabilities
@@ -6214,14 +5678,12 @@ devices
 {
 }
 )
-            
 devices
 [
 capitalized
 ]
 =
 True
-            
 task_def
 [
 '
@@ -6244,7 +5706,6 @@ device
 +
 capitalized
 )
-    
 task_def
 [
 '
@@ -6255,13 +5716,11 @@ payload
 payload
 =
 {
-        
 '
 image
 '
 :
 image
-        
 '
 env
 '
@@ -6272,9 +5731,7 @@ worker
 env
 '
 ]
-    
 }
-    
 if
 '
 command
@@ -6282,7 +5739,6 @@ command
 in
 worker
 :
-        
 payload
 [
 '
@@ -6296,7 +5752,6 @@ worker
 command
 '
 ]
-    
 if
 '
 max
@@ -6308,7 +5763,6 @@ time
 in
 worker
 :
-        
 payload
 [
 '
@@ -6326,7 +5780,6 @@ run
 time
 '
 ]
-    
 if
 '
 retry
@@ -6338,7 +5791,6 @@ status
 in
 worker
 :
-        
 payload
 [
 '
@@ -6364,7 +5816,6 @@ status
 ]
 ]
 }
-    
 if
 '
 artifacts
@@ -6372,12 +5823,10 @@ artifacts
 in
 worker
 :
-        
 artifacts
 =
 {
 }
-        
 for
 artifact
 in
@@ -6388,7 +5837,6 @@ artifacts
 '
 ]
 :
-            
 artifacts
 [
 artifact
@@ -6400,7 +5848,6 @@ name
 ]
 =
 {
-                
 '
 path
 '
@@ -6411,7 +5858,6 @@ artifact
 path
 '
 ]
-                
 '
 type
 '
@@ -6422,7 +5868,6 @@ artifact
 type
 '
 ]
-                
 '
 expires
 '
@@ -6439,9 +5884,7 @@ expire
 with
 the
 task
-            
 }
-        
 payload
 [
 '
@@ -6450,7 +5893,6 @@ artifacts
 ]
 =
 artifacts
-    
 if
 isinstance
 (
@@ -6467,7 +5909,6 @@ image
 basestring
 )
 :
-        
 out_of_tree_image
 =
 worker
@@ -6478,20 +5919,16 @@ docker
 image
 '
 ]
-    
 else
 :
-        
 out_of_tree_image
 =
 None
-    
 run_task
 =
 any
 (
 [
-        
 payload
 .
 get
@@ -6516,7 +5953,6 @@ run
 task
 '
 )
-        
 #
 image_builder
 is
@@ -6531,7 +5967,6 @@ like
 other
 tasks
 .
-        
 #
 It
 uses
@@ -6545,7 +5980,6 @@ our
 cache
 manipulations
 .
-        
 (
 out_of_tree_image
 or
@@ -6561,10 +5995,8 @@ taskcluster
 image_builder
 '
 )
-    
 ]
 )
-    
 if
 '
 caches
@@ -6572,12 +6004,10 @@ caches
 in
 worker
 :
-        
 caches
 =
 {
 }
-        
 #
 run
 -
@@ -6588,9 +6018,7 @@ to
 validate
 caches
 .
-        
 #
-        
 #
 To
 help
@@ -6607,7 +6035,6 @@ don
 '
 t
 interfere
-        
 #
 with
 existing
@@ -6624,7 +6051,6 @@ into
 cache
 names
 .
-        
 #
 So
 any
@@ -6642,7 +6068,6 @@ set
 of
 caches
 .
-        
 #
 This
 means
@@ -6658,7 +6083,6 @@ interaction
 at
 any
 time
-        
 #
 without
 regards
@@ -6668,9 +6092,7 @@ or
 future
 compatibility
 .
-        
 #
-        
 #
 But
 this
@@ -6686,7 +6108,6 @@ images
 that
 are
 built
-        
 #
 with
 the
@@ -6706,7 +6127,6 @@ images
 we
 have
 no
-        
 #
 way
 of
@@ -6723,7 +6143,6 @@ in
 addition
 to
 varying
-        
 #
 cache
 names
@@ -6740,7 +6159,6 @@ take
 the
 Docker
 image
-        
 #
 name
 into
@@ -6753,7 +6171,6 @@ different
 Docker
 images
 will
-        
 #
 never
 share
@@ -6771,7 +6188,6 @@ But
 it
 is
 the
-        
 #
 safest
 thing
@@ -6787,9 +6203,7 @@ in
 -
 tree
 .
-        
 #
-        
 #
 For
 out
@@ -6807,7 +6221,6 @@ strictly
 need
 to
 incorporate
-        
 #
 the
 run
@@ -6823,7 +6236,6 @@ However
 doing
 so
 preserves
-        
 #
 the
 mechanism
@@ -6836,15 +6248,12 @@ results
 in
 new
 caches
-        
 #
 everywhere
 .
-        
 if
 run_task
 :
-            
 suffix
 =
 '
@@ -6856,11 +6265,9 @@ s
 _run_task_suffix
 (
 )
-            
 if
 out_of_tree_image
 :
-                
 name_hash
 =
 hashlib
@@ -6873,7 +6280,6 @@ out_of_tree_image
 hexdigest
 (
 )
-                
 suffix
 +
 =
@@ -6883,15 +6289,12 @@ name_hash
 :
 12
 ]
-        
 else
 :
-            
 suffix
 =
 '
 '
-        
 skip_untrusted
 =
 config
@@ -6912,7 +6315,6 @@ level
 =
 =
 1
-        
 for
 cache
 in
@@ -6923,7 +6325,6 @@ caches
 '
 ]
 :
-            
 #
 Some
 caches
@@ -6938,7 +6339,6 @@ we
 can
 '
 t
-            
 #
 guarantee
 certain
@@ -6948,7 +6348,6 @@ Filter
 those
 out
 .
-            
 if
 cache
 .
@@ -6963,9 +6362,7 @@ untrusted
 and
 skip_untrusted
 :
-                
 continue
-            
 name
 =
 '
@@ -6984,7 +6381,6 @@ name
 ]
 suffix
 )
-            
 caches
 [
 name
@@ -6998,7 +6394,6 @@ mount
 point
 '
 ]
-            
 task_def
 [
 '
@@ -7021,7 +6416,6 @@ s
 %
 name
 )
-        
 #
 Assertion
 :
@@ -7034,11 +6428,9 @@ interested
 in
 this
 .
-        
 if
 run_task
 :
-            
 payload
 [
 '
@@ -7059,7 +6451,6 @@ join
 (
 sorted
 (
-                
 caches
 .
 values
@@ -7067,7 +6458,6 @@ values
 )
 )
 )
-        
 payload
 [
 '
@@ -7076,7 +6466,6 @@ cache
 ]
 =
 caches
-    
 #
 And
 send
@@ -7090,7 +6479,6 @@ task
 as
 well
 .
-    
 if
 run_task
 and
@@ -7103,7 +6491,6 @@ volumes
 '
 )
 :
-        
 payload
 [
 '
@@ -7122,7 +6509,6 @@ TASKCLUSTER_VOLUMES
 .
 join
 (
-            
 sorted
 (
 worker
@@ -7133,7 +6519,6 @@ volumes
 ]
 )
 )
-    
 if
 payload
 .
@@ -7146,7 +6531,6 @@ cache
 and
 skip_untrusted
 :
-        
 payload
 [
 '
@@ -7162,11 +6546,9 @@ TASKCLUSTER_UNTRUSTED_CACHES
 '
 1
 '
-    
 if
 features
 :
-        
 payload
 [
 '
@@ -7175,11 +6557,9 @@ features
 ]
 =
 features
-    
 if
 capabilities
 :
-        
 payload
 [
 '
@@ -7188,12 +6568,10 @@ capabilities
 ]
 =
 capabilities
-    
 #
 coalesce
 /
 superseding
-    
 if
 '
 coalesce
@@ -7207,14 +6585,12 @@ level
 >
 1
 :
-        
 key
 =
 COALESCE_KEY
 .
 format
 (
-            
 project
 =
 config
@@ -7225,7 +6601,6 @@ params
 project
 '
 ]
-            
 name
 =
 task
@@ -7237,7 +6612,6 @@ name
 '
 ]
 )
-        
 payload
 [
 '
@@ -7265,7 +6639,6 @@ list
 "
 +
 key
-    
 check_caches_are_volumes
 (
 task
@@ -7286,7 +6659,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -7295,12 +6667,10 @@ task
 worker
 '
 ]
-    
 artifacts
 =
 [
 ]
-    
 for
 artifact
 in
@@ -7311,11 +6681,9 @@ artifacts
 '
 ]
 :
-        
 a
 =
 {
-            
 '
 path
 '
@@ -7326,7 +6694,6 @@ artifact
 path
 '
 ]
-            
 '
 type
 '
@@ -7337,7 +6704,6 @@ artifact
 type
 '
 ]
-            
 '
 expires
 '
@@ -7354,9 +6720,7 @@ expire
 with
 the
 task
-        
 }
-        
 if
 '
 name
@@ -7364,7 +6728,6 @@ name
 in
 artifact
 :
-            
 a
 [
 '
@@ -7378,14 +6741,12 @@ artifact
 name
 '
 ]
-        
 artifacts
 .
 append
 (
 a
 )
-    
 #
 Need
 to
@@ -7399,7 +6760,6 @@ to
 respect
 naming
 convention
-    
 #
 *
 '
@@ -7412,7 +6772,6 @@ name
 '
 cacheName
 '
-    
 #
 *
 '
@@ -7425,7 +6784,6 @@ id
 '
 taskId
 '
-    
 #
 All
 other
@@ -7441,7 +6799,6 @@ t
 need
 renaming
 .
-    
 mounts
 =
 deepcopy
@@ -7457,13 +6814,11 @@ mounts
 ]
 )
 )
-    
 for
 mount
 in
 mounts
 :
-        
 if
 '
 cache
@@ -7473,7 +6828,6 @@ name
 in
 mount
 :
-            
 mount
 [
 '
@@ -7491,7 +6845,6 @@ cache
 name
 '
 )
-        
 if
 '
 content
@@ -7499,7 +6852,6 @@ content
 in
 mount
 :
-            
 if
 '
 task
@@ -7514,7 +6866,6 @@ content
 '
 ]
 :
-                
 mount
 [
 '
@@ -7542,7 +6893,6 @@ task
 id
 '
 )
-    
 task_def
 [
 '
@@ -7551,7 +6901,6 @@ payload
 ]
 =
 {
-        
 '
 command
 '
@@ -7562,13 +6911,11 @@ worker
 command
 '
 ]
-        
 '
 artifacts
 '
 :
 artifacts
-        
 '
 env
 '
@@ -7583,13 +6930,11 @@ env
 {
 }
 )
-        
 '
 mounts
 '
 :
 mounts
-        
 '
 maxRunTime
 '
@@ -7604,7 +6949,6 @@ run
 time
 '
 ]
-        
 '
 osGroups
 '
@@ -7621,9 +6965,7 @@ groups
 [
 ]
 )
-    
 }
-    
 #
 needs
 -
@@ -7632,7 +6974,6 @@ is
 handled
 in
 mozharness_on_windows
-    
 if
 '
 retry
@@ -7644,7 +6985,6 @@ status
 in
 worker
 :
-        
 raise
 Exception
 (
@@ -7662,7 +7002,6 @@ generic
 worker
 "
 )
-    
 #
 currently
 only
@@ -7679,12 +7018,10 @@ this
 will
 likely
 grow
-    
 features
 =
 {
 }
-    
 if
 worker
 .
@@ -7699,7 +7036,6 @@ trust
 '
 )
 :
-        
 features
 [
 '
@@ -7708,11 +7044,9 @@ chainOfTrust
 ]
 =
 True
-    
 if
 features
 :
-        
 task_def
 [
 '
@@ -7742,7 +7076,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -7751,7 +7084,6 @@ task
 worker
 '
 ]
-    
 task_def
 [
 '
@@ -7760,7 +7092,6 @@ payload
 ]
 =
 {
-        
 '
 maxRunTime
 '
@@ -7775,7 +7106,6 @@ run
 time
 '
 ]
-        
 '
 upstreamArtifacts
 '
@@ -7788,7 +7118,6 @@ upstream
 artifacts
 '
 ]
-    
 }
 payload_builder
 (
@@ -7804,7 +7133,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -7813,14 +7141,12 @@ task
 worker
 '
 ]
-    
 release_config
 =
 get_release_config
 (
 config
 )
-    
 task_def
 [
 '
@@ -7829,7 +7155,6 @@ payload
 ]
 =
 {
-        
 '
 maxRunTime
 '
@@ -7844,7 +7169,6 @@ run
 time
 '
 ]
-        
 '
 upload_date
 '
@@ -7857,7 +7181,6 @@ params
 build_date
 '
 ]
-        
 '
 upstreamArtifacts
 '
@@ -7870,9 +7193,7 @@ upstream
 artifacts
 '
 ]
-    
 }
-    
 if
 worker
 .
@@ -7883,7 +7204,6 @@ locale
 '
 )
 :
-        
 task_def
 [
 '
@@ -7902,11 +7222,9 @@ worker
 locale
 '
 ]
-    
 if
 release_config
 :
-        
 task_def
 [
 '
@@ -7932,7 +7250,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -7941,7 +7258,6 @@ task
 worker
 '
 ]
-    
 task_def
 [
 '
@@ -7950,7 +7266,6 @@ payload
 ]
 =
 {
-        
 '
 upstreamArtifacts
 '
@@ -7963,7 +7278,6 @@ upstream
 artifacts
 '
 ]
-    
 }
 payload_builder
 (
@@ -7981,7 +7295,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -7990,7 +7303,6 @@ task
 worker
 '
 ]
-    
 task_def
 [
 '
@@ -7999,7 +7311,6 @@ payload
 ]
 =
 {
-        
 '
 dry_run
 '
@@ -8012,7 +7323,6 @@ dry
 run
 '
 ]
-        
 '
 upstreamArtifacts
 '
@@ -8025,7 +7335,6 @@ upstream
 artifacts
 '
 ]
-        
 '
 google_play_track
 '
@@ -8040,9 +7349,7 @@ play
 track
 '
 ]
-    
 }
-    
 if
 worker
 .
@@ -8056,7 +7363,6 @@ percentage
 None
 )
 :
-        
 task_def
 [
 '
@@ -8095,7 +7401,6 @@ task
 task_def
 )
 :
-    
 task_def
 [
 '
@@ -8128,7 +7433,6 @@ task
 task_def
 )
 :
-    
 task_def
 [
 '
@@ -8161,7 +7465,6 @@ task
 task_def
 )
 :
-    
 worker
 =
 task
@@ -8170,7 +7473,6 @@ task
 worker
 '
 ]
-    
 artifacts
 =
 map
@@ -8179,7 +7481,6 @@ lambda
 artifact
 :
 {
-        
 '
 name
 '
@@ -8190,7 +7491,6 @@ artifact
 name
 '
 ]
-        
 '
 path
 '
@@ -8201,7 +7501,6 @@ artifact
 path
 '
 ]
-        
 '
 type
 '
@@ -8212,7 +7511,6 @@ artifact
 type
 '
 ]
-        
 '
 expires
 '
@@ -8223,7 +7521,6 @@ task_def
 expires
 '
 ]
-    
 }
 worker
 .
@@ -8236,7 +7533,6 @@ artifacts
 ]
 )
 )
-    
 task_def
 [
 '
@@ -8245,7 +7541,6 @@ payload
 ]
 =
 {
-        
 '
 context
 '
@@ -8256,7 +7551,6 @@ worker
 context
 '
 ]
-        
 '
 command
 '
@@ -8267,7 +7561,6 @@ worker
 command
 '
 ]
-        
 '
 env
 '
@@ -8278,15 +7571,12 @@ worker
 env
 '
 ]
-        
 '
 artifacts
 '
 :
 artifacts
-    
 }
-    
 if
 worker
 .
@@ -8297,7 +7587,6 @@ reboot
 '
 )
 :
-        
 task_def
 [
 '
@@ -8311,7 +7600,6 @@ worker
 reboot
 '
 ]
-    
 if
 task
 .
@@ -8324,7 +7612,6 @@ sccache
 '
 )
 :
-        
 raise
 Exception
 (
@@ -8356,7 +7643,6 @@ task
 task_def
 )
 :
-    
 del
 task
 [
@@ -8369,7 +7655,6 @@ extra
 treeherder
 '
 ]
-    
 del
 task
 [
@@ -8382,7 +7667,6 @@ extra
 treeherderEnv
 '
 ]
-    
 worker
 =
 task
@@ -8391,7 +7675,6 @@ task
 worker
 '
 ]
-    
 task_def
 [
 '
@@ -8400,7 +7683,6 @@ payload
 ]
 =
 {
-        
 '
 buildername
 '
@@ -8411,7 +7693,6 @@ worker
 buildername
 '
 ]
-        
 '
 sourcestamp
 '
@@ -8422,7 +7703,6 @@ worker
 sourcestamp
 '
 ]
-        
 '
 properties
 '
@@ -8433,7 +7713,6 @@ worker
 properties
 '
 ]
-    
 }
 transforms
 =
@@ -8450,20 +7729,16 @@ config
 tasks
 )
 :
-    
 for
 task
 in
 tasks
 :
-        
 yield
 validate_schema
 (
-            
 task_description_schema
 task
-            
 "
 In
 task
@@ -8506,7 +7781,6 @@ config
 task
 )
 :
-    
 index
 =
 task
@@ -8517,7 +7791,6 @@ get
 index
 '
 )
-    
 routes
 =
 task
@@ -8530,7 +7803,6 @@ routes
 [
 ]
 )
-    
 job_name
 =
 index
@@ -8541,14 +7813,12 @@ job
 name
 '
 ]
-    
 if
 job_name
 not
 in
 JOB_NAME_WHITELIST
 :
-        
 raise
 Exception
 (
@@ -8559,7 +7829,6 @@ format
 job_name
 )
 )
-    
 subs
 =
 config
@@ -8569,7 +7838,6 @@ params
 copy
 (
 )
-    
 subs
 [
 '
@@ -8580,7 +7848,6 @@ name
 ]
 =
 job_name
-    
 subs
 [
 '
@@ -8615,7 +7882,6 @@ M
 %
 S
 "
-                                            
 time
 .
 gmtime
@@ -8630,7 +7896,6 @@ build_date
 ]
 )
 )
-    
 subs
 [
 '
@@ -8644,7 +7909,6 @@ index
 product
 '
 ]
-    
 project
 =
 config
@@ -8657,13 +7921,11 @@ get
 project
 '
 )
-    
 for
 tpl
 in
 V2_ROUTE_TEMPLATES
 :
-        
 routes
 .
 append
@@ -8677,7 +7939,6 @@ format
 subs
 )
 )
-    
 #
 Additionally
 alias
@@ -8691,11 +7952,9 @@ repos
 into
 a
 common
-    
 #
 namespace
 .
-    
 if
 project
 and
@@ -8703,13 +7962,11 @@ project
 in
 TRUNK_PROJECTS
 :
-        
 for
 tpl
 in
 V2_TRUNK_ROUTE_TEMPLATES
 :
-            
 routes
 .
 append
@@ -8723,7 +7980,6 @@ format
 subs
 )
 )
-    
 return
 task
 index_builder
@@ -8739,7 +7995,6 @@ config
 task
 )
 :
-    
 index
 =
 task
@@ -8750,7 +8005,6 @@ get
 index
 '
 )
-    
 routes
 =
 task
@@ -8763,7 +8017,6 @@ routes
 [
 ]
 )
-    
 job_name
 =
 index
@@ -8774,14 +8027,12 @@ job
 name
 '
 ]
-    
 if
 job_name
 not
 in
 JOB_NAME_WHITELIST
 :
-        
 raise
 Exception
 (
@@ -8792,7 +8043,6 @@ format
 job_name
 )
 )
-    
 subs
 =
 config
@@ -8802,7 +8052,6 @@ params
 copy
 (
 )
-    
 subs
 [
 '
@@ -8813,7 +8062,6 @@ name
 ]
 =
 job_name
-    
 subs
 [
 '
@@ -8848,7 +8096,6 @@ M
 %
 S
 "
-                                            
 time
 .
 gmtime
@@ -8863,7 +8110,6 @@ build_date
 ]
 )
 )
-    
 subs
 [
 '
@@ -8885,7 +8131,6 @@ m
 %
 d
 "
-                                       
 time
 .
 gmtime
@@ -8900,7 +8145,6 @@ build_date
 ]
 )
 )
-    
 subs
 [
 '
@@ -8914,13 +8158,11 @@ index
 product
 '
 ]
-    
 for
 tpl
 in
 V2_NIGHTLY_TEMPLATES
 :
-        
 routes
 .
 append
@@ -8934,7 +8176,6 @@ format
 subs
 )
 )
-    
 #
 Also
 add
@@ -8943,7 +8184,6 @@ for
 en
 -
 US
-    
 task
 =
 add_l10n_index_routes
@@ -8958,7 +8198,6 @@ en
 US
 "
 )
-    
 return
 task
 index_builder
@@ -8980,7 +8219,6 @@ config
 task
 )
 :
-    
 task
 =
 add_nightly_index_routes
@@ -8988,7 +8226,6 @@ add_nightly_index_routes
 config
 task
 )
-    
 task
 =
 add_l10n_index_routes
@@ -9001,7 +8238,6 @@ force_locale
 multi
 "
 )
-    
 return
 task
 index_builder
@@ -9020,7 +8256,6 @@ force_locale
 None
 )
 :
-    
 index
 =
 task
@@ -9031,7 +8266,6 @@ get
 index
 '
 )
-    
 routes
 =
 task
@@ -9044,7 +8278,6 @@ routes
 [
 ]
 )
-    
 job_name
 =
 index
@@ -9055,14 +8288,12 @@ job
 name
 '
 ]
-    
 if
 job_name
 not
 in
 JOB_NAME_WHITELIST
 :
-        
 raise
 Exception
 (
@@ -9073,7 +8304,6 @@ format
 job_name
 )
 )
-    
 subs
 =
 config
@@ -9083,7 +8313,6 @@ params
 copy
 (
 )
-    
 subs
 [
 '
@@ -9094,7 +8323,6 @@ name
 ]
 =
 job_name
-    
 subs
 [
 '
@@ -9129,7 +8357,6 @@ M
 %
 S
 "
-                                            
 time
 .
 gmtime
@@ -9144,7 +8371,6 @@ build_date
 ]
 )
 )
-    
 subs
 [
 '
@@ -9158,7 +8384,6 @@ index
 product
 '
 ]
-    
 locales
 =
 task
@@ -9173,7 +8398,6 @@ get
 '
 chunk_locales
 '
-                                     
 task
 [
 '
@@ -9188,7 +8412,6 @@ all_locales
 '
 )
 )
-    
 #
 Some
 tasks
@@ -9197,7 +8420,6 @@ only
 one
 locale
 set
-    
 if
 task
 [
@@ -9213,7 +8435,6 @@ locale
 '
 )
 :
-        
 locales
 =
 [
@@ -9229,11 +8450,9 @@ locale
 '
 ]
 ]
-    
 if
 force_locale
 :
-        
 #
 Used
 for
@@ -9244,18 +8463,15 @@ and
 multi
 -
 locale
-        
 locales
 =
 [
 force_locale
 ]
-    
 if
 not
 locales
 :
-        
 raise
 Exception
 (
@@ -9273,7 +8489,6 @@ without
 locales
 "
 )
-    
 #
 If
 there
@@ -9292,12 +8507,10 @@ for
 all
 of
 them
-    
 #
 See
 Bug
 1323792
-    
 if
 len
 (
@@ -9316,22 +8529,18 @@ max
 routes
 =
 64
-        
 return
 task
-    
 for
 locale
 in
 locales
 :
-        
 for
 tpl
 in
 V2_L10N_TEMPLATES
 :
-            
 routes
 .
 append
@@ -9348,7 +8557,6 @@ locale
 subs
 )
 )
-    
 return
 task
 transforms
@@ -9361,13 +8569,11 @@ config
 tasks
 )
 :
-    
 for
 task
 in
 tasks
 :
-        
 index
 =
 task
@@ -9378,17 +8584,13 @@ get
 index
 '
 )
-        
 if
 not
 index
 :
-            
 yield
 task
-            
 continue
-        
 index_type
 =
 index
@@ -9402,7 +8604,6 @@ type
 generic
 '
 )
-        
 task
 =
 index_builders
@@ -9413,7 +8614,6 @@ index_type
 config
 task
 )
-        
 #
 The
 default
@@ -9426,7 +8626,6 @@ according
 to
 their
 tier
-        
 extra_index
 =
 task
@@ -9448,7 +8647,6 @@ index
 {
 }
 )
-        
 rank
 =
 index
@@ -9464,7 +8662,6 @@ by
 tier
 '
 )
-        
 if
 rank
 =
@@ -9475,7 +8672,6 @@ by
 tier
 '
 :
-            
 #
 rank
 is
@@ -9494,7 +8690,6 @@ pushid
 for
 others
 ;
-            
 #
 this
 sorts
@@ -9512,7 +8707,6 @@ tier
 in
 the
 index
-            
 tier
 =
 task
@@ -9533,7 +8727,6 @@ tier
 '
 3
 )
-            
 extra_index
 [
 '
@@ -9558,7 +8751,6 @@ build_date
 '
 ]
 )
-        
 elif
 rank
 =
@@ -9567,7 +8759,6 @@ rank
 build_date
 '
 :
-            
 extra_index
 [
 '
@@ -9586,10 +8777,8 @@ build_date
 '
 ]
 )
-        
 else
 :
-            
 extra_index
 [
 '
@@ -9598,7 +8787,6 @@ rank
 ]
 =
 rank
-        
 del
 task
 [
@@ -9606,7 +8794,6 @@ task
 index
 '
 ]
-        
 yield
 task
 transforms
@@ -9619,13 +8806,11 @@ config
 tasks
 )
 :
-    
 for
 task
 in
 tasks
 :
-        
 level
 =
 str
@@ -9639,7 +8824,6 @@ level
 '
 ]
 )
-        
 worker_type
 =
 task
@@ -9657,7 +8841,6 @@ level
 =
 level
 )
-        
 provisioner_id
 worker_type
 =
@@ -9670,7 +8853,6 @@ split
 '
 1
 )
-        
 routes
 =
 task
@@ -9683,7 +8865,6 @@ routes
 [
 ]
 )
-        
 scopes
 =
 [
@@ -9709,12 +8890,10 @@ scopes
 ]
 )
 ]
-        
 #
 set
 up
 extra
-        
 extra
 =
 task
@@ -9727,7 +8906,6 @@ extra
 {
 }
 )
-        
 task_th
 =
 task
@@ -9738,11 +8916,9 @@ get
 treeherder
 '
 )
-        
 if
 task_th
 :
-            
 extra
 [
 '
@@ -9756,7 +8932,6 @@ task_th
 environments
 '
 ]
-            
 treeherder
 =
 extra
@@ -9769,7 +8944,6 @@ treeherder
 {
 }
 )
-            
 machine_platform
 collection
 =
@@ -9787,7 +8961,6 @@ split
 '
 1
 )
-            
 treeherder
 [
 '
@@ -9802,7 +8975,6 @@ platform
 :
 machine_platform
 }
-            
 treeherder
 [
 '
@@ -9815,7 +8987,6 @@ collection
 :
 True
 }
-            
 groupSymbol
 symbol
 =
@@ -9828,7 +8999,6 @@ symbol
 '
 ]
 )
-            
 if
 groupSymbol
 !
@@ -9837,7 +9007,6 @@ groupSymbol
 ?
 '
 :
-                
 treeherder
 [
 '
@@ -9846,14 +9015,12 @@ groupSymbol
 ]
 =
 groupSymbol
-                
 if
 groupSymbol
 not
 in
 GROUP_NAMES
 :
-                    
 raise
 Exception
 (
@@ -9864,7 +9031,6 @@ format
 groupSymbol
 )
 )
-                
 treeherder
 [
 '
@@ -9876,7 +9042,6 @@ GROUP_NAMES
 [
 groupSymbol
 ]
-            
 treeherder
 [
 '
@@ -9885,7 +9050,6 @@ symbol
 ]
 =
 symbol
-            
 treeherder
 [
 '
@@ -9899,7 +9063,6 @@ task_th
 kind
 '
 ]
-            
 treeherder
 [
 '
@@ -9913,13 +9076,11 @@ task_th
 tier
 '
 ]
-            
 routes
 .
 extend
 (
 [
-                
 '
 {
 }
@@ -9942,7 +9103,6 @@ TREEHERDER_ROUTE_ROOTS
 [
 env
 ]
-                                        
 config
 .
 params
@@ -9951,7 +9111,6 @@ params
 project
 '
 ]
-                                        
 config
 .
 params
@@ -9960,7 +9119,6 @@ params
 head_rev
 '
 ]
-                                        
 config
 .
 params
@@ -9970,7 +9128,6 @@ pushlog_id
 '
 ]
 )
-                
 for
 env
 in
@@ -9980,10 +9137,8 @@ task_th
 environments
 '
 ]
-            
 ]
 )
-        
 if
 '
 expires
@@ -9994,7 +9149,6 @@ not
 in
 task
 :
-            
 task
 [
 '
@@ -10027,7 +9181,6 @@ else
 1
 year
 '
-        
 if
 '
 deadline
@@ -10038,7 +9191,6 @@ not
 in
 task
 :
-            
 task
 [
 '
@@ -10052,7 +9204,6 @@ after
 1
 day
 '
-        
 if
 '
 coalesce
@@ -10076,14 +9227,12 @@ level
 >
 1
 :
-            
 key
 =
 COALESCE_KEY
 .
 format
 (
-                
 project
 =
 config
@@ -10094,7 +9243,6 @@ params
 project
 '
 ]
-                
 name
 =
 task
@@ -10106,7 +9254,6 @@ name
 '
 ]
 )
-            
 routes
 .
 append
@@ -10120,7 +9267,6 @@ v1
 +
 key
 )
-        
 if
 '
 priority
@@ -10129,7 +9275,6 @@ not
 in
 task
 :
-            
 task
 [
 '
@@ -10141,7 +9286,6 @@ BRANCH_PRIORITIES
 .
 get
 (
-                
 config
 .
 params
@@ -10150,10 +9294,8 @@ params
 project
 '
 ]
-                
 DEFAULT_BRANCH_PRIORITY
 )
-        
 tags
 =
 task
@@ -10166,13 +9308,11 @@ tags
 {
 }
 )
-        
 tags
 .
 update
 (
 {
-            
 '
 createdForUser
 '
@@ -10185,7 +9325,6 @@ params
 owner
 '
 ]
-            
 '
 kind
 '
@@ -10193,32 +9332,26 @@ kind
 config
 .
 kind
-        
 }
 )
-        
 task_def
 =
 {
-            
 '
 provisionerId
 '
 :
 provisioner_id
-            
 '
 workerType
 '
 :
 worker_type
-            
 '
 routes
 '
 :
 routes
-            
 '
 created
 '
@@ -10235,7 +9368,6 @@ datestamp
 seconds
 '
 }
-            
 '
 deadline
 '
@@ -10256,7 +9388,6 @@ after
 '
 ]
 }
-            
 '
 expires
 '
@@ -10277,19 +9408,16 @@ after
 '
 ]
 }
-            
 '
 scopes
 '
 :
 scopes
-            
 '
 metadata
 '
 :
 {
-                
 '
 description
 '
@@ -10300,7 +9428,6 @@ task
 description
 '
 ]
-                
 '
 name
 '
@@ -10311,7 +9438,6 @@ task
 label
 '
 ]
-                
 '
 owner
 '
@@ -10324,7 +9450,6 @@ params
 owner
 '
 ]
-                
 '
 source
 '
@@ -10344,7 +9469,6 @@ file
 .
 format
 (
-                    
 config
 .
 params
@@ -10353,7 +9477,6 @@ params
 head_repository
 '
 ]
-                    
 config
 .
 params
@@ -10362,26 +9485,21 @@ params
 head_rev
 '
 ]
-                    
 config
 .
 path
 )
-            
 }
-            
 '
 extra
 '
 :
 extra
-            
 '
 tags
 '
 :
 tags
-            
 '
 priority
 '
@@ -10392,13 +9510,10 @@ task
 priority
 '
 ]
-        
 }
-        
 if
 task_th
 :
-            
 #
 link
 back
@@ -10406,7 +9521,6 @@ to
 treeherder
 in
 description
-            
 th_push_link
 =
 '
@@ -10437,7 +9551,6 @@ revision
 .
 format
 (
-                
 config
 .
 params
@@ -10455,7 +9568,6 @@ head_rev
 '
 ]
 )
-            
 task_def
 [
 '
@@ -10484,10 +9596,8 @@ push
 .
 format
 (
-                
 th_push_link
 )
-        
 #
 add
 the
@@ -10505,7 +9615,6 @@ g
 .
 scopes
 )
-        
 payload_builders
 [
 task
@@ -10525,7 +9634,6 @@ config
 task
 task_def
 )
-        
 attributes
 =
 task
@@ -10538,7 +9646,6 @@ attributes
 {
 }
 )
-        
 attributes
 [
 '
@@ -10563,7 +9670,6 @@ all
 '
 ]
 )
-        
 #
 Set
 MOZ_AUTOMATION
@@ -10571,7 +9677,6 @@ on
 all
 jobs
 .
-        
 if
 task
 [
@@ -10586,34 +9691,28 @@ implementation
 ]
 in
 (
-            
 '
 generic
 -
 worker
 '
-            
 '
 docker
 -
 engine
 '
-            
 '
 native
 -
 engine
 '
-            
 '
 docker
 -
 worker
 '
-        
 )
 :
-            
 payload
 =
 task_def
@@ -10624,11 +9723,9 @@ get
 payload
 '
 )
-            
 if
 payload
 :
-                
 env
 =
 payload
@@ -10641,7 +9738,6 @@ env
 {
 }
 )
-                
 env
 [
 '
@@ -10652,10 +9748,8 @@ MOZ_AUTOMATION
 '
 1
 '
-        
 yield
 {
-            
 '
 label
 '
@@ -10666,13 +9760,11 @@ task
 label
 '
 ]
-            
 '
 task
 '
 :
 task_def
-            
 '
 dependencies
 '
@@ -10687,13 +9779,11 @@ dependencies
 {
 }
 )
-            
 '
 attributes
 '
 :
 attributes
-            
 '
 optimizations
 '
@@ -10708,7 +9798,6 @@ optimizations
 [
 ]
 )
-        
 }
 def
 check_caches_are_volumes
@@ -10716,7 +9805,6 @@ check_caches_are_volumes
 task
 )
 :
-    
 "
 "
 "
@@ -10730,7 +9818,6 @@ defined
 as
 volumes
 .
-    
 Caches
 and
 volumes
@@ -10741,7 +9828,6 @@ filesystem
 locations
 whose
 content
-    
 isn
 '
 t
@@ -10756,7 +9842,6 @@ Some
 caches
 are
 optional
-    
 depending
 on
 the
@@ -10769,7 +9854,6 @@ paths
 that
 are
 potentially
-    
 caches
 to
 have
@@ -10782,7 +9866,6 @@ whether
 a
 cache
 is
-    
 used
 .
 To
@@ -10797,7 +9880,6 @@ paths
 used
 as
 caches
-    
 to
 be
 declared
@@ -10814,7 +9896,6 @@ catch
 all
 offenders
 .
-    
 But
 it
 is
@@ -10822,11 +9903,9 @@ better
 than
 nothing
 .
-    
 "
 "
 "
-    
 volumes
 =
 set
@@ -10843,7 +9922,6 @@ volumes
 '
 ]
 )
-    
 paths
 =
 set
@@ -10875,20 +9953,16 @@ caches
 ]
 )
 )
-    
 missing
 =
 paths
 -
 volumes
-    
 if
 not
 missing
 :
-        
 return
-    
 raise
 Exception
 (
@@ -10909,7 +9983,6 @@ not
 declared
 as
 '
-                    
 '
 Docker
 volumes
@@ -10925,7 +9998,6 @@ task
 label
 '
 ]
-                                            
 task
 [
 '
@@ -10939,7 +10011,6 @@ docker
 image
 '
 ]
-                                            
 '
 '
 .
@@ -10962,7 +10033,6 @@ config
 tasks
 )
 :
-    
 "
 "
 "
@@ -10974,7 +10044,6 @@ run
 -
 task
 .
-    
 run
 -
 task
@@ -10992,7 +10061,6 @@ by
 run
 -
 task
-    
 is
 used
 by
@@ -11011,7 +10079,6 @@ So
 we
 audit
 for
-    
 that
 and
 make
@@ -11026,7 +10093,6 @@ run
 -
 task
 .
-    
 IF
 YOU
 ARE
@@ -11040,7 +10106,6 @@ POLICY
 YOU
 ARE
 LIKELY
-    
 CONTRIBUTING
 TECHNICAL
 DEBT
@@ -11053,7 +10118,6 @@ MANY
 OF
 THE
 PROBLEMS
-    
 THAT
 RUN
 -
@@ -11069,11 +10133,9 @@ BEFORE
 DOING
 THAT
 .
-    
 "
 "
 "
-    
 re_reserved_caches
 =
 re
@@ -11084,7 +10146,6 @@ compile
 '
 '
 ^
-        
 (
 level
 -
@@ -11104,7 +10165,6 @@ tooltool
 -
 cache
 )
-    
 '
 '
 '
@@ -11112,7 +10172,6 @@ re
 .
 VERBOSE
 )
-    
 re_sparse_checkout_cache
 =
 re
@@ -11132,19 +10191,16 @@ checkouts
 sparse
 '
 )
-    
 suffix
 =
 _run_task_suffix
 (
 )
-    
 for
 task
 in
 tasks
 :
-        
 payload
 =
 task
@@ -11162,7 +10218,6 @@ payload
 {
 }
 )
-        
 command
 =
 payload
@@ -11178,7 +10233,6 @@ or
 '
 '
 ]
-        
 main_command
 =
 command
@@ -11197,7 +10251,6 @@ basestring
 else
 '
 '
-        
 run_task
 =
 main_command
@@ -11210,19 +10263,15 @@ run
 task
 '
 )
-        
 require_sparse_cache
 =
 False
-        
 have_sparse_cache
 =
 False
-        
 if
 run_task
 :
-            
 for
 arg
 in
@@ -11232,7 +10281,6 @@ command
 :
 ]
 :
-                
 if
 not
 isinstance
@@ -11241,9 +10289,7 @@ arg
 basestring
 )
 :
-                    
 continue
-                
 if
 arg
 =
@@ -11253,9 +10299,7 @@ arg
 -
 '
 :
-                    
 break
-                
 if
 arg
 .
@@ -11270,13 +10314,10 @@ profile
 '
 )
 :
-                    
 require_sparse_cache
 =
 True
-                    
 break
-        
 for
 cache
 in
@@ -11291,7 +10332,6 @@ cache
 }
 )
 :
-            
 if
 re_sparse_checkout_cache
 .
@@ -11300,11 +10340,9 @@ match
 cache
 )
 :
-                
 have_sparse_cache
 =
 True
-            
 if
 not
 re_reserved_caches
@@ -11314,18 +10352,14 @@ match
 cache
 )
 :
-                
 continue
-            
 if
 not
 run_task
 :
-                
 raise
 Exception
 (
-                    
 '
 %
 s
@@ -11343,7 +10377,6 @@ run
 -
 task
 '
-                    
 '
 change
 the
@@ -11358,7 +10391,6 @@ use
 a
 different
 '
-                    
 '
 cache
 name
@@ -11374,7 +10406,6 @@ label
 cache
 )
 )
-            
 if
 not
 cache
@@ -11384,11 +10415,9 @@ endswith
 suffix
 )
 :
-                
 raise
 Exception
 (
-                    
 '
 %
 s
@@ -11406,7 +10435,6 @@ run
 -
 task
 '
-                    
 '
 but
 the
@@ -11419,7 +10447,6 @@ on
 the
 contents
 '
-                    
 '
 of
 run
@@ -11435,7 +10462,6 @@ conform
 to
 the
 '
-                    
 '
 naming
 requirements
@@ -11451,14 +10477,12 @@ label
 cache
 )
 )
-        
 if
 require_sparse_cache
 and
 not
 have_sparse_cache
 :
-            
 raise
 Exception
 (
@@ -11474,7 +10498,6 @@ but
 not
 using
 '
-                            
 '
 a
 sparse
@@ -11485,7 +10508,6 @@ change
 the
 checkout
 '
-                            
 '
 cache
 name
@@ -11503,7 +10525,6 @@ label
 '
 ]
 )
-        
 yield
 task
 #
@@ -11550,7 +10571,6 @@ check_v2_routes
 (
 )
 :
-    
 with
 open
 (
@@ -11580,7 +10600,6 @@ rb
 as
 f
 :
-        
 routes_json
 =
 json
@@ -11589,7 +10608,6 @@ load
 (
 f
 )
-    
 for
 key
 in
@@ -11605,7 +10623,6 @@ l10n
 '
 )
 :
-        
 if
 key
 =
@@ -11614,11 +10631,9 @@ key
 routes
 '
 :
-            
 tc_template
 =
 V2_ROUTE_TEMPLATES
-        
 elif
 key
 =
@@ -11627,11 +10642,9 @@ key
 nightly
 '
 :
-            
 tc_template
 =
 V2_NIGHTLY_TEMPLATES
-        
 elif
 key
 =
@@ -11640,18 +10653,15 @@ key
 l10n
 '
 :
-            
 tc_template
 =
 V2_L10N_TEMPLATES
-        
 routes
 =
 routes_json
 [
 key
 ]
-        
 #
 we
 use
@@ -11659,13 +10669,11 @@ different
 variables
 than
 mozharness
-        
 for
 mh
 tg
 in
 [
-                
 (
 '
 {
@@ -11676,7 +10684,6 @@ index
 index
 '
 )
-                
 (
 '
 {
@@ -11689,7 +10696,6 @@ product
 }
 '
 )
-                
 (
 '
 {
@@ -11708,7 +10714,6 @@ name
 }
 '
 )
-                
 (
 '
 {
@@ -11733,7 +10738,6 @@ build_date_long
 }
 '
 )
-                
 (
 '
 {
@@ -11746,7 +10750,6 @@ pushlog_id
 }
 '
 )
-                
 (
 '
 {
@@ -11769,7 +10772,6 @@ build_date
 )
 ]
 :
-            
 routes
 =
 [
@@ -11785,7 +10787,6 @@ r
 in
 routes
 ]
-        
 if
 sorted
 (
@@ -11798,7 +10799,6 @@ sorted
 tc_template
 )
 :
-            
 raise
 Exception
 (
@@ -11816,7 +10816,6 @@ routes
 json
 :
 "
-                            
 "
 (
 tc
