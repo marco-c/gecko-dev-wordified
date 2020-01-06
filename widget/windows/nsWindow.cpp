@@ -4899,13 +4899,6 @@ defined
 (
 ACCESSIBILITY
 )
-IMEHandler
-:
-:
-Initialize
-(
-)
-;
 if
 (
 SUCCEEDED
