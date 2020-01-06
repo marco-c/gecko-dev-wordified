@@ -100,7 +100,7 @@ rej
 )
 ;
 }
-onactivate
+onmessage
 =
 function
 (
