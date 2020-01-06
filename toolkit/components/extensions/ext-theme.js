@@ -804,7 +804,7 @@ textcolor
 :
 case
 "
-background_tab_text
+tab_text
 "
 :
 this
@@ -852,11 +852,6 @@ cssColor
 ;
 break
 ;
-case
-"
-tab_text
-"
-:
 case
 "
 toolbar_field
