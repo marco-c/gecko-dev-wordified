@@ -5620,6 +5620,7 @@ aDocument
 NodePrincipal
 (
 )
+0
 aDocument
 -
 >

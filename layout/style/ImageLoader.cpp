@@ -1577,6 +1577,7 @@ aURI
 mDocument
 mDocument
 aOriginPrincipal
+0
 aReferrer
 mDocument
 -

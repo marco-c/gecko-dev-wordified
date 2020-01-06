@@ -1274,6 +1274,11 @@ nsIPrincipal
 >
 loadingPrincipal
 ;
+uint64_t
+requestContextID
+=
+0
+;
 nsContentUtils
 :
 :
@@ -1285,6 +1290,8 @@ getter_AddRefs
 loadingPrincipal
 )
 contentPolicyType
+&
+requestContextID
 )
 ;
 nsCOMPtr
@@ -1337,6 +1344,7 @@ uri
 mContent
 doc
 loadingPrincipal
+requestContextID
 doc
 -
 >

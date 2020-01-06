@@ -55734,6 +55734,7 @@ this
 NodePrincipal
 (
 )
+0
 mDocumentURI
 /
 /
