@@ -209,6 +209,7 @@ WeakCacheBase
 =
 delete
 ;
+explicit
 WeakCacheBase
 (
 const
@@ -220,6 +221,7 @@ delete
 ;
 public
 :
+explicit
 WeakCacheBase
 (
 Zone
@@ -237,6 +239,7 @@ this
 )
 ;
 }
+explicit
 WeakCacheBase
 (
 JSRuntime
@@ -381,6 +384,7 @@ typename
 .
 Args
 >
+explicit
 WeakCache
 (
 Zone
@@ -425,6 +429,7 @@ typename
 .
 Args
 >
+explicit
 WeakCache
 (
 JSRuntime
