@@ -57581,7 +57581,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-true
+false
 )
 ;
 pref
