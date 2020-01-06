@@ -1490,15 +1490,11 @@ browser
 /
 skin
 /
-back
+forward
 .
 svg
 "
 )
-;
-width
-:
-26px
 ;
 }
 .
@@ -1515,7 +1511,7 @@ locale
 -
 dir
 (
-ltr
+rtl
 )
 .
 search
@@ -1531,7 +1527,7 @@ locale
 -
 dir
 (
-ltr
+rtl
 )
 {
 transform
