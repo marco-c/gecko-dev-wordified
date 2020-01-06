@@ -117,6 +117,9 @@ nightly
 '
 signed
 '
+'
+l10n_chunk
+'
 )
 def
 attrmatch
