@@ -397,7 +397,7 @@ h
 #
 include
 "
-nsCSSRuleProcessor
+nsMediaFeatures
 .
 h
 "
@@ -10827,7 +10827,7 @@ re
 /
 used
 .
-nsCSSRuleProcessor
+nsMediaFeatures
 :
 :
 FreeSystemMetrics

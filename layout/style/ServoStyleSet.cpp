@@ -292,13 +292,6 @@ h
 #
 include
 "
-nsCSSRuleProcessor
-.
-h
-"
-#
-include
-"
 nsDeviceContext
 .
 h
@@ -321,6 +314,13 @@ h
 include
 "
 nsIDocumentInlines
+.
+h
+"
+#
+include
+"
+nsMediaFeatures
 .
 h
 "
@@ -2284,7 +2284,7 @@ ResolveMappedAttrDeclarationBlocks
 (
 )
 ;
-nsCSSRuleProcessor
+nsMediaFeatures
 :
 :
 InitSystemMetrics
