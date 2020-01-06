@@ -220,6 +220,25 @@ js
 "
 )
 ;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+services
+-
+common
+/
+utils
+.
+js
+"
+)
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -1297,7 +1316,7 @@ login
 LOGIN_SUCCEEDED
 )
 {
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -2569,7 +2588,7 @@ idle
 =
 false
 ;
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -2690,7 +2709,7 @@ sleep
 "
 )
 ;
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -3582,7 +3601,7 @@ down
 return
 ;
 }
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -3907,7 +3926,7 @@ ms
 "
 )
 ;
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -4140,7 +4159,7 @@ _checkSetup
 STATUS_OK
 )
 {
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -5677,7 +5696,7 @@ notifyOnNextTick
 topic
 )
 {
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -5785,7 +5804,7 @@ dontIgnoreErrors
 =
 true
 ;
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -7126,7 +7145,7 @@ now
 )
 )
 {
-Utils
+CommonUtils
 .
 nextTick
 (

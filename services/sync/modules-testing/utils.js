@@ -570,7 +570,7 @@ to
 account
 for
 the
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -684,7 +684,7 @@ resolve
 =
 >
 {
-Utils
+CommonUtils
 .
 namedTimer
 (
