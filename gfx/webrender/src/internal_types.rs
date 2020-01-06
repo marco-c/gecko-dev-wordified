@@ -862,6 +862,10 @@ FetchDocuments
 (
 String
 )
+FetchClipScrollTree
+(
+String
+)
 }
 pub
 enum

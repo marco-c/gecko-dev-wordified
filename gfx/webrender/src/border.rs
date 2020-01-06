@@ -1390,12 +1390,12 @@ BorderCornerInstance
 ;
 4
 ]
-extra_clips
+clip_sources
 :
-&
-[
+Vec
+<
 ClipSource
-]
+>
 )
 {
 let
@@ -1729,7 +1729,7 @@ clip_and_scroll
 &
 rect
 local_clip
-extra_clips
+clip_sources
 PrimitiveContainer
 :
 :
@@ -2656,7 +2656,6 @@ widths
 clip_and_scroll
 local_clip
 corner_instances
-&
 extra_clips
 )
 ;
