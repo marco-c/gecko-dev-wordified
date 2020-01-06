@@ -651,7 +651,7 @@ we
 permit
 #
 define
-DEFAULT_MIN_TIMEOUT_VALUE
+DEFAULT_MIN_CLAMP_TIMEOUT_VALUE
 4
 /
 /
@@ -679,7 +679,7 @@ DEFAULT_MIN_TRACKING_BACKGROUND_TIMEOUT_VALUE
 1000ms
 static
 int32_t
-gMinTimeoutValue
+gMinClampTimeoutValue
 =
 0
 ;
@@ -1246,7 +1246,7 @@ throttleTracking
 ?
 gMinTrackingTimeoutValue
 :
-gMinTimeoutValue
+gMinClampTimeoutValue
 ;
 return
 minValue
@@ -1629,13 +1629,13 @@ Preferences
 AddIntVarCache
 (
 &
-gMinTimeoutValue
+gMinClampTimeoutValue
 "
 dom
 .
 min_timeout_value
 "
-DEFAULT_MIN_TIMEOUT_VALUE
+DEFAULT_MIN_CLAMP_TIMEOUT_VALUE
 )
 ;
 Preferences
