@@ -610,8 +610,6 @@ toolbarbutton
 -
 icon
 {
-max
--
 width
 :
 16px
@@ -1013,8 +1011,6 @@ icon
 width
 *
 /
-max
--
 width
 :
 calc
@@ -2037,8 +2033,6 @@ radius
 :
 10000px
 ;
-max
--
 width
 :
 32px
@@ -2090,8 +2084,6 @@ toolbarbutton
 -
 icon
 {
-max
--
 width
 :
 38px
