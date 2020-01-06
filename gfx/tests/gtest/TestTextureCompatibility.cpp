@@ -140,15 +140,6 @@ h
 #
 include
 "
-gtest
-/
-MozGTestBench
-.
-h
-"
-#
-include
-"
 MockWidget
 .
 h
