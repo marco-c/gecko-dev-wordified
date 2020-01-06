@@ -1138,7 +1138,7 @@ friend
 class
 DocumentLoadNotification
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
