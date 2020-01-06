@@ -150,6 +150,8 @@ None
 ]
 :
             
+kwargs
+=
 self
 .
 setup
@@ -180,6 +182,8 @@ servo
 )
 :
             
+kwargs
+=
 self
 .
 setup
