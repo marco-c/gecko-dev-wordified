@@ -30179,7 +30179,7 @@ _panel
 querySelector
 (
 "
-panelmultiview
+photonpanelmultiview
 "
 )
 ;
