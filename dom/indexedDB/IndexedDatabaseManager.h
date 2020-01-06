@@ -652,9 +652,6 @@ FlushPendingFileDeletions
 (
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 static
 const
 nsCString
@@ -663,8 +660,6 @@ GetLocale
 (
 )
 ;
-#
-endif
 static
 mozilla
 :
@@ -879,14 +874,9 @@ mozilla
 Mutex
 mFileMutex
 ;
-#
-ifdef
-ENABLE_INTL_API
 nsCString
 mLocale
 ;
-#
-endif
 indexedDB
 :
 :

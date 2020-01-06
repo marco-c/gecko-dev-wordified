@@ -969,9 +969,6 @@ Value
 aVal
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 nsresult
 ToLocaleBasedKey
 (
@@ -985,8 +982,6 @@ aLocale
 )
 const
 ;
-#
-endif
 void
 FinishArray
 (
@@ -1303,9 +1298,6 @@ uint8_t
 aType
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 nsresult
 EncodeLocaleString
 (
@@ -1321,8 +1313,6 @@ nsCString
 aLocale
 )
 ;
-#
-endif
 void
 EncodeNumber
 (

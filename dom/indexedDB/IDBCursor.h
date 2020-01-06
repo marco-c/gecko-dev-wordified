@@ -870,9 +870,6 @@ IDBCursor
 (
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 /
 /
 Checks
@@ -900,8 +897,6 @@ IsLocaleAware
 )
 const
 ;
-#
-endif
 void
 DropJSObjects
 (

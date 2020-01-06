@@ -6411,9 +6411,6 @@ aUpdateInfoArray
 nsresult
 rv
 ;
-#
-ifdef
-ENABLE_INTL_API
 const
 bool
 localeAware
@@ -6425,8 +6422,6 @@ IsEmpty
 (
 )
 ;
-#
-endif
 if
 (
 !
@@ -6525,9 +6520,6 @@ value
 =
 key
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 localeAware
@@ -6564,8 +6556,6 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -6804,9 +6794,6 @@ value
 =
 value
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 localeAware
@@ -6843,8 +6830,6 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 }
-#
-endif
 }
 }
 else
@@ -6918,9 +6903,6 @@ value
 =
 value
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 localeAware
@@ -6957,8 +6939,6 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 }
-#
-endif
 }
 return
 NS_OK
@@ -11516,9 +11496,6 @@ auto
 "
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 autoLocale
@@ -11534,8 +11511,6 @@ GetLocale
 )
 ;
 }
-#
-endif
 IndexMetadata
 *
 metadata
