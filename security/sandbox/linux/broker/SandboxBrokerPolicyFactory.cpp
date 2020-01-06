@@ -659,6 +659,17 @@ get
 )
 )
 ;
+policy
+-
+>
+AddAncestors
+(
+Move
+(
+shmPath
+)
+)
+;
 }
 #
 endif
