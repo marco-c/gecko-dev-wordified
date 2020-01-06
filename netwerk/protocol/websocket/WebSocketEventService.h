@@ -229,6 +229,15 @@ already_AddRefed
 <
 WebSocketEventService
 >
+Get
+(
+)
+;
+static
+already_AddRefed
+<
+WebSocketEventService
+>
 GetOrCreate
 (
 )
