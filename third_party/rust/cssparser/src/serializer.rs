@@ -1264,9 +1264,6 @@ Token
 :
 :
 BadUrl
-(
-_
-)
 =
 >
 dest
@@ -1288,9 +1285,6 @@ Token
 :
 :
 BadString
-(
-_
-)
 =
 >
 dest
@@ -3388,9 +3382,6 @@ Token
 :
 :
 BadUrl
-(
-_
-)
 =
 >
 UrlOrBadUrl
@@ -3677,9 +3668,6 @@ Token
 :
 :
 BadString
-(
-_
-)
 |
 Token
 :
