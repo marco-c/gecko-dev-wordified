@@ -2999,6 +2999,7 @@ UiCompositorControllerParent
 *
 aController
 )
+override
 {
 mScreenPixelsTarget
 =
