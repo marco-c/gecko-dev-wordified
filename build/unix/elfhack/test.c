@@ -672,7 +672,7 @@ end_test
 )
 {
 static
-int
+size_t
 count
 =
 0
