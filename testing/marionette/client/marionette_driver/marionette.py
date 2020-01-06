@@ -5200,8 +5200,6 @@ runner
         
 poll_interval
 =
-0
-.
 1
         
 starttime
@@ -5335,9 +5333,32 @@ except
 socket
 .
 error
+as
+e
 :
                 
-pass
+print
+>
+>
+sys
+.
+stderr
+"
+Connection
+attempt
+to
+Marionette
+failed
+(
+{
+}
+)
+"
+.
+format
+(
+e
+)
             
 finally
 :
