@@ -653,7 +653,7 @@ DOMEventMarkerPayload
 const
 nsAString
 &
-aType
+aEventType
 uint16_t
 aPhase
 const
@@ -677,9 +677,9 @@ ProfilerMarkerPayload
 aStartTime
 aEndTime
 )
-mType
+mEventType
 (
-aType
+aEventType
 )
 mPhase
 (
@@ -691,7 +691,7 @@ DECL_STREAM_PAYLOAD
 private
 :
 nsString
-mType
+mEventType
 ;
 uint16_t
 mPhase
