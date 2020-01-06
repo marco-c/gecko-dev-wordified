@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsIContentParent
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
