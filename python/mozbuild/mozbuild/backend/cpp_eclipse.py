@@ -9421,6 +9421,11 @@ version
 buildConsoleLines
 =
 10000
+Console
+.
+limitConsoleOutput
+=
+false
 ensureNewlineAtEOF
 =
 false
