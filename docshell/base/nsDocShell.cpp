@@ -28935,7 +28935,7 @@ isFileURI
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 spec
 )
@@ -73428,7 +73428,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 buf
 )

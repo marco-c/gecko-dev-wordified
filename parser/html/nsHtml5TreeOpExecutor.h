@@ -931,10 +931,6 @@ nsAString
 aIntegrity
 bool
 aScriptFromHead
-bool
-aAsync
-bool
-aDefer
 )
 ;
 void

@@ -16318,7 +16318,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 buffer
 )
