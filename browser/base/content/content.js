@@ -1602,8 +1602,8 @@ ownerGlobal
 ;
 mainWin
 .
-gContextMenuContentData
-=
+setContextMenuContentData
+(
 {
 isRemote
 :
@@ -1636,6 +1636,7 @@ loginFillInfo
 parentAllowsMixedContent
 userContextId
 }
+)
 ;
 }
 }
