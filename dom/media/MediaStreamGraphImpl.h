@@ -2846,10 +2846,6 @@ AssertCurrentThreadOwns
 (
 )
 ;
-AssertOnGraphThreadOrNotRunning
-(
-)
-;
 #
 endif
 mDriver
