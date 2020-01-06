@@ -911,10 +911,6 @@ popupPositioned
 ;
 }
 EXPECTED_APPMENU_OPEN_REFLOWS
-window
-PanelUI
-.
-panel
 )
 ;
 /
@@ -1259,10 +1255,6 @@ hidden
 ;
 }
 EXPECTED_APPMENU_SUBVIEW_REFLOWS
-window
-PanelUI
-.
-panel
 )
 ;
 }
