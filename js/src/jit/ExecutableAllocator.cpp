@@ -812,6 +812,16 @@ m_pools
 initialized
 (
 )
+&
+&
+rt_
+-
+>
+gc
+.
+shutdownCollectedEverything
+(
+)
 m_pools
 .
 empty
