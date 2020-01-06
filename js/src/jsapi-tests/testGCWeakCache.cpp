@@ -667,10 +667,8 @@ WeakCache
 ObjectMap
 >
 ;
-auto
-cache
-=
 Cache
+cache
 (
 JS
 :
@@ -679,10 +677,7 @@ GetObjectZone
 (
 tenured1
 )
-ObjectMap
-(
 cx
-)
 )
 ;
 CHECK

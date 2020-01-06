@@ -1196,6 +1196,10 @@ thingp
 )
 {
 return
+*
+thingp
+&
+&
 js
 :
 :
