@@ -16905,10 +16905,12 @@ aFactor
 )
 ;
 image
-.
-Transform
-(
+=
 aMatrix
+.
+TransformPoint
+(
+image
 )
 ;
 return
