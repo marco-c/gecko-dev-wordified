@@ -9253,6 +9253,14 @@ sweepDictionaryListPointer
 (
 )
 ;
+void
+updateDictionaryListPointerAfterMinorGC
+(
+NativeObject
+*
+old
+)
+;
 /
 *
 JIT
