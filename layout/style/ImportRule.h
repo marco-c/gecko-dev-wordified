@@ -227,6 +227,8 @@ has
 its
 own
 GetStyleSheet
+and
+GetMedia
 using
 dom
 :
@@ -235,6 +237,15 @@ CSSImportRule
 :
 :
 GetStyleSheet
+;
+using
+dom
+:
+:
+CSSImportRule
+:
+:
+GetMedia
 ;
 /
 /
@@ -325,7 +336,7 @@ dom
 :
 MediaList
 *
-Media
+GetMedia
 (
 )
 const

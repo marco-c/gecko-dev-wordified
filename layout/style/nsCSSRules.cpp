@@ -1529,7 +1529,7 @@ MediaList
 ImportRule
 :
 :
-Media
+GetMedia
 (
 )
 const
