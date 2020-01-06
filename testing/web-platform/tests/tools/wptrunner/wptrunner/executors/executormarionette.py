@@ -283,7 +283,7 @@ None
                                                 
 startup_timeout
 =
-startup_timeout
+None
 )
         
 #
@@ -319,11 +319,7 @@ marionette
 .
 wait_for_port
 (
-60
-*
-self
-.
-timeout_multiplier
+startup_timeout
 )
             
 #
