@@ -2036,6 +2036,9 @@ State
 :
 :
 Start
+had_hierarchy_error
+:
+false
 namespaces
 :
 Some
