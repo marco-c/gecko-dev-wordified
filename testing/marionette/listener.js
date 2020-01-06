@@ -5786,7 +5786,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 /
@@ -6706,7 +6705,6 @@ pack
 [
 2
 ]
-curContainer
 )
 ;
 c
@@ -6839,7 +6837,6 @@ pack
 [
 2
 ]
-curContainer
 )
 ;
 c
@@ -8376,7 +8373,6 @@ get
 opts
 .
 startNode
-curContainer
 )
 ;
 }
@@ -8503,7 +8499,6 @@ get
 opts
 .
 startNode
-curContainer
 )
 ;
 }
@@ -8729,7 +8724,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 capabilities
 .
@@ -8790,7 +8784,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 if
@@ -8848,7 +8841,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -8929,7 +8921,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -8997,7 +8988,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -9054,7 +9044,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -9153,7 +9142,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 let
@@ -9246,7 +9234,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 let
@@ -9347,7 +9334,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -9422,7 +9408,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 return
@@ -9460,7 +9445,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 if
@@ -9585,7 +9569,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 if
@@ -9855,7 +9838,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 foundShadowRoot
@@ -10323,7 +10305,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 }
@@ -11279,7 +11260,6 @@ seenEls
 get
 (
 ref
-curContainer
 )
 )
 ;
@@ -11336,7 +11316,6 @@ seenEls
 get
 (
 id
-curContainer
 )
 ;
 if

@@ -1725,14 +1725,6 @@ seenEls
 get
 (
 uuid
-{
-frame
-:
-win
-shadowRoot
-:
-shadowRoot
-}
 )
 ;
 /

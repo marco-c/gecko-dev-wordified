@@ -3201,6 +3201,15 @@ el
 return
 el
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
+/
+/
+eslint
+-
+disable
+-
+line
 }

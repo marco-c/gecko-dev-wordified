@@ -1270,9 +1270,6 @@ pack
 [
 1
 ]
-this
-.
-container
 )
 ;
 let
@@ -1494,9 +1491,6 @@ pack
 [
 1
 ]
-this
-.
-container
 )
 ;
 c
@@ -1614,9 +1608,6 @@ pack
 [
 1
 ]
-this
-.
-container
 )
 ;
 c
