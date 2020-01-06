@@ -783,7 +783,7 @@ serverWalker
 =
 DebuggerServer
 .
-_searchAllConnectionsForActor
+searchAllConnectionsForActor
 (
 walker
 .

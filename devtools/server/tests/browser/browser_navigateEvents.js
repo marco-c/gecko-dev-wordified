@@ -868,7 +868,7 @@ tabActor
 =
 DebuggerServer
 .
-_searchAllConnectionsForActor
+searchAllConnectionsForActor
 (
 actorID
 )

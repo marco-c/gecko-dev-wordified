@@ -1244,6 +1244,13 @@ updatedSource
 "
 updatedSource
 "
+"
+inspectObject
+"
+:
+"
+inspectObject
+"
 }
 ;
 /
