@@ -17044,7 +17044,7 @@ return
 true
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =
@@ -21453,7 +21453,7 @@ return
 nullptr
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =
@@ -22713,7 +22713,7 @@ UseCounter
 aUseCounter
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

@@ -887,7 +887,7 @@ factory
 >
 mEventTarget
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -3627,7 +3627,7 @@ JSObject
 scriptOwner
 (
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

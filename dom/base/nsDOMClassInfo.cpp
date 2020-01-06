@@ -1153,7 +1153,7 @@ inline
 nsresult
 SetParentToWindow
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 JSObject
@@ -5481,11 +5481,11 @@ return
 NS_OK
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

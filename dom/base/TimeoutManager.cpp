@@ -2581,7 +2581,7 @@ TimeoutManager
 :
 TimeoutManager
 (
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 )
@@ -7831,7 +7831,7 @@ public
 explicit
 ThrottleTimeoutsCallback
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -7907,7 +7907,7 @@ alive
 .
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 mWindow
 ;

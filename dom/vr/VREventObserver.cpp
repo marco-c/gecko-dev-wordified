@@ -199,7 +199,7 @@ VREventObserver
 :
 VREventObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )

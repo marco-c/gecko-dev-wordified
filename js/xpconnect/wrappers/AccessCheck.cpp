@@ -810,7 +810,7 @@ cx
 idArg
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

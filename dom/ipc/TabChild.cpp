@@ -14248,7 +14248,7 @@ aPrintData
 #
 ifdef
 NS_PRINTING
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 outerWindow
 =

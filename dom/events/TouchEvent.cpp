@@ -1287,7 +1287,7 @@ if
 aGlobal
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

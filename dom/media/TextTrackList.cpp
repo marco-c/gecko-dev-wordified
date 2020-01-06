@@ -974,7 +974,7 @@ this
 event
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

@@ -1392,7 +1392,7 @@ here
 .
 *
 /
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =

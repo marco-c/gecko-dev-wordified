@@ -1447,11 +1447,11 @@ this
 casting
 safe
 ?
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -1837,11 +1837,11 @@ aDisabledCommands
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

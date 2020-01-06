@@ -534,7 +534,7 @@ aContext
 return
 0
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

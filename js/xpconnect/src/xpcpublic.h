@@ -265,7 +265,7 @@ Preferences
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
 nsIPrincipal
@@ -2907,7 +2907,7 @@ null
 .
 *
 /
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowOrNull
 (
@@ -2942,7 +2942,7 @@ null
 .
 *
 /
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowGlobalOrNull
 (
@@ -2988,7 +2988,7 @@ null
 .
 *
 /
-nsGlobalWindow
+nsGlobalWindowInner
 *
 AddonWindowOrNull
 (
@@ -3026,7 +3026,7 @@ null
 .
 *
 /
-nsGlobalWindow
+nsGlobalWindowInner
 *
 CurrentWindowOrNull
 (

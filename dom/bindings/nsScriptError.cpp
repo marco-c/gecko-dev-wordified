@@ -378,7 +378,7 @@ if
 mInnerWindowID
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =

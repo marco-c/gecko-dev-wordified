@@ -278,7 +278,7 @@ nsBidi
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
 nsXULElement

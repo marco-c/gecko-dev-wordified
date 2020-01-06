@@ -3397,7 +3397,7 @@ nsPIDOMWindowOuter
 >
 contentWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

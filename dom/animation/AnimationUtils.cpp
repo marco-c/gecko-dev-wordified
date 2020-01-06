@@ -367,7 +367,7 @@ JSContext
 aCx
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

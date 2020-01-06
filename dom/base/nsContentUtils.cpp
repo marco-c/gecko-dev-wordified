@@ -25782,7 +25782,7 @@ nullptr
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 window
 =
@@ -55071,7 +55071,7 @@ global
 is
 a
 window
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -59911,7 +59911,7 @@ nullptr
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 window
 =

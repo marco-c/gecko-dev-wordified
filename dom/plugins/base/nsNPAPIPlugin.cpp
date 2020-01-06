@@ -3392,7 +3392,7 @@ dom
 RootingCx
 (
 )
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -4787,11 +4787,11 @@ doc
 false
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

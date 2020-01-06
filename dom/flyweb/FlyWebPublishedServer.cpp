@@ -930,7 +930,7 @@ GlobalObject
 global
 (
 cx
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

@@ -6876,11 +6876,11 @@ if
 aIsPopupSpam
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 globalWin
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

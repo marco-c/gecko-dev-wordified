@@ -294,7 +294,7 @@ nsJSScriptTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 Function
@@ -326,7 +326,7 @@ nsJSScriptTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 const
@@ -983,7 +983,7 @@ CheckCSPForEval
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 ErrorResult
@@ -1263,7 +1263,7 @@ nsJSScriptTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 Function
@@ -1378,7 +1378,7 @@ nsJSScriptTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 const
@@ -1775,7 +1775,7 @@ NS_CreateJSTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 Function
@@ -1878,7 +1878,7 @@ NS_CreateJSTimeoutHandler
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 const

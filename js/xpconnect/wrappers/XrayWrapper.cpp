@@ -1786,7 +1786,7 @@ windowId
 =
 0
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -9765,7 +9765,7 @@ HolderClass
 namespace
 XrayUtils
 static
-nsGlobalWindow
+nsGlobalWindowInner
 *
 AsWindow
 (
@@ -11958,7 +11958,7 @@ index
 )
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -12016,11 +12016,11 @@ EnsureInnerWindow
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 global
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -12433,7 +12433,7 @@ a
 window
 first
 .
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -14509,7 +14509,7 @@ getPropertyDescriptor
 from
 getOwnPropertyDescriptor
 .
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -14583,7 +14583,7 @@ auto
 *
 cwin
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

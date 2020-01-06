@@ -7798,7 +7798,7 @@ window
 =
 static_cast
 <
-nsGlobalWindow
+nsGlobalWindowInner
 *
 >
 (

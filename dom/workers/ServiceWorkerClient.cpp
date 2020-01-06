@@ -313,11 +313,11 @@ document
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 innerWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -479,11 +479,11 @@ IsNull
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 outerWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -835,7 +835,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =

@@ -429,7 +429,7 @@ timeout
 fires
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 mWindow
 ;

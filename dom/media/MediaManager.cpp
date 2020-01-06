@@ -5710,7 +5710,7 @@ NS_IsMainThread
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 globalWindow
 =
@@ -12820,7 +12820,7 @@ Element
 >
 frameElement
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -13576,7 +13576,7 @@ nsIPrincipal
 >
 principal
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -16577,7 +16577,7 @@ nsIPrincipal
 >
 principal
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -25595,7 +25595,7 @@ break
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 window
 =

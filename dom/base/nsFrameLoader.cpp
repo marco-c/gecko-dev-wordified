@@ -9341,7 +9341,7 @@ nsIWidget
 >
 newParent
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -22281,7 +22281,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 outerWindow
 =

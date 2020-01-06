@@ -153,7 +153,7 @@ class
 is
 used
 by
-nsGlobalWindow
+nsGlobalWindowInner
 to
 implement
 window
@@ -201,7 +201,7 @@ WindowOrientationObserver
 :
 WindowOrientationObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )

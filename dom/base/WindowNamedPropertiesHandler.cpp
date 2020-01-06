@@ -968,7 +968,7 @@ aProxy
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -1431,7 +1431,7 @@ the
 DOM
 window
 .
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -1466,7 +1466,7 @@ which
 might
 be
 null
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 outer
 =

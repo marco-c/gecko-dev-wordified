@@ -598,7 +598,7 @@ InitMouseEvent
 aType
 aCanBubble
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

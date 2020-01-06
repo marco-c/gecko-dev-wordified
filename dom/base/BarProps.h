@@ -213,7 +213,7 @@ BindingDeclarations
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
 nsIWebBrowserChrome
@@ -247,7 +247,7 @@ public
 explicit
 BarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -354,7 +354,7 @@ GetBrowserChrome
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 mDOMWindow
 ;
@@ -379,7 +379,7 @@ public
 explicit
 MenubarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -437,7 +437,7 @@ public
 explicit
 ToolbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -495,7 +495,7 @@ public
 explicit
 LocationbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -553,7 +553,7 @@ public
 explicit
 PersonalbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -611,7 +611,7 @@ public
 explicit
 StatusbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -669,7 +669,7 @@ public
 explicit
 ScrollbarsProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )

@@ -7212,11 +7212,11 @@ from
 the
 beforeunload
 handler
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

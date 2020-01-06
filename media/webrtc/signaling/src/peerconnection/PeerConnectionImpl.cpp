@@ -3568,7 +3568,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 const
@@ -4505,8 +4505,11 @@ res
 Initialize
 (
 aObserver
-&
 aWindow
+.
+AssertInner
+(
+)
 converted
 aThread
 )

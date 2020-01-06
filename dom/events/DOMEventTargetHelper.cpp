@@ -522,7 +522,7 @@ GetOwner
 )
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -616,7 +616,7 @@ if
 mOwnerWindow
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -713,7 +713,7 @@ mHasOrHasHadOwnerWindow
 =
 true
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -746,7 +746,7 @@ if
 mOwnerWindow
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -871,7 +871,7 @@ mHasOrHasHadOwnerWindow
 =
 true
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -1640,7 +1640,7 @@ GetOwner
 return
 owner
 ?
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

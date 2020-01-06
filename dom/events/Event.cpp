@@ -417,7 +417,7 @@ aParent
 {
 ConstructorInit
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

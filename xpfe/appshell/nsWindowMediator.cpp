@@ -1747,7 +1747,7 @@ aWindow
 {
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 window
 =
@@ -1803,7 +1803,7 @@ aWindow
 {
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 window
 =

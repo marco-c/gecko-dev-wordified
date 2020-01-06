@@ -6370,7 +6370,7 @@ nsPIDOMWindowOuter
 >
 internalContent
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

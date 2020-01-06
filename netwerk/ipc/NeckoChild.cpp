@@ -1177,7 +1177,7 @@ target
 ;
 if
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

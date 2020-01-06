@@ -1158,7 +1158,7 @@ a
 window
 here
 .
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

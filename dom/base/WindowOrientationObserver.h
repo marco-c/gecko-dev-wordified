@@ -130,7 +130,7 @@ HalScreenConfiguration
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -156,7 +156,7 @@ public
 explicit
 WindowOrientationObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )
@@ -200,7 +200,7 @@ owned
 by
 mWindow
 .
-nsGlobalWindow
+nsGlobalWindowInner
 *
 MOZ_NON_OWNING_REF
 mWindow
