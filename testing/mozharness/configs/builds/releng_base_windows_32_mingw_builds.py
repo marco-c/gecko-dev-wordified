@@ -1077,18 +1077,18 @@ minidumps
 }
     
 '
-src_mozconfig
+mozconfig_platform
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
 win32
-/
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 mingw32
 '
     

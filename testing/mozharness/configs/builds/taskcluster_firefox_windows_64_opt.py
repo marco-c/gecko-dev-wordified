@@ -738,22 +738,18 @@ build
 }
     
 '
-src_mozconfig
+mozconfig_platform
 '
 :
 '
-browser
-\
-\
-config
-\
-\
-mozconfigs
-\
-\
 win64
-\
-\
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 nightly
 '
     

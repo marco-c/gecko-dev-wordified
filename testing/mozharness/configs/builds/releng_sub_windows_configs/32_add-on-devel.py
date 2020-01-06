@@ -326,18 +326,10 @@ builds
 }
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
 add
 -
 on

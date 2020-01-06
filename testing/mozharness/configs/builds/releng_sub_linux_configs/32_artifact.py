@@ -1470,18 +1470,10 @@ specific
 ]
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
 artifact
 '
     

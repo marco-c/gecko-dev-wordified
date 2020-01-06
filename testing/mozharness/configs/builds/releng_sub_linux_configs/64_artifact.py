@@ -1083,19 +1083,30 @@ x86_64
     
 ]
     
+#
+This
+doesn
 '
-src_mozconfig
+t
+actually
+inherit
+from
+anything
+.
+    
+'
+mozconfig_platform
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
 linux64
-/
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 artifact
 '
     

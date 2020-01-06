@@ -792,22 +792,18 @@ build
 }
     
 '
-src_mozconfig
+mozconfig_platform
 '
 :
 '
-browser
-\
-\
-config
-\
-\
-mozconfigs
-\
-\
 win32
-\
-\
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 rusttests
 '
     
