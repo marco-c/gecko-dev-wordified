@@ -2791,13 +2791,6 @@ JS_DefinePropertyById
 aCx
 aTargetClassObject
 id
-JS
-:
-:
-UndefinedHandleValue
-AccessorAttributes
-(
-)
 JS_DATA_TO_FUNC_PTR
 (
 JSNative
@@ -2815,6 +2808,9 @@ set
 get
 (
 )
+)
+AccessorAttributes
+(
 )
 )
 )
