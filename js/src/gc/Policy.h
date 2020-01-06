@@ -309,6 +309,9 @@ class
 EnvironmentObject
 ;
 class
+RequestedModuleObject
+;
+class
 ScriptSourceObject
 ;
 class
@@ -591,6 +594,15 @@ js
 :
 :
 RegExpShared
+*
+)
+\
+D
+(
+js
+:
+:
+RequestedModuleObject
 *
 )
 \
