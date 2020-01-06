@@ -14823,6 +14823,21 @@ logging
 .
 ERROR
                     
+#
+e
+.
+message
+is
+not
+always
+a
+string
+so
+convert
+it
+first
+.
+                    
 self
 .
 log
@@ -14833,9 +14848,12 @@ artifact
 '
 {
 }
+str
+(
 e
 .
 message
+)
 )
                     
 if
