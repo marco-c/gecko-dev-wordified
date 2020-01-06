@@ -27583,6 +27583,10 @@ computed_value
 :
 :
 T
+device
+:
+&
+Device
 )
 {
 use
@@ -27641,6 +27645,7 @@ self
 gecko
 .
 mCounterStyle
+device
 )
 T
 :
@@ -36393,6 +36398,10 @@ computed_value
 :
 :
 T
+device
+:
+&
+Device
 )
 {
 use
@@ -36580,6 +36589,10 @@ str
 style
 :
 CounterStyleOrNone
+device
+:
+&
+Device
 )
 {
 debug_assert
@@ -36654,6 +36667,7 @@ mut
 counter_func
 .
 mCounterStyle
+device
 )
 ;
 }
@@ -37158,6 +37172,7 @@ name
 "
 "
 style
+device
 )
 ;
 }
@@ -37191,6 +37206,7 @@ name
 &
 sep
 style
+device
 )
 ;
 }
