@@ -3618,7 +3618,7 @@ user
 *
 /
 bool
-IsVisBreak
+IsVisibleBRElement
 (
 nsINode
 *

@@ -2404,7 +2404,7 @@ mEndReasonNode
 &
 &
 !
-IsVisBreak
+IsVisibleBRElement
 (
 wsObj
 .
@@ -4149,7 +4149,7 @@ state
 if
 (
 !
-IsVisBreak
+IsVisibleBRElement
 (
 wsRunObj
 .

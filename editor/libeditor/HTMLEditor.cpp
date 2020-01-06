@@ -5253,7 +5253,7 @@ bool
 HTMLEditor
 :
 :
-IsVisBreak
+IsVisibleBRElement
 (
 nsINode
 *
