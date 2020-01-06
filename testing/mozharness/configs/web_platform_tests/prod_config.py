@@ -378,4 +378,14 @@ download_tooltool
 "
 :
 True
+    
+"
+verify_category
+"
+:
+"
+web
+-
+platform
+"
 }
