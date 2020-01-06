@@ -1,18 +1,14 @@
+#
+META
+:
+timeout
+=
+long
 import
 pytest
 from
-support
+tests
 .
-inline
-import
-inline
-from
-support
-.
-fixtures
-import
-create_dialog
-from
 support
 .
 asserts
@@ -20,6 +16,22 @@ import
 assert_error
 assert_dialog_handled
 assert_success
+from
+tests
+.
+support
+.
+fixtures
+import
+create_dialog
+from
+tests
+.
+support
+.
+inline
+import
+inline
 alert_doc
 =
 inline
@@ -333,29 +345,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -409,29 +415,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -485,29 +485,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -720,29 +714,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -795,29 +783,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -870,29 +852,23 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
                                        
 "
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 }
 )
     
@@ -1328,7 +1304,7 @@ from
 to
 2
 ^
-64
+31
 -
     
 1
@@ -1356,10 +1332,14 @@ Number
 from
 -
 (
-263
+2
+^
+31
 )
 to
-263
+2
+^
+31
 -
 1
     
@@ -1466,7 +1446,7 @@ from
 to
 2
 ^
-64
+31
 -
     
 1
@@ -1494,10 +1474,14 @@ Number
 from
 -
 (
-263
+2
+^
+31
 )
 to
-263
+2
+^
+31
 -
 1
     
@@ -1558,7 +1542,7 @@ from
 to
 2
 ^
-64
+31
 -
     
 1
@@ -1585,14 +1569,14 @@ session
 width
 "
 :
-200
+500
 .
 5
 "
 height
 "
 :
-400
+420
 }
 )
     
@@ -1612,9 +1596,7 @@ width
 ]
 =
 =
-200
-.
-2
+500
     
 assert
 value
@@ -1625,7 +1607,7 @@ height
 ]
 =
 =
-400
+420
     
 response
 =
@@ -1637,7 +1619,7 @@ session
 width
 "
 :
-300
+500
 "
 height
 "
@@ -1664,7 +1646,7 @@ width
 ]
 =
 =
-300
+500
     
 assert
 value
@@ -1676,8 +1658,6 @@ height
 =
 =
 450
-.
-5
 def
 test_x_y_floats
 (
@@ -1704,10 +1684,14 @@ Number
 from
 -
 (
-263
+2
+^
+31
 )
 to
-263
+2
+^
+31
 -
 1
     
@@ -1734,14 +1718,14 @@ session
 x
 "
 :
-200
+0
 .
 5
 "
 y
 "
 :
-400
+420
 }
 )
     
@@ -1761,9 +1745,7 @@ x
 ]
 =
 =
-200
-.
-2
+0
     
 assert
 value
@@ -1774,7 +1756,7 @@ y
 ]
 =
 =
-400
+420
     
 response
 =
@@ -1786,7 +1768,7 @@ session
 x
 "
 :
-300
+100
 "
 y
 "
@@ -1813,7 +1795,7 @@ x
 ]
 =
 =
-300
+100
     
 assert
 value
@@ -1825,8 +1807,6 @@ y
 =
 =
 450
-.
-5
 pytest
 .
 mark
@@ -3017,29 +2997,23 @@ session
 width
 "
 :
-int
-(
 original
 [
 "
 width
 "
 ]
-)
                                          
 "
 height
 "
 :
-int
-(
 original
 [
 "
 height
 "
 ]
-)
 }
 )
     
@@ -3125,15 +3099,12 @@ session
 x
 "
 :
-int
-(
 original
 [
 "
 x
 "
 ]
-)
 +
 10
                                          
@@ -3141,15 +3112,12 @@ x
 y
 "
 :
-int
-(
 original
 [
 "
 y
 "
 ]
-)
 +
 10
 }
@@ -3534,22 +3502,7 @@ window
 .
 position
 =
-(
-int
-(
 original_position
-[
-0
-]
-)
-int
-(
-original_position
-[
-1
-]
-)
-)
     
 assert
 position
@@ -3583,10 +3536,7 @@ window
 position
 =
 (
-int
-(
 original_x
-)
 345
 )
     
@@ -3626,10 +3576,7 @@ position
 =
 (
 456
-int
-(
 original_y
-)
 )
     
 assert
@@ -3663,22 +3610,7 @@ window
 .
 size
 =
-(
-int
-(
 original_size
-[
-0
-]
-)
-int
-(
-original_size
-[
-1
-]
-)
-)
     
 assert
 size
@@ -3712,10 +3644,7 @@ window
 size
 =
 (
-int
-(
 original_width
-)
 345
 )
     
@@ -3755,10 +3684,7 @@ size
 =
 (
 456
-int
-(
 original_height
-)
 )
     
 assert
@@ -3821,7 +3747,7 @@ value
 dict
 )
     
-rect
+value
 =
 response
 .
@@ -3837,85 +3763,73 @@ assert
 width
 "
 in
-rect
+value
     
 assert
 "
 height
 "
 in
-rect
+value
     
 assert
 "
 x
 "
 in
-rect
+value
     
 assert
 "
 y
 "
 in
-rect
+value
     
 assert
 isinstance
 (
-rect
+value
 [
 "
 width
 "
 ]
-(
 int
-float
-)
 )
     
 assert
 isinstance
 (
-rect
+value
 [
 "
 height
 "
 ]
-(
 int
-float
-)
 )
     
 assert
 isinstance
 (
-rect
+value
 [
 "
 x
 "
 ]
-(
 int
-float
-)
 )
     
 assert
 isinstance
 (
-rect
+value
 [
 "
 y
 "
 ]
-(
 int
-float
-)
 )
