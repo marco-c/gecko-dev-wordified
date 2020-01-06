@@ -1056,6 +1056,10 @@ parser
 ;
 pub
 mod
+rule_cache
+;
+pub
+mod
 rule_tree
 ;
 pub

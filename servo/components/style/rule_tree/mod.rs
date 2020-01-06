@@ -6335,6 +6335,8 @@ node
 derive
 (
 Debug
+Eq
+Hash
 PartialEq
 )
 ]
