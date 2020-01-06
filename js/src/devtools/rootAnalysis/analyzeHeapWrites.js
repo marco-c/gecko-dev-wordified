@@ -312,6 +312,10 @@ __atomic_load_
 /
 /
 ^
+__atomic_store_
+/
+/
+^
 __atomic_thread_fence
 /
 ]
@@ -3484,13 +3488,6 @@ inspected
 .
 "
 Gecko_NewNoneTransform
-"
-/
-/
-Bug
-1368922
-"
-Gecko_UnsetDirtyStyleAttr
 "
 /
 /
