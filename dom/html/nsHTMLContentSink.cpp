@@ -5674,7 +5674,7 @@ aType
 FlushType
 :
 :
-EnsurePresShellInitAndFrames
+InterruptibleLayout
 )
 {
 /
