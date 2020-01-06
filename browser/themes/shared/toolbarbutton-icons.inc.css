@@ -2735,7 +2735,7 @@ transform
 translateX
 (
 -
-1260px
+1242px
 )
 ;
 fill
@@ -2788,7 +2788,7 @@ scaleX
 translateX
 (
 -
-1260px
+1242px
 )
 ;
 fill
@@ -3131,16 +3131,14 @@ function
 :
 steps
 (
-70
+69
 )
 ;
 animation
 -
 duration
 :
-1
-.
-1s
+1104ms
 ;
 background
 -
@@ -3167,7 +3165,7 @@ svg
 ;
 width
 :
-1278px
+1260px
 ;
 }
 #
