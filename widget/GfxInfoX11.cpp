@@ -218,7 +218,8 @@ process
 int
 glxtest_pipe
 =
-0
+-
+1
 ;
 pid_t
 glxtest_pid
@@ -332,7 +333,8 @@ if
 glxtest_pipe
 =
 =
-0
+-
+1
 that
 means
 that
@@ -343,8 +345,11 @@ the
 information
 if
 (
-!
 glxtest_pipe
+=
+=
+-
+1
 )
 return
 ;
@@ -392,7 +397,8 @@ glxtest_pipe
 ;
 glxtest_pipe
 =
-0
+-
+1
 ;
 /
 /
