@@ -5675,6 +5675,16 @@ afterModify
 )
 ;
 }
+else
+{
+this
+.
+errorCheck
+(
+channel
+)
+;
+}
 }
 catch
 (
