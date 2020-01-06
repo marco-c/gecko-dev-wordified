@@ -2202,6 +2202,7 @@ function
 onRow
 (
 row
+cancel
 )
 {
 i
@@ -2216,8 +2217,9 @@ i
 5
 )
 {
-throw
-StopIteration
+cancel
+(
+)
 ;
 }
 }

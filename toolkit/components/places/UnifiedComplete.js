@@ -12372,6 +12372,7 @@ true
 _onResultRow
 (
 row
+cancel
 )
 {
 if
@@ -12540,8 +12541,9 @@ maxRichResults
 "
 )
 )
-throw
-StopIteration
+cancel
+(
+)
 ;
 }
 _maybeRestyleSearchMatch
