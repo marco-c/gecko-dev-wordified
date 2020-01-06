@@ -3052,7 +3052,13 @@ avgSq
 return
 sqrt
 (
+static_cast
+<
+double
+>
+(
 variance
+)
 )
 ;
 }
