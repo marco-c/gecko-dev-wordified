@@ -332,7 +332,7 @@ from_repo_url
 "
 :
 "
-ssh
+https
 :
 /
 /
@@ -354,7 +354,7 @@ to_repo_url
 "
 :
 "
-ssh
+https
 :
 /
 /
