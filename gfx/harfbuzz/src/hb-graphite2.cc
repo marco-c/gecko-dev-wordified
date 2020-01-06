@@ -2325,6 +2325,8 @@ gr_seg_advance_X
 (
 seg
 )
+*
+xscale
 ;
 for
 (

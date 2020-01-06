@@ -2291,6 +2291,7 @@ differences
 .
 *
 /
+HB_EXTERN
 hb_buffer_diff_flags_t
 hb_buffer_diff
 (

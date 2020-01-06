@@ -1147,6 +1147,12 @@ setup_masks
 *
 /
 disable_otl_hebrew
+NULL
+/
+*
+reorder_marks
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true
 /

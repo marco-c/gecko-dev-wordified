@@ -677,6 +677,14 @@ USE_SMBlw
 SYM_MOD_BELOW
 *
 /
+USE_CS
+=
+43
+/
+*
+CONS_WITH_STACKER
+*
+/
 }
 ;
 HB_INTERNAL

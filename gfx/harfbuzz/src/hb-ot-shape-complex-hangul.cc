@@ -2998,6 +2998,12 @@ NULL
 disable_otl
 *
 /
+NULL
+/
+*
+reorder_marks
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 /
