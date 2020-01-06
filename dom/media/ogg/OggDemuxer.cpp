@@ -4518,12 +4518,7 @@ mVorbisState
 newVorbisState
 )
 ;
-LOG
-(
-LogLevel
-:
-:
-Debug
+OGG_DEBUG
 (
 "
 New
@@ -4541,7 +4536,6 @@ mVorbisState
 -
 >
 mSerial
-)
 )
 ;
 if
@@ -4788,12 +4782,7 @@ mFlacState
 newFlacState
 )
 ;
-LOG
-(
-LogLevel
-:
-:
-Debug
+OGG_DEBUG
 (
 "
 New
@@ -4811,7 +4800,6 @@ mFlacState
 -
 >
 mSerial
-)
 )
 ;
 if
@@ -7871,12 +7859,7 @@ tell
 )
 ;
 }
-LOG
-(
-LogLevel
-:
-:
-Debug
+OGG_DEBUG
 (
 "
 Seeking
@@ -7898,7 +7881,6 @@ keyframe
 mKeyPoint
 .
 mOffset
-)
 )
 ;
 nsresult
@@ -8045,12 +8027,7 @@ skippedBytes
 0
 )
 {
-LOG
-(
-LogLevel
-:
-:
-Debug
+OGG_DEBUG
 (
 "
 Indexed
@@ -8071,7 +8048,6 @@ error
 after
 seek
 "
-)
 )
 ;
 return
