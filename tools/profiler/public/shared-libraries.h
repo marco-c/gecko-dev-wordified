@@ -792,6 +792,12 @@ GetInfoForSelf
 (
 )
 ;
+static
+void
+Initialize
+(
+)
+;
 SharedLibraryInfo
 (
 )
