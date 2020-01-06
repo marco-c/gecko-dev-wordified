@@ -1227,10 +1227,6 @@ mIMEHasFocus
 (
 false
 )
-mIsFullyOccluded
-(
-false
-)
 #
 if
 defined
