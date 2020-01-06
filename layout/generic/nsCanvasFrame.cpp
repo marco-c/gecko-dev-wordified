@@ -3602,13 +3602,6 @@ blendClip
 aBuilder
 )
 ;
-blendClip
-.
-ClearUpToASR
-(
-thisItemASR
-)
-;
 thisItemList
 .
 AppendNewToTop
@@ -3676,13 +3669,6 @@ AutoSaveRestore
 blendContainerClip
 (
 aBuilder
-)
-;
-blendContainerClip
-.
-ClearUpToASR
-(
-containerASR
 )
 ;
 aLists
