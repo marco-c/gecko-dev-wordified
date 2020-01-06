@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RecursiveMutex
 .
 h
 "
@@ -374,9 +374,9 @@ Enter
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Enter
+Lock
 (
 )
 ;
@@ -386,9 +386,9 @@ Exit
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Exit
+Unlock
 (
 )
 ;
@@ -890,7 +890,7 @@ mHTTPS
 We
 are
 using
-ReentrantMonitor
+RecursiveMutex
 instead
 of
 a
@@ -909,8 +909,8 @@ while
 under
 lock
 .
-ReentrantMonitor
-mReentrantMonitor
+RecursiveMutex
+mRecursiveMutex
 ;
 /
 /
