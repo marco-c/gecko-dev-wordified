@@ -2122,6 +2122,7 @@ ScanForXInputDevices
 bool
 HaveXInputGamepad
 (
+unsigned
 int
 userIndex
 )
@@ -2458,6 +2459,7 @@ WindowsGamepadService
 :
 HaveXInputGamepad
 (
+unsigned
 int
 userIndex
 )
@@ -2575,6 +2577,7 @@ found
 }
 for
 (
+unsigned
 int
 i
 =
