@@ -3818,8 +3818,7 @@ the
 maximum
 time
 to
-spend
-signing
+run
 in
 seconds
         
@@ -3964,8 +3963,7 @@ the
 maximum
 time
 to
-spend
-signing
+run
 in
 seconds
         
@@ -4134,8 +4132,7 @@ the
 maximum
 time
 to
-spend
-signing
+run
 in
 seconds
         
