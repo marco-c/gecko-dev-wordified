@@ -235,7 +235,7 @@ join
 (
 tests_dir
 "
-lint
+wpt
 "
 )
     
@@ -245,6 +245,9 @@ ProcessHandler
 (
 [
 path
+"
+lint
+"
 "
 -
 -
