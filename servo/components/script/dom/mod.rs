@@ -3194,6 +3194,10 @@ pagetransitionevent
 ;
 pub
 mod
+paintworkletglobalscope
+;
+pub
+mod
 performance
 ;
 pub
