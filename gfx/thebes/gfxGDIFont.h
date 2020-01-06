@@ -197,16 +197,6 @@ return
 mFontFace
 ;
 }
-cairo_scaled_font_t
-*
-CairoScaledFont
-(
-)
-{
-return
-mScaledFont
-;
-}
 /
 *
 overrides

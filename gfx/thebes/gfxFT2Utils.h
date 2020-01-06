@@ -325,7 +325,7 @@ cairo_ft_scaled_font_lock_face
 aFont
 -
 >
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 )
@@ -347,7 +347,7 @@ cairo_ft_scaled_font_unlock_face
 mGfxFont
 -
 >
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 )

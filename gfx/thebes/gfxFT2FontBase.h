@@ -251,17 +251,6 @@ aGID
 )
 override
 ;
-cairo_scaled_font_t
-*
-CairoScaledFont
-(
-)
-{
-return
-mScaledFont
-;
-}
-;
 virtual
 bool
 SetupCairoFont
