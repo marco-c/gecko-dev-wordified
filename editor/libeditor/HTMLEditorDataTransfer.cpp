@@ -395,13 +395,6 @@ h
 #
 include
 "
-nsIDOMHTMLLinkElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLScriptElement
 .
 h
