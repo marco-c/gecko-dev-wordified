@@ -39213,8 +39213,9 @@ _lastLocation
 =
 locationObj
 ;
-let
-uri
+this
+.
+_uri
 =
 aBrowser
 .
@@ -39222,7 +39223,9 @@ currentURI
 ;
 try
 {
-uri
+this
+.
+_uri
 =
 Services
 .
@@ -39230,7 +39233,9 @@ uriFixup
 .
 createExposableURI
 (
-uri
+this
+.
+_uri
 )
 ;
 }
@@ -39248,7 +39253,9 @@ this
 getIdentityMode
 (
 aState
-uri
+this
+.
+_uri
 )
 ;
 let
