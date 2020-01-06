@@ -152,6 +152,18 @@ populate_registry
 reg
 )
     
+dest_dir
+=
+mozpath
+.
+join
+(
+buildconfig
+.
+topobjdir
+dest_dir
+)
+    
 for
 dest_file
 src
