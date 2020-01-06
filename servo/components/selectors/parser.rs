@@ -10447,6 +10447,12 @@ namespace
 let
 local_name
 ;
+input
+.
+skip_whitespace
+(
+)
+;
 match
 parse_qualified_name
 (
