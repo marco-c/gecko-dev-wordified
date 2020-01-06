@@ -2573,7 +2573,7 @@ clearHistory
 ;
 deferEnsureResults
 =
-Promise
+PromiseUtils
 .
 defer
 (
