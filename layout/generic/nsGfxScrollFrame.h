@@ -445,6 +445,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -456,6 +460,10 @@ AppendScrollPartsTo
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aDirtyRect
 const
 nsDisplayListSet
 &
@@ -4283,6 +4291,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -4294,6 +4306,7 @@ mHelper
 BuildDisplayList
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;
@@ -6629,6 +6642,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -6640,6 +6657,7 @@ mHelper
 BuildDisplayList
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;

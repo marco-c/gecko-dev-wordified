@@ -2456,6 +2456,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -2470,6 +2474,7 @@ aLists
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;
@@ -2483,6 +2488,10 @@ BuildDisplayListForNonBlockChildren
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aDirtyRect
 const
 nsDisplayListSet
 &
@@ -2543,6 +2552,7 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
+aDirtyRect
 set
 aFlags
 )
@@ -8631,6 +8641,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -8666,6 +8680,7 @@ BuildDisplayListForChild
 (
 aBuilder
 frame
+aDirtyRect
 aLists
 )
 ;

@@ -257,6 +257,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -301,6 +305,7 @@ nsGridRowLeafFrame
 BuildDisplayListForChildren
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;

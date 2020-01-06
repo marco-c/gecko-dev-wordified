@@ -47015,6 +47015,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -47036,6 +47040,7 @@ GetPrevInFlow
 DisplayOverflowContainers
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;
@@ -47141,6 +47146,7 @@ BuildDisplayListForChild
 (
 aBuilder
 child
+aDirtyRect
 aLists
 :
 :

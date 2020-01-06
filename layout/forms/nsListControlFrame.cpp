@@ -1267,6 +1267,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -1460,6 +1464,7 @@ nsHTMLScrollFrame
 BuildDisplayList
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;

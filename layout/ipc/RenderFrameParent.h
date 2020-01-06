@@ -417,6 +417,10 @@ nsSubDocumentFrame
 *
 aFrame
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists

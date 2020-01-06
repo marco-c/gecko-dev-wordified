@@ -3600,6 +3600,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -3612,6 +3616,7 @@ DisplayGenericTablePart
 (
 aBuilder
 this
+aDirtyRect
 aLists
 )
 ;

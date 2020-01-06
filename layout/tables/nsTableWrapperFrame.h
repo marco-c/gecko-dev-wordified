@@ -385,6 +385,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -397,6 +401,10 @@ BuildDisplayListForInnerTable
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aDirtyRect
 const
 nsDisplayListSet
 &
