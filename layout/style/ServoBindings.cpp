@@ -6955,8 +6955,8 @@ Gecko_SetImageOrientation
 nsStyleVisibility
 *
 aVisibility
-uint8_t
-aOrientation
+double
+aRadians
 bool
 aFlip
 )
@@ -6969,9 +6969,9 @@ mImageOrientation
 nsStyleImageOrientation
 :
 :
-CreateAsOrientationAndFlip
+CreateAsAngleAndFlip
 (
-aOrientation
+aRadians
 aFlip
 )
 ;
