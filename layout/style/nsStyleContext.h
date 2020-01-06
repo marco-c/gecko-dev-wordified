@@ -208,6 +208,7 @@ C
 void
 Servo_StyleContext_AddRef
 (
+const
 mozilla
 :
 :
@@ -219,6 +220,7 @@ aContext
 void
 Servo_StyleContext_Release
 (
+const
 mozilla
 :
 :
