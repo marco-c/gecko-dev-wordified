@@ -1128,6 +1128,14 @@ dmd
 -
 opt
 '
+    
+'
+win32
+-
+mingw32
+-
+debug
+'
 ]
 )
 JOB_NAME_WHITELIST_ERROR
