@@ -870,6 +870,8 @@ initialized
 void
 *
 h
+;
+h
 =
 pthread_getspecific
 (
@@ -882,7 +884,8 @@ static_cast
 T
 >
 (
-(
+reinterpret_cast
+<
 typename
 Helper
 <
@@ -891,8 +894,10 @@ T
 :
 :
 Type
-)
+>
+(
 h
+)
 )
 ;
 #
@@ -938,10 +943,11 @@ void
 *
 h
 =
-(
+reinterpret_cast
+<
 void
 *
-)
+>
 (
 static_cast
 <
@@ -971,11 +977,8 @@ h
 ;
 if
 (
-MOZ_UNLIKELY
-(
 !
 succeeded
-)
 )
 {
 MOZ_CRASH

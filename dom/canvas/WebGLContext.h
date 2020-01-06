@@ -10643,15 +10643,7 @@ MakeContextCurrent
 (
 )
 const
-{
-}
-/
-/
-MakeCurrent
-is
-implicit
-now
-.
+;
 /
 /
 helpers
