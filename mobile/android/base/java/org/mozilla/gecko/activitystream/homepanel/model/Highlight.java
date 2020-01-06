@@ -215,8 +215,7 @@ public
 class
 Highlight
 implements
-WebpageModel
-RowModel
+WebpageRowModel
 {
 /
 *
@@ -1564,6 +1563,7 @@ isPinned
 pinned
 ;
 }
+Override
 public
 Utils
 .
@@ -1576,9 +1576,10 @@ return
 source
 ;
 }
+Override
 public
 long
-getHistoryId
+getUniqueId
 (
 )
 {

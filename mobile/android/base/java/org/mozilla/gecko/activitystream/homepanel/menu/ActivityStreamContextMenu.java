@@ -330,6 +330,7 @@ MenuMode
 {
 HIGHLIGHT
 TOPSITE
+TOPSTORY
 }
 private
 final

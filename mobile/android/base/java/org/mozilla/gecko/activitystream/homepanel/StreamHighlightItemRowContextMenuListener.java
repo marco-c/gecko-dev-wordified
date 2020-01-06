@@ -89,7 +89,7 @@ homepanel
 .
 stream
 .
-HighlightItemRow
+WebpageItemRow
 ;
 /
 *
@@ -147,7 +147,7 @@ StreamHighlightItemRowContextMenuListener
 void
 openContextMenu
 (
-HighlightItemRow
+WebpageItemRow
 highlightItem
 int
 position
