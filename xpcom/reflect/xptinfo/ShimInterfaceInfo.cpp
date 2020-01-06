@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIBrowserBoxObject
-.
-h
-"
-#
-include
-"
 nsIContainerBoxObject
 .
 h
@@ -2852,11 +2845,6 @@ Attr
 DEFINE_SHIM
 (
 BeforeUnloadEvent
-)
-DEFINE_SHIM_WITH_CUSTOM_INTERFACE
-(
-nsIBrowserBoxObject
-ContainerBoxObject
 )
 DEFINE_SHIM
 (
