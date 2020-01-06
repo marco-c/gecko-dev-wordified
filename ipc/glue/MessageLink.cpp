@@ -980,6 +980,15 @@ large
 )
 ;
 }
+if
+(
+!
+mChan
+-
+>
+mIsPostponingSends
+)
+{
 mChan
 -
 >
@@ -987,6 +996,7 @@ AssertWorkerThread
 (
 )
 ;
+}
 mChan
 -
 >
@@ -1355,6 +1365,15 @@ Message
 msg
 )
 {
+if
+(
+!
+mChan
+-
+>
+mIsPostponingSends
+)
+{
 mChan
 -
 >
@@ -1362,6 +1381,7 @@ AssertWorkerThread
 (
 )
 ;
+}
 mChan
 -
 >

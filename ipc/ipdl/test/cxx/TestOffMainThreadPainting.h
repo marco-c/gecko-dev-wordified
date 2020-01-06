@@ -453,8 +453,12 @@ PTestPaintThreadChild
 {
 public
 :
+explicit
 TestPaintThreadChild
 (
+MessageChannel
+*
+aOtherChannel
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -513,6 +517,10 @@ override
 ;
 bool
 mCanSend
+;
+MessageChannel
+*
+mMainChannel
 ;
 }
 ;
