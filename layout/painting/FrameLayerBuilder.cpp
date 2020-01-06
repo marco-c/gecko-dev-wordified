@@ -39577,6 +39577,9 @@ aRect
 gfxContext
 *
 aContext
+gfxContext
+*
+aRC
 nsDisplayListBuilder
 *
 aBuilder
@@ -39600,7 +39603,7 @@ DrawTarget
 aDrawTarget
 =
 *
-aContext
+aRC
 -
 >
 GetDrawTarget
@@ -39988,7 +39991,7 @@ cdi
 >
 mItem
 aContext
-aContext
+aRC
 )
 ;
 aDrawTarget
@@ -40072,7 +40075,7 @@ mItem
 Paint
 (
 aBuilder
-aContext
+aRC
 )
 ;
 }
@@ -41212,6 +41215,7 @@ entry
 mItems
 iterRect
 aContext
+aContext
 builder
 presContext
 offset
@@ -41358,6 +41362,7 @@ aRegionToDraw
 GetBounds
 (
 )
+aContext
 aContext
 builder
 presContext

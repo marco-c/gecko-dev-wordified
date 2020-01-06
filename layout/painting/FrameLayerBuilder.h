@@ -4202,6 +4202,9 @@ aRect
 gfxContext
 *
 aContext
+gfxContext
+*
+aRC
 nsDisplayListBuilder
 *
 aBuilder
