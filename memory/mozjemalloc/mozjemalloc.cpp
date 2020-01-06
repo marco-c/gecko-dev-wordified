@@ -2001,15 +2001,6 @@ linkedlist
 .
 h
 "
-extern
-"
-C
-"
-void
-moz_abort
-(
-)
-;
 /
 *
 Some
@@ -9139,7 +9130,7 @@ pages_size
 MEM_DECOMMIT
 )
 )
-moz_abort
+MOZ_CRASH
 (
 )
 ;
@@ -9197,7 +9188,7 @@ MAP_ANON
 =
 MAP_FAILED
 )
-moz_abort
+MOZ_CRASH
 (
 )
 ;
@@ -9325,7 +9316,7 @@ MEM_COMMIT
 PAGE_READWRITE
 )
 )
-moz_abort
+MOZ_CRASH
 (
 )
 ;
@@ -9385,7 +9376,7 @@ MAP_ANON
 =
 MAP_FAILED
 )
-moz_abort
+MOZ_CRASH
 (
 )
 ;
@@ -28147,7 +28138,7 @@ n
 "
 )
 ;
-moz_abort
+MOZ_CRASH
 (
 )
 ;
@@ -32587,7 +32578,7 @@ malloc_init_hard
 (
 )
 )
-moz_abort
+MOZ_CRASH
 (
 )
 ;
