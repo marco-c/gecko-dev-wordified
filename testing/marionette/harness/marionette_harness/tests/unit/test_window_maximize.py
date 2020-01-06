@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-marionette_driver
-.
-errors
-import
-InvalidArgumentException
-from
 marionette_harness
 import
 MarionetteTestCase
