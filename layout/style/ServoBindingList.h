@@ -1951,6 +1951,15 @@ uint64_t
 ServoComputedValuesBorrowed
 values
 )
+SERVO_BINDING_FUNC
+(
+Servo_ComputedValues_EqualCustomProperties
+bool
+ServoComputedValuesBorrowed
+first
+ServoComputedValuesBorrowed
+second
+)
 /
 /
 Gets
