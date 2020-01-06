@@ -840,7 +840,8 @@ case
 totalTime
 "
 :
-const
+request
+.
 endedMillis
 =
 request
@@ -856,6 +857,8 @@ Math
 max
 (
 lastEndedMillis
+request
+.
 endedMillis
 )
 ;
