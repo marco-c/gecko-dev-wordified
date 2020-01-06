@@ -16896,6 +16896,7 @@ webconsole
 .
 persistlog
 "
+false
 )
 )
 {
