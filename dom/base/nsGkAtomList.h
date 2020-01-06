@@ -5507,13 +5507,6 @@ errormessage
 )
 GK_ATOM
 (
-msthemecompatible
-"
-msthemecompatible
-"
-)
-GK_ATOM
-(
 multicol
 "
 multicol

@@ -5099,10 +5099,6 @@ mPaintingSuppressed
 (
 false
 )
-mIsThemeSupportDisabled
-(
-false
-)
 mIsActive
 (
 false
@@ -5376,10 +5372,6 @@ nsISelectionDisplay
 :
 :
 DISPLAY_IMAGES
-;
-mIsThemeSupportDisabled
-=
-false
 ;
 mIsActive
 =
