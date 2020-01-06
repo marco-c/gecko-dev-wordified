@@ -848,9 +848,6 @@ stringNames
 searchHeader
 "
 "
-searchPlaceholder
-"
-"
 searchForSomethingWith
 "
 "
