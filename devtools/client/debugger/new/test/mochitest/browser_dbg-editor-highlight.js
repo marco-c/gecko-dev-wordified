@@ -92,7 +92,7 @@ const
 selectors
 :
 {
-getSourceText
+getSource
 }
 getState
 }
@@ -400,7 +400,7 @@ js
 ;
 ok
 (
-getSourceText
+getSource
 (
 getState
 (
@@ -429,7 +429,7 @@ LOAD_SOURCE_TEXT
 ;
 ok
 (
-getSourceText
+getSource
 (
 getState
 (

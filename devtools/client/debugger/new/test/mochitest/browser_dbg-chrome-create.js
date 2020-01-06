@@ -199,7 +199,6 @@ gProcess
 _dbgProcess
 .
 exitCode
-(
 Services
 .
 appinfo
@@ -216,7 +215,6 @@ WINNT
 :
 -
 15
-)
 "
 The
 remote
