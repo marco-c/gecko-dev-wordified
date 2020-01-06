@@ -522,6 +522,7 @@ derive
 (
 PartialEq
 Eq
+Hash
 Clone
 Debug
 )
@@ -1051,6 +1052,7 @@ derive
 (
 Eq
 PartialEq
+Hash
 Clone
 Debug
 )
