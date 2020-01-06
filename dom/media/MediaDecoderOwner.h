@@ -938,7 +938,7 @@ void
 NotifySuspendedByCache
 (
 bool
-aIsSuspended
+aSuspendedByCache
 )
 =
 0

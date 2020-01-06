@@ -1331,7 +1331,7 @@ void
 NotifySuspendedByCache
 (
 bool
-aIsSuspended
+aSuspendedByCache
 )
 final
 override
