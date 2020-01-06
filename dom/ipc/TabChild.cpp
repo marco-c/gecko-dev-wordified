@@ -5247,9 +5247,8 @@ TabChild
 :
 GetTitle
 (
-char16_t
-*
-*
+nsAString
+&
 aTitle
 )
 {
@@ -5278,8 +5277,8 @@ TabChild
 SetTitle
 (
 const
-char16_t
-*
+nsAString
+&
 aTitle
 )
 {

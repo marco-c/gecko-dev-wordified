@@ -2975,9 +2975,8 @@ nsChromeTreeOwner
 :
 GetTitle
 (
-char16_t
-*
-*
+nsAString
+&
 aTitle
 )
 {
@@ -3003,8 +3002,8 @@ nsChromeTreeOwner
 SetTitle
 (
 const
-char16_t
-*
+nsAString
+&
 aTitle
 )
 {

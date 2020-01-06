@@ -1607,9 +1607,8 @@ WebBrowserChrome2Stub
 :
 GetTitle
 (
-char16_t
-*
-*
+nsAString
+&
 aTitle
 )
 {
@@ -1624,8 +1623,8 @@ WebBrowserChrome2Stub
 SetTitle
 (
 const
-char16_t
-*
+nsAString
+&
 aTitle
 )
 {

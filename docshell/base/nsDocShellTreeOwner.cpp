@@ -3613,9 +3613,8 @@ nsDocShellTreeOwner
 :
 GetTitle
 (
-char16_t
-*
-*
+nsAString
+&
 aTitle
 )
 {
@@ -3655,8 +3654,8 @@ nsDocShellTreeOwner
 SetTitle
 (
 const
-char16_t
-*
+nsAString
+&
 aTitle
 )
 {

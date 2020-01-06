@@ -6539,10 +6539,7 @@ baseWindow
 >
 GetTitle
 (
-getter_Copies
-(
 title
-)
 )
 ;
 /

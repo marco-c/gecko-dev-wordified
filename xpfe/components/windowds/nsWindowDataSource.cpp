@@ -726,8 +726,8 @@ nsIXULWindow
 *
 window
 const
-char16_t
-*
+nsAString
+&
 newTitle
 )
 {
@@ -805,7 +805,14 @@ gRDFService
 >
 GetLiteral
 (
+PromiseFlatString
+(
 newTitle
+)
+.
+get
+(
+)
 getter_AddRefs
 (
 newTitleLiteral
