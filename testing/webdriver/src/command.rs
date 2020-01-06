@@ -3248,6 +3248,7 @@ design
 [
 derive
 (
+Debug
 PartialEq
 )
 ]

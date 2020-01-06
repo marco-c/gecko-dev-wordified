@@ -648,6 +648,7 @@ Capabilities
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -3515,6 +3516,7 @@ selected
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
