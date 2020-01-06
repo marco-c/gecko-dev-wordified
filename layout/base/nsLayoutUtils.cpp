@@ -60068,6 +60068,9 @@ content
 ;
 if
 (
+aRootLayer
+&
+&
 nsLayoutUtils
 :
 :
