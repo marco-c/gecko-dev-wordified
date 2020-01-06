@@ -473,7 +473,7 @@ is_ok
 NonZero
 :
 :
-new
+new_unchecked
 (
 js_object
 .

@@ -1944,7 +1944,7 @@ ptr
 NonZero
 :
 :
-new
+new_unchecked
 (
 ptr
 as

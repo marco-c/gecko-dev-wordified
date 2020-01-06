@@ -442,7 +442,7 @@ unsafe
 NonZero
 :
 :
-new
+new_unchecked
 (
 extension
 .

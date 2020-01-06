@@ -514,7 +514,7 @@ JSObject
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .

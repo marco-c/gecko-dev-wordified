@@ -812,7 +812,7 @@ unsafe
 NonZero
 :
 :
-new
+new_unchecked
 (
 &
 *
@@ -1218,7 +1218,7 @@ unsafe
 NonZero
 :
 :
-new
+new_unchecked
 (
 ptr
 as
@@ -1333,7 +1333,7 @@ ptr
 NonZero
 :
 :
-new
+new_unchecked
 (
 ptr
 as
@@ -1807,7 +1807,7 @@ ptr
 NonZero
 :
 :
-new
+new_unchecked
 (
 addr
 as
@@ -4471,7 +4471,7 @@ unsafe
 NonZero
 :
 :
-new
+new_unchecked
 (
 unrooted
 )

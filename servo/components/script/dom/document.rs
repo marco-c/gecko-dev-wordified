@@ -28069,7 +28069,7 @@ Some
 NonZero
 :
 :
-new
+new_unchecked
 (
 first
 .
@@ -28134,7 +28134,7 @@ Some
 NonZero
 :
 :
-new
+new_unchecked
 (
 collection
 .
