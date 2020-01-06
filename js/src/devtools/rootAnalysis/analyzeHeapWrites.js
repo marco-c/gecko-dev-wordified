@@ -269,6 +269,9 @@ floor
 "
 ceil
 "
+"
+atof
+"
 /
 memchr
 /
