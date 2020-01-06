@@ -6314,7 +6314,7 @@ mAttempting0RTT
 mSession
 -
 >
-FlushOutputQueue
+MaybeFlushOutputQueue
 (
 )
 ;
