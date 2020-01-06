@@ -56,6 +56,9 @@ to
 fail
 .
 #
+ifndef
+MOZ_PREPROCESSOR
+#
 include
 "
 FennecJNIWrappers
@@ -73,6 +76,8 @@ Accessors
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {

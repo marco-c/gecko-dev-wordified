@@ -62,6 +62,9 @@ FennecJNIWrappers_h
 define
 FennecJNIWrappers_h
 #
+ifndef
+MOZ_PREPROCESSOR
+#
 include
 "
 mozilla
@@ -72,6 +75,8 @@ Refs
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {

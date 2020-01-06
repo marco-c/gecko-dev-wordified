@@ -62,6 +62,9 @@ FennecJNINatives_h
 define
 FennecJNINatives_h
 #
+ifndef
+MOZ_PREPROCESSOR
+#
 include
 "
 FennecJNIWrappers
@@ -79,6 +82,8 @@ Natives
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
