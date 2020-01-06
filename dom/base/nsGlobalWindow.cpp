@@ -29099,6 +29099,10 @@ GetNames
 (
 aCx
 wrapper
+WebIDLGlobalNameHash
+:
+:
+AllNames
 aNames
 )
 ;
