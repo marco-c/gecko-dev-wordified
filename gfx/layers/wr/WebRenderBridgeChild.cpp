@@ -1123,6 +1123,7 @@ WebRenderBridgeChild
 :
 DeallocExternalImageId
 (
+const
 wr
 :
 :

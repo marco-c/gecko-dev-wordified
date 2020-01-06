@@ -589,6 +589,11 @@ override
 protected
 :
 void
+ClearImageKey
+(
+)
+;
+void
 CreateExternalImageIfNeeded
 (
 )
@@ -629,8 +634,8 @@ ImageContainer
 >
 mContainer
 ;
-uint32_t
-mGeneration
+bool
+mOwnsKey
 ;
 }
 ;

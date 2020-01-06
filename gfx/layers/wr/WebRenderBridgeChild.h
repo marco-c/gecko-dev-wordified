@@ -558,6 +558,7 @@ aCompositable
 void
 DeallocExternalImageId
 (
+const
 wr
 :
 :
