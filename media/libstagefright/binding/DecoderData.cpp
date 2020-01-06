@@ -156,6 +156,13 @@ ESDS
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 /
 /
 OpusDecoder

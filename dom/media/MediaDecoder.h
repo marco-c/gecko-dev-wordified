@@ -132,6 +132,13 @@ h
 #
 include
 "
+MediaContainerType
+.
+h
+"
+#
+include
+"
 MediaDecoderOwner
 .
 h

@@ -143,7 +143,7 @@ h
 #
 include
 "
-MediaResource
+BaseMediaResource
 .
 h
 "
