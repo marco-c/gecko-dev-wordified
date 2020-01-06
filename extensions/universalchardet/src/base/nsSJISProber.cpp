@@ -212,7 +212,7 @@ buffer
 "
 )
 ;
-nsSMState
+uint32_t
 codingState
 ;
 for
