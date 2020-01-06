@@ -237,6 +237,13 @@ mFontFace
 (
 nullptr
 )
+mFontSmoothingBackgroundColor
+(
+aFontStyle
+-
+>
+fontSmoothingBackgroundColor
+)
 mVariationFont
 (
 aFontEntry
@@ -3297,6 +3304,13 @@ GetUnscaledFont
 )
 GetAdjustedSize
 (
+)
+Color
+:
+:
+FromABGR
+(
+mFontSmoothingBackgroundColor
 )
 !
 mStyle

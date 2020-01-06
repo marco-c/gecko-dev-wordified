@@ -9619,6 +9619,10 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
+const
+Color
+&
+aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
 =
