@@ -4806,9 +4806,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 /
 debug
 '
@@ -4832,9 +4830,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 /
 opt
 '
