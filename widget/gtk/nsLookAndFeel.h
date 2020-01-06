@@ -232,6 +232,16 @@ GetEchoPasswordImpl
 (
 )
 ;
+bool
+IsCSDAvailable
+(
+)
+const
+{
+return
+sCSDAvailable
+;
+}
 protected
 :
 /
