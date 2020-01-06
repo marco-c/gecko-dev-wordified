@@ -863,10 +863,9 @@ duration_sec
 {
 if
 (
-!
 decision_points_
 .
-size
+empty
 (
 )
 )
