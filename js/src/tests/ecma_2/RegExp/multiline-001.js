@@ -154,8 +154,9 @@ BUGNUMBER
 343901
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 var

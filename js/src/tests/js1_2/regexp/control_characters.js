@@ -159,8 +159,9 @@ BUGNUMBER
 123802
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

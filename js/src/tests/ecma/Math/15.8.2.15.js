@@ -376,8 +376,9 @@ EXCLUDE
 true
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

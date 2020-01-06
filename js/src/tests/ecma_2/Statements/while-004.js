@@ -147,8 +147,9 @@ BUGNUMBER
 316725
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

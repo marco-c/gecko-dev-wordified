@@ -291,8 +291,9 @@ BUGNUMBER
 99232
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

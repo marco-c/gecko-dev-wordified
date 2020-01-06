@@ -290,8 +290,9 @@ BUGNUMBER
 339403
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

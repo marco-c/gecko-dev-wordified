@@ -255,8 +255,9 @@ BUGNUMBER
 124339
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 re_1

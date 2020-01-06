@@ -197,8 +197,9 @@ BUGNUMBER
 2157
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 AddRegExpCases

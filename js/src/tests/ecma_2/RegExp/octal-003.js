@@ -382,8 +382,9 @@ id
 346132
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 AddRegExpCases

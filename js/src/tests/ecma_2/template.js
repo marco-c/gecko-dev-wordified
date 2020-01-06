@@ -162,8 +162,9 @@ bugsplat
 or
 bugzilla
 report
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 /

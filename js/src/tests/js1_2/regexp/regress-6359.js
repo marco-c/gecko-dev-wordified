@@ -226,15 +226,11 @@ bugsplat
 or
 bugzilla
 report
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
-/
-/
-leave
-this
-alone
 /
 *
 *

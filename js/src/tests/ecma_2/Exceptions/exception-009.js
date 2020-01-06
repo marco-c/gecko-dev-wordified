@@ -185,8 +185,9 @@ BUGNUMBER
 312964
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

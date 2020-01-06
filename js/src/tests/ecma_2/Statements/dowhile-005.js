@@ -220,8 +220,9 @@ BUGNUMBER
 316293
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

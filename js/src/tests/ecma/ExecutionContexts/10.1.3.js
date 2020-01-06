@@ -160,8 +160,9 @@ BUGNUMBER
 20256
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

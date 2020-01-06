@@ -224,8 +224,9 @@ BUGNUMBER
 7635
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 function

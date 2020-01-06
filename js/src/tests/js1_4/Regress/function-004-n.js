@@ -171,8 +171,9 @@ BUGNUMBER
 310502
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

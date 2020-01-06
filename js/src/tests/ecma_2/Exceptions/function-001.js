@@ -300,8 +300,9 @@ BUGNUMBER
 10278
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

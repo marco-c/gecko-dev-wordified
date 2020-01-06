@@ -486,8 +486,9 @@ BUGNUMBER
 111202
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

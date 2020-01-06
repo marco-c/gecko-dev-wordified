@@ -150,8 +150,9 @@ BUGNUMBER
 77391
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

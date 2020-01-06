@@ -186,8 +186,9 @@ BUGNUMBER
 148822
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

@@ -161,8 +161,9 @@ BUGNUMBER
 196109
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

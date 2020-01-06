@@ -190,8 +190,9 @@ id
 346189
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 /

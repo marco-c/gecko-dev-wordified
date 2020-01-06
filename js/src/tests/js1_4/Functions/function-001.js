@@ -356,8 +356,9 @@ BUGNUMBER
 324455
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

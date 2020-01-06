@@ -172,8 +172,9 @@ BUGNUMBER
 76111
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

@@ -441,8 +441,9 @@ id
 345818
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 /
