@@ -150,6 +150,13 @@ h
 #
 include
 "
+gfxEnv
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
