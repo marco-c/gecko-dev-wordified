@@ -1849,6 +1849,9 @@ Dispatch
 MOZ_ASSERT
 (
 mListener
+|
+|
+mTabGroup
 )
 ;
 MOZ_ASSERT
