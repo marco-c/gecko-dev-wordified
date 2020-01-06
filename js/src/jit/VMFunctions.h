@@ -5177,12 +5177,9 @@ void
 *
 MallocWrapper
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 size_t
 nbytes
 )

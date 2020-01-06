@@ -6686,7 +6686,10 @@ auto
 *
 queue
 =
-js_new
+cx
+-
+>
+new_
 <
 PersistentRooted
 <

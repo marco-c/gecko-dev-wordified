@@ -1180,7 +1180,7 @@ Zone
 >
 atomsZone
 (
-js_new
+new_
 <
 Zone
 >
@@ -1220,7 +1220,7 @@ JSCompartment
 >
 atomsCompartment
 (
-js_new
+new_
 <
 JSCompartment
 >

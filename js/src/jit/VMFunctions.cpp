@@ -3507,12 +3507,9 @@ void
 *
 MallocWrapper
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 size_t
 nbytes
 )
@@ -3521,7 +3518,7 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
-zone
+rt
 -
 >
 pod_malloc
