@@ -703,6 +703,10 @@ ServoCSSRuleList
 *
 GetCssRulesInternal
 (
+bool
+aRequireUniqueInner
+=
+true
 )
 ;
 /
