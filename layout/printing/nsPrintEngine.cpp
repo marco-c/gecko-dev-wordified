@@ -343,13 +343,6 @@ nsIDOMHTMLObjectElement
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLEmbedElement
-.
-h
-"
 /
 /
 Print
