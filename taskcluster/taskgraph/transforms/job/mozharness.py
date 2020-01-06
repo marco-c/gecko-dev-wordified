@@ -1546,14 +1546,8 @@ tools
 -
 -
 '
-    
-]
-    
-command
-.
-append
-(
-"
+        
+'
 /
 home
 /
@@ -1567,11 +1561,11 @@ src
 /
 {
 }
-"
+'
 .
 format
 (
-        
+            
 run
 .
 get
@@ -1581,8 +1575,7 @@ job
 -
 script
 '
-                
-"
+'
 taskcluster
 /
 scripts
@@ -1594,11 +1587,12 @@ build
 linux
 .
 sh
-"
-                
+'
 )
+        
 )
-)
+    
+]
     
 worker
 [
