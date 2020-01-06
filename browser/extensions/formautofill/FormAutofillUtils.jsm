@@ -93,13 +93,13 @@ const
 ADDRESS_REFERENCES
 =
 "
-chrome
+resource
 :
 /
 /
 formautofill
 /
-content
+addressmetadata
 /
 addressReferences
 .
