@@ -19320,12 +19320,7 @@ nsGridContainerFrame
 :
 GetGridFrameWithComputedInfo
 (
-mContent
--
->
-GetPrimaryFrame
-(
-)
+mInnerFrame
 )
 ;
 if
@@ -19385,12 +19380,7 @@ nsGridContainerFrame
 :
 GetGridFrameWithComputedInfo
 (
-mContent
--
->
-GetPrimaryFrame
-(
-)
+mInnerFrame
 )
 ;
 if
