@@ -9299,9 +9299,6 @@ oldIndex
 ;
 }
 ;
-return
-aGuid
-;
 }
 }
 )

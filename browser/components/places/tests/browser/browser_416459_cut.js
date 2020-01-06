@@ -360,7 +360,6 @@ clipboard
 "
 )
 ;
-await
 ContentTree
 .
 view
