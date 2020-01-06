@@ -424,6 +424,9 @@ strndup
 #
 undef
 strdup
+#
+ifndef
+XP_DARWIN
 MOZ_MEMORY_API
 char
 *
@@ -506,6 +509,13 @@ len
 )
 ;
 }
+#
+endif
+/
+*
+XP_DARWIN
+*
+/
 #
 ifdef
 ANDROID
