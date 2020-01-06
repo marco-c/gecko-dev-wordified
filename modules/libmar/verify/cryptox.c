@@ -78,6 +78,13 @@ h
 >
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 cryptox
 .
@@ -369,7 +376,7 @@ VFY_CreateContext
 *
 publicKey
 NULL
-SEC_OID_ISO_SHA1_WITH_RSA_SIGNATURE
+SEC_OID_PKCS1_SHA384_WITH_RSA_ENCRYPTION
 NULL
 )
 ;
@@ -1084,8 +1091,8 @@ CryptAcquireContext
 (
 provider
 NULL
-MS_ENHANCED_PROV
-PROV_RSA_FULL
+MS_ENH_RSA_AES_PROV
+PROV_RSA_AES
 CRYPT_VERIFYCONTEXT
 )
 )
@@ -1097,8 +1104,8 @@ CryptAcquireContext
 (
 provider
 NULL
-MS_ENHANCED_PROV
-PROV_RSA_FULL
+MS_ENH_RSA_AES_PROV
+PROV_RSA_AES
 CRYPT_NEWKEYSET
 |
 CRYPT_VERIFYCONTEXT
@@ -1113,7 +1120,7 @@ CryptAcquireContext
 provider
 NULL
 NULL
-PROV_RSA_FULL
+PROV_RSA_AES
 CRYPT_VERIFYCONTEXT
 )
 )
@@ -1126,7 +1133,7 @@ CryptAcquireContext
 provider
 NULL
 NULL
-PROV_RSA_FULL
+PROV_RSA_AES
 CRYPT_NEWKEYSET
 |
 CRYPT_VERIFYCONTEXT
@@ -1231,7 +1238,7 @@ result
 CryptCreateHash
 (
 provider
-CALG_SHA1
+CALG_SHA_384
 0
 0
 hash
