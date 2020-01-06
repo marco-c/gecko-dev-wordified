@@ -69,6 +69,7 @@ shutdownPromise
 waitForEvent
 setE10sPrefs
 unsetE10sPrefs
+a11yConsumersChangedPromise
 *
 /
 /
