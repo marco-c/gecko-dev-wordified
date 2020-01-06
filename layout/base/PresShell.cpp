@@ -38822,6 +38822,16 @@ mIsActive
 return
 ;
 }
+if
+(
+gfxPrefs
+:
+:
+APZKeyboardEnabled
+(
+)
+)
+{
 /
 /
 Update
@@ -38879,6 +38889,7 @@ this
 mAPZFocusSequenceNumber
 )
 ;
+}
 nsPresContext
 *
 presContext
