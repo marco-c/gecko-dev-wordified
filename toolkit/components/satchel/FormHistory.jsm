@@ -6622,7 +6622,6 @@ index
 "
 SELECT
 value
-guid
 "
 +
 "
@@ -7002,18 +7001,6 @@ value
 )
 ;
 let
-guid
-=
-row
-.
-getResultByName
-(
-"
-guid
-"
-)
-;
-let
 frecency
 =
 row
@@ -7032,7 +7019,6 @@ entry
 text
 :
 value
-guid
 textLowerCase
 :
 value
