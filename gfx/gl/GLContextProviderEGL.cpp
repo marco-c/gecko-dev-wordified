@@ -1313,6 +1313,11 @@ flags
 caps
 nullptr
 isOffscreen
+sEGLLibrary
+.
+IsANGLE
+(
+)
 )
 mConfig
 (
