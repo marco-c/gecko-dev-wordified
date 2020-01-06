@@ -137,6 +137,14 @@ utilities
 *
 /
 /
+*
+eslint
+-
+env
+worker
+*
+/
+/
 /
 Boilerplate
 used
@@ -618,6 +626,12 @@ it
 is
 available
 automatically
+/
+*
+global
+OS
+*
+/
 Cu
 .
 import
