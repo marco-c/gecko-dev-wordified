@@ -709,13 +709,6 @@ h
 #
 include
 "
-nsIDOMHTMLAreaElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLLinkElement
 .
 h

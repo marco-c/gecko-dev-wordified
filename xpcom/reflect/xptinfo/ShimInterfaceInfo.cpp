@@ -373,13 +373,6 @@ h
 #
 include
 "
-nsIDOMHTMLAreaElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLBaseElement
 .
 h
@@ -2672,10 +2665,6 @@ PositionError
 DEFINE_SHIM
 (
 History
-)
-DEFINE_SHIM
-(
-HTMLAreaElement
 )
 DEFINE_SHIM
 (
