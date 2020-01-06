@@ -327,6 +327,9 @@ function
 setupStore
 (
 input
+=
+[
+]
 hud
 options
 )
