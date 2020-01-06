@@ -1489,9 +1489,17 @@ Register
 dest
 )
 {
+MOZ_ASSERT
+(
+src
+!
+=
+ScratchRegister
+)
+;
 as_daddu
 (
-dest
+ScratchRegister
 src
 src
 )
@@ -1499,7 +1507,7 @@ src
 as_daddu
 (
 dest
-dest
+ScratchRegister
 src
 )
 ;

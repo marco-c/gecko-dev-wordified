@@ -2138,9 +2138,17 @@ Register
 dest
 )
 {
+MOZ_ASSERT
+(
+src
+!
+=
+ScratchRegister
+)
+;
 as_addu
 (
-dest
+ScratchRegister
 src
 src
 )
@@ -2148,7 +2156,7 @@ src
 as_addu
 (
 dest
-dest
+ScratchRegister
 src
 )
 ;
