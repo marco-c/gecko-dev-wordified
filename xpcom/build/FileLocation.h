@@ -491,6 +491,16 @@ GetBaseFile
 (
 )
 ;
+nsZipArchive
+*
+GetBaseZip
+(
+)
+{
+return
+mBaseZip
+;
+}
 /
 *
 *
