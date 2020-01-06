@@ -414,11 +414,15 @@ env
 job_env
 =
 job
-[
+.
+setdefault
+(
 '
 worker
 '
-]
+{
+}
+)
 [
 '
 env
