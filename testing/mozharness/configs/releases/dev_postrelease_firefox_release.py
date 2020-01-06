@@ -218,6 +218,8 @@ ship_it_username
 "
 :
 "
+ship_it
+-
 stage
 -
 ffxbld
