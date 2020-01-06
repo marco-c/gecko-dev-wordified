@@ -6288,6 +6288,7 @@ HTMLOptionElement
 *
 aOption
 )
+const
 {
 MOZ_ASSERT
 (
@@ -8512,13 +8513,8 @@ NS_EVENT_STATE_MOZ_UI_VALID
 }
 if
 (
-HasAttr
+Required
 (
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-required
 )
 )
 {
@@ -9708,6 +9704,7 @@ HTMLSelectElement
 IsValueMissing
 (
 )
+const
 {
 if
 (

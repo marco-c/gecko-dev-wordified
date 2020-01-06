@@ -1839,6 +1839,7 @@ HTMLOptionElement
 *
 aOption
 )
+const
 ;
 /
 *
@@ -2881,6 +2882,7 @@ bool
 IsValueMissing
 (
 )
+const
 ;
 /
 *

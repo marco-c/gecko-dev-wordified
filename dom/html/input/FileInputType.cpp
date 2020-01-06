@@ -147,13 +147,8 @@ if
 mInputElement
 -
 >
-HasAttr
+IsRequired
 (
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-required
 )
 )
 {
