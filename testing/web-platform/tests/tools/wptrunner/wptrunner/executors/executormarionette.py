@@ -1064,6 +1064,9 @@ in
 handles
 :
             
+try
+:
+                
 self
 .
 marionette
@@ -1072,7 +1075,7 @@ switch_to_window
 (
 handle
 )
-            
+                
 self
 .
 marionette
@@ -1080,6 +1083,33 @@ marionette
 close
 (
 )
+            
+except
+errors
+.
+NoSuchWindowException
+:
+                
+#
+We
+might
+have
+raced
+with
+the
+previous
+test
+to
+close
+this
+                
+#
+window
+skip
+it
+.
+                
+pass
         
 self
 .
