@@ -4117,6 +4117,16 @@ if
 LoadingEnabled
 (
 )
+&
+&
+OwnerDoc
+(
+)
+-
+>
+ShouldLoadImages
+(
+)
 )
 {
 /
