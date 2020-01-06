@@ -235,6 +235,7 @@ syncFormHistory
 forms
 "
 )
+validateBookmarks
 uploadMetaGlobal
 completed
 ;

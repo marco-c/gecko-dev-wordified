@@ -612,6 +612,16 @@ return
 false
 ;
 }
+public
+boolean
+getFullFetchForced
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *

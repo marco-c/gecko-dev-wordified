@@ -241,6 +241,13 @@ error
 null
 ;
 public
+volatile
+ExtendedJSONObject
+validation
+=
+null
+;
+public
 TelemetryStageCollector
 (
 TelemetryCollector
