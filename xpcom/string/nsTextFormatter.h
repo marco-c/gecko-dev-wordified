@@ -313,13 +313,6 @@ float
 /
 #
 include
-"
-prio
-.
-h
-"
-#
-include
 <
 stdio
 .
