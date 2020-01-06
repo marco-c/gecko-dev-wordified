@@ -11817,6 +11817,12 @@ TaskCategory
 Other
 NS_NewRunnableFunction
 (
+"
+History
+:
+:
+NotifyVisitedForDocument
+"
 [
 uri
 doc
