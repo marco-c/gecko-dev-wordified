@@ -8702,7 +8702,7 @@ can
 t
 do
 that
-is
+if
 mIPCClosed
 is
 set
