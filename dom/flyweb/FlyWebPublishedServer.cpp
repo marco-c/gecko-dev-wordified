@@ -657,7 +657,6 @@ Request
 (
 global
 aRequest
-nullptr
 )
 aRequest
 )
@@ -730,7 +729,6 @@ Request
 (
 global
 aConnectRequest
-nullptr
 )
 aConnectRequest
 )
