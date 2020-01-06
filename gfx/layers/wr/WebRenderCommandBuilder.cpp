@@ -342,13 +342,6 @@ pageRootSc
 (
 sc
 aBuilder
-aDisplayListBuilder
-nullptr
-aDisplayList
-nullptr
-0
-nullptr
-nullptr
 )
 ;
 CreateWebRenderCommandsFromDisplayList
