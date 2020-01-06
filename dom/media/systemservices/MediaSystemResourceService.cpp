@@ -1260,13 +1260,12 @@ mResourceCount
 &
 &
 (
+!
 waitingRequests
 .
-size
+empty
 (
 )
->
-0
 )
 )
 {
