@@ -698,7 +698,10 @@ GetNextInFlow
 }
 /
 /
-Restyles
+Update
+the
+style
+on
 the
 block
 wrappers
@@ -725,8 +728,9 @@ in
 fact
 exist
 .
+virtual
 void
-UpdateStyleOfOwnedAnonBoxesForIBSplit
+DoUpdateStyleOfOwnedAnonBoxes
 (
 mozilla
 :
@@ -740,6 +744,7 @@ aChangeList
 nsChangeHint
 aHintForThisFrame
 )
+override
 ;
 protected
 :
