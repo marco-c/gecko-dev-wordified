@@ -1151,10 +1151,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-TextureFlags
-:
-:
-DEFAULT
 textureY
 textureCb
 textureCr
