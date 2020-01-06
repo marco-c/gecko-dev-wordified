@@ -254,6 +254,14 @@ mThrottledQueuesInitialized
 (
 false
 )
+mNumOfIndexedDBTransactions
+(
+0
+)
+mNumOfIndexedDBDatabases
+(
+0
+)
 mIsChrome
 (
 aIsChrome
