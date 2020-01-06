@@ -475,6 +475,8 @@ height
 }
 /
 *
+Required
+for
 Library
 animation
 *
@@ -483,9 +485,6 @@ animation
 navigator
 -
 toolbox
-[
-animate
-]
 {
 position
 :
