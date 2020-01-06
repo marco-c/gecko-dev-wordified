@@ -216,10 +216,9 @@ setInterval
 /
 /
 1h
-PlacesTestUtils
-.
-clearHistory
+promiseForceExpirationStep
 (
+1
 )
 ;
 do_timeout

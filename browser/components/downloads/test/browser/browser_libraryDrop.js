@@ -106,7 +106,11 @@ task_resetState
 )
 ;
 await
-task_clearHistory
+PlacesUtils
+.
+history
+.
+clear
 (
 )
 ;
