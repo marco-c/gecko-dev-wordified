@@ -1027,7 +1027,6 @@ IsEmpty
 ;
 Range
 <
-const
 wr
 :
 :
@@ -1050,9 +1049,13 @@ Length
 wrTexture
 -
 >
-AddWRImage
+PushResourceUpdates
 (
 aResources
+TextureHost
+:
+:
+ADD_IMAGE
 keys
 wrTexture
 -
