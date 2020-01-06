@@ -964,6 +964,14 @@ global
 )
 ;
 bool
+IsAddonCompartment
+(
+JSCompartment
+*
+c
+)
+;
+bool
 IsInAddonScope
 (
 JSObject
