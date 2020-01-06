@@ -399,6 +399,22 @@ self
 binary_path
             
 '
+repo_path
+'
+:
+self
+.
+topsrcdir
+            
+'
+obj_path
+'
+:
+self
+.
+topobjdir
+            
+'
 log_name
 '
 :
