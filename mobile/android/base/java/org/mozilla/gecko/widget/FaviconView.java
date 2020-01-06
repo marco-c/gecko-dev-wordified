@@ -107,6 +107,17 @@ graphics
 Color
 ;
 import
+android
+.
+support
+.
+v7
+.
+widget
+.
+AppCompatImageView
+;
+import
 org
 .
 mozilla
@@ -298,7 +309,7 @@ public
 class
 FaviconView
 extends
-ImageView
+AppCompatImageView
 {
 /
 /
