@@ -274,7 +274,7 @@ class
 nsScriptNameSpaceManager
 ;
 class
-nsIMemoryReporterCallback
+nsIHandleReportCallback
 ;
 namespace
 mozilla
@@ -2644,7 +2644,7 @@ const
 nsACString
 &
 rtPath
-nsIMemoryReporterCallback
+nsIHandleReportCallback
 *
 handleReport
 nsISupports

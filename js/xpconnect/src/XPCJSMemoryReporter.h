@@ -124,7 +124,7 @@ class
 nsISupports
 ;
 class
-nsIMemoryReporterCallback
+nsIHandleReportCallback
 ;
 namespace
 xpc
@@ -197,7 +197,7 @@ windowPaths
 WindowPaths
 *
 topWindowPaths
-nsIMemoryReporterCallback
+nsIHandleReportCallback
 *
 handleReport
 nsISupports
