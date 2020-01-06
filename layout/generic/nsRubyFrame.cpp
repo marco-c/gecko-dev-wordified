@@ -875,7 +875,7 @@ and
 its
 own
 .
-MoveOverflowToChildList
+MoveInlineOverflowToChildList
 (
 aReflowInput
 .
