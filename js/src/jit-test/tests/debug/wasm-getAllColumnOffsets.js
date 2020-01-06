@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -49,7 +51,7 @@ js
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

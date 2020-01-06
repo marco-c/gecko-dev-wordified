@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -43,6 +45,17 @@ eqArrayHelper
 .
 js
 '
+)
+;
+if
+(
+!
+wasmDebuggingIsSupported
+(
+)
+)
+quit
+(
 )
 ;
 function

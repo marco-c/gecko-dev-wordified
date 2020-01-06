@@ -47,7 +47,7 @@ fail
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

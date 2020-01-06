@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -19,7 +21,7 @@ TestComplete
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

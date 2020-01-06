@@ -13,7 +13,7 @@ onNewScript
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

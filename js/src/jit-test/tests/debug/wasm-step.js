@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -34,6 +36,17 @@ wasm
 .
 js
 "
+)
+;
+if
+(
+!
+wasmDebuggingIsSupported
+(
+)
+)
+quit
+(
 )
 ;
 /

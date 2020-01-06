@@ -13,7 +13,7 @@ findScripts
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -26,7 +28,7 @@ parsed
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )

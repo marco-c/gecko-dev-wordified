@@ -9,6 +9,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -32,7 +34,7 @@ overflow
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )
