@@ -8573,6 +8573,16 @@ aEnable
 =
 0
 ;
+virtual
+nsresult
+AsyncEnableDragDrop
+(
+bool
+aEnable
+)
+=
+0
+;
 /
 *
 *
