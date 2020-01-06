@@ -258,15 +258,6 @@ TimeDuration
 aDelay
 )
 ;
-void
-SetDummyWhen
-(
-const
-TimeStamp
-&
-aWhen
-)
-;
 /
 /
 Can
