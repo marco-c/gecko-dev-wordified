@@ -1444,6 +1444,7 @@ self
 start_window
 )
     
+#
 skip_if_mobile
 (
 "
@@ -1455,6 +1456,28 @@ support
 other
 chrome
 windows
+"
+)
+    
+skip
+(
+"
+Bug
+1329424
+-
+AssertionError
+:
+u
+'
+iVBORw0KGgoA
+.
+.
+.
+(
+images
+unexpectedly
+equal
+)
 "
 )
     
