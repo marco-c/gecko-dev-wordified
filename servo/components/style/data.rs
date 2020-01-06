@@ -232,7 +232,7 @@ Default
 )
 ]
 pub
-struct
+flags
 ElementDataFlags
 :
 u8
@@ -255,7 +255,6 @@ WAS_RESTYLED
 <
 <
 0
-;
 /
 /
 /
@@ -349,7 +348,6 @@ TRAVERSED_WITHOUT_STYLING
 <
 <
 1
-;
 /
 /
 /
@@ -370,7 +368,6 @@ ANCESTOR_WAS_RECONSTRUCTED
 <
 <
 2
-;
 /
 /
 /
@@ -467,7 +464,6 @@ PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 <
 <
 3
-;
 }
 }
 /
@@ -2309,9 +2305,6 @@ flags
 .
 contains
 (
-ElementDataFlags
-:
-:
 PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 )
 ;
@@ -2378,9 +2371,6 @@ flags
 .
 insert
 (
-ElementDataFlags
-:
-:
 PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 )
 ;
@@ -2393,9 +2383,6 @@ flags
 .
 remove
 (
-ElementDataFlags
-:
-:
 PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 )
 ;
@@ -3040,14 +3027,8 @@ flags
 .
 remove
 (
-ElementDataFlags
-:
-:
 WAS_RESTYLED
 |
-ElementDataFlags
-:
-:
 ANCESTOR_WAS_RECONSTRUCTED
 )
 }
@@ -3167,9 +3148,6 @@ flags
 .
 contains
 (
-ElementDataFlags
-:
-:
 ANCESTOR_WAS_RECONSTRUCTED
 )
 }
@@ -3236,9 +3214,6 @@ flags
 .
 insert
 (
-ElementDataFlags
-:
-:
 ANCESTOR_WAS_RECONSTRUCTED
 )
 ;
@@ -3251,9 +3226,6 @@ flags
 .
 remove
 (
-ElementDataFlags
-:
-:
 ANCESTOR_WAS_RECONSTRUCTED
 )
 ;
@@ -3300,9 +3272,6 @@ flags
 .
 insert
 (
-ElementDataFlags
-:
-:
 WAS_RESTYLED
 )
 ;
@@ -3312,9 +3281,6 @@ flags
 .
 remove
 (
-ElementDataFlags
-:
-:
 TRAVERSED_WITHOUT_STYLING
 )
 ;
@@ -3351,9 +3317,6 @@ flags
 .
 contains
 (
-ElementDataFlags
-:
-:
 WAS_RESTYLED
 )
 }
@@ -3388,9 +3351,6 @@ flags
 .
 insert
 (
-ElementDataFlags
-:
-:
 TRAVERSED_WITHOUT_STYLING
 )
 ;
@@ -3431,9 +3391,6 @@ flags
 .
 contains
 (
-ElementDataFlags
-:
-:
 TRAVERSED_WITHOUT_STYLING
 )
 }
@@ -3923,14 +3880,8 @@ flags
 .
 intersects
 (
-ElementDataFlags
-:
-:
 TRAVERSED_WITHOUT_STYLING
 |
-ElementDataFlags
-:
-:
 PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 )
 }

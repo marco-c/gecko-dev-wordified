@@ -1757,7 +1757,7 @@ C
 )
 ]
 pub
-struct
+flags
 DataFlags
 :
 u16
@@ -1769,7 +1769,6 @@ TERMINATED
 <
 <
 0
-;
 /
 /
 IsTerminated
@@ -1782,7 +1781,6 @@ VOIDED
 <
 <
 1
-;
 /
 /
 IsVoid
@@ -1795,7 +1793,6 @@ SHARED
 <
 <
 2
-;
 /
 /
 mData
@@ -1814,7 +1811,6 @@ OWNED
 <
 <
 3
-;
 /
 /
 mData
@@ -1833,7 +1829,6 @@ INLINE
 <
 <
 4
-;
 /
 /
 mData
@@ -1850,7 +1845,6 @@ LITERAL
 <
 <
 5
-;
 /
 /
 mData
@@ -1905,7 +1899,7 @@ C
 )
 ]
 pub
-struct
+flags
 ClassFlags
 :
 u16
@@ -1917,7 +1911,6 @@ INLINE
 <
 <
 0
-;
 /
 /
 |
@@ -1935,7 +1928,6 @@ NULL_TERMINATED
 <
 <
 1
-;
 /
 /
 |
@@ -2341,12 +2333,12 @@ length
 0
 dataflags
 :
-DataFlags
+data_flags
 :
 :
 TERMINATED
 |
-DataFlags
+data_flags
 :
 :
 LITERAL
@@ -4684,7 +4676,7 @@ StringRepr
 :
 new
 (
-ClassFlags
+class_flags
 :
 :
 NULL_TERMINATED
@@ -5196,18 +5188,18 @@ length
 length
 dataflags
 :
-DataFlags
+data_flags
 :
 :
 OWNED
 |
-DataFlags
+data_flags
 :
 :
 TERMINATED
 classflags
 :
-ClassFlags
+class_flags
 :
 :
 NULL_TERMINATED

@@ -443,9 +443,6 @@ index
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
 "
 animation_value_type

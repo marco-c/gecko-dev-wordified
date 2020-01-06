@@ -557,7 +557,7 @@ style
 element_state
 :
 :
-ElementState
+*
 ;
 use
 style
@@ -985,14 +985,8 @@ HTMLElement
 :
 new_inherited_with_state
 (
-ElementState
-:
-:
 IN_ENABLED_STATE
 |
-ElementState
-:
-:
 IN_READ_WRITE_STATE
 local_name
 prefix
@@ -2121,9 +2115,6 @@ get_state_for_layout
 .
 contains
 (
-ElementState
-:
-:
 IN_CHECKED_STATE
 )
 }
@@ -2168,9 +2159,6 @@ get_state_for_layout
 .
 contains
 (
-ElementState
-:
-:
 IN_INDETERMINATE_STATE
 )
 }
@@ -2651,9 +2639,6 @@ state
 .
 contains
 (
-ElementState
-:
-:
 IN_CHECKED_STATE
 )
 }
@@ -4604,9 +4589,6 @@ state
 .
 contains
 (
-ElementState
-:
-:
 IN_INDETERMINATE_STATE
 )
 }
@@ -4655,9 +4637,6 @@ Element
 .
 set_state
 (
-ElementState
-:
-:
 IN_INDETERMINATE_STATE
 val
 )
@@ -6422,9 +6401,6 @@ Element
 .
 set_state
 (
-ElementState
-:
-:
 IN_CHECKED_STATE
 checked
 )

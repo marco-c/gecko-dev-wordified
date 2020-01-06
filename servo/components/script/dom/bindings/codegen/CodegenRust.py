@@ -16674,9 +16674,6 @@ global
 InterfaceObjectMap
 :
 :
-Globals
-:
-:
 %
 s
 }
@@ -19771,9 +19768,6 @@ sorted
             
 "
 InterfaceObjectMap
-:
-:
-Globals
 :
 :
 "
@@ -59292,7 +59286,6 @@ s
 %
 #
 x
-;
 "
 %
 args
@@ -59314,7 +59307,7 @@ pre
 =
 "
 pub
-struct
+flags
 Globals
 :
 u8

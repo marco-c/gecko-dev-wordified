@@ -122,13 +122,7 @@ ComputedValue
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
-PropertyFlags
-:
-:
 APPLIES_TO_PLACEHOLDER
 "
 spec
@@ -186,9 +180,6 @@ True
 flags
 =
 "
-PropertyFlags
-:
-:
 APPLIES_TO_FIRST_LETTER
 "
 spec
@@ -307,13 +298,7 @@ webkit
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
-PropertyFlags
-:
-:
 FIXPOS_CB
 "
 spec
@@ -393,9 +378,6 @@ discrete
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
 "
 spec

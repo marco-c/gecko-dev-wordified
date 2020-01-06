@@ -70,7 +70,8 @@ font
 Font
 FontHandleMethods
 FontMetrics
-ShapingFlags
+IS_WHITESPACE_SHAPING_FLAG
+KEEP_ALL_FLAG
 }
 ;
 use
@@ -1568,9 +1569,6 @@ flags
 .
 contains
 (
-ShapingFlags
-:
-:
 KEEP_ALL_FLAG
 )
 {
@@ -1689,9 +1687,6 @@ flags
 .
 insert
 (
-ShapingFlags
-:
-:
 IS_WHITESPACE_SHAPING_FLAG
 )
 ;

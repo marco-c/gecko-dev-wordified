@@ -208,12 +208,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 /
 /
@@ -1683,7 +1677,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 LAYOUT
@@ -1759,7 +1753,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 LAYOUT

@@ -1253,9 +1253,6 @@ contains
 data
 :
 :
-LayoutDataFlags
-:
-:
 HAS_BEEN_TRAVERSED
 )
 {

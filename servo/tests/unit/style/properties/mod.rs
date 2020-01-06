@@ -109,7 +109,7 @@ style_traits
 :
 :
 {
-ParsingMode
+PARSING_MODE_DEFAULT
 ParseError
 }
 ;
@@ -321,10 +321,7 @@ CssRuleType
 :
 Style
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :

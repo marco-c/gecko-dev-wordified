@@ -489,7 +489,7 @@ node
 :
 {
 Node
-NodeFlags
+PARSER_ASSOCIATED_FORM_OWNER
 UnbindContext
 VecPreOrderInsertionHelper
 }
@@ -7071,9 +7071,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 PARSER_ASSOCIATED_FORM_OWNER
 true
 )
@@ -7769,9 +7766,6 @@ node
 .
 get_flag
 (
-NodeFlags
-:
-:
 PARSER_ASSOCIATED_FORM_OWNER
 )
 ;
@@ -7779,9 +7773,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 PARSER_ASSOCIATED_FORM_OWNER
 false
 )

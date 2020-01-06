@@ -1338,12 +1338,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 use
 task_source
@@ -4528,7 +4522,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT

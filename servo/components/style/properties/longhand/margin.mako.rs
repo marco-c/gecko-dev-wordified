@@ -259,9 +259,6 @@ spec
 flags
 =
 "
-PropertyFlags
-:
-:
 APPLIES_TO_FIRST_LETTER
 "
 allowed_in_page_rule

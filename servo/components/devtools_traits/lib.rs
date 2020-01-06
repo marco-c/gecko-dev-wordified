@@ -1468,7 +1468,7 @@ Serialize
 )
 ]
 pub
-struct
+flags
 CachedConsoleMessageTypes
 :
 u8
@@ -1480,7 +1480,6 @@ PAGE_ERROR
 <
 <
 0
-;
 const
 CONSOLE_API
 =
@@ -1488,7 +1487,6 @@ CONSOLE_API
 <
 <
 1
-;
 }
 }
 #

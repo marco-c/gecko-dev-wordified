@@ -495,12 +495,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 /
 /
@@ -1267,12 +1261,12 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT
 |
-ThreadState
+thread_state
 :
 :
 IN_WORKER

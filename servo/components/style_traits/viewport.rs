@@ -947,7 +947,7 @@ i
 >
 {
 use
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 use
 cssparser
@@ -1018,10 +1018,7 @@ is_ok
 instead
 of
 using
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 directly
 .
 /
@@ -1061,10 +1058,7 @@ NonNegative
 .
 is_ok
 (
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 unit_value
 )
 =
@@ -1095,10 +1089,7 @@ NonNegative
 .
 is_ok
 (
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 value
 )
 =

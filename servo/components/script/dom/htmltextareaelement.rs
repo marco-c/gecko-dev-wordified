@@ -394,7 +394,7 @@ style
 element_state
 :
 :
-ElementState
+*
 ;
 use
 textinput
@@ -978,14 +978,8 @@ HTMLElement
 :
 new_inherited_with_state
 (
-ElementState
-:
-:
 IN_ENABLED_STATE
 |
-ElementState
-:
-:
 IN_READ_WRITE_STATE
 local_name
 prefix

@@ -511,7 +511,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 let
 location
@@ -597,10 +597,7 @@ we
 use
 /
 /
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 directly
 .
 Ok
@@ -623,10 +620,7 @@ clamping_mode
 .
 is_ok
 (
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 value
 )
 =
@@ -754,10 +748,7 @@ clamping_mode
 .
 is_ok
 (
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 time
 .
 seconds

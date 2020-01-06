@@ -393,12 +393,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 use
 task
@@ -3348,7 +3342,7 @@ thread_state
 :
 enter
 (
-ThreadState
+thread_state
 :
 :
 IN_GC
@@ -3364,7 +3358,7 @@ thread_state
 :
 exit
 (
-ThreadState
+thread_state
 :
 :
 IN_GC

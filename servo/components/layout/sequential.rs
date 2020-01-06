@@ -113,7 +113,7 @@ flow
 self
 Flow
 ImmutableFlowUtils
-FlowFlags
+IS_ABSOLUTELY_POSITIONED
 }
 ;
 use
@@ -153,7 +153,11 @@ servo
 restyle_damage
 :
 :
-ServoRestyleDamage
+{
+REFLOW
+REFLOW_OUT_OF_FLOW
+STORE_OVERFLOW
+}
 ;
 use
 traversal
@@ -306,14 +310,8 @@ restyle_damage
 .
 insert
 (
-ServoRestyleDamage
-:
-:
 REFLOW_OUT_OF_FLOW
 |
-ServoRestyleDamage
-:
-:
 REFLOW
 )
 ;
@@ -789,9 +787,6 @@ restyle_damage
 .
 contains
 (
-ServoRestyleDamage
-:
-:
 STORE_OVERFLOW
 )
 {
@@ -839,9 +834,6 @@ restyle_damage
 .
 remove
 (
-ServoRestyleDamage
-:
-:
 STORE_OVERFLOW
 )
 ;
@@ -934,9 +926,6 @@ restyle_damage
 .
 intersects
 (
-ServoRestyleDamage
-:
-:
 REFLOW
 )
 {
@@ -983,9 +972,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 {

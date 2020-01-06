@@ -399,10 +399,7 @@ self
 align
 :
 :
-AlignFlags
-:
-:
-AUTO
+ALIGN_AUTO
 {
 *
 self

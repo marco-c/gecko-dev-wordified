@@ -162,7 +162,7 @@ MallocSizeOf
 )
 ]
 pub
-struct
+flags
 ElementState
 :
 u64
@@ -223,7 +223,6 @@ IN_ACTIVE_STATE
 <
 <
 0
-;
 /
 /
 /
@@ -262,7 +261,6 @@ IN_FOCUS_STATE
 <
 <
 1
-;
 /
 /
 /
@@ -304,7 +302,6 @@ IN_HOVER_STATE
 <
 <
 2
-;
 /
 /
 /
@@ -346,7 +343,6 @@ IN_ENABLED_STATE
 <
 <
 3
-;
 /
 /
 /
@@ -382,7 +378,6 @@ IN_DISABLED_STATE
 <
 <
 4
-;
 /
 /
 /
@@ -420,7 +415,6 @@ IN_CHECKED_STATE
 <
 <
 5
-;
 /
 /
 /
@@ -451,7 +445,6 @@ IN_INDETERMINATE_STATE
 <
 <
 6
-;
 /
 /
 /
@@ -484,7 +477,6 @@ IN_PLACEHOLDER_SHOWN_STATE
 <
 <
 7
-;
 /
 /
 /
@@ -515,7 +507,6 @@ IN_TARGET_STATE
 <
 <
 8
-;
 /
 /
 /
@@ -547,7 +538,6 @@ IN_FULLSCREEN_STATE
 <
 <
 9
-;
 /
 /
 /
@@ -578,7 +568,6 @@ IN_VALID_STATE
 <
 <
 10
-;
 /
 /
 /
@@ -609,7 +598,6 @@ IN_INVALID_STATE
 <
 <
 11
-;
 /
 /
 /
@@ -651,7 +639,6 @@ IN_MOZ_UI_VALID_STATE
 <
 <
 12
-;
 /
 /
 /
@@ -693,7 +680,6 @@ IN_MOZ_UI_INVALID_STATE
 <
 <
 13
-;
 /
 /
 /
@@ -733,7 +719,6 @@ IN_BROKEN_STATE
 <
 <
 14
-;
 /
 /
 /
@@ -775,7 +760,6 @@ IN_USER_DISABLED_STATE
 <
 <
 15
-;
 /
 /
 /
@@ -815,7 +799,6 @@ IN_SUPPRESSED_STATE
 <
 <
 16
-;
 /
 /
 /
@@ -855,7 +838,6 @@ IN_LOADING_STATE
 <
 <
 17
-;
 /
 /
 /
@@ -897,7 +879,6 @@ IN_HANDLER_BLOCKED_STATE
 <
 <
 18
-;
 /
 /
 /
@@ -939,7 +920,6 @@ IN_HANDLER_DISABLED_STATE
 <
 <
 19
-;
 /
 /
 /
@@ -981,7 +961,6 @@ IN_HANDLER_CRASHED_STATE
 <
 <
 20
-;
 /
 /
 /
@@ -1012,7 +991,6 @@ IN_REQUIRED_STATE
 <
 <
 21
-;
 /
 /
 /
@@ -1043,7 +1021,6 @@ IN_OPTIONAL_STATE
 <
 <
 22
-;
 /
 /
 /
@@ -1076,7 +1053,6 @@ IN_READ_WRITE_STATE
 <
 <
 22
-;
 /
 /
 /
@@ -1097,7 +1073,6 @@ IN_UNRESOLVED_STATE
 <
 <
 23
-;
 /
 /
 /
@@ -1128,7 +1103,6 @@ IN_VISITED_STATE
 <
 <
 24
-;
 /
 /
 /
@@ -1159,7 +1133,6 @@ IN_UNVISITED_STATE
 <
 <
 25
-;
 /
 /
 /
@@ -1190,20 +1163,13 @@ pseudo
 const
 IN_VISITED_OR_UNVISITED_STATE
 =
-ElementState
-:
-:
 IN_VISITED_STATE
 .
 bits
 |
-ElementState
-:
-:
 IN_UNVISITED_STATE
 .
 bits
-;
 /
 /
 /
@@ -1245,7 +1211,6 @@ IN_DRAGOVER_STATE
 <
 <
 26
-;
 /
 /
 /
@@ -1278,7 +1243,6 @@ IN_INRANGE_STATE
 <
 <
 27
-;
 /
 /
 /
@@ -1313,7 +1277,6 @@ IN_OUTOFRANGE_STATE
 <
 <
 28
-;
 /
 /
 /
@@ -1346,7 +1309,6 @@ IN_MOZ_READONLY_STATE
 <
 <
 29
-;
 /
 /
 /
@@ -1379,7 +1341,6 @@ IN_MOZ_READWRITE_STATE
 <
 <
 30
-;
 /
 /
 /
@@ -1410,7 +1371,6 @@ IN_DEFAULT_STATE
 <
 <
 31
-;
 /
 /
 /
@@ -1452,7 +1412,6 @@ IN_MOZ_SUBMITINVALID_STATE
 <
 <
 32
-;
 /
 /
 /
@@ -1469,7 +1428,6 @@ IN_OPTIMUM_STATE
 <
 <
 33
-;
 /
 /
 /
@@ -1486,7 +1444,6 @@ IN_SUB_OPTIMUM_STATE
 <
 <
 34
-;
 /
 /
 /
@@ -1503,7 +1460,6 @@ IN_SUB_SUB_OPTIMUM_STATE
 <
 <
 35
-;
 /
 /
 /
@@ -1520,7 +1476,6 @@ IN_DEVTOOLS_HIGHLIGHTED_STATE
 <
 <
 36
-;
 /
 /
 /
@@ -1537,7 +1492,6 @@ IN_STYLEEDITOR_TRANSITIONING_STATE
 <
 <
 37
-;
 /
 /
 /
@@ -1554,7 +1508,6 @@ IN_INCREMENT_SCRIPT_LEVEL_STATE
 <
 <
 38
-;
 /
 /
 /
@@ -1594,7 +1547,6 @@ IN_FOCUSRING_STATE
 <
 <
 39
-;
 /
 /
 /
@@ -1611,7 +1563,6 @@ IN_HANDLER_CLICK_TO_PLAY_STATE
 <
 <
 40
-;
 /
 /
 /
@@ -1628,7 +1579,6 @@ IN_HANDLER_VULNERABLE_UPDATABLE_STATE
 <
 <
 41
-;
 /
 /
 /
@@ -1645,7 +1595,6 @@ IN_HANDLER_VULNERABLE_NO_UPDATE_STATE
 <
 <
 42
-;
 /
 /
 /
@@ -1680,7 +1629,6 @@ IN_FOCUS_WITHIN_STATE
 <
 <
 43
-;
 /
 /
 /
@@ -1720,7 +1668,6 @@ IN_LTR_STATE
 <
 <
 44
-;
 /
 /
 /
@@ -1744,7 +1691,6 @@ IN_RTL_STATE
 <
 <
 45
-;
 /
 /
 /
@@ -1769,7 +1715,6 @@ IN_HAS_DIR_ATTR_STATE
 <
 <
 46
-;
 /
 /
 /
@@ -1808,7 +1753,6 @@ IN_HAS_DIR_ATTR_LTR_STATE
 <
 <
 47
-;
 /
 /
 /
@@ -1847,7 +1791,6 @@ IN_HAS_DIR_ATTR_RTL_STATE
 <
 <
 48
-;
 /
 /
 /
@@ -1911,7 +1854,6 @@ IN_HAS_DIR_ATTR_LIKE_AUTO_STATE
 <
 <
 49
-;
 /
 /
 /
@@ -1928,7 +1870,6 @@ IN_AUTOFILL_STATE
 <
 <
 50
-;
 /
 /
 /
@@ -1945,7 +1886,6 @@ IN_AUTOFILL_PREVIEW_STATE
 <
 <
 51
-;
 }
 }
 bitflags
@@ -1992,7 +1932,7 @@ nsIDocument
 h
 .
 pub
-struct
+flags
 DocumentState
 :
 u64
@@ -2016,7 +1956,6 @@ NS_DOCUMENT_STATE_RTL_LOCALE
 <
 <
 0
-;
 /
 /
 /
@@ -2030,6 +1969,5 @@ NS_DOCUMENT_STATE_WINDOW_INACTIVE
 <
 <
 1
-;
 }
 }
