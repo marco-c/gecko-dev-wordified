@@ -7381,6 +7381,15 @@ Option
 <
 UntrustedNodeAddress
 >
+point_in_node
+:
+Option
+<
+Point2D
+<
+f32
+>
+>
 )
 {
 let
@@ -7686,6 +7695,7 @@ false
 false
 0i16
 None
+point_in_node
 )
 ;
 let
@@ -8178,6 +8188,7 @@ false
 false
 false
 0i16
+None
 None
 )
 ;
@@ -8718,6 +8729,7 @@ false
 false
 false
 0i16
+None
 None
 )
 ;
