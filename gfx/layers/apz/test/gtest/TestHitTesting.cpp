@@ -5207,7 +5207,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 point
@@ -5220,7 +5220,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 EXPECT_EQ

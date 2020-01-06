@@ -382,7 +382,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 ;
 EXPECT_EQ

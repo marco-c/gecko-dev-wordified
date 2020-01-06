@@ -3475,7 +3475,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 .
 mTranslation
@@ -6404,7 +6404,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 )
 ;
@@ -7217,7 +7217,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 PixelCastJustification
 :
@@ -17684,7 +17684,7 @@ GetCurrentAsyncTransformWithOverscroll
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 .
 Inverse
@@ -17982,7 +17982,7 @@ GetCurrentAsyncTransformWithOverscroll
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 .
 Inverse
@@ -18734,7 +18734,7 @@ GetCurrentAsyncTransformWithOverscroll
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 )
 ;

@@ -23013,7 +23013,7 @@ AsyncPanZoomController
 :
 GetOverscrollTransform
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -23029,7 +23029,7 @@ if
 aMode
 =
 =
-RESPECT_FORCE_DISABLE
+eForCompositing
 &
 &
 mScrollMetadata
@@ -23465,7 +23465,7 @@ AsyncPanZoomController
 :
 GetCurrentAsyncScrollOffset
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -23481,7 +23481,7 @@ if
 aMode
 =
 =
-RESPECT_FORCE_DISABLE
+eForCompositing
 &
 &
 mScrollMetadata
@@ -23533,7 +23533,7 @@ AsyncPanZoomController
 :
 GetCurrentAsyncScrollOffsetInCssPixels
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -23549,7 +23549,7 @@ if
 aMode
 =
 =
-RESPECT_FORCE_DISABLE
+eForCompositing
 &
 &
 mScrollMetadata
@@ -23583,7 +23583,7 @@ AsyncPanZoomController
 :
 GetCurrentAsyncTransform
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -23599,7 +23599,7 @@ if
 aMode
 =
 =
-RESPECT_FORCE_DISABLE
+eForCompositing
 &
 &
 mScrollMetadata
@@ -23854,7 +23854,7 @@ AsyncPanZoomController
 :
 GetCurrentAsyncTransformWithOverscroll
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
