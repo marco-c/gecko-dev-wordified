@@ -1068,16 +1068,6 @@ not
 /
 Globals
 const
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 defer
 =
 require

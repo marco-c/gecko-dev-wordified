@@ -169,16 +169,6 @@ task
 "
 )
 ;
-var
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
 /
 *
 *

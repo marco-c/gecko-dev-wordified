@@ -75,16 +75,6 @@ chrome
 )
 ;
 const
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 Task
 }
