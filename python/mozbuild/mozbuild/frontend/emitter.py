@@ -3466,12 +3466,6 @@ level
 1
                         
 '
-debug
-'
-:
-True
-                        
-'
 rpath
 '
 :
@@ -3523,12 +3517,6 @@ level
 '
 :
 2
-                        
-'
-debug
-'
-:
-True
                         
 '
 rpath
