@@ -1808,7 +1808,6 @@ CSSPseudoElementType
 :
 NotPseudo
 nullptr
-aParentContext
 )
 ;
 }
@@ -3400,7 +3399,6 @@ ResolveStyleLazilyInternal
 aElement
 aPseudoType
 aPseudoTag
-nullptr
 aRuleInclusion
 ignoreExistingStyles
 )
@@ -7019,9 +7017,6 @@ GetBaseContextForElement
 Element
 *
 aElement
-ServoStyleContext
-*
-aParentContext
 nsPresContext
 *
 aPresContext
@@ -7651,10 +7646,6 @@ aPseudoType
 nsIAtom
 *
 aPseudoTag
-const
-ServoStyleContext
-*
-aParentContext
 StyleRuleInclusion
 aRuleInclusion
 bool

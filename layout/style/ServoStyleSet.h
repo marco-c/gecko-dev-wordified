@@ -2546,9 +2546,6 @@ dom
 Element
 *
 aElement
-ServoStyleContext
-*
-aParentContext
 nsPresContext
 *
 aPresContext
@@ -3505,10 +3502,6 @@ aPseudoType
 nsIAtom
 *
 aPseudoTag
-const
-ServoStyleContext
-*
-aParentContext
 StyleRuleInclusion
 aRules
 =
