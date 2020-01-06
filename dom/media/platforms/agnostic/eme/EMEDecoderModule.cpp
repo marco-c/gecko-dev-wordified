@@ -1352,7 +1352,9 @@ Shutdown
 )
 ;
 }
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )

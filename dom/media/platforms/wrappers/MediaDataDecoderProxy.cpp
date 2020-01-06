@@ -480,7 +480,9 @@ Shutdown
 )
 ;
 }
-nsCString
+const
+char
+*
 MediaDataDecoderProxy
 :
 :

@@ -266,7 +266,9 @@ TrackInfo
 kAudioTrack
 ;
 }
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )
@@ -274,14 +276,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 wmf
 audio
 decoder
 "
-)
 ;
 }
 private

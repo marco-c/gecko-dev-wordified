@@ -169,8 +169,8 @@ DummyDataCreator
 &
 aCreator
 const
-nsACString
-&
+char
+*
 aDescription
 const
 CreateDecoderParams
@@ -508,7 +508,9 @@ __func__
 )
 ;
 }
-nsCString
+const
+char
+*
 DummyMediaDataDecoder
 :
 :
@@ -518,15 +520,12 @@ GetDescriptionName
 const
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 blank
 media
 data
 decoder
 "
-)
 ;
 }
 MediaDataDecoder

@@ -235,7 +235,9 @@ Shutdown
 )
 override
 ;
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )
@@ -243,14 +245,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 apple
-coremedia
+CoreMedia
 decoder
 "
-)
 ;
 }
 /
