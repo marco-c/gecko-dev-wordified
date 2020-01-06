@@ -6177,6 +6177,11 @@ products
 "
 gecko
 "
+enabled_in
+=
+"
+ua
+"
 spec
 =
 "
@@ -6287,6 +6292,10 @@ animation_value_type
 =
 "
 none
+"
+enabled_in
+=
+"
 "
 needs_conversion
 =
@@ -7936,7 +7945,7 @@ fontSmoothingBackgroundColor
 enabled_in
 =
 "
-ua
+chrome
 "
 spec
 =
