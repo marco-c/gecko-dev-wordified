@@ -5536,10 +5536,10 @@ isTemporarilyUnoptimizable
 lhs
 rhs
 lhs
-CanAttachGetter
+GetPropertyResultFlags
 :
 :
-Yes
+All
 )
 ;
 if
@@ -6034,10 +6034,10 @@ isTemporarilyUnoptimizable
 lhs
 rhs
 receiver
-CanAttachGetter
+GetPropertyResultFlags
 :
 :
-Yes
+All
 )
 ;
 if

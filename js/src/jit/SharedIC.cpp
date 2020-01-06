@@ -13069,10 +13069,10 @@ isTemporarilyUnoptimizable
 val
 idVal
 val
-CanAttachGetter
+GetPropertyResultFlags
 :
 :
-Yes
+All
 )
 ;
 if
@@ -13569,10 +13569,10 @@ isTemporarilyUnoptimizable
 val
 idVal
 receiver
-CanAttachGetter
+GetPropertyResultFlags
 :
 :
-Yes
+All
 )
 ;
 if
