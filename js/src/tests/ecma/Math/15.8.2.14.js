@@ -282,9 +282,6 @@ fail
 "
 ;
 }
-var
-testcase
-=
 new
 TestCase
 (
@@ -300,13 +297,8 @@ random
 pass
 "
 actual
-)
-;
-testcase
-.
-reason
-=
 result
+)
 ;
 }
 test
