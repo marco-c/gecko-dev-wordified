@@ -101,7 +101,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneApplications
+paneSearch
 "
 {
 leaveOpen
@@ -116,10 +116,10 @@ prefs
 .
 selectedPane
 "
-paneApplications
+paneSearch
 "
 "
-Applications
+Search
 pane
 was
 selected

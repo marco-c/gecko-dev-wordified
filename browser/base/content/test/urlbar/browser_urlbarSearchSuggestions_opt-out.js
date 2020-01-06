@@ -520,8 +520,6 @@ about
 :
 preferences
 #
-general
--
 search
 "
 )
