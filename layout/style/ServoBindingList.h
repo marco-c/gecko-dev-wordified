@@ -2855,6 +2855,13 @@ ServoElementSnapshotTable
 *
 snapshots
 )
+SERVO_BINDING_FUNC
+(
+Servo_HasPendingRestyleAncestor
+bool
+RawGeckoElementBorrowed
+element
+)
 /
 /
 AddRef
