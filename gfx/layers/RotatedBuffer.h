@@ -923,12 +923,9 @@ RotatedBuffer
 &
 aSource
 const
-gfx
-:
-:
-IntRect
+nsIntRegion
 &
-aUpdateRect
+aUpdateRegion
 )
 ;
 /
