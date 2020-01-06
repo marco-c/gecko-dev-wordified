@@ -1113,10 +1113,7 @@ style
 stylist
 :
 :
-{
-ExtraStyleData
 Stylist
-}
 ;
 use
 style
@@ -8666,7 +8663,12 @@ let
 mut
 extra_data
 =
-ExtraStyleData
+Default
+:
+:
+default
+(
+)
 ;
 let
 needs_dirtying
