@@ -71,7 +71,7 @@ common_types
 .
 h
 "
-void
+nsCString
 StartAecLog
 (
 )
