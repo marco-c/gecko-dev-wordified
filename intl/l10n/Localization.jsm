@@ -334,7 +334,7 @@ if
 (
 Symbol
 .
-iterator
+asyncIterator
 in
 Object
 (
@@ -352,6 +352,7 @@ Argument
 must
 implement
 the
+async
 iteration
 protocol
 .
@@ -367,7 +368,7 @@ iterable
 [
 Symbol
 .
-iterator
+asyncIterator
 ]
 (
 )
@@ -383,7 +384,7 @@ seen
 [
 Symbol
 .
-iterator
+asyncIterator
 ]
 (
 )
@@ -403,6 +404,7 @@ cur
 ;
 return
 {
+async
 next
 (
 )
@@ -421,6 +423,7 @@ seen
 .
 push
 (
+await
 iterator
 .
 next
@@ -896,6 +899,7 @@ translations
 ]
 ;
 for
+await
 (
 let
 ctx
