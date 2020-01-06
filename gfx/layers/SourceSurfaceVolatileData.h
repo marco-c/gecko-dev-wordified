@@ -262,10 +262,6 @@ SurfaceFormat
 :
 UNKNOWN
 )
-mWasPurged
-(
-false
-)
 {
 }
 bool
@@ -457,12 +453,6 @@ lock
 mMutex
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
-mWasPurged
-)
-;
 if
 (
 mMapCount
@@ -485,10 +475,6 @@ WasBufferPurged
 )
 )
 {
-mWasPurged
-=
-true
-;
 return
 false
 ;
@@ -593,9 +579,6 @@ mVBufPtr
 ;
 SurfaceFormat
 mFormat
-;
-bool
-mWasPurged
 ;
 }
 ;
