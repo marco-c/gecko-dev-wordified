@@ -6017,7 +6017,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

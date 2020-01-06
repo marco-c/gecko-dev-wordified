@@ -493,7 +493,7 @@ nsGlobalWindowInner
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

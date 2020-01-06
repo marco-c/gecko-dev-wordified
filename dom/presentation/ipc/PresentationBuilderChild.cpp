@@ -294,7 +294,7 @@ nsPIDOMWindowInner
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

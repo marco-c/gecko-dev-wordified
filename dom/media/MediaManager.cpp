@@ -2408,7 +2408,7 @@ auto
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -2745,7 +2745,7 @@ auto
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -2917,7 +2917,7 @@ auto
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -3736,7 +3736,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -5714,7 +5714,7 @@ nsGlobalWindowInner
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -6644,7 +6644,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -9215,7 +9215,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -15300,7 +15300,7 @@ good
 if
 (
 !
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -15393,7 +15393,7 @@ auto
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -16465,7 +16465,7 @@ nsPIDOMWindowInner
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -17932,7 +17932,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -18221,7 +18221,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -20984,7 +20984,7 @@ nsPIDOMWindowInner
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -21631,7 +21631,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -22087,7 +22087,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -23349,7 +23349,7 @@ nsPIDOMWindowInner
 >
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -24931,7 +24931,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -25599,7 +25599,7 @@ nsGlobalWindowInner
 >
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
