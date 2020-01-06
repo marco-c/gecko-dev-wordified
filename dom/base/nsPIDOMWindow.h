@@ -2204,6 +2204,16 @@ aIsFullscreen
 =
 0
 ;
+virtual
+void
+FullscreenWillChange
+(
+bool
+aIsFullscreen
+)
+=
+0
+;
 /
 *
 *
