@@ -540,7 +540,7 @@ CounterStyle
 CounterStyleOrNone
 :
 :
-None_
+None
 )
 %
 endif

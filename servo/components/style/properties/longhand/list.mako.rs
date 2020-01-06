@@ -674,7 +674,7 @@ NS_STYLE_LIST_STYLE_NONE
 CounterStyleOrNone
 :
 :
-None_
+None
 }
 else
 {
