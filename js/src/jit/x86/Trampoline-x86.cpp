@@ -3891,8 +3891,11 @@ moveValue
 UndefinedValue
 (
 )
+ValueOperand
+(
 ebx
 edi
+)
 )
 ;
 /

@@ -4071,8 +4071,11 @@ moveValue
 UndefinedValue
 (
 )
+ValueOperand
+(
 r5
 r4
+)
 )
 ;
 {
