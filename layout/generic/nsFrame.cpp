@@ -48536,10 +48536,14 @@ get
 }
 if
 (
+auto
+*
+geckoContext
+=
 mStyleContext
 -
 >
-IsGecko
+GetAsGecko
 (
 )
 )
@@ -48547,7 +48551,7 @@ IsGecko
 if
 (
 !
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48571,7 +48575,7 @@ StyleContext
 )
 !
 =
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48590,7 +48594,7 @@ nsPrintfCString
 %
 p
 "
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48600,7 +48604,7 @@ GetParent
 ;
 if
 (
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48618,7 +48622,7 @@ nsPrintfCString
 %
 p
 "
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48633,7 +48637,7 @@ GetParent
 ;
 if
 (
-mStyleContext
+geckoContext
 -
 >
 GetParent
@@ -48656,7 +48660,7 @@ nsPrintfCString
 %
 p
 "
-mStyleContext
+geckoContext
 -
 >
 GetParent

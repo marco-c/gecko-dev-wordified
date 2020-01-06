@@ -36937,10 +36937,10 @@ resolveStyle
 {
 if
 (
-aContent
+styleContext
 -
 >
-IsStyledByServo
+IsServo
 (
 )
 )
@@ -37099,6 +37099,11 @@ styleContext
 ResolveStyleContext
 (
 styleContext
+-
+>
+AsGecko
+(
+)
 -
 >
 GetParent
@@ -64068,6 +64073,11 @@ ResolveStyleFor
 (
 aElement
 oldContext
+-
+>
+AsGecko
+(
+)
 -
 >
 GetParent

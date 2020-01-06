@@ -276,7 +276,7 @@ aValueStorage
 nsPresContext
 *
 aContext
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
