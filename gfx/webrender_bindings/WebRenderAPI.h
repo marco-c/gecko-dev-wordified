@@ -799,6 +799,13 @@ const
 WrMixBlendMode
 &
 aMixBlendMode
+const
+nsTArray
+<
+WrFilterOp
+>
+&
+aFilters
 )
 ;
 void

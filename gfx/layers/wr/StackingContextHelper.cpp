@@ -173,6 +173,13 @@ Matrix4x4
 >
 &
 aTransform
+const
+nsTArray
+<
+WrFilterOp
+>
+&
+aFilters
 )
 :
 mBuilder
@@ -259,6 +266,7 @@ GetMixBlendMode
 (
 )
 )
+aFilters
 )
 ;
 mOrigin
@@ -304,6 +312,13 @@ gfx
 Matrix4x4
 *
 aTransformPtr
+const
+nsTArray
+<
+WrFilterOp
+>
+&
+aFilters
 )
 :
 mBuilder
@@ -364,6 +379,7 @@ GetMixBlendMode
 (
 )
 )
+aFilters
 )
 ;
 mOrigin
