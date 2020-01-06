@@ -404,6 +404,12 @@ isAtomsZone
 (
 )
 ;
+JitCode
+*
+mallocStub
+(
+)
+;
 #
 ifdef
 DEBUG

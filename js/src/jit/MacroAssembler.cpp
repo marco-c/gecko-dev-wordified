@@ -6019,10 +6019,10 @@ GetJitContext
 )
 -
 >
-runtime
+compartment
 -
 >
-jitRuntime
+zone
 (
 )
 -

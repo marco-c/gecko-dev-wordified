@@ -3758,9 +3758,6 @@ allStrings
 bool
 initStrings
 (
-JSRuntime
-*
-rt
 )
 ;
 void
@@ -4492,9 +4489,6 @@ allClasses
 bool
 initClasses
 (
-JSRuntime
-*
-rt
 )
 ;
 void
