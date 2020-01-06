@@ -346,14 +346,10 @@ TrackUnionStream
 :
 TrackUnionStream
 (
-AbstractThread
-*
-aMainThread
 )
 :
 ProcessedMediaStream
 (
-aMainThread
 )
 mNextAvailableTrackID
 (

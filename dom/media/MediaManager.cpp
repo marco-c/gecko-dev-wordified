@@ -6046,16 +6046,6 @@ msg
 >
 CreateSourceStream
 (
-globalWindow
--
->
-AbstractMainThreadFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 /

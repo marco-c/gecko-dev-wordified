@@ -262,7 +262,6 @@ FakeSourceMediaStream
 :
 SourceMediaStream
 (
-nullptr
 )
 {
 }

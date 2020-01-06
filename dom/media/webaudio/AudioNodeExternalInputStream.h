@@ -200,9 +200,6 @@ aGraph
 AudioNodeEngine
 *
 aEngine
-AbstractThread
-*
-aMainThread
 )
 ;
 protected
@@ -214,9 +211,6 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
-AbstractThread
-*
-aMainThread
 )
 ;
 ~

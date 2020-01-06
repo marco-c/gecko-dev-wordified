@@ -160,9 +160,6 @@ AudioCaptureStream
 (
 TrackID
 aTrackId
-AbstractThread
-*
-aMainThread
 )
 ;
 virtual

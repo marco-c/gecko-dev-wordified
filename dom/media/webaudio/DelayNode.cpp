@@ -476,7 +476,6 @@ Graph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 refchanged
 .
 forget
@@ -573,7 +572,6 @@ Graph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 refchanged
 .
 forget
