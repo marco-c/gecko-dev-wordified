@@ -437,9 +437,6 @@ var
 in
 (
 '
-VISIBILITY_FLAGS
-'
-'
 WARNINGS_AS_ERRORS
 '
 )
@@ -747,9 +744,6 @@ MOZBUILD_CMMFLAGS
                         
 '
 RTL_FLAGS
-'
-'
-VISIBILITY_FLAGS
 '
 )
 :
@@ -1734,30 +1728,24 @@ extend
 value
 )
         
-if
-canonical_suffix
-in
-(
-'
-.
-mm
-'
-'
-.
-cpp
-'
-)
-:
-            
 db
 .
 append
 (
 '
 (
-COMPUTED_CXXFLAGS
+COMPUTED_
+%
+s
 )
 '
+%
+self
+.
+CFLAGS
+[
+canonical_suffix
+]
 )
         
 db
@@ -1765,12 +1753,6 @@ db
 extend
 (
 (
-            
-'
-(
-VISIBILITY_FLAGS
-)
-'
             
 '
 (

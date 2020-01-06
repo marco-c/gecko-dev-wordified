@@ -3090,20 +3090,6 @@ ALLOW_COMPILER_WARNINGS
 ]
             
 '
-VISIBILITY_FLAGS
-'
-:
-[
-                
-'
-VISIBILITY_FLAGS
-:
-=
-'
-            
-]
-            
-'
 RCFILE
 '
 :
