@@ -18,6 +18,12 @@ file
 "
 "
 "
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 py
 import
@@ -80,6 +86,7 @@ None
 help
 =
 "
+DEPRECATED
 path
 for
 machine
@@ -199,6 +206,23 @@ register
 config
 .
 _resultlog
+)
+        
+from
+_pytest
+.
+deprecated
+import
+RESULT_LOG
+        
+config
+.
+warn
+(
+'
+C1
+'
+RESULT_LOG
 )
 def
 pytest_unconfigure
@@ -435,11 +459,7 @@ longrepr
 )
 :
         
-py
-.
-builtin
-.
-print_
+print
 (
 "
 %
@@ -469,11 +489,7 @@ splitlines
 )
 :
             
-py
-.
-builtin
-.
-print_
+print
 (
 "
 %

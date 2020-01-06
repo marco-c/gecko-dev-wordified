@@ -12,7 +12,7 @@ name
 cache
 was
 not
-choosen
+chosen
 to
 ensure
 pluggy
@@ -26,6 +26,12 @@ cache
 "
 "
 "
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 py
 import
@@ -1151,21 +1157,9 @@ config
 getvalue
 (
 "
-failedfirst
+lf
 "
 )
-:
-                
-items
-[
-:
-]
-=
-previously_failed
-+
-previously_passed
-            
-else
 :
                 
 items
@@ -1185,6 +1179,18 @@ items
 =
 previously_passed
 )
+            
+else
+:
+                
+items
+[
+:
+]
+=
+previously_failed
++
+previously_passed
     
 def
 pytest_sessionfinish
@@ -1798,6 +1804,8 @@ values
 for
 valpath
 in
+sorted
+(
 vdir
 .
 visit
@@ -1809,6 +1817,7 @@ x
 .
 isfile
 (
+)
 )
 )
 :
@@ -1971,6 +1980,8 @@ directories
 for
 p
 in
+sorted
+(
 basedir
 .
 join
@@ -1982,6 +1993,7 @@ d
 .
 visit
 (
+)
 )
 :
             

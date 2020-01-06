@@ -3198,9 +3198,10 @@ exconly
 )
         
 return
-unicode
-(
 loc
+.
+__unicode__
+(
 )
 class
 FormattedExcinfo
