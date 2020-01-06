@@ -2797,9 +2797,6 @@ networking
 void
 ReportRcwnStats
 (
-nsIRequest
-*
-firstResponseRequest
 bool
 isFromNet
 )
