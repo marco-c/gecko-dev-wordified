@@ -5884,6 +5884,12 @@ sandbox
 haveTestPlugin
 =
 !
+sandbox
+.
+Android
+&
+&
+!
 !
 getTestPlugin
 (
