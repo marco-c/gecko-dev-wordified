@@ -973,9 +973,6 @@ init
 *
 *
 *
-FormAutoComplete
-*
-*
 Implements
 the
 nsIFormAutoComplete

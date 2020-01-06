@@ -2897,9 +2897,6 @@ stmt
 *
 *
 *
-dbInit
-*
-*
 Attempts
 to
 initialize
@@ -3631,9 +3628,6 @@ tSQL
 *
 *
 *
-dbAreExpectedColumnsPresent
-*
-*
 Sanity
 check
 to
@@ -3777,9 +3771,6 @@ true
 }
 /
 *
-*
-*
-dbCleanup
 *
 *
 Called
@@ -4015,9 +4006,6 @@ closed
 }
 /
 *
-*
-*
-updateFormHistoryWrite
 *
 *
 Constructs
@@ -4758,9 +4746,6 @@ expireOldEntries
 *
 *
 *
-expireOldEntriesDeletion
-*
-*
 Removes
 entries
 from
@@ -4841,9 +4826,6 @@ expireOldEntriesDeletionFailure
 }
 /
 *
-*
-*
-expireOldEntriesVacuum
 *
 *
 Counts
