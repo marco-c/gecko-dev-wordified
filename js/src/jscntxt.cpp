@@ -7868,10 +7868,6 @@ suppressGC
 (
 0
 )
-allowGCBarriers
-(
-true
-)
 #
 ifdef
 DEBUG
