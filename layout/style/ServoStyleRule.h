@@ -428,6 +428,17 @@ aMatches
 )
 override
 ;
+NotNull
+<
+DeclarationBlock
+*
+>
+GetDeclarationBlock
+(
+)
+const
+override
+;
 /
 /
 WebIDL
