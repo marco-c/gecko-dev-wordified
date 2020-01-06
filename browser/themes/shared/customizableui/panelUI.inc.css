@@ -8481,7 +8481,7 @@ background
 color
 :
 #
-0060df
+0096dd
 ;
 /
 *
@@ -8520,12 +8520,6 @@ color
 white
 !
 important
-;
-font
--
-size
-:
-13px
 ;
 border
 -
@@ -8621,15 +8615,6 @@ prefs
 button
 :
 hover
-{
-background
--
-color
-:
-#
-003eaa
-;
-}
 .
 PanelUI
 -
@@ -8648,7 +8633,7 @@ background
 color
 :
 #
-002275
+018acb
 ;
 }
 .
