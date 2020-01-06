@@ -4329,6 +4329,7 @@ to
 accommodate
 DevTools
 .
+pub
 fn
 get_location_with_offset
 (
