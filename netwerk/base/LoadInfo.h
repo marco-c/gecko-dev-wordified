@@ -662,6 +662,10 @@ bool
 aForceHSTSPriming
 bool
 aMixedContentWouldBlock
+bool
+aIsHSTSPriming
+bool
+aIsHSTSPrimingUpgrade
 )
 ;
 LoadInfo
@@ -900,6 +904,16 @@ mForceHSTSPriming
 ;
 bool
 mMixedContentWouldBlock
+:
+1
+;
+bool
+mIsHSTSPriming
+:
+1
+;
+bool
+mIsHSTSPrimingUpgrade
 :
 1
 ;
