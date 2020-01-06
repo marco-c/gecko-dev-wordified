@@ -4468,10 +4468,10 @@ Helper
 functions
 for
 computing
-the
-filter
-property
-style
+and
+serializing
+a
+nsStyleCoord
 .
 *
 /
@@ -4485,6 +4485,8 @@ const
 nsStyleCoord
 &
 aCoord
+bool
+aClampNegativeCalc
 )
 ;
 already_AddRefed
