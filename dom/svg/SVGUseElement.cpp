@@ -576,7 +576,7 @@ mOriginal
 tmp
 -
 >
-mSource
+mReferencedElementTracker
 .
 Traverse
 (
@@ -689,7 +689,7 @@ SVGUseElementBase
 (
 aNodeInfo
 )
-mSource
+mReferencedElementTracker
 (
 this
 )
@@ -1529,14 +1529,14 @@ CreateAnonymousContent
 {
 if
 (
-mSource
+mReferencedElementTracker
 .
 get
 (
 )
 )
 {
-mSource
+mReferencedElementTracker
 .
 get
 (
@@ -1557,7 +1557,7 @@ nsIContent
 *
 targetContent
 =
-mSource
+mReferencedElementTracker
 .
 get
 (
@@ -2111,7 +2111,7 @@ nsIContent
 *
 targetContent
 =
-mSource
+mReferencedElementTracker
 .
 get
 (
@@ -2663,7 +2663,7 @@ GetComposedDoc
 baseURI
 )
 ;
-mSource
+mReferencedElementTracker
 .
 Reset
 (
@@ -2732,14 +2732,14 @@ UnlinkSource
 {
 if
 (
-mSource
+mReferencedElementTracker
 .
 get
 (
 )
 )
 {
-mSource
+mReferencedElementTracker
 .
 get
 (
@@ -2752,7 +2752,7 @@ this
 )
 ;
 }
-mSource
+mReferencedElementTracker
 .
 Unlink
 (
