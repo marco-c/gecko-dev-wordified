@@ -1047,7 +1047,7 @@ void
 PaintThread
 :
 :
-SynchronizePaintTextures
+FinishedLayerTransaction
 (
 SyncObjectClient
 *
@@ -1059,11 +1059,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aSyncObject
 )
 ;
 RefPtr
@@ -1122,7 +1117,7 @@ NS_NewRunnableFunction
 PaintThread
 :
 :
-SyncTextureData
+EndAsyncLayerTransaction
 "
 [
 self
@@ -1138,7 +1133,7 @@ void
 self
 -
 >
-SyncTextureData
+EndAsyncLayerTransaction
 (
 cbc
 syncObject
@@ -1182,7 +1177,7 @@ void
 PaintThread
 :
 :
-SyncTextureData
+EndAsyncLayerTransaction
 (
 CompositorBridgeChild
 *
@@ -1199,11 +1194,11 @@ IsOnPaintThread
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 aSyncObject
 )
-;
+{
 aSyncObject
 -
 >
@@ -1211,6 +1206,7 @@ Synchronize
 (
 )
 ;
+}
 if
 (
 aBridge
