@@ -125,6 +125,7 @@ generate_dependencies
 from
 voluptuous
 import
+Optional
 Required
 transforms
 =
@@ -273,6 +274,15 @@ after
 )
 :
 basestring
+    
+Optional
+(
+'
+extra
+'
+)
+:
+object
 }
 )
 validate_jobs_schema_transform
