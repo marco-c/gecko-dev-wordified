@@ -2269,6 +2269,15 @@ quirks_mode
 )
 ;
 let
+window
+=
+document
+.
+window
+(
+)
+;
+let
 media
 =
 parse_media_query_list
@@ -2278,6 +2287,11 @@ context
 &
 mut
 css_parser
+window
+.
+css_error_reporter
+(
+)
 )
 ;
 let

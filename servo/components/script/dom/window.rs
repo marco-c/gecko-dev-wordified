@@ -8482,6 +8482,11 @@ context
 &
 mut
 parser
+self
+.
+css_error_reporter
+(
+)
 )
 ;
 let
