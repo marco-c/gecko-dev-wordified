@@ -1105,7 +1105,9 @@ lookups
 var
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -1371,7 +1373,9 @@ arr
 var
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
