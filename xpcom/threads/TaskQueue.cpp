@@ -387,11 +387,6 @@ mName
 aName
 )
 {
-MOZ_COUNT_CTOR
-(
-TaskQueue
-)
-;
 }
 TaskQueue
 :
@@ -437,11 +432,6 @@ mQueueMonitor
 MOZ_ASSERT
 (
 mIsShutdown
-)
-;
-MOZ_COUNT_DTOR
-(
-TaskQueue
 )
 ;
 }
