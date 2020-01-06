@@ -1429,6 +1429,9 @@ aLeaveSercureAlone
 bool
 &
 aSetCookie
+mozIThirdPartyUtil
+*
+aThirdPartyUtil
 )
 ;
 static

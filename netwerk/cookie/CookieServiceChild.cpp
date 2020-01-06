@@ -3088,6 +3088,7 @@ aFromHttp
 aChannel
 mLeaveSecureAlone
 canSetCookie
+mThirdPartyUtil
 )
 ;
 if
