@@ -906,6 +906,12 @@ mClip
 gfxContentType
 mContentType
 ;
+RefPtr
+<
+CapturedBufferState
+>
+mBufferState
+;
 }
 ;
 enum
