@@ -219,7 +219,7 @@ dep_platform
 job_specs
 =
 [
-                 
+                
 {
                     
 '
@@ -249,45 +249,17 @@ format
 '
 macapp
 '
-                 
-}
-{
-                    
-'
-artifacts
-'
-:
-[
-'
-public
-/
-build
-/
-{
-locale
-}
-/
-target
-.
-complete
-.
-mar
-'
-]
-                    
-'
-format
-'
-:
-'
-mar
-'
-                 
+                
 }
             
 ]
         
-else
+elif
+'
+linux
+'
+in
+dep_platform
 :
             
 job_specs
@@ -362,6 +334,21 @@ mar
 }
             
 ]
+        
+else
+:
+            
+raise
+Exception
+(
+"
+Platform
+not
+implemented
+for
+signing
+"
+)
         
 upstream_artifacts
 =
