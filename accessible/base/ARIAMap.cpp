@@ -2807,6 +2807,7 @@ sWAIUnivStateMap
 =
 {
 eARIABusy
+eARIACurrent
 eARIADisabled
 eARIAExpanded
 /

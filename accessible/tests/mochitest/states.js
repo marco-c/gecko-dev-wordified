@@ -455,6 +455,13 @@ nsIAccessibleStates
 EXT_STATE_ACTIVE
 ;
 const
+EXT_STATE_CURRENT
+=
+nsIAccessibleStates
+.
+EXT_STATE_CURRENT
+;
+const
 EXT_STATE_DEFUNCT
 =
 nsIAccessibleStates
