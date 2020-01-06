@@ -3419,12 +3419,6 @@ mayResolveHook
 =
 MAY_RESOLVE_HOOK_NAME
             
-enumerateHook
-=
-"
-nullptr
-"
-            
 newEnumerateHook
 =
 NEW_ENUMERATE_HOOK_NAME
@@ -3463,7 +3457,7 @@ dom
 MayResolveGlobal
 "
             
-enumerateHook
+newEnumerateHook
 =
 "
 mozilla
@@ -3473,12 +3467,6 @@ dom
 :
 :
 EnumerateGlobal
-"
-            
-newEnumerateHook
-=
-"
-nullptr
 "
         
 else
@@ -3491,12 +3479,6 @@ nullptr
 "
             
 mayResolveHook
-=
-"
-nullptr
-"
-            
-enumerateHook
 =
 "
 nullptr
@@ -3556,9 +3538,7 @@ setProperty
 *
 /
               
-{
-enumerate
-}
+nullptr
 /
 *
 enumerate
@@ -3783,10 +3763,6 @@ else
 '
 nullptr
 '
-            
-enumerate
-=
-enumerateHook
             
 newEnumerate
 =
@@ -70320,62 +70296,6 @@ dedent
 "
 "
                 
-/
-/
-This
-is
-OK
-even
-though
-we
-'
-re
-a
-newEnumerate
-hook
-:
-this
-will
-                
-/
-/
-define
-the
-relevant
-properties
-on
-the
-global
-and
-the
-JS
-                
-/
-/
-engine
-will
-pick
-those
-up
-because
-it
-looks
-at
-the
-object
-'
-s
-                
-/
-/
-properties
-after
-this
-hook
-has
-returned
-.
-                
 if
 (
 !
@@ -70383,6 +70303,8 @@ EnumerateGlobal
 (
 cx
 obj
+properties
+enumerableOnly
 )
 )
 {
