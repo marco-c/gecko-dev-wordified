@@ -2065,6 +2065,8 @@ bool
 repeating
 bool
 legacy_syntax
+bool
+moz_legacy_syntax
 uint32_t
 stops
 )
