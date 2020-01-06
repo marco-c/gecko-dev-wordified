@@ -2398,6 +2398,13 @@ mProcess
 aHost
 )
 ;
+CompositorManagerChild
+:
+:
+OnGPUProcessLost
+(
+)
+;
 DestroyProcess
 (
 )
