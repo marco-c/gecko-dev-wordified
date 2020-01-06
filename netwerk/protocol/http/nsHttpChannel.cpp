@@ -37338,6 +37338,11 @@ user
 )
 )
 ;
+if
+(
+mTransactionPump
+)
+{
 mTransactionPump
 -
 >
@@ -37345,6 +37350,7 @@ Resume
 (
 )
 ;
+}
 return
 NS_OK
 ;
