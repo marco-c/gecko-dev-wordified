@@ -218,6 +218,10 @@ testeventmap
 [
 ]
         
+base_vs_ref
+=
+False
+        
 tpdisable_e10s
 =
 False
