@@ -765,6 +765,12 @@ GenericSpecifiedValues
 aGenericData
 )
 ;
+static
+bool
+IsVideoStatsEnabled
+(
+)
+;
 }
 ;
 }
