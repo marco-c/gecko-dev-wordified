@@ -991,6 +991,17 @@ GetMaxHeight
 (
 )
 ;
+const
+void
+*
+GetIOSurfacePtr
+(
+)
+{
+return
+mIOSurfacePtr
+;
+}
 private
 :
 friend

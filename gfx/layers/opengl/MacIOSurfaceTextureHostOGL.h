@@ -359,11 +359,13 @@ return
 this
 ;
 }
+virtual
 MacIOSurface
 *
 GetMacIOSurface
 (
 )
+override
 {
 return
 mSurface
