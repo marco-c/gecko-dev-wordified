@@ -59,7 +59,7 @@ Check
 the
 output
 of
-getAllGrids
+getGrids
 for
 the
 LayoutActor
@@ -440,7 +440,7 @@ grids
 yield
 layout
 .
-getAllGrids
+getGrids
 (
 walker
 .

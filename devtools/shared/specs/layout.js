@@ -171,7 +171,7 @@ flexbox
 )
 }
 }
-getAllGrids
+getGrids
 :
 {
 request
