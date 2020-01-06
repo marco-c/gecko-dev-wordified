@@ -1133,6 +1133,7 @@ None
 deviceRoot
 =
 remote_test_root
+                                    
 adbPath
 =
 adb_path
@@ -1153,6 +1154,7 @@ None
 deviceRoot
 =
 remote_test_root
+                                    
 adbPath
 =
 adb_path
