@@ -1044,6 +1044,12 @@ aDisplayListBuilder
 )
 override
 ;
+uint64_t
+GetRemoteLayersId
+(
+)
+const
+;
 NS_DISPLAY_DECL_NAME
 (
 "
