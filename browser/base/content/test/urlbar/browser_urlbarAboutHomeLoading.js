@@ -137,6 +137,7 @@ addEventListener
 "
 Initialized
 "
+async
 function
 (
 )
@@ -309,6 +310,7 @@ addEventListener
 "
 Initialized
 "
+async
 function
 (
 )
