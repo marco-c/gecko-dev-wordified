@@ -757,9 +757,16 @@ function
 (
 )
 {
+executeSoon
+(
+(
+)
+=
+>
 resolve
 (
 win
+)
 )
 ;
 }
