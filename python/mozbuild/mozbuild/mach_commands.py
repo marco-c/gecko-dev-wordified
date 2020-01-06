@@ -18257,11 +18257,6 @@ total
 =
 0
         
-files
-=
-[
-]
-        
 import
 re
         
@@ -18316,18 +18311,6 @@ total
 total
 +
 1
-                
-files
-.
-append
-(
-f
-[
-'
-file
-'
-]
-)
         
 if
 not
@@ -18367,7 +18350,7 @@ jobs
 )
 ]
 +
-files
+source
 +
 common_args
         
