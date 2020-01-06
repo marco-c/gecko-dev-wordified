@@ -531,18 +531,6 @@ use
 style
 :
 :
-computed_values
-:
-:
-text_shadow
-:
-:
-TextShadow
-;
-use
-style
-:
-:
 logical_geometry
 :
 :
@@ -646,6 +634,7 @@ computed
 LengthOrPercentageOrAuto
 NumberOrPercentage
 Position
+Shadow
 }
 ;
 use
@@ -3916,7 +3905,7 @@ text_shadow
 Option
 <
 &
-TextShadow
+Shadow
 >
 clip
 :
@@ -14255,7 +14244,7 @@ text_shadow
 Option
 <
 &
-TextShadow
+Shadow
 >
 clip
 :
