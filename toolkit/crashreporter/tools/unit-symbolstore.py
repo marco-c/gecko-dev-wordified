@@ -1188,6 +1188,8 @@ dict
 buildconfig
 .
 substs
+.
+_dict
 '
 {
 '

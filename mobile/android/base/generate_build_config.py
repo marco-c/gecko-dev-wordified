@@ -259,6 +259,10 @@ update
 buildconfig
 .
 substs
+.
+iteritems
+(
+)
 )
     
 DEFINES
@@ -268,6 +272,10 @@ dict
 buildconfig
 .
 defines
+.
+iteritems
+(
+)
 )
     
 for

@@ -1238,30 +1238,14 @@ MOZ_DEBUG_DEFINES
   
 env
 =
-{
-key
-:
-value
-for
-key
-value
-in
 buildconfig
 .
 defines
-.
-iteritems
-(
-)
-         
-if
-key
-not
-in
-buildconfig
-.
-non_global_defines
-}
+[
+'
+ALLDEFINES
+'
+]
   
 for
 define

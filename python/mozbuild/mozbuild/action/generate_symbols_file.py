@@ -183,6 +183,11 @@ update
 buildconfig
 .
 defines
+[
+'
+ALLDEFINES
+'
+]
 )
     
 if

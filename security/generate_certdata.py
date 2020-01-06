@@ -60,6 +60,8 @@ PERL
 '
 ]
 =
+str
+(
 buildconfig
 .
 substs
@@ -68,6 +70,7 @@ substs
 PERL
 '
 ]
+)
     
 output
 .

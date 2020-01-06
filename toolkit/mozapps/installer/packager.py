@@ -1848,6 +1848,11 @@ dict
 buildconfig
 .
 defines
+[
+'
+ALLDEFINES
+'
+]
 )
     
 if
