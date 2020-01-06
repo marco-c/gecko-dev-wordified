@@ -5683,6 +5683,7 @@ state
 .
 *
 /
+RobocopTarget
 public
 Editor
 edit
@@ -6629,6 +6630,7 @@ panel
 .
 *
 /
+RobocopTarget
 public
 String
 getDefaultPanelId
@@ -6686,6 +6688,7 @@ panel
 .
 *
 /
+RobocopTarget
 public
 void
 setDefault
@@ -7713,6 +7716,7 @@ instance
 .
 *
 /
+RobocopTarget
 public
 State
 apply
@@ -8516,6 +8520,7 @@ mBackend
 backend
 ;
 }
+RobocopTarget
 public
 State
 load
@@ -8696,6 +8701,7 @@ panelType
 ;
 }
 }
+RobocopTarget
 public
 static
 String
@@ -8826,6 +8832,7 @@ flags
 )
 ;
 }
+RobocopTarget
 public
 static
 HomeConfig
