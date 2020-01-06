@@ -866,7 +866,7 @@ value
 >
 :
 :
-type
+Type
 typename
 mozilla
 :
