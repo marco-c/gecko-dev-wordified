@@ -154,7 +154,7 @@ namespace
 dom
 {
 class
-FileHandleBase
+IDBFileHandle
 ;
 namespace
 indexedDB
@@ -948,7 +948,7 @@ mozilla
 dom
 :
 :
-FileHandleBase
+IDBFileHandle
 *
 mCurrentFileHandle
 ;
