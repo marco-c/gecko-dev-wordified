@@ -675,12 +675,6 @@ None
         
 if
 labels
-or
-labels
-=
-=
-[
-]
 :
             
 config
