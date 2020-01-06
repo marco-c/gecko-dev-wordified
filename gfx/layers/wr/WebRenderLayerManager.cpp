@@ -165,6 +165,17 @@ mozilla
 /
 layers
 /
+ScrollingLayersHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 StackingContextHelper
 .
 h
