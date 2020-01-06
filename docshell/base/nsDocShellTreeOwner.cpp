@@ -361,13 +361,6 @@ h
 #
 include
 "
-nsIDOMHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLHtmlElement
 .
 h
