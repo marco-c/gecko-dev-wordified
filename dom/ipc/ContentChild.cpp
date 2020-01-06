@@ -3150,11 +3150,11 @@ LookAndFeelInt
 aLookAndFeelIntCache
 nsTArray
 <
-FontFamilyListEntry
+SystemFontListEntry
 >
 &
 &
-aFontFamilyList
+aFontList
 )
 {
 if
@@ -3176,11 +3176,11 @@ Move
 aLookAndFeelIntCache
 )
 ;
-mFontFamilies
+mFontList
 =
 Move
 (
-aFontFamilyList
+aFontList
 )
 ;
 gfx
