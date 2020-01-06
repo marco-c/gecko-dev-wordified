@@ -1475,16 +1475,6 @@ remains
 unstyled
 .
 )
-|
-aPeudoTag
-|
-and
-|
-aPseudoType
-|
-must
-match
-.
 already_AddRefed
 <
 ServoStyleContext
@@ -1499,9 +1489,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRules
 =
@@ -3498,9 +3485,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRules
 =

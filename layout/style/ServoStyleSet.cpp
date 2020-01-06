@@ -1807,7 +1807,6 @@ CSSPseudoElementType
 :
 :
 NotPseudo
-nullptr
 )
 ;
 }
@@ -3131,9 +3130,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRuleInclusion
 )
@@ -3398,7 +3394,6 @@ ResolveStyleLazilyInternal
 (
 aElement
 aPseudoType
-aPseudoTag
 aRuleInclusion
 ignoreExistingStyles
 )
@@ -7661,9 +7656,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRuleInclusion
 bool
