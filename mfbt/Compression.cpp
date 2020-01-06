@@ -316,7 +316,7 @@ isValid
 )
 ;
 return
-LZ4_compress
+LZ4_compress_default
 (
 aSource
 aDest
@@ -324,6 +324,14 @@ inputSizeChecked
 .
 value
 (
+)
+LZ4_compressBound
+(
+inputSizeChecked
+.
+value
+(
+)
 )
 )
 ;
@@ -382,7 +390,7 @@ isValid
 )
 ;
 return
-LZ4_compress_limitedOutput
+LZ4_compress_default
 (
 aSource
 aDest
