@@ -301,17 +301,6 @@ init
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_PHOTON_THEME
-)
-{
-return
-;
-}
 for
 (
 let
