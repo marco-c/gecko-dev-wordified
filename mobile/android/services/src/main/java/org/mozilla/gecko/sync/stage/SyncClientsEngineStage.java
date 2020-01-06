@@ -2071,6 +2071,17 @@ addCommands
 r
 )
 ;
+telemetryStageCollector
+.
+getSyncCollector
+(
+)
+.
+addDevice
+(
+r
+)
+;
 }
 RepoUtils
 .
