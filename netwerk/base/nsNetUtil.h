@@ -3481,8 +3481,12 @@ in
 test_cookiejars_safebrowsing
 .
 js
+and
 /
 /
+nsUrlClassifierHashCompleter
+.
+js
 should
 also
 be
