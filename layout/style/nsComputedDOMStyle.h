@@ -3345,6 +3345,14 @@ DoGetWindowDragging
 (
 )
 ;
+already_AddRefed
+<
+CSSValue
+>
+DoGetWindowOpacity
+(
+)
+;
 /
 *
 Column

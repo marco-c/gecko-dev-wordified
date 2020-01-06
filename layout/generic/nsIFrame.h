@@ -28470,6 +28470,13 @@ IsScrolledOutOfView
 (
 )
 ;
+virtual
+void
+UpdateWidgetProperties
+(
+)
+{
+}
 /
 *
 *
