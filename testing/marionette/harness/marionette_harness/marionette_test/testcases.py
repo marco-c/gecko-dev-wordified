@@ -2112,6 +2112,7 @@ marionette
 .
 execute_script
 (
+r
 "
 dump
 (
@@ -2123,6 +2124,8 @@ START
 {
 0
 }
+\
+n
 '
 )
 "
@@ -2213,6 +2216,7 @@ marionette
 .
 execute_script
 (
+r
 "
 dump
 (
@@ -2224,6 +2228,8 @@ END
 {
 0
 }
+\
+n
 '
 )
 "
