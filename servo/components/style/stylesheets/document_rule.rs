@@ -131,7 +131,6 @@ cssparser
 Parser
 Token
 SourceLocation
-serialize_string
 }
 ;
 use
@@ -1384,9 +1383,10 @@ prefix
 )
 ?
 ;
-serialize_string
-(
 url_prefix
+.
+to_css
+(
 dest
 )
 ?
@@ -1422,9 +1422,10 @@ domain
 )
 ?
 ;
-serialize_string
-(
 domain
+.
+to_css
+(
 dest
 )
 ?
@@ -1460,9 +1461,10 @@ regexp
 )
 ?
 ;
-serialize_string
-(
 regex
+.
+to_css
+(
 dest
 )
 ?

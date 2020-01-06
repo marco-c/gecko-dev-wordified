@@ -113,8 +113,6 @@ cssparser
 AtRuleParser
 DeclarationListParser
 DeclarationParser
-Parser
-Token
 }
 ;
 use
@@ -122,7 +120,8 @@ cssparser
 :
 :
 {
-serialize_string
+Parser
+Token
 serialize_identifier
 }
 ;
@@ -2821,9 +2820,10 @@ s
 )
 =
 >
-serialize_string
-(
 s
+.
+to_css
+(
 dest
 )
 Symbol

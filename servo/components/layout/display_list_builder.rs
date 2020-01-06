@@ -20352,7 +20352,7 @@ cursor
 Keyword
 :
 :
-AutoCursor
+Auto
 )
 =
 >
@@ -20374,7 +20374,7 @@ cursor
 Keyword
 :
 :
-SpecifiedCursor
+Cursor
 (
 cursor
 )

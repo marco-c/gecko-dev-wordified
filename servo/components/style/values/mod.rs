@@ -115,7 +115,6 @@ RGBA
 Token
 Parser
 serialize_identifier
-serialize_string
 }
 ;
 use
@@ -1372,14 +1371,14 @@ atom
 )
 =
 >
-serialize_string
-(
-&
 atom
 .
 to_string
 (
 )
+.
+to_css
+(
 dest
 )
 }

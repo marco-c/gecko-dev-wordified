@@ -36152,7 +36152,7 @@ keyword
 Keyword
 :
 :
-AutoCursor
+Auto
 =
 >
 structs
@@ -36162,7 +36162,7 @@ NS_STYLE_CURSOR_AUTO
 Keyword
 :
 :
-SpecifiedCursor
+Cursor
 (
 cursor
 )
