@@ -19023,7 +19023,7 @@ remote
 .
 autostart
 "
-false
+true
 )
 ;
 pref
