@@ -69,8 +69,6 @@ MarionetteTestCase
     
 run_if_e10s
     
-skip_if_e10s
-    
 skip_if_mobile
     
 WindowManagerMixin
@@ -479,14 +477,6 @@ marionette
 .
 start_session
 (
-)
-    
-skip_if_e10s
-(
-"
-bug
-1360446
-"
 )
     
 def
