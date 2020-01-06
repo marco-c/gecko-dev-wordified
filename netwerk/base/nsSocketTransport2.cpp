@@ -3049,6 +3049,12 @@ mCallback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+nsSocketInputStream
+:
+:
+AsyncWait
+"
 callback
 target
 )
