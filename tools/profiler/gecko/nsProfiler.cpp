@@ -3288,10 +3288,6 @@ mWriter
 >
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 if

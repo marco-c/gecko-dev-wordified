@@ -574,7 +574,7 @@ StartBareList
 CollectionStyle
 aStyle
 =
-SingleLineStyle
+MultiLineStyle
 )
 {
 StartCollection

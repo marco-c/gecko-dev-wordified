@@ -345,6 +345,10 @@ aWriter
 .
 StartObjectElement
 (
+SpliceableJSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 {
