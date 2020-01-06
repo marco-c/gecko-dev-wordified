@@ -118,13 +118,6 @@ h
 #
 include
 "
-nsIStreamingProtocolController
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
