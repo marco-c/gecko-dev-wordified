@@ -1618,13 +1618,6 @@ h
 #
 include
 "
-ProfilerParent
-.
-h
-"
-#
-include
-"
 nsIBidiKeyboard
 .
 h
@@ -1912,6 +1905,13 @@ MOZ_GECKO_PROFILER
 include
 "
 nsIProfiler
+.
+h
+"
+#
+include
+"
+ProfilerParent
 .
 h
 "

@@ -251,12 +251,17 @@ Unused
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfilerParent
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
