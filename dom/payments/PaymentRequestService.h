@@ -258,6 +258,15 @@ uint32_t
 aActionType
 )
 ;
+bool
+IsBasicCardPayment
+(
+const
+nsAString
+&
+aRequestId
+)
+;
 FallibleTArray
 <
 nsCOMPtr
