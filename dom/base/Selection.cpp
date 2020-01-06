@@ -13031,7 +13031,6 @@ nsIFrame
 *
 aFrame
 nsPoint
-&
 aPoint
 )
 {
