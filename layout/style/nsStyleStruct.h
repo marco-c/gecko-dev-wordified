@@ -2712,6 +2712,16 @@ eStyleImageType_URL
 struct
 CachedBorderImageData
 {
+~
+CachedBorderImageData
+(
+)
+{
+PurgeCachedImages
+(
+)
+;
+}
 /
 /
 Caller
