@@ -1516,6 +1516,7 @@ category
 '
 testing
 '
+             
 description
 =
 '
@@ -2249,6 +2250,7 @@ flavors
 run_tests
 =
 [
+                    
 t
 for
 t
@@ -2510,7 +2512,7 @@ commands
 .
 dispatch
 (
-                    
+                
 m
 [
 '
@@ -2520,7 +2522,7 @@ mach_command
 self
 .
 _mach_context
-                    
+                
 test_objects
 =
 tests
@@ -2557,7 +2559,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -2590,7 +2592,7 @@ metavar
 '
 N
 '
-        
+                     
 help
 =
 '
@@ -2608,8 +2610,7 @@ more
 files
 or
 '
-\
-            
+                     
 '
 directories
 or
@@ -2623,8 +2624,7 @@ test
 suite
 is
 '
-\
-            
+                     
 '
 executed
 .
@@ -2640,9 +2640,6 @@ self
 params
 )
 :
-        
-import
-mozinfo
         
 from
 mozlog
@@ -2772,6 +2769,7 @@ path
 .
 join
 (
+                
 self
 .
 topsrcdir
@@ -3222,6 +3220,7 @@ category
 '
 testing
 '
+             
 description
 =
 '
@@ -3248,6 +3247,7 @@ action
 '
 store_true
 '
+                     
 help
 =
 '
@@ -3341,6 +3341,7 @@ js
 '
 src
 '
+                         
 '
 jit
 -
@@ -3481,6 +3482,7 @@ path
 .
 join
 (
+            
 self
 .
 bindir
@@ -3524,6 +3526,7 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
@@ -3544,6 +3547,7 @@ subprocess
 .
 call
 (
+            
 check_style_cmd
 cwd
 =
@@ -3585,6 +3589,7 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
@@ -3605,6 +3610,7 @@ subprocess
 .
 call
 (
+            
 check_masm_cmd
 cwd
 =
@@ -3650,6 +3656,7 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
@@ -3670,6 +3677,7 @@ subprocess
 .
 call
 (
+            
 check_js_msg_cmd
 cwd
 =
@@ -3686,6 +3694,8 @@ jstest_result
 and
 jsapi_tests_result
 and
+\
+            
 check_style_result
 and
 check_masm_result
@@ -3743,7 +3753,7 @@ metavar
 '
 N
 '
-        
+                     
 help
 =
 '
@@ -3763,8 +3773,7 @@ omitted
 the
 entire
 '
-\
-             
+                     
 '
 test
 suite
@@ -3787,31 +3796,6 @@ params
 import
 subprocess
         
-bin_suffix
-=
-'
-'
-        
-if
-sys
-.
-platform
-.
-startswith
-(
-'
-win
-'
-)
-:
-            
-bin_suffix
-=
-'
-.
-exe
-'
-        
 print
 (
 '
@@ -3831,6 +3815,7 @@ path
 .
 join
 (
+            
 self
 .
 bindir
@@ -4203,6 +4188,7 @@ linux64
 '
 mac
 '
+                                 
 '
 macosx64
 '
@@ -4719,6 +4705,7 @@ temp_path
 =
 download_mozinfo
 (
+                
 kwargs
 [
 '
@@ -4778,6 +4765,7 @@ commands
 .
 dispatch
 (
+                    
 suite_name
 self
 .
@@ -4891,6 +4879,7 @@ platform
 '
 %
 (
+                            
 test_path
 flavor
 )
@@ -4921,6 +4910,7 @@ d
 '
 %
 (
+                            
 test_path
 flavor
 this_chunk
@@ -5008,7 +4998,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -5031,7 +5021,7 @@ nargs
 argparse
 .
 REMAINDER
-        
+                     
 help
 =
 '
@@ -5052,7 +5042,7 @@ CommandArgument
 -
 branches
 '
-        
+                     
 default
 =
 '
@@ -5064,7 +5054,7 @@ mozilla
 inbound
 autoland
 '
-        
+                     
 help
 =
 '
@@ -5072,6 +5062,9 @@ Report
 for
 named
 branches
+'
+                          
+'
 (
 default
 :
@@ -5093,7 +5086,7 @@ CommandArgument
 -
 start
 '
-        
+                     
 default
 =
 (
@@ -5107,6 +5100,7 @@ timedelta
 (
 7
 )
+                              
 )
 .
 strftime
@@ -5122,7 +5116,7 @@ m
 d
 "
 )
-        
+                     
 help
 =
 '
@@ -5145,7 +5139,7 @@ CommandArgument
 -
 end
 '
-        
+                     
 default
 =
 date
@@ -5167,7 +5161,7 @@ m
 d
 "
 )
-        
+                     
 help
 =
 '
@@ -5197,7 +5191,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5225,7 +5219,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5254,7 +5248,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5283,7 +5277,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5309,7 +5303,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5447,7 +5441,7 @@ self
 .
 show_durations
 and
-            
+                
 not
 self
 .
@@ -7004,7 +6998,7 @@ ActiveData
 .
 "
 %
-                
+                  
 self
 .
 activedata_test_name
@@ -7030,7 +7024,7 @@ s
 !
 "
 %
-                
+                  
 self
 .
 test_name
@@ -7524,7 +7518,7 @@ and
 s
 "
 %
-            
+              
 (
 self
 .
@@ -7714,7 +7708,7 @@ failures
 run
 "
 %
-                
+                  
 (
 total_failures
 total_runs
@@ -7759,7 +7753,7 @@ failures
 run
 "
 %
-                    
+                      
 (
 worst_platform
 worst_failures
@@ -7801,7 +7795,7 @@ ActiveData
 query
 =
 {
-	    
+            
 "
 from
 "
@@ -7817,13 +7811,13 @@ format
 "
 list
 "
-	    
+            
 "
 limit
 "
 :
 100
-	    
+            
 "
 groupby
 "
@@ -7845,13 +7839,13 @@ run
 type
 "
 ]
-	    
+            
 "
 select
 "
 :
 [
-		
+                
 {
 "
 value
@@ -7862,6 +7856,7 @@ result
 .
 duration
 "
+                    
 "
 aggregate
 "
@@ -7877,7 +7872,7 @@ name
 average
 "
 }
-		
+                
 {
 "
 value
@@ -7903,7 +7898,7 @@ name
 min
 "
 }
-		
+                
 {
 "
 value
@@ -7929,7 +7924,7 @@ name
 max
 "
 }
-		
+                
 {
 "
 aggregate
@@ -7939,9 +7934,9 @@ aggregate
 count
 "
 }
-	    
+            
 ]
-	    
+            
 "
 where
 "
@@ -7970,7 +7965,7 @@ T
 "
 }
 }
-		
+                
 {
 "
 eq
@@ -8060,7 +8055,7 @@ end
 }
 }
 }
-	    
+            
 ]
 }
         
@@ -8095,7 +8090,7 @@ and
 s
 "
 %
-            
+              
 (
 self
 .
