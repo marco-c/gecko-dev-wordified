@@ -238,6 +238,9 @@ BindAnglePlanes
 class
 GLContext
 ;
+class
+GLBlitHelper
+;
 bool
 GuessDivisors
 (
