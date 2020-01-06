@@ -718,7 +718,7 @@ ExtensionError
 (
 Invalid
 contextual
-identitiy
+identity
 :
 {
 cookieStoreId
@@ -899,7 +899,7 @@ ExtensionError
 (
 Invalid
 contextual
-identitiy
+identity
 :
 {
 cookieStoreId
@@ -929,7 +929,7 @@ ExtensionError
 (
 Invalid
 contextual
-identitiy
+identity
 :
 {
 cookieStoreId
@@ -1024,7 +1024,7 @@ new
 ExtensionError
 (
 Contextual
-identitiy
+identity
 failed
 to
 update
@@ -1072,7 +1072,7 @@ ExtensionError
 (
 Invalid
 contextual
-identitiy
+identity
 :
 {
 cookieStoreId
@@ -1102,7 +1102,7 @@ ExtensionError
 (
 Invalid
 contextual
-identitiy
+identity
 :
 {
 cookieStoreId
@@ -1149,7 +1149,7 @@ new
 ExtensionError
 (
 Contextual
-identitiy
+identity
 failed
 to
 remove
