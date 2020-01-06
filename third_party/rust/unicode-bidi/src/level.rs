@@ -140,6 +140,7 @@ details
 /
 /
 !
+<
 http
 :
 /
@@ -156,6 +157,7 @@ tr9
 /
 #
 BD2
+>
 use
 std
 :
@@ -291,6 +293,7 @@ Error
 /
 /
 /
+<
 http
 :
 /
@@ -307,6 +310,7 @@ tr9
 /
 #
 BD2
+>
 #
 [
 derive
@@ -327,7 +331,7 @@ cfg_attr
 feature
 =
 "
-with_serde
+serde
 "
 derive
 (
@@ -1145,11 +1149,13 @@ Level
 :
 new_explicit
 (
+(
 self
 .
 0
 +
 2
+)
 &
 !
 1
@@ -2834,7 +2840,7 @@ all
 feature
 =
 "
-with_serde
+serde
 "
 test
 )

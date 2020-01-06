@@ -1327,7 +1327,6 @@ text
 >
 {
 let
-mut
 parts
 =
 &

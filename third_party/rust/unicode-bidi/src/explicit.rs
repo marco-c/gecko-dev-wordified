@@ -125,6 +125,7 @@ Directions
 /
 /
 !
+<
 http
 :
 /
@@ -141,6 +142,7 @@ tr9
 /
 #
 Explicit_Levels_and_Directions
+>
 use
 super
 :
@@ -216,6 +218,18 @@ char
 in
 text
 .
+#
+[
+cfg_attr
+(
+feature
+=
+"
+flame_it
+"
+flame
+)
+]
 pub
 fn
 compute
@@ -249,7 +263,7 @@ BidiClass
 ]
 )
 {
-assert
+assert_eq
 !
 (
 text
@@ -257,8 +271,6 @@ text
 len
 (
 )
-=
-=
 original_classes
 .
 len
@@ -268,6 +280,7 @@ len
 ;
 /
 /
+<
 http
 :
 /
@@ -284,6 +297,7 @@ tr9
 /
 #
 X1
+>
 let
 mut
 stack
@@ -633,6 +647,7 @@ overflow_embedding_count
 }
 /
 /
+<
 http
 :
 /
@@ -649,6 +664,7 @@ tr9
 /
 #
 X6a
+>
 PDI
 =
 >
@@ -698,6 +714,8 @@ pop
 (
 )
 {
+None
+|
 Some
 (
 Status
@@ -712,10 +730,6 @@ Isolate
 .
 }
 )
-=
->
-break
-None
 =
 >
 break
@@ -787,6 +801,7 @@ _
 }
 /
 /
+<
 http
 :
 /
@@ -803,6 +818,7 @@ tr9
 /
 #
 X7
+>
 PDF
 =
 >
@@ -915,6 +931,7 @@ BN
 }
 /
 /
+<
 http
 :
 /
@@ -931,6 +948,7 @@ tr9
 /
 #
 X6
+>
 _
 =
 >
@@ -1138,10 +1156,6 @@ push
 Status
 {
 level
-:
-level
-status
-:
 status
 }
 )

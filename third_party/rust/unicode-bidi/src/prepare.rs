@@ -125,6 +125,7 @@ Processing
 /
 /
 !
+<
 http
 :
 /
@@ -141,6 +142,7 @@ tr9
 /
 #
 Preparations_for_Implicit_Processing
+>
 use
 std
 :
@@ -375,6 +377,18 @@ their
 first
 characters
 .
+#
+[
+cfg_attr
+(
+feature
+=
+"
+flame_it
+"
+flame
+)
+]
 pub
 fn
 isolating_run_sequences
@@ -423,6 +437,7 @@ sequences
 .
 /
 /
+<
 http
 :
 /
@@ -439,6 +454,7 @@ tr9
 /
 #
 BD13
+>
 let
 mut
 sequences
@@ -518,13 +534,12 @@ len
 assert
 !
 (
+!
 stack
 .
-len
+is_empty
 (
 )
->
-0
 )
 ;
 let
@@ -689,13 +704,12 @@ filter
 |
 seq
 |
+!
 seq
 .
-len
+is_empty
 (
 )
->
-0
 )
 )
 ;
@@ -713,6 +727,7 @@ sequence
 .
 /
 /
+<
 http
 :
 /
@@ -729,6 +744,7 @@ tr9
 /
 #
 X10
+>
 sequences
 .
 into_iter
@@ -1015,6 +1031,7 @@ paragraph
 /
 /
 /
+<
 http
 :
 /
@@ -1031,6 +1048,7 @@ tr9
 /
 #
 BD7
+>
 fn
 level_runs
 (
@@ -1054,7 +1072,7 @@ Vec
 LevelRun
 >
 {
-assert
+assert_eq
 !
 (
 levels
@@ -1062,8 +1080,6 @@ levels
 len
 (
 )
-=
-=
 original_classes
 .
 len
@@ -1085,12 +1101,9 @@ new
 if
 levels
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 runs
@@ -1132,8 +1145,8 @@ original_classes
 i
 ]
 )
-{
-if
+&
+&
 levels
 [
 i
@@ -1177,7 +1190,6 @@ i
 ;
 }
 }
-}
 runs
 .
 push
@@ -1213,6 +1225,7 @@ X9
 /
 /
 /
+<
 http
 :
 /
@@ -1229,6 +1242,7 @@ tr9
 /
 #
 X9
+>
 pub
 fn
 removed_by_x9
@@ -1393,6 +1407,7 @@ L
 /
 /
 From
+<
 http
 :
 /
@@ -1409,6 +1424,7 @@ tr9
 /
 #
 BD13
+>
 #
 [
 cfg_attr
@@ -2037,6 +2053,7 @@ vec
 /
 /
 From
+<
 http
 :
 /
@@ -2053,6 +2070,7 @@ tr9
 /
 #
 X10
+>
 #
 [
 cfg_attr

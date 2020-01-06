@@ -498,10 +498,10 @@ as_bytes
 ;
 if
 bytes
-=
-=
-[
-]
+.
+is_empty
+(
+)
 {
 Err
 (

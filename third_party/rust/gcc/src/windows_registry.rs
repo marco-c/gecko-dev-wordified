@@ -857,6 +857,17 @@ version
 of
 Visual
 Studio
+#
+[
+derive
+(
+Debug
+PartialEq
+Eq
+Copy
+Clone
+)
+]
 pub
 enum
 VsVers

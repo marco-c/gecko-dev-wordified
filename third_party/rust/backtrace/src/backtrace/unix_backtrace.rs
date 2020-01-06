@@ -225,7 +225,6 @@ pub
 fn
 trace
 (
-mut
 cb
 :
 &

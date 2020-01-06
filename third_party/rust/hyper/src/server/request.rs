@@ -300,7 +300,6 @@ pub
 fn
 new
 (
-mut
 stream
 :
 &

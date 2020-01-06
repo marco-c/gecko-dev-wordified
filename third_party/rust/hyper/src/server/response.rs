@@ -1359,7 +1359,6 @@ pub
 fn
 send
 (
-mut
 self
 body
 :
