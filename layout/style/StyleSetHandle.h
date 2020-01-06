@@ -1014,9 +1014,11 @@ InvalidateStyleForCSSRuleChanges
 )
 ;
 inline
-bool
+nsRestyleHint
 MediumFeaturesChanged
 (
+bool
+aViewportChanged
 )
 ;
 inline
