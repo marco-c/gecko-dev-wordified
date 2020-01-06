@@ -19138,6 +19138,8 @@ nsACString
 aName
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 BookmarkData
@@ -19158,6 +19160,12 @@ rv
 rv
 )
 ;
+if
+(
+!
+aDontUpdateLastModified
+)
+{
 bookmark
 .
 lastModified
@@ -19189,6 +19197,7 @@ rv
 rv
 )
 ;
+}
 NOTIFY_OBSERVERS
 (
 mCanNotify
@@ -19294,6 +19303,7 @@ OnItemAnnotationSet
 aItemId
 aName
 aSource
+false
 )
 ;
 NS_ENSURE_SUCCESS

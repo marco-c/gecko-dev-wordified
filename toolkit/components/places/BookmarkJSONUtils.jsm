@@ -3402,7 +3402,7 @@ lastModified
 =
 node
 .
-dataAdded
+dateAdded
 )
 {
 node

@@ -1313,6 +1313,8 @@ uint16_t
 aExpiration
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 AUTO_PROFILER_LABEL
@@ -1454,6 +1456,7 @@ valueInt
 aFlags
 aExpiration
 aSource
+aDontUpdateLastModified
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1528,6 +1531,7 @@ valueLong
 aFlags
 aExpiration
 aSource
+aDontUpdateLastModified
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1594,6 +1598,7 @@ valueDouble
 aFlags
 aExpiration
 aSource
+aDontUpdateLastModified
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1696,6 +1701,7 @@ stringValue
 aFlags
 aExpiration
 aSource
+aDontUpdateLastModified
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1795,6 +1801,8 @@ uint16_t
 aExpiration
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 NS_ENSURE_ARG_MIN
@@ -1839,6 +1847,7 @@ OnItemAnnotationSet
 aItemId
 aName
 aSource
+aDontUpdateLastModified
 )
 )
 ;
@@ -2049,6 +2058,8 @@ uint16_t
 aExpiration
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 NS_ENSURE_ARG_MIN
@@ -2093,6 +2104,7 @@ OnItemAnnotationSet
 aItemId
 aName
 aSource
+aDontUpdateLastModified
 )
 )
 ;
@@ -2303,6 +2315,8 @@ uint16_t
 aExpiration
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 NS_ENSURE_ARG_MIN
@@ -2347,6 +2361,7 @@ OnItemAnnotationSet
 aItemId
 aName
 aSource
+aDontUpdateLastModified
 )
 )
 ;
@@ -2557,6 +2572,8 @@ uint16_t
 aExpiration
 uint16_t
 aSource
+bool
+aDontUpdateLastModified
 )
 {
 NS_ENSURE_ARG_MIN
@@ -2601,6 +2618,7 @@ OnItemAnnotationSet
 aItemId
 aName
 aSource
+aDontUpdateLastModified
 )
 )
 ;
@@ -7965,6 +7983,7 @@ OnItemAnnotationSet
 aDestItemId
 annoName
 aSource
+false
 )
 )
 ;

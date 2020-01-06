@@ -8559,6 +8559,7 @@ PU_setAnnotationsForItem
 aItemId
 aAnnos
 aSource
+aDontUpdateLastModified
 )
 {
 var
@@ -8663,6 +8664,7 @@ value
 flags
 expires
 aSource
+aDontUpdateLastModified
 )
 ;
 }
