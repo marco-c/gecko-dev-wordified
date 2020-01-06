@@ -1046,10 +1046,12 @@ js
 "
 )
 "
-sdk
+devtools
 /
-util
+shared
 /
+generate
+-
 uuid
 "
 :
