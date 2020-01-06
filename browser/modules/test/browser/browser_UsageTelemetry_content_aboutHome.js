@@ -737,7 +737,7 @@ Services
 .
 telemetry
 .
-snapshotBuiltinEvents
+snapshotEvents
 (
 Ci
 .

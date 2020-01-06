@@ -1080,7 +1080,7 @@ Services
 .
 telemetry
 .
-snapshotBuiltinEvents
+snapshotEvents
 (
 Ci
 .
@@ -1480,7 +1480,7 @@ Services
 .
 telemetry
 .
-snapshotBuiltinEvents
+snapshotEvents
 (
 Ci
 .
@@ -2499,7 +2499,7 @@ Services
 .
 telemetry
 .
-snapshotBuiltinEvents
+snapshotEvents
 (
 Ci
 .
