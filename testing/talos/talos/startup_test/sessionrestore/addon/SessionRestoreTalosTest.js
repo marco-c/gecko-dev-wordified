@@ -785,7 +785,15 @@ win
 !
 win
 .
-gBrowser
+gBrowserInit
+|
+|
+!
+win
+.
+gBrowserInit
+.
+delayedStartupFinished
 )
 {
 /
