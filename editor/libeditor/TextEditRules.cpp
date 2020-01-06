@@ -4770,7 +4770,7 @@ aMaxLength
 {
 /
 /
-SetTextTransaction
+SetTextImpl
 only
 supports
 plain
