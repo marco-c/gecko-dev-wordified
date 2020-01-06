@@ -86,7 +86,7 @@ Hasher
 /
 The
 top
-12
+8
 bits
 of
 the
