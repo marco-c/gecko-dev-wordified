@@ -290,6 +290,8 @@ selectors
 index
 .
 html
+/
+/
 #
 !
 [
