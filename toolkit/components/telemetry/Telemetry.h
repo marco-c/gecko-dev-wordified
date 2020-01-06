@@ -1179,9 +1179,6 @@ recording
 for
 this
 histogram
-in
-this
-process
 at
 runtime
 .
