@@ -1100,6 +1100,7 @@ circ1
 .
 hit_test
 (
+&
 Point2D
 :
 :
@@ -1147,6 +1148,7 @@ circ2
 .
 hit_test
 (
+&
 Point2D
 :
 :
@@ -1210,6 +1212,7 @@ rect1
 .
 hit_test
 (
+&
 Point2D
 :
 :
@@ -1262,6 +1265,7 @@ rect2
 .
 hit_test
 (
+&
 Point2D
 :
 :
@@ -1329,6 +1333,7 @@ poly1
 .
 hit_test
 (
+&
 Point2D
 :
 :
@@ -1386,6 +1391,7 @@ poly2
 .
 hit_test
 (
+&
 Point2D
 :
 :
