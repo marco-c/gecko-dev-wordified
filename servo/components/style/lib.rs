@@ -1624,10 +1624,10 @@ skip
 1
 )
 {
-write
-!
-(
 dest
+.
+write_str
+(
 "
 "
 )
