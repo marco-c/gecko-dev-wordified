@@ -482,7 +482,6 @@ NUMBER
 new
 TestCase
 (
-SECTION
 "
 var
 NUMBER

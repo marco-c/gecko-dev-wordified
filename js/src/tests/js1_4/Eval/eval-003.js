@@ -498,7 +498,6 @@ equals
 new
 TestCase
 (
-SECTION
 "
 Call
 eval

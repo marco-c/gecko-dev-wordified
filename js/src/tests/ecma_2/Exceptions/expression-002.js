@@ -294,7 +294,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Get
 the

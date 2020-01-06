@@ -219,7 +219,6 @@ Assignment
 new
 TestCase
 (
-SECTION
 "
 SOMEVAR
 =

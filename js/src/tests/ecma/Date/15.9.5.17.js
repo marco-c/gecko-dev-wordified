@@ -239,7 +239,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -270,7 +269,6 @@ getUTCMinutes
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -325,7 +323,6 @@ msPerMinute
 new
 TestCase
 (
-SECTION
 "
 (
 new

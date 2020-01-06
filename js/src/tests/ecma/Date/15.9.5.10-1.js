@@ -212,7 +212,6 @@ TIME_NOW
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -243,7 +242,6 @@ getDate
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -317,7 +315,6 @@ msPerDay
 new
 TestCase
 (
-SECTION
 "
 (
 new

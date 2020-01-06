@@ -170,7 +170,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .

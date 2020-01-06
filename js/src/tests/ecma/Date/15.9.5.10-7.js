@@ -206,7 +206,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -237,7 +236,6 @@ getDate
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -311,7 +309,6 @@ msPerDay
 new
 TestCase
 (
-SECTION
 "
 (
 new

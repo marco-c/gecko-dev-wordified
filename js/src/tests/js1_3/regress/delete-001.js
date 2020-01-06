@@ -257,7 +257,6 @@ something
 new
 TestCase
 (
-SECTION
 "
 delete
 all

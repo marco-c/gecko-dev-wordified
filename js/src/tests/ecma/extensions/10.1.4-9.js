@@ -492,7 +492,6 @@ RESULT
 new
 TestCase
 (
-SECTION
 "
 NEW_PROPERTY
 =

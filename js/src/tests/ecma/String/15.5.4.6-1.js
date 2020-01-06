@@ -568,7 +568,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -630,7 +629,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -696,7 +694,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -767,7 +764,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -873,7 +869,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -979,7 +974,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1066,7 +1060,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1093,7 +1086,6 @@ TEST_STRING
 new
 TestCase
 (
-SECTION
 "
 String
 .

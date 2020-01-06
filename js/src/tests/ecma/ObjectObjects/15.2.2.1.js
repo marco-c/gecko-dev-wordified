@@ -385,7 +385,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -408,7 +407,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -473,7 +471,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -498,7 +495,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -573,7 +569,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -600,7 +595,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -670,7 +664,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -706,7 +699,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -731,7 +723,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -799,7 +790,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -832,7 +822,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -859,7 +848,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -929,7 +917,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -965,7 +952,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -988,7 +974,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1054,7 +1039,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1084,7 +1068,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1109,7 +1092,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1177,7 +1159,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1210,7 +1191,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1233,7 +1213,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1299,7 +1278,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1329,7 +1307,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1354,7 +1331,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1422,7 +1398,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1455,7 +1430,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1478,7 +1452,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1544,7 +1517,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1574,7 +1546,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1597,7 +1568,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1663,7 +1633,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1693,7 +1662,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1720,7 +1688,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 MYOB
 =
@@ -1790,7 +1757,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1904,7 +1870,6 @@ Math
 new
 TestCase
 (
-SECTION
 "
 myglobal
 =
@@ -1925,7 +1890,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 myobject
 =
@@ -1956,7 +1920,6 @@ myobject
 new
 TestCase
 (
-SECTION
 "
 myarray
 =
@@ -1982,7 +1945,6 @@ myarray
 new
 TestCase
 (
-SECTION
 "
 myboolean
 =
@@ -2008,7 +1970,6 @@ myboolean
 new
 TestCase
 (
-SECTION
 "
 mynumber
 =
@@ -2034,7 +1995,6 @@ mynumber
 new
 TestCase
 (
-SECTION
 "
 mystring
 =
@@ -2059,7 +2019,6 @@ mystring
 new
 TestCase
 (
-SECTION
 "
 myobject
 =
@@ -2085,7 +2044,6 @@ myobject
 new
 TestCase
 (
-SECTION
 "
 myfunction
 =
@@ -2111,7 +2069,6 @@ myfunction
 new
 TestCase
 (
-SECTION
 "
 mymath
 =

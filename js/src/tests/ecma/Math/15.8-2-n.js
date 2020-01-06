@@ -309,7 +309,6 @@ Math
 new
 TestCase
 (
-SECTION
 "
 MYMATH
 =

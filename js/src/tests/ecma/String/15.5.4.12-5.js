@@ -378,7 +378,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -447,7 +446,6 @@ toUpperCase
 new
 TestCase
 (
-SECTION
 "
 var
 s

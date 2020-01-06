@@ -175,7 +175,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 break
 "

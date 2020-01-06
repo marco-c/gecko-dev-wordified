@@ -246,7 +246,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -312,7 +311,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -379,7 +377,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -434,7 +431,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -495,7 +491,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -568,7 +563,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -664,7 +658,6 @@ cd
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -718,7 +711,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -804,7 +796,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -858,7 +849,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "

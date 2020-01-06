@@ -382,7 +382,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 with
 loop
@@ -477,7 +476,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 with
 loop

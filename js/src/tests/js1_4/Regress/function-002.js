@@ -435,7 +435,6 @@ dec2
 new
 TestCase
 (
-SECTION
 "
 typeof
 f1
@@ -456,7 +455,6 @@ decompilation
 new
 TestCase
 (
-SECTION
 "
 f1
 .
@@ -487,7 +485,6 @@ dec1
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2
@@ -508,7 +505,6 @@ decompilation
 new
 TestCase
 (
-SECTION
 "
 f2
 .

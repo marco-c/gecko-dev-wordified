@@ -195,7 +195,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -267,7 +266,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 line
@@ -348,7 +346,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -437,7 +434,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -530,7 +526,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 .
@@ -605,7 +600,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghijklmnopqrstuvwxyz
@@ -671,7 +665,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -750,7 +743,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -871,7 +863,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 |
@@ -1000,7 +991,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 |

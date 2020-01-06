@@ -326,7 +326,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -347,7 +346,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

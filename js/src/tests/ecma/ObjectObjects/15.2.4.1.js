@@ -192,7 +192,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Object
 .

@@ -341,7 +341,6 @@ dependent
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -377,7 +376,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

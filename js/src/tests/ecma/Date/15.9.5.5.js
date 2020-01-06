@@ -270,7 +270,6 @@ UTC_FEB_29_2000
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -301,7 +300,6 @@ getYear
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -334,7 +332,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -378,7 +375,6 @@ getYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -430,7 +426,6 @@ getYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -482,7 +477,6 @@ getYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -534,7 +528,6 @@ getYear
 new
 TestCase
 (
-SECTION
 "
 (
 new

@@ -208,7 +208,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 cowboy
@@ -386,7 +385,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -512,7 +510,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -645,7 +642,6 @@ xa1111bx
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -714,7 +710,6 @@ B
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -839,7 +834,6 @@ a1111b
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -908,7 +902,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 "

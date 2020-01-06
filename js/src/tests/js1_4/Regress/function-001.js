@@ -261,7 +261,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -316,7 +315,6 @@ decompilation
 new
 TestCase
 (
-SECTION
 "
 typeof
 f1
@@ -339,7 +337,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2
@@ -360,7 +357,6 @@ decompilation
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2

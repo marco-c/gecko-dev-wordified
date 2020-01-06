@@ -581,7 +581,6 @@ AddCase
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -599,7 +598,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -626,7 +624,6 @@ four
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -656,7 +653,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -681,7 +677,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -709,7 +704,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 a
 .
@@ -733,7 +727,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -759,7 +752,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 a
 [
@@ -805,7 +797,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 a
 [

@@ -478,7 +478,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 PROPERTY
 [
 i
@@ -519,7 +518,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 PROPERTY
 [
 i

@@ -243,7 +243,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -266,7 +265,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -293,7 +291,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -324,7 +321,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -357,7 +353,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -382,7 +377,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -411,7 +405,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -436,7 +429,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -467,7 +459,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -496,7 +487,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -521,7 +511,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -550,7 +539,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -575,7 +563,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -609,7 +596,6 @@ boolean
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -634,7 +620,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -663,7 +648,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -688,7 +672,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -722,7 +705,6 @@ array
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -757,7 +739,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number

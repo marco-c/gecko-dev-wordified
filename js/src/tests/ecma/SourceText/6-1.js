@@ -498,7 +498,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -557,7 +556,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -619,7 +617,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -681,7 +678,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -742,7 +738,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 /
 /

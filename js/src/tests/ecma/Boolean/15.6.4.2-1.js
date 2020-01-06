@@ -243,7 +243,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -270,7 +269,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -297,7 +295,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -326,7 +323,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -357,7 +353,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -388,7 +383,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -415,7 +409,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -442,7 +435,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -473,7 +465,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -504,7 +495,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -533,7 +523,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -560,7 +549,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -593,7 +581,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -623,7 +610,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -652,7 +638,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -677,7 +662,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -708,7 +692,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -739,7 +722,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -770,7 +752,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -801,7 +782,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -832,7 +812,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -865,7 +844,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -898,7 +876,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -933,7 +910,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean

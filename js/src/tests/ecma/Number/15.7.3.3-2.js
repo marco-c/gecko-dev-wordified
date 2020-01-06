@@ -209,7 +209,6 @@ MIN_VAL
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -235,7 +234,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 delete
 (

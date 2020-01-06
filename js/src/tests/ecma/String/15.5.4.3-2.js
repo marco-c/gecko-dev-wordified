@@ -226,7 +226,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 valof
@@ -295,7 +294,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 valof
@@ -367,7 +365,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 valof
@@ -443,7 +440,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 valof
@@ -518,7 +514,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 valof

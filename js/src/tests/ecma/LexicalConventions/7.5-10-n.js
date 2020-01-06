@@ -199,7 +199,6 @@ hi
 new
 TestCase
 (
-SECTION
 "
 var
 123

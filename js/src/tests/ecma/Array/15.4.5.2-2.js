@@ -568,7 +568,6 @@ set_len
 new
 TestCase
 (
-SECTION
 "
 array
 =
@@ -668,7 +667,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 verify
 that
@@ -732,7 +730,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 verify
 that

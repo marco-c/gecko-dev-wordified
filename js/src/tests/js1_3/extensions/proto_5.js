@@ -417,7 +417,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 var
 pat
@@ -446,7 +445,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -463,7 +461,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -482,7 +479,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -499,7 +495,6 @@ machine
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -524,7 +519,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 var
 les
@@ -548,7 +542,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -565,7 +558,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -584,7 +576,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -600,7 +591,6 @@ machine
 new
 TestCase
 (
-SECTION
 "
 les
 .

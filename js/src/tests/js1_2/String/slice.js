@@ -712,7 +712,6 @@ false
 new
 TestCase
 (
-SECTION
 testname
 true
 passed

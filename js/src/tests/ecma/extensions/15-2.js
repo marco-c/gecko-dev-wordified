@@ -215,7 +215,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Object
 .
@@ -232,7 +231,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -249,7 +247,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -266,7 +263,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -283,7 +279,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -300,7 +295,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -317,7 +311,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 TestCase
 .
@@ -334,7 +327,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 eval
 .
@@ -351,7 +343,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -372,7 +363,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 String
 .

@@ -240,9 +240,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Number
 .
 prototype
@@ -270,9 +267,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 (
 new
 Number
@@ -307,9 +301,6 @@ valueOf
 new
 TestCase
 (
-"
-SECTION
-"
 "
 (
 new
@@ -349,9 +340,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 (
 new
 Number
@@ -386,9 +374,6 @@ valueOf
 new
 TestCase
 (
-"
-SECTION
-"
 "
 (
 new
@@ -431,9 +416,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 (
 new
 Number
@@ -474,9 +456,6 @@ valueOf
 new
 TestCase
 (
-"
-SECTION
-"
 "
 (
 new

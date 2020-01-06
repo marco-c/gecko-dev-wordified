@@ -211,7 +211,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 this
 +
@@ -275,7 +274,6 @@ i
 new
 TestCase
 (
-SECTION
 GLOBAL_PROPERTIES
 [
 i

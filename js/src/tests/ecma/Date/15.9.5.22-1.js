@@ -252,7 +252,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -283,7 +282,6 @@ getTimezoneOffset
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -337,7 +335,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new

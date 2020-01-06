@@ -346,7 +346,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 new
 Array
@@ -372,7 +371,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -397,7 +395,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -424,7 +421,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -455,7 +451,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Array
@@ -481,7 +476,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 new
 Array
@@ -506,7 +500,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -537,7 +530,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -566,7 +558,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -593,7 +584,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -620,7 +610,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -651,7 +640,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -678,7 +666,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -709,7 +696,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -739,7 +725,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -770,7 +755,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -801,7 +785,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new

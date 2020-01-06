@@ -178,7 +178,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -232,7 +231,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -291,7 +289,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -344,7 +341,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -380,7 +376,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -412,7 +407,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -452,7 +446,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -477,7 +470,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -507,7 +499,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -533,7 +524,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -571,7 +561,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 var
 abc
@@ -589,7 +578,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 var
 OB

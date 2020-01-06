@@ -475,7 +475,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 object
 [
@@ -506,7 +505,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 object
 .
@@ -624,7 +622,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 object
 [
@@ -655,7 +652,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 object
 .
@@ -760,7 +756,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 check
 break
@@ -781,7 +776,6 @@ checkBreak
 new
 TestCase
 (
-SECTION
 "
 properties
 .
@@ -796,7 +790,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 object
 [
@@ -919,7 +912,6 @@ result3
 new
 TestCase
 (
-SECTION
 "
 verify
 labeled
@@ -939,7 +931,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 verify
 statements
@@ -959,7 +950,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -983,7 +973,6 @@ result4
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -1097,7 +1086,6 @@ result3
 new
 TestCase
 (
-SECTION
 "
 verify
 labeled
@@ -1117,7 +1105,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 verify
 statements
@@ -1137,7 +1124,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -1161,7 +1147,6 @@ result4
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -1263,7 +1248,6 @@ result4
 new
 TestCase
 (
-SECTION
 "
 verify
 statements
@@ -1283,7 +1267,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -1307,7 +1290,6 @@ result4
 new
 TestCase
 (
-SECTION
 "
 verify
 break
@@ -1412,7 +1394,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 check
 break
@@ -1433,7 +1414,6 @@ checkBreak
 new
 TestCase
 (
-SECTION
 "
 properties
 .
@@ -1448,7 +1428,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 object
 [

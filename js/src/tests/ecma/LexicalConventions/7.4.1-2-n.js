@@ -185,7 +185,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 var
 true

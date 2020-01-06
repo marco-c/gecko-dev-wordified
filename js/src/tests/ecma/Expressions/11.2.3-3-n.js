@@ -440,7 +440,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 void

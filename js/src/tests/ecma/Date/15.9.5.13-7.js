@@ -254,7 +254,6 @@ msPerDay
 new
 TestCase
 (
-SECTION
 "
 (
 new

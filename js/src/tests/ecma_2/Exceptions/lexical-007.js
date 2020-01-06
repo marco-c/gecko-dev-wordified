@@ -234,7 +234,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 false
 =

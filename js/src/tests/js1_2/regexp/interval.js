@@ -199,7 +199,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -273,7 +272,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -336,7 +334,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -411,7 +408,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -477,7 +473,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -555,7 +550,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -623,7 +617,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -701,7 +694,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 aaabbbbcccddeeeefffff
@@ -778,7 +770,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 weirwerdf
@@ -853,7 +844,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 wqe456646dsff
@@ -931,7 +921,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 123123
@@ -1015,7 +1004,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 123123x123
@@ -1103,7 +1091,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 123123x123
@@ -1186,7 +1173,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx
@@ -1269,7 +1255,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx

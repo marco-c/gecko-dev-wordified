@@ -493,9 +493,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 MYOBJECT
 .
 toString

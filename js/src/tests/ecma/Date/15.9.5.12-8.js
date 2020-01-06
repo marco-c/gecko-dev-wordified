@@ -205,7 +205,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -236,7 +235,6 @@ getDay
 new
 TestCase
 (
-SECTION
 "
 Date
 .

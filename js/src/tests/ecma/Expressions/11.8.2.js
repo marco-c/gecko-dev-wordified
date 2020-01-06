@@ -162,7 +162,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 true
 >
@@ -177,7 +176,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 false
 >
@@ -192,7 +190,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 false
 >
@@ -207,7 +204,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 true
 >
@@ -222,7 +218,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -253,7 +248,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -284,7 +278,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -315,7 +308,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -346,7 +338,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -381,7 +372,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -417,7 +407,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -454,7 +443,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 new
 MyValueObject
@@ -485,7 +473,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyValueObject
@@ -516,7 +503,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyValueObject
@@ -547,7 +533,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 new
 MyStringObject
@@ -578,7 +563,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyStringObject
@@ -609,7 +593,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyStringObject
@@ -640,7 +623,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -663,7 +645,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 >
@@ -682,7 +663,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -701,7 +681,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 >
@@ -718,7 +697,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -735,7 +713,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Infinity
 >
@@ -752,7 +729,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Infinity
 >
@@ -773,7 +749,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Infinity
 >
@@ -792,7 +767,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 0
 >
@@ -809,7 +783,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -830,7 +803,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 0
 >
@@ -848,7 +820,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -870,7 +841,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 Infinity
@@ -891,7 +861,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 Infinity
@@ -909,7 +878,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 Infinity
@@ -933,7 +901,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 -
 Infinity
@@ -955,7 +922,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 '
 string
@@ -978,7 +944,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 '
 astring
@@ -1001,7 +966,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 '
 strings
@@ -1024,7 +988,6 @@ stringy
 new
 TestCase
 (
-SECTION
 "
 '
 strings
@@ -1047,7 +1010,6 @@ stringier
 new
 TestCase
 (
-SECTION
 "
 '
 string
@@ -1070,7 +1032,6 @@ astring
 new
 TestCase
 (
-SECTION
 "
 '
 string

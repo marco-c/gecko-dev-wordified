@@ -273,7 +273,6 @@ dowhile
 new
 TestCase
 (
-SECTION
 "
 DoWhile_1
 "
@@ -415,7 +414,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 DoWhile_2
 :
@@ -453,7 +451,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 DoWhile_2
 :
@@ -481,7 +478,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 DoWhile_2
 :
@@ -618,7 +614,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 DoWhile_3
 :
@@ -643,7 +638,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 DoWhile_3
 :
@@ -668,7 +662,6 @@ result2
 new
 TestCase
 (
-SECTION
 "
 DoWhile_3
 :
@@ -800,7 +793,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 DoWhile_4
 :
@@ -826,7 +818,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 DoWhile_4
 :
@@ -851,7 +842,6 @@ result2
 new
 TestCase
 (
-SECTION
 "
 DoWhile_4
 :
@@ -985,7 +975,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 DoWhile_5
 :
@@ -1016,7 +1005,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 DoWhile_5
 :
@@ -1044,7 +1032,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 DoWhile_5
 :

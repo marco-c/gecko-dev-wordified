@@ -341,7 +341,6 @@ dependent
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -377,7 +376,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc
 =
@@ -417,7 +415,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -432,7 +429,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -460,7 +456,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -479,7 +474,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 myfunc
 .
@@ -494,7 +488,6 @@ arguments
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -536,7 +529,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 OBJ
 .
@@ -557,7 +549,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 OBJ
 .
@@ -606,7 +597,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .
@@ -655,7 +645,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .
@@ -670,7 +659,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .
@@ -689,7 +677,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

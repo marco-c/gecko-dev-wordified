@@ -179,7 +179,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 a
 comment
@@ -229,7 +228,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 /
 /

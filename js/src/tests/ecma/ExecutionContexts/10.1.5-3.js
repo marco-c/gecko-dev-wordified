@@ -263,9 +263,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -283,9 +280,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -302,9 +296,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Function
 Code
@@ -323,9 +314,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -342,9 +330,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Function
 Code
@@ -363,9 +348,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -382,9 +364,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Function
 Code
@@ -403,9 +382,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -423,9 +399,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Function
 Code
 check
@@ -442,9 +415,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Function
 Code

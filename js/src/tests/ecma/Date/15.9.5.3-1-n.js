@@ -270,7 +270,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ

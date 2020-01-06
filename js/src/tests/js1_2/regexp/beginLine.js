@@ -194,7 +194,6 @@ ab
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -265,7 +264,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -331,7 +329,6 @@ xxx
 new
 TestCase
 (
-SECTION
 "
 '
 yyyyy
@@ -393,7 +390,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 ^
@@ -474,7 +470,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 ^

@@ -218,7 +218,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

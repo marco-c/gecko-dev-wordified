@@ -214,7 +214,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -239,7 +238,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -258,7 +256,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -277,7 +274,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -296,7 +292,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -321,7 +316,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -348,7 +342,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -371,7 +364,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -396,7 +388,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -421,7 +412,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -442,7 +432,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -463,7 +452,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -485,7 +473,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -508,7 +495,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -527,7 +513,6 @@ typeof
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -546,7 +531,6 @@ typeof
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -567,7 +551,6 @@ typeof
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -590,7 +573,6 @@ typeof
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -613,7 +595,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -638,7 +619,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -663,7 +643,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -690,7 +669,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -715,7 +693,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -742,7 +719,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -792,7 +768,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -811,7 +786,6 @@ Math
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -838,7 +812,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -863,7 +836,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -884,7 +856,6 @@ typeof
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -909,7 +880,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -940,7 +910,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -973,7 +942,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1004,7 +972,6 @@ primitive
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1043,7 +1010,6 @@ strings
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1068,7 +1034,6 @@ Function
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1087,7 +1052,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1106,7 +1070,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 typeof
 (

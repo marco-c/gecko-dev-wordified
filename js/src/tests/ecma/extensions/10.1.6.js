@@ -367,7 +367,6 @@ property
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -419,7 +418,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -474,7 +472,6 @@ property
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -516,7 +513,6 @@ Call
 new
 TestCase
 (
-SECTION
 "
 TestFunction
 (

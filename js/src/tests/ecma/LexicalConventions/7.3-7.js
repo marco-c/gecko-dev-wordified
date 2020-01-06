@@ -181,7 +181,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 single
 line

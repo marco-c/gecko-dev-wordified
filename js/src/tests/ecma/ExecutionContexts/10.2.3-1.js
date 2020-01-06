@@ -265,7 +265,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 var
 o
@@ -304,7 +303,6 @@ MyFunction
 new
 TestCase
 (
-SECTION
 "
 var
 o

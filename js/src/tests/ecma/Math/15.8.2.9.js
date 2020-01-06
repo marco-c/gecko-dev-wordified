@@ -289,7 +289,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -308,7 +307,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -329,7 +327,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -354,7 +351,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -375,7 +371,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -396,7 +391,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -417,7 +411,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -446,7 +439,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -478,7 +470,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -507,7 +498,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -539,7 +529,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -564,7 +553,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -609,7 +597,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -630,7 +617,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -671,7 +657,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -695,7 +680,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -723,7 +707,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -764,7 +747,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -789,7 +771,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -833,7 +814,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -859,7 +839,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -903,7 +882,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -928,7 +906,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -976,7 +953,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1004,7 +980,6 @@ floor
 new
 TestCase
 (
-SECTION
 "
 Math
 .

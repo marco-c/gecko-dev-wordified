@@ -171,7 +171,6 @@ crash
 new
 TestCase
 (
-SECTION
 "
 f
 .

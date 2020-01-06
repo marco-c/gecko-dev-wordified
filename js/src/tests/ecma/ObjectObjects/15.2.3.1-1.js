@@ -214,7 +214,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 str

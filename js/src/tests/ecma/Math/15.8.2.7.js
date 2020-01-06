@@ -191,7 +191,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -210,7 +209,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -231,7 +229,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -256,7 +253,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -277,7 +273,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -298,7 +293,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -323,7 +317,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -350,7 +343,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -380,7 +372,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -405,7 +396,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -426,7 +416,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -449,7 +438,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -474,7 +462,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -500,7 +487,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -527,7 +513,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -552,7 +537,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -580,7 +564,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -606,7 +589,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -634,7 +616,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -659,7 +640,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -686,7 +666,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -715,7 +694,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -748,7 +726,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -777,7 +754,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -815,7 +791,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -841,7 +816,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -879,7 +853,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -912,7 +885,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -949,7 +921,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -978,7 +949,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1007,7 +977,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1034,7 +1003,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1062,7 +1030,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1089,7 +1056,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1118,7 +1084,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1144,7 +1109,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1172,7 +1136,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1198,7 +1161,6 @@ cos
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1233,7 +1195,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1264,7 +1225,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1304,7 +1264,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1332,7 +1291,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1372,7 +1330,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1407,7 +1364,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -1446,7 +1402,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 Math
 .

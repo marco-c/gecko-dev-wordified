@@ -219,7 +219,6 @@ f3
 new
 TestCase
 (
-SECTION
 '
 f1
 =
@@ -250,7 +249,6 @@ f1
 new
 TestCase
 (
-SECTION
 '
 function
 f2
@@ -290,7 +288,6 @@ f2
 new
 TestCase
 (
-SECTION
 '
 f3
 (

@@ -260,7 +260,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 typeof
 String
@@ -279,7 +278,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 typeof
 String
@@ -302,7 +300,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 var
 x
@@ -342,7 +339,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -361,7 +357,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -381,7 +376,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -403,7 +397,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -426,7 +419,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -450,7 +442,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -473,7 +464,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -495,7 +485,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -518,7 +507,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -541,7 +529,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -565,7 +552,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -588,7 +574,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -611,7 +596,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -634,7 +618,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -657,7 +640,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -679,7 +661,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -702,7 +683,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -725,7 +705,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -748,7 +727,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -771,7 +749,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -794,7 +771,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -817,7 +793,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -840,7 +815,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -863,7 +837,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -886,7 +859,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -909,7 +881,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -932,7 +903,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -955,7 +925,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -978,7 +947,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1001,7 +969,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1024,7 +991,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1047,7 +1013,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1070,7 +1035,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1093,7 +1057,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1116,7 +1079,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1138,7 +1100,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1161,7 +1122,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1184,7 +1144,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1207,7 +1166,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1230,7 +1188,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1253,7 +1210,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1276,7 +1232,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1299,7 +1254,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1322,7 +1276,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1345,7 +1298,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1368,7 +1320,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1391,7 +1342,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1414,7 +1364,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1437,7 +1386,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1460,7 +1408,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1483,7 +1430,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1505,7 +1451,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1528,7 +1473,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1551,7 +1495,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1574,7 +1517,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1597,7 +1539,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1620,7 +1561,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1643,7 +1583,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1666,7 +1605,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1689,7 +1627,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1712,7 +1649,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1735,7 +1671,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1758,7 +1693,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1781,7 +1715,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1804,7 +1737,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1827,7 +1759,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1850,7 +1781,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1873,7 +1803,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1896,7 +1825,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1919,7 +1847,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1942,7 +1869,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1965,7 +1891,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -1988,7 +1913,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2011,7 +1935,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2034,7 +1957,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2057,7 +1979,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2080,7 +2001,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2103,7 +2023,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2126,7 +2045,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2150,7 +2068,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2173,7 +2090,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2196,7 +2112,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2219,7 +2134,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2241,7 +2155,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2264,7 +2177,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2287,7 +2199,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2310,7 +2221,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2333,7 +2243,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2356,7 +2265,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2379,7 +2287,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2402,7 +2309,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2425,7 +2331,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2448,7 +2353,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2471,7 +2375,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2494,7 +2397,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2517,7 +2419,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2540,7 +2441,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2563,7 +2463,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2586,7 +2485,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2609,7 +2507,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2632,7 +2529,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2655,7 +2551,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2678,7 +2573,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2701,7 +2595,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2724,7 +2617,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2747,7 +2639,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2770,7 +2661,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2793,7 +2683,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2816,7 +2705,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2839,7 +2727,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2862,7 +2749,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2885,7 +2771,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2908,7 +2793,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2933,7 +2817,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2957,7 +2840,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -2984,7 +2866,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3012,7 +2893,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3041,7 +2921,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3071,7 +2950,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3102,7 +2980,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3134,7 +3011,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3167,7 +3043,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3201,7 +3076,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3236,7 +3110,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3272,7 +3145,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3309,7 +3181,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3347,7 +3218,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3386,7 +3256,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3426,7 +3295,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3467,7 +3335,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3509,7 +3376,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3552,7 +3418,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -3596,7 +3461,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 String
 .

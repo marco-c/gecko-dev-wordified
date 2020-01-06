@@ -349,7 +349,6 @@ context
 new
 TestCase
 (
-SECTION
 "
 with
 (
@@ -408,7 +407,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -458,7 +456,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -504,7 +501,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -552,7 +548,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -602,7 +597,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -668,7 +662,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB

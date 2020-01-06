@@ -301,7 +301,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -332,7 +331,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -383,7 +381,6 @@ specified
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -438,7 +435,6 @@ supplied
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -540,7 +536,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -631,7 +626,6 @@ undefined
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -725,7 +719,6 @@ supplied
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -811,7 +804,6 @@ character
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -916,7 +908,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -1073,7 +1064,6 @@ ARGUMENTS
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -1098,7 +1088,6 @@ SEPARATOR
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1190,7 +1179,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 OB

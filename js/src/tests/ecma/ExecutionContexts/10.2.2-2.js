@@ -384,7 +384,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -411,7 +410,6 @@ THIS
 new
 TestCase
 (
-SECTION
 "
 this
 in
@@ -431,7 +429,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -452,7 +449,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -481,7 +477,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -509,7 +504,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -545,7 +539,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -578,7 +571,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -630,7 +622,6 @@ i
 new
 TestCase
 (
-SECTION
 GLOBAL_PROPERTIES
 [
 i

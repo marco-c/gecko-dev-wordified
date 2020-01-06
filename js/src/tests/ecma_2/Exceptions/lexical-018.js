@@ -266,7 +266,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 finally
 =

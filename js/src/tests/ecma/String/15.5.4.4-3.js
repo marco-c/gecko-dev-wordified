@@ -368,7 +368,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -396,7 +395,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -424,7 +422,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -452,7 +449,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -480,7 +476,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -508,7 +503,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -536,7 +530,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -572,7 +565,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -598,7 +590,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -624,7 +615,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -650,7 +640,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -687,7 +676,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -715,7 +703,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -743,7 +730,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -771,7 +757,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -799,7 +784,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -827,7 +811,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -855,7 +838,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo

@@ -194,7 +194,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdddddefg
@@ -260,7 +259,6 @@ o
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -316,7 +314,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -392,7 +389,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbbbbc
@@ -493,7 +489,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbbbbc
@@ -578,7 +573,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbbbbc
@@ -650,7 +644,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbbbbc
@@ -727,7 +720,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbbbbc

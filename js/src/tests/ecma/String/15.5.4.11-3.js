@@ -355,7 +355,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -424,7 +423,6 @@ toLowerCase
 new
 TestCase
 (
-SECTION
 "
 var
 s

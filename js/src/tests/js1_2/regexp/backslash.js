@@ -195,7 +195,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -266,7 +265,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -346,7 +344,6 @@ literal
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -449,7 +446,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 before
@@ -660,7 +656,6 @@ literal
 new
 TestCase
 (
-SECTION
 "
 '
 before

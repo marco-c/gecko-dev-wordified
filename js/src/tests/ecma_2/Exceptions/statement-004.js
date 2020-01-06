@@ -263,7 +263,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 bad
 left

@@ -352,7 +352,6 @@ addexp
 new
 TestCase
 (
-SECTION
 shiftexp
 +
 "

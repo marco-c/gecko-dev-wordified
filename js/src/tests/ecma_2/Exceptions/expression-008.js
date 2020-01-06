@@ -225,7 +225,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 NULL
 =

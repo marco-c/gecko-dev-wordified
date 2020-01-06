@@ -201,7 +201,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -237,7 +236,6 @@ LOG2E
 new
 TestCase
 (
-SECTION
 "
 delete
 (

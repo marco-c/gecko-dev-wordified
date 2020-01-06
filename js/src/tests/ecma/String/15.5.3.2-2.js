@@ -270,7 +270,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 MYSTRING
@@ -436,7 +435,6 @@ MYSTRING
 new
 TestCase
 (
-SECTION
 "
 MYSTRING
 .

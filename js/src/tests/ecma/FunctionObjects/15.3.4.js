@@ -267,7 +267,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 myfunc
@@ -332,7 +331,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Function
 .
@@ -353,7 +351,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Function
 .
@@ -376,7 +373,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 Function
 .
@@ -398,7 +394,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Function
 .

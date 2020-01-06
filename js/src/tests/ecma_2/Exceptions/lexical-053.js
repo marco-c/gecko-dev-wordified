@@ -262,7 +262,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 calling
 return

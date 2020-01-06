@@ -251,7 +251,6 @@ nb
 new
 TestCase
 (
-SECTION
 DESCRIPTION
 "
 error

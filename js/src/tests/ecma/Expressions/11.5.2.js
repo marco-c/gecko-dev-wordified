@@ -518,7 +518,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -543,7 +542,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -564,7 +562,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -585,7 +582,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -610,7 +606,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -648,7 +643,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -673,7 +667,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -698,7 +691,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -723,7 +715,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -762,7 +753,6 @@ infinity
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -783,7 +773,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -804,7 +793,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -827,7 +815,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -869,7 +856,6 @@ infinity
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -890,7 +876,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -913,7 +898,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -934,7 +918,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -957,7 +940,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -982,7 +964,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -1009,7 +990,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -1034,7 +1014,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -1075,7 +1054,6 @@ zero
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -1095,7 +1073,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -1114,7 +1091,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -1136,7 +1112,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -1157,7 +1132,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -1181,7 +1155,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -1204,7 +1177,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 Number
@@ -1230,7 +1202,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 Number
@@ -1267,7 +1238,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1286,7 +1256,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -1305,7 +1274,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -1326,7 +1294,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1356,7 +1323,6 @@ zero
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1371,7 +1337,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1389,7 +1354,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -1407,7 +1371,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -1445,7 +1408,6 @@ infinity
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -1462,7 +1424,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -1481,7 +1442,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -1500,7 +1460,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -1521,7 +1480,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1540,7 +1498,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 0
 /
@@ -1560,7 +1517,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -1582,7 +1538,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 0

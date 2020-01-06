@@ -250,7 +250,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -265,7 +264,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -296,7 +294,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -317,7 +314,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -334,7 +330,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -351,7 +346,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -368,7 +362,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -385,7 +378,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -405,7 +397,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -422,7 +413,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -442,7 +432,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -465,7 +454,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -488,7 +476,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -511,7 +498,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -534,7 +520,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 (

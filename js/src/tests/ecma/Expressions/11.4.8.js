@@ -214,7 +214,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 ~
 "
@@ -259,7 +258,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 ~
 "

@@ -434,7 +434,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 newJavaValue
 (
@@ -452,7 +451,6 @@ result
 new
 TestCase
 (
-SECTION
 "
 newJavaValue
 (

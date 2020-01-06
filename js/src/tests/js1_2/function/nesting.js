@@ -198,7 +198,6 @@ outer
 new
 TestCase
 (
-SECTION
 "
 outer
 :
@@ -211,7 +210,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 outer
 :
@@ -239,7 +237,6 @@ inner
 new
 TestCase
 (
-SECTION
 "
 inner
 :
@@ -252,7 +249,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 inner
 :
@@ -274,7 +270,6 @@ inner_func
 new
 TestCase
 (
-SECTION
 "
 outer
 :
@@ -287,7 +282,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 outer
 :

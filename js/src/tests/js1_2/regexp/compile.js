@@ -213,7 +213,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 (
 compile
@@ -265,7 +264,6 @@ regularExpression
 new
 TestCase
 (
-SECTION
 "
 source
 of
@@ -322,7 +320,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 global
 of
@@ -361,7 +358,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 ignoreCase
 of
@@ -428,7 +424,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 (
 compile
@@ -480,7 +475,6 @@ regularExpression
 new
 TestCase
 (
-SECTION
 "
 source
 of
@@ -537,7 +531,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 global
 of
@@ -576,7 +569,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 ignoreCase
 of

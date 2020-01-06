@@ -221,7 +221,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 case

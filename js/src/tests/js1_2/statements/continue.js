@@ -226,7 +226,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -330,7 +329,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -400,7 +398,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -511,7 +508,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -584,7 +580,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -699,7 +694,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 "
 continue

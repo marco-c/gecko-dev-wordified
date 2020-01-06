@@ -223,7 +223,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 null
 .

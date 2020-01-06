@@ -280,7 +280,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 0
 >
@@ -301,7 +300,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 +
 0
@@ -322,7 +320,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -343,7 +340,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 '
 Infinity
@@ -366,7 +362,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 '
 -
@@ -391,7 +386,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 '
 +
@@ -416,7 +410,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -439,7 +432,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -462,7 +454,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -485,7 +476,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -508,7 +498,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 -
 Number
@@ -532,7 +521,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -555,7 +543,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -580,7 +567,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 >
@@ -599,7 +585,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -622,7 +607,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -653,7 +637,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -678,7 +661,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 2147483647
 >
@@ -700,7 +682,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 2147483648
 >
@@ -722,7 +703,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 2147483649
 >
@@ -744,7 +724,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 4294967295
 >
@@ -766,7 +745,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 4294967296
 >
@@ -788,7 +766,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 4294967297
 >
@@ -810,7 +787,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483647
@@ -835,7 +811,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483648
@@ -860,7 +835,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483649
@@ -885,7 +859,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967295
@@ -910,7 +883,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967296
@@ -935,7 +907,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967297
@@ -960,7 +931,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483647
@@ -986,7 +956,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483648
@@ -1012,7 +981,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483649
@@ -1038,7 +1006,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967295
@@ -1064,7 +1031,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967296
@@ -1090,7 +1056,6 @@ ToUint32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967297

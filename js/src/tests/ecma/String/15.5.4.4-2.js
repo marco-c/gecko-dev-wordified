@@ -346,7 +346,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -410,7 +409,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -474,7 +472,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -538,7 +535,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -602,7 +598,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -665,7 +660,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -730,7 +724,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -794,7 +787,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -858,7 +850,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -899,7 +890,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -940,7 +930,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -983,7 +972,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1026,7 +1014,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1071,7 +1058,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1116,7 +1102,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1162,7 +1147,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1208,7 +1192,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1254,7 +1237,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1300,7 +1282,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1346,7 +1327,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1392,7 +1372,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1438,7 +1417,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1484,7 +1462,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1530,7 +1507,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1576,7 +1552,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1621,7 +1596,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1683,7 +1657,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1729,7 +1702,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1775,7 +1747,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1821,7 +1792,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1867,7 +1837,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1913,7 +1882,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -1959,7 +1927,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2005,7 +1972,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2050,7 +2016,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2096,7 +2061,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2142,7 +2106,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2188,7 +2151,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2234,7 +2196,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2280,7 +2241,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -2326,7 +2286,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB

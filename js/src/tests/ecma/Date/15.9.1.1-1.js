@@ -386,7 +386,6 @@ CURRENT_YEAR
 new
 TestCase
 (
-SECTION
 "
 new
 Date

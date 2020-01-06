@@ -326,7 +326,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -383,7 +382,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -402,7 +400,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -439,7 +436,6 @@ tests
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -462,7 +458,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Number
 .

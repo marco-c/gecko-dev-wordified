@@ -433,7 +433,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 3
 .
@@ -457,7 +456,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 3

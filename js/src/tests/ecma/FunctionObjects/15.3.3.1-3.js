@@ -227,7 +227,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 delete
 Function
@@ -244,7 +243,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 delete
 Function

@@ -272,7 +272,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -306,7 +305,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -348,7 +346,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -390,7 +387,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -432,7 +428,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new

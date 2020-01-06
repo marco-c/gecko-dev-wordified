@@ -439,7 +439,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 this
 .
@@ -459,7 +458,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 this
 .
@@ -496,7 +494,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 OBJECT
 .
@@ -523,7 +520,6 @@ Expression
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -567,7 +563,6 @@ Identifier
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -605,7 +600,6 @@ Arguments
 new
 TestCase
 (
-SECTION
 "
 (
 new

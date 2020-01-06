@@ -207,7 +207,6 @@ and
 new
 TestCase
 (
-SECTION
 "
 true
 "
@@ -221,7 +220,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 false
 "

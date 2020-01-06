@@ -473,7 +473,6 @@ UNDEFINED
 new
 TestCase
 (
-SECTION
 "
 UNDEFINED
 =

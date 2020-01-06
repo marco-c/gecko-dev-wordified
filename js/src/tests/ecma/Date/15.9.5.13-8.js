@@ -198,7 +198,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -229,7 +228,6 @@ getUTCDay
 new
 TestCase
 (
-SECTION
 "
 Date
 .

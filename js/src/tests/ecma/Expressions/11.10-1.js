@@ -354,7 +354,6 @@ addpow
 new
 TestCase
 (
-SECTION
 shiftexp
 +
 "

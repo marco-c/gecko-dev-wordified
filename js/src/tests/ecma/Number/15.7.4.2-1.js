@@ -292,7 +292,6 @@ cmb
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -322,7 +321,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -358,7 +356,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -426,7 +423,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -496,7 +492,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -569,7 +564,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYNUM
@@ -615,7 +609,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYNUM
@@ -665,7 +658,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYNUM
@@ -711,7 +703,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYNUM

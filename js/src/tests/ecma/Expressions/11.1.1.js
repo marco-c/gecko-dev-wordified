@@ -200,7 +200,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Global
 Code
@@ -222,7 +221,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Global
 Code
@@ -270,7 +268,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -346,7 +343,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -447,7 +443,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -527,7 +522,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -602,7 +596,6 @@ FUN1
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -695,7 +688,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Anonymous
 Code
@@ -805,7 +797,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Function
 Code
@@ -823,7 +814,6 @@ ReturnThis
 new
 TestCase
 (
-SECTION
 "
 Function
 Code
@@ -861,7 +851,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 MYOBJECT
@@ -906,7 +895,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYOBJECT

@@ -199,7 +199,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -235,7 +234,6 @@ LN10
 new
 TestCase
 (
-SECTION
 "
 delete
 (

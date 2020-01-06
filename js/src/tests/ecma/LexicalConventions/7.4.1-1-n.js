@@ -187,7 +187,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 null

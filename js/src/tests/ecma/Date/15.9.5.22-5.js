@@ -258,7 +258,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new

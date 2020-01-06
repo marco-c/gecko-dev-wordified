@@ -299,7 +299,6 @@ yoohoo
 new
 TestCase
 (
-SECTION
 "
 yoohoo
 :
@@ -377,7 +376,6 @@ yoohoo
 new
 TestCase
 (
-SECTION
 "
 yoohoo
 :

@@ -212,7 +212,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -248,7 +247,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -326,7 +324,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -374,7 +371,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -483,7 +479,6 @@ PROPS
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -533,7 +528,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A

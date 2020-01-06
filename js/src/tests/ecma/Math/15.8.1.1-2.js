@@ -207,7 +207,6 @@ MATH_E
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -231,7 +230,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 delete
 (

@@ -229,7 +229,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 foo
 [

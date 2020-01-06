@@ -177,7 +177,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 code
 following

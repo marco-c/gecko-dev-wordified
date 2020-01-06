@@ -474,7 +474,6 @@ STRING
 new
 TestCase
 (
-SECTION
 "
 STRING
 =

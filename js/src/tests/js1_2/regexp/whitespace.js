@@ -277,7 +277,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -343,7 +342,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -410,7 +408,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -465,7 +462,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -526,7 +522,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -598,7 +593,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -684,7 +678,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 1233345find
@@ -810,7 +803,6 @@ cd
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -866,7 +858,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -950,7 +941,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1006,7 +996,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 '
 "

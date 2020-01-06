@@ -480,7 +480,6 @@ BOOLEAN
 new
 TestCase
 (
-SECTION
 "
 var
 BOOLEAN

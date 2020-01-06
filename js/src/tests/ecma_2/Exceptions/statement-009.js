@@ -215,7 +215,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 return
 outside

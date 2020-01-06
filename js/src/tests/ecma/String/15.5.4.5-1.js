@@ -439,7 +439,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .
@@ -465,7 +464,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 TEST_STRING
 .

@@ -216,7 +216,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -255,7 +254,6 @@ ab
 new
 TestCase
 (
-SECTION
 "
 var
 a

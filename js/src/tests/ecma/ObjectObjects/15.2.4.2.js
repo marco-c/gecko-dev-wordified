@@ -247,7 +247,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -281,7 +280,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -368,7 +366,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -425,7 +422,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -490,7 +486,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -555,7 +550,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -622,7 +616,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -679,7 +672,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -742,7 +734,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -805,7 +796,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -868,7 +858,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myvar
 =
@@ -931,7 +920,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1008,7 +996,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1053,7 +1040,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1102,7 +1088,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

@@ -191,7 +191,6 @@ var
 new
 TestCase
 (
-SECTION
 "
 var
 1abc

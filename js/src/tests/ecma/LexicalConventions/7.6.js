@@ -182,7 +182,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 c
@@ -215,7 +214,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -244,7 +242,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -283,7 +280,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -323,7 +319,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -365,7 +360,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -407,7 +401,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -445,7 +438,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -485,7 +477,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -522,7 +513,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -559,7 +549,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -591,7 +580,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -640,7 +628,6 @@ PASS
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -691,7 +678,6 @@ PASS
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -725,7 +711,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -791,7 +776,6 @@ FAIL
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -857,7 +841,6 @@ PASS
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -897,7 +880,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -935,7 +917,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -974,7 +955,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1013,7 +993,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1052,7 +1031,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1091,7 +1069,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1130,7 +1107,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1169,7 +1145,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1208,7 +1183,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1248,7 +1222,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1290,7 +1263,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1333,7 +1305,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1377,7 +1348,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1423,7 +1393,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1469,7 +1438,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1515,7 +1483,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1561,7 +1528,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1607,7 +1573,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1653,7 +1618,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1699,7 +1663,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1745,7 +1708,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1792,7 +1754,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1840,7 +1801,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1889,7 +1849,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1939,7 +1898,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -1979,7 +1937,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -2019,7 +1976,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -2069,7 +2025,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 ;
 "

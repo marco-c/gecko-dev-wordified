@@ -314,7 +314,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 MYDATE
 =

@@ -233,7 +233,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 return

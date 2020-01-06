@@ -644,7 +644,6 @@ DateString
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -666,7 +665,6 @@ getTime
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -688,7 +686,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -710,7 +707,6 @@ getUTCFullYear
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -732,7 +728,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -754,7 +749,6 @@ getUTCDate
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -776,7 +770,6 @@ getUTCDay
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -798,7 +791,6 @@ getUTCHours
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -820,7 +812,6 @@ getUTCMinutes
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -842,7 +833,6 @@ getUTCSeconds
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -864,7 +854,6 @@ getUTCMilliseconds
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -886,7 +875,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -908,7 +896,6 @@ getMonth
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -930,7 +917,6 @@ getDate
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -952,7 +938,6 @@ getDay
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -974,7 +959,6 @@ getHours
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -996,7 +980,6 @@ getMinutes
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -1018,7 +1001,6 @@ getSeconds
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -1050,7 +1032,6 @@ toString
 new
 TestCase
 (
-SECTION
 DateString
 +
 "

@@ -189,7 +189,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 '
@@ -216,7 +215,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 (
 8
@@ -239,7 +237,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 (
 8
@@ -262,7 +259,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -305,7 +301,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -356,7 +351,6 @@ two
 new
 TestCase
 (
-SECTION
 "
 (
 anObject
@@ -379,7 +373,6 @@ anObject
 new
 TestCase
 (
-SECTION
 "
 (
 anObject
@@ -416,7 +409,6 @@ two
 new
 TestCase
 (
-SECTION
 "
 (
 {
@@ -453,7 +445,6 @@ anObject
 new
 TestCase
 (
-SECTION
 "
 (
 null
@@ -476,7 +467,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 (
 null
@@ -499,7 +489,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 (
 true

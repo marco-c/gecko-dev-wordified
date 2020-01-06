@@ -223,7 +223,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 tostr
 =
@@ -291,7 +290,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 tostr
 =
@@ -361,7 +359,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 tostr
 =

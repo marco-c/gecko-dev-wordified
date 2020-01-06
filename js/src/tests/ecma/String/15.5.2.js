@@ -280,7 +280,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -309,7 +308,6 @@ primitive
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -382,7 +380,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -422,7 +419,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -459,7 +455,6 @@ substring
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -484,7 +479,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -553,7 +547,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -588,7 +581,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -621,7 +613,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -644,7 +635,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -711,7 +701,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -744,7 +733,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -775,7 +763,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -798,7 +785,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -865,7 +851,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -898,7 +883,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -929,7 +913,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -952,7 +935,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -1019,7 +1001,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1052,7 +1033,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1083,7 +1063,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1114,7 +1093,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -1189,7 +1167,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1230,7 +1207,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1269,7 +1245,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1290,7 +1265,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -1355,7 +1329,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1385,7 +1358,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1414,7 +1386,6 @@ lastIndexOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1439,7 +1410,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 var
 TESTSTRING
@@ -1508,7 +1478,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1542,7 +1511,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new

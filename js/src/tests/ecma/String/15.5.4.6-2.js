@@ -600,7 +600,6 @@ id
 new
 TestCase
 (
-SECTION
 "
 function
 f
@@ -650,7 +649,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -673,7 +671,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -721,7 +718,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -832,7 +828,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .
@@ -891,7 +886,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .
@@ -942,7 +936,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -978,7 +971,6 @@ h
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1014,7 +1006,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1050,7 +1041,6 @@ l
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1086,7 +1076,6 @@ l
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1122,7 +1111,6 @@ o
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1159,7 +1147,6 @@ X
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -1201,7 +1188,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1235,7 +1221,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1269,7 +1254,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1303,7 +1287,6 @@ u
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1337,7 +1320,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1371,7 +1353,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1405,7 +1386,6 @@ rue
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1439,7 +1419,6 @@ ue
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -1485,7 +1464,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1521,7 +1499,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1557,7 +1534,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1593,7 +1569,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1629,7 +1604,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1665,7 +1639,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1701,7 +1674,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -1737,7 +1709,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -1821,7 +1792,6 @@ new
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -1905,7 +1875,6 @@ zoo
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1977,7 +1946,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2043,7 +2011,6 @@ bject
 new
 TestCase
 (
-SECTION
 "
 var
 f
@@ -2135,7 +2102,6 @@ Function
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -2202,7 +2168,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -2271,7 +2236,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -2339,7 +2303,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 var
 n
@@ -2407,7 +2370,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 var
 n
@@ -2477,7 +2439,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 n
@@ -2545,7 +2506,6 @@ indexOf
 new
 TestCase
 (
-SECTION
 "
 var
 m
@@ -2638,7 +2598,6 @@ respectively
 new
 TestCase
 (
-SECTION
 "
 var
 d

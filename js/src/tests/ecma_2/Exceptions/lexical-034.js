@@ -281,7 +281,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 this
 =

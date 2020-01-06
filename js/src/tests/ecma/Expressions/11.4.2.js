@@ -166,7 +166,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -198,7 +197,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -222,7 +220,6 @@ primitive
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -244,7 +241,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -266,7 +262,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -284,7 +279,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -302,7 +296,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -322,7 +315,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -344,7 +336,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -366,7 +357,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -384,7 +374,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -402,7 +391,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 void
 (
@@ -420,7 +408,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 void
 new
@@ -448,7 +435,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 void
 '
@@ -468,7 +454,6 @@ primitive
 new
 TestCase
 (
-SECTION
 "
 void
 Number
@@ -486,7 +471,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 void
 Number
@@ -504,7 +488,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 void
 1
@@ -518,7 +501,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 0
@@ -532,7 +514,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 -
@@ -548,7 +529,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 Number
@@ -566,7 +546,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 void
 Math
@@ -584,7 +563,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 void
 true
@@ -598,7 +576,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 void
 false
@@ -612,7 +589,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 void
 null
@@ -635,7 +611,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 void
 (

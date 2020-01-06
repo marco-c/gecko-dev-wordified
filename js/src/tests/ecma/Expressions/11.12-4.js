@@ -247,7 +247,6 @@ JS
 new
 TestCase
 (
-SECTION
 "
 true
 ?

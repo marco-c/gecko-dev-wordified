@@ -268,7 +268,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 throw
 =

@@ -505,7 +505,6 @@ itself
 new
 TestCase
 (
-SECTION
 "
 var
 EXP_1
@@ -567,7 +566,6 @@ EXP_2
 new
 TestCase
 (
-SECTION
 "
 var
 EXP_1
@@ -670,7 +668,6 @@ itself
 new
 TestCase
 (
-SECTION
 "
 var
 EXP_1
@@ -732,7 +729,6 @@ EXP_2
 new
 TestCase
 (
-SECTION
 "
 var
 EXP_1

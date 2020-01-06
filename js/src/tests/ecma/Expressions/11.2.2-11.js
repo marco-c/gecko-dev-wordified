@@ -453,7 +453,6 @@ Function
 new
 TestCase
 (
-SECTION
 "
 var
 FUNCTION
@@ -503,7 +502,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 var
 FUNCTION

@@ -369,7 +369,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -398,7 +397,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -423,7 +421,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -452,7 +449,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -515,7 +511,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -546,7 +541,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -573,7 +567,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -604,7 +597,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -669,7 +661,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -700,7 +691,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -727,7 +717,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -758,7 +747,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -823,7 +811,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -856,7 +843,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -885,7 +871,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -919,7 +904,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -986,7 +970,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1021,7 +1004,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1052,7 +1034,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1089,7 +1070,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -1158,7 +1138,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1193,7 +1172,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1224,7 +1202,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1261,7 +1238,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -1330,7 +1306,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1367,7 +1342,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1400,7 +1374,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1437,7 +1410,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -1508,7 +1480,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1541,7 +1512,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1570,7 +1540,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1603,7 +1572,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -1670,7 +1638,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1705,7 +1672,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1736,7 +1702,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1773,7 +1738,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -1842,7 +1806,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1877,7 +1840,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -1908,7 +1870,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1945,7 +1906,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =
@@ -2014,7 +1974,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -2043,7 +2002,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -2068,7 +2026,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -2097,7 +2054,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 NUMB
 =

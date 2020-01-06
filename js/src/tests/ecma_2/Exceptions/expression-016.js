@@ -228,7 +228,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 void

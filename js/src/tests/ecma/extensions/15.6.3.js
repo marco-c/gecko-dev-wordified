@@ -194,7 +194,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -219,7 +218,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

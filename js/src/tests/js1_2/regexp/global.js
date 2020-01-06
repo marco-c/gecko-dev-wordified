@@ -184,7 +184,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -212,7 +211,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -248,7 +246,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -323,7 +320,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -399,7 +395,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -467,7 +462,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -532,7 +526,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -601,7 +594,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -698,7 +690,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -797,7 +788,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 123

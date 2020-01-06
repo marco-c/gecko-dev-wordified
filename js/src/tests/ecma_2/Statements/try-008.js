@@ -210,7 +210,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Integer
 (

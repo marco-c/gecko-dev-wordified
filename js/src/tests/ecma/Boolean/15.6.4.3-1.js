@@ -219,7 +219,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -244,7 +243,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -269,7 +267,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -296,7 +293,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -325,7 +321,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -354,7 +349,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -379,7 +373,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -404,7 +397,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -433,7 +425,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -462,7 +453,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -489,7 +479,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -514,7 +503,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -545,7 +533,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -573,7 +560,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -600,7 +586,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -623,7 +608,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -652,7 +636,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -681,7 +664,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -710,7 +692,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -739,7 +720,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -768,7 +748,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -799,7 +778,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean

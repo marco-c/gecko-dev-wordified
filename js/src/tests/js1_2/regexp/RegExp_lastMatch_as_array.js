@@ -217,7 +217,6 @@ foo
 new
 TestCase
 (
-SECTION
 "
 '
 foo
@@ -289,7 +288,6 @@ foo
 new
 TestCase
 (
-SECTION
 "
 '
 foo
@@ -357,7 +355,6 @@ bar
 new
 TestCase
 (
-SECTION
 "
 '
 xxx
@@ -419,7 +416,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 xxx
@@ -503,7 +499,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -610,7 +605,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefgabcdefg

@@ -182,7 +182,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 _0abc

@@ -537,7 +537,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 escape
 .
@@ -552,7 +551,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 escape
 .
@@ -584,7 +582,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -641,7 +638,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -658,7 +654,6 @@ escape
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -678,7 +673,6 @@ escape
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -697,7 +691,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -718,7 +711,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -737,7 +729,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -756,7 +747,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -783,7 +773,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -810,7 +799,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -833,7 +821,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -854,7 +841,6 @@ escape
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -877,7 +863,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -900,7 +885,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -937,7 +921,6 @@ _
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -980,7 +963,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -1035,7 +1017,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -1090,7 +1071,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 escape
 (
@@ -1146,7 +1126,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 escape
 (

@@ -298,7 +298,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -329,7 +328,6 @@ setTime
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -363,7 +361,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -394,7 +391,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -442,7 +438,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -481,7 +476,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -520,7 +514,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -559,7 +552,6 @@ TZ_ADJUST
 new
 TestCase
 (
-SECTION
 "
 (
 "

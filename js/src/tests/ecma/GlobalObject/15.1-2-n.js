@@ -203,7 +203,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 var
 MY_GLOBAL

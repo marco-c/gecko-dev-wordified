@@ -307,7 +307,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 o
 =
@@ -369,7 +368,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 o
 =
@@ -431,7 +429,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 o
 =

@@ -201,7 +201,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 Math
@@ -233,7 +232,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 delete
 Math

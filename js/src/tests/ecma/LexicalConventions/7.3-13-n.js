@@ -174,7 +174,6 @@ testcase
 new
 TestCase
 (
-SECTION
 "
 nested
 comment

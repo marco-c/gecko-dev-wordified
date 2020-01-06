@@ -278,7 +278,6 @@ actual
 new
 TestCase
 (
-SECTION
 "
 var
 import

@@ -473,7 +473,6 @@ BOOLEAN
 new
 TestCase
 (
-SECTION
 "
 BOOLEAN
 =

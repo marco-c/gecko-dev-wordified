@@ -244,7 +244,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -268,7 +267,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -298,7 +296,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -334,7 +331,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -370,7 +366,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -421,7 +416,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new

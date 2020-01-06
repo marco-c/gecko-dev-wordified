@@ -281,7 +281,6 @@ Value
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -325,7 +324,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -366,7 +364,6 @@ OBJ
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -408,7 +405,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -458,7 +454,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -501,7 +496,6 @@ OBJ
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -549,7 +543,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -599,7 +592,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -642,7 +634,6 @@ OBJ
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ

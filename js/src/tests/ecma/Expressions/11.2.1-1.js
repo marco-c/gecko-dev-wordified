@@ -3350,7 +3350,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 typeof
 "
@@ -3417,7 +3416,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 typeof
 "

@@ -281,7 +281,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 Math
 .

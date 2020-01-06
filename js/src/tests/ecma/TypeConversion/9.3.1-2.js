@@ -261,7 +261,6 @@ notation
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -280,7 +279,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -299,7 +297,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -318,7 +315,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -337,7 +333,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -356,7 +351,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -375,7 +369,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -394,7 +387,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -413,7 +405,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -432,7 +423,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -463,7 +453,6 @@ digits
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -482,7 +471,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (

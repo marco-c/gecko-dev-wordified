@@ -325,7 +325,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 comma
 expression

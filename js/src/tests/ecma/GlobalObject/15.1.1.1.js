@@ -170,7 +170,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 NaN
 "
@@ -183,7 +182,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 this
 .
@@ -200,7 +198,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 typeof
 NaN

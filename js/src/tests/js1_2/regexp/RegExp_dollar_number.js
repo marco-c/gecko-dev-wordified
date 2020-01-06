@@ -262,7 +262,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -342,7 +341,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -422,7 +420,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -502,7 +499,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -582,7 +578,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -662,7 +657,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -845,7 +839,6 @@ regexp1
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -889,7 +882,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -933,7 +925,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -977,7 +968,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1021,7 +1011,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1065,7 +1054,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1109,7 +1097,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1153,7 +1140,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1197,7 +1183,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1243,7 +1228,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 "

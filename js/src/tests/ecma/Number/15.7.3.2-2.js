@@ -205,7 +205,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -241,7 +240,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 delete
 (

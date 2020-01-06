@@ -498,7 +498,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 TryWith
 (

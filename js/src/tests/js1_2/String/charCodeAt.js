@@ -192,7 +192,6 @@ tEs5
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -215,7 +214,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -238,7 +236,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -259,7 +256,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -280,7 +276,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -301,7 +296,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -322,7 +316,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -343,7 +336,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -364,7 +356,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -385,7 +376,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -410,7 +400,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 aString
 .

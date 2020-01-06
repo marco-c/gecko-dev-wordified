@@ -154,7 +154,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -177,7 +176,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 b
 instanceof

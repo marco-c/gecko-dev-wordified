@@ -381,7 +381,6 @@ addexp
 new
 TestCase
 (
-SECTION
 shiftexp
 +
 "
@@ -449,7 +448,6 @@ addexp
 new
 TestCase
 (
-SECTION
 shiftexp
 +
 "

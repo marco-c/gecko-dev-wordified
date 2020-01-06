@@ -264,7 +264,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 STRING
 =

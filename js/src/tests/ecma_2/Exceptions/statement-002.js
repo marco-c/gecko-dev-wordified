@@ -569,7 +569,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 more
 than

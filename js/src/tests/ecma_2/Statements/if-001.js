@@ -242,7 +242,6 @@ return
 new
 TestCase
 (
-SECTION
 "
 if
 (

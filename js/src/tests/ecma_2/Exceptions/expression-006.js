@@ -259,7 +259,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 OBJECT
 =

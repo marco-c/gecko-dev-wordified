@@ -336,7 +336,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -371,7 +370,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -406,7 +404,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -441,7 +438,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -476,7 +472,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -503,7 +498,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -530,7 +524,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -564,7 +557,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new

@@ -224,7 +224,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 Math
 (

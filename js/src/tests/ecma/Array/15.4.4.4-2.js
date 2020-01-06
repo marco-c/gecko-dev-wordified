@@ -661,7 +661,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -691,7 +690,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -768,7 +766,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 A
 [

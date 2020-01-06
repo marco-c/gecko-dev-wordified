@@ -248,7 +248,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -292,7 +291,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -344,7 +342,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -396,7 +393,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -448,7 +444,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -492,7 +487,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

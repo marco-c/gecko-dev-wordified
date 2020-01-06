@@ -272,7 +272,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

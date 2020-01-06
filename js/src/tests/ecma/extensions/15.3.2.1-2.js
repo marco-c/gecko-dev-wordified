@@ -278,7 +278,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 .
@@ -295,7 +294,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .

@@ -254,7 +254,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -320,7 +319,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -387,7 +385,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -442,7 +439,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -503,7 +499,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -575,7 +570,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -643,7 +637,6 @@ literals
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -709,7 +702,6 @@ literals
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -771,7 +763,6 @@ consistently
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -885,7 +876,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -1000,7 +990,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "

@@ -1186,7 +1186,6 @@ DateCase
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -1209,7 +1208,6 @@ getTime
 new
 TestCase
 (
-SECTION
 DateString
 +
 "
@@ -1232,7 +1230,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -1277,7 +1274,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .

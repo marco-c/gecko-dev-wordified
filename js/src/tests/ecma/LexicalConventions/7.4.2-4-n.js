@@ -240,9 +240,9 @@ var
 true
 "
 ;
+new
 TestCase
 (
-SECTION
 "
 var
 var

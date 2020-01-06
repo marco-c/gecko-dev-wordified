@@ -203,7 +203,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 while
 statement

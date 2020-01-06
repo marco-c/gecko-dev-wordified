@@ -673,7 +673,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -703,7 +702,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -775,7 +773,6 @@ A
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -868,7 +865,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -950,7 +946,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1034,7 +1029,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1132,7 +1126,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1313,7 +1306,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1442,7 +1434,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1527,7 +1518,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -1602,7 +1592,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 A
 [

@@ -241,7 +241,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 break

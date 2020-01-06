@@ -281,7 +281,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 var
 z
@@ -332,7 +331,6 @@ id
 new
 TestCase
 (
-SECTION
 '
 -
 -
@@ -351,7 +349,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 '
 -
 -
@@ -370,7 +367,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 '
 -
 "
@@ -389,7 +385,6 @@ NaN
 new
 TestCase
 (
-SECTION
 '
 -
 "
@@ -416,7 +411,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 1e2000
 +
@@ -435,7 +429,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 1e2000
 "
@@ -446,7 +439,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 1e2000
@@ -468,7 +460,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -488,7 +479,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -517,7 +507,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 1e
 -
@@ -532,7 +521,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -559,7 +547,6 @@ numbers
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -581,7 +568,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -606,7 +592,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 1
 /
@@ -634,7 +619,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -657,7 +641,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -684,7 +667,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -707,7 +689,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -730,7 +711,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -779,7 +759,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -851,7 +830,6 @@ s1
 new
 TestCase
 (
-SECTION
 "
 s1
 =
@@ -893,7 +871,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 -
 s1
@@ -962,7 +939,6 @@ s2
 new
 TestCase
 (
-SECTION
 "
 s2
 =
@@ -1008,7 +984,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 -
 s2
@@ -1083,7 +1058,6 @@ s3
 new
 TestCase
 (
-SECTION
 "
 s3
 =
@@ -1129,7 +1103,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 -
 s3
@@ -1196,7 +1169,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1275,7 +1247,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1350,7 +1321,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1425,7 +1395,6 @@ here
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1474,7 +1443,6 @@ s2
 new
 TestCase
 (
-SECTION
 "
 0x12345678
 "
@@ -1485,7 +1453,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x80000000
 "
@@ -1496,7 +1463,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0xffffffff
 "
@@ -1507,7 +1473,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000
 "
@@ -1518,7 +1483,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 077777777777777777
 "
@@ -1529,7 +1493,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 077777777777777776
 "
@@ -1540,7 +1503,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1fffffffffffff
 "
@@ -1551,7 +1513,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20000000000000
 "
@@ -1562,7 +1523,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abc
 "
@@ -1573,7 +1533,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abd
 "
@@ -1584,7 +1543,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abe
 "
@@ -1595,7 +1553,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abf
 "
@@ -1637,7 +1594,6 @@ rule
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000080
 "
@@ -1648,7 +1604,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000081
 "
@@ -1659,7 +1614,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000100
 "
@@ -1670,7 +1624,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000000017f
 "
@@ -1681,7 +1634,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000180
 "
@@ -1692,7 +1644,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000181
 "
@@ -1703,7 +1654,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000001f0
 "
@@ -1714,7 +1664,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000200
 "
@@ -1725,7 +1674,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000000027f
 "
@@ -1736,7 +1684,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000280
 "
@@ -1747,7 +1694,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000281
 "
@@ -1758,7 +1704,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000002ff
 "
@@ -1769,7 +1714,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000300
 "
@@ -1780,7 +1724,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000000000
 "
@@ -1791,7 +1734,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1816,7 +1758,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1841,7 +1782,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1866,7 +1806,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1891,7 +1830,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1916,7 +1854,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1941,7 +1878,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1966,7 +1902,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -1991,7 +1926,6 @@ yz
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2016,7 +1950,6 @@ yz
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2041,7 +1974,6 @@ yz
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2066,7 +1998,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2094,7 +2025,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2125,7 +2055,6 @@ u2000
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2148,7 +2077,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2173,7 +2101,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2196,7 +2123,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2223,7 +2149,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2246,7 +2171,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2271,7 +2195,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2294,7 +2217,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2319,7 +2241,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2344,7 +2265,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2367,7 +2287,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2396,7 +2315,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -2423,7 +2341,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 +
@@ -2453,7 +2370,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 s
@@ -2477,7 +2393,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -2504,7 +2419,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 +
@@ -2529,7 +2443,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 s
@@ -2553,7 +2466,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -2580,7 +2492,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 +
@@ -2605,7 +2516,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 s
@@ -2625,7 +2535,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -2649,7 +2558,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 +
@@ -2674,7 +2582,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 s
@@ -2692,7 +2599,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 +
@@ -2717,7 +2623,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 s
@@ -2731,7 +2636,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2748,7 +2652,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2767,7 +2670,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 parseInt
 (
@@ -2786,7 +2688,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2803,7 +2704,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2820,7 +2720,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2840,7 +2739,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2860,7 +2758,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2883,7 +2780,6 @@ t999
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2903,7 +2799,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2928,7 +2823,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2949,7 +2843,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2971,7 +2864,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -2992,7 +2884,6 @@ Infiniti
 new
 TestCase
 (
-SECTION
 "
 -
 -
@@ -3013,7 +2904,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 -
@@ -3034,7 +2924,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3055,7 +2944,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3089,7 +2977,6 @@ ECMA
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3117,7 +3004,6 @@ u2001
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3144,7 +3030,6 @@ u20001234
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3164,7 +3049,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3183,7 +3067,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3202,7 +3085,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3225,7 +3107,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 \
@@ -3246,7 +3127,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 -
 \

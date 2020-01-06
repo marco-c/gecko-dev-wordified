@@ -216,7 +216,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -317,7 +316,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -377,7 +375,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -479,7 +476,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -541,7 +537,6 @@ loop
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -647,7 +642,6 @@ label
 new
 TestCase
 (
-SECTION
 '
 breaking
 out

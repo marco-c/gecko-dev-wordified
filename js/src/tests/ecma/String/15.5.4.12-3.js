@@ -352,7 +352,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -421,7 +420,6 @@ toUpperCase
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -524,7 +522,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -605,7 +602,6 @@ toUpperCase
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -730,7 +726,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -811,7 +806,6 @@ toUpperCase
 new
 TestCase
 (
-SECTION
 "
 var
 s

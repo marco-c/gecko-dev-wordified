@@ -190,7 +190,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 isFinite
 .
@@ -205,7 +204,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 isFinite
 .
@@ -237,7 +235,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -292,7 +289,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -307,7 +303,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -324,7 +319,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -343,7 +337,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -360,7 +353,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -377,7 +369,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -396,7 +387,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -421,7 +411,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -446,7 +435,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -463,7 +451,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -480,7 +467,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -497,7 +483,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -514,7 +499,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -531,7 +515,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -548,7 +531,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -565,7 +547,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -582,7 +563,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -599,7 +579,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -616,7 +595,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -637,7 +615,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -658,7 +635,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -679,7 +655,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -700,7 +675,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -721,7 +695,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -742,7 +715,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -763,7 +735,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -784,7 +755,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -805,7 +775,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -826,7 +795,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -843,7 +811,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -860,7 +827,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -877,7 +843,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -894,7 +859,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -915,7 +879,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -936,7 +899,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -957,7 +919,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -978,7 +939,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -995,7 +955,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1016,7 +975,6 @@ isFinite
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1045,7 +1003,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1076,7 +1033,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1097,7 +1053,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1120,7 +1075,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1141,7 +1095,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1162,7 +1115,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1183,7 +1135,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1200,7 +1151,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1219,7 +1169,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1236,7 +1185,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (
@@ -1257,7 +1205,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 isFinite
 (

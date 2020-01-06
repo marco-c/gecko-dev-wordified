@@ -227,7 +227,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 x
 =

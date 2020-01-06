@@ -176,7 +176,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -217,7 +216,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -241,7 +239,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -264,7 +261,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 TESTSTRING
 =
@@ -316,7 +312,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 TESTSTRING
 =
@@ -370,7 +365,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 TESTSTRING
 =
@@ -424,7 +418,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 TESTSTRING
 =
@@ -482,7 +475,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 TESTSTRING
 =

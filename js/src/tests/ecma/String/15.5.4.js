@@ -172,7 +172,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -236,7 +235,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 typeof
 String
@@ -255,7 +253,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -279,7 +276,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -301,7 +297,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -345,7 +340,6 @@ prop
 new
 TestCase
 (
-SECTION
 '
 String
 "
@@ -383,7 +377,6 @@ prop
 new
 TestCase
 (
-SECTION
 '
 String
 .

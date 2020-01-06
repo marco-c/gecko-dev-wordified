@@ -475,7 +475,6 @@ OBJECT
 new
 TestCase
 (
-SECTION
 "
 OBJECT
 =

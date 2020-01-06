@@ -524,7 +524,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -591,7 +590,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -657,7 +655,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -723,7 +720,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -789,7 +785,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 var
 b

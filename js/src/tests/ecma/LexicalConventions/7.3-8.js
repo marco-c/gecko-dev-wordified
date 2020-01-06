@@ -177,7 +177,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 code
 following

@@ -223,7 +223,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -296,7 +295,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -391,7 +389,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -505,7 +502,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -613,7 +609,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -696,7 +691,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -770,7 +764,6 @@ bc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -854,7 +847,6 @@ bc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -926,7 +918,6 @@ bc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg

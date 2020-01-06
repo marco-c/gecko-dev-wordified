@@ -286,7 +286,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 tostr

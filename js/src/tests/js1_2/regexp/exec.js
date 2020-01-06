@@ -177,7 +177,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 [
@@ -240,7 +239,6 @@ exec
 new
 TestCase
 (
-SECTION
 "
 /
 3
@@ -316,7 +314,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 re
 .
@@ -362,7 +359,6 @@ exec
 new
 TestCase
 (
-SECTION
 "
 (
 /
@@ -433,7 +429,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 (
 re

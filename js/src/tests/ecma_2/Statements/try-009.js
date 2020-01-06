@@ -362,7 +362,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 (
 "

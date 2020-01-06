@@ -797,7 +797,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -841,7 +840,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -903,7 +901,6 @@ specified
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -951,7 +948,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1007,7 +1003,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1055,7 +1050,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1106,7 +1100,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1158,7 +1151,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1213,7 +1205,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1265,7 +1256,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1320,7 +1310,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 \
 "
@@ -1355,7 +1344,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 \
 "
@@ -1392,7 +1380,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 \
 "

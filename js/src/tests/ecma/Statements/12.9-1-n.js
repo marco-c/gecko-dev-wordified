@@ -166,7 +166,6 @@ return
 new
 TestCase
 (
-SECTION
 "
 return
 "

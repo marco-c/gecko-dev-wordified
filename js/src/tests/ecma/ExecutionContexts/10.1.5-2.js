@@ -254,9 +254,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Eval
 Code
 check
@@ -276,9 +273,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Eval
 Code
@@ -300,9 +294,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Eval
 Code
 check
@@ -322,9 +313,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Eval
 Code
@@ -346,9 +334,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Eval
 Code
 check
@@ -368,9 +353,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Eval
 Code
@@ -392,9 +374,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Eval
 Code
 check
@@ -414,9 +393,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Eval
 Code
@@ -438,9 +414,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Eval
 Code
 check
@@ -460,9 +433,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Eval
 Code

@@ -355,7 +355,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -423,7 +422,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -490,7 +488,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -558,7 +555,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -625,7 +621,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -693,7 +688,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -754,7 +748,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -818,7 +811,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -882,7 +874,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -946,7 +937,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1008,7 +998,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1070,7 +1059,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1132,7 +1120,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1194,7 +1181,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1256,7 +1242,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1318,7 +1303,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1380,7 +1364,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1441,7 +1424,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1503,7 +1485,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1565,7 +1546,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1627,7 +1607,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1689,7 +1668,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1751,7 +1729,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1813,7 +1790,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1875,7 +1851,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -1957,7 +1932,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2039,7 +2013,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2121,7 +2094,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2203,7 +2175,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2285,7 +2256,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2367,7 +2337,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2449,7 +2418,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2530,7 +2498,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2612,7 +2579,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2694,7 +2660,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2776,7 +2741,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2858,7 +2822,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -2940,7 +2903,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -3022,7 +2984,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -3104,7 +3065,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -3186,7 +3146,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -3268,7 +3227,6 @@ charAt
 new
 TestCase
 (
-SECTION
 "
 x
 =

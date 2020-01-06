@@ -156,7 +156,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -179,7 +178,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 b
 instanceof
@@ -194,7 +192,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 b
 instanceof
@@ -209,7 +206,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 true
 instanceof
@@ -224,7 +220,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 instanceof

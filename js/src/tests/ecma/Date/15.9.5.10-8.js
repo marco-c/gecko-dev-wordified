@@ -224,7 +224,6 @@ DST_START_1998
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -255,7 +254,6 @@ getDate
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -329,7 +327,6 @@ msPerDay
 new
 TestCase
 (
-SECTION
 "
 (
 new

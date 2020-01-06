@@ -228,7 +228,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 var
@@ -272,7 +271,6 @@ MYVAR1
 new
 TestCase
 (
-SECTION
 "
 '
 var
@@ -316,7 +314,6 @@ MYVAR2
 new
 TestCase
 (
-SECTION
 "
 '
 var
@@ -360,7 +357,6 @@ MYVAR3
 new
 TestCase
 (
-SECTION
 "
 '
 var

@@ -297,7 +297,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -339,7 +338,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -385,7 +383,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -427,7 +424,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -473,7 +469,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -515,7 +510,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -589,7 +583,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -637,7 +630,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -686,7 +678,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -735,7 +726,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -802,7 +792,6 @@ operand
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -848,7 +837,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -896,7 +884,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -943,7 +930,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1020,7 +1006,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1061,7 +1046,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1102,7 +1086,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1145,7 +1128,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1207,7 +1189,6 @@ operand
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1251,7 +1232,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1297,7 +1277,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1342,7 +1321,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1404,7 +1382,6 @@ operand
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1446,7 +1423,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1509,7 +1485,6 @@ is
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1559,7 +1534,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1611,7 +1585,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1651,7 +1624,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1691,7 +1663,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1735,7 +1706,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1779,7 +1749,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1823,7 +1792,6 @@ cases
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1861,7 +1829,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1903,7 +1870,6 @@ cases
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -1953,7 +1919,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -2003,7 +1968,6 @@ VAR1
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -2057,7 +2021,6 @@ VAR2
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =

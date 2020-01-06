@@ -243,7 +243,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 in

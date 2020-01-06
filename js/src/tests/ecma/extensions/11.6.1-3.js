@@ -558,7 +558,6 @@ DATE1
 new
 TestCase
 (
-SECTION
 "
 MYOB2
 =
@@ -593,7 +592,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 MYOB2
 =
@@ -638,7 +636,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 MYOB3
 =

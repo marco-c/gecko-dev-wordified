@@ -486,7 +486,6 @@ STRING
 new
 TestCase
 (
-SECTION
 "
 var
 STRING

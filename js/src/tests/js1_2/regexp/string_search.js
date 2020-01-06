@@ -193,7 +193,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -234,7 +233,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -278,7 +276,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg123456hijklmn
@@ -324,7 +321,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg123456hijklmn
@@ -370,7 +366,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -421,7 +416,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -472,7 +466,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abc1
@@ -521,7 +514,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abc1

@@ -243,7 +243,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 {
 1

@@ -204,7 +204,6 @@ Constructor
 new
 TestCase
 (
-SECTION
 "
 Object
 .

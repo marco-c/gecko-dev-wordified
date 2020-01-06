@@ -232,7 +232,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 BOOLEAN
 =

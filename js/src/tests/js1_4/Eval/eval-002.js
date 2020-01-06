@@ -420,7 +420,6 @@ EXPECT
 new
 TestCase
 (
-SECTION
 "
 Call
 eval

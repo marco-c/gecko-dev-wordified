@@ -226,7 +226,6 @@ limit
 new
 TestCase
 (
-SECTION
 "
 do
 while

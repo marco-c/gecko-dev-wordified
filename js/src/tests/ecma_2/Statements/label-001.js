@@ -246,7 +246,6 @@ woo
 new
 TestCase
 (
-SECTION
 "
 break
 out

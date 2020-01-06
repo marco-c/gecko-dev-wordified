@@ -182,7 +182,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 for
 statement

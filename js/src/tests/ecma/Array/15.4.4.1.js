@@ -193,7 +193,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Array
 .

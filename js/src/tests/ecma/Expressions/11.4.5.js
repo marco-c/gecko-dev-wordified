@@ -246,7 +246,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -272,7 +271,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -304,7 +302,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -335,7 +332,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -365,7 +361,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -405,7 +400,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -441,7 +435,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -477,7 +470,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -519,7 +511,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -559,7 +550,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -599,7 +589,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -643,7 +632,6 @@ primitives
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -674,7 +662,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -711,7 +698,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -756,7 +742,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -791,7 +776,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -832,7 +816,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -875,7 +858,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -910,7 +892,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -945,7 +926,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -989,7 +969,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1019,7 +998,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1056,7 +1034,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1090,7 +1067,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1134,7 +1110,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1168,7 +1143,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1209,7 +1183,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1251,7 +1224,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1298,7 +1270,6 @@ primitives
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1334,7 +1305,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1368,7 +1338,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1405,7 +1374,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1439,7 +1407,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1473,7 +1440,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1512,7 +1478,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1552,7 +1517,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1590,7 +1554,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1631,7 +1594,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1669,7 +1631,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1707,7 +1668,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1748,7 +1708,6 @@ objects
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1792,7 +1751,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1834,7 +1792,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1879,7 +1836,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1921,7 +1877,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -1963,7 +1918,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2010,7 +1964,6 @@ variable
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2058,7 +2011,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2104,7 +2056,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2153,7 +2104,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2199,7 +2149,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -2245,7 +2194,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

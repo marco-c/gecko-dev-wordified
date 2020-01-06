@@ -277,7 +277,6 @@ actual
 new
 TestCase
 (
-SECTION
 "
 var
 super

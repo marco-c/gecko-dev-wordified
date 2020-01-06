@@ -249,7 +249,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -305,7 +304,6 @@ parse
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -360,7 +358,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 now
@@ -386,7 +383,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -427,7 +423,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -475,7 +470,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -520,7 +514,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -574,7 +567,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -619,7 +611,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -675,7 +666,6 @@ Feb
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -720,7 +710,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -773,7 +762,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -829,7 +817,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -874,7 +861,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -927,7 +913,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .

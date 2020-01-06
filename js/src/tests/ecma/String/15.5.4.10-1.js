@@ -499,7 +499,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -542,7 +541,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -600,7 +598,6 @@ substring
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -649,7 +646,6 @@ substring
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -709,7 +705,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -773,7 +768,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -837,7 +831,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -896,7 +889,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -961,7 +953,6 @@ substring
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1028,7 +1019,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1100,7 +1090,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1176,7 +1165,6 @@ integer
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1258,7 +1246,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1334,7 +1321,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1425,7 +1411,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1492,7 +1477,6 @@ substring
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1578,7 +1562,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1672,7 +1655,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1747,7 +1729,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1821,7 +1802,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1909,7 +1889,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj

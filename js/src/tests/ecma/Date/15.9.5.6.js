@@ -242,7 +242,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -273,7 +272,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -306,7 +304,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -347,7 +344,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -396,7 +392,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -445,7 +440,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -494,7 +488,6 @@ getFullYear
 new
 TestCase
 (
-SECTION
 "
 (
 new

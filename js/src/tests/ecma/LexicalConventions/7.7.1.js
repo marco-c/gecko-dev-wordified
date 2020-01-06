@@ -180,7 +180,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 null
 "

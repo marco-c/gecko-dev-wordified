@@ -275,7 +275,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -292,7 +291,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -309,7 +307,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -328,7 +325,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -349,7 +345,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -370,7 +365,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -393,7 +387,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -410,7 +403,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -427,7 +419,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -448,7 +439,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -469,7 +459,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -486,7 +475,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -506,7 +494,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -525,7 +512,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -548,7 +534,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -569,7 +554,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -590,7 +574,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -611,7 +594,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -632,7 +614,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -653,7 +634,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (
@@ -677,7 +657,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 Boolean
 (

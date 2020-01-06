@@ -262,7 +262,6 @@ valof
 new
 TestCase
 (
-SECTION
 "
 var
 valof

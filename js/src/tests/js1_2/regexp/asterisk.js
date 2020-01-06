@@ -194,7 +194,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcddddefg
@@ -259,7 +258,6 @@ cd
 new
 TestCase
 (
-SECTION
 "
 '
 abcddddefg
@@ -326,7 +324,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -400,7 +397,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx
@@ -494,7 +490,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -599,7 +594,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -703,7 +697,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx
@@ -788,7 +781,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxyyyyyy
@@ -864,7 +856,6 @@ bc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -951,7 +942,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -1029,7 +1019,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 a1b2c3
@@ -1090,7 +1079,6 @@ xyz
 new
 TestCase
 (
-SECTION
 "
 '
 a0

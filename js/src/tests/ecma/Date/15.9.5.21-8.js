@@ -204,7 +204,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -235,7 +234,6 @@ getUTCMilliseconds
 new
 TestCase
 (
-SECTION
 "
 Date
 .

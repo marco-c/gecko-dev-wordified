@@ -250,9 +250,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Global
 Code
 check
@@ -269,9 +266,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Global
 Code
@@ -290,9 +284,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Global
 Code
 check
@@ -309,9 +300,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Global
 Code
@@ -330,9 +318,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Global
 Code
 check
@@ -349,9 +334,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Global
 Code
@@ -370,9 +352,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Global
 Code
 check
@@ -389,9 +368,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Global
 Code
@@ -410,9 +386,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Global
 Code
 check
@@ -429,9 +402,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Global
 Code

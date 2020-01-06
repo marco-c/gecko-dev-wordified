@@ -254,7 +254,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -285,7 +284,6 @@ getHours
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -339,7 +337,6 @@ msPerHour
 new
 TestCase
 (
-SECTION
 "
 (
 new

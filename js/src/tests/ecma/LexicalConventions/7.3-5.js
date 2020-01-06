@@ -179,7 +179,6 @@ fail
 new
 TestCase
 (
-SECTION
 "
 a
 comment

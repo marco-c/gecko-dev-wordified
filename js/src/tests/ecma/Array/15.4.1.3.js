@@ -245,7 +245,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -264,7 +263,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 MYARR
 =
@@ -326,7 +324,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -349,7 +346,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Array
 (

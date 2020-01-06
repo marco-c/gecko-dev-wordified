@@ -193,7 +193,6 @@ and
 new
 TestCase
 (
-SECTION
 "
 \
 "
@@ -209,7 +208,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 \
 '
@@ -237,7 +235,6 @@ CharacterEscapeSequence
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -259,7 +256,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -281,7 +277,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -301,7 +296,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -322,7 +316,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -343,7 +336,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -364,7 +356,6 @@ n
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -385,7 +376,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -406,7 +396,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -438,7 +427,6 @@ OctalEscapeSequence
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -459,7 +447,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -480,7 +467,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -501,7 +487,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -522,7 +507,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -543,7 +527,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -564,7 +547,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -585,7 +567,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -606,7 +587,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -627,7 +607,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -648,7 +627,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -669,7 +647,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -690,7 +667,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -711,7 +687,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -732,7 +707,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -753,7 +727,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -774,7 +747,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -795,7 +767,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -816,7 +787,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -837,7 +807,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -858,7 +827,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -879,7 +847,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -900,7 +867,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -921,7 +887,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -942,7 +907,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -963,7 +927,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -984,7 +947,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1005,7 +967,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1026,7 +987,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1047,7 +1007,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1068,7 +1027,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1089,7 +1047,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1110,7 +1067,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1131,7 +1087,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1152,7 +1107,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1173,7 +1127,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1194,7 +1147,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1215,7 +1167,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1236,7 +1187,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1257,7 +1207,6 @@ fromCharCode
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1293,7 +1242,6 @@ error
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1322,7 +1270,6 @@ HexEscapeSequence
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1343,7 +1290,6 @@ xF0
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1364,7 +1310,6 @@ xE1
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1385,7 +1330,6 @@ xD2
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1406,7 +1350,6 @@ xC3
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1427,7 +1370,6 @@ xB4
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1448,7 +1390,6 @@ xA5
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1469,7 +1410,6 @@ x96
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1490,7 +1430,6 @@ x87
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1511,7 +1450,6 @@ x78
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1532,7 +1470,6 @@ x69
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1553,7 +1490,6 @@ x5A
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1574,7 +1510,6 @@ x4B
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1595,7 +1530,6 @@ x3C
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1616,7 +1550,6 @@ x2D
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1637,7 +1570,6 @@ x1E
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1691,7 +1623,6 @@ HextEscapeSequence
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1716,7 +1647,6 @@ xF0F
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1741,7 +1671,6 @@ xE1E
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1766,7 +1695,6 @@ xD2D
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1791,7 +1719,6 @@ xC3C
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1816,7 +1743,6 @@ xB4B
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1841,7 +1767,6 @@ xA5A
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1866,7 +1791,6 @@ x969
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1891,7 +1815,6 @@ x878
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1916,7 +1839,6 @@ x787
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1941,7 +1863,6 @@ x696
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1966,7 +1887,6 @@ x5A5
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -1991,7 +1911,6 @@ x4B4
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2016,7 +1935,6 @@ x3C3
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2041,7 +1959,6 @@ x2D2
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2066,7 +1983,6 @@ x1E1
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2104,7 +2020,6 @@ NonEscapeCharacter
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2122,7 +2037,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2140,7 +2054,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2158,7 +2071,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2176,7 +2088,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2194,7 +2105,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2212,7 +2122,6 @@ h
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2230,7 +2139,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2248,7 +2156,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2266,7 +2173,6 @@ k
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2284,7 +2190,6 @@ l
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2302,7 +2207,6 @@ m
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2320,7 +2224,6 @@ o
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2338,7 +2241,6 @@ p
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2356,7 +2258,6 @@ q
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2374,7 +2275,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2392,7 +2292,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2410,7 +2309,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2428,7 +2326,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2446,7 +2343,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2464,7 +2360,6 @@ A
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2482,7 +2377,6 @@ B
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2500,7 +2394,6 @@ C
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2518,7 +2411,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2536,7 +2428,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2554,7 +2445,6 @@ F
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2572,7 +2462,6 @@ G
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2590,7 +2479,6 @@ H
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2608,7 +2496,6 @@ I
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2626,7 +2513,6 @@ J
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2644,7 +2530,6 @@ K
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2662,7 +2547,6 @@ L
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2680,7 +2564,6 @@ M
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2698,7 +2581,6 @@ N
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2716,7 +2598,6 @@ O
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2734,7 +2615,6 @@ P
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2752,7 +2632,6 @@ Q
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2770,7 +2649,6 @@ R
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2788,7 +2666,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2806,7 +2683,6 @@ T
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2824,7 +2700,6 @@ U
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2842,7 +2717,6 @@ V
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2860,7 +2734,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2878,7 +2751,6 @@ X
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2896,7 +2768,6 @@ Y
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2923,7 +2794,6 @@ UnicodeEscapeSequence
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2940,7 +2810,6 @@ u0020
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2958,7 +2827,6 @@ u0021
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2977,7 +2845,6 @@ u0022
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -2995,7 +2862,6 @@ u0023
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3012,7 +2878,6 @@ u0024
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3030,7 +2895,6 @@ u0025
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3048,7 +2912,6 @@ u0026
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3066,7 +2929,6 @@ u0027
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3084,7 +2946,6 @@ u0028
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3102,7 +2963,6 @@ u0029
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3120,7 +2980,6 @@ u002A
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3138,7 +2997,6 @@ u002B
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3155,7 +3013,6 @@ u002C
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3173,7 +3030,6 @@ u002D
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3191,7 +3047,6 @@ u002E
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3209,7 +3064,6 @@ u002F
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3227,7 +3081,6 @@ u0030
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3245,7 +3098,6 @@ u0031
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3263,7 +3115,6 @@ u0032
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3281,7 +3132,6 @@ u0033
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3299,7 +3149,6 @@ u0034
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3317,7 +3166,6 @@ u0035
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3335,7 +3183,6 @@ u0036
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3353,7 +3200,6 @@ u0037
 new
 TestCase
 (
-SECTION
 "
 \
 \
@@ -3371,7 +3217,6 @@ u0038
 new
 TestCase
 (
-SECTION
 "
 \
 \

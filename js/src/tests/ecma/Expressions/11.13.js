@@ -262,7 +262,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 true
 ?
@@ -293,7 +292,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 false
 ?
@@ -324,7 +322,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 1
 ?
@@ -355,7 +352,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 0
 ?
@@ -386,7 +382,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -418,7 +413,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 NaN
 ?
@@ -451,7 +445,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 var
 VAR

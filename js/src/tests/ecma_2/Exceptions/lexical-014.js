@@ -270,7 +270,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 extends
 =

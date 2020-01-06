@@ -531,7 +531,6 @@ defined
 new
 TestCase
 (
-SECTION
 "
 object
 is

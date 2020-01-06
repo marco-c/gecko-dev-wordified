@@ -291,7 +291,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -350,7 +349,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -408,7 +406,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -482,7 +479,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -542,7 +538,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -585,7 +580,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -620,7 +614,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 (
 String
@@ -655,7 +648,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 (
 String

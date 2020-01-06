@@ -279,9 +279,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 var
 x
 =

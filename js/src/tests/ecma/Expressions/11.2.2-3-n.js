@@ -474,7 +474,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 NULL
 =

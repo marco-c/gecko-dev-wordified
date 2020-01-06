@@ -185,7 +185,6 @@ backslash
 new
 TestCase
 (
-SECTION
 "
 '
 ^
@@ -240,7 +239,6 @@ line
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -289,7 +287,6 @@ line
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -335,7 +332,6 @@ repeat
 new
 TestCase
 (
-SECTION
 "
 '
 eeeefghi
@@ -387,7 +383,6 @@ times
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -439,7 +434,6 @@ time
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -490,7 +484,6 @@ character
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -539,7 +532,6 @@ remembering
 new
 TestCase
 (
-SECTION
 "
 '
 abcewirjskjdabciewjsdf
@@ -603,7 +595,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -654,7 +645,6 @@ n
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -708,7 +698,6 @@ n
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -764,7 +753,6 @@ max
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -823,7 +811,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -881,7 +868,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 netscape
@@ -948,7 +934,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -1010,7 +995,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 netscape
@@ -1073,7 +1057,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -1147,7 +1130,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 today
@@ -1225,7 +1207,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1285,7 +1266,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1346,7 +1326,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1408,7 +1387,6 @@ n
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1470,7 +1448,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1531,7 +1508,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -1617,7 +1593,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1684,7 +1659,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1758,7 +1732,6 @@ v
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1832,7 +1805,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 %
@@ -1887,7 +1859,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 azx
@@ -1951,7 +1922,6 @@ number
 new
 TestCase
 (
-SECTION
 "
 '
 test
@@ -2013,7 +1983,6 @@ with
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -2067,7 +2036,6 @@ with
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef

@@ -188,7 +188,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 [
@@ -251,7 +250,6 @@ exec
 new
 TestCase
 (
-SECTION
 "
 /
 3
@@ -311,7 +309,6 @@ exec
 new
 TestCase
 (
-SECTION
 "
 (
 /
@@ -381,7 +378,6 @@ re
 new
 TestCase
 (
-SECTION
 "
 re
 .
@@ -437,7 +433,6 @@ re
 new
 TestCase
 (
-SECTION
 "
 re
 .
@@ -483,7 +478,6 @@ exec
 new
 TestCase
 (
-SECTION
 "
 /
 3
@@ -554,7 +548,6 @@ re
 new
 TestCase
 (
-SECTION
 "
 (
 re
@@ -596,7 +589,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 /

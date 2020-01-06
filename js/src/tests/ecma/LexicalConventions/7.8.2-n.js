@@ -174,13 +174,6 @@ new
 TestCase
 (
 "
-7
-.
-8
-.
-2
-"
-"
 {
 1
 \
@@ -217,13 +210,6 @@ DESCRIPTION
 new
 TestCase
 (
-"
-7
-.
-8
-.
-2
-"
 "
 {
 1

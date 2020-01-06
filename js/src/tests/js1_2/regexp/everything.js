@@ -201,7 +201,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 Sally
@@ -319,7 +318,6 @@ xyz
 new
 TestCase
 (
-SECTION
 "
 '
 test123W
@@ -452,7 +450,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 number
@@ -577,7 +574,6 @@ simpleSentence
 new
 TestCase
 (
-SECTION
 "
 '
 See
@@ -649,7 +645,6 @@ simpleSentence
 new
 TestCase
 (
-SECTION
 "
 '
 I
@@ -757,7 +752,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 the

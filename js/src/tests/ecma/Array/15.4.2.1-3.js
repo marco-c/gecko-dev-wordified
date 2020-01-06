@@ -496,7 +496,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 [
@@ -518,7 +517,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 new
 Array
@@ -546,7 +544,6 @@ TEST_ARRAY
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -565,7 +562,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -584,7 +580,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -603,7 +598,6 @@ sort
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -622,7 +616,6 @@ reverse
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -637,7 +630,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .

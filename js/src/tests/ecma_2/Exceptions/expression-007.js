@@ -227,7 +227,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 UNDEFINED
 =

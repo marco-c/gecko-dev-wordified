@@ -495,7 +495,6 @@ property
 new
 TestCase
 (
-SECTION
 "
 GetCallee
 (
@@ -575,7 +574,6 @@ args
 new
 TestCase
 (
-SECTION
 "
 GetLength
 (
@@ -626,7 +624,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 GetArguments
 (

@@ -288,7 +288,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 for

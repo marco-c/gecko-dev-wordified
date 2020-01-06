@@ -238,7 +238,6 @@ getTime
 new
 TestCase
 (
-SECTION
 "
 MYDATE
 .

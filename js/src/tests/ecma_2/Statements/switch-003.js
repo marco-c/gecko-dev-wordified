@@ -408,7 +408,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 switch
 with

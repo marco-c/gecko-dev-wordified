@@ -577,7 +577,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -600,7 +599,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -657,7 +655,6 @@ lastIndexOf
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -711,7 +708,6 @@ lastIndexOf
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -771,7 +767,6 @@ lastIndexOf
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -828,7 +823,6 @@ lastIndexOf
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -888,7 +882,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -951,7 +944,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1014,7 +1006,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1077,7 +1068,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1140,7 +1130,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1203,7 +1192,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1266,7 +1254,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1329,7 +1316,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1398,7 +1384,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1467,7 +1452,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1533,7 +1517,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1605,7 +1588,6 @@ ll
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1671,7 +1653,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1734,7 +1715,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1797,7 +1777,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1888,7 +1867,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 o
@@ -1998,7 +1976,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -2100,7 +2077,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 b
@@ -2238,7 +2214,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 n
@@ -2393,7 +2368,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 a
@@ -2551,7 +2525,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 m
@@ -2657,7 +2630,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 d

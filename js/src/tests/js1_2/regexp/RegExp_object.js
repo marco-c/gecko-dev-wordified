@@ -213,7 +213,6 @@ pattern
 new
 TestCase
 (
-SECTION
 "
 '
 Test
@@ -272,7 +271,6 @@ pattern
 new
 TestCase
 (
-SECTION
 "
 '
 Test
@@ -376,7 +374,6 @@ pattern
 new
 TestCase
 (
-SECTION
 "
 '
 Our
@@ -451,7 +448,6 @@ pattern
 new
 TestCase
 (
-SECTION
 "
 '
 The
@@ -523,7 +519,6 @@ pattern
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -592,7 +587,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 PHONE_pattern
 +
@@ -662,7 +656,6 @@ int
 new
 TestCase
 (
-SECTION
 "
 SSN_pattern
 -

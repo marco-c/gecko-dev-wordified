@@ -181,7 +181,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 x
@@ -207,7 +206,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 var
 x
@@ -240,7 +238,6 @@ undefined
 new
 TestCase
 (
-SECTION
 "
 var
 x

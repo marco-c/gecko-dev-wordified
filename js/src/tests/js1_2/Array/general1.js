@@ -263,7 +263,6 @@ cat
 new
 TestCase
 (
-SECTION
 "
 array1
 .
@@ -314,7 +313,6 @@ mouse
 new
 TestCase
 (
-SECTION
 "
 array1
 .
@@ -361,7 +359,6 @@ mouse
 new
 TestCase
 (
-SECTION
 "
 state
 of
@@ -390,7 +387,6 @@ array1
 new
 TestCase
 (
-SECTION
 "
 array1
 .
@@ -449,7 +445,6 @@ mouse
 new
 TestCase
 (
-SECTION
 "
 array1
 .
@@ -470,7 +465,6 @@ mouse
 new
 TestCase
 (
-SECTION
 "
 array1
 .

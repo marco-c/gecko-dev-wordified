@@ -244,7 +244,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -270,7 +269,6 @@ primitive
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -291,7 +289,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -310,7 +307,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -329,7 +325,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -348,7 +343,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -373,7 +367,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -398,7 +391,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -422,7 +414,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -446,7 +437,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -479,7 +469,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -502,7 +491,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -521,7 +509,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -542,7 +529,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -565,7 +551,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -589,7 +574,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -634,7 +618,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -653,7 +636,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -672,7 +654,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -691,7 +672,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -710,7 +690,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -729,7 +708,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -748,7 +726,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -767,7 +744,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -786,7 +762,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -805,7 +780,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -824,7 +798,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -846,7 +819,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -868,7 +840,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -890,7 +861,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -912,7 +882,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -934,7 +903,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -956,7 +924,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -978,7 +945,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1002,7 +968,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1024,7 +989,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1071,7 +1035,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1140,7 +1103,6 @@ or
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1161,7 +1123,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1207,7 +1168,6 @@ or
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1232,7 +1192,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1257,7 +1216,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1280,7 +1238,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1303,7 +1260,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1326,7 +1282,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1349,7 +1304,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1372,7 +1326,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1395,7 +1348,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 String
 (
@@ -1420,13 +1372,6 @@ String
 new
 TestCase
 (
-"
-15
-.
-5
-.
-2
-"
 "
 String
 (

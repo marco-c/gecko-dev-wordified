@@ -375,7 +375,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 eval
 (

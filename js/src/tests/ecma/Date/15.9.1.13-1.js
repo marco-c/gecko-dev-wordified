@@ -177,7 +177,6 @@ Result
 new
 TestCase
 (
-SECTION
 "
 MakeDate
 (
@@ -202,7 +201,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 MakeDate
 (
@@ -227,7 +225,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 MakeDate
 (
@@ -252,7 +249,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 MakeDate
 (

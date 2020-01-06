@@ -363,7 +363,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -406,7 +405,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -464,7 +462,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -559,7 +556,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -617,7 +613,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -690,7 +685,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -754,7 +748,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -847,7 +840,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -911,7 +903,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -989,7 +980,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1053,7 +1043,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1146,7 +1135,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1210,7 +1198,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1308,7 +1295,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1374,7 +1360,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1469,7 +1454,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1537,7 +1521,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1619,7 +1602,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1677,7 +1659,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1764,7 +1745,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1822,7 +1802,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1894,7 +1873,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -1968,7 +1946,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2071,7 +2048,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2145,7 +2121,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2234,7 +2209,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2298,7 +2272,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2391,7 +2364,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -2455,7 +2427,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 obj

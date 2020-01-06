@@ -199,7 +199,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -274,7 +273,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -340,7 +338,6 @@ h
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghijkl
@@ -419,7 +416,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abc6defghijkl
@@ -508,7 +504,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 \
@@ -606,7 +601,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -683,7 +677,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -773,7 +766,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 a1b
@@ -883,7 +875,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -972,7 +963,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -1054,7 +1044,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -1136,7 +1125,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -1254,7 +1242,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 abc

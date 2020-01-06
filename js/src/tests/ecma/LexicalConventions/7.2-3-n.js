@@ -249,7 +249,6 @@ nb
 new
 TestCase
 (
-SECTION
 "
 <
 cr

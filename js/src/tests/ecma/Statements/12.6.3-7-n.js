@@ -529,7 +529,6 @@ expression
 new
 TestCase
 (
-SECTION
 "
 bad
 left

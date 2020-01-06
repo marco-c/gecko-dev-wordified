@@ -425,7 +425,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 break
 one
@@ -446,7 +445,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 break
 two
@@ -472,7 +470,6 @@ result2
 new
 TestCase
 (
-SECTION
 "
 break
 three
@@ -503,7 +500,6 @@ result3
 new
 TestCase
 (
-SECTION
 "
 break
 four

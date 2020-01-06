@@ -563,7 +563,6 @@ p
 new
 TestCase
 (
-SECTION
 "
 result
 =

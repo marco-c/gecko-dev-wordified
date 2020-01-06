@@ -175,7 +175,6 @@ object_2
 new
 TestCase
 (
-SECTION
 "
 (
 "

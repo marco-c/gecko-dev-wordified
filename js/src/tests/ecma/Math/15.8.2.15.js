@@ -394,7 +394,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -413,7 +412,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -434,7 +432,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -455,7 +452,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -480,7 +476,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -501,7 +496,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -522,7 +516,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -549,7 +542,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -578,7 +570,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -603,7 +594,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -624,7 +614,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -648,7 +637,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -676,7 +664,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -701,7 +688,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -727,7 +713,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -752,7 +737,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -777,7 +761,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -802,7 +785,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -830,7 +812,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -858,7 +839,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -890,7 +870,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -922,7 +901,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -950,7 +928,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -975,7 +952,6 @@ round
 new
 TestCase
 (
-SECTION
 "
 Math
 .

@@ -282,7 +282,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Assigning
 Boolean
