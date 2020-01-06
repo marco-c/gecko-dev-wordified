@@ -657,6 +657,7 @@ try
 let
 advanced
 =
+await
 requestor
 .
 continueRepairs
@@ -1209,6 +1210,7 @@ counts
 let
 countInfo
 =
+await
 this
 .
 _fetchCollectionCounts
@@ -1694,6 +1696,7 @@ fail
 }
 }
 }
+async
 _maybeCure
 (
 engine
@@ -1793,6 +1796,7 @@ sync
 }
 didStart
 =
+await
 requestor
 .
 startRepairs
@@ -1869,6 +1873,7 @@ mainly
 for
 mocking
 .
+async
 _fetchCollectionCounts
 (
 )
@@ -1891,6 +1896,7 @@ try
 let
 infoResp
 =
+await
 Service
 .
 _fetchInfo

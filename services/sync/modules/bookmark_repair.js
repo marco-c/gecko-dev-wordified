@@ -1705,6 +1705,7 @@ otherwise
 .
 *
 /
+async
 startRepairs
 (
 validationInfo
@@ -2070,6 +2071,7 @@ repairing
 .
 *
 /
+async
 continueRepairs
 (
 response
@@ -2198,6 +2200,7 @@ try
 {
 newState
 =
+await
 this
 .
 _continueRepairs
@@ -2458,6 +2461,7 @@ return
 true
 ;
 }
+async
 _continueRepairs
 (
 state
@@ -2724,12 +2728,15 @@ break
 }
 if
 (
+(
+await
 this
 .
 _isCommandPending
 (
 clientID
 flowID
+)
 )
 )
 {
@@ -3049,6 +3056,7 @@ STATE
 .
 SENT_SECOND_REQUEST
 ;
+await
 this
 .
 _writeRequest
@@ -3159,6 +3167,7 @@ _currentRemoteClient
 =
 newClientID
 ;
+await
 this
 .
 _writeRequest
@@ -3580,6 +3589,7 @@ client
 .
 *
 /
+async
 _writeRequest
 (
 clientID
@@ -3673,6 +3683,7 @@ localID
 ids
 flowID
 }
+await
 this
 .
 service
@@ -3977,6 +3988,7 @@ client
 ?
 *
 /
+async
 _isCommandPending
 (
 clientID
@@ -4030,12 +4042,9 @@ in
 commands
 )
 let
-commands
+clientCommands
 =
-[
-.
-.
-.
+await
 this
 .
 service
@@ -4046,6 +4055,15 @@ getClientCommands
 (
 clientID
 )
+;
+let
+commands
+=
+[
+.
+.
+.
+clientCommands
 .
 .
 .
@@ -4495,6 +4513,7 @@ upload
 "
 )
 {
+await
 this
 .
 _abortRepair
@@ -4927,6 +4946,7 @@ we
 are
 done
 .
+await
 this
 .
 _finishRepair
@@ -5021,6 +5041,7 @@ transformError
 ex
 )
 ;
+await
 this
 .
 _finishRepair
@@ -5824,13 +5845,19 @@ repair
 response
 )
 ;
+Async
+.
+promiseSpinningly
+(
 this
 .
 _finishRepair
 (
 )
+)
 ;
 }
+async
 _finishRepair
 (
 )
@@ -5898,6 +5925,7 @@ request
 .
 requestor
 ;
+await
 clientsEngine
 .
 sendCommand
@@ -5924,6 +5952,7 @@ from
 our
 client
 .
+await
 clientsEngine
 .
 removeLocalCommand
@@ -6050,6 +6079,7 @@ _currentState
 null
 ;
 }
+async
 _abortRepair
 (
 request
@@ -6070,6 +6100,7 @@ why
 }
 )
 ;
+await
 this
 .
 service

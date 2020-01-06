@@ -552,6 +552,7 @@ telemetry
 .
 *
 /
+async
 startRepairs
 (
 validationInfo
@@ -643,6 +644,7 @@ responder
 .
 *
 /
+async
 continueRepairs
 (
 responseInfo
