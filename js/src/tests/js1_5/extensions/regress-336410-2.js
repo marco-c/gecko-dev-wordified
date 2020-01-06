@@ -34,7 +34,7 @@ Android
 |
 xulRuntime
 .
-XPCOMABI
+CPU
 .
 match
 (

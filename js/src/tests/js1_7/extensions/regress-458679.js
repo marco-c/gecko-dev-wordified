@@ -20,7 +20,7 @@ shell
 &
 xulRuntime
 .
-XPCOMABI
+CPU
 .
 match
 (

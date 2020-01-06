@@ -25,7 +25,7 @@ Linux
 &
 xulRuntime
 .
-XPCOMABI
+CPU
 .
 match
 (
