@@ -382,6 +382,11 @@ nsThreadManager
 )
 {
 }
+void
+EnableMainThreadEventPrioritization
+(
+)
+;
 private
 :
 nsThreadManager
