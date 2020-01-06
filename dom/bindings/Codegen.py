@@ -25083,7 +25083,7 @@ if
 !
 protoAndIfaceCache
 .
-EntrySlotIfExists
+HasEntryInSlot
 (
 {
 id

@@ -2120,7 +2120,7 @@ AllNames
 cache
 -
 >
-EntrySlotIfExists
+HasEntryInSlot
 (
 entry
 -
