@@ -473,7 +473,7 @@ nsImageBoxFrame
 DrawResult
 PaintImage
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -832,7 +832,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

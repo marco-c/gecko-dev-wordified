@@ -148,6 +148,9 @@ include
 algorithm
 >
 class
+gfxContext
+;
+class
 nsFloatManager
 ;
 struct
@@ -164,9 +167,6 @@ nsPlaceholderFrame
 ;
 class
 nsPresContext
-;
-class
-nsRenderingContext
 ;
 /
 *
@@ -662,7 +662,7 @@ use
 for
 measurement
 .
-nsRenderingContext
+gfxContext
 *
 mRenderingContext
 ;
@@ -1025,7 +1025,7 @@ SizeComputationInput
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1054,7 +1054,7 @@ SizeComputationInput
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -5026,7 +5026,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const

@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -340,13 +347,6 @@ h
 include
 "
 nsThemeConstants
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -5281,7 +5281,7 @@ nsComboboxControlFrame
 :
 GetIntrinsicISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsLayoutUtils
@@ -5572,7 +5572,7 @@ nsComboboxControlFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -5607,7 +5607,7 @@ nsComboboxControlFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -10311,7 +10311,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -10335,7 +10335,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

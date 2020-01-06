@@ -146,6 +146,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -382,13 +389,6 @@ h
 include
 "
 nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -4314,7 +4314,7 @@ nsBlockFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -4878,7 +4878,7 @@ nsBlockFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -5554,7 +5554,7 @@ nsBlockFrame
 :
 GetPrefWidthTightBounds
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nscoord

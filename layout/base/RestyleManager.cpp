@@ -5502,9 +5502,12 @@ to
 a
 reflow
 .
-nsRenderingContext
+RefPtr
+<
+gfxContext
+>
 rc
-(
+=
 aFrame
 -
 >
@@ -5520,7 +5523,6 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
-)
 )
 ;
 /
@@ -5606,7 +5608,6 @@ PresContext
 (
 )
 parentFrame
-&
 rc
 parentSize
 )
@@ -5760,7 +5761,6 @@ PresContext
 (
 )
 cbFrame
-&
 rc
 cbSize
 )

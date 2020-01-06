@@ -193,7 +193,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -203,7 +203,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 bool
@@ -276,7 +276,7 @@ columns
 void
 ComputeColumnIntrinsicISizes
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -519,7 +519,7 @@ columns
 void
 ComputeIntrinsicISizes
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

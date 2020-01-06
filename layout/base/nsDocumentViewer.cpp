@@ -125,6 +125,13 @@ presentation
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ServoRestyleManager
@@ -633,13 +640,6 @@ h
 include
 "
 nsStyleSheetService
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -20145,7 +20145,10 @@ nscoord
 prefWidth
 ;
 {
-nsRenderingContext
+RefPtr
+<
+gfxContext
+>
 rcx
 (
 presShell
@@ -20163,7 +20166,6 @@ root
 >
 GetPrefISize
 (
-&
 rcx
 )
 ;

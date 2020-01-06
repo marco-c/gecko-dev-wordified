@@ -330,7 +330,7 @@ false
 void
 PaintHeaderFooter
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsPoint
@@ -366,7 +366,7 @@ nsHeaderFooterEnum
 nscoord
 GetXPosition
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsFontMetrics
@@ -387,7 +387,7 @@ aStr
 void
 DrawHeaderFooter
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsFontMetrics
@@ -416,7 +416,7 @@ aWidth
 void
 DrawHeaderFooter
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsFontMetrics

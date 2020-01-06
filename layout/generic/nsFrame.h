@@ -1824,7 +1824,7 @@ override
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1833,7 +1833,7 @@ override
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1842,7 +1842,7 @@ override
 void
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -1854,7 +1854,7 @@ override
 void
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -1890,7 +1890,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -1986,7 +1986,7 @@ mozilla
 LogicalSize
 ComputeSizeWithIntrinsicDimensions
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -2226,7 +2226,7 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -2298,7 +2298,7 @@ GetPrefISize
 nscoord
 ShrinkWidthToFit
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nscoord
@@ -4923,7 +4923,7 @@ aPresContext
 ReflowOutput
 &
 aDesiredSize
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nscoord

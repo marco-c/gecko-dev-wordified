@@ -1342,7 +1342,7 @@ aFrame
 nsView
 *
 aView
-nsRenderingContext
+gfxContext
 *
 aRC
 uint32_t
@@ -1447,7 +1447,7 @@ nsFirstLetterFrame
 void
 DoInlineIntrinsicISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlineIntrinsicISizeData
@@ -1494,7 +1494,7 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla

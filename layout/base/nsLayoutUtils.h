@@ -312,6 +312,9 @@ include
 algorithm
 >
 class
+gfxContext
+;
+class
 nsPresContext
 ;
 class
@@ -370,9 +373,6 @@ nsStyleCoord
 ;
 class
 nsStyleCorners
-;
-class
-gfxContext
 ;
 class
 nsPIDOMWindowOuter
@@ -7409,7 +7409,7 @@ static
 nsresult
 PaintFrame
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -9472,7 +9472,7 @@ mozilla
 :
 PhysicalAxis
 aAxis
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -9533,7 +9533,7 @@ static
 nscoord
 IntrinsicForContainer
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -9784,7 +9784,7 @@ mozilla
 :
 PhysicalAxis
 aAxis
-nsRenderingContext
+gfxContext
 *
 aRC
 nsIFrame
@@ -10634,7 +10634,7 @@ PrefISizeFromInline
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -10660,7 +10660,7 @@ MinISizeFromInline
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -10961,7 +10961,7 @@ aFrame
 nsFontMetrics
 &
 aFontMetrics
-nsRenderingContext
+gfxContext
 &
 aContext
 )
@@ -11005,7 +11005,7 @@ aFrame
 nsFontMetrics
 &
 aFontMetrics
-nsRenderingContext
+gfxContext
 &
 aContext
 )
@@ -11057,7 +11057,7 @@ aFrame
 nsFontMetrics
 &
 aFontMetrics
-nsRenderingContext
+gfxContext
 *
 aContext
 const
@@ -11136,7 +11136,7 @@ aPoint
 nsFontMetrics
 &
 aFontMetrics
-nsRenderingContext
+gfxContext
 &
 aContext
 )
@@ -11181,7 +11181,7 @@ void
 TextShadowCallback
 )
 (
-nsRenderingContext
+gfxContext
 *
 aCtx
 nsPoint
@@ -11203,7 +11203,7 @@ const
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aContext
 const

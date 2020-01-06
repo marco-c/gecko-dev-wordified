@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsSVGContainerFrame
 .
 h
@@ -1926,13 +1919,6 @@ PaintFrameFlags
 PAINT_SYNC_DECODE_IMAGES
 ;
 }
-nsRenderingContext
-rendCtx
-(
-&
-aContext
-)
-;
 Unused
 <
 <
@@ -1942,7 +1928,7 @@ nsLayoutUtils
 PaintFrame
 (
 &
-rendCtx
+aContext
 kid
 nsRegion
 (
@@ -3736,9 +3722,12 @@ here
 and
 now
 :
-nsRenderingContext
+RefPtr
+<
+gfxContext
+>
 renderingContext
-(
+=
 presContext
 -
 >
@@ -3749,7 +3738,6 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
-)
 )
 ;
 mInReflow
@@ -3771,7 +3759,6 @@ reflowInput
 (
 presContext
 kid
-&
 renderingContext
 LogicalSize
 (

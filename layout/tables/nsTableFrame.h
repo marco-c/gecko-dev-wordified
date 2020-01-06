@@ -2089,7 +2089,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -2099,7 +2099,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -2119,7 +2119,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -2169,7 +2169,7 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -2241,7 +2241,7 @@ ones
 nscoord
 TableShrinkISizeToFit
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nscoord
@@ -3993,7 +3993,7 @@ visibility
 void
 ReflowColGroups
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

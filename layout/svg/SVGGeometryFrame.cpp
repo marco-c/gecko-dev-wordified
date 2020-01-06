@@ -210,13 +210,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h
@@ -683,7 +676,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -863,7 +856,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -991,11 +984,6 @@ PaintSVG
 (
 *
 aCtx
--
->
-ThebesContext
-(
-)
 tm
 imgParams
 )
