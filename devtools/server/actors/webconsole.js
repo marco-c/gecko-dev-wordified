@@ -4706,7 +4706,7 @@ DOM
 Window
 .
 let
-requestStartTime
+winStartTime
 =
 this
 .
@@ -4727,7 +4727,7 @@ performance
 .
 timing
 .
-requestStart
+navigationStart
 :
 0
 ;
@@ -4791,7 +4791,7 @@ ServiceWorker
 "
 &
 &
-requestStartTime
+winStartTime
 >
 cachedMessage
 .
