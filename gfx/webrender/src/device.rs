@@ -11062,7 +11062,7 @@ FUNC_ADD
 }
 pub
 fn
-set_blend_mode_subpixel_opaque
+set_blend_mode_subpixel_constant_text_color
 (
 &
 self
@@ -11071,6 +11071,14 @@ color
 ColorF
 )
 {
+/
+/
+color
+is
+an
+unpremultiplied
+color
+.
 self
 .
 gl
@@ -11086,9 +11094,9 @@ g
 color
 .
 b
-color
+1
 .
-a
+0
 )
 ;
 self
