@@ -1087,6 +1087,13 @@ Get
 (
 )
 ;
+cbc
+-
+>
+NotifyBeginAsyncPaintEndTransaction
+(
+)
+;
 }
 RefPtr
 <
@@ -1215,7 +1222,7 @@ aBridge
 aBridge
 -
 >
-NotifyFinishedAsyncPaintTransaction
+NotifyFinishedAsyncPaintEndTransaction
 (
 )
 ;
