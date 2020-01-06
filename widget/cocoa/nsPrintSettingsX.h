@@ -304,6 +304,17 @@ aHeight
 )
 override
 ;
+void
+GetFilePageSize
+(
+double
+*
+aWidth
+double
+*
+aHeight
+)
+;
 /
 /
 In
