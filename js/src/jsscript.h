@@ -6311,7 +6311,7 @@ selfHosted_
 /
 /
 See
-FunctionContextFlags
+FunctionBox
 .
 bool
 bindingsAccessedDynamically_
