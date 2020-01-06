@@ -174,6 +174,13 @@ MediaTrackConstraints
 .
 h
 "
+#
+include
+"
+SineWaveGenerator
+.
+h
+"
 namespace
 mozilla
 {
