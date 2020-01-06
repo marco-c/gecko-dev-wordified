@@ -39,9 +39,6 @@ cork_state
 mod
 stream
 ;
-mod
-var_array
-;
 pub
 type
 Result
