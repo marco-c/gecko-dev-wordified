@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsIPrefBranch
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -2116,6 +2123,12 @@ database
 .
 bool
 mIsShuttingDown
+;
+nsCOMPtr
+<
+nsIPrefBranch
+>
+mDefaultPrefBranch
 ;
 friend
 class
