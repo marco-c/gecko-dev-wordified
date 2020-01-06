@@ -2096,6 +2096,14 @@ XRE_IsParentProcess
 {
 mShowPassword
 =
+jni
+:
+:
+IsAvailable
+(
+)
+&
+&
 java
 :
 :
