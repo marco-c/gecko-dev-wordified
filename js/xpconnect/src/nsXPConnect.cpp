@@ -3625,7 +3625,7 @@ if
 (
 aFlags
 &
-nsIXPConnect
+xpc
 :
 :
 OMIT_COMPONENTS_OBJECT
@@ -3692,7 +3692,7 @@ if
 (
 aFlags
 &
-nsIXPConnect
+xpc
 :
 :
 DONT_FIRE_ONNEWGLOBALHOOK
@@ -3839,7 +3839,7 @@ helper
 aPrincipal
 aFlags
 &
-nsIXPConnect
+xpc
 :
 :
 INIT_JS_STANDARD_CLASSES

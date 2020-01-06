@@ -9708,7 +9708,7 @@ const
 uint32_t
 flags
 =
-nsIXPConnect
+xpc
 :
 :
 INIT_JS_STANDARD_CLASSES
