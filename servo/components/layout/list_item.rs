@@ -1218,7 +1218,12 @@ Own
 .
 translate
 (
+&
 stacking_context_position
+.
+to_vector
+(
+)
 )
 )
 ;

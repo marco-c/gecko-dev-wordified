@@ -111,9 +111,6 @@ use
 euclid
 :
 :
-point
-:
-:
 Point2D
 ;
 use

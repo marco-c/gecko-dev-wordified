@@ -98,9 +98,6 @@ use
 euclid
 :
 :
-point
-:
-:
 Point2D
 ;
 const

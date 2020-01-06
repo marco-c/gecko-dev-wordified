@@ -1077,10 +1077,10 @@ use
 euclid
 :
 :
-point
-:
-:
+{
 Point2D
+Vector2D
+}
 ;
 use
 html5ever
@@ -7599,7 +7599,7 @@ GetBoundingClientRect
 let
 child_origin
 =
-Point2D
+Vector2D
 :
 :
 new
@@ -8643,7 +8643,7 @@ GetBoundingClientRect
 let
 child_origin
 =
-Point2D
+Vector2D
 :
 :
 new
@@ -9350,7 +9350,7 @@ GetBoundingClientRect
 let
 child_origin
 =
-Point2D
+Vector2D
 :
 :
 new
@@ -10137,7 +10137,7 @@ GetBoundingClientRect
 let
 child_origin
 =
-Point2D
+Vector2D
 :
 :
 new

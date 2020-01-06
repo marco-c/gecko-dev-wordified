@@ -387,8 +387,9 @@ euclid
 :
 :
 {
-Matrix4D
+Transform3D
 Point2D
+Vector2D
 Rect
 Size2D
 }
@@ -2463,6 +2464,10 @@ translate
 position
 .
 origin
+.
+to_vector
+(
+)
 )
 ;
 return
@@ -2720,6 +2725,10 @@ translate
 position
 .
 origin
+.
+to_vector
+(
+)
 )
 ;
 return
@@ -2766,7 +2775,7 @@ position
 .
 unwrap_or
 (
-Matrix4D
+Transform3D
 :
 :
 identity
@@ -2881,6 +2890,10 @@ translate
 position
 .
 origin
+.
+to_vector
+(
+)
 )
 ;
 overflow
@@ -7551,7 +7564,7 @@ construction
 pub
 stacking_relative_position
 :
-Point2D
+Vector2D
 <
 Au
 >
@@ -8959,7 +8972,7 @@ new
 )
 stacking_relative_position
 :
-Point2D
+Vector2D
 :
 :
 zero

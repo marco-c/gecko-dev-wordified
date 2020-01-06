@@ -176,7 +176,7 @@ use
 euclid
 :
 :
-Matrix4D
+Transform3D
 ;
 #
 [
@@ -213,7 +213,7 @@ is2D
 bool
 matrix
 :
-Matrix4D
+Transform3D
 <
 f64
 >
@@ -254,7 +254,7 @@ is2D
 bool
 matrix
 :
-Matrix4D
+Transform3D
 <
 f64
 >

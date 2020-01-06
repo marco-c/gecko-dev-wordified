@@ -83,9 +83,6 @@ use
 euclid
 :
 :
-size
-:
-:
 TypedSize2D
 ;
 use

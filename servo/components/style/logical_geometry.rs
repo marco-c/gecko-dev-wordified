@@ -74,6 +74,7 @@ euclid
 Point2D
 Rect
 Size2D
+SideOffsets2D
 }
 ;
 use
@@ -84,15 +85,6 @@ num
 :
 :
 Zero
-;
-use
-euclid
-:
-:
-side_offsets
-:
-:
-SideOffsets2D
 ;
 use
 std

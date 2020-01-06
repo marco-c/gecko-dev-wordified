@@ -60,9 +60,6 @@ use
 euclid
 :
 :
-point
-:
-:
 {
 Point2D
 TypedPoint2D

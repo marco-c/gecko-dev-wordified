@@ -74,9 +74,6 @@ use
 euclid
 :
 :
-rect
-:
-:
 Rect
 ;
 use

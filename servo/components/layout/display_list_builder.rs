@@ -164,8 +164,9 @@ euclid
 :
 :
 {
-Matrix4D
+Transform3D
 Point2D
+Vector2D
 Rect
 SideOffsets2D
 Size2D
@@ -3888,7 +3889,7 @@ DisplayListBuildState
 stacking_relative_flow_origin
 :
 &
-Point2D
+Vector2D
 <
 Au
 >
@@ -9736,7 +9737,7 @@ point
 let
 delta
 =
-Point2D
+Vector2D
 :
 :
 new
@@ -10594,7 +10595,7 @@ absolute_bounds
 translate
 (
 &
-Point2D
+Vector2D
 :
 :
 new
@@ -10698,7 +10699,7 @@ to_gfx_color
 )
 offset
 :
-Point2D
+Vector2D
 :
 :
 new
@@ -13029,7 +13030,7 @@ DisplayListBuildState
 stacking_relative_flow_origin
 :
 &
-Point2D
+Vector2D
 <
 Au
 >
@@ -14675,6 +14676,10 @@ translate
 &
 -
 border_box_offset
+.
+to_vector
+(
+)
 )
 ;
 /
@@ -14988,7 +14993,7 @@ map
 |
 s
 |
-Point2D
+Vector2D
 :
 :
 new
@@ -15004,7 +15009,7 @@ offset_y
 .
 unwrap_or_else
 (
-Point2D
+Vector2D
 :
 :
 zero
@@ -15201,6 +15206,10 @@ style
 .
 writing_mode
 container_size
+)
+.
+to_vector
+(
 )
 ;
 /
@@ -15772,7 +15781,7 @@ to_gfx_color
 )
 offset
 :
-Point2D
+Vector2D
 :
 :
 zero
@@ -16633,7 +16642,7 @@ border_box
 .
 unwrap_or_else
 (
-Matrix4D
+Transform3D
 :
 :
 identity
@@ -20047,6 +20056,10 @@ new
 self
 .
 stacking_relative_position
+.
+to_point
+(
+)
 self
 .
 position
