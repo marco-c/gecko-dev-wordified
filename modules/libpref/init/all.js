@@ -9635,18 +9635,6 @@ allow_zooming
 false
 )
 ;
-pref
-(
-"
-apz
-.
-autoscroll
-.
-enabled
-"
-false
-)
-;
 /
 /
 Whether
@@ -57856,7 +57844,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-true
+false
 )
 ;
 pref
