@@ -517,16 +517,6 @@ Memory
 pressure
 levels
 .
-Keep
-these
-in
-sync
-with
-those
-in
-AndroidJavaWrappers
-.
-h
 private
 static
 final
