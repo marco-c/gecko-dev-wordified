@@ -452,7 +452,7 @@ as
 aProperty
 in
 the
-FramePropertyTable
+FrameProperties
 methods
 .
 *

@@ -8258,7 +8258,8 @@ be
 destroyed
 by
 the
-FramePropertyTable
+FrameProperties
+class
 "
 )
 ;
