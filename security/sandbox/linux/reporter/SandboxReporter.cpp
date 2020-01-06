@@ -1518,6 +1518,15 @@ ioctl
 request
 ARG_DECIMAL
 (
+fcntl
+1
+)
+;
+/
+/
+cmd
+ARG_DECIMAL
+(
 madvise
 2
 )
