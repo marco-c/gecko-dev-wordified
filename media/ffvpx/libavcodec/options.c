@@ -265,7 +265,7 @@ FF_DISABLE_DEPRECATION_WARNINGS
 #
 include
 "
-ff_options_table
+options_table
 .
 h
 "
