@@ -723,7 +723,7 @@ Vec
 <
 Atom
 >
-Arc
+Box
 <
 Painter
 >

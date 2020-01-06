@@ -487,6 +487,12 @@ style_traits
 CSSPixel
 ;
 use
+style_traits
+:
+:
+SpeculativePainter
+;
+use
 webdriver_msg
 :
 :
@@ -6531,9 +6537,7 @@ pub
 trait
 Painter
 :
-Sync
-+
-Send
+SpeculativePainter
 {
 /
 /
@@ -6664,6 +6668,7 @@ Debug
 Deserialize
 Serialize
 Clone
+HeapSizeOf
 )
 ]
 pub
