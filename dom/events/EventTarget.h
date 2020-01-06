@@ -640,12 +640,6 @@ IsApzAware
 )
 const
 ;
-bool
-MayHaveAPZAwareKeyEventListener
-(
-)
-const
-;
 protected
 :
 EventHandlerNonNull
