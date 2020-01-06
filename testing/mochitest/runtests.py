@@ -19673,6 +19673,23 @@ FINISHED
 "
 )
         
+result
+=
+result
+or
+(
+-
+2
+if
+self
+.
+countfail
+>
+0
+else
+0
+)
+        
 return
 result
     
