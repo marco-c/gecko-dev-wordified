@@ -769,16 +769,6 @@ declarations
 )
 SERVO_BINDING_FUNC
 (
-Servo_SelectorList_Parse
-RawServoSelectorList
-*
-const
-nsACString
-*
-selector_list
-)
-SERVO_BINDING_FUNC
-(
 Servo_StyleSet_AddSizeOfExcludingThis
 void
 mozilla
