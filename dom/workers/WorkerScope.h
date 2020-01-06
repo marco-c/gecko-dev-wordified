@@ -1100,6 +1100,10 @@ IMPL_EVENT_HANDLER
 (
 message
 )
+IMPL_EVENT_HANDLER
+(
+messageerror
+)
 }
 ;
 class
@@ -1621,6 +1625,10 @@ aMessage
 IMPL_EVENT_HANDLER
 (
 message
+)
+IMPL_EVENT_HANDLER
+(
+messageerror
 )
 void
 SetImmediate
