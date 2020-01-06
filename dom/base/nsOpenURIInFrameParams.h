@@ -183,5 +183,11 @@ mOpenerOriginAttributes
 nsString
 mReferrer
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
+;
 }
 ;
