@@ -42748,7 +42748,7 @@ replace
 ?
 :
 \
-s
+W
 *
 javascript
 :
