@@ -842,6 +842,8 @@ fn
 )
 {
 return
+content
+.
 requestAnimationFrame
 (
 fn
