@@ -144,9 +144,7 @@ HeapAnalysesClient
 )
 ;
 const
-{
 PropTypes
-}
 =
 require
 (
@@ -160,6 +158,10 @@ shared
 vendor
 /
 react
+-
+prop
+-
+types
 "
 )
 ;
