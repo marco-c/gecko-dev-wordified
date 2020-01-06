@@ -110,6 +110,17 @@ mozilla
 /
 extensions
 /
+WebExtensionContentScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+extensions
+/
 WebExtensionPolicy
 .
 h
