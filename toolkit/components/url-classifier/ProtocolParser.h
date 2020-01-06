@@ -110,6 +110,8 @@ h
 #
 include
 "
+chromium
+/
 safebrowsing
 .
 pb
