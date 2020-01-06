@@ -2374,6 +2374,14 @@ mDecoder
 >
 NetworkError
 (
+MediaResult
+(
+NS_ERROR_FAILURE
+"
+MSE
+network
+"
+)
 )
 ;
 break

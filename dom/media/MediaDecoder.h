@@ -643,6 +643,10 @@ error
 void
 NetworkError
 (
+const
+MediaResult
+&
+aError
 )
 ;
 /

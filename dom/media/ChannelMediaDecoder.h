@@ -281,6 +281,10 @@ override
 void
 NotifyNetworkError
 (
+const
+MediaResult
+&
+aError
 )
 override
 ;

@@ -906,6 +906,10 @@ virtual
 void
 NetworkError
 (
+const
+MediaResult
+&
+aError
 )
 final
 override

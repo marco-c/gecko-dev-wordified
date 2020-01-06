@@ -569,6 +569,14 @@ mDecoder
 >
 NetworkError
 (
+MediaResult
+(
+NS_ERROR_FAILURE
+"
+HLS
+error
+"
+)
 )
 ;
 }
