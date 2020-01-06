@@ -2212,7 +2212,7 @@ rv
 policy
 -
 >
-AddPath
+AddDir
 (
 rdonly
 tmpPath
