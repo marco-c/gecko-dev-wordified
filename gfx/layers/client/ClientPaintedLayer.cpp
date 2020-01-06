@@ -585,13 +585,13 @@ aState
 mRegionToDraw
 )
 ;
-ContentClientRemote
+ContentClientRemoteBuffer
 *
 contentClientRemote
 =
 static_cast
 <
-ContentClientRemote
+ContentClientRemoteBuffer
 *
 >
 (
