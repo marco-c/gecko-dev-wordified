@@ -293,7 +293,7 @@ gMultiProcessBrowser
 !
 aBrowser
 .
-isConnected
+contentWindow
 )
 {
 /
@@ -340,8 +340,16 @@ browser
 /
 is
 lazy
+or
+is
+running
+in
+windowless
+configuration
 then
 the
+/
+/
 content
 window
 doesn
