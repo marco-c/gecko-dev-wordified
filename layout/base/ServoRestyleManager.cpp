@@ -2997,7 +2997,7 @@ aFlags
 ServoTraversalFlags
 :
 :
-ForThrottledAnimationFlush
+AnimationOnly
 )
 )
 {
@@ -4252,7 +4252,7 @@ aFlags
 ServoTraversalFlags
 :
 :
-ForThrottledAnimationFlush
+AnimationOnly
 )
 ;
 const
@@ -5463,7 +5463,7 @@ aFlags
 ServoTraversalFlags
 :
 :
-ForThrottledAnimationFlush
+AnimationOnly
 )
 ;
 /
@@ -5578,15 +5578,6 @@ ForCSSRuleChanges
 }
 while
 (
-forThrottledAnimationFlush
-?
-styleSet
--
->
-StyleDocumentForThrottledAnimationFlush
-(
-)
-:
 styleSet
 -
 >
@@ -6150,7 +6141,7 @@ DoProcessPendingRestyles
 ServoTraversalFlags
 :
 :
-ForThrottledAnimationFlush
+AnimationOnly
 )
 ;
 }
