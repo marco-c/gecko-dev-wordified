@@ -657,7 +657,7 @@ rx
 .
 lastIndex
 before
-RegExpGetComplexReplacement
+RegExpGetFunctionalReplacement
 .
 var
 nextSourcePosition
