@@ -3843,7 +3843,7 @@ getElementById
 (
 BrowserPageActions
 .
-_urlbarButtonNodeIDForActionID
+urlbarButtonNodeIDForActionID
 (
 action
 .
