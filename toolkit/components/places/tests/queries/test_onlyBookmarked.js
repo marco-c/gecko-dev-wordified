@@ -270,10 +270,6 @@ bookmarked
 com
 /
 "
-title
-:
-"
-"
 parentGuid
 :
 PlacesUtils
@@ -322,10 +318,6 @@ elsewhere
 com
 /
 "
-title
-:
-"
-"
 parentGuid
 :
 PlacesUtils
@@ -367,10 +359,6 @@ notbookmarked
 .
 com
 /
-"
-title
-:
-"
 "
 isInQuery
 :
@@ -604,10 +592,6 @@ bookmarked2
 com
 /
 "
-title
-:
-"
-"
 parentGuid
 :
 PlacesUtils
@@ -653,10 +637,6 @@ elsewhere2
 .
 com
 /
-"
-title
-:
-"
 "
 parentGuid
 :
