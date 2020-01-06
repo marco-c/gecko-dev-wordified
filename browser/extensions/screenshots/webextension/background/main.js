@@ -321,6 +321,8 @@ icon
 highlight
 -
 32
+-
+v2
 .
 svg
 "
@@ -331,6 +333,8 @@ icons
 icon
 -
 32
+-
+v2
 .
 svg
 "
@@ -357,6 +361,8 @@ icon
 starred
 -
 32
+-
+v2
 .
 svg
 "
