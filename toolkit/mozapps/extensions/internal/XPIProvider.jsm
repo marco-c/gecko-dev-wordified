@@ -1997,6 +1997,9 @@ apiextension
 "
 extension
 "
+"
+theme
+"
 ]
 )
 ;
