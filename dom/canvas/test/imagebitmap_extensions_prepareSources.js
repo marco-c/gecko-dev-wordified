@@ -294,14 +294,6 @@ img
 ;
 gImage
 .
-crossOrigin
-=
-"
-anonymous
-"
-;
-gImage
-.
 src
 =
 gCanvas
