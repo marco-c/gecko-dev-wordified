@@ -1454,6 +1454,10 @@ aCookieHeader
 const
 int
 aNumOfCookies
+const
+OriginAttributes
+&
+aOriginAttrs
 )
 ;
 static

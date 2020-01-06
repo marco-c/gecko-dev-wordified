@@ -1641,6 +1641,7 @@ CountCookiesFromHashTable
 baseDomain
 aOriginAttrs
 )
+aOriginAttrs
 )
 ;
 if
@@ -2958,6 +2959,7 @@ CountCookiesFromHashTable
 baseDomain
 attrs
 )
+attrs
 )
 ;
 if
