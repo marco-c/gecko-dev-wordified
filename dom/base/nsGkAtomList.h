@@ -14777,6 +14777,15 @@ mozinputrangeignorepreventdefault
 WebExtensions
 GK_ATOM
 (
+moz_extension
+"
+moz
+-
+extension
+"
+)
+GK_ATOM
+(
 http
 "
 http
