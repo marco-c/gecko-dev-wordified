@@ -598,6 +598,62 @@ performed
           
 }
 ]
+        
+[
+[
+'
+-
+-
+detect
+-
+paths
+'
+]
+         
+{
+'
+dest
+'
+:
+'
+detect_paths
+'
+          
+'
+action
+'
+:
+'
+store_true
+'
+          
+'
+default
+'
+:
+False
+          
+'
+help
+'
+:
+'
+Provide
+test
+paths
+based
+on
+files
+changed
+in
+the
+working
+copy
+.
+'
+          
+}
+]
     
 ]
     
@@ -3803,6 +3859,7 @@ find_paths_and_tags
 (
 self
 verbose
+detect_paths
 )
 :
         
@@ -3826,6 +3883,8 @@ files_changed
         
 if
 changed_files
+and
+detect_paths
 :
             
 if
@@ -5011,6 +5070,13 @@ kwargs
 [
 "
 verbose
+"
+]
+                                                                       
+kwargs
+[
+"
+detect_paths
 "
 ]
 )
