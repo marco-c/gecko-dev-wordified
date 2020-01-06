@@ -3630,14 +3630,6 @@ if
 aWait
 )
 {
-nsIThread
-*
-thread
-=
-NS_GetCurrentThread
-(
-)
-;
 /
 /
 This
