@@ -10011,6 +10011,12 @@ MOZ_ASSERT
 result
 =
 =
+nsEventStatus_eConsumeDoDefault
+|
+|
+result
+=
+=
 nsEventStatus_eConsumeNoDefault
 )
 ;
