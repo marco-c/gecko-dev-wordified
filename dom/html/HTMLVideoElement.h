@@ -657,12 +657,6 @@ MozHasAudio
 )
 const
 ;
-void
-NotifyOwnerDocumentActivityChanged
-(
-)
-override
-;
 /
 /
 Gives
