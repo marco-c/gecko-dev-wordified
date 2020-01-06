@@ -3255,6 +3255,9 @@ empty
 )
 &
 ServoMetricsProvider
+context
+.
+error_reporter
 )
 .
 clone
@@ -3309,6 +3312,9 @@ is_probe
 false
 &
 ServoMetricsProvider
+context
+.
+error_reporter
 )
 .
 unwrap
