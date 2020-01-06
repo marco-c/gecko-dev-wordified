@@ -151,13 +151,7 @@ debugDump
 testing
 mar
 downloads
-mar
-hash
-verification
 and
-"
-+
-"
 mar
 download
 interrupted
@@ -406,8 +400,6 @@ gNextRunFunc
 function
 setResponseBody
 (
-aHashFunction
-aHashValue
 )
 {
 let
@@ -1048,10 +1040,6 @@ initMockIncrementalDownload
 ;
 setResponseBody
 (
-"
-MD5
-"
-MD5_HASH_SIMPLE_MAR
 )
 ;
 run_test_helper_pt1
@@ -1108,10 +1096,6 @@ PREF_APP_UPDATE_RETRYTIMEOUT
 ;
 setResponseBody
 (
-"
-MD5
-"
-MD5_HASH_SIMPLE_MAR
 )
 ;
 run_test_helper_pt1
@@ -1151,10 +1135,6 @@ gIncrementalDownloadErrorType
 ;
 setResponseBody
 (
-"
-MD5
-"
-MD5_HASH_SIMPLE_MAR
 )
 ;
 run_test_helper_pt1
