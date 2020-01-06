@@ -333,6 +333,9 @@ resolve
 (
 "
 .
+.
+/
+shared
 /
 webpack
 "
