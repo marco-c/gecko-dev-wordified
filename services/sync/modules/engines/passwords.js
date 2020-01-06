@@ -1909,7 +1909,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Adding
@@ -1982,7 +1982,7 @@ this
 .
 _log
 .
-debug
+error
 (
 Adding
 record
@@ -2102,7 +2102,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Skipping
@@ -2125,7 +2125,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Updating
