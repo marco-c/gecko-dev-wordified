@@ -439,6 +439,11 @@ D
 FULL_SLOT_BUFFER
 )
 \
+D
+(
+FULL_SHAPE_BUFFER
+)
+\
 \
 /
 *
@@ -500,11 +505,6 @@ RESERVED8
 D
 (
 RESERVED9
-)
-\
-D
-(
-RESERVED10
 )
 \
 \
