@@ -6551,10 +6551,6 @@ attrs
 other
 -
 >
-flags
-other
--
->
 getter
 (
 )
@@ -6588,8 +6584,6 @@ uint32_t
 aslot
 unsigned
 aattrs
-unsigned
-aflags
 GetterOp
 rawGetter
 SetterOp
@@ -10489,9 +10483,6 @@ slot_
 other
 .
 attrs
-other
-.
-flags
 other
 .
 rawGetter
