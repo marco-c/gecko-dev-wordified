@@ -865,7 +865,7 @@ mPatchedFns
 maxPatchedFns
 ]
 ;
-int
+size_t
 mPatchedFnsLen
 ;
 public
@@ -913,7 +913,7 @@ patched
 .
 for
 (
-int
+size_t
 i
 =
 0
