@@ -6510,12 +6510,6 @@ aEvent
 mMessage
 )
 {
-MOZ_ASSERT
-(
-!
-mIsMouseEnterIntoWidgetEventSuppressed
-)
-;
 mIsMouseEnterIntoWidgetEventSuppressed
 =
 true
