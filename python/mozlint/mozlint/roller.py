@@ -110,12 +110,6 @@ lintargs
 )
 :
     
-parse
-=
-Parser
-(
-)
-    
 results
 =
 defaultdict
@@ -153,6 +147,7 @@ grabbing
 the
 next
 linter
+config
 from
 the
 queue
@@ -160,9 +155,9 @@ after
 a
 SIGINT
 .
-Because
             
 #
+Because
 this
 is
 a
@@ -178,9 +173,9 @@ in
 a
 child
 process
-which
             
 #
+which
 also
 received
 SIGINT
@@ -193,9 +188,9 @@ worker
 gets
 back
 here
-the
             
 #
+the
 Queue
 is
 dead
@@ -205,7 +200,7 @@ is
 raised
 .
             
-linter_path
+config
 =
 queue
 .
@@ -225,71 +220,11 @@ return
 results
 failed
         
-#
-Ideally
-we
-would
-pass
-the
-entire
-LINTER
-definition
-as
-an
-argument
-        
-#
-to
-the
-worker
-instead
-of
-re
--
-parsing
-it
-.
-But
-passing
-a
-function
-from
-        
-#
-a
-dynamically
-created
-module
-(
-with
-imp
-)
-does
-not
-seem
-to
-be
-possible
-        
-#
-with
-multiprocessing
-on
-Windows
-.
-        
-linter
-=
-parse
-(
-linter_path
-)
-        
 func
 =
 supported_types
 [
-linter
+config
 [
 '
 type
@@ -302,7 +237,7 @@ res
 func
 (
 paths
-linter
+config
 *
 *
 lintargs
@@ -331,7 +266,7 @@ failed
 .
 append
 (
-linter
+config
 [
 '
 name
@@ -635,7 +570,7 @@ self
 .
 linters
 .
-append
+extend
 (
 self
 .
@@ -926,7 +861,7 @@ Queue
 )
         
 for
-linter
+config
 in
 self
 .
@@ -937,12 +872,7 @@ queue
 .
 put
 (
-linter
-[
-'
-path
-'
-]
+config
 )
         
 num_procs

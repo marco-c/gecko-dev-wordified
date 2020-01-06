@@ -731,6 +731,16 @@ search_path
             
 continue
         
+sys
+.
+path
+.
+insert
+(
+0
+search_path
+)
+        
 files
 =
 os
@@ -765,9 +775,7 @@ endswith
 (
 '
 .
-lint
-.
-py
+yml
 '
 )
 :
@@ -783,7 +791,7 @@ rsplit
 '
 .
 '
-2
+1
 )
 [
 0

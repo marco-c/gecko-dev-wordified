@@ -56,6 +56,8 @@ MPL
 import
 os
 import
+sys
+import
 pytest
 from
 mozlint
@@ -226,7 +228,8 @@ lintdir
 )
 :
     
-return
+lintdir
+=
 os
 .
 path
@@ -238,6 +241,19 @@ here
 linters
 '
 )
+    
+sys
+.
+path
+.
+insert
+(
+0
+lintdir
+)
+    
+return
+lintdir
 pytest
 .
 fixture

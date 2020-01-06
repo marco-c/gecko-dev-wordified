@@ -106,33 +106,25 @@ params
 '
 string
 .
-lint
-.
-py
+yml
 '
     
 '
 regex
 .
-lint
-.
-py
+yml
 '
     
 '
 external
 .
-lint
-.
-py
+yml
 '
     
 '
 structured
 .
-lint
-.
-py
+yml
 '
 ]
 )
@@ -295,9 +287,7 @@ lintdir
 '
 explicit_path
 .
-lint
-.
-py
+yml
 '
 )
 )
