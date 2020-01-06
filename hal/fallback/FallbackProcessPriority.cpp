@@ -83,6 +83,15 @@ mozilla
 namespace
 hal_impl
 {
+bool
+SetProcessPrioritySupported
+(
+)
+{
+return
+false
+;
+}
 void
 SetProcessPriority
 (
