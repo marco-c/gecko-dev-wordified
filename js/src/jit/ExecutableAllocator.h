@@ -1293,6 +1293,12 @@ defined
 (
 JS_SIMULATOR_ARM64
 )
+|
+|
+defined
+(
+JS_CODEGEN_NONE
+)
 static
 void
 cacheFlush
