@@ -2956,6 +2956,7 @@ const
 RustString
 *
 uint8_t
+const
 *
 *
 chars
