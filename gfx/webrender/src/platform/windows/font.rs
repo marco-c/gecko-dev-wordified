@@ -74,8 +74,6 @@ api
 {
 GlyphDimensions
 GlyphKey
-GlyphOptions
-SubpixelDirection
 }
 ;
 use

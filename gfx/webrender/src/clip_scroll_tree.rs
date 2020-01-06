@@ -1584,7 +1584,6 @@ node_children
 =
 {
 let
-mut
 node
 =
 match

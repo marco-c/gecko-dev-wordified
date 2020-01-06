@@ -4118,7 +4118,6 @@ I
 )
 {
 let
-mut
 font_glyphs
 =
 self

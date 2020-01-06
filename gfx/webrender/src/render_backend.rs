@@ -936,7 +936,6 @@ DocumentMsg
 frame_counter
 :
 u32
-mut
 profile_counters
 :
 &

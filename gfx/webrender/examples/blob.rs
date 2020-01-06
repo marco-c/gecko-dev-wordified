@@ -58,14 +58,6 @@ MPL
 /
 extern
 crate
-app_units
-;
-extern
-crate
-euclid
-;
-extern
-crate
 gleam
 ;
 extern
