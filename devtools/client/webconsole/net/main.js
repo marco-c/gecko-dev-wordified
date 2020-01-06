@@ -248,9 +248,7 @@ components
 /
 tree
 /
-tree
--
-view
+TreeView
 .
 css
 "

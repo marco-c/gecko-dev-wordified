@@ -119,7 +119,7 @@ components
 /
 splitter
 /
-draggable
+Draggable
 "
 )
 )

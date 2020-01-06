@@ -235,7 +235,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 )

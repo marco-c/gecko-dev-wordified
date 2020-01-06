@@ -204,11 +204,7 @@ shared
 /
 components
 /
-h
--
-split
--
-box
+HSplitBox
 "
 )
 )

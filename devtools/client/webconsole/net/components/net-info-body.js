@@ -120,7 +120,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 )

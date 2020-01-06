@@ -172,9 +172,7 @@ components
 /
 tree
 /
-tree
--
-view
+TreeView
 "
 )
 )

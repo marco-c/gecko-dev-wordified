@@ -227,9 +227,7 @@ components
 /
 splitter
 /
-split
--
-box
+SplitBox
 "
 )
 )

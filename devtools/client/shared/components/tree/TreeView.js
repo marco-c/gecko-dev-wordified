@@ -161,9 +161,7 @@ require
 "
 .
 /
-object
--
-provider
+ObjectProvider
 "
 )
 ;
@@ -179,9 +177,7 @@ require
 "
 .
 /
-tree
--
-row
+TreeRow
 "
 )
 )
@@ -198,9 +194,7 @@ require
 "
 .
 /
-tree
--
-header
+TreeHeader
 "
 )
 )

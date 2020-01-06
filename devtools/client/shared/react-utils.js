@@ -141,7 +141,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 )

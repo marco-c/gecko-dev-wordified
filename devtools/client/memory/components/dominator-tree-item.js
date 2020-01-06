@@ -136,7 +136,7 @@ shared
 /
 components
 /
-frame
+Frame
 "
 )
 )
