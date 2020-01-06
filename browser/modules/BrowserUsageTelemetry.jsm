@@ -1332,17 +1332,6 @@ TOTAL_URI_COUNT_SCALAR_NAME
 ;
 /
 /
-Update
-tab
-count
-BrowserUsageTelemetry
-.
-_recordTabCount
-(
-)
-;
-/
-/
 We
 only
 want
