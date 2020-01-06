@@ -541,6 +541,14 @@ Vec
 new
 (
 )
+clip_scroll_nodes
+:
+Vec
+:
+:
+new
+(
+)
 }
 ;
 let
@@ -652,7 +660,6 @@ BaseDisplayItem
 :
 empty
 (
-TEST_PIPELINE_ID
 )
 webrender_image
 :
@@ -718,6 +725,14 @@ vec
 [
 image
 ]
+clip_scroll_nodes
+:
+Vec
+:
+:
+new
+(
+)
 }
 ;
 let
