@@ -67,6 +67,16 @@ dialog
 ;
 }
 #
+debugging
+-
+console
+{
+float
+:
+right
+;
+}
+#
 total
 {
 border
