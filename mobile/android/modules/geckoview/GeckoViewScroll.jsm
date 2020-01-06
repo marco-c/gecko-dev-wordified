@@ -189,12 +189,6 @@ js
 true
 )
 ;
-this
-.
-register
-(
-)
-;
 }
 register
 (
