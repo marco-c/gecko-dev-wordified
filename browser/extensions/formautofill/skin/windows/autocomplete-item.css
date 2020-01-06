@@ -106,7 +106,7 @@ xul
 )
 ;
 .
-autofill
+profile
 -
 item
 -
@@ -130,19 +130,6 @@ size
 :
 .
 83em
-;
-}
-.
-autofill
--
-footer
-{
-font
--
-size
-:
-.
-91em
 ;
 }
 media
@@ -180,7 +167,7 @@ true
 ]
 >
 .
-autofill
+profile
 -
 item
 -
