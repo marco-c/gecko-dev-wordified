@@ -937,7 +937,7 @@ false
 0
 ;
 virtual
-void
+bool
 InitializeCanvasRenderer
 (
 nsDisplayListBuilder
@@ -952,8 +952,10 @@ aMirror
 false
 )
 {
-}
+return
+true
 ;
+}
 /
 /
 Return

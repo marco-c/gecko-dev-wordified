@@ -36529,7 +36529,7 @@ forget
 )
 ;
 }
-void
+bool
 CanvasRenderingContext2D
 :
 :
@@ -36670,6 +36670,9 @@ aRenderer
 SetDirty
 (
 )
+;
+return
+true
 ;
 }
 void

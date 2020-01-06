@@ -981,6 +981,10 @@ if
 isRecycled
 )
 {
+nsHTMLCanvasFrame
+*
+canvasFrame
+=
 static_cast
 <
 nsHTMLCanvasFrame
@@ -989,6 +993,11 @@ nsHTMLCanvasFrame
 (
 mFrame
 )
+;
+if
+(
+!
+canvasFrame
 -
 >
 InitializeCanvasRenderer
@@ -996,7 +1005,12 @@ InitializeCanvasRenderer
 aDisplayListBuilder
 data
 )
+)
+{
+return
+true
 ;
+}
 }
 data
 -
@@ -3021,7 +3035,7 @@ forget
 )
 ;
 }
-void
+bool
 nsHTMLCanvasFrame
 :
 :
@@ -3050,6 +3064,7 @@ GetContent
 )
 )
 ;
+return
 element
 -
 >

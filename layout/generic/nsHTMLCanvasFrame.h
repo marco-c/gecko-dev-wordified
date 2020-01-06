@@ -301,7 +301,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 ;
-void
+bool
 InitializeCanvasRenderer
 (
 nsDisplayListBuilder
