@@ -1350,7 +1350,6 @@ nsHtml5ElementName
 elementNameByBuffer
 (
 asArray
-0
 asArray
 .
 length
@@ -1730,7 +1729,6 @@ nsHtml5Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -1975,7 +1973,6 @@ localEqualsBuffer
 (
 annotationName
 strBuf
-0
 strBufLen
 )
 )
@@ -2001,7 +1998,6 @@ nsHtml5Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -2024,7 +2020,6 @@ nsHtml5ElementName
 elementNameByBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -2046,7 +2041,6 @@ nsHtml5Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -2232,7 +2226,6 @@ nsHtml5AttributeName
 nameByBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -2254,7 +2247,6 @@ nsHtml5Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )

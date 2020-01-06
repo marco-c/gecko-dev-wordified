@@ -328,8 +328,6 @@ char
 ]
 buf
 int
-offset
-int
 length
 Interner
 interner
@@ -340,7 +338,7 @@ new
 String
 (
 buf
-offset
+0
 length
 )
 .
@@ -524,8 +522,6 @@ char
 ]
 buf
 int
-offset
-int
 length
 )
 {
@@ -573,8 +569,6 @@ i
 =
 buf
 [
-offset
-+
 i
 ]
 )

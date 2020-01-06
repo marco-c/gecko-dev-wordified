@@ -3771,7 +3771,6 @@ ElementName
 elementNameByBuffer
 (
 asArray
-0
 asArray
 .
 length
@@ -4735,7 +4734,6 @@ Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -5807,7 +5805,6 @@ localEqualsBuffer
 (
 annotationName
 strBuf
-0
 strBufLen
 )
 )
@@ -5830,7 +5827,6 @@ Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -5856,7 +5852,6 @@ ElementName
 elementNameByBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -5878,7 +5873,6 @@ Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -6165,7 +6159,6 @@ AttributeName
 nameByBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
@@ -6194,7 +6187,6 @@ Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )

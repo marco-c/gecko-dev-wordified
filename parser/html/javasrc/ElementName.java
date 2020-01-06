@@ -993,8 +993,6 @@ char
 ]
 buf
 int
-offset
-int
 length
 Interner
 interner
@@ -1072,7 +1070,6 @@ localEqualsBuffer
 (
 name
 buf
-offset
 length
 )
 )
