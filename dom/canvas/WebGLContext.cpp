@@ -13372,12 +13372,6 @@ CreateFactory
 gl
 caps
 vrmc
-vrmc
--
->
-GetBackendType
-(
-)
 TextureFlags
 :
 :
