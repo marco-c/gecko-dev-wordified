@@ -2115,6 +2115,17 @@ MOZ_WEBRENDER
 '
 1
 '
+            
+env
+[
+'
+MOZ_ACCELERATED
+'
+]
+=
+'
+1
+'
         
 return_code
 =

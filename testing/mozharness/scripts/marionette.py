@@ -2757,6 +2757,17 @@ MOZ_WEBRENDER
 '
 1
 '
+            
+env
+[
+'
+MOZ_ACCELERATED
+'
+]
+=
+'
+1
+'
         
 if
 not
