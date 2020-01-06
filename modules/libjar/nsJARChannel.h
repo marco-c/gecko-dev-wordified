@@ -364,6 +364,14 @@ nsIURI
 uri
 )
 ;
+void
+SetFile
+(
+nsIFile
+*
+file
+)
+;
 private
 :
 virtual
@@ -607,6 +615,12 @@ nsCOMPtr
 nsIFile
 >
 mJarFile
+;
+nsCOMPtr
+<
+nsIFile
+>
+mJarFileOverride
 ;
 nsCOMPtr
 <
