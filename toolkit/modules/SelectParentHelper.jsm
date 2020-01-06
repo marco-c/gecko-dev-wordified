@@ -257,7 +257,7 @@ querySelector
 (
 "
 #
-ContentSelectDropdownScopedStylesheet
+ContentSelectDropdownStylesheet
 "
 )
 ;
@@ -322,15 +322,9 @@ setAttribute
 id
 "
 "
-ContentSelectDropdownScopedStylesheet
+ContentSelectDropdownStylesheet
 "
 )
-;
-stylesheet
-.
-scoped
-=
-true
 ;
 stylesheet
 .
@@ -528,6 +522,9 @@ sheet
 .
 insertRule
 (
+#
+ContentSelectDropdown
+>
 menupopup
 {
 {
@@ -2108,6 +2105,9 @@ sheet
 .
 insertRule
 (
+#
+ContentSelectDropdown
+>
 menupopup
 >
 :
@@ -2185,6 +2185,9 @@ sheet
 .
 insertRule
 (
+#
+ContentSelectDropdown
+>
 menupopup
 >
 :
