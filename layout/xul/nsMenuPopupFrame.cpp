@@ -723,6 +723,10 @@ mYPos
 (
 0
 )
+mAlignmentOffset
+(
+0
+)
 mLastClientOffset
 (
 0
