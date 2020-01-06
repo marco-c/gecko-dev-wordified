@@ -666,7 +666,7 @@ aContent
 *
 /
 void
-ChangeUndisplayedContent
+ChangeRegisteredDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -703,7 +703,7 @@ aContent
 *
 /
 void
-ChangeDisplayContents
+ChangeRegisteredDisplayContentsStyleFor
 (
 nsIContent
 *
