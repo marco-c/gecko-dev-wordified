@@ -2169,6 +2169,15 @@ toolkit
 .
 telemetry
 .
+testing
+.
+overridePreRelease
+"
+"
+toolkit
+.
+telemetry
+.
 unified
 "
 "
