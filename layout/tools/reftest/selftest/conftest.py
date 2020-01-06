@@ -57,8 +57,6 @@ import
 json
 import
 os
-import
-pytest
 from
 argparse
 import
@@ -69,6 +67,8 @@ import
 StringIO
 import
 mozinfo
+import
+pytest
 from
 manifestparser
 import
@@ -252,6 +252,22 @@ suite
 '
 reftest
 '
+        
+'
+specialPowersExtensionPath
+'
+:
+os
+.
+path
+.
+join
+(
+harness_root
+'
+specialpowers
+'
+)
     
 }
 )
