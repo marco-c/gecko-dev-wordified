@@ -144,6 +144,13 @@ task
 .
 h
 "
+#
+include
+"
+GMPUtils
+.
+h
+"
 namespace
 mozilla
 {

@@ -154,6 +154,13 @@ GMPService
 h
 "
 #
+include
+"
+content_decryption_module
+.
+h
+"
+#
 define
 NS_DispatchToMainThread
 (
