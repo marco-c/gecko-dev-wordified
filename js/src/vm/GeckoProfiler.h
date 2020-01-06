@@ -1740,6 +1740,7 @@ AutoGeckoProfilerEntry
 public
 :
 explicit
+MOZ_ALWAYS_INLINE
 AutoGeckoProfilerEntry
 (
 JSContext
@@ -1765,6 +1766,7 @@ JS
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
+MOZ_ALWAYS_INLINE
 ~
 AutoGeckoProfilerEntry
 (
@@ -1776,15 +1778,14 @@ GeckoProfilerThread
 *
 profiler_
 ;
-mozilla
-:
-:
-DebugOnly
-<
+#
+ifdef
+DEBUG
 uint32_t
->
 spBefore_
 ;
+#
+endif
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;

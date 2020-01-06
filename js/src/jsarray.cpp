@@ -388,6 +388,17 @@ include
 "
 vm
 /
+GeckoProfiler
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 -
 inl

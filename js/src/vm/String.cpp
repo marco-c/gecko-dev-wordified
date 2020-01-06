@@ -223,6 +223,17 @@ jscompartmentinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+GeckoProfiler
+-
+inl
+.
+h
+"
 using
 namespace
 js
