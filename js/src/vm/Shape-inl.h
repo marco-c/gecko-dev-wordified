@@ -2513,8 +2513,6 @@ SetterOp
 setter
 unsigned
 attrs
-bool
-allowDictionary
 )
 {
 MOZ_ASSERT
@@ -2628,7 +2626,6 @@ getter
 setter
 attrs
 entry
-allowDictionary
 keep
 )
 ;

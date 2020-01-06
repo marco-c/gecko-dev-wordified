@@ -5967,10 +5967,6 @@ JSSetterOp
 setter
 unsigned
 attrs
-bool
-allowDictionary
-=
-true
 )
 ;
 static
@@ -6270,8 +6266,6 @@ ShapeTable
 Entry
 *
 entry
-bool
-allowDictionary
 const
 AutoKeepShapeTables
 &
