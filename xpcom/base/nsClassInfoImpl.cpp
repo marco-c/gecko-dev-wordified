@@ -121,6 +121,13 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 NS_IMETHODIMP_
 (
 MozExternalRefCountType
