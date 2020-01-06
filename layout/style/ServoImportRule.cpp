@@ -212,6 +212,14 @@ ServoStyleSheet
 sheet
 )
 ;
+mChildSheet
+-
+>
+SetOwnerRule
+(
+this
+)
+;
 }
 ServoImportRule
 :
