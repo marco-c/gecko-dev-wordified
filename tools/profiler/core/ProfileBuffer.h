@@ -333,8 +333,6 @@ aThreadId
 LastSample
 *
 aLS
-=
-nullptr
 )
 ;
 void
