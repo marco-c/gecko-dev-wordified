@@ -465,6 +465,7 @@ prefs
 getStringPref
 (
 PREF_COHORT_NAME
+undefined
 )
 ;
 if
