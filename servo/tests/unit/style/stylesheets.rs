@@ -2973,18 +2973,6 @@ feature
 values
 "
 )
-/
-/
-FIXME
-:
-the
-message
-of
-these
-two
-should
-be
-consistent
 (
 16
 13
@@ -3001,7 +2989,7 @@ invalid
 17
 29
 "
-Unsupported
+Invalid
 rule
 :
 '
