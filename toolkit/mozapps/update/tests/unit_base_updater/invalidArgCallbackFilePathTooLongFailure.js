@@ -230,6 +230,15 @@ standardInit
 (
 )
 ;
+checkUpdateManager
+(
+STATE_NONE
+false
+STATE_FAILED
+INVALID_CALLBACK_PATH_ERROR
+1
+)
+;
 checkPostUpdateRunningFile
 (
 false
