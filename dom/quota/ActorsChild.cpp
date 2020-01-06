@@ -338,7 +338,7 @@ ifdef
 DEBUG
 mOwningThread
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

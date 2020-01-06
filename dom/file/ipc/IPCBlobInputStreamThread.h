@@ -152,11 +152,11 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 static
 bool
-IsOnFileThread
+IsOnFileEventTarget
 (
-nsIThread
+nsIEventTarget
 *
-aThread
+aEventTarget
 )
 ;
 static

@@ -27797,7 +27797,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 explicit
 ConnectionRunnable
@@ -28256,7 +28256,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 uint64_t
 mTransactionId
@@ -29039,7 +29039,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 const
 nsID
@@ -29074,7 +29074,7 @@ const
 {
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 bool
@@ -29083,7 +29083,7 @@ current
 return
 NS_SUCCEEDED
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 IsOnCurrentThread
@@ -29265,9 +29265,9 @@ uint64_t
 aLoggingSerialNumber
 )
 :
-mOwningThread
+mOwningEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -59659,9 +59659,9 @@ mDatabaseInfo
 (
 aDatabaseInfo
 )
-mOwningThread
+mOwningEventTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -59695,7 +59695,7 @@ AssertIsOnOwningThread
 ;
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 }
@@ -59741,7 +59741,7 @@ nsIEventTarget
 >
 owningThread
 ;
-mOwningThread
+mOwningEventTarget
 .
 swap
 (
@@ -59955,7 +59955,7 @@ STORAGE
 ;
 if
 (
-mOwningThread
+mOwningEventTarget
 )
 {
 MOZ_ASSERT
@@ -59972,7 +59972,7 @@ nsIEventTarget
 >
 owningThread
 ;
-mOwningThread
+mOwningEventTarget
 .
 swap
 (
@@ -60396,9 +60396,9 @@ mCallback
 (
 aCallback
 )
-mOwningThread
+mOwningEventTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -60427,7 +60427,7 @@ aCallback
 ;
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 }
@@ -60486,7 +60486,7 @@ mCallback
 ;
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 PROFILER_LABEL
@@ -60545,7 +60545,7 @@ Run
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -83806,7 +83806,7 @@ mShutdownRequested
 ;
 mBackgroundThread
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -97425,7 +97425,7 @@ PermissionChallenge
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -97459,7 +97459,7 @@ FinishOpen
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -97749,7 +97749,7 @@ FinishOpen
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -100472,7 +100472,7 @@ else
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -101813,7 +101813,7 @@ BeginVersionChange
 ;
 rv
 =
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -108567,7 +108567,7 @@ SendingResults
 }
 rv
 =
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -110352,7 +110352,7 @@ databaseName
 ;
 rv
 =
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -110858,7 +110858,7 @@ rv
 }
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -111673,7 +111673,7 @@ SendingResults
 }
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -114252,7 +114252,7 @@ SendingResults
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -114821,7 +114821,7 @@ SendingResults
 ;
 rv
 =
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch

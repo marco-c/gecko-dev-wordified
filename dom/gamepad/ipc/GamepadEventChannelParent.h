@@ -213,9 +213,9 @@ mHasGamepadListener
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mBackgroundThread
+mBackgroundEventTarget
 ;
 }
 ;

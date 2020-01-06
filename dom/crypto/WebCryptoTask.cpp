@@ -1897,9 +1897,9 @@ return
 Store
 calling
 thread
-mOriginalThread
+mOriginalEventTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 ;
@@ -2101,7 +2101,7 @@ e
 continue
 below
 .
-mOriginalThread
+mOriginalEventTarget
 -
 >
 Dispatch
@@ -19507,7 +19507,7 @@ mEarlyComplete
 (
 false
 )
-mOriginalThread
+mOriginalEventTarget
 (
 nullptr
 )
@@ -19561,7 +19561,7 @@ mWorkerHolder
 {
 NS_ProxyRelease
 (
-mOriginalThread
+mOriginalEventTarget
 mWorkerHolder
 .
 forget

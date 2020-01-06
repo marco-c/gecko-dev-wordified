@@ -1601,7 +1601,7 @@ TaskCategory
 Other
 )
 :
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

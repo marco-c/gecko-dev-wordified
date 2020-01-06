@@ -212,7 +212,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 nsClassHashtable
 <

@@ -1939,9 +1939,9 @@ WriteParams
 aWriteParams
 )
 :
-mOwningThread
+mOwningEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -2029,7 +2029,7 @@ const
 {
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 bool
@@ -2038,7 +2038,7 @@ current
 return
 NS_SUCCEEDED
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 IsOnCurrentThread
@@ -2280,7 +2280,7 @@ eFailing
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -2648,7 +2648,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 const
 PrincipalInfo
@@ -4225,7 +4225,7 @@ eWaitingToFinishInit
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -4381,7 +4381,7 @@ eSendingMetadataForRead
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -4423,7 +4423,7 @@ eSendingCacheFile
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch
@@ -4529,7 +4529,7 @@ eSendingCacheFile
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch

@@ -609,7 +609,7 @@ else
 {
 mTarget
 =
-do_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 ;

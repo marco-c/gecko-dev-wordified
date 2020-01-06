@@ -3765,7 +3765,7 @@ nsIEventTarget
 *
 aOwningThread
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -6129,7 +6129,7 @@ BackgroundThreadObject
 :
 mOwningThread
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -11725,7 +11725,7 @@ CreatingManager
 :
 aThread
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;

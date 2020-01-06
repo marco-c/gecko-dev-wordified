@@ -7272,7 +7272,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 nsTArray
 <
@@ -7360,7 +7360,7 @@ BackgroundRequestChild
 PreprocessHelper
 "
 )
-mOwningThread
+mOwningEventTarget
 (
 aActor
 -
@@ -7415,7 +7415,7 @@ const
 {
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 bool
@@ -7424,7 +7424,7 @@ current
 return
 NS_SUCCEEDED
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 IsOnCurrentThread
@@ -17167,7 +17167,7 @@ aStatus
 ;
 eventTarget
 =
-mOwningThread
+mOwningEventTarget
 ;
 }
 else
@@ -17202,7 +17202,7 @@ thread
 .
 eventTarget
 =
-mOwningThread
+mOwningEventTarget
 ;
 }
 else

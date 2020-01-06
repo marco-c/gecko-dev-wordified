@@ -1542,11 +1542,10 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-thread
+target
+=
+GetCurrentThreadEventTarget
 (
-NS_GetCurrentThread
-(
-)
 )
 ;
 Unused
@@ -1578,7 +1577,7 @@ UDPSocketParent
 :
 DoConnect
 mSocket
-thread
+target
 aAddressInfo
 )
 NS_DISPATCH_NORMAL

@@ -447,9 +447,9 @@ mPrincipalInfo
 (
 aPrincipalInfo
 )
-mInitiatingThread
+mInitiatingEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 )
@@ -464,7 +464,7 @@ AssertIsOnBackgroundThread
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-mInitiatingThread
+mInitiatingEventTarget
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -1167,7 +1167,7 @@ here
 nsresult
 rv
 =
-mInitiatingThread
+mInitiatingEventTarget
 -
 >
 Dispatch

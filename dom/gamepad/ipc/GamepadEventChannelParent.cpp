@@ -225,9 +225,9 @@ MOZ_ASSERT
 service
 )
 ;
-mBackgroundThread
+mBackgroundEventTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -538,7 +538,7 @@ GamepadChangeEvent
 aEvent
 )
 {
-mBackgroundThread
+mBackgroundEventTarget
 -
 >
 Dispatch

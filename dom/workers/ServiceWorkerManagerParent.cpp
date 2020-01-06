@@ -572,9 +572,9 @@ mCallback
 (
 aCallback
 )
-mBackgroundThread
+mBackgroundEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -599,7 +599,7 @@ mCallback
 ;
 MOZ_ASSERT
 (
-mBackgroundThread
+mBackgroundEventTarget
 )
 ;
 }
@@ -620,7 +620,7 @@ mContentParent
 =
 nullptr
 ;
-mBackgroundThread
+mBackgroundEventTarget
 -
 >
 Dispatch
@@ -671,9 +671,9 @@ mCallback
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mBackgroundThread
+mBackgroundEventTarget
 ;
 }
 ;

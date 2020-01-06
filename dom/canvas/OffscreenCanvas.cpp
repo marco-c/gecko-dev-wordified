@@ -500,9 +500,9 @@ mCanvasRenderer
 {
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-activeThread
+activeTarget
 =
 mCanvasRenderer
 -
@@ -513,7 +513,7 @@ GetActiveThread
 ;
 MOZ_RELEASE_ASSERT
 (
-activeThread
+activeTarget
 "
 GFX
 :
@@ -521,7 +521,8 @@ failed
 to
 get
 active
-thread
+event
+target
 .
 "
 )
@@ -529,7 +530,7 @@ thread
 bool
 current
 ;
-activeThread
+activeTarget
 -
 >
 IsOnCurrentThread
