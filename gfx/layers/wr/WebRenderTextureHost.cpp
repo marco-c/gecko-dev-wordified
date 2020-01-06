@@ -457,6 +457,10 @@ AsUint64
 mExternalImageId
 )
 texture
+.
+forget
+(
+)
 )
 ;
 }
