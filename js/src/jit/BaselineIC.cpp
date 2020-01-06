@@ -5527,6 +5527,7 @@ mode
 isTemporarilyUnoptimizable
 lhs
 rhs
+lhs
 CanAttachGetter
 :
 :

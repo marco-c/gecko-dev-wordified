@@ -11863,6 +11863,12 @@ case
 CacheKind
 :
 :
+GetPropSuper
+:
+case
+CacheKind
+:
+:
 SetProp
 :
 case
@@ -12335,6 +12341,12 @@ CacheKind
 :
 :
 GetName
+:
+case
+CacheKind
+:
+:
+GetPropSuper
 :
 case
 CacheKind
