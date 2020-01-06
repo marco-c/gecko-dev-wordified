@@ -103,6 +103,11 @@ devtools
 /
 shared
 "
+"
+devtools
+/
+shim
+"
                  
 "
 browser
