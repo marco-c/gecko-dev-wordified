@@ -184,6 +184,7 @@ define
 CSS_PROP_ALIAS
 (
 name
+aliasid_
 id
 method
 pref

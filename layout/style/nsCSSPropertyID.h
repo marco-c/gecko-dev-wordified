@@ -262,6 +262,7 @@ define
 CSS_PROP_ALIAS
 (
 aliasname_
+aliasid_
 id_
 method_
 pref_

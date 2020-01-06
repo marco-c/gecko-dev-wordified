@@ -204,6 +204,29 @@ characters
 -
 .
 '
+aliasid
+'
+represent
+a
+CSS
+property
+name
+but
+in
+snake
+case
+.
+This
+is
+used
+in
+Servo
+pref
+check
+.
+-
+.
+'
 id
 '
 should
@@ -326,6 +349,7 @@ CSS_PROP_ALIAS
 word
 -
 wrap
+word_wrap
 overflow_wrap
 WordWrap
 "
@@ -339,6 +363,7 @@ moz
 transform
 -
 origin
+_moz_transform_origin
 transform_origin
 MozTransformOrigin
 "
@@ -359,6 +384,7 @@ moz
 perspective
 -
 origin
+_moz_perspective_origin
 perspective_origin
 MozPerspectiveOrigin
 "
@@ -377,6 +403,7 @@ CSS_PROP_ALIAS
 moz
 -
 perspective
+_moz_perspective
 perspective
 MozPerspective
 "
@@ -397,6 +424,7 @@ moz
 transform
 -
 style
+_moz_transform_style
 transform_style
 MozTransformStyle
 "
@@ -417,6 +445,7 @@ moz
 backface
 -
 visibility
+_moz_backface_visibility
 backface_visibility
 MozBackfaceVisibility
 "
@@ -437,6 +466,7 @@ moz
 border
 -
 image
+_moz_border_image
 border_image
 MozBorderImage
 "
@@ -457,6 +487,7 @@ CSS_PROP_ALIAS
 moz
 -
 transition
+_moz_transition
 transition
 MozTransition
 "
@@ -477,6 +508,7 @@ moz
 transition
 -
 delay
+_moz_transition_delay
 transition_delay
 MozTransitionDelay
 "
@@ -497,6 +529,7 @@ moz
 transition
 -
 duration
+_moz_transition_duration
 transition_duration
 MozTransitionDuration
 "
@@ -517,6 +550,7 @@ moz
 transition
 -
 property
+_moz_transition_property
 transition_property
 MozTransitionProperty
 "
@@ -539,6 +573,7 @@ transition
 timing
 -
 function
+_moz_transition_timing_function
 transition_timing_function
 MozTransitionTimingFunction
 "
@@ -557,6 +592,7 @@ CSS_PROP_ALIAS
 moz
 -
 animation
+_moz_animation
 animation
 MozAnimation
 "
@@ -577,6 +613,7 @@ moz
 animation
 -
 delay
+_moz_animation_delay
 animation_delay
 MozAnimationDelay
 "
@@ -597,6 +634,7 @@ moz
 animation
 -
 direction
+_moz_animation_direction
 animation_direction
 MozAnimationDirection
 "
@@ -617,6 +655,7 @@ moz
 animation
 -
 duration
+_moz_animation_duration
 animation_duration
 MozAnimationDuration
 "
@@ -639,6 +678,7 @@ animation
 fill
 -
 mode
+_moz_animation_fill_mode
 animation_fill_mode
 MozAnimationFillMode
 "
@@ -661,6 +701,7 @@ animation
 iteration
 -
 count
+_moz_animation_iteration_count
 animation_iteration_count
 MozAnimationIterationCount
 "
@@ -681,6 +722,7 @@ moz
 animation
 -
 name
+_moz_animation_name
 animation_name
 MozAnimationName
 "
@@ -703,6 +745,7 @@ animation
 play
 -
 state
+_moz_animation_play_state
 animation_play_state
 MozAnimationPlayState
 "
@@ -725,6 +768,7 @@ animation
 timing
 -
 function
+_moz_animation_timing_function
 animation_timing_function
 MozAnimationTimingFunction
 "
@@ -745,6 +789,7 @@ moz
 box
 -
 sizing
+_moz_box_sizing
 box_sizing
 MozBoxSizing
 "
@@ -769,6 +814,7 @@ font
 feature
 -
 settings
+_moz_font_feature_settings
 font_feature_settings
 MozFontFeatureSettings
 "
@@ -793,6 +839,7 @@ font
 language
 -
 override
+_moz_font_language_override
 font_language_override
 MozFontLanguageOverride
 "
@@ -815,6 +862,7 @@ moz
 padding
 -
 end
+_moz_padding_end
 padding_inline_end
 MozPaddingEnd
 "
@@ -828,6 +876,7 @@ moz
 padding
 -
 start
+_moz_padding_start
 padding_inline_start
 MozPaddingStart
 "
@@ -841,6 +890,7 @@ moz
 margin
 -
 end
+_moz_margin_end
 margin_inline_end
 MozMarginEnd
 "
@@ -854,6 +904,7 @@ moz
 margin
 -
 start
+_moz_margin_start
 margin_inline_start
 MozMarginStart
 "
@@ -867,6 +918,7 @@ moz
 border
 -
 end
+_moz_border_end
 border_inline_end
 MozBorderEnd
 "
@@ -882,6 +934,7 @@ border
 end
 -
 color
+_moz_border_end_color
 border_inline_end_color
 MozBorderEndColor
 "
@@ -897,6 +950,7 @@ border
 end
 -
 style
+_moz_border_end_style
 border_inline_end_style
 MozBorderEndStyle
 "
@@ -912,6 +966,7 @@ border
 end
 -
 width
+_moz_border_end_width
 border_inline_end_width
 MozBorderEndWidth
 "
@@ -925,6 +980,7 @@ moz
 border
 -
 start
+_moz_border_start
 border_inline_start
 MozBorderStart
 "
@@ -940,6 +996,7 @@ border
 start
 -
 color
+_moz_border_start_color
 border_inline_start_color
 MozBorderStartColor
 "
@@ -955,6 +1012,7 @@ border
 start
 -
 style
+_moz_border_start_style
 border_inline_start_style
 MozBorderStartStyle
 "
@@ -970,6 +1028,7 @@ border
 start
 -
 width
+_moz_border_start_width
 border_inline_start_width
 MozBorderStartWidth
 "
@@ -981,6 +1040,7 @@ CSS_PROP_ALIAS
 moz
 -
 hyphens
+_moz_hyphens
 hyphens
 MozHyphens
 "
@@ -994,6 +1054,7 @@ moz
 column
 -
 count
+_moz_column_count
 column_count
 MozColumnCount
 "
@@ -1007,6 +1068,7 @@ moz
 column
 -
 fill
+_moz_column_fill
 column_fill
 MozColumnFill
 "
@@ -1020,6 +1082,7 @@ moz
 column
 -
 gap
+_moz_column_gap
 column_gap
 MozColumnGap
 "
@@ -1033,6 +1096,7 @@ moz
 column
 -
 rule
+_moz_column_rule
 column_rule
 MozColumnRule
 "
@@ -1048,6 +1112,7 @@ column
 rule
 -
 color
+_moz_column_rule_color
 column_rule_color
 MozColumnRuleColor
 "
@@ -1063,6 +1128,7 @@ column
 rule
 -
 style
+_moz_column_rule_style
 column_rule_style
 MozColumnRuleStyle
 "
@@ -1078,6 +1144,7 @@ column
 rule
 -
 width
+_moz_column_rule_width
 column_rule_width
 MozColumnRuleWidth
 "
@@ -1091,6 +1158,7 @@ moz
 column
 -
 width
+_moz_column_width
 column_width
 MozColumnWidth
 "
@@ -1102,6 +1170,7 @@ CSS_PROP_ALIAS
 moz
 -
 columns
+_moz_columns
 columns
 MozColumns
 "
@@ -1131,6 +1200,7 @@ CSS_PROP_ALIAS
 webkit
 -
 animation
+_webkit_animation
 animation
 WebkitAnimation
 WEBKIT_PREFIX_PREF
@@ -1143,6 +1213,7 @@ webkit
 animation
 -
 delay
+_webkit_animation_delay
 animation_delay
 WebkitAnimationDelay
 WEBKIT_PREFIX_PREF
@@ -1155,6 +1226,7 @@ webkit
 animation
 -
 direction
+_webkit_animation_direction
 animation_direction
 WebkitAnimationDirection
 WEBKIT_PREFIX_PREF
@@ -1167,6 +1239,7 @@ webkit
 animation
 -
 duration
+_webkit_animation_duration
 animation_duration
 WebkitAnimationDuration
 WEBKIT_PREFIX_PREF
@@ -1181,6 +1254,7 @@ animation
 fill
 -
 mode
+_webkit_animation_fill_mode
 animation_fill_mode
 WebkitAnimationFillMode
 WEBKIT_PREFIX_PREF
@@ -1195,6 +1269,7 @@ animation
 iteration
 -
 count
+_webkit_animation_iteration_count
 animation_iteration_count
 WebkitAnimationIterationCount
 WEBKIT_PREFIX_PREF
@@ -1207,6 +1282,7 @@ webkit
 animation
 -
 name
+_webkit_animation_name
 animation_name
 WebkitAnimationName
 WEBKIT_PREFIX_PREF
@@ -1221,6 +1297,7 @@ animation
 play
 -
 state
+_webkit_animation_play_state
 animation_play_state
 WebkitAnimationPlayState
 WEBKIT_PREFIX_PREF
@@ -1235,6 +1312,7 @@ animation
 timing
 -
 function
+_webkit_animation_timing_function
 animation_timing_function
 WebkitAnimationTimingFunction
 WEBKIT_PREFIX_PREF
@@ -1245,6 +1323,7 @@ CSS_PROP_ALIAS
 webkit
 -
 filter
+_webkit_filter
 filter
 WebkitFilter
 WEBKIT_PREFIX_PREF
@@ -1259,6 +1338,7 @@ text
 size
 -
 adjust
+_webkit_text_size_adjust
 _moz_text_size_adjust
 WebkitTextSizeAdjust
 WEBKIT_PREFIX_PREF
@@ -1269,6 +1349,7 @@ CSS_PROP_ALIAS
 webkit
 -
 transform
+_webkit_transform
 transform
 WebkitTransform
 WEBKIT_PREFIX_PREF
@@ -1281,6 +1362,7 @@ webkit
 transform
 -
 origin
+_webkit_transform_origin
 transform_origin
 WebkitTransformOrigin
 WEBKIT_PREFIX_PREF
@@ -1293,6 +1375,7 @@ webkit
 transform
 -
 style
+_webkit_transform_style
 transform_style
 WebkitTransformStyle
 WEBKIT_PREFIX_PREF
@@ -1305,6 +1388,7 @@ webkit
 backface
 -
 visibility
+_webkit_backface_visibility
 backface_visibility
 WebkitBackfaceVisibility
 WEBKIT_PREFIX_PREF
@@ -1315,6 +1399,7 @@ CSS_PROP_ALIAS
 webkit
 -
 perspective
+_webkit_perspective
 perspective
 WebkitPerspective
 WEBKIT_PREFIX_PREF
@@ -1327,6 +1412,7 @@ webkit
 perspective
 -
 origin
+_webkit_perspective_origin
 perspective_origin
 WebkitPerspectiveOrigin
 WEBKIT_PREFIX_PREF
@@ -1337,6 +1423,7 @@ CSS_PROP_ALIAS
 webkit
 -
 transition
+_webkit_transition
 transition
 WebkitTransition
 WEBKIT_PREFIX_PREF
@@ -1349,6 +1436,7 @@ webkit
 transition
 -
 delay
+_webkit_transition_delay
 transition_delay
 WebkitTransitionDelay
 WEBKIT_PREFIX_PREF
@@ -1361,6 +1449,7 @@ webkit
 transition
 -
 duration
+_webkit_transition_duration
 transition_duration
 WebkitTransitionDuration
 WEBKIT_PREFIX_PREF
@@ -1373,6 +1462,7 @@ webkit
 transition
 -
 property
+_webkit_transition_property
 transition_property
 WebkitTransitionProperty
 WEBKIT_PREFIX_PREF
@@ -1387,6 +1477,7 @@ transition
 timing
 -
 function
+_webkit_transition_timing_function
 transition_timing_function
 WebkitTransitionTimingFunction
 WEBKIT_PREFIX_PREF
@@ -1399,6 +1490,7 @@ webkit
 border
 -
 radius
+_webkit_border_radius
 border_radius
 WebkitBorderRadius
 WEBKIT_PREFIX_PREF
@@ -1415,6 +1507,7 @@ top
 left
 -
 radius
+_webkit_border_top_left_radius
 border_top_left_radius
 WebkitBorderTopLeftRadius
 /
@@ -1437,6 +1530,7 @@ top
 right
 -
 radius
+_webkit_border_top_right_radius
 border_top_right_radius
 WebkitBorderTopRightRadius
 /
@@ -1459,6 +1553,7 @@ bottom
 left
 -
 radius
+_webkit_border_bottom_left_radius
 border_bottom_left_radius
 WebkitBorderBottomLeftRadius
 /
@@ -1481,6 +1576,7 @@ bottom
 right
 -
 radius
+_webkit_border_bottom_right_radius
 border_bottom_right_radius
 WebkitBorderBottomRightRadius
 /
@@ -1499,6 +1595,7 @@ webkit
 background
 -
 clip
+_webkit_background_clip
 background_clip
 WebkitBackgroundClip
 WEBKIT_PREFIX_PREF
@@ -1511,6 +1608,7 @@ webkit
 background
 -
 origin
+_webkit_background_origin
 background_origin
 WebkitBackgroundOrigin
 WEBKIT_PREFIX_PREF
@@ -1523,6 +1621,7 @@ webkit
 background
 -
 size
+_webkit_background_size
 background_size
 WebkitBackgroundSize
 WEBKIT_PREFIX_PREF
@@ -1535,6 +1634,7 @@ webkit
 border
 -
 image
+_webkit_border_image
 border_image
 WebkitBorderImage
 WEBKIT_PREFIX_PREF
@@ -1547,6 +1647,7 @@ webkit
 box
 -
 shadow
+_webkit_box_shadow
 box_shadow
 WebkitBoxShadow
 WEBKIT_PREFIX_PREF
@@ -1559,6 +1660,7 @@ webkit
 box
 -
 sizing
+_webkit_box_sizing
 box_sizing
 WebkitBoxSizing
 WEBKIT_PREFIX_PREF
@@ -1647,6 +1749,7 @@ webkit
 box
 -
 flex
+_webkit_box_flex
 _moz_box_flex
 WebkitBoxFlex
 WEBKIT_PREFIX_PREF
@@ -1661,6 +1764,7 @@ box
 ordinal
 -
 group
+_webkit_box_ordinal_group
 _moz_box_ordinal_group
 WebkitBoxOrdinalGroup
 WEBKIT_PREFIX_PREF
@@ -1673,6 +1777,7 @@ webkit
 box
 -
 orient
+_webkit_box_orient
 _moz_box_orient
 WebkitBoxOrient
 WEBKIT_PREFIX_PREF
@@ -1685,6 +1790,7 @@ webkit
 box
 -
 direction
+_webkit_box_direction
 _moz_box_direction
 WebkitBoxDirection
 WEBKIT_PREFIX_PREF
@@ -1697,6 +1803,7 @@ webkit
 box
 -
 align
+_webkit_box_align
 _moz_box_align
 WebkitBoxAlign
 WEBKIT_PREFIX_PREF
@@ -1709,6 +1816,7 @@ webkit
 box
 -
 pack
+_webkit_box_pack
 _moz_box_pack
 WebkitBoxPack
 WEBKIT_PREFIX_PREF
@@ -1762,6 +1870,7 @@ webkit
 flex
 -
 direction
+_webkit_flex_direction
 flex_direction
 WebkitFlexDirection
 WEBKIT_PREFIX_PREF
@@ -1774,6 +1883,7 @@ webkit
 flex
 -
 wrap
+_webkit_flex_wrap
 flex_wrap
 WebkitFlexWrap
 WEBKIT_PREFIX_PREF
@@ -1786,6 +1896,7 @@ webkit
 flex
 -
 flow
+_webkit_flex_flow
 flex_flow
 WebkitFlexFlow
 WEBKIT_PREFIX_PREF
@@ -1796,6 +1907,7 @@ CSS_PROP_ALIAS
 webkit
 -
 order
+_webkit_order
 order
 WebkitOrder
 WEBKIT_PREFIX_PREF
@@ -1806,6 +1918,7 @@ CSS_PROP_ALIAS
 webkit
 -
 flex
+_webkit_flex
 flex
 WebkitFlex
 WEBKIT_PREFIX_PREF
@@ -1818,6 +1931,7 @@ webkit
 flex
 -
 grow
+_webkit_flex_grow
 flex_grow
 WebkitFlexGrow
 WEBKIT_PREFIX_PREF
@@ -1830,6 +1944,7 @@ webkit
 flex
 -
 shrink
+_webkit_flex_shrink
 flex_shrink
 WebkitFlexShrink
 WEBKIT_PREFIX_PREF
@@ -1842,6 +1957,7 @@ webkit
 flex
 -
 basis
+_webkit_flex_basis
 flex_basis
 WebkitFlexBasis
 WEBKIT_PREFIX_PREF
@@ -1854,6 +1970,7 @@ webkit
 justify
 -
 content
+_webkit_justify_content
 justify_content
 WebkitJustifyContent
 WEBKIT_PREFIX_PREF
@@ -1866,6 +1983,7 @@ webkit
 align
 -
 items
+_webkit_align_items
 align_items
 WebkitAlignItems
 WEBKIT_PREFIX_PREF
@@ -1878,6 +1996,7 @@ webkit
 align
 -
 self
+_webkit_align_self
 align_self
 WebkitAlignSelf
 WEBKIT_PREFIX_PREF
@@ -1890,6 +2009,7 @@ webkit
 align
 -
 content
+_webkit_align_content
 align_content
 WebkitAlignContent
 WEBKIT_PREFIX_PREF
@@ -1902,6 +2022,7 @@ webkit
 user
 -
 select
+_webkit_user_select
 _moz_user_select
 WebkitUserSelect
 WEBKIT_PREFIX_PREF
@@ -1915,6 +2036,7 @@ CSS_PROP_ALIAS
 webkit
 -
 mask
+_webkit_mask
 mask
 WebkitMask
 WEBKIT_PREFIX_PREF
@@ -1927,6 +2049,7 @@ webkit
 mask
 -
 clip
+_webkit_mask_clip
 mask_clip
 WebkitMaskClip
 WEBKIT_PREFIX_PREF
@@ -1939,6 +2062,7 @@ webkit
 mask
 -
 composite
+_webkit_mask_composite
 mask_composite
 WebkitMaskComposite
 WEBKIT_PREFIX_PREF
@@ -1951,6 +2075,7 @@ webkit
 mask
 -
 image
+_webkit_mask_image
 mask_image
 WebkitMaskImage
 WEBKIT_PREFIX_PREF
@@ -1963,6 +2088,7 @@ webkit
 mask
 -
 origin
+_webkit_mask_origin
 mask_origin
 WebkitMaskOrigin
 WEBKIT_PREFIX_PREF
@@ -1975,6 +2101,7 @@ webkit
 mask
 -
 position
+_webkit_mask_position
 mask_position
 WebkitMaskPosition
 WEBKIT_PREFIX_PREF
@@ -1989,6 +2116,7 @@ mask
 position
 -
 x
+_webkit_mask_position_x
 mask_position_x
 WebkitMaskPositionX
 WEBKIT_PREFIX_PREF
@@ -2003,6 +2131,7 @@ mask
 position
 -
 y
+_webkit_mask_position_y
 mask_position_y
 WebkitMaskPositionY
 WEBKIT_PREFIX_PREF
@@ -2015,6 +2144,7 @@ webkit
 mask
 -
 repeat
+_webkit_mask_repeat
 mask_repeat
 WebkitMaskRepeat
 WEBKIT_PREFIX_PREF
@@ -2027,6 +2157,7 @@ webkit
 mask
 -
 size
+_webkit_mask_size
 mask_size
 WebkitMaskSize
 WEBKIT_PREFIX_PREF
