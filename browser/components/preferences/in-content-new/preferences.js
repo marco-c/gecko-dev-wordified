@@ -1246,6 +1246,12 @@ removeAllRanges
 (
 )
 ;
+gSearchResultsPane
+.
+removeAllSearchTooltips
+(
+)
+;
 }
 /
 /
