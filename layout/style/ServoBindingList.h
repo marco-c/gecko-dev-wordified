@@ -2316,6 +2316,8 @@ ServoElementSnapshotTable
 snapshots
 RawServoStyleSetBorrowed
 set
+bool
+ignore_existing_styles
 )
 /
 /
