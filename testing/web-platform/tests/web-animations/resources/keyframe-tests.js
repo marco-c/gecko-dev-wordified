@@ -145,7 +145,7 @@ values
 -
 -
 -
-var
+const
 gGoodKeyframeCompositeValueTests
 =
 [
@@ -161,7 +161,7 @@ accumulate
 undefined
 ]
 ;
-var
+const
 gGoodOptionsCompositeValueTests
 =
 [
@@ -176,7 +176,7 @@ accumulate
 "
 ]
 ;
-var
+const
 gBadCompositeValueTests
 =
 [
@@ -259,7 +259,7 @@ Keyframes
 -
 -
 -
-var
+const
 gEmptyKeyframeListTests
 =
 [
@@ -269,7 +269,7 @@ null
 undefined
 ]
 ;
-var
+const
 gPropertyIndexedKeyframesTests
 =
 [
@@ -1474,7 +1474,7 @@ linear
 }
 ]
 ;
-var
+const
 gKeyframeSequenceTests
 =
 [
@@ -5047,7 +5047,7 @@ left
 }
 ]
 ;
-var
+const
 gInvalidKeyframesTests
 =
 [
@@ -5384,7 +5384,7 @@ KeyframeEffectOptions
 -
 -
 -
-var
+const
 gKeyframeEffectOptionTests
 =
 [
@@ -5636,7 +5636,7 @@ forwards
 }
 ]
 ;
-var
+const
 gInvalidKeyframeEffectOptionTests
 =
 [
