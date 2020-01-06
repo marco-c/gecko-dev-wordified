@@ -4314,9 +4314,6 @@ const
 char16_t
 *
 ident
-bool
-*
-set_slow_selector
 )
 ;
 void
