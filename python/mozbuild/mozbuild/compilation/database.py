@@ -1258,7 +1258,13 @@ c
 file
 '
 :
+mozpath
+.
+join
+(
+directory
 filename
+)
             
 }
 )
