@@ -58514,6 +58514,9 @@ vibrate
 if
 (
 inner
+&
+&
+changed
 )
 {
 inner
