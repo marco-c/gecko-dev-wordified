@@ -246,6 +246,13 @@ getRequestedLocale
 (
 )
 {
+return
+"
+en
+-
+US
+"
+;
 }
 negotiateLanguages
 (

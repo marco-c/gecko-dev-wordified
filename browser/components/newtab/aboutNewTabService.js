@@ -294,6 +294,7 @@ MX
 et
 eu
 fa
+ff
 fi
 fr
 fy
@@ -329,6 +330,7 @@ ko
 lij
 lo
 lt
+ltg
 lv
 mk
 ml
