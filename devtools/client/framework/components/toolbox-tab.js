@@ -362,7 +362,7 @@ focusButton
 (
 id
 )
-onClick
+onMouseDown
 :
 (
 )
