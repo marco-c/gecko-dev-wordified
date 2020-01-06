@@ -1851,6 +1851,14 @@ RawConfigParser
         
 self
 .
+_config
+.
+optionxform
+=
+str
+        
+self
+.
 _settings
 =
 {
