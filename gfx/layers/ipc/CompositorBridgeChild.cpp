@@ -1377,7 +1377,7 @@ to
 /
 handle
 compositor
-desctruction
+destruction
 .
 /
 /
