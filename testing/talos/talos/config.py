@@ -1980,6 +1980,16 @@ obsolete
 '
 :
 True
+        
+'
+extensions
+.
+legacy
+.
+enabled
+'
+:
+True
     
 }
 )
