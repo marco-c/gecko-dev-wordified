@@ -16830,9 +16830,6 @@ return
 false
 ;
 }
-return
-true
-;
 #
 elif
 defined
