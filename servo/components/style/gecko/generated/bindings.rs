@@ -10131,11 +10131,6 @@ ident
 *
 const
 u16
-set_slow_selector
-:
-*
-mut
-bool
 )
 -
 >
