@@ -2459,6 +2459,11 @@ mUseFastOpen
 :
 1
 ;
+bool
+mDoNotDestroy
+:
+1
+;
 /
 /
 Set
