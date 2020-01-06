@@ -1176,7 +1176,15 @@ length
 >
 {
 if
-!
+context
+.
+for_non_inherited_property
+.
+is_some
+(
+)
+{
+if
 matches
 !
 (
@@ -1184,7 +1192,7 @@ base_size
 FontBaseSize
 :
 :
-InheritedStyle
+CurrentStyle
 )
 {
 context
@@ -1204,6 +1212,7 @@ into
 )
 )
 ;
+}
 }
 (
 reference_font_size
