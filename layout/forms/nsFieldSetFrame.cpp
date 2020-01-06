@@ -630,6 +630,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -643,6 +644,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 NS_DISPLAY_DECL_NAME
@@ -743,6 +745,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry
@@ -818,6 +821,7 @@ bool
 *
 aSnap
 )
+const
 {
 /
 /

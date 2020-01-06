@@ -2853,6 +2853,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -3009,6 +3010,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 bool
@@ -3058,6 +3060,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 const

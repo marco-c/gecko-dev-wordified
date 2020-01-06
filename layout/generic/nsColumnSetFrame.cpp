@@ -225,6 +225,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *

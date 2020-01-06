@@ -10605,6 +10605,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 {
 return
 uint32_t
@@ -11023,6 +11024,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -11057,6 +11059,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -11111,6 +11114,7 @@ nsRect
 &
 aRect
 )
+const
 {
 return
 false
@@ -11157,11 +11161,13 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 ;
 nsRect
 GetBorderRect
 (
 )
+const
 {
 return
 nsRect
@@ -11184,6 +11190,7 @@ nsRect
 GetPaddingRect
 (
 )
+const
 {
 return
 Frame
@@ -11204,6 +11211,7 @@ nsRect
 GetContentRect
 (
 )
+const
 {
 return
 Frame
@@ -11255,6 +11263,7 @@ nsRect
 &
 aRect
 )
+const
 {
 bool
 result
@@ -11542,6 +11551,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplayItemGenericGeometry
@@ -11652,6 +11662,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 bool
 snap
@@ -11821,6 +11832,7 @@ void
 NotifyRenderingChanged
 (
 )
+const
 {
 }
 /
@@ -11925,6 +11937,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -11983,6 +11996,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 mozilla
@@ -12025,6 +12039,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 false
@@ -12035,6 +12050,7 @@ bool
 ClearsBackground
 (
 )
+const
 {
 return
 false
@@ -12048,6 +12064,7 @@ nscolor
 *
 aColor
 )
+const
 {
 return
 false
@@ -12410,6 +12427,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 false
@@ -12491,6 +12509,7 @@ bool
 Painted
 (
 )
+const
 {
 return
 mPainted
@@ -13346,6 +13365,7 @@ nsIFrame
 *
 aFrames
 )
+const
 {
 }
 /
@@ -14178,6 +14198,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 nsRect
@@ -14255,6 +14276,7 @@ bool
 SupportsOptimizingToImage
 (
 )
+const
 {
 return
 false
@@ -14266,6 +14288,7 @@ DisplayItemClip
 GetClip
 (
 )
+const
 {
 return
 mClip
@@ -14390,6 +14413,7 @@ bool
 BackfaceIsHidden
 (
 )
+const
 {
 return
 mFrame
@@ -17914,6 +17938,7 @@ nsRect
 GetDestRect
 (
 )
+const
 =
 0
 ;
@@ -17922,6 +17947,7 @@ bool
 SupportsOptimizingToImage
 (
 )
+const
 override
 {
 return
@@ -18964,6 +18990,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -19137,6 +19164,7 @@ nsRect
 &
 aRect
 )
+const
 override
 ;
 virtual
@@ -19150,6 +19178,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -19273,6 +19302,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -19286,6 +19316,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -19352,6 +19383,7 @@ nsStyleBorder
 &
 aStyleBorder
 )
+const
 ;
 mozilla
 :
@@ -19646,6 +19678,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 const
@@ -19716,6 +19749,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -19764,6 +19798,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -19871,6 +19906,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -20160,6 +20196,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 const
@@ -20283,6 +20320,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -20729,6 +20767,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -20745,6 +20784,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 /
@@ -20773,6 +20813,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -20793,8 +20834,25 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
+{
+return
+(
+mLayer
+<
+<
+TYPE_BITS
+)
+|
+nsDisplayItem
+:
+:
+GetPerFrameKey
+(
+)
 ;
+}
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -20842,6 +20900,7 @@ nsRect
 GetPositioningArea
 (
 )
+const
 ;
 /
 *
@@ -20907,6 +20966,7 @@ bool
 RenderingMightDependOnPositioningAreaSizeChange
 (
 )
+const
 ;
 virtual
 nsDisplayItemGeometry
@@ -20943,6 +21003,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -20973,12 +21034,14 @@ nsRect
 GetDestRect
 (
 )
+const
 override
 ;
 static
 nsRegion
 GetInsideClipRegion
 (
+const
 nsDisplayItem
 *
 aItem
@@ -21002,6 +21065,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -21469,6 +21533,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -21501,6 +21566,7 @@ nsRect
 &
 aRect
 )
+const
 override
 ;
 protected
@@ -21608,6 +21674,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -21624,6 +21691,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -21634,6 +21702,7 @@ nscolor
 *
 aColor
 )
+const
 override
 ;
 virtual
@@ -21674,6 +21743,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -21736,6 +21806,7 @@ nsRect
 GetPositioningArea
 (
 )
+const
 ;
 /
 *
@@ -21762,6 +21833,7 @@ bool
 IsWindowActive
 (
 )
+const
 ;
 virtual
 nsDisplayItemGeometry
@@ -21798,6 +21870,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -22017,6 +22090,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -22033,6 +22107,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -22094,6 +22169,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -22145,6 +22221,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 const
@@ -22303,6 +22380,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -22370,6 +22448,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -22405,6 +22484,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -22434,6 +22514,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -22457,6 +22538,7 @@ bool
 ClearsBackground
 (
 )
+const
 override
 {
 return
@@ -22566,7 +22648,7 @@ mOpacity
 (
 1
 .
-0
+0f
 )
 {
 MOZ_COUNT_CTOR
@@ -22622,6 +22704,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -22633,6 +22716,7 @@ nsRect
 &
 aRect
 )
+const
 override
 ;
 virtual
@@ -22670,6 +22754,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -22980,6 +23065,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 const
@@ -23336,6 +23422,7 @@ nsRect
 &
 aRect
 )
+const
 override
 ;
 virtual
@@ -23349,6 +23436,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -23745,6 +23833,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -24789,6 +24878,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -24802,6 +24892,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -24818,6 +24909,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -24872,6 +24964,7 @@ nsIFrame
 *
 aFrames
 )
+const
 override
 {
 aFrames
@@ -24905,6 +24998,7 @@ nsRect
 &
 aRect
 )
+const
 override
 {
 if
@@ -25024,6 +25118,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -25702,6 +25797,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -25779,6 +25875,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 /
@@ -25806,6 +25903,7 @@ nsRect
 &
 aRect
 )
+const
 override
 {
 if
@@ -26002,6 +26100,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -26039,6 +26138,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 /
@@ -26063,6 +26163,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -26351,6 +26452,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -26644,6 +26746,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -26979,6 +27082,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -27002,6 +27106,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -27015,6 +27120,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 NS_DISPLAY_DECL_NAME
@@ -27452,6 +27558,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -27463,6 +27570,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -27597,6 +27705,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -27770,6 +27879,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -27787,6 +27897,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -28067,6 +28178,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -28257,6 +28369,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -28324,6 +28437,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 protected
@@ -28542,6 +28656,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 #
@@ -28829,6 +28944,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -28892,6 +29008,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 #
@@ -29584,6 +29701,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 if
@@ -29668,6 +29786,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -29681,6 +29800,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -29697,6 +29817,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -29807,6 +29928,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 virtual
@@ -29837,6 +29959,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -29870,6 +29993,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 /
@@ -30046,6 +30170,7 @@ Matrix4x4
 GetTransform
 (
 )
+const
 ;
 Matrix4x4
 GetTransformForRendering
@@ -30345,6 +30470,7 @@ nsRect
 *
 aOutRect
 )
+const
 ;
 static
 Point3D
@@ -30875,6 +31001,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 ;
 virtual
 void
@@ -31287,6 +31414,7 @@ aBoundsOverride
 StoreList
 mStoredList
 ;
+mutable
 Matrix4x4
 mTransform
 ;
@@ -31323,6 +31451,7 @@ mChildrenVisibleRect
 uint32_t
 mIndex
 ;
+mutable
 nsRect
 mBounds
 ;
@@ -31334,6 +31463,7 @@ mBounds
 is
 valid
 .
+mutable
 bool
 mHasBounds
 ;
@@ -31573,6 +31703,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return
@@ -31638,6 +31769,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 return
@@ -31665,6 +31797,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 }
@@ -31679,6 +31812,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 return
@@ -31705,6 +31839,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -31778,6 +31913,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 if
@@ -31905,6 +32041,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 return
@@ -32222,6 +32359,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 struct

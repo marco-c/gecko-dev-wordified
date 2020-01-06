@@ -16834,6 +16834,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 auto
@@ -16976,6 +16977,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 bool

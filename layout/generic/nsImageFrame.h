@@ -2256,6 +2256,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -2319,6 +2320,7 @@ nsRect
 GetDestRect
 (
 )
+const
 override
 ;
 virtual
@@ -2345,6 +2347,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -2388,6 +2391,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 return
@@ -2408,6 +2412,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual

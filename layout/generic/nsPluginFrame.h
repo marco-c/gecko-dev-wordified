@@ -1043,10 +1043,12 @@ temporarily
 nsRect
 GetPaintedRect
 (
+const
 nsDisplayPlugin
 *
 aItem
 )
+const
 ;
 /
 *
@@ -2081,6 +2083,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -2094,6 +2097,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual

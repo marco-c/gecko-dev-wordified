@@ -715,6 +715,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 }
@@ -1017,6 +1018,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry

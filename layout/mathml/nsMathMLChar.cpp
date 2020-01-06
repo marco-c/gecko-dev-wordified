@@ -13310,6 +13310,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -13449,6 +13450,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 bool
@@ -13468,6 +13470,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return

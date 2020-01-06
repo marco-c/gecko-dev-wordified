@@ -804,6 +804,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 nsCanvasFrame
@@ -1085,6 +1086,7 @@ void
 NotifyRenderingChanged
 (
 )
+const
 override
 {
 mFrame
@@ -1135,6 +1137,7 @@ bool
 SupportsOptimizingToImage
 (
 )
+const
 override
 {
 return

@@ -33019,6 +33019,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -33182,6 +33183,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 if
@@ -33311,6 +33313,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 void
@@ -33714,6 +33717,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplayTextGeometry

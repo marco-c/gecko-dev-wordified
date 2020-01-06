@@ -1407,6 +1407,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 NS_DISPLAY_DECL_NAME
@@ -1424,6 +1425,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 ;
 void
@@ -1627,6 +1629,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -1656,6 +1659,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 static_cast
@@ -5458,6 +5462,7 @@ nsTextBoxFrame
 GetComponentAlphaBounds
 (
 )
+const
 {
 if
 (

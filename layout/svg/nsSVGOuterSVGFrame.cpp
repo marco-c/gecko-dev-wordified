@@ -4461,6 +4461,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 nsDisplayItemGeometry
@@ -5061,6 +5062,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 nsSVGOuterSVGFrame
 *

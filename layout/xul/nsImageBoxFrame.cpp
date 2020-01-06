@@ -3244,6 +3244,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 boxFrame
@@ -3449,6 +3450,7 @@ nsDisplayXULImage
 GetDestRect
 (
 )
+const
 {
 Maybe
 <

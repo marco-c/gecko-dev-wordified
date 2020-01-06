@@ -1060,6 +1060,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -1073,6 +1074,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -1135,6 +1137,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry
@@ -1210,6 +1213,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
