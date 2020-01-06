@@ -2955,6 +2955,7 @@ None
 [
 inline
 ]
+pub
 fn
 is_unique
 (

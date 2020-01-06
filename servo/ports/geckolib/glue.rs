@@ -1636,7 +1636,10 @@ style
 stylist
 :
 :
+{
 RuleInclusion
+Stylist
+}
 ;
 use
 style
@@ -2147,6 +2150,13 @@ null_mut
 )
 ;
 }
+Stylist
+:
+:
+shutdown
+(
+)
+;
 }
 unsafe
 fn

@@ -475,6 +475,7 @@ successfully
 derive
 (
 Debug
+PartialEq
 )
 ]
 #
