@@ -509,6 +509,10 @@ euclid
 ;
 extern
 crate
+fallible
+;
+extern
+crate
 fnv
 ;
 #

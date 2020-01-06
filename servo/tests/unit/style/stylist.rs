@@ -1471,6 +1471,13 @@ QuirksMode
 :
 NoQuirks
 )
+.
+expect
+(
+"
+OOM
+"
+)
 ;
 assert_eq
 !
@@ -1527,6 +1534,13 @@ QuirksMode
 :
 :
 NoQuirks
+)
+.
+expect
+(
+"
+OOM
+"
 )
 ;
 assert_eq
