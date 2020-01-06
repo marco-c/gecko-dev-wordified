@@ -61725,7 +61725,7 @@ jsloader
 .
 shareGlobal
 "
-false
+true
 )
 ;
 /

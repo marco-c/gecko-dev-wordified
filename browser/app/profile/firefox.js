@@ -6696,16 +6696,6 @@ false
 ;
 #
 endif
-pref
-(
-"
-jsloader
-.
-shareGlobal
-"
-true
-)
-;
 /
 /
 This
