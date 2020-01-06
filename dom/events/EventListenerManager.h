@@ -2325,6 +2325,11 @@ mTarget
 ;
 }
 bool
+HasUntrustedOrNonSystemGroupKeyEventListeners
+(
+)
+;
+bool
 HasApzAwareListeners
 (
 )
