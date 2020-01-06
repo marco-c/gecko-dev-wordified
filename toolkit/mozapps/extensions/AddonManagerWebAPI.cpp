@@ -359,7 +359,7 @@ if
 (
 host
 .
-Equals
+EqualsLiteral
 (
 "
 addons
@@ -373,7 +373,7 @@ org
 |
 host
 .
-Equals
+EqualsLiteral
 (
 "
 discovery
@@ -389,7 +389,7 @@ org
 |
 host
 .
-Equals
+EqualsLiteral
 (
 "
 testpilot

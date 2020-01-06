@@ -8899,7 +8899,7 @@ if
 (
 leafName
 .
-Equals
+EqualsLiteral
 (
 "
 Resources

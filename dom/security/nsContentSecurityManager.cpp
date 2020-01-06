@@ -4852,7 +4852,7 @@ if
 (
 host
 .
-Equals
+EqualsLiteral
 (
 "
 127
@@ -4868,7 +4868,7 @@ Equals
 |
 host
 .
-Equals
+EqualsLiteral
 (
 "
 localhost
@@ -4878,7 +4878,7 @@ localhost
 |
 host
 .
-Equals
+EqualsLiteral
 (
 "
 :

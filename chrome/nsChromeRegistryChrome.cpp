@@ -1271,7 +1271,7 @@ if
 (
 aPackage
 .
-Equals
+EqualsLiteral
 (
 "
 global

@@ -2107,7 +2107,7 @@ ASSERT_TRUE
 (
 result
 .
-Equals
+EqualsLiteral
 (
 "
 127

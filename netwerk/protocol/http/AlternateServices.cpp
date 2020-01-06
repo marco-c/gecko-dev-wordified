@@ -1526,7 +1526,7 @@ isHttps
 =
 originScheme
 .
-Equals
+EqualsLiteral
 (
 "
 https

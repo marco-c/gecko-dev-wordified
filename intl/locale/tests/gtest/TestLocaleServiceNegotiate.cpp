@@ -260,7 +260,7 @@ supportedLocales
 0
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 sr
@@ -277,7 +277,7 @@ supportedLocales
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 en

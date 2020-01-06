@@ -15034,7 +15034,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security

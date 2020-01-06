@@ -7041,7 +7041,7 @@ if
 (
 from
 .
-Equals
+EqualsLiteral
 (
 "
 gzip
@@ -7051,7 +7051,7 @@ gzip
 |
 from
 .
-Equals
+EqualsLiteral
 (
 "
 x
@@ -7071,7 +7071,7 @@ if
 (
 from
 .
-Equals
+EqualsLiteral
 (
 "
 deflate
@@ -7081,7 +7081,7 @@ deflate
 |
 from
 .
-Equals
+EqualsLiteral
 (
 "
 x
@@ -7101,7 +7101,7 @@ if
 (
 from
 .
-Equals
+EqualsLiteral
 (
 "
 br

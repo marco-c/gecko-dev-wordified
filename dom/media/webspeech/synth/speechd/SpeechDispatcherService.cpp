@@ -2135,7 +2135,7 @@ if
 (
 variant
 .
-Equals
+EqualsLiteral
 (
 "
 UK

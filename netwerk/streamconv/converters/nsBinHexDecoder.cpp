@@ -3454,7 +3454,7 @@ IsEmpty
 !
 contentType
 .
-Equals
+EqualsLiteral
 (
 APPLICATION_BINHEX
 )

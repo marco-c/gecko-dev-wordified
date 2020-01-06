@@ -1259,7 +1259,7 @@ if
 (
 updateChannel
 .
-Equals
+EqualsLiteral
 (
 "
 esr

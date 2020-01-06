@@ -10251,7 +10251,7 @@ if
 (
 type
 .
-Equals
+EqualsLiteral
 (
 UNKNOWN_CONTENT_TYPE
 )
@@ -15192,7 +15192,7 @@ IsEmpty
 |
 contentType
 .
-Equals
+EqualsLiteral
 (
 UNKNOWN_CONTENT_TYPE
 )

@@ -3021,7 +3021,7 @@ allows
 return
 host
 .
-Equals
+EqualsLiteral
 (
 "
 127
@@ -3037,7 +3037,7 @@ Equals
 |
 host
 .
-Equals
+EqualsLiteral
 (
 "
 :
