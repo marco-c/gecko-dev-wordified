@@ -91,7 +91,7 @@ structs
 nsRestyleHint
 ;
 use
-traversal
+traversal_flags
 :
 :
 TraversalFlags
