@@ -35405,6 +35405,8 @@ nsStyleCoord
 >
 &
 aBoxValues
+bool
+aClampNegativeCalc
 )
 {
 MOZ_ASSERT
@@ -35439,7 +35441,7 @@ aBoxValues
 [
 0
 ]
-true
+aClampNegativeCalc
 )
 ;
 SetCssTextToCoord
@@ -35449,7 +35451,7 @@ aBoxValues
 [
 1
 ]
-true
+aClampNegativeCalc
 )
 ;
 SetCssTextToCoord
@@ -35459,7 +35461,7 @@ aBoxValues
 [
 2
 ]
-true
+aClampNegativeCalc
 )
 ;
 SetCssTextToCoord
@@ -35469,7 +35471,7 @@ aBoxValues
 [
 3
 ]
-true
+aClampNegativeCalc
 )
 ;
 /
@@ -35655,12 +35657,14 @@ BoxValuesToString
 (
 horizontalString
 horizontal
+true
 )
 ;
 BoxValuesToString
 (
 verticalString
 vertical
+true
 )
 ;
 aCssText
@@ -36129,6 +36133,7 @@ aStyleBasicShape
 Coordinates
 (
 )
+true
 )
 ;
 if
