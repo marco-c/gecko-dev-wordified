@@ -834,6 +834,11 @@ aSocket
 )
 ;
 void
+DestroyOnSTSFinal
+(
+)
+;
+void
 SetMaxMessageSize
 (
 bool
