@@ -1152,6 +1152,17 @@ mLocked
 false
 ;
 }
+ContentHostTexture
+*
+AsContentHostTexture
+(
+)
+override
+{
+return
+this
+;
+}
 virtual
 already_AddRefed
 <
