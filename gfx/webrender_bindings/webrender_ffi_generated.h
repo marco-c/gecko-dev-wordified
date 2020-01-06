@@ -3424,6 +3424,10 @@ LayoutTransform
 aTransform
 TransformStyle
 aTransformStyle
+const
+LayoutTransform
+*
+aPerspective
 MixBlendMode
 aMixBlendMode
 const
