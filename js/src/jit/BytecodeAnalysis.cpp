@@ -183,10 +183,6 @@ usesEnvironmentChain_
 (
 false
 )
-hasTryFinally_
-(
-false
-)
 {
 }
 /
@@ -1209,15 +1205,6 @@ hasNonSyntacticScope
 )
 )
 usesEnvironmentChain_
-=
-true
-;
-break
-;
-case
-JSOP_FINALLY
-:
-hasTryFinally_
 =
 true
 ;

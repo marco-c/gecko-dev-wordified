@@ -3809,6 +3809,9 @@ analysis_
 bool
 aborted_
 ;
+bool
+checkedTryFinally_
+;
 public
 :
 ControlFlowGenerator
