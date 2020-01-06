@@ -1945,10 +1945,12 @@ EditorUtils
 :
 IsDescendantOf
 (
+*
 item
 -
 >
 mStartContainer
+*
 aNode
 )
 )
@@ -2019,10 +2021,12 @@ EditorUtils
 :
 IsDescendantOf
 (
+*
 item
 -
 >
 mEndContainer
+*
 aNode
 )
 )
