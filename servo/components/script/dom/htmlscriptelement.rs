@@ -1967,7 +1967,15 @@ origin
 :
 doc
 .
-url
+origin
+(
+)
+.
+immutable
+(
+)
+.
+clone
 (
 )
 pipeline_id
