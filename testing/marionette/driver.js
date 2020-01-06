@@ -550,7 +550,7 @@ js
 ;
 const
 {
-wait
+PollPromise
 TimedPromise
 }
 =
@@ -10802,9 +10802,8 @@ async
 >
 {
 return
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
@@ -10880,9 +10879,8 @@ y
 )
 {
 return
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
@@ -20602,9 +20600,8 @@ windowSizeChange
 )
 {
 return
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
