@@ -612,11 +612,6 @@ link
 -
 button
 "
-"
-containers
--
-panelmenu
-"
 .
 .
 .
