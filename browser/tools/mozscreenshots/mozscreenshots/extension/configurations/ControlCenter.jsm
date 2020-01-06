@@ -416,7 +416,7 @@ loadPage
 "
 about
 :
-home
+rights
 "
 )
 ;
