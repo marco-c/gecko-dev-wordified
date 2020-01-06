@@ -193,12 +193,6 @@ destroy
 )
 ;
 public
-void
-attach
-(
-)
-;
-public
 boolean
 onTouchEvent
 (
