@@ -582,6 +582,15 @@ include
 "
 mozilla
 /
+ThreadHangStats
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProcessedStack
 .
 h
