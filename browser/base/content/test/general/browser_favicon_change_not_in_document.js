@@ -91,8 +91,7 @@ icon
 let
 haveChanged
 =
-new
-Promise
+PromiseUtils
 .
 defer
 (
@@ -238,8 +237,7 @@ icon
 ;
 haveChanged
 =
-new
-Promise
+PromiseUtils
 .
 defer
 (

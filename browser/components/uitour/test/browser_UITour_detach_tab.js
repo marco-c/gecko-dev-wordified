@@ -193,7 +193,7 @@ UITourHighlight
 let
 windowDestroyedDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -247,7 +247,7 @@ resolve
 let
 browserStartupDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

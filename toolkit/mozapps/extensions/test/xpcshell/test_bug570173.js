@@ -375,9 +375,10 @@ UPDATE_WHEN_USER_REQUESTED
 .
 catch
 (
-Promise
-.
-resolve
+e
+=
+>
+e
 )
 ;
 ok

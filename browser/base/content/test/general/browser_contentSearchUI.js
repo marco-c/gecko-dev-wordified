@@ -3077,7 +3077,7 @@ history
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -3319,7 +3319,7 @@ Satchel
 .
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -5271,7 +5271,7 @@ Satchel
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -6000,7 +6000,7 @@ promiseTab
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
