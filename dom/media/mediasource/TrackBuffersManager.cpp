@@ -2742,7 +2742,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 }
@@ -5757,7 +5756,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 /
@@ -6331,7 +6329,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 /

@@ -979,7 +979,6 @@ mBuffer
 )
 mLength
 principal
-mContainerType
 )
 ;
 MOZ_ASSERT

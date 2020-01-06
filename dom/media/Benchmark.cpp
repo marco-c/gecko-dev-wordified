@@ -428,17 +428,6 @@ sizeof
 sWebMSample
 )
 nullptr
-MediaContainerType
-(
-MEDIAMIMETYPE
-(
-"
-video
-/
-webm
-"
-)
-)
 )
 )
 ;
