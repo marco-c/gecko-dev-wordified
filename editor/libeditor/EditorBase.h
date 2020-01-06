@@ -6054,7 +6054,7 @@ mEventListener
 ;
 /
 /
-Weak
+Strong
 reference
 to
 placeholder
@@ -6065,11 +6065,11 @@ end
 batch
 purposes
 .
-WeakPtr
+RefPtr
 <
 PlaceholderTransaction
 >
-mPlaceholderTransactionWeak
+mPlaceholderTransaction
 ;
 /
 /
