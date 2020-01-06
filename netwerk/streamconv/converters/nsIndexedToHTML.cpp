@@ -5716,7 +5716,7 @@ the
 HTML
 parser
 .
-nsXPIDLCString
+nsCString
 loc
 ;
 aIndex
@@ -5922,6 +5922,10 @@ Adopt
 nsEscapeHTML
 (
 loc
+.
+get
+(
+)
 )
 )
 ;

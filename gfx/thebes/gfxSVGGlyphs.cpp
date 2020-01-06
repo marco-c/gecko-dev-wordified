@@ -942,7 +942,7 @@ do_GetService
 NS_CATEGORYMANAGER_CONTRACTID
 )
 ;
-nsXPIDLCString
+nsCString
 contractId
 ;
 nsresult
@@ -988,6 +988,10 @@ docLoaderFactory
 do_GetService
 (
 contractId
+.
+get
+(
+)
 )
 ;
 NS_ASSERTION

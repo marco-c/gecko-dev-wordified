@@ -1213,7 +1213,7 @@ if
 mCacheFileName
 )
 {
-nsXPIDLCString
+nsCString
 fName
 ;
 cacheFile
@@ -1229,6 +1229,10 @@ mCacheFileName
 strdup
 (
 fName
+.
+get
+(
+)
 )
 ;
 }
