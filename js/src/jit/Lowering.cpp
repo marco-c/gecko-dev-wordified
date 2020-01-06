@@ -16129,9 +16129,12 @@ alloc
 )
 LRegExp
 (
+temp
+(
+)
 )
 ;
-defineReturn
+define
 (
 lir
 ins

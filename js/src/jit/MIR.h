@@ -41806,6 +41806,9 @@ source_
 bool
 mustClone_
 ;
+bool
+hasShared_
+;
 MRegExp
 (
 CompilerConstraintList
@@ -41814,6 +41817,8 @@ constraints
 RegExpObject
 *
 source
+bool
+hasShared
 )
 :
 source_
@@ -41823,6 +41828,10 @@ source
 mustClone_
 (
 true
+)
+hasShared_
+(
+hasShared
 )
 {
 setResultType
@@ -41868,6 +41877,16 @@ const
 {
 return
 mustClone_
+;
+}
+bool
+hasShared
+(
+)
+const
+{
+return
+hasShared_
 ;
 }
 RegExpObject
