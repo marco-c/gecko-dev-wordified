@@ -94,10 +94,6 @@ thread_profiler
 ;
 extern
 crate
-bincode
-;
-extern
-crate
 log
 ;
 #
