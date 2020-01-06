@@ -1191,7 +1191,7 @@ it
 .
 WasmActivation
 *
-MaybeActiveActivation
+ActivationIfInnermost
 (
 JSContext
 *

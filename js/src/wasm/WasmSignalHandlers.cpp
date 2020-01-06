@@ -7700,7 +7700,7 @@ WasmActivation
 *
 activation
 =
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx
 )
@@ -8868,7 +8868,7 @@ WasmActivation
 *
 activation
 =
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx
 )
@@ -10286,7 +10286,7 @@ WasmActivation
 *
 activation
 =
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx
 )
@@ -11357,7 +11357,7 @@ activation
 (
 )
 via
-MaybeActiveActivation
+ActivationIfInnermost
 after
 we
 know
@@ -11396,7 +11396,7 @@ WasmActivation
 *
 activation
 =
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx
 )

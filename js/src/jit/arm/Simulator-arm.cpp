@@ -12091,7 +12091,7 @@ activation
 wasm
 :
 :
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx_
 )
@@ -12307,7 +12307,7 @@ act
 wasm
 :
 :
-MaybeActiveActivation
+ActivationIfInnermost
 (
 cx_
 )
