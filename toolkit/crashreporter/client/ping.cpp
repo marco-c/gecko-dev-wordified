@@ -884,6 +884,9 @@ ProductName
 ReleaseChannel
 "
 "
+RemoteType
+"
+"
 SecondsSinceLastCrash
 "
 "
