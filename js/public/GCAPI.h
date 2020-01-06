@@ -620,6 +620,16 @@ D
 (
 XPCONNECT_SHUTDOWN
 )
+\
+D
+(
+DOCSHELL
+)
+\
+D
+(
+HTML_PARSER
+)
 namespace
 gcreason
 {

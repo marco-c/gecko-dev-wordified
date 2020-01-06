@@ -794,13 +794,6 @@ dom
 #
 define
 DEBUG_DOCSHELL_FOCUS
-#
-define
-NS_USER_INTERACTION_INTERVAL
-5000
-/
-/
-ms
 static
 const
 LayoutDeviceIntPoint

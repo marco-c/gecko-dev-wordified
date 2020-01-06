@@ -6597,6 +6597,13 @@ nsJSContext
 :
 RunNextCollectorTimer
 (
+JS
+:
+:
+gcreason
+:
+:
+DOM_WINDOW_UTILS
 )
 ;
 return
