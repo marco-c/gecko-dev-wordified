@@ -2221,6 +2221,12 @@ maybeResizeNursery
 unsigned
 chunkCountLimit_
 ;
+mozilla
+:
+:
+TimeDuration
+timeInChunkAlloc_
+;
 /
 *
 Promotion
