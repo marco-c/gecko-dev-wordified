@@ -8739,7 +8739,7 @@ indicator
 .
 enabled
 "
-true
+false
 )
 ;
 pref
