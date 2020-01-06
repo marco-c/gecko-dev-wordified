@@ -495,6 +495,11 @@ JSMSG_MISSING_FORMAL
 "
 Missing_formal_parameter
 "
+JSMSG_CANT_TRUNCATE_ARRAY
+:
+"
+Non_configurable_array_element
+"
 }
 ;
 const
