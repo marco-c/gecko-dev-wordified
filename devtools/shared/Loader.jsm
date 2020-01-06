@@ -785,13 +785,6 @@ new
 Loader
 (
 {
-id
-:
-"
-fx
--
-devtools
-"
 paths
 invisibleToDebugger
 :
@@ -810,9 +803,6 @@ Module
 loader
 )
 "
-noSandboxAddonId
-:
-true
 requireHook
 :
 (

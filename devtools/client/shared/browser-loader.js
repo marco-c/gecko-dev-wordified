@@ -940,13 +940,6 @@ const
 opts
 =
 {
-id
-:
-"
-browser
--
-loader
-"
 sharedGlobal
 :
 true
@@ -962,9 +955,6 @@ UI
 loader
 )
 "
-noSandboxAddonId
-:
-true
 paths
 :
 Object
