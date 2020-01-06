@@ -1139,7 +1139,13 @@ GenericImage
 :
 Gradient
 (
+Box
+:
+:
+new
+(
 gradient
+)
 )
 )
 ;
@@ -1248,7 +1254,13 @@ GenericImage
 :
 Rect
 (
+Box
+:
+:
+new
+(
 image_rect
+)
 )
 )
 ;
