@@ -303,7 +303,6 @@ parse
 scriptable
 builtinclass
 function
-deprecated
 uuid
 (
 abc
@@ -405,17 +404,6 @@ iface
 attributes
 .
 function
-)
-        
-self
-.
-assertTrue
-(
-iface
-.
-attributes
-.
-deprecated
 )
         
 i

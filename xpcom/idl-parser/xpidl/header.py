@@ -444,28 +444,9 @@ NS_IMETHOD
 )
 :
         
-deprecated
-=
-a
-.
-deprecated
-and
-"
-NS_DEPRECATED
-"
-or
-"
-"
-        
 params
 =
 {
-'
-deprecated
-'
-:
-deprecated
-                  
 '
 returntype
 '
@@ -499,11 +480,6 @@ getter
         
 return
 "
-%
-(
-deprecated
-)
-s
 %
 (
 returntype
@@ -3065,23 +3041,6 @@ write
 (
 "
 NS_NO_VTABLE
-"
-)
-    
-if
-iface
-.
-attributes
-.
-deprecated
-:
-        
-fd
-.
-write
-(
-"
-MOZ_DEPRECATED
 "
 )
     
