@@ -3309,7 +3309,7 @@ t
 _target_task
 (
 '
-nightly_file_update
+file_update
 '
 )
 def
@@ -3367,7 +3367,6 @@ return
 task
 .
 kind
-not
 in
 [
 '
