@@ -124,17 +124,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderLayerManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 WebRenderAPI
@@ -172,7 +161,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap
@@ -708,7 +697,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap
@@ -1136,7 +1125,7 @@ StackingContextHelper
 aStackingContext
 int32_t
 aAppUnitsPerDevPixel
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap

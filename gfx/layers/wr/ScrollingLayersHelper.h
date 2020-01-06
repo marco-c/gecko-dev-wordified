@@ -112,7 +112,7 @@ mozilla
 /
 layers
 /
-WebRenderLayerManager
+WebRenderCommandBuilder
 .
 h
 "
@@ -159,7 +159,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap
@@ -202,7 +202,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap
@@ -229,7 +229,7 @@ StackingContextHelper
 aStackingContext
 int32_t
 aAppUnitsPerDevPixel
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 ClipIdMap

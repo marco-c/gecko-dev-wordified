@@ -93,7 +93,7 @@ MPL
 #
 include
 "
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 .
 h
 "
@@ -242,7 +242,7 @@ namespace
 layers
 {
 void
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 Destroy
@@ -261,7 +261,7 @@ RemoveUnusedAndResetWebRenderUserData
 ;
 }
 void
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 BuildWebRenderCommands
@@ -645,7 +645,7 @@ mParentCommands
 ;
 }
 void
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 CreateWebRenderCommandsFromDisplayList
@@ -1866,7 +1866,7 @@ wr
 :
 ImageKey
 >
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 CreateImageKey
@@ -2185,7 +2185,7 @@ aResources
 ;
 }
 bool
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 PushImage
@@ -2885,7 +2885,7 @@ already_AddRefed
 <
 WebRenderFallbackData
 >
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 GenerateFallbackData
@@ -3936,7 +3936,7 @@ wr
 :
 WrImageMask
 >
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 BuildWrMaskImage
@@ -4046,7 +4046,7 @@ imageMask
 ;
 }
 bool
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 PushItemAsImage
@@ -4173,7 +4173,7 @@ true
 ;
 }
 void
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 :
 :
 RemoveUnusedAndResetWebRenderUserData

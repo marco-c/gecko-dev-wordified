@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-GFX_WEBRENDERCOMMANDSBUILDER_H
+GFX_WEBRENDERCOMMANDBUILDER_H
 #
 define
-GFX_WEBRENDERCOMMANDSBUILDER_H
+GFX_WEBRENDERCOMMANDBUILDER_H
 #
 include
 "
@@ -191,7 +191,7 @@ class
 WebRenderUserData
 ;
 class
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 {
 typedef
 nsTHashtable
@@ -216,7 +216,7 @@ CanvasDataSet
 public
 :
 explicit
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 (
 WebRenderLayerManager
 *
@@ -1156,7 +1156,7 @@ to
 track
 the
 current
-displayGenerateFallbackData
+display
 /
 /
 item
@@ -1246,6 +1246,6 @@ mozilla
 endif
 /
 *
-GFX_WEBRENDERCOMMANDSBUILDER_H
+GFX_WEBRENDERCOMMANDBUILDER_H
 *
 /

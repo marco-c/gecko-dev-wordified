@@ -210,17 +210,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderLayerManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MathAlgorithms
 .
 h

@@ -271,7 +271,7 @@ mPaintSequenceNumber
 (
 0
 )
-mWebRenderCommandsBuilder
+mWebRenderCommandBuilder
 (
 this
 )
@@ -644,7 +644,7 @@ clear
 (
 )
 ;
-mWebRenderCommandsBuilder
+mWebRenderCommandBuilder
 .
 Destroy
 (
@@ -1522,7 +1522,7 @@ GetShmemAllocator
 )
 )
 ;
-mWebRenderCommandsBuilder
+mWebRenderCommandBuilder
 .
 BuildWebRenderCommands
 (
