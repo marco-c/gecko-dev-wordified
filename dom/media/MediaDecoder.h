@@ -2875,6 +2875,12 @@ FromMicroseconds
 250000
 )
 ;
+virtual
+nsCString
+GetDebugInfo
+(
+)
+;
 private
 :
 /
@@ -2912,11 +2918,6 @@ UnpinForSeek
 )
 =
 0
-;
-nsCString
-GetDebugInfo
-(
-)
 ;
 /
 /

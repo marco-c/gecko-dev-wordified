@@ -3657,6 +3657,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+nsCString
+GetDebugInfo
+(
+)
+;
 private
 :
 friend

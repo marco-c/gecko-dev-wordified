@@ -1040,6 +1040,12 @@ aMallocSizeOf
 )
 ;
 }
+nsCString
+GetDebugInfo
+(
+)
+override
+;
 class
 Listener
 final

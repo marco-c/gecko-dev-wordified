@@ -433,6 +433,12 @@ MediaDecoderInit
 aInit
 )
 ;
+nsCString
+GetDebugInfo
+(
+)
+override
+;
 public
 :
 /
