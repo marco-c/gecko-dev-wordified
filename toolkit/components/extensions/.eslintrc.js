@@ -58,6 +58,11 @@ MatchPatternSet
 "
 :
 false
+"
+WebExtensionPolicy
+"
+:
+false
 /
 /
 Specific
