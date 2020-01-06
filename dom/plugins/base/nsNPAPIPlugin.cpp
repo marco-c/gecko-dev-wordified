@@ -148,13 +148,6 @@ h
 #
 include
 "
-prclist
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
