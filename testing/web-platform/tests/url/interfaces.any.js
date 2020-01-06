@@ -41,6 +41,9 @@ Exposed
 Window
 Worker
 )
+LegacyWindowAlias
+=
+webkitURL
 ]
 interface
 URL
@@ -87,6 +90,9 @@ attribute
 USVString
 search
 ;
+[
+SameObject
+]
 readonly
 attribute
 URLSearchParams

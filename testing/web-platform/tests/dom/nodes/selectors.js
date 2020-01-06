@@ -1366,6 +1366,8 @@ attr
 -
 presence
 [
+*
+|
 TiTlE
 ]
 "
@@ -1385,6 +1387,13 @@ attr
 presence
 -
 span1
+"
+"
+attr
+-
+presence
+-
+i1
 "
 ]
 exclude
@@ -1425,6 +1434,8 @@ attr
 -
 presence
 [
+*
+|
 TiTlE
 ]
 "

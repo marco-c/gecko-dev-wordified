@@ -3676,18 +3676,6 @@ link
 href
 "
     
-#
-"
-menuitem
-icon
-"
-#
-skip
-until
-parser
-is
-updated
-    
 "
 object
 data
