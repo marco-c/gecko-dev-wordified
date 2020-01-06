@@ -1119,6 +1119,7 @@ text
 zoom
 if
 enabled
+.
 #
 [
 cfg
