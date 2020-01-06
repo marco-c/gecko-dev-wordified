@@ -11272,7 +11272,7 @@ HandleDemuxedSamples
 (
 TrackType
 aTrack
-AbstractMediaDecoder
+FrameStatistics
 :
 :
 AutoNotifyDecoded
@@ -12720,7 +12720,7 @@ stack
 based
 class
 .
-AbstractMediaDecoder
+FrameStatistics
 :
 :
 AutoNotifyDecoded
