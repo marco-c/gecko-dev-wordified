@@ -3005,16 +3005,6 @@ RustString
 string
 )
 ;
-SERVO_BINDING_FUNC
-(
-Servo_CorruptRuleHashAndCrash
-void
-RawServoStyleSetBorrowed
-set
-size_t
-index
-)
-;
 /
 /
 AddRef
