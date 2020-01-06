@@ -195,7 +195,7 @@ of
 the
 states
 that
-it
+is
 has
 visited
 (

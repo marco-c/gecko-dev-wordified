@@ -22,7 +22,7 @@ FromStr
 bitflags
 !
 {
-struct
+flags
 Flags
 :
 u16
@@ -31,7 +31,9 @@ const
 REQUIRED
 =
 1
-;
+<
+<
+0
 const
 MULTIPLE
 =
@@ -39,7 +41,6 @@ MULTIPLE
 <
 <
 1
-;
 const
 EMPTY_VALS
 =
@@ -47,7 +48,6 @@ EMPTY_VALS
 <
 <
 2
-;
 const
 GLOBAL
 =
@@ -55,7 +55,6 @@ GLOBAL
 <
 <
 3
-;
 const
 HIDDEN
 =
@@ -63,7 +62,6 @@ HIDDEN
 <
 <
 4
-;
 const
 TAKES_VAL
 =
@@ -71,7 +69,6 @@ TAKES_VAL
 <
 <
 5
-;
 const
 USE_DELIM
 =
@@ -79,7 +76,6 @@ USE_DELIM
 <
 <
 6
-;
 const
 NEXT_LINE_HELP
 =
@@ -87,7 +83,6 @@ NEXT_LINE_HELP
 <
 <
 7
-;
 const
 R_UNLESS_ALL
 =
@@ -95,7 +90,6 @@ R_UNLESS_ALL
 <
 <
 8
-;
 const
 REQ_DELIM
 =
@@ -103,7 +97,6 @@ REQ_DELIM
 <
 <
 9
-;
 const
 DELIM_NOT_SET
 =
@@ -111,7 +104,6 @@ DELIM_NOT_SET
 <
 <
 10
-;
 const
 HIDE_POS_VALS
 =
@@ -119,7 +111,6 @@ HIDE_POS_VALS
 <
 <
 11
-;
 const
 ALLOW_TAC_VALS
 =
@@ -127,7 +118,6 @@ ALLOW_TAC_VALS
 <
 <
 12
-;
 const
 REQUIRE_EQUALS
 =
@@ -135,7 +125,6 @@ REQUIRE_EQUALS
 <
 <
 13
-;
 const
 LAST
 =
@@ -143,7 +132,6 @@ LAST
 <
 <
 14
-;
 const
 HIDE_DEFAULT_VAL
 =
@@ -151,7 +139,6 @@ HIDE_DEFAULT_VAL
 <
 <
 15
-;
 }
 }
 #

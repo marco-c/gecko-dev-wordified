@@ -88,10 +88,7 @@ use
 fmt
 :
 :
-{
 Colorizer
-ColorizerOption
-}
 ;
 use
 app
@@ -1216,7 +1213,6 @@ find_from
 !
 (
 p
-&
 name
 blacklist
 &
@@ -1233,7 +1229,6 @@ p
 .
 find_any_arg
 (
-&
 name
 )
 .
@@ -1332,7 +1327,6 @@ with
 '
 "
 c_with
-&
 name
 )
 ;
@@ -1340,7 +1334,6 @@ matcher
 .
 remove
 (
-&
 name
 )
 ;
@@ -1686,6 +1679,7 @@ build_err
 self
 .
 0
+&
 n
 matcher
 )
@@ -1732,7 +1726,6 @@ build_err
 self
 .
 0
-*
 name
 matcher
 )
@@ -1834,7 +1827,6 @@ find_by_name
 self
 .
 0
-*
 name
 opts
 iter
@@ -1907,7 +1899,6 @@ find_by_name
 self
 .
 0
-*
 name
 flags
 iter
@@ -1954,7 +1945,6 @@ find_by_name
 self
 .
 0
-*
 name
 positionals
 values
@@ -3079,7 +3069,6 @@ find_by_name
 self
 .
 0
-*
 name
 flags
 iter
@@ -3114,7 +3103,6 @@ find_by_name
 self
 .
 0
-*
 name
 opts
 iter
@@ -3149,7 +3137,6 @@ find_by_name
 self
 .
 0
-*
 name
 positionals
 values
@@ -3675,11 +3662,6 @@ let
 c
 =
 Colorizer
-:
-:
-new
-(
-ColorizerOption
 {
 use_stderr
 :
@@ -3694,7 +3676,6 @@ color
 (
 )
 }
-)
 ;
 let
 mut

@@ -2623,12 +2623,12 @@ rust
             
 (
 '
-js
+mozjs_sys
 '
 '
 js
 /
-rust
+src
 '
 )
             

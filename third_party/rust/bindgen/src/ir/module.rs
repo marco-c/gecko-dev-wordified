@@ -528,6 +528,7 @@ visit
 |
 cursor
 |
+{
 parse_one
 (
 ctx
@@ -537,6 +538,7 @@ Some
 module_id
 )
 )
+}
 )
 }
 )

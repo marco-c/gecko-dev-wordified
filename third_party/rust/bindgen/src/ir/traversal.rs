@@ -1467,7 +1467,6 @@ EdgeKind
 Generic
 =
 >
-{
 ctx
 .
 resolve_item
@@ -1481,7 +1480,6 @@ is_enabled_for_codegen
 (
 ctx
 )
-}
 /
 /
 We

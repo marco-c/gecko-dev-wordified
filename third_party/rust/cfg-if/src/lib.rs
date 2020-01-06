@@ -249,11 +249,6 @@ main
 #
 !
 [
-no_std
-]
-#
-!
-[
 doc
 (
 html_root_url
@@ -556,7 +551,7 @@ test
 ]
 {
 use
-core
+std
 :
 :
 option

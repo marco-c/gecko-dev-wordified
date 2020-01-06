@@ -650,7 +650,7 @@ template
 type
 .
 fn
-type_param
+named_type
 (
 with_id
 :
