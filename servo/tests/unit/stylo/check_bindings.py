@@ -287,37 +287,8 @@ search
 line
 )
         
-#
-GetStyleVariables
-is
-a
-Servo_
-*
-function
-but
-temporarily
-defined
-on
-        
-#
-the
-gecko
-side
-        
 if
 match
-and
-match
-.
-group
-(
-1
-)
-!
-=
-"
-GetStyleVariables
-"
 :
             
 tests
