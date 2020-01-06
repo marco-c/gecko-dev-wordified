@@ -3186,6 +3186,20 @@ product
 '
 fennec
 '
+or
+\
+           
+task
+.
+label
+.
+endswith
+(
+'
+-
+fennec
+'
+)
 :
             
 if
@@ -3201,6 +3215,15 @@ bouncer
 -
 sub
 '
+                             
+'
+release
+-
+notify
+-
+promote
+'
+                             
 )
 :
                 
@@ -3315,6 +3338,21 @@ filtered_for_candidates
 return
 True
         
+#
+TODO
+:
+Include
+[
+beetmover
+]
+fennec
+mozilla
+-
+beta
+push
+to
+releases
+        
 if
 task
 .
@@ -3345,6 +3383,20 @@ product
 '
 fennec
 '
+or
+\
+           
+task
+.
+label
+.
+endswith
+(
+'
+-
+fennec
+'
+)
 :
             
 if
@@ -3385,6 +3437,14 @@ release
 version
 -
 bump
+'
+                             
+'
+release
+-
+notify
+-
+publish
 '
                              
 )
