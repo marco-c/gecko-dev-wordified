@@ -95,6 +95,10 @@ import
 namedtuple
 from
 taskgraph
+import
+create
+from
+taskgraph
 .
 util
 .
@@ -107,10 +111,6 @@ taskgraph
 parameters
 import
 Parameters
-from
-.
-import
-util
 GECKO
 =
 os
@@ -2753,7 +2753,7 @@ if
 test
 :
         
-util
+create
 .
 testing
 =
