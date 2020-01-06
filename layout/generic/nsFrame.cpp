@@ -17872,9 +17872,8 @@ visibleRect
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+MarkCurrentFrameModifiedDuringBuilding
 (
-this
 )
 ;
 }
@@ -19055,9 +19054,8 @@ ContainsBlendMode
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+MarkCurrentFrameModifiedDuringBuilding
 (
-this
 )
 ;
 /
