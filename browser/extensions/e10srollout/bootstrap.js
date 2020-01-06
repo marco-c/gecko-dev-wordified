@@ -1465,8 +1465,6 @@ Services
 prefs
 .
 setBoolPref
-.
-set
 (
 PREF_TOGGLE_E10S
 true
