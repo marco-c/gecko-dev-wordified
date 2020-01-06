@@ -561,17 +561,6 @@ promise
 subclassing
 .
 js
-if
-(
-typeof
-Promise
-!
-=
-=
-"
-undefined
-"
-)
 testBuiltin
 (
 Promise
