@@ -22667,7 +22667,7 @@ PreliminaryObjectArray
 :
 registerNewObject
 (
-JSObject
+PlainObject
 *
 res
 )
@@ -22771,7 +22771,7 @@ PreliminaryObjectArray
 :
 unregisterObject
 (
-JSObject
+PlainObject
 *
 obj
 )

@@ -5543,7 +5543,7 @@ this
 void
 registerNewObject
 (
-JSObject
+PlainObject
 *
 res
 )
@@ -5551,7 +5551,7 @@ res
 void
 unregisterObject
 (
-JSObject
+PlainObject
 *
 obj
 )
