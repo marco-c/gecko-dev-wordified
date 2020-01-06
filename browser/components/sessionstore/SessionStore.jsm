@@ -18979,6 +18979,16 @@ if
 activePageData
 .
 title
+&
+&
+activePageData
+.
+title
+!
+=
+activePageData
+.
+url
 )
 {
 win
