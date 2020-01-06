@@ -187,6 +187,7 @@ root
 {
 DomRoot
 RootCollection
+ThreadLocalStackRoots
 }
 ;
 use
@@ -397,7 +398,6 @@ script_runtime
 CommonScriptMsg
 ScriptChan
 ScriptPort
-StackRootTLS
 new_rt_and_cx
 }
 ;
@@ -1296,9 +1296,9 @@ new
 )
 ;
 let
-_stack_roots_tls
+_stack_roots
 =
-StackRootTLS
+ThreadLocalStackRoots
 :
 :
 new
