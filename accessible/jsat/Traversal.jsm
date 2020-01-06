@@ -1360,14 +1360,11 @@ Filters
 IGNORE
 ;
 }
-else
-{
 return
 Filters
 .
 MATCH
 ;
-}
 }
 )
 Button
@@ -1740,14 +1737,11 @@ Filters
 MATCH
 ;
 }
-else
-{
 return
 Filters
 .
 IGNORE
 ;
-}
 }
 )
 /
@@ -2326,8 +2320,6 @@ return
 moved
 ;
 }
-else
-{
 return
 aVirtualCursor
 [
@@ -2337,7 +2329,6 @@ aMethod
 rule
 )
 ;
-}
 }
 }
 ;
