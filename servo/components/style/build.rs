@@ -616,7 +616,7 @@ new
 env
 :
 :
-var
+var_os
 (
 "
 CARGO_MANIFEST_DIR

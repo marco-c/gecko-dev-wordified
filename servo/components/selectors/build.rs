@@ -113,7 +113,7 @@ new
 env
 :
 :
-var
+var_os
 (
 "
 OUT_DIR

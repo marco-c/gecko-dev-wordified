@@ -166,15 +166,11 @@ ndk_path
 env
 :
 :
-var
+var_os
 (
 "
 ANDROID_NDK
 "
-)
-.
-ok
-(
 )
 .
 expect
@@ -607,10 +603,6 @@ var
 "
 OUT_DIR
 "
-)
-.
-ok
-(
 )
 .
 expect

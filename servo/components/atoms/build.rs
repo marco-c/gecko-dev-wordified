@@ -113,7 +113,7 @@ new
 env
 :
 :
-var
+var_os
 (
 "
 CARGO_MANIFEST_DIR
@@ -254,7 +254,7 @@ new
 env
 :
 :
-var
+var_os
 (
 "
 OUT_DIR
