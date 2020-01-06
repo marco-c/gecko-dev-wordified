@@ -246,6 +246,12 @@ ImageKey
 data
 :
 BlobImageData
+_dirty_rect
+:
+Option
+<
+DeviceUintRect
+>
 )
 {
 let
