@@ -480,6 +480,15 @@ self
 .
 line_num
 {
+dest
+.
+write_str
+(
+"
+"
+)
+?
+;
 i
 .
 value
