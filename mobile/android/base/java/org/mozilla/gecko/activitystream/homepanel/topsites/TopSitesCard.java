@@ -727,6 +727,10 @@ skipNetwork
 (
 )
 .
+forActivityStream
+(
+)
+.
 build
 (
 )
