@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_mscom_InterfaceRegistrationAnnotator_h
+mozilla_mscom_RegistrationAnnotator_h
 #
 define
-mozilla_mscom_InterfaceRegistrationAnnotator_h
+mozilla_mscom_RegistrationAnnotator_h
 #
 if
 !
@@ -154,6 +154,13 @@ REFIID
 aIid
 )
 ;
+void
+AnnotateClassRegistration
+(
+REFCLSID
+aClsid
+)
+;
 }
 /
 /
@@ -168,4 +175,4 @@ mozilla
 endif
 /
 /
-mozilla_mscom_InterfaceRegistrationAnnotator_h
+mozilla_mscom_RegistrationAnnotator_h
