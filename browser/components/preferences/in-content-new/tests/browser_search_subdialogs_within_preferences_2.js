@@ -376,7 +376,7 @@ permission
 again
 "
 "
-permissionsGroup
+notificationsGroup
 "
 )
 ;
