@@ -1997,10 +1997,6 @@ _cacheable
 &
 mut
 bool
-_error_reporter
-:
-&
-ParseErrorReporter
 )
 {
 longhands

@@ -3669,11 +3669,6 @@ visited_style
 *
 /
 None
-&
-*
-context
-.
-error_reporter
 font_metrics_provider
 CascadeFlags
 :

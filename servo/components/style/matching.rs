@@ -3095,11 +3095,6 @@ Some
 mut
 cascade_info
 )
-&
-*
-shared_context
-.
-error_reporter
 font_metrics_provider
 cascade_flags
 shared_context
