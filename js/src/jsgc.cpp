@@ -46736,8 +46736,6 @@ ReleaseAllJITCode
 FreeOp
 *
 fop
-bool
-addMarkers
 )
 {
 js
@@ -46809,14 +46807,6 @@ zone
 discardJitCode
 (
 fop
-/
-*
-discardBaselineCode
-=
-*
-/
-true
-addMarkers
 )
 ;
 }

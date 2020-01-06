@@ -3432,8 +3432,6 @@ fop
 JSScript
 *
 script
-bool
-addMarker
 )
 ;
 /
