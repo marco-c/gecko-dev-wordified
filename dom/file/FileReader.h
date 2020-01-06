@@ -748,12 +748,6 @@ nsIAsyncInputStream
 >
 mAsyncStream
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-mBufferedStream
-;
 RefPtr
 <
 DOMException
