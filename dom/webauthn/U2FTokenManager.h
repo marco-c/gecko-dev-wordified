@@ -253,7 +253,7 @@ Get
 void
 Register
 (
-PWebAuthnTransactionParent
+WebAuthnTransactionParent
 *
 aTransactionParent
 const
@@ -265,7 +265,7 @@ aTransactionInfo
 void
 Sign
 (
-PWebAuthnTransactionParent
+WebAuthnTransactionParent
 *
 aTransactionParent
 const
@@ -277,7 +277,7 @@ aTransactionInfo
 void
 Cancel
 (
-PWebAuthnTransactionParent
+WebAuthnTransactionParent
 *
 aTransactionParent
 )
@@ -285,7 +285,7 @@ aTransactionParent
 void
 MaybeClearTransaction
 (
-PWebAuthnTransactionParent
+WebAuthnTransactionParent
 *
 aParent
 )
@@ -415,7 +415,7 @@ transaction
 is
 finished
 .
-PWebAuthnTransactionParent
+WebAuthnTransactionParent
 *
 mTransactionParent
 ;

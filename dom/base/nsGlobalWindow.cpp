@@ -30207,9 +30207,6 @@ u2f
 new
 U2F
 (
-AsInner
-(
-)
 )
 ;
 u2f
@@ -30217,6 +30214,9 @@ u2f
 >
 Init
 (
+AsInner
+(
+)
 aError
 )
 ;
