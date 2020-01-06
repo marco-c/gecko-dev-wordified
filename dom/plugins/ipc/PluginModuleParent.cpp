@@ -6558,7 +6558,9 @@ mCrashReporter
 >
 GenerateMinidumpAndPair
 (
-this
+Process
+(
+)
 browserDumpFile
 NS_LITERAL_CSTRING
 (
@@ -6651,7 +6653,9 @@ mCrashReporter
 >
 GenerateMinidumpAndPair
 (
-this
+Process
+(
+)
 nullptr
 /
 /
