@@ -307,7 +307,7 @@ return
 /
 Iterate
 the
-exlude
+exclude
 list
 and
 see
@@ -678,11 +678,7 @@ collect
 <
 Vec
 <
-&
-Vec
-<
-u8
->
+_
 >
 >
 (
