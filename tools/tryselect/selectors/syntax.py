@@ -3789,8 +3789,7 @@ append
 arg
 )
         
-try_syntax
-=
+return
 "
 "
 .
@@ -3798,9 +3797,6 @@ join
 (
 parts
 )
-        
-return
-try_syntax
     
 def
 find_paths_and_tags
@@ -5459,6 +5455,9 @@ vcs
 .
 push_to_try
 (
+'
+syntax
+'
 msg
 push
 =

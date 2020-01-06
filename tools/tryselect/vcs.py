@@ -627,6 +627,7 @@ def
 push_to_try
 (
 self
+method
 msg
 labels
 =
@@ -639,6 +640,27 @@ push
 True
 )
 :
+        
+commit_message
+=
+'
+%
+s
+\
+n
+\
+nPushed
+via
+mach
+try
+%
+s
+'
+%
+(
+msg
+method
+)
         
 self
 .
@@ -713,13 +735,27 @@ print
 msg
 )
                 
+print
+(
+'
+Commit
+message
+:
+'
+)
+                
+print
+(
+commit_message
+)
+                
 return
             
 self
 .
 _push_to_try
 (
-msg
+commit_message
 config
 )
         
