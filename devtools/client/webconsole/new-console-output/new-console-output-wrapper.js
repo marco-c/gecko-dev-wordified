@@ -1164,12 +1164,7 @@ action
 .
 message
 .
-get
-(
-"
 id
-"
-)
 ;
 return
 new
