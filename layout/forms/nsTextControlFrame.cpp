@@ -2021,10 +2021,10 @@ content
 "
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_INDEPENDENT_SELECTION
+)
 ;
 nsCOMPtr
 <

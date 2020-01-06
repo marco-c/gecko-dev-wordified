@@ -33552,10 +33552,10 @@ MarkIntrinsicISizesDirty
 )
 ;
 }
-mState
-|
-=
+AddStateBits
+(
 NS_STATE_SVG_TEXT_IN_REFLOW
+)
 ;
 nscoord
 inlineSize

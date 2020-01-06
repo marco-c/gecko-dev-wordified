@@ -6416,10 +6416,10 @@ aReflowInput
 )
 )
 {
-mState
-|
-=
+AddStateBits
+(
 IMAGE_SIZECONSTRAINED
+)
 ;
 }
 else
@@ -6465,10 +6465,10 @@ GetStateBits
 NS_FRAME_FIRST_REFLOW
 )
 {
-mState
-|
-=
+AddStateBits
+(
 IMAGE_GOTINITIALREFLOW
+)
 ;
 }
 mComputedSize

@@ -704,10 +704,10 @@ this
 still
 needed
 ?
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_HAS_DIRTY_CHILDREN
+)
 ;
 if
 (

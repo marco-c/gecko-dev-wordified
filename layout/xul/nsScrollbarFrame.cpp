@@ -333,10 +333,10 @@ the
 scrollbar
 frame
 .
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_REFLOW_ROOT
+)
 ;
 }
 void

@@ -30434,10 +30434,10 @@ GetNextContinuation
 ;
 }
 }
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_IS_BIDI
+)
 ;
 }
 /
@@ -70562,9 +70562,7 @@ StyleWhiteSpace
 PreLine
 )
 ;
-mState
-|
-=
+AddStateBits
 (
 isEmpty
 ?
