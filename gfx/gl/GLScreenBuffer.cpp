@@ -626,6 +626,15 @@ if
 XRE_IsParentProcess
 (
 )
+&
+&
+!
+gfxPrefs
+:
+:
+WebGLSurfaceTextureEnabled
+(
+)
 )
 {
 factory
