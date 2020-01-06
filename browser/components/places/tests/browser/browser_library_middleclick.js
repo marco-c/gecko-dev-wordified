@@ -101,6 +101,7 @@ license
 "
 about
 :
+mozilla
 "
 ]
 ;
@@ -592,6 +593,7 @@ buildconfig
 "
 about
 :
+mozilla
 "
 ]
 _bookmarks
@@ -903,6 +905,7 @@ buildconfig
 "
 about
 :
+mozilla
 "
 ]
 _bookmarks

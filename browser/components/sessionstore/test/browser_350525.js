@@ -548,6 +548,7 @@ testURL
 "
 about
 :
+mozilla
 "
 ;
 tab

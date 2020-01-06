@@ -101,6 +101,7 @@ license
 "
 about
 :
+mozilla
 "
 ]
 ;
