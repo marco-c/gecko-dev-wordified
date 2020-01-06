@@ -3329,17 +3329,6 @@ fennec
 mozilla
 -
 beta
-uptake
-monitoring
-        
-#
-TODO
-:
-Include
-fennec
-mozilla
--
-beta
 version
 bump
         
@@ -3396,6 +3385,14 @@ release
 bouncer
 -
 aliases
+'
+                             
+'
+release
+-
+uptake
+-
+monitoring
 '
 )
 :
