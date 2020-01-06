@@ -131,6 +131,9 @@ null
 _canvas
 :
 null
+_imageName
+:
+null
 get
 _shell
 (
@@ -401,6 +404,12 @@ arguments
 [
 0
 ]
+window
+.
+arguments
+[
+1
+]
 )
 ;
 }
@@ -412,6 +421,7 @@ this
 init
 (
 aImage
+aImageName
 )
 {
 this
@@ -419,6 +429,12 @@ this
 _image
 =
 aImage
+;
+this
+.
+_imageName
+=
+aImageName
 ;
 /
 /
@@ -756,6 +772,9 @@ this
 .
 _position
 ]
+this
+.
+_imageName
 )
 ;
 }
