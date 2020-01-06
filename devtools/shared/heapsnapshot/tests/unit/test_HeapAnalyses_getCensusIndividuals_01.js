@@ -47,16 +47,6 @@ get
 census
 individuals
 .
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 COUNT
 =

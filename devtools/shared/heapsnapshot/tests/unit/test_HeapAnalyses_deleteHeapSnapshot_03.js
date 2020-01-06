@@ -45,16 +45,6 @@ after
 deleting
 a
 snapshot
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 breakdown
 =

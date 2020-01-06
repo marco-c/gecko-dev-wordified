@@ -117,16 +117,6 @@ for
 PromiseUtils
 .
 jsm
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 /
 /
 Tests

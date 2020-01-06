@@ -361,13 +361,3 @@ folder
 use
 add_task
 .
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

@@ -916,13 +916,3 @@ add_test
 test_base64UrlDecode
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

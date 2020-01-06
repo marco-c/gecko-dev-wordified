@@ -106,16 +106,6 @@ view
 "
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 TEST_STATES
 =

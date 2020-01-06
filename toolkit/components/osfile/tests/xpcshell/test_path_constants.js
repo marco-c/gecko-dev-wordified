@@ -102,16 +102,6 @@ this
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 compare_paths
 (
 ospath

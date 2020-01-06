@@ -103,16 +103,6 @@ do_get_profile
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 hasProp
 (
 obj

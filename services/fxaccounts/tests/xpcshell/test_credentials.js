@@ -638,16 +638,6 @@ tests
 Utility
 functions
 follow
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 /
 /
 turn

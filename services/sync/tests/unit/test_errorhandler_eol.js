@@ -392,16 +392,6 @@ FakeCryptoService
 ;
 }
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 do_check_soft_eol
 (
 eh

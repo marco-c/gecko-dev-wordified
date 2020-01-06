@@ -44,16 +44,6 @@ function
 .
 *
 /
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 SAMPLE_COUNT
 =
