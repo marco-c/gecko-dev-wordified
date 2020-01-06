@@ -190,9 +190,9 @@ self
 assertIn
 (
 "
-identity
+autocomplete
 -
-icon
+search
 .
 svg
 "
