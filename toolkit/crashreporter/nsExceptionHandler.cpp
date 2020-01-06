@@ -15977,7 +15977,7 @@ id
 {
 id
 .
-Replace
+ReplaceLiteral
 (
 id
 .
@@ -15987,11 +15987,9 @@ Length
 -
 4
 4
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
 )
 ;
 return
