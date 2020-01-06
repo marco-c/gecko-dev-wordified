@@ -302,6 +302,8 @@ layers
 PTextureParent
 *
 aTexture
+uint64_t
+aFrameId
 const
 gfx
 :

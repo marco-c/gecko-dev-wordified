@@ -799,6 +799,16 @@ layer
 >
 SubmitFrame
 (
+mDisplayClient
+-
+>
+GetDisplayInfo
+(
+)
+.
+GetFrameId
+(
+)
 )
 ;
 break

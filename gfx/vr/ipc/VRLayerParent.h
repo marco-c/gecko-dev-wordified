@@ -178,6 +178,10 @@ RecvSubmitFrame
 PTextureParent
 *
 texture
+const
+uint64_t
+&
+aFrameId
 )
 override
 ;

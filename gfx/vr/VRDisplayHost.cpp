@@ -1055,6 +1055,8 @@ aLayer
 PTextureParent
 *
 aTexture
+uint64_t
+aFrameId
 const
 gfx
 :
@@ -1132,6 +1134,14 @@ if
 (
 !
 mFrameStarted
+|
+|
+aFrameId
+!
+=
+mDisplayInfo
+.
+mFrameId
 )
 {
 return

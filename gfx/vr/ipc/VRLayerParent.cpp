@@ -330,6 +330,10 @@ RecvSubmitFrame
 PTextureParent
 *
 texture
+const
+uint64_t
+&
+aFrameId
 )
 {
 if
@@ -355,6 +359,7 @@ SubmitFrame
 (
 this
 texture
+aFrameId
 mLeftEyeRect
 mRightEyeRect
 )
