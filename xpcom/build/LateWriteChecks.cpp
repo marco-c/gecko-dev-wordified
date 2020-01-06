@@ -185,15 +185,6 @@ h
 #
 include
 "
-mozilla
-/
-Unused
-.
-h
-"
-#
-include
-"
 nsAppDirectoryServiceDefs
 .
 h
@@ -493,9 +484,6 @@ Length
 )
 )
 ;
-Unused
-<
-<
 fwrite
 (
 str
