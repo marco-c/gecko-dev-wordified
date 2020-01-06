@@ -41706,6 +41706,9 @@ aBuilder
 nsIFrame
 *
 aFrame
+nsSubDocumentFrame
+*
+aSubDocFrame
 nsDisplayList
 *
 aList
@@ -41734,6 +41737,10 @@ aBuilder
 GetCurrentScrollParentId
 (
 )
+)
+mSubDocFrame
+(
+aSubDocFrame
 )
 {
 MOZ_COUNT_CTOR
@@ -42613,6 +42620,7 @@ nsDisplaySubDocument
 (
 aBuilder
 aFrame
+nullptr
 aList
 aFlags
 )
@@ -43580,6 +43588,10 @@ aBuilder
 aFrame
 aList
 aIndex
+)
+mAncestorFrame
+(
+aAncestorFrame
 )
 mTableType
 (
@@ -45582,6 +45594,7 @@ nsDisplaySubDocument
 (
 aBuilder
 aFrame
+nullptr
 aList
 aFlags
 )

@@ -3503,6 +3503,7 @@ subdocRootFrame
 subdocRootFrame
 :
 this
+this
 &
 childItems
 flags
