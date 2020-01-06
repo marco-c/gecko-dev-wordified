@@ -598,6 +598,9 @@ cropLimit
 noGrip
 :
 true
+omitLinkHref
+:
+false
 }
 )
 )
