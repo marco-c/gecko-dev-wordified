@@ -247,9 +247,8 @@ gPanel
 )
 )
 .
-then
+catch
 (
-null
 error
 =
 >

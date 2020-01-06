@@ -3921,9 +3921,8 @@ launch
 (
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -6376,9 +6375,8 @@ _notifyChange
 (
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

@@ -2899,9 +2899,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -4249,9 +4248,8 @@ true
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

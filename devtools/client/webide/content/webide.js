@@ -6659,9 +6659,8 @@ release
 (
 )
 .
-then
+catch
 (
-null
 console
 .
 error

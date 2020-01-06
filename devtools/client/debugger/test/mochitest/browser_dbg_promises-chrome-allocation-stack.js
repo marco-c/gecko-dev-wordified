@@ -317,9 +317,8 @@ r
 =
 p
 .
-then
+catch
 (
-null
 (
 )
 =
@@ -352,9 +351,8 @@ finish
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

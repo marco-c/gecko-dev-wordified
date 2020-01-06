@@ -849,9 +849,8 @@ undefined
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

@@ -1500,9 +1500,8 @@ resolve
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

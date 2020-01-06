@@ -956,9 +956,8 @@ prevLoad
 ?
 prevLoad
 .
-then
+catch
 (
-null
 tryNext
 )
 :
@@ -970,9 +969,8 @@ tryNext
 null
 )
 .
-then
+catch
 (
-null
 (
 ex
 )

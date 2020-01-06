@@ -3424,9 +3424,8 @@ map
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

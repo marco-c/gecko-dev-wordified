@@ -4755,9 +4755,8 @@ packet
 )
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -6963,9 +6962,8 @@ resolvedVal
 }
 )
 .
-then
+catch
 (
-null
 (
 error
 )

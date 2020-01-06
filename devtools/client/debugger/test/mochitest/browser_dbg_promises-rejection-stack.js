@@ -385,9 +385,8 @@ panel
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

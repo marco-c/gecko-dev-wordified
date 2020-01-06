@@ -5781,9 +5781,8 @@ nextSibling
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -7438,9 +7437,8 @@ promises
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -7692,9 +7690,8 @@ release
 (
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -8517,9 +8514,8 @@ node
 newValue
 )
 .
-then
+catch
 (
-null
 (
 )
 =

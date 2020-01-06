@@ -3210,9 +3210,8 @@ continueSave
 }
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -6257,9 +6256,8 @@ download
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

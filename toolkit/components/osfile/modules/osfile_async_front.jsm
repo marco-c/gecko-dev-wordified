@@ -2588,9 +2588,8 @@ queue
 =
 promise
 .
-then
+catch
 (
-null
 (
 )
 =
@@ -2614,9 +2613,8 @@ reported
 return
 promise
 .
-then
+catch
 (
-null
 null
 )
 ;

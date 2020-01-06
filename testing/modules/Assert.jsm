@@ -2772,9 +2772,8 @@ resolve
 }
 )
 .
-then
+catch
 (
-null
 reject
 )
 ;

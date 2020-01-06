@@ -1045,9 +1045,8 @@ close
 (
 )
 .
-then
+catch
 (
-null
 (
 e
 )

@@ -2696,9 +2696,8 @@ result
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

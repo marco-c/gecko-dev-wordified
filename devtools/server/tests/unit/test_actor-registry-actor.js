@@ -261,9 +261,8 @@ then
 talkToNewActor
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -364,9 +363,8 @@ then
 testActorIsUnregistered
 )
 .
-then
+catch
 (
-null
 e
 =
 >

@@ -408,9 +408,8 @@ transact
 }
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

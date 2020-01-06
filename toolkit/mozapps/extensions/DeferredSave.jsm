@@ -1641,9 +1641,8 @@ e
 ;
 writing
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -1672,9 +1671,8 @@ return
 }
 writing
 .
-then
+catch
 (
-null
 error
 =
 >

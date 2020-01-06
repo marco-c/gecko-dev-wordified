@@ -1113,9 +1113,8 @@ msg
 }
 )
 .
-then
+catch
 (
-null
 err
 =
 >

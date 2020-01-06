@@ -221,9 +221,8 @@ then
 performTest
 )
 .
-then
+catch
 (
-null
 info
 )
 ;
@@ -435,9 +434,8 @@ then
 testContextMenu
 )
 .
-then
+catch
 (
-null
 info
 )
 ;

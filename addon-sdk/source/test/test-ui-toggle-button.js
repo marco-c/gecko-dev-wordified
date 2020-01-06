@@ -9117,9 +9117,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -9582,9 +9581,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

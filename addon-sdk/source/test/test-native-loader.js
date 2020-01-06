@@ -2445,9 +2445,8 @@ done
 }
 )
 .
-then
+catch
 (
-null
 (
 reason
 )
@@ -2831,9 +2830,8 @@ done
 }
 )
 .
-then
+catch
 (
-null
 (
 reason
 )
@@ -3206,9 +3204,8 @@ error
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -3932,9 +3929,8 @@ loader
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

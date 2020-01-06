@@ -3099,9 +3099,8 @@ exit
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -4344,9 +4343,8 @@ enter
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -6443,9 +6441,8 @@ _stowedPalette
 (
 )
 .
-then
+catch
 (
-null
 log
 .
 error
@@ -7937,9 +7934,8 @@ child
 )
 )
 .
-then
+catch
 (
-null
 log
 .
 error
@@ -8377,9 +8373,8 @@ clear
 (
 )
 .
-then
+catch
 (
-null
 log
 .
 error
@@ -8707,9 +8702,8 @@ exit
 (
 )
 .
-then
+catch
 (
-null
 log
 .
 error
@@ -8815,9 +8809,8 @@ false
 (
 )
 .
-then
+catch
 (
-null
 log
 .
 error

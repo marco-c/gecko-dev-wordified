@@ -3723,9 +3723,8 @@ settleAll
 promises
 )
 .
-then
+catch
 (
-null
 (
 )
 =

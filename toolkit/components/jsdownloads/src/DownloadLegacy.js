@@ -1051,9 +1051,8 @@ null
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -1202,9 +1201,8 @@ aStatus
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -1369,9 +1367,8 @@ aStatus
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -1439,9 +1436,8 @@ aMaxTotalProgress
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -1815,9 +1811,8 @@ aDownload
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

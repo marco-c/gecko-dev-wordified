@@ -519,9 +519,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

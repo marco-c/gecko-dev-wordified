@@ -4507,9 +4507,8 @@ do_test_finished
 }
 )
 .
-then
+catch
 (
-null
 err
 =
 >

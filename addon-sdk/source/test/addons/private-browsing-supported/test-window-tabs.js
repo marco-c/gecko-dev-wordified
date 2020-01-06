@@ -232,9 +232,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -246,9 +245,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -366,9 +364,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -380,9 +377,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -499,9 +495,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -513,9 +508,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -636,9 +630,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -650,9 +643,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

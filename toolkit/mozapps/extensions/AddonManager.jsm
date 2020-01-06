@@ -10040,9 +10040,8 @@ too
 .
 buPromise
 .
-then
+catch
 (
-null
 e
 =
 >

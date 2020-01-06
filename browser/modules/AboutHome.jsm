@@ -1336,9 +1336,8 @@ data
 }
 )
 .
-then
+catch
 (
-null
 function
 onError
 (

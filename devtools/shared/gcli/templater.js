@@ -1519,9 +1519,8 @@ newValue
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -3834,9 +3833,8 @@ remove
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 error

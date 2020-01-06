@@ -453,9 +453,8 @@ gPanel
 )
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

@@ -326,9 +326,8 @@ oh
 ;
 resolved
 .
-then
+catch
 (
-null
 (
 )
 =

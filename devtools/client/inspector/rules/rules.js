@@ -5694,9 +5694,8 @@ tagName
 }
 )
 .
-then
+catch
 (
-null
 promiseWarn
 )
 ;
@@ -5828,9 +5827,8 @@ _changed
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -6336,9 +6334,8 @@ e
 }
 )
 .
-then
+catch
 (
-null
 promiseWarn
 )
 ;

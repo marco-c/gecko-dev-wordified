@@ -2779,9 +2779,8 @@ simpleCheckAndInstall
 (
 )
 .
-then
+catch
 (
-null
 (
 )
 =

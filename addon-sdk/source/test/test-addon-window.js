@@ -160,9 +160,8 @@ done
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

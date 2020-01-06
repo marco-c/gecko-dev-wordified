@@ -15894,9 +15894,8 @@ conn
 (
 )
 .
-then
+catch
 (
-null
 ex
 =
 >
@@ -16195,9 +16194,8 @@ conn
 )
 )
 .
-then
+catch
 (
-null
 ex
 =
 >

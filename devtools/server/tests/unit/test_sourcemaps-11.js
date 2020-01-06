@@ -161,9 +161,8 @@ then
 test_frames
 )
 .
-then
+catch
 (
-null
 error
 =
 >

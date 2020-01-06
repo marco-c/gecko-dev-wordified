@@ -981,9 +981,8 @@ resolve
 reply
 )
 .
-then
+catch
 (
-null
 function
 (
 error
@@ -2274,9 +2273,8 @@ resolve
 reply
 )
 .
-then
+catch
 (
-null
 function
 (
 error

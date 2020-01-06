@@ -565,9 +565,8 @@ create
 item
 )
 .
-then
+catch
 (
-null
 function
 (
 reason

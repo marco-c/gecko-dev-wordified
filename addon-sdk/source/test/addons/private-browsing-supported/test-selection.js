@@ -1615,9 +1615,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1645,9 +1644,8 @@ then
 dispatchSelectionEvent
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1856,9 +1854,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1886,9 +1883,8 @@ then
 dispatchOnSelectEvent
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -2151,9 +2147,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -2390,9 +2385,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -2687,9 +2681,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -2924,9 +2917,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

@@ -1435,9 +1435,8 @@ undo
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -1477,9 +1476,8 @@ redo
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -1541,9 +1539,8 @@ paste
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -1573,9 +1570,8 @@ Selection
 "
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -1896,9 +1892,8 @@ sortFolderByName
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

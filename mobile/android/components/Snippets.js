@@ -1140,9 +1140,8 @@ tmp
 ;
 promise
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -2158,9 +2157,8 @@ tmp
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -2576,9 +2574,8 @@ gStatsPath
 ;
 promise
 .
-then
+catch
 (
-null
 e
 =
 >

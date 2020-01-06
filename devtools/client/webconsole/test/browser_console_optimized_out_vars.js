@@ -423,9 +423,8 @@ finishTest
 }
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

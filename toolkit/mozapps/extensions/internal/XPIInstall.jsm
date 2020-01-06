@@ -13247,9 +13247,8 @@ requiresRestart
 (
 )
 .
-then
+catch
 (
-null
 (
 e
 )

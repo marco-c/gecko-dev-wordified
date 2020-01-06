@@ -401,9 +401,8 @@ closeDebuggerAndFinish
 gPanel
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

@@ -11163,9 +11163,8 @@ response
 }
 )
 .
-then
+catch
 (
-null
 (
 e
 )

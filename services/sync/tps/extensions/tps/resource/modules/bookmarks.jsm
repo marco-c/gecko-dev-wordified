@@ -327,9 +327,8 @@ null
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

@@ -144,9 +144,8 @@ performTest
 (
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

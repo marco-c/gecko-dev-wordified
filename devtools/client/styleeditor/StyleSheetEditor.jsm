@@ -2014,9 +2014,8 @@ source
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -3325,9 +3324,8 @@ toggleDisabled
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -3562,9 +3560,8 @@ this
 transitionsEnabled
 )
 .
-then
+catch
 (
-null
 e
 =
 >

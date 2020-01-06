@@ -6800,9 +6800,8 @@ then
 sendReturn
 )
 .
-then
+catch
 (
-null
 this
 .
 writeError
@@ -7698,9 +7697,8 @@ packet
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

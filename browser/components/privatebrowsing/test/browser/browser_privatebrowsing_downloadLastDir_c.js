@@ -659,9 +659,8 @@ aCallback
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 )

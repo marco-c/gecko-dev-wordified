@@ -181,9 +181,8 @@ testCleanExit
 }
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

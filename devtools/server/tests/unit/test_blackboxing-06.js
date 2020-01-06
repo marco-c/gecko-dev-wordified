@@ -172,9 +172,8 @@ then
 test_correct_location
 )
 .
-then
+catch
 (
-null
 function
 (
 error

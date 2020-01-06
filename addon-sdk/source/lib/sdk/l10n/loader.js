@@ -155,9 +155,8 @@ JSON
 parse
 )
 .
-then
+catch
 (
-null
 function
 (
 error

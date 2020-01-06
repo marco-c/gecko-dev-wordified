@@ -351,9 +351,8 @@ panel
 )
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

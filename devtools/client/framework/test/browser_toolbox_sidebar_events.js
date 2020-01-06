@@ -639,9 +639,8 @@ show
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

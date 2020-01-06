@@ -837,9 +837,8 @@ this
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

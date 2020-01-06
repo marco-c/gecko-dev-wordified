@@ -3523,9 +3523,8 @@ acLookupPromise
 )
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
