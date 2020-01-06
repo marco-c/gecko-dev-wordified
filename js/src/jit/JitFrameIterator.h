@@ -591,6 +591,15 @@ dumpBaseline
 )
 const
 ;
+explicit
+JitFrameIterator
+(
+const
+JitActivation
+*
+activation
+)
+;
 public
 :
 explicit
