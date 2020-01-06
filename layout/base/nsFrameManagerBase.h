@@ -347,7 +347,7 @@ mRootFrame
 ;
 UndisplayedMap
 *
-mUndisplayedMap
+mDisplayNoneMap
 ;
 UndisplayedMap
 *

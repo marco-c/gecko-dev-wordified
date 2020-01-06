@@ -438,7 +438,7 @@ mRootFrame
 (
 nullptr
 )
-mUndisplayedMap
+mDisplayNoneMap
 (
 nullptr
 )
@@ -932,9 +932,9 @@ nullptr
 ;
 }
 delete
-mUndisplayedMap
+mDisplayNoneMap
 ;
-mUndisplayedMap
+mDisplayNoneMap
 =
 nullptr
 ;
@@ -1252,7 +1252,7 @@ aParentContent
 return
 GetAllUndisplayedNodesInMapFor
 (
-mUndisplayedMap
+mDisplayNoneMap
 aParentContent
 )
 ;
@@ -1471,10 +1471,10 @@ aStyleContext
 if
 (
 !
-mUndisplayedMap
+mDisplayNoneMap
 )
 {
-mUndisplayedMap
+mDisplayNoneMap
 =
 new
 UndisplayedMap
@@ -1482,7 +1482,7 @@ UndisplayedMap
 }
 SetStyleContextInMap
 (
-mUndisplayedMap
+mDisplayNoneMap
 aContent
 aStyleContext
 )
@@ -1698,7 +1698,7 @@ endif
 if
 (
 !
-mUndisplayedMap
+mDisplayNoneMap
 )
 {
 return
@@ -1710,7 +1710,7 @@ UndisplayedNode
 *
 node
 =
-mUndisplayedMap
+mDisplayNoneMap
 -
 >
 GetFirstNode
@@ -1741,7 +1741,7 @@ mContent
 aContent
 )
 {
-mUndisplayedMap
+mDisplayNoneMap
 -
 >
 RemoveNodeFor
@@ -1873,10 +1873,10 @@ aParentContent
 endif
 if
 (
-mUndisplayedMap
+mDisplayNoneMap
 )
 {
-mUndisplayedMap
+mDisplayNoneMap
 -
 >
 RemoveNodesFor
