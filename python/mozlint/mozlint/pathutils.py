@@ -198,6 +198,13 @@ path
 [
 1
 ]
+.
+strip
+(
+'
+.
+'
+)
     
 property
     
