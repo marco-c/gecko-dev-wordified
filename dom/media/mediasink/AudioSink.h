@@ -409,6 +409,11 @@ return
 mAudibleEvent
 ;
 }
+nsCString
+GetDebugInfo
+(
+)
+;
 private
 :
 /
