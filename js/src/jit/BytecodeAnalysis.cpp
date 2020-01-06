@@ -187,10 +187,6 @@ hasTryFinally_
 (
 false
 )
-hasSetArg_
-(
-false
-)
 {
 }
 /
@@ -1222,15 +1218,6 @@ case
 JSOP_FINALLY
 :
 hasTryFinally_
-=
-true
-;
-break
-;
-case
-JSOP_SETARG
-:
-hasSetArg_
 =
 true
 ;

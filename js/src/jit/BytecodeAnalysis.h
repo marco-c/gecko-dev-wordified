@@ -261,9 +261,6 @@ usesEnvironmentChain_
 bool
 hasTryFinally_
 ;
-bool
-hasSetArg_
-;
 public
 :
 explicit
@@ -386,16 +383,6 @@ const
 {
 return
 hasTryFinally_
-;
-}
-bool
-hasSetArg
-(
-)
-const
-{
-return
-hasSetArg_
 ;
 }
 }
