@@ -242,7 +242,7 @@ R
 .
 dimen
 .
-tab_panel_item_width
+tab_panel_item_width_autofit
 )
 ;
 desiredHorizontalItemSpacing
@@ -255,7 +255,7 @@ R
 .
 dimen
 .
-tab_panel_grid_ideal_item_hspacing
+tab_panel_grid_item_hpadding_autofit
 )
 ;
 minHorizontalItemSpacing
@@ -268,7 +268,7 @@ R
 .
 dimen
 .
-tab_panel_grid_min_item_hspacing
+tab_panel_grid_min_item_hspacing_autofit
 )
 ;
 verticalItemPadding
@@ -281,7 +281,7 @@ R
 .
 dimen
 .
-tab_panel_grid_item_vpadding
+tab_panel_grid_item_vpadding_autofit
 )
 ;
 final
@@ -296,7 +296,7 @@ R
 .
 dimen
 .
-tab_panel_grid_vpadding
+tab_panel_grid_vpadding_autofit
 )
 ;
 final
@@ -311,7 +311,7 @@ R
 .
 dimen
 .
-tab_panel_grid_hpadding
+tab_panel_grid_hpadding_autofit
 )
 ;
 setPadding

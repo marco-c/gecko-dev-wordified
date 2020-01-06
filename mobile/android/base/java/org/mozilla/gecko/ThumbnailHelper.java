@@ -127,6 +127,17 @@ gecko
 .
 util
 .
+HardwareUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ResourceDrawableUtils
 ;
 import
@@ -297,7 +308,7 @@ TABS_PANEL_THUMBNAIL_ASPECT_RATIO
 =
 0
 .
-8333333f
+75f
 ;
 public
 static
