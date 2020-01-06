@@ -3075,7 +3075,6 @@ nsPrintfCString
 (
 "
 VideoSink
-Status
 :
 IsStarted
 =
