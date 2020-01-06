@@ -233,6 +233,9 @@ a
 }
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -275,7 +278,7 @@ js
 )
 ;
 let
-store
+engine
 =
 Service
 .
@@ -287,6 +290,11 @@ get
 prefs
 "
 )
+;
+let
+store
+=
+engine
 .
 _store
 ;
@@ -317,6 +325,7 @@ ID
 let
 allIDs
 =
+await
 store
 .
 getAllIDs
@@ -361,6 +370,8 @@ true
 ;
 do_check_true
 (
+(
+await
 store
 .
 itemExists
@@ -368,9 +379,12 @@ itemExists
 PREFS_GUID
 )
 )
+)
 ;
 do_check_false
 (
+(
+await
 store
 .
 itemExists
@@ -380,6 +394,7 @@ random
 -
 gibberish
 "
+)
 )
 )
 ;
@@ -400,6 +415,7 @@ deleted
 let
 record
 =
+await
 store
 .
 createRecord
@@ -439,6 +455,7 @@ synced
 ;
 record
 =
+await
 store
 .
 createRecord
@@ -901,6 +918,7 @@ somepref
 true
 }
 ;
+await
 store
 .
 update
@@ -1154,6 +1172,7 @@ usedThemes
 usedThemes
 }
 ;
+await
 store
 .
 update
@@ -1220,6 +1239,7 @@ usedThemes
 usedThemes
 }
 ;
+await
 store
 .
 update
@@ -1298,6 +1318,7 @@ int
 98
 }
 ;
+await
 store
 .
 update
@@ -1389,6 +1410,7 @@ int
 42
 }
 ;
+await
 store
 .
 update
@@ -1452,6 +1474,7 @@ foo
 "
 }
 ;
+await
 store
 .
 update
@@ -1502,6 +1525,7 @@ bar
 "
 }
 ;
+await
 store
 .
 update
@@ -1556,3 +1580,5 @@ resetBranch
 ;
 }
 }
+)
+;

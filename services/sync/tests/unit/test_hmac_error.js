@@ -158,6 +158,7 @@ Service
 .
 handleHMACEvent
 =
+async
 function
 (
 )
@@ -181,6 +182,7 @@ Service
 (
 )
 ;
+async
 function
 shared_setup
 (
@@ -212,6 +214,7 @@ engine
 tracker
 }
 =
+await
 registerRotaryEngine
 (
 )
@@ -417,6 +420,7 @@ global
 tracker
 ]
 =
+await
 shared_setup
 (
 )
@@ -672,6 +676,7 @@ foo
 server
 )
 ;
+await
 Service
 .
 login
@@ -907,6 +912,7 @@ global
 tracker
 ]
 =
+await
 shared_setup
 (
 )
@@ -1523,10 +1529,15 @@ sync
 "
 )
 ;
+Async
+.
+promiseSpinningly
+(
 Service
 .
 sync
 (
+)
 )
 ;
 _
@@ -1945,10 +1956,15 @@ resolve
 ;
 }
 ;
+Async
+.
+promiseSpinningly
+(
 Service
 .
 sync
 (
+)
 )
 ;
 }

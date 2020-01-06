@@ -246,6 +246,35 @@ jsm
 "
 )
 ;
+let
+engine
+;
+let
+store
+;
+let
+tracker
+;
+const
+DAY_IN_MS
+=
+24
+*
+60
+*
+60
+*
+1000
+;
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
 Service
 .
 engineManager
@@ -255,7 +284,6 @@ register
 BookmarksEngine
 )
 ;
-var
 engine
 =
 Service
@@ -269,25 +297,17 @@ bookmarks
 "
 )
 ;
-var
 store
 =
 engine
 .
 _store
 ;
-var
 tracker
 =
 engine
 .
 _tracker
-;
-store
-.
-wipe
-(
-)
 ;
 tracker
 .
@@ -295,16 +315,8 @@ persistChangedIDs
 =
 false
 ;
-const
-DAY_IN_MS
-=
-24
-*
-60
-*
-60
-*
-1000
+}
+)
 ;
 /
 /
@@ -389,6 +401,7 @@ _needWeakReupload
 clear
 (
 )
+await
 store
 .
 wipe
@@ -3066,6 +3079,7 @@ DEFAULT_INDEX
 let
 syncFolderGUID
 =
+await
 engine
 .
 _store
@@ -3157,6 +3171,7 @@ Bookmark
 let
 syncBmkGUID
 =
+await
 engine
 .
 _store
@@ -3233,6 +3248,7 @@ syncFolderID
 let
 syncSepGUID
 =
+await
 engine
 .
 _store
@@ -3874,6 +3890,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -4117,6 +4134,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -4325,6 +4343,7 @@ DEFAULT_INDEX
 let
 folderGUID
 =
+await
 engine
 .
 _store
@@ -4410,6 +4429,7 @@ Firefox
 let
 bGUID
 =
+await
 engine
 .
 _store
@@ -4605,6 +4625,7 @@ Firefox
 let
 fx1GUID
 =
+await
 engine
 .
 _store
@@ -4653,6 +4674,7 @@ Firefox
 let
 fx2GUID
 =
+await
 engine
 .
 _store
@@ -5515,6 +5537,7 @@ Firefox
 let
 bGUID
 =
+await
 engine
 .
 _store
@@ -6160,6 +6183,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -6362,6 +6386,7 @@ Firefox
 let
 bGUID
 =
+await
 engine
 .
 _store
@@ -6572,6 +6597,7 @@ DEFAULT_INDEX
 let
 rootGUID
 =
+await
 engine
 .
 _store
@@ -6644,6 +6670,7 @@ Thunderbird
 let
 untrackedBmkGUID
 =
+await
 engine
 .
 _store
@@ -6721,6 +6748,7 @@ Firefox
 let
 rootBmkGUID
 =
+await
 engine
 .
 _store
@@ -6881,6 +6909,7 @@ Firefox
 let
 rootBmkGUID
 =
+await
 engine
 .
 _store
@@ -7805,6 +7834,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -7868,6 +7898,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store
@@ -8691,6 +8722,7 @@ DEFAULT_INDEX
 let
 folder_guid
 =
+await
 engine
 .
 _store
@@ -8747,6 +8779,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store
@@ -8803,6 +8836,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -8863,6 +8897,7 @@ Mozilla
 let
 moz_guid
 =
+await
 engine
 .
 _store
@@ -9090,6 +9125,7 @@ DEFAULT_INDEX
 let
 folder_guid
 =
+await
 engine
 .
 _store
@@ -9148,6 +9184,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -9206,6 +9243,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store
@@ -9491,6 +9529,7 @@ DEFAULT_INDEX
 let
 folder1_guid
 =
+await
 engine
 .
 _store
@@ -9534,6 +9573,7 @@ DEFAULT_INDEX
 let
 folder2_guid
 =
+await
 engine
 .
 _store
@@ -9815,6 +9855,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store
@@ -10790,6 +10831,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -10850,6 +10892,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store
@@ -10910,6 +10953,7 @@ Mozilla
 let
 moz_guid
 =
+await
 engine
 .
 _store
@@ -11064,6 +11108,7 @@ DEFAULT_INDEX
 let
 folder1_guid
 =
+await
 engine
 .
 _store
@@ -11107,6 +11152,7 @@ DEFAULT_INDEX
 let
 folder2_guid
 =
+await
 engine
 .
 _store
@@ -11167,6 +11213,7 @@ Firefox
 let
 fx_guid
 =
+await
 engine
 .
 _store
@@ -11215,6 +11262,7 @@ Thunderbird
 let
 tb_guid
 =
+await
 engine
 .
 _store

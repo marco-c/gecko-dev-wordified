@@ -127,16 +127,6 @@ js
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 PetrolEngine
 (
 )
@@ -344,8 +334,9 @@ engines
 .
 *
 /
-add_test
+add_task
 (
+async
 function
 testOldMeta
 (
@@ -427,6 +418,7 @@ EngineSynchronizer
 Service
 )
 ;
+await
 engineSync
 .
 _updateEnabledFromMeta
@@ -756,8 +748,9 @@ engines
 .
 *
 /
-add_test
+add_task
 (
+async
 function
 testDeclinedMeta
 (
@@ -1284,10 +1277,6 @@ was
 changed
 .
 "
-)
-;
-run_next_test
-(
 )
 ;
 }

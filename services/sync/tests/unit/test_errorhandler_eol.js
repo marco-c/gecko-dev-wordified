@@ -569,6 +569,7 @@ eol
 "
 )
 ;
+await
 Service
 .
 _fetchInfo
@@ -701,6 +702,7 @@ eol
 ;
 try
 {
+await
 Service
 .
 _fetchInfo
@@ -855,6 +857,7 @@ eol
 "
 )
 ;
+await
 Service
 .
 _fetchInfo

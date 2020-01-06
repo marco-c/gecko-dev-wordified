@@ -89,6 +89,9 @@ startsWith
 )
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -182,6 +185,7 @@ Test
 utils
 lock
 "
+async
 function
 (
 )
@@ -221,6 +225,7 @@ utils
 lock
 throwy
 "
+async
 function
 (
 )
@@ -236,6 +241,7 @@ didCall
 =
 true
 ;
+return
 this
 .
 throwy
@@ -277,6 +283,7 @@ state
 ;
 ret
 =
+await
 obj
 .
 func
@@ -345,6 +352,7 @@ try
 {
 ret
 =
+await
 obj
 .
 throwy
@@ -449,3 +457,5 @@ state
 )
 ;
 }
+)
+;

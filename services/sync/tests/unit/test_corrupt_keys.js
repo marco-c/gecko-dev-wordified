@@ -268,6 +268,7 @@ f
 )
 {
 return
+async
 function
 (
 )
@@ -405,6 +406,7 @@ _token
 .
 endpoint
 ;
+await
 Service
 .
 engineManager
@@ -624,10 +626,13 @@ works
 .
 do_check_true
 (
+(
+await
 Service
 .
 login
 (
+)
 )
 )
 ;

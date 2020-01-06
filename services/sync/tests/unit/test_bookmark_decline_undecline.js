@@ -204,6 +204,14 @@ js
 "
 )
 ;
+add_task
+(
+async
+function
+setup
+(
+)
+{
 initTestLogging
 (
 "
@@ -211,6 +219,7 @@ Trace
 "
 )
 ;
+await
 Service
 .
 engineManager
@@ -218,6 +227,9 @@ engineManager
 register
 (
 BookmarksEngine
+)
+;
+}
 )
 ;
 /
@@ -388,6 +400,7 @@ yet
 "
 )
 ;
+await
 Service
 .
 sync
@@ -416,6 +429,7 @@ enabled
 =
 false
 ;
+await
 Service
 .
 sync
@@ -448,6 +462,7 @@ enabled
 =
 true
 ;
+await
 Service
 .
 sync

@@ -157,6 +157,7 @@ id
 ]
 ;
 }
+async
 sendCommand
 (
 command
@@ -198,6 +199,7 @@ clientID
 cc
 ;
 }
+async
 getClientCommands
 (
 clientID
@@ -575,6 +577,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -769,6 +772,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -826,6 +830,7 @@ command
 is
 removed
 .
+await
 requestor
 .
 continueRepairs
@@ -858,6 +863,7 @@ _sentCommands
 {
 }
 ;
+await
 requestor
 .
 continueRepairs
@@ -913,6 +919,7 @@ _sentCommands
 {
 }
 ;
+await
 requestor
 .
 continueRepairs
@@ -1161,6 +1168,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -1228,6 +1236,7 @@ _now
 >
 theFuture
 ;
+await
 requestor
 .
 continueRepairs
@@ -1473,6 +1482,7 @@ orphans
 ]
 }
 }
+await
 requestor
 .
 startRepairs
@@ -1658,6 +1668,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -1728,6 +1739,7 @@ a
 "
 ]
 ;
+await
 requestor
 .
 continueRepairs
@@ -1819,6 +1831,7 @@ c
 "
 ]
 }
+await
 requestor
 .
 continueRepairs
@@ -2142,6 +2155,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -2237,6 +2251,7 @@ b
 "
 ]
 }
+await
 requestor
 .
 continueRepairs
@@ -2321,6 +2336,7 @@ c
 "
 ]
 }
+await
 requestor
 .
 continueRepairs
@@ -2828,12 +2844,15 @@ makeGUID
 ok
 (
 !
+(
+await
 requestor
 .
 startRepairs
 (
 validationInfo
 flowID
+)
 )
 "
 Shouldn
@@ -2992,6 +3011,7 @@ makeGUID
 (
 )
 ;
+await
 requestor
 .
 startRepairs
@@ -3138,6 +3158,7 @@ repairRequest
 }
 ]
 ;
+await
 requestor
 .
 continueRepairs

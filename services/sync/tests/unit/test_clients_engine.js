@@ -185,12 +185,8 @@ LESS_THAN_CLIENTS_TTL_REFRESH
 /
 1
 day
-var
+let
 engine
-=
-Service
-.
-clientsEngine
 ;
 /
 *
@@ -512,6 +508,24 @@ IDs
 )
 ;
 }
+add_task
+(
+async
+function
+setup
+(
+)
+{
+engine
+=
+Service
+.
+clientsEngine
+;
+}
+)
+;
+async
 function
 cleanup
 (
@@ -535,6 +549,7 @@ clearChangedIDs
 (
 )
 ;
+await
 engine
 .
 _resetClient
@@ -836,6 +851,7 @@ foo
 server
 )
 ;
+await
 Service
 .
 login
@@ -874,6 +890,7 @@ check_clients_count
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -974,6 +991,7 @@ makeGUID
 (
 )
 ;
+await
 engine
 .
 resetClient
@@ -1045,6 +1063,7 @@ Sync
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -1127,6 +1146,7 @@ makeGUID
 (
 )
 ;
+await
 engine
 .
 resetClient
@@ -1155,6 +1175,7 @@ check_clients_count
 1
 )
 ;
+await
 engine
 .
 _sync
@@ -1260,6 +1281,7 @@ makeGUID
 (
 )
 ;
+await
 engine
 .
 resetClient
@@ -1295,6 +1317,7 @@ upload
 a
 record
 .
+await
 engine
 .
 _sync
@@ -1394,6 +1417,7 @@ makeGUID
 (
 )
 ;
+await
 engine
 .
 resetClient
@@ -1434,6 +1458,7 @@ length
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -1483,6 +1508,7 @@ newKey
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -1576,6 +1602,7 @@ now
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -1820,6 +1847,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -1876,17 +1904,23 @@ sync
 "
 )
 ;
+let
+ids
+=
+await
+store
+.
+getAllIDs
+(
+)
+;
 deepEqual
 (
 Object
 .
 keys
 (
-store
-.
-getAllIDs
-(
-)
+ids
 )
 .
 sort
@@ -1966,6 +2000,7 @@ lastModified
 =
 now
 ;
+await
 engine
 .
 _sync
@@ -1982,17 +2017,22 @@ updated
 "
 )
 ;
+ids
+=
+await
+store
+.
+getAllIDs
+(
+)
+;
 deepEqual
 (
 Object
 .
 keys
 (
-store
-.
-getAllIDs
-(
-)
+ids
 )
 .
 sort
@@ -2023,6 +2063,7 @@ sync
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -2167,6 +2208,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -2239,6 +2281,7 @@ payload
 =
 undefined
 ;
+await
 engine
 .
 _sync
@@ -2321,6 +2364,7 @@ engine
 .
 lastRecordUpload
 ;
+await
 engine
 .
 _sync
@@ -2348,6 +2392,7 @@ yesterday
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -2580,6 +2625,7 @@ tracking
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -2746,6 +2792,7 @@ record
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -2838,6 +2885,7 @@ activeID
 0
 )
 ;
+await
 engine
 .
 _uploadOutgoing
@@ -2934,6 +2982,7 @@ undefined
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -3015,6 +3064,7 @@ clients
 remoteId
 )
 ;
+await
 store
 .
 create
@@ -3022,6 +3072,7 @@ create
 rec
 )
 ;
+await
 store
 .
 createRecord
@@ -3061,6 +3112,7 @@ flowID
 flowy
 "
 }
+await
 engine
 .
 _sendCommandToClient
@@ -3084,10 +3136,13 @@ remoteId
 let
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -3159,6 +3214,7 @@ remoteId
 undefined
 )
 ;
+await
 cleanup
 (
 )
@@ -3336,6 +3392,7 @@ clients
 remoteId
 )
 ;
+await
 store
 .
 create
@@ -3343,6 +3400,7 @@ create
 rec
 )
 ;
+await
 store
 .
 createRecord
@@ -3353,6 +3411,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -3381,10 +3440,13 @@ undefined
 let
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -3504,6 +3566,7 @@ undefined
 }
 }
 }
+await
 cleanup
 (
 )
@@ -3561,6 +3624,7 @@ clients
 remoteId
 )
 ;
+await
 store
 .
 create
@@ -3568,6 +3632,7 @@ create
 rec
 )
 ;
+await
 store
 .
 createRecord
@@ -3591,6 +3656,7 @@ args
 [
 ]
 ;
+await
 engine
 .
 sendCommand
@@ -3600,6 +3666,7 @@ args
 remoteId
 )
 ;
+await
 engine
 .
 sendCommand
@@ -3612,10 +3679,13 @@ remoteId
 let
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -3639,6 +3709,7 @@ length
 "
 )
 ;
+await
 engine
 .
 _saveCommands
@@ -3653,6 +3724,7 @@ action
 resetEngine
 "
 ;
+await
 engine
 .
 sendCommand
@@ -3670,6 +3742,7 @@ foo
 remoteId
 )
 ;
+await
 engine
 .
 sendCommand
@@ -3702,6 +3775,7 @@ argument
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -3721,10 +3795,13 @@ remoteId
 ;
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -3738,6 +3815,7 @@ length
 2
 )
 ;
+await
 cleanup
 (
 )
@@ -3779,6 +3857,7 @@ error
 ;
 try
 {
+await
 engine
 .
 sendCommand
@@ -3821,6 +3900,7 @@ ID
 0
 )
 ;
+await
 cleanup
 (
 )
@@ -3938,16 +4018,20 @@ false
 ok
 (
 !
+(
+await
 engine
 .
 processIncomingCommands
 (
 )
 )
+)
 ;
 await
 logoutPromise
 ;
+await
 cleanup
 (
 )
@@ -4284,6 +4368,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -4341,17 +4426,23 @@ sync
 "
 )
 ;
+let
+ids
+=
+await
+store
+.
+getAllIDs
+(
+)
+;
 deepEqual
 (
 Object
 .
 keys
 (
-store
-.
-getAllIDs
-(
-)
+ids
 )
 .
 sort
@@ -4381,6 +4472,8 @@ getAllIDs
 ;
 ok
 (
+(
+await
 engine
 .
 _store
@@ -4388,6 +4481,7 @@ _store
 itemExists
 (
 dupeID
+)
 )
 "
 Dupe
@@ -4631,6 +4725,7 @@ subject
 }
 )
 ;
+await
 engine
 .
 _sync
@@ -4707,6 +4802,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -4718,6 +4814,7 @@ logout
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -4963,9 +5060,19 @@ sync
 "
 )
 ;
+await
 engine
 .
 _sync
+(
+)
+;
+ids
+=
+await
+store
+.
+getAllIDs
 (
 )
 ;
@@ -4975,11 +5082,7 @@ Object
 .
 keys
 (
-store
-.
-getAllIDs
-(
-)
+ids
 )
 .
 sort
@@ -5148,6 +5251,7 @@ remoteClients
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -5199,6 +5303,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 _store
@@ -5352,6 +5457,7 @@ Syncing
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -5412,6 +5518,7 @@ client
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -5426,10 +5533,13 @@ wipeAll
 let
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -5443,6 +5553,7 @@ length
 1
 )
 ;
+await
 engine
 .
 _sync
@@ -5533,6 +5644,7 @@ client
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -5590,6 +5702,7 @@ length
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -5660,6 +5773,7 @@ stale
 "
 )
 ;
+await
 engine
 .
 _store
@@ -5914,6 +6028,7 @@ Syncing
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -5958,6 +6073,7 @@ fxAccounts
 =
 fxAccounts
 ;
+await
 cleanup
 (
 )
@@ -6065,6 +6181,7 @@ name
 remote
 "
 ;
+await
 store
 .
 create
@@ -6072,6 +6189,7 @@ create
 rec
 )
 ;
+await
 store
 .
 createRecord
@@ -6121,6 +6239,7 @@ the
 Page
 "
 ;
+await
 engine
 .
 sendURIToClientForDisplay
@@ -6149,10 +6268,13 @@ undefined
 let
 clientCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 remoteId
@@ -6278,6 +6400,7 @@ error
 ;
 try
 {
+await
 engine
 .
 sendURIToClientForDisplay
@@ -6316,6 +6439,7 @@ ID
 0
 )
 ;
+await
 cleanup
 (
 )
@@ -6527,10 +6651,13 @@ handler
 ;
 ok
 (
+(
+await
 engine
 .
 processIncomingCommands
 (
+)
 )
 )
 ;
@@ -6582,6 +6709,7 @@ data
 null
 )
 ;
+await
 cleanup
 (
 )
@@ -6630,6 +6758,7 @@ SUPPORTED_PROTOCOL_VERSIONS
 let
 local
 =
+await
 engine
 .
 _store
@@ -6790,6 +6919,7 @@ Bug
 Bug
 1100723
 .
+await
 cleanup
 (
 )
@@ -7064,6 +7194,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -7081,6 +7212,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -7092,6 +7224,7 @@ logout
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -7251,6 +7384,7 @@ client
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -7429,6 +7563,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -7445,6 +7580,7 @@ client
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -7473,6 +7609,7 @@ Anonymous
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -7567,6 +7704,7 @@ client
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -7596,6 +7734,7 @@ bar
 desktopID
 )
 ;
+await
 engine
 .
 _sync
@@ -7691,6 +7830,7 @@ client
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -7963,6 +8103,7 @@ lastRecordUpload
 0
 )
 ;
+await
 engine
 .
 _sync
@@ -7979,6 +8120,7 @@ client
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -8023,6 +8165,7 @@ prototype
 .
 _uploadOutgoing
 =
+async
 (
 )
 =
@@ -8038,6 +8181,7 @@ deviceBID
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -8225,6 +8369,14 @@ ClientEngine
 Service
 )
 ;
+await
+engine
+.
+initialize
+(
+)
+;
+await
 engine
 .
 _sync
@@ -8301,6 +8453,7 @@ command
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -8703,6 +8856,7 @@ prototype
 .
 _uploadOutgoing
 =
+async
 (
 )
 =
@@ -8740,12 +8894,14 @@ uris
 length
 }
 ;
+await
 engine
 .
 _sync
 (
 )
 ;
+await
 engine
 .
 processIncomingCommands
@@ -9066,6 +9222,13 @@ ClientEngine
 Service
 )
 ;
+await
+engine
+.
+initialize
+(
+)
+;
 commandsProcessed
 =
 0
@@ -9087,12 +9250,14 @@ uris
 length
 }
 ;
+await
 engine
 .
 _sync
 (
 )
 ;
+await
 engine
 .
 processIncomingCommands
@@ -9155,6 +9320,7 @@ empty
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -9177,6 +9343,13 @@ new
 ClientEngine
 (
 Service
+)
+;
+await
+engine
+.
+initialize
+(
 )
 ;
 engine
@@ -9412,6 +9585,7 @@ downloaded
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -9465,6 +9639,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -9476,6 +9651,7 @@ logout
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -9567,6 +9743,7 @@ client
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -9675,6 +9852,7 @@ collection
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -9819,6 +9997,7 @@ again
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -9868,10 +10047,13 @@ URI
 ;
 ok
 (
+(
+await
 engine
 .
 processIncomingCommands
 (
+)
 )
 "
 Should
@@ -9884,10 +10066,13 @@ commands
 const
 clearedCommands
 =
+(
+await
 engine
 .
 _readCommands
 (
+)
 )
 [
 engine
@@ -9953,6 +10138,7 @@ server
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -10014,6 +10200,7 @@ commands
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -10065,6 +10252,7 @@ record
 "
 )
 ;
+await
 engine
 .
 _store
@@ -10290,6 +10478,7 @@ written
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -10321,6 +10510,7 @@ record
 "
 )
 ;
+await
 engine
 .
 sendCommand
@@ -10415,6 +10605,7 @@ Syncing
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -10442,6 +10633,7 @@ restore
 }
 finally
 {
+await
 cleanup
 (
 )
@@ -10728,12 +10920,14 @@ now
 )
 )
 ;
+await
 engine
 .
 _sync
 (
 )
 ;
+await
 engine
 .
 sendCommand
@@ -10745,6 +10939,7 @@ wipeAll
 ]
 )
 ;
+await
 engine
 .
 _sync
@@ -10871,6 +11066,7 @@ makeGUID
 (
 )
 ;
+await
 engine
 .
 sendCommand
@@ -10886,6 +11082,7 @@ flowID
 }
 )
 ;
+await
 engine
 .
 _sync
@@ -10989,6 +11186,7 @@ length
 =
 0
 ;
+await
 engine
 .
 sendCommand
@@ -11008,6 +11206,7 @@ testing
 }
 )
 ;
+await
 engine
 .
 _sync
@@ -11129,6 +11328,7 @@ length
 =
 0
 ;
+await
 engine
 .
 sendCommand
@@ -11149,6 +11349,7 @@ flowID
 }
 )
 ;
+await
 engine
 .
 _sync
@@ -11510,6 +11711,7 @@ now
 )
 )
 ;
+await
 engine
 .
 _sync
@@ -11524,6 +11726,7 @@ deduping
 works
 before
 syncing
+await
 engine
 .
 sendURIToClientForDisplay
@@ -11543,6 +11746,7 @@ Example
 "
 )
 ;
+await
 engine
 .
 sendURIToClientForDisplay
@@ -11570,6 +11774,7 @@ length
 1
 )
 ;
+await
 engine
 .
 _sync
@@ -11582,6 +11787,7 @@ And
 after
 syncing
 .
+await
 engine
 .
 sendURIToClientForDisplay
@@ -11621,6 +11827,7 @@ commands
 to
 different
 clients
+await
 engine
 .
 sendURIToClientForDisplay
@@ -11805,6 +12012,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -11830,6 +12038,7 @@ clients
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -12244,6 +12453,7 @@ _knownStaleFxADeviceIds
 =
 null
 ;
+await
 engine
 .
 _processIncoming
@@ -12271,6 +12481,7 @@ reset
 (
 )
 ;
+await
 engine
 .
 _processIncoming

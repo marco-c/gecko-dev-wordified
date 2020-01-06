@@ -268,6 +268,7 @@ length
 )
 ;
 }
+async
 sync_httpd_setup
 (
 )
@@ -917,9 +918,7 @@ tests
 fill
 this
 in
-_sync
-:
-function
+async
 _sync
 (
 )

@@ -157,6 +157,18 @@ globals
 extensionStorageSync
 *
 /
+let
+engine
+;
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
 Service
 .
 engineManager
@@ -166,7 +178,6 @@ register
 ExtensionStorageEngine
 )
 ;
-const
 engine
 =
 Service
@@ -195,6 +206,9 @@ use
 FxAccounts
 loadWebExtensionTestFunctions
 (
+)
+;
+}
 )
 ;
 add_task

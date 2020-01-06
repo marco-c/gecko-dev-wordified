@@ -411,6 +411,7 @@ server
 let
 engineInfo
 =
+await
 registerRotaryEngine
 (
 )
@@ -469,8 +470,9 @@ run_next_test
 )
 ;
 }
-add_test
+add_task
 (
+async
 function
 test_tracker_score_updated
 (
@@ -486,6 +488,7 @@ engine
 tracker
 }
 =
+await
 registerRotaryEngine
 (
 )
@@ -598,10 +601,6 @@ unregister
 engine
 )
 ;
-run_next_test
-(
-)
-;
 }
 }
 )
@@ -633,6 +632,7 @@ setUp
 server
 )
 ;
+await
 Service
 .
 login
@@ -676,6 +676,7 @@ finish
 "
 )
 ;
+await
 Service
 .
 startOver
@@ -796,6 +797,7 @@ setUp
 server
 )
 ;
+await
 Service
 .
 login
@@ -857,6 +859,7 @@ completed
 "
 )
 ;
+await
 Service
 .
 startOver
@@ -1078,7 +1081,9 @@ timer
 )
 ;
 await
-promiseNextTick
+Async
+.
+promiseYield
 (
 )
 ;
@@ -1108,6 +1113,7 @@ login
 LOGIN_FAILED_LOGIN_REJECTED
 )
 ;
+await
 Service
 .
 startOver
