@@ -1785,6 +1785,10 @@ extract_dirs
 =
 [
 "
+mach
+"
+                          
+"
 bin
 /
 *
@@ -1810,8 +1814,6 @@ marionette
                           
 "
 tools
-/
-wptserve
 /
 *
 "
