@@ -837,9 +837,6 @@ MutexRef
 )
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 prioritizedRef
 -
 >
@@ -853,8 +850,6 @@ NextIdleDeadlineRef
 )
 )
 ;
-#
-endif
 nsresult
 rv
 =
@@ -2667,7 +2662,7 @@ IsServiceAvailable
 )
 ;
 bool
-enable
+supported
 =
 Preferences
 :
@@ -2675,9 +2670,9 @@ Preferences
 GetBool
 (
 "
-prioritized_input_events
+input_event_queue
 .
-enabled
+supported
 "
 false
 )
@@ -2685,7 +2680,7 @@ false
 if
 (
 !
-enable
+supported
 )
 {
 return

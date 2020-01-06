@@ -182,7 +182,7 @@ Preferences
 GetUint
 (
 "
-prioritized_input_events
+input_event_queue
 .
 default_duration_per_event
 "
@@ -209,7 +209,7 @@ Preferences
 GetUint
 (
 "
-prioritized_input_events
+input_event_queue
 .
 count_for_prediction
 "
@@ -236,7 +236,7 @@ Preferences
 GetUint
 (
 "
-prioritized_input_events
+input_event_queue
 .
 duration
 .
@@ -254,7 +254,7 @@ Preferences
 GetUint
 (
 "
-prioritized_input_events
+input_event_queue
 .
 duration
 .
