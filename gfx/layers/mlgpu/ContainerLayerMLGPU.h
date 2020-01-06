@@ -211,7 +211,7 @@ gfx
 :
 :
 IntRect
-&
+*
 aRect
 )
 override
