@@ -486,6 +486,9 @@ mLastUpdateDisplayInfo
 TimeStamp
 mLastFrameStart
 ;
+bool
+mFrameStarted
+;
 }
 ;
 class
