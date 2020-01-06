@@ -3900,6 +3900,13 @@ value
 "
 string
 "
+&
+&
+'
+binary
+'
+in
+value
 )
 {
 /
