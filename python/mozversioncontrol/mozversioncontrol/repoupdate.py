@@ -176,7 +176,7 @@ s
 %
 (
 host
-            
+                     
 fingerprint
 )
 ]
