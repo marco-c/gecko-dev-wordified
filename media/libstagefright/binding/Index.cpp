@@ -1288,7 +1288,7 @@ for
 the
 track
 .
-nsTArray
+FallibleTArray
 <
 SampleToGroupEntry
 >
@@ -1559,7 +1559,7 @@ return
 nullptr
 ;
 }
-nsTArray
+FallibleTArray
 <
 CencSampleEncryptionInfoEntry
 >
