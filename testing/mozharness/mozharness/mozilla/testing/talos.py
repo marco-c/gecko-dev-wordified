@@ -5495,11 +5495,13 @@ mitmproxy
 self
 .
 config
-[
+.
+get
+(
 '
 python3_manifest
 '
-]
+)
 [
 self
 .
@@ -5550,11 +5552,13 @@ cache
 self
 .
 config
-[
+.
+get
+(
 '
 tooltool_cache
 '
-]
+)
         
 )
         
