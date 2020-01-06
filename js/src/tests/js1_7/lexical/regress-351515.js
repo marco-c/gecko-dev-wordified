@@ -364,7 +364,8 @@ try
 expect
 =
 "
-SyntaxError
+No
+Error
 "
 ;
 eval
@@ -418,7 +419,8 @@ try
 expect
 =
 "
-SyntaxError
+No
+Error
 "
 ;
 eval
@@ -549,7 +551,8 @@ try
 expect
 =
 "
-SyntaxError
+No
+Error
 "
 ;
 eval
@@ -620,7 +623,8 @@ try
 expect
 =
 "
-SyntaxError
+No
+Error
 "
 ;
 eval

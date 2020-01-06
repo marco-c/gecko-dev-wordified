@@ -7,7 +7,7 @@ test
 |
 error
 :
-SyntaxError
+ReferenceError
 try
 {
 eval
