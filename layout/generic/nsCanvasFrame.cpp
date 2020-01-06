@@ -792,6 +792,11 @@ uint32_t
 aFilter
 )
 {
+if
+(
+mCustomContentContainer
+)
+{
 aElements
 .
 AppendElement
@@ -799,6 +804,7 @@ AppendElement
 mCustomContentContainer
 )
 ;
+}
 }
 void
 nsCanvasFrame
