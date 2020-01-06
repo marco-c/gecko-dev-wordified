@@ -8502,12 +8502,14 @@ parent_rule_node
 parent_data
 .
 styles
+.
+primary
 (
 )
 .
-primary
-.
 rules
+(
+)
 .
 clone
 (
