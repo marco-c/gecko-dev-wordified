@@ -484,7 +484,6 @@ nsPresContext
 aPresContext
 )
 ;
-const
 mozilla
 :
 :

@@ -5446,7 +5446,6 @@ aData
 )
 ;
 }
-const
 ServoStyleSet
 *
 nsXBLBinding

@@ -883,7 +883,6 @@ void
 aData
 )
 ;
-const
 mozilla
 :
 :
