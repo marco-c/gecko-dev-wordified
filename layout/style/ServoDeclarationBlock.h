@@ -215,6 +215,12 @@ URLExtraData
 aExtraData
 nsCompatibility
 aMode
+css
+:
+:
+Loader
+*
+aLoader
 )
 ;
 RawServoDeclarationBlock

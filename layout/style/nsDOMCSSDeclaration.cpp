@@ -720,6 +720,9 @@ mUrlExtraData
 servoEnv
 .
 mCompatMode
+servoEnv
+.
+mLoader
 )
 ;
 }
@@ -1493,6 +1496,7 @@ return
 {
 nullptr
 eCompatibility_FullStandards
+nullptr
 }
 ;
 }
@@ -1529,6 +1533,12 @@ document
 GetCompatibilityMode
 (
 )
+document
+-
+>
+CSSLoader
+(
+)
 }
 ;
 }
@@ -1546,6 +1556,7 @@ URLData
 (
 )
 eCompatibility_FullStandards
+nullptr
 }
 ;
 }
@@ -1999,6 +2010,9 @@ Default
 env
 .
 mCompatMode
+env
+.
+mLoader
 )
 ;
 }
@@ -2141,6 +2155,9 @@ Default
 env
 .
 mCompatMode
+env
+.
+mLoader
 )
 ;
 }
