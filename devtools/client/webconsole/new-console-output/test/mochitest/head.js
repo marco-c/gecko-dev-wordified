@@ -481,7 +481,7 @@ resolving
 once
 they
 are
-receieved
+received
 .
 *
 *
@@ -791,7 +791,7 @@ output
 if
 the
 condition
-failes
+fails
 .
 *
 param
@@ -1127,8 +1127,8 @@ return
 promise
 *
 /
+async
 function
-*
 openContextMenu
 (
 hud
@@ -1158,7 +1158,7 @@ synthesizeContextMenuEvent
 element
 )
 ;
-yield
+await
 onConsoleMenuOpened
 ;
 return
