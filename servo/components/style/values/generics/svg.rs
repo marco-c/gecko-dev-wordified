@@ -324,6 +324,13 @@ UrlPaintServer
 /
 /
 none
+#
+[
+animation
+(
+error
+)
+]
 None
 /
 /
