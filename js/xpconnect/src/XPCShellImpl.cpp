@@ -8219,17 +8219,6 @@ setSharedMemoryAndAtomicsEnabled
 true
 )
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 JS
 :
 :

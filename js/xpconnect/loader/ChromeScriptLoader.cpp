@@ -355,11 +355,6 @@ mCharset
 {
 mOptions
 .
-setVersion
-(
-JSVERSION_DEFAULT
-)
-.
 setNoScriptRval
 (
 !

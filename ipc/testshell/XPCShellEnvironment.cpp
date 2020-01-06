@@ -2619,17 +2619,6 @@ setSystemZone
 (
 )
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 if
 (
 xpc

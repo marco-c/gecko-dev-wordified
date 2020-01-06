@@ -9302,7 +9302,6 @@ CompileOptions
 options
 (
 cx
-JSVERSION_DEFAULT
 )
 ;
 options
@@ -9666,17 +9665,6 @@ creationOptions
 .
 setSystemZone
 (
-)
-;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
 )
 ;
 if

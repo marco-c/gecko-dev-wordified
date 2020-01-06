@@ -618,17 +618,6 @@ setPreserveJitCode
 preserveJitCode
 )
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 return
 JS_NewGlobalObject
 (

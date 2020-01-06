@@ -6512,7 +6512,6 @@ CompileOptions
 options
 (
 cx
-JSVERSION_DEFAULT
 )
 ;
 options

@@ -17035,14 +17035,6 @@ get
 )
 aLineNo
 )
-.
-setVersion
-(
-JSVersion
-(
-mLangVersion
-)
-)
 ;
 /
 /

@@ -1370,17 +1370,6 @@ JS
 CompartmentOptions
 options
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 JS
 :
 :

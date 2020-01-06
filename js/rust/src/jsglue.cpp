@@ -3430,14 +3430,6 @@ aFile
 aLine
 )
 ;
-opts
--
->
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 return
 opts
 ;

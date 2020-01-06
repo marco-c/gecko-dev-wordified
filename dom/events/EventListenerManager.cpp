@@ -6297,11 +6297,6 @@ get
 0
 )
 .
-setVersion
-(
-JSVERSION_DEFAULT
-)
-.
 setElement
 (
 &
