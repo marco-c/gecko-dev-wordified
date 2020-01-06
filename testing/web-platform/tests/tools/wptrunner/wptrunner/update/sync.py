@@ -1240,9 +1240,10 @@ state
 :
         
 if
+not
 state
 .
-no_patch
+patch
 :
             
 return
