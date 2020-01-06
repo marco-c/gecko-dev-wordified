@@ -4226,10 +4226,7 @@ video
 frame
 )
 .
-RefPtr
-<
 MediaChannelStatistics
->
 mPlaybackStatistics
 ;
 /

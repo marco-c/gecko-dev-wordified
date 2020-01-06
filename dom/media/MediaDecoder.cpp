@@ -2024,13 +2024,6 @@ GetVideoFrameContainer
 (
 )
 )
-mPlaybackStatistics
-(
-new
-MediaChannelStatistics
-(
-)
-)
 mPinnedForSeek
 (
 false
@@ -2878,8 +2871,7 @@ MediaEventType
 PlaybackStarted
 :
 mPlaybackStatistics
--
->
+.
 Start
 (
 )
@@ -2893,8 +2885,7 @@ MediaEventType
 PlaybackStopped
 :
 mPlaybackStatistics
--
->
+.
 Stop
 (
 )
@@ -5388,8 +5379,7 @@ false
 mPlaybackBytesPerSecond
 =
 mPlaybackStatistics
--
->
+.
 GetRateAtLastStop
 (
 &
@@ -5998,8 +5988,7 @@ mDecoderPosition
 )
 {
 mPlaybackStatistics
--
->
+.
 AddBytes
 (
 aBytes
