@@ -418,7 +418,7 @@ getStr
 "
 layout
 .
-displayNumbersOnLines
+displayNumbersOnLines2
 "
 )
 )
