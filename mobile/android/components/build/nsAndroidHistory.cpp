@@ -357,7 +357,7 @@ rv
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 uri
 )
@@ -488,7 +488,7 @@ rv
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 uri
 )
@@ -1157,7 +1157,7 @@ void
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 spec
 )
@@ -1626,7 +1626,7 @@ rv
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 uri
 )
@@ -1729,7 +1729,7 @@ void
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 spec
 )
