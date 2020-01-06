@@ -53,10 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
 import
 logging
 import
@@ -74,7 +70,6 @@ distutils
 import
 dir_util
 from
-.
 devicemanager
 import
 DeviceManager
@@ -85,8 +80,6 @@ import
 ProcessHandler
 import
 mozfile
-from
-.
 import
 version_codes
 class

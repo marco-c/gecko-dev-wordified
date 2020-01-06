@@ -61,11 +61,6 @@ preferences
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 json
 import
@@ -1479,9 +1474,7 @@ SyntaxError
 :
                 
 print
-(
 line
-)
                 
 raise
         
@@ -1665,14 +1658,12 @@ _prefs
 :
             
 print
-(
+>
+>
+f
 pref_string
 %
 _pref
-file
-=
-f
-)
         
 #
 close

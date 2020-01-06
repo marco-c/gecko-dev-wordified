@@ -18,10 +18,6 @@ moznetwork
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 mock
 import

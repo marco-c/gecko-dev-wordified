@@ -18,11 +18,6 @@ profiles
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 mozprofile
 import
@@ -223,12 +218,10 @@ path
 )
         
 print
-(
 profile
 .
 summary
 (
-)
 )
         
 if
@@ -236,13 +229,11 @@ args
 :
             
 print
-(
 '
 -
 '
 *
 4
-)
 if
 __name__
 =
