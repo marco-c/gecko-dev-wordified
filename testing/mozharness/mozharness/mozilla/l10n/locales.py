@@ -1618,14 +1618,17 @@ abs_mozilla_dir
 ]
                                                            
 '
+third_party
+'
+'
 python
 '
+                                                           
 '
 compare
 -
 locales
 '
-                                                           
 '
 compare_locales
 '
