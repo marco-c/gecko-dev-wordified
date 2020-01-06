@@ -3291,8 +3291,6 @@ named
 curve
 uint32_t
 curve
-=
-0
 ;
 EXPECT_TRUE
 (
