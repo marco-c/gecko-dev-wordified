@@ -1172,7 +1172,6 @@ process
 .
 *
 /
-static
 void
 PostRestyleEventForAnimations
 (
