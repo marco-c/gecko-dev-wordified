@@ -5808,7 +5808,7 @@ algorithm
 .
 *
 /
-nsresult
+MediaResult
 LoadResource
 (
 )
