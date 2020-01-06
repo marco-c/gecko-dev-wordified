@@ -240,7 +240,7 @@ viewDoc
 =
 view
 .
-chromeDoc
+document
 ;
 yield
 testBodyFonts
