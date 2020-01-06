@@ -6904,11 +6904,6 @@ document
 getElementById
 (
 aPrefix
-+
-"
--
-data
-"
 )
 ;
 removeAllChildNodes
@@ -7111,11 +7106,6 @@ document
 getElementById
 (
 aPrefix
-+
-"
--
-data
-"
 )
 ;
 let
@@ -7461,11 +7451,6 @@ getElementById
 this
 .
 prefix
-+
-"
--
-data
-"
 )
 ;
 removeAllChildNodes
