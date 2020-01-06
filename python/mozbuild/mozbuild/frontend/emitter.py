@@ -9849,20 +9849,9 @@ info
         
 path
 =
-mozpath
-.
-normpath
-(
-mozpath
-.
-join
-(
-context
-.
-srcdir
 manifest_path
-)
-)
+.
+full_path
         
 manifest_dir
 =
@@ -10768,21 +10757,9 @@ manifest
         
 manifest_full_path
 =
-mozpath
-.
-normpath
-(
-mozpath
-.
-join
-(
-            
-context
-.
-srcdir
 manifest_path
-)
-)
+.
+full_path
         
 manifest_reldir
 =
