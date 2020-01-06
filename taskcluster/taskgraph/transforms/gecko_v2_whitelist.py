@@ -708,6 +708,14 @@ debug
 '
 win32
 -
+devedition
+-
+opt
+'
+    
+'
+win32
+-
 nightly
 -
 repackage
@@ -793,6 +801,14 @@ tidy
 win64
 -
 debug
+'
+    
+'
+win64
+-
+devedition
+-
+opt
 '
     
 '
