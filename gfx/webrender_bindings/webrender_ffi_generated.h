@@ -368,7 +368,7 @@ A8
 RGB8
 =
 2
-RGBA8
+BGRA8
 =
 3
 RGBAF32
@@ -942,9 +942,6 @@ height
 struct
 WrBuiltDisplayListDescriptor
 {
-size_t
-display_list_items_size
-;
 uint64_t
 builder_start_time
 ;
@@ -964,14 +961,6 @@ aOther
 const
 {
 return
-display_list_items_size
-=
-=
-aOther
-.
-display_list_items_size
-&
-&
 builder_start_time
 =
 =
