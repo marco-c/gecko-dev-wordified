@@ -563,6 +563,13 @@ quota
 :
 QuotaObject
 ;
+const
+char
+*
+GetVFSName
+(
+)
+;
 namespace
 {
 int
@@ -3600,7 +3607,9 @@ memory
 &
 mDBConn
 mFlags
-nullptr
+GetVFSName
+(
+)
 )
 ;
 if
@@ -3771,7 +3780,9 @@ mIgnoreLockingMode
 ?
 sIgnoreLockingVFS
 :
-nullptr
+GetVFSName
+(
+)
 ;
 int
 srv
@@ -3962,7 +3973,9 @@ get
 &
 mDBConn
 mFlags
-nullptr
+GetVFSName
+(
+)
 )
 ;
 if
