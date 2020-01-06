@@ -447,13 +447,10 @@ gecko
 )
 ]
 use
-std
+fnv
 :
 :
-collections
-:
-:
-HashMap
+FnvHashMap
 ;
 use
 style_traits
@@ -3414,7 +3411,7 @@ pub
 type
 AnimationValueMap
 =
-HashMap
+FnvHashMap
 <
 AnimatableLonghand
 AnimationValue

@@ -4779,7 +4779,7 @@ animation_values
 AnimationValueMap
 :
 :
-new
+default
 (
 )
 ;
