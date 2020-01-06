@@ -419,6 +419,11 @@ aSheetType
 int32_t
 FindSheetByURI
 (
+mozilla
+:
+:
+StyleBackendType
+aBackendType
 uint32_t
 aSheetType
 nsIURI
