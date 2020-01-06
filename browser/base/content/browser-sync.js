@@ -3646,7 +3646,7 @@ syncStrings
 GetStringFromName
 (
 "
-syncing2
+syncingtabs
 .
 label
 "
