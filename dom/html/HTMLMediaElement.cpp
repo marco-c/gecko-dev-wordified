@@ -6679,7 +6679,7 @@ If
 aElement
 has
 '
-loadingprincipal
+triggeringprincipal
 '
 attribute
 we
@@ -6719,7 +6719,7 @@ when
 aElement
 has
 '
-loadingprincipal
+triggeringprincipal
 '
 so
 if
@@ -6753,7 +6753,7 @@ setAttrs
 nsContentUtils
 :
 :
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 aElement
 aElement

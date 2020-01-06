@@ -5600,7 +5600,7 @@ result
 nsContentUtils
 :
 :
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 content
 aTriggeringPrincipal
@@ -5623,7 +5623,7 @@ node
 has
 specified
 '
-loadingprincipal
+triggeringprincipal
 '
 /
 /

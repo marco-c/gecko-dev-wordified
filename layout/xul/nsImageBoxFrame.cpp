@@ -1265,7 +1265,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-loadingPrincipal
+triggeringPrincipal
 ;
 uint64_t
 requestContextID
@@ -1280,7 +1280,7 @@ GetContentPolicyTypeForUIImageLoading
 mContent
 getter_AddRefs
 (
-loadingPrincipal
+triggeringPrincipal
 )
 contentPolicyType
 &
@@ -1336,7 +1336,7 @@ LoadImage
 uri
 mContent
 doc
-loadingPrincipal
+triggeringPrincipal
 requestContextID
 doc
 -

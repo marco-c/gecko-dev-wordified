@@ -273,7 +273,7 @@ get
 /
 /
 the
-loadingprincipal
+triggeringprincipal
 attribute
 on
 the
@@ -422,7 +422,7 @@ has
 the
 attribute
 '
-loadingprincipal
+triggeringprincipal
 '
 .
 let
@@ -464,7 +464,7 @@ preview
 getAttribute
 (
 "
-loadingprincipal
+triggeringprincipal
 "
 )
 ;

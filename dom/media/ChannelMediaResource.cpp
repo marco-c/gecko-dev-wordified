@@ -4900,7 +4900,7 @@ If
 element
 has
 '
-loadingprincipal
+triggeringprincipal
 '
 attribute
 we
@@ -4911,7 +4911,7 @@ value
 as
 /
 /
-loadingPrincipal
+triggeringPrincipal
 for
 the
 channel
@@ -4940,7 +4940,7 @@ when
 element
 has
 '
-loadingprincipal
+triggeringprincipal
 '
 so
 if
@@ -4966,7 +4966,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-loadingPrincipal
+triggeringPrincipal
 ;
 bool
 setAttrs
@@ -4974,12 +4974,12 @@ setAttrs
 nsContentUtils
 :
 :
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 element
 getter_AddRefs
 (
-loadingPrincipal
+triggeringPrincipal
 )
 )
 ;
@@ -4994,7 +4994,7 @@ mChannel
 )
 mURI
 element
-loadingPrincipal
+triggeringPrincipal
 securityFlags
 contentPolicyType
 loadGroup
@@ -5056,7 +5056,7 @@ loadInfo
 >
 SetOriginAttributes
 (
-loadingPrincipal
+triggeringPrincipal
 -
 >
 OriginAttributesRef
