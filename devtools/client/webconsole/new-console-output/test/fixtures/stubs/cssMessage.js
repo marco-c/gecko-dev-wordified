@@ -265,7 +265,7 @@ column
 \
 "
 :
-23
+2
 }
 \
 "
@@ -413,7 +413,7 @@ line
 column
 "
 :
-23
+2
 }
 "
 groupId
@@ -600,7 +600,7 @@ column
 \
 "
 :
-15
+2
 }
 \
 "
@@ -749,7 +749,7 @@ line
 column
 "
 :
-15
+2
 }
 "
 groupId
@@ -889,14 +889,6 @@ lineText
 "
 :
 "
-such
--
-unknown
--
-property
-:
-wow
-;
 "
 "
 lineNumber
@@ -907,7 +899,7 @@ lineNumber
 columnNumber
 "
 :
-23
+2
 "
 category
 "
@@ -1081,13 +1073,6 @@ lineText
 "
 :
 "
-padding
--
-top
-:
-invalid
-value
-;
 "
 "
 lineNumber
@@ -1098,7 +1083,7 @@ lineNumber
 columnNumber
 "
 :
-15
+2
 "
 category
 "
