@@ -118,6 +118,7 @@ constellation_msg
 Key
 KeyModifiers
 KeyState
+TraversalDirection
 }
 ;
 use
@@ -229,20 +230,6 @@ f32
 DevicePixel
 >
 )
-}
-#
-[
-derive
-(
-Clone
-)
-]
-pub
-enum
-WindowNavigateMsg
-{
-Forward
-Back
 }
 /
 /
@@ -604,7 +591,7 @@ backspace
 .
 Navigation
 (
-WindowNavigateMsg
+TraversalDirection
 )
 /
 /
