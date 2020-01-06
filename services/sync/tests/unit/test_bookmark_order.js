@@ -904,6 +904,14 @@ timestamp
 )
 ;
 }
+engine
+.
+lastModified
+=
+collection
+.
+timestamp
+;
 await
 sync_engine_and_validate_telem
 (
