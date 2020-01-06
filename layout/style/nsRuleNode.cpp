@@ -63277,7 +63277,7 @@ svg
 )
 }
 static
-already_AddRefed
+UniquePtr
 <
 StyleBasicShape
 >
@@ -63298,7 +63298,7 @@ RuleNodeCacheConditions
 aConditions
 )
 {
-RefPtr
+UniquePtr
 <
 StyleBasicShape
 >
@@ -63357,8 +63357,10 @@ value
 ;
 basicShape
 =
-new
+MakeUnique
+<
 StyleBasicShape
+>
 (
 StyleBasicShapeType
 :
@@ -63626,8 +63628,10 @@ value
 ;
 basicShape
 =
-new
+MakeUnique
+<
 StyleBasicShape
+>
 (
 type
 )
@@ -63918,8 +63922,10 @@ value
 ;
 basicShape
 =
-new
+MakeUnique
+<
 StyleBasicShape
+>
 (
 StyleBasicShapeType
 :
@@ -64345,10 +64351,6 @@ function
 }
 return
 basicShape
-.
-forget
-(
-)
 ;
 }
 static
@@ -64456,7 +64458,7 @@ StyleGeometryBox
 :
 NoBox
 ;
-RefPtr
+UniquePtr
 <
 StyleBasicShape
 >
@@ -64572,7 +64574,10 @@ aShapeSource
 >
 SetBasicShape
 (
+Move
+(
 basicShape
+)
 referenceBox
 )
 ;

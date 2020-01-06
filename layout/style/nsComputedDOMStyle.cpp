@@ -35708,8 +35708,11 @@ nsComputedDOMStyle
 CreatePrimitiveValueForBasicShape
 (
 const
+UniquePtr
+<
 StyleBasicShape
-*
+>
+&
 aStyleBasicShape
 )
 {
@@ -36230,8 +36233,11 @@ nsComputedDOMStyle
 CreatePrimitiveValueForShapeSource
 (
 const
+UniquePtr
+<
 StyleBasicShape
-*
+>
+&
 aStyleBasicShape
 ReferenceBox
 aReferenceBox
