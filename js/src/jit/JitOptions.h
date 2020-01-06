@@ -396,9 +396,6 @@ bool
 wasmTestMode
 ;
 bool
-wasmAlwaysCheckBounds
-;
-bool
 wasmFoldOffsets
 ;
 bool

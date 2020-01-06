@@ -10975,12 +10975,6 @@ mir
 compilingWasm
 (
 )
-&
-&
-!
-JitOptions
-.
-wasmAlwaysCheckBounds
 )
 {
 if
