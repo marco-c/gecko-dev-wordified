@@ -1179,6 +1179,11 @@ EEEE
 ;
 }
 else
+{
+pos
+=
+start
+;
 if
 (
 FindInReadable
@@ -1209,6 +1214,7 @@ EEE
 "
 )
 ;
+}
 }
 /
 /
