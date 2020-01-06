@@ -126,7 +126,7 @@ add
 ons
 "
 "
-addonsPhishingGroup
+permissionsGroup
 "
 )
 ;

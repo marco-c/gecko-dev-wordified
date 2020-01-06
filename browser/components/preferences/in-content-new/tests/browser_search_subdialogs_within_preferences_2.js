@@ -314,7 +314,7 @@ up
 windows
 "
 "
-miscGroup
+permissionsGroup
 "
 )
 ;
