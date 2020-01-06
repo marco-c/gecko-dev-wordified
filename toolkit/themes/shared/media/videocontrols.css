@@ -2362,6 +2362,17 @@ statusOverlay
 [
 fadeout
 ]
+.
+statusOverlay
+[
+error
+]
++
+.
+controlsOverlay
+>
+.
+controlsSpacerStack
 {
 opacity
 :
