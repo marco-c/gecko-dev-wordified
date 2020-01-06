@@ -1742,7 +1742,7 @@ AXHeading
 "
 USE_ROLE_STRING
 IA2_ROLE_HEADING
-eNameFromSubtreeIfReqRule
+eNameFromSubtreeRule
 )
 ROLE
 (
