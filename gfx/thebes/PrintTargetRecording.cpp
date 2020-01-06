@@ -207,9 +207,9 @@ class
 /
 creates
 a
-DrawTargetRecording
+DrawTargetWrapAndRecord
 using
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 and
 that
 /
@@ -422,7 +422,7 @@ DrawTarget
 to
 pass
 to
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 we
 /
 /
@@ -636,7 +636,7 @@ dt
 {
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 dt
@@ -677,7 +677,7 @@ DrawTarget
 PrintTargetRecording
 :
 :
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 DrawEventRecorder
 *
@@ -732,7 +732,7 @@ gfx
 Factory
 :
 :
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 aDrawTarget

@@ -793,7 +793,7 @@ DrawTarget
 >
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 mRefDT
