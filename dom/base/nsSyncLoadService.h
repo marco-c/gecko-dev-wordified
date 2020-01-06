@@ -351,14 +351,6 @@ to
 be
 read
 .
-The
-ownership
-of
-this
-stream
-is
-taken
-.
 *
 param
 aListener
@@ -393,10 +385,8 @@ static
 nsresult
 PushSyncStreamToListener
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aIn
 nsIStreamListener
 *

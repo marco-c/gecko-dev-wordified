@@ -389,11 +389,7 @@ getter_AddRefs
 (
 bufStream
 )
-inStream
-.
-forget
-(
-)
+aInStr
 1024
 )
 ;

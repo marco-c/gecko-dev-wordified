@@ -1369,10 +1369,8 @@ CreateChannel
 nsresult
 InitiateFetch
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aUploadStream
 int64_t
 aUploadLength

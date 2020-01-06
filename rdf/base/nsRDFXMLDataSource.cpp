@@ -2538,10 +2538,6 @@ getter_AddRefs
 bufStream
 )
 in
-.
-forget
-(
-)
 4096
 /
 *
