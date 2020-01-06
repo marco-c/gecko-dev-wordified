@@ -2738,8 +2738,6 @@ TraceBlackJS
 JSTracer
 *
 aTrc
-uint32_t
-aGCNumber
 bool
 aIsShutdownGC
 )
@@ -3197,7 +3195,6 @@ xulDoc
 TraceProtos
 (
 aTrc
-aGCNumber
 )
 ;
 }

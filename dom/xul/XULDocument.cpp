@@ -12726,8 +12726,6 @@ TraceProtos
 JSTracer
 *
 aTrc
-uint32_t
-aGCNumber
 )
 {
 uint32_t
@@ -12764,7 +12762,6 @@ i
 TraceProtos
 (
 aTrc
-aGCNumber
 )
 ;
 }
@@ -12779,7 +12776,6 @@ mCurrentPrototype
 TraceProtos
 (
 aTrc
-aGCNumber
 )
 ;
 }
