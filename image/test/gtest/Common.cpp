@@ -1277,9 +1277,8 @@ uint8_t
 *
 data
 =
-dataSurface
--
->
+mapping
+.
 GetData
 (
 )
@@ -1969,9 +1968,8 @@ uint8_t
 *
 data
 =
-dataSurface
--
->
+mapping
+.
 GetData
 (
 )
