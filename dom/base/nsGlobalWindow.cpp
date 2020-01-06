@@ -483,6 +483,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 WindowNamedPropertiesHandler
 .
 h

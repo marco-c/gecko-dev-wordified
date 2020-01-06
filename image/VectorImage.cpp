@@ -261,7 +261,7 @@ nsSVGRenderingObserver
 #
 include
 "
-nsWindowMemoryReporter
+nsWindowSizes
 .
 h
 "
