@@ -2765,11 +2765,9 @@ this
 sandbox
 ;
 }
-runSafe
+applySafe
 (
-.
-.
-.
+callback
 args
 )
 {
@@ -2795,11 +2793,9 @@ context
 return
 this
 .
-runSafeWithoutClone
+applySafeWithoutClone
 (
-.
-.
-.
+callback
 args
 )
 ;
