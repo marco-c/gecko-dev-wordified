@@ -4018,11 +4018,10 @@ view
 detail
 -
 view
->
 .
-box
+scrollbox
 -
-inherit
+innerbox
 {
 margin
 -
