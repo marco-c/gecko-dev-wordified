@@ -2605,10 +2605,6 @@ gfxContext
 *
 context
 ;
-TextDrawTarget
-*
-textDrawer
-;
 gfxPoint
 framePt
 ;
@@ -2718,10 +2714,6 @@ context
 (
 aContext
 )
-textDrawer
-(
-nullptr
-)
 {
 }
 bool
@@ -2812,10 +2804,6 @@ gfxContext
 *
 context
 ;
-TextDrawTarget
-*
-textDrawer
-;
 PropertyProvider
 *
 provider
@@ -2888,10 +2876,6 @@ aContext
 context
 (
 aContext
-)
-textDrawer
-(
-nullptr
 )
 {
 }
@@ -3201,9 +3185,6 @@ DrawEmphasisMarks
 gfxContext
 *
 aContext
-TextDrawTarget
-*
-aTextDrawer
 mozilla
 :
 :
@@ -4335,10 +4316,6 @@ gfxContext
 *
 context
 ;
-TextDrawTarget
-*
-textDrawer
-;
 nscolor
 foregroundColor
 =
@@ -4397,12 +4374,6 @@ context
 aParams
 .
 context
-)
-textDrawer
-(
-aParams
-.
-textDrawer
 )
 {
 }
@@ -4899,9 +4870,6 @@ DrawSelectionDecorations
 gfxContext
 *
 aContext
-TextDrawTarget
-*
-aTextDrawer
 const
 LayoutDeviceRect
 &

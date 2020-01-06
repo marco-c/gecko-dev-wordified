@@ -12661,14 +12661,6 @@ aParams
 context
 )
 ;
-params
-.
-textDrawer
-=
-aParams
-.
-textDrawer
-;
 gfxFloat
 clusterStart
 =

@@ -2637,6 +2637,12 @@ BackendType
 :
 BACKEND_LAST
 :
+case
+BackendType
+:
+:
+WEBRENDER_TEXT
+:
 return
 false
 ;
