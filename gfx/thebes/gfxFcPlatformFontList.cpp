@@ -6474,6 +6474,8 @@ aFontEntryList
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
 )
 {
 gfxFontFamily
@@ -6484,6 +6486,7 @@ FindAllFontsForStyle
 aFontStyle
 aFontEntryList
 aNeedsSyntheticBold
+aIgnoreSizeTolerance
 )
 ;
 if
@@ -6540,7 +6543,7 @@ rejected
 for
 being
 outside
-tolernace
+tolerance
 then
 the
 /
@@ -6614,6 +6617,9 @@ SizeDistance
 entry
 aFontStyle
 mForceScalable
+|
+|
+aIgnoreSizeTolerance
 )
 ;
 /
@@ -10592,6 +10598,7 @@ FindFontForStyle
 (
 style
 needsBold
+true
 )
 ;
 if

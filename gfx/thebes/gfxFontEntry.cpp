@@ -6256,6 +6256,8 @@ aFontStyle
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
 )
 {
 AutoTArray
@@ -6271,6 +6273,7 @@ FindAllFontsForStyle
 aFontStyle
 matched
 aNeedsSyntheticBold
+aIgnoreSizeTolerance
 )
 ;
 if
@@ -7151,6 +7154,8 @@ aFontEntryList
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
 )
 {
 if
@@ -8787,6 +8792,7 @@ gfxFontStyle
 (
 )
 needsBold
+true
 )
 ;
 if

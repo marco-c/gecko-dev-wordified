@@ -1071,6 +1071,8 @@ aFontEntryList
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
 )
 override
 ;
