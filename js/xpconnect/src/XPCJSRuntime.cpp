@@ -750,12 +750,6 @@ __proto__
 /
 IDX_PROTO
 "
-__iterator__
-"
-/
-/
-IDX_ITERATOR
-"
 __exposedProps__
 "
 /
