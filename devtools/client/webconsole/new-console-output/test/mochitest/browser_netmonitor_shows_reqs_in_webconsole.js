@@ -275,9 +275,6 @@ TEST_PATH
 await
 loadDocument
 (
-currentTab
-.
-linkedBrowser
 TEST_PATH
 )
 ;

@@ -252,9 +252,6 @@ TEST_FILE
 await
 loadDocument
 (
-currentTab
-.
-linkedBrowser
 documentUrl
 )
 ;

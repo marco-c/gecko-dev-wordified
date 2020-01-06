@@ -227,13 +227,6 @@ netmonitor
 "
 )
 ;
-const
-currentTab
-=
-gBrowser
-.
-selectedTab
-;
 info
 (
 "
@@ -248,9 +241,6 @@ open
 await
 loadDocument
 (
-currentTab
-.
-linkedBrowser
 TEST_PATH
 )
 ;
