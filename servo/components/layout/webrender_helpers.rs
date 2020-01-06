@@ -3974,6 +3974,15 @@ vertical_offset_bounds
 sticky_data
 .
 horizontal_offset_bounds
+webrender_api
+:
+:
+LayoutVector2D
+:
+:
+zero
+(
+)
 )
 ;
 builder
