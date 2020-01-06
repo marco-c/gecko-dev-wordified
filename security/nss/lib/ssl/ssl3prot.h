@@ -283,6 +283,9 @@ content_handshake
 content_application_data
 =
 23
+content_alt_handshake
+=
+24
 }
 SSL3ContentType
 ;
@@ -911,8 +914,9 @@ raw
 SSL3HashesIndividually
 s
 ;
-SECItem
-pointer_to_hash_input
+unsigned
+int
+transcriptLen
 ;
 }
 u
