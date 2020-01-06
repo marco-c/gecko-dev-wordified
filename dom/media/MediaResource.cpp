@@ -6737,16 +6737,6 @@ true
 ;
 }
 bool
-IsSuspended
-(
-)
-override
-{
-return
-true
-;
-}
-bool
 IsTransportSeekable
 (
 )

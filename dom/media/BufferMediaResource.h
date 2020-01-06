@@ -440,16 +440,6 @@ return
 true
 ;
 }
-bool
-IsSuspended
-(
-)
-override
-{
-return
-false
-;
-}
 nsresult
 ReadFromCache
 (
