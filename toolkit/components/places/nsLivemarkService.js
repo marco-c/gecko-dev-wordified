@@ -2470,6 +2470,12 @@ guid
 )
 ;
 }
+skipDescendantsOnItemRemoval
+:
+false
+skipTags
+:
+true
 /
 /
 nsINavHistoryObserver
