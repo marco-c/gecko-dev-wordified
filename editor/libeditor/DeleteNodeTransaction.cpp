@@ -398,11 +398,6 @@ mRangeUpdater
 SelAdjDeleteNode
 (
 mNodeToDelete
--
->
-AsDOMNode
-(
-)
 )
 ;
 }
@@ -544,11 +539,6 @@ mRangeUpdater
 SelAdjDeleteNode
 (
 mNodeToDelete
--
->
-AsDOMNode
-(
-)
 )
 ;
 }
