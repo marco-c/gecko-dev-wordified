@@ -14718,7 +14718,7 @@ Collapse
 (
 nsIDOMNode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -14731,7 +14731,7 @@ parentNode
 =
 do_QueryInterface
 (
-aParentNode
+aContainer
 )
 ;
 return
@@ -14750,7 +14750,7 @@ CollapseNative
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -14758,7 +14758,7 @@ aOffset
 return
 Collapse
 (
-aParentNode
+aContainer
 aOffset
 )
 ;
@@ -14771,7 +14771,7 @@ CollapseJS
 (
 nsINode
 *
-aNode
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -14795,7 +14795,7 @@ true
 if
 (
 !
-aNode
+aContainer
 )
 {
 RemoveAllRanges
@@ -14809,7 +14809,7 @@ return
 Collapse
 (
 *
-aNode
+aContainer
 aOffset
 aRv
 )
@@ -14823,7 +14823,7 @@ Collapse
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -14831,18 +14831,20 @@ aOffset
 if
 (
 !
-aParentNode
+aContainer
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 ErrorResult
 result
 ;
 Collapse
 (
 *
-aParentNode
+aContainer
 static_cast
 <
 uint32_t
@@ -14869,7 +14871,7 @@ Collapse
 (
 nsINode
 &
-aParentNode
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -14907,7 +14909,7 @@ nsINode
 parentNode
 =
 &
-aParentNode
+aContainer
 ;
 RefPtr
 <
@@ -16720,7 +16722,7 @@ Extend
 (
 nsIDOMNode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -16733,7 +16735,7 @@ parentNode
 =
 do_QueryInterface
 (
-aParentNode
+aContainer
 )
 ;
 return
@@ -16752,7 +16754,7 @@ ExtendNative
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -16760,7 +16762,7 @@ aOffset
 return
 Extend
 (
-aParentNode
+aContainer
 aOffset
 )
 ;
@@ -16773,7 +16775,7 @@ ExtendJS
 (
 nsINode
 &
-aNode
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -16796,7 +16798,7 @@ true
 ;
 Extend
 (
-aNode
+aContainer
 aOffset
 aRv
 )
@@ -16810,7 +16812,7 @@ Extend
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -16818,18 +16820,20 @@ aOffset
 if
 (
 !
-aParentNode
+aContainer
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 ErrorResult
 result
 ;
 Extend
 (
 *
-aParentNode
+aContainer
 static_cast
 <
 uint32_t
@@ -16856,7 +16860,7 @@ Extend
 (
 nsINode
 &
-aParentNode
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -16925,7 +16929,7 @@ IsValidSelectionPoint
 (
 mFrameSelection
 &
-aParentNode
+aContainer
 )
 )
 {
@@ -16963,7 +16967,7 @@ Document
 )
 !
 =
-aParentNode
+aContainer
 .
 OwnerDoc
 (
@@ -17230,7 +17234,7 @@ ComparePoints
 focusNode
 focusOffset
 &
-aParentNode
+aContainer
 aOffset
 &
 disconnected
@@ -17259,7 +17263,7 @@ ComparePoints
 anchorNode
 anchorOffset
 &
-aParentNode
+aContainer
 aOffset
 &
 disconnected
@@ -17322,7 +17326,7 @@ new
 nsRange
 (
 &
-aParentNode
+aContainer
 )
 ;
 if
@@ -17376,7 +17380,7 @@ range
 >
 SetEnd
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -17507,7 +17511,7 @@ range
 >
 SetStart
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -17600,7 +17604,7 @@ difRange
 SetStartAndEnd
 (
 &
-aParentNode
+aContainer
 aOffset
 focusNode
 focusOffset
@@ -17629,7 +17633,7 @@ range
 >
 SetEnd
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -17797,7 +17801,7 @@ range
 >
 SetEnd
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -18018,7 +18022,7 @@ SetStartAndEnd
 focusNode
 focusOffset
 &
-aParentNode
+aContainer
 aOffset
 )
 ;
@@ -18050,7 +18054,7 @@ range
 >
 SetStart
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -18190,7 +18194,7 @@ range
 >
 SetStart
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -18379,7 +18383,7 @@ range
 >
 SetStart
 (
-aParentNode
+aContainer
 aOffset
 aRv
 )
@@ -18596,7 +18600,7 @@ content
 do_QueryInterface
 (
 &
-aParentNode
+aContainer
 )
 ;
 printf
@@ -18718,7 +18722,7 @@ SelectAllChildren
 (
 nsIDOMNode
 *
-aParentNode
+aNode
 )
 {
 ErrorResult
@@ -18732,7 +18736,7 @@ node
 =
 do_QueryInterface
 (
-aParentNode
+aNode
 )
 ;
 NS_ENSURE_TRUE

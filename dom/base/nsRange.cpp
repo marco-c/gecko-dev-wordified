@@ -5504,7 +5504,7 @@ IsPointInRange
 (
 nsIDOMNode
 *
-aParent
+aContainer
 int32_t
 aOffset
 bool
@@ -5520,7 +5520,7 @@ parent
 =
 do_QueryInterface
 (
-aParent
+aContainer
 )
 ;
 if
@@ -5563,7 +5563,7 @@ IsPointInRange
 (
 nsINode
 &
-aParent
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -5576,7 +5576,7 @@ compareResult
 =
 ComparePoint
 (
-aParent
+aContainer
 aOffset
 aRv
 )
@@ -5664,7 +5664,7 @@ ComparePoint
 (
 nsIDOMNode
 *
-aParent
+aContainer
 int32_t
 aOffset
 int16_t
@@ -5680,7 +5680,7 @@ parent
 =
 do_QueryInterface
 (
-aParent
+aContainer
 )
 ;
 NS_ENSURE_TRUE
@@ -5719,7 +5719,7 @@ ComparePoint
 (
 nsINode
 &
-aParent
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -5763,7 +5763,7 @@ nsContentUtils
 ContentIsDescendantOf
 (
 &
-aParent
+aContainer
 mRoot
 )
 )
@@ -5781,7 +5781,7 @@ return
 }
 if
 (
-aParent
+aContainer
 .
 NodeType
 (
@@ -5809,7 +5809,7 @@ if
 (
 aOffset
 >
-aParent
+aContainer
 .
 Length
 (
@@ -5841,7 +5841,7 @@ nsContentUtils
 ComparePoints
 (
 &
-aParent
+aContainer
 aOffset
 mStartContainer
 mStartOffset
@@ -5866,7 +5866,7 @@ ComparePoints
 mEndContainer
 mEndOffset
 &
-aParent
+aContainer
 aOffset
 )
 =
@@ -8019,7 +8019,7 @@ SetStart
 (
 nsIDOMNode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -8032,7 +8032,7 @@ parent
 =
 do_QueryInterface
 (
-aParent
+aContainer
 )
 ;
 if
@@ -8077,7 +8077,7 @@ SetStart
 (
 nsINode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -8088,7 +8088,7 @@ newRoot
 =
 IsValidBoundary
 (
-aParent
+aContainer
 )
 ;
 if
@@ -8106,7 +8106,7 @@ if
 !
 IsValidOffset
 (
-aParent
+aContainer
 aOffset
 )
 )
@@ -8155,7 +8155,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aParent
+aContainer
 aOffset
 mEndContainer
 mEndOffset
@@ -8167,9 +8167,9 @@ mEndOffset
 {
 DoSetRange
 (
-aParent
+aContainer
 aOffset
-aParent
+aContainer
 aOffset
 newRoot
 )
@@ -8180,7 +8180,7 @@ NS_OK
 }
 DoSetRange
 (
-aParent
+aContainer
 aOffset
 mEndContainer
 mEndOffset
@@ -8620,7 +8620,7 @@ SetEnd
 (
 nsIDOMNode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -8633,7 +8633,7 @@ parent
 =
 do_QueryInterface
 (
-aParent
+aContainer
 )
 ;
 if
@@ -8678,7 +8678,7 @@ SetEnd
 (
 nsINode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -8689,7 +8689,7 @@ newRoot
 =
 IsValidBoundary
 (
-aParent
+aContainer
 )
 ;
 if
@@ -8707,7 +8707,7 @@ if
 !
 IsValidOffset
 (
-aParent
+aContainer
 aOffset
 )
 )
@@ -8758,7 +8758,7 @@ ComparePoints
 (
 mStartContainer
 mStartOffset
-aParent
+aContainer
 aOffset
 )
 =
@@ -8768,9 +8768,9 @@ aOffset
 {
 DoSetRange
 (
-aParent
+aContainer
 aOffset
-aParent
+aContainer
 aOffset
 newRoot
 )
@@ -8783,7 +8783,7 @@ DoSetRange
 (
 mStartContainer
 mStartOffset
-aParent
+aContainer
 aOffset
 mRoot
 )
@@ -11673,7 +11673,7 @@ PrependChild
 (
 nsINode
 *
-aParent
+aContainer
 nsINode
 *
 aChild
@@ -11685,7 +11685,7 @@ nsINode
 >
 first
 =
-aParent
+aContainer
 -
 >
 GetFirstChild
@@ -11695,7 +11695,7 @@ GetFirstChild
 ErrorResult
 rv
 ;
-aParent
+aContainer
 -
 >
 InsertBefore
