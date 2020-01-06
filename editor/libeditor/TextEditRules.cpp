@@ -7421,7 +7421,7 @@ selection
 aSelection
 -
 >
-CollapseNative
+Collapse
 (
 body
 0

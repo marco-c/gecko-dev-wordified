@@ -6470,7 +6470,7 @@ return
 selection
 -
 >
-CollapseNative
+Collapse
 (
 rootElement
 0
@@ -6512,7 +6512,7 @@ return
 selection
 -
 >
-CollapseNative
+Collapse
 (
 firstNode
 0
@@ -6577,7 +6577,7 @@ return
 selection
 -
 >
-CollapseNative
+Collapse
 (
 parent
 offsetInParent
@@ -6693,7 +6693,7 @@ return
 selection
 -
 >
-CollapseNative
+Collapse
 (
 node
 int32_t
