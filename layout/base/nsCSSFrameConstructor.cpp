@@ -57422,11 +57422,6 @@ iter
 aChild
 )
 ;
-bool
-didReconstruct
-=
-false
-;
 for
 (
 nsIContent
@@ -57470,8 +57465,8 @@ LAYOUT_PHASE_TEMP_EXIT
 (
 )
 ;
+bool
 didReconstruct
-|
 =
 ContentRemoved
 (
@@ -57487,12 +57482,6 @@ LAYOUT_PHASE_TEMP_REENTER
 ;
 if
 (
-aFlags
-!
-=
-REMOVE_DESTROY_FRAMES
-&
-&
 didReconstruct
 )
 {
@@ -57509,7 +57498,7 @@ aContainer
 )
 ;
 return
-didReconstruct
+false
 ;
 }
 #
