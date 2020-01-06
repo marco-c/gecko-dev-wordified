@@ -433,6 +433,13 @@ return
 this
 ;
 }
+bool
+IsHidden
+(
+)
+const
+override
+;
 /
 /
 CompositorWidgetDelegate
