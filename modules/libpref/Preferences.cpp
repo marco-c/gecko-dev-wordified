@@ -2603,7 +2603,7 @@ mDefaultPref
 mStringVal
 )
 {
-PL_strfree
+free
 (
 pref
 -
@@ -2624,7 +2624,7 @@ mUserPref
 mStringVal
 )
 {
-PL_strfree
+free
 (
 pref
 -
@@ -3205,7 +3205,7 @@ node
 >
 mNext
 ;
-PL_strfree
+free
 (
 node
 -
@@ -4963,7 +4963,7 @@ stringVal
 *
 aValueOut
 =
-NS_strdup
+moz_xstrdup
 (
 stringVal
 )
@@ -6164,7 +6164,7 @@ aExistingValue
 mStringVal
 )
 {
-PL_strfree
+free
 (
 aExistingValue
 -
@@ -6205,7 +6205,7 @@ aNewValue
 .
 mStringVal
 ?
-PL_strdup
+moz_xstrdup
 (
 aNewValue
 .
@@ -7433,7 +7433,7 @@ node
 >
 mDomain
 =
-PL_strdup
+moz_xstrdup
 (
 aPrefNode
 )
@@ -7553,7 +7553,7 @@ node
 >
 mDomain
 =
-PL_strdup
+moz_xstrdup
 (
 aPrefNode
 )
@@ -7733,7 +7733,7 @@ gLastPriorityNode
 aPrevNode
 ;
 }
-PL_strfree
+free
 (
 aNode
 -
@@ -15390,7 +15390,7 @@ aDefaultValue
 *
 aRetVal
 =
-NS_strdup
+moz_xstrdup
 (
 aDefaultValue
 )
