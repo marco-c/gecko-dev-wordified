@@ -7321,6 +7321,7 @@ getContainer
 node
 )
 ;
+return
 this
 .
 _expandContainer
@@ -10547,6 +10548,9 @@ container
 expand
 :
 centered
+|
+|
+expand
 }
 )
 ;
