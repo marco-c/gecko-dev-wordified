@@ -219,6 +219,10 @@ firstpaint
 =
 False
         
+format_pagename
+=
+True
+        
 userready
 =
 False
