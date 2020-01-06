@@ -100,6 +100,8 @@ json
 import
 os
 import
+re
+import
 utils
 KEY_XRE
 =
@@ -612,6 +614,30 @@ iteritems
 )
 :
             
+if
+isinstance
+(
+old_name
+re
+.
+_pattern_type
+)
+:
+                
+filename
+=
+re
+.
+sub
+(
+old_name
+new_name
+filename
+)
+            
+else
+:
+                
 parts
 =
 filename
@@ -620,7 +646,7 @@ split
 (
 old_name
 )
-            
+                
 if
 len
 (
@@ -630,7 +656,7 @@ parts
 =
 2
 :
-                
+                    
 filename
 =
 "
