@@ -2039,7 +2039,8 @@ GetPseudoType
 )
 ;
 }
-StyleSetHandle
+nsStyleSet
+*
 styleSet
 =
 PresContext
@@ -2048,6 +2049,11 @@ PresContext
 -
 >
 StyleSet
+(
+)
+-
+>
+AsGecko
 (
 )
 ;
