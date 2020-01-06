@@ -302,6 +302,12 @@ self_test
 "
 :
 False
+                         
+"
+stylo
+"
+:
+False
 }
               
 "
@@ -1083,6 +1089,12 @@ self_test
 "
 :
 self_test
+                                    
+"
+stylo
+"
+:
+False
 }
         
 suites
