@@ -301,7 +301,7 @@ public
 class
 testActivityStreamContextMenu
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

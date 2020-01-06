@@ -151,7 +151,7 @@ final
 class
 testInputUrlBar
 extends
-BaseTest
+OldBaseTest
 {
 private
 Element

@@ -412,7 +412,7 @@ unchecked
 Deprecated
 abstract
 class
-BaseTest
+OldBaseTest
 extends
 BaseRobocopTest
 {
@@ -5136,7 +5136,7 @@ DEPRECATED
 /
 /
 Use
-BaseTest
+OldBaseTest
 .
 toggleBookmark
 (
@@ -5646,7 +5646,7 @@ test
 cases
 within
 a
-BaseTest
+OldBaseTest
 .
 *
 /

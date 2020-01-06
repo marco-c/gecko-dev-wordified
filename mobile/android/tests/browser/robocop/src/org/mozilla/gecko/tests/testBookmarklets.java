@@ -87,7 +87,7 @@ public
 class
 testBookmarklets
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

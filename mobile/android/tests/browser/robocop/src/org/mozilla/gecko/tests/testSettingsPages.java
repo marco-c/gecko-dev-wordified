@@ -90,7 +90,7 @@ public
 class
 testSettingsPages
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

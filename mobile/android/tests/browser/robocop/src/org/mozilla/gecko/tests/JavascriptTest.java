@@ -188,7 +188,7 @@ public
 class
 JavascriptTest
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

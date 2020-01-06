@@ -133,7 +133,7 @@ public
 class
 testPrefsObserver
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

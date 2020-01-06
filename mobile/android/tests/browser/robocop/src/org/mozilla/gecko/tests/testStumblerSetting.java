@@ -81,17 +81,6 @@ org
 .
 mozilla
 .
-gecko
-.
-preferences
-.
-GeckoPreferences
-;
-import
-org
-.
-mozilla
-.
 mozstumbler
 .
 service
@@ -194,7 +183,7 @@ public
 class
 testStumblerSetting
 extends
-BaseTest
+OldBaseTest
 {
 boolean
 mIsEnabled

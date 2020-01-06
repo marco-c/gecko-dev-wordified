@@ -117,7 +117,7 @@ public
 class
 testSearchSuggestions
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

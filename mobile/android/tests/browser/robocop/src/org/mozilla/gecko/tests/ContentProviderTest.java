@@ -217,13 +217,6 @@ Uri
 import
 android
 .
-os
-.
-Build
-;
-import
-android
-.
 test
 .
 IsolatedContext
@@ -349,7 +342,7 @@ derive
 this
 test
 from
-BaseTest
+OldBaseTest
 and
 consequently
 pull
@@ -458,7 +451,7 @@ abstract
 class
 ContentProviderTest
 extends
-BaseTest
+OldBaseTest
 {
 protected
 ContentProvider

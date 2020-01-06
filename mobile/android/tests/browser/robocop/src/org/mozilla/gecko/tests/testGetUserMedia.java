@@ -108,7 +108,7 @@ public
 class
 testGetUserMedia
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

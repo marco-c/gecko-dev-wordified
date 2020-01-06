@@ -111,7 +111,7 @@ public
 class
 testBug1217581
 extends
-BaseTest
+OldBaseTest
 {
 /
 /

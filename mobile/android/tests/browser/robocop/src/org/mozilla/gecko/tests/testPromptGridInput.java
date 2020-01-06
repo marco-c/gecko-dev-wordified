@@ -69,7 +69,7 @@ public
 class
 testPromptGridInput
 extends
-BaseTest
+OldBaseTest
 {
 protected
 int

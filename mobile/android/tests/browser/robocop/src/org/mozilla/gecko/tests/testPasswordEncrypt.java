@@ -75,13 +75,6 @@ File
 import
 org
 .
-json
-.
-JSONObject
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -138,7 +131,7 @@ public
 class
 testPasswordEncrypt
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

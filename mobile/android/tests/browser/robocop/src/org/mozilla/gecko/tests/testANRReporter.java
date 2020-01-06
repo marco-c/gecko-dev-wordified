@@ -144,7 +144,7 @@ public
 class
 testANRReporter
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

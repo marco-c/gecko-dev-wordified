@@ -91,13 +91,6 @@ app
 Activity
 ;
 import
-android
-.
-view
-.
-View
-;
-import
 com
 .
 robotium
@@ -130,7 +123,7 @@ public
 class
 testNewTab
 extends
-BaseTest
+OldBaseTest
 {
 private
 Element
