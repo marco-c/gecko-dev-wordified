@@ -283,7 +283,7 @@ mozilla
 /
 layers
 /
-WebRenderCompositableHolder
+AsyncImagePipelineManager
 .
 h
 "
@@ -750,11 +750,11 @@ WebRenderAPI
 aApi
 RefPtr
 <
-WebRenderCompositableHolder
+AsyncImagePipelineManager
 >
 &
 &
-aHolder
+aImageMgr
 RefPtr
 <
 CompositorAnimationStorage
@@ -780,9 +780,9 @@ mApi
 (
 aApi
 )
-mCompositableHolder
+mAsyncImageManager
 (
-aHolder
+aImageMgr
 )
 mCompositorScheduler
 (
@@ -825,7 +825,7 @@ false
 {
 MOZ_ASSERT
 (
-mCompositableHolder
+mAsyncImageManager
 )
 ;
 MOZ_ASSERT
@@ -833,7 +833,7 @@ MOZ_ASSERT
 mAnimStorage
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 AddPipeline
@@ -1241,8 +1241,6 @@ if
 aImageKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -1393,8 +1391,6 @@ if
 aImageKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -1531,8 +1527,6 @@ if
 aFontKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -1660,8 +1654,6 @@ if
 aFontKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -1803,8 +1795,6 @@ if
 aImageKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -1896,8 +1886,6 @@ if
 aImageKey
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -3149,8 +3137,6 @@ keys
 ]
 .
 mNamespace
-.
-mHandle
 !
 =
 mIdNameSpace
@@ -3507,7 +3493,7 @@ get_OpUpdateAsyncImagePipeline
 (
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 UpdateAsyncImagePipeline
@@ -3832,7 +3818,7 @@ uint32_t
 aIdNameSpace
 )
 {
-mCompositableHolder
+mAsyncImageManager
 -
 >
 SetCompositionTime
@@ -4564,7 +4550,7 @@ aPipelineId
 wrHost
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 AddAsyncImagePipeline
@@ -4651,7 +4637,7 @@ ClearWrBridge
 (
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 RemoveAsyncImagePipeline
@@ -5087,9 +5073,9 @@ wr
 WebRenderAPI
 *
 aApi
-WebRenderCompositableHolder
+AsyncImagePipelineManager
 *
-aHolder
+aImageMgr
 CompositorAnimationStorage
 *
 aAnimStorage
@@ -5113,7 +5099,7 @@ aApi
 ;
 MOZ_ASSERT
 (
-aHolder
+aImageMgr
 )
 ;
 MOZ_ASSERT
@@ -5335,9 +5321,9 @@ mApi
 =
 aApi
 ;
-mCompositableHolder
+mAsyncImageManager
 =
-aHolder
+aImageMgr
 ;
 mAnimStorage
 =
@@ -5361,9 +5347,9 @@ Register
 pipeline
 to
 updated
-CompositableHolder
+AsyncImageManager
 .
-mCompositableHolder
+mAsyncImageManager
 -
 >
 AddPipeline
@@ -6429,7 +6415,7 @@ WrTransformProperty
 >
 transformArray
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 SetCompositionTime
@@ -6442,7 +6428,7 @@ Now
 )
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 ApplyAsyncImages
@@ -6450,6 +6436,16 @@ ApplyAsyncImages
 mApi
 )
 ;
+if
+(
+gfxPrefs
+:
+:
+WebRenderOMTAEnabled
+(
+)
+)
+{
 SampleAnimations
 (
 opacityArray
@@ -6478,6 +6474,7 @@ scheduleComposite
 =
 true
 ;
+}
 }
 if
 (
@@ -6580,7 +6577,7 @@ GenerateFrame
 if
 (
 !
-mCompositableHolder
+mAsyncImageManager
 -
 >
 GetCompositeUntilTime
@@ -7530,7 +7527,7 @@ ClearWrBridge
 (
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 RemoveAsyncImagePipeline
@@ -7546,7 +7543,7 @@ Clear
 (
 )
 ;
-mCompositableHolder
+mAsyncImageManager
 -
 >
 RemovePipeline
