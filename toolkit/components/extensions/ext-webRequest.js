@@ -102,7 +102,7 @@ Inherits
 from
 /
 /
-SingletonEventManager
+EventManager
 .
 Takes
 care
@@ -817,7 +817,7 @@ listener
 }
 ;
 return
-SingletonEventManager
+EventManager
 .
 call
 (
@@ -836,7 +836,7 @@ Object
 .
 create
 (
-SingletonEventManager
+EventManager
 .
 prototype
 )

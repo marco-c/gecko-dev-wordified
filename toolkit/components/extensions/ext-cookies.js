@@ -2671,7 +2671,7 @@ result
 onChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

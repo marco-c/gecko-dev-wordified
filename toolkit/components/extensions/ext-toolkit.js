@@ -39,7 +39,7 @@ getCookieStoreIdForContainer
 getContainerForCookieStoreId
 isValidCookieStoreId
 isContainerCookieStoreId
-SingletonEventManager
+EventManager
 *
 /
 /
@@ -66,7 +66,7 @@ false
 isPrivateCookieStoreId
 :
 false
-SingletonEventManager
+EventManager
 :
 false
 *
@@ -115,11 +115,11 @@ jsm
 ;
 global
 .
-SingletonEventManager
+EventManager
 =
 ExtensionCommon
 .
-SingletonEventManager
+EventManager
 ;
 /
 *

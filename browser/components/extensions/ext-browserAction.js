@@ -3811,7 +3811,7 @@ browserAction
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
