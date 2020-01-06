@@ -60,6 +60,13 @@ script_path
 .
 .
 /
+.
+.
+/
+third_party
+/
+python
+/
 compare
 -
 locales

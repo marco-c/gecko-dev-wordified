@@ -232,6 +232,9 @@ build
 src
 '
 '
+third_party
+'
+'
 python
 '
 '

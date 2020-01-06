@@ -127,6 +127,7 @@ path
 .
 join
 (
+    
 os
 .
 path
@@ -146,6 +147,9 @@ __file__
 "
 .
 .
+"
+"
+third_party
 "
 "
 python
