@@ -9236,6 +9236,10 @@ doc
 GetDocumentCharacterSet
 (
 )
+.
+get
+(
+)
 doc
 -
 >

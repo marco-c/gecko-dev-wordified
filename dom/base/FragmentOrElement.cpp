@@ -3097,6 +3097,10 @@ doc
 GetDocumentCharacterSet
 (
 )
+.
+get
+(
+)
 base
 )
 ;

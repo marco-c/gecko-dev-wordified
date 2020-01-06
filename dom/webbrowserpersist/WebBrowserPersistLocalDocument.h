@@ -158,12 +158,9 @@ nsIDocument
 aDocument
 )
 ;
-NotNull
-<
 const
-Encoding
-*
->
+nsCString
+&
 GetCharacterSet
 (
 )

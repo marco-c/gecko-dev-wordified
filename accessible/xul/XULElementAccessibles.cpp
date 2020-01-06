@@ -2103,6 +2103,10 @@ document
 GetDocumentCharacterSet
 (
 )
+.
+get
+(
+)
 baseURI
 )
 ;
