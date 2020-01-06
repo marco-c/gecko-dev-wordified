@@ -218,7 +218,15 @@ JitStubFrameLayout
 '
     
 '
-JitFrame_Entry
+JitFrame_CppToJSJit
+'
+:
+'
+JitFrameLayout
+'
+    
+'
+JitFrame_WasmToJSJit
 '
 :
 '
@@ -3435,7 +3443,7 @@ self
 .
 typecache
 .
-JitFrame_Entry
+JitFrame_CppToJSJit
 :
             
 #
@@ -4185,7 +4193,7 @@ sp
 name
 =
 '
-JitFrame_Entry
+JitFrame_CppToJSJit
 '
 )
         
@@ -4374,7 +4382,7 @@ self
 .
 typecache
 .
-JitFrame_Entry
+JitFrame_CppToJSJit
 :
                 
 return

@@ -195,9 +195,6 @@ h
 namespace
 js
 {
-class
-WasmActivation
-;
 namespace
 wasm
 {
@@ -276,13 +273,6 @@ instances_
 volatile
 bool
 mutatingInstances_
-;
-friend
-class
-js
-:
-:
-WasmActivation
 ;
 struct
 AutoMutateInstances

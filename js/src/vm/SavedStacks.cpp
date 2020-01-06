@@ -1058,7 +1058,7 @@ isSome
 activation
 -
 >
-isWasm
+hasWasmExitFP
 (
 )
 pc
