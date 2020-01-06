@@ -501,13 +501,6 @@ if
 !
 defined
 (
-WEBRTC_GONK
-)
-&
-&
-!
-defined
-(
 ANDROID
 )
 #
@@ -541,10 +534,6 @@ WEBRTC_ARCH_ARM_V7
 endif
 /
 /
-!
-WEBRTC_GONK
-&
-&
 !
 ANDROID
 #

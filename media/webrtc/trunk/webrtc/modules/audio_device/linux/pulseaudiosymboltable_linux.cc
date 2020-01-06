@@ -281,12 +281,6 @@ defined
 (
 __OpenBSD__
 )
-|
-|
-defined
-(
-WEBRTC_GONK
-)
 LATE_BINDING_SYMBOL_TABLE_DEFINE_BEGIN
 (
 PulseAudioSymbolTable

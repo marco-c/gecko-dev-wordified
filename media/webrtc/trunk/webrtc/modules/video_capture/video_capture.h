@@ -164,13 +164,6 @@ defined
 (
 ANDROID
 )
-&
-&
-!
-defined
-(
-WEBRTC_GONK
-)
 #
 include
 <
