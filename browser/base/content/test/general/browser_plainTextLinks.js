@@ -1,3 +1,17 @@
+/
+*
+eslint
+-
+disable
+mozilla
+/
+no
+-
+arbitrary
+-
+setTimeout
+*
+/
 function
 testExpected
 (

@@ -1,3 +1,17 @@
+/
+*
+eslint
+-
+disable
+mozilla
+/
+no
+-
+arbitrary
+-
+setTimeout
+*
+/
 let
 NS_OSX_PICTURE_DOCUMENTS_DIR
 =
