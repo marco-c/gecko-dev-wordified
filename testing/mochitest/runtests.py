@@ -18471,6 +18471,12 @@ keep_open
 =
 False
             
+stepOptions
+.
+runUntilFailure
+=
+True
+            
 result
 =
 self
