@@ -226,7 +226,7 @@ final
 int
 DEFAULT_COLOR
 =
-0
+0xFFB1B1B3
 ;
 /
 /
@@ -234,6 +234,11 @@ DEFAULT_COLOR
 =
 =
 No
+color
+here
+we
+use
+photon
 color
 Override
 public
