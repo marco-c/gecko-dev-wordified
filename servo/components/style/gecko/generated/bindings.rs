@@ -5297,6 +5297,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5330,6 +5333,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5363,6 +5369,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5396,6 +5405,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5429,6 +5441,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5615,6 +5630,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5650,6 +5668,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5685,6 +5706,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5720,6 +5744,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
@@ -5755,6 +5782,9 @@ str
 *
 mut
 nsIAtom
+ignore_case
+:
+bool
 )
 -
 >
