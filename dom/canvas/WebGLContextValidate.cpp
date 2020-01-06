@@ -3786,7 +3786,10 @@ translator
 if
 (
 !
-ShInitialize
+sh
+:
+:
+Initialize
 (
 )
 )
