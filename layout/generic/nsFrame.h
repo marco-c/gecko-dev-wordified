@@ -5691,6 +5691,11 @@ mozilla
 LogicalSize
 &
 aPercentBasis
+mozilla
+:
+:
+WritingMode
+aCBWritingMode
 const
 nsMargin
 *
@@ -5923,7 +5928,9 @@ DISPLAY_INIT_OFFSETS
 dr_frame
 dr_state
 dr_pb
+dr_cbwm
 dr_bdr
+\
 dr_pad
 )
 \
@@ -5933,6 +5940,8 @@ dr_cookie
 dr_frame
 dr_state
 dr_pb
+dr_cbwm
+\
 dr_bdr
 dr_pad
 )
@@ -6042,7 +6051,9 @@ DISPLAY_INIT_OFFSETS
 dr_frame
 dr_state
 dr_pb
+dr_cbwm
 dr_bdr
+\
 dr_pad
 )
 \
