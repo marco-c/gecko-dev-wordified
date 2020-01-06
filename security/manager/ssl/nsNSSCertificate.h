@@ -101,6 +101,11 @@ define
 nsNSSCertificate_h
 #
 include
+<
+functional
+>
+#
+include
 "
 ScopedNSSTypes
 .
