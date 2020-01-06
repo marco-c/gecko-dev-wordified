@@ -266,6 +266,12 @@ RepairedRtpStreamId
 >
 (
 )
+CreateExtensionInfo
+<
+MId
+>
+(
+)
 }
 ;
 /

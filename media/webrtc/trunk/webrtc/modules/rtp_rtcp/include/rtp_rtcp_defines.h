@@ -359,6 +359,7 @@ kRtpExtensionTransportSequenceNumber
 kRtpExtensionPlayoutDelay
 kRtpExtensionRtpStreamId
 kRtpExtensionRepairedRtpStreamId
+kRtpExtensionMId
 kRtpExtensionNumberOfExtensions
 /
 /

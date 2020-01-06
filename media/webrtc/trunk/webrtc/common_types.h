@@ -5204,6 +5204,9 @@ rtpStreamId
 StreamId
 repairedRtpStreamId
 ;
+StreamId
+mId
+;
 }
 ;
 struct

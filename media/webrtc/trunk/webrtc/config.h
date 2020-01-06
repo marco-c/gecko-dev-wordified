@@ -769,6 +769,17 @@ const
 int
 kRepairedRtpStreamIdDefaultId
 ;
+static
+const
+char
+*
+kMIdUri
+;
+static
+const
+int
+kMIdDefaultId
+;
 std
 :
 :
