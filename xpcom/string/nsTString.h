@@ -574,6 +574,7 @@ defined
 (
 MOZ_USE_CHAR16_WRAPPER
 )
+MOZ_NO_DANGLING_ON_TEMPORARIES
 char16ptr_t
 get
 (
@@ -581,6 +582,7 @@ get
 const
 #
 else
+MOZ_NO_DANGLING_ON_TEMPORARIES
 const
 char_type
 *
@@ -3725,6 +3727,7 @@ defined
 (
 MOZ_USE_CHAR16_WRAPPER
 )
+MOZ_NO_DANGLING_ON_TEMPORARIES
 char16ptr_t
 get
 (
@@ -3732,6 +3735,7 @@ get
 const
 #
 else
+MOZ_NO_DANGLING_ON_TEMPORARIES
 const
 char_type
 *
