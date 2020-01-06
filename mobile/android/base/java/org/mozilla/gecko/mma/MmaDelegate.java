@@ -533,7 +533,7 @@ TAG
 MmaDelegate
 "
 ;
-private
+public
 static
 final
 String
@@ -649,6 +649,7 @@ non
 null
 HashMap
 .
+final
 Map
 <
 String
