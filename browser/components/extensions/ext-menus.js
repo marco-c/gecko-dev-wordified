@@ -194,7 +194,7 @@ weak
 map
 .
 var
-gContextMenuMap
+gMenuMap
 =
 new
 Map
@@ -281,7 +281,7 @@ gMenuBuilder
 When
 a
 new
-contextMenu
+menu
 is
 opened
 this
@@ -1892,10 +1892,7 @@ MacCtrl
 /
 /
 Allow
-context
-menu
-'
-s
+menus
 to
 open
 various
@@ -1972,7 +1969,7 @@ emit
 "
 webext
 -
-contextmenu
+menu
 -
 menuitem
 -
@@ -2696,7 +2693,7 @@ changed
 let
 isIdUsed
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -2765,7 +2762,7 @@ return
 let
 menuMap
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -2913,7 +2910,7 @@ else
 let
 menuMap
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -3173,7 +3170,7 @@ remove
 let
 menuMap
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -3662,7 +3659,7 @@ and
 chrome
 .
 const
-contextMenuTracker
+menuTracker
 =
 {
 register
@@ -3829,7 +3826,7 @@ addEventListener
 "
 popupshowing
 "
-contextMenuTracker
+menuTracker
 )
 ;
 }
@@ -3920,7 +3917,7 @@ gExtensionCount
 ;
 this
 .
-contextMenus
+menusInternal
 =
 class
 extends
@@ -3940,7 +3937,7 @@ this
 ;
 if
 (
-gContextMenuMap
+gMenuMap
 .
 has
 (
@@ -3948,7 +3945,7 @@ extension
 )
 )
 {
-gContextMenuMap
+gMenuMap
 .
 delete
 (
@@ -3972,7 +3969,7 @@ gExtensionCount
 0
 )
 {
-contextMenuTracker
+menuTracker
 .
 unregister
 (
@@ -3993,7 +3990,7 @@ extension
 =
 context
 ;
-gContextMenuMap
+gMenuMap
 .
 set
 (
@@ -4014,7 +4011,7 @@ gExtensionCount
 1
 )
 {
-contextMenuTracker
+menuTracker
 .
 register
 (
@@ -4023,10 +4020,10 @@ register
 }
 return
 {
-contextMenus
+menusInternal
 :
 {
-createInternal
+create
 :
 function
 (
@@ -4057,7 +4054,7 @@ it
 the
 implementation
 of
-contextMenus
+menus
 .
 create
 in
@@ -4080,7 +4077,7 @@ extension
 createProperties
 )
 ;
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -4107,7 +4104,7 @@ updateProperties
 let
 menuItem
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -4143,7 +4140,7 @@ id
 let
 menuItem
 =
-gContextMenuMap
+gMenuMap
 .
 get
 (
@@ -4204,7 +4201,7 @@ SingletonEventManager
 (
 context
 "
-contextMenus
+menusInternal
 .
 onClicked
 "
@@ -4240,7 +4237,7 @@ on
 "
 webext
 -
-contextmenu
+menu
 -
 menuitem
 -
@@ -4262,7 +4259,7 @@ off
 "
 webext
 -
-contextmenu
+menu
 -
 menuitem
 -
