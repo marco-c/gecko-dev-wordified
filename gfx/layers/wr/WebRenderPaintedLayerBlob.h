@@ -359,6 +359,9 @@ WrImageKey
 >
 mImageKey
 ;
+LayerIntRect
+mImageBounds
+;
 }
 ;
 }
