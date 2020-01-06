@@ -5090,7 +5090,7 @@ none
 animation_value_type
 =
 "
-none
+discrete
 "
 products
 =
@@ -15913,7 +15913,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

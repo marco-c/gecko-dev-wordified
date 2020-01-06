@@ -958,7 +958,7 @@ image
 animation_value_type
 =
 "
-none
+discrete
 "
 boxed
 =
@@ -1288,7 +1288,7 @@ quotes
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

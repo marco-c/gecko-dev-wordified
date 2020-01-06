@@ -1970,7 +1970,7 @@ increment
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -2837,7 +2837,7 @@ reset
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
