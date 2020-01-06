@@ -313,11 +313,9 @@ rnd_len
 Zero
 the
 client_random
-struct
 .
 PORT_Memset
 (
-&
 ss
 -
 >
@@ -347,7 +345,6 @@ rnd_len
 ;
 PORT_Memcpy
 (
-&
 ss
 -
 >
@@ -356,11 +353,8 @@ ssl3
 hs
 .
 client_random
-.
-rand
-[
++
 offset
-]
 rnd
 rnd_len
 )

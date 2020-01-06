@@ -4455,7 +4455,7 @@ zero
 =
 0
 ;
-int
+size_t
 i
 ;
 for
