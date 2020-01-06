@@ -181,6 +181,17 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+/
+/
+for
+gfxAlphaType
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
