@@ -1131,10 +1131,6 @@ mImage
 =
 nullptr
 ;
-mImageContainer
-=
-nullptr
-;
 return
 NS_OK
 ;
