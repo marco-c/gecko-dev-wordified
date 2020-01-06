@@ -177,6 +177,13 @@ UniquePtr
 h
 "
 #
+include
+"
+VideoUtils
+.
+h
+"
+#
 define
 LOG
 (
