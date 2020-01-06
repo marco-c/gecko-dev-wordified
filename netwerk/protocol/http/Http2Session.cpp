@@ -5269,7 +5269,7 @@ window
 /
 4
 ]
-5
+6
 priority
 frames
 for
@@ -5291,6 +5291,7 @@ streams
 7
 9
 b
+d
 )
 build
 a
@@ -5360,7 +5361,7 @@ session
 window
 update
 and
-5
+6
 priority
 frames
 /
@@ -5384,7 +5385,7 @@ window
 update
 /
 /
-5
+6
 priority
 frames
 at
@@ -5407,7 +5408,7 @@ const
 uint32_t
 prioritySize
 =
-5
+kPriorityGroupCount
 *
 (
 kFrameHeaderBytes
