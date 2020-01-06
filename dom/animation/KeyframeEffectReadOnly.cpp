@@ -1928,7 +1928,7 @@ Move
 properties
 )
 ;
-UpadateEffectSet
+UpdateEffectSet
 (
 )
 ;
@@ -5108,7 +5108,7 @@ AddEffect
 this
 )
 ;
-UpadateEffectSet
+UpdateEffectSet
 (
 effectSet
 )
@@ -10221,7 +10221,7 @@ void
 KeyframeEffectReadOnly
 :
 :
-UpadateEffectSet
+UpdateEffectSet
 (
 EffectSet
 *
