@@ -790,6 +790,14 @@ aFiringId
 )
 ;
 bool
+IsValidFiringId
+(
+uint32_t
+aFiringId
+)
+const
+;
+bool
 IsInvalidFiringId
 (
 uint32_t
