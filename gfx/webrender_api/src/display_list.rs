@@ -2300,6 +2300,11 @@ is_backface_visible
 info
 .
 is_backface_visible
+tag
+:
+info
+.
+tag
 }
 }
 pub
@@ -5620,6 +5625,9 @@ clip_rect
 is_backface_visible
 :
 true
+tag
+:
+None
 }
 ;
 self

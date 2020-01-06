@@ -99,6 +99,14 @@ extern
 crate
 bincode
 ;
+#
+[
+macro_use
+]
+extern
+crate
+bitflags
+;
 extern
 crate
 byteorder
