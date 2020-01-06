@@ -23602,7 +23602,7 @@ rv
 mSelection
 -
 >
-RemoveAllRanges
+RemoveAllRangesTemporarily
 (
 )
 ;
