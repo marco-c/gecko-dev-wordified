@@ -1035,6 +1035,12 @@ nsIGlobalObject
 aIncumbentGlobal
 )
 :
+Runnable
+(
+"
+PromiseJobRunnable
+"
+)
 mCallback
 (
 new

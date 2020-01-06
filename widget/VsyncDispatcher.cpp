@@ -449,6 +449,12 @@ NewRunnableMethod
 bool
 >
 (
+"
+CompositorVsyncDispatcher
+:
+:
+ObserveVsync
+"
 this
 &
 CompositorVsyncDispatcher
@@ -834,6 +840,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+RefreshTimerVsyncDispatcher
+:
+:
+UpdateVsyncStatus
+"
 this
 &
 RefreshTimerVsyncDispatcher

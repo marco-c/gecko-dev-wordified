@@ -609,6 +609,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+FileBlockCache
+:
+:
+Init
+"
 [
 self
 ]
@@ -924,6 +930,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+FileBlockCache
+:
+:
+Close
+"
 [
 thread
 fd
@@ -950,6 +962,8 @@ the
 thread
 in
 another
+/
+/
 runnable
 .
 This
@@ -967,6 +981,8 @@ the
 media
 cache
 and
+/
+/
 nsIThread
 :
 :
@@ -983,6 +999,8 @@ run
 before
 it
 completes
+/
+/
 which
 could
 end
@@ -997,6 +1015,8 @@ the
 media
 cache
 is
+/
+/
 shutting
 down
 and

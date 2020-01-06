@@ -49254,6 +49254,15 @@ int64_t
 aProgressMax
 )
 :
+Runnable
+(
+"
+net
+:
+:
+OnTransportStatusAsyncEvent
+"
+)
 mEventSink
 (
 aEventSink

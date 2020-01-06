@@ -8157,6 +8157,15 @@ nsIIOServiceInternal
 ioService
 )
 :
+Runnable
+(
+"
+net
+:
+:
+nsWakeupNotifier
+"
+)
 mIOService
 (
 ioService
@@ -10164,11 +10173,6 @@ bool
 aAnonymous
 )
 {
-NS_ENSURE_ARG
-(
-aURI
-)
-;
 bool
 isHTTP
 isHTTPS

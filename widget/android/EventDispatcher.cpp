@@ -4635,6 +4635,9 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+OnNativeCall
+"
 Move
 (
 aCall

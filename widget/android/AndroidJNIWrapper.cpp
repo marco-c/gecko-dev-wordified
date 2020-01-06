@@ -192,6 +192,15 @@ jclass
 foundClass
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+GetGlobalClassRefRunnable
+"
+)
 mClassName
 (
 className

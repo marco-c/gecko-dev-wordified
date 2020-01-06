@@ -1678,6 +1678,15 @@ nsISupports
 aContainer
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+BrowserDestroyer
+"
+)
 mBrowser
 (
 aBrowser

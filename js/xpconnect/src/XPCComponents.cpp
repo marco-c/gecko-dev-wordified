@@ -14575,6 +14575,15 @@ bool
 aShrinking
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+PreciseGCRunnable
+"
+)
 mCallback
 (
 aCallback

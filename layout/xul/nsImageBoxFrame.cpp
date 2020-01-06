@@ -440,6 +440,15 @@ EventMessage
 message
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsImageBoxFrameEvent
+"
+)
 mContent
 (
 content

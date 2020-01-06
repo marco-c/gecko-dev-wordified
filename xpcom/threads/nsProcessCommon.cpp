@@ -2017,6 +2017,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsProcess
+:
+:
+ProcessComplete
+"
 process
 &
 nsProcess

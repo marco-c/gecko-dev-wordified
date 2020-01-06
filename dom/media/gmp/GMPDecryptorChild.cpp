@@ -1042,6 +1042,15 @@ GMPBuffer
 GMPErr
 >
 (
+"
+gmp
+:
+:
+GMPDecryptorChild
+:
+:
+Decrypted
+"
 this
 &
 GMPDecryptorChild

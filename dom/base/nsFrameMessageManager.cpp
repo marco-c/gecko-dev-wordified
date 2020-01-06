@@ -9912,6 +9912,15 @@ nsSameProcessAsyncMessageBase
 aRootingCx
 aCpows
 )
+mozilla
+:
+:
+Runnable
+(
+"
+nsAsyncMessageToSameProcessChild
+"
+)
 {
 }
 NS_IMETHOD

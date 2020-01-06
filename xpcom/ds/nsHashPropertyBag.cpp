@@ -1320,6 +1320,15 @@ HashtableType
 aTable
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+ProxyHashtableDestructor
+"
+)
 mPropertyHash
 (
 mozilla

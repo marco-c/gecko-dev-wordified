@@ -903,6 +903,15 @@ NewRunnableMethod
 bool
 >
 (
+"
+dom
+:
+:
+PresentationAvailability
+:
+:
+UpdateAvailabilityAndDispatchEvent
+"
 this
 &
 PresentationAvailability
