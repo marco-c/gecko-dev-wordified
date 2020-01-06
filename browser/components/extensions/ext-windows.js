@@ -294,7 +294,7 @@ api
 onFocusChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

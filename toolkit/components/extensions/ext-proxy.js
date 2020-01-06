@@ -342,7 +342,7 @@ url
 onProxyError
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

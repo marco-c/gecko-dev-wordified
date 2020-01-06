@@ -174,7 +174,7 @@ runtime
 onStartup
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -285,7 +285,7 @@ api
 onInstalled
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -441,7 +441,7 @@ api
 onUpdateAvailable
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

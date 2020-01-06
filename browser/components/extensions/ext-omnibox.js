@@ -280,7 +280,7 @@ message
 onInputStarted
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -346,7 +346,7 @@ api
 onInputCancelled
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -412,7 +412,7 @@ api
 onInputEntered
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -544,7 +544,7 @@ suggestions
 onInputChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

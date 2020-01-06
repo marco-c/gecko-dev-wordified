@@ -853,7 +853,7 @@ WindowEventManager
 =
 class
 extends
-EventManager
+SingletonEventManager
 {
 constructor
 (

@@ -5113,7 +5113,7 @@ missing
 onChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -5315,7 +5315,7 @@ api
 onCreated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -5418,7 +5418,7 @@ api
 onErased
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

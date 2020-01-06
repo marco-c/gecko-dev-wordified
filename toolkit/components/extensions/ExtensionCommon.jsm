@@ -8528,7 +8528,7 @@ usage
 /
 /
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -8716,7 +8716,7 @@ the
 listener
 .
 function
-EventManager
+SingletonEventManager
 (
 context
 name
@@ -8751,7 +8751,7 @@ Map
 )
 ;
 }
-EventManager
+SingletonEventManager
 .
 prototype
 =
@@ -9522,12 +9522,12 @@ ExtensionCommon
 {
 BaseContext
 CanOfAPIs
-EventManager
 LocalAPIImplementation
 LocaleData
 NoCloneSpreadArgs
 SchemaAPIInterface
 SchemaAPIManager
+SingletonEventManager
 SpreadArgs
 ignoreEvent
 stylesheetMap

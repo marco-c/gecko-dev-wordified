@@ -923,7 +923,7 @@ msg
 onMessage
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
