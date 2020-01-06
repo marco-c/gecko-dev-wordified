@@ -2073,6 +2073,9 @@ mozilla
 :
 TraversalRestyleBehavior
 restyle_behavior
+bool
+*
+was_restyled
 )
 SERVO_BINDING_FUNC
 (
