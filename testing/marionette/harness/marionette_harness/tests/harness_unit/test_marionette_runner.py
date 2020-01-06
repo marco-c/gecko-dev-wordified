@@ -152,7 +152,12 @@ runner
 .
 driverclass
 =
+Mock
+(
+return_value
+=
 mock_marionette
+)
     
 for
 attr
