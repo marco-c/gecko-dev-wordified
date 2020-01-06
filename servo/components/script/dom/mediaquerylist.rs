@@ -602,7 +602,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 viewport_size
 device_pixel_ratio
 )
