@@ -449,7 +449,7 @@ dev
 localtest
 "
 ]
-             
+            
 "
 publish_rules
 "
@@ -461,6 +461,12 @@ firefox
 beta
 "
 ]
+            
+"
+schedule_asap
+"
+:
+True
         
 }
         

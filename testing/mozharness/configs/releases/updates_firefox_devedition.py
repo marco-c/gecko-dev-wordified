@@ -379,9 +379,7 @@ publish_rules
 "
 :
 [
-"
-devedition
-"
+10
 ]
         
 }
