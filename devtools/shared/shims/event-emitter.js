@@ -367,8 +367,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -408,8 +406,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
