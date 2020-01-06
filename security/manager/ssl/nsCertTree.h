@@ -188,7 +188,7 @@ mCritInit
 max_criterions
 ]
 ;
-nsXPIDLString
+nsString
 mCrit
 [
 max_criterions

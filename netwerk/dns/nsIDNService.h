@@ -1188,7 +1188,7 @@ mLock
 guarded
 by
 mLock
-nsXPIDLString
+nsString
 mIDNBlacklist
 ;
 /

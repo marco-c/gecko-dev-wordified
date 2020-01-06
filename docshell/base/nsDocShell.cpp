@@ -56076,9 +56076,6 @@ returns
 null
 by
 default
-nsXPIDLString
-mWindowTarget
-;
 nsXPIDLCString
 mTypeHint
 ;

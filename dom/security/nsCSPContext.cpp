@@ -4616,7 +4616,7 @@ NS_OK
 struct
 ConsoleMsgQueueElem
 {
-nsXPIDLString
+nsString
 mMsg
 ;
 nsString
