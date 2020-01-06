@@ -2663,6 +2663,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToComputedValue
 )
 ]
 pub
@@ -4000,6 +4001,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToComputedValue
 )
 ]
 pub

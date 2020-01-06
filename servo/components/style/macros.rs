@@ -70,7 +70,7 @@ trivial_to_computed_value
 (
 name
 :
-ident
+ty
 )
 =
 >
