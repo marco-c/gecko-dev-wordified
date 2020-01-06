@@ -135,9 +135,6 @@ namespace
 mozilla
 {
 class
-AbstractMediaDecoder
-;
-class
 ChannelMediaDecoder
 ;
 class
