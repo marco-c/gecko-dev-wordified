@@ -772,6 +772,12 @@ undefined
 failedNoPaint
 :
 false
+failedNoDisplayList
+:
+false
+failedDisplayList
+:
+false
 failedOpaqueLayer
 :
 false
