@@ -346,7 +346,7 @@ R
 .
 id
 .
-firstrun_subtext
+welcome_browse
 )
 )
 .
