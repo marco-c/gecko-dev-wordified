@@ -5687,6 +5687,7 @@ title
 clientId
 name
 clientType
+lastModified
 )
 =
 >
@@ -5756,7 +5757,6 @@ iconic
 "
 )
 ;
-}
 item
 .
 setAttribute
@@ -5764,9 +5764,15 @@ setAttribute
 "
 tooltiptext
 "
-name
+gSync
+.
+formatLastSyncDate
+(
+lastModified
+)
 )
 ;
+}
 item
 .
 addEventListener

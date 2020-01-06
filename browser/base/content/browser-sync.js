@@ -2107,6 +2107,7 @@ createDeviceNodeFn
 clientId
 name
 clientType
+lastModified
 )
 =
 >
@@ -2435,6 +2436,7 @@ addTargetDevice
 clientId
 name
 clientType
+lastModified
 )
 {
 const
@@ -2445,6 +2447,7 @@ createDeviceNodeFn
 clientId
 name
 clientType
+lastModified
 )
 ;
 targetDevice
@@ -2565,6 +2568,11 @@ client
 .
 name
 type
+client
+.
+serverLastModified
+*
+1000
 )
 ;
 }
