@@ -15420,9 +15420,13 @@ connection
 .
 try
 {
-AsyncShutdown
+PlacesUtils
 .
-placesClosingInternalConnection
+history
+.
+connectionShutdownClient
+.
+jsclient
 .
 addBlocker
 (
