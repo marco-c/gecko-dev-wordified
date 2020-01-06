@@ -1616,8 +1616,21 @@ partial_info
 completeInfo
 =
 complete_info
-            
 )
+                
+attempts
+=
+30
+sleeptime
+=
+10
+max_sleeptime
+=
+60
+jitter
+=
+3
+            
 )
         
 elif
@@ -2010,6 +2023,9 @@ sleeptime
 max_sleeptime
 =
 60
+jitter
+=
+3
             
 )
         
