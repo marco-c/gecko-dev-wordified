@@ -3321,17 +3321,6 @@ push
 to
 releases
         
-#
-TODO
-:
-Include
-fennec
-mozilla
--
-beta
-version
-bump
-        
 if
 task
 .
@@ -3379,6 +3368,7 @@ as
 -
 shipped
 '
+                             
 '
 release
 -
@@ -3394,6 +3384,15 @@ uptake
 -
 monitoring
 '
+                             
+'
+release
+-
+version
+-
+bump
+'
+                             
 )
 :
                 
