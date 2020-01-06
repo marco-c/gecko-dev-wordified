@@ -535,6 +535,9 @@ bool
 mThirdPartySession
 ;
 bool
+mThirdPartyNonsecureSession
+;
+bool
 mLeaveSecureAlone
 ;
 bool
