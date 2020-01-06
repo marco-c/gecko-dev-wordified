@@ -542,16 +542,6 @@ windows_versions
 "
 windows
 -
-xp
-"
-"
-windows
--
-vista
-"
-"
-windows
--
 win7
 "
 "
