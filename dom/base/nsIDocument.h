@@ -18082,6 +18082,16 @@ dom
 Promise
 &
 aPromise
+const
+mozilla
+:
+:
+dom
+:
+:
+BlockParsingOptions
+&
+aOptions
 mozilla
 :
 :
