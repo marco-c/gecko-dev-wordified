@@ -6298,7 +6298,7 @@ HashMap
 MissingEnvironmentKey
 ReadBarrieredDebugEnvironmentProxy
 MissingEnvironmentKey
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 MissingEnvironmentMap
 ;
@@ -6394,7 +6394,7 @@ JSObject
 *
 >
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 LiveEnvironmentMap
 ;

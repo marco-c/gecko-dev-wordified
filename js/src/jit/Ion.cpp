@@ -2535,7 +2535,7 @@ ICStubCodeMap
 cx
 -
 >
-runtime
+zone
 (
 )
 )

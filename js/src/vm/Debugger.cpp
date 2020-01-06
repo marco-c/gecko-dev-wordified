@@ -3861,7 +3861,7 @@ debuggees
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -3890,7 +3890,7 @@ observedGCs
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -3921,7 +3921,7 @@ frames
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -28063,7 +28063,7 @@ compartments
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -28099,7 +28099,7 @@ innermostForCompartment
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -29724,7 +29724,7 @@ DefaultHasher
 JSCompartment
 *
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 CompartmentSet
 ;
@@ -29924,7 +29924,7 @@ DefaultHasher
 JSCompartment
 *
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 CompartmentToScriptMap
 ;

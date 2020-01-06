@@ -1525,7 +1525,7 @@ RegExpShared
 *
 >
 Key
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 >
 ;

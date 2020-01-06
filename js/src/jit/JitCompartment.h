@@ -2624,7 +2624,7 @@ DefaultHasher
 <
 uint32_t
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 IcStubCodeMapGCPolicy
 <
 uint32_t

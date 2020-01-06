@@ -572,7 +572,7 @@ HashableValue
 :
 :
 Hasher
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 ValueMap
 ;
@@ -584,7 +584,7 @@ HashableValue
 :
 :
 Hasher
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 ValueSet
 ;
@@ -952,7 +952,7 @@ OrderedHashMap
 Value
 Value
 UnbarrieredHashPolicy
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 ;
 friend
@@ -1823,7 +1823,7 @@ OrderedHashSet
 <
 Value
 UnbarrieredHashPolicy
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 ;
 friend
