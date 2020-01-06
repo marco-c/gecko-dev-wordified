@@ -575,8 +575,14 @@ aDest
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
+mozilla
+:
+:
 Ok
 nsresult
 >
@@ -627,6 +633,9 @@ uuid
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -647,6 +656,9 @@ uint32_t
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -680,6 +692,9 @@ length
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -695,6 +710,9 @@ psshInfo
 ;
 }
 return
+mozilla
+:
+:
 Ok
 (
 )
