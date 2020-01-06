@@ -389,6 +389,16 @@ malloc_size_of
 RawServoStyleSheetContentsBorrowed
 sheet
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSheet_GetSourceMapURL
+void
+RawServoStyleSheetContentsBorrowed
+sheet
+nsAString
+*
+result
+)
 /
 /
 We

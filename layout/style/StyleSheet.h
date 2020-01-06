@@ -1331,6 +1331,15 @@ nsAString
 aSourceMapURL
 )
 ;
+void
+SetSourceMapURLFromComment
+(
+const
+nsAString
+&
+aSourceMapURLFromComment
+)
+;
 /
 /
 WebIDL
