@@ -22773,8 +22773,6 @@ nsRect
 aBorder
 int32_t
 aAppUnitsPerDevPixel
-int32_t
-aAppUnitsPerCSSPixel
 mozilla
 :
 :
@@ -22812,12 +22810,12 @@ aStartBevelSide
 )
 ;
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 NSIntPixelsToAppUnits
 (
 1
-aAppUnitsPerCSSPixel
+aAppUnitsPerDevPixel
 )
 ;
 uint8_t
@@ -22828,7 +22826,7 @@ NS_STYLE_BORDER_STYLE_RIDGE
 if
 (
 (
-twipsPerPixel
+oneDevPixel
 >
 =
 aBorder
@@ -22838,7 +22836,7 @@ width
 |
 |
 (
-twipsPerPixel
+oneDevPixel
 >
 =
 aBorder
@@ -22995,7 +22993,7 @@ dashLength
 2
 .
 0f
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 :
 dashLength
@@ -23008,7 +23006,7 @@ std
 max
 (
 minDashLength
-twipsPerPixel
+oneDevPixel
 )
 ;
 nscoord
@@ -23037,7 +23035,7 @@ aBorder
 .
 width
 dashLength
-twipsPerPixel
+aAppUnitsPerDevPixel
 numDashSpaces
 startDashLength
 endDashLength
@@ -23064,7 +23062,7 @@ aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 )
 ;
 rect
@@ -23099,7 +23097,7 @@ rect
 dashLength
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 horizontal
 )
 ;
@@ -23124,7 +23122,7 @@ aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 )
 ;
 }
@@ -23136,7 +23134,7 @@ aBorder
 .
 height
 dashLength
-twipsPerPixel
+aAppUnitsPerDevPixel
 numDashSpaces
 startDashLength
 endDashLength
@@ -23163,7 +23161,7 @@ aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 )
 ;
 rect
@@ -23200,7 +23198,7 @@ rect
 dashLength
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 horizontal
 )
 ;
@@ -23225,7 +23223,7 @@ aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 )
 ;
 }
@@ -23258,7 +23256,7 @@ horizontal
 &
 &
 (
-twipsPerPixel
+oneDevPixel
 >
 =
 aBorder
@@ -23274,7 +23272,7 @@ horizontal
 &
 &
 (
-twipsPerPixel
+oneDevPixel
 >
 =
 aBorder
@@ -23296,7 +23294,7 @@ aDrawTarget
 aBorder
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 aStartBevelOffset
 aEndBevelSide
@@ -23325,7 +23323,7 @@ RoundFloatToPixel
 float
 )
 aStartBevelOffset
-twipsPerPixel
+aAppUnitsPerDevPixel
 true
 )
 :
@@ -23350,7 +23348,7 @@ RoundFloatToPixel
 float
 )
 aEndBevelOffset
-twipsPerPixel
+aAppUnitsPerDevPixel
 true
 )
 :
@@ -23437,7 +23435,7 @@ float
 aBorder
 .
 height
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 ;
 rect
@@ -23491,7 +23489,7 @@ aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -23519,7 +23517,7 @@ float
 aBorder
 .
 width
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 ;
 rect
@@ -23573,7 +23571,7 @@ aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -23702,7 +23700,7 @@ aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -23779,7 +23777,7 @@ aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -23837,7 +23835,7 @@ width
 >
 2
 *
-twipsPerPixel
+oneDevPixel
 |
 |
 horizontal
@@ -23851,7 +23849,7 @@ height
 >
 2
 *
-twipsPerPixel
+oneDevPixel
 |
 |
 !
@@ -23878,7 +23876,7 @@ RoundFloatToPixel
 float
 )
 aStartBevelOffset
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 :
 0
@@ -23902,7 +23900,7 @@ RoundFloatToPixel
 float
 )
 aEndBevelOffset
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 :
 0
@@ -23931,7 +23929,7 @@ float
 aBorder
 .
 height
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 ;
 /
@@ -24008,7 +24006,7 @@ aDrawTarget
 topRect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -24104,7 +24102,7 @@ aDrawTarget
 bottomRect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -24133,7 +24131,7 @@ float
 aBorder
 .
 width
-twipsPerPixel
+aAppUnitsPerDevPixel
 )
 ;
 nsRect
@@ -24202,7 +24200,7 @@ aDrawTarget
 leftRect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -24290,7 +24288,7 @@ aDrawTarget
 rightRect
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 startBevel
 aEndBevelSide
@@ -24319,7 +24317,7 @@ aDrawTarget
 aBorder
 aBorderColor
 aAppUnitsPerDevPixel
-twipsPerPixel
+oneDevPixel
 aStartBevelSide
 aStartBevelOffset
 aEndBevelSide

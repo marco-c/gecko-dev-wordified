@@ -988,6 +988,14 @@ the
 left
 }
 ;
+/
+/
+BCPixelSize
+is
+in
+device
+pixels
+.
 typedef
 uint16_t
 BCPixelSize
