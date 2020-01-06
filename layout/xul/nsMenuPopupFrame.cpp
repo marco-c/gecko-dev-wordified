@@ -16534,14 +16534,9 @@ GetPrimaryFrame
 ;
 if
 (
-!
 anchorFrame
 )
 {
-return
-false
-;
-}
 nsPresContext
 *
 rootPresContext
@@ -16568,6 +16563,7 @@ rootPresContext
 anchorFrame
 )
 ;
+}
 }
 return
 true
