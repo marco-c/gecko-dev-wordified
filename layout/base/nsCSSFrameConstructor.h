@@ -7337,6 +7337,12 @@ int32_t
 aDelta
 )
 ;
+nsTArray
+<
+UndisplayedItem
+>
+mUndisplayedItems
+;
 mozilla
 :
 :
@@ -7443,12 +7449,6 @@ this
 list
 bool
 mTriedConstructingFrames
-;
-nsTArray
-<
-UndisplayedItem
->
-mUndisplayedItems
 ;
 }
 ;
