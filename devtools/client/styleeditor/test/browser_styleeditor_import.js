@@ -170,9 +170,11 @@ ui
 once
 (
 "
+test
+:
 editor
 -
-added
+updated
 "
 )
 ;
