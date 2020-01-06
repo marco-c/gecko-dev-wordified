@@ -140,6 +140,17 @@ h
 #
 include
 "
+MLGDevice
+.
+h
+"
+/
+/
+for
+MLGSwapChain
+#
+include
+"
 RenderPassMLGPU
 .
 h
