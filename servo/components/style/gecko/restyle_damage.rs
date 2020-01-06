@@ -470,7 +470,10 @@ new
 (
 GeckoRestyleDamage
 (
+nsChangeHint
+(
 hint
+)
 )
 change
 )
@@ -640,7 +643,10 @@ damage
 =
 GeckoRestyleDamage
 (
+nsChangeHint
+(
 hint
+)
 )
 &
 Self
