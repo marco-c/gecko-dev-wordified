@@ -259,7 +259,7 @@ updated
 ;
 gUI
 .
-displayObjectSidebar
+updateObjectSidebar
 (
 )
 ;
