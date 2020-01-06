@@ -291,6 +291,9 @@ only
 nsresult
 CreatePayment
 (
+JSContext
+*
+aCx
 nsPIDOMWindowInner
 *
 aWindow
@@ -361,6 +364,9 @@ aComplete
 nsresult
 UpdatePayment
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
