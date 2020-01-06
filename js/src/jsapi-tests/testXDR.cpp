@@ -1248,7 +1248,6 @@ InflateString
 cx
 *
 sm
-&
 len
 )
 )
