@@ -56895,6 +56895,16 @@ pc
 isMethod
 (
 )
+|
+|
+parser
+.
+pc
+-
+>
+isGetterOrSetter
+(
+)
 )
 return
 Warn
