@@ -600,6 +600,10 @@ self
 -
 >
 mPersistentStateRequired
+self
+-
+>
+mMainThread
 )
 )
 {
