@@ -202,6 +202,21 @@ mozilla
 structuredlog
 import
 StructuredOutputParser
+from
+mozharness
+.
+mozilla
+.
+testing
+.
+codecoverage
+import
+(
+    
+CodeCoverageMixin
+    
+code_coverage_config_options
+)
 class
 AWSY
 (
@@ -209,6 +224,7 @@ TestingMixin
 MercurialScript
 BlobUploadMixin
 TooltoolMixin
+CodeCoverageMixin
 )
 :
     
@@ -278,6 +294,15 @@ copy
 deepcopy
 (
 blobupload_config_options
+)
+\
+                               
++
+copy
+.
+deepcopy
+(
+code_coverage_config_options
 )
     
 error_list
