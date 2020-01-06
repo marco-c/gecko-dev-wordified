@@ -40878,6 +40878,8 @@ nsCSSFrameConstructor
 :
 ReconstructDocElementHierarchy
 (
+InsertionKind
+aInsertionKind
 )
 {
 Element
@@ -40910,10 +40912,7 @@ return
 RecreateFramesForContent
 (
 rootElement
-InsertionKind
-:
-:
-Sync
+aInsertionKind
 )
 ;
 }
@@ -59636,6 +59635,10 @@ BeginUpdate
 ;
 ReconstructDocElementHierarchy
 (
+InsertionKind
+:
+:
+Sync
 )
 ;
 EndUpdate
@@ -65909,6 +65912,7 @@ aFrame
 {
 ReconstructDocElementHierarchy
 (
+aInsertionKind
 )
 ;
 return
