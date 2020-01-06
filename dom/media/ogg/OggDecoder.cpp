@@ -180,9 +180,6 @@ mResource
 ;
 MediaFormatReaderInit
 init
-(
-this
-)
 ;
 init
 .

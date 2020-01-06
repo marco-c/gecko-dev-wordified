@@ -373,9 +373,6 @@ AbstractMainThread
 ;
 MediaFormatReaderInit
 init
-(
-this
-)
 ;
 init
 .

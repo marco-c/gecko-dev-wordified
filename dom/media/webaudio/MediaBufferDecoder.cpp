@@ -1050,9 +1050,6 @@ well
 .
 MediaFormatReaderInit
 init
-(
-mBufferDecoder
-)
 ;
 init
 .
