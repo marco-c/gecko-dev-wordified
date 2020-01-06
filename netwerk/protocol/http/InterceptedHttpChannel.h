@@ -606,12 +606,6 @@ mBodyReader
 ;
 nsCOMPtr
 <
-nsIOutputStream
->
-mBodyWriter
-;
-nsCOMPtr
-<
 nsISupports
 >
 mReleaseHandle
