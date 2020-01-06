@@ -246,20 +246,6 @@ py
 '
     
 '
-dom
-/
-media
-/
-test
-/
-external
-/
-mach_commands
-.
-py
-'
-    
-'
 layout
 /
 tools
