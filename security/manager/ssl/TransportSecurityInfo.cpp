@@ -417,7 +417,7 @@ host
 )
 ;
 }
-nsresult
+void
 TransportSecurityInfo
 :
 :
@@ -431,11 +431,8 @@ mPort
 =
 aPort
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 TransportSecurityInfo
 :
 :
@@ -450,9 +447,6 @@ aOriginAttributes
 mOriginAttributes
 =
 aOriginAttributes
-;
-return
-NS_OK
 ;
 }
 PRErrorCode
@@ -527,7 +521,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 TransportSecurityInfo
 :
 :
@@ -540,9 +534,6 @@ aState
 mSecurityState
 =
 aState
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -2143,7 +2134,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 TransportSecurityInfo
 :
 :
@@ -2157,9 +2148,6 @@ aSSLStatus
 mSSLStatus
 =
 aSSLStatus
-;
-return
-NS_OK
 ;
 }
 /
