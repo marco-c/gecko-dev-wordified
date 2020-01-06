@@ -2340,9 +2340,9 @@ void
 LIRGeneratorX86Shared
 :
 :
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 ins
 )

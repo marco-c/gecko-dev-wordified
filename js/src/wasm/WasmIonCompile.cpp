@@ -22651,7 +22651,7 @@ CHECK
 (
 EmitUnaryWithType
 <
-MAsmJSNeg
+MWasmNeg
 >
 (
 f
@@ -23007,7 +23007,7 @@ CHECK
 (
 EmitUnaryWithType
 <
-MAsmJSNeg
+MWasmNeg
 >
 (
 f
@@ -24022,7 +24022,7 @@ CHECK_ASMJS
 (
 EmitUnaryWithType
 <
-MAsmJSNeg
+MWasmNeg
 >
 (
 f

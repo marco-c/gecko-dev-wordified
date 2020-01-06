@@ -3990,9 +3990,9 @@ void
 LIRGeneratorARM
 :
 :
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 ins
 )

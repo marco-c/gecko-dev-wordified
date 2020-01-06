@@ -2186,9 +2186,9 @@ void
 LIRGeneratorMIPSShared
 :
 :
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 ins
 )

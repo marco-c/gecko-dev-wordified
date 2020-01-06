@@ -383,9 +383,9 @@ rhs
 )
 ;
 void
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 ins
 )
