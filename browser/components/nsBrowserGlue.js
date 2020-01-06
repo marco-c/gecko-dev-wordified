@@ -18001,7 +18001,7 @@ bundle
 GetStringFromName
 (
 "
-tabsArrivingNotification
+multipleTabsArrivingNotification
 .
 title
 "
