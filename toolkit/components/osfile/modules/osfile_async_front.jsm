@@ -2613,9 +2613,8 @@ reported
 return
 promise
 .
-catch
+then
 (
-null
 )
 ;
 }
