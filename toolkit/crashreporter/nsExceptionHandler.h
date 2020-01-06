@@ -556,6 +556,11 @@ uint32_t
 level
 )
 ;
+void
+SetMinidumpAnalysisAllThreads
+(
+)
+;
 nsresult
 SetRestartArgs
 (
