@@ -7552,10 +7552,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -7783,7 +7779,6 @@ aBuilder
 BuildDisplayListForChildren
 (
 aBuilder
-aDirtyRect
 destination
 )
 ;
@@ -8012,10 +8007,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -8086,7 +8077,6 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
-aDirtyRect
 set
 )
 ;

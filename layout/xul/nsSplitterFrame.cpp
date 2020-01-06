@@ -1815,10 +1815,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1830,7 +1826,6 @@ nsBoxFrame
 BuildDisplayList
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;
