@@ -308,6 +308,13 @@ mBodyStream
 copy
 -
 >
+mBodyLength
+=
+mBodyLength
+;
+copy
+-
+>
 mForceOriginHeader
 =
 true
@@ -598,6 +605,13 @@ HeadersGuardEnum
 :
 None
 )
+)
+mBodyLength
+(
+InternalResponse
+:
+:
+UNKNOWN_BODY_SIZE
 )
 mContentPolicyType
 (

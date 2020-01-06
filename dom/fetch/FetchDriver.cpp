@@ -2622,6 +2622,9 @@ endif
 /
 /
 DEBUG
+int64_t
+bodyLength
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -2637,6 +2640,8 @@ getter_AddRefs
 (
 bodyStream
 )
+&
+bodyLength
 )
 ;
 if
@@ -2664,8 +2669,7 @@ ExplicitSetUploadStream
 (
 bodyStream
 contentType
--
-1
+bodyLength
 method
 false
 /
