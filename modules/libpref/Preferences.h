@@ -162,6 +162,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2462,8 +2471,10 @@ nsIPrefBranch
 mDefaultRootBranch
 ;
 static
+StaticRefPtr
+<
 Preferences
-*
+>
 sPreferences
 ;
 static
