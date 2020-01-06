@@ -230,6 +230,10 @@ aDataFlags
 aClassFlags
 )
 {
+AssertValid
+(
+)
+;
 MOZ_RELEASE_ASSERT
 (
 CheckCapacity
