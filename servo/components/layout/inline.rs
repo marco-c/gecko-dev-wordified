@@ -65,7 +65,7 @@ unsafe_code
 )
 ]
 use
-StyleArc
+ServoArc
 ;
 use
 app_units
@@ -13070,7 +13070,7 @@ self
 _
 :
 &
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -13647,14 +13647,14 @@ OpaqueNode
 pub
 style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
 pub
 selected_style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >

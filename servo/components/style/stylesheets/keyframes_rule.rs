@@ -182,6 +182,12 @@ parser
 SelectorParseError
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -216,12 +222,6 @@ style_traits
 :
 :
 PropertyDeclarationParseError
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

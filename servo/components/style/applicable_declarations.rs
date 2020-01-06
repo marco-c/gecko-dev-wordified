@@ -79,6 +79,12 @@ StyleSource
 }
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -107,12 +113,6 @@ std
 :
 :
 mem
-;
-use
-stylearc
-:
-:
-Arc
 ;
 /
 /

@@ -96,6 +96,12 @@ parser
 ParserContext
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -103,12 +109,6 @@ shared_lock
 Locked
 SharedRwLock
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

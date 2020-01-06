@@ -105,6 +105,12 @@ parking_lot
 RwLock
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -135,12 +141,6 @@ std
 :
 :
 ptr
-;
-use
-stylearc
-:
-:
-Arc
 ;
 /
 /

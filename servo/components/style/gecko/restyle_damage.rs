@@ -113,6 +113,12 @@ properties
 ComputedValues
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -125,12 +131,6 @@ BitOr
 BitOrAssign
 Not
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 /
 /

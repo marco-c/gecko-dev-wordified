@@ -466,6 +466,10 @@ extern
 crate
 serde
 ;
+extern
+crate
+servo_arc
+;
 #
 [
 macro_use

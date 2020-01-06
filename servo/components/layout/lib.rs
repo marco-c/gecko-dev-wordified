@@ -222,6 +222,10 @@ serde_json
 ;
 extern
 crate
+servo_arc
+;
+extern
+crate
 servo_atoms
 ;
 extern
@@ -425,7 +429,7 @@ can
 '
 t
 use
-stylearc
+servo_arc
 for
 everything
 in
@@ -441,13 +445,10 @@ weak
 references
 .
 use
-style
-:
-:
-stylearc
+servo_arc
 :
 :
 Arc
 as
-StyleArc
+ServoArc
 ;

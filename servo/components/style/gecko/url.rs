@@ -147,6 +147,12 @@ parser
 ParserContext
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -160,12 +166,6 @@ style_traits
 ToCss
 ParseError
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 /
 /

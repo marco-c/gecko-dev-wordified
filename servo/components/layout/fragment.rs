@@ -80,7 +80,7 @@ unsafe_code
 )
 ]
 use
-StyleArc
+ServoArc
 ;
 use
 app_units
@@ -994,7 +994,7 @@ fragment
 pub
 style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -1015,7 +1015,7 @@ selected
 pub
 selected_style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -4971,13 +4971,13 @@ PseudoElementType
 >
 style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
 selected_style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -5138,7 +5138,7 @@ create_similar_anonymous_fragment
 self
 style
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -18515,7 +18515,7 @@ self
 new_style
 :
 &
-StyleArc
+ServoArc
 <
 ComputedValues
 >

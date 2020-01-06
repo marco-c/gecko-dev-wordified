@@ -110,6 +110,12 @@ properties
 PropertyDeclarationBlock
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -133,12 +139,6 @@ style_traits
 :
 :
 ToCss
-;
-use
-stylearc
-:
-:
-Arc
 ;
 /
 /

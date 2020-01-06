@@ -2287,7 +2287,7 @@ unused_imports
 )
 ]
 use
-stylearc
+servo_arc
 :
 :
 Arc

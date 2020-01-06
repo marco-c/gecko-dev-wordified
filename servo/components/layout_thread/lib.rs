@@ -227,6 +227,10 @@ serde_json
 ;
 extern
 crate
+servo_arc
+;
+extern
+crate
 servo_atoms
 ;
 extern
@@ -724,6 +728,14 @@ selectors
 Element
 ;
 use
+servo_arc
+:
+:
+Arc
+as
+ServoArc
+;
+use
 servo_atoms
 :
 :
@@ -1031,17 +1043,6 @@ SharedRwLock
 SharedRwLockReadGuard
 StylesheetGuards
 }
-;
-use
-style
-:
-:
-stylearc
-:
-:
-Arc
-as
-StyleArc
 ;
 use
 style
@@ -1612,7 +1613,7 @@ animations
 .
 running_animations
 :
-StyleArc
+ServoArc
 <
 RwLock
 <
@@ -1644,7 +1645,7 @@ recalculation
 .
 expired_animations
 :
-StyleArc
+ServoArc
 <
 RwLock
 <
@@ -3096,7 +3097,7 @@ Iter
 <
 '
 a
-StyleArc
+ServoArc
 <
 Stylesheet
 >
@@ -3643,7 +3644,7 @@ document_shared_lock
 None
 running_animations
 :
-StyleArc
+ServoArc
 :
 :
 new
@@ -3663,7 +3664,7 @@ default
 )
 expired_animations
 :
-StyleArc
+ServoArc
 :
 :
 new
@@ -5810,7 +5811,7 @@ b
 self
 stylesheet
 :
-StyleArc
+ServoArc
 <
 Stylesheet
 >

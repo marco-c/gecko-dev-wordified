@@ -3863,7 +3863,7 @@ new_style
 &
 :
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -4919,7 +4919,7 @@ style
 &
 :
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >
@@ -10827,7 +10827,7 @@ style
 &
 :
 :
-StyleArc
+ServoArc
 <
 ComputedValues
 >

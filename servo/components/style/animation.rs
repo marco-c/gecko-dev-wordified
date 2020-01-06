@@ -190,6 +190,12 @@ rule_tree
 CascadeLevel
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -200,12 +206,6 @@ mpsc
 :
 :
 Sender
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

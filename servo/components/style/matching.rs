@@ -201,7 +201,7 @@ matching
 ElementSelectorFlags
 ;
 use
-stylearc
+servo_arc
 :
 :
 {

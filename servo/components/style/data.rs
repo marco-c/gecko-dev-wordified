@@ -129,6 +129,12 @@ RestyleDamage
 }
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -145,12 +151,6 @@ ops
 Deref
 DerefMut
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 bitflags
 !

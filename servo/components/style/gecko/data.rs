@@ -192,6 +192,12 @@ properties
 ComputedValues
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -200,12 +206,6 @@ Locked
 StylesheetGuards
 SharedRwLockReadGuard
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheet_set

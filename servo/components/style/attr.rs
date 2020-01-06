@@ -151,6 +151,12 @@ attr
 AttrSelectorOperation
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 servo_url
 :
 :
@@ -205,12 +211,6 @@ str
 :
 :
 str_join
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 values

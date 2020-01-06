@@ -150,6 +150,12 @@ ParserContext
 }
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -177,12 +183,6 @@ ToCss
 ParseError
 StyleParseError
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

@@ -337,7 +337,7 @@ ImportSheet
 pub
 :
 :
-stylearc
+servo_arc
 :
 :
 Arc
@@ -486,7 +486,7 @@ DeepCloneParams
 Self
 {
 use
-stylearc
+servo_arc
 :
 :
 Arc
