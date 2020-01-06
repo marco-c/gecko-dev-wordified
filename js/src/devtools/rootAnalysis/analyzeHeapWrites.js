@@ -3030,6 +3030,9 @@ MOZ_ReportAssertionFailure
 MOZ_ReportCrash
 /
 /
+MOZ_CrashPrintf
+/
+/
 AnnotateMozCrashReason
 /
 /
