@@ -951,6 +951,14 @@ templateLiteralMap_
 init
 (
 )
+|
+|
+!
+iteratorCache
+.
+init
+(
+)
 )
 {
 if
@@ -6963,6 +6971,12 @@ purge
 objectGroups
 .
 purge
+(
+)
+;
+iteratorCache
+.
+clearAndShrink
 (
 )
 ;
