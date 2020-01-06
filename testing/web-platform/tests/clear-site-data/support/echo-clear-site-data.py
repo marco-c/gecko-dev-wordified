@@ -38,6 +38,8 @@ src
 "
 test_utils
 .
+sub
+.
 js
 "
 >
@@ -278,17 +280,26 @@ keys
     
 header
 =
-json
+"
+"
 .
-dumps
+join
 (
-{
 "
-types
+\
 "
-:
+"
++
+type
++
+"
+\
+"
+"
+for
+type
+in
 types
-}
 )
     
 return

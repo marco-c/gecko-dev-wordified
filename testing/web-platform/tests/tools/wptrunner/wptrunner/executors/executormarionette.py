@@ -3662,7 +3662,7 @@ here
 "
 reftest
 -
-wait
+wait_marionette
 .
 js
 "
