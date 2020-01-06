@@ -2058,11 +2058,8 @@ during
 Shutdown
 if
 (
-NS_WARN_IF
-(
 !
 mMainThread
-)
 )
 {
 return
