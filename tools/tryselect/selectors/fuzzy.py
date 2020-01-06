@@ -740,6 +740,9 @@ artifact
 '
 env
 '
+'
+rebuild
+'
 ]
 def
 run
