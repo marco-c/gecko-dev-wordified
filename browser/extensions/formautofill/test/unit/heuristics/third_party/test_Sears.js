@@ -1453,8 +1453,6 @@ fieldName
 cc
 -
 exp
--
-year
 "
 }
 /

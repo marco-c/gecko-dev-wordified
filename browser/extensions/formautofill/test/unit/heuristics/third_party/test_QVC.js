@@ -259,8 +259,6 @@ exp
 -
 month
 .
-/
-/
 {
 "
 section
@@ -290,6 +288,8 @@ cc
 exp
 "
 }
+/
+/
 {
 "
 section
@@ -350,6 +350,8 @@ cc
 number
 "
 }
+/
+/
 {
 "
 section
@@ -377,8 +379,6 @@ fieldName
 cc
 -
 exp
--
-month
 "
 }
 /
@@ -697,8 +697,6 @@ exp
 -
 month
 .
-/
-/
 {
 "
 section
@@ -731,6 +729,8 @@ exp
 /
 /
 select
+/
+/
 {
 "
 section
@@ -796,6 +796,8 @@ number
 ac
 -
 off
+/
+/
 {
 "
 section
@@ -823,8 +825,6 @@ fieldName
 cc
 -
 exp
--
-month
 "
 }
 /

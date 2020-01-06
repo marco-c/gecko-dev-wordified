@@ -1406,6 +1406,9 @@ tel
 "
 number
 "
+"
+month
+"
 ]
 isFieldEligibleForAutofill
 (
