@@ -558,9 +558,9 @@ refcounted
 objects
 so
 long
+/
+/
 as
-/
-/
 the
 Lambda
 doesn
@@ -574,9 +574,9 @@ which
 is
 required
 by
+/
+/
 ByRef
-/
-/
 captures
 already
 .
@@ -609,6 +609,8 @@ a
 strong
 reference
 to
+/
+/
 this
 .
 /
@@ -630,6 +632,8 @@ are
 capturing
 is
 a
+/
+/
 "
 Smart
 Pointer
@@ -805,6 +809,8 @@ captured
 variables
 or
 this
+/
+/
 pointers
 .
 for

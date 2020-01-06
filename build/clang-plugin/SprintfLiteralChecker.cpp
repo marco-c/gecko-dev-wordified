@@ -621,12 +621,12 @@ of
 these
 values
 fits
+/
+/
 within
 64
 bits
 .
-/
-/
 and
 zero
 -
@@ -639,6 +639,8 @@ to
 bits
 before
 comparing
+/
+/
 them
 .
 uint64_t

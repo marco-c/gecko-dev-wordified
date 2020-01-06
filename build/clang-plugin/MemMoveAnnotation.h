@@ -65,14 +65,14 @@ MemMoveAnnotation_h__
 #
 include
 "
-CustomTypeAnnotation
+CustomMatchers
 .
 h
 "
 #
 include
 "
-CustomMatchers
+CustomTypeAnnotation
 .
 h
 "

@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-plugin
+DiagnosticsMatcher
 .
 h
 "
 #
 include
 "
-DiagnosticsMatcher
+plugin
 .
 h
 "

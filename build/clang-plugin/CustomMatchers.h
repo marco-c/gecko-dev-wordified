@@ -269,7 +269,6 @@ RQ_RValue
 AST_POLYMORPHIC_MATCHER
 (
 isFirstParty
-\
 AST_POLYMORPHIC_SUPPORTED_TYPES
 (
 Decl
@@ -2353,6 +2352,14 @@ false
 #
 endif
 }
+/
+/
+namespace
+ast_matchers
 }
+/
+/
+namespace
+clang
 #
 endif

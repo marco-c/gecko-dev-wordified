@@ -516,6 +516,10 @@ true_type
 }
 /
 /
+namespace
+std
+/
+/
 We
 define
 the
@@ -719,6 +723,9 @@ TheEscapesFunctionErrorCategory
 }
 ;
 }
+/
+/
+namespace
 std
 :
 :
