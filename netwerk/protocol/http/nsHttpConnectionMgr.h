@@ -5425,9 +5425,9 @@ soon
 void
 CheckConnEntryMustBeInmCT
 (
-nsHttpConnectionInfo
+nsConnectionEntry
 *
-ci
+ent
 )
 ;
 }
