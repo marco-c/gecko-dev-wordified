@@ -130,6 +130,12 @@ UnicodeNonBMP
 .
 h
 "
+namespace
+js
+{
+namespace
+unicode
+{
 extern
 const
 bool
@@ -151,12 +157,6 @@ js_isspace
 [
 ]
 ;
-namespace
-js
-{
-namespace
-unicode
-{
 /
 *
 *
