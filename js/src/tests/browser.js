@@ -4921,15 +4921,6 @@ appendScript
 ;
 }
 }
-/
-/
-Overrides
-the
-definition
-from
-shell
-.
-js
 function
 jsTestDriverEnd
 (
@@ -5612,6 +5603,11 @@ jsTestDriverBrowserInit
 (
 this
 )
+;
+var
+gDelayTestDriverEnd
+=
+false
 ;
 var
 gPageCompleted
