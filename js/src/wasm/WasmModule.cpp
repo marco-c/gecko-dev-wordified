@@ -1664,7 +1664,7 @@ void
 Module
 :
 :
-finishTier2Generator
+finishTier2
 (
 UniqueLinkDataTier
 linkData2
@@ -1811,7 +1811,8 @@ the
 jump
 vector
 .
-uintptr_t
+void
+*
 *
 jumpTable
 =
@@ -1823,14 +1824,10 @@ jumpTable
 (
 )
 ;
-uintptr_t
+uint8_t
+*
 base
 =
-reinterpret_cast
-<
-uintptr_t
->
-(
 code
 (
 )
@@ -1845,7 +1842,6 @@ Ion
 .
 base
 (
-)
 )
 ;
 for

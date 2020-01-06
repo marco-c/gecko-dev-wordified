@@ -8078,7 +8078,8 @@ baseline
 compiled
 function
 .
-uintptr_t
+void
+*
 *
 jumpTable
 ;

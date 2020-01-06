@@ -1425,7 +1425,7 @@ makes
 visible
 .
 void
-finishTier2Generator
+finishTier2
 (
 UniqueLinkDataTier
 linkData2

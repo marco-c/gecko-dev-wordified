@@ -2430,9 +2430,15 @@ Metadata
 SharedMetadata
 ;
 typedef
+mozilla
+:
+:
 UniquePtr
 <
-uintptr_t
+void
+*
+[
+]
 JS
 :
 :
@@ -2540,7 +2546,8 @@ UniqueJumpTable
 maybeJumpTable
 )
 ;
-uintptr_t
+void
+*
 *
 jumpTable
 (
