@@ -1208,7 +1208,7 @@ Sanitize
 the
 table
 potentially
-dropping
+droping
 it
 TABLE_ACTION_PASSTHRU
 /
