@@ -62,18 +62,6 @@ strict
 "
 ;
 const
-filters
-=
-require
-(
-"
-.
-/
-filters
-"
-)
-;
-const
 requests
 =
 require
@@ -116,7 +104,6 @@ Object
 assign
 (
 exports
-filters
 requests
 timingMarkers
 ui
