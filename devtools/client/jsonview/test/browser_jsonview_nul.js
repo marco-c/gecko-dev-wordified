@@ -149,7 +149,7 @@ rawData
 "
 foo_
 \
-uFFFD_bar
+u0000_bar
 \
 "
 "
@@ -159,11 +159,7 @@ NUL
 character
 has
 been
-replaced
-by
-the
-replacement
-character
+preserved
 .
 "
 )
