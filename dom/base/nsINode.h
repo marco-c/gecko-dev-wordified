@@ -375,9 +375,6 @@ class
 nsIDOMNodeList
 ;
 class
-nsIEditor
-;
-class
 nsIFrame
 ;
 class
@@ -412,6 +409,9 @@ mozilla
 {
 class
 EventListenerManager
+;
+class
+TextEditor
 ;
 namespace
 dom
@@ -8039,10 +8039,13 @@ nsIContent
 *
 GetTextEditorRootContent
 (
-nsIEditor
+mozilla
+:
+:
+TextEditor
 *
 *
-aEditor
+aTextEditor
 =
 nullptr
 )

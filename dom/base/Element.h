@@ -475,6 +475,9 @@ mozilla
 class
 DeclarationBlock
 ;
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -7372,8 +7375,8 @@ override
 *
 *
 Locate
-an
-nsIEditor
+a
+TextEditor
 rooted
 at
 this
@@ -7386,9 +7389,12 @@ one
 .
 *
 /
-nsIEditor
+mozilla
+:
+:
+TextEditor
 *
-GetEditorInternal
+GetTextEditorInternal
 (
 )
 ;
