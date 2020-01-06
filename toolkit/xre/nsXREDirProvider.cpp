@@ -4648,9 +4648,9 @@ pref
 nsresult
 rv
 ;
-nsAutoString
+nsAdoptingString
 tempDirSuffix
-;
+=
 Preferences
 :
 :
@@ -4665,7 +4665,6 @@ content
 .
 tempDirSuffix
 "
-tempDirSuffix
 )
 ;
 if

@@ -12694,6 +12694,8 @@ hashes
 #
 ifdef
 DEBUG
+mTestBuiltInRootHash
+=
 Preferences
 :
 :
@@ -12706,11 +12708,12 @@ test
 .
 built_in_root_hash
 "
-mTestBuiltInRootHash
 )
 ;
 #
 endif
+mContentSigningRootHash
+=
 Preferences
 :
 :
@@ -12725,7 +12728,6 @@ signature
 .
 root_hash
 "
-mContentSigningRootHash
 )
 ;
 mNSSInitialized
@@ -13920,6 +13922,8 @@ lock
 mMutex
 )
 ;
+mTestBuiltInRootHash
+=
 Preferences
 :
 :
@@ -13932,7 +13936,6 @@ test
 .
 built_in_root_hash
 "
-mTestBuiltInRootHash
 )
 ;
 #
@@ -13982,6 +13985,8 @@ lock
 mMutex
 )
 ;
+mContentSigningRootHash
+=
 Preferences
 :
 :
@@ -13996,7 +14001,6 @@ signature
 .
 root_hash
 "
-mContentSigningRootHash
 )
 ;
 }

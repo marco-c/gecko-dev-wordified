@@ -30666,9 +30666,9 @@ sBuf
 ]
 )
 {
-nsAutoString
+nsAdoptingString
 tmp
-;
+=
 Preferences
 :
 :
@@ -30679,7 +30679,6 @@ intl
 .
 ellipsis
 "
-tmp
 )
 ;
 uint32_t

@@ -2852,6 +2852,8 @@ COMPLETE_ERROR
 mResult
 )
 {
+prefStr
+=
 Preferences
 :
 :
@@ -2864,7 +2866,6 @@ input
 .
 fallbackUploadDir
 "
-prefStr
 )
 ;
 }

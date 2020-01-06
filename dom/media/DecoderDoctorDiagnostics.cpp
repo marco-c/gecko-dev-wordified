@@ -3995,9 +3995,9 @@ formatsPref
 formats
 "
 ;
-nsAutoString
+nsAdoptingString
 formatsWithIssues
-;
+=
 Preferences
 :
 :
@@ -4008,7 +4008,6 @@ formatsPref
 Data
 (
 )
-formatsWithIssues
 )
 ;
 if
