@@ -2707,6 +2707,15 @@ parent
 NodeOrAncestorHasDirAuto
 (
 )
+&
+&
+!
+aTextNode
+-
+>
+IsInAnonymousSubtree
+(
+)
 )
 ;
 }
