@@ -273,7 +273,11 @@ toolbox
 :
 after
 {
-display
+border
+-
+bottom
+-
+style
 :
 none
 ;
