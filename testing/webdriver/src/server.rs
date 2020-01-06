@@ -660,7 +660,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 "
 Session
 is
@@ -753,7 +753,7 @@ new
 ErrorStatus
 :
 :
-SessionNotCreated
+InvalidSessionId
 "
 Tried
 to
