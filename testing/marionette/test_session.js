@@ -935,7 +935,7 @@ type
 ;
 /
 /
-noproxy
+direct
 p
 =
 new
@@ -950,7 +950,7 @@ p
 proxyType
 =
 "
-noproxy
+direct
 "
 ;
 ok
