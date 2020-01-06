@@ -5482,9 +5482,7 @@ mMathMLChar
 .
 Stretch
 (
-PresContext
-(
-)
+this
 aDrawTarget
 fontSizeInflation
 aStretchDirection
@@ -7174,9 +7172,7 @@ mMathMLChar
 .
 Stretch
 (
-PresContext
-(
-)
+this
 aDrawTarget
 nsLayoutUtils
 :
@@ -7538,9 +7534,7 @@ mMathMLChar
 .
 GetMaxWidth
 (
-PresContext
-(
-)
+this
 aRenderingContext
 -
 >

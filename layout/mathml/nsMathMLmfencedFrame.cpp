@@ -1105,9 +1105,9 @@ static
 void
 ApplyUnstretchedMetrics
 (
-nsPresContext
+nsIFrame
 *
-aPresContext
+aFrame
 DrawTarget
 *
 aDrawTarget
@@ -1146,7 +1146,7 @@ aMathMLChar
 >
 Stretch
 (
-aPresContext
+aFrame
 aDrawTarget
 aFontSizeInflation
 NS_STRETCH_DIRECTION_DEFAULT
@@ -1962,7 +1962,7 @@ separators
 .
 ApplyUnstretchedMetrics
 (
-aPresContext
+this
 drawTarget
 fontSizeInflation
 mOpenChar
@@ -1987,7 +1987,7 @@ i
 {
 ApplyUnstretchedMetrics
 (
-aPresContext
+this
 drawTarget
 fontSizeInflation
 &
@@ -2002,7 +2002,7 @@ isRTL
 }
 ApplyUnstretchedMetrics
 (
-aPresContext
+this
 drawTarget
 fontSizeInflation
 mCloseChar
@@ -2142,7 +2142,6 @@ fence
 .
 ReflowChar
 (
-aPresContext
 drawTarget
 *
 fm
@@ -2202,7 +2201,6 @@ i
 {
 ReflowChar
 (
-aPresContext
 drawTarget
 *
 fm
@@ -2253,7 +2251,6 @@ fence
 .
 ReflowChar
 (
-aPresContext
 drawTarget
 *
 fm
@@ -2815,20 +2812,12 @@ of
 formatting
 our
 chars
-/
-*
-static
-*
-/
 nsresult
 nsMathMLmfencedFrame
 :
 :
 ReflowChar
 (
-nsPresContext
-*
-aPresContext
 DrawTarget
 *
 aDrawTarget
@@ -2921,7 +2910,7 @@ aMathMLChar
 >
 Stretch
 (
-aPresContext
+this
 aDrawTarget
 aFontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
@@ -3467,9 +3456,9 @@ static
 nscoord
 GetMaxCharWidth
 (
-nsPresContext
+nsIFrame
 *
-aPresContext
+aFrame
 DrawTarget
 *
 aDrawTarget
@@ -3494,7 +3483,7 @@ aMathMLChar
 >
 GetMaxWidth
 (
-aPresContext
+aFrame
 aDrawTarget
 aFontSizeInflation
 )
@@ -3563,14 +3552,6 @@ width
 =
 0
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 const
 nsStyleFont
 *
@@ -3625,7 +3606,7 @@ width
 =
 GetMaxCharWidth
 (
-presContext
+this
 aRenderingContext
 -
 >
@@ -3724,7 +3705,7 @@ width
 =
 GetMaxCharWidth
 (
-presContext
+this
 aRenderingContext
 -
 >
@@ -3761,7 +3742,7 @@ width
 =
 GetMaxCharWidth
 (
-presContext
+this
 aRenderingContext
 -
 >

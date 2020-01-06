@@ -328,13 +328,9 @@ the
 MathMLChars
 involved
 here
-static
 nsresult
 ReflowChar
 (
-nsPresContext
-*
-aPresContext
 DrawTarget
 *
 aDrawTarget

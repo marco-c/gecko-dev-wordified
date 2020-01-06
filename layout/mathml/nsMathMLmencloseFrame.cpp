@@ -2983,9 +2983,7 @@ mLongDivCharIndex
 .
 GetMaxWidth
 (
-PresContext
-(
-)
+this
 aDrawTarget
 fontSizeInflation
 )
@@ -3077,9 +3075,7 @@ mLongDivCharIndex
 .
 Stretch
 (
-PresContext
-(
-)
+this
 aDrawTarget
 fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
@@ -3247,9 +3243,7 @@ mRadicalCharIndex
 .
 GetMaxWidth
 (
-PresContext
-(
-)
+this
 aDrawTarget
 fontSizeInflation
 )
@@ -3344,9 +3338,7 @@ mRadicalCharIndex
 .
 Stretch
 (
-PresContext
-(
-)
+this
 aDrawTarget
 fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
