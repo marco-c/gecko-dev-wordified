@@ -9210,7 +9210,7 @@ Now
 cpcp
 -
 >
-DidComposite
+DidCompositeLocked
 (
 child
 now
@@ -11031,7 +11031,7 @@ mCrossProcessParent
 cpcp
 -
 >
-DidComposite
+DidCompositeLocked
 (
 aLayersId
 aCompositeStart
