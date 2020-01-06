@@ -3856,15 +3856,6 @@ wr
 DisplayListBuilder
 &
 aBuilder
-mozilla
-:
-:
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 const
 mozilla
 :
@@ -4164,7 +4155,6 @@ CreateImageKey
 aItem
 container
 aBuilder
-aResources
 aSc
 size
 )
@@ -4808,15 +4798,6 @@ wr
 DisplayListBuilder
 &
 aBuilder
-mozilla
-:
-:
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 const
 mozilla
 :
@@ -4944,7 +4925,6 @@ BuildWebRenderDisplayItems
 (
 aPresContext
 aBuilder
-aResources
 aSc
 aParentCommands
 aLayer

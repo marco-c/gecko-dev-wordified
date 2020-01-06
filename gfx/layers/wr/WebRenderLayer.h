@@ -129,13 +129,6 @@ namespace
 mozilla
 {
 namespace
-wr
-{
-class
-IpcResourceUpdateQueue
-;
-}
-namespace
 layers
 {
 class

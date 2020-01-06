@@ -2509,7 +2509,6 @@ CreateImageKey
 aItem
 container
 aBuilder
-aResources
 aSc
 size
 )
