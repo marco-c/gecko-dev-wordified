@@ -1221,7 +1221,7 @@ mPtr
 struct
 ServoComputedValueFlags
 {
-uint8_t
+uint16_t
 mFlags
 ;
 }
