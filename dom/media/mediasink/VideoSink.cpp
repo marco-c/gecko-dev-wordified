@@ -138,6 +138,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 IntegerPrintfMacros
