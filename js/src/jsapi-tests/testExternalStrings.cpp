@@ -191,12 +191,6 @@ static
 void
 finalize_str
 (
-JS
-:
-:
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
@@ -228,12 +222,6 @@ static
 void
 finalize_str
 (
-JS
-:
-:
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
