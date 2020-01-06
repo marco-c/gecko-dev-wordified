@@ -58,8 +58,8 @@ URL
 ;
 add_task
 (
+async
 function
-*
 test_getFieldOverrides
 (
 )

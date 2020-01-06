@@ -124,8 +124,8 @@ scalars
 }
 add_task
 (
+async
 function
-*
 test_serializationFormat
 (
 )
@@ -439,8 +439,8 @@ section
 ;
 add_task
 (
+async
 function
-*
 test_keyedSerializationFormat
 (
 )
@@ -740,8 +740,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_nonexistingScalar
 (
 )
@@ -945,8 +945,8 @@ persisted
 ;
 add_task
 (
+async
 function
-*
 test_expiredScalar
 (
 )
@@ -1212,8 +1212,8 @@ persisted
 ;
 add_task
 (
+async
 function
-*
 test_unsignedIntScalar
 (
 )
@@ -1600,8 +1600,8 @@ checkScalar
 ;
 add_task
 (
+async
 function
-*
 test_stringScalar
 (
 )
@@ -1815,8 +1815,8 @@ substr
 ;
 add_task
 (
+async
 function
-*
 test_booleanScalar
 (
 )
@@ -2049,8 +2049,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_scalarRecording
 (
 )
@@ -2331,8 +2331,8 @@ OPTIN_SCALAR
 ;
 add_task
 (
+async
 function
-*
 test_keyedScalarRecording
 (
 )
@@ -2631,8 +2631,8 @@ OPTIN_SCALAR
 ;
 add_task
 (
+async
 function
-*
 test_subsession
 (
 )
@@ -2979,8 +2979,8 @@ reported
 ;
 add_task
 (
+async
 function
-*
 test_keyed_uint
 (
 )
@@ -3243,8 +3243,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_keyed_boolean
 (
 )
@@ -3532,8 +3532,8 @@ somehey
 ;
 add_task
 (
+async
 function
-*
 test_keyed_keys_length
 (
 )
@@ -3825,8 +3825,8 @@ recorded
 ;
 add_task
 (
+async
 function
-*
 test_keyed_max_keys
 (
 )

@@ -58,8 +58,8 @@ clone
 }
 add_task
 (
+async
 function
-*
 test_canonicalJSON_should_preserve_array_order
 (
 )
@@ -117,8 +117,8 @@ three
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_orders_object_keys
 (
 )
@@ -196,8 +196,8 @@ three
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_orders_nested_object_keys
 (
 )
@@ -299,8 +299,8 @@ d
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_escapes_unicode_values
 (
 )
@@ -384,8 +384,8 @@ u00e9
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_escapes_unicode_object_keys
 (
 )
@@ -429,8 +429,8 @@ check
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_does_not_alter_input
 (
 )
@@ -520,8 +520,8 @@ serializedJSON
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_preserves_data
 (
 )
@@ -650,8 +650,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_does_not_add_space_separators
 (
 )
@@ -733,8 +733,8 @@ includes
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_serializes_empty_object
 (
 )
@@ -759,8 +759,8 @@ stringify
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_serializes_empty_array
 (
 )
@@ -785,8 +785,8 @@ stringify
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_serializes_NaN
 (
 )
@@ -809,8 +809,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_serializes_inf
 (
 )
@@ -845,8 +845,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_serializes_empty_string
 (
 )
@@ -871,8 +871,8 @@ stringify
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_escapes_backslashes
 (
 )
@@ -909,8 +909,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_handles_signed_zeros
 (
 )
@@ -969,8 +969,8 @@ stringify
 ;
 add_task
 (
+async
 function
-*
 test_canonicalJSON_with_deeply_nested_dicts
 (
 )

@@ -1082,8 +1082,8 @@ testPattern
 {
 add_task
 (
+async
 function
-*
 (
 )
 {

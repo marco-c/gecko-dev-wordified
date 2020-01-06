@@ -1341,8 +1341,8 @@ PRODUCT
 %
 add_task
 (
+async
 function
-*
 test_product
 (
 )
@@ -1396,8 +1396,8 @@ VERSION
 %
 add_task
 (
+async
 function
-*
 test_version
 (
 )
@@ -1451,8 +1451,8 @@ BUILD_ID
 %
 add_task
 (
+async
 function
-*
 test_build_id
 (
 )
@@ -1521,8 +1521,8 @@ actual
 ABI
 add_task
 (
+async
 function
-*
 test_build_target
 (
 )
@@ -1770,8 +1770,8 @@ update
 locale
 add_task
 (
+async
 function
-*
 test_locale
 (
 )
@@ -1863,8 +1863,8 @@ CHANNEL
 %
 add_task
 (
+async
 function
-*
 test_channel
 (
 )
@@ -1928,8 +1928,8 @@ distribution
 partners
 add_task
 (
+async
 function
-*
 test_channel_distribution
 (
 )
@@ -2017,8 +2017,8 @@ PLATFORM_VERSION
 %
 add_task
 (
+async
 function
-*
 test_platform_version
 (
 )
@@ -2072,8 +2072,8 @@ OS_VERSION
 %
 add_task
 (
+async
 function
-*
 test_os_version
 (
 )
@@ -2364,8 +2364,8 @@ DISTRIBUTION
 %
 add_task
 (
+async
 function
-*
 test_distribution
 (
 )
@@ -2429,8 +2429,8 @@ DISTRIBUTION_VERSION
 %
 add_task
 (
+async
 function
-*
 test_distribution_version
 (
 )
@@ -2486,8 +2486,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_custom
 (
 )
@@ -2560,8 +2560,8 @@ SYSTEM_CAPABILITIES
 %
 add_task
 (
+async
 function
-*
 test_systemCapabilities
 (
 )

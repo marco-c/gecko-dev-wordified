@@ -114,8 +114,8 @@ arguments
 /
 add_task
 (
+async
 function
-*
 test_null_args_addPath
 (
 )
@@ -305,8 +305,8 @@ arguments
 /
 add_task
 (
+async
 function
-*
 test_null_args_removePath
 (
 )

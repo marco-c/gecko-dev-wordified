@@ -579,8 +579,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_dedupeLogins_resolveBy
 (
 )
@@ -1089,8 +1089,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_dedupeLogins_preferredOriginMissing
 (
 )

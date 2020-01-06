@@ -156,8 +156,8 @@ activated
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -191,7 +191,7 @@ test
 on
 repeat
 .
-yield
+await
 new
 Promise
 (
@@ -211,14 +211,14 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -302,7 +302,7 @@ close
 "
 )
 ;
-yield
+await
 withReflowObserver
 (
 async

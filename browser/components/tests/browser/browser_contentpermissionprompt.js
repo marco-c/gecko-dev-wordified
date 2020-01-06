@@ -437,8 +437,8 @@ cancelled
 /
 add_task
 (
+async
 function
-*
 test_empty_types
 (
 )
@@ -532,8 +532,8 @@ cancelled
 /
 add_task
 (
+async
 function
-*
 test_multiple_types
 (
 )
@@ -637,8 +637,8 @@ cancelled
 /
 add_task
 (
+async
 function
-*
 test_not_permission_type
 (
 )
@@ -742,8 +742,8 @@ cancelled
 /
 add_task
 (
+async
 function
-*
 test_unrecognized_type
 (
 )
@@ -841,8 +841,8 @@ method
 /
 add_task
 (
+async
 function
-*
 test_working_request
 (
 )

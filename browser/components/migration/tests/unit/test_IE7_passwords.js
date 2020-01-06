@@ -2564,8 +2564,8 @@ aURL
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -2720,8 +2720,8 @@ dummy
 ;
 add_task
 (
+async
 function
-*
 test_passwordsNotAvailable
 (
 )
@@ -2922,8 +2922,8 @@ registry
 ;
 add_task
 (
+async
 function
-*
 test_passwordsAvailable
 (
 )

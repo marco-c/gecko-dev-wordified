@@ -90,8 +90,8 @@ correctly
 .
 add_task
 (
+async
 function
-*
 check_definition
 (
 )

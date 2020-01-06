@@ -256,8 +256,8 @@ cleanup
 .
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -331,8 +331,8 @@ cookies
 .
 add_task
 (
+async
 function
-*
 test_level_none
 (
 )
@@ -514,8 +514,8 @@ cookies
 .
 add_task
 (
+async
 function
-*
 test_level_encrypted
 (
 )
@@ -726,8 +726,8 @@ cookies
 .
 add_task
 (
+async
 function
-*
 test_level_full
 (
 )

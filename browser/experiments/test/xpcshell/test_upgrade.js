@@ -156,8 +156,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_valid
 (
 )
@@ -198,8 +198,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_upgrade
 (
 )
@@ -245,8 +245,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_missing
 (
 )

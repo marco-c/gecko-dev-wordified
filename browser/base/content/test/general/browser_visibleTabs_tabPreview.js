@@ -58,8 +58,8 @@ MPL
 /
 add_task
 (
+async
 function
-*
 test
 (
 )

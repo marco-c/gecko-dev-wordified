@@ -192,8 +192,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_addon_csp
 (
 )

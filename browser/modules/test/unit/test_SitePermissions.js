@@ -94,8 +94,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 testPermissionsListing
 (
 )
@@ -245,8 +245,8 @@ permissions
 ;
 add_task
 (
+async
 function
-*
 testGetAllByURI
 (
 )
@@ -639,8 +639,8 @@ addon
 ;
 add_task
 (
+async
 function
-*
 testGetAvailableStates
 (
 )
@@ -722,8 +722,8 @@ BLOCK
 ;
 add_task
 (
+async
 function
-*
 testExactHostMatch
 (
 )

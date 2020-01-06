@@ -50,8 +50,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testAutocompletePopup
 (
 )
@@ -319,8 +319,8 @@ html
 }
 )
 ;
+async
 function
-*
 testDatalist
 (
 browser
@@ -365,7 +365,7 @@ two
 clicks
 to
 open
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -381,7 +381,7 @@ input
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -407,7 +407,7 @@ event
 "
 )
 ;
-yield
+await
 opened
 ;
 /
@@ -435,7 +435,7 @@ now
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -461,7 +461,7 @@ event
 "
 )
 ;
-yield
+await
 closed
 ;
 /
@@ -502,7 +502,7 @@ shown
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -520,14 +520,14 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -559,7 +559,7 @@ script
 let
 bowser
 =
-yield
+await
 awaitExtensionPanel
 (
 extension
@@ -578,7 +578,7 @@ browser
 "
 )
 ;
-yield
+await
 testDatalist
 (
 bowser
@@ -590,7 +590,7 @@ closePageAction
 extension
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -611,7 +611,7 @@ extension
 ;
 bowser
 =
-yield
+await
 awaitExtensionPanel
 (
 extension
@@ -630,7 +630,7 @@ browser
 "
 )
 ;
-yield
+await
 testDatalist
 (
 bowser
@@ -642,7 +642,7 @@ closeBrowserAction
 extension
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -656,14 +656,14 @@ resolve
 )
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

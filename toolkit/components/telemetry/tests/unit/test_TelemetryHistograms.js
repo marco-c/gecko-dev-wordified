@@ -688,7 +688,6 @@ skip_if
 gIsAndroid
 }
 function
-*
 test_instantiate
 (
 )
@@ -832,8 +831,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_parameterChecks
 (
 )
@@ -923,8 +922,8 @@ bucket_count
 ;
 add_task
 (
+async
 function
-*
 test_parameterCounts
 (
 )
@@ -1021,8 +1020,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_parameterCountsKeyed
 (
 )
@@ -1125,8 +1124,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_noSerialization
 (
 )
@@ -1186,8 +1185,8 @@ histogramSnapshots
 ;
 add_task
 (
+async
 function
-*
 test_boolean_histogram
 (
 )
@@ -1358,8 +1357,8 @@ counts
 ;
 add_task
 (
+async
 function
-*
 test_flag_histogram
 (
 )
@@ -1599,8 +1598,8 @@ HISTOGRAM_FLAG
 ;
 add_task
 (
+async
 function
-*
 test_count_histogram
 (
 )
@@ -1755,8 +1754,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 test_categorical_histogram
 (
 )
@@ -2239,8 +2238,8 @@ slice
 ;
 add_task
 (
+async
 function
-*
 test_add_error_behaviour
 (
 )
@@ -2407,8 +2406,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 test_API_return_values
 (
 )
@@ -2552,8 +2551,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 test_getHistogramById
 (
 )
@@ -2639,8 +2638,8 @@ max
 ;
 add_task
 (
+async
 function
-*
 test_getSlowSQL
 (
 )
@@ -2677,8 +2676,8 @@ slow
 ;
 add_task
 (
+async
 function
-*
 test_getWebrtc
 (
 )
@@ -2732,8 +2731,8 @@ private
 mode
 add_task
 (
+async
 function
-*
 test_privateMode
 (
 )
@@ -2835,8 +2834,8 @@ to
 .
 add_task
 (
+async
 function
-*
 test_histogramRecording
 (
 )
@@ -3287,8 +3286,8 @@ recording
 ;
 add_task
 (
+async
 function
-*
 test_expired_histogram
 (
 )
@@ -3380,8 +3379,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 test_keyed_histogram
 (
 )
@@ -3461,8 +3460,8 @@ thrown
 ;
 add_task
 (
+async
 function
-*
 test_keyed_boolean_histogram
 (
 )
@@ -3853,8 +3852,8 @@ snapshot
 ;
 add_task
 (
+async
 function
-*
 test_keyed_count_histogram
 (
 )
@@ -4351,8 +4350,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 test_keyed_categorical_histogram
 (
 )
@@ -4689,8 +4688,8 @@ slice
 ;
 add_task
 (
+async
 function
-*
 test_keyed_flag_histogram
 (
 )
@@ -4864,8 +4863,8 @@ snapshot
 ;
 add_task
 (
+async
 function
-*
 test_keyed_histogram_recording
 (
 )
@@ -5218,8 +5217,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 test_histogram_recording_enabled
 (
 )
@@ -5647,8 +5646,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_keyed_histogram_recording_enabled
 (
 )
@@ -6002,8 +6001,8 @@ disabled
 ;
 add_task
 (
+async
 function
-*
 test_histogramSnapshots
 (
 )
@@ -6062,8 +6061,8 @@ histogramSnapshots
 ;
 add_task
 (
+async
 function
-*
 test_datasets
 (
 )
@@ -6344,7 +6343,6 @@ skip_if
 gIsAndroid
 }
 function
-*
 test_subsession
 (
 )
@@ -7043,7 +7041,6 @@ skip_if
 gIsAndroid
 }
 function
-*
 test_keyed_subsession
 (
 )

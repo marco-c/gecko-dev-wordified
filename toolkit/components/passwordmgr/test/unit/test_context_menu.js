@@ -105,8 +105,8 @@ tests
 /
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -152,8 +152,8 @@ items
 /
 add_task
 (
+async
 function
-*
 test_contextMenuAddAndRemoveLogins
 (
 )

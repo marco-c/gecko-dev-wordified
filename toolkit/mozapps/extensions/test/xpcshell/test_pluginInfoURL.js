@@ -378,8 +378,8 @@ blocklist
 /
 add_task
 (
+async
 function
-*
 test_infoURL
 (
 )
@@ -488,8 +488,8 @@ blocklist
 /
 add_task
 (
+async
 function
-*
 test_altInfoURL
 (
 )
@@ -570,8 +570,8 @@ file
 /
 add_task
 (
+async
 function
-*
 test_infoURL_missing
 (
 )
@@ -611,8 +611,8 @@ available
 ;
 add_task
 (
+async
 function
-*
 test_intoURL_newVersion
 (
 )

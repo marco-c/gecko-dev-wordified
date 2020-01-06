@@ -600,8 +600,8 @@ terminate
 }
 add_task
 (
+async
 function
-*
 testWorker
 (
 )
@@ -652,7 +652,7 @@ js
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -711,7 +711,7 @@ for
 all
 elements
 .
-yield
+await
 new
 Promise
 (
@@ -727,13 +727,13 @@ resolve
 )
 )
 ;
-yield
+await
 checkWorker
 (
 worker1
 )
 ;
-yield
+await
 checkWorker
 (
 worker2
@@ -744,8 +744,8 @@ worker2
 ;
 add_task
 (
+async
 function
-*
 testDOM
 (
 )
