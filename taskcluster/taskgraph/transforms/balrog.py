@@ -458,7 +458,7 @@ setdefault
 symbol
 '
 '
-c
+tc
 -
 Up
 (
@@ -560,22 +560,6 @@ copy_attributes_from_dependent_job
 dep_job
 )
         
-treeherder_job_symbol
-=
-dep_job
-.
-attributes
-.
-get
-(
-'
-locale
-'
-'
-N
-'
-)
-        
 if
 dep_job
 .
@@ -597,7 +581,7 @@ symbol
 ]
 =
 '
-c
+tc
 -
 Up
 (
@@ -608,7 +592,16 @@ Up
 .
 format
 (
-treeherder_job_symbol
+dep_job
+.
+attributes
+.
+get
+(
+'
+locale
+'
+)
 )
             
 attributes
@@ -792,6 +785,17 @@ description
 '
 :
 description
+            
+#
+do
+we
+have
+to
+define
+worker
+type
+somewhere
+?
             
 '
 worker
