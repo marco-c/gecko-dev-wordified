@@ -1684,6 +1684,15 @@ nsIDocShell
 aDocShell
 )
 ;
+static
+bool
+ShouldResistFingerprinting
+(
+nsIDocument
+*
+aDoc
+)
+;
 /
 /
 A
