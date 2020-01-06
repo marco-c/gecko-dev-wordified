@@ -196,7 +196,7 @@ Color
 static
 const
 Color
-sAndroidHoverColor
+sAndroidActiveColor
 (
 Color
 (

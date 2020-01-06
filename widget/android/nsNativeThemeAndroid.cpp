@@ -351,7 +351,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_HOVER
+NS_EVENT_STATE_ACTIVE
 )
 )
 {
@@ -371,7 +371,7 @@ mozilla
 widget
 :
 :
-sAndroidHoverColor
+sAndroidActiveColor
 )
 )
 )
@@ -1070,7 +1070,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_HOVER
+NS_EVENT_STATE_ACTIVE
 )
 )
 {
@@ -1090,7 +1090,7 @@ mozilla
 widget
 :
 :
-sAndroidHoverColor
+sAndroidActiveColor
 )
 )
 )
