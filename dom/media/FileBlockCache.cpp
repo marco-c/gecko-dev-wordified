@@ -182,6 +182,15 @@ h
 #
 include
 "
+mozilla
+/
+SystemGroup
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

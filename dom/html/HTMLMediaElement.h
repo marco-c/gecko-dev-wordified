@@ -269,6 +269,17 @@ nsStubMutationObserver
 .
 h
 "
+#
+include
+"
+MediaSegment
+.
+h
+"
+/
+/
+for
+PrincipalHandle
 /
 /
 X

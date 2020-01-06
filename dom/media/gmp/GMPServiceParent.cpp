@@ -372,6 +372,15 @@ MediaPrefs
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SystemGroup
+.
+h
+"
 using
 mozilla
 :
