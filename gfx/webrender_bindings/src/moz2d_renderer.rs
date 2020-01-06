@@ -9,7 +9,7 @@ bindings
 :
 :
 {
-WrByteSlice
+ByteSlice
 MutByteSlice
 wr_moz2d_render_cb
 }
@@ -462,7 +462,7 @@ unsafe
 if
 wr_moz2d_render_cb
 (
-WrByteSlice
+ByteSlice
 :
 :
 new

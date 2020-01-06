@@ -619,7 +619,7 @@ C
 ]
 pub
 struct
-WrByteSlice
+ByteSlice
 {
 buffer
 :
@@ -631,7 +631,7 @@ len
 usize
 }
 impl
-WrByteSlice
+ByteSlice
 {
 pub
 fn
@@ -646,9 +646,9 @@ u8
 )
 -
 >
-WrByteSlice
+ByteSlice
 {
-WrByteSlice
+ByteSlice
 {
 buffer
 :
@@ -3977,7 +3977,7 @@ descriptor
 WrImageDescriptor
 bytes
 :
-WrByteSlice
+ByteSlice
 )
 {
 assert
@@ -4051,7 +4051,7 @@ descriptor
 WrImageDescriptor
 bytes
 :
-WrByteSlice
+ByteSlice
 )
 {
 assert
@@ -4286,7 +4286,7 @@ descriptor
 WrImageDescriptor
 bytes
 :
-WrByteSlice
+ByteSlice
 )
 {
 assert
@@ -8857,7 +8857,7 @@ wr_moz2d_render_cb
 (
 blob
 :
-WrByteSlice
+ByteSlice
 width
 :
 u32

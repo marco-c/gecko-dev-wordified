@@ -561,7 +561,7 @@ mozilla
 wr
 :
 :
-WrByteSlice
+ByteSlice
 blob
 uint32_t
 width
