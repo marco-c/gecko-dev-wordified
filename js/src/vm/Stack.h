@@ -8176,6 +8176,7 @@ frames
 nullptr
 ;
 }
+MOZ_ALWAYS_INLINE
 ~
 LiveSavedFrameCache
 (
@@ -8183,7 +8184,10 @@ LiveSavedFrameCache
 {
 if
 (
+MOZ_UNLIKELY
+(
 frames
+)
 )
 {
 js_delete
@@ -10131,6 +10135,7 @@ endif
 public
 :
 explicit
+MOZ_ALWAYS_INLINE
 JitActivation
 (
 JSContext
@@ -10138,6 +10143,7 @@ JSContext
 cx
 )
 ;
+MOZ_ALWAYS_INLINE
 ~
 JitActivation
 (
