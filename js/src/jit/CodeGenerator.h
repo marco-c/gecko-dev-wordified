@@ -3031,6 +3031,14 @@ lir
 )
 ;
 void
+visitObjectClassToString
+(
+LObjectClassToString
+*
+lir
+)
+;
+void
 visitWasmParameter
 (
 LWasmParameter

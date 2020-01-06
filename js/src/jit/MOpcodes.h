@@ -1484,6 +1484,11 @@ HasClass
 \
 _
 (
+ObjectClassToString
+)
+\
+_
+(
 CopySign
 )
 \

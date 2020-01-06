@@ -360,6 +360,17 @@ Value
 vp
 )
 ;
+JSString
+*
+ObjectClassToString
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
 /
 /
 Exposed
