@@ -2727,25 +2727,11 @@ callback
 :
 {
 }
-.
-Known
-callbacks
-:
-{
-}
 '
 .
 format
 (
-            
 callback
-get_callbacks
-(
-)
-.
-keys
-(
-)
 )
 )
     
