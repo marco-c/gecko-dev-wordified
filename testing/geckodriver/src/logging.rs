@@ -974,6 +974,16 @@ starts_with
 webdriver
 "
 )
+|
+|
+module
+.
+starts_with
+(
+"
+mozrunner
+"
+)
 {
 let
 ts
