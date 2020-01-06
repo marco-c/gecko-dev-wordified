@@ -4134,7 +4134,7 @@ restyle
 .
 hint
 .
-has_non_animation_hint
+has_non_animation_invalidations
 (
 )
 }
