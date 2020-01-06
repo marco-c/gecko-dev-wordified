@@ -4154,18 +4154,6 @@ the
 target
 function
 .
-/
-/
-Note
-that
-this
-code
-assumes
-the
-function
-is
-JITted
-.
 masm
 .
 andPtr
@@ -4183,7 +4171,6 @@ loadJitCodeRaw
 (
 r1
 r3
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

@@ -15975,9 +15975,6 @@ Register
 callee
 Register
 dest
-Label
-*
-failure
 )
 ;
 void
@@ -15987,9 +15984,6 @@ Register
 callee
 Register
 dest
-Label
-*
-failure
 )
 ;
 void

@@ -4395,18 +4395,6 @@ the
 target
 function
 .
-/
-/
-Note
-that
-this
-code
-assumes
-the
-function
-is
-JITted
-.
 masm
 .
 andq
@@ -4427,7 +4415,6 @@ loadJitCodeRaw
 (
 rax
 rax
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

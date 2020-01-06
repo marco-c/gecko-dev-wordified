@@ -4395,17 +4395,6 @@ the
 target
 function
 .
-/
-/
-Note
-that
-this
-assumes
-the
-function
-is
-JITted
-.
 masm
 .
 andl
@@ -4423,7 +4412,6 @@ loadJitCodeRaw
 (
 eax
 eax
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

@@ -2325,7 +2325,7 @@ if
 !
 getter
 .
-hasJITCode
+hasScript
 (
 )
 )
@@ -4410,7 +4410,7 @@ MOZ_ASSERT
 target
 -
 >
-hasJITCode
+hasScript
 (
 )
 )
@@ -19580,7 +19580,7 @@ if
 !
 setter
 .
-hasJITCode
+hasScript
 (
 )
 )
@@ -19857,7 +19857,7 @@ MOZ_ASSERT
 target
 -
 >
-hasJITCode
+hasScript
 (
 )
 )
