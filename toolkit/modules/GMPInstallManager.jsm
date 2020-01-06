@@ -534,11 +534,13 @@ url
 =
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
 KEY_URL_OVERRIDE
+"
+"
 )
 ;
 if
@@ -567,7 +569,7 @@ url
 =
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -806,7 +808,7 @@ allowNonBuiltIn
 !
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -818,7 +820,7 @@ if
 (
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1172,7 +1174,7 @@ lastCheck
 =
 GMPPrefs
 .
-get
+getInt
 (
 GMPPrefs
 .
@@ -1231,7 +1233,7 @@ _isEMEEnabled
 return
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1248,7 +1250,7 @@ aAddon
 return
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1274,7 +1276,7 @@ aAddon
 &
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1306,7 +1308,7 @@ now
 ;
 GMPPrefs
 .
-set
+setInt
 (
 GMPPrefs
 .
@@ -1324,12 +1326,13 @@ savedBuildID
 =
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
 KEY_BUILDID
-null
+"
+"
 )
 ;
 let
@@ -1340,6 +1343,10 @@ Services
 appinfo
 .
 platformBuildID
+|
+|
+"
+"
 ;
 if
 (
@@ -1355,7 +1362,7 @@ false
 }
 GMPPrefs
 .
-set
+setString
 (
 GMPPrefs
 .
@@ -1494,7 +1501,7 @@ secondsBetweenChecks
 =
 GMPPrefs
 .
-get
+getInt
 (
 GMPPrefs
 .
@@ -2533,7 +2540,7 @@ version
 &
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -2631,7 +2638,7 @@ version
 &
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -3184,7 +3191,7 @@ now
 ;
 GMPPrefs
 .
-set
+setInt
 (
 GMPPrefs
 .
@@ -3237,7 +3244,7 @@ library
 .
 GMPPrefs
 .
-set
+setString
 (
 GMPPrefs
 .
@@ -3279,7 +3286,7 @@ this
 .
 GMPPrefs
 .
-set
+setString
 (
 GMPPrefs
 .

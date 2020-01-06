@@ -1688,7 +1688,7 @@ if
 !
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -3091,7 +3091,7 @@ if
 !
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .

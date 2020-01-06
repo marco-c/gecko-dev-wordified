@@ -1094,7 +1094,7 @@ false
 ;
 gPrefs
 .
-setCharPref
+setIntPref
 (
 gGetKey
 (
@@ -1107,9 +1107,6 @@ mockAddon
 .
 id
 )
-"
-"
-+
 TEST_TIME_SEC
 )
 ;
