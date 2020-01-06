@@ -112,7 +112,6 @@ const
 {
 ElementClickInterceptedError
 ElementNotInteractableError
-error
 InvalidArgument
 InvalidArgumentError
 InvalidElementStateError
@@ -1038,8 +1037,6 @@ throw
 new
 ElementNotInteractableError
 (
-error
-.
 pprint
 Element
 {
