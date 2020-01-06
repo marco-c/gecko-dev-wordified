@@ -27828,6 +27828,10 @@ mode
 MNode
 (
 block
+Kind
+:
+:
+ResumePoint
 )
 pc_
 (
@@ -27890,7 +27894,9 @@ caller
 const
 {
 return
-block_
+block
+(
+)
 -
 >
 callerResumePoint

@@ -2030,9 +2030,10 @@ RefType_None
 resumePoint
 -
 >
-block_
-=
+setBlock
+(
 block
+)
 ;
 block
 -
@@ -5915,7 +5916,9 @@ isPhi
 at
 -
 >
-block_
+block
+(
+)
 -
 >
 discardPhi
@@ -5932,7 +5935,9 @@ else
 at
 -
 >
-block_
+block
+(
+)
 -
 >
 discard

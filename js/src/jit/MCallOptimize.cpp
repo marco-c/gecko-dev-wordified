@@ -10634,16 +10634,6 @@ if
 initLength
 )
 {
-if
-(
-!
-array
--
->
-isResumePoint
-(
-)
-)
 MOZ_TRY
 (
 resumeAfter
