@@ -33186,10 +33186,6 @@ DetachFromDocShell
 (
 )
 ;
-mScriptGlobal
-=
-nullptr
-;
 }
 if
 (

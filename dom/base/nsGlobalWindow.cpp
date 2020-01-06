@@ -21208,14 +21208,6 @@ mContext
 nullptr
 ;
 }
-mDocShell
-=
-nullptr
-;
-/
-/
-Weak
-Reference
 NS_ASSERTION
 (
 !
