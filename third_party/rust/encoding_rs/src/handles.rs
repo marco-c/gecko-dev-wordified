@@ -2339,7 +2339,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -2593,7 +2592,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -2839,7 +2837,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -4566,7 +4563,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -4853,7 +4849,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -5099,7 +5094,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -5485,9 +5479,9 @@ unit_minus_surrogate_start
 <
 =
 (
-0xDFFF
--
 0xDBFF
+-
+0xD800
 )
 {
 /
@@ -5778,9 +5772,9 @@ unit_minus_surrogate_start
 <
 =
 (
-0xDFFF
--
 0xDBFF
+-
+0xD800
 )
 {
 /
@@ -6112,7 +6106,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -6313,9 +6306,9 @@ unit_minus_surrogate_start
 <
 =
 (
-0xDFFF
--
 0xDBFF
+-
+0xD800
 )
 {
 /
@@ -6644,7 +6637,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -6845,9 +6837,9 @@ unit_minus_surrogate_start
 <
 =
 (
-0xDFFF
--
 0xDBFF
+-
+0xD800
 )
 {
 /
@@ -8404,7 +8396,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -8911,7 +8902,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
@@ -9430,7 +9420,6 @@ pos
 ]
 ;
 let
-mut
 dst_remaining
 =
 &
