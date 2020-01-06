@@ -86,7 +86,7 @@ cssparser
 DeclarationListParser
 parse_important
 ParserInput
-CompactCowStr
+CowRcStr
 }
 ;
 use
@@ -6168,7 +6168,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i

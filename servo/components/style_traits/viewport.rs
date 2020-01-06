@@ -1276,6 +1276,7 @@ AllowedLengthType
 NonNegative
 ;
 match
+*
 input
 .
 next
@@ -1432,6 +1433,7 @@ Zoom
 Auto
 )
 }
+ref
 t
 =
 >
@@ -1448,6 +1450,10 @@ BasicParseError
 UnexpectedToken
 (
 t
+.
+clone
+(
+)
 )
 )
 )

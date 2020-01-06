@@ -160,7 +160,7 @@ cssparser
 :
 {
 SourceLocation
-CompactCowStr
+CowRcStr
 }
 ;
 use
@@ -1691,7 +1691,11 @@ expect_string
 )
 ?
 .
-into_owned
+as_ref
+(
+)
+.
+to_owned
 (
 )
 )
@@ -2136,7 +2140,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i

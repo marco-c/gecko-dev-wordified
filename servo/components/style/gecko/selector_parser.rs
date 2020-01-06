@@ -77,7 +77,7 @@ BasicParseError
 Parser
 ToCss
 Token
-CompactCowStr
+CowRcStr
 }
 ;
 use
@@ -2235,7 +2235,7 @@ is_pseudo_element_allows_single_colon
 name
 :
 &
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -2285,7 +2285,7 @@ parse_non_ts_pseudo_class
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -2490,7 +2490,7 @@ t
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -2946,7 +2946,7 @@ parse_pseudo_element
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -3008,7 +3008,7 @@ t
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -3094,11 +3094,13 @@ next
 {
 Ok
 (
+&
 Token
 :
 :
 Ident
 (
+ref
 ident
 )
 )
@@ -3110,12 +3112,17 @@ push
 (
 ident
 .
-into_owned
+as_ref
+(
+)
+.
+to_owned
 (
 )
 )
 Ok
 (
+&
 Token
 :
 :
@@ -3140,6 +3147,10 @@ BasicParseError
 UnexpectedToken
 (
 t
+.
+clone
+(
+)
 )
 .
 into

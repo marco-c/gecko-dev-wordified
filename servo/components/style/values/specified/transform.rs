@@ -1345,7 +1345,7 @@ i
 |
 i
 .
-expect_ident
+expect_ident_cloned
 (
 )
 )
@@ -1433,6 +1433,10 @@ expect_function
 (
 )
 ?
+.
+clone
+(
+)
 ;
 input
 .
@@ -1737,6 +1741,10 @@ StyleParseError
 UnexpectedFunction
 (
 function
+.
+clone
+(
+)
 )
 .
 into

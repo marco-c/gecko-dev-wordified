@@ -1001,7 +1001,7 @@ ident
 =
 input
 .
-expect_ident
+expect_ident_cloned
 (
 )
 ?
@@ -1088,6 +1088,10 @@ SelectorParseError
 UnexpectedIdent
 (
 ident
+.
+clone
+(
+)
 )
 .
 into

@@ -935,6 +935,10 @@ expect_function
 (
 )
 ?
+.
+clone
+(
+)
 ;
 input
 .
@@ -1062,6 +1066,10 @@ StyleParseError
 UnexpectedFunction
 (
 function
+.
+clone
+(
+)
 )
 .
 into

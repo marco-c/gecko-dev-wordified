@@ -231,7 +231,7 @@ cssparser
 :
 :
 {
-CompactCowStr
+CowRcStr
 Token
 }
 ;
@@ -765,7 +765,7 @@ DVB
 .
 BadUrlInDeclarationValueBlock
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -784,7 +784,7 @@ DVB
 .
 BadStringInDeclarationValueBlock
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -868,7 +868,7 @@ encountered
 .
 UnexpectedDimension
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -905,7 +905,7 @@ expected
 .
 UnexpectedFunction
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -953,7 +953,7 @@ Unsupported
 rule
 UnsupportedAtRule
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -1041,7 +1041,7 @@ property
 .
 UnknownProperty
 (
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -1087,7 +1087,7 @@ value
 .
 InvalidValue
 (
-CompactCowStr
+CowRcStr
 <
 '
 i

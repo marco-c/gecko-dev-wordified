@@ -889,7 +889,7 @@ i
 |
 i
 .
-expect_ident
+expect_ident_cloned
 (
 )
 )
@@ -931,6 +931,7 @@ CustomIdent
 :
 from_ident
 (
+&
 name
 &
 [

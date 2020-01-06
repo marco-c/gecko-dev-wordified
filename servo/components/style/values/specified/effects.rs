@@ -1204,6 +1204,10 @@ expect_function
 (
 )
 ?
+.
+clone
+(
+)
 ;
 input
 .

@@ -883,6 +883,7 @@ i
 >
 {
 match
+*
 input
 .
 next
@@ -895,6 +896,7 @@ Token
 :
 Ident
 (
+ref
 ident
 )
 =
@@ -935,6 +937,7 @@ Token
 :
 QuotedString
 (
+ref
 v
 )
 =
@@ -949,7 +952,11 @@ String
 (
 v
 .
-into_owned
+as_ref
+(
+)
+.
+to_owned
 (
 )
 .
@@ -959,7 +966,8 @@ into_boxed_str
 )
 )
 }
-other
+ref
+t
 =
 >
 Err
@@ -969,7 +977,11 @@ BasicParseError
 :
 UnexpectedToken
 (
-other
+t
+.
+clone
+(
+)
 )
 .
 into
@@ -1841,6 +1853,10 @@ SelectorParseError
 UnexpectedIdent
 (
 ident
+.
+clone
+(
+)
 )
 .
 into

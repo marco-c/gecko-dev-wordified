@@ -3051,6 +3051,10 @@ Token
 Ident
 (
 ident
+.
+clone
+(
+)
 )
 )
 )

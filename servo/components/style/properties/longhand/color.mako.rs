@@ -1058,6 +1058,10 @@ SelectorParseError
 UnexpectedIdent
 (
 ident
+.
+clone
+(
+)
 )
 .
 into

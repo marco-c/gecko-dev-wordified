@@ -3669,6 +3669,10 @@ expect_ident
 (
 )
 ?
+.
+clone
+(
+)
 ;
 input
 .

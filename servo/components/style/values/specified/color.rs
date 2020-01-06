@@ -546,11 +546,13 @@ next
 {
 Ok
 (
+&
 Token
 :
 :
 Ident
 (
+ref
 s
 )
 )
@@ -1391,6 +1393,7 @@ unit
 )
 =
 match
+*
 input
 .
 next
@@ -1431,6 +1434,7 @@ Some
 (
 integer
 )
+ref
 unit
 .
 .
@@ -1451,6 +1455,7 @@ Token
 :
 Ident
 (
+ref
 ident
 )
 =
@@ -1517,6 +1522,7 @@ into
 )
 ;
 }
+ref
 t
 =
 >
@@ -1530,6 +1536,10 @@ BasicParseError
 UnexpectedToken
 (
 t
+.
+clone
+(
+)
 )
 .
 into
