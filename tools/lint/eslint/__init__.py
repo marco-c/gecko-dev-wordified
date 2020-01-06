@@ -248,9 +248,6 @@ eslint
 "
 "
     
-global
-project_root
-    
 setup_helper
 .
 set_project_root
