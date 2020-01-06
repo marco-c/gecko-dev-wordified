@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 sys
 import
@@ -94,11 +99,7 @@ ljust
 )
         
 print
->
->
-sys
-.
-stdout
+(
 time
 .
 asctime
@@ -114,9 +115,13 @@ threadName
 TRACE
 "
 +
-\
-            
 string
+file
+=
+sys
+.
+stdout
+)
 def
 LogError
 (
@@ -142,11 +147,7 @@ ljust
 )
     
 print
->
->
-sys
-.
-stderr
+(
 time
 .
 asctime
@@ -162,9 +163,13 @@ threadName
 ERROR
 "
 +
-\
-        
 string
+file
+=
+sys
+.
+stderr
+)
 def
 LogMessage
 (
@@ -190,11 +195,7 @@ ljust
 )
     
 print
->
->
-sys
-.
-stdout
+(
 time
 .
 asctime
@@ -209,6 +210,10 @@ threadName
 "
 "
 +
-\
-        
 string
+file
+=
+sys
+.
+stdout
+)

@@ -63,18 +63,12 @@ Talos
 "
 "
 "
+from
+__future__
+import
+absolute_import
 import
 filter
-import
-simplejson
-as
-json
-import
-utils
-from
-mozlog
-import
-get_proxy_logger
 #
 NOTE
 :
@@ -92,9 +86,15 @@ we
 import
 results
 import
-results
+simplejson
 as
-TalosResults
+json
+import
+utils
+from
+mozlog
+import
+get_proxy_logger
 LOG
 =
 get_proxy_logger
@@ -150,6 +150,7 @@ __init__
 (
 self
 results
+tsresult_class
 )
 :
         
@@ -163,6 +164,12 @@ results
 TalosResults
 instance
         
+-
+tsresult_class
+:
+Results
+class
+        
 "
 "
 "
@@ -172,6 +179,12 @@ self
 results
 =
 results
+        
+self
+.
+tsresult_class
+=
+tsresult_class
     
 def
 __call__
@@ -392,9 +405,9 @@ tsresult
 =
 r
 =
-TalosResults
+self
 .
-Results
+tsresult_class
 (
 )
                                 
