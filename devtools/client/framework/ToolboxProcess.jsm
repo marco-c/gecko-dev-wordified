@@ -2202,6 +2202,11 @@ args
 environmentAppend
 :
 true
+stderr
+:
+"
+stdout
+"
 environment
 :
 {
