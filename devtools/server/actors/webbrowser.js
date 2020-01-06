@@ -2612,10 +2612,11 @@ getTab
 if
 (
 window
-instanceof
-Ci
+&
+&
+window
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 return

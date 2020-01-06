@@ -5124,10 +5124,8 @@ else
 if
 (
 aWindow
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 this
@@ -10602,7 +10600,7 @@ scheme
 +
 uri
 .
-displayHostPort
+hostPort
 ;
 }
 /

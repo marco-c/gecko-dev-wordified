@@ -1194,14 +1194,9 @@ getNext
 ;
 if
 (
-/
-ChromeWindow
-/
-.
-exec
-(
 win
-)
+.
+isChromeWindow
 )
 {
 var

@@ -179,15 +179,9 @@ aWindow
 if
 (
 !
-(
 aWindow
-instanceof
-Components
 .
-interfaces
-.
-nsIDOMChromeWindow
-)
+isChromeWindow
 )
 {
 dump
