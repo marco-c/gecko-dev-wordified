@@ -2335,7 +2335,7 @@ OwnerDoc
 )
 -
 >
-IsCurrentActiveDocument
+ShouldLoadImages
 (
 )
 )
@@ -2865,7 +2865,7 @@ OwnerDoc
 )
 -
 >
-IsCurrentActiveDocument
+ShouldLoadImages
 (
 )
 )
@@ -3665,7 +3665,7 @@ OwnerDoc
 )
 -
 >
-IsCurrentActiveDocument
+ShouldLoadImages
 (
 )
 )
@@ -4808,7 +4808,7 @@ OwnerDoc
 )
 -
 >
-IsCurrentActiveDocument
+ShouldLoadImages
 (
 )
 )
@@ -5201,7 +5201,7 @@ OwnerDoc
 )
 -
 >
-IsCurrentActiveDocument
+ShouldLoadImages
 (
 )
 )
