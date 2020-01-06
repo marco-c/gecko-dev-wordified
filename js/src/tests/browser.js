@@ -4930,6 +4930,13 @@ runNextTest
 }
 else
 {
+var
+testCases
+=
+getTestCases
+(
+)
+;
 for
 (
 var
@@ -4939,7 +4946,7 @@ i
 ;
 i
 <
-gTestcases
+testCases
 .
 length
 ;
@@ -4948,7 +4955,7 @@ i
 +
 )
 {
-gTestcases
+testCases
 [
 i
 ]
