@@ -1308,9 +1308,6 @@ types
 :
 [
 "
-originalsource
-"
-"
 mediarule
 "
 "
