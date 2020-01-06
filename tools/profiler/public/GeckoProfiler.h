@@ -839,29 +839,6 @@ macro
 \
 /
 *
-Dump
-the
-display
-list
-with
-the
-textures
-.
-*
-/
-\
-macro
-(
-0
-"
-displaylistdump
-"
-DisplayListDump
-)
-\
-\
-/
-*
 GPU
 Profiling
 (
@@ -879,7 +856,7 @@ GL
 \
 macro
 (
-1
+0
 "
 gpu
 "
@@ -902,7 +879,7 @@ only
 \
 macro
 (
-2
+1
 "
 java
 "
@@ -929,7 +906,7 @@ epilogues
 \
 macro
 (
-3
+2
 "
 js
 "
@@ -952,7 +929,7 @@ textures
 \
 macro
 (
-4
+3
 "
 layersdump
 "
@@ -994,7 +971,7 @@ addresses
 \
 macro
 (
-5
+4
 "
 leaf
 "
@@ -1019,7 +996,7 @@ profile
 \
 macro
 (
-6
+5
 "
 mainthreadio
 "
@@ -1045,7 +1022,7 @@ RSS
 \
 macro
 (
-7
+6
 "
 memory
 "
@@ -1068,7 +1045,7 @@ information
 \
 macro
 (
-8
+7
 "
 privacy
 "
@@ -1086,7 +1063,7 @@ profiling
 \
 macro
 (
-9
+8
 "
 restyle
 "
@@ -1114,7 +1091,7 @@ platforms
 \
 macro
 (
-10
+9
 "
 stackwalk
 "
@@ -1135,7 +1112,7 @@ TaskTracer
 \
 macro
 (
-11
+10
 "
 tasktracer
 "
@@ -1156,7 +1133,7 @@ threads
 \
 macro
 (
-12
+11
 "
 threads
 "
