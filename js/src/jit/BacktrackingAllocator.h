@@ -3486,6 +3486,9 @@ CodePosition
 from
 CodePosition
 to
+size_t
+*
+numRanges
 )
 ;
 void
