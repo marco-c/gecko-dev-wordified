@@ -369,24 +369,6 @@ attributes
 Optional
 (
 '
-job
--
-from
-'
-)
-:
-task_description_schema
-[
-'
-job
--
-from
-'
-]
-    
-Optional
-(
-'
 dependencies
 '
 )
@@ -526,8 +508,6 @@ Optional
 (
 '
 coalesce
--
-name
 '
 )
 :
@@ -535,8 +515,6 @@ task_description_schema
 [
 '
 coalesce
--
-name
 '
 ]
     
