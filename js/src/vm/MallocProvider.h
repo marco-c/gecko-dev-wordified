@@ -272,17 +272,6 @@ fail
 *
 *
 -
-RuntimeAllocPolicy
-:
-Forwards
-to
-the
-JSRuntime
-MallocProvider
-.
-*
-*
--
 ZoneAllocPolicy
 :
 Forwards
