@@ -168,7 +168,7 @@ nsLinkState
 #
 include
 "
-nsIContentPolicyBase
+nsIContentPolicy
 .
 h
 "
