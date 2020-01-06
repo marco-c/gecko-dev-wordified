@@ -52,6 +52,11 @@ its
 object
 literals
 .
+gczeal
+(
+0
+)
+;
 /
 /
 All
