@@ -1090,7 +1090,6 @@ mOmxTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
@@ -1101,6 +1100,9 @@ DecodePromise
 >
 p
 =
+self
+-
+>
 mDrainPromise
 .
 Ensure
@@ -1108,6 +1110,9 @@ Ensure
 __func__
 )
 ;
+self
+-
+>
 SendEosBuffer
 (
 )

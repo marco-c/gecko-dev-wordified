@@ -1099,7 +1099,6 @@ SendInputExhausted
 }
 [
 self
-this
 ]
 (
 const
@@ -1108,6 +1107,9 @@ MediaResult
 aError
 )
 {
+self
+-
+>
 Error
 (
 aError
@@ -1458,7 +1460,6 @@ mManagerTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
@@ -1466,12 +1467,18 @@ this
 if
 (
 !
+self
+-
+>
 mDestroyed
 )
 {
 Unused
 <
 <
+self
+-
+>
 SendFlushComplete
 (
 )
@@ -1480,7 +1487,6 @@ SendFlushComplete
 }
 [
 self
-this
 ]
 (
 const
@@ -1489,6 +1495,9 @@ MediaResult
 aError
 )
 {
+self
+-
+>
 Error
 (
 aError
@@ -1586,7 +1595,6 @@ SendDrainComplete
 }
 [
 self
-this
 ]
 (
 const
@@ -1595,6 +1603,9 @@ MediaResult
 aError
 )
 {
+self
+-
+>
 Error
 (
 aError

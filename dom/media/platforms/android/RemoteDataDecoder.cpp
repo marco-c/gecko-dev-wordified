@@ -2864,7 +2864,6 @@ __func__
 [
 self
 sample
-this
 ]
 (
 )
@@ -2971,6 +2970,9 @@ ToMicroseconds
 0
 )
 ;
+self
+-
+>
 mDrainStatus
 =
 DrainStatus
@@ -2979,6 +2981,9 @@ DrainStatus
 DRAINABLE
 ;
 return
+self
+-
+>
 mJavaDecoder
 -
 >
@@ -2992,6 +2997,9 @@ sample
 )
 )
 ?
+self
+-
+>
 mDecodePromise
 .
 Ensure

@@ -1703,7 +1703,6 @@ mTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
@@ -1746,9 +1745,15 @@ read
 vorbis_synthesis_restart
 (
 &
+self
+-
+>
 mVorbisDsp
 )
 ;
+self
+-
+>
 mLastFrameTime
 .
 reset
