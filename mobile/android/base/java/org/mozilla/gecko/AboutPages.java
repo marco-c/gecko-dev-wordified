@@ -299,6 +299,17 @@ public
 static
 final
 String
+UPDATER
+=
+"
+about
+:
+"
+;
+public
+static
+final
+String
 URL_FILTER
 =
 "
@@ -618,6 +629,7 @@ CONFIG
 DOWNLOADS
 FIREFOX
 HEALTHREPORT
+UPDATER
 )
 )
 ;

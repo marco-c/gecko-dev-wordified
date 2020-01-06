@@ -13539,7 +13539,6 @@ builds
 open
 about
 :
-firefox
 which
 provides
 an
@@ -13629,7 +13628,7 @@ loadUrlInTab
 (
 AboutPages
 .
-FIREFOX
+UPDATER
 )
 ;
 break

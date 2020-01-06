@@ -82,7 +82,6 @@ to
 the
 about
 :
-firefox
 page
 :
 *
@@ -91,7 +90,6 @@ check
 that
 about
 :
-firefox
 loads
 from
 the
@@ -103,7 +101,6 @@ check
 that
 about
 :
-firefox
 loads
 from
 Settings
@@ -136,7 +133,6 @@ Load
 the
 about
 :
-firefox
 page
 and
 verify
@@ -149,10 +145,6 @@ url
 mStringHelper
 .
 ABOUT_SCHEME
-+
-"
-firefox
-"
 ;
 loadAndPaint
 (
@@ -175,7 +167,6 @@ remove
 the
 about
 :
-firefox
 page
 from
 the
@@ -325,7 +316,6 @@ sure
 the
 about
 :
-firefox
 page
 was
 loaded
@@ -335,10 +325,6 @@ verifyUrlInContentDescription
 mStringHelper
 .
 ABOUT_SCHEME
-+
-"
-firefox
-"
 )
 ;
 }
