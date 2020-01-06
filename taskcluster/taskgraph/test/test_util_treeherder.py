@@ -70,6 +70,10 @@ treeherder
 import
 split_symbol
 join_symbol
+from
+mozunit
+import
+main
 class
 TestSymbols
 (
@@ -187,4 +191,16 @@ ab
 xy
 )
 '
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )
