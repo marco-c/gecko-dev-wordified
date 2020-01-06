@@ -555,6 +555,9 @@ object
 pub
 trait
 DomObject
+:
+'
+static
 {
 /
 /
