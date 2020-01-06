@@ -5596,7 +5596,7 @@ origobj
 )
 -
 >
-getExpandoChain
+detachExpandoChain
 (
 origobj
 )

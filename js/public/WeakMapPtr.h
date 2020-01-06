@@ -299,6 +299,15 @@ V
 value
 )
 ;
+V
+removeValue
+(
+const
+K
+&
+key
+)
+;
 private
 :
 void
