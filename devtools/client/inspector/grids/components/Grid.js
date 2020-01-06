@@ -220,13 +220,6 @@ PropTypes
 func
 .
 isRequired
-showGridOutline
-:
-PropTypes
-.
-bool
-.
-isRequired
 onHideBoxModelHighlighter
 :
 PropTypes
@@ -315,7 +308,6 @@ getSwatchColorPickerTooltip
 grids
 highlighterSettings
 setSelectedNode
-showGridOutline
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
@@ -386,8 +378,6 @@ onToggleShowInfiniteLines
 }
 )
 )
-showGridOutline
-?
 GridOutline
 (
 {
@@ -396,8 +386,6 @@ onShowGridAreaHighlight
 onShowGridCellHighlight
 }
 )
-:
-null
 )
 :
 dom
