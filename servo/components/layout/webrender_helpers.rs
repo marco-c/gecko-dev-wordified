@@ -2319,11 +2319,6 @@ font_key
 item
 .
 text_color
-item
-.
-text_run
-.
-actual_pt_size
 None
 )
 ;

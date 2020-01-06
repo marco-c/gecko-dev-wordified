@@ -3536,13 +3536,10 @@ public_resource_threads
 sender
 (
 )
-Some
-(
 webrender_api_sender
 .
 create_api
 (
-)
 )
 )
 ;
