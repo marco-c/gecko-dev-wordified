@@ -624,6 +624,14 @@ open
 "
 )
 ;
+if
+(
+!
+gContentWindow
+.
+gPhotonStructure
+)
+{
 ok
 (
 gContentWindow
@@ -646,6 +654,7 @@ children
 "
 )
 ;
+}
 gContentAPI
 .
 hideHighlight
