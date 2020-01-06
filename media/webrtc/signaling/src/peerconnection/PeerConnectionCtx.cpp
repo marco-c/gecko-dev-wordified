@@ -2247,7 +2247,16 @@ mTelemetryTimer
 >
 SetTarget
 (
-gMainThread
+SystemGroup
+:
+:
+EventTargetFor
+(
+TaskCategory
+:
+:
+Other
+)
 )
 ;
 NS_ENSURE_SUCCESS
