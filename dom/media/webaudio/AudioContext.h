@@ -850,6 +850,12 @@ return
 mAudioContextState
 ;
 }
+bool
+IsRunning
+(
+)
+const
+;
 /
 /
 Those
