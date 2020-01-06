@@ -3469,7 +3469,7 @@ wideMenuPanelWidth
 Add
 2
 *
-12px
+16px
 extra
 width
 for
@@ -3497,7 +3497,7 @@ calc
 (
 menuPanelWidth
 +
-24px
+32px
 )
 ;
 }
