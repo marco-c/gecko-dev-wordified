@@ -302,14 +302,14 @@ if
 (
 mTiming
 .
-Function
+TimingFunction
 (
 )
 )
 {
 mTiming
 .
-Function
+TimingFunction
 (
 )
 -

@@ -3774,7 +3774,7 @@ ToTimingFunction
 (
 timing
 .
-Function
+TimingFunction
 (
 )
 )

@@ -1158,7 +1158,7 @@ mFill
 ;
 }
 void
-SetFunction
+SetTimingFunction
 (
 Maybe
 <
@@ -1183,7 +1183,7 @@ Maybe
 ComputedTimingFunction
 >
 &
-Function
+TimingFunction
 (
 )
 const
