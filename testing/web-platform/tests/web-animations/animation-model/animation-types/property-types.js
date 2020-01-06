@@ -20,7 +20,7 @@ keyframes
 =
 >
 {
-var
+const
 [
 from
 to
@@ -34,7 +34,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -42,7 +42,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -51,7 +51,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -220,7 +220,7 @@ time
 has
 expired
 .
-var
+const
 idlName
 =
 propertyToIDL
@@ -228,13 +228,13 @@ propertyToIDL
 property
 )
 ;
-var
+const
 keyframes
 =
 {
 }
 ;
-var
+const
 target
 =
 createTestElement
@@ -243,7 +243,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -417,7 +417,7 @@ time
 has
 expired
 .
-var
+const
 idlName
 =
 propertyToIDL
@@ -425,7 +425,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -434,7 +434,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -578,7 +578,7 @@ keyframes
 =
 >
 {
-var
+const
 [
 from
 to
@@ -592,7 +592,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -600,7 +600,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -626,7 +626,7 @@ from
 1000
 )
 ;
-var
+const
 animation
 =
 target
@@ -647,8 +647,6 @@ to
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -702,7 +700,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -710,7 +708,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -736,7 +734,7 @@ to
 1000
 )
 ;
-var
+const
 animation
 =
 target
@@ -757,8 +755,6 @@ from
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -875,7 +871,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -883,7 +879,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -892,7 +888,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -961,7 +957,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -969,7 +965,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -978,7 +974,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -1060,7 +1056,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1068,7 +1064,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1088,7 +1084,7 @@ idlName
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -1113,8 +1109,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -1152,7 +1146,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1160,7 +1154,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1180,7 +1174,7 @@ idlName
 1rem
 '
 ;
-var
+const
 animation
 =
 target
@@ -1205,8 +1199,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -1302,7 +1294,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1310,7 +1302,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1319,7 +1311,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -1392,7 +1384,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1400,7 +1392,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1409,7 +1401,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -1495,7 +1487,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1503,7 +1495,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1524,7 +1516,7 @@ idlName
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -1551,8 +1543,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -1592,7 +1582,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1600,7 +1590,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1621,7 +1611,7 @@ idlName
 1rem
 '
 ;
-var
+const
 animation
 =
 target
@@ -1648,8 +1638,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -1747,7 +1735,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1755,7 +1743,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1764,7 +1752,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -1847,7 +1835,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -1855,7 +1843,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -1876,7 +1864,7 @@ idlName
 %
 '
 ;
-var
+const
 animation
 =
 target
@@ -1903,8 +1891,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -1999,7 +1985,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2007,7 +1993,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2016,7 +2002,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2093,7 +2079,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2101,7 +2087,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2120,7 +2106,7 @@ idlName
 -
 1
 ;
-var
+const
 animation
 =
 target
@@ -2142,8 +2128,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -2238,7 +2222,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2246,7 +2230,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2255,7 +2239,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2332,7 +2316,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2340,7 +2324,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2358,7 +2342,7 @@ idlName
 =
 1
 ;
-var
+const
 animation
 =
 target
@@ -2379,8 +2363,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -2491,7 +2473,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2499,7 +2481,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2508,7 +2490,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2591,7 +2573,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2599,7 +2581,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2608,7 +2590,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2691,7 +2673,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2699,7 +2681,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2708,7 +2690,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2784,7 +2766,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2792,7 +2774,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2801,7 +2783,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -2889,7 +2871,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -2897,7 +2879,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -2906,7 +2888,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -3022,7 +3004,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3030,7 +3012,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3050,7 +3032,7 @@ idlName
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -3077,8 +3059,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -3129,7 +3109,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3137,7 +3117,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3158,7 +3138,7 @@ idlName
 %
 '
 ;
-var
+const
 animation
 =
 target
@@ -3184,8 +3164,6 @@ duration
 :
 1000
 composite
-:
-composite
 }
 )
 ;
@@ -3235,7 +3213,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3243,7 +3221,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3264,7 +3242,7 @@ idlName
 %
 '
 ;
-var
+const
 animation
 =
 target
@@ -3289,8 +3267,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -3341,7 +3317,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3349,7 +3325,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3369,7 +3345,7 @@ idlName
 2rem
 '
 ;
-var
+const
 animation
 =
 target
@@ -3397,8 +3373,6 @@ duration
 :
 1000
 composite
-:
-composite
 }
 )
 ;
@@ -3448,7 +3422,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3456,7 +3430,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3476,7 +3450,7 @@ idlName
 2em
 '
 ;
-var
+const
 animation
 =
 target
@@ -3502,8 +3476,6 @@ duration
 :
 1000
 composite
-:
-composite
 }
 )
 ;
@@ -3547,7 +3519,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3555,7 +3527,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3575,7 +3547,7 @@ idlName
 2rem
 '
 ;
-var
+const
 animation
 =
 target
@@ -3601,8 +3573,6 @@ duration
 :
 1000
 composite
-:
-composite
 }
 )
 ;
@@ -3646,7 +3616,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3654,7 +3624,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3674,7 +3644,7 @@ idlName
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -3711,8 +3681,6 @@ calc
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -3763,7 +3731,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3771,7 +3739,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3797,7 +3765,7 @@ calc
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -3836,8 +3804,6 @@ calc
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -3937,7 +3903,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -3945,7 +3911,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -3954,7 +3920,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -4037,7 +4003,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4045,7 +4011,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4065,7 +4031,7 @@ idlName
 .
 1
 ;
-var
+const
 animation
 =
 target
@@ -4090,8 +4056,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -4201,7 +4165,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4209,7 +4173,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4218,7 +4182,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -4304,7 +4268,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4312,7 +4276,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4332,7 +4296,7 @@ idlName
 .
 3
 ;
-var
+const
 animation
 =
 target
@@ -4357,8 +4321,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -4402,7 +4364,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4410,7 +4372,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4430,7 +4392,7 @@ idlName
 .
 8
 ;
-var
+const
 animation
 =
 target
@@ -4455,8 +4417,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -4557,7 +4517,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4565,7 +4525,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4574,7 +4534,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -4674,7 +4634,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4682,7 +4642,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4691,7 +4651,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -4791,7 +4751,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -4799,7 +4759,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4808,7 +4768,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -4968,7 +4928,7 @@ since
 about
 63
 %
-var
+const
 idlName
 =
 propertyToIDL
@@ -4976,7 +4936,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -4985,7 +4945,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5161,7 +5121,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5169,7 +5129,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5189,7 +5149,7 @@ idlName
 visible
 '
 ;
-var
+const
 animation
 =
 target
@@ -5219,8 +5179,6 @@ fill
 '
 both
 '
-composite
-:
 composite
 }
 )
@@ -5271,7 +5229,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5279,7 +5237,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5299,7 +5257,7 @@ idlName
 hidden
 '
 ;
-var
+const
 animation
 =
 target
@@ -5329,8 +5287,6 @@ fill
 '
 both
 '
-composite
-:
 composite
 }
 )
@@ -5437,7 +5393,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5445,7 +5401,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5454,7 +5410,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5532,7 +5488,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5540,7 +5496,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5549,7 +5505,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5618,7 +5574,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5626,7 +5582,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5635,7 +5591,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5717,7 +5673,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5725,7 +5681,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5734,7 +5690,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5783,7 +5739,7 @@ R
 85
 /
 /
-G
+B
 :
 255
 *
@@ -5848,7 +5804,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5856,7 +5812,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5865,7 +5821,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -5958,7 +5914,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -5966,7 +5922,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -5975,7 +5931,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -6083,7 +6039,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6091,7 +6047,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6116,7 +6072,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6151,8 +6107,6 @@ rgb
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6261,7 +6215,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6269,7 +6223,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6294,7 +6248,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6321,8 +6275,6 @@ ff0000
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6370,7 +6322,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6378,7 +6330,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6403,7 +6355,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6442,8 +6394,6 @@ hsl
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6492,7 +6442,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6500,7 +6450,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6525,7 +6475,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6552,8 +6502,6 @@ ff000066
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6601,7 +6549,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6609,7 +6557,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6634,7 +6582,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6675,8 +6623,6 @@ rgba
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6731,7 +6677,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6739,7 +6685,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6764,7 +6710,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -6809,8 +6755,6 @@ hsla
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -6921,7 +6865,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -6929,7 +6873,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -6938,7 +6882,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7009,7 +6953,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7017,7 +6961,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7026,7 +6970,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7131,7 +7075,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7139,7 +7083,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7148,7 +7092,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7216,7 +7160,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7224,7 +7168,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7233,7 +7177,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7321,7 +7265,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7329,7 +7273,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7338,7 +7282,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7453,7 +7397,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7461,7 +7405,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7470,7 +7414,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -7607,7 +7551,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7615,7 +7559,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7624,7 +7568,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 /
@@ -7775,7 +7719,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7783,7 +7727,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7792,7 +7736,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 /
@@ -7925,7 +7869,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -7933,7 +7877,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -7942,7 +7886,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -8019,7 +7963,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8027,7 +7971,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8051,7 +7995,7 @@ from
 /
 rotate3d
 .
-var
+const
 from
 =
 rotate3dToMatrix3d
@@ -8066,7 +8010,7 @@ PI
 4
 )
 ;
-var
+const
 to
 =
 rotate3dToMatrix3d
@@ -8083,7 +8027,7 @@ PI
 4
 )
 ;
-var
+const
 animation
 =
 target
@@ -8184,7 +8128,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8192,7 +8136,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8201,7 +8145,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -8320,7 +8264,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8328,7 +8272,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8337,7 +8281,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -8464,7 +8408,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8472,7 +8416,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8481,7 +8425,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -8622,7 +8566,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8630,7 +8574,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8639,9 +8583,19 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
+target
+.
+animate
+(
+{
+[
+idlName
+]
+:
+[
 /
 /
 matrix
@@ -8654,16 +8608,6 @@ matrix
 250
 0
 )
-target
-.
-animate
-(
-{
-[
-idlName
-]
-:
-[
 '
 translate
 (
@@ -8827,7 +8771,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -8835,7 +8779,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -8844,9 +8788,19 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
+target
+.
+animate
+(
+{
+[
+idlName
+]
+:
+[
 /
 /
 matrix
@@ -8860,16 +8814,6 @@ matrix
 250
 0
 )
-target
-.
-animate
-(
-{
-[
-idlName
-]
-:
-[
 '
 translate
 (
@@ -9038,7 +8982,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -9046,7 +8990,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -9069,7 +9013,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -9168,7 +9112,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -9176,7 +9120,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -9199,7 +9143,7 @@ rotate
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -9383,7 +9327,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -9391,7 +9335,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -9414,7 +9358,7 @@ scale
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -9535,7 +9479,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -9543,7 +9487,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -9582,7 +9526,7 @@ skew
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -10073,7 +10017,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10081,7 +10025,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10115,7 +10059,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -10242,7 +10186,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10250,7 +10194,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10285,7 +10229,7 @@ rotate
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -10408,7 +10352,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10416,7 +10360,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10445,7 +10389,7 @@ matrix
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -10561,7 +10505,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10569,7 +10513,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10595,7 +10539,7 @@ rotate3d
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -10708,7 +10652,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10716,7 +10660,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10759,7 +10703,7 @@ PI
 4
 )
 ;
-var
+const
 from
 =
 rotate3dToMatrix3d
@@ -10775,7 +10719,7 @@ PI
 2
 )
 ;
-var
+const
 to
 =
 rotate3dToMatrix3d
@@ -10790,7 +10734,7 @@ PI
 2
 )
 ;
-var
+const
 animation
 =
 target
@@ -10965,7 +10909,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -10973,7 +10917,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -10996,7 +10940,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -11110,7 +11054,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -11118,7 +11062,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -11141,7 +11085,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -11293,7 +11237,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -11301,7 +11245,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -11324,7 +11268,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -11483,7 +11427,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -11491,7 +11435,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -11514,7 +11458,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -11613,7 +11557,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -11621,7 +11565,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -11644,7 +11588,7 @@ rotate
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -11828,7 +11772,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -11836,7 +11780,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -11859,7 +11803,7 @@ scale
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -11996,7 +11940,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12004,7 +11948,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12043,7 +11987,7 @@ skew
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -12214,7 +12158,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12222,7 +12166,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12256,7 +12200,7 @@ translateX
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -12383,7 +12327,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12391,7 +12335,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12426,7 +12370,7 @@ rotate
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -12549,7 +12493,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12557,7 +12501,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12586,7 +12530,7 @@ matrix
 )
 '
 ;
-var
+const
 animation
 =
 /
@@ -12702,7 +12646,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12710,7 +12654,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12736,7 +12680,7 @@ rotate3d
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -12849,7 +12793,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -12857,7 +12801,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -12900,7 +12844,7 @@ PI
 4
 )
 ;
-var
+const
 from
 =
 rotate3dToMatrix3d
@@ -12916,7 +12860,7 @@ PI
 2
 )
 ;
-var
+const
 to
 =
 rotate3dToMatrix3d
@@ -12931,7 +12875,7 @@ PI
 2
 )
 ;
-var
+const
 animation
 =
 target
@@ -13027,7 +12971,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13035,7 +12979,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -13044,7 +12988,7 @@ t
 setup
 )
 ;
-var
+const
 matrixArray
 =
 [
@@ -13078,7 +13022,7 @@ createMatrixFromArray
 matrixArray
 )
 ;
-var
+const
 animation
 =
 target
@@ -13199,7 +13143,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13207,7 +13151,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -13257,7 +13201,7 @@ matrix
 1000
 )
 ;
-var
+const
 animation
 =
 target
@@ -13354,7 +13298,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13362,7 +13306,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -13408,7 +13352,7 @@ matrix
 1000
 )
 ;
-var
+const
 animation
 =
 target
@@ -13511,7 +13455,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13519,7 +13463,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -13597,9 +13541,6 @@ rotate
 1000
 )
 ;
-var
-animation
-=
 /
 /
 matrix
@@ -13613,6 +13554,9 @@ matrix
 100
 100
 )
+const
+animation
+=
 target
 .
 animate
@@ -13729,7 +13673,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13737,7 +13681,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -13812,9 +13756,6 @@ rotate
 1000
 )
 ;
-var
-animation
-=
 /
 /
 matrix
@@ -13827,6 +13768,9 @@ matrix
 250
 0
 )
+const
+animation
+=
 target
 .
 animate
@@ -13946,7 +13890,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -13954,7 +13898,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14033,9 +13977,6 @@ scale
 1000
 )
 ;
-var
-animation
-=
 /
 /
 matrix
@@ -14047,6 +13988,9 @@ matrix
 100
 100
 )
+const
+animation
+=
 target
 .
 animate
@@ -14164,7 +14108,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14172,7 +14116,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14245,9 +14189,6 @@ skew
 1000
 )
 ;
-var
-animation
-=
 /
 /
 matrix
@@ -14261,6 +14202,9 @@ matrix
 250
 0
 )
+const
+animation
+=
 target
 .
 animate
@@ -14400,7 +14344,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14408,7 +14352,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14417,7 +14361,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -14484,7 +14428,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14492,7 +14436,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14501,7 +14445,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -14582,7 +14526,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14590,7 +14534,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14599,7 +14543,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -14693,7 +14637,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14701,7 +14645,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14710,7 +14654,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -14818,7 +14762,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -14826,7 +14770,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -14835,7 +14779,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15036,7 +14980,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15044,7 +14988,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15053,7 +14997,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15240,7 +15184,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15248,7 +15192,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15257,7 +15201,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15400,7 +15344,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15408,7 +15352,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15417,7 +15361,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15555,7 +15499,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15563,7 +15507,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15590,7 +15534,7 @@ rgba
 )
 "
 ;
-var
+const
 animation
 =
 target
@@ -15726,7 +15670,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15734,7 +15678,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15743,7 +15687,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15808,7 +15752,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15816,7 +15760,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15825,7 +15769,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -15955,7 +15899,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -15963,7 +15907,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -15986,7 +15930,7 @@ blur
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -16067,7 +16011,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16075,7 +16019,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16098,7 +16042,7 @@ blur
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -16192,7 +16136,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16200,7 +16144,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16229,7 +16173,7 @@ brightness
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -16392,7 +16336,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16400,7 +16344,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16429,7 +16373,7 @@ brightness
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -16552,7 +16496,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16560,7 +16504,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16569,7 +16513,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -16660,7 +16604,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16668,7 +16612,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16677,7 +16621,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -16768,7 +16712,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16776,7 +16720,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16785,7 +16729,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -16876,7 +16820,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -16884,7 +16828,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -16893,7 +16837,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -17020,7 +16964,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17028,7 +16972,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17037,7 +16981,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -17162,7 +17106,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17170,7 +17114,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17179,7 +17123,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -17304,7 +17248,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17312,7 +17256,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17336,7 +17280,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -17426,7 +17370,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17434,7 +17378,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17462,7 +17406,7 @@ rgb
 0px
 '
 ;
-var
+const
 animation
 =
 target
@@ -17573,7 +17517,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17581,7 +17525,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17609,7 +17553,7 @@ rgb
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -17715,7 +17659,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17723,7 +17667,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17732,7 +17676,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -17825,7 +17769,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17833,7 +17777,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17842,7 +17786,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -17935,7 +17879,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -17943,7 +17887,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -17952,7 +17896,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -18046,7 +17990,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18054,7 +17998,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18063,7 +18007,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -18196,7 +18140,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18204,7 +18148,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18213,7 +18157,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -18343,7 +18287,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18351,7 +18295,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18360,7 +18304,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -18490,7 +18434,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18498,7 +18442,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18522,7 +18466,7 @@ rgb
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -18615,7 +18559,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18623,7 +18567,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18652,7 +18596,7 @@ rgb
 0px
 '
 ;
-var
+const
 animation
 =
 target
@@ -18767,7 +18711,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18775,7 +18719,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18804,7 +18748,7 @@ rgb
 10px
 '
 ;
-var
+const
 animation
 =
 target
@@ -18921,7 +18865,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -18929,7 +18873,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -18938,7 +18882,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -19041,7 +18985,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19049,7 +18993,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19072,7 +19016,7 @@ idlName
 %
 '
 ;
-var
+const
 animation
 =
 target
@@ -19103,8 +19047,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -19207,7 +19149,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19215,7 +19157,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19224,7 +19166,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -19322,7 +19264,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19330,7 +19272,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19356,7 +19298,7 @@ rect
 )
 '
 ;
-var
+const
 animation
 =
 target
@@ -19393,8 +19335,6 @@ rect
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -19531,7 +19471,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19539,7 +19479,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19548,7 +19488,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -19637,7 +19577,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19645,7 +19585,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19654,7 +19594,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -19806,7 +19746,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19814,7 +19754,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19837,7 +19777,7 @@ idlName
 2px
 '
 ;
-var
+const
 animation
 =
 target
@@ -19870,8 +19810,6 @@ idlName
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -19968,7 +19906,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -19976,7 +19914,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -19985,7 +19923,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -20078,7 +20016,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -20086,7 +20024,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -20095,7 +20033,7 @@ t
 setup
 )
 ;
-var
+const
 animation
 =
 target
@@ -20185,7 +20123,7 @@ t
 =
 >
 {
-var
+const
 idlName
 =
 propertyToIDL
@@ -20193,7 +20131,7 @@ propertyToIDL
 property
 )
 ;
-var
+const
 target
 =
 createTestElement
@@ -20213,7 +20151,7 @@ idlName
 condensed
 '
 ;
-var
+const
 animation
 =
 target
@@ -20240,8 +20178,6 @@ expanded
 duration
 :
 1000
-composite
-:
 composite
 }
 )
@@ -20850,8 +20786,6 @@ wght
 duration
 :
 1000
-composite
-:
 composite
 }
 )

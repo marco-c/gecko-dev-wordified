@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-var
+const
 gCSSProperties
 =
 {
@@ -1300,7 +1300,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -2115,7 +2115,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -2282,7 +2282,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -2570,7 +2570,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -3586,7 +3586,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -9154,7 +9154,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -11965,7 +11965,7 @@ t
 =
 >
 {
-var
+const
 element
 =
 createElement
@@ -13147,7 +13147,7 @@ idlName
 testSamples
 )
 {
-var
+const
 target
 =
 animation
@@ -13173,7 +13173,7 @@ testSample
 .
 time
 ;
-var
+const
 actual
 =
 getComputedStyle
@@ -13184,7 +13184,7 @@ target
 idlName
 ]
 ;
-var
+const
 expected
 =
 createMatrixFromArray
@@ -13255,7 +13255,7 @@ isSupported
 property
 )
 {
-var
+const
 testKeyframe
 =
 new
@@ -13335,7 +13335,7 @@ TestKeyframe
 testProp
 )
 {
-var
+let
 _propAccessCount
 =
 0
@@ -13482,7 +13482,7 @@ idlName
 percentageValue
 )
 {
-var
+const
 examElem
 =
 document
@@ -13512,7 +13512,7 @@ idlName
 =
 percentageValue
 ;
-var
+const
 calcValue
 =
 getComputedStyle
