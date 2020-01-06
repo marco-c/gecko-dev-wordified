@@ -955,6 +955,7 @@ to
 be
 implemented
 )
+virtual
 bool
 SupportsOpenTypeFeature
 (
