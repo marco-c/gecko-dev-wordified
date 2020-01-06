@@ -6616,7 +6616,6 @@ PointerHasher
 <
 JSAddonId
 *
-3
 >
 js
 :
@@ -6640,7 +6639,6 @@ PointerHasher
 <
 JSAddonId
 *
-3
 >
 js
 :
