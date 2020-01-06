@@ -4643,9 +4643,6 @@ only
 uint32_t
 mNumOfIndexedDBDatabases
 ;
-bool
-mCleanedUp
-;
 }
 ;
 #

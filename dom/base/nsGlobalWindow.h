@@ -13234,6 +13234,9 @@ endif
 /
 /
 MOZ_B2G
+bool
+mCleanedUp
+;
 nsCOMPtr
 <
 nsIDOMOfflineResourceList
