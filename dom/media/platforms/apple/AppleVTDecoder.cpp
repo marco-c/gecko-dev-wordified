@@ -305,9 +305,6 @@ aTaskQueue
 )
 mMaxRefFrames
 (
-mp4_demuxer
-:
-:
 H264
 :
 :

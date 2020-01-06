@@ -98,10 +98,6 @@ MediaRawData
 class
 MediaByteBuffer
 ;
-}
-namespace
-mp4_demuxer
-{
 class
 AnnexB
 {
@@ -341,7 +337,7 @@ aAnnexB
 /
 /
 namespace
-mp4_demuxer
+mozilla
 #
 endif
 /

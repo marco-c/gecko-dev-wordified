@@ -218,12 +218,8 @@ uval
 ;
 \
 }
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 /
 /
@@ -6725,4 +6721,4 @@ READSE
 /
 /
 namespace
-mp4_demuxer
+mozilla

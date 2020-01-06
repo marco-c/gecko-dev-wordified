@@ -618,9 +618,6 @@ mimeType
 )
 )
 {
-mp4_demuxer
-:
-:
 SPSData
 spsdata
 ;
@@ -655,9 +652,6 @@ checked
 .
 if
 (
-mp4_demuxer
-:
-:
 H264
 :
 :

@@ -75,10 +75,6 @@ mozilla
 class
 BitReader
 ;
-}
-namespace
-mp4_demuxer
-{
 /
 /
 Spec
@@ -2998,7 +2994,7 @@ aDest
 /
 /
 namespace
-mp4_demuxer
+mozilla
 #
 endif
 /

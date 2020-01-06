@@ -199,9 +199,6 @@ mMaxRefFrames
 (
 mIsH264
 ?
-mp4_demuxer
-:
-:
 H264
 :
 :
@@ -216,9 +213,6 @@ VideoConfig
 mExtraData
 )
 ?
-mp4_demuxer
-:
-:
 H264
 :
 :
