@@ -1215,13 +1215,6 @@ bind
 (
 this
 )
-(
-)
-=
->
-this
-.
-curBrowser
 )
 ;
 /
