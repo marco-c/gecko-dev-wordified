@@ -259,7 +259,7 @@ h
 "
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 typedef
 void
 emu_edge_vfix_func
@@ -1439,7 +1439,7 @@ HAVE_AVX2_EXTERNAL
 endif
 /
 *
-HAVE_YASM
+HAVE_X86ASM
 *
 /
 void
@@ -1479,7 +1479,7 @@ bpc
 {
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 int
 cpu_flags
 =
@@ -1636,7 +1636,7 @@ endif
 endif
 /
 *
-HAVE_YASM
+HAVE_X86ASM
 *
 /
 }

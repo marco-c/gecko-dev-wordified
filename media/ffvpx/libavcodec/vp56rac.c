@@ -457,7 +457,7 @@ ff_vp56_norm_shift
 0
 }
 ;
-void
+int
 ff_vp56_init_range_decoder
 (
 VP56RangeCoder
@@ -502,6 +502,15 @@ buf
 +
 buf_size
 ;
+if
+(
+buf_size
+<
+1
+)
+return
+AVERROR_INVALIDDATA
+;
 c
 -
 >
@@ -515,5 +524,8 @@ c
 >
 buffer
 )
+;
+return
+0
 ;
 }

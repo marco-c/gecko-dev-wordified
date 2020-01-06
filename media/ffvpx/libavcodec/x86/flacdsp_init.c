@@ -503,7 +503,7 @@ bps
 {
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 int
 cpu_flags
 =
@@ -917,7 +917,7 @@ endif
 endif
 /
 *
-HAVE_YASM
+HAVE_X86ASM
 *
 /
 }

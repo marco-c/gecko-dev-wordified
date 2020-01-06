@@ -3682,6 +3682,9 @@ esc_pos
 int
 pred
 ;
+int
+huffman
+;
 /
 *
 MSMPEG4
@@ -6637,7 +6640,7 @@ avctx
 )
 ;
 void
-ff_mpv_decode_mb
+ff_mpv_reconstruct_mb
 (
 MpegEncContext
 *

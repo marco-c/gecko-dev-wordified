@@ -162,6 +162,13 @@ AVCODEC_BLOCKDSP_H
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -250,7 +257,7 @@ or
 /
 uint8_t
 value
-int
+ptrdiff_t
 line_size
 int
 h

@@ -562,6 +562,16 @@ int
 bpc
 )
 ;
+void
+ff_videodsp_init_mips
+(
+VideoDSPContext
+*
+ctx
+int
+bpc
+)
+;
 #
 endif
 /

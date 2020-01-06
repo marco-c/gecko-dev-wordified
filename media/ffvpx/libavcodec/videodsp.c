@@ -324,4 +324,14 @@ ctx
 bpc
 )
 ;
+if
+(
+ARCH_MIPS
+)
+ff_videodsp_init_mips
+(
+ctx
+bpc
+)
+;
 }

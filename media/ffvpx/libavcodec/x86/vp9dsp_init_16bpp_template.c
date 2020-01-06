@@ -234,7 +234,7 @@ h
 "
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 extern
 const
 int16_t
@@ -1076,7 +1076,7 @@ sse2
 endif
 /
 *
-HAVE_YASM
+HAVE_X86ASM
 *
 /
 av_cold
@@ -1092,7 +1092,7 @@ bitexact
 {
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 int
 cpu_flags
 =
@@ -1890,7 +1890,7 @@ endif
 endif
 /
 *
-HAVE_YASM
+HAVE_X86ASM
 *
 /
 ff_vp9dsp_init_16bpp_x86

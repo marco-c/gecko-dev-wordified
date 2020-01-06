@@ -1902,7 +1902,7 @@ I
 e
 .
 after
-av_buffer_pool_can_uninit
+av_buffer_pool_uninit
 (
 )
 is
@@ -1910,7 +1910,7 @@ called
 *
 by
 the
-pool
+caller
 and
 all
 the
@@ -1920,8 +1920,8 @@ returned
 to
 the
 pool
-and
 *
+and
 freed
 .
 It
@@ -1932,6 +1932,7 @@ uninitialize
 the
 user
 opaque
+*
 data
 .
 *

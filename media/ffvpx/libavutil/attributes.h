@@ -685,6 +685,12 @@ defined
 (
 __GNUC__
 )
+|
+|
+defined
+(
+__clang__
+)
 #
 define
 av_unused
@@ -745,6 +751,12 @@ AV_GCC_VERSION_AT_LEAST
 (
 3
 1
+)
+|
+|
+defined
+(
+__clang__
 )
 #
 define
