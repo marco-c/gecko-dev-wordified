@@ -9005,10 +9005,10 @@ add
 on
 scopes
 to
-telementry
+telemetry
 .
 void
-ReportAddonExceptionToTelementry
+ReportAddonExceptionToTelemetry
 (
 JSContext
 *

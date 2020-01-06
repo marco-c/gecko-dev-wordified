@@ -4617,7 +4617,7 @@ void
 ErrorReport
 :
 :
-ReportAddonExceptionToTelementry
+ReportAddonExceptionToTelemetry
 (
 JSContext
 *
@@ -5208,9 +5208,9 @@ reported
 /
 /
 to
-telementry
+telemetry
 .
-ReportAddonExceptionToTelementry
+ReportAddonExceptionToTelemetry
 (
 cx
 )
