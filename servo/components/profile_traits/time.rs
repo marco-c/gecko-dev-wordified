@@ -634,6 +634,7 @@ send_profile_data
 (
 category
 meta
+&
 profiler_chan
 start_time
 end_time
@@ -658,6 +659,7 @@ TimerMetadata
 >
 profiler_chan
 :
+&
 ProfilerChan
 start_time
 :
