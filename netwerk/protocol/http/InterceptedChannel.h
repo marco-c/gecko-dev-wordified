@@ -775,10 +775,6 @@ override
 NS_IMETHOD
 FinishSynthesizedResponse
 (
-const
-nsACString
-&
-aFinalURLSpec
 )
 override
 ;

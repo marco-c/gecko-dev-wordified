@@ -3649,10 +3649,6 @@ InterceptedHttpChannel
 :
 FinishSynthesizedResponse
 (
-const
-nsACString
-&
-aFinalURLSpec
 )
 {
 if
@@ -3678,10 +3674,7 @@ Close
 ;
 }
 return
-StartSynthesizedResponse
-(
-aFinalURLSpec
-)
+NS_OK
 ;
 }
 NS_IMETHODIMP
