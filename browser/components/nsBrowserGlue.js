@@ -2952,7 +2952,7 @@ startup
 :
 this
 .
-_finalUIStartup
+_beforeUIStartup
 (
 )
 ;
@@ -5291,7 +5291,7 @@ customizations
 are
 applied
 in
-_finalUIStartup
+_beforeUIStartup
 (
 )
 this
@@ -5330,10 +5330,10 @@ window
 is
 opened
 )
-_finalUIStartup
+_beforeUIStartup
 :
 function
-BG__finalUIStartup
+BG__beforeUIStartup
 (
 )
 {
