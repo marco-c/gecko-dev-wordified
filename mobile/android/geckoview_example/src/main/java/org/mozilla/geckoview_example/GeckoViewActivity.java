@@ -170,6 +170,17 @@ gecko
 .
 GeckoViewSettings
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+GeckoBundle
+;
 public
 class
 GeckoViewActivity
@@ -816,6 +827,8 @@ GeckoView
 view
 int
 status
+GeckoBundle
+identity
 )
 {
 String
