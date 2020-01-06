@@ -92,6 +92,11 @@ catcher
 js
 "
 "
+blobConverters
+.
+js
+"
+"
 background
 /
 selectorLoader
