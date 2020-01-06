@@ -253,6 +253,10 @@ mDisabled
 (
 false
 )
+mDirty
+(
+false
+)
 mDocumentAssociationMode
 (
 NotOwnedByDocument
@@ -260,10 +264,6 @@ NotOwnedByDocument
 mInner
 (
 nullptr
-)
-mDirty
-(
-false
 )
 {
 }
@@ -333,6 +333,12 @@ aCopy
 .
 mDisabled
 )
+mDirty
+(
+aCopy
+.
+mDirty
+)
 /
 /
 We
@@ -387,12 +393,6 @@ will
 fix
 up
 .
-mDirty
-(
-aCopy
-.
-mDirty
-)
 {
 MOZ_ASSERT
 (
