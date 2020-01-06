@@ -199,9 +199,9 @@ resource
 :
 /
 /
-gre
+content
 -
-resources
+accessible
 /
 plaintext
 .
