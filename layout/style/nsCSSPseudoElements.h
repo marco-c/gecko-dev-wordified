@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsStaticAtom
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CSSEnabledState
@@ -636,7 +643,7 @@ define
 CSS_PSEUDO_ELEMENT
 (
 _name
-_value_
+_value
 _flags
 )
 \
@@ -804,11 +811,11 @@ _value
 _flags
 )
 \
-static
+NS_STATIC_ATOM_SUBCLASS_DECL
+(
 nsICSSPseudoElement
-*
 _name
-;
+)
 #
 include
 "
