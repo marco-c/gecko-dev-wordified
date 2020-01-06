@@ -767,12 +767,6 @@ mFloatManagerStateBefore
 /
 never
 popped
-mReflowStatus
-.
-Reset
-(
-)
-;
 mNextInFlow
 =
 static_cast
