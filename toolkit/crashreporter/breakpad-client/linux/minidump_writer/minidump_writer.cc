@@ -4500,9 +4500,10 @@ minidump_writer_
 ;
 if
 (
+!
 memory_blocks_
 .
-size
+empty
 (
 )
 )

@@ -2383,13 +2383,12 @@ threads_suspended_
 true
 ;
 return
+!
 threads_
 .
-size
+empty
 (
 )
->
-0
 ;
 }
 bool
