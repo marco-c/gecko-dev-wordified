@@ -427,14 +427,6 @@ GetForms
 )
 override
 ;
-virtual
-nsContentList
-*
-GetFormControls
-(
-)
-override
-;
 nsContentList
 *
 GetExistingForms
