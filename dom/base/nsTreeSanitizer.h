@@ -700,6 +700,7 @@ IsURL
 nsAtom
 *
 *
+const
 *
 aURLs
 nsAtom
@@ -844,6 +845,7 @@ aAllowed
 nsAtom
 *
 *
+const
 *
 aURLs
 bool
