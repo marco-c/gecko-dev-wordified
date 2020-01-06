@@ -349,7 +349,7 @@ mShmem
 aShmem
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 CDMShmemBuffer
@@ -463,7 +463,7 @@ CDMShmemBuffer
 )
 override
 {
-CDM_LOG
+GMP_LOG
 (
 "
 CDMShmemBuffer
@@ -546,7 +546,7 @@ Destroy
 )
 override
 {
-CDM_LOG
+GMP_LOG
 (
 "
 CDMShmemBuffer
@@ -676,7 +676,7 @@ ExtractShmem
 (
 )
 .
-CDM_LOG
+GMP_LOG
 (
 "
 CDMShmemBuffer
@@ -5391,7 +5391,7 @@ sample
 frame
 )
 ;
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMChild

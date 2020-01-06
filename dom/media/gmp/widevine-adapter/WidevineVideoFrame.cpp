@@ -103,6 +103,13 @@ h
 #
 include
 "
+GMPLog
+.
+h
+"
+#
+include
+"
 WidevineUtils
 .
 h
@@ -157,7 +164,7 @@ mTimestamp
 0
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -231,7 +238,7 @@ aOther
 mTimestamp
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -243,6 +250,8 @@ WidevineVideoFrame
 &
 &
 )
+"
+"
 this
 =
 %
@@ -327,7 +336,7 @@ VideoFormat
 aFormat
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -381,7 +390,7 @@ Size
 aSize
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -455,7 +464,7 @@ Buffer
 aFrameBuffer
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -520,7 +529,7 @@ uint32_t
 aOffset
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -592,7 +601,7 @@ uint32_t
 aStride
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
@@ -656,7 +665,7 @@ int64_t
 timestamp
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 WidevineVideoFrame
