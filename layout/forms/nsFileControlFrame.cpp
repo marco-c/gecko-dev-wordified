@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h
