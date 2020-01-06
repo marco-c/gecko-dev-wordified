@@ -1109,7 +1109,7 @@ func
 '
 2
 '
-params
+args
 :
 [
 lhs_code
@@ -1125,7 +1125,7 @@ func
 '
 3
 '
-params
+args
 :
 [
 rhs_code
@@ -1141,7 +1141,7 @@ func
 '
 4
 '
-params
+args
 :
 [
 lhs_code
@@ -1554,17 +1554,5 @@ max
 '
 f64_zero
 f64_snan_code
-)
-;
-setJitCompilerOption
-(
-'
-wasm
-.
-test
--
-mode
-'
-0
 )
 ;
