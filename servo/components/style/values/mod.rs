@@ -137,6 +137,13 @@ parser
 :
 SelectorParseErrorKind
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :

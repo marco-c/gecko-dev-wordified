@@ -145,6 +145,13 @@ precomputed_hash
 :
 PrecomputedHash
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :

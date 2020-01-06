@@ -81,6 +81,13 @@ num_traits
 :
 ToPrimitive
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :
