@@ -1079,10 +1079,6 @@ int
 windowWidth
 int
 windowHeight
-int
-screenWidth
-int
-screenHeight
 )
 ;
 /
@@ -2306,9 +2302,6 @@ mLayerClient
 new
 GeckoLayerClient
 (
-getContext
-(
-)
 this
 )
 ;
@@ -4260,10 +4253,6 @@ int
 windowWidth
 int
 windowHeight
-int
-screenWidth
-int
-screenHeight
 )
 {
 mCompositor
@@ -4272,8 +4261,6 @@ onSizeChanged
 (
 windowWidth
 windowHeight
-screenWidth
-screenHeight
 )
 ;
 }

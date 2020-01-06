@@ -30400,8 +30400,6 @@ Args
 <
 int32_t
 int32_t
-int32_t
-int32_t
 >
 Args
 ;
@@ -30425,7 +30423,7 @@ signature
 =
 "
 (
-IIII
+II
 )
 V
 "
