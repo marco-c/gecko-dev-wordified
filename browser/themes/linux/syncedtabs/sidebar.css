@@ -229,11 +229,6 @@ textbox
 input
 -
 box
->
-.
-textbox
--
-input
 {
 background
 -
@@ -280,9 +275,11 @@ position
 left
 center
 ;
-text
+padding
 -
-indent
+inline
+-
+start
 :
 14px
 ;
@@ -298,11 +295,6 @@ textbox
 input
 -
 box
->
-.
-textbox
--
-input
 :
 -
 moz
