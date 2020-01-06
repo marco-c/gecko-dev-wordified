@@ -14148,9 +14148,6 @@ jsop_newobject
 case
 JSOP_NEWARRAY
 :
-case
-JSOP_SPREADCALLARRAY
-:
 return
 jsop_newarray
 (
@@ -16132,6 +16129,9 @@ implemented
 .
 break
 ;
+case
+JSOP_UNUSED126
+:
 case
 JSOP_UNUSED223
 :
@@ -36275,7 +36275,7 @@ is
 constructed
 by
 a
-JSOP_SPREADCALLARRAY
+JSOP_NEWARRAY
 and
 not
 /

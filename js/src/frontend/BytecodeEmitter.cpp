@@ -61366,7 +61366,6 @@ emitArray
 (
 args
 argc
-JSOP_SPREADCALLARRAY
 )
 )
 return
@@ -64564,7 +64563,6 @@ pn
 -
 >
 pn_count
-JSOP_NEWARRAY
 )
 ;
 }
@@ -64579,8 +64577,6 @@ ParseNode
 pn
 uint32_t
 count
-JSOp
-op
 )
 {
 /
@@ -64660,20 +64656,6 @@ do
 .
 *
 /
-MOZ_ASSERT
-(
-op
-=
-=
-JSOP_NEWARRAY
-|
-|
-op
-=
-=
-JSOP_SPREADCALLARRAY
-)
-;
 uint32_t
 nspread
 =
@@ -64831,7 +64813,7 @@ if
 !
 emitUint32Operand
 (
-op
+JSOP_NEWARRAY
 count
 -
 nspread
