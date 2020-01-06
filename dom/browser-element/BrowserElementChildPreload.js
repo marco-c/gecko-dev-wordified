@@ -5611,7 +5611,7 @@ nsIImageLoadingContent
 &
 elem
 .
-currentURI
+currentRequestFinalURI
 )
 {
 return
@@ -5620,7 +5620,7 @@ uri
 :
 elem
 .
-currentURI
+currentRequestFinalURI
 .
 spec
 documentURI
