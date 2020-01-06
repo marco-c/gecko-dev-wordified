@@ -287,15 +287,6 @@ aFilePtr
 )
 ;
 bool
-IsSpeculative
-(
-)
-{
-return
-mSpeculative
-;
-}
-bool
 IsHandshakePending
 (
 )
@@ -954,9 +945,6 @@ ActivateSSL
 ;
 nsCString
 mNegotiatedNPN
-;
-bool
-mSpeculative
 ;
 bool
 mNPNCompleted
