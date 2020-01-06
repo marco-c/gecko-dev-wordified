@@ -2539,6 +2539,9 @@ ID3D11Texture2D
 >
 mSyncedTextures
 ;
+Mutex
+mSyncLock
+;
 }
 ;
 inline
