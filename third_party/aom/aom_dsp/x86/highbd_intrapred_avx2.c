@@ -128,6 +128,15 @@ h
 #
 include
 "
+aom_ports
+/
+msvc
+.
+h
+"
+#
+include
+"
 .
 /
 aom_dsp_rtcd
