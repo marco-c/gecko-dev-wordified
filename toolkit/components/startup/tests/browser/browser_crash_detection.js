@@ -73,11 +73,8 @@ lastSuccess
 parseInt
 (
 si
-[
-"
+.
 main
-"
-]
 .
 getTime
 (

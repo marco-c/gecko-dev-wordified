@@ -3001,11 +3001,8 @@ mod
 orig
 ;
 mod
-[
-"
+.
 userContextId
-"
-]
 =
 0
 ;
@@ -3262,11 +3259,8 @@ mod
 orig
 ;
 mod
-[
-"
+.
 firstPartyDomain
-"
-]
 =
 "
 "

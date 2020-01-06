@@ -3889,11 +3889,8 @@ aInternalCaller
 &
 &
 aProperties
-[
-"
+.
 defaultCollapsed
-"
-]
 )
 {
 throw

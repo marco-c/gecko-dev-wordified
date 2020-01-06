@@ -728,11 +728,8 @@ itemId
 PlacesUIUtils
 .
 leftPaneQueries
-[
-"
+.
 History
-"
-]
 "
 Library
 left

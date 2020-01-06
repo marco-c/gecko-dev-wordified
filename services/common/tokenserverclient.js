@@ -400,11 +400,8 @@ _toStringFields
 )
 ;
 result
-[
-"
+.
 name
-"
-]
 =
 this
 .

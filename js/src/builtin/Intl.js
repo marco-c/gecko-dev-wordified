@@ -7039,11 +7039,8 @@ GB
 &
 &
 availableLocales
-[
-"
+.
 en
-"
-]
 "
 shouldn
 '

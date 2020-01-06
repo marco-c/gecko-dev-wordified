@@ -1541,11 +1541,8 @@ info_collections
 )
 ;
 info_collections
-[
-"
+.
 crypto
-"
-]
 =
 5000
 ;
@@ -1560,11 +1557,8 @@ info_collections
 )
 ;
 info_collections
-[
-"
+.
 crypto
-"
-]
 =
 1
 +
