@@ -28577,6 +28577,15 @@ AncestorPrincipals
 (
 )
 ;
+mAncestorOuterWindowIDs
+=
+aContainer
+-
+>
+AncestorOuterWindowIDs
+(
+)
+;
 }
 nsISupports
 *
