@@ -1868,6 +1868,10 @@ eSideLeft
 &
 \
 (
+static_cast
+<
+void
+>
 (
 var_
 =
@@ -2081,6 +2085,11 @@ eCornerBottomLeft
 &
 \
 (
+static_cast
+<
+void
+>
+(
 var_
 =
 mozilla
@@ -2092,6 +2101,7 @@ MOZ_CONCAT
 (
 var_
 __LINE__
+)
 )
 )
 true
@@ -2276,6 +2286,11 @@ eCornerBottomLeftY
 &
 \
 (
+static_cast
+<
+void
+>
+(
 var_
 =
 mozilla
@@ -2287,6 +2302,7 @@ MOZ_CONCAT
 (
 var_
 __LINE__
+)
 )
 )
 true
