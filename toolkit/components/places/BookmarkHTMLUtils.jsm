@@ -8210,9 +8210,12 @@ _writeAttribute
 "
 TAGS
 "
+escapeHtmlEntities
+(
 aItem
 .
 tags
+)
 )
 ;
 this
