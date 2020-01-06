@@ -2667,6 +2667,7 @@ filters
 let
 text
 =
+(
 filters
 .
 text
@@ -2674,6 +2675,11 @@ text
 |
 "
 "
+)
+.
+trim
+(
+)
 ;
 return
 (
