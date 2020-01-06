@@ -3338,6 +3338,16 @@ equalsIgnoreCase
 url
 "
 )
+|
+|
+mIMETypeHint
+.
+equalsIgnoreCase
+(
+"
+mozAwesomebar
+"
+)
 )
 outAttrs
 .
