@@ -1542,6 +1542,7 @@ AudioChannel
 :
 :
 Normal
+aWindow
 )
 ;
 stream

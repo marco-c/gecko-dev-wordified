@@ -2301,6 +2301,9 @@ AudioChannel
 :
 :
 Normal
+GetWindow
+(
+)
 )
 ;
 RefPtr

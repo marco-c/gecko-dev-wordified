@@ -2909,6 +2909,7 @@ AudioChannel
 :
 :
 Normal
+ownerWindow
 )
 ;
 newStream
@@ -8598,6 +8599,7 @@ AudioChannel
 :
 :
 Normal
+aWindow
 )
 ;
 stream
