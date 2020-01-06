@@ -167,9 +167,13 @@ ipc
 IPCResult
 RecvSubmitFrame
 (
-PTextureParent
-*
-texture
+const
+layers
+:
+:
+SurfaceDescriptor
+&
+aTexture
 const
 uint64_t
 &
