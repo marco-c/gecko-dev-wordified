@@ -663,7 +663,7 @@ str
 "
 :
 "
-warn
+error
 "
 /
 /
@@ -684,7 +684,7 @@ lines
 :
 [
 "
-warn
+error
 "
 {
 "
@@ -803,7 +803,7 @@ blocks
 :
 [
 "
-warn
+error
 "
 "
 never

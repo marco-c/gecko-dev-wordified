@@ -205,7 +205,7 @@ aArgs
 "
 :
 "
-warn
+error
 "
 "
 mozilla
@@ -336,7 +336,7 @@ level
 "
 :
 "
-warn
+error
 "
 /
 /
@@ -441,7 +441,7 @@ class
 :
 [
 "
-warn
+error
 "
 "
 never
