@@ -1450,12 +1450,6 @@ sPrefCacheValue
 if
 defined
 (
-MOZ_B2G
-)
-|
-|
-defined
-(
 MOZ_WIDGET_ANDROID
 )
 /

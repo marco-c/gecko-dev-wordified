@@ -294,9 +294,6 @@ DEFAULT_169_VIDEO_HEIGHT
 =
 720
 ;
-#
-ifndef
-MOZ_B2G
 static
 const
 int
@@ -304,17 +301,6 @@ DEFAULT_SAMPLE_RATE
 =
 32000
 ;
-#
-else
-static
-const
-int
-DEFAULT_SAMPLE_RATE
-=
-16000
-;
-#
-endif
 /
 /
 This

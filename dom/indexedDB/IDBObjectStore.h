@@ -538,13 +538,6 @@ Value
 aValue
 )
 ;
-#
-if
-!
-defined
-(
-MOZ_B2G
-)
 static
 bool
 DeserializeUpgradeValue
@@ -568,8 +561,6 @@ Value
 aValue
 )
 ;
-#
-endif
 static
 const
 JSClass

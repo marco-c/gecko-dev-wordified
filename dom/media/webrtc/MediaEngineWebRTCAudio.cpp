@@ -4814,9 +4814,6 @@ mCapIndex
 )
 )
 {
-#
-ifndef
-MOZ_B2G
 /
 /
 Because
@@ -4873,11 +4870,6 @@ return
 false
 ;
 }
-#
-endif
-/
-/
-MOZ_B2G
 /
 /
 Set
