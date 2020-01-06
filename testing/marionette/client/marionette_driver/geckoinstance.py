@@ -327,25 +327,6 @@ enabledScopes
 5
         
 #
-don
-'
-t
-block
-add
--
-ons
-for
-e10s
-        
-"
-extensions
-.
-e10sBlocksEnabling
-"
-:
-False
-        
-#
 Disable
 metadata
 caching

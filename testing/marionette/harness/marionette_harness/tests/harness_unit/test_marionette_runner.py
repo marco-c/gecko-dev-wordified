@@ -3922,14 +3922,6 @@ enable
 '
 :
 True
-        
-'
-extensions
-.
-e10sBlocksEnabling
-'
-:
-False
     
 }
     
@@ -3943,22 +3935,6 @@ iteritems
 (
 )
 :
-        
-if
-k
-=
-=
-'
-extensions
-.
-e10sBlocksEnabling
-'
-and
-not
-e10s
-:
-            
-continue
         
 assert
 runner

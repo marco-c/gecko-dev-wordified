@@ -28972,9 +28972,15 @@ removed
 in
 bug
 1309599
+/
+/
 kE10sDisabledForAddons
 =
 7
+removed
+in
+bug
+1406212
 kE10sForceDisabled
 =
 8
