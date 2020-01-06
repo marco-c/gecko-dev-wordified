@@ -16711,7 +16711,7 @@ cx
 nobj
 )
 ;
-CopyAnyBoxedOrUnboxedDenseElements
+CopyBoxedOrUnboxedDenseElements
 (
 cx
 nobj

@@ -9180,17 +9180,6 @@ ArrayObject
 >
 (
 )
-|
-|
-matchResult
--
->
-is
-<
-UnboxedArrayObject
->
-(
-)
 )
 ;
 /

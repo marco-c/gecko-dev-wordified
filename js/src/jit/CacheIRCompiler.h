@@ -288,11 +288,6 @@ LoadInt32ArrayLengthResult
 \
 _
 (
-LoadUnboxedArrayLengthResult
-)
-\
-_
-(
 LoadArgumentsObjectLengthResult
 )
 \
@@ -334,11 +329,6 @@ LoadDenseElementExistsResult
 _
 (
 LoadDenseElementHoleExistsResult
-)
-\
-_
-(
-LoadUnboxedArrayElementResult
 )
 \
 _
