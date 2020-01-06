@@ -1432,13 +1432,16 @@ iterating
 with
 |
 for
+-
+of
 |
 *
 /
-__iterator__
-:
-function
-__iterator__
+[
+Symbol
+.
+iterator
+]
 (
 )
 {
@@ -1546,7 +1549,7 @@ for
 (
 let
 entry
-in
+of
 this
 )
 {
@@ -1677,7 +1680,7 @@ for
 (
 let
 entry
-in
+of
 this
 )
 {
@@ -3781,7 +3784,7 @@ for
 (
 let
 entry
-in
+of
 iterator
 )
 {

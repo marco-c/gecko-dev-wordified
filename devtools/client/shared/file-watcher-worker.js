@@ -132,7 +132,7 @@ for
 (
 let
 child
-in
+of
 iterator
 )
 {
