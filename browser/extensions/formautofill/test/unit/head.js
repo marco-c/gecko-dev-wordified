@@ -620,9 +620,7 @@ extensionDir
 )
 ;
 /
-*
-*
-*
+/
 Returns
 a
 reference
@@ -637,7 +635,8 @@ not
 to
 exist
 and
-*
+/
+/
 is
 cleaned
 up
@@ -650,8 +649,6 @@ getTempFile
 for
 details
 .
-*
-/
 function
 getTempFile
 (
