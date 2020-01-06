@@ -2255,9 +2255,7 @@ MediaDataDecoder
 >
 mDecoder
 ;
-const
-char
-*
+nsCString
 mDescription
 ;
 void

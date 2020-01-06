@@ -306,9 +306,7 @@ aFailureReason
 const
 override
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
@@ -330,6 +328,8 @@ GetDescriptionName
 ;
 }
 return
+NS_LITERAL_CSTRING
+(
 "
 H264Converter
 decoder
@@ -337,6 +337,7 @@ decoder
 pending
 )
 "
+)
 ;
 }
 void
