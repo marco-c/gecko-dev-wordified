@@ -770,6 +770,16 @@ font
 relative
 units
 against
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+PartialEq
+)
+]
 pub
 enum
 FontBaseSize
