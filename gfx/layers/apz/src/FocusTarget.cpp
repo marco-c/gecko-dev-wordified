@@ -450,7 +450,7 @@ i
 ]
 -
 >
-HasUntrustedOrNonSystemGroupKeyEventListeners
+HasNonSystemGroupListenersForUntrustedKeyEvents
 (
 )
 )

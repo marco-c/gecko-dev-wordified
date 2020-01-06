@@ -2325,7 +2325,12 @@ mTarget
 ;
 }
 bool
-HasUntrustedOrNonSystemGroupKeyEventListeners
+HasNonSystemGroupListenersForUntrustedKeyEvents
+(
+)
+;
+bool
+HasNonPassiveNonSystemGroupListenersForUntrustedKeyEvents
 (
 )
 ;
