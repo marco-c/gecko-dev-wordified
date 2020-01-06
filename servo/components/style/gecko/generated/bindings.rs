@@ -14905,6 +14905,14 @@ Servo_TakeChangeHint
 element
 :
 RawGeckoElementBorrowed
+restyle_behavior
+:
+TraversalRestyleBehavior
+was_restyled
+:
+*
+mut
+bool
 )
 -
 >
