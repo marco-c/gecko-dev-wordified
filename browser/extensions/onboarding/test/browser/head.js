@@ -115,6 +115,13 @@ default
 -
 browser
 "
+"
+onboarding
+-
+tour
+-
+sync
+"
 ]
 ;
 function
