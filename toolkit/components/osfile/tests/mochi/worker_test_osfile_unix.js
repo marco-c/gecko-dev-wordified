@@ -1172,9 +1172,6 @@ bytes
 0
 )
 {
-let
-ptr
-=
 array
 .
 addressOfElement
@@ -1867,9 +1864,6 @@ false
 ;
 try
 {
-let
-file
-=
 OS
 .
 Unix

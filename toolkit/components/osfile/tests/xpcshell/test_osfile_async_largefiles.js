@@ -462,11 +462,6 @@ false
 ;
 try
 {
-let
-pos
-=
-0
-;
 /
 /
 1
