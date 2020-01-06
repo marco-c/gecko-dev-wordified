@@ -1541,7 +1541,7 @@ if
 catMan
 )
 {
-nsCString
+nsXPIDLCString
 contractId
 ;
 nsresult
@@ -1614,10 +1614,6 @@ service
 do_GetService
 (
 contractId
-.
-get
-(
-)
 )
 ;
 }

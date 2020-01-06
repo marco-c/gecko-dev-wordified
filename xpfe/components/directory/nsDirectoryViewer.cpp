@@ -7184,7 +7184,7 @@ rv
 return
 rv
 ;
-nsCString
+nsXPIDLCString
 contractID
 ;
 rv
@@ -7237,10 +7237,6 @@ factory
 do_GetService
 (
 contractID
-.
-get
-(
-)
 &
 rv
 )
@@ -7613,7 +7609,7 @@ rv
 return
 rv
 ;
-nsCString
+nsXPIDLCString
 contractID
 ;
 rv
@@ -7660,10 +7656,6 @@ factory
 do_GetService
 (
 contractID
-.
-get
-(
-)
 &
 rv
 )

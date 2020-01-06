@@ -2859,7 +2859,7 @@ if
 catman
 )
 {
-nsCString
+nsXPIDLCString
 contractidString
 ;
 rv
@@ -2932,10 +2932,6 @@ listener
 do_CreateInstance
 (
 contractidString
-.
-get
-(
-)
 )
 ;
 LOG

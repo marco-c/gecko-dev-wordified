@@ -4042,7 +4042,7 @@ passwordStr
 }
 else
 {
-nsCString
+nsXPIDLCString
 anonPassword
 ;
 bool
@@ -4128,10 +4128,6 @@ passwordStr
 AppendASCII
 (
 anonPassword
-.
-get
-(
-)
 )
 ;
 }

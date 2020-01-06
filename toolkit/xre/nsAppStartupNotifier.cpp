@@ -319,7 +319,7 @@ GetData
 categoryEntry
 )
 ;
-nsCString
+nsXPIDLCString
 contractId
 ;
 categoryManager
@@ -423,10 +423,6 @@ startupInstance
 do_CreateInstance
 (
 contractId
-.
-get
-(
-)
 &
 rv
 )

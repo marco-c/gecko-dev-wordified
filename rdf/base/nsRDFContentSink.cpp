@@ -2023,7 +2023,7 @@ Debug
 )
 )
 {
-nsCString
+nsXPIDLCString
 uri
 ;
 resource
@@ -2053,11 +2053,12 @@ uri
 %
 s
 "
-uri
-.
-get
 (
+const
+char
+*
 )
+uri
 )
 )
 ;

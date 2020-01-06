@@ -39102,7 +39102,7 @@ nsIDocumentLoaderFactory
 >
 docFactory
 ;
-nsCString
+nsXPIDLCString
 contractID
 ;
 nsresult
@@ -39147,10 +39147,6 @@ docFactory
 do_GetService
 (
 contractID
-.
-get
-(
-)
 )
 ;
 if

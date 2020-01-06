@@ -15510,7 +15510,7 @@ plugin
 registered
 for
 it
-nsCString
+nsXPIDLCString
 value
 ;
 nsresult
@@ -15550,10 +15550,6 @@ rv
 strcmp
 (
 value
-.
-get
-(
-)
 contractId
 )
 =
