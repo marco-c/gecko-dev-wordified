@@ -236,6 +236,20 @@ messages
 repeatById
 ;
 }
+function
+getAllNetworkMessagesUpdateById
+(
+state
+)
+{
+return
+state
+.
+messages
+.
+networkMessagesUpdateById
+;
+}
 module
 .
 exports
@@ -249,5 +263,6 @@ getAllGroupsById
 getCurrentGroup
 getVisibleMessages
 getAllRepeatById
+getAllNetworkMessagesUpdateById
 }
 ;
