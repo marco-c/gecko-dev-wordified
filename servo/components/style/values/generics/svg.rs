@@ -872,6 +872,7 @@ ToAnimatedValue
 [
 derive
 (
+ToAnimatedZero
 ToCss
 ToComputedValue
 )
@@ -880,8 +881,8 @@ pub
 enum
 SvgLengthOrPercentageOrNumber
 <
-LengthOrPercentageType
-NumberType
+LengthOrPercentage
+Number
 >
 {
 /
@@ -896,7 +897,7 @@ percentage
 >
 LengthOrPercentage
 (
-LengthOrPercentageType
+LengthOrPercentage
 )
 /
 /
@@ -906,7 +907,7 @@ number
 >
 Number
 (
-NumberType
+Number
 )
 }
 impl
@@ -1412,6 +1413,13 @@ derive
 (
 HasViewportPercentage
 ToAnimatedValue
+ToAnimatedZero
+)
+]
+#
+[
+derive
+(
 ToComputedValue
 ToCss
 )
@@ -1726,8 +1734,15 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-PartialEq
 HasViewportPercentage
+)
+]
+#
+[
+derive
+(
+PartialEq
+ToAnimatedZero
 ToComputedValue
 ToCss
 )

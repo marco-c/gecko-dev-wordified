@@ -818,10 +818,17 @@ HeapSizeOf
 [
 derive
 (
+Animate
 Clone
 ComputeSquaredDistance
 Copy
 Debug
+)
+]
+#
+[
+derive
+(
 HasViewportPercentage
 PartialEq
 ToAnimatedValue
