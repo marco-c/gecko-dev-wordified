@@ -191,9 +191,6 @@ nsTArray
 .
 h
 "
-class
-nsIDOMHTMLOptionElement
-;
 namespace
 mozilla
 {
