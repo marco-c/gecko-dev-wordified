@@ -6577,7 +6577,7 @@ InputQueue
 >
 mInputQueue
 ;
-CancelableBlockState
+InputBlockState
 *
 GetCurrentInputBlock
 (

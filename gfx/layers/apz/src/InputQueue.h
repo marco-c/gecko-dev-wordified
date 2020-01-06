@@ -180,6 +180,9 @@ class
 AsyncPanZoomController
 ;
 class
+InputBlockState
+;
+class
 CancelableBlockState
 ;
 class
@@ -711,7 +714,7 @@ processed
 .
 *
 /
-CancelableBlockState
+InputBlockState
 *
 GetCurrentBlock
 (
@@ -1067,7 +1070,7 @@ possible
 void
 CancelAnimationsForNewBlock
 (
-CancelableBlockState
+InputBlockState
 *
 aBlock
 CancelAnimationFlags
@@ -1298,7 +1301,7 @@ etc
 .
 *
 /
-CancelableBlockState
+InputBlockState
 *
 FindBlockForId
 (
@@ -1340,7 +1343,7 @@ ProcessQueue
 bool
 CanDiscardBlock
 (
-CancelableBlockState
+InputBlockState
 *
 aBlock
 )

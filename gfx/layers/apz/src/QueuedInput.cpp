@@ -293,7 +293,7 @@ get
 )
 ;
 }
-CancelableBlockState
+InputBlockState
 *
 QueuedInput
 :
