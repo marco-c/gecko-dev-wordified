@@ -429,9 +429,6 @@ is
 resized
 .
 Resize
-(
-DeviceUintSize
-)
 /
 /
 /
@@ -820,10 +817,6 @@ WindowEvent
 :
 :
 Resize
-(
-.
-.
-)
 =
 >
 write
