@@ -371,9 +371,8 @@ true
 evaluateSearchResults
 (
 "
-request
-permission
-again
+send
+notifications
 "
 "
 permissionsGroup
