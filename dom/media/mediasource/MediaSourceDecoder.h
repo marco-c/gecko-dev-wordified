@@ -232,6 +232,9 @@ override
 nsresult
 Load
 (
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 media
@@ -407,14 +410,6 @@ true
 void
 NotifyInitDataArrived
 (
-)
-;
-void
-CreateResource
-(
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 private
