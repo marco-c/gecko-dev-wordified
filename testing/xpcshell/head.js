@@ -163,7 +163,6 @@ _MOZINFO_JS_PATH
 _TEST_FILE
 _TEST_NAME
 _TESTING_MODULES_DIR
-_XPCSHELL_PROCESS
 :
 true
 *
@@ -251,6 +250,15 @@ var
 _profileInitialized
 =
 false
+;
+/
+/
+Assigned
+in
+do_load_child_test_harness
+.
+var
+_XPCSHELL_PROCESS
 ;
 /
 /
@@ -8587,7 +8595,6 @@ _JSDEBUGGER_PORT
 "
 +
 "
-const
 _XPCSHELL_PROCESS
 =
 '
