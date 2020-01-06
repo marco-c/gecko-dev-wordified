@@ -660,7 +660,7 @@ GetNamespace
 (
 )
 ;
-GLint
+uint32_t
 GetMaxTextureSize
 (
 )
@@ -708,7 +708,7 @@ wr
 :
 WindowId
 aId
-GLint
+uint32_t
 aMaxTextureSize
 bool
 aUseANGLE
@@ -773,7 +773,7 @@ wr
 WindowId
 mId
 ;
-GLint
+uint32_t
 mMaxTextureSize
 ;
 bool
