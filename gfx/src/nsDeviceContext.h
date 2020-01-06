@@ -9,6 +9,12 @@ C
 +
 +
 ;
+tab
+-
+width
+:
+8
+;
 indent
 -
 tabs

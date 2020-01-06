@@ -9,6 +9,12 @@ C
 +
 +
 ;
+tab
+-
+width
+:
+8
+;
 indent
 -
 tabs
@@ -23,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
