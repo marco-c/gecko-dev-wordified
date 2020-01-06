@@ -1798,6 +1798,8 @@ sizeof
 (
 instance
 )
+nullptr
+0
 aBaton
 )
 ;
@@ -1822,6 +1824,12 @@ uint8_t
 aInstanceData
 uint32_t
 aInstanceDataLength
+const
+FontVariation
+*
+aVariations
+uint32_t
+aNumVariations
 )
 {
 if

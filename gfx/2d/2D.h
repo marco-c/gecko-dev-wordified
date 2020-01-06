@@ -4530,6 +4530,12 @@ uint8_t
 aInstanceData
 uint32_t
 aInstanceDataLength
+const
+FontVariation
+*
+aVariations
+uint32_t
+aNumVariations
 )
 {
 return
@@ -4852,6 +4858,12 @@ uint8_t
 aData
 uint32_t
 aLength
+const
+FontVariation
+*
+aVariations
+uint32_t
+aNumVariations
 void
 *
 aBaton
