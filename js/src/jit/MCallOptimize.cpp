@@ -9707,7 +9707,7 @@ if
 inspector
 -
 >
-isOptimizableCallStringSplit
+isOptimizableConstStringSplit
 (
 pc
 &

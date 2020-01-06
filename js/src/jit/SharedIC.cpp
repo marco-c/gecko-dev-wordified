@@ -1040,7 +1040,7 @@ case
 Call_ScriptedFunCall
 :
 case
-Call_StringSplit
+Call_ConstStringSplit
 :
 case
 WarmUpCounter_Fallback
@@ -1638,14 +1638,14 @@ case
 ICStub
 :
 :
-Call_StringSplit
+Call_ConstStringSplit
 :
 {
-ICCall_StringSplit
+ICCall_ConstStringSplit
 *
 callStub
 =
-toCall_StringSplit
+toCall_ConstStringSplit
 (
 )
 ;

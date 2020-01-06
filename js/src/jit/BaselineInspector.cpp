@@ -3519,7 +3519,7 @@ bool
 BaselineInspector
 :
 :
-isOptimizableCallStringSplit
+isOptimizableConstStringSplit
 (
 jsbytecode
 *
@@ -3561,7 +3561,7 @@ pc
 /
 /
 If
-StringSplit
+ConstStringSplit
 stub
 is
 attached
@@ -3614,7 +3614,7 @@ kind
 ICStub
 :
 :
-Call_StringSplit
+Call_ConstStringSplit
 )
 return
 false
@@ -3625,7 +3625,7 @@ strOut
 stub
 -
 >
-toCall_StringSplit
+toCall_ConstStringSplit
 (
 )
 -
@@ -3640,7 +3640,7 @@ sepOut
 stub
 -
 >
-toCall_StringSplit
+toCall_ConstStringSplit
 (
 )
 -
@@ -3655,7 +3655,7 @@ objOut
 stub
 -
 >
-toCall_StringSplit
+toCall_ConstStringSplit
 (
 )
 -
