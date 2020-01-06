@@ -1022,6 +1022,10 @@ InitNotations
 (
 )
 {
+MarkNeedsDisplayItemRebuild
+(
+)
+;
 mNotationsToDraw
 .
 clear
