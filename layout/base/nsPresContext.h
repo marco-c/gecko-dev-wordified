@@ -613,6 +613,16 @@ enum
 nsLayoutPhase
 {
 eLayoutPhase_Paint
+eLayoutPhase_DisplayListBuilding
+/
+/
+sometimes
+a
+subset
+of
+the
+paint
+phase
 eLayoutPhase_Reflow
 eLayoutPhase_FrameC
 eLayoutPhase_COUNT
