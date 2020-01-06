@@ -58,7 +58,7 @@ transport
 send
 (
 "
-POST
+GET
 "
 "
 session
@@ -637,7 +637,7 @@ session
     
 assert_error
 (
-result
+response
 "
 unexpected
 alert
