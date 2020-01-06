@@ -3140,7 +3140,7 @@ x5
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

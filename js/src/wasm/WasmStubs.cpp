@@ -5898,7 +5898,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

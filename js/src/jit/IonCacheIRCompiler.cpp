@@ -7133,7 +7133,7 @@ scratch
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -13794,7 +13794,7 @@ scratch
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

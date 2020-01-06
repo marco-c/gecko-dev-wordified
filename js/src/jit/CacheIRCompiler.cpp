@@ -9444,7 +9444,7 @@ obj
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfNativeOrEnv
 (
 )
 )
@@ -11723,7 +11723,7 @@ obj
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
