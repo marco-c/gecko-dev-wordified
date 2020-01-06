@@ -2321,7 +2321,8 @@ assertRaisesRegexp
 (
 NoSuchElementException
 "
-Element
+Web
+element
 reference
 not
 seen
@@ -2365,7 +2366,8 @@ assertRaisesRegexp
 (
 NoSuchElementException
 "
-Element
+Web
+element
 reference
 not
 seen
