@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -207,7 +216,9 @@ for
 *
 /
 class
+MOZ_HEAP_CLASS
 TextOverflow
+final
 {
 public
 :
@@ -419,7 +430,7 @@ nsIFrame
 >
 FrameHashtable
 ;
-protected
+private
 :
 TextOverflow
 (
