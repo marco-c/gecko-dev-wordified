@@ -56,8 +56,6 @@ MPL
 import
 argparse
 import
-itertools
-import
 os
 import
 re
@@ -197,6 +195,9 @@ in
 the
 environment
 as
+'
+                             
+'
 AUTOTRY_PLATFORM_HINT
 )
 .
@@ -387,6 +388,9 @@ the
 intersection
 of
 the
+'
+                             
+'
 tests
 specified
 by
@@ -532,6 +536,9 @@ Additional
 arguments
 will
 override
+'
+                             
+'
 saved
 ones
 .

@@ -1506,10 +1506,13 @@ blocking
 "
 )
         
+def
 resolver_func
-=
-lambda
+(
+)
 :
+            
+return
 self
 .
 _spawn
