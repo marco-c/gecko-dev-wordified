@@ -240,6 +240,9 @@ aBlacklistedD3D11Driver
 nsCString
 *
 aBlacklistedD3D9Driver
+nsCString
+*
+aErrorDescription
 )
 override
 ;
