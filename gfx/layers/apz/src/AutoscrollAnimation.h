@@ -165,6 +165,14 @@ aDelta
 )
 override
 ;
+void
+Cancel
+(
+CancelAnimationFlags
+aFlags
+)
+override
+;
 private
 :
 AsyncPanZoomController

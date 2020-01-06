@@ -738,6 +738,17 @@ ViewID
 )
 )
 ;
+MOCK_METHOD1
+(
+CancelAutoscroll
+void
+(
+const
+ScrollableLayerGuid
+&
+)
+)
+;
 }
 ;
 class

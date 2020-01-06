@@ -443,6 +443,17 @@ aScrollId
 )
 override
 ;
+virtual
+void
+CancelAutoscroll
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+override
+;
 private
 :
 nsCOMPtr
