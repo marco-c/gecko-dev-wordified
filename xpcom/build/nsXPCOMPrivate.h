@@ -492,7 +492,7 @@ XUL_DLL
 "
 libxul
 "
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 #
 endif
 #
