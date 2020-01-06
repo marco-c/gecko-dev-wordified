@@ -162,6 +162,11 @@ com
 }
 )
 ;
+await
+disableNonReleaseActions
+(
+)
+;
 registerCleanupFunction
 (
 async
