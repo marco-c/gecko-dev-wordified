@@ -545,6 +545,10 @@ color
 :
 :
 parse_color_keyword
+extern
+crate
+dtoa_short
+;
 #
 [
 macro_use
