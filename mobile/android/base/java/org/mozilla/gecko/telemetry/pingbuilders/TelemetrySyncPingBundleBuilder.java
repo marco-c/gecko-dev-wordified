@@ -822,7 +822,7 @@ application
 application
 )
 ;
-payload
+pingData
 .
 put
 (
