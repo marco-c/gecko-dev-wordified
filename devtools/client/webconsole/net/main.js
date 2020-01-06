@@ -461,7 +461,7 @@ url
 {
 loadSheet
 (
-this
+window
 url
 "
 author
