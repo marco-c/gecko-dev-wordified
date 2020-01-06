@@ -2076,7 +2076,7 @@ aMallocSizeOf
 ;
 static
 void
-DirtyCallback
+HandleDirty
 (
 )
 ;
