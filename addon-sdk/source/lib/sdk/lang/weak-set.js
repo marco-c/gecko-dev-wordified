@@ -306,6 +306,7 @@ clear
 clear
 ;
 function
+*
 iterator
 (
 target
@@ -444,8 +445,11 @@ ref
 }
 }
 exports
+[
+Symbol
 .
 iterator
+]
 =
 iterator
 ;

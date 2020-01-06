@@ -291,6 +291,7 @@ interface
 *
 /
 function
+*
 windowIterator
 (
 )
@@ -424,6 +425,7 @@ interface
 *
 /
 function
+*
 browserWindowIterator
 (
 )
