@@ -196,7 +196,7 @@ ExecuteAsyncScript
 JavascriptCommandParameters
 )
 GetCookies
-GetCookie
+GetNamedCookie
 (
 String
 )
@@ -2157,7 +2157,7 @@ GetCookies
 Route
 :
 :
-GetCookie
+GetNamedCookie
 =
 >
 {
@@ -2181,7 +2181,9 @@ ErrorStatus
 InvalidArgument
 "
 Missing
+'
 name
+'
 parameter
 "
 )
@@ -2197,7 +2199,7 @@ into
 WebDriverCommand
 :
 :
-GetCookie
+GetNamedCookie
 (
 name
 )
@@ -2673,7 +2675,7 @@ GetAlertText
 WebDriverCommand
 :
 :
-GetCookie
+GetNamedCookie
 (
 _
 )
@@ -5783,7 +5785,7 @@ PartialEq
 ]
 pub
 struct
-GetCookieParameters
+GetNamedCookieParameters
 {
 pub
 name
@@ -5796,7 +5798,7 @@ String
 impl
 Parameters
 for
-GetCookieParameters
+GetNamedCookieParameters
 {
 fn
 from_json
@@ -5810,7 +5812,7 @@ Json
 >
 WebDriverResult
 <
-GetCookieParameters
+GetNamedCookieParameters
 >
 {
 let
@@ -5901,7 +5903,7 @@ to
 convert
 name
 to
-String
+string
 "
 )
 .
@@ -5916,19 +5918,20 @@ to_string
 return
 Ok
 (
-GetCookieParameters
+GetNamedCookieParameters
 {
 name
 :
 name
 }
 )
+;
 }
 }
 impl
 ToJson
 for
-GetCookieParameters
+GetNamedCookieParameters
 {
 fn
 to_json
