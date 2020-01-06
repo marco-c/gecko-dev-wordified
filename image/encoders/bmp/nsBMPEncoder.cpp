@@ -2652,12 +2652,6 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
-"
-nsBMPEncoder
-:
-:
-NotifyListener
-"
 mCallback
 mCallbackTarget
 )
