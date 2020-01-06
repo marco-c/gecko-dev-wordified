@@ -4159,15 +4159,6 @@ access
 MediaCacheStream
 mCacheStream
 ;
-/
-/
-This
-lock
-protects
-mChannelStatistics
-Mutex
-mLock
-;
 MediaChannelStatistics
 mChannelStatistics
 ;
