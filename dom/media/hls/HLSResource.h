@@ -593,16 +593,6 @@ return
 true
 ;
 }
-bool
-IsLiveStream
-(
-)
-override
-{
-return
-false
-;
-}
 java
 :
 :

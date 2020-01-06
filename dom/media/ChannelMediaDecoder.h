@@ -627,6 +627,13 @@ CanPlayThroughImpl
 override
 final
 ;
+bool
+IsLiveStream
+(
+)
+override
+final
+;
 /
 /
 The
