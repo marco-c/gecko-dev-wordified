@@ -177,12 +177,12 @@ optional
 ]
 *
 {
-String
+Number
 }
 min
 *
 {
-String
+Number
 }
 max
 *
