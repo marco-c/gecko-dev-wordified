@@ -8369,6 +8369,8 @@ msg
 .
 json
 ;
+try
+{
 let
 webEl
 =
@@ -8392,8 +8394,6 @@ curContainer
 frame
 )
 ;
-try
-{
 let
 loadEventExpected
 =
