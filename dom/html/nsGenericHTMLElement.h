@@ -1406,7 +1406,9 @@ rcFrame
 return
 rcFrame
 .
-width
+Width
+(
+)
 ;
 }
 int32_t
@@ -1428,7 +1430,9 @@ rcFrame
 return
 rcFrame
 .
-height
+Height
+(
+)
 ;
 }
 /

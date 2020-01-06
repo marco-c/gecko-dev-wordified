@@ -984,7 +984,9 @@ aWidth
 =
 mRect
 .
-width
+Width
+(
+)
 ;
 return
 NS_OK
@@ -1058,7 +1060,9 @@ aHeight
 =
 mRect
 .
-height
+Height
+(
+)
 ;
 return
 NS_OK
@@ -1336,7 +1340,9 @@ mRectArray
 aOffset
 ]
 .
-width
+Width
+(
+)
 ;
 *
 aHeight
@@ -1346,7 +1352,9 @@ mRectArray
 aOffset
 ]
 .
-height
+Height
+(
+)
 ;
 return
 NS_OK

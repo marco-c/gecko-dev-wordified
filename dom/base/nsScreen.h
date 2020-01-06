@@ -368,7 +368,9 @@ rect
 return
 rect
 .
-width
+Width
+(
+)
 ;
 }
 int32_t
@@ -433,7 +435,9 @@ rect
 return
 rect
 .
-height
+Height
+(
+)
 ;
 }
 int32_t
@@ -528,7 +532,9 @@ rect
 return
 rect
 .
-width
+Width
+(
+)
 ;
 }
 int32_t
@@ -552,7 +558,9 @@ rect
 return
 rect
 .
-height
+Height
+(
+)
 ;
 }
 /
