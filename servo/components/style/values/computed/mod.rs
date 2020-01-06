@@ -393,6 +393,7 @@ font
 :
 :
 {
+FontLanguageOverride
 MozScriptLevel
 MozScriptMinSize
 XTextZoom
