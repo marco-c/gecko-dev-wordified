@@ -537,7 +537,6 @@ mInitialized
 true
 ;
 }
-virtual
 nsPoint
 GetTouchEventPosition
 (
@@ -584,7 +583,6 @@ y
 )
 ;
 }
-virtual
 nsPoint
 GetMouseEventPosition
 (
