@@ -764,6 +764,15 @@ RecvDrainComplete
 )
 override
 ;
+ipc
+:
+:
+IPCResult
+RecvIncreaseShmemPoolSize
+(
+)
+override
+;
 void
 ActorDestroy
 (
