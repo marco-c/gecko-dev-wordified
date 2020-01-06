@@ -3384,7 +3384,7 @@ mOpened
 {
 result
 .
-Assign
+AssignLiteral
 (
 UNKNOWN_CONTENT_TYPE
 )

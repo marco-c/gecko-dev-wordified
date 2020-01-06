@@ -738,7 +738,7 @@ TSystemPrincipalInfo
 :
 aString
 .
-Assign
+AssignLiteral
 (
 "
 [
@@ -873,7 +873,7 @@ get_ExpandedPrincipalInfo
 ;
 aString
 .
-Assign
+AssignLiteral
 (
 "
 [

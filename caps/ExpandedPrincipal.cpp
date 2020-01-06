@@ -1048,7 +1048,7 @@ aStr
 {
 aStr
 .
-Assign
+AssignLiteral
 (
 "
 [

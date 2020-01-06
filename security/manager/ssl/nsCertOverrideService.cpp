@@ -620,7 +620,7 @@ SEC_OID_SHA256
 ;
 mDottedOidForStoringNewHashes
 .
-Assign
+AssignLiteral
 (
 "
 OID

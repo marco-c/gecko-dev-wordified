@@ -279,7 +279,7 @@ LayoutDeviceIntRect
 aRect
 )
 {
-Assign
+AssignLiteral
 (
 "
 {
@@ -384,7 +384,7 @@ IsVertical
 )
 )
 {
-Assign
+AssignLiteral
 (
 "
 Horizontal
@@ -403,7 +403,7 @@ IsVerticalLR
 )
 )
 {
-Assign
+AssignLiteral
 (
 "
 Vertical
@@ -416,7 +416,7 @@ LTR
 return
 ;
 }
-Assign
+AssignLiteral
 (
 "
 Vertical

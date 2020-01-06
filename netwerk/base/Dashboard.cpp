@@ -4566,7 +4566,7 @@ HTTP_VERSION_2
 ;
 protocolVersion
 .
-Assign
+AssignLiteral
 (
 u
 "

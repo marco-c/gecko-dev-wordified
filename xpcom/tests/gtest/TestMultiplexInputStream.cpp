@@ -182,7 +182,7 @@ buf3
 ;
 buf1
 .
-Assign
+AssignLiteral
 (
 "
 Hello
@@ -192,7 +192,7 @@ world
 ;
 buf2
 .
-Assign
+AssignLiteral
 (
 "
 The
@@ -209,7 +209,7 @@ dog
 ;
 buf3
 .
-Assign
+AssignLiteral
 (
 "
 Foo

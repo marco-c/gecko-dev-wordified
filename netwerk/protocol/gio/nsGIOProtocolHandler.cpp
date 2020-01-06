@@ -5820,7 +5820,7 @@ aScheme
 {
 aScheme
 .
-Assign
+AssignLiteral
 (
 MOZ_GIO_SCHEME
 )

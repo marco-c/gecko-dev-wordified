@@ -4195,7 +4195,7 @@ has
 a
 relatively
 high
-liklihood
+likelihood
 of
 applying
 the
@@ -4274,7 +4274,7 @@ FindChar
 {
 hostSegment
 .
-Assign
+AssignLiteral
 (
 "
 [

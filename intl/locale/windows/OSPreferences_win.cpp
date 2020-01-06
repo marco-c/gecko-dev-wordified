@@ -361,7 +361,7 @@ LOCALE_NAME_MAX_LENGTH
 {
 aRetVal
 .
-Assign
+AssignLiteral
 (
 "
 en

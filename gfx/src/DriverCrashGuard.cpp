@@ -313,7 +313,7 @@ aType
 ;
 aOutPrefName
 .
-Assign
+AssignLiteral
 (
 "
 gfx
