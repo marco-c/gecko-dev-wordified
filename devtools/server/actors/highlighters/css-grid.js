@@ -7926,16 +7926,6 @@ win
 )
 ;
 let
-currentZoom
-=
-getCurrentZoom
-(
-this
-.
-win
-)
-;
-let
 offset
 =
 (
