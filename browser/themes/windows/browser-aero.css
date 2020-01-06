@@ -2305,6 +2305,8 @@ normal
 navigator
 -
 toolbox
+>
+toolbar
 :
 -
 moz
@@ -2349,15 +2351,6 @@ normal
 navigator
 -
 toolbox
-:
-not
-(
-:
--
-moz
--
-lwtheme
-)
 :
 :
 after
