@@ -128,8 +128,9 @@ euclid
 :
 {
 Point2D
-TypedMatrix4D
+TypedTransform3D
 TypedPoint3D
+TypedVector3D
 TypedRect
 }
 ;
@@ -144,9 +145,6 @@ ApproxEq
 ;
 use
 euclid
-:
-:
-trig
 :
 :
 Trig
@@ -257,7 +255,7 @@ U
 (
 vec
 :
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -380,7 +378,7 @@ line
 pub
 dir
 :
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -627,7 +625,7 @@ plane
 pub
 normal
 :
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -1472,7 +1470,7 @@ V
 >
 transform
 :
-TypedMatrix4D
+TypedTransform3D
 <
 T
 V
@@ -1684,7 +1682,7 @@ let
 offset
 =
 -
-TypedPoint3D
+TypedVector3D
 :
 :
 new
@@ -1998,6 +1996,10 @@ U
 T
 {
 point
+.
+to_vector
+(
+)
 .
 dot
 (
@@ -2586,7 +2588,7 @@ self
 vector
 :
 &
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -2614,6 +2616,10 @@ points
 [
 0
 ]
+.
+to_vector
+(
+)
 )
 vector
 .
@@ -2625,6 +2631,10 @@ points
 [
 1
 ]
+.
+to_vector
+(
+)
 )
 vector
 .
@@ -2636,6 +2646,10 @@ points
 [
 2
 ]
+.
+to_vector
+(
+)
 )
 vector
 .
@@ -2647,6 +2661,10 @@ points
 [
 3
 ]
+.
+to_vector
+(
+)
 )
 ]
 }
@@ -2976,6 +2994,13 @@ w
 let
 center
 =
+TypedPoint3D
+:
+:
+origin
+(
+)
++
 self
 .
 normal
@@ -4122,7 +4147,7 @@ sort
 &
 mut
 self
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -4168,7 +4193,7 @@ U
 ]
 view
 :
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -4375,7 +4400,7 @@ len
 ]
 normal
 :
-TypedPoint3D
+TypedVector3D
 :
 :
 new
@@ -4481,7 +4506,7 @@ len
 ]
 normal
 :
-TypedPoint3D
+TypedVector3D
 :
 :
 new
@@ -4587,7 +4612,7 @@ f32
 ]
 normal
 :
-TypedPoint3D
+TypedVector3D
 :
 :
 new

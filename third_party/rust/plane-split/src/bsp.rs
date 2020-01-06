@@ -12,7 +12,10 @@ use
 euclid
 :
 :
+{
 TypedPoint3D
+TypedVector3D
+}
 ;
 use
 euclid
@@ -724,7 +727,7 @@ mut
 self
 view
 :
-TypedPoint3D
+TypedVector3D
 <
 T
 U
@@ -774,7 +777,7 @@ points
 TypedPoint3D
 :
 :
-zero
+origin
 (
 )
 ;

@@ -285,9 +285,6 @@ use
 euclid
 :
 :
-scale_factor
-:
-:
 ScaleFactor
 ;
 /
@@ -295,9 +292,6 @@ ScaleFactor
 /
 use
 euclid
-:
-:
-length
 :
 :
 Length
@@ -393,14 +387,6 @@ mm_per_inch
 repr
 (
 C
-)
-]
-#
-[
-derive
-(
-RustcDecodable
-RustcEncodable
 )
 ]
 pub
