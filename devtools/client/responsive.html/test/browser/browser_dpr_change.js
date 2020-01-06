@@ -654,8 +654,6 @@ global
 dpr
 -
 selector
->
-select
 "
 )
 ;

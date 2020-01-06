@@ -2228,8 +2228,6 @@ global
 dpr
 -
 selector
->
-select
 "
 value
 )
