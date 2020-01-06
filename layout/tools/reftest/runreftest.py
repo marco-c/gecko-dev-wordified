@@ -6356,10 +6356,10 @@ JS
 harness
 or
 marionette
-to
-handle
                                                  
 #
+to
+handle
 timeouts
 if
 they
@@ -6374,14 +6374,12 @@ harness
 timeout
 is
 currently
-300
-seconds
                                                  
 #
+300
+seconds
 (
 default
-value
-of
 options
 .
 timeout
@@ -6395,6 +6393,8 @@ Marionette
 socket
 timeout
 is
+                                                 
+#
 currently
 360
 seconds
@@ -6410,23 +6410,23 @@ time
 to
 deal
 with
+                                                 
+#
 its
 own
 timeouts
-                                                 
-#
 and
 try
 to
 usually
 exceed
+                                                 
+#
 the
 360
 second
 marionette
 socket
-                                                 
-#
 timeout
 .
                                                  
