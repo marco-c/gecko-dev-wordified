@@ -2030,12 +2030,10 @@ nsContentUtils
 CallerHasPermission
 (
 aCx
-NS_LITERAL_STRING
-(
-"
+nsGkAtoms
+:
+:
 webRequestBlocking
-"
-)
 )
 ;
 }

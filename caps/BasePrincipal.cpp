@@ -1608,8 +1608,8 @@ BasePrincipal
 AddonHasPermission
 (
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 {
