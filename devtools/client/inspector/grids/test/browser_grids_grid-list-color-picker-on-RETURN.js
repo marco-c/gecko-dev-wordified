@@ -234,9 +234,9 @@ backgroundColor
 "
 rgb
 (
-75
+148
 0
-130
+255
 )
 "
 "
@@ -268,7 +268,7 @@ grids
 color
 "
 #
-4B0082
+9400FF
 "
 "
 The
