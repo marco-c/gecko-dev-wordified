@@ -1454,6 +1454,11 @@ IsCallable
 \
 _
 (
+IsArray
+)
+\
+_
+(
 IsObject
 )
 \

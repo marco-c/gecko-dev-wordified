@@ -2038,6 +2038,16 @@ IsConstructor
 \
 _
 (
+IsArrayO
+)
+\
+_
+(
+IsArrayV
+)
+\
+_
+(
 IsObject
 )
 \
