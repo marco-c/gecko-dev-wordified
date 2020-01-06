@@ -935,6 +935,16 @@ collection_changed
 ;
 exports
 .
+ON_VERIFY_LOGIN_NOTIFICATION
+=
+"
+fxaccounts
+:
+verify_login
+"
+;
+exports
+.
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 =
 "
