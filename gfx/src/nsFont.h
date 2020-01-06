@@ -1014,6 +1014,8 @@ AddFontFeaturesToStyle
 gfxFontStyle
 *
 aStyle
+bool
+aVertical
 )
 const
 ;
