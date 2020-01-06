@@ -420,16 +420,6 @@ nsAString
 browserDumpID
 )
 ;
-static
-bool
-RunPluginOOP
-(
-const
-nsPluginTag
-*
-aPluginTag
-)
-;
 nsresult
 Shutdown
 (
