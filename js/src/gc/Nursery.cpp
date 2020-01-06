@@ -163,6 +163,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h

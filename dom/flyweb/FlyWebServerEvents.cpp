@@ -202,6 +202,15 @@ Response
 .
 h
 "
+#
+include
+"
+js
+/
+GCAPI
+.
+h
+"
 namespace
 mozilla
 {

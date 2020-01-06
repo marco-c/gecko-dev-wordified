@@ -187,6 +187,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 UbiNode
 .
 h

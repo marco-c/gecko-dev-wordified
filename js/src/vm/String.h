@@ -203,6 +203,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h

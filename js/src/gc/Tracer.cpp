@@ -129,6 +129,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h
