@@ -253,6 +253,8 @@ aGlobal
 CacheChild
 *
 aActor
+Namespace
+aNamespace
 )
 ;
 /
@@ -628,6 +630,10 @@ mGlobal
 CacheChild
 *
 mActor
+;
+const
+Namespace
+mNamespace
 ;
 public
 :
