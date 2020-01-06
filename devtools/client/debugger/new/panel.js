@@ -229,6 +229,9 @@ this
 toolbox
 .
 sourceMapService
+toolboxActions
+:
+{
 /
 /
 Open
@@ -240,9 +243,6 @@ new
 browser
 tab
 .
-toolboxActions
-:
-{
 openLink
 :
 this
@@ -256,6 +256,7 @@ this
 }
 }
 )
+;
 this
 .
 _actions

@@ -188,7 +188,7 @@ is
 notPaused
 "
 Not
-Paused
+paused
 "
 "
 Not
@@ -356,7 +356,7 @@ button
 innerText
 "
 Expand
-Rows
+rows
 "
 "
 toggle
@@ -414,7 +414,7 @@ button
 innerText
 "
 Collapse
-Rows
+rows
 "
 "
 toggle
