@@ -166,6 +166,12 @@ waitForPaused
 dbg
 )
 ;
+await
+waitForMappedScopes
+(
+dbg
+)
+;
 is
 (
 getScopeNodeLabel

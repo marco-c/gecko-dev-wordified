@@ -107,6 +107,17 @@ waitForPaused
 dbg
 )
 ;
+await
+waitForLoadedSource
+(
+dbg
+"
+switching
+-
+02
+"
+)
+;
 is
 (
 getLabel
