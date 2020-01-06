@@ -220,7 +220,7 @@ mConsumerTarget
 {
 mConsumerTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

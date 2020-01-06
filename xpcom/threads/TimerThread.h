@@ -297,9 +297,14 @@ const
 {
 return
 mThread
-=
-=
-NS_GetCurrentThread
+-
+>
+SerialEventTarget
+(
+)
+-
+>
+IsOnCurrentThread
 (
 )
 ;

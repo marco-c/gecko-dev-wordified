@@ -807,9 +807,9 @@ thread
 /
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 /
 *

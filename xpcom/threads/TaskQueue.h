@@ -1075,7 +1075,7 @@ it
 .
 Atomic
 <
-nsIThread
+PRThread
 *
 >
 mRunningThread
@@ -1201,7 +1201,7 @@ mQueue
 >
 mRunningThread
 =
-NS_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 ;
@@ -1223,7 +1223,7 @@ mQueue
 mRunningThread
 =
 =
-NS_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 )

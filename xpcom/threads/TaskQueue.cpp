@@ -1005,12 +1005,12 @@ IsCurrentThreadIn
 bool
 in
 =
-NS_GetCurrentThread
+mRunningThread
+=
+=
+GetCurrentPhysicalThread
 (
 )
-=
-=
-mRunningThread
 ;
 return
 in
