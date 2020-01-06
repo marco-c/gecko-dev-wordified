@@ -2548,9 +2548,9 @@ title
 )
 )
 ;
-gPageActionButton
+BrowserPageActions
 .
-panel
+panelNode
 .
 hidePopup
 (
@@ -2803,9 +2803,9 @@ openSendToDevicePromo
 (
 )
 ;
-gPageActionButton
+BrowserPageActions
 .
-panel
+panelNode
 .
 hidePopup
 (
@@ -2877,9 +2877,9 @@ sendtab
 "
 )
 ;
-gPageActionButton
+BrowserPageActions
 .
-panel
+panelNode
 .
 hidePopup
 (
@@ -2948,9 +2948,9 @@ openSendToDevicePromo
 (
 )
 ;
-gPageActionButton
+BrowserPageActions
 .
-panel
+panelNode
 .
 hidePopup
 (
