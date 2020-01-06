@@ -3137,9 +3137,6 @@ aContainer
 if
 (
 content
-&
-&
-content
 -
 >
 MatchedNodes
