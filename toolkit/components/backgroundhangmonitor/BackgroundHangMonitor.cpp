@@ -1201,13 +1201,10 @@ for
 the
 current
 hang
-UniquePtr
-<
 HangMonitor
 :
 :
 HangAnnotations
->
 mAnnotations
 ;
 /
