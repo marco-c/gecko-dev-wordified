@@ -918,7 +918,10 @@ param
 aWideCmdLine
 must
 be
-PR_Freed
+free
+(
+)
+d
 by
 the
 caller
