@@ -13298,6 +13298,7 @@ FindFontForStyle
 (
 mStyle
 needsBold
+true
 )
 ;
 if
@@ -13483,6 +13484,7 @@ FindFontForStyle
 (
 mStyle
 needsBold
+true
 )
 ;
 if
