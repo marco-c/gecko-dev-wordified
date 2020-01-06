@@ -634,9 +634,9 @@ bps_code
 /
 Reserved
 bit
-most
+must
 be
-1
+0
 .
 if
 (
