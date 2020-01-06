@@ -2312,7 +2312,7 @@ options
     
 options
 .
-runByDir
+runByManifest
 =
 False
     

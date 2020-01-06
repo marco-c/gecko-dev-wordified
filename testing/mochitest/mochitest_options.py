@@ -1916,7 +1916,7 @@ run
 -
 by
 -
-dir
+manifest
 "
 ]
          
@@ -1934,7 +1934,7 @@ dest
 "
 :
 "
-runByDir
+runByManifest
 "
           
 "
@@ -1944,7 +1944,7 @@ help
 "
 Run
 each
-directory
+manifest
 in
 a
 single
@@ -1962,6 +1962,12 @@ default
 "
 :
 False
+          
+"
+suppress
+"
+:
+True
           
 }
 ]
