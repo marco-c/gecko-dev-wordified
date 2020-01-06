@@ -554,6 +554,9 @@ get_binary_path
 "
 geckodriver
 "
+validate_exists
+=
+False
 )
         
 kwargs
