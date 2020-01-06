@@ -691,6 +691,9 @@ CanCreateWebRenderCommands
 void
 CreateWebRenderCommands
 (
+nsDisplayItem
+*
+aItem
 mozilla
 :
 :
