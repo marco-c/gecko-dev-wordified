@@ -4154,6 +4154,16 @@ aType
 )
 ;
 }
+if
+(
+!
+drawTarget
+)
+{
+return
+nullptr
+;
+}
 return
 new
 DrawTargetRotatedBuffer
