@@ -178,7 +178,7 @@ using
 namespace
 mozilla
 ;
-uint32_t
+int32_t
 NS_GetUnusedAtomCount
 (
 void
@@ -1187,7 +1187,7 @@ EXPECT_EQ
 NS_GetUnusedAtomCount
 (
 )
-uint32_t
+int32_t
 (
 0
 )
@@ -1287,7 +1287,7 @@ EXPECT_EQ
 NS_GetUnusedAtomCount
 (
 )
-uint32_t
+int32_t
 (
 1
 )
