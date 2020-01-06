@@ -424,6 +424,14 @@ ShouldFailWithOOM
 }
 }
 ;
+void
+ReportOutOfMemory
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *
@@ -899,7 +907,7 @@ ShouldFailWithOOM
 )
 )
 {
-JS_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx_
 )

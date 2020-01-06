@@ -804,10 +804,7 @@ assignment
 *
 /
 class
-JS_PUBLIC_API
-(
 ConstUTF8CharsZ
-)
 {
 const
 char

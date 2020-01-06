@@ -349,7 +349,7 @@ gL10N
 getFormatStr
 (
 "
-errorLoadingText3
+errorLoadingText2
 "
 "
 "
