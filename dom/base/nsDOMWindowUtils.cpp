@@ -1331,6 +1331,13 @@ nsIRunnable
 aEvent
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIRunnable
