@@ -166,6 +166,13 @@ RecordingTypes
 .
 h
 "
+#
+include
+"
+RecordedEventImpl
+.
+h
+"
 namespace
 mozilla
 {
