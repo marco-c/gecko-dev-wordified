@@ -2925,7 +2925,7 @@ context
 .
 topdir
 "
-cargo
+rust
 -
 commit
 -
@@ -2946,6 +2946,11 @@ self
 .
 _cargo_build_id
 =
+"
+rust
+-
+"
++
 f
 .
 read
