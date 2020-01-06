@@ -1853,7 +1853,7 @@ upcast
 :
 :
 <
-WorkerGlobalScope
+GlobalScope
 >
 (
 )

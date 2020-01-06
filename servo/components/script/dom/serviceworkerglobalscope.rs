@@ -1484,7 +1484,7 @@ upcast
 :
 :
 <
-WorkerGlobalScope
+GlobalScope
 >
 (
 )
