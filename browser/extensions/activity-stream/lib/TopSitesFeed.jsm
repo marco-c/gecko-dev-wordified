@@ -331,6 +331,11 @@ one
 time
 pages
 )
+const
+MIN_FAVICON_SIZE
+=
+96
+;
 this
 .
 TopSitesFeed
@@ -892,6 +897,9 @@ a
 tippy
 top
 icon
+a
+rich
+icon
 or
 screenshot
 for
@@ -921,6 +929,10 @@ for
 tippy
 top
 icon
+or
+a
+rich
+icon
 .
 link
 =
@@ -938,6 +950,14 @@ if
 link
 .
 tippyTopIcon
+|
+|
+link
+.
+faviconSize
+>
+=
+MIN_FAVICON_SIZE
 )
 {
 continue

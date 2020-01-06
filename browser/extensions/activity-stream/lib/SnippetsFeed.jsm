@@ -904,6 +904,10 @@ store
 .
 dispatch
 (
+ac
+.
+BroadcastToContent
+(
 {
 type
 :
@@ -911,6 +915,7 @@ at
 .
 SNIPPETS_RESET
 }
+)
 )
 ;
 }
