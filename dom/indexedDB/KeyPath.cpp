@@ -650,8 +650,6 @@ io
 IndexedDB
 /
 #
-dfn
--
 evaluate
 -
 a
@@ -706,12 +704,6 @@ EqualsLiteral
 length
 "
 )
-&
-&
-aOptions
-=
-=
-DoNotCreateProperties
 )
 {
 aKeyJSVal
