@@ -2815,9 +2815,10 @@ and
 other
 overhead
 .
-nsTArray
+AutoTArray
 <
 RangeData
+1
 >
 mRanges
 ;
