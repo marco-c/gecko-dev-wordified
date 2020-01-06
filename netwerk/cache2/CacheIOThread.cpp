@@ -1247,6 +1247,10 @@ mIOCancelableEvents
 (
 0
 )
+mEventCounter
+(
+0
+)
 #
 ifdef
 DEBUG
@@ -2484,6 +2488,10 @@ false
 processedEvent
 )
 ;
++
++
+mEventCounter
+;
 MOZ_ASSERT
 (
 mBlockingIOWatcher
@@ -2869,6 +2877,10 @@ true
 break
 ;
 }
++
++
+mEventCounter
+;
 -
 -
 mQueueLength
