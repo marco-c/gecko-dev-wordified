@@ -27630,9 +27630,10 @@ nsRect
 aScrollPort
 )
 {
-nsTArray
+AutoTArray
 <
 TopAndBottom
+50
 >
 list
 ;
