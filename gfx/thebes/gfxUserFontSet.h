@@ -2950,7 +2950,6 @@ false
 )
 {
 }
-explicit
 LoadResultEntry
 (
 LoadResultEntry
