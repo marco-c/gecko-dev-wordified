@@ -2181,6 +2181,8 @@ position
 self
 .
 current_line_start_position
++
+1
 )
 as
 u32
@@ -4007,7 +4009,7 @@ a
 line
 starting
 at
-0
+1
 for
 first
 the
@@ -4022,13 +4024,13 @@ line
 Column
 numbers
 are
+counted
 in
-units
-of
 UTF
 -
 16
-characters
+code
+units
 .
 pub
 column
