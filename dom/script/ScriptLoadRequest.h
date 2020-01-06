@@ -1022,6 +1022,12 @@ nsCOMPtr
 <
 nsIPrincipal
 >
+mTriggeringPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
 mOriginPrincipal
 ;
 nsAutoCString
