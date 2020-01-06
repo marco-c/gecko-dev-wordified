@@ -306,9 +306,7 @@ CANARY_OK
 )
 {
 \
-NS_RUNTIMEABORT
-(
-nsPrintfCString
+MOZ_CRASH_UNSAFE_PRINTF
 (
 "
 Bad
@@ -318,11 +316,6 @@ value
 d
 "
 c
-)
-.
-get
-(
-)
 )
 ;
 \
