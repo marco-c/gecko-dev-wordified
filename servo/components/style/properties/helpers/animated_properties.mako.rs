@@ -11042,13 +11042,13 @@ weight
 (
 weight
 .
-min
+max
 (
 100
 .
 )
 .
-max
+min
 (
 900
 .
