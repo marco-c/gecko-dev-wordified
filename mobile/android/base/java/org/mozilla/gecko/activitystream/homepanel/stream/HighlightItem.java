@@ -841,10 +841,6 @@ getUrl
 )
 highlight
 .
-getMetadataSlow
-(
-)
-.
 getImageUrl
 (
 )
