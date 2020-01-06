@@ -1242,7 +1242,7 @@ pac
 Some
 (
 "
-noproxy
+direct
 "
 )
 |
