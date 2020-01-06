@@ -133,17 +133,6 @@ mozilla
 /
 dom
 /
-HTMLSharedObjectElement
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TabParent
 .
 h

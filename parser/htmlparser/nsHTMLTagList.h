@@ -563,7 +563,7 @@ em
 HTML_TAG
 (
 embed
-SharedObject
+Embed
 Embed
 )
 HTML_TAG
