@@ -2293,8 +2293,10 @@ type
 /
 /
 "
+Send
+to
 All
-devices
+Devices
 "
 menu
 item
@@ -2344,7 +2346,7 @@ fxaStrings
 GetStringFromName
 (
 "
-sendTabToAllDevices
+sendToAllDevices
 .
 menuitem
 "
