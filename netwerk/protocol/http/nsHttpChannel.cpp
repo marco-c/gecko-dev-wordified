@@ -48234,6 +48234,17 @@ if
 (
 !
 mUsedNetwork
+|
+|
+(
+mRaceCacheWithNetwork
+&
+&
+mFirstResponseSource
+=
+=
+RESPONSE_FROM_CACHE
+)
 )
 {
 chanDisposition
