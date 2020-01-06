@@ -29753,10 +29753,7 @@ LOCAL_GL_LINEAR
 )
 ;
 const
-gl
-:
-:
-OriginPos
+auto
 destOrigin
 =
 gl
@@ -29765,7 +29762,7 @@ gl
 OriginPos
 :
 :
-TopLeft
+BottomLeft
 ;
 bool
 ok
