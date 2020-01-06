@@ -4430,6 +4430,9 @@ mOnEncrypted
 MediaEventListener
 mOnWaitingForKey
 ;
+MediaEventListener
+mOnDecodeWarning
+;
 protected
 :
 /
