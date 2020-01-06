@@ -405,10 +405,6 @@ Destroy
 (
 )
 ;
-FlushPendingNotifyNotUsed
-(
-)
-;
 mIsDestroyed
 =
 true
