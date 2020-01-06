@@ -1464,6 +1464,11 @@ __init__
 (
 self
 callback
+errors
+=
+'
+strict
+'
 )
 :
         
@@ -1487,6 +1492,12 @@ _encoding
 getpreferredencoding
 (
 )
+        
+self
+.
+_errors
+=
+errors
     
 def
 write
@@ -1517,6 +1528,9 @@ decode
 self
 .
 _encoding
+self
+.
+_errors
 )
         
 lines
