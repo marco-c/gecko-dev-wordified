@@ -839,6 +839,16 @@ IUnknown
 aOutput
 )
 ;
+static
+DWORD
+GetMarshalFlags
+(
+DWORD
+aDestContext
+DWORD
+aMarshalFlags
+)
+;
 private
 :
 InterceptorTargetPtr
