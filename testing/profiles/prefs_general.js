@@ -5129,9 +5129,11 @@ extensions
 .
 formautofill
 .
-experimental
+available
 "
-true
+"
+on
+"
 )
 ;
 /
