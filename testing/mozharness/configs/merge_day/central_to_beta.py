@@ -117,7 +117,6 @@ to
 "
 {
 }
-/
 {
 }
 "
@@ -340,20 +339,7 @@ from
 to
         
 (
-"
-{
-}
-/
-{
-}
-"
-.
-format
-(
-d
 f
-)
-        
 "
 ac_add_options
 -
@@ -398,7 +384,7 @@ beta
 )
         
 for
-d
+f
 in
 [
 "
@@ -416,6 +402,9 @@ api
 -
 15
 /
+l10n
+-
+nightly
 "
                   
 "
@@ -431,22 +420,9 @@ android
 -
 x86
 /
-"
-]
-        
-for
-f
-in
-[
-"
 l10n
 -
 nightly
-"
-"
-l10n
--
-release
 "
 ]
     
