@@ -743,7 +743,7 @@ num
 ;
 for
 (
-unsigned
+int
 i
 =
 0
@@ -1566,7 +1566,7 @@ num
 ;
 for
 (
-unsigned
+int
 i
 =
 0
