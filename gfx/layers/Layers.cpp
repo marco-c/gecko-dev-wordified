@@ -8531,6 +8531,16 @@ CompositionOp
 :
 :
 OP_OVER
+&
+&
+Manager
+(
+)
+-
+>
+SupportsBackdropCopyForComponentAlpha
+(
+)
 )
 {
 mSupportsComponentAlphaChildren
