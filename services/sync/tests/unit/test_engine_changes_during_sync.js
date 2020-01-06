@@ -3178,11 +3178,15 @@ Service
 .
 sync
 (
+{
+engines
+:
 [
 "
 bookmarks
 "
 ]
+}
 )
 ;
 let

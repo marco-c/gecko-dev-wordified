@@ -673,8 +673,12 @@ Service
 .
 sync
 (
+{
+engines
+:
 [
 ]
+}
 )
 ;
 deepEqual
@@ -763,11 +767,15 @@ Service
 .
 sync
 (
+{
+engines
+:
 [
 "
 steam
 "
 ]
+}
 )
 ;
 deepEqual
@@ -861,6 +869,9 @@ Service
 .
 sync
 (
+{
+engines
+:
 [
 "
 steam
@@ -869,6 +880,7 @@ steam
 stirling
 "
 ]
+}
 )
 ;
 deepEqual
@@ -965,6 +977,9 @@ Service
 .
 sync
 (
+{
+engines
+:
 [
 "
 stirling
@@ -973,6 +988,7 @@ stirling
 steam
 "
 ]
+}
 )
 ;
 deepEqual
