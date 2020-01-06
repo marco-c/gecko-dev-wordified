@@ -982,7 +982,7 @@ that
 we
 can
 use
-ScratchDoubleReg
+SecondScratchDoubleReg
 in
 memory
 move
@@ -1001,7 +1001,7 @@ floatReg
 )
 !
 =
-ScratchDoubleReg
+SecondScratchDoubleReg
 )
 ;
 MOZ_ASSERT_IF
@@ -1018,7 +1018,7 @@ floatReg
 )
 !
 =
-ScratchDoubleReg
+SecondScratchDoubleReg
 )
 ;
 if
@@ -1190,14 +1190,14 @@ getAdjustedAddress
 (
 from
 )
-ScratchDoubleReg
+SecondScratchDoubleReg
 )
 ;
 masm
 .
 storeDouble
 (
-ScratchDoubleReg
+SecondScratchDoubleReg
 getAdjustedAddress
 (
 to

@@ -3916,7 +3916,7 @@ asRawBits
 (
 )
 ;
-ScratchRegisterScope
+SecondScratchRegisterScope
 scratch
 (
 *
