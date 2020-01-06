@@ -3863,10 +3863,6 @@ WebrtcMediaCodecVP8VideoEncoder
 (
 )
 :
-mTimestamp
-(
-0
-)
 mCallback
 (
 nullptr
