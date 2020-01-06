@@ -545,6 +545,9 @@ CreateSourceInternal
 (
 ClientType
 aType
+nsISerialEventTarget
+*
+aEventTarget
 const
 PrincipalInfo
 &
@@ -620,6 +623,7 @@ new
 ClientSource
 (
 this
+aEventTarget
 args
 )
 )
@@ -1078,6 +1082,9 @@ CreateSource
 (
 ClientType
 aType
+nsISerialEventTarget
+*
+aEventTarget
 nsIPrincipal
 *
 aPrincipal
@@ -1140,6 +1147,7 @@ mgr
 CreateSourceInternal
 (
 aType
+aEventTarget
 principalInfo
 )
 ;
@@ -1158,6 +1166,9 @@ CreateSource
 (
 ClientType
 aType
+nsISerialEventTarget
+*
+aEventTarget
 const
 PrincipalInfo
 &
@@ -1181,6 +1192,7 @@ mgr
 CreateSourceInternal
 (
 aType
+aEventTarget
 aPrincipal
 )
 ;
