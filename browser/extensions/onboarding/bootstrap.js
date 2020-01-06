@@ -332,6 +332,13 @@ onboarding
 -
 tour
 -
+performance
+"
+"
+onboarding
+-
+tour
+-
 private
 -
 browsing
