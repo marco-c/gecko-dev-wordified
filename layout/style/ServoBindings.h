@@ -1700,8 +1700,7 @@ RawServoAnimationValue
 /
 We
 use
-void
-*
+RawServoAnimationValueTableBorrowed
 to
 avoid
 exposing
@@ -1712,8 +1711,7 @@ FFI
 RawServoAnimationValueBorrowedOrNull
 Gecko_AnimationGetBaseStyle
 (
-void
-*
+RawServoAnimationValueTableBorrowed
 aBaseStyles
 nsCSSPropertyID
 aProperty
