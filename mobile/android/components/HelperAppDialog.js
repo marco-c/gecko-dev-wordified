@@ -1891,7 +1891,7 @@ function
 )
 {
 let
-_useNewButtonOrder
+useNewButtonOrder
 =
 true
 ;
