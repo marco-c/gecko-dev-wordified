@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h
