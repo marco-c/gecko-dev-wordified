@@ -2173,9 +2173,6 @@ op
 length
 ;
 }
-return
-true
-;
 }
 ControlFlowGenerator
 :

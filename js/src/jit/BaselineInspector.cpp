@@ -3103,7 +3103,6 @@ sawDoubleResult
 (
 )
 ;
-else
 return
 stub
 -
@@ -3116,9 +3115,6 @@ toBinaryArith_Fallback
 sawDoubleResult
 (
 )
-;
-return
-false
 ;
 }
 JSObject

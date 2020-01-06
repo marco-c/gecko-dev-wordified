@@ -8563,7 +8563,6 @@ cx
 objRoot
 )
 )
-{
 oomUnsafe
 .
 crash
@@ -8578,9 +8577,6 @@ EnsureTrackPropertyTypes
 "
 )
 ;
-return
-;
-}
 }
 if
 (
