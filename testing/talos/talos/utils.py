@@ -199,27 +199,6 @@ Microsoft
         
 if
 '
-5
-.
-1
-'
-in
-platform
-.
-version
-(
-)
-:
-#
-winxp
-            
-return
-'
-win_
-'
-        
-elif
-'
 6
 .
 1
