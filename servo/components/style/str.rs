@@ -1218,6 +1218,7 @@ len
 (
 )
 >
+=
 prefix
 .
 len
@@ -1226,6 +1227,10 @@ len
 &
 &
 string
+.
+as_bytes
+(
+)
 [
 0
 .
@@ -1240,5 +1245,9 @@ len
 eq_ignore_ascii_case
 (
 prefix
+.
+as_bytes
+(
+)
 )
 }
