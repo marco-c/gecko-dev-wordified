@@ -1043,8 +1043,9 @@ let
 set
 =
 this
-.
-listeners
+[
+LISTENERS
+]
 .
 get
 (
