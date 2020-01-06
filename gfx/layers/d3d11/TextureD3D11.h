@@ -1270,7 +1270,7 @@ mAllowTextureUploads
 ?
 this
 :
-false
+nullptr
 ;
 }
 virtual
