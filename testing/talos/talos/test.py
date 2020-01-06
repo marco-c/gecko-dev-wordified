@@ -1105,6 +1105,11 @@ reinstall
 '
 sessionstore
 .
+jsonlz4
+'
+'
+sessionstore
+.
 js
 '
 '
