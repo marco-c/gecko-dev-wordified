@@ -10716,6 +10716,7 @@ mWrBridge
 FlushTransactionIdsForEpoch
 (
 aEpoch
+aCompositeEnd
 )
 ;
 Unused
@@ -10843,6 +10844,7 @@ mWrBridge
 FlushTransactionIdsForEpoch
 (
 aEpoch
+aCompositeEnd
 )
 ;
 Unused
