@@ -4086,17 +4086,6 @@ ResumePainting
 )
 override
 ;
-void
-UpdateActivePointerState
-(
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
-)
-;
 /
 /
 /
