@@ -3920,7 +3920,10 @@ aTargetElement
 nsPresContext
 *
 aPresContext
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -4472,10 +4475,10 @@ return
 }
 if
 (
-aTargetElement
+styleContext
 -
 >
-IsStyledByServo
+IsServo
 (
 )
 )
@@ -4571,6 +4574,11 @@ aPropID
 aTargetElement
 presContext
 styleContext
+-
+>
+AsGecko
+(
+)
 aString
 parsedValue
 aIsContextSensitive

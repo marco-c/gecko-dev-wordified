@@ -5126,14 +5126,14 @@ context
 /
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
 :
 GetContext
 (
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 nsRuleNode
@@ -5311,7 +5311,7 @@ parentIfVisited
 set
 correctly
 .
-nsStyleContext
+GeckoStyleContext
 *
 parentIfVisited
 =
@@ -5441,7 +5441,7 @@ RelevantLinkVisited
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 result
 ;
@@ -5572,7 +5572,7 @@ aVisitedRuleNode
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 resultIfVisited
 =
@@ -8302,7 +8302,7 @@ GetParentElementCrossingShadowRoot
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -8312,7 +8312,7 @@ ResolveStyleFor
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -8350,7 +8350,7 @@ treeContext
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -8360,7 +8360,7 @@ ResolveStyleForInternal
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 TreeMatchContext
@@ -8577,7 +8577,7 @@ flags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -8587,7 +8587,7 @@ ResolveStyleFor
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 TreeMatchContext
@@ -8607,14 +8607,14 @@ eWithAnimation
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
 :
 ResolveStyleForRules
 (
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 const
@@ -8729,14 +8729,14 @@ eNoFlags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
 :
 ResolveStyleByAddingRules
 (
-nsStyleContext
+GeckoStyleContext
 *
 aBaseContext
 const
@@ -10583,7 +10583,7 @@ static
 bool
 SkipsParentDisplayBasedStyleFixup
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -10643,7 +10643,7 @@ type
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -10656,10 +10656,10 @@ aElement
 Element
 *
 aPseudoElement
-nsStyleContext
+GeckoStyleContext
 *
 aNewParentContext
-nsStyleContext
+GeckoStyleContext
 *
 aOldStyleContext
 nsRestyleHint
@@ -10697,7 +10697,7 @@ visitedRuleNode
 =
 nullptr
 ;
-nsStyleContext
+GeckoStyleContext
 *
 oldStyleIfVisited
 =
@@ -11214,7 +11214,7 @@ flags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -11227,7 +11227,7 @@ dom
 Element
 *
 aTarget
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsRestyleHint
@@ -11356,7 +11356,7 @@ true
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 result
 =
@@ -11393,7 +11393,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -11403,7 +11403,7 @@ ResolveStyleWithoutAnimation
 Element
 *
 aTarget
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -11529,7 +11529,7 @@ true
 .
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 result
 =
@@ -11559,7 +11559,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -11569,7 +11569,7 @@ ResolveStyleForText
 nsIContent
 *
 aTextNode
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -11612,14 +11612,14 @@ eNoFlags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
 :
 ResolveStyleForFirstLetterContinuation
 (
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -11645,7 +11645,7 @@ eNoFlags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -11656,7 +11656,7 @@ ResolveStyleForPlaceholder
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 &
 cache
@@ -11679,7 +11679,7 @@ cache
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 retval
 =
@@ -11695,7 +11695,7 @@ forget
 }
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 retval
 =
@@ -11874,7 +11874,7 @@ mDisableTextZoomStyleRule
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -11886,7 +11886,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 Element
@@ -12187,7 +12187,7 @@ flags
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -12199,7 +12199,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 Element
@@ -12220,7 +12220,7 @@ eWithAnimation
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -12232,7 +12232,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 Element
@@ -12253,7 +12253,7 @@ eWithoutAnimation
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -12265,7 +12265,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -12304,7 +12304,7 @@ treeContext
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -12316,7 +12316,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 TreeMatchContext
@@ -12623,7 +12623,7 @@ eSkipParentDisplayBasedStyleFixup
 }
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 result
 =
@@ -12779,7 +12779,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -12789,7 +12789,7 @@ ResolveInheritingAnonymousBoxStyle
 nsIAtom
 *
 aPseudoTag
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 )
@@ -13065,7 +13065,7 @@ eSkipParentDisplayBasedStyleFixup
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -13148,7 +13148,7 @@ aPseudoTag
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 &
 cache
@@ -13165,7 +13165,7 @@ cache
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 retval
 =
@@ -13247,7 +13247,7 @@ ResolveNonInheritingAnonymousBoxStyle
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 retval
 =
@@ -13286,7 +13286,7 @@ ifdef
 MOZ_XUL
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
@@ -13299,7 +13299,7 @@ aParentElement
 nsICSSAnonBoxPseudo
 *
 aPseudoTag
-nsStyleContext
+GeckoStyleContext
 *
 aParentContext
 nsICSSPseudoComparator
@@ -14793,17 +14793,17 @@ false
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 nsStyleSet
 :
 :
 ReparentStyleContext
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
-nsStyleContext
+GeckoStyleContext
 *
 aNewParentContext
 Element
@@ -14868,7 +14868,7 @@ aNewParentContext
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 ret
 =
@@ -14986,7 +14986,7 @@ visitedRuleNode
 =
 nullptr
 ;
-nsStyleContext
+GeckoStyleContext
 *
 visitedContext
 =
@@ -16598,7 +16598,7 @@ for
 (
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 &
 ptr

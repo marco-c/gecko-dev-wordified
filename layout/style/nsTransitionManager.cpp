@@ -2636,7 +2636,7 @@ ExtractNonDiscreteComputedValue
 (
 nsCSSPropertyID
 aProperty
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 AnimationValue
@@ -2746,12 +2746,12 @@ dom
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aOldStyleContext
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 *
 aNewStyleContext
@@ -2762,7 +2762,7 @@ inout
 /
 )
 {
-nsStyleContext
+GeckoStyleContext
 *
 newStyleContext
 =
@@ -3599,7 +3599,7 @@ now
 .
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 afterChangeStyle
 ;
@@ -7248,7 +7248,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsStyleContext
+GeckoStyleContext
 *
 aNewStyleContext
 )

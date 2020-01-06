@@ -4751,6 +4751,11 @@ Put
 (
 mContent
 mStyleContext
+-
+>
+AsGecko
+(
+)
 )
 ;
 }

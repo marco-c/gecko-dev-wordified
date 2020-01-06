@@ -659,6 +659,11 @@ AsElement
 )
 aPseudoElement
 aContext
+-
+>
+AsGecko
+(
+)
 aComparator
 )
 ;

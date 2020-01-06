@@ -602,6 +602,11 @@ ExtractComputedValue
 (
 mPropID
 mBaseStyleContext
+-
+>
+AsGecko
+(
+)
 computedValue
 .
 mGecko
