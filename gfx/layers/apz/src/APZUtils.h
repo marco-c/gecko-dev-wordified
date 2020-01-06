@@ -322,6 +322,10 @@ Mouse
 wheel
 .
 Wheel
+/
+/
+Keyboard
+Keyboard
 }
 ;
 typedef
