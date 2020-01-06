@@ -4784,7 +4784,7 @@ without
 a
 target
 on
-PLACES_LINKS_DELETED
+PLACES_LINK_DELETED
 action
 "
 async
@@ -4813,7 +4813,7 @@ type
 :
 at
 .
-PLACES_LINKS_DELETED
+PLACES_LINK_DELETED
 }
 )
 ;

@@ -2679,7 +2679,7 @@ should
 fetch
 highlights
 on
-PLACES_LINKS_DELETED
+PLACES_LINK_DELETED
 "
 async
 (
@@ -2713,7 +2713,7 @@ type
 :
 at
 .
-PLACES_LINKS_DELETED
+PLACES_LINK_DELETED
 }
 )
 ;
