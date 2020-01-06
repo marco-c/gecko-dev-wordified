@@ -424,6 +424,8 @@ return
 self
 .
 weight
+.
+0
 as
 i16
 )
@@ -432,6 +434,8 @@ i16
 other
 .
 weight
+.
+0
 as
 i16
 )

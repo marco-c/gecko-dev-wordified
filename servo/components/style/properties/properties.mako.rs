@@ -12558,8 +12558,8 @@ write_u16
 self
 .
 font_weight
-as
-u16
+.
+0
 )
 ;
 self
