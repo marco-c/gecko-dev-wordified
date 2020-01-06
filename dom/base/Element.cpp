@@ -7520,6 +7520,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aTriggeringPrincipal
 ErrorResult
 &
 aError
@@ -7603,6 +7606,7 @@ SetAttr
 kNameSpaceID_None
 nameAtom
 aValue
+aTriggeringPrincipal
 true
 )
 ;
@@ -7632,6 +7636,7 @@ GetPrefix
 (
 )
 aValue
+aTriggeringPrincipal
 true
 )
 ;
@@ -8038,6 +8043,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aTriggeringPrincipal
 ErrorResult
 &
 aError
@@ -8115,6 +8123,7 @@ GetPrefixAtom
 (
 )
 aValue
+aTriggeringPrincipal
 true
 )
 ;
@@ -14592,6 +14601,7 @@ nullptr
 old
 value
 value
+nullptr
 static_cast
 <
 uint8_t
@@ -14634,6 +14644,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 bool
 aNotify
 )
@@ -14940,6 +14953,7 @@ oldValue
 :
 nullptr
 attrValue
+aSubjectPrincipal
 modType
 hasListeners
 aNotify
@@ -15139,6 +15153,7 @@ oldValue
 :
 nullptr
 aParsedValue
+nullptr
 modType
 hasListeners
 aNotify
@@ -15169,6 +15184,9 @@ aOldValue
 nsAttrValue
 &
 aParsedValue
+nsIPrincipal
+*
+aSubjectPrincipal
 uint8_t
 aModType
 bool
@@ -15747,6 +15765,7 @@ aName
 &
 valueForAfterSetAttr
 oldValue
+aSubjectPrincipal
 aNotify
 )
 ;
@@ -17267,6 +17286,7 @@ aName
 nullptr
 &
 oldValue
+nullptr
 aNotify
 )
 ;

@@ -259,6 +259,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aSubjectPrincipal
 bool
 aNotify
 )

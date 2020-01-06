@@ -732,6 +732,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 bool
 aNotify
 )
@@ -748,6 +751,7 @@ aNameSpaceID
 aName
 aPrefix
 aValue
+aSubjectPrincipal
 aNotify
 )
 ;

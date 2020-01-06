@@ -399,6 +399,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -436,6 +439,7 @@ SetAttribute
 (
 aName
 aValue
+aSubjectPrincipal
 aRv
 )
 ;

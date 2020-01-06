@@ -3931,6 +3931,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aContentPrincipal
 bool
 aNotify
 )

@@ -1568,6 +1568,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aNotify
 )
@@ -1589,6 +1592,7 @@ aNameSpaceID
 aName
 attrVal
 aOldValue
+aMaybeScriptedPrincipal
 true
 aNotify
 )
@@ -2023,6 +2027,7 @@ aNameSpaceID
 aName
 aValue
 aOldValue
+aMaybeScriptedPrincipal
 aNotify
 )
 ;
@@ -2051,6 +2056,7 @@ AfterMaybeChangeAttr
 aNamespaceID
 aName
 aValue
+nullptr
 nullptr
 false
 aNotify
@@ -2088,6 +2094,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aValueMaybeChanged
 bool
