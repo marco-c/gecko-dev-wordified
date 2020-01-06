@@ -710,9 +710,6 @@ PAGEID_DUMMY
 dummy
 "
 ;
-/
-/
-Done
 const
 PAGEID_CHECKING
 =
@@ -720,9 +717,6 @@ PAGEID_CHECKING
 checking
 "
 ;
-/
-/
-Done
 const
 PAGEID_NO_UPDATES_FOUND
 =
@@ -730,9 +724,6 @@ PAGEID_NO_UPDATES_FOUND
 noupdatesfound
 "
 ;
-/
-/
-Done
 const
 PAGEID_MANUAL_UPDATE
 =
@@ -740,9 +731,6 @@ PAGEID_MANUAL_UPDATE
 manualUpdate
 "
 ;
-/
-/
-Done
 const
 PAGEID_UNSUPPORTED
 =
@@ -750,9 +738,6 @@ PAGEID_UNSUPPORTED
 unsupported
 "
 ;
-/
-/
-Done
 const
 PAGEID_FOUND_BASIC
 =
@@ -760,9 +745,6 @@ PAGEID_FOUND_BASIC
 updatesfoundbasic
 "
 ;
-/
-/
-Done
 const
 PAGEID_DOWNLOADING
 =
@@ -770,9 +752,6 @@ PAGEID_DOWNLOADING
 downloading
 "
 ;
-/
-/
-Done
 const
 PAGEID_ERRORS
 =
@@ -780,9 +759,6 @@ PAGEID_ERRORS
 errors
 "
 ;
-/
-/
-Done
 const
 PAGEID_ERROR_EXTRA
 =
@@ -790,9 +766,6 @@ PAGEID_ERROR_EXTRA
 errorextra
 "
 ;
-/
-/
-Done
 const
 PAGEID_ERROR_PATCHING
 =
@@ -800,9 +773,6 @@ PAGEID_ERROR_PATCHING
 errorpatching
 "
 ;
-/
-/
-Done
 const
 PAGEID_FINISHED
 =
@@ -810,9 +780,6 @@ PAGEID_FINISHED
 finished
 "
 ;
-/
-/
-Done
 const
 PAGEID_FINISHED_BKGRD
 =
@@ -820,9 +787,6 @@ PAGEID_FINISHED_BKGRD
 finishedBackground
 "
 ;
-/
-/
-Done
 const
 UPDATE_WINDOW_NAME
 =
