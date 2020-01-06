@@ -1279,10 +1279,7 @@ info
 0
 )
 ;
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
