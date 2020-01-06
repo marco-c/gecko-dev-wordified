@@ -51,9 +51,7 @@ x
 f
 .
 ArrayBuffer
-unwatch
-.
-Int32Array
+undefined
 ]
 this
 this
