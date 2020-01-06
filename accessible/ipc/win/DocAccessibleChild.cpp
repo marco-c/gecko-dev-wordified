@@ -1095,6 +1095,9 @@ const
 bool
 &
 aFromUser
+const
+bool
+aDoSyncCheck
 )
 {
 if
@@ -1106,6 +1109,9 @@ IsConstructedInParentProcess
 {
 if
 (
+aDoSyncCheck
+&
+&
 aStr
 .
 Contains

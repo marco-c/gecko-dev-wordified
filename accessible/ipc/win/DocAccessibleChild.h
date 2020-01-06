@@ -425,6 +425,11 @@ const
 bool
 &
 aFromUser
+const
+bool
+aDoSyncCheck
+=
+true
 )
 ;
 bool
@@ -1169,6 +1174,7 @@ mStart
 mLen
 mIsInsert
 mFromUser
+false
 )
 ;
 }
