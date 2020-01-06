@@ -854,7 +854,7 @@ new
 Object
 (
 {
-1
+0
 :
 '
 this
@@ -905,14 +905,14 @@ nline
 "
 +
 "
-2
+1
 :
 '
 a
 shorter
 string
 '
-3
+2
 :
 100
 }
@@ -922,11 +922,6 @@ output
 :
 '
 [
-<
-1
-empty
-slot
->
 "
 this
 is
@@ -966,7 +961,7 @@ variablesViewLabel
 "
 Object
 [
-4
+3
 ]
 "
 }
