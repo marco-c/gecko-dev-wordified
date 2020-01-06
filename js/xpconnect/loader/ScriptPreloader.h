@@ -2460,6 +2460,11 @@ PrepareCacheWrite
 (
 )
 ;
+void
+PrepareCacheWriteInternal
+(
+)
+;
 /
 /
 Returns
@@ -2724,6 +2729,11 @@ false
 ;
 bool
 mCacheInvalidated
+=
+false
+;
+bool
+mBlockedOnSyncDispatch
 =
 false
 ;
