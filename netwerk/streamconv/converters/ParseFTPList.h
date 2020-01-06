@@ -1165,6 +1165,15 @@ desirable
 /
 }
 ;
+typedef
+PRTime
+(
+*
+NowTimeFn
+)
+(
+)
+;
 int
 ParseFTPList
 (
@@ -1184,6 +1193,10 @@ PRTimeParamFn
 timeParam
 =
 PR_LocalTimeParameters
+NowTimeFn
+nowTimeFn
+=
+PR_Now
 )
 ;
 #
