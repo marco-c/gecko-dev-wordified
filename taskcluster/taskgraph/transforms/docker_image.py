@@ -972,7 +972,7 @@ point
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -994,11 +994,12 @@ in
 sync
 with
 Dockerfile
-.
+and
+TASKCLUSTER_VOLUMES
                     
 '
 /
-home
+builds
 /
 worker
 /
@@ -1007,7 +1008,7 @@ checkouts
                     
 '
 /
-home
+builds
 /
 worker
 /
@@ -1037,7 +1038,7 @@ path
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -1081,7 +1082,7 @@ HG_STORE_PATH
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -1161,6 +1162,26 @@ params
 head_rev
 '
 ]
+                    
+'
+TASKCLUSTER_VOLUMES
+'
+:
+'
+/
+builds
+/
+worker
+/
+checkouts
+;
+/
+builds
+/
+worker
+/
+workspace
+'
                 
 }
                 
