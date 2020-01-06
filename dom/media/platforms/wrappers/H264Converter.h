@@ -630,6 +630,12 @@ FlushPromise
 >
 mFlushRequest
 ;
+RefPtr
+<
+FlushPromise
+>
+mFlushPromise
+;
 MozPromiseRequestHolder
 <
 ShutdownPromise
