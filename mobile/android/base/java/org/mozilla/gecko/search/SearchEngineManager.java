@@ -554,7 +554,7 @@ stores
 search
 region
 .
-private
+public
 static
 final
 String
