@@ -944,6 +944,8 @@ InternalResponse
 :
 Clone
 (
+CloneType
+aCloneType
 )
 {
 RefPtr
@@ -983,6 +985,7 @@ mWrappedResponse
 >
 Clone
 (
+aCloneType
 )
 ;
 MOZ_ASSERT
@@ -1003,6 +1006,12 @@ if
 (
 !
 mBody
+|
+|
+aCloneType
+=
+=
+eDontCloneInputStream
 )
 {
 return
