@@ -1873,7 +1873,7 @@ builder
 DisplayListBuilder
 :
 :
-new
+with_capacity
 (
 webrender_pipeline_id
 self
@@ -1887,8 +1887,17 @@ size
 to_sizef
 (
 )
+1024
+*
+1024
 )
 ;
+/
+/
+1
+MB
+of
+space
 let
 mut
 current_scroll_root_id
