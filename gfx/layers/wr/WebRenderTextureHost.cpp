@@ -754,7 +754,7 @@ void
 WebRenderTextureHost
 :
 :
-AddWRImage
+PushResourceUpdates
 (
 wr
 :
@@ -762,9 +762,11 @@ wr
 ResourceUpdateQueue
 &
 aResources
+ResourceUpdateOp
+aOp
+const
 Range
 <
-const
 wr
 :
 :
@@ -797,9 +799,10 @@ aExtID
 mWrappedTextureHost
 -
 >
-AddWRImage
+PushResourceUpdates
 (
 aResources
+aOp
 aImageKeys
 aExtID
 )
