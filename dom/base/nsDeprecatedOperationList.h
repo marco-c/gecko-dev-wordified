@@ -256,10 +256,6 @@ ShowModalDialog
 )
 DEPRECATED_OPERATION
 (
-Window_Content
-)
-DEPRECATED_OPERATION
-(
 SyncXMLHttpRequest
 )
 DEPRECATED_OPERATION
