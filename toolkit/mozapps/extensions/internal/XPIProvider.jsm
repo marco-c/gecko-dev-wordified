@@ -23014,6 +23014,14 @@ disabled
 "
 )
 ;
+addon
+.
+installDate
+=
+oldAddon
+.
+installDate
+;
 let
 existingAddonID
 =
