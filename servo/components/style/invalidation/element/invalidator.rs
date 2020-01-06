@@ -477,7 +477,7 @@ self
 .
 selector
 .
-iter_raw_rev_from
+iter_raw_parse_order_from
 (
 self
 .
@@ -3222,7 +3222,7 @@ invalidation
 .
 selector
 .
-iter_raw_rev_from
+iter_raw_parse_order_from
 (
 next_combinator_offset
 -

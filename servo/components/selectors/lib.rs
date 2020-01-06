@@ -131,6 +131,9 @@ pub
 mod
 bloom
 ;
+mod
+builder
+;
 pub
 mod
 context
@@ -171,6 +174,10 @@ gecko_like_types
 pub
 mod
 gecko_like_types
+;
+pub
+mod
+sink
 ;
 mod
 tree
