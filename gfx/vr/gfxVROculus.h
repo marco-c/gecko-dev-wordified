@@ -344,6 +344,9 @@ presentation
 TimeStamp
 mLastPresentationEnd
 ;
+TimeStamp
+mPresentationStart
+;
 ~
 VROculusSession
 (

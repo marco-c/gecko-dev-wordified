@@ -395,6 +395,9 @@ IVRCompositor
 *
 mVRCompositor
 ;
+TimeStamp
+mPresentationStart
+;
 bool
 mIsPresenting
 ;
