@@ -359,7 +359,6 @@ MediaRawData
 aSample
 )
 ;
-virtual
 RefPtr
 <
 DecodePromise
@@ -367,8 +366,6 @@ DecodePromise
 ProcessDrain
 (
 )
-=
-0
 ;
 virtual
 MediaResult
@@ -433,6 +430,12 @@ MozPromiseHolder
 DecodePromise
 >
 mPromise
+;
+media
+:
+:
+TimeUnit
+mLastInputDts
 ;
 }
 ;
