@@ -186,7 +186,6 @@ resetPayload
 )
 ;
 }
-;
 BHRTelemetryService
 .
 prototype
