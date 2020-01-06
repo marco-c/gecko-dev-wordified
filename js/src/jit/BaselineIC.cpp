@@ -972,16 +972,9 @@ if
 !
 info
 )
-{
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
-}
 memset
 (
 info
