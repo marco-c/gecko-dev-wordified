@@ -158,6 +158,15 @@ include
 "
 jit
 /
+BaselineFrame
+.
+h
+"
+#
+include
+"
+jit
+/
 BaselineIC
 .
 h
