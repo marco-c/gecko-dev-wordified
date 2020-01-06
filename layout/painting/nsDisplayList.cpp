@@ -13930,14 +13930,6 @@ GetDocument
 ;
 if
 (
-gfxPrefs
-:
-:
-WebRenderLayersFree
-(
-)
-&
-&
 layerManager
 -
 >
