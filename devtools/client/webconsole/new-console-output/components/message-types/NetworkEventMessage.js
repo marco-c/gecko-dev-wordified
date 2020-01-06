@@ -837,6 +837,9 @@ className
 network
 -
 info
+network
+-
+monitor
 devtools
 -
 monospace
