@@ -188,9 +188,6 @@ connector
 )
 StatusBar
 (
-{
-connector
-}
 )
 )
 )
