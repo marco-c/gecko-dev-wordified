@@ -749,14 +749,11 @@ JSEXN_WASMRUNTIMEERROR
 )
 )
 \
-real
+imaginary
 (
 Iterator
-InitLegacyIteratorClass
-OCLASP
-(
-PropertyIterator
-)
+dummy
+dummy
 )
 \
 real
