@@ -1221,12 +1221,6 @@ element
 IsInComposedDoc
 (
 )
-&
-&
-!
-HasPendingLinkUpdate
-(
-)
 )
 {
 /

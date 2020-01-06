@@ -757,7 +757,6 @@ bool
 HasPendingLinkUpdate
 (
 )
-const
 {
 return
 mHasPendingLinkUpdate
