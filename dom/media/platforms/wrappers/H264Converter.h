@@ -466,7 +466,7 @@ set
 mError
 accordingly
 .
-nsresult
+MediaResult
 CreateDecoder
 (
 const
@@ -478,7 +478,7 @@ DecoderDoctorDiagnostics
 aDiagnostics
 )
 ;
-nsresult
+MediaResult
 CreateDecoderAndInit
 (
 MediaRawData
@@ -486,7 +486,7 @@ MediaRawData
 aSample
 )
 ;
-nsresult
+MediaResult
 CheckForSPSChange
 (
 MediaRawData
