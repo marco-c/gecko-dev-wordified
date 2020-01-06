@@ -3514,7 +3514,9 @@ vector
 True
 allow_empty
 =
-True
+"
+NotInitial
+"
 need_index
 =
 True
@@ -5282,7 +5284,9 @@ ComputedValue
 "
 allow_empty
 =
-True
+"
+NotInitial
+"
 delegate_animate
 =
 True
