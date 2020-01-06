@@ -909,6 +909,9 @@ nsCString
 (
 )
 ;
+if
+(
+!
 prefixes
 -
 >
@@ -917,8 +920,14 @@ SetLength
 PREFIX_SIZE_FIXED
 *
 count
+fallible
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 /
 /
 Writing
