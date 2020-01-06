@@ -53727,8 +53727,10 @@ been
 successfully
 validated
 .
-static
 bool
+js
+:
+:
 InstantiateAsmJS
 (
 JSContext
