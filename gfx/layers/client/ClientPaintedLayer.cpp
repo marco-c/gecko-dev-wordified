@@ -682,6 +682,9 @@ mVisibleRegion
 ToUnknownRegion
 (
 )
+aState
+.
+mDidSelfCopy
 )
 ;
 }

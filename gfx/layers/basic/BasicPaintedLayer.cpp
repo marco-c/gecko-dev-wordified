@@ -1236,6 +1236,9 @@ state
 mRegionToInvalidate
 state
 .
+mDidSelfCopy
+state
+.
 mClip
 aCallback
 aCallbackData

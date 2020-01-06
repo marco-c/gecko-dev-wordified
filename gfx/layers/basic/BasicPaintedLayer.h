@@ -628,6 +628,8 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
+bool
+aDidSelfCopy
 DrawRegionClip
 aClip
 LayerManager
