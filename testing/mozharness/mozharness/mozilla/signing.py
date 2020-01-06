@@ -108,6 +108,8 @@ import
 re
 import
 json
+import
+sys
 from
 mozharness
 .
@@ -437,22 +439,13 @@ cert
 '
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python
-'
-)
-        
 cmd
 =
 [
             
-python
+sys
+.
+executable
             
 os
 .
