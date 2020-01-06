@@ -2256,7 +2256,7 @@ nsresult
 nsJSUtils
 :
 :
-ModuleDeclarationInstantiation
+ModuleInstantiate
 (
 JSContext
 *
@@ -2278,7 +2278,7 @@ AUTO_PROFILER_LABEL
 nsJSUtils
 :
 :
-ModuleDeclarationInstantiation
+ModuleInstantiate
 "
 JS
 )
@@ -2328,7 +2328,7 @@ if
 JS
 :
 :
-ModuleDeclarationInstantiation
+ModuleInstantiate
 (
 aCx
 aModule
@@ -2347,7 +2347,7 @@ nsresult
 nsJSUtils
 :
 :
-ModuleEvaluation
+ModuleEvaluate
 (
 JSContext
 *
@@ -2369,7 +2369,7 @@ AUTO_PROFILER_LABEL
 nsJSUtils
 :
 :
-ModuleEvaluation
+ModuleEvaluate
 "
 JS
 )
@@ -2429,7 +2429,7 @@ if
 JS
 :
 :
-ModuleEvaluation
+ModuleEvaluate
 (
 aCx
 aModule

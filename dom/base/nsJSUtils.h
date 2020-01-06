@@ -1240,7 +1240,7 @@ aModule
 ;
 static
 nsresult
-ModuleDeclarationInstantiation
+ModuleInstantiate
 (
 JSContext
 *
@@ -1258,7 +1258,7 @@ aModule
 ;
 static
 nsresult
-ModuleEvaluation
+ModuleEvaluate
 (
 JSContext
 *
