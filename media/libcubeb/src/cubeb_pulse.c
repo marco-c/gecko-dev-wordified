@@ -4027,6 +4027,16 @@ output_stream
 pa_stm
 &
 &
+(
+stream_params
+-
+>
+layout
+=
+=
+CUBEB_LAYOUT_UNDEFINED
+|
+|
 stream_params
 -
 >
@@ -4051,6 +4061,7 @@ stream_params
 -
 >
 channels
+)
 )
 )
 ;
@@ -8234,6 +8245,10 @@ pulse_stream_start
 stream_stop
 =
 pulse_stream_stop
+.
+stream_reset_default_device
+=
+NULL
 .
 stream_get_position
 =

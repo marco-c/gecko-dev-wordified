@@ -383,6 +383,17 @@ stream
 int
 (
 *
+stream_reset_default_device
+)
+(
+cubeb_stream
+*
+stream
+)
+;
+int
+(
+*
 stream_get_position
 )
 (
