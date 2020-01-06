@@ -4077,6 +4077,11 @@ mFindInPageBar
 .
 show
 (
+mBrowserToolbar
+.
+isPrivateMode
+(
+)
 )
 ;
 return
@@ -25620,6 +25625,11 @@ mFindInPageBar
 .
 show
 (
+mBrowserToolbar
+.
+isPrivateMode
+(
+)
 )
 ;
 return
