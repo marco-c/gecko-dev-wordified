@@ -27237,12 +27237,13 @@ gecko
 .
 mProperty
 =
-(
-&
 servo
+.
+to_nscsspropertyid
+(
 )
 .
-into
+unwrap
 (
 )
 }
