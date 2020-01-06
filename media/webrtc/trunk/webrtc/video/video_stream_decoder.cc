@@ -445,6 +445,14 @@ nullptr
 video_receiver_
 -
 >
+RegisterReceiveStateCallback
+(
+nullptr
+)
+;
+video_receiver_
+-
+>
 RegisterReceiveCallback
 (
 nullptr

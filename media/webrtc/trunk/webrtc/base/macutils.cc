@@ -118,6 +118,9 @@ checks
 h
 "
 #
+ifndef
+WEBRTC_MOZILLA_BUILD
+#
 include
 "
 webrtc
@@ -128,6 +131,8 @@ common
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -579,6 +584,9 @@ int
 bugfix
 )
 {
+#
+ifndef
+WEBRTC_MOZILLA_BUILD
 RTC_DCHECK
 (
 major
@@ -590,6 +598,8 @@ minor
 bugfix
 )
 ;
+#
+endif
 struct
 utsname
 uname_info

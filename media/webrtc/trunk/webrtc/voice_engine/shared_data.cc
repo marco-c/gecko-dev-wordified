@@ -206,6 +206,14 @@ VoiceProcessThread
 "
 )
 )
+_externalRecording
+(
+false
+)
+_externalPlayout
+(
+false
+)
 {
 Trace
 :

@@ -518,6 +518,7 @@ voice_engine
 int
 audio_channel_id
 )
+override
 ;
 /
 /
@@ -636,6 +637,16 @@ file
 size_t
 byte_limit
 )
+override
+;
+bool
+GetRemoteRTCPSenderInfo
+(
+RTCPSenderInfo
+*
+sender_info
+)
+const
 override
 ;
 private

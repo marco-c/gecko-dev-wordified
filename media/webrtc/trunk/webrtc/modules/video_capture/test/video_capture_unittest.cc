@@ -2810,10 +2810,16 @@ test_frame_
 )
 ;
 }
+/
+/
+Disabled
+see
+Bug
+1368816
 TEST_F
 (
 VideoCaptureExternalTest
-Rotation
+DISABLED_Rotation
 )
 {
 EXPECT_EQ

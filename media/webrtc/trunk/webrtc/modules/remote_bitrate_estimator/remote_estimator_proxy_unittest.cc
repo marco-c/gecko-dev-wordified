@@ -323,6 +323,8 @@ Process
 SimulatedClock
 clock_
 ;
+:
+:
 testing
 :
 :

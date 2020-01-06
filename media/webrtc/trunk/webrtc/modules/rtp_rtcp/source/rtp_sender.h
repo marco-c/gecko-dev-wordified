@@ -637,6 +637,15 @@ uint32_t
 transport_frame_id_out
 )
 ;
+int32_t
+SetRID
+(
+const
+char
+*
+rid
+)
+;
 /
 /
 RTP
@@ -1475,6 +1484,10 @@ GUARDED_BY
 (
 send_critsect_
 )
+;
+char
+*
+rid_
 ;
 /
 /

@@ -199,6 +199,9 @@ DesktopCapturer
 >
 capturer
 ;
+#
+ifdef
+CAPTURE_ALLOW_DIRECTX
 if
 (
 options
@@ -230,6 +233,11 @@ options
 }
 else
 {
+#
+else
+{
+#
+endif
 capturer
 .
 reset

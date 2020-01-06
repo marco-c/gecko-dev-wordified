@@ -93,11 +93,11 @@ webrtc
 voiceengine
 ;
 import
-org
+android
 .
-webrtc
+util
 .
-Logging
+Log
 ;
 import
 android
@@ -148,6 +148,18 @@ nio
 .
 ByteBuffer
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WebRTCJNITarget
+;
+WebRTCJNITarget
 public
 class
 WebRtcAudioTrack
@@ -263,8 +275,6 @@ byteBuffer
 private
 AudioTrack
 audioTrack
-=
-null
 ;
 private
 AudioTrackThread
@@ -408,7 +418,7 @@ Process
 THREAD_PRIORITY_URGENT_AUDIO
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -510,7 +520,7 @@ IllegalStateException
 e
 )
 {
-Logging
+Log
 .
 e
 (
@@ -743,7 +753,7 @@ bytesWritten
 sizeInBytes
 )
 {
-Logging
+Log
 .
 e
 (
@@ -882,7 +892,7 @@ IllegalStateException
 e
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1026,7 +1036,7 @@ long
 nativeAudioTrack
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1092,7 +1102,7 @@ int
 channels
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1132,7 +1142,7 @@ BITS_PER_SAMPLE
 ;
 byteBuffer
 =
-byteBuffer
+ByteBuffer
 .
 allocateDirect
 (
@@ -1145,7 +1155,7 @@ BUFFERS_PER_SECOND
 )
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -1301,7 +1311,7 @@ AudioFormat
 ENCODING_PCM_16BIT
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -1404,7 +1414,7 @@ capacity
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1453,7 +1463,7 @@ audioTrack
 null
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1534,7 +1544,7 @@ IllegalArgumentException
 e
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1618,7 +1628,7 @@ AudioTrack
 STATE_INITIALIZED
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1659,7 +1669,7 @@ startPlayout
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1699,7 +1709,7 @@ AudioTrack
 STATE_INITIALIZED
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1745,7 +1755,7 @@ stopPlayout
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1805,7 +1815,7 @@ getStreamMaxVolume
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1855,7 +1865,7 @@ int
 volume
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1887,7 +1897,7 @@ isVolumeFixed
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1971,7 +1981,7 @@ getStreamVolume
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -2006,7 +2016,7 @@ logMainParameters
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -2084,7 +2094,7 @@ gain
 :
 "
 +
-audioTrack
+AudioTrack
 .
 getMaxVolume
 (
@@ -2107,7 +2117,7 @@ runningOnMarshmallowOrHigher
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -2148,6 +2158,20 @@ getBufferSizeInFrames
 )
 ;
 }
+/
+*
+Mozilla
+:
+This
+requires
+API
+Level
+24
+but
+we
+build
+for
+23
 if
 (
 WebRtcAudioUtils
@@ -2157,7 +2181,7 @@ runningOnNougatOrHigher
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -2194,6 +2218,8 @@ getBufferCapacityInFrames
 )
 ;
 }
+*
+/
 }
 /
 /
@@ -2278,6 +2304,20 @@ logUnderrunCount
 (
 )
 {
+/
+*
+Mozilla
+:
+This
+requires
+API
+Level
+24
+but
+we
+build
+for
+23
 if
 (
 WebRtcAudioUtils
@@ -2287,7 +2327,7 @@ runningOnNougatOrHigher
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -2306,6 +2346,8 @@ getUnderrunCount
 )
 ;
 }
+*
+/
 }
 /
 /
@@ -2437,7 +2479,7 @@ boolean
 mute
 )
 {
-Logging
+Log
 .
 w
 (

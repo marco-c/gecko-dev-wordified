@@ -181,6 +181,7 @@ kEchoCanceller3
 Deprecated
 kAecRefinedAdaptiveFilter
 kLevelControl
+kCaptureDeviceInfo
 }
 ;
 /

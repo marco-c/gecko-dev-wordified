@@ -217,6 +217,9 @@ ReceiveStatisticsProxy
 class
 VideoRenderCallback
 ;
+class
+VCMReceiveStateCallback
+;
 namespace
 vcm
 {

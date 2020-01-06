@@ -97,7 +97,14 @@ org
 .
 webrtc
 .
-Logging
+ThreadUtils
+;
+import
+android
+.
+util
+.
+Log
 ;
 import
 android
@@ -306,6 +313,18 @@ AudioManager
 .
 MODE_IN_COMMUNICATION
 .
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WebRTCJNITarget
+;
+WebRTCJNITarget
 public
 class
 WebRtcAudioManager
@@ -469,7 +488,7 @@ boolean
 enable
 )
 {
-Logging
+Log
 .
 w
 (
@@ -506,7 +525,7 @@ boolean
 enable
 )
 {
-Logging
+Log
 .
 w
 (
@@ -838,7 +857,7 @@ AudioManager
 MODE_RINGTONE
 )
 {
-Logging
+Log
 .
 d
 (
@@ -884,7 +903,7 @@ AudioManager
 MODE_IN_COMMUNICATION
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1034,7 +1053,7 @@ long
 nativeAudioManager
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1124,7 +1143,7 @@ init
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1149,7 +1168,7 @@ return
 true
 ;
 }
-Logging
+Log
 .
 d
 (
@@ -1191,7 +1210,7 @@ dispose
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1268,7 +1287,7 @@ if
 blacklisted
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1719,7 +1738,7 @@ runningOnEmulator
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1774,7 +1793,7 @@ isDefaultSampleRateOverridden
 )
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1857,7 +1876,7 @@ getDefaultSampleRateHz
 )
 ;
 }
-Logging
+Log
 .
 d
 (

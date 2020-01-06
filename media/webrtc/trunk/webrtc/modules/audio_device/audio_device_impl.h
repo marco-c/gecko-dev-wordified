@@ -185,6 +185,9 @@ kPlatformAndroid
 kPlatformIOS
 =
 6
+kPlatformSndio
+=
+7
 }
 ;
 int32_t

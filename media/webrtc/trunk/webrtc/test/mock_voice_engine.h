@@ -574,6 +574,15 @@ assertion
 _ref_count
 ;
 }
+int
+Release
+(
+)
+{
+return
+0
+;
+}
 /
 /
 Allows

@@ -399,6 +399,10 @@ const
 RTPVideoHeader
 *
 video_header
+const
+char
+*
+rid
 )
 ;
 void

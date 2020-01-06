@@ -934,6 +934,15 @@ crit_
 )
 ;
 void
+ClearFramesAndHistory
+(
+)
+EXCLUSIVE_LOCKS_REQUIRED
+(
+crit_
+)
+;
+void
 UpdateHistograms
 (
 )

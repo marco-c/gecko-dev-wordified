@@ -131,6 +131,7 @@ DeviceInfoImpl
 {
 public
 :
+explicit
 DeviceInfoMF
 (
 )

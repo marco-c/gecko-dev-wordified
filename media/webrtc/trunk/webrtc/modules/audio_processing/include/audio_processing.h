@@ -110,8 +110,13 @@ get
 M_PI
 .
 #
+ifndef
+_USE_MATH_DEFINES
+#
 define
 _USE_MATH_DEFINES
+#
+endif
 #
 include
 <
@@ -4913,6 +4918,9 @@ kSampleRate16kHz
 kSampleRate32kHz
 =
 32000
+kSampleRate44_1kHz
+=
+44100
 kSampleRate48kHz
 =
 48000

@@ -701,6 +701,11 @@ playout_buffer_delay_ms
 =
 0
 ;
+int
+avsync_delay_ms
+=
+0
+;
 if
 (
 voe_sync_interface_
@@ -713,6 +718,8 @@ voe_channel_id_
 audio_jitter_buffer_delay_ms
 &
 playout_buffer_delay_ms
+&
+avsync_delay_ms
 )
 !
 =

@@ -2558,6 +2558,18 @@ i
 _buffer
 ;
 }
+/
+/
+Reserve
+100
+extra
+bytes
+for
+overhead
+at
+small
+resolutions
+.
 encoded_images_
 [
 i
@@ -2575,6 +2587,8 @@ codec_
 .
 height
 )
++
+100
 ;
 encoded_images_
 [

@@ -261,6 +261,12 @@ PlayoutDelayLimits
 >
 (
 )
+CreateExtensionInfo
+<
+StreamId
+>
+(
+)
 }
 ;
 /

@@ -428,6 +428,8 @@ erasure_code_
 FlexfecPacketGenerator
 packet_generator_
 ;
+:
+:
 testing
 :
 :
