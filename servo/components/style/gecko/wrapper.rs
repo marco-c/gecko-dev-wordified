@@ -6304,6 +6304,13 @@ has_xbl_binding_with_content
 |
 self
 .
+is_in_shadow_tree
+(
+)
+|
+|
+self
+.
 may_have_anonymous_children
 (
 )
