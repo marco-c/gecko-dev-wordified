@@ -3757,11 +3757,7 @@ imageSize
 ToUnknownSize
 (
 )
-imageSize
-.
-width
-*
-4
+0
 dt
 -
 >

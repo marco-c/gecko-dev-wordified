@@ -741,11 +741,7 @@ value
 (
 )
 imageSize
-size
-.
-width
-*
-4
+0
 dt
 -
 >
