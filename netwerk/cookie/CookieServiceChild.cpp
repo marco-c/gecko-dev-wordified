@@ -1507,7 +1507,7 @@ hostFromURI
 aHostURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 pathFromURI
 )
