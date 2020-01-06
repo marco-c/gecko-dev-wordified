@@ -220,8 +220,6 @@ testing
 .
 *
 /
-namespace
-{
 /
 /
 When
@@ -279,14 +277,7 @@ min_buffered_audio_frame
 uint32_t
 sample_rate
 )
-{
-return
-sample_rate
-/
-20
 ;
-}
-}
 int
 to_speex_quality
 (
