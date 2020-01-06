@@ -1422,18 +1422,6 @@ type
 =
 data
 )
-.
-encode
-(
-'
-utf
--
-8
-'
-'
-replace
-'
-)
             
 #
 summary
