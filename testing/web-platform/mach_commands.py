@@ -318,25 +318,9 @@ stackfix_dir
 "
 ]
 =
-os
-.
-path
-.
-split
-(
-                
 self
 .
-get_binary_path
-(
-validate_exists
-=
-False
-)
-)
-[
-0
-]
+bindir
         
 here
 =
