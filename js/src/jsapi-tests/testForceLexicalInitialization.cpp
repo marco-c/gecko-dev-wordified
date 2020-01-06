@@ -265,14 +265,12 @@ JSPROP_PERMANENT
 ;
 CHECK
 (
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 env
 id
 uninitialized
-nullptr
-nullptr
 attrs
 )
 )

@@ -2460,14 +2460,12 @@ JS_UNINITIALIZED_LEXICAL
 )
 ;
 return
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 lexicalEnv
 id
 uninitialized
-nullptr
-nullptr
 attrs
 )
 ;
@@ -2760,7 +2758,7 @@ op
 )
 ;
 return
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 obj
@@ -2773,8 +2771,6 @@ NativeObject
 )
 id
 rhs
-nullptr
-nullptr
 propAttrs
 )
 ;

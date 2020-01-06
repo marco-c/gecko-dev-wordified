@@ -21079,7 +21079,7 @@ toUTCStringFun
 )
 &
 &
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 proto
@@ -21092,8 +21092,6 @@ NativeObject
 )
 toGMTStringId
 toUTCStringFun
-nullptr
-nullptr
 0
 )
 ;

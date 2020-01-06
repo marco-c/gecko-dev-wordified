@@ -562,7 +562,7 @@ i
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 ctor
@@ -571,8 +571,6 @@ names
 i
 ]
 value
-nullptr
-nullptr
 attrs
 )
 )

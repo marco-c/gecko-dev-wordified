@@ -7386,7 +7386,7 @@ Int32Value
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 templateObject
@@ -7399,12 +7399,9 @@ names
 .
 index
 index
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
-{
 return
 matchResultTemplateObject_
 ;
@@ -7412,7 +7409,6 @@ matchResultTemplateObject_
 /
 =
 nullptr
-}
 /
 *
 Set
@@ -7442,7 +7438,7 @@ emptyString
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 templateObject
@@ -7455,8 +7451,6 @@ names
 .
 input
 inputVal
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
