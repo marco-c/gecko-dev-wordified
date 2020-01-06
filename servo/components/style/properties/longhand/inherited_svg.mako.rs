@@ -332,7 +332,7 @@ gecko
 animation_value_type
 =
 "
-none
+IntermediateSVGPaint
 "
 boxed
 =
@@ -550,7 +550,7 @@ gecko
 animation_value_type
 =
 "
-none
+IntermediateSVGPaint
 "
 boxed
 =
