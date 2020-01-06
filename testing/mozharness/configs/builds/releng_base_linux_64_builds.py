@@ -1792,27 +1792,6 @@ linux64
 nightly
 '
     
-'
-tooltool_manifest_src
-'
-:
-"
-browser
-/
-config
-/
-tooltool
--
-manifests
-/
-linux64
-/
-\
-releng
-.
-manifest
-"
-    
 #
 #
 #
