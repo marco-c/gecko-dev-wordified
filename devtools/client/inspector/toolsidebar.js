@@ -494,6 +494,15 @@ sidebar
 Tabbar
 (
 {
+menuDocument
+:
+this
+.
+_toolPanel
+.
+_toolbox
+.
+doc
 showAllTabsMenu
 :
 true
