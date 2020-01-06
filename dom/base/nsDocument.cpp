@@ -56008,9 +56008,9 @@ nsIURI
 *
 uri
 const
-nsAString
-&
-charset
+Encoding
+*
+aEncoding
 const
 nsAString
 &
@@ -56067,10 +56067,7 @@ true
 NodePrincipal
 (
 )
-NS_LossyConvertUTF16toASCII
-(
-charset
-)
+aEncoding
 obs
 Element
 :

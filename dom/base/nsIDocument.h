@@ -14642,9 +14642,12 @@ nsIURI
 *
 aURI
 const
-nsAString
-&
-aCharset
+mozilla
+:
+:
+Encoding
+*
+aEncoding
 const
 nsAString
 &

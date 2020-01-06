@@ -22943,9 +22943,6 @@ mCurrentPrototype
 DocumentPrincipal
 (
 )
-EmptyCString
-(
-)
 this
 &
 incompleteSheet
