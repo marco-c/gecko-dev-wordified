@@ -808,7 +808,7 @@ column
 group
 "
 )
-CSS_ANON_BOX
+CSS_NON_INHERITING_ANON_BOX
 (
 tableCol
 "
