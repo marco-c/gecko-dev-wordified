@@ -129,6 +129,12 @@ use
 std
 :
 :
+mem
+;
+use
+std
+:
+:
 marker
 :
 :
@@ -2678,6 +2684,14 @@ raw
 unlock
 (
 true
+)
+;
+mem
+:
+:
+forget
+(
+self
 )
 ;
 }
