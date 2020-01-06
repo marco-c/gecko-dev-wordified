@@ -18626,6 +18626,12 @@ runUntilFailure
 =
 True
             
+stepOptions
+.
+profilePath
+=
+None
+            
 result
 =
 self
@@ -18698,6 +18704,12 @@ xrange
 VERIFY_REPEAT_SINGLE_BROWSER
 )
 :
+                
+stepOptions
+.
+profilePath
+=
+None
                 
 result
 =
@@ -18785,6 +18797,12 @@ MOZ_CHAOSMODE
 "
 )
             
+stepOptions
+.
+profilePath
+=
+None
+            
 result
 =
 self
@@ -18870,6 +18888,12 @@ xrange
 VERIFY_REPEAT_SINGLE_BROWSER
 )
 :
+                
+stepOptions
+.
+profilePath
+=
+None
                 
 result
 =
