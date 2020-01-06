@@ -8997,8 +8997,7 @@ be
 written
 .
 const
-struct
-ucontext
+ucontext_t
 *
 const
 ucontext_

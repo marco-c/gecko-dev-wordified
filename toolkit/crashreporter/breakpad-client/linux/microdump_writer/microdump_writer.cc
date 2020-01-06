@@ -4164,8 +4164,7 @@ bytes
 ;
 }
 const
-struct
-ucontext
+ucontext_t
 *
 const
 ucontext_

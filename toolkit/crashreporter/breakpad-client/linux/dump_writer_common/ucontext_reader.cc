@@ -387,8 +387,7 @@ UContextReader
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -412,8 +411,7 @@ UContextReader
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -756,8 +754,7 @@ UContextReader
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -781,8 +778,7 @@ UContextReader
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -809,7 +805,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 const
@@ -1248,8 +1244,7 @@ UContextReader
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1270,8 +1265,7 @@ UContextReader
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1633,8 +1627,7 @@ UContextReader
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1655,8 +1648,7 @@ UContextReader
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1835,8 +1827,7 @@ UContextReader
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1860,8 +1851,7 @@ UContextReader
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )

@@ -1690,8 +1690,7 @@ the
 crashing
 thread
 .
-struct
-ucontext
+ucontext_t
 context
 ;
 #

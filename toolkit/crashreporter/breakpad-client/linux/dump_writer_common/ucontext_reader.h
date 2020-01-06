@@ -377,8 +377,7 @@ uintptr_t
 GetStackPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -388,8 +387,7 @@ uintptr_t
 GetInstructionPointer
 (
 const
-struct
-ucontext
+ucontext_t
 *
 uc
 )
@@ -443,7 +441,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 const
@@ -467,7 +465,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 const
@@ -487,7 +485,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 )
