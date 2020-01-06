@@ -3442,6 +3442,17 @@ compositionCommitEvent
 status
 )
 ;
+Unused
+<
+<
+mTabChild
+-
+>
+SendOnEventNeedingAckHandled
+(
+eCompositionCommitRequestHandled
+)
+;
 /
 /
 NOTE

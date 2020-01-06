@@ -16829,6 +16829,13 @@ hide
 (
 )
 {
+doPendingUninstalls
+(
+this
+.
+_listBox
+)
+;
 }
 getSelectedAddon
 (

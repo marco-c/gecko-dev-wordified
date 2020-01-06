@@ -14773,9 +14773,17 @@ nbytes
 nbytes
 )
 )
+{
+JS_free
+(
+cx
+str
+)
+;
 return
 false
 ;
+}
 js_memcpy
 (
 buf
