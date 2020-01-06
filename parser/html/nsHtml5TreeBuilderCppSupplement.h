@@ -393,7 +393,7 @@ createElement
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -460,7 +460,7 @@ mBuilder
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -2380,7 +2380,7 @@ createElement
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -2614,7 +2614,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -4422,7 +4422,7 @@ nsHtml5TreeBuilder
 :
 appendDoctypeToDocument
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5String
@@ -4489,7 +4489,7 @@ mBuilder
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4599,7 +4599,7 @@ elementPushed
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsIContentHandle
@@ -5232,7 +5232,7 @@ elementPopped
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsIContentHandle
@@ -7944,7 +7944,7 @@ nsHtml5TreeBuilder
 :
 errStrayStartTag
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -7976,7 +7976,7 @@ nsHtml5TreeBuilder
 :
 errStrayEndTag
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8010,7 +8010,7 @@ errUnclosedElements
 (
 int32_t
 aIndex
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8044,7 +8044,7 @@ errUnclosedElementsImplied
 (
 int32_t
 aIndex
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8366,7 +8366,7 @@ nsHtml5TreeBuilder
 :
 errFooBetweenHeadAndBody
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8486,7 +8486,7 @@ nsHtml5TreeBuilder
 :
 errStartTagWithSelectOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8518,7 +8518,7 @@ nsHtml5TreeBuilder
 :
 errBadStartTagInHead
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8606,7 +8606,7 @@ nsHtml5TreeBuilder
 :
 errFooSeenWhenFooOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8722,7 +8722,7 @@ nsHtml5TreeBuilder
 :
 errStartTagInTable
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8810,7 +8810,7 @@ nsHtml5TreeBuilder
 :
 errStartTagInTableBody
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8902,7 +8902,7 @@ nsHtml5TreeBuilder
 :
 errEndTagSeenWithSelectOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8990,7 +8990,7 @@ nsHtml5TreeBuilder
 :
 errNoElementToCloseButEndTagSeen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9022,7 +9022,7 @@ nsHtml5TreeBuilder
 :
 errHtmlStartTagInForeignContext
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9166,7 +9166,7 @@ nsHtml5TreeBuilder
 :
 errStartTagSeenWithoutRuby
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9254,10 +9254,10 @@ nsHtml5TreeBuilder
 :
 errEndTagDidNotMatchCurrentOpenElement
 (
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aOther
 )
@@ -9290,7 +9290,7 @@ nsHtml5TreeBuilder
 :
 errEndTagViolatesNestingRules
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9322,7 +9322,7 @@ nsHtml5TreeBuilder
 :
 errEndWithUnclosedElements
 (
-nsIAtom
+nsAtom
 *
 aName
 )

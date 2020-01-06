@@ -412,7 +412,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -550,7 +550,7 @@ aID
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 id
 =
@@ -818,7 +818,7 @@ case
 .
 AutoTArray
 <
-nsIAtom
+nsAtom
 *
 8
 >
@@ -861,7 +861,7 @@ HasID
 )
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =
@@ -1002,7 +1002,7 @@ content
 )
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =

@@ -224,14 +224,14 @@ nsDeviceContext
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
 /
 /
 for
-nsIAtom
+nsAtom
 #
 include
 "

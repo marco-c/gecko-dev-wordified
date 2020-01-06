@@ -142,7 +142,7 @@ nsILineBreaker
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsHyphenator
@@ -1237,7 +1237,7 @@ breaks
 nsresult
 AppendText
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 const
@@ -1304,7 +1304,7 @@ breaks
 nsresult
 AppendText
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 const
@@ -1654,7 +1654,7 @@ FlushCurrentWord
 void
 UpdateCurrentWordLanguage
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 )
@@ -1701,7 +1701,7 @@ TextItem
 >
 mTextItems
 ;
-nsIAtom
+nsAtom
 *
 mCurrentWordLanguage
 ;

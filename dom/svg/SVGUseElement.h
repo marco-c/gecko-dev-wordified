@@ -437,7 +437,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -718,7 +718,7 @@ const
 void
 SyncWidthOrHeight
 (
-nsIAtom
+nsAtom
 *
 aName
 )

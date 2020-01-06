@@ -689,7 +689,7 @@ txKeyFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

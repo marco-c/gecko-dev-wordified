@@ -141,7 +141,7 @@ stdint
 h
 >
 class
-nsIAtom
+nsAtom
 ;
 struct
 nsStaticAtom
@@ -155,7 +155,7 @@ static
 bool
 IsMember
 (
-nsIAtom
+nsAtom
 *
 aAtom
 const

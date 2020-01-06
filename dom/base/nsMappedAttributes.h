@@ -196,7 +196,7 @@ MemoryReporting
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsHTMLStyleSheet
@@ -252,7 +252,7 @@ NS_DECL_ISUPPORTS
 void
 SetAndSwapAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 nsAttrValue
@@ -268,7 +268,7 @@ nsAttrValue
 *
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -468,7 +468,7 @@ const
 int32_t
 IndexOfAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )

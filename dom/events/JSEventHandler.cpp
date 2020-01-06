@@ -290,7 +290,7 @@ JSEventHandler
 nsISupports
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aType
 const
@@ -1493,7 +1493,7 @@ NS_NewJSEventHandler
 nsISupports
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aEventType
 const

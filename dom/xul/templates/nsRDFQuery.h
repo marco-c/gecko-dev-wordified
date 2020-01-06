@@ -220,7 +220,7 @@ for
 the
 query
 virtual
-nsIAtom
+nsAtom
 *
 GetMemberVariable
 (
@@ -565,7 +565,7 @@ return
 mProcessor
 ;
 }
-nsIAtom
+nsAtom
 *
 GetMemberVariable
 (
@@ -607,13 +607,13 @@ the
 query
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mRefVariable
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMemberVariable
 ;

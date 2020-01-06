@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -283,7 +283,7 @@ AutoTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 1
 >
@@ -324,7 +324,7 @@ std
 :
 initializer_list
 <
-nsIAtom
+nsAtom
 *
 >
 aIL
@@ -342,7 +342,7 @@ const
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -370,7 +370,7 @@ const
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -390,7 +390,7 @@ bool
 Contains
 (
 const
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -423,7 +423,7 @@ const
 void
 Add
 (
-nsIAtom
+nsAtom
 *
 aElem
 )
@@ -431,7 +431,7 @@ aElem
 void
 Remove
 (
-nsIAtom
+nsAtom
 *
 aElem
 )
@@ -447,7 +447,7 @@ aElem
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -474,7 +474,7 @@ aElem
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -804,7 +804,7 @@ return
 mURI
 ;
 }
-nsIAtom
+nsAtom
 *
 Scheme
 (
@@ -882,7 +882,7 @@ mURINoRef
 mutable
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mScheme
 ;

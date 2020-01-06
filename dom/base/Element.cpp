@@ -219,7 +219,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1451,7 +1451,7 @@ ASSERT_ELEMENT_SIZE
 #
 undef
 EXTRA_DOM_ELEMENT_BYTES
-nsIAtom
+nsAtom
 *
 nsIContent
 :
@@ -6594,7 +6594,7 @@ Element
 :
 AddToIdTable
 (
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -6703,7 +6703,7 @@ HasID
 return
 ;
 }
-nsIAtom
+nsAtom
 *
 id
 =
@@ -7571,7 +7571,7 @@ name
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -8049,7 +8049,7 @@ return
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -8201,7 +8201,7 @@ aError
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -8573,7 +8573,7 @@ false
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -12760,7 +12760,7 @@ Element
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -12777,7 +12777,7 @@ Element
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -12799,7 +12799,7 @@ Element
 FindAttributeDependence
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -13735,7 +13735,7 @@ Element
 :
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -14078,10 +14078,10 @@ MaybeCheckSameAttrVal
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -14494,10 +14494,10 @@ OnlyNotifySameValueSet
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -14564,7 +14564,7 @@ Element
 :
 SetSingleClassFromParser
 (
-nsIAtom
+nsAtom
 *
 aSingleClassName
 )
@@ -14711,10 +14711,10 @@ SetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -15044,10 +15044,10 @@ SetParsedAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 nsAttrValue
@@ -15243,10 +15243,10 @@ SetAttrAndNotify
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -15676,7 +15676,7 @@ aName
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 oldValueAtom
 ;
@@ -15731,7 +15731,7 @@ GetAsAtom
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 newValueAtom
 =
@@ -16092,7 +16092,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -16243,7 +16243,7 @@ Element
 :
 SetAndSwapMappedAttribute
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAttrValue
@@ -16274,7 +16274,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -16414,7 +16414,7 @@ PreIdMaybeChange
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -16456,7 +16456,7 @@ PostIdMaybeChange
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -16555,7 +16555,7 @@ Element
 :
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -16582,7 +16582,7 @@ GetAttrInfo
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -16702,7 +16702,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -16743,7 +16743,7 @@ FindAttrValueIn
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 AttrValuesArray
@@ -16860,7 +16860,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -17286,7 +17286,7 @@ ns
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 oldValueAtom
 =
@@ -19950,7 +19950,7 @@ nsDOMTokenListPropertyDestructor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aProperty
 void
@@ -19981,7 +19981,7 @@ list
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 *
 sPropertiesToTraverseAndUnlink
@@ -20010,7 +20010,7 @@ nullptr
 /
 /
 static
-nsIAtom
+nsAtom
 *
 *
 *
@@ -20032,7 +20032,7 @@ Element
 :
 GetTokenList
 (
-nsIAtom
+nsAtom
 *
 aAtom
 const
@@ -20043,7 +20043,7 @@ aSupportedTokens
 #
 ifdef
 DEBUG
-nsIAtom
+nsAtom
 *
 *
 *
@@ -22342,7 +22342,7 @@ IsHTMLDocument
 )
 )
 {
-nsIAtom
+nsAtom
 *
 localName
 ;
@@ -22951,7 +22951,7 @@ GetNameSpaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 contextLocal
 =
@@ -23642,7 +23642,7 @@ Element
 :
 SetBoolAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 bool
@@ -23681,7 +23681,7 @@ Element
 :
 GetEnumAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -23709,7 +23709,7 @@ Element
 :
 GetEnumAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -23826,7 +23826,7 @@ Element
 :
 SetOrRemoveNullableStringAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const

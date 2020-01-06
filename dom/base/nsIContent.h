@@ -175,7 +175,7 @@ h
 Forward
 declarations
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIURI
@@ -1914,7 +1914,7 @@ inline
 bool
 IsHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1989,7 +1989,7 @@ inline
 bool
 IsSVGElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2064,7 +2064,7 @@ inline
 bool
 IsXULElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2139,7 +2139,7 @@ inline
 bool
 IsMathMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2375,7 +2375,7 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2507,10 +2507,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -2611,7 +2611,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -2667,7 +2667,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2768,7 +2768,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2880,10 +2880,10 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -3072,7 +3072,7 @@ matched
 *
 /
 typedef
-nsIAtom
+nsAtom
 *
 const
 *
@@ -3085,7 +3085,7 @@ FindAttrValueIn
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 AttrValuesArray
@@ -3161,7 +3161,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttr
 bool
@@ -3506,7 +3506,7 @@ up
 bool
 IsEventAttributeName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -3515,7 +3515,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -5892,7 +5892,7 @@ ID
 .
 *
 /
-nsIAtom
+nsAtom
 *
 GetID
 (
@@ -6431,7 +6431,7 @@ atom
 .
 *
 /
-nsIAtom
+nsAtom
 *
 GetLang
 (
@@ -6655,7 +6655,7 @@ true
 .
 *
 /
-nsIAtom
+nsAtom
 *
 DoGetID
 (

@@ -5207,7 +5207,7 @@ used
 nsRuleNode
 *
 aVisitedRuleNode
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -12373,7 +12373,7 @@ null
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudoTag
 =
@@ -12800,7 +12800,7 @@ nsStyleSet
 :
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 GeckoStyleContext
@@ -13086,7 +13086,7 @@ nsStyleSet
 :
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -13771,7 +13771,7 @@ nsStyleSet
 :
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -14844,7 +14844,7 @@ forget
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 pseudoTag
 =
@@ -15758,7 +15758,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -15882,7 +15882,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

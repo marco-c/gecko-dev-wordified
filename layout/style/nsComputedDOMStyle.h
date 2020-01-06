@@ -480,7 +480,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -508,7 +508,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -547,7 +547,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -866,7 +866,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -4860,7 +4860,7 @@ mStyleContext
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPseudo
 ;

@@ -1491,7 +1491,7 @@ variable
 /
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSortVariable
 ;

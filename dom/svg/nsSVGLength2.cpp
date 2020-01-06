@@ -230,7 +230,7 @@ mozilla
 dom
 ;
 static
-nsIAtom
+nsAtom
 *
 *
 const
@@ -424,7 +424,7 @@ nsIDOMSVGLength
 :
 SVG_LENGTHTYPE_NUMBER
 ;
-nsIAtom
+nsAtom
 *
 unitAtom
 =

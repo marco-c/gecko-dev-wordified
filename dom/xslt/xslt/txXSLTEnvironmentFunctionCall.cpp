@@ -800,7 +800,7 @@ extern
 bool
 TX_XSLTFunctionAvailable
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -922,7 +922,7 @@ txXSLTEnvironmentFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

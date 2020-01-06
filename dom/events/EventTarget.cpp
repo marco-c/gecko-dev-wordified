@@ -212,7 +212,7 @@ EventTarget
 :
 GetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aType
 const
@@ -296,7 +296,7 @@ NS_IsMainThread
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 type
 =
@@ -341,7 +341,7 @@ EventTarget
 :
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aType
 const

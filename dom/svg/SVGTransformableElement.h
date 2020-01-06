@@ -331,7 +331,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -342,7 +342,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -359,7 +359,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -421,7 +421,7 @@ aFlags
 override
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetTransformListAttrName
 (

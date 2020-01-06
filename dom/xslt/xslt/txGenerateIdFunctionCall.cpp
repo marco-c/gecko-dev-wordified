@@ -566,7 +566,7 @@ GenerateIdFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

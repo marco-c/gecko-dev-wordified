@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -407,7 +407,7 @@ the
 eventbase
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mDependentElemID
 ;
@@ -429,7 +429,7 @@ types
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mEventSymbol
 ;

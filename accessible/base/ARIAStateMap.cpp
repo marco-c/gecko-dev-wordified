@@ -193,7 +193,7 @@ ARIA
 attribute
 name
 .
-nsIAtom
+nsAtom
 *
 const
 mAttrName
@@ -226,7 +226,7 @@ must
 be
 nullptr
 .
-nsIAtom
+nsAtom
 *
 const
 *
@@ -333,7 +333,7 @@ TokenTypeData
 {
 TokenTypeData
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 uint32_t
@@ -376,7 +376,7 @@ ARIA
 attribute
 name
 .
-nsIAtom
+nsAtom
 *
 const
 mAttrName

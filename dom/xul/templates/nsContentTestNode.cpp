@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -179,7 +179,7 @@ nsContentTestNode
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aRefVariable
 )

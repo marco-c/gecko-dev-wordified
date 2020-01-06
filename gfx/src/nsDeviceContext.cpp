@@ -300,14 +300,14 @@ nsFontMetrics
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
 /
 /
 for
-nsIAtom
+nsAtom
 NS_Atomize
 #
 include
@@ -611,7 +611,7 @@ mContext
 owner
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocaleLanguage
 ;
@@ -865,7 +865,7 @@ Params
 aParams
 )
 {
-nsIAtom
+nsAtom
 *
 language
 =

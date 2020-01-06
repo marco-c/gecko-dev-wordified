@@ -269,7 +269,7 @@ nsHtml5Tokenizer_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1241,7 +1241,7 @@ nsHtml5AttributeName
 *
 nonInternedAttributeName
 ;
-nsIAtom
+nsAtom
 *
 doctypeName
 ;
@@ -1319,7 +1319,7 @@ setStateAndEndTagExpectation
 (
 int32_t
 specialTokenizerState
-nsIAtom
+nsAtom
 *
 endTagExpectation
 )

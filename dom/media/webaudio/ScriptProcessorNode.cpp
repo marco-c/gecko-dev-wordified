@@ -2943,7 +2943,7 @@ ScriptProcessorNode
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -2979,7 +2979,7 @@ ScriptProcessorNode
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

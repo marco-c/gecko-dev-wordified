@@ -1482,7 +1482,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudoElt
 =

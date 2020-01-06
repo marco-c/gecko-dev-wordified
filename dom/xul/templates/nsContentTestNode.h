@@ -125,7 +125,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -193,7 +193,7 @@ nsContentTestNode
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aContentVariable
 )
@@ -224,7 +224,7 @@ override
 void
 SetTag
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsIDOMDocument
@@ -253,13 +253,13 @@ mDocument
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mRefVariable
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mTag
 ;

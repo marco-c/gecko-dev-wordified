@@ -2569,7 +2569,7 @@ return
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pingAtom
 =

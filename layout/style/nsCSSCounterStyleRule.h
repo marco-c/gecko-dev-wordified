@@ -165,7 +165,7 @@ public
 explicit
 nsCSSCounterStyleRule
 (
-nsIAtom
+nsAtom
 *
 aName
 uint32_t
@@ -512,7 +512,7 @@ nsCSSValue
 aValue
 )
 ;
-nsIAtom
+nsAtom
 *
 Name
 (
@@ -671,7 +671,7 @@ aValue
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;

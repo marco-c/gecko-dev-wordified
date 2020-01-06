@@ -849,7 +849,7 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -877,10 +877,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -898,7 +898,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -1264,7 +1264,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1275,7 +1275,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -2120,7 +2120,7 @@ private
 :
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetCurrentValueAtom
 (

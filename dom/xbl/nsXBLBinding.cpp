@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -2768,7 +2768,7 @@ UnsetAttr
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -3268,7 +3268,7 @@ type
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventAtom
 =
@@ -3798,7 +3798,7 @@ return
 NS_OK
 ;
 }
-nsIAtom
+nsAtom
 *
 nsXBLBinding
 :
@@ -3810,7 +3810,7 @@ int32_t
 aNameSpaceID
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -3849,7 +3849,7 @@ nsXBLBinding
 :
 AttributeChanged
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -4082,7 +4082,7 @@ continue
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventAtom
 =

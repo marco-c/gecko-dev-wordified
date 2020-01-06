@@ -3383,7 +3383,7 @@ SVGSVGElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

@@ -138,7 +138,7 @@ for
 nsresult
 NS_IMETHOD
 class
-nsIAtom
+nsAtom
 ;
 class
 nsICommandParams
@@ -412,7 +412,7 @@ public
 explicit
 nsBaseStateUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -484,7 +484,7 @@ aHTMLEditor
 ;
 protected
 :
-nsIAtom
+nsAtom
 *
 mTagName
 ;
@@ -534,7 +534,7 @@ public
 explicit
 nsStyleUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -609,7 +609,7 @@ public
 explicit
 nsInsertTagCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -624,7 +624,7 @@ nsInsertTagCommand
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 mTagName
 ;
@@ -642,7 +642,7 @@ public
 explicit
 nsListCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -718,7 +718,7 @@ public
 explicit
 nsListItemCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )

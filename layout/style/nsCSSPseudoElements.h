@@ -113,7 +113,7 @@ nsCSSPseudoElements_h___
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -694,7 +694,7 @@ Empty
 class
 derived
 from
-nsIAtom
+nsAtom
 so
 that
 function
@@ -714,7 +714,7 @@ class
 nsICSSPseudoElement
 :
 public
-nsIAtom
+nsAtom
 {
 }
 ;
@@ -747,7 +747,7 @@ static
 bool
 IsPseudoElement
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -756,7 +756,7 @@ static
 bool
 IsCSS2PseudoElement
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -823,7 +823,7 @@ static
 Type
 GetPseudoType
 (
-nsIAtom
+nsAtom
 *
 aAtom
 EnabledState
@@ -869,7 +869,7 @@ raw
 pointer
 .
 static
-nsIAtom
+nsAtom
 *
 GetPseudoAtom
 (
@@ -917,7 +917,7 @@ elements
 static
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetPseudoAtom
 (

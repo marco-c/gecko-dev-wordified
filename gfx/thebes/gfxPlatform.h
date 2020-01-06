@@ -241,7 +241,7 @@ class
 nsIURI
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIObserver
@@ -1966,7 +1966,7 @@ virtual
 nsresult
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const

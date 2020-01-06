@@ -200,7 +200,7 @@ Expr
 ResultType
 mReturnType
 ;
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -4019,7 +4019,7 @@ txCoreFunctionCall
 :
 getTypeFromAtom
 (
-nsIAtom
+nsAtom
 *
 aName
 eType
@@ -4090,7 +4090,7 @@ txCoreFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

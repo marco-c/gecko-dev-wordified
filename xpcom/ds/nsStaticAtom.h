@@ -123,7 +123,7 @@ nsStaticAtom_h__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -263,7 +263,7 @@ nsStringBuffer
 MOZ_NON_OWNING_REF
 mStringBuffer
 ;
-nsIAtom
+nsAtom
 *
 *
 mAtom

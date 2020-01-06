@@ -102,7 +102,7 @@ TRANSFRMX_TXNAMESPACEMAP_H
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -184,7 +184,7 @@ mRefCnt
 nsresult
 mapNamespace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -196,7 +196,7 @@ aNamespaceURI
 int32_t
 lookupNamespace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -219,7 +219,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mPrefixes

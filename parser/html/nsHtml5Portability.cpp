@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -91,7 +91,7 @@ nsHtml5TreeBuilder
 .
 h
 "
-nsIAtom
+nsAtom
 *
 nsHtml5Portability
 :
@@ -355,7 +355,7 @@ nsHtml5Portability
 :
 newCharArrayFromLocal
 (
-nsIAtom
+nsAtom
 *
 local
 )
@@ -484,14 +484,14 @@ return
 arr
 ;
 }
-nsIAtom
+nsAtom
 *
 nsHtml5Portability
 :
 :
 newLocalFromLocal
 (
-nsIAtom
+nsAtom
 *
 local
 nsHtml5AtomTable
@@ -564,7 +564,7 @@ nsHtml5Portability
 :
 localEqualsBuffer
 (
-nsIAtom
+nsAtom
 *
 local
 char16_t

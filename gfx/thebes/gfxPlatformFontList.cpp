@@ -3203,7 +3203,7 @@ gfxPlatformFontList
 :
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -5807,7 +5807,7 @@ get
 genericFamilies
 )
 ;
-nsIAtom
+nsAtom
 *
 langGroup
 =
@@ -6120,7 +6120,7 @@ mozilla
 :
 FontFamilyType
 aGenericType
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray
@@ -6140,7 +6140,7 @@ lang
 =
 >
 langGroup
-nsIAtom
+nsAtom
 *
 langGroup
 =
@@ -6207,7 +6207,7 @@ prefFonts
 }
 }
 static
-nsIAtom
+nsAtom
 *
 PrefLangToLangGroups
 (
@@ -6224,7 +6224,7 @@ avoids
 static
 constructor
 static
-nsIAtom
+nsAtom
 *
 gPrefLangToLangGroups
 [
@@ -6353,7 +6353,7 @@ gfxPlatformFontList
 :
 GetFontPrefLangFor
 (
-nsIAtom
+nsAtom
 *
 aLang
 )
@@ -6388,7 +6388,7 @@ get
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 gfxPlatformFontList
 :
@@ -7951,14 +7951,14 @@ Name
 ;
 }
 }
-nsIAtom
+nsAtom
 *
 gfxPlatformFontList
 :
 :
 GetLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -7971,7 +7971,7 @@ lang
 =
 >
 langGroup
-nsIAtom
+nsAtom
 *
 langGroup
 =
@@ -8206,7 +8206,7 @@ lang
 struct
 MozLangGroupData
 {
-nsIAtom
+nsAtom
 *
 const
 &
@@ -8416,7 +8416,7 @@ const
 nsACString
 &
 aOSLang
-nsIAtom
+nsAtom
 *
 aLangGroup
 nsACString
@@ -8600,7 +8600,7 @@ pos
 pos
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -8625,7 +8625,7 @@ gfxPlatformFontList
 :
 GetSampleLangForGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 nsACString

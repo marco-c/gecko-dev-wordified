@@ -26013,7 +26013,7 @@ int16_t
 aStretch
 gfxFloat
 aSize
-nsIAtom
+nsAtom
 *
 aLanguage
 bool

@@ -6833,7 +6833,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -6951,7 +6951,7 @@ NodeInfo
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -7082,7 +7082,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -12310,7 +12310,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -13625,7 +13625,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void

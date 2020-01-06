@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -265,7 +265,7 @@ nsCString
 aContractID
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 nsISupports
@@ -361,7 +361,7 @@ mLastError
 nsresult
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -372,7 +372,7 @@ aID
 nsresult
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -1032,7 +1032,7 @@ XPathEvaluatorParseContext
 :
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -1223,7 +1223,7 @@ XPathEvaluatorParseContext
 :
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t

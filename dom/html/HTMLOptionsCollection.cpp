@@ -1349,7 +1349,7 @@ aNames
 {
 AutoTArray
 <
-nsIAtom
+nsAtom
 *
 8
 >
@@ -1455,7 +1455,7 @@ nsAttrValue
 eAtom
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1496,7 +1496,7 @@ HasID
 )
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =

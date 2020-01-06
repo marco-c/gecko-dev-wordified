@@ -240,7 +240,7 @@ aParent
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aContainerVariable
 Test

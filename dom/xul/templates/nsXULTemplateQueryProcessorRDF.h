@@ -661,7 +661,7 @@ virtual
 nsresult
 CompileQueryChild
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsRDFQuery
@@ -1556,7 +1556,7 @@ reference
 variable
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mRefVariable
 ;

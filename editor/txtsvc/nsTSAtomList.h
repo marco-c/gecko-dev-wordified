@@ -72,7 +72,7 @@ of
 all
 text
 services
-nsIAtoms
+nsAtoms
 and
 their
 values

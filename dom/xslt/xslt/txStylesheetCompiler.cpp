@@ -379,10 +379,10 @@ startElement
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 txStylesheetAttr
@@ -760,7 +760,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefixToBind
 ;
@@ -884,7 +884,7 @@ rv
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localname
@@ -941,10 +941,10 @@ startElementInternal
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 txStylesheetAttr
@@ -4215,7 +4215,7 @@ txStylesheetCompilerState
 :
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -4300,7 +4300,7 @@ public
 explicit
 txErrorFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -4316,7 +4316,7 @@ private
 :
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;
@@ -4444,7 +4444,7 @@ txErrorFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom
@@ -4468,7 +4468,7 @@ static
 nsresult
 TX_ConstructXSLTFunction
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -4765,7 +4765,7 @@ nsresult
 txFunctionFactory
 )
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -4800,7 +4800,7 @@ extern
 nsresult
 TX_ConstructEXSLTFunction
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -4918,7 +4918,7 @@ nsCString
 aContractID
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 nsISupports
@@ -4955,7 +4955,7 @@ static
 nsresult
 findFunction
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -5311,7 +5311,7 @@ extern
 bool
 TX_XSLTFunctionAvailable
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -5374,7 +5374,7 @@ txStylesheetCompilerState
 :
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t

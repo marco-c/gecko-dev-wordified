@@ -209,7 +209,7 @@ aDocType
 nsNodeInfoManager
 *
 aNodeInfoManager
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -277,7 +277,7 @@ NS_NewDOMDocumentType
 nsNodeInfoManager
 *
 aNodeInfoManager
-nsIAtom
+nsAtom
 *
 aName
 const

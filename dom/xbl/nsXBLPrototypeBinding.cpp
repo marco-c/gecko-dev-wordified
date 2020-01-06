@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -542,10 +542,10 @@ public
 :
 nsXBLAttributeEntry
 (
-nsIAtom
+nsAtom
 *
 aSrcAtom
-nsIAtom
+nsAtom
 *
 aDstAtom
 int32_t
@@ -590,7 +590,7 @@ mNext
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 GetSrcAttribute
 (
@@ -600,7 +600,7 @@ return
 mSrcAttribute
 ;
 }
-nsIAtom
+nsAtom
 *
 GetDstAttribute
 (
@@ -660,13 +660,13 @@ mElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSrcAttribute
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mDstAttribute
 ;
@@ -1440,7 +1440,7 @@ nsXBLPrototypeBinding
 :
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const
@@ -1737,7 +1737,7 @@ nsXBLPrototypeBinding
 :
 AttributeChanged
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1881,7 +1881,7 @@ UnsetAttr
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 dstAttr
 =
@@ -2311,7 +2311,7 @@ SetBaseTag
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2325,7 +2325,7 @@ mBaseTag
 aTag
 ;
 }
-nsIAtom
+nsAtom
 *
 nsXBLPrototypeBinding
 :
@@ -2466,7 +2466,7 @@ nsXBLPrototypeBinding
 :
 GetImmediateChild
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2822,7 +2822,7 @@ UserData
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 src
 =
@@ -2964,7 +2964,7 @@ while
 curr
 )
 {
-nsIAtom
+nsAtom
 *
 dst
 =
@@ -3263,12 +3263,12 @@ AddToAttributeTable
 (
 int32_t
 aSourceNamespaceID
-nsIAtom
+nsAtom
 *
 aSourceTag
 int32_t
 aDestNamespaceID
-nsIAtom
+nsAtom
 *
 aDestTag
 nsIContent
@@ -3564,7 +3564,7 @@ attribute
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;
@@ -3575,7 +3575,7 @@ kNameSpaceID_None
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 ;
@@ -4374,7 +4374,7 @@ curr
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventAtom
 =
@@ -5451,7 +5451,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atomPrefix
 =
@@ -5462,7 +5462,7 @@ attrPrefix
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atomName
 =
@@ -6417,7 +6417,7 @@ rv
 rv
 )
 ;
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -6804,7 +6804,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefixAtom
 ;
@@ -6842,7 +6842,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagAtom
 =
@@ -7079,7 +7079,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -7113,7 +7113,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefixAtom
 ;
@@ -7333,7 +7333,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefixAtom
 ;
@@ -7355,7 +7355,7 @@ prefix
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -7474,7 +7474,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 srcAtom
 =
@@ -7485,7 +7485,7 @@ srcAttribute
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 destAtom
 =
@@ -8017,7 +8017,7 @@ rv
 nsAutoString
 prefixStr
 ;
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -8647,7 +8647,7 @@ CheckTagNameWhiteList
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -9091,7 +9091,7 @@ doc
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagName
 =

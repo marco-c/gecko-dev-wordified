@@ -238,7 +238,7 @@ static
 int8_t
 ParseStyleValue
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -437,7 +437,7 @@ const
 nsAString
 &
 aString
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -890,7 +890,7 @@ int8_t
 *
 AttributeToProperty
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2146,7 +2146,7 @@ ParseFrameAttribute
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -2745,7 +2745,7 @@ const
 nsAString
 &
 aString
-nsIAtom
+nsAtom
 *
 aAttribute
 nsTArray
@@ -3022,7 +3022,7 @@ ParseSpacingAttribute
 nsMathMLmtableFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -4463,7 +4463,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -7064,7 +7064,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -7326,7 +7326,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

@@ -274,7 +274,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1240,7 +1240,7 @@ needToDropLF
 bool
 fragment
 ;
-nsIAtom
+nsAtom
 *
 contextName
 ;
@@ -1396,7 +1396,7 @@ self
 void
 doctype
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5String
@@ -1572,7 +1572,7 @@ findLastInTableScopeOrRootTemplateTbodyTheadTfoot
 int32_t
 findLast
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1580,7 +1580,7 @@ name
 int32_t
 findLastInTableScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1588,7 +1588,7 @@ name
 int32_t
 findLastInButtonScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1596,7 +1596,7 @@ name
 int32_t
 findLastInScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1604,7 +1604,7 @@ name
 int32_t
 findLastInListScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1617,7 +1617,7 @@ findLastInScopeHn
 void
 generateImpliedEndTagsExceptFor
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1657,7 +1657,7 @@ systemIdentifier
 bool
 isQuirky
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5String
@@ -1759,7 +1759,7 @@ inline
 bool
 isCurrent
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1814,7 +1814,7 @@ pos
 bool
 adoptionAgencyEndTag
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1850,7 +1850,7 @@ node
 int32_t
 findInListOfActiveFormattingElementsContainsBetweenEndAndLastMarker
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1858,7 +1858,7 @@ name
 void
 maybeForgetEarlierDuplicateFormattingElement
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -1869,7 +1869,7 @@ attributes
 int32_t
 findLastOrRoot
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1932,13 +1932,13 @@ int32_t
 flags
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 nsHtml5HtmlAttributes
@@ -1991,7 +1991,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 )
@@ -2003,7 +2003,7 @@ createStackNode
 nsHtml5ElementName
 *
 elementName
-nsIAtom
+nsAtom
 *
 popName
 nsIContentHandle
@@ -2021,7 +2021,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 bool
@@ -2042,7 +2042,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -2058,7 +2058,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -2310,7 +2310,7 @@ createElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -2329,7 +2329,7 @@ createElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -2412,7 +2412,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -2526,7 +2526,7 @@ end
 void
 appendDoctypeToDocument
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5String
@@ -2540,7 +2540,7 @@ elementPushed
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
@@ -2553,7 +2553,7 @@ elementPopped
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
@@ -2592,7 +2592,7 @@ public
 void
 setFragmentContext
 (
-nsIAtom
+nsAtom
 *
 context
 int32_t

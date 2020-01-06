@@ -4100,7 +4100,7 @@ elsewhere
 Examples
 include
 an
-nsIAtom
+nsAtom
 *
 member
 which

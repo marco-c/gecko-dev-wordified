@@ -267,7 +267,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -2155,7 +2155,7 @@ aFrame
 )
 {
 const
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -2347,7 +2347,7 @@ frame
 )
 ;
 const
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -11446,7 +11446,7 @@ eStyleContentType_Attr
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrName
 ;
@@ -12312,7 +12312,7 @@ NodeInfo
 >
 nodeInfo
 ;
-nsIAtom
+nsAtom
 *
 elemName
 =
@@ -12405,7 +12405,7 @@ nor
 a
 destructor
 .
-nsIAtom
+nsAtom
 *
 property
 =
@@ -13255,7 +13255,7 @@ nsIFrame
 aFrame
 )
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -19179,7 +19179,7 @@ rootFrame
 =
 nullptr
 ;
-nsIAtom
+nsAtom
 *
 rootPseudo
 ;
@@ -22787,7 +22787,7 @@ content
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudo
 =
@@ -23287,7 +23287,7 @@ nsCSSFrameConstructor
 :
 FindDataByTag
 (
-nsIAtom
+nsAtom
 *
 aTag
 Element
@@ -23508,7 +23508,7 @@ nsIFrame
 aFrame
 )
 {
-nsIAtom
+nsAtom
 *
 pseudo
 =
@@ -23593,7 +23593,7 @@ FindHTMLData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -28568,7 +28568,7 @@ FindXULTagData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -29609,7 +29609,7 @@ aContentStyle
 nsContainerFrame
 *
 aParentFrame
-nsIAtom
+nsAtom
 *
 aScrolledPseudo
 bool
@@ -33354,7 +33354,7 @@ do
 return
 ;
 }
-nsIAtom
+nsAtom
 *
 anonPseudo
 =
@@ -33650,7 +33650,7 @@ FindMathMLData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -34463,7 +34463,7 @@ bool
 IsFilterPrimitiveChildTag
 (
 const
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -34560,7 +34560,7 @@ FindSVGData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -34688,7 +34688,7 @@ parentContent
 int32_t
 parentNSID
 ;
-nsIAtom
+nsAtom
 *
 parentTag
 =
@@ -36877,7 +36877,7 @@ aContent
 nsContainerFrame
 *
 aParentFrame
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -49850,7 +49850,7 @@ aContainer
 int32_t
 namespaceID
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -60939,7 +60939,7 @@ GetAlternateTextFor
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 nsAString
@@ -68188,7 +68188,7 @@ fieldsets
 int32_t
 namespaceID
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -69218,7 +69218,7 @@ and
 endIter
 |
 .
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -72707,7 +72707,7 @@ sPseudoParentData
 aWrapperType
 ]
 ;
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -74366,7 +74366,7 @@ pseudo
 -
 implementing
 .
-nsIAtom
+nsAtom
 *
 pseudo
 =

@@ -856,7 +856,7 @@ CheckBooleanAttr
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -978,7 +978,7 @@ CheckIntAttr
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAtom
 int32_t

@@ -271,7 +271,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -2162,7 +2162,7 @@ nsHtml5TreeBuilder
 :
 doctype
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5String
@@ -4022,7 +4022,7 @@ getGroup
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -10754,7 +10754,7 @@ getGroup
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -14524,7 +14524,7 @@ nsHtml5TreeBuilder
 :
 findLast
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -14589,7 +14589,7 @@ nsHtml5TreeBuilder
 :
 findLastInTableScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -14697,7 +14697,7 @@ nsHtml5TreeBuilder
 :
 findLastInButtonScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -14810,7 +14810,7 @@ nsHtml5TreeBuilder
 :
 findLastInScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -14896,7 +14896,7 @@ nsHtml5TreeBuilder
 :
 findLastInListScope
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -15100,7 +15100,7 @@ nsHtml5TreeBuilder
 :
 generateImpliedEndTagsExceptFor
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -15498,7 +15498,7 @@ nsHtml5TreeBuilder
 :
 isQuirky
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5String
@@ -15852,7 +15852,7 @@ i
 -
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -16042,7 +16042,7 @@ nsHtml5StackNode
 *
 node
 ;
-nsIAtom
+nsAtom
 *
 name
 ;
@@ -17307,7 +17307,7 @@ nsHtml5TreeBuilder
 :
 adoptionAgencyEndTag
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -18404,7 +18404,7 @@ nsHtml5TreeBuilder
 :
 findInListOfActiveFormattingElementsContainsBetweenEndAndLastMarker
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -18474,7 +18474,7 @@ nsHtml5TreeBuilder
 :
 maybeForgetEarlierDuplicateFormattingElement
 (
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -18582,7 +18582,7 @@ nsHtml5TreeBuilder
 :
 findLastOrRoot
 (
-nsIAtom
+nsAtom
 *
 name
 )
@@ -19277,13 +19277,13 @@ int32_t
 flags
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 nsHtml5HtmlAttributes
@@ -19414,7 +19414,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 )
@@ -19451,7 +19451,7 @@ createStackNode
 nsHtml5ElementName
 *
 elementName
-nsIAtom
+nsAtom
 *
 popName
 nsIContentHandle
@@ -19494,7 +19494,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 bool
@@ -19617,7 +19617,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -19647,7 +19647,7 @@ createAndInsertFosterParentedElement
 (
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsHtml5HtmlAttributes
@@ -20503,7 +20503,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -20621,7 +20621,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -20823,7 +20823,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -21084,7 +21084,7 @@ nsIContentHandle
 form
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -21221,7 +21221,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -21337,7 +21337,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -21453,7 +21453,7 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-nsIAtom
+nsAtom
 *
 popName
 =
@@ -21784,7 +21784,7 @@ nsHtml5TreeBuilder
 :
 setFragmentContext
 (
-nsIAtom
+nsAtom
 *
 context
 int32_t

@@ -341,7 +341,7 @@ nsXBLResource
 *
 mNext
 ;
-nsIAtom
+nsAtom
 *
 mType
 ;
@@ -350,7 +350,7 @@ mSrc
 ;
 nsXBLResource
 (
-nsIAtom
+nsAtom
 *
 aType
 const
@@ -1121,7 +1121,7 @@ nsXBLResourceLoader
 :
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const

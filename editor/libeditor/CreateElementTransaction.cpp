@@ -251,7 +251,7 @@ CreateElementTransaction
 EditorBase
 &
 aEditorBase
-nsIAtom
+nsAtom
 &
 aTag
 nsINode

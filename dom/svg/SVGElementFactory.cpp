@@ -185,7 +185,7 @@ Hash
 table
 that
 maps
-nsIAtom
+nsAtom
 *
 SVG
 tags
@@ -478,7 +478,7 @@ eSVGTag_Count
 ;
 /
 /
-nsIAtom
+nsAtom
 *
 -
 >
@@ -669,7 +669,7 @@ ni
 =
 aNodeInfo
 ;
-nsIAtom
+nsAtom
 *
 name
 =

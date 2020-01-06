@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -418,7 +418,7 @@ class
 nsILinkHandler
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIRunnable
@@ -1871,7 +1871,7 @@ of
 presentation
 *
 /
-nsIAtom
+nsAtom
 *
 Medium
 (
@@ -1987,7 +1987,7 @@ GetDefaultFont
 (
 uint8_t
 aFontID
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -1998,7 +1998,7 @@ nullptr
 )
 const
 {
-nsIAtom
+nsAtom
 *
 lang
 =
@@ -2056,7 +2056,7 @@ prefs
 void
 ForceCacheLang
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -3037,7 +3037,7 @@ return
 mEventManager
 ;
 }
-nsIAtom
+nsAtom
 *
 GetLanguageFromCharset
 (
@@ -3050,7 +3050,7 @@ mLanguage
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetContentLanguage
 (
@@ -3437,7 +3437,7 @@ size
 int32_t
 MinFontSize
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -7052,7 +7052,7 @@ LangGroupFontPrefs
 *
 GetFontPrefsForLang
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -7063,7 +7063,7 @@ nullptr
 )
 const
 {
-nsIAtom
+nsAtom
 *
 lang
 =
@@ -7548,7 +7548,7 @@ CounterStyleManager
 >
 mCounterStyleManager
 ;
-nsIAtom
+nsAtom
 *
 MOZ_UNSAFE_REF
 (
@@ -7569,7 +7569,7 @@ subclass
 ctors
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMediaEmulated
 ;
@@ -7687,7 +7687,7 @@ attribute
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLanguage
 ;
@@ -8176,7 +8176,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 mLanguagesUsed

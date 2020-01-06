@@ -150,7 +150,7 @@ ChangeAttributeTransaction
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 const

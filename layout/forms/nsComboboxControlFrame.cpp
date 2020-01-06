@@ -8245,7 +8245,7 @@ nsComboboxControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -8548,7 +8548,7 @@ for
 display
 /
 /
-nsIAtom
+nsAtom
 *
 tag
 =

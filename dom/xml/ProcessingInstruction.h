@@ -438,7 +438,7 @@ present
 bool
 GetAttrValue
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString

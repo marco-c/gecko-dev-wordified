@@ -5010,7 +5010,7 @@ GetEnumAttr
 nsGenericHTMLElement
 *
 aContent
-nsIAtom
+nsAtom
 *
 atom
 int32_t

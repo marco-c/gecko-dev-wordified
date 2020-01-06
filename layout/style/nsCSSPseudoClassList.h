@@ -113,7 +113,7 @@ contains
 the
 list
 of
-nsIAtoms
+nsAtoms
 and
 their
 values

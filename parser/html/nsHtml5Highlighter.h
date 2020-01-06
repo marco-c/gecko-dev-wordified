@@ -621,7 +621,7 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -701,10 +701,10 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aOther
 )
@@ -1260,7 +1260,7 @@ nsIContent
 *
 CreateElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -1380,7 +1380,7 @@ function
 void
 Push
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes

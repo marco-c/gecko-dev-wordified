@@ -445,7 +445,7 @@ SVGDefsElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

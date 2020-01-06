@@ -783,7 +783,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -1375,7 +1375,7 @@ nodeValue
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -1514,7 +1514,7 @@ ELEMENT_NODE
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -1934,7 +1934,7 @@ ELEMENT_NODE
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -2571,10 +2571,10 @@ txLREAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 nsAutoPtr
@@ -4227,7 +4227,7 @@ kNameSpaceID_None
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -4483,10 +4483,10 @@ txStartLREElement
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 )

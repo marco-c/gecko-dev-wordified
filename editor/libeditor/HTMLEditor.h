@@ -641,7 +641,7 @@ RemoveAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -656,7 +656,7 @@ SetAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1109,7 +1109,7 @@ aZindex
 nsresult
 SetInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1125,7 +1125,7 @@ aValue
 nsresult
 GetInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1150,7 +1150,7 @@ aAll
 nsresult
 GetInlinePropertyWithAttrValue
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1178,7 +1178,7 @@ outValue
 nsresult
 RemoveInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1383,10 +1383,10 @@ virtual
 bool
 TagCanContainTag
 (
-nsIAtom
+nsAtom
 &
 aParentTag
-nsIAtom
+nsAtom
 &
 aChildTag
 )
@@ -3110,7 +3110,7 @@ IsTextPropertySetByContent
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3134,7 +3134,7 @@ IsTextPropertySetByContent
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3521,7 +3521,7 @@ const
 nsAString
 &
 aStr
-nsIAtom
+nsAtom
 *
 aContextLocalName
 nsIDocument
@@ -3880,7 +3880,7 @@ int32_t
 aStartOffset
 int32_t
 aEndOffset
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -3899,7 +3899,7 @@ SetInlinePropertyOnNode
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -3934,7 +3934,7 @@ SplitStyleAboveRange
 nsRange
 *
 aRange
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3955,7 +3955,7 @@ aNode
 int32_t
 *
 aOffset
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3982,7 +3982,7 @@ RemoveStyleInside
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3999,7 +3999,7 @@ false
 nsresult
 RemoveInlinePropertyImpl
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -4290,7 +4290,7 @@ aNode
 nsresult
 GetInlinePropertyBase
 (
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -4545,7 +4545,7 @@ aNode
 int32_t
 *
 aOffset
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -5475,7 +5475,7 @@ IsSimpleModifiableNode
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -5494,7 +5494,7 @@ SetInlinePropertyOnNodeImpl
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -5683,7 +5683,7 @@ element
 ManualNACPtr
 CreateAnonymousElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsIContent

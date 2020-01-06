@@ -438,7 +438,7 @@ EventListenerChange
 :
 AddChangedListenerName
 (
-nsIAtom
+nsAtom
 *
 aEventName
 )
@@ -523,7 +523,7 @@ i
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 listenerName
 =
@@ -2169,7 +2169,7 @@ dom
 EventTarget
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aName
 )

@@ -882,7 +882,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mIds
@@ -899,10 +899,10 @@ public
 :
 txKeyPattern
 (
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -945,7 +945,7 @@ ifdef
 TX_TO_STRING
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPrefix
 ;

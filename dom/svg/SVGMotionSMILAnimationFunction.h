@@ -169,7 +169,7 @@ class
 nsAttrValue
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -321,7 +321,7 @@ virtual
 bool
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -343,7 +343,7 @@ virtual
 bool
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -582,7 +582,7 @@ GetValues
 void
 MarkStaleIfAttributeAffectsPath
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )

@@ -631,14 +631,14 @@ eCustom
 explicit
 CustomElementData
 (
-nsIAtom
+nsAtom
 *
 aType
 )
 ;
 CustomElementData
 (
-nsIAtom
+nsAtom
 *
 aType
 State
@@ -678,7 +678,7 @@ button
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mType
 ;
@@ -933,10 +933,10 @@ CustomElementDefinition
 )
 CustomElementDefinition
 (
-nsIAtom
+nsAtom
 *
 aType
-nsIAtom
+nsAtom
 *
 aLocalName
 Function
@@ -946,7 +946,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -982,7 +982,7 @@ element
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mType
 ;
@@ -1012,7 +1012,7 @@ button
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocalName
 ;
@@ -1045,7 +1045,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mObservedAttributes
@@ -1150,7 +1150,7 @@ mLocalName
 bool
 IsInObservedAttributeList
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2133,7 +2133,7 @@ aDefinition
 void
 GetCustomPrototype
 (
-nsIAtom
+nsAtom
 *
 aAtom
 JS
@@ -2331,7 +2331,7 @@ RegisterUnresolvedElement
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTypeName
 =
@@ -2341,7 +2341,7 @@ nullptr
 void
 UpgradeCandidates
 (
-nsIAtom
+nsAtom
 *
 aKey
 CustomElementDefinition
@@ -2357,7 +2357,7 @@ nsRefPtrHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 CustomElementDefinition
 >
@@ -2368,7 +2368,7 @@ nsClassHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 nsTArray
 <
@@ -2393,7 +2393,7 @@ JSObject
 >
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 js
 :
@@ -2489,7 +2489,7 @@ nsRefPtrHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 Promise
 >

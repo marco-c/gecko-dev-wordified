@@ -1027,7 +1027,7 @@ SVGMaskElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

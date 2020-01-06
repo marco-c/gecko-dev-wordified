@@ -1204,7 +1204,7 @@ NS_THEME_RADIO_LABEL
 )
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -9078,7 +9078,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

@@ -158,7 +158,7 @@ class
 nsComputedDOMStyle
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -398,7 +398,7 @@ IsCSSEditableProperty
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -413,10 +413,10 @@ IsCSSEditableProperty
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -515,7 +515,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -537,7 +537,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 int32_t
@@ -553,7 +553,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -753,7 +753,7 @@ GetSpecifiedProperty
 nsINode
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 nsAString
@@ -767,7 +767,7 @@ GetComputedProperty
 nsINode
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 nsAString
@@ -867,7 +867,7 @@ RemoveCSSInlineStyle
 nsINode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -960,7 +960,7 @@ value
 bool
 IsCSSInvertible
 (
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -1156,10 +1156,10 @@ GetCSSEquivalentToHTMLInlineStyleSet
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aHTMLProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 nsAString
@@ -1307,10 +1307,10 @@ IsCSSEquivalentToHTMLInlineStyleSet
 nsINode
 *
 aContent
-nsIAtom
+nsAtom
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 nsAString
@@ -1326,7 +1326,7 @@ IsCSSEquivalentToHTMLInlineStyleSet
 nsINode
 *
 aContent
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1347,7 +1347,7 @@ IsCSSEquivalentToHTMLInlineStyleSet
 nsINode
 *
 aContent
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1367,7 +1367,7 @@ IsCSSEquivalentToHTMLInlineStyleSet
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1524,10 +1524,10 @@ HaveCSSEquivalentStyles
 nsINode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 StyleType
@@ -1661,10 +1661,10 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1684,7 +1684,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1705,7 +1705,7 @@ SetCSSEquivalentToHTMLStyle
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aHTMLProperty
 const
@@ -1817,7 +1817,7 @@ RemoveCSSEquivalentToHTMLStyle
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aHTMLProperty
 const
@@ -1938,10 +1938,10 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aHTMLProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -2034,7 +2034,7 @@ aString
 float
 *
 aValue
-nsIAtom
+nsAtom
 *
 *
 aUnit
@@ -2510,7 +2510,7 @@ GetCSSPropertyAtom
 (
 nsCSSEditableProperty
 aProperty
-nsIAtom
+nsAtom
 *
 *
 aAtom
@@ -2627,7 +2627,7 @@ BuildCSSDeclarations
 (
 nsTArray
 <
-nsIAtom
+nsAtom
 *
 >
 &
@@ -2797,10 +2797,10 @@ dom
 Element
 *
 aNode
-nsIAtom
+nsAtom
 *
 aHTMLProperty
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -2809,7 +2809,7 @@ nsAString
 aValue
 nsTArray
 <
-nsIAtom
+nsAtom
 *
 >
 &
@@ -2907,7 +2907,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -2985,7 +2985,7 @@ GetCSSInlinePropertyBase
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 nsAString

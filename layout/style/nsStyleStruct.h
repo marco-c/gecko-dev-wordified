@@ -1215,7 +1215,7 @@ aSize
 static
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetLanguage
 (
@@ -1605,7 +1605,7 @@ inherited
 ]
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLanguage
 ;
@@ -3115,7 +3115,7 @@ SetElementId
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aElementId
 )
@@ -3300,7 +3300,7 @@ IsResolved
 ;
 }
 const
-nsIAtom
+nsAtom
 *
 GetElementId
 (
@@ -4039,7 +4039,7 @@ separately
 from
 mImage
 .
-nsIAtom
+nsAtom
 *
 mElementId
 ;
@@ -15120,7 +15120,7 @@ return
 mProperty
 ;
 }
-nsIAtom
+nsAtom
 *
 GetUnknownProperty
 (
@@ -15258,7 +15258,7 @@ SetUnknownProperty
 (
 nsCSSPropertyID
 aProperty
-nsIAtom
+nsAtom
 *
 aPropertyString
 )
@@ -15346,7 +15346,7 @@ mProperty
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mUnknownProperty
 ;
@@ -17183,7 +17183,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mWillChange
@@ -21939,7 +21939,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mContextProps

@@ -1572,7 +1572,7 @@ IPC_OK
 }
 if
 (
-nsIAtom
+nsAtom
 *
 roleAtom
 =
@@ -1659,7 +1659,7 @@ ARIARoleMap
 {
 if
 (
-nsIAtom
+nsAtom
 *
 roleAtom
 =
@@ -9944,7 +9944,7 @@ IPC_OK
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 id
 =

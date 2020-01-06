@@ -297,7 +297,7 @@ bool
 AddonHasPermission
 (
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )

@@ -356,7 +356,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -411,7 +411,7 @@ bool
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )

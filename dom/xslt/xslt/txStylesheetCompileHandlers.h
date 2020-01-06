@@ -135,10 +135,10 @@ HandleStartFn
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 txStylesheetAttr
@@ -236,7 +236,7 @@ find
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
 )

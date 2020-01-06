@@ -1200,7 +1200,7 @@ Link
 :
 UpdatePreload
 (
-nsIAtom
+nsAtom
 *
 aName
 const

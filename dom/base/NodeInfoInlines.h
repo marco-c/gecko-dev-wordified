@@ -123,7 +123,7 @@ mozilla_dom_NodeInfoInlines_h___
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -410,7 +410,7 @@ NodeInfo
 :
 QualifiedNameEquals
 (
-nsIAtom
+nsAtom
 *
 aNameAtom
 )
@@ -468,12 +468,12 @@ CheckValidNodeInfo
 (
 uint16_t
 aNodeType
-nsIAtom
+nsAtom
 *
 aName
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aExtraName
 )

@@ -1012,7 +1012,7 @@ GetIntegerAttribute
 nsIContent
 *
 content
-nsIAtom
+nsAtom
 *
 atom
 int32_t
@@ -1080,7 +1080,7 @@ nsValueChangedRunnable
 nsISliderListener
 *
 aListener
-nsIAtom
+nsAtom
 *
 aWhich
 int32_t
@@ -1145,7 +1145,7 @@ mListener
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mWhich
 ;
@@ -1228,7 +1228,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

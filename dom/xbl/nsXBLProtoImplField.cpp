@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

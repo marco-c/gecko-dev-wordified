@@ -1626,7 +1626,7 @@ aString
 method
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -1718,7 +1718,7 @@ nsIContent
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 id
 =

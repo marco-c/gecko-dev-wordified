@@ -987,7 +987,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1015,7 +1015,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1099,7 +1099,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1131,7 +1131,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1190,7 +1190,7 @@ nsIContent
 *
 GetChild
 (
-nsIAtom
+nsAtom
 *
 aTag
 )

@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -660,7 +660,7 @@ aDest
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 functionNameAtom
 ;

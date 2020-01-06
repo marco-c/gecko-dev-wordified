@@ -1105,7 +1105,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -1480,7 +1480,7 @@ inline
 bool
 IsHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1965,7 +1965,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1983,7 +1983,7 @@ ParseBackgroundAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -2002,7 +2002,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2516,7 +2516,7 @@ static
 bool
 ParseImageAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -3859,10 +3859,10 @@ out
 void
 GetURIAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
-nsIAtom
+nsAtom
 *
 aBaseAttr
 nsAString
@@ -3930,10 +3930,10 @@ namespace
 bool
 GetURIAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
-nsIAtom
+nsAtom
 *
 aBaseAttr
 nsIURI
@@ -4003,7 +4003,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -4054,7 +4054,7 @@ inline
 bool
 CanHaveName
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -4249,7 +4249,7 @@ cache
 void
 AddToNameTable
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -4440,7 +4440,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4458,7 +4458,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4482,7 +4482,7 @@ EventListenerManager
 *
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -4579,7 +4579,7 @@ aURI
 void
 GetHTMLAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -4599,7 +4599,7 @@ aResult
 void
 GetHTMLAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 mozilla
@@ -4625,7 +4625,7 @@ aResult
 void
 GetHTMLEnumAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -4645,7 +4645,7 @@ aResult
 void
 GetHTMLURIAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -4665,7 +4665,7 @@ aResult
 void
 SetHTMLAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4686,7 +4686,7 @@ true
 void
 SetHTMLAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4721,7 +4721,7 @@ aError
 void
 UnsetHTMLAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 mozilla
@@ -4751,7 +4751,7 @@ aError
 void
 SetHTMLBoolAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -4797,7 +4797,7 @@ T
 void
 SetHTMLIntAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 T
@@ -4902,7 +4902,7 @@ out
 nsresult
 SetAttrHelper
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -4988,7 +4988,7 @@ set
 int32_t
 GetIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t
@@ -5045,7 +5045,7 @@ attribute
 nsresult
 SetIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t
@@ -5130,7 +5130,7 @@ set
 uint32_t
 GetUnsignedIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 uint32_t
@@ -5228,7 +5228,7 @@ otherwise
 void
 SetUnsignedIntAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 uint32_t
@@ -5321,7 +5321,7 @@ attribute
 void
 SetDoubleAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 double
@@ -6659,7 +6659,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -6677,7 +6677,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const

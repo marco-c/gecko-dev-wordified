@@ -194,14 +194,14 @@ nsresult
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
 /
 /
 for
-nsIAtom
+nsAtom
 NS_Atomize
 #
 include
@@ -362,7 +362,7 @@ true
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 langGroupAtom
 ;
@@ -736,7 +736,7 @@ public
 :
 EnumerateFontsTask
 (
-nsIAtom
+nsAtom
 *
 aLangGroupAtom
 const
@@ -854,7 +854,7 @@ private
 :
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLangGroupAtom
 ;
@@ -1038,7 +1038,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 langGroupAtom
 ;

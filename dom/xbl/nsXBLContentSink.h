@@ -454,7 +454,7 @@ uint32_t
 aAttsCount
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 uint32_t
@@ -583,7 +583,7 @@ char16_t
 *
 *
 aAtts
-nsIAtom
+nsAtom
 *
 aResourceType
 )
@@ -685,7 +685,7 @@ protected
 nsresult
 ReportUnexpectedElement
 (
-nsIAtom
+nsAtom
 *
 aElementName
 uint32_t

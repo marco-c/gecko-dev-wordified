@@ -122,7 +122,7 @@ nsISupports
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -647,7 +647,7 @@ nsIContent
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTag
 nsIContent
@@ -690,7 +690,7 @@ GetResource
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 nsIRDFResource

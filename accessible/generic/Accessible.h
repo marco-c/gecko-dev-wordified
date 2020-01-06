@@ -204,7 +204,7 @@ class
 nsIFrame
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIPersistentProperties
@@ -1271,7 +1271,7 @@ const
 bool
 IsARIARole
 (
-nsIAtom
+nsAtom
 *
 aARIARole
 )
@@ -1349,7 +1349,7 @@ applied
 *
 /
 virtual
-nsIAtom
+nsAtom
 *
 LandmarkRole
 (
@@ -7183,7 +7183,7 @@ value
 double
 AttrNumericValue
 (
-nsIAtom
+nsAtom
 *
 aARIAAttr
 )

@@ -2085,7 +2085,7 @@ CSSTransition
 >
 {
 static
-nsIAtom
+nsAtom
 *
 ElementPropertyAtom
 (
@@ -2099,7 +2099,7 @@ transitionsProperty
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 BeforePropertyAtom
 (
@@ -2113,7 +2113,7 @@ transitionsOfBeforeProperty
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 AfterPropertyAtom
 (

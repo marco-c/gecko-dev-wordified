@@ -356,7 +356,7 @@ GetRuleCascade
 (
 nsPresContext
 *
-nsIAtom
+nsAtom
 *
 )
 #

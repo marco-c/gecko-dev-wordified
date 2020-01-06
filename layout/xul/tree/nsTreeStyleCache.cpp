@@ -146,7 +146,7 @@ Transition
 (
 DFAState
 aState
-nsIAtom
+nsAtom
 *
 aSymbol
 )

@@ -607,7 +607,7 @@ inline
 bool
 IsRubyPseudo
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )

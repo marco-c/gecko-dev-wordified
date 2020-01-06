@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -321,7 +321,7 @@ break
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -364,7 +364,7 @@ GetImmediateChild
 nsIContent
 *
 aContainer
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -431,7 +431,7 @@ GetDescendantChild
 nsIContent
 *
 aContainer
-nsIAtom
+nsAtom
 *
 aTag
 )

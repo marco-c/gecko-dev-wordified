@@ -1280,7 +1280,7 @@ nullptr
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsBindingManager
 :
@@ -1311,7 +1311,7 @@ if
 binding
 )
 {
-nsIAtom
+nsAtom
 *
 base
 =

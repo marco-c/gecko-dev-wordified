@@ -440,7 +440,7 @@ class
 nsHtml5StringParser
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIChannel
@@ -867,7 +867,7 @@ non
 owning
 reference
 .
-nsIAtom
+nsAtom
 *
 MOZ_NON_OWNING_REF
 mAtom
@@ -2849,7 +2849,7 @@ nsIContent
 *
 aContent
 const
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -3691,7 +3691,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )
@@ -3720,7 +3720,7 @@ JSContext
 *
 aCx
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )
@@ -4140,7 +4140,7 @@ static
 bool
 IsCustomElementName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -4181,7 +4181,7 @@ aQName
 int32_t
 *
 aNamespace
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -4224,11 +4224,11 @@ const
 char16_t
 *
 aExpatName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 *
 aTagName
@@ -4681,7 +4681,7 @@ nsIContent
 aContent
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -5583,7 +5583,7 @@ dom
 NodeInfo
 *
 aNodeInfo
-nsIAtom
+nsAtom
 *
 aName
 mozilla
@@ -5660,7 +5660,7 @@ GetEventArgNames
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aEventName
 bool
@@ -9137,7 +9137,7 @@ static
 bool
 IsEventAttributeName
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -9208,7 +9208,7 @@ mozilla
 EventMessage
 GetEventMessage
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9221,7 +9221,7 @@ Returns
 the
 EventMessage
 and
-nsIAtom
+nsAtom
 to
 be
 used
@@ -9244,7 +9244,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 *
 aOnName
@@ -9401,7 +9401,7 @@ aEventClassID
 *
 /
 static
-nsIAtom
+nsAtom
 *
 GetEventMessageAndAtom
 (
@@ -9724,10 +9724,10 @@ static
 bool
 IsValidNodeName
 (
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -10038,7 +10038,7 @@ aSourceBuffer
 nsIContent
 *
 aTargetNode
-nsIAtom
+nsAtom
 *
 aContextLocalName
 int32_t
@@ -16327,7 +16327,7 @@ const
 nsString
 &
 aSource
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -19045,10 +19045,10 @@ GetElementDefinitionIfObservingAttr
 Element
 *
 aCustomElement
-nsIAtom
+nsAtom
 *
 aExtensionType
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -19150,7 +19150,7 @@ nsIDocument
 aDoc
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 JS
@@ -20536,7 +20536,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -20833,7 +20833,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 EventNameMapping
 >
@@ -20854,7 +20854,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 *

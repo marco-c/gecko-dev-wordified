@@ -226,14 +226,14 @@ etc
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
 /
 /
 for
-nsIAtom
+nsAtom
 etc
 #
 include
@@ -483,7 +483,7 @@ nsBaseStateUpdatingCommand
 :
 nsBaseStateUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -1051,7 +1051,7 @@ nsStyleUpdatingCommand
 :
 nsStyleUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -1585,7 +1585,7 @@ nsListCommand
 :
 nsListCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -1835,7 +1835,7 @@ nsListItemCommand
 :
 nsListItemCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -6896,7 +6896,7 @@ nsInsertTagCommand
 :
 nsInsertTagCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -7738,7 +7738,7 @@ for
 this
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 styleAtom
 =
@@ -7917,7 +7917,7 @@ for
 this
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 styleAtom
 =

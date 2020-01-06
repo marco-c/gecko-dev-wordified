@@ -617,7 +617,7 @@ nsContentUtils
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsILoadContext
@@ -13018,7 +13018,7 @@ fragment
 for
 pasted
 html
-nsIAtom
+nsAtom
 *
 contextAtom
 ;
@@ -13430,7 +13430,7 @@ const
 nsAString
 &
 aFragStr
-nsIAtom
+nsAtom
 *
 aContextLocalName
 nsIDocument

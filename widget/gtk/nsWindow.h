@@ -2391,7 +2391,7 @@ aGdkEvent
 bool
 DispatchCommandEvent
 (
-nsIAtom
+nsAtom
 *
 aCommand
 )

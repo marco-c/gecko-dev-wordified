@@ -1280,7 +1280,7 @@ SVGMarkerElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1410,7 +1410,7 @@ ParseAttribute
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1565,7 +1565,7 @@ UnsetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 bool

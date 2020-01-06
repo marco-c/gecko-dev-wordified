@@ -175,7 +175,7 @@ nsDataHashtable
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsITabParent
@@ -308,7 +308,7 @@ GetTraceableChannel
 (
 uint64_t
 aChannelId
-nsIAtom
+nsAtom
 *
 aAddonId
 dom

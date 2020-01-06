@@ -241,7 +241,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1499,7 +1499,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsIAtom
+nsAtom
 *
 aPseudoTag
 StyleRuleInclusion
@@ -1565,7 +1565,7 @@ ServoStyleContext
 >
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 ServoStyleContext
@@ -1631,7 +1631,7 @@ ServoStyleContext
 >
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -2508,7 +2508,7 @@ nsCSSCounterStyleRule
 *
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2549,7 +2549,7 @@ aElement
 nsPresContext
 *
 aPresContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -2916,7 +2916,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -3499,7 +3499,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsIAtom
+nsAtom
 *
 aPseudoTag
 StyleRuleInclusion

@@ -3363,7 +3363,7 @@ BuiltinCounterStyle
 (
 int32_t
 aStyle
-nsIAtom
+nsAtom
 *
 *
 aName
@@ -3380,7 +3380,7 @@ aName
 {
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetStyleName
 (
@@ -3562,7 +3562,7 @@ than
 the
 /
 /
-nsIAtom
+nsAtom
 because
 members
 of
@@ -3583,7 +3583,7 @@ at
 compile
 time
 .
-nsIAtom
+nsAtom
 *
 *
 const
@@ -3596,7 +3596,7 @@ mName
 virtual
 *
 /
-nsIAtom
+nsAtom
 *
 BuiltinCounterStyle
 :
@@ -5318,7 +5318,7 @@ public
 :
 CustomCounterStyle
 (
-nsIAtom
+nsAtom
 *
 aName
 CounterStyleManager
@@ -5522,7 +5522,7 @@ mRuleGeneration
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetStyleName
 (
@@ -5902,7 +5902,7 @@ GetExtendsRoot
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;
@@ -6387,7 +6387,7 @@ FLAG_PAD_INITED
 virtual
 *
 /
-nsIAtom
+nsAtom
 *
 CustomCounterStyle
 :
@@ -9300,7 +9300,7 @@ aSymbols
 virtual
 *
 /
-nsIAtom
+nsAtom
 *
 AnonymousCounterStyle
 :
@@ -10628,7 +10628,7 @@ CounterStyleManager
 :
 BuildCounterStyle
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -10925,7 +10925,7 @@ aStyle
 static
 *
 /
-nsIAtom
+nsAtom
 *
 CounterStyleManager
 :

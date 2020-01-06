@@ -1766,7 +1766,7 @@ the
 ALIGN
 attribute
 .
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -2260,7 +2260,7 @@ the
 PACK
 attribute
 .
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -6351,7 +6351,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

@@ -1279,7 +1279,7 @@ nsScrollbarButtonFrame
 :
 GetChildWithTag
 (
-nsIAtom
+nsAtom
 *
 atom
 nsIFrame
@@ -1399,7 +1399,7 @@ nsScrollbarButtonFrame
 :
 GetParentWithTag
 (
-nsIAtom
+nsAtom
 *
 toFind
 nsIFrame

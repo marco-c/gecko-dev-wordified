@@ -764,7 +764,7 @@ DropAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -1672,7 +1672,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 nameAtom
 =
@@ -2701,7 +2701,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 nameAtom
 =

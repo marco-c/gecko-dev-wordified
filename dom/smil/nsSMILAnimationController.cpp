@@ -5211,7 +5211,7 @@ IsTransformAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttributeName
 )
@@ -5371,7 +5371,7 @@ namespace
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attributeName
 ;

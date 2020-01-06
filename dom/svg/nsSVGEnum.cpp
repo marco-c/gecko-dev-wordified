@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -254,7 +254,7 @@ nsSVGEnum
 SetBaseValueAtom
 (
 const
-nsIAtom
+nsAtom
 *
 aValue
 nsSVGElement
@@ -411,7 +411,7 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-nsIAtom
+nsAtom
 *
 nsSVGEnum
 :
@@ -772,7 +772,7 @@ aPreventCachingOfSandwich
 )
 const
 {
-nsIAtom
+nsAtom
 *
 valAtom
 =

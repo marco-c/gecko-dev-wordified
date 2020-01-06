@@ -2214,7 +2214,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -2297,7 +2297,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -2527,7 +2527,7 @@ reframe
 int32_t
 namespaceID
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -11371,7 +11371,7 @@ return
 false
 ;
 }
-nsIAtom
+nsAtom
 *
 pseudoTag
 =
@@ -15045,7 +15045,7 @@ past
 /
 pseudos
 .
-nsIAtom
+nsAtom
 *
 pseudoTag
 =
@@ -15153,7 +15153,7 @@ further
 ancestor
 )
 .
-nsIAtom
+nsAtom
 *
 parentPseudoTag
 =
@@ -17414,7 +17414,7 @@ false
 ;
 #
 endif
-nsIAtom
+nsAtom
 *
 const
 pseudoTag
@@ -20740,7 +20740,7 @@ GeckoStyleContext
 >
 newExtraContext
 ;
-nsIAtom
+nsAtom
 *
 const
 extraPseudoTag

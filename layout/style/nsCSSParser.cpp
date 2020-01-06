@@ -404,7 +404,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1563,7 +1563,7 @@ Normal
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ParseCounterStyleName
 (
@@ -3532,7 +3532,7 @@ aProcessData
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ParseCounterStyleName
 (
@@ -3844,7 +3844,7 @@ nsCSSSelector
 aSelector
 bool
 aIsNegated
-nsIAtom
+nsAtom
 *
 *
 aPseudoElement
@@ -17056,7 +17056,7 @@ AssertInitialState
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 CSSParserImpl
 :
@@ -17102,7 +17102,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -19445,7 +19445,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mediaType
 ;
@@ -20490,7 +20490,7 @@ eEqual
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mediaFeatureAtom
 =
@@ -22879,7 +22879,7 @@ aColumnNumber
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -26811,7 +26811,7 @@ aData
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 ;
@@ -27223,7 +27223,7 @@ true
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 CSSParserImpl
 :
@@ -27369,7 +27369,7 @@ if
 (
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -32631,7 +32631,7 @@ nsCSSSelector
 aSelector
 bool
 aIsNegated
-nsIAtom
+nsAtom
 *
 *
 aPseudoElement
@@ -32893,7 +32893,7 @@ buffer
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudo
 =
@@ -36546,7 +36546,7 @@ aPrevCombinator
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudoElement
 ;
@@ -46340,7 +46340,7 @@ AtomizeIdentValue
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -92218,7 +92218,7 @@ found
 Provide
 default
 values
-nsIAtom
+nsAtom
 *
 type
 =
@@ -96696,7 +96696,7 @@ AtomizeIdentValue
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -103317,7 +103317,7 @@ bug
 )
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -108129,7 +108129,7 @@ aLineOffset
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsCSSParser
 :

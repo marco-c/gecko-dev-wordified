@@ -2095,7 +2095,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2394,7 +2394,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -3611,7 +3611,7 @@ i
 mName
 )
 {
-nsIAtom
+nsAtom
 *
 valAtom
 =
@@ -3732,7 +3732,7 @@ mName
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 valAtom
 =
@@ -4436,7 +4436,7 @@ UnsetAttrInternal
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -4522,7 +4522,7 @@ if
 manager
 )
 {
-nsIAtom
+nsAtom
 *
 eventName
 =
@@ -5702,7 +5702,7 @@ UnsetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -5735,7 +5735,7 @@ nsSVGElement
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -5994,7 +5994,7 @@ nsSVGElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -7337,7 +7337,7 @@ value
 void
 ParseMappedAttrValue
 (
-nsIAtom
+nsAtom
 *
 aMappedAttrName
 const
@@ -7565,7 +7565,7 @@ MappedAttrParser
 :
 ParseMappedAttrValue
 (
-nsIAtom
+nsAtom
 *
 aMappedAttrName
 const
@@ -8058,7 +8058,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -9125,7 +9125,7 @@ nsSVGElement
 :
 WillChangeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9601,7 +9601,7 @@ nsSVGElement
 :
 DidChangeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -9748,7 +9748,7 @@ nsSVGElement
 :
 MaybeSerializeAttrBeforeRemoval
 (
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -9831,14 +9831,14 @@ oldValueSet
 static
 *
 /
-nsIAtom
+nsAtom
 *
 nsSVGElement
 :
 :
 GetEventNameForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -10171,7 +10171,7 @@ nsSVGElement
 :
 SetLength
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -10430,7 +10430,7 @@ nsSVGElement
 GetAnimatedLength
 (
 const
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -11391,7 +11391,7 @@ nsSVGElement
 :
 GetAnimatedNumberList
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -13778,7 +13778,7 @@ if
 frame
 )
 {
-nsIAtom
+nsAtom
 *
 transformAttr
 =
@@ -14234,7 +14234,7 @@ uint8_t
 aAttrEnum
 )
 {
-nsIAtom
+nsAtom
 *
 name
 ;
@@ -14313,7 +14313,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-nsIAtom
+nsAtom
 *
 name
 ;
@@ -14484,7 +14484,7 @@ ReportAttributeParseFailure
 nsIDocument
 *
 aDocument
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -14612,7 +14612,7 @@ IsAtom
 continue
 ;
 }
-nsIAtom
+nsAtom
 *
 attr
 =
@@ -14668,7 +14668,7 @@ GetAnimatedAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )

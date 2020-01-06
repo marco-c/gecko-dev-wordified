@@ -654,7 +654,7 @@ aNode
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetTag
 (
@@ -3821,7 +3821,7 @@ PRINT_RANGE
 *
 /
 static
-nsIAtom
+nsAtom
 *
 GetTag
 (
@@ -3983,7 +3983,7 @@ while
 current
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 =

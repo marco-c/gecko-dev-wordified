@@ -145,7 +145,7 @@ class
 nsAttrValue
 ;
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -508,7 +508,7 @@ bool
 IsConditionalProcessingAttribute
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -517,7 +517,7 @@ const
 bool
 ParseConditionalProcessingAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -545,12 +545,12 @@ void
 UnsetAttr
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
 ;
-nsIAtom
+nsAtom
 *
 GetAttrName
 (
@@ -645,7 +645,7 @@ mStringListAttributes
 ]
 ;
 static
-nsIAtom
+nsAtom
 *
 *
 sStringListNames

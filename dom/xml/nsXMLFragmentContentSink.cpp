@@ -528,7 +528,7 @@ SetDocElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 nsIContent
@@ -982,7 +982,7 @@ SetDocElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 nsIContent

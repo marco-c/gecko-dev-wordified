@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -263,7 +263,7 @@ NameAtom
 )
 )
 ;
-nsIAtom
+nsAtom
 *
 id
 =

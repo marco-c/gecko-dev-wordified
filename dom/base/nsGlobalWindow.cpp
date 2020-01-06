@@ -75661,7 +75661,7 @@ nsGlobalWindow
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -75839,7 +75839,7 @@ nsGlobalWindow
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

@@ -253,7 +253,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1237,7 +1237,7 @@ public
 const
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mVariable
 ;
@@ -1249,7 +1249,7 @@ mValue
 ;
 nsAssignment
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -2089,7 +2089,7 @@ otherwise
 bool
 HasAssignment
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -2202,7 +2202,7 @@ otherwise
 bool
 HasAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 )
@@ -2270,7 +2270,7 @@ variable
 bool
 GetAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -2798,7 +2798,7 @@ operation
 nsresult
 AddAssignment
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -3749,7 +3749,7 @@ Clear
 bool
 HasAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 )

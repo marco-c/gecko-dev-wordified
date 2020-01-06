@@ -533,7 +533,7 @@ aType
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetCSSPseudoElementPropertyAtom
 (

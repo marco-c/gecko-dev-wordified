@@ -775,7 +775,7 @@ DIR_ATOM
 name_
 value_
 )
-nsIAtom
+nsAtom
 *
 nsDirectoryService
 :
@@ -2268,7 +2268,7 @@ true
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 inAtom
 =

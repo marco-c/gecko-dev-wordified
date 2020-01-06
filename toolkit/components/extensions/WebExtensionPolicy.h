@@ -265,7 +265,7 @@ ErrorResult
 aRv
 )
 ;
-nsIAtom
+nsAtom
 *
 Id
 (
@@ -424,7 +424,7 @@ bool
 HasPermission
 (
 const
-nsIAtom
+nsAtom
 *
 aPermission
 )
@@ -818,7 +818,7 @@ mParent
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mId
 ;

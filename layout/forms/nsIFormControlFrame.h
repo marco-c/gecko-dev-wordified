@@ -114,7 +114,7 @@ nsStringFwd
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 /
 *
@@ -245,7 +245,7 @@ virtual
 nsresult
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

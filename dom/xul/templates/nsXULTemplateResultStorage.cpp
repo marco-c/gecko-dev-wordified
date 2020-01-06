@@ -355,7 +355,7 @@ nsXULTemplateResultStorage
 :
 GetBindingFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAString
@@ -439,7 +439,7 @@ nsXULTemplateResultStorage
 :
 GetBindingObjectFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsISupports

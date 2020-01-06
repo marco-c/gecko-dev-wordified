@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -489,7 +489,7 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
-nsIAtom
+nsAtom
 *
 aName
 #
@@ -531,7 +531,7 @@ ifdef
 TX_TO_STRING
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;
@@ -562,7 +562,7 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
-nsIAtom
+nsAtom
 *
 aName
 #
@@ -656,7 +656,7 @@ const
 char
 *
 aContractID
-nsIAtom
+nsAtom
 *
 aName
 nsIID
@@ -1142,7 +1142,7 @@ nsCString
 aContractID
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 nsISupports
@@ -2989,7 +2989,7 @@ txXPCOMExtensionFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

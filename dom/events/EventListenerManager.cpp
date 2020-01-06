@@ -1335,7 +1335,7 @@ EventListenerHolder
 aListenerHolder
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aTypeAtom
 const
@@ -3323,7 +3323,7 @@ EventListenerManager
 :
 NotifyEventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aUserType
 const
@@ -3430,7 +3430,7 @@ EventListenerHolder
 aListenerHolder
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aUserType
 const
@@ -3883,7 +3883,7 @@ aFlags
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;
@@ -3939,7 +3939,7 @@ aFlags
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;
@@ -3987,7 +3987,7 @@ FindEventHandler
 (
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aTypeAtom
 const
@@ -4091,7 +4091,7 @@ EventListenerManager
 :
 SetEventHandlerInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4413,7 +4413,7 @@ EventListenerManager
 :
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4995,7 +4995,7 @@ EventListenerManager
 :
 RemoveEventHandler
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -5243,7 +5243,7 @@ cx
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =
@@ -5252,7 +5252,7 @@ aListener
 >
 mTypeAtom
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -8850,7 +8850,7 @@ mIsMainThreadELM
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -8936,7 +8936,7 @@ EventListenerManager
 :
 HasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aEventNameWithOn
 )
@@ -9436,7 +9436,7 @@ EventListenerManager
 :
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -9706,7 +9706,7 @@ EventListenerManager
 :
 GetTypedEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -10541,7 +10541,7 @@ EventListenerManager
 :
 IsApzAwareEvent
 (
-nsIAtom
+nsAtom
 *
 aEvent
 )

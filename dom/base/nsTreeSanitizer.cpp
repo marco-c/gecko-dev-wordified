@@ -284,7 +284,7 @@ initial
 whitelist
 /
 /
-nsIAtom
+nsAtom
 *
 *
 const
@@ -851,7 +851,7 @@ wbr
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -1373,7 +1373,7 @@ wrap
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -1460,7 +1460,7 @@ vspace
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -1502,7 +1502,7 @@ background
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -2127,7 +2127,7 @@ vkern
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -3887,7 +3887,7 @@ zoomAndPan
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -3904,7 +3904,7 @@ href
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -5478,7 +5478,7 @@ xor
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -6408,7 +6408,7 @@ xref
 nullptr
 }
 ;
-nsIAtom
+nsAtom
 *
 *
 const
@@ -6449,7 +6449,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6464,7 +6464,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6479,7 +6479,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6494,7 +6494,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6509,7 +6509,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6524,7 +6524,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6539,7 +6539,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -6693,7 +6693,7 @@ MustFlatten
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocal
 )
@@ -6934,17 +6934,17 @@ nsTreeSanitizer
 :
 IsURL
 (
-nsIAtom
+nsAtom
 *
 *
 *
 aURLs
-nsIAtom
+nsAtom
 *
 aLocalName
 )
 {
-nsIAtom
+nsAtom
 *
 *
 atomPtrPtr
@@ -6989,7 +6989,7 @@ MustPrune
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocal
 mozilla
@@ -8005,12 +8005,12 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
 aAllowed
-nsIAtom
+nsAtom
 *
 *
 *
@@ -8077,7 +8077,7 @@ NamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrLocal
 =
@@ -9012,7 +9012,7 @@ Element
 aElement
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -9761,7 +9761,7 @@ NodeInfo
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -10018,7 +10018,7 @@ SanitizeAttributes
 elt
 sAttributesHTML
 (
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10037,7 +10037,7 @@ SanitizeAttributes
 elt
 sAttributesSVG
 (
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10225,7 +10225,7 @@ SanitizeAttributes
 elt
 sAttributesHTML
 (
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10263,7 +10263,7 @@ SanitizeAttributes
 elt
 sAttributesSVG
 (
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10282,7 +10282,7 @@ SanitizeAttributes
 elt
 sAttributesMathML
 (
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10416,7 +10416,7 @@ NamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrLocal
 =
@@ -10467,7 +10467,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10514,7 +10514,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10561,7 +10561,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10608,7 +10608,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10655,7 +10655,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10702,7 +10702,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -10749,7 +10749,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 (

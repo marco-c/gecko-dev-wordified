@@ -125,7 +125,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -377,7 +377,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -551,7 +551,7 @@ GetIntegerAttribute
 nsIContent
 *
 content
-nsIAtom
+nsAtom
 *
 atom
 int32_t

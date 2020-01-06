@@ -530,7 +530,7 @@ SVGFEFloodElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

@@ -4203,7 +4203,7 @@ int32_t
 unused
 *
 /
-nsIAtom
+nsAtom
 *
 /
 *
@@ -7152,7 +7152,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -7331,7 +7331,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -7779,7 +7779,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -7897,7 +7897,7 @@ HTMLSelectElement
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -7957,7 +7957,7 @@ HTMLSelectElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )

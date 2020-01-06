@@ -123,7 +123,7 @@ mozilla_CounterStyleManager_h_
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -320,7 +320,7 @@ IsDependentStyle
 const
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetStyleName
 (
@@ -666,7 +666,7 @@ aValue
 )
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetStyleName
 (
@@ -1112,7 +1112,7 @@ operator
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aAtom
 )
@@ -1123,7 +1123,7 @@ Reset
 ;
 if
 (
-nsIAtom
+nsAtom
 *
 raw
 =
@@ -1394,7 +1394,7 @@ CounterStyleManager
 aManager
 )
 ;
-nsIAtom
+nsAtom
 *
 AsAtom
 (
@@ -1411,7 +1411,7 @@ IsUnresolved
 return
 reinterpret_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1531,7 +1531,7 @@ static_assert
 (
 alignof
 (
-nsIAtom
+nsAtom
 )
 >
 =
@@ -1760,7 +1760,7 @@ to
 an
 /
 /
-nsIAtom
+nsAtom
 and
 it
 needs
@@ -1903,7 +1903,7 @@ CounterStyle
 *
 GetCounterStyle
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -1949,7 +1949,7 @@ CounterStyle
 *
 BuildCounterStyle
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2006,7 +2006,7 @@ NS_STYLE_LIST_STYLE_DISC
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 GetStyleNameFromType
 (
@@ -2149,7 +2149,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 CounterStyle
 *

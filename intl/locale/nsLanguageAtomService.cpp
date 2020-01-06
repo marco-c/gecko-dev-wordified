@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -268,7 +268,7 @@ get
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsLanguageAtomService
 :
@@ -294,7 +294,7 @@ lowered
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 lang
 =
@@ -312,7 +312,7 @@ lang
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsLanguageAtomService
 :
@@ -365,7 +365,7 @@ group
 return
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 (
 nsGkAtoms
@@ -386,7 +386,7 @@ group
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsLanguageAtomService
 :
@@ -503,14 +503,14 @@ return
 mLocaleLanguage
 ;
 }
-nsIAtom
+nsAtom
 *
 nsLanguageAtomService
 :
 :
 GetLanguageGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -518,7 +518,7 @@ bool
 aNeedsToCache
 )
 {
-nsIAtom
+nsAtom
 *
 retVal
 =
@@ -551,7 +551,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 uncached
 =
@@ -599,14 +599,14 @@ retVal
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsLanguageAtomService
 :
 :
 GetUncachedLanguageGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -716,7 +716,7 @@ langGroupStr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 langGroup
 =

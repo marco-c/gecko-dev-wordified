@@ -3679,7 +3679,7 @@ ChannelWrapper
 :
 GetTraceableChannel
 (
-nsIAtom
+nsAtom
 *
 aAddonId
 dom
@@ -6495,7 +6495,7 @@ ChannelWrapper
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -6511,7 +6511,7 @@ ChannelWrapper
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

@@ -838,7 +838,7 @@ nsITraceableChannel
 >
 GetTraceableChannel
 (
-nsIAtom
+nsAtom
 *
 aAddonId
 dom
@@ -1186,7 +1186,7 @@ virtual
 void
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -1196,7 +1196,7 @@ virtual
 void
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -1424,7 +1424,7 @@ nsInterfaceHashtable
 nsPtrHashKey
 <
 const
-nsIAtom
+nsAtom
 >
 nsITabParent
 >

@@ -952,14 +952,14 @@ SetIdentAtomValue
 (
 nsCSSPropertyID
 aId
-nsIAtom
+nsAtom
 *
 aValue
 )
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =

@@ -2611,7 +2611,7 @@ aStyleSet
 ServoStyleContext
 &
 aParent
-nsIAtom
+nsAtom
 *
 aAnonBox
 )
@@ -3131,7 +3131,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsIAtom
+nsAtom
 *
 aPseudoTag
 StyleRuleInclusion
@@ -3413,7 +3413,7 @@ ServoStyleSet
 :
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 ServoStyleContext
@@ -3540,7 +3540,7 @@ ServoStyleSet
 :
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -7020,7 +7020,7 @@ aElement
 nsPresContext
 *
 aPresContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -7643,7 +7643,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsIAtom
+nsAtom
 *
 aPseudoTag
 StyleRuleInclusion
@@ -7989,7 +7989,7 @@ ServoStyleSet
 :
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8694,7 +8694,7 @@ const
 Element
 &
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )

@@ -198,7 +198,7 @@ return
 S_OK
 ;
 }
-nsIAtom
+nsAtom
 *
 id
 =

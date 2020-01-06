@@ -135,7 +135,7 @@ nsTArrayForwardDeclare
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsStreamConverterService
@@ -401,7 +401,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 >

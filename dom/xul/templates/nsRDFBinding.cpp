@@ -168,10 +168,10 @@ RDFBindingSet
 :
 AddBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
-nsIAtom
+nsAtom
 *
 aRef
 nsIRDFResource
@@ -349,7 +349,7 @@ aPredicate
 nsIRDFNode
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsXULTemplateResultRDF
@@ -833,7 +833,7 @@ RDFBindingSet
 :
 LookupTargetIndex
 (
-nsIAtom
+nsAtom
 *
 aTargetVariable
 RDFBinding
@@ -1010,7 +1010,7 @@ GetAssignmentFor
 nsXULTemplateResultRDF
 *
 aResult
-nsIAtom
+nsAtom
 *
 aVar
 nsIRDFNode

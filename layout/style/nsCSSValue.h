@@ -274,7 +274,7 @@ class
 imgRequestProxy
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -3603,7 +3603,7 @@ eCSSUnit_AtomIdent
 /
 /
 (
-nsIAtom
+nsAtom
 *
 )
 for
@@ -6258,7 +6258,7 @@ mValue
 mFloatColor
 ;
 }
-nsIAtom
+nsAtom
 *
 GetAtomValue
 (
@@ -6426,7 +6426,7 @@ SetAtomIdentValue
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aValue
 )
@@ -7138,7 +7138,7 @@ mString
 nscolor
 mColor
 ;
-nsIAtom
+nsAtom
 *
 MOZ_OWNING_REF
 mAtom

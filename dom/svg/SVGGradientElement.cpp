@@ -805,7 +805,7 @@ SVGGradientElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

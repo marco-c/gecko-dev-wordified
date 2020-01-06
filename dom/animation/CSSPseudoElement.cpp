@@ -488,7 +488,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -637,7 +637,7 @@ forget
 static
 *
 /
-nsIAtom
+nsAtom
 *
 CSSPseudoElement
 :

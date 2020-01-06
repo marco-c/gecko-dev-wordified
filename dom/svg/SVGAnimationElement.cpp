@@ -549,7 +549,7 @@ SVGAnimationElement
 :
 GetAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -571,7 +571,7 @@ SVGAnimationElement
 :
 GetAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 nsAString
@@ -595,7 +595,7 @@ SVGAnimationElement
 :
 HasAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -743,7 +743,7 @@ GetTargetAttributeName
 int32_t
 *
 aNamespaceID
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -1561,7 +1561,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1753,7 +1753,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2130,7 +2130,7 @@ UnsetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -2857,7 +2857,7 @@ SVGAnimationElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

@@ -240,7 +240,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -425,7 +425,7 @@ aValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 property
 =
@@ -449,7 +449,7 @@ HTMLEditor
 :
 SetInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1379,7 +1379,7 @@ IsSimpleModifiableNode
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -1625,7 +1625,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -1961,7 +1961,7 @@ int32_t
 aStartOffset
 int32_t
 aEndOffset
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -2391,7 +2391,7 @@ SetInlinePropertyOnNodeImpl
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -2406,7 +2406,7 @@ aValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrAtom
 =
@@ -3074,7 +3074,7 @@ SetInlinePropertyOnNode
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -3365,7 +3365,7 @@ SplitStyleAboveRange
 nsRange
 *
 inRange
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3574,7 +3574,7 @@ we
 split
 all
 properties
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -3959,7 +3959,7 @@ aNode
 int32_t
 *
 aOffset
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -4525,7 +4525,7 @@ RemoveStyleInside
 nsIContent
 &
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -4982,7 +4982,7 @@ the
 attribute
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -5180,7 +5180,7 @@ IsElement
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -6226,7 +6226,7 @@ HTMLEditor
 :
 GetInlinePropertyBase
 (
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -7139,7 +7139,7 @@ aAll
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 property
 =
@@ -7166,7 +7166,7 @@ HTMLEditor
 :
 GetInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -7293,7 +7293,7 @@ outValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 property
 =
@@ -7321,7 +7321,7 @@ HTMLEditor
 :
 GetInlinePropertyWithAttrValue
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -7483,7 +7483,7 @@ aAttribute
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 property
 =
@@ -7506,7 +7506,7 @@ HTMLEditor
 :
 RemoveInlineProperty
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -7530,7 +7530,7 @@ HTMLEditor
 :
 RemoveInlinePropertyImpl
 (
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -8604,7 +8604,7 @@ Collapsed
 )
 )
 {
-nsIAtom
+nsAtom
 &
 atom
 =
@@ -9614,7 +9614,7 @@ correct
 type
 of
 node
-nsIAtom
+nsAtom
 *
 nodeType
 =
@@ -10176,7 +10176,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 ;
@@ -11079,7 +11079,7 @@ HasNonEmptyAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )

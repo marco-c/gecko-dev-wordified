@@ -356,7 +356,7 @@ GetTraceableChannel
 (
 uint64_t
 aChannelId
-nsIAtom
+nsAtom
 *
 aAddonId
 nsIContentParent

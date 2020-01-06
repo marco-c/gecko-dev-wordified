@@ -1664,7 +1664,7 @@ aNamespace
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pre
 =
@@ -1727,7 +1727,7 @@ txIParseContext
 nsresult
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -1759,7 +1759,7 @@ NS_OK
 nsresult
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -1799,7 +1799,7 @@ getVariable
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLName
 txAExprResult
@@ -2109,7 +2109,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4187,7 +4187,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -4306,7 +4306,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -4405,7 +4405,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -5367,7 +5367,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

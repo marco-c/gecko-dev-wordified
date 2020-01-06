@@ -650,7 +650,7 @@ section
 bool
 IsAppropriateRow
 (
-nsIAtom
+nsAtom
 *
 aSection
 nsIContent
@@ -689,7 +689,7 @@ nsIContent
 *
 PreviousRow
 (
-nsIAtom
+nsAtom
 *
 aSection
 nsIContent
@@ -1640,7 +1640,7 @@ false
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -1751,7 +1751,7 @@ HasID
 )
 )
 {
-nsIAtom
+nsAtom
 *
 idAtom
 =
@@ -1860,7 +1860,7 @@ nsAttrValue
 eAtom
 )
 {
-nsIAtom
+nsAtom
 *
 nameAtom
 =
@@ -2053,7 +2053,7 @@ TableRowsCollection
 :
 IsAppropriateRow
 (
-nsIAtom
+nsAtom
 *
 aSection
 nsIContent
@@ -2148,7 +2148,7 @@ TableRowsCollection
 :
 PreviousRow
 (
-nsIAtom
+nsAtom
 *
 aSection
 nsIContent
@@ -2681,7 +2681,7 @@ to
 fairly
 easily
 .
-nsIAtom
+nsAtom
 *
 section
 =
@@ -5562,7 +5562,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -6627,7 +6627,7 @@ HTMLTableElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -7239,7 +7239,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -7293,7 +7293,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const

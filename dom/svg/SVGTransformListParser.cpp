@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -435,7 +435,7 @@ get
 )
 )
 ;
-nsIAtom
+nsAtom
 *
 keyAtom
 =

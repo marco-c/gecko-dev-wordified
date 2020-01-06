@@ -7373,7 +7373,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 colAtom
 (

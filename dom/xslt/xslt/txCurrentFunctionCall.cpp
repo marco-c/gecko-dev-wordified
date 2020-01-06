@@ -286,7 +286,7 @@ CurrentFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

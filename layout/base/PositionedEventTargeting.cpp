@@ -1399,7 +1399,7 @@ GetClickableAncestor
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 stopAt
 =

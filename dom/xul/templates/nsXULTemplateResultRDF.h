@@ -267,7 +267,7 @@ bindings
 void
 GetAssignment
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsIRDFNode

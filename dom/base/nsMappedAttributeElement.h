@@ -268,7 +268,7 @@ virtual
 bool
 SetAndSwapMappedAttribute
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAttrValue

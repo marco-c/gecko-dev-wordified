@@ -245,7 +245,7 @@ and
 MathML
 nsHtml5AttributeEntry
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5String
@@ -342,7 +342,7 @@ kNameSpaceID_None
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 GetLocal
 (
@@ -358,7 +358,7 @@ aMode
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 GetPrefix
 (
@@ -507,7 +507,7 @@ are
 the
 same
 .
-nsIAtom
+nsAtom
 *
 local
 =
@@ -583,14 +583,14 @@ clone
 }
 private
 :
-nsIAtom
+nsAtom
 *
 mLocals
 [
 3
 ]
 ;
-nsIAtom
+nsAtom
 *
 mPrefixes
 [

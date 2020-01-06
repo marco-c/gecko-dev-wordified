@@ -102,7 +102,7 @@ class
 nsIDocument
 ;
 class
-nsIAtom
+nsAtom
 ;
 #
 define
@@ -117,7 +117,7 @@ aDocument
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -248,7 +248,7 @@ aDocument
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttribute
 )

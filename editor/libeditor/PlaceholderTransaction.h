@@ -227,7 +227,7 @@ PlaceholderTransaction
 EditorBase
 &
 aEditorBase
-nsIAtom
+nsAtom
 *
 aName
 Maybe
@@ -342,7 +342,7 @@ nsIAbsorbingTransaction
 NS_IMETHOD
 GetTxnName
 (
-nsIAtom
+nsAtom
 *
 *
 aName

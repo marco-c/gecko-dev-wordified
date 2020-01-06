@@ -331,7 +331,7 @@ nsXBLPrototypeResources
 :
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const

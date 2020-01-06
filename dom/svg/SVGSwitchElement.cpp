@@ -822,7 +822,7 @@ SVGSwitchElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1222,7 +1222,7 @@ role
 bool
 Is
 (
-nsIAtom
+nsAtom
 *
 aARIARole
 )
@@ -1310,7 +1310,7 @@ as
 "
 button
 "
-nsIAtom
+nsAtom
 *
 *
 roleAtom
@@ -2209,7 +2209,7 @@ ATTR_
 uint8_t
 AttrCharacteristicsFor
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )

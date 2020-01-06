@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -146,7 +146,7 @@ txExpandedName
 (
 int32_t
 aNsID
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -330,7 +330,7 @@ mNamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocalName
 ;

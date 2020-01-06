@@ -22754,7 +22754,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -51565,7 +51565,7 @@ of
 the
 block
 .
-nsIAtom
+nsAtom
 *
 pseudo
 =

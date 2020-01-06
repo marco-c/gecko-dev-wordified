@@ -5545,7 +5545,7 @@ GetAttrNameAt
 i
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =

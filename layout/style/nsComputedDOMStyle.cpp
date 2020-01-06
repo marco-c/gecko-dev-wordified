@@ -2466,7 +2466,7 @@ GetStyleContext
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -3492,7 +3492,7 @@ DoGetStyleContextNoFlush
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 nsIPresShell
@@ -5656,7 +5656,7 @@ nsCSSPseudoElements
 after
 )
 {
-nsIAtom
+nsAtom
 *
 property
 =
@@ -5996,7 +5996,7 @@ GetPseudoType
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudoAtom
 =
@@ -28405,7 +28405,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -28466,7 +28466,7 @@ true
 for
 (
 const
-nsIAtom
+nsAtom
 *
 ident
 :
@@ -37594,7 +37594,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -37655,7 +37655,7 @@ true
 for
 (
 const
-nsIAtom
+nsAtom
 *
 ident
 :

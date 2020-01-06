@@ -197,7 +197,7 @@ _pref
 )
 \
 static
-nsIAtom
+nsAtom
 *
 sPseudoClass_
 #
@@ -812,7 +812,7 @@ nsCSSPseudoClasses
 :
 GetPseudoType
 (
-nsIAtom
+nsAtom
 *
 aAtom
 EnabledState

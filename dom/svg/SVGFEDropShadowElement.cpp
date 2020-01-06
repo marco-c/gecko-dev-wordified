@@ -868,7 +868,7 @@ AttributeAffectsRendering
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1047,7 +1047,7 @@ SVGFEDropShadowElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

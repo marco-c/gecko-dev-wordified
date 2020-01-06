@@ -247,7 +247,7 @@ nsHtml5MetaScanner_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

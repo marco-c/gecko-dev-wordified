@@ -236,7 +236,7 @@ nsHtml5UTF16Buffer_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

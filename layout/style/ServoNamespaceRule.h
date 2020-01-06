@@ -213,7 +213,7 @@ Clone
 const
 final
 ;
-nsIAtom
+nsAtom
 *
 GetPrefix
 (

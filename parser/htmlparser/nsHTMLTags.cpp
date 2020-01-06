@@ -216,7 +216,7 @@ array
 of
 tag
 atoms
-nsIAtom
+nsAtom
 *
 nsHTMLTags
 :
@@ -335,7 +335,7 @@ str2
 }
 /
 /
-nsIAtom
+nsAtom
 *
 -
 >
@@ -1153,7 +1153,7 @@ id
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;

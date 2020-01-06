@@ -293,7 +293,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -323,7 +323,7 @@ bool
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -454,7 +454,7 @@ mD
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetPathDataAttrName
 (

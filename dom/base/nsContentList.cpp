@@ -1325,7 +1325,7 @@ an
 entry
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 xmlAtom
 =
@@ -1336,7 +1336,7 @@ aTagname
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 htmlAtom
 ;
@@ -1943,10 +1943,10 @@ nsINode
 aRootNode
 int32_t
 aMatchNameSpaceId
-nsIAtom
+nsAtom
 *
 aHTMLMatchAtom
-nsIAtom
+nsAtom
 *
 aXMLMatchAtom
 bool
@@ -2209,7 +2209,7 @@ void
 aData
 bool
 aDeep
-nsIAtom
+nsAtom
 *
 aMatchAtom
 int32_t
@@ -2700,7 +2700,7 @@ are
 atomized
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -2829,7 +2829,7 @@ true
 ;
 AutoTArray
 <
-nsIAtom
+nsAtom
 *
 8
 >
@@ -2876,7 +2876,7 @@ HasID
 )
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =
@@ -3034,7 +3034,7 @@ nsAttrValue
 eAtom
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -3455,7 +3455,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -5913,7 +5913,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -6168,7 +6168,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

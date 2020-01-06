@@ -3184,7 +3184,7 @@ aContext
 )
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudoTag
 =

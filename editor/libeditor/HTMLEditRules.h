@@ -174,7 +174,7 @@ nscore
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMCharacterData
@@ -259,7 +259,7 @@ StyleCache
 }
 StyleCache
 (
-nsIAtom
+nsAtom
 *
 aTag
 const
@@ -291,7 +291,7 @@ StyleCache
 }
 StyleCache
 (
-nsIAtom
+nsAtom
 *
 aTag
 const
@@ -1672,7 +1672,7 @@ MakeBasicBlock
 Selection
 &
 aSelection
-nsIAtom
+nsAtom
 &
 aBlockType
 )
@@ -1806,7 +1806,7 @@ nsINode
 aNode
 )
 ;
-nsIAtom
+nsAtom
 &
 DefaultParagraphSeparator
 (
@@ -1980,10 +1980,10 @@ ConvertListType
 Element
 *
 aList
-nsIAtom
+nsAtom
 *
 aListType
-nsIAtom
+nsAtom
 *
 aItemType
 )
@@ -2408,7 +2408,7 @@ nsINode
 >
 &
 aNodeArray
-nsIAtom
+nsAtom
 &
 aBlockTag
 )
@@ -2430,7 +2430,7 @@ aNodeArray
 nsresult
 SplitAsNeeded
 (
-nsIAtom
+nsAtom
 &
 aTag
 OwningNonNull
@@ -2447,7 +2447,7 @@ inOutOffset
 nsresult
 SplitAsNeeded
 (
-nsIAtom
+nsAtom
 &
 aTag
 nsCOMPtr

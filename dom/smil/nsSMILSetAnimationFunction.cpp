@@ -129,7 +129,7 @@ nsSMILSetAnimationFunction
 IsDisallowedAttribute
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -275,7 +275,7 @@ nsSMILSetAnimationFunction
 :
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -411,7 +411,7 @@ nsSMILSetAnimationFunction
 :
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -444,7 +444,7 @@ nsSMILSetAnimationFunction
 :
 HasAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -478,7 +478,7 @@ nsSMILSetAnimationFunction
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -510,7 +510,7 @@ nsSMILSetAnimationFunction
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 nsAString

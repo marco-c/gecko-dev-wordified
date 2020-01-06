@@ -6922,7 +6922,7 @@ gfxFontconfigFontFamily
 :
 SupportsLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 )
@@ -8164,7 +8164,7 @@ nsString
 >
 &
 aListOfFonts
-nsIAtom
+nsAtom
 *
 aLangGroup
 )
@@ -8398,7 +8398,7 @@ gfxFcPlatformFontList
 :
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -9027,7 +9027,7 @@ ToLowerCase
 familyName
 )
 ;
-nsIAtom
+nsAtom
 *
 language
 =
@@ -10286,7 +10286,7 @@ mozilla
 :
 FontFamilyType
 aGenericType
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray
@@ -10416,7 +10416,7 @@ nsGkAtoms
 x_math
 )
 {
-nsIAtom
+nsAtom
 *
 langGroup
 =
@@ -10992,7 +10992,7 @@ const
 nsAString
 &
 aGeneric
-nsIAtom
+nsAtom
 *
 aLanguage
 )

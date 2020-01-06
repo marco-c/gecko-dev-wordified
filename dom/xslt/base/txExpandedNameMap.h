@@ -525,7 +525,7 @@ mNamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocalName
 ;

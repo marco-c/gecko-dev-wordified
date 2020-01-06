@@ -139,7 +139,7 @@ nsCSSProps
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsPresContext
@@ -172,7 +172,7 @@ aResult
 struct
 nsMediaFeature
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -611,7 +611,7 @@ mValueType
 eBoolInteger
 )
 :
-nsIAtom
+nsAtom
 *
 const
 *
@@ -620,7 +620,7 @@ the
 system
 metric
 .
-nsIAtom
+nsAtom
 *
 const
 *

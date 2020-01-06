@@ -167,7 +167,7 @@ h
 nsString
 members
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -264,7 +264,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 const
@@ -318,7 +318,7 @@ to
 change
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttribute
 ;

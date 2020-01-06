@@ -740,7 +740,7 @@ Literal
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -1391,7 +1391,7 @@ NS_ERROR_XPATH_PARSE_FAILURE
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -1625,7 +1625,7 @@ resolve
 QName
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 lName

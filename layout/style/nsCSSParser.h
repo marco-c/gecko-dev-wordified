@@ -1908,7 +1908,7 @@ fails
 /
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ParseCounterStyleName
 (

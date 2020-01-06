@@ -2760,7 +2760,7 @@ GetUIntAttr
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t

@@ -452,7 +452,7 @@ std
 :
 initializer_list
 <
-nsIAtom
+nsAtom
 *
 >
 aIL
@@ -506,7 +506,7 @@ Sort
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 prev
 =
@@ -524,7 +524,7 @@ prev
 const
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 &
 aAtom
@@ -627,7 +627,7 @@ AtomSet
 :
 Add
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -677,7 +677,7 @@ AtomSet
 :
 Remove
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -869,7 +869,7 @@ URLInfo
 *
 *
 /
-nsIAtom
+nsAtom
 *
 URLInfo
 :
@@ -2216,7 +2216,7 @@ return
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 scheme
 =

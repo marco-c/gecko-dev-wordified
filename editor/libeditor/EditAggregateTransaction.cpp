@@ -710,7 +710,7 @@ EditAggregateTransaction
 :
 GetName
 (
-nsIAtom
+nsAtom
 *
 *
 aName

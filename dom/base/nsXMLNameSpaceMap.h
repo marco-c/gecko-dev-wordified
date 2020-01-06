@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -154,7 +154,7 @@ nsNameSpaceEntry
 explicit
 nsNameSpaceEntry
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -167,7 +167,7 @@ aPrefix
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -299,7 +299,7 @@ kNameSpaceID_None
 nsresult
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -338,7 +338,7 @@ ID
 nsresult
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 nsString
@@ -413,7 +413,7 @@ returned
 int32_t
 FindNameSpaceID
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -452,7 +452,7 @@ returned
 .
 *
 /
-nsIAtom
+nsAtom
 *
 FindPrefix
 (

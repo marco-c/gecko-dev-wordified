@@ -333,7 +333,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -819,7 +819,7 @@ insertQuotation
 ;
 }
 static
-nsIAtom
+nsAtom
 &
 ParagraphSeparatorElement
 (
@@ -6091,7 +6091,7 @@ NS_OK
 ;
 }
 static
-nsIAtom
+nsAtom
 &
 MarginPropertyAtomForIndent
 (
@@ -6406,7 +6406,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsIAtom
+nsAtom
 &
 marginProperty
 =
@@ -6453,7 +6453,7 @@ f
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 unit
 ;
@@ -7706,7 +7706,7 @@ aNode
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -18625,7 +18625,7 @@ mergeLists
 =
 false
 ;
-nsIAtom
+nsAtom
 *
 existingList
 =
@@ -21467,7 +21467,7 @@ NS_ERROR_NULL_POINTER
 }
 OwningNonNull
 <
-nsIAtom
+nsAtom
 >
 listType
 =
@@ -21522,7 +21522,7 @@ list
 items
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 itemType
 ;
@@ -23971,7 +23971,7 @@ aHandled
 ;
 OwningNonNull
 <
-nsIAtom
+nsAtom
 >
 blockType
 =
@@ -24040,7 +24040,7 @@ MakeBasicBlock
 Selection
 &
 aSelection
-nsIAtom
+nsAtom
 &
 blockType
 )
@@ -28777,7 +28777,7 @@ curNode
 )
 )
 {
-nsIAtom
+nsAtom
 &
 marginProperty
 =
@@ -28812,7 +28812,7 @@ f
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 unit
 ;
@@ -29329,7 +29329,7 @@ if
 useCSS
 )
 {
-nsIAtom
+nsAtom
 &
 marginProperty
 =
@@ -29365,7 +29365,7 @@ f
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 unit
 ;
@@ -30647,10 +30647,10 @@ ConvertListType
 Element
 *
 aList
-nsIAtom
+nsAtom
 *
 aListType
-nsIAtom
+nsAtom
 *
 aItemType
 )
@@ -43479,7 +43479,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 &
 HTMLEditRules
 :
@@ -43921,7 +43921,7 @@ ClearAllProps
 Create
 a
 paragraph
-nsIAtom
+nsAtom
 &
 paraAtom
 =
@@ -45892,7 +45892,7 @@ to
 insert
 a
 paragraph
-nsIAtom
+nsAtom
 &
 paraAtom
 =
@@ -46239,7 +46239,7 @@ isEmptyNode
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nodeAtom
 =
@@ -46303,7 +46303,7 @@ aListItem
 -
 1
 ;
-nsIAtom
+nsAtom
 *
 listAtom
 =
@@ -47786,7 +47786,7 @@ nsINode
 >
 &
 aNodeArray
-nsIAtom
+nsAtom
 &
 aBlockTag
 )
@@ -48780,7 +48780,7 @@ HTMLEditRules
 :
 SplitAsNeeded
 (
-nsIAtom
+nsAtom
 &
 aTag
 OwningNonNull
@@ -48846,7 +48846,7 @@ HTMLEditRules
 :
 SplitAsNeeded
 (
-nsIAtom
+nsAtom
 &
 aTag
 nsCOMPtr
@@ -58385,7 +58385,7 @@ htmlEditor
 mHTMLEditor
 )
 ;
-nsIAtom
+nsAtom
 &
 marginProperty
 =
@@ -58420,7 +58420,7 @@ f
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 unit
 ;

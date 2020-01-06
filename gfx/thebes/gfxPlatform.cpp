@@ -9841,7 +9841,7 @@ gfxPlatform
 :
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const

@@ -185,7 +185,7 @@ getVariable
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLName
 txAExprResult

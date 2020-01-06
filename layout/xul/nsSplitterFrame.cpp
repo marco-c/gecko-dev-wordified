@@ -1165,7 +1165,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -3507,7 +3507,7 @@ OwnerDoc
 int32_t
 dummy
 ;
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -5301,7 +5301,7 @@ margin
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 ;

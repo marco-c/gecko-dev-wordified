@@ -166,7 +166,7 @@ mStringBits
 points
 to
 either
-nsIAtom
+nsAtom
 *
 or
 nsStringBuffer

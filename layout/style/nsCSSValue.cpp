@@ -3290,7 +3290,7 @@ SetAtomIdentValue
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aValue
 )
@@ -6078,7 +6078,7 @@ eCSSUnit_Ident
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =

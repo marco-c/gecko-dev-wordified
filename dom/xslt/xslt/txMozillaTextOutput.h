@@ -189,7 +189,7 @@ private
 nsresult
 createXHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsIContent

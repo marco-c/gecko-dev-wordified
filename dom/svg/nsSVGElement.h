@@ -575,7 +575,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -588,7 +588,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -664,7 +664,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1214,7 +1214,7 @@ true
 void
 SetLength
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1631,7 +1631,7 @@ nsSVGLength2
 GetAnimatedLength
 (
 const
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -1681,7 +1681,7 @@ SVGAnimatedNumberList
 *
 GetAnimatedNumberList
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -1904,7 +1904,7 @@ GetAnimatedAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -1950,7 +1950,7 @@ aValue
 )
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetPointListAttrName
 (
@@ -1962,7 +1962,7 @@ nullptr
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetPathDataAttrName
 (
@@ -1974,7 +1974,7 @@ nullptr
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetTransformListAttrName
 (
@@ -2215,7 +2215,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2252,7 +2252,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2274,7 +2274,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -2294,7 +2294,7 @@ ReportAttributeParseFailure
 nsIDocument
 *
 aDocument
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -2306,7 +2306,7 @@ aValue
 nsAttrValue
 WillChangeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2335,7 +2335,7 @@ StoresOwnData
 void
 DidChangeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2350,7 +2350,7 @@ aNewValue
 void
 MaybeSerializeAttrBeforeRemoval
 (
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -2358,11 +2358,11 @@ aNotify
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetEventNameForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -2370,7 +2370,7 @@ aAttr
 struct
 LengthInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2438,7 +2438,7 @@ aAttrEnum
 struct
 NumberInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2503,7 +2503,7 @@ aAttrEnum
 struct
 NumberPairInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2568,7 +2568,7 @@ aAttrEnum
 struct
 IntegerInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2630,7 +2630,7 @@ aAttrEnum
 struct
 IntegerPairInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2695,7 +2695,7 @@ aAttrEnum
 struct
 AngleInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2760,7 +2760,7 @@ aAttrEnum
 struct
 BooleanInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2826,7 +2826,7 @@ nsSVGEnum
 struct
 EnumInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2892,7 +2892,7 @@ aAttrEnum
 struct
 NumberListInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -2951,7 +2951,7 @@ aAttrEnum
 struct
 LengthListInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -3112,7 +3112,7 @@ aAttrEnum
 struct
 StringInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -3184,7 +3184,7 @@ DOMSVGStringList
 struct
 StringListInfo
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -3361,7 +3361,7 @@ UnsetAttrInternal
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

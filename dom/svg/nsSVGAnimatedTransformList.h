@@ -160,7 +160,7 @@ SVGTransformList
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsSMILValue
@@ -923,7 +923,7 @@ nsAString
 &
 aSpec
 const
-nsIAtom
+nsAtom
 *
 aTransformType
 nsSMILValue

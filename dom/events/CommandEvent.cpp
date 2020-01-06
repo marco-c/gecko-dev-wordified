@@ -241,7 +241,7 @@ nsAString
 aCommand
 )
 {
-nsIAtom
+nsAtom
 *
 command
 =

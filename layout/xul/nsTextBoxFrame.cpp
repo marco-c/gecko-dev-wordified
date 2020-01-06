@@ -471,7 +471,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1083,7 +1083,7 @@ nsTextBoxFrame
 :
 UpdateAttributes
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

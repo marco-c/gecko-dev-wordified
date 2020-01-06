@@ -240,7 +240,7 @@ aTarget
 void
 AddChangedListenerName
 (
-nsIAtom
+nsAtom
 *
 aEventName
 )
@@ -268,7 +268,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mChangedListenerNames
@@ -426,7 +426,7 @@ dom
 EventTarget
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -463,7 +463,7 @@ dom
 EventTarget
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aName
 )

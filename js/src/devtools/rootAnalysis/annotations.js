@@ -1462,7 +1462,7 @@ Release
 true
 "
 uint32
-nsIAtom
+nsAtom
 :
 :
 Release

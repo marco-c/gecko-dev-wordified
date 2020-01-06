@@ -546,7 +546,7 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 Accessible
 virtual
-nsIAtom
+nsAtom
 *
 LandmarkRole
 (

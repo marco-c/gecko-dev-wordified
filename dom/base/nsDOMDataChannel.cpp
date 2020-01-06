@@ -3322,7 +3322,7 @@ nsDOMDataChannel
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -3345,7 +3345,7 @@ nsDOMDataChannel
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

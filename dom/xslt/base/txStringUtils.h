@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -163,7 +163,7 @@ const
 nsAString
 &
 aString
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -181,11 +181,11 @@ aString
 inline
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 TX_ToLowerCaseAtom
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )

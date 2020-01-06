@@ -500,7 +500,7 @@ don
 t
 you
 use
-nsIAtom
+nsAtom
 for
 comparing
 the

@@ -3980,7 +3980,7 @@ false
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4102,7 +4102,7 @@ override
 {
 AutoTArray
 <
-nsIAtom
+nsAtom
 *
 8
 >
@@ -4150,7 +4150,7 @@ AsElement
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 id
 =
@@ -4204,7 +4204,7 @@ HasName
 )
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -18392,7 +18392,7 @@ AddToNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -18504,7 +18504,7 @@ RemoveFromNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -18604,7 +18604,7 @@ AddToIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -18688,7 +18688,7 @@ RemoveFromIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -22574,7 +22574,7 @@ nsDocument
 :
 GetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeaderField
 nsAString
@@ -22637,7 +22637,7 @@ nsDocument
 :
 SetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeaderField
 const
@@ -31106,7 +31106,7 @@ nsDocument
 :
 AddIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -31186,7 +31186,7 @@ nsDocument
 :
 RemoveIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -34092,7 +34092,7 @@ NotPseudo
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudo
 =
@@ -35847,7 +35847,7 @@ true
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 (
@@ -39223,7 +39223,7 @@ GetElementByAttribute
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -39327,7 +39327,7 @@ GetAnonymousElementByAttribute
 nsIContent
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -39535,7 +39535,7 @@ aAttrValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -40251,7 +40251,7 @@ nsIDocument
 :
 GetHtmlChildElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -41523,7 +41523,7 @@ namespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 =
@@ -49537,7 +49537,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 key
 =
@@ -49710,7 +49710,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -75757,7 +75757,7 @@ nsIDocument
 :
 CreateHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )

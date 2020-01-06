@@ -1281,7 +1281,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -2279,7 +2279,7 @@ SVGUseElement
 :
 SyncWidthOrHeight
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -3321,7 +3321,7 @@ SVGUseElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

@@ -1612,7 +1612,7 @@ BasePrincipal
 AddonHasPermission
 (
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )

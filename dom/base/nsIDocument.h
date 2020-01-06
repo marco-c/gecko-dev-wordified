@@ -561,7 +561,7 @@ class
 nsHTMLStyleSheet
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIBFCacheEntry
@@ -3394,7 +3394,7 @@ Element
 *
 AddIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -3434,7 +3434,7 @@ virtual
 void
 RemoveIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -4742,7 +4742,7 @@ virtual
 void
 GetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeaderField
 nsAString
@@ -4757,7 +4757,7 @@ virtual
 void
 SetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aheaderField
 const
@@ -6597,7 +6597,7 @@ Element
 *
 GetHtmlChildElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -8471,7 +8471,7 @@ AddToIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -8485,7 +8485,7 @@ RemoveFromIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -8499,7 +8499,7 @@ AddToNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -8513,7 +8513,7 @@ RemoveFromNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -10648,7 +10648,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -12195,7 +12195,7 @@ GetAnonymousElementByAttribute
 nsIContent
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -16613,7 +16613,7 @@ Element
 >
 CreateHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )

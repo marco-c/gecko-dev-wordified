@@ -888,7 +888,7 @@ kNameSpaceID_None
 )
 )
 {
-nsIAtom
+nsAtom
 *
 attrAtom
 =

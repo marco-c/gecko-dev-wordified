@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -508,7 +508,7 @@ nsHyphenationManager
 :
 GetHyphenator
 (
-nsIAtom
+nsAtom
 *
 aLocale
 )
@@ -564,7 +564,7 @@ uri
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 alias
 =
@@ -769,7 +769,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 fuzzyLocale
 =
@@ -1404,7 +1404,7 @@ i
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localeAtom
 =
@@ -1750,7 +1750,7 @@ get
 endif
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localeAtom
 =
@@ -1935,7 +1935,7 @@ value
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 aliasAtom
 =
@@ -1946,7 +1946,7 @@ alias
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 valueAtom
 =

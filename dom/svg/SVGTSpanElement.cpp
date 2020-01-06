@@ -491,7 +491,7 @@ SVGTSpanElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

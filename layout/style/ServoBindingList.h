@@ -731,7 +731,7 @@ nsCSSCounterStyleRule
 *
 RawServoStyleSetBorrowed
 set
-nsIAtom
+nsAtom
 *
 name
 )
@@ -860,7 +860,7 @@ RawServoStyleSetBorrowed
 set
 RawGeckoElementBorrowed
 element
-nsIAtom
+nsAtom
 *
 local_name
 )
@@ -1282,7 +1282,7 @@ declarations
 SERVO_BINDING_FUNC
 (
 Servo_KeyframesRule_GetName
-nsIAtom
+nsAtom
 *
 RawServoKeyframesRuleBorrowed
 rule
@@ -1294,7 +1294,7 @@ method
 takes
 an
 addrefed
-nsIAtom
+nsAtom
 .
 SERVO_BINDING_FUNC
 (
@@ -1302,7 +1302,7 @@ Servo_KeyframesRule_SetName
 void
 RawServoKeyframesRuleBorrowed
 rule
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1397,7 +1397,7 @@ rule
 SERVO_BINDING_FUNC
 (
 Servo_NamespaceRule_GetPrefix
-nsIAtom
+nsAtom
 *
 RawServoNamespaceRuleBorrowed
 rule
@@ -1405,7 +1405,7 @@ rule
 SERVO_BINDING_FUNC
 (
 Servo_NamespaceRule_GetURI
-nsIAtom
+nsAtom
 *
 RawServoNamespaceRuleBorrowed
 rule
@@ -2052,7 +2052,7 @@ RawServoDeclarationBlockBorrowed
 declarations
 nsCSSPropertyID
 property
-nsIAtom
+nsAtom
 *
 value
 )
@@ -2310,7 +2310,7 @@ Servo_ComputedValues_GetForAnonymousBox
 ServoStyleContextStrong
 ServoStyleContextBorrowedOrNull
 parent_style_or_null
-nsIAtom
+nsAtom
 *
 pseudo_tag
 RawServoStyleSetBorrowed
@@ -2322,7 +2322,7 @@ Servo_ComputedValues_Inherit
 ServoStyleContextStrong
 RawServoStyleSetBorrowed
 set
-nsIAtom
+nsAtom
 *
 pseudo_tag
 ServoStyleContextBorrowedOrNull

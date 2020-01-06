@@ -548,7 +548,7 @@ static
 bool
 HasSystemMetric
 (
-nsIAtom
+nsAtom
 *
 aMetric
 )
@@ -1127,7 +1127,7 @@ Element
 *
 aElement
 const
-nsIAtom
+nsAtom
 *
 aOverrideLang
 bool
@@ -1370,7 +1370,7 @@ CounterStyleRuleForName
 nsPresContext
 *
 aPresContext
-nsIAtom
+nsAtom
 *
 aName
 )

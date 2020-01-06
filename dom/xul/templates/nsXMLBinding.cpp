@@ -160,7 +160,7 @@ nsXMLBindingSet
 :
 AddBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAutoPtr
@@ -295,7 +295,7 @@ nsXMLBindingSet
 :
 LookupTargetIndex
 (
-nsIAtom
+nsAtom
 *
 aTargetVariable
 nsXMLBinding

@@ -743,7 +743,7 @@ Ptr
 :
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 nsStyleContext
@@ -774,7 +774,7 @@ Ptr
 :
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -1657,7 +1657,7 @@ Ptr
 :
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )

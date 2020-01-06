@@ -244,7 +244,7 @@ nsHtml5StackNode_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -554,13 +554,13 @@ int32_t
 flags
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 nsHtml5HtmlAttributes
@@ -890,7 +890,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 )
@@ -978,7 +978,7 @@ setValues
 nsHtml5ElementName
 *
 elementName
-nsIAtom
+nsAtom
 *
 popName
 nsIContentHandle
@@ -1075,7 +1075,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 bool

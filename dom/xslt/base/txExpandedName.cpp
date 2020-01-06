@@ -197,7 +197,7 @@ colon
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =

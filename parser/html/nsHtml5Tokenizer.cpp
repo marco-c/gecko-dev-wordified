@@ -266,7 +266,7 @@ nsHtml5Tokenizer_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1298,7 +1298,7 @@ setStateAndEndTagExpectation
 (
 int32_t
 specialTokenizerState
-nsIAtom
+nsAtom
 *
 endTagExpectation
 )
@@ -1952,7 +1952,7 @@ if
 containsHyphen
 )
 {
-nsIAtom
+nsAtom
 *
 annotationName
 =

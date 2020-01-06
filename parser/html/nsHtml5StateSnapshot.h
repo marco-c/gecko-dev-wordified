@@ -239,7 +239,7 @@ nsHtml5StateSnapshot_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

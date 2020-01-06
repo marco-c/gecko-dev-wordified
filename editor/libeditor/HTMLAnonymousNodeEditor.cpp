@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -971,7 +971,7 @@ HTMLEditor
 :
 CreateAnonymousElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsIContent
@@ -2133,7 +2133,7 @@ focusTagName
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 focusTagAtom
 =

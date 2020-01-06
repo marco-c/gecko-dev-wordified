@@ -523,7 +523,7 @@ nsAttrValue
 *
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -664,7 +664,7 @@ true
 nsresult
 SetAndSwapAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 nsAttrValue
@@ -833,7 +833,7 @@ const
 int32_t
 IndexOfAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -892,7 +892,7 @@ true
 nsresult
 SetAndSwapMappedAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 nsAttrValue

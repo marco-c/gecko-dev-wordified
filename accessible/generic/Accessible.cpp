@@ -462,7 +462,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -6212,7 +6212,7 @@ attribute
 for
 landmark
 .
-nsIAtom
+nsAtom
 *
 landmark
 =
@@ -10077,7 +10077,7 @@ return
 aRole
 ;
 }
-nsIAtom
+nsAtom
 *
 Accessible
 :
@@ -16327,7 +16327,7 @@ Accessible
 aItem
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =
@@ -16807,7 +16807,7 @@ Accessible
 :
 AttrNumericValue
 (
-nsIAtom
+nsAtom
 *
 aAttr
 )

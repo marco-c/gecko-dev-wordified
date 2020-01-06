@@ -17922,7 +17922,7 @@ specified
 /
 explicitly
 .
-nsIAtom
+nsAtom
 *
 hyphenationLanguage
 =
@@ -21466,7 +21466,7 @@ return
 true
 ;
 }
-nsIAtom
+nsAtom
 *
 language
 =
@@ -35490,7 +35490,7 @@ nsIFrame
 aFrame
 )
 {
-nsIAtom
+nsAtom
 *
 langAtom
 =

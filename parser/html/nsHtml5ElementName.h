@@ -239,7 +239,7 @@ nsHtml5ElementName_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -475,11 +475,11 @@ OPTIONAL_END_TAG
 ;
 private
 :
-nsIAtom
+nsAtom
 *
 name
 ;
-nsIAtom
+nsAtom
 *
 camelCaseName
 ;
@@ -507,7 +507,7 @@ int32_t
 flags
 ;
 inline
-nsIAtom
+nsAtom
 *
 getName
 (
@@ -518,7 +518,7 @@ name
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 getCamelCaseName
 (
@@ -768,7 +768,7 @@ ELEMENT_NAMES
 index
 ]
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1001,10 +1001,10 @@ fifth
 }
 nsHtml5ElementName
 (
-nsIAtom
+nsAtom
 *
 name
-nsIAtom
+nsAtom
 *
 camelCaseName
 mozilla
@@ -1042,7 +1042,7 @@ inline
 void
 setNameForNonInterned
 (
-nsIAtom
+nsAtom
 *
 name
 bool

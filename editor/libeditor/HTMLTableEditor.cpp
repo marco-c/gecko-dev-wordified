@@ -210,7 +210,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -11312,7 +11312,7 @@ current
 type
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -11324,7 +11324,7 @@ GetTag
 aSourceCell
 )
 ;
-nsIAtom
+nsAtom
 *
 newCellType
 =

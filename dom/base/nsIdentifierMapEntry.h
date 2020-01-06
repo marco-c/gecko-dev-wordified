@@ -204,7 +204,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -370,7 +370,7 @@ AtomOrString
 MOZ_IMPLICIT
 AtomOrString
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -446,7 +446,7 @@ mString
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAtom
 ;

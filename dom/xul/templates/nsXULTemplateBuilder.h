@@ -1202,7 +1202,7 @@ aRuleElement
 nsIContent
 *
 aActionElement
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsTemplateQuerySet
@@ -1234,7 +1234,7 @@ DetermineRDFQueryRef
 nsIContent
 *
 aQueryElement
-nsIAtom
+nsAtom
 *
 *
 tag
@@ -1272,7 +1272,7 @@ node
 /
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 DetermineMemberVariable
 (
@@ -2241,13 +2241,13 @@ variables
 /
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mRefVariable
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMemberVariable
 ;

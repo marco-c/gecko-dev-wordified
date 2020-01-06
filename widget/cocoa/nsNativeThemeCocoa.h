@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -320,7 +320,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

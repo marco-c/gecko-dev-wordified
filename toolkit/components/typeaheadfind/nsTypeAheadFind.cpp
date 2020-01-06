@@ -5329,7 +5329,7 @@ parent
 chain
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 hrefAtom
 (
@@ -5343,7 +5343,7 @@ href
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 (

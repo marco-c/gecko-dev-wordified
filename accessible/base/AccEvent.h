@@ -2299,7 +2299,7 @@ AccObjectAttrChangedEvent
 Accessible
 *
 aAccessible
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2358,7 +2358,7 @@ eObjectAttrChangedEvent
 /
 /
 AccObjectAttrChangedEvent
-nsIAtom
+nsAtom
 *
 GetAttribute
 (
@@ -2373,7 +2373,7 @@ private
 :
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttribute
 ;

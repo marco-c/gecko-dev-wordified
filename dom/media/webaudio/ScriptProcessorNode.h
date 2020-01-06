@@ -173,7 +173,7 @@ EventListenerAdded
 void
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -188,7 +188,7 @@ EventListenerRemoved
 void
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

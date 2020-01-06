@@ -789,7 +789,7 @@ SVGLineElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

@@ -383,7 +383,7 @@ atom
 *
 return
 an
-nsIAtom
+nsAtom
 that
 '
 s
@@ -407,11 +407,11 @@ static
 inline
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 Reget
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -583,7 +583,7 @@ nsIContent
 *
 CreateHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -618,7 +618,7 @@ nsIContent
 *
 CreateSVGElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -653,7 +653,7 @@ nsIContent
 *
 CreateMathMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -746,7 +746,7 @@ static
 nsresult
 AppendDoctypeToDocument
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1491,7 +1491,7 @@ Init
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -1994,7 +1994,7 @@ inline
 void
 Init
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -2058,10 +2058,10 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aAtom
-nsIAtom
+nsAtom
 *
 aOtherAtom
 )
@@ -2136,7 +2136,7 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -2751,7 +2751,7 @@ nsIContent
 *
 node
 ;
-nsIAtom
+nsAtom
 *
 atom
 ;

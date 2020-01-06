@@ -2031,7 +2031,7 @@ if
 mScrollableFrame
 )
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =

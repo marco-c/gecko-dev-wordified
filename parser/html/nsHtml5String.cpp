@@ -1261,7 +1261,7 @@ FromAtom
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aAtom
 )

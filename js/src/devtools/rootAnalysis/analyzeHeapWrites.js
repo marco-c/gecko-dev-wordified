@@ -459,7 +459,7 @@ threadsafe
 refcounts
 .
 "
-nsIAtom
+nsAtom
 "
 "
 nsIPermissionManager

@@ -7451,7 +7451,7 @@ forget
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 HyperTextAccessible
 :

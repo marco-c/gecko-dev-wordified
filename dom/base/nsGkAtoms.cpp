@@ -190,7 +190,7 @@ GK_ATOM
 name_
 value_
 )
-nsIAtom
+nsAtom
 *
 nsGkAtoms
 :

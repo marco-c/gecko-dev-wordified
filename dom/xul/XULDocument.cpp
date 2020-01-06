@@ -1232,7 +1232,7 @@ mListener
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttribute
 ;
@@ -4196,7 +4196,7 @@ CanBroadcast
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -4311,10 +4311,10 @@ nsAttrNameInfo
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -4366,13 +4366,13 @@ mNamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPrefix
 ;
@@ -4507,7 +4507,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -4596,7 +4596,7 @@ count
 .
 mNamespaceID
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -4724,7 +4724,7 @@ all
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -5148,7 +5148,7 @@ already
 !
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attr
 =
@@ -5413,7 +5413,7 @@ entry
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attr
 =
@@ -5546,7 +5546,7 @@ aBroadcaster
 Element
 *
 aListener
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -5890,7 +5890,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -5992,7 +5992,7 @@ ShouldPersistAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -6146,7 +6146,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -6667,7 +6667,7 @@ NewRunnableMethod
 nsIContent
 *
 int32_t
-nsIAtom
+nsAtom
 *
 >
 (
@@ -7597,7 +7597,7 @@ aValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrAtom
 (
@@ -7724,7 +7724,7 @@ aRv
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrAtom
 (
@@ -7902,7 +7902,7 @@ NS_OK
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -8077,7 +8077,7 @@ nsIContent
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -9741,7 +9741,7 @@ elements
 from
 prototypes
 .
-nsIAtom
+nsAtom
 *
 id
 =
@@ -10536,7 +10536,7 @@ RemoveElementFromRefMap
 aElement
 )
 ;
-nsIAtom
+nsAtom
 *
 id
 =
@@ -11574,7 +11574,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttrName
 void
@@ -12623,7 +12623,7 @@ rv
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attr
 =
@@ -16867,7 +16867,7 @@ if
 mRestrictPersistence
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =
@@ -19118,7 +19118,7 @@ Length
 i
 )
 {
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -22520,7 +22520,7 @@ NS_OK
 int32_t
 nameSpaceID
 ;
-nsIAtom
+nsAtom
 *
 baseTag
 =
@@ -23902,7 +23902,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attr
 =
@@ -23913,7 +23913,7 @@ LocalName
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -24225,7 +24225,7 @@ GetFirstChild
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 idAtom
 =
@@ -24441,7 +24441,7 @@ GetParent
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 parentID
 =
@@ -25243,10 +25243,10 @@ nsIContent
 aNode
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
-nsIAtom
+nsAtom
 *
 aPrefix
 const

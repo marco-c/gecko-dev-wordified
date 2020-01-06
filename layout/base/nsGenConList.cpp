@@ -455,7 +455,7 @@ nsIContent
 aContent
 )
 {
-nsIAtom
+nsAtom
 *
 pseudo
 =

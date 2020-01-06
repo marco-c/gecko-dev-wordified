@@ -1146,7 +1146,7 @@ nsXBLContentSink
 :
 ReportUnexpectedElement
 (
-nsIAtom
+nsAtom
 *
 aElementName
 uint32_t
@@ -1574,7 +1574,7 @@ nameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -2131,7 +2131,7 @@ uint32_t
 aAttsCount
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 uint32_t
@@ -3379,7 +3379,7 @@ char16_t
 *
 *
 aAtts
-nsIAtom
+nsAtom
 *
 aAtom
 const
@@ -3391,7 +3391,7 @@ aResult
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -3577,7 +3577,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -4097,7 +4097,7 @@ char16_t
 *
 *
 aAtts
-nsIAtom
+nsAtom
 *
 aResourceType
 )
@@ -4185,7 +4185,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -4377,7 +4377,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -4583,7 +4583,7 @@ false
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -5262,7 +5262,7 @@ the
 prototype
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName

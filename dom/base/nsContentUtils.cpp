@@ -2001,7 +2001,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 EventNameMapping
 >
@@ -2030,7 +2030,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -5306,7 +5306,7 @@ eBasicEventClass
 }
 }
 static
-nsIAtom
+nsAtom
 *
 GetEventTypeFromMessage
 (
@@ -5528,7 +5528,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 EventNameMapping
 >
@@ -5561,7 +5561,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -7875,7 +7875,7 @@ const
 nsString
 &
 aSource
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -12549,7 +12549,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )
@@ -12617,7 +12617,7 @@ JSContext
 *
 aCx
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )
@@ -18050,7 +18050,7 @@ nsContentUtils
 :
 IsCustomElementName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -18825,7 +18825,7 @@ aQName
 int32_t
 *
 aNamespace
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -19086,7 +19086,7 @@ end
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -19200,11 +19200,11 @@ const
 char16_t
 *
 aExpatName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -21297,7 +21297,7 @@ dom
 NodeInfo
 *
 aNodeInfo
-nsIAtom
+nsAtom
 *
 aName
 mozilla
@@ -21699,7 +21699,7 @@ GetEventArgNames
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aEventName
 bool
@@ -23852,7 +23852,7 @@ nsContentUtils
 :
 IsEventAttributeName
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -23930,7 +23930,7 @@ nsContentUtils
 :
 GetEventMessage
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -24009,7 +24009,7 @@ return
 eBasicEventClass
 ;
 }
-nsIAtom
+nsAtom
 *
 nsContentUtils
 :
@@ -24109,7 +24109,7 @@ Length
 64
 )
 {
-nsIAtom
+nsAtom
 *
 first
 =
@@ -24153,7 +24153,7 @@ eUnidentifiedEvent
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -24297,7 +24297,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 *
 aOnName
@@ -24358,7 +24358,7 @@ eUnidentifiedEvent
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;
@@ -25246,7 +25246,7 @@ nsIContent
 *
 aContent
 const
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -25353,7 +25353,7 @@ up
 front
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 id
 (
@@ -25620,7 +25620,7 @@ nsIContent
 aContent
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -27012,10 +27012,10 @@ nsContentUtils
 :
 IsValidNodeName
 (
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -28121,7 +28121,7 @@ aSourceBuffer
 nsIContent
 *
 aTargetNode
-nsIAtom
+nsAtom
 *
 aContextLocalName
 int32_t
@@ -31751,7 +31751,7 @@ header
 /
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 key_atom
 =
@@ -36838,7 +36838,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -51219,7 +51219,7 @@ eTextFragmentWithEncode
 ;
 union
 {
-nsIAtom
+nsAtom
 *
 mAtom
 ;
@@ -51282,7 +51282,7 @@ StringBuilder
 void
 Append
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -52981,7 +52981,7 @@ StringBuilder
 aBuilder
 )
 {
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -53114,7 +53114,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attName
 =
@@ -53378,7 +53378,7 @@ xlink
 }
 else
 {
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -53696,7 +53696,7 @@ true
 }
 static
 const
-nsIAtom
+nsAtom
 *
 nonEscapingElements
 [
@@ -53794,7 +53794,7 @@ mozilla
 BloomFilter
 <
 12
-nsIAtom
+nsAtom
 >
 sFilter
 ;
@@ -53832,7 +53832,7 @@ nonEscapingElement
 ;
 }
 }
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -56360,10 +56360,10 @@ GetElementDefinitionIfObservingAttr
 Element
 *
 aCustomElement
-nsIAtom
+nsAtom
 *
 aExtensionType
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -56692,7 +56692,7 @@ nsIDocument
 aDoc
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 JS

@@ -207,7 +207,7 @@ PropertyDtor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -367,7 +367,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -490,7 +490,7 @@ return
 effectSet
 ;
 }
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -606,7 +606,7 @@ CSSPseudoElementType
 aPseudoType
 )
 {
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -711,7 +711,7 @@ GetAnimationGeneration
 static
 *
 /
-nsIAtom
+nsAtom
 *
 *
 EffectSet
@@ -722,7 +722,7 @@ GetEffectSetPropertyAtoms
 )
 {
 static
-nsIAtom
+nsAtom
 *
 effectSetPropertyAtoms
 [
@@ -753,7 +753,7 @@ effectSetPropertyAtoms
 static
 *
 /
-nsIAtom
+nsAtom
 *
 EffectSet
 :

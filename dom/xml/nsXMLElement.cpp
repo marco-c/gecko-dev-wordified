@@ -278,7 +278,7 @@ CSSPseudoElementType
 :
 before
 ;
-nsIAtom
+nsAtom
 *
 property
 =

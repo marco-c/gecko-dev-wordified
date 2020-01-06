@@ -1479,7 +1479,7 @@ nodeInfo
 =
 aNodeInfo
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1907,7 +1907,7 @@ SetCustomElementData
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagAtom
 =
@@ -1920,7 +1920,7 @@ NameAtom
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =

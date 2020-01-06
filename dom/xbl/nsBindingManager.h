@@ -213,7 +213,7 @@ class
 nsIXPConnectWrappedJS
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMNodeList
@@ -434,7 +434,7 @@ DestructorHandling
 aDestructorHandling
 )
 ;
-nsIAtom
+nsAtom
 *
 ResolveTag
 (

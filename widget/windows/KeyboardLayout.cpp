@@ -12282,7 +12282,7 @@ const
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 command
 ;

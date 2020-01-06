@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -125,7 +125,7 @@ empty
 string
 as
 an
-nsIAtom
+nsAtom
 *
 *
 *
@@ -145,7 +145,7 @@ passing
 nsStringBuffer
 *
 /
-nsIAtom
+nsAtom
 *
 .
 *
@@ -243,7 +243,7 @@ kPtrMask
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 AsAtom
 (
@@ -263,7 +263,7 @@ eAtom
 return
 reinterpret_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -465,7 +465,7 @@ mBits
 Get
 the
 underlying
-nsIAtom
+nsAtom
 *
 or
 nullptr
@@ -482,7 +482,7 @@ atom
 *
 /
 inline
-nsIAtom
+nsAtom
 *
 MaybeAsAtom
 (
@@ -613,7 +613,7 @@ FromAtom
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aAtom
 )
@@ -667,7 +667,7 @@ pointer
 *
 to
 either
-nsIAtom
+nsAtom
 or
 nsStringBuffer
 .

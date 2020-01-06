@@ -185,7 +185,7 @@ nsHtml5AtomTable
 )
 {
 }
-nsIAtom
+nsAtom
 *
 nsHtml5AtomTable
 :
@@ -228,7 +228,7 @@ aKey
 %
 RECENTLY_USED_PARSER_ATOMS_SIZE
 ;
-nsIAtom
+nsAtom
 *
 cachedAtom
 =
@@ -255,7 +255,7 @@ return
 cachedAtom
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 =

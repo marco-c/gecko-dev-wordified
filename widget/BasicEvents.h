@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -4255,13 +4255,13 @@ instance
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSpecifiedEventType
 ;
 /
 /
-nsIAtom
+nsAtom
 isn
 '
 t

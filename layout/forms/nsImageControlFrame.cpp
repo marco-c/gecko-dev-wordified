@@ -334,7 +334,7 @@ virtual
 nsresult
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1015,7 +1015,7 @@ nsImageControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

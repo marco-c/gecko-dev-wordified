@@ -239,7 +239,7 @@ nsHtml5UTF16Buffer_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

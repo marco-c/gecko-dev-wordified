@@ -198,7 +198,7 @@ class
 nsBindingManager
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDocument
@@ -353,17 +353,17 @@ NodeInfo
 >
 GetNodeInfo
 (
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
 aNamespaceID
 uint16_t
 aNodeType
-nsIAtom
+nsAtom
 *
 aExtraName
 =
@@ -377,7 +377,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -403,7 +403,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -739,7 +739,7 @@ nsIDOMDocumentType
 *
 nsNodeInfoManager
 *
-nsIAtom
+nsAtom
 *
 const
 nsAString

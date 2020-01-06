@@ -2391,7 +2391,7 @@ AddDependentIDsFor
 Accessible
 *
 aRelProvider
-nsIAtom
+nsAtom
 *
 aRelAttr
 =
@@ -2460,7 +2460,7 @@ RemoveDependentIDsFor
 Accessible
 *
 aRelProvider
-nsIAtom
+nsAtom
 *
 aRelAttr
 =
@@ -2531,7 +2531,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2590,7 +2590,7 @@ Accessible
 aAccessible
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2638,7 +2638,7 @@ ARIAAttributeChanged
 Accessible
 *
 aAccessible
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -3349,7 +3349,7 @@ union
 ARIA
 attribute
 value
-nsIAtom
+nsAtom
 *
 mARIAAttrOldValue
 ;
@@ -3422,7 +3422,7 @@ public
 :
 AttrRelProvider
 (
-nsIAtom
+nsAtom
 *
 aRelAttr
 nsIContent
@@ -3440,7 +3440,7 @@ aContent
 )
 {
 }
-nsIAtom
+nsAtom
 *
 mRelAttr
 ;

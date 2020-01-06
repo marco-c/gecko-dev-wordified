@@ -249,7 +249,7 @@ name_
 #
 _pseudo_element_buffer
 (
-nsIAtom
+nsAtom
 *
 *
 )
@@ -362,7 +362,7 @@ nsCSSPseudoElements
 :
 IsPseudoElement
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -393,7 +393,7 @@ nsCSSPseudoElements
 :
 IsCSS2PseudoElement
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -540,7 +540,7 @@ nsCSSPseudoElements
 :
 GetPseudoType
 (
-nsIAtom
+nsAtom
 *
 aAtom
 EnabledState
@@ -711,7 +711,7 @@ NotPseudo
 static
 *
 /
-nsIAtom
+nsAtom
 *
 nsCSSPseudoElements
 :
@@ -759,7 +759,7 @@ static
 /
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsCSSPseudoElements
 :
@@ -892,7 +892,7 @@ false
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudo
 =

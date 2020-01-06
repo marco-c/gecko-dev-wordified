@@ -1338,7 +1338,7 @@ type
 )
 ;
 const
-nsIAtom
+nsAtom
 *
 transformType
 =
@@ -1462,7 +1462,7 @@ nsAString
 &
 aSpec
 const
-nsIAtom
+nsAtom
 *
 aTransformType
 nsSMILValue

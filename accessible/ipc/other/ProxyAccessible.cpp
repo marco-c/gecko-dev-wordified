@@ -774,7 +774,7 @@ return
 retVal
 ;
 }
-nsIAtom
+nsAtom
 *
 ProxyAccessible
 :
@@ -807,7 +807,7 @@ landmark
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 ProxyAccessible
 :

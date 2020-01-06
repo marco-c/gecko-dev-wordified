@@ -178,7 +178,7 @@ ServoStyleContext
 nsPresContext
 *
 aPresContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -279,7 +279,7 @@ ServoStyleContext
 *
 GetCachedInheritingAnonBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aAnonBox
 )
@@ -288,7 +288,7 @@ const
 void
 SetCachedInheritedAnonBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aAnonBox
 ServoStyleContext

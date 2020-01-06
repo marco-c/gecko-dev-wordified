@@ -1112,7 +1112,7 @@ nullptr
 bool
 FilterForFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -1395,7 +1395,7 @@ false
 bool
 SupportsLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 )

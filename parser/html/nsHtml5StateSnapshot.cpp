@@ -236,7 +236,7 @@ nsHtml5StateSnapshot_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

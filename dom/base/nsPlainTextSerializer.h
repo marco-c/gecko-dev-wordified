@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -487,7 +487,7 @@ nsPlainTextSerializer
 nsresult
 GetAttributeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 nsString
@@ -613,7 +613,7 @@ returned
 *
 /
 static
-nsIAtom
+nsAtom
 *
 GetIdForContent
 (
@@ -625,7 +625,7 @@ aContent
 nsresult
 DoOpenContainer
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -633,7 +633,7 @@ aTag
 nsresult
 DoCloseContainer
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -641,7 +641,7 @@ aTag
 nsresult
 DoAddLeaf
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -815,7 +815,7 @@ aStack
 bool
 ShouldReplaceContainerWithPlaceholder
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -823,7 +823,7 @@ aTag
 bool
 IsIgnorableRubyAnnotation
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1400,7 +1400,7 @@ be
 /
 refcounted
 .
-nsIAtom
+nsAtom
 *
 *
 mTagStack

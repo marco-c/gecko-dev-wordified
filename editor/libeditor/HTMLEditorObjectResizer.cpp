@@ -215,7 +215,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1558,7 +1558,7 @@ element
 factory
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 ;
@@ -1712,7 +1712,7 @@ resizerHeight
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 dummyUnit
 ;

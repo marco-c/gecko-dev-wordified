@@ -229,7 +229,7 @@ static
 nsresult
 GetChildWithTag
 (
-nsIAtom
+nsAtom
 *
 atom
 nsIFrame
@@ -245,7 +245,7 @@ static
 nsresult
 GetParentWithTag
 (
-nsIAtom
+nsAtom
 *
 atom
 nsIFrame

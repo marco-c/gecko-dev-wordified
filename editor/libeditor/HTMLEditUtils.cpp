@@ -256,14 +256,14 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
 /
 /
 for
-nsIAtom
+nsAtom
 #
 include
 "
@@ -602,7 +602,7 @@ aNode
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nodeAtom
 =

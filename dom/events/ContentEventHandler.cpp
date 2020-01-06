@@ -22320,7 +22320,7 @@ IsHTMLElement
 )
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =

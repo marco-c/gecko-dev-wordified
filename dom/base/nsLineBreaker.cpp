@@ -1097,7 +1097,7 @@ nsLineBreaker
 :
 AppendText
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 const
@@ -2117,7 +2117,7 @@ nsLineBreaker
 :
 AppendText
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 const
@@ -2952,7 +2952,7 @@ nsLineBreaker
 :
 UpdateCurrentWordLanguage
 (
-nsIAtom
+nsAtom
 *
 aHyphenationLanguage
 )

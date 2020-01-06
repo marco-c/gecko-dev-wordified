@@ -2081,7 +2081,7 @@ GetAnimatedAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2339,7 +2339,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2407,7 +2407,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -3776,7 +3776,7 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4033,10 +4033,10 @@ MaybeCheckSameAttrVal
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -4267,10 +4267,10 @@ OnlyNotifySameValueSet
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -4333,7 +4333,7 @@ previously
 nsresult
 SetSingleClassFromParser
 (
-nsIAtom
+nsAtom
 *
 aSingleClassName
 )
@@ -4344,10 +4344,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -4393,10 +4393,10 @@ SetParsedAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 nsAttrValue
@@ -4437,7 +4437,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -4452,7 +4452,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -4477,7 +4477,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4495,10 +4495,10 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -4512,7 +4512,7 @@ FindAttrValueIn
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 AttrValuesArray
@@ -4530,7 +4530,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -4751,7 +4751,7 @@ Helpers
 struct
 MappedAttributeEntry
 {
-nsIAtom
+nsAtom
 *
 *
 attribute
@@ -4809,7 +4809,7 @@ bool
 FindAttributeDependence
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -4835,7 +4835,7 @@ N
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 *
 *
@@ -4861,7 +4861,7 @@ bool
 FindAttributeDependence
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -4883,7 +4883,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 DOMString
@@ -6950,7 +6950,7 @@ allowed
 nsresult
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -7278,7 +7278,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -7298,7 +7298,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t
@@ -7467,7 +7467,7 @@ GetAttrInfo
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -7772,7 +7772,7 @@ attribute
 bool
 GetBoolAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -7843,7 +7843,7 @@ attribute
 nsresult
 SetBoolAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 bool
@@ -7929,7 +7929,7 @@ out
 void
 GetEnumAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -8069,7 +8069,7 @@ out
 void
 GetEnumAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -8099,7 +8099,7 @@ attribute
 void
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 ErrorResult
@@ -8135,7 +8135,7 @@ possible
 void
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -8203,7 +8203,7 @@ attribute
 void
 SetOrRemoveNullableStringAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -8864,10 +8864,10 @@ SetAttrAndNotify
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -9069,7 +9069,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -9272,7 +9272,7 @@ virtual
 bool
 SetAndSwapMappedAttribute
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAttrValue
@@ -9424,7 +9424,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -9630,7 +9630,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -9798,7 +9798,7 @@ PreIdMaybeChange
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -9963,7 +9963,7 @@ PostIdMaybeChange
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -10132,7 +10132,7 @@ OnAttrSetButNotChanged
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -10177,7 +10177,7 @@ EventListenerManager
 *
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -10313,7 +10313,7 @@ cache
 void
 AddToIdTable
 (
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -10594,7 +10594,7 @@ nsDOMTokenList
 *
 GetTokenList
 (
-nsIAtom
+nsAtom
 *
 aAtom
 const
@@ -10900,7 +10900,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -10959,7 +10959,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -11031,10 +11031,10 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment

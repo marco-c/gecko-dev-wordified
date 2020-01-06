@@ -239,7 +239,7 @@ Accessible
 :
 IsARIARole
 (
-nsIAtom
+nsAtom
 *
 aARIARole
 )

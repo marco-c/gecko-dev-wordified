@@ -65,7 +65,7 @@ nsHtml5TreeOpExecutor_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1399,7 +1399,7 @@ WalkHandlers
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 )
@@ -2386,7 +2386,7 @@ shortcuts
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsXBLWindowKeyHandler
 :
@@ -2777,7 +2777,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventTypeAtom
 =
@@ -3439,7 +3439,7 @@ WalkHandlersInternal
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 nsXBLPrototypeHandler
@@ -3587,7 +3587,7 @@ WalkHandlersAndExecute
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 nsXBLPrototypeHandler
@@ -4589,7 +4589,7 @@ false
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventTypeAtom
 =

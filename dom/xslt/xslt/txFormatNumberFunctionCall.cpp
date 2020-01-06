@@ -2075,7 +2075,7 @@ txFormatNumberFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

@@ -298,7 +298,7 @@ GetTargetAttributeName
 int32_t
 *
 aNamespaceID
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -310,7 +310,7 @@ override
 /
 nsSVGElement
 virtual
-nsIAtom
+nsAtom
 *
 GetPathDataAttrName
 (

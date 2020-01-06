@@ -1312,10 +1312,10 @@ aBuilder
 nsIDOMNode
 *
 aQueryNode
-nsIAtom
+nsAtom
 *
 aRefVariable
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsISupports
@@ -1595,7 +1595,7 @@ StealNSResult
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 varatom
 =
@@ -1834,10 +1834,10 @@ AddBinding
 nsIDOMNode
 *
 aRuleNode
-nsIAtom
+nsAtom
 *
 aVar
-nsIAtom
+nsAtom
 *
 aRef
 const
@@ -2107,7 +2107,7 @@ aLeft
 nsIXULTemplateResult
 *
 aRight
-nsIAtom
+nsAtom
 *
 aVar
 uint32_t

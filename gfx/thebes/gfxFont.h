@@ -198,7 +198,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -490,7 +490,7 @@ int16_t
 aStretch
 gfxFloat
 aSize
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -548,7 +548,7 @@ the
 charset
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 language
 ;
@@ -1320,7 +1320,7 @@ sizeAdjust
 ^
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 :
 :

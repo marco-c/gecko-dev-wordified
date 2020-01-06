@@ -912,7 +912,7 @@ needed
 .
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 elementId
 =
@@ -956,7 +956,7 @@ IsElement
 continue
 ;
 }
-nsIAtom
+nsAtom
 *
 id
 =

@@ -2362,7 +2362,7 @@ type
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 metricAtom
 =

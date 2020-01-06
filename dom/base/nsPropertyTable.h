@@ -162,7 +162,7 @@ hashtable
 keys
 are
 *
-nsIAtom
+nsAtom
 pointers
 and
 the
@@ -196,7 +196,7 @@ nscore
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 typedef
 void
@@ -208,7 +208,7 @@ NSPropertyFunc
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -463,7 +463,7 @@ const
 nsPropertyOwner
 &
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -711,7 +711,7 @@ const
 nsPropertyOwner
 &
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -785,7 +785,7 @@ DeleteProperty
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -838,7 +838,7 @@ const
 nsPropertyOwner
 &
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -1161,7 +1161,7 @@ SupportsDtorFunc
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -1208,7 +1208,7 @@ PropertyList
 *
 GetPropertyListFor
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -1220,7 +1220,7 @@ GetPropertyInternal
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 bool
@@ -1235,7 +1235,7 @@ SetPropertyInternal
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void

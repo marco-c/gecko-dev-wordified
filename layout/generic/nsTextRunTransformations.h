@@ -244,7 +244,7 @@ mFont
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLanguage
 ;
@@ -765,7 +765,7 @@ aConvertedString
 bool
 aAllUppercase
 const
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray

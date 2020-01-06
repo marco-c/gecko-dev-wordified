@@ -239,7 +239,7 @@ nsHtml5Portability_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -364,7 +364,7 @@ nsHtml5Portability
 public
 :
 static
-nsIAtom
+nsAtom
 *
 newLocalNameFromBuffer
 (
@@ -430,7 +430,7 @@ int32_t
 >
 newCharArrayFromLocal
 (
-nsIAtom
+nsAtom
 *
 local
 )
@@ -448,11 +448,11 @@ string
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 newLocalFromLocal
 (
-nsIAtom
+nsAtom
 *
 local
 nsHtml5AtomTable
@@ -464,7 +464,7 @@ static
 bool
 localEqualsBuffer
 (
-nsIAtom
+nsAtom
 *
 local
 char16_t

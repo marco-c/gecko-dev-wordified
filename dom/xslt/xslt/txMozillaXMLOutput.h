@@ -175,7 +175,7 @@ class
 nsIDOMDocument
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMDocumentFragment
@@ -401,7 +401,7 @@ aElement
 void
 processHTTPEquiv
 (
-nsIAtom
+nsAtom
 *
 aHeader
 const
@@ -413,7 +413,7 @@ aValue
 nsresult
 createHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsIContent
@@ -425,10 +425,10 @@ aResult
 nsresult
 attributeInternal
 (
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -442,10 +442,10 @@ aValue
 nsresult
 startElementInternal
 (
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t

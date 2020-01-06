@@ -1223,7 +1223,7 @@ onEventType
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventTypeAtom
 =
@@ -3745,7 +3745,7 @@ aRv
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atomEvt
 =
