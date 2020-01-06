@@ -8830,6 +8830,10 @@ return
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 PushImage
 (
 aItem

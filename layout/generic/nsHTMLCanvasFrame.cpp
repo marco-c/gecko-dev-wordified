@@ -939,6 +939,10 @@ canvasData
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateOrRecycleWebRenderUserData
 <
 WebRenderCanvasData
