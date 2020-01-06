@@ -3474,8 +3474,8 @@ XP_UNIX
 base
 :
 :
-file_handle_mapping_vector
-fdMap
+LaunchOptions
+options
 ;
 std
 :
@@ -3529,8 +3529,7 @@ base
 LaunchApp
 (
 argvVec
-fdMap
-false
+options
 &
 newPid
 )

@@ -1513,10 +1513,10 @@ std
 wstring
 &
 cmdline
-bool
-wait
-bool
-start_hidden
+const
+LaunchOptions
+&
+options
 ProcessHandle
 *
 process_handle
@@ -1677,6 +1677,8 @@ startup_info
 .
 wShowWindow
 =
+options
+.
 start_hidden
 ?
 SW_HIDE
@@ -2005,6 +2007,8 @@ hThread
 ;
 if
 (
+options
+.
 wait
 )
 WaitForSingleObject
@@ -2065,10 +2069,10 @@ const
 CommandLine
 &
 cl
-bool
-wait
-bool
-start_hidden
+const
+LaunchOptions
+&
+options
 ProcessHandle
 *
 process_handle
@@ -2082,8 +2086,7 @@ cl
 command_line_string
 (
 )
-wait
-start_hidden
+options
 process_handle
 )
 ;
