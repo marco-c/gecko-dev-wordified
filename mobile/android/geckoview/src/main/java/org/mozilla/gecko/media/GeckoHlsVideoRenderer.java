@@ -93,13 +93,6 @@ CryptoInfo
 import
 android
 .
-os
-.
-Handler
-;
-import
-android
-.
 util
 .
 Log
@@ -366,7 +359,7 @@ yet
 private
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 mDemuxedNoDurationSamples
 =
@@ -1464,10 +1457,10 @@ mInputStreamEnded
 =
 true
 ;
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
-GeckoHlsSample
+GeckoHLSSample
 .
 EOS
 ;
@@ -1747,10 +1740,10 @@ latest
 )
 format
 .
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
-GeckoHlsSample
+GeckoHLSSample
 .
 create
 (
@@ -2221,7 +2214,7 @@ private
 void
 calculateSamplesWithin
 (
-GeckoHlsSample
+GeckoHLSSample
 [
 ]
 samples
@@ -2365,7 +2358,7 @@ private
 void
 calculatDuration
 (
-GeckoHlsSample
+GeckoHLSSample
 inputSample
 )
 {
@@ -2661,7 +2654,7 @@ sizeOfNoDura
 :
 sizeOfNoDura
 ;
-GeckoHlsSample
+GeckoHLSSample
 [
 ]
 inputArray
@@ -2671,7 +2664,7 @@ mDemuxedNoDurationSamples
 toArray
 (
 new
-GeckoHlsSample
+GeckoHLSSample
 [
 sizeOfNoDura
 ]
@@ -2695,7 +2688,7 @@ inputArray
 range
 )
 ;
-GeckoHlsSample
+GeckoHLSSample
 toQueue
 =
 mDemuxedNoDurationSamples
@@ -2840,7 +2833,7 @@ prevDuration
 =
 33333
 ;
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
 null
@@ -3046,7 +3039,7 @@ MAX_VALUE
 ;
 for
 (
-GeckoHlsSample
+GeckoHLSSample
 sample
 :
 mDemuxedInputSamples

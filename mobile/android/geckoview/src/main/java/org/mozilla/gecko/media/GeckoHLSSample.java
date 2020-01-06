@@ -118,12 +118,12 @@ ByteBuffer
 public
 final
 class
-GeckoHlsSample
+GeckoHLSSample
 {
 public
 static
 final
-GeckoHlsSample
+GeckoHLSSample
 EOS
 ;
 static
@@ -153,7 +153,7 @@ BUFFER_FLAG_END_OF_STREAM
 EOS
 =
 new
-GeckoHlsSample
+GeckoHLSSample
 (
 null
 eosInfo
@@ -292,7 +292,7 @@ BUFFER_FLAG_KEY_FRAME
 }
 public
 static
-GeckoHlsSample
+GeckoHLSSample
 create
 (
 ByteBuffer
@@ -307,7 +307,7 @@ formatIndex
 {
 return
 new
-GeckoHlsSample
+GeckoHLSSample
 (
 src
 info
@@ -317,7 +317,7 @@ formatIndex
 ;
 }
 private
-GeckoHlsSample
+GeckoHLSSample
 (
 ByteBuffer
 buffer
@@ -377,7 +377,7 @@ isEOS
 return
 "
 EOS
-GeckoHlsSample
+GeckoHLSSample
 "
 ;
 }

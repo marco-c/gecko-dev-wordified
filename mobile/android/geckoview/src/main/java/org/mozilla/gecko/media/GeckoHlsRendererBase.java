@@ -267,7 +267,7 @@ mPlayerEventDispatcher
 protected
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 mDemuxedInputSamples
 =
@@ -465,7 +465,7 @@ false
 }
 Iterator
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 iter
 =
@@ -489,7 +489,7 @@ hasNext
 )
 )
 {
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
 iter
@@ -521,7 +521,7 @@ hasNext
 )
 )
 {
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
 iter
@@ -634,7 +634,7 @@ public
 synchronized
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 getQueuedSamples
 (
@@ -644,14 +644,14 @@ number
 {
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 samples
 =
 new
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 (
 )
@@ -692,7 +692,7 @@ number
 break
 ;
 }
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
 mDemuxedInputSamples
@@ -1134,7 +1134,7 @@ then
 be
 converted
 to
-GeckoHlsSample
+GeckoHLSSample
 and
 deliver
 to
@@ -1154,7 +1154,7 @@ ture
 that
 means
 a
-GeckoHlsSample
+GeckoHLSSample
 is
 queued
 *
