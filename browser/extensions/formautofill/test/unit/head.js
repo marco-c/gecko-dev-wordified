@@ -28,7 +28,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -307,7 +307,7 @@ jsm
 "
 )
 ;
-const
+var
 {
 Loader
 }
@@ -337,7 +337,7 @@ js
 }
 )
 ;
-const
+var
 loader
 =
 new
@@ -374,7 +374,7 @@ clearInterval
 }
 )
 ;
-const
+var
 require
 =
 Loader
@@ -390,7 +390,7 @@ id
 }
 )
 ;
-const
+var
 sinon
 =
 require
