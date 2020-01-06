@@ -288,7 +288,10 @@ principal
 *
 /
 static
-nsresult
+already_AddRefed
+<
+nsIDocument
+>
 CreateBlankDocument
 (
 nsILoadGroup
@@ -297,10 +300,6 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
-*
-*
-aDocument
 )
 ;
 private

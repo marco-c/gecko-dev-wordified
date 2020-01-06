@@ -46467,6 +46467,8 @@ blank
 document
 to
 load
+blankDoc
+=
 nsContentDLF
 :
 :
@@ -46474,10 +46476,6 @@ CreateBlankDocument
 (
 mLoadGroup
 principal
-getter_AddRefs
-(
-blankDoc
-)
 )
 ;
 if
