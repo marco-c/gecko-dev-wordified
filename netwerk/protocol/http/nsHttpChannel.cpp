@@ -42266,6 +42266,14 @@ nsIClassOfService
 :
 :
 UrgentStart
+&
+&
+gHttpHandler
+-
+>
+IsUrgentStartEnabled
+(
+)
 )
 {
 mCaps
