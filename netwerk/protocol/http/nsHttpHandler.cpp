@@ -1146,7 +1146,6 @@ UA_PREF
 device_string
 "
 )
-&
 deviceString
 )
 ;
@@ -6623,7 +6622,7 @@ simulator
 via
 preference
 .
-nsCString
+nsAutoCString
 deviceType
 ;
 nsresult
@@ -6641,7 +6640,6 @@ useragent
 .
 device_type
 "
-&
 deviceType
 )
 ;

@@ -10684,7 +10684,7 @@ nsCString
 >
 backendList
 ;
-nsCString
+nsAutoCString
 prefString
 ;
 if
@@ -10697,7 +10697,6 @@ Preferences
 GetCString
 (
 aBackendPrefName
-&
 prefString
 )
 )

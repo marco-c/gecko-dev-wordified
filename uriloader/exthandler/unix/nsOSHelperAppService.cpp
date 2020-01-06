@@ -1123,7 +1123,6 @@ Preferences
 GetString
 (
 aPrefName
-&
 aFileLocation
 )
 )
@@ -1280,7 +1279,6 @@ Preferences
 GetString
 (
 aPrefName
-&
 aFileLocation
 )
 ;

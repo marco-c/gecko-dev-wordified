@@ -1578,7 +1578,6 @@ watch_fifo
 .
 directory
 "
-&
 dirPath
 )
 ;

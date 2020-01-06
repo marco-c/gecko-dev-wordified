@@ -4289,7 +4289,6 @@ auth
 .
 workstation
 "
-&
 hostBuf
 )
 ;
