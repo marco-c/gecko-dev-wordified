@@ -1260,7 +1260,7 @@ digest
 {
 name
 :
-downCase
+mixedCase
 }
 sourceData
 [
@@ -1342,6 +1342,7 @@ err
 message
 )
 ;
+mixedCase
 }
 )
 ;
