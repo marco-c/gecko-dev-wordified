@@ -117,6 +117,11 @@ common
 h
 "
 #
+include
+<
+atomic
+>
+#
 define
 SAMPLE_FREQUENCY
 48000
@@ -138,7 +143,13 @@ waveform
 struct
 cb_user_data
 {
+std
+:
+:
+atomic
+<
 long
+>
 position
 ;
 }
@@ -719,6 +730,10 @@ user_data
 -
 >
 position
+.
+load
+(
+)
 )
 ;
 }

@@ -2687,7 +2687,7 @@ The
 pointer
 passed
 to
-cubeb_stream_init
+cubeb_register_device_collection_changed
 .
 *
 /
