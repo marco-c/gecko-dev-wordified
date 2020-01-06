@@ -531,6 +531,7 @@ unwrap
 derive
 (
 Clone
+Debug
 Serialize
 Deserialize
 )

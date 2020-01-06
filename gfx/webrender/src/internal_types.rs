@@ -1046,6 +1046,13 @@ of
 texture
 layers
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 TextureUpdateOp
@@ -1159,6 +1166,13 @@ RenderTargetMode
 }
 Free
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 TextureUpdate
