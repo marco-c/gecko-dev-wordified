@@ -267,7 +267,7 @@ int
 \
 macro
 (
-CodeLocation
+Label
 const
 char
 *
@@ -275,7 +275,7 @@ char
 \
 macro
 (
-EmbeddedString
+DynamicStringFragment
 char
 *
 )
