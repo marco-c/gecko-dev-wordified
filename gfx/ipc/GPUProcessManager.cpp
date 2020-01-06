@@ -4308,7 +4308,7 @@ base
 :
 :
 ProcessId
-gpuPid
+parentPid
 =
 EnsureGPUReady
 (
@@ -4336,7 +4336,7 @@ PCompositorManager
 :
 CreateEndpoints
 (
-gpuPid
+parentPid
 aOtherProcess
 &
 parentPipe
@@ -4380,9 +4380,7 @@ false
 }
 if
 (
-EnsureGPUReady
-(
-)
+mGPUChild
 )
 {
 mGPUChild
@@ -4453,9 +4451,11 @@ base
 :
 :
 ProcessId
-gpuPid
+parentPid
 =
-mGPUChild
+EnsureGPUReady
+(
+)
 ?
 mGPUChild
 -
@@ -4497,7 +4497,7 @@ PImageBridge
 :
 CreateEndpoints
 (
-gpuPid
+parentPid
 aOtherProcess
 &
 parentPipe
@@ -4541,9 +4541,7 @@ false
 }
 if
 (
-EnsureGPUReady
-(
-)
+mGPUChild
 )
 {
 mGPUChild
@@ -4655,9 +4653,11 @@ base
 :
 :
 ProcessId
-gpuPid
+parentPid
 =
-mGPUChild
+EnsureGPUReady
+(
+)
 ?
 mGPUChild
 -
@@ -4699,7 +4699,7 @@ PVRManager
 :
 CreateEndpoints
 (
-gpuPid
+parentPid
 aOtherProcess
 &
 parentPipe
@@ -4743,9 +4743,7 @@ false
 }
 if
 (
-EnsureGPUReady
-(
-)
+mGPUChild
 )
 {
 mGPUChild
