@@ -26019,6 +26019,9 @@ object
 "
 this
 "
+hasCEReactions
+=
+False
 )
 :
         
@@ -26295,6 +26298,29 @@ post
 ]
 )
         
+if
+hasCEReactions
+:
+            
+self
+.
+cgRoot
+.
+append
+(
+CGGeneric
+(
+"
+push_new_element_queue
+(
+)
+;
+\
+n
+"
+)
+)
+        
 self
 .
 cgRoot
@@ -26333,6 +26359,29 @@ CGGeneric
 )
         
 ]
+)
+)
+        
+if
+hasCEReactions
+:
+            
+self
+.
+cgRoot
+.
+append
+(
+CGGeneric
+(
+"
+pop_current_element_queue
+(
+)
+;
+\
+n
+"
 )
 )
         
@@ -26933,6 +26982,17 @@ name
 else
 :
             
+hasCEReactions
+=
+idlNode
+.
+getExtendedAttribute
+(
+"
+CEReactions
+"
+)
+            
 cgThings
 .
 append
@@ -26959,6 +27019,9 @@ descriptor
 nativeMethodName
                 
 static
+hasCEReactions
+=
+hasCEReactions
 )
 )
         
@@ -46686,6 +46749,32 @@ interface
 :
 :
 is_exposed_in
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+interface
+:
+:
+pop_current_element_queue
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+interface
+:
+:
+push_new_element_queue
 '
         
 '
