@@ -207,7 +207,7 @@ WebRenderLayer
 (
 this
 )
-LayerManager
+PaintedLayerCreationHint
 :
 :
 NONE
