@@ -44384,7 +44384,7 @@ ServoStyleContext
 >
 (
 )
-272usize
+280usize
 concat
 !
 (
@@ -44565,7 +44565,7 @@ _
 as
 usize
 }
-256usize
+264usize
 concat
 !
 (
@@ -44617,7 +44617,7 @@ _
 as
 usize
 }
-264usize
+272usize
 concat
 !
 (
@@ -130450,7 +130450,7 @@ ServoComputedData
 >
 (
 )
-224usize
+232usize
 concat
 !
 (
