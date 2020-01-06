@@ -425,6 +425,7 @@ guard
 )
 ;
 explicit
+MOZ_ALWAYS_INLINE
 ReceiverGuard
 (
 JSObject
@@ -432,6 +433,7 @@ JSObject
 obj
 )
 ;
+MOZ_ALWAYS_INLINE
 ReceiverGuard
 (
 ObjectGroup

@@ -173,6 +173,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ReceiverGuard
+-
+inl
+.
+h
+"
 using
 namespace
 js
