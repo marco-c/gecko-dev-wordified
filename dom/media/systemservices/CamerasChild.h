@@ -1841,6 +1841,10 @@ contents
 bool
 mReplySuccess
 ;
+const
+int
+mZero
+;
 int
 mReplyInteger
 ;
