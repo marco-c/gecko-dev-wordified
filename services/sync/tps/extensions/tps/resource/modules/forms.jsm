@@ -267,6 +267,7 @@ resolve
 ;
 }
 }
+;
 FormHistory
 .
 update
@@ -367,6 +368,7 @@ lastUsed
 :
 us
 }
+;
 return
 this
 .
@@ -636,6 +638,7 @@ result
 ;
 }
 }
+;
 FormHistory
 .
 search

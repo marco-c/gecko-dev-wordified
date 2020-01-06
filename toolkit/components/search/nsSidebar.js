@@ -451,6 +451,7 @@ nsIDOMGlobalPropertyInitializer
 ]
 )
 }
+;
 this
 .
 NSGetFactory

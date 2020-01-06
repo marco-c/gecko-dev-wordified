@@ -31,6 +31,7 @@ zero
 use
 strict
 "
+;
 var
 {
 classes

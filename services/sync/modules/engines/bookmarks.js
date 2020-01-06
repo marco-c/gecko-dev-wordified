@@ -799,6 +799,7 @@ item
 "
 ;
 }
+;
 PlacesItem
 .
 prototype
@@ -1139,6 +1140,7 @@ bookmark
 )
 ;
 }
+;
 Bookmark
 .
 prototype
@@ -1352,6 +1354,7 @@ query
 )
 ;
 }
+;
 BookmarkQuery
 .
 prototype
@@ -1491,6 +1494,7 @@ folder
 )
 ;
 }
+;
 BookmarkFolder
 .
 prototype
@@ -1637,6 +1641,7 @@ livemark
 )
 ;
 }
+;
 Livemark
 .
 prototype
@@ -1784,6 +1789,7 @@ separator
 )
 ;
 }
+;
 BookmarkSeparator
 .
 prototype
@@ -1866,6 +1872,7 @@ service
 )
 ;
 }
+;
 BookmarksEngine
 .
 prototype

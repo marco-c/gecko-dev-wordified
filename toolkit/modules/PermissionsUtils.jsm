@@ -121,6 +121,7 @@ BrowserUtils
 jsm
 "
 )
+;
 var
 gImportedPrefBranches
 =

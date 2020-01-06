@@ -2683,6 +2683,7 @@ sync
 error
 "
 )
+;
 do_check_eq
 (
 Status
@@ -2865,6 +2866,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -3060,6 +3062,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -3271,6 +3274,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -3472,6 +3476,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -3673,6 +3678,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -3896,6 +3902,7 @@ sync
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -4066,6 +4073,7 @@ sync
 error
 "
 )
+;
 do_check_eq
 (
 Status
@@ -4261,6 +4269,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -4469,6 +4478,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -4693,6 +4703,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -4907,6 +4918,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status
@@ -5121,6 +5133,7 @@ login
 error
 "
 )
+;
 do_check_true
 (
 Status

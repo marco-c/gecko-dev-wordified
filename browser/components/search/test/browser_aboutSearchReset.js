@@ -623,6 +623,7 @@ about
 preferences
 "
 )
+;
 gBrowser
 .
 contentDocument

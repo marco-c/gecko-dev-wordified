@@ -1731,6 +1731,7 @@ dateAdded
 "
 )
 )
+;
 do_check_true
 (
 changes
@@ -10458,6 +10459,7 @@ await
 _testDoUndoRedoUndo
 (
 )
+;
 livemark_info
 .
 siteUrl
@@ -11209,6 +11211,7 @@ PT
 redo
 (
 )
+;
 await
 ensureChildCount
 (
@@ -11295,6 +11298,7 @@ value
 :
 1
 }
+;
 }
 ;
 folderInfo

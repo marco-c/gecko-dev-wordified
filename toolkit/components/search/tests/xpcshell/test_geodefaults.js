@@ -1428,6 +1428,7 @@ search
 .
 isInitialized
 )
+;
 do_check_eq
 (
 Services
@@ -1451,6 +1452,7 @@ search
 .
 isInitialized
 )
+;
 await
 reInitPromise
 ;

@@ -341,6 +341,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 /
 /
 Don
@@ -515,6 +516,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 MockRegistrar
 .
 register

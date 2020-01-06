@@ -271,6 +271,7 @@ PlacesBackups
 getBookmarksTree
 (
 )
+;
 Logger
 .
 logInfo
@@ -798,6 +799,7 @@ i
 ]
 ]
 )
+;
 }
 }
 return
@@ -3267,6 +3269,7 @@ guid
 url
 }
 )
+;
 }
 }
 /

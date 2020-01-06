@@ -61,6 +61,7 @@ test
 browser
 /
 "
+;
 add_task
 (
 async

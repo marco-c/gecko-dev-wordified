@@ -1696,6 +1696,7 @@ aArgs
 )
 ;
 }
+;
 }
 /
 *
@@ -3073,6 +3074,7 @@ name
 ;
 }
 }
+;
 /
 *
 *
@@ -3307,6 +3309,7 @@ url
 ;
 }
 }
+;
 /
 *
 *
@@ -17041,6 +17044,7 @@ enumerable
 :
 true
 }
+;
 }
 preventExtensions
 (
@@ -18568,6 +18572,7 @@ cancelled
 ;
 }
 }
+;
 }
 )
 ;
@@ -19192,6 +19197,7 @@ install
 notify
 "
 )
+;
 }
 else
 {

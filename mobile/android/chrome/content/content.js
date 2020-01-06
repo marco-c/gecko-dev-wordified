@@ -503,6 +503,7 @@ advisoryLinkText
 ;
 }
 }
+;
 AboutBlockedSiteListener
 .
 init

@@ -236,6 +236,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 /
 /
 Get
@@ -568,6 +569,7 @@ i
 ]
 )
 )
+;
 if
 (
 current_test

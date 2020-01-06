@@ -316,6 +316,7 @@ false
 )
 ;
 }
+;
 request
 .
 onupgradeneeded
@@ -362,6 +363,7 @@ limit
 )
 ;
 }
+;
 event
 .
 target
@@ -379,7 +381,9 @@ gotUpgradeComplete
 true
 ;
 }
+;
 }
+;
 request
 .
 onsuccess
@@ -427,6 +431,7 @@ true
 )
 ;
 }
+;
 let
 shouldContinue
 =
@@ -614,6 +619,7 @@ false
 )
 ;
 }
+;
 request
 .
 onupgradeneeded
@@ -660,6 +666,7 @@ limit
 )
 ;
 }
+;
 event
 .
 target
@@ -677,7 +684,9 @@ gotUpgradeComplete
 true
 ;
 }
+;
 }
+;
 request
 .
 onsuccess
@@ -725,6 +734,7 @@ true
 )
 ;
 }
+;
 let
 shouldContinue
 =
@@ -1502,6 +1512,7 @@ newDatabaseCount
 ;
 }
 }
+;
 request
 .
 onsuccess

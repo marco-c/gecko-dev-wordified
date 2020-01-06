@@ -388,6 +388,7 @@ this
 _itemMovedId
 =
 id
+;
 this
 .
 _itemMovedOldParent

@@ -550,6 +550,7 @@ continueToNextStep
 ;
 }
 }
+;
 cursor
 =
 event

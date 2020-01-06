@@ -832,6 +832,7 @@ do_check_eq
 hmacErrorCount
 0
 )
+;
 }
 finally
 {
@@ -1391,6 +1392,7 @@ function
 )
 {
 }
+;
 let
 obs
 =
@@ -1878,6 +1880,7 @@ do_check_eq
 hmacErrorCount
 0
 )
+;
 Svc
 .
 Obs

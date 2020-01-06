@@ -105,6 +105,7 @@ passes
 )
 ;
 }
+;
 var
 setupTest
 =
@@ -125,6 +126,7 @@ passes
 )
 ;
 }
+;
 var
 testTestStep
 =
@@ -176,6 +178,7 @@ ACTION_SYNC_WIPE_CLIENT
 )
 ;
 }
+;
 var
 teardownTest
 =
@@ -195,6 +198,7 @@ passes
 )
 ;
 }
+;
 var
 teardownModule
 =
@@ -214,3 +218,4 @@ passes
 )
 ;
 }
+;

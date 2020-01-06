@@ -983,6 +983,7 @@ Async
 checkAppReady
 (
 )
+;
 }
 catch
 (
@@ -1775,6 +1776,7 @@ promiseYield
 ;
 }
 }
+;
 }
 }
 ;

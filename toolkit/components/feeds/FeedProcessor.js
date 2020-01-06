@@ -475,6 +475,7 @@ service
 ;
 1
 "
+;
 const
 BAG_CONTRACTID
 =
@@ -491,6 +492,7 @@ bag
 ;
 1
 "
+;
 const
 ARRAY_CONTRACTID
 =
@@ -965,6 +967,7 @@ getPropertyAsAString
 rel
 "
 )
+;
 if
 (
 (
@@ -1240,6 +1243,7 @@ return
 null
 ;
 }
+;
 }
 const
 RDF_NS
@@ -1599,6 +1603,7 @@ mrss
 media
 "
 }
+;
 /
 /
 We
@@ -1682,6 +1687,7 @@ xhtml
 xhtml
 "
 }
+;
 function
 FeedResult
 (
@@ -1746,6 +1752,7 @@ nsIFeedResult
 ]
 )
 }
+;
 function
 Feed
 (
@@ -3030,6 +3037,7 @@ nsIFeedContainer
 ]
 )
 }
+;
 function
 Entry
 (
@@ -4607,6 +4615,7 @@ nsIFeedContainer
 ]
 )
 }
+;
 Entry
 .
 prototype
@@ -4838,6 +4847,7 @@ xhtml
 isXML
 =
 true
+;
 else
 if
 (
@@ -4906,6 +4916,7 @@ nsIFeedTextConstruct
 ]
 )
 }
+;
 /
 /
 Generator
@@ -5113,6 +5124,7 @@ nsIFeedElementBase
 ]
 )
 }
+;
 function
 Person
 (
@@ -5180,6 +5192,7 @@ nsIFeedElementBase
 ]
 )
 }
+;
 /
 *
 *
@@ -6965,6 +6978,7 @@ XH_processingInstruction
 {
 }
 }
+;
 /
 *
 *
@@ -8981,6 +8995,7 @@ true
 )
 }
 }
+;
 }
 /
 /
@@ -12264,6 +12279,7 @@ rss093
 rss094
 "
 }
+;
 if
 (
 versions
@@ -13407,6 +13423,7 @@ nsIRequestObserver
 ]
 )
 }
+;
 var
 components
 =

@@ -642,6 +642,7 @@ _identityPopup
 hidePopup
 (
 )
+;
 /
 /
 Check

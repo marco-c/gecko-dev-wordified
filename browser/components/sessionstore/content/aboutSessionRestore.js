@@ -220,6 +220,7 @@ expanded
 )
 ;
 }
+;
 toggleTabs
 .
 onclick

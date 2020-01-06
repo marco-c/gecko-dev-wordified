@@ -1123,6 +1123,7 @@ location
 reload
 (
 )
+;
 }
 onWindowKeyPress
 (
@@ -1148,3 +1149,4 @@ close
 ;
 }
 }
+;

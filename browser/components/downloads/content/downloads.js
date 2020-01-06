@@ -6864,6 +6864,7 @@ stopPropagation
 ;
 }
 }
+;
 XPCOMUtils
 .
 defineConstant

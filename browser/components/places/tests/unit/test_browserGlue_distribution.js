@@ -412,6 +412,7 @@ Ci
 .
 nsIObserver
 )
+;
 /
 /
 Initialize

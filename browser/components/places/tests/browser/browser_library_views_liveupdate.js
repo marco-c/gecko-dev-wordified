@@ -1269,6 +1269,7 @@ cellText
 aNewValue
 ;
 }
+;
 let
 [
 node
@@ -1653,6 +1654,7 @@ null
 null
 false
 ]
+;
 }
 /
 /

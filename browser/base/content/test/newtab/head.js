@@ -2287,6 +2287,7 @@ contentDocument
 .
 hidden
 )
+;
 await
 new
 Promise
@@ -3503,6 +3504,7 @@ resolve
 ;
 }
 }
+;
 content
 .
 setTimeout

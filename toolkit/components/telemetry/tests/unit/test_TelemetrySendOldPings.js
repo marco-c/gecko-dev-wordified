@@ -60,6 +60,7 @@ init
 use
 strict
 "
+;
 Cu
 .
 import

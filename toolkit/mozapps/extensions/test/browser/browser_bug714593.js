@@ -512,6 +512,7 @@ aCallback
 finishImmediately
 =
 false
+;
 if
 (
 !

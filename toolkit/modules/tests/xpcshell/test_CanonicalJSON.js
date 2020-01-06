@@ -577,6 +577,7 @@ id
 "
 }
 ]
+;
 const
 expected
 =
@@ -707,6 +708,7 @@ id
 "
 }
 ]
+;
 const
 serialized
 =
@@ -1122,6 +1124,7 @@ id
 "
 }
 ]
+;
 const
 expected
 =

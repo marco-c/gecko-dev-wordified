@@ -88,6 +88,7 @@ PageMenu
 )
 {
 }
+;
 PageMenu
 .
 prototype
@@ -1402,6 +1403,7 @@ child
 }
 }
 }
+;
 /
 /
 This
@@ -1426,6 +1428,7 @@ PageMenuParent
 )
 {
 }
+;
 PageMenuParent
 .
 prototype
@@ -1621,6 +1624,7 @@ aPopup
 ;
 }
 }
+;
 /
 /
 This
@@ -1645,6 +1649,7 @@ PageMenuChild
 )
 {
 }
+;
 PageMenuChild
 .
 prototype
@@ -1892,3 +1897,4 @@ null
 }
 }
 }
+;

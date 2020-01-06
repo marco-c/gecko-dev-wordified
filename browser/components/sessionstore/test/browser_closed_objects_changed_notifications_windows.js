@@ -592,6 +592,7 @@ onIdleDaily
 .
 "
 )
+;
 let
 state
 =
@@ -749,6 +750,7 @@ state
 .
 "
 )
+;
 win
 =
 await

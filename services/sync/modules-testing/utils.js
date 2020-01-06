@@ -531,6 +531,7 @@ resolve
 ;
 }
 }
+;
 /
 *
 *
@@ -643,6 +644,7 @@ timer
 )
 ;
 }
+;
 this
 .
 promiseZeroTimer
@@ -668,6 +670,7 @@ resolve
 )
 ;
 }
+;
 this
 .
 promiseNamedTimer
@@ -701,6 +704,7 @@ name
 )
 ;
 }
+;
 /
 /
 Return
@@ -951,6 +955,7 @@ return
 result
 ;
 }
+;
 this
 .
 makeFxAccountsInternalMock
@@ -1322,6 +1327,7 @@ user
 email
 ;
 }
+;
 this
 .
 configureIdentity
@@ -1556,6 +1562,7 @@ endpoint
 ;
 }
 }
+;
 this
 .
 SyncTestingInfrastructure
@@ -1638,7 +1645,9 @@ FakeCryptoService
 (
 )
 }
+;
 }
+;
 /
 *
 *
@@ -1727,6 +1736,7 @@ makeHMACKey
 }
 ;
 }
+;
 this
 .
 sumHistogram
@@ -1805,6 +1815,7 @@ return
 sum
 ;
 }
+;
 this
 .
 getLoginTelemetryScalar
@@ -1857,3 +1868,4 @@ sync_login_state_transitions
 }
 ;
 }
+;

@@ -106,6 +106,7 @@ test_remoteTroubleshoot
 .
 html
 "
+;
 const
 TEST_URI_GOOD
 =

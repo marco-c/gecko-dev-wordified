@@ -594,6 +594,7 @@ clickcount
 :
 0
 }
+;
 row
 .
 addEventListener

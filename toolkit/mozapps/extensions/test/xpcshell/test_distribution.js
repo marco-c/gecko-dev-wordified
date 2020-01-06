@@ -384,6 +384,7 @@ detected
 shutdownManager
 (
 )
+;
 let
 extension
 =

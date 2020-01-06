@@ -229,6 +229,7 @@ single
 button
 "
 )
+;
 let
 menuButton
 =

@@ -422,6 +422,7 @@ a
 "
 ]
 }
+;
 doTest
 (
 [
@@ -612,6 +613,7 @@ t
 exist
 anymore
 }
+;
 doTest
 (
 [
@@ -839,6 +841,7 @@ t
 exist
 anymore
 }
+;
 doTest
 (
 [
@@ -1118,6 +1121,7 @@ t
 exist
 anymore
 }
+;
 doTest
 (
 [
@@ -1346,6 +1350,7 @@ sub
 was
 expired
 }
+;
 doTest
 (
 [
@@ -1523,6 +1528,7 @@ a
 "
 ]
 }
+;
 doTest
 (
 [

@@ -983,6 +983,7 @@ GetStringFromName
 TriggerUpdate
 "
 )
+;
 btn
 .
 appendChild
@@ -1511,6 +1512,7 @@ this
 register
 (
 )
+;
 this
 .
 render
@@ -1922,6 +1924,7 @@ td
 ;
 }
 )
+;
 body
 .
 appendChild
@@ -2242,6 +2245,7 @@ STR_NA
 STR_NA
 ]
 )
+;
 }
 createRow
 (
@@ -2283,6 +2287,7 @@ matches
 .
 length
 )
+;
 }
 /
 /
@@ -2922,6 +2927,7 @@ logModuleUpdate
 (
 module
 )
+;
 }
 )
 ;

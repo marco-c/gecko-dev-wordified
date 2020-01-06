@@ -272,6 +272,7 @@ load
 .
 "
 )
+;
 await
 certErrorLoaded
 ;

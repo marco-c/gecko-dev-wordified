@@ -3337,6 +3337,7 @@ _defaultInsertionPoint
 .
 guid
 ]
+;
 }
 /
 *

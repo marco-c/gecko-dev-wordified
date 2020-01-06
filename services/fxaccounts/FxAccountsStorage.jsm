@@ -293,6 +293,7 @@ Path
 .
 profileDir
 }
+;
 this
 .
 plainStorage
@@ -418,6 +419,7 @@ resolve
 )
 ;
 }
+;
 this
 .
 FxAccountsStorageManager
@@ -986,6 +988,7 @@ finalized
 ;
 }
 )
+;
 }
 /
 /
@@ -2616,6 +2619,7 @@ already
 .
 "
 )
+;
 }
 for
 (
@@ -3066,6 +3070,7 @@ data
 back
 "
 )
+;
 await
 this
 .
@@ -3259,6 +3264,7 @@ this
 .
 cachedPlain
 }
+;
 await
 this
 .
@@ -3460,6 +3466,7 @@ this
 .
 cachedSecure
 }
+;
 try
 {
 await
@@ -3666,6 +3673,7 @@ reset
 ;
 }
 }
+;
 /
 *
 *
@@ -4986,3 +4994,4 @@ null
 ;
 }
 }
+;

@@ -338,6 +338,7 @@ removeTab
 (
 tab
 )
+;
 finish
 (
 )

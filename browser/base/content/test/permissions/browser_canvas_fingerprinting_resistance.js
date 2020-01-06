@@ -341,6 +341,7 @@ panel
 popupshown
 "
 )
+;
 }
 function
 promisePopupHidden
@@ -359,6 +360,7 @@ panel
 popuphidden
 "
 )
+;
 }
 function
 extractCanvasData

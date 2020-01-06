@@ -187,6 +187,7 @@ accelKey
 true
 }
 )
+;
 is
 (
 document
@@ -218,6 +219,7 @@ shiftKey
 true
 }
 )
+;
 is
 (
 document
@@ -355,6 +357,7 @@ accelKey
 true
 }
 )
+;
 is
 (
 document
@@ -400,6 +403,7 @@ shiftKey
 true
 }
 )
+;
 is
 (
 document
@@ -430,6 +434,7 @@ shiftKey
 true
 }
 )
+;
 is
 (
 document
@@ -575,6 +580,7 @@ accelKey
 true
 }
 )
+;
 }
 is
 (
@@ -610,6 +616,7 @@ shiftKey
 true
 }
 )
+;
 isnot
 (
 document

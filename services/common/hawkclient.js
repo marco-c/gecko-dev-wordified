@@ -941,6 +941,7 @@ _localtimeOffsetMsec
 0
 ;
 }
+;
 this
 .
 HawkClient
@@ -2634,3 +2635,4 @@ extra
 ;
 }
 }
+;

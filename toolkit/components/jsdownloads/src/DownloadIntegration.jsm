@@ -6879,6 +6879,7 @@ this
 )
 ;
 }
+;
 this
 .
 DownloadHistoryObserver
@@ -7197,6 +7198,7 @@ finalize
 )
 ;
 }
+;
 this
 .
 DownloadAutoSaveView

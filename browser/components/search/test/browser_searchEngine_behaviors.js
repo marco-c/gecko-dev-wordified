@@ -713,6 +713,7 @@ spec
 ;
 }
 }
+;
 gBrowser
 .
 addProgressListener
@@ -1228,6 +1229,7 @@ browser
 tab
 .
 linkedBrowser
+;
 await
 BrowserTestUtils
 .

@@ -1278,6 +1278,7 @@ matches
 gTestEventIndex
 +
 +
+;
 if
 (
 events

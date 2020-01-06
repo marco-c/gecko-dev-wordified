@@ -531,6 +531,7 @@ record
 )
 ;
 }
+;
 let
 collection
 =
@@ -792,6 +793,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;

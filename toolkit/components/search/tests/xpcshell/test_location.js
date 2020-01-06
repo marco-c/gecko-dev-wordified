@@ -139,6 +139,7 @@ countryCode
 .
 "
 )
+;
 /
 /
 No
@@ -170,6 +171,7 @@ isUS
 pref
 "
 )
+;
 /
 /
 check

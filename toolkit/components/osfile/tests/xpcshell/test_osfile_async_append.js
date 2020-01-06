@@ -158,6 +158,7 @@ removeTestFile
 (
 path
 )
+;
 try
 {
 mode
@@ -337,6 +338,7 @@ removeTestFile
 (
 path
 )
+;
 }
 }
 /
@@ -394,6 +396,7 @@ removeTestFile
 (
 path
 )
+;
 try
 {
 mode
@@ -570,6 +573,7 @@ removeTestFile
 (
 path
 )
+;
 }
 }
 var

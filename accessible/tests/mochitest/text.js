@@ -2301,6 +2301,7 @@ endWordOffset
 startOffsetObj
 .
 value
+;
 if
 (
 endWordOffset

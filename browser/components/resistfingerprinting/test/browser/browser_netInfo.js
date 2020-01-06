@@ -58,6 +58,7 @@ test
 browser
 /
 "
+;
 async
 function
 testWindow
@@ -311,6 +312,7 @@ resolve
 ;
 }
 }
+;
 worker
 .
 postMessage

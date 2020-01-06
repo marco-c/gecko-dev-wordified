@@ -223,6 +223,7 @@ close
 )
 ;
 }
+;
 executeSoon
 (
 continueToNextStepSync

@@ -397,6 +397,7 @@ init
 )
 ;
 }
+;
 SyncScheduler
 .
 prototype
@@ -902,6 +903,7 @@ it
 .
 "
 )
+;
 }
 init
 :
@@ -4539,6 +4541,7 @@ init
 )
 ;
 }
+;
 ErrorHandler
 .
 prototype
@@ -5889,6 +5892,7 @@ addons
 "
 e
 )
+;
 }
 let
 relevantAddons

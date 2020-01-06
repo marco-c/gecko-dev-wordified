@@ -2735,6 +2735,7 @@ is
 47
 "
 )
+;
 /
 /
 The
@@ -2966,6 +2967,7 @@ sneaky
 value
 "
 }
+;
 }
 ;
 do_check_eq
@@ -3042,6 +3044,7 @@ oh
 noes
 JSON
 "
+;
 }
 ;
 do_check_eq
@@ -3104,6 +3107,7 @@ oh
 noes
 SOURCE
 "
+;
 }
 ;
 do_check_eq
@@ -3168,6 +3172,7 @@ oh
 noes
 STRING
 "
+;
 }
 ;
 do_check_eq
@@ -3957,6 +3962,7 @@ oh
 noes
 valueOf
 "
+;
 }
 }
 ;
@@ -3993,6 +3999,7 @@ oh
 noes
 valueOf
 "
+;
 }
 )
 }

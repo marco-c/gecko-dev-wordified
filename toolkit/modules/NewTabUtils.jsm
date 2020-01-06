@@ -3808,6 +3808,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_FRECENCY_DESCENDING
+;
 let
 links
 =
@@ -4561,6 +4562,7 @@ _callObservers
 onClearHistory
 "
 )
+;
 }
 /
 *
@@ -11168,6 +11170,7 @@ AllPages
 update
 (
 )
+;
 }
 true
 )

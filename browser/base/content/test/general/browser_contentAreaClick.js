@@ -1222,6 +1222,7 @@ prevent
 )
 "
 )
+;
 /
 /
 Check
@@ -1337,6 +1338,7 @@ runNextTest
 ;
 }
 }
+;
 /
 /
 Wraps
@@ -1396,6 +1398,7 @@ arguments
 ]
 ;
 }
+;
 }
 function
 setupTestBrowserWindow
@@ -1864,6 +1867,7 @@ iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABGdBTUEAALGPC
 p
 >
 '
+;
 doc
 .
 body
@@ -1927,6 +1931,7 @@ up
 .
 "
 )
+;
 gCurrentTest
 .
 clean

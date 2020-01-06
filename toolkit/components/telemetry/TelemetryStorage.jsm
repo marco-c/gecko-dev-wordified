@@ -12619,6 +12619,7 @@ ping
 "
 ex
 )
+;
 }
 }
 return
@@ -12718,6 +12719,7 @@ ping
 "
 ex
 )
+;
 }
 }
 }
@@ -12946,6 +12948,7 @@ ping
 "
 ex
 )
+;
 }
 }
 }
@@ -13855,6 +13858,7 @@ TelemetryStorage
 pingDirectoryPath
 aPingId
 )
+;
 try
 {
 return

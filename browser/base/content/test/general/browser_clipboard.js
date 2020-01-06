@@ -643,6 +643,7 @@ resolve
 }
 true
 )
+;
 sendKey
 (
 "
@@ -862,6 +863,7 @@ resolve
 }
 true
 )
+;
 sendKey
 (
 "
@@ -1043,6 +1045,7 @@ resolve
 }
 true
 )
+;
 sendKey
 (
 "
@@ -1267,6 +1270,7 @@ resolve
 }
 true
 )
+;
 sendKey
 (
 "
@@ -1649,6 +1653,7 @@ resolve
 }
 true
 )
+;
 const
 utils
 =

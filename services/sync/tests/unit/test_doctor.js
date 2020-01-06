@@ -179,8 +179,10 @@ return
 ;
 }
 }
+;
 }
 }
+;
 /
 /
 setup
@@ -436,6 +438,7 @@ c
 "
 ]
 }
+;
 let
 validator
 =
@@ -463,6 +466,7 @@ true
 ;
 }
 }
+;
 let
 engine
 =
@@ -483,6 +487,7 @@ validator
 ;
 }
 }
+;
 let
 requestor
 =
@@ -528,6 +533,7 @@ false
 ;
 }
 }
+;
 let
 doctor
 =
@@ -667,6 +673,7 @@ false
 ;
 }
 }
+;
 /
 /
 start
@@ -730,6 +737,7 @@ foo
 :
 requestor
 }
+;
 }
 _now
 (
@@ -881,6 +889,7 @@ validate
 ;
 }
 }
+;
 let
 engine
 =
@@ -901,6 +910,7 @@ validator
 ;
 }
 }
+;
 let
 requestor
 =
@@ -935,6 +945,7 @@ false
 ;
 }
 }
+;
 let
 doctor
 =

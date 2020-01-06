@@ -272,6 +272,7 @@ token
 ;
 }
 }
+;
 const
 PROFILE_OPTIONS
 =
@@ -1196,6 +1197,7 @@ numTokensRemoved
 ;
 }
 }
+;
 let
 profileOptions
 =
@@ -1460,6 +1462,7 @@ onComplete
 }
 ;
 }
+;
 client
 .
 fetchProfile
@@ -1727,6 +1730,7 @@ numTokensRemoved
 ;
 }
 }
+;
 let
 profileOptions
 =
@@ -1919,6 +1923,7 @@ onComplete
 }
 ;
 }
+;
 client
 .
 fetchProfile

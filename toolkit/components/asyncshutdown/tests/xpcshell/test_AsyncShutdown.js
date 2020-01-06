@@ -653,6 +653,7 @@ to
 resolve
 "
 )
+;
 deferredBlockInner
 .
 resolve

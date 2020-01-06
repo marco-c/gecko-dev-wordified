@@ -180,6 +180,7 @@ commitPromise
 promiseAfterCache
 (
 )
+;
 await
 asyncInit
 (

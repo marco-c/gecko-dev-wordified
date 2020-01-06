@@ -714,6 +714,7 @@ getElementById
 (
 expectedPanelId
 )
+;
 ok
 (
 !
@@ -855,6 +856,7 @@ resolve
 )
 ;
 }
+;
 gBrowser
 .
 selectedBrowser
@@ -1162,6 +1164,7 @@ synced
 tabs
 "
 )
+;
 }
 )
 ;
@@ -1903,6 +1906,7 @@ remotetabs
 main
 "
 )
+;
 ok
 (
 !
@@ -2000,6 +2004,7 @@ resolve
 )
 ;
 }
+;
 mockedInternal
 .
 hasSyncedThisSession
@@ -2855,6 +2860,7 @@ doSync
 oldDoSync
 ;
 }
+;
 let
 syncNowButton
 =
@@ -3222,6 +3228,7 @@ remotetabs
 main
 "
 )
+;
 ok
 (
 !

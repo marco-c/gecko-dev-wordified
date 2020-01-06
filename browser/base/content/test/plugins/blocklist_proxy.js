@@ -348,6 +348,7 @@ return
 ;
 }
 }
+;
 BlocklistProxy
 .
 init

@@ -177,6 +177,7 @@ corret
 .
 "
 )
+;
 }
 function
 play_not_in_tree_audio

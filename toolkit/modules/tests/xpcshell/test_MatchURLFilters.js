@@ -5491,6 +5491,7 @@ filters
 exceptionMessageContains
 }
 )
+;
 }
 else
 if

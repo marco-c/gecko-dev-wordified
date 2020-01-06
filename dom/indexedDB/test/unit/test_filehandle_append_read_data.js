@@ -424,6 +424,7 @@ location
 testString
 .
 length
+;
 is
 (
 fileHandle

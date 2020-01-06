@@ -623,6 +623,7 @@ hideHighlight
 ;
 await
 pageActionPanelHiddenPromise
+;
 await
 highlightHiddenPromise
 ;

@@ -848,6 +848,7 @@ tabs
 button
 "
 ]
+;
 return
 DEFAULT_ITEMS
 .
@@ -2591,6 +2592,7 @@ tag
 target
 .
 localName
+;
 let
 result
 =
@@ -5958,6 +5960,7 @@ units
 *
 aUnitLength
 )
+;
 timeStr
 +
 =

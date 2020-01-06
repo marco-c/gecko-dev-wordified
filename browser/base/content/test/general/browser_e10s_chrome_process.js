@@ -258,6 +258,7 @@ process
 )
 ;
 }
+;
 }
 const
 CHROME_PROCESS

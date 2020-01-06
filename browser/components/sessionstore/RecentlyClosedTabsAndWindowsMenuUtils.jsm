@@ -491,6 +491,7 @@ closedTabs
 length
 aTagName
 )
+;
 }
 return
 fragment

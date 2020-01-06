@@ -285,6 +285,7 @@ scalars
 ;
 }
 }
+;
 for
 (
 let

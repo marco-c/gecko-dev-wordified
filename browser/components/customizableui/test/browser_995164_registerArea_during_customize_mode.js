@@ -1432,6 +1432,7 @@ REASON_AREA_UNREGISTERED
 }
 }
 }
+;
 CustomizableUI
 .
 addListener

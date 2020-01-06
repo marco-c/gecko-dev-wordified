@@ -258,6 +258,7 @@ Log
 Level
 .
 Trace
+;
 Log
 .
 repository
@@ -280,6 +281,7 @@ Log
 Level
 .
 Trace
+;
 Log
 .
 repository
@@ -2505,6 +2507,7 @@ stats
 numClients
 2
 )
+;
 await
 validationPromise
 ;
@@ -3003,6 +3006,7 @@ stats
 numClients
 2
 )
+;
 await
 validationPromise
 ;
@@ -3435,6 +3439,7 @@ stats
 numClients
 2
 )
+;
 await
 validationPromise
 ;

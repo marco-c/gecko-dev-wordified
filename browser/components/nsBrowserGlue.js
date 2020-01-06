@@ -13657,6 +13657,7 @@ doorhanger
 )
 ;
 }
+;
 this
 .
 AlertsService
@@ -14184,6 +14185,7 @@ controls
 2
 "
 )
+;
 }
 xulStore
 .
@@ -19496,6 +19498,7 @@ unnamedTabsArrivingNotificationMultiple2
 .
 body
 "
+;
 }
 body
 =
@@ -19578,6 +19581,7 @@ firstTab
 ;
 }
 }
+;
 /
 /
 Specify
@@ -20151,6 +20155,7 @@ devDisconnectedAlert
 )
 ;
 }
+;
 this
 .
 AlertsService
@@ -20623,6 +20628,7 @@ _xpcom_factory
 :
 BrowserGlueServiceFactory
 }
+;
 /
 *
 *
@@ -21250,6 +21256,7 @@ return
 "
 defaultBrowserNotificationPopup
 "
+;
 }
 closePrompt
 (

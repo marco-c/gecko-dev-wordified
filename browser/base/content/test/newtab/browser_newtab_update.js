@@ -280,6 +280,7 @@ site
 link
 .
 type
+;
 }
 )
 ;

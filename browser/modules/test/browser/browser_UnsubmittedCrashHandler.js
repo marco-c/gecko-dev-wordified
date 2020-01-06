@@ -696,6 +696,7 @@ promises
 )
 ;
 }
+;
 let
 uuidGenerator
 =

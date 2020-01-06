@@ -1928,6 +1928,7 @@ true
 )
 ;
 }
+;
 PopupNotifications
 .
 prototype
@@ -8301,6 +8302,7 @@ g
 "
 "
 )
+;
 if
 (
 notifications
@@ -8626,6 +8628,7 @@ notification
 .
 anchorElement
 )
+;
 }
 if
 (

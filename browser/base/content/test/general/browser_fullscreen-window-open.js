@@ -1123,6 +1123,7 @@ finalize
 )
 ;
 }
+;
 newBrowser
 .
 tabContainer

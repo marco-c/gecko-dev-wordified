@@ -728,6 +728,7 @@ Ci
 .
 nsIObserver
 )
+;
 glue
 .
 observe

@@ -58,6 +58,7 @@ mutable
 files
 "
 ]
+;
 const
 version
 =

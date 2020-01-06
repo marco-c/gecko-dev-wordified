@@ -310,6 +310,7 @@ nsIFactory
 }
 ;
 }
+;
 this
 .
 MockFilePicker

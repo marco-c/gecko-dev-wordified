@@ -540,6 +540,7 @@ request
 onsuccess
 =
 grabEventAndContinueHandler
+;
 event
 =
 yield

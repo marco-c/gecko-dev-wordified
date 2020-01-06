@@ -3884,6 +3884,7 @@ GetPageDetails
 {
 }
 )
+;
 }
 )
 ;
@@ -8861,6 +8862,7 @@ animation
 )
 ;
 }
+;
 }
 animatableBox
 .
@@ -8888,6 +8890,7 @@ this
 .
 _onWindowResize
 )
+;
 }
 _libraryButtonAnimationEndListeners
 :

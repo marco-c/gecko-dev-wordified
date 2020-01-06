@@ -481,6 +481,7 @@ nsIPresentationChannelDescription
 ]
 )
 }
+;
 function
 TestControlChannelListener
 (
@@ -2196,6 +2197,7 @@ return
 controllerControlChannelListener
 .
 isNotifyConnectedCalled
+;
 }
 )
 .

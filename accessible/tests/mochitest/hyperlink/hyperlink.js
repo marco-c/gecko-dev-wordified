@@ -162,6 +162,7 @@ focus
 )
 ;
 }
+;
 this
 .
 finalCheck
@@ -208,6 +209,7 @@ unexpectedStates
 )
 ;
 }
+;
 this
 .
 getID
@@ -229,4 +231,5 @@ aID
 )
 ;
 }
+;
 }

@@ -475,8 +475,10 @@ status
 .
 textContent
 }
+;
 }
 )
+;
 is
 (
 results

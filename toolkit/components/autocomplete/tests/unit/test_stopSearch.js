@@ -250,6 +250,7 @@ selectedIndex
 return
 -
 1
+;
 }
 QueryInterface
 :
@@ -277,6 +278,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 /
 *
 *
@@ -386,6 +388,7 @@ iid
 ;
 }
 }
+;
 /
 *
 *
@@ -866,6 +869,7 @@ controller
 )
 ;
 }
+;
 /
 /
 Search

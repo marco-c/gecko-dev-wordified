@@ -343,6 +343,7 @@ objectStoreNames
 =
 [
 ]
+;
 for
 (
 let
@@ -590,6 +591,7 @@ objectStoreNames
 =
 [
 ]
+;
 for
 (
 let

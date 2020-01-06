@@ -1059,6 +1059,7 @@ EHTestsCommon
 generateAndUploadKeys
 (
 )
+;
 }
 async
 generateAndUploadKeys

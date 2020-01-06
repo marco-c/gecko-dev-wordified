@@ -160,6 +160,7 @@ next_test
 ;
 }
 }
+;
 /
 /
 Get
@@ -764,6 +765,7 @@ Ci
 .
 nsIXMLHttpRequest
 )
+;
 xhr
 .
 open

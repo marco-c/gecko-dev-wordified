@@ -6921,6 +6921,7 @@ field
 ]
 =
 null
+;
 }
 }
 updateIndicatorState

@@ -724,6 +724,7 @@ getAttribute
 content
 "
 )
+;
 if
 (
 !

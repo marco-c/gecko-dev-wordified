@@ -135,6 +135,7 @@ EXPORTED_SYMBOLS
 InlineSpellCheckerContent
 "
 ]
+;
 var
 InlineSpellCheckerContent
 =
@@ -296,6 +297,7 @@ event
 .
 rangeOffset
 )
+;
 this
 .
 _addMessageListeners

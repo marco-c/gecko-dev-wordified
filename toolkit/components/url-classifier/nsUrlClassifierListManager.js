@@ -354,6 +354,7 @@ n
 )
 ;
 }
+;
 /
 *
 *
@@ -622,6 +623,7 @@ this
 )
 ;
 }
+;
 /
 *
 *
@@ -872,6 +874,7 @@ return
 true
 ;
 }
+;
 /
 *
 *
@@ -990,6 +993,7 @@ tableName
 ]
 ;
 }
+;
 /
 *
 *
@@ -1071,6 +1075,7 @@ this
 )
 ;
 }
+;
 /
 *
 *
@@ -1145,6 +1150,7 @@ break
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1192,6 +1198,7 @@ return
 "
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1239,6 +1246,7 @@ return
 "
 ;
 }
+;
 /
 *
 *
@@ -1316,6 +1324,7 @@ true
 ;
 }
 }
+;
 /
 *
 *
@@ -1392,6 +1401,7 @@ return
 updatesNeeded
 ;
 }
+;
 /
 *
 *
@@ -1519,6 +1529,7 @@ null
 }
 }
 }
+;
 /
 *
 *
@@ -1599,6 +1610,7 @@ return
 false
 ;
 }
+;
 /
 *
 *
@@ -1716,6 +1728,7 @@ TYPE_ONE_SHOT
 )
 ;
 }
+;
 /
 *
 *
@@ -2182,6 +2195,7 @@ updateUrl
 }
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -2243,6 +2257,7 @@ null
 }
 }
 }
+;
 /
 *
 *
@@ -2427,6 +2442,7 @@ pending
 updates
 }
 }
+;
 /
 *
 *
@@ -2581,6 +2597,7 @@ return
 true
 ;
 }
+;
 /
 *
 *
@@ -3552,6 +3569,7 @@ request
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -3769,6 +3787,7 @@ provider
 ;
 }
 }
+;
 /
 *
 *
@@ -4333,6 +4352,7 @@ success
 )
 ;
 }
+;
 /
 *
 *
@@ -4455,6 +4475,7 @@ result
 )
 ;
 }
+;
 /
 *
 *
@@ -4674,6 +4695,7 @@ status
 )
 ;
 }
+;
 /
 *
 *
@@ -4810,6 +4832,7 @@ now
 delay
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -4873,6 +4896,7 @@ results
 NS_ERROR_NO_INTERFACE
 ;
 }
+;
 var
 modScope
 =

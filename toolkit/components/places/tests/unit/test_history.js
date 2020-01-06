@@ -201,6 +201,7 @@ resultType
 options
 .
 RESULTS_AS_URI
+;
 var
 query
 =

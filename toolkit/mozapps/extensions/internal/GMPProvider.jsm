@@ -1422,6 +1422,7 @@ return
 AddonManager
 .
 OP_NEEDS_RESTART_NONE
+;
 }
 get
 permissions
@@ -1509,6 +1510,7 @@ time
 *
 1000
 )
+;
 }
 return
 null

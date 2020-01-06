@@ -243,6 +243,7 @@ addon
 "
 )
 )
+;
 prepare_test
 (
 {

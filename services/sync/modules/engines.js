@@ -2177,6 +2177,7 @@ nsITimer
 )
 ;
 }
+;
 Store
 .
 prototype
@@ -3304,6 +3305,7 @@ Debug
 ]
 ;
 }
+;
 EngineManager
 .
 prototype
@@ -4333,6 +4335,7 @@ constructed
 )
 ;
 }
+;
 Engine
 .
 prototype
@@ -5267,6 +5270,7 @@ Map
 )
 ;
 }
+;
 /
 /
 Enumeration
@@ -12614,6 +12618,7 @@ retry
 .
 "
 )
+;
 }
 }
 finally

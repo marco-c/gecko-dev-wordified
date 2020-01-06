@@ -1328,6 +1328,7 @@ capture
 =
 badKey
 )
+;
 Assert
 .
 ok

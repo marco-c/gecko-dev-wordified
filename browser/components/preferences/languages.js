@@ -177,6 +177,7 @@ font
 kerning
 "
 )
+;
 }
 0
 )

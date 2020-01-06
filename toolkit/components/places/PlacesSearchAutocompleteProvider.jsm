@@ -474,6 +474,7 @@ spec
 :
 null
 }
+;
 }
 /
 /
@@ -710,6 +711,7 @@ nsISupportsWeakReference
 ]
 )
 }
+;
 function
 SearchSuggestionControllerWrapper
 (

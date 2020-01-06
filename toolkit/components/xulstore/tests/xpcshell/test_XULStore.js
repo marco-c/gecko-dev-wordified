@@ -31,6 +31,7 @@ zero
 use
 strict
 "
+;
 const
 Cc
 =
@@ -77,6 +78,7 @@ osfile
 jsm
 "
 )
+;
 var
 XULStore
 =
@@ -829,6 +831,7 @@ length
 =
 4096
 )
+;
 XULStore
 .
 removeValue
@@ -841,6 +844,7 @@ dos
 dos
 "
 )
+;
 }
 )
 ;

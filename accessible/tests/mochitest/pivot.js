@@ -321,6 +321,7 @@ nsIAccessibleTraversalRule
 ]
 )
 }
+;
 /
 *
 *
@@ -3444,6 +3445,7 @@ moveNext
 aRule
 )
 )
+;
 }
 SimpleTest
 .

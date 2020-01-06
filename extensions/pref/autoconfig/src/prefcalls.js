@@ -828,6 +828,7 @@ interfaces
 nsILDAPConnection
 .
 VERSION3
+;
 /
 /
 user

@@ -141,6 +141,7 @@ getElementById
 (
 kToolbar
 )
+;
 ok
 (
 testToolbar

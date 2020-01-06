@@ -359,6 +359,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 add_task
 (
 async

@@ -469,6 +469,7 @@ this
 )
 ;
 }
+;
 Object
 .
 freeze

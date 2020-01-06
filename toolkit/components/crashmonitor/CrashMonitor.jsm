@@ -1037,6 +1037,7 @@ return
 CrashMonitorInternal
 .
 previousCheckpoints
+;
 }
 /
 *

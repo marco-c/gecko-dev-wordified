@@ -504,6 +504,7 @@ records
 length
 3
 )
+;
 equal
 (
 deletedRecords
@@ -590,6 +591,7 @@ records
 length
 3
 )
+;
 equal
 (
 deletedRecords
@@ -674,6 +676,7 @@ records
 length
 2
 )
+;
 equal
 (
 deletedRecords

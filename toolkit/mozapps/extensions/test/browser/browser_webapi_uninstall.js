@@ -101,6 +101,7 @@ task
 )
 ;
 }
+;
 }
 function
 API_uninstallByID

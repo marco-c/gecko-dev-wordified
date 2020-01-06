@@ -1671,6 +1671,7 @@ request
 get
 (
 )
+;
 do_check_true
 (
 resourceRequested
@@ -2100,6 +2101,7 @@ msg
 )
 ;
 }
+;
 /
 /
 Since
@@ -2344,6 +2346,7 @@ res2
 get
 (
 )
+;
 do_check_eq
 (
 content

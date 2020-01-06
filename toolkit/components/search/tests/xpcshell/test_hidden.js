@@ -221,6 +221,7 @@ commitPromise
 promiseAfterCache
 (
 )
+;
 await
 asyncInit
 (

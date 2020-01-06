@@ -136,6 +136,7 @@ browser_privatebrowsing_placesTitleNoUpdate
 .
 html
 "
+;
 const
 TITLE_1
 =

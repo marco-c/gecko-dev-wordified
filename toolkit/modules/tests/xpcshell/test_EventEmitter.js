@@ -109,6 +109,7 @@ testPromise
 ;
 }
 )
+;
 function
 testEmitter
 (

@@ -602,6 +602,7 @@ generateUUID
 toString
 (
 )
+;
 EventDispatcher
 .
 instance
@@ -766,3 +767,4 @@ _maybeUninitialize
 ;
 }
 }
+;

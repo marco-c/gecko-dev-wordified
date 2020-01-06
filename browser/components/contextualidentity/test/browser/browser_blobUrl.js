@@ -234,6 +234,7 @@ newURL
 blobURL
 =
 newURL
+;
 }
 )
 ;
@@ -367,6 +368,7 @@ SendErrored
 )
 ;
 }
+;
 xhr
 .
 onload
@@ -383,6 +385,7 @@ SendLoaded
 )
 ;
 }
+;
 xhr
 .
 open

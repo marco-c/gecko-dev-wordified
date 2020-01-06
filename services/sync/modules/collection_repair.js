@@ -178,6 +178,7 @@ BookmarkRepairRequestor
 "
 ]
 }
+;
 const
 RESPONDERS
 =
@@ -195,6 +196,7 @@ BookmarkRepairResponder
 "
 ]
 }
+;
 /
 /
 Should

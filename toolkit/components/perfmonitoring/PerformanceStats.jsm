@@ -1595,6 +1595,7 @@ lastNonZero
 durations
 )
 }
+;
 }
 isEqual
 (
@@ -2557,6 +2558,7 @@ this
 .
 _id
 )
+;
 PerformanceMonitor
 .
 _monitors
@@ -3581,6 +3583,7 @@ release
 ;
 }
 }
+;
 /
 /
 Generate
@@ -3626,6 +3629,7 @@ _counter
 )
 ;
 }
+;
 /
 /
 Once
@@ -6170,6 +6174,7 @@ data
 .
 data
 )
+;
 }
 if
 (

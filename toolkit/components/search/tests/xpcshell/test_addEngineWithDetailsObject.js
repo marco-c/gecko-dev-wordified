@@ -109,6 +109,7 @@ kAlias
 "
 alias_foo
 "
+;
 const
 kSearchTerm
 =

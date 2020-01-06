@@ -163,6 +163,7 @@ valid
 .
 "
 )
+;
 return
 new
 Promise

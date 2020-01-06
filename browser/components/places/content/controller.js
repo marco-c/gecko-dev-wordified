@@ -1298,6 +1298,7 @@ selectedNode
 =
 -
 1
+;
 }
 case
 "
@@ -7778,6 +7779,7 @@ PlacesUtils
 .
 TYPE_X_MOZ_PLACE_ACTION
 )
+;
 this
 .
 clipboard

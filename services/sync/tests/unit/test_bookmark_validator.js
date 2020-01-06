@@ -485,6 +485,7 @@ multipleParents
 length
 1
 )
+;
 ok
 (
 c
@@ -803,6 +804,7 @@ A
 "
 ]
 )
+;
 deepEqual
 (
 c
@@ -3324,6 +3326,7 @@ validation
 .
 problems
 )
+;
 equal
 (
 bme

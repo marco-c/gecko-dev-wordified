@@ -115,6 +115,7 @@ y
 )
 ;
 }
+;
 Point
 .
 prototype

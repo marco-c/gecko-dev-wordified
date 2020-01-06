@@ -765,6 +765,7 @@ data
 type
 content
 }
+;
 let
 iframe
 =
@@ -1109,6 +1110,7 @@ errorType
 :
 error
 }
+;
 healthReportWrapper
 .
 injectData
@@ -1149,6 +1151,7 @@ ERROR_PAYLOAD_FAILED
 ;
 }
 }
+;
 window
 .
 addEventListener

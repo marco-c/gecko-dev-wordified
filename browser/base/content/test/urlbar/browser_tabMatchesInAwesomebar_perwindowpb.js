@@ -552,6 +552,7 @@ tabRemoved
 (
 testTab
 )
+;
 }
 /
 /

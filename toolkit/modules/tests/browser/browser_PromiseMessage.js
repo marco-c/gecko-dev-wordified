@@ -146,6 +146,7 @@ url
 }
 testPromiseMessageAPI
 )
+;
 }
 )
 ;

@@ -1462,6 +1462,7 @@ getElementById
 handlersView
 "
 )
+;
 }
 get
 _filter
@@ -1486,6 +1487,7 @@ getElementById
 filter
 "
 )
+;
 }
 _prefSvc
 :
@@ -6517,6 +6519,7 @@ disabled
 tabs
 .
 length
+;
 }
 _getTabsForHomePage
 (
@@ -8091,6 +8094,7 @@ S
 "
 count
 )
+;
 let
 okButton
 =
@@ -8117,6 +8121,7 @@ S
 "
 count
 )
+;
 let
 cancelButton
 =
@@ -14760,6 +14765,7 @@ set
 !
 "
 )
+;
 }
 break
 ;
@@ -16847,6 +16853,7 @@ aHandlerApp
 .
 uri
 )
+;
 /
 /
 We
@@ -20781,6 +20788,7 @@ addPossibleApplicationHandler
 (
 aNewValue
 )
+;
 }
 get
 possibleApplicationHandlers
@@ -21664,6 +21672,7 @@ this
 wrappedHandlerInfo
 .
 primaryExtension
+;
 }
 catch
 (
@@ -24338,6 +24347,7 @@ _appPrefLabel
 webFeed
 "
 }
+;
 var
 videoFeedHandlerInfo
 =
@@ -24384,6 +24394,7 @@ _appPrefLabel
 videoPodcastFeed
 "
 }
+;
 var
 audioFeedHandlerInfo
 =
@@ -24430,6 +24441,7 @@ _appPrefLabel
 audioPodcastFeed
 "
 }
+;
 /
 *
 *

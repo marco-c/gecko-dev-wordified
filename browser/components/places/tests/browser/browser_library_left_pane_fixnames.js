@@ -511,6 +511,7 @@ getItemTitle
 itemId
 )
 }
+;
 switch
 (
 queryName

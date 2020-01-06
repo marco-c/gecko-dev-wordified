@@ -278,6 +278,7 @@ continueToNextStep
 ;
 }
 }
+;
 yield
 undefined
 ;
@@ -512,6 +513,7 @@ continueToNextStep
 )
 ;
 }
+;
 yield
 undefined
 ;

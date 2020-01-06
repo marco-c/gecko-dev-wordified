@@ -1618,6 +1618,7 @@ function
 }
 ;
 }
+;
 }
 /
 *
@@ -4373,6 +4374,7 @@ updateAnimation
 )
 ;
 }
+;
 SessionStore
 .
 getSessionHistory
@@ -5536,6 +5538,7 @@ stopAnimation
 )
 ;
 }
+;
 SessionStore
 .
 getSessionHistory

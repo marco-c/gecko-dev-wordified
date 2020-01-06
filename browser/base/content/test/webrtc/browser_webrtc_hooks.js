@@ -1308,6 +1308,7 @@ allow
 "
 ;
 }
+;
 webrtcUI
 .
 addPeerConnectionBlocker

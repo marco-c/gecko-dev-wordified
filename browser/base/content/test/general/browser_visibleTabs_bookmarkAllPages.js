@@ -252,6 +252,7 @@ finish
 )
 ;
 }
+;
 browser
 .
 addEventListener

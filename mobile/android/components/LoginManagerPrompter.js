@@ -979,6 +979,7 @@ actionText
 :
 actionText
 }
+;
 let
 win
 =

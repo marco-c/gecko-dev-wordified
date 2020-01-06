@@ -6045,6 +6045,7 @@ GetStringFromName
 accesskeyName
 )
 )
+;
 }
 menu
 .

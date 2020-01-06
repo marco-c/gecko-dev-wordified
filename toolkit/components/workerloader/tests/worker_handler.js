@@ -60,6 +60,7 @@ error
 )
 ;
 }
+;
 worker
 .
 onmessage

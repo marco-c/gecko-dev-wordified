@@ -643,6 +643,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadsViewUI

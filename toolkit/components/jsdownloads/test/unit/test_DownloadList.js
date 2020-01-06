@@ -2655,6 +2655,7 @@ list
 getAll
 (
 )
+;
 do_check_eq
 (
 downloads

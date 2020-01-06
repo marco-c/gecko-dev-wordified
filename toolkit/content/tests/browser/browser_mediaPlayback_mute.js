@@ -207,6 +207,7 @@ audio
 .
 computedMuted
 }
+;
 }
 async
 function

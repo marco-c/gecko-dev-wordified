@@ -140,6 +140,7 @@ triggeringPrincipal_base64
 }
 ]
 }
+;
 const
 restoreState
 =
@@ -244,6 +245,7 @@ triggeringPrincipal_base64
 }
 ]
 }
+;
 const
 maxTabsUndo
 =

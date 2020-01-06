@@ -3779,6 +3779,7 @@ diagnosis
 =
 [
 ]
+;
 if
 (
 matcher
@@ -4137,6 +4138,7 @@ length
 )
 ]
 )
+;
 }
 return
 function

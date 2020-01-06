@@ -498,6 +498,7 @@ continue
 )
 ;
 }
+;
 }
 else
 {
@@ -507,6 +508,7 @@ continueToNextStep
 ;
 }
 }
+;
 yield
 undefined
 ;
@@ -689,6 +691,7 @@ continue
 )
 ;
 }
+;
 }
 else
 {
@@ -698,6 +701,7 @@ continueToNextStep
 ;
 }
 }
+;
 yield
 undefined
 ;

@@ -703,6 +703,7 @@ return
 aContainer
 .
 visible
+;
 }
 )
 ;

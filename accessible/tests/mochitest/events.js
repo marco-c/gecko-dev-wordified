@@ -1805,6 +1805,7 @@ aEventInvoker
 )
 ;
 }
+;
 /
 *
 *
@@ -1855,6 +1856,7 @@ true
 )
 ;
 }
+;
 /
 *
 *
@@ -1896,6 +1898,7 @@ eventQueue_finish
 )
 {
 }
+;
 /
 /
 private
@@ -3010,6 +3013,7 @@ true
 )
 ;
 }
+;
 this
 .
 processNextInvokerInTimeout
@@ -3154,6 +3158,7 @@ this
 )
 ;
 }
+;
 /
 *
 *
@@ -3972,6 +3977,7 @@ match
 ;
 }
 }
+;
 /
 /
 Helpers
@@ -4028,6 +4034,7 @@ mNextInvokerStatus
 )
 ;
 }
+;
 this
 .
 getNextExpectedEvent
@@ -4147,6 +4154,7 @@ idx
 null
 ;
 }
+;
 this
 .
 areExpectedEventsLeft
@@ -4307,6 +4315,7 @@ return
 false
 ;
 }
+;
 this
 .
 areAllEventsExpected
@@ -4390,6 +4399,7 @@ return
 true
 ;
 }
+;
 this
 .
 isUnexpectedEventScenario
@@ -4449,6 +4459,7 @@ aScenario
 length
 ;
 }
+;
 this
 .
 hasUnexpectedEventsScenario
@@ -4513,6 +4524,7 @@ return
 false
 ;
 }
+;
 this
 .
 hasMatchedScenario
@@ -4579,6 +4591,7 @@ return
 false
 ;
 }
+;
 this
 .
 getInvoker
@@ -4599,6 +4612,7 @@ mIndex
 ]
 ;
 }
+;
 this
 .
 getNextInvoker
@@ -4621,6 +4635,7 @@ mIndex
 ]
 ;
 }
+;
 this
 .
 setEventHandler
@@ -5171,6 +5186,7 @@ return
 true
 ;
 }
+;
 this
 .
 clearEventHandler
@@ -5319,6 +5335,7 @@ mScenarios
 null
 ;
 }
+;
 this
 .
 getEventID
@@ -5361,6 +5378,7 @@ getID
 )
 ;
 }
+;
 this
 .
 setInvokerStatus
@@ -5404,6 +5422,7 @@ aLogMsg
 )
 ;
 }
+;
 this
 .
 mDefEventType
@@ -5599,6 +5618,7 @@ type
 )
 ;
 }
+;
 eventQueue
 .
 getEventTargetDescr
@@ -5687,6 +5707,7 @@ target
 )
 ;
 }
+;
 eventQueue
 .
 getEventPhase
@@ -5713,6 +5734,7 @@ phase
 true
 ;
 }
+;
 eventQueue
 .
 compareEventTypes
@@ -5750,6 +5772,7 @@ type
 eventType
 ;
 }
+;
 eventQueue
 .
 compareEvents
@@ -5906,6 +5929,7 @@ target1
 target2
 ;
 }
+;
 eventQueue
 .
 isSameEvent
@@ -5988,6 +6012,7 @@ nsIAccessibleStateChangeEvent
 )
 ;
 }
+;
 eventQueue
 .
 invokerStatusToMsg
@@ -6072,6 +6097,7 @@ return
 msg
 ;
 }
+;
 eventQueue
 .
 logEvent
@@ -6288,6 +6314,7 @@ emphText
 )
 ;
 }
+;
 /
 /
 /
@@ -6533,6 +6560,7 @@ item
 )
 ;
 }
+;
 /
 *
 *
@@ -6611,6 +6639,7 @@ startProcess
 )
 ;
 }
+;
 this
 .
 items
@@ -7152,6 +7181,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 finalCheck
@@ -7179,6 +7209,7 @@ scrollTo
 )
 ;
 }
+;
 this
 .
 getID
@@ -7199,6 +7230,7 @@ click
 "
 ;
 }
+;
 }
 /
 *
@@ -7270,6 +7302,7 @@ mousemove
 )
 ;
 }
+;
 this
 .
 getID
@@ -7291,6 +7324,7 @@ move
 "
 ;
 }
+;
 }
 /
 *
@@ -7346,6 +7380,7 @@ mWindow
 )
 ;
 }
+;
 this
 .
 getID
@@ -7550,6 +7585,7 @@ key
 "
 ;
 }
+;
 this
 .
 mKey
@@ -7995,6 +8031,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -8106,6 +8143,7 @@ focus
 )
 ;
 }
+;
 this
 .
 getID
@@ -8126,6 +8164,7 @@ focus
 "
 ;
 }
+;
 }
 /
 *
@@ -8207,6 +8246,7 @@ focus
 )
 ;
 }
+;
 this
 .
 getID
@@ -8229,6 +8269,7 @@ focus
 "
 ;
 }
+;
 }
 /
 *
@@ -8482,6 +8523,7 @@ currentItem
 itemNode
 ;
 }
+;
 this
 .
 getID
@@ -8505,6 +8547,7 @@ aID
 )
 ;
 }
+;
 this
 .
 reportError
@@ -8539,6 +8582,7 @@ current
 )
 ;
 }
+;
 }
 /
 *
@@ -8596,6 +8640,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -8657,6 +8702,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -8726,6 +8772,7 @@ true
 )
 ;
 }
+;
 this
 .
 getID
@@ -8747,6 +8794,7 @@ aComboboxID
 )
 ;
 }
+;
 }
 /
 *
@@ -8804,6 +8852,7 @@ VK_ESCAPE
 )
 ;
 }
+;
 this
 .
 getID
@@ -8825,6 +8874,7 @@ aComboboxID
 )
 ;
 }
+;
 }
 /
 *
@@ -8913,6 +8963,7 @@ DOMNode
 ;
 }
 }
+;
 this
 .
 getID
@@ -8930,6 +8981,7 @@ selectall
 "
 ;
 }
+;
 }
 /
 *
@@ -9026,6 +9078,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -9113,6 +9166,7 @@ VK_END
 )
 ;
 }
+;
 this
 .
 getID
@@ -9138,6 +9192,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -9234,6 +9289,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -9337,6 +9393,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -9490,6 +9547,7 @@ selRange
 )
 ;
 }
+;
 this
 .
 getID
@@ -9531,6 +9589,7 @@ offset
 aDOMPointOffset
 ;
 }
+;
 this
 .
 finalCheck
@@ -9551,6 +9610,7 @@ call
 )
 ;
 }
+;
 this
 .
 eventSeq
@@ -9673,6 +9733,7 @@ this
 offset
 ;
 }
+;
 this
 .
 getID
@@ -9703,6 +9764,7 @@ this
 offset
 ;
 }
+;
 this
 .
 eventSeq
@@ -10263,6 +10325,7 @@ STATE_FOCUSED
 )
 ;
 }
+;
 }
 function
 nofocusChecker
@@ -10646,6 +10709,7 @@ aID
 )
 ;
 }
+;
 }
 /
 *
@@ -10717,6 +10781,7 @@ accessible
 )
 ;
 }
+;
 }
 function
 asyncCaretMoveChecker
@@ -10816,6 +10881,7 @@ aEndOffset
 ;
 }
 }
+;
 }
 /
 *
@@ -11215,6 +11281,7 @@ unxpdExtraState
 )
 ;
 }
+;
 this
 .
 match
@@ -11272,6 +11339,7 @@ return
 false
 ;
 }
+;
 }
 function
 asyncStateChangeChecker
@@ -11450,6 +11518,7 @@ STATE_COLLAPSED
 )
 ;
 }
+;
 }
 /
 /
@@ -13398,6 +13467,7 @@ invoke
 )
 ;
 }
+;
 this
 .
 queue
@@ -13427,6 +13497,7 @@ return
 DO_NOT_FINISH_TEST
 ;
 }
+;
 var
 invoker
 =
@@ -13703,4 +13774,5 @@ action
 "
 ;
 }
+;
 }

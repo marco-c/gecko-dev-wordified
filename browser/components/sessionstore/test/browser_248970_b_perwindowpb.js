@@ -937,6 +937,7 @@ max_tabs_undo
 +
 1
 )
+;
 /
 /
 populate

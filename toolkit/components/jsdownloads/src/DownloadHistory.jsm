@@ -2919,6 +2919,7 @@ this
 )
 ;
 }
+;
 this
 .
 DownloadHistoryList

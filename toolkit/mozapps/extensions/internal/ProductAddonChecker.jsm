@@ -447,6 +447,7 @@ nsISupports
 )
 ;
 }
+;
 var
 logger
 =
@@ -3275,3 +3276,4 @@ e
 }
 }
 }
+;

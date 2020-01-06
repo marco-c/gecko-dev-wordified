@@ -6009,6 +6009,7 @@ deferred
 resolve
 (
 )
+;
 }
 )
 ;

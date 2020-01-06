@@ -230,6 +230,7 @@ completionFinished
 )
 ;
 }
+;
 do_execute_soon
 (
 doCallback
@@ -889,6 +890,7 @@ cb
 )
 ;
 }
+;
 function
 doTest
 (
@@ -3457,6 +3459,7 @@ newCompleter
 ]
 ]
 }
+;
 doTest
 (
 [
@@ -3583,6 +3586,7 @@ newCompleter
 ]
 ]
 }
+;
 doTest
 (
 [

@@ -60,6 +60,7 @@ MPL
 use
 strict
 "
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -319,6 +320,7 @@ timeout
 ;
 }
 }
+;
 /
 *
 *

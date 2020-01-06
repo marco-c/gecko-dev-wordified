@@ -453,6 +453,7 @@ Promise
 resolve
 (
 )
+;
 }
 )
 ;

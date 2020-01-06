@@ -981,6 +981,7 @@ microphones
 being
 used
 "
+;
 }
 if
 (
@@ -1816,6 +1817,7 @@ return
 device
 .
 name
+;
 }
 this
 )
@@ -2471,3 +2473,4 @@ WEBRTC
 ;
 }
 }
+;

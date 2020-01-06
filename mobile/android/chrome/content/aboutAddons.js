@@ -102,6 +102,7 @@ Services
 jsm
 "
 )
+;
 Cu
 .
 import
@@ -4496,6 +4497,7 @@ id
 ;
 }
 }
+;
 xhr
 .
 send
@@ -6054,6 +6056,7 @@ aInstall
 {
 }
 }
+;
 window
 .
 addEventListener

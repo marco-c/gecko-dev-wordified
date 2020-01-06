@@ -5640,6 +5640,7 @@ stringify
 aEditState
 )
 ]
+;
 }
 )
 ;

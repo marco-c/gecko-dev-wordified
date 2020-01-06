@@ -254,6 +254,7 @@ tab
 ;
 }
 )
+;
 }
 add_task
 (
@@ -614,6 +615,7 @@ true
 ]
 }
 )
+;
 let
 promise
 =

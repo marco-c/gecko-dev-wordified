@@ -1588,6 +1588,7 @@ return
 now
 ;
 }
+;
 /
 /
 Imagine
@@ -2127,6 +2128,7 @@ return
 now
 ;
 }
+;
 /
 /
 Imagine
@@ -2500,6 +2502,7 @@ fxa
 globalBrowseridManager
 .
 _fxaService
+;
 let
 signedInUser
 =
@@ -4225,6 +4228,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -4261,6 +4265,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -4527,6 +4532,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -4563,6 +4569,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -4746,6 +4753,7 @@ certificate
 sign
 "
 )
+;
 return
 {
 status
@@ -4776,6 +4784,7 @@ stringify
 }
 )
 }
+;
 }
 )
 ;
@@ -4896,6 +4905,7 @@ certificate
 sign
 "
 )
+;
 return
 {
 status
@@ -4910,6 +4920,7 @@ body
 "
 "
 }
+;
 }
 )
 ;
@@ -5064,6 +5075,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -5091,6 +5103,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -5244,6 +5257,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -5271,6 +5285,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -6143,6 +6158,7 @@ this
 ;
 }
 }
+;
 /
 /
 The
@@ -6204,6 +6220,7 @@ extra
 )
 ;
 }
+;
 /
 /
 Arrange
@@ -6341,6 +6358,7 @@ storageManager
 ;
 }
 }
+;
 let
 fxa
 =
@@ -6561,6 +6579,7 @@ this
 ;
 }
 }
+;
 /
 /
 The
@@ -6615,6 +6634,7 @@ url
 )
 ;
 }
+;
 /
 /
 Arrange

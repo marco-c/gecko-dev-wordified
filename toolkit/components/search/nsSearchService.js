@@ -1200,6 +1200,7 @@ moz
 :
 distributionID
 "
+;
 const
 MOZ_PARAM_OFFICIAL
 =
@@ -2459,6 +2460,7 @@ aStatusArg
 {
 }
 }
+;
 function
 isPartnerBuild
 (
@@ -6114,6 +6116,7 @@ to
 accordingly
 .
 "
+;
 let
 salt
 =
@@ -13018,6 +13021,7 @@ aWidth
 aHeight
 aIconURL
 )
+;
 }
 break
 ;
@@ -13238,6 +13242,7 @@ aWidth
 aHeight
 dataURL
 )
+;
 }
 notifyAction
 (
@@ -18875,6 +18880,7 @@ nsISearchSubmission
 ]
 )
 }
+;
 /
 /
 nsISearchParseSubmissionResult
@@ -18974,6 +18980,7 @@ nsISearchParseSubmissionResult
 ]
 )
 }
+;
 const
 gEmptyParseSubmissionResult
 =
@@ -25271,6 +25278,7 @@ in
 JARs
 "
 )
+;
 let
 chan
 =
@@ -25497,6 +25505,7 @@ in
 JARs
 "
 )
+;
 let
 listURL
 =
@@ -25702,6 +25711,7 @@ resolve
 )
 ;
 }
+;
 request
 .
 open

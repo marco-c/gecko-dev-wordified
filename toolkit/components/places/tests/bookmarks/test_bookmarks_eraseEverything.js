@@ -79,6 +79,7 @@ removeObserver
 (
 obs
 )
+;
 resolve
 (
 )

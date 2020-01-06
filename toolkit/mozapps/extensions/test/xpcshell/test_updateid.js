@@ -431,6 +431,7 @@ code
 AddonManager
 .
 ERROR_INCORRECT_ID
+;
 }
 "
 Upgrade

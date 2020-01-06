@@ -38,6 +38,7 @@ mozilla
 .
 org
 "
+;
 const
 ID_64
 =
@@ -49,6 +50,7 @@ mozilla
 .
 org
 "
+;
 const
 ID_65
 =
@@ -60,6 +62,7 @@ mozilla
 .
 org
 "
+;
 function
 run_test
 (

@@ -169,6 +169,7 @@ once
 true
 }
 )
+;
 EventUtils
 .
 synthesizeKey

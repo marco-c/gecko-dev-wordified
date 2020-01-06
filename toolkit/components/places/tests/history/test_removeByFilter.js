@@ -1298,6 +1298,7 @@ checkClosure
 (
 uri
 )
+;
 }
 callbackUse
 bookmarkedUri
@@ -1343,6 +1344,7 @@ assertInDB
 (
 uri
 )
+;
 }
 async
 (
@@ -1362,6 +1364,7 @@ assertNotInDB
 (
 uri
 )
+;
 }
 callbackUse
 )
@@ -1402,6 +1405,7 @@ assertInDB
 (
 uri
 )
+;
 }
 async
 (
@@ -1421,6 +1425,7 @@ assertNotInDB
 (
 uri
 )
+;
 }
 callbackUse
 )
@@ -1582,6 +1587,7 @@ assertInDB
 (
 uri
 )
+;
 }
 async
 (
@@ -1601,6 +1607,7 @@ assertInDB
 (
 uri
 )
+;
 }
 callbackUse
 )
@@ -1735,6 +1742,7 @@ assertInDB
 (
 uri
 )
+;
 }
 async
 (
@@ -1754,6 +1762,7 @@ assertNotInDB
 (
 uri
 )
+;
 }
 callbackUse
 )

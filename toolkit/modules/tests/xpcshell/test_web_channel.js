@@ -186,6 +186,7 @@ delete
 (
 channelToRemove
 )
+;
 }
 }
 ;

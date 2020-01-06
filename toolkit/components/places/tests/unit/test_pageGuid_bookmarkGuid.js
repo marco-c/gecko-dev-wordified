@@ -1621,6 +1621,7 @@ should
 fail
 "
 )
+;
 }
 catch
 (

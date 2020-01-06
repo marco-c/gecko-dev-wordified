@@ -495,6 +495,7 @@ ex
 updateManifest
 (
 )
+;
 Assert
 .
 notEqual

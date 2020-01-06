@@ -164,6 +164,7 @@ search
 defaultEngine
 =
 engine2
+;
 do_check_eq
 (
 search

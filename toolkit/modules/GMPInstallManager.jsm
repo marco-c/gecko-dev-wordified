@@ -1493,6 +1493,7 @@ GMPPrefs
 KEY_SECONDS_BETWEEN_CHECKS
 DEFAULT_SECONDS_BETWEEN_CHECKS
 )
+;
 let
 secondsSinceLast
 =
@@ -2911,6 +2912,7 @@ extractedPaths
 )
 ;
 }
+;
 worker
 .
 postMessage

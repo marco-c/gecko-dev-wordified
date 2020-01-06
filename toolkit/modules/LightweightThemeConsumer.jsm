@@ -376,6 +376,7 @@ this
 )
 ;
 }
+;
 LightweightThemeConsumer
 .
 prototype
@@ -462,6 +463,7 @@ lastData
 this
 .
 _lastData
+;
 this
 .
 _update
@@ -1408,6 +1410,7 @@ cssColor
 ;
 }
 }
+;
 function
 _setImage
 (

@@ -109,6 +109,7 @@ contentDocument
 .
 hidden
 )
+;
 let
 errorPageLoaded
 =
@@ -347,6 +348,7 @@ contentDocument
 .
 hidden
 )
+;
 let
 errorPageLoaded
 =

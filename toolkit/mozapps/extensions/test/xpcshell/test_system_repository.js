@@ -347,6 +347,7 @@ org
 }
 )
 )
+;
 startupManager
 (
 )

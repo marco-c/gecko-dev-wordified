@@ -2576,6 +2576,7 @@ null
 null
 false
 ]
+;
 }
 /
 /
@@ -2783,6 +2784,7 @@ toolbar
 sidebar
 "
 ]
+;
 case
 PlacesUtils
 .
@@ -2797,6 +2799,7 @@ menu
 sidebar
 "
 ]
+;
 case
 PlacesUtils
 .
@@ -2808,6 +2811,7 @@ return
 sidebar
 "
 ]
+;
 }
 return
 [

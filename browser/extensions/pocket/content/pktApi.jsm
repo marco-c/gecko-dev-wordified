@@ -703,6 +703,7 @@ return
 out
 ;
 }
+;
 var
 parseJSON
 =
@@ -3553,12 +3554,14 @@ parse
 (
 tagsJSON
 )
+;
 }
 return
 [
 ]
 ;
 }
+;
 var
 sortedUsedTagsFromSettings
 =
@@ -3736,6 +3739,7 @@ return
 usedTags
 ;
 }
+;
 if
 (
 callback
@@ -4055,6 +4059,7 @@ v2
 1
 }
 )
+;
 }
 function
 getMultipleTestOption

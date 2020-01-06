@@ -600,6 +600,7 @@ mozilla
 .
 org
 "
+;
 const
 EXPERIMENT2_XPI_NAME
 =

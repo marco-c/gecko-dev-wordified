@@ -6472,6 +6472,7 @@ false
 result
 =
 val
+;
 }
 )
 ;
@@ -7375,6 +7376,7 @@ path
 }
 return
 entries
+;
 }
 catch
 (
@@ -8084,6 +8086,7 @@ location
 .
 dir
 )
+;
 }
 /
 *
@@ -11567,6 +11570,7 @@ lz4
 "
 }
 )
+;
 this
 .
 _jsonFile
@@ -12483,6 +12487,7 @@ id
 )
 ;
 }
+;
 Object
 .
 values
@@ -18104,6 +18109,7 @@ return
 true
 ;
 }
+;
 if
 (
 !
@@ -20636,6 +20642,7 @@ incorrect
 ID
 "
 )
+;
 continue
 ;
 }
@@ -20842,6 +20849,7 @@ PREF_BRANCH_INSTALLED_ADDON
 id
 true
 )
+;
 /
 /
 aManifests
@@ -28580,6 +28588,7 @@ SpellCheckDictionaryBootstrap
 .
 js
 "
+;
 else
 if
 (
@@ -28607,6 +28616,7 @@ APIExtensionBootstrap
 .
 js
 "
+;
 activeAddon
 .
 bootstrapScope
@@ -33007,6 +33017,7 @@ signedState
 AddonManager
 .
 SIGNEDSTATE_SYSTEM
+;
 case
 KEY_APP_SYSTEM_DEFAULTS
 :
@@ -33511,6 +33522,7 @@ TOOLKIT_ID
 version
 =
 aPlatformVersion
+;
 /
 /
 Only
@@ -33754,6 +33766,7 @@ maxVersion
 =
 0
 )
+;
 }
 get
 matchingTargetApplication
@@ -37759,6 +37772,7 @@ updateAddonDisabledState
 addon
 false
 )
+;
 resolve
 (
 )
@@ -39035,6 +39049,7 @@ this
 _scope
 =
 aScope
+;
 this
 .
 _IDToFileMap
@@ -41011,6 +41026,7 @@ trashDir
 ;
 }
 }
+;
 /
 /
 If
@@ -44087,6 +44103,7 @@ installs
 )
 ;
 }
+;
 }
 await
 install
@@ -44160,6 +44177,7 @@ addon
 .
 version
 }
+;
 }
 previousState
 =
@@ -44960,6 +44978,7 @@ getStagingDir
 {
 }
 }
+;
 /
 *
 *

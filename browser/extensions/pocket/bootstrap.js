@@ -725,6 +725,7 @@ attr
 ;
 }
 )
+;
 return
 element
 ;
@@ -2460,6 +2461,7 @@ showSaveLinkToPocket
 ;
 }
 }
+;
 /
 /
 PocketReader
@@ -2879,6 +2881,7 @@ break
 }
 }
 }
+;
 function
 pktUIGetter
 (
@@ -3851,6 +3854,7 @@ _sheetType
 ;
 }
 }
+;
 /
 /
 use

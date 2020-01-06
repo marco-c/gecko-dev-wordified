@@ -2636,6 +2636,7 @@ resolve
 }
 }
 )
+;
 Services
 .
 obs
@@ -2871,6 +2872,7 @@ onInstallEnded
 resolve
 }
 )
+;
 }
 )
 )

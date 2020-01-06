@@ -2096,6 +2096,7 @@ valueType
 ;
 }
 }
+;
 /
 /
 Check
@@ -8026,6 +8027,7 @@ active
 expectedActiveTicks
 ;
 }
+;
 await
 TelemetryController
 .
@@ -12761,6 +12763,7 @@ p
 .
 id
 )
+;
 }
 )
 )
@@ -12784,7 +12787,9 @@ first
 shutdown
 "
 )
+;
 }
+;
 let
 checkShutdownNotSent
 =
@@ -12999,6 +13004,7 @@ disk
 .
 "
 )
+;
 await
 TelemetryStorage
 .
@@ -13095,6 +13101,7 @@ run
 .
 "
 )
+;
 await
 TelemetryStorage
 .
@@ -13189,6 +13196,7 @@ if
 enabled
 "
 )
+;
 await
 TelemetryStorage
 .
@@ -13307,6 +13315,7 @@ is
 enabled
 "
 )
+;
 /
 /
 Clear
@@ -13339,6 +13348,7 @@ resetPingHandler
 )
 ;
 }
+;
 /
 /
 Remove
@@ -13397,6 +13407,7 @@ Preferences
 ShutdownPingSenderFirstSession
 false
 )
+;
 /
 /
 Set

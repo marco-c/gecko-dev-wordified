@@ -625,6 +625,7 @@ gEMEHandler
 browser
 keySystem
 )
+;
 params
 =
 [
@@ -2129,6 +2130,7 @@ decoderDoctorReportId
 )
 {
 return
+;
 }
 let
 title
@@ -2917,6 +2919,7 @@ TELEMETRY_DDSTAT_SOLVED
 }
 }
 }
+;
 window
 .
 getGroupMessageManager

@@ -28,6 +28,7 @@ feed_discovery
 .
 html
 "
+;
 /
 *
 *
@@ -264,3 +265,4 @@ href
 ;
 }
 )
+;

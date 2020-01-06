@@ -3784,6 +3784,7 @@ library
 recentHighlights
 "
 )
+;
 while
 (
 container
@@ -4824,6 +4825,7 @@ true
 ;
 }
 )
+;
 this
 .
 _hidePopup

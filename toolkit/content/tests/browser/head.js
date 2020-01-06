@@ -1063,6 +1063,7 @@ panel
 DateTimePickerBindingReady
 "
 )
+;
 }
 this
 .

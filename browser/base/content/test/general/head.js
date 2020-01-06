@@ -543,6 +543,7 @@ aCallback
 (
 aBrowserWin
 )
+;
 }
 )
 ;

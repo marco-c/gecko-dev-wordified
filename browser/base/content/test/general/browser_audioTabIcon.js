@@ -2895,6 +2895,7 @@ test_swapped_browser_while_playing
 tab
 newBrowser
 )
+;
 /
 /
 Now

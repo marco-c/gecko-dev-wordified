@@ -907,6 +907,7 @@ aCallback
 finishImmediately
 =
 false
+;
 if
 (
 !
@@ -1640,6 +1641,7 @@ filter
 filterResults
 )
 ]
+;
 }
 /
 *
@@ -3820,6 +3822,7 @@ run_next_test
 ;
 }
 }
+;
 search
 (
 QUERY

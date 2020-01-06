@@ -223,6 +223,7 @@ openPrefsCalled
 )
 ;
 }
+;
 }
 true
 )

@@ -3032,6 +3032,7 @@ PlacesUtils
 LMANNO_SITEURI
 aSource
 )
+;
 this
 .
 siteURI
@@ -4408,6 +4409,7 @@ mozILivemark
 ]
 )
 }
+;
 /
 /
 LivemarkLoadListener
@@ -5313,6 +5315,7 @@ nsIInterfaceRequestor
 ]
 )
 }
+;
 this
 .
 NSGetFactory

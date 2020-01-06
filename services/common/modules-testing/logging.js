@@ -397,6 +397,7 @@ return
 logStats
 ;
 }
+;
 this
 .
 getTestLogger
@@ -420,3 +421,4 @@ Testing
 )
 ;
 }
+;

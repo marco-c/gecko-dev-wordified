@@ -296,6 +296,7 @@ capturing_disabled
 "
 oldEnabledPref
 )
+;
 }
 )
 ;

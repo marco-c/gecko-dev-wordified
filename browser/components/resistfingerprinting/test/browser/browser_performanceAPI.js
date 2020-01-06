@@ -51,6 +51,7 @@ test
 browser
 /
 "
+;
 const
 PERFORMANCE_TIMINGS
 =
@@ -540,6 +541,7 @@ resolve
 ;
 }
 }
+;
 worker
 .
 postMessage

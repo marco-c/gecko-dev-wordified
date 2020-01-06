@@ -354,6 +354,7 @@ state
 :
 update
 "
+;
 const
 STATUS_NOT_CONFIGURED
 =

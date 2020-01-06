@@ -288,6 +288,7 @@ records
 length
 3
 )
+;
 equal
 (
 deletedRecords

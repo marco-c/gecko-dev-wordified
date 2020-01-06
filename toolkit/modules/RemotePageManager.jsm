@@ -332,6 +332,7 @@ callback
 ;
 }
 }
+;
 /
 *
 *
@@ -489,6 +490,7 @@ portCreated
 ;
 }
 }
+;
 RemotePages
 .
 prototype
@@ -1000,6 +1002,7 @@ registerPortListener
 port
 name
 )
+;
 }
 }
 this
@@ -2039,6 +2042,7 @@ swapBrowsers
 )
 ;
 }
+;
 /
 /
 Called
@@ -2784,6 +2788,7 @@ this
 )
 ;
 }
+;
 /
 /
 Allows

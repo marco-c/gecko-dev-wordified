@@ -635,6 +635,7 @@ ExtensionStorageEngine
 "
 }
 }
+;
 if
 (
 Svc
@@ -3906,6 +3907,7 @@ collections
 .
 "
 )
+;
 throw
 info
 ;

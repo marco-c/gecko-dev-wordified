@@ -353,6 +353,7 @@ anonid
 closeIcon
 "
 )
+;
 let
 bounds
 =
@@ -627,6 +628,7 @@ anonid
 closeIcon
 "
 )
+;
 let
 closeIconBounds
 =

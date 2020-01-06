@@ -131,6 +131,7 @@ completed
 true
 )
 ]
+;
 BrowserTestUtils
 .
 synthesizeMouseAtCenter

@@ -718,6 +718,7 @@ history
 "
 value
 }
+;
 }
 )
 ;
@@ -780,6 +781,7 @@ history
 "
 value
 }
+;
 }
 )
 ;

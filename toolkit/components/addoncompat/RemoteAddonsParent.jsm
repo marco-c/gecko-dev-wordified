@@ -3952,6 +3952,7 @@ name
 ;
 }
 }
+;
 let
 proxyEvent
 =
@@ -6072,6 +6073,7 @@ target
 )
 ;
 }
+;
 /
 /
 We
@@ -7344,6 +7346,7 @@ browser
 )
 ;
 }
+;
 var
 RemoteAddonsParent
 =

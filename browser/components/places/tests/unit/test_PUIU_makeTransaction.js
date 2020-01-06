@@ -537,6 +537,7 @@ moz
 org
 /
 "
+;
 const
 TEST_TITLE
 =
@@ -544,6 +545,7 @@ TEST_TITLE
 Places
 bookmark
 "
+;
 waitForBookmarkNotification
 (
 "
@@ -658,6 +660,7 @@ TEST_TITLE
 Places
 folder
 "
+;
 waitForBookmarkNotification
 (
 "
@@ -1275,6 +1278,7 @@ moz
 org
 /
 "
+;
 const
 TEST_TITLE
 =
@@ -1282,6 +1286,7 @@ TEST_TITLE
 Places
 bookmark
 "
+;
 waitForBookmarkNotification
 (
 "
@@ -1639,6 +1644,7 @@ moz
 org
 /
 "
+;
 const
 TEST_TITLE
 =
@@ -1646,6 +1652,7 @@ TEST_TITLE
 Places
 bookmark
 "
+;
 waitForBookmarkNotification
 (
 "

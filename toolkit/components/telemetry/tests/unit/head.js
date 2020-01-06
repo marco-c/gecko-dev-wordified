@@ -1032,6 +1032,7 @@ Ci
 .
 nsIJSON
 )
+;
 if
 (
 request

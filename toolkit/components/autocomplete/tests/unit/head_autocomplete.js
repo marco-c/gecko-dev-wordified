@@ -285,6 +285,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 /
 *
 *
@@ -465,6 +466,7 @@ nsIAutoCompleteResult
 ]
 )
 }
+;
 /
 *
 *
@@ -602,6 +604,7 @@ iid
 ;
 }
 }
+;
 function
 AutocompletePopupBase
 (

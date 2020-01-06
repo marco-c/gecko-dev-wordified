@@ -121,6 +121,7 @@ checkUpdateSecurity
 "
 false
 )
+;
 const
 testserver
 =

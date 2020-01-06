@@ -2685,6 +2685,7 @@ aFolderIdMap
 existingFolderId
 ]
 )
+;
 }
 let
 newFolderIds
@@ -2723,6 +2724,7 @@ p1
 )
 ;
 }
+;
 return
 uri
 .

@@ -638,6 +638,7 @@ path
 :
 COOKIE_PATH
 }
+;
 let
 checker
 =

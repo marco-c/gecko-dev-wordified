@@ -5998,6 +5998,7 @@ permissionType
 popup
 "
 }
+;
 params
 .
 windowTitle

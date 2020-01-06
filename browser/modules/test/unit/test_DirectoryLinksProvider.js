@@ -887,6 +887,7 @@ json
 return
 "
 "
+;
 }
 )
 ;
@@ -1599,6 +1600,7 @@ should
 fail
 "
 )
+;
 }
 catch
 (
@@ -1615,6 +1617,7 @@ fetching
 +
 someJunk
 )
+;
 }
 /
 /
@@ -1722,6 +1725,7 @@ code
 "
 )
 )
+;
 }
 /
 /

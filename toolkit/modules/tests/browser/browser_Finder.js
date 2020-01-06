@@ -229,6 +229,7 @@ resolve
 ;
 }
 )
+;
 }
 let
 promiseFind

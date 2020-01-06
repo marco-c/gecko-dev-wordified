@@ -746,6 +746,7 @@ tab3
 )
 ;
 }
+;
 /
 /
 Press
@@ -1040,6 +1041,7 @@ tab4
 )
 ;
 }
+;
 /
 /
 Press
@@ -1169,6 +1171,7 @@ focusedElement
 id
 }
 )
+;
 }
 true
 )

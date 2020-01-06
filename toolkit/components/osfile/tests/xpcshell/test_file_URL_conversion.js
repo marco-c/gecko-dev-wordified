@@ -1096,6 +1096,7 @@ test
 com
 "
 )
+;
 }
 catch
 (

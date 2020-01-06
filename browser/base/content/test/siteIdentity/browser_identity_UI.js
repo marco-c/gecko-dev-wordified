@@ -397,6 +397,7 @@ effectiveHost
 "
 }
 ]
+;
 var
 gCurrentTest
 gCurrentTestIndex

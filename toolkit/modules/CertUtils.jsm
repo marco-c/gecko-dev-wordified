@@ -433,6 +433,7 @@ return
 certs
 ;
 }
+;
 /
 *
 *
@@ -854,6 +855,7 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
+;
 /
 *
 *
@@ -1243,6 +1245,7 @@ NS_ERROR_ABORT
 )
 ;
 }
+;
 /
 *
 *
@@ -1340,6 +1343,7 @@ allowNonBuiltInCerts
 aAllowNonBuiltInCerts
 ;
 }
+;
 BadCertHandler
 .
 prototype

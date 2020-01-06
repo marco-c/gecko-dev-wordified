@@ -789,6 +789,7 @@ await
 ensure_opentabs_match_db
 (
 )
+;
 await
 BrowserTestUtils
 .

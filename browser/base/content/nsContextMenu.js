@@ -7445,6 +7445,7 @@ tab
 )
 ;
 }
+;
 let
 target
 =
@@ -8990,6 +8991,7 @@ aCount
 ;
 }
 }
+;
 function
 callbacks
 (
@@ -9117,6 +9119,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 /
 /
 if
@@ -9191,6 +9194,7 @@ NS_ERROR_SAVE_LINK_AS_TIMEOUT
 ;
 }
 }
+;
 /
 /
 setting

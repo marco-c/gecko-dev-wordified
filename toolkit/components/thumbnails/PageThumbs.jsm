@@ -1605,6 +1605,7 @@ result
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -2203,6 +2204,7 @@ thumbnail
 )
 ;
 }
+;
 image
 .
 src
@@ -2235,6 +2237,7 @@ imageBlob
 )
 ;
 }
+;
 /
 /
 Send
@@ -5728,6 +5731,7 @@ filter
 (
 filterCallback
 )
+;
 else
 filter
 .

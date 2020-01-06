@@ -296,6 +296,7 @@ nsIFactory
 }
 ;
 }
+;
 this
 .
 MockColorPicker

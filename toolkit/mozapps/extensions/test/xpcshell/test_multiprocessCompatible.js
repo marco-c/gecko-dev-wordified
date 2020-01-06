@@ -188,6 +188,7 @@ maxVersion
 }
 ]
 }
+;
 gServer
 .
 registerPathHandler
@@ -360,6 +361,7 @@ multiprocessCompatible
 =
 false
 )
+;
 await
 promiseCompleteAllInstalls
 (
@@ -552,6 +554,7 @@ null
 )
 ;
 }
+;
 }
 /
 *
@@ -752,6 +755,7 @@ maxVersion
 }
 ]
 }
+;
 let
 xpi1
 =

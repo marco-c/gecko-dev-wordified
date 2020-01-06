@@ -501,6 +501,7 @@ nsIBinaryOutputStream
 setOutputStream
 "
 )
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -1063,6 +1064,7 @@ remove
 (
 false
 )
+;
 }
 catch
 (

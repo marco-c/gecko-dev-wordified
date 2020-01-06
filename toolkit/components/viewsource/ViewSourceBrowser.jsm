@@ -402,6 +402,7 @@ init
 )
 ;
 }
+;
 ViewSourceBrowser
 .
 prototype

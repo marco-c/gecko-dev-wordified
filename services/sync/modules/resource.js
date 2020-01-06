@@ -535,6 +535,7 @@ _onComplete
 )
 ;
 }
+;
 AsyncResource
 .
 prototype

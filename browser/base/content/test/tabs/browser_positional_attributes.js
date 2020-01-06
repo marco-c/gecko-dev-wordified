@@ -429,6 +429,7 @@ tabs
 1
 ]
 )
+;
 testAttrib
 (
 gBrowser

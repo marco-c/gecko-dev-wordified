@@ -144,6 +144,7 @@ random
 *
 255
 )
+;
 }
 return
 buffer
@@ -235,6 +236,7 @@ random
 *
 255
 )
+;
 }
 return
 view
@@ -797,6 +799,7 @@ next
 }
 }
 }
+;
 }
 let
 reader
@@ -862,6 +865,7 @@ next
 }
 }
 }
+;
 }
 function
 verifyBlobArray

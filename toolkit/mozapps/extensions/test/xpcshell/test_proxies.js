@@ -213,6 +213,7 @@ maxVersion
 }
 ]
 }
+;
 const
 ios
 =
@@ -645,6 +646,7 @@ addon
 .
 proxyFile
 )
+;
 }
 else
 if
@@ -669,6 +671,7 @@ addon
 .
 proxyFile
 )
+;
 }
 }
 startupManager

@@ -1103,6 +1103,7 @@ resolve_
 resolve
 =
 resolve_
+;
 }
 )
 ;
@@ -3648,6 +3649,7 @@ age
 seconds
 ago
 .
+;
 let
 processes
 =
@@ -4074,6 +4076,7 @@ of
 BRAND_NAME
 }
 .
+;
 }
 else
 {
@@ -4190,6 +4193,7 @@ generally
 important
 .
 "
+;
 impact
 *
 =
@@ -4211,6 +4215,7 @@ generally
 noticeable
 .
 "
+;
 }
 eltImpact
 .
@@ -5973,6 +5978,7 @@ null
 ;
 }
 }
+;
 let
 eltRefresh
 =

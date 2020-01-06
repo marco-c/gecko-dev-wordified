@@ -1021,6 +1021,7 @@ Map
 (
 sites
 )
+;
 autocompleteObject
 .
 populatePreloadedSiteStorage

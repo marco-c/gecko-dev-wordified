@@ -305,6 +305,7 @@ level
 :
 1
 }
+;
 /
 /
 BackendPass
@@ -356,6 +357,7 @@ fake
 :
 false
 }
+;
 this
 .
 GetBattery
@@ -572,4 +574,5 @@ fakeSetting
 }
 }
 )
+;
 }

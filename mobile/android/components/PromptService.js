@@ -3437,6 +3437,7 @@ _doAsyncPrompt
 ;
 }
 }
+;
 Services
 .
 tm
@@ -3651,6 +3652,7 @@ prompter
 :
 this
 }
+;
 this
 .
 _asyncPrompts
@@ -4159,6 +4161,7 @@ getLoginSavingEnabled
 (
 aHostname
 )
+;
 if
 (
 aSavePassword
@@ -4178,6 +4181,7 @@ nsIAuthPrompt
 .
 SAVE_PASSWORD_PERMANENTLY
 )
+;
 return
 canSave
 ;
@@ -5525,6 +5529,7 @@ value
 aAuthInfo
 .
 password
+;
 return
 [
 username

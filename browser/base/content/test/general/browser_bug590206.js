@@ -876,6 +876,7 @@ text
 html
 hi
 "
+;
 let
 newTab
 =
@@ -978,6 +979,7 @@ about
 :
 robots
 "
+;
 let
 newTab
 =

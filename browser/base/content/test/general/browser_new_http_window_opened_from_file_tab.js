@@ -340,6 +340,7 @@ visible
 .
 "
 )
+;
 ok
 (
 win
@@ -362,6 +363,7 @@ visible
 .
 "
 )
+;
 /
 /
 Open
@@ -481,6 +483,7 @@ visible
 .
 "
 )
+;
 ok
 (
 win2
@@ -503,6 +506,7 @@ visible
 .
 "
 )
+;
 }
 )
 ;

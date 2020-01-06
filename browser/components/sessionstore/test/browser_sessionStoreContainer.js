@@ -159,6 +159,7 @@ promiseTabRestored
 (
 tab2
 )
+;
 await
 ContentTask
 .
@@ -302,6 +303,7 @@ promiseTabRestored
 (
 tab2
 )
+;
 await
 ContentTask
 .

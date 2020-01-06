@@ -3168,6 +3168,7 @@ contentSelectDropdown
 ingroup
 "
 )
+;
 }
 }
 }

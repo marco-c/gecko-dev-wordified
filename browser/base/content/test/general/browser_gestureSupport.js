@@ -5045,6 +5045,7 @@ return
 rotation
 ;
 }
+;
 for
 (
 var

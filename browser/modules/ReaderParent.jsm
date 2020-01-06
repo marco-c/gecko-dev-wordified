@@ -488,6 +488,7 @@ favicon
 )
 }
 )
+;
 }
 function
 onRejection

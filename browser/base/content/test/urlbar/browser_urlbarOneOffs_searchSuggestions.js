@@ -254,6 +254,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 1
@@ -284,6 +285,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 2
@@ -320,6 +322,7 @@ altKey
 true
 }
 )
+;
 assertState
 (
 2
@@ -477,6 +480,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 1
@@ -507,6 +511,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 2
@@ -679,6 +684,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 1

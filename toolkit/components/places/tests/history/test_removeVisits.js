@@ -432,6 +432,7 @@ positive
 .
 "
 )
+;
 do_check_true
 (
 frecencyForUrl
@@ -842,6 +843,7 @@ positive
 .
 "
 )
+;
 do_check_true
 (
 frecencyForUrl
@@ -1211,6 +1213,7 @@ positive
 .
 "
 )
+;
 do_check_true
 (
 frecencyForUrl
@@ -1607,6 +1610,7 @@ PlacesTestUtils
 promiseAsyncUpdates
 (
 )
+;
 do_print
 (
 "
@@ -1617,6 +1621,7 @@ positive
 .
 "
 )
+;
 do_check_true
 (
 frecencyForUrl
@@ -2282,6 +2287,7 @@ smaller
 .
 "
 )
+;
 do_check_true
 (
 frecencyForUrl
@@ -2460,6 +2466,7 @@ zero
 .
 "
 )
+;
 do_check_eq
 (
 frecencyForUrl

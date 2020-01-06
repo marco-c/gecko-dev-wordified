@@ -780,6 +780,7 @@ true
 )
 ;
 }
+;
 addRequest
 .
 onsuccess
@@ -796,6 +797,7 @@ false
 )
 ;
 }
+;
 if
 (
 objectId
@@ -1217,6 +1219,7 @@ numberOfObjects
 )
 ;
 }
+;
 addRequest
 .
 onerror
@@ -1379,6 +1382,7 @@ true
 )
 ;
 }
+;
 readRequest
 .
 onsuccess
@@ -1457,6 +1461,7 @@ false
 ;
 }
 }
+;
 clearAllDatabases
 (
 (

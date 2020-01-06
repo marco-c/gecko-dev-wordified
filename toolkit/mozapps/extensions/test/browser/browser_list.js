@@ -11836,6 +11836,7 @@ get_tooltip_info
 addon
 )
 )
+;
 is
 (
 get_node

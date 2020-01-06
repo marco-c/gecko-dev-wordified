@@ -1432,6 +1432,7 @@ results
 result
 .
 text
+;
 }
 catch
 (

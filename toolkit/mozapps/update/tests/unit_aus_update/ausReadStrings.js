@@ -43,6 +43,7 @@ test_bug473417
 test_bug473417
 "
 )
+;
 const
 BIN_EXE
 =
@@ -146,6 +147,7 @@ copyTo
 workdir
 null
 )
+;
 }
 let
 readStrings

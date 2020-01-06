@@ -481,6 +481,7 @@ resetBranch
 }
 }
 )
+;
 add_task
 (
 async
@@ -730,6 +731,7 @@ resetBranch
 }
 }
 )
+;
 add_task
 (
 async

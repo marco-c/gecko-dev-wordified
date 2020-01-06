@@ -669,6 +669,7 @@ disablePageLabels
 :
 false
 }
+;
 var
 defaultBranch
 =

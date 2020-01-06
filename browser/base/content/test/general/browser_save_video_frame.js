@@ -345,6 +345,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -875,6 +876,7 @@ promiseTransfer
 waitForTransferComplete
 (
 )
+;
 info
 (
 "

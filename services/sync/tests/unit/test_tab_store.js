@@ -1118,6 +1118,7 @@ getMaxRecordPayloadSize
 numtabs
 =
 5200
+;
 _
 (
 "

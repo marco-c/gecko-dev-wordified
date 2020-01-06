@@ -1879,6 +1879,7 @@ getControllerForCommand
 cmd_clearhistory
 "
 )
+;
 ok
 (
 controller

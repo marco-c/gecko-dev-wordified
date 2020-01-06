@@ -6546,6 +6546,7 @@ resolve
 ;
 }
 }
+;
 let
 visitObserver
 =

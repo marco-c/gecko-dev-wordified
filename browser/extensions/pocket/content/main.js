@@ -2004,6 +2004,7 @@ message
 :
 errorMessage
 }
+;
 /
 /
 Send
@@ -2022,6 +2023,7 @@ panelError
 ;
 }
 }
+;
 /
 /
 Add
@@ -3049,6 +3051,7 @@ value
 suggestedTags
 }
 }
+;
 pktUIMessaging
 .
 sendResponseMessageToPanel
@@ -3077,6 +3080,7 @@ error
 }
 }
 )
+;
 }
 )
 ;
@@ -3282,6 +3286,7 @@ error
 }
 }
 )
+;
 }
 )
 ;
@@ -4485,12 +4490,14 @@ id
 .
 "
 )
+;
 return
 false
 ;
 }
 return
 true
+;
 }
 function
 isPocketPanelFrameValid
@@ -4693,6 +4700,7 @@ sendResponseMessageToPanel
 sendErrorMessageToPanel
 sendErrorResponseMessageToPanel
 }
+;
 }
 (
 )

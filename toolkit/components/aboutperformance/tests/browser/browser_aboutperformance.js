@@ -532,6 +532,7 @@ found
 }
 }
 }
+;
 Services
 .
 obs
@@ -795,6 +796,7 @@ return
 match
 ;
 }
+;
 /
 /
 Additional
@@ -1589,6 +1591,7 @@ mode
 ;
 }
 }
+;
 Services
 .
 obs
@@ -2183,6 +2186,7 @@ resolve
 )
 ;
 }
+;
 window
 .
 gBrowser
@@ -2228,6 +2232,7 @@ resolve
 )
 ;
 }
+;
 for
 (
 let

@@ -786,6 +786,7 @@ TMP_PATH
 )
 ;
 }
+;
 await
 test_with_options
 (

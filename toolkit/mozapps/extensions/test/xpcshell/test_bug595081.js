@@ -138,6 +138,7 @@ function
 )
 ;
 }
+;
 AddonManager
 .
 isInstallEnabled

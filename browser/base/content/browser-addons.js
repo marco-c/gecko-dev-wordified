@@ -520,6 +520,7 @@ shift
 )
 ;
 }
+;
 /
 /
 If
@@ -2091,6 +2092,7 @@ AddonManager
 STATE_DOWNLOADED
 ;
 }
+;
 /
 /
 If

@@ -285,6 +285,7 @@ name
 foo
 "
 }
+;
 if
 (
 !
@@ -378,6 +379,7 @@ stopPropagation
 )
 ;
 }
+;
 trans
 .
 oncomplete
@@ -403,6 +405,7 @@ true
 )
 ;
 }
+;
 trans
 .
 onabort
@@ -437,6 +440,7 @@ false
 )
 ;
 }
+;
 let
 completeFired
 =
@@ -598,6 +602,7 @@ some
 data
 "
 )
+;
 let
 trans
 =
@@ -646,6 +651,7 @@ data
 again
 "
 )
+;
 trans
 =
 db

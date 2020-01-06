@@ -341,6 +341,7 @@ annotateEnvironment
 ;
 }
 }
+;
 function
 annotateEnvironment
 (

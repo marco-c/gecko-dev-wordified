@@ -938,6 +938,7 @@ return
 false
 ;
 }
+;
 let
 expected
 =

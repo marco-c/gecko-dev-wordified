@@ -11846,6 +11846,7 @@ aCallbackID
 ;
 }
 )
+;
 }
 getAvailableTargets
 (

@@ -9,6 +9,7 @@ gnome
 /
 background
 "
+;
 const
 DG_IMAGE_KEY
 =
@@ -202,6 +203,7 @@ homeDir
 clone
 (
 )
+;
 wpFileBackup
 .
 append

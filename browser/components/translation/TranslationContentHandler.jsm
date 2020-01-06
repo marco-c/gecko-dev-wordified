@@ -257,6 +257,7 @@ global
 global
 ;
 }
+;
 TranslationContentHandler
 .
 prototype

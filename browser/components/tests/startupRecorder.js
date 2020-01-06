@@ -355,6 +355,7 @@ this
 _resolve
 =
 resolve
+;
 }
 )
 ;

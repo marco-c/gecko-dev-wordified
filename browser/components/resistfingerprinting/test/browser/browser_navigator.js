@@ -70,6 +70,7 @@ test
 browser
 /
 "
+;
 var
 spoofedUserAgent
 ;
@@ -390,6 +391,7 @@ spoofed
 .
 "
 )
+;
 is
 (
 result
@@ -692,6 +694,7 @@ spoofed
 .
 "
 )
+;
 is
 (
 result

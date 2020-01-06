@@ -212,6 +212,7 @@ triggeringPrincipal_base64
 }
 ]
 }
+;
 function
 test
 (

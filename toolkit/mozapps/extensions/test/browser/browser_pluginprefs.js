@@ -164,6 +164,7 @@ should
 exist
 "
 )
+;
 AddonManager
 .
 getAddonByID

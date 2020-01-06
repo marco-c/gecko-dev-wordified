@@ -3498,6 +3498,7 @@ response
 .
 newModified
 )
+;
 }
 }
 ;
@@ -5520,6 +5521,7 @@ collectionName
 timestamp
 ;
 }
+;
 let
 deleteCollections
 =
@@ -6875,6 +6877,7 @@ return
 false
 ;
 }
+;
 switch
 (
 req

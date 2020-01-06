@@ -3650,6 +3650,7 @@ modified
 )
 ;
 }
+;
 let
 p
 =
@@ -4015,6 +4016,7 @@ kind
 key
 "
 }
+;
 SimpleTest
 .
 isDeeply
@@ -4818,6 +4820,7 @@ searchString
 "
 x
 "
+;
 eventData
 .
 originalEvent

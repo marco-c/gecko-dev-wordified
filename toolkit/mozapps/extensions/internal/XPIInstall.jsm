@@ -3588,6 +3588,7 @@ Ci
 .
 nsIRDFXMLParser
 )
+;
 let
 ds
 =
@@ -6782,6 +6783,7 @@ aInstallLocation
 )
 ;
 }
+;
 /
 *
 *
@@ -8299,6 +8301,7 @@ signedState
 )
 ;
 }
+;
 /
 *
 *
@@ -9100,6 +9103,7 @@ path
 }
 return
 entries
+;
 }
 catch
 (
@@ -9241,6 +9245,7 @@ charCodeAt
 )
 )
 )
+;
 return
 hash
 .
@@ -11050,6 +11055,7 @@ missing
 "
 ]
 )
+;
 return
 Promise
 .
@@ -11066,6 +11072,7 @@ failed
 "
 ]
 )
+;
 }
 }
 zipreader
@@ -11744,6 +11751,7 @@ install
 )
 ;
 }
+;
 this
 .
 postpone
@@ -11890,6 +11898,7 @@ this
 .
 wrapper
 )
+;
 return
 ;
 }
@@ -13529,6 +13538,7 @@ this
 .
 wrapper
 )
+;
 /
 /
 upgrade
@@ -14454,6 +14464,7 @@ install
 ;
 }
 }
+;
 this
 .
 DownloadAddonInstall
@@ -14977,6 +14988,7 @@ this
 .
 wrapper
 )
+;
 return
 ;
 }
@@ -17083,6 +17095,7 @@ iid
 ;
 }
 }
+;
 /
 *
 *
@@ -17286,6 +17299,7 @@ STATE_INSTALLED
 ;
 }
 }
+;
 /
 *
 *
@@ -18161,6 +18175,7 @@ this
 )
 ;
 }
+;
 UpdateChecker
 .
 prototype

@@ -60,6 +60,7 @@ MPL
 use
 strict
 "
+;
 var
 Cc
 =

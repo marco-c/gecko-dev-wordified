@@ -101,6 +101,7 @@ task
 )
 ;
 }
+;
 }
 let
 gProvider

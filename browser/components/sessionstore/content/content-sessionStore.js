@@ -364,6 +364,7 @@ ContentRestore
 (
 this
 )
+;
 }
 )
 ;

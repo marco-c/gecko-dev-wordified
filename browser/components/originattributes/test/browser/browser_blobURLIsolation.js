@@ -549,6 +549,7 @@ return
 result
 ;
 }
+;
 }
 let
 tests

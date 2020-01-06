@@ -1945,6 +1945,7 @@ element
 1
 ;
 }
+;
 }
 add_task
 (
@@ -2042,6 +2043,7 @@ removedPaths
 ]
 ;
 }
+;
 let
 MockGMPService
 =

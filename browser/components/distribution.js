@@ -244,6 +244,7 @@ DistributionCustomizer
 )
 {
 }
+;
 DistributionCustomizer
 .
 prototype

@@ -1876,6 +1876,7 @@ ctypes
 CType
 (
 )
+;
 }
 TypeError
 )
@@ -1926,6 +1927,7 @@ CType
 prototype
 (
 )
+;
 }
 TypeError
 )
@@ -2300,6 +2302,7 @@ ctypes
 CData
 (
 )
+;
 }
 TypeError
 )
@@ -13391,6 +13394,7 @@ f
 ]
 (
 )
+;
 }
 TypeError
 )
@@ -13409,6 +13413,7 @@ f
 ]
 (
 )
+;
 }
 TypeError
 )
@@ -17979,6 +17984,7 @@ z_t
 )
 .
 contents
+;
 }
 TypeError
 )
@@ -18304,6 +18310,7 @@ ctypes
 float64_t
 ]
 )
+;
 }
 /
 /
@@ -26543,6 +26550,7 @@ fn_t
 (
 closure_fn
 )
+;
 }
 Error
 )

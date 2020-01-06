@@ -1768,6 +1768,7 @@ this
 attachObservers
 (
 )
+;
 }
 convertStringToLink
 (
@@ -2284,6 +2285,7 @@ remove
 hidden
 "
 )
+;
 event
 .
 stopPropagation
@@ -6824,6 +6826,7 @@ renderStack
 div
 stack
 )
+;
 }
 }
 /
@@ -7582,6 +7585,7 @@ requestJSON
 )
 ;
 }
+;
 var
 ChromeHangs
 =
@@ -9430,6 +9434,7 @@ return
 isPassFunc
 filter
 ]
+;
 }
 filterElements
 (
@@ -10146,6 +10151,7 @@ table
 )
 .
 rows
+;
 keyedSubSections
 .
 push
@@ -10699,6 +10705,7 @@ noSearchResults
 ;
 }
 }
+;
 /
 *
 *
@@ -11084,6 +11091,7 @@ createTextNode
 title
 )
 )
+;
 category
 .
 appendChild
@@ -11361,8 +11369,10 @@ el
 ;
 }
 )
+;
 }
 }
+;
 var
 GenericTable
 =
@@ -12173,6 +12183,7 @@ this
 .
 tableDetailsTitle
 ]
+;
 let
 table
 =
@@ -14350,6 +14361,7 @@ remove
 active
 "
 )
+;
 }
 )
 ;
@@ -14666,6 +14678,7 @@ e
 .
 target
 )
+;
 }
 }
 )
@@ -15884,6 +15897,7 @@ true
 }
 }
 }
+;
 var
 KeyedHistogramSection
 =
@@ -16175,6 +16189,7 @@ true
 }
 }
 }
+;
 var
 SessionInformation
 =
@@ -16261,6 +16276,7 @@ table
 }
 }
 }
+;
 var
 SimpleMeasurements
 =
@@ -16623,6 +16639,7 @@ result
 ;
 }
 }
+;
 function
 renderProcessList
 (
@@ -16963,6 +16980,7 @@ disabled
 true
 ;
 return
+;
 }
 listEl
 .

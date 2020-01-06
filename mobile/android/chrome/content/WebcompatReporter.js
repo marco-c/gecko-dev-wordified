@@ -1017,6 +1017,7 @@ browser
 currentURI
 .
 spec
+;
 let
 webcompatURL
 =

@@ -230,6 +230,7 @@ const
 PERSISTED_ACTIONS_CURRENT_VERSION
 =
 1
+;
 this
 .
 PageActions

@@ -7156,6 +7156,7 @@ aDBConnection
 close
 (
 )
+;
 }
 catch
 (

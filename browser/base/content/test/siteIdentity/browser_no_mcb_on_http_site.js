@@ -310,6 +310,7 @@ openNewForegroundTab
 gBrowser
 url
 )
+;
 gTestBrowser
 =
 tab
@@ -810,6 +811,7 @@ an
 http
 page
 "
+;
 expected
 +
 =

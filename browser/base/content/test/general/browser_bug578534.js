@@ -100,6 +100,7 @@ newURI
 (
 uriString
 )
+;
 let
 cp
 =

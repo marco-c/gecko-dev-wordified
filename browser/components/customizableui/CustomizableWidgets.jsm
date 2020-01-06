@@ -6562,6 +6562,7 @@ PanelUI
 overflowPanel
 ;
 }
+;
 if
 (
 CustomizableUI
@@ -6841,6 +6842,7 @@ gBrowser
 .
 selectedBrowser
 )
+;
 }
 }
 ]

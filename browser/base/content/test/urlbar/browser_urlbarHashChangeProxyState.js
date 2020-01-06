@@ -678,6 +678,7 @@ contentDocument
 .
 hidden
 )
+;
 let
 url
 =

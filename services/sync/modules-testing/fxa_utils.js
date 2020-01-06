@@ -310,6 +310,7 @@ this
 ;
 }
 }
+;
 /
 /
 The
@@ -364,6 +365,7 @@ url
 )
 ;
 }
+;
 /
 /
 Arrange
@@ -477,6 +479,7 @@ new
 MockTSC
 (
 )
+;
 configureFxAccountIdentity
 (
 browseridManager
@@ -489,3 +492,4 @@ _tokenServerClient
 mockTSC
 ;
 }
+;

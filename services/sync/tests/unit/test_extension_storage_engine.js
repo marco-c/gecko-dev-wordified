@@ -196,6 +196,7 @@ options
 returns
 ;
 }
+;
 Object
 .
 setPrototypeOf

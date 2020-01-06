@@ -74,6 +74,7 @@ cachedEvent
 event
 ;
 }
+;
 window
 .
 addEventListener
@@ -714,6 +715,7 @@ DOMMenuItemActive
 last
 "
 ]
+;
 }
 test
 (
@@ -783,6 +785,7 @@ return
 platformIsMac
 (
 )
+;
 }
 events
 :

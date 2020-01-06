@@ -5103,6 +5103,7 @@ getAttribute
 (
 name
 )
+;
 if
 (
 name

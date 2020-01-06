@@ -589,6 +589,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 /
 *
 *
@@ -1312,6 +1313,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -1539,6 +1541,7 @@ autocomplete
 entry
 "
 )
+;
 let
 result
 =
@@ -1576,6 +1579,7 @@ getImageAt
 0
 )
 }
+;
 do_print
 (
 First
@@ -1685,6 +1689,7 @@ getImageAt
 i
 )
 }
+;
 do_print
 (
 Found
@@ -2762,6 +2767,7 @@ params
 engineName
 style
 }
+;
 }
 /
 /
@@ -2838,6 +2844,7 @@ params
 url
 input
 }
+;
 let
 style
 =
@@ -2888,6 +2895,7 @@ title
 url
 style
 }
+;
 }
 function
 makeSwitchToTabMatch
@@ -2931,6 +2939,7 @@ switchtab
 "
 ]
 }
+;
 }
 function
 makeExtensionMatch

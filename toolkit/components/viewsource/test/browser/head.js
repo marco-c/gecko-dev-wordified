@@ -213,6 +213,7 @@ resolve
 ;
 }
 )
+;
 }
 function
 closeViewSourceWindow

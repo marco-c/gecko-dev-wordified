@@ -319,6 +319,7 @@ id
 )
 ;
 }
+;
 HistoryRec
 .
 prototype
@@ -386,6 +387,7 @@ service
 )
 ;
 }
+;
 HistoryEngine
 .
 prototype
@@ -1362,6 +1364,7 @@ insertMany
 (
 records
 )
+;
 }
 return
 failed

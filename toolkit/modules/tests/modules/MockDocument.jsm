@@ -28,6 +28,7 @@ EXPORTED_SYMBOLS
 MockDocument
 "
 ]
+;
 const
 {
 classes

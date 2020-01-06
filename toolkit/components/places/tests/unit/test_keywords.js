@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 async
 function
 check_keyword
@@ -589,6 +590,7 @@ args
 )
 ;
 }
+;
 }
 if
 (

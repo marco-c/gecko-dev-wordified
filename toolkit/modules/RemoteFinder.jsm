@@ -1271,6 +1271,7 @@ aLinksOnly
 ;
 }
 }
+;
 function
 RemoteFinderListener
 (

@@ -336,6 +336,7 @@ bookmarks
 menuGuid
 }
 )
+;
 }
 checkBookmarksExist
 (
@@ -1012,6 +1013,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1136,6 +1138,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1238,6 +1241,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1358,6 +1362,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1484,6 +1489,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1590,6 +1596,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1709,6 +1716,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1838,6 +1846,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =
@@ -1945,6 +1954,7 @@ folderId
 :
 null
 }
+;
 let
 expectPromises
 =

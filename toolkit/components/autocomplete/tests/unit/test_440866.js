@@ -300,6 +300,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 /
 *
 *
@@ -542,6 +543,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 /
 *
 *
@@ -713,6 +715,7 @@ iid
 ;
 }
 }
+;
 /
 *
 *

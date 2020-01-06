@@ -5017,6 +5017,7 @@ view
 )
 ;
 }
+;
 }
 function
 goUpdateDownloadCommands

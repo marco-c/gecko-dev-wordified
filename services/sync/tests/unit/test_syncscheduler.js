@@ -4097,6 +4097,7 @@ return
 false
 ;
 }
+;
 let
 origCanFetchKeys
 =
@@ -7371,6 +7372,7 @@ await
 cleanUpAndGo
 (
 )
+;
 }
 )
 ;

@@ -503,6 +503,7 @@ next
 )
 ;
 }
+;
 yield
 undefined
 ;

@@ -390,6 +390,7 @@ channel
 ;
 }
 }
+;
 this
 .
 FxAccountsProfile
@@ -641,6 +642,7 @@ account
 .
 "
 )
+;
 }
 let
 profileCache

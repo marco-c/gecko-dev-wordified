@@ -290,6 +290,7 @@ id
 )
 ;
 }
+;
 FormRec
 .
 prototype
@@ -431,6 +432,7 @@ callbacks
 ;
 }
 )
+;
 }
 async
 _update
@@ -675,6 +677,7 @@ newGuid
 :
 newGUID
 }
+;
 await
 this
 .
@@ -708,6 +711,7 @@ service
 )
 ;
 }
+;
 FormEngine
 .
 prototype
@@ -956,6 +960,7 @@ guid
 [
 ]
 )
+;
 let
 guids
 =

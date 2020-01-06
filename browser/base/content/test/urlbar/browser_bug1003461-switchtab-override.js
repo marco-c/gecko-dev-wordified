@@ -194,6 +194,7 @@ for
 autocomplete
 "
 )
+;
 let
 deferred
 =
@@ -263,6 +264,7 @@ resolve
 )
 ;
 }
+;
 gURLBar
 .
 focus

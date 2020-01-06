@@ -312,6 +312,7 @@ properties
 ;
 }
 }
+;
 function
 urlSecurityCheck
 (
@@ -2050,6 +2051,7 @@ arguments
 )
 ;
 }
+;
 }
 this
 .
@@ -2262,6 +2264,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 const
 kSaveAsType_Complete
 =
@@ -8833,6 +8836,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 loadgroup
 .
 groupObserver
@@ -8937,6 +8941,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 var
 channel
 =

@@ -1417,6 +1417,7 @@ _viewShowing
 this
 .
 _currentSubView
+;
 }
 get
 _currentSubView
@@ -8757,6 +8758,7 @@ buttonIndex
 .
 disabled
 )
+;
 if
 (
 isDown
@@ -10792,3 +10794,4 @@ px
 }
 }
 }
+;

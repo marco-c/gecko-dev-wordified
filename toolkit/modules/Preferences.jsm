@@ -1588,6 +1588,7 @@ isSet
 (
 prefName
 )
+;
 }
 Preferences
 .

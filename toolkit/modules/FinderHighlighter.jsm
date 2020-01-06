@@ -5958,6 +5958,7 @@ document
 .
 documentElement
 )
+;
 return
 false
 ;

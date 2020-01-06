@@ -175,6 +175,7 @@ close
 ;
 }
 }
+;
 AddonManager
 .
 addAddonListener

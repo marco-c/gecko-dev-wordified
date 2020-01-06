@@ -2457,6 +2457,7 @@ getElementById
 fxaSyncEngines
 "
 )
+;
 for
 (
 let
@@ -3496,7 +3497,9 @@ title
 body
 }
 )
+;
 }
+;
 let
 onError
 =

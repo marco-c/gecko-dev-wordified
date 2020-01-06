@@ -208,6 +208,7 @@ true
 ;
 }
 }
+;
 function
 fullZoomLocationChangeObserver
 (

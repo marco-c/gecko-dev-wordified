@@ -1239,6 +1239,7 @@ length
 >
 0
 )
+;
 for
 (
 let

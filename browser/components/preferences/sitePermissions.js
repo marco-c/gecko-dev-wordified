@@ -749,6 +749,7 @@ stringKey
 "
 prompt
 "
+;
 break
 ;
 }
@@ -1298,6 +1299,7 @@ appendChild
 (
 richlistitem
 )
+;
 }
 onWindowKeyPress
 (

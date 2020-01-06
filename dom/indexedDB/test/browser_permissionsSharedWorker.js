@@ -85,6 +85,7 @@ IDBDatabase
 )
 ;
 }
+;
 request
 .
 onerror
@@ -119,5 +120,8 @@ name
 )
 ;
 }
+;
 }
+;
 }
+;

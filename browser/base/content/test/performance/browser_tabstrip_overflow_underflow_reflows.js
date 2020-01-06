@@ -342,6 +342,7 @@ hasAttribute
 scrolledtoend
 "
 )
+;
 }
 )
 ;

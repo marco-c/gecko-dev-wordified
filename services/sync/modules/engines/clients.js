@@ -647,6 +647,7 @@ id
 )
 ;
 }
+;
 ClientsRec
 .
 prototype
@@ -776,6 +777,7 @@ resolve
 )
 ;
 }
+;
 ClientEngine
 .
 prototype
@@ -1845,6 +1847,7 @@ syncing
 "
 this
 )
+;
 }
 catch
 (
@@ -2112,6 +2115,7 @@ remoteClientCommands
 =
 [
 ]
+;
 if
 (
 remoteClient
@@ -4566,6 +4570,7 @@ syncing
 "
 this
 )
+;
 }
 catch
 (
@@ -7203,6 +7208,7 @@ this
 engine
 .
 brandName
+;
 /
 /
 "

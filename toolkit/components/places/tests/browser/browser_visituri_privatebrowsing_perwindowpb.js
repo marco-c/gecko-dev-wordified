@@ -272,6 +272,7 @@ PlacesTestUtils
 clearHistory
 (
 )
+;
 }
 )
 ;

@@ -174,6 +174,7 @@ authenticator
 null
 ;
 }
+;
 SyncStorageRequest
 .
 prototype

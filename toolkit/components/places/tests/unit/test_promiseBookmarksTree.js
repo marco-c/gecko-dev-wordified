@@ -361,6 +361,7 @@ aItem
 .
 guid
 )
+;
 }
 else
 {

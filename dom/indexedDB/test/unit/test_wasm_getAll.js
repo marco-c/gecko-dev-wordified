@@ -632,6 +632,7 @@ continueToNextStep
 ;
 }
 }
+;
 }
 yield
 undefined

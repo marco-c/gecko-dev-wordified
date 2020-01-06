@@ -374,6 +374,7 @@ push
 (
 placeInfo
 )
+;
 }
 else
 {
@@ -2428,6 +2429,7 @@ resolve
 ;
 }
 }
+;
 if
 (
 name

@@ -114,6 +114,7 @@ MPL
 use
 strict
 "
+;
 const
 {
 interfaces
@@ -339,6 +340,7 @@ device
 .
 "
 )
+;
 return
 new
 Promise
@@ -532,6 +534,7 @@ data
 ;
 }
 )
+;
 }
 classID
 :

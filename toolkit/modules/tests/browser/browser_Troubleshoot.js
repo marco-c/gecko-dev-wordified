@@ -606,6 +606,7 @@ xc5
 xafv
 Krasopis
 "
+;
 let
 unicodeValue
 =

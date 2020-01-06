@@ -428,6 +428,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 async
 function
 ensure_results
@@ -442,6 +443,7 @@ PlacesTestUtils
 promiseAsyncUpdates
 (
 )
+;
 await
 ensure_results_internal
 (

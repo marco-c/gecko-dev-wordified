@@ -451,6 +451,7 @@ addonsConfirmInstallUnsigned
 title
 "
 )
+;
 message
 =
 bundle

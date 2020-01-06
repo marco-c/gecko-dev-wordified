@@ -620,6 +620,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 MockRegistrar
 .
 register

@@ -1035,6 +1035,7 @@ INVOKER_ACTION_FAILED
 ;
 }
 }
+;
 this
 .
 eventSeq
@@ -1076,6 +1077,7 @@ aAccOrElmOrId
 )
 ;
 }
+;
 }
 function
 checkerOfActionInvoker
@@ -1121,6 +1123,7 @@ handling
 "
 ;
 }
+;
 this
 .
 check
@@ -1150,6 +1153,7 @@ aEvent
 )
 ;
 }
+;
 }
 var
 gActionDescrMap

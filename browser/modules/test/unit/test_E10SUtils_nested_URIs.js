@@ -107,6 +107,7 @@ NOT_REMOTE
 fakeRemoteType
 "
 ]
+;
 /
 /
 These
@@ -456,6 +457,7 @@ site
 "
 }
 ]
+;
 function
 run_test
 (

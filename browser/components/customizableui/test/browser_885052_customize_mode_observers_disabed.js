@@ -217,6 +217,7 @@ fullscreen
 .
 "
 )
+;
 ok
 (
 !
@@ -271,6 +272,7 @@ fullscreen
 .
 "
 )
+;
 await
 startCustomizing
 (
@@ -421,6 +423,7 @@ fullscreen
 .
 "
 )
+;
 CustomizableUI
 .
 reset

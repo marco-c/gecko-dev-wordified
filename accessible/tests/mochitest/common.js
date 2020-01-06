@@ -3989,6 +3989,7 @@ results
 .
 NS_ERROR_FAILURE
 )
+;
 }
 ok
 (
@@ -4033,6 +4034,7 @@ results
 .
 NS_ERROR_FAILURE
 )
+;
 }
 ok
 (
@@ -4077,6 +4079,7 @@ results
 .
 NS_ERROR_FAILURE
 )
+;
 }
 ok
 (
@@ -4121,6 +4124,7 @@ results
 .
 NS_ERROR_FAILURE
 )
+;
 }
 ok
 (
@@ -4383,6 +4387,7 @@ item
 (
 index
 )
+;
 return
 str
 ;

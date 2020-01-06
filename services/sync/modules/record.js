@@ -318,6 +318,7 @@ id
 Optional
 .
 }
+;
 WBORecord
 .
 prototype
@@ -873,6 +874,7 @@ id
 id
 ;
 }
+;
 CryptoWrapper
 .
 prototype
@@ -1653,6 +1655,7 @@ _records
 }
 ;
 }
+;
 RecordManager
 .
 prototype
@@ -2100,6 +2103,7 @@ CollectionKeyManager
 )
 ;
 }
+;
 /
 /
 TODO
@@ -3877,6 +3881,7 @@ r
 ;
 }
 }
+;
 this
 .
 Collection
@@ -4054,6 +4059,7 @@ _offset
 null
 ;
 }
+;
 Collection
 .
 prototype
@@ -5125,6 +5131,7 @@ lastModified
 lastModifiedTime
 }
 )
+;
 }
 /
 /
@@ -5395,6 +5402,7 @@ data
 )
 ;
 }
+;
 return
 new
 PostQueue
@@ -8030,3 +8038,4 @@ true
 ;
 }
 }
+;

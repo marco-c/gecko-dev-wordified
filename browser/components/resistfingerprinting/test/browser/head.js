@@ -122,6 +122,7 @@ test
 browser
 /
 "
+;
 /
 /
 If
@@ -505,6 +506,7 @@ test
 browser
 /
 "
+;
 /
 /
 open
@@ -948,6 +950,7 @@ win
 close
 (
 )
+;
 resolve
 (
 )

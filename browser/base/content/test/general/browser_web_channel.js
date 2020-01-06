@@ -1639,6 +1639,7 @@ unsolicited
 resolve
 (
 )
+;
 }
 )
 ;
@@ -2879,6 +2880,7 @@ type
 }
 )
 )
+;
 }
 if
 (

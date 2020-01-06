@@ -596,6 +596,7 @@ aCallback
 (
 aBrowserWin
 )
+;
 }
 )
 ;

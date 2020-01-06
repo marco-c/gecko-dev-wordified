@@ -350,6 +350,7 @@ cache
 .
 enabled
 "
+;
 const
 PREF_GETADDONS_BROWSEADDONS
 =
@@ -449,6 +450,7 @@ getAddons
 .
 databaseSchema
 "
+;
 const
 PREF_METADATA_LASTUPDATE
 =
@@ -571,6 +573,7 @@ DB_SCHEMA
 }
 ;
 }
+;
 const
 TOOLKIT_ID
 =
@@ -969,6 +972,7 @@ getAddonsByIDs
 (
 aIds
 )
+;
 let
 enabledIds
 =
@@ -2522,6 +2526,7 @@ json
 ;
 }
 }
+;
 /
 *
 *
@@ -4833,6 +4838,7 @@ results
 )
 ;
 }
+;
 this
 .
 _beginSearch
@@ -5058,6 +5064,7 @@ aLocalAddonIds
 )
 ;
 }
+;
 this
 .
 _beginSearch
@@ -5242,6 +5249,7 @@ aLocalAddonIds
 )
 ;
 }
+;
 this
 .
 _beginSearch
@@ -6749,6 +6757,7 @@ suggestedAmount
 ;
 }
 break
+;
 case
 "
 payment_data
@@ -6845,6 +6854,7 @@ displayAmount
 ;
 }
 break
+;
 case
 "
 rating
@@ -7960,6 +7970,7 @@ aTotalResults
 )
 ;
 }
+;
 if
 (
 result
@@ -9525,6 +9536,7 @@ utf
 "
 }
 )
+;
 inputDB
 =
 JSON
@@ -10190,6 +10202,7 @@ addons
 [
 ]
 }
+;
 for
 (
 let

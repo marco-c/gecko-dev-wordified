@@ -108,6 +108,7 @@ next
 )
 ;
 }
+;
 }
 function
 finishTest

@@ -410,6 +410,7 @@ run_next_test
 ;
 }
 }
+;
 function
 createTest
 (
@@ -640,6 +641,7 @@ close
 ;
 }
 }
+;
 }
 function
 run_test

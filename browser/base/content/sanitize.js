@@ -4262,6 +4262,7 @@ return
 undefined
 ;
 }
+;
 newWindow
 .
 addEventListener
@@ -4476,6 +4477,7 @@ resolve
 ;
 }
 }
+;
 let
 numWindowsClosing
 =
@@ -4554,6 +4556,7 @@ resolve
 }
 }
 }
+;
 Services
 .
 obs

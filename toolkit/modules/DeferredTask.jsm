@@ -1070,6 +1070,7 @@ DeferredTask
 ;
 }
 }
+;
 this
 .
 DeferredTask

@@ -290,6 +290,7 @@ tree
 container
 "
 )
+;
 await
 BrowserTestUtils
 .

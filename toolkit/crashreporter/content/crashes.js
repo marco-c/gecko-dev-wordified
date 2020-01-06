@@ -719,6 +719,7 @@ toLocaleDateString
 ;
 }
 }
+;
 timeFormatter
 =
 {
@@ -736,6 +737,7 @@ toLocaleTimeString
 ;
 }
 }
+;
 }
 var
 ios

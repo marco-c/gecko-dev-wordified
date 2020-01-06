@@ -1231,6 +1231,7 @@ ex
 }
 ;
 }
+;
 this
 .
 IntegrationPoint

@@ -673,6 +673,7 @@ resolve
 ;
 }
 }
+;
 function
 MockFxAccountsClient
 (
@@ -945,6 +946,7 @@ FxAccountsClient
 .
 prototype
 }
+;
 /
 *
 *
@@ -1919,6 +1921,7 @@ true
 )
 ;
 }
+;
 await
 account
 .
@@ -2036,6 +2039,7 @@ assertion
 new_assertion
 "
 }
+;
 await
 account
 .
@@ -2099,6 +2103,7 @@ assertion
 new_assertion
 "
 }
+;
 await
 Assert
 .
@@ -2129,6 +2134,7 @@ assertion
 new_assertion
 "
 }
+;
 await
 Assert
 .
@@ -2178,6 +2184,7 @@ foo
 bar
 "
 }
+;
 await
 Assert
 .
@@ -3728,6 +3735,7 @@ fxa
 .
 internal
 )
+;
 mock
 .
 expects
@@ -3877,6 +3885,7 @@ fxa
 .
 internal
 )
+;
 mock
 .
 expects
@@ -4059,6 +4068,7 @@ fxa
 .
 internal
 )
+;
 mock
 .
 expects
@@ -4224,6 +4234,7 @@ fxa
 .
 internal
 )
+;
 mock
 .
 expects
@@ -4375,6 +4386,7 @@ fxa
 .
 internal
 )
+;
 mock
 .
 expects
@@ -5090,6 +5102,7 @@ delete
 user
 .
 keyFetchToken
+;
 makeObserver
 (
 ONLOGOUT_NOTIFICATION
@@ -5176,6 +5189,7 @@ rejected
 ;
 }
 )
+;
 }
 )
 ;
@@ -7218,6 +7232,7 @@ run_next_test
 ;
 }
 )
+;
 }
 )
 ;
@@ -8699,6 +8714,7 @@ run_next_test
 ;
 }
 )
+;
 }
 )
 ;
@@ -8888,6 +8904,7 @@ run_next_test
 ;
 }
 )
+;
 }
 )
 ;

@@ -133,6 +133,7 @@ initially
 false
 "
 )
+;
 GetBattery
 (
 )

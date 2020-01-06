@@ -1304,6 +1304,7 @@ implemented
 .
 "
 )
+;
 }
 /
 *
@@ -2159,6 +2160,7 @@ dismiss
 promptAction
 .
 dismiss
+;
 }
 popupNotificationActions
 .

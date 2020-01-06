@@ -622,6 +622,7 @@ startCloseTimer
 )
 ;
 }
+;
 this
 .
 initAutoCloseEvents
@@ -3769,6 +3770,7 @@ autocloseTimingFinalState
 )
 ;
 }
+;
 this
 .
 getTranslations
@@ -4583,6 +4585,7 @@ resp
 ;
 }
 }
+;
 (
 function
 (

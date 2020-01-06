@@ -1341,6 +1341,7 @@ account
 password
 true
 )
+;
 await
 fxAccounts
 .
@@ -1358,6 +1359,7 @@ account
 .
 username
 )
+;
 if
 (
 Weave

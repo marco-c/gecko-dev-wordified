@@ -376,6 +376,7 @@ finishTest
 }
 }
 }
+;
 function
 test
 (

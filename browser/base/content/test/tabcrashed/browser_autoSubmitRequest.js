@@ -174,6 +174,7 @@ false
 ]
 }
 )
+;
 return
 BrowserTestUtils
 .
@@ -346,6 +347,7 @@ checked
 .
 "
 )
+;
 /
 /
 Check
@@ -481,6 +483,7 @@ true
 ]
 }
 )
+;
 return
 BrowserTestUtils
 .

@@ -719,6 +719,7 @@ clipboardSearchString
 options
 .
 searchString
+;
 }
 let
 foundLink
@@ -2039,6 +2040,7 @@ _getWindow
 focus
 (
 )
+;
 }
 }
 catch

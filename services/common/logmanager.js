@@ -61,6 +61,7 @@ use
 strict
 ;
 "
+;
 var
 {
 classes
@@ -1113,6 +1114,7 @@ fullOutputFileName
 ;
 }
 }
+;
 /
 /
 The
@@ -1445,6 +1447,7 @@ level
 level
 ;
 }
+;
 this
 .
 _prefs
@@ -1497,6 +1500,7 @@ return
 observer
 ;
 }
+;
 this
 .
 _observeConsolePref
@@ -2836,3 +2840,4 @@ logs
 ;
 }
 }
+;

@@ -83,6 +83,7 @@ installnow
 click
 (
 )
+;
 }
 )
 ;

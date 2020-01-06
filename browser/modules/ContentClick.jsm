@@ -247,6 +247,7 @@ message
 .
 target
 )
+;
 break
 ;
 }

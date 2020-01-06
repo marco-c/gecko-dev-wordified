@@ -542,6 +542,7 @@ _label
 ;
 }
 }
+;
 var
 gTranslationExceptions
 =

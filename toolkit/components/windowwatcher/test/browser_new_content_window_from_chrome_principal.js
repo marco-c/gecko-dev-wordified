@@ -216,6 +216,7 @@ principal
 .
 "
 )
+;
 Assert
 .
 equal

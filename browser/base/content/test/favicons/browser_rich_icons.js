@@ -69,6 +69,7 @@ test
 favicons
 /
 "
+;
 add_task
 (
 async

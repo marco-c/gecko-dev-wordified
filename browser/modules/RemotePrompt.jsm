@@ -287,6 +287,7 @@ message
 .
 target
 )
+;
 }
 break
 ;
@@ -316,6 +317,7 @@ getTabModalPromptBox
 (
 browser
 )
+;
 let
 newPrompt
 ;

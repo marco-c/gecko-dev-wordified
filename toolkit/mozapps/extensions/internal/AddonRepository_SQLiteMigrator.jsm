@@ -515,6 +515,7 @@ imported
 .
 "
 )
+;
 aCallback
 (
 resultArray
@@ -1219,6 +1220,7 @@ getAllDevelopers
 )
 ;
 }
+;
 /
 /
 Retrieve
@@ -1412,6 +1414,7 @@ getAllScreenshots
 )
 ;
 }
+;
 /
 /
 Retrieve
@@ -1605,6 +1608,7 @@ getAllCompatOverrides
 )
 ;
 }
+;
 let
 getAllCompatOverrides
 =
@@ -1791,6 +1795,7 @@ getAllIcons
 )
 ;
 }
+;
 let
 getAllIcons
 =
@@ -2015,6 +2020,7 @@ returnedAddons
 )
 ;
 }
+;
 /
 /
 Begin
@@ -2455,6 +2461,7 @@ getResultByName
 (
 prop
 )
+;
 }
 return
 addon
@@ -2516,6 +2523,7 @@ getResultByName
 url
 "
 )
+;
 return
 new
 AddonManagerPrivate
@@ -3195,3 +3203,4 @@ addon_internal_id
 ;
 }
 }
+;

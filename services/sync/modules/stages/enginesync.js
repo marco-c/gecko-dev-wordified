@@ -297,6 +297,7 @@ service
 service
 ;
 }
+;
 EngineSynchronizer
 .
 prototype

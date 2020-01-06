@@ -1165,6 +1165,7 @@ resolve
 ;
 }
 )
+;
 }
 function
 onSubmitStatus

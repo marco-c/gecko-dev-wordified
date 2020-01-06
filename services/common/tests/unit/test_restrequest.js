@@ -1782,6 +1782,7 @@ sis
 close
 (
 )
+;
 res
 .
 write
@@ -1895,6 +1896,7 @@ utf
 8
 "
 )
+;
 server
 .
 stop

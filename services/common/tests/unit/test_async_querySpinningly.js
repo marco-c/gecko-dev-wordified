@@ -1071,6 +1071,7 @@ stmt
 finalize
 (
 )
+;
 do_check_true
 (
 !

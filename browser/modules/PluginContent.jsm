@@ -1002,6 +1002,7 @@ data
 state
 }
 )
+;
 break
 ;
 case
@@ -6417,6 +6418,7 @@ return
 fullScreenIframe
 ;
 }
+;
 if
 (
 fullScreenElement

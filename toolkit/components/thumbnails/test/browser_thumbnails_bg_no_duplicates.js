@@ -244,6 +244,7 @@ callbacks
 )
 ;
 }
+;
 BackgroundPageThumbs
 .
 capture
