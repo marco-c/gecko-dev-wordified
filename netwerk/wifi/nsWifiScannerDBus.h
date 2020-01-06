@@ -81,17 +81,6 @@ dbus
 .
 h
 >
-#
-include
-"
-mozilla
-/
-ipc
-/
-DBusConnectionRefPtr
-.
-h
-"
 class
 nsWifiAccessPoint
 ;
