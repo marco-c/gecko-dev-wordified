@@ -164,9 +164,6 @@ uri
 JSContext
 *
 cx
-nsIPrincipal
-*
-systemPrincipal
 JS
 :
 :

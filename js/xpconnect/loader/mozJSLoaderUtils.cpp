@@ -216,9 +216,6 @@ uri
 JSContext
 *
 cx
-nsIPrincipal
-*
-systemPrincipal
 MutableHandleScript
 scriptp
 )
