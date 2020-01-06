@@ -3470,7 +3470,7 @@ nsINode
 outNodeList
 nsINode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsINode

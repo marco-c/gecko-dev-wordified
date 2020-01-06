@@ -20540,7 +20540,7 @@ aSelection
 nsINode
 *
 *
-aStartNode
+aStartContainer
 int32_t
 *
 aStartOffset
@@ -20553,7 +20553,7 @@ aSelection
 ;
 MOZ_ASSERT
 (
-aStartNode
+aStartContainer
 )
 ;
 MOZ_ASSERT
@@ -20562,7 +20562,7 @@ aStartOffset
 )
 ;
 *
-aStartNode
+aStartContainer
 =
 nullptr
 ;
@@ -20619,7 +20619,7 @@ NS_ERROR_FAILURE
 NS_IF_ADDREF
 (
 *
-aStartNode
+aStartContainer
 =
 range
 -
@@ -25451,7 +25451,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -25471,7 +25471,7 @@ nsRange
 :
 CreateRange
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -26288,7 +26288,7 @@ int32_t
 previousSelectedOffset
 nsIDOMNode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -26327,7 +26327,7 @@ action
 aSelection
 previousSelectedNode
 previousSelectedOffset
-aStartNode
+aStartContainer
 aStartOffset
 aEndNode
 aEndOffset

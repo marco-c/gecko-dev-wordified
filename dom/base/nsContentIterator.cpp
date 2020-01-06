@@ -470,7 +470,7 @@ bool
 aIsPreMode
 nsINode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -485,7 +485,7 @@ if
 NS_WARN_IF
 (
 !
-aStartNode
+aStartContainer
 )
 |
 |
@@ -536,7 +536,7 @@ if
 aNode
 =
 =
-aStartNode
+aStartContainer
 |
 |
 aNode
@@ -585,13 +585,13 @@ MOZ_ASSERT
 aNode
 !
 =
-aStartNode
+aStartContainer
 |
 |
 !
 aStartOffset
 "
-aStartNode
+aStartContainer
 doesn
 '
 t
@@ -622,7 +622,7 @@ aEndNode
 !
 aEndOffset
 "
-aStartNode
+aStartContainer
 doesn
 '
 t
@@ -709,7 +709,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aStartNode
+aStartContainer
 aStartOffset
 parent
 indx

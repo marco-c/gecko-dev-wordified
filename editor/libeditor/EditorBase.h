@@ -4415,7 +4415,7 @@ aSelection
 nsINode
 *
 *
-aStartNode
+aStartContainer
 int32_t
 *
 aStartOffset
@@ -4512,7 +4512,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -4698,7 +4698,7 @@ int32_t
 previousSelectedOffset
 nsIDOMNode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
