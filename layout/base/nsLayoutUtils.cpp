@@ -20921,7 +20921,7 @@ false
 }
 builder
 .
-SetHitTestShouldStopAtFirstOpaque
+SetHitTestIsForVisibility
 (
 aFlags
 &
