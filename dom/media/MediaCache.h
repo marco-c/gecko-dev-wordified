@@ -4200,6 +4200,10 @@ Span
 char
 >
 aBuffer
+bool
+aNoteBlockUsage
+=
+false
 )
 ;
 /
