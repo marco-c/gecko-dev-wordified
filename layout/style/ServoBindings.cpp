@@ -6060,13 +6060,6 @@ RawGeckoPresContextBorrowed
 aPresContext
 )
 {
-MutexAutoLock
-lock
-(
-*
-sServoFontMetricsLock
-)
-;
 const
 nsFont
 *
@@ -6169,6 +6162,13 @@ FontID
 >
 (
 aFontId
+)
+;
+MutexAutoLock
+lock
+(
+*
+sServoFontMetricsLock
 )
 ;
 nsRuleNode
