@@ -2459,6 +2459,12 @@ lock
 bool
 mIsWaitingForPaint
 ;
+uintptr_t
+mSlowFlushCount
+;
+uintptr_t
+mTotalFlushCount
+;
 }
 ;
 }
