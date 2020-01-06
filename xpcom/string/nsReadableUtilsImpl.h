@@ -190,7 +190,6 @@ char16_t
 (
 reinterpret_cast
 <
-const
 uintptr_t
 >
 (
