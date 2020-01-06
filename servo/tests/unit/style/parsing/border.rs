@@ -302,6 +302,8 @@ top_left
 0
 .
 width
+(
+)
 )
 tlw
 )
@@ -327,6 +329,8 @@ top_right
 0
 .
 width
+(
+)
 )
 trw
 )
@@ -352,6 +356,8 @@ bottom_right
 0
 .
 width
+(
+)
 )
 brw
 )
@@ -377,6 +383,8 @@ bottom_left
 0
 .
 width
+(
+)
 )
 blw
 )
@@ -402,6 +410,8 @@ top_left
 0
 .
 height
+(
+)
 )
 tlh
 )
@@ -427,6 +437,8 @@ top_right
 0
 .
 height
+(
+)
 )
 trh
 )
@@ -452,6 +464,8 @@ bottom_right
 0
 .
 height
+(
+)
 )
 brh
 )
@@ -477,6 +491,8 @@ bottom_left
 0
 .
 height
+(
+)
 )
 blh
 )

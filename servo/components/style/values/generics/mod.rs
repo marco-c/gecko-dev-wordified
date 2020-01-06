@@ -191,6 +191,10 @@ rect
 ;
 pub
 mod
+size
+;
+pub
+mod
 svg
 ;
 pub

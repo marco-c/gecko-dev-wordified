@@ -5217,6 +5217,8 @@ field
 0
 .
 width
+(
+)
 .
 to_gecko_style_coord
 (
@@ -5235,6 +5237,8 @@ field
 0
 .
 height
+(
+)
 .
 to_gecko_style_coord
 (

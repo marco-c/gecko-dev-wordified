@@ -359,6 +359,7 @@ border
 {
 BorderRadius
 BorderCornerRadius
+BorderSpacing
 }
 ;
 pub

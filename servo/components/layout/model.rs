@@ -3306,6 +3306,8 @@ radius
 0
 .
 width
+(
+)
 .
 to_used_value
 (
@@ -3322,6 +3324,8 @@ radius
 0
 .
 height
+(
+)
 .
 to_used_value
 (
