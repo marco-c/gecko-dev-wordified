@@ -2064,6 +2064,9 @@ aObserver
 nsISupports
 *
 aCX
+nsIDocument
+*
+aLoadingDocument
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -2107,6 +2110,9 @@ aObserver
 nsISupports
 *
 aCX
+nsIDocument
+*
+aLoadingDocument
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -2131,6 +2137,9 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
+nsIDocument
+*
+aLoadingDocument
 imgINotificationObserver
 *
 aObserver

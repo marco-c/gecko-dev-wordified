@@ -6150,6 +6150,9 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
+nsIDocument
+*
+aLoadingDocument
 imgINotificationObserver
 *
 aObserver
@@ -6307,6 +6310,7 @@ Init
 (
 aRequest
 aLoadGroup
+aLoadingDocument
 uri
 aObserver
 )
@@ -9401,6 +9405,9 @@ aObserver
 nsISupports
 *
 aCX
+nsIDocument
+*
+aLoadingDocument
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -9513,6 +9520,7 @@ CreateNewProxyForRequest
 (
 request
 aLoadGroup
+aLoadingDocument
 aObserver
 aLoadFlags
 aProxyRequest
@@ -9736,6 +9744,7 @@ CreateNewProxyForRequest
 (
 request
 aLoadGroup
+aLoadingDocument
 aObserver
 aLoadFlags
 getter_AddRefs
@@ -10062,6 +10071,9 @@ aObserver
 nsISupports
 *
 aCX
+nsIDocument
+*
+aLoadingDocument
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -10868,6 +10880,7 @@ aReferrerPolicy
 aLoadGroup
 aObserver
 aCX
+aLoadingDocument
 aLoadFlags
 aLoadPolicyType
 aProxyRequest
@@ -12291,6 +12304,7 @@ aReferrerPolicy
 aLoadGroup
 aObserver
 aLoadingDocument
+aLoadingDocument
 requestFlags
 aContentPolicyType
 true
@@ -13166,6 +13180,7 @@ CreateNewProxyForRequest
 (
 request
 aLoadGroup
+aLoadingDocument
 aObserver
 requestFlags
 _retval
@@ -13911,6 +13926,7 @@ RP_Unset
 nullptr
 aObserver
 aCX
+doc
 requestFlags
 policyType
 false
@@ -14214,6 +14230,7 @@ CreateNewProxyForRequest
 (
 request
 loadGroup
+doc
 aObserver
 requestFlags
 _retval
@@ -14604,6 +14621,7 @@ CreateNewProxyForRequest
 (
 request
 loadGroup
+doc
 aObserver
 requestFlags
 _retval
