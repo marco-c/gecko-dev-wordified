@@ -17093,13 +17093,6 @@ lowestUsableLayer
 data
 ;
 }
-nsIntRegion
-visibleRegion
-=
-data
-.
-mVisibleRegion
-;
 /
 /
 Also
@@ -17276,7 +17269,9 @@ layer
 .
 if
 (
-visibleRegion
+data
+.
+mVisibleRegion
 .
 Intersects
 (
