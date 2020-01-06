@@ -37154,16 +37154,6 @@ max_script_run_time
 10
 )
 ;
-pref
-(
-"
-dom
-.
-max_ext_content_script_run_time
-"
-5
-)
-;
 /
 /
 Stop

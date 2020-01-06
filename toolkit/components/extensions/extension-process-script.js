@@ -2148,11 +2148,6 @@ mozExtensionHostname
 extension
 .
 uuid
-name
-:
-extension
-.
-name
 baseURL
 :
 extension

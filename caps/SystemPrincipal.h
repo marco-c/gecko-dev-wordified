@@ -215,16 +215,6 @@ Create
 (
 )
 ;
-static
-PrincipalKind
-Kind
-(
-)
-{
-return
-eSystemPrincipal
-;
-}
 NS_DECL_NSISERIALIZABLE
 NS_IMETHOD
 QueryInterface
