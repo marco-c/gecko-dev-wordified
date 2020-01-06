@@ -3234,6 +3234,10 @@ performanceobserverentrylist
 ;
 pub
 mod
+performancepainttiming
+;
+pub
+mod
 performancetiming
 ;
 pub

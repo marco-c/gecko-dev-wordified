@@ -182,6 +182,7 @@ f64
 impl
 PerformanceEntry
 {
+pub
 fn
 new_inherited
 (
