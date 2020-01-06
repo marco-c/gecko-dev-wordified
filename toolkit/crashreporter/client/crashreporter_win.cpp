@@ -5292,9 +5292,7 @@ enabled
 )
 enabled
 =
-ShouldEnableSending
-(
-)
+true
 ;
 CheckDlgButton
 (

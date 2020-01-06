@@ -783,11 +783,6 @@ DeleteDump
 (
 )
 ;
-bool
-ShouldEnableSending
-(
-)
-;
 /
 /
 Telemetry
