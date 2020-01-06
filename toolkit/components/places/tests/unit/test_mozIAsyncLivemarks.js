@@ -1288,9 +1288,7 @@ lastModified
 0
 )
 ;
-do_check_true
-(
-is_time_ordered
+do_check_eq
 (
 livemark
 .
@@ -1298,7 +1296,6 @@ dateAdded
 livemark
 .
 lastModified
-)
 )
 ;
 let
