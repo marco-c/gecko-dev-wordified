@@ -1023,7 +1023,7 @@ reference
 *
 throws
 {
-JavaScriptError
+NoSuchElementError
 }
 *
 If
@@ -1085,7 +1085,7 @@ el
 {
 throw
 new
-JavaScriptError
+NoSuchElementError
 (
 Element
 reference
@@ -1093,6 +1093,7 @@ not
 seen
 before
 :
++
 {
 uuid
 }
