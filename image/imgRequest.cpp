@@ -556,7 +556,7 @@ nsISupports
 aCX
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 int32_t
 aCORSMode
 ReferrerPolicy
@@ -705,9 +705,9 @@ do_QueryInterface
 mChannel
 )
 ;
-mLoadingPrincipal
+mTriggeringPrincipal
 =
-aLoadingPrincipal
+aTriggeringPrincipal
 ;
 mCORSMode
 =
