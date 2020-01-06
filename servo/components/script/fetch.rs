@@ -291,6 +291,7 @@ net_traits
 :
 :
 {
+FetchChannels
 FetchResponseListener
 NetworkError
 }
@@ -507,6 +508,10 @@ mode
 request
 .
 mode
+.
+clone
+(
+)
 use_cors_preflight
 :
 request
@@ -920,7 +925,13 @@ send
 NetTraitsFetch
 (
 request_init
+FetchChannels
+:
+:
+ResponseMsg
+(
 action_sender
+)
 )
 )
 .

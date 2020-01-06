@@ -633,6 +633,7 @@ net_traits
 :
 :
 {
+FetchChannels
 FetchMetadata
 FilteredMetadata
 }
@@ -2170,7 +2171,13 @@ send
 Fetch
 (
 init
+FetchChannels
+:
+:
+ResponseMsg
+(
 action_sender
+)
 )
 )
 .

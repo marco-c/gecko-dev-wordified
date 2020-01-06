@@ -435,7 +435,6 @@ mode
 derive
 (
 Clone
-Copy
 Deserialize
 MallocSizeOf
 PartialEq
@@ -451,6 +450,14 @@ SameOrigin
 NoCors
 CorsMode
 WebSocket
+{
+protocols
+:
+Vec
+<
+String
+>
+}
 }
 /
 /
