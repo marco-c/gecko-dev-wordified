@@ -264,7 +264,7 @@ CallbackObject
 tmp
 -
 >
-DropJSObjects
+ClearJSReferences
 (
 )
 ;
