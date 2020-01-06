@@ -1558,13 +1558,11 @@ devtools
 /
 client
 /
-responsive
-.
-html
+responsivedesign
 /
-browser
-/
-content
+responsivedesign
+-
+child
 .
 js
 "
