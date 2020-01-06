@@ -2554,6 +2554,8 @@ uint8_t
 *
 certArray
 ;
+rv
+=
 cert
 -
 >
@@ -2564,6 +2566,16 @@ length
 &
 certArray
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
 ;
 /
 /
