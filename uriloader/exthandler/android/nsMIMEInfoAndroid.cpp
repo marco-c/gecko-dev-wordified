@@ -382,7 +382,6 @@ if
 IsUTF8
 (
 aMimeType
-true
 )
 )
 return
