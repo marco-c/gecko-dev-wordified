@@ -905,15 +905,6 @@ uint32_t
 length
 )
 ;
-extern
-bool
-ObjectMayHaveExtraIndexedProperties
-(
-JSObject
-*
-obj
-)
-;
 /
 *
 *
