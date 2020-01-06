@@ -116,6 +116,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 Nullable
 ;
 import
@@ -1053,6 +1062,7 @@ hasFastImageURL
 }
 *
 /
+NonNull
 public
 Metadata
 getMetadataSlow
