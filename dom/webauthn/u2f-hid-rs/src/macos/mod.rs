@@ -67,9 +67,6 @@ mod
 iokit
 ;
 mod
-iohid
-;
-mod
 monitor
 ;
 mod

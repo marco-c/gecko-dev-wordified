@@ -92,15 +92,6 @@ use
 platform
 :
 :
-iohid
-:
-:
-*
-;
-use
-platform
-:
-:
 iokit
 :
 :
