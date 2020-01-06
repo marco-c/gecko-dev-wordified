@@ -411,6 +411,24 @@ sphinx_rtd_theme
 '
 )
         
+self
+.
+virtualenv_manager
+.
+install_pip_package
+(
+'
+recommonmark
+=
+=
+0
+.
+4
+.
+0
+'
+)
+        
 import
 sphinx
         
