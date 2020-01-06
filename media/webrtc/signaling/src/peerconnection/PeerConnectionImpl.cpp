@@ -1841,14 +1841,6 @@ PCUuidGenerator
 (
 )
 )
-mNumAudioStreams
-(
-0
-)
-mNumVideoStreams
-(
-0
-)
 mHaveConfiguredCodecs
 (
 false
@@ -13912,10 +13904,6 @@ return
 res
 ;
 }
-mNumAudioStreams
-+
-+
-;
 }
 if
 (
@@ -14003,10 +13991,6 @@ return
 res
 ;
 }
-mNumVideoStreams
-+
-+
-;
 }
 OnNegotiationNeeded
 (
