@@ -1008,13 +1008,7 @@ nextBatchMeta
 )
 ;
 }
-/
-*
-package
--
-local
-*
-/
+private
 void
 doStoreFailed
 (
