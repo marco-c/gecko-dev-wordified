@@ -424,7 +424,7 @@ value
 ComputedAngle
 :
 :
-Degree
+Deg
 (
 value
 )
@@ -466,7 +466,7 @@ value
 ComputedAngle
 :
 :
-Gradian
+Grad
 (
 value
 )
@@ -550,7 +550,7 @@ value
 ComputedAngle
 :
 :
-Radian
+Rad
 (
 value
 )
@@ -650,7 +650,7 @@ value
 ComputedAngle
 :
 :
-Radian
+Rad
 (
 radians
 )

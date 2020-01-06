@@ -843,7 +843,7 @@ reference
 Angle
 :
 :
-Degree
+Deg
 (
 val
 )
@@ -859,7 +859,7 @@ val
 Angle
 :
 :
-Gradian
+Grad
 (
 val
 )
@@ -875,7 +875,7 @@ val
 Angle
 :
 :
-Radian
+Rad
 (
 val
 )
@@ -944,7 +944,7 @@ self
 Angle
 :
 :
-Degree
+Deg
 (
 val
 )
@@ -960,7 +960,7 @@ eCSSUnit_Degree
 Angle
 :
 :
-Gradian
+Grad
 (
 val
 )
@@ -976,7 +976,7 @@ eCSSUnit_Grad
 Angle
 :
 :
-Radian
+Rad
 (
 val
 )
@@ -1047,7 +1047,7 @@ eCSSUnit_Degree
 Angle
 :
 :
-Degree
+Deg
 (
 value
 )
@@ -1060,7 +1060,7 @@ eCSSUnit_Grad
 Angle
 :
 :
-Gradian
+Grad
 (
 value
 )
@@ -1073,7 +1073,7 @@ eCSSUnit_Radian
 Angle
 :
 :
-Radian
+Rad
 (
 value
 )

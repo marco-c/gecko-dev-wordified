@@ -1875,7 +1875,7 @@ coord
 TrackBreadth
 :
 :
-Flex
+Fr
 (
 fr
 )
@@ -2102,7 +2102,7 @@ Some
 TrackBreadth
 :
 :
-Flex
+Fr
 (
 fr
 )
@@ -2513,7 +2513,7 @@ Some
 Angle
 :
 :
-Degree
+Deg
 (
 val
 )
@@ -2532,7 +2532,7 @@ Some
 Angle
 :
 :
-Gradian
+Grad
 (
 val
 )
@@ -2551,7 +2551,7 @@ Some
 Angle
 :
 :
-Radian
+Rad
 (
 val
 )

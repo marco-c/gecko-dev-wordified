@@ -21871,6 +21871,9 @@ NoCalcLength
 Physical
 (
 PhysicalLength
+:
+:
+Mozmm
 (
 value
 )
@@ -22128,7 +22131,7 @@ MozScriptLevel
 MozScriptLevel
 :
 :
-Absolute
+MozAbsolute
 (
 value
 as

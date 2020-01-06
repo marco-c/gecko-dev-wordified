@@ -2128,7 +2128,7 @@ specified
 MozScriptLevel
 :
 :
-Absolute
+MozAbsolute
 (
 abs
 )
@@ -2171,7 +2171,7 @@ specified
 MozScriptLevel
 :
 :
-Absolute
+MozAbsolute
 (
 *
 other
