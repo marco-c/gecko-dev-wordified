@@ -1364,6 +1364,7 @@ restoreBackgroundColor
 end
 class
 nsCocoaWindow
+final
 :
 public
 nsBaseWidget

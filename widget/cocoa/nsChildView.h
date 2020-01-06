@@ -2253,6 +2253,7 @@ nsChildView
 -
 class
 nsChildView
+final
 :
 public
 nsBaseWidget
