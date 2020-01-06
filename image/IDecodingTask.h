@@ -124,6 +124,13 @@ mozilla_image_IDecodingTask_h
 #
 include
 "
+imgFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 NotNull
@@ -142,7 +149,7 @@ h
 #
 include
 "
-imgFrame
+nsIEventTarget
 .
 h
 "

@@ -148,6 +148,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+PLDHashTable
+.
+h
+"
 class
 nsIDocument
 ;

@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 Orientation
 .
 h
