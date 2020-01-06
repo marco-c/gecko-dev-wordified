@@ -2318,11 +2318,7 @@ aContainer
 uint32_t
 aFlags
 )
-;
-void
-UpdateImageContainer
-(
-)
+override
 ;
 /
 /
