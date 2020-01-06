@@ -704,6 +704,15 @@ self
 >
 SendInitComplete
 (
+self
+-
+>
+mDecoder
+-
+>
+GetDescriptionName
+(
+)
 hardwareAccelerated
 hardwareReason
 conversion
