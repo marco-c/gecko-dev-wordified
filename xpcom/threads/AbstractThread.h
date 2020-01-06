@@ -590,6 +590,13 @@ delay
 override
 ;
 enum
+DispatchFailureHandling
+{
+AssertDispatchSuccess
+DontAssertDispatchSuccess
+}
+;
+enum
 DispatchReason
 {
 NormalDispatch
@@ -605,6 +612,10 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
+DispatchFailureHandling
+aHandling
+=
+AssertDispatchSuccess
 DispatchReason
 aReason
 =
@@ -752,7 +763,7 @@ t
 /
 needed
 .
-nsresult
+void
 TailDispatchTasksFor
 (
 AbstractThread

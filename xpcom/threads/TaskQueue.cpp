@@ -258,6 +258,7 @@ ref
 *
 /
 runnable
+DontAssertDispatchSuccess
 NormalDispatch
 )
 ;
@@ -500,6 +501,8 @@ nsIRunnable
 >
 &
 aRunnable
+DispatchFailureHandling
+aFailureHandling
 DispatchReason
 aReason
 )
@@ -546,7 +549,6 @@ currentThread
 )
 )
 {
-return
 currentThread
 -
 >
@@ -562,7 +564,11 @@ aRunnable
 forget
 (
 )
+aFailureHandling
 )
+;
+return
+NS_OK
 ;
 }
 mTasks

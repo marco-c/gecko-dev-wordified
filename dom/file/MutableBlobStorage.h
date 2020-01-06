@@ -396,8 +396,7 @@ MaybeCreateTemporaryFile
 (
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 DispatchToIOThread
 (
 already_AddRefed

@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-Unused
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -346,10 +337,9 @@ mValue
 __func__
 )
 ;
-return
-NS_OK
-;
 }
+else
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -358,7 +348,6 @@ r
 =
 this
 ;
-return
 mTaskQueue
 -
 >
@@ -370,6 +359,10 @@ forget
 (
 )
 )
+;
+}
+return
+NS_OK
 ;
 }
 void
@@ -447,9 +440,6 @@ RunOnTaskQueue
 aFun
 )
 ;
-Unused
-<
-<
 aQueue
 -
 >
@@ -1043,9 +1033,6 @@ get
 (
 )
 ;
-Unused
-<
-<
 queue
 -
 >
@@ -1066,9 +1053,6 @@ get
 (
 )
 ;
-Unused
-<
-<
 queue
 -
 >
@@ -1089,9 +1073,6 @@ get
 (
 )
 ;
-Unused
-<
-<
 queue
 -
 >
@@ -1342,9 +1323,6 @@ aVal
 10
 )
 ;
-Unused
-<
-<
 queue
 -
 >

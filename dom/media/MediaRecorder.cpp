@@ -5769,9 +5769,6 @@ mEncoderThread
 this
 )
 ;
-nsresult
-rv
-=
 mEncoderThread
 -
 >
@@ -5801,14 +5798,6 @@ MediaEncoder
 :
 RegisterListener
 mEncoderListener
-)
-)
-;
-MOZ_DIAGNOSTIC_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
 )
 )
 ;

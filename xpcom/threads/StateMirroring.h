@@ -1277,6 +1277,10 @@ T
 :
 NotifyDisconnected
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
@@ -2544,6 +2548,10 @@ r
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 mCanonical
@@ -2654,6 +2662,10 @@ r
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 mCanonical
