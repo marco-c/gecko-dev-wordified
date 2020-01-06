@@ -1931,6 +1931,13 @@ nsIDocument
 .
 h
 .
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 flags
 DocumentState
