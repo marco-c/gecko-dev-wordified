@@ -20726,6 +20726,8 @@ list
 .
 DeleteAll
 (
+&
+builder
 )
 ;
 return
@@ -24990,6 +24992,8 @@ list
 .
 DeleteAll
 (
+&
+builder
 )
 ;
 return

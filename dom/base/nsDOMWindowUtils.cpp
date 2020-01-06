@@ -19365,7 +19365,7 @@ FrameLayerBuilder
 GetDedicatedLayer
 (
 frame
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_OPACITY
@@ -19525,7 +19525,7 @@ FrameLayerBuilder
 GetDedicatedLayer
 (
 frame
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_TRANSFORM

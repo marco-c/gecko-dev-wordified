@@ -3066,7 +3066,7 @@ PaintTableCellSelection
 "
 TableCellSelection
 "
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_TABLE_CELL_SELECTION

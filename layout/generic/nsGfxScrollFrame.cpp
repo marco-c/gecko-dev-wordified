@@ -19430,7 +19430,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_PERSPECTIVE
@@ -21040,7 +21040,7 @@ GetType
 )
 !
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_CARET
