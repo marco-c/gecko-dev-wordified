@@ -3326,6 +3326,7 @@ unsigned
 int
 SSL_SignatureMaxCount
 (
+void
 )
 ;
 /

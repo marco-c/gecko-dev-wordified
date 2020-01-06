@@ -11018,6 +11018,16 @@ len
 1
 )
 ;
+if
+(
+!
+tokenName
+)
+{
+return
+CK_INVALID_HANDLE
+;
+}
 PORT_Memcpy
 (
 tokenName

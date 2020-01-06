@@ -321,7 +321,7 @@ libaudit
 .
 so
 .
-0
+1
 "
 #
 ifndef

@@ -4127,6 +4127,15 @@ PK11_GetInternalKeySlot
 PRBool
 ret
 =
+PR_FALSE
+;
+if
+(
+slot
+)
+{
+ret
+=
 PK11_NeedPWInitForSlot
 (
 slot
@@ -4137,6 +4146,7 @@ PK11_FreeSlot
 slot
 )
 ;
+}
 return
 ret
 ;
