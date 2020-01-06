@@ -8611,6 +8611,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 {
 as_dmfc1

@@ -2134,6 +2134,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 ;
 void
