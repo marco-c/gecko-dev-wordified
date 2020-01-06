@@ -829,7 +829,9 @@ that
 .
 PlacesUtils
 .
-addLazyBookmarkObserver
+bookmarks
+.
+addObserver
 (
 this
 true
