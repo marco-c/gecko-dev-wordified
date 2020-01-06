@@ -7409,14 +7409,9 @@ defaultLeakThreshold
 tab
 "
 :
-3000
-#
-See
-dependencies
-of
-bug
-1401764
+options
 .
+defaultLeakThreshold
             
 #
 GMP
@@ -7441,6 +7436,32 @@ geckomediaplugin
 20000
         
 }
+        
+#
+See
+the
+dependencies
+of
+bug
+1401764
+.
+        
+if
+mozinfo
+.
+isWin
+:
+            
+options
+.
+leakThresholds
+[
+"
+tab
+"
+]
+=
+1000
         
 #
 XXX
