@@ -151,7 +151,7 @@ mozilla
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 nsString
