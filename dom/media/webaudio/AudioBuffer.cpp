@@ -2495,8 +2495,9 @@ forget
 )
 ;
 }
-ThreadSharedFloatArrayBufferList
-*
+const
+AudioChunk
+&
 AudioBuffer
 :
 :
@@ -2552,13 +2553,6 @@ forget
 }
 return
 mSharedChannels
-.
-mBuffer
--
->
-AsThreadSharedFloatArrayBufferList
-(
-)
 ;
 }
 size_t
