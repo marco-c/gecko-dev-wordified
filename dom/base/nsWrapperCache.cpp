@@ -576,7 +576,7 @@ JSObject
 *
 wrapper
 =
-GetWrapper
+GetWrapperPreserveColor
 (
 )
 ;
