@@ -11454,6 +11454,9 @@ async
 "
 returns
 "
+"
+requireUserInput
+"
 .
 .
 .
@@ -11793,6 +11796,11 @@ schema
 parameters
 isAsync
 hasAsyncCallback
+!
+!
+schema
+.
+requireUserInput
 )
 ;
 }
@@ -11802,6 +11810,7 @@ schema
 parameters
 isAsync
 hasAsyncCallback
+requireUserInput
 )
 {
 super
@@ -11826,6 +11835,12 @@ this
 hasAsyncCallback
 =
 hasAsyncCallback
+;
+this
+.
+requireUserInput
+=
+requireUserInput
 ;
 }
 normalize
@@ -13519,6 +13534,14 @@ type
 .
 hasAsyncCallback
 ;
+this
+.
+requireUserInput
+=
+type
+.
+requireUserInput
+;
 }
 checkValue
 (
@@ -13893,6 +13916,9 @@ callAsyncFunction
 (
 actuals
 callback
+this
+.
+requireUserInput
 )
 ;
 if
