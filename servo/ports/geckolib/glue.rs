@@ -22342,7 +22342,7 @@ data
 .
 stylist
 .
-has_state_dependency
+might_have_state_dependency
 (
 ElementState
 :
