@@ -43620,12 +43620,6 @@ drop
 roots
 during
 shutdown
-(
-the
-cleanUpEverything
-*
-case
-)
 *
 -
 when
@@ -43682,7 +43676,10 @@ if
 rootsRemoved
 &
 &
-cleanUpEverything
+IsShutdownGC
+(
+reason
+)
 )
 {
 /
