@@ -587,11 +587,8 @@ i
 ]
 .
 extData
-[
-"
+.
 uniq
-"
-]
 ;
 if
 (

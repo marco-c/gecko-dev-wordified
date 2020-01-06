@@ -545,11 +545,8 @@ browser
 GetStringFromName
 (
 typeStrings
-[
-"
+.
 label
-"
-]
 )
 ;
 /
@@ -761,11 +758,8 @@ _currentPermissions
 [
 indexToClear
 ]
-[
-"
+.
 type
-"
-]
 ;
 this
 .

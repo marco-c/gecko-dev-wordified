@@ -3620,11 +3620,8 @@ if
 (
 !
 TYPE_CHECK
-[
-"
+.
 object
-"
-]
 (
 manifest
 )

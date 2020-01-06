@@ -4024,11 +4024,8 @@ aInternalCaller
 &
 &
 aProperties
-[
-"
+.
 defaultCollapsed
-"
-]
 )
 {
 throw

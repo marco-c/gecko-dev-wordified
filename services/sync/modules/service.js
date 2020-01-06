@@ -636,11 +636,8 @@ false
 )
 {
 result
-[
-"
+.
 Addresses
-"
-]
 =
 {
 module
@@ -684,11 +681,8 @@ false
 )
 {
 result
-[
-"
+.
 CreditCards
-"
-]
 =
 {
 module

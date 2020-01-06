@@ -243,11 +243,8 @@ indexedDB
 )
 ;
 sandbox
-[
-"
+.
 console
-"
-]
 =
 new
 ConsoleAPI
@@ -389,11 +386,8 @@ scriptURL
 try
 {
 sandbox
-[
-"
+.
 load
-"
-]
 (
 params
 )

@@ -172,11 +172,8 @@ do_check_true
 typeof
 (
 this
-[
-"
+.
 MODULE_IMPORTED
-"
-]
 )
 =
 =
@@ -190,11 +187,8 @@ do_check_true
 typeof
 (
 this
-[
-"
+.
 MODULE_URI
-"
-]
 )
 =
 =
