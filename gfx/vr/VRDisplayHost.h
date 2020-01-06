@@ -605,10 +605,8 @@ mDisplayInfo
 ;
 nsTArray
 <
-RefPtr
-<
 VRLayerParent
->
+*
 >
 mLayers
 ;
