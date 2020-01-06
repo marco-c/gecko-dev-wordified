@@ -153,6 +153,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsThemeConstants
+.
+h
+"
 using
 namespace
 mozilla
