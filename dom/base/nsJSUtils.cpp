@@ -830,9 +830,11 @@ ExecutionContext
 "
 /
 *
-PROFILER_LABEL
+dynamicStr
 *
 /
+nullptr
+__LINE__
 js
 :
 :
@@ -843,7 +845,6 @@ Category
 :
 :
 JS
-__LINE__
 )
 #
 endif

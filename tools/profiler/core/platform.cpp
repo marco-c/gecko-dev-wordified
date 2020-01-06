@@ -3681,11 +3681,7 @@ PseudoStack
 in
 /
 /
-profiler_call_
-{
-enter
-exit
-}
+ProfilerStackFrameRAII
 .
 /
 /
@@ -3768,11 +3764,7 @@ uses
 in
 /
 /
-profiler_call_
-{
-enter
-exit
-}
+ProfilerStackFrameRAII
 .
 MOZ_THREAD_LOCAL
 (
