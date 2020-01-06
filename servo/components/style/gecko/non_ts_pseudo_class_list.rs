@@ -394,7 +394,7 @@ nonzero
 MozTableBorderNonzero
 mozTableBorderNonzero
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -408,7 +408,7 @@ frame
 MozBrowserFrame
 mozBrowserFrame
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -575,8 +575,6 @@ Needs
 pref
 check
 for
-/
-/
 full
 -
 screen
@@ -587,6 +585,18 @@ unprefix
 .
 enabled
 !
+/
+/
+TODO
+(
+TYLin
+)
+:
+Needs
+to
+use
+CSS_PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
+?
 (
 "
 fullscreen
@@ -673,7 +683,7 @@ suppressed
 MozSuppressed
 mozSuppressed
 IN_SUPPRESSED_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -689,7 +699,7 @@ attr
 MozHasDirAttr
 mozHasDirAttr
 IN_HAS_DIR_ATTR_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -705,7 +715,7 @@ ltr
 MozDirAttrLTR
 mozDirAttrLTR
 IN_HAS_DIR_ATTR_LTR_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -721,7 +731,7 @@ rtl
 MozDirAttrRTL
 mozDirAttrRTL
 IN_HAS_DIR_ATTR_RTL_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -739,7 +749,7 @@ auto
 MozDirAttrLikeAuto
 mozDirAttrLikeAuto
 IN_HAS_DIR_ATTR_LIKE_AUTO_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -751,7 +761,7 @@ autofill
 MozAutofill
 mozAutofill
 IN_AUTOFILL_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -765,7 +775,7 @@ preview
 MozAutofillPreview
 mozAutofillPreview
 IN_AUTOFILL_PREVIEW_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -779,7 +789,7 @@ clicktoplay
 MozHandlerClickToPlay
 mozHandlerClickToPlay
 IN_HANDLER_CLICK_TO_PLAY_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -795,7 +805,7 @@ updatable
 MozHandlerVulnerableUpdatable
 mozHandlerVulnerableUpdatable
 IN_HANDLER_VULNERABLE_UPDATABLE_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -813,7 +823,7 @@ update
 MozHandlerVulnerableNoUpdate
 mozHandlerVulnerableNoUpdate
 IN_HANDLER_VULNERABLE_NO_UPDATE_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -827,7 +837,7 @@ disabled
 MozHandlerDisabled
 mozHandlerDisabled
 IN_HANDLER_DISABLED_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -841,7 +851,7 @@ blocked
 MozHandlerBlocked
 mozHandlerBlocked
 IN_HANDLER_BLOCKED_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -855,7 +865,7 @@ crashed
 MozHandlerCrashed
 mozHandlerCrashed
 IN_HANDLER_CRASHED_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -1085,7 +1095,7 @@ disabled
 MozUserDisabled
 mozUserDisabled
 IN_USER_DISABLED_STATE
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
 "
@@ -1141,7 +1151,7 @@ anonymous
 MozNativeAnonymous
 mozNativeAnonymous
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -1159,7 +1169,7 @@ root
 MozUseShadowTreeRoot
 mozUseShadowTreeRoot
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -1257,7 +1267,7 @@ metric
 MozSystemMetric
 mozSystemMetric
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -1277,7 +1287,7 @@ localname
 MozEmptyExceptChildrenWithLocalname
 mozEmptyExceptChildrenWithLocalname
 _
-PSEUDO_CLASS_INTERNAL
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
