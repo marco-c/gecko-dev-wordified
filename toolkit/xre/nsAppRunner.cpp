@@ -25334,6 +25334,13 @@ SetName
 gResetOldProfileName
 )
 ;
+mProfileName
+.
+Assign
+(
+gResetOldProfileName
+)
+;
 /
 /
 Set
