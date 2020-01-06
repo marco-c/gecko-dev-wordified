@@ -6199,8 +6199,7 @@ if
 ComputePrecisionInRange
 (
 cx
--
-20
+0
 MAX_PRECISION
 prec
 &
