@@ -873,6 +873,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 /

@@ -857,11 +857,6 @@ NB_LTP_CBKS
 /
 extern
 const
-opus_int16
-silk_LTP_gain_middle_avg_RD_Q14
-;
-extern
-const
 opus_int8
 *
 const

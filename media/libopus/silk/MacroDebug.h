@@ -4602,11 +4602,6 @@ checking
 needed
 for
 silk_ADD_POS_SAT32
-no
-checking
-needed
-for
-silk_ADD_POS_SAT64
 *
 /
 #

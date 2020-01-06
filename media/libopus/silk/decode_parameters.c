@@ -596,6 +596,10 @@ psDec
 -
 >
 LPC_order
+psDec
+-
+>
+arch
 )
 ;
 /
@@ -776,6 +780,10 @@ psDec
 -
 >
 LPC_order
+psDec
+-
+>
+arch
 )
 ;
 }

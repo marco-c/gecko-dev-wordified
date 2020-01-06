@@ -520,6 +520,17 @@ even
 )
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int

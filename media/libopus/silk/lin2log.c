@@ -480,14 +480,8 @@ approximation
 *
 /
 return
-silk_LSHIFT
+silk_ADD_LSHIFT32
 (
-31
--
-lz
-7
-)
-+
 silk_SMLAWB
 (
 frac_Q7
@@ -499,6 +493,11 @@ frac_Q7
 frac_Q7
 )
 179
+)
+31
+-
+lz
+7
 )
 ;
 }

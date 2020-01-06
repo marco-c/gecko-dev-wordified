@@ -532,6 +532,15 @@ prev_gain_Q16
 =
 65536
 ;
+psDec
+-
+>
+arch
+=
+opus_select_arch
+(
+)
+;
 /
 *
 Reset

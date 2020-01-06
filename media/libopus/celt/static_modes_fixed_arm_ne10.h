@@ -35,7 +35,7 @@ modes
 #
 include
 <
-NE10_init
+NE10_types
 .
 h
 >

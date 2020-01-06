@@ -463,7 +463,7 @@ QA
 #
 define
 N_BITS_HEAD_ROOM
-2
+3
 #
 define
 MIN_RSHIFTS

@@ -1261,8 +1261,10 @@ OpusDecoder
 *
 dec
 ;
-int
+opus_int32
 packet_offset
+;
+int
 ret
 ;
 dec
@@ -2188,6 +2190,9 @@ OPUS_GET_GAIN_REQUEST
 case
 OPUS_GET_LAST_PACKET_DURATION_REQUEST
 :
+case
+OPUS_GET_PHASE_INVERSION_DISABLED_REQUEST
+:
 {
 OpusDecoder
 *
@@ -2573,6 +2578,9 @@ break
 ;
 case
 OPUS_SET_GAIN_REQUEST
+:
+case
+OPUS_SET_PHASE_INVERSION_DISABLED_REQUEST
 :
 {
 int

@@ -438,7 +438,7 @@ m
 .
 r
 =
-SUB32
+SUB32_ovflw
 (
 S_MUL
 (
@@ -475,7 +475,7 @@ m
 .
 i
 =
-ADD32
+ADD32_ovflw
 (
 S_MUL
 (
@@ -527,7 +527,7 @@ m
 .
 r
 =
-ADD32
+ADD32_ovflw
 (
 S_MUL
 (
@@ -564,7 +564,7 @@ m
 .
 i
 =
-SUB32
+SUB32_ovflw
 (
 S_MUL
 (
@@ -734,7 +734,7 @@ res
 .
 r
 =
-ADD32
+ADD32_ovflw
 (
 (
 a
@@ -754,7 +754,7 @@ res
 .
 i
 =
-ADD32
+ADD32_ovflw
 (
 (
 a
@@ -791,7 +791,7 @@ res
 .
 r
 =
-SUB32
+SUB32_ovflw
 (
 (
 a
@@ -811,7 +811,7 @@ res
 .
 i
 =
-SUB32
+SUB32_ovflw
 (
 (
 a
@@ -847,7 +847,7 @@ res
 .
 r
 =
-ADD32
+ADD32_ovflw
 (
 (
 res
@@ -867,7 +867,7 @@ res
 .
 i
 =
-ADD32
+ADD32_ovflw
 (
 (
 res
@@ -903,7 +903,7 @@ res
 .
 r
 =
-ADD32
+ADD32_ovflw
 (
 (
 res
@@ -923,7 +923,7 @@ res
 .
 i
 =
-SUB32
+SUB32_ovflw
 (
 (
 res

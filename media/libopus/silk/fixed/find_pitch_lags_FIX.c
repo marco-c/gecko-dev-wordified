@@ -505,9 +505,7 @@ res_nrg
 const
 opus_int16
 *
-x_buf
-*
-x_buf_ptr
+x_ptr
 ;
 VARDECL
 (
@@ -689,17 +687,6 @@ sCmn
 pitch_LPC_win_length
 )
 ;
-x_buf
-=
-x
--
-psEnc
--
->
-sCmn
-.
-ltp_mem_length
-;
 /
 *
 *
@@ -812,9 +799,9 @@ LA_LTP
 samples
 *
 /
-x_buf_ptr
+x_ptr
 =
-x_buf
+x
 +
 buf_len
 -
@@ -832,7 +819,7 @@ Wsig
 silk_apply_sine_window
 (
 Wsig_ptr
-x_buf_ptr
+x_ptr
 1
 psEnc
 -
@@ -861,7 +848,7 @@ sCmn
 .
 la_pitch
 ;
-x_buf_ptr
+x_ptr
 +
 =
 psEnc
@@ -874,7 +861,7 @@ la_pitch
 silk_memcpy
 (
 Wsig_ptr
-x_buf_ptr
+x_ptr
 (
 psEnc
 -
@@ -929,7 +916,7 @@ la_pitch
 1
 )
 ;
-x_buf_ptr
+x_ptr
 +
 =
 psEnc
@@ -953,7 +940,7 @@ la_pitch
 silk_apply_sine_window
 (
 Wsig_ptr
-x_buf_ptr
+x_ptr
 2
 psEnc
 -
@@ -1272,7 +1259,7 @@ filtering
 silk_LPC_analysis_filter
 (
 res
-x_buf
+x
 A_Q12
 buf_len
 psEnc

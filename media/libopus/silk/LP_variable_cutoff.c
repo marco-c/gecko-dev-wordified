@@ -1211,7 +1211,7 @@ TRANSITION_NA
 2
 )
 ;
-silk_biquad_alt
+silk_biquad_alt_stride1
 (
 frame
 B_Q28
@@ -1222,7 +1222,6 @@ psLP
 In_LP_State
 frame
 frame_length
-1
 )
 ;
 }

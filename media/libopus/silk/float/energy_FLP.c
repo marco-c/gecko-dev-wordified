@@ -438,7 +438,6 @@ dataSize
 {
 opus_int
 i
-dataSize4
 ;
 double
 result
@@ -456,12 +455,6 @@ result
 .
 0
 ;
-dataSize4
-=
-dataSize
-&
-0xFFFC
-;
 for
 (
 i
@@ -470,7 +463,9 @@ i
 ;
 i
 <
-dataSize4
+dataSize
+-
+3
 ;
 i
 +

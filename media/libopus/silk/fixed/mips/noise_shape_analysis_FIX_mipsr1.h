@@ -1998,6 +1998,7 @@ psEnc
 sCmn
 .
 shapingLPCOrder
+arch
 )
 ;
 }
@@ -2484,6 +2485,7 @@ psEnc
 sCmn
 .
 shapingLPCOrder
+arch
 )
 ;
 nrg
@@ -2497,6 +2499,7 @@ psEnc
 sCmn
 .
 shapingLPCOrder
+arch
 )
 ;
 /

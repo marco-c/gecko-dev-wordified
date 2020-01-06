@@ -251,13 +251,6 @@ FFT_ARM_H
 #
 include
 "
-config
-.
-h
-"
-#
-include
-"
 kiss_fft
 .
 h
