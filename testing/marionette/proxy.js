@@ -236,7 +236,7 @@ s
 own
 prototype
 .
-var
+const
 ownPriorityGetterTrap
 =
 {
