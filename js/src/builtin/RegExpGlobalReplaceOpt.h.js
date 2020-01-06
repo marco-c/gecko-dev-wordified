@@ -218,6 +218,12 @@ defined
 (
 FUNCTIONAL
 )
+|
+|
+defined
+(
+ELEMBASE
+)
 /
 /
 Save
@@ -650,6 +656,12 @@ if
 defined
 (
 FUNCTIONAL
+)
+|
+|
+defined
+(
+ELEMBASE
 )
 /
 /
