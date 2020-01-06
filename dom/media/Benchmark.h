@@ -128,14 +128,14 @@ h
 #
 include
 "
-QueueObject
+PlatformDecoderModule
 .
 h
 "
 #
 include
 "
-PlatformDecoderModule
+QueueObject
 .
 h
 "
