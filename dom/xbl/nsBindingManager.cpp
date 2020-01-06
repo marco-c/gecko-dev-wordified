@@ -4430,7 +4430,13 @@ presContext
 {
 styleSetChanged
 =
-true
+styleSet
+-
+>
+SetPresContext
+(
+presContext
+)
 ;
 }
 else
