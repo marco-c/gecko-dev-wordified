@@ -1176,6 +1176,9 @@ element
 /
 /
 has
+or
+will
+have
 CSS
 animation
 style
@@ -1183,10 +1186,10 @@ regardless
 of
 whether
 the
+/
+/
 animation
 is
-/
-/
 running
 or
 not
@@ -1232,7 +1235,12 @@ ForCSSRuleChanges
 )
 &
 &
+(
 has_new_animation_style
+|
+|
+has_animations
+)
 )
 |
 |
