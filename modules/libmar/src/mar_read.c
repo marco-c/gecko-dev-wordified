@@ -3124,7 +3124,7 @@ MarItem
 item
 int
 offset
-char
+uint8_t
 *
 buf
 int
