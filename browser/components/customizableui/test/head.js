@@ -2233,7 +2233,7 @@ seconds
 )
 ;
 function
-onViewShowing
+onViewShown
 (
 e
 )
@@ -2243,9 +2243,9 @@ aSubview
 removeEventListener
 (
 "
-ViewShowing
+ViewShown
 "
-onViewShowing
+onViewShown
 )
 ;
 win
@@ -2265,9 +2265,9 @@ aSubview
 addEventListener
 (
 "
-ViewShowing
+ViewShown
 "
-onViewShowing
+onViewShown
 )
 ;
 }

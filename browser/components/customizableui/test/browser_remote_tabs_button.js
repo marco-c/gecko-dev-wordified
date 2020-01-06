@@ -96,6 +96,11 @@ syncService
 .
 Service
 ;
+const
+{
+UIState
+}
+=
 Components
 .
 utils
@@ -115,6 +120,8 @@ UIState
 .
 jsm
 "
+{
+}
 )
 ;
 let
