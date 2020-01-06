@@ -398,9 +398,6 @@ MediaSourceDecoder
 :
 Load
 (
-nsIStreamListener
-*
-*
 )
 {
 MOZ_ASSERT
