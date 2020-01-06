@@ -1905,6 +1905,7 @@ panel
 .
 hidePopup
 (
+true
 )
 ;
 }
