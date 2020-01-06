@@ -921,6 +921,7 @@ context
 /
 startup
 (
+reason
 )
 {
 if
@@ -1341,6 +1342,7 @@ extension
 .
 startup
 (
+reason
 )
 .
 catch
@@ -1426,6 +1428,7 @@ done
 /
 shutdown
 (
+reason
 )
 {
 EmbeddedExtensionManager
@@ -1479,6 +1482,7 @@ extension
 .
 shutdown
 (
+reason
 )
 ;
 }
@@ -1555,6 +1559,7 @@ extension
 .
 shutdown
 (
+reason
 )
 ;
 }
