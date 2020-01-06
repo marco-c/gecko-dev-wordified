@@ -3146,6 +3146,12 @@ mTransactionIdAllocator
 >
 GetTransactionId
 (
+/
+*
+aThrottle
+*
+/
+true
 )
 ;
 {

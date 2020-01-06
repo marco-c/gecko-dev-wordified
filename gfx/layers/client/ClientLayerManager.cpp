@@ -4165,6 +4165,8 @@ mTransactionIdAllocator
 >
 GetTransactionId
 (
+!
+mIsRepeatTransaction
 )
 ;
 TimeStamp
