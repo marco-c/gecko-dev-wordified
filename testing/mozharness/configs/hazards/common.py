@@ -203,16 +203,28 @@ py
 virtualenv
 "
 :
+[
+PYTHON_DIR
++
+"
+/
+bin
+/
+python
+"
 "
 /
 tools
 /
-virtualenv
+misc
+-
+python
 /
-bin
-/
 virtualenv
+.
+py
 "
+]
     
 }
     

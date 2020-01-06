@@ -234,6 +234,13 @@ PATH
 :
 '
 /
+tools
+/
+buildbot
+/
+bin
+:
+/
 usr
 /
 local
