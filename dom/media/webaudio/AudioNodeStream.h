@@ -595,6 +595,15 @@ ThreadSharedFloatArrayBufferList
 aBuffer
 )
 ;
+void
+SetBuffer
+(
+AudioChunk
+&
+&
+aBuffer
+)
+;
 /
 /
 This
