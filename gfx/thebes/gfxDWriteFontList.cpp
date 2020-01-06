@@ -1252,6 +1252,7 @@ gfxDWriteFontEntry
 (
 fullID
 font
+mIsSystemFontFamily
 )
 ;
 fe
@@ -3567,6 +3568,11 @@ new
 UnscaledFontDWrite
 (
 fontFace
+mIsSystemFont
+?
+mFont
+:
+nullptr
 sims
 )
 ;
@@ -6742,6 +6748,10 @@ gfxDWriteFontFamily
 (
 familyName
 family
+aCollection
+=
+=
+mSystemFonts
 )
 ;
 if

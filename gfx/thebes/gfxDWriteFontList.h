@@ -280,6 +280,10 @@ aName
 IDWriteFontFamily
 *
 aFamily
+bool
+aIsSystemFontFamily
+=
+false
 )
 :
 gfxFontFamily
@@ -289,6 +293,10 @@ aName
 mDWFamily
 (
 aFamily
+)
+mIsSystemFontFamily
+(
+aIsSystemFontFamily
 )
 mForceGDIClassic
 (
@@ -434,6 +442,9 @@ IDWriteFontFamily
 mDWFamily
 ;
 bool
+mIsSystemFontFamily
+;
+bool
 mForceGDIClassic
 ;
 }
@@ -506,6 +517,10 @@ aFaceName
 IDWriteFont
 *
 aFont
+bool
+aIsSystemFont
+=
+false
 )
 :
 gfxFontEntry
@@ -519,6 +534,10 @@ aFont
 mFontFile
 (
 nullptr
+)
+mIsSystemFont
+(
+aIsSystemFont
 )
 mForceGDIClassic
 (
@@ -735,6 +754,10 @@ mFontFile
 (
 nullptr
 )
+mIsSystemFont
+(
+false
+)
 mForceGDIClassic
 (
 false
@@ -864,6 +887,10 @@ aFontFile
 mFontFileStream
 (
 aFontFileStream
+)
+mIsSystemFont
+(
+false
 )
 mForceGDIClassic
 (
@@ -1146,6 +1173,9 @@ mFaceType
 ;
 int8_t
 mIsCJK
+;
+bool
+mIsSystemFont
 ;
 bool
 mForceGDIClassic
