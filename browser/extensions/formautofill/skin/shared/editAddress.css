@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+html
+{
+width
+:
+620px
+;
+}
 body
 {
 font
@@ -110,7 +117,9 @@ flex
 :
 0
 0
-8em
+9
+.
+5em
 ;
 padding
 -
@@ -168,7 +177,9 @@ calc
 50
 %
 -
-8em
+9
+.
+5em
 )
 ;
 }
