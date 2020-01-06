@@ -7484,9 +7484,11 @@ return
 true
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
-IsIterator
+js
+:
+:
+IsLegacyIterator
 (
 HandleValue
 v
@@ -7531,7 +7533,7 @@ args
 {
 MOZ_ASSERT
 (
-IsIterator
+IsLegacyIterator
 (
 args
 .
@@ -7665,7 +7667,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsIterator
+IsLegacyIterator
 legacy_iterator_next_impl
 >
 (
