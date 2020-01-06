@@ -204,6 +204,13 @@ h
 #
 include
 "
+AccessibleDocument_i
+.
+c
+"
+#
+include
+"
 AccessibleHypertext2_i
 .
 c
