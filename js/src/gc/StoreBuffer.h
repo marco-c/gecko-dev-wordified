@@ -158,6 +158,15 @@ include
 "
 ds
 /
+BitArray
+.
+h
+"
+#
+include
+"
+ds
+/
 LifoAlloc
 .
 h
