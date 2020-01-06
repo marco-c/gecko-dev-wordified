@@ -3080,7 +3080,7 @@ types
 /
 /
 /
-struct
+class
 PtrInfo
 ;
 class
@@ -4063,9 +4063,12 @@ each
 cycle
 collection
 .
-struct
+class
 PtrInfo
+final
 {
+public
+:
 void
 *
 mPointer
