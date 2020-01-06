@@ -450,6 +450,7 @@ text
 :
 :
 {
+InitialLetter
 LetterSpacing
 LineHeight
 WordSpacing
