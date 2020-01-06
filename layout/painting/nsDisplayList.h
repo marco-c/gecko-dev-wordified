@@ -10081,6 +10081,10 @@ friend
 class
 nsDisplayOwnLayer
 ;
+friend
+struct
+RetainedDisplayListBuilder
+;
 AnimatedGeometryRoot
 *
 FindAnimatedGeometryRootFor
@@ -27079,7 +27083,6 @@ nsDisplayItem
 *
 nsDisplayItem
 *
-bool
 )
 ;
 /
