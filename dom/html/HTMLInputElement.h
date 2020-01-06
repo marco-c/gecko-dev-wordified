@@ -3103,6 +3103,14 @@ GetFiles
 (
 )
 ;
+void
+SetFiles
+(
+FileList
+*
+aFiles
+)
+;
 /
 /
 XPCOM
