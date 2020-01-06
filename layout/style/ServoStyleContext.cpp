@@ -158,9 +158,6 @@ ServoStyleContext
 :
 ServoStyleContext
 (
-nsStyleContext
-*
-aParent
 nsPresContext
 *
 aPresContext
@@ -175,7 +172,6 @@ aComputedValues
 :
 nsStyleContext
 (
-aParent
 aPseudoTag
 aPseudoType
 )
@@ -196,8 +192,11 @@ this
 )
 )
 ;
-FinishConstruction
+MOZ_ASSERT
 (
+ComputedData
+(
+)
 )
 ;
 /

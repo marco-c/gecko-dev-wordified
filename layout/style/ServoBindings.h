@@ -4412,14 +4412,6 @@ h
 undef
 STYLE_STRUCT
 void
-Gecko_Construct_nsStyleVariables
-(
-nsStyleVariables
-*
-ptr
-)
-;
-void
 Gecko_RegisterProfilerThread
 (
 const
