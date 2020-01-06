@@ -370,7 +370,15 @@ aResolve
 {
 aResolve
 (
-MakeTuple
+Tuple
+<
+const
+uint32_t
+&
+const
+uint32_t
+&
+>
 (
 sMagic1
 sMagic2
