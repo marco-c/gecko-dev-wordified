@@ -2993,6 +2993,8 @@ PaintedLayer
 aLayer
 uint32_t
 aFlags
+bool
+aCopyToBackBuffer
 )
 {
 PaintState
@@ -3865,6 +3867,9 @@ HaveBuffer
 {
 if
 (
+aCopyToBackBuffer
+&
+&
 LockBuffers
 (
 )
@@ -4721,6 +4726,12 @@ destDTBuffer
 destDTBufferOnWhite
 )
 ;
+result
+.
+mFinalizeOnPaintThread
+=
+false
+;
 if
 (
 !
@@ -4943,6 +4954,12 @@ destDTBuffer
 &
 destDTBufferOnWhite
 )
+;
+result
+.
+mFinalizeOnPaintThread
+=
+false
 ;
 if
 (
