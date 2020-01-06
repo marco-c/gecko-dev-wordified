@@ -594,6 +594,10 @@ GetStyleSheetURL
 bool
 *
 aIsInline
+nsIPrincipal
+*
+*
+aTriggeringPrincipal
 )
 =
 0
@@ -836,6 +840,12 @@ mStyleSheet
 ;
 protected
 :
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
+;
 bool
 mDontLoadStyle
 ;

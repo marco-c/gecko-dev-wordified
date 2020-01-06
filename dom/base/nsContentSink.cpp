@@ -4667,6 +4667,7 @@ LoadStyleLink
 (
 aElement
 url
+nullptr
 aTitle
 aMedia
 aAlternate

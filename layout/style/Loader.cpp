@@ -12438,6 +12438,9 @@ aElement
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aTriggeringPrincipal
 const
 nsAString
 &
@@ -12620,6 +12623,16 @@ nsIPrincipal
 *
 principal
 =
+aTriggeringPrincipal
+;
+if
+(
+!
+principal
+)
+{
+principal
+=
 aElement
 ?
 aElement
@@ -12636,6 +12649,7 @@ NodePrincipal
 (
 )
 ;
+}
 nsISupports
 *
 context

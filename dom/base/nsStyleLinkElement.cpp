@@ -2597,6 +2597,12 @@ isInline
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+triggeringPrincipal
+;
+nsCOMPtr
+<
 nsIURI
 >
 uri
@@ -2605,6 +2611,10 @@ GetStyleSheetURL
 (
 &
 isInline
+getter_AddRefs
+(
+triggeringPrincipal
+)
 )
 ;
 if
@@ -3184,6 +3194,7 @@ LoadStyleLink
 (
 thisContent
 clonedURI
+triggeringPrincipal
 title
 media
 isAlternate
