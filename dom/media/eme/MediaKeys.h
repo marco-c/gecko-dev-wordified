@@ -912,7 +912,7 @@ on
 Fennec
 )
 or
-GMPCDMProxy
+ChromiumCDMProxy
 (
 the
 rest
