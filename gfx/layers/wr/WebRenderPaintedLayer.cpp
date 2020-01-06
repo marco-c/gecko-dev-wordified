@@ -398,6 +398,13 @@ helper
 mImageContainer
 mImageClient
 imageSize
+gfx
+:
+:
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 {
