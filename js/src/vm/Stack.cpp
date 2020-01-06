@@ -2019,7 +2019,7 @@ callee
 (
 )
 .
-isStarGenerator
+isGenerator
 (
 )
 &

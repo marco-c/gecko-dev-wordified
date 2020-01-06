@@ -19382,7 +19382,7 @@ pn
 pn_funbox
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ?

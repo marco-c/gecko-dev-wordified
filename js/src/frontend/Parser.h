@@ -998,12 +998,13 @@ bool
 yieldExpressionsSupported
 (
 )
+const
 {
 return
 pc
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;

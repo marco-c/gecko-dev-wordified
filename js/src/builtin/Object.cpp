@@ -2492,7 +2492,7 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )

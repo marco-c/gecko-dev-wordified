@@ -4742,7 +4742,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

@@ -1375,7 +1375,7 @@ if
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

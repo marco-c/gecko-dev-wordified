@@ -2211,7 +2211,7 @@ asFunctionBox
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -29474,7 +29474,7 @@ argumentsHasLocalBinding
 funbox
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &
@@ -52256,7 +52256,7 @@ isArrow
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -52654,7 +52654,7 @@ isArrow
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -52753,12 +52753,12 @@ isAsync
 )
 ;
 bool
-isStarGenerator
+isGenerator
 =
 funbox
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;
@@ -52768,7 +52768,7 @@ emitLambda
 [
 index
 isAsync
-isStarGenerator
+isGenerator
 ]
 (
 BytecodeEmitter
@@ -52806,7 +52806,7 @@ isArrow
 *
 /
 false
-isStarGenerator
+isGenerator
 )
 ;
 }
@@ -52948,7 +52948,7 @@ needsHomeObject
 bool
 isArrow
 bool
-isStarGenerator
+isGenerator
 )
 {
 /
@@ -53180,7 +53180,7 @@ false
 }
 if
 (
-isStarGenerator
+isGenerator
 )
 {
 if
@@ -54788,7 +54788,7 @@ asFunctionBox
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;
@@ -55688,7 +55688,7 @@ asFunctionBox
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )

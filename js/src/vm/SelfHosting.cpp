@@ -21797,7 +21797,7 @@ MOZ_ASSERT
 sourceFun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &

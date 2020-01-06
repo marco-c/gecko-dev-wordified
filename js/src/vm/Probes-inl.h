@@ -287,7 +287,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &

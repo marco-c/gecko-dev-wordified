@@ -33301,7 +33301,7 @@ isDebuggee
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

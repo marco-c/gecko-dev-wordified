@@ -995,7 +995,7 @@ isDerivedClassConstructor
 )
 |
 |
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -3333,6 +3333,9 @@ return
 js
 :
 :
+GeneratorKind
+:
+:
 NotGenerator
 ;
 if
@@ -3383,11 +3386,14 @@ return
 js
 :
 :
+GeneratorKind
+:
+:
 NotGenerator
 ;
 }
 bool
-isStarGenerator
+isGenerator
 (
 )
 const
@@ -3401,7 +3407,10 @@ generatorKind
 js
 :
 :
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 ;
 }
 js
