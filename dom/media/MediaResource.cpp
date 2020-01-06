@@ -4759,8 +4759,6 @@ else
 int64_t
 totalLength
 =
-mCacheStream
-.
 GetLength
 (
 )
