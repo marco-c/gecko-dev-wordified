@@ -96,10 +96,14 @@ column
 -
 count
 "
-experimental
+servo_pref
 =
 "
-True
+layout
+.
+columns
+.
+enabled
 "
 derive_serialize
 =

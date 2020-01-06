@@ -727,7 +727,7 @@ flag
 :
 p
 .
-experimental
+servo_pref
             
 "
 shorthand
