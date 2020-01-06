@@ -207,7 +207,10 @@ aOwner
 :
 HTMLFormSubmission
 (
+WrapNotNull
+(
 UTF_8_ENCODING
+)
 nullptr
 )
 mOwner
@@ -2352,7 +2355,10 @@ aCharset
 FSMultipartFormData
 fs
 (
+WrapNotNull
+(
 UTF_8_ENCODING
+)
 nullptr
 )
 ;
