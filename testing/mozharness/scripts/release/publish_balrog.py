@@ -877,7 +877,10 @@ extend
 -
 rules
 "
+str
+(
 r
+)
 ]
 )
         
