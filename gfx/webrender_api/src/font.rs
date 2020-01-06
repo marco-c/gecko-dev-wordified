@@ -622,6 +622,13 @@ NativeFontHandle
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
@@ -641,6 +648,8 @@ enum
 FontRenderMode
 {
 Mono
+=
+0
 Alpha
 Subpixel
 }
