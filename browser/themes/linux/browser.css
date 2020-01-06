@@ -145,6 +145,8 @@ root
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -648,6 +650,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 /

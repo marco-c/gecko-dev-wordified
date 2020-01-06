@@ -178,6 +178,8 @@ root
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -1197,6 +1199,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 }
@@ -1258,6 +1262,8 @@ lwtheme
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -1293,6 +1299,8 @@ inactive
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -1354,6 +1362,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 }

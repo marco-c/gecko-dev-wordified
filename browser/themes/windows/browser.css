@@ -167,6 +167,8 @@ currentColor
 tabs
 -
 border
+-
+color
 :
 threedshadow
 ;
@@ -438,6 +440,8 @@ root
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -557,6 +561,8 @@ lwtheme
 tabs
 -
 border
+-
+color
 :
 rgba
 (
@@ -1056,6 +1062,8 @@ lwtheme
 tabs
 -
 border
+-
+color
 :
 glassShadowColor
 ;
@@ -1206,6 +1214,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 background
@@ -1239,6 +1249,8 @@ outside
 tabs
 -
 border
+-
+color
 .
 *
 /
@@ -1289,6 +1301,8 @@ outside
 tabs
 -
 border
+-
+color
 .
 *
 /
@@ -1328,6 +1342,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 }
@@ -2332,6 +2348,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 }

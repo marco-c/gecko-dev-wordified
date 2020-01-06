@@ -881,6 +881,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 background
@@ -914,6 +916,8 @@ outside
 tabs
 -
 border
+-
+color
 .
 *
 /
@@ -955,6 +959,8 @@ outside
 tabs
 -
 border
+-
+color
 .
 *
 /
@@ -985,6 +991,8 @@ var
 tabs
 -
 border
+-
+color
 )
 ;
 }
