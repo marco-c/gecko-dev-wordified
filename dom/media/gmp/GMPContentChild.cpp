@@ -1216,6 +1216,8 @@ aOutputProtectionMask
 void
 OnStorageId
 (
+uint32_t
+aVersion
 const
 uint8_t
 *
