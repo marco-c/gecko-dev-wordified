@@ -451,6 +451,9 @@ db
 )
 ]
 )
+TUPLE_EVENT_SOURCE_INDEX
+=
+1
 TUPLE_FILENAME_INDEX
 =
 2
@@ -1170,6 +1173,14 @@ PATH_SUBSTITUTIONS
 name_substitutions
 =
 NAME_SUBSTITUTIONS
+                             
+event_sources
+=
+[
+"
+PoisonIOInterposer
+"
+]
 )
     
 if
@@ -1240,6 +1251,7 @@ check
 (
 data
 TUPLE_FILENAME_INDEX
+TUPLE_EVENT_SOURCE_INDEX
 )
     
 if

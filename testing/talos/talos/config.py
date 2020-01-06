@@ -2289,10 +2289,6 @@ gecko_profile_entries
 '
     
 '
-mainthread
-'
-    
-'
 rss
 '
     
