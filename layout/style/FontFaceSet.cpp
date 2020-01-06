@@ -8610,12 +8610,6 @@ nsContentUtils
 GetContentPolicy
 (
 )
-nsContentUtils
-:
-:
-GetSecurityManager
-(
-)
 )
 ;
 return

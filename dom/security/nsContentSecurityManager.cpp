@@ -2210,12 +2210,6 @@ nsContentUtils
 GetContentPolicy
 (
 )
-nsContentUtils
-:
-:
-GetSecurityManager
-(
-)
 )
 ;
 if

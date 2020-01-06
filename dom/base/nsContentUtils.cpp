@@ -19520,7 +19520,6 @@ decision
 GetContentPolicy
 (
 )
-sSecurityManager
 )
 ;
 if
