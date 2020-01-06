@@ -696,13 +696,13 @@ aOther
 )
 ;
 }
-uint32_t
+PLDHashNumber
 Hash
 (
 )
 const
 {
-uint32_t
+PLDHashNumber
 hash
 =
 0
@@ -758,7 +758,7 @@ valueOr
 private
 :
 static
-uint32_t
+PLDHashNumber
 HashSize
 (
 const
@@ -780,7 +780,7 @@ height
 ;
 }
 static
-uint32_t
+PLDHashNumber
 HashPAR
 (
 const
