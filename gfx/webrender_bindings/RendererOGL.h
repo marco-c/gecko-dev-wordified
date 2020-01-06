@@ -601,6 +601,13 @@ mRenderer
 }
 protected
 :
+void
+NotifyWebRenderError
+(
+WebRenderError
+aError
+)
+;
 RefPtr
 <
 RenderThread
