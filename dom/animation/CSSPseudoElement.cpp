@@ -152,6 +152,17 @@ include
 "
 mozilla
 /
+dom
+/
+KeyframeEffectBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationComparator
 .
 h

@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

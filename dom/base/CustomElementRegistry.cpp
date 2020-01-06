@@ -163,6 +163,17 @@ mozilla
 /
 dom
 /
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebComponentsBinding
 .
 h
