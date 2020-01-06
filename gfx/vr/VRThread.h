@@ -188,9 +188,12 @@ IsActive
 )
 {
 return
-!
-!
 GetSingleton
+(
+)
+&
+&
+Loop
 (
 )
 ;
