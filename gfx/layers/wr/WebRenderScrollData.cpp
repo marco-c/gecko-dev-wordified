@@ -104,6 +104,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -114,6 +121,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+UnitTransforms
 .
 h
 "
