@@ -141,6 +141,17 @@ mozilla
 /
 dom
 /
+InternalHeaders
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ResponseBinding
 .
 h

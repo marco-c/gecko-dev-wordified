@@ -200,6 +200,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
