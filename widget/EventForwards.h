@@ -671,6 +671,10 @@ NativeEventData
 TextEvents
 .
 h
+enum
+class
+AccessKeyType
+;
 struct
 AlternativeCharCode
 ;
