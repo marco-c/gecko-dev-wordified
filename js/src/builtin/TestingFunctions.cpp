@@ -2065,6 +2065,13 @@ storeBuffer
 .
 setAboutToOverflow
 (
+JS
+:
+:
+gcreason
+:
+:
+FULL_GENERIC_BUFFER
 )
 ;
 cx
