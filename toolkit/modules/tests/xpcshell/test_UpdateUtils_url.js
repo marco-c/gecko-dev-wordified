@@ -1295,6 +1295,7 @@ re
 /
 interested
 in
+async
 function
 getResult
 (
@@ -1303,6 +1304,7 @@ url
 {
 url
 =
+await
 UpdateUtils
 .
 formatUpdateURL
@@ -1363,6 +1365,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1418,6 +1421,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1473,6 +1477,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1716,6 +1721,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1830,6 +1836,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1892,6 +1899,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -1978,6 +1986,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2039,6 +2048,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2333,6 +2343,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2396,6 +2407,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2461,6 +2473,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2526,6 +2539,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url
@@ -2596,6 +2610,7 @@ Assert
 .
 equal
 (
+await
 getResult
 (
 url

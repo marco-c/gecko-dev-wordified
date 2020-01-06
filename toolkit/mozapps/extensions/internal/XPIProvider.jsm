@@ -16326,6 +16326,7 @@ return
 }
 url
 =
+await
 UpdateUtils
 .
 formatUpdateURL

@@ -483,6 +483,7 @@ of
 vars
 *
 /
+async
 _getURL
 (
 )
@@ -592,6 +593,7 @@ url
 }
 url
 =
+await
 UpdateUtils
 .
 formatUpdateURL
@@ -710,6 +712,7 @@ of
 rejection
 *
 /
+async
 checkForAddons
 (
 )
@@ -766,15 +769,6 @@ _deferred
 PromiseUtils
 .
 defer
-(
-)
-;
-let
-url
-=
-this
-.
-_getURL
 (
 )
 ;
@@ -842,6 +836,16 @@ KEY_CERTS_BRANCH
 ;
 }
 }
+let
+url
+=
+await
+this
+.
+_getURL
+(
+)
+;
 let
 addonPromise
 =
