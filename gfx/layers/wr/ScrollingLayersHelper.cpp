@@ -1385,7 +1385,7 @@ nsTArray
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 >
 wrRoundedRects
 ;
@@ -1394,7 +1394,7 @@ aChain
 >
 mClip
 .
-ToWrComplexClipRegions
+ToComplexClipRegions
 (
 aAppUnitsPerDevPixel
 aStackingContext
