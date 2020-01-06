@@ -150,6 +150,9 @@ nsPresContext
 namespace
 mozilla
 {
+class
+ServoRestyleState
+;
 /
 *
 *
@@ -437,12 +440,9 @@ own
 void
 UpdateStyle
 (
-ServoStyleSet
+ServoRestyleState
 &
 aStyleSet
-nsStyleChangeList
-&
-aChangeList
 )
 ;
 /
