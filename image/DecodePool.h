@@ -170,6 +170,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIThread
 ;
@@ -454,6 +461,10 @@ SyncRunIfPreferred
 IDecodingTask
 *
 aTask
+const
+nsCString
+&
+aURI
 )
 ;
 /
@@ -521,6 +532,10 @@ SyncRunIfPossible
 IDecodingTask
 *
 aTask
+const
+nsCString
+&
+aURI
 )
 ;
 /
