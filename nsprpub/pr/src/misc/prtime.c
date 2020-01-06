@@ -2297,7 +2297,6 @@ year
 return
 1
 ;
-else
 return
 0
 ;
@@ -10261,7 +10260,6 @@ is
 /
 break
 ;
-else
 if
 (
 (
@@ -10374,7 +10372,6 @@ colon
 /
 break
 ;
-else
 if
 (
 (
@@ -10410,7 +10407,6 @@ is
 /
 break
 ;
-else
 if
 (
 (
@@ -10576,7 +10572,6 @@ is
 /
 break
 ;
-else
 if
 (
 (
@@ -10899,7 +10894,6 @@ end
 break
 ;
 }
-else
 if
 (
 (
@@ -16913,8 +16907,6 @@ return
 0
 ;
 }
-else
-{
 /
 *
 Count
@@ -17017,5 +17009,4 @@ dayOfYear
 1
 )
 ;
-}
 }

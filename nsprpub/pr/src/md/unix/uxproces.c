@@ -1652,7 +1652,6 @@ return
 NULL
 ;
 }
-else
 if
 (
 0
@@ -3101,8 +3100,6 @@ rawExitStatus
 )
 ;
 }
-else
-{
 PR_ASSERT
 (
 WIFSIGNALED
@@ -3114,7 +3111,6 @@ rawExitStatus
 return
 _PR_SIGNALED_EXITSTATUS
 ;
-}
 }
 static
 void
@@ -3756,13 +3752,6 @@ errno
 #
 ifdef
 _PR_SHARE_CLONES
-PR_Unlock
-(
-pr_wp
-.
-ml
-)
-;
 while
 (
 (
@@ -3777,6 +3766,13 @@ opHead
 NULL
 )
 {
+PR_Unlock
+(
+pr_wp
+.
+ml
+)
+;
 op
 -
 >
@@ -3880,6 +3876,7 @@ op
 doneCV
 )
 ;
+}
 PR_Unlock
 (
 pr_wp
@@ -3887,7 +3884,6 @@ pr_wp
 ml
 )
 ;
-}
 #
 endif
 while

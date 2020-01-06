@@ -9478,7 +9478,6 @@ return
 PR_TRUE
 ;
 }
-else
 if
 (
 _PR_IN6_IS_ADDR_V4MAPPED
@@ -9555,7 +9554,6 @@ return
 PR_TRUE
 ;
 }
-else
 if
 (
 _PR_IN6_IS_ADDR_V4MAPPED
@@ -9672,7 +9670,6 @@ return
 PR_TRUE
 ;
 }
-else
 if
 (
 val

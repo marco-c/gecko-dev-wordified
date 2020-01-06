@@ -2817,7 +2817,6 @@ return
 NULL
 ;
 }
-else
 if
 (
 state
@@ -3941,8 +3940,6 @@ return
 EOF
 ;
 }
-else
-{
 *
 (
 (
@@ -3965,7 +3962,6 @@ char
 *
 cPtr
 ;
-}
 }
 static
 void

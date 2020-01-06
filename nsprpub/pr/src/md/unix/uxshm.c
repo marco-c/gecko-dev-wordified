@@ -2915,8 +2915,6 @@ again
 *
 /
 }
-else
-{
 _PR_MD_MAP_OPEN_ERROR
 (
 errno
@@ -2961,7 +2959,6 @@ genName
 goto
 Finished
 ;
-}
 }
 break
 ;

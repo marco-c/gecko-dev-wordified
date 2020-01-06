@@ -390,7 +390,6 @@ return
 rv
 ;
 }
-else
 if
 (
 (
@@ -1386,8 +1385,6 @@ return
 newstack
 ;
 }
-else
-{
 /
 *
 this
@@ -1425,7 +1422,6 @@ s
 it
 *
 /
-}
 }
 static
 PRStatus
@@ -2132,8 +2128,6 @@ return
 nbytes
 ;
 }
-else
-{
 /
 *
 this
@@ -2164,7 +2158,6 @@ rv
 return
 nbytes
 ;
-}
 }
 static
 PRInt32
@@ -2915,8 +2908,6 @@ stack
 return
 PR_FAILURE
 ;
-else
-{
 PR_DELETE
 (
 stack
@@ -2925,7 +2916,6 @@ stack
 return
 PR_SUCCESS
 ;
-}
 }
 /
 *
@@ -4211,7 +4201,6 @@ lower
 identity
 ;
 }
-else
 return
 fd
 -
@@ -4262,13 +4251,14 @@ fd
 >
 identity
 )
+{
 return
 fd
 -
 >
 lower
 ;
-else
+}
 return
 fd
 ;
