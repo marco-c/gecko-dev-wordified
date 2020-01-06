@@ -1463,7 +1463,9 @@ been
 constructed
 .
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 nsIAnonymousContentCreator
@@ -1507,7 +1509,9 @@ level
 NAC
 .
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 AutoTArray
@@ -1573,7 +1577,9 @@ level
 NAC
 .
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 }
