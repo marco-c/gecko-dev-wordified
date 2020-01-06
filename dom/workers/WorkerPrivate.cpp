@@ -7946,7 +7946,7 @@ WorkerControlEventTarget
 final
 :
 public
-nsIEventTarget
+nsISerialEventTarget
 {
 mozilla
 :
@@ -8198,6 +8198,7 @@ NS_IMPL_ISUPPORTS
 (
 WorkerControlEventTarget
 nsIEventTarget
+nsISerialEventTarget
 )
 END_WORKERS_NAMESPACE
 WorkerLoadInfo
@@ -25658,7 +25659,7 @@ aFlags
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 WorkerPrivate
 :

@@ -5078,7 +5078,7 @@ action
 on
 cancelation
 .
-nsIEventTarget
+nsISerialEventTarget
 *
 ControlEventTarget
 (
