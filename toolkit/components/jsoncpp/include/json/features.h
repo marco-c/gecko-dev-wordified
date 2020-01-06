@@ -76,6 +76,13 @@ defined
 (
 JSON_IS_AMALGAMATION
 )
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -357,6 +364,12 @@ allowNumericKeys_
 /
 namespace
 Json
+#
+pragma
+pack
+(
+pop
+)
 #
 endif
 /

@@ -166,6 +166,13 @@ defined
 (
 JSONCPP_DISABLE_DLL_INTERFACE_WARNING
 )
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -2635,6 +2642,12 @@ Value
 /
 namespace
 Json
+#
+pragma
+pack
+(
+pop
+)
 #
 if
 defined
