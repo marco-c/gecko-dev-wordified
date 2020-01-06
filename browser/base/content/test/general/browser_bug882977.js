@@ -20,9 +20,9 @@ styling
 *
 when
 viewing
-about
-:
-home
+such
+a
+page
 in
 a
 new
@@ -43,7 +43,7 @@ homepage
 "
 about
 :
-home
+preferences
 "
 ;
 await

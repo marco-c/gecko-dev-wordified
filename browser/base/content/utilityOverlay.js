@@ -385,6 +385,16 @@ blank
 aURL
 =
 =
+"
+about
+:
+home
+"
+|
+|
+aURL
+=
+=
 BROWSER_NEW_TAB_URL
 ;
 }
