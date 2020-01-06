@@ -1440,4 +1440,14 @@ EventQueue
 >
 >
 ;
+template
+class
+ThreadEventQueue
+<
+PrioritizedEventQueue
+<
+LabeledEventQueue
+>
+>
+;
 }

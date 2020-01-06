@@ -967,6 +967,14 @@ PrioritizedEventQueue
 EventQueue
 >
 ;
+extern
+template
+class
+PrioritizedEventQueue
+<
+LabeledEventQueue
+>
+;
 }
 /
 /

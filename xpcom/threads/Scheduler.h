@@ -572,6 +572,12 @@ IsSchedulerEnabled
 ;
 static
 bool
+UseMultipleQueues
+(
+)
+;
+static
+bool
 IsCooperativeThread
 (
 )

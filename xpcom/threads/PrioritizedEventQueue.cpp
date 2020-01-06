@@ -2223,4 +2223,11 @@ PrioritizedEventQueue
 EventQueue
 >
 ;
+template
+class
+PrioritizedEventQueue
+<
+LabeledEventQueue
+>
+;
 }
