@@ -617,6 +617,12 @@ extension
 -
 storage
 "
+"
+addresses
+"
+"
+creditcards
+"
 ]
 )
 ;
