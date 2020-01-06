@@ -13580,8 +13580,10 @@ patchAt
 base
 )
 ;
-BaseIndex
+Operand
 pointer
+=
+Operand
 (
 base
 index
@@ -13597,7 +13599,7 @@ right
 case
 masm
 .
-branchToComputedAddress
+jmp
 (
 pointer
 )
