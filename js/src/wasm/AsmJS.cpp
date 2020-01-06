@@ -10656,6 +10656,10 @@ Move
 env
 )
 args
+CompileMode
+:
+:
+Once
 asmJSMetadata_
 .
 get
