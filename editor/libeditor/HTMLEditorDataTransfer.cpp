@@ -751,7 +751,7 @@ rules
 sniffing
 and
 batching
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -1267,7 +1267,7 @@ rules
 sniffing
 and
 batching
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -9201,7 +9201,7 @@ return
 NS_OK
 ;
 }
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

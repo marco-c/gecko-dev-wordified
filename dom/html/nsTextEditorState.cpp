@@ -13692,7 +13692,7 @@ rv
 textEditor
 -
 >
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

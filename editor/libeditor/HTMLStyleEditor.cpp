@@ -654,7 +654,7 @@ rules
 mRules
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -7762,7 +7762,7 @@ mRules
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -8771,7 +8771,7 @@ FontSize
 aDir
 )
 {
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
