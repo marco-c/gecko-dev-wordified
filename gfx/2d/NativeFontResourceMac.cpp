@@ -349,6 +349,7 @@ new
 UnscaledFontMac
 (
 mFontRef
+true
 )
 ;
 return
