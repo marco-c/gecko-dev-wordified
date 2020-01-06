@@ -397,6 +397,18 @@ query_abs_dirs
 (
 )
         
+mozinfo
+.
+find_and_update_from_json
+(
+dirs
+[
+'
+abs_test_install_dir
+'
+]
+)
+        
 manifests
 =
 [
