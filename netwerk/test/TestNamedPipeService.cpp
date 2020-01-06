@@ -175,8 +175,6 @@ using
 namespace
 mozilla
 ;
-namespace
-{
 /
 *
 *
@@ -307,13 +305,9 @@ false
 ;
 }
 ;
-}
-/
-/
-anonymous
-namespace
 class
 nsNamedPipeDataObserver
+final
 :
 public
 nsINamedPipeDataObserver
@@ -1374,6 +1368,11 @@ writeObserver
 ;
 ASSERT_EQ
 (
+std
+:
+:
+size_t
+(
 writeObserver
 -
 >
@@ -1383,6 +1382,7 @@ TEST_STR
 sizeof
 (
 TEST_STR
+)
 )
 )
 sizeof
@@ -1402,6 +1402,11 @@ TEST_STR
 ;
 ASSERT_EQ
 (
+std
+:
+:
+size_t
+(
 readObserver
 -
 >
@@ -1411,6 +1416,7 @@ buffer
 sizeof
 (
 buffer
+)
 )
 )
 sizeof
