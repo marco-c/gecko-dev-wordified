@@ -1970,43 +1970,12 @@ not
 what
 :
             
-#
-TODO
-:
-This
-isn
-'
-t
-really
-related
-to
-try
-and
-should
-be
-            
-#
-extracted
-to
-a
-common
-library
-for
-vcs
-interactions
-when
-it
-is
-            
-#
-introduced
-in
-bug
-1185599
-.
-            
 from
-autotry
+tryselect
+.
+selectors
+.
+syntax
 import
 AutoTry
             
@@ -2024,11 +1993,17 @@ _mach_context
 )
             
 changed_files
+changed_tags
 =
 at
 .
-find_changed_files
+find_paths_and_tags
 (
+                
+False
+detect_paths
+=
+True
 )
             
 if
@@ -2073,6 +2048,18 @@ join
 changed_files
 )
 )
+            
+#
+TODO
+this
+code
+is
+redundant
+with
+what
+find_paths_and_tags
+does
+.
             
 reader
 =
