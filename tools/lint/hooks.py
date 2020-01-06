@@ -303,15 +303,6 @@ pats
 def
 git
 (
-args
-=
-sys
-.
-argv
-[
-1
-:
-]
 )
 :
     
@@ -330,10 +321,7 @@ return
 run_mozlint
 (
 hooktype
-args
 [
-:
-1
 ]
 )
 if
