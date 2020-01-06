@@ -150,7 +150,9 @@ testPage
 )
 ;
 await
-waitForDocLoadComplete
+BrowserTestUtils
+.
+browserStopped
 (
 tabToDetach
 .
