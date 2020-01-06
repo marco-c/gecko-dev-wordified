@@ -393,9 +393,6 @@ bool
 asmJSAtomicsEnable
 ;
 bool
-wasmTestMode
-;
-bool
 wasmFoldOffsets
 ;
 bool

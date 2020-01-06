@@ -598,7 +598,6 @@ environment
 variable
 MOZ_FUZZING_SAFE
 .
-static
 mozilla
 :
 :
