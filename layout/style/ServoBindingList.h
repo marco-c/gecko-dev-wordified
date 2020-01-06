@@ -1731,6 +1731,12 @@ value
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValue_Opacity
+RawServoAnimationValueStrong
+float
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValue_GetTransform
 void
 RawServoAnimationValueBorrowed
