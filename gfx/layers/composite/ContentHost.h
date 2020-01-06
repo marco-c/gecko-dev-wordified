@@ -156,7 +156,7 @@ h
 /
 /
 for
-RotatedContentBuffer
+RotatedBuffer
 etc
 #
 include
