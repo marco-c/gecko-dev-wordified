@@ -8805,10 +8805,6 @@ RetargetLoadNotifications
 request
 )
 ;
-MaybeCloseWindow
-(
-)
-;
 }
 NS_IMETHODIMP
 nsExternalAppHandler
