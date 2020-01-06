@@ -11912,11 +11912,13 @@ isJSJit
 (
 )
 )
+JitFrameIter
+:
+:
+operator
 +
 +
 (
-*
-this
 )
 ;
 }
