@@ -490,14 +490,9 @@ Promise
 >
 mConsumePromise
 ;
-#
-ifdef
-DEBUG
 bool
-mReadDone
+mBodyConsumed
 ;
-#
-endif
 }
 ;
 }
