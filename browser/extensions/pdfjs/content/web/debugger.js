@@ -124,6 +124,16 @@ License
 .
 *
 /
+/
+*
+eslint
+-
+disable
+no
+-
+var
+*
+/
 '
 use
 strict
