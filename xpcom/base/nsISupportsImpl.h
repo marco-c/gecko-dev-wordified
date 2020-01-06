@@ -459,14 +459,7 @@ public
 nsAutoOwningThread
 (
 )
-{
-mThread
-=
-PR_GetCurrentThread
-(
-)
 ;
-}
 /
 /
 We
