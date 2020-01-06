@@ -547,11 +547,6 @@ timeStamp
 consoleMsg
 .
 timeStamp
-addonId
-:
-consoleMsg
-.
-addonId
 arguments
 :
 [
