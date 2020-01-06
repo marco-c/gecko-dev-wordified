@@ -3538,17 +3538,6 @@ if
 confirm
 )
 {
-/
-/
-We
-use
-a
-string
-bundle
-shared
-with
-aboutAccounts
-.
 let
 sb
 =

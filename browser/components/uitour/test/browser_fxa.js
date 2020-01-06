@@ -364,15 +364,7 @@ target
 ;
 /
 /
-Helpers
-copied
-from
-browser_aboutAccounts
-.
-js
-/
-/
-watch
+Watch
 out
 -
 these
