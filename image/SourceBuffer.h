@@ -4076,9 +4076,10 @@ series
 of
 Chunks
 .
-FallibleTArray
+AutoTArray
 <
 Chunk
+1
 >
 mChunks
 ;
