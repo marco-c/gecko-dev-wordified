@@ -453,7 +453,6 @@ create_program
 debug_font
 "
 "
-shared_other
 "
 &
 DESC_FONT
@@ -474,7 +473,6 @@ create_program
 debug_color
 "
 "
-shared_other
 "
 &
 DESC_COLOR

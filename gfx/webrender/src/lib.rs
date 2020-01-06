@@ -906,3 +906,17 @@ webrender_api
 as
 api
 ;
+#
+[
+doc
+(
+hidden
+)
+]
+pub
+use
+device
+:
+:
+build_shader_strings
+;
