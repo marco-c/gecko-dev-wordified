@@ -576,7 +576,7 @@ getService
 (
 Ci
 .
-nsIIOService2
+nsIIOService
 )
 .
 QueryInterface

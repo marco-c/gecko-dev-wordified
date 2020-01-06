@@ -377,7 +377,7 @@ getService
 (
 Ci
 .
-nsIIOService2
+nsIIOService
 )
 ;
 ios
