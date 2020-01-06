@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsPointerHashKeys
+.
+h
+"
+#
+include
+"
 nsFirstLetterFrame
 .
 h
@@ -925,7 +932,11 @@ mLinePerFrame
 ;
 nsDataHashtable
 <
-nsISupportsHashKey
+nsPtrHashKey
+<
+const
+nsIContent
+>
 int32_t
 >
 mContentToFrameIndex
