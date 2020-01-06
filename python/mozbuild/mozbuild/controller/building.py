@@ -7783,6 +7783,18 @@ present
 '
 )
             
+monitor
+.
+finish
+(
+record_usage
+=
+status
+=
+=
+0
+)
+            
 #
 Print
 the
@@ -8263,18 +8275,6 @@ dir
 }
 )
 '
-)
-            
-monitor
-.
-finish
-(
-record_usage
-=
-status
-=
-=
-0
 )
         
 high_finder
