@@ -1046,17 +1046,24 @@ error_level
 FATAL
 )
         
-command
+mach
 =
-"
-make
--
-f
-client
+os
 .
-mk
-build
-"
+path
+.
+join
+(
+dirs
+[
+'
+abs_mozilla_dir
+'
+]
+'
+mach
+'
+)
         
 env
 =
@@ -1073,7 +1080,15 @@ _process_command
 (
 command
 =
-command
+[
+sys
+.
+executable
+mach
+'
+build
+'
+]
                                  
 cwd
 =
