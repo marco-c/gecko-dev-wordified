@@ -31964,6 +31964,7 @@ nsIFrame
 :
 :
 PAINT_DELAYED_COMPRESS
+false
 )
 ;
 return
