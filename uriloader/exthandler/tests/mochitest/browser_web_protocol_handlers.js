@@ -65,6 +65,7 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
 testURL
 )
 ;
