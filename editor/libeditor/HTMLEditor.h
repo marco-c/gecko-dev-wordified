@@ -4080,17 +4080,6 @@ nsIDOMNode
 outNode
 )
 ;
-nsIContent
-*
-GetPriorHTMLSibling
-(
-nsINode
-*
-aParent
-int32_t
-aOffset
-)
-;
 nsresult
 GetPriorHTMLSibling
 (
