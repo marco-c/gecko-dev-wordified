@@ -1051,6 +1051,10 @@ ipc
 IPCResult
 RecvDocumentChannelCleanup
 (
+const
+bool
+&
+clearCacheEntry
 )
 override
 ;

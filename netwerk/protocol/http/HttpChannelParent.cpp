@@ -7114,6 +7114,10 @@ HttpChannelParent
 :
 RecvDocumentChannelCleanup
 (
+const
+bool
+&
+clearCacheEntry
 )
 {
 /
@@ -7152,6 +7156,11 @@ some
 memory
 sooner
 .
+if
+(
+clearCacheEntry
+)
+{
 mCacheEntry
 =
 nullptr
@@ -7168,6 +7177,7 @@ channels
 reading
 same
 URI
+}
 return
 IPC_OK
 (
