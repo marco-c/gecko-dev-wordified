@@ -2577,6 +2577,13 @@ PushImage
 (
 dest
 dest
+!
+aItem
+-
+>
+BackfaceIsHidden
+(
+)
 wr
 :
 :
@@ -2842,6 +2849,13 @@ value
 aSc
 destRect
 destRect
+!
+aItem
+-
+>
+BackfaceIsHidden
+(
+)
 )
 ;
 }

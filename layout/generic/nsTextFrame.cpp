@@ -34469,6 +34469,14 @@ ToLayoutRect
 boundsRect
 )
 ;
+bool
+backfaceVisible
+=
+!
+BackfaceIsHidden
+(
+)
+;
 /
 /
 Drawing
@@ -34539,6 +34547,7 @@ selection
 .
 rect
 wrClipRect
+backfaceVisible
 selection
 .
 color
@@ -34613,6 +34622,7 @@ PushTextShadow
 (
 wrBoundsRect
 wrClipRect
+backfaceVisible
 shadow
 )
 ;
@@ -34637,6 +34647,7 @@ aBuilder
 PushLine
 (
 wrClipRect
+backfaceVisible
 decoration
 )
 ;
@@ -34744,6 +34755,7 @@ color
 aSc
 boundsRect
 clipRect
+backfaceVisible
 )
 ;
 }
@@ -34767,6 +34779,7 @@ aBuilder
 PushLine
 (
 wrClipRect
+backfaceVisible
 decoration
 )
 ;

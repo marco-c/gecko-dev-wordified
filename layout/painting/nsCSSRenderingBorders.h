@@ -662,6 +662,8 @@ const
 aCompositeColors
 nscolor
 aBackgroundColor
+bool
+aBackfaceIsVisible
 )
 ;
 /
@@ -968,6 +970,9 @@ mNoBorderRadius
 ;
 bool
 mAvoidStroke
+;
+bool
+mBackfaceIsVisible
 ;
 /
 /

@@ -2024,6 +2024,10 @@ PushRect
 (
 transformedRect
 transformedRect
+!
+BackfaceIsHidden
+(
+)
 wr
 :
 :
