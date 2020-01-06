@@ -9498,7 +9498,7 @@ if
 !
 aColIdx
 .
-Contains
+ContainsSorted
 (
 curColIdx
 )
