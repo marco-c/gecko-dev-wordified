@@ -12326,13 +12326,6 @@ wrap
 (
 aFrameElement
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager

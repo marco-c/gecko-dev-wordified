@@ -1572,13 +1572,6 @@ try
 return
 aBrowser
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager

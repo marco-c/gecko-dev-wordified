@@ -1431,13 +1431,6 @@ frameLoader
 =
 browser
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 ;
 for
@@ -1497,13 +1490,6 @@ let
 frameLoader
 =
 browser
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
 .
 frameLoader
 ;

@@ -1654,13 +1654,6 @@ aMessage
 .
 target
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager
@@ -3167,13 +3160,6 @@ mm
 aMessage
 .
 target
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
 .
 frameLoader
 .

@@ -1477,15 +1477,6 @@ mm
 =
 frame
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager

@@ -2433,13 +2433,6 @@ gBrowserMessageManager
 =
 gBrowser
 .
-QueryInterface
-(
-CI
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager

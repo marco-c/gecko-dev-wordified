@@ -33872,15 +33872,6 @@ frameLoader
 }
 =
 browser
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIFrameLoaderOwner
-)
 ;
 if
 (
