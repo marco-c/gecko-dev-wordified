@@ -305,7 +305,7 @@ require
 /
 components
 /
-aboutdebugging
+Aboutdebugging
 "
 )
 )

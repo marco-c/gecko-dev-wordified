@@ -114,9 +114,7 @@ require
 "
 .
 /
-panel
--
-menu
+PanelMenu
 "
 )
 )
@@ -142,7 +140,7 @@ require
 /
 addons
 /
-panel
+Panel
 "
 )
 )
@@ -169,7 +167,7 @@ require
 /
 tabs
 /
-panel
+Panel
 "
 )
 )
@@ -196,7 +194,7 @@ require
 /
 workers
 /
-panel
+Panel
 "
 )
 )

@@ -156,9 +156,7 @@ require
 "
 .
 /
-install
--
-error
+InstallError
 "
 )
 )

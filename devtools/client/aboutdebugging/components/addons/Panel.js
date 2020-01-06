@@ -150,7 +150,7 @@ require
 "
 .
 /
-controls
+Controls
 "
 )
 )
@@ -165,7 +165,7 @@ require
 "
 .
 /
-target
+Target
 "
 )
 )
@@ -181,9 +181,7 @@ require
 .
 .
 /
-panel
--
-header
+PanelHeader
 "
 )
 )
@@ -199,9 +197,7 @@ require
 .
 .
 /
-target
--
-list
+TargetList
 "
 )
 )
