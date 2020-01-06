@@ -185,10 +185,6 @@ import
 subprocess
 import
 sys
-from
-getpass
-import
-getpass
 sys
 .
 path
@@ -244,14 +240,6 @@ vcs
 vcsbase
 import
 MercurialScript
-from
-mozharness
-.
-mozilla
-.
-selfserve
-import
-SelfServeMixin
 from
 mozharness
 .
@@ -803,6 +791,7 @@ config
 migration_behavior
 '
 ]
+                                                    
 VALID_MIGRATION_BEHAVIORS
 )
         
@@ -833,6 +822,8 @@ get
 require_remove_locales
 "
 )
+\
+                    
 and
 not
 self
@@ -919,6 +910,9 @@ you
 re
 using
 beta_to_release
+"
+                             
+"
 migration_behavior
 !
 \
@@ -1939,6 +1933,7 @@ old_head
 .
 hgtags
 '
+                                        
 '
 -
 U9
@@ -2906,6 +2901,7 @@ a1
 "
 "
 "
+                          
 use_config_suffix
 =
 True
@@ -4422,6 +4418,7 @@ s
 !
 "
 %
+                       
 self
 .
 config
@@ -4467,6 +4464,9 @@ such
 as
 disabling
 features
+"
+                  
+"
 and
 -
 -

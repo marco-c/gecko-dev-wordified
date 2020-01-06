@@ -93,10 +93,6 @@ BLOCK
 import
 copy
 import
-glob
-import
-json
-import
 os
 import
 sys
@@ -173,7 +169,6 @@ testbase
 import
 TestingMixin
 testing_config_options
-TOOLTOOL_PLATFORM_DIR
 from
 mozharness
 .
@@ -457,6 +452,9 @@ such
 as
 LLVMPipe
 )
+"
+                    
+"
 to
 use
 the
@@ -2317,6 +2315,7 @@ binary_path
 os
 .
 pardir
+                                     
 "
 Resources
 "

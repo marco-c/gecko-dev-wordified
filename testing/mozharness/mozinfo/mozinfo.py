@@ -705,7 +705,7 @@ int
 (
 bits
 )
-            
+             
 }
 )
 #
@@ -1063,6 +1063,8 @@ isLinux
 or
 isBsd
 :
+#
+noqa
         
 globals
 (
@@ -1570,6 +1572,7 @@ True
 if
 flag
 :
+        
 return
     
 #

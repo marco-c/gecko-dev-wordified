@@ -53,7 +53,3 @@ MPL
 0
 /
 .
-from
-mozfile
-import
-*

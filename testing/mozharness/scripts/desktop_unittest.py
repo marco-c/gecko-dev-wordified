@@ -181,7 +181,6 @@ base
 log
 import
 INFO
-ERROR
 from
 mozharness
 .
@@ -300,6 +299,7 @@ reftest
 '
 xpcshell
 '
+                    
 '
 mozbase
 '
@@ -337,6 +337,7 @@ TestingMixin
 MercurialScript
 BlobUploadMixin
 MozbaseMixin
+                      
 CodeCoverageMixin
 )
 :
@@ -1337,6 +1338,9 @@ LLVMPipe
 )
 to
 use
+"
+                    
+"
 the
 GL
 compositor
@@ -2546,6 +2550,7 @@ abs_dirs
 abs_work_dir
 '
 ]
+                                                   
 '
 blobber_upload_dir
 '
@@ -2570,6 +2575,7 @@ dirs
 abs_test_install_dir
 '
 ]
+                                               
 "
 jit
 -
@@ -3041,7 +3047,6 @@ simplejson
 requirements_files
 =
 [
-                
 os
 .
 path
@@ -3054,11 +3059,10 @@ dirs
 abs_test_install_dir
 '
 ]
-                    
+                              
 '
 config
 '
-                    
 '
 marionette_requirements
 .
@@ -3775,6 +3779,9 @@ with
 suites
 other
 than
+"
+                                 
+"
 mochitest
 .
 "
@@ -3799,7 +3806,6 @@ append
 headless
 '
 )
-;
             
 #
 set
@@ -4629,6 +4635,8 @@ get
 suite_category
 )
 or
+\
+                
 flavor
 in
 unstructured_flavors
@@ -4953,7 +4961,7 @@ are
 incompatible
 with
 "
-                      
+                       
 "
 -
 -
@@ -6104,8 +6112,7 @@ get
 verify
 '
 )
-=
-=
+is
 True
 :
                         
@@ -6765,6 +6772,9 @@ long
 Not
 all
 tests
+"
+                                  
+"
 were
 verified
 .

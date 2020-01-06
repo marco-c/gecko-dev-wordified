@@ -1196,6 +1196,8 @@ taskid
 artifact_base_url
 "
 :
+\
+                
 '
 https
 :
@@ -1359,6 +1361,9 @@ passed
 in
 env
 :
+'
+                       
+'
 "
 AWS_ACCESS_KEY_ID
 "
@@ -2214,6 +2219,7 @@ locale
 format
 (
 deliverable
+                                                                               
 locale
 )
 )
@@ -2577,6 +2583,7 @@ dirs
 abs_work_dir
 '
 ]
+                                               
 self
 .
 get_filename_from_url
@@ -2935,6 +2942,7 @@ key
 .
 set_contents_from_filename
 (
+                       
 source
 headers
 =
@@ -2948,7 +2956,6 @@ Type
 mime_type
 }
 )
-                       
 error_level
 =
 FATAL
@@ -3085,6 +3092,7 @@ abs_work_dir
 '
 ]
 )
+                     
 if
 isfile
 (
@@ -3187,6 +3195,7 @@ abs_work_dir
 ]
 file_name
 )
+                              
 os
 .
 path
@@ -3287,7 +3296,6 @@ path
 .
 join
 (
-                              
 os
 .
 path
@@ -3300,6 +3308,7 @@ path
 .
 dirname
 (
+                              
 os
 .
 path
@@ -3334,13 +3343,14 @@ path
 join
 (
 external_tools_path
+                         
 '
 extract_and_run_command
 .
 py
 '
 )
-                         
+                          
 '
 -
 j
@@ -3359,7 +3369,7 @@ scan_parallelization
 '
 ]
 )
-                         
+                          
 '
 clamscan
 '
@@ -3387,7 +3397,7 @@ self
 keyname
 )
 :
-         
+        
 return
 any
 (
