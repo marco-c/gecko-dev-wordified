@@ -579,6 +579,19 @@ opener
                            
 )
         
+platformName
+=
+self
+.
+marionette
+.
+session_capabilities
+[
+'
+platformName
+'
+]
+        
 for
 trigger
 in
@@ -593,11 +606,7 @@ trigger
 shortcut
 '
 and
-self
-.
-puppeteer
-.
-platform
+platformName
 =
 =
 '
@@ -740,6 +749,19 @@ closer
                             
 )
         
+platformName
+=
+self
+.
+marionette
+.
+session_capabilities
+[
+'
+platformName
+'
+]
+        
 for
 trigger
 in
@@ -762,11 +784,7 @@ trigger
 menu
 '
 and
-self
-.
-puppeteer
-.
-platform
+platformName
 !
 =
 '
