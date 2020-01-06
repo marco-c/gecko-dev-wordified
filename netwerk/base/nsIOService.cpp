@@ -10164,6 +10164,11 @@ bool
 aAnonymous
 )
 {
+NS_ENSURE_ARG
+(
+aURI
+)
+;
 bool
 isHTTP
 isHTTPS
