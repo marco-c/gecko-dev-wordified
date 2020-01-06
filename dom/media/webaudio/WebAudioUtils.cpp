@@ -637,9 +637,6 @@ const
 char
 *
 aKey
-AbstractThread
-*
-aMainThread
 )
 {
 /
@@ -721,7 +718,6 @@ LogToDeveloperConsole
 [
 aWindowID
 aKey
-aMainThread
 ]
 (
 )
@@ -730,16 +726,12 @@ LogToDeveloperConsole
 (
 aWindowID
 aKey
-aMainThread
 )
 ;
 }
 )
 ;
-aMainThread
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 task
 .
