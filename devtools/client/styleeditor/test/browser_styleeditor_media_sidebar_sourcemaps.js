@@ -151,7 +151,6 @@ true
 let
 {
 ui
-onMediaListChanged
 }
 =
 yield
@@ -159,9 +158,6 @@ openStyleEditorForURL
 (
 TESTCASE_URI
 )
-;
-yield
-onMediaListChanged
 ;
 is
 (
