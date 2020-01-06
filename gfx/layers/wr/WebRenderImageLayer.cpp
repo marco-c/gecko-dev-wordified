@@ -356,7 +356,7 @@ WrBridge
 )
 -
 >
-RemovePipelineIdForAsyncCompositable
+RemovePipelineIdForCompositable
 (
 mPipelineId
 .

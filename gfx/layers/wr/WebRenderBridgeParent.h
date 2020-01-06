@@ -903,7 +903,7 @@ ipc
 :
 :
 IPCResult
-RecvAddPipelineIdForAsyncCompositable
+RecvAddPipelineIdForCompositable
 (
 const
 wr
@@ -916,6 +916,10 @@ const
 CompositableHandle
 &
 aHandle
+const
+bool
+&
+aAsync
 )
 override
 ;
@@ -926,7 +930,7 @@ ipc
 :
 :
 IPCResult
-RecvRemovePipelineIdForAsyncCompositable
+RecvRemovePipelineIdForCompositable
 (
 const
 wr
