@@ -169,9 +169,9 @@ PreventDefaultFromPassiveListener
 )
 DOCUMENT_WARNING
 (
-SVGReferenceLoop
+SVGRefLoop
 )
 DOCUMENT_WARNING
 (
-SVGReferenceChainLengthExceeded
+SVGRefChainLengthExceeded
 )
