@@ -35359,11 +35359,6 @@ ErrorResult
 rv
 )
 {
-WarnOnceAbout
-(
-eCreateAttribute
-)
-;
 if
 (
 !
@@ -35588,11 +35583,6 @@ ErrorResult
 rv
 )
 {
-WarnOnceAbout
-(
-eCreateAttributeNS
-)
-;
 RefPtr
 <
 mozilla
