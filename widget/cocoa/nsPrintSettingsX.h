@@ -363,7 +363,7 @@ a
 la
 reftest
 -
-print
+paged
 .
 virtual
 nsresult
