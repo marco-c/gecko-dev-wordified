@@ -1407,6 +1407,7 @@ index
 try
 {
 return
+(
 mCodec
 .
 getOutputBuffer
@@ -1416,6 +1417,10 @@ index
 !
 =
 null
+)
+|
+|
+mRenderToSurface
 ;
 }
 catch
