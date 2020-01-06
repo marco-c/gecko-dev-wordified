@@ -22526,7 +22526,7 @@ below
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupStrokeGeometry
 (
 frame
 &

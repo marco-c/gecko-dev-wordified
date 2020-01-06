@@ -3552,7 +3552,6 @@ nullptr
 Set
 up
 a
-cairo
 context
 for
 a
@@ -3563,7 +3562,6 @@ including
 any
 dashing
 that
-*
 applies
 )
 .
@@ -3571,7 +3569,7 @@ applies
 /
 static
 void
-SetupCairoStrokeGeometry
+SetupStrokeGeometry
 (
 nsIFrame
 *

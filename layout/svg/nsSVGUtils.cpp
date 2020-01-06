@@ -10667,7 +10667,7 @@ void
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupStrokeGeometry
 (
 nsIFrame
 *
