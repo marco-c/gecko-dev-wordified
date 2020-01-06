@@ -4815,6 +4815,17 @@ type
 )
 ;
 }
+get
+connectionNumber
+(
+)
+{
+return
+this
+.
+_connectionGen
+;
+}
 /
 /
 /
