@@ -1384,7 +1384,7 @@ PLAYBACK
 /
 MediaDecoderStateMachine
 and
-MediaDecoderReader
+MediaFormatReader
 PLATFORM_DECODER
 }
 ;

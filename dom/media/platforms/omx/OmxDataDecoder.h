@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+StateWatching
+.
+h
+"
+#
+include
+"
 AudioCompactor
 .
 h

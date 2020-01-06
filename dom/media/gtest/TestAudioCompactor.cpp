@@ -130,13 +130,6 @@ AudioCompactor
 .
 h
 "
-#
-include
-"
-MediaDecoderReader
-.
-h
-"
 using
 mozilla
 :
@@ -154,12 +147,6 @@ mozilla
 :
 :
 AudioDataValue
-;
-using
-mozilla
-:
-:
-MediaDecoderReader
 ;
 using
 mozilla

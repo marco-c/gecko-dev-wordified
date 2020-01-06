@@ -132,7 +132,7 @@ h
 #
 include
 "
-MediaDecoderReader
+MediaEventSource
 .
 h
 "
@@ -174,6 +174,15 @@ include
 mozilla
 /
 RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TaskQueue
 .
 h
 "
