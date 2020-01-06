@@ -258,7 +258,7 @@ doc
 getElementById
 (
 "
-notificationsPolicyButton
+notificationSettingsButton
 "
 )
 ;
