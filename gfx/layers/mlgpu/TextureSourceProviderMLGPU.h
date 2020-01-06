@@ -170,6 +170,15 @@ aSurface
 )
 override
 ;
+void
+UnlockAfterComposition
+(
+TextureHost
+*
+aTexture
+)
+override
+;
 bool
 NotifyNotUsedAfterComposition
 (

@@ -407,6 +407,7 @@ itself
 requires
 it
 .
+virtual
 void
 UnlockAfterComposition
 (
