@@ -857,9 +857,6 @@ className
 ruleview
 -
 rule
-theme
--
-separator
 devtools
 -
 monospace

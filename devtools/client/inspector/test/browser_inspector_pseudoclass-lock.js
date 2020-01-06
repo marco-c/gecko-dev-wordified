@@ -1029,10 +1029,6 @@ querySelectorAll
 ruleview
 -
 rule
-.
-theme
--
-separator
 "
 )
 ;
@@ -1330,10 +1326,6 @@ querySelectorAll
 ruleview
 -
 rule
-.
-theme
--
-separator
 "
 )
 ;
