@@ -65,6 +65,13 @@ indicator
 inc
 .
 css
+%
+filter
+substitution
+%
+define
+navbarTabsShadowSize
+1px
 :
 root
 {
