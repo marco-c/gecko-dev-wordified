@@ -757,9 +757,8 @@ null
 {
 left
 =
-callFunction
+StringReplaceString
 (
-String_replace
 left
 extensions
 [
