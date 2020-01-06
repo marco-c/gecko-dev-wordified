@@ -302,8 +302,6 @@ JS
 Value
 >
 aParams
-bool
-aUsePlaceholder
 ErrorResult
 &
 aRv
@@ -336,8 +334,6 @@ JS
 Value
 >
 aParams
-bool
-aUsePlaceholder
 ErrorResult
 &
 aRv
