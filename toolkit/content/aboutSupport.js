@@ -2169,6 +2169,9 @@ Drag
 "
 Keyboard
 "
+"
+Autoscroll
+"
 ]
 )
 {

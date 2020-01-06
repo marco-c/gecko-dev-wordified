@@ -3797,6 +3797,12 @@ SupportsApzKeyboardInput
 )
 const
 ;
+bool
+SupportsApzAutoscrolling
+(
+)
+const
+;
 virtual
 void
 FlushContentDrawing
