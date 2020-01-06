@@ -77,7 +77,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -143,10 +143,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -155,13 +158,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -203,7 +203,7 @@ reflector
 Reflector
 map
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -369,7 +369,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 TestBindingPairIterable
 >
@@ -389,7 +389,7 @@ new
 )
 map
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -420,7 +420,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 TestBindingPairIterable
 >

@@ -108,13 +108,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
-MutNullableJS
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -124,12 +123,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -437,7 +437,7 @@ reflector_
 Reflector
 root
 :
-JS
+Dom
 <
 Node
 >
@@ -518,7 +518,7 @@ u64
 >
 cached_cursor_element
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
@@ -579,7 +579,7 @@ new
 )
 root
 :
-JS
+Dom
 :
 :
 from_ref
@@ -611,7 +611,7 @@ inclusive_descendants_version
 )
 cached_cursor_element
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -679,7 +679,7 @@ static
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -726,7 +726,7 @@ static
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -858,7 +858,7 @@ element
 :
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -868,7 +868,7 @@ Element
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -957,7 +957,7 @@ LocalName
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1271,7 +1271,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1336,7 +1336,7 @@ QualName
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1492,7 +1492,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1549,7 +1549,7 @@ Atom
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1670,7 +1670,7 @@ Node
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1758,7 +1758,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Element
 >
@@ -1787,7 +1787,7 @@ root
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1834,7 +1834,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Element
 >
@@ -1888,7 +1888,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Element
 >
@@ -1917,7 +1917,7 @@ root
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1953,12 +1953,12 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -2111,7 +2111,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2231,12 +2231,12 @@ cached_index
 let
 node
 :
-Root
+DomRoot
 <
 Node
 >
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -2309,12 +2309,12 @@ index
 let
 node
 :
-Root
+DomRoot
 <
 Node
 >
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -2451,7 +2451,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2577,7 +2577,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2614,7 +2614,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >

@@ -138,10 +138,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -150,10 +150,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -278,7 +278,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 MessageEvent
 >
@@ -329,7 +329,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 MessageEvent
 >
@@ -421,7 +421,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 MessageEvent
 >
@@ -492,7 +492,7 @@ MessageEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 MessageEvent
 >

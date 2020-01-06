@@ -93,7 +93,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -158,10 +158,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -702,7 +702,7 @@ WebGLExtensions
 {
 extensions
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -715,7 +715,7 @@ WebGLExtensionWrapper
 >
 features
 :
-DOMRefCell
+DomRefCell
 <
 WebGLExtensionFeatures
 >
@@ -736,7 +736,7 @@ Self
 {
 extensions
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -750,7 +750,7 @@ new
 )
 features
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1152,7 +1152,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 :

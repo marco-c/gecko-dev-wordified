@@ -122,12 +122,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -269,7 +269,7 @@ htmlelement
 HTMLElement
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -349,7 +349,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLFieldSetElement
 >
@@ -412,7 +412,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -539,7 +539,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 ValidityState
 >
@@ -660,7 +660,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -1137,7 +1137,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >

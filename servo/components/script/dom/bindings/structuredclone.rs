@@ -134,10 +134,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+DomObject
 ;
 use
 dom
@@ -146,10 +146,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+DomRoot
 ;
 use
 dom
@@ -966,7 +966,7 @@ write_blob
 (
 blob
 :
-Root
+DomRoot
 <
 Blob
 >

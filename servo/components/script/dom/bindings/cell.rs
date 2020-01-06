@@ -146,7 +146,7 @@ PartialEq
 ]
 pub
 struct
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -166,7 +166,7 @@ to
 Servo
 '
 s
-DOMRefCell
+DomRefCell
 type
 /
 /
@@ -225,7 +225,7 @@ impl
 <
 T
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -620,7 +620,7 @@ impl
 <
 T
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -631,7 +631,7 @@ T
 Create
 a
 new
-DOMRefCell
+DomRefCell
 containing
 value
 .
@@ -645,12 +645,12 @@ T
 )
 -
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
 {
-DOMRefCell
+DomRefCell
 {
 value
 :
@@ -765,7 +765,7 @@ try_borrow
 expect
 (
 "
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -875,7 +875,7 @@ try_borrow_mut
 expect
 (
 "
-DOMRefCell
+DomRefCell
 <
 T
 >

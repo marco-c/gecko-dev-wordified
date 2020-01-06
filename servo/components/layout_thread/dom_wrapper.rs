@@ -187,7 +187,7 @@ to
 see
 anything
 with
-LayoutJS
+LayoutDom
 in
 the
 name
@@ -506,7 +506,7 @@ script
 layout_exports
 :
 :
-LayoutJS
+LayoutDom
 ;
 use
 script
@@ -912,7 +912,7 @@ node
 .
 node
 :
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -1120,7 +1120,7 @@ from_layout_js
 (
 n
 :
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -1162,7 +1162,7 @@ ServoLayoutNode
 :
 from_layout_js
 (
-LayoutJS
+LayoutDom
 :
 :
 from_trusted_node_address
@@ -1199,7 +1199,7 @@ self
 node
 :
 &
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -2237,7 +2237,7 @@ this
 node
 as
 a
-LayoutJS
+LayoutDom
 .
 This
 is
@@ -2268,7 +2268,7 @@ self
 -
 >
 &
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -2313,7 +2313,7 @@ ld
 {
 document
 :
-LayoutJS
+LayoutDom
 <
 Document
 >
@@ -2537,7 +2537,7 @@ from_layout_js
 (
 doc
 :
-LayoutJS
+LayoutDom
 <
 Document
 >
@@ -2596,7 +2596,7 @@ le
 {
 element
 :
-LayoutJS
+LayoutDom
 <
 Element
 >
@@ -4067,7 +4067,7 @@ from_layout_js
 (
 el
 :
-LayoutJS
+LayoutDom
 <
 Element
 >
@@ -4406,7 +4406,7 @@ le
 (
 node
 :
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -5878,7 +5878,7 @@ self
 node
 :
 &
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -5976,7 +5976,7 @@ this
 node
 as
 a
-LayoutJS
+LayoutDom
 .
 This
 is
@@ -6006,7 +6006,7 @@ self
 -
 >
 &
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -6452,7 +6452,7 @@ unsafe
 let
 text
 :
-LayoutJS
+LayoutDom
 <
 Text
 >

@@ -77,7 +77,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -149,12 +149,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -345,7 +345,7 @@ Arc
 ]
 stylesheet
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -357,7 +357,7 @@ Stylesheet
 >
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 <
 CSSStyleSheet
 >
@@ -462,7 +462,7 @@ document
 )
 stylesheet
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -471,7 +471,7 @@ None
 )
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -561,7 +561,7 @@ ElementCreator
 )
 -
 >
-Root
+DomRoot
 <
 HTMLStyleElement
 >
@@ -1106,7 +1106,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >
@@ -1882,7 +1882,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 DOMStyleSheet
 >
@@ -1896,7 +1896,7 @@ get_cssom_stylesheet
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast

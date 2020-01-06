@@ -99,12 +99,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+DomRoot
+LayoutDom
 }
 ;
 use
@@ -290,7 +290,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 SVGSVGElement
 >
@@ -336,7 +336,7 @@ SVGSVGData
 impl
 LayoutSVGSVGElementHelpers
 for
-LayoutJS
+LayoutDom
 <
 SVGSVGElement
 >

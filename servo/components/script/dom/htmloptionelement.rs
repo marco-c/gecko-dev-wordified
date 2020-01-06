@@ -174,10 +174,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -496,7 +496,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLOptionElement
 >
@@ -596,7 +596,7 @@ ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1029,7 +1029,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -1890,7 +1890,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast

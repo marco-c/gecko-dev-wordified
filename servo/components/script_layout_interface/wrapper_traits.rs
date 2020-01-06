@@ -618,7 +618,7 @@ never
 see
 instances
 of
-LayoutJS
+LayoutDom
 .
 pub
 trait

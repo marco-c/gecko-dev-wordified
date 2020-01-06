@@ -66,7 +66,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -156,18 +156,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
 reflector
 :
 :
@@ -176,6 +164,18 @@ reflect_dom_object
 DomObject
 Reflector
 }
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+DomRoot
 ;
 use
 dom
@@ -250,7 +250,7 @@ reflector_
 Reflector
 matrix
 :
-DOMRefCell
+DomRefCell
 <
 Transform3D
 <
@@ -294,7 +294,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -349,7 +349,7 @@ new
 )
 matrix
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -402,7 +402,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -469,7 +469,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -545,7 +545,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -4254,7 +4254,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4331,7 +4331,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4402,7 +4402,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4474,7 +4474,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4536,7 +4536,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4603,7 +4603,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4663,7 +4663,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4720,7 +4720,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4780,7 +4780,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4836,7 +4836,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -4973,7 +4973,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -5110,7 +5110,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -5167,7 +5167,7 @@ DOMPointInit
 )
 -
 >
-Root
+DomRoot
 <
 DOMPoint
 >

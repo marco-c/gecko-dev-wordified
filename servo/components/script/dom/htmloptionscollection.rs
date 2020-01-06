@@ -216,13 +216,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-Root
-RootedReference
-}
+reflect_dom_object
 ;
 use
 dom
@@ -231,10 +228,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+{
+DomRoot
+RootedReference
+}
 ;
 use
 dom
@@ -392,7 +392,7 @@ static
 )
 -
 >
-Root
+DomRoot
 <
 HTMLOptionsCollection
 >
@@ -593,7 +593,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -733,7 +733,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -1373,7 +1373,7 @@ element
 >
 Some
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -1411,7 +1411,7 @@ u32
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast

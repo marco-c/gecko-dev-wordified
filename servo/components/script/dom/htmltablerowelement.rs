@@ -171,13 +171,13 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-MutNullableJS
-Root
+DomRoot
+LayoutDom
+MutNullableDom
 RootedReference
 }
 ;
@@ -414,7 +414,7 @@ htmlelement
 HTMLElement
 cells
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
@@ -493,7 +493,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableRowElement
 >
@@ -553,7 +553,7 @@ row_index
 self
 collection
 :
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -699,7 +699,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -779,7 +779,7 @@ i32
 >
 Fallible
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -1252,7 +1252,7 @@ unsafe_code
 impl
 HTMLTableRowElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLTableRowElement
 >

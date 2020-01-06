@@ -127,10 +127,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -139,10 +139,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -220,7 +220,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -312,7 +312,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -391,7 +391,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -467,7 +467,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -515,7 +515,7 @@ DOMMatrixReadOnly
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -2696,7 +2696,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2734,7 +2734,7 @@ and
 (
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -2781,7 +2781,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2819,7 +2819,7 @@ and
 (
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -2869,7 +2869,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2904,7 +2904,7 @@ tz
 Step
 3
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -2964,7 +2964,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3002,7 +3002,7 @@ originZ
 Step
 7
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3053,7 +3053,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3089,7 +3089,7 @@ originZ
 Step
 5
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3143,7 +3143,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3178,7 +3178,7 @@ rotZ
 Step
 8
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3223,7 +3223,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3255,7 +3255,7 @@ y
 Step
 2
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3306,7 +3306,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3342,7 +3342,7 @@ angle
 Step
 3
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3384,7 +3384,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3415,7 +3415,7 @@ sx
 Step
 2
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3457,7 +3457,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3488,7 +3488,7 @@ sy
 Step
 2
 .
-Root
+DomRoot
 :
 :
 from_ref
@@ -3527,7 +3527,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -3559,7 +3559,7 @@ invert_self
 Step
 3
 .
-Root
+DomRoot
 :
 :
 from_ref

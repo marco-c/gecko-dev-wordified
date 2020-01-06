@@ -100,7 +100,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -169,13 +169,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-Root
-RootCollection
-}
+DomObject
 ;
 use
 dom
@@ -184,10 +181,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+{
+DomRoot
+RootCollection
+}
 ;
 use
 dom
@@ -805,7 +805,7 @@ has
 unclear
 ownership
 like
-JS
+Dom
 <
 T
 >
@@ -813,7 +813,7 @@ T
 ]
 worker
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -957,7 +957,7 @@ parent_sender
 parent_sender
 worker
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1042,7 +1042,7 @@ AtomicBool
 )
 -
 >
-Root
+DomRoot
 <
 DedicatedWorkerGlobalScope
 >
@@ -2950,7 +2950,7 @@ bool
 let
 worker
 =
-Root
+DomRoot
 :
 :
 downcast

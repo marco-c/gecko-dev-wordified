@@ -156,10 +156,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -168,10 +168,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -365,7 +365,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 WebGLContextEvent
 >
@@ -467,7 +467,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 WebGLContextEvent
 >
@@ -551,7 +551,7 @@ WebGLContextEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 WebGLContextEvent
 >

@@ -63,12 +63,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-Root
+Dom
+DomRoot
 }
 ;
 use
@@ -215,7 +215,7 @@ StackEntry
 {
 global
 :
-JS
+Dom
 <
 GlobalScope
 >
@@ -288,7 +288,7 @@ AutoEntryScript
 {
 global
 :
-Root
+DomRoot
 <
 GlobalScope
 >
@@ -377,7 +377,7 @@ StackEntry
 {
 global
 :
-JS
+Dom
 :
 :
 from_ref
@@ -397,7 +397,7 @@ AutoEntryScript
 {
 global
 :
-Root
+DomRoot
 :
 :
 from_ref
@@ -629,7 +629,7 @@ entry_global
 )
 -
 >
-Root
+DomRoot
 <
 GlobalScope
 >
@@ -677,7 +677,7 @@ map
 |
 entry
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -848,7 +848,7 @@ StackEntry
 {
 global
 :
-JS
+Dom
 :
 :
 from_ref
@@ -1116,7 +1116,7 @@ incumbent_global
 >
 Option
 <
-Root
+DomRoot
 <
 GlobalScope
 >
@@ -1305,7 +1305,7 @@ map
 |
 entry
 |
-Root
+DomRoot
 :
 :
 from_ref

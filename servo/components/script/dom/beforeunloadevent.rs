@@ -74,7 +74,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -146,10 +146,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -158,10 +158,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -240,7 +240,7 @@ event
 Event
 return_value
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -268,7 +268,7 @@ new_inherited
 )
 return_value
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -293,7 +293,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 BeforeUnloadEvent
 >
@@ -334,7 +334,7 @@ EventCancelable
 )
 -
 >
-Root
+DomRoot
 <
 BeforeUnloadEvent
 >

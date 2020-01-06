@@ -130,10 +130,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -331,7 +331,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLLabelElement
 >
@@ -683,7 +683,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -789,7 +789,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -891,7 +891,7 @@ as_atom
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1098,7 +1098,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -1121,7 +1121,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1164,7 +1164,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -1178,7 +1178,7 @@ GetControl
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast

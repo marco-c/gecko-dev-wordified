@@ -135,12 +135,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -1504,7 +1504,7 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableJS
+MutNullableDom
 <
 DOMTokenList
 >
@@ -1583,7 +1583,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLAreaElement
 >
@@ -1907,7 +1907,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMTokenList
 >

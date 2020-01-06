@@ -87,7 +87,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -270,21 +270,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-{
-MutNullableJS
-Root
-}
-;
-use
-dom
-:
-:
-bindings
-:
-:
 refcounted
 :
 :
@@ -301,6 +286,21 @@ reflector
 :
 :
 DomObject
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+{
+DomRoot
+MutNullableDom
+}
 ;
 use
 dom
@@ -683,7 +683,7 @@ media
 currentsrc
 current_src
 :
-DOMRefCell
+DomRefCell
 <
 String
 >
@@ -775,7 +775,7 @@ media
 error
 error
 :
-MutNullableJS
+MutNullableDom
 <
 MediaError
 >
@@ -866,7 +866,7 @@ event
 flag
 delaying_the_load_event_flag
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -912,7 +912,7 @@ hard
 ]
 pending_play_promises
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -950,7 +950,7 @@ hard
 ]
 in_flight_play_promises_queue
 :
-DOMRefCell
+DomRefCell
 <
 VecDeque
 <
@@ -1000,7 +1000,7 @@ HTMLVideoElement
 ?
 video
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1280,7 +1280,7 @@ HaveNothing
 )
 current_src
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1376,7 +1376,7 @@ default
 )
 video
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -3458,7 +3458,7 @@ ResourceSelectionTask
 {
 elem
 :
-Root
+DomRoot
 :
 :
 from_ref
@@ -3622,7 +3622,7 @@ String
 )
 Children
 (
-Root
+DomRoot
 <
 HTMLSourceElement
 >
@@ -3719,7 +3719,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6766,7 +6766,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 MediaError
 >
@@ -7144,7 +7144,7 @@ PauseIfNotInDocumentTask
 {
 elem
 :
-Root
+DomRoot
 :
 :
 from_ref
@@ -7186,7 +7186,7 @@ ResourceSelectionTask
 {
 elem
 :
-Root
+DomRoot
 <
 HTMLMediaElement
 >
@@ -7198,7 +7198,7 @@ PauseIfNotInDocumentTask
 {
 elem
 :
-Root
+DomRoot
 <
 HTMLMediaElement
 >

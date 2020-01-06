@@ -128,7 +128,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -172,13 +172,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-JS
-Root
-}
+reflect_dom_object
 ;
 use
 dom
@@ -187,10 +184,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+{
+Dom
+DomRoot
+}
 ;
 use
 dom
@@ -261,7 +261,7 @@ WebGLFramebufferAttachment
 {
 Renderbuffer
 (
-JS
+Dom
 <
 WebGLRenderbuffer
 >
@@ -270,7 +270,7 @@ Texture
 {
 texture
 :
-JS
+Dom
 <
 WebGLTexture
 >
@@ -372,7 +372,7 @@ FBO
 .
 color
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -381,7 +381,7 @@ WebGLFramebufferAttachment
 >
 depth
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -390,7 +390,7 @@ WebGLFramebufferAttachment
 >
 stencil
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -399,7 +399,7 @@ WebGLFramebufferAttachment
 >
 depthstencil
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -481,7 +481,7 @@ FRAMEBUFFER_UNSUPPORTED
 )
 color
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -490,7 +490,7 @@ None
 )
 depth
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -499,7 +499,7 @@ None
 )
 stencil
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -508,7 +508,7 @@ None
 )
 depthstencil
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -533,7 +533,7 @@ WebGLMsgSender
 >
 Option
 <
-Root
+DomRoot
 <
 WebGLFramebuffer
 >
@@ -618,7 +618,7 @@ WebGLFramebufferId
 )
 -
 >
-Root
+DomRoot
 <
 WebGLFramebuffer
 >
@@ -1426,7 +1426,7 @@ WebGLFramebufferAttachment
 :
 Renderbuffer
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1899,7 +1899,7 @@ Texture
 {
 texture
 :
-JS
+Dom
 :
 :
 from_ref
@@ -1999,7 +1999,7 @@ F
 FnMut
 (
 &
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -2116,7 +2116,7 @@ F
 FnMut
 (
 &
-DOMRefCell
+DomRefCell
 <
 Option
 <

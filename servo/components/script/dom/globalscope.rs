@@ -75,7 +75,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -159,13 +159,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-MutNullableJS
-Root
-}
+DomObject
 ;
 use
 dom
@@ -174,10 +171,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+{
+DomRoot
+MutNullableDom
+}
 ;
 use
 dom
@@ -611,7 +611,7 @@ eventtarget
 EventTarget
 crypto
 :
-MutNullableJS
+MutNullableDom
 <
 Crypto
 >
@@ -674,7 +674,7 @@ API
 .
 console_timers
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -1062,7 +1062,7 @@ default
 )
 console_timers
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1156,7 +1156,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -1220,7 +1220,7 @@ JSObject
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -1280,7 +1280,7 @@ JSContext
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -1345,7 +1345,7 @@ JSObject
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -1474,7 +1474,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Crypto
 >
@@ -3143,7 +3143,7 @@ debug
 (
 "
 evaluating
-JS
+Dom
 string
 "
 )
@@ -3188,7 +3188,7 @@ debug
 "
 error
 evaluating
-JS
+Dom
 string
 "
 )
@@ -3598,7 +3598,7 @@ _
 |
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4039,7 +4039,7 @@ current
 >
 Option
 <
-Root
+DomRoot
 <
 Self
 >
@@ -4145,7 +4145,7 @@ entry
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -4204,7 +4204,7 @@ incumbent
 >
 Option
 <
-Root
+DomRoot
 <
 Self
 >
@@ -4223,7 +4223,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Performance
 >
@@ -4441,7 +4441,7 @@ JSObject
 )
 -
 >
-Root
+DomRoot
 <
 GlobalScope
 >

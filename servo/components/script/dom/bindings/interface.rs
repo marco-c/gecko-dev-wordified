@@ -1169,10 +1169,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -2276,7 +2276,7 @@ CallArgs
 >
 Fallible
 <
-Root
+DomRoot
 <
 T
 >
@@ -2729,7 +2729,7 @@ is_autonomous
 (
 )
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -2818,7 +2818,7 @@ Step
 8
 .
 5
-Root
+DomRoot
 :
 :
 downcast
@@ -2899,7 +2899,7 @@ AlreadyConstructedMarker
 /
 Step
 13
-Root
+DomRoot
 :
 :
 downcast

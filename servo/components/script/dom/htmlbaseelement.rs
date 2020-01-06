@@ -117,10 +117,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -294,7 +294,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLBaseElement
 >

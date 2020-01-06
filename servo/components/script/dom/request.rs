@@ -76,7 +76,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -316,12 +316,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-MutNullableJS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -331,13 +332,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -572,7 +572,7 @@ reflector_
 Reflector
 request
 :
-DOMRefCell
+DomRefCell
 <
 NetTraitsRequest
 >
@@ -584,13 +584,13 @@ bool
 >
 headers
 :
-MutNullableJS
+MutNullableDom
 <
 Headers
 >
 mime_type
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -607,7 +607,7 @@ Rc
 ]
 body_promise
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -651,7 +651,7 @@ new
 )
 request
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -681,7 +681,7 @@ default
 )
 mime_type
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -699,7 +699,7 @@ into_bytes
 )
 body_promise
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -722,7 +722,7 @@ ServoUrl
 )
 -
 >
-Root
+DomRoot
 <
 Request
 >
@@ -785,7 +785,7 @@ RequestInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Request
 >
@@ -2314,7 +2314,7 @@ init_headers
 {
 headers_copy
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -2451,7 +2451,7 @@ Headers
 )
 is
 a
-Root
+DomRoot
 <
 T
 >
@@ -3202,7 +3202,7 @@ NetTraitsRequest
 )
 -
 >
-Root
+DomRoot
 <
 Request
 >
@@ -3248,7 +3248,7 @@ Request
 >
 Fallible
 <
-Root
+DomRoot
 <
 Request
 >
@@ -4212,7 +4212,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Headers
 >
@@ -4824,7 +4824,7 @@ self
 >
 Fallible
 <
-Root
+DomRoot
 <
 Request
 >
@@ -6240,7 +6240,7 @@ never
 be
 exposed
 to
-JS
+Dom
 "
 )
 }

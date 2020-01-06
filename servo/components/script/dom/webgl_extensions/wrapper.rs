@@ -72,13 +72,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-MutNullableJS
-Root
-}
+DomObject
 ;
 use
 dom
@@ -87,10 +84,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+{
+DomRoot
+MutNullableDom
+}
 ;
 use
 dom
@@ -282,7 +282,7 @@ WebGLExtension
 {
 extension
 :
-MutNullableJS
+MutNullableDom
 <
 T
 :
@@ -304,7 +304,7 @@ implementation
 Exposes
 the
 exact
-MutNullableJS
+MutNullableDom
 <
 DOMObject
 >
@@ -341,7 +341,7 @@ TypedWebGLExtensionWrapper
 {
 extension
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -614,7 +614,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 :

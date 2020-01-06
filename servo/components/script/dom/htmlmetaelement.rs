@@ -75,7 +75,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -147,12 +147,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 RootedReference
 }
 ;
@@ -360,7 +360,7 @@ Arc
 ]
 stylesheet
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -372,7 +372,7 @@ Stylesheet
 >
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 <
 CSSStyleSheet
 >
@@ -416,7 +416,7 @@ document
 )
 stylesheet
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -425,7 +425,7 @@ None
 )
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -461,7 +461,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLMetaElement
 >
@@ -528,7 +528,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >

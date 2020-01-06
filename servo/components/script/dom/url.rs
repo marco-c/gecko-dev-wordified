@@ -66,7 +66,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -112,12 +112,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-MutNullableJS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -127,13 +128,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -299,7 +299,7 @@ url
 url
 url
 :
-DOMRefCell
+DomRefCell
 <
 ServoUrl
 >
@@ -325,7 +325,7 @@ url
 searchparams
 search_params
 :
-MutNullableJS
+MutNullableDom
 <
 URLSearchParams
 >
@@ -356,7 +356,7 @@ new
 )
 url
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -387,7 +387,7 @@ ServoUrl
 )
 -
 >
-Root
+DomRoot
 <
 URL
 >
@@ -541,7 +541,7 @@ USVString
 >
 Fallible
 <
-Root
+DomRoot
 <
 URL
 >
@@ -2212,7 +2212,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 URLSearchParams
 >

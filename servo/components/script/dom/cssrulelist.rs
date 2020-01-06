@@ -66,7 +66,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -124,13 +124,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-MutNullableJS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -140,13 +140,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -317,7 +317,7 @@ reflector_
 Reflector
 parent_stylesheet
 :
-JS
+Dom
 <
 CSSStyleSheet
 >
@@ -334,11 +334,11 @@ rules
 RulesSource
 dom_rules
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-MutNullableJS
+MutNullableDom
 <
 CSSRule
 >
@@ -445,7 +445,7 @@ map
 |
 _
 |
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -488,7 +488,7 @@ map
 |
 _
 |
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -515,7 +515,7 @@ new
 )
 parent_stylesheet
 :
-JS
+Dom
 :
 :
 from_ref
@@ -527,7 +527,7 @@ rules
 rules
 dom_rules
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -561,7 +561,7 @@ RulesSource
 )
 -
 >
-Root
+DomRoot
 <
 CSSRuleList
 >
@@ -774,7 +774,7 @@ borrow_mut
 insert
 (
 index
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -1061,7 +1061,7 @@ map
 |
 r
 |
-Root
+DomRoot
 :
 :
 upcast
@@ -1090,7 +1090,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 CSSRule
 >
@@ -1207,7 +1207,7 @@ rules
 =
 >
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -1356,7 +1356,7 @@ borrow_mut
 .
 push
 (
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -1411,7 +1411,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 CSSRule
 >
@@ -1492,7 +1492,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 CSSRule
 >

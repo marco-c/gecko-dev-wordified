@@ -66,7 +66,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -150,10 +150,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -162,13 +165,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -287,7 +287,7 @@ urlsearchparams
 list
 list
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -356,7 +356,7 @@ new
 )
 list
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -410,7 +410,7 @@ URL
 )
 -
 >
-Root
+DomRoot
 <
 URLSearchParams
 >
@@ -468,7 +468,7 @@ USVStringOrURLSearchParams
 >
 Fallible
 <
-Root
+DomRoot
 <
 URLSearchParams
 >

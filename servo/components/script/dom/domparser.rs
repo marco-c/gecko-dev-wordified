@@ -234,12 +234,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -249,12 +249,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -334,7 +334,7 @@ reflector_
 Reflector
 window
 :
-JS
+Dom
 <
 Window
 >
@@ -372,7 +372,7 @@ new
 )
 window
 :
-JS
+Dom
 :
 :
 from_ref
@@ -392,7 +392,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 DOMParser
 >
@@ -427,7 +427,7 @@ Window
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMParser
 >
@@ -491,7 +491,7 @@ SupportedType
 >
 Fallible
 <
-Root
+DomRoot
 <
 Document
 >

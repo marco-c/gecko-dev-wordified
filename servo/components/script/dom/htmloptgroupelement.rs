@@ -117,10 +117,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -282,7 +282,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLOptGroupElement
 >
@@ -582,7 +582,7 @@ map
 |
 child
 |
-Root
+DomRoot
 :
 :
 from_ref

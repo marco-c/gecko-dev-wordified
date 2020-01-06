@@ -86,7 +86,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -161,12 +161,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 RootedReference
 }
 ;
@@ -478,7 +478,7 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableJS
+MutNullableDom
 <
 DOMTokenList
 >
@@ -492,7 +492,7 @@ Arc
 ]
 stylesheet
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -504,7 +504,7 @@ Stylesheet
 >
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 <
 CSSStyleSheet
 >
@@ -686,7 +686,7 @@ is_parser_created
 )
 stylesheet
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -695,7 +695,7 @@ None
 )
 cssom_stylesheet
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -764,7 +764,7 @@ ElementCreator
 )
 -
 >
-Root
+DomRoot
 <
 HTMLLinkElement
 >
@@ -961,7 +961,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >
@@ -3300,7 +3300,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMTokenList
 >
@@ -3650,7 +3650,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 DOMStyleSheet
 >
@@ -3664,7 +3664,7 @@ get_cssom_stylesheet
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast

@@ -251,12 +251,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -597,13 +597,13 @@ htmlelement
 HTMLElement
 options
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLOptionsCollection
 >
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -698,7 +698,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLSelectElement
 >
@@ -762,7 +762,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 HTMLOptionElement
 >
@@ -804,7 +804,7 @@ HTMLOptionElement
 let
 node
 =
-Root
+DomRoot
 :
 :
 downcast
@@ -861,7 +861,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1007,7 +1007,7 @@ first_enabled
 :
 Option
 <
-Root
+DomRoot
 <
 HTMLOptionElement
 >
@@ -1021,7 +1021,7 @@ last_selected
 :
 Option
 <
-Root
+DomRoot
 <
 HTMLOptionElement
 >
@@ -1056,7 +1056,7 @@ last_selected
 =
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1100,7 +1100,7 @@ first_enabled
 =
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1454,7 +1454,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 ValidityState
 >
@@ -1628,7 +1628,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -1918,7 +1918,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -1968,7 +1968,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLOptionsCollection
 >
@@ -2124,7 +2124,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2180,7 +2180,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2232,7 +2232,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLOptionElement
 >
@@ -2255,7 +2255,7 @@ None
 |
 e
 |
-Root
+DomRoot
 :
 :
 downcast
@@ -3150,7 +3150,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >

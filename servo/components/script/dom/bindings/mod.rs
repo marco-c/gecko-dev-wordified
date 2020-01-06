@@ -1800,10 +1800,6 @@ iterable
 ;
 pub
 mod
-js
-;
-pub
-mod
 mozmap
 ;
 pub
@@ -1825,6 +1821,10 @@ refcounted
 pub
 mod
 reflector
+;
+pub
+mod
+root
 ;
 pub
 mod

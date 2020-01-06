@@ -78,7 +78,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -174,10 +174,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -186,13 +189,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -301,11 +301,11 @@ MutationCallback
 >
 record_queue
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-Root
+DomRoot
 <
 MutationRecord
 >
@@ -396,7 +396,7 @@ RegisteredObserver
 {
 observer
 :
-Root
+DomRoot
 <
 MutationObserver
 >
@@ -460,7 +460,7 @@ MutationCallback
 )
 -
 >
-Root
+DomRoot
 <
 MutationObserver
 >
@@ -516,7 +516,7 @@ callback
 callback
 record_queue
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -547,7 +547,7 @@ MutationCallback
 >
 Fallible
 <
-Root
+DomRoot
 <
 MutationObserver
 >
@@ -735,7 +735,7 @@ queue
 :
 Vec
 <
-Root
+DomRoot
 <
 MutationRecord
 >
@@ -875,7 +875,7 @@ interestedObservers
 Vec
 <
 (
-Root
+DomRoot
 <
 MutationObserver
 >
@@ -1138,7 +1138,7 @@ interestedObservers
 push
 (
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1182,7 +1182,7 @@ interestedObservers
 push
 (
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1851,7 +1851,7 @@ RegisteredObserver
 {
 observer
 :
-Root
+DomRoot
 :
 :
 from_ref

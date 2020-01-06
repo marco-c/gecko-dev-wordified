@@ -177,12 +177,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-MutJS
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -192,24 +192,13 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+MutDom
 }
 ;
 use
@@ -276,13 +265,13 @@ reflector_
 Reflector
 root_node
 :
-JS
+Dom
 <
 Node
 >
 current_node
 :
-MutJS
+MutDom
 <
 Node
 >
@@ -342,7 +331,7 @@ new
 )
 root_node
 :
-JS
+Dom
 :
 :
 from_ref
@@ -351,7 +340,7 @@ root_node
 )
 current_node
 :
-MutJS
+MutDom
 :
 :
 new
@@ -387,7 +376,7 @@ Filter
 )
 -
 >
-Root
+DomRoot
 <
 TreeWalker
 >
@@ -442,7 +431,7 @@ NodeFilter
 )
 -
 >
-Root
+DomRoot
 <
 TreeWalker
 >
@@ -469,7 +458,7 @@ jsfilter
 Filter
 :
 :
-JS
+Dom
 (
 jsfilter
 )
@@ -520,12 +509,12 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -622,7 +611,7 @@ None
 Filter
 :
 :
-JS
+Dom
 (
 ref
 nf
@@ -690,7 +679,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -776,7 +765,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -988,7 +977,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1065,7 +1054,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1142,7 +1131,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1219,7 +1208,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1296,7 +1285,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1821,7 +1810,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2240,7 +2229,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2258,7 +2247,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2274,7 +2263,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2488,7 +2477,7 @@ Ok
 (
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -2843,7 +2832,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2861,7 +2850,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -2877,7 +2866,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -3413,7 +3402,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -3466,7 +3455,7 @@ let
 mut
 candidate
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -3796,7 +3785,7 @@ node
 Filter
 :
 :
-JS
+Dom
 (
 ref
 callback
@@ -3827,7 +3816,7 @@ Node
 >
 bool
 {
-JS
+Dom
 :
 :
 from_ref
@@ -3883,7 +3872,7 @@ TreeWalker
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -3899,7 +3888,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -4006,7 +3995,7 @@ Node
 >
 u16
 )
-JS
+Dom
 (
 Rc
 <

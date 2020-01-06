@@ -74,7 +74,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -201,12 +201,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+DomRoot
+LayoutDom
 }
 ;
 use
@@ -338,7 +338,7 @@ node
 Node
 data
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -375,7 +375,7 @@ document
 )
 data
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -400,7 +400,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -434,7 +434,7 @@ Comment
 =
 >
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -481,7 +481,7 @@ unwrap
 (
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -515,7 +515,7 @@ Text
 =
 >
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -2053,7 +2053,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2076,7 +2076,7 @@ preceding_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -2116,7 +2116,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2139,7 +2139,7 @@ following_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -2184,7 +2184,7 @@ unsafe_code
 impl
 LayoutCharacterDataHelpers
 for
-LayoutJS
+LayoutDom
 <
 CharacterData
 >

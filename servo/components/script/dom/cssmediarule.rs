@@ -126,12 +126,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-MutNullableJS
-Root
+DomObject
+reflect_dom_object
 }
 ;
 use
@@ -141,12 +141,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-reflect_dom_object
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -299,7 +299,7 @@ MediaRule
 >
 medialist
 :
-MutNullableJS
+MutNullableDom
 <
 MediaList
 >
@@ -375,7 +375,7 @@ mediarule
 mediarule
 medialist
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -415,7 +415,7 @@ MediaRule
 )
 -
 >
-Root
+DomRoot
 <
 CSSMediaRule
 >
@@ -446,7 +446,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 MediaList
 >
@@ -971,7 +971,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 MediaList
 >

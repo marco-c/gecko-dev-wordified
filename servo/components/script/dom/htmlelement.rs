@@ -214,13 +214,13 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-MutNullableJS
-Root
+Dom
+DomRoot
+MutNullableDom
 RootedReference
 }
 ;
@@ -451,13 +451,13 @@ element
 Element
 style_decl
 :
-MutNullableJS
+MutNullableDom
 <
 CSSStyleDeclaration
 >
 dataset
 :
-MutNullableJS
+MutNullableDom
 <
 DOMStringMap
 >
@@ -592,7 +592,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -1021,7 +1021,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 CSSStyleDeclaration
 >
@@ -1055,7 +1055,7 @@ CSSStyleOwner
 :
 Element
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1325,7 +1325,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMStringMap
 >
@@ -2592,7 +2592,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -4111,7 +4111,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -4209,7 +4209,7 @@ ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -4260,7 +4260,7 @@ is_labelable_element
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -4325,7 +4325,7 @@ self
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -4424,7 +4424,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -4477,7 +4477,7 @@ id
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast

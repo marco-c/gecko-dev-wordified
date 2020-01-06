@@ -66,7 +66,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -120,10 +120,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -213,7 +213,7 @@ htmlelement
 HTMLElement
 return_value
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -257,7 +257,7 @@ document
 )
 return_value
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -298,7 +298,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLDialogElement
 >

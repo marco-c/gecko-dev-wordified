@@ -81,10 +81,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+Reflector
 ;
 use
 dom
@@ -93,10 +93,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-Reflector
+DomRoot
 ;
 use
 dom
@@ -283,7 +283,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Plugin
 >

@@ -118,7 +118,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -142,10 +142,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -154,10 +154,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -263,7 +263,7 @@ this
 buffer
 vao_references
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -354,7 +354,7 @@ false
 )
 vao_references
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -391,7 +391,7 @@ WebGLMsgSender
 >
 Option
 <
-Root
+DomRoot
 <
 WebGLBuffer
 >
@@ -476,7 +476,7 @@ WebGLBufferId
 )
 -
 >
-Root
+DomRoot
 <
 WebGLBuffer
 >

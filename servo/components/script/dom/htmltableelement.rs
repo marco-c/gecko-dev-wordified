@@ -175,14 +175,14 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-LayoutJS
-MutNullableJS
-Root
+Dom
+DomRoot
+LayoutDom
+MutNullableDom
 RootedReference
 }
 ;
@@ -367,7 +367,7 @@ u32
 >
 tbodies
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
@@ -394,7 +394,7 @@ sections
 :
 Vec
 <
-JS
+Dom
 <
 Node
 >
@@ -568,7 +568,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableElement
 >
@@ -675,7 +675,7 @@ LocalName
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -736,7 +736,7 @@ downcast
 .
 map
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -819,7 +819,7 @@ P
 FnMut
 (
 &
-Root
+DomRoot
 <
 Element
 >
@@ -1007,7 +1007,7 @@ LocalName
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -1255,7 +1255,7 @@ map
 |
 _
 |
-JS
+Dom
 :
 :
 from_ref
@@ -1309,7 +1309,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -1374,7 +1374,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLTableCaptionElement
 >
@@ -1397,7 +1397,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -1556,7 +1556,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableCaptionElement
 >
@@ -1708,7 +1708,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -1841,7 +1841,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -1935,7 +1935,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -2125,7 +2125,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -2217,7 +2217,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -2380,7 +2380,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -2433,7 +2433,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -2565,7 +2565,7 @@ i32
 >
 Fallible
 <
-Root
+DomRoot
 <
 HTMLTableRowElement
 >
@@ -2682,7 +2682,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -3217,7 +3217,7 @@ IndexSize
 Step
 3
 .
-Root
+DomRoot
 :
 :
 upcast
@@ -3433,7 +3433,7 @@ LengthOrPercentageOrAuto
 impl
 HTMLTableElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLTableElement
 >

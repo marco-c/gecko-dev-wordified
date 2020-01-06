@@ -158,10 +158,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+DomObject
 ;
 use
 dom
@@ -170,10 +170,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+DomRoot
 ;
 use
 dom
@@ -779,7 +779,7 @@ downgrade
 /
 /
 /
-Root
+DomRoot
 a
 weak
 reference
@@ -804,7 +804,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >
@@ -831,7 +831,7 @@ get
 .
 map
 (
-Root
+DomRoot
 :
 :
 new
@@ -1461,7 +1461,7 @@ new
 /
 /
 /
-Root
+DomRoot
 a
 mutable
 weak
@@ -1490,7 +1490,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >

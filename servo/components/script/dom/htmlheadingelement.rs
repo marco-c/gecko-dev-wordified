@@ -78,10 +78,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -234,7 +234,7 @@ HeadingLevel
 )
 -
 >
-Root
+DomRoot
 <
 HTMLHeadingElement
 >

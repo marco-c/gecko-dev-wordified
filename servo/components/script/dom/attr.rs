@@ -72,7 +72,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -114,14 +114,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-LayoutJS
-MutNullableJS
-Root
-RootedReference
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -131,12 +129,14 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+DomRoot
+LayoutDom
+MutNullableDom
+RootedReference
 }
 ;
 use
@@ -309,7 +309,7 @@ identifier
 AttrIdentifier
 value
 :
-DOMRefCell
+DomRefCell
 <
 AttrValue
 >
@@ -325,7 +325,7 @@ attribute
 .
 owner
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
@@ -395,7 +395,7 @@ prefix
 }
 value
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -404,7 +404,7 @@ value
 )
 owner
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -449,7 +449,7 @@ Element
 )
 -
 >
-Root
+DomRoot
 <
 Attr
 >
@@ -1176,7 +1176,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -1735,7 +1735,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -1911,7 +1911,7 @@ unsafe_code
 impl
 AttrHelpersForLayout
 for
-LayoutJS
+LayoutDom
 <
 Attr
 >

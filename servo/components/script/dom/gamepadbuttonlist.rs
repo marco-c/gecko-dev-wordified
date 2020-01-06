@@ -96,13 +96,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
-RootedReference
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -112,12 +111,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+RootedReference
 }
 ;
 use
@@ -183,7 +183,7 @@ list
 :
 Vec
 <
-JS
+Dom
 <
 GamepadButton
 >
@@ -237,7 +237,7 @@ map
 |
 button
 |
-JS
+Dom
 :
 :
 from_ref
@@ -269,7 +269,7 @@ WebVRGamepadButton
 )
 -
 >
-Root
+DomRoot
 <
 GamepadButtonList
 >
@@ -468,7 +468,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 GamepadButton
 >
@@ -490,7 +490,7 @@ map
 |
 button
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -535,7 +535,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 GamepadButton
 >

@@ -86,7 +86,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -187,12 +187,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-MutNullableJS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -202,13 +203,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -380,13 +380,13 @@ reflector_
 Reflector
 headers_reflector
 :
-MutNullableJS
+MutNullableDom
 <
 Headers
 >
 mime_type
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -423,7 +423,7 @@ hyper
 ]
 status
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -432,7 +432,7 @@ StatusCode
 >
 raw_status
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -447,13 +447,13 @@ u8
 >
 response_type
 :
-DOMRefCell
+DomRefCell
 <
 DOMResponseType
 >
 url
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -462,7 +462,7 @@ ServoUrl
 >
 url_list
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -480,7 +480,7 @@ NetTraitsResponseBody
 enum
 body
 :
-DOMRefCell
+DomRefCell
 <
 NetTraitsResponseBody
 >
@@ -494,7 +494,7 @@ Rc
 ]
 body_promise
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -540,7 +540,7 @@ default
 )
 mime_type
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -567,7 +567,7 @@ false
 )
 status
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -582,7 +582,7 @@ Ok
 )
 raw_status
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -604,7 +604,7 @@ to_vec
 )
 response_type
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -616,7 +616,7 @@ Default
 )
 url
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -625,7 +625,7 @@ None
 )
 url_list
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -637,7 +637,7 @@ vec
 )
 body
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -649,7 +649,7 @@ Empty
 )
 body_promise
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -687,7 +687,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 Response
 >
@@ -734,7 +734,7 @@ ResponseInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Response
 >
@@ -1263,7 +1263,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 Response
 >
@@ -1371,7 +1371,7 @@ u16
 >
 Fallible
 <
-Root
+DomRoot
 <
 Response
 >
@@ -2542,7 +2542,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Headers
 >
@@ -2599,7 +2599,7 @@ self
 >
 Fallible
 <
-Root
+DomRoot
 <
 Response
 >

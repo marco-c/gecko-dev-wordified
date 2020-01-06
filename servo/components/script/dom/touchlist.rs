@@ -96,12 +96,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -111,12 +111,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -158,7 +158,7 @@ touches
 :
 Vec
 <
-JS
+Dom
 <
 Touch
 >
@@ -205,7 +205,7 @@ map
 |
 touch
 |
-JS
+Dom
 :
 :
 from_ref
@@ -238,7 +238,7 @@ Touch
 )
 -
 >
-Root
+DomRoot
 <
 TouchList
 >
@@ -355,7 +355,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Touch
 >
@@ -377,7 +377,7 @@ map
 |
 js
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -435,7 +435,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Touch
 >

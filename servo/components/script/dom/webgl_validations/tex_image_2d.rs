@@ -75,10 +75,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -597,7 +597,7 @@ CommonTexImage2DValidatorResult
 pub
 texture
 :
-Root
+DomRoot
 <
 WebGLTexture
 >
@@ -1519,7 +1519,7 @@ u32
 pub
 texture
 :
-Root
+DomRoot
 <
 WebGLTexture
 >

@@ -81,10 +81,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+Reflector
 ;
 use
 dom
@@ -93,10 +93,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-Reflector
+DomRoot
 ;
 use
 dom
@@ -325,7 +325,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -371,7 +371,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -417,7 +417,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -452,7 +452,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >

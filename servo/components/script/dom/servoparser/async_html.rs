@@ -119,12 +119,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-Root
+Dom
+DomRoot
 }
 ;
 use
@@ -1166,7 +1166,7 @@ Tokenizer
 {
 document
 :
-JS
+Dom
 <
 Document
 >
@@ -1217,7 +1217,7 @@ nodes
 HashMap
 <
 ParseNodeId
-JS
+Dom
 <
 Node
 >
@@ -1315,7 +1315,7 @@ Tokenizer
 {
 document
 :
-JS
+Dom
 :
 :
 from_ref
@@ -1346,7 +1346,7 @@ tokenizer
 insert_node
 (
 0
-JS
+Dom
 :
 :
 from_ref
@@ -1418,7 +1418,7 @@ insert_node
 node
 .
 id
-JS
+Dom
 :
 :
 from_ref
@@ -1464,7 +1464,7 @@ insert_node
 node
 .
 id
-JS
+Dom
 :
 :
 from_ref
@@ -1597,7 +1597,7 @@ Result
 <
 (
 )
-Root
+DomRoot
 <
 HTMLScriptElement
 >
@@ -1804,7 +1804,7 @@ id
 return
 Err
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1972,7 +1972,7 @@ id
 ParseNodeId
 node
 :
-JS
+Dom
 <
 Node
 >
@@ -2018,7 +2018,7 @@ ParseNodeId
 &
 '
 a
-JS
+Dom
 <
 Node
 >
@@ -2076,7 +2076,7 @@ HtmlNodeOrText
 :
 AppendNode
 (
-JS
+Dom
 :
 :
 from_ref
@@ -2204,7 +2204,7 @@ HtmlNodeOrText
 :
 AppendNode
 (
-JS
+Dom
 :
 :
 from_ref
@@ -2406,7 +2406,7 @@ ParseOperation
 let
 document
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -2466,7 +2466,7 @@ contents
 let
 target
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -2519,7 +2519,7 @@ self
 insert_node
 (
 contents
-JS
+Dom
 :
 :
 from_ref
@@ -2654,7 +2654,7 @@ self
 insert_node
 (
 node
-JS
+Dom
 :
 :
 from_ref
@@ -2702,7 +2702,7 @@ self
 insert_node
 (
 node
-JS
+Dom
 :
 :
 from_ref
@@ -3184,7 +3184,7 @@ form
 let
 form
 =
-Root
+DomRoot
 :
 :
 downcast
@@ -3194,7 +3194,7 @@ downcast
 HTMLFormElement
 >
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -3383,7 +3383,7 @@ self
 insert_node
 (
 node
-JS
+Dom
 :
 :
 from_ref

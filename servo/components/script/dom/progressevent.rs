@@ -138,10 +138,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -150,10 +150,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -274,7 +274,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 ProgressEvent
 >
@@ -327,7 +327,7 @@ u64
 )
 -
 >
-Root
+DomRoot
 <
 ProgressEvent
 >
@@ -416,7 +416,7 @@ ProgressEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 ProgressEvent
 >

@@ -75,7 +75,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -165,13 +165,13 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-MutNullableJS
-Root
+DomRoot
+LayoutDom
+MutNullableDom
 }
 ;
 use
@@ -429,7 +429,7 @@ ignore_heap_size_of
 ]
 textinput
 :
-DOMRefCell
+DomRefCell
 <
 TextInput
 <
@@ -438,7 +438,7 @@ ScriptToConstellationChan
 >
 placeholder
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -472,7 +472,7 @@ bool
 >
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -557,7 +557,7 @@ u32
 impl
 LayoutHTMLTextAreaElementHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLTextAreaElement
 >
@@ -987,7 +987,7 @@ document
 )
 placeholder
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1001,7 +1001,7 @@ new
 )
 textinput
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1076,7 +1076,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTextAreaElement
 >
@@ -1355,7 +1355,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -2098,7 +2098,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -3741,7 +3741,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >

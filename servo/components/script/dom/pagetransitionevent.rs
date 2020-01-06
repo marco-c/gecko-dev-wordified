@@ -138,10 +138,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -150,10 +150,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -285,7 +285,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 PageTransitionEvent
 >
@@ -329,7 +329,7 @@ bool
 )
 -
 >
-Root
+DomRoot
 <
 PageTransitionEvent
 >
@@ -404,7 +404,7 @@ PageTransitionEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 PageTransitionEvent
 >

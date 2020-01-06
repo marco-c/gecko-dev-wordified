@@ -83,7 +83,7 @@ script
 test
 :
 :
-DOMRefCell
+Dom
 ;
 use
 script
@@ -92,7 +92,7 @@ script
 test
 :
 :
-JS
+DomRefCell
 ;
 use
 script
@@ -108,9 +108,9 @@ Foo
 {
 bar
 :
-DOMRefCell
+DomRefCell
 <
-JS
+Dom
 <
 Node
 >
@@ -122,9 +122,9 @@ Node
 ERROR
 Banned
 type
-DOMRefCell
+DomRefCell
 <
-JS
+Dom
 <
 T
 >
@@ -132,12 +132,9 @@ T
 detected
 .
 Use
-MutJS
-<
-JS
+MutDom
 <
 T
->
 >
 instead
 }

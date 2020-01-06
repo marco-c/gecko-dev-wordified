@@ -126,7 +126,7 @@ JSVal
 detected
 .
 Use
-MutJS
+MutDom
 <
 JSVal
 >

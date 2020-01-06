@@ -108,13 +108,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-MutNullableJS
-Root
-}
+DomObject
 ;
 use
 dom
@@ -123,10 +120,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+{
+DomRoot
+MutNullableDom
+}
 ;
 use
 dom
@@ -235,7 +235,7 @@ StyleCssRules
 >
 rulelist
 :
-MutNullableJS
+MutNullableDom
 <
 CSSRuleList
 >
@@ -281,7 +281,7 @@ rules
 rules
 rulelist
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -298,7 +298,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 CSSRuleList
 >
@@ -434,7 +434,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 CSSRuleList
 >

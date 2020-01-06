@@ -138,10 +138,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -150,10 +150,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -282,7 +282,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 HashChangeEvent
 >
@@ -341,7 +341,7 @@ String
 )
 -
 >
-Root
+DomRoot
 <
 HashChangeEvent
 >
@@ -417,7 +417,7 @@ HashChangeEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 HashChangeEvent
 >

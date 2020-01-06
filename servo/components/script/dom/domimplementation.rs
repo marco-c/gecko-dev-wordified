@@ -165,12 +165,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -180,12 +180,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -350,7 +350,7 @@ reflector_
 Reflector
 document
 :
-JS
+Dom
 <
 Document
 >
@@ -382,7 +382,7 @@ new
 )
 document
 :
-JS
+Dom
 :
 :
 from_ref
@@ -402,7 +402,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 DOMImplementation
 >
@@ -494,7 +494,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentType
 >
@@ -576,7 +576,7 @@ DocumentType
 >
 Fallible
 <
-Root
+DomRoot
 <
 XMLDocument
 >
@@ -943,7 +943,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 Document
 >
@@ -1110,7 +1110,7 @@ Node
 let
 doc_html
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -1163,7 +1163,7 @@ Step
 let
 doc_head
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -1227,7 +1227,7 @@ Step
 let
 doc_title
 =
-Root
+DomRoot
 :
 :
 upcast

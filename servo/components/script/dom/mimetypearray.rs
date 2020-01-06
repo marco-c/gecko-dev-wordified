@@ -96,10 +96,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -108,13 +111,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -199,7 +199,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 MimeTypeArray
 >
@@ -295,7 +295,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -338,7 +338,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -381,7 +381,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >
@@ -413,7 +413,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 MimeType
 >

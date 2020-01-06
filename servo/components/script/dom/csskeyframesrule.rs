@@ -129,12 +129,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-MutNullableJS
-Root
+DomObject
+reflect_dom_object
 }
 ;
 use
@@ -144,12 +144,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-reflect_dom_object
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -294,7 +294,7 @@ KeyframesRule
 >
 rulelist
 :
-MutNullableJS
+MutNullableDom
 <
 CSSRuleList
 >
@@ -339,7 +339,7 @@ keyframesrule
 keyframesrule
 rulelist
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -379,7 +379,7 @@ KeyframesRule
 )
 -
 >
-Root
+DomRoot
 <
 CSSKeyframesRule
 >
@@ -410,7 +410,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 CSSRuleList
 >
@@ -670,7 +670,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 CSSRuleList
 >
@@ -903,7 +903,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 CSSKeyframeRule
 >
@@ -940,7 +940,7 @@ u32
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast

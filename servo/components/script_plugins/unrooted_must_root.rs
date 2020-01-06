@@ -1766,7 +1766,7 @@ kinds
 of
 uses
 of
-DOMRefCell
+DomRefCell
 .
 /
 /
@@ -1824,7 +1824,7 @@ triggers
 with
 constructs
 involving
-DOMRefCell
+DomRefCell
 and
 /
 /

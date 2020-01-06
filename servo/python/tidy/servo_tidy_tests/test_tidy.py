@@ -2371,7 +2371,7 @@ JSVal
 detected
 .
 Use
-MutJS
+MutDom
 <
 JSVal
 >
@@ -2429,9 +2429,9 @@ assertEqual
 '
 Banned
 type
-DOMRefCell
+DomRefCell
 <
-JS
+Dom
 <
 T
 >
@@ -2439,12 +2439,9 @@ T
 detected
 .
 Use
-MutJS
-<
-JS
+MutDom
 <
 T
->
 >
 instead
 '

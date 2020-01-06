@@ -138,12 +138,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -153,12 +153,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -237,7 +237,7 @@ reflector_
 Reflector
 owner
 :
-JS
+Dom
 <
 Element
 >
@@ -269,7 +269,7 @@ new
 )
 owner
 :
-JS
+Dom
 :
 :
 from_ref
@@ -293,7 +293,7 @@ Element
 )
 -
 >
-Root
+DomRoot
 <
 NamedNodeMap
 >
@@ -398,7 +398,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -424,7 +424,7 @@ map
 |
 js
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -469,7 +469,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -523,7 +523,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -591,7 +591,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -643,7 +643,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -690,7 +690,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -765,7 +765,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -838,7 +838,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -875,7 +875,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >

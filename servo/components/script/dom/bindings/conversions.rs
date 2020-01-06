@@ -318,7 +318,7 @@ types
 &
 T
 |
-Root
+DomRoot
 <
 T
 >
@@ -425,18 +425,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
 num
 :
 :
@@ -456,6 +444,18 @@ reflector
 DomObject
 Reflector
 }
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+DomRoot
 ;
 use
 dom
@@ -1029,7 +1029,7 @@ IDLInterface
 >
 FromJSValConvertible
 for
-Root
+DomRoot
 <
 T
 >
@@ -1065,7 +1065,7 @@ Result
 <
 ConversionResult
 <
-Root
+DomRoot
 <
 T
 >
@@ -3337,7 +3337,7 @@ T
 /
 Get
 a
-Root
+DomRoot
 <
 T
 >
@@ -3434,7 +3434,7 @@ JSObject
 >
 Result
 <
-Root
+DomRoot
 <
 T
 >
@@ -3460,7 +3460,7 @@ ptr
 |
 unsafe
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -3573,7 +3573,7 @@ to_object
 /
 Get
 a
-Root
+DomRoot
 <
 T
 >
@@ -3619,7 +3619,7 @@ HandleValue
 >
 Result
 <
-Root
+DomRoot
 <
 T
 >
@@ -3671,7 +3671,7 @@ to_object
 /
 Get
 a
-Root
+DomRoot
 <
 T
 >
@@ -3699,7 +3699,7 @@ HandleObject
 >
 Result
 <
-Root
+DomRoot
 <
 T
 >
@@ -3730,7 +3730,7 @@ DomObject
 >
 ToJSValConvertible
 for
-Root
+DomRoot
 <
 T
 >

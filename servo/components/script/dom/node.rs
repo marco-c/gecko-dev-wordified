@@ -105,7 +105,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -354,13 +354,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-LayoutJS
-MutNullableJS
+DomObject
+reflect_dom_object
 }
 ;
 use
@@ -370,36 +369,15 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
-js
-:
-:
-RootedReference
-;
-use
-dom
-:
-:
-bindings
-:
-:
-reflector
+root
 :
 :
 {
-DomObject
-reflect_dom_object
+Dom
+DomRoot
+LayoutDom
+MutNullableDom
+RootedReference
 }
 ;
 use
@@ -1043,7 +1021,7 @@ node
 .
 parent_node
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -1059,7 +1037,7 @@ node
 .
 first_child
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -1075,7 +1053,7 @@ node
 .
 last_child
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -1091,7 +1069,7 @@ node
 .
 next_sibling
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -1107,7 +1085,7 @@ node
 .
 prev_sibling
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -1124,7 +1102,7 @@ to
 .
 owner_doc
 :
-MutNullableJS
+MutNullableDom
 <
 Document
 >
@@ -1143,7 +1121,7 @@ childNodes
 .
 child_list
 :
-MutNullableJS
+MutNullableDom
 <
 NodeList
 >
@@ -1321,7 +1299,7 @@ node
 .
 mutation_observers
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -2844,7 +2822,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -2879,7 +2857,7 @@ is_some
 {
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -2956,7 +2934,7 @@ QuerySelectorIterator
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -2972,7 +2950,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -3078,7 +3056,7 @@ Some
 element
 )
 =
-Root
+DomRoot
 :
 :
 downcast
@@ -3100,7 +3078,7 @@ ctx
 return
 Some
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -3935,12 +3913,12 @@ document
 let
 doc
 :
-Root
+DomRoot
 <
 Node
 >
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -4196,7 +4174,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -4208,7 +4186,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4242,7 +4220,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -4254,7 +4232,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4350,7 +4328,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -4391,7 +4369,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -4439,7 +4417,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4449,7 +4427,7 @@ self
 )
 root
 :
-Root
+DomRoot
 :
 :
 from_ref
@@ -4479,7 +4457,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4489,7 +4467,7 @@ self
 )
 root
 :
-Root
+DomRoot
 :
 :
 from_ref
@@ -4512,7 +4490,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -5860,7 +5838,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -5963,7 +5941,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6212,7 +6190,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 NodeList
 >
@@ -6264,7 +6242,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -6305,7 +6283,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -6317,7 +6295,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -6346,7 +6324,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Document
 >
@@ -6455,7 +6433,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -6496,7 +6474,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -6537,7 +6515,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Element
 >
@@ -6551,7 +6529,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6897,7 +6875,7 @@ G
 >
 Fallible
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -6910,7 +6888,7 @@ Fn
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -6921,7 +6899,7 @@ Fn
 )
 -
 >
-Root
+DomRoot
 <
 I
 >
@@ -7015,7 +6993,7 @@ elements_iter
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -7086,7 +7064,7 @@ r
 }
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -7145,7 +7123,7 @@ Fn
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -7221,7 +7199,7 @@ inclusively_preceding_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7430,7 +7408,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >
@@ -7553,7 +7531,7 @@ NodeOrString
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -7565,7 +7543,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -7666,7 +7644,7 @@ UntrustedNodeAddress
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -7756,7 +7734,7 @@ Attempted
 to
 create
 a
-JS
+Dom
 <
 Node
 >
@@ -7783,7 +7761,7 @@ as
 const
 Node
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -7826,7 +7804,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -7843,7 +7821,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -7860,7 +7838,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -7877,7 +7855,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -7894,7 +7872,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -7909,7 +7887,7 @@ self
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 Document
 >
@@ -8103,7 +8081,7 @@ OpaqueNode
 impl
 LayoutNodeHelpers
 for
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8205,7 +8183,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8248,7 +8226,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8291,7 +8269,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8334,7 +8312,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8377,7 +8355,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -8418,7 +8396,7 @@ self
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 Document
 >
@@ -9236,14 +9214,14 @@ current
 :
 Option
 <
-Root
+DomRoot
 <
 Node
 >
 >
 root
 :
-Root
+DomRoot
 <
 Node
 >
@@ -9274,7 +9252,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9321,7 +9299,7 @@ mut
 self
 current
 :
-Root
+DomRoot
 <
 Node
 >
@@ -9330,7 +9308,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9450,7 +9428,7 @@ FollowingNodeIterator
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -9486,7 +9464,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9563,14 +9541,14 @@ current
 :
 Option
 <
-Root
+DomRoot
 <
 Node
 >
 >
 root
 :
-Root
+DomRoot
 <
 Node
 >
@@ -9583,7 +9561,7 @@ PrecedingNodeIterator
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -9619,7 +9597,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9755,7 +9733,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9765,7 +9743,7 @@ current
 :
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9796,7 +9774,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9805,7 +9783,7 @@ Node
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -9874,7 +9852,7 @@ current
 :
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9904,7 +9882,7 @@ current
 :
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -9929,7 +9907,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -9976,7 +9954,7 @@ mut
 self
 current
 :
-Root
+DomRoot
 <
 Node
 >
@@ -9985,7 +9963,7 @@ Node
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -10079,7 +10057,7 @@ TreeIterator
 type
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -10115,7 +10093,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -10286,14 +10264,14 @@ N
 )
 -
 >
-Root
+DomRoot
 <
 N
 >
 )
 -
 >
-Root
+DomRoot
 <
 N
 >
@@ -10462,7 +10440,7 @@ default
 )
 owner_doc
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -10681,7 +10659,7 @@ old_doc
 clone
 (
 )
-Root
+DomRoot
 :
 :
 from_ref
@@ -11512,7 +11490,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -11631,7 +11609,7 @@ Step
 .
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -11863,7 +11841,7 @@ map
 |
 kid
 |
-JS
+Dom
 :
 :
 from_ref
@@ -12088,7 +12066,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -12396,7 +12374,7 @@ map
 |
 child
 |
-JS
+Dom
 :
 :
 from_ref
@@ -12619,7 +12597,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -12702,7 +12680,7 @@ Step
 .
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -13084,7 +13062,7 @@ CloneChildrenFlag
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -13106,7 +13084,7 @@ doc
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -13144,7 +13122,7 @@ trait
 let
 copy
 :
-Root
+DomRoot
 <
 Node
 >
@@ -13226,7 +13204,7 @@ clone
 document
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -13258,7 +13236,7 @@ new
 document
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -13452,7 +13430,7 @@ None
 None
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -13577,7 +13555,7 @@ CustomElementCreationMode
 Asynchronous
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -13618,7 +13596,7 @@ doc
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -13628,7 +13606,7 @@ doc
 None
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -14004,7 +13982,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -14748,7 +14726,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Document
 >
@@ -14838,7 +14816,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -14887,7 +14865,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -14931,7 +14909,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -14945,7 +14923,7 @@ GetParentNode
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -15021,7 +14999,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -15094,7 +15072,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15138,7 +15116,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15182,7 +15160,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15226,7 +15204,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15577,7 +15555,7 @@ else
 {
 Some
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -15711,7 +15689,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15761,7 +15739,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -15815,7 +15793,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -16596,7 +16574,7 @@ map
 |
 node
 |
-JS
+Dom
 :
 :
 from_ref
@@ -16751,7 +16729,7 @@ Step
 .
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -16794,7 +16772,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -17108,7 +17086,7 @@ bool
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -18941,7 +18919,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 Document
 >
@@ -18977,7 +18955,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 Window
 >
@@ -18990,7 +18968,7 @@ document_from_node
 derived
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -20014,7 +19992,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -21277,7 +21255,7 @@ T
 for
 Vec
 <
-JS
+Dom
 <
 T
 >
@@ -21476,7 +21454,7 @@ self
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -21522,7 +21500,7 @@ traverse_preorder
 let
 head_node
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -21532,7 +21510,7 @@ upcast
 Node
 >
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -21587,7 +21565,7 @@ self
 insert
 (
 head
-JS
+Dom
 :
 :
 from_ref

@@ -81,7 +81,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -244,12 +244,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -259,13 +260,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -536,7 +536,7 @@ reflector_
 Reflector
 window
 :
-JS
+Dom
 <
 Window
 >
@@ -550,7 +550,7 @@ Rc
 ]
 when_defined
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -577,7 +577,7 @@ Rc
 ]
 definitions
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -616,7 +616,7 @@ new
 )
 window
 :
-JS
+Dom
 :
 :
 from_ref
@@ -625,7 +625,7 @@ window
 )
 when_defined
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -648,7 +648,7 @@ false
 )
 definitions
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -673,7 +673,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 CustomElementRegistry
 >
@@ -2470,7 +2470,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -3058,7 +3058,7 @@ ConstructionStackEntry
 {
 Element
 (
-Root
+DomRoot
 <
 Element
 >
@@ -3138,7 +3138,7 @@ LifecycleCallbacks
 pub
 construction_stack
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -3301,7 +3301,7 @@ Prefix
 >
 Fallible
 <
-Root
+DomRoot
 <
 Element
 >
@@ -3464,7 +3464,7 @@ get
 let
 element
 :
-Root
+DomRoot
 <
 Element
 >
@@ -3472,7 +3472,7 @@ Element
 match
 unsafe
 {
-Root
+DomRoot
 :
 :
 from_jsval
@@ -3955,7 +3955,7 @@ ConstructionStackEntry
 :
 Element
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4731,11 +4731,11 @@ Connected
 Disconnected
 Adopted
 (
-Root
+DomRoot
 <
 Document
 >
-Root
+DomRoot
 <
 Document
 >
@@ -4842,7 +4842,7 @@ CustomElementReactionStack
 {
 stack
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -4875,7 +4875,7 @@ CustomElementReactionStack
 {
 stack
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -6016,11 +6016,11 @@ ElementQueue
 {
 queue
 :
-DOMRefCell
+DomRefCell
 <
 VecDeque
 <
-JS
+Dom
 <
 Element
 >
@@ -6130,7 +6130,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -6154,7 +6154,7 @@ as_ref
 .
 map
 (
-JS
+Dom
 :
 :
 deref
@@ -6162,7 +6162,7 @@ deref
 .
 map
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -6189,7 +6189,7 @@ borrow_mut
 .
 push_back
 (
-JS
+Dom
 :
 :
 from_ref

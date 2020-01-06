@@ -117,10 +117,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-LayoutJS
+LayoutDom
 ;
 use
 dom
@@ -740,7 +740,7 @@ unsafe_code
 impl
 HTMLTableCellElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLTableCellElement
 >

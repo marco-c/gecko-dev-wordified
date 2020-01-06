@@ -75,7 +75,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -129,12 +129,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -296,7 +296,7 @@ Arc
 ]
 image
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -308,7 +308,7 @@ Image
 >
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -352,7 +352,7 @@ document
 )
 image
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -396,7 +396,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLObjectElement
 >
@@ -614,7 +614,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 ValidityState
 >
@@ -735,7 +735,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -946,7 +946,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >

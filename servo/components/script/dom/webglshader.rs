@@ -122,7 +122,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -146,10 +146,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -158,10 +158,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -283,7 +283,7 @@ gl_type
 u32
 source
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -292,7 +292,7 @@ DOMString
 >
 info_log
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -446,7 +446,7 @@ gl_type
 shader_type
 source
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -455,7 +455,7 @@ None
 )
 info_log
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -516,7 +516,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 WebGLShader
 >
@@ -606,7 +606,7 @@ u32
 )
 -
 >
-Root
+DomRoot
 <
 WebGLShader
 >
