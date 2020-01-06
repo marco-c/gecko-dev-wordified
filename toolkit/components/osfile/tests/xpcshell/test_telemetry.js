@@ -196,6 +196,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 /
 /
@@ -220,6 +222,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 do_print
 (
@@ -343,6 +347,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 /
 /
@@ -396,6 +402,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 do_check_eq
 (

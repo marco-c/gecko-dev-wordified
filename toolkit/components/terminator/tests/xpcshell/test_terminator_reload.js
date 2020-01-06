@@ -247,6 +247,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 let
 i
@@ -468,6 +470,8 @@ Services
 telemetry
 .
 histogramSnapshots
+.
+parent
 ;
 for
 (
