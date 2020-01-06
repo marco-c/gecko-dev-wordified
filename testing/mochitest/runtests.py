@@ -19528,16 +19528,18 @@ m
             
 prefs
 =
+list
+(
 self
 .
 prefs_by_manifest
 [
 m
 ]
-.
-pop
-(
 )
+[
+0
+]
             
 options
 .
