@@ -962,10 +962,11 @@ remove
 (
 idx
 .
-expect
+unwrap_or_else
 (
-&
-format
+|
+|
+panic
 !
 (
 "
