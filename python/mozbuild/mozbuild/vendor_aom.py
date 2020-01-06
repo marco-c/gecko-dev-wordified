@@ -1884,6 +1884,11 @@ sh
 cwd
 =
 target
+log_name
+=
+'
+generate_sources
+'
 )
     
 def
