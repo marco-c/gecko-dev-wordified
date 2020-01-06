@@ -57,6 +57,13 @@ MPL
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

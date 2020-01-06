@@ -165,8 +165,10 @@ public
 :
 nsThreadSyncDispatch
 (
-nsIThread
-*
+already_AddRefed
+<
+nsIEventTarget
+>
 aOrigin
 already_AddRefed
 <
@@ -353,7 +355,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
 mOrigin
 ;

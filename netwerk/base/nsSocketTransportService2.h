@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsEventQueue
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
