@@ -14104,6 +14104,15 @@ PlacesUtils
 bookmarksMenuFolderId
 true
 )
+.
+catch
+(
+Components
+.
+utils
+.
+reportError
+)
 ;
 }
 bookmarkLink

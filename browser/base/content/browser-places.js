@@ -1470,7 +1470,7 @@ aNode
 await
 PlacesUIUtils
 .
-promiseNodeLike
+fetchNodeLike
 (
 guid
 )
@@ -2848,9 +2848,6 @@ e
 if
 (
 aShowEditUI
-&
-&
-isNewBookmark
 )
 {
 /
@@ -3089,6 +3086,7 @@ anchor
 )
 )
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3129,6 +3127,7 @@ identityIcon
 )
 )
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3145,6 +3144,7 @@ isNewBookmark
 }
 else
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3593,6 +3593,7 @@ anchor
 )
 )
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3633,6 +3634,7 @@ identityIcon
 )
 )
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3649,6 +3651,7 @@ isNewBookmark
 }
 else
 {
+await
 StarUI
 .
 showEditBookmarkPopup
@@ -3776,6 +3779,15 @@ gBrowser
 selectedBrowser
 aParent
 aShowEditUI
+)
+.
+catch
+(
+Components
+.
+utils
+.
+reportError
 )
 ;
 }
