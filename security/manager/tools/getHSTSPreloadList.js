@@ -2031,7 +2031,7 @@ for
 (
 let
 status
-in
+of
 sortedStatuses
 )
 {
