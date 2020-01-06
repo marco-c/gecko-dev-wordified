@@ -2215,6 +2215,41 @@ so
         
 )
         
+install_exts
+=
+(
+            
+'
+.
+h
+'
+            
+'
+.
+inc
+'
+            
+'
+new
+'
+#
+'
+new
+'
+is
+an
+output
+from
+make
+-
+stl
+-
+wrappers
+.
+py
+        
+)
+        
 if
 obj
 .
@@ -2361,6 +2396,32 @@ outputs
 ]
 )
             
+extra_outputs
+=
+[
+self
+.
+_installed_files
+]
+if
+any
+(
+f
+.
+endswith
+(
+install_exts
+)
+for
+f
+in
+obj
+.
+outputs
+)
+else
+None
+            
 backend_file
 .
 rule
@@ -2410,6 +2471,10 @@ full_inputs
 outputs
 =
 outputs
+                
+extra_outputs
+=
+extra_outputs
             
 )
     
