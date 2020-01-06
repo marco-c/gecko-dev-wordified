@@ -186,12 +186,6 @@ files
 '
         
 '
-check
--
-test
-'
-        
-'
 update
 '
 #
