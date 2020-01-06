@@ -496,6 +496,16 @@ aDocShell
 )
 override
 ;
+NS_IMETHOD
+GetTabEventTarget
+(
+nsIEventTarget
+*
+*
+aTarget
+)
+override
+;
 NS_DECL_NSIINPROCESSCONTENTFRAMEMESSAGEMANAGER
 /
 *

@@ -123,6 +123,13 @@ TabGroup_h
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -399,6 +406,9 @@ TabGroup
 .
 class
 DocGroup
+;
+class
+TabChild
 ;
 class
 TabGroup
