@@ -286,6 +286,13 @@ SECItem
 sigText
 )
 ;
+PRBool
+sftkdb_isULONGAttribute
+(
+CK_ATTRIBUTE_TYPE
+type
+)
+;
 void
 sftk_ULong2SDBULong
 (
