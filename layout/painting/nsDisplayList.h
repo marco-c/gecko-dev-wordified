@@ -33010,7 +33010,10 @@ determine
 /
 /
 whether
+we
+can
 paint
+the
 mask
 onto
 a
@@ -33019,7 +33022,7 @@ mask
 layer
 .
 bool
-ShouldPaintOnMaskLayer
+CanPaintOnMaskLayer
 (
 LayerManager
 *
