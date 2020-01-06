@@ -211,6 +211,13 @@ PropTypes
 object
 .
 isRequired
+onWaterfallMouseDown
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 shouldComponentUpdate
 (
@@ -254,6 +261,7 @@ let
 {
 firstRequestStartedMillis
 item
+onWaterfallMouseDown
 }
 =
 this
@@ -320,6 +328,9 @@ firstRequestStartedMillis
 }
 px
 }
+onMouseDown
+:
+onWaterfallMouseDown
 }
 boxes
 )
