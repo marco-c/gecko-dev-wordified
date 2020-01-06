@@ -4203,7 +4203,6 @@ htmlDoc
 >
 TearingDownEditor
 (
-htmlEditor
 )
 ;
 }
