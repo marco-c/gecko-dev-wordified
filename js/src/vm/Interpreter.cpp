@@ -28201,8 +28201,6 @@ CloneFunctionObjectIfNotSingleton
 cx
 fun
 parent
-nullptr
-TenuredObject
 )
 ;
 if
