@@ -2005,7 +2005,7 @@ ADDRESS
 in
 the
 program
-REGISTER
+REG
 can
 be
 /
@@ -2016,7 +2016,7 @@ this
 rule
 .
 If
-REGISTER
+REG
 is
 kCFARegister
 then
@@ -2053,7 +2053,7 @@ handler
 uint64
 address
 int
-register
+reg
 )
 const
 =
