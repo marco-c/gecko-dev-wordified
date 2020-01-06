@@ -297,6 +297,11 @@ aObj
 )
 {
 return
+XRE_IsContentProcess
+(
+)
+&
+&
 Preferences
 :
 :
