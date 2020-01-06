@@ -12220,7 +12220,7 @@ bool
 )
 -
 >
-bool
+OriginFlags
 ;
 }
 extern
