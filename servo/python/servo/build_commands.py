@@ -1740,11 +1740,22 @@ with_debug_assertions
             
 env
 [
-"
+'
 RUSTFLAGS
-"
+'
 ]
 =
+env
+.
+get
+(
+'
+RUSTFLAGS
+'
+"
+"
+)
++
 "
 -
 C
