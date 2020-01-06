@@ -258,6 +258,8 @@ background
 ;
 border
 :
+1px
+solid
 var
 (
 -
@@ -265,6 +267,8 @@ var
 toolbarbutton
 -
 border
+-
+color
 )
 ;
 text
@@ -343,6 +347,8 @@ background
 )
 ;
 border
+-
+color
 :
 var
 (
@@ -353,6 +359,8 @@ toolbarbutton
 hover
 -
 border
+-
+color
 )
 ;
 }
