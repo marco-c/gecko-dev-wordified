@@ -3683,6 +3683,10 @@ OCSPStaplingServer
 "
 GenerateOCSPResponse
 "
+                    
+"
+SymantecSanctionsServer
+"
 ]
         
 for
