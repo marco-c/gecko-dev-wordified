@@ -39,6 +39,7 @@ getDoorhangerCheckbox
 waitForMasterPasswordDialog
 getNotification
 getDoorhangerButton
+removeAllRecords
 *
 /
 "
@@ -2198,10 +2199,9 @@ click
 )
 ;
 }
-registerCleanupFunction
-(
 async
 function
+removeAllRecords
 (
 )
 {
@@ -2270,5 +2270,8 @@ guid
 ;
 }
 }
+registerCleanupFunction
+(
+removeAllRecords
 )
 ;
