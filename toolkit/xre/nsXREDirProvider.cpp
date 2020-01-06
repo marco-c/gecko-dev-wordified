@@ -4484,7 +4484,6 @@ content
 .
 tempDirSuffix
 "
-&
 tempDirSuffix
 )
 ;

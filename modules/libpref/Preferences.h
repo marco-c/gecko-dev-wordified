@@ -1029,17 +1029,11 @@ name
 *
 param
 aResult
-Must
-not
-be
-nullptr
-.
 The
 value
 is
 never
 modified
-*
 when
 these
 methods
@@ -1056,7 +1050,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -1069,7 +1063,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -1082,7 +1076,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -1095,7 +1089,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -2271,7 +2265,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -2284,7 +2278,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -2297,7 +2291,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -2310,7 +2304,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
