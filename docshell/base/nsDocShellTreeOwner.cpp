@@ -5072,14 +5072,6 @@ if
 tabChild
 )
 {
-/
-/
-Bug
-1370843
--
-Explicitly
-pass
-triggeringPrincipal
 nsresult
 rv
 =
