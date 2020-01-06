@@ -2140,7 +2140,7 @@ if
 (
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
@@ -3301,7 +3301,7 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
@@ -7936,7 +7936,7 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
@@ -8182,7 +8182,7 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
@@ -12900,7 +12900,7 @@ true
 else
 #
 ifndef
-MOZ_MEMORY_LINUX
+XP_LINUX
 if
 (
 force_zero
@@ -13048,7 +13048,7 @@ force_zero
 else
 #
 ifdef
-MOZ_MEMORY_LINUX
+XP_LINUX
 #
 define
 JEMALLOC_MADV_PURGE
