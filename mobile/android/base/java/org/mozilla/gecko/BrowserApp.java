@@ -23970,7 +23970,7 @@ isPrivate
 &
 HardwareUtils
 .
-isTablet
+isLargeTablet
 (
 )
 )
