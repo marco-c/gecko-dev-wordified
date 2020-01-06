@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -205,9 +212,6 @@ nsWeakReference
 .
 h
 "
-class
-nsDocShell
-;
 class
 nsIPresShell
 ;
@@ -742,6 +746,8 @@ virtual
 AccessibleCaretEventHub
 (
 )
+=
+default
 ;
 #
 define

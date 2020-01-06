@@ -2630,15 +2630,6 @@ true
 ;
 }
 }
-AccessibleCaretEventHub
-:
-:
-~
-AccessibleCaretEventHub
-(
-)
-{
-}
 void
 AccessibleCaretEventHub
 :

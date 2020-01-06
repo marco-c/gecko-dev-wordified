@@ -843,15 +843,6 @@ true
 ;
 }
 }
-AccessibleCaretManager
-:
-:
-~
-AccessibleCaretManager
-(
-)
-{
-}
 void
 AccessibleCaretManager
 :

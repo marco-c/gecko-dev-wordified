@@ -447,6 +447,8 @@ virtual
 AccessibleCaretManager
 (
 )
+=
+default
 ;
 /
 /
