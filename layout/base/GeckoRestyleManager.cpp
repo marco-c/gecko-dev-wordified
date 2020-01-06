@@ -1425,6 +1425,12 @@ EventStates
 aStateMask
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 /
 /
 XXXbz
@@ -1532,6 +1538,12 @@ nsAttrValue
 aNewValue
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 RestyleHintData
 rsdata
 ;
