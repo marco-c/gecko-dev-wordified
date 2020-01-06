@@ -9285,6 +9285,10 @@ mThrowOnDynamicMarkupInsertionCounter
 (
 0
 )
+mIgnoreOpensDuringUnloadCounter
+(
+0
+)
 {
 SetIsInDocument
 (
