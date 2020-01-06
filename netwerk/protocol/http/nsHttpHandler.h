@@ -464,7 +464,7 @@ isSecure
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 UserAgent
 (

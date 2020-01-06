@@ -4622,7 +4622,7 @@ bool
 FindFirstMatchFrom
 (
 const
-nsAFlatString
+nsString
 &
 aStr
 size_t
@@ -4714,7 +4714,7 @@ nsSubstring
 NS_EscapeURL
 (
 const
-nsAFlatString
+nsString
 &
 aStr
 const

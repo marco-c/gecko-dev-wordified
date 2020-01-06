@@ -1385,7 +1385,7 @@ aTransaction
 txAXMLEventHandler
 *
 aHandler
-nsAFlatString
+nsString
 :
 :
 const_char_iterator
@@ -1521,7 +1521,7 @@ txCharacterTransaction
 aTransaction
 )
 ;
-nsAFlatString
+nsString
 :
 :
 const_char_iterator
@@ -1529,7 +1529,7 @@ start
 =
 aIter
 ;
-nsAFlatString
+nsString
 :
 :
 const_char_iterator
@@ -1787,7 +1787,7 @@ txAXMLEventHandler
 aHandler
 )
 {
-nsAFlatString
+nsString
 :
 :
 const_char_iterator

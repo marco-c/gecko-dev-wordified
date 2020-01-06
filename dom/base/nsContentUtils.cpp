@@ -18244,7 +18244,7 @@ nsIContent
 *
 aNamespaceResolver
 const
-nsAFlatString
+nsString
 &
 aQName
 int32_t
@@ -18446,7 +18446,7 @@ aNodeInfo
 )
 {
 const
-nsAFlatString
+nsString
 &
 qName
 =
@@ -21935,7 +21935,7 @@ nsIURI
 *
 aURI
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 uint32_t
@@ -22065,7 +22065,7 @@ nsIURI
 *
 aURI
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 uint32_t
@@ -22154,7 +22154,7 @@ nsIURI
 *
 aURI
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 uint32_t

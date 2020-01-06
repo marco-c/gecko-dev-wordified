@@ -5687,7 +5687,7 @@ aResult
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 param
 =

@@ -299,7 +299,7 @@ bool
 isWhitespace
 (
 const
-nsAFlatString
+nsString
 &
 aText
 )
@@ -349,7 +349,7 @@ bool
 isValidQName
 (
 const
-nsAFlatString
+nsString
 &
 aQName
 const

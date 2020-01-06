@@ -1791,7 +1791,7 @@ inCSSValueSearch
 SearchStyleValue
 (
 const
-nsAFlatString
+nsString
 &
 aValue
 nsIURI

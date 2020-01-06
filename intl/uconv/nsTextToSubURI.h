@@ -164,11 +164,11 @@ nsresult
 convertURItoUnicode
 (
 const
-nsAFlatCString
+nsCString
 &
 aCharset
 const
-nsAFlatCString
+nsCString
 &
 aURI
 nsAString

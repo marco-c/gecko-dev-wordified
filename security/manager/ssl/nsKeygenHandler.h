@@ -360,7 +360,7 @@ nsAString
 &
 aChallenge
 const
-nsAFlatString
+nsString
 &
 akeyType
 nsAString

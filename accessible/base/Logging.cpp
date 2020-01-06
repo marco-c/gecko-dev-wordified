@@ -6605,7 +6605,7 @@ logging
 Enable
 (
 const
-nsAFlatCString
+nsCString
 &
 aModules
 )

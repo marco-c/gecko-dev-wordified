@@ -395,7 +395,7 @@ nsMIMEInfoWin
 GetByExtension
 (
 const
-nsAFlatString
+nsString
 &
 aFileExt
 const
@@ -431,7 +431,7 @@ nsresult
 GetMIMEInfoFromRegistry
 (
 const
-nsAFlatString
+nsString
 &
 fileType
 nsIMIMEInfo

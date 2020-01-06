@@ -153,7 +153,7 @@ aUseDefault
 )
 {
 const
-nsAFlatString
+nsString
 &
 qName
 =

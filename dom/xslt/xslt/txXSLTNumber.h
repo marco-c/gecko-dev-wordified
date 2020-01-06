@@ -324,7 +324,7 @@ nsresult
 getCounterFor
 (
 const
-nsAFlatString
+nsString
 &
 aToken
 int

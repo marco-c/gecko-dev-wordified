@@ -2079,6 +2079,12 @@ nsINode
 >
 clonedNode
 ;
+nsCOMArray
+<
+nsINode
+>
+nodesWithProperties
+;
 nsNodeUtils
 :
 :
@@ -2092,7 +2098,7 @@ doc
 NodeInfoManager
 (
 )
-nullptr
+nodesWithProperties
 getter_AddRefs
 (
 clonedNode
@@ -6484,7 +6490,7 @@ JSObject
 >
 obj
 const
-nsAFlatString
+nsString
 &
 aClassName
 nsXBLPrototypeBinding

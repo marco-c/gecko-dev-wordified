@@ -1337,7 +1337,7 @@ nsSubstring
 NS_EscapeURL
 (
 const
-nsAFlatString
+nsString
 &
 aStr
 const

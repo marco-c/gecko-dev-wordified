@@ -227,10 +227,10 @@ class
 nsAString
 ;
 class
-nsAFlatString
+nsString
 ;
 class
-nsAFlatCString
+nsCString
 ;
 class
 nsAdoptingString

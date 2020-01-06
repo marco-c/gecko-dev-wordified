@@ -2472,11 +2472,11 @@ void
 RequestSaveDestination
 (
 const
-nsAFlatString
+nsString
 &
 aDefaultFile
 const
-nsAFlatString
+nsString
 &
 aDefaultFileExt
 )
@@ -2814,7 +2814,7 @@ nsIRequest
 *
 aRequest
 const
-nsAFlatString
+nsString
 &
 path
 )

@@ -5484,7 +5484,7 @@ private
 -
 -
 const
-nsAFlatCString
+nsCString
 &
 nsHttpHandler
 :

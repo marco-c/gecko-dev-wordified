@@ -1640,7 +1640,7 @@ bool
 ConvertToANSIString
 (
 const
-nsAFlatString
+nsString
 &
 aStr
 UINT

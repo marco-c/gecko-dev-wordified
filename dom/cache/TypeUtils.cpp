@@ -2652,7 +2652,7 @@ aRv
 )
 {
 const
-nsAFlatCString
+nsCString
 &
 flatURL
 =

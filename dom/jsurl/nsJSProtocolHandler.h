@@ -295,7 +295,7 @@ nsresult
 EnsureUTF8Spec
 (
 const
-nsAFlatCString
+nsCString
 &
 aSpec
 const

@@ -2679,7 +2679,7 @@ aOldValue
 )
 {
 const
-nsAFlatCString
+nsCString
 &
 flatKey
 =
@@ -2819,7 +2819,7 @@ aValue
 )
 {
 const
-nsAFlatCString
+nsCString
 &
 flatKey
 =

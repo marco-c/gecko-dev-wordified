@@ -1626,7 +1626,7 @@ GenerateFlatTextContent
 nsIContent
 *
 aContent
-nsAFlatString
+nsString
 &
 aString
 LineBreakType
@@ -1650,7 +1650,7 @@ GenerateFlatTextContent
 nsRange
 *
 aRange
-nsAFlatString
+nsString
 &
 aString
 LineBreakType

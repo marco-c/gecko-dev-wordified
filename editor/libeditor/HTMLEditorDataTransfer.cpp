@@ -1120,7 +1120,7 @@ aInString
 )
 {
 const
-nsAFlatString
+nsString
 &
 empty
 =
@@ -6221,7 +6221,7 @@ strings
 to
 usc2
 const
-nsAFlatString
+nsString
 &
 fragUcs2Str
 =
@@ -6231,7 +6231,7 @@ fragmentUTF8
 )
 ;
 const
-nsAFlatString
+nsString
 &
 cntxtUcs2Str
 =
@@ -9343,7 +9343,7 @@ IsModifiable
 )
 {
 const
-nsAFlatString
+nsString
 &
 empty
 =

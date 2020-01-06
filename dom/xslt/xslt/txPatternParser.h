@@ -129,7 +129,7 @@ nsresult
 createPattern
 (
 const
-nsAFlatString
+nsString
 &
 aPattern
 txIParseContext

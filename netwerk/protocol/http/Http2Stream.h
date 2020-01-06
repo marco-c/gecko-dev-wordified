@@ -369,7 +369,7 @@ nullptr
 }
 ;
 const
-nsAFlatCString
+nsCString
 &
 Origin
 (
@@ -381,7 +381,7 @@ mOrigin
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 Host
 (
@@ -393,7 +393,7 @@ mHeaderHost
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 Path
 (

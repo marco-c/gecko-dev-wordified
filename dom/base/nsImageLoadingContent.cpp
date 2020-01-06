@@ -6049,7 +6049,7 @@ Get
 the
 charset
 const
-nsAFlatCString
+nsCString
 &
 charset
 =

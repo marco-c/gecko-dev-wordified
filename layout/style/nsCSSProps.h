@@ -3209,7 +3209,7 @@ string
 value
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -3219,7 +3219,7 @@ aProperty
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -3229,7 +3229,7 @@ aFontDesc
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -3273,7 +3273,7 @@ is
 found
 static
 const
-nsAFlatCString
+nsCString
 &
 LookupPropertyValue
 (
@@ -3568,7 +3568,7 @@ found
 .
 static
 const
-nsAFlatCString
+nsCString
 &
 ValueToKeyword
 (
@@ -3610,7 +3610,7 @@ type
 >
 static
 const
-nsAFlatCString
+nsCString
 &
 ValueToKeyword
 (

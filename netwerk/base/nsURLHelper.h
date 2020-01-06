@@ -822,7 +822,7 @@ bool
 net_IsValidScheme
 (
 const
-nsAFlatCString
+nsCString
 &
 scheme
 )

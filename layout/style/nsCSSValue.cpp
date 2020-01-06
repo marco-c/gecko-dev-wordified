@@ -10430,7 +10430,7 @@ break
 default
 :
 const
-nsAFlatCString
+nsCString
 &
 name
 =

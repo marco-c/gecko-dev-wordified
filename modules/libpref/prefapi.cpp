@@ -1111,7 +1111,7 @@ const
 char
 *
 original
-nsAFlatCString
+nsCString
 &
 aResult
 )

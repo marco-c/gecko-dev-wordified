@@ -1812,7 +1812,7 @@ URLSegment
 seg
 int16_t
 mask
-nsAFlatCString
+nsCString
 &
 result
 bool
@@ -2155,7 +2155,7 @@ nsACString
 str
 int16_t
 mask
-nsAFlatCString
+nsCString
 &
 result
 )

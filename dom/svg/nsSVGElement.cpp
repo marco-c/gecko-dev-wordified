@@ -14409,7 +14409,7 @@ aValue
 )
 {
 const
-nsAFlatString
+nsString
 &
 attributeValue
 =

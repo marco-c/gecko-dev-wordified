@@ -3290,7 +3290,7 @@ nsIRequest
 *
 aRequest
 const
-nsAFlatCString
+nsCString
 &
 aFilename
 )

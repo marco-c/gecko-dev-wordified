@@ -1207,7 +1207,7 @@ void
 Enable
 (
 const
-nsAFlatCString
+nsCString
 &
 aModules
 )

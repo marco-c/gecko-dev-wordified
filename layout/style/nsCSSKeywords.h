@@ -246,7 +246,7 @@ string
 value
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (

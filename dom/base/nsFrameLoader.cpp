@@ -1882,7 +1882,7 @@ GetBaseURI
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 doc_charset
 =

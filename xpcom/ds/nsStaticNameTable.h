@@ -323,7 +323,7 @@ aName
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (

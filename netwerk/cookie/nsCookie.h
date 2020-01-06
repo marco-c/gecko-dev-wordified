@@ -994,7 +994,7 @@ them
 /
 out
 as
-nsAFlatCStrings
+nsCStrings
 .
 /
 /

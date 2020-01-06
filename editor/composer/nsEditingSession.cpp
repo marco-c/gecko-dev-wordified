@@ -597,7 +597,7 @@ h
 /
 /
 for
-nsAFlatString
+nsString
 #
 include
 "

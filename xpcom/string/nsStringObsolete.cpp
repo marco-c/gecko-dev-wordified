@@ -5681,7 +5681,7 @@ nsString
 Find
 (
 const
-nsAFlatString
+nsString
 &
 aString
 int32_t
@@ -5797,7 +5797,7 @@ nsString
 RFind
 (
 const
-nsAFlatString
+nsString
 &
 aString
 int32_t

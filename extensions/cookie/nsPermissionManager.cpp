@@ -1989,7 +1989,7 @@ nsACString
 &
 aOrigin
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
@@ -2093,7 +2093,7 @@ nsACString
 &
 aOrigin
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
@@ -2334,7 +2334,7 @@ nsACString
 &
 aOrigin
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
@@ -2529,7 +2529,7 @@ nsACString
 &
 aOrigin
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
@@ -2974,7 +2974,7 @@ nsACString
 &
 aHost
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
@@ -10791,7 +10791,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t

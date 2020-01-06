@@ -7507,7 +7507,7 @@ char
 weightKeyword
 ;
 const
-nsAFlatCString
+nsCString
 &
 weightKeywordString
 =

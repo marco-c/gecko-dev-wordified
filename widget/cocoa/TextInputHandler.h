@@ -484,7 +484,7 @@ void
 InitByInputSourceID
 (
 const
-nsAFlatString
+nsString
 &
 aID
 )

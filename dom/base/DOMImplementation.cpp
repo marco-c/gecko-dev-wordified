@@ -529,7 +529,7 @@ IsEmpty
 )
 {
 const
-nsAFlatString
+nsString
 &
 qName
 =

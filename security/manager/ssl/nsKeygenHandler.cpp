@@ -2187,7 +2187,7 @@ nsAString
 &
 aChallenge
 const
-nsAFlatString
+nsString
 &
 aKeyType
 nsAString

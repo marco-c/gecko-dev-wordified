@@ -330,7 +330,7 @@ h
 /
 /
 for
-nsAFlatString
+nsString
 class
 nsISupports
 ;

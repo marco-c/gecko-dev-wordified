@@ -988,7 +988,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAFlatCString
+nsCString
 &
 aType
 uint32_t
