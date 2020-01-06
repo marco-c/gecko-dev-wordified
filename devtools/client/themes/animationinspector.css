@@ -2583,12 +2583,6 @@ toolbar
 height
 )
 ;
-z
--
-index
-:
-3
-;
 }
 .
 progress
@@ -2843,7 +2837,7 @@ selection
 -
 background
 -
-hover
+semitransparent
 )
 ;
 }
