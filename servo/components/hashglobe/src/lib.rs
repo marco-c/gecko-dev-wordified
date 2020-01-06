@@ -124,13 +124,6 @@ to
 those
 terms
 .
-pub
-use
-std
-:
-:
-*
-;
 extern
 crate
 heapsize
