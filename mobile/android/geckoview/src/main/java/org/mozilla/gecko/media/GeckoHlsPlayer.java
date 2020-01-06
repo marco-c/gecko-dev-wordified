@@ -503,6 +503,7 @@ MAX_TIMELINE_ITEM_LINES
 ;
 private
 static
+final
 boolean
 DEBUG
 =
@@ -4340,6 +4341,7 @@ s
 TaskQueue
 Override
 public
+synchronized
 ConcurrentLinkedQueue
 <
 GeckoHLSSample
@@ -5276,6 +5278,7 @@ thread
 .
 Override
 public
+synchronized
 void
 suspend
 (
@@ -5343,6 +5346,7 @@ thread
 .
 Override
 public
+synchronized
 void
 resume
 (
