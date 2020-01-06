@@ -512,12 +512,6 @@ h
 if
 defined
 (
-FREEBSD
-)
-|
-|
-defined
-(
 BSDI
 )
 |
