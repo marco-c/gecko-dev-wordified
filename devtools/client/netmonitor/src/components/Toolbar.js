@@ -699,7 +699,7 @@ filteredRequests
 :
 PropTypes
 .
-array
+object
 .
 isRequired
 }
