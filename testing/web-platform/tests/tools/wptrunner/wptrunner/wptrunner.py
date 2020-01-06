@@ -1541,13 +1541,6 @@ executor_kwargs
 kwargs
 [
 "
-rerun
-"
-]
-                                      
-kwargs
-[
-"
 pause_after_test
 "
 ]
