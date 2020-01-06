@@ -9267,11 +9267,6 @@ isWasmInterrupted
 )
 )
 ;
-if
-(
-rematerializedFrames_
-)
-{
 clearRematerializedFrames
 (
 )
@@ -9281,7 +9276,6 @@ js_delete
 rematerializedFrames_
 )
 ;
-}
 }
 void
 jit
@@ -9404,10 +9398,12 @@ clearRematerializedFrames
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 rematerializedFrames_
 )
+return
 ;
 for
 (
