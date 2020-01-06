@@ -2537,7 +2537,7 @@ Promise
 =
 [
 "
-PromiseHelper
+promiseHelper
 .
 js
 "
