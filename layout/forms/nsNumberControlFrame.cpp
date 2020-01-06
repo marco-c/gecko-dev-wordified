@@ -4071,9 +4071,6 @@ localizedValue
 aValue
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 /
 /
 Try
@@ -4129,8 +4126,6 @@ localizedValue
 )
 ;
 }
-#
-endif
 /
 /
 We
@@ -4295,9 +4290,6 @@ CallerType
 System
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 /
 /
 Here
@@ -4768,8 +4760,6 @@ AppendFloat
 value
 )
 ;
-#
-endif
 }
 bool
 nsNumberControlFrame
