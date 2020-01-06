@@ -915,8 +915,6 @@ like
 #
 android
 -
-gradle
--
 build
 )
 that
