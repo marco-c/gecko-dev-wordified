@@ -577,10 +577,6 @@ enumerators
 (
 nullptr
 )
-lastCachedNativeIterator
-(
-nullptr
-)
 compartmentStats_
 (
 nullptr
@@ -6963,10 +6959,6 @@ newProxyCache
 purge
 (
 )
-;
-lastCachedNativeIterator
-=
-nullptr
 ;
 objectGroups
 .

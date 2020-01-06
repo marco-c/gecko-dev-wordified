@@ -1334,7 +1334,7 @@ SetPropertyCache
 \
 _
 (
-IteratorStart
+GetIteratorCache
 )
 \
 _

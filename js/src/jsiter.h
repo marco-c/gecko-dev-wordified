@@ -777,6 +777,17 @@ unsigned
 flags
 )
 ;
+PropertyIteratorObject
+*
+LookupInIteratorCache
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
 /
 *
 *
