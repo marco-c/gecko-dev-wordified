@@ -558,6 +558,9 @@ nullptr
 }
 nsDisplayList
 onTop
+(
+aBuilder
+)
 ;
 if
 (
@@ -584,6 +587,9 @@ onTop
 }
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 /
 /

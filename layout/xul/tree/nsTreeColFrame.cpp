@@ -702,6 +702,9 @@ return
 }
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 nsBoxFrame
 :

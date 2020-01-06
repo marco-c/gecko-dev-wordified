@@ -1118,6 +1118,9 @@ aLists
 }
 nsDisplayListCollection
 contentDisplayItems
+(
+aBuilder
+)
 ;
 if
 (

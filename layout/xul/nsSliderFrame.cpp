@@ -2547,6 +2547,9 @@ aBuilder
 ;
 nsDisplayListCollection
 tempLists
+(
+aBuilder
+)
 ;
 nsBoxFrame
 :
@@ -2588,6 +2591,9 @@ list
 .
 nsDisplayList
 masterList
+(
+aBuilder
+)
 ;
 masterList
 .

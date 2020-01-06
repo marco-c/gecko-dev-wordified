@@ -3272,6 +3272,9 @@ asr
 ;
 nsDisplayList
 thisItemList
+(
+aBuilder
+)
 ;
 nsDisplayBackgroundImage
 :

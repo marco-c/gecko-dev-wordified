@@ -48551,6 +48551,9 @@ lines
 .
 nsDisplayListCollection
 collection
+(
+aBuilder
+)
 ;
 /
 /
@@ -48995,6 +48998,9 @@ aLists
 .
 nsDisplayListCollection
 linesDisplayListCollection
+(
+aBuilder
+)
 ;
 /
 /

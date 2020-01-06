@@ -1116,6 +1116,9 @@ return
 }
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 BuildDisplayListForInnerTable
 (

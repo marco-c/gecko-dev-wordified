@@ -7675,6 +7675,9 @@ GetSize
 }
 nsDisplayListCollection
 tempLists
+(
+aBuilder
+)
 ;
 const
 nsDisplayListSet
@@ -7862,6 +7865,9 @@ anyway
 .
 nsDisplayList
 masterList
+(
+aBuilder
+)
 ;
 masterList
 .
