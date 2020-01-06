@@ -163,6 +163,9 @@ nsINavBookmarksService
 "
 nsINavHistoryObserver
 "
+"
+nsIAnnotationObserver
+"
 ]
 [
 "
@@ -176,6 +179,12 @@ onFrecencyChanged
 "
 "
 onTitleChanged
+"
+"
+onPageAnnotationSet
+"
+"
+onPageAnnotationRemoved
 "
 "
 onDeleteURI
