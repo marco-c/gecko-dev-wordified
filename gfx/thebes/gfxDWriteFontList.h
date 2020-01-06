@@ -350,6 +350,13 @@ mForceGDIClassic
 aForce
 ;
 }
+bool
+IsSymbolFontFamily
+(
+)
+const
+final
+;
 void
 AddSizeOfExcludingThis
 (
@@ -870,12 +877,6 @@ override
 virtual
 ~
 gfxDWriteFontEntry
-(
-)
-;
-virtual
-bool
-IsSymbolFont
 (
 )
 ;
