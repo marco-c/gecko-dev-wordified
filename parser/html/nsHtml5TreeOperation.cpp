@@ -2509,6 +2509,7 @@ GetDocGroup
 CustomElementReactionsStack
 (
 )
+nullptr
 )
 ;
 nsCOMPtr
