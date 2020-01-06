@@ -3201,7 +3201,9 @@ NamespaceID
 data
 -
 >
-mType
+GetCustomElementType
+(
+)
 &
 customProto
 )
@@ -16323,7 +16325,9 @@ this
 data
 -
 >
-mType
+GetCustomElementType
+(
+)
 aName
 )
 )
@@ -17949,7 +17953,9 @@ this
 data
 -
 >
-mType
+GetCustomElementType
+(
+)
 aName
 )
 )

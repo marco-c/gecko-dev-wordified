@@ -3073,16 +3073,7 @@ nodeInfo
 NamespaceID
 (
 )
-extension
-.
-IsEmpty
-(
-)
-?
-nullptr
-:
-&
-extension
+typeAtom
 )
 ;
 if
