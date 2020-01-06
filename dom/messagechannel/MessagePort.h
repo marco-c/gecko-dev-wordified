@@ -803,7 +803,7 @@ ErrorResult
 aRv
 )
 ;
-void
+bool
 ConnectToPBackground
 (
 )
