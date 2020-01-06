@@ -22829,6 +22829,15 @@ if
 e10s
 is
 disabled
+or
+if
+we
+'
+re
+on
+/
+/
+nightly
 .
 if
 (
@@ -22846,6 +22855,11 @@ Services
 appinfo
 .
 browserTabsRemoteAutostart
+|
+|
+AppConstants
+.
+NIGHTLY_BUILD
 )
 {
 return
