@@ -814,6 +814,12 @@ linux
 artifact_mode
 =
 artifact_mode
+                               
+no_interactive
+=
+self
+.
+no_interactive
 )
     
 def
