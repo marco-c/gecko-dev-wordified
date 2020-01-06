@@ -53854,8 +53854,6 @@ name
 getter
 nullptr
 JSPROP_ENUMERATE
-|
-JSPROP_SHARED
 )
 )
 {
@@ -54007,8 +54005,6 @@ name
 getter
 nullptr
 JSPROP_ENUMERATE
-|
-JSPROP_SHARED
 )
 )
 {

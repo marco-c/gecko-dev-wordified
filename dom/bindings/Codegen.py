@@ -20788,29 +20788,13 @@ else
 "
 "
             
-enumerable
-=
-"
-|
-%
-s
-"
-%
+return
 EnumerabilityFlags
 (
 attr
 )
-            
-return
-(
-"
-JSPROP_SHARED
-"
-+
-enumerable
 +
 unforgeable
-)
         
 def
 getter

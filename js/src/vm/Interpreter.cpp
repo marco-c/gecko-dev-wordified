@@ -30607,11 +30607,6 @@ getter
 SetterOp
 setter
 ;
-unsigned
-attrs
-=
-JSPROP_SHARED
-;
 JSOp
 op
 =
@@ -30620,6 +30615,11 @@ JSOp
 *
 pc
 )
+;
+unsigned
+attrs
+=
+0
 ;
 if
 (

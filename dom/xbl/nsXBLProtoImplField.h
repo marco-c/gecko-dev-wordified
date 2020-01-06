@@ -312,8 +312,6 @@ AccessorAttributes
 const
 {
 return
-JSPROP_SHARED
-|
 JSPROP_GETTER
 |
 JSPROP_SETTER

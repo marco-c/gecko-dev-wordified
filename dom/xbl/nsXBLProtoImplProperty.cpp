@@ -1289,8 +1289,6 @@ mJSAttributes
 |
 =
 JSPROP_GETTER
-|
-JSPROP_SHARED
 ;
 }
 if
@@ -1638,8 +1636,6 @@ mJSAttributes
 |
 =
 JSPROP_SETTER
-|
-JSPROP_SHARED
 ;
 }
 if
@@ -1878,8 +1874,6 @@ mJSAttributes
 |
 =
 JSPROP_GETTER
-|
-JSPROP_SHARED
 ;
 }
 mGetter
@@ -1936,8 +1930,6 @@ mJSAttributes
 |
 =
 JSPROP_SETTER
-|
-JSPROP_SHARED
 ;
 }
 mSetter

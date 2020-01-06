@@ -228,7 +228,7 @@ JS
 :
 :
 UndefinedHandleValue
-JSPROP_SHARED
+0
 )
 )
 ;
