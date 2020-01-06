@@ -946,7 +946,7 @@ RefPtr
 layers
 :
 :
-CompositorThreadHolderDebug
+CompositorThreadHolder
 >
 mCompositorThreadHolder
 ;
