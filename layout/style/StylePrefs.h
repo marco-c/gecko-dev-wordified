@@ -170,6 +170,10 @@ bool
 sUnprefixedFullscreenApiEnabled
 ;
 static
+bool
+sVisitedLinksEnabled
+;
+static
 void
 Init
 (

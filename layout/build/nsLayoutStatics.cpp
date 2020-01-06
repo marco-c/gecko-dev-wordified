@@ -1492,13 +1492,6 @@ Init
 (
 )
 ;
-nsCSSRuleProcessor
-:
-:
-Startup
-(
-)
-;
 #
 ifdef
 MOZ_XUL
