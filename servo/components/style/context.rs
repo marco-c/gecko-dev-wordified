@@ -1410,10 +1410,7 @@ new_from_style
 style
 :
 &
-Arc
-<
 ComputedValues
->
 )
 -
 >
