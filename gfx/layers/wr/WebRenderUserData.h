@@ -777,8 +777,7 @@ virtual
 WebRenderAnimationData
 (
 )
-{
-}
+;
 virtual
 UserDataType
 GetType
