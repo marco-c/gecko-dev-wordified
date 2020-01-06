@@ -301,7 +301,7 @@ button
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON_INDEX
+MAIN_BUTTON
 )
 ;
 let
@@ -978,7 +978,7 @@ button
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON_INDEX
+MAIN_BUTTON
 )
 ;
 let
