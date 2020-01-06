@@ -422,8 +422,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -901,6 +899,7 @@ webconsole
 /
 hudservice
 "
+true
 )
 ;
 XPCOMUtils

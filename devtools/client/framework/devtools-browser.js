@@ -2510,7 +2510,9 @@ browserConsole
 "
 :
 let
+{
 HUDService
+}
 =
 require
 (

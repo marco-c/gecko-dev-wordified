@@ -133,18 +133,12 @@ defer
 ;
 loader
 .
-lazyGetter
+lazyRequireGetter
 (
 this
 "
 HUDService
 "
-(
-)
-=
->
-require
-(
 "
 devtools
 /
@@ -154,7 +148,7 @@ webconsole
 /
 hudservice
 "
-)
+true
 )
 ;
 loader
@@ -176,8 +170,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter

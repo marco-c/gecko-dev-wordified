@@ -2999,7 +2999,9 @@ jsm
 )
 ;
 let
-hudservice
+{
+HUDService
+}
 =
 require
 (
@@ -3040,7 +3042,7 @@ jsm
 }
 )
 ;
-hudservice
+HUDService
 .
 toggleBrowserConsole
 (

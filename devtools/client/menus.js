@@ -698,7 +698,9 @@ oncommand
 )
 {
 let
+{
 HUDService
+}
 =
 require
 (

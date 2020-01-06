@@ -2798,7 +2798,9 @@ reopenBrowserConsole
 )
 {
 let
+{
 HUDService
+}
 =
 devtools
 .

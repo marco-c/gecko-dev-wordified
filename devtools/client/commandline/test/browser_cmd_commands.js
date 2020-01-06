@@ -55,7 +55,9 @@ commands
 "
 ;
 const
+{
 HUDService
+}
 =
 require
 (
