@@ -108,17 +108,6 @@ error
 always
 "
 ]
-"
-mozilla
-/
-use
--
-services
-"
-:
-"
-error
-"
 }
 }
 ;

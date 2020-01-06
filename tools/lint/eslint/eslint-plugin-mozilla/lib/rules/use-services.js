@@ -200,14 +200,14 @@ nsIXULRuntime
 "
 :
 "
-appinfo
+appInfo
 "
 "
 nsIXULAppInfo
 "
 :
 "
-appinfo
+appInfo
 "
 "
 nsIDirectoryService
