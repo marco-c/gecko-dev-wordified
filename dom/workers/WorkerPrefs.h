@@ -587,6 +587,16 @@ resistFingerprinting
 ResistFingerprintingEnabled
 RESISTFINGERPRINTING_ENABLED
 )
+WORKER_SIMPLE_PREF
+(
+"
+devtools
+.
+enabled
+"
+DevToolsEnabled
+DEVTOOLS_ENABLED
+)
 WORKER_PREF
 (
 "
