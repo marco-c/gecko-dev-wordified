@@ -33139,6 +33139,9 @@ rval
 )
 ;
 }
+#
+ifdef
+JS_TRACE_LOGGING
 static
 bool
 DefineProperty
@@ -33198,9 +33201,6 @@ JSPROP_ENUMERATE
 )
 ;
 }
-#
-ifdef
-JS_TRACE_LOGGING
 #
 ifdef
 NIGHTLY_BUILD
