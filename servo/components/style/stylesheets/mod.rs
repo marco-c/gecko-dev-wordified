@@ -322,6 +322,7 @@ origin
 Origin
 OriginSet
 PerOrigin
+PerOriginIter
 }
 ;
 pub
@@ -386,6 +387,18 @@ stylesheet
 {
 Namespaces
 Stylesheet
+DocumentStyleSheet
+}
+;
+pub
+use
+self
+:
+:
+stylesheet
+:
+:
+{
 StylesheetContents
 StylesheetInDocument
 UserAgentStylesheets
