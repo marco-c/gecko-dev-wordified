@@ -3572,17 +3572,6 @@ PurgeSkiaFontCache
 (
 )
 ;
-virtual
-bool
-IsInGonkEmulator
-(
-)
-const
-{
-return
-false
-;
-}
 static
 bool
 UsesOffMainThreadCompositing
