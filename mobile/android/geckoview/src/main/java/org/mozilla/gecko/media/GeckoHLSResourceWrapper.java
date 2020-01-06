@@ -96,7 +96,7 @@ JNIObject
 ;
 public
 class
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 {
 private
 static
@@ -105,7 +105,7 @@ String
 LOGTAG
 =
 "
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 "
 ;
 private
@@ -131,7 +131,7 @@ false
 public
 static
 class
-HlsResourceCallbacks
+Callbacks
 extends
 JNIObject
 implements
@@ -147,7 +147,7 @@ calledFrom
 gecko
 "
 )
-HlsResourceCallbacks
+Callbacks
 (
 )
 {
@@ -206,9 +206,9 @@ UnsupportedOperationException
 }
 /
 /
-HlsResourceCallbacks
+Callbacks
 private
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 (
 String
 url
@@ -228,7 +228,7 @@ d
 (
 LOGTAG
 "
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 created
 with
 url
@@ -278,7 +278,7 @@ gecko
 )
 public
 static
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 create
 (
 String
@@ -291,7 +291,7 @@ callback
 {
 return
 new
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 (
 url
 callback
@@ -314,7 +314,7 @@ GetPlayer
 {
 /
 /
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 should
 always
 be
