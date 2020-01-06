@@ -6229,7 +6229,7 @@ Function
 /
 function
 definition
-InterpEntry
+Entry
 /
 /
 calls
@@ -6417,10 +6417,10 @@ func
 ;
 struct
 {
-uint8_t
+uint16_t
 beginToUntrustedFPStart_
 ;
-uint8_t
+uint16_t
 beginToUntrustedFPEnd_
 ;
 }
@@ -6819,7 +6819,7 @@ kind
 )
 =
 =
-InterpEntry
+Entry
 ;
 }
 uint32_t
