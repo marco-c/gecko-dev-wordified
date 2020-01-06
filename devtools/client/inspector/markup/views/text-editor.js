@@ -424,15 +424,6 @@ markup
 .
 toolbox
 )
-contextMenu
-:
-this
-.
-markup
-.
-inspector
-.
-onTextBoxContextMenu
 }
 )
 ;
