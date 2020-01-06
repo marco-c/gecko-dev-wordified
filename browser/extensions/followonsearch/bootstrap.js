@@ -376,7 +376,9 @@ message
 received
 :
 {
-kSaveTelemetryMsg
+message
+.
+name
 }
 )
 ;
@@ -462,7 +464,7 @@ code
 *
 *
 *
-Activites
+Activates
 recording
 of
 telemetry
