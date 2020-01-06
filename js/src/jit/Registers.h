@@ -468,6 +468,7 @@ code
 )
 ;
 }
+constexpr
 bool
 operator
 =
@@ -487,6 +488,7 @@ other
 reg_
 ;
 }
+constexpr
 bool
 operator
 !

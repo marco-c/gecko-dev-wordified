@@ -806,6 +806,7 @@ payloadReg
 )
 ;
 }
+constexpr
 bool
 operator
 =
@@ -835,6 +836,7 @@ o
 payload_
 ;
 }
+constexpr
 bool
 operator
 !
@@ -920,6 +922,7 @@ valueReg
 )
 ;
 }
+constexpr
 bool
 operator
 =
@@ -941,6 +944,7 @@ o
 value_
 ;
 }
+constexpr
 bool
 operator
 !
