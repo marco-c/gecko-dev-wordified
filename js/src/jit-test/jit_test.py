@@ -3975,12 +3975,15 @@ ok
 =
 jittests
 .
-run_tests_remote
+run_tests
 (
 job_list
 job_count
 prefix
 options
+remote
+=
+True
 )
         
 else
