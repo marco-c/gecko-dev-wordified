@@ -967,7 +967,10 @@ use
 device
 :
 :
+{
 build_shader_strings
+ProgramCache
+}
 ;
 pub
 use
