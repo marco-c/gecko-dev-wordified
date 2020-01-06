@@ -1035,6 +1035,12 @@ state
 )
 )
 ;
+await
+promiseWindowRestored
+(
+window
+)
+;
 /
 /
 Wait

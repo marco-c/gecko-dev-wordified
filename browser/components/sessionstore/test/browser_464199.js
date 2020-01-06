@@ -767,6 +767,12 @@ test_state
 true
 )
 ;
+await
+promiseWindowRestored
+(
+newWin
+)
+;
 let
 closedTabs
 =

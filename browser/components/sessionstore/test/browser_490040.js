@@ -365,6 +365,12 @@ windowState
 true
 )
 ;
+await
+promiseWindowRestored
+(
+win
+)
+;
 if
 (
 state

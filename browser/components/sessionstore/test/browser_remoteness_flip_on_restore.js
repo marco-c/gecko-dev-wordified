@@ -1126,6 +1126,12 @@ state
 true
 )
 ;
+await
+promiseWindowRestored
+(
+win
+)
+;
 for
 (
 let

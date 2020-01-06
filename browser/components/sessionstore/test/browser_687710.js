@@ -212,6 +212,9 @@ triggeringPrincipal_base64
 }
 ]
 }
+add_task
+(
+async
 function
 test
 (
@@ -255,6 +258,12 @@ state
 )
 )
 ;
+await
+promiseWindowRestored
+(
+window
+)
+;
 ok
 (
 true
@@ -268,3 +277,5 @@ hang
 )
 ;
 }
+)
+;
