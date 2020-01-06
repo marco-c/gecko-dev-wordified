@@ -68,6 +68,10 @@ extern
 crate
 profile_traits
 ;
+extern
+crate
+servo_allocator
+;
 #
 [
 cfg

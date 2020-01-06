@@ -436,6 +436,10 @@ serde
 ;
 extern
 crate
+servo_allocator
+;
+extern
+crate
 servo_arc
 ;
 #

@@ -219,6 +219,10 @@ serde_json
 ;
 extern
 crate
+servo_allocator
+;
+extern
+crate
 servo_arc
 ;
 extern
@@ -569,7 +573,6 @@ malloc_size_of
 :
 :
 {
-malloc_size_of
 MallocSizeOf
 MallocSizeOfOps
 }
@@ -5328,7 +5331,12 @@ MallocSizeOfOps
 :
 new
 (
-malloc_size_of
+:
+:
+servo_allocator
+:
+:
+usable_size
 None
 None
 )
