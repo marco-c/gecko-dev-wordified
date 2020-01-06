@@ -133,13 +133,6 @@ case
 "
 "
     
-__test__
-=
-False
-#
-not
-pytest
-    
 cycles
 =
 None
