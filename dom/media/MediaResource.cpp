@@ -768,6 +768,7 @@ mResource
 OnStartRequest
 (
 aRequest
+mOffset
 )
 ;
 }
@@ -1022,6 +1023,8 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+int64_t
+aRequestOffset
 )
 {
 NS_ASSERTION
@@ -1811,9 +1814,7 @@ gotRangeHeader
 else
 if
 (
-GetOffset
-(
-)
+aRequestOffset
 >
 0
 &
@@ -1904,9 +1905,7 @@ false
 }
 if
 (
-GetOffset
-(
-)
+aRequestOffset
 =
 =
 0
