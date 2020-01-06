@@ -1016,7 +1016,6 @@ a_type
 a_field
 a_node
 )
-\
 (
 a_node
 )
@@ -1063,7 +1062,6 @@ a_type
 a_field
 a_node
 )
-\
 (
 a_node
 )
@@ -1110,7 +1108,6 @@ a_type
 a_field
 a_node
 )
-\
 (
 a_node
 )
@@ -1214,6 +1211,7 @@ a_field
 a_tree
 a_node
 )
+\
 do
 {
 \
@@ -1281,6 +1279,7 @@ a_type
 a_field
 a_tree
 )
+\
 do
 {
 \
@@ -1351,6 +1350,7 @@ a_tree
 a_root
 r_node
 )
+\
 do
 {
 \
@@ -1416,6 +1416,7 @@ a_tree
 a_root
 r_node
 )
+\
 do
 {
 \
@@ -1482,6 +1483,7 @@ a_tree
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -1495,7 +1497,6 @@ a_field
 a_node
 )
 )
-\
 !
 =
 &
@@ -1511,17 +1512,20 @@ rbt_nil
 rbp_first
 (
 a_type
+\
 a_field
+\
 a_tree
+\
 rbp_right_get
 (
 a_type
-\
 a_field
 (
 a_node
 )
 )
+\
 (
 r_node
 )
@@ -1681,6 +1685,7 @@ a_tree
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -1709,17 +1714,20 @@ rbt_nil
 rbp_last
 (
 a_type
+\
 a_field
+\
 a_tree
+\
 rbp_left_get
 (
 a_type
-\
 a_field
 (
 a_node
 )
 )
+\
 (
 r_node
 )
@@ -1877,6 +1885,7 @@ a_field
 a_tree
 r_node
 )
+\
 do
 {
 \
@@ -1937,6 +1946,7 @@ a_field
 a_tree
 r_node
 )
+\
 do
 {
 \
@@ -1997,6 +2007,7 @@ a_tree
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2057,6 +2068,7 @@ a_tree
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2117,6 +2129,7 @@ a_tree
 a_key
 r_node
 )
+\
 do
 {
 \
@@ -2150,9 +2163,9 @@ a_tree
 -
 >
 rbt_nil
+&
+&
 \
-&
-&
 (
 rbp_se_cmp
 =
@@ -2283,6 +2296,7 @@ a_tree
 a_key
 r_node
 )
+\
 do
 {
 \
@@ -2434,6 +2448,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2453,12 +2468,12 @@ a_node
 \
 rbp_right_set
 (
+\
 a_type
 a_field
 (
 a_node
 )
-\
 rbp_left_get
 (
 a_type
@@ -2497,6 +2512,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2516,12 +2532,12 @@ a_node
 \
 rbp_left_set
 (
+\
 a_type
 a_field
 (
 a_node
 )
-\
 rbp_right_get
 (
 a_type
@@ -2560,6 +2576,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2627,6 +2644,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2694,6 +2712,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2912,6 +2931,7 @@ a_field
 a_node
 r_node
 )
+\
 do
 {
 \
@@ -2983,10 +3003,10 @@ rbp_mrr_v
 \
 rbp_color_set
 (
+\
 a_type
 a_field
 rbp_mrr_u
-\
 rbp_red_get
 (
 a_type
@@ -3067,10 +3087,10 @@ else
 \
 rbp_color_set
 (
+\
 a_type
 a_field
 rbp_mrr_t
-\
 rbp_red_get
 (
 a_type
@@ -3249,6 +3269,7 @@ a_cmp
 a_tree
 a_node
 )
+\
 do
 {
 \
@@ -3451,9 +3472,9 @@ a_type
 a_field
 rbp_i_t
 )
+&
+&
 \
-&
-&
 rbp_red_get
 (
 a_type
@@ -3635,7 +3656,6 @@ a_type
 a_field
 rbp_i_p
 )
-\
 =
 =
 rbp_i_c
@@ -3695,7 +3715,6 @@ a_type
 a_field
 rbp_i_g
 )
-\
 =
 =
 rbp_i_p
@@ -4029,6 +4048,7 @@ a_cmp
 a_tree
 a_node
 )
+\
 do
 {
 \
@@ -4266,9 +4286,9 @@ rbp_r_t
 =
 =
 false
+&
+&
 \
-&
-&
 rbp_red_get
 (
 a_type
@@ -4387,7 +4407,6 @@ a_type
 a_field
 rbp_r_c
 )
-\
 =
 =
 &
@@ -4425,7 +4444,6 @@ a_type
 a_field
 rbp_r_c
 )
-\
 !
 =
 &
@@ -4452,7 +4470,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_t
-\
 &
 (
 a_tree
@@ -4589,12 +4606,15 @@ if
 (
 rbp_red_get
 (
-a_type
-a_field
-rbp_left_get
-(
+\
 a_type
 \
+a_field
+\
+rbp_left_get
+(
+\
+a_type
 a_field
 rbp_right_get
 (
@@ -4604,9 +4624,9 @@ rbp_r_c
 )
 )
 )
+=
+=
 \
-=
-=
 false
 )
 {
@@ -4645,7 +4665,6 @@ rbp_move_red_right
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -4706,7 +4725,6 @@ rbp_rotate_right
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -4716,7 +4734,6 @@ rbp_rotate_left
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_u
 )
 ;
@@ -4726,7 +4743,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_t
-\
 rbp_r_u
 )
 ;
@@ -4748,7 +4764,6 @@ rbp_rotate_left
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -4924,7 +4939,6 @@ a_type
 a_field
 rbp_r_xp
 )
-\
 =
 =
 (
@@ -4938,7 +4952,6 @@ rbp_left_set
 a_type
 a_field
 rbp_r_xp
-\
 rbp_r_c
 )
 ;
@@ -4953,11 +4966,11 @@ rbp_right_get
 (
 a_type
 a_field
-\
 rbp_r_xp
 )
 =
 =
+\
 (
 a_node
 )
@@ -4969,7 +4982,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_xp
-\
 rbp_r_c
 )
 ;
@@ -4979,7 +4991,9 @@ rbp_r_c
 rbp_left_set
 (
 a_type
+\
 a_field
+\
 rbp_r_c
 \
 rbp_left_get
@@ -4996,7 +5010,9 @@ a_node
 rbp_right_set
 (
 a_type
+\
 a_field
+\
 rbp_r_c
 \
 rbp_right_get
@@ -5013,7 +5029,9 @@ a_node
 rbp_color_set
 (
 a_type
+\
 a_field
+\
 rbp_r_c
 \
 rbp_red_get
@@ -5035,7 +5053,6 @@ a_type
 a_field
 rbp_r_p
 )
-\
 =
 =
 rbp_r_c
@@ -5047,7 +5064,6 @@ rbp_left_set
 a_type
 a_field
 rbp_r_p
-\
 &
 (
 a_tree
@@ -5070,7 +5086,6 @@ a_type
 a_field
 rbp_r_p
 )
-\
 =
 =
 rbp_r_c
@@ -5082,7 +5097,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_p
-\
 &
 (
 a_tree
@@ -5121,9 +5135,9 @@ rbp_r_t
 =
 =
 false
+&
+&
 \
-&
-&
 rbp_red_get
 (
 a_type
@@ -5141,7 +5155,6 @@ rbp_move_red_left
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -5154,7 +5167,6 @@ a_type
 a_field
 rbp_r_p
 )
-\
 =
 =
 rbp_r_c
@@ -5179,7 +5191,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_p
-\
 rbp_r_t
 )
 ;
@@ -5274,9 +5285,9 @@ a_type
 a_field
 rbp_r_c
 )
+=
+=
 \
-=
-=
 &
 (
 a_tree
@@ -5304,9 +5315,9 @@ a_type
 a_field
 rbp_r_c
 )
-\
 !
 =
+\
 &
 (
 a_tree
@@ -5322,7 +5333,6 @@ rbp_lean_right
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -5332,7 +5342,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_t
-\
 &
 (
 a_tree
@@ -5368,7 +5377,6 @@ a_type
 a_field
 rbp_r_p
 )
-\
 =
 =
 rbp_r_c
@@ -5380,7 +5388,6 @@ rbp_left_set
 a_type
 a_field
 rbp_r_p
-\
 rbp_r_t
 )
 ;
@@ -5394,7 +5401,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_p
-\
 rbp_r_t
 )
 ;
@@ -5519,7 +5525,6 @@ rbp_move_red_right
 a_type
 a_field
 rbp_r_c
-\
 rbp_r_t
 )
 ;
@@ -5532,7 +5537,6 @@ a_type
 a_field
 rbp_r_p
 )
-\
 =
 =
 rbp_r_c
@@ -5557,7 +5561,6 @@ rbp_right_set
 a_type
 a_field
 rbp_r_p
-\
 rbp_r_t
 )
 ;
@@ -5707,7 +5710,6 @@ a_cmp
 \
 static
 void
-\
 a_prefix
 #
 #
@@ -5717,6 +5719,7 @@ a_tree_type
 *
 tree
 )
+\
 {
 \
 rb_new
@@ -5732,7 +5735,6 @@ tree
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5742,6 +5744,7 @@ a_tree_type
 *
 tree
 )
+\
 {
 \
 a_type
@@ -5769,7 +5772,6 @@ ret
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5779,6 +5781,7 @@ a_tree_type
 *
 tree
 )
+\
 {
 \
 a_type
@@ -5806,7 +5809,6 @@ ret
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5819,6 +5821,7 @@ a_type
 *
 node
 )
+\
 {
 \
 a_type
@@ -5848,7 +5851,6 @@ ret
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5861,6 +5863,7 @@ a_type
 *
 node
 )
+\
 {
 \
 a_type
@@ -5890,7 +5893,6 @@ ret
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5903,6 +5905,7 @@ a_type
 *
 key
 )
+\
 {
 \
 a_type
@@ -5932,7 +5935,6 @@ ret
 static
 a_type
 *
-\
 a_prefix
 #
 #
@@ -5945,6 +5947,7 @@ a_type
 *
 key
 )
+\
 {
 \
 a_type
@@ -5973,7 +5976,6 @@ ret
 \
 static
 void
-\
 a_prefix
 #
 #
@@ -5986,6 +5988,7 @@ a_type
 *
 node
 )
+\
 {
 \
 rb_insert
@@ -6002,7 +6005,6 @@ node
 \
 static
 void
-\
 a_prefix
 #
 #
@@ -6015,6 +6017,7 @@ a_type
 *
 node
 )
+\
 {
 \
 rb_remove
@@ -6406,6 +6409,7 @@ a_field
 a_tree
 a_var
 )
+\
 {
 \
 {
@@ -6494,9 +6498,9 @@ rbp_f_node
 =
 rbp_left_get
 (
+\
 a_type
 a_field
-\
 rbp_f_path
 [
 rbp_f_depth
@@ -6507,6 +6511,7 @@ rbp_f_depth
 )
 !
 =
+\
 &
 (
 a_tree
@@ -6607,11 +6612,11 @@ if
 (
 rbp_f_node
 =
+\
 rbp_right_get
 (
 a_type
 a_field
-\
 rbp_f_path
 [
 rbp_f_depth
@@ -6622,6 +6627,7 @@ rbp_f_depth
 )
 !
 =
+\
 &
 (
 a_tree
@@ -6673,11 +6679,11 @@ while
 (
 rbp_f_node
 =
+\
 rbp_left_get
 (
 a_type
 a_field
-\
 rbp_f_path
 [
 rbp_f_depth
@@ -6688,6 +6694,7 @@ rbp_f_depth
 )
 !
 =
+\
 &
 (
 a_tree
@@ -6780,7 +6787,6 @@ rbp_left_get
 (
 a_type
 a_field
-\
 rbp_f_path
 [
 rbp_f_depth
@@ -6788,9 +6794,9 @@ rbp_f_depth
 1
 ]
 )
+=
+=
 \
-=
-=
 rbp_f_path
 [
 rbp_f_depth
