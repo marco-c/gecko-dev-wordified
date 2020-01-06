@@ -4030,7 +4030,7 @@ int64_t
 value
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 HttpBaseChannel

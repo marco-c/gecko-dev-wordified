@@ -1423,7 +1423,7 @@ out
 {
 /
 /
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 write
@@ -3678,7 +3678,7 @@ out
 {
 /
 /
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 write
@@ -3888,7 +3888,7 @@ nsISimpleEnumerator
 aCursor
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 sorry
