@@ -668,6 +668,15 @@ include
 "
 mozilla
 /
+ManualNAC
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -57925,7 +57934,7 @@ nac
 =
 static_cast
 <
-ManualNAC
+ManualNACArray
 *
 >
 (
