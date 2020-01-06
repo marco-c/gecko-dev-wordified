@@ -1139,10 +1139,6 @@ mDisableSubpixelAntialiasingInDescendants
 (
 false
 )
-mInLowPrecisionDisplayPort
-(
-false
-)
 mForEventsAndPluginsOnly
 (
 false
@@ -1206,10 +1202,6 @@ mInActiveTransformedSubtree
 false
 )
 mDisableSubpixelAntialiasingInDescendants
-(
-false
-)
-mInLowPrecisionDisplayPort
 (
 false
 )
@@ -1296,12 +1288,6 @@ mDisableSubpixelAntialiasingInDescendants
 aParent
 .
 mDisableSubpixelAntialiasingInDescendants
-)
-mInLowPrecisionDisplayPort
-(
-aParent
-.
-mInLowPrecisionDisplayPort
 )
 mForEventsAndPluginsOnly
 (
@@ -1427,9 +1413,6 @@ mInActiveTransformedSubtree
 ;
 bool
 mDisableSubpixelAntialiasingInDescendants
-;
-bool
-mInLowPrecisionDisplayPort
 ;
 bool
 mForEventsAndPluginsOnly
