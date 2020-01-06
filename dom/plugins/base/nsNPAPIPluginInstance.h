@@ -1441,9 +1441,6 @@ it
 bool
 mInPluginInitCall
 ;
-nsXPIDLCString
-mFakeURL
-;
 private
 :
 RefPtr

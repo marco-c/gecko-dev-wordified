@@ -391,7 +391,7 @@ mDataSource
 nsNameSpaceMap
 mNameSpaces
 ;
-nsXPIDLCString
+nsCString
 mBaseURLSpec
 ;
 /
