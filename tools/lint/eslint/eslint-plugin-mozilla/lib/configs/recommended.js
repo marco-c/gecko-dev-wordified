@@ -352,6 +352,17 @@ parserOptions
 :
 {
 "
+ecmaFeatures
+"
+:
+{
+"
+experimentalObjectRestSpread
+"
+:
+true
+}
+"
 ecmaVersion
 "
 :
