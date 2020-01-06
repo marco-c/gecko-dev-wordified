@@ -9752,7 +9752,7 @@ user
 *
 *
 param
-id
+ids
 IDs
 of
 the
@@ -9852,7 +9852,7 @@ user
 *
 *
 param
-item
+items
 Bundle
 array
 representing
