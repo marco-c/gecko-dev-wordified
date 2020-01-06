@@ -784,6 +784,8 @@ GetSrcset
 nsAString
 &
 aSrcset
+nsIPrincipal
+&
 )
 {
 GetHTMLAttr
@@ -803,6 +805,9 @@ const
 nsAString
 &
 aSrcset
+nsIPrincipal
+&
+aTriggeringPrincipal
 ErrorResult
 &
 aError
@@ -815,6 +820,7 @@ nsGkAtoms
 :
 srcset
 aSrcset
+aTriggeringPrincipal
 aError
 )
 ;
@@ -2686,6 +2692,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mSrcTriggeringPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mSrcsetTriggeringPrincipal
 ;
 /
 /
