@@ -169,17 +169,6 @@ mozilla
 /
 layers
 /
-WebRenderLayer
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 WebRenderLayerManager
 .
 h

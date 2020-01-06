@@ -453,7 +453,7 @@ mozilla
 /
 layers
 /
-WebRenderDisplayItemLayer
+WebRenderLayerManager
 .
 h
 "

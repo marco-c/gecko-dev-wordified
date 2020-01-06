@@ -436,9 +436,6 @@ class
 WebRenderCommand
 ;
 class
-WebRenderDisplayItemLayer
-;
-class
 WebRenderScrollData
 ;
 class
@@ -10346,16 +10343,6 @@ layers
 :
 WebRenderParentCommand
 WebRenderParentCommand
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-WebRenderDisplayItemLayer
-WebRenderDisplayItemLayer
 ;
 typedef
 mozilla

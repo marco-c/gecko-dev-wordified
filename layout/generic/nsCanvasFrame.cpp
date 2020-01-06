@@ -247,6 +247,17 @@ include
 "
 mozilla
 /
+layers
+/
+WebRenderLayerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

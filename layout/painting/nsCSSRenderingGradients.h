@@ -149,9 +149,6 @@ layers
 class
 StackingContextHelper
 ;
-class
-WebRenderDisplayItemLayer
-;
 }
 /
 /
@@ -555,12 +552,6 @@ layers
 StackingContextHelper
 &
 aSc
-layers
-:
-:
-WebRenderDisplayItemLayer
-*
-aLayer
 const
 nsRect
 &

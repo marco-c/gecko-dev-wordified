@@ -3881,15 +3881,6 @@ mozilla
 layers
 :
 :
-WebRenderDisplayItemLayer
-*
-aLayer
-mozilla
-:
-:
-layers
-:
-:
 WebRenderLayerManager
 *
 aManager
@@ -4022,7 +4013,6 @@ BuildWebRenderDisplayItems
 (
 aBuilder
 aSc
-aLayer
 aDest
 aFill
 aRepeatSize
@@ -4835,9 +4825,6 @@ layers
 StackingContextHelper
 &
 aSc
-WebRenderDisplayItemLayer
-*
-aLayer
 mozilla
 :
 :
@@ -4948,7 +4935,6 @@ aPresContext
 aBuilder
 aResources
 aSc
-aLayer
 aManager
 aItem
 aDirty

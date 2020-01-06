@@ -8468,12 +8468,6 @@ layers
 StackingContextHelper
 &
 aSc
-layers
-:
-:
-WebRenderDisplayItemLayer
-*
-aLayer
 const
 nsRect
 &
