@@ -1253,6 +1253,11 @@ def
 run_fuzzy_try
 (
 update
+=
+False
+query
+=
+None
 )
 :
     
@@ -1452,6 +1457,23 @@ right
 '
     
 ]
+    
+if
+query
+:
+        
+cmd
+.
+extend
+(
+[
+'
+-
+f
+'
+query
+]
+)
     
 proc
 =
