@@ -1859,10 +1859,6 @@ const
 nsDisplayListSet
 &
 aLists
-uint32_t
-aIndex
-=
-0
 )
 ;
 /
