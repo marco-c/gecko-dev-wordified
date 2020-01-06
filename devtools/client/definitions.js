@@ -1835,16 +1835,6 @@ target
 hasActor
 (
 "
-styleEditor
-"
-)
-|
-|
-target
-.
-hasActor
-(
-"
 styleSheets
 "
 )
