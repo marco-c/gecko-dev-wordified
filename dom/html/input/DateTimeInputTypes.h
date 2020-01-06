@@ -174,6 +174,13 @@ aUseZeroIfValueNaN
 const
 override
 ;
+bool
+HasBadInput
+(
+)
+const
+override
+;
 protected
 :
 explicit
