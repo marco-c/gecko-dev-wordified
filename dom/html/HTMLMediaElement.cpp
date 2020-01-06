@@ -9473,12 +9473,6 @@ down
 "
 )
 ;
-mSetCDMRequest
-.
-DisconnectIfExists
-(
-)
-;
 mWaitingForKeyListener
 .
 DisconnectIfExists
@@ -22645,6 +22639,12 @@ ForgetElement
 ;
 }
 UnregisterActivityObserver
+(
+)
+;
+mSetCDMRequest
+.
+DisconnectIfExists
 (
 )
 ;
