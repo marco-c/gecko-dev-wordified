@@ -10597,7 +10597,6 @@ functions
 /
 rb_wrap
 (
-static
 extent_tree_szad_
 extent_tree_t
 extent_node_t
@@ -10670,7 +10669,6 @@ functions
 /
 rb_wrap
 (
-static
 extent_tree_ad_
 extent_tree_t
 extent_node_t
@@ -15868,7 +15866,6 @@ functions
 /
 rb_wrap
 (
-static
 arena_tree_
 arena_tree_t
 arena_t
@@ -15945,7 +15942,6 @@ functions
 /
 rb_wrap
 (
-static
 arena_chunk_tree_dirty_
 arena_chunk_tree_t
 arena_chunk_t
@@ -16022,7 +16018,6 @@ functions
 /
 rb_wrap
 (
-static
 arena_run_tree_
 arena_run_tree_t
 arena_chunk_map_t
@@ -16181,7 +16176,6 @@ functions
 /
 rb_wrap
 (
-static
 arena_avail_tree_
 arena_avail_tree_t
 arena_chunk_map_t
