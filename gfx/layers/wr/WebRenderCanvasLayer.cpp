@@ -583,7 +583,7 @@ wr
 WrImageKey
 key
 =
-GenerateImageKey
+GetImageKey
 (
 )
 ;

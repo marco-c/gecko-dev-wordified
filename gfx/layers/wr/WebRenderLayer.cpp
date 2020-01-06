@@ -222,7 +222,7 @@ WrImageKey
 WebRenderLayer
 :
 :
-GenerateImageKey
+GetImageKey
 (
 )
 {
@@ -701,7 +701,7 @@ wr
 WrImageKey
 key
 =
-GenerateImageKey
+GetImageKey
 (
 )
 ;

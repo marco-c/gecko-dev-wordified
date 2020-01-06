@@ -878,7 +878,7 @@ bool
 WebRenderCompositableHolder
 :
 :
-GenerateImageKeyForTextureHost
+GetImageKeyForTextureHost
 (
 wr
 :
@@ -954,7 +954,7 @@ bind
 WebRenderCompositableHolder
 :
 :
-GenerateImageKey
+GetImageKey
 this
 )
 )
@@ -1152,7 +1152,7 @@ wr
 ImageKey
 key
 =
-GenerateImageKey
+GetImageKey
 (
 )
 ;
@@ -1397,7 +1397,7 @@ aHolder
 >
 mUseExternalImage
 =
-GenerateImageKeyForTextureHost
+GetImageKeyForTextureHost
 (
 aApi
 texture
