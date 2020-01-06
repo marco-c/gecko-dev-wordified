@@ -4583,9 +4583,6 @@ pubk
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
@@ -4738,13 +4735,6 @@ pubk
 ;
 break
 ;
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 default
 :
 rv

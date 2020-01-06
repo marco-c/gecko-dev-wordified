@@ -1137,9 +1137,6 @@ I
 groups
 ]
 "
-#
-ifndef
-NSS_DISABLE_ECC
 "
 [
 -
@@ -1147,13 +1144,6 @@ e
 ec_nickname
 ]
 "
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 "
 \
 n
@@ -13918,9 +13908,6 @@ value
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 '
 e
@@ -13959,13 +13946,6 @@ value
 ;
 break
 ;
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 case
 '
 f
@@ -15844,9 +15824,6 @@ exit
 )
 ;
 }
-#
-ifdef
-NSS_DISABLE_ECC
 if
 (
 privKey
@@ -15860,8 +15837,6 @@ keyType
 =
 ecKey
 )
-#
-endif
 setupCertStatus
 (
 certStatusArena

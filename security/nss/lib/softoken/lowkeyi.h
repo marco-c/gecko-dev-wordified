@@ -210,9 +210,6 @@ NSSLOWKEYPrivateKey
 key
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 extern
 void
 prepare_low_ec_priv_key_for_asn1
@@ -231,13 +228,6 @@ ECParams
 params
 )
 ;
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 /
 *
 *

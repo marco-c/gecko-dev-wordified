@@ -165,9 +165,6 @@ nsslowkey_DHPrivateKeyExportTemplate
 ]
 ;
 #
-ifndef
-NSS_DISABLE_ECC
-#
 define
 NSSLOWKEY_EC_PRIVATE_KEY_VERSION
 1
@@ -189,13 +186,6 @@ nsslowkey_ECPrivateKeyTemplate
 [
 ]
 ;
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 extern
 const
 SEC_ASN1Template

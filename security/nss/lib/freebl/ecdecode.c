@@ -57,9 +57,6 @@ MPL
 *
 /
 #
-ifndef
-NSS_DISABLE_ECC
-#
 ifdef
 FREEBL_NO_DEPEND
 #
@@ -1610,10 +1607,3 @@ pointSize
 1
 ;
 }
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
