@@ -170,13 +170,6 @@ Callbacks
 }
 Override
 WrapForJNI
-(
-dispatchTo
-=
-"
-gecko
-"
-)
 public
 native
 void
@@ -186,13 +179,6 @@ onDataArrived
 ;
 Override
 WrapForJNI
-(
-dispatchTo
-=
-"
-gecko
-"
-)
 public
 native
 void
