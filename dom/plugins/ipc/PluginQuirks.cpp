@@ -219,6 +219,11 @@ quirks
 =
 QUIRK_FLASH_HOOK_GETKEYSTATE
 ;
+quirks
+|
+=
+QUIRK_FLASH_HOOK_PRINTDLGW
+;
 #
 endif
 #
