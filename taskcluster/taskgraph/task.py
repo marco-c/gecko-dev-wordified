@@ -134,9 +134,9 @@ dictionary
 )
     
 -
-optimizations
+optimization
 :
-optimizations
+optimization
 to
 apply
 to
@@ -278,7 +278,7 @@ label
 attributes
 task
                  
-optimizations
+optimization
 =
 None
 dependencies
@@ -336,12 +336,9 @@ kind
         
 self
 .
-optimizations
+optimization
 =
-optimizations
-or
-[
-]
+optimization
         
 self
 .
@@ -418,12 +415,12 @@ and
             
 self
 .
-optimizations
+optimization
 =
 =
 other
 .
-optimizations
+optimization
 and
 \
             
@@ -471,10 +468,10 @@ r
 '
                 
 '
-optimizations
+optimization
 =
 {
-optimizations
+optimization
 !
 r
 }
@@ -545,12 +542,12 @@ self
 dependencies
             
 '
-optimizations
+optimization
 '
 :
 self
 .
-optimizations
+optimization
             
 '
 task
@@ -681,12 +678,12 @@ task
 '
 ]
             
-optimizations
+optimization
 =
 task_dict
 [
 '
-optimizations
+optimization
 '
 ]
             

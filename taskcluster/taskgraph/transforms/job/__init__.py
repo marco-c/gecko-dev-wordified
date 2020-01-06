@@ -172,6 +172,8 @@ Extra
 Optional
     
 Required
+    
+Exclusive
 )
 logger
 =
@@ -536,17 +538,20 @@ coalesce
 '
 ]
     
-Optional
+Exclusive
 (
 '
-optimizations
+optimization
+'
+'
+optimization
 '
 )
 :
 task_description_schema
 [
 '
-optimizations
+optimization
 '
 ]
     
@@ -579,10 +584,10 @@ descriptions
 of
 the
 circumstances
-    
-#
 under
 which
+    
+#
 this
 task
 should
@@ -594,24 +599,40 @@ task
 graph
 .
 This
-    
-#
 will
 be
 converted
+    
+#
 into
 an
-element
+optimization
+so
+it
+cannot
+be
+specified
 in
-the
-optimizations
-list
+a
+job
+description
+that
+    
+#
+also
+gives
+'
+optimization
+'
 .
     
-Optional
+Exclusive
 (
 '
 when
+'
+'
+optimization
 '
 )
 :
@@ -886,6 +907,16 @@ when
 }
 )
         
+if
+not
+when
+:
+            
+yield
+job
+            
+continue
+        
 files_changed
 =
 when
@@ -898,16 +929,6 @@ files
 changed
 '
 )
-        
-if
-not
-files_changed
-:
-            
-yield
-job
-            
-continue
         
 #
 add
@@ -1038,19 +1059,13 @@ changed
 "
         
 job
-.
-setdefault
-(
-'
-optimizations
-'
 [
+'
+optimization
+'
 ]
-)
-.
-append
-(
-[
+=
+{
 '
 skip
 -
@@ -1058,9 +1073,9 @@ unless
 -
 changed
 '
+:
 files_changed
-]
-)
+}
         
 assert
 '
