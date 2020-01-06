@@ -1616,9 +1616,6 @@ MediaPrefs
 PDMWMFVP9DecoderEnabled
 (
 )
-&
-&
-sDXVAEnabled
 )
 {
 if
