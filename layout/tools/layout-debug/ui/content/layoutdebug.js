@@ -1872,15 +1872,6 @@ interfaces
 nsIFile
 ;
 const
-nsIFile
-=
-Components
-.
-interfaces
-.
-nsIFile
-;
-const
 nsIFileURL
 =
 Components

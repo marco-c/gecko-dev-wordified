@@ -172,15 +172,6 @@ interfaces
 nsIFile
 ;
 const
-nsIFile
-=
-Components
-.
-interfaces
-.
-nsIFile
-;
-const
 NS_LOCAL_FILE_CONTRACTID
 =
 "
