@@ -22738,7 +22738,6 @@ define
 TEST_SLOT_MATCHES_PROTOTYPE
 (
 name
-code
 init
 clasp
 )
@@ -22747,7 +22746,10 @@ else
 if
 (
 (
-code
+JSProto_
+#
+#
+name
 )
 =
 =
