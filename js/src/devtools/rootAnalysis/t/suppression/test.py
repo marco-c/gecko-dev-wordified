@@ -107,6 +107,8 @@ assert
 (
 len
 (
+list
+(
 filter
 (
 lambda
@@ -120,6 +122,7 @@ f
 suppressed
 )
 )
+)
 =
 =
 1
@@ -127,6 +130,8 @@ suppressed
 assert
 (
 len
+(
+list
 (
 filter
 (
@@ -141,6 +146,7 @@ f
 suppressed
 )
 )
+)
 =
 =
 0
@@ -148,6 +154,8 @@ suppressed
 assert
 (
 len
+(
+list
 (
 filter
 (
@@ -160,6 +168,7 @@ unsuppressedFunction
 in
 f
 suppressed
+)
 )
 )
 =

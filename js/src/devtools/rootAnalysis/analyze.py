@@ -2365,6 +2365,8 @@ jobs
 '
 ]
 =
+int
+(
 subprocess
 .
 check_output
@@ -2385,6 +2387,7 @@ ignore
 .
 strip
 (
+)
 )
 if
 args
