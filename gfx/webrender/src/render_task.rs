@@ -777,7 +777,6 @@ ClipId
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -802,7 +801,6 @@ DeviceIntSize
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -853,7 +851,6 @@ i32
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -990,7 +987,6 @@ MaskCacheInfo
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -1020,7 +1016,6 @@ MaskGeometryKind
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -1041,7 +1036,6 @@ FLOATS_PER_RENDER_TASK_INFO
 derive
 (
 Debug
-Clone
 )
 ]
 pub
@@ -1086,7 +1080,6 @@ RenderTaskId
 derive
 (
 Debug
-Clone
 )
 ]
 pub
