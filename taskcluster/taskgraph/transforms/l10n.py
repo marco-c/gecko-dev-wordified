@@ -740,21 +740,20 @@ taskref_or_string
 )
     
 #
-Number
-of
-chunks
-to
-split
-the
-locale
-repacks
-up
-into
+Max
+number
+locales
+per
+chunk
     
 Optional
 (
 '
-chunks
+locales
+-
+per
+-
+chunk
 '
 )
 :
@@ -1810,7 +1809,11 @@ file
 "
         
 "
-chunks
+locales
+-
+per
+-
+chunk
 "
         
 "
@@ -2074,14 +2077,18 @@ in
 jobs
 :
         
-chunks
+locales_per_chunk
 =
 job
 .
 get
 (
 '
-chunks
+locales
+-
+per
+-
+chunk
 '
 )
         
@@ -2100,33 +2107,32 @@ all_locales_with_changesets
 ]
         
 if
-chunks
+locales_per_chunk
 :
             
-if
 chunks
->
+remainder
+=
+divmod
+(
 len
 (
 locales_with_changesets
 )
+locales_per_chunk
+)
+            
+if
+remainder
 :
-                
-#
-Reduce
-chunks
-down
-to
-the
-number
-of
-locales
                 
 chunks
 =
-len
+int
 (
-locales_with_changesets
+chunks
++
+1
 )
             
 for
