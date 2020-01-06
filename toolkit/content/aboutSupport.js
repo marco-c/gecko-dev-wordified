@@ -1996,6 +1996,9 @@ Touch
 "
 Drag
 "
+"
+Keyboard
+"
 ]
 )
 {

@@ -3796,6 +3796,12 @@ SupportsApzDragInput
 )
 const
 ;
+bool
+SupportsApzKeyboardInput
+(
+)
+const
+;
 virtual
 void
 FlushContentDrawing
