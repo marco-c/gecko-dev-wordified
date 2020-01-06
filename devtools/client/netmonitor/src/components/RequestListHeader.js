@@ -801,6 +801,11 @@ list
 -
 headers
 "
+onContextMenu
+:
+this
+.
+onContextMenu
 }
 HEADERS
 .
@@ -991,11 +996,6 @@ active
 "
 :
 active
-onContextMenu
-:
-this
-.
-onContextMenu
 }
 button
 (
