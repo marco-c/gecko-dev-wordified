@@ -832,6 +832,12 @@ aFiringId
 )
 const
 ;
+TimeDuration
+MinSchedulingDelay
+(
+)
+const
+;
 private
 :
 struct
