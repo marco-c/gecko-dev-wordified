@@ -1331,7 +1331,7 @@ HTTPS
 .
 #
 ifdef
-RELEASE_OR_BETA
+RELEASE
 /
 /
 Don
