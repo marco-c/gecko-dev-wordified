@@ -39454,13 +39454,6 @@ update
 (
 )
 ;
-TabsInTitlebar
-.
-updateAppearance
-(
-true
-)
-;
 }
 }
 }
@@ -39971,6 +39964,13 @@ uidensity
 break
 ;
 }
+TabsInTitlebar
+.
+updateAppearance
+(
+true
+)
+;
 }
 }
 ;
