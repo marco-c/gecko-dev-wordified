@@ -250,7 +250,7 @@ HAVE_FEXCEPT
 #
 define
 HAVE_PTHREAD_H
-0
+1
 #
 define
 HAVE_WXWIDGETS
