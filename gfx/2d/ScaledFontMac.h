@@ -239,6 +239,10 @@ aUnscaledFont
 Float
 aSize
 bool
+aUseFontSmoothing
+=
+true
+bool
 aOwnsFont
 =
 false
@@ -380,6 +384,9 @@ is
 available
 otherwise
 null
+bool
+mUseFontSmoothing
+;
 typedef
 void
 (
