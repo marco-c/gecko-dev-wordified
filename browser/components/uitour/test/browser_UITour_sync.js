@@ -697,7 +697,7 @@ accounts
 ?
 action
 =
-signup
+email
 &
 entrypoint
 =
