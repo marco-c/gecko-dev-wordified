@@ -368,7 +368,6 @@ aWindow
 >
 AddSizeOfIncludingThis
 (
-&
 windowSizes
 )
 ;
@@ -413,7 +412,6 @@ inner
 >
 AddSizeOfIncludingThis
 (
-&
 windowSizes
 )
 ;
@@ -1929,7 +1927,6 @@ aWindow
 >
 AddSizeOfIncludingThis
 (
-&
 windowSizes
 )
 ;

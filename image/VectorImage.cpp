@@ -2228,7 +2228,6 @@ doc
 >
 DocAddSizeOfIncludingThis
 (
-&
 windowSizes
 )
 ;

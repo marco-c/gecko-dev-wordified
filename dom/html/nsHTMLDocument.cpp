@@ -21477,7 +21477,7 @@ nsHTMLDocument
 DocAddSizeOfExcludingThis
 (
 nsWindowSizes
-*
+&
 aWindowSizes
 )
 const

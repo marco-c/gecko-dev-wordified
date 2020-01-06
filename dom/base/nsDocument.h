@@ -5743,7 +5743,7 @@ void
 DocAddSizeOfExcludingThis
 (
 nsWindowSizes
-*
+&
 aWindowSizes
 )
 const

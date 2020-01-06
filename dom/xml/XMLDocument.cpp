@@ -3700,7 +3700,7 @@ XMLDocument
 DocAddSizeOfExcludingThis
 (
 nsWindowSizes
-*
+&
 aWindowSizes
 )
 const
