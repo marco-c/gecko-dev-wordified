@@ -291,6 +291,9 @@ if
 (
 !
 mCOMProxy
+&
+&
+mSafeToRecurse
 )
 {
 /

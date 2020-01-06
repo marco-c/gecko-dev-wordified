@@ -5717,6 +5717,9 @@ IsNull
 )
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 aDocCOMProxy
@@ -5745,6 +5748,8 @@ proxy
 )
 ;
 }
+#
+endif
 RefPtr
 <
 IAccessible
