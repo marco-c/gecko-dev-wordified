@@ -105,7 +105,7 @@ redux
 )
 ;
 const
-App
+LayoutApp
 =
 createFactory
 (
@@ -116,7 +116,7 @@ require
 /
 components
 /
-App
+LayoutApp
 "
 )
 )
@@ -200,8 +200,10 @@ inspector
 "
 )
 ;
-function
+class
 LayoutView
+{
+constructor
 (
 inspector
 window
@@ -236,11 +238,6 @@ init
 )
 ;
 }
-LayoutView
-.
-prototype
-=
-{
 init
 (
 )
@@ -332,9 +329,9 @@ getComponentProps
 )
 ;
 let
-app
+layoutApp
 =
-App
+LayoutApp
 (
 {
 getSwatchColorPickerTooltip
@@ -418,7 +415,7 @@ layoutViewTitle2
 "
 )
 }
-app
+layoutApp
 )
 ;
 /
@@ -494,7 +491,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
