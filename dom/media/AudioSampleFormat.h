@@ -121,7 +121,9 @@ MOZILLA_AUDIOSAMPLEFORMAT_H_
 #
 include
 "
-nsAlgorithm
+mozilla
+/
+Assertions
 .
 h
 "
@@ -1406,7 +1408,7 @@ constant
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aFormat
 =
@@ -1418,10 +1420,6 @@ aFormat
 =
 =
 AUDIO_FORMAT_FLOAT32
-"
-Unknown
-format
-"
 )
 ;
 return
