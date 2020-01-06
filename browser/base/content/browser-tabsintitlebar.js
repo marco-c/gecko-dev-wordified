@@ -2031,10 +2031,15 @@ enabled
 ;
 if
 (
-CustomizationHandler
+document
 .
-isCustomizing
+documentElement
+.
+hasAttribute
 (
+"
+customizing
+"
 )
 )
 {
