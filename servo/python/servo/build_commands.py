@@ -1980,20 +1980,6 @@ version
 is
 12
             
-env
-[
-"
-ANDROID_NDK_ROOT
-"
-]
-=
-env
-[
-"
-ANDROID_NDK
-"
-]
-            
 with
 open
 (
