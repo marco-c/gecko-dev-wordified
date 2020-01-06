@@ -896,9 +896,8 @@ run
 {
 session
 .
-fetchSince
+fetchModified
 (
-timestamp
 new
 ExpectFetchDelegate
 (

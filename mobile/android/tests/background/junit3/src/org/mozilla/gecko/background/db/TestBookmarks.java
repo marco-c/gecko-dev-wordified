@@ -5137,9 +5137,8 @@ onBatchCompleted
 ;
 session
 .
-fetchSince
+fetchModified
 (
-0
 fetchDelegate
 )
 ;

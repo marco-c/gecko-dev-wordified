@@ -617,9 +617,8 @@ nothing
 .
 session
 .
-fetchSince
+fetchModified
 (
-0
 new
 SimpleSuccessFetchDelegate
 (
@@ -946,9 +945,8 @@ result
 .
 session
 .
-fetchSince
+fetchModified
 (
-0
 new
 SimpleSuccessFetchDelegate
 (

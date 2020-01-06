@@ -521,7 +521,7 @@ createAndBeginSession
 /
 /
 Passwords
-fetchSince
+fetchModified
 checks
 timePasswordChanged
 not
@@ -3021,9 +3021,8 @@ run
 {
 session
 .
-fetchSince
+fetchModified
 (
-timestamp
 new
 ExpectFetchSinceDelegate
 (

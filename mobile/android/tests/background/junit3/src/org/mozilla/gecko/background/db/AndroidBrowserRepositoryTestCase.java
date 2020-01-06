@@ -1305,9 +1305,8 @@ run
 {
 session
 .
-fetchSince
+fetchModified
 (
-timestamp
 preparedExpectFetchSinceDelegate
 (
 timestamp
@@ -1929,7 +1928,7 @@ session
 *
 Tests
 for
-fetchSince
+fetchModified
 *
 /
 protected
