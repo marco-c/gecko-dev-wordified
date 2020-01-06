@@ -3954,6 +3954,9 @@ nsINode
 aParentNode
 int32_t
 aOffset
+nsINode
+*
+aChildAtOffset
 bool
 aEditableNode
 bool

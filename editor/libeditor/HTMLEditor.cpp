@@ -22983,6 +22983,7 @@ GetPriorNode
 (
 aParent
 aOffset
+aChildAtOffset
 true
 aNoBlockCrossing
 )
