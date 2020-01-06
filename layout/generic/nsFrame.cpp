@@ -9898,9 +9898,6 @@ const
 nsStyleDisplay
 *
 aStyleDisplay
-EffectSet
-*
-aEffectSet
 )
 const
 {
@@ -9908,7 +9905,6 @@ return
 IsCSSTransformed
 (
 aStyleDisplay
-aEffectSet
 )
 |
 |
@@ -9927,9 +9923,6 @@ const
 nsStyleDisplay
 *
 aStyleDisplay
-EffectSet
-*
-aEffectSet
 )
 const
 {
@@ -9964,7 +9957,6 @@ this
 |
 HasAnimationOfTransform
 (
-aEffectSet
 )
 )
 )
@@ -9976,28 +9968,9 @@ nsIFrame
 :
 HasAnimationOfTransform
 (
-EffectSet
-*
-aEffectSet
 )
 const
 {
-EffectSet
-*
-effects
-=
-aEffectSet
-?
-aEffectSet
-:
-EffectSet
-:
-:
-GetEffectSet
-(
-this
-)
-;
 return
 IsPrimaryFrame
 (
@@ -10009,7 +9982,7 @@ nsLayoutUtils
 :
 HasAnimationOfProperty
 (
-effects
+this
 eCSSProperty_transform
 )
 &
@@ -10321,9 +10294,6 @@ const
 nsStyleDisplay
 *
 aStyleDisplay
-EffectSet
-*
-aEffectSet
 )
 const
 {
@@ -10368,7 +10338,6 @@ return
 IsCSSTransformed
 (
 aStyleDisplay
-aEffectSet
 )
 |
 |
@@ -10384,9 +10353,6 @@ nsIFrame
 :
 In3DContextAndBackfaceIsHidden
 (
-EffectSet
-*
-aEffectSet
 )
 const
 {
@@ -10435,7 +10401,6 @@ disp
 Combines3DTransformWithAncestors
 (
 disp
-aEffectSet
 )
 ;
 }
@@ -10449,9 +10414,6 @@ const
 nsStyleDisplay
 *
 aStyleDisplay
-EffectSet
-*
-aEffectSet
 )
 const
 {
@@ -10471,7 +10433,6 @@ if
 IsTransformed
 (
 aStyleDisplay
-aEffectSet
 )
 )
 {
@@ -17506,7 +17467,6 @@ isTransformed
 IsTransformed
 (
 disp
-effectSet
 )
 ;
 bool
@@ -17514,7 +17474,7 @@ hasPerspective
 =
 HasPerspective
 (
-effectSet
+disp
 )
 ;
 /
@@ -62842,7 +62802,6 @@ hasTransform
 IsTransformed
 (
 disp
-effectSet
 )
 ;
 nsRect
@@ -63868,7 +63827,6 @@ aNewSize
 RecomputePerspectiveChildrenOverflow
 (
 this
-effectSet
 )
 ;
 }
@@ -64196,9 +64154,6 @@ const
 nsIFrame
 *
 aStartFrame
-EffectSet
-*
-aEffectSet
 )
 {
 nsIFrame
@@ -64296,7 +64251,6 @@ child
 >
 HasPerspective
 (
-aEffectSet
 )
 )
 {
@@ -64472,7 +64426,6 @@ child
 RecomputePerspectiveChildrenOverflow
 (
 aStartFrame
-aEffectSet
 )
 ;
 }
