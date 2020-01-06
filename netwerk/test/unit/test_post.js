@@ -668,12 +668,6 @@ setData
 multi
 )
 ;
-mime
-.
-addContentLength
-=
-true
-;
 httpserver
 .
 registerPathHandler
