@@ -59,6 +59,10 @@ WebExtensionPolicy
 =
 Cu
 .
+getGlobalForObject
+(
+Cu
+.
 import
 (
 "
@@ -76,6 +80,7 @@ jsm
 "
 {
 }
+)
 )
 ;
 const
