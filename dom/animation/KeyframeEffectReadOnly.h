@@ -350,6 +350,9 @@ EffectSet
 class
 ServoStyleContext
 ;
+class
+GeckoStyleContext
+;
 namespace
 dom
 {
@@ -989,7 +992,7 @@ Keyframe
 &
 &
 aKeyframes
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -1005,7 +1008,7 @@ Keyframe
 &
 aKeyframes
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 )
@@ -1202,7 +1205,7 @@ void
 UpdateProperties
 (
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 )
@@ -1678,7 +1681,7 @@ void
 CalculateCumulativeChangeHint
 (
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 )
@@ -2441,7 +2444,7 @@ aProperties
 void
 EnsureBaseStyles
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -2457,7 +2460,7 @@ void
 EnsureBaseStyles
 (
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 const
@@ -2540,7 +2543,7 @@ EnsureBaseStyle
 (
 nsCSSPropertyID
 aProperty
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 RefPtr
@@ -2592,7 +2595,7 @@ nsPresContext
 *
 aPresContext
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 RefPtr

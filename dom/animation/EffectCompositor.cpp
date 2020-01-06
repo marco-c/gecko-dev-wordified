@@ -7671,7 +7671,7 @@ EffectCompositor
 :
 UpdateEffectProperties
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 Element
@@ -7689,9 +7689,9 @@ EffectCompositor
 UpdateEffectProperties
 (
 const
-ServoComputedValues
+ServoStyleContext
 *
-aServoValues
+aStyleContext
 Element
 *
 aElement

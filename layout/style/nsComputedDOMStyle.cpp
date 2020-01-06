@@ -3573,7 +3573,7 @@ pseudoType
 result
 -
 >
-ComputedValues
+AsServo
 (
 )
 )
@@ -3729,8 +3729,8 @@ servoSet
 ResolveTransientStyle
 (
 aElement
-aPseudo
 pseudoType
+aPseudo
 rules
 )
 ;
@@ -3764,7 +3764,7 @@ pseudoType
 result
 -
 >
-ComputedValues
+AsServo
 (
 )
 )
