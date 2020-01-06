@@ -363,12 +363,6 @@ moz
 -
 cellhighlighttext
 ;
-font
--
-weight
-:
-bold
-;
 }
 .
 item
@@ -776,10 +770,7 @@ grow
 ;
 padding
 :
-1px
-0px
-1px
-0px
+4px
 ;
 }
 .
