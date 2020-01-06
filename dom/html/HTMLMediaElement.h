@@ -3768,16 +3768,6 @@ NotifyWaitingForKey
 )
 override
 ;
-bool
-MozAutoplayEnabled
-(
-)
-const
-{
-return
-mAutoplayEnabled
-;
-}
 already_AddRefed
 <
 DOMMediaStream
