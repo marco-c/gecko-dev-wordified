@@ -624,7 +624,7 @@ __func__
 }
 RefPtr
 <
-MediaDecoderReader
+MediaDecoderReaderWrapper
 :
 :
 SeekPromise

@@ -863,13 +863,6 @@ h
 #
 include
 "
-MediaDecoderReader
-.
-h
-"
-#
-include
-"
 MediaDecoderOwner
 .
 h
@@ -878,6 +871,13 @@ h
 include
 "
 MediaEventSource
+.
+h
+"
+#
+include
+"
+MediaFormatReader
 .
 h
 "
@@ -1068,7 +1068,7 @@ MediaDecoderStateMachine
 using
 TrackSet
 =
-MediaDecoderReader
+MediaFormatReader
 :
 :
 TrackSet
@@ -3899,7 +3899,7 @@ moment
 using
 AudioDataPromise
 =
-MediaDecoderReader
+MediaFormatReader
 :
 :
 AudioDataPromise
@@ -3907,7 +3907,7 @@ AudioDataPromise
 using
 VideoDataPromise
 =
-MediaDecoderReader
+MediaFormatReader
 :
 :
 VideoDataPromise
@@ -3915,7 +3915,7 @@ VideoDataPromise
 using
 WaitForDataPromise
 =
-MediaDecoderReader
+MediaFormatReader
 :
 :
 WaitForDataPromise

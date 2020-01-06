@@ -2770,7 +2770,7 @@ aError
 }
 MozPromiseRequestHolder
 <
-MediaDecoderReader
+MediaFormatReader
 :
 :
 MetadataPromise
@@ -8590,7 +8590,7 @@ reader
 /
 MozPromiseRequestHolder
 <
-MediaDecoderReader
+MediaFormatReader
 :
 :
 SeekPromise
