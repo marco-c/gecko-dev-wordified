@@ -16488,6 +16488,7 @@ ElementCallbackType
 eCreated
 eConnected
 eDisconnected
+eAdopted
 eAttributeChanged
 }
 ;

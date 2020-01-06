@@ -15813,6 +15813,7 @@ eAttributeChanged
 this
 &
 args
+nullptr
 definition
 )
 ;
@@ -17337,6 +17338,7 @@ eAttributeChanged
 this
 &
 args
+nullptr
 definition
 )
 ;
@@ -25836,6 +25838,21 @@ aBits
 )
 )
 {
+MOZ_ASSERT
+(
+aElement
+-
+>
+GetComposedDoc
+(
+)
+-
+>
+GetServoRestyleRoot
+(
+)
+)
+;
 return
 ;
 }
