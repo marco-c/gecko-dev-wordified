@@ -20524,11 +20524,6 @@ promise
 .
 reject_error
 (
-global
-.
-get_cx
-(
-)
 Error
 :
 :

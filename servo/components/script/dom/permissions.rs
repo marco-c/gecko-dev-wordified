@@ -797,7 +797,6 @@ p
 .
 reject_error
 (
-cx
 error
 )
 ;
@@ -887,7 +886,6 @@ p
 .
 reject_error
 (
-cx
 error
 )
 ;
@@ -1123,7 +1121,6 @@ p
 .
 resolve_native
 (
-cx
 &
 status
 )
@@ -1171,7 +1168,6 @@ p
 .
 resolve_native
 (
-cx
 &
 status
 )

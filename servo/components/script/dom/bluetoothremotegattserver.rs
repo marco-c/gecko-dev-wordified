@@ -240,15 +240,6 @@ ipc
 IpcSender
 ;
 use
-js
-:
-:
-jsapi
-:
-:
-JSContext
-;
-use
 std
 :
 :
@@ -1054,11 +1045,6 @@ self
 response
 :
 BluetoothResponse
-promise_cx
-:
-*
-mut
-JSContext
 promise
 :
 &
@@ -1144,7 +1130,6 @@ promise
 .
 reject_error
 (
-promise_cx
 Error
 :
 :
@@ -1160,7 +1145,6 @@ promise
 .
 reject_error
 (
-promise_cx
 Error
 :
 :
@@ -1199,7 +1183,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 self
 )
 ;
@@ -1254,7 +1237,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 device
 .
@@ -1312,7 +1294,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 services
 )
@@ -1325,7 +1306,6 @@ promise
 .
 reject_error
 (
-promise_cx
 Error
 :
 :

@@ -341,15 +341,6 @@ ipc
 IpcSender
 ;
 use
-js
-:
-:
-jsapi
-:
-:
-JSContext
-;
-use
 std
 :
 :
@@ -1041,19 +1032,6 @@ global
 )
 )
 ;
-let
-p_cx
-=
-p
-.
-global
-(
-)
-.
-get_cx
-(
-)
-;
 /
 /
 Step
@@ -1079,7 +1057,6 @@ p
 .
 reject_error
 (
-p_cx
 Security
 )
 ;
@@ -1116,7 +1093,6 @@ p
 .
 reject_error
 (
-p_cx
 Network
 )
 ;
@@ -1165,7 +1141,6 @@ p
 .
 reject_error
 (
-p_cx
 NotSupported
 )
 ;
@@ -1312,19 +1287,6 @@ global
 )
 )
 ;
-let
-p_cx
-=
-p
-.
-global
-(
-)
-.
-get_cx
-(
-)
-;
 /
 /
 Step
@@ -1350,7 +1312,6 @@ p
 .
 reject_error
 (
-p_cx
 Security
 )
 ;
@@ -1378,7 +1339,6 @@ p
 .
 reject_error
 (
-p_cx
 InvalidModification
 )
 ;
@@ -1415,7 +1375,6 @@ p
 .
 reject_error
 (
-p_cx
 Network
 )
 ;
@@ -1488,7 +1447,6 @@ p
 .
 reject_error
 (
-p_cx
 NotSupported
 )
 ;
@@ -1630,19 +1588,6 @@ global
 )
 )
 ;
-let
-p_cx
-=
-p
-.
-global
-(
-)
-.
-get_cx
-(
-)
-;
 /
 /
 Step
@@ -1668,7 +1613,6 @@ p
 .
 reject_error
 (
-p_cx
 Security
 )
 ;
@@ -1705,7 +1649,6 @@ p
 .
 reject_error
 (
-p_cx
 Network
 )
 ;
@@ -1747,7 +1690,6 @@ p
 .
 reject_error
 (
-p_cx
 NotSupported
 )
 ;
@@ -2037,11 +1979,6 @@ self
 response
 :
 BluetoothResponse
-promise_cx
-:
-*
-mut
-JSContext
 promise
 :
 &
@@ -2108,7 +2045,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 device
 .
@@ -2166,7 +2102,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 descriptors
 )
@@ -2321,7 +2256,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 value
 )
@@ -2437,7 +2371,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 &
 (
 )
@@ -2538,7 +2471,6 @@ promise
 .
 resolve_native
 (
-promise_cx
 self
 )
 ;
@@ -2550,7 +2482,6 @@ promise
 .
 reject_error
 (
-promise_cx
 Error
 :
 :

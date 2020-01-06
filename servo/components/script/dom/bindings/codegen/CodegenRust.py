@@ -6431,7 +6431,7 @@ match
 Promise
 :
 :
-Resolve
+new_resolved
 (
 &
 promiseGlobal
