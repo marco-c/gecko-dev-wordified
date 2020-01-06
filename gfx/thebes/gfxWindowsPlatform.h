@@ -967,7 +967,7 @@ SetupClearTypeParams
 ;
 inline
 bool
-DWriteAvailable
+DWriteEnabled
 (
 )
 const
