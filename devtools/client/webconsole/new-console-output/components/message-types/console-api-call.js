@@ -298,11 +298,6 @@ loadedObjectProperties
 PropTypes
 .
 object
-loadedObjectEntries
-:
-PropTypes
-.
-object
 }
 ;
 ConsoleApiCall
@@ -331,7 +326,6 @@ serviceContainer
 timestampsVisible
 repeat
 loadedObjectProperties
-loadedObjectEntries
 }
 =
 props
@@ -364,7 +358,6 @@ messageBodyConfig
 {
 dispatch
 loadedObjectProperties
-loadedObjectEntries
 messageId
 parameters
 userProvidedStyles
@@ -668,7 +661,6 @@ const
 {
 dispatch
 loadedObjectProperties
-loadedObjectEntries
 messageId
 parameters
 serviceContainer
@@ -719,7 +711,6 @@ useQuotes
 :
 false
 loadedObjectProperties
-loadedObjectEntries
 type
 }
 )
