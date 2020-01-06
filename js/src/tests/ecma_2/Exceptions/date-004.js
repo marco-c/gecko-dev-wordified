@@ -200,10 +200,6 @@ prototype
 getTime
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

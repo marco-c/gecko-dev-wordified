@@ -428,10 +428,6 @@ VERSION
 ECMA_2
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

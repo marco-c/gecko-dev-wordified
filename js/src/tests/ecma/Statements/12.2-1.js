@@ -256,10 +256,6 @@ VERSION
 ECMA_1
 "
 ;
-startTest
-(
-)
-;
 var
 TITLE
 =

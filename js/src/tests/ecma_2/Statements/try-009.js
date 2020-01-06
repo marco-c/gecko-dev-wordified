@@ -200,10 +200,6 @@ while
 block
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -430,10 +430,6 @@ regexp
 )
 "
 ;
-startTest
-(
-)
-;
 /
 /
 the

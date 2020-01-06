@@ -365,10 +365,6 @@ VERSION
 ECMA_1
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

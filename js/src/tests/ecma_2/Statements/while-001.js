@@ -157,10 +157,6 @@ while
 statement
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

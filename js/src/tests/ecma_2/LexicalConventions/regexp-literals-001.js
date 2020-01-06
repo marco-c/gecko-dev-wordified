@@ -157,10 +157,6 @@ Expression
 Literals
 "
 ;
-startTest
-(
-)
-;
 /
 /
 Regular

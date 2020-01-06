@@ -229,10 +229,6 @@ an
 Instance
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -160,10 +160,6 @@ Function
 Calls
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -207,10 +207,6 @@ Multiple
 Inheritance
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -162,10 +162,6 @@ a
 constructor
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

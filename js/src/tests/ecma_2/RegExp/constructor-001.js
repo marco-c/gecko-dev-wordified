@@ -161,10 +161,6 @@ RegExp
 )
 "
 ;
-startTest
-(
-)
-;
 /
 *
 *

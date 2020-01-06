@@ -153,10 +153,6 @@ Exceptions
 ToObjectError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

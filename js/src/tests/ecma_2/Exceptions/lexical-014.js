@@ -203,10 +203,6 @@ Reserved
 Words
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

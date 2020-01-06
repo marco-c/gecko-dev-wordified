@@ -153,10 +153,6 @@ Exceptions
 CallError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -168,10 +168,6 @@ try
 statement
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

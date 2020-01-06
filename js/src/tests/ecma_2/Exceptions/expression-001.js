@@ -234,10 +234,6 @@ operator
 :
 )
 "
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

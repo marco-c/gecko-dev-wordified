@@ -133,10 +133,6 @@ instanceof
 operator
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

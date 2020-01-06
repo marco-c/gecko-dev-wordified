@@ -153,10 +153,6 @@ Exceptions
 TypeError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

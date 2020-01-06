@@ -231,10 +231,6 @@ Prototype
 Object
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

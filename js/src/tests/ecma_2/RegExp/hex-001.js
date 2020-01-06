@@ -170,10 +170,6 @@ contain
 HexicdecimalEscapeSequences
 "
 ;
-startTest
-(
-)
-;
 /
 /
 These

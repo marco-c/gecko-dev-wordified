@@ -135,10 +135,6 @@ Call
 Constructor
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

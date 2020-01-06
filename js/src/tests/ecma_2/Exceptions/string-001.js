@@ -235,10 +235,6 @@ prototype
 toString
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

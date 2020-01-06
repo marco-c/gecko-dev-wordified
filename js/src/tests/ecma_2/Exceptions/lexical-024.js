@@ -221,10 +221,6 @@ TITLE
 Keywords
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

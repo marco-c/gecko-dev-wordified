@@ -488,10 +488,6 @@ in
 statement
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

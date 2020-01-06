@@ -181,10 +181,6 @@ string
 )
 "
 ;
-startTest
-(
-)
-;
 /
 *
 *

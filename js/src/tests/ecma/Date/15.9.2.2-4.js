@@ -175,10 +175,6 @@ VERSION
 =
 9706
 ;
-startTest
-(
-)
-;
 var
 SECTION
 =

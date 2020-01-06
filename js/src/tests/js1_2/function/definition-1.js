@@ -160,10 +160,6 @@ VERSION
 JS_12
 "
 ;
-startTest
-(
-)
-;
 var
 TITLE
 =

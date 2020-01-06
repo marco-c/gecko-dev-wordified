@@ -164,10 +164,6 @@ do
 while
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -182,10 +182,6 @@ a
 tryblock
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

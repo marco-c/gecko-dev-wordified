@@ -338,10 +338,6 @@ VERSION
 ECMA_1
 "
 ;
-startTest
-(
-)
-;
 var
 BUGNUMBER
 =

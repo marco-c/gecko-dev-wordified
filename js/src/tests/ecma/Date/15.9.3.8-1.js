@@ -312,10 +312,6 @@ VERSION
 ECMA_1
 "
 ;
-startTest
-(
-)
-;
 var
 SECTION
 =
@@ -454,10 +450,6 @@ VERSION
 "
 ECMA_1
 "
-;
-startTest
-(
-)
 ;
 writeHeaderToLog
 (

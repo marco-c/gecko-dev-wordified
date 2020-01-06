@@ -399,10 +399,6 @@ regexp
 )
 "
 ;
-startTest
-(
-)
-;
 /
 /
 the

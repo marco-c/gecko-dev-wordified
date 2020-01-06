@@ -165,10 +165,6 @@ VERSION
 ECMA_2
 "
 ;
-startTest
-(
-)
-;
 var
 TITLE
 =

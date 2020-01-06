@@ -156,10 +156,6 @@ Labeled
 statements
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

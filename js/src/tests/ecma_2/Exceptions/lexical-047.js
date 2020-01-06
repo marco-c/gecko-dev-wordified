@@ -153,10 +153,6 @@ for
 loops
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

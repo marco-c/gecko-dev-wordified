@@ -183,10 +183,6 @@ SECTION
 TITLE
 )
 ;
-startTest
-(
-)
-;
 /
 /
 try

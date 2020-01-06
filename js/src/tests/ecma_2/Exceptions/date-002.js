@@ -240,10 +240,6 @@ setTime
 )
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

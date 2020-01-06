@@ -243,10 +243,6 @@ in
 constructors
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

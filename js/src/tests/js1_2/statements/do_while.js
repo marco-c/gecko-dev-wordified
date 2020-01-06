@@ -151,10 +151,6 @@ no
 version
 '
 ;
-startTest
-(
-)
-;
 var
 TITLE
 =

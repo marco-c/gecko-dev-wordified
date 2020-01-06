@@ -183,10 +183,6 @@ Global
 Object
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

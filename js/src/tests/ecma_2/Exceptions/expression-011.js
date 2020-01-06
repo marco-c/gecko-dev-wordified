@@ -162,10 +162,6 @@ new
 operator
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

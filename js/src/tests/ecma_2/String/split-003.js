@@ -309,10 +309,6 @@ limit
 )
 "
 ;
-startTest
-(
-)
-;
 /
 /
 separator

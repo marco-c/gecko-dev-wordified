@@ -219,10 +219,6 @@ Instance
 Relationships
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

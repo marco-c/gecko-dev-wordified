@@ -153,10 +153,6 @@ Exceptions
 TargetError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

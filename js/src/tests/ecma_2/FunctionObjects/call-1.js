@@ -147,10 +147,6 @@ prototype
 call
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

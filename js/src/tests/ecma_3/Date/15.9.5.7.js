@@ -469,10 +469,6 @@ extractLocaleTimeString
 )
 '
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

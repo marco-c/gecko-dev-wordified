@@ -588,10 +588,6 @@ TITLE
 NativeScript
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION
