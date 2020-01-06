@@ -9800,7 +9800,7 @@ DeviceId
 {
 workarounds
 .
-callClearTwiceOnSmallTarget
+callClearTwice
 =
 d3d11_gl
 :

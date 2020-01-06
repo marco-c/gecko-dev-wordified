@@ -1547,7 +1547,7 @@ gl
 :
 InternalFormat
 &
-sizedFormatInfo
+formatInfo
 =
 gl
 :
@@ -1565,12 +1565,11 @@ outputPitch
 ;
 ANGLE_TRY_RESULT
 (
-sizedFormatInfo
+formatInfo
 .
 computeRowPitch
 (
-type
-origArea
+area
 .
 width
 packState
@@ -1590,7 +1589,7 @@ outputSkipBytes
 ;
 ANGLE_TRY_RESULT
 (
-sizedFormatInfo
+formatInfo
 .
 computeSkipBytes
 (
@@ -1615,7 +1614,7 @@ origArea
 x
 )
 *
-sizedFormatInfo
+formatInfo
 .
 pixelBytes
 +

@@ -2988,7 +2988,7 @@ PixelUnpackState
 &
 unpack
 GLenum
-type
+inputType
 const
 void
 *
@@ -3054,7 +3054,6 @@ formatInfo
 .
 computeRowPitch
 (
-type
 area
 .
 width
@@ -3314,7 +3313,6 @@ formatInfo
 .
 computeRowPitch
 (
-GL_UNSIGNED_BYTE
 area
 .
 width

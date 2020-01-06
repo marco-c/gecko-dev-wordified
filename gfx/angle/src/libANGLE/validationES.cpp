@@ -4957,7 +4957,6 @@ formatInfo
 .
 computePackUnpackEndByte
 (
-type
 size
 unpack
 targetIs3D
@@ -24083,7 +24082,6 @@ formatInfo
 .
 computePackUnpackEndByte
 (
-type
 size
 pack
 false
