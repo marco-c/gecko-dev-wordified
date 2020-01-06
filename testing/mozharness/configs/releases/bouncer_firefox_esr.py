@@ -425,6 +425,20 @@ check_uptake
 True
             
 "
+alias
+"
+:
+"
+firefox
+-
+esr
+-
+latest
+-
+ssl
+"
+            
+"
 ssl
 -
 only
@@ -771,6 +785,8 @@ alias
 firefox
 -
 sha1
+-
+ssl
 "
             
 "

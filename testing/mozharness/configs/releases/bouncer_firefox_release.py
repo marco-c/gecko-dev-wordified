@@ -423,6 +423,18 @@ check_uptake
 True
             
 "
+alias
+"
+:
+"
+firefox
+-
+latest
+-
+ssl
+"
+            
+"
 ssl
 -
 only
