@@ -99,15 +99,26 @@ product
     
 #
 XXX
-officially
-support
-a
+Once
+shipping
+-
 product
-attribute
-that
 is
-consistently
 set
+for
+nightly
+builds
+as
+well
+we
+can
+get
+    
+#
+rid
+of
+this
+function
 .
     
 product
@@ -117,8 +128,18 @@ job_or_task
 get
 (
 '
+shipping
+-
 product
 '
+job_or_task
+.
+get
+(
+'
+product
+'
+)
 )
     
 if
