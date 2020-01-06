@@ -837,8 +837,6 @@ ios
 .
 newURI
 (
-options
-.
 filename
 null
 baseURI

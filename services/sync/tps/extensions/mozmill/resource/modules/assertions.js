@@ -947,6 +947,8 @@ b
 )
 ;
 return
+this
+.
 _deepEqual
 (
 a
@@ -2819,6 +2821,10 @@ representation
 let
 pattern
 =
+"
+"
+;
+let
 flags
 =
 "

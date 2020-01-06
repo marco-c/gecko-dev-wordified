@@ -1481,6 +1481,7 @@ args
 kwargs
 )
 {
+let
 obj
 =
 {

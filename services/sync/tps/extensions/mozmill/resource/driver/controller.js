@@ -581,7 +581,7 @@ Event
 '
 "
 +
-ex
+e
 +
 "
 '
@@ -5406,6 +5406,7 @@ undefined
 '
 )
 {
+let
 test
 =
 new
@@ -6772,6 +6773,7 @@ true
 }
 finally
 {
+let
 state
 =
 '
@@ -6798,6 +6800,7 @@ document
 .
 readyState
 ;
+let
 message
 =
 "

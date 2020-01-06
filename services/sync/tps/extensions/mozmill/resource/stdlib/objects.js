@@ -87,6 +87,7 @@ len
 ;
 for
 (
+let
 i
 in
 obj
