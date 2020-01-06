@@ -955,6 +955,12 @@ aInOutParent
 int32_t
 *
 aInOutOffset
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 EDirection
 aSelect
 )
@@ -971,6 +977,12 @@ aInOutParent
 int32_t
 *
 aInOutOffset
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 nsCOMPtr
 <
 nsIDOMNode

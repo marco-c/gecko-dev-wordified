@@ -861,6 +861,12 @@ nsIEditor
 :
 EDirection
 aSelect
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 )
 {
 /
@@ -1418,6 +1424,7 @@ CreateBRImpl
 (
 aInOutParent
 aInOutOffset
+aInOutChildAtOffset
 aSelect
 )
 ;
