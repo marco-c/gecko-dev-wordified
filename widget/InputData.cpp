@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -662,6 +669,10 @@ domTouch
 >
 RadiusX
 (
+CallerType
+:
+:
+System
 )
 ;
 int32_t
@@ -672,6 +683,10 @@ domTouch
 >
 RadiusY
 (
+CallerType
+:
+:
+System
 )
 ;
 float
@@ -682,6 +697,10 @@ domTouch
 >
 RotationAngle
 (
+CallerType
+:
+:
+System
 )
 ;
 float
@@ -692,6 +711,10 @@ domTouch
 >
 Force
 (
+CallerType
+:
+:
+System
 )
 ;
 SingleTouchData
