@@ -35832,7 +35832,7 @@ onlyN
 =
 false
 ;
-int
+bool
 hasSign
 =
 false
