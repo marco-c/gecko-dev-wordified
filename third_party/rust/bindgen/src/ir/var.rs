@@ -15,7 +15,7 @@ context
 :
 {
 BindgenContext
-ItemId
+TypeId
 }
 ;
 use
@@ -246,7 +246,7 @@ variable
 .
 ty
 :
-ItemId
+TypeId
 /
 /
 /
@@ -300,7 +300,7 @@ new
 name
 :
 String
-mangled
+mangled_name
 :
 Option
 <
@@ -308,7 +308,7 @@ String
 >
 ty
 :
-ItemId
+TypeId
 val
 :
 Option
@@ -337,19 +337,9 @@ is_empty
 Var
 {
 name
-:
-name
 mangled_name
-:
-mangled
-ty
-:
 ty
 val
-:
-val
-is_const
-:
 is_const
 }
 }
@@ -431,7 +421,7 @@ self
 )
 -
 >
-ItemId
+TypeId
 {
 self
 .

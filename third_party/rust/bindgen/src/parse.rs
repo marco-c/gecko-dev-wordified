@@ -27,6 +27,7 @@ context
 {
 BindgenContext
 ItemId
+TypeId
 }
 ;
 use
@@ -453,7 +454,7 @@ BindgenContext
 >
 Result
 <
-ItemId
+TypeId
 ParseError
 >
 ;
@@ -515,7 +516,7 @@ BindgenContext
 >
 Result
 <
-ItemId
+TypeId
 ParseError
 >
 ;
@@ -581,7 +582,7 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 /
 /
@@ -638,7 +639,7 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 /
 /
@@ -674,7 +675,7 @@ BindgenContext
 >
 Option
 <
-ItemId
+TypeId
 >
 ;
 /
@@ -702,6 +703,6 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 }

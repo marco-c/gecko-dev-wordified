@@ -244,6 +244,7 @@ context
 {
 BindgenContext
 ItemId
+TypeId
 }
 ;
 use
@@ -1416,7 +1417,7 @@ Option
 <
 Vec
 <
-ItemId
+TypeId
 >
 >
 ;
@@ -1728,7 +1729,7 @@ Option
 <
 Vec
 <
-ItemId
+TypeId
 >
 >
 where
@@ -1860,7 +1861,7 @@ Option
 <
 Vec
 <
-ItemId
+TypeId
 >
 >
 where
@@ -2026,7 +2027,7 @@ Extra
 >
 Option
 <
-ItemId
+TypeId
 >
 ;
 /
@@ -2110,7 +2111,7 @@ instantiating
 .
 definition
 :
-ItemId
+TypeId
 /
 /
 /
@@ -2138,7 +2139,7 @@ args
 :
 Vec
 <
-ItemId
+TypeId
 >
 }
 impl
@@ -2164,10 +2165,10 @@ new
 I
 >
 (
-template_definition
+definition
 :
-ItemId
-template_args
+TypeId
+args
 :
 I
 )
@@ -2181,17 +2182,15 @@ IntoIterator
 <
 Item
 =
-ItemId
+TypeId
 >
 {
 TemplateInstantiation
 {
 definition
-:
-template_definition
 args
 :
-template_args
+args
 .
 into_iter
 (
@@ -2222,7 +2221,7 @@ self
 )
 -
 >
-ItemId
+TypeId
 {
 self
 .
@@ -2252,7 +2251,7 @@ self
 >
 &
 [
-ItemId
+TypeId
 ]
 {
 &
@@ -2982,6 +2981,10 @@ visit_kind
 self
 .
 definition
+.
+into
+(
+)
 EdgeKind
 :
 :
@@ -2989,8 +2992,7 @@ TemplateDeclaration
 )
 ;
 for
-&
-item
+arg
 in
 self
 .
@@ -3002,7 +3004,11 @@ tracer
 .
 visit_kind
 (
-item
+arg
+.
+into
+(
+)
 EdgeKind
 :
 :

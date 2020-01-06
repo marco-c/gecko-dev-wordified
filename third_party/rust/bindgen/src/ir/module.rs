@@ -535,6 +535,10 @@ cursor
 Some
 (
 module_id
+.
+into
+(
+)
 )
 )
 )
@@ -549,6 +553,10 @@ ParseResult
 AlreadyResolved
 (
 module_id
+.
+into
+(
+)
 )
 )
 }
