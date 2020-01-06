@@ -24275,6 +24275,8 @@ GetContainerASR
 (
 )
 ;
+if
+(
 aBuilder
 -
 >
@@ -24284,7 +24286,13 @@ child
 &
 list
 )
+)
+{
+canSkipWrapList
+=
+false
 ;
+}
 }
 else
 {
@@ -24738,6 +24746,8 @@ aBuilder
 pseudoStack
 )
 ;
+if
+(
 aBuilder
 -
 >
@@ -24750,7 +24760,13 @@ Content
 (
 )
 )
+)
+{
+canSkipWrapList
+=
+false
 ;
+}
 wrapListASR
 =
 contASRTracker
