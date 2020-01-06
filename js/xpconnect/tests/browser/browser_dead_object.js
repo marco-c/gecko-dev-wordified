@@ -200,7 +200,7 @@ inner
 -
 window
 -
-nuked
+destroyed
 "
 (
 subject

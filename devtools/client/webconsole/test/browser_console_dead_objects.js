@@ -425,7 +425,7 @@ outer
 -
 window
 -
-nuked
+destroyed
 "
 (
 subject
