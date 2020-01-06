@@ -381,6 +381,20 @@ directory
                      
 "
 -
+-
+showlocals
+"
+#
+display
+contents
+of
+variables
+in
+local
+scope
+                     
+"
+-
 p
 "
 "
