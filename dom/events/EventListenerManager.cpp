@@ -7863,6 +7863,10 @@ DOMEventMarkerPayload
 (
 typeStr
 phase
+aEvent
+-
+>
+mTimeStamp
 startTime
 endTime
 )
