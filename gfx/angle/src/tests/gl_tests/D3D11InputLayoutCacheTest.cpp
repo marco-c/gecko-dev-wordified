@@ -537,6 +537,11 @@ inputLayoutCache
 renderer11
 -
 >
+getStateManager
+(
+)
+-
+>
 getInputLayoutCache
 (
 )

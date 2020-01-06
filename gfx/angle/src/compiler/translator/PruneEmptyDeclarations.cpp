@@ -58,6 +58,8 @@ declarations
 and
 declarators
 from
+/
+/
 the
 AST
 .
@@ -79,7 +81,7 @@ compiler
 /
 translator
 /
-IntermNode
+IntermTraverse
 .
 h
 "
@@ -487,7 +489,6 @@ else
 {
 queueReplacement
 (
-node
 nullptr
 OriginalNode
 :

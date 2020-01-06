@@ -59,16 +59,16 @@ buffer
 #
 include
 "
-test_utils
-/
-ANGLETest
+system_utils
 .
 h
 "
 #
 include
 "
-system_utils
+test_utils
+/
+ANGLETest
 .
 h
 "
@@ -139,7 +139,8 @@ std
 string
 vertexShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -169,6 +170,7 @@ position
 ;
 }
 )
+"
 ;
 const
 std
@@ -177,7 +179,8 @@ std
 string
 fragmentShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -198,6 +201,7 @@ color
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -501,7 +505,7 @@ GL_TRIANGLES
 type
 reinterpret_cast
 <
-GLvoid
+void
 *
 >
 (
@@ -562,7 +566,7 @@ GL_TRIANGLES
 type
 reinterpret_cast
 <
-GLvoid
+void
 *
 >
 (

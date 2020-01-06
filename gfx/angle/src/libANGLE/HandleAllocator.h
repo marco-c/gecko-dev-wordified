@@ -91,11 +91,6 @@ angle_gl
 .
 h
 "
-#
-include
-<
-stack
->
 namespace
 gl
 {
@@ -128,6 +123,11 @@ Specify
 maximum
 handle
 value
+.
+Used
+for
+testing
+.
 HandleAllocator
 (
 GLuint
@@ -163,6 +163,11 @@ reserve
 (
 GLuint
 handle
+)
+;
+void
+reset
+(
 )
 ;
 private
@@ -256,7 +261,7 @@ released
 stored
 in
 a
-stack
+heap
 .
 std
 :

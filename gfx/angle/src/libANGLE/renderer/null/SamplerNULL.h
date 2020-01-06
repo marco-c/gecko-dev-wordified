@@ -90,6 +90,13 @@ public
 :
 SamplerNULL
 (
+const
+gl
+:
+:
+SamplerState
+&
+state
 )
 ;
 ~

@@ -129,13 +129,8 @@ TIntermNode
 root
 int
 patternsToSplitMask
-unsigned
-int
-*
-temporaryIndex
-const
 TSymbolTable
-&
+*
 symbolTable
 int
 shaderVersion

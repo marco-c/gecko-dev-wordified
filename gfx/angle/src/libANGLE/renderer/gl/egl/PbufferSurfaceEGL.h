@@ -130,8 +130,6 @@ EGLint
 >
 &
 attribList
-EGLContext
-context
 RendererGL
 *
 renderer
@@ -149,6 +147,13 @@ egl
 Error
 initialize
 (
+const
+egl
+:
+:
+Display
+*
+display
 )
 override
 ;

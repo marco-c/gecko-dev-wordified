@@ -314,7 +314,7 @@ GL_COLOR_BUFFER_BIT
 glPushGroupMarkerEXT
 (
 0
-NULL
+nullptr
 )
 ;
 glClearColor

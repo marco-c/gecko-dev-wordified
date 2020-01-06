@@ -80,6 +80,10 @@ FunctionsGL
 struct
 WorkaroundsGL
 ;
+enum
+class
+MultiviewImplementationTypeGL
+;
 class
 ShaderGL
 :
@@ -105,6 +109,10 @@ const
 WorkaroundsGL
 &
 workarounds
+bool
+isWebGL
+MultiviewImplementationTypeGL
+multiviewImplementationType
 )
 ;
 ~
@@ -183,6 +191,12 @@ mWorkarounds
 ;
 GLuint
 mShaderID
+;
+bool
+mIsWebGL
+;
+MultiviewImplementationTypeGL
+mMultiviewImplementationType
 ;
 }
 ;

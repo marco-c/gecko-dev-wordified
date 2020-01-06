@@ -134,7 +134,7 @@ EXPECT_TRUE
 eglGetPlatformDisplayEXT
 !
 =
-NULL
+nullptr
 )
 ;
 EGLint
@@ -183,8 +183,8 @@ EXPECT_TRUE
 eglInitialize
 (
 mDisplay
-NULL
-NULL
+nullptr
+nullptr
 )
 !
 =
@@ -262,7 +262,7 @@ eglCreateContext
 (
 mDisplay
 mConfig
-NULL
+nullptr
 ctxattrs
 )
 ;

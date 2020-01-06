@@ -99,12 +99,6 @@ VertexArrayState
 data
 )
 ;
-~
-VertexArrayNULL
-(
-)
-override
-;
 }
 ;
 }

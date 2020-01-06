@@ -2486,7 +2486,7 @@ EGL_ANGLE_device_d3d
 )
 =
 =
-NULL
+nullptr
 )
 {
 FAIL

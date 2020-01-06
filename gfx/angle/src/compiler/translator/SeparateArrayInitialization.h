@@ -59,6 +59,8 @@ into
 a
 declaration
 and
+/
+/
 an
 assignment
 .

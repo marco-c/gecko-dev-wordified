@@ -232,6 +232,7 @@ format
 struct
 VertexFormat
 :
+private
 angle
 :
 :

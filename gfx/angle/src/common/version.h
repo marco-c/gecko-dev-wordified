@@ -53,6 +53,8 @@ COMMON_VERSION_H_
 #
 include
 "
+id
+/
 commit
 .
 h

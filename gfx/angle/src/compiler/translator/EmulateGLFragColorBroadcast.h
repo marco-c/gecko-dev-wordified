@@ -86,7 +86,10 @@ struct
 OutputVariable
 ;
 class
-TIntermNode
+TIntermBlock
+;
+class
+TSymbolTable
 ;
 /
 /
@@ -145,7 +148,7 @@ gl_FragData
 void
 EmulateGLFragColorBroadcast
 (
-TIntermNode
+TIntermBlock
 *
 root
 int
@@ -159,6 +162,11 @@ OutputVariable
 >
 *
 outputVariables
+TSymbolTable
+*
+symbolTable
+int
+shaderVersion
 )
 ;
 }
