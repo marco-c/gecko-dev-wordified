@@ -325,7 +325,7 @@ kAnnexBDelimiter
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -353,7 +353,7 @@ nalLen
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -396,7 +396,7 @@ Length
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -466,7 +466,7 @@ Length
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -1961,7 +1961,7 @@ sizeNAL
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -2021,7 +2021,7 @@ sizeNAL
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -2519,7 +2519,7 @@ nalLen
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
@@ -2562,7 +2562,7 @@ Length
 return
 Err
 (
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
