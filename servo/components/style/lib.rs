@@ -998,10 +998,6 @@ parser
 ;
 pub
 mod
-restyle_hints
-;
-pub
-mod
 rule_tree
 ;
 pub

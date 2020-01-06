@@ -167,9 +167,6 @@ mod
 properties
 ;
 mod
-restyle_hints
-;
-mod
 rule_tree
 ;
 mod
