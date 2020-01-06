@@ -22452,10 +22452,15 @@ stop_
 (
 0
 )
+#
+ifdef
+JS_JITSPEW
 name_
 (
 nonce
 )
+#
+endif
 inhibit_
 (
 inhibit

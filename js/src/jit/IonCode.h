@@ -3802,11 +3802,16 @@ start_
 uintptr_t
 stop_
 ;
+#
+ifdef
+JS_JITSPEW
 const
 char
 *
 name_
 ;
+#
+endif
 bool
 inhibit_
 ;
