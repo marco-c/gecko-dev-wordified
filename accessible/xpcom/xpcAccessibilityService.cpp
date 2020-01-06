@@ -540,7 +540,6 @@ NS_IMPL_QUERY_INTERFACE
 (
 xpcAccessibilityService
 nsIAccessibilityService
-nsIAccessibleRetrieval
 )
 NS_IMETHODIMP
 xpcAccessibilityService
