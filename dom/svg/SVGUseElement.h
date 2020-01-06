@@ -797,16 +797,6 @@ our
 real
 "
 copy
-nsCOMPtr
-<
-nsIContent
->
-mClone
-;
-/
-/
-cloned
-tree
 ElementTracker
 mReferencedElementTracker
 ;
