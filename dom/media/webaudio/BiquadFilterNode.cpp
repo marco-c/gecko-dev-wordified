@@ -1252,8 +1252,10 @@ aMallocSizeOf
 }
 private
 :
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 BiquadFilterType

@@ -903,8 +903,10 @@ aReduction
 }
 private
 :
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 AudioParamTimeline

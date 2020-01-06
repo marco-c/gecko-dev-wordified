@@ -1610,8 +1610,10 @@ aMallocSizeOf
 )
 ;
 }
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 /

@@ -720,8 +720,15 @@ NS_OK
 }
 private
 :
+/
+/
+Ownership
+transferred
+by
+ProxyRelease
 HRTFDatabaseLoader
 *
+MOZ_OWNING_REF
 mLoader
 ;
 }

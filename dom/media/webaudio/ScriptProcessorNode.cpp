@@ -2746,8 +2746,10 @@ friend
 class
 ScriptProcessorNode
 ;
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 nsAutoPtr

@@ -754,8 +754,10 @@ aMallocSizeOf
 }
 private
 :
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 nsTArray
