@@ -350,6 +350,14 @@ IsAnonBox
 (
 aFrame
 )
+&
+&
+!
+aFrame
+.
+IsTextFrame
+(
+)
 )
 {
 return
