@@ -495,7 +495,7 @@ Tests
 can
 access
 it
-throught
+through
 :
 |
 panel
