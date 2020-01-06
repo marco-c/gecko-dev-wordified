@@ -2114,7 +2114,6 @@ WebDriverError
 new
 (
 error
-&
 format
 !
 (
@@ -2133,10 +2132,6 @@ command
 method
 path
 )
-[
-.
-.
-]
 )
 )
 }

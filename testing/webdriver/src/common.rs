@@ -1170,7 +1170,6 @@ ErrorStatus
 :
 :
 InvalidArgument
-&
 format
 !
 (
@@ -1183,10 +1182,6 @@ strategy
 "
 x
 )
-[
-.
-.
-]
 )
 )
 }
