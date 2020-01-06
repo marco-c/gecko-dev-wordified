@@ -580,7 +580,7 @@ testing
 .
 Switching
 it
-on
+off
 enables
 /
 /
@@ -613,6 +613,18 @@ AdvancedLayersEnableBufferSharing
 mCanUseConstantBufferOffsetBinding
 =
 false
+;
+}
+if
+(
+mCanUseConstantBufferOffsetBinding
+)
+{
+mCanUseConstantBufferOffsetBinding
+=
+VerifyConstantBufferOffsetting
+(
+)
 ;
 }
 /
