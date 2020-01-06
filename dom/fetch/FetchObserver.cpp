@@ -343,7 +343,7 @@ void
 FetchObserver
 :
 :
-Aborted
+Abort
 (
 )
 {
