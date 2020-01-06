@@ -2540,9 +2540,6 @@ window
 .
 foobar585956c
 "
-language
-:
-2
 lineNumber
 :
 6
@@ -2559,9 +2556,6 @@ functionName
 "
 foobar585956b
 "
-language
-:
-2
 lineNumber
 :
 11
@@ -2578,9 +2572,6 @@ functionName
 "
 foobar585956a
 "
-language
-:
-2
 lineNumber
 :
 15
@@ -2597,9 +2588,6 @@ functionName
 "
 onclick
 "
-language
-:
-2
 lineNumber
 :
 1
