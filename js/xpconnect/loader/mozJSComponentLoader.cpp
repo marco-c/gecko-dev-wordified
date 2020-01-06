@@ -2603,7 +2603,7 @@ behaviors
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 if
@@ -3724,7 +3724,7 @@ true
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 .
 setFileAndLine
