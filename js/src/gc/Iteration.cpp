@@ -111,6 +111,17 @@ MPL
 #
 include
 "
+gc
+/
+Iteration
+-
+inl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
