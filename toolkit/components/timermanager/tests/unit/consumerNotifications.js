@@ -2171,11 +2171,9 @@ observe
 (
 null
 "
-profile
+xpcom
 -
-before
--
-change
+shutdown
 "
 "
 "
