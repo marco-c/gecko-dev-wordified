@@ -112,6 +112,8 @@ docker_worker_add_tc_vcs_cache
     
 docker_worker_add_gecko_vcs_env_vars
     
+docker_worker_add_public_artifacts
+    
 support_vcs_checkout
 )
 from
@@ -648,50 +650,11 @@ caches
 [
 ]
     
-worker
-[
-'
-artifacts
-'
-]
-.
-append
+docker_worker_add_public_artifacts
 (
-{
-        
-'
-name
-'
-:
-'
-public
-'
-        
-'
-path
-'
-:
-'
-/
-home
-/
-worker
-/
-workspace
-/
-artifacts
-/
-'
-        
-'
-type
-'
-:
-'
-directory
-'
-    
-}
+config
+job
+taskdesc
 )
     
 docker_worker_add_tc_vcs_cache
