@@ -385,17 +385,11 @@ assertEqual
                     
 load_parameters_file
 (
-{
-'
-parameters
-'
-:
 '
 params
 .
 yml
 '
-}
 )
                     
 {
@@ -448,17 +442,11 @@ assertEqual
                     
 load_parameters_file
 (
-{
-'
-parameters
-'
-:
 '
 params
 .
 json
 '
-}
 )
                     
 {
