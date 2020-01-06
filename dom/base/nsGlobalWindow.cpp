@@ -74523,7 +74523,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 if
