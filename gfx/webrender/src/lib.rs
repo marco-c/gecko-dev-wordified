@@ -478,7 +478,7 @@ newframe
 .
 .
 /
-webrender_traits
+webrender_api
 /
 struct
 .
@@ -580,9 +580,6 @@ glyph_rasterizer
 ;
 mod
 gpu_cache
-;
-mod
-gpu_store
 ;
 mod
 internal_types
@@ -984,9 +981,10 @@ extern
 crate
 time
 ;
+pub
 extern
 crate
-webrender_traits
+webrender_api
 ;
 #
 [
@@ -1061,4 +1059,10 @@ ReadPixelsFormat
 Renderer
 RendererOptions
 }
+;
+pub
+use
+webrender_api
+as
+api
 ;

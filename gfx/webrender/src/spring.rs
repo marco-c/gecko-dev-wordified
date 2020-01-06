@@ -57,7 +57,7 @@ MPL
 *
 /
 use
-webrender_traits
+api
 :
 :
 LayerPoint
@@ -242,10 +242,6 @@ dest
 :
 pos
 stiffness
-:
-stiffness
-damping
-:
 damping
 }
 }

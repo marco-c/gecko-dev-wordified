@@ -66,7 +66,7 @@ collections
 HashMap
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -76,7 +76,7 @@ GlyphDimensions
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -588,10 +588,6 @@ bounds
 .
 top
 width
-:
-width
-height
-:
 height
 }
 )

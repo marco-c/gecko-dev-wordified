@@ -109,7 +109,7 @@ std
 mem
 ;
 use
-webrender_traits
+api
 :
 :
 ColorF
@@ -284,8 +284,6 @@ IntProfileCounter
 {
 IntProfileCounter
 {
-description
-:
 description
 value
 :
@@ -489,8 +487,6 @@ ResourceProfileCounter
 ResourceProfileCounter
 {
 description
-:
-description
 value
 :
 0
@@ -683,13 +679,9 @@ TimeProfileCounter
 TimeProfileCounter
 {
 description
-:
-description
 nanoseconds
 :
 0
-invert
-:
 invert
 }
 }
@@ -983,10 +975,6 @@ AverageTimeProfileCounter
 AverageTimeProfileCounter
 {
 description
-:
-description
-average_over_ns
-:
 average_over_ns
 start_ns
 :
@@ -1002,8 +990,6 @@ num_samples
 nanoseconds
 :
 0
-invert
-:
 invert
 }
 }
@@ -2186,8 +2172,6 @@ ProfileGraph
 ProfileGraph
 {
 max_samples
-:
-max_samples
 values
 :
 VecDeque
@@ -3158,10 +3142,6 @@ push_front
 GpuFrame
 {
 total_time
-:
-total_time
-samples
-:
 samples
 }
 )

@@ -181,7 +181,7 @@ hash_map
 Entry
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -192,7 +192,7 @@ GlyphDimensions
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -202,7 +202,7 @@ SubpixelPoint
 }
 ;
 use
-webrender_traits
+api
 :
 :
 NativeFontHandle

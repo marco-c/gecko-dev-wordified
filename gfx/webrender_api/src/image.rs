@@ -250,6 +250,13 @@ ExternalBuffer
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
@@ -473,13 +480,7 @@ Self
 ImageDescriptor
 {
 width
-:
-width
 height
-:
-height
-format
-:
 format
 stride
 :
@@ -487,8 +488,6 @@ None
 offset
 :
 0
-is_opaque
-:
 is_opaque
 }
 }

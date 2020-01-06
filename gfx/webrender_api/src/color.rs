@@ -432,16 +432,8 @@ ColorU
 ColorU
 {
 r
-:
-r
-g
-:
 g
 b
-:
-b
-a
-:
 a
 }
 }

@@ -128,7 +128,7 @@ GLLimits
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {

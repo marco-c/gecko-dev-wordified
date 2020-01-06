@@ -194,13 +194,13 @@ TextureCache
 }
 ;
 use
-webrender_traits
+api
 :
 :
 FontTemplate
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -211,7 +211,7 @@ ImageFormat
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -221,7 +221,7 @@ LayoutPoint
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -917,10 +917,6 @@ workers
 }
 )
 glyph_rx
-:
-glyph_rx
-glyph_tx
-:
 glyph_tx
 pending_glyphs
 :
@@ -930,8 +926,6 @@ HashSet
 new
 (
 )
-workers
-:
 workers
 fonts_to_remove
 :
@@ -2377,10 +2371,6 @@ point
 render_mode
 )
 render_mode
-:
-render_mode
-glyph_options
-:
 glyph_options
 }
 }

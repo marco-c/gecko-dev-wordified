@@ -606,10 +606,6 @@ u64
 Payload
 {
 epoch
-:
-epoch
-pipeline_id
-:
 pipeline_id
 display_list_data
 :
