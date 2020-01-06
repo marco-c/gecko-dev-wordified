@@ -881,17 +881,6 @@ phaseKind
 )
 ;
 void
-endParallelPhase
-(
-PhaseKind
-phaseKind
-const
-GCParallelTask
-*
-task
-)
-;
-void
 recordParallelPhase
 (
 PhaseKind
