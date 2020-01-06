@@ -456,11 +456,11 @@ icon
 {
 width
 :
-32px
+64px
 ;
 height
 :
-32px
+64px
 ;
 margin
 :
@@ -511,7 +511,10 @@ alert
 -
 dialog
 #
-infoIcon
+info
+\
+.
+icon
 .
 alert
 -

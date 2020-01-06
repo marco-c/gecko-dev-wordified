@@ -292,7 +292,9 @@ document
 getElementById
 (
 "
-infoBody
+info
+.
+body
 "
 )
 infoTitle
@@ -302,7 +304,9 @@ document
 getElementById
 (
 "
-infoTitle
+info
+.
+title
 "
 )
 infoIcon
@@ -312,7 +316,9 @@ document
 getElementById
 (
 "
-infoIcon
+info
+.
+icon
 "
 )
 checkbox

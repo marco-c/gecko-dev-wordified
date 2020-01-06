@@ -617,7 +617,10 @@ alert
 -
 dialog
 #
-infoIcon
+info
+\
+.
+icon
 .
 alert
 -
