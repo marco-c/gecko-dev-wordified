@@ -221,11 +221,12 @@ frame
 ;
 public
 :
-explicit
 VP8TrackEncoder
 (
 TrackRate
 aTrackRate
+FrameDroppingMode
+aFrameDroppingMode
 )
 ;
 virtual
