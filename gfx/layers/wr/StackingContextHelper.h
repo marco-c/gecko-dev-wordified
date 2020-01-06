@@ -545,6 +545,15 @@ StackingContextHelper
 (
 )
 ;
+void
+AdjustOrigin
+(
+const
+LayerPoint
+&
+aDelta
+)
+;
 /
 /
 When
