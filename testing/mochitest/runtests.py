@@ -12747,28 +12747,6 @@ lsanPath
 =
 None
         
-if
-mozinfo
-.
-info
-[
-"
-ubsan
-"
-]
-:
-            
-ubsanPath
-=
-SCRIPT_DIR
-        
-else
-:
-            
-ubsanPath
-=
-None
-        
 browserEnv
 =
 self
@@ -12799,10 +12777,6 @@ dmdPath
 lsanPath
 =
 lsanPath
-            
-ubsanPath
-=
-ubsanPath
 )
         
 if
