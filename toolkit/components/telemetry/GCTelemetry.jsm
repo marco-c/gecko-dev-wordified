@@ -911,7 +911,7 @@ js
 const
 MAX_GC_KEYS
 =
-30
+24
 ;
 const
 MAX_SLICES
