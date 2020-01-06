@@ -122,15 +122,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jsfun
 .
 h
@@ -15554,9 +15545,7 @@ file
 s
 line
 %
-"
-PRIuSIZE
-"
+zu
 \
 n
 "

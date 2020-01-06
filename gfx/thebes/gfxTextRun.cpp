@@ -166,15 +166,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -15781,9 +15772,7 @@ size
 .
 2f
 %
-"
-PRIuSIZE
-"
+zu
 -
 byte
 "
@@ -16183,9 +16172,7 @@ size
 "
 "
 %
-"
-PRIuSIZE
-"
+zu
 -
 byte
 TEXTRUN

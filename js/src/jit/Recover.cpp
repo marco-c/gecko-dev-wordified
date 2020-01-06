@@ -120,15 +120,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -989,9 +980,7 @@ formals
 u
 fixed
 %
-"
-PRIuSIZE
-"
+zu
 exprs
 %
 u

@@ -122,15 +122,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 stdarg
 .
@@ -221,8 +212,8 @@ name
 s
 :
 %
+zu
 "
-PRIuSIZE
 script
 -
 >

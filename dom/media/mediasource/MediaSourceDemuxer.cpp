@@ -1356,8 +1356,8 @@ Details
 NumSamples
 =
 %
+zu
 "
-PRIuSIZE
 "
 Size
 =
@@ -1538,8 +1538,8 @@ Details
 NumSamples
 =
 %
+zu
 "
-PRIuSIZE
 "
 Size
 =

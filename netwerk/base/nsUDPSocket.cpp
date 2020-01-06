@@ -115,15 +115,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -6042,8 +6033,8 @@ p
 ]
 len
 %
+zu
 "
-PRIuSIZE
 __FUNCTION__
 this
 data

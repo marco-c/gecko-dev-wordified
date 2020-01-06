@@ -183,15 +183,6 @@ ScopeExit
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 namespace
 mozilla
 {
@@ -5357,8 +5348,8 @@ RecvGiveBuffer
 capacity
 =
 %
+zu
 "
-PRIuSIZE
 "
 )
 bufferSizes

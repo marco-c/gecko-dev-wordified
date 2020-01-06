@@ -189,15 +189,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h
@@ -1020,9 +1011,7 @@ buffering
 the
 following
 %
-"
-PRIuSIZE
-"
+zu
 bytes
 .
 .

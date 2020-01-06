@@ -311,15 +311,6 @@ IntegerPrintfMacros
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 namespace
 mozilla
 {
@@ -1537,9 +1528,7 @@ entry
 left
 =
 %
-"
-PRIuSIZE
-"
+zu
 canceled
 =
 %

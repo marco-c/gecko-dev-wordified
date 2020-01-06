@@ -210,15 +210,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SyncRunnable
 .
 h
@@ -2959,8 +2950,8 @@ s
 plugins
 :
 %
+zu
 "
-PRIuSIZE
 __CLASS__
 __FUNCTION__
 plugins

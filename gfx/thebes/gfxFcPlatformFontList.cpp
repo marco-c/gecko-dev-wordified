@@ -102,15 +102,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 gfxFcPlatformFontList
 .
 h
@@ -2269,9 +2260,7 @@ s
 size
 :
 %
-"
-PRIuSIZE
-"
+zu
 hash
 :
 %

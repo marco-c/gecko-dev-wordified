@@ -152,15 +152,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 VideoUtils
 .
 h
@@ -701,9 +692,7 @@ needing
 to
 skip
 %
-"
-PRIuSIZE
-"
+zu
 bytes
 past
 the
@@ -3262,8 +3251,8 @@ TOC
 size
 =
 %
+zu
 "
-PRIuSIZE
 vbr_header
 :
 :

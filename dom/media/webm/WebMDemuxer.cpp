@@ -271,15 +271,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -4322,9 +4313,7 @@ PRId64
 length
 :
 %
-"
-PRIuSIZE
-"
+zu
 kf
 :
 %

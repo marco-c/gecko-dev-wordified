@@ -140,15 +140,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -8436,8 +8427,8 @@ SprintfLiteral
 lengthStr
 "
 %
+zu
 "
-PRIuSIZE
 length
 )
 ;
@@ -9550,8 +9541,8 @@ SprintfLiteral
 indexStr
 "
 %
+zu
 "
-PRIuSIZE
 index
 )
 ;
@@ -9566,8 +9557,8 @@ SprintfLiteral
 lengthStr
 "
 %
+zu
 "
-PRIuSIZE
 length
 )
 ;
@@ -10204,8 +10195,8 @@ SprintfLiteral
 sourceSizeStr
 "
 %
+zu
 "
-PRIuSIZE
 sourceSize
 )
 ;
@@ -10214,8 +10205,8 @@ SprintfLiteral
 targetSizeStr
 "
 %
+zu
 "
-PRIuSIZE
 targetSize
 )
 ;
@@ -41237,8 +41228,8 @@ fieldLengthStr
 1
 or
 %
+zu
 "
-PRIuSIZE
 count
 )
 ;

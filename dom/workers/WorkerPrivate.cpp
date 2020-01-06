@@ -701,15 +701,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ThrottledEventQueue
 .
 h
@@ -33344,9 +33335,7 @@ for
 d
 ms
 %
-"
-PRIuSIZE
-"
+zu
 pending
 timeouts
 \

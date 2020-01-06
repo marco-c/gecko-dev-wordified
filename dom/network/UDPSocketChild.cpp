@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -1807,8 +1798,8 @@ s
 u
 length
 %
+zu
 "
-PRIuSIZE
 __FUNCTION__
 aAddressInfo
 .

@@ -144,15 +144,6 @@ IntegerPrintfMacros
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 namespace
 mozilla
 {
@@ -2420,9 +2411,7 @@ vq
 queued
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 frame
@@ -3105,9 +3094,7 @@ d
 size
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 mVideoFrameEndTime
 =

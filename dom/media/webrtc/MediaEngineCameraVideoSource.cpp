@@ -74,15 +74,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 limits
 >
@@ -1599,9 +1590,7 @@ Advanced
 array
 [
 %
-"
-PRIuSIZE
-"
+zu
 ]
 :
 "
@@ -1791,9 +1780,7 @@ capability
 match
 from
 %
-"
-PRIuSIZE
-"
+zu
 choices
 "
 num

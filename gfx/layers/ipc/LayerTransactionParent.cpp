@@ -385,15 +385,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -1184,9 +1175,7 @@ received
 txn
 with
 %
-"
-PRIuSIZE
-"
+zu
 edits
 "
 aInfo

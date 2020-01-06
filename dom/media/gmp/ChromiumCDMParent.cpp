@@ -3557,8 +3557,8 @@ p
 frame_size
 =
 %
+zu
 "
-PRIuSIZE
 "
 limit
 =
@@ -3651,15 +3651,11 @@ p
 size
 =
 %
-"
-PRIuSIZE
-"
+zu
 expected_size
 =
 %
-"
-PRIuSIZE
-"
+zu
 limit
 =
 %

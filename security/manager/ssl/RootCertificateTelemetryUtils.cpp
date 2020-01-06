@@ -162,15 +162,6 @@ ArrayUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 namespace
 mozilla
 {
@@ -524,9 +515,7 @@ Telemetry
 index
 was
 %
-"
-PRIuSIZE
-"
+zu
 bin
 is
 %

@@ -122,15 +122,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 time
 .
@@ -232,9 +223,7 @@ name
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 \
 "
 \
@@ -266,9 +255,7 @@ method
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 \
 "
 \

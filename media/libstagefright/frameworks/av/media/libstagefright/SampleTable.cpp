@@ -219,15 +219,6 @@ h
 >
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 cinttypes
 >
@@ -2944,9 +2935,7 @@ data
 size
 expected
 %
-"
-PRIuSIZE
-"
+zu
 actual
 %
 "
@@ -3354,9 +3343,7 @@ data
 size
 expected
 %
-"
-PRIuSIZE
-"
+zu
 actual
 %
 "

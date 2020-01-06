@@ -161,15 +161,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -55257,9 +55248,7 @@ PRIx32
 stack
 =
 %
-"
-PRIuSIZE
-"
+zu
 mWaitingForRedirectCallback
 =
 %

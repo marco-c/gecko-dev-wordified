@@ -391,15 +391,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jit
 /
 arm
@@ -9228,9 +9219,7 @@ JitSpew_CacheFlush
 %
 p
 %
-"
-PRIxSIZE
-"
+zx
 ]
 "
 start_addr

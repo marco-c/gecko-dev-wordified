@@ -152,15 +152,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -20238,9 +20229,7 @@ EnsureReadDomain
 )
 :
 %
-"
-PRIuSIZE
-"
+zu
 cookies
 read
 for
@@ -20855,9 +20844,7 @@ EnsureReadComplete
 )
 :
 %
-"
-PRIuSIZE
-"
+zu
 cookies
 read
 "

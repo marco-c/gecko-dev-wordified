@@ -157,15 +157,6 @@ IntegerPrintfMacros
 h
 "
 #
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
 ifdef
 LOG
 #
@@ -4500,9 +4491,7 @@ type
 d
 total
 %
-"
-PRIuSIZE
-"
+zu
 promiese
 "
 aType

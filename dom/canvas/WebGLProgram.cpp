@@ -150,15 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
@@ -3386,9 +3377,7 @@ than
 s
 (
 %
-"
-PRIuSIZE
-"
+zu
 )
 .
 "
@@ -3522,9 +3511,7 @@ than
 s
 (
 %
-"
-PRIuSIZE
-"
+zu
 )
 .
 "

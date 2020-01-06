@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -2408,9 +2399,7 @@ len
 =
 '
 %
-"
-PRIuSIZE
-"
+zu
 '
 )
 "

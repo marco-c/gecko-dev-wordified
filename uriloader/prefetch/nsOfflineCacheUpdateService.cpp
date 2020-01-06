@@ -342,15 +342,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -2712,9 +2703,7 @@ p
 num
 =
 %
-"
-PRIuSIZE
-"
+zu
 ]
 "
 this

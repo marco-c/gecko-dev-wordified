@@ -171,15 +171,6 @@ Sprintf
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 extern
 mozilla
 :
@@ -707,9 +698,7 @@ p
 length
 =
 %
-"
-PRIuSIZE
-"
+zu
 offset
 =
 %
@@ -918,9 +907,7 @@ p
 length
 =
 %
-"
-PRIuSIZE
-"
+zu
 offset
 =
 %

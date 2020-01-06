@@ -155,15 +155,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 ctype
 .
@@ -6742,9 +6733,7 @@ printf
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 script

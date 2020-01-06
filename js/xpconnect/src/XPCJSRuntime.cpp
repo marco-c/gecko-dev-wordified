@@ -9183,9 +9183,7 @@ strings
 STRING_LENGTH
 "
 %
-"
-PRIuSIZE
-"
+zu
 copies
 =
 %

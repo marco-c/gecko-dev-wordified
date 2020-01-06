@@ -159,15 +159,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -3206,9 +3197,7 @@ not
 resize
 to
 %
-"
-PRIuSIZE
-"
+zu
 indices
 "
 aIndex

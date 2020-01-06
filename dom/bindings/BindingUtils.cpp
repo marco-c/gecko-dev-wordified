@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -16541,8 +16532,8 @@ SprintfLiteral
 index
 "
 %
+zu
 "
-PRIuSIZE
 badCharIndex
 )
 ;

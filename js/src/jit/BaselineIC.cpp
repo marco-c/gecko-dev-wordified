@@ -131,15 +131,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TemplateLib
 .
 h
@@ -15984,9 +15975,7 @@ p
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 cons
 =
 %

@@ -200,15 +200,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextComposition
 .
 h
@@ -1142,8 +1133,8 @@ Length
 )
 =
 %
+zu
 "
-PRIuSIZE
 sTextCompositions
 sTextCompositions
 ?
@@ -1686,9 +1677,7 @@ array
 index
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 i

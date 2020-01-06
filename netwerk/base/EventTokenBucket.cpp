@@ -174,15 +174,6 @@ h
 #
 endif
 #
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
@@ -694,9 +685,7 @@ p
 events
 =
 %
-"
-PRIuSIZE
-"
+zu
 \
 n
 "

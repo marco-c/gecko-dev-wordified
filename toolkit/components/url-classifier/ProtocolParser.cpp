@@ -193,15 +193,6 @@ IntegerPrintfMacros
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 /
 /
 MOZ_LOG
@@ -5817,8 +5808,8 @@ of
 prefixes
 :
 %
+zu
 "
-PRIuSIZE
 numOfFixedLengthPrefixes
 )
 )

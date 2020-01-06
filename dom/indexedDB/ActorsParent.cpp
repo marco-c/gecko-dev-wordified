@@ -313,15 +313,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SnappyCompressOutputStream
 .
 h
