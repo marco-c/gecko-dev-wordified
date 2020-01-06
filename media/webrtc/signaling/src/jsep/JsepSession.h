@@ -207,12 +207,6 @@ Maybe
 <
 bool
 >
-mDontOfferDataChannel
-;
-Maybe
-<
-bool
->
 mIceRestart
 ;
 /
