@@ -5792,7 +5792,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -5834,7 +5834,7 @@ startNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

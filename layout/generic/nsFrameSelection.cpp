@@ -3723,7 +3723,7 @@ endNode
 aDomRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -4833,7 +4833,7 @@ node
 anchorFocusRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -6928,7 +6928,7 @@ rangeEndNode
 mMaintainRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

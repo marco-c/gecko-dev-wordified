@@ -403,7 +403,7 @@ endParent
 rangeToDelete
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

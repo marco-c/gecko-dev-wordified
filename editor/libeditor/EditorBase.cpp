@@ -15754,7 +15754,7 @@ mEndNode
 r
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -16729,7 +16729,7 @@ mEndNode
 r
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -20847,7 +20847,7 @@ aEndNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -29334,7 +29334,7 @@ NS_WARN_IF
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 !

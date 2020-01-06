@@ -10536,7 +10536,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -11618,7 +11618,7 @@ GetTextContainer
 DOMRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -11668,7 +11668,7 @@ DOMPointToOffset
 DOMRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 DOMRange
@@ -13920,7 +13920,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -14166,7 +14166,7 @@ DOMPointToOffset
 prevRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 prevRange
@@ -14288,7 +14288,7 @@ DOMPointToOffset
 prevRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 prevRange

@@ -8797,7 +8797,7 @@ aStatus
 mRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

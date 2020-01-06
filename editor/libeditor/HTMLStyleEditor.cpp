@@ -896,7 +896,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -3583,7 +3583,7 @@ endNode
 inRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -5870,7 +5870,7 @@ endNode
 =
 aRange
 .
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -6128,7 +6128,7 @@ endNode
 =
 aRange
 .
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -6938,7 +6938,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -8191,7 +8191,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -9117,7 +9117,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
