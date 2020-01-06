@@ -2214,6 +2214,13 @@ mUpdateTimer
 )
 {
 mUpdateTimer
+-
+>
+Cancel
+(
+)
+;
+mUpdateTimer
 =
 nullptr
 ;
