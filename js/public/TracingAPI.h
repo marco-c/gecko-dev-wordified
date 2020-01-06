@@ -1751,6 +1751,7 @@ DoNotCare
 Moving
 GrayBuffering
 VerifyTraceProtoAndIface
+ClearEdges
 }
 ;
 virtual
