@@ -4929,6 +4929,9 @@ alive
 continue
 ;
 }
+#
+ifdef
+A11Y_LOG
 nsIContent
 *
 containerElm
@@ -4949,6 +4952,8 @@ AsElement
 :
 nullptr
 ;
+#
+endif
 nsIFrame
 :
 :
