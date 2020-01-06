@@ -3215,6 +3215,11 @@ mErrorResult
 =
 aRv
 ;
+if
+(
+mActor
+)
+{
 mActor
 -
 >
@@ -3230,6 +3235,7 @@ mActor
 =
 nullptr
 ;
+}
 }
 void
 MutableBlobStorage
