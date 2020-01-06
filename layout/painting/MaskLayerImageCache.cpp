@@ -111,7 +111,7 @@ mozilla
 /
 layers
 /
-ShadowLayers
+KnowsCompositor
 .
 h
 "
