@@ -1298,7 +1298,7 @@ ensureFindPreference
 (
 FxAccountSyncAdapter
 .
-PREFS_SYNC_METERED
+PREFS_SYNC_RESTRICT_METERED
 )
 ;
 syncOverMeteredPreference
@@ -6513,7 +6513,7 @@ putBoolean
 (
 FxAccountSyncAdapter
 .
-PREFS_SYNC_METERED
+PREFS_SYNC_RESTRICT_METERED
 (
 Boolean
 )
