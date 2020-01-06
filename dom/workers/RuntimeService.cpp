@@ -4841,7 +4841,9 @@ if
 (
 setting
 .
-IsSet
+key
+.
+isSome
 (
 )
 )
@@ -4865,6 +4867,7 @@ values
 JS_SetGCParameter
 (
 aWorkerCx
+*
 setting
 .
 key
@@ -9969,7 +9972,6 @@ JSSettings
 .
 if
 (
-!
 sDefaultJSSettings
 .
 gcSettings
@@ -9977,7 +9979,9 @@ gcSettings
 0
 ]
 .
-IsSet
+key
+.
+isNothing
 (
 )
 )
