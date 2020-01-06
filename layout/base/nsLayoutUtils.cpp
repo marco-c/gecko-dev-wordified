@@ -19805,8 +19805,10 @@ return
 offset
 ;
 }
-static
 LayoutDeviceIntPoint
+nsLayoutUtils
+:
+:
 WidgetToWidgetOffset
 (
 nsIWidget
