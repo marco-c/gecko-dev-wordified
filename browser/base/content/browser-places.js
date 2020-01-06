@@ -5888,7 +5888,6 @@ this
 onCommand
 (
 aEvent
-aView
 )
 ;
 }
@@ -5937,20 +5936,6 @@ for
 the
 command
 *
-param
-aView
-*
-The
-places
-view
-which
-aEvent
-should
-be
-associated
-with
-.
-*
 /
 onCommand
 :
@@ -5958,7 +5943,6 @@ function
 BEH_onCommand
 (
 aEvent
-aView
 )
 {
 var
@@ -5982,7 +5966,6 @@ target
 .
 _placesNode
 aEvent
-aView
 )
 ;
 }
@@ -12767,7 +12750,6 @@ function
 BUI_onPanelMenuViewCommand
 (
 aEvent
-aView
 )
 {
 let
@@ -12822,7 +12804,6 @@ target
 .
 _placesNode
 aEvent
-aView
 )
 ;
 PanelUI

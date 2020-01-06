@@ -9604,7 +9604,6 @@ view
 .
 selectedNode
 aEvent
-view
 )
 ;
 }
