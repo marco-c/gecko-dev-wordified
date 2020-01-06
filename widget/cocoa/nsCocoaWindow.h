@@ -2108,6 +2108,11 @@ DispatchSizeModeEvent
 (
 )
 ;
+void
+DispatchOcclusionEvent
+(
+)
+;
 /
 /
 be
