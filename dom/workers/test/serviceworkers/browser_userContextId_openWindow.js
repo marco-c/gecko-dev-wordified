@@ -409,6 +409,8 @@ true
 "
 dom
 .
+serviceWorkers
+.
 disable_open_click_delay
 "
 1000
