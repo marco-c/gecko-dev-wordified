@@ -304,6 +304,38 @@ args
 =
 None
         
+kind_dependencies
+=
+config
+.
+get
+(
+'
+kind
+-
+dependencies
+'
+[
+]
+)
+        
+kind_dependencies_tasks
+=
+[
+task
+for
+task
+in
+loaded_tasks
+                                   
+if
+task
+.
+kind
+in
+kind_dependencies
+]
+        
 inputs
 =
 loader
@@ -371,6 +403,8 @@ self
 path
 config
 parameters
+                                       
+kind_dependencies_tasks
 )
         
 tasks
