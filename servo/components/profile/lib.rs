@@ -122,6 +122,10 @@ heartbeats_simple
 ;
 extern
 crate
+influent
+;
+extern
+crate
 ipc_channel
 ;
 #
