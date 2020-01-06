@@ -2449,8 +2449,10 @@ AutoLockHelperThreadState
 )
 ;
 void
-waitForAllThreads
+waitForAllThreadsLocked
 (
+AutoLockHelperThreadState
+&
 )
 ;
 template
@@ -2472,6 +2474,11 @@ const
 ;
 private
 :
+void
+waitForAllThreads
+(
+)
+;
 /
 *
 *
