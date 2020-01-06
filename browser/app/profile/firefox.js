@@ -15988,7 +15988,7 @@ newtabpage
 .
 compact
 "
-true
+false
 )
 ;
 /
@@ -16029,7 +16029,7 @@ newtabpage
 .
 rows
 "
-2
+3
 )
 ;
 /
@@ -16049,7 +16049,7 @@ newtabpage
 .
 columns
 "
-6
+5
 )
 ;
 /
