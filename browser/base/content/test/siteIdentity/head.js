@@ -2036,10 +2036,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-secure
 \
 "
 )
@@ -2073,10 +2069,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-secure
 \
 "
 )
@@ -2203,10 +2195,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-degraded
 \
 "
 )
@@ -2240,10 +2228,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-degraded
 \
 "
 )
@@ -2299,10 +2283,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-degraded
 \
 "
 )
@@ -2336,10 +2316,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-degraded
 \
 "
 )
