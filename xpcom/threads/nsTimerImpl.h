@@ -363,9 +363,11 @@ Now
 )
 )
 ;
-bool
-CancelCheckIfFiring
+void
+CancelImpl
 (
+bool
+aClearITimer
 )
 ;
 void
@@ -1164,7 +1166,6 @@ static
 double
 sDeltaNum
 ;
-const
 RefPtr
 <
 nsITimer
@@ -1221,10 +1222,6 @@ TimerThread
 friend
 class
 nsTimerEvent
-;
-friend
-struct
-TimerAdditionComparator
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_FORWARD_SAFE_NSITIMER
