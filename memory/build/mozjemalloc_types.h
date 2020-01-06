@@ -384,6 +384,10 @@ void
 *
 usable_ptr_t
 ;
+typedef
+size_t
+arena_id_t
+;
 /
 *
 *
