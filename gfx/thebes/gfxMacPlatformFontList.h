@@ -965,6 +965,14 @@ bool
 aSystemFont
 )
 ;
+void
+ActivateFontsFromDir
+(
+nsIFile
+*
+aDir
+)
+;
 #
 ifdef
 MOZ_BUNDLED_FONTS
