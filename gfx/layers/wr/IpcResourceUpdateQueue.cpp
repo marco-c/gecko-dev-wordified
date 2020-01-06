@@ -358,7 +358,6 @@ Length
 ;
 currAllocLen
 <
-=
 i
 ;
 i
