@@ -122,6 +122,15 @@ include
 "
 jit
 /
+BaselineIC
+.
+h
+"
+#
+include
+"
+jit
+/
 CacheIRCompiler
 .
 h

@@ -79689,6 +79689,16 @@ OutOfLine
 )
 ;
 #
+elif
+defined
+(
+JS_CODEGEN_NONE
+)
+MOZ_CRASH
+(
+)
+;
+#
 else
 masm
 .
