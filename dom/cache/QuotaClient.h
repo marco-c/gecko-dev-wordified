@@ -380,14 +380,6 @@ database
 .
 *
 /
-nsresult
-InitPaddingFile
-(
-nsIFile
-*
-aBaseDir
-)
-;
 /
 *
 *

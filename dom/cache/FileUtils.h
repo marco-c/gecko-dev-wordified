@@ -566,7 +566,7 @@ aBaseDir
 )
 ;
 nsresult
-LockedMaybeUpdateDirectoryPaddingFile
+LockedUpdateDirectoryPaddingFile
 (
 nsIFile
 *
@@ -580,9 +580,9 @@ aIncreaseSize
 const
 int64_t
 aDecreaseSize
+const
 bool
-*
-aUpdatedOut
+aTemporaryFileExist
 )
 ;
 nsresult
