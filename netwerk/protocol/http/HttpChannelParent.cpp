@@ -8958,7 +8958,7 @@ UpdateAndSerializeSecurityInfo
 secInfoSerialization
 )
 ;
-uint16_t
+uint8_t
 redirectCount
 =
 0
