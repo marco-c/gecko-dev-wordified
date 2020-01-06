@@ -2134,6 +2134,10 @@ mDepthTestEnabled
 =
 0
 ;
+mStencilTestEnabled
+=
+0
+;
 mGenerateMipmapHint
 =
 LOCAL_GL_DONT_CARE
