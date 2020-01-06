@@ -595,7 +595,7 @@ associations
 {
 authServerEndpoint
 :
-'
+"
 identity
 .
 fxaccounts
@@ -603,10 +603,10 @@ fxaccounts
 auth
 .
 uri
-'
+"
 profileServerEndpoint
 :
-'
+"
 identity
 .
 fxaccounts
@@ -616,10 +616,10 @@ remote
 profile
 .
 uri
-'
+"
 tokenServerEndpoint
 :
-'
+"
 identity
 .
 sync
@@ -627,7 +627,7 @@ sync
 tokenserver
 .
 uri
-'
+"
 }
 ;
 for

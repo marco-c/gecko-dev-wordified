@@ -248,7 +248,7 @@ registry
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -260,7 +260,7 @@ chrome
 registry
 ;
 1
-'
+"
 ]
 .
 getService

@@ -206,11 +206,11 @@ msg
 {
 type
 :
-'
+"
 Snackbar
 :
 Show
-'
+"
 message
 :
 aMessage

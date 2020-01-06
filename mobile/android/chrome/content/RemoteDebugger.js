@@ -423,9 +423,9 @@ authentication
 !
 =
 =
-'
+"
 PROMPT
-'
+"
 )
 {
 /
@@ -630,9 +630,9 @@ authentication
 !
 =
 =
-'
+"
 OOB_CERT
-'
+"
 |
 |
 !
