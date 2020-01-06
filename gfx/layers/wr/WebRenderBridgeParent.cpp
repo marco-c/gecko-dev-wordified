@@ -143,6 +143,13 @@ h
 #
 include
 "
+gfxEnv
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
