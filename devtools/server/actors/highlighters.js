@@ -3505,6 +3505,7 @@ _onHighlighterEvent
 :
 function
 (
+type
 data
 )
 {
