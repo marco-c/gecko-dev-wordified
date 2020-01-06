@@ -57,15 +57,15 @@ length
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -77,7 +77,7 @@ html
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -86,7 +86,7 @@ simple1
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -110,7 +110,7 @@ Test
 reloading
 the
 debugger
-yield
+await
 reload
 (
 dbg
@@ -131,7 +131,7 @@ dbg
 2
 )
 ;
-yield
+await
 waitForSelectedSource
 (
 dbg
@@ -146,7 +146,7 @@ debuggee
 a
 second
 time
-yield
+await
 reload
 (
 dbg
@@ -167,7 +167,7 @@ dbg
 2
 )
 ;
-yield
+await
 waitForSelectedSource
 (
 dbg
@@ -178,15 +178,15 @@ dbg
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -204,7 +204,7 @@ simple2
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -213,7 +213,7 @@ simple1
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -244,7 +244,7 @@ Test
 reloading
 the
 debugger
-yield
+await
 reload
 (
 dbg

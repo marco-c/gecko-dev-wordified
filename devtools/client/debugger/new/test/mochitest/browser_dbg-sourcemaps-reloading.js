@@ -30,8 +30,8 @@ zero
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -56,7 +56,7 @@ requestLongerTimeout
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -81,7 +81,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -130,7 +130,7 @@ js
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -185,7 +185,7 @@ not
 move
 anywhere
 .
-yield
+await
 addBreakpoint
 (
 dbg
@@ -237,7 +237,7 @@ line
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -245,7 +245,7 @@ entrySrc
 15
 )
 ;
-yield
+await
 disableBreakpoint
 (
 dbg
@@ -259,7 +259,7 @@ Test
 reloading
 the
 debugger
-yield
+await
 reload
 (
 dbg
@@ -270,7 +270,7 @@ js
 "
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg

@@ -61,8 +61,8 @@ fetched
 separately
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ requestLongerTimeout
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -112,7 +112,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -153,7 +153,7 @@ js
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -172,7 +172,7 @@ by
 a
 line
 .
-yield
+await
 addBreakpoint
 (
 dbg
@@ -234,7 +234,7 @@ logMessage
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg

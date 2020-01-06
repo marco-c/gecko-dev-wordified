@@ -86,15 +86,15 @@ function
 search
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -113,7 +113,7 @@ switching
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -130,7 +130,7 @@ test
 opening
 and
 closing
-yield
+await
 openFunctionSearch
 (
 dbg
@@ -142,7 +142,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -169,7 +169,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -180,7 +180,7 @@ getState
 null
 )
 ;
-yield
+await
 openFunctionSearch
 (
 dbg

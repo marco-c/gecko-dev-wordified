@@ -37,8 +37,8 @@ source
 tree
 works
 .
+async
 function
-*
 waitForSourceCount
 (
 dbg
@@ -67,7 +67,7 @@ batches
 its
 rendering
 .
-yield
+await
 waitUntil
 (
 (
@@ -96,15 +96,15 @@ i
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -128,7 +128,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -175,6 +175,7 @@ length
 2
 )
 ;
+await
 clickElement
 (
 dbg
@@ -198,6 +199,7 @@ length
 7
 )
 ;
+await
 clickElement
 (
 dbg
@@ -261,6 +263,7 @@ SELECT_SOURCE
 "
 )
 ;
+await
 clickElement
 (
 dbg
@@ -270,7 +273,7 @@ sourceNode
 4
 )
 ;
-yield
+await
 selected
 ;
 ok
@@ -392,7 +395,7 @@ script
 }
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg
@@ -443,15 +446,15 @@ list
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -475,7 +478,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -537,7 +540,7 @@ js
 }
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg
@@ -597,6 +600,7 @@ no
 domain
 )
 folder
+await
 clickElement
 (
 dbg
@@ -606,7 +610,7 @@ sourceArrow
 3
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg

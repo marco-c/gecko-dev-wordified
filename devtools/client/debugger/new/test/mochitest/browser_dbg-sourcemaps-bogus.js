@@ -47,8 +47,8 @@ debugging
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -73,7 +73,7 @@ requestLongerTimeout
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -99,7 +99,7 @@ getState
 =
 dbg
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -131,7 +131,7 @@ the
 generated
 source
 .
-yield
+await
 addBreakpoint
 (
 dbg
@@ -152,7 +152,7 @@ runCode
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg

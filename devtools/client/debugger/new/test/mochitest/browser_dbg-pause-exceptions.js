@@ -102,15 +102,15 @@ error
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -129,7 +129,7 @@ skipping
 an
 uncaught
 exception
-yield
+await
 uncaughtException
 (
 )
@@ -151,7 +151,7 @@ on
 an
 uncaught
 exception
-yield
+await
 togglePauseOnExceptions
 (
 dbg
@@ -163,7 +163,7 @@ uncaughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -174,7 +174,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -192,7 +192,7 @@ caughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -203,7 +203,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -216,7 +216,7 @@ skipping
 a
 caught
 error
-yield
+await
 togglePauseOnExceptions
 (
 dbg
@@ -228,7 +228,7 @@ caughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -239,7 +239,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg

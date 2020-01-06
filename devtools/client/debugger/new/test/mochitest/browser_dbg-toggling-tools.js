@@ -172,15 +172,15 @@ jsterm
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -192,7 +192,7 @@ html
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg

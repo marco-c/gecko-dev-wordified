@@ -453,8 +453,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -469,7 +469,7 @@ const
 type
 ]
 =
-yield
+await
 gClient
 .
 connect
@@ -498,7 +498,7 @@ browser
 const
 response
 =
-yield
+await
 gClient
 .
 getProcess
@@ -516,7 +516,7 @@ actor
 ;
 gThreadClient
 =
-yield
+await
 attachThread
 (
 gClient
@@ -568,7 +568,7 @@ newGlobal
 onNewGlobal
 )
 ;
-yield
+await
 promise
 .
 all
@@ -583,7 +583,7 @@ promise
 ]
 )
 ;
-yield
+await
 resumeAndCloseConnection
 (
 )

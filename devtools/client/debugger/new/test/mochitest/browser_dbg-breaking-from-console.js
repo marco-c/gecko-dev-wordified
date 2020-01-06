@@ -83,8 +83,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -106,7 +106,7 @@ html
 const
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 url
@@ -164,7 +164,7 @@ it
 '
 s
 paused
-yield
+await
 waitOnToolbox
 (
 toolbox
@@ -227,7 +227,7 @@ right
 source
 and
 location
-yield
+await
 waitForDispatch
 (
 dbg

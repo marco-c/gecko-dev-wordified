@@ -35,15 +35,15 @@ source
 search
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -77,7 +77,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -104,7 +104,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -123,7 +123,7 @@ sourceSearch
 "
 )
 ;
-yield
+await
 waitForElement
 (
 dbg
@@ -160,7 +160,7 @@ Enter
 "
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -270,7 +270,7 @@ Enter
 "
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg

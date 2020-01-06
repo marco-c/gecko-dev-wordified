@@ -67,15 +67,15 @@ innerText
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -101,7 +101,7 @@ firstCall
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -153,7 +153,7 @@ dbg
 4
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -174,7 +174,7 @@ arguments
 "
 )
 ;
-yield
+await
 stepOver
 (
 dbg

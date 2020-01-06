@@ -41,15 +41,15 @@ situations
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -95,7 +95,7 @@ on
 /
 reload
 .
-yield
+await
 addBreakpoint
 (
 dbg
@@ -112,7 +112,7 @@ reload
 dbg
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -123,7 +123,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -154,10 +154,10 @@ doEval
 "
 )
 ;
-yield
+await
 paused
 ;
-yield
+await
 resume
 (
 dbg
@@ -192,7 +192,7 @@ source
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -207,7 +207,7 @@ evaledFunc
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg

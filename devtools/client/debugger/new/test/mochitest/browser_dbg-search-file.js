@@ -89,15 +89,15 @@ activeElement
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -136,7 +136,7 @@ js
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -167,7 +167,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -202,7 +202,7 @@ dbg
 .
 selectors
 .
-getActiveSearchState
+getActiveSearch
 (
 dbg
 .
@@ -237,7 +237,7 @@ con
 "
 )
 ;
-yield
+await
 waitForSearchState
 (
 dbg
@@ -348,7 +348,7 @@ source
 keeps
 search
 open
-yield
+await
 selectSource
 (
 dbg

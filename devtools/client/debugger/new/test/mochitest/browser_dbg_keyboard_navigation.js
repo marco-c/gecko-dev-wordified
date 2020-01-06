@@ -43,15 +43,15 @@ code
 editor
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -72,7 +72,7 @@ win
 .
 document
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -81,7 +81,7 @@ simple2
 "
 )
 ;
-yield
+await
 waitForElement
 (
 dbg

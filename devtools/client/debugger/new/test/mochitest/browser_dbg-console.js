@@ -172,8 +172,8 @@ jsterm
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -196,7 +196,7 @@ true
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -210,7 +210,7 @@ html
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -226,7 +226,7 @@ switching
 open
 the
 console
-yield
+await
 getSplitConsole
 (
 dbg
@@ -253,6 +253,7 @@ shown
 close
 the
 console
+await
 clickElement
 (
 dbg

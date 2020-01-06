@@ -43,15 +43,15 @@ paused
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -63,7 +63,7 @@ html
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -76,7 +76,7 @@ js
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -97,7 +97,7 @@ arithmetic
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -116,7 +116,7 @@ prettyPrintButton
 "
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -138,7 +138,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg

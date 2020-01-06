@@ -67,15 +67,15 @@ exist
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -179,7 +179,7 @@ right
 /
 place
 .
-yield
+await
 waitForDispatch
 (
 dbg
@@ -225,7 +225,7 @@ the
 editor
 scrolled
 .
-yield
+await
 selectSource
 (
 dbg
@@ -270,7 +270,7 @@ on
 old
 lines
 .
-yield
+await
 selectSource
 (
 dbg
@@ -282,7 +282,7 @@ js
 17
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -418,7 +418,7 @@ loadedState
 )
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
