@@ -388,11 +388,6 @@ HOST_SIMPLE_PROGRAMS
     
 b
 '
-IS_COMPONENT
-'
-    
-b
-'
 JAR_MANIFEST
 '
     
@@ -9779,31 +9774,6 @@ lib_name
 if
 libdef
 .
-variant
-=
-=
-libdef
-.
-COMPONENT
-:
-            
-backend_file
-.
-write
-(
-'
-IS_COMPONENT
-:
-=
-1
-\
-n
-'
-)
-        
-if
-libdef
-.
 soname
 :
             
@@ -10505,16 +10475,6 @@ SharedLibrary
 )
 :
                     
-assert
-lib
-.
-variant
-!
-=
-lib
-.
-COMPONENT
-                    
 backend_file
 .
 write_once
@@ -10593,16 +10553,6 @@ lib
                 
 else
 :
-                    
-assert
-lib
-.
-variant
-!
-=
-lib
-.
-COMPONENT
                     
 backend_file
 .
