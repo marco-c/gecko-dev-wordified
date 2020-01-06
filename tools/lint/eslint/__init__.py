@@ -291,17 +291,9 @@ eslint_setup
 (
 )
     
-if
 setup_helper
 .
-eslint_module_needs_setup
-(
-)
-:
-        
-setup_helper
-.
-eslint_setup
+eslint_maybe_setup
 (
 )
     
