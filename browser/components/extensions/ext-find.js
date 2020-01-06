@@ -313,7 +313,6 @@ params
 )
 ;
 }
-;
 this
 .
 find
