@@ -3136,6 +3136,16 @@ AddLength
 written
 )
 ;
+if
+(
+aLast
+)
+{
+mDecoder
+=
+nullptr
+;
+}
 return
 NS_OK
 ;
