@@ -527,6 +527,11 @@ CustomizableUI
 AREA_FIXED_OVERFLOW_PANEL
 )
 ;
+await
+waitForOverflowButtonShown
+(
+)
+;
 /
 /
 check

@@ -1164,6 +1164,11 @@ panel
 "
 )
 ;
+await
+waitForOverflowButtonShown
+(
+)
+;
 let
 shownPanelPromise
 =
@@ -1350,6 +1355,11 @@ button
 CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
+)
+;
+await
+waitForOverflowButtonShown
+(
 )
 ;
 let

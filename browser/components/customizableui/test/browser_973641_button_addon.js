@@ -272,6 +272,11 @@ bar
 "
 )
 ;
+await
+waitForOverflowButtonShown
+(
+)
+;
 /
 /
 check

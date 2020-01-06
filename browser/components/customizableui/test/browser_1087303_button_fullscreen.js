@@ -122,6 +122,11 @@ reset
 )
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById

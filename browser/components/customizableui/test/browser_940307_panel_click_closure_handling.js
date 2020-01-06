@@ -137,6 +137,11 @@ AREA_FIXED_OVERFLOW_PANEL
 )
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById
@@ -351,6 +356,11 @@ id
 CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
+)
+;
+await
+waitForOverflowButtonShown
+(
 )
 ;
 await
@@ -611,6 +621,11 @@ be
 in
 panel
 "
+)
+;
+await
+waitForOverflowButtonShown
+(
 )
 ;
 await
@@ -1045,6 +1060,11 @@ id
 CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
+)
+;
+await
+waitForOverflowButtonShown
+(
 )
 ;
 await

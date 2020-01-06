@@ -150,6 +150,11 @@ functionality
 )
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById

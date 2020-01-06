@@ -160,6 +160,11 @@ clipboard
 kGlobalClipboard
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById
