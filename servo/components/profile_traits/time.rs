@@ -442,6 +442,9 @@ ScriptWebVREvent
 ScriptWorkletEvent
 =
 0x7a
+ScriptPerformanceEvent
+=
+0x7b
 TimeToFirstPaint
 =
 0x80

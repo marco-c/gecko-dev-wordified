@@ -1344,6 +1344,17 @@ Event
 ProfilerCategory
 :
 :
+ScriptPerformanceEvent
+=
+>
+"
+Script
+Performance
+Event
+"
+ProfilerCategory
+:
+:
 TimeToFirstPaint
 =
 >

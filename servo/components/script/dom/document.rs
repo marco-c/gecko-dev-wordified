@@ -12613,9 +12613,11 @@ timing
 =
 self
 .
-window
+global
+(
+)
 .
-Performance
+performance
 (
 )
 .

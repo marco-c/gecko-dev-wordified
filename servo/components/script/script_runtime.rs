@@ -693,6 +693,7 @@ ServiceWorkerEvent
 EnterFullscreen
 ExitFullscreen
 WebVREvent
+PerformanceTimelineTask
 }
 /
 /
