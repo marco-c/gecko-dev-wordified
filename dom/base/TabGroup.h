@@ -199,6 +199,9 @@ ThrottledEventQueue
 namespace
 dom
 {
+class
+TabChild
+;
 /
 /
 Two

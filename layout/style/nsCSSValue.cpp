@@ -2405,6 +2405,7 @@ nsContentUtils
 :
 GetStaticRequest
 (
+aDocument
 req
 )
 ;

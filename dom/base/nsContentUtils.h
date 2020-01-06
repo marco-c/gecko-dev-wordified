@@ -5169,6 +5169,9 @@ imgRequestProxy
 >
 GetStaticRequest
 (
+nsIDocument
+*
+aLoadingDocument
 imgRequestProxy
 *
 aRequest

@@ -807,9 +807,10 @@ true
 canonicalRequest
 -
 >
-Clone
+SyncClone
 (
 this
+mDocument
 getter_AddRefs
 (
 request
@@ -1630,9 +1631,10 @@ rv
 request
 -
 >
-Clone
+SyncClone
 (
 this
+mDocument
 getter_AddRefs
 (
 clonedRequest

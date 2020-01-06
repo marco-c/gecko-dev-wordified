@@ -5871,9 +5871,12 @@ rv
 aRequest
 -
 >
-Clone
+SyncClone
 (
 this
+GetOurOwnerDoc
+(
+)
 getter_AddRefs
 (
 req
@@ -8333,6 +8336,12 @@ nsContentUtils
 :
 GetStaticRequest
 (
+aDest
+-
+>
+GetOurOwnerDoc
+(
+)
 mCurrentRequest
 )
 ;

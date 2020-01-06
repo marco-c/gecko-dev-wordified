@@ -1458,9 +1458,15 @@ styleRequest
 styleRequest
 -
 >
-Clone
+SyncClone
 (
 mListener
+mContent
+-
+>
+GetComposedDoc
+(
+)
 getter_AddRefs
 (
 mImageRequest
