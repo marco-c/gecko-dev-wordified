@@ -7715,7 +7715,7 @@ propagatingForcedReturn_
 (
 false
 )
-liveVolatileJitFrameIterators_
+liveVolatileJitFrameIter_
 (
 nullptr
 )

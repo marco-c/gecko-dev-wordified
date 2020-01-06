@@ -247,7 +247,7 @@ class
 JitContext
 ;
 class
-DebugModeOSRVolatileJitFrameIterator
+DebugModeOSRVolatileJitFrameIter
 ;
 }
 /
@@ -2031,7 +2031,7 @@ js
 jit
 :
 :
-DebugModeOSRVolatileJitFrameIterator
+DebugModeOSRVolatileJitFrameIter
 ;
 friend
 void
@@ -4382,10 +4382,10 @@ js
 jit
 :
 :
-DebugModeOSRVolatileJitFrameIterator
+DebugModeOSRVolatileJitFrameIter
 *
 >
-liveVolatileJitFrameIterators_
+liveVolatileJitFrameIter_
 ;
 public
 :

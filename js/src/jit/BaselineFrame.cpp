@@ -256,6 +256,7 @@ trace
 JSTracer
 *
 trc
+const
 JitFrameIterator
 &
 frameIterator
@@ -1022,14 +1023,14 @@ calls
 )
 .
 JitFrameIterator
-iter
+frame
 (
 cx
 )
 ;
 MOZ_ASSERT
 (
-iter
+frame
 .
 returnAddress
 (
@@ -1055,7 +1056,7 @@ baselineScript
 (
 )
 ;
-iter
+frame
 .
 current
 (

@@ -4134,7 +4134,7 @@ jit
 :
 :
 JitActivationIterator
-iter
+actIter
 (
 cx
 )
@@ -4142,7 +4142,12 @@ cx
 JitFrameIterator
 it
 (
-iter
+actIter
+-
+>
+asJit
+(
+)
 )
 ;
 MOZ_ASSERT
