@@ -271,6 +271,14 @@ locales
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -313,6 +321,14 @@ dest
 :
 "
 objdir
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -366,6 +382,14 @@ hg_l10n_base
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -411,6 +435,14 @@ hg_l10n_tag
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -451,6 +483,14 @@ dest
 :
 "
 tag_override
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -502,6 +542,14 @@ user_repo_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -546,6 +594,14 @@ dest
 :
 "
 l10n_dir
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "

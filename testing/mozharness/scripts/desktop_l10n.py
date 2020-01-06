@@ -525,6 +525,14 @@ config_files
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -568,6 +576,14 @@ config_files
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -608,6 +624,14 @@ dest
 :
 "
 config_files
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -661,6 +685,14 @@ config_files
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -699,6 +731,14 @@ dest
 :
 "
 locales
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -766,6 +806,14 @@ locales_file
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -815,6 +863,14 @@ tag_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -855,6 +911,14 @@ dest
 :
 "
 revision
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -919,6 +983,14 @@ user_repo_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -964,6 +1036,14 @@ dest
 :
 "
 release_config_file
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -1015,7 +1095,9 @@ this_locale_chunk
 type
 "
 :
+"
 int
+"
          
 "
 help
@@ -1066,7 +1148,9 @@ total_locale_chunks
 type
 "
 :
+"
 int
+"
          
 "
 help
@@ -1116,6 +1200,14 @@ dest
 :
 "
 en_us_installer_url
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "

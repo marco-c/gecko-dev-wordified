@@ -128,10 +128,6 @@ import
 sys
 import
 os
-from
-argparse
-import
-Namespace
 #
 load
 modules
@@ -1387,14 +1383,9 @@ cfg
             
 variant
             
-Namespace
-(
-*
-*
 rw_config
 .
-_config
-)
+config_parser
         
 )
         

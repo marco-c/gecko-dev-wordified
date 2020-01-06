@@ -250,6 +250,14 @@ locales
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -292,6 +300,14 @@ dest
 :
 "
 partners
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -339,6 +355,14 @@ dest
 :
 "
 locales_file
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -391,6 +415,14 @@ tag_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -432,6 +464,14 @@ dest
 :
 "
 platforms
+"
+         
+"
+type
+"
+:
+"
+choice
 "
          
 "
@@ -490,6 +530,14 @@ user_repo_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -539,6 +587,14 @@ release_config_file
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -580,6 +636,14 @@ dest
 :
 "
 version
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -627,7 +691,9 @@ buildnum
 type
 "
 :
+"
 int
+"
          
 "
 default

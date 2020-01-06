@@ -102,6 +102,14 @@ beverage
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -143,6 +151,14 @@ dest
 :
 "
 ship_style
+"
+         
+"
+type
+"
+:
+"
+choice
 "
          
 "
@@ -211,7 +227,9 @@ long_sleep_time
 type
 "
 :
+"
 int
+"
          
 "
 help

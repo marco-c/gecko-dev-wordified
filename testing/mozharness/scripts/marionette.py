@@ -462,6 +462,14 @@ store
 "
          
 "
+type
+"
+:
+"
+choice
+"
+         
+"
 choices
 "
 :
