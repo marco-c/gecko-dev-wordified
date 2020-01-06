@@ -186,6 +186,7 @@ shared_lock
 :
 :
 {
+DeepCloneParams
 DeepCloneWithLock
 SharedRwLock
 SharedRwLockReadGuard
@@ -222,7 +223,7 @@ stylesheets
 :
 {
 CssRuleType
-Stylesheet
+StylesheetContents
 }
 ;
 use
@@ -694,6 +695,10 @@ guard
 :
 &
 SharedRwLockReadGuard
+params
+:
+&
+DeepCloneParams
 )
 -
 >
@@ -723,9 +728,9 @@ iter
 map
 (
 |
-ref
 x
 |
+{
 Arc
 :
 :
@@ -746,9 +751,11 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
+}
 )
 .
 collect
@@ -1656,10 +1663,14 @@ css
 '
 i
 str
-parent_stylesheet
+parent_stylesheet_contents
 :
 &
-Stylesheet
+StylesheetContents
+lock
+:
+&
+SharedRwLock
 )
 -
 >
@@ -1682,7 +1693,7 @@ i
 let
 url_data
 =
-parent_stylesheet
+parent_stylesheet_contents
 .
 url_data
 .
@@ -1703,7 +1714,7 @@ ParserContext
 :
 new
 (
-parent_stylesheet
+parent_stylesheet_contents
 .
 origin
 &
@@ -1718,7 +1729,7 @@ CssRuleType
 Keyframe
 )
 PARSING_MODE_DEFAULT
-parent_stylesheet
+parent_stylesheet_contents
 .
 quirks_mode
 )
@@ -1773,9 +1784,7 @@ context
 shared_lock
 :
 &
-parent_stylesheet
-.
-shared_lock
+lock
 declarations
 :
 &
@@ -1820,6 +1829,10 @@ guard
 :
 &
 SharedRwLockReadGuard
+_params
+:
+&
+DeepCloneParams
 )
 -
 >

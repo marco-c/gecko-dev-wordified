@@ -162,6 +162,7 @@ stylesheets
 {
 AllRules
 Stylesheet
+StylesheetInDocument
 Origin
 CssRule
 }
