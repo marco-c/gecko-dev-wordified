@@ -1214,11 +1214,14 @@ MOZ_CRASH
 ;
 }
 bool
-asmMergeWith
+appendRawCode
 (
 const
-MacroAssemblerNone
-&
+uint8_t
+*
+code
+size_t
+numBytes
 )
 {
 MOZ_CRASH

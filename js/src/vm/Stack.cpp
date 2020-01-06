@@ -10862,7 +10862,7 @@ code
 (
 )
 .
-containsFunctionPC
+containsCodePC
 (
 pc
 )

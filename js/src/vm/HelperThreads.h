@@ -319,7 +319,7 @@ MultiScriptsDecode
 namespace
 wasm
 {
-class
+struct
 CompileTask
 ;
 typedef

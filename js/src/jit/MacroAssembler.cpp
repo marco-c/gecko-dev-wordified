@@ -20845,7 +20845,11 @@ breakpoint
 (
 )
 ;
-clearTrapSites
+trapSites
+(
+)
+.
+clear
 (
 )
 ;

@@ -10556,6 +10556,16 @@ mg_
 .
 init
 (
+/
+*
+codeSectionSize
+(
+ignored
+)
+=
+*
+/
+0
 asmJSMetadata_
 .
 get

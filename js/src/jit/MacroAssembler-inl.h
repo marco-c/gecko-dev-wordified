@@ -709,7 +709,7 @@ CallSiteDesc
 &
 desc
 uint32_t
-funcDefIndex
+funcIndex
 )
 {
 CodeOffset
@@ -723,7 +723,7 @@ append
 (
 desc
 l
-funcDefIndex
+funcIndex
 )
 ;
 }
