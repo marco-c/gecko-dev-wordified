@@ -3953,6 +3953,9 @@ result
 GetFrameInternal
 (
 aSize
+Nothing
+(
+)
 aWhichFrame
 aFlags
 )
@@ -4042,6 +4045,13 @@ const
 IntSize
 &
 aSize
+const
+Maybe
+<
+SVGImageContext
+>
+&
+aSVGContext
 uint32_t
 aWhichFrame
 uint32_t
@@ -4453,6 +4463,9 @@ GetImageContainerImpl
 (
 aManager
 mSize
+Nothing
+(
+)
 aFlags
 )
 ;
@@ -4612,6 +4625,13 @@ const
 IntSize
 &
 aSize
+const
+Maybe
+<
+SVGImageContext
+>
+&
+aSVGContext
 uint32_t
 aFlags
 )
@@ -4621,6 +4641,7 @@ GetImageContainerImpl
 (
 aManager
 aSize
+aSVGContext
 aFlags
 )
 ;
