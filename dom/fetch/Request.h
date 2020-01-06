@@ -532,6 +532,12 @@ aStream
 )
 ;
 }
+using
+FetchBody
+:
+:
+GetBody
+;
 void
 SetBody
 (
