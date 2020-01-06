@@ -2369,8 +2369,8 @@ continuing
 /
 /
 Wait
-a
-second
+some
+time
 before
 continuing
 to
@@ -2391,6 +2391,11 @@ error
 locating
 tab
 '
+(
+bug
+1383832
+)
+.
 Utils
 .
 namedTimer
@@ -2406,7 +2411,7 @@ FinishAsyncOperation
 )
 ;
 }
-1000
+2500
 this
 "
 postTabsOpening
