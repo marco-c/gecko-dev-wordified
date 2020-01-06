@@ -184,8 +184,10 @@ PartiallySeekableInputStream
 :
 PartiallySeekableInputStream
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 uint64_t
 aBufferSize
@@ -193,7 +195,10 @@ aBufferSize
 :
 mInputStream
 (
+Move
+(
 aInputStream
+)
 )
 mWeakCloneableInputStream
 (
@@ -222,7 +227,7 @@ false
 {
 MOZ_ASSERT
 (
-aInputStream
+mInputStream
 )
 ;
 #
@@ -236,7 +241,7 @@ seekableStream
 =
 do_QueryInterface
 (
-aInputStream
+mInputStream
 )
 ;
 MOZ_ASSERT
@@ -255,7 +260,7 @@ cloneableStream
 =
 do_QueryInterface
 (
-aInputStream
+mInputStream
 )
 ;
 if
@@ -265,7 +270,7 @@ cloneableStream
 &
 SameCOMIdentity
 (
-aInputStream
+mInputStream
 cloneableStream
 )
 )
@@ -283,7 +288,7 @@ serializableStream
 =
 do_QueryInterface
 (
-aInputStream
+mInputStream
 )
 ;
 if
@@ -293,7 +298,7 @@ serializableStream
 &
 SameCOMIdentity
 (
-aInputStream
+mInputStream
 serializableStream
 )
 )
@@ -311,7 +316,7 @@ asyncInputStream
 =
 do_QueryInterface
 (
-aInputStream
+mInputStream
 )
 ;
 if
@@ -321,7 +326,7 @@ asyncInputStream
 &
 SameCOMIdentity
 (
-aInputStream
+mInputStream
 asyncInputStream
 )
 )
@@ -840,6 +845,10 @@ new
 PartiallySeekableInputStream
 (
 clonedStream
+.
+forget
+(
+)
 mBufferSize
 )
 ;
