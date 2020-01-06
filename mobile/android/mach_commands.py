@@ -3176,6 +3176,39 @@ assembleWithoutGeckoBinariesAndroidTest
         
 ]
         
+#
+We
+don
+'
+t
+want
+to
+gate
+producing
+dependency
+archives
+on
+clean
+        
+#
+lint
+or
+checkstyle
+particularly
+because
+toolchain
+versions
+        
+#
+can
+change
+the
+outputs
+for
+those
+processes
+.
+        
 ret
 =
 self
@@ -3199,7 +3232,7 @@ True
 )
         
 return
-ret
+0
     
 Command
 (
