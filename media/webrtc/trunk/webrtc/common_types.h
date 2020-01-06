@@ -4636,6 +4636,8 @@ Class
 to
 represent
 RtpStreamId
+and
+RepairedRtpStreamId
 which
 is
 a
@@ -4665,7 +4667,8 @@ Empty
 value
 represent
 unset
-RtpStreamId
+stream
+id
 .
 class
 StreamId
@@ -5199,7 +5202,7 @@ StreamId
 rtpStreamId
 ;
 StreamId
-repairedStreamId
+repairedRtpStreamId
 ;
 }
 ;

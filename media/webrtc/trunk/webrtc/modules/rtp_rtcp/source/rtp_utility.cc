@@ -3776,7 +3776,7 @@ header
 >
 extension
 .
-repairedStreamId
+repairedRtpStreamId
 .
 Set
 (
