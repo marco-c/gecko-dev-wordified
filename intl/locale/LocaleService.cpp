@@ -1670,7 +1670,7 @@ void
 LocaleService
 :
 :
-OnAvailableLocalesChanged
+AvailableLocalesChanged
 (
 )
 {
@@ -1715,7 +1715,7 @@ available
 locales
 -
 changed
-OnLocalesChanged
+LocalesChanged
 (
 )
 ;
@@ -1724,7 +1724,7 @@ void
 LocaleService
 :
 :
-OnRequestedLocalesChanged
+RequestedLocalesChanged
 (
 )
 {
@@ -1811,7 +1811,7 @@ nullptr
 )
 ;
 }
-OnLocalesChanged
+LocalesChanged
 (
 )
 ;
@@ -1821,7 +1821,7 @@ void
 LocaleService
 :
 :
-OnLocalesChanged
+LocalesChanged
 (
 )
 {
@@ -3480,7 +3480,7 @@ INTL_SYSTEM_LOCALES_CHANGED
 )
 )
 {
-OnRequestedLocalesChanged
+RequestedLocalesChanged
 (
 )
 ;
@@ -3577,7 +3577,7 @@ ANDROID_OS_LOCALE_PREF
 )
 )
 {
-OnRequestedLocalesChanged
+RequestedLocalesChanged
 (
 )
 ;
