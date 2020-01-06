@@ -4271,10 +4271,11 @@ BrowserTabsRemoteAutostart
 |
 |
 (
-!
-IsContentSandboxEnabled
+GetEffectiveContentSandboxLevel
 (
 )
+<
+1
 )
 ;
 }

@@ -3061,10 +3061,12 @@ pref
 .
 if
 (
-!
-IsContentSandboxEnabled
+GetEffectiveContentSandboxLevel
 (
 )
+<
+=
+1
 )
 {
 return
