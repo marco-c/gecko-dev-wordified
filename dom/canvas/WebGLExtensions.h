@@ -537,6 +537,15 @@ WebGLExtensionCompressedTextureS3TC_SRGB
 (
 )
 ;
+static
+bool
+IsSupported
+(
+const
+WebGLContext
+*
+)
+;
 DECL_WEBGL_EXTENSION_GOOP
 }
 ;
