@@ -255,6 +255,8 @@ from
 mozinfo
 import
 *
+#
+noqa
 __all__
 =
 mozinfo
