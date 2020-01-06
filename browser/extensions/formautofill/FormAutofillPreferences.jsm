@@ -671,7 +671,7 @@ bundle
 GetStringFromName
 (
 "
-learnMore
+learnMoreLabel
 "
 )
 )
@@ -690,7 +690,7 @@ bundle
 GetStringFromName
 (
 "
-enableAddressAutofill
+autofillAddressesCheckbox
 "
 )
 )
@@ -709,7 +709,7 @@ bundle
 GetStringFromName
 (
 "
-savedAddresses
+savedAddressesBtnLabel
 "
 )
 )
@@ -988,7 +988,7 @@ bundle
 GetStringFromName
 (
 "
-learnMore
+learnMoreLabel
 "
 )
 )
@@ -1007,7 +1007,7 @@ bundle
 GetStringFromName
 (
 "
-enableCreditCardAutofill
+autofillCreditCardsCheckbox
 "
 )
 )
@@ -1026,7 +1026,7 @@ bundle
 GetStringFromName
 (
 "
-savedCreditCards
+savedCreditCardsBtnLabel
 "
 )
 )
