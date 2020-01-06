@@ -1089,6 +1089,13 @@ javascript
 .
 options
 .
+wasm_ionjit
+"
+"
+javascript
+.
+options
+.
 werror
 "
 "
