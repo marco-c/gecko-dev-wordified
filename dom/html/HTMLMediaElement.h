@@ -5434,6 +5434,10 @@ mLoadingSrc
 void
 RemoveMediaElementFromURITable
 (
+bool
+aFroceClearEntry
+=
+false
 )
 ;
 /
