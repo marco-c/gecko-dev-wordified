@@ -33424,14 +33424,6 @@ mPresShell
 blockContext
 )
 ;
-blockFrame
--
->
-AddStateBits
-(
-NS_BLOCK_FORMATTING_CONTEXT_STATE_BITS
-)
-;
 InitAndRestoreFrame
 (
 aState
