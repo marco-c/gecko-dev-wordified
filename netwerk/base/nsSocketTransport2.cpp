@@ -20834,7 +20834,7 @@ if
 err
 !
 =
-ERROR_IO_PENDING
+ERROR_IO_INCOMPLETE
 )
 {
 canClose
