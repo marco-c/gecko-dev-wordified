@@ -241,10 +241,7 @@ stylesheets
 rule_parser
 :
 :
-{
 VendorPrefix
-get_location_with_offset
-}
 ;
 use
 values
@@ -3734,14 +3731,6 @@ current_source_location
 (
 )
 ;
-let
-location
-=
-get_location_with_offset
-(
-start_location
-)
-;
 match
 KeyframeSelector
 :
@@ -3767,7 +3756,7 @@ selector
 sel
 source_location
 :
-location
+start_location
 }
 )
 }
