@@ -12718,12 +12718,6 @@ layers
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-WebRenderParentCommand
->
-&
-aParentCommands
 mozilla
 :
 :
@@ -12936,7 +12930,6 @@ aParams
 aBuilder
 aResources
 aSc
-aParentCommands
 aLayer
 aManager
 aItem
@@ -17956,12 +17949,6 @@ layers
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-WebRenderParentCommand
->
-&
-aParentCommands
 mozilla
 :
 :
@@ -18262,7 +18249,6 @@ presCtx
 aBuilder
 aResources
 aSc
-aParentCommands
 aLayer
 aManager
 aItem
