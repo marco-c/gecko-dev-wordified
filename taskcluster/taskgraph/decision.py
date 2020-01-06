@@ -385,7 +385,7 @@ mozilla_beta_tasks
 optimize_target_tasks
 '
 :
-False
+True
         
 '
 include_nightly
@@ -415,7 +415,7 @@ mozilla_release_tasks
 optimize_target_tasks
 '
 :
-False
+True
         
 '
 include_nightly
