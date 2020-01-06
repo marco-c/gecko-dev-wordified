@@ -3503,6 +3503,14 @@ IsFontFormatSupported
 (
 currSrc
 .
+mURI
+-
+>
+get
+(
+)
+currSrc
+.
 mFormatFlags
 )
 )

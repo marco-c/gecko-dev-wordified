@@ -865,6 +865,9 @@ virtual
 bool
 IsFontFormatSupported
 (
+nsIURI
+*
+aFontURI
 uint32_t
 aFormatFlags
 )
