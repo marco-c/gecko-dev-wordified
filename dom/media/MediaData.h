@@ -257,6 +257,9 @@ Image
 class
 ImageContainer
 ;
+class
+KnowsCompositor
+;
 }
 /
 /
@@ -2726,6 +2729,14 @@ const
 IntRect
 &
 aPicture
+layers
+:
+:
+KnowsCompositor
+*
+aAllocator
+=
+nullptr
 )
 ;
 static
