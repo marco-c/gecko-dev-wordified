@@ -162,7 +162,10 @@ specified
 font
 :
 :
+{
 XTextZoom
+FontSynthesis
+}
 ;
 /
 /
