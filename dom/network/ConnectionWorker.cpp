@@ -282,7 +282,7 @@ ConnectionType
 aType
 bool
 aIsWifi
-bool
+uint32_t
 aDHCPGateway
 )
 {
@@ -666,7 +666,7 @@ bool
 mIsWifi
 ;
 const
-bool
+uint32_t
 mDHCPGateway
 ;
 public
@@ -683,7 +683,7 @@ ConnectionType
 aType
 bool
 aIsWifi
-bool
+uint32_t
 aDHCPGateway
 )
 :
