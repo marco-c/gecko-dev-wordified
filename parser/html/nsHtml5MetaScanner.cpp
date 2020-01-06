@@ -685,6 +685,10 @@ treeBuilder
 (
 tb
 )
+mEncoding
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (

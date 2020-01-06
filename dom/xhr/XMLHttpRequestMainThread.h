@@ -3393,7 +3393,9 @@ Decoder
 >
 mDecoder
 ;
-nsCString
+const
+Encoding
+*
 mResponseCharset
 ;
 void
