@@ -4355,6 +4355,8 @@ variables
 from_shorthand
 &
 custom_props
+&
+mut
 |
 v
 |

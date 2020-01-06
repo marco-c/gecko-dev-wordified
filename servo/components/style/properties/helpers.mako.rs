@@ -2458,6 +2458,8 @@ ident
 declared_value
 &
 custom_props
+&
+mut
 |
 value
 |
