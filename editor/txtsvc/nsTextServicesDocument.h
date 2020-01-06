@@ -1048,7 +1048,7 @@ CreateDocumentContentRootToNodeOffsetRange
 nsIDOMNode
 *
 aParent
-int32_t
+uint32_t
 aOffset
 bool
 aToStart
