@@ -1021,6 +1021,7 @@ support
 struct
 AutoEnter
 {
+explicit
 AutoEnter
 (
 AbstractThread
