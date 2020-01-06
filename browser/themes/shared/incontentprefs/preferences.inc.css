@@ -3336,6 +3336,11 @@ bottom
 :
 36px
 ;
+opacity
+:
+.
+85
+;
 }
 .
 search
@@ -3343,15 +3348,6 @@ search
 tooltip
 :
 hover
-.
-search
--
-tooltip
-:
-hover
-:
-:
-before
 {
 opacity
 :
