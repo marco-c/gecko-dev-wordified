@@ -116,6 +116,9 @@ h
 namespace
 mozilla
 {
+class
+TextEditor
+;
 namespace
 a11y
 {
@@ -575,7 +578,7 @@ HyperTextAccessible
 virtual
 already_AddRefed
 <
-nsIEditor
+TextEditor
 >
 GetEditor
 (
