@@ -28295,10 +28295,10 @@ ChannelMediaDecoder
 >
 decoder
 =
-DecoderTraits
+ChannelMediaDecoder
 :
 :
-CreateDecoder
+Create
 (
 decoderInit
 &
