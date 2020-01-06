@@ -5119,7 +5119,6 @@ parse
 &
 *
 name
-None
 )
 .
 ok
