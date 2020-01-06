@@ -4,6 +4,12 @@ Copyright
 2015
 Brendan
 Zabarauskas
+and
+the
+gl
+-
+rs
+developers
 /
 /
 /
