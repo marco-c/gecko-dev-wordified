@@ -235,9 +235,9 @@ mIsInClearCachedResources
 false
 )
 mIdNamespace
-(
+{
 0
-)
+}
 mResourceId
 (
 0
@@ -1422,8 +1422,6 @@ key
 key
 .
 mNamespace
-.
-mHandle
 =
 GetNamespace
 (
@@ -2291,9 +2289,12 @@ WebRenderBridgeChild
 RecvWrUpdated
 (
 const
-uint32_t
+wr
+:
+:
+IdNamespace
 &
-aNewIdNameSpace
+aNewIdNamespace
 )
 {
 /
@@ -2324,7 +2325,7 @@ webrender
 .
 mIdNamespace
 =
-aNewIdNameSpace
+aNewIdNamespace
 ;
 /
 /

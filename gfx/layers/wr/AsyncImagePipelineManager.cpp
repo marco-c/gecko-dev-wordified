@@ -210,7 +210,10 @@ AsyncImagePipelineManager
 :
 AsyncImagePipelineManager
 (
-uint32_t
+wr
+:
+:
+IdNamespace
 aIdNamespace
 )
 :

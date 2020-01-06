@@ -9273,7 +9273,10 @@ aSize
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-uint32_t
+wr
+:
+:
+IdNamespace
 *
 aIdNamespace
 )
@@ -9435,7 +9438,7 @@ aIdNamespace
 mWrBridge
 -
 >
-GetIdNameSpace
+GetIdNamespace
 (
 )
 ;
@@ -9454,17 +9457,6 @@ return
 mWrBridge
 ;
 }
-MOZ_ASSERT
-(
-api
-)
-;
-/
-/
-TODO
-have
-a
-fallback
 api
 -
 >
@@ -9512,7 +9504,7 @@ aIdNamespace
 mWrBridge
 -
 >
-GetIdNameSpace
+GetIdNamespace
 (
 )
 ;
