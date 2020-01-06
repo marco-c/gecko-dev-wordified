@@ -582,6 +582,9 @@ thread_
 DWORD
 thread_id_
 ;
+CriticalSection
+cs_
+;
 #
 else
 static
