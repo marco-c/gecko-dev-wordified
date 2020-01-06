@@ -392,7 +392,7 @@ ISO
 Chinese
 Simplified
 "
-gbk
+GBK
 "
 /
 /
@@ -1530,7 +1530,7 @@ charset
 =
 =
 "
-gbk
+GBK
 "
 )
 {
@@ -1582,7 +1582,7 @@ charset
 =
 =
 "
-gbk
+GBK
 "
 )
 {
@@ -1689,7 +1689,7 @@ gb18030
 :
 return
 "
-gbk
+GBK
 "
 ;
 default

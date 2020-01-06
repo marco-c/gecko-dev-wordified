@@ -1672,7 +1672,7 @@ copyToTempUTF8File
 (
 loginIni
 "
-gbk
+GBK
 "
 )
 ;

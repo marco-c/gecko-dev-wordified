@@ -19,7 +19,7 @@ inString
 =
 "
 \
-u2764
+uE5E5
 "
 ;
 const
@@ -75,7 +75,10 @@ EUC
 KR
 "
 "
-gbk
+GBK
+"
+"
+gb18030
 "
 "
 IBM866

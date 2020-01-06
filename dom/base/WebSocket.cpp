@@ -365,13 +365,6 @@ h
 #
 include
 "
-nsIUnicodeEncoder
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

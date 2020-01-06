@@ -4315,7 +4315,7 @@ parserCharset
 "
 UTF
 -
-16
+16LE
 "
 ;
 parserCharsetSource

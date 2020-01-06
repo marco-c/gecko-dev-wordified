@@ -256,6 +256,13 @@ nsComputedDOMStyle
 .
 h
 "
+namespace
+mozilla
+{
+class
+Encoding
+;
+}
 using
 namespace
 mozilla
@@ -868,9 +875,9 @@ aFlags
 uint32_t
 aWrapColumn
 const
-char
+Encoding
 *
-aCharSet
+aEncoding
 bool
 aIsCopying
 bool

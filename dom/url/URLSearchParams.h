@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIUnicodeDecoder
-.
-h
-"
-#
-include
-"
 nsIXMLHttpRequest
 .
 h
@@ -616,12 +609,6 @@ nsTArray
 Param
 >
 mParams
-;
-nsCOMPtr
-<
-nsIUnicodeDecoder
->
-mDecoder
 ;
 }
 ;

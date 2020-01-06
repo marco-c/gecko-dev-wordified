@@ -425,9 +425,15 @@ decoder
 for
 charset
 .
-nsCOMPtr
+mozilla
+:
+:
+UniquePtr
 <
-nsIUnicodeDecoder
+mozilla
+:
+:
+Decoder
 >
 mDecoder
 ;

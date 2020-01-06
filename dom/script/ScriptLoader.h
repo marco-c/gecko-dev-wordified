@@ -137,7 +137,9 @@ h
 #
 include
 "
-nsIUnicodeDecoder
+mozilla
+/
+Encoding
 .
 h
 "

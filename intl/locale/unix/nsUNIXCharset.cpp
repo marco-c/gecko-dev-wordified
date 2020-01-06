@@ -138,13 +138,6 @@ nsReadableUtils
 h
 "
 #
-include
-"
-nsEncoderDecoderUtils
-.
-h
-"
-#
 if
 HAVE_GNU_LIBC_VERSION_H
 #
