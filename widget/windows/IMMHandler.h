@@ -790,6 +790,12 @@ NPEvent
 aEvent
 )
 ;
+static
+bool
+IsGoogleJapaneseInputActive
+(
+)
+;
 protected
 :
 static
@@ -822,12 +828,6 @@ aWindow
 static
 bool
 IsJapanist2003Active
-(
-)
-;
-static
-bool
-IsGoogleJapaneseInputActive
 (
 )
 ;
