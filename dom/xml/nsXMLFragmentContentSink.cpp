@@ -625,6 +625,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aReferrerPolicy
 )
 override
 ;
@@ -1770,6 +1774,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aReferrerPolicy
 )
 {
 /

@@ -888,6 +888,10 @@ aCrossOrigin
 const
 nsAString
 &
+aReferrerPolicy
+const
+nsAString
+&
 aAs
 )
 ;
@@ -916,6 +920,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aReferrerPolicy
 )
 ;
 void

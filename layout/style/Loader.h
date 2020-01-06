@@ -1456,6 +1456,17 @@ sheet
 .
 *
 param
+aReferrerPolicy
+the
+referrer
+policy
+for
+loading
+the
+sheet
+.
+*
+param
 aObserver
 the
 observer
@@ -1523,6 +1534,8 @@ const
 nsAString
 &
 aMedia
+ReferrerPolicy
+aReferrerPolicy
 mozilla
 :
 :
