@@ -2506,12 +2506,6 @@ nsINode
 >
 newNode
 ;
-nsCOMArray
-<
-nsINode
->
-nodesWithProperties
-;
 nsresult
 rv
 =
@@ -2520,7 +2514,7 @@ Clone
 aNode
 aDeep
 nullptr
-nodesWithProperties
+nullptr
 getter_AddRefs
 (
 newNode
@@ -2578,7 +2572,7 @@ nsCOMArray
 <
 nsINode
 >
-&
+*
 aNodesWithProperties
 nsINode
 *
@@ -4210,6 +4204,9 @@ NODE_FORCE_XBL_BINDINGS
 endif
 if
 (
+aNodesWithProperties
+&
+&
 aNode
 -
 >
@@ -4222,7 +4219,8 @@ bool
 ok
 =
 aNodesWithProperties
-.
+-
+>
 AppendObject
 (
 aNode
@@ -4239,7 +4237,8 @@ ok
 &
 &
 aNodesWithProperties
-.
+-
+>
 AppendObject
 (
 clone
