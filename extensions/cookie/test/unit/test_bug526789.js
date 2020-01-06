@@ -75,7 +75,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 var
@@ -1982,7 +1982,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 var
@@ -2086,7 +2086,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 cm
@@ -2286,7 +2286,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 cm

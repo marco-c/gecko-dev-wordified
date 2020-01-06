@@ -5877,9 +5877,6 @@ classes
 service
 implementing
 nsICookieManager
-and
-nsICookieManager2
-.
 #
 define
 NS_COOKIEMANAGER_CONTRACTID

@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsICookieManager2
+nsICookieManager
 .
 h
 "
@@ -1448,7 +1448,7 @@ rv
 ;
 nsCOMPtr
 <
-nsICookieManager2
+nsICookieManager
 >
 cookieManager
 =

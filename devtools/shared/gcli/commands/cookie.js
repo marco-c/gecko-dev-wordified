@@ -135,7 +135,7 @@ and
 manipulate
 cookies
 via
-nsICookieManager2
+nsICookieManager
 .
 *
 However
@@ -304,7 +304,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 }

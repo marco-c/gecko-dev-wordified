@@ -865,7 +865,7 @@ independent
 interface
 methods
 on
-nsICookieManager2
+nsICookieManager
 :
 /
 /

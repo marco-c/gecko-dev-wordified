@@ -2191,7 +2191,7 @@ Components
 .
 interfaces
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 return

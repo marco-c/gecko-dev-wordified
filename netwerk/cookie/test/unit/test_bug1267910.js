@@ -15,7 +15,7 @@ and
 originAttributes
 *
 of
-nsICookieManager2
+nsICookieManager
 .
 *
 /
