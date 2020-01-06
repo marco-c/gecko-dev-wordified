@@ -4640,12 +4640,7 @@ if
 targetCompartmentPrivate
 -
 >
-scope
--
->
-HasInterposition
-(
-)
+hasInterposition
 )
 wrapper
 =
