@@ -5691,6 +5691,13 @@ this
 .
 sessionID
 =
+cmd
+.
+parameters
+.
+sessionId
+|
+|
 element
 .
 generateUUID
@@ -5720,6 +5727,8 @@ fromJSON
 cmd
 .
 parameters
+.
+capabilities
 )
 ;
 }
