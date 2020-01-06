@@ -38203,7 +38203,7 @@ priorNode
 ;
 child
 =
-node
+priorNode
 ;
 node
 =
