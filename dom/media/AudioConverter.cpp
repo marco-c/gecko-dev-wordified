@@ -582,6 +582,16 @@ aFrames
 {
 if
 (
+!
+aFrames
+)
+{
+return
+0
+;
+}
+if
+(
 mIn
 .
 Channels
