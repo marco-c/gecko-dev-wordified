@@ -2876,16 +2876,6 @@ installDistroAddons
 false
 )
 ;
-pref
-(
-"
-extensions
-.
-webextPermissionPrompts
-"
-true
-)
-;
 /
 /
 Add
