@@ -1367,7 +1367,6 @@ optionally
 with
 pitch
 correction
-virtual
 void
 SetVolume
 (
@@ -1375,7 +1374,6 @@ double
 aVolume
 )
 ;
-virtual
 void
 SetPlaybackRate
 (
