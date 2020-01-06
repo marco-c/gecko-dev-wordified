@@ -2898,7 +2898,7 @@ len
 0
 )
 {
-uint32_t
+int32_t
 index
 =
 lower
