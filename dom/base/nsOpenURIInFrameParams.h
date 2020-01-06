@@ -183,8 +183,5 @@ mOpenerOriginAttributes
 nsString
 mReferrer
 ;
-bool
-mIsPrivate
-;
 }
 ;

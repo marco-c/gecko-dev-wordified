@@ -3135,6 +3135,8 @@ float
 aOpenerFullZoom
 uint64_t
 aNextTabParentId
+bool
+aForceNoOpener
 nsITabParent
 *
 *
@@ -3523,6 +3525,10 @@ CreateChromeWindow
 aFeatures
 parentChrome
 chromeFlags
+aForceNoOpener
+?
+nullptr
+:
 aOpeningTabParent
 nullptr
 aNextTabParentId

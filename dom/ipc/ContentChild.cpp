@@ -3748,9 +3748,6 @@ aBaseURIString
 float
 *
 aFullZoom
-OriginAttributes
-&
-aOriginAttributes
 )
 {
 *
@@ -3870,15 +3867,6 @@ return
 NS_OK
 ;
 }
-aOriginAttributes
-=
-openerDocShell
--
->
-GetOriginAttributes
-(
-)
-;
 nsCOMPtr
 <
 nsIContentViewer
@@ -4094,9 +4082,6 @@ baseURIString
 float
 fullZoom
 ;
-OriginAttributes
-originAttributes
-;
 rv
 =
 GetWindowParamsFromParent
@@ -4105,7 +4090,6 @@ aParent
 baseURIString
 &
 fullZoom
-originAttributes
 )
 ;
 if
@@ -4145,7 +4129,6 @@ aSizeSpecified
 uriToLoad
 features
 baseURIString
-originAttributes
 fullZoom
 )
 ;
@@ -4681,9 +4664,6 @@ baseURIString
 float
 fullZoom
 ;
-OriginAttributes
-originAttributes
-;
 rv
 =
 GetWindowParamsFromParent
@@ -4692,7 +4672,6 @@ aParent
 baseURIString
 &
 fullZoom
-originAttributes
 )
 ;
 if
@@ -4724,7 +4703,6 @@ aPositionSpecified
 aSizeSpecified
 features
 baseURIString
-originAttributes
 fullZoom
 &
 rv
