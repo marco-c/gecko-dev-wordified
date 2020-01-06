@@ -1171,8 +1171,6 @@ q
 PopAll
 (
 [
-&
-pops
 ]
 (
 const
