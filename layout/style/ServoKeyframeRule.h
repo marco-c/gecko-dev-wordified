@@ -161,7 +161,6 @@ CSSKeyframeRule
 {
 public
 :
-explicit
 ServoKeyframeRule
 (
 already_AddRefed
@@ -169,12 +168,16 @@ already_AddRefed
 RawServoKeyframe
 >
 aRaw
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 :
 CSSKeyframeRule
 (
-0
-0
+aLine
+aColumn
 )
 mRaw
 (
