@@ -240,11 +240,9 @@ waitForExplicitFinish
 /
 *
 *
-window
+SpecialPowers
 .
-showModalDialog
-(
-)
+spinEventLoop
 can
 be
 used
@@ -365,7 +363,11 @@ any
 assertions
 caused
 by
-showModalDialog
+spinning
+the
+event
+loop
+.
 /
 /
 /
