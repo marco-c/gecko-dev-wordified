@@ -784,6 +784,8 @@ bool
 aFromExtension
 int32_t
 aSandboxLevel
+uint16_t
+aBlocklistState
 )
 ;
 void
@@ -839,6 +841,13 @@ SetPluginState
 (
 PluginState
 state
+)
+;
+void
+SetBlocklistState
+(
+uint16_t
+aBlocklistState
 )
 ;
 bool
