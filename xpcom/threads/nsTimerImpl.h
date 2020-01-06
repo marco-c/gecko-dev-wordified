@@ -744,9 +744,6 @@ nsresult
 InitCommon
 (
 const
-mozilla
-:
-:
 TimeDuration
 &
 aDelay
@@ -1111,9 +1108,6 @@ thread
 int32_t
 mGeneration
 ;
-mozilla
-:
-:
 TimeDuration
 mDelay
 ;
@@ -1132,9 +1126,6 @@ the
 timer
 thread
 .
-mozilla
-:
-:
 TimeStamp
 mTimeout
 ;
