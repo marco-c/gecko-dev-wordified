@@ -1099,6 +1099,17 @@ the
 cache
 .
 *
+For
+cross
+-
+process
+blob
+URL
+CloneableWithRangeMediaResource
+is
+used
+.
+*
 MediaResource
 :
 :

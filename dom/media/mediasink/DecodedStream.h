@@ -137,6 +137,13 @@ h
 #
 include
 "
+MediaSegment
+.
+h
+"
+#
+include
+"
 MediaSink
 .
 h
