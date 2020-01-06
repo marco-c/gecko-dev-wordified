@@ -86,6 +86,8 @@ client
 /
 netmonitor
 /
+src
+/
 har
 /
 har
