@@ -2843,6 +2843,9 @@ struct
 Class
 ;
 class
+AutoCheckShapeConsistency
+;
+class
 GCMarker
 ;
 class
@@ -4031,6 +4034,13 @@ protected
 #
 ifdef
 DEBUG
+friend
+class
+js
+:
+:
+AutoCheckShapeConsistency
+;
 void
 checkShapeConsistency
 (
