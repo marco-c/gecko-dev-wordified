@@ -7465,6 +7465,13 @@ Tier2GeneratorTask
 maxWasmTier2GeneratorThreads
 (
 )
+/
+*
+isMaster
+=
+*
+/
+true
 )
 ;
 }
