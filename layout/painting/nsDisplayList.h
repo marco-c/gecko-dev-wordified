@@ -9296,7 +9296,7 @@ AutoTArray
 <
 nsIFrame
 *
-100
+400
 >
 mFramesMarkedForDisplay
 ;
