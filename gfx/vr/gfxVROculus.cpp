@@ -233,11 +233,7 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-CompositorThread
+VRThread
 .
 h
 "
@@ -8134,7 +8130,7 @@ MOZ_ASSERT
 vm
 )
 ;
-CompositorThreadHolder
+VRListenerThreadHolder
 :
 :
 Loop
