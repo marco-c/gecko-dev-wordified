@@ -1778,12 +1778,6 @@ LazyComputeBehavior
 aMayCompute
 )
 {
-RefPtr
-<
-ServoStyleContext
->
-computedValues
-;
 if
 (
 aMayCompute
