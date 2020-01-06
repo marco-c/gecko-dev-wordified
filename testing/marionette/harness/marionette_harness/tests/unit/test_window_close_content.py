@@ -298,6 +298,18 @@ self
 .
 marionette
 .
+chrome_window_handles
+)
+        
+self
+.
+assertNotIn
+(
+win
+self
+.
+marionette
+.
 window_handles
 )
         

@@ -914,26 +914,11 @@ click
 (
 )
         
-#
-We
-open
-a
-new
-window
-but
-are
-actually
-interested
-in
-the
-new
-tab
-        
-new_tab
+new_win
 =
 self
 .
-open_tab
+open_window
 (
 trigger
 =
@@ -964,8 +949,6 @@ self
 .
 start_tabs
 )
-+
-1
 )
         
 self
@@ -988,7 +971,7 @@ marionette
 .
 switch_to_window
 (
-new_tab
+new_win
 )
         
 self
@@ -997,16 +980,53 @@ assert_window_handles
 (
 )
         
+#
+Check
+that
+the
+opened
+window
+is
+not
+accessible
+via
+window
+handles
+        
+with
 self
 .
-assertEqual
+assertRaises
 (
+errors
+.
+NoSuchWindowException
+)
+:
+            
 self
 .
 marionette
 .
 current_window_handle
-new_tab
+        
+with
+self
+.
+assertRaises
+(
+errors
+.
+NoSuchWindowException
+)
+:
+            
+self
+.
+marionette
+.
+close
+(
 )
         
 #
@@ -1027,7 +1047,7 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )
         

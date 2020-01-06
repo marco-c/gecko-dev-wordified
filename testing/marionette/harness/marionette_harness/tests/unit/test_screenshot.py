@@ -1197,7 +1197,7 @@ execute_script
                 
 window
 .
-open
+openDialog
 (
 arguments
 [
