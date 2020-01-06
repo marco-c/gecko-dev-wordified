@@ -484,8 +484,6 @@ testActor
 .
 eval
 (
-content
-.
 document
 .
 getElementById
