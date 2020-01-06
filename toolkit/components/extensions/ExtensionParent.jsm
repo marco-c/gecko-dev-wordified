@@ -2903,6 +2903,15 @@ Sandbox
 this
 .
 principal
+{
+sandboxName
+:
+this
+.
+uri
+.
+spec
+}
 )
 ;
 }
