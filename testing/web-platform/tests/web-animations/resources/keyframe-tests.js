@@ -270,7 +270,7 @@ undefined
 ]
 ;
 const
-gPropertyIndexedKeyframesTests
+gKeyframesTests
 =
 [
 {
@@ -1472,12 +1472,6 @@ linear
 }
 ]
 }
-]
-;
-const
-gKeyframeSequenceTests
-=
-[
 {
 desc
 :
