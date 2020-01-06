@@ -2886,8 +2886,6 @@ group
 class
 GCSweepGroupIter
 {
-private
-:
 JS
 :
 :

@@ -1007,6 +1007,7 @@ void
 checkVersion
 (
 )
+const
 {
 /
 /
@@ -1206,6 +1207,7 @@ ConstIterator
 &
 other
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1240,6 +1242,7 @@ ConstIterator
 &
 other
 )
+const
 {
 return
 !
@@ -1257,6 +1260,7 @@ operator
 *
 (
 )
+const
 {
 MOZ_ASSERT
 (
