@@ -69,6 +69,10 @@ get_application_ini_value
 application_directory
 section
 value
+                              
+fallback
+=
+None
 )
 :
     
@@ -124,6 +128,9 @@ ini
 )
 )
             
+try
+:
+                
 rc
 =
 parser
@@ -132,6 +139,32 @@ get
 (
 section
 value
+)
+            
+except
+ConfigParser
+.
+NoOptionError
+:
+                
+if
+not
+fallback
+:
+                    
+raise
+                
+else
+:
+                    
+rc
+=
+parser
+.
+get
+(
+section
+fallback
 )
             
 break
