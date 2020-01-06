@@ -186,7 +186,11 @@ clipboard
 require
 (
 "
-sdk
+devtools
+/
+shared
+/
+platform
 /
 clipboard
 "
@@ -2476,7 +2480,7 @@ paste
 .
 clipboard
 .
-set
+copyString
 (
 "
 <
@@ -2487,9 +2491,6 @@ test
 /
 p
 >
-"
-"
-html
 "
 )
 ;
@@ -2758,7 +2759,7 @@ paste
 .
 clipboard
 .
-set
+copyString
 (
 "
 <
@@ -2769,9 +2770,6 @@ test
 /
 p
 >
-"
-"
-html
 "
 )
 ;
