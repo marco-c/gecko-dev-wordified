@@ -9273,6 +9273,10 @@ mServoRestyleRootDirtyBits
 (
 0
 )
+mThrowOnDynamicMarkupInsertionCounter
+(
+0
+)
 {
 SetIsInDocument
 (
