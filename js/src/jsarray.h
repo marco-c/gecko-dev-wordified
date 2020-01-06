@@ -1034,7 +1034,7 @@ extern
 void
 ArrayShiftMoveElements
 (
-JSObject
+NativeObject
 *
 obj
 )
