@@ -173,6 +173,13 @@ h
 /
 For
 nsAutoAnimationMutationBatch
+#
+include
+"
+nsStyleContext
+.
+h
+"
 namespace
 mozilla
 {

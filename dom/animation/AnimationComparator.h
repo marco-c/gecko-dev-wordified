@@ -120,6 +120,17 @@ mozilla_AnimationComparator_h
 #
 define
 mozilla_AnimationComparator_h
+#
+include
+"
+mozilla
+/
+dom
+/
+Animation
+.
+h
+"
 namespace
 mozilla
 {
