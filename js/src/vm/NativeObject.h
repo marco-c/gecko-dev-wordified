@@ -5643,6 +5643,7 @@ scope
 *
 /
 static
+MOZ_ALWAYS_INLINE
 Shape
 *
 addProperty
@@ -6310,6 +6311,7 @@ slot
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 HeapSlot
 &
 getSlotRef
@@ -6334,6 +6336,7 @@ slot
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 const
 HeapSlot
 &
@@ -6371,7 +6374,7 @@ to
 this
 object
 .
-inline
+MOZ_ALWAYS_INLINE
 void
 checkStoredValue
 (
@@ -6404,6 +6407,7 @@ v
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 setSlot
 (
@@ -6445,6 +6449,7 @@ value
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 initSlot
 (
@@ -6488,6 +6493,7 @@ value
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 initSlotUnchecked
 (
@@ -6708,7 +6714,7 @@ uint32_t
 slotSpan
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 void
 setSlotWithType
 (
@@ -6728,7 +6734,7 @@ overwriting
 true
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 const
 Value
 &
@@ -6758,6 +6764,7 @@ index
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 const
 HeapSlot
 &
@@ -6787,6 +6794,7 @@ index
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 HeapSlot
 &
 getReservedSlotRef
@@ -6814,6 +6822,7 @@ index
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 initReservedSlot
 (
@@ -6844,6 +6853,7 @@ v
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 setReservedSlot
 (

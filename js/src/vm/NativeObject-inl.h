@@ -2709,7 +2709,7 @@ return
 obj
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 void
 NativeObject
 :
