@@ -477,7 +477,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /

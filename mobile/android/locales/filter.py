@@ -259,16 +259,6 @@ css
 "
 chrome
 /
-passwordmgr
-/
-passwordmgr
-.
-properties
-"
-        
-"
-chrome
-/
 search
 /
 search

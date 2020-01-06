@@ -6123,7 +6123,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /
