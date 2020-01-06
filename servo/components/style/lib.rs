@@ -1411,9 +1411,14 @@ reexport_computed_values
 {
 (
 (
+{
 name
 :
 ident
+boxed
+:
+expr
+}
 )
 +
 )
