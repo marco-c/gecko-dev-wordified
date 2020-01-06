@@ -1358,7 +1358,7 @@ oncommand
 "
 SidebarUI
 .
-show
+toggle
 (
 this
 .
