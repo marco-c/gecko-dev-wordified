@@ -2581,7 +2581,7 @@ nsINode
 aSelNode
 int32_t
 aSelOffset
-nsIContent
+nsINode
 *
 aChildAtOffset
 nsIEditor
