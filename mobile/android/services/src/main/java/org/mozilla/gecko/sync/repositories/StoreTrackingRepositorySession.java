@@ -305,7 +305,7 @@ guid
 ;
 }
 Override
-protected
+public
 synchronized
 void
 untrackGUID
@@ -350,7 +350,7 @@ guid
 ;
 }
 Override
-protected
+public
 synchronized
 void
 untrackGUIDs
@@ -417,7 +417,7 @@ guid
 ;
 }
 }
-protected
+public
 void
 trackRecord
 (

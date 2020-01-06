@@ -155,6 +155,21 @@ sync
 .
 repositories
 .
+delegates
+.
+RepositorySessionStoreDelegate
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
+repositories
+.
 domain
 .
 BookmarkRecord
@@ -785,6 +800,8 @@ protected
 void
 recursivelyEnqueueRecordAndChildren
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -805,6 +822,7 @@ inserter
 .
 insertFolder
 (
+delegate
 record
 )
 )
@@ -962,6 +980,7 @@ waiting
 {
 recursivelyEnqueueRecordAndChildren
 (
+delegate
 waiter
 )
 ;
@@ -991,6 +1010,8 @@ protected
 void
 enqueueFolder
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -1081,11 +1102,13 @@ roots
 .
 recursivelyEnqueueRecordAndChildren
 (
+delegate
 record
 )
 ;
 flushNonFoldersIfNecessary
 (
+delegate
 )
 ;
 }
@@ -1117,6 +1140,8 @@ protected
 void
 enqueueNonFolder
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -1246,6 +1271,7 @@ record
 ;
 flushNonFoldersIfNecessary
 (
+delegate
 )
 ;
 }
@@ -1284,6 +1310,8 @@ public
 void
 enqueueRecord
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -1299,6 +1327,7 @@ isFolder
 {
 enqueueFolder
 (
+delegate
 record
 )
 ;
@@ -1307,6 +1336,7 @@ else
 {
 enqueueNonFolder
 (
+delegate
 record
 )
 ;
@@ -1343,12 +1373,15 @@ protected
 void
 flushNonFolders
 (
+RepositorySessionStoreDelegate
+delegate
 )
 {
 inserter
 .
 bulkInsertNonFolders
 (
+delegate
 nonFoldersToWrite
 )
 ;
@@ -1397,6 +1430,8 @@ protected
 void
 flushNonFoldersIfNecessary
 (
+RepositorySessionStoreDelegate
+delegate
 )
 {
 int
@@ -1475,6 +1510,7 @@ flushing
 ;
 flushNonFolders
 (
+delegate
 )
 ;
 }
@@ -1510,6 +1546,8 @@ public
 void
 finishUp
 (
+RepositorySessionStoreDelegate
+delegate
 )
 {
 /
@@ -1604,6 +1642,7 @@ inserter
 .
 insertFolder
 (
+delegate
 record
 )
 )
@@ -1685,6 +1724,7 @@ clear
 ;
 flushNonFolders
 (
+delegate
 )
 ;
 Logger
@@ -2026,6 +2066,8 @@ public
 boolean
 insertFolder
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -2124,6 +2166,8 @@ public
 void
 bulkInsertNonFolders
 (
+RepositorySessionStoreDelegate
+delegate
 Collection
 <
 BookmarkRecord
