@@ -466,7 +466,8 @@ feature
 name
 but
 found
-'
+\
+u2018
 -
 moz
 .
@@ -475,7 +476,7 @@ moz
 i
 isFromDevTools
 :
-true
+false
 }
 {
 sourceName
