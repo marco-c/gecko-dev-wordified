@@ -2766,6 +2766,7 @@ inspector
 .
 enabled
 "
+true
 )
 )
 {
