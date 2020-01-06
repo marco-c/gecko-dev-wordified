@@ -239,7 +239,7 @@ Preferences
 button
 should
 be
-hidden
+visible
 "
 )
 ;

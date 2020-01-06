@@ -7412,10 +7412,15 @@ aAddon
 isActive
 &
 &
-!
 aAddon
 .
-isGMPlugin
+type
+!
+=
+=
+"
+plugin
+"
 )
 |
 |
