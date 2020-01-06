@@ -313,7 +313,7 @@ A8
 RGB8
 =
 2
-RGBA8
+BGRA8
 =
 3
 RGBAF32
@@ -365,7 +365,7 @@ Some
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 Some

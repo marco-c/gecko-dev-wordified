@@ -289,7 +289,15 @@ macos
 )
 ]
 impl
+<
+'
+de
+>
 Deserialize
+<
+'
+de
+>
 for
 NativeFontHandle
 {
@@ -317,6 +325,10 @@ where
 D
 :
 Deserializer
+<
+'
+de
+>
 {
 let
 postscript_name
