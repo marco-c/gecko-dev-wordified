@@ -7869,11 +7869,8 @@ CloneRegExpObjectFn
 (
 JSContext
 *
-Handle
-<
-RegExpObject
+JSObject
 *
->
 )
 ;
 static

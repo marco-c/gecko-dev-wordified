@@ -1595,8 +1595,7 @@ RegExpObject
 :
 initIgnoringLastIndex
 (
-JSAtom
-*
+HandleAtom
 source
 RegExpFlag
 flags
@@ -1634,11 +1633,13 @@ forget
 the
 RegExpShared
 .
-sharedRef
+NativeObject
+:
+:
+setPrivate
 (
-)
-=
 nullptr
+)
 ;
 setSource
 (
@@ -1657,8 +1658,7 @@ RegExpObject
 :
 initAndZeroLastIndex
 (
-JSAtom
-*
+HandleAtom
 source
 RegExpFlag
 flags
