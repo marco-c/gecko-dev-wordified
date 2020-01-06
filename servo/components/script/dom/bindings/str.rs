@@ -824,7 +824,7 @@ DOMString
 /
 /
 /
-Cenceptually
+Conceptually
 a
 DOMString
 has

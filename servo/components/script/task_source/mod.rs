@@ -74,6 +74,10 @@ networking
 ;
 pub
 mod
+performance_timeline
+;
+pub
+mod
 user_interaction
 ;
 use
