@@ -916,6 +916,7 @@ aMicroseconds
 ;
 }
 static
+constexpr
 BaseTimeDuration
 Forever
 (
