@@ -694,9 +694,14 @@ system
 .
 startswith
 (
+(
 '
 MINGW
 '
+'
+MSYS_NT
+'
+)
 )
 :
     
