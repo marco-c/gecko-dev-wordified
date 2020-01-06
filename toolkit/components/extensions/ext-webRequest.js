@@ -525,6 +525,9 @@ isProxy
 "
 challenger
 "
+"
+proxyInfo
+"
 ]
 ;
 for
