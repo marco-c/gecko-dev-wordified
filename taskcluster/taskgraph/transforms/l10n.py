@@ -882,8 +882,6 @@ _parse_locales_file
 (
 locales_file
 platform
-=
-None
 )
 :
     
@@ -900,15 +898,6 @@ a
 list
 of
 locales
-.
-        
-If
-platform
-is
-unset
-matches
-all
-platforms
 .
     
 "
@@ -986,9 +975,7 @@ items
 )
                 
 if
-'
-android
-'
+platform
 in
 data
 [
@@ -2084,6 +2071,28 @@ in
 jobs
 :
         
+locales_platform
+=
+job
+[
+'
+attributes
+'
+]
+[
+'
+build_platform
+'
+]
+.
+rstrip
+(
+"
+-
+nightly
+"
+)
+        
 locales_with_changesets
 =
 _parse_locales_file
@@ -2096,6 +2105,10 @@ locales
 file
 "
 ]
+                                                      
+platform
+=
+locales_platform
 )
         
 locales_with_changesets
