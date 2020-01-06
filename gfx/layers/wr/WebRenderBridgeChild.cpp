@@ -1368,6 +1368,13 @@ LayerRect
 aClip
 bool
 aBackfaceVisible
+const
+wr
+:
+:
+GlyphOptions
+*
+aGlyphOptions
 )
 {
 MOZ_ASSERT
@@ -1439,6 +1446,7 @@ Length
 (
 )
 )
+aGlyphOptions
 )
 ;
 }

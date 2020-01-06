@@ -782,6 +782,15 @@ LayerRect
 aClip
 bool
 aBackfaceVisible
+const
+wr
+:
+:
+GlyphOptions
+*
+aGlyphOptions
+=
+nullptr
 )
 ;
 wr
