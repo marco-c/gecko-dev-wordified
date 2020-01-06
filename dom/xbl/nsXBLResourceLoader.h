@@ -284,12 +284,9 @@ aStatus
 )
 override
 ;
-void
+bool
 LoadResources
 (
-bool
-*
-aResult
 )
 ;
 void
