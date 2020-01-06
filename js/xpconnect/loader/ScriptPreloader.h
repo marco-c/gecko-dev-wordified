@@ -941,7 +941,7 @@ CachedScript
 &
 )
 =
-default
+delete
 ;
 CachedScript
 (
