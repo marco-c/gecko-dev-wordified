@@ -18972,13 +18972,6 @@ ctx
 =
 aCtx
 ;
-ctx
--
->
-Save
-(
-)
-;
 imgDrawingParams
 imgParams
 (
@@ -19027,13 +19020,6 @@ this
 imgParams
 .
 result
-)
-;
-ctx
--
->
-Restore
-(
 )
 ;
 }
