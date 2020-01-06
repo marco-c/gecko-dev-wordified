@@ -10331,5 +10331,17 @@ shutdown
 client
 ;
 }
+failTestsOnAutoClose
+(
+enabled
+)
+{
+Debugging
+.
+failTestsOnAutoClose
+=
+enabled
+;
+}
 }
 ;
