@@ -395,8 +395,8 @@ IVRCompositor
 *
 mVRCompositor
 ;
-TimeStamp
-mPresentationStart
+VRTelemetry
+mTelemetry
 ;
 bool
 mIsPresenting
