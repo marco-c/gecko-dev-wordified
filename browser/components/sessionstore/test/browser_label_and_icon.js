@@ -386,7 +386,7 @@ tab
 getAttribute
 (
 "
-iconloadingprincipal
+iconLoadingPrincipal
 "
 )
 ;

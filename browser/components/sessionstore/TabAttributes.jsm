@@ -155,7 +155,7 @@ accordingly
 /
 /
 '
-iconloadingprincipal
+iconLoadingPrincipal
 '
 is
 same
@@ -240,7 +240,7 @@ muted
 pending
 "
 "
-iconloadingprincipal
+iconLoadingPrincipal
 "
 "
 skipbackgroundnotify
