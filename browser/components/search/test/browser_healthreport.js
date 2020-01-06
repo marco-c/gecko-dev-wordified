@@ -564,16 +564,6 @@ set
 [
 [
 "
-toolkit
-.
-telemetry
-.
-enabled
-"
-true
-]
-[
-"
 browser
 .
 search
