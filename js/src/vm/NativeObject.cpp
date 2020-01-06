@@ -3326,6 +3326,12 @@ cx
 )
 ;
 ShapeTable
+*
+table
+=
+nullptr
+;
+ShapeTable
 :
 :
 Entry
@@ -3344,8 +3350,6 @@ inDictionaryMode
 )
 )
 {
-ShapeTable
-*
 table
 =
 obj
@@ -3442,6 +3446,7 @@ getElementsHeader
 elementAttributes
 (
 )
+table
 entry
 keep
 )

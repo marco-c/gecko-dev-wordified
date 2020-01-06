@@ -411,6 +411,10 @@ Shape
 *
 pshape
 ShapeTable
+*
+*
+ptable
+ShapeTable
 :
 :
 Entry
@@ -451,6 +455,11 @@ return
 false
 ;
 *
+ptable
+=
+table
+;
+*
 pentry
 =
 &
@@ -483,6 +492,11 @@ return
 true
 ;
 }
+*
+ptable
+=
+nullptr
+;
 *
 pentry
 =
@@ -2415,6 +2429,12 @@ cx
 )
 ;
 ShapeTable
+*
+table
+=
+nullptr
+;
+ShapeTable
 :
 :
 Entry
@@ -2433,8 +2453,6 @@ inDictionaryMode
 )
 )
 {
-ShapeTable
-*
 table
 =
 obj
@@ -2486,6 +2504,7 @@ obj
 id
 slot
 attrs
+table
 entry
 keep
 )
@@ -2557,6 +2576,12 @@ cx
 )
 ;
 ShapeTable
+*
+table
+=
+nullptr
+;
+ShapeTable
 :
 :
 Entry
@@ -2575,8 +2600,6 @@ inDictionaryMode
 )
 )
 {
-ShapeTable
-*
 table
 =
 obj
@@ -2629,6 +2652,7 @@ id
 getter
 setter
 attrs
+table
 entry
 keep
 )
