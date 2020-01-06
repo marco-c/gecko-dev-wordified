@@ -3340,17 +3340,6 @@ fennec
 mozilla
 -
 beta
-bouncer
-aliases
-        
-#
-TODO
-:
-Include
-fennec
-mozilla
--
-beta
 version
 bump
         
@@ -3400,6 +3389,13 @@ mark
 as
 -
 shipped
+'
+'
+release
+-
+bouncer
+-
+aliases
 '
 )
 :
