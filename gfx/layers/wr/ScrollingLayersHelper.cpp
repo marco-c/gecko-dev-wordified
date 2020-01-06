@@ -877,10 +877,7 @@ fixedFor
 ;
 Maybe
 <
-wr
-:
-:
-WrClipId
+uint64_t
 >
 clipId
 =
