@@ -455,6 +455,8 @@ Http2Stream
 aAssociatedStream
 uint32_t
 aID
+uint64_t
+aCurrentForegroundTabOuterContentWindowId
 )
 :
 Http2Stream
@@ -462,6 +464,7 @@ Http2Stream
 aTransaction
 aSession
 0
+aCurrentForegroundTabOuterContentWindowId
 )
 mConsumerStream
 (

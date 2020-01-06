@@ -262,6 +262,7 @@ nsAHttpTransaction
 Http2Session
 *
 int32_t
+uint64_t
 )
 ;
 uint32_t
@@ -910,6 +911,13 @@ mozilla
 OriginAttributes
 *
 oa
+)
+;
+void
+TopLevelOuterContentWindowIdChanged
+(
+uint64_t
+windowId
 )
 ;
 protected
@@ -1953,6 +1961,12 @@ mSimpleBuffer
 ;
 bool
 mAttempting0RTT
+;
+uint64_t
+mCurrentForegroundTabOuterContentWindowId
+;
+uint64_t
+mTransactionTabId
 ;
 /
 /

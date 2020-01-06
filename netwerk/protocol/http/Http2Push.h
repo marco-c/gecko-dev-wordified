@@ -233,6 +233,8 @@ Http2Stream
 aAssociatedStream
 uint32_t
 aID
+uint64_t
+aCurrentForegroundTabOuterContentWindowId
 )
 ;
 virtual
