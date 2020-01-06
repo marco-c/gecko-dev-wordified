@@ -190,7 +190,8 @@ get_session
 (
 )
     
-return
+response
+=
 session
 .
 get
@@ -200,6 +201,44 @@ stream
 =
 True
 )
+    
+if
+response
+.
+status_code
+>
+=
+400
+:
+        
+#
+Consume
+content
+before
+raise_for_status
+so
+that
+the
+connection
+can
+be
+        
+#
+reused
+.
+        
+response
+.
+content
+    
+response
+.
+raise_for_status
+(
+)
+    
+return
+response
 def
 get_artifact_url
 (
@@ -373,12 +412,6 @@ use_proxy
 )
 )
     
-response
-.
-raise_for_status
-(
-)
-    
 if
 path
 .
@@ -475,12 +508,6 @@ rstrip
 )
 )
     
-response
-.
-raise_for_status
-(
-)
-    
 return
 response
 .
@@ -575,12 +602,6 @@ get_index_url
 index_path
 use_proxy
 )
-)
-    
-response
-.
-raise_for_status
-(
 )
     
 return
