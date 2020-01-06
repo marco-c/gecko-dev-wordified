@@ -940,9 +940,6 @@ use
 selectors
 :
 :
-context
-:
-:
 NthIndexCache
 ;
 use

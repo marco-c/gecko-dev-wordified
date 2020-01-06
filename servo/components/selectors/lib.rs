@@ -183,6 +183,9 @@ pub
 mod
 matching
 ;
+mod
+nth_index_cache
+;
 pub
 mod
 parser
@@ -229,6 +232,13 @@ visitor
 ;
 pub
 use
+nth_index_cache
+:
+:
+NthIndexCache
+;
+pub
+use
 parser
 :
 :
@@ -243,5 +253,8 @@ use
 tree
 :
 :
+{
 Element
+OpaqueElement
+}
 ;
