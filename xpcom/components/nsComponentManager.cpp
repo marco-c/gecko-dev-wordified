@@ -7423,7 +7423,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 rv
 =
-NS_ERROR_SERVICE_NOT_AVAILABLE
+NS_OK
 ;
 nsFactoryEntry
 *
@@ -7489,6 +7489,14 @@ service
 =
 nullptr
 )
+;
+}
+else
+{
+*
+aResult
+=
+false
 ;
 }
 return
@@ -7669,7 +7677,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 rv
 =
-NS_ERROR_SERVICE_NOT_AVAILABLE
+NS_OK
 ;
 nsFactoryEntry
 *
@@ -7738,6 +7746,14 @@ service
 =
 nullptr
 )
+;
+}
+else
+{
+*
+aResult
+=
+false
 ;
 }
 return
