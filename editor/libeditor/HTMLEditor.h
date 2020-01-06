@@ -616,16 +616,6 @@ GetInputEventTargetContent
 )
 override
 ;
-virtual
-bool
-IsEditable
-(
-nsINode
-*
-aNode
-)
-override
-;
 using
 EditorBase
 :
