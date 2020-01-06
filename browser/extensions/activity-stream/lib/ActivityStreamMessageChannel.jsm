@@ -1049,6 +1049,11 @@ this
 onMessage
 )
 ;
+}
+simulateMessagesForExistingTabs
+(
+)
+{
 /
 /
 Some
