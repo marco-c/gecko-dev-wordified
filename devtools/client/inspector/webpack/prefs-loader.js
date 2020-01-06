@@ -87,15 +87,6 @@ PREF_WHITELIST
 "
 devtools
 "
-"
-layout
-.
-css
-.
-grid
-.
-enabled
-"
 ]
 ;
 const
