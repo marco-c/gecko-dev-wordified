@@ -1240,6 +1240,15 @@ file
 output
 )
     
+offset
+=
+0
+    
+ranges_offsets
+=
+{
+}
+    
 for
 histogram
 in
@@ -1261,12 +1270,38 @@ exponential
             
 ranges
 =
+tuple
+(
 histogram
 .
 ranges
 (
 )
+)
             
+if
+ranges
+not
+in
+ranges_offsets
+:
+                
+ranges_offsets
+[
+ranges
+]
+=
+offset
+                
+offset
++
+=
+histogram
+.
+n_buckets
+(
+)
+                
 print
 (
 '
@@ -1313,10 +1348,6 @@ file
 =
 output
 )
-    
-offset
-=
-0
     
 for
 histogram
@@ -1367,6 +1398,20 @@ exponential
 '
 :
             
+our_offset
+=
+ranges_offsets
+[
+tuple
+(
+histogram
+.
+ranges
+(
+)
+)
+]
+            
 print
 (
 "
@@ -1374,19 +1419,10 @@ print
 d
 "
 %
-offset
+our_offset
 file
 =
 output
-)
-            
-offset
-+
-=
-histogram
-.
-n_buckets
-(
 )
         
 else
