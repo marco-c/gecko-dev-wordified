@@ -120,7 +120,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -1469,7 +1469,7 @@ this
 .
 _pending
 =
-Promise
+PromiseUtils
 .
 defer
 (

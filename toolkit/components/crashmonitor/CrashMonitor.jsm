@@ -394,7 +394,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -646,7 +646,7 @@ blocker
 /
 profileBeforeChangeDeferred
 :
-Promise
+PromiseUtils
 .
 defer
 (

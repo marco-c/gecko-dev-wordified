@@ -821,7 +821,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+PromiseUtils
 "
 "
 resource
@@ -832,7 +832,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -2038,7 +2038,7 @@ _timerCallback
 let
 runningDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

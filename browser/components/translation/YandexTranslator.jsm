@@ -137,7 +137,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -618,7 +618,7 @@ this
 .
 _onFinishedDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

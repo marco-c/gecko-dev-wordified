@@ -517,7 +517,7 @@ defineLazyModuleGetter
 (
 this
 '
-Promise
+PromiseUtils
 '
 /
 /
@@ -534,7 +534,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 '
@@ -2391,7 +2391,7 @@ this
 .
 _deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

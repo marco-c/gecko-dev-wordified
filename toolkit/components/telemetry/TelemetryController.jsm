@@ -191,7 +191,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -5721,7 +5721,7 @@ this
 .
 _delayedInitTaskDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
