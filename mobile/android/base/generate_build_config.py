@@ -379,6 +379,14 @@ MOZ_ANDROID_GCM_SENDERID
 '
                 
 '
+MOZ_ANDROID_MAX_SDK_VERSION
+'
+                
+'
+MOZ_ANDROID_MIN_SDK_VERSION
+'
+                
+'
 MOZ_PKG_SPECIAL
 '
                 
@@ -415,6 +423,10 @@ ANDROID_CPU_ARCH
                 
 '
 ANDROID_PACKAGE_NAME
+'
+                
+'
+ANDROID_TARGET_SDK
 '
                 
 '
