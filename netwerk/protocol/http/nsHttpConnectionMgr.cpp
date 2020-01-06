@@ -27497,6 +27497,11 @@ mConnectionNegotiatingFastOpen
 nullptr
 ;
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+mEnt
+)
+;
 nsresult
 rv
 =
@@ -27553,6 +27558,11 @@ n
 "
 this
 )
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mEnt
 )
 ;
 if
@@ -31000,6 +31010,11 @@ on
 socket
 thread
 "
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mEnt
 )
 ;
 if
