@@ -20237,7 +20237,7 @@ value
 =
 aURI
 .
-spec
+displaySpec
 ;
 let
 decodeASCIIOnly
@@ -47134,7 +47134,7 @@ aBrowser
 .
 currentURI
 .
-spec
+displaySpec
 aBrowser
 .
 contentTitle
@@ -54759,7 +54759,7 @@ gBrowser
 .
 currentURI
 .
-spec
+displaySpec
 ;
 let
 urlString
@@ -57489,7 +57489,7 @@ cleanURL
 (
 aURI
 .
-spec
+displaySpec
 ignoreQueryString
 |
 |
@@ -57541,7 +57541,7 @@ browser
 .
 currentURI
 .
-spec
+displaySpec
 ignoreQueryString
 |
 |
