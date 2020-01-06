@@ -109,11 +109,11 @@ size_of_test
 ;
 extern
 crate
-smallvec
+servo_arc
 ;
-pub
-mod
-arcslice
+extern
+crate
+smallvec
 ;
 pub
 mod
