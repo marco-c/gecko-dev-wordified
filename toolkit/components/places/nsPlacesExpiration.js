@@ -681,11 +681,11 @@ linearly
 const
 DATABASE_MAX_SIZE
 =
-62914560
+73400320
 ;
 /
 /
-60MiB
+70MiB
 /
 /
 If
@@ -976,7 +976,7 @@ value
 const
 URIENTRY_AVG_SIZE
 =
-600
+700
 ;
 /
 /
