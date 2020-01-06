@@ -19511,14 +19511,14 @@ The
 default
 behavior
 of
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 is
 to
 only
+/
+/
 proxy
 the
-/
-/
 release
 if
 we
@@ -19607,7 +19607,7 @@ false
 ;
 #
 endif
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleDisplay
@@ -21578,7 +21578,7 @@ mType
 eStyleContentType_Image
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleContentData
@@ -24836,7 +24836,7 @@ false
 ;
 #
 endif
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleUIReset

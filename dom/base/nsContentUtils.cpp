@@ -5017,7 +5017,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 VK_SHIFT
 "
@@ -5032,7 +5031,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 VK_META
 "
@@ -5047,7 +5045,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 VK_WIN
 "
@@ -5062,7 +5059,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 VK_ALT
 "
@@ -5077,7 +5073,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 VK_CONTROL
 "
@@ -5092,7 +5087,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 MODIFIER_SEPARATOR
 "
@@ -21868,14 +21862,7 @@ bundle
 >
 GetStringFromName
 (
-NS_ConvertASCIItoUTF16
-(
 aKey
-)
-.
-get
-(
-)
 getter_Copies
 (
 aResult
@@ -21951,14 +21938,7 @@ bundle
 >
 GetStringFromName
 (
-NS_ConvertASCIItoUTF16
-(
 aKey
-)
-.
-get
-(
-)
 getter_Copies
 (
 aResult
@@ -21972,14 +21952,7 @@ bundle
 >
 FormatStringFromName
 (
-NS_ConvertASCIItoUTF16
-(
 aKey
-)
-.
-get
-(
-)
 aParams
 aParamsLength
 getter_Copies
