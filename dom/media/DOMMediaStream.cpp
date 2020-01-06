@@ -280,6 +280,13 @@ h
 #
 include
 "
+AudioCaptureStream
+.
+h
+"
+#
+include
+"
 AudioStreamTrack
 .
 h
@@ -295,6 +302,13 @@ h
 include
 "
 Layers
+.
+h
+"
+#
+include
+"
+MediaStreamListener
 .
 h
 "
