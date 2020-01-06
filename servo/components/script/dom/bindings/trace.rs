@@ -451,6 +451,7 @@ WebGLContextShareMode
 WebGLError
 WebGLPipeline
 WebGLMsgSender
+WebGLVersion
 }
 ;
 use
@@ -3225,6 +3226,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 WebGLVertexArrayId
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+WebGLVersion
 )
 ;
 unsafe_no_jsmanaged_fields

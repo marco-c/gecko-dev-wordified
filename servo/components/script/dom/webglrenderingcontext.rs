@@ -89,6 +89,7 @@ webgl
 WebGLContextShareMode
 WebGLCommand
 WebGLError
+WebGLVersion
 }
 ;
 use
@@ -1458,6 +1459,9 @@ ImageKey
 share_mode
 :
 WebGLContextShareMode
+webgl_version
+:
+WebGLVersion
 #
 [
 ignore_malloc_size_of
@@ -1643,6 +1647,7 @@ WebGLExtensions
 impl
 WebGLRenderingContext
 {
+pub
 fn
 new_inherited
 (
@@ -1654,6 +1659,9 @@ canvas
 :
 &
 HTMLCanvasElement
+webgl_version
+:
+WebGLVersion
 size
 :
 Size2D
@@ -1752,6 +1760,7 @@ WebGLMsg
 :
 CreateContext
 (
+webgl_version
 size
 attrs
 sender
@@ -1812,6 +1821,7 @@ share_mode
 ctx_data
 .
 share_mode
+webgl_version
 limits
 :
 ctx_data
@@ -2023,6 +2033,9 @@ canvas
 :
 &
 HTMLCanvasElement
+webgl_version
+:
+WebGLVersion
 size
 :
 Size2D
@@ -2051,6 +2064,7 @@ new_inherited
 (
 window
 canvas
+webgl_version
 size
 attrs
 )
@@ -9054,6 +9068,7 @@ unwrap
 (
 )
 }
+pub
 fn
 layout_handle
 (
@@ -15691,6 +15706,9 @@ shader
 .
 compile
 (
+self
+.
+webgl_version
 &
 self
 .
