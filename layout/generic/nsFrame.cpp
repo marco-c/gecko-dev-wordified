@@ -73224,8 +73224,6 @@ const
 LogicalSize
 &
 aPercentBasis
-WritingMode
-aCBWritingMode
 const
 nsMargin
 *
@@ -73260,7 +73258,6 @@ DisplayInitOffsetsEnter
 mFrame
 mState
 aPercentBasis
-aCBWritingMode
 aMargin
 aPadding
 )
@@ -79223,8 +79220,6 @@ const
 LogicalSize
 &
 aPercentBasis
-WritingMode
-aCBWritingMode
 const
 nsMargin
 *
@@ -79341,6 +79336,16 @@ vertPctBasisStr
 16
 ]
 ;
+WritingMode
+wm
+=
+aState
+-
+>
+GetWritingMode
+(
+)
+;
 DR_state
 -
 >
@@ -79350,7 +79355,7 @@ aPercentBasis
 .
 ISize
 (
-aCBWritingMode
+wm
 )
 horizPctBasisStr
 16
@@ -79365,7 +79370,7 @@ aPercentBasis
 .
 BSize
 (
-aCBWritingMode
+wm
 )
 vertPctBasisStr
 16
