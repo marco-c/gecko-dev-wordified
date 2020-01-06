@@ -232,6 +232,13 @@ nsIDOMHTMLCollection
 interface
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
+uint32_t
+Length
+(
+)
+override
+;
+virtual
 Element
 *
 GetElementAt
