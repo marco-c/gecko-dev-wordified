@@ -68,6 +68,13 @@ util
 import
 android
 .
+annotation
+.
+TargetApi
+;
+import
+android
+.
 content
 .
 Context
@@ -456,6 +463,10 @@ true
 )
 ;
 }
+TargetApi
+(
+26
+)
 private
 static
 void
