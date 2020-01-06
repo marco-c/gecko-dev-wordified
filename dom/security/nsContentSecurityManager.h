@@ -234,6 +234,8 @@ nsIPrincipal
 aTriggeringPrincipal
 bool
 aLoadFromExternal
+bool
+aIsDownload
 )
 ;
 private
