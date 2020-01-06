@@ -155,6 +155,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 mRefDT
@@ -171,6 +172,7 @@ GetType
 (
 )
 const
+override
 {
 return
 mRefDT
@@ -187,6 +189,7 @@ IsCaptureDT
 (
 )
 const
+override
 {
 return
 true
@@ -200,18 +203,21 @@ SourceSurface
 Snapshot
 (
 )
+override
 ;
 virtual
 void
 DetachAllSnapshots
 (
 )
+override
 ;
 virtual
 IntSize
 GetSize
 (
 )
+override
 {
 return
 mSize
@@ -222,6 +228,7 @@ void
 Flush
 (
 )
+override
 {
 }
 virtual
@@ -248,6 +255,7 @@ DrawOptions
 &
 aOptions
 )
+override
 ;
 virtual
 void
@@ -273,6 +281,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -298,6 +307,7 @@ aSigma
 CompositionOp
 aOperator
 )
+override
 {
 /
 *
@@ -315,6 +325,7 @@ Rect
 &
 aRect
 )
+override
 ;
 virtual
 void
@@ -338,6 +349,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -355,6 +367,7 @@ IntPoint
 &
 aDestination
 )
+override
 ;
 virtual
 void
@@ -377,6 +390,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -407,6 +421,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -441,6 +456,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -471,6 +487,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -493,6 +510,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -524,6 +542,7 @@ aRenderingOptions
 =
 nullptr
 )
+override
 ;
 virtual
 void
@@ -546,6 +565,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -556,6 +576,7 @@ Path
 *
 aPath
 )
+override
 ;
 virtual
 void
@@ -566,12 +587,45 @@ Rect
 &
 aRect
 )
+override
 ;
 virtual
 void
 PopClip
 (
 )
+override
+;
+virtual
+void
+PushLayer
+(
+bool
+aOpaque
+Float
+aOpacity
+SourceSurface
+*
+aMask
+const
+Matrix
+&
+aMaskTransform
+const
+IntRect
+&
+aBounds
+bool
+aCopyBackground
+)
+override
+;
+virtual
+void
+PopLayer
+(
+)
+override
 ;
 virtual
 void
@@ -582,6 +636,7 @@ Matrix
 &
 aTransform
 )
+override
 ;
 virtual
 already_AddRefed
@@ -604,6 +659,7 @@ SurfaceFormat
 aFormat
 )
 const
+override
 {
 return
 mRefDT
@@ -630,6 +686,7 @@ SourceSurface
 aSurface
 )
 const
+override
 {
 return
 mRefDT
@@ -654,6 +711,7 @@ NativeSurface
 aSurface
 )
 const
+override
 {
 return
 mRefDT
@@ -680,6 +738,7 @@ SurfaceFormat
 aFormat
 )
 const
+override
 {
 return
 mRefDT
@@ -708,6 +767,7 @@ FillRule
 FILL_WINDING
 )
 const
+override
 {
 return
 mRefDT
@@ -740,6 +800,7 @@ ExtendMode
 CLAMP
 )
 const
+override
 {
 return
 mRefDT
@@ -763,6 +824,7 @@ CreateFilter
 FilterType
 aType
 )
+override
 {
 return
 mRefDT
@@ -808,6 +870,7 @@ Glyph
 &
 aGlyphs
 )
+override
 ;
 protected
 :
