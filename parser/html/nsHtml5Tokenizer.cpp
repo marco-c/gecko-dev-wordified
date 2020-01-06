@@ -1693,6 +1693,17 @@ strBuf
 0
 strBufLen
 tokenHandler
+!
+newAttributesEachTime
+&
+&
+attributeName
+=
+=
+nsHtml5AttributeName
+:
+:
+ATTR_CLASS
 )
 ;
 clearStrBufAfterUse
