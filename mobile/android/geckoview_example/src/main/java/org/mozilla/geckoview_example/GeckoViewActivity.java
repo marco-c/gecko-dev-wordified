@@ -1679,7 +1679,7 @@ value
 }
 Override
 public
-void
+boolean
 onLoadUri
 (
 final
@@ -1699,7 +1699,7 @@ d
 (
 LOGTAG
 "
-onLoadUriExternal
+onLoadUri
 =
 "
 +
@@ -1719,6 +1719,9 @@ loadUri
 (
 uri
 )
+;
+return
+true
 ;
 }
 }
