@@ -11240,8 +11240,16 @@ borrow_data
 (
 )
 .
-unwrap
+expect
 (
+"
+calling
+Servo_HasAuthorSpecifiedRules
+on
+an
+unstyled
+element
+"
 )
 ;
 let
