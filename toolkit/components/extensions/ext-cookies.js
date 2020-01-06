@@ -60,7 +60,7 @@ defineLazyModuleGetter
 (
 this
 "
-NetUtil
+Services
 "
 "
 resource
@@ -71,7 +71,7 @@ gre
 /
 modules
 /
-NetUtil
+Services
 .
 jsm
 "
@@ -1286,7 +1286,9 @@ try
 {
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -2030,7 +2032,9 @@ details
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
