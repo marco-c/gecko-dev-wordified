@@ -285,7 +285,7 @@ bLastEventWasPresenting
 int
 mPresentationCount
 ;
-uint32_t
+uint64_t
 mLastEventFrameId
 ;
 private
