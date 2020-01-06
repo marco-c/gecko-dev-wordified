@@ -4948,15 +4948,6 @@ false
 /
 Clear
 resources
-/
-/
-XXX
-Can
-we
-clear
-more
-resources
-?
 +
 +
 mWrEpoch
@@ -4993,6 +4984,10 @@ mCompositorScheduler
 -
 >
 ScheduleComposition
+(
+)
+;
+DeleteOldImages
 (
 )
 ;

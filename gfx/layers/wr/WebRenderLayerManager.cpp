@@ -3782,7 +3782,7 @@ ImageKey
 key
 )
 {
-mImageKeys
+mImageKeysToDelete
 .
 push_back
 (
@@ -3815,7 +3815,7 @@ for
 auto
 key
 :
-mImageKeys
+mImageKeysToDelete
 )
 {
 WrBridge
@@ -3830,7 +3830,7 @@ key
 ;
 }
 }
-mImageKeys
+mImageKeysToDelete
 .
 clear
 (
@@ -3951,7 +3951,7 @@ about
 them
 yet
 .
-mImageKeys
+mImageKeysToDelete
 .
 clear
 (
@@ -4393,6 +4393,10 @@ mRoot
 )
 ;
 }
+DiscardImages
+(
+)
+;
 WrBridge
 (
 )
