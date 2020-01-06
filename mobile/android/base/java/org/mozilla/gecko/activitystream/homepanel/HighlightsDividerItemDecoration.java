@@ -201,10 +201,6 @@ the
 Top
 Sites
 panel
-and
-the
-Welcome
-panel
 .
 private
 static
@@ -212,7 +208,7 @@ final
 int
 START_DRAWING_AT_POSITION
 =
-2
+1
 ;
 private
 static
