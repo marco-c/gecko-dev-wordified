@@ -1420,7 +1420,7 @@ aNewPrincipalHandle
 Dispatch
 events
 virtual
-nsresult
+void
 DispatchAsyncEvent
 (
 const

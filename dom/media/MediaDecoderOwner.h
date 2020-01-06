@@ -202,7 +202,7 @@ the
 decoder
 owner
 virtual
-nsresult
+void
 DispatchAsyncEvent
 (
 const

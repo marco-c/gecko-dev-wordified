@@ -35667,7 +35667,7 @@ false
 )
 ;
 }
-nsresult
+void
 HTMLMediaElement
 :
 :
@@ -35745,7 +35745,6 @@ aName
 )
 ;
 return
-NS_OK
 ;
 }
 nsCOMPtr
@@ -35893,9 +35892,6 @@ HiddenVideoStop
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 HTMLMediaElement
