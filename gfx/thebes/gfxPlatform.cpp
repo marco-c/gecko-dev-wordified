@@ -3277,6 +3277,7 @@ MOZ_WIDGET_ANDROID
 as
 the
 default
+pref
 cache
 size
 on
@@ -3338,7 +3339,12 @@ proces
 uint32_t
 cacheSize
 =
-10
+gfxPrefs
+:
+:
+SkiaContentFontCacheSize
+(
+)
 *
 1024
 *
