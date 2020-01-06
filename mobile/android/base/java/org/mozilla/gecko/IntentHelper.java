@@ -2613,10 +2613,9 @@ file
 .
 equals
 (
-data
-.
-normalizeScheme
+normalizeUriScheme
 (
+data
 )
 .
 getScheme
