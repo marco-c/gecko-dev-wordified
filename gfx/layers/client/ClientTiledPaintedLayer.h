@@ -721,6 +721,7 @@ buffer
 bool
 RenderHighPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion
@@ -769,6 +770,7 @@ buffer
 bool
 RenderLowPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion
