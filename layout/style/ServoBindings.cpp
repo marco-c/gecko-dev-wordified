@@ -11679,8 +11679,6 @@ css
 LoaderReusableStyleSheets
 *
 aReusableSheets
-RawServoStyleSheetBorrowed
-aChildSheet
 RawGeckoURLExtraData
 *
 aBaseURLData
@@ -11891,7 +11889,6 @@ aParent
 uri
 media
 nullptr
-aChildSheet
 aReusableSheets
 )
 ;
