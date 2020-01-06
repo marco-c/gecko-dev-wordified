@@ -4209,6 +4209,15 @@ ImageKey
 >
 mTitlebarImageKey
 ;
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+mTitlebarImageSize
+;
 /
 /
 The
