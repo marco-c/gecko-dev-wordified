@@ -1568,6 +1568,7 @@ IsLabeled
 )
 {
 QueueEntry
+&
 entry
 =
 mUnlabeled
@@ -1676,6 +1677,7 @@ IsEmpty
 )
 ;
 QueueEntry
+&
 entry
 =
 queue
