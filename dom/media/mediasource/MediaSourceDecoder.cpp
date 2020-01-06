@@ -388,6 +388,12 @@ mFrameStats
 =
 mFrameStats
 ;
+init
+.
+mMediaDecoderOwnerID
+=
+mOwner
+;
 mReader
 =
 new
