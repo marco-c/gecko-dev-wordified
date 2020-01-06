@@ -177,13 +177,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 js
 /
 Vector
