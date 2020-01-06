@@ -3335,7 +3335,7 @@ Capabilities
 >
 {
 /
-*
+/
 For
 now
 don
@@ -3347,6 +3347,8 @@ much
 just
 merge
 the
+/
+/
 desired
 and
 required
@@ -3356,8 +3358,6 @@ the
 merged
 list
 .
-*
-/
 let
 mut
 capabilities
@@ -3396,7 +3396,6 @@ fold
 mut
 capabilities
 |
-mut
 caps
 (
 key
