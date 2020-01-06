@@ -58,12 +58,6 @@ MPL
 /
 var
 dbFile
-oldSize
-;
-var
-currentTestIndex
-=
-0
 ;
 function
 triggerExpiration
