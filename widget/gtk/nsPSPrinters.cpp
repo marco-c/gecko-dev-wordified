@@ -673,6 +673,8 @@ IsEmpty
 )
 )
 {
+list
+=
 Preferences
 :
 :
@@ -683,7 +685,6 @@ print
 .
 printer_list
 "
-list
 )
 ;
 }

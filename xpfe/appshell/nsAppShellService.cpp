@@ -605,10 +605,8 @@ chromeMask
 =
 0
 ;
-nsAutoCString
+nsAdoptingCString
 prefVal
-;
-rv
 =
 Preferences
 :
@@ -620,7 +618,6 @@ browser
 .
 hiddenWindowChromeURL
 "
-prefVal
 )
 ;
 const
@@ -628,9 +625,10 @@ char
 *
 hiddenWindowURL
 =
-NS_SUCCEEDED
+prefVal
+.
+get
 (
-rv
 )
 ?
 prefVal

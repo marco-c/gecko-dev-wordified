@@ -1732,9 +1732,7 @@ supports
 one
 hidden
 plugin
-nsAutoCString
-value
-;
+return
 Preferences
 :
 :
@@ -1747,11 +1745,7 @@ navigator
 .
 hidden_ctp_plugin
 "
-value
 )
-;
-return
-value
 .
 Equals
 (

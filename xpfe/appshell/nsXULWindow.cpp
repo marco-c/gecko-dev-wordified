@@ -12179,9 +12179,9 @@ nsIURI
 >
 uri
 ;
-nsAutoCString
+nsAdoptingCString
 urlStr
-;
+=
 Preferences
 :
 :
@@ -12192,7 +12192,6 @@ browser
 .
 chromeURL
 "
-urlStr
 )
 ;
 if

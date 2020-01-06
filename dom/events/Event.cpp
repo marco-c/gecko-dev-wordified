@@ -4408,9 +4408,9 @@ sPopupAllowedEvents
 )
 ;
 }
-nsAutoCString
+nsAdoptingCString
 str
-;
+=
 Preferences
 :
 :
@@ -4421,7 +4421,6 @@ dom
 .
 popup_allowed_events
 "
-str
 )
 ;
 /

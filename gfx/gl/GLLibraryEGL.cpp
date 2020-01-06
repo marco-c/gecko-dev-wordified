@@ -427,9 +427,9 @@ sApitraceLibrary
 return
 sApitraceLibrary
 ;
-nsAutoCString
+nsCString
 logFile
-;
+=
 Preferences
 :
 :
@@ -442,7 +442,6 @@ apitrace
 .
 logfile
 "
-logFile
 )
 ;
 if

@@ -6701,9 +6701,9 @@ should
 be
 same
 order
-nsAutoCString
+nsAdoptingCString
 list
-;
+=
 Preferences
 :
 :
@@ -6714,7 +6714,6 @@ intl
 .
 accept_languages
 "
-list
 )
 ;
 if
@@ -7538,9 +7537,9 @@ i
 )
 )
 ;
-nsAutoCString
+nsAdoptingCString
 serifOrSans
-;
+=
 Preferences
 :
 :
@@ -7551,7 +7550,6 @@ prefDefaultFontType
 get
 (
 )
-serifOrSans
 )
 ;
 if

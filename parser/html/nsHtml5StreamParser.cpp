@@ -1334,9 +1334,11 @@ the
 main
 thread
 .
-nsAutoCString
+const
+nsAdoptingCString
+&
 detectorName
-;
+=
 Preferences
 :
 :
@@ -1349,7 +1351,6 @@ charset
 .
 detector
 "
-detectorName
 )
 ;
 if
