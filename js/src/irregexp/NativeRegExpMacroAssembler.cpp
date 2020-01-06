@@ -4150,7 +4150,7 @@ temp0
 offsetof
 (
 JSContext
-interrupt_
+interruptRegExpJit_
 )
 )
 Imm32
