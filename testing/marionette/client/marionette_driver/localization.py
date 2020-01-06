@@ -169,19 +169,17 @@ chrome
 :
 /
 /
-global
+branding
 /
 locale
 /
-about
+brand
 .
 dtd
 "
 ]
 "
-about
-.
-version
+brandShortName
 "
 )
         
