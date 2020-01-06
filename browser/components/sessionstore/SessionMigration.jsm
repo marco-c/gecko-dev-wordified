@@ -565,6 +565,13 @@ File
 read
 (
 aPath
+{
+compression
+:
+"
+lz4
+"
+}
 )
 ;
 let
@@ -650,6 +657,11 @@ aPath
 "
 .
 tmp
+"
+compression
+:
+"
+lz4
 "
 }
 )

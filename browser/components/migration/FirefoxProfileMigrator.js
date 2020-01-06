@@ -1168,7 +1168,7 @@ sourceProfileDir
 "
 sessionstore
 .
-js
+jsonlz4
 "
 )
 ;
@@ -1221,7 +1221,7 @@ append
 "
 sessionstore
 .
-js
+jsonlz4
 "
 )
 ;
