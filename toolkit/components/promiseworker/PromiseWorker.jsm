@@ -598,14 +598,6 @@ return
 result
 ;
 }
-StopIteration
-(
-)
-{
-return
-StopIteration
-;
-}
 }
 ;
 /
@@ -813,7 +805,6 @@ ReferenceError
 SyntaxError
 TypeError
 URIError
-StopIteration
 .
 *
 /

@@ -32,7 +32,7 @@ e
 )
 {
 throw
-StopIteration
+Math
 ;
 }
 }
@@ -59,7 +59,7 @@ exc
 assertEq
 (
 exc
-StopIteration
+Math
 )
 ;
 }

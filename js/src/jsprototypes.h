@@ -758,16 +758,6 @@ dummy
 \
 real
 (
-StopIteration
-InitStopIterationClass
-OCLASP
-(
-StopIteration
-)
-)
-\
-real
-(
 ArrayBuffer
 InitViaClassSpec
 OCLASP
