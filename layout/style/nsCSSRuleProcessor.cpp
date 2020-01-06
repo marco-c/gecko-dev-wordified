@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsICSSPseudoComparator
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting

@@ -280,9 +280,6 @@ nsTreeStyleCache
 :
 GetStyleContext
 (
-nsICSSPseudoComparator
-*
-aComparator
 nsPresContext
 *
 aPresContext
