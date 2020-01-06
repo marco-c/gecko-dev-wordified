@@ -2825,6 +2825,11 @@ feedXML
 "
 )
 ;
+let
+imageInfo
+=
+imageElement
+;
 /
 /
 Look
@@ -2856,9 +2861,6 @@ strings
 :
 gStrings
 frameOuterWindowID
-}
-{
-imageElement
 }
 )
 ;
@@ -2953,8 +2955,6 @@ docInfo
 ;
 gImageElement
 =
-pageInfoData
-.
 imageInfo
 ;
 var
