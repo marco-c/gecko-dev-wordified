@@ -438,7 +438,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 const
@@ -1289,7 +1289,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 )
@@ -1672,7 +1672,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 const
@@ -1875,7 +1875,7 @@ RawContextCPU
 *
 out
 const
-ucontext
+ucontext_t
 *
 uc
 )
