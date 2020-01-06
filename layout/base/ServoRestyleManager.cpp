@@ -5146,7 +5146,7 @@ Document
 )
 ;
 bool
-animationOnly
+forThrottledAnimationFlush
 =
 aRestyleBehavior
 =
@@ -5154,7 +5154,7 @@ aRestyleBehavior
 TraversalRestyleBehavior
 :
 :
-ForAnimationOnly
+ForThrottledAnimationFlush
 ;
 /
 /
@@ -5244,7 +5244,7 @@ mHaveNonAnimationRestyles
 &
 &
 !
-animationOnly
+forThrottledAnimationFlush
 )
 {
 +
@@ -5269,12 +5269,12 @@ Normal
 ;
 while
 (
-animationOnly
+forThrottledAnimationFlush
 ?
 styleSet
 -
 >
-StyleDocumentForAnimationOnly
+StyleDocumentForThrottledAnimationFlush
 (
 )
 :
@@ -5290,7 +5290,7 @@ restyleBehavior
 if
 (
 !
-animationOnly
+forThrottledAnimationFlush
 )
 {
 ClearSnapshots
@@ -5343,7 +5343,7 @@ mPresContext
 GetDocShell
 (
 )
-animationOnly
+forThrottledAnimationFlush
 )
 ;
 DocumentStyleRootIterator
@@ -5675,7 +5675,7 @@ FlushOverflowChangedTracker
 if
 (
 !
-animationOnly
+forThrottledAnimationFlush
 )
 {
 ClearSnapshots
@@ -5840,7 +5840,7 @@ DoProcessPendingRestyles
 TraversalRestyleBehavior
 :
 :
-ForAnimationOnly
+ForThrottledAnimationFlush
 )
 ;
 }

@@ -1935,7 +1935,7 @@ content
 *
 /
 bool
-StyleDocumentForAnimationOnly
+StyleDocumentForThrottledAnimationFlush
 (
 )
 ;
