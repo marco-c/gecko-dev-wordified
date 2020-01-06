@@ -243,6 +243,17 @@ video
 )
 ;
 }
+void
+GetLabel
+(
+nsAString
+&
+aLabel
+CallerType
+aCallerType
+)
+override
+;
 protected
 :
 already_AddRefed
