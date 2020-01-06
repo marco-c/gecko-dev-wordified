@@ -542,6 +542,7 @@ setString
 (
 DEBUGGER_SOCKET_DIR
 "
+.
 "
 )
 ;
