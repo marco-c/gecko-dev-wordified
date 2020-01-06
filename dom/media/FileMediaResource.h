@@ -297,12 +297,6 @@ return
 true
 ;
 }
-int64_t
-Tell
-(
-)
-override
-;
 /
 /
 Any

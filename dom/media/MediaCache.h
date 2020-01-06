@@ -3475,11 +3475,6 @@ given
 /
 stream
 .
-int64_t
-Tell
-(
-)
-;
 /
 /
 *
