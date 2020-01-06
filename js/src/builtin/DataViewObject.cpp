@@ -1301,10 +1301,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_ARG_INDEX_OUT_OF_RANGE
-"
-1
-"
+JSMSG_OFFSET_OUT_OF_BUFFER
 )
 ;
 return
@@ -1412,10 +1409,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_ARG_INDEX_OUT_OF_RANGE
-"
-2
-"
+JSMSG_INVALID_DATA_VIEW_LENGTH
 )
 ;
 return
@@ -2217,10 +2211,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_ARG_INDEX_OUT_OF_RANGE
-"
-1
-"
+JSMSG_OFFSET_OUT_OF_DATAVIEW
 )
 ;
 return
