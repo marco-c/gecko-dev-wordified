@@ -29247,7 +29247,7 @@ aWindow
 .
 SidebarUI
 .
-show
+showInitially
 (
 aSidebar
 )
