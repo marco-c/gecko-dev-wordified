@@ -11896,6 +11896,14 @@ tmp
 ]
                 
 if
+v
+is
+None
+:
+                    
+continue
+                
+elif
 isinstance
 (
 v
