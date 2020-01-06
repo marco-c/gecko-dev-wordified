@@ -91,12 +91,14 @@ PREF
 "
 devtools
 .
-styleeditor
-.
 source
 -
-maps
+map
+.
+client
 -
+service
+.
 enabled
 "
 ;
