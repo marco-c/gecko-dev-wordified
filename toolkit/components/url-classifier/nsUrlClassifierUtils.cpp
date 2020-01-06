@@ -2010,14 +2010,11 @@ aProvider
 {
 aProvider
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 other
 "
-)
 )
 ;
 }
