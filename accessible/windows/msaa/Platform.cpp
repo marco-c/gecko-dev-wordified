@@ -308,13 +308,6 @@ PlatformInit
 (
 )
 {
-Compatibility
-:
-:
-Init
-(
-)
-;
 nsWinUtils
 :
 :
