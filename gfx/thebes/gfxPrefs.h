@@ -7249,7 +7249,7 @@ resize
 "
 LayersForceSynchronousResize
 bool
-false
+true
 )
 ;
 /
