@@ -4803,6 +4803,13 @@ id
 page_progress
 )
 ;
+mDynamicToolbar
+.
+setLayerView
+(
+mLayerView
+)
+;
 mProgressView
 .
 setDynamicToolbar
