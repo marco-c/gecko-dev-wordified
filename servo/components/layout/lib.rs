@@ -226,6 +226,10 @@ serde_json
 ;
 extern
 crate
+servo_atoms
+;
+extern
+crate
 servo_config
 ;
 extern
