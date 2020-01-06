@@ -843,6 +843,12 @@ TimeDuration
 )
 )
 ;
+bool
+BudgetThrottlingEnabled
+(
+)
+const
+;
 private
 :
 struct
