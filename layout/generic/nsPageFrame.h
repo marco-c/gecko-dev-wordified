@@ -495,6 +495,7 @@ mPageContentMargin
 ;
 class
 nsPageBreakFrame
+final
 :
 public
 nsLeafFrame
