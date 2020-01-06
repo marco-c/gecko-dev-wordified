@@ -1513,6 +1513,7 @@ CommandArgument
 (
 '
 -
+-
 submit
 '
 '
