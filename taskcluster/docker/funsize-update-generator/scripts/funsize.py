@@ -233,6 +233,19 @@ org
 "
     
 "
+http
+:
+/
+/
+archive
+.
+mozilla
+.
+org
+/
+"
+    
+"
 https
 :
 /
