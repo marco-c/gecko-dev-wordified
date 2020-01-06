@@ -324,7 +324,7 @@ item
 }
 }
 async
-onRemoveClick
+onRemoveCommand
 (
 button
 )
@@ -523,7 +523,7 @@ _rebuildView
 )
 ;
 }
-onPreferenceClick
+onPreferenceCommand
 (
 button
 )
@@ -543,7 +543,7 @@ value
 )
 ;
 }
-onAddButtonClick
+onAddButtonCommand
 (
 button
 )
