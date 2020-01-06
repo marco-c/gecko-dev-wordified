@@ -193,8 +193,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
-nsLoadFlags
-aLoadFlags
+ServiceWorkerUpdateViaCache
+aUpdateViaCache
 )
 ;
 private
