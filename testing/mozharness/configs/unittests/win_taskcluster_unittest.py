@@ -2544,6 +2544,9 @@ architectures
 '
 32bit
 '
+'
+64bit
+'
 ]
             
 '
