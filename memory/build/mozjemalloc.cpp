@@ -7838,7 +7838,7 @@ aZero
 ;
 void
 *
-Palloc
+PallocLarge
 (
 size_t
 aAlignment
@@ -21292,7 +21292,7 @@ void
 arena_t
 :
 :
-Palloc
+PallocLarge
 (
 size_t
 aAlignment
@@ -22153,7 +22153,7 @@ ret
 aArena
 -
 >
-Palloc
+PallocLarge
 (
 aAlignment
 ceil_size
