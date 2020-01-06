@@ -100,6 +100,13 @@ gecko
 widget
 ;
 import
+android
+.
+graphics
+.
+Color
+;
+import
 org
 .
 mozilla
@@ -1146,7 +1153,9 @@ getWidth
 {
 mDominantColor
 =
-0
+Color
+.
+TRANSPARENT
 ;
 }
 }
@@ -1498,7 +1507,9 @@ null
 ;
 mDominantColor
 =
-0
+Color
+.
+TRANSPARENT
 ;
 }
 /
@@ -1536,7 +1547,9 @@ null
 ;
 mDominantColor
 =
-0
+Color
+.
+TRANSPARENT
 ;
 mScalingExpected
 =
