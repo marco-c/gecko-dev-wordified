@@ -2242,6 +2242,9 @@ msg
 =
 =
 WM_NCCREATE
+&
+&
+sEnableNonClientDpiScaling
 )
 {
 sEnableNonClientDpiScaling
