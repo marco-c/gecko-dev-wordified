@@ -1488,10 +1488,6 @@ InsertionKind
 :
 :
 Sync
-nsCSSFrameConstructor
-:
-:
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 }
@@ -2043,8 +2039,7 @@ GetPseudoType
 )
 ;
 }
-nsStyleSet
-*
+StyleSetHandle
 styleSet
 =
 PresContext
@@ -2053,11 +2048,6 @@ PresContext
 -
 >
 StyleSet
-(
-)
--
->
-AsGecko
 (
 )
 ;
