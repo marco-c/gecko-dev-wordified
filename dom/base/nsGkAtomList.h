@@ -7023,13 +7023,6 @@ onmessage
 )
 GK_ATOM
 (
-onmessageerror
-"
-onmessageerror
-"
-)
-GK_ATOM
-(
 onmousedown
 "
 onmousedown
