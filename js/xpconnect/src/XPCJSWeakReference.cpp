@@ -218,8 +218,10 @@ supports
 weak
 references
 .
+nsCOMPtr
+<
 nsISupports
-*
+>
 supports
 =
 xpc

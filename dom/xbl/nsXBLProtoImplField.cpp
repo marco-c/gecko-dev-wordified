@@ -1169,8 +1169,10 @@ vetting
 /
 duties
 .
+nsCOMPtr
+<
 nsISupports
-*
+>
 native
 =
 xpc

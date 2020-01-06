@@ -2486,8 +2486,10 @@ XPCWN
 .
 *
 /
+already_AddRefed
+<
 nsISupports
-*
+>
 UnwrapReflectorToISupports
 (
 JSObject

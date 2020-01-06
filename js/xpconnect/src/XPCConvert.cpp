@@ -7488,8 +7488,10 @@ NS_ERROR_XPC_SECURITY_MANAGER_VETO
 ;
 if
 (
+nsCOMPtr
+<
 nsISupports
-*
+>
 supports
 =
 UnwrapReflectorToISupports
