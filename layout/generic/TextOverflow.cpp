@@ -2000,6 +2000,10 @@ GetScrollableFrameFor
 aBlockFrame
 )
 )
+mMarkerList
+(
+aBuilder
+)
 mBlockSize
 (
 aBlockFrame
@@ -4884,6 +4888,9 @@ aInsideMarkersArea
 {
 nsDisplayList
 saved
+(
+mBuilder
+)
 ;
 nsDisplayItem
 *

@@ -5813,6 +5813,9 @@ aLists
 ;
 nsDisplayList
 content
+(
+aBuilder
+)
 ;
 {
 /

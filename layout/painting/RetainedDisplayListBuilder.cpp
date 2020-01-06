@@ -792,6 +792,10 @@ aAGR
 {
 nsDisplayList
 saved
+(
+&
+mBuilder
+)
 ;
 while
 (
@@ -2509,6 +2513,10 @@ aOutContainerASR
 {
 nsDisplayList
 merged
+(
+&
+mBuilder
+)
 ;
 const
 auto
@@ -3280,6 +3288,10 @@ GetChildren
 {
 nsDisplayList
 empty
+(
+&
+mBuilder
+)
 ;
 Maybe
 <
@@ -3751,6 +3763,10 @@ here
 .
 nsDisplayList
 empty
+(
+&
+mBuilder
+)
 ;
 Maybe
 <
@@ -6070,6 +6086,10 @@ modifiedAGR
 ;
 nsDisplayList
 modifiedDL
+(
+&
+mBuilder
+)
 ;
 if
 (

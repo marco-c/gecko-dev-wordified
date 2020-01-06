@@ -1683,6 +1683,11 @@ nsDisplayListBuilderMode
 PAINTING
 false
 )
+mList
+(
+&
+mBuilder
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -28607,6 +28612,9 @@ surfaceRect
 ;
 nsDisplayList
 tmpList
+(
+aBuilder
+)
 ;
 nsDisplayItem
 *

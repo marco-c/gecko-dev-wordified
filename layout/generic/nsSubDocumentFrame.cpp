@@ -1906,6 +1906,9 @@ aList
 {
 nsDisplayList
 tempItems
+(
+aBuilder
+)
 ;
 nsDisplayItem
 *
@@ -1946,6 +1949,9 @@ TYPE_BACKGROUND_COLOR
 {
 nsDisplayList
 tmpList
+(
+aBuilder
+)
 ;
 tmpList
 .
@@ -2915,6 +2921,9 @@ GetCaretFrame
 }
 nsDisplayList
 childItems
+(
+aBuilder
+)
 ;
 {
 DisplayListClipState
