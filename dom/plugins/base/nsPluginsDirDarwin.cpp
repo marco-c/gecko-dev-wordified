@@ -625,7 +625,7 @@ buffer
 )
 ;
 }
-int
+int64_t
 bufferLength
 =
 :
@@ -659,16 +659,6 @@ bufferLength
 )
 )
 ;
-if
-(
-!
-newBuffer
-)
-{
-return
-nullptr
-;
-}
 if
 (
 !
