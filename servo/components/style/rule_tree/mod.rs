@@ -6179,7 +6179,11 @@ n
 =
 unsafe
 {
+(
 malloc_size_of
+.
+0
+)
 (
 self
 as
