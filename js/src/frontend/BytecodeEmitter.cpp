@@ -59479,7 +59479,7 @@ throw
 '
 |
 '
-close
+return
 '
 )
 if

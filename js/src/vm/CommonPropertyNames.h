@@ -638,15 +638,6 @@ class
 \
 macro
 (
-close
-close
-"
-close
-"
-)
-\
-macro
-(
 Collator
 Collator
 "

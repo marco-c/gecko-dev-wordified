@@ -5925,7 +5925,7 @@ true
 ;
 }
 bool
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 JSContext
 *
@@ -6047,7 +6047,7 @@ MOZ_ALWAYS_FALSE
 js
 :
 :
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 cx
 frame

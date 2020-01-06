@@ -926,7 +926,7 @@ bool
 js
 :
 :
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 JSContext
 *
@@ -982,7 +982,7 @@ resumeKind
 GeneratorObject
 :
 :
-CLOSE
+RETURN
 )
 ;
 MOZ_ASSERT
@@ -1440,10 +1440,10 @@ case
 THROW
 :
 case
-CLOSE
+RETURN
 :
 return
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 cx
 activation

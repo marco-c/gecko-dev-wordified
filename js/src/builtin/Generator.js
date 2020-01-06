@@ -395,7 +395,7 @@ resumeGenerator
 this
 rval
 "
-close
+return
 "
 )
 ;
@@ -534,7 +534,7 @@ kind
 =
 =
 "
-close
+return
 "
 "
 Invalid
@@ -549,7 +549,7 @@ resumeGenerator
 gen
 val
 "
-close
+return
 "
 )
 ;
