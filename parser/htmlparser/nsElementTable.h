@@ -1051,6 +1051,14 @@ eHTMLTags
 aTag
 )
 ;
+static
+bool
+IsBlock
+(
+eHTMLTags
+aTag
+)
+;
 }
 ;
 extern
