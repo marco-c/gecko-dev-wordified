@@ -1096,15 +1096,6 @@ PostTask
 (
 NewRunnableMethod
 (
-"
-gmp
-:
-:
-GMPVideoEncoderChild
-:
-:
-RecvEncodingComplete
-"
 this
 &
 GMPVideoEncoderChild

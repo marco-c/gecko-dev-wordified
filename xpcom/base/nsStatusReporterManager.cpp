@@ -233,16 +233,6 @@ public
 DumpStatusInfoToTempDirRunnable
 (
 )
-:
-mozilla
-:
-:
-Runnable
-(
-"
-DumpStatusInfoToTempDirRunnable
-"
-)
 {
 }
 NS_IMETHOD

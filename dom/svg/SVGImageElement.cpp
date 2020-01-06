@@ -1534,15 +1534,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-dom
-:
-:
-SVGImageElement
-:
-:
-MaybeLoadSVGImage
-"
 this
 &
 SVGImageElement

@@ -1395,12 +1395,6 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
-"
-nsNativeAppSupportUnix
-:
-:
-DoInteract
-"
 self
 &
 nsNativeAppSupportUnix

@@ -370,7 +370,7 @@ ctx
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 &
 GMPTimerParent
@@ -383,15 +383,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-gmp
-:
-:
-GMPTimerParent
-:
-:
-RecvSetTimer
-"
 )
 ;
 NS_ENSURE_SUCCESS

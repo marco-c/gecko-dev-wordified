@@ -8873,15 +8873,6 @@ RunInStableState
 (
 NewRunnableMethod
 (
-"
-dom
-:
-:
-CanvasRenderingContext2D
-:
-:
-OnStableState
-"
 this
 &
 CanvasRenderingContext2D

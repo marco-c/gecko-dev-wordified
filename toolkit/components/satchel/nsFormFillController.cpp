@@ -1013,12 +1013,6 @@ nsIDOMHTMLInputElement
 >
 >
 (
-"
-nsFormFillController
-:
-:
-MaybeStartControllingInput
-"
 this
 &
 nsFormFillController

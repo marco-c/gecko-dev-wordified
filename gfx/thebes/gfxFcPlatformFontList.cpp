@@ -6940,7 +6940,7 @@ mCheckFontUpdatesTimer
 mCheckFontUpdatesTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 CheckFontUpdates
 this
@@ -6955,12 +6955,6 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
-"
-gfxFcPlatformFontList
-:
-:
-gfxFcPlatformFontList
-"
 )
 ;
 }

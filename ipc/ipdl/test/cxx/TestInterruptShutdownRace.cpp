@@ -279,15 +279,6 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
-"
-_ipdltest
-:
-:
-TestInterruptShutdownRaceParent
-:
-:
-StartShuttingDown
-"
 this
 &
 TestInterruptShutdownRaceParent

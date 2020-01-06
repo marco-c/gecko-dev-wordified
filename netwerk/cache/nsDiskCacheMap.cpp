@@ -8269,7 +8269,7 @@ rv
 mCleanCacheTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 RevalidateTimerCallback
 nullptr
@@ -8278,12 +8278,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsDiskCacheMap
-:
-:
-ResetCacheTimer
-"
 )
 ;
 NS_ENSURE_SUCCESS

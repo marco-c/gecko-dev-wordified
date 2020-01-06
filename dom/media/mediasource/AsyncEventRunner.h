@@ -154,12 +154,6 @@ char
 aName
 )
 :
-Runnable
-(
-"
-AsyncEventRunner
-"
-)
 mTarget
 (
 aTarget

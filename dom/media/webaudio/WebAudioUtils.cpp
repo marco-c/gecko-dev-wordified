@@ -706,15 +706,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-dom
-:
-:
-WebAudioUtils
-:
-:
-LogToDeveloperConsole
-"
 [
 aWindowID
 aKey

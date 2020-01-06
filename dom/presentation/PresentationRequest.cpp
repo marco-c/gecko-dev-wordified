@@ -1599,15 +1599,6 @@ Promise
 >
 >
 (
-"
-dom
-:
-:
-PresentationRequest
-:
-:
-FindOrCreatePresentationConnection
-"
 this
 &
 PresentationRequest

@@ -2601,9 +2601,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-LogToBrowserConsole
-"
 [
 msg
 ]

@@ -1832,15 +1832,6 @@ nsIEventTarget
 aTarget
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-ThreadWedger
-"
-)
 mReentrantMonitor
 (
 "

@@ -248,15 +248,6 @@ uint64_t
 aInnerWindowID
 )
 :
-Runnable
-(
-"
-net
-:
-:
-WebSocketBaseRunnable
-"
-)
 mWebSocketSerialID
 (
 aWebSocketSerialID

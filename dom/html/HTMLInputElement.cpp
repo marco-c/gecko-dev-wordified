@@ -27640,15 +27640,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-dom
-:
-:
-HTMLInputElement
-:
-:
-MaybeLoadImage
-"
 this
 &
 HTMLInputElement

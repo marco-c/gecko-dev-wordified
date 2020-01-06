@@ -10149,12 +10149,6 @@ bool
 aIsComposing
 )
 :
-Runnable
-(
-"
-EditorInputEventDispatcher
-"
-)
 mEditorBase
 (
 aEditorBase

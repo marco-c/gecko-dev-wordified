@@ -357,15 +357,6 @@ nsIRequest
 request
 )
 :
-Runnable
-(
-"
-net
-:
-:
-nsARequestObserverEvent
-"
-)
 mRequest
 (
 request

@@ -4820,15 +4820,6 @@ int64_t
 aContentLength
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-OnTransportStatusAsyncEvent
-"
-)
 mChannel
 (
 aChannel

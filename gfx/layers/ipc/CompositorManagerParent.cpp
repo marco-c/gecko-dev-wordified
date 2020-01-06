@@ -513,12 +513,6 @@ PCompositorManagerParent
 &
 >
 (
-"
-CompositorManagerParent
-:
-:
-Bind
-"
 bridge
 &
 CompositorManagerParent

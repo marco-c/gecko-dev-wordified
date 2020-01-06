@@ -722,12 +722,6 @@ nsCString
 aReason
 )
 :
-Runnable
-(
-"
-RejectPromiseTask
-"
-)
 mProxy
 (
 aProxy

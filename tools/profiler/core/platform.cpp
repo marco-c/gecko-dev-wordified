@@ -2328,12 +2328,6 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
-"
-ActivePS
-:
-:
-ActivePS
-"
 [
 =
 ]
@@ -2428,13 +2422,6 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
-"
-ActivePS
-:
-:
-~
-ActivePS
-"
 [
 =
 ]
@@ -14905,9 +14892,6 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
-"
-NotifyObservers
-"
 [
 =
 ]

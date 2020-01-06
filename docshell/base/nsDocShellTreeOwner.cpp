@@ -6518,7 +6518,7 @@ rv
 mTooltipTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 sTooltipCallback
 this
@@ -6537,12 +6537,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-ChromeTooltipListener
-:
-:
-MouseMove
-"
 )
 ;
 if

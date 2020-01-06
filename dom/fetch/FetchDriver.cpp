@@ -4467,15 +4467,6 @@ FetchDriverObserver
 aObserver
 )
 :
-Runnable
-(
-"
-dom
-:
-:
-DataAvailableRunnable
-"
-)
 mObserver
 (
 aObserver

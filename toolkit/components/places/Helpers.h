@@ -1221,15 +1221,6 @@ nsISupports
 aOwner
 )
 :
-Runnable
-(
-"
-places
-:
-:
-FinalizeStatementCacheProxy
-"
-)
 mStatementCache
 (
 aStatementCache

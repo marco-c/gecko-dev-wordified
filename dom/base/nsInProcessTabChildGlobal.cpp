@@ -1594,15 +1594,6 @@ bool
 aRunInGlobalScope
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsAsyncScriptLoad
-"
-)
 mTabChild
 (
 aTabChild

@@ -787,15 +787,6 @@ Direction
 aDirection
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-NotifyNetworkActivity
-"
-)
 mDirection
 (
 aDirection

@@ -170,12 +170,6 @@ DWORD
 pid
 )
 :
-Runnable
-(
-"
-InjectCrashRunnable
-"
-)
 mPID
 (
 pid

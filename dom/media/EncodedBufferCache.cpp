@@ -499,15 +499,6 @@ NewRunnableMethod
 AnonymousTemporaryFileCallback
 >
 (
-"
-dom
-:
-:
-ContentChild
-:
-:
-AsyncOpenAnonymousTemporaryFile
-"
 cc
 &
 dom

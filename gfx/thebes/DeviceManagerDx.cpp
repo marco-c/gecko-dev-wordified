@@ -5003,12 +5003,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-DeviceManagerDx
-:
-:
-PreloadAttachmentsOnCompositorThread
-"
 [
 ]
 (

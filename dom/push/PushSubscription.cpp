@@ -596,15 +596,6 @@ nsAString
 aScope
 )
 :
-Runnable
-(
-"
-dom
-:
-:
-UnsubscribeRunnable
-"
-)
 mProxy
 (
 aProxy

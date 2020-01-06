@@ -409,13 +409,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-AutoTaskQueue
-:
-:
-~
-AutoTaskQueue
-"
 [
 taskqueue
 ]

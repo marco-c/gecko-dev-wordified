@@ -9412,15 +9412,6 @@ nsACString
 aHost
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-FallbackPrefRemover
-"
-)
 mHost
 (
 aHost
