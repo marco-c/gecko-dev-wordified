@@ -567,10 +567,6 @@ aFlags
 if
 (
 !
-aUri
-|
-|
-!
 this
 .
 isRegistered
@@ -594,8 +590,13 @@ OnLoadUri
 uri
 :
 aUri
+?
+aUri
 .
 displaySpec
+:
+"
+"
 where
 :
 aWhere
