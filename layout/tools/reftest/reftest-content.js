@@ -5671,6 +5671,10 @@ gFailureTimeout
 =
 null
 ;
+gCurrentURL
+=
+null
+;
 if
 (
 gCurrentTestType
