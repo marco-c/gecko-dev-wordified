@@ -297,7 +297,6 @@ a
 Firefox
 OS
 device
-simulator
 or
 from
 a
