@@ -327,7 +327,7 @@ bottom
 Wait
 for
 the
-mouseup
+mousemove
 event
 to
 occur
@@ -356,7 +356,7 @@ aElement
 removeEventListener
 (
 "
-mouseover
+mousemove
 "
 eventOccurred
 true
@@ -372,7 +372,7 @@ aElement
 addEventListener
 (
 "
-mouseover
+mousemove
 "
 eventOccurred
 true
