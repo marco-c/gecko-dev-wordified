@@ -448,6 +448,9 @@ mod
 border
 ;
 mod
+clip
+;
+mod
 clip_scroll_node
 ;
 mod

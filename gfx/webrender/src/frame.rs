@@ -141,6 +141,12 @@ WorldPoint
 }
 ;
 use
+clip
+:
+:
+ClipRegion
+;
+use
 clip_scroll_tree
 :
 :
@@ -178,12 +184,6 @@ frame_builder
 FrameBuilder
 FrameBuilderConfig
 }
-;
-use
-mask_cache
-:
-:
-ClipRegion
 ;
 use
 profiler
