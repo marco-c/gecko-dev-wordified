@@ -56630,10 +56630,10 @@ PushClip
 clipId
 /
 *
-aRecordInStack
+aMask
 *
 /
-false
+true
 )
 ;
 }
@@ -56660,10 +56660,10 @@ PopClip
 (
 /
 *
-aRecordInStack
+aMask
 *
 /
-false
+true
 )
 ;
 }
