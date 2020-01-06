@@ -1971,7 +1971,7 @@ editBookmarkPanelRemoveButton
 "
 )
 .
-doCommand
+click
 (
 )
 ;
