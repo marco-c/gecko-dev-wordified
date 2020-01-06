@@ -8078,7 +8078,6 @@ options
 setColumn
 (
 c
-c
 )
 ;
 }
