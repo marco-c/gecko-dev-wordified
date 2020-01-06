@@ -4897,6 +4897,13 @@ result
 }
 }
 }
+#
+[
+inline
+(
+always
+)
+]
 fn
 select_name
 <
