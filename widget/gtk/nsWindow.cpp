@@ -35782,6 +35782,12 @@ if
 mLayerManager
 &
 &
+!
+IsComposited
+(
+)
+&
+&
 eTransparencyTransparent
 =
 =
