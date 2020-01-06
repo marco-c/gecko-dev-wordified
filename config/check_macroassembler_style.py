@@ -1692,7 +1692,6 @@ arch
 '
 ]
 )
-;
     
 return
 d
@@ -2322,6 +2321,10 @@ is
 above
 '
 )
+#
+noqa
+:
+E501
     
 sys
 .
