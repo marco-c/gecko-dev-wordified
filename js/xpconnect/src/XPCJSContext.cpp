@@ -4270,7 +4270,7 @@ kill
 if
 requested
 .
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 SlowScriptResponse
@@ -4289,7 +4289,7 @@ if
 response
 =
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 KillSlowScript
@@ -4334,7 +4334,7 @@ if
 response
 =
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 KillScriptGlobal
@@ -4545,7 +4545,7 @@ if
 response
 !
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 ContinueSlowScriptAndKeepNotifying
@@ -4567,7 +4567,7 @@ if
 response
 =
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 AlwaysContinueSlowScript
