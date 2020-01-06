@@ -429,7 +429,7 @@ timeDelta
 TimeDuration
 :
 :
-Max
+Min
 (
 aDelta
 maxTimeDelta
