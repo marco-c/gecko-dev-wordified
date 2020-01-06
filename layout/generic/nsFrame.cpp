@@ -9033,6 +9033,16 @@ GetEffectSet
 this
 )
 ;
+if
+(
+!
+effects
+)
+{
+return
+false
+;
+}
 return
 (
 IsPrimaryFrame
