@@ -94,6 +94,7 @@ firefox
 %
 VERSION
 %
+a2
 /
 firstrun
 /
