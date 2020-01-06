@@ -975,13 +975,7 @@ const
 Message
 &
 aMsg
-nsTArray
-<
-RefPtr
-<
-SchedulerGroup
->
->
+SchedulerGroupSet
 &
 aGroups
 )

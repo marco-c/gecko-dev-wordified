@@ -1864,13 +1864,7 @@ Runnable
 :
 GetAffectedSchedulerGroups
 (
-nsTArray
-<
-RefPtr
-<
-SchedulerGroup
->
->
+SchedulerGroupSet
 &
 aGroups
 )
@@ -1883,7 +1877,7 @@ Clear
 ;
 aGroups
 .
-AppendElement
+Put
 (
 Group
 (
