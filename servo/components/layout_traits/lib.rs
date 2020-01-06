@@ -368,12 +368,6 @@ webrender_api
 :
 :
 RenderApiSender
-webrender_document
-:
-webrender_api
-:
-:
-DocumentId
 layout_threads
 :
 usize
