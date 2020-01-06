@@ -1495,12 +1495,31 @@ the
 language
 pack
 #
-appver
+min_app_ver
 (
 str
 )
 -
 A
+minimum
+version
+of
+the
+application
+the
+language
+#
+resources
+are
+for
+#
+max_app_ver
+(
+str
+)
+-
+A
+maximum
 version
 of
 the
@@ -1580,6 +1599,14 @@ c20a
 57
 .
 0
+'
+#
+'
+57
+.
+0
+.
+*
 '
 #
 {
@@ -1871,7 +1898,8 @@ def
 create_webmanifest
 (
 locstr
-appver
+min_app_ver
+max_app_ver
 defines
 chrome_entries
 )
@@ -1980,24 +2008,13 @@ main_locale
 strict_min_version
 '
 :
-appver
+min_app_ver
                 
 '
 strict_max_version
 '
 :
-'
-{
-0
-}
-.
-*
-'
-.
-format
-(
-appver
-)
+max_app_ver
             
 }
         
@@ -2049,7 +2066,7 @@ main_locale
 version
 '
 :
-appver
+min_app_ver
         
 '
 languages
@@ -2233,7 +2250,7 @@ loc
 version
 '
 :
-appver
+min_app_ver
             
 '
 resources
@@ -2313,13 +2330,47 @@ add_argument
 '
 -
 -
-appver
+min
+-
+app
+-
+ver
 '
                         
 help
 =
 '
-Version
+Min
+version
+of
+the
+application
+the
+langpack
+is
+for
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
+max
+-
+app
+-
+ver
+'
+                        
+help
+=
+'
+Max
+version
 of
 the
 application
@@ -2440,7 +2491,11 @@ locales
         
 args
 .
-appver
+min_app_ver
+        
+args
+.
+max_app_ver
         
 defines
         
