@@ -5516,7 +5516,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 do_QueryInterface
 (
@@ -5526,7 +5526,7 @@ aContainer
 if
 (
 !
-parent
+container
 )
 {
 return
@@ -5542,7 +5542,7 @@ aResult
 IsPointInRange
 (
 *
-parent
+container
 aOffset
 rv
 )
@@ -5676,7 +5676,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 do_QueryInterface
 (
@@ -5685,7 +5685,7 @@ aContainer
 ;
 NS_ENSURE_TRUE
 (
-parent
+container
 NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 )
 ;
@@ -5698,7 +5698,7 @@ aResult
 ComparePoint
 (
 *
-parent
+container
 aOffset
 rv
 )
@@ -8028,7 +8028,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 do_QueryInterface
 (
@@ -8038,7 +8038,7 @@ aContainer
 if
 (
 !
-parent
+container
 )
 {
 return
@@ -8051,7 +8051,7 @@ rv
 SetStart
 (
 *
-parent
+container
 aOffset
 rv
 )
@@ -8283,7 +8283,7 @@ offset
 ;
 nsINode
 *
-parent
+container
 =
 GetContainerAndOffsetBefore
 (
@@ -8297,7 +8297,7 @@ aRv
 =
 SetStart
 (
-parent
+container
 offset
 )
 ;
@@ -8444,7 +8444,7 @@ offset
 ;
 nsINode
 *
-parent
+container
 =
 GetContainerAndOffsetAfter
 (
@@ -8458,7 +8458,7 @@ aRv
 =
 SetStart
 (
-parent
+container
 offset
 )
 ;
@@ -8629,7 +8629,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 do_QueryInterface
 (
@@ -8639,7 +8639,7 @@ aContainer
 if
 (
 !
-parent
+container
 )
 {
 return
@@ -8652,7 +8652,7 @@ rv
 SetEnd
 (
 *
-parent
+container
 aOffset
 rv
 )
@@ -9177,7 +9177,7 @@ offset
 ;
 nsINode
 *
-parent
+container
 =
 GetContainerAndOffsetBefore
 (
@@ -9191,7 +9191,7 @@ aRv
 =
 SetEnd
 (
-parent
+container
 offset
 )
 ;
@@ -9338,7 +9338,7 @@ offset
 ;
 nsINode
 *
-parent
+container
 =
 GetContainerAndOffsetAfter
 (
@@ -9352,7 +9352,7 @@ aRv
 =
 SetEnd
 (
-parent
+container
 offset
 )
 ;
@@ -9618,7 +9618,7 @@ return
 }
 nsINode
 *
-parent
+container
 =
 aNode
 .
@@ -9632,7 +9632,7 @@ newRoot
 =
 IsValidBoundary
 (
-parent
+container
 )
 ;
 if
@@ -9654,7 +9654,7 @@ return
 int32_t
 index
 =
-parent
+container
 -
 >
 IndexOf
@@ -9688,9 +9688,9 @@ this
 ;
 DoSetRange
 (
-parent
+container
 index
-parent
+container
 index
 +
 1

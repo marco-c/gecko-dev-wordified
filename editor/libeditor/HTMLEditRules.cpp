@@ -21700,7 +21700,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 aSelection
 -
@@ -21733,7 +21733,7 @@ StartOffset
 ;
 NS_ENSURE_STATE
 (
-parent
+container
 )
 ;
 /
@@ -21760,7 +21760,7 @@ mHTMLEditor
 CanContainTag
 (
 *
-parent
+container
 listType
 )
 )
@@ -21779,7 +21779,7 @@ rv
 SplitAsNeeded
 (
 listType
-parent
+container
 offset
 )
 ;
@@ -21806,7 +21806,7 @@ mHTMLEditor
 CreateNode
 (
 listType
-parent
+container
 offset
 )
 ;
@@ -24016,7 +24016,7 @@ OwningNonNull
 <
 nsINode
 >
-parent
+container
 =
 *
 aSelection
@@ -24089,7 +24089,7 @@ htmlEditor
 >
 GetBlock
 (
-parent
+container
 )
 NS_ERROR_NULL_POINTER
 )
@@ -24106,7 +24106,7 @@ htmlEditor
 >
 GetBlock
 (
-parent
+container
 )
 ;
 if
@@ -24166,7 +24166,7 @@ htmlEditor
 >
 GetNextHTMLNode
 (
-parent
+container
 offset
 )
 ;
@@ -24219,7 +24219,7 @@ SplitNodeDeep
 (
 curBlock
 *
-parent
+container
 -
 >
 AsContent
@@ -24353,7 +24353,7 @@ htmlEditor
 >
 GetNextHTMLNode
 (
-parent
+container
 offset
 true
 )
@@ -24428,7 +24428,7 @@ rv
 SplitAsNeeded
 (
 blockType
-parent
+container
 offset
 )
 ;
@@ -24451,7 +24451,7 @@ CreateNode
 (
 &
 blockType
-parent
+container
 offset
 )
 ;
@@ -25238,7 +25238,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 aSelection
 -
@@ -25271,7 +25271,7 @@ StartOffset
 ;
 NS_ENSURE_STATE
 (
-parent
+container
 )
 ;
 /
@@ -25293,7 +25293,7 @@ nsGkAtoms
 :
 :
 div
-parent
+container
 offset
 )
 ;
@@ -25323,7 +25323,7 @@ nsGkAtoms
 :
 :
 div
-parent
+container
 offset
 )
 ;
@@ -26643,7 +26643,7 @@ nsCOMPtr
 <
 nsINode
 >
-parent
+container
 =
 aSelection
 -
@@ -26676,7 +26676,7 @@ StartOffset
 ;
 NS_ENSURE_STATE
 (
-parent
+container
 )
 ;
 /
@@ -26698,7 +26698,7 @@ nsGkAtoms
 :
 :
 blockquote
-parent
+container
 offset
 )
 ;
@@ -26728,7 +26728,7 @@ nsGkAtoms
 :
 :
 blockquote
-parent
+container
 offset
 )
 ;

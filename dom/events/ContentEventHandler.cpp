@@ -21181,7 +21181,7 @@ nsCOMPtr
 <
 nsINode
 >
-parentNode
+container
 =
 aRange
 -
@@ -21205,7 +21205,7 @@ if
 NS_WARN_IF
 (
 !
-parentNode
+container
 )
 |
 |
@@ -21240,7 +21240,7 @@ aRange
 .
 if
 (
-parentNode
+container
 -
 >
 IsNodeOfType
@@ -21260,7 +21260,7 @@ NS_OK
 /
 If
 the
-parent
+container
 is
 not
 a
@@ -21317,7 +21317,7 @@ if
 offsetInParentNode
 &
 &
-parentNode
+container
 -
 >
 HasChildren
@@ -21335,7 +21335,7 @@ the
 start
 of
 the
-parent
+container
 adjusted
 the
 range
@@ -21351,7 +21351,7 @@ child
 .
 childNode
 =
-parentNode
+container
 -
 >
 GetFirstChild
@@ -21374,7 +21374,7 @@ uint32_t
 offsetInParentNode
 )
 <
-parentNode
+container
 -
 >
 GetChildCount
@@ -21408,7 +21408,7 @@ child
 .
 childNode
 =
-parentNode
+container
 -
 >
 GetChildAt

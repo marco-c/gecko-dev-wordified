@@ -14727,7 +14727,7 @@ nsCOMPtr
 <
 nsINode
 >
-parentNode
+container
 =
 do_QueryInterface
 (
@@ -14737,7 +14737,7 @@ aContainer
 return
 Collapse
 (
-parentNode
+container
 aOffset
 )
 ;
@@ -14906,7 +14906,7 @@ nsCOMPtr
 <
 nsINode
 >
-parentNode
+container
 =
 &
 aContainer
@@ -14932,7 +14932,7 @@ if
 IsValidSelectionPoint
 (
 frameSelection
-parentNode
+container
 )
 )
 {
@@ -14973,7 +14973,7 @@ Document
 )
 !
 =
-parentNode
+container
 -
 >
 OwnerDoc
@@ -15085,7 +15085,7 @@ GetHint
 CARET_ASSOCIATE_AFTER
 &
 &
-parentNode
+container
 -
 >
 IsContent
@@ -15108,7 +15108,7 @@ nsCaret
 GetFrameAndOffset
 (
 this
-parentNode
+container
 aOffset
 &
 frameOffset
@@ -15139,7 +15139,7 @@ HasSignificantTerminalNewline
 if
 (
 (
-parentNode
+container
 -
 >
 AsContent
@@ -15171,7 +15171,7 @@ aOffset
 |
 |
 (
-parentNode
+container
 =
 =
 f
@@ -15187,7 +15187,7 @@ GetParentNode
 )
 &
 &
-parentNode
+container
 -
 >
 IndexOf
@@ -15283,7 +15283,7 @@ range
 new
 nsRange
 (
-parentNode
+container
 )
 ;
 }
@@ -15294,7 +15294,7 @@ range
 >
 CollapseTo
 (
-parentNode
+container
 aOffset
 )
 ;
@@ -15327,7 +15327,7 @@ content
 =
 do_QueryInterface
 (
-parentNode
+container
 )
 ;
 nsCOMPtr
@@ -15338,7 +15338,7 @@ doc
 =
 do_QueryInterface
 (
-parentNode
+container
 )
 ;
 printf
@@ -15357,7 +15357,7 @@ d
 \
 n
 "
-parentNode
+container
 .
 get
 (
@@ -15691,7 +15691,7 @@ reason
 }
 nsINode
 *
-parent
+container
 =
 firstRange
 -
@@ -15703,7 +15703,7 @@ GetStartContainer
 if
 (
 !
-parent
+container
 )
 {
 aRv
@@ -15719,7 +15719,7 @@ return
 Collapse
 (
 *
-parent
+container
 firstRange
 -
 >
@@ -15918,7 +15918,7 @@ reason
 }
 nsINode
 *
-parent
+container
 =
 lastRange
 -
@@ -15930,7 +15930,7 @@ GetEndContainer
 if
 (
 !
-parent
+container
 )
 {
 aRv
@@ -15946,7 +15946,7 @@ return
 Collapse
 (
 *
-parent
+container
 lastRange
 -
 >
@@ -16731,7 +16731,7 @@ nsCOMPtr
 <
 nsINode
 >
-parentNode
+container
 =
 do_QueryInterface
 (
@@ -16741,7 +16741,7 @@ aContainer
 return
 Extend
 (
-parentNode
+container
 aOffset
 )
 ;
