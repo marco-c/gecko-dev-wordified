@@ -157,11 +157,6 @@ aMode
 aBuildCaret
 true
 )
-mList
-(
-&
-mBuilder
-)
 {
 }
 ~
