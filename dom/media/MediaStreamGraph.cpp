@@ -8222,17 +8222,6 @@ graph
 mDetectedNotRunning
 &
 &
-graph
--
->
-mLifecycleState
->
-MediaStreamGraphImpl
-:
-:
-LIFECYCLE_RUNNING
-&
-&
 NS_IsMainThread
 (
 )
