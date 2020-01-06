@@ -8332,6 +8332,16 @@ name
 }
 )
 promise
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 )
 ;
 let
