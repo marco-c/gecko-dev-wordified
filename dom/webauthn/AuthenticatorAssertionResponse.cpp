@@ -315,7 +315,7 @@ mAuthenticatorDataCachedObj
 =
 mAuthenticatorData
 .
-ToUint8Array
+ToArrayBuffer
 (
 aCx
 )
@@ -392,7 +392,7 @@ mSignatureCachedObj
 =
 mSignature
 .
-ToUint8Array
+ToArrayBuffer
 (
 aCx
 )
