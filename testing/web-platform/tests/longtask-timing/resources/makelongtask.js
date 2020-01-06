@@ -7,7 +7,7 @@ task
 .
 *
 /
-var
+const
 begin
 =
 window

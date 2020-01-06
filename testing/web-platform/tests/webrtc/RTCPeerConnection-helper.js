@@ -373,7 +373,7 @@ typeof
 (
 sessionDesc
 .
-type
+sdp
 )
 =
 =
@@ -2234,7 +2234,7 @@ RTCPeerConnection
 (
 )
 ;
-assert_own_property
+assert_idl_attribute
 (
 pc
 '

@@ -49,6 +49,8 @@ code
 if
 (
 typeof
+CSS
+.
 paintWorklet
 =
 =
@@ -84,6 +86,8 @@ javascript
 }
 )
 ;
+CSS
+.
 paintWorklet
 .
 addModule
