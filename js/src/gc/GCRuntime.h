@@ -6832,6 +6832,10 @@ NonEmptyChunksIter
 NonEmptyChunksIter
 allNonEmptyChunks
 (
+const
+AutoLockGC
+&
+lock
 )
 {
 return
@@ -6842,10 +6846,9 @@ ChunkPool
 :
 Iter
 (
-availableChunks_
-.
-ref
+availableChunks
 (
+lock
 )
 )
 ChunkPool
@@ -6853,10 +6856,9 @@ ChunkPool
 :
 Iter
 (
-fullChunks_
-.
-ref
+fullChunks
 (
+lock
 )
 )
 )
@@ -8678,7 +8680,7 @@ eventual
 /
 release
 .
-UnprotectedData
+GCLockData
 <
 ChunkPool
 >
@@ -8716,7 +8718,7 @@ the
 available
 lists
 .
-UnprotectedData
+GCLockData
 <
 ChunkPool
 >

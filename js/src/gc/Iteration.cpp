@@ -527,6 +527,17 @@ cx
 SkipAtoms
 )
 ;
+AutoLockGC
+lock
+(
+cx
+-
+>
+runtime
+(
+)
+)
+;
 for
 (
 auto
@@ -544,6 +555,7 @@ gc
 .
 allNonEmptyChunks
 (
+lock
 )
 ;
 !

@@ -27630,6 +27630,13 @@ bits
 .
 *
 /
+{
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -27640,6 +27647,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -27724,6 +27732,7 @@ entry
 )
 return
 ;
+}
 }
 /
 *
@@ -28122,6 +28131,12 @@ reset
 (
 )
 ;
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -28132,6 +28147,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -28459,6 +28475,13 @@ original
 .
 *
 /
+{
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -28469,6 +28492,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -28519,6 +28543,7 @@ entry
 bitmap
 )
 ;
+}
 }
 for
 (
@@ -28769,6 +28794,15 @@ waitBackgroundSweepEnd
 (
 )
 ;
+AutoLockGC
+lock
+(
+gc
+-
+>
+rt
+)
+;
 for
 (
 auto
@@ -28779,6 +28813,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
