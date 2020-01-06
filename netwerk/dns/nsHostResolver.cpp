@@ -3995,7 +3995,11 @@ aPref
 return
 ;
 }
-auto
+DebugOnly
+<
+nsHostResolver
+*
+>
 self
 =
 static_cast

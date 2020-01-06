@@ -808,9 +808,6 @@ pseudo
 handle
 hence
 DuplicateHandle
-BOOL
-result
-=
 :
 :
 DuplicateHandle
