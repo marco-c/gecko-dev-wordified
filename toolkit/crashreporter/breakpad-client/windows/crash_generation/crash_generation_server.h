@@ -321,6 +321,17 @@ windows
 /
 common
 /
+minidump_callback
+.
+h
+"
+#
+include
+"
+windows
+/
+common
+/
 ipc_protocol
 .
 h
@@ -1939,6 +1950,9 @@ context
 .
 bool
 include_context_heap_
+;
+AppMemoryList
+app_memory_info_
 ;
 /
 /
