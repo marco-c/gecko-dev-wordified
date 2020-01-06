@@ -422,7 +422,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-false
 )
 ;
 BrowserTestUtils

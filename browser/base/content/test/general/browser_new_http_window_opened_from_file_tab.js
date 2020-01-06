@@ -247,7 +247,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 TEST_HTTP
 )
 ;
@@ -402,7 +401,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 TEST_HTTP
 )
 ;

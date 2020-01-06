@@ -39,7 +39,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 )
 ;
 ContentTask
