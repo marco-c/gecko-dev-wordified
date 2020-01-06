@@ -8312,6 +8312,9 @@ def
 quit
 (
 self
+clean
+=
+False
 in_app
 =
 False
@@ -8372,6 +8375,42 @@ has
 to
 be
 called
+.
+        
+:
+param
+clean
+:
+If
+False
+the
+same
+profile
+will
+be
+used
+after
+the
+next
+start
+of
+                      
+the
+application
+.
+Note
+that
+the
+in
+app
+initiated
+restart
+always
+                      
+maintains
+the
+same
+profile
 .
         
 :
@@ -8641,6 +8680,9 @@ instance
 .
 close
 (
+clean
+=
+clean
 )
     
 do_process_check
@@ -9338,15 +9380,16 @@ which
 has
 terminated
 so
-restart
+start
 it
+again
 .
                 
 self
 .
 instance
 .
-restart
+start
 (
 )
         
