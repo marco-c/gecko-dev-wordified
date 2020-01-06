@@ -1264,7 +1264,7 @@ AddUintptrToHash
 )
 to
 be
-hased
+hashed
 .
 template
 <
