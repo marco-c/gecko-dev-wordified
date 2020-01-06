@@ -2392,14 +2392,6 @@ actor
 break
 ;
 }
-emit
-(
-EVENTS
-.
-NETWORK_EVENT_UPDATED
-actor
-)
-;
 }
 /
 *
