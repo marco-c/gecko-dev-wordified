@@ -4617,7 +4617,7 @@ TreeAutoIndent
 aTreeAutoIndent
 )
 :
-TreeAutoIndent
+mTreeLog
 (
 aTreeAutoIndent
 .
