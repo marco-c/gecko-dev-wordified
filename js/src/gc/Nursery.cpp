@@ -4378,6 +4378,11 @@ we
 cancel
 all
 compilations
+/
+/
+of
+such
+graphs
 .
 startProfile
 (
@@ -4398,7 +4403,7 @@ cancelIonCompilations
 js
 :
 :
-CancelOffThreadIonCompile
+CancelOffThreadIonCompilesUsingNurseryPointers
 (
 rt
 )
