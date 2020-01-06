@@ -1295,12 +1295,6 @@ CrossProcessCompositorBridgeParent
 >
 mSelfRef
 ;
-RefPtr
-<
-CompositorThreadHolder
->
-mCompositorThreadHolder
-;
 /
 /
 If
