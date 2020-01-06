@@ -806,7 +806,15 @@ player
 '
 )
             
-print
+self
+.
+marionette
+.
+execute_script
+(
+"
+log
+(
 '
 .
 html5
@@ -814,9 +822,16 @@ html5
 video
 -
 player
+"
+                                           
+"
 element
 obtained
 '
+)
+;
+"
+)
         
 #
 When
@@ -1121,14 +1136,26 @@ except
 ValueError
 :
                 
-print
+self
+.
+marionette
+.
+log
+(
 '
 Error
 loading
-JSON
+json
 :
 DebugText
 '
+                                    
+level
+=
+'
+DEBUG
+'
+)
     
 def
 _execute_yt_script
@@ -1314,7 +1341,11 @@ interval
 try
 :
             
-print
+self
+.
+marionette
+.
+log
 (
 '
 process_ad
@@ -1326,6 +1357,7 @@ s
 for
 ad
 '
+                                
 .
 format
 (
@@ -1355,7 +1387,11 @@ except
 TimeoutException
 :
             
-print
+self
+.
+marionette
+.
+log
 (
 '
 Waiting
@@ -1365,6 +1401,12 @@ to
 end
 timed
 out
+'
+                                
+level
+=
+'
+WARNING
 '
 )
     
@@ -1591,13 +1633,21 @@ NoSuchElementException
 )
 :
             
-print
+self
+.
+marionette
+.
+log
 (
 '
 Could
 not
 obtain
+'
+                                
+'
 element
+:
 {
 }
 '
@@ -1606,6 +1656,12 @@ format
 (
 selector
 )
+                                
+level
+=
+'
+WARNING
+'
 )
         
 return
@@ -3382,7 +3438,11 @@ in
 test
 function
                     
-print
+self
+.
+marionette
+.
+log
 (
 '
 Buffering
@@ -3390,6 +3450,7 @@ and
 no
 playback
 progress
+.
 '
 )
                     

@@ -364,9 +364,9 @@ base64
         
 self
 .
-logger
+marionette
 .
-info
+log
 (
 '
 Screenshot
@@ -375,6 +375,7 @@ in
 {
 }
 '
+                            
 .
 format
 (
@@ -444,9 +445,9 @@ debug_lines
                 
 self
 .
-logger
+marionette
 .
-info
+log
 (
 '
 \
