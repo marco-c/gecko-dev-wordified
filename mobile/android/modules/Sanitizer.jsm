@@ -457,6 +457,7 @@ case
 downloadHistory
 "
 :
+return
 this
 .
 _clear
@@ -472,13 +473,12 @@ false
 }
 )
 ;
-break
-;
 case
 "
 formdata
 "
 :
+return
 this
 .
 _clear
@@ -488,8 +488,6 @@ aItemName
 startTime
 }
 )
-;
-break
 ;
 default
 :
@@ -520,6 +518,7 @@ argument
 }
 else
 {
+return
 this
 .
 _clear
