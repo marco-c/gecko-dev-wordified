@@ -293,6 +293,15 @@ aReturnedBufSize
 )
 const
 ;
+RefPtr
+<
+IStream
+>
+GetStream
+(
+)
+const
+;
 bool
 operator
 =
