@@ -6033,6 +6033,16 @@ containerSize
 0
 )
 ;
+if
+(
+tableFrame
+-
+>
+IsBorderCollapse
+(
+)
+)
+{
 nsTableFrame
 :
 :
@@ -6044,6 +6054,7 @@ origVisualOverflow
 firstReflow
 )
 ;
+}
 /
 /
 first

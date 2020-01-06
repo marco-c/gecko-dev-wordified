@@ -6882,6 +6882,18 @@ reset
 (
 )
 ;
+if
+(
+InnerTableFrame
+(
+)
+-
+>
+IsBorderCollapse
+(
+)
+)
+{
 nsTableFrame
 :
 :
@@ -6895,6 +6907,7 @@ origInnerVisualOverflow
 innerFirstReflow
 )
 ;
+}
 if
 (
 mCaptionFrames
