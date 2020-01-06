@@ -1288,6 +1288,9 @@ AUTO_FILLED
 /
 Unregister
 listeners
+and
+clear
+guid
 once
 no
 field
@@ -1329,6 +1332,12 @@ reset
 "
 onChangeHandler
 )
+;
+this
+.
+filledProfileGUID
+=
+null
 ;
 }
 }
