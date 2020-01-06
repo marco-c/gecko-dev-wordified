@@ -22004,11 +22004,10 @@ mIsRoot
 usingDisplayPort
 &
 &
-!
 aBuilder
 -
 >
-IsForEventDelivery
+IsPaintingToWindow
 (
 )
 ;
