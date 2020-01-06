@@ -7572,9 +7572,6 @@ uint32_t
 numStackValues
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 return
 frame
 -

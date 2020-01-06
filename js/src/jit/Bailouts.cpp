@@ -252,9 +252,6 @@ BaselineBailoutInfo
 bailoutInfo
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 JSContext
 *
 cx
@@ -934,9 +931,6 @@ BaselineBailoutInfo
 bailoutInfo
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 sp
 -
 >

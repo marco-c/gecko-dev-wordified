@@ -4219,6 +4219,17 @@ settleOnActivation
 (
 )
 {
+MOZ_ASSERT
+(
+!
+data_
+.
+cx_
+-
+>
+inUnsafeCallWithABI
+)
+;
 while
 (
 true
