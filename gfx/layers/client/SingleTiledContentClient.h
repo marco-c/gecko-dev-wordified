@@ -278,6 +278,7 @@ false
 bool
 ProgressiveUpdate
 (
+const
 nsIntRegion
 &
 aValidRegion
@@ -289,6 +290,9 @@ const
 nsIntRegion
 &
 aOldValidRegion
+nsIntRegion
+&
+aOutDrawnRegion
 BasicTiledLayerPaintData
 *
 aPaintData
