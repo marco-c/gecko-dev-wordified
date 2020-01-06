@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -4616,7 +4625,10 @@ thread
 .
 *
 /
+Atomic
+<
 GraphTime
+>
 mEndTime
 ;
 /
@@ -4853,7 +4865,10 @@ unexpectedly
 .
 *
 /
+Atomic
+<
 bool
+>
 mDetectedNotRunning
 ;
 /

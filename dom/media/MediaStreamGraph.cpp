@@ -10575,7 +10575,10 @@ std
 min
 (
 aStateEnd
+GraphTime
+(
 mEndTime
+)
 )
 ;
 UpdateGraph
