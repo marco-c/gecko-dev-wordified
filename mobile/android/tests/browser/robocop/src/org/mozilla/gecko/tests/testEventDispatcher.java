@@ -277,11 +277,11 @@ final
 long
 WAIT_FOR_BUNDLE_EVENT_TIMEOUT_MILLIS
 =
-20000
+40000
 ;
 /
 /
-20
+40
 seconds
 private
 boolean
@@ -3730,9 +3730,7 @@ dispatchMessageForResponse
 (
 scope
 responseEvent
-"
-success
-"
+mode
 key
 refBundle
 )
