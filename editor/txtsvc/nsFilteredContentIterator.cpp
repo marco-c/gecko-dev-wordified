@@ -1604,7 +1604,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndNode
+aEndContainer
 int32_t
 aEndOffset
 )
@@ -1614,7 +1614,7 @@ NS_ENSURE_TRUE
 aStartContainer
 &
 &
-aEndNode
+aEndContainer
 &
 &
 aContent
@@ -1680,7 +1680,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aEndNode
+aEndContainer
 aEndOffset
 parentNode
 indx

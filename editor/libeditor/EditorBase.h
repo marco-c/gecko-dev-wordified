@@ -4447,7 +4447,7 @@ aSelection
 nsINode
 *
 *
-aEndNode
+aEndContainer
 int32_t
 *
 aEndOffset
@@ -4517,7 +4517,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 nsRange
@@ -4703,7 +4703,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndNode
+aEndContainer
 int32_t
 aEndOffset
 )

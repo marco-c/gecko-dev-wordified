@@ -7367,7 +7367,7 @@ GetEndContainer
 nsIDOMNode
 *
 *
-aEndParent
+aEndContainer
 )
 {
 if
@@ -7382,7 +7382,7 @@ return
 CallQueryInterface
 (
 mEndContainer
-aEndParent
+aEndContainer
 )
 ;
 }
@@ -8805,7 +8805,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 )
@@ -8822,7 +8822,7 @@ aStartContainer
 NS_WARN_IF
 (
 !
-aEndParent
+aEndContainer
 )
 )
 {
@@ -8868,7 +8868,7 @@ if
 aStartContainer
 =
 =
-aEndParent
+aEndContainer
 )
 {
 if
@@ -8876,7 +8876,7 @@ if
 !
 IsValidOffset
 (
-aEndParent
+aEndContainer
 aEndOffset
 )
 )
@@ -8917,9 +8917,9 @@ aEndOffset
 {
 DoSetRange
 (
-aEndParent
+aEndContainer
 aEndOffset
-aEndParent
+aEndContainer
 aEndOffset
 newStartRoot
 )
@@ -8931,7 +8931,7 @@ DoSetRange
 (
 aStartContainer
 aStartOffset
-aEndParent
+aEndContainer
 aEndOffset
 newStartRoot
 )
@@ -8947,7 +8947,7 @@ newEndRoot
 =
 IsValidBoundary
 (
-aEndParent
+aEndContainer
 )
 ;
 if
@@ -8965,7 +8965,7 @@ if
 !
 IsValidOffset
 (
-aEndParent
+aEndContainer
 aEndOffset
 )
 )
@@ -9000,9 +9000,9 @@ newEndRoot
 {
 DoSetRange
 (
-aEndParent
+aEndContainer
 aEndOffset
-aEndParent
+aEndContainer
 aEndOffset
 newEndRoot
 )
@@ -9042,7 +9042,7 @@ ComparePoints
 (
 aStartContainer
 aStartOffset
-aEndParent
+aEndContainer
 aEndOffset
 )
 =
@@ -9052,9 +9052,9 @@ aEndOffset
 {
 DoSetRange
 (
-aEndParent
+aEndContainer
 aEndOffset
-aEndParent
+aEndContainer
 aEndOffset
 newEndRoot
 )
@@ -9076,7 +9076,7 @@ DoSetRange
 (
 aStartContainer
 aStartOffset
-aEndParent
+aEndContainer
 aEndOffset
 newStartRoot
 )
@@ -11541,7 +11541,7 @@ split
 .
 *
 param
-aEndNode
+aEndContainer
 The
 second
 node
@@ -11578,7 +11578,7 @@ aStartOffset
 nsIDOMCharacterData
 *
 *
-aEndNode
+aEndContainer
 bool
 aCloneAfterOriginal
 =
@@ -11664,7 +11664,7 @@ return
 CallQueryInterface
 (
 newData
-aEndNode
+aEndContainer
 )
 ;
 }
@@ -17769,7 +17769,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 bool
@@ -17800,7 +17800,7 @@ nsINode
 >
 endContainer
 =
-aEndParent
+aEndContainer
 ;
 /
 /
@@ -20746,7 +20746,7 @@ uint32_t
 aStartOffset
 nsIContent
 *
-aEndParent
+aEndContainer
 uint32_t
 aEndOffset
 )
@@ -20799,7 +20799,7 @@ if
 aStartContainer
 =
 =
-aEndParent
+aEndContainer
 )
 {
 AppendTransformedText
@@ -20864,7 +20864,7 @@ nsIContent
 *
 endNode
 =
-aEndParent
+aEndContainer
 ;
 TreeTraversalState
 endState
@@ -20873,7 +20873,7 @@ AFTER_NODE
 ;
 if
 (
-aEndParent
+aEndContainer
 -
 >
 IsNodeOfType
@@ -20899,7 +20899,7 @@ uint32_t
 aEndOffset
 )
 <
-aEndParent
+aEndContainer
 -
 >
 GetChildCount
@@ -20909,7 +20909,7 @@ GetChildCount
 {
 endNode
 =
-aEndParent
+aEndContainer
 -
 >
 GetChildAt
@@ -21297,7 +21297,7 @@ GetParent
 }
 if
 (
-aEndParent
+aEndContainer
 -
 >
 IsNodeOfType
@@ -21319,7 +21319,7 @@ nsGenericDOMDataNode
 *
 >
 (
-aEndParent
+aEndContainer
 )
 ;
 AppendTransformedText

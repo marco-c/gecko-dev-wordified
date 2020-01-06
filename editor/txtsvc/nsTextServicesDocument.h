@@ -972,10 +972,10 @@ aStartOffset
 nsIDOMNode
 *
 *
-aParent2
+aEndContainer
 int32_t
 *
-aOffset2
+aEndOffset
 )
 ;
 static
@@ -989,7 +989,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 nsRange

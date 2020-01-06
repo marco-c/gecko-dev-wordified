@@ -312,7 +312,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 nsRange
@@ -332,7 +332,7 @@ int32_t
 aStartOffset
 nsIDOMNode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 nsIDOMRange
@@ -352,7 +352,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 nsRange
@@ -810,7 +810,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 )
@@ -1607,7 +1607,7 @@ uint32_t
 aStartOffset
 nsIContent
 *
-aEndParent
+aEndContainer
 uint32_t
 aEndOffset
 )
@@ -2143,7 +2143,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndParent
+aEndContainer
 int32_t
 aEndOffset
 bool
