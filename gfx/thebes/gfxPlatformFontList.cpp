@@ -4247,7 +4247,6 @@ GlobalFontMatch
 data
 (
 aCh
-aRunScript
 aMatchStyle
 )
 ;

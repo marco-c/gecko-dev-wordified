@@ -8398,8 +8398,6 @@ gfxFontFamily
 aFamily
 uint32_t
 aCh
-Script
-aRunScript
 )
 ;
 /
