@@ -593,12 +593,13 @@ RemoveFromCaches
 )
 {
 }
-nsTArray
+AutoTArray
 <
 nsCOMPtr
 <
 nsIContent
 >
+10
 >
 mElements
 ;
