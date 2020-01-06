@@ -4328,11 +4328,10 @@ parameters
 .
 if
 (
-mStartupFinished
-|
-|
 !
-mCacheInitialized
+Active
+(
+)
 |
 |
 cachePath
@@ -5976,6 +5975,11 @@ JSVERSION_LATEST
 options
 .
 setNoScriptRval
+(
+true
+)
+.
+setSourceIsLazy
 (
 true
 )
