@@ -459,7 +459,10 @@ year
 /
 /
 FIXME
-The
+bug
+1392932
+-
+the
 following
 field
 shouldn
@@ -468,6 +471,8 @@ t
 be
 recognized
 as
+/
+/
 "
 tel
 -
