@@ -1154,6 +1154,11 @@ className
 target
 -
 name
+addon
+-
+target
+-
+name
 "
 title
 :
