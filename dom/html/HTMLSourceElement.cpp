@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsCSSParser
-.
-h
-"
-#
-include
-"
 nsHostObjectProtocolHandler
 .
 h
@@ -516,9 +509,6 @@ IsEmpty
 return
 ;
 }
-nsCSSParser
-cssParser
-;
 mMediaList
 =
 MediaList
