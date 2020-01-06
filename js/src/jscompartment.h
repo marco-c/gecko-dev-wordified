@@ -4620,6 +4620,9 @@ const
 {
 MOZ_ASSERT
 (
+js
+:
+:
 CurrentThreadCanAccessRuntime
 (
 runtime_

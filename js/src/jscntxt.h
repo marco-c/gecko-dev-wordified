@@ -795,14 +795,6 @@ size_t
 nbytes
 )
 {
-/
-/
-Note
-:
-this
-is
-racy
-.
 runtime
 (
 )
