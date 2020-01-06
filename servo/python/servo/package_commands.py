@@ -204,7 +204,7 @@ android
 '
 target
 /
-arm
+armv7
 -
 linux
 -
