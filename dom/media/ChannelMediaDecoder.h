@@ -361,6 +361,8 @@ mAbstractMainThread
 ;
 }
 ;
+protected
+:
 RefPtr
 <
 ResourceCallback
@@ -416,6 +418,7 @@ aInit
 =
 0
 ;
+virtual
 nsresult
 Load
 (
@@ -430,6 +433,7 @@ nsIStreamListener
 aStreamListener
 )
 ;
+virtual
 nsresult
 Load
 (
