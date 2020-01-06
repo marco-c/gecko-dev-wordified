@@ -350,7 +350,7 @@ GainCalibration
 =
 0
 .
-00125
+00125f
 ;
 const
 float
