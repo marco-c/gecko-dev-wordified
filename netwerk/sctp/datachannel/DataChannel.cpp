@@ -919,6 +919,7 @@ nsITimer
 *
 aTimer
 )
+override
 {
 /
 /
