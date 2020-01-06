@@ -327,9 +327,14 @@ accctrl
 h
 >
 #
+ifndef
+PATH_MAX
+#
 define
 PATH_MAX
 MAX_PATH
+#
+endif
 #
 endif
 /
