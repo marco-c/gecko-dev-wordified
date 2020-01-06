@@ -155,7 +155,7 @@ dbg
 const
 debuggerLineNumber
 =
-24
+26
 ;
 const
 scopes
@@ -338,6 +338,14 @@ uFEFF
 "
 \
 xA0
+"
+"
+\
+u2028
+"
+"
+\
+u2029
 "
 ]
 ;
