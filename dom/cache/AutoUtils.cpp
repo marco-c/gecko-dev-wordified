@@ -2306,7 +2306,7 @@ mStreamCleanupList
 autoStream
 -
 >
-TakeOptionalValue
+TakeValue
 (
 )
 ;
@@ -3322,7 +3322,7 @@ mStreamCleanupList
 autoStream
 -
 >
-TakeOptionalValue
+TakeValue
 (
 )
 ;
@@ -3453,6 +3453,11 @@ aStreamList
 Extract
 (
 aId
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+stream
 )
 ;
 if

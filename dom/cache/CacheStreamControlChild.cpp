@@ -654,6 +654,11 @@ MOZ_DIAGNOSTIC_ASSERT
 aReadStreamOut
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+aStream
+)
+;
 UniquePtr
 <
 AutoIPCStream
