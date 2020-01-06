@@ -49,7 +49,7 @@ synthesizeMouseExpectEvent
 *
 synthesizeKeyExpectEvent
 *
-synthesizeNativeClick
+synthesizeNativeOSXClick
 *
 *
 When
