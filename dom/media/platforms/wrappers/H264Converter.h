@@ -533,6 +533,14 @@ aPendingSample
 ;
 RefPtr
 <
+ShutdownPromise
+>
+ShutdownDecoder
+(
+)
+;
+RefPtr
+<
 PlatformDecoderModule
 >
 mPDM
