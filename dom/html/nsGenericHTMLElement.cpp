@@ -17473,10 +17473,11 @@ nsIPresShell
 aPresShell
 )
 {
-nsTArray
+AutoTArray
 <
 Element
 *
+10
 >
 elementsToCheck
 ;
