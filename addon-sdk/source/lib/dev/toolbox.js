@@ -191,7 +191,7 @@ hooks
 ;
 const
 {
-gDevTools
+DevToolsShim
 }
 =
 Cu
@@ -199,17 +199,17 @@ Cu
 import
 (
 "
-resource
+chrome
 :
 /
 /
 devtools
+-
+shim
 /
-client
+content
 /
-framework
-/
-gDevTools
+DevToolsShim
 .
 jsm
 "
@@ -452,7 +452,7 @@ Panel
 .
 prototype
 ;
-gDevTools
+DevToolsShim
 .
 registerTool
 (
@@ -562,7 +562,7 @@ setup
 theme
 )
 ;
-gDevTools
+DevToolsShim
 .
 registerTheme
 (
@@ -659,7 +659,7 @@ each
 Panel
 =
 >
-gDevTools
+DevToolsShim
 .
 unregisterTool
 (
@@ -682,7 +682,7 @@ each
 Theme
 =
 >
-gDevTools
+DevToolsShim
 .
 unregisterTheme
 (
