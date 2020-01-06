@@ -185,6 +185,11 @@ void
 glcontext_ptr
 )
 ;
+bool
+gfx_use_wrench
+(
+)
+;
 void
 gfx_critical_note
 (
