@@ -708,9 +708,6 @@ cx
 LifoAlloc
 *
 alloc
-RegExpShared
-*
-shared
 size_t
 numSavedRegisters
 )
@@ -720,7 +717,6 @@ RegExpMacroAssembler
 cx
 *
 alloc
-shared
 numSavedRegisters
 )
 pc_
@@ -1612,8 +1608,10 @@ InterpretedRegExpMacroAssembler
 :
 CheckBitInTable
 (
-uint8_t
-*
+RegExpShared
+:
+:
+JitCodeTable
 table
 jit
 :
