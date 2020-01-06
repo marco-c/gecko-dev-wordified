@@ -237,6 +237,16 @@ DecoderDoctorDiagnostics
 aDiagnostics
 )
 ;
+static
+bool
+IsSupportedTypeWithoutDiagnostics
+(
+const
+MediaContainerType
+&
+aContainerType
+)
+;
 /
 /
 Return
