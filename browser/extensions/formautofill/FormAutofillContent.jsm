@@ -333,6 +333,7 @@ const
 {
 ADDRESSES_COLLECTION_NAME
 CREDITCARDS_COLLECTION_NAME
+FIELD_STATES
 }
 =
 FormAutofillUtils
@@ -750,6 +751,18 @@ fieldName
 )
 ;
 let
+isInputAutofilled
+=
+info
+.
+state
+=
+=
+FIELD_STATES
+.
+AUTO_FILLED
+;
+let
 handler
 =
 FormAutofillContent
@@ -881,7 +894,13 @@ fieldName
 )
 |
 |
+(
+!
+isInputAutofilled
+&
+&
 filledRecordGUID
+)
 |
 |
 (
@@ -1159,6 +1178,7 @@ fieldName
 allFieldNames
 adaptedRecords
 {
+isInputAutofilled
 }
 )
 ;
@@ -1190,6 +1210,7 @@ allFieldNames
 adaptedRecords
 {
 isSecure
+isInputAutofilled
 }
 )
 ;
