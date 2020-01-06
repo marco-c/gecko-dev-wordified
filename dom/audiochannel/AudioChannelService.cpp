@@ -1892,7 +1892,7 @@ mVolume
 winData
 -
 >
-mChannelConfig
+mConfig
 .
 mVolume
 ;
@@ -1908,7 +1908,7 @@ mMuted
 winData
 -
 >
-mChannelConfig
+mConfig
 .
 mMuted
 ;
@@ -4500,7 +4500,7 @@ aAgent
 ;
 +
 +
-mChannelConfig
+mConfig
 .
 mNumberOfAgents
 ;
@@ -4515,7 +4515,7 @@ to
 BrowserElementAudioChannel
 if
 (
-mChannelConfig
+mConfig
 .
 mNumberOfAgents
 =
@@ -4574,7 +4574,7 @@ aAgent
 ;
 MOZ_ASSERT
 (
-mChannelConfig
+mConfig
 .
 mNumberOfAgents
 >
@@ -4583,13 +4583,13 @@ mNumberOfAgents
 ;
 -
 -
-mChannelConfig
+mConfig
 .
 mNumberOfAgents
 ;
 if
 (
-mChannelConfig
+mConfig
 .
 mNumberOfAgents
 =
