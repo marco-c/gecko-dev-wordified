@@ -99,12 +99,6 @@ use
 num_cpus
 ;
 use
-parallel
-:
-:
-STYLE_THREAD_STACK_SIZE_KB
-;
-use
 rayon
 ;
 use
@@ -658,6 +652,7 @@ exit_handler
 (
 thread_shutdown
 )
+;
 /
 /
 Set
@@ -672,6 +667,8 @@ Gecko
 bug
 1376883
 .
+/
+/
 .
 stack_size
 (
