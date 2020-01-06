@@ -2234,6 +2234,13 @@ actions
 )
 :
         
+assert
+'
+'
+not
+in
+action
+        
 mh_command
 .
 append
@@ -2260,6 +2267,13 @@ options
 ]
 )
 :
+        
+assert
+'
+'
+not
+in
+option
         
 mh_command
 .
