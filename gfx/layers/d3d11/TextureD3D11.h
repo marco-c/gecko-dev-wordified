@@ -2498,9 +2498,11 @@ aDevice
 )
 ;
 virtual
-void
+bool
 Synchronize
 (
+bool
+aFallible
 )
 override
 ;
@@ -2538,6 +2540,8 @@ private
 bool
 Init
 (
+bool
+aFallible
 )
 ;
 SyncHandle
