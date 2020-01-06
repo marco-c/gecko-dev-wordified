@@ -3063,12 +3063,6 @@ UndisplayedMap
 GetEntryFor
 /
 /
-nsStyleContext
-:
-:
-CalcStyleDifferenceInternal
-/
-/
 EffectCompositor
 :
 :
