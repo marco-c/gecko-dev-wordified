@@ -4179,7 +4179,10 @@ i
 )
 print
 (
+"
 STATUS
+:
+"
 +
 lines
 [
@@ -5389,14 +5392,6 @@ assertEventuallyDeepEq
 (
 this
 )
-;
-var
-STATUS
-=
-"
-STATUS
-:
-"
 ;
 var
 gDelayTestDriverEnd
