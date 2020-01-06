@@ -671,11 +671,6 @@ navigation
 SetFrameTree
 (
 SendableFrameTree
-IpcSender
-<
-(
-)
->
 )
 /
 /
