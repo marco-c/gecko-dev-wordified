@@ -737,11 +737,6 @@ menubar
 "
 ]
 #
-toolbar
--
-menubar
-~
-#
 TabsToolbar
 :
 root
@@ -766,7 +761,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 {
@@ -836,11 +831,6 @@ menubar
 "
 ]
 #
-toolbar
--
-menubar
-~
-#
 TabsToolbar
 :
 root
@@ -865,7 +855,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 {
@@ -7507,11 +7497,6 @@ menubar
 "
 ]
 #
-toolbar
--
-menubar
-~
-#
 TabsToolbar
 >
 .
@@ -7537,11 +7522,6 @@ chromehidden
 menubar
 "
 ]
-#
-toolbar
--
-menubar
-~
 #
 TabsToolbar
 >
@@ -7572,7 +7552,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 >
@@ -7605,7 +7585,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 >
@@ -7687,11 +7667,6 @@ menubar
 "
 ]
 #
-toolbar
--
-menubar
-~
-#
 TabsToolbar
 >
 .
@@ -7717,11 +7692,6 @@ chromehidden
 menubar
 "
 ]
-#
-toolbar
--
-menubar
-~
 #
 TabsToolbar
 >
@@ -7752,7 +7722,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 >
@@ -7785,7 +7755,7 @@ true
 [
 inactive
 ]
-~
++
 #
 TabsToolbar
 >
