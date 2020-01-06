@@ -3493,7 +3493,9 @@ promises
 ;
 handler
 .
-addressFieldDetails
+address
+.
+fieldDetails
 =
 testcase
 .
@@ -3501,7 +3503,9 @@ addressFieldDetails
 ;
 handler
 .
-addressFieldDetails
+address
+.
+fieldDetails
 .
 forEach
 (
@@ -3607,7 +3611,9 @@ equal
 (
 handler
 .
-filledProfileGUID
+address
+.
+filledRecordGUID
 testcase
 .
 profileData
@@ -3616,7 +3622,7 @@ guid
 "
 Check
 if
-filledProfileGUID
+filledRecordGUID
 is
 set
 correctly
