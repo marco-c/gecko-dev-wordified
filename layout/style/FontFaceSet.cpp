@@ -1435,7 +1435,7 @@ nsAString
 aFont
 RefPtr
 <
-FontFamilyListRefCnt
+SharedFontList
 >
 &
 aFamilyList
@@ -1675,18 +1675,11 @@ return
 }
 aFamilyList
 =
-static_cast
-<
-FontFamilyListRefCnt
-*
->
-(
 family
 -
 >
 GetFontFamilyListValue
 (
-)
 )
 ;
 int32_t
@@ -1896,7 +1889,7 @@ aRv
 {
 RefPtr
 <
-FontFamilyListRefCnt
+SharedFontList
 >
 familyList
 ;
@@ -2008,9 +2001,7 @@ fontFamilyName
 familyList
 -
 >
-GetFontlist
-(
-)
+mNames
 )
 {
 RefPtr
