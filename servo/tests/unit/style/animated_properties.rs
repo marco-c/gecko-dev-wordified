@@ -78,10 +78,7 @@ properties
 animated_properties
 :
 :
-{
 Animatable
-IntermediateRGBA
-}
 ;
 use
 style
