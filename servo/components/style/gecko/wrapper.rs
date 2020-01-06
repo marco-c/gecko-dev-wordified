@@ -654,7 +654,7 @@ use
 hash
 :
 :
-HashMap
+FnvHashMap
 ;
 use
 logical_geometry
@@ -9105,7 +9105,7 @@ self
 )
 -
 >
-HashMap
+FnvHashMap
 <
 TransitionProperty
 Arc
@@ -9158,12 +9158,18 @@ let
 mut
 map
 =
-HashMap
+FnvHashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 collection_length
+Default
+:
+:
+default
+(
+)
 )
 ;
 for
@@ -9963,7 +9969,7 @@ ComputedValues
 existing_transitions
 :
 &
-HashMap
+FnvHashMap
 <
 TransitionProperty
 Arc
