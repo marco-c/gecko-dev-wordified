@@ -6951,6 +6951,18 @@ ShareableBytes
 bytecode
 )
 {
+if
+(
+!
+env_
+-
+>
+debugEnabled
+(
+)
+)
+return
+;
 mozilla
 :
 :
@@ -6994,7 +7006,7 @@ memcpy
 metadata_
 -
 >
-hash
+debugHash
 hash
 sizeof
 (
