@@ -9645,6 +9645,8 @@ IMEContentObserver
 :
 TryToFlushPendingNotifications
 (
+bool
+aAllowAsync
 )
 {
 if
@@ -9659,8 +9661,13 @@ mSendingNotification
 NOTIFY_IME_OF_NOTHING
 |
 |
+(
 XRE_IsContentProcess
 (
+)
+&
+&
+aAllowAsync
 )
 )
 {

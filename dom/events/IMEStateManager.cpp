@@ -4129,6 +4129,7 @@ sActiveIMEContentObserver
 >
 TryToFlushPendingNotifications
 (
+false
 )
 ;
 }
@@ -5216,6 +5217,7 @@ sActiveIMEContentObserver
 >
 TryToFlushPendingNotifications
 (
+false
 )
 ;
 }

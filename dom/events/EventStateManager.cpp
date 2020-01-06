@@ -2953,6 +2953,7 @@ mIMEContentObserver
 >
 TryToFlushPendingNotifications
 (
+true
 )
 ;
 }
