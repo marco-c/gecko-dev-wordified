@@ -6140,7 +6140,7 @@ namespace
 )
         
 except
-Exception
+KeyError
 :
             
 #
