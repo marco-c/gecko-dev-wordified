@@ -5718,9 +5718,10 @@ mLength
 =
 0
 ;
-mFlags
-=
+SetDataFlags
+(
 F_TERMINATED
+)
 ;
 }
 }
