@@ -18103,6 +18103,14 @@ handle
 the
 event
 .
+if
+(
+aKeyboardEvent
+-
+>
+mWidget
+)
+{
 aKeyboardEvent
 -
 >
@@ -18114,6 +18122,7 @@ PostHandleKeyEvent
 aKeyboardEvent
 )
 ;
+}
 if
 (
 aKeyboardEvent
