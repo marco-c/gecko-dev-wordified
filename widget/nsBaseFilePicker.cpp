@@ -415,6 +415,9 @@ away
 *
 /
 class
+nsBaseFilePicker
+:
+:
 AsyncShowFilePicker
 :
 public
@@ -427,7 +430,7 @@ public
 :
 AsyncShowFilePicker
 (
-nsIFilePicker
+nsBaseFilePicker
 *
 aFilePicker
 nsIFilePickerShownCallback
@@ -591,7 +594,7 @@ private
 :
 RefPtr
 <
-nsIFilePicker
+nsBaseFilePicker
 >
 mFilePicker
 ;

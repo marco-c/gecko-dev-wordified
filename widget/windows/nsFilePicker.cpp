@@ -3120,7 +3120,7 @@ true
 nsIFilePicker
 impl
 .
-NS_IMETHODIMP
+nsresult
 nsFilePicker
 :
 :
@@ -3409,7 +3409,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFilePicker
 :
 :

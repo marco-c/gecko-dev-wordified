@@ -151,6 +151,9 @@ nsBaseFilePicker
 public
 nsIFilePicker
 {
+class
+AsyncShowFilePicker
+;
 public
 :
 nsBaseFilePicker
@@ -321,6 +324,17 @@ const
 nsAString
 &
 aTitle
+)
+=
+0
+;
+virtual
+nsresult
+Show
+(
+int16_t
+*
+_retval
 )
 =
 0
