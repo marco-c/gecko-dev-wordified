@@ -51949,6 +51949,8 @@ endif
 #
 ifdef
 ACCESSIBILITY
+if
+(
 nsAccessibilityService
 *
 accService
@@ -51959,10 +51961,6 @@ nsIPresShell
 AccService
 (
 )
-;
-if
-(
-accService
 )
 {
 accService
