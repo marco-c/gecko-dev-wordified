@@ -7522,6 +7522,9 @@ modeHint
 final
 String
 actionHint
+final
+boolean
+inPrivateBrowsing
 )
 {
 /
@@ -7585,6 +7588,16 @@ actionHint
 +
 "
 \
+"
+"
++
+"
+inPrivateBrowsing
+=
+"
++
+inPrivateBrowsing
++
 "
 )
 "
@@ -7653,6 +7666,7 @@ state
 typeHint
 modeHint
 actionHint
+inPrivateBrowsing
 )
 ;
 }
