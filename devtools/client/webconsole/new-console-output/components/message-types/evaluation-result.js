@@ -227,16 +227,6 @@ serviceContainer
 PropTypes
 .
 object
-loadedObjectProperties
-:
-PropTypes
-.
-object
-loadedObjectEntries
-:
-PropTypes
-.
-object
 }
 ;
 function
@@ -251,8 +241,6 @@ dispatch
 message
 serviceContainer
 timestampsVisible
-loadedObjectProperties
-loadedObjectEntries
 }
 =
 props
@@ -366,8 +354,6 @@ true
 escapeWhitespace
 :
 false
-loadedObjectProperties
-loadedObjectEntries
 type
 helperType
 }

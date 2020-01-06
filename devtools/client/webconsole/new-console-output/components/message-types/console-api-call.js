@@ -293,16 +293,6 @@ PropTypes
 bool
 .
 isRequired
-loadedObjectProperties
-:
-PropTypes
-.
-object
-loadedObjectEntries
-:
-PropTypes
-.
-object
 }
 ;
 ConsoleApiCall
@@ -330,8 +320,6 @@ tableData
 serviceContainer
 timestampsVisible
 repeat
-loadedObjectProperties
-loadedObjectEntries
 }
 =
 props
@@ -363,8 +351,6 @@ messageBodyConfig
 =
 {
 dispatch
-loadedObjectProperties
-loadedObjectEntries
 messageId
 parameters
 userProvidedStyles

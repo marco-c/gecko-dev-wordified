@@ -676,7 +676,7 @@ messageId
 )
 ;
 }
-hudProxyClient
+hudProxy
 :
 this
 .
@@ -685,8 +685,6 @@ jsterm
 hud
 .
 proxy
-.
-client
 openLink
 :
 url
