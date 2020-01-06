@@ -3630,7 +3630,7 @@ uid
 if
 (
 !
-getUniqueId
+getOrCreateUniqueId
 (
 cell
 &
@@ -3687,7 +3687,7 @@ OOM
 .
 MOZ_MUST_USE
 bool
-getUniqueId
+getOrCreateUniqueId
 (
 js
 :
@@ -3939,7 +3939,7 @@ oomUnsafe
 if
 (
 !
-getUniqueId
+getOrCreateUniqueId
 (
 cell
 &
