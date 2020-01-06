@@ -5993,6 +5993,7 @@ XPCConvert
 NativeInterface2JSObject
 (
 aRetval
+nullptr
 aHelper
 aIID
 aAllowNativeWrapper
@@ -22486,6 +22487,14 @@ State
 :
 eCustom
 )
+)
+;
+newElement
+-
+>
+SetCustomElementDefinition
+(
+definition
 )
 ;
 return
