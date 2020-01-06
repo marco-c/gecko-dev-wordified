@@ -566,6 +566,10 @@ heapsize_derive
 ;
 extern
 crate
+itertools
+;
+extern
+crate
 itoa
 ;
 #
