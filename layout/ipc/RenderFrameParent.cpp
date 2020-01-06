@@ -2349,6 +2349,11 @@ HasDocumentLevelListenersForApzAwareEvents
 aFrame
 -
 >
+PresContext
+(
+)
+-
+>
 PresShell
 (
 )
@@ -2413,7 +2418,7 @@ layer
 layer
 -
 >
-AsContainerLayer
+AsRefLayer
 (
 )
 )
@@ -2421,7 +2426,7 @@ AsContainerLayer
 layer
 -
 >
-AsContainerLayer
+AsRefLayer
 (
 )
 -
