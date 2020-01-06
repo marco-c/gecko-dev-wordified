@@ -5546,7 +5546,7 @@ aContext
 }
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
