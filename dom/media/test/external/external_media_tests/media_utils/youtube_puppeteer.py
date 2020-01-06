@@ -806,15 +806,7 @@ player
 '
 )
             
-self
-.
-marionette
-.
-execute_script
-(
-"
-log
-(
+print
 '
 .
 html5
@@ -822,16 +814,9 @@ html5
 video
 -
 player
-"
-                                           
-"
 element
 obtained
 '
-)
-;
-"
-)
         
 #
 When
@@ -1136,26 +1121,14 @@ except
 ValueError
 :
                 
-self
-.
-marionette
-.
-log
-(
+print
 '
 Error
 loading
-json
+JSON
 :
 DebugText
 '
-                                    
-level
-=
-'
-DEBUG
-'
-)
     
 def
 _execute_yt_script
@@ -1341,11 +1314,7 @@ interval
 try
 :
             
-self
-.
-marionette
-.
-log
+print
 (
 '
 process_ad
@@ -1357,7 +1326,6 @@ s
 for
 ad
 '
-                                
 .
 format
 (
@@ -1387,11 +1355,7 @@ except
 TimeoutException
 :
             
-self
-.
-marionette
-.
-log
+print
 (
 '
 Waiting
@@ -1401,12 +1365,6 @@ to
 end
 timed
 out
-'
-                                
-level
-=
-'
-WARNING
 '
 )
     
@@ -1633,21 +1591,13 @@ NoSuchElementException
 )
 :
             
-self
-.
-marionette
-.
-log
+print
 (
 '
 Could
 not
 obtain
-'
-                                
-'
 element
-:
 {
 }
 '
@@ -1656,12 +1606,6 @@ format
 (
 selector
 )
-                                
-level
-=
-'
-WARNING
-'
 )
         
 return
@@ -3438,11 +3382,7 @@ in
 test
 function
                     
-self
-.
-marionette
-.
-log
+print
 (
 '
 Buffering
@@ -3450,7 +3390,6 @@ and
 no
 playback
 progress
-.
 '
 )
                     
