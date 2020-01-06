@@ -557,9 +557,8 @@ ApplyTo
 gfxContext
 *
 aContext
-nsPresContext
-*
-aPresContext
+int32_t
+A2D
 uint32_t
 aBegin
 =
