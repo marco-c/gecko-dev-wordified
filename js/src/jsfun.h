@@ -4920,17 +4920,6 @@ AllocKind
 FUNCTION
 )
 ;
-bool
-FunctionHasResolveHook
-(
-const
-JSAtomState
-&
-atomState
-jsid
-id
-)
-;
 extern
 bool
 fun_toString

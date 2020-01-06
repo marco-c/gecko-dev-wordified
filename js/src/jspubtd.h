@@ -463,9 +463,6 @@ JSClass
 struct
 JSCompartment
 ;
-struct
-JSCrossCompartmentCall
-;
 class
 JSErrorReport
 ;
@@ -479,13 +476,7 @@ struct
 JSLocaleCallbacks
 ;
 struct
-JSObjectMap
-;
-struct
 JSPrincipals
-;
-struct
-JSPropertyName
 ;
 struct
 JSPropertySpec
