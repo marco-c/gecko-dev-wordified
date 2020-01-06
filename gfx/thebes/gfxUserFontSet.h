@@ -4580,6 +4580,7 @@ if
 any
 gfxUserFontSet
 *
+MOZ_NON_OWNING_REF
 mFontSet
 ;
 /
