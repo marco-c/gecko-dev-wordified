@@ -2604,7 +2604,7 @@ parser
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 .
@@ -2650,7 +2650,7 @@ Err
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 )
@@ -3058,7 +3058,7 @@ Err
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 .
@@ -3104,7 +3104,7 @@ Err
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 )
@@ -3159,7 +3159,7 @@ ok_or
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 .
@@ -3406,7 +3406,7 @@ Err
 SelectorParseError
 :
 :
-UnexpectedIdent
+UnsupportedPseudoClassOrElement
 (
 name
 .
