@@ -88,6 +88,13 @@ MediaResource
 .
 h
 "
+#
+include
+"
+MediaChannelStatistics
+.
+h
+"
 namespace
 mozilla
 {
