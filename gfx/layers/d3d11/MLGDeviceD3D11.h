@@ -1612,6 +1612,12 @@ mUnitQuadVB
 ;
 RefPtr
 <
+MLGBuffer
+>
+mUnitTriangleVB
+;
+RefPtr
+<
 ID3D11VertexShader
 >
 mCurrentVertexShader
