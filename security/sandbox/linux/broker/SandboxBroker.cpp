@@ -352,6 +352,8 @@ socketpair
 (
 AF_UNIX
 SOCK_SEQPACKET
+|
+SOCK_CLOEXEC
 0
 fds
 )
