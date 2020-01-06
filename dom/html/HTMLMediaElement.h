@@ -3775,9 +3775,10 @@ ContainsRestrictedContent
 )
 ;
 void
-CannotDecryptWaitingForKey
+NotifyWaitingForKey
 (
 )
+override
 ;
 bool
 MozAutoplayEnabled
