@@ -521,6 +521,7 @@ addEventListener
 load
 "
 function
+listener
 (
 )
 {
@@ -563,9 +564,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+listener
 )
 ;
 info

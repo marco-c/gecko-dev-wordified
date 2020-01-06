@@ -281,6 +281,7 @@ obs
 addObserver
 (
 function
+observer
 (
 )
 {
@@ -290,9 +291,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 "
 addons
 -
@@ -720,6 +719,7 @@ obs
 addObserver
 (
 function
+observer
 (
 )
 {
@@ -729,9 +729,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 "
 addons
 -

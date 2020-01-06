@@ -438,6 +438,7 @@ let
 onPopupShown
 =
 function
+popupShownListener
 (
 aEvent
 )
@@ -459,9 +460,7 @@ removeEventListener
 "
 popupshown
 "
-arguments
-.
-callee
+popupShownListener
 )
 ;
 checkBookmarksPanel
@@ -479,6 +478,7 @@ let
 onPopupHidden
 =
 function
+listener
 (
 aEvent
 )
@@ -500,9 +500,7 @@ removeEventListener
 "
 popuphidden
 "
-arguments
-.
-callee
+listener
 )
 ;
 if

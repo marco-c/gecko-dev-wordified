@@ -58,6 +58,7 @@ addEventListener
 load
 "
 function
+listener
 (
 event
 )
@@ -82,9 +83,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+listener
 true
 )
 ;

@@ -2556,6 +2556,7 @@ obs
 addObserver
 (
 function
+observer
 (
 aSubject
 aTopic
@@ -2775,9 +2776,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 "
 update
 -

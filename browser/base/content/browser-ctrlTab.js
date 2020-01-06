@@ -744,6 +744,7 @@ this
 ;
 return
 function
+listener
 (
 event
 )
@@ -769,9 +770,7 @@ removeEventListener
 event
 .
 type
-arguments
-.
-callee
+listener
 )
 ;
 self

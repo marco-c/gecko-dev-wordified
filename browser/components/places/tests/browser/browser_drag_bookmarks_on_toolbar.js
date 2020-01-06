@@ -270,6 +270,7 @@ addEventListener
 dragstart
 "
 function
+listener
 (
 event
 )
@@ -539,9 +540,7 @@ removeEventListener
 "
 dragstart
 "
-arguments
-.
-callee
+listener
 )
 ;
 /

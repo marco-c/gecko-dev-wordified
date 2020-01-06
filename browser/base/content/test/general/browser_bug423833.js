@@ -550,6 +550,7 @@ addEventListener
 TabOpen
 "
 function
+listener
 (
 event
 )
@@ -569,9 +570,7 @@ removeEventListener
 "
 TabOpen
 "
-arguments
-.
-callee
+listener
 )
 ;
 }
@@ -773,6 +772,7 @@ ww
 registerNotification
 (
 function
+notification
 (
 aSubject
 aTopic
@@ -798,9 +798,7 @@ ww
 .
 unregisterNotification
 (
-arguments
-.
-callee
+notification
 )
 ;
 }

@@ -3044,6 +3044,7 @@ obs
 addObserver
 (
 function
+observer
 (
 aSubject
 aTopic
@@ -3056,9 +3057,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 aTopic
 )
 ;
@@ -3236,6 +3235,7 @@ addEventListener
 unload
 "
 function
+listener
 (
 )
 {
@@ -3260,9 +3260,7 @@ removeEventListener
 "
 unload
 "
-arguments
-.
-callee
+listener
 )
 ;
 resolve

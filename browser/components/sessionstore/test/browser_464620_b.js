@@ -140,6 +140,7 @@ addEventListener
 load
 "
 function
+loadListener
 (
 aEvent
 )
@@ -170,9 +171,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+loadListener
 true
 )
 ;
@@ -206,6 +205,7 @@ addEventListener
 464620_b
 "
 function
+listener
 (
 eventTab2
 )
@@ -219,9 +219,7 @@ removeEventListener
 "
 464620_b
 "
-arguments
-.
-callee
+listener
 true
 )
 ;

@@ -168,6 +168,7 @@ addEventListener
 load
 "
 function
+listener
 (
 aEvent
 )
@@ -200,9 +201,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+listener
 true
 )
 ;
@@ -268,6 +267,7 @@ addEventListener
 load
 "
 function
+loadListener
 (
 eventTab2
 )
@@ -305,15 +305,14 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+loadListener
 true
 )
 ;
 executeSoon
 (
 function
+innerHTMLPoller
 (
 )
 {
@@ -387,9 +386,7 @@ value
 ;
 setTimeout
 (
-arguments
-.
-callee
+innerHTMLPoller
 100
 )
 ;

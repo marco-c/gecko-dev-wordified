@@ -60,6 +60,7 @@ add_task
 (
 async
 function
+listener
 (
 )
 {
@@ -162,9 +163,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+listener
 true
 )
 ;

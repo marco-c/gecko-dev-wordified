@@ -252,6 +252,7 @@ addEventListener
 popupshown
 "
 function
+listener
 (
 event
 )
@@ -276,9 +277,7 @@ removeEventListener
 "
 popupshown
 "
-arguments
-.
-callee
+listener
 )
 ;
 if

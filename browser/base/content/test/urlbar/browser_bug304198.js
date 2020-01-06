@@ -724,9 +724,6 @@ charsToDelete
 await
 urlbarBackspace
 (
-arguments
-.
-callee
 )
 ;
 deleted
