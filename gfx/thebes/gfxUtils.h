@@ -1007,10 +1007,10 @@ aVal
 *
 /
 static
-gfxFloat
+float
 ClampToScaleFactor
 (
-gfxFloat
+float
 aVal
 bool
 aRoundDown

@@ -3717,10 +3717,10 @@ const
 AnimationValue
 &
 aValue
-gfxSize
+Size
 &
 aMinScale
-gfxSize
+Size
 &
 aMaxScale
 )
@@ -3836,10 +3836,10 @@ Animation
 >
 &
 aAnimations
-gfxSize
+Size
 &
 aMaxScale
-gfxSize
+Size
 &
 aMinScale
 )
@@ -4149,7 +4149,7 @@ aMaxScale
 }
 }
 }
-gfxSize
+Size
 nsLayoutUtils
 :
 :
@@ -4169,7 +4169,7 @@ nsSize
 aDisplaySize
 )
 {
-gfxSize
+Size
 maxScale
 (
 std
@@ -4177,7 +4177,7 @@ std
 :
 numeric_limits
 <
-gfxFloat
+float
 >
 :
 :
@@ -4189,7 +4189,7 @@ std
 :
 numeric_limits
 <
-gfxFloat
+float
 >
 :
 :
@@ -4198,7 +4198,7 @@ min
 )
 )
 ;
-gfxSize
+Size
 minScale
 (
 std
@@ -4206,7 +4206,7 @@ std
 :
 numeric_limits
 <
-gfxFloat
+float
 >
 :
 :
@@ -4218,7 +4218,7 @@ std
 :
 numeric_limits
 <
-gfxFloat
+float
 >
 :
 :
@@ -4268,7 +4268,7 @@ std
 :
 numeric_limits
 <
-gfxFloat
+float
 >
 :
 :
@@ -4287,7 +4287,7 @@ encounter
 a
 transform
 return
-gfxSize
+Size
 (
 1
 .
@@ -4299,7 +4299,7 @@ gfxSize
 ;
 }
 return
-gfxSize
+Size
 (
 GetSuitableScale
 (
