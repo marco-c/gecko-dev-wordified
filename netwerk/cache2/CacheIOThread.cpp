@@ -2697,7 +2697,7 @@ returnEvents
 false
 ;
 bool
-reportTelementry
+reportTelemetry
 =
 true
 ;
@@ -2779,10 +2779,10 @@ break
 }
 if
 (
-reportTelementry
+reportTelemetry
 )
 {
-reportTelementry
+reportTelemetry
 =
 false
 ;

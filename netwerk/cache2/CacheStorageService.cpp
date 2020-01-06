@@ -11140,7 +11140,7 @@ highPriority
 }
 /
 /
-Telementry
+Telemetry
 collection
 namespace
 {
