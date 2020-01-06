@@ -548,7 +548,7 @@ Shutdown
 override
 ;
 virtual
-void
+bool
 GetHMDs
 (
 nsTArray

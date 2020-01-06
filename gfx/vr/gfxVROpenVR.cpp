@@ -3340,7 +3340,7 @@ mVRSystem
 nullptr
 ;
 }
-void
+bool
 VRSystemManagerOpenVR
 :
 :
@@ -3454,6 +3454,7 @@ err
 )
 {
 return
+false
 ;
 }
 :
@@ -3510,6 +3511,7 @@ VR_Shutdown
 )
 ;
 return
+false
 ;
 }
 :
@@ -3566,6 +3568,7 @@ VR_Shutdown
 )
 ;
 return
+false
 ;
 }
 :
@@ -3622,6 +3625,7 @@ VR_Shutdown
 )
 ;
 return
+false
 ;
 }
 mVRSystem
@@ -3651,7 +3655,13 @@ AppendElement
 mOpenVRHMD
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 bool
 VRSystemManagerOpenVR
