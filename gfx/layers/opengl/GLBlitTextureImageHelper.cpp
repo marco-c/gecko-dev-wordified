@@ -1555,7 +1555,7 @@ call
 to
 TexImage2D
 .
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 msg
 .

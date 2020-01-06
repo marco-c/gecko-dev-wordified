@@ -338,7 +338,7 @@ start
 =
 kNotFound
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -378,7 +378,7 @@ if
 (
 errno
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -408,7 +408,7 @@ EndReading
 errorCodeString
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -439,7 +439,7 @@ if
 (
 errno
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -469,7 +469,7 @@ EndReading
 requestCodeString
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -500,7 +500,7 @@ if
 (
 errno
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -541,7 +541,7 @@ if
 !
 start
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -577,7 +577,7 @@ if
 (
 errno
 )
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )
@@ -627,7 +627,7 @@ message
 user_data
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 message
 )

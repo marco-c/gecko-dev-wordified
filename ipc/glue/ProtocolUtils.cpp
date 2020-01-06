@@ -1730,7 +1730,7 @@ result
 "
 )
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 formattedMessage
 .
@@ -1750,7 +1750,7 @@ char
 aMsg
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 aMsg
 )
