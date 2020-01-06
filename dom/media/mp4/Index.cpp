@@ -66,8 +66,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Index
 .
 h
@@ -75,8 +73,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Interval
 .
 h
@@ -84,8 +80,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MP4Metadata
 .
 h
@@ -93,8 +87,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 SinfParser
 .
 h

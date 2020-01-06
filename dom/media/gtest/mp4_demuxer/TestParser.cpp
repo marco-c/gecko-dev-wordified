@@ -137,8 +137,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 BufferStream
 .
 h
@@ -146,8 +144,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MP4Metadata
 .
 h
@@ -155,8 +151,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MoofParser
 .
 h

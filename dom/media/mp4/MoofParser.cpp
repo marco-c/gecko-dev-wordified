@@ -59,8 +59,6 @@ MPL
 #
 include
 "
-mp4_demuxer
-/
 MoofParser
 .
 h
@@ -68,8 +66,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Box
 .
 h
@@ -77,8 +73,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 SinfParser
 .
 h

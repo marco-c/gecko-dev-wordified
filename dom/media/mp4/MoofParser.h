@@ -74,8 +74,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Atom
 .
 h
@@ -83,8 +81,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 AtomType
 .
 h
@@ -92,8 +88,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 SinfParser
 .
 h
@@ -101,8 +95,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Stream
 .
 h
@@ -110,8 +102,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Interval
 .
 h
