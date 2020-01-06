@@ -301,10 +301,10 @@ namespace
 dom
 {
 class
-HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
+HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
 ;
 typedef
-HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
+HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
 CanvasImageSource
 ;
 class
