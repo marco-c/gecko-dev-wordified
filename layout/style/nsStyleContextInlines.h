@@ -476,7 +476,11 @@ name_
 >
 (
 \
+gecko
+-
+>
 mCachedInheritedData
+\
 .
 mStyleStructs
 [
@@ -628,7 +632,11 @@ needed
 *
 /
 \
+gecko
+-
+>
 mCachedInheritedData
+\
 .
 mStyleStructs
 [
@@ -1124,6 +1132,9 @@ GetAsGecko
 \
 if
 (
+gecko
+-
+>
 mCachedResetData
 )
 {
@@ -1147,6 +1158,9 @@ name_
 >
 (
 \
+gecko
+-
+>
 mCachedResetData
 -
 >
