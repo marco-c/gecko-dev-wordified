@@ -3873,12 +3873,7 @@ attributes
 scriptable
 :
                 
-print
->
->
-sys
-.
-stderr
+raise
 IDLError
 (
 "
