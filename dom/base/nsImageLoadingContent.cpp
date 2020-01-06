@@ -4648,6 +4648,9 @@ bool
 aNotify
 ImageLoadType
 aImageLoadType
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 /
@@ -4901,6 +4904,11 @@ aNotify
 aImageLoadType
 false
 doc
+nsIRequest
+:
+:
+LOAD_NORMAL
+aTriggeringPrincipal
 )
 ;
 }
@@ -4926,6 +4934,9 @@ nsIDocument
 aDocument
 nsLoadFlags
 aLoadFlags
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 MOZ_ASSERT
@@ -5592,6 +5603,7 @@ nsContentUtils
 GetLoadingPrincipalForXULNode
 (
 content
+aTriggeringPrincipal
 getter_AddRefs
 (
 triggeringPrincipal
