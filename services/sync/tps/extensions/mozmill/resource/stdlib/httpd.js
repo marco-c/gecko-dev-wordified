@@ -360,7 +360,12 @@ tests
 var
 gGlobalObject
 =
+Cu
+.
+getGlobalForObject
+(
 this
+)
 ;
 /
 *

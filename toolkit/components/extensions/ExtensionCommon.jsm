@@ -297,7 +297,12 @@ nsIStyleSheetService
 const
 global
 =
+Cu
+.
+getGlobalForObject
+(
 this
+)
 ;
 Cu
 .
