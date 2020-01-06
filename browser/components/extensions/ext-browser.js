@@ -1596,6 +1596,13 @@ scopes
 addon_parent
 "
 ]
+events
+:
+[
+"
+startup
+"
+]
 manifest
 :
 [
