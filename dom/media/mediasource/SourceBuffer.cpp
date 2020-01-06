@@ -1903,10 +1903,6 @@ GetDemuxer
 DetachSourceBuffer
 (
 mTrackBuffersManager
-.
-get
-(
-)
 )
 ;
 }
@@ -2130,10 +2126,6 @@ GetDemuxer
 AttachSourceBuffer
 (
 mTrackBuffersManager
-.
-get
-(
-)
 )
 ;
 }
