@@ -55,7 +55,7 @@ browser
 /
 components
 /
-resistFingerprinting
+resistfingerprinting
 /
 test
 /
