@@ -6178,10 +6178,6 @@ aStream
 ;
 }
 ;
-using
-namespace
-std
-;
 static
 std
 :
@@ -8008,6 +8004,9 @@ RecordedDrawTargetCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -8150,6 +8149,9 @@ RecordedDrawTargetDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -8343,6 +8345,9 @@ RecordedCreateSimilarDrawTarget
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -8883,6 +8888,9 @@ RecordedFillRect
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -9094,6 +9102,9 @@ RecordedStrokeRect
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -9330,6 +9341,9 @@ RecordedStrokeLine
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -9545,6 +9559,9 @@ RecordedFill
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -9803,6 +9820,9 @@ RecordedFillGlyphs
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -9975,6 +9995,9 @@ RecordedMask
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10169,6 +10192,9 @@ RecordedStroke
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10317,6 +10343,9 @@ RecordedClearRect
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10510,6 +10539,9 @@ RecordedCopySurface
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10646,6 +10678,9 @@ RecordedPushClip
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10776,6 +10811,9 @@ RecordedPushClipRect
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -10924,6 +10962,9 @@ RecordedPopClip
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11126,6 +11167,9 @@ RecordedPushLayer
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11264,6 +11308,9 @@ RecordedPopLayer
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11385,6 +11432,9 @@ RecordedSetTransform
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11622,6 +11672,9 @@ RecordedDrawSurface
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11797,6 +11850,9 @@ RecordedDrawFilter
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -11998,6 +12054,9 @@ RecordedDrawSurfaceWithShadow
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -12621,6 +12680,9 @@ RecordedPathCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -12743,6 +12805,9 @@ RecordedPathDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13059,6 +13124,9 @@ RecordedSourceSurfaceCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13189,6 +13257,9 @@ RecordedSourceSurfaceDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13338,6 +13409,9 @@ RecordedFilterNodeCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13459,6 +13533,9 @@ RecordedFilterNodeDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13680,6 +13757,9 @@ RecordedGradientStopsCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13798,6 +13878,9 @@ RecordedGradientStopsDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -13963,6 +14046,9 @@ RecordedIntoLuminanceSource
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -14114,6 +14200,9 @@ RecordedSnapshot
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -14304,6 +14393,9 @@ RecordedFontData
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -14689,6 +14781,9 @@ RecordedFontDescriptor
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -14982,6 +15077,9 @@ RecordedUnscaledFontCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -15186,6 +15284,9 @@ RecordedUnscaledFontDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -15388,6 +15489,9 @@ RecordedScaledFontCreation
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -15592,6 +15696,9 @@ RecordedScaledFontDestruction
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -15764,6 +15871,9 @@ RecordedMaskSurface
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -16191,6 +16301,9 @@ RecordedFilterNodeSetAttribute
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
@@ -16385,6 +16498,9 @@ RecordedFilterNodeSetInput
 :
 OutputSimpleEventInfo
 (
+std
+:
+:
 stringstream
 &
 aStringStream
