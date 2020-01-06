@@ -649,6 +649,7 @@ embed
 (
 cxx
 preprocessorOption
+cppflags
 msgs
 sources
 c_out
@@ -700,6 +701,8 @@ sources
   
 args
 =
+cppflags
++
 [
 '
 -
@@ -1390,7 +1393,7 @@ CXX
 ]
 )
   
-cxx_option
+pp_option
 =
 buildconfig
 .
@@ -1400,6 +1403,39 @@ substs
 PREPROCESS_OPTION
 '
 ]
+  
+cppflags
+=
+shlex
+.
+split
+(
+buildconfig
+.
+substs
+[
+'
+OS_CPPFLAGS
+'
+]
+)
+  
+cppflags
++
+=
+shlex
+.
+split
+(
+buildconfig
+.
+substs
+[
+'
+WARNINGS_AS_ERRORS
+'
+]
+)
   
 env
 =
@@ -1457,7 +1493,8 @@ js_out
 embed
 (
 cxx
-cxx_option
+pp_option
+cppflags
 msgs
 sources
 c_out
