@@ -49081,9 +49081,7 @@ if
 (
 elt
 instanceof
-Ci
-.
-nsIDOMHTMLMenuElement
+HTMLMenuElement
 )
 {
 try
@@ -49302,9 +49300,7 @@ menu
 :
 elt
 instanceof
-Ci
-.
-nsIDOMHTMLMenuElement
+HTMLMenuElement
 }
 ;
 }
