@@ -1080,6 +1080,12 @@ FocusOffset
 (
 )
 ;
+nsIContent
+*
+GetChildAtAnchorOffset
+(
+)
+;
 /
 *
 *
