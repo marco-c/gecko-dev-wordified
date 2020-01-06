@@ -3623,7 +3623,7 @@ type
 =
 =
 "
-click
+mousedown
 "
 &
 &
