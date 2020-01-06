@@ -475,9 +475,9 @@ nsIFrame
 FrameForPseudoElement
 (
 const
-nsIContent
+Element
 *
-aContent
+aElement
 nsIAtom
 *
 aPseudoTagOrNull
