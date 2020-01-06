@@ -60,9 +60,6 @@ use
 canvas_traits
 :
 :
-canvas
-:
-:
 {
 CanvasGradientStop
 FillOrStrokeStyle

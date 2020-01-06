@@ -192,6 +192,10 @@ net_traits
 ;
 extern
 crate
+offscreen_gl_context
+;
+extern
+crate
 profile_traits
 ;
 extern
