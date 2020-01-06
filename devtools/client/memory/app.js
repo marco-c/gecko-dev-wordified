@@ -372,7 +372,7 @@ require
 /
 components
 /
-toolbar
+Toolbar
 "
 )
 )
@@ -389,7 +389,7 @@ require
 /
 components
 /
-list
+List
 "
 )
 )
@@ -406,11 +406,7 @@ require
 /
 components
 /
-snapshot
--
-list
--
-item
+SnapshotListItem
 "
 )
 )
@@ -427,7 +423,7 @@ require
 /
 components
 /
-heap
+Heap
 "
 )
 )
