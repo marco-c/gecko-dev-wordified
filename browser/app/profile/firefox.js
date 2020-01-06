@@ -19188,6 +19188,15 @@ async
 tab
 switcher
 .
+/
+/
+Disabled
+until
+bug
+1397426
+is
+fixed
+.
 pref
 (
 "
@@ -19201,7 +19210,7 @@ warmup
 .
 enabled
 "
-true
+false
 )
 ;
 pref
