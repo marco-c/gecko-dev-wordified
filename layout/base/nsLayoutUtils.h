@@ -18413,13 +18413,6 @@ string
 aValue
 )
 {
-if
-(
-IsAPZTestLoggingEnabled
-(
-)
-)
-{
 DoLogTestDataForPaint
 (
 aManager
@@ -18428,7 +18421,6 @@ aKey
 aValue
 )
 ;
-}
 }
 /
 *
@@ -18514,13 +18506,6 @@ Value
 aValue
 )
 {
-if
-(
-IsAPZTestLoggingEnabled
-(
-)
-)
-{
 DoLogTestDataForPaint
 (
 aManager
@@ -18535,7 +18520,6 @@ aValue
 )
 )
 ;
-}
 }
 /
 *
