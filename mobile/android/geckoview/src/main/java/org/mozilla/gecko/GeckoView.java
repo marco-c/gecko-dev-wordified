@@ -1913,7 +1913,8 @@ the
 background
 *
 if
-Geckois
+Gecko
+is
 not
 already
 running
@@ -1998,9 +1999,10 @@ initMainProcess
 (
 GeckoProfile
 .
-get
+initFromArgs
 (
 appContext
+geckoArgs
 )
 geckoArgs
 /
