@@ -289,9 +289,7 @@ output
 /
 components
 /
-filter
--
-button
+FilterButton
 "
 )
 ;
@@ -315,9 +313,7 @@ output
 /
 components
 /
-filter
--
-checkbox
+FilterCheckbox
 "
 )
 ;

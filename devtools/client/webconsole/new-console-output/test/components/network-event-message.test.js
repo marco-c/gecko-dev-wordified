@@ -114,11 +114,7 @@ message
 -
 types
 /
-network
--
-event
--
-message
+NetworkEventMessage
 "
 )
 )
@@ -145,9 +141,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 ;

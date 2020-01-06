@@ -198,11 +198,7 @@ output
 /
 components
 /
-grip
--
-message
--
-body
+GripMessageBody
 "
 )
 )

@@ -160,9 +160,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 ;

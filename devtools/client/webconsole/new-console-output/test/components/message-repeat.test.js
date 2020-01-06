@@ -52,9 +52,7 @@ output
 /
 components
 /
-message
--
-repeat
+MessageRepeat
 "
 )
 ;

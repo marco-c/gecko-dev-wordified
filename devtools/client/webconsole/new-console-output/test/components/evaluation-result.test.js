@@ -168,9 +168,7 @@ message
 -
 types
 /
-evaluation
--
-result
+EvaluationResult
 "
 )
 )
@@ -197,9 +195,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 ;

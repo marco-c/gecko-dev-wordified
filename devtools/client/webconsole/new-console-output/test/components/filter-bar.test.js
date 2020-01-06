@@ -148,9 +148,7 @@ output
 /
 components
 /
-filter
--
-button
+FilterButton
 "
 )
 ;
@@ -176,9 +174,7 @@ output
 /
 components
 /
-filter
--
-bar
+FilterBar
 "
 )
 )

@@ -155,7 +155,7 @@ output
 /
 components
 /
-message
+Message
 "
 )
 )
@@ -180,11 +180,7 @@ output
 /
 components
 /
-grip
--
-message
--
-body
+GripMessageBody
 "
 )
 ;

@@ -158,7 +158,7 @@ output
 /
 components
 /
-message
+Message
 "
 )
 )

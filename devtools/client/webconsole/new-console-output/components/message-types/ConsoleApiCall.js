@@ -156,11 +156,7 @@ output
 /
 components
 /
-grip
--
-message
--
-body
+GripMessageBody
 "
 )
 ;
@@ -186,9 +182,7 @@ output
 /
 components
 /
-console
--
-table
+ConsoleTable
 "
 )
 )
@@ -242,7 +236,7 @@ output
 /
 components
 /
-message
+Message
 "
 )
 )
