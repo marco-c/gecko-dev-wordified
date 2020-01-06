@@ -380,7 +380,10 @@ use
 display_list_builder
 :
 :
+{
 DisplayListBuildState
+StackingContextCollectionState
+}
 ;
 use
 euclid
@@ -2130,7 +2133,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 ;
 /
@@ -8986,7 +8989,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 for

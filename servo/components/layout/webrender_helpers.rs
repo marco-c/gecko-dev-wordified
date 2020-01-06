@@ -150,7 +150,7 @@ display_list
 BorderDetails
 BorderRadii
 BoxShadowClipMode
-ClippingRegion
+ClipScrollNodeType
 }
 ;
 use
@@ -161,10 +161,10 @@ display_list
 :
 :
 {
+ClippingRegion
 DisplayItem
 DisplayList
 DisplayListTraversal
-ScrollRootType
 }
 ;
 use
@@ -3693,7 +3693,7 @@ pop_stacking_context
 DisplayItem
 :
 :
-DefineClip
+DefineClipScrollNode
 (
 ref
 item
@@ -3707,7 +3707,7 @@ push_clip_id
 (
 item
 .
-scroll_root
+node
 .
 parent_id
 )
@@ -3717,7 +3717,7 @@ our_id
 =
 item
 .
-scroll_root
+node
 .
 id
 ;
@@ -3726,7 +3726,7 @@ item_rect
 =
 item
 .
-scroll_root
+node
 .
 clip
 .
@@ -3742,11 +3742,11 @@ webrender_id
 match
 item
 .
-scroll_root
+node
 .
-root_type
+node_type
 {
-ScrollRootType
+ClipScrollNodeType
 :
 :
 Clip
@@ -3764,7 +3764,7 @@ our_id
 item_rect
 item
 .
-scroll_root
+node
 .
 clip
 .
@@ -3774,7 +3774,7 @@ get_complex_clips
 None
 )
 }
-ScrollRootType
+ClipScrollNodeType
 :
 :
 ScrollFrame
@@ -3794,7 +3794,7 @@ our_id
 )
 item
 .
-scroll_root
+node
 .
 content_rect
 .
@@ -3803,7 +3803,7 @@ to_rectf
 )
 item
 .
-scroll_root
+node
 .
 clip
 .
@@ -3814,7 +3814,7 @@ to_rectf
 )
 item
 .
-scroll_root
+node
 .
 clip
 .
@@ -3825,7 +3825,7 @@ None
 scroll_sensitivity
 )
 }
-ScrollRootType
+ClipScrollNodeType
 :
 :
 StickyFrame
