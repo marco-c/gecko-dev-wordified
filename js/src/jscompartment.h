@@ -216,7 +216,16 @@ include
 "
 vm
 /
-PIC
+ArrayBufferObject
+.
+h
+"
+#
+include
+"
+vm
+/
+GlobalObject
 .
 h
 "

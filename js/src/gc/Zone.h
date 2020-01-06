@@ -237,6 +237,12 @@ jit
 namespace
 gc
 {
+class
+GCSchedulingState
+;
+class
+GCSchedulingTunables
+;
 /
 /
 This
