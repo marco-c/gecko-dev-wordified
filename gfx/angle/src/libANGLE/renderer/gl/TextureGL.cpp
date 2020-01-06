@@ -1933,7 +1933,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 area
 .
 width
@@ -1954,8 +1953,12 @@ imageBytes
 ;
 ANGLE_TRY_RESULT
 (
-glFormat
-.
+gl
+:
+:
+InternalFormat
+:
+:
 computeDepthPitch
 (
 area
@@ -2271,7 +2274,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 area
 .
 width
@@ -2292,8 +2294,12 @@ imageBytes
 ;
 ANGLE_TRY_RESULT
 (
-glFormat
-.
+gl
+:
+:
+InternalFormat
+:
+:
 computeDepthPitch
 (
 area
@@ -5151,7 +5157,6 @@ internalFormatInfo
 .
 computeCompressedImageSize
 (
-GL_UNSIGNED_BYTE
 levelSize
 )
 dataSize
@@ -5317,7 +5322,6 @@ internalFormatInfo
 .
 computeCompressedImageSize
 (
-GL_UNSIGNED_BYTE
 levelSize
 )
 dataSize
@@ -5638,7 +5642,6 @@ internalFormatInfo
 .
 computeCompressedImageSize
 (
-GL_UNSIGNED_BYTE
 levelSize
 )
 dataSize

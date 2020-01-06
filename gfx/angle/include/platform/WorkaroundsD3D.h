@@ -1042,7 +1042,7 @@ com
 /
 655534
 bool
-callClearTwiceOnSmallTarget
+callClearTwice
 =
 false
 ;
