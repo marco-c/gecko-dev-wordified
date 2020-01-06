@@ -4023,9 +4023,14 @@ None
 )
 :
         
-try
+if
+not
+sig
 :
             
+try
+:
+                
 self
 .
 shellCheckOutput
@@ -4047,10 +4052,10 @@ self
 .
 short_timeout
 )
-        
+            
 except
 :
-            
+                
 #
 no
 problem
@@ -4059,7 +4064,7 @@ will
 kill
 it
 instead
-            
+                
 self
 .
 _logger
