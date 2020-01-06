@@ -106,11 +106,11 @@ loadScripts
 {
 name
 :
-'
+"
 states
 .
 js
-'
+"
 dir
 :
 MOCHITESTS_DIR
@@ -118,11 +118,11 @@ MOCHITESTS_DIR
 {
 name
 :
-'
+"
 role
 .
 js
-'
+"
 dir
 :
 MOCHITESTS_DIR

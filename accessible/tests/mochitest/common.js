@@ -875,7 +875,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -887,7 +887,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 /

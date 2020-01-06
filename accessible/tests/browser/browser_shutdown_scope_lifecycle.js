@@ -56,10 +56,10 @@ MPL
 .
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 add_task
 (
@@ -115,7 +115,7 @@ accService
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -123,7 +123,7 @@ org
 accessibilityService
 ;
 1
-'
+"
 ]
 .
 getService
@@ -136,10 +136,10 @@ nsIAccessibilityService
 ok
 (
 accService
-'
+"
 Service
 initialized
-'
+"
 )
 ;
 }
