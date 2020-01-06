@@ -1198,8 +1198,6 @@ aHand
 GamepadServiceType
 aServiceType
 uint32_t
-aDisplayID
-uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -1252,7 +1250,6 @@ window
 newIndex
 aMapping
 aHand
-aDisplayID
 aNumButtons
 aNumAxes
 aNumHaptics
@@ -2639,11 +2636,6 @@ hand
 a
 .
 service_type
-(
-)
-a
-.
-display_id
 (
 )
 a

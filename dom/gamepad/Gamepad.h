@@ -334,8 +334,6 @@ aMapping
 GamepadHand
 aHand
 uint32_t
-aDisplayID
-uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -514,16 +512,6 @@ return
 mMapping
 ;
 }
-uint32_t
-DisplayId
-(
-)
-const
-{
-return
-mDisplayId
-;
-}
 GamepadHand
 Hand
 (
@@ -669,9 +657,6 @@ in
 GamepadManager
 uint32_t
 mHashKey
-;
-uint32_t
-mDisplayId
 ;
 /
 /
