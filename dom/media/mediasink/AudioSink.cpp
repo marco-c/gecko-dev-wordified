@@ -387,12 +387,7 @@ resampling
 {
 mOutputRate
 =
-MediaPrefs
-:
-:
-AudioSinkResampleRate
-(
-)
+48000
 ;
 }
 else
