@@ -30394,9 +30394,6 @@ aComputedValue
 break
 ;
 }
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 case
 eCSSProperty_mask_position_x
 :
@@ -30459,8 +30456,6 @@ aComputedValue
 break
 ;
 }
-#
-endif
 case
 eCSSProperty_background_size
 :
@@ -30492,9 +30487,6 @@ aComputedValue
 break
 ;
 }
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 case
 eCSSProperty_mask_size
 :
@@ -30526,8 +30518,6 @@ aComputedValue
 break
 ;
 }
-#
-endif
 case
 eCSSProperty_clip_path
 :

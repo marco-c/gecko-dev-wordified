@@ -14580,9 +14580,6 @@ eCSSProperty_UNKNOWN
 composite
 }
 ;
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 const
 nsCSSPropertyID
 nsStyleImageLayers
@@ -14643,8 +14640,6 @@ eCSSProperty_mask_composite
 composite
 }
 ;
-#
-endif
 nsStyleImageLayers
 :
 :

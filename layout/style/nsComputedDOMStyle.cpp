@@ -36418,9 +36418,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 already_AddRefed
 <
 CSSValue
@@ -36761,8 +36758,6 @@ layers
 )
 ;
 }
-#
-endif
 already_AddRefed
 <
 CSSValue
