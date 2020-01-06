@@ -818,6 +818,11 @@ mMayHaveInputOrCompositionEventListener
 1
 ;
 uint16_t
+mMayHaveSelectionChangeEventListener
+:
+1
+;
+uint16_t
 mClearingListeners
 :
 1
@@ -832,7 +837,7 @@ mIsMainThreadELM
 uint16_t
 mUnused
 :
-5
+4
 ;
 }
 ;
@@ -2173,6 +2178,15 @@ MayHavePointerEnterLeaveEventListener
 {
 return
 mMayHavePointerEnterLeaveEventListener
+;
+}
+bool
+MayHaveSelectionChangeEventListener
+(
+)
+{
+return
+mMayHaveSelectionChangeEventListener
 ;
 }
 /
