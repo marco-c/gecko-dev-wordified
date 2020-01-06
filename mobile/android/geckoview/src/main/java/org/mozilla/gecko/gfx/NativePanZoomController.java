@@ -1278,7 +1278,7 @@ mDestroyed
 !
 mView
 .
-isGeckoReady
+isCompositorReady
 (
 )
 )

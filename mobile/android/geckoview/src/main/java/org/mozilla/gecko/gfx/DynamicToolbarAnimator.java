@@ -304,7 +304,7 @@ GeckoLayerClient
 mTarget
 ;
 private
-LayerView
+LayerSession
 .
 Compositor
 mCompositor
@@ -994,7 +994,7 @@ private
 void
 notifyCompositorCreated
 (
-LayerView
+LayerSession
 .
 Compositor
 aCompositor
