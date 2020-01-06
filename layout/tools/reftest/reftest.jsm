@@ -854,7 +854,7 @@ var
 gCrashDumpDir
 ;
 var
-gPendinCrashDumpDir
+gPendingCrashDumpDir
 ;
 var
 gFailedNoPaint
