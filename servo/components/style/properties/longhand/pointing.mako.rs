@@ -1574,7 +1574,8 @@ Auto
 "
 boxed
 =
-True
+not
+RUSTC_HAS_PR45225
 ignored_when_colors_disabled
 =
 True
