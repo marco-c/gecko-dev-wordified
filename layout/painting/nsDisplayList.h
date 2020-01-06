@@ -4547,6 +4547,7 @@ bool
 GetAncestorHasApzAwareEventHandler
 (
 )
+const
 {
 return
 mAncestorHasApzAwareEventHandler
