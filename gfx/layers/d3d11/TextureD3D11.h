@@ -2720,6 +2720,11 @@ mMT
 aMT
 )
 {
+if
+(
+mMT
+)
+{
 mMT
 -
 >
@@ -2728,9 +2733,15 @@ Enter
 )
 ;
 }
+}
 ~
 D3D11MTAutoEnter
 (
+)
+{
+if
+(
+mMT
 )
 {
 mMT
@@ -2740,6 +2751,7 @@ Leave
 (
 )
 ;
+}
 }
 private
 :
