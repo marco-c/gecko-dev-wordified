@@ -180,13 +180,6 @@ Shutdown
 )
 override
 ;
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 /
 /
 Returns
@@ -286,6 +279,12 @@ override
 ;
 private
 :
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+;
 bool
 CanPlayThroughImpl
 (
