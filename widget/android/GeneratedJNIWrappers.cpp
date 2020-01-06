@@ -5600,6 +5600,8 @@ String
 :
 Param
 a3
+bool
+a4
 )
 const
 -
@@ -5630,6 +5632,7 @@ a0
 a1
 a2
 a3
+a4
 )
 ;
 }

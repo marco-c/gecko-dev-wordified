@@ -7023,6 +7023,9 @@ mHTMLInputInputmode
 mInputContext
 .
 mActionHint
+mInputContext
+.
+mInPrivateBrowsing
 )
 ;
 }
