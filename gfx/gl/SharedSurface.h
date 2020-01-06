@@ -1497,6 +1497,15 @@ gfx
 IntSize
 &
 size
+const
+layers
+:
+:
+LayersIPCChannel
+*
+aLayersChannel
+=
+nullptr
 )
 ;
 static
