@@ -2727,9 +2727,5 @@ update
 .
 locale
 '
-            
-'
-contentaccessible
-'
         
 ]

@@ -258,10 +258,6 @@ tablet
 '
 process
 '
-        
-'
-contentaccessible
-'
     
 ]
     
