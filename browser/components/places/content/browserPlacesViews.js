@@ -1270,7 +1270,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 container
-this
 )
 )
 return
@@ -10301,12 +10300,11 @@ _placesNode
 !
 PlacesUIUtils
 .
-isFolderReadOnly
+isContentsReadOnly
 (
 elt
 .
 _placesNode
-this
 )
 )
 {
