@@ -443,7 +443,7 @@ assert_approx_equals
 (
 duration
 expectedDuration
-50
+150
 Expect
 tonechange
 event
