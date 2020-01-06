@@ -235,7 +235,7 @@ h
 #
 include
 "
-nsXPIDLString
+nsString
 .
 h
 "
@@ -316,13 +316,6 @@ mbstring
 .
 h
 >
-#
-include
-"
-nsXPIDLString
-.
-h
-"
 #
 include
 "

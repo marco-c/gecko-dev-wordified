@@ -338,13 +338,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 rdf
 .
 h

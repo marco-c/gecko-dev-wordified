@@ -192,10 +192,6 @@ nsTLiteralString_CharT
 nsLiteralCString
 #
 define
-nsTXPIDLString_CharT
-nsXPIDLCString
-#
-define
 nsTGetterCopies_CharT
 nsCGetterCopies
 #

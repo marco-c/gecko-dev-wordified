@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

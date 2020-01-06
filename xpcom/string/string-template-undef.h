@@ -179,9 +179,6 @@ undef
 nsTLiteralString_CharT
 #
 undef
-nsTXPIDLString_CharT
-#
-undef
 nsTGetterCopies_CharT
 #
 undef

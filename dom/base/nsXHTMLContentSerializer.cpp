@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

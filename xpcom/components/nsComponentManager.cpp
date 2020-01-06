@@ -307,13 +307,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 prcmon
 .
 h

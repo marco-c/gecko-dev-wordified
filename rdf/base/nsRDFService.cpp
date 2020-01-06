@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

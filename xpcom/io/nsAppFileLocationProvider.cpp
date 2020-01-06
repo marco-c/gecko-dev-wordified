@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h

@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h

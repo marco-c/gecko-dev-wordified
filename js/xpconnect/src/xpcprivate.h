@@ -1191,13 +1191,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h

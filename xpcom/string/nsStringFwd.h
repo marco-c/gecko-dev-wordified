@@ -273,12 +273,6 @@ nsCStringComparator
 class
 nsDefaultCStringComparator
 ;
-class
-nsXPIDLCString
-;
-/
-/
-deprecated
 #
 endif
 /

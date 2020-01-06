@@ -149,7 +149,7 @@ h
 #
 include
 "
-nsXPIDLString
+nsString
 .
 h
 "
@@ -269,13 +269,6 @@ h
 include
 "
 nsIConsoleService
-.
-h
-"
-#
-include
-"
-nsXPIDLString
 .
 h
 "
