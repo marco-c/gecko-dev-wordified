@@ -522,6 +522,10 @@ ActorDestroyReason
 aWhy
 )
 {
+mCanSend
+=
+false
+;
 /
 /
 We
@@ -3090,16 +3094,6 @@ CrossProcessCompositorBridgeParent
 MOZ_ASSERT
 (
 XRE_GetIOMessageLoop
-(
-)
-)
-;
-MOZ_ASSERT
-(
-IToplevelProtocol
-:
-:
-GetTransport
 (
 )
 )
