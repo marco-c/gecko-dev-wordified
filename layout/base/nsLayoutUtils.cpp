@@ -25950,8 +25950,7 @@ ScheduleComposite
 }
 }
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
