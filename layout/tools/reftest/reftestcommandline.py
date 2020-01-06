@@ -3173,9 +3173,7 @@ adb_path
                           
 default
 =
-"
-adb
-"
+None
                           
 help
 =

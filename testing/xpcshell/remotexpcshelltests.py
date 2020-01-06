@@ -5576,6 +5576,24 @@ logging
 .
 DEBUG
     
+if
+options
+[
+'
+adbPath
+'
+]
+:
+        
+dm_args
+[
+'
+adbPath
+'
+]
+=
+adbPath
+    
 dm
 =
 mozdevice
