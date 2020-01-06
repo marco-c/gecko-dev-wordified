@@ -549,9 +549,7 @@ nsAString
 aTag
 nsIDOMNode
 *
-aParent
-int32_t
-aPosition
+aNextSiblingOfNewNode
 )
 override
 ;
@@ -564,12 +562,7 @@ nsAString
 aTag
 nsIDOMNode
 *
-aNode
-nsIDOMNode
-*
-aParent
-int32_t
-aPosition
+aNewNode
 nsresult
 aResult
 )

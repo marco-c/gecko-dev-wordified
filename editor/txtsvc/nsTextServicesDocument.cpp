@@ -17856,9 +17856,7 @@ nsAString
 aTag
 nsIDOMNode
 *
-aParent
-int32_t
-aPosition
+aNextSiblingOfNewNode
 )
 {
 return
@@ -17877,12 +17875,7 @@ nsAString
 aTag
 nsIDOMNode
 *
-aNode
-nsIDOMNode
-*
-aParent
-int32_t
-aPosition
+aNewNode
 nsresult
 aResult
 )
