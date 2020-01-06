@@ -250,6 +250,12 @@ mProtocolVersion
 uint16_t
 mCertificateTransparencyStatus
 ;
+nsCString
+mKeaGroup
+;
+nsCString
+mSignatureSchemeName
+;
 bool
 mIsDomainMismatch
 ;
