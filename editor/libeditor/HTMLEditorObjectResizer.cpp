@@ -5483,7 +5483,7 @@ s
 point
 of
 view
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

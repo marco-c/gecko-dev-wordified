@@ -364,7 +364,7 @@ bool
 aEnabled
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -943,7 +943,7 @@ int32_t
 aChange
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -2439,7 +2439,7 @@ s
 point
 of
 view
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -2647,7 +2647,7 @@ aEnabled
 return
 NS_OK
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -3158,7 +3158,7 @@ int32_t
 aY
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

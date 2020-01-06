@@ -717,7 +717,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -7670,7 +7670,7 @@ RemoveAllInlineProperties
 (
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -7883,7 +7883,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -8992,7 +8992,7 @@ and
 selection
 preservation
 code
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

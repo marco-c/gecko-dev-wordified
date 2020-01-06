@@ -5858,7 +5858,7 @@ aAction
 eTypedText
 )
 ;
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -7164,7 +7164,7 @@ n
 "
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -7725,7 +7725,7 @@ to
 change
 the
 document
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -9088,7 +9088,7 @@ CommitComposition
 (
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -11940,7 +11940,7 @@ bool
 cancel
 handled
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -12390,7 +12390,7 @@ bool
 cancel
 handled
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -12571,7 +12571,7 @@ bool
 cancel
 handled
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -12741,7 +12741,7 @@ bool
 cancel
 handled
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -13198,7 +13198,7 @@ EditAction
 outdent
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -13688,7 +13688,7 @@ rules
 mRules
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -16236,7 +16236,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -20529,7 +20529,7 @@ nsresult
 aStatus
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -26465,7 +26465,7 @@ Collapsed
 (
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

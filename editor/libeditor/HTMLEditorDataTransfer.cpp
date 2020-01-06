@@ -755,7 +755,7 @@ CommitComposition
 (
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -1271,7 +1271,7 @@ CommitComposition
 (
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -6619,7 +6619,7 @@ rv
 rv
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 mHTMLEditor
@@ -7117,7 +7117,7 @@ rv
 rv
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -7427,7 +7427,7 @@ IsEmpty
 )
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -7754,7 +7754,7 @@ IsEmpty
 )
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -8211,7 +8211,7 @@ IsEmpty
 )
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -8356,7 +8356,7 @@ aIndex
 infoString
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -8418,7 +8418,7 @@ aIndex
 text
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -9903,7 +9903,7 @@ int32_t
 aSelectionType
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -10431,7 +10431,7 @@ length
 "
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -11266,7 +11266,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -12000,7 +12000,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this

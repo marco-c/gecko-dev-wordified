@@ -143,7 +143,7 @@ h
 "
 /
 /
-AutoEditBatch
+AutoPlaceholderBatch
 AutoRules
 #
 include
@@ -2257,7 +2257,7 @@ ETypingAction
 aAction
 )
 {
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3447,7 +3447,7 @@ placeholder
 txns
 merge
 .
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3782,7 +3782,7 @@ EditAction
 insertIMEText
 ;
 }
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3996,7 +3996,7 @@ rules
 mRules
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -4541,7 +4541,7 @@ placeholder
 txns
 merge
 .
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -5130,7 +5130,7 @@ nsresult
 rv
 ;
 {
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -5144,7 +5144,7 @@ MOZ_ASSERT
 (
 mIsInEditAction
 "
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 should
 '
 ve
@@ -7988,7 +7988,7 @@ GetData
 stuffToPaste
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -8166,7 +8166,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
