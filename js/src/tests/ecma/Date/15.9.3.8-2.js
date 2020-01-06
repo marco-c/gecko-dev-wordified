@@ -421,17 +421,6 @@ MS
 =
 16
 ;
-/
-/
-for
-TCMS
-the
-gTestcases
-array
-must
-be
-global
-.
 var
 gTc
 =

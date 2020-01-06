@@ -476,17 +476,6 @@ TYPEOF
 object
 "
 ;
-/
-/
-for
-TCMS
-the
-gTestcases
-array
-must
-be
-global
-.
 writeHeaderToLog
 (
 "
