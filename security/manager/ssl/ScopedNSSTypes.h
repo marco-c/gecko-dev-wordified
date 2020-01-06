@@ -246,6 +246,13 @@ h
 #
 include
 "
+prmem
+.
+h
+"
+#
+include
+"
 sechash
 .
 h
@@ -1573,9 +1580,9 @@ PR_Close
 )
 MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
-UniquePRLibraryName
+UniquePRString
 char
-PR_FreeLibraryName
+PR_Free
 )
 MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (

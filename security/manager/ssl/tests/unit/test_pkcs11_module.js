@@ -518,17 +518,6 @@ PKCS
 11
 Module
 "
-{
-AppConstants
-.
-DLL_PREFIX
-}
-nssckbi
-{
-AppConstants
-.
-DLL_SUFFIX
-}
 ]
 ;
 if

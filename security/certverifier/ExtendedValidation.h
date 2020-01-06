@@ -110,6 +110,13 @@ certt
 .
 h
 "
+#
+include
+"
+nsNSSShutDown
+.
+h
+"
 namespace
 mozilla
 {
@@ -130,6 +137,10 @@ psm
 nsresult
 LoadExtendedValidationInfo
 (
+const
+nsNSSShutDownPreventionLock
+&
+proofOfLock
 )
 ;
 /
