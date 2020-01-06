@@ -236,6 +236,7 @@ webrender_api
 :
 {
 self
+ClipId
 ComplexClipRegion
 DisplayListBuilder
 ExtendMode
@@ -245,10 +246,7 @@ use
 webrender_api
 :
 :
-{
 LayoutTransform
-ClipId
-}
 ;
 pub
 trait
@@ -1520,6 +1518,10 @@ FilterOp
 Blur
 (
 radius
+.
+to_f32_px
+(
+)
 )
 )
 GenericFilter
@@ -3727,6 +3729,9 @@ ScrollRootType
 :
 :
 ScrollFrame
+(
+scroll_sensitivity
+)
 =
 >
 {
@@ -3768,6 +3773,7 @@ get_complex_clips
 (
 )
 None
+scroll_sensitivity
 )
 }
 }
