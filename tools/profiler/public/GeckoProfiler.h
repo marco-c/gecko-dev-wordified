@@ -399,6 +399,9 @@ AllocPolicy
 class
 Vector
 ;
+class
+TimeStamp
+;
 }
 /
 /
@@ -4649,6 +4652,14 @@ double
 aSinceTime
 =
 0
+mozilla
+:
+:
+TimeStamp
+*
+aOutFirstSampleTime
+=
+nullptr
 )
 false
 )
