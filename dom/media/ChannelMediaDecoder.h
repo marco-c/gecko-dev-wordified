@@ -402,6 +402,11 @@ Shutdown
 )
 override
 ;
+bool
+CanClone
+(
+)
+;
 /
 /
 Create
