@@ -1,15 +1,7 @@
 from
 webdriver
-.
-client
 import
 Element
-element_key
-from
-webdriver
-.
-error
-import
 WebDriverException
 #
 WebDriver
@@ -877,7 +869,9 @@ dictionary
 "
     
 assert
-element_key
+Element
+.
+identifier
 in
 a
 "
@@ -891,7 +885,9 @@ element
 "
     
 assert
-element_key
+Element
+.
+identifier
 in
 b
 "
@@ -907,13 +903,17 @@ element
 if
 a
 [
-element_key
+Element
+.
+identifier
 ]
 =
 =
 b
 [
-element_key
+Element
+.
+identifier
 ]
 :
         
