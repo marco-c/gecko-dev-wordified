@@ -3530,6 +3530,12 @@ border
 .
 .
 .
+aStatus
+.
+Reset
+(
+)
+;
 nsHTMLScrollFrame
 :
 :
@@ -4449,6 +4455,12 @@ mLastDropdownComputedBSize
 state
 .
 ComputedBSize
+(
+)
+;
+aStatus
+.
+Reset
 (
 )
 ;
