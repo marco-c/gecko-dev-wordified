@@ -1607,9 +1607,9 @@ strong
 ref
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 nsCacheMetaData
 mMetaData

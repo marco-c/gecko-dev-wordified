@@ -271,11 +271,11 @@ rv
 {
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mainThread
+main
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;
@@ -296,7 +296,7 @@ hostname
 flags
 networkInterface
 this
-mainThread
+main
 originAttributes
 getter_AddRefs
 (

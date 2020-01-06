@@ -3571,7 +3571,7 @@ nsIDNSService
 :
 RESOLVE_PRIORITY_MEDIUM
 helper
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 attrs

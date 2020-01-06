@@ -2620,7 +2620,10 @@ AsyncResolveNative
 proxyHost
 0
 this
-NS_GetCurrentThread
+mozilla
+:
+:
+GetCurrentThreadEventTarget
 (
 )
 attrs

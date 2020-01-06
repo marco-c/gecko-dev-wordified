@@ -13179,7 +13179,7 @@ target
 {
 target
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;
@@ -13233,7 +13233,7 @@ target
 {
 target
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;
@@ -18839,9 +18839,9 @@ aNewTarget
 if
 (
 aNewTarget
-=
-=
-NS_GetCurrentThread
+-
+>
+IsOnCurrentThread
 (
 )
 )

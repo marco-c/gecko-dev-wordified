@@ -2568,7 +2568,7 @@ item
 >
 mTarget
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;

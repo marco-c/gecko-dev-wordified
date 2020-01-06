@@ -460,9 +460,9 @@ mCallback
 (
 aCallback
 )
-mTargetThread
+mTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -667,11 +667,11 @@ aThat
 .
 mCallback
 )
-mTargetThread
+mTarget
 (
 aThat
 .
-mTargetThread
+mTarget
 )
 mReadOnly
 (
@@ -791,7 +791,7 @@ Callback
 ProxyRelease
 (
 mCallback
-mTargetThread
+mTarget
 )
 ;
 mEntry
@@ -1003,7 +1003,7 @@ on
 the
 target
 return
-mTargetThread
+mTarget
 -
 >
 IsOnCurrentThread
@@ -1044,7 +1044,7 @@ aOnAvailThread
 const
 {
 return
-mTargetThread
+mTarget
 -
 >
 IsOnCurrentThread
@@ -3777,7 +3777,7 @@ mCallbacks
 i
 ]
 .
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -4942,7 +4942,7 @@ rv
 =
 aCallback
 .
-mTargetThread
+mTarget
 -
 >
 Dispatch

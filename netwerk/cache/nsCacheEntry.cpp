@@ -306,7 +306,7 @@ nsCacheService
 ReleaseObject_Locked
 (
 mData
-mThread
+mEventTarget
 )
 ;
 }
@@ -461,7 +461,7 @@ nsCacheService
 ReleaseObject_Locked
 (
 mData
-mThread
+mEventTarget
 )
 ;
 mData
@@ -481,9 +481,9 @@ mData
 data
 )
 ;
-mThread
+mEventTarget
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

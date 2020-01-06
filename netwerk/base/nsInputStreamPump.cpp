@@ -916,8 +916,11 @@ mLabeledMainThreadTarget
 ?
 mLabeledMainThreadTarget
 :
-do_GetMainThread
+do_AddRef
 (
+GetMainThreadEventTarget
+(
+)
 )
 ;
 if
@@ -2628,7 +2631,7 @@ else
 {
 mTargetThread
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

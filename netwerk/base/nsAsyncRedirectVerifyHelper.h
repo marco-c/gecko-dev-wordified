@@ -405,9 +405,9 @@ mWaitingForRedirectCallback
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mCallbackThread
+mCallbackEventTarget
 ;
 bool
 mCallbackInitiated

@@ -323,8 +323,11 @@ XRE_IsParentProcess
 )
 ;
 return
-do_GetMainThread
+do_AddRef
 (
+GetMainThreadEventTarget
+(
+)
 )
 ;
 }

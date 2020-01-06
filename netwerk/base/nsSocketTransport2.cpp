@@ -15840,7 +15840,7 @@ NS_NewNotificationCallbacksAggregation
 (
 callbacks
 nullptr
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 getter_AddRefs

@@ -2887,9 +2887,9 @@ nsIServerSocketListener
 aListener
 )
 )
-mTargetThread
+mTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -3029,7 +3029,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mTargetThread
+mTarget
 ;
 }
 ;
@@ -3067,7 +3067,7 @@ aTransport
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -3105,7 +3105,7 @@ aStatus
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -3217,7 +3217,7 @@ aListener
 ;
 mListenerTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

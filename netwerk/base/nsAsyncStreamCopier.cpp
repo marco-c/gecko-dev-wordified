@@ -228,7 +228,7 @@ aCopier
 )
 mTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

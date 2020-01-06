@@ -5267,9 +5267,9 @@ nsIUDPSocketListener
 aListener
 )
 )
-mTargetThread
+mTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -5409,7 +5409,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mTargetThread
+mTarget
 ;
 }
 ;
@@ -5447,7 +5447,7 @@ aMessage
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -5485,7 +5485,7 @@ aStatus
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -5645,9 +5645,9 @@ mListener
 (
 aListener
 )
-mTargetThread
+mTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -5787,7 +5787,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mTargetThread
+mTarget
 ;
 }
 ;
@@ -5825,7 +5825,7 @@ aMessage
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -5863,7 +5863,7 @@ aStatus
 )
 ;
 return
-mTargetThread
+mTarget
 -
 >
 Dispatch
@@ -6496,7 +6496,7 @@ mLock
 ;
 mListenerTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;

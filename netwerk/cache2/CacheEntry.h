@@ -915,9 +915,9 @@ mCallback
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mTargetThread
+mTarget
 ;
 bool
 mReadOnly

@@ -514,9 +514,9 @@ object
 /
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mControlThread
+mControlEventTarget
 ;
 /
 *

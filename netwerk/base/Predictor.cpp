@@ -8490,16 +8490,6 @@ Length
 (
 )
 ;
-nsCOMPtr
-<
-nsIThread
->
-mainThread
-=
-do_GetMainThread
-(
-)
-;
 for
 (
 i

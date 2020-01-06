@@ -364,9 +364,9 @@ mListener
 =
 listener
 ;
-mThread
+mEventTarget
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -488,7 +488,7 @@ if
 mListener
 )
 {
-mThread
+mEventTarget
 -
 >
 Dispatch
@@ -537,9 +537,9 @@ mListener
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 }
 ;

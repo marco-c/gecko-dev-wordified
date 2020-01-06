@@ -2893,7 +2893,7 @@ NS_OK
 {
 mCallbackTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
