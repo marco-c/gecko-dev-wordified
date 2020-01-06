@@ -230,7 +230,7 @@ style
 stylist
 :
 :
-needs_revalidation
+needs_revalidation_for_testing
 ;
 use
 style
@@ -1083,7 +1083,7 @@ filter
 |
 s
 |
-needs_revalidation
+needs_revalidation_for_testing
 (
 &
 s
