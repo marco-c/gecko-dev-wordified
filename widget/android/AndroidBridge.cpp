@@ -5137,9 +5137,12 @@ DependentRef
 java
 :
 :
-GeckoLayerClient
+LayerSession
+:
+:
+Compositor
 >
-GetJavaLayerClient
+GetJavaCompositor
 (
 mozIDOMWindowProxy
 *
@@ -5202,7 +5205,7 @@ get
 )
 -
 >
-GetLayerClient
+GetJavaCompositor
 (
 )
 ;
@@ -5221,7 +5224,7 @@ aWindow
 auto
 layerClient
 =
-GetJavaLayerClient
+GetJavaCompositor
 (
 aWindow
 )
@@ -5257,7 +5260,7 @@ aWindow
 auto
 layerClient
 =
-GetJavaLayerClient
+GetJavaCompositor
 (
 aWindow
 )

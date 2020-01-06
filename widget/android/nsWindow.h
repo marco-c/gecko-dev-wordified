@@ -1657,9 +1657,12 @@ mozilla
 java
 :
 :
-GeckoLayerClient
+LayerSession
+:
+:
+Compositor
 >
-GetLayerClient
+GetJavaCompositor
 (
 )
 ;
