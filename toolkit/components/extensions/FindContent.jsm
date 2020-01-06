@@ -923,7 +923,6 @@ range
 startContainer
 )
 {
-let
 node
 =
 walker
@@ -990,7 +989,6 @@ range
 endContainer
 )
 {
-let
 node
 =
 walker
