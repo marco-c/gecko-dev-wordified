@@ -508,6 +508,8 @@ FormHistoryRepository
 ;
 }
 public
+static
+final
 class
 FormHistoryRecordFactory
 extends

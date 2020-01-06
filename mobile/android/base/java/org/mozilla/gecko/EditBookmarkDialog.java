@@ -317,6 +317,8 @@ threads
 *
 /
 private
+static
+final
 class
 Bookmark
 {
@@ -440,6 +442,7 @@ button
 *
 /
 private
+static
 class
 EditBookmarkTextWatcher
 implements
@@ -661,6 +664,8 @@ not
 *
 /
 private
+static
+final
 class
 LocationTextWatcher
 extends
@@ -774,6 +779,8 @@ spaces
 *
 /
 private
+static
+final
 class
 KeywordTextWatcher
 extends

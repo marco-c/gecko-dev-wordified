@@ -233,6 +233,8 @@ menu
 item
 .
 private
+static
+final
 class
 ParsedItem
 {

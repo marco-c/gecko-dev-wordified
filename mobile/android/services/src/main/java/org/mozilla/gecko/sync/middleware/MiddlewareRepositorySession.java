@@ -454,6 +454,8 @@ delegate
 ;
 }
 public
+static
+final
 class
 MiddlewareRepositorySessionFinishDelegate
 implements

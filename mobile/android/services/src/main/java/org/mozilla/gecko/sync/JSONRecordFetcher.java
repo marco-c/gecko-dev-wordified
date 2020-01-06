@@ -481,6 +481,8 @@ e
 }
 }
 private
+static
+final
 class
 LatchedJSONRecordFetchDelegate
 implements

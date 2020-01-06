@@ -8581,6 +8581,8 @@ layout
 ;
 }
 private
+static
+final
 class
 PasswordTextWatcher
 implements
@@ -8739,6 +8741,8 @@ count
 }
 }
 private
+static
+final
 class
 EmptyTextWatcher
 implements

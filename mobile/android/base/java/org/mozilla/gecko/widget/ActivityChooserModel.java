@@ -5593,6 +5593,7 @@ activity
 *
 /
 public
+static
 final
 class
 ActivityResolveInfo
@@ -5901,6 +5902,7 @@ implementation
 *
 /
 private
+static
 final
 class
 DefaultSorter

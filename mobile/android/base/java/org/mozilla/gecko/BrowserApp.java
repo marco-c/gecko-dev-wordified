@@ -20048,6 +20048,8 @@ layout
 *
 /
 private
+static
+final
 class
 HideOnTouchListener
 implements

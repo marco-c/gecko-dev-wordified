@@ -103,6 +103,7 @@ extends
 Repository
 {
 public
+static
 abstract
 class
 SessionCreationDelegate

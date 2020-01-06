@@ -2477,6 +2477,8 @@ SuppressWarnings
 serial
 "
 )
+static
+final
 class
 SessionRestoreException
 extends

@@ -851,6 +851,8 @@ true
 ;
 }
 private
+static
+final
 class
 IconGridAdapter
 extends

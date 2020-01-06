@@ -2918,6 +2918,8 @@ otherwise
 *
 /
 private
+static
+final
 class
 BookmarkTextWatcher
 implements

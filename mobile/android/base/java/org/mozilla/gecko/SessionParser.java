@@ -177,6 +177,8 @@ GeckoSessionParser
 "
 ;
 public
+static
+final
 class
 SessionTab
 {

@@ -888,6 +888,7 @@ SyncStorageRequest
 *
 /
 public
+static
 class
 SyncStorageResourceDelegate
 extends

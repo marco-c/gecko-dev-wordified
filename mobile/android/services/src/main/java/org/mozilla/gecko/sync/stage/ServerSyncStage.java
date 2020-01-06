@@ -2094,6 +2094,8 @@ with
 caution
 .
 private
+static
+final
 class
 WipeWaiter
 {

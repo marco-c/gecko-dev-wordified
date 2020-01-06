@@ -232,6 +232,8 @@ extends
 SyncStorageRequest
 {
 public
+static
+final
 class
 SyncStorageRecordResourceDelegate
 extends

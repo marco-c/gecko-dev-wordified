@@ -5072,6 +5072,8 @@ commit
 ;
 }
 private
+static
+final
 class
 UpdateInfo
 {
