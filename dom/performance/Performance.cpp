@@ -1591,8 +1591,10 @@ PROFILER_MARKER_PAYLOAD
 "
 UserTiming
 "
-new
+MakeUnique
+<
 UserTimingMarkerPayload
+>
 (
 aName
 TimeStamp
@@ -2077,8 +2079,10 @@ PROFILER_MARKER_PAYLOAD
 "
 UserTiming
 "
-new
+MakeUnique
+<
 UserTimingMarkerPayload
+>
 (
 aName
 startTimeStamp

@@ -105,6 +105,13 @@ GLContext
 h
 "
 #
+include
+"
+GeckoProfiler
+.
+h
+"
+#
 ifdef
 MOZ_GECKO_PROFILER
 #
@@ -730,8 +737,10 @@ PROFILER_MARKER_PAYLOAD
 "
 gpu_timer_query
 "
-new
+MakeUnique
+<
 GPUMarkerPayload
+>
 (
 mCompletedSections
 [
