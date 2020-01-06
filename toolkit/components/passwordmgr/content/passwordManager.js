@@ -3410,6 +3410,12 @@ DeleteSignon
 (
 )
 ;
+e
+.
+preventDefault
+(
+)
+;
 }
 }
 function
