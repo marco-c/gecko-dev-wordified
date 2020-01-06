@@ -154,9 +154,7 @@ history
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteSearch
 )
