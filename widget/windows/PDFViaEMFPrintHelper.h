@@ -226,12 +226,8 @@ PDFViaEMFPrintHelper
 {
 public
 :
-explicit
 PDFViaEMFPrintHelper
 (
-PRLibrary
-*
-aPDFiumLibrary
 )
 ;
 ~
@@ -378,7 +374,7 @@ int
 aPageHeight
 )
 ;
-UniquePtr
+RefPtr
 <
 PDFiumEngineShim
 >
@@ -386,10 +382,6 @@ mPDFiumEngine
 ;
 FPDF_DOCUMENT
 mPDFDoc
-;
-PRLibrary
-*
-mPDFiumLibrary
 ;
 }
 ;
