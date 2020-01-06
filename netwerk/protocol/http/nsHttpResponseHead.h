@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RecursiveMutex
 .
 h
 "
@@ -393,12 +393,12 @@ mPragmaNoCache
 (
 false
 )
-mReentrantMonitor
+mRecursiveMutex
 (
 "
 nsHttpResponseHead
 .
-mReentrantMonitor
+mRecursiveMutex
 "
 )
 mInVisitHeaders
@@ -431,9 +431,9 @@ Enter
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Enter
+Lock
 (
 )
 ;
@@ -443,9 +443,9 @@ Exit
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Exit
+Unlock
 (
 )
 ;
@@ -1318,7 +1318,7 @@ mPragmaNoCache
 We
 are
 using
-ReentrantMonitor
+RecursiveMutex
 instead
 of
 a
@@ -1337,8 +1337,8 @@ while
 under
 lock
 .
-ReentrantMonitor
-mReentrantMonitor
+RecursiveMutex
+mRecursiveMutex
 ;
 /
 /
