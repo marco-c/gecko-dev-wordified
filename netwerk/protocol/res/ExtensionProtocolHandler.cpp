@@ -1290,7 +1290,7 @@ mozilla
 ipc
 :
 :
-PromiseRejectReason
+ResponseRejectReason
 )
 {
 self
@@ -1402,7 +1402,7 @@ mozilla
 ipc
 :
 :
-PromiseRejectReason
+ResponseRejectReason
 )
 {
 self

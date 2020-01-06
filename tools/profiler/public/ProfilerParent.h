@@ -314,7 +314,7 @@ typedef
 MozPromise
 <
 nsCString
-PromiseRejectReason
+ResponseRejectReason
 false
 >
 SingleProcessProfilePromise

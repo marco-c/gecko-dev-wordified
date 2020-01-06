@@ -857,7 +857,7 @@ mozilla
 ipc
 :
 :
-PromiseRejectReason
+ResponseRejectReason
 aReason
 )
 {
