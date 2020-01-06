@@ -1822,8 +1822,21 @@ workerType
 '
 gecko
 -
+{
+}
+-
 decision
 '
+.
+format
+(
+parameters
+[
+'
+level
+'
+]
+)
                 
 '
 provisionerId
