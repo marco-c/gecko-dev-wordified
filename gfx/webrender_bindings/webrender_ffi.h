@@ -190,6 +190,13 @@ gfx_use_wrench
 (
 )
 ;
+const
+char
+*
+gfx_wr_resource_path_override
+(
+)
+;
 void
 gfx_critical_note
 (
