@@ -97,14 +97,14 @@ button
 )
 ;
 let
-libraryButton
+downloadsButton
 =
 document
 .
 getElementById
 (
 "
-library
+downloads
 -
 button
 "
@@ -143,7 +143,7 @@ ok
 devButton
 &
 &
-libraryButton
+downloadsButton
 &
 &
 searchBox
@@ -160,7 +160,7 @@ exist
 simulateItemDrag
 (
 devButton
-libraryButton
+downloadsButton
 )
 ;
 simulateItemDrag
