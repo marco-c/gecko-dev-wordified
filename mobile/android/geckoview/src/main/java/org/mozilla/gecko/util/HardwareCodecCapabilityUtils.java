@@ -439,6 +439,17 @@ I337
 /
 /
 S4
+"
+LG
+-
+D605
+"
+/
+/
+LG
+Optimus
+L9
+II
 }
 ;
 WrapForJNI
