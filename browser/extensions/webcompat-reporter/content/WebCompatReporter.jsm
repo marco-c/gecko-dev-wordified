@@ -255,7 +255,7 @@ wc
 -
 reporter
 .
-label
+label2
 "
 )
 iconURL
