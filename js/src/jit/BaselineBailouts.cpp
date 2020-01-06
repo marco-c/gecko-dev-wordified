@@ -9121,7 +9121,6 @@ js
 :
 StackUses
 (
-script
 pc
 )
 ;
