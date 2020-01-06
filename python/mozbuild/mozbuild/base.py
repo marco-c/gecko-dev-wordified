@@ -3381,6 +3381,9 @@ cwd
 self
 .
 topsrcdir
+shell
+=
+True
 )
 .
 strip
