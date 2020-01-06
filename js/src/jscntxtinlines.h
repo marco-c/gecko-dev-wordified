@@ -454,16 +454,6 @@ c
 {
 if
 (
-!
-compartment
-)
-compartment
-=
-c
-;
-else
-if
-(
 c
 !
 =
