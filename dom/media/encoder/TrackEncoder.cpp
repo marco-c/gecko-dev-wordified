@@ -214,13 +214,6 @@ DEFAULT_FRAME_HEIGHT
 =
 480
 ;
-static
-const
-int
-DEFAULT_TRACK_RATE
-=
-USECS_PER_S
-;
 /
 /
 1
