@@ -1018,6 +1018,19 @@ the
 target
 thread
 .
+if
+(
+watch
+-
+>
+origin_loop
+-
+>
+IsAcceptingTasks
+(
+)
+)
+{
 watch
 -
 >
@@ -1033,6 +1046,7 @@ forget
 )
 )
 ;
+}
 }
 void
 ObjectWatcher
