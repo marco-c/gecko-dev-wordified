@@ -5574,7 +5574,7 @@ gBrowserBundle
 GetStringFromName
 (
 "
-compactLightTheme
+lightTheme
 .
 name
 "
@@ -5586,7 +5586,7 @@ gBrowserBundle
 GetStringFromName
 (
 "
-compactLightTheme
+lightTheme
 .
 description
 "
@@ -5679,7 +5679,7 @@ gBrowserBundle
 GetStringFromName
 (
 "
-compactDarkTheme
+darkTheme
 .
 name
 "
@@ -5691,7 +5691,7 @@ gBrowserBundle
 GetStringFromName
 (
 "
-compactDarkTheme
+darkTheme
 .
 description
 "
