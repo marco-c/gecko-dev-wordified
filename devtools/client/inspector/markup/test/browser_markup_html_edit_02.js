@@ -172,6 +172,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
@@ -195,6 +197,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
@@ -345,6 +349,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
@@ -368,6 +374,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
