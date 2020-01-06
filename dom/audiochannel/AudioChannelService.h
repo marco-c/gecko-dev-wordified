@@ -747,14 +747,6 @@ GetDefaultAudioChannel
 )
 ;
 void
-NotifyCreatedNewAgent
-(
-AudioChannelAgent
-*
-aAgent
-)
-;
-void
 NotifyMediaResumedFromBlock
 (
 nsPIDOMWindowOuter
