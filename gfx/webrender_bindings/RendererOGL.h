@@ -657,6 +657,12 @@ SyncObjectHost
 >
 mSyncObject
 ;
+wr
+:
+:
+DebugFlags
+mDebugFlags
+;
 }
 ;
 }

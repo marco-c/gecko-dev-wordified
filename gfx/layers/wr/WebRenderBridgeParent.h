@@ -1204,13 +1204,6 @@ aWhy
 override
 ;
 void
-SetWebRenderProfilerEnabled
-(
-bool
-aEnabled
-)
-;
-void
 Pause
 (
 )
