@@ -295,6 +295,13 @@ member
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -519,9 +526,6 @@ gfxUserFontSet
 ;
 class
 imgIRequest
-;
-class
-nsAString
 ;
 class
 nsBindingManager

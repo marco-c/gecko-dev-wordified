@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 TelemetryComms
 .
 h
@@ -130,12 +137,6 @@ nsIRunnable
 ;
 class
 nsITimer
-;
-class
-nsAString
-;
-class
-nsCString
 ;
 namespace
 mozilla

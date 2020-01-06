@@ -162,6 +162,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -307,9 +314,6 @@ event
 /
 class
 nsIRunnable
-;
-class
-nsCString
 ;
 namespace
 mozilla

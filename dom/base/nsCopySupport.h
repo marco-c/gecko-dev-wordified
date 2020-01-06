@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards
@@ -139,12 +146,6 @@ nsIContent
 ;
 class
 nsITransferable
-;
-class
-nsACString
-;
-class
-nsAString
 ;
 class
 nsIPresShell

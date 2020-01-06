@@ -126,6 +126,13 @@ already_AddRefed
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -167,9 +174,6 @@ nsIDOMNode
 ;
 class
 nsINode
-;
-class
-nsString
 ;
 namespace
 mozilla

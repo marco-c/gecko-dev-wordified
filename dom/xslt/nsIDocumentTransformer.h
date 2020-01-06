@@ -69,6 +69,13 @@ nsISupports
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIDocument
 ;
@@ -77,9 +84,6 @@ nsIDOMNode
 ;
 class
 nsIURI
-;
-class
-nsString
 ;
 #
 define

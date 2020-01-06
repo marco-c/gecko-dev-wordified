@@ -121,6 +121,13 @@ etc
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -138,9 +145,6 @@ nsICommandParams
 ;
 class
 nsISupports
-;
-class
-nsString
 ;
 namespace
 mozilla

@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -190,9 +197,6 @@ layers
 /
 namespace
 mozilla
-class
-nsAString
-;
 class
 nsPresContext
 ;

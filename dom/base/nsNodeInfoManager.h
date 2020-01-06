@@ -178,6 +178,13 @@ NS_DECL_CYCLE_
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 plhash
 .
 h
@@ -187,9 +194,6 @@ h
 for
 typedef
 PLHashNumber
-class
-nsAString
-;
 class
 nsBindingManager
 ;

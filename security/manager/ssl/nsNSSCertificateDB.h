@@ -134,9 +134,6 @@ nsString
 h
 "
 class
-nsCString
-;
-class
 nsIArray
 ;
 class

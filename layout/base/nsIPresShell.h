@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsCoord
 .
 h
@@ -367,9 +374,6 @@ nsIPageSequenceFrame
 ;
 class
 nsCanvasFrame
-;
-class
-nsAString
 ;
 class
 nsCaret

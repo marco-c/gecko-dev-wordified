@@ -127,9 +127,13 @@ nsError
 .
 h
 "
-class
-nsACString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

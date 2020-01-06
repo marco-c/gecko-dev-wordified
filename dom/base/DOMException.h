@@ -241,9 +241,6 @@ h
 class
 nsIStackFrame
 ;
-class
-nsString
-;
 nsresult
 NS_GetNameAndMessageForDOMNSResult
 (

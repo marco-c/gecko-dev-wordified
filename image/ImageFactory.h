@@ -111,9 +111,13 @@ nsProxyRelease
 .
 h
 "
-class
-nsCString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIRequest
 ;

@@ -144,9 +144,6 @@ h
 class
 nsIMutableArray
 ;
-class
-nsString
-;
 /
 /
 /

@@ -124,9 +124,13 @@ stdint
 .
 h
 >
-class
-nsString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

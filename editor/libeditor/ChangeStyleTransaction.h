@@ -146,9 +146,6 @@ h
 nsString
 members
 class
-nsAString
-;
-class
 nsIAtom
 ;
 namespace

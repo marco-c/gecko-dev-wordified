@@ -199,6 +199,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 /
 /
 XXXtw
@@ -225,9 +232,6 @@ nsPIDOMWindow
 .
 h
 "
-class
-nsACString
-;
 class
 nsIPrincipal
 ;

@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -173,9 +180,6 @@ nsRect
 .
 h
 "
-class
-nsCString
-;
 class
 nsNPAPIPlugin
 ;

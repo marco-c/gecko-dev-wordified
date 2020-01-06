@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 FrameLayerBuilder
 .
 h
@@ -162,9 +169,6 @@ nsPresContext
 ;
 class
 nsDisplayItem
-;
-class
-nsAString
 ;
 nsIFrame
 *

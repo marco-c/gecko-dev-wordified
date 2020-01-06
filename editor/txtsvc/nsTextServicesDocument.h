@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -190,9 +197,6 @@ nsISelectionController
 ;
 class
 nsITextServicesFilter
-;
-class
-nsString
 ;
 /
 *

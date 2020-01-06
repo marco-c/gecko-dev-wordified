@@ -207,9 +207,6 @@ nsISupportsImpl
 .
 h
 "
-class
-nsString
-;
 /
 /
 XXX

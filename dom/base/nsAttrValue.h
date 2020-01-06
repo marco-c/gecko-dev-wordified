@@ -199,6 +199,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 SVGAttrValueWrapper
 .
 h
@@ -260,9 +267,6 @@ Windows
 #
 undef
 LoadImage
-class
-nsAString
-;
 class
 nsIDocument
 ;

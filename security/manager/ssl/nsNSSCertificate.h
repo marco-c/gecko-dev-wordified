@@ -176,6 +176,13 @@ nsNSSShutDown
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

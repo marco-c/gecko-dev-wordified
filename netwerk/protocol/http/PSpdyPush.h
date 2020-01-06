@@ -292,9 +292,13 @@ nsISupports
 .
 h
 "
-class
-nsCString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

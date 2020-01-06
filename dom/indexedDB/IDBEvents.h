@@ -163,6 +163,13 @@ Nullable
 h
 "
 #
+include
+"
+nsStringFwd
+.
+h
+"
+#
 define
 IDBVERSIONCHANGEEVENT_IID
 \
@@ -181,12 +188,6 @@ IDBVERSIONCHANGEEVENT_IID
 0x4b
 }
 }
-class
-nsAString
-;
-class
-nsDependentString
-;
 namespace
 mozilla
 {

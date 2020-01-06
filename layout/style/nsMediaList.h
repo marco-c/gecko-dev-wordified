@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -167,9 +174,6 @@ h
 "
 class
 nsPresContext
-;
-class
-nsAString
 ;
 struct
 nsMediaFeature

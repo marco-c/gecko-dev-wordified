@@ -158,9 +158,13 @@ nsIDOMAnimationEvent
 .
 h
 "
-class
-nsAString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

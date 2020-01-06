@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -174,12 +181,6 @@ NS_IGLOBALOBJECT_IID
 0x7f
 }
 }
-class
-nsACString
-;
-class
-nsCString
-;
 class
 nsCycleCollectionTraversalCallback
 ;

@@ -258,9 +258,6 @@ class
 nsIDocument
 ;
 class
-nsString
-;
-class
 nsIURI
 ;
 class

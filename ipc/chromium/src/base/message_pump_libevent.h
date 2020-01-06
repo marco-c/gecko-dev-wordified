@@ -132,6 +132,13 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 /
 /
 Declare
@@ -151,9 +158,6 @@ event_base
 ;
 struct
 event
-;
-class
-nsDependentCSubstring
 ;
 namespace
 base

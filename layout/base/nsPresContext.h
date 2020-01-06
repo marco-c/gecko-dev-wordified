@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsFont
 .
 h
@@ -387,9 +394,6 @@ StyleBackendType
 .
 h
 "
-class
-nsAString
-;
 class
 nsBidi
 ;

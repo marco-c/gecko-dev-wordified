@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsStyleStruct
 .
 h
@@ -150,9 +157,6 @@ h
 "
 class
 nsCSSValue
-;
-class
-nsStringComparator
 ;
 class
 nsStyleCoord
