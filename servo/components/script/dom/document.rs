@@ -6295,6 +6295,16 @@ self
 .
 window
 .
+update_viewport_for_scroll
+(
+x
+y
+)
+;
+self
+.
+window
+.
 perform_a_scroll
 (
 x

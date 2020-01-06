@@ -10703,10 +10703,6 @@ win
 scroll_node
 (
 node
-.
-to_trusted_node_address
-(
-)
 x
 y
 behavior
@@ -14336,10 +14332,6 @@ win
 scroll_node
 (
 node
-.
-to_trusted_node_address
-(
-)
 self
 .
 ScrollLeft
@@ -14872,10 +14864,6 @@ win
 scroll_node
 (
 node
-.
-to_trusted_node_address
-(
-)
 x
 self
 .
