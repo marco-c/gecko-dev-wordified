@@ -360,6 +360,7 @@ AxisPhysicsModel
 GetVelocity
 (
 )
+const
 {
 return
 LinearInterpolate
@@ -381,6 +382,7 @@ AxisPhysicsModel
 GetPosition
 (
 )
+const
 {
 return
 LinearInterpolate

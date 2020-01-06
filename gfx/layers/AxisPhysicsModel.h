@@ -276,6 +276,7 @@ double
 GetVelocity
 (
 )
+const
 ;
 /
 *
@@ -322,6 +323,7 @@ double
 GetPosition
 (
 )
+const
 ;
 /
 *
