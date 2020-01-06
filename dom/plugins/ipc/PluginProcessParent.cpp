@@ -758,13 +758,11 @@ PluginProcessParent
 :
 SetCallRunnableImmediately
 (
-bool
-aCallImmediately
 )
 {
 mRunCompleteTaskImmediately
 =
-aCallImmediately
+true
 ;
 }
 /

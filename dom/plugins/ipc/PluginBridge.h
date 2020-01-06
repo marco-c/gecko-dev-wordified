@@ -168,8 +168,6 @@ dom
 ContentParent
 *
 aContentParent
-bool
-aForceBridgeNow
 nsresult
 *
 aResult
