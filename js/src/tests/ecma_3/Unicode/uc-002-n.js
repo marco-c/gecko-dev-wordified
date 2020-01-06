@@ -78,6 +78,11 @@ MPL
 .
 *
 /
+var
+BUGNUMBER
+=
+23607
+;
 DESCRIPTION
 =
 "
@@ -109,7 +114,7 @@ test
 ;
 printBugNumber
 (
-23607
+BUGNUMBER
 )
 ;
 eval

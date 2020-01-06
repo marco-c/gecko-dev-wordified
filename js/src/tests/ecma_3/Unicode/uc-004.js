@@ -84,6 +84,11 @@ MPL
 .
 *
 /
+var
+BUGNUMBER
+=
+23612
+;
 test
 (
 )
@@ -110,7 +115,7 @@ test
 ;
 printBugNumber
 (
-23612
+BUGNUMBER
 )
 ;
 var

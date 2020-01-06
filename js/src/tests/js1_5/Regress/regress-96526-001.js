@@ -208,9 +208,14 @@ id
 -
 -
 -
+var
+BUGNUMBER
+=
+96526
+;
 printBugNumber
 (
-96526
+BUGNUMBER
 )
 ;
 printStatus

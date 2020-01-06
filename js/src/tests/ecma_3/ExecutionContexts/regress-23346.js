@@ -85,6 +85,11 @@ MPL
 *
 /
 var
+BUGNUMBER
+=
+23346
+;
+var
 CALL_CALLED
 =
 "
@@ -151,7 +156,7 @@ Instantiation
 ;
 printBugNumber
 (
-23346
+BUGNUMBER
 )
 ;
 reportCompare

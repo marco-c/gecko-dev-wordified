@@ -109,6 +109,11 @@ with
 undefined
 *
 /
+var
+BUGNUMBER
+=
+17290
+;
 test
 (
 )
@@ -160,7 +165,7 @@ Instantiation
 ;
 printBugNumber
 (
-17290
+BUGNUMBER
 )
 ;
 reportCompare

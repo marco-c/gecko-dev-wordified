@@ -82,7 +82,7 @@ MPL
 *
 /
 var
-bug
+BUGNUMBER
 =
 355569
 ;
@@ -106,7 +106,7 @@ summary
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus
