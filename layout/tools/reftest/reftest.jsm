@@ -3707,6 +3707,15 @@ identifier
 )
 ;
 }
+if
+(
+gStartAfter
+=
+=
+=
+undefined
+)
+{
 logger
 .
 suiteStart
@@ -3727,6 +3736,7 @@ length
 }
 )
 ;
+}
 if
 (
 gTotalChunks
