@@ -290,10 +290,6 @@ mHandle
 (
 aHandle
 )
-mTextureHandle
-{
-0
-}
 mSurface
 (
 0
@@ -302,6 +298,10 @@ mStream
 (
 0
 )
+mTextureHandle
+{
+0
+}
 mFormat
 (
 aFormat

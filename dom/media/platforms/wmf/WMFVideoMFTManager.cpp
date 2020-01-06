@@ -1125,13 +1125,13 @@ mImageContainer
 (
 aImageContainer
 )
-mDXVAEnabled
-(
-aDXVAEnabled
-)
 mKnowsCompositor
 (
 aKnowsCompositor
+)
+mDXVAEnabled
+(
+aDXVAEnabled
 )
 mAMDVP9InUse
 (

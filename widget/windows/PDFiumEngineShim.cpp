@@ -248,6 +248,10 @@ PDFiumEngineShim
 (
 )
 :
+mInitialized
+(
+false
+)
 mFPDF_InitLibrary
 (
 nullptr
@@ -279,10 +283,6 @@ nullptr
 mPRLibrary
 (
 nullptr
-)
-mInitialized
-(
-false
 )
 {
 }
