@@ -3238,7 +3238,7 @@ SetScaleHint
 scaleHint
 )
 ;
-LayerRect
+LayoutDeviceRect
 rect
 (
 destGFXRect

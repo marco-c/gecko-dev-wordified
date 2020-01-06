@@ -435,7 +435,7 @@ PipelineId
 &
 aPipelineId
 const
-LayerRect
+LayoutDeviceRect
 &
 aScBounds
 const
@@ -655,7 +655,7 @@ mIsChanged
 bool
 mUseExternalImage
 ;
-LayerRect
+LayoutDeviceRect
 mScBounds
 ;
 gfx

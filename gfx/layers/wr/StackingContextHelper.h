@@ -160,9 +160,6 @@ mozilla
 namespace
 layers
 {
-class
-WebRenderLayer
-;
 /
 *
 *
@@ -371,7 +368,7 @@ void
 AdjustOrigin
 (
 const
-LayerPoint
+LayoutDevicePoint
 &
 aDelta
 )
@@ -520,19 +517,6 @@ LayoutRect
 ToRelativeLayoutRect
 (
 const
-LayerRect
-&
-aRect
-)
-const
-;
-wr
-:
-:
-LayoutRect
-ToRelativeLayoutRect
-(
-const
 LayoutDeviceRect
 &
 aRect
@@ -552,7 +536,7 @@ LayoutPoint
 ToRelativeLayoutPoint
 (
 const
-LayerPoint
+LayoutDevicePoint
 &
 aPoint
 )
@@ -612,7 +596,7 @@ DisplayListBuilder
 *
 mBuilder
 ;
-LayerPoint
+LayoutDevicePoint
 mOrigin
 ;
 gfx

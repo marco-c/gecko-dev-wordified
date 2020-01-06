@@ -368,7 +368,7 @@ StackingContextHelper
 &
 aSc
 const
-LayerRect
+LayoutDeviceRect
 &
 aRect
 )
@@ -405,7 +405,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 const
-LayerRect
+LayoutDeviceRect
 &
 aBounds
 )
@@ -492,7 +492,7 @@ aSc
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-LayerRect
+LayoutDeviceRect
 &
 aImageRect
 )
