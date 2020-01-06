@@ -123,6 +123,21 @@ yaml
 -
 lint
 '
+    
+#
+tests
+that
+only
+run
+when
+certain
+files
+have
+changed
+    
+'
+jittest
+'
 ]
 INCLUSIVE_COMPONENTS
 =
@@ -178,10 +193,6 @@ geckoview
     
 '
 gtest
-'
-    
-'
-jittest
 '
     
 '
