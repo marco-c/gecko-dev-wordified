@@ -608,13 +608,14 @@ the
 string
 stored
 in
-mTagData
+mChars
 until
 the
 null
 character
 is
 seen
+.
 bool
 seenNullByte
 =
@@ -674,7 +675,9 @@ tagBuffPos
 =
 readAheadEntry
 .
-mTagChars
+u
+.
+mChars
 [
 pos
 ]
