@@ -638,7 +638,7 @@ as_block
 (
 )
 .
-stacking_relative_position
+stacking_relative_border_box
 (
 CoordinateSystem
 :

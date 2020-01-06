@@ -1618,10 +1618,6 @@ static
 absolute
 relative
 fixed
-"
-extra_gecko_values
-=
-"
 sticky
 "
 animation_value_type

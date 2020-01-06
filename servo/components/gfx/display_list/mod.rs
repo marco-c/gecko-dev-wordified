@@ -430,8 +430,14 @@ webrender_api
 MixBlendMode
 ScrollPolicy
 ScrollSensitivity
-TransformStyle
+StickyFrameInfo
 }
+;
+use
+webrender_api
+:
+:
+TransformStyle
 ;
 pub
 use
@@ -3672,6 +3678,10 @@ ScrollRootType
 ScrollFrame
 (
 ScrollSensitivity
+)
+StickyFrame
+(
+StickyFrameInfo
 )
 Clip
 }
