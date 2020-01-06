@@ -931,8 +931,8 @@ mask
 )
 ;
 static
-RegExpShared
-*
+MOZ_MUST_USE
+bool
 getShared
 (
 JSContext
@@ -944,6 +944,8 @@ RegExpObject
 *
 >
 regexp
+MutableHandleRegExpShared
+shared
 )
 ;
 bool
@@ -1158,8 +1160,8 @@ field
 *
 /
 static
-RegExpShared
-*
+MOZ_MUST_USE
+bool
 createShared
 (
 JSContext
@@ -1171,6 +1173,8 @@ RegExpObject
 *
 >
 regexp
+MutableHandleRegExpShared
+shared
 )
 ;
 /
@@ -1273,8 +1277,7 @@ obj
 *
 /
 inline
-RegExpShared
-*
+bool
 RegExpToShared
 (
 JSContext
@@ -1282,6 +1285,8 @@ JSContext
 cx
 HandleObject
 obj
+MutableHandleRegExpShared
+shared
 )
 {
 if
@@ -1311,6 +1316,7 @@ RegExpObject
 >
 (
 )
+shared
 )
 ;
 return
@@ -1321,6 +1327,7 @@ regexp_toShared
 (
 cx
 obj
+shared
 )
 ;
 }

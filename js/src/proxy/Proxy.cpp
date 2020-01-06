@@ -3979,8 +3979,7 @@ indent
 )
 ;
 }
-RegExpShared
-*
+bool
 Proxy
 :
 :
@@ -3991,6 +3990,8 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandleRegExpShared
+shared
 )
 {
 if
@@ -4002,7 +4003,7 @@ cx
 )
 )
 return
-nullptr
+false
 ;
 return
 proxy
@@ -4024,6 +4025,7 @@ regexp_toShared
 (
 cx
 proxy
+shared
 )
 ;
 }

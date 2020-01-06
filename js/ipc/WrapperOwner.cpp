@@ -863,8 +863,7 @@ const
 override
 ;
 virtual
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -872,6 +871,12 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandle
+<
+RegExpShared
+*
+>
+shared
 )
 const
 override
@@ -994,7 +999,6 @@ FORWARD
 (
 call
 args
-failRetVal
 )
 \
 AUTO_PROFILER_LABEL
@@ -1043,7 +1047,7 @@ gone
 ;
 \
 return
-failRetVal
+false
 ;
 \
 }
@@ -1062,7 +1066,7 @@ cx
 {
 \
 return
-failRetVal
+false
 ;
 \
 }
@@ -1115,7 +1119,6 @@ proxy
 id
 desc
 )
-false
 )
 ;
 }
@@ -1244,7 +1247,6 @@ proxy
 id
 desc
 )
-false
 )
 ;
 }
@@ -1377,7 +1379,6 @@ id
 desc
 result
 )
-false
 )
 ;
 }
@@ -1505,7 +1506,6 @@ cx
 proxy
 props
 )
-false
 )
 ;
 }
@@ -1567,7 +1567,6 @@ proxy
 id
 result
 )
-false
 )
 ;
 }
@@ -1739,7 +1738,6 @@ proxy
 id
 bp
 )
-false
 )
 ;
 }
@@ -1847,7 +1845,6 @@ proxy
 id
 bp
 )
-false
 )
 ;
 }
@@ -1959,7 +1956,6 @@ receiver
 id
 vp
 )
-false
 )
 ;
 }
@@ -2058,7 +2054,6 @@ cx
 proxy
 args
 )
-false
 )
 ;
 }
@@ -2179,7 +2174,6 @@ cx
 proxy
 args
 )
-false
 )
 ;
 }
@@ -3177,7 +3171,6 @@ v
 receiver
 result
 )
-false
 )
 ;
 }
@@ -3337,7 +3330,6 @@ cx
 proxy
 props
 )
-false
 )
 ;
 }
@@ -3392,7 +3384,6 @@ cx
 proxy
 result
 )
-false
 )
 ;
 }
@@ -3477,7 +3468,6 @@ cx
 proxy
 extensible
 )
-false
 )
 ;
 }
@@ -3564,7 +3554,6 @@ proxy
 args
 false
 )
-false
 )
 ;
 }
@@ -3595,7 +3584,6 @@ proxy
 args
 true
 )
-false
 )
 ;
 }
@@ -4121,7 +4109,6 @@ proxy
 v
 bp
 )
-false
 )
 ;
 }
@@ -4226,7 +4213,6 @@ cx
 proxy
 cls
 )
-false
 )
 ;
 }
@@ -4331,7 +4317,6 @@ cx
 proxy
 answer
 )
-false
 )
 ;
 }
@@ -4593,7 +4578,6 @@ cx
 proxy
 objp
 )
-false
 )
 ;
 }
@@ -4703,7 +4687,6 @@ proxy
 isOrdinary
 objp
 )
-false
 )
 ;
 }
@@ -4789,8 +4772,7 @@ return
 true
 ;
 }
-RegExpShared
-*
+bool
 CPOWProxyHandler
 :
 :
@@ -4801,6 +4783,12 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandle
+<
+RegExpShared
+*
+>
+shared
 )
 const
 {
@@ -4810,13 +4798,12 @@ regexp_toShared
 (
 cx
 proxy
+shared
 )
-nullptr
 )
 ;
 }
-RegExpShared
-*
+bool
 WrapperOwner
 :
 :
@@ -4827,6 +4814,12 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandle
+<
+RegExpShared
+*
+>
+shared
 )
 {
 ObjectId
@@ -4862,19 +4855,12 @@ source
 flags
 )
 )
-{
-MOZ_ALWAYS_FALSE
-(
+return
 ipcfail
 (
 cx
 )
-)
 ;
-return
-nullptr
-;
-}
 LOG_STACK
 (
 )
@@ -4889,7 +4875,7 @@ status
 )
 )
 return
-nullptr
+false
 ;
 RootedObject
 regexp
@@ -4921,7 +4907,7 @@ if
 regexp
 )
 return
-nullptr
+false
 ;
 return
 js
@@ -4931,6 +4917,7 @@ RegExpToSharedNonInline
 (
 cx
 regexp
+shared
 )
 ;
 }
@@ -5547,7 +5534,6 @@ prototypeID
 depth
 bp
 )
-false
 )
 ;
 }

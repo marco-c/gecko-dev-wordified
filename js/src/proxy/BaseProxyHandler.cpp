@@ -2046,8 +2046,7 @@ return
 nullptr
 ;
 }
-RegExpShared
-*
+bool
 BaseProxyHandler
 :
 :
@@ -2058,6 +2057,8 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandleRegExpShared
+shared
 )
 const
 {

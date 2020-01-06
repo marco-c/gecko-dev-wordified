@@ -1576,8 +1576,7 @@ empty
 )
 ;
 }
-RegExpShared
-*
+bool
 get
 (
 JSContext
@@ -1587,6 +1586,8 @@ HandleAtom
 source
 RegExpFlag
 flags
+MutableHandleRegExpShared
+shared
 )
 ;
 /
@@ -1609,8 +1610,7 @@ null
 .
 *
 /
-RegExpShared
-*
+bool
 get
 (
 JSContext
@@ -1621,6 +1621,8 @@ source
 JSString
 *
 maybeOpt
+MutableHandleRegExpShared
+shared
 )
 ;
 size_t
