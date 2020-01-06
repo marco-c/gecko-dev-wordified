@@ -841,6 +841,7 @@ ProcessingError
 InvalidDrawTarget
 NativeFontResourceNotFound
 UnscaledFontNotFound
+InvalidLayerType
 /
 /
 End
