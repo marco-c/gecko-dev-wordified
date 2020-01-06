@@ -8071,7 +8071,10 @@ self
 )
 -
 >
+Option
+<
 BrowsingContextId
+>
 ;
 fn
 iframe_pipeline_id
@@ -8081,7 +8084,10 @@ self
 )
 -
 >
+Option
+<
 PipelineId
+>
 ;
 fn
 opaque
@@ -9101,7 +9107,10 @@ self
 )
 -
 >
+Option
+<
 BrowsingContextId
+>
 {
 let
 iframe_element
@@ -9133,10 +9142,6 @@ iframe_element
 browsing_context_id
 (
 )
-.
-unwrap
-(
-)
 }
 fn
 iframe_pipeline_id
@@ -9146,7 +9151,10 @@ self
 )
 -
 >
+Option
+<
 PipelineId
+>
 {
 let
 iframe_element
@@ -9176,10 +9184,6 @@ element
 iframe_element
 .
 pipeline_id
-(
-)
-.
-unwrap
 (
 )
 }
