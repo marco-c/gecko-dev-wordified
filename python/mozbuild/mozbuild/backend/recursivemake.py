@@ -3374,25 +3374,6 @@ py
 .
 rs
 '
-                
-'
-new
-'
-#
-'
-new
-'
-is
-an
-output
-from
-make
--
-stl
--
-wrappers
-.
-py
             
 )
             
