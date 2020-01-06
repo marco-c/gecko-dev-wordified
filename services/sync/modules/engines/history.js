@@ -1205,6 +1205,15 @@ let
 i
 k
 ;
+let
+maybeYield
+=
+Async
+.
+jankYielder
+(
+)
+;
 for
 (
 i
@@ -1225,6 +1234,11 @@ i
 +
 )
 {
+await
+maybeYield
+(
+)
+;
 let
 record
 =
