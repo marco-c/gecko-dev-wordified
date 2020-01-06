@@ -753,10 +753,10 @@ here
 nsresult
 CopyLastEditableChildStyles
 (
-nsIDOMNode
+nsINode
 *
 aPreviousBlock
-nsIDOMNode
+nsINode
 *
 aNewBlock
 Element

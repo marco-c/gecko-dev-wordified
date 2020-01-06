@@ -46903,15 +46903,9 @@ htmlEditor
 >
 CopyLastEditableChildStyles
 (
-GetAsDOMNode
-(
 prevItem
-)
-GetAsDOMNode
-(
 &
 aListItem
-)
 getter_AddRefs
 (
 brNode
