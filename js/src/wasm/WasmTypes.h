@@ -1001,7 +1001,7 @@ T
 struct
 ShareableBase
 :
-RefCounted
+AtomicRefCounted
 <
 T
 >
