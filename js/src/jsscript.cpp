@@ -20840,12 +20840,16 @@ const
 {
 return
 types_
+?
+types_
 -
 >
 sizeOfIncludingThis
 (
 mallocSizeOf
 )
+:
+0
 ;
 }
 /
