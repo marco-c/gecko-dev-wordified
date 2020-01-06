@@ -496,7 +496,7 @@ REGISTER_NAMESPACE
 nsGkAtoms
 :
 :
-empty
+_empty
 kNameSpaceID_None
 )
 ;
