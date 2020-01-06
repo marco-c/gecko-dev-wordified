@@ -67188,7 +67188,7 @@ channel
 to
 timeout
 in
-3
+2
 seconds
 if
 we
@@ -67211,7 +67211,7 @@ mixed_content
 .
 hsts_priming_request_timeout
 "
-3000
+2000
 )
 ;
 /
