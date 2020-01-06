@@ -4288,7 +4288,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 aWindow
-false
+nsFocusManager
+:
+:
+eOnlyCurrentWindow
 getter_AddRefs
 (
 focusedWindow

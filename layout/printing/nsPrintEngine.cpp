@@ -25703,7 +25703,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-true
+nsFocusManager
+:
+:
+eIncludeAllDescendants
 getter_AddRefs
 (
 focusedWindow

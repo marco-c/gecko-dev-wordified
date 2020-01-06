@@ -1292,6 +1292,14 @@ root
 GetControllerForCommand
 (
 aCommand
+false
+/
+*
+for
+any
+window
+*
+/
 aResult
 )
 ;

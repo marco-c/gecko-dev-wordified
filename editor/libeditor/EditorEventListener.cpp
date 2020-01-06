@@ -807,6 +807,14 @@ root
 GetControllerForCommand
 (
 commandStr
+false
+/
+*
+for
+any
+window
+*
+/
 getter_AddRefs
 (
 controller

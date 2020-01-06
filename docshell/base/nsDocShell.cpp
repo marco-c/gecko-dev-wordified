@@ -80867,7 +80867,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 ourWindow
-true
+nsFocusManager
+:
+:
+eIncludeAllDescendants
 getter_AddRefs
 (
 windowToSearch
@@ -82479,6 +82482,14 @@ root
 GetControllerForCommand
 (
 aCommand
+false
+/
+*
+for
+any
+window
+*
+/
 aResult
 )
 ;
