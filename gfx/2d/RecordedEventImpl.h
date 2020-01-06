@@ -4817,6 +4817,8 @@ uint8_t
 aData
 uint32_t
 aSize
+uint32_t
+aIndex
 void
 *
 aBaton
@@ -4841,6 +4843,7 @@ SetFontDescriptor
 (
 aData
 aSize
+aIndex
 )
 ;
 }
@@ -4864,6 +4867,10 @@ aUnscaledFont
 GetType
 (
 )
+)
+mIndex
+(
+0
 )
 mRefPtr
 (
@@ -4977,6 +4984,8 @@ uint8_t
 aData
 uint32_t
 aSize
+uint32_t
+aIndex
 )
 ;
 bool
@@ -4993,6 +5002,9 @@ vector
 uint8_t
 >
 mData
+;
+uint32_t
+mIndex
 ;
 ReferencePtr
 mRefPtr
@@ -14969,6 +14981,7 @@ mData
 size
 (
 )
+mIndex
 )
 ;
 if
@@ -15061,6 +15074,12 @@ mRefPtr
 WriteElement
 (
 aStream
+mIndex
+)
+;
+WriteElement
+(
+aStream
 (
 size_t
 )
@@ -15139,6 +15158,8 @@ uint8_t
 aData
 uint32_t
 aSize
+uint32_t
+aIndex
 )
 {
 mData
@@ -15150,6 +15171,10 @@ aData
 +
 aSize
 )
+;
+mIndex
+=
+aIndex
 ;
 }
 template
@@ -15182,6 +15207,12 @@ ReadElement
 (
 aStream
 mRefPtr
+)
+;
+ReadElement
+(
+aStream
+mIndex
 )
 ;
 size_t

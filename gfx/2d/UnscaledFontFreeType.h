@@ -281,17 +281,6 @@ return
 mIndex
 ;
 }
-struct
-FontDescriptor
-{
-uint32_t
-mPathLength
-;
-uint32_t
-mIndex
-;
-}
-;
 bool
 GetFontFileData
 (
@@ -314,7 +303,7 @@ aBaton
 )
 override
 ;
-private
+protected
 :
 FT_Face
 mFace
@@ -434,6 +423,8 @@ uint8_t
 aData
 uint32_t
 aDataLength
+uint32_t
+aIndex
 )
 ;
 already_AddRefed
