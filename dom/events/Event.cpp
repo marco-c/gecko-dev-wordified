@@ -3574,6 +3574,10 @@ IsHandlingUserInput
 )
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent
@@ -3676,6 +3680,10 @@ IsHandlingUserInput
 )
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent
@@ -3758,6 +3766,10 @@ IsHandlingUserInput
 )
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent
@@ -3816,6 +3828,10 @@ IsTrusted
 )
 )
 {
+abuse
+=
+openBlocked
+;
 uint32_t
 key
 =
@@ -3972,6 +3988,10 @@ IsTrusted
 )
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent
@@ -4058,6 +4078,10 @@ WidgetMouseEvent
 eLeftButton
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent
@@ -4321,6 +4345,10 @@ IsHandlingUserInput
 )
 )
 {
+abuse
+=
+openBlocked
+;
 switch
 (
 aEvent

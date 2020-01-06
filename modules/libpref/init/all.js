@@ -16318,6 +16318,11 @@ openControlled
 /
 2
 =
+openBlocked
+/
+/
+3
+=
 openAbused
 pref
 (
@@ -16328,7 +16333,7 @@ popups
 .
 disable_from_plugins
 "
-2
+3
 )
 ;
 /
