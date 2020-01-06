@@ -6231,6 +6231,11 @@ aRootNode
 return
 ;
 }
+if
+(
+mRootNode
+)
+{
 mRootNode
 -
 >
@@ -6239,6 +6244,7 @@ RemoveMutationObserver
 this
 )
 ;
+}
 mRootNode
 =
 aRootNode
