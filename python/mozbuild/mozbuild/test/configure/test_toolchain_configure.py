@@ -349,6 +349,22 @@ gnu
 :
 DRAFT_CXX_14
 }
+SUPPORTS_DRAFT_CXX14_VERSION
+=
+{
+    
+'
+-
+std
+=
+gnu
++
++
+14
+'
+:
+DRAFT_CXX_14
+}
 GCC_4_7
 =
 GCC
@@ -2799,7 +2815,7 @@ std
 gnu
 +
 +
-11
+14
 '
 ]
         
@@ -2910,7 +2926,7 @@ std
 gnu
 +
 +
-11
+14
 '
 ]
         
@@ -3087,7 +3103,7 @@ std
 gnu
 +
 +
-11
+14
 '
 ]
         
