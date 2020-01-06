@@ -1392,11 +1392,6 @@ formIndex
 fieldIndex
 ]
 ;
-delete
-field
-.
-_reason
-;
 expectedField
 .
 elementWeakRef
