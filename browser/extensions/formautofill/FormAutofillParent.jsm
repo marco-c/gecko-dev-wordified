@@ -2619,6 +2619,7 @@ guid
 address
 .
 record
+true
 )
 ;
 changedGUIDs
