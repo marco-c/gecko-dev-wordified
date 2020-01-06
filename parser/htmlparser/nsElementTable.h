@@ -1020,9 +1020,14 @@ aType
 )
 const
 ;
+#
+ifdef
+DEBUG
 eHTMLTags
 mTagID
 ;
+#
+endif
 int
 mParentBits
 ;
