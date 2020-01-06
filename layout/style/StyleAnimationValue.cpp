@@ -25922,10 +25922,6 @@ AppendToString
 (
 aProperty
 aSpecifiedValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 return

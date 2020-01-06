@@ -6100,11 +6100,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 :
 mProperty
@@ -6114,10 +6109,6 @@ aProperty
 mResult
 (
 aResult
-)
-mValueSerialization
-(
-aSerialization
 )
 {
 }
@@ -6215,7 +6206,6 @@ AppendToString
 (
 mProperty
 mResult
-mValueSerialization
 )
 ;
 }
@@ -6250,7 +6240,6 @@ AppendToString
 (
 mProperty
 mResult
-mValueSerialization
 )
 ;
 }
@@ -6262,12 +6251,6 @@ mProperty
 nsAString
 &
 mResult
-;
-nsCSSValue
-:
-:
-Serialization
-mValueSerialization
 ;
 }
 ;
@@ -6286,8 +6269,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -6491,7 +6472,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -6511,8 +6491,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -6562,7 +6540,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -6580,8 +6557,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -6781,7 +6756,6 @@ Item
 )
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -6814,7 +6788,6 @@ Item
 )
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -6953,7 +6926,6 @@ count
 AppendBasicShapePositionToString
 (
 aResult
-aSerialization
 )
 ;
 }
@@ -7049,8 +7021,6 @@ AppendBasicShapePositionToString
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -7260,7 +7230,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aResult
-aSerialization
 )
 ;
 aResult
@@ -7277,7 +7246,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aResult
-aSerialization
 )
 ;
 }
@@ -7301,7 +7269,6 @@ AppendToString
 (
 eCSSProperty_object_position
 aResult
-aSerialization
 )
 ;
 aResult
@@ -7318,7 +7285,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aResult
-aSerialization
 )
 ;
 aResult
@@ -7335,7 +7301,6 @@ AppendToString
 (
 eCSSProperty_object_position
 aResult
-aSerialization
 )
 ;
 aResult
@@ -7352,7 +7317,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aResult
-aSerialization
 )
 ;
 }
@@ -7421,11 +7385,6 @@ aValues
 nsAString
 &
 aString
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 {
 const
@@ -7498,7 +7457,6 @@ aProperties
 0
 ]
 aString
-aSerialization
 )
 ;
 if
@@ -7558,7 +7516,6 @@ aProperties
 1
 ]
 aString
-aSerialization
 )
 ;
 if
@@ -7612,7 +7569,6 @@ aProperties
 2
 ]
 aString
-aSerialization
 )
 ;
 if
@@ -7660,7 +7616,6 @@ aProperties
 3
 ]
 aString
-aSerialization
 )
 ;
 }
@@ -7692,8 +7647,6 @@ aValues
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 {
 bool
@@ -7814,7 +7767,6 @@ AppendSidesShorthandToString
 aProperties
 xVals
 aResult
-aSerialization
 )
 ;
 if
@@ -7836,7 +7788,6 @@ AppendSidesShorthandToString
 aProperties
 yVals
 aResult
-aSerialization
 )
 ;
 }
@@ -7852,8 +7803,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -7921,7 +7870,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -7962,7 +7910,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -8003,7 +7950,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -8044,7 +7990,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -8186,7 +8131,6 @@ AppendBasicShapeRadiusToString
 subprops
 vals
 aResult
-aSerialization
 )
 ;
 }
@@ -8653,8 +8597,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 {
@@ -9365,7 +9307,6 @@ AppendToString
 (
 prop
 aResult
-aSerialization
 )
 ;
 mark
@@ -9623,7 +9564,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 MOZ_ASSERT
@@ -9848,7 +9788,6 @@ AppendPolygonToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 break
@@ -9864,7 +9803,6 @@ AppendCircleOrEllipseToString
 functionId
 aProperty
 aResult
-aSerialization
 )
 ;
 break
@@ -9876,7 +9814,6 @@ AppendInsetToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 break
@@ -9935,7 +9872,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 /
@@ -10027,7 +9963,6 @@ ops
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 css
@@ -11134,7 +11069,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -11651,7 +11585,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -11690,7 +11623,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -11861,7 +11793,6 @@ AppendToString
 (
 eCSSProperty_background_position_x
 aResult
-aSerialization
 )
 ;
 didAppendX
@@ -11939,7 +11870,6 @@ AppendToString
 (
 eCSSProperty_background_position_y
 aResult
-aSerialization
 )
 ;
 }
@@ -11973,7 +11903,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 needSep
@@ -12095,7 +12024,6 @@ AppendToString
 (
 eCSSProperty_background_position_x
 aResult
-aSerialization
 )
 ;
 aResult
@@ -12135,7 +12063,6 @@ AppendToString
 (
 eCSSProperty_background_position_y
 aResult
-aSerialization
 )
 ;
 aResult
@@ -12188,7 +12115,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12499,7 +12425,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12552,7 +12477,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12878,7 +12802,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12900,7 +12823,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12921,7 +12843,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12949,7 +12870,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -12971,7 +12891,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -13021,7 +12940,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 break
@@ -14835,11 +14753,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 {
 for
@@ -14857,7 +14770,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 val
@@ -14922,11 +14834,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 {
 /
@@ -15175,7 +15082,6 @@ GetListValue
 )
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -15242,7 +15148,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 repeatList
@@ -15288,7 +15193,6 @@ GetListValue
 )
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -15415,7 +15319,6 @@ GetListValue
 )
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -15446,7 +15349,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -15551,11 +15453,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -15578,7 +15475,6 @@ AppendGridTemplateToString
 this
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -15589,7 +15485,6 @@ AppendValueListToString
 this
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -15898,11 +15793,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -15918,7 +15808,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -16122,11 +16011,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -16239,7 +16123,6 @@ AppendSidesShorthandToString
 props
 values
 aResult
-aSerialization
 )
 ;
 }
@@ -16265,7 +16148,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16281,7 +16163,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16297,7 +16178,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16313,7 +16193,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -16342,7 +16221,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16358,7 +16236,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16374,7 +16251,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16390,7 +16266,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 aResult
@@ -16655,11 +16530,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -16669,7 +16539,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -16701,7 +16570,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -16859,11 +16727,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -16873,7 +16736,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -16905,7 +16767,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -16937,7 +16798,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
@@ -17174,11 +17034,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 const
 {
@@ -17224,7 +17079,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 if
@@ -17301,7 +17155,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 }
