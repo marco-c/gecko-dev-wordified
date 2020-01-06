@@ -308,6 +308,24 @@ tooltool_cache
 "
 )
     
+"
+tooltool_authentication_file
+"
+:
+os
+.
+path
+.
+join
+(
+LOCAL_WORKDIR
+"
+relengapi
+.
+tok
+"
+)
+    
 #
 VCS
 tools
