@@ -1672,6 +1672,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetFontSmoothingBackgroundColor
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetFontStretch
 (
 )

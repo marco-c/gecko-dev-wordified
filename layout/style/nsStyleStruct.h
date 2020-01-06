@@ -21567,6 +21567,14 @@ mCaretColor
 [
 inherited
 ]
+nscolor
+mFontSmoothingBackgroundColor
+;
+/
+/
+[
+inherited
+]
 inline
 uint8_t
 GetEffectivePointerEvents
