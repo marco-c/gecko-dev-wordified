@@ -1626,20 +1626,6 @@ in
 aContainer
 .
 *
-param
-aNewIndexInContainer
-the
-index
-in
-the
-container
-of
-the
-first
-*
-new
-child
-*
 *
 note
 Callers
@@ -1712,8 +1698,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 =
 0
@@ -1889,8 +1873,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 =
 0
@@ -2097,8 +2079,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
@@ -2579,9 +2559,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-\
-int32_t
-aNewIndexInContainer
 )
 override
 ;
@@ -2604,9 +2581,6 @@ aContainer
 nsIContent
 *
 aChild
-\
-int32_t
-aIndexInContainer
 )
 override
 ;
@@ -2629,9 +2603,6 @@ aContainer
 nsIContent
 *
 aChild
-\
-int32_t
-aIndexInContainer
 \
 nsIContent
 *
@@ -2892,9 +2863,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-\
-int32_t
-aNewIndexInContainer
 )
 \
 {
@@ -2919,9 +2887,6 @@ aContainer
 nsIContent
 *
 aChild
-\
-int32_t
-aIndexInContainer
 )
 \
 {
@@ -2946,9 +2911,6 @@ aContainer
 nsIContent
 *
 aChild
-\
-int32_t
-aIndexInContainer
 \
 nsIContent
 *

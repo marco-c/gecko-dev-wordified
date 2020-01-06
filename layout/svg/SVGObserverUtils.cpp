@@ -807,12 +807,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 DoUpdate
@@ -835,12 +829,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 DoUpdate
@@ -863,8 +851,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

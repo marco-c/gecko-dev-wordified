@@ -6470,7 +6470,6 @@ GetChildAt
 (
 newIndexInContainer
 )
-newIndexInContainer
 )
 ;
 }

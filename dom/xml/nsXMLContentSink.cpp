@@ -2283,13 +2283,6 @@ ContentInserted
 (
 mDocument
 rootElement
-mDocument
--
->
-IndexOf
-(
-rootElement
-)
 )
 ;
 mDocument

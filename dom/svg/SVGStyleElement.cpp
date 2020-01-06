@@ -1121,8 +1121,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 ContentChanged
@@ -1146,8 +1144,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 ContentChanged
@@ -1171,8 +1167,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

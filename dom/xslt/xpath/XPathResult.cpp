@@ -664,8 +664,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 Invalidate
@@ -689,8 +687,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 Invalidate
@@ -714,8 +710,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

@@ -5557,12 +5557,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 for
@@ -5600,7 +5594,6 @@ ContentInserted
 aDocument
 aContainer
 cur
-0
 )
 ;
 }
@@ -5620,12 +5613,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 NS_ASSERTION
@@ -6094,8 +6081,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

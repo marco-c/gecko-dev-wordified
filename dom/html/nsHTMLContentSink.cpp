@@ -5947,7 +5947,6 @@ aContent
 mDocument
 )
 aChildContent
-aIndexInContainer
 )
 ;
 mLastNotificationTime

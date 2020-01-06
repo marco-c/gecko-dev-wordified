@@ -3689,8 +3689,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 NS_PRECONDITION
@@ -4365,8 +4363,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 /
@@ -4459,8 +4455,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
@@ -6290,8 +6284,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 /
@@ -6366,8 +6358,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 /
@@ -6442,8 +6432,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

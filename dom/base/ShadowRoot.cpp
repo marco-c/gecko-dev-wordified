@@ -3044,8 +3044,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 if
@@ -3208,8 +3206,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 if
@@ -3351,8 +3347,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
