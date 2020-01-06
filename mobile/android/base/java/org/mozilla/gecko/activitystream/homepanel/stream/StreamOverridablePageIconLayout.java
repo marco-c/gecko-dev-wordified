@@ -227,6 +227,14 @@ icons
 in
 Activity
 Stream
+which
+can
+be
+overridden
+with
+a
+custom
+URL
 .
 *
 *
@@ -329,7 +337,7 @@ resources
 /
 public
 class
-StreamPageIconLayout
+StreamOverridablePageIconLayout
 extends
 FrameLayout
 implements
@@ -359,7 +367,7 @@ IconResponse
 ongoingFaviconLoad
 ;
 public
-StreamPageIconLayout
+StreamOverridablePageIconLayout
 (
 final
 Context
@@ -388,7 +396,7 @@ R
 .
 layout
 .
-activity_stream_page_icon_layout
+activity_stream_overridable_page_icon_layout
 this
 true
 )
