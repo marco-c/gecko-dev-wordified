@@ -2569,11 +2569,11 @@ B
 "
 A
 "
+TRACING_EVENT
 Move
 (
 bt
 )
-TRACING_EVENT
 )
 ;
 {
