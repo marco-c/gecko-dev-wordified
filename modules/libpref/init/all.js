@@ -69310,7 +69310,7 @@ inset
 -
 layers
 "
-2
+false
 )
 ;
 pref
@@ -69326,7 +69326,7 @@ outer
 -
 layers
 "
-2
+false
 )
 ;
 pref
@@ -69386,7 +69386,7 @@ caret
 -
 layers
 "
-2
+false
 )
 ;
 pref
@@ -69456,7 +69456,7 @@ solid
 -
 color
 "
-2
+false
 )
 ;
 pref
@@ -69468,7 +69468,7 @@ advanced
 .
 table
 "
-2
+false
 )
 ;
 pref
