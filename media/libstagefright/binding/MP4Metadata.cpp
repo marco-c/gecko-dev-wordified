@@ -4954,11 +4954,6 @@ true
 )
 ;
 }
-mp4parse_fallible_allocation
-(
-true
-)
-;
 mp4parse_status
 rv
 =
