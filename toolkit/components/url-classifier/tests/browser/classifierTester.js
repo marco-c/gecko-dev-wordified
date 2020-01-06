@@ -312,8 +312,6 @@ flashSubDocExceptTable
 }
 ]
 setPrefs
-:
-function
 (
 {
 setDBs
@@ -457,8 +455,6 @@ true
 ;
 }
 unsetPrefs
-:
-function
 (
 )
 {
@@ -1368,8 +1364,6 @@ combination
 of
 inputs
 expectedPluginFallbackType
-:
-function
 (
 classification
 flashSetting
@@ -1511,8 +1505,6 @@ combination
 of
 inputs
 expectedActivated
-:
-function
 (
 classification
 flashSetting
@@ -1595,8 +1587,6 @@ combination
 of
 inputs
 expectedHasRunningPlugin
-:
-function
 (
 classification
 flashSetting
@@ -1679,8 +1669,6 @@ combination
 of
 inputs
 expectedPluginListed
-:
-function
 (
 classification
 flashSetting
@@ -1702,13 +1690,13 @@ prefs
 .
 getCharPref
 (
-'
+"
 plugins
 .
 navigator
 .
 hidden_ctp_plugin
-'
+"
 )
 =
 =
@@ -1771,8 +1759,6 @@ setting
 ;
 }
 buildTestCaseInNewTab
-:
-function
 (
 browser
 testCase
@@ -1925,10 +1911,6 @@ classifierTester
 .
 IFRAME_ID
 url
-:
-url
-depth
-:
 depth
 }
 async
@@ -2008,8 +1990,6 @@ tab
 ;
 }
 getPluginInfo
-:
-function
 (
 browser
 depth
@@ -2027,8 +2007,6 @@ iframeId
 classifierTester
 .
 IFRAME_ID
-depth
-:
 depth
 }
 async
@@ -2174,8 +2152,6 @@ documentFlashClassification
 ;
 }
 checkPluginInfo
-:
-function
 (
 pluginInfo
 expectedClassification

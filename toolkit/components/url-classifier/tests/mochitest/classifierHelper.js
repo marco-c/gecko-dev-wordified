@@ -771,9 +771,9 @@ gScript
 .
 removeMessageListener
 (
-'
+"
 reloadSuccess
-'
+"
 handler
 )
 ;

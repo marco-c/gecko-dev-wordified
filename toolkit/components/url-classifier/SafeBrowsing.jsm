@@ -367,8 +367,6 @@ SafeBrowsing
 =
 {
 init
-:
-function
 (
 )
 {
@@ -482,8 +480,6 @@ finished
 ;
 }
 registerTableWithURLs
-:
-function
 (
 listname
 )
@@ -619,8 +615,6 @@ gethashURL
 ;
 }
 registerTables
-:
-function
 (
 )
 {
@@ -992,8 +986,6 @@ reportURL
 :
 null
 getReportURL
-:
-function
 (
 kind
 info
@@ -1214,8 +1206,6 @@ reportUrl
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1289,8 +1279,6 @@ readPrefs
 ;
 }
 readPrefs
-:
-function
 (
 )
 {
@@ -1589,8 +1577,6 @@ controlUpdateChecking
 }
 }
 updateProviderURLs
-:
-function
 (
 )
 {
@@ -2134,8 +2120,6 @@ this
 ;
 }
 controlUpdateChecking
-:
-function
 (
 )
 {
@@ -2739,8 +2723,6 @@ maybeToggleUpdateChecking
 ;
 }
 addMozEntries
-:
-function
 (
 )
 {
@@ -3289,15 +3271,11 @@ dummyListener
 =
 {
 updateUrlRequested
-:
-function
 (
 )
 {
 }
 streamFinished
-:
-function
 (
 )
 {
@@ -3327,8 +3305,6 @@ results
 more
 consistent
 updateError
-:
-function
 (
 )
 {
@@ -3353,8 +3329,6 @@ error
 ;
 }
 updateSuccess
-:
-function
 (
 )
 {

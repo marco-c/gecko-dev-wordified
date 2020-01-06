@@ -2729,10 +2729,10 @@ tableName
 .
 endsWith
 (
-'
+"
 -
 proto
-'
+"
 )
 ;
 if
@@ -2776,13 +2776,13 @@ other
 types
 '
 +
-'
+"
 within
 the
 same
 provider
 .
-'
+"
 )
 ;
 }
@@ -4854,8 +4854,6 @@ _xpcom_factory
 :
 {
 createInstance
-:
-function
 (
 outer
 iid
