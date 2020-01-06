@@ -384,6 +384,12 @@ Init
 )
 override
 ;
+void
+Flush
+(
+)
+override
+;
 /
 /
 Maximum
@@ -609,6 +615,8 @@ mBuffer
 ;
 bool
 mHasGrown
+=
+false
 ;
 }
 ;
