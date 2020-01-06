@@ -11297,7 +11297,7 @@ MSimdValueX4
 public
 MQuaternaryInstruction
 public
-Mix4Policy
+MixPolicy
 <
 SimdScalarPolicy
 <
@@ -21638,7 +21638,7 @@ MNewDerivedTypedObject
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -23025,7 +23025,7 @@ MInitElem
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -23115,7 +23115,7 @@ MInitElemGetterSetter
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -24312,7 +24312,7 @@ MApplyArgs
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -24483,7 +24483,7 @@ MApplyArray
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -25179,7 +25179,7 @@ MCallDirectEval
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -27846,7 +27846,7 @@ MCreateThisWithProto
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -42985,7 +42985,7 @@ MRegExpMatcher
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -43111,7 +43111,7 @@ MRegExpSearcher
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -43229,7 +43229,7 @@ MRegExpTester
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -43580,7 +43580,7 @@ MStringReplace
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 StringPolicy
 <
@@ -43820,7 +43820,7 @@ MSubstr
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 StringPolicy
 <
@@ -44435,7 +44435,7 @@ MLambdaArrow
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -50997,7 +50997,7 @@ MArraySlice
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -60514,7 +60514,7 @@ MSetPropertyCache
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 SingleObjectPolicy
 CacheIdPolicy
@@ -61001,7 +61001,7 @@ MCallInitElementArray
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -68091,7 +68091,7 @@ MCompareExchangeTypedArrayElement
 public
 MQuaternaryInstruction
 public
-Mix4Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -68267,7 +68267,7 @@ MAtomicExchangeTypedArrayElement
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -68432,7 +68432,7 @@ MAtomicTypedArrayElementBinop
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
@@ -68959,7 +68959,7 @@ MFinishBoundFunctionInit
 public
 MTernaryInstruction
 public
-Mix3Policy
+MixPolicy
 <
 ObjectPolicy
 <
