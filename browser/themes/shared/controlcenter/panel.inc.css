@@ -2408,10 +2408,6 @@ fill
 -
 opacity
 ;
-fill
-:
-black
-;
 }
 #
 identity
@@ -2603,6 +2599,7 @@ context
 -
 properties
 :
+fill
 fill
 -
 opacity
