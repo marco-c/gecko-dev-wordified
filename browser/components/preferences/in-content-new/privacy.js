@@ -1950,12 +1950,6 @@ offlineGroup
 ;
 offlineGroup
 .
-hidden
-=
-false
-;
-offlineGroup
-.
 removeAttribute
 (
 "
@@ -2166,12 +2160,6 @@ getElementById
 siteDataGroup
 "
 )
-;
-siteDataGroup
-.
-hidden
-=
-false
 ;
 siteDataGroup
 .
