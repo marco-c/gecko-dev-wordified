@@ -14740,15 +14740,6 @@ mozilla
 gfx
 :
 :
-Color
-fontSmoothingBGColor
-;
-mozilla
-:
-:
-gfx
-:
-:
 Float
 direction
 ;
