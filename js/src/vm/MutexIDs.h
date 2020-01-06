@@ -327,6 +327,12 @@ WasmCompileTaskState
 \
 _
 (
+WasmCodeSegmentMap
+600
+)
+\
+_
+(
 TraceLoggerGraphState
 600
 )

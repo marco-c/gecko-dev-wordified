@@ -526,6 +526,9 @@ uint8_t
 unalignedAccessCode_
 ;
 bool
+registered_
+;
+bool
 initialize
 (
 Tier
@@ -626,8 +629,17 @@ unalignedAccessCode_
 (
 nullptr
 )
+registered_
+(
+false
+)
 {
 }
+~
+CodeSegment
+(
+)
+;
 static
 UniqueCodeSegment
 create

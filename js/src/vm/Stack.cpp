@@ -10432,14 +10432,10 @@ pc
 ;
 MOZ_ASSERT
 (
-compartment
-(
-)
--
->
 wasm
-.
-lookupCode
+:
+:
+LookupCode
 (
 pc
 )
