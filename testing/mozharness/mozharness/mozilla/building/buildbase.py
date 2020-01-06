@@ -3113,6 +3113,25 @@ py
 '
         
 '
+noopt
+-
+debug
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_noopt_debug
+.
+py
+'
+        
+'
 api
 -
 15
@@ -10042,26 +10061,8 @@ query_abs_dirs
 (
 )
         
-manifest_src
-=
-os
-.
-environ
-.
-get
-(
-'
-TOOLTOOL_MANIFEST
-'
-)
-        
 if
 not
-manifest_src
-:
-            
-manifest_src
-=
 c
 .
 get
@@ -10070,10 +10071,6 @@ get
 tooltool_manifest_src
 '
 )
-        
-if
-not
-manifest_src
 :
             
 return
@@ -10104,7 +10101,12 @@ abs_src_dir
 '
 ]
                                               
-manifest_src
+c
+[
+'
+tooltool_manifest_src
+'
+]
 )
         
 cmd
