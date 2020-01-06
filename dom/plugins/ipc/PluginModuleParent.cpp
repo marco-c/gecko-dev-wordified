@@ -2766,12 +2766,6 @@ run
 .
 if
 (
-mAsyncInitRv
-!
-=
-NS_ERROR_NOT_INITIALIZED
-|
-|
 mShutdown
 )
 {
@@ -3438,10 +3432,6 @@ nullptr
 )
 #
 endif
-mAsyncInitRv
-(
-NS_ERROR_NOT_INITIALIZED
-)
 {
 NS_ASSERTION
 (
