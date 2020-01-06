@@ -5452,8 +5452,6 @@ inlined
 .
 if
 (
-MOZ_LIKELY
-(
 !
 mozilla
 :
@@ -5465,7 +5463,6 @@ IsMasked
 (
 aToStrip
 firstChar
-)
 )
 )
 {
@@ -5490,8 +5487,6 @@ firstChar
 }
 if
 (
-MOZ_LIKELY
-(
 !
 mozilla
 :
@@ -5503,7 +5498,6 @@ IsMasked
 (
 aToStrip
 secondChar
-)
 )
 )
 {
@@ -5561,8 +5555,6 @@ from
 ;
 if
 (
-MOZ_LIKELY
-(
 !
 mozilla
 :
@@ -5574,7 +5566,6 @@ IsMasked
 (
 aToStrip
 firstChar
-)
 )
 )
 {
