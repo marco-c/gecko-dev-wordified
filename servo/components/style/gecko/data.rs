@@ -1238,7 +1238,7 @@ usage
 .
 pub
 fn
-add_size_of_children
+add_size_of
 (
 &
 self
@@ -1258,7 +1258,7 @@ self
 .
 stylist
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
