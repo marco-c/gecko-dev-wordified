@@ -227,9 +227,10 @@ No
 -
 op
 if
-MOZ_DISABLE_CONTENT_SANDBOX
+the
+sandbox
 is
-set
+disabled
 .
 )
 /
