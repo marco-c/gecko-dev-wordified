@@ -134,7 +134,7 @@ max
 {
 Number
 }
-stepInMs
+step
 *
 {
 String
@@ -1750,7 +1750,7 @@ const
 {
 min
 max
-stepInMs
+step
 }
 =
 this
@@ -1807,7 +1807,7 @@ Math
 max
 (
 minStep
-stepInMs
+step
 )
 ;
 /
@@ -1879,10 +1879,10 @@ valueOf
 )
 )
 /
-stepInMs
+step
 )
 *
-stepInMs
+step
 ;
 let
 steps
@@ -2575,7 +2575,7 @@ time
 const
 {
 min
-stepInMs
+step
 }
 =
 this
@@ -2597,7 +2597,7 @@ valueOf
 )
 )
 %
-stepInMs
+step
 !
 =
 0
