@@ -545,7 +545,7 @@ anyway
 *
 /
 \
-NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS
+NS_OBSERVER_AUTO_ARRAY_NOTIFY_OBSERVERS
 (
 \
 slots
@@ -553,6 +553,7 @@ slots
 >
 mMutationObservers
 nsIMutationObserver
+1
 \
 func_
 params_
@@ -732,7 +733,7 @@ anyway
 *
 /
 \
-NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS_WITH_QI
+NS_OBSERVER_AUTO_ARRAY_NOTIFY_OBSERVERS_WITH_QI
 (
 \
 slots
@@ -740,6 +741,7 @@ slots
 >
 mMutationObservers
 nsIMutationObserver
+1
 \
 nsIAnimationObserver
 func_
@@ -1706,13 +1708,14 @@ IsEmpty
 )
 )
 {
-NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS
+NS_OBSERVER_AUTO_ARRAY_NOTIFY_OBSERVERS
 (
 slots
 -
 >
 mMutationObservers
 nsIMutationObserver
+1
 NodeWillBeDestroyed
 (
 aNode

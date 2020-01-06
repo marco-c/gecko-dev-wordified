@@ -925,10 +925,11 @@ Invalidate
 (
 )
 {
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsIMutationObserver
 *
+1
 >
 *
 observers
@@ -951,10 +952,11 @@ IsEmpty
 )
 )
 {
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsIMutationObserver
 *
+1
 >
 :
 :
