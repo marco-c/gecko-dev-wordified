@@ -4937,6 +4937,10 @@ attr_name
 )
 :
             
+run_by_default
+=
+True
+            
 if
 attr
 (
@@ -4990,7 +4994,8 @@ check_run_on_projects
 )
 :
                     
-return
+run_by_default
+=
 False
             
 if
@@ -5000,7 +5005,7 @@ None
 :
                 
 return
-True
+run_by_default
             
 #
 TODO
@@ -5123,13 +5128,20 @@ platforms
 '
 ]
             
-else
+elif
+run_by_default
 :
                 
 return
 check_run_on_projects
 (
 )
+            
+else
+:
+                
+return
+False
         
 job_try_name
 =
