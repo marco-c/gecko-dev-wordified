@@ -453,7 +453,7 @@ _
 >
 (
 "
-displayconnect
+vrdisplayconnect
 "
 None
 )
@@ -468,7 +468,7 @@ _
 >
 (
 "
-displaydisconnect
+vrdisplaydisconnect
 "
 None
 )
@@ -484,7 +484,7 @@ reason
 >
 (
 "
-activate
+vrdisplayactivate
 "
 Some
 (
@@ -503,7 +503,7 @@ reason
 >
 (
 "
-deactivate
+vrdisplaydeactivate
 "
 Some
 (
@@ -521,7 +521,7 @@ _
 >
 (
 "
-blur
+vrdisplayblur
 "
 None
 )
@@ -536,7 +536,7 @@ _
 >
 (
 "
-focus
+vrdisplayfocus
 "
 None
 )
@@ -552,7 +552,7 @@ _
 >
 (
 "
-presentchange
+vrdisplaypresentchange
 "
 None
 )
