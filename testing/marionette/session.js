@@ -2360,7 +2360,7 @@ moz
 :
 webdriverClick
 "
-false
+true
 ]
 ]
 )
