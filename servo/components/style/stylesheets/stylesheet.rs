@@ -2109,10 +2109,7 @@ had_hierarchy_error
 false
 namespaces
 :
-Some
-(
 namespaces
-)
 }
 ;
 input
@@ -2193,8 +2190,6 @@ iter
 parser
 .
 context
-(
-)
 .
 log_css_error
 (

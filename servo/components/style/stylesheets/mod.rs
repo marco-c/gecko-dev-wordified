@@ -1037,6 +1037,7 @@ PartialEq
 Eq
 Copy
 Clone
+Debug
 )
 ]
 pub
@@ -1824,13 +1825,10 @@ had_hierarchy_error
 false
 namespaces
 :
-Some
-(
 &
 mut
 *
 guard
-)
 }
 ;
 parse_one_rule

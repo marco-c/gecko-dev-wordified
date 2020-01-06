@@ -402,7 +402,7 @@ Some
 CssRuleType
 :
 :
-Supports
+Style
 )
 PARSING_MODE_DEFAULT
 QuirksMode
@@ -537,7 +537,7 @@ Some
 CssRuleType
 :
 :
-Supports
+Style
 )
 PARSING_MODE_DEFAULT
 QuirksMode
