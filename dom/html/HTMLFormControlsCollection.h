@@ -226,11 +226,6 @@ DropFormReference
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-/
-/
-nsIDOMHTMLCollection
-interface
-NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
 uint32_t
 Length

@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

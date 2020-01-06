@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsLinebreakConverter
 .
 h

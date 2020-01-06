@@ -768,7 +768,6 @@ NS_INTERFACE_TABLE
 (
 HTMLFormControlsCollection
 nsIHTMLCollection
-nsIDOMHTMLCollection
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
 (
@@ -785,7 +784,7 @@ HTMLFormControlsCollection
 )
 /
 /
-nsIDOMHTMLCollection
+nsIHTMLCollection
 interface
 uint32_t
 HTMLFormControlsCollection

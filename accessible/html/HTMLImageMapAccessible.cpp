@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
