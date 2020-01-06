@@ -2521,10 +2521,6 @@ RequestDelete
 (
 )
 ;
-InvalidateBufferFetching
-(
-)
-;
 }
 bool
 WebGLContext

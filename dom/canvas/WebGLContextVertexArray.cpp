@@ -167,10 +167,6 @@ array
 )
 return
 ;
-InvalidateBufferFetching
-(
-)
-;
 MakeContextCurrent
 (
 )
