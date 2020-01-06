@@ -5081,7 +5081,6 @@ g
 .
 hidden
 *
-unvisited
 and
 non
 -
@@ -5105,10 +5104,6 @@ _commonPlacesWhere
 AND
 hidden
 =
-0
-AND
-last_visit_date
->
 0
 AND
 (
@@ -6204,6 +6199,10 @@ NOTNULL
 AND
 preview_image_url
 NOTNULL
+AND
+last_visit_date
+>
+0
 {
 this
 .
@@ -6473,6 +6472,10 @@ frecency
 =
 :
 frecencyThreshold
+AND
+last_visit_date
+>
+0
 {
 this
 .
