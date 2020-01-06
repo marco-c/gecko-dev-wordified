@@ -608,8 +608,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 ;
 static

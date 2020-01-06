@@ -58487,7 +58487,7 @@ cx
 HandleFunction
 fun
 bool
-addParenToLambda
+isToSource
 )
 {
 MOZ_ASSERT
@@ -58552,7 +58552,7 @@ cx
 ;
 if
 (
-addParenToLambda
+isToSource
 &
 &
 fun
@@ -58726,7 +58726,7 @@ nullptr
 }
 if
 (
-addParenToLambda
+isToSource
 &
 &
 fun

@@ -3955,10 +3955,10 @@ JSObject
 *
 >
 aObject
-unsigned
+bool
 /
 *
-indent
+isToSource
 *
 /
 )

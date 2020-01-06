@@ -1990,8 +1990,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 const
 {

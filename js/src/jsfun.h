@@ -4434,8 +4434,8 @@ js
 :
 HandleObject
 obj
-unsigned
-indent
+bool
+isToSource
 )
 ;
 namespace
@@ -5692,7 +5692,7 @@ cx
 HandleFunction
 fun
 bool
-prettyPring
+isToSource
 )
 ;
 template

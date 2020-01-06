@@ -1823,8 +1823,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 const
 {
@@ -1860,7 +1860,7 @@ fun_toStringHelper
 (
 cx
 target
-indent
+isToSource
 )
 ;
 }
