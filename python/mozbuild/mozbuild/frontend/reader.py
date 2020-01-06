@@ -9877,7 +9877,7 @@ path
 return
 self
 .
-_finder
+_relevant_mozbuild_finder
 .
 get
 (
@@ -10021,17 +10021,10 @@ itermozbuild
 (
 path
 )
-                              
 if
 exists
 (
-mozpath
-.
-join
-(
-root
 p
-)
 )
 ]
         
