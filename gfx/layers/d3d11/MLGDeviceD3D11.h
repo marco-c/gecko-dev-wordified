@@ -1622,12 +1622,6 @@ mSyncHandle
 ;
 RefPtr
 <
-MLGRenderTarget
->
-mCurrentRT
-;
-RefPtr
-<
 MLGBuffer
 >
 mUnitQuadVB
