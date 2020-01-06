@@ -1399,6 +1399,10 @@ BackgroundChildImpl
 :
 AllocPBackgroundStorageChild
 (
+const
+nsString
+&
+aProfilePath
 )
 {
 MOZ_CRASH

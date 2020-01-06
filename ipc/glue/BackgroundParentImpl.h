@@ -328,6 +328,10 @@ PBackgroundStorageParent
 *
 AllocPBackgroundStorageParent
 (
+const
+nsString
+&
+aProfilePath
 )
 override
 ;
@@ -344,6 +348,10 @@ RecvPBackgroundStorageConstructor
 PBackgroundStorageParent
 *
 aActor
+const
+nsString
+&
+aProfilePath
 )
 override
 ;

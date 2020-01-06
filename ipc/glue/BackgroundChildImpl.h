@@ -386,6 +386,10 @@ PBackgroundStorageChild
 *
 AllocPBackgroundStorageChild
 (
+const
+nsString
+&
+aProfilePath
 )
 override
 ;
