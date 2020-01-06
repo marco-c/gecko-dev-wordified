@@ -1546,6 +1546,12 @@ size
 )
 ;
 }
+bool
+HasStreamsToConnect
+(
+)
+const
+;
 /
 /
 The
