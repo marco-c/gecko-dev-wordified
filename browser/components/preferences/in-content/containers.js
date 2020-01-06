@@ -325,6 +325,7 @@ item
 ;
 }
 }
+async
 onRemoveClick
 (
 button
@@ -500,6 +501,7 @@ rv
 return
 ;
 }
+await
 ContextualIdentityService
 .
 closeContainerTabs

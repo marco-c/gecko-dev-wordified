@@ -349,6 +349,7 @@ id
 "
 )
 ;
+await
 ContextualIdentityService
 .
 closeContainerTabs
@@ -412,6 +413,7 @@ id
 "
 )
 ;
+await
 ContextualIdentityService
 .
 closeContainerTabs
