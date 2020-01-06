@@ -5381,6 +5381,16 @@ urlbar
 page
 -
 action
+:
+not
+(
+#
+star
+-
+button
+-
+box
+)
 #
 urlbar
 [
