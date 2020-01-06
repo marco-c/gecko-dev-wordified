@@ -580,9 +580,6 @@ nsIDocument
 aDocument
 float
 aScreenDPI
-FILE
-*
-aDebugFile
 )
 ;
 nsresult
@@ -1843,10 +1840,6 @@ nsCOMPtr
 nsIDocument
 >
 mDocument
-;
-FILE
-*
-mDebugFile
 ;
 int32_t
 mLoadCounter
