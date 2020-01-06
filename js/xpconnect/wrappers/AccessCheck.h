@@ -892,7 +892,7 @@ bug
 1397513
 .
 struct
-ExposedPropertiesOnly
+OpaqueWithSilentFailing
 :
 public
 Policy

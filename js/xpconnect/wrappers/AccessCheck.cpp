@@ -2057,7 +2057,7 @@ cx
 ;
 }
 bool
-ExposedPropertiesOnly
+OpaqueWithSilentFailing
 :
 :
 deny
