@@ -480,6 +480,9 @@ def
 taskgraph_decision
 (
 options
+parameters
+=
+None
 )
 :
     
@@ -559,6 +562,8 @@ graph
     
 parameters
 =
+parameters
+or
 get_decision_parameters
 (
 options
@@ -578,11 +583,13 @@ TaskGraphGenerator
 root_dir
 =
 options
-[
+.
+get
+(
 '
 root
 '
-]
+)
         
 parameters
 =
@@ -998,6 +1005,26 @@ check_servo
 target_tasks_method
 '
     
+]
+    
+parameters
+[
+'
+existing_tasks
+'
+]
+=
+{
+}
+    
+parameters
+[
+'
+do_not_optimize
+'
+]
+=
+[
 ]
     
 #
