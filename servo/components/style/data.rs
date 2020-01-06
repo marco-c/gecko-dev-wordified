@@ -2253,7 +2253,7 @@ self
 PrimaryStyle
 {
 let
-primary_is_reused
+reused_via_rule_node
 =
 self
 .
@@ -2265,11 +2265,10 @@ PRIMARY_STYLE_REUSED_VIA_RULE_NODE
 )
 ;
 PrimaryStyle
-(
+{
+style
+:
 ResolvedStyle
-:
-:
-new
 (
 self
 .
@@ -2282,9 +2281,9 @@ primary
 clone
 (
 )
-primary_is_reused
 )
-)
+reused_via_rule_node
+}
 }
 /
 /
@@ -2319,8 +2318,6 @@ if
 new_styles
 .
 primary
-.
-0
 .
 reused_via_rule_node
 {

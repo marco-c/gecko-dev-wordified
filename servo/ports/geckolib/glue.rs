@@ -5766,14 +5766,6 @@ doesn
 t
 matter
 .
-let
-style
-:
-Arc
-<
-ComputedValues
->
-=
 StyleResolverForElement
 :
 :
@@ -5798,11 +5790,7 @@ cascade_style_and_visited_with_default_parents
 inputs
 )
 .
-into
-(
-)
-;
-style
+0
 .
 into
 (
