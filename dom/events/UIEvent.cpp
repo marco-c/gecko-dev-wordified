@@ -720,6 +720,15 @@ mMessage
 !
 =
 eMouseMove
+&
+&
+mEvent
+-
+>
+mMessage
+!
+=
+ePointerMove
 )
 )
 {
