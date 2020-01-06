@@ -5284,7 +5284,7 @@ lastRealFrame
 nullptr
 ;
 nsBidiLevel
-lastEmbedingLevel
+lastEmbeddingLevel
 =
 kBidiLevelNone
 ;
@@ -5388,7 +5388,7 @@ embeddingLevel
 precedingControl
 >
 =
-lastEmbedingLevel
+lastEmbeddingLevel
 )
 {
 bidiData
@@ -5411,7 +5411,7 @@ precedingControl
 =
 kBidiLevelNone
 ;
-lastEmbedingLevel
+lastEmbeddingLevel
 =
 embeddingLevel
 ;
@@ -6337,7 +6337,7 @@ that
 we
 can
 do
-spliting
+splitting
 properly
 even
 /
@@ -6399,7 +6399,7 @@ of
 our
 /
 /
-paragrah
+paragraph
 split
 all
 ancestor
