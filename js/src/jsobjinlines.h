@@ -258,6 +258,17 @@ h
 #
 include
 "
+gc
+/
+ObjectKind
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 ShapedObject
