@@ -1115,6 +1115,8 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 ;
 struct
