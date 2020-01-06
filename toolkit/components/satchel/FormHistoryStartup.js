@@ -267,8 +267,6 @@ init
 (
 )
 ;
-default
-:
 break
 ;
 }
