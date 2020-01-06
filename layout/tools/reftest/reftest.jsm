@@ -4871,17 +4871,6 @@ layerManagerRemote
 =
 true
 ;
-sandbox
-.
-advancedLayers
-=
-gWindowUtils
-.
-usingAdvancedLayers
-=
-=
-true
-;
 /
 /
 Shortcuts
