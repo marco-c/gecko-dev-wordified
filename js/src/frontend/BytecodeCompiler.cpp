@@ -2443,6 +2443,10 @@ builder
 (
 cx
 module
+parser
+-
+>
+tokenStream
 )
 ;
 ModuleSharedContext
