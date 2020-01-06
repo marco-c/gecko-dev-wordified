@@ -723,9 +723,11 @@ StylistNeedsUpdate
 )
 ;
 }
-bool
+nsRestyleHint
 MediumFeaturesChanged
 (
+bool
+aViewportChanged
 )
 const
 ;
