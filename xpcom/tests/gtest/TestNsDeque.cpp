@@ -316,7 +316,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -326,9 +325,6 @@ void
 aObject
 )
 {
-return
-0
-;
 }
 }
 ;
@@ -402,7 +398,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -443,9 +438,6 @@ aObject
 1
 ;
 }
-return
-nullptr
-;
 }
 }
 ;
@@ -457,7 +449,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -483,9 +474,6 @@ int
 aObject
 ;
 }
-return
-aObject
-;
 }
 private
 :

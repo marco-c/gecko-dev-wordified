@@ -187,7 +187,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -214,9 +213,6 @@ T
 aObject
 )
 )
-;
-return
-nullptr
 ;
 }
 }

@@ -22899,7 +22899,6 @@ MallocSizeOf
 ;
 virtual
 void
-*
 operator
 (
 )
@@ -22934,9 +22933,6 @@ SizeOfIncludingThis
 (
 MallocSizeOf
 )
-;
-return
-nullptr
 ;
 }
 size_t
@@ -22969,7 +22965,6 @@ MallocSizeOf
 ;
 virtual
 void
-*
 operator
 (
 )
@@ -23004,9 +22999,6 @@ SizeOfIncludingThis
 (
 MallocSizeOf
 )
-;
-return
-nullptr
 ;
 }
 size_t

@@ -1400,7 +1400,6 @@ nsDequeFunctor
 public
 :
 void
-*
 operator
 (
 )
@@ -1423,9 +1422,6 @@ anObject
 ;
 delete
 string
-;
-return
-nullptr
 ;
 }
 }

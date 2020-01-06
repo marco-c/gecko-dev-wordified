@@ -306,7 +306,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -329,9 +328,6 @@ ogg_packet
 aPacket
 )
 )
-;
-return
-nullptr
 ;
 }
 }

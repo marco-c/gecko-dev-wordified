@@ -185,7 +185,6 @@ MallocSizeOf
 )
 ;
 void
-*
 operator
 (
 )
@@ -221,9 +220,6 @@ SizeOfIncludingThis
 (
 MallocSizeOf
 )
-;
-return
-nullptr
 ;
 }
 size_t

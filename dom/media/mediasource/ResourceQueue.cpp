@@ -335,7 +335,6 @@ public
 nsDequeFunctor
 {
 void
-*
 operator
 (
 )
@@ -355,9 +354,6 @@ ResourceItem
 (
 aObject
 )
-;
-return
-nullptr
 ;
 }
 }

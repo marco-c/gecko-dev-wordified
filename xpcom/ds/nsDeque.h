@@ -361,7 +361,6 @@ public
 :
 virtual
 void
-*
 operator
 (
 )

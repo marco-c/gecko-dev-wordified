@@ -143,7 +143,6 @@ nsDequeFunctor
 {
 virtual
 void
-*
 operator
 (
 )
@@ -170,9 +169,6 @@ nsTransactionItem
 aObject
 )
 )
-;
-return
-nullptr
 ;
 }
 }
