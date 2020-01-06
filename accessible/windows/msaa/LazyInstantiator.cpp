@@ -383,7 +383,6 @@ a11y
 :
 LazyInstantiator
 true
-false
 >
 {
 mozilla
@@ -497,17 +496,6 @@ mObj
 =
 nullptr
 ;
-}
-void
-SetDeadline
-(
-mozilla
-:
-:
-TimeStamp
-aDeadline
-)
-{
 }
 }
 ;
