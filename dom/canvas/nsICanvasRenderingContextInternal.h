@@ -831,7 +831,8 @@ not
 opaque
 )
 .
-NS_IMETHOD
+virtual
+void
 SetIsOpaque
 (
 bool

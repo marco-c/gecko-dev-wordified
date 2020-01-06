@@ -1023,7 +1023,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+void
 ImageBitmapRenderingContext
 :
 :
@@ -1033,9 +1033,6 @@ bool
 aIsOpaque
 )
 {
-return
-NS_OK
-;
 }
 bool
 ImageBitmapRenderingContext

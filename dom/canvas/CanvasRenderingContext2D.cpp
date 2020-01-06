@@ -11255,7 +11255,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 CanvasRenderingContext2D
 :
 :
@@ -11282,9 +11282,6 @@ ClearTarget
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 CanvasRenderingContext2D
