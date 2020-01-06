@@ -1734,16 +1734,6 @@ return
 nullptr
 ;
 }
-static
-bool
-IsLoadModuleOnStack
-(
-)
-{
-return
-sIsLoadModuleOnStack
-;
-}
 class
 MOZ_RAII
 NotifyLoadingModule
