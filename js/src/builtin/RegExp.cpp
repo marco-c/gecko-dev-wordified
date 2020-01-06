@@ -10021,8 +10021,11 @@ JSObject
 proto
 )
 {
-AutoUnsafeCallWithABI
-unsafe
+JS
+:
+:
+AutoCheckCannotGC
+nogc
 ;
 AutoAssertNoPendingException
 aanpe
@@ -10589,8 +10592,11 @@ JSObject
 proto
 )
 {
-AutoUnsafeCallWithABI
-unsafe
+JS
+:
+:
+AutoCheckCannotGC
+nogc
 ;
 AutoAssertNoPendingException
 aanpe
