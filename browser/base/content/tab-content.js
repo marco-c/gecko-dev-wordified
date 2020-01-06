@@ -6402,6 +6402,12 @@ about
 :
 blank
 "
+&
+&
+!
+content
+.
+opener
 )
 return
 ;
