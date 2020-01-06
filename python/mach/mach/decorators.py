@@ -65,8 +65,6 @@ collections
 import
 inspect
 import
-os
-import
 types
 from
 .
@@ -1259,7 +1257,7 @@ command
 does
 not
 '
-                
+                            
 '
 exist
 :

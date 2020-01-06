@@ -1410,7 +1410,7 @@ level
 logging
 .
 INFO
-            
+                             
 write_interval
 =
 False
@@ -1440,10 +1440,11 @@ StructuredHumanFormatter
 self
 .
 start_time
-            
+                                             
 write_interval
 =
 write_interval
+                                             
 write_times
 =
 write_times
@@ -1462,10 +1463,11 @@ StructuredTerminalFormatter
 self
 .
 start_time
-                
+                                                    
 write_interval
 =
 write_interval
+                                                    
 write_times
 =
 write_times

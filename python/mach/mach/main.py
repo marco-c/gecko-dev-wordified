@@ -2496,8 +2496,6 @@ return
         
 except
 Exception
-as
-e
 :
             
 #
@@ -2718,7 +2716,7 @@ cwd
 self
 .
 cwd
-            
+                                 
 settings
 =
 self
@@ -2729,7 +2727,7 @@ log_manager
 self
 .
 log_manager
-            
+                                 
 commands
 =
 Registrar
@@ -2864,6 +2862,7 @@ suggestion_message
 SUGGESTED_COMMANDS_MESSAGE
 %
 (
+                
 e
 .
 verb
@@ -2889,6 +2888,7 @@ print
 (
 UNKNOWN_COMMAND_ERROR
 %
+                  
 (
 e
 .
@@ -2917,7 +2917,7 @@ UNRECOGNIZED_ARGUMENT_ERROR
 e
 .
 command
-                
+                                                 
 '
 '
 .
@@ -3066,12 +3066,13 @@ add_terminal_logging
 level
 =
 log_level
-            
+                                              
 write_interval
 =
 args
 .
 log_interval
+                                              
 write_times
 =
 write_times
@@ -3167,12 +3168,13 @@ handler
 context
 =
 context
-                
+                                                  
 debug_command
 =
 args
 .
 debug_command
+                                                  
 *
 *
 vars
@@ -3350,7 +3352,7 @@ sys
 stdout
 exc_type
 exc_value
-                    
+                                      
 traceback
 .
 extract_tb
@@ -3565,7 +3567,7 @@ log
 (
 level
 format_str
-            
+                        
 extra
 =
 {
@@ -3895,7 +3897,7 @@ ArgumentParser
 add_help
 =
 False
-            
+                                
 usage
 =
 '
@@ -3908,6 +3910,9 @@ s
 global
 arguments
 ]
+'
+                                
+'
 command
 [
 command
@@ -3968,7 +3973,7 @@ dest
 '
 verbose
 '
-            
+                                  
 action
 =
 '
@@ -3977,7 +3982,7 @@ store_true
 default
 =
 False
-            
+                                  
 help
 =
 '
@@ -4008,7 +4013,7 @@ dest
 '
 logfile
 '
-            
+                                  
 metavar
 =
 '
@@ -4024,7 +4029,7 @@ FileType
 ab
 '
 )
-            
+                                  
 help
 =
 '
@@ -4054,7 +4059,7 @@ dest
 '
 log_interval
 '
-            
+                                  
 action
 =
 '
@@ -4063,7 +4068,7 @@ store_true
 default
 =
 False
-            
+                                  
 help
 =
 '
@@ -4077,7 +4082,7 @@ last
 message
 rather
 '
-                
+                                  
 '
 than
 relative
@@ -4091,7 +4096,7 @@ NOT
 execution
 time
 '
-                
+                                  
 '
 if
 there
@@ -4138,7 +4143,7 @@ dest
 '
 log_no_times
 '
-            
+                                  
 action
 =
 '
@@ -4147,7 +4152,7 @@ store_true
 default
 =
 suppress_log_by_default
-            
+                                  
 help
 =
 '
@@ -4161,11 +4166,11 @@ times
 .
 By
 default
+'
+                                  
+'
 mach
 will
-'
-                
-'
 prefix
 each
 output
@@ -4174,6 +4179,9 @@ with
 the
 time
 since
+'
+                                  
+'
 command
 start
 .
@@ -4198,7 +4206,7 @@ dest
 '
 help
 '
-            
+                                  
 action
 =
 '
@@ -4207,7 +4215,7 @@ store_true
 default
 =
 False
-            
+                                  
 help
 =
 '
@@ -4235,7 +4243,7 @@ action
 '
 store_true
 '
-            
+                                  
 help
 =
 '
@@ -4265,7 +4273,7 @@ dest
 '
 settings_file
 '
-            
+                                  
 metavar
 =
 '
@@ -4274,7 +4282,7 @@ FILENAME
 default
 =
 None
-            
+                                  
 help
 =
 '
@@ -4342,7 +4350,7 @@ command
 action
 =
 CommandAction
-            
+                            
 registrar
 =
 Registrar

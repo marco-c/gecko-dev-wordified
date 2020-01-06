@@ -477,7 +477,7 @@ True
 default
 =
 None
-        
+                 
 registrar
 =
 None
@@ -563,7 +563,7 @@ dest
 required
 =
 required
-            
+                                 
 help
 =
 argparse
@@ -2323,7 +2323,7 @@ command
 help
 =
 description
-                    
+                                   
 action
 =
 '
@@ -3135,7 +3135,7 @@ help
 subhandler
 .
 description
-                
+                               
 action
 =
 '
@@ -3392,7 +3392,7 @@ command_handlers
 values
 (
 )
-                    
+                 
 if
 h
 .

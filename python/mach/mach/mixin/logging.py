@@ -415,7 +415,7 @@ log
 (
 level
 format_str
-            
+                         
 extra
 =
 {
