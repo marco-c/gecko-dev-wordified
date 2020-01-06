@@ -171,7 +171,7 @@ void
 arg
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

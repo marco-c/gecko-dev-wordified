@@ -1194,7 +1194,7 @@ void
 *
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

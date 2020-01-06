@@ -913,7 +913,7 @@ void
 threadData
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "
