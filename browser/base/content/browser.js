@@ -13417,16 +13417,6 @@ gNavToolbox
 addEventListener
 (
 "
-customizationchange
-"
-CustomizationHandler
-)
-;
-gNavToolbox
-.
-addEventListener
-(
-"
 customizationending
 "
 CustomizationHandler
