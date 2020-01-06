@@ -2313,8 +2313,6 @@ points
 to
 _PR_InvalidInt
 .
-/
-/
 if
 (
 !
@@ -2324,8 +2322,6 @@ secret
 mFirstPacketBufLen
 |
 |
-/
-/
 (
 tfoFd
 -
@@ -2511,8 +2507,6 @@ fastOpenNotSupported
 true
 ;
 }
-/
-*
 }
 else
 {
@@ -2792,8 +2786,6 @@ TFO_TRIED
 }
 }
 }
-*
-/
 if
 (
 result
