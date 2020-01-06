@@ -322,6 +322,8 @@ dom
 enum
 class
 PrefValueKind
+:
+bool
 {
 Default
 User
