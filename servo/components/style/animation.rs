@@ -3629,6 +3629,10 @@ Some
 (
 previous_style
 )
+Some
+(
+previous_style
+)
 /
 *
 cascade_info

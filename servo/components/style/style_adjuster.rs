@@ -3718,11 +3718,9 @@ self
 .
 style
 .
-inherited_style
+inherited_flags
 (
 )
-.
-flags
 .
 contains
 (
