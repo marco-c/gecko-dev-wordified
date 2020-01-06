@@ -787,7 +787,7 @@ label
 GetStringFromName
 (
 "
-disableCreditCardLabel
+neverSaveCreditCardLabel
 "
 )
 accessKey
