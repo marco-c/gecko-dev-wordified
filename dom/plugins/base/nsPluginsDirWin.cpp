@@ -2423,10 +2423,7 @@ info
 .
 fVersion
 )
-mozilla
-:
-:
-SmprintfFree
+free
 (
 info
 .
