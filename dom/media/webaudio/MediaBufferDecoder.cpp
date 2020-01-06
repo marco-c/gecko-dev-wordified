@@ -1050,6 +1050,7 @@ CreateReader
 (
 mContainerType
 mBufferDecoder
+resource
 )
 ;
 if
