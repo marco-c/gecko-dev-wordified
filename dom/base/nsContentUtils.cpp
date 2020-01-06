@@ -13716,7 +13716,7 @@ return
 xpc
 :
 :
-IsContentXBLScope
+IsContentXBLCompartment
 (
 c
 )

@@ -7922,7 +7922,7 @@ c
 )
 |
 |
-IsContentXBLScope
+IsContentXBLCompartment
 (
 c
 )

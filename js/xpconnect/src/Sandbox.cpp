@@ -7255,6 +7255,15 @@ options
 .
 waiveInterposition
 ;
+priv
+-
+>
+isContentXBLCompartment
+=
+options
+.
+isContentXBLScope
+;
 /
 /
 Set

@@ -7936,7 +7936,7 @@ if
 xpc
 :
 :
-IsContentXBLScope
+IsContentXBLCompartment
 (
 contextCompartment
 )

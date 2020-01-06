@@ -9569,12 +9569,7 @@ obj
 xpc
 :
 :
-IsContentXBLScope
-(
-js
-:
-:
-GetObjectCompartment
+IsInContentXBLScope
 (
 js
 :
@@ -9582,7 +9577,6 @@ js
 UncheckedUnwrap
 (
 obj
-)
 )
 )
 )
@@ -10277,14 +10271,9 @@ if
 xpc
 :
 :
-ObjectScope
+IsInContentXBLScope
 (
 wrapper
-)
--
->
-IsContentXBLScope
-(
 )
 &
 &
