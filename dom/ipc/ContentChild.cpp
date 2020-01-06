@@ -20498,6 +20498,12 @@ PContent
 :
 Msg_DataStorageClear__ID
 :
+case
+PContent
+:
+:
+Msg_PIPCBlobInputStreamConstructor__ID
+:
 return
 do_AddRef
 (
