@@ -477,7 +477,6 @@ settings_pane_snippets_header
 "
 :
 "
-Snippets
 "
 "
 settings_pane_snippets_body

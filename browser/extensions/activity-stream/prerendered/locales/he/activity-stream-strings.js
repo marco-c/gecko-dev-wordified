@@ -287,10 +287,6 @@ section_disclaimer_topstories_linktext
 "
 :
 "
-Learn
-how
-it
-works
 .
 "
 "
@@ -298,9 +294,6 @@ section_disclaimer_topstories_buttontext
 "
 :
 "
-Okay
-got
-it
 "
 "
 welcome_title
@@ -484,9 +477,6 @@ settings_pane_topstories_options_sponsored
 "
 :
 "
-Show
-Sponsored
-Stories
 "
 "
 edit_topsites_button_text
