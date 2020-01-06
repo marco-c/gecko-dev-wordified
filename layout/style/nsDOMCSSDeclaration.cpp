@@ -158,15 +158,6 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 CSS2PropertiesBinding
