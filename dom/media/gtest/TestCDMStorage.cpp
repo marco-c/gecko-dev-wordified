@@ -156,6 +156,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -2599,7 +2606,7 @@ update
 [
 ]
 (
-nsresult
+MediaResult
 rv
 )
 {

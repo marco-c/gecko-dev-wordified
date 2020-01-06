@@ -240,6 +240,13 @@ ChromiumCDMParent
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 template
 <
 class
@@ -335,7 +342,7 @@ RefPtr
 <
 ChromiumCDMParent
 >
-nsresult
+MediaResult
 /
 *
 IsExclusive
