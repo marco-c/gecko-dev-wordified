@@ -3401,6 +3401,7 @@ port2
 loadChromeScript
 (
 urlOrFunction
+sandboxOptions
 )
 {
 /
@@ -3466,6 +3467,7 @@ scriptArgs
 =
 {
 id
+sandboxOptions
 }
 ;
 if
