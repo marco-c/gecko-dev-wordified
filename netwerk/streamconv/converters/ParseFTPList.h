@@ -1180,6 +1180,10 @@ struct
 list_result
 *
 result
+PRTimeParamFn
+timeParam
+=
+PR_LocalTimeParameters
 )
 ;
 #

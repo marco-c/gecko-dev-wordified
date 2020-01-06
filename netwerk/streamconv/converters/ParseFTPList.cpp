@@ -410,6 +410,8 @@ struct
 list_result
 *
 result
+PRTimeParamFn
+timeParam
 )
 {
 unsigned
@@ -1341,7 +1343,7 @@ PR_USEC_PER_SEC
 PR_ExplodeTime
 (
 t
-PR_LocalTimeParameters
+timeParam
 &
 (
 result
@@ -12363,7 +12365,7 @@ state
 >
 now_time
 )
-PR_LocalTimeParameters
+timeParam
 &
 (
 state
@@ -17264,7 +17266,7 @@ state
 >
 now_time
 )
-PR_LocalTimeParameters
+timeParam
 &
 (
 state
