@@ -667,15 +667,6 @@ NS_AUTHOR_SPECIFIED_PADDING
 <
 2
 )
-#
-define
-NS_AUTHOR_SPECIFIED_TEXT_SHADOW
-(
-1
-<
-<
-3
-)
 class
 nsRootPresContext
 ;
