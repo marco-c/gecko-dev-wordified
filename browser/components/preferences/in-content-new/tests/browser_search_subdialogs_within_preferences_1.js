@@ -110,7 +110,7 @@ Home
 Page
 "
 "
-startupGroup
+homepageGroup
 "
 )
 ;

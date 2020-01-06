@@ -6181,7 +6181,7 @@ page
 )
 ;
 let
-menu
+group
 =
 document
 .
@@ -6230,7 +6230,7 @@ option
 selected
 )
 {
-menu
+group
 .
 selectedItem
 =
@@ -6267,11 +6267,11 @@ updateElements
 select
 the
 correct
-index
+radio
 in
 the
 startup
-menulist
+group
 }
 }
 /
