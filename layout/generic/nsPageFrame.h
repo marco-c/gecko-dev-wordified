@@ -180,7 +180,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowInput
+aMaxSize
 nsReflowStatus
 &
 aStatus

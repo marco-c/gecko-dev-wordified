@@ -220,7 +220,7 @@ aPresContext
 const
 ReflowInput
 &
-aParentRI
+aParentRS
 )
 :
 mPresContext
@@ -229,11 +229,11 @@ aPresContext
 )
 mOuterReflowInput
 (
-aParentRI
+aParentRS
 )
 mSpace
 (
-aParentRI
+aParentRS
 .
 GetWritingMode
 (
@@ -241,7 +241,7 @@ GetWritingMode
 )
 mMetrics
 (
-aParentRI
+aParentRS
 )
 {
 }

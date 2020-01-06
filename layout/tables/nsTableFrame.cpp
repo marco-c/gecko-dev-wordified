@@ -28114,13 +28114,13 @@ CalcBorderBoxBSize
 const
 ReflowInput
 &
-aReflowInput
+aState
 )
 {
 nscoord
 bSize
 =
-aReflowInput
+aState
 .
 ComputedBSize
 (
@@ -28137,7 +28137,7 @@ bSize
 WritingMode
 wm
 =
-aReflowInput
+aState
 .
 GetWritingMode
 (
@@ -28150,7 +28150,7 @@ GetChildAreaOffset
 (
 wm
 &
-aReflowInput
+aState
 )
 ;
 bSize

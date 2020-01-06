@@ -260,7 +260,7 @@ ReflowOutput
 const
 ReflowInput
 &
-aReflowInput
+aState
 uint32_t
 aFlags
 )
@@ -283,7 +283,7 @@ aFlags
 )
 mWritingMode
 (
-aReflowInput
+aState
 .
 GetWritingMode
 (
