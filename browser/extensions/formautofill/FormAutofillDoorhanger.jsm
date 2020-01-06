@@ -529,6 +529,9 @@ checked
 ;
 }
 }
+hideClose
+:
+true
 }
 }
 update
@@ -666,6 +669,9 @@ update
 .
 svg
 "
+hideClose
+:
+true
 }
 }
 creditCard
@@ -827,6 +833,9 @@ card
 .
 svg
 "
+hideClose
+:
+true
 }
 }
 }
