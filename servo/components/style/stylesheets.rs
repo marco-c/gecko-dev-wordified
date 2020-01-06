@@ -12201,7 +12201,15 @@ is_viewport_enabled
 >
 bool
 {
-true
+false
+/
+/
+Gecko
+doesn
+'
+t
+support
+viewport
 }
 impl
 <
