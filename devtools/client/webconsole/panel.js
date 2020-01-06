@@ -663,6 +663,7 @@ console
 error
 (
 msg
+reason
 )
 ;
 }
