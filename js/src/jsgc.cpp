@@ -10335,8 +10335,6 @@ op
 (
 fop
 status
-!
-isFull
 p
 .
 data
