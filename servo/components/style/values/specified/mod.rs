@@ -626,6 +626,7 @@ text
 InitialLetter
 LetterSpacing
 LineHeight
+TextDecorationLine
 TextOverflow
 WordSpacing
 }

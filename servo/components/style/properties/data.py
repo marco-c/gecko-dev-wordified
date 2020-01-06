@@ -1244,6 +1244,9 @@ False
 need_index
 =
 False
+custom_cascade_function
+=
+None
 gecko_ffi_name
 =
 None
@@ -1392,6 +1395,16 @@ self
 custom_cascade
 =
 custom_cascade
+        
+self
+.
+custom_cascade_function
+=
+custom_cascade_function
+if
+custom_cascade
+else
+None
         
 self
 .
