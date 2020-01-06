@@ -1715,6 +1715,11 @@ fixBaselineReturnAddress
 )
 ;
 void
+moveToCppEntryFrame
+(
+)
+;
+void
 moveToWasmFrame
 (
 CommonFrameLayout
