@@ -368,35 +368,6 @@ s
 %
 url
         
-remote_host
-=
-urlparse
-.
-urlsplit
-(
-url
-)
-[
-1
-]
-        
-if
-remote_host
-:
-            
-os
-.
-system
-(
-"
-nslookup
-%
-s
-"
-%
-remote_host
-)
-        
 raise
     
 except
