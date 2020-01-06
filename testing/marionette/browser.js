@@ -2800,8 +2800,7 @@ WindowState
 *
 param
 {
-unsigned
-short
+number
 }
 windowState
 *
