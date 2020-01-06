@@ -301,6 +301,12 @@ CreateDecoderParams
 aParams
 )
 :
+mImageAllocator
+(
+aParams
+.
+mKnowsCompositor
+)
 mImageContainer
 (
 aParams
@@ -1183,6 +1189,7 @@ mTheoraInfo
 .
 frame_height
 )
+mImageAllocator
 )
 ;
 if
