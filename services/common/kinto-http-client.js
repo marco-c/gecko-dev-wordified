@@ -6959,10 +6959,9 @@ const
 processNextPage
 =
 async
-function
-(
 nextPage
-)
+=
+>
 {
 const
 {
@@ -6991,11 +6990,6 @@ headers
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 const
 pageResults

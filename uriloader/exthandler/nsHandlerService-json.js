@@ -1469,9 +1469,10 @@ _onDBChange
 return
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1497,11 +1498,6 @@ __store
 null
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )
