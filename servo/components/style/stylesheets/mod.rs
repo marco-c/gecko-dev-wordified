@@ -2149,7 +2149,7 @@ wrap
 (
 rule
 .
-clone
+clone_conditionally_gecko_or_servo
 (
 )
 )
@@ -2193,7 +2193,7 @@ wrap
 (
 rule
 .
-clone
+clone_conditionally_gecko_or_servo
 (
 )
 )
