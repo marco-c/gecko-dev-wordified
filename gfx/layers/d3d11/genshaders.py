@@ -71,8 +71,6 @@ import
 tempfile
 import
 yaml
-import
-buildconfig
 def
 shell_main
 (
@@ -463,22 +461,13 @@ output_fp
 )
 :
   
-fxc_location
-=
-buildconfig
-.
-substs
-[
-'
-FXC
-'
-]
-  
 argv
 =
 [
     
-fxc_location
+'
+fxc
+'
     
 '
 -
@@ -532,36 +521,6 @@ Vi
 '
   
 ]
-  
-if
-'
-Linux
-'
-in
-buildconfig
-.
-substs
-[
-'
-HOST_OS_ARCH
-'
-]
-:
-    
-argv
-.
-insert
-(
-0
-buildconfig
-.
-substs
-[
-'
-WINE
-'
-]
-)
   
 if
 shader_model
@@ -688,12 +647,6 @@ proc_stdout
 )
     
 assert
-'
-fxc2
-'
-in
-fxc_location
-or
 len
 (
 deps
