@@ -1314,15 +1314,6 @@ oldState
 action
 )
 ;
-console
-.
-log
-(
-nextState
-.
-rows
-)
-;
 assert
 .
 deepEqual
