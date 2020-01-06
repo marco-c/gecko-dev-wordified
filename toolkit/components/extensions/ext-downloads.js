@@ -3681,6 +3681,11 @@ url
 options
 .
 url
+isPrivate
+:
+options
+.
+incognito
 }
 ;
 if
