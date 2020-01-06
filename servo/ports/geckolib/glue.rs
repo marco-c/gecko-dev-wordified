@@ -19822,7 +19822,7 @@ element
 "
 )
 ;
-assert
+debug_assert
 !
 (
 element
