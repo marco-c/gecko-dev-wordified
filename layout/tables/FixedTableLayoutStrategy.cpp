@@ -221,7 +221,7 @@ FixedTableLayoutStrategy
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -967,7 +967,7 @@ FixedTableLayoutStrategy
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 bool

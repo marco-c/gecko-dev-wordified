@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -136,13 +143,6 @@ h
 include
 "
 nsLayoutUtils
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "

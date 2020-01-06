@@ -156,7 +156,7 @@ aContext
 nscoord
 GetIntrinsicISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsLayoutUtils
@@ -169,7 +169,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -179,7 +179,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -324,7 +324,7 @@ PaintBorder
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsPoint

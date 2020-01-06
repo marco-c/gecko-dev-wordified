@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsStyleStructInlines
 .
 h

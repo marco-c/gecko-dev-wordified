@@ -148,7 +148,7 @@ nsCoord
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 namespace
 mozilla
@@ -198,7 +198,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -222,7 +222,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 bool

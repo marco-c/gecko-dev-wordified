@@ -1892,7 +1892,7 @@ DrawBorderImage
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsIFrame

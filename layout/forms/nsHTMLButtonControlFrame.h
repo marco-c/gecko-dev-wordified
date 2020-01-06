@@ -130,7 +130,7 @@ nsButtonFrameRenderer
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsPresContext
@@ -202,7 +202,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -212,7 +212,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

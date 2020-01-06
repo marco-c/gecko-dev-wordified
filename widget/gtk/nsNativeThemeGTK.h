@@ -181,7 +181,7 @@ interface
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsRenderingContext
+gfxContext
 *
 aContext
 nsIFrame

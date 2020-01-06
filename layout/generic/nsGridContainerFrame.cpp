@@ -156,6 +156,13 @@ limits
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CSSAlignUtils
@@ -286,13 +293,6 @@ h
 include
 "
 nsReadableUtils
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -11919,7 +11919,7 @@ GridReflowInput
 nsGridContainerFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 &
 aRC
 )
@@ -13278,7 +13278,7 @@ ReflowInput
 const
 mReflowInput
 ;
-nsRenderingContext
+gfxContext
 &
 mRenderingContext
 ;
@@ -13471,7 +13471,7 @@ GridReflowInput
 nsGridContainerFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -24569,7 +24569,7 @@ const
 ReflowInput
 *
 aReflowInput
-nsRenderingContext
+gfxContext
 *
 aRC
 const
@@ -25054,7 +25054,7 @@ const
 GridReflowInput
 &
 aState
-nsRenderingContext
+gfxContext
 *
 aRC
 WritingMode
@@ -25769,7 +25769,7 @@ const
 GridReflowInput
 &
 aState
-nsRenderingContext
+gfxContext
 *
 aRC
 WritingMode
@@ -25883,7 +25883,7 @@ const
 GridReflowInput
 &
 aState
-nsRenderingContext
+gfxContext
 *
 aRC
 WritingMode
@@ -26034,7 +26034,7 @@ const
 GridReflowInput
 &
 aState
-nsRenderingContext
+gfxContext
 *
 aRC
 WritingMode
@@ -26960,7 +26960,7 @@ eClampMarginBoxMinSize
 /
 min
 sizing
-nsRenderingContext
+gfxContext
 *
 rc
 =
@@ -29987,7 +29987,7 @@ aState
 .
 mIter
 ;
-nsRenderingContext
+gfxContext
 *
 rc
 =
@@ -32448,7 +32448,7 @@ aState
 .
 mWM
 ;
-nsRenderingContext
+gfxContext
 *
 rc
 =
@@ -46276,7 +46276,7 @@ nsGridContainerFrame
 :
 IntrinsicISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 IntrinsicISizeType
@@ -46853,7 +46853,7 @@ nsGridContainerFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRC
 )
@@ -46894,7 +46894,7 @@ nsGridContainerFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRC
 )

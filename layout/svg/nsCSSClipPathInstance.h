@@ -128,7 +128,7 @@ class
 nsIFrame
 ;
 class
-nsRenderingContext
+gfxContext
 ;
 namespace
 mozilla

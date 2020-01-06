@@ -214,7 +214,7 @@ virtual
 void
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -227,7 +227,7 @@ virtual
 void
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -243,7 +243,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla

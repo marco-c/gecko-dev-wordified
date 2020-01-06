@@ -420,7 +420,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -430,7 +430,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -439,7 +439,7 @@ override
 void
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -454,7 +454,7 @@ override
 void
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -515,7 +515,7 @@ BulletRenderer
 >
 CreateBulletRenderer
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsPoint
@@ -525,7 +525,7 @@ aPt
 DrawResult
 PaintBullet
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsPoint
@@ -650,7 +650,7 @@ GetDesiredSize
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 ReflowOutput
