@@ -684,7 +684,7 @@ compilation
 .
 *
 /
-HeapPtr
+GCPtr
 <
 JSAtom
 *
