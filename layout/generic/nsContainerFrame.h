@@ -7194,11 +7194,6 @@ list
 >
 Delete
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )

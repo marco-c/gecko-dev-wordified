@@ -441,11 +441,6 @@ them
 aDelegatingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -561,11 +556,6 @@ t
 change
 them
 aDelegatingFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

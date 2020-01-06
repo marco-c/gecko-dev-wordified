@@ -4732,11 +4732,6 @@ nsGkAtoms
 align
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -4836,11 +4831,6 @@ actually
 affect
 siblings
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )

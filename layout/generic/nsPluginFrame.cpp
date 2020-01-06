@@ -1017,11 +1017,6 @@ if
 mReflowCallbackPosted
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -2148,11 +2143,6 @@ accService
 >
 RecreateAccessible
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )

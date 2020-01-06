@@ -1256,11 +1256,6 @@ if
 needsReflow
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1952,11 +1947,6 @@ reflow
 .
 .
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )

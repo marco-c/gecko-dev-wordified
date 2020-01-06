@@ -870,11 +870,6 @@ UpdateImage
 (
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -4833,11 +4828,6 @@ NS_FRAME_FIRST_REFLOW
 )
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -4943,11 +4933,6 @@ SizeTo
 0
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

@@ -785,11 +785,6 @@ ps
 aSubtreeRoot
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

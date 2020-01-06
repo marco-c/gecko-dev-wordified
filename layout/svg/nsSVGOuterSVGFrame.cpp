@@ -1054,11 +1054,6 @@ size
 embeddingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -4190,11 +4185,6 @@ under
 the
 pointer
 :
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5452,11 +5442,6 @@ too
 embeddingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5520,11 +5505,6 @@ need
 to
 reflow
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )

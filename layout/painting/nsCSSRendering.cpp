@@ -9315,11 +9315,6 @@ rootElementFrame
 aForFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

@@ -4105,11 +4105,6 @@ accService
 >
 RangeValueChanged
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5188,11 +5183,6 @@ nsGkAtoms
 orient
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

@@ -21027,11 +21027,6 @@ nullptr
 mCurrentTarget
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

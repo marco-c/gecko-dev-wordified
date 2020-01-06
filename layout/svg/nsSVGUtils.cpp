@@ -1488,11 +1488,6 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 aFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

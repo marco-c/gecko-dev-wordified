@@ -914,11 +914,6 @@ frames
 auto
 insertion
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

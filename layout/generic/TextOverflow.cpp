@@ -326,11 +326,6 @@ ctx
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5333,11 +5328,6 @@ caret
 aBlockFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5769,11 +5759,6 @@ gfxContext
 rc
 =
 aFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

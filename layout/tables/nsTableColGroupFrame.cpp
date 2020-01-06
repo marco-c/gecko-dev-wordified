@@ -1652,11 +1652,6 @@ true
 aCols
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1788,11 +1783,6 @@ colIndex
 ;
 }
 }
-PresContext
-(
-)
--
->
 PresShell
 (
 )

@@ -727,11 +727,6 @@ the
 pres
 shell
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -865,11 +860,6 @@ the
 pres
 shell
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1011,11 +1001,6 @@ DestroyFrame
 aOldFrame
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

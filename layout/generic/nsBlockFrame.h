@@ -3072,11 +3072,6 @@ aIsBlock
 return
 NS_NewLineBox
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3102,11 +3097,6 @@ aCount
 return
 NS_NewLineBox
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3144,11 +3134,6 @@ aLine
 >
 Destroy
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )

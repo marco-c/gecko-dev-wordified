@@ -5104,11 +5104,6 @@ NS_OK
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5459,11 +5454,6 @@ that
 cause
 changes
 !
-PresContext
-(
-)
--
->
 PresShell
 (
 )

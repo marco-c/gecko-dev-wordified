@@ -2349,11 +2349,6 @@ HasDocumentLevelListenersForApzAwareEvents
 aFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

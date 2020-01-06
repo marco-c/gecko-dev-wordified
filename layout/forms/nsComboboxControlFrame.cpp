@@ -3719,11 +3719,6 @@ shell
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -7444,11 +7439,6 @@ eResize
 .
 Check
 .
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -9369,11 +9359,6 @@ nsIPresShell
 *
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

@@ -48960,11 +48960,6 @@ nsIPresShell
 *
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -49227,11 +49222,6 @@ SetPropTableFrames
 (
 new
 (
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -50617,11 +50607,6 @@ nsIPresShell
 shell
 =
 gridFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

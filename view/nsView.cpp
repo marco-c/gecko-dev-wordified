@@ -6929,11 +6929,6 @@ mFrame
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

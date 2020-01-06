@@ -1872,11 +1872,6 @@ fc
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

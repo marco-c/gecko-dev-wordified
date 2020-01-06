@@ -23896,11 +23896,6 @@ rootFrame
 mBaseFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

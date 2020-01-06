@@ -473,11 +473,6 @@ frameSelection
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1459,11 +1454,6 @@ CompatibilityMode
 eCompatibility_NavQuirks
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

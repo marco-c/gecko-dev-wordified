@@ -1303,11 +1303,6 @@ frame
 "
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

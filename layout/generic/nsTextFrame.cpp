@@ -4221,11 +4221,6 @@ shell
 aFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -13931,11 +13926,6 @@ gfxContext
 ctx
 =
 aTextFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

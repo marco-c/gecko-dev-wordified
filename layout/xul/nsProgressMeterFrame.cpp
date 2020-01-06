@@ -318,11 +318,6 @@ IsAlive
 mWeakFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -535,11 +530,6 @@ if
 cb
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

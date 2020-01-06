@@ -790,11 +790,6 @@ if
 mReflowCallbackPosted
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3291,11 +3286,6 @@ nsIPresShell
 *
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

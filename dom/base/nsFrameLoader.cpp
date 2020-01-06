@@ -18195,11 +18195,6 @@ InvalidateFrame
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -18252,11 +18247,6 @@ subdocRootScrollFrame
 subdocRootFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -18272,11 +18262,6 @@ subdocRootScrollFrame
 )
 {
 frame
--
->
-PresContext
-(
-)
 -
 >
 PresShell
@@ -18398,11 +18383,6 @@ nsIScrollableFrame
 subdocRootScrollFrame
 =
 subdocRootFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

@@ -1247,11 +1247,6 @@ GetRowIndex
 )
 ;
 }
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1629,11 +1624,6 @@ GetRowIndex
 colIndex
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1751,11 +1741,6 @@ DestroyFrame
 aOldFrame
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
