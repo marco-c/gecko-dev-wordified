@@ -401,8 +401,6 @@ size_t
 and
 int64_t
 .
-*
-/
 if
 (
 static_cast
