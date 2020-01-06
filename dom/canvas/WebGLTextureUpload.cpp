@@ -3053,7 +3053,7 @@ src
 dom
 :
 :
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 dom
 :
@@ -3159,7 +3159,7 @@ border
 dom
 :
 :
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 dom
 :

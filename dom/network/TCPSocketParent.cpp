@@ -1486,7 +1486,7 @@ IPC_OK
 )
 )
 ;
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBuffer
 >

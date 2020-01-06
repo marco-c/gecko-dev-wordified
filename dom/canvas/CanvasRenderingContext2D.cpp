@@ -34606,7 +34606,7 @@ ErrorResult
 aError
 )
 {
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 Uint8ClampedArray
 >
@@ -34703,7 +34703,7 @@ ErrorResult
 aError
 )
 {
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 Uint8ClampedArray
 >

@@ -16340,7 +16340,7 @@ toObjectOrNull
 )
 )
 ;
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBuffer
 >

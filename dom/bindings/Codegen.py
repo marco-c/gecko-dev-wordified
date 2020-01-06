@@ -8300,6 +8300,32 @@ headerSet
 =
 declareIncludes
                     
+if
+unrolled
+.
+isReadableStream
+(
+)
+:
+                        
+headerSet
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                    
+else
+:
+                        
 headerSet
 .
 add
@@ -10187,6 +10213,32 @@ h
 "
 )
                         
+if
+f
+.
+isReadableStream
+(
+)
+:
+                            
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                        
+else
+:
+                            
 headers
 .
 add
@@ -10998,6 +11050,32 @@ h
 "
 )
                         
+if
+f
+.
+isReadableStream
+(
+)
+:
+                            
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                        
+else
+:
+                            
 headers
 .
 add
@@ -44755,7 +44833,7 @@ may
 be
 nullable
         
-arrayType
+interfaceType
 =
 CGGeneric
 (
@@ -44764,7 +44842,7 @@ name
         
 declType
 =
-arrayType
+interfaceType
         
 if
 type
@@ -45000,27 +45078,29 @@ see
 #
 Optional
 <
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
-ArrayType
+InterfaceType
 >
 >
 .
 So
 do
 a
+            
+#
 holder
 if
 we
 '
 re
-            
-#
 optional
 and
 use
 a
-RootedTypedArray
+RootedSpiderMonkeyInterface
+            
+#
 otherwise
 .
             
@@ -45033,9 +45113,9 @@ holderType
 CGTemplatedType
 (
 "
-TypedArrayRooter
+SpiderMonkeyInterfaceRooter
 "
-arrayType
+interfaceType
 )
                 
 #
@@ -45149,7 +45229,7 @@ declType
 CGTemplatedType
 (
 "
-RootedTypedArray
+RootedSpiderMonkeyInterface
 "
 declType
 )
@@ -50924,7 +51004,7 @@ MaybeWrapObjectValue
 "
     
 #
-Spidermonkey
+SpiderMonkey
 interfaces
 are
 never
@@ -111103,7 +111183,7 @@ pass
 #
 Note
 :
-Spidermonkey
+SpiderMonkey
 interfaces
 are
 typedefs

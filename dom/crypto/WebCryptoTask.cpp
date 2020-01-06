@@ -7402,7 +7402,7 @@ false
 /
 Try
 ArrayBuffer
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBuffer
 >
@@ -7444,7 +7444,7 @@ return
 /
 Try
 ArrayBufferView
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBufferView
 >
