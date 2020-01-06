@@ -45882,6 +45882,9 @@ drawable
 /
 icon_openinapp
 "
+useTint
+:
+true
 clickCallback
 :
 (
