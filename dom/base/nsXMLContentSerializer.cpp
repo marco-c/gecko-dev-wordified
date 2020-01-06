@@ -479,8 +479,16 @@ bool
 aIsCopying
 bool
 aRewriteEncodingDeclaration
+bool
+*
+aNeedsPreformatScanning
 )
 {
+*
+aNeedsPreformatScanning
+=
+false
+;
 mPrefixIndex
 =
 0

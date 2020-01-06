@@ -423,6 +423,9 @@ bool
 aIsCopying
 bool
 aRewriteEncodingDeclaration
+bool
+*
+aNeedsPreformatScanning
 )
 {
 /
@@ -507,6 +510,7 @@ aWrapColumn
 aCharSet
 aIsCopying
 aRewriteEncodingDeclaration
+aNeedsPreformatScanning
 )
 ;
 NS_ENSURE_SUCCESS

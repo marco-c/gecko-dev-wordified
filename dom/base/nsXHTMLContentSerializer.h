@@ -238,6 +238,9 @@ bool
 aIsCopying
 bool
 aRewriteEncodingDeclaration
+bool
+*
+aNeedsPreformatScanning
 )
 override
 ;
