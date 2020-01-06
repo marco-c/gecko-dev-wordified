@@ -372,6 +372,13 @@ Not
 implemented
 #
 endif
+BackgroundHangMonitor
+:
+:
+Startup
+(
+)
+;
 return
 mPlugin
 .
@@ -404,6 +411,13 @@ CleanUp
 (
 )
 {
+BackgroundHangMonitor
+:
+:
+Shutdown
+(
+)
+;
 }
 }
 /
