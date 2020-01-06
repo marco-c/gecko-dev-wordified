@@ -351,6 +351,11 @@ GetCanvasRenderer
 (
 )
 ;
+if
+(
+canvas
+)
+{
 canvas
 -
 >
@@ -358,6 +363,7 @@ UpdateCompositableClient
 (
 )
 ;
+}
 }
 }
 bool
