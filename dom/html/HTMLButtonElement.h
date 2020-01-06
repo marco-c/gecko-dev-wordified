@@ -181,6 +181,12 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
+using
+nsGenericHTMLFormElementWithState
+:
+:
+GetFormAction
+;
 explicit
 HTMLButtonElement
 (

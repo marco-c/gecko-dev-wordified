@@ -6579,6 +6579,14 @@ IsLabelable
 const
 override
 ;
+void
+GetFormAction
+(
+nsString
+&
+aValue
+)
+;
 protected
 :
 virtual

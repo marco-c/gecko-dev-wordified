@@ -794,6 +794,12 @@ nsGenericHTMLFormElementWithState
 :
 GetForm
 ;
+using
+nsGenericHTMLFormElementWithState
+:
+:
+GetFormAction
+;
 enum
 class
 FromClone
