@@ -2127,6 +2127,14 @@ aExternalImageId
 override
 ;
 virtual
+uint32_t
+NumSubTextures
+(
+)
+const
+override
+;
+virtual
 void
 PushResourceUpdates
 (
