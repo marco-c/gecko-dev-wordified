@@ -688,7 +688,7 @@ PaintState
 aState
 )
 ;
-bool
+void
 PaintOffMainThread
 (
 )
