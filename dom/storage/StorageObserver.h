@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsTArray
+nsTObserverArray
 .
 h
 "
@@ -364,7 +364,7 @@ mBackgroundThread
 /
 Weak
 references
-nsTArray
+nsTObserverArray
 <
 StorageObserverSink
 *
