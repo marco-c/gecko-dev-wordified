@@ -8148,6 +8148,15 @@ Quit
 "
 .
         
+:
+returns
+:
+The
+cause
+of
+shutdown
+.
+        
 "
 "
 "
@@ -8416,6 +8425,7 @@ flags
 )
 }
         
+return
 self
 .
 _send_message
@@ -8424,6 +8434,11 @@ _send_message
 quitApplication
 "
 body
+key
+=
+"
+cause
+"
 )
     
 do_process_check
@@ -8622,6 +8637,10 @@ Marionette
 "
 )
         
+cause
+=
+None
+        
 if
 in_app
 :
@@ -8656,6 +8675,8 @@ callback
 else
 :
                 
+cause
+=
 self
 .
 _request_in_app_shutdown
@@ -8803,6 +8824,47 @@ close
 clean
 =
 clean
+)
+        
+if
+cause
+not
+in
+(
+None
+"
+shutdown
+"
+)
+:
+            
+raise
+errors
+.
+MarionetteException
+(
+"
+Unexpected
+shutdown
+reason
+'
+{
+}
+'
+for
+"
+                                             
+"
+quitting
+the
+process
+.
+"
+.
+format
+(
+cause
+)
 )
     
 do_process_check
@@ -8994,6 +9056,10 @@ value
 "
 )
         
+cause
+=
+None
+        
 if
 in_app
 :
@@ -9050,6 +9116,8 @@ callback
 else
 :
                 
+cause
+=
 self
 .
 _request_in_app_shutdown
@@ -9180,6 +9248,46 @@ timeout
 self
 .
 DEFAULT_STARTUP_TIMEOUT
+)
+        
+if
+cause
+not
+in
+(
+None
+"
+restart
+"
+)
+:
+            
+raise
+errors
+.
+MarionetteException
+(
+"
+Unexpected
+shutdown
+reason
+'
+{
+}
+'
+for
+"
+                                             
+"
+restarting
+the
+process
+"
+.
+format
+(
+cause
+)
 )
         
 self
