@@ -172,6 +172,14 @@ kJsepSdpPranswer
 kJsepSdpRollback
 }
 ;
+enum
+JsepDescriptionPendingOrCurrent
+{
+kJsepDescriptionCurrent
+kJsepDescriptionPending
+kJsepDescriptionPendingOrCurrent
+}
+;
 struct
 JsepOAOptions
 {
@@ -1084,6 +1092,8 @@ std
 string
 GetLocalDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 =
@@ -1096,6 +1106,8 @@ std
 string
 GetRemoteDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 =

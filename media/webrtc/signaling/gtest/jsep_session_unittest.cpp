@@ -2663,6 +2663,7 @@ side
 .
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 ;
@@ -18156,6 +18157,7 @@ mSessionOff
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -18380,6 +18382,7 @@ mSessionAns
 >
 GetRemoteDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -18631,6 +18634,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -18874,6 +18878,7 @@ mSessionOff
 >
 GetRemoteDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -19806,6 +19811,7 @@ mSessionOff
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -20016,6 +20022,7 @@ mSessionAns
 >
 GetRemoteDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -20261,6 +20268,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -20492,6 +20500,7 @@ mSessionOff
 >
 GetRemoteDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -22388,6 +22397,7 @@ mSessionOff
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -22467,6 +22477,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -22577,6 +22588,7 @@ mSessionOff
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -22656,6 +22668,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 )
 )
@@ -32716,6 +32729,7 @@ mSessionOff
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 ;
 SipccSdpParser
@@ -35873,6 +35887,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -35906,6 +35921,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36111,6 +36127,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36146,7 +36163,10 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
+/
+/
 .
 find
 (
@@ -36180,6 +36200,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36211,6 +36232,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36244,6 +36266,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36411,6 +36434,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
@@ -36446,6 +36470,7 @@ mSessionAns
 >
 GetLocalDescription
 (
+kJsepDescriptionCurrent
 )
 .
 find
