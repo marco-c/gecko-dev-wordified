@@ -5116,7 +5116,7 @@ change
 MOZ_ASSERT
 (
 !
-mPlaceHolderBatch
+mPlaceholderBatch
 "
 UpdateIMEComposition
 (
