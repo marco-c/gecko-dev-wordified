@@ -57901,9 +57901,6 @@ decoder
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -57920,6 +57917,9 @@ software
 true
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
