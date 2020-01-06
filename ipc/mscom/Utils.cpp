@@ -521,7 +521,7 @@ result
 StringFromGUID2
 (
 aGuid
-wwc
+char16ptr_t
 (
 aOutString
 .
