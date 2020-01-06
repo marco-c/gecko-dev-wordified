@@ -1243,12 +1243,6 @@ text
 toolbarbutton
 -
 icon
-{
-display
-:
-none
-;
-}
 .
 toolbarbutton
 -
@@ -1279,6 +1273,13 @@ true
 ]
 {
 display
+:
+none
+;
+-
+moz
+-
+binding
 :
 none
 ;
