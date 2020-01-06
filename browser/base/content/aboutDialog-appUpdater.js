@@ -490,7 +490,7 @@ manualLink
 ;
 manualLink
 .
-value
+textContent
 =
 manualURL
 ;
@@ -2287,7 +2287,7 @@ this
 .
 downloadStatus
 .
-value
+textContent
 =
 DownloadUtils
 .
@@ -2869,7 +2869,7 @@ this
 .
 downloadStatus
 .
-value
+textContent
 =
 DownloadUtils
 .
