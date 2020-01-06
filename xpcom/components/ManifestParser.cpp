@@ -359,8 +359,6 @@ only
 apply
 to
 content
-/
-resource
 directives
 .
 bool
@@ -727,7 +725,7 @@ false
 true
 true
 true
-true
+false
 nullptr
 &
 nsChromeRegistry
