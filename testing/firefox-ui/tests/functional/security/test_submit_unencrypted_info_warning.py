@@ -140,6 +140,33 @@ test_string
 mozilla
 '
         
+#
+Disable
+rcwn
+to
+make
+cache
+behavior
+deterministic
+        
+self
+.
+marionette
+.
+set_pref
+(
+'
+network
+.
+http
+.
+rcwn
+.
+enabled
+'
+False
+)
+        
 self
 .
 marionette
@@ -163,6 +190,23 @@ self
         
 try
 :
+            
+self
+.
+marionette
+.
+clear_pref
+(
+'
+network
+.
+http
+.
+rcwn
+.
+enabled
+'
+)
             
 self
 .
