@@ -250,6 +250,10 @@ SERVO_PLATFORMS
         
 '
 linux64
+'
+        
+'
+linux64
 -
 stylo
 '
