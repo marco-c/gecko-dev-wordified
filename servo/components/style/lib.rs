@@ -891,10 +891,6 @@ data
 ;
 pub
 mod
-document_condition
-;
-pub
-mod
 dom
 ;
 pub
@@ -974,10 +970,6 @@ gecko_bindings
 pub
 mod
 invalidation
-;
-pub
-mod
-keyframes
 ;
 #
 [
@@ -1094,10 +1086,6 @@ stylesheets
 ;
 pub
 mod
-supports
-;
-pub
-mod
 thread_state
 ;
 pub
@@ -1122,10 +1110,6 @@ non_camel_case_types
 pub
 mod
 values
-;
-pub
-mod
-viewport
 ;
 use
 std

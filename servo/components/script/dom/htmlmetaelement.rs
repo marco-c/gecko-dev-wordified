@@ -332,16 +332,8 @@ Stylesheet
 CssRule
 CssRules
 Origin
-}
-;
-use
-style
-:
-:
-viewport
-:
-:
 ViewportRule
+}
 ;
 #
 [
