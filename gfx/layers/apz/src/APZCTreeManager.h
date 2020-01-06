@@ -449,7 +449,7 @@ and
 AsyncPanZoomController
 :
 :
-mMonitor
+mRecursiveMutex
 (
 "
 APZC

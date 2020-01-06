@@ -396,12 +396,12 @@ HORIZONTAL
 )
 )
 {
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
 lock
 (
 mApzc
 .
-mMonitor
+mRecursiveMutex
 )
 ;
 mApzc
@@ -431,12 +431,12 @@ VERTICAL
 )
 )
 {
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
 lock
 (
 mApzc
 .
-mMonitor
+mRecursiveMutex
 )
 ;
 mApzc
@@ -1057,7 +1057,7 @@ run
 /
 while
 holding
-mMonitor
+mRecursiveMutex
 because
 otherwise
 if
@@ -1545,7 +1545,7 @@ Note
 APZC
 is
 holding
-mMonitor
+mRecursiveMutex
 so
 directly
 calling
@@ -1581,7 +1581,7 @@ be
 /
 called
 after
-mMonitor
+mRecursiveMutex
 is
 released
 .

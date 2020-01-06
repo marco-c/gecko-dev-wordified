@@ -189,7 +189,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RecursiveMutex
 .
 h
 "
@@ -2869,7 +2869,7 @@ respect
 the
 lock
 ordering
-mMonitor
+mRecursiveMutex
 must
 NOT
 be
@@ -2955,7 +2955,7 @@ respect
 the
 lock
 ordering
-mMonitor
+mRecursiveMutex
 must
 NOT
 be
@@ -3049,7 +3049,7 @@ respect
 the
 lock
 ordering
-mMonitor
+mRecursiveMutex
 must
 NOT
 be
@@ -5219,8 +5219,8 @@ const
 '
 .
 mutable
-ReentrantMonitor
-mMonitor
+RecursiveMutex
+mRecursiveMutex
 ;
 private
 :
@@ -5706,10 +5706,10 @@ mLastContentPaintMetrics
 )
 )
 {
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
 lock
 (
-mMonitor
+mRecursiveMutex
 )
 ;
 return
@@ -6641,7 +6641,7 @@ theory
 protected
 by
 |
-mMonitor
+mRecursiveMutex
 |
 ;
 that
@@ -6709,7 +6709,7 @@ Only
 code
 that
 holds
-mMonitor
+mRecursiveMutex
 should
 touch
 this
@@ -7791,10 +7791,10 @@ IsRootForLayersId
 )
 const
 {
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
 lock
 (
-mMonitor
+mRecursiveMutex
 )
 ;
 return
@@ -7811,10 +7811,10 @@ IsRootContent
 )
 const
 {
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
 lock
 (
-mMonitor
+mRecursiveMutex
 )
 ;
 return
