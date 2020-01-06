@@ -841,16 +841,6 @@ nsIChannel
 aGenericChannel
 )
 ;
-static
-nsresult
-GetPluginTempDir
-(
-nsIFile
-*
-*
-aDir
-)
-;
 /
 /
 Helper
