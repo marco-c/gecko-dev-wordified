@@ -523,6 +523,11 @@ const
 =
 0
 ;
+void
+MemoryPressure
+(
+)
+;
 protected
 :
 Performance
