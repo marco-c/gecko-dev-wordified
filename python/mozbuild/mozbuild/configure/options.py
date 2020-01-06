@@ -456,6 +456,43 @@ value
 foo
 '
 .
+We
+only
+raise
+a
+TypeError
+for
+instances
+that
+        
+#
+have
+content
+because
+value
+-
+less
+instances
+(
+like
+PositiveOptionValue
+        
+#
+and
+NegativeOptionValue
+)
+are
+common
+and
+it
+is
+trivial
+to
+        
+#
+compare
+these
+.
         
 if
 not
@@ -463,6 +500,11 @@ isinstance
 (
 other
 tuple
+)
+and
+len
+(
+self
 )
 :
             
@@ -473,6 +515,7 @@ TypeError
 cannot
 compare
 a
+populated
 %
 s
 against
@@ -480,10 +523,10 @@ an
 %
 s
 ;
-OptionValue
 '
                             
 '
+OptionValue
 instances
 are
 tuples
@@ -492,10 +535,10 @@ did
 you
 mean
 to
-compare
 '
                             
 '
+compare
 against
 member
 elements
