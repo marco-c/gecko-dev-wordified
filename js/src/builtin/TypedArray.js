@@ -8026,17 +8026,6 @@ comparefn
 undefined
 )
 {
-/
-/
-CountingSort
-doesn
-'
-t
-invoke
-the
-comparator
-function
-.
 if
 (
 IsUint8TypedArray
@@ -8056,6 +8045,7 @@ false
 signed
 *
 /
+TypedArrayCompareInt
 )
 ;
 }
@@ -8079,6 +8069,7 @@ true
 signed
 *
 /
+TypedArrayCompareInt
 )
 ;
 }

@@ -400,7 +400,7 @@ against
 regular
 array
 sort
-assertDeepEq
+assertEqArray
 (
 Array
 .
@@ -611,6 +611,7 @@ let
 arrayLength
 of
 [
+512
 256
 16
 0
