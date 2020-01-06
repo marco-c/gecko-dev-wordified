@@ -121,14 +121,16 @@ MediaDecoderOwner_h_
 #
 include
 "
-MediaInfo
+mozilla
+/
+UniquePtr
 .
 h
 "
 #
 include
 "
-nsAutoPtr
+MediaInfo
 .
 h
 "
@@ -417,7 +419,7 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags

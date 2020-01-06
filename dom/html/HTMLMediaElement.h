@@ -852,7 +852,7 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags
@@ -8492,7 +8492,7 @@ volume
 double
 mVolume
 ;
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags

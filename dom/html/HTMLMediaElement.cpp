@@ -29832,7 +29832,7 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags
@@ -29871,10 +29871,9 @@ IsEncrypted
 ;
 mTags
 =
-aTags
-.
-forget
+Move
 (
+aTags
 )
 ;
 mLoadedDataFired
@@ -32302,14 +32301,7 @@ MetadataLoaded
 (
 &
 mediaInfo
-nsAutoPtr
-<
-const
-MetadataTags
->
-(
 nullptr
-)
 )
 ;
 }
