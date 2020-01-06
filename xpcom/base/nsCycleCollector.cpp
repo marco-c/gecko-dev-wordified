@@ -11871,6 +11871,9 @@ Enumerator
 >
 mCurrNode
 ;
+uint32_t
+mNoteChildCount
+;
 public
 :
 CCGraphBuilder
@@ -12458,6 +12461,10 @@ mMergeZones
 (
 aMergeZones
 )
+mNoteChildCount
+(
+0
+)
 {
 if
 (
@@ -12820,7 +12827,7 @@ const
 intptr_t
 kNumNodesBetweenTimeChecks
 =
-500
+1000
 ;
 const
 intptr_t
@@ -12857,6 +12864,10 @@ IsDone
 )
 )
 {
+mNoteChildCount
+=
+0
+;
 PtrInfo
 *
 pi
@@ -12984,6 +12995,12 @@ aBudget
 step
 (
 kStep
+*
+(
+mNoteChildCount
++
+1
+)
 )
 ;
 }
@@ -13367,6 +13384,10 @@ aChild
 return
 ;
 }
++
++
+mNoteChildCount
+;
 nsXPCOMCycleCollectionParticipant
 *
 cp
@@ -13459,6 +13480,10 @@ aChild
 return
 ;
 }
++
++
+mNoteChildCount
+;
 MOZ_ASSERT
 (
 aParticipant
@@ -13523,6 +13548,10 @@ aChild
 return
 ;
 }
++
++
+mNoteChildCount
+;
 nsCString
 edgeName
 ;
