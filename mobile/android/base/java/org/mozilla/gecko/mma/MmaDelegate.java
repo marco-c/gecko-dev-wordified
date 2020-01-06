@@ -517,7 +517,7 @@ activity
 {
 mmaHelper
 .
-track
+event
 (
 MmaDelegate
 .
@@ -568,7 +568,7 @@ isMmaEnabled
 {
 mmaHelper
 .
-track
+event
 (
 event
 )
@@ -595,7 +595,7 @@ isMmaEnabled
 {
 mmaHelper
 .
-track
+event
 (
 event
 value
