@@ -1,9 +1,3 @@
-#
-META
-:
-timeout
-=
-long
 from
 tests
 .
