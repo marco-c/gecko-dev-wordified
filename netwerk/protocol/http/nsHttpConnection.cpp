@@ -982,7 +982,7 @@ mConnInfo
 =
 info
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mConnInfo
 )
@@ -2012,7 +2012,7 @@ mConnInfo
 =
 wildCardProxyCi
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mConnInfo
 )
@@ -12692,7 +12692,7 @@ ci
 mConnInfo
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 ci
 )
