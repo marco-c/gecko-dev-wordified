@@ -110,7 +110,6 @@ markup
 const
 {
 getAdjustedQuads
-getCurrentZoom
 getWindowDimensions
 }
 =
@@ -200,7 +199,6 @@ areValuesDifferent
 (
 oldValue
 newValue
-zoom
 )
 {
 let
@@ -227,12 +225,10 @@ toFixed
 ;
 return
 delta
-/
-zoom
 >
-1
-/
-zoom
+=
+.
+5
 ;
 }
 function
@@ -240,7 +236,6 @@ areQuadsDifferent
 (
 oldQuads
 newQuads
-zoom
 )
 {
 for
@@ -356,7 +351,6 @@ newProp
 [
 key
 ]
-zoom
 )
 )
 {
@@ -1181,12 +1175,6 @@ oldQuads
 this
 .
 currentQuads
-getCurrentZoom
-(
-this
-.
-win
-)
 )
 ;
 }
