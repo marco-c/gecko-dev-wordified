@@ -19961,15 +19961,6 @@ cx
 OuterWindowProxyClass
 )
 ;
-js
-:
-:
-SetXrayJitInfo
-(
-&
-gXrayJitInfo
-)
-;
 JS
 :
 :
