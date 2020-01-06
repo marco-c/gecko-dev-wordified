@@ -302,7 +302,7 @@ DocAccessibleChild
 RecvParentCOMProxy
 (
 const
-IAccessibleHolder
+IDispatchHolder
 &
 aParentCOMProxy
 )
@@ -327,7 +327,7 @@ reset
 (
 const_cast
 <
-IAccessibleHolder
+IDispatchHolder
 &
 >
 (
@@ -403,7 +403,7 @@ WindowsHandle
 &
 aEmulatedWindowHandle
 const
-IAccessibleHolder
+IDispatchHolder
 &
 aEmulatedWindowCOMProxy
 )
@@ -440,7 +440,7 @@ reset
 (
 const_cast
 <
-IAccessibleHolder
+IDispatchHolder
 &
 >
 (
