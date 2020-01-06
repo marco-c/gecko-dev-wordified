@@ -4386,6 +4386,15 @@ if
 (
 !
 value
+|
+|
+value
+.
+length
+>
+FormAutofillUtils
+.
+MAX_FIELD_VALUE_LENGTH
 )
 {
 /
