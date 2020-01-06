@@ -1291,7 +1291,7 @@ nsSVGMarkerFrame
 :
 SetParentCoordCtxProvider
 (
-SVGSVGElement
+SVGViewportElement
 *
 aContext
 )
@@ -1462,7 +1462,7 @@ mMarkedFrame
 =
 aMarkedFrame
 ;
-SVGSVGElement
+SVGViewportElement
 *
 ctx
 =

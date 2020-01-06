@@ -445,7 +445,7 @@ mozilla
 /
 dom
 /
-SVGSVGElement
+SVGViewportElement
 .
 h
 "
@@ -1700,7 +1700,7 @@ GetContent
 )
 )
 ;
-SVGSVGElement
+SVGViewportElement
 *
 ctx
 =
@@ -1902,7 +1902,7 @@ GetAnimValue
 (
 static_cast
 <
-SVGSVGElement
+SVGViewportElement
 *
 >
 (

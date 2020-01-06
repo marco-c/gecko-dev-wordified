@@ -911,7 +911,7 @@ override
 void
 SetParentCoordCtxProvider
 (
-SVGSVGElement
+SVGViewportElement
 *
 aContext
 )
@@ -1037,7 +1037,7 @@ separately
 nsSVGOrientType
 mOrientType
 ;
-SVGSVGElement
+SVGViewportElement
 *
 mCoordCtx
 ;

@@ -188,17 +188,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

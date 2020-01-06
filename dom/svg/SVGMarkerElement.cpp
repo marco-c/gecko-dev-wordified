@@ -1694,7 +1694,7 @@ SVGMarkerElement
 :
 SetParentCoordCtxProvider
 (
-SVGSVGElement
+SVGViewportElement
 *
 aContext
 )
