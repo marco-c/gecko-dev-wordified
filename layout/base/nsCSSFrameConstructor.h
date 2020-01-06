@@ -232,9 +232,6 @@ class
 nsFirstLineFrame
 ;
 class
-nsFirstLetterFrame
-;
-class
 nsICSSAnonBoxPseudo
 ;
 class
@@ -12902,8 +12899,7 @@ first
 -
 letter
 style
-nsFirstLetterFrame
-*
+void
 CreateFloatingLetterFrame
 (
 nsFrameConstructorState
