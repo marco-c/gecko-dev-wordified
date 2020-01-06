@@ -10121,6 +10121,26 @@ extra
 }
 )
         
+extra
+[
+'
+parent
+'
+]
+=
+os
+.
+environ
+.
+get
+(
+'
+TASK_ID
+'
+'
+'
+)
+        
 task_th
 =
 task
@@ -10548,6 +10568,17 @@ kind
 config
 .
 kind
+            
+'
+label
+'
+:
+task
+[
+'
+label
+'
+]
         
 }
 )
