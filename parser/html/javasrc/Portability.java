@@ -369,6 +369,8 @@ CPPONLY
 :
 TreeBuilder
 treeBuilder
+boolean
+maybeAtomize
 )
 {
 return

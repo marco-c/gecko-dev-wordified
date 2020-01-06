@@ -4669,6 +4669,16 @@ strBufLen
 CPPONLY
 :
 tokenHandler
+!
+newAttributesEachTime
+&
+&
+attributeName
+=
+=
+AttributeName
+.
+CLASS
 )
 ;
 clearStrBufAfterUse
