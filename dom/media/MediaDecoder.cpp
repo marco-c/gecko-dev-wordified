@@ -1065,7 +1065,7 @@ thiz
 mDecoder
 -
 >
-NotifyDataArrived
+NotifyDataArrivedInternal
 (
 )
 ;
@@ -7891,7 +7891,7 @@ void
 MediaDecoder
 :
 :
-NotifyDataArrived
+NotifyDataArrivedInternal
 (
 )
 {
@@ -7913,6 +7913,19 @@ IsShutdown
 mDataArrivedEvent
 .
 Notify
+(
+)
+;
+}
+void
+MediaDecoder
+:
+:
+NotifyDataArrived
+(
+)
+{
+NotifyDataArrivedInternal
 (
 )
 ;
