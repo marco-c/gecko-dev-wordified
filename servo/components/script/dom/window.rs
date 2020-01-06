@@ -1192,15 +1192,6 @@ use
 style
 :
 :
-error_reporting
-:
-:
-ParseErrorReporter
-;
-use
-style
-:
-:
 media_queries
 ;
 use
@@ -2971,7 +2962,7 @@ self
 -
 >
 &
-ParseErrorReporter
+CSSErrorReporter
 {
 &
 self
@@ -8507,11 +8498,6 @@ new_for_cssom
 (
 &
 url
-self
-.
-css_error_reporter
-(
-)
 Some
 (
 CssRuleType

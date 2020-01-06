@@ -149,7 +149,10 @@ use
 parser
 :
 :
+{
 ParserContext
+ParserErrorContext
+}
 ;
 use
 servo_arc
@@ -1740,8 +1743,6 @@ parent_stylesheet_contents
 origin
 &
 url_data
-&
-error_reporter
 None
 PARSING_MODE_DEFAULT
 parent_stylesheet_contents
@@ -1823,6 +1824,15 @@ origin
 context
 :
 context
+error_context
+:
+ParserErrorContext
+{
+error_reporter
+:
+&
+error_reporter
+}
 shared_lock
 :
 &

@@ -131,7 +131,10 @@ use
 error_reporting
 :
 :
+{
 ContextualParseError
+ParseErrorReporter
+}
 ;
 #
 [
@@ -179,6 +182,7 @@ parser
 :
 {
 ParserContext
+ParserErrorContext
 Parse
 }
 ;
@@ -473,6 +477,7 @@ parse_counter_style_body
 i
 '
 t
+R
 >
 (
 name
@@ -482,6 +487,13 @@ context
 :
 &
 ParserContext
+error_context
+:
+&
+ParserErrorContext
+<
+R
+>
 input
 :
 &
@@ -505,6 +517,10 @@ ParseError
 i
 >
 >
+where
+R
+:
+ParseErrorReporter
 {
 let
 start
@@ -598,6 +614,7 @@ context
 .
 log_css_error
 (
+error_context
 err
 .
 location
@@ -834,6 +851,7 @@ context
 .
 log_css_error
 (
+error_context
 start
 error
 )

@@ -139,6 +139,7 @@ parser
 {
 Parse
 ParserContext
+ParserErrorContext
 }
 ;
 use
@@ -3116,11 +3117,6 @@ unwrap
 )
 ;
 let
-reporter
-=
-CSSErrorReporterTest
-;
-let
 context
 =
 ParserContext
@@ -3134,8 +3130,6 @@ Origin
 Author
 &
 url
-&
-reporter
 Some
 (
 CssRuleType
@@ -3149,6 +3143,17 @@ QuirksMode
 :
 NoQuirks
 )
+;
+let
+error_context
+=
+ParserErrorContext
+{
+error_reporter
+:
+&
+CSSErrorReporterTest
+}
 ;
 macro_rules
 !
@@ -3170,6 +3175,8 @@ parse
 (
 &
 context
+&
+error_context
 &
 mut
 Parser

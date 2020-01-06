@@ -300,12 +300,6 @@ context
 QuirksMode
 ;
 use
-error_reporting
-:
-:
-NullReporter
-;
-use
 font_metrics
 :
 :
@@ -6534,11 +6528,6 @@ property
 values
 :
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -6554,8 +6543,6 @@ Author
 self
 .
 url_data
-&
-reporter
 None
 PARSING_MODE_DEFAULT
 quirks_mode
