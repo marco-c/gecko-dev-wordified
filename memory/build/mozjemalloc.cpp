@@ -6538,7 +6538,7 @@ defined
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 )
 uint32_t
-magic
+mMagic
 ;
 #
 define
@@ -6559,7 +6559,7 @@ following
 /
 /
 the
-magic
+mMagic
 field
 means
 there
@@ -6611,7 +6611,7 @@ We
 do
 want
 the
-magic
+mMagic
 field
 to
 appear
@@ -6646,7 +6646,7 @@ in
 run
 .
 unsigned
-nfree
+mNumFree
 ;
 #
 endif
@@ -6661,7 +6661,7 @@ with
 .
 arena_bin_t
 *
-bin
+mBin
 ;
 /
 /
@@ -6677,7 +6677,7 @@ free
 region
 .
 unsigned
-regs_minelm
+mRegionsMinElement
 ;
 #
 if
@@ -6696,7 +6696,7 @@ in
 run
 .
 unsigned
-nfree
+mNumFree
 ;
 #
 endif
@@ -6719,7 +6719,7 @@ free
 )
 .
 unsigned
-regs_mask
+mRegionsMask
 [
 1
 ]
@@ -6892,7 +6892,7 @@ a
 run
 '
 s
-regs_mask
+mRegionsMask
 for
 this
 bin
@@ -15545,7 +15545,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -15556,7 +15556,7 @@ MOZ_ASSERT
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 <
 bin
 -
@@ -15578,7 +15578,7 @@ that
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 can
 /
 /
@@ -15601,14 +15601,14 @@ i
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 ;
 mask
 =
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -15714,7 +15714,7 @@ bit
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -15748,7 +15748,7 @@ mask
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -15854,7 +15854,7 @@ bit
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -15881,7 +15881,7 @@ region
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 =
 i
 ;
@@ -16180,7 +16180,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -16708,13 +16708,13 @@ elm
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 )
 {
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 =
 elm
 ;
@@ -16746,7 +16746,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 elm
 ]
@@ -16766,7 +16766,7 @@ bit
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 elm
 ]
@@ -19165,7 +19165,7 @@ size
 aRun
 -
 >
-bin
+mBin
 -
 >
 mRunSize
@@ -20286,7 +20286,7 @@ internals
 run
 -
 >
-bin
+mBin
 =
 aBin
 ;
@@ -20313,7 +20313,7 @@ i
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -20360,7 +20360,7 @@ remainder
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -20387,7 +20387,7 @@ unset
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 i
 ]
@@ -20422,14 +20422,14 @@ remainder
 run
 -
 >
-regs_minelm
+mRegionsMinElement
 =
 0
 ;
 run
 -
 >
-nfree
+mNumFree
 =
 aBin
 -
@@ -20445,7 +20445,7 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 run
 -
 >
-magic
+mMagic
 =
 ARENA_RUN_MAGIC
 ;
@@ -20502,7 +20502,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aRun
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -20513,7 +20513,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aRun
 -
 >
-nfree
+mNumFree
 >
 0
 )
@@ -20534,7 +20534,7 @@ ret
 aRun
 -
 >
-nfree
+mNumFree
 -
 -
 ;
@@ -20603,7 +20603,7 @@ aBin
 mCurrentRun
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -20617,7 +20617,7 @@ aBin
 mCurrentRun
 -
 >
-nfree
+mNumFree
 >
 0
 )
@@ -20659,7 +20659,7 @@ the
 run
 header
 excluding
-regs_mask
+mRegionsMask
 .
 static
 const
@@ -20669,7 +20669,7 @@ kFixedHeaderSize
 offsetof
 (
 arena_run_t
-regs_mask
+mRegionsMask
 )
 ;
 MOZ_ASSERT
@@ -21116,7 +21116,7 @@ the
 required
 size
 for
-regs_mask
+mRegionsMask
 more
 than
 doubles
@@ -21389,7 +21389,7 @@ mCurrentRun
 run
 -
 >
-nfree
+mNumFree
 >
 0
 )
@@ -22798,7 +22798,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -22809,7 +22809,7 @@ ret
 run
 -
 >
-bin
+mBin
 -
 >
 mSizeClass
@@ -23819,7 +23819,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -23843,7 +23843,7 @@ size
 run
 -
 >
-bin
+mBin
 -
 >
 mSizeClass
@@ -23874,7 +23874,7 @@ run
 run
 -
 >
-bin
+mBin
 -
 >
 mRunFirstRegionOffset
@@ -24015,7 +24015,7 @@ tag
 run
 -
 >
-regs_mask
+mRegionsMask
 [
 elm
 ]
@@ -24145,7 +24145,7 @@ MOZ_DIAGNOSTIC_ASSERT
 run
 -
 >
-magic
+mMagic
 =
 =
 ARENA_RUN_MAGIC
@@ -24156,7 +24156,7 @@ bin
 run
 -
 >
-bin
+mBin
 ;
 size
 =
@@ -24229,7 +24229,7 @@ size
 run
 -
 >
-nfree
+mNumFree
 +
 +
 ;
@@ -24238,7 +24238,7 @@ if
 run
 -
 >
-nfree
+mNumFree
 =
 =
 bin
@@ -24384,7 +24384,7 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 run
 -
 >
-magic
+mMagic
 =
 0
 ;
@@ -24410,7 +24410,7 @@ if
 run
 -
 >
-nfree
+mNumFree
 =
 =
 1
@@ -24496,7 +24496,7 @@ bin
 mCurrentRun
 -
 >
-nfree
+mNumFree
 >
 0
 )
@@ -30079,7 +30079,7 @@ bin_unused
 run
 -
 >
-nfree
+mNumFree
 *
 bin
 -
@@ -30104,7 +30104,7 @@ bin
 mCurrentRun
 -
 >
-nfree
+mNumFree
 *
 bin
 -
