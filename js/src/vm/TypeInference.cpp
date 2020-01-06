@@ -19493,7 +19493,7 @@ function
 if
 (
 !
-JSObject
+NativeObject
 :
 :
 setNewScriptCleared
