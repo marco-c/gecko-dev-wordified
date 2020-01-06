@@ -1538,10 +1538,6 @@ MediaStreamGraph
 :
 :
 SYSTEM_THREAD_DRIVER
-AudioChannel
-:
-:
-Normal
 aWindow
 )
 ;

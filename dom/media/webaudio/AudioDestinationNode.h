@@ -190,13 +190,6 @@ AudioContext
 aContext
 bool
 aIsOffline
-AudioChannel
-aChannel
-=
-AudioChannel
-:
-:
-Normal
 uint32_t
 aNumberOfChannels
 =

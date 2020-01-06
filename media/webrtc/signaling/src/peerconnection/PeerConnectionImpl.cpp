@@ -2297,10 +2297,6 @@ MediaStreamGraph
 :
 :
 AUDIO_THREAD_DRIVER
-AudioChannel
-:
-:
-Normal
 GetWindow
 (
 )

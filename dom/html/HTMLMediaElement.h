@@ -190,6 +190,17 @@ include
 "
 mozilla
 /
+dom
+/
+AudioChannelBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
