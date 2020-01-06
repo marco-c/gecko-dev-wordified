@@ -2133,6 +2133,15 @@ parameters
 )
 :
         
+if
+not
+parameters
+.
+strict
+:
+            
+return
+        
 parameters_dict
 =
 dict
