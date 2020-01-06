@@ -271,6 +271,10 @@ BP_CHECKBOX
 define
 BP_GROUPBOX
 4
+#
+define
+BP_Count
+5
 /
 /
 Textfield
