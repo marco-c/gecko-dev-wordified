@@ -248,7 +248,6 @@ callback
 )
 ;
 }
-;
 document
 .
 dispatchEvent
@@ -412,8 +411,6 @@ result
 callback
 event
 exec
-:
-function
 (
 commandName
 arg

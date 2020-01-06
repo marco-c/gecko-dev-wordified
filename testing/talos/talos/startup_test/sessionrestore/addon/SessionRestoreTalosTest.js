@@ -590,8 +590,6 @@ change
 *
 /
 init
-:
-function
 (
 )
 {
@@ -715,8 +713,6 @@ hurray
 *
 /
 onReady
-:
-function
 (
 hasRestoredTabs
 )

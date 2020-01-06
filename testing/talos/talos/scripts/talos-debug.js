@@ -366,8 +366,6 @@ End
 of
 config
 sum
-:
-function
 (
 values
 )
@@ -393,8 +391,6 @@ b
 ;
 }
 average
-:
-function
 (
 values
 )
@@ -426,8 +422,6 @@ length
 ;
 }
 median
-:
-function
 (
 values
 )
@@ -553,8 +547,6 @@ items
 .
 }
 stddev
-:
-function
 (
 values
 avg
@@ -833,8 +825,6 @@ it
 is
 .
 detectWarmup
-:
-function
 (
 values
 )
@@ -1224,8 +1214,6 @@ stableFrom
 ;
 }
 statsDisplay
-:
-function
 (
 collection
 )
@@ -1362,8 +1350,6 @@ average
 ;
 }
 tpRecordTime
-:
-function
 (
 dataCSV
 )
@@ -1800,9 +1786,9 @@ tpRecordTime
 =
 =
 =
-'
+"
 undefined
-'
+"
 )
 {
 tpRecordTime

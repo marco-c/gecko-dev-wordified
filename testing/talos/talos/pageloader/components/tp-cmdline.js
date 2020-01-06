@@ -478,7 +478,7 @@ Components
 .
 ID
 (
-'
+"
 {
 8AF052F5
 -
@@ -490,7 +490,7 @@ ID
 -
 E16498A82E8B
 }
-'
+"
 )
 ;
 const
@@ -1367,8 +1367,6 @@ PageLoaderCmdLineFactory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid
@@ -1436,8 +1434,6 @@ PageLoaderCmdLineModule
 =
 {
 registerSelf
-:
-function
 (
 compMgr
 fileSpec
@@ -1508,8 +1504,6 @@ true
 ;
 }
 unregisterSelf
-:
-function
 (
 compMgr
 fileSpec
@@ -1568,8 +1562,6 @@ true
 ;
 }
 getClassObject
-:
-function
 (
 compMgr
 cid
@@ -1584,8 +1576,6 @@ cid
 ;
 }
 canUnload
-:
-function
 (
 compMgr
 )

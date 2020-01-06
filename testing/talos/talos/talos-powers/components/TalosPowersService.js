@@ -168,7 +168,6 @@ wrappedJSObject
 this
 ;
 }
-;
 TalosPowersService
 .
 prototype
@@ -1483,12 +1482,12 @@ e
 {
 dump
 (
-'
+"
 Force
 Quit
 failed
 :
-'
+"
 +
 e
 )
@@ -1854,8 +1853,6 @@ use
 with
 stopFrameTimeRecording
 startFrameTimeRecording
-:
-function
 (
 arg
 callback
@@ -1906,8 +1903,6 @@ with
 composition
 intervals
 stopFrameTimeRecording
-:
-function
 (
 arg
 callback
@@ -1984,8 +1979,6 @@ msg
 data
 .
 id
-result
-:
 result
 }
 )

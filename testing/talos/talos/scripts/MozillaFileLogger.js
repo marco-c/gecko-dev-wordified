@@ -78,10 +78,6 @@ detail
 :
 {
 sync
-:
-sync
-type
-:
 type
 data
 :
@@ -619,8 +615,8 @@ info
 .
 join
 (
-'
-'
+"
+"
 )
 +
 "
@@ -806,7 +802,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -816,7 +812,7 @@ preferences
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -835,11 +831,11 @@ prefs
 .
 getCharPref
 (
-'
+"
 talos
 .
 logfile
-'
+"
 )
 ;
 MozFileLogger

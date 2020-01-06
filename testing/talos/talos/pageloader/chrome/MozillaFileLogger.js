@@ -463,8 +463,8 @@ info
 .
 join
 (
-'
-'
+"
+"
 )
 +
 "
@@ -607,7 +607,7 @@ prefs
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -617,7 +617,7 @@ preferences
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -634,11 +634,11 @@ prefs
 .
 getCharPref
 (
-'
+"
 talos
 .
 logfile
-'
+"
 )
 ;
 MozillaFileLogger

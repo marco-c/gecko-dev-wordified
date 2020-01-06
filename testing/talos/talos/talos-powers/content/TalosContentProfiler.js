@@ -276,9 +276,9 @@ PrivilegeManager
 .
 enablePrivilege
 (
-'
+"
 UniversalXPConnect
-'
+"
 )
 ;
 }
@@ -434,10 +434,6 @@ detail
 :
 {
 name
-:
-name
-data
-:
 data
 }
 }

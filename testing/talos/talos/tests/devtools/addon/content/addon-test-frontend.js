@@ -181,11 +181,7 @@ name
 :
 commandName
 data
-:
-data
 }
-doneCallback
-:
 doneCallback
 }
 }
