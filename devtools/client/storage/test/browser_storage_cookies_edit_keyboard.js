@@ -101,6 +101,14 @@ showAllColumns
 true
 )
 ;
+showColumn
+(
+"
+uniqueKey
+"
+false
+)
+;
 let
 id
 =
