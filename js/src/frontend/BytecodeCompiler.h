@@ -179,7 +179,7 @@ namespace
 frontend
 {
 class
-TokenStreamAnyChars
+ErrorReporter
 ;
 class
 FunctionBox
@@ -846,9 +846,9 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamAnyChars
+ErrorReporter
 &
-tokenStream
+reporter
 )
 ;
 AutoFrontendTraceLog
@@ -860,9 +860,9 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamAnyChars
+ErrorReporter
 &
-tokenStream
+reporter
 FunctionBox
 *
 funbox
@@ -877,9 +877,9 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamAnyChars
+ErrorReporter
 &
-tokenStream
+reporter
 ParseNode
 *
 pn

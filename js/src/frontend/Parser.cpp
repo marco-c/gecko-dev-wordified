@@ -2419,7 +2419,7 @@ scriptId_
 UINT32_MAX
 )
 {
-tokenStream_
+errorReporter_
 .
 reportErrorNoOffset
 (
@@ -5418,7 +5418,7 @@ options
 extraWarningsOption
 )
 ;
-ParseContext
+SourceParseContext
 globalpc
 (
 this
@@ -13103,7 +13103,7 @@ EvalSharedContext
 evalsc
 )
 {
-ParseContext
+SourceParseContext
 evalpc
 (
 this
@@ -13675,7 +13675,7 @@ GlobalSharedContext
 globalsc
 )
 {
-ParseContext
+SourceParseContext
 globalpc
 (
 this
@@ -13884,7 +13884,7 @@ MOZ_ASSERT
 checkOptionsCalled
 )
 ;
-ParseContext
+SourceParseContext
 modulepc
 (
 this
@@ -15921,7 +15921,7 @@ initStandaloneFunction
 enclosingScope
 )
 ;
-ParseContext
+SourceParseContext
 funpc
 (
 this
@@ -21703,7 +21703,7 @@ case
 outerpc
 is
 a
-ParseContext
+SourceParseContext
 from
 the
 full
@@ -21730,7 +21730,7 @@ a
 new
 ParseContext
 .
-ParseContext
+SourceParseContext
 funpc
 (
 this
@@ -21858,7 +21858,7 @@ case
 outerpc
 is
 a
-ParseContext
+SourceParseContext
 from
 the
 full
@@ -22153,7 +22153,7 @@ newDirectives
 =
 directives
 ;
-ParseContext
+SourceParseContext
 funpc
 (
 this
@@ -51514,7 +51514,7 @@ outerpc
 Expression
 )
 ;
-ParseContext
+SourceParseContext
 genpc
 (
 this
