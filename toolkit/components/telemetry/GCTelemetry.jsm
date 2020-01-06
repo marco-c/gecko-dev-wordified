@@ -136,7 +136,7 @@ We
 always
 save
 the
-five
+two
 GCs
 with
 the
@@ -146,7 +146,7 @@ max_pause
 time
 .
 Additionally
-five
+two
 collections
 are
 selected
@@ -182,7 +182,7 @@ GC
 has
 a
 *
-5
+2
 *
 C
 /
@@ -195,13 +195,13 @@ selected
 the
 factor
 of
-5
+2
 is
 because
 we
 *
 save
-5
+two
 of
 them
 )
@@ -691,7 +691,7 @@ data
 /
 Save
 the
-5
+2
 worst
 GCs
 based
