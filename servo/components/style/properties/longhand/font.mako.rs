@@ -17891,13 +17891,13 @@ get_font
 gecko
 (
 )
-&
-*
 cx
 .
 device
 .
 pres_context
+(
+)
 )
 }
 let

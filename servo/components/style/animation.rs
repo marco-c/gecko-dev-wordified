@@ -3647,13 +3647,6 @@ stylist
 device
 (
 )
-/
-*
-is_root
-=
-*
-/
-false
 iter
 previous_style
 previous_style

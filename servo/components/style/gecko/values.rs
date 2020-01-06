@@ -3298,14 +3298,11 @@ set_symbols
 let
 pres_context
 =
-unsafe
-{
-&
-*
 device
 .
 pres_context
-}
+(
+)
 ;
 match
 self

@@ -106,6 +106,7 @@ properties
 :
 :
 {
+IS_ROOT_ELEMENT
 SKIP_ROOT_AND_ITEM_BASED_DISPLAY_FIXUP
 StyleBuilder
 }
@@ -215,9 +216,6 @@ StyleBuilder
 '
 b
 >
-is_root_element
-:
-bool
 }
 impl
 <
@@ -261,9 +259,6 @@ StyleBuilder
 '
 b
 >
-is_root_element
-:
-bool
 )
 -
 >
@@ -274,9 +269,6 @@ StyleAdjuster
 style
 :
 style
-is_root_element
-:
-is_root_element
 }
 }
 /
@@ -584,9 +576,12 @@ SKIP_ROOT_AND_ITEM_BASED_DISPLAY_FIXUP
 blockify_if
 !
 (
-self
+flags
 .
-is_root_element
+contains
+(
+IS_ROOT_ELEMENT
+)
 )
 ;
 blockify_if
@@ -666,9 +661,12 @@ display
 .
 equivalent_block_display
 (
-self
+flags
 .
-is_root_element
+contains
+(
+IS_ROOT_ELEMENT
+)
 )
 ;
 if
