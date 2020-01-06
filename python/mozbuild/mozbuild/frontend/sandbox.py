@@ -788,9 +788,6 @@ __init__
 (
 self
 context
-builtins
-=
-None
 finder
 =
 default_finder
@@ -816,8 +813,6 @@ self
 .
 _builtins
 =
-builtins
-or
 self
 .
 BUILTINS
