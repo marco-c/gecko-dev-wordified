@@ -265,7 +265,7 @@ column
 \
 "
 :
-2
+3
 }
 \
 "
@@ -413,7 +413,7 @@ line
 column
 "
 :
-2
+3
 }
 "
 groupId
@@ -600,7 +600,7 @@ column
 \
 "
 :
-2
+3
 }
 \
 "
@@ -749,7 +749,7 @@ line
 column
 "
 :
-2
+3
 }
 "
 groupId
@@ -899,7 +899,7 @@ lineNumber
 columnNumber
 "
 :
-2
+3
 "
 category
 "
@@ -1083,7 +1083,7 @@ lineNumber
 columnNumber
 "
 :
-2
+3
 "
 category
 "
