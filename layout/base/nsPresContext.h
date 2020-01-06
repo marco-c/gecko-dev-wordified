@@ -4320,6 +4320,14 @@ POINTS_PER_INCH_FLOAT
 ;
 }
 nscoord
+PhysicalMillimetersToAppUnits
+(
+float
+aMM
+)
+const
+;
+nscoord
 RoundAppUnitsToNearestDevPixels
 (
 nscoord
