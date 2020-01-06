@@ -966,6 +966,7 @@ siteCol
 ;
 }
 10
+0
 )
 _lastSelectedRanges
 :
