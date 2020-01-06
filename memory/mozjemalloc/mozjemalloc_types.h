@@ -888,7 +888,7 @@ jemalloc_ptr_info_t
 ;
 static
 inline
-jemalloc_bool
+bool
 jemalloc_ptr_is_live
 (
 jemalloc_ptr_info_t
@@ -926,7 +926,7 @@ TagLiveHuge
 }
 static
 inline
-jemalloc_bool
+bool
 jemalloc_ptr_is_freed
 (
 jemalloc_ptr_info_t
@@ -982,7 +982,7 @@ TagFreedPageZeroed
 }
 static
 inline
-jemalloc_bool
+bool
 jemalloc_ptr_is_freed_page
 (
 jemalloc_ptr_info_t
