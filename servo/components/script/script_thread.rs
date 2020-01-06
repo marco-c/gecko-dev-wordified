@@ -911,15 +911,6 @@ jsval
 UndefinedValue
 ;
 use
-js
-:
-:
-rust
-:
-:
-Runtime
-;
-use
 malloc_size_of
 :
 :
@@ -1077,6 +1068,7 @@ script_runtime
 ScriptPort
 get_reports
 new_rt_and_cx
+Runtime
 }
 ;
 use
