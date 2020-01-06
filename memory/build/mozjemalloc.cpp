@@ -1930,6 +1930,14 @@ ifdef
 XP_WIN
 #
 define
+MALLOC_DECOMMIT
+#
+endif
+#
+ifdef
+XP_WIN
+#
+define
 STDERR_FILENO
 2
 /
@@ -1985,9 +1993,6 @@ return
 nullptr
 ;
 }
-#
-define
-MALLOC_DECOMMIT
 #
 endif
 #
