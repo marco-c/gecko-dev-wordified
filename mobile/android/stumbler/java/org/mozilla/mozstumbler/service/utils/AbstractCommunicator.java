@@ -580,15 +580,6 @@ Build
 VERSION
 .
 SDK_INT
->
-13
-&
-&
-Build
-.
-VERSION
-.
-SDK_INT
 <
 19
 )

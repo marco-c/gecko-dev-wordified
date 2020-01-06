@@ -364,18 +364,6 @@ SCREENLAYOUT_SIZE_MASK
 ;
 if
 (
-Build
-.
-VERSION
-.
-SDK_INT
->
-=
-11
-)
-{
-if
-(
 screenLayoutSize
 =
 =
@@ -437,7 +425,6 @@ sIsTelevision
 =
 true
 ;
-}
 }
 }
 sInited
