@@ -10106,7 +10106,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -10201,7 +10201,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -10309,7 +10309,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -10492,6 +10492,16 @@ PR_Free
 namestring
 )
 ;
+/
+/
+CERT_DerNameToAscii
+(
+)
+uses
+PR_Malloc
+(
+)
+.
 if
 (
 !
@@ -10513,7 +10523,7 @@ newitem
 data
 )
 {
-PR_Free
+free
 (
 newitem
 .
@@ -10534,7 +10544,7 @@ newitem
 data
 )
 {
-PR_Free
+free
 (
 newitem
 .

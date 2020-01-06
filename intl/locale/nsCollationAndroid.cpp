@@ -116,13 +116,6 @@ h
 "
 #
 include
-"
-prmem
-.
-h
-"
-#
-include
 <
 string
 .
@@ -331,7 +324,7 @@ void
 *
 buffer
 =
-PR_Malloc
+malloc
 (
 len
 )

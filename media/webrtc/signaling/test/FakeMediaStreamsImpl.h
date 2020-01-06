@@ -1090,7 +1090,7 @@ frame
 uint8_t
 *
 )
-PR_Malloc
+malloc
 (
 len
 )
@@ -1358,7 +1358,7 @@ uint32_t
 size
 )
 {
-PR_Free
+free
 (
 buffer
 )
@@ -1386,7 +1386,7 @@ return
 uint8_t
 *
 )
-PR_MALLOC
+malloc
 (
 size
 )

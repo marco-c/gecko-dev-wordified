@@ -143,13 +143,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsNPAPIPlugin
 .
 h

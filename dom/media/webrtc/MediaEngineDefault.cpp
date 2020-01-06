@@ -121,13 +121,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -764,7 +757,7 @@ frame
 uint8_t
 *
 )
-PR_Malloc
+malloc
 (
 yLen
 +
@@ -909,7 +902,7 @@ PlanarYCbCrData
 aData
 )
 {
-PR_Free
+free
 (
 aData
 .

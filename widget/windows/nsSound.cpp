@@ -212,13 +212,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsNativeCharsetUtils
 .
 h

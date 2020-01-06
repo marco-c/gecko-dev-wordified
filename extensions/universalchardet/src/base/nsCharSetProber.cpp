@@ -98,13 +98,6 @@ nsCharSetProber
 .
 h
 "
-#
-include
-"
-prmem
-.
-h
-"
 /
 /
 This
@@ -164,7 +157,7 @@ newBuf
 char
 *
 )
-PR_Malloc
+malloc
 (
 aLen
 )
@@ -467,7 +460,7 @@ newBuf
 char
 *
 )
-PR_Malloc
+malloc
 (
 aLen
 )

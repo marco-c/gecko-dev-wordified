@@ -314,13 +314,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

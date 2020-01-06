@@ -110,13 +110,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -700,10 +693,10 @@ is
 freed
 elsewhere
 with
-PR_Free
+free
 allocate
 with
-PR_Malloc
+malloc
 .
 uint8_t
 *
@@ -713,7 +706,7 @@ newKey
 uint8_t
 *
 )
-PR_Malloc
+malloc
 (
 keyLength
 +

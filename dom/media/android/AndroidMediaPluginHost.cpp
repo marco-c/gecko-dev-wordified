@@ -1318,6 +1318,16 @@ PR_Free
 path
 )
 ;
+/
+/
+PR_GetLibraryFilePathname
+(
+)
+uses
+PR_Malloc
+(
+)
+.
 int32_t
 slash
 =

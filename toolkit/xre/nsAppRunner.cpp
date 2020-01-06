@@ -372,13 +372,6 @@ endif
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

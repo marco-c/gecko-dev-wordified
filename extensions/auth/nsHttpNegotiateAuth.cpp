@@ -3403,6 +3403,16 @@ PR_Free
 encoded_token
 )
 ;
+/
+/
+PL_Base64Encode
+(
+)
+uses
+PR_Malloc
+(
+)
+.
 return
 rv
 ;

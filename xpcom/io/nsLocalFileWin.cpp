@@ -228,13 +228,6 @@ PR_ImportFile
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h

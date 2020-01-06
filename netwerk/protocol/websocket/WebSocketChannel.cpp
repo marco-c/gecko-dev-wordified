@@ -18377,6 +18377,14 @@ PR_Free
 b64
 )
 ;
+/
+/
+PL_Base64Encode
+(
+)
+uses
+PR_Malloc
+.
 rv
 =
 mHttpChannel

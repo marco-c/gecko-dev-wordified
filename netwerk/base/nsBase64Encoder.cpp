@@ -254,6 +254,16 @@ b64
 ;
 /
 /
+PL_Base64Encode
+(
+)
+uses
+PR_MALLOC
+(
+)
+.
+/
+/
 Free
 unneeded
 memory

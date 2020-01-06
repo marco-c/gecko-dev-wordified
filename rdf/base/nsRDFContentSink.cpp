@@ -4126,7 +4126,9 @@ thrashing
 /
 /
 Since
-PR_REALLOC
+realloc
+(
+)
 will
 leave
 mText

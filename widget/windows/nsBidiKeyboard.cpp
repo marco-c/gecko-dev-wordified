@@ -114,13 +114,6 @@ h
 "
 #
 include
-"
-prmem
-.
-h
-"
-#
-include
 <
 tchar
 .
@@ -611,7 +604,7 @@ HKL
 far
 *
 )
-PR_Malloc
+malloc
 (
 keyboards
 *
@@ -651,7 +644,7 @@ buf
 keyboards
 )
 {
-PR_Free
+free
 (
 buf
 )
@@ -756,7 +749,7 @@ true
 ;
 }
 }
-PR_Free
+free
 (
 buf
 )

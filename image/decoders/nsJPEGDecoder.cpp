@@ -584,10 +584,14 @@ jpeg_destroy_decompress
 mInfo
 )
 ;
-PR_FREEIF
+free
 (
 mBackBuffer
 )
+;
+mBackBuffer
+=
+nullptr
 ;
 if
 (
@@ -6148,7 +6152,7 @@ buf
 JOCTET
 *
 )
-PR_REALLOC
+realloc
 (
 decoder
 -
