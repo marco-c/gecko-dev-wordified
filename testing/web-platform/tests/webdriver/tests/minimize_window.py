@@ -157,16 +157,18 @@ session
 :
     
 assert
+not
 session
 .
-window
+execute_script
+(
+"
+return
+document
 .
-state
-=
-=
+hidden
 "
-normal
-"
+)
     
 #
 step
@@ -187,14 +189,15 @@ response
 assert
 session
 .
-window
+execute_script
+(
+"
+return
+document
 .
-state
-=
-=
+hidden
 "
-minimized
-"
+)
 def
 test_payload
 (
@@ -203,16 +206,18 @@ session
 :
     
 assert
+not
 session
 .
-window
+execute_script
+(
+"
+return
+document
 .
-state
-=
-=
+hidden
 "
-normal
-"
+)
     
 response
 =
@@ -287,13 +292,6 @@ in
 value
     
 assert
-"
-state
-"
-in
-value
-    
-assert
 isinstance
 (
 value
@@ -354,28 +352,17 @@ float
 )
     
 assert
-isinstance
-(
-value
-[
-"
-state
-"
-]
-basestring
-)
-    
-assert
 session
 .
-window
+execute_script
+(
+"
+return
+document
 .
-state
-=
-=
+hidden
 "
-minimized
-"
+)
 def
 test_minimize_twice_is_idempotent
 (
@@ -384,6 +371,7 @@ session
 :
     
 assert
+not
 session
 .
 execute_script
@@ -395,8 +383,6 @@ document
 hidden
 "
 )
-is
-False
     
 first_response
 =
@@ -422,8 +408,6 @@ document
 hidden
 "
 )
-is
-True
     
 second_response
 =
@@ -449,5 +433,3 @@ document
 hidden
 "
 )
-is
-True
