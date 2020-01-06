@@ -503,6 +503,13 @@ button
 [
 default
 ]
+:
+not
+(
+[
+alone
+]
+)
 {
 flex
 :
