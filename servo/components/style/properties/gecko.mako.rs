@@ -3563,7 +3563,7 @@ use
 values
 :
 :
-computed
+generics
 :
 :
 SVGPaintKind
