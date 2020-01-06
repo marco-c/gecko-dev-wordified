@@ -1047,8 +1047,8 @@ matching
 :
 {
 ElementSelectorFlags
-LocalMatchingContext
 MatchingContext
+MatchingMode
 RelevantLinkStatus
 }
 ;
@@ -20165,13 +20165,7 @@ _
 :
 &
 mut
-LocalMatchingContext
-<
-Self
-:
-:
-Impl
->
+MatchingContext
 _
 :
 &
