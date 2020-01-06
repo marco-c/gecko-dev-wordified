@@ -398,32 +398,6 @@ itervalues
 )
 )
             
-task_def
-[
-'
-schedulerId
-'
-]
-=
-'
-gecko
--
-level
--
-{
-}
-'
-.
-format
-(
-parameters
-[
-'
-level
-'
-]
-)
-            
 #
 actually
 create
@@ -437,6 +411,12 @@ slugid
 (
 )
 task_def
+parameters
+[
+'
+level
+'
+]
 )
         
 else
