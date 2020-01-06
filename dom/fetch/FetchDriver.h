@@ -164,7 +164,7 @@ mozilla
 /
 dom
 /
-FetchSignal
+AbortSignal
 .
 h
 "
@@ -428,7 +428,7 @@ nsIInterfaceRequestor
 public
 nsIThreadRetargetableStreamListener
 public
-FetchSignal
+AbortSignal
 :
 :
 Follower
@@ -462,7 +462,7 @@ aIsTrackingFetch
 nsresult
 Fetch
 (
-FetchSignal
+AbortSignal
 *
 aSignal
 FetchDriverObserver
@@ -504,7 +504,7 @@ aWorkerScirpt
 }
 /
 /
-FetchSignal
+AbortSignal
 :
 :
 Follower
