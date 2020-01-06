@@ -77,12 +77,6 @@ render_task
 :
 RenderTaskId
 ;
-use
-tiling
-:
-:
-RenderTargetKind
-;
 /
 *
 A
@@ -239,10 +233,6 @@ Option
 <
 RenderTaskId
 >
-pub
-kind
-:
-RenderTargetKind
 /
 /
 TODO
@@ -285,9 +275,6 @@ new_shadow
 shadow
 :
 Shadow
-kind
-:
-RenderTargetKind
 )
 -
 >
@@ -315,7 +302,6 @@ shadow
 render_task_id
 :
 None
-kind
 }
 }
 pub
