@@ -4032,6 +4032,10 @@ APP_VERSION
 PLATFORM_VERSION
 )
 ;
+finishAddonManagerStartup
+(
+)
+;
 /
 /
 Make

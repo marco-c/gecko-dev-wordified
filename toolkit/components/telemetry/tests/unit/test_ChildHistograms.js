@@ -887,6 +887,10 @@ TelemetryEnabled
 true
 )
 ;
+finishAddonManagerStartup
+(
+)
+;
 await
 TelemetryController
 .

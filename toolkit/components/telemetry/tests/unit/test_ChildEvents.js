@@ -532,6 +532,10 @@ APP_VERSION
 PLATFORM_VERSION
 )
 ;
+finishAddonManagerStartup
+(
+)
+;
 Services
 .
 prefs
