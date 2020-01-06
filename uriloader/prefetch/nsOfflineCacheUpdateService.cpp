@@ -1895,6 +1895,13 @@ gOfflineCacheUpdateService
 =
 nullptr
 ;
+delete
+mAllowedDomains
+;
+mAllowedDomains
+=
+nullptr
+;
 }
 nsresult
 nsOfflineCacheUpdateService
