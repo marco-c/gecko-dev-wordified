@@ -4270,7 +4270,7 @@ implemented
 }
 }
 void
-CodeGeneratorMIPS
+CodeGeneratorMIPS64
 :
 :
 visitSignExtendInt64
