@@ -1181,12 +1181,9 @@ value
 )
 ;
 }
-else
-{
 return
 argToString
 ;
-}
 }
 return
 arg
@@ -2778,9 +2775,11 @@ null
 |
 |
 !
+(
 targetType
 instanceof
 Type
+)
 )
 {
 throw
@@ -3638,8 +3637,6 @@ return
 projectLargeInt
 ;
 }
-else
-{
 LOG
 (
 "
@@ -3656,7 +3653,6 @@ return
 projectLargeUInt
 ;
 }
-}
 LOG
 (
 "
@@ -3672,7 +3668,6 @@ return
 projectValue
 ;
 }
-;
 exports
 .
 projectValue
@@ -4192,7 +4187,6 @@ this
 importFromC
 ;
 }
-;
 IntType
 .
 prototype
@@ -6181,7 +6175,6 @@ _candidates
 candidates
 ;
 }
-;
 Library
 .
 prototype
@@ -8271,7 +8264,6 @@ return
 bytes
 ;
 }
-;
 exports
 .
 normalizeBufferArgs

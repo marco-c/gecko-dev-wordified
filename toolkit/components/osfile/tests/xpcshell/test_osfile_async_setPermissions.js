@@ -190,8 +190,6 @@ slice
 )
 ;
 }
-else
-{
 return
 "
 0
@@ -204,7 +202,6 @@ toString
 8
 )
 ;
-}
 }
 const
 _umask

@@ -3649,7 +3649,6 @@ oldPref
 )
 ;
 }
-;
 /
 *
 *
@@ -9048,7 +9047,6 @@ tmpPath
 )
 ;
 }
-;
 if
 (
 isTypedArray
@@ -9078,7 +9076,6 @@ buffer
 byteLength
 ;
 }
-;
 let
 refObj
 =

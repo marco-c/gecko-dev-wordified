@@ -656,8 +656,6 @@ this
 _closeResult
 ;
 }
-return
-;
 }
 ;
 /
@@ -850,9 +848,9 @@ posix_fadvise
 =
 =
 =
-'
+"
 function
-'
+"
 &
 &
 (
@@ -2829,12 +2827,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 ;
 /
@@ -9038,7 +9033,6 @@ return
 date
 ;
 }
-;
 /
 *
 *
