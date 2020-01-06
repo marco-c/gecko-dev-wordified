@@ -244,12 +244,6 @@ var
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 TestCase
 (
 SECTION

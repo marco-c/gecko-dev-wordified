@@ -529,12 +529,6 @@ member
 expression
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

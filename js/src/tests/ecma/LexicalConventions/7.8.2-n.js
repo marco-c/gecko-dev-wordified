@@ -218,12 +218,6 @@ DESCRIPTION
 3
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

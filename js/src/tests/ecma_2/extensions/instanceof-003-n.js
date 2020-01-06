@@ -535,12 +535,6 @@ a
 function
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 InstanceOf
 (
 true

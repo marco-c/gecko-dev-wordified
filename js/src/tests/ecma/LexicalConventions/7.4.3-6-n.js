@@ -222,12 +222,6 @@ default
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

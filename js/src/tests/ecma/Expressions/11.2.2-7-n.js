@@ -487,12 +487,6 @@ STRING
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

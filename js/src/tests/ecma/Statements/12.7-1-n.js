@@ -175,12 +175,6 @@ DESCRIPTION
 continue
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

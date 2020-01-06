@@ -532,12 +532,6 @@ not
 defined
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

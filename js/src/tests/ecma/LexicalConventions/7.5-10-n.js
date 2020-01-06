@@ -200,12 +200,6 @@ hi
 "
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

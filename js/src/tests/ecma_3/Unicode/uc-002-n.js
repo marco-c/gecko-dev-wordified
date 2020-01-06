@@ -92,12 +92,6 @@ test
 .
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 enterFunc
 (
 "

@@ -250,11 +250,6 @@ r
 nb
 "
 ;
-EXPECTED
-=
-"
-error
-"
 new
 TestCase
 (

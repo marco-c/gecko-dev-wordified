@@ -242,12 +242,6 @@ break
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

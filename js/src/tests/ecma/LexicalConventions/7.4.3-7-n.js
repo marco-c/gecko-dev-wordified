@@ -320,12 +320,6 @@ extends
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 /
 /
 force

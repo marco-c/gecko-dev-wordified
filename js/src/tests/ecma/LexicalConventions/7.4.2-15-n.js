@@ -244,12 +244,6 @@ typeof
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

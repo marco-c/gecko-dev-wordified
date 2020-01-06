@@ -483,12 +483,6 @@ NUMBER
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

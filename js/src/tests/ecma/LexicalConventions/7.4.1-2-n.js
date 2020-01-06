@@ -186,12 +186,6 @@ true
 false
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

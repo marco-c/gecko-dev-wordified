@@ -244,12 +244,6 @@ else
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

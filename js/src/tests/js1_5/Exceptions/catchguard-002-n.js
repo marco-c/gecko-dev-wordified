@@ -93,12 +93,6 @@ error
 .
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 var
 expect
 ;

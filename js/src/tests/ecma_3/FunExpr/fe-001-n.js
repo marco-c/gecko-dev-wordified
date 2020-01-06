@@ -90,12 +90,6 @@ a
 ReferenceError
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 test
 (
 )

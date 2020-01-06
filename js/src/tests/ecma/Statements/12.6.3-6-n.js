@@ -530,12 +530,6 @@ side
 expression
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

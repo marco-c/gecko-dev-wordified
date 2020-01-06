@@ -320,12 +320,6 @@ enum
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 /
 /
 force

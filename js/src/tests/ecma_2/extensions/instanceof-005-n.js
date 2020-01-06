@@ -547,12 +547,6 @@ an
 object
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 InstanceOf
 (
 new

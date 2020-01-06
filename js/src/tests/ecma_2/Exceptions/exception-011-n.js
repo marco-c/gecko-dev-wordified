@@ -137,12 +137,6 @@ throw
 undefined
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

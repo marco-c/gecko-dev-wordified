@@ -288,12 +288,6 @@ import
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 /
 /
 force

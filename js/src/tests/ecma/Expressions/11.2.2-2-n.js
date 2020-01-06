@@ -474,12 +474,6 @@ UNDEFINED
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

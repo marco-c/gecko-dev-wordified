@@ -236,10 +236,6 @@ DESCRIPTION
 =
 summary
 ;
-EXPECTED
-=
-expect
-;
 printBugNumber
 (
 BUGNUMBER

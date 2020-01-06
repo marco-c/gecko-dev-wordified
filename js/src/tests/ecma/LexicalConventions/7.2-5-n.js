@@ -241,8 +241,6 @@ TITLE
 ;
 DESCRIPTION
 =
-EXPECTED
-=
 "
 error
 "

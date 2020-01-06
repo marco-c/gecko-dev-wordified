@@ -192,12 +192,6 @@ var
 1abc
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

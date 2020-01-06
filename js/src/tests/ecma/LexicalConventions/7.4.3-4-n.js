@@ -319,12 +319,6 @@ super
 =
 true
 "
-EXPECTED
-=
-"
-error
-"
-;
 /
 /
 force
