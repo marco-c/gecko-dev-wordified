@@ -158,6 +158,13 @@ compositor
 :
 IOCompositor
 ;
+pub
+use
+compositor
+:
+:
+ShutdownState
+;
 use
 euclid
 :
