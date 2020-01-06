@@ -158,6 +158,9 @@ DisplayListBuilder
 class
 ResourceUpdateQueue
 ;
+class
+IpcResourceUpdateQueue
+;
 }
 namespace
 layers
@@ -364,7 +367,7 @@ UpdateResources
 wr
 :
 :
-ResourceUpdateQueue
+IpcResourceUpdateQueue
 &
 aResources
 )
@@ -390,6 +393,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 gfx
 :
@@ -716,6 +725,15 @@ BeginClearCachedResources
 ;
 void
 EndClearCachedResources
+(
+)
+;
+ipc
+:
+:
+IShmemAllocator
+*
+GetShmemAllocator
 (
 )
 ;

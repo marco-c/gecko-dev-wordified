@@ -692,6 +692,15 @@ wr
 DisplayListBuilder
 &
 aBuilder
+mozilla
+:
+:
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 mozilla
 :

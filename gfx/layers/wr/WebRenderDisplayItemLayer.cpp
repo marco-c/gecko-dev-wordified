@@ -216,6 +216,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -308,6 +314,7 @@ mItem
 CreateWebRenderCommands
 (
 builder
+aResources
 aSc
 mParentCommands
 WrManager

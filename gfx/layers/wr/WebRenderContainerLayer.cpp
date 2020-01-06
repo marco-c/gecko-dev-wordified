@@ -277,6 +277,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -868,6 +874,7 @@ layer
 RenderLayer
 (
 aBuilder
+aResources
 sc
 )
 ;
@@ -885,6 +892,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
