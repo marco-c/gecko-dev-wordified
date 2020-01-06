@@ -1901,10 +1901,6 @@ mMimeType
 "
 video
 /
-webm
-;
-codecs
-=
 vp8
 "
 ;
@@ -1922,10 +1918,6 @@ mMimeType
 "
 video
 /
-webm
-;
-codecs
-=
 vp9
 "
 ;
@@ -1943,10 +1935,6 @@ mMimeType
 "
 video
 /
-webm
-;
-codecs
-=
 av1
 "
 ;
