@@ -2321,6 +2321,7 @@ re
 read
 on
 startup
+await
 ExtensionPermissions
 .
 _uninit
