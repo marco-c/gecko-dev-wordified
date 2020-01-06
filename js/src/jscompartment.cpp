@@ -453,6 +453,10 @@ warnedAboutForEach
 (
 false
 )
+warnedAboutLegacyGenerator
+(
+false
+)
 warnedAboutStringGenericsMethods
 (
 0
