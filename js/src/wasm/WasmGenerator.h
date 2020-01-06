@@ -842,6 +842,7 @@ UniqueChars
 const
 error_
 ;
+const
 Atomic
 <
 bool
@@ -1160,6 +1161,7 @@ args
 ModuleEnvironment
 *
 env
+const
 Atomic
 <
 bool

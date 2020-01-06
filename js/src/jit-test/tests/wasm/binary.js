@@ -3027,8 +3027,8 @@ declSection
 CompileError
 /
 expected
-function
-bodies
+code
+section
 /
 )
 ;

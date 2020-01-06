@@ -1238,9 +1238,9 @@ finished_
 CompileTier2
 (
 *
-module_
-*
 compileArgs_
+*
+module_
 &
 cancelled_
 )
@@ -3422,12 +3422,12 @@ UniqueChars
 error
 ;
 return
-CompileInitialTier
+CompileBuffer
 (
 *
-bytecode
-*
 args
+*
+bytecode
 &
 error
 )
