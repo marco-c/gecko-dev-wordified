@@ -359,6 +359,8 @@ setDesktopBackground
 (
 image
 position
+"
+"
 )
 ;
 ok
