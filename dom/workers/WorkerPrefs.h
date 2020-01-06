@@ -551,6 +551,16 @@ enabled
 FetchObserverEnabled
 FETCHOBSERVER_ENABLED
 )
+WORKER_SIMPLE_PREF
+(
+"
+privacy
+.
+resistFingerprinting
+"
+ResistFingerprintingEnabled
+RESISTFINGERPRINTING_ENABLED
+)
 WORKER_PREF
 (
 "
