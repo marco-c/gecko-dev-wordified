@@ -2899,7 +2899,7 @@ stream
 aBlob
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

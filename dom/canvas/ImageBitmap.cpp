@@ -6437,7 +6437,7 @@ Impl
 )
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

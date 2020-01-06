@@ -393,7 +393,7 @@ mLength
 }
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

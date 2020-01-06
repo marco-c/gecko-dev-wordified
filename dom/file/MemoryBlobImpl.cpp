@@ -347,7 +347,7 @@ void
 MemoryBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

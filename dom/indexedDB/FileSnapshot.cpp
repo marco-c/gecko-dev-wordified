@@ -771,7 +771,7 @@ void
 BlobImplSnapshot
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *
@@ -846,7 +846,7 @@ stream
 mBlobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

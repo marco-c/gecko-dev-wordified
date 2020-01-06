@@ -4395,7 +4395,7 @@ stream
 blobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (
@@ -4913,7 +4913,7 @@ StealNSResult
 blobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 aStream
 rv

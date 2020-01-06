@@ -1145,7 +1145,7 @@ inputStream
 aBlobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

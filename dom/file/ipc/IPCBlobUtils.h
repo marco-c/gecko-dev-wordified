@@ -412,7 +412,7 @@ a
 custom
 :
 :
-GetInternalStream
+CreateInputStream
 method
 .
 *

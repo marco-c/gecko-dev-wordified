@@ -416,7 +416,7 @@ void
 MultipartBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *
@@ -522,7 +522,7 @@ get
 blobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

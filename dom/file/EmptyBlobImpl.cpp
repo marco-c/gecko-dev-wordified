@@ -222,7 +222,7 @@ void
 EmptyBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

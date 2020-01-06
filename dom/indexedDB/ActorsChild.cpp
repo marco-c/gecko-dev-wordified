@@ -16255,7 +16255,7 @@ bytecodeFile
 mBlob
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (
@@ -16295,7 +16295,7 @@ compiledFile
 mBlob
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

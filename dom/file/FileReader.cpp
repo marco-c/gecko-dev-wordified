@@ -1825,7 +1825,7 @@ stream
 mBlob
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

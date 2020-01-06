@@ -280,7 +280,7 @@ void
 TemporaryBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

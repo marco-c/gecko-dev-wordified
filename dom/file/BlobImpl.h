@@ -473,7 +473,7 @@ const
 ;
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

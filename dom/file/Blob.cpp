@@ -1459,7 +1459,7 @@ void
 Blob
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *
@@ -1473,7 +1473,7 @@ aRv
 mImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 aStream
 aRv

@@ -445,7 +445,7 @@ nsIInputStream
 >
 stream
 ;
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

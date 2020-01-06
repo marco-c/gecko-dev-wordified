@@ -522,7 +522,7 @@ aRv
 )
 ;
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

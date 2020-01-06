@@ -287,7 +287,7 @@ override
 ;
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *
