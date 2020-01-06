@@ -180,14 +180,6 @@ focus
 this
 )
 ;
-this
-.
-searchInput
-.
-focus
-(
-)
-;
 }
 }
 handleEvent
