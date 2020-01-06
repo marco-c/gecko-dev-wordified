@@ -1181,6 +1181,7 @@ global_defines
 def
 serialize
 (
+name
 obj
 )
 :
@@ -1221,10 +1222,17 @@ Unhandled
 type
 %
 s
+for
+%
+s
 '
 type
 (
 obj
+)
+str
+(
+name
 )
 )
         
@@ -1260,6 +1268,7 @@ name
             
 serialize
 (
+name
 self
 .
 substs
