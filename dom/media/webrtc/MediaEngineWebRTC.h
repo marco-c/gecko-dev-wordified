@@ -3345,6 +3345,9 @@ settings
 MediaEnginePrefs
 mLastPrefs
 ;
+AlignedShortBuffer
+mInputDownmixBuffer
+;
 }
 ;
 class

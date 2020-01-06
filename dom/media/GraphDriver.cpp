@@ -3867,7 +3867,17 @@ channels
 =
 mInputChannels
 =
+std
+:
+:
+min
+<
+uint32_t
+>
+(
+8
 userChannels
+)
 ;
 }
 #
