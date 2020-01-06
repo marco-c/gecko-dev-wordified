@@ -57856,7 +57856,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-false
+true
 )
 ;
 pref
@@ -64973,7 +64973,7 @@ content
 description
 "
 "
-mozfullDesc
+mozfullDesc2
 "
 )
 ;

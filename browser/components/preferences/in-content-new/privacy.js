@@ -1882,7 +1882,7 @@ bundlePrefs
 getString
 (
 "
-savedLoginsExceptions_desc
+savedLoginsExceptions_desc2
 "
 )
 ]
@@ -1924,7 +1924,7 @@ bundlePrefs
 getString
 (
 "
-trackingprotectionpermissionstext
+trackingprotectionpermissionstext2
 "
 )
 ]
@@ -1966,7 +1966,7 @@ bundlePrefs
 getString
 (
 "
-popuppermissionstitle
+popuppermissionstitle2
 "
 )
 bundlePrefs
@@ -2016,7 +2016,7 @@ bundlePrefs
 getString
 (
 "
-addons_permissions_title
+addons_permissions_title2
 "
 )
 bundlePrefs
@@ -2058,7 +2058,7 @@ bundlePrefs
 getString
 (
 "
-siteDataSettings
+siteDataSettings2
 .
 description
 "
@@ -4095,7 +4095,7 @@ bundlePreferences
 getString
 (
 "
-trackingprotectionpermissionstext
+trackingprotectionpermissionstext2
 "
 )
 }
@@ -5566,7 +5566,7 @@ bundlePreferences
 getString
 (
 "
-popuppermissionstitle
+popuppermissionstitle2
 "
 )
 ;
@@ -5807,7 +5807,7 @@ bundlePrefs
 getString
 (
 "
-savedLoginsExceptions_desc
+savedLoginsExceptions_desc2
 "
 )
 }
@@ -7202,7 +7202,7 @@ bundlePrefs
 getString
 (
 "
-addons_permissions_title
+addons_permissions_title2
 "
 )
 ;

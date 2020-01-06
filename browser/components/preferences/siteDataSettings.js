@@ -466,7 +466,7 @@ _prefStrBundle
 getFormattedString
 (
 "
-siteDataSettings
+siteDataSettings2
 .
 description
 "

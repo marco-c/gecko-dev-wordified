@@ -3256,7 +3256,7 @@ bundlePreferences
 getString
 (
 "
-trackingprotectionpermissionstext
+trackingprotectionpermissionstext2
 "
 )
 }
