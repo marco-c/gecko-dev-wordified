@@ -124,6 +124,7 @@ let
 document
 store
 windowRequire
+connector
 }
 =
 monitor
@@ -371,6 +372,7 @@ Actions
 .
 sendCustomRequest
 (
+connector
 )
 )
 ;

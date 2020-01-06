@@ -91,6 +91,7 @@ test
 ;
 let
 {
+connector
 store
 windowRequire
 }
@@ -142,6 +143,14 @@ context
 menu
 "
 )
+;
+let
+{
+getLongString
+getTabTarget
+}
+=
+connector
 ;
 store
 .
@@ -226,6 +235,8 @@ new
 RequestListContextMenu
 (
 {
+getTabTarget
+getLongString
 }
 )
 ;
