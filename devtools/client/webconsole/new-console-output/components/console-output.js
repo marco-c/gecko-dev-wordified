@@ -441,7 +441,7 @@ nextProps
 .
 messages
 .
-length
+size
 -
 this
 .
@@ -449,7 +449,7 @@ props
 .
 messages
 .
-length
+size
 ;
 /
 /
