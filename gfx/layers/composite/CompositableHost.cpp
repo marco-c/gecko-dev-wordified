@@ -307,7 +307,7 @@ mTextureInfo
 (
 aTextureInfo
 )
-mCompositorID
+mCompositorBridgeID
 (
 0
 )

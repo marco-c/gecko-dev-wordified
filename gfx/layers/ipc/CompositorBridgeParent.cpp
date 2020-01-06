@@ -2253,7 +2253,7 @@ CompositorBridgeParent
 "
 )
 ;
-mCompositorID
+mCompositorBridgeID
 =
 0
 ;
@@ -2315,7 +2315,7 @@ NewRunnableFunction
 AddCompositor
 this
 &
-mCompositorID
+mCompositorBridgeID
 )
 )
 ;
@@ -3550,7 +3550,7 @@ StopAndClearResources
 ;
 RemoveCompositor
 (
-mCompositorID
+mCompositorBridgeID
 )
 ;
 mCompositionManager
@@ -7650,6 +7650,14 @@ LayerManagerComposite
 mCompositor
 )
 ;
+mLayerManager
+-
+>
+SetCompositorBridgeID
+(
+mCompositorBridgeID
+)
+;
 MonitorAutoLock
 lock
 (
@@ -7926,14 +7934,6 @@ failureReason
 }
 #
 endif
-compositor
--
->
-SetCompositorID
-(
-mCompositorID
-)
-;
 return
 compositor
 ;

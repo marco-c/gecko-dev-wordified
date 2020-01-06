@@ -3693,7 +3693,7 @@ Monitor
 mResumeCompositionMonitor
 ;
 uint64_t
-mCompositorID
+mCompositorBridgeID
 ;
 uint64_t
 mRootLayerTreeID
