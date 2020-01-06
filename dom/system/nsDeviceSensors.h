@@ -424,6 +424,14 @@ Length
 0
 ;
 }
+bool
+AreSensorEventsDisabled
+(
+nsIDOMWindow
+*
+aWindow
+)
+;
 mozilla
 :
 :
