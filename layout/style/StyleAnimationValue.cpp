@@ -27827,12 +27827,12 @@ forget
 }
 static
 bool
-StyleClipBasicShapeToCSSArray
+StyleShapeSourceToCSSArray
 (
 const
 StyleShapeSource
 &
-aClipPath
+aShapeSource
 nsCSSValue
 :
 :
@@ -27874,7 +27874,7 @@ StyleBasicShape
 *
 shape
 =
-aClipPath
+aShapeSource
 .
 GetBasicShape
 (
@@ -28585,7 +28585,7 @@ Item
 .
 SetEnumValue
 (
-aClipPath
+aShapeSource
 .
 GetReferenceBox
 (
@@ -30490,7 +30490,7 @@ Create
 if
 (
 !
-StyleClipBasicShapeToCSSArray
+StyleShapeSourceToCSSArray
 (
 clipPath
 result
