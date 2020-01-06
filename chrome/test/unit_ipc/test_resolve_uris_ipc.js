@@ -24,6 +24,12 @@ run_test
 (
 )
 {
+/
+*
+globals
+do_run_test
+*
+/
 load
 (
 "
