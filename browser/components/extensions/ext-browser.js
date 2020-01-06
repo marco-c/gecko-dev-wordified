@@ -3485,11 +3485,9 @@ if
 (
 browser
 .
-ownerGlobal
+ownerDocument
 .
-location
-.
-href
+documentURI
 =
 =
 =
