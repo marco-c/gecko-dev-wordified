@@ -225,9 +225,8 @@ public
 explicit
 HLSDemuxer
 (
-MediaResource
-*
-aResource
+int
+aPlayerId
 )
 ;
 RefPtr
@@ -376,12 +375,6 @@ TrackType
 HLSDemuxer
 (
 )
-;
-RefPtr
-<
-MediaResource
->
-mResource
 ;
 friend
 class
