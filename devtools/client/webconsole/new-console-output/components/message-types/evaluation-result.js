@@ -273,6 +273,7 @@ const
 {
 source
 type
+helperType
 level
 id
 :
@@ -377,6 +378,8 @@ escapeWhitespace
 :
 false
 loadedObjectProperties
+type
+helperType
 }
 )
 ;
