@@ -2120,6 +2120,8 @@ pointer
 T
 *
 tempValue
+=
+nullptr
 ;
 nsresult
 rv
