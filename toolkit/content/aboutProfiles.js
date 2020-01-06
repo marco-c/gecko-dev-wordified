@@ -1923,7 +1923,7 @@ break
 }
 profile
 .
-remove
+removeInBackground
 (
 deleteFiles
 )
