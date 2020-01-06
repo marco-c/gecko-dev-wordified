@@ -1213,6 +1213,17 @@ str
 >
 String
 {
+camel_case
+=
+camel_case
+.
+trim_right_matches
+(
+'
+_
+'
+)
+;
 let
 mut
 first
