@@ -55,6 +55,15 @@ js
 '
 )
 ;
+loadRelativeToScript
+(
+'
+dumpCFG
+.
+js
+'
+)
+;
 /
 /
 /
