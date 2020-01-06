@@ -21918,6 +21918,11 @@ nsIGlobalObject
 aEventObject
 DocumentFlavor
 aFlavor
+mozilla
+:
+:
+StyleBackendType
+aStyleBackend
 )
 ;
 /
@@ -21967,6 +21972,11 @@ aBaseURI
 nsIPrincipal
 *
 aPrincipal
+mozilla
+:
+:
+StyleBackendType
+aStyleBackend
 )
 ;
 nsresult

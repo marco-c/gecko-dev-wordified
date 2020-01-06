@@ -673,6 +673,12 @@ NodePrincipal
 true
 scriptHandlingObject
 DocumentFlavorLegacyGuess
+mOwner
+-
+>
+GetStyleBackendType
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1118,6 +1124,12 @@ NodePrincipal
 true
 scriptHandlingObject
 DocumentFlavorLegacyGuess
+mOwner
+-
+>
+GetStyleBackendType
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
