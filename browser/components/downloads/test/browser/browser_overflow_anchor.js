@@ -242,6 +242,7 @@ toolbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel

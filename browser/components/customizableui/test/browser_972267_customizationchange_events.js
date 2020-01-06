@@ -165,6 +165,7 @@ customizationchange
 handler
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel

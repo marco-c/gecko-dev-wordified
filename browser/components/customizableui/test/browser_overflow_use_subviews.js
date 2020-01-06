@@ -477,6 +477,7 @@ button
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
