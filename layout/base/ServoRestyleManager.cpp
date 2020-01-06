@@ -2964,10 +2964,6 @@ Unused
 Servo_TakeChangeHint
 (
 aElement
-ServoTraversalFlags
-:
-:
-Empty
 &
 wasRestyled
 )
@@ -4636,7 +4632,6 @@ changeHint
 Servo_TakeChangeHint
 (
 aElement
-aFlags
 &
 wasRestyled
 )
@@ -5292,7 +5287,6 @@ StyleSet
 ResolveServoStyle
 (
 aElement
-aFlags
 )
 ;
 MOZ_ASSERT

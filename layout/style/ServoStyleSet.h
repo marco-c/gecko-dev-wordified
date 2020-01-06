@@ -2392,8 +2392,6 @@ dom
 Element
 *
 aElement
-ServoTraversalFlags
-aFlags
 )
 ;
 bool

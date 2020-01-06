@@ -2122,11 +2122,6 @@ Servo_TakeChangeHint
 nsChangeHint
 RawGeckoElementBorrowed
 element
-mozilla
-:
-:
-ServoTraversalFlags
-flags
 bool
 *
 was_restyled
@@ -2139,11 +2134,6 @@ RawGeckoElementBorrowed
 element
 RawServoStyleSetBorrowed
 set
-mozilla
-:
-:
-ServoTraversalFlags
-flags
 )
 SERVO_BINDING_FUNC
 (
