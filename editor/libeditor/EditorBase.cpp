@@ -2557,6 +2557,14 @@ rv
 NS_OK
 )
 ;
+/
+/
+May
+be
+null
+in
+design
+mode
 nsCOMPtr
 <
 nsIContent
@@ -2574,7 +2582,6 @@ UpdateIMEState
 (
 newState
 content
-*
 this
 )
 ;
@@ -3662,7 +3669,6 @@ UpdateIMEState
 (
 newState
 content
-*
 this
 )
 ;
