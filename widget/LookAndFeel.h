@@ -2003,6 +2003,9 @@ eFont_Caption
 /
 /
 css2
+FontID_MINIMUM
+=
+eFont_Caption
 eFont_Icon
 eFont_Menu
 eFont_MessageBox
@@ -2025,6 +2028,9 @@ eFont_Tooltips
 /
 /
 moz
+eFont_Widget
+FontID_MAXIMUM
+=
 eFont_Widget
 }
 ;
