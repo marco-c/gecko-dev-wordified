@@ -1023,14 +1023,6 @@ the
 above
 DrainFlags
 *
-param
-aLineContainer
-the
-nearest
-line
-container
-ancestor
-*
 return
 true
 if
@@ -1046,9 +1038,6 @@ DrainSelfOverflowListInternal
 (
 DrainFlags
 aFlags
-nsIFrame
-*
-aLineContainer
 )
 ;
 protected
