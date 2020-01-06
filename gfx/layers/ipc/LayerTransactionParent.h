@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -1183,13 +1183,10 @@ LayerHandles
 to
 Layers
 .
-nsDataHashtable
+nsRefPtrHashtable
 <
 nsUint64HashKey
-RefPtr
-<
 Layer
->
 >
 mLayerMap
 ;
