@@ -8313,7 +8313,6 @@ length
 )
 ;
 }
-;
 }
 throw_on_null
 (

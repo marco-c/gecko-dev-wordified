@@ -9305,11 +9305,8 @@ _deprecatedCreationDate
 value
 :
 value
-[
-"
+.
 creationDate
-"
-]
 }
 )
 ;
