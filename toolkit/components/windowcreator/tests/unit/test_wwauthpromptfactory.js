@@ -270,7 +270,7 @@ application
 has
 /
 /
-nsIPromptService2
+nsIPromptService
 )
 var
 ww

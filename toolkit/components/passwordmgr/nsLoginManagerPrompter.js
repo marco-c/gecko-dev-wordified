@@ -1890,7 +1890,7 @@ getService
 (
 Ci
 .
-nsIPromptService2
+nsIPromptService
 )
 ;
 return

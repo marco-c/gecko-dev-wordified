@@ -226,11 +226,6 @@ interfaces
 *
 nsIPromptService
 *
-nsIPromptService2
-(
-optional
-)
-*
 *
 Embedders
 may
