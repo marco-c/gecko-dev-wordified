@@ -3565,7 +3565,10 @@ EffectCompositor
 GetServoAnimationRule
 /
 /
-Gecko_GetLookAndFeelSystemColor
+LookAndFeel
+:
+:
+GetColor
 /
 ]
 ;
