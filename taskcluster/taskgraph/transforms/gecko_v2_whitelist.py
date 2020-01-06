@@ -646,6 +646,14 @@ debug
 '
 win32
 -
+noopt
+-
+debug
+'
+    
+'
+win32
+-
 opt
 '
     
@@ -695,6 +703,14 @@ tidy
     
 '
 win64
+-
+debug
+'
+    
+'
+win64
+-
+noopt
 -
 debug
 '
