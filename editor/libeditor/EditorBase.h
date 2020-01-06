@@ -5279,6 +5279,14 @@ nsIContent
 outRightNode
 =
 nullptr
+nsCOMPtr
+<
+nsIDOMNode
+>
+*
+ioChildAtSplitPointOffset
+=
+nullptr
 )
 ;
 EditorDOMPoint
