@@ -129,10 +129,6 @@ limits
 >
 using
 namespace
-stagefright
-;
-using
-namespace
 mozilla
 ;
 using
