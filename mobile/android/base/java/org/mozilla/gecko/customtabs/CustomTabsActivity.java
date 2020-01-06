@@ -606,10 +606,10 @@ String
 mCurrentTitle
 ;
 private
-boolean
-mIsSecure
+SecurityInformation
+mSecurityInformation
 =
-false
+null
 ;
 Override
 public
@@ -2962,7 +2962,7 @@ update
 (
 mCurrentTitle
 mCurrentUrl
-mIsSecure
+mSecurityInformation
 )
 ;
 }
@@ -3590,11 +3590,9 @@ SecurityInformation
 securityInfo
 )
 {
-mIsSecure
+mSecurityInformation
 =
 securityInfo
-.
-isSecure
 ;
 updateActionBar
 (
