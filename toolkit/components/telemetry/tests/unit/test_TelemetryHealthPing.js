@@ -2154,6 +2154,13 @@ testReset
 (
 )
 ;
+await
+TelemetrySend
+.
+reset
+(
+)
+;
 PingServer
 .
 clearRequests
