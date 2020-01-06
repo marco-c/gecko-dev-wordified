@@ -34349,7 +34349,7 @@ aError
 )
 ;
 }
-float
+double
 nsGlobalWindow
 :
 :
@@ -34446,7 +34446,7 @@ overrideDPPX
 ;
 }
 return
-float
+double
 (
 nsPresContext
 :
@@ -34456,15 +34456,18 @@ AppUnitsPerCSSPixel
 )
 )
 /
+double
+(
 presContext
 -
 >
 AppUnitsPerDevPixel
 (
 )
+)
 ;
 }
-float
+double
 nsGlobalWindow
 :
 :

@@ -7646,7 +7646,7 @@ ErrorResult
 aError
 )
 ;
-float
+double
 GetDevicePixelRatioOuter
 (
 mozilla
@@ -7659,7 +7659,7 @@ CallerType
 aCallerType
 )
 ;
-float
+double
 GetDevicePixelRatio
 (
 mozilla
