@@ -380,13 +380,6 @@ widget
 Button
 ;
 import
-android
-.
-widget
-.
-ImageButton
-;
-import
 org
 .
 mozilla
