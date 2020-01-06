@@ -92,7 +92,7 @@ MPL
 #
 include
 "
-nsBidi_ICU
+nsBidi
 .
 h
 "
