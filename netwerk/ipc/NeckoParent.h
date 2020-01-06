@@ -1394,10 +1394,6 @@ const
 URIParams
 &
 aURI
-const
-LoadInfoArgs
-&
-aLoadInfo
 GetExtensionStreamResolver
 &
 &
@@ -1419,10 +1415,6 @@ const
 URIParams
 &
 aURI
-const
-OptionalLoadInfoArgs
-&
-aLoadInfo
 GetExtensionFDResolver
 &
 &
