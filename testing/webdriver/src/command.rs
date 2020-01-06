@@ -84,6 +84,7 @@ GoBack
 GoForward
 Refresh
 GetTitle
+GetPageSource
 GetWindowHandle
 GetWindowHandles
 Close
@@ -660,6 +661,16 @@ WebDriverCommand
 :
 :
 GetTitle
+Route
+:
+:
+GetPageSource
+=
+>
+WebDriverCommand
+:
+:
+GetPageSource
 Route
 :
 :
@@ -2256,6 +2267,11 @@ WebDriverCommand
 :
 :
 GetTitle
+|
+WebDriverCommand
+:
+:
+GetPageSource
 |
 WebDriverCommand
 :
