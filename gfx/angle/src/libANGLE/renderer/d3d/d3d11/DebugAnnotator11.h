@@ -65,9 +65,9 @@ LIBANGLE_RENDERER_D3D_D3D11_DEBUGANNOTATOR11_H_
 #
 include
 "
-common
+libANGLE
 /
-debug
+LoggingAnnotator
 .
 h
 "
@@ -78,10 +78,10 @@ class
 DebugAnnotator11
 :
 public
-gl
+angle
 :
 :
-DebugAnnotator
+LoggingAnnotator
 {
 public
 :

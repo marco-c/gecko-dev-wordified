@@ -729,7 +729,7 @@ EXPECT_PIXEL_EQ
 }
 /
 /
-FenceSync
+Sync
 objects
 should
 respond
@@ -793,7 +793,7 @@ error
 cases
 for
 all
-FenceSync
+Sync
 function
 TEST_P
 (

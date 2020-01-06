@@ -150,7 +150,8 @@ std
 string
 vertexShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -171,6 +172,7 @@ position
 ;
 }
 )
+"
 ;
 const
 std
@@ -179,7 +181,8 @@ std
 string
 fragmentShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -210,6 +213,7 @@ vec4
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -472,7 +476,8 @@ std
 string
 vertexShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -493,6 +498,7 @@ position
 ;
 }
 )
+"
 ;
 const
 std
@@ -501,7 +507,8 @@ std
 string
 fragmentShaderSource
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 highp
@@ -532,6 +539,7 @@ vec4
 ;
 }
 )
+"
 ;
 mProgram
 =

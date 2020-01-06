@@ -57,6 +57,17 @@ OutputGLSL
 .
 h
 "
+#
+include
+"
+compiler
+/
+translator
+/
+Compiler
+.
+h
+"
 namespace
 sh
 {
@@ -76,7 +87,7 @@ NameMap
 &
 nameMap
 TSymbolTable
-&
+*
 symbolTable
 sh
 :
@@ -283,6 +294,7 @@ TOutputGLSL
 :
 translateTextureFunction
 (
+const
 TString
 &
 name
@@ -333,8 +345,8 @@ textureCubeGradEXT
 "
 textureCubeGradARB
 "
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static
@@ -427,8 +439,8 @@ textureCubeGradEXT
 "
 textureGrad
 "
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 const
@@ -466,7 +478,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 ;
 i
 +

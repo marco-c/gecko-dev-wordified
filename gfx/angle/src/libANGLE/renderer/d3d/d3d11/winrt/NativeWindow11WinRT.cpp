@@ -472,6 +472,9 @@ else
 {
 ERR
 (
+)
+<
+<
 "
 Invalid
 IInspectable
@@ -488,7 +491,6 @@ ISwapChainPanel
 and
 IPropertySet
 "
-)
 ;
 }
 return

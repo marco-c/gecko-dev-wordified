@@ -360,7 +360,7 @@ setConfigAlphaBits
 ;
 setConfigDepthBits
 (
-8
+24
 )
 ;
 setConfigStencilBits
@@ -2277,10 +2277,10 @@ glPathCommandsCHROMIUM
 (
 path
 0
-NULL
+nullptr
 0
 GL_FLOAT
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2758,10 +2758,10 @@ glPathCommandsCHROMIUM
 (
 path
 0
-NULL
+nullptr
 0
 GL_FLOAT
-NULL
+nullptr
 )
 ;
 /
@@ -2944,7 +2944,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -2961,7 +2961,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -2973,11 +2973,11 @@ glCoverFillPathInstancedCHROMIUM
 (
 1
 GL_UNSIGNED_INT
-NULL
+nullptr
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -2994,7 +2994,7 @@ path
 0
 GL_UNSIGNED_INT
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3011,7 +3011,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_UNSIGNED_INT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3028,7 +3028,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3051,7 +3051,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3068,7 +3068,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3080,11 +3080,11 @@ glCoverStrokePathInstancedCHROMIUM
 (
 1
 GL_UNSIGNED_INT
-NULL
+nullptr
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3101,7 +3101,7 @@ path
 0
 GL_UNSIGNED_INT
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3118,7 +3118,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_UNSIGNED_INT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3135,7 +3135,7 @@ path
 0
 GL_CONVEX_HULL_CHROMIUM
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3159,7 +3159,7 @@ path
 GL_COUNT_UP_CHROMIUM
 0x0
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3177,7 +3177,7 @@ path
 GL_COUNT_UP_CHROMIUM
 0x0
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3189,12 +3189,12 @@ glStencilFillPathInstancedCHROMIUM
 (
 1
 GL_UNSIGNED_INT
-NULL
+nullptr
 0
 GL_COUNT_UP_CHROMIUM
 0x0
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3212,7 +3212,7 @@ path
 GL_UNSIGNED_INT
 0x0
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3230,7 +3230,7 @@ path
 GL_COUNT_UP_CHROMIUM
 0x2
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3248,7 +3248,7 @@ path
 GL_COUNT_UP_CHROMIUM
 0x0
 GL_UNSIGNED_INT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3266,7 +3266,7 @@ path
 GL_COUNT_UP_CHROMIUM
 0x0
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3290,7 +3290,7 @@ path
 0x00
 0x00
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3308,7 +3308,7 @@ path
 0x00
 0x00
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3325,7 +3325,7 @@ nullptr
 0x00
 0x00
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3343,7 +3343,7 @@ path
 0x00
 0x00
 GL_UNSIGNED_INT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3361,7 +3361,7 @@ path
 0x00
 0x00
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3386,7 +3386,7 @@ GL_COUNT_UP_CHROMIUM
 0
 GL_COUNT_UP_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3405,7 +3405,7 @@ GL_CONVEX_HULL_CHROMIUM
 0
 GL_COUNT_UP_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3417,13 +3417,13 @@ glStencilThenCoverFillPathInstancedCHROMIUM
 (
 1
 GL_UNSIGNED_INT
-NULL
+nullptr
 0
 GL_CONVEX_HULL_CHROMIUM
 0
 GL_COUNT_UP_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3442,7 +3442,7 @@ GL_UNSIGNED_INT
 0
 GL_COUNT_UP_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3461,7 +3461,7 @@ GL_CONVEX_HULL_CHROMIUM
 0
 GL_UNSIGNED_INT
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3480,7 +3480,7 @@ GL_CONVEX_HULL_CHROMIUM
 0
 GL_COUNT_UP_CHROMIUM
 GL_FLOAT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3499,7 +3499,7 @@ GL_CONVEX_HULL_CHROMIUM
 0
 GL_COUNT_UP_CHROMIUM
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3524,7 +3524,7 @@ path
 0x0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3543,7 +3543,7 @@ path
 0x0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3555,13 +3555,13 @@ glStencilThenCoverStrokePathInstancedCHROMIUM
 (
 1
 GL_UNSIGNED_INT
-NULL
+nullptr
 0
 0x0
 0x0
 GL_CONVEX_HULL_CHROMIUM
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3580,7 +3580,7 @@ path
 0x0
 GL_FLOAT
 GL_NONE
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3599,7 +3599,7 @@ path
 0x0
 GL_CONVEX_HULL_CHROMIUM
 GL_FLOAT
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3618,7 +3618,7 @@ path
 0x0
 GL_CONVEX_HULL_CHROMIUM
 GL_TRANSLATE_X_CHROMIUM
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -3743,7 +3743,7 @@ setConfigAlphaBits
 ;
 setConfigDepthBits
 (
-8
+24
 )
 ;
 setConfigStencilBits
@@ -6064,7 +6064,7 @@ setConfigAlphaBits
 ;
 setConfigDepthBits
 (
-8
+24
 )
 ;
 setConfigStencilBits
@@ -7460,7 +7460,7 @@ glBindFragmentInputLocationCHROMIUM
 (
 mProgram
 kFragColorLocation
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR
@@ -9383,7 +9383,7 @@ mProgram
 1
 GL_NONE
 0
-NULL
+nullptr
 )
 ;
 EXPECT_GL_ERROR

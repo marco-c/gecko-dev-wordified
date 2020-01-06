@@ -88,7 +88,7 @@ libANGLE
 /
 renderer
 /
-FenceSyncImpl
+SyncImpl
 .
 h
 "

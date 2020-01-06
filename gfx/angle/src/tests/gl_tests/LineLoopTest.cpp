@@ -117,7 +117,8 @@ std
 string
 vsSource
 =
-SHADER_SOURCE
+R
+"
 (
 attribute
 highp
@@ -136,6 +137,7 @@ position
 ;
 }
 )
+"
 ;
 const
 std
@@ -144,7 +146,8 @@ std
 string
 fsSource
 =
-SHADER_SOURCE
+R
+"
 (
 uniform
 highp
@@ -163,6 +166,7 @@ color
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -272,7 +276,7 @@ indexType
 GLuint
 indexBuffer
 const
-GLvoid
+void
 *
 indexPtr
 )
@@ -1151,6 +1155,8 @@ major
 version
 )
 these
+/
+/
 tests
 should
 be

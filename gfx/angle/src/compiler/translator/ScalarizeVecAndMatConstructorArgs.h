@@ -115,6 +115,9 @@ sh
 class
 TIntermBlock
 ;
+class
+TSymbolTable
+;
 void
 ScalarizeVecAndMatConstructorArgs
 (
@@ -128,10 +131,9 @@ GLenum
 shaderType
 bool
 fragmentPrecisionHigh
-unsigned
-int
+TSymbolTable
 *
-temporaryIndex
+symbolTable
 )
 ;
 }

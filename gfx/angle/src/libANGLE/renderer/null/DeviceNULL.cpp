@@ -127,9 +127,8 @@ return
 egl
 :
 :
-Error
+EglBadAccess
 (
-EGL_BAD_ACCESS
 )
 ;
 }

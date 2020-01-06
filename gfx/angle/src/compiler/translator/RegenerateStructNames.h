@@ -59,7 +59,7 @@ compiler
 /
 translator
 /
-Intermediate
+IntermTraverse
 .
 h
 "
@@ -92,9 +92,8 @@ public
 :
 RegenerateStructNames
 (
-const
 TSymbolTable
-&
+*
 symbolTable
 int
 shaderVersion
@@ -105,9 +104,6 @@ TIntermTraverser
 true
 false
 false
-)
-mSymbolTable
-(
 symbolTable
 )
 mShaderVersion
@@ -142,11 +138,6 @@ override
 ;
 private
 :
-const
-TSymbolTable
-&
-mSymbolTable
-;
 int
 mShaderVersion
 ;

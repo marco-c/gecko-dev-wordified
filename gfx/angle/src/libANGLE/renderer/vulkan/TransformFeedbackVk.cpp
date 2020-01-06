@@ -173,6 +173,9 @@ TransformFeedbackVk
 bindGenericBuffer
 (
 const
+gl
+:
+:
 BindingPointer
 <
 gl
@@ -198,6 +201,9 @@ bindIndexedBuffer
 size_t
 index
 const
+gl
+:
+:
 OffsetBindingPointer
 <
 gl

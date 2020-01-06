@@ -145,7 +145,7 @@ getWindowWidth
 getWindowHeight
 (
 )
-NULL
+nullptr
 GL_STATIC_DRAW
 )
 ;
@@ -160,7 +160,8 @@ char
 *
 vertexShaderSrc
 =
-SHADER_SOURCE
+R
+"
 (
 attribute
 vec4
@@ -204,13 +205,15 @@ gl_PointSize
 ;
 }
 )
+"
 ;
 const
 char
 *
 fragmentShaderSrc
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 mediump
@@ -231,6 +234,7 @@ vTest
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -257,7 +261,7 @@ glBufferData
 (
 GL_ARRAY_BUFFER
 128
-NULL
+nullptr
 GL_DYNAMIC_DRAW
 )
 ;
@@ -380,7 +384,7 @@ GL_ARRAY_BUFFER
 mPBO
 )
 ;
-GLvoid
+void
 *
 mappedPtr
 =
@@ -586,7 +590,7 @@ GL_RGBA
 GL_UNSIGNED_BYTE
 reinterpret_cast
 <
-GLvoid
+void
 *
 >
 (
@@ -594,7 +598,7 @@ GLvoid
 )
 )
 ;
-GLvoid
+void
 *
 mappedPtr
 =
@@ -767,6 +771,8 @@ major
 version
 )
 these
+/
+/
 tests
 should
 be

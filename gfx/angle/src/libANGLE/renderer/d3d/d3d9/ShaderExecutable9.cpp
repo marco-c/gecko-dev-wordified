@@ -122,7 +122,7 @@ executable
 ;
 mVertexExecutable
 =
-NULL
+nullptr
 ;
 }
 ShaderExecutable9
@@ -153,7 +153,7 @@ executable
 ;
 mPixelExecutable
 =
-NULL
+nullptr
 ;
 }
 ShaderExecutable9

@@ -96,7 +96,7 @@ init
 1
 &
 input
-NULL
+nullptr
 )
 )
 ;

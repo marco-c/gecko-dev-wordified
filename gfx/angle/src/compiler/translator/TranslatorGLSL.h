@@ -103,7 +103,7 @@ override
 void
 translate
 (
-TIntermNode
+TIntermBlock
 *
 root
 ShCompileOptions
@@ -141,6 +141,8 @@ writeExtensionBehavior
 TIntermNode
 *
 root
+ShCompileOptions
+compileOptions
 )
 ;
 void
