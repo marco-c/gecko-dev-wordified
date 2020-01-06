@@ -285,6 +285,12 @@ PaymentRequestUpdateEventInit
 aEventInitDict
 )
 ;
+/
+/
+Called
+by
+WebIDL
+constructor
 static
 already_AddRefed
 <
@@ -318,6 +324,14 @@ aPromise
 ErrorResult
 &
 aRv
+)
+;
+void
+SetRequest
+(
+PaymentRequest
+*
+aRequest
 )
 ;
 protected
