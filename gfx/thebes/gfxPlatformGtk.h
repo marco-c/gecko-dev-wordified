@@ -166,9 +166,6 @@ endif
 /
 MOZ_X11
 class
-gfxFontconfigUtils
-;
-class
 gfxPlatformGtk
 :
 public
@@ -672,11 +669,6 @@ endif
 MOZ_X11
 protected
 :
-static
-gfxFontconfigUtils
-*
-sFontconfigUtils
-;
 int8_t
 mMaxGenericSubstitutions
 ;
