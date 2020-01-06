@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-IDTracker
+nsReferencedElement
 .
 h
 "
