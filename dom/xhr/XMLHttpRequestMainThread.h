@@ -1749,10 +1749,10 @@ Abort
 (
 )
 {
-IgnoredErrorResult
+ErrorResult
 rv
 ;
-AbortInternal
+Abort
 (
 rv
 )
@@ -2621,14 +2621,6 @@ SuspendEventDispatching
 void
 ResumeEventDispatching
 (
-)
-;
-void
-AbortInternal
-(
-ErrorResult
-&
-aRv
 )
 ;
 struct
