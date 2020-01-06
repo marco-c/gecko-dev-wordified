@@ -329,10 +329,6 @@ XPCShell
 "
 )
 ;
-finishAddonManagerStartup
-(
-)
-;
 /
 /
 Make

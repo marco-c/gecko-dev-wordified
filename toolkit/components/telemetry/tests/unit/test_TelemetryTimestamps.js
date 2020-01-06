@@ -245,10 +245,6 @@ loadAddonManager
 (
 )
 ;
-finishAddonManagerStartup
-(
-)
-;
 /
 /
 Make
