@@ -140,22 +140,6 @@ task
 ;
 const
 {
-Class
-}
-=
-require
-(
-"
-sdk
-/
-core
-/
-heritage
-"
-)
-;
-const
-{
 RuleRewriter
 }
 =
@@ -1701,11 +1685,8 @@ setRuleText
 .
 *
 /
-var
+class
 RuleModificationList
-=
-Class
-(
 {
 /
 *
@@ -1726,9 +1707,7 @@ associated
 rule
 *
 /
-initialize
-:
-function
+constructor
 (
 rule
 )
@@ -1789,8 +1768,6 @@ modifyProperties
 *
 /
 apply
-:
-function
 (
 )
 {
@@ -1913,8 +1890,6 @@ important
 *
 /
 setProperty
-:
-function
 (
 index
 name
@@ -2024,8 +1999,6 @@ remove
 *
 /
 removeProperty
-:
-function
 (
 index
 name
@@ -2183,8 +2156,6 @@ property
 *
 /
 renameProperty
-:
-function
 (
 index
 name
@@ -2316,8 +2287,6 @@ disabled
 *
 /
 setPropertyEnabled
-:
-function
 (
 index
 name
@@ -2510,8 +2479,6 @@ disabled
 *
 /
 createProperty
-:
-function
 (
 )
 {
@@ -2521,5 +2488,3 @@ Nothing
 .
 }
 }
-)
-;
