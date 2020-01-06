@@ -2836,6 +2836,7 @@ GetGlobalObject
 (
 )
 ir
+nullptr
 )
 ;
 RequestOrUSVString

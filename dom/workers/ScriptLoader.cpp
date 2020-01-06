@@ -3403,6 +3403,7 @@ Global
 (
 )
 ir
+nullptr
 )
 ;
 mozilla

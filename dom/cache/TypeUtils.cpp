@@ -1764,6 +1764,7 @@ GetGlobalObject
 (
 )
 error
+nullptr
 )
 ;
 return
@@ -2135,6 +2136,7 @@ GetGlobalObject
 (
 )
 ir
+nullptr
 )
 ;
 return
@@ -2480,6 +2482,7 @@ GetGlobalObject
 (
 )
 internalRequest
+nullptr
 )
 ;
 return
