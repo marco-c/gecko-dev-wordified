@@ -94,6 +94,11 @@ WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_SNDIO_H
 #
 include
 <
+memory
+>
+#
+include
+<
 sndio
 .
 h
@@ -188,7 +193,7 @@ initializaton
 and
 termination
 virtual
-int32_t
+InitStatus
 Init
 (
 )
@@ -1036,10 +1041,10 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-rtc
+std
 :
 :
-scoped_refptr
+unique_ptr
 <
 rtc
 :
@@ -1048,10 +1053,10 @@ PlatformThread
 >
 _ptrThreadRec
 ;
-rtc
+std
 :
 :
-scoped_refptr
+unique_ptr
 <
 rtc
 :
