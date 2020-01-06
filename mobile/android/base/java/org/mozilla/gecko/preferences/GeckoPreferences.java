@@ -1148,7 +1148,7 @@ healthreport
 link
 "
 ;
-private
+public
 static
 final
 String
@@ -1164,7 +1164,7 @@ usb
 enabled
 "
 ;
-private
+public
 static
 final
 String
