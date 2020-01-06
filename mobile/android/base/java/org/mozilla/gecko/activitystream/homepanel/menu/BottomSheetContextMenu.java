@@ -319,10 +319,12 @@ final
 NavigationView
 navigationView
 ;
+private
 final
 View
 content
 ;
+private
 final
 View
 activityView
