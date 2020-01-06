@@ -169,8 +169,13 @@ const
 char
 *
 aMarkerName
+mozilla
+:
+:
+UniquePtr
+<
 ProfilerMarkerPayload
-*
+>
 aPayload
 =
 nullptr
@@ -189,7 +194,10 @@ aMarkerName
 )
 mPayload
 (
+Move
+(
 aPayload
+)
 )
 mTime
 (
