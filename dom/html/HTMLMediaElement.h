@@ -4013,15 +4013,6 @@ NotifyCueDisplayStatesChanged
 (
 )
 ;
-bool
-GetHasUserInteraction
-(
-)
-{
-return
-mHasUserInteraction
-;
-}
 /
 /
 A
