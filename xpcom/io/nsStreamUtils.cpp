@@ -375,10 +375,6 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 nsInputStreamReadyEvent
 (
-const
-char
-*
-aName
 nsIInputStreamCallback
 *
 aCallback
@@ -389,7 +385,9 @@ aTarget
 :
 CancelableRunnable
 (
-aName
+"
+nsInputStreamReadyEvent
+"
 )
 mCallback
 (
@@ -535,10 +533,6 @@ event
 =
 NS_NewInputStreamReadyEvent
 (
-"
-~
-nsInputStreamReadyEvent
-"
 mCallback
 mTarget
 )
@@ -1280,10 +1274,6 @@ nsIInputStreamCallback
 >
 NS_NewInputStreamReadyEvent
 (
-const
-char
-*
-aName
 nsIInputStreamCallback
 *
 aCallback
@@ -1319,7 +1309,6 @@ ev
 new
 nsInputStreamReadyEvent
 (
-aName
 aCallback
 aTarget
 )
