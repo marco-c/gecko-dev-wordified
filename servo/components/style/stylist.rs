@@ -11996,6 +11996,7 @@ element_map
 .
 malloc_size_of_children
 (
+malloc_size_of
 malloc_enclosing_size_of
 )
 ;
@@ -12037,6 +12038,7 @@ elem
 .
 malloc_size_of_children
 (
+malloc_size_of
 malloc_enclosing_size_of
 )
 }
@@ -12090,6 +12092,7 @@ invalidation_map
 .
 malloc_size_of_children
 (
+malloc_size_of
 malloc_enclosing_size_of
 )
 ;
@@ -12104,6 +12107,7 @@ selectors_for_cache_revalidation
 .
 malloc_size_of_children
 (
+malloc_size_of
 malloc_enclosing_size_of
 )
 ;
