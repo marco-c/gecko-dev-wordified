@@ -2102,7 +2102,6 @@ columnNumber
 }
 ;
 for
-mut
 stream
 in
 &

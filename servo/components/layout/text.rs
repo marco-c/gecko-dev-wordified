@@ -3400,7 +3400,6 @@ new_fragment
 =
 {
 let
-mut
 first_fragment
 =
 fragments

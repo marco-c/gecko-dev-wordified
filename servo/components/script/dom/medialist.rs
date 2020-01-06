@@ -535,7 +535,6 @@ write
 )
 ;
 let
-mut
 media_queries
 =
 self
@@ -1349,7 +1348,6 @@ write
 )
 ;
 let
-mut
 media_list
 =
 self

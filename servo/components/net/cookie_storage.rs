@@ -899,7 +899,6 @@ unwrap_or
 )
 ;
 let
-mut
 cookies
 =
 self

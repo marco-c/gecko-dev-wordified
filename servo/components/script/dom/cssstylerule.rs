@@ -878,7 +878,6 @@ write
 )
 ;
 let
-mut
 stylerule
 =
 self

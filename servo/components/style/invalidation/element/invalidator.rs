@@ -1166,7 +1166,6 @@ additional
 hints
 .
 let
-mut
 data
 =
 self

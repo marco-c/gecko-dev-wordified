@@ -3263,7 +3263,6 @@ StyleContext
 <
 Self
 >
-mut
 data
 :
 &

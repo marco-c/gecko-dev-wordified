@@ -394,7 +394,6 @@ not
 optimal
 .
 for
-mut
 anim
 in
 animations

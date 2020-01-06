@@ -3731,7 +3731,6 @@ is_script
 )
 ;
 let
-mut
 roots
 =
 &
@@ -3846,7 +3845,6 @@ is_script
 )
 ;
 let
-mut
 roots
 =
 &

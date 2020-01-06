@@ -286,7 +286,6 @@ hbs_opt_box
 for
 (
 _
-mut
 v
 )
 in
@@ -469,7 +468,6 @@ if
 let
 Some
 (
-mut
 h
 )
 =

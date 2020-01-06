@@ -971,7 +971,6 @@ iter_mut
 )
 {
 let
-mut
 kid_base
 =
 flow

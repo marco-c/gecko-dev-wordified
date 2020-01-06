@@ -1715,10 +1715,7 @@ owner
 mutate_associated_block
 (
 |
-ref
-mut
 pdb
-mut
 changed
 |
 {
@@ -2493,10 +2490,7 @@ owner
 mutate_associated_block
 (
 |
-ref
-mut
 pdb
-mut
 changed
 |
 {
@@ -2699,9 +2693,7 @@ owner
 mutate_associated_block
 (
 |
-mut
 pdb
-mut
 changed
 |
 {
@@ -3099,9 +3091,7 @@ owner
 mutate_associated_block
 (
 |
-mut
 pdb
-mut
 _changed
 |
 {

@@ -819,7 +819,6 @@ DOMString
 {
 /
 /
-/
 XXX
 :
 Second
@@ -835,7 +834,6 @@ is
 a
 temporary
 workaround
-/
 /
 /
 and

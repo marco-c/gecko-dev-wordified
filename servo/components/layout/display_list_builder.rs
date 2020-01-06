@@ -19675,7 +19675,6 @@ max_rect
 )
 ;
 for
-mut
 fragment
 in
 self

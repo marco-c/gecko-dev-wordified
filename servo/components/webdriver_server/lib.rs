@@ -6095,7 +6095,6 @@ WebDriverResponse
 >
 {
 let
-mut
 session
 =
 self

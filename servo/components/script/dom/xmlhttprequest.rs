@@ -5148,7 +5148,6 @@ if
 let
 Some
 (
-mut
 ct
 )
 =

@@ -460,7 +460,6 @@ sub_iter
 =
 {
 let
-mut
 nested_iter
 =
 self

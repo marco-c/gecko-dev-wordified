@@ -25422,7 +25422,6 @@ return
 }
 }
 let
-mut
 style
 =
 Arc

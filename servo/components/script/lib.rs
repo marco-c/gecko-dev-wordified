@@ -125,14 +125,6 @@ on_unimplemented
 [
 feature
 (
-option_entry
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
