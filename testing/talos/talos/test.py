@@ -3060,13 +3060,17 @@ signed
 xpi
 '
     
+cycles
+=
+5
+    
 tpcycles
 =
 1
     
 tppagecycles
 =
-25
+5
     
 tploadnocache
 =
