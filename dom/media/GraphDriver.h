@@ -3262,18 +3262,13 @@ down
 up
 mixed
 to
-stereo
-for
-now
+output
+channels
 .
 *
 /
-static
-const
 uint32_t
-ChannelCount
-=
-2
+mOuputChannels
 ;
 /
 *
@@ -3353,7 +3348,6 @@ AudioDataValue
 WEBAUDIO_BLOCK_SIZE
 *
 2
-ChannelCount
 >
 mScratchBuffer
 ;
@@ -3397,7 +3391,6 @@ thread
 AudioCallbackBufferWrapper
 <
 AudioDataValue
-ChannelCount
 >
 mBuffer
 ;

@@ -1761,11 +1761,7 @@ aSampleRate
 AudioNode
 (
 aContext
-aIsOffline
-?
 aNumberOfChannels
-:
-2
 ChannelCountMode
 :
 :
