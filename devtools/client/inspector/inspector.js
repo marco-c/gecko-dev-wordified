@@ -14683,9 +14683,8 @@ init
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >
