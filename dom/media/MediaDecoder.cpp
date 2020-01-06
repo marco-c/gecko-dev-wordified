@@ -2036,11 +2036,6 @@ PLAY_STATE_LOADING
 )
 INIT_CANONICAL
 (
-mNextState
-PLAY_STATE_PAUSED
-)
-INIT_CANONICAL
-(
 mLogicallySeeking
 false
 )
