@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -642,7 +642,7 @@ the
 rulers
 shown
 .
-events
+EventEmitter
 .
 once
 (

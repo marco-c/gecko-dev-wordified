@@ -185,7 +185,7 @@ flags
 )
 ;
 var
-EventEmitter
+OldEventEmitter
 =
 require
 (
@@ -730,7 +730,7 @@ lazyRequireGetter
 (
 this
 "
-events
+EventEmitter
 "
 "
 devtools
@@ -5071,7 +5071,7 @@ close
 "
 )
 ;
-events
+EventEmitter
 .
 off
 (
@@ -5253,7 +5253,7 @@ close
 "
 )
 ;
-events
+EventEmitter
 .
 on
 (
@@ -7395,7 +7395,7 @@ function
 (
 )
 {
-events
+EventEmitter
 .
 off
 (
@@ -7840,7 +7840,7 @@ the
 connection
 somehow
 .
-events
+EventEmitter
 .
 on
 (
@@ -9599,7 +9599,7 @@ AuthenticationResult
 }
 )
 ;
-EventEmitter
+OldEventEmitter
 .
 decorate
 (
@@ -12619,7 +12619,7 @@ _actorPool
 =
 null
 ;
-events
+EventEmitter
 .
 emit
 (

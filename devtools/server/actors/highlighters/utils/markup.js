@@ -99,10 +99,7 @@ utils
 )
 ;
 const
-{
-on
-emit
-}
+EventEmitter
 =
 require
 (
@@ -546,6 +543,8 @@ token
 )
 ;
 }
+EventEmitter
+.
 emit
 (
 this
@@ -593,6 +592,8 @@ index
 )
 ;
 }
+EventEmitter
+.
 emit
 (
 this
@@ -3475,6 +3476,8 @@ class
 )
 )
 ;
+EventEmitter
+.
 on
 (
 classList

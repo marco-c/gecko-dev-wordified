@@ -137,7 +137,7 @@ promises
 )
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -437,7 +437,7 @@ resolve
 =
 >
 {
-events
+EventEmitter
 .
 on
 (

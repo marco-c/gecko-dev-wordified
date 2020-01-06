@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -1071,7 +1071,7 @@ destroy
 (
 )
 ;
-events
+EventEmitter
 .
 emit
 (

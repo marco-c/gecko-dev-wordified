@@ -80,7 +80,7 @@ html
 "
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -955,7 +955,7 @@ navigate
 /
 navigate
 events
-events
+EventEmitter
 .
 on
 (
@@ -983,7 +983,7 @@ data
 }
 )
 ;
-events
+EventEmitter
 .
 on
 (

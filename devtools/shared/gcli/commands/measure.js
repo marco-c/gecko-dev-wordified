@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -650,7 +650,7 @@ measuring
 tool
 shown
 .
-events
+EventEmitter
 .
 once
 (

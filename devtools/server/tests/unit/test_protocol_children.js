@@ -83,7 +83,7 @@ RetVal
 protocol
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -758,7 +758,7 @@ function
 (
 )
 {
-events
+EventEmitter
 .
 emit
 (
@@ -771,7 +771,7 @@ event1
 3
 )
 ;
-events
+EventEmitter
 .
 emit
 (
@@ -784,7 +784,7 @@ event2
 6
 )
 ;
-events
+EventEmitter
 .
 emit
 (
@@ -799,7 +799,7 @@ event
 3
 )
 ;
-events
+EventEmitter
 .
 emit
 (
@@ -812,7 +812,7 @@ event
 this
 )
 ;
-events
+EventEmitter
 .
 emit
 (
