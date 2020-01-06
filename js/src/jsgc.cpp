@@ -50404,6 +50404,10 @@ get
 )
 )
 {
+if
+(
+cx_
+)
 cx_
 -
 >
@@ -50423,6 +50427,11 @@ AutoAssertNoGC
 (
 )
 {
+if
+(
+cx_
+)
+{
 MOZ_ASSERT
 (
 cx_
@@ -50440,6 +50449,7 @@ inUnsafeRegion
 -
 -
 ;
+}
 }
 #
 ifdef

@@ -3254,6 +3254,9 @@ JS_PUBLIC_API
 (
 AutoAssertNoAlloc
 )
+:
+public
+AutoRequireNoGC
 {
 #
 ifdef
