@@ -17,8 +17,10 @@ Copyright
 C
 )
 2017
-Robin
-Templeton
+Igalia
+S
+.
+L
 .
 All
 rights

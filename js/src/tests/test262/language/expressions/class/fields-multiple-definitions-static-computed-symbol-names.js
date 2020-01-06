@@ -79,6 +79,11 @@ multiple
 fields
 definitions
 )
+esid
+:
+prod
+-
+FieldDefinition
 features
 :
 [

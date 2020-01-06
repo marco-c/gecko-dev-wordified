@@ -90,7 +90,8 @@ of
 PatternCharacter
 :
 :
-SourceCharacterbut
+SourceCharacter
+but
 not
 SyntaxCharacter
 Although

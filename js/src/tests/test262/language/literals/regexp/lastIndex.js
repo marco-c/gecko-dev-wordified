@@ -50,15 +50,6 @@ runtime
 semantics
 -
 evaluation
-es6id
-:
-12
-.
-2
-.
-8
-.
-2
 description
 :
 Initial
