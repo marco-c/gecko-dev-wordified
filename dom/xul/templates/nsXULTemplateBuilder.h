@@ -2035,17 +2035,6 @@ void
 aClosure
 )
 ;
-nsresult
-IsSystemPrincipal
-(
-nsIPrincipal
-*
-principal
-bool
-*
-result
-)
-;
 /
 *
 *
