@@ -2567,7 +2567,7 @@ aContent
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
