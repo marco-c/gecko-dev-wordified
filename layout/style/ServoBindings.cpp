@@ -1477,9 +1477,12 @@ empty
 string
 value
 .
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 attr
+|
+|
 attr
 -
 >

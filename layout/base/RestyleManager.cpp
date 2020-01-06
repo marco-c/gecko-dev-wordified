@@ -10118,8 +10118,9 @@ i
 j
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aChangeList
 [
 j
@@ -10131,6 +10132,8 @@ mContent
 GetPrimaryFrame
 (
 )
+|
+|
 !
 aChangeList
 [

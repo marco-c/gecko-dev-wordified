@@ -26048,9 +26048,12 @@ MOZ_ASSERT
 aDocument
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aContainer
+|
+|
 aContainer
 -
 >
@@ -26075,10 +26078,11 @@ OwnerDoc
 aDocument
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-!
 aContainer
+|
+|
 aContent
 -
 >

@@ -1176,13 +1176,16 @@ children
 "
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 mSource
 .
 IsServoComputedValues
 (
 )
+|
+|
 !
 mCachedResetData
 )

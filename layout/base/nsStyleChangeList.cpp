@@ -455,11 +455,13 @@ Length
 i
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aContent
-&
-&
+|
+|
+!
 (
 (
 aHint
@@ -477,6 +479,8 @@ mHint
 &
 nsChangeHint_ReconstructFrame
 )
+|
+|
 (
 *
 this

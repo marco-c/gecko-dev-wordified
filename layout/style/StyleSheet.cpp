@@ -3618,10 +3618,11 @@ DocumentAssociationMode
 aAssociationMode
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-!
 aDocument
+|
+|
 aAssociationMode
 =
 =
