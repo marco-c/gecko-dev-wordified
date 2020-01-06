@@ -2184,12 +2184,14 @@ blocked
 StreamTime
 GraphTimeToStreamTimeWithBlocking
 (
+const
 MediaStream
 *
 aStream
 GraphTime
 aTime
 )
+const
 ;
 /
 *

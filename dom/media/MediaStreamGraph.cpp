@@ -2390,12 +2390,14 @@ MediaStreamGraphImpl
 :
 GraphTimeToStreamTimeWithBlocking
 (
+const
 MediaStream
 *
 aStream
 GraphTime
 aTime
 )
+const
 {
 MOZ_ASSERT
 (
@@ -13977,6 +13979,21 @@ return
 mGraph
 ;
 }
+const
+MediaStreamGraphImpl
+*
+MediaStream
+:
+:
+GraphImpl
+(
+)
+const
+{
+return
+mGraph
+;
+}
 MediaStreamGraph
 *
 MediaStream
@@ -14070,6 +14087,7 @@ GraphTimeToStreamTime
 GraphTime
 aTime
 )
+const
 {
 NS_ASSERTION
 (
@@ -14111,6 +14129,7 @@ StreamTimeToGraphTime
 StreamTime
 aTime
 )
+const
 {
 NS_ASSERTION
 (
@@ -14154,6 +14173,7 @@ GraphTimeToStreamTimeWithBlocking
 GraphTime
 aTime
 )
+const
 {
 return
 GraphImpl
@@ -14200,6 +14220,7 @@ FindTrack
 TrackID
 aID
 )
+const
 {
 return
 mTracks
@@ -20733,6 +20754,7 @@ GetNextInputInterval
 GraphTime
 aTime
 )
+const
 {
 InputInterval
 result
