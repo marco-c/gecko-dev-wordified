@@ -30621,12 +30621,8 @@ malloc_init
 )
 )
 {
-ret
-=
+return
 nullptr
-;
-goto
-RETURN
 ;
 }
 if
@@ -30668,8 +30664,6 @@ aAlignment
 aSize
 )
 ;
-RETURN
-:
 return
 ret
 ;
