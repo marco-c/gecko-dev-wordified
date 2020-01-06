@@ -1964,7 +1964,7 @@ property
 SERVO_BINDING_FUNC
 (
 Servo_DeclarationBlock_RemovePropertyById
-void
+bool
 RawServoDeclarationBlockBorrowed
 declarations
 nsCSSPropertyID

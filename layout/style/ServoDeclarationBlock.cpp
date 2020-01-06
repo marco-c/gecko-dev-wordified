@@ -334,7 +334,7 @@ property
 )
 ;
 }
-void
+bool
 ServoDeclarationBlock
 :
 :
@@ -348,6 +348,7 @@ AssertMutable
 (
 )
 ;
+return
 Servo_DeclarationBlock_RemovePropertyById
 (
 mRaw

@@ -1118,7 +1118,7 @@ name
 )
 ;
 }
-void
+bool
 Declaration
 :
 :
@@ -1169,6 +1169,11 @@ out
 "
 )
 ;
+bool
+removed
+=
+false
+;
 if
 (
 nsCSSProps
@@ -1198,6 +1203,8 @@ ClearLonghandProperty
 p
 )
 ;
+if
+(
 mOrder
 .
 RemoveElement
@@ -1211,7 +1218,13 @@ uint32_t
 p
 )
 )
+)
+{
+removed
+=
+true
 ;
+}
 }
 }
 else
@@ -1223,6 +1236,8 @@ ClearLonghandProperty
 aProperty
 )
 ;
+removed
+=
 mOrder
 .
 RemoveElement
@@ -1242,6 +1257,9 @@ CompressFrom
 &
 data
 )
+;
+return
+removed
 ;
 }
 bool

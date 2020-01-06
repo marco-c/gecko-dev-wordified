@@ -834,7 +834,7 @@ nsAString
 aProperty
 )
 ;
-void
+bool
 RemovePropertyByID
 (
 nsCSSPropertyID
