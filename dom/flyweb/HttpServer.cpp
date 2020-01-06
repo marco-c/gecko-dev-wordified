@@ -317,9 +317,9 @@ HttpServer
 :
 HttpServer
 (
-AbstractThread
+nsISerialEventTarget
 *
-aMainThread
+aEventTarget
 )
 :
 mPort
@@ -328,9 +328,9 @@ mPort
 mHttps
 (
 )
-mAbstractMainThread
+mEventTarget
 (
-aMainThread
+aEventTarget
 )
 {
 }
@@ -6764,7 +6764,7 @@ Then
 mServer
 -
 >
-mAbstractMainThread
+mEventTarget
 __func__
 [
 self
