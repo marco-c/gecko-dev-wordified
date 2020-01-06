@@ -5305,8 +5305,6 @@ extensions
 .
 screenshots
 .
-system
--
 disabled
 "
 true
