@@ -821,7 +821,7 @@ aValue
 override
 ;
 NS_IMETHOD
-Cancel
+CancelInterception
 (
 nsresult
 aStatus
@@ -1026,7 +1026,7 @@ aValue
 override
 ;
 NS_IMETHOD
-Cancel
+CancelInterception
 (
 nsresult
 aStatus

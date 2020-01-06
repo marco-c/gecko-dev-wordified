@@ -87901,7 +87901,7 @@ swm
 aChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_INTERCEPTION_FAILED
 )

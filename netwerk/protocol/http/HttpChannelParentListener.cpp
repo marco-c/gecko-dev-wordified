@@ -3112,7 +3112,7 @@ mInterceptedChannel
 mInterceptedChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_INTERCEPTION_FAILED
 )

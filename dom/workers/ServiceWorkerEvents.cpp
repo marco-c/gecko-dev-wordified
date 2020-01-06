@@ -800,7 +800,7 @@ SaveTimeStamps
 mChannel
 -
 >
-Cancel
+CancelInterception
 (
 mStatus
 )
@@ -1202,7 +1202,7 @@ loadInfo
 mChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_CONTENT_BLOCKED
 )
@@ -1294,7 +1294,7 @@ rv
 mChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_INTERCEPTION_FAILED
 )
@@ -1338,7 +1338,7 @@ rv
 mChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_INTERCEPTION_FAILED
 )
@@ -1463,7 +1463,7 @@ rv
 mChannel
 -
 >
-Cancel
+CancelInterception
 (
 NS_ERROR_INTERCEPTION_FAILED
 )
