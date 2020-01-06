@@ -91,6 +91,7 @@ jsm
 ;
 var
 {
+IconDetails
 watchExtensionProxyContextLoad
 }
 =
@@ -98,7 +99,6 @@ ExtensionParent
 ;
 var
 {
-IconDetails
 promiseEvent
 }
 =
