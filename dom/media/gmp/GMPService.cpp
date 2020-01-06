@@ -1628,9 +1628,12 @@ thread
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -1738,9 +1741,12 @@ mGMPThread
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
