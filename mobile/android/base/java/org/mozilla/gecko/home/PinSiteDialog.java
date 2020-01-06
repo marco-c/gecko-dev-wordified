@@ -341,6 +341,7 @@ GridView
 .
 *
 /
+public
 class
 PinSiteDialog
 extends
