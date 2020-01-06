@@ -1790,6 +1790,17 @@ below
 endif
 #
 ifdef
+PNG_eXIf_SUPPORTED
+int
+num_exif
+;
+png_bytep
+exif
+;
+#
+endif
+#
+ifdef
 PNG_hIST_SUPPORTED
 /
 *

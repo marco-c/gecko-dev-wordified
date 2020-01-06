@@ -23,11 +23,11 @@ libpng
 .
 6
 .
-26
+31
 [
-October
-20
-2016
+July
+27
+2017
 ]
 *
 Copyright
@@ -40,7 +40,7 @@ c
 2004
 2006
 -
-2016
+2017
 Glenn
 Randers
 -
@@ -1077,8 +1077,7 @@ mincount
 ;
 /
 *
-FALL
-THROUGH
+FALLTHROUGH
 *
 /
 case
@@ -1123,8 +1122,7 @@ mincount
 ;
 /
 *
-FALL
-THROUGH
+FALLTHROUGH
 *
 /
 case
