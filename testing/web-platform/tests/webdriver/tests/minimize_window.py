@@ -164,14 +164,6 @@ session
 )
 :
     
-before_size
-=
-session
-.
-window
-.
-size
-    
 assert
 session
 .
@@ -237,14 +229,6 @@ test_payload
 session
 )
 :
-    
-before_size
-=
-session
-.
-window
-.
-size
     
 assert
 session
