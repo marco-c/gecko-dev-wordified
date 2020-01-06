@@ -1277,7 +1277,7 @@ MOZ_ASSERT
 (
 IsProxy
 (
-aRawPtr
+aRefPtr
 )
 )
 ;
