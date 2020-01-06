@@ -394,7 +394,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_OUT_OF_MEMORY
+NS_ERROR_NULL_POINTER
 )
 ;
 \
