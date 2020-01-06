@@ -154,6 +154,7 @@ messages_seen
 }
 }
 function
+*
 do_cleanup
 (
 )

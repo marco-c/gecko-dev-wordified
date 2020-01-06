@@ -9375,7 +9375,7 @@ CompileOptions
 options
 (
 cx
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 options
@@ -9760,7 +9760,7 @@ behaviors
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 if
