@@ -1439,6 +1439,14 @@ ins
 )
 ;
 void
+visitClassConstructor
+(
+MClassConstructor
+*
+ins
+)
+;
+void
 visitLambda
 (
 MLambda

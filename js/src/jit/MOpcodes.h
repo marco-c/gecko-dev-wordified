@@ -879,6 +879,11 @@ StringReplace
 \
 _
 (
+ClassConstructor
+)
+\
+_
+(
 Lambda
 )
 \

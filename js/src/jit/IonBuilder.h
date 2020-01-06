@@ -4498,6 +4498,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_classconstructor
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_lambda
 (
 JSFunction

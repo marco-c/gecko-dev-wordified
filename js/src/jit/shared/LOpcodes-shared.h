@@ -1278,6 +1278,11 @@ NullarySharedStub
 \
 _
 (
+ClassConstructor
+)
+\
+_
+(
 Lambda
 )
 \
