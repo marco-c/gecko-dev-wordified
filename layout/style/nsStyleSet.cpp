@@ -1844,7 +1844,7 @@ PresShell
 >
 ClearArenaRefPtrs
 (
-eArenaObjectID_nsStyleContext
+eArenaObjectID_GeckoStyleContext
 )
 ;
 /

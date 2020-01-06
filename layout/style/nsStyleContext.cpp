@@ -10200,7 +10200,7 @@ PresShell
 >
 FreeByObjectID
 (
-eArenaObjectID_nsStyleContext
+eArenaObjectID_GeckoStyleContext
 this
 )
 ;

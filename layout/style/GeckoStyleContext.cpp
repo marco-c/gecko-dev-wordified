@@ -355,6 +355,17 @@ nsPresContext
 aPresContext
 )
 {
+MOZ_ASSERT
+(
+sz
+=
+=
+sizeof
+(
+GeckoStyleContext
+)
+)
+;
 /
 /
 Check
@@ -374,7 +385,7 @@ PresShell
 >
 AllocateByObjectID
 (
-eArenaObjectID_nsStyleContext
+eArenaObjectID_GeckoStyleContext
 sz
 )
 ;

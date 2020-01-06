@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsStyleContext
+GeckoStyleContext
 .
 h
 "
@@ -1454,7 +1454,7 @@ mRuleNodes
 break
 ;
 case
-eArenaObjectID_nsStyleContext
+eArenaObjectID_GeckoStyleContext
 :
 p
 =

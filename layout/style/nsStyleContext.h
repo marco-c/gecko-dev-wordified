@@ -548,7 +548,7 @@ return
 mozilla
 :
 :
-eArenaObjectID_nsStyleContext
+eArenaObjectID_GeckoStyleContext
 ;
 }
 nsIPresShell
