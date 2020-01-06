@@ -11902,9 +11902,6 @@ has
 been
 opened
 .
-gMediaCache
--
->
 QueueUpdate
 (
 )
@@ -12003,9 +12000,6 @@ to
 continue
 reading
 .
-gMediaCache
--
->
 QueueUpdate
 (
 )
