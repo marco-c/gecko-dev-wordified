@@ -2549,9 +2549,9 @@ aName
 ;
 already_AddRefed
 <
-ServoComputedValues
+ServoStyleContext
 >
-GetBaseComputedValuesForElement
+GetBaseContextForElement
 (
 dom
 :
@@ -2559,6 +2559,15 @@ dom
 Element
 *
 aElement
+nsStyleContext
+*
+aParentContext
+nsPresContext
+*
+aPresContext
+nsIAtom
+*
+aPseudoTag
 CSSPseudoElementType
 aPseudoType
 ServoComputedValuesBorrowed
