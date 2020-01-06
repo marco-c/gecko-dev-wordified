@@ -291,6 +291,14 @@ found
 "
 )
 ;
+let
+updates
+=
+waitForNetworkUpdates
+(
+toolbox
+)
+;
 /
 /
 Expand
@@ -303,10 +311,7 @@ click
 )
 ;
 await
-waitForNetworkUpdates
-(
-toolbox
-)
+updates
 ;
 await
 testNetworkMessage
