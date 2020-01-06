@@ -4775,6 +4775,20 @@ known
 stages
 .
 *
+param
+ignoreSettings
+whether
+we
+should
+check
+preferences
+for
+syncing
+over
+metered
+connections
+.
+*
 /
 public
 void
@@ -4788,6 +4802,8 @@ String
 [
 ]
 stagesToSkip
+boolean
+ignoreSettings
 )
 {
 FirefoxAccounts
@@ -4799,6 +4815,7 @@ getAndroidAccount
 )
 stagesToSync
 stagesToSkip
+ignoreSettings
 )
 ;
 }

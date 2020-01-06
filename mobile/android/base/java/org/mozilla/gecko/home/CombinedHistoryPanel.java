@@ -3903,6 +3903,7 @@ requestImmediateSync
 account
 STAGES_TO_SYNC_ON_REFRESH
 null
+true
 )
 ;
 }

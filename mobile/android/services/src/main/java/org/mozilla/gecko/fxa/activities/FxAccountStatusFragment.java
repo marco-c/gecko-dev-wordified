@@ -1834,6 +1834,7 @@ requestImmediateSync
 (
 null
 null
+true
 )
 ;
 }
@@ -5665,6 +5666,7 @@ requestImmediateSync
 (
 null
 null
+true
 )
 ;
 /
@@ -6455,6 +6457,7 @@ requestImmediateSync
 (
 STAGES_TO_SYNC_ON_DEVICE_NAME_CHANGE
 null
+true
 )
 ;
 hardRefresh
