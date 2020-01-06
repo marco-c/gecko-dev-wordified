@@ -4188,7 +4188,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlockIndex1
+e1
 )
 ;
 /
@@ -4232,7 +4232,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlockIndex2
+e2
 )
 ;
 }
