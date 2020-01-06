@@ -2480,6 +2480,7 @@ nsITimer
 .
 TYPE_ONE_SHOT
 )
+;
 /
 /
 If
@@ -3158,6 +3159,7 @@ command_id
 ;
 }
 }
+;
 /
 *
 *

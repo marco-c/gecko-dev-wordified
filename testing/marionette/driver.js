@@ -8654,6 +8654,7 @@ timeouts
 pageLoad
 }
 )
+;
 /
 /
 If
@@ -9176,6 +9177,7 @@ String
 )
 ;
 }
+;
 /
 *
 *
@@ -9397,6 +9399,7 @@ String
 )
 ;
 }
+;
 /
 *
 *
@@ -9781,6 +9784,7 @@ assert
 firefox
 (
 )
+;
 const
 win
 =
@@ -20891,6 +20895,7 @@ parameters
 value
 ;
 }
+;
 /
 *
 *
@@ -21210,6 +21215,7 @@ assert
 firefox
 (
 )
+;
 let
 quitSeen
 ;
@@ -21425,6 +21431,7 @@ assert
 firefox
 (
 )
+;
 let
 path
 =
@@ -21509,6 +21516,7 @@ assert
 firefox
 (
 )
+;
 let
 id
 =
@@ -22219,6 +22227,7 @@ id
 )
 ;
 }
+;
 /
 *
 *
@@ -22413,6 +22422,7 @@ id
 )
 ;
 }
+;
 /
 *
 *

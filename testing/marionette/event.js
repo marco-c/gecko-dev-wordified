@@ -3872,6 +3872,7 @@ symbolLockKey
 }
 ]
 }
+;
 for
 (
 let
