@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 mozilla
 /
 LinkedList
@@ -556,12 +549,7 @@ nsDocLoader
 aDocLoader
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
-(
-nsDocLoader
-nsIDocumentLoader
-)
+NS_DECL_ISUPPORTS
 NS_DECL_NSIDOCUMENTLOADER
 /
 /
