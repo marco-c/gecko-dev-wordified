@@ -10944,7 +10944,6 @@ sortedControls
 i
 ]
 )
-false
 )
 ;
 }

@@ -1761,13 +1761,6 @@ rules
 AppendElement
 (
 owningRule
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 }
@@ -2120,7 +2113,6 @@ Rule
 (
 rule
 )
-false
 )
 ;
 }
@@ -5950,7 +5942,6 @@ PrototypeBinding
 BindingURI
 (
 )
-false
 )
 ;
 binding

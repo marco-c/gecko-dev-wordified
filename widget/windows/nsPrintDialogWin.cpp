@@ -727,13 +727,6 @@ array
 AppendElement
 (
 psSupports
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 nsCOMPtr
@@ -766,13 +759,6 @@ array
 AppendElement
 (
 blkSupps
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 nsCOMPtr

@@ -581,7 +581,6 @@ propertyArray
 AppendElement
 (
 sprop
-false
 )
 ;
 }

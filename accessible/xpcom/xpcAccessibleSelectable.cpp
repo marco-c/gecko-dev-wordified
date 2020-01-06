@@ -289,7 +289,6 @@ idx
 ]
 )
 )
-false
 )
 ;
 NS_ADDREF

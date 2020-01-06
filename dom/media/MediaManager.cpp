@@ -15386,13 +15386,6 @@ devicesCopy
 AppendElement
 (
 device
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 if
@@ -20882,13 +20875,6 @@ array
 AppendElement
 (
 window
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 }

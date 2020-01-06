@@ -334,7 +334,6 @@ insertElementAt
 (
 str
 0
-false
 )
 ;
 do_check_eq
@@ -477,7 +476,6 @@ replaceElementAt
 (
 str
 0
-false
 )
 ;
 do_check_eq
@@ -522,7 +520,6 @@ arr
 length
 -
 1
-false
 )
 ;
 do_check_eq
@@ -571,7 +568,6 @@ replaceElementAt
 (
 str
 9
-false
 )
 ;
 do_check_eq

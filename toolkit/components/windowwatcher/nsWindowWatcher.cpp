@@ -2082,13 +2082,6 @@ singletonArray
 AppendElement
 (
 aArguments
-/
-*
-aWeak
-=
-*
-/
-false
 )
 ;
 NS_ENSURE_SUCCESS

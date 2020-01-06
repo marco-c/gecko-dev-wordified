@@ -389,13 +389,6 @@ array
 AppendElement
 (
 ifptr
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 array
@@ -404,13 +397,6 @@ array
 AppendElement
 (
 parameters
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 /

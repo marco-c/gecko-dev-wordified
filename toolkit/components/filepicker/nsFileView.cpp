@@ -2570,7 +2570,6 @@ fileArray
 AppendElement
 (
 curFile
-false
 )
 ;
 }

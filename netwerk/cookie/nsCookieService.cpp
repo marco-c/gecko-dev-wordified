@@ -15973,7 +15973,6 @@ removedList
 AppendElement
 (
 aCookie
-false
 )
 ;
 return
@@ -33697,7 +33696,6 @@ removedList
 AppendElement
 (
 cookie
-false
 )
 ;
 COOKIE_LOGEVICTED
@@ -34029,7 +34027,6 @@ removedList
 AppendElement
 (
 cookie
-false
 )
 ;
 COOKIE_LOGEVICTED

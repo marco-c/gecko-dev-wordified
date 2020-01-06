@@ -5085,13 +5085,6 @@ transArray
 AppendElement
 (
 transferable
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 }

@@ -984,7 +984,6 @@ invalidElements
 AppendElement
 (
 content
-false
 )
 ;
 NS_ENSURE_SUCCESS

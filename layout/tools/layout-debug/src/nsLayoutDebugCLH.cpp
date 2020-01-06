@@ -393,13 +393,6 @@ argsArray
 AppendElement
 (
 scriptableURL
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 }
