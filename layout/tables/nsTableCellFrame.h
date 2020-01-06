@@ -1309,6 +1309,7 @@ bool
 GetContentEmpty
 (
 )
+const
 ;
 void
 SetContentEmpty
@@ -1448,6 +1449,12 @@ InvalidateFrameSubtree
 )
 ;
 }
+bool
+ShouldPaintBordersAndBackgrounds
+(
+)
+const
+;
 protected
 :
 nsTableCellFrame
@@ -1695,6 +1702,7 @@ nsTableCellFrame
 GetContentEmpty
 (
 )
+const
 {
 return
 HasAnyStateBits
