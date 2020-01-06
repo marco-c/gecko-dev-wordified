@@ -512,10 +512,8 @@ Browser
 :
 Init
 "
-)
-{
-if
-(
+&
+&
 browser
 =
 =
@@ -534,7 +532,6 @@ _updateCurrentContentOuterWindowID
 browser
 )
 ;
-}
 }
 }
 /
