@@ -1355,11 +1355,9 @@ browser
 /
 skin
 /
-customizableui
-/
-customizeFavicon
+customize
 .
-ico
+svg
 "
 )
 ;
