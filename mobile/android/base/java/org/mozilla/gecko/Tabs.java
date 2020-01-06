@@ -500,7 +500,7 @@ mma
 .
 MmaDelegate
 .
-VISITING_A_WEBSITE_WITH_MATCH_TO_PAST_HISTORY
+REVISIT_WEBSITE
 ;
 public
 class
@@ -7478,7 +7478,7 @@ MmaDelegate
 .
 track
 (
-VISITING_A_WEBSITE_WITH_MATCH_TO_PAST_HISTORY
+REVISIT_WEBSITE
 history
 .
 visits
