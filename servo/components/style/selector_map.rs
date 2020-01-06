@@ -2136,10 +2136,9 @@ E
 quirks_mode
 :
 QuirksMode
+mut
 f
 :
-&
-mut
 F
 )
 -
@@ -2481,10 +2480,9 @@ additional_classes
 [
 Atom
 ]
+mut
 f
 :
-&
-mut
 F
 )
 -
@@ -2522,7 +2520,13 @@ lookup
 (
 element
 quirks_mode
+|
+entry
+|
 f
+(
+entry
+)
 )
 {
 return
