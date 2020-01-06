@@ -4089,7 +4089,7 @@ mEmitContextLostErrorOnce
 false
 ;
 return
-LOCAL_GL_CONTEXT_LOST
+LOCAL_GL_CONTEXT_LOST_WEBGL
 ;
 }
 /
