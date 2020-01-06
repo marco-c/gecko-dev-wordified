@@ -3613,7 +3613,7 @@ AsyncWaitRunnable
 final
 :
 public
-Runnable
+CancelableRunnable
 {
 RefPtr
 <
@@ -3631,7 +3631,7 @@ nsMultiplexInputStream
 aStream
 )
 :
-Runnable
+CancelableRunnable
 (
 "
 AsyncWaitRunnable
