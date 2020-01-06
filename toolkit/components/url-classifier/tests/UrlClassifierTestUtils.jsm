@@ -376,6 +376,11 @@ length
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 return

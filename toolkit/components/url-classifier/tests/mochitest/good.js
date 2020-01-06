@@ -1,3 +1,11 @@
+/
+*
+global
+scriptItem
+:
+true
+*
+/
 scriptItem
 =
 "
