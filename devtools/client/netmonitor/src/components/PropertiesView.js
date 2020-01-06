@@ -226,9 +226,7 @@ require
 "
 .
 /
-source
--
-editor
+SourceEditor
 "
 )
 )

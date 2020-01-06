@@ -153,9 +153,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

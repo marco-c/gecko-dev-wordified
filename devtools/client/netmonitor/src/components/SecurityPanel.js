@@ -152,9 +152,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

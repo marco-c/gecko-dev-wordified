@@ -231,9 +231,7 @@ src
 /
 components
 /
-tabbox
--
-panel
+TabboxPanel
 "
 )
 )

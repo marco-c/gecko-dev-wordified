@@ -185,9 +185,7 @@ require
 "
 .
 /
-mdn
--
-link
+MdnLink
 "
 )
 )

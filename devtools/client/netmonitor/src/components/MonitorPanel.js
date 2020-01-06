@@ -225,11 +225,7 @@ require
 "
 .
 /
-network
--
-details
--
-panel
+NetworkDetailsPanel
 "
 )
 )
@@ -244,9 +240,7 @@ require
 "
 .
 /
-request
--
-list
+RequestList
 "
 )
 )
@@ -261,7 +255,7 @@ require
 "
 .
 /
-toolbar
+Toolbar
 "
 )
 )

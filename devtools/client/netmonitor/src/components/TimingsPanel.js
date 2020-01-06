@@ -129,9 +129,7 @@ require
 "
 .
 /
-mdn
--
-link
+MdnLink
 "
 )
 ;
