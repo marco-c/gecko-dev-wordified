@@ -935,6 +935,10 @@ dom
 ;
 pub
 mod
+dom_apis
+;
+pub
+mod
 driver
 ;
 pub
