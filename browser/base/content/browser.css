@@ -851,7 +851,7 @@ tabbrowser
 )
 ;
 }
-.
+#
 tabbrowser
 -
 tabs
@@ -1402,7 +1402,7 @@ display
 none
 ;
 }
-.
+#
 tabbrowser
 -
 tabs
@@ -1449,7 +1449,7 @@ explicit
 *
 /
 }
-.
+#
 tabbrowser
 -
 tabs
@@ -1502,7 +1502,7 @@ tabdrop
 -
 samewindow
 ]
-.
+#
 tabbrowser
 -
 tabs
@@ -1585,7 +1585,7 @@ TabsToolbar
 movingtab
 ]
 >
-.
+#
 tabbrowser
 -
 tabs
