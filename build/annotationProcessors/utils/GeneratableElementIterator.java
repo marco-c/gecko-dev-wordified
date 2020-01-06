@@ -587,6 +587,13 @@ candidates
 i
 ]
 null
+/
+*
+ifdef
+*
+/
+"
+"
 )
 )
 ;
@@ -772,6 +779,13 @@ candidate
 getSimpleName
 (
 )
+/
+*
+ifdef
+*
+/
+"
+"
 )
 ;
 }

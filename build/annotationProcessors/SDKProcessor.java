@@ -3190,6 +3190,13 @@ ClassWithOptions
 (
 clazz
 generatedName
+/
+*
+ifdef
+*
+/
+"
+"
 )
 )
 ;
