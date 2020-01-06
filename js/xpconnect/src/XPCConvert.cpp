@@ -4702,6 +4702,9 @@ inline
 bool
 CreateHolderIfNeeded
 (
+JSContext
+*
+cx
 HandleObject
 obj
 MutableHandleValue
@@ -4734,6 +4737,7 @@ objHolder
 new
 XPCJSObjectHolder
 (
+cx
 obj
 )
 ;
@@ -5245,6 +5249,7 @@ false
 return
 CreateHolderIfNeeded
 (
+cx
 flat
 d
 dest
@@ -5341,6 +5346,7 @@ false
 return
 CreateHolderIfNeeded
 (
+cx
 flat
 d
 dest
@@ -5715,6 +5721,7 @@ objHolder
 new
 XPCJSObjectHolder
 (
+cx
 flat
 )
 ;
