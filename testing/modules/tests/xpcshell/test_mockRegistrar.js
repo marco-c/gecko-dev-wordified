@@ -127,16 +127,6 @@ nsIUserInfo
 )
 }
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 add_test
 (
 function
@@ -182,9 +172,6 @@ nsIUserInfo
 )
 }
 ;
-let
-userInfoCID
-=
 MockRegistrar
 .
 register
@@ -245,9 +232,6 @@ test_register_with_arguments
 (
 )
 {
-let
-userInfoCID
-=
 MockRegistrar
 .
 register
@@ -313,9 +297,6 @@ test_register_twice
 (
 )
 {
-let
-userInfoCID
-=
 MockRegistrar
 .
 register
@@ -367,9 +348,6 @@ originalname
 "
 )
 ;
-let
-newUserInfoCID
-=
 MockRegistrar
 .
 register

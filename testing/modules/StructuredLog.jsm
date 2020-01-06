@@ -1407,6 +1407,8 @@ statusInfo
 }
 result
 =
+result
++
 "
 |
 took
@@ -1421,6 +1423,9 @@ startTime
 "
 ms
 "
+;
+return
+result
 ;
 }
 suite_end
