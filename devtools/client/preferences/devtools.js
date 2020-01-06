@@ -701,7 +701,7 @@ shapesHighlighter
 .
 enabled
 "
-false
+true
 )
 ;
 /
