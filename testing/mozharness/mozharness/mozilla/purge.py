@@ -123,6 +123,8 @@ module
 import
 os
 import
+sys
+import
 mozharness
 external_tools_path
 =
@@ -432,14 +434,9 @@ cmd
 .
 append
 (
-self
+sys
 .
-query_exe
-(
-'
-python
-'
-)
+executable
 )
         
 #

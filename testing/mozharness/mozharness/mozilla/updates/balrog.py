@@ -4,6 +4,8 @@ import
 chain
 import
 os
+import
+sys
 from
 mozharness
 .
@@ -411,14 +413,9 @@ cmd
 =
 [
             
-self
+sys
 .
-query_exe
-(
-"
-python
-"
-)
+executable
             
 submitter_script
             
@@ -681,14 +678,9 @@ product
 cmd
 =
 [
-self
+sys
 .
-query_exe
-(
-"
-python
-"
-)
+executable
 os
 .
 path
@@ -1127,14 +1119,9 @@ cmd
 =
 [
             
-self
+sys
 .
-query_exe
-(
-"
-python
-"
-)
+executable
             
 submitter_script
             
