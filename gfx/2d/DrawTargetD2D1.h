@@ -1941,8 +1941,8 @@ See
 bug
 1293586
 )
-bool
-mDidComplexBlendWithListInList
+uint32_t
+mComplexBlendsWithListInList
 ;
 static
 StaticRefPtr
