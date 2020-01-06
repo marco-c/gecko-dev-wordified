@@ -312,7 +312,6 @@ specified
 :
 {
 Angle
-CSSColor
 Color
 Length
 LengthOrPercentage
@@ -329,6 +328,7 @@ specified
 Number
 NumberOrPercentage
 Percentage
+RGBAColor
 }
 ;
 use
@@ -463,7 +463,7 @@ LineDirection
 Length
 LengthOrPercentage
 Position
-CSSColor
+RGBAColor
 >
 ;
 /
@@ -607,7 +607,7 @@ GradientItem
 =
 GenericGradientItem
 <
-CSSColor
+RGBAColor
 LengthOrPercentage
 >
 ;
@@ -625,7 +625,7 @@ ColorStop
 =
 GenericColorStop
 <
-CSSColor
+RGBAColor
 LengthOrPercentage
 >
 ;
@@ -2986,7 +2986,7 @@ Err
 let
 color
 =
-CSSColor
+Color
 :
 :
 parse
@@ -2998,8 +2998,6 @@ i
 ;
 if
 color
-.
-parsed
 =
 =
 Color
@@ -3019,6 +3017,10 @@ Ok
 (
 (
 color
+.
+into
+(
+)
 p
 )
 )
@@ -3101,10 +3103,14 @@ GenericColorStop
 {
 color
 :
-CSSColor
+Color
 :
 :
 transparent
+(
+)
+.
+into
 (
 )
 position
@@ -3132,10 +3138,14 @@ GenericColorStop
 {
 color
 :
-CSSColor
+Color
 :
 :
 transparent
+(
+)
+.
+into
 (
 )
 position
@@ -5200,7 +5210,7 @@ color
 try
 !
 (
-CSSColor
+RGBAColor
 :
 :
 parse

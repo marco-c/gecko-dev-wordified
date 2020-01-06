@@ -1506,6 +1506,9 @@ background_color
 :
 :
 SpecifiedValue
+:
+:
+Numeric
 {
 authored
 :
@@ -1528,14 +1531,6 @@ parsed
 cssparser
 :
 :
-Color
-:
-:
-RGBA
-(
-cssparser
-:
-:
 RGBA
 :
 :
@@ -1545,7 +1540,6 @@ new
 0
 255
 255
-)
 )
 }
 )

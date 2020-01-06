@@ -1235,9 +1235,6 @@ False
 allowed_in_keyframe_block
 =
 True
-complex_color
-=
-False
 cast_type
 =
 '
@@ -1429,12 +1426,6 @@ or
 split
 (
 )
-        
-self
-.
-complex_color
-=
-complex_color
         
 self
 .

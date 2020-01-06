@@ -3348,10 +3348,6 @@ LineDirection
 repeating
 :
 bool
-style
-:
-&
-ServoComputedValues
 )
 -
 >
@@ -3389,10 +3385,6 @@ Position
 repeating
 :
 bool
-style
-:
-&
-ServoComputedValues
 )
 -
 >
@@ -4971,10 +4963,6 @@ GradientItem
 total_length
 :
 Au
-style
-:
-&
-ServoComputedValues
 )
 -
 >
@@ -5675,14 +5663,9 @@ offset
 offset
 color
 :
-style
-.
-resolve_color
-(
 stop
 .
 color
-)
 .
 to_gfx_color
 (
@@ -9406,10 +9389,6 @@ LineDirection
 repeating
 :
 bool
-style
-:
-&
-ServoComputedValues
 )
 -
 >
@@ -9855,7 +9834,6 @@ convert_gradient_stops
 (
 stops
 length
-style
 )
 ;
 /
@@ -9988,10 +9966,6 @@ Position
 repeating
 :
 bool
-style
-:
-&
-ServoComputedValues
 )
 -
 >
@@ -10176,7 +10150,6 @@ stops
 radius
 .
 width
-style
 )
 ;
 /
@@ -10450,7 +10423,6 @@ angle_or_corner
 gradient
 .
 repeating
-style
 )
 ;
 DisplayItem
@@ -10505,7 +10477,6 @@ center
 gradient
 .
 repeating
-style
 )
 ;
 DisplayItem
@@ -11259,7 +11230,6 @@ angle_or_corner
 gradient
 .
 repeating
-style
 )
 ;
 state
@@ -11365,7 +11335,6 @@ center
 gradient
 .
 repeating
-style
 )
 ;
 state

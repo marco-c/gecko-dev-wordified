@@ -109,7 +109,7 @@ color
 specified
 :
 :
-CSSColor
+Color
 :
 :
 parse
@@ -468,7 +468,7 @@ Result
 specified
 :
 :
-CSSColor
+Color
 specified
 :
 :
@@ -490,7 +490,7 @@ specified
 :
 :
 {
-CSSColor
+Color
 BorderStyle
 BorderSideWidth
 }
@@ -547,7 +547,7 @@ try
 |
 i
 |
-CSSColor
+Color
 :
 :
 parse
@@ -675,7 +675,7 @@ unwrap_or_else
 (
 |
 |
-CSSColor
+Color
 :
 :
 currentcolor

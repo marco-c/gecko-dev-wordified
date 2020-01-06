@@ -237,7 +237,7 @@ specified
 :
 :
 {
-CSSColor
+Color
 Position
 PositionComponent
 }
@@ -539,7 +539,7 @@ try
 |
 i
 |
-CSSColor
+Color
 :
 :
 parse
@@ -977,7 +977,7 @@ background_color
 .
 unwrap_or
 (
-CSSColor
+Color
 :
 :
 transparent

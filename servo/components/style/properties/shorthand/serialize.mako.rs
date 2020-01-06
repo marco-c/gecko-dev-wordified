@@ -72,7 +72,6 @@ specified
 {
 BorderStyle
 Color
-CSSColor
 }
 ;
 use
@@ -104,7 +103,7 @@ BorderStyle
 color
 :
 &
-CSSColor
+Color
 )
 -
 >
@@ -149,9 +148,8 @@ dest
 ?
 ;
 if
+*
 color
-.
-parsed
 !
 =
 Color
