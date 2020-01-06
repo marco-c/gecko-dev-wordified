@@ -3078,7 +3078,7 @@ c
 )
 ;
 return
-NewStringCopyN
+NewStringCopyNDontDeflate
 <
 CanGC
 >
