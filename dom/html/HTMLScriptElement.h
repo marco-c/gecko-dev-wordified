@@ -216,12 +216,6 @@ aInnerHTML
 )
 override
 ;
-using
-nsGenericHTMLElement
-:
-:
-SetInnerHTML
-;
 virtual
 void
 SetInnerHTML
