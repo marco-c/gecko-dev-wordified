@@ -11814,12 +11814,6 @@ annotations
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 void
 TelemetryImpl
 :
@@ -11859,8 +11853,6 @@ aKey
 ;
 }
 }
-#
-endif
 #
 endif
 nsresult

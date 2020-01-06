@@ -121,9 +121,6 @@ mozilla_AutoProfilerLabel_h
 define
 mozilla_AutoProfilerLabel_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -460,11 +457,6 @@ endif
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

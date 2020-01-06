@@ -817,9 +817,6 @@ JSObject
 aGlobal
 )
 :
-#
-ifdef
-MOZ_GECKO_PROFILER
 mAutoProfilerLabel
 (
 "
@@ -846,8 +843,6 @@ Category
 :
 JS
 )
-#
-endif
 mCx
 (
 aCx

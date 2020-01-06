@@ -63,9 +63,6 @@ PROFILERIOINTERPOSEOBSERVER_H
 define
 PROFILERIOINTERPOSEOBSERVER_H
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -147,11 +144,6 @@ ProfilerIOInterposeObserver
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

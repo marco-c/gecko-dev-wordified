@@ -3453,12 +3453,6 @@ profiler_get_backtrace
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 AutoProfilerLabel
 label1
 (
@@ -3510,8 +3504,6 @@ profiler_get_backtrace
 )
 )
 ;
-#
-endif
 profiler_stop
 (
 )

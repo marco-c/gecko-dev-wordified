@@ -5124,9 +5124,6 @@ Buffer
 ;
 #
 endif
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 A
@@ -5189,8 +5186,6 @@ dllName
 __LINE__
 )
 ;
-#
-endif
 #
 ifdef
 _M_AMD64

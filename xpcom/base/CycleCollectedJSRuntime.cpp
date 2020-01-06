@@ -6128,9 +6128,6 @@ abstractMarker
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 aProgress
@@ -6180,6 +6177,9 @@ profiler_is_active
 )
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 PROFILER_MARKER_PAYLOAD
 (
 "
@@ -6210,9 +6210,9 @@ aContext
 )
 )
 ;
-}
 #
 endif
+}
 if
 (
 self

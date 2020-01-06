@@ -8620,9 +8620,13 @@ bool
 aRunInGlobalScope
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
+if
+(
+profiler_is_active
+(
+)
+)
+{
 NS_LossyConvertUTF16toASCII
 urlCStr
 (
@@ -8654,8 +8658,7 @@ get
 )
 )
 ;
-#
-endif
+}
 if
 (
 !

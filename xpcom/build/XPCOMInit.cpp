@@ -5601,9 +5601,6 @@ created
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 In
@@ -5720,8 +5717,6 @@ profiler_clear_js_context
 (
 )
 ;
-#
-endif
 if
 (
 sInitializedJS
