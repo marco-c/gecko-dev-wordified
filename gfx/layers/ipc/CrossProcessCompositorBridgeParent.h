@@ -1000,6 +1000,7 @@ this
 )
 ;
 }
+virtual
 void
 DidComposite
 (
@@ -1012,6 +1013,7 @@ TimeStamp
 &
 aCompositeEnd
 )
+override
 ;
 virtual
 PTextureParent
