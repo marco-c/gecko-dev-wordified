@@ -924,10 +924,6 @@ tpmozafterpaint
 =
 True
     
-rss
-=
-False
-    
 mainthread
 =
 False
@@ -1596,9 +1592,6 @@ testeventmap
 '
 '
 base_vs_ref
-'
-'
-rss
 '
 '
 mainthread
@@ -3758,10 +3751,6 @@ tptimeout
 =
 5000
     
-rss
-=
-True
-    
 mainthread
 =
 True
@@ -4043,10 +4032,6 @@ tptimeout
 =
 5000
     
-rss
-=
-True
-    
 mainthread
 =
 False
@@ -4071,13 +4056,6 @@ win_counters
 =
 [
 '
-Main_RSS
-'
-'
-Private
-Bytes
-'
-'
 %
 Processor
 Time
@@ -4088,23 +4066,9 @@ w7_counters
 =
 [
 '
-Main_RSS
-'
-'
-Private
-Bytes
-'
-'
 %
 Processor
 Time
-'
-                   
-'
-Modified
-Page
-List
-Bytes
 '
 ]
     
@@ -4112,23 +4076,13 @@ linux_counters
 =
 [
 '
-Private
-Bytes
-'
-'
 XRes
-'
-'
-Main_RSS
 '
 ]
     
 mac_counters
 =
 [
-'
-Main_RSS
-'
 ]
     
 responsiveness
