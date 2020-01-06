@@ -239,10 +239,6 @@ self
 -
 >
 nsCString
-<
-'
-static
->
 ;
 }
 impl
@@ -326,10 +322,6 @@ self
 -
 >
 nsCString
-<
-'
-static
->
 {
 let
 mut
