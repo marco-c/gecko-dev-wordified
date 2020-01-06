@@ -2838,8 +2838,6 @@ wr
 LayoutSize
 &
 aContentSize
-size_t
-aCapacity
 )
 :
 mMaskClipCount
@@ -2858,7 +2856,6 @@ wr_state_new
 (
 aId
 aContentSize
-aCapacity
 )
 ;
 }

@@ -275,10 +275,6 @@ mPaintSequenceNumber
 (
 0
 )
-mLastDisplayListSize
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -4995,7 +4991,6 @@ GetPipeline
 (
 )
 contentSize
-mLastDisplayListSize
 )
 ;
 wr
@@ -5071,16 +5066,6 @@ Finalize
 contentSize
 mBuiltDisplayList
 )
-;
-mLastDisplayListSize
-=
-mBuiltDisplayList
-.
-dl
-.
-inner
-.
-capacity
 ;
 /
 /
