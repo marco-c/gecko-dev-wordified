@@ -346,14 +346,6 @@ nsIWebProgress
 NOTIFY_ALL
 )
 ;
-this
-.
-_filter
-.
-target
-=
-tabEventTarget
-;
 let
 webProgress
 =
