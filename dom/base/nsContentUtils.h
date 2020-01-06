@@ -20384,7 +20384,7 @@ sIsFrameTimingPrefEnabled
 ;
 static
 bool
-sIsExperimentalAutocompleteEnabled
+sIsFormAutofillAutocompleteEnabled
 ;
 static
 bool
