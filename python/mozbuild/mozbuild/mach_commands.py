@@ -3527,6 +3527,17 @@ txt
 "
 )
                 
+if
+os
+.
+path
+.
+exists
+(
+pathToThirdparty
+)
+:
+                    
 with
 open
 (
@@ -3535,7 +3546,7 @@ pathToThirdparty
 as
 f
 :
-                    
+                        
 #
 Normalize
 the
@@ -3545,7 +3556,7 @@ no
 trailing
 /
 )
-                    
+                        
 LOCAL_SUPPRESS_DIRS
 =
 tuple
@@ -3570,6 +3581,23 @@ read
 splitlines
 (
 )
+)
+                
+else
+:
+                    
+#
+For
+application
+based
+on
+gecko
+like
+thunderbird
+                    
+LOCAL_SUPPRESS_DIRS
+=
+(
 )
                 
 suppressed_by_dir
