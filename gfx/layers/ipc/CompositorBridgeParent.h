@@ -3715,12 +3715,6 @@ mApzcTreeManager
 ;
 RefPtr
 <
-CompositorThreadHolder
->
-mCompositorThreadHolder
-;
-RefPtr
-<
 CompositorVsyncScheduler
 >
 mCompositorScheduler

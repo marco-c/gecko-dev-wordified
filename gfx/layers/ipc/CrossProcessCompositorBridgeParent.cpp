@@ -3074,10 +3074,6 @@ DeferredDestroy
 (
 )
 {
-mCompositorThreadHolder
-=
-nullptr
-;
 mSelfRef
 =
 nullptr
