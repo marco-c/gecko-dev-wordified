@@ -15273,6 +15273,12 @@ JSPROP_GETTER
 )
 &
 &
+orig
+-
+>
+getter
+&
+&
 WrapperFactory
 :
 :
@@ -15300,6 +15306,12 @@ attrs
 &
 JSPROP_SETTER
 )
+&
+&
+orig
+-
+>
+setter
 &
 &
 WrapperFactory
