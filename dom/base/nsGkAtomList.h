@@ -796,6 +796,13 @@ lock
 )
 GK_ATOM
 (
+allowpaymentrequest
+"
+allowpaymentrequest
+"
+)
+GK_ATOM
+(
 allowpointerlock
 "
 allow

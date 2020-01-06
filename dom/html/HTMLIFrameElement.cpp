@@ -345,6 +345,12 @@ HTMLIFrameElement
 AllowFullscreen
 allowfullscreen
 )
+NS_IMPL_BOOL_ATTR
+(
+HTMLIFrameElement
+AllowPaymentRequest
+allowpaymentrequest
+)
 NS_IMPL_STRING_ATTR
 (
 HTMLIFrameElement
