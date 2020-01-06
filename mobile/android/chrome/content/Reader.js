@@ -1226,7 +1226,7 @@ drawable
 :
 /
 /
-reader_active
+ic_readermode_on
 "
 Strings
 .
@@ -1347,7 +1347,7 @@ drawable
 :
 /
 /
-reader
+ic_readermode
 "
 Strings
 .
