@@ -3401,6 +3401,10 @@ GetFormat
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImageBuffer
 (
 aImageKeys
@@ -3497,6 +3501,10 @@ A8
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
@@ -3518,6 +3526,10 @@ ExternalBuffer
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
@@ -3539,6 +3551,10 @@ ExternalBuffer
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
