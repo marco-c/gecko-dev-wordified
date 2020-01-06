@@ -603,16 +603,6 @@ return
 false
 ;
 }
-bool
-IsExpectingMoreData
-(
-)
-override
-{
-return
-false
-;
-}
 java
 :
 :
