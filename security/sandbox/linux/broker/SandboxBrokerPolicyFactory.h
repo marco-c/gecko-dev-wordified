@@ -183,9 +183,10 @@ SandboxBroker
 Policy
 *
 policy
-nsAdoptingCString
-&
-paths
+const
+char
+*
+aPathListPref
 int
 perms
 )

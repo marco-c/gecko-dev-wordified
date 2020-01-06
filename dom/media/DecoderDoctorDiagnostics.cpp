@@ -2629,9 +2629,9 @@ empty
 Disable
 everything
 .
-nsAdoptingCString
+nsAutoCString
 filter
-=
+;
 Preferences
 :
 :
@@ -2648,6 +2648,7 @@ notifications
 -
 allowed
 "
+filter
 )
 ;
 return
@@ -2799,9 +2800,9 @@ empty
 Disable
 everything
 .
-nsAdoptingCString
+nsAutoCString
 filter
-=
+;
 Preferences
 :
 :
@@ -2836,6 +2837,7 @@ warnings
 -
 allowed
 "
+filter
 )
 ;
 if
