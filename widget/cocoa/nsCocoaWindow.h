@@ -1992,6 +1992,15 @@ override
 ;
 virtual
 void
+SetWindowOpacity
+(
+float
+aOpacity
+)
+override
+;
+virtual
+void
 SetShowsToolbarButton
 (
 bool
