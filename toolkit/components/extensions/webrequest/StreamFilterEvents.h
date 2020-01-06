@@ -146,6 +146,17 @@ h
 #
 include
 "
+mozilla
+/
+extensions
+/
+StreamFilter
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
