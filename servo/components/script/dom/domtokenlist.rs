@@ -1390,7 +1390,6 @@ pos
 )
 ;
 }
-}
 /
 /
 Step
@@ -1409,6 +1408,7 @@ local_name
 atoms
 )
 ;
+}
 Ok
 (
 (
