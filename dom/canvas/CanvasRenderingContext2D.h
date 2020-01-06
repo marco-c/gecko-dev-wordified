@@ -1158,6 +1158,9 @@ aWinding
 bool
 IsPointInPath
 (
+JSContext
+*
+aCx
 double
 aX
 double
@@ -1171,6 +1174,9 @@ aWinding
 bool
 IsPointInPath
 (
+JSContext
+*
+aCx
 const
 CanvasPath
 &
@@ -1188,6 +1194,9 @@ aWinding
 bool
 IsPointInStroke
 (
+JSContext
+*
+aCx
 double
 aX
 double
@@ -1197,6 +1206,9 @@ aY
 bool
 IsPointInStroke
 (
+JSContext
+*
+aCx
 const
 CanvasPath
 &

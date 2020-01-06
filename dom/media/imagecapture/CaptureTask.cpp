@@ -897,6 +897,7 @@ type
 options
 false
 image
+false
 new
 EncodeComplete
 (
