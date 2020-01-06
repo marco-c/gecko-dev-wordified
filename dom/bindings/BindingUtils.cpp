@@ -22895,9 +22895,6 @@ DEBUG
 void
 SetDocumentAndPageUseCounter
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObject
