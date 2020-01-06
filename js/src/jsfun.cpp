@@ -6594,6 +6594,12 @@ setProperty
 *
 /
 fun_enumerate
+nullptr
+/
+*
+newEnumerate
+*
+/
 fun_resolve
 fun_mayResolve
 nullptr

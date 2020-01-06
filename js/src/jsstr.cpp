@@ -2802,6 +2802,12 @@ setProperty
 *
 /
 str_enumerate
+nullptr
+/
+*
+newEnumerate
+*
+/
 str_resolve
 str_mayResolve
 }

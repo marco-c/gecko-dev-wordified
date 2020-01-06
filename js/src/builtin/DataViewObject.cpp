@@ -5977,6 +5977,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /

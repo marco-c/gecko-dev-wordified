@@ -1885,6 +1885,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /
@@ -3612,6 +3618,12 @@ nullptr
 /
 *
 enumerate
+*
+/
+nullptr
+/
+*
+newEnumerate
 *
 /
 SimdObject

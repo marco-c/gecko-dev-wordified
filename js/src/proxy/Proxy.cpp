@@ -5259,6 +5259,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /
@@ -5360,12 +5366,6 @@ Proxy
 :
 :
 getElements
-nullptr
-/
-*
-enumerate
-*
-/
 Proxy
 :
 :

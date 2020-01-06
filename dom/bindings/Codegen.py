@@ -189,10 +189,10 @@ MAY_RESOLVE_HOOK_NAME
 '
 _mayResolve
 '
-ENUMERATE_HOOK_NAME
+NEW_ENUMERATE_HOOK_NAME
 =
 '
-_enumerate
+_newEnumerate
 '
 ENUM_ENTRY_VARIABLE_NAME
 =
@@ -3396,17 +3396,6 @@ classFlags
 JSCLASS_SKIP_NURSERY_FINALIZE
 "
         
-objectOps
-=
-"
-JS_NULL_OBJECT_OPS
-"
-        
-objectOpsString
-=
-"
-"
-        
 if
 self
 .
@@ -3436,128 +3425,9 @@ enumerateHook
 nullptr
 "
             
-objectOpsString
+newEnumerateHook
 =
-fill
-(
-                
-"
-"
-"
-                
-const
-js
-:
-:
-ObjectOps
-sInstanceObjectOps
-=
-{
-                  
-nullptr
-/
-*
-lookupProperty
-*
-/
-                  
-nullptr
-/
-*
-defineProperty
-*
-/
-                  
-nullptr
-/
-*
-hasProperty
-*
-/
-                  
-nullptr
-/
-*
-getProperty
-*
-/
-                  
-nullptr
-/
-*
-setProperty
-*
-/
-                  
-nullptr
-/
-*
-getOwnPropertyDescriptor
-*
-/
-                  
-nullptr
-/
-*
-deleteProperty
-*
-/
-                  
-nullptr
-/
-*
-watch
-*
-/
-                  
-nullptr
-/
-*
-unwatch
-*
-/
-                  
-nullptr
-/
-*
-getElements
-*
-/
-                  
-{
-enumerate
-}
-/
-*
-enumerate
-*
-/
-                  
-nullptr
-/
-*
-funToString
-*
-/
-                
-}
-;
-                
-"
-"
-"
-                
-enumerate
-=
-ENUMERATE_HOOK_NAME
-)
-            
-objectOps
-=
-"
-&
-sInstanceObjectOps
-"
+NEW_ENUMERATE_HOOK_NAME
         
 elif
 self
@@ -3604,6 +3474,12 @@ dom
 :
 EnumerateGlobal
 "
+            
+newEnumerateHook
+=
+"
+nullptr
+"
         
 else
 :
@@ -3625,6 +3501,12 @@ enumerateHook
 "
 nullptr
 "
+            
+newEnumerateHook
+=
+"
+nullptr
+"
         
 return
 fill
@@ -3633,11 +3515,6 @@ fill
 "
 "
 "
-            
-*
-{
-objectOpsString
-}
             
 static
 const
@@ -3685,6 +3562,15 @@ enumerate
 /
 *
 enumerate
+*
+/
+              
+{
+newEnumerate
+}
+/
+*
+newEnumerate
 *
 /
               
@@ -3805,9 +3691,7 @@ JS_NULL_CLASS_SPEC
 &
 sClassExtension
                 
-{
-objectOps
-}
+JS_NULL_OBJECT_OPS
               
 }
               
@@ -3869,10 +3753,6 @@ slots
 "
 "
             
-objectOpsString
-=
-objectOpsString
-            
 name
 =
 self
@@ -3908,6 +3788,10 @@ enumerate
 =
 enumerateHook
             
+newEnumerate
+=
+newEnumerateHook
+            
 resolve
 =
 resolveHook
@@ -3931,10 +3815,6 @@ traceHook
 objectMoved
 =
 objectMovedHook
-            
-objectOps
-=
-objectOps
             
 descriptor
 =
@@ -5616,6 +5496,13 @@ nullptr
 /
 *
 enumerate
+*
+/
+                    
+nullptr
+/
+*
+newEnumerate
 *
 /
                     
@@ -70328,7 +70215,7 @@ __init__
             
 self
 descriptor
-ENUMERATE_HOOK_NAME
+NEW_ENUMERATE_HOOK_NAME
             
 args
 getThisObj

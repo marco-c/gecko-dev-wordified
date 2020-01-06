@@ -1071,6 +1071,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /
@@ -2159,6 +2165,10 @@ nullptr
 /
 /
 enumerate
+nullptr
+/
+/
+newEnumerate
 nullptr
 /
 /
@@ -5719,6 +5729,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /
@@ -6704,6 +6720,10 @@ nullptr
 /
 /
 enumerate
+nullptr
+/
+/
+newEnumerate
 nullptr
 /
 /

@@ -11885,6 +11885,12 @@ enumerate
 nullptr
 /
 *
+newEnumerate
+*
+/
+nullptr
+/
+*
 resolve
 *
 /
@@ -11992,12 +11998,6 @@ nullptr
 /
 *
 getElements
-*
-/
-nullptr
-/
-*
-enumerate
 *
 /
 InterfaceObjectToString

@@ -173,6 +173,10 @@ nullptr
 /
 /
 enumerate
+nullptr
+/
+/
+newEnumerate
 my_resolve
 }
 ;
@@ -1021,6 +1025,10 @@ nullptr
 /
 /
 enumerate
+nullptr
+/
+/
+newEnumerate
 my_resolve
 nullptr
 /

@@ -3449,6 +3449,7 @@ nullptr
 nullptr
 nullptr
 JS_EnumerateStandardClasses
+nullptr
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
 sandbox_finalize
@@ -3546,6 +3547,7 @@ nullptr
 nullptr
 nullptr
 JS_EnumerateStandardClasses
+nullptr
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
 sandbox_finalize

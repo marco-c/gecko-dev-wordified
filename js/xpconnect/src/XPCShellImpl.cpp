@@ -4783,6 +4783,7 @@ nullptr
 nullptr
 env_setProperty
 env_enumerate
+nullptr
 env_resolve
 }
 ;

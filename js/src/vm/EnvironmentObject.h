@@ -2758,6 +2758,11 @@ const
 ObjectOps
 objectOps_
 ;
+static
+const
+ClassOps
+classOps_
+;
 public
 :
 static
@@ -2954,7 +2959,7 @@ result
 ;
 static
 bool
-enumerate
+newEnumerate
 (
 JSContext
 *

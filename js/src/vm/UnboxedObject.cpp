@@ -6898,7 +6898,7 @@ bool
 UnboxedPlainObject
 :
 :
-obj_enumerate
+newEnumerate
 (
 JSContext
 *
@@ -7053,6 +7053,10 @@ nullptr
 enumerate
 *
 /
+UnboxedPlainObject
+:
+:
+newEnumerate
 nullptr
 /
 *
@@ -7156,10 +7160,6 @@ nullptr
 getElements
 *
 /
-UnboxedPlainObject
-:
-:
-obj_enumerate
 nullptr
 /
 *
@@ -11748,7 +11748,7 @@ bool
 UnboxedArrayObject
 :
 :
-obj_enumerate
+newEnumerate
 (
 JSContext
 *
@@ -11874,6 +11874,10 @@ nullptr
 enumerate
 *
 /
+UnboxedArrayObject
+:
+:
+newEnumerate
 nullptr
 /
 *
@@ -11993,10 +11997,6 @@ nullptr
 getElements
 *
 /
-UnboxedArrayObject
-:
-:
-obj_enumerate
 nullptr
 /
 *

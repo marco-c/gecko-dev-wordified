@@ -1897,6 +1897,10 @@ enumerate
 nullptr
 /
 /
+newEnumerate
+nullptr
+/
+/
 resolve
 nullptr
 /

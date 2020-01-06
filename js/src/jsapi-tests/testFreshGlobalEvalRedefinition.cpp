@@ -196,6 +196,7 @@ nullptr
 nullptr
 nullptr
 GlobalEnumerate
+nullptr
 GlobalResolve
 nullptr
 nullptr
