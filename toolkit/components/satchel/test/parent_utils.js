@@ -356,6 +356,7 @@ result
 count
 =
 result
+;
 }
 handleError
 (

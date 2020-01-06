@@ -1007,6 +1007,7 @@ is
 denied
 '
 )
+;
 continue
 ;
 }

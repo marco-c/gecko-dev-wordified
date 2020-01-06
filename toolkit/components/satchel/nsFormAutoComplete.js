@@ -2954,6 +2954,7 @@ result
 ;
 }
 }
+;
 this
 .
 getAutoCompleteValues
@@ -3418,6 +3419,7 @@ this
 .
 _boundaryWeight
 }
+;
 this
 .
 stopAutoCompleteSearch

@@ -1247,6 +1247,7 @@ deferred
 resolve
 (
 )
+;
 }
 }
 }
@@ -2110,6 +2111,7 @@ return
 undefined
 ;
 }
+;
 let
 results
 =

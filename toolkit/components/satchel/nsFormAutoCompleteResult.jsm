@@ -184,6 +184,7 @@ entries
 ]
 ;
 }
+;
 FormAutoCompleteResult
 .
 prototype

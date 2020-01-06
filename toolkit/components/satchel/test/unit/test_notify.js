@@ -273,6 +273,7 @@ to
 storage
 module
 "
+;
 yield
 updateEntry
 (
@@ -970,6 +971,7 @@ reason
 next_test
 (
 )
+;
 }
 }
 handleErrors

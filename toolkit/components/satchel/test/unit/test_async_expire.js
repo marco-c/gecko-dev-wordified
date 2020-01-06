@@ -141,6 +141,7 @@ next_test
 )
 ;
 }
+;
 var
 checkNotExists
 =
@@ -160,6 +161,7 @@ next_test
 )
 ;
 }
+;
 var
 TestObserver
 =
@@ -704,6 +706,7 @@ return
 changes
 ;
 }
+;
 let
 results
 =

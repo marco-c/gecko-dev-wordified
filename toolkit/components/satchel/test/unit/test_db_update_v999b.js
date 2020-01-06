@@ -353,6 +353,7 @@ next_test
 )
 ;
 }
+;
 let
 checkOne
 =
@@ -372,6 +373,7 @@ next_test
 )
 ;
 }
+;
 /
 /
 =
