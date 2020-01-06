@@ -20967,7 +20967,7 @@ tourset
 -
 version
 "
-1
+2
 )
 ;
 pref
@@ -21133,12 +21133,12 @@ onboarding
 newtour
 "
 "
+performance
 private
+screenshots
 addons
 customize
-search
 default
-sync
 "
 )
 ;
@@ -21152,6 +21152,12 @@ onboarding
 updatetour
 "
 "
+performance
+library
+screenshots
+singlesearch
+customize
+sync
 "
 )
 ;
