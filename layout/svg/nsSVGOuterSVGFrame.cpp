@@ -5887,9 +5887,6 @@ NS_SVGDisplayListPaintingEnabled
 {
 nsDisplayList
 newList
-(
-aBuilder
-)
 ;
 nsDisplayListSet
 set
