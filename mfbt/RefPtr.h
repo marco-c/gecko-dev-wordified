@@ -401,6 +401,7 @@ class
 T
 >
 class
+MOZ_IS_REFPTR
 RefPtr
 {
 private

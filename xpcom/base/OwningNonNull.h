@@ -161,6 +161,7 @@ class
 T
 >
 class
+MOZ_IS_SMARTPTR_TO_REFCOUNTED
 OwningNonNull
 {
 public
