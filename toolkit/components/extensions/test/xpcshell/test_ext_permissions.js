@@ -1150,10 +1150,11 @@ handler
 ok
 (
 /
-May
-only
 request
-permissions
+may
+only
+be
+called
 from
 a
 user
