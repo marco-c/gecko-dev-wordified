@@ -230,7 +230,7 @@ CreatePlatformFontList
 override
 ;
 void
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <

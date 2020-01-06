@@ -929,7 +929,7 @@ sizes
 }
 ;
 void
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <
