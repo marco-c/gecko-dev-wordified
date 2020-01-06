@@ -397,13 +397,6 @@ PropTypes
 bool
 .
 isRequired
-showGridOutline
-:
-PropTypes
-.
-bool
-.
-isRequired
 onHideBoxModelHighlighter
 :
 PropTypes
