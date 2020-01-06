@@ -7413,13 +7413,6 @@ DATA
 nsCSSParser
 mParser
 ;
-css
-:
-:
-Loader
-*
-mLoader
-;
 /
 /
 Arguments
@@ -7497,10 +7490,6 @@ aBackend
 )
 :
 mParser
-(
-aLoader
-)
-mLoader
 (
 aLoader
 )
@@ -7793,7 +7782,6 @@ OwnerDoc
 GetCompatibilityMode
 (
 )
-mLoader
 )
 ;
 }
