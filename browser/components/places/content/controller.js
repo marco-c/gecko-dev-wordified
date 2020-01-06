@@ -9184,7 +9184,6 @@ newTransactions
 await
 getTransactionsForTransferItems
 (
-type
 items
 insertionIndex
 ip
@@ -11616,7 +11615,6 @@ newTransactions
 await
 getTransactionsForTransferItems
 (
-flavor
 nodes
 insertionIndex
 parentGuid
@@ -12826,19 +12824,6 @@ them
 *
 param
 {
-String
-}
-dataFlavor
-The
-transfer
-flavor
-for
-the
-items
-.
-*
-param
-{
 Array
 }
 items
@@ -12924,7 +12909,6 @@ async
 function
 getTransactionsForTransferItems
 (
-dataFlavor
 items
 insertionIndex
 insertionParentGuid
@@ -13219,7 +13203,6 @@ PlacesUIUtils
 getTransactionForData
 (
 item
-dataFlavor
 insertionParentGuid
 index
 doCopy

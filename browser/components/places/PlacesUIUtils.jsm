@@ -3583,17 +3583,6 @@ data
 .
 *
 param
-aType
-*
-The
-content
-type
-of
-the
-data
-.
-*
-param
 aNewParentGuid
 *
 GUID
@@ -3667,7 +3656,6 @@ command
 getTransactionForData
 (
 aData
-aType
 aNewParentGuid
 aIndex
 aCopy
