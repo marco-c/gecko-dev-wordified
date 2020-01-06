@@ -1830,6 +1830,7 @@ parent
 static
 *
 /
+MOZ_ALWAYS_INLINE
 Shape
 *
 NativeObject

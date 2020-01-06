@@ -6036,7 +6036,7 @@ class
 KEY
 >
 static
-inline
+MOZ_ALWAYS_INLINE
 U
 *
 Lookup
@@ -7852,7 +7852,7 @@ base
 types
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 HeapTypeSet
 *
 ObjectGroup
