@@ -225,6 +225,10 @@ ScreenReferenceDrawTarget
 (
 )
 ;
+mFormat
+=
+aFormat
+;
 if
 (
 aBackend
@@ -346,10 +350,6 @@ mFormat
 )
 ;
 }
-mFormat
-=
-aFormat
-;
 }
 bool
 DrawTargetCaptureImpl
