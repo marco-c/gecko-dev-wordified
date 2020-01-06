@@ -7961,9 +7961,7 @@ Step
 .
 b
 .
-const
 Value
-&
 elem
 =
 GetBoxedOrUnboxedDenseElement
