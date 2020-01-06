@@ -1320,13 +1320,6 @@ GetCurrentWallTime
 (
 )
 {
-MOZ_ASSERT
-(
-IsOnMessageLoopThread
-(
-)
-)
-;
 return
 base
 :
