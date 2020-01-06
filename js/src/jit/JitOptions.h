@@ -404,6 +404,9 @@ wasmFoldOffsets
 bool
 ionInterruptWithoutSignals
 ;
+bool
+simulatorAlwaysInterrupt
+;
 uint32_t
 baselineWarmUpThreshold
 ;
