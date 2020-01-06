@@ -708,7 +708,7 @@ const
 size_t
 kMinimumStackSize
 =
-256
+512
 ;
 /
 /
