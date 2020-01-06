@@ -330,7 +330,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -366,7 +366,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -482,6 +482,12 @@ ScreenReferenceDrawTarget
 )
 )
 ;
+nsRenderingContext
+ctx
+(
+screenRefCtx
+)
+;
 static_cast
 <
 nsColumnSetFrame
@@ -495,7 +501,8 @@ mFrame
 CreateBorderRenderers
 (
 mBorderRenderers
-screenRefCtx
+&
+ctx
 mVisibleRect
 ToReferenceFrame
 (
@@ -1287,7 +1294,7 @@ nsCSSBorderRenderer
 >
 &
 aBorderRenderers
-gfxContext
+nsRenderingContext
 *
 aCtx
 const
@@ -3285,7 +3292,7 @@ nsColumnSetFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3605,7 +3612,7 @@ nsColumnSetFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

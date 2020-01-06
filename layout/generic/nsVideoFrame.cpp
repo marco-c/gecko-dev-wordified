@@ -3384,7 +3384,7 @@ nsVideoFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -3563,7 +3563,7 @@ nsVideoFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3686,7 +3686,7 @@ nsVideoFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3996,7 +3996,7 @@ nsVideoFrame
 :
 GetVideoIntrinsicSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

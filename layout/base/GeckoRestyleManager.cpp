@@ -144,13 +144,6 @@ max
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EffectSet
@@ -303,6 +296,13 @@ h
 include
 "
 nsViewManager
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "

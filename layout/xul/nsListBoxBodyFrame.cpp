@@ -298,7 +298,7 @@ h
 #
 include
 "
-gfxContext
+nsRenderingContext
 .
 h
 "
@@ -3850,7 +3850,7 @@ listitem
 )
 )
 {
-gfxContext
+nsRenderingContext
 *
 rendContext
 =

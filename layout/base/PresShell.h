@@ -1830,7 +1830,7 @@ const
 char
 *
 aName
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext

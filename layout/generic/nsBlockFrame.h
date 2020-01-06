@@ -2021,7 +2021,7 @@ public
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2030,7 +2030,7 @@ override
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2049,7 +2049,7 @@ override
 nsresult
 GetPrefWidthTightBounds
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nscoord

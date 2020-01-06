@@ -408,9 +408,6 @@ Units
 h
 "
 class
-gfxContext
-;
-class
 nsDocShell
 ;
 class
@@ -427,6 +424,9 @@ nsViewManager
 ;
 class
 nsView
+;
+class
+nsRenderingContext
 ;
 class
 nsIPageSequenceFrame
@@ -491,6 +491,9 @@ WeakFrame
 ;
 class
 nsIScrollableFrame
+;
+class
+gfxContext
 ;
 class
 nsIDOMEvent
@@ -6340,7 +6343,7 @@ const
 char
 *
 aName
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext

@@ -353,7 +353,7 @@ h
 #
 include
 "
-gfxContext
+nsRenderingContext
 .
 h
 "
@@ -29532,7 +29532,7 @@ override
 void
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -29544,7 +29544,7 @@ override
 void
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -30611,7 +30611,7 @@ nsTextFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -30647,7 +30647,7 @@ nsTextFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -30674,7 +30674,7 @@ nsContinuingTextFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -30711,7 +30711,7 @@ nsContinuingTextFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -32487,7 +32487,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -33878,7 +33878,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -33927,6 +33927,11 @@ mDisableSubpixelAA
 RenderToContext
 (
 aCtx
+-
+>
+ThebesContext
+(
+)
 aBuilder
 )
 ;
@@ -55902,7 +55907,7 @@ nsTextFrame
 :
 AddInlineMinISizeForFlow
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -57001,7 +57006,7 @@ nsTextFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -57347,7 +57352,7 @@ nsTextFrame
 :
 AddInlinePrefISizeForFlow
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -58169,7 +58174,7 @@ nsTextFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -58491,7 +58496,7 @@ nsTextFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -58890,7 +58895,7 @@ nsTextFrame
 :
 GetPrefWidthTightBounds
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nscoord

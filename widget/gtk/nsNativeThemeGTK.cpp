@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -5929,7 +5936,7 @@ nsNativeThemeGTK
 :
 DrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -5986,6 +5993,11 @@ gfxContext
 ctx
 =
 aContext
+-
+>
+ThebesContext
+(
+)
 ;
 nsPresContext
 *

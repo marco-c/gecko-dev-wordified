@@ -403,7 +403,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 const
@@ -1120,7 +1120,7 @@ SizeComputationInput
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

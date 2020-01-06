@@ -656,7 +656,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -666,7 +666,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1366,7 +1366,7 @@ virtual
 DrawResult
 PaintBackground
 (
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1967,7 +1967,7 @@ virtual
 DrawResult
 PaintBackground
 (
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const

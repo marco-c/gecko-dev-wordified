@@ -1132,7 +1132,7 @@ nsHTMLCanvasFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1217,7 +1217,7 @@ nsHTMLCanvasFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1346,7 +1346,7 @@ nsHTMLCanvasFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

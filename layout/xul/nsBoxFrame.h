@@ -547,7 +547,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -557,7 +557,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1099,7 +1099,7 @@ override
 void
 PaintXULDebugBackground
 (
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint

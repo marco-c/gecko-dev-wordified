@@ -261,7 +261,7 @@ nsFormControlFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -325,7 +325,7 @@ nsFormControlFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -389,7 +389,7 @@ nsFormControlFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRC
 WritingMode

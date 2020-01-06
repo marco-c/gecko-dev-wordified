@@ -252,7 +252,7 @@ virtual
 void
 GetIntrinsicISizeMetrics
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 ReflowOutput

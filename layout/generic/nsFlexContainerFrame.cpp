@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsStyleContext
 .
 h
@@ -206,13 +213,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-gfxContext
-.
-h
-"
 #
 include
 "
@@ -35026,7 +35026,7 @@ nsFlexContainerFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -35208,7 +35208,7 @@ nsFlexContainerFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

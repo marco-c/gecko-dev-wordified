@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -5374,6 +5381,12 @@ gCtx
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+nsRenderingContext
+renderingContext
+(
+gCtx
+)
+;
 nsRect
 drawingRect
 (
@@ -5401,7 +5414,8 @@ nsLayoutUtils
 :
 PaintFrame
 (
-gCtx
+&
+renderingContext
 currentPageFrame
 drawingRegion
 NS_RGBA

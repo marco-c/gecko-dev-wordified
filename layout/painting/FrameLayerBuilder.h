@@ -4212,7 +4212,7 @@ aRect
 gfxContext
 *
 aContext
-gfxContext
+nsRenderingContext
 *
 aRC
 nsDisplayListBuilder

@@ -126,7 +126,7 @@ struct
 nsEmbellishData
 ;
 class
-gfxContext
+nsRenderingContext
 ;
 class
 nsIFrame

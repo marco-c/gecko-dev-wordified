@@ -273,7 +273,7 @@ BasicTableLayoutStrategy
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -313,7 +313,7 @@ BasicTableLayoutStrategy
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 bool
@@ -448,7 +448,7 @@ static
 CellISizeInfo
 GetISizeInfo
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1710,7 +1710,7 @@ inline
 CellISizeInfo
 GetCellISizeInfo
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsTableCellFrame
@@ -1735,7 +1735,7 @@ inline
 CellISizeInfo
 GetColISizeInfo
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1808,7 +1808,7 @@ BasicTableLayoutStrategy
 :
 ComputeColumnIntrinsicISizes
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3072,7 +3072,7 @@ BasicTableLayoutStrategy
 :
 ComputeIntrinsicISizes
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

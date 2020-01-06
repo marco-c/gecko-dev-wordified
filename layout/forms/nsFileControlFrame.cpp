@@ -2492,7 +2492,7 @@ nsFileControlFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

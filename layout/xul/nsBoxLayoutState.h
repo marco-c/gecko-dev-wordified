@@ -132,7 +132,7 @@ nsIPresShell
 h
 "
 class
-gfxContext
+nsRenderingContext
 ;
 namespace
 mozilla
@@ -165,7 +165,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 =
@@ -332,7 +332,7 @@ will
 cause
 bugs
 .
-gfxContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -436,7 +436,7 @@ nsPresContext
 >
 mPresContext
 ;
-gfxContext
+nsRenderingContext
 *
 mRenderingContext
 ;

@@ -121,9 +121,6 @@ nsCSSRenderingBorders
 h
 "
 class
-gfxContext
-;
-class
 nsIFrame
 ;
 class
@@ -137,6 +134,9 @@ nsDisplayListBuilder
 ;
 class
 nsPresContext
+;
+class
+nsRenderingContext
 ;
 struct
 nsRect
@@ -212,7 +212,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -240,7 +240,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 const
@@ -262,7 +262,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const

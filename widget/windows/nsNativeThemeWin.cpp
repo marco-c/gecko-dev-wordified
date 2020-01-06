@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -7951,7 +7958,7 @@ nsNativeThemeWin
 :
 DrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -8206,6 +8213,11 @@ gfxContext
 ctx
 =
 aContext
+-
+>
+ThebesContext
+(
+)
 ;
 gfxContextMatrixAutoSaveRestore
 save
@@ -20233,7 +20245,7 @@ nsNativeThemeWin
 :
 ClassicDrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -20369,6 +20381,11 @@ gfxContext
 ctx
 =
 aContext
+-
+>
+ThebesContext
+(
+)
 ;
 gfxWindowsNativeDrawing
 nativeDrawing

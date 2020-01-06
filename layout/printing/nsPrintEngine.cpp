@@ -494,13 +494,6 @@ Misc
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -638,6 +631,13 @@ h
 include
 "
 nsView
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -30933,7 +30933,7 @@ out
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRendContext
 nsIFrame

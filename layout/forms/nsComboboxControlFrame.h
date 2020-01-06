@@ -396,7 +396,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -406,7 +406,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1331,7 +1331,7 @@ GetPrefISize
 nscoord
 GetIntrinsicISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils

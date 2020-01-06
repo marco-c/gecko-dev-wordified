@@ -195,7 +195,7 @@ interface
 NS_IMETHOD
 DrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -453,7 +453,7 @@ aFocused
 nsresult
 ClassicDrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame

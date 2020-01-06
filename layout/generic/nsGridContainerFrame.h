@@ -513,7 +513,7 @@ override
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -522,7 +522,7 @@ override
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1582,7 +1582,7 @@ GetPrefISize
 nscoord
 IntrinsicISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 IntrinsicISizeType

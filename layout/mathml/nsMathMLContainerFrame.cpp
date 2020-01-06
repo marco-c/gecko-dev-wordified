@@ -103,13 +103,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -157,6 +150,13 @@ h
 include
 "
 nsNameSpaceManager
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -594,7 +594,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -618,7 +618,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -735,6 +735,11 @@ red
 )
 ;
 aCtx
+-
+>
+ThebesContext
+(
+)
 -
 >
 SetColor
@@ -6740,7 +6745,7 @@ nsMathMLContainerFrame
 :
 UpdateIntrinsicWidth
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6814,7 +6819,7 @@ nsMathMLContainerFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6852,7 +6857,7 @@ nsMathMLContainerFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6890,7 +6895,7 @@ nsMathMLContainerFrame
 :
 GetIntrinsicISizeMetrics
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 ReflowOutput

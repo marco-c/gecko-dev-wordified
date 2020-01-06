@@ -103,13 +103,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -182,6 +175,13 @@ h
 include
 "
 nsPresContext
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -2278,7 +2278,7 @@ nsTableCellFrame
 :
 PaintBackground
 (
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2514,7 +2514,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2551,7 +2551,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -4626,7 +4626,7 @@ nsTableCellFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -4682,7 +4682,7 @@ nsTableCellFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -7087,7 +7087,7 @@ nsBCTableCellFrame
 :
 PaintBackground
 (
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const

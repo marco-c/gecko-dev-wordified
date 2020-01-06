@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsMathMLmtableFrame
 .
 h
@@ -132,6 +125,13 @@ h
 include
 "
 nsNameSpaceManager
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -1954,7 +1954,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )

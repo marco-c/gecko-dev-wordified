@@ -228,9 +228,6 @@ h
 for
 char16_t
 class
-gfxContext
-;
-class
 gfxUserFontSet
 ;
 class
@@ -241,6 +238,9 @@ nsDeviceContext
 ;
 class
 nsIAtom
+;
+class
+nsRenderingContext
 ;
 struct
 nsBoundingMetrics
@@ -1260,7 +1260,7 @@ nscoord
 aX
 nscoord
 aY
-gfxContext
+nsRenderingContext
 *
 aContext
 )
@@ -1278,7 +1278,7 @@ nscoord
 aX
 nscoord
 aY
-gfxContext
+nsRenderingContext
 *
 aContext
 DrawTarget

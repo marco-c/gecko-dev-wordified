@@ -135,13 +135,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 gfxFont
 .
 h
@@ -258,6 +251,13 @@ h
 include
 "
 nsQuickSort
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -18664,7 +18664,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -18861,7 +18861,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -18971,6 +18971,11 @@ gfxContext
 ctx
 =
 aCtx
+-
+>
+ThebesContext
+(
+)
 ;
 ctx
 -
@@ -33589,12 +33594,9 @@ kid
 )
 return
 ;
-RefPtr
-<
-gfxContext
->
+nsRenderingContext
 renderingContext
-=
+(
 presContext
 -
 >
@@ -33605,6 +33607,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 if
@@ -33657,6 +33660,7 @@ kid
 >
 GetPrefISize
 (
+&
 renderingContext
 )
 ;
@@ -33675,6 +33679,7 @@ reflowInput
 (
 presContext
 kid
+&
 renderingContext
 LogicalSize
 (
