@@ -536,14 +536,10 @@ in
 the
 list
         
-self
-.
-assertTrue
-(
+assert
 verify_ip_in_list
 (
 ip
-)
 )
     
 def
@@ -637,14 +633,10 @@ in
 the
 list
                 
-self
-.
-assertTrue
-(
+assert
 verify_ip_in_list
 (
 ip
-)
 )
 if
 __name__
