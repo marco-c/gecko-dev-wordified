@@ -1790,6 +1790,7 @@ onRecordStoreReconciled
 record
 .
 guid
+null
 )
 ;
 storeRecordDeletion
@@ -2377,6 +2378,7 @@ onRecordStoreReconciled
 record
 .
 guid
+null
 )
 ;
 storeDelegate

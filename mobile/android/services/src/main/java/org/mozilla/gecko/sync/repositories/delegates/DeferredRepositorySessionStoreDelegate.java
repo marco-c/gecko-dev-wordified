@@ -319,6 +319,8 @@ onRecordStoreReconciled
 final
 String
 guid
+Integer
+newVersion
 )
 {
 executor
@@ -342,6 +344,7 @@ inner
 onRecordStoreReconciled
 (
 guid
+null
 )
 ;
 }

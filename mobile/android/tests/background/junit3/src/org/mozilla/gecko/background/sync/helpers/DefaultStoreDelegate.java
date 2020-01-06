@@ -158,6 +158,8 @@ onRecordStoreReconciled
 (
 String
 guid
+Integer
+newVersion
 )
 {
 }
@@ -271,6 +273,8 @@ onRecordStoreReconciled
 final
 String
 guid
+Integer
+newVersion
 )
 {
 executor
@@ -294,6 +298,7 @@ self
 onRecordStoreReconciled
 (
 guid
+null
 )
 ;
 }
