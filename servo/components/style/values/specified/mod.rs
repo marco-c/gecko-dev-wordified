@@ -404,7 +404,7 @@ image
 GradientItem
 GradientKind
 Image
-MozImageRect
+ImageRect
 ImageLayer
 }
 ;
