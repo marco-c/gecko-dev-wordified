@@ -1147,6 +1147,7 @@ mParsingMode
 extraData
 aLineNumber
 aCompatMode
+aReusableSheets
 )
 .
 Consume
