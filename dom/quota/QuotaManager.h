@@ -1374,6 +1374,13 @@ UsageInfo
 aUsageInfo
 )
 ;
+void
+NotifyStoragePressure
+(
+uint64_t
+aUsage
+)
+;
 static
 void
 GetStorageId
