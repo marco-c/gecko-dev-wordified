@@ -4072,13 +4072,6 @@ ServoStyleSheet
 aSheet
 )
 ;
-const
-nsMediaFeature
-*
-Gecko_GetMediaFeatures
-(
-)
-;
 nsCSSKeyword
 Gecko_LookupCSSKeyword
 (
