@@ -2021,6 +2021,9 @@ mActorDestroyed
 )
 ;
 }
+#
+ifdef
+DEBUG
 bool
 IsOnOwningThread
 (
@@ -2052,6 +2055,8 @@ current
 current
 ;
 }
+#
+endif
 void
 AssertIsOnOwningThread
 (
