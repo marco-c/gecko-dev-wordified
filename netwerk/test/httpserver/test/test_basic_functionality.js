@@ -312,7 +312,7 @@ dirServ
 get
 (
 "
-CurWorkD
+CurProcD
 "
 Ci
 .
