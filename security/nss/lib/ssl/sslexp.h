@@ -201,7 +201,7 @@ it
 /
 #
 define
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 fd
 enable
@@ -210,7 +210,7 @@ enable
 SSL_EXPERIMENTAL_API
 (
 "
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 "
 \
 (

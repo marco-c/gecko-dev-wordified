@@ -2447,7 +2447,7 @@ EnsureTlsSetup
 SECStatus
 rv
 =
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 ssl_fd
 (

@@ -27618,7 +27618,7 @@ SECFailure
 ;
 }
 SECStatus
-SSLExp_UseAltHandshakeType
+SSLExp_UseAltServerHelloType
 (
 PRFileDesc
 *
@@ -27666,7 +27666,7 @@ d
 bad
 socket
 in
-SSLExp_UseAltHandshakeType
+SSLExp_UseAltServerHelloType
 "
 SSL_GETPID
 (

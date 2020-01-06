@@ -7595,7 +7595,7 @@ enableAltServerHello
 {
 rv
 =
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 s
 PR_TRUE
