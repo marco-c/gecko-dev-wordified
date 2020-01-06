@@ -18448,6 +18448,9 @@ property_id
 :
 PropertyId
 )
+-
+>
+bool
 {
 write_locked_arc
 (
@@ -18467,10 +18470,8 @@ remove_property
 &
 property_id
 )
-;
 }
 )
-;
 }
 #
 [
@@ -18506,6 +18507,7 @@ property
 )
 )
 )
+;
 }
 #
 [
@@ -18526,6 +18528,9 @@ property
 :
 nsCSSPropertyID
 )
+-
+>
+bool
 {
 remove_property
 (
@@ -18534,8 +18539,7 @@ get_property_id_from_nscsspropertyid
 !
 (
 property
-(
-)
+false
 )
 )
 }

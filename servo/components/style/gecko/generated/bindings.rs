@@ -15351,6 +15351,9 @@ property
 :
 nsCSSPropertyID
 )
+-
+>
+bool
 ;
 }
 extern
