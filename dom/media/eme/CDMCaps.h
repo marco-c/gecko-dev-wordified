@@ -123,15 +123,6 @@ CDMCaps_h_
 #
 include
 "
-gmp
--
-decryption
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
