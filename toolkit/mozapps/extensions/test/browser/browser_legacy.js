@@ -912,7 +912,7 @@ legacyLink
 "
 Link
 to
-leagcy
+legacy
 extension
 is
 visible
