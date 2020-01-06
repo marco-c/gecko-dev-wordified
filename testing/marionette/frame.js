@@ -456,6 +456,13 @@ messageManager
 .
 *
 /
+/
+*
+eslint
+-
+disable
+*
+/
 receiveMessage
 (
 message
@@ -949,6 +956,13 @@ frameId
 }
 }
 }
+/
+*
+eslint
+-
+enable
+*
+/
 getOopFrame
 (
 winId

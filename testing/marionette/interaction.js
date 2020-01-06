@@ -836,13 +836,6 @@ getWindow
 el
 )
 ;
-const
-doc
-=
-win
-.
-document
-;
 /
 /
 step
@@ -1474,7 +1467,6 @@ win
 ;
 }
 }
-;
 /
 *
 *
@@ -1658,14 +1650,6 @@ elements
 )
 ;
 }
-let
-win
-=
-getWindow
-(
-el
-)
-;
 let
 containerEl
 =
@@ -1912,7 +1896,6 @@ addEventListener
 beforeunload
 "
 handleEvent
-false
 )
 ;
 win

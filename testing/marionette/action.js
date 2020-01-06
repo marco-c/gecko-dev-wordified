@@ -222,6 +222,13 @@ action
 "
 ]
 ;
+const
+{
+pprint
+}
+=
+error
+;
 /
 /
 TODO
@@ -2596,8 +2603,6 @@ in
 (
 name
 this
-error
-.
 pprint
 Unknown
 pointer
@@ -2794,8 +2799,6 @@ in
 (
 name
 this
-error
-.
 pprint
 Unknown
 pointerType
@@ -2829,10 +2832,10 @@ is
 a
 map
 between
+*
 input
 ID
 and
-*
 the
 device
 state
@@ -2843,6 +2846,7 @@ source
 with
 one
 entry
+*
 for
 each
 active
@@ -2856,6 +2860,7 @@ in
 listener
 .
 js
+.
 *
 /
 action
@@ -2882,9 +2887,9 @@ session
 .
 Used
 to
+*
 manage
 dispatching
-*
 events
 when
 resetting
@@ -2895,11 +2900,11 @@ the
 input
 sources
 .
+*
 Reset
 operations
 are
 assumed
-*
 to
 be
 idempotent
@@ -3078,10 +3083,10 @@ optionally
 parameters
 |
 or
+*
 |
 pointerType
 |
-*
 representing
 an
 action
@@ -3154,8 +3159,6 @@ in
 (
 type
 ACTIONS
-error
-.
 pprint
 Unknown
 action
@@ -3223,8 +3226,6 @@ throw
 new
 InvalidArgumentError
 (
-error
-.
 pprint
 Expected
 obj
@@ -3266,8 +3267,6 @@ pointerType
 )
 ;
 }
-else
-{
 return
 new
 action
@@ -3279,7 +3278,6 @@ name
 (
 )
 ;
-}
 }
 }
 /
@@ -3817,8 +3815,6 @@ assert
 defined
 (
 subtype
-error
-.
 pprint
 Expected
 subtype
@@ -4097,6 +4093,7 @@ action
 Chain
 |
 and
+*
 |
 action
 .
@@ -4144,6 +4141,7 @@ keyUp
 keyDown
 pointerUp
 pointerDown
+*
 pointerMove
 pointerCancel
 .
@@ -4220,8 +4218,6 @@ assert
 string
 (
 attr
-error
-.
 pprint
 Expected
 string
@@ -4252,7 +4248,6 @@ subtype
 subtype
 ;
 }
-;
 toString
 (
 )
@@ -4539,12 +4534,12 @@ like
 \
 uE012
 "
+/
+/
 (
 see
 rawKey
 )
-/
-/
 or
 "
 grapheme
@@ -4555,8 +4550,6 @@ assert
 string
 (
 key
-error
-.
 pprint
 (
 "
@@ -4611,8 +4604,6 @@ positiveInteger
 actionItem
 .
 button
-error
-.
 pprint
 Expected
 '
@@ -4675,8 +4666,6 @@ positiveInteger
 item
 .
 duration
-error
-.
 pprint
 Expected
 '
@@ -4740,8 +4729,6 @@ integer
 item
 .
 x
-error
-.
 pprint
 Expected
 '
@@ -4789,8 +4776,6 @@ integer
 item
 .
 y
-error
-.
 pprint
 Expected
 '
@@ -4823,8 +4808,6 @@ UnsupportedOperationError
 (
 )
 ;
-break
-;
 case
 action
 .
@@ -4851,6 +4834,15 @@ undefined
 "
 )
 {
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
 assert
 .
 positiveInteger
@@ -4858,8 +4850,6 @@ positiveInteger
 item
 .
 duration
-error
-.
 pprint
 Expected
 '
@@ -4904,6 +4894,7 @@ actions
 to
 perform
 at
+*
 each
 tick
 .
@@ -4980,9 +4971,9 @@ be
 performed
 in
 a
+*
 single
 tick
-*
 are
 grouped
 together
@@ -5016,8 +5007,6 @@ assert
 array
 (
 actions
-error
-.
 pprint
 Expected
 '
@@ -5056,6 +5045,8 @@ actions
 refers
 to
 a
+/
+/
 different
 input
 ID
@@ -5159,6 +5150,7 @@ this
 is
 essentially
 an
+*
 |
 Array
 .
@@ -5347,8 +5339,6 @@ assert
 string
 (
 id
-error
-.
 pprint
 Expected
 '
@@ -5377,8 +5367,6 @@ assert
 array
 (
 actionItems
-error
-.
 pprint
 (
 "
@@ -5555,6 +5543,7 @@ undefined
 "
 mouse
 "
+*
 is
 used
 .
@@ -5661,8 +5650,6 @@ PointerParameters
 )
 ;
 }
-else
-{
 return
 new
 action
@@ -5674,7 +5661,6 @@ parametersData
 pointerType
 )
 ;
-}
 }
 }
 ;
@@ -5791,7 +5777,6 @@ action
 processPointerAction
 =
 function
-processPointerAction
 (
 id
 pointerParams
@@ -6348,9 +6333,9 @@ tick
 that
 resolves
 once
+*
 all
 the
-*
 Promises
 for
 individual
@@ -6362,12 +6347,12 @@ resolved
 .
 The
 next
+*
 tick
 '
 s
 actions
 are
-*
 not
 dispatched
 until
@@ -6376,6 +6361,7 @@ Promise
 for
 the
 current
+*
 tick
 is
 resolved
@@ -6543,9 +6529,9 @@ resolves
 once
 the
 Promise
+*
 for
 each
-*
 tick
 -
 action
@@ -6558,9 +6544,9 @@ least
 |
 tickDuration
 |
+*
 milliseconds
 .
-*
 The
 resolved
 set
@@ -6572,6 +6558,7 @@ tick
 is
 followed
 by
+*
 firing
 of
 pending
@@ -6594,8 +6581,8 @@ but
 they
 may
 have
-different
 *
+different
 durations
 and
 therefore
@@ -7249,10 +7236,9 @@ container
 )
 {
 return
-function
-(
 a
-)
+=
+>
 {
 let
 inputState
@@ -7374,6 +7360,9 @@ tickDuration
 )
 ;
 }
+return
+undefined
+;
 }
 ;
 }
@@ -7455,6 +7444,7 @@ event
 and
 keypress
 if
+*
 appropriate
 .
 *
@@ -7906,12 +7896,9 @@ a
 with
 pointerUp
 subtype
-action
-.
-inputsToCancel
-.
-push
-(
+let
+copy
+=
 Object
 .
 assign
@@ -7927,6 +7914,14 @@ action
 PointerUp
 }
 )
+;
+action
+.
+inputsToCancel
+.
+push
+(
+copy
 )
 ;
 switch
@@ -8011,8 +8006,6 @@ is
 supported
 "
 )
-;
-break
 ;
 default
 :
@@ -8287,6 +8280,7 @@ moving
 pointer
 device
 in
+*
 a
 line
 .
@@ -8304,10 +8298,10 @@ jumps
 immediately
 to
 the
+*
 target
 coordinates
 .
-*
 Otherwise
 events
 are
@@ -8315,15 +8309,16 @@ synthesized
 to
 mimic
 a
+*
 pointer
 travelling
 in
 a
 discontinuous
-*
 approximately
 straight
 line
+*
 with
 the
 pointer
@@ -8332,7 +8327,6 @@ being
 updated
 around
 60
-*
 times
 per
 second
@@ -8419,9 +8413,9 @@ event
 as
 well
 as
+*
 mousemove
 events
-*
 as
 appropriate
 .
@@ -8585,6 +8579,7 @@ frame
 innerWidth
 }
 )
++
 and
 height
 (
@@ -9059,10 +9054,10 @@ a
 .
 duration
 |
+*
 milliseconds
 or
 a
-*
 default
 time
 interval
@@ -9351,4 +9346,8 @@ el
 )
 ;
 }
+return
+{
+}
+;
 }

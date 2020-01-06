@@ -723,8 +723,6 @@ prototype
 =
 {
 hasMatchingOverride
-:
-function
 (
 aHostName
 aPort
@@ -792,8 +790,6 @@ service
 return
 {
 register
-:
-function
 (
 )
 {
@@ -843,8 +839,6 @@ factory
 ;
 }
 unregister
-:
-function
 (
 )
 {

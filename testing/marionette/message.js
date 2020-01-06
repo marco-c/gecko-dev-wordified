@@ -179,8 +179,7 @@ Marionette
 "
 )
 ;
-this
-.
+const
 MessageOrigin
 =
 {
@@ -662,11 +661,8 @@ parameters
 .
 *
 /
-this
-.
-Command
-=
 class
+Command
 {
 constructor
 (
@@ -1000,7 +996,6 @@ params
 ;
 }
 }
-;
 Command
 .
 TYPE
@@ -1070,8 +1065,6 @@ capabilities
 ]
 }
 set
-:
-function
 (
 obj
 prop
@@ -1141,7 +1134,6 @@ true
 ;
 }
 }
-;
 /
 *
 *
@@ -1237,8 +1229,7 @@ error
 .
 *
 /
-this
-.
+const
 ResponseBody
 =
 (
@@ -1393,11 +1384,8 @@ response
 .
 *
 /
-this
-.
-Response
-=
 class
+Response
 {
 constructor
 (
@@ -1869,7 +1857,6 @@ resp
 ;
 }
 }
-;
 Response
 .
 TYPE

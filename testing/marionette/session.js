@@ -2792,7 +2792,6 @@ toJSON
 )
 )
 ;
-}
 /
 /
 Or
@@ -2803,6 +2802,7 @@ for
 object
 literals
 .
+}
 else
 if
 (

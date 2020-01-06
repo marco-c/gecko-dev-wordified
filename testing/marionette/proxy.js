@@ -1044,21 +1044,17 @@ debug
 Received
 DOM
 event
-"
 {
 event
 .
 type
 }
-"
 for
-"
 {
 event
 .
 target
 }
-"
 )
 ;
 switch
@@ -1305,11 +1301,11 @@ command
 closes
 the
 current
+/
+/
 tab
 or
 window
-/
-/
 and
 the
 promise
@@ -1339,7 +1335,6 @@ unload
 this
 .
 closeHandler
-false
 )
 ;
 if
@@ -1384,7 +1379,6 @@ TabClose
 this
 .
 closeHandler
-false
 )
 ;
 }
@@ -1440,7 +1434,6 @@ unload
 this
 .
 closeHandler
-false
 )
 ;
 if
@@ -1485,7 +1478,6 @@ TabClose
 this
 .
 closeHandler
-false
 )
 ;
 }
@@ -1812,8 +1804,6 @@ msg
 =
 {
 type
-:
-type
 data
 :
 payload
@@ -2045,7 +2035,6 @@ for
 let
 [
 p
-cb
 ]
 of
 this
@@ -2236,11 +2225,8 @@ promise
 ;
 *
 /
-this
-.
-AsyncChromeSender
-=
 class
+AsyncChromeSender
 {
 constructor
 (
@@ -2525,7 +2511,6 @@ proxy
 ;
 }
 }
-;
 /
 *
 *

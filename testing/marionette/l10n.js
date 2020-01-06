@@ -95,8 +95,8 @@ UI
 elements
 in
 Gecko
-based
 *
+based
 applications
 is
 done
@@ -107,9 +107,9 @@ properties
 .
 For
 static
+*
 values
 entities
-*
 are
 used
 which
@@ -122,9 +122,9 @@ files
 .
 Whereby
 for
+*
 dynamically
 updated
-*
 content
 the
 values
@@ -135,12 +135,12 @@ property
 files
 .
 Both
+*
 types
 of
 elements
 can
 be
-*
 identifed
 via
 a
@@ -149,6 +149,7 @@ id
 and
 the
 translated
+*
 content
 retrieved
 .
@@ -597,8 +598,10 @@ id
 Example
 :
 *
+*
 localizeProperty
 (
+*
 [
 "
 chrome
@@ -618,6 +621,7 @@ properties
 FastFind
 "
 )
+;
 *
 *
 param
@@ -728,7 +732,6 @@ e
 {
 }
 }
-;
 if
 (
 property
@@ -744,8 +747,7 @@ NoSuchElementError
 (
 Property
 with
-id
-=
+ID
 '
 {
 id
