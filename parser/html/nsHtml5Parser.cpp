@@ -273,6 +273,10 @@ mInDocumentWrite
 (
 false
 )
+mInsertionPointPermanentlyUndefined
+(
+false
+)
 mFirstBuffer
 (
 new
@@ -1530,7 +1534,7 @@ close
 (
 )
 .
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 IsInsertionPointDefined
 (
@@ -1549,7 +1553,7 @@ point
 "
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 !
 (
@@ -3633,6 +3637,10 @@ IsFlushing
 )
 &
 &
+!
+mInsertionPointPermanentlyUndefined
+&
+&
 (
 !
 GetStreamParser
@@ -4047,10 +4055,14 @@ if
 mDocumentClosed
 )
 {
+PermanentlyUndefineInsertionPoint
+(
+)
+;
 nsresult
 rv
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 !
 GetStreamParser
