@@ -666,11 +666,7 @@ Clipboard
 .
 getText
 (
-getInstrumentation
-(
-)
-.
-getContext
+getActivity
 (
 )
 )
