@@ -1415,9 +1415,6 @@ style
 :
 :
 gecko_properties
-:
-:
-style_structs
 ;
 use
 style
@@ -5733,10 +5730,7 @@ Gecko_NewNoneTransform
 }
 else
 {
-style_structs
-:
-:
-Box
+gecko_properties
 :
 :
 convert_transform
@@ -5809,10 +5803,7 @@ as_ref
 let
 transform
 =
-style_structs
-:
-:
-Box
+gecko_properties
 :
 :
 clone_transform_from_list

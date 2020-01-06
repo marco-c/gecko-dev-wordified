@@ -648,6 +648,7 @@ transform
 :
 {
 TimingFunction
+Transform
 TransformOrigin
 }
 ;
