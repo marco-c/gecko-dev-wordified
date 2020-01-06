@@ -1063,6 +1063,9 @@ bytes_left
 value
 )
 ;
+let
+ptr
+=
 array
 .
 addressOfElement
@@ -1710,6 +1713,9 @@ false
 ;
 try
 {
+let
+file
+=
 OS
 .
 Win

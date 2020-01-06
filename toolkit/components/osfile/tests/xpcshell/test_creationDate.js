@@ -89,6 +89,8 @@ consoleListener
 =
 {
 observe
+:
+function
 (
 aMessage
 )

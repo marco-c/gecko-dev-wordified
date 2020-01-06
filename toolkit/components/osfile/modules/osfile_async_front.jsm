@@ -1770,6 +1770,8 @@ timer
 *
 /
 restartTimer
+:
+function
 (
 arg
 )
@@ -1861,6 +1863,8 @@ mean
 *
 /
 kill
+:
+function
 (
 {
 shutdown
@@ -2620,6 +2624,8 @@ code
 *
 /
 push
+:
+function
 (
 code
 )
@@ -3406,6 +3412,8 @@ launch
 *
 /
 _updateTelemetry
+:
+function
 (
 )
 {
@@ -9605,6 +9613,8 @@ prototype
 =
 {
 iterator
+:
+function
 (
 )
 {
@@ -9613,6 +9623,8 @@ this
 ;
 }
 __iterator__
+:
+function
 (
 )
 {
@@ -10804,6 +10816,8 @@ queue
 "
 {
 get
+:
+function
 (
 )
 {
@@ -10960,6 +10974,8 @@ File
 *
 /
 getDetails
+:
+function
 (
 )
 {
