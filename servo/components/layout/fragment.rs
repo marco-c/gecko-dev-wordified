@@ -19495,6 +19495,7 @@ self
 >
 bool
 {
+!
 self
 .
 style
@@ -19509,7 +19510,7 @@ transform
 .
 0
 .
-is_some
+is_empty
 (
 )
 |
@@ -20044,6 +20045,7 @@ integer_or
 )
 }
 if
+!
 self
 .
 style
@@ -20058,7 +20060,7 @@ transform
 .
 0
 .
-is_some
+is_empty
 (
 )
 {
