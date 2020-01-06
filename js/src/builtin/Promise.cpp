@@ -6866,7 +6866,14 @@ IsWrapper
 (
 reactions
 )
+|
+|
+JS_IsDeadWrapper
+(
+reactions
 )
+)
+{
 return
 EnqueuePromiseReactionJob
 (
@@ -6876,6 +6883,7 @@ valueOrReason
 state
 )
 ;
+}
 RootedNativeObject
 reactionsList
 (
