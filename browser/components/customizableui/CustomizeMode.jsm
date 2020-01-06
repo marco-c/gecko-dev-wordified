@@ -4198,6 +4198,11 @@ if
 aNode
 .
 parentNode
+&
+&
+aNode
+.
+parentNode
 .
 id
 .
@@ -4512,6 +4517,11 @@ if
 aNode
 .
 parentNode
+&
+&
+aNode
+.
+parentNode
 .
 id
 .
@@ -4709,6 +4719,11 @@ widgetAnimationPromise
 {
 if
 (
+aNode
+.
+parentNode
+&
+&
 aNode
 .
 parentNode
@@ -5045,6 +5060,11 @@ widgetAnimationPromise
 {
 if
 (
+aNode
+.
+parentNode
+&
+&
 aNode
 .
 parentNode
