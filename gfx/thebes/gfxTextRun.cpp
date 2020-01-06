@@ -12278,7 +12278,13 @@ FindAndAddFamilies
 aName
 &
 aFamilyList
-true
+gfxPlatformFontList
+:
+:
+FindFamiliesFlags
+(
+0
+)
 &
 mStyle
 mDevToCssSize
