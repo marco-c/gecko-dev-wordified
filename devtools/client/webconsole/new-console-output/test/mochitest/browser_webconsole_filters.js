@@ -170,7 +170,7 @@ hud
 .
 ui
 .
-experimentalOutputNode
+outputNode
 ;
 const
 toolbar
@@ -551,7 +551,7 @@ hud
 .
 ui
 .
-experimentalOutputNode
+outputNode
 ;
 const
 filterBar
