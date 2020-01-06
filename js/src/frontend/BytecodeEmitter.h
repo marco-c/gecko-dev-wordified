@@ -1782,6 +1782,7 @@ is
 being
 emitted
 .
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 functionBodyEndPos
 ;
