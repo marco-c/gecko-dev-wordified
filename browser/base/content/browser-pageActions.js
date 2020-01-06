@@ -4713,6 +4713,7 @@ panelNode
 .
 hidePopup
 (
+true
 )
 ;
 }
