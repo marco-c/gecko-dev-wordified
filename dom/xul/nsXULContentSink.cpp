@@ -4741,11 +4741,6 @@ isJavaScript
 =
 true
 ;
-uint32_t
-version
-=
-JSVERSION_DEFAULT
-;
 nsresult
 rv
 ;
@@ -4907,10 +4902,6 @@ mimeType
 isJavaScript
 =
 true
-;
-version
-=
-JSVERSION_DEFAULT
 ;
 /
 /
@@ -5091,10 +5082,6 @@ isJavaScript
 =
 true
 ;
-version
-=
-JSVERSION_DEFAULT
-;
 }
 }
 aAttributes
@@ -5170,7 +5157,6 @@ new
 nsXULPrototypeScript
 (
 aLineNumber
-version
 )
 ;
 /

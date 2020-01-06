@@ -1135,12 +1135,11 @@ nsXULPrototypeNode
 {
 public
 :
+explicit
 nsXULPrototypeScript
 (
 uint32_t
 aLineNo
-uint32_t
-version
 )
 ;
 virtual
@@ -1417,9 +1416,6 @@ OWNER
 but
 not
 COMPtr
-uint32_t
-mLangVersion
-;
 private
 :
 JS
