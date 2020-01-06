@@ -25076,10 +25076,6 @@ child
 in
 el
 .
-as_node
-(
-)
-.
 traversal_children
 (
 )
