@@ -1817,8 +1817,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 NPObjectMember_Finalize
 NPObjectMember_Call
 nullptr

@@ -19365,8 +19365,6 @@ sandbox_classOps
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 sandbox_enumerate
 sandbox_resolve
 nullptr
@@ -45609,8 +45607,6 @@ JSClassOps
 global_classOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

@@ -662,8 +662,6 @@ gPrototypeJSClassOps
 {
 nullptr
 nullptr
-nullptr
-nullptr
 XBLEnumerate
 nullptr
 nullptr

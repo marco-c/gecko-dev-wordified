@@ -3454,8 +3454,6 @@ SandboxClassOps
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 JS_NewEnumerateStandardClasses
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
@@ -3550,8 +3548,6 @@ SandboxWriteToProtoClassOps
 =
 {
 sandbox_addProperty
-nullptr
-nullptr
 nullptr
 nullptr
 JS_NewEnumerateStandardClasses

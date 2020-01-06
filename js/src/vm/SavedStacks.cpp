@@ -1896,14 +1896,6 @@ delProperty
 nullptr
 /
 /
-getProperty
-nullptr
-/
-/
-setProperty
-nullptr
-/
-/
 enumerate
 nullptr
 /
