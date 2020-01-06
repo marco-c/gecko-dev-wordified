@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-canvas_traits
-:
-:
-CanvasData
-;
-use
 dom
 :
 :
@@ -2876,13 +2870,7 @@ recv
 {
 Ok
 (
-CanvasData
-:
-:
-Image
-(
 data
-)
 )
 =
 >
