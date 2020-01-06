@@ -2070,6 +2070,12 @@ mSelectedTab
 =
 tab
 ;
+mSelectedTab
+.
+updatePageAction
+(
+)
+;
 notifyListeners
 (
 tab
