@@ -1070,10 +1070,15 @@ The
 current
 viewport
 size
+used
+to
+resolve
+viewport
+units
 .
 pub
 fn
-viewport_size
+viewport_size_for_viewport_unit_resolution
 (
 &
 self
@@ -1091,7 +1096,7 @@ builder
 .
 device
 .
-au_viewport_size
+au_viewport_size_for_viewport_unit_resolution
 (
 )
 }

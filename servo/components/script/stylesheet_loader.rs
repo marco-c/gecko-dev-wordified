@@ -2218,15 +2218,6 @@ clone
 (
 )
 )
-dirty_on_viewport_size_change
-:
-AtomicBool
-:
-:
-new
-(
-false
-)
 quirks_mode
 :
 context
