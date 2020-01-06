@@ -1473,6 +1473,15 @@ WebrtcUI
 "
 getUserMedia
 :
+ask
+-
+device
+-
+permission
+"
+"
+getUserMedia
+:
 request
 "
 "

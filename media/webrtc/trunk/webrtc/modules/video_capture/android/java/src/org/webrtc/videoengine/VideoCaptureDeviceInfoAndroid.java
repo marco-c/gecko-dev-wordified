@@ -583,14 +583,11 @@ hasPermissions
 =
 Permissions
 .
-waitFor
+has
 (
-(
-Activity
-)
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 Manifest
