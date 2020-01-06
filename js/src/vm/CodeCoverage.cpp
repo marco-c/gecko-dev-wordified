@@ -2890,6 +2890,10 @@ comp
 JSScript
 *
 script
+const
+char
+*
+name
 )
 {
 /
@@ -2950,12 +2954,7 @@ source
 lookupOrAdd
 (
 comp
-script
--
->
-getScriptName
-(
-)
+name
 )
 ;
 if

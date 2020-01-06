@@ -458,6 +458,10 @@ comp
 JSScript
 *
 topLevel
+const
+char
+*
+name
 )
 ;
 /
