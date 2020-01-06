@@ -1165,6 +1165,9 @@ mSupportsComponentAlpha
 bool
 mSupportsBackdropCopyForComponentAlpha
 ;
+bool
+mUsingAdvancedLayers
+;
 SyncHandle
 mSyncHandle
 ;
@@ -1239,6 +1242,10 @@ aSupportsComponentAlpha
 mSupportsBackdropCopyForComponentAlpha
 (
 true
+)
+mUsingAdvancedLayers
+(
+false
 )
 mSyncHandle
 (
