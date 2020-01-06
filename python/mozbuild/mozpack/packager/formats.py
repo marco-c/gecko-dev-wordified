@@ -2719,10 +2719,6 @@ hyphenation
 '
             
 '
-localization
-'
-            
-'
 update
 .
 locale
