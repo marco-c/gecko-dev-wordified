@@ -173,18 +173,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGetter
-(
-this
-"
+var
 dump
-"
-(
-)
 =
->
 Cu
 .
 import
@@ -216,7 +207,6 @@ null
 "
 ViewNavigation
 "
-)
 )
 ;
 function
