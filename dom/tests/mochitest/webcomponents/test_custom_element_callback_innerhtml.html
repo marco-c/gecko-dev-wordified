@@ -171,7 +171,7 @@ waitForExplicitFinish
 )
 ;
 var
-attachedCallbackCount
+connectedCallbackCount
 =
 0
 ;
@@ -209,7 +209,7 @@ called
 ;
 p
 .
-attachedCallback
+connectedCallback
 =
 function
 (
@@ -219,7 +219,7 @@ ok
 (
 true
 "
-attachedCallback
+connectedCallback
 should
 be
 called
@@ -236,13 +236,13 @@ document
 "
 )
 ;
-attachedCallbackCount
+connectedCallbackCount
 +
 +
 ;
 /
 /
-attachedCallback
+connectedCallback
 should
 be
 called
@@ -268,7 +268,7 @@ document
 .
 if
 (
-attachedCallbackCount
+connectedCallbackCount
 =
 =
 2
