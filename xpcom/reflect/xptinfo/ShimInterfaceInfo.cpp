@@ -380,13 +380,6 @@ h
 #
 include
 "
-nsIDOMHTMLButtonElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h
@@ -2669,10 +2662,6 @@ History
 DEFINE_SHIM
 (
 HTMLBaseElement
-)
-DEFINE_SHIM
-(
-HTMLButtonElement
 )
 DEFINE_SHIM
 (
