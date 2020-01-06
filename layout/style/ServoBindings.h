@@ -2240,6 +2240,14 @@ Gecko_ImageValue_Create
 (
 ServoBundledURI
 aURI
+mozilla
+:
+:
+ServoRawOffsetArc
+<
+RustString
+>
+aURIString
 )
 ;
 void
