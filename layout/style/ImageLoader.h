@@ -178,13 +178,6 @@ h
 #
 include
 "
-imgIOnloadBlocker
-.
-h
-"
-#
-include
-"
 imgINotificationObserver
 .
 h
@@ -231,8 +224,6 @@ final
 :
 public
 imgINotificationObserver
-public
-imgIOnloadBlocker
 {
 public
 :
@@ -270,7 +261,6 @@ mDocument
 ;
 }
 NS_DECL_ISUPPORTS
-NS_DECL_IMGIONLOADBLOCKER
 NS_DECL_IMGINOTIFICATIONOBSERVER
 void
 DropDocumentReference

@@ -446,7 +446,6 @@ nsGenConImageContent
 nsXMLElement
 nsIImageLoadingContent
 imgINotificationObserver
-imgIOnloadBlocker
 )
 nsresult
 NS_NewGenConImageContent

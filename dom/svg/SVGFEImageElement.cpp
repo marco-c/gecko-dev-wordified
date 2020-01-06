@@ -404,7 +404,6 @@ nsIDOMElement
 nsIDOMSVGElement
 imgINotificationObserver
 nsIImageLoadingContent
-imgIOnloadBlocker
 )
 /
 /
