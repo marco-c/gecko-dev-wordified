@@ -255,6 +255,14 @@ MediaResourceCallback
 functions
 *
 /
+AbstractThread
+*
+AbstractMainThread
+(
+)
+const
+override
+;
 MediaDecoderOwner
 *
 GetMediaOwner
