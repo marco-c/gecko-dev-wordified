@@ -1009,7 +1009,7 @@ true
 yield
 EventUtils
 .
-synthesizeKey
+synthesizeAndWaitKey
 (
 key
 options
@@ -1114,7 +1114,7 @@ eyedropper
 yield
 EventUtils
 .
-synthesizeKey
+synthesizeAndWaitKey
 (
 "
 VK_RETURN
@@ -1173,7 +1173,7 @@ html
 yield
 EventUtils
 .
-synthesizeKey
+synthesizeAndWaitKey
 (
 "
 VK_ESCAPE
