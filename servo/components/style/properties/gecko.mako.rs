@@ -1048,7 +1048,7 @@ flags
 ComputedValueFlags
 :
 :
-initial
+empty
 (
 )
 rules

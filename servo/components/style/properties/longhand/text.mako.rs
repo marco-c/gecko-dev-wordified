@@ -1008,6 +1008,11 @@ animation_value_type
 "
 discrete
 "
+need_clone
+=
+"
+True
+"
 spec
 =
 "
