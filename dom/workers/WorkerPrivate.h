@@ -860,12 +860,6 @@ Protected
 by
 mMutex
 .
-RefPtr
-<
-EventTarget
->
-mEventTarget
-;
 nsTArray
 <
 RefPtr
@@ -1459,14 +1453,6 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-)
-;
-already_AddRefed
-<
-nsISerialEventTarget
->
-GetEventTarget
-(
 )
 ;
 /
