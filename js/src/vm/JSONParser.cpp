@@ -4165,7 +4165,7 @@ elements
 )
 )
 ;
-JSObject
+ArrayObject
 *
 obj
 =

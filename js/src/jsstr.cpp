@@ -18626,7 +18626,7 @@ steps
 18
 .
 static
-JSObject
+ArrayObject
 *
 SplitHelper
 (
@@ -19276,7 +19276,7 @@ split
 )
 .
 static
-JSObject
+ArrayObject
 *
 CharSplitHelper
 (
@@ -19435,7 +19435,7 @@ TextChar
 >
 static
 MOZ_ALWAYS_INLINE
-JSObject
+ArrayObject
 *
 SplitSingleCharHelper
 (
@@ -19773,7 +19773,7 @@ steps
 18
 .
 static
-JSObject
+ArrayObject
 *
 SplitSingleCharHelper
 (
@@ -19831,7 +19831,6 @@ isLatin1
 (
 )
 )
-{
 return
 SplitSingleCharHelper
 (
@@ -19847,9 +19846,6 @@ ch
 group
 )
 ;
-}
-else
-{
 return
 SplitSingleCharHelper
 (
@@ -19865,7 +19861,6 @@ ch
 group
 )
 ;
-}
 }
 /
 /
@@ -19889,7 +19884,7 @@ steps
 -
 18
 .
-JSObject
+ArrayObject
 *
 js
 :

@@ -2966,7 +2966,7 @@ size_t
 length
 )
 ;
-JSObject
+ArrayObject
 *
 str_split_string
 (

@@ -7257,7 +7257,7 @@ group
 )
 )
 ;
-JSObject
+ArrayObject
 *
 resultObject
 =

@@ -16687,7 +16687,7 @@ length
 (
 )
 ;
-JSObject
+ArrayObject
 *
 nobj
 =
@@ -16713,6 +16713,9 @@ cx
 nobj
 )
 ;
+/
+/
+XXX
 CopyBoxedOrUnboxedDenseElements
 (
 cx
@@ -33260,7 +33263,7 @@ argv
 +
 numFormals
 ;
-JSObject
+ArrayObject
 *
 obj
 =

@@ -569,7 +569,7 @@ object
 *
 /
 extern
-JSObject
+ArrayObject
 *
 NewDenseCopyOnWriteArray
 (
@@ -599,7 +599,7 @@ unboxed
 arrays
 .
 extern
-JSObject
+ArrayObject
 *
 NewFullyAllocatedArrayTryUseGroup
 (
@@ -617,7 +617,7 @@ GenericObject
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewPartlyAllocatedArrayTryUseGroup
 (
@@ -631,7 +631,7 @@ length
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewFullyAllocatedArrayTryReuseGroup
 (
@@ -649,7 +649,7 @@ GenericObject
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewPartlyAllocatedArrayTryReuseGroup
 (
@@ -663,7 +663,7 @@ length
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewFullyAllocatedArrayForCallingAllocationSite
 (
@@ -679,7 +679,7 @@ GenericObject
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewPartlyAllocatedArrayForCallingAllocationSite
 (
@@ -701,24 +701,7 @@ DontUpdate
 }
 ;
 extern
-bool
-MaybeAnalyzeBeforeCreatingLargeArray
-(
-JSContext
-*
-cx
-HandleObjectGroup
-group
-const
-Value
-*
-vp
-size_t
-length
-)
-;
-extern
-JSObject
+ArrayObject
 *
 NewCopiedArrayTryUseGroup
 (
@@ -747,7 +730,7 @@ Update
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 NewCopiedArrayForCallingAllocationSite
 (
@@ -1259,7 +1242,7 @@ v
 )
 ;
 extern
-JSObject
+ArrayObject
 *
 ArrayConstructorOneArg
 (
