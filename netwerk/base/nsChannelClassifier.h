@@ -399,8 +399,7 @@ mTrackingAnnotationEnabled
 nsChannelClassifier
 (
 )
-{
-}
+;
 /
 /
 Caches
