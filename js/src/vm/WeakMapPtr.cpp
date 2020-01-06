@@ -160,7 +160,7 @@ namespace
 js
 ;
 namespace
-details
+WeakMapDetails
 {
 template
 <
@@ -333,7 +333,7 @@ ptr
 }
 /
 *
-namespace
+WeakMapDetails
 *
 /
 template
@@ -367,7 +367,7 @@ initialized
 ;
 js_delete
 (
-details
+WeakMapDetails
 :
 :
 Utils
@@ -422,7 +422,7 @@ initialized
 )
 ;
 typename
-details
+WeakMapDetails
 :
 :
 Utils
@@ -446,7 +446,7 @@ zone
 new_
 <
 typename
-details
+WeakMapDetails
 :
 :
 Utils
@@ -520,7 +520,7 @@ initialized
 )
 ;
 return
-details
+WeakMapDetails
 :
 :
 Utils
@@ -576,7 +576,7 @@ initialized
 )
 ;
 typename
-details
+WeakMapDetails
 :
 :
 Utils
@@ -592,7 +592,7 @@ Type
 Ptr
 result
 =
-details
+WeakMapDetails
 :
 :
 Utils
@@ -619,7 +619,7 @@ if
 result
 )
 return
-details
+WeakMapDetails
 :
 :
 DataType
@@ -682,7 +682,7 @@ initialized
 )
 ;
 return
-details
+WeakMapDetails
 :
 :
 Utils
@@ -733,7 +733,7 @@ key
 {
 typedef
 typename
-details
+WeakMapDetails
 :
 :
 Utils
@@ -765,7 +765,7 @@ Map
 *
 map
 =
-details
+WeakMapDetails
 :
 :
 Utils
@@ -817,7 +817,7 @@ value
 ;
 }
 return
-details
+WeakMapDetails
 :
 :
 DataType
