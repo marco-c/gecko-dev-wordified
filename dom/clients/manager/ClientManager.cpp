@@ -145,6 +145,13 @@ h
 #
 include
 "
+ClientPrefs
+.
+h
+"
+#
+include
+"
 ClientSource
 .
 h
@@ -1050,6 +1057,10 @@ status
 =
 =
 PR_SUCCESS
+)
+;
+ClientPrefsInit
+(
 )
 ;
 }
