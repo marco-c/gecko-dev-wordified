@@ -6009,6 +6009,25 @@ STYLO_FORCE_DISABLED
 '
 1
 '
+            
+if
+'
+styloseq
+'
+in
+platform
+:
+                
+env
+[
+'
+STYLO_THREADS
+'
+]
+=
+'
+1
+'
         
 #
 sets
