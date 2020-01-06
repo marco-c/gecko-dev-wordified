@@ -3937,7 +3937,7 @@ arrayIndex
 mContext
 -
 >
-mImplMaxDrawBuffers
+mGLMaxDrawBuffers
 )
 return
 -

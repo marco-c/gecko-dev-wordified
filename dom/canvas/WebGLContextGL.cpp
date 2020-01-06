@@ -11121,7 +11121,7 @@ width
 (
 GLsizei
 )
-mImplMaxViewportDims
+mGLMaxViewportDims
 [
 0
 ]
@@ -11138,7 +11138,7 @@ height
 (
 GLsizei
 )
-mImplMaxViewportDims
+mGLMaxViewportDims
 [
 1
 ]

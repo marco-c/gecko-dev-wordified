@@ -1047,7 +1047,7 @@ width
 mContext
 -
 >
-mImplMaxRenderbufferSize
+mGLMaxRenderbufferSize
 |
 |
 height
@@ -1055,7 +1055,7 @@ height
 mContext
 -
 >
-mImplMaxRenderbufferSize
+mGLMaxRenderbufferSize
 )
 {
 mContext
