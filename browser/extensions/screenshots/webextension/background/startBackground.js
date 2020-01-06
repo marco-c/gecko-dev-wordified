@@ -418,6 +418,8 @@ icon
 starred
 -
 32
+-
+v2
 .
 svg
 "
