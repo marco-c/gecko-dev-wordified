@@ -374,6 +374,12 @@ closePicker
 (
 )
 ;
+this
+.
+close
+(
+)
+;
 break
 ;
 }
