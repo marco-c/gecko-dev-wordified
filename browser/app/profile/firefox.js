@@ -20728,9 +20728,6 @@ proto
 )
 update
 .
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -20739,16 +20736,6 @@ urlclassifier
 malwareTable
 "
 "
-goog
--
-malware
--
-shavar
-goog
--
-unwanted
--
-shavar
 goog
 -
 malware
@@ -20784,11 +20771,6 @@ goog
 -
 phish
 -
-shavar
-goog
--
-phish
--
 proto
 test
 -
@@ -20798,8 +20780,6 @@ simple
 "
 )
 ;
-#
-endif
 pref
 (
 "
