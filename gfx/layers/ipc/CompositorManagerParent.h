@@ -191,7 +191,7 @@ class
 CompositorBridgeParent
 ;
 class
-CompositorThreadHolder
+CompositorThreadHolderDebug
 ;
 #
 ifndef
@@ -369,7 +369,7 @@ DeferredDestroy
 ;
 RefPtr
 <
-CompositorThreadHolder
+CompositorThreadHolderDebug
 >
 mCompositorThreadHolder
 ;
