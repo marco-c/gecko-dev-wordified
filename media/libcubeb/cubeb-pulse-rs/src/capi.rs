@@ -1567,6 +1567,9 @@ Some
 (
 capi_stream_stop
 )
+stream_reset_default_device
+:
+None
 stream_get_position
 :
 Some
