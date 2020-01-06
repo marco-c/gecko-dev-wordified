@@ -71,6 +71,12 @@ addPermission
 (
 )
 ;
+browserElementTestHelpers
+.
+allowTopLevelDataURINavigation
+(
+)
+;
 var
 iframe
 ;
