@@ -99,12 +99,6 @@ central
 '
 mozilla
 -
-aurora
-'
-    
-'
-mozilla
--
 beta
 '
     
@@ -114,6 +108,24 @@ mozilla
 release
 '
 }
+RELEASE_PROMOTION_PROJECTS
+=
+{
+    
+'
+jamun
+'
+    
+'
+maple
+'
+    
+'
+try
+'
+}
+|
+RELEASE_PROJECTS
 _OPTIONAL_ATTRIBUTES
 =
 (
