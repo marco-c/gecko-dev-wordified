@@ -2072,22 +2072,6 @@ running
         
 :
 param
-restart
-:
-If
-True
-assume
-this
-is
-being
-called
-by
-restart
-method
-.
-        
-:
-param
 clean
 :
 If
@@ -3026,9 +3010,6 @@ def
 close
 (
 self
-restart
-=
-False
 clean
 =
 False
@@ -3072,22 +3053,6 @@ emulator
         
 :
 param
-restart
-:
-If
-True
-assume
-this
-is
-being
-called
-by
-restart
-method
-.
-        
-:
-param
 clean
 :
 If
@@ -3110,7 +3075,6 @@ self
 .
 close
 (
-restart
 clean
 )
         
