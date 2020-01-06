@@ -191,6 +191,7 @@ __future__
 import
 absolute_import
 from
+.
 mozdebug
 import
 *
