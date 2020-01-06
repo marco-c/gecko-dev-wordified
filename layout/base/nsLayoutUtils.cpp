@@ -10461,7 +10461,7 @@ ContainsFrame
 aChildFrame
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 found
 "

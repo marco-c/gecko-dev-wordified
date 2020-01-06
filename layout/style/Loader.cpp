@@ -1432,7 +1432,7 @@ mPendingChildren
 )
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 mUseSystemPrincipal
@@ -1579,7 +1579,7 @@ loader
 "
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 mUseSystemPrincipal

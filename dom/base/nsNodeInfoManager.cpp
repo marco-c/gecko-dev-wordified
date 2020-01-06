@@ -2369,7 +2369,7 @@ aNodeInfo
 mInner
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 ret
 "

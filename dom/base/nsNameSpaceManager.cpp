@@ -717,7 +717,7 @@ kNameSpaceID_Unknown
 ;
 }
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aNameSpaceID
 >
@@ -971,7 +971,7 @@ nameSpaceID
 )
 )
 {
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 nameSpaceID
 >
@@ -1000,7 +1000,7 @@ nameSpaceID
 )
 )
 {
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 nameSpaceID
 >

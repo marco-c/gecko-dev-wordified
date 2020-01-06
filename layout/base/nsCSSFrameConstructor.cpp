@@ -9847,7 +9847,7 @@ aFrameItems
 ;
 }
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aFrameItems
 .
@@ -62066,7 +62066,7 @@ nextContinuation
 )
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 newFrame
@@ -89279,7 +89279,7 @@ SetToEnd
 (
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 *
 this
@@ -89365,7 +89365,7 @@ aItem
 1
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aItem
 -

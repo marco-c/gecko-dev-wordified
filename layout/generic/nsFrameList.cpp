@@ -1534,7 +1534,7 @@ mFrame
 =
 nullptr
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aLink
 .

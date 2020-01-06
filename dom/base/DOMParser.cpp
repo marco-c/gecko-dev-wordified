@@ -1981,7 +1981,7 @@ mBaseURI
 =
 baseURI
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 mPrincipal
 "
@@ -1991,7 +1991,7 @@ principal
 "
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 mDocumentURI
 "

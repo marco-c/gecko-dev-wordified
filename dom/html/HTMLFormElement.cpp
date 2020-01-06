@@ -7402,7 +7402,7 @@ firstSubmitSlot
 aChild
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 mDefaultSubmitElement
 =
@@ -8212,7 +8212,7 @@ mFirstSubmitInElements
 mFirstSubmitNotInElements
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 mDefaultSubmitElement
 =

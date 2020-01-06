@@ -3727,7 +3727,7 @@ GetNextContinuation
 )
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 found
@@ -61207,7 +61207,7 @@ f
 next
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 framesToRemove

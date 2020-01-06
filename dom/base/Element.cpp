@@ -11263,7 +11263,7 @@ when
 that
 happens
 .
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aDocument
 =
@@ -11279,7 +11279,7 @@ document
 "
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aParent
 =
@@ -11295,7 +11295,7 @@ parent
 "
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 aBindingParent
 =

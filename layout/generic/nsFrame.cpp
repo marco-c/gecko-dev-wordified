@@ -44036,7 +44036,7 @@ frame
 next
 ;
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 frame
 "
