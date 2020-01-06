@@ -520,9 +520,6 @@ bool
 timerTestResult
 ;
 bool
-asyncCallbackResult
-;
-bool
 invalidateDuringPaint
 ;
 bool
@@ -558,9 +555,6 @@ writeCount
 int32_t
 writeReadyCount
 ;
-int32_t
-asyncTestPhase
-;
 TestFunction
 testFunction
 ;
@@ -594,12 +588,6 @@ std
 :
 string
 timerTestScriptCallback
-;
-std
-:
-:
-string
-asyncTestScriptCallback
 ;
 std
 :

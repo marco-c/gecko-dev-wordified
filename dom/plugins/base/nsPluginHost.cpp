@@ -19556,10 +19556,6 @@ aTopic
 )
 )
 {
-OnShutdown
-(
-)
-;
 UnloadPlugins
 (
 )
