@@ -2037,9 +2037,6 @@ hasTier2
 is
 true
 mutable
-mozilla
-:
-:
 Atomic
 <
 bool

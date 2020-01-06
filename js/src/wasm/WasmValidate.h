@@ -301,9 +301,6 @@ kind
 MemoryUsage
 memoryUsage
 ;
-mozilla
-:
-:
 Atomic
 <
 uint32_t
