@@ -2007,6 +2007,10 @@ PaintedLayerData
 aLayerData
 =
 nullptr
+bool
+aIsInactiveLayerManager
+=
+false
 const
 DisplayItemClip
 *
@@ -4423,7 +4427,7 @@ IsBuildingRetainedLayers
 {
 return
 !
-mContainingPaintedLayer
+mIsInactiveLayerManager
 &
 &
 mRetainingManager
@@ -4760,6 +4764,9 @@ mInvalidateAllLayers
 ;
 bool
 mInLayerTreeCompressionMode
+;
+bool
+mIsInactiveLayerManager
 ;
 uint32_t
 mContainerLayerGeneration
