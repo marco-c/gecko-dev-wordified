@@ -7507,6 +7507,15 @@ finalize
 (
 )
 true
+webrender_api
+:
+:
+ResourceUpdates
+:
+:
+new
+(
+)
 )
 ;
 self
