@@ -338,7 +338,6 @@ MOZ_ASSERT
 mInitialized
 )
 ;
-return
 mOriginNoSuffix
 -
 >
@@ -346,6 +345,9 @@ ToUTF8String
 (
 aOrigin
 )
+;
+return
+NS_OK
 ;
 }
 bool
@@ -1410,7 +1412,6 @@ MOZ_ASSERT
 mOriginSuffix
 )
 ;
-return
 mOriginSuffix
 -
 >
@@ -1418,6 +1419,9 @@ ToUTF8String
 (
 aOriginAttributes
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
