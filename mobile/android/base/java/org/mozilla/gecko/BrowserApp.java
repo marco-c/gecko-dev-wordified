@@ -20882,7 +20882,7 @@ null
 return
 ;
 }
-addAddonMenuItemToMenu
+addBrowserActionMenuItemToMenu
 (
 mMenu
 info
