@@ -256,17 +256,6 @@ PerformanceMainThread
 (
 )
 ;
-nsISupports
-*
-GetAsISupports
-(
-)
-override
-{
-return
-this
-;
-}
 void
 InsertUserEntry
 (

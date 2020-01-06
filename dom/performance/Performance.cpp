@@ -1493,7 +1493,7 @@ performanceMark
 new
 PerformanceMark
 (
-GetAsISupports
+GetParentObject
 (
 )
 aName
@@ -1908,7 +1908,7 @@ performanceMeasure
 new
 PerformanceMeasure
 (
-GetAsISupports
+GetParentObject
 (
 )
 aName

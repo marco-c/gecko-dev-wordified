@@ -594,15 +594,6 @@ aRv
 )
 ;
 virtual
-nsISupports
-*
-GetAsISupports
-(
-)
-=
-0
-;
-virtual
 void
 DispatchBufferFullEvent
 (
