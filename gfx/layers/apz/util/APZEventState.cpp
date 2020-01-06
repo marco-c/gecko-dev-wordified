@@ -1185,6 +1185,9 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
+dom
+:
+:
 TabChild
 *
 tabChild

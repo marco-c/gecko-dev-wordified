@@ -6533,6 +6533,9 @@ nullptr
 )
 ;
 return
+IAPZCTreeManager
+:
+:
 WillHandleWheelEvent
 (
 &
