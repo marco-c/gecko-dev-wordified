@@ -9098,8 +9098,8 @@ index
 validation
 "
 WebGLForceIndexValidation
-bool
-false
+int32_t
+0
 )
 ;
 DECL_GFX_PREF
