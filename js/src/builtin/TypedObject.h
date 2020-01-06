@@ -4912,12 +4912,9 @@ object
 )
 ;
 static
-void
-objectMovedDuringMinorGC
+size_t
+obj_moved
 (
-JSTracer
-*
-trc
 JSObject
 *
 dst

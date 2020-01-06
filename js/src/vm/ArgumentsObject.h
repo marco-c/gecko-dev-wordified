@@ -2617,11 +2617,8 @@ obj
 ;
 static
 size_t
-objectMovedDuringMinorGC
+objectMoved
 (
-JSTracer
-*
-trc
 JSObject
 *
 dst
@@ -2887,6 +2884,11 @@ classOps_
 ;
 static
 const
+ClassExtension
+classExt_
+;
+static
+const
 ObjectOps
 objectOps_
 ;
@@ -3042,6 +3044,11 @@ static
 const
 ClassOps
 classOps_
+;
+static
+const
+ClassExtension
+classExt_
 ;
 public
 :
