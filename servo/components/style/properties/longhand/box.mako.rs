@@ -16380,13 +16380,11 @@ gecko
 "
 boxed
 =
-"
 True
-"
 animation_value_type
 =
 "
-none
+discrete
 "
 flags
 =
