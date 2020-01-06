@@ -535,16 +535,6 @@ false
 "
 ui
 .
-physicalHomeButton
-"
-eIntID_PhysicalHomeButton
-false
-0
-}
-{
-"
-ui
-.
 contextMenuOffsetVertical
 "
 eIntID_ContextMenuOffsetVertical
