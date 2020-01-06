@@ -1073,7 +1073,6 @@ grid
 "
 .
 *
-*
 /
 renderCannotShowOutlineText
 (
