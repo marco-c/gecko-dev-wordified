@@ -413,6 +413,9 @@ final
 Context
 context
 final
+View
+anchor
+final
 ActivityStreamTelemetry
 .
 Extras
@@ -447,6 +450,7 @@ tilesHeight
 super
 (
 context
+anchor
 telemetryExtraBuilder
 mode
 item
