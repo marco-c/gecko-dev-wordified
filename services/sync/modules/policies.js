@@ -1518,6 +1518,14 @@ this
 globalScore
 >
 0
+&
+&
+Status
+.
+service
+=
+=
+STATUS_OK
 )
 {
 /
