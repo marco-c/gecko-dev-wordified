@@ -13280,17 +13280,6 @@ JSObject
 obj
 jsid
 id
-JSObject
-*
-*
-lastProto
-=
-nullptr
-size_t
-*
-protoChainDepthOut
-=
-nullptr
 )
 ;
 void
