@@ -3991,8 +3991,6 @@ get
 "
 marionette
 .
-defaultPrefs
-.
 port
 "
 )
