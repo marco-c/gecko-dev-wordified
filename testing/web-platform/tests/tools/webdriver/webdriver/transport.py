@@ -425,7 +425,7 @@ send
 (
 self
 method
-url
+uri
 body
 =
 None
@@ -608,9 +608,10 @@ url
 =
 self
 .
-url_prefix
-+
 url
+(
+uri
+)
         
 kwargs
 =
