@@ -13423,6 +13423,8 @@ For
 now
 only
 inspector
+and
+webconsole
 fires
 "
 reloaded
@@ -13435,6 +13437,14 @@ toolId
 =
 "
 inspector
+"
+&
+&
+toolId
+!
+=
+"
+webconsole
 "
 )
 {
