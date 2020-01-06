@@ -168,9 +168,6 @@ const
 uint32_t
 E
 =
-mp4_demuxer
-:
-:
 MP4Metadata
 :
 :

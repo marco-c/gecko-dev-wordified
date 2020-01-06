@@ -148,7 +148,7 @@ mp4parse_track_video_info
 ;
 }
 namespace
-mp4_demuxer
+mozilla
 {
 class
 MP4Demuxer
