@@ -1933,7 +1933,7 @@ records
 except
 roots
 .
-syncId
+recordId
 :
 simpleValidateFunc
 (
@@ -1972,14 +1972,14 @@ v
 )
 )
 )
-parentSyncId
+parentRecordId
 :
 v
 =
 >
 SYNC_BOOKMARK_VALIDATORS
 .
-syncId
+recordId
 (
 v
 )
