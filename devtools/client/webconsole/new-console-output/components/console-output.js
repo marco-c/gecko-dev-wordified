@@ -113,6 +113,7 @@ const
 getAllMessagesUiById
 getAllMessagesTableDataById
 getVisibleMessages
+getAllRepeatById
 }
 =
 require
@@ -229,6 +230,13 @@ PropTypes
 .
 bool
 messagesTableData
+:
+PropTypes
+.
+object
+.
+isRequired
+messagesRepeat
 :
 PropTypes
 .
@@ -470,6 +478,7 @@ dispatch
 visibleMessages
 messagesUi
 messagesTableData
+messagesRepeat
 serviceContainer
 timestampsVisible
 }
@@ -530,6 +539,14 @@ message
 .
 indent
 timestampsVisible
+repeat
+:
+messagesRepeat
+[
+message
+.
+id
+]
 }
 )
 )
@@ -658,6 +675,12 @@ state
 messagesTableData
 :
 getAllMessagesTableDataById
+(
+state
+)
+messagesRepeat
+:
+getAllRepeatById
 (
 state
 )

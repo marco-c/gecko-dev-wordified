@@ -222,6 +222,20 @@ id
 )
 ;
 }
+function
+getAllRepeatById
+(
+state
+)
+{
+return
+state
+.
+messages
+.
+repeatById
+;
+}
 module
 .
 exports
@@ -234,5 +248,6 @@ getAllMessagesTableDataById
 getAllGroupsById
 getCurrentGroup
 getVisibleMessages
+getAllRepeatById
 }
 ;

@@ -340,6 +340,11 @@ PropTypes
 bool
 .
 isRequired
+repeat
+:
+PropTypes
+.
+object
 }
 getDefaultProps
 :
@@ -371,15 +376,11 @@ this
 .
 props
 .
-message
-.
 repeat
 !
 =
 =
 nextProps
-.
-message
 .
 repeat
 ;
