@@ -659,7 +659,7 @@ dirsvc
 get
 (
 "
-XREUserNativeMessaging
+XREUserNativeManifests
 "
 Ci
 .
@@ -674,7 +674,7 @@ dirsvc
 get
 (
 "
-XRESysNativeMessaging
+XRESysNativeManifests
 "
 Ci
 .
