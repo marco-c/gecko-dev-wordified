@@ -477,7 +477,7 @@ pref
 "
 devtools
 .
-webconsole
+netmonitor
 .
 persistlog
 "

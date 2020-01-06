@@ -730,7 +730,7 @@ getBoolPref
 "
 devtools
 .
-webconsole
+netmonitor
 .
 persistlog
 "
