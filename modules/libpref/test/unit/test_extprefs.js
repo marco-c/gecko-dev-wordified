@@ -315,7 +315,7 @@ NS_ERROR_UNEXPECTED
 ;
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 prefFile
 )
