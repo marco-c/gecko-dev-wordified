@@ -7571,14 +7571,12 @@ isDir
 {
 curName
 .
-Append
+AppendLiteral
 (
-NS_LITERAL_STRING
-(
+u
 "
 /
 "
-)
 )
 ;
 rv

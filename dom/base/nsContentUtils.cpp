@@ -9208,13 +9208,11 @@ IsEmpty
 \
 aString
 .
-Append
+AppendLiteral
 (
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
 )
 ;
 \
