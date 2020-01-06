@@ -124,6 +124,8 @@ getDialogWindow
 let
 requestId
 =
+paymentUISrv
+.
 requestIdForWindow
 (
 win
