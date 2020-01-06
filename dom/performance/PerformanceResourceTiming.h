@@ -338,14 +338,6 @@ const
 {
 return
 mTiming
-&
-&
-mTiming
--
->
-TimingAllowed
-(
-)
 ?
 mTiming
 -
