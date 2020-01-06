@@ -296,7 +296,10 @@ self
 background
 :
 :
+{
+BackgroundRepeat
 BackgroundSize
+}
 ;
 pub
 use

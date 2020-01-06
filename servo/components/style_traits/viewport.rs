@@ -71,16 +71,14 @@ use
 CSSPixel
 PinchZoomFactor
 ParseError
+ToCss
 }
 ;
 use
 cssparser
 :
 :
-{
 Parser
-ToCss
-}
 ;
 use
 euclid

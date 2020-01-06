@@ -332,7 +332,10 @@ self
 background
 :
 :
+{
 BackgroundSize
+BackgroundRepeat
+}
 ;
 pub
 use

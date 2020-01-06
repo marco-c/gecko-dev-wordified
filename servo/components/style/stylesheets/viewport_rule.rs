@@ -163,12 +163,7 @@ use
 cssparser
 :
 :
-{
 CowRcStr
-ToCss
-as
-ParserToCss
-}
 ;
 use
 error_reporting

@@ -1836,12 +1836,6 @@ image
 repeat
 "
 >
-use
-style_traits
-:
-:
-ToCss
-;
 pub
 mod
 computed_value
