@@ -331,12 +331,15 @@ availWidth
 current
 width
 {
-expected
+current
 }
 should
 be
 greater
 than
+or
+equal
+to
 max
 width
 {
@@ -350,7 +353,7 @@ format
 delta
 =
 delta
-expected
+current
 =
 actual
 [
@@ -392,6 +395,8 @@ max
 height
 "
 ]
+-
+delta
             
 msg
 =
@@ -414,14 +419,17 @@ availHeight
 current
 height
 {
-expected
+current
 }
 should
 be
 greater
 than
+or
+equal
+to
 max
-width
+height
 {
 max
 }
@@ -433,7 +441,7 @@ format
 delta
 =
 delta
-expected
+current
 =
 actual
 [
