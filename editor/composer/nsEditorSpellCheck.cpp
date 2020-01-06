@@ -5171,8 +5171,6 @@ value
 nsAutoString
 preferredDict
 ;
-preferredDict
-=
 Preferences
 :
 :
@@ -5183,6 +5181,7 @@ spellchecker
 .
 dictionary
 "
+preferredDict
 )
 ;
 if
