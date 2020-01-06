@@ -1924,8 +1924,16 @@ trace
 "
 Matched
 rules
+for
+{
+:
+?
+}
 :
 "
+self
+.
+element
 )
 ;
 for
