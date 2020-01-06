@@ -2837,8 +2837,15 @@ selection
 -
 background
 -
-semitransparent
+hover
 )
+;
+z
+-
+index
+:
+-
+1
 ;
 }
 .
