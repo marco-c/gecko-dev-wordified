@@ -133,8 +133,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -1939,7 +1937,6 @@ async
 function
 *
 (
-e
 animation
 )
 {
@@ -2267,7 +2264,6 @@ this
 .
 onTimelineDataChanged
 (
-null
 {
 time
 :
@@ -3311,7 +3307,6 @@ this
 .
 onAnimationSelected
 (
-null
 this
 .
 animations
@@ -3391,7 +3386,6 @@ this
 .
 onAnimationSelected
 (
-null
 this
 .
 selectedAnimation
@@ -4131,7 +4125,6 @@ onTimelineDataChanged
 :
 function
 (
-e
 {
 time
 }
