@@ -14792,6 +14792,16 @@ MOZ_ASSERT
 mSandboxBroker
 )
 ;
+bool
+isFileProcess
+=
+mRemoteType
+.
+EqualsLiteral
+(
+FILE_REMOTE_TYPE
+)
+;
 UniquePtr
 <
 SandboxBroker
@@ -14809,6 +14819,7 @@ GetContentPolicy
 Pid
 (
 )
+isFileProcess
 )
 ;
 if
