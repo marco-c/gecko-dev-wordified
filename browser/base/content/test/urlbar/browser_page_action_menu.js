@@ -2182,7 +2182,7 @@ resolve
 (
 event
 .
-target
+originalTarget
 )
 ;
 }
@@ -2227,7 +2227,7 @@ resolve
 (
 event
 .
-target
+originalTarget
 )
 ;
 }
