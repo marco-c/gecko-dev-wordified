@@ -68,15 +68,6 @@ consume_body_with_promise
 }
 ;
 use
-core
-:
-:
-cell
-:
-:
-Cell
-;
-use
 dom
 :
 :
@@ -335,7 +326,10 @@ std
 cell
 :
 :
+{
+Cell
 Ref
+}
 ;
 use
 std

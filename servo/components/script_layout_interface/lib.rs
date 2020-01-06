@@ -279,7 +279,7 @@ use
 nonzero
 :
 :
-NonZeroUsize
+NonZero
 ;
 use
 script_traits
@@ -292,15 +292,6 @@ servo_url
 :
 :
 ServoUrl
-;
-use
-std
-:
-:
-marker
-:
-:
-PhantomData
 ;
 use
 std
@@ -502,11 +493,7 @@ layout
 pub
 ptr
 :
-NonZeroUsize
-pub
-phantom
-:
-PhantomData
+NonZero
 <
 *
 mut

@@ -69,7 +69,6 @@ test
 [
 feature
 (
-plugin
 test
 )
 ]

@@ -88,7 +88,7 @@ use
 nonzero
 :
 :
-NonZeroU32
+NonZero
 ;
 use
 std
@@ -666,7 +666,10 @@ self
 )
 -
 >
-NonZeroU32
+NonZero
+<
+u32
+>
 {
 self
 .
@@ -675,7 +678,7 @@ index
 =
 1
 ;
-NonZeroU32
+NonZero
 :
 :
 new
@@ -827,7 +830,10 @@ struct
 PipelineIndex
 (
 pub
-NonZeroU32
+NonZero
+<
+u32
+>
 )
 ;
 known_heap_size
@@ -1130,7 +1136,10 @@ struct
 BrowsingContextIndex
 (
 pub
-NonZeroU32
+NonZero
+<
+u32
+>
 )
 ;
 known_heap_size
@@ -1637,7 +1646,7 @@ unsafe
 {
 PipelineIndex
 (
-NonZeroU32
+NonZero
 :
 :
 new_unchecked
@@ -1702,7 +1711,7 @@ unsafe
 {
 BrowsingContextIndex
 (
-NonZeroU32
+NonZero
 :
 :
 new_unchecked

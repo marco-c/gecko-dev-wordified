@@ -112,15 +112,6 @@ ServiceUUIDSequence
 }
 ;
 use
-core
-:
-:
-clone
-:
-:
-Clone
-;
-use
 dom
 :
 :

@@ -158,7 +158,7 @@ use
 nonzero
 :
 :
-NonZeroU32
+NonZero
 ;
 use
 profile_traits
@@ -476,7 +476,7 @@ index
 :
 PipelineIndex
 (
-NonZeroU32
+NonZero
 :
 :
 new

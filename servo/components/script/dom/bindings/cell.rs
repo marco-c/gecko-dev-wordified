@@ -109,7 +109,7 @@ extends
 the
 API
 of
-core
+std
 :
 :
 cell
@@ -556,7 +556,7 @@ borrow_mut
 Functionality
 duplicated
 with
-core
+std
 :
 :
 cell
