@@ -268,7 +268,7 @@ ImageClient
 mImageClient
 ;
 CompositableType
-mImageClientContainerType
+mImageClientTypeContainer
 ;
 Maybe
 <
