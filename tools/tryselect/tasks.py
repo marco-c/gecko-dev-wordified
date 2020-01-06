@@ -375,6 +375,23 @@ check
 (
 )
     
+cwd
+=
+os
+.
+getcwd
+(
+)
+    
+os
+.
+chdir
+(
+build
+.
+topsrcdir
+)
+    
 root
 =
 os
@@ -425,6 +442,13 @@ visit_postorder
 (
 )
 ]
+    
+os
+.
+chdir
+(
+cwd
+)
     
 with
 open
