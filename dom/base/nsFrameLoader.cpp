@@ -14145,9 +14145,9 @@ cx
 wrapper
 )
 ;
-nsresult
+IgnoredErrorResult
 rv
-=
+;
 ReparentWrapper
 (
 jsapi
@@ -14156,6 +14156,7 @@ cx
 (
 )
 wrapper
+rv
 )
 ;
 Unused
@@ -14163,9 +14164,10 @@ Unused
 <
 NS_WARN_IF
 (
-NS_FAILED
-(
 rv
+.
+Failed
+(
 )
 )
 ;

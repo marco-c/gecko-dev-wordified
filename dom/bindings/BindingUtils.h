@@ -16912,7 +16912,7 @@ parent
 should
 be
 .
-nsresult
+void
 ReparentWrapper
 (
 JSContext
@@ -16927,6 +16927,9 @@ JSObject
 *
 >
 aObj
+ErrorResult
+&
+aError
 )
 ;
 /
