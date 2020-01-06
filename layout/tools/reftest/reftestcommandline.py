@@ -1011,31 +1011,6 @@ add_argument
 -
 marionette
 -
-port
--
-timeout
-"
-                          
-default
-=
-None
-                          
-help
-=
-argparse
-.
-SUPPRESS
-)
-        
-self
-.
-add_argument
-(
-"
--
--
-marionette
--
 socket
 -
 timeout
@@ -2865,7 +2840,7 @@ connect
             
 options
 .
-marionette_port_timeout
+marionette_startup_timeout
 =
 900
             

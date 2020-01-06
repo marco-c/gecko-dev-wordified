@@ -5676,11 +5676,6 @@ marionette
 .
 start_session
 (
-timeout
-=
-options
-.
-marionette_port_timeout
 )
             
 addons
