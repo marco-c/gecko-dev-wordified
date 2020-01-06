@@ -755,8 +755,6 @@ ok
 (
 tab
 .
-linkedBrowser
-.
 hasAttribute
 (
 "
