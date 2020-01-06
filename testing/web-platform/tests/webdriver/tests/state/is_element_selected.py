@@ -211,6 +211,7 @@ def
 test_handle_prompt_dismiss
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -228,9 +229,16 @@ new_session
 (
 {
 "
+capabilities
+"
+:
+{
+"
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 unhandledPromptBehavior
@@ -239,6 +247,8 @@ unhandledPromptBehavior
 "
 dismiss
 "
+}
+)
 }
 }
 )
@@ -257,6 +267,23 @@ id
 foo
 >
 "
+)
+    
+element
+=
+session
+.
+find
+.
+css
+(
+"
+#
+foo
+"
+all
+=
+False
 )
     
 create_dialog
@@ -319,18 +346,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -403,18 +428,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -487,18 +510,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -514,6 +535,7 @@ def
 test_handle_prompt_accept
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -531,9 +553,16 @@ new_session
 (
 {
 "
+capabilities
+"
+:
+{
+"
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 unhandledPromptBehavior
@@ -542,6 +571,8 @@ unhandledPromptBehavior
 "
 accept
 "
+}
+)
 }
 }
 )
@@ -560,6 +591,23 @@ id
 foo
 >
 "
+)
+    
+element
+=
+session
+.
+find
+.
+css
+(
+"
+#
+foo
+"
+all
+=
+False
 )
     
 create_dialog
@@ -622,18 +670,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -706,18 +752,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -790,18 +834,16 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
 assert_success
 (
 result
-"
-foo
-"
+False
 )
     
 assert_dialog_handled
@@ -817,7 +859,6 @@ def
 test_handle_prompt_missing_value
 (
 session
-create_dialog
 )
 :
     
@@ -844,6 +885,23 @@ foo
 "
 )
     
+element
+=
+session
+.
+find
+.
+css
+(
+"
+#
+foo
+"
+all
+=
+False
+)
+    
 create_dialog
 (
 session
@@ -904,9 +962,9 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
@@ -990,9 +1048,9 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     
@@ -1076,9 +1134,9 @@ session_id
                                             
 element_id
 =
-"
-foo
-"
+element
+.
+id
 )
 )
     

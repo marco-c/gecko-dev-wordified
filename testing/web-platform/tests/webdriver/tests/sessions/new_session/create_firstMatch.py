@@ -44,6 +44,7 @@ def
 test_valid
 (
 new_session
+add_browser_capabilites
 key
 value
 )
@@ -64,11 +65,14 @@ firstMatch
 "
 :
 [
+add_browser_capabilites
+(
 {
 key
 :
 value
 }
+)
 ]
 }
 }

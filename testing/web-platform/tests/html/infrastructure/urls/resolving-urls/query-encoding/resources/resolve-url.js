@@ -385,7 +385,7 @@ force_timeout
 )
 ;
 }
-setTimeout
+step_timeout
 (
 poll
 200
@@ -420,7 +420,7 @@ send
 ;
 }
 )
-setTimeout
+step_timeout
 (
 poll
 200

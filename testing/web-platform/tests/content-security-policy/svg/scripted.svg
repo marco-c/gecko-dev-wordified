@@ -148,11 +148,7 @@ security
 -
 policy
 /
-blink
--
-contrib
-/
-resources
+support
 /
 postmessage
 -

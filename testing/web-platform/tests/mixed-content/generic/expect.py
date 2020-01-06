@@ -624,7 +624,7 @@ content_type
 "
 audio
 /
-mpeg
+wav
 "
 :
                 
@@ -643,13 +643,17 @@ request
 doc_root
                                                   
 "
-media
+webaudio
 "
-                                                  
 "
-sound_5
+resources
+"
+"
+sin_440Hz_
+-
+6dBFS_1s
 .
-oga
+wav
 "
 )
 "
@@ -668,7 +672,7 @@ content_type
 "
 video
 /
-mp4
+ogg
 "
 :
                 
@@ -693,7 +697,7 @@ media
 "
 movie_5
 .
-mp4
+ogv
 "
 )
 "

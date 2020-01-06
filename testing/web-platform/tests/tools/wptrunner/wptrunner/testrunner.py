@@ -930,6 +930,12 @@ self
 init_timer
 =
 None
+        
+self
+.
+command_queue
+=
+command_queue
     
 def
 update_settings

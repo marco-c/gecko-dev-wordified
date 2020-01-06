@@ -1,9 +1,11 @@
 import
 argparse
 import
-os
-import
 json
+import
+logging
+import
+os
 import
 sys
 from
@@ -743,6 +745,17 @@ argv
 None
 )
 :
+    
+logging
+.
+basicConfig
+(
+level
+=
+logging
+.
+INFO
+)
     
 if
 prog

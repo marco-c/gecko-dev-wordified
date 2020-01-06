@@ -157,6 +157,7 @@ n
 m
 )
 <
+=
 tolerance
 def
 test_click_at_coordinates

@@ -234,6 +234,7 @@ def
 test_title_handle_prompt_dismiss
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -244,9 +245,16 @@ new_session
 (
 {
 "
+capabilities
+"
+:
+{
+"
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 unhandledPromptBehavior
@@ -255,6 +263,8 @@ unhandledPromptBehavior
 "
 dismiss
 "
+}
+)
 }
 }
 )
@@ -453,7 +463,7 @@ dismiss2
 )
 =
 =
-None
+False
     
 expected_title
 =
@@ -640,6 +650,7 @@ def
 test_title_handle_prompt_accept
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -650,9 +661,16 @@ new_session
 (
 {
 "
+capabilities
+"
+:
+{
+"
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 unhandledPromptBehavior
@@ -661,6 +679,8 @@ unhandledPromptBehavior
 "
 accept
 "
+}
+)
 }
 }
 )
@@ -857,6 +877,8 @@ session
 accept2
 "
 )
+=
+=
 True
     
 expected_title
@@ -946,6 +968,19 @@ accept3
 =
 =
 "
+"
+or
+read_global
+(
+session
+"
+accept3
+"
+)
+=
+=
+"
+undefined
 "
 #
 [
@@ -2488,13 +2523,7 @@ session_id
 assert_success
 (
 result
-read_global
-(
-session
 "
-document
-.
-title
+Parent
 "
-)
 )

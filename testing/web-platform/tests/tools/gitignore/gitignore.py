@@ -567,6 +567,7 @@ parts
 )
     
 except
+Exception
 :
         
 raise

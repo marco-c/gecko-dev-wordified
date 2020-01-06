@@ -592,6 +592,20 @@ resources
 /
 "
 )
+                                
+(
+"
+testdriver
+-
+vendor
+.
+js
+"
+"
+resources
+/
+"
+)
 ]
 :
         

@@ -81,10 +81,72 @@ def
 test_platform_name
 (
 new_session
+add_browser_capabilites
 platform_name
 body
 )
 :
+    
+capabilities
+=
+body
+(
+"
+platformName
+"
+platform_name
+)
+    
+if
+"
+alwaysMatch
+"
+in
+capabilities
+:
+        
+capabilities
+[
+"
+alwaysMatch
+"
+]
+=
+add_browser_capabilites
+(
+capabilities
+[
+"
+alwaysMatch
+"
+]
+)
+    
+else
+:
+        
+capabilities
+[
+"
+firstMatch
+"
+]
+[
+0
+]
+=
+add_browser_capabilites
+(
+capabilities
+[
+"
+firstMatch
+"
+]
+[
+0
+]
+)
     
 resp
 _
@@ -96,13 +158,7 @@ new_session
 capabilities
 "
 :
-body
-(
-"
-platformName
-"
-platform_name
-)
+capabilities
 }
 )
     
@@ -223,6 +279,7 @@ def
 test_merge_invalid
 (
 new_session
+add_browser_capabilites
 key
 value
 )
@@ -252,6 +309,8 @@ capabilities
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 key
 :
@@ -260,6 +319,7 @@ value
 0
 ]
 }
+)
                        
 "
 firstMatch
@@ -302,6 +362,7 @@ def
 test_merge_platformName
 (
 new_session
+add_browser_capabilites
 platform_name
 )
 :
@@ -322,6 +383,8 @@ capabilities
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 timeouts
@@ -335,7 +398,7 @@ script
 10
 }
 }
-}
+)
                         
 "
 firstMatch
@@ -385,6 +448,7 @@ eager
                         
 ]
 }
+}
 )
     
 assert
@@ -424,6 +488,7 @@ def
 test_merge_browserName
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -433,6 +498,21 @@ session
 new_session
 (
 {
+"
+capabilities
+"
+:
+{
+"
+alwaysMatch
+"
+:
+add_browser_capabilites
+(
+{
+}
+)
+}
 }
 )
     
@@ -512,6 +592,8 @@ capabilities
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 timeouts
@@ -525,7 +607,7 @@ script
 10
 }
 }
-}
+)
                         
 "
 firstMatch
@@ -584,6 +666,7 @@ eager
 }
                         
 ]
+}
 }
 )
     

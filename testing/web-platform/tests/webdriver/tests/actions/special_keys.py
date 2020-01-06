@@ -6,6 +6,8 @@ timeout
 long
 import
 pytest
+import
+time
 from
 tests
 .
@@ -125,16 +127,17 @@ addEventListener
 keydown
 "
                     
+function
 (
 e
 )
-=
->
+{
 e
 .
 preventDefault
 (
 )
+}
 )
 ;
         
@@ -248,6 +251,34 @@ filter_dict
 first_event
 expected
 )
+    
+if
+first_event
+[
+"
+code
+"
+]
+=
+=
+None
+:
+        
+del
+first_event
+[
+"
+code
+"
+]
+        
+del
+expected
+[
+"
+code
+"
+]
     
 assert
 first_event
