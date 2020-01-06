@@ -544,6 +544,13 @@ mBaseURI
 info
 .
 mPrincipal
+css
+:
+:
+SupportsParsingSettings
+:
+:
+ImpliedParentheses
 )
 ;
 }
