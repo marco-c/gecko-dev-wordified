@@ -2576,6 +2576,9 @@ AVCodecParser
 ff_dvd_nav_parser
 ;
 AVCodecParser
+ff_flac_parser
+;
+AVCodecParser
 ff_g729_parser
 ;
 AVCodecParser
