@@ -989,12 +989,10 @@ widget
 IMENotification
 &
 aEventMessage
-widget
-:
-:
-IMENotificationRequests
-*
-aRequests
+NotifyIMEFocusResolver
+&
+&
+aResolve
 )
 override
 ;
