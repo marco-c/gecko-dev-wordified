@@ -1023,6 +1023,11 @@ const
 OriginFlags
 rulesChanged
 =
+static_cast
+<
+OriginFlags
+>
+(
 Servo_StyleSet_MediumFeaturesChanged
 (
 mRawSet
@@ -1032,6 +1037,7 @@ get
 )
 &
 viewportUnitsUsed
+)
 )
 ;
 if
