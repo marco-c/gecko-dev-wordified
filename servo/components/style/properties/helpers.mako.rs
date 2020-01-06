@@ -5257,6 +5257,9 @@ custom_consts
 '
 gecko_inexhaustive
 '
+'
+gecko_strip_moz_prefix
+'
 ]
 }
 %
