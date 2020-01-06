@@ -2425,10 +2425,6 @@ char
 aBuffer
 uint32_t
 aBufferLen
-bool
-aLast
-=
-false
 )
 ;
 static
