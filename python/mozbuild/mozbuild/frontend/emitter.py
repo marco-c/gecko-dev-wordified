@@ -487,6 +487,14 @@ set
         
 self
 .
+_rust_compile_dirs
+=
+set
+(
+)
+        
+self
+.
 _compile_flags
 =
 dict
@@ -5646,6 +5654,18 @@ for
 the
 time
 being
+however
+ldflags
+must
+be
+emitted
+for
+the
+benefit
+        
+#
+of
+cargo
 .
         
 if
@@ -5669,6 +5689,21 @@ linkables
 self
 .
 _compile_dirs
+.
+add
+(
+context
+.
+objdir
+)
+        
+elif
+linkables
+:
+            
+self
+.
+_rust_compile_dirs
 .
 add
 (
@@ -9345,6 +9380,19 @@ objdir
 ]
 =
 computed_flags
+            
+yield
+computed_link_flags
+        
+elif
+context
+.
+objdir
+in
+self
+.
+_rust_compile_dirs
+:
             
 yield
 computed_link_flags

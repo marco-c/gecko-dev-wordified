@@ -11015,23 +11015,18 @@ read_topsrcdir
 reader
 )
         
-self
-.
-assertEqual
-(
-len
-(
-objs
-)
-1
-)
-        
+ldflags
 lib
 =
 objs
-[
-0
-]
+        
+self
+.
+assertIsInstance
+(
+ldflags
+ComputedFlags
+)
         
 self
 .
@@ -11221,23 +11216,18 @@ read_topsrcdir
 reader
 )
         
-self
-.
-assertEqual
-(
-len
-(
-objs
-)
-1
-)
-        
+ldflags
 lib
 =
 objs
-[
-0
-]
+        
+self
+.
+assertIsInstance
+(
+ldflags
+ComputedFlags
+)
         
 self
 .
@@ -12012,25 +12002,24 @@ read_topsrcdir
 reader
 )
         
+ldflags
+lib
+=
+objs
+        
 self
 .
-assertEqual
+assertIsInstance
 (
-len
-(
-objs
-)
-1
+ldflags
+ComputedFlags
 )
         
 self
 .
 assertIsInstance
 (
-objs
-[
-0
-]
+lib
 RustLibrary
 )
     
