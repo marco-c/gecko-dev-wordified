@@ -6245,7 +6245,7 @@ JProfFunctions
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 JProfStartProfiling
@@ -6254,7 +6254,7 @@ JProfStartProfilingJS
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 JProfStopProfiling
@@ -6263,7 +6263,7 @@ JProfStopProfilingJS
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 JProfClearCircular
@@ -6272,7 +6272,7 @@ JProfClearCircularJS
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 JProfSaveCircular

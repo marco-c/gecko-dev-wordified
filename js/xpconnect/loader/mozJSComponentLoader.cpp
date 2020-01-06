@@ -903,7 +903,7 @@ gGlobalFun
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 dump
@@ -912,7 +912,7 @@ Dump
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 debug
@@ -921,7 +921,7 @@ Debug
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 atob
@@ -930,7 +930,7 @@ Atob
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 btoa
