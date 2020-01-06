@@ -1688,8 +1688,10 @@ range_start
 -
 >
 flags
-&
-TASKTRACER_BIT
+.
+IsTaskTracer
+(
+)
 )
 )
 ?
