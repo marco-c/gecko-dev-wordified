@@ -1935,6 +1935,14 @@ region
 void
 PostProcessLayers
 (
+nsIntRegion
+&
+aOpaqueRegion
+)
+;
+void
+PostProcessLayers
+(
 Layer
 *
 aLayer
