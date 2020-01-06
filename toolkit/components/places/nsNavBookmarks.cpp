@@ -11505,12 +11505,15 @@ rv
 )
 ;
 }
-NOTIFY_OBSERVERS
+NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
 mCacheObservers
 mObservers
-nsINavBookmarkObserver
+SKIP_TAGS
+(
+isChangingTagFolder
+)
 OnItemChanged
 (
 bookmark
