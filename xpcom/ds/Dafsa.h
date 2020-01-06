@@ -268,7 +268,6 @@ py
 *
 /
 explicit
-constexpr
 Dafsa
 (
 const
