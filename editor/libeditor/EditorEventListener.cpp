@@ -6707,12 +6707,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 )
 {

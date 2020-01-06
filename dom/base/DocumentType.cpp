@@ -566,13 +566,7 @@ implement
 nsIDOMCharacterData
 )
 return
-!
-(
-aFlags
-&
-~
-eCONTENT
-)
+false
 ;
 }
 const

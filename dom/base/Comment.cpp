@@ -215,8 +215,6 @@ aFlags
 &
 ~
 (
-eCONTENT
-|
 eCOMMENT
 |
 eDATA_NODE

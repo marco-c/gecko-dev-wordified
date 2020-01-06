@@ -293,11 +293,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eDOCUMENT_FRAGMENT
-)
 )
 ;
 }

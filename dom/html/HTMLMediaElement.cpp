@@ -37164,11 +37164,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eMEDIA
-)
 )
 ;
 }

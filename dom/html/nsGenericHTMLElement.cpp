@@ -11061,11 +11061,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eHTML_FORM_CONTROL
-)
 )
 ;
 }

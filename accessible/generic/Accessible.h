@@ -960,12 +960,8 @@ GetNode
 )
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 ;
 }

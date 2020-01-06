@@ -2215,11 +2215,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eANIMATION
-)
 )
 ;
 }
