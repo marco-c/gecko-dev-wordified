@@ -587,7 +587,7 @@ blob
 *
 reject
 {
-DOMError
+DOMException
 }
 In
 case
@@ -595,7 +595,7 @@ of
 error
 the
 underlying
-DOMError
+DOMException
 .
 *
 /

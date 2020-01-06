@@ -202,7 +202,7 @@ namespace
 dom
 {
 class
-DOMError
+DOMException
 ;
 class
 DOMStringList
@@ -328,7 +328,7 @@ mDatabase
 ;
 RefPtr
 <
-DOMError
+DOMException
 >
 mError
 ;
@@ -977,7 +977,7 @@ aRv
 )
 const
 ;
-DOMError
+DOMException
 *
 GetError
 (
@@ -1132,7 +1132,7 @@ nsresult
 aAbortCode
 already_AddRefed
 <
-DOMError
+DOMException
 >
 aError
 )

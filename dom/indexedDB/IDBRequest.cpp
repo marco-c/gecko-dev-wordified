@@ -227,7 +227,7 @@ mozilla
 /
 dom
 /
-DOMError
+DOMException
 .
 h
 "
@@ -1095,12 +1095,11 @@ true
 ;
 mError
 =
-new
-DOMError
+DOMException
+:
+:
+Create
 (
-GetOwner
-(
-)
 aRv
 )
 ;
@@ -1140,7 +1139,7 @@ return
 mErrorCode
 ;
 }
-DOMError
+DOMException
 *
 IDBRequest
 :
@@ -1715,7 +1714,7 @@ mHaveResultOrErrorCode
 true
 ;
 }
-DOMError
+DOMException
 *
 IDBRequest
 :

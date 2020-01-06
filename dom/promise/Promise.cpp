@@ -188,17 +188,6 @@ mozilla
 /
 dom
 /
-DOMError
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMException
 .
 h
@@ -4900,7 +4889,7 @@ MaybeRejectBrokenly
 const
 RefPtr
 <
-DOMError
+DOMException
 >
 &
 aArg

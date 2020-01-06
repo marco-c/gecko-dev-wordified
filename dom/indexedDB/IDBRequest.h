@@ -215,7 +215,7 @@ namespace
 dom
 {
 class
-DOMError
+DOMException
 ;
 class
 IDBCursor
@@ -313,7 +313,7 @@ mResultVal
 ;
 RefPtr
 <
-DOMError
+DOMException
 >
 mError
 ;
@@ -487,7 +487,7 @@ mErrorCode
 }
 #
 endif
-DOMError
+DOMException
 *
 GetErrorAfterResult
 (
@@ -506,7 +506,7 @@ mError
 }
 #
 endif
-DOMError
+DOMException
 *
 GetError
 (

@@ -248,9 +248,6 @@ class
 AnyCallback
 ;
 class
-DOMError
-;
-class
 MediaStreamError
 ;
 class
@@ -668,13 +665,13 @@ can
 use
 it
 with
-DOMError
+DOMException
 /
 /
 without
 instantiating
 the
-DOMError
+DOMException
 specialization
 of
 MaybeSomething
@@ -697,7 +694,7 @@ require
 use
 to
 include
-DOMError
+DOMException
 .
 h
 either
@@ -706,9 +703,9 @@ or
 in
 all
 those
+/
+/
 translation
-/
-/
 units
 .
 template

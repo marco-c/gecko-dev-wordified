@@ -207,7 +207,7 @@ class
 Blob
 ;
 class
-DOMError
+DOMException
 ;
 namespace
 workers
@@ -406,7 +406,7 @@ mReadyState
 )
 ;
 }
-DOMError
+DOMException
 *
 GetError
 (
@@ -756,7 +756,7 @@ mBufferedStream
 ;
 RefPtr
 <
-DOMError
+DOMException
 >
 mError
 ;

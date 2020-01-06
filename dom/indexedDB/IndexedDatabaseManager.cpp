@@ -266,7 +266,7 @@ mozilla
 /
 dom
 /
-DOMError
+DOMException
 .
 h
 "
@@ -2804,7 +2804,7 @@ NS_OK
 }
 RefPtr
 <
-DOMError
+DOMException
 >
 error
 =

@@ -152,7 +152,7 @@ mozilla
 /
 dom
 /
-DOMError
+DOMException
 .
 h
 "
@@ -213,7 +213,7 @@ mResult
 ;
 RefPtr
 <
-DOMError
+DOMException
 >
 mError
 ;
@@ -346,7 +346,7 @@ mResult
 )
 ;
 }
-DOMError
+DOMException
 *
 GetError
 (
@@ -448,7 +448,7 @@ aError
 void
 FireDetailedError
 (
-DOMError
+DOMException
 *
 aError
 )

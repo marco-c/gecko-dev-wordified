@@ -358,17 +358,6 @@ mozilla
 /
 dom
 /
-DOMError
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ErrorEvent
 .
 h
