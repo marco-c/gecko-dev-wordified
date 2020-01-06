@@ -2408,17 +2408,6 @@ subview
 .
 *
 param
-aPlacementArea
-the
-CustomizableUI
-area
-that
-aAnchor
-is
-in
-.
-*
-param
 aEvent
 the
 event
@@ -2434,7 +2423,6 @@ showSubView
 (
 aViewId
 aAnchor
-aPlacementArea
 aEvent
 )
 {
