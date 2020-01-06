@@ -858,15 +858,6 @@ override
 ;
 virtual
 void
-SuppressAnimation
-(
-bool
-aSuppress
-)
-override
-;
-virtual
-void
 Enable
 (
 bool
