@@ -234,6 +234,9 @@ class
 AutoLockGC
 ;
 class
+AutoLockGCBgAlloc
+;
+class
 AutoLockHelperThreadState
 ;
 class
@@ -6868,7 +6871,7 @@ Chunk
 *
 getOrAllocChunk
 (
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )
@@ -7196,7 +7199,7 @@ Chunk
 *
 pickChunk
 (
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )
@@ -10237,6 +10240,13 @@ js
 :
 :
 AutoLockGC
+;
+friend
+class
+js
+:
+:
+AutoLockGCBgAlloc
 ;
 js
 :

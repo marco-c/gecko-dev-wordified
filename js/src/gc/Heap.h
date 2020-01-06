@@ -292,6 +292,9 @@ class
 AutoLockGC
 ;
 class
+AutoLockGCBgAlloc
+;
+class
 FreeOp
 ;
 extern

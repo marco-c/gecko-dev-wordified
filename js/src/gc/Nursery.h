@@ -923,7 +923,7 @@ init
 (
 uint32_t
 maxNurseryBytes
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )
@@ -2960,7 +2960,7 @@ updateNumChunksLocked
 (
 unsigned
 newCount
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )

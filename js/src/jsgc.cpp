@@ -7591,7 +7591,7 @@ return
 false
 ;
 {
-AutoLockGC
+AutoLockGCBgAlloc
 lock
 (
 rt

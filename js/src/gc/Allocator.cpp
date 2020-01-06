@@ -2515,7 +2515,7 @@ mozilla
 :
 Maybe
 <
-AutoLockGC
+AutoLockGCBgAlloc
 >
 maybeLock
 ;
@@ -3671,7 +3671,7 @@ GCRuntime
 :
 getOrAllocChunk
 (
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )
@@ -3777,7 +3777,7 @@ GCRuntime
 :
 pickChunk
 (
-AutoLockGC
+AutoLockGCBgAlloc
 &
 lock
 )
