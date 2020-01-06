@@ -907,7 +907,7 @@ SVGTextFrame
 *
 textFrame
 =
-GetSVGTextFrame
+GetSVGTextFrameForNonLayoutDependentQuery
 (
 )
 ;
