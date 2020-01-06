@@ -966,7 +966,7 @@ enablesound
 isSoundEnabled
 )
 ;
-nsCString
+nsAutoCString
 soundStr
 ;
 if
@@ -985,10 +985,7 @@ typeaheadfind
 .
 soundURL
 "
-getter_Copies
-(
 soundStr
-)
 )
 ;
 mNotFoundSoundURL

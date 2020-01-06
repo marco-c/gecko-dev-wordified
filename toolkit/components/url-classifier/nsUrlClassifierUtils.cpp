@@ -826,7 +826,7 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
-nsCString
+nsAutoCString
 clientId
 ;
 nsresult
@@ -844,10 +844,7 @@ safebrowsing
 .
 id
 "
-getter_Copies
-(
 clientId
-)
 )
 ;
 if
@@ -2115,7 +2112,7 @@ get
 )
 )
 ;
-nsCString
+nsAutoCString
 version
 ;
 nsresult
@@ -2131,10 +2128,7 @@ prefName
 get
 (
 )
-getter_Copies
-(
 version
-)
 )
 ;
 aVersion
@@ -5129,7 +5123,7 @@ get
 )
 )
 ;
-nsCString
+nsAutoCString
 owningLists
 ;
 nsresult
@@ -5145,10 +5139,7 @@ owninListsPref
 get
 (
 )
-getter_Copies
-(
 owningLists
-)
 )
 ;
 if
