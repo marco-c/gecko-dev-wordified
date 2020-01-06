@@ -159,6 +159,17 @@ extern
 LazyLogModule
 sAndroidDecoderModuleLog
 ;
+const
+char
+*
+TranslateMimeType
+(
+const
+nsACString
+&
+aMimeType
+)
+;
 }
 /
 /
