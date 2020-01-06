@@ -2136,6 +2136,17 @@ true
 tag
 :
 tag
+edge_aa_segment_mask
+:
+webrender_api
+:
+:
+EdgeAaSegmentMask
+:
+:
+empty
+(
+)
 }
 }
 fn
