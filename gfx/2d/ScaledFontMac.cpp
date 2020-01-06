@@ -1009,6 +1009,8 @@ writeBuf
 )
 {
 delete
+[
+]
 this
 -
 >
