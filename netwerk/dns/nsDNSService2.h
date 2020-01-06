@@ -361,10 +361,10 @@ See
 bug
 68796
 .
-nsAdoptingCString
+nsCString
 mIPv4OnlyDomains
 ;
-nsAdoptingCString
+nsCString
 mForceResolve
 ;
 bool

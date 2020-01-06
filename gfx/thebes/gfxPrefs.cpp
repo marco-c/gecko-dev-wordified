@@ -1084,7 +1084,7 @@ IsPrefsServiceAvailable
 )
 )
 ;
-nsAdoptingCString
+nsAutoCString
 result
 ;
 Preferences

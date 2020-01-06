@@ -177,9 +177,6 @@ class
 nsCString
 ;
 class
-nsAdoptingCString
-;
-class
 nsXPIDLString
 ;
 template
