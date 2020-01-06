@@ -877,6 +877,14 @@ own
 .
 MoveOverflowToChildList
 (
+aReflowInput
+.
+mLineLayout
+-
+>
+LineContainerFrame
+(
+)
 )
 ;
 /
@@ -1706,7 +1714,7 @@ SetIncomplete
 (
 )
 ;
-PushChildren
+PushChildrenToOverflow
 (
 aBaseContainer
 aBaseContainer
@@ -2085,7 +2093,7 @@ drain
 our
 overflow
 .
-PushChildren
+PushChildrenToOverflow
 (
 lastChild
 -
