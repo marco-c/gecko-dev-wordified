@@ -534,11 +534,7 @@ nsPIDOMWindowInner
 *
 aParent
 const
-ArrayBufferViewOrArrayBuffer
-&
-aAssertionChallenge
-const
-AssertionOptions
+PublicKeyCredentialRequestOptions
 &
 aOptions
 )
