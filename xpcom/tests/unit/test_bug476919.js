@@ -12,6 +12,12 @@ Components
 .
 interfaces
 ;
+/
+*
+global
+__LOCATION__
+*
+/
 function
 run_test
 (

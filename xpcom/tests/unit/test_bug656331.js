@@ -19,6 +19,12 @@ jsm
 "
 )
 ;
+/
+*
+global
+registerAppManifest
+*
+/
 var
 Cc
 =
