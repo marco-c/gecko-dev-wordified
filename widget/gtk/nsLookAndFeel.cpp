@@ -1717,7 +1717,7 @@ eColorID__moz_combobox
 :
 aColor
 =
-sMozWindowBackground
+mMozWindowBackground
 ;
 break
 ;
@@ -1757,7 +1757,7 @@ eColorID__moz_dialogtext
 :
 aColor
 =
-sMozWindowText
+mMozWindowText
 ;
 break
 ;
@@ -1792,7 +1792,7 @@ selected
 item
 aColor
 =
-sTextSelectedBackground
+mTextSelectedBackground
 ;
 break
 ;
@@ -1819,7 +1819,7 @@ eColorID__moz_html_cellhighlighttext
 :
 aColor
 =
-sTextSelectedText
+mTextSelectedText
 ;
 break
 ;
@@ -1949,7 +1949,7 @@ window
 border
 aColor
 =
-sMozWindowActiveBorder
+mMozWindowActiveBorder
 ;
 break
 ;
@@ -1963,7 +1963,7 @@ window
 border
 aColor
 =
-sMozWindowInactiveBorder
+mMozWindowInactiveBorder
 ;
 break
 ;
@@ -1991,7 +1991,7 @@ window
 caption
 aColor
 =
-sMenuTextInactive
+mMenuTextInactive
 ;
 break
 ;
@@ -2005,7 +2005,7 @@ window
 caption
 aColor
 =
-sMozWindowInactiveCaption
+mMozWindowInactiveCaption
 ;
 break
 ;
@@ -2019,7 +2019,7 @@ background
 color
 aColor
 =
-sInfoBackground
+mInfoBackground
 ;
 break
 ;
@@ -2033,7 +2033,7 @@ text
 color
 aColor
 =
-sInfoText
+mInfoText
 ;
 break
 ;
@@ -2046,7 +2046,7 @@ menu
 background
 aColor
 =
-sMenuBackground
+mMenuBackground
 ;
 break
 ;
@@ -2059,7 +2059,7 @@ menu
 text
 aColor
 =
-sMenuText
+mMenuText
 ;
 break
 ;
@@ -2073,7 +2073,7 @@ gray
 area
 aColor
 =
-sMozScrollbar
+mMozScrollbar
 ;
 break
 ;
@@ -2113,7 +2113,7 @@ face
 color
 aColor
 =
-sMozWindowBackground
+mMozWindowBackground
 ;
 break
 ;
@@ -2128,7 +2128,7 @@ push
 buttons
 aColor
 =
-sButtonText
+mButtonText
 ;
 break
 ;
@@ -2157,7 +2157,7 @@ edge
 color
 aColor
 =
-sFrameOuterLightBorder
+mFrameOuterLightBorder
 ;
 break
 ;
@@ -2186,7 +2186,7 @@ edge
 color
 aColor
 =
-sFrameInnerDarkBorder
+mFrameInnerDarkBorder
 ;
 break
 ;
@@ -2217,7 +2217,7 @@ eColorID__moz_field
 :
 aColor
 =
-sMozFieldBackground
+mMozFieldBackground
 ;
 break
 ;
@@ -2226,7 +2226,7 @@ eColorID__moz_fieldtext
 :
 aColor
 =
-sMozFieldText
+mMozFieldText
 ;
 break
 ;
@@ -2241,7 +2241,7 @@ border
 color
 aColor
 =
-sButtonDefault
+mButtonDefault
 ;
 break
 ;
@@ -2250,7 +2250,7 @@ eColorID__moz_buttonhoverface
 :
 aColor
 =
-sButtonHoverFace
+mButtonHoverFace
 ;
 break
 ;
@@ -2259,7 +2259,7 @@ eColorID__moz_buttonhovertext
 :
 aColor
 =
-sButtonHoverText
+mButtonHoverText
 ;
 break
 ;
@@ -2268,7 +2268,7 @@ eColorID__moz_menuhover
 :
 aColor
 =
-sMenuHover
+mMenuHover
 ;
 break
 ;
@@ -2277,7 +2277,7 @@ eColorID__moz_menuhovertext
 :
 aColor
 =
-sMenuHoverText
+mMenuHoverText
 ;
 break
 ;
@@ -2286,7 +2286,7 @@ eColorID__moz_oddtreerow
 :
 aColor
 =
-sOddCellBackground
+mOddCellBackground
 ;
 break
 ;
@@ -2295,7 +2295,7 @@ eColorID__moz_nativehyperlinktext
 :
 aColor
 =
-sNativeHyperLinkText
+mNativeHyperLinkText
 ;
 break
 ;
@@ -2304,7 +2304,7 @@ eColorID__moz_comboboxtext
 :
 aColor
 =
-sComboBoxText
+mComboBoxText
 ;
 break
 ;
@@ -2313,7 +2313,7 @@ eColorID__moz_menubartext
 :
 aColor
 =
-sMenuBarText
+mMenuBarText
 ;
 break
 ;
@@ -2322,7 +2322,7 @@ eColorID__moz_menubarhovertext
 :
 aColor
 =
-sMenuBarHoverText
+mMenuBarHoverText
 ;
 break
 ;
@@ -2331,7 +2331,7 @@ eColorID__moz_gtk_info_bar_text
 :
 aColor
 =
-sInfoBarText
+mInfoBarText
 ;
 break
 ;
@@ -3226,7 +3226,7 @@ EnsureInit
 ;
 aResult
 =
-sMenuSupportsDrag
+mMenuSupportsDrag
 ;
 break
 ;
@@ -3269,7 +3269,7 @@ EnsureInit
 ;
 aResult
 =
-sCSDAvailable
+mCSDAvailable
 ;
 break
 ;
@@ -3282,7 +3282,7 @@ EnsureInit
 ;
 aResult
 =
-sCSDMaximizeButton
+mCSDMaximizeButton
 ;
 break
 ;
@@ -3295,7 +3295,7 @@ EnsureInit
 ;
 aResult
 =
-sCSDMinimizeButton
+mCSDMinimizeButton
 ;
 break
 ;
@@ -3308,7 +3308,7 @@ EnsureInit
 ;
 aResult
 =
-sCSDCloseButton
+mCSDCloseButton
 ;
 break
 ;
@@ -3406,7 +3406,7 @@ EnsureInit
 ;
 aResult
 =
-sCaretRatio
+mCaretRatio
 ;
 break
 ;
@@ -4324,7 +4324,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMozScrollbar
+mMozScrollbar
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4350,7 +4350,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMozWindowBackground
+mMozWindowBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4365,7 +4365,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMozWindowText
+mMozWindowText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4380,7 +4380,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMozWindowActiveBorder
+mMozWindowActiveBorder
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4395,7 +4395,7 @@ GTK_STATE_FLAG_INSENSITIVE
 color
 )
 ;
-sMozWindowInactiveBorder
+mMozWindowInactiveBorder
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4410,7 +4410,7 @@ GTK_STATE_FLAG_INSENSITIVE
 color
 )
 ;
-sMozWindowInactiveCaption
+mMozWindowInactiveCaption
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4471,7 +4471,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sInfoBackground
+mInfoBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4493,7 +4493,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sInfoText
+mInfoText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4540,7 +4540,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMenuText
+mMenuText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4555,7 +4555,7 @@ GTK_STATE_FLAG_INSENSITIVE
 color
 )
 ;
-sMenuTextInactive
+mMenuTextInactive
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4583,7 +4583,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMenuBackground
+mMenuBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4605,7 +4605,7 @@ GTK_STATE_FLAG_PRELIGHT
 color
 )
 ;
-sMenuHover
+mMenuHover
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4620,7 +4620,7 @@ GTK_STATE_FLAG_PRELIGHT
 color
 )
 ;
-sMenuHoverText
+mMenuHoverText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4831,7 +4831,7 @@ color
 bgColor
 )
 ;
-sMozFieldBackground
+mMozFieldBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4846,7 +4846,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMozFieldText
+mMozFieldText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4875,7 +4875,7 @@ GTK_STATE_FLAG_SELECTED
 color
 )
 ;
-sTextSelectedBackground
+mTextSelectedBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4898,7 +4898,7 @@ GTK_STATE_FLAG_SELECTED
 color
 )
 ;
-sTextSelectedText
+mTextSelectedText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4945,7 +4945,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sButtonDefault
+mButtonDefault
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4960,7 +4960,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sButtonText
+mButtonText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4975,7 +4975,7 @@ GTK_STATE_FLAG_PRELIGHT
 color
 )
 ;
-sButtonHoverText
+mButtonHoverText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -4990,7 +4990,7 @@ GTK_STATE_FLAG_PRELIGHT
 color
 )
 ;
-sButtonHoverFace
+mButtonHoverFace
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5023,7 +5023,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sComboBoxText
+mComboBoxText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5053,7 +5053,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sMenuBarText
+mMenuBarText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5068,7 +5068,7 @@ GTK_STATE_FLAG_PRELIGHT
 color
 )
 ;
-sMenuBarHoverText
+mMenuBarHoverText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5187,7 +5187,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sOddCellBackground
+mOddCellBackground
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5267,9 +5267,9 @@ GetBorderColors
 (
 style
 &
-sFrameOuterLightBorder
+mFrameOuterLightBorder
 &
-sFrameInnerDarkBorder
+mFrameInnerDarkBorder
 )
 ;
 if
@@ -5289,9 +5289,9 @@ GetBorderColors
 (
 style
 &
-sFrameOuterLightBorder
+mFrameOuterLightBorder
 &
-sFrameInnerDarkBorder
+mFrameInnerDarkBorder
 )
 ;
 }
@@ -5375,7 +5375,7 @@ GTK_STATE_FLAG_NORMAL
 color
 )
 ;
-sInfoBarText
+mInfoBarText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5451,7 +5451,7 @@ nullptr
 ;
 }
 }
-sMenuSupportsDrag
+mMenuSupportsDrag
 =
 supports_menubar_drag
 ;
@@ -5511,7 +5511,7 @@ GTK_STATE_FLAG_LINK
 color
 )
 ;
-sNativeHyperLinkText
+mNativeHyperLinkText
 =
 GDK_RGBA_TO_NS_RGBA
 (
@@ -5559,7 +5559,7 @@ deref
 pointers
 to
 GDK_COLOR_TO_NS_RGB
-sNativeHyperLinkText
+mNativeHyperLinkText
 =
 GDK_COLOR_TO_NS_RGB
 (
@@ -5574,7 +5574,7 @@ colorValuePtr
 }
 else
 {
-sNativeHyperLinkText
+mNativeHyperLinkText
 =
 NS_RGB
 (
@@ -5606,7 +5606,7 @@ value
 nullptr
 )
 ;
-sInvisibleCharacter
+mInvisibleCharacter
 =
 char16_t
 (
@@ -5628,7 +5628,7 @@ aspect
 ratio
 "
 &
-sCaretRatio
+mCaretRatio
 nullptr
 )
 ;
@@ -5668,7 +5668,7 @@ side
 decoration
 support
 .
-sCSDAvailable
+mCSDAvailable
 =
 gtk_check_version
 (
@@ -5682,10 +5682,10 @@ nullptr
 ;
 if
 (
-sCSDAvailable
+mCSDAvailable
 )
 {
-sCSDAvailable
+mCSDAvailable
 =
 mozilla
 :
@@ -5736,21 +5736,21 @@ gtk
 media
 features
 .
-sCSDCloseButton
+mCSDCloseButton
 =
 false
 ;
-sCSDMaximizeButton
+mCSDMaximizeButton
 =
 false
 ;
-sCSDMinimizeButton
+mCSDMinimizeButton
 =
 false
 ;
 if
 (
-sCSDAvailable
+mCSDAvailable
 )
 {
 static
@@ -5823,7 +5823,7 @@ if
 decorationLayout
 )
 {
-sCSDCloseButton
+mCSDCloseButton
 =
 (
 strstr
@@ -5838,7 +5838,7 @@ close
 nullptr
 )
 ;
-sCSDMaximizeButton
+mCSDMaximizeButton
 =
 (
 strstr
@@ -5853,7 +5853,7 @@ maximize
 nullptr
 )
 ;
-sCSDMinimizeButton
+mCSDMinimizeButton
 =
 (
 strstr
@@ -5887,7 +5887,7 @@ EnsureInit
 )
 ;
 return
-sInvisibleCharacter
+mInvisibleCharacter
 ;
 }
 bool
