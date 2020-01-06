@@ -1378,6 +1378,16 @@ Type
 (
 )
 )
+|
+|
+!
+data
+-
+>
+IsDataValid
+(
+this
+)
 )
 {
 data
