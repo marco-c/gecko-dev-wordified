@@ -1101,6 +1101,10 @@ aVideoInfo
 aIdentifier
 &
 success
+&
+mBlacklistedD3D11Driver
+&
+mBlacklistedD3D9Driver
 )
 )
 {
