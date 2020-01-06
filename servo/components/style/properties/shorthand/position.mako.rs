@@ -2613,13 +2613,7 @@ values
 .
 push
 (
-Either
-:
-:
-First
-(
 size
-)
 )
 ;
 names

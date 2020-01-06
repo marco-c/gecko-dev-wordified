@@ -109,15 +109,6 @@ use
 self
 :
 :
-grid
-:
-:
-TrackSizeOrRepeat
-;
-use
-self
-:
-:
 url
 :
 :
@@ -5125,7 +5116,7 @@ TrackList
 =
 GenericTrackList
 <
-TrackSizeOrRepeat
+LengthOrPercentage
 >
 ;
 /
@@ -5152,7 +5143,7 @@ GridTemplateComponent
 =
 GenericGridTemplateComponent
 <
-TrackSizeOrRepeat
+LengthOrPercentage
 >
 ;
 no_viewport_percentage
