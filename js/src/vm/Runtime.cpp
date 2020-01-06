@@ -736,6 +736,10 @@ compartmentNameCallback
 (
 nullptr
 )
+destroyRealmCallback
+(
+nullptr
+)
 realmNameCallback
 (
 nullptr

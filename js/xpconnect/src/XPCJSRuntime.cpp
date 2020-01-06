@@ -18365,7 +18365,7 @@ Length
 }
 static
 void
-RealmNameCallback
+GetRealmName
 (
 JSContext
 *
@@ -19500,10 +19500,13 @@ cx
 CompartmentNameCallback
 )
 ;
-JS_SetRealmNameCallback
+JS
+:
+:
+SetRealmNameCallback
 (
 cx
-RealmNameCallback
+GetRealmName
 )
 ;
 mPrevGCSliceCallback
