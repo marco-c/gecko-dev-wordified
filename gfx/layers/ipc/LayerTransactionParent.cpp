@@ -5654,9 +5654,7 @@ mCompositorBridge
 >
 GetAPZTestData
 (
-GetId
-(
-)
+this
 aOutData
 )
 ;
