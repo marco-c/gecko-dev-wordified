@@ -17953,6 +17953,17 @@ aTable
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+if
+(
+Destroyed
+(
+)
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 RefPtr
 <
 Selection
