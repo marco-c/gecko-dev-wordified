@@ -385,7 +385,11 @@ throw
 catch
 (
 e
+)
+{
 if
+(
+!
 (
 e
 instanceof
@@ -405,6 +409,10 @@ NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 )
 )
 {
+throw
+e
+;
+}
 }
 }
 function
@@ -497,7 +505,11 @@ throw
 catch
 (
 e
+)
+{
 if
+(
+!
 (
 e
 instanceof
@@ -517,6 +529,10 @@ NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 )
 )
 {
+throw
+e
+;
+}
 }
 }
 function

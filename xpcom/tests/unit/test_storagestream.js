@@ -298,7 +298,10 @@ read
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 result
@@ -313,6 +316,13 @@ threw
 =
 true
 ;
+}
+else
+{
+throw
+ex
+;
+}
 }
 do_check_true
 (
