@@ -4653,7 +4653,7 @@ Taskcluster
 '
     
 '
-c
+tc
 -
 Up
 '
@@ -4662,8 +4662,10 @@ Up
 Balrog
 submission
 of
-complete
 updates
+executed
+by
+Taskcluster
 '
     
 '
@@ -4815,24 +4817,6 @@ pub
 '
 APK
 publishing
-'
-    
-'
-p
-'
-:
-'
-Partial
-generation
-'
-    
-'
-ps
-'
-:
-'
-Partials
-signing
 '
 }
 UNKNOWN_GROUP_NAME
