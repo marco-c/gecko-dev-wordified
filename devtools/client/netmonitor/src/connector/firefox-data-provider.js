@@ -218,11 +218,11 @@ this
 Internals
 this
 .
-fetchImage
+fetchResponseBody
 =
 this
 .
-fetchImage
+fetchResponseBody
 .
 bind
 (
@@ -699,7 +699,7 @@ all
 [
 this
 .
-fetchImage
+fetchResponseBody
 (
 mimeType
 responseContent
@@ -802,7 +802,7 @@ true
 }
 }
 async
-fetchImage
+fetchResponseBody
 (
 mimeType
 responseContent
