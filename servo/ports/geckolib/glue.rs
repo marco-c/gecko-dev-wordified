@@ -230,6 +230,7 @@ global_style_data
 {
 GLOBAL_STYLE_DATA
 GlobalStyleData
+STYLE_THREAD_POOL
 }
 ;
 use
@@ -2244,10 +2245,17 @@ as_node
 )
 ;
 let
+style_thread_pool
+=
+&
+*
+STYLE_THREAD_POOL
+;
+let
 traversal_driver
 =
 if
-global_style_data
+style_thread_pool
 .
 style_thread_pool
 .
@@ -2304,7 +2312,7 @@ traverse_dom
 traversal
 element
 token
-global_style_data
+style_thread_pool
 .
 style_thread_pool
 .
@@ -5634,7 +5642,7 @@ Servo_StyleWorkerThreadCount
 >
 u32
 {
-GLOBAL_STYLE_DATA
+STYLE_THREAD_POOL
 .
 num_threads
 as
