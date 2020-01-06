@@ -20365,6 +20365,12 @@ Message
 aMsg
 )
 ;
+static
+void
+AsyncPrecreateStringBundles
+(
+)
+;
 private
 :
 static
@@ -20379,12 +20385,6 @@ EnsureStringBundle
 (
 PropertiesFile
 aFile
-)
-;
-static
-void
-AsyncPrecreateStringBundles
-(
 )
 ;
 static
