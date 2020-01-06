@@ -5832,7 +5832,6 @@ get
 ;
 CSP_LogLocalizedStr
 (
-u
 "
 blockAllMixedContent
 "

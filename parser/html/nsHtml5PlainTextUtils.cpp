@@ -332,7 +332,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 plainText
 .

@@ -1732,12 +1732,9 @@ if
 !
 ConfirmAuth
 (
-NS_LITERAL_STRING
-(
 "
 SuperfluousAuth
 "
-)
 true
 )
 )
@@ -5682,12 +5679,9 @@ if
 !
 ConfirmAuth
 (
-NS_LITERAL_STRING
-(
 "
 AutomaticAuth
 "
-)
 false
 )
 )
@@ -8924,8 +8918,8 @@ nsHttpChannelAuthProvider
 ConfirmAuth
 (
 const
-nsString
-&
+char
+*
 bundleKey
 bool
 doYesNoPrompt
@@ -9417,10 +9411,6 @@ bundle
 FormatStringFromName
 (
 bundleKey
-.
-get
-(
-)
 strs
 2
 getter_Copies

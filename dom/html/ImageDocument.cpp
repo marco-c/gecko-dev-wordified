@@ -3203,7 +3203,6 @@ mStringBundle
 >
 FormatStringFromName
 (
-u
 "
 InvalidImage
 "
@@ -4386,7 +4385,6 @@ mStringBundle
 >
 FormatStringFromName
 (
-u
 "
 ScaledImage
 "

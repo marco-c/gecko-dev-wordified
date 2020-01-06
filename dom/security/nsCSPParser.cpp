@@ -1994,14 +1994,7 @@ mCSPContext
 >
 logToConsole
 (
-NS_ConvertUTF8toUTF16
-(
 aProperty
-)
-.
-get
-(
-)
 aParams
 aParamsLength
 EmptyString

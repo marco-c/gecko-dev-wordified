@@ -6695,7 +6695,10 @@ bundle
 >
 GetStringFromName
 (
+NS_ConvertUTF16toUTF8
+(
 keyCode
+)
 .
 get
 (

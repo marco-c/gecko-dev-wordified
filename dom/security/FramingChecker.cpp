@@ -1350,7 +1350,6 @@ ancestors
 ;
 CSP_LogLocalizedStr
 (
-u
 "
 IgnoringSrcBecauseOfDirective
 "

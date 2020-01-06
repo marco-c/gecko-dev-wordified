@@ -3088,7 +3088,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 emailPromptTitle
 "
@@ -3114,7 +3113,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 emailPromptMsg
 "

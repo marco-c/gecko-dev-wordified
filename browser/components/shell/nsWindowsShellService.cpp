@@ -3413,7 +3413,6 @@ shellBundle
 >
 GetStringFromName
 (
-u
 "
 desktopBackgroundLeafNameWin
 "

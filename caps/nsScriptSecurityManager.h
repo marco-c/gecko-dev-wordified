@@ -435,9 +435,9 @@ JSContext
 *
 cx
 const
-nsAString
-&
-messageTag
+char
+*
+aMessageTag
 nsIURI
 *
 aSource

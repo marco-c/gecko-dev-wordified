@@ -1962,12 +1962,6 @@ if
 stringBundle
 )
 {
-NS_ConvertASCIItoUTF16
-name
-(
-aName
-)
-;
 rv
 =
 stringBundle
@@ -1975,11 +1969,7 @@ stringBundle
 >
 FormatStringFromName
 (
-name
-.
-get
-(
-)
+aName
 aParams
 aLength
 getter_Copies

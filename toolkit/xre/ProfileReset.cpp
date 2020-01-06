@@ -636,11 +636,10 @@ resetBackupDirectoryName
 ;
 static
 const
-char16_t
+char
 *
 kResetBackupDirectory
 =
-u
 "
 resetBackupDirectory
 "

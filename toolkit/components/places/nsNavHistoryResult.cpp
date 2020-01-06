@@ -27024,7 +27024,6 @@ history
 >
 GetStringFromName
 (
-u
 "
 finduri
 -

@@ -5090,7 +5090,6 @@ stringBundle
 >
 GetStringFromName
 (
-u
 "
 formPostSecureToInsecureWarning
 .
@@ -5107,7 +5106,6 @@ stringBundle
 >
 GetStringFromName
 (
-u
 "
 formPostSecureToInsecureWarning
 .
@@ -5124,7 +5122,6 @@ stringBundle
 >
 GetStringFromName
 (
-u
 "
 formPostSecureToInsecureWarning
 .
@@ -9944,7 +9941,6 @@ get
 ;
 CSP_LogLocalizedStr
 (
-u
 "
 upgradeInsecureRequest
 "

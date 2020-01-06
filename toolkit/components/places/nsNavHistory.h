@@ -1248,7 +1248,7 @@ void
 GetStringFromName
 (
 const
-char16_t
+char
 *
 aName
 nsACString
@@ -1262,7 +1262,7 @@ GetAgeInDaysString
 int32_t
 aInt
 const
-char16_t
+char
 *
 aName
 nsACString

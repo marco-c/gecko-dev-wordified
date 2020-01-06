@@ -773,12 +773,9 @@ nsScriptSecurityManager
 ReportError
 (
 nullptr
-NS_LITERAL_STRING
-(
 "
 ExternalDataError
 "
-)
 principalURI
 aContentLocation
 )

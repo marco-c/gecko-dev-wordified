@@ -2059,7 +2059,10 @@ stringBundle
 >
 GetStringFromName
 (
+NS_ConvertUTF16toUTF8
+(
 aKey
+)
 .
 get
 (
@@ -18022,7 +18025,6 @@ keyStringBundle
 >
 GetStringFromName
 (
-u
 "
 MODIFIER_SEPARATOR
 "
@@ -18047,7 +18049,6 @@ keyStringBundle
 >
 GetStringFromName
 (
-u
 "
 VK_CONTROL
 "
@@ -18084,7 +18085,6 @@ keyStringBundle
 >
 GetStringFromName
 (
-u
 "
 VK_ALT
 "
@@ -18121,7 +18121,6 @@ keyStringBundle
 >
 GetStringFromName
 (
-u
 "
 VK_SHIFT
 "
@@ -18158,7 +18157,6 @@ keyStringBundle
 >
 GetStringFromName
 (
-u
 "
 VK_META
 "
