@@ -2665,7 +2665,7 @@ emailAddr
 nsresult
 rv
 ;
-nsAutoCString
+nsCString
 prefValue
 ;
 /
@@ -2725,7 +2725,10 @@ accountmanager
 .
 defaultaccount
 "
+getter_Copies
+(
 prefValue
+)
 )
 ;
 if
@@ -2781,7 +2784,10 @@ emailAddr
 get
 (
 )
+getter_Copies
+(
 prefValue
+)
 )
 ;
 if
@@ -2866,7 +2872,10 @@ emailAddr
 get
 (
 )
+getter_Copies
+(
 prefValue
+)
 )
 ;
 if
@@ -2924,7 +2933,10 @@ identity
 .
 useremail
 "
+getter_Copies
+(
 prefValue
+)
 )
 ;
 if

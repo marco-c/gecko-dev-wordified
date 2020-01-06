@@ -7738,7 +7738,10 @@ UA_PREF
 override
 "
 )
+getter_Copies
+(
 mUserAgentOverride
+)
 )
 ;
 mUserAgentIsDirty
@@ -9214,7 +9217,7 @@ version
 )
 )
 {
-nsAutoCString
+nsCString
 httpVersion
 ;
 prefs
@@ -9228,7 +9231,10 @@ HTTP_PREF
 version
 "
 )
+getter_Copies
+(
 httpVersion
+)
 )
 ;
 if
@@ -9298,7 +9304,7 @@ version
 )
 )
 {
-nsAutoCString
+nsCString
 httpVersion
 ;
 prefs
@@ -9314,7 +9320,10 @@ proxy
 version
 "
 )
+getter_Copies
+(
 httpVersion
+)
 )
 ;
 if
@@ -9436,7 +9445,7 @@ default
 )
 )
 {
-nsAutoCString
+nsCString
 accept
 ;
 rv
@@ -9454,7 +9463,10 @@ accept
 default
 "
 )
+getter_Copies
+(
 accept
+)
 )
 ;
 if
@@ -9501,7 +9513,7 @@ encoding
 )
 )
 {
-nsAutoCString
+nsCString
 acceptEncodings
 ;
 rv
@@ -9519,7 +9531,10 @@ accept
 encoding
 "
 )
+getter_Copies
+(
 acceptEncodings
+)
 )
 ;
 if
@@ -9569,7 +9584,7 @@ secure
 )
 )
 {
-nsAutoCString
+nsCString
 acceptEncodings
 ;
 rv
@@ -9589,7 +9604,10 @@ encoding
 secure
 "
 )
+getter_Copies
+(
 acceptEncodings
+)
 )
 ;
 if
@@ -9639,7 +9657,7 @@ type
 )
 )
 {
-nsAutoCString
+nsCString
 sval
 ;
 rv
@@ -9659,7 +9677,10 @@ socket
 type
 "
 )
+getter_Copies
+(
 sval
+)
 )
 ;
 if

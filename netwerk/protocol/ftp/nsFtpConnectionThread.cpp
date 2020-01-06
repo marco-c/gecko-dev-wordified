@@ -4042,7 +4042,7 @@ passwordStr
 }
 else
 {
-nsAutoCString
+nsCString
 anonPassword
 ;
 bool
@@ -4105,7 +4105,10 @@ ftp
 .
 anonymous_password
 "
+getter_Copies
+(
 anonPassword
+)
 )
 ;
 }
