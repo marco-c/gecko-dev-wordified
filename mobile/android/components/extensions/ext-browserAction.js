@@ -149,6 +149,8 @@ WeakMap
 ;
 class
 BrowserAction
+extends
+EventEmitter
 {
 constructor
 (
@@ -156,6 +158,10 @@ options
 extension
 )
 {
+super
+(
+)
+;
 this
 .
 uuid
@@ -297,13 +303,6 @@ tabId
 BrowserActions
 .
 register
-(
-this
-)
-;
-EventEmitter
-.
-decorate
 (
 this
 )
