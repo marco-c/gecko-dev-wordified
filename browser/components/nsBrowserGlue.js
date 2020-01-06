@@ -5395,7 +5395,7 @@ browser
 /
 defaultthemes
 /
-compactlight
+light
 .
 icon
 .
@@ -5500,7 +5500,7 @@ browser
 /
 defaultthemes
 /
-compactdark
+dark
 .
 icon
 .

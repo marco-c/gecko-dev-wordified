@@ -502,7 +502,7 @@ browser
 /
 defaultthemes
 /
-compactlight
+light
 .
 icon
 .
