@@ -4174,6 +4174,9 @@ FillOpacityProperty
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
