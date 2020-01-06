@@ -888,8 +888,9 @@ rv
 mTextEditor
 -
 >
-EndOfDocument
+CollapseSelectionToEnd
 (
+selection
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2665,8 +2666,9 @@ RangeCount
 mTextEditor
 -
 >
-EndOfDocument
+CollapseSelectionToEnd
 (
+aSelection
 )
 ;
 }
