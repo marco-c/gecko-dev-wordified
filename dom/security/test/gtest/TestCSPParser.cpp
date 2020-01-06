@@ -177,9 +177,6 @@ class
 nsCString
 ;
 class
-nsAdoptingString
-;
-class
 nsAdoptingCString
 ;
 class
