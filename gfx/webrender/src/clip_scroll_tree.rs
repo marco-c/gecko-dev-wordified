@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+clip
+:
+:
+ClipStore
+;
+use
 clip_scroll_node
 :
 :
@@ -2310,6 +2316,10 @@ pt
 &
 mut
 T
+clip_store
+:
+&
+ClipStore
 )
 {
 let
@@ -2381,9 +2391,15 @@ screen_bounding_rect
 let
 clips
 =
+clip_store
+.
+get
+(
+&
 info
 .
 clip_sources
+)
 .
 clips
 (
@@ -2706,6 +2722,7 @@ print_node
 (
 child_id
 pt
+clip_store
 )
 ;
 }
@@ -2729,6 +2746,10 @@ print
 (
 &
 self
+clip_store
+:
+&
+ClipStore
 )
 {
 if
@@ -2760,6 +2781,7 @@ self
 .
 print_with
 (
+clip_store
 &
 mut
 pt
@@ -2778,6 +2800,10 @@ PrintTreePrinter
 (
 &
 self
+clip_store
+:
+&
+ClipStore
 pt
 :
 &
@@ -2804,6 +2830,7 @@ self
 .
 root_reference_frame_id
 pt
+clip_store
 )
 ;
 }

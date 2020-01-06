@@ -105,6 +105,8 @@ clip
 {
 ClipRegion
 ClipSources
+ClipSourcesHandle
+ClipStore
 }
 ;
 use
@@ -206,7 +208,7 @@ node
 pub
 clip_sources
 :
-ClipSources
+ClipSourcesHandle
 /
 /
 /
@@ -328,6 +330,11 @@ ClipRegion
 packed_layer_index
 :
 PackedLayerIndex
+clip_store
+:
+&
+mut
+ClipStore
 )
 -
 >
@@ -355,12 +362,17 @@ ClipInfo
 {
 clip_sources
 :
+clip_store
+.
+insert
+(
 ClipSources
 :
 :
 from
 (
 clip_region
+)
 )
 packed_layer_index
 screen_bounding_rect
