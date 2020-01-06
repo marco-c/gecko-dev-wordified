@@ -8802,6 +8802,11 @@ isFromCache
 =
 false
 ;
+uint64_t
+cacheEntryId
+=
+0
+;
 int32_t
 fetchCount
 =
@@ -8841,6 +8846,15 @@ IsFromCache
 (
 &
 isFromCache
+)
+;
+httpChannelImpl
+-
+>
+GetCacheEntryId
+(
+&
+cacheEntryId
 )
 ;
 httpChannelImpl
@@ -9237,6 +9251,7 @@ mCacheEntry
 true
 :
 false
+cacheEntryId
 fetchCount
 expirationTime
 cachedCharset
