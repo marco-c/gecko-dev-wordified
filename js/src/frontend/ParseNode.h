@@ -1644,9 +1644,6 @@ nullptr
 *
 PNK_THROW
 unary
-pn_op
-:
-JSOP_THROW
 pn_kid
 :
 exception
@@ -2729,10 +2726,6 @@ PNK_ARRAYPUSH
 *
 PNK_ARRAYPUSH
 unary
-pn_op
-:
-JSOP_ARRAYCOMP
-*
 pn_kid
 :
 array
@@ -5514,8 +5507,6 @@ UnaryNode
 (
 ParseNodeKind
 kind
-JSOp
-op
 const
 TokenPos
 &
@@ -5528,7 +5519,7 @@ kid
 ParseNode
 (
 kind
-op
+JSOP_NOP
 PN_UNARY
 pos
 )
@@ -7046,7 +7037,6 @@ thisName
 UnaryNode
 (
 PNK_THIS
-JSOP_NOP
 pos
 thisName
 )
