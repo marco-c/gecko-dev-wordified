@@ -148,6 +148,9 @@ will
 cause
 reflow
 .
+{
+stack
+:
 [
 "
 select
@@ -166,6 +169,7 @@ textbox
 xml
 "
 ]
+}
 ]
 ;
 /
