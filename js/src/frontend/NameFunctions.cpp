@@ -4509,6 +4509,14 @@ PN_TERNARY
 ;
 if
 (
+cur
+-
+>
+pn_kid1
+)
+{
+if
+(
 !
 resolve
 (
@@ -4522,6 +4530,7 @@ prefix
 return
 false
 ;
+}
 if
 (
 cur

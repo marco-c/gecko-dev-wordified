@@ -7864,6 +7864,8 @@ PN_TERNARY
 )
 )
 ;
+if
+(
 ParseNode
 *
 &
@@ -7873,7 +7875,8 @@ node
 -
 >
 pn_kid1
-;
+)
+{
 if
 (
 !
@@ -7888,6 +7891,7 @@ parser
 return
 false
 ;
+}
 if
 (
 ParseNode
