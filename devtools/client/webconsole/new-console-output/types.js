@@ -214,6 +214,9 @@ null
 type
 :
 null
+helperType
+:
+null
 level
 :
 null
