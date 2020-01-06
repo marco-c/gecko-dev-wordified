@@ -1262,6 +1262,13 @@ PostRender
 )
 ;
 }
+mTextureSourceProvider
+-
+>
+FlushPendingNotifyNotUsed
+(
+)
+;
 /
 /
 Finish
