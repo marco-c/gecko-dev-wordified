@@ -67785,7 +67785,7 @@ data_uri
 .
 unique_opaque_origin
 "
-false
+true
 )
 ;
 /
