@@ -5734,6 +5734,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mCanvasElement
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mDocShell
+)
 for
 (
 uint32_t
@@ -5944,6 +5948,10 @@ CanvasRenderingContext2D
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mCanvasElement
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mDocShell
 )
 for
 (
