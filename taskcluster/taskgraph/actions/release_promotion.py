@@ -257,6 +257,14 @@ repackage
 -
 signing
 '
+            
+'
+release
+-
+bouncer
+-
+sub
+'
         
 ]
         
