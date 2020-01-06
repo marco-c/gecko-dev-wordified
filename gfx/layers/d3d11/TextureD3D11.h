@@ -1822,7 +1822,8 @@ WrRect
 &
 aBounds
 const
-WrClipRegionToken
+WrRect
+&
 aClip
 wr
 :
@@ -2131,7 +2132,8 @@ WrRect
 &
 aBounds
 const
-WrClipRegionToken
+WrRect
+&
 aClip
 wr
 :
@@ -2473,16 +2475,6 @@ GetMaxTextureSizeFromDevice
 ID3D11Device
 *
 aDevice
-)
-;
-void
-ReportTextureMemoryUsage
-(
-ID3D11Texture2D
-*
-aTexture
-size_t
-aBytes
 )
 ;
 class
