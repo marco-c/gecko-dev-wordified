@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -225,9 +221,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -300,9 +296,7 @@ Iterator
 :
 Iterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 trieUChars
 int32_t
 maxStringLength

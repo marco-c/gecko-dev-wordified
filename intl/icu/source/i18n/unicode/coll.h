@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -606,7 +602,7 @@ include
 "
 unicode
 /
-normlzr
+unorm
 .
 h
 "
@@ -1512,7 +1508,7 @@ see
 Locale
 *
 see
-Normalizer
+Normalizer2
 *
 version
 2
@@ -3570,7 +3566,7 @@ pre
 >
 *
 .
-UChar
+char16_t
 ABC
 [
 ]
@@ -3590,7 +3586,7 @@ ABC
 "
 *
 .
-UChar
+char16_t
 abc
 [
 ]
@@ -3932,13 +3928,13 @@ EComparisonResult
 compare
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
 sourceLength
 const
-UChar
+char16_t
 *
 target
 int32_t
@@ -4119,13 +4115,13 @@ UCollationResult
 compare
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
 sourceLength
 const
-UChar
+char16_t
 *
 target
 int32_t
@@ -4722,7 +4718,7 @@ CollationKey
 getCollationKey
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
@@ -7767,7 +7763,7 @@ more
 if
 contraction
 )
-UChars
+char16_ts
 to
 which
 the
@@ -7882,7 +7878,7 @@ uint32_t
 setVariableTop
 (
 const
-UChar
+char16_t
 *
 varTop
 int32_t
@@ -7966,7 +7962,7 @@ if
 contraction
 )
 of
-UChars
+char16_ts
 to
 which
 the
@@ -8540,7 +8536,7 @@ of
 bytes
 from
 a
-UChar
+char16_t
 buffer
 .
 *
@@ -8691,7 +8687,7 @@ int32_t
 getSortKey
 (
 const
-UChar
+char16_t
 *
 source
 int32_t

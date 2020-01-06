@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -514,7 +510,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 UListFormatter
 *
 U_EXPORT2
@@ -563,7 +559,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulistfmt_close
@@ -935,7 +931,7 @@ ICU
 55
 *
 /
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ulistfmt_format

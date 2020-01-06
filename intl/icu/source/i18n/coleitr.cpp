@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -361,6 +357,15 @@ h
 if
 !
 UCONFIG_NO_COLLATION
+#
+include
+"
+unicode
+/
+chariter
+.
+h
+"
 #
 include
 "

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -367,6 +363,9 @@ Pattern
 Generator
 *
 /
+class
+CharString
+;
 class
 Hashtable
 ;
@@ -4048,7 +4047,7 @@ fAvailableFormatKeyHash
 UnicodeString
 emptyString
 ;
-UChar
+char16_t
 fDefaultHourFormatChar
 ;
 int32_t

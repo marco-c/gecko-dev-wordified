@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -12932,7 +12928,7 @@ NumberFormat
 *
 getNumberFormatForField
 (
-UChar
+char16_t
 field
 )
 const
@@ -13627,7 +13623,7 @@ subFormat
 UnicodeString
 &
 appendTo
-UChar
+char16_t
 ch
 int32_t
 count
@@ -13803,7 +13799,7 @@ static
 UBool
 isNumeric
 (
-UChar
+char16_t
 formatChar
 int32_t
 count
@@ -14863,7 +14859,7 @@ text
 int32_t
 &
 start
-UChar
+char16_t
 ch
 int32_t
 count
@@ -15527,7 +15523,7 @@ static
 int32_t
 getLevelFromChar
 (
-UChar
+char16_t
 ch
 )
 ;
@@ -15557,7 +15553,7 @@ static
 UBool
 isSyntaxChar
 (
-UChar
+char16_t
 ch
 )
 ;

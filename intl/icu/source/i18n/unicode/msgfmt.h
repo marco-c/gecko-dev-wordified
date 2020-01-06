@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -7579,7 +7575,7 @@ UnicodeString
 &
 s
 const
-UChar
+char16_t
 *
 const
 *

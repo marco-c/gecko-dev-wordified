@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -7915,7 +7911,7 @@ NULL
 /
 static
 const
-UChar
+char16_t
 *
 findID
 (
@@ -8004,7 +8000,7 @@ NULL
 /
 static
 const
-UChar
+char16_t
 *
 dereferOlsonLink
 (
@@ -8056,7 +8052,7 @@ zone
 /
 static
 const
-UChar
+char16_t
 *
 getRegion
 (
@@ -8120,7 +8116,7 @@ internal
 /
 static
 const
-UChar
+char16_t
 *
 getRegion
 (

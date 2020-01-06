@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -10986,7 +10982,7 @@ ID
 append
 (
 (
-UChar
+char16_t
 )
 0
 )

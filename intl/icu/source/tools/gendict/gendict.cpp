@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -319,6 +315,15 @@ include
 unicode
 /
 ucnv
+.
+h
+"
+#
+include
+"
+unicode
+/
+ustring
 .
 h
 "

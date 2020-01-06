@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -3984,7 +3980,6 @@ Other
 subclasses
 (
 ChoiceFormat
-RuleBasedNumberFormat
 )
 do
 not
@@ -4083,7 +4078,6 @@ Other
 subclasses
 (
 ChoiceFormat
-RuleBasedNumberFormat
 )
 do
 not
@@ -8694,7 +8688,7 @@ fCurrency
 }
 }
 const
-UChar
+char16_t
 *
 NumberFormat
 :

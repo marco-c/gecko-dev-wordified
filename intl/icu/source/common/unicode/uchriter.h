@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -237,7 +233,7 @@ C
 +
 API
 :
-UChar
+char16_t
 Character
 Iterator
 *
@@ -267,7 +263,7 @@ points
 )
 in
 a
-UChar
+char16_t
 array
 .
 *
@@ -287,7 +283,7 @@ iterates
 over
 an
 entire
-UChar
+char16_t
 array
 but
 also
@@ -303,7 +299,7 @@ a
 subrange
 of
 a
-UChar
+char16_t
 array
 *
 (
@@ -314,7 +310,7 @@ subranges
 of
 the
 same
-UChar
+char16_t
 array
 don
 '
@@ -356,7 +352,7 @@ an
 iterator
 over
 the
-UChar
+char16_t
 array
 referred
 to
@@ -404,7 +400,7 @@ it
 param
 textPtr
 The
-UChar
+char16_t
 array
 to
 be
@@ -417,7 +413,7 @@ The
 length
 of
 the
-UChar
+char16_t
 array
 *
 stable
@@ -429,9 +425,7 @@ ICU
 /
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -446,7 +440,7 @@ an
 iterator
 over
 the
-UChar
+char16_t
 array
 referred
 to
@@ -525,7 +519,7 @@ undefined
 param
 textPtr
 The
-UChar
+char16_t
 array
 to
 be
@@ -538,7 +532,7 @@ The
 length
 of
 the
-UChar
+char16_t
 array
 *
 param
@@ -559,9 +553,7 @@ ICU
 /
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -578,7 +570,7 @@ an
 iterator
 over
 the
-UChar
+char16_t
 array
 referred
 to
@@ -669,7 +661,7 @@ undefined
 param
 textPtr
 The
-UChar
+char16_t
 array
 to
 be
@@ -682,7 +674,7 @@ The
 length
 of
 the
-UChar
+char16_t
 array
 *
 param
@@ -723,9 +715,7 @@ ICU
 /
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -1131,7 +1121,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 first
 (
 void
@@ -1207,7 +1197,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 firstPostInc
 (
 void
@@ -1439,7 +1429,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 last
 (
 void
@@ -1571,7 +1561,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 setIndex
 (
 int32_t
@@ -1710,7 +1700,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 current
 (
 void
@@ -1818,7 +1808,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 next
 (
 void
@@ -1884,7 +1874,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 nextPostInc
 (
 void
@@ -2198,7 +2188,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 previous
 (
 void
@@ -2548,6 +2538,34 @@ ICU
 0
 *
 /
+#
+ifdef
+move32
+/
+/
+One
+of
+the
+system
+headers
+right
+now
+is
+sometimes
+defining
+a
+conflicting
+macro
+we
+don
+'
+t
+use
+#
+undef
+move32
+#
+endif
 virtual
 int32_t
 move32
@@ -2584,9 +2602,7 @@ ICU
 void
 setText
 (
-const
-UChar
-*
+ConstChar16Ptr
 newText
 int32_t
 newTextLength
@@ -2598,7 +2614,7 @@ newTextLength
 *
 Copies
 the
-UChar
+char16_t
 array
 under
 iteration
@@ -2778,7 +2794,7 @@ ICU
 *
 /
 const
-UChar
+char16_t
 *
 text
 ;

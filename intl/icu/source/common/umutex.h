@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -825,8 +821,13 @@ this
 path
 .
 #
+ifndef
+WIN32_LEAN_AND_MEAN
+#
 define
 WIN32_LEAN_AND_MEAN
+#
+endif
 #
 define
 VC_EXTRALEAN
@@ -2364,8 +2365,13 @@ Sections
 *
 /
 #
+ifndef
+WIN32_LEAN_AND_MEAN
+#
 define
 WIN32_LEAN_AND_MEAN
+#
+endif
 #
 define
 VC_EXTRALEAN

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -324,9 +320,7 @@ CurrencyUnit
 :
 CurrencyUnit
 (
-const
-UChar
-*
+ConstChar16Ptr
 _isoCode
 UErrorCode
 &
@@ -349,6 +343,9 @@ ec
 if
 (
 _isoCode
+!
+=
+nullptr
 &
 &
 u_strlen

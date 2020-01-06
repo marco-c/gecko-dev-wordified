@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -266,9 +262,6 @@ unistr
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 /
 *
@@ -461,7 +454,7 @@ MessageFormat
 see
 UMessagePatternApostropheMode
 *
-draft
+stable
 ICU
 57
 *
@@ -484,7 +477,7 @@ Default
 constructor
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -496,7 +489,7 @@ SimpleFormatter
 compiledPattern
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -552,7 +545,7 @@ argument
 syntax
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -685,7 +678,7 @@ many
 arguments
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -722,7 +715,7 @@ Copy
 constructor
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -751,7 +744,7 @@ Assignment
 operator
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -774,7 +767,7 @@ other
 Destructor
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -844,7 +837,7 @@ errorCode
 )
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -991,7 +984,7 @@ errorCode
 )
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -1025,7 +1018,7 @@ number
 1
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -1135,7 +1128,7 @@ call
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -1250,7 +1243,7 @@ call
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -1379,7 +1372,7 @@ call
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -1587,7 +1580,7 @@ call
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -1828,7 +1821,7 @@ call
 return
 result
 *
-draft
+stable
 ICU
 57
 *
@@ -1884,7 +1877,7 @@ string
 values
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -1999,7 +1992,7 @@ int32_t
 getArgumentLimit
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -2025,7 +2018,7 @@ UnicodeString
 getTextWithNoArguments
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -2038,7 +2031,7 @@ UnicodeString
 format
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -2071,13 +2064,6 @@ errorCode
 }
 ;
 U_NAMESPACE_END
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -414,7 +410,7 @@ const
 char
 *
 const
-UChar
+char16_t
 *
 or
 const
@@ -1056,7 +1052,7 @@ service
 string
 is
 a
-UChar
+char16_t
 *
 string
 it
@@ -1216,7 +1212,7 @@ a
 NUL
 -
 terminated
-UChar
+char16_t
 *
 .
 If
@@ -1415,7 +1411,7 @@ ICU
 /
 virtual
 const
-UChar
+char16_t
 *
 unext
 (

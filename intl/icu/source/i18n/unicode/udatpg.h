@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -746,7 +742,7 @@ ICU
 /
 UDATPG_ZONE_FIELD
 /
-/
+*
 Do
 not
 conditionalize
@@ -756,8 +752,7 @@ with
 #
 ifndef
 U_HIDE_DEPRECATED_API
-/
-/
+*
 it
 is
 needed
@@ -767,6 +762,8 @@ of
 DateTimePatternGenerator
 object
 .
+*
+/
 /
 *
 *

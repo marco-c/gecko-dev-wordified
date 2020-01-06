@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -592,11 +588,6 @@ UBool
 isIncremental
 )
 const
-;
-const
-UCaseProps
-*
-fCsp
 ;
 UCaseMapFull
 *

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1468,7 +1464,7 @@ NULL
 if
 necessary
 to
-0
+nullptr
 for
 C
 +
@@ -1502,7 +1498,7 @@ __cplusplus
 #
 define
 NULL
-0
+nullptr
 #
 else
 #

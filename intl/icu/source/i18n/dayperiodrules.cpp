@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1338,7 +1334,9 @@ addCutoff
 (
 CutoffType
 type
+const
 UnicodeString
+&
 hour_str
 UErrorCode
 &

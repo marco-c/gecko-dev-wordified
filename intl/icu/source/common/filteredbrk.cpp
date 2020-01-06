@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -5782,9 +5778,6 @@ endif
 if
 !
 UCONFIG_NO_BREAK_ITERATION
-&
-&
-U_HAVE_STD_STRING
 &
 &
 !

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -633,10 +629,13 @@ NULL
 0
 &
 len
+toUCharPtr
+(
 outString
 .
 getBuffer
 (
+)
 )
 outString
 .
@@ -680,10 +679,13 @@ dest
 len
 &
 len
+toUCharPtr
+(
 outString
 .
 getBuffer
 (
+)
 )
 outString
 .

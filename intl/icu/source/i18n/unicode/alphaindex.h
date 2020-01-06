@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -249,6 +245,15 @@ include
 unicode
 /
 locid
+.
+h
+"
+#
+include
+"
+unicode
+/
+unistr
 .
 h
 "

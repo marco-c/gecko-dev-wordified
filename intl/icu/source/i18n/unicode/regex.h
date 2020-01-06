@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -207,9 +203,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 indentation
 :
@@ -2763,7 +2759,7 @@ matcher
 with
 a
 (
-UChar
+char16_t
 *
 )
 string
@@ -2793,7 +2789,7 @@ To
 efficiently
 work
 with
-UChar
+char16_t
 *
 strings
 wrap
@@ -2820,7 +2816,7 @@ UnicodeString
 UBool
 isTerminated
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -2847,7 +2843,7 @@ UText
 *
 ut
 const
-UChar
+char16_t
 *
 text
 int64_t
@@ -2869,7 +2865,7 @@ RegexMatcher
 matcher
 (
 const
-UChar
+char16_t
 *
 input
 UErrorCode
@@ -5738,7 +5734,7 @@ matcher
 with
 a
 (
-UChar
+char16_t
 *
 )
 string
@@ -5768,7 +5764,7 @@ To
 efficiently
 work
 with
-UChar
+char16_t
 *
 strings
 wrap
@@ -5795,7 +5791,7 @@ UnicodeString
 UBool
 isTerminated
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -5822,7 +5818,7 @@ UText
 *
 ut
 const
-UChar
+char16_t
 *
 text
 int64_t
@@ -5846,7 +5842,7 @@ UnicodeString
 &
 regexp
 const
-UChar
+char16_t
 *
 input
 uint32_t
@@ -9148,7 +9144,7 @@ matcher
 with
 a
 (
-UChar
+char16_t
 *
 )
 string
@@ -9178,7 +9174,7 @@ To
 efficiently
 work
 with
-UChar
+char16_t
 *
 strings
 wrap
@@ -9205,7 +9201,7 @@ UnicodeString
 UBool
 isTerminated
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -9232,7 +9228,7 @@ UText
 *
 ut
 const
-UChar
+char16_t
 *
 text
 int64_t
@@ -9254,7 +9250,7 @@ RegexMatcher
 reset
 (
 const
-UChar
+char16_t
 *
 input
 )

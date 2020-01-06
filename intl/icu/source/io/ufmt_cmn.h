@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -378,6 +374,10 @@ MAX_UCHAR_BUFFER_SIZE
 buffer
 )
 (
+(
+int32_t
+)
+(
 sizeof
 (
 buffer
@@ -389,6 +389,7 @@ U16_MAX_LENGTH
 sizeof
 (
 UChar
+)
 )
 )
 )

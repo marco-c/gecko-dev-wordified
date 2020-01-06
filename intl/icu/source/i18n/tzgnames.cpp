@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -279,6 +275,15 @@ include
 unicode
 /
 simpletz
+.
+h
+"
+#
+include
+"
+unicode
+/
+strenum
 .
 h
 "

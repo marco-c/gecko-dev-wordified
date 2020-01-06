@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -2873,6 +2869,7 @@ getDefaultTZName
 (
 const
 UnicodeString
+&
 tzid
 UBool
 isDST

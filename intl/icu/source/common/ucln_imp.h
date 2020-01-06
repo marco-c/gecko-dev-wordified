@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -225,9 +221,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -907,8 +903,13 @@ ON
 *
 /
 #
+ifndef
+WIN32_LEAN_AND_MEAN
+#
 define
 WIN32_LEAN_AND_MEAN
+#
+endif
 #
 define
 VC_EXTRALEAN

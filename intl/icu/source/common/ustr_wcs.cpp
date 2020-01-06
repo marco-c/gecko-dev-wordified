@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ cpp
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -1554,6 +1550,10 @@ destCapacity
 {
 u_memcpy
 (
+(
+UChar
+*
+)
 dest
 src
 srcLength
@@ -2874,6 +2874,11 @@ destCapacity
 u_memcpy
 (
 dest
+(
+const
+UChar
+*
+)
 src
 srcLength
 )

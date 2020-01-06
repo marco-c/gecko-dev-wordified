@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -674,8 +670,10 @@ UFMT_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UFormattableType
 ;

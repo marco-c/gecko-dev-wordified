@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ cpp
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -1720,9 +1716,6 @@ status
 }
 ucase_addPropertyStarts
 (
-ucase_getSingleton
-(
-)
 &
 sa
 &
@@ -1895,9 +1888,6 @@ UPROPS_SRC_CASE
 :
 ucase_addPropertyStarts
 (
-ucase_getSingleton
-(
-)
 &
 sa
 &

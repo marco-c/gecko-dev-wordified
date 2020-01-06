@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -3938,9 +3934,6 @@ ICU
 UCHAR_CHANGES_WHEN_NFKC_CASEFOLDED
 =
 56
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3969,7 +3962,7 @@ tr51
 Emoji_Properties
 *
 *
-draft
+stable
 ICU
 57
 *
@@ -4005,7 +3998,7 @@ tr51
 Emoji_Properties
 *
 *
-draft
+stable
 ICU
 57
 *
@@ -4041,7 +4034,7 @@ tr51
 Emoji_Properties
 *
 *
-draft
+stable
 ICU
 57
 *
@@ -4077,7 +4070,7 @@ tr51
 Emoji_Properties
 *
 *
-draft
+stable
 ICU
 57
 *
@@ -4085,13 +4078,6 @@ ICU
 UCHAR_EMOJI_MODIFIER_BASE
 =
 60
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_DEPRECATED_API

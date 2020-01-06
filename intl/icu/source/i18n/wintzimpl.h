@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -323,7 +319,7 @@ h
 "
 #
 if
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 /
 *
 *
@@ -423,7 +419,7 @@ length
 endif
 /
 *
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 *
 /
 #

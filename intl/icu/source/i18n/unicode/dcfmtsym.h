@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -485,6 +481,15 @@ include
 unicode
 /
 unum
+.
+h
+"
+#
+include
+"
+unicode
+/
+unistr
 .
 h
 "
@@ -2596,7 +2601,7 @@ internal
 /
 inline
 const
-UChar
+char16_t
 *
 getCurrencyPattern
 (
@@ -2771,7 +2776,7 @@ ULOC_FULLNAME_CAPACITY
 ]
 ;
 const
-UChar
+char16_t
 *
 currPattern
 ;
@@ -3215,7 +3220,7 @@ ifndef
 U_HIDE_INTERNAL_API
 inline
 const
-UChar
+char16_t
 *
 DecimalFormatSymbols
 :

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -5464,9 +5460,6 @@ endif
 U_HIDE_INTERNAL_API
 *
 /
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5503,7 +5496,7 @@ AM
 PM
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -5538,7 +5531,7 @@ if
 available
 .
 *
-draft
+stable
 ICU
 57
 *
@@ -5546,13 +5539,6 @@ ICU
 UDAT_FLEXIBLE_DAY_PERIOD_FIELD
 =
 36
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -5652,8 +5638,10 @@ UDAT_FIELD_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UDateFormatField
 ;
@@ -5775,7 +5763,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UCalendarDateFields
 U_EXPORT2
 udat_toCalendarDateField
@@ -6116,7 +6104,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UDateFormat
 *
 U_EXPORT2
@@ -6182,7 +6170,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_close
@@ -6367,7 +6355,7 @@ UDAT_PARSE_MULTIPLE_PATTERNS_FOR_MATCH
 =
 3
 /
-/
+*
 Do
 not
 conditionalize
@@ -6377,8 +6365,7 @@ with
 #
 ifndef
 U_HIDE_DEPRECATED_API
-/
-/
+*
 it
 is
 needed
@@ -6388,6 +6375,8 @@ of
 DateFormat
 object
 .
+*
+/
 /
 *
 *
@@ -6518,7 +6507,7 @@ ICU
 53
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 udat_getBooleanAttribute
@@ -6621,7 +6610,7 @@ ICU
 53
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setBooleanAttribute
@@ -6756,7 +6745,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UDateFormat
 *
 U_EXPORT2
@@ -6945,7 +6934,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_format
@@ -7178,7 +7167,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatCalendar
@@ -7398,7 +7387,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatForFields
@@ -7653,7 +7642,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatCalendarForFields
@@ -7955,7 +7944,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 udat_parse
@@ -8209,7 +8198,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_parseCalendar
@@ -8310,7 +8299,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 udat_isLenient
@@ -8395,7 +8384,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setLenient
@@ -8470,7 +8459,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UCalendar
 *
@@ -8549,7 +8538,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setCalendar
@@ -8627,7 +8616,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -8709,7 +8698,7 @@ ICU
 54
 *
 /
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -8885,7 +8874,7 @@ ICU
 54
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_adoptNumberFormatForFields
@@ -8992,7 +8981,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setNumberFormat
@@ -9071,7 +9060,7 @@ ICU
 54
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_adoptNumberFormat
@@ -9162,7 +9151,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -9238,7 +9227,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_countAvailable
@@ -9332,7 +9321,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 udat_get2DigitYearStart
@@ -9435,7 +9424,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_set2DigitYearStart
@@ -9554,7 +9543,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_toPattern
@@ -9649,7 +9638,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_applyPattern
@@ -10424,7 +10413,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_getSymbols
@@ -10537,7 +10526,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_countSymbols
@@ -10672,7 +10661,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setSymbols
@@ -10765,7 +10754,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -10840,7 +10829,7 @@ ICU
 51
 *
 /
-U_DRAFT
+U_CAPI
 void
 U_EXPORT2
 udat_setContext
@@ -10919,7 +10908,7 @@ ICU
 53
 *
 /
-U_STABLE
+U_CAPI
 UDisplayContext
 U_EXPORT2
 udat_getContext

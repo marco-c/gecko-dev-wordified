@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -354,12 +350,14 @@ struct
 NewConverter
 NewConverter
 ;
+U_CDECL_BEGIN
 struct
 NewConverter
 {
 void
 (
 *
+U_CALLCONV
 close
 )
 (
@@ -382,6 +380,7 @@ valid
 UBool
 (
 *
+U_CALLCONV
 isValid
 )
 (
@@ -399,6 +398,7 @@ length
 UBool
 (
 *
+U_CALLCONV
 addTable
 )
 (
@@ -416,6 +416,7 @@ staticData
 uint32_t
 (
 *
+U_CALLCONV
 write
 )
 (
@@ -435,6 +436,7 @@ tableType
 ;
 }
 ;
+U_CDECL_END
 #
 endif
 /

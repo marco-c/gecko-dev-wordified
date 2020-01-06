@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -674,6 +670,15 @@ include
 unicode
 /
 localpointer
+.
+h
+"
+#
+include
+"
+unicode
+/
+ustring
 .
 h
 "

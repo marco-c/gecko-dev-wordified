@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -7909,7 +7905,7 @@ strings
 -
 -
 const
-UChar
+char16_t
 *
 U_EXPORT2
 DateFormatSymbols

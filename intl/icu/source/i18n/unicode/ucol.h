@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1009,8 +1005,10 @@ UCOL_ATTRIBUTE_VALUE_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UColAttributeValue
 ;
@@ -1430,8 +1428,10 @@ UCOL_REORDER_CODE_LIMIT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UColReorderCode
 ;
@@ -2530,7 +2530,7 @@ UCOL_STRENGTH
 +
 2
 /
-/
+*
 Do
 not
 conditionalize
@@ -2540,8 +2540,7 @@ with
 #
 ifndef
 U_HIDE_DEPRECATED_API
-/
-/
+*
 it
 is
 needed
@@ -2551,6 +2550,8 @@ of
 RuleBasedCollator
 object
 .
+*
+/
 /
 *
 *
@@ -7907,8 +7908,10 @@ UCOL_BOUND_VALUE_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UColBoundMode
 ;

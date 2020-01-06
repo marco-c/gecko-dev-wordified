@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -229,9 +225,9 @@ cpp
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -245,6 +241,15 @@ include
 unicode
 /
 simpleformatter
+.
+h
+"
+#
+include
+"
+unicode
+/
+ucasemap
 .
 h
 "

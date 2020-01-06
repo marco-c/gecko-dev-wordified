@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ cpp
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -520,6 +516,7 @@ omitFromU
 prototypes
 *
 /
+U_CDECL_BEGIN
 static
 void
 MBCSClose
@@ -656,6 +653,7 @@ int32_t
 tableType
 )
 ;
+U_CDECL_END
 /
 *
 helper
@@ -1104,6 +1102,7 @@ write
 MBCSWrite
 ;
 }
+U_CFUNC
 NewConverter
 *
 MBCSOpen
@@ -1194,6 +1193,7 @@ fromUBytes
 )
 ;
 }
+U_CDECL_BEGIN
 static
 void
 MBCSClose
@@ -1233,6 +1233,7 @@ mbcsData
 ;
 }
 }
+U_CDECL_END
 static
 UBool
 MBCSStartMappings
@@ -4337,6 +4338,7 @@ TRUE
 }
 }
 }
+U_CDECL_BEGIN
 /
 *
 is
@@ -4407,6 +4409,7 @@ length
 )
 ;
 }
+U_CDECL_END
 static
 UBool
 MBCSSingleAddFromUnicode
@@ -7345,6 +7348,7 @@ return
 TRUE
 ;
 }
+U_CDECL_BEGIN
 /
 *
 we
@@ -8301,6 +8305,7 @@ return
 isOK
 ;
 }
+U_CDECL_END
 static
 UBool
 transformEUC
@@ -11128,6 +11133,7 @@ MBCS_STAGE_3_BLOCK_SIZE
 endif
 }
 }
+U_CDECL_BEGIN
 static
 uint32_t
 MBCSWrite
@@ -12379,3 +12385,4 @@ return
 top
 ;
 }
+U_CDECL_END

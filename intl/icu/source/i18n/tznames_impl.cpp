@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -316,6 +312,15 @@ h
 if
 !
 UCONFIG_NO_FORMATTING
+#
+include
+"
+unicode
+/
+strenum
+.
+h
+"
 #
 include
 "

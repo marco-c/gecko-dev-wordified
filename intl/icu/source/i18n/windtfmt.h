@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -323,7 +319,7 @@ h
 "
 #
 if
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 #
 if
 !
@@ -787,7 +783,7 @@ getDynamicClassID
 =
 *
 .
-erived
+derived
 :
 :
 getStaticClassID
@@ -1000,9 +996,6 @@ fDateStyle
 Locale
 fLocale
 ;
-int32_t
-fLCID
-;
 UnicodeString
 fZoneID
 ;
@@ -1010,6 +1003,19 @@ TIME_ZONE_INFORMATION
 *
 fTZI
 ;
+UnicodeString
+*
+fWindowsLocaleName
+;
+/
+/
+Stores
+the
+equivalent
+Windows
+locale
+name
+.
 }
 ;
 U_NAMESPACE_END
@@ -1027,7 +1033,7 @@ UCONFIG_NO_FORMATTING
 endif
 /
 /
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 #
 endif
 /

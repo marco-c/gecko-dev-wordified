@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ cpp
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -9090,6 +9086,7 @@ n
 unsigned
 long
 )
+(
 max
 *
 sizeof
@@ -9098,6 +9095,7 @@ items
 [
 0
 ]
+)
 )
 max
 )

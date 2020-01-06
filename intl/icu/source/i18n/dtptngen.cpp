@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -3608,7 +3604,9 @@ return
 AllowedHourFormat
 getHourFormatFromUnicodeString
 (
+const
 UnicodeString
+&
 s
 )
 {

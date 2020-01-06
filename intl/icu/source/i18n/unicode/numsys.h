@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1488,7 +1484,9 @@ algorithmic
 void
 setDesc
 (
+const
 UnicodeString
+&
 desc
 )
 ;

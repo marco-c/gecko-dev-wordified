@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -355,6 +351,13 @@ h
 if
 !
 UCONFIG_NO_CONVERSION
+#
+include
+<
+stdio
+.
+h
+>
 #
 include
 "

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1572,6 +1568,12 @@ allModes
 NULL
 )
 {
+ucln_common_registerCleanup
+(
+UCLN_COMMON_LOADED_NORMALIZER2
+uprv_loaded_normalizer2_cleanup
+)
+;
 LocalPointer
 <
 Norm2AllModes

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -326,9 +322,7 @@ const
 Formattable
 &
 amount
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &
@@ -355,9 +349,7 @@ CurrencyAmount
 (
 double
 amount
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &

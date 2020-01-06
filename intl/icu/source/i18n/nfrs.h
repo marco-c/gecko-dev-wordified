@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -223,9 +219,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -716,7 +712,7 @@ util64_pow
 (
 int32_t
 radix
-uint32_t
+uint16_t
 exponent
 )
 ;

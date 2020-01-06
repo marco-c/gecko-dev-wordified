@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -220,7 +216,7 @@ h
 "
 #
 if
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 #
 define
 VC_EXTRALEAN
@@ -1268,7 +1264,7 @@ param
 ;
 #
 if
-U_PLATFORM_HAS_WIN32_API
+U_PLATFORM_USES_ONLY_WIN32_API
 struct
 UTimer
 {

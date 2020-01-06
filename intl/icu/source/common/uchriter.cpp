@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -296,9 +292,7 @@ UCharCharacterIterator
 :
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -338,9 +332,7 @@ UCharCharacterIterator
 :
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -383,9 +375,7 @@ UCharCharacterIterator
 :
 UCharCharacterIterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 textPtr
 int32_t
 length
@@ -1625,9 +1615,7 @@ UCharCharacterIterator
 :
 setText
 (
-const
-UChar
-*
+ConstChar16Ptr
 newText
 int32_t
 newTextLength

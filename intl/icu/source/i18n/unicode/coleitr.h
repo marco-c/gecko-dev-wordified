@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -409,6 +405,9 @@ UHashtable
 U_NAMESPACE_BEGIN
 struct
 CollationData
+;
+class
+CharacterIterator
 ;
 class
 CollationIterator

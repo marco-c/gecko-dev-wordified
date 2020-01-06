@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -229,9 +225,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -484,8 +480,10 @@ ULOCDATA_ES_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 ULocaleDataExemplarSetType
 ;
@@ -613,8 +611,10 @@ ULOCDATA_DELIMITER_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 ULocaleDataDelimiterType
 ;
@@ -1507,8 +1507,10 @@ UMS_LIMIT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 UMeasurementSystem
 ;

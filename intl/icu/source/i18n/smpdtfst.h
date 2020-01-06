@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -337,6 +333,15 @@ SMPDTFST_H
 #
 define
 SMPDTFST_H
+#
+include
+"
+unicode
+/
+uobject
+.
+h
+"
 #
 include
 "

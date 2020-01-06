@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -370,7 +366,7 @@ thin
 wrapper
 over
 a
-UChar
+char16_t
 string
 that
 *
@@ -476,9 +472,7 @@ ICU
 /
 CurrencyUnit
 (
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &
@@ -745,7 +739,7 @@ ICU
 /
 inline
 const
-UChar
+char16_t
 *
 getISOCurrency
 (
@@ -768,7 +762,7 @@ object
 .
 *
 /
-UChar
+char16_t
 isoCode
 [
 4
@@ -778,7 +772,7 @@ isoCode
 ;
 inline
 const
-UChar
+char16_t
 *
 CurrencyUnit
 :

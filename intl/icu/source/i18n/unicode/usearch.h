@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1923,8 +1919,10 @@ USEARCH_ATTRIBUTE_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 USearchAttribute
 ;
@@ -2466,8 +2464,10 @@ USEARCH_ATTRIBUTE_VALUE_COUNT
 #
 endif
 /
-/
+*
 U_HIDE_DEPRECATED_API
+*
+/
 }
 USearchAttributeValue
 ;

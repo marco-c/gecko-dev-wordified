@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -955,6 +951,9 @@ if
 !
 UCONFIG_NO_BREAK_ITERATION
 U_NAMESPACE_BEGIN
+class
+BreakIterator
+;
 class
 RelativeDateTimeCacheData
 ;
@@ -2144,9 +2143,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2266,7 +2262,7 @@ here
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -2417,7 +2413,7 @@ here
 return
 appendTo
 *
-draft
+stable
 ICU
 57
 *
@@ -2439,13 +2435,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

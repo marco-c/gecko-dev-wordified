@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -392,7 +388,7 @@ define
 U_ETHER
 (
 (
-UChar
+char16_t
 )
 0xFFFF
 )

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -227,9 +223,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -1346,7 +1342,7 @@ length
 /
 2
 *
-UChar
+char16_t
 lead
 =
 s
@@ -1388,7 +1384,7 @@ new
 UnicodeString
 (
 (
-UChar
+char16_t
 )
 0xfffc
 )
@@ -2384,7 +2380,7 @@ a
 append
 (
 (
-UChar
+char16_t
 )
 0x61
 )
@@ -2429,7 +2425,7 @@ a
 append
 (
 (
-UChar
+char16_t
 )
 0x62
 )
@@ -2437,7 +2433,7 @@ UChar
 append
 (
 (
-UChar
+char16_t
 )
 0x63
 )

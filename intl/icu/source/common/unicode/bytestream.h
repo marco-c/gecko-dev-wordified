@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1712,9 +1708,6 @@ not
 implemented
 }
 ;
-#
-if
-U_HAVE_STD_STRING
 /
 *
 *
@@ -1932,8 +1925,6 @@ not
 implemented
 }
 ;
-#
-endif
 U_NAMESPACE_END
 #
 endif

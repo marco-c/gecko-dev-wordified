@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -370,6 +366,15 @@ include
 unicode
 /
 calendar
+.
+h
+"
+#
+include
+"
+unicode
+/
+strenum
 .
 h
 "
@@ -3417,7 +3422,7 @@ internal
 /
 static
 const
-UChar
+char16_t
 DEFAULT_TIME_SEPARATOR
 =
 0x003a
@@ -3447,7 +3452,7 @@ internal
 /
 static
 const
-UChar
+char16_t
 ALTERNATE_TIME_SEPARATOR
 =
 0x002e
@@ -4508,7 +4513,7 @@ ICU
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getPatternUChars
@@ -6874,7 +6879,7 @@ UDateFormatField
 U_EXPORT2
 getPatternCharIndex
 (
-UChar
+char16_t
 c
 )
 ;
@@ -6942,7 +6947,7 @@ UBool
 U_EXPORT2
 isNumericPatternChar
 (
-UChar
+char16_t
 c
 int32_t
 count

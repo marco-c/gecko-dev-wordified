@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -322,6 +318,15 @@ include
 unicode
 /
 dtfmtsym
+.
+h
+"
+#
+include
+"
+unicode
+/
+ucasemap
 .
 h
 "

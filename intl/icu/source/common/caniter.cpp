@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -2415,15 +2411,13 @@ permute
 (
 subPermuteString
 .
-replace
+remove
 (
 i
 U16_LENGTH
 (
 cp
 )
-NULL
-0
 )
 skipZeros
 &
@@ -2454,7 +2448,7 @@ return
 /
 The
 upper
-replace
+remove
 is
 destructive
 .

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -7089,7 +7085,7 @@ UnicodeString
 text
 int32_t
 start
-UChar
+char16_t
 separator
 int32_t
 &
@@ -7381,7 +7377,7 @@ formatOffsetWithAsciiDigits
 (
 int32_t
 offset
-UChar
+char16_t
 sep
 OffsetFields
 minFields
@@ -7617,7 +7613,7 @@ text
 ParsePosition
 &
 pos
-UChar
+char16_t
 sep
 OffsetFields
 minFields

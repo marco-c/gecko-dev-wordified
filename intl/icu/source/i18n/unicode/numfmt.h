@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -6822,7 +6818,7 @@ void
 setCurrency
 (
 const
-UChar
+char16_t
 *
 theCurrency
 UErrorCode
@@ -6888,7 +6884,7 @@ ICU
 *
 /
 const
-UChar
+char16_t
 *
 getCurrency
 (
@@ -7396,7 +7392,7 @@ virtual
 void
 getEffectiveCurrency
 (
-UChar
+char16_t
 *
 result
 UErrorCode
@@ -7610,7 +7606,7 @@ enabled
 ISO
 currency
 code
-UChar
+char16_t
 fCurrency
 [
 4

@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1508,7 +1504,9 @@ NumberingSystem
 :
 setDesc
 (
+const
 UnicodeString
+&
 d
 )
 {

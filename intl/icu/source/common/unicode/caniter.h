@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1602,7 +1598,7 @@ Hashtable
 *
 fillinResult
 const
-UChar
+char16_t
 *
 segment
 int32_t
@@ -1689,7 +1685,7 @@ fillinResult
 UChar32
 comp
 const
-UChar
+char16_t
 *
 segment
 int32_t

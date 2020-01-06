@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -998,7 +994,7 @@ ICU
 *
 /
 inline
-UChar
+char16_t
 charAt
 (
 int32_t
@@ -2105,7 +2101,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 getCharAt
 (
 int32_t
@@ -2173,7 +2169,7 @@ getLength
 ;
 }
 inline
-UChar
+char16_t
 Replaceable
 :
 :

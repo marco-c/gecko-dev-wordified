@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -1869,7 +1865,7 @@ a
 zero
 -
 terminated
-UChar
+char16_t
 array
 which
 lives

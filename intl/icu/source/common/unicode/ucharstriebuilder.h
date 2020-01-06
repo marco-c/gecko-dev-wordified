@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -225,9 +221,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -766,7 +762,7 @@ add
 ed
 data
 and
-UChar
+char16_t
 -
 serializes
 it
@@ -833,7 +829,7 @@ builder
 '
 s
 same
-UChar
+char16_t
 array
 without
 rebuilding
@@ -923,7 +919,7 @@ be
 set
 to
 the
-UChar
+char16_t
 -
 serialized
 *
@@ -1128,7 +1124,7 @@ i
 const
 ;
 virtual
-UChar
+char16_t
 getElementUnit
 (
 int32_t
@@ -1194,7 +1190,7 @@ int32_t
 i
 int32_t
 unitIndex
-UChar
+char16_t
 unit
 )
 const
@@ -1263,7 +1259,7 @@ public
 UCTLinearMatchNode
 (
 const
-UChar
+char16_t
 *
 units
 int32_t
@@ -1298,7 +1294,7 @@ builder
 private
 :
 const
-UChar
+char16_t
 *
 s
 ;
@@ -1340,7 +1336,7 @@ int32_t
 write
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1404,7 +1400,7 @@ elementsLength
 ;
 /
 /
-UChar
+char16_t
 serialization
 of
 the
@@ -1426,7 +1422,7 @@ of
 the
 buffer
 !
-UChar
+char16_t
 *
 uchars
 ;

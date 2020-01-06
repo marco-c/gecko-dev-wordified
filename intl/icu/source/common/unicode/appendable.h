@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -225,9 +221,9 @@ h
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size
@@ -292,7 +288,7 @@ bit
 code
 units
 (
-UChars
+char16_ts
 )
 .
 *
@@ -370,7 +366,7 @@ is
 a
 UnicodeString
 a
-UChar
+char16_t
 [
 ]
 array
@@ -401,7 +397,7 @@ at
 least
 appendCodeUnit
 (
-UChar
+char16_t
 )
 .
 *
@@ -566,7 +562,7 @@ virtual
 UBool
 appendCodeUnit
 (
-UChar
+char16_t
 c
 )
 =
@@ -588,7 +584,7 @@ implementation
 calls
 appendCodeUnit
 (
-UChar
+char16_t
 )
 once
 or
@@ -641,7 +637,7 @@ implementation
 calls
 appendCodeUnit
 (
-UChar
+char16_t
 )
 for
 each
@@ -693,7 +689,7 @@ UBool
 appendString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -717,7 +713,7 @@ append
 roughly
 *
 appendCapacity
-UChars
+char16_ts
 .
 A
 subclass
@@ -755,7 +751,7 @@ appendCapacity
 estimated
 number
 of
-UChars
+char16_ts
 that
 will
 be
@@ -857,7 +853,7 @@ at
 most
 *
 resultCapacity
-UChars
+char16_ts
 call
 appendString
 (
@@ -874,7 +870,7 @@ and
 the
 number
 of
-UChars
+char16_ts
 written
 .
 *
@@ -886,7 +882,7 @@ implementations
 will
 avoid
 copying
-UChars
+char16_ts
 if
 this
 function
@@ -910,7 +906,7 @@ int32_t
 capacity
 ;
 *
-UChar
+char16_t
 *
 buffer
 =
@@ -931,7 +927,7 @@ capacity
 .
 Write
 n
-UChars
+char16_ts
 into
 buffer
 with
@@ -963,7 +959,7 @@ append
 will
 avoid
 copying
-UChars
+char16_ts
 .
 *
 *
@@ -1147,7 +1143,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 *
 getAppendBuffer
 (
@@ -1155,7 +1151,7 @@ int32_t
 minCapacity
 int32_t
 desiredCapacityHint
-UChar
+char16_t
 *
 scratch
 int32_t
@@ -1315,7 +1311,7 @@ virtual
 UBool
 appendCodeUnit
 (
-UChar
+char16_t
 c
 )
 ;
@@ -1419,7 +1415,7 @@ UBool
 appendString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1443,7 +1439,7 @@ append
 roughly
 *
 appendCapacity
-UChars
+char16_ts
 .
 *
 param
@@ -1451,7 +1447,7 @@ appendCapacity
 estimated
 number
 of
-UChars
+char16_ts
 that
 will
 be
@@ -1646,7 +1642,7 @@ ICU
 *
 /
 virtual
-UChar
+char16_t
 *
 getAppendBuffer
 (
@@ -1654,7 +1650,7 @@ int32_t
 minCapacity
 int32_t
 desiredCapacityHint
-UChar
+char16_t
 *
 scratch
 int32_t

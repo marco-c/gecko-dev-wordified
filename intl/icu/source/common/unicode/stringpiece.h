@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -526,9 +522,6 @@ char
 str
 )
 ;
-#
-if
-U_HAVE_STD_STRING
 /
 *
 *
@@ -584,8 +577,6 @@ size
 )
 {
 }
-#
-endif
 /
 *
 *

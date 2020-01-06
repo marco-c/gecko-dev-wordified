@@ -1,9 +1,5 @@
 /
 /
-Copyright
-(
-C
-)
 2016
 and
 later
@@ -7315,7 +7311,7 @@ pattern
 letter
 static
 const
-UChar
+char16_t
 fgCalendarFieldToPatternLetter
 [
 ]
