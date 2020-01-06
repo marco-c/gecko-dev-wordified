@@ -1587,7 +1587,9 @@ width
 =
 rect
 .
-width
+Width
+(
+)
 ;
 r
 .
@@ -1597,7 +1599,9 @@ height
 =
 rect
 .
-height
+Height
+(
+)
 ;
 return
 r
@@ -1650,7 +1654,9 @@ width
 =
 rect
 .
-width
+Width
+(
+)
 ;
 r
 .
@@ -1660,7 +1666,9 @@ height
 =
 rect
 .
-height
+Height
+(
+)
 ;
 return
 r

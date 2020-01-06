@@ -1348,7 +1348,9 @@ mBaseFrequency
 width
 aTileRect
 .
-width
+Width
+(
+)
 )
 AdjustForLength
 (
@@ -1357,7 +1359,9 @@ mBaseFrequency
 height
 aTileRect
 .
-height
+Height
+(
+)
 )
 )
 ;
@@ -1419,7 +1423,9 @@ floorf
 (
 aTileRect
 .
-width
+Width
+(
+)
 *
 mBaseFrequency
 .
@@ -1441,7 +1447,9 @@ floorf
 (
 aTileRect
 .
-height
+Height
+(
+)
 *
 mBaseFrequency
 .
