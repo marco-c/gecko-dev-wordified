@@ -1465,6 +1465,7 @@ mDefaultFontType
 )
 {
 }
+explicit
 FontFamilyList
 (
 NotNull
