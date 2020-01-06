@@ -4899,6 +4899,9 @@ DrawSelectionDecorations
 gfxContext
 *
 aContext
+TextDrawTarget
+*
+aTextDrawer
 const
 LayoutDeviceRect
 &
