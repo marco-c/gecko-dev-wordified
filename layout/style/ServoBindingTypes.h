@@ -430,6 +430,16 @@ RawGeckoGfxMatrix4x4
 16
 ]
 ;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+StyleChildrenIterator
+RawGeckoStyleChildrenIterator
+;
 /
 /
 We
@@ -1008,6 +1018,10 @@ RawGeckoCSSPropertyIDList
 DECL_BORROWED_REF_TYPE_FOR
 (
 nsXBLBinding
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+RawGeckoStyleChildrenIterator
 )
 #
 undef
