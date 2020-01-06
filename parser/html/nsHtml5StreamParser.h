@@ -1980,10 +1980,6 @@ thread
 nsresult
 DispatchToMain
 (
-const
-char
-*
-aName
 already_AddRefed
 <
 nsIRunnable

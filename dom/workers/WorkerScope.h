@@ -947,10 +947,6 @@ alive
 nsresult
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -1736,10 +1732,6 @@ alive
 nsresult
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed

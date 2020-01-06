@@ -503,12 +503,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-WMFMediaDataDecoder
-:
-:
-SendTelemetry
-"
 TaskCategory
 :
 :

@@ -19667,10 +19667,6 @@ TabChildGlobal
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -19706,7 +19702,6 @@ TabGroup
 >
 Dispatch
 (
-aName
 aCategory
 Move
 (
@@ -19721,7 +19716,6 @@ DispatcherTrait
 :
 Dispatch
 (
-aName
 aCategory
 Move
 (

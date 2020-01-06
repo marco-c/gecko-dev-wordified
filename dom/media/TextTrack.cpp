@@ -1736,12 +1736,6 @@ win
 >
 Dispatch
 (
-"
-TextTrack
-:
-:
-DispatchAsyncTrustedEvent
-"
 TaskCategory
 :
 :

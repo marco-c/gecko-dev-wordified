@@ -1827,12 +1827,6 @@ TabGroup
 >
 Dispatch
 (
-"
-PuppetWidget
-:
-:
-Invalidate
-"
 TaskCategory
 :
 :

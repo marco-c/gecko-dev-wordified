@@ -2773,12 +2773,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-HTMLCanvasElement
-:
-:
-CallPrintCallback
-"
 TaskCategory
 :
 :
@@ -4305,9 +4299,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-FireNullBlobEvent
-"
 TaskCategory
 :
 :

@@ -167,10 +167,6 @@ DispatcherTrait
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -188,7 +184,6 @@ SchedulerGroup
 :
 UnlabeledDispatch
 (
-aName
 aCategory
 Move
 (

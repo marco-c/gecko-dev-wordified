@@ -437,10 +437,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-~
-AutoTaskQueue
-"
 TaskCategory
 :
 :

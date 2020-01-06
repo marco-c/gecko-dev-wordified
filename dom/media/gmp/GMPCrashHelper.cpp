@@ -173,12 +173,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-GMPCrashHelper
-:
-:
-Destroy
-"
 TaskCategory
 :
 :

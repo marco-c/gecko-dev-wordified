@@ -1410,12 +1410,6 @@ mDocument
 >
 Dispatch
 (
-"
-nsHtml5Parser
-:
-:
-Terminate
-"
 TaskCategory
 :
 :
@@ -1562,9 +1556,6 @@ mDocument
 >
 Dispatch
 (
-"
-nsHtml5ExecutorReflusher
-"
 TaskCategory
 :
 :

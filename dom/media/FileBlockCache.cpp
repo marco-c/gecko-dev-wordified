@@ -1329,9 +1329,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ShutdownThreadEvent
-"
 TaskCategory
 :
 :

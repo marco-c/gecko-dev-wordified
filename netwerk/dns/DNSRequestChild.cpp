@@ -1622,9 +1622,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-StartDNSRequestChild
-"
 TaskCategory
 :
 :
@@ -2419,9 +2416,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-CancelDNSRequest
-"
 TaskCategory
 :
 :

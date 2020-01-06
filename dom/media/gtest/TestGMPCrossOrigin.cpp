@@ -2270,9 +2270,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ClearGMPStorage
-"
 TaskCategory
 :
 :
@@ -4307,9 +4304,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-TestForgetThisSite_Forget
-"
 TaskCategory
 :
 :
@@ -6960,9 +6954,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-GMPShutdownObserver
-"
 TaskCategory
 :
 :
@@ -7050,12 +7041,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-GMPStorageTest
-:
-:
-Dummy
-"
 TaskCategory
 :
 :

@@ -2623,9 +2623,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-LogToBrowserConsole
-"
 TaskCategory
 :
 :

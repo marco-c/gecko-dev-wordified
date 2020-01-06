@@ -1152,12 +1152,6 @@ mDocument
 >
 Dispatch
 (
-"
-nsSHEntryShared
-:
-:
-DestroyViewerEvent
-"
 mozilla
 :
 :

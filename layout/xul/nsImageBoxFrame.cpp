@@ -709,9 +709,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsImageBoxFrameEvent
-"
 TaskCategory
 :
 :

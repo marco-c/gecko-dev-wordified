@@ -50893,9 +50893,6 @@ aError
 =
 Dispatch
 (
-"
-PostMessageEvent
-"
 TaskCategory
 :
 :
@@ -51143,9 +51140,6 @@ aWindow
 >
 Dispatch
 (
-"
-nsCloseEvent
-"
 TaskCategory
 :
 :
@@ -54370,9 +54364,6 @@ rv
 =
 Dispatch
 (
-"
-WindowDestroyedEvent
-"
 TaskCategory
 :
 :
@@ -60968,9 +60959,6 @@ this
 return
 Dispatch
 (
-"
-HashchangeCallback
-"
 TaskCategory
 :
 :
@@ -64181,9 +64169,6 @@ NS_FAILED
 (
 Dispatch
 (
-"
-NotifyIdleObserverRunnable
-"
 TaskCategory
 :
 :
@@ -71245,12 +71230,6 @@ mWin
 >
 Dispatch
 (
-"
-nsGlobalWindow
-:
-:
-UnblockScriptedClosing
-"
 TaskCategory
 :
 :
@@ -84926,10 +84905,6 @@ nsGlobalWindow
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -84963,7 +84938,6 @@ GetDocGroup
 >
 Dispatch
 (
-aName
 aCategory
 Move
 (
@@ -84978,7 +84952,6 @@ DispatcherTrait
 :
 Dispatch
 (
-aName
 aCategory
 Move
 (

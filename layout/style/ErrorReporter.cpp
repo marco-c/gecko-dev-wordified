@@ -900,9 +900,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ShortTermURISpecCache
-"
 TaskCategory
 :
 :
