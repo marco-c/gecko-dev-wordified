@@ -1994,6 +1994,7 @@ strBuf
 strBufLen
 interner
 )
+true
 )
 ;
 tagName
@@ -2038,6 +2039,7 @@ strBuf
 strBufLen
 interner
 )
+false
 )
 ;
 tagName
@@ -8959,6 +8961,8 @@ appendCharRefBuf
 (
 c
 )
+;
+continue
 ;
 }
 outer_end
@@ -20179,6 +20183,8 @@ outer
 )
 ;
 }
+continue
+;
 }
 outer_end
 :
@@ -20606,6 +20612,8 @@ eof
 (
 )
 ;
+return
+;
 }
 void
 nsHtml5Tokenizer
@@ -20846,6 +20854,7 @@ nonInternedTagName
 setNameForNonInterned
 (
 nullptr
+false
 )
 ;
 attributeName
@@ -21399,6 +21408,15 @@ getName
 (
 )
 interner
+)
+other
+-
+>
+tagName
+-
+>
+isCustom
+(
 )
 )
 ;
