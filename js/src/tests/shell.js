@@ -3247,12 +3247,6 @@ length
 ]
 ;
 }
-global
-.
-currentFunc
-=
-currentFunc
-;
 /
 *
 *
