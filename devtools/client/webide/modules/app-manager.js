@@ -4060,6 +4060,17 @@ consoleActor
 ;
 }
 get
+listTabsForm
+(
+)
+{
+return
+this
+.
+_listTabsResponse
+;
+}
+get
 deviceFront
 (
 )
