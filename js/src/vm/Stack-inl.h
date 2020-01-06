@@ -1975,14 +1975,6 @@ isStarGenerator
 callee
 -
 >
-isLegacyGenerator
-(
-)
-|
-|
-callee
--
->
 isAsync
 (
 )

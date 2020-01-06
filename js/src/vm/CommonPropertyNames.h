@@ -1950,15 +1950,6 @@ lastIndex
 \
 macro
 (
-LegacyGeneratorCloseInternal
-LegacyGeneratorCloseInternal
-"
-LegacyGeneratorCloseInternal
-"
-)
-\
-macro
-(
 length
 length
 "

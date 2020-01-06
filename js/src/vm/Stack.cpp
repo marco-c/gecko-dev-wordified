@@ -2029,16 +2029,6 @@ callee
 (
 )
 .
-isLegacyGenerator
-(
-)
-&
-&
-!
-callee
-(
-)
-.
 isAsync
 (
 )

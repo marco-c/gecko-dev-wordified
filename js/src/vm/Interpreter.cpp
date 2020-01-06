@@ -8889,7 +8889,7 @@ ok
 =
 true
 ;
-SetReturnValueForClosingGenerator
+SetGeneratorClosed
 (
 cx
 frame
@@ -26433,9 +26433,6 @@ sp
 -
 -
 ;
-if
-(
-!
 GeneratorObject
 :
 :
@@ -26444,16 +26441,7 @@ finalSuspend
 cx
 gen
 )
-)
-{
-interpReturnOK
-=
-false
 ;
-goto
-return_continuation
-;
-}
 goto
 successful_return_continuation
 ;

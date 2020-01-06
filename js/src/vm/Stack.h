@@ -4752,16 +4752,6 @@ script
 )
 -
 >
-isLegacyGenerator
-(
-)
-|
-|
-script
-(
-)
--
->
 isAsync
 (
 )

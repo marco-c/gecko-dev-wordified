@@ -4452,11 +4452,6 @@ warnedAboutForEach
 :
 1
 ;
-bool
-warnedAboutLegacyGenerator
-:
-1
-;
 uint32_t
 warnedAboutStringGenericsMethods
 ;
