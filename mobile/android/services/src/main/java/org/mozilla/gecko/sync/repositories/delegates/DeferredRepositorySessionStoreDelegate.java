@@ -319,6 +319,10 @@ onRecordStoreReconciled
 final
 String
 guid
+final
+String
+oldGuid
+final
 Integer
 newVersion
 )
@@ -344,7 +348,8 @@ inner
 onRecordStoreReconciled
 (
 guid
-null
+oldGuid
+newVersion
 )
 ;
 }

@@ -3826,6 +3826,7 @@ record
 .
 guid
 null
+null
 )
 ;
 storeDelegate
@@ -4221,6 +4222,9 @@ storeDelegate
 onRecordStoreReconciled
 (
 record
+.
+guid
+existingRecord
 .
 guid
 null

@@ -1791,6 +1791,7 @@ record
 .
 guid
 null
+null
 )
 ;
 storeRecordDeletion
@@ -2376,6 +2377,9 @@ storeDelegate
 onRecordStoreReconciled
 (
 record
+.
+guid
+existingRecord
 .
 guid
 null
