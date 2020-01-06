@@ -4521,7 +4521,7 @@ component
 1
 ]
 match_glyph
-NULL
+nullptr
 &
 match_length
 match_positions

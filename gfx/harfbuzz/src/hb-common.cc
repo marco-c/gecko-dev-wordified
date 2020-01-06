@@ -1660,7 +1660,7 @@ lang
 )
 )
 return
-NULL
+nullptr
 ;
 lang
 -
@@ -1692,7 +1692,7 @@ lang
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1885,7 +1885,7 @@ hb_language_item_t
 *
 item
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2051,7 +2051,7 @@ language
 This
 is
 actually
-NULL
+nullptr
 -
 safe
 !
@@ -2136,7 +2136,7 @@ hb_language_from_string
 setlocale
 (
 LC_CTYPE
-NULL
+nullptr
 )
 -
 1
@@ -3098,9 +3098,9 @@ hb_user_data_item_t
 item
 =
 {
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 return
@@ -3118,7 +3118,7 @@ item
 .
 data
 :
-NULL
+nullptr
 ;
 }
 /
@@ -3818,7 +3818,7 @@ LC_ALL_MASK
 "
 C
 "
-NULL
+nullptr
 )
 ;
 if
@@ -3828,7 +3828,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 C_locale
-NULL
+nullptr
 C
 )
 )

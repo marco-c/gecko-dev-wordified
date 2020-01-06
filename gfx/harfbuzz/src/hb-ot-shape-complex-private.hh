@@ -402,7 +402,7 @@ callbacks
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -453,7 +453,7 @@ added
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -499,7 +499,7 @@ later
 .
 *
 If
-NULL
+nullptr
 is
 returned
 means
@@ -549,7 +549,7 @@ destruction
 .
 *
 If
-NULL
+nullptr
 is
 returned
 means
@@ -560,7 +560,7 @@ failure
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -601,7 +601,7 @@ starts
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -649,7 +649,7 @@ ends
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -692,7 +692,7 @@ normalization
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -734,7 +734,7 @@ normalization
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -793,7 +793,7 @@ characters
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -852,7 +852,7 @@ used
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -894,7 +894,7 @@ marks
 *
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -1591,7 +1591,7 @@ e
 f
 '
 )
-NULL
+nullptr
 )
 )
 return

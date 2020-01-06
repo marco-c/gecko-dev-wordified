@@ -1162,7 +1162,7 @@ map
 >
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 /
@@ -1396,7 +1396,7 @@ use_plan
 )
 )
 return
-NULL
+nullptr
 ;
 use_plan
 -
@@ -1472,7 +1472,7 @@ use_plan
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1857,7 +1857,8 @@ arabic_plan
 )
 return
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 INIT
 <
@@ -1877,6 +1878,9 @@ MEDI
 FINA
 <
 4
+)
+"
+"
 )
 ;
 hb_mask_t
@@ -2628,7 +2632,7 @@ unlikely
 (
 !
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 syllable_type
 )
@@ -3764,7 +3768,7 @@ _hb_ot_complex_shaper_use
 use
 "
 collect_features_use
-NULL
+nullptr
 /
 *
 override_features
@@ -3772,13 +3776,13 @@ override_features
 /
 data_create_use
 data_destroy_use
-NULL
+nullptr
 /
 *
 preprocess_text
 *
 /
-NULL
+nullptr
 /
 *
 postprocess_glyphs
@@ -3788,13 +3792,13 @@ HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 decompose_use
 compose_use
 setup_masks_use
-NULL
+nullptr
 /
 *
 disable_otl
 *
 /
-NULL
+nullptr
 /
 *
 reorder_marks

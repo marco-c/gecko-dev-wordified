@@ -283,7 +283,7 @@ hb_blob_t
 *
 blob
 =
-NULL
+nullptr
 ;
 if
 (
@@ -360,7 +360,7 @@ argv
 1
 ]
 false
-NULL
+nullptr
 )
 ;
 font_data
@@ -527,7 +527,7 @@ blob
 ;
 blob
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -669,7 +669,7 @@ sizeof
 (
 out
 )
-NULL
+nullptr
 font
 HB_BUFFER_SERIALIZE_FORMAT_JSON
 HB_BUFFER_SERIALIZE_FLAG_DEFAULT

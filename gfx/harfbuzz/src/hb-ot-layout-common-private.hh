@@ -1248,7 +1248,7 @@ LangSys
 sanitize_closure_t
 *
 =
-NULL
+nullptr
 )
 const
 {
@@ -1552,7 +1552,7 @@ Script
 sanitize_closure_t
 *
 =
-NULL
+nullptr
 )
 const
 {
@@ -2963,7 +2963,7 @@ feature
 (
 May
 be
-NULL
+nullptr
 .
 )
 *
@@ -3009,7 +3009,7 @@ feature
 May
 be
 *
-NULL
+nullptr
 .
 )
 *
@@ -3042,7 +3042,7 @@ feature
 (
 May
 be
-NULL
+nullptr
 .
 )
 *
@@ -3478,7 +3478,7 @@ sanitize_closure_t
 *
 closure
 =
-NULL
+nullptr
 )
 const
 {
@@ -4691,7 +4691,8 @@ bsearch
 glyph_id
 )
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 (
 (
@@ -4704,6 +4705,9 @@ int
 =
 =
 NOT_COVERED
+)
+"
+"
 )
 ;
 return
@@ -9120,7 +9124,7 @@ feature
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 inline

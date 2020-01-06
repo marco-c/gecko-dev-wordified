@@ -398,7 +398,7 @@ table
 .
 May
 be
-NULL
+nullptr
 .
 *
 Suggested
@@ -1674,7 +1674,7 @@ table
 .
 May
 be
-NULL
+nullptr
 .
 *
 /
@@ -2144,7 +2144,7 @@ purposes
 .
 May
 be
-NULL
+nullptr
 .
 .
 *
@@ -2409,7 +2409,7 @@ fullAdvance
 scale
 )
 ;
-ASSERT_STATIC
+static_assert
 (
 (
 unsigned
@@ -2426,6 +2426,8 @@ PartFlags
 :
 :
 Extender
+"
+"
 )
 ;
 out
@@ -3039,7 +3041,7 @@ table
 .
 May
 be
-NULL
+nullptr
 .
 *
 /

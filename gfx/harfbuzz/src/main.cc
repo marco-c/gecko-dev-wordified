@@ -332,7 +332,7 @@ char
 *
 font_data
 =
-NULL
+nullptr
 ;
 int
 len
@@ -353,7 +353,7 @@ argv
 1
 ]
 false
-NULL
+nullptr
 )
 ;
 font_data

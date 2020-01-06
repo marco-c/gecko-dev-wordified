@@ -457,7 +457,7 @@ c
 )
 )
 return
-NULL
+nullptr
 ;
 \
 *

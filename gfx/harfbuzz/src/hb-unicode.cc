@@ -812,7 +812,7 @@ _hb_unicode_funcs_nil
 =
 {
 HB_OBJECT_HEADER_STATIC
-NULL
+nullptr
 /
 *
 parent
@@ -1501,7 +1501,7 @@ destroy
 .
 name
 =
-NULL
+nullptr
 ;
 \
 }

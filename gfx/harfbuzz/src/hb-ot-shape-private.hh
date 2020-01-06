@@ -450,7 +450,7 @@ props
 )
 shaper
 (
-NULL
+nullptr
 )
 map
 (

@@ -1203,7 +1203,7 @@ i
 }
 }
 return
-NULL
+nullptr
 ;
 }
 protected
@@ -1641,7 +1641,7 @@ this
 }
 }
 return
-NULL
+nullptr
 ;
 }
 protected

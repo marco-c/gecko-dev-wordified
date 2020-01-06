@@ -277,7 +277,7 @@ hb_blob_t
 *
 blob
 =
-NULL
+nullptr
 ;
 if
 (
@@ -354,7 +354,7 @@ argv
 1
 ]
 false
-NULL
+nullptr
 )
 ;
 font_data
@@ -528,7 +528,7 @@ blob
 ;
 blob
 =
-NULL
+nullptr
 ;
 unsigned
 int

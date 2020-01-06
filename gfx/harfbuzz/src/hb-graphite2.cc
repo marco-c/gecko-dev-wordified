@@ -334,7 +334,7 @@ hb_blob_t
 *
 blob
 =
-NULL
+nullptr
 ;
 for
 (
@@ -428,7 +428,7 @@ blob
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -574,7 +574,7 @@ silf_blob
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 hb_blob_destroy
@@ -608,7 +608,7 @@ data
 )
 )
 return
-NULL
+nullptr
 ;
 data
 -
@@ -648,7 +648,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -751,7 +751,7 @@ face
 )
 )
 return
-NULL
+nullptr
 ;
 return
 HB_SHAPER_DATA_GET
@@ -826,7 +826,7 @@ font
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -992,7 +992,7 @@ lang
 '
 )
 :
-NULL
+nullptr
 ;
 int
 lang_len
@@ -1078,7 +1078,7 @@ gr_segment
 *
 seg
 =
-NULL
+nullptr
 ;
 const
 gr_slot
@@ -1203,7 +1203,7 @@ seg
 =
 gr_make_seg
 (
-NULL
+nullptr
 grface
 script_tag
 [
@@ -2169,7 +2169,7 @@ pPos
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 if
@@ -2302,7 +2302,7 @@ gr_slot_advance_Y
 (
 is
 grface
-NULL
+nullptr
 )
 *
 yscale
@@ -2412,7 +2412,7 @@ gr_slot_advance_Y
 (
 is
 grface
-NULL
+nullptr
 )
 *
 yscale

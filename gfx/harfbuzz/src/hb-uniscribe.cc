@@ -755,21 +755,21 @@ this
 >
 ScriptItemizeOpenType
 =
-NULL
+nullptr
 ;
 this
 -
 >
 ScriptShapeOpenType
 =
-NULL
+nullptr
 ;
 this
 -
 >
 ScriptPlaceOpenType
 =
-NULL
+nullptr
 ;
 hinstLib
 =
@@ -865,7 +865,7 @@ ScriptPlaceOpenType
 DEBUG_MSG
 (
 UNISCRIBE
-NULL
+nullptr
 "
 OpenType
 versions
@@ -981,7 +981,7 @@ funcs
 )
 )
 return
-NULL
+nullptr
 ;
 funcs
 -
@@ -997,7 +997,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 uniscribe_funcs
-NULL
+nullptr
 funcs
 )
 )
@@ -1426,7 +1426,8 @@ UUID
 id
 )
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 2
 +
@@ -1439,6 +1440,9 @@ ASSERT_STATIC
 )
 <
 LF_FACESIZE
+)
+"
+"
 )
 ;
 unsigned
@@ -1933,7 +1937,7 @@ blob
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 memcpy
@@ -2390,7 +2394,7 @@ blob
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2446,7 +2450,7 @@ char
 new_sfnt_data
 new_length
 HB_MEMORY_MODE_WRITABLE
-NULL
+nullptr
 free
 )
 ;
@@ -2486,7 +2490,7 @@ data
 )
 )
 return
-NULL
+nullptr
 ;
 data
 -
@@ -2515,7 +2519,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 hb_blob_t
@@ -2576,7 +2580,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DWORD
@@ -2596,7 +2600,7 @@ void
 hb_blob_get_data
 (
 blob
-NULL
+nullptr
 )
 hb_blob_get_length
 (
@@ -2638,7 +2642,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2813,7 +2817,7 @@ face
 )
 )
 return
-NULL
+nullptr
 ;
 hb_uniscribe_shaper_font_data_t
 *
@@ -2841,7 +2845,7 @@ data
 )
 )
 return
-NULL
+nullptr
 ;
 int
 font_size
@@ -2941,7 +2945,7 @@ hdc
 =
 GetDC
 (
-NULL
+nullptr
 )
 ;
 if
@@ -2981,7 +2985,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 data
@@ -3029,7 +3033,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3067,7 +3071,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3091,7 +3095,7 @@ hdc
 )
 ReleaseDC
 (
-NULL
+nullptr
 data
 -
 >
@@ -3156,7 +3160,7 @@ font
 )
 )
 return
-NULL
+nullptr
 ;
 hb_uniscribe_shaper_font_data_t
 *
@@ -3195,7 +3199,7 @@ font
 )
 )
 return
-NULL
+nullptr
 ;
 hb_uniscribe_shaper_font_data_t
 *
@@ -4110,7 +4114,7 @@ HB_STMT_START
 DEBUG_MSG
 (
 UNISCRIBE
-NULL
+nullptr
 __VA_ARGS__
 )
 ;
@@ -5449,7 +5453,7 @@ glyphs_offset
 offsets
 +
 glyphs_offset
-NULL
+nullptr
 )
 ;
 if

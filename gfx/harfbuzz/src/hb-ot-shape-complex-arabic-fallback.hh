@@ -514,7 +514,7 @@ if
 num_glyphs
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -719,7 +719,7 @@ SubstLookup
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static
@@ -1144,7 +1144,7 @@ if
 num_ligatures
 )
 return
-NULL
+nullptr
 ;
 OT
 :
@@ -1337,7 +1337,7 @@ SubstLookup
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static
@@ -1684,7 +1684,7 @@ arabic_win1256_gsub_lookups
 manifest
 )
 ;
-ASSERT_STATIC
+static_assert
 (
 sizeof
 (
@@ -1700,6 +1700,8 @@ ManifestLookup
 <
 =
 ARABIC_FALLBACK_MAX_LOOKUPS
+"
+"
 )
 ;
 /
@@ -1887,7 +1889,8 @@ hb_font_t
 font
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 ARRAY_LENGTH_CONST
 (
@@ -1896,6 +1899,9 @@ arabic_fallback_features
 <
 =
 ARABIC_FALLBACK_MAX_LOOKUPS
+)
+"
+"
 )
 ;
 unsigned

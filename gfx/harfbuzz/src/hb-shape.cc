@@ -511,7 +511,7 @@ nil_shaper_list
 ]
 =
 {
-NULL
+nullptr
 }
 ;
 return
@@ -562,7 +562,7 @@ shaper_list
 i
 ]
 =
-NULL
+nullptr
 ;
 if
 (
@@ -571,7 +571,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 static_shaper_list
-NULL
+nullptr
 shaper_list
 )
 )
@@ -974,7 +974,7 @@ font
 buffer
 features
 num_features
-NULL
+nullptr
 )
 ;
 }

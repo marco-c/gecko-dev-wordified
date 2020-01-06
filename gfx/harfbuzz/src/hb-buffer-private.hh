@@ -304,7 +304,8 @@ know
 /
 #
 endif
-ASSERT_STATIC
+static_assert
+(
 (
 sizeof
 (
@@ -314,8 +315,12 @@ hb_glyph_info_t
 =
 20
 )
+"
+"
+)
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 sizeof
 (
@@ -327,6 +332,9 @@ sizeof
 (
 hb_glyph_position_t
 )
+)
+"
+"
 )
 ;
 HB_MARK_AS_FLAG_T

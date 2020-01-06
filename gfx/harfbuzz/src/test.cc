@@ -282,7 +282,7 @@ hb_blob_t
 *
 blob
 =
-NULL
+nullptr
 ;
 if
 (
@@ -361,7 +361,7 @@ argv
 1
 ]
 false
-NULL
+nullptr
 )
 ;
 font_data
@@ -561,7 +561,7 @@ blob
 ;
 blob
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -657,7 +657,7 @@ hb_shape
 (
 font
 buffer
-NULL
+nullptr
 0
 )
 ;
@@ -677,7 +677,7 @@ infos
 hb_buffer_get_glyph_infos
 (
 buffer
-NULL
+nullptr
 )
 ;
 hb_glyph_position_t
@@ -687,7 +687,7 @@ positions
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 for
