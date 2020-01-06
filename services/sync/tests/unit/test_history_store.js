@@ -1106,15 +1106,11 @@ try
 {
 do_check_attribute_count
 (
-Async
-.
-promiseSpinningly
-(
+await
 store
 .
 getAllIDs
 (
-)
 )
 2
 )
