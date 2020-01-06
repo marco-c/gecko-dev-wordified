@@ -2174,6 +2174,13 @@ recordToSave
 =
 record
 ;
+this
+.
+_computeFields
+(
+recordToSave
+)
+;
 }
 if
 (
@@ -2198,13 +2205,6 @@ changeCounter
 0
 ;
 }
-this
-.
-_computeFields
-(
-recordToSave
-)
-;
 this
 .
 _store
