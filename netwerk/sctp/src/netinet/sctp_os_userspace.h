@@ -406,14 +406,14 @@ h
 #
 include
 <
-Mswsock
+mswsock
 .
 h
 >
 #
 include
 <
-Windows
+windows
 .
 h
 >
