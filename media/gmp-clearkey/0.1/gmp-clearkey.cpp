@@ -214,14 +214,14 @@ extern
 C
 "
 {
-CDM_EXPORT
+CDM_API
 void
 INITIALIZE_CDM_MODULE
 (
 )
 {
 }
-CDM_EXPORT
+CDM_API
 void
 *
 CreateCdmInstance
