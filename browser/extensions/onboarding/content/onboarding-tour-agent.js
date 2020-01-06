@@ -254,6 +254,15 @@ input
 "
 )
 ;
+if
+(
+emailInput
+.
+checkValidity
+(
+)
+)
+{
 Mozilla
 .
 UITour
@@ -266,6 +275,7 @@ emailInput
 value
 )
 ;
+}
 break
 ;
 case
