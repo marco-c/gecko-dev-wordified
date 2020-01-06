@@ -182,7 +182,7 @@ BIsHmdPresent
 *
 Returns
 an
-english
+English
 error
 string
 from

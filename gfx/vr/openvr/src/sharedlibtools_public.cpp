@@ -49,7 +49,7 @@ _WIN32
 #
 include
 <
-windows
+Windows
 .
 h
 >
@@ -136,10 +136,6 @@ defined
 _WIN32
 )
 return
-(
-void
-*
-)
 GetProcAddress
 (
 (
@@ -172,6 +168,13 @@ SharedLibHandle
 lib
 )
 {
+if
+(
+!
+lib
+)
+return
+;
 #
 if
 defined
