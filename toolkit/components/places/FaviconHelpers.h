@@ -841,6 +841,8 @@ aCallback
 nsIPrincipal
 *
 aLoadingPrincipal
+uint64_t
+aRequestContextID
 )
 ;
 private
@@ -887,6 +889,9 @@ nsCOMPtr
 nsIRequest
 >
 mRequest
+;
+uint64_t
+mRequestContextID
 ;
 }
 ;
