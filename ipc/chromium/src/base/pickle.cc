@@ -1050,6 +1050,8 @@ Pickle
 (
 uint32_t
 header_size
+size_t
+segment_capacity
 )
 :
 buffers_
@@ -1058,7 +1060,15 @@ AlignInt
 (
 header_size
 )
+segment_capacity
+?
+segment_capacity
+:
 kHeaderSegmentCapacity
+segment_capacity
+?
+segment_capacity
+:
 kDefaultSegmentCapacity
 )
 header_

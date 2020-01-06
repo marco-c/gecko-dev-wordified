@@ -519,6 +519,7 @@ top
 level
 actors
 CHANNEL_OPENED_MESSAGE_TYPE
+0
 aNestedLevel
 )
 {
