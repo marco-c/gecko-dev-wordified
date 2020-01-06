@@ -1122,8 +1122,6 @@ side
 struct
 ServoFontComputationData
 {
-private
-:
 ServoKeywordSize
 mKeyword
 ;
