@@ -70,13 +70,6 @@ jni
 h
 >
 #
-include
-<
-pthread
-.
-h
->
-#
 ifndef
 APKOPEN_EXPORT
 #
@@ -130,12 +123,6 @@ const
 char
 *
 msg
-)
-;
-APKOPEN_EXPORT
-pthread_t
-getJavaUiThread
-(
 )
 ;
 static
