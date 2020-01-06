@@ -3930,7 +3930,6 @@ GenerateStateKey
 nsIContent
 *
 aContent
-const
 nsIDocument
 *
 aDocument
