@@ -446,6 +446,8 @@ const
 char
 *
 aAdditionalCertName
+time_t
+aThisUpdateSkew
 )
 ;
 #

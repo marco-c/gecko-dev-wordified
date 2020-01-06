@@ -268,6 +268,8 @@ const
 char
 *
 aAdditionalCertName
+time_t
+aThisUpdateSkew
 )
 {
 MOZ_ASSERT
@@ -408,6 +410,8 @@ time
 (
 nullptr
 )
++
+aThisUpdateSkew
 ;
 time_t
 oldNow
