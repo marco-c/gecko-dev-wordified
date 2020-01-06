@@ -785,6 +785,12 @@ StylistNeedsUpdate
 )
 ;
 }
+bool
+MediumFeaturesChanged
+(
+)
+const
+;
 void
 InvalidateStyleForCSSRuleChanges
 (
