@@ -247,6 +247,7 @@ uint16_t
 Oculus
 OpenVR
 OSVR
+GVR
 Puppet
 NumVRDeviceTypes
 }
@@ -1422,6 +1423,9 @@ mSittingToStandingTransform
 uint64_t
 mFrameId
 ;
+uint32_t
+mPresentingGeneration
+;
 VRHMDSensorState
 mLastSensorState
 [
@@ -1628,6 +1632,14 @@ mFrameId
 other
 .
 mFrameId
+&
+&
+mPresentingGeneration
+=
+=
+other
+.
+mPresentingGeneration
 ;
 }
 bool
