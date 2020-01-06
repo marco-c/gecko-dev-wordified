@@ -1635,7 +1635,7 @@ s
 |
 s
 .
-get_visited_style
+visited_style
 (
 )
 .
@@ -2031,7 +2031,7 @@ style
 (
 )
 .
-get_visited_style
+visited_style
 (
 )
 .
@@ -3071,7 +3071,7 @@ s
 {
 s
 .
-get_visited_style
+visited_style
 (
 )
 .

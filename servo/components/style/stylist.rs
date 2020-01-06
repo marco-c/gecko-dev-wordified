@@ -5475,7 +5475,7 @@ is_some
 |
 parent_style
 .
-get_visited_style
+visited_style
 (
 )
 .
@@ -5636,7 +5636,7 @@ inherited_style
 =
 parent_style
 .
-get_visited_style
+visited_style
 (
 )
 .
@@ -5649,7 +5649,7 @@ inherited_style_ignoring_first_line
 =
 parent_style_ignoring_first_line
 .
-get_visited_style
+visited_style
 (
 )
 .
@@ -5662,7 +5662,7 @@ layout_parent_style_for_visited
 =
 layout_parent_style
 .
-get_visited_style
+visited_style
 (
 )
 .

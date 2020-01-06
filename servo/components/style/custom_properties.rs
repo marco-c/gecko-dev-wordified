@@ -3456,11 +3456,11 @@ a
 >
 inherited
 :
+Option
+<
 &
 '
 a
-Option
-<
 Arc
 <
 CustomPropertiesMap
@@ -3548,11 +3548,9 @@ if
 let
 Some
 (
-ref
 inherited
 )
 =
-*
 inherited
 {
 for
@@ -3836,9 +3834,9 @@ BorrowedSpecifiedValue
 >
 inherited
 :
-&
 Option
 <
+&
 Arc
 <
 CustomPropertiesMap
@@ -3890,7 +3888,7 @@ else
 {
 inherited
 .
-clone
+cloned
 (
 )
 }
@@ -5606,9 +5604,9 @@ first_token_type
 TokenSerializationType
 computed_values_map
 :
-&
 Option
 <
+&
 Arc
 <
 CustomPropertiesMap
@@ -5706,10 +5704,6 @@ value
 )
 =
 computed_values_map
-.
-as_ref
-(
-)
 .
 and_then
 (
