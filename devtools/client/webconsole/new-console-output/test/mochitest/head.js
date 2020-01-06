@@ -1356,9 +1356,7 @@ BrowserTestUtils
 .
 loadURI
 (
-gBrowser
-.
-selectedBrowser
+browser
 url
 )
 ;
