@@ -2858,6 +2858,23 @@ result
 overall
 =
 result
+            
+#
+Halt
+tests
+on
+keyboard
+interrupt
+            
+if
+result
+=
+=
+-
+1
+:
+                
+break
         
 #
 TODO
