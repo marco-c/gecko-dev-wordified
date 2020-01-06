@@ -15252,6 +15252,12 @@ requests
 .
 exceptions
 .
+ChunkedEncodingError
+                        
+requests
+.
+exceptions
+.
 ConnectionError
 )
 as
