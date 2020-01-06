@@ -57382,6 +57382,16 @@ aFlags
 {
 if
 (
+aContent
+-
+>
+MayHaveAnonymousChildren
+(
+)
+)
+{
+if
+(
 nsIFrame
 *
 primaryFrame
@@ -57530,6 +57540,7 @@ AppendElements
 nac
 )
 ;
+}
 }
 /
 /
