@@ -96,7 +96,7 @@ SUCCESS
 const
 DOWNLOAD_ERROR
 =
-AddonUpdateChecker
+AddonManager
 .
 ERROR_DOWNLOAD_ERROR
 ;
