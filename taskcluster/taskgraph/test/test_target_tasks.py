@@ -106,6 +106,7 @@ __init__
 self
 message
 task_graph
+graph_config
 )
 :
         
@@ -279,6 +280,8 @@ method
 (
 graph
 parameters
+{
+}
 )
     
 def
@@ -850,6 +853,8 @@ method
 (
 tg
 params
+{
+}
 )
 [
 ]
@@ -931,6 +936,8 @@ method
 (
 tg
 params
+{
+}
 )
 [
 '
@@ -1013,6 +1020,8 @@ method
 (
 tg
 params
+{
+}
 )
 [
 '

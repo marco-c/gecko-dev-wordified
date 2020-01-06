@@ -312,6 +312,7 @@ def
 _load_kinds
 (
 self
+graph_config
 )
 :
         
@@ -362,6 +363,7 @@ kind_name
 fake
 '
 config
+graph_config
 )
     
 def
@@ -587,6 +589,7 @@ target_tasks_method
 (
 full_task_graph
 parameters
+graph_config
 )
 :
             
