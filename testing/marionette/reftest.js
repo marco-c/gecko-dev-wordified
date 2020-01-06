@@ -864,7 +864,7 @@ our
 window
 is
 const
-window_style
+windowStyle
 =
 padding
 :
@@ -909,7 +909,7 @@ setAttribute
 "
 style
 "
-window_style
+windowStyle
 )
 ;
 let
