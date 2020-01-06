@@ -427,9 +427,7 @@ GetType
 0
 ;
 virtual
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
@@ -657,9 +655,7 @@ aFailureReason
 const
 override
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
@@ -676,8 +672,11 @@ GetDescriptionName
 (
 )
 :
+NS_LITERAL_CSTRING
+(
 "
 "
+)
 ;
 }
 ConversionRequired

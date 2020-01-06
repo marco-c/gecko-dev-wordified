@@ -242,9 +242,7 @@ nsACString
 aMimeType
 )
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
@@ -252,11 +250,14 @@ const
 override
 {
 return
+NS_LITERAL_CSTRING
+(
 "
 theora
 video
 decoder
 "
+)
 ;
 }
 private

@@ -224,8 +224,8 @@ DummyDataCreator
 &
 aCreator
 const
-char
-*
+nsACString
+&
 aDescription
 const
 CreateDecoderParams
@@ -281,9 +281,7 @@ Flush
 )
 override
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
