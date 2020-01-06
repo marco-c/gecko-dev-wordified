@@ -483,7 +483,6 @@ override
 ;
 friend
 nsresult
-(
 :
 :
 NS_NewSVGSVGElement
@@ -513,7 +512,6 @@ dom
 :
 FromParser
 aFromParser
-)
 )
 ;
 ~
