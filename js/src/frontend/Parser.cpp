@@ -5580,8 +5580,17 @@ eval
 '
 arguments
 '
-or
 *
+'
+let
+'
+'
+static
+'
+'
+yield
+'
+or
 for
 any
 strict
@@ -13966,7 +13975,7 @@ pn
 =
 statementList
 (
-YieldIsKeyword
+YieldIsName
 )
 ;
 if
@@ -33712,7 +33721,7 @@ kid
 functionStmt
 (
 toStringStart
-YieldIsKeyword
+YieldIsName
 NameRequired
 asyncKind
 )
@@ -33838,7 +33847,7 @@ kid
 =
 classDefinition
 (
-YieldIsKeyword
+YieldIsName
 ClassStatement
 NameRequired
 )
@@ -34146,7 +34155,7 @@ kid
 functionStmt
 (
 toStringStart
-YieldIsKeyword
+YieldIsName
 AllowDefaultName
 asyncKind
 )
@@ -34262,7 +34271,7 @@ kid
 =
 classDefinition
 (
-YieldIsKeyword
+YieldIsName
 ClassStatement
 AllowDefaultName
 )
@@ -34421,7 +34430,7 @@ kid
 assignExpr
 (
 InAllowed
-YieldIsKeyword
+YieldIsName
 TripledotProhibited
 )
 ;
