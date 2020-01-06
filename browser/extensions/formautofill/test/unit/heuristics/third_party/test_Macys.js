@@ -282,7 +282,7 @@ expectedResult
 [
 [
 /
-*
+/
 {
 "
 section
@@ -423,6 +423,8 @@ year
 ac
 -
 off
+/
+/
 {
 "
 section
@@ -457,6 +459,8 @@ csc
 ac
 -
 off
+/
+/
 {
 "
 section
@@ -491,8 +495,6 @@ csc
 ac
 -
 off
-*
-/
 {
 "
 section

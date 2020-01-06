@@ -731,8 +731,6 @@ cc
 type
 "
 }
-/
-/
 {
 "
 section

@@ -357,8 +357,6 @@ cc
 name
 "
 }
-/
-/
 {
 "
 section
@@ -719,8 +717,6 @@ cc
 name
 "
 }
-/
-/
 {
 "
 section
@@ -850,8 +846,6 @@ cc
 name
 "
 }
-/
-/
 {
 "
 section
