@@ -4293,6 +4293,7 @@ to
 AudioStream
 Class
 .
+const
 dom
 :
 :
@@ -4352,6 +4353,7 @@ the
 media
 again
 .
+const
 bool
 mMinimizePreroll
 ;
