@@ -12999,9 +12999,6 @@ generation
 )
 )
 ;
-#
-ifdef
-JS_DEBUG
 MOZ_ASSERT
 (
 p
@@ -13012,8 +13009,6 @@ mutationCount
 mutationCount
 )
 ;
-#
-endif
 /
 /
 Changing
