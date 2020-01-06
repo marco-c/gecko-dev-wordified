@@ -102,6 +102,13 @@ Log
 import
 android
 .
+annotation
+.
+TargetApi
+;
+import
+android
+.
 content
 .
 Context
@@ -934,6 +941,10 @@ flush
 )
 ;
 }
+TargetApi
+(
+21
+)
 private
 int
 writeOnLollipop
@@ -2102,6 +2113,10 @@ getMaxVolume
 )
 ;
 }
+TargetApi
+(
+23
+)
 private
 void
 logMainParametersExtended
