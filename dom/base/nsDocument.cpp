@@ -17541,11 +17541,6 @@ rv
 rv
 )
 ;
-mSandboxFlags
-|
-=
-cspSandboxFlags
-;
 /
 /
 Probably
@@ -17599,6 +17594,11 @@ mSandboxFlags
 &
 SANDBOXED_ORIGIN
 )
+;
+mSandboxFlags
+|
+=
+cspSandboxFlags
 ;
 if
 (
