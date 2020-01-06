@@ -953,10 +953,6 @@ ContentParent
 aOpener
 =
 nullptr
-bool
-aPreferUsed
-=
-false
 )
 ;
 /
