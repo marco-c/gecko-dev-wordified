@@ -3219,6 +3219,11 @@ cleartypeParameters
 "
 clearTypeParameters
 "
+OffMainThreadPaintEnabled
+:
+"
+offMainThreadPaintEnabled
+"
 }
 ;
 for

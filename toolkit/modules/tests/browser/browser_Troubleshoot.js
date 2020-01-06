@@ -1443,6 +1443,15 @@ type
 string
 "
 }
+offMainThreadPaintEnabled
+:
+{
+type
+:
+"
+boolean
+"
+}
 clearTypeParameters
 :
 {
