@@ -403,6 +403,8 @@ get_font
 clone_font_size
 (
 )
+.
+size
 !
 =
 fs

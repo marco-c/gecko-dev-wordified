@@ -665,11 +665,6 @@ get_column
 let
 column_gap
 =
-Au
-:
-:
-from
-(
 match
 column_style
 .
@@ -685,6 +680,10 @@ len
 =
 >
 len
+.
+into
+(
+)
 Either
 :
 :
@@ -707,8 +706,11 @@ get_font
 )
 .
 font_size
-}
+.
+size
+(
 )
+}
 ;
 let
 mut

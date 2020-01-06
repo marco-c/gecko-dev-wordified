@@ -353,11 +353,6 @@ length
 .
 to_computed_value
 (
-Au
-:
-:
-from
-(
 context
 .
 style
@@ -371,6 +366,9 @@ get_font
 clone_font_size
 (
 )
+.
+size
+(
 )
 )
 #
@@ -2044,7 +2042,13 @@ context
 maybe_zoom_text
 (
 abs
+.
+into
+(
 )
+)
+.
+0
 base_size
 )
 }
