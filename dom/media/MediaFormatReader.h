@@ -2998,9 +2998,6 @@ ShutdownPromisePool
 mShutdownPromisePool
 ;
 MediaEventListener
-mCompositorUpdatedListener
-;
-MediaEventListener
 mOnTrackWaitingForKeyListener
 ;
 void
