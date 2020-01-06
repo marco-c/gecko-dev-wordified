@@ -7799,6 +7799,7 @@ driverVersion
 ;
 if
 (
+!
 widget
 :
 :
@@ -7808,8 +7809,8 @@ aDriverVersionString
 &
 driverVersion
 )
-&
-&
+|
+|
 driverVersion
 <
 widget
