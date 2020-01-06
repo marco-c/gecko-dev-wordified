@@ -191,6 +191,9 @@ h
 #
 endif
 #
+ifdef
+NIGHTLY_BUILD
+#
 if
 defined
 (
@@ -358,6 +361,9 @@ b
 )
 #
 endif
+#
+endif
+q
 using
 namespace
 mozilla
