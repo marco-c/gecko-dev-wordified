@@ -2061,7 +2061,7 @@ parent
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -17537,7 +17537,7 @@ p
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -20112,7 +20112,7 @@ as_node
 (
 )
 .
-children
+traversal_children
 (
 )
 {
