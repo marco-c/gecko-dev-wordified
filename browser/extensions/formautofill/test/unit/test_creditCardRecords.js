@@ -462,19 +462,6 @@ number
 "
 )
 {
-do_check_eq
-(
-creditCardWithMeta
-[
-"
-cc
--
-number
-"
-]
-undefined
-)
-;
 /
 /
 check
@@ -506,8 +493,6 @@ creditCardWithMeta
 cc
 -
 number
--
-masked
 "
 ]
 )
@@ -526,8 +511,6 @@ creditCardWithMeta
 cc
 -
 number
--
-masked
 "
 ]
 .
@@ -1840,8 +1823,6 @@ creditCards
 cc
 -
 number
--
-masked
 "
 ]
 .
