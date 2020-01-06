@@ -270,6 +270,12 @@ strlen
 Servo_DeclarationBlock_GetCssText
 /
 /
+nsIFrame
+:
+:
+AppendOwnedAnonBoxes
+/
+/
 /
 Assume
 that
