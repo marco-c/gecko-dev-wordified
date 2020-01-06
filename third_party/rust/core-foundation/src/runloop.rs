@@ -683,6 +683,8 @@ mut
 context
 )
 ;
+unsafe
+{
 run_loop
 .
 add_timer
@@ -692,6 +694,7 @@ run_loop_timer
 kCFRunLoopDefaultMode
 )
 ;
+}
 CFRunLoop
 :
 :
