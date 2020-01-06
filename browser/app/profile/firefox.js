@@ -8476,7 +8476,7 @@ plugins
 .
 show_infobar
 "
-true
+false
 )
 ;
 /
