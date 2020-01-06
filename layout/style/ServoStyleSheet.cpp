@@ -206,6 +206,13 @@ h
 #
 include
 "
+Loader
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h
@@ -757,6 +764,12 @@ uint32_t
 aLineNumber
 nsCompatibility
 aCompatMode
+css
+:
+:
+LoaderReusableStyleSheets
+*
+aReusableSheets
 )
 {
 MOZ_ASSERT_IF
@@ -915,6 +928,7 @@ this
 input
 extraData
 aLineNumber
+aReusableSheets
 )
 ;
 }

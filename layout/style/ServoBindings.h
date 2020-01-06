@@ -324,6 +324,9 @@ URLValue
 struct
 ImageValue
 ;
+class
+LoaderReusableStyleSheets
+;
 }
 ;
 namespace
@@ -882,6 +885,15 @@ mozilla
 ServoStyleSheet
 *
 parent
+mozilla
+:
+:
+css
+:
+:
+LoaderReusableStyleSheets
+*
+reusable_sheets
 RawServoStyleSheetBorrowed
 child_sheet
 RawGeckoURLExtraData

@@ -202,6 +202,9 @@ css
 class
 Loader
 ;
+class
+LoaderReusableStyleSheets
+;
 }
 /
 /
@@ -523,6 +526,14 @@ uint32_t
 aLineNumber
 nsCompatibility
 aCompatMode
+css
+:
+:
+LoaderReusableStyleSheets
+*
+aReusableSheets
+=
+nullptr
 )
 ;
 /

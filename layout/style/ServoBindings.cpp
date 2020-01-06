@@ -10869,6 +10869,12 @@ aLoader
 ServoStyleSheet
 *
 aParent
+css
+:
+:
+LoaderReusableStyleSheets
+*
+aReusableSheets
 RawServoStyleSheetBorrowed
 aChildSheet
 RawGeckoURLExtraData
@@ -11082,7 +11088,7 @@ uri
 media
 nullptr
 aChildSheet
-nullptr
+aReusableSheets
 )
 ;
 }

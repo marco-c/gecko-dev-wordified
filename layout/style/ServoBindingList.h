@@ -315,6 +315,15 @@ RawGeckoURLExtraData
 extra_data
 uint32_t
 line_number_offset
+mozilla
+:
+:
+css
+:
+:
+LoaderReusableStyleSheets
+*
+reusable_sheets
 )
 SERVO_BINDING_FUNC
 (
