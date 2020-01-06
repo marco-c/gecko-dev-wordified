@@ -2587,17 +2587,6 @@ IsWebMEnabled
 ;
 #
 ifdef
-MOZ_ANDROID_OMX
-static
-bool
-IsAndroidMediaPluginEnabled
-(
-)
-;
-#
-endif
-#
-ifdef
 MOZ_WMF
 static
 bool
