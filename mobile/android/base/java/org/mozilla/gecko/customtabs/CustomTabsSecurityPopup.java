@@ -203,7 +203,7 @@ mozilla
 .
 gecko
 .
-GeckoView
+GeckoSession
 .
 ProgressListener
 .
