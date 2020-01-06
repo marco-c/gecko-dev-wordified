@@ -997,7 +997,7 @@ iframe
 That
 happens
 in
-WebRenderCompositableHolder
+AsyncImagePipelineManager
 .
 LayerRect
 rect

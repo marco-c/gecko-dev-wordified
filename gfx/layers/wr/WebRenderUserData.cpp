@@ -722,7 +722,7 @@ iframe
 That
 happens
 in
-WebRenderCompositableHolder
+AsyncImagePipelineManager
 .
 wr
 :
