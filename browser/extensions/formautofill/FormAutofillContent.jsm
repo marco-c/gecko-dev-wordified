@@ -1904,6 +1904,7 @@ formHandler
 .
 clearPreviewedFormFields
 (
+focusedInput
 )
 ;
 }
@@ -2010,6 +2011,7 @@ formHandler
 previewFormFields
 (
 profile
+focusedInput
 )
 ;
 }
