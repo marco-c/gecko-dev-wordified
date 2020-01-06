@@ -143,6 +143,17 @@ nsDebug
 h
 "
 #
+include
+"
+PlatformDecoderModule
+.
+h
+"
+/
+/
+for
+sPDMLog
+#
 define
 LOG
 (
