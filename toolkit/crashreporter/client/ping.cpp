@@ -163,7 +163,7 @@ XP_WIN
 #
 include
 <
-Objbase
+objbase
 .
 h
 >
