@@ -904,16 +904,6 @@ CompositionOffsetBox
 "
 ctts
 "
-AudioChannelLayoutAtom
-0x6368616E
-/
-/
-"
-chan
-"
--
-quicktime
-atom
 LPCMAudioSampleEntry
 0x6C70636D
 /
