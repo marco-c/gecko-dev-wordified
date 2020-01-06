@@ -928,9 +928,6 @@ svg
 )
 ;
 }
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 keyframes
 bookmark
 -
@@ -1534,13 +1531,6 @@ animation
 rtl
 ;
 }
-%
-endif
-/
-*
-MOZ_PHOTON_ANIMATIONS
-*
-/
 %
 endif
 /

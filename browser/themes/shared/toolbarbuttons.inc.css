@@ -282,9 +282,6 @@ padding
 ;
 %
 endif
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 /
 *
 This
@@ -338,8 +335,6 @@ height
 :
 0
 ;
-%
-endif
 }
 /
 *

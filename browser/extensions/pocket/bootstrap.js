@@ -1144,11 +1144,6 @@ cosmeticAnimations
 enabled
 "
 )
-&
-&
-AppConstants
-.
-MOZ_PHOTON_ANIMATIONS
 )
 {
 let

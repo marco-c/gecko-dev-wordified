@@ -35990,11 +35990,6 @@ now
 let
 shouldAnimate
 =
-AppConstants
-.
-MOZ_PHOTON_ANIMATIONS
-&
-&
 aRequest
 &
 &
@@ -36144,11 +36139,6 @@ return
 let
 shouldAnimate
 =
-AppConstants
-.
-MOZ_PHOTON_ANIMATIONS
-&
-&
 aRequest
 &
 &
