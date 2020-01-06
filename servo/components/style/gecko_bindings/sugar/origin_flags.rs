@@ -144,6 +144,9 @@ debug_assert_eq
 OriginFlags_UserAgent
 .
 0
+OriginSet
+:
+:
 ORIGIN_USER_AGENT
 .
 bits
@@ -157,6 +160,9 @@ debug_assert_eq
 OriginFlags_Author
 .
 0
+OriginSet
+:
+:
 ORIGIN_AUTHOR
 .
 bits
@@ -170,6 +176,9 @@ debug_assert_eq
 OriginFlags_User
 .
 0
+OriginSet
+:
+:
 ORIGIN_USER
 .
 bits

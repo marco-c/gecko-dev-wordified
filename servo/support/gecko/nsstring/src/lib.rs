@@ -1757,7 +1757,7 @@ C
 )
 ]
 pub
-flags
+struct
 DataFlags
 :
 u16
@@ -1769,6 +1769,7 @@ TERMINATED
 <
 <
 0
+;
 /
 /
 IsTerminated
@@ -1781,6 +1782,7 @@ VOIDED
 <
 <
 1
+;
 /
 /
 IsVoid
@@ -1793,6 +1795,7 @@ SHARED
 <
 <
 2
+;
 /
 /
 mData
@@ -1811,6 +1814,7 @@ OWNED
 <
 <
 3
+;
 /
 /
 mData
@@ -1829,6 +1833,7 @@ INLINE
 <
 <
 4
+;
 /
 /
 mData
@@ -1845,6 +1850,7 @@ LITERAL
 <
 <
 5
+;
 /
 /
 mData
@@ -1899,7 +1905,7 @@ C
 )
 ]
 pub
-flags
+struct
 ClassFlags
 :
 u16
@@ -1911,6 +1917,7 @@ INLINE
 <
 <
 0
+;
 /
 /
 |
@@ -1928,6 +1935,7 @@ NULL_TERMINATED
 <
 <
 1
+;
 /
 /
 |
@@ -2342,12 +2350,12 @@ length
 0
 dataflags
 :
-data_flags
+DataFlags
 :
 :
 TERMINATED
 |
-data_flags
+DataFlags
 :
 :
 LITERAL
@@ -4851,7 +4859,7 @@ StringRepr
 :
 new
 (
-class_flags
+ClassFlags
 :
 :
 NULL_TERMINATED
@@ -5363,18 +5371,18 @@ length
 length
 dataflags
 :
-data_flags
+DataFlags
 :
 :
 OWNED
 |
-data_flags
+DataFlags
 :
 :
 TERMINATED
 classflags
 :
-class_flags
+ClassFlags
 :
 :
 NULL_TERMINATED
@@ -8577,8 +8585,8 @@ super
 :
 :
 {
-class_flags
-data_flags
+ClassFlags
+DataFlags
 }
 ;
 use
@@ -9623,7 +9631,7 @@ unsafe
 *
 f_terminated
 =
-data_flags
+DataFlags
 :
 :
 TERMINATED
@@ -9635,7 +9643,7 @@ bits
 *
 f_voided
 =
-data_flags
+DataFlags
 :
 :
 VOIDED
@@ -9647,7 +9655,7 @@ bits
 *
 f_shared
 =
-data_flags
+DataFlags
 :
 :
 SHARED
@@ -9659,7 +9667,7 @@ bits
 *
 f_owned
 =
-data_flags
+DataFlags
 :
 :
 OWNED
@@ -9671,7 +9679,7 @@ bits
 *
 f_inline
 =
-data_flags
+DataFlags
 :
 :
 INLINE
@@ -9683,7 +9691,7 @@ bits
 *
 f_literal
 =
-data_flags
+DataFlags
 :
 :
 LITERAL
@@ -9695,7 +9703,7 @@ bits
 *
 f_class_inline
 =
-class_flags
+ClassFlags
 :
 :
 INLINE
@@ -9707,7 +9715,7 @@ bits
 *
 f_class_null_terminated
 =
-class_flags
+ClassFlags
 :
 :
 NULL_TERMINATED

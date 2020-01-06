@@ -313,7 +313,7 @@ use
 style_traits
 :
 :
-PARSING_MODE_DEFAULT
+ParsingMode
 ;
 use
 stylesheet_loader
@@ -765,7 +765,10 @@ CssRuleType
 :
 Media
 )
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 doc
 .
 quirks_mode

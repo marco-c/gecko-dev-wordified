@@ -200,7 +200,7 @@ use
 style_traits
 :
 :
-PARSING_MODE_DEFAULT
+ParsingMode
 ;
 pub
 use
@@ -1864,7 +1864,10 @@ origin
 &
 url_data
 None
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 parent_stylesheet_contents
 .
 quirks_mode

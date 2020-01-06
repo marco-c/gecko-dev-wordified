@@ -187,7 +187,6 @@ style_traits
 :
 :
 {
-PARSING_MODE_DEFAULT
 ToCss
 ParseError
 ParsingMode
@@ -5626,6 +5625,9 @@ flags
 .
 contains
 (
+PropertyFlags
+:
+:
 SHORTHAND_ALIAS_PROPERTY
 )
 {
@@ -6672,7 +6674,10 @@ CssRuleType
 :
 Style
 )
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 quirks_mode
 )
 ;

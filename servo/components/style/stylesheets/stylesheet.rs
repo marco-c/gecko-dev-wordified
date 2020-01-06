@@ -198,7 +198,7 @@ use
 style_traits
 :
 :
-PARSING_MODE_DEFAULT
+ParsingMode
 ;
 use
 stylesheets
@@ -2370,7 +2370,10 @@ new
 origin
 url_data
 None
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 quirks_mode
 )
 ;

@@ -135,9 +135,8 @@ flow
 :
 {
 self
-AFFECTS_COUNTERS
 Flow
-HAS_COUNTER_AFFECTING_CHILDREN
+FlowFlags
 ImmutableFlowUtils
 }
 ;
@@ -240,7 +239,7 @@ servo
 restyle_damage
 :
 :
-RESOLVE_GENERATED_CONTENT
+ServoRestyleDamage
 ;
 use
 text
@@ -1920,6 +1919,9 @@ restyle_damage
 .
 intersects
 (
+ServoRestyleDamage
+:
+:
 RESOLVE_GENERATED_CONTENT
 )
 |
@@ -1936,8 +1938,14 @@ flags
 .
 intersects
 (
+FlowFlags
+:
+:
 AFFECTS_COUNTERS
 |
+FlowFlags
+:
+:
 HAS_COUNTER_AFFECTING_CHILDREN
 )
 }

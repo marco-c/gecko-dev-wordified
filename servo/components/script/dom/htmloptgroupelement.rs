@@ -201,7 +201,7 @@ style
 element_state
 :
 :
-*
+ElementState
 ;
 #
 [
@@ -248,6 +248,9 @@ HTMLElement
 :
 new_inherited_with_state
 (
+ElementState
+:
+:
 IN_ENABLED_STATE
 local_name
 prefix

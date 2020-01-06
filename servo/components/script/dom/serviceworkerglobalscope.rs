@@ -372,8 +372,7 @@ thread_state
 :
 {
 self
-IN_WORKER
-SCRIPT
+ThreadState
 }
 ;
 /
@@ -967,8 +966,14 @@ thread_state
 :
 initialize
 (
+ThreadState
+:
+:
 SCRIPT
 |
+ThreadState
+:
+:
 IN_WORKER
 )
 ;

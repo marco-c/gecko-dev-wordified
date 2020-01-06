@@ -109,10 +109,7 @@ use
 element_state
 :
 :
-{
 ElementState
-IN_VISITED_OR_UNVISITED_STATE
-}
 ;
 use
 invalidation
@@ -167,7 +164,7 @@ element
 restyle_hints
 :
 :
-*
+RestyleHint
 ;
 use
 selector_map
@@ -889,6 +886,9 @@ state_changes
 .
 intersects
 (
+ElementState
+:
+:
 IN_VISITED_OR_UNVISITED_STATE
 )
 {
@@ -1391,6 +1391,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_SELF
 )
 ;
@@ -1441,6 +1444,9 @@ hint
 .
 contains
 (
+RestyleHint
+:
+:
 RESTYLE_DESCENDANTS
 )
 }
@@ -1485,6 +1491,9 @@ hint
 .
 contains
 (
+RestyleHint
+:
+:
 RESTYLE_DESCENDANTS
 )
 }
@@ -1515,6 +1524,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_DESCENDANTS
 )
 ;
@@ -1541,6 +1553,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_DESCENDANTS
 )
 ;
@@ -1714,6 +1729,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_SELF
 )
 ;
@@ -2136,6 +2154,9 @@ state
 .
 intersects
 (
+ElementState
+:
+:
 IN_VISITED_OR_UNVISITED_STATE
 )
 {
