@@ -11463,7 +11463,7 @@ ClearInDocument
 /
 /
 Computed
-styled
+style
 data
 isn
 '
@@ -11480,7 +11480,7 @@ need
 to
 /
 /
-recomputed
+recompute
 it
 anyway
 if
