@@ -1407,7 +1407,7 @@ Bool
 ;
 }
 bool
-HasDefault
+HasDefaultValue
 (
 )
 const
@@ -1415,11 +1415,11 @@ const
 return
 mValue
 &
-PREF_FLAG_HAS_DEFAULT
+PREF_FLAG_HAS_DEFAULT_VALUE
 ;
 }
 void
-SetHasDefault
+SetHasDefaultValue
 (
 bool
 aSetOrUnset
@@ -1427,7 +1427,7 @@ aSetOrUnset
 {
 SetFlag
 (
-PREF_FLAG_HAS_DEFAULT
+PREF_FLAG_HAS_DEFAULT_VALUE
 aSetOrUnset
 )
 ;
@@ -1493,7 +1493,7 @@ const
 return
 mValue
 &
-PREF_FLAG_USERSET
+PREF_FLAG_HAS_USER_VALUE
 ;
 }
 void
@@ -1505,7 +1505,7 @@ aSetOrUnset
 {
 SetFlag
 (
-PREF_FLAG_USERSET
+PREF_FLAG_HAS_USER_VALUE
 aSetOrUnset
 )
 ;
@@ -1593,10 +1593,10 @@ enum
 PREF_FLAG_LOCKED
 =
 4
-PREF_FLAG_USERSET
+PREF_FLAG_HAS_USER_VALUE
 =
 8
-PREF_FLAG_HAS_DEFAULT
+PREF_FLAG_HAS_DEFAULT_VALUE
 =
 16
 PREF_FLAG_STICKY_DEFAULT
@@ -1677,7 +1677,7 @@ if
 (
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -2670,7 +2670,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 |
@@ -2882,7 +2882,7 @@ aHashEntry
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -3173,7 +3173,7 @@ aHashEntry
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -3439,7 +3439,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -3598,7 +3598,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -4562,7 +4562,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 &
@@ -4690,7 +4690,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -4729,7 +4729,7 @@ pref
 >
 mPrefFlags
 .
-SetHasDefault
+SetHasDefaultValue
 (
 true
 )
@@ -4853,7 +4853,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -27049,7 +27049,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -27206,7 +27206,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
@@ -27439,7 +27439,7 @@ pref
 >
 mPrefFlags
 .
-HasDefault
+HasDefaultValue
 (
 )
 )
