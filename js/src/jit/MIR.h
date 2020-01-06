@@ -36539,6 +36539,9 @@ case
 Log
 :
 case
+Floor
+:
+case
 Round
 :
 return
