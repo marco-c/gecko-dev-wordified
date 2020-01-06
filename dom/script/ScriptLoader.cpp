@@ -11104,6 +11104,16 @@ GetScriptGlobalObject
 (
 )
 {
+if
+(
+!
+mDocument
+)
+{
+return
+nullptr
+;
+}
 nsPIDOMWindowInner
 *
 pwin
