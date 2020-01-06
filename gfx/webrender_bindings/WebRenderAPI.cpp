@@ -3164,9 +3164,9 @@ LayoutRect
 &
 aBounds
 const
-uint64_t
-&
-aAnimationId
+WrAnimationProperty
+*
+aAnimation
 const
 float
 *
@@ -3326,7 +3326,7 @@ wr_dp_push_stacking_context
 (
 mWrState
 aBounds
-aAnimationId
+aAnimation
 aOpacity
 maybeTransform
 aTransformStyle

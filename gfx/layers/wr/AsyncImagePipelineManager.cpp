@@ -1873,7 +1873,7 @@ pipeline
 >
 mScBounds
 )
-0
+nullptr
 &
 opacity
 pipeline
