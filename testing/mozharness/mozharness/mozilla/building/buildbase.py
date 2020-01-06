@@ -17565,7 +17565,8 @@ get
 debug_build
 '
 )
-or
+and
+not
 c
 .
 get
