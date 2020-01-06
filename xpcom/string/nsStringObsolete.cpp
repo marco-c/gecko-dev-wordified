@@ -5615,6 +5615,8 @@ T
 template
 <
 typename
+Q
+typename
 EnableIfChar16
 >
 int32_t
@@ -5734,6 +5736,8 @@ T
 template
 <
 typename
+Q
+typename
 EnableIfChar16
 >
 int32_t
@@ -5778,6 +5782,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar16
 >
@@ -5898,6 +5904,8 @@ T
 template
 <
 typename
+Q
+typename
 EnableIfChar16
 >
 int32_t
@@ -5942,6 +5950,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar16
 >
@@ -6035,6 +6045,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar16
 >
@@ -6167,6 +6179,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar
 >
@@ -6369,6 +6383,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar16
 >
