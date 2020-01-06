@@ -522,16 +522,6 @@ return
 NS_OK
 ;
 }
-bool
-IsTransportSeekable
-(
-)
-override
-{
-return
-true
-;
-}
 size_t
 SizeOfExcludingThis
 (

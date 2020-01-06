@@ -4561,11 +4561,6 @@ HasVideo
 PlayStateStr
 (
 )
-GetResource
-(
-)
--
->
 IsTransportSeekable
 (
 )

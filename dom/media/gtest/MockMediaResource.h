@@ -258,16 +258,6 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-bool
-IsTransportSeekable
-(
-)
-override
-{
-return
-true
-;
-}
 nsresult
 Open
 (
