@@ -337,9 +337,10 @@ values
 /
 aResult
 .
-ParseIntWithFallback
+ParseClampedNonNegativeInt
 (
 aValue
+1
 1
 MAX_COLSPAN
 )
