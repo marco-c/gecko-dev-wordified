@@ -288,6 +288,12 @@ GetLockdownTokenLevel
 const
 override
 ;
+void
+SetDoNotUseRestrictingSIDs
+(
+)
+final
+;
 ResultCode
 SetJobLevel
 (
@@ -881,6 +887,11 @@ lockdown_level_
 ;
 TokenLevel
 initial_level_
+;
+bool
+use_restricting_sids_
+=
+true
 ;
 JobLevel
 job_level_
