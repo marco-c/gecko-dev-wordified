@@ -1122,6 +1122,10 @@ wr
 LayoutSize
 &
 aContentSize
+size_t
+aCapacity
+=
+0
 )
 ;
 DisplayListBuilder
@@ -2163,7 +2167,7 @@ aLine
 )
 ;
 void
-PushShadow
+PushTextShadow
 (
 const
 wr
@@ -2185,13 +2189,13 @@ const
 wr
 :
 :
-Shadow
+TextShadow
 &
 aShadow
 )
 ;
 void
-PopShadow
+PopTextShadow
 (
 )
 ;
