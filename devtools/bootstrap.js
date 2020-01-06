@@ -640,6 +640,10 @@ isPrefLine
 /
 ^
 *
+(
+sticky_
+)
+?
 pref
 \
 (
