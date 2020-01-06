@@ -186,7 +186,7 @@ TEXTURE_ARRAY_LAYERS
 :
 i32
 =
-2
+4
 ;
 /
 /
