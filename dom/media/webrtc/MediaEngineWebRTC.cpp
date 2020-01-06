@@ -2377,7 +2377,8 @@ LOG
 (
 (
 "
-VoEHardware
+AudioInput
+:
 :
 GetRecordingDeviceName
 :
