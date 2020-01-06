@@ -5843,7 +5843,6 @@ nsISupports
 NS_IMPL_ISUPPORTS
 (
 nsLocalFile
-nsILocalFile
 nsIFile
 nsILocalFileWin
 nsIHashable
@@ -6917,7 +6916,6 @@ nsLocalFile
 :
 :
 nsIFile
-nsILocalFile
 /
 /
 -

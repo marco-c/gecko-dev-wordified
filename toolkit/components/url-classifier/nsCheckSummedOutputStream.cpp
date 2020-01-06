@@ -97,13 +97,6 @@ MPL
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

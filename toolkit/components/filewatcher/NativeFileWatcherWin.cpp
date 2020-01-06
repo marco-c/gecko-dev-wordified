@@ -168,7 +168,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -2786,7 +2786,7 @@ Handle
 path
 normalisation
 using
-nsILocalFile
+nsIFile
 .
 nsString
 resourcePath
@@ -7056,7 +7056,7 @@ descriptor
 by
 *
 using
-nsILocalFile
+nsIFile
 .
 *
 param
@@ -7096,7 +7096,7 @@ resource
 return
 NS_OK
 if
-nsILocalFile
+nsIFile
 succeeded
 in
 building
@@ -7125,7 +7125,7 @@ nativeResourcePath
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localPath
 (
@@ -7163,7 +7163,7 @@ Failed
 to
 create
 a
-nsILocalFile
+nsIFile
 instance
 .
 "
@@ -7206,7 +7206,7 @@ MakeResourcePath
 Failed
 to
 init
-nsILocalFile
+nsIFile
 with
 %
 S
@@ -7316,7 +7316,7 @@ get
 native
 path
 from
-nsILocalFile
+nsIFile
 (
 %
 x

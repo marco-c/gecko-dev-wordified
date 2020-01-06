@@ -516,7 +516,7 @@ nsILocalFileMac
 else
 :
 public
-nsILocalFile
+nsIFile
 #
 endif
 public
@@ -551,7 +551,6 @@ aInstancePtr
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFILE
-NS_DECL_NSILOCALFILE
 #
 ifdef
 MOZ_WIDGET_COCOA

@@ -270,11 +270,6 @@ interface
 NS_DECL_NSIFILE
 /
 /
-nsILocalFile
-interface
-NS_DECL_NSILOCALFILE
-/
-/
 nsILocalFileWin
 interface
 NS_DECL_NSILOCALFILEWIN

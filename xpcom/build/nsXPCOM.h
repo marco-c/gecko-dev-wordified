@@ -219,11 +219,6 @@ nsIFile
 ;
 DECL_CLASS
 (
-nsILocalFile
-)
-;
-DECL_CLASS
-(
 nsIDirectoryServiceProvider
 )
 ;
