@@ -2834,10 +2834,6 @@ htmlanchorelement
 ;
 pub
 mod
-htmlappletelement
-;
-pub
-mod
 htmlareaelement
 ;
 pub
