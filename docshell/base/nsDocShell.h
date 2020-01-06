@@ -497,6 +497,13 @@ nsIDeprecationWarner
 .
 h
 "
+#
+include
+"
+nsILoadURIDelegate
+.
+h
+"
 namespace
 mozilla
 {
@@ -5492,6 +5499,12 @@ Weak
 Reference
 eCharsetReloadState
 mCharsetReloadState
+;
+nsCOMPtr
+<
+nsILoadURIDelegate
+>
+mLoadURIDelegate
 ;
 /
 /
