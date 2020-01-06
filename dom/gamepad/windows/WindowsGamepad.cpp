@@ -1917,7 +1917,7 @@ sIsShutdown
 aTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DirectInputMessageLoopOnceCallback
 nullptr
@@ -1926,6 +1926,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DirectInputMessageLoopOnceCallback
+"
 )
 ;
 }
@@ -2016,7 +2019,7 @@ mDirectInputTimer
 mDirectInputTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DirectInputMessageLoopOnceCallback
 nullptr
@@ -2025,6 +2028,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DirectInputMessageLoopOnceCallback
+"
 )
 ;
 }
@@ -2386,7 +2392,7 @@ Cancel
 aTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 XInputMessageLoopOnceCallback
 self
@@ -2395,6 +2401,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+XInputMessageLoopOnceCallback
+"
 )
 ;
 }
@@ -2809,7 +2818,7 @@ true
 mXInputTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 XInputMessageLoopOnceCallback
 this
@@ -2818,6 +2827,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+XInputMessageLoopOnceCallback
+"
 )
 ;
 }
@@ -5657,7 +5669,7 @@ Cancel
 mDeviceChangeTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DevicesChangeCallback
 this
@@ -5666,6 +5678,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DevicesChangeCallback
+"
 )
 ;
 }

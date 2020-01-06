@@ -6623,7 +6623,7 @@ MOZ_ALWAYS_SUCCEEDS
 shutdownTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 &
 ShutdownTimerCallback
@@ -6634,6 +6634,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ParentImpl
+:
+:
+ShutdownTimerCallback
+"
 )
 )
 ;

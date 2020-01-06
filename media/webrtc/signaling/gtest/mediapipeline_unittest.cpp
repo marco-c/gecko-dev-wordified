@@ -436,7 +436,7 @@ sts_target
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FakeAudioStreamTrackGenerateData
 this
@@ -445,6 +445,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+FakeAudioStreamTrack
+:
+:
+FakeAudioStreamTrackGenerateData
+"
 )
 ;
 }

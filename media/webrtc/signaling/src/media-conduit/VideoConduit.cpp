@@ -1787,7 +1787,7 @@ rtcp_packet_type_counts
 mVideoStatsTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 callback
 this
@@ -1796,6 +1796,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_PRECISE_CAN_SKIP
+"
+WebrtcVideoConduit
+:
+:
+WebrtcVideoConduit
+"
 )
 ;
 }

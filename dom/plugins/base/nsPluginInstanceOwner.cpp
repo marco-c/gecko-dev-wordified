@@ -7716,7 +7716,7 @@ sCATimer
 )
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 CARefresh
 nullptr
@@ -7725,6 +7725,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+nsPluginInstanceOwner
+:
+:
+CARefresh
+"
 )
 ;
 }

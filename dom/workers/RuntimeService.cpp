@@ -10029,7 +10029,7 @@ MOZ_ALWAYS_SUCCEEDS
 aTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ShutdownIdleThreads
 nullptr
@@ -10038,6 +10038,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+RuntimeService
+:
+:
+ShutdownIdleThreads
+"
 )
 )
 ;
@@ -13611,7 +13617,7 @@ MOZ_ALWAYS_SUCCEEDS
 mIdleThreadTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ShutdownIdleThreads
 nullptr
@@ -13622,6 +13628,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+RuntimeService
+:
+:
+ShutdownIdleThreads
+"
 )
 )
 ;

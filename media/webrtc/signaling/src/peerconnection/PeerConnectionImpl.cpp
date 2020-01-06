@@ -14944,7 +14944,7 @@ state
 mSendTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DTMFSendTimerCallback_m
 state
@@ -14953,6 +14953,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DTMFSendTimerCallback_m
+"
 )
 ;
 }
@@ -23873,7 +23876,7 @@ state
 mSendTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DTMFSendTimerCallback_m
 state
@@ -23882,6 +23885,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DTMFSendTimerCallback_m
+"
 )
 ;
 }
@@ -23899,7 +23905,7 @@ state
 mSendTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 DTMFSendTimerCallback_m
 state
@@ -23916,6 +23922,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+DTMFSendTimerCallback_m
+"
 )
 ;
 RefPtr
