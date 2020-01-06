@@ -2206,10 +2206,8 @@ printStats
 void
 reportLongestPhaseInMajorGC
 (
-const
-PhaseTimeTable
-&
-times
+PhaseKind
+longest
 int
 telemetryId
 )
