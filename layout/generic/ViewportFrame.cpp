@@ -2975,8 +2975,11 @@ anyway
 newContext
 -
 >
-EnsureSameStructsCached
+ResolveSameStructsAs
 (
+PresContext
+(
+)
 oldContext
 )
 ;
