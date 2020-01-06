@@ -727,7 +727,7 @@ rv
 =
 Base64Decode
 (
-nsCString
+nsDependentCString
 (
 aStateBase64
 )
@@ -2250,7 +2250,7 @@ rv
 =
 Base64Decode
 (
-nsCString
+nsDependentCString
 (
 aListStatesBase64
 [
@@ -2400,7 +2400,7 @@ rv
 =
 ConvertListNameToThreatType
 (
-nsCString
+nsDependentCString
 (
 aListNames
 [
@@ -2495,7 +2495,7 @@ rv
 =
 Base64Decode
 (
-nsCString
+nsDependentCString
 (
 aPrefixesBase64
 [
@@ -2859,7 +2859,7 @@ aCallback
 >
 OnCompleteHashFound
 (
-nsCString
+nsDependentCString
 (
 hash
 .
