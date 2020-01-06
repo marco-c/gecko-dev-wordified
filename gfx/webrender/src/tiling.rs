@@ -502,7 +502,7 @@ RadialGradient
 PrimitiveKind
 :
 :
-TextShadow
+Shadow
 =
 >
 if
@@ -2980,19 +2980,19 @@ as_int
 PrimitiveKind
 :
 :
-TextShadow
+Shadow
 =
 >
 {
 let
-text_shadow
+shadow
 =
 &
 ctx
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 prim_metadata
 .
@@ -3004,7 +3004,7 @@ cpu_prim_index
 let
 cache_task_id
 =
-text_shadow
+shadow
 .
 render_task_id
 .
@@ -6276,7 +6276,7 @@ prim_kind
 PrimitiveKind
 :
 :
-TextShadow
+Shadow
 =
 >
 {
@@ -6288,7 +6288,7 @@ ctx
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 prim_metadata
 .
@@ -6405,8 +6405,6 @@ supply
 /
 the
 parent
-text
--
 shadow
 prim
 address
@@ -6423,8 +6421,6 @@ shader
 to
 fetch
 the
-text
--
 shadow
 parameters
 .

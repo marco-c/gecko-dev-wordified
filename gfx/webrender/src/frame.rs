@@ -4099,7 +4099,7 @@ method
 SpecificDisplayItem
 :
 :
-PushTextShadow
+PushShadow
 (
 shadow
 )
@@ -4131,7 +4131,7 @@ context
 .
 builder
 .
-push_text_shadow
+push_shadow
 (
 shadow
 clip_and_scroll
@@ -4143,7 +4143,7 @@ prim_info
 SpecificDisplayItem
 :
 :
-PopTextShadow
+PopShadow
 =
 >
 {
@@ -4151,7 +4151,7 @@ context
 .
 builder
 .
-pop_text_shadow
+pop_shadow
 (
 )
 ;

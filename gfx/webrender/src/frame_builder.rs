@@ -160,7 +160,7 @@ api
 {
 ScrollSensitivity
 SubpixelDirection
-TextShadow
+Shadow
 TileOffset
 TransformStyle
 }
@@ -306,7 +306,7 @@ prim_store
 {
 RectanglePrimitive
 TextRunPrimitiveCpu
-TextShadowPrimitiveCpu
+ShadowPrimitiveCpu
 }
 ;
 use
@@ -782,8 +782,6 @@ stack
 of
 the
 current
-text
--
 shadow
 primitives
 .
@@ -3196,14 +3194,14 @@ pop
 }
 pub
 fn
-push_text_shadow
+push_shadow
 (
 &
 mut
 self
 shadow
 :
-TextShadow
+Shadow
 clip_and_scroll
 :
 ClipAndScrollInfo
@@ -3216,7 +3214,7 @@ LayerPrimitiveInfo
 let
 prim
 =
-TextShadowPrimitiveCpu
+ShadowPrimitiveCpu
 {
 shadow
 primitives
@@ -3237,8 +3235,6 @@ None
 Create
 an
 empty
-text
--
 shadow
 primitive
 .
@@ -3273,8 +3269,6 @@ as
 part
 of
 this
-text
--
 shadow
 context
 .
@@ -3296,7 +3290,7 @@ new
 PrimitiveContainer
 :
 :
-TextShadow
+Shadow
 (
 prim
 )
@@ -3314,7 +3308,7 @@ prim_index
 }
 pub
 fn
-pop_text_shadow
+pop_shadow
 (
 &
 mut
@@ -3430,7 +3424,7 @@ self
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 metadata
 .
@@ -3731,7 +3725,7 @@ orientation
 ;
 let
 mut
-fast_text_shadow_prims
+fast_shadow_prims
 =
 Vec
 :
@@ -3771,7 +3765,7 @@ self
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 shadow_metadata
 .
@@ -3792,7 +3786,7 @@ blur_radius
 .
 0
 {
-fast_text_shadow_prims
+fast_shadow_prims
 .
 push
 (
@@ -3806,7 +3800,7 @@ shadow
 for
 shadow
 in
-fast_text_shadow_prims
+fast_shadow_prims
 {
 let
 mut
@@ -3974,7 +3968,7 @@ prim_kind
 PrimitiveKind
 :
 :
-TextShadow
+Shadow
 )
 ;
 let
@@ -3986,7 +3980,7 @@ self
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 shadow_metadata
 .
@@ -7163,7 +7157,7 @@ first
 .
 let
 mut
-fast_text_shadow_prims
+fast_shadow_prims
 =
 Vec
 :
@@ -7203,7 +7197,7 @@ self
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 shadow_metadata
 .
@@ -7353,7 +7347,7 @@ shadow
 .
 offset
 ;
-fast_text_shadow_prims
+fast_shadow_prims
 .
 push
 (
@@ -7365,7 +7359,7 @@ text_prim
 for
 text_prim
 in
-fast_text_shadow_prims
+fast_shadow_prims
 {
 let
 rect
@@ -7563,8 +7557,6 @@ since
 /
 /
 the
-text
--
 shadow
 primitive
 itself
@@ -7585,7 +7577,7 @@ the
 visual
 element
 during
-push_text_shadow
+push_shadow
 .
 We
 need
@@ -7649,7 +7641,7 @@ prim_kind
 PrimitiveKind
 :
 :
-TextShadow
+Shadow
 )
 ;
 let
@@ -7661,7 +7653,7 @@ self
 .
 prim_store
 .
-cpu_text_shadows
+cpu_shadows
 [
 shadow_metadata
 .

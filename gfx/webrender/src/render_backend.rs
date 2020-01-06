@@ -4327,7 +4327,7 @@ pop_stacking_context
 SpecificDisplayItem
 :
 :
-PushTextShadow
+PushShadow
 (
 .
 .
@@ -4340,13 +4340,13 @@ String
 from
 (
 "
-push_text_shadow
+push_shadow
 "
 )
 SpecificDisplayItem
 :
 :
-PopTextShadow
+PopShadow
 =
 >
 String
@@ -4355,7 +4355,7 @@ String
 from
 (
 "
-pop_text_shadow
+pop_shadow
 "
 )
 }

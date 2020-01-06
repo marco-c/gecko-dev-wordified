@@ -593,11 +593,11 @@ PopStackingContext
 SetGradientStops
 PushNestedDisplayList
 PopNestedDisplayList
-PushTextShadow
+PushShadow
 (
-TextShadow
+Shadow
 )
-PopTextShadow
+PopShadow
 }
 #
 [
@@ -1481,7 +1481,7 @@ Serialize
 ]
 pub
 struct
-TextShadow
+Shadow
 {
 pub
 offset

@@ -14177,8 +14177,6 @@ blurred
 /
 /
 for
-text
--
 shadow
 support
 .
