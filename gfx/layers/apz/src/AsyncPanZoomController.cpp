@@ -1059,6 +1059,17 @@ ScrollSnapUtils
 #
 include
 "
+ScrollAnimationPhysics
+.
+h
+"
+/
+/
+for
+ComputeAcceleratedWheelDelta
+#
+include
+"
 WheelScrollAnimation
 .
 h
