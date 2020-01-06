@@ -313,8 +313,8 @@ SECOND_MS
 ;
 add_task
 (
+async
 function
-*
 test_authenticated_get_request
 (
 )
@@ -420,7 +420,7 @@ baseURI
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -457,7 +457,7 @@ result
 msg
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -466,8 +466,8 @@ server
 }
 )
 ;
+async
 function
-*
 check_authenticated_request
 (
 method
@@ -568,7 +568,7 @@ baseURI
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -610,7 +610,7 @@ result
 foo
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -670,8 +670,8 @@ PATCH
 ;
 add_task
 (
+async
 function
-*
 test_extra_headers
 (
 )
@@ -798,7 +798,7 @@ baseURI
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -851,7 +851,7 @@ result
 foo
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -862,8 +862,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_credentials_optional
 (
 )
@@ -986,7 +986,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 request
@@ -1025,7 +1025,7 @@ zone
 "
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -1036,8 +1036,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_server_error
 (
 )
@@ -1120,7 +1120,7 @@ baseURI
 ;
 try
 {
-yield
+await
 client
 .
 request
@@ -1170,7 +1170,7 @@ message
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -1181,8 +1181,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_server_error_json
 (
 )
@@ -1278,7 +1278,7 @@ baseURI
 ;
 try
 {
-yield
+await
 client
 .
 request
@@ -1321,7 +1321,7 @@ error
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -1332,8 +1332,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_offset_after_request
 (
 )
@@ -1444,7 +1444,7 @@ localtimeOffsetMsec
 0
 )
 ;
-yield
+await
 client
 .
 request
@@ -1481,7 +1481,7 @@ HOUR_MS
 SECOND_MS
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -1492,8 +1492,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_offset_in_hawk_header
 (
 )
@@ -1732,7 +1732,7 @@ localtimeOffsetMsec
 0
 )
 ;
-yield
+await
 client
 .
 request
@@ -1790,7 +1790,7 @@ HOUR_MS
 MINUTE_MS
 )
 ;
-yield
+await
 client
 .
 request
@@ -1803,7 +1803,7 @@ method
 TEST_CREDS
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -1814,8 +1814,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_2xx_success
 (
 )
@@ -1914,7 +1914,7 @@ baseURI
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -1947,7 +1947,7 @@ body
 "
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -1958,8 +1958,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_retry_request_on_fail
 (
 )
@@ -2260,7 +2260,7 @@ once
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -2288,7 +2288,7 @@ you
 "
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -2299,8 +2299,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_multiple_401_retry_once
 (
 )
@@ -2520,7 +2520,7 @@ retry
 once
 try
 {
-yield
+await
 client
 .
 request
@@ -2563,7 +2563,7 @@ attempts
 2
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -2574,8 +2574,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_500_no_retry
 (
 )
@@ -2756,7 +2756,7 @@ no
 retries
 try
 {
-yield
+await
 client
 .
 request
@@ -2795,7 +2795,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -2806,8 +2806,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_401_then_500
 (
 )
@@ -3148,7 +3148,7 @@ retry
 once
 try
 {
-yield
+await
 client
 .
 request
@@ -3182,7 +3182,7 @@ attempts
 2
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -3193,8 +3193,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 throw_if_not_json_body
 (
 )
@@ -3218,7 +3218,7 @@ com
 ;
 try
 {
-yield
+await
 client
 .
 request

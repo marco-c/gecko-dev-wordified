@@ -38,8 +38,8 @@ WeaveCrypto
 ;
 add_task
 (
+async
 function
-*
 test_key_memoization
 (
 )
@@ -280,8 +280,8 @@ bytes
 .
 add_task
 (
+async
 function
-*
 test_makeUint8Array
 (
 )
@@ -361,8 +361,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_encrypt_decrypt
 (
 )

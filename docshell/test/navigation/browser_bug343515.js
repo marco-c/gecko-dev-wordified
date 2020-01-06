@@ -229,12 +229,12 @@ spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -729,8 +729,8 @@ ctx
 .
 tab2Browser
 null
+async
 function
-*
 (
 )
 {
@@ -950,8 +950,8 @@ ctx
 .
 tab2Browser
 expected
+async
 function
-*
 (
 expected
 )
@@ -1463,8 +1463,8 @@ ctx
 .
 tab2Browser
 null
+async
 function
-*
 (
 )
 {
@@ -1692,8 +1692,8 @@ ctx
 .
 tab1Browser
 null
+async
 function
-*
 (
 )
 {
@@ -1847,8 +1847,8 @@ ctx
 .
 tab2Browser
 null
+async
 function
-*
 (
 )
 {
@@ -1985,8 +1985,8 @@ browser
 tabNum
 active
 }
+async
 function
-*
 (
 {
 tabNum

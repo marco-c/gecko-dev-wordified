@@ -231,8 +231,8 @@ collection
 )
 ;
 }
+async
 function
-*
 clear_collection
 (
 )
@@ -244,7 +244,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -257,7 +257,7 @@ do_get_kinto_collection
 sqliteHandle
 )
 ;
-yield
+await
 collection
 .
 clear
@@ -267,7 +267,7 @@ clear
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -287,8 +287,8 @@ local
 collection
 add_task
 (
+async
 function
-*
 test_kinto_add_get
 (
 )
@@ -300,7 +300,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -334,7 +334,7 @@ created
 let
 createResult
 =
-yield
+await
 collection
 .
 create
@@ -367,7 +367,7 @@ info
 let
 getResult
 =
-yield
+await
 collection
 .
 get
@@ -418,7 +418,7 @@ id
 )
 try
 {
-yield
+await
 collection
 .
 create
@@ -506,7 +506,7 @@ newRecord
 )
 )
 ;
-yield
+await
 collection
 .
 create
@@ -514,7 +514,7 @@ create
 newRecord
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -525,7 +525,7 @@ promises
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -551,8 +551,8 @@ multiple
 connections
 add_task
 (
+async
 function
-*
 test_kinto_add_get
 (
 )
@@ -564,7 +564,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -668,7 +668,7 @@ subsequent
 operations
 still
 work
-yield
+await
 Promise
 .
 all
@@ -689,7 +689,7 @@ newRecord
 ]
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -700,7 +700,7 @@ promises
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -718,8 +718,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_kinto_update
 (
 )
@@ -731,7 +731,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -765,7 +765,7 @@ created
 let
 createResult
 =
-yield
+await
 collection
 .
 create
@@ -838,7 +838,7 @@ wibble
 let
 updateResult
 =
-yield
+await
 collection
 .
 update
@@ -900,7 +900,7 @@ created
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -918,8 +918,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_kinto_clear
 (
 )
@@ -931,7 +931,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -984,7 +984,7 @@ i
 +
 )
 {
-yield
+await
 collection
 .
 create
@@ -1005,7 +1005,7 @@ number
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -1034,7 +1034,7 @@ again
 should
 be
 0
-yield
+await
 collection
 .
 clear
@@ -1043,7 +1043,7 @@ clear
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -1063,7 +1063,7 @@ length
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1081,8 +1081,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_kinto_delete
 (
 )
@@ -1094,7 +1094,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1128,7 +1128,7 @@ created
 let
 createResult
 =
-yield
+await
 collection
 .
 create
@@ -1161,7 +1161,7 @@ info
 let
 getResult
 =
-yield
+await
 collection
 .
 get
@@ -1191,7 +1191,7 @@ record
 let
 deleteResult
 =
-yield
+await
 collection
 .
 delete
@@ -1242,7 +1242,7 @@ try
 {
 getResult
 =
-yield
+await
 collection
 .
 get
@@ -1276,7 +1276,7 @@ e
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1289,8 +1289,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_list
 (
 )
@@ -1302,7 +1302,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1358,7 +1358,7 @@ i
 let
 createResult
 =
-yield
+await
 collection
 .
 create
@@ -1388,7 +1388,7 @@ number
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -1473,7 +1473,7 @@ found
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1491,8 +1491,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_loadDump_ignores_already_imported_records
 (
 )
@@ -1504,7 +1504,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1544,7 +1544,7 @@ last_modified
 1457896541
 }
 ;
-yield
+await
 collection
 .
 loadDump
@@ -1557,7 +1557,7 @@ record
 let
 impactedRecords
 =
-yield
+await
 collection
 .
 loadDump
@@ -1578,7 +1578,7 @@ length
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1596,8 +1596,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_loadDump_should_overwrite_old_records
 (
 )
@@ -1609,7 +1609,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1649,7 +1649,7 @@ last_modified
 1457896541
 }
 ;
-yield
+await
 collection
 .
 loadDump
@@ -1679,7 +1679,7 @@ last_modified
 let
 impactedRecords
 =
-yield
+await
 collection
 .
 loadDump
@@ -1700,7 +1700,7 @@ length
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1718,8 +1718,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_loadDump_should_not_overwrite_unsynced_records
 (
 )
@@ -1731,7 +1731,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1759,7 +1759,7 @@ recordId
 6a41abf9730f
 "
 ;
-yield
+await
 collection
 .
 create
@@ -1801,7 +1801,7 @@ last_modified
 let
 impactedRecords
 =
-yield
+await
 collection
 .
 loadDump
@@ -1822,7 +1822,7 @@ length
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -1840,8 +1840,8 @@ clear_collection
 ;
 add_task
 (
+async
 function
-*
 test_loadDump_should_not_overwrite_records_without_last_modified
 (
 )
@@ -1853,7 +1853,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -1881,7 +1881,7 @@ recordId
 6a41abf9730f
 "
 ;
-yield
+await
 collection
 .
 create
@@ -1923,7 +1923,7 @@ last_modified
 let
 impactedRecords
 =
-yield
+await
 collection
 .
 loadDump
@@ -1944,7 +1944,7 @@ length
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -2011,8 +2011,8 @@ expected
 .
 add_task
 (
+async
 function
-*
 test_kinto_sync
 (
 )
@@ -2244,7 +2244,7 @@ result
 ;
 sqliteHandle
 =
-yield
+await
 do_get_kinto_sqliteHandle
 (
 )
@@ -2259,7 +2259,7 @@ sqliteHandle
 ;
 result
 =
-yield
+await
 collection
 .
 sync
@@ -2293,7 +2293,7 @@ collection
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -2324,7 +2324,7 @@ have
 records
 result
 =
-yield
+await
 collection
 .
 sync
@@ -2340,7 +2340,7 @@ ok
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -2383,7 +2383,7 @@ title
 ;
 result
 =
-yield
+await
 collection
 .
 sync
@@ -2399,7 +2399,7 @@ ok
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -2427,7 +2427,7 @@ after
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close

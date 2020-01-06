@@ -847,8 +847,8 @@ now
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1175,7 +1175,7 @@ getOSExecCmd
 let
 rv
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1255,7 +1255,7 @@ openWriteCreateFlags
 let
 fd
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1355,7 +1355,7 @@ openWriteCreateFlags
 let
 fd
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1410,7 +1410,7 @@ isMac
 let
 rv
 =
-yield
+await
 ContentTask
 .
 spawn

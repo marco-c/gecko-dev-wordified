@@ -2570,8 +2570,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_rejects
 (
 )
@@ -2623,8 +2623,8 @@ to
 test
 failures
 .
+async
 function
-*
 checkRejectsFails
 (
 err
@@ -2633,7 +2633,7 @@ expected
 {
 try
 {
-yield
+await
 assert
 .
 rejects
@@ -2728,7 +2728,7 @@ message
 values
 supplied
 .
-yield
+await
 assert
 .
 rejects
@@ -2748,7 +2748,7 @@ no
 )
 )
 ;
-yield
+await
 assert
 .
 rejects
@@ -2779,7 +2779,7 @@ to
 check
 against
 .
-yield
+await
 assert
 .
 rejects
@@ -2813,7 +2813,7 @@ against
 the
 message
 .
-yield
+await
 assert
 .
 rejects
@@ -2858,7 +2858,7 @@ doesn
 t
 match
 .
-yield
+await
 checkRejectsFails
 (
 new
@@ -2882,7 +2882,7 @@ doesn
 t
 match
 .
-yield
+await
 checkRejectsFails
 (
 new
@@ -2906,7 +2906,7 @@ simple
 string
 messages
 .
-yield
+await
 assert
 .
 rejects
@@ -2934,7 +2934,7 @@ rejected
 Wrong
 message
 .
-yield
+await
 checkRejectsFails
 (
 "

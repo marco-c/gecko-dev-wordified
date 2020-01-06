@@ -628,8 +628,8 @@ test
 )
 ;
 }
+async
 function
-*
 createMockFxA
 (
 )
@@ -687,7 +687,7 @@ verified
 true
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -716,8 +716,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 testCacheStorage
 (
 )
@@ -725,7 +725,7 @@ testCacheStorage
 let
 fxa
 =
-yield
+await
 createMockFxA
 (
 )
@@ -898,7 +898,7 @@ write
 to
 complete
 .
-yield
+await
 promiseWritten
 ;
 /
@@ -968,7 +968,7 @@ done
 "
 )
 ;
-yield
+await
 cas
 .
 removeCachedToken
@@ -987,7 +987,7 @@ oauthTokens
 }
 )
 ;
-yield
+await
 promiseWritten
 ;
 deepEqual
@@ -1034,7 +1034,7 @@ removes
 the
 attribute
 .
-yield
+await
 fxa
 .
 signOut

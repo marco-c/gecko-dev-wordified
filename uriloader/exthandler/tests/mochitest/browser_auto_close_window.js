@@ -317,8 +317,8 @@ url
 :
 URL
 }
+async
 function
-*
 (
 browser
 )
@@ -330,7 +330,7 @@ promiseHelperAppDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -347,7 +347,7 @@ browser
 let
 windowContext
 =
-yield
+await
 dialogAppeared
 ;
 is
@@ -425,8 +425,8 @@ url
 :
 URL
 }
+async
 function
-*
 (
 browser
 )
@@ -479,7 +479,7 @@ target
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -496,7 +496,7 @@ browser
 let
 windowContext
 =
-yield
+await
 dialogAppeared
 ;
 is
@@ -525,10 +525,10 @@ tab
 closed
 ]
 =
-yield
+await
 tabOpened
 ;
-yield
+await
 closed
 ;
 is
@@ -631,8 +631,8 @@ url
 :
 URL
 }
+async
 function
-*
 (
 browser
 )
@@ -654,7 +654,7 @@ waitForNewWindow
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -671,7 +671,7 @@ browser
 let
 windowContext
 =
-yield
+await
 dialogAppeared
 ;
 is
@@ -697,7 +697,7 @@ windowContext
 let
 win
 =
-yield
+await
 windowOpened
 ;
 /
@@ -718,7 +718,7 @@ will
 time
 out
 .
-yield
+await
 BrowserTestUtils
 .
 domWindowClosed

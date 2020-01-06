@@ -57,8 +57,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -112,7 +112,7 @@ true
 }
 )
 ;
-yield
+await
 win1Promise
 ;
 var
@@ -165,7 +165,7 @@ true
 }
 )
 ;
-yield
+await
 win2Promise
 ;
 var
@@ -180,7 +180,7 @@ addTab
 URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -217,7 +217,7 @@ addTab
 URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -384,7 +384,7 @@ data
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -446,7 +446,7 @@ resolve
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -512,7 +512,7 @@ resolve
 var
 what1
 =
-yield
+await
 p1
 ;
 ok
@@ -540,7 +540,7 @@ window
 var
 what2
 =
-yield
+await
 p2
 ;
 ok
@@ -566,7 +566,7 @@ window
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -574,7 +574,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -582,7 +582,7 @@ closeWindow
 win1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -590,7 +590,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -105,12 +105,8 @@ TRANSITION_LINK
 var
 putRecord
 =
-Task
-.
 async
-(
 function
-*
 (
 {
 scope
@@ -177,14 +173,14 @@ notification
 }
 )
 ;
-yield
+await
 visitURI
 (
 uri
 lastVisit
 )
 ;
-yield
+await
 db
 .
 put
@@ -240,7 +236,6 @@ return
 uri
 ;
 }
-)
 ;
 function
 run_test
@@ -304,8 +299,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 setUp
 (
 )
@@ -345,7 +340,7 @@ last
 push
 message
 .
-yield
+await
 putRecord
 (
 {
@@ -413,7 +408,7 @@ again
 .
 quotaURI
 =
-yield
+await
 putRecord
 (
 {
@@ -482,7 +477,7 @@ again
 .
 permURI
 =
-yield
+await
 putRecord
 (
 {
@@ -541,7 +536,7 @@ should
 leave
 alone
 .
-yield
+await
 putRecord
 (
 {
@@ -721,7 +716,7 @@ status
 }
 )
 ;
-yield
+await
 subChangePromise
 ;
 }
@@ -729,8 +724,8 @@ subChangePromise
 ;
 add_task
 (
+async
 function
-*
 test_site_visited
 (
 )
@@ -769,7 +764,7 @@ exceeded
 '
 )
 ;
-yield
+await
 visitURI
 (
 quotaURI
@@ -794,7 +789,7 @@ daily
 '
 )
 ;
-yield
+await
 subChangePromise
 ;
 }
@@ -802,8 +797,8 @@ subChangePromise
 ;
 add_task
 (
+async
 function
-*
 test_perm_restored
 (
 )
@@ -861,7 +856,7 @@ nsIPermissionManager
 ALLOW_ACTION
 )
 ;
-yield
+await
 subChangePromise
 ;
 }

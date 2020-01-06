@@ -94,8 +94,8 @@ xe6
 "
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -250,8 +250,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_upper_ascii
 (
 )
@@ -329,8 +329,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_upper_non_ascii
 (
 )
@@ -413,8 +413,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_lower_ascii
 (
 )
@@ -492,8 +492,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_lower_non_ascii
 (
 )
@@ -576,8 +576,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_like_search_different
 (
 )
@@ -642,8 +642,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_like_search_same
 (
 )

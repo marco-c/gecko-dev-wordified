@@ -92,8 +92,8 @@ registrations
 .
 add_task
 (
+async
 function
-*
 test_registration_none
 (
 )
@@ -136,7 +136,7 @@ uri
 let
 registration
 =
-yield
+await
 PushService
 .
 registration

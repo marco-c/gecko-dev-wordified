@@ -57,8 +57,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_registrations_error
 (
 )
@@ -147,7 +147,7 @@ error
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService

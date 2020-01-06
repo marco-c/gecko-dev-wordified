@@ -240,12 +240,8 @@ toString
 var
 checkProcess
 =
-Task
-.
 async
-(
 function
-*
 (
 mm
 )
@@ -255,7 +251,7 @@ let
 target
 }
 =
-yield
+await
 promiseMessage
 (
 mm
@@ -277,7 +273,7 @@ Reply
 "
 )
 ;
-yield
+await
 promiseMessage
 (
 target
@@ -299,7 +295,6 @@ finished
 )
 ;
 }
-)
 ;
 function
 promiseMessage
@@ -353,8 +348,8 @@ listener
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -380,7 +375,7 @@ allocated
 process
 manager
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -411,8 +406,8 @@ false
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -439,7 +434,7 @@ releaseCachedProcesses
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -463,7 +458,7 @@ processCount
 ]
 }
 )
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -516,7 +511,7 @@ tabs
 i
 ]
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -546,7 +541,7 @@ i
 +
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -601,8 +596,8 @@ existing
 processes
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -652,7 +647,7 @@ processScriptURL
 false
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -677,8 +672,8 @@ new
 processes
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -736,7 +731,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -877,7 +872,7 @@ main
 process
 should
 respond
-yield
+await
 check
 ;
 check
@@ -922,7 +917,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -959,7 +954,7 @@ process
 should
 have
 responded
-yield
+await
 check
 ;
 ppmm
@@ -992,7 +987,7 @@ false
 let
 msg
 =
-yield
+await
 promiseMessage
 (
 childMM

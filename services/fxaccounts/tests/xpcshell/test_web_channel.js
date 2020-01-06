@@ -198,8 +198,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_rejection_reporting
 (
 )
@@ -348,7 +348,7 @@ message
 context
 }
 =
-yield
+await
 promiseSend
 ;
 equal
@@ -1598,8 +1598,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_helpers_login_without_customize_sync
 (
 )
@@ -1737,7 +1737,7 @@ com
 "
 )
 ;
-yield
+await
 helpers
 .
 login
@@ -1765,8 +1765,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_helpers_login_with_customize_sync
 (
 )
@@ -1852,7 +1852,7 @@ resolve
 }
 )
 ;
-yield
+await
 helpers
 .
 login
@@ -1880,8 +1880,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_helpers_login_with_customize_sync_and_declined_engines
 (
 )
@@ -2228,7 +2228,7 @@ tabs
 true
 )
 ;
-yield
+await
 helpers
 .
 login
@@ -2336,8 +2336,8 @@ verification_complete
 ;
 add_task
 (
+async
 function
-*
 test_helpers_getFxaStatus_allowed_signedInUser
 (
 )
@@ -2592,8 +2592,8 @@ signedInUser
 ;
 add_task
 (
+async
 function
-*
 test_helpers_getFxaStatus_allowed_no_signedInUser
 (
 )
@@ -2732,8 +2732,8 @@ signedInUser
 ;
 add_task
 (
+async
 function
-*
 test_helpers_getFxaStatus_not_allowed
 (
 )
@@ -2872,8 +2872,8 @@ signedInUser
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_sync_service_not_private_browsing
 (
 )
@@ -2953,8 +2953,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_oauth_service_not_private_browsing
 (
 )
@@ -3034,8 +3034,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_no_service_not_private_browsing
 (
 )
@@ -3114,8 +3114,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_sync_service_private_browsing
 (
 )
@@ -3195,8 +3195,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_oauth_service_private_browsing
 (
 )
@@ -3276,8 +3276,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_shouldAllowFxaStatus_no_service_private_browsing
 (
 )
@@ -3356,8 +3356,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_isPrivateBrowsingMode_private_browsing
 (
 )
@@ -3402,8 +3402,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_isPrivateBrowsingMode_private_browsing
 (
 )
@@ -3448,8 +3448,8 @@ isPrivateBrowsingMode
 ;
 add_task
 (
+async
 function
-*
 test_helpers_change_password
 (
 )
@@ -3617,7 +3617,7 @@ resolve
 }
 )
 ;
-yield
+await
 helpers
 .
 changePassword
@@ -3665,8 +3665,8 @@ updateDeviceRegistration
 ;
 add_task
 (
+async
 function
-*
 test_helpers_change_password_with_error
 (
 )
@@ -3734,7 +3734,7 @@ resolve
 ;
 try
 {
-yield
+await
 helpers
 .
 changePassword

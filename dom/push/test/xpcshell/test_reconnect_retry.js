@@ -69,8 +69,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_reconnect_retry
 (
 )
@@ -303,7 +303,7 @@ status
 let
 registration
 =
-yield
+await
 PushService
 .
 register
@@ -381,7 +381,7 @@ request
 ;
 registration
 =
-yield
+await
 PushService
 .
 register

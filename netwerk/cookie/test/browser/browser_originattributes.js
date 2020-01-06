@@ -144,8 +144,8 @@ the
 newly
 opened
 tab
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -216,7 +216,7 @@ wait
 for
 tab
 load
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -233,8 +233,8 @@ browser
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -247,7 +247,7 @@ userContext
 is
 enabled
 .
-yield
+await
 new
 Promise
 (
@@ -288,8 +288,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -346,15 +346,14 @@ tab
 browser
 }
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
 userContextId
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -429,7 +428,7 @@ slice
 0
 )
 ;
-yield
+await
 checkCookies
 (
 expectedValues
@@ -474,7 +473,7 @@ expectedValues
 =
 undefined
 ;
-yield
+await
 checkCookies
 (
 expectedValues
@@ -487,8 +486,8 @@ removal
 }
 )
 ;
+async
 function
-*
 checkCookies
 (
 expectedValues
@@ -511,8 +510,7 @@ expectedValues
 let
 cookiesFromTitle
 =
-yield
-*
+await
 getCookiesFromJS
 (
 userContextId
@@ -667,8 +665,8 @@ return
 cookies
 ;
 }
+async
 function
-*
 getCookiesFromJS
 (
 userContextId
@@ -680,8 +678,7 @@ tab
 browser
 }
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -696,7 +693,7 @@ cookies
 let
 cookieString
 =
-yield
+await
 ContentTask
 .
 spawn

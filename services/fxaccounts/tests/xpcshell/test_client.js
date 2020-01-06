@@ -257,8 +257,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_authenticated_get_request
 (
 )
@@ -385,7 +385,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 _request
@@ -410,7 +410,7 @@ result
 msg
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -421,8 +421,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_authenticated_post_request
 (
 )
@@ -550,7 +550,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 _request
@@ -580,7 +580,7 @@ result
 foo
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -591,8 +591,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_500_error
 (
 )
@@ -680,7 +680,7 @@ baseURI
 ;
 try
 {
-yield
+await
 client
 .
 _request
@@ -730,7 +730,7 @@ message
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -741,8 +741,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_backoffError
 (
 )
@@ -921,7 +921,7 @@ null
 ;
 try
 {
-yield
+await
 client
 .
 _request
@@ -1002,7 +1002,7 @@ error
 .
 try
 {
-yield
+await
 client
 .
 _request
@@ -1089,7 +1089,7 @@ _clearBackoff
 let
 result
 =
-yield
+await
 client
 .
 _request
@@ -1119,7 +1119,7 @@ yes
 "
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -1130,8 +1130,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_signUp
 (
 )
@@ -1580,7 +1580,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 signUp
@@ -1640,7 +1640,7 @@ keys
 .
 result
 =
-yield
+await
 client
 .
 signUp
@@ -1716,7 +1716,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 signUp
@@ -1751,7 +1751,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -1762,8 +1762,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_signIn
 (
 )
@@ -2180,7 +2180,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 signIn
@@ -2226,7 +2226,7 @@ optional
 keys
 result
 =
-yield
+await
 client
 .
 signIn
@@ -2281,7 +2281,7 @@ email
 capitalization
 result
 =
-yield
+await
 client
 .
 signIn
@@ -2335,7 +2335,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 signIn
@@ -2379,7 +2379,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -2390,8 +2390,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_signOut
 (
 )
@@ -2560,7 +2560,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 signOut
@@ -2588,7 +2588,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 signOut
@@ -2624,7 +2624,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -2635,8 +2635,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_recoveryEmailStatus
 (
 )
@@ -2824,7 +2824,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 recoveryEmailStatus
@@ -2849,7 +2849,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 recoveryEmailStatus
@@ -2887,7 +2887,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -2898,8 +2898,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_recoveryEmailStatusWithReason
 (
 )
@@ -3018,7 +3018,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 recoveryEmailStatus
@@ -3041,7 +3041,7 @@ verified
 true
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -3052,8 +3052,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_resendVerificationEmail
 (
 )
@@ -3226,7 +3226,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 resendVerificationEmail
@@ -3254,7 +3254,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 resendVerificationEmail
@@ -3292,7 +3292,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -3303,8 +3303,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_accountKeys
 (
 )
@@ -3671,7 +3671,7 @@ good
 let
 result
 =
-yield
+await
 client
 .
 accountKeys
@@ -3724,7 +3724,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 accountKeys
@@ -3779,7 +3779,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 accountKeys
@@ -3834,7 +3834,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 accountKeys
@@ -3870,7 +3870,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -3881,8 +3881,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_signCertificate
 (
 )
@@ -4107,7 +4107,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 signCertificate
@@ -4149,7 +4149,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 signCertificate
@@ -4198,7 +4198,7 @@ errno
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -4209,8 +4209,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_accountExists
 (
 )
@@ -4525,7 +4525,7 @@ result
 ;
 result
 =
-yield
+await
 client
 .
 accountExists
@@ -4547,7 +4547,7 @@ result
 ;
 result
 =
-yield
+await
 client
 .
 accountExists
@@ -4571,7 +4571,7 @@ result
 ;
 result
 =
-yield
+await
 client
 .
 accountExists
@@ -4597,7 +4597,7 @@ try
 {
 result
 =
-yield
+await
 client
 .
 accountExists
@@ -4640,7 +4640,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -4651,8 +4651,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_registerDevice
 (
 )
@@ -4901,7 +4901,7 @@ baseURI
 const
 result
 =
-yield
+await
 client
 .
 registerDevice
@@ -4975,7 +4975,7 @@ DEVICE_TYPE
 ;
 try
 {
-yield
+await
 client
 .
 registerDevice
@@ -5011,7 +5011,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -5022,8 +5022,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_updateDevice
 (
 )
@@ -5250,7 +5250,7 @@ baseURI
 const
 result
 =
-yield
+await
 client
 .
 updateDevice
@@ -5296,7 +5296,7 @@ DEVICE_NAME
 ;
 try
 {
-yield
+await
 client
 .
 updateDevice
@@ -5332,7 +5332,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -5343,8 +5343,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_signOutAndDestroyDevice
 (
 )
@@ -5536,7 +5536,7 @@ baseURI
 const
 result
 =
-yield
+await
 client
 .
 signOutAndDestroyDevice
@@ -5565,7 +5565,7 @@ length
 ;
 try
 {
-yield
+await
 client
 .
 signOutAndDestroyDevice
@@ -5600,7 +5600,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -5611,8 +5611,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_getDeviceList
 (
 )
@@ -5722,7 +5722,7 @@ true
 const
 result
 =
-yield
+await
 client
 .
 getDeviceList
@@ -5754,7 +5754,7 @@ canReturnDevices
 =
 false
 ;
-yield
+await
 client
 .
 getDeviceList
@@ -5788,7 +5788,7 @@ code
 )
 ;
 }
-yield
+await
 deferredStop
 (
 server
@@ -5799,8 +5799,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_client_metrics
 (
 )
@@ -5936,7 +5936,7 @@ server
 baseURI
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -5970,7 +5970,7 @@ errno
 }
 )
 ;
-yield
+await
 deferredStop
 (
 server
@@ -5981,8 +5981,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_email_case
 (
 )
@@ -6289,7 +6289,7 @@ baseURI
 let
 result
 =
-yield
+await
 client
 .
 signIn
@@ -6316,7 +6316,7 @@ attempts
 2
 )
 ;
-yield
+await
 deferredStop
 (
 server

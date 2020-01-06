@@ -150,8 +150,8 @@ last
 modified
 add_task
 (
+async
 function
-*
 test_check_maybeSync
 (
 )
@@ -554,7 +554,7 @@ getUptakeTelemetrySnapshot
 TELEMETRY_HISTOGRAM_KEY
 )
 ;
-yield
+await
 updater
 .
 checkVersions
@@ -764,7 +764,7 @@ called
 }
 )
 ;
-yield
+await
 updater
 .
 checkVersions
@@ -907,7 +907,7 @@ error
 ;
 try
 {
-yield
+await
 updater
 .
 checkVersions
@@ -1009,7 +1009,7 @@ now
 )
 )
 ;
-yield
+await
 updater
 .
 checkVersions
@@ -1151,7 +1151,7 @@ First
 will
 work
 .
-yield
+await
 updater
 .
 checkVersions
@@ -1172,7 +1172,7 @@ waited
 .
 try
 {
-yield
+await
 updater
 .
 checkVersions
@@ -1276,7 +1276,7 @@ now
 }
 )
 ;
-yield
+await
 updater
 .
 checkVersions
@@ -1338,7 +1338,7 @@ v1
 ;
 try
 {
-yield
+await
 updater
 .
 checkVersions

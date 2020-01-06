@@ -107,8 +107,8 @@ script
 ;
 add_task
 (
+async
 function
-*
 enableDialogs
 (
 )
@@ -173,7 +173,7 @@ onDialogShown
 obsName
 )
 ;
-yield
+await
 openPage
 (
 true
@@ -201,8 +201,8 @@ dialogShown
 ;
 add_task
 (
+async
 function
-*
 disableDialogs
 (
 )
@@ -216,7 +216,7 @@ should
 NOT
 appear
 .
-yield
+await
 openPage
 (
 false
@@ -244,8 +244,8 @@ shown
 }
 )
 ;
+async
 function
-*
 openPage
 (
 enableDialogs
@@ -262,7 +262,7 @@ a
 new
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -277,8 +277,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -306,15 +306,15 @@ enableDialogs
 disableDialogs
 "
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 methodName
+async
 function
-*
 (
 name
 )
@@ -404,7 +404,7 @@ Load
 the
 page
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -413,7 +413,7 @@ browser
 PAGE_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -428,7 +428,7 @@ then
 navigate
 away
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -446,7 +446,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

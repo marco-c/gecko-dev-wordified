@@ -442,8 +442,8 @@ test
 }
 add_task
 (
+async
 function
-*
 test_simple
 (
 )
@@ -496,7 +496,7 @@ verified
 true
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -554,7 +554,7 @@ json
 let
 data
 =
-yield
+await
 CommonUtils
 .
 readJSON
@@ -846,7 +846,7 @@ json
 "
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -883,8 +883,8 @@ logout
 ;
 add_task
 (
+async
 function
-*
 test_MPLocked
 (
 )
@@ -971,7 +971,7 @@ setLoginMgrLoggedInState
 false
 )
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -1027,7 +1027,7 @@ json
 let
 data
 =
-yield
+await
 CommonUtils
 .
 readJSON
@@ -1165,7 +1165,7 @@ exist
 "
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -1183,8 +1183,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_consistentWithMPEdgeCases
 (
 )
@@ -1294,7 +1294,7 @@ MP
 is
 unlocked
 .
-yield
+await
 fxa
 .
 setSignedInUser
@@ -1340,7 +1340,7 @@ the
 second
 credentials
 .
-yield
+await
 fxa
 .
 setSignedInUser
@@ -1467,7 +1467,7 @@ createFxAccounts
 let
 accountData
 =
-yield
+await
 fxa
 .
 getSignedInUser
@@ -1514,7 +1514,7 @@ used
 "
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -1556,8 +1556,8 @@ manager
 .
 add_task
 (
+async
 function
-*
 test_uidMigration
 (
 )
@@ -1709,7 +1709,7 @@ LoginManagerStorage
 let
 got
 =
-yield
+await
 storage
 .
 get

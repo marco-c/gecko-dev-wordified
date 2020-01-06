@@ -150,8 +150,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -333,7 +333,7 @@ FromTest
 )
 )
 ;
-yield
+await
 fromTestPromise
 ;
 do_print
@@ -346,7 +346,7 @@ test
 "
 )
 ;
-yield
+await
 fromSandboxPromise
 ;
 do_print
@@ -436,7 +436,7 @@ FromTest
 )
 )
 ;
-yield
+await
 fromTestPromise
 ;
 do_print
@@ -518,7 +518,7 @@ FromTest
 )
 )
 ;
-yield
+await
 fromTestPromise
 ;
 do_print

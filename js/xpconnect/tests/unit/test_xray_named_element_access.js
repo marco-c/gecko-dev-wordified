@@ -89,8 +89,8 @@ allow_named_properties_object_for_xrays
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -323,8 +323,8 @@ kPluginJS
 this
 )
 ;
+async
 function
-*
 runTest
 (
 url
@@ -340,7 +340,7 @@ selectedTab
 let
 newTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -397,7 +397,7 @@ loadURI
 url
 )
 ;
-yield
+await
 promise
 ;
 /
@@ -409,7 +409,7 @@ in
 the
 background
 .
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -421,7 +421,7 @@ currentTab
 let
 timeout
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -506,7 +506,7 @@ timeout
 All
 done
 .
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -517,13 +517,13 @@ newTab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -551,8 +551,8 @@ kMinTimeoutBackground
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -565,7 +565,7 @@ of
 testURLs
 )
 {
-yield
+await
 runTest
 (
 url

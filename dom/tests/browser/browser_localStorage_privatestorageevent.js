@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ true
 }
 )
 ;
-yield
+await
 new
 privWin
 .
@@ -65,7 +65,7 @@ false
 }
 )
 ;
-yield
+await
 new
 pubWin
 .
@@ -140,7 +140,7 @@ addTab
 URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -177,7 +177,7 @@ addTab
 URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -214,7 +214,7 @@ privWin
 s
 storage
 events
-yield
+await
 ContentTask
 .
 spawn
@@ -261,7 +261,7 @@ true
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -294,7 +294,7 @@ ablooabloo
 let
 pubSaw
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -337,7 +337,7 @@ events
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -396,7 +396,7 @@ pubWin
 s
 storage
 events
-yield
+await
 ContentTask
 .
 spawn
@@ -443,7 +443,7 @@ true
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -476,7 +476,7 @@ ablooabloo
 let
 privSaw
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -519,7 +519,7 @@ events
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -527,7 +527,7 @@ removeTab
 privTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -535,7 +535,7 @@ closeWindow
 privWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -543,7 +543,7 @@ removeTab
 pubTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

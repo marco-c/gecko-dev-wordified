@@ -361,8 +361,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -404,7 +404,7 @@ makeBuffer
 let
 warned
 =
-yield
+await
 checkWarning
 (
 "
@@ -453,7 +453,7 @@ makeBuffer
 ;
 warned
 =
-yield
+await
 checkWarning
 (
 "

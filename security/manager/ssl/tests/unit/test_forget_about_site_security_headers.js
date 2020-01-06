@@ -515,8 +515,8 @@ longer
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -624,7 +624,7 @@ HPKP
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -778,8 +778,8 @@ removed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -985,7 +985,7 @@ HSTS
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1178,8 +1178,8 @@ removed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1432,7 +1432,7 @@ case
 )
 ;
 }
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

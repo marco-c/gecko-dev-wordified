@@ -120,8 +120,8 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -254,7 +254,7 @@ non
 shutdown
 leak
 .
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -266,7 +266,6 @@ url
 TEST_URI
 }
 function
-*
 (
 browser
 )

@@ -212,8 +212,8 @@ href
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -230,14 +230,14 @@ manifest
 )
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 tabOptions
+async
 function
-*
 (
 browser
 )
@@ -245,7 +245,7 @@ browser
 let
 manifest
 =
-yield
+await
 Manifests
 .
 getManifest
@@ -270,7 +270,7 @@ yet
 "
 )
 ;
-yield
+await
 manifest
 .
 install
@@ -323,7 +323,7 @@ url
 ;
 manifest
 =
-yield
+await
 Manifests
 .
 getManifest
@@ -348,7 +348,7 @@ installed
 ;
 manifest
 =
-yield
+await
 Manifests
 .
 getManifest

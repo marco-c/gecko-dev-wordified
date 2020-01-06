@@ -100,8 +100,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_rollback
 (
 )
@@ -431,7 +431,7 @@ if
 storage
 fails
 .
-yield
+await
 rejects
 (
 PushService
@@ -498,7 +498,7 @@ band
 unregister
 request
 .
-yield
+await
 unregisterPromise
 ;
 equal

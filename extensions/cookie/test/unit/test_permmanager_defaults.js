@@ -184,8 +184,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 do_test
 (
 )
@@ -868,7 +868,7 @@ written
 to
 the
 DB
-yield
+await
 checkCapabilityViaDB
 (
 null
@@ -1116,7 +1116,7 @@ reflected
 in
 the
 DB
-yield
+await
 checkCapabilityViaDB
 (
 Ci
@@ -1399,7 +1399,7 @@ findCapabilityViaEnum
 )
 )
 ;
-yield
+await
 checkCapabilityViaDB
 (
 Ci
@@ -1553,7 +1553,7 @@ findCapabilityViaEnum
 )
 )
 ;
-yield
+await
 checkCapabilityViaDB
 (
 Ci
@@ -1745,7 +1745,7 @@ TEST_PERMISSION
 )
 )
 ;
-yield
+await
 promiseTimeout
 (
 20
@@ -1763,7 +1763,7 @@ now
 )
 )
 ;
-yield
+await
 promiseTimeout
 (
 20

@@ -201,8 +201,8 @@ another
 ;
 add_task
 (
+async
 function
-*
 a
 (
 )
@@ -235,7 +235,7 @@ t
 ]
 )
 ;
-yield
+await
 t
 [
 1
@@ -273,8 +273,8 @@ another
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -306,7 +306,7 @@ t
 ]
 )
 ;
-yield
+await
 t
 [
 1
@@ -326,12 +326,12 @@ removeAll
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_localdomain
 (
 )
@@ -347,12 +347,12 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_path_prefix
 (
 )
@@ -395,8 +395,8 @@ not
 actually
 match
 .
+async
 function
-*
 test_path_prefix
 (
 )
@@ -484,7 +484,7 @@ barbar
 "
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -496,7 +496,7 @@ null
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -524,7 +524,7 @@ session_second
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -576,8 +576,8 @@ candidates
 for
 eviction
 .
+async
 function
-*
 test_localdomain
 (
 )
@@ -678,7 +678,7 @@ bar
 "
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -690,7 +690,7 @@ null
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -705,7 +705,7 @@ null
 BASE_BAR
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -717,7 +717,7 @@ null
 OTHER_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -758,7 +758,7 @@ session_bar_path
 OTHER_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -783,7 +783,7 @@ session_another_no_path
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -833,8 +833,8 @@ but
 not
 both
 .
+async
 function
-*
 test_domain_or_path_matches_not_both
 (
 base_host
@@ -1003,7 +1003,7 @@ foo
 "
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1018,7 +1018,7 @@ null
 PUB_FOO_PATH
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1046,7 +1046,7 @@ session_www_with_bar_path
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1074,7 +1074,7 @@ session_pub_with_bar_path
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1103,8 +1103,8 @@ BASE_URI
 )
 ;
 }
+async
 function
-*
 test_basic_eviction
 (
 base_host
@@ -1290,7 +1290,7 @@ to
 be
 evicted
 .
-yield
+await
 setCookie
 (
 "
@@ -1302,7 +1302,7 @@ null
 BASE_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1314,7 +1314,7 @@ null
 SUBDOMAIN_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1326,7 +1326,7 @@ null
 OTHER_SUBDOMAIN_URI
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1341,7 +1341,7 @@ null
 FOO_PATH
 )
 ;
-yield
+await
 setCookie
 (
 "
@@ -1438,7 +1438,7 @@ foo
 (
 session_bar_path
 )
-yield
+await
 setCookie
 (
 "
@@ -1492,7 +1492,7 @@ bar
 (
 session_foo_path
 )
-yield
+await
 setCookie
 (
 "
@@ -1545,7 +1545,7 @@ org
 (
 session_non_path_pub_domain
 )
-yield
+await
 setCookie
 (
 "
@@ -1595,7 +1595,7 @@ org
 (
 session_foo_path_2
 )
-yield
+await
 setCookie
 (
 "
@@ -1647,7 +1647,7 @@ bar
 (
 non_session_non_path_non_domain
 )
-yield
+await
 setCookie
 (
 "
@@ -1697,7 +1697,7 @@ org
 (
 session_bar_path_2
 )
-yield
+await
 setCookie
 (
 "
@@ -1748,7 +1748,7 @@ bar
 (
 non_session_non_path_pub_domain
 )
-yield
+await
 setCookie
 (
 "
@@ -1801,7 +1801,7 @@ org
 (
 non_session_bar_path_non_domain
 )
-yield
+await
 setCookie
 (
 "
@@ -2239,7 +2239,6 @@ lastValue
 =
 0
 function
-*
 setCookie
 (
 name

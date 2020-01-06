@@ -91,8 +91,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_invalid_endpoint
 (
 )
@@ -254,7 +254,7 @@ pushEndpoint
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -312,7 +312,7 @@ endpoint
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID

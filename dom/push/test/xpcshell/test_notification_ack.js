@@ -79,8 +79,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notification_ack
 (
 )
@@ -305,7 +305,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -717,10 +717,10 @@ acks
 }
 )
 ;
-yield
+await
 notifyPromise
 ;
-yield
+await
 ackPromise
 ;
 }

@@ -83,8 +83,8 @@ assertions
 /
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -98,7 +98,7 @@ tab
 let
 testTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -119,7 +119,7 @@ into
 test
 page
 content
-yield
+await
 ContentTask
 .
 spawn
@@ -128,8 +128,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -219,7 +219,7 @@ it
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -273,7 +273,7 @@ true
 ;
 try
 {
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -296,7 +296,7 @@ mouseover
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -319,7 +319,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -356,7 +356,7 @@ false
 /
 /
 cleanup
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -364,7 +364,7 @@ removeTab
 testTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

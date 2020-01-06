@@ -1390,15 +1390,15 @@ TLS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 cert
 =
-yield
+await
 getCert
 (
 )
@@ -1479,7 +1479,7 @@ port
 cert
 )
 ;
-yield
+await
 startClient
 (
 server

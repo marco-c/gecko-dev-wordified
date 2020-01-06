@@ -76,8 +76,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unregister_error
 (
 )
@@ -120,7 +120,7 @@ close
 }
 )
 ;
-yield
+await
 db
 .
 put
@@ -346,7 +346,7 @@ unregisterDone
 }
 )
 ;
-yield
+await
 PushService
 .
 unregister
@@ -377,7 +377,7 @@ originAttributes
 let
 result
 =
-yield
+await
 db
 .
 getByKeyID
@@ -409,7 +409,7 @@ to
 the
 server
 .
-yield
+await
 unregisterPromise
 ;
 }

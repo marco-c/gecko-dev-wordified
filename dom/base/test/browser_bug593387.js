@@ -71,13 +71,13 @@ c17
 /
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -100,8 +100,8 @@ mozilla
 xhtml
 "
 }
+async
 function
-*
 (
 newBrowser
 )
@@ -123,7 +123,7 @@ the
 parent
 process
 .
-yield
+await
 testXFOFrameInChrome
 (
 newBrowser
@@ -146,7 +146,7 @@ top
 level
 context
 )
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -164,7 +164,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -172,7 +172,7 @@ browserLoaded
 newBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

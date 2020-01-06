@@ -57,8 +57,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 testPermissionAllow
 (
 )
@@ -113,7 +113,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -191,7 +191,7 @@ hidden
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 true
@@ -250,8 +250,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 testNoPermissionPrompt
 (
 )
@@ -296,7 +296,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -387,7 +387,7 @@ time
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 true

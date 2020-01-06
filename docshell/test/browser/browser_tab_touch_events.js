@@ -34,8 +34,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +70,7 @@ iframe
 >
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -81,13 +81,13 @@ url
 :
 URI
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -103,8 +103,8 @@ test_body
 }
 )
 ;
+async
 function
-*
 test_body
 (
 )
@@ -322,7 +322,7 @@ reload
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForEvent

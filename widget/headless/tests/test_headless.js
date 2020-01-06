@@ -454,8 +454,8 @@ NOTIFY_LOCATION
 }
 add_task
 (
+async
 function
-*
 test_snapshot
 (
 )
@@ -487,7 +487,7 @@ nsIWebNavigation
 let
 contentWindow
 =
-yield
+await
 loadContentWindow
 (
 webNavigation
@@ -799,8 +799,8 @@ browser
 .
 add_task
 (
+async
 function
-*
 test_keydown
 (
 )
@@ -832,7 +832,7 @@ nsIWebNavigation
 let
 contentWindow
 =
-yield
+await
 loadContentWindow
 (
 webNavigation
@@ -908,7 +908,7 @@ keydown
 0
 )
 ;
-yield
+await
 keydown
 ;
 ok
@@ -961,8 +961,8 @@ headless
 .
 add_task
 (
+async
 function
-*
 test_mouse_drag
 (
 )
@@ -994,7 +994,7 @@ nsIWebNavigation
 let
 contentWindow
 =
-yield
+await
 loadContentWindow
 (
 webNavigation
@@ -1128,7 +1128,7 @@ the
 refresh
 driver
 .
-yield
+await
 new
 Promise
 (

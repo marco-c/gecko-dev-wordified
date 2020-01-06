@@ -234,8 +234,8 @@ jscs
 disable
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -293,7 +293,7 @@ test
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -304,8 +304,8 @@ testPromises
 }
 )
 ;
+async
 function
-*
 testObtainingManifest
 (
 aBrowser
@@ -314,7 +314,7 @@ aTest
 {
 try
 {
-yield
+await
 ManifestObtainer
 .
 browserObtainManifest

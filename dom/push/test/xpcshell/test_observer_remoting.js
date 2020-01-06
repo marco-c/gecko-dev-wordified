@@ -30,8 +30,8 @@ nsIPushNotifier
 ;
 add_task
 (
+async
 function
-*
 test_observer_remoting
 (
 )
@@ -41,7 +41,7 @@ if
 isParent
 )
 {
-yield
+await
 testInParent
 (
 )
@@ -49,7 +49,7 @@ testInParent
 }
 else
 {
-yield
+await
 testInChild
 (
 )
@@ -108,8 +108,8 @@ getSystemPrincipal
 }
 ]
 ;
+async
 function
-*
 testInParent
 (
 )
@@ -191,7 +191,7 @@ js
 '
 )
 ;
-yield
+await
 promiseNotifications
 ;
 /
@@ -208,7 +208,7 @@ from
 the
 parent
 .
-yield
+await
 do_await_remote_message
 (
 '
@@ -235,7 +235,7 @@ to
 the
 child
 .
-yield
+await
 parentTests
 .
 reduce
@@ -281,12 +281,12 @@ child
 to
 exit
 .
-yield
+await
 promiseFinished
 ;
 }
+async
 function
-*
 testInChild
 (
 )
@@ -310,7 +310,7 @@ to
 the
 parent
 .
-yield
+await
 childTests
 .
 reduce
@@ -418,19 +418,15 @@ push_test_observer_remoting_child_ready
 '
 )
 ;
-yield
+await
 promiseNotifierObservers
 ;
 }
 var
 waitForNotifierObservers
 =
-Task
-.
 async
-(
 function
-*
 (
 {
 text
@@ -548,7 +544,7 @@ subject
 notifySubject
 }
 =
-yield
+await
 notifyPromise
 ;
 equal
@@ -624,7 +620,7 @@ subject
 subChangePrincipal
 }
 =
-yield
+await
 subChangePromise
 ;
 equal
@@ -673,7 +669,7 @@ subject
 subModifiedPrincipal
 }
 =
-yield
+await
 subModifiedPromise
 ;
 equal
@@ -713,5 +709,4 @@ notification
 )
 ;
 }
-)
 ;

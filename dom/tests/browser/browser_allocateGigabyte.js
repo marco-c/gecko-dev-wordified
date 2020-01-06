@@ -172,12 +172,12 @@ topic
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -213,7 +213,7 @@ navigate
 cross
 process
 !
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -223,8 +223,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 aBrowser
 )
@@ -236,7 +236,7 @@ expectProcessCreated
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -274,7 +274,7 @@ Large
 -
 Allocation
 header
-yield
+await
 epc
 ;
 /
@@ -288,7 +288,7 @@ in
 the
 content
 process
-yield
+await
 ContentTask
 .
 spawn

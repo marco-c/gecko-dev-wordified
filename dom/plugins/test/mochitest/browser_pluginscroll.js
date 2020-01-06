@@ -164,8 +164,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,12 +198,12 @@ in
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -320,8 +320,8 @@ document
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -405,7 +405,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -422,7 +422,7 @@ html
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -431,8 +431,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -476,7 +476,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -485,8 +485,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -586,7 +586,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 waitScrollStart
 (
 gBrowser
@@ -596,7 +596,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -605,8 +605,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -655,7 +655,7 @@ hidden
 "
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -665,7 +665,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -674,8 +674,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -756,8 +756,8 @@ document
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -841,7 +841,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -858,7 +858,7 @@ html
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -867,8 +867,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -921,7 +921,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -930,8 +930,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1040,7 +1040,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 waitScrollStart
 (
 gBrowser
@@ -1050,7 +1050,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1059,8 +1059,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1118,7 +1118,7 @@ hidden
 "
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -1128,7 +1128,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1137,8 +1137,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1247,8 +1247,8 @@ test
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1311,7 +1311,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1328,7 +1328,7 @@ html
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1337,8 +1337,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1382,7 +1382,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1391,8 +1391,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1452,7 +1452,7 @@ VK_END
 }
 )
 ;
-yield
+await
 waitScrollStart
 (
 gBrowser
@@ -1462,7 +1462,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1471,8 +1471,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1521,7 +1521,7 @@ hidden
 "
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -1531,7 +1531,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1540,8 +1540,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1601,7 +1601,7 @@ VK_HOME
 }
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -1611,7 +1611,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1620,8 +1620,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1699,8 +1699,8 @@ document
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1763,7 +1763,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1780,7 +1780,7 @@ html
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1789,8 +1789,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1843,7 +1843,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1852,8 +1852,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1922,7 +1922,7 @@ VK_END
 }
 )
 ;
-yield
+await
 waitScrollStart
 (
 gBrowser
@@ -1932,7 +1932,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1941,8 +1941,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -2000,7 +2000,7 @@ hidden
 "
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -2010,7 +2010,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -2019,8 +2019,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -2089,7 +2089,7 @@ VK_HOME
 }
 )
 ;
-yield
+await
 waitScrollFinish
 (
 gBrowser
@@ -2099,7 +2099,7 @@ selectedBrowser
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -2108,8 +2108,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

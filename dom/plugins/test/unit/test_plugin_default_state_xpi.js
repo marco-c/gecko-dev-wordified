@@ -223,8 +223,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_state
 (
 )
@@ -335,7 +335,7 @@ STATE_ENABLED
 let
 success
 =
-yield
+await
 installAddon
 (
 "
@@ -713,7 +713,7 @@ path
 let
 addon
 =
-yield
+await
 getAddonByID
 (
 ADDON_ID

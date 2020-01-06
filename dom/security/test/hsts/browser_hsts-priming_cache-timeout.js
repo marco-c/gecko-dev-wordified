@@ -77,8 +77,8 @@ jscs
 disable
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ clear_hists
 expected_telemetry
 )
 ;
-yield
+await
 execute_test
 (
 "
@@ -168,7 +168,7 @@ pre_promise
 1000
 )
 {
-yield
+await
 new
 Promise
 (
@@ -208,7 +208,7 @@ priming
 {
 }
 ;
-yield
+await
 execute_test
 (
 "

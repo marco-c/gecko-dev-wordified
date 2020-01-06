@@ -356,8 +356,8 @@ isExpired
 }
 add_task
 (
+async
 function
-*
 setUp
 (
 )
@@ -395,7 +395,7 @@ subscription
 change
 event
 .
-yield
+await
 putTestRecord
 (
 db
@@ -429,7 +429,7 @@ should
 be
 dropped
 .
-yield
+await
 putTestRecord
 (
 db
@@ -474,7 +474,7 @@ to
 deny
 "
 .
-yield
+await
 putTestRecord
 (
 db
@@ -525,7 +525,7 @@ deny
 "
 permission
 .
-yield
+await
 putTestRecord
 (
 db
@@ -552,7 +552,7 @@ ham
 16
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -617,7 +617,7 @@ we
 restore
 permissions
 .
-yield
+await
 putTestRecord
 (
 db
@@ -665,7 +665,7 @@ set
 to
 Infinity
 .
-yield
+await
 putTestRecord
 (
 db
@@ -703,7 +703,7 @@ permission
 /
 list
 .
-yield
+await
 putTestRecord
 (
 db
@@ -911,7 +911,7 @@ request
 }
 )
 ;
-yield
+await
 handshakePromise
 ;
 }
@@ -919,8 +919,8 @@ handshakePromise
 ;
 add_task
 (
+async
 function
-*
 test_permissions_allow_added
 (
 )
@@ -933,7 +933,7 @@ promiseSubscriptionChanges
 1
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -961,7 +961,7 @@ added
 let
 notifiedScopes
 =
-yield
+await
 subChangePromise
 ;
 deepEqual
@@ -994,7 +994,7 @@ allow
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1027,7 +1027,7 @@ allow
 ;
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1059,8 +1059,8 @@ allow
 ;
 add_task
 (
+async
 function
-*
 test_permissions_allow_deleted
 (
 )
@@ -1085,7 +1085,7 @@ allow
 '
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1110,13 +1110,13 @@ deleted
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 let
 notifiedScopes
 =
-yield
+await
 subModifiedPromise
 ;
 deepEqual
@@ -1150,7 +1150,7 @@ allow
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1185,8 +1185,8 @@ allow
 ;
 add_task
 (
+async
 function
-*
 test_permissions_deny_added
 (
 )
@@ -1234,7 +1234,7 @@ added
 ]
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1259,13 +1259,13 @@ added
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 let
 notifiedScopes
 =
-yield
+await
 subModifiedPromise
 ;
 deepEqual
@@ -1308,7 +1308,7 @@ deny
 let
 isExpired
 =
-yield
+await
 allExpired
 (
 '
@@ -1348,13 +1348,13 @@ deny
 ;
 add_task
 (
+async
 function
-*
 test_permissions_deny_deleted
 (
 )
 {
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1382,7 +1382,7 @@ deleted
 let
 isExpired
 =
-yield
+await
 allExpired
 (
 '
@@ -1422,8 +1422,8 @@ deny
 ;
 add_task
 (
+async
 function
-*
 test_permissions_allow_changed
 (
 )
@@ -1436,7 +1436,7 @@ promiseSubscriptionChanges
 3
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1464,7 +1464,7 @@ changed
 let
 notifiedScopes
 =
-yield
+await
 subChangePromise
 ;
 deepEqual
@@ -1518,7 +1518,7 @@ allow
 let
 droppedRecords
 =
-yield
+await
 Promise
 .
 all
@@ -1594,8 +1594,8 @@ allow
 ;
 add_task
 (
+async
 function
-*
 test_permissions_deny_changed
 (
 )
@@ -1622,7 +1622,7 @@ changed
 '
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1647,13 +1647,13 @@ changed
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 let
 notifiedScopes
 =
-yield
+await
 subModifiedPromise
 ;
 deepEqual
@@ -1688,7 +1688,7 @@ deny
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1726,8 +1726,8 @@ deny
 ;
 add_task
 (
+async
 function
-*
 test_permissions_clear
 (
 )
@@ -1742,7 +1742,7 @@ promiseSubscriptionModifications
 ;
 deepEqual
 (
-yield
+await
 getAllKeyIDs
 (
 db
@@ -1822,7 +1822,7 @@ clear
 ]
 )
 ;
-yield
+await
 PushService
 .
 _onPermissionChange
@@ -1833,13 +1833,13 @@ cleared
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 let
 notifiedScopes
 =
-yield
+await
 subModifiedPromise
 ;
 deepEqual
@@ -1896,7 +1896,7 @@ registrations
 ;
 deepEqual
 (
-yield
+await
 getAllKeyIDs
 (
 db

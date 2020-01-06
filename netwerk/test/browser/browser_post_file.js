@@ -39,8 +39,8 @@ jsm
 "
 )
 ;
+async
 function
-*
 createTestFile
 (
 filename
@@ -66,7 +66,7 @@ tmpDir
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -81,8 +81,8 @@ return
 path
 ;
 }
+async
 function
-*
 readFile
 (
 path
@@ -91,7 +91,7 @@ path
 var
 array
 =
-yield
+await
 OS
 .
 File
@@ -216,8 +216,8 @@ check
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -449,8 +449,7 @@ html
 var
 postPath
 =
-yield
-*
+await
 createTestFile
 (
 postFilename
@@ -460,8 +459,7 @@ postFileContent
 var
 actionPath
 =
-yield
-*
+await
 createTestFile
 (
 actionFilename
@@ -526,7 +524,7 @@ toString
 true
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -592,8 +590,7 @@ WaitForIFrame
 var
 actionFileContentAfter
 =
-yield
-*
+await
 readFile
 (
 actionPath
@@ -612,7 +609,7 @@ modified
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -622,7 +619,7 @@ remove
 postPath
 )
 ;
-yield
+await
 OS
 .
 File

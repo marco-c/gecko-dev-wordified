@@ -67,8 +67,8 @@ of
 mozIStorageValueArray
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -225,8 +225,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_getIsNull_for_null
 (
 )
@@ -317,8 +317,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getIsNull_for_non_null
 (
 )
@@ -396,8 +396,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_value_type_null
 (
 )
@@ -469,8 +469,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_value_type_integer
 (
 )
@@ -542,8 +542,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_value_type_float
 (
 )
@@ -615,8 +615,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_value_type_text
 (
 )
@@ -688,8 +688,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_value_type_blob
 (
 )
@@ -761,8 +761,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_numEntries_one
 (
 )
@@ -827,8 +827,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_numEntries_all
 (
 )
@@ -893,8 +893,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getInt
 (
 )
@@ -973,8 +973,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getDouble
 (
 )
@@ -1044,8 +1044,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getUTF8String
 (
 )
@@ -1115,8 +1115,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getString
 (
 )
@@ -1185,8 +1185,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_getBlob
 (
 )

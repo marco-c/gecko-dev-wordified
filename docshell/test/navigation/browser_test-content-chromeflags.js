@@ -85,8 +85,8 @@ chrome
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -113,7 +113,7 @@ a
 new
 tab
 .
-yield
+await
 new
 Promise
 (
@@ -149,7 +149,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -160,8 +160,8 @@ url
 :
 TEST_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -192,7 +192,7 @@ browser
 let
 win
 =
-yield
+await
 openedPromise
 ;
 let

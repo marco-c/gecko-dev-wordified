@@ -156,8 +156,8 @@ expected_usages
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -212,7 +212,7 @@ CTu
 "
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -234,7 +234,7 @@ considered
 an
 EE
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -274,7 +274,7 @@ to
 /
 it
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -315,7 +315,7 @@ considered
 an
 EE
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -357,7 +357,7 @@ chain
 to
 it
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -422,7 +422,7 @@ end
 entity
 )
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -441,7 +441,7 @@ keyCertSign
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -494,7 +494,7 @@ constraint
 of
 zero
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -535,7 +535,7 @@ the
 CA
 cert
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -596,7 +596,7 @@ true
 )
 /
 /
-yield
+await
 test_cert_for_usages
 (
 [
@@ -621,7 +621,7 @@ depth
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -670,7 +670,7 @@ no
 eku
 has
 keyCertSign
-yield
+await
 test_cert_for_usages
 (
 [
@@ -689,7 +689,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -782,7 +782,7 @@ CA
 /
 uses
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -802,7 +802,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -874,7 +874,7 @@ is
 OK
 "
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -893,7 +893,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -965,7 +965,7 @@ kp
 clientAuth
 }
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -984,7 +984,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -1057,7 +1057,7 @@ kp
 clientAuth
 }
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -1077,7 +1077,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -1149,7 +1149,7 @@ kp
 clientAuth
 }
 .
-yield
+await
 test_cert_for_usages
 (
 [
@@ -1168,7 +1168,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [

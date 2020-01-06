@@ -141,8 +141,8 @@ certificates
 .
 add_task
 (
+async
 function
-*
 test_pushSubscriptionNoConnection
 (
 )
@@ -204,7 +204,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -267,7 +267,7 @@ connecion
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs
@@ -310,8 +310,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_TLS
 (
 )
@@ -414,8 +414,8 @@ oldPref
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionMissingLocation
 (
 )
@@ -477,7 +477,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -538,7 +538,7 @@ header
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs
@@ -580,8 +580,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionMissingLink
 (
 )
@@ -643,7 +643,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -704,7 +704,7 @@ header
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs
@@ -746,8 +746,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionMissingLink1
 (
 )
@@ -809,7 +809,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -870,7 +870,7 @@ endpoint
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs
@@ -912,8 +912,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionLocationBogus
 (
 )
@@ -975,7 +975,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -1034,7 +1034,7 @@ location
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs
@@ -1075,8 +1075,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionNot2xxCode
 (
 )
@@ -1138,7 +1138,7 @@ db
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -1199,7 +1199,7 @@ code
 let
 record
 =
-yield
+await
 db
 .
 getAllKeyIDs

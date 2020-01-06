@@ -62,8 +62,8 @@ searchTerms
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -185,8 +185,8 @@ engine
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -233,7 +233,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -276,7 +276,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

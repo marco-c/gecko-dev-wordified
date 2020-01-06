@@ -365,13 +365,13 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
 return
-yield
+await
 new
 Promise
 (

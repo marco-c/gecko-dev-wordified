@@ -108,8 +108,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -177,7 +177,7 @@ be
 removed
 immediately
 .
-yield
+await
 putTestRecord
 (
 db
@@ -204,7 +204,7 @@ page
 4
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -249,7 +249,7 @@ and
 /
 dropped
 .
-yield
+await
 putTestRecord
 (
 db
@@ -276,7 +276,7 @@ page
 8
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -327,7 +327,7 @@ set
 to
 Infinity
 .
-yield
+await
 putTestRecord
 (
 db
@@ -555,7 +555,7 @@ we
 re
 connected
 .
-yield
+await
 handshakePromise
 ;
 }
@@ -563,8 +563,8 @@ handshakePromise
 ;
 add_task
 (
+async
 function
-*
 test_forgetAboutSubdomain
 (
 )
@@ -631,7 +631,7 @@ length
 ]
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -645,7 +645,7 @@ com
 '
 )
 ;
-yield
+await
 promiseForgetSubs
 ;
 deepEqual
@@ -687,7 +687,7 @@ subscriptions
 let
 remainingIDs
 =
-yield
+await
 getAllKeyIDs
 (
 db
@@ -726,8 +726,8 @@ subdomain
 ;
 add_task
 (
+async
 function
-*
 test_forgetAboutRootDomain
 (
 )
@@ -794,7 +794,7 @@ length
 ]
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -806,7 +806,7 @@ com
 '
 )
 ;
-yield
+await
 promiseForgetSubs
 ;
 deepEqual
@@ -863,7 +863,7 @@ domain
 let
 remainingIDs
 =
-yield
+await
 getAllKeyIDs
 (
 db

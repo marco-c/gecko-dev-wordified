@@ -31,8 +31,8 @@ cache
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -93,7 +93,7 @@ cached
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -103,7 +103,7 @@ kTestPage
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -113,7 +113,7 @@ tab
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -211,7 +211,7 @@ false
 expectedPageCheck
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -363,7 +363,7 @@ click
 }
 )
 ;
-yield
+await
 diskPageLoaded
 ;
 info
@@ -449,7 +449,7 @@ false
 expectedPageCheck
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -646,7 +646,7 @@ click
 }
 )
 ;
-yield
+await
 entryLoaded
 ;
 info
@@ -660,7 +660,7 @@ loaded
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -818,7 +818,7 @@ data
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

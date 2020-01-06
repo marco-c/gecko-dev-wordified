@@ -257,12 +257,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -343,7 +343,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -399,7 +399,7 @@ t
 be
 denied
 .
-yield
+await
 promiseOneMessage
 (
 "
@@ -456,7 +456,7 @@ RequestFullscreen
 ;
 state
 =
-yield
+await
 promiseOneMessage
 (
 "
@@ -573,7 +573,7 @@ button
 window
 )
 ;
-yield
+await
 popupShownPromise
 ;
 is
@@ -625,7 +625,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 popupHidePromise
 ;
 is
@@ -665,7 +665,7 @@ not
 exit
 fullscreen
 .
-yield
+await
 new
 Promise
 (
@@ -692,7 +692,7 @@ QueryFullscreenState
 ;
 state
 =
-yield
+await
 promiseOneMessage
 (
 "
@@ -779,7 +779,7 @@ VK_ESCAPE
 ;
 state
 =
-yield
+await
 fullscreenExitPromise
 ;
 ok

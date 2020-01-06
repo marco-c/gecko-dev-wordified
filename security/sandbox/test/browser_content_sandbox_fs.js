@@ -1094,8 +1094,8 @@ processes
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1448,8 +1448,8 @@ HOME
 this
 should
 fail
+async
 function
-*
 createFileInHome
 (
 )
@@ -1478,7 +1478,7 @@ path
 let
 fileCreated
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1549,8 +1549,8 @@ temp
 file
 should
 pass
+async
 function
-*
 createTempFile
 (
 )
@@ -1574,7 +1574,7 @@ path
 let
 fileCreated
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1611,7 +1611,7 @@ file
 let
 fileDeleted
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1654,8 +1654,8 @@ file
 content
 processes
 .
+async
 function
-*
 testFileAccess
 (
 )
@@ -3021,7 +3021,7 @@ file
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn

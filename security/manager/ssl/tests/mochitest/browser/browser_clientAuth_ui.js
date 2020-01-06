@@ -864,8 +864,8 @@ null
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -924,8 +924,8 @@ cert
 .
 add_task
 (
+async
 function
-*
 testContents
 (
 )
@@ -935,7 +935,7 @@ let
 win
 ]
 =
-yield
+await
 openClientAuthDialog
 (
 cert
@@ -956,7 +956,7 @@ validity
 notAfterLocalTime
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -984,8 +984,8 @@ accepted
 .
 add_task
 (
+async
 function
-*
 testAcceptDialogReturnValues
 (
 )
@@ -996,7 +996,7 @@ win
 retVals
 ]
 =
-yield
+await
 openClientAuthDialog
 (
 cert
@@ -1040,7 +1040,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed
@@ -1148,8 +1148,8 @@ canceled
 .
 add_task
 (
+async
 function
-*
 testCancelDialogReturnValues
 (
 )
@@ -1160,7 +1160,7 @@ win
 retVals
 ]
 =
-yield
+await
 openClientAuthDialog
 (
 cert
@@ -1204,7 +1204,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed

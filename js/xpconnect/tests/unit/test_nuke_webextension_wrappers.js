@@ -234,8 +234,8 @@ string
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -429,7 +429,7 @@ that
 to
 happen
 .
-yield
+await
 TestUtils
 .
 topicObserved

@@ -187,8 +187,8 @@ be
 dynamically
 change
 .
+async
 function
-*
 theTest
 (
 aBrowser
@@ -209,12 +209,12 @@ spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -239,7 +239,7 @@ success
 }
 }
 =
-yield
+await
 PromiseMessage
 .
 send
@@ -271,7 +271,7 @@ successfully
 ;
 try
 {
-yield
+await
 waitForInstall
 ;
 ok
@@ -321,12 +321,12 @@ the
 test
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 enableOnAppInstalledPref
 (
 )
@@ -345,7 +345,7 @@ testURL
 href
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

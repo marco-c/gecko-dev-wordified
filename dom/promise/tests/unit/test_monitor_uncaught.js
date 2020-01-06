@@ -133,8 +133,8 @@ disableUncaughtRejectionObserverForSelfTest
 ;
 add_task
 (
+async
 function
-*
 test_globals
 (
 )
@@ -179,8 +179,8 @@ available
 ;
 add_task
 (
+async
 function
-*
 test_promiseID
 (
 )
@@ -340,8 +340,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_observe_uncaught
 (
 )
@@ -1520,7 +1520,7 @@ callbacks
 "
 )
 ;
-yield
+await
 onLeftUncaught
 .
 blocker
@@ -1597,7 +1597,7 @@ x
 )
 )
 ;
-yield
+await
 onConsumed
 .
 blocker
@@ -1670,8 +1670,8 @@ anything
 ;
 add_task
 (
+async
 function
-*
 test_uninstall_observer
 (
 )
@@ -1835,7 +1835,7 @@ rejection
 "
 )
 ;
-yield
+await
 deactivate
 .
 blocker
@@ -1923,12 +1923,12 @@ rejection
 "
 )
 ;
-yield
+await
 wait
 .
 blocker
 ;
-yield
+await
 new
 Promise
 (

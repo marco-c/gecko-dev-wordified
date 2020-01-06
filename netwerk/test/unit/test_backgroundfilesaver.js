@@ -264,29 +264,6 @@ defineLazyModuleGetter
 (
 this
 "
-Task
-"
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetter
-(
-this
-"
 Services
 "
 "
@@ -1793,8 +1770,8 @@ out
 ;
 add_task
 (
+async
 function
-*
 test_normal
 (
 )
@@ -1910,7 +1887,7 @@ the
 output
 stream
 .
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -1943,7 +1920,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -1998,8 +1975,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_combinations
 (
 )
@@ -2336,7 +2313,7 @@ to
 be
 copied
 .
-yield
+await
 feedPromise
 ;
 if
@@ -2386,7 +2363,7 @@ if
 useStreamListener
 )
 {
-yield
+await
 promiseCopyToSaver
 (
 testData
@@ -2427,7 +2404,7 @@ NS_OK
 }
 try
 {
-yield
+await
 completionPromise
 ;
 if
@@ -2496,7 +2473,7 @@ testData
 +
 testData
 ;
-yield
+await
 promiseVerifyContents
 (
 currentFile
@@ -2705,8 +2682,8 @@ ms
 ;
 add_task
 (
+async
 function
-*
 test_setTarget_after_close_stream
 (
 )
@@ -2864,7 +2841,7 @@ to
 /
 complete
 .
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -2903,7 +2880,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -2911,7 +2888,7 @@ completionPromise
 Verify
 results
 .
-yield
+await
 promiseVerifyContents
 (
 destFile
@@ -2952,8 +2929,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_setTarget_fast
 (
 )
@@ -3018,7 +2995,7 @@ then
 rename
 immediately
 .
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -3061,7 +3038,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -3081,7 +3058,7 @@ exists
 )
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 destFile2
@@ -3100,8 +3077,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_setTarget_multiple
 (
 )
@@ -3176,7 +3153,7 @@ TEST_FILE_NAME_3
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -3222,7 +3199,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -3257,7 +3234,7 @@ exists
 )
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 destFile
@@ -3276,8 +3253,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_enableAppend
 (
 )
@@ -3371,7 +3348,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_LONG
@@ -3388,7 +3365,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -3412,7 +3389,7 @@ TEST_DATA_LONG
 TEST_DATA_LONG
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 destFile
@@ -3437,8 +3414,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_enableAppend_setTarget_fast
 (
 )
@@ -3537,7 +3514,7 @@ promiseSaverComplete
 saver
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -3645,7 +3622,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -3678,7 +3655,7 @@ TEST_DATA_SHORT
 TEST_DATA_SHORT
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 secondFile
@@ -3703,8 +3680,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_enableAppend_hash
 (
 )
@@ -3816,7 +3793,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_LONG
@@ -3833,7 +3810,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -3857,7 +3834,7 @@ TEST_DATA_LONG
 TEST_DATA_LONG
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 destFile
@@ -3898,8 +3875,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_finish_only
 (
 )
@@ -3970,7 +3947,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 }
@@ -3978,8 +3955,8 @@ completionPromise
 ;
 add_task
 (
+async
 function
-*
 test_empty
 (
 )
@@ -4033,7 +4010,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 "
@@ -4051,7 +4028,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -4093,8 +4070,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_empty_hash
 (
 )
@@ -4196,7 +4173,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 "
@@ -4214,7 +4191,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 /
@@ -4262,8 +4239,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_invalid_hash
 (
 )
@@ -4511,7 +4488,7 @@ fail
 .
 try
 {
-yield
+await
 completionPromise
 ;
 do_throw
@@ -4544,8 +4521,8 @@ NS_ERROR_FAILURE
 ;
 add_task
 (
+async
 function
-*
 test_signature
 (
 )
@@ -4643,7 +4620,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -4660,10 +4637,10 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
-yield
+await
 promiseVerifyContents
 (
 destFile
@@ -4704,8 +4681,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_signature_not_enabled
 (
 )
@@ -4758,7 +4735,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 TEST_DATA_SHORT
@@ -4775,7 +4752,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 try

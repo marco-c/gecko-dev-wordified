@@ -393,8 +393,8 @@ expected
 .
 add_task
 (
+async
 function
-*
 test_something
 (
 )
@@ -892,7 +892,7 @@ an
 empty
 db
 populates
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -908,7 +908,7 @@ now
 let
 connection
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -961,7 +961,7 @@ COLLECTION_NAME
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -1038,7 +1038,7 @@ a
 later
 lastModified
 value
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1090,7 +1090,7 @@ COLLECTION_NAME
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -1107,7 +1107,7 @@ length
 5
 )
 ;
-yield
+await
 connection
 .
 close
@@ -1306,7 +1306,7 @@ server
 "
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1333,7 +1333,7 @@ point
 in
 the
 past
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1384,7 +1384,7 @@ checked
 0
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1590,7 +1590,7 @@ primaryPort
 v1
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync

@@ -294,8 +294,8 @@ complete
 /
 add_task
 (
+async
 function
-*
 test_asyncClose_does_not_complete_before_statements
 (
 )
@@ -388,7 +388,7 @@ asyncThread
 &
 mDBConn
 )
-yield
+await
 asyncClose
 (
 db
@@ -397,7 +397,7 @@ db
 equal
 (
 (
-yield
+await
 asyncStatementPromise
 )
 Ci
@@ -505,8 +505,8 @@ DEBUG
 {
 add_task
 (
+async
 function
-*
 test_double_asyncClose_throws
 (
 )
@@ -514,7 +514,7 @@ test_double_asyncClose_throws
 let
 db
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -560,7 +560,7 @@ mDBConn
 let
 realClosePromise
 =
-yield
+await
 asyncClose
 (
 db
@@ -614,7 +614,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 ;
 }
-yield
+await
 realClosePromise
 ;
 }
@@ -692,8 +692,8 @@ close
 /
 add_task
 (
+async
 function
-*
 test_asyncClose_on_sync_db
 (
 )
@@ -724,7 +724,7 @@ asyncThread
 &
 mDBConn
 )
-yield
+await
 asyncClose
 (
 db
@@ -825,8 +825,8 @@ ourselves
 /
 add_task
 (
+async
 function
-*
 test_asyncClose_failed_open
 (
 )
@@ -853,7 +853,7 @@ getFakeDB
 )
 )
 ;
-yield
+await
 openPromise
 .
 then
@@ -1011,8 +1011,8 @@ overlaps
 /
 add_task
 (
+async
 function
-*
 test_asyncClose_does_not_throw_without_callback
 (
 )
@@ -1020,7 +1020,7 @@ test_asyncClose_does_not_throw_without_callback
 let
 db
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB

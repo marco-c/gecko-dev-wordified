@@ -104,8 +104,8 @@ jscs
 disable
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -207,7 +207,7 @@ clear_hists
 expected_telemetry
 )
 ;
-yield
+await
 execute_test
 (
 "
@@ -225,7 +225,7 @@ which
 mimetype
 )
 ;
-yield
+await
 execute_test
 (
 "

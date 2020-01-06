@@ -691,8 +691,8 @@ test
 )
 ;
 }
+async
 function
-*
 createMockFxA
 (
 mockGrantClient
@@ -752,7 +752,7 @@ verified
 true
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -933,8 +933,8 @@ null
 }
 add_task
 (
+async
 function
-*
 testRevoke
 (
 )
@@ -964,7 +964,7 @@ client
 let
 fxa
 =
-yield
+await
 createMockFxA
 (
 client
@@ -986,7 +986,7 @@ mock
 let
 token1
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -1071,7 +1071,7 @@ from
 our
 cache
 .
-yield
+await
 fxa
 .
 removeCachedOAuthToken
@@ -1083,7 +1083,7 @@ token1
 }
 )
 ;
-yield
+await
 revokeComplete
 ;
 /
@@ -1117,7 +1117,7 @@ server
 let
 token2
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -1170,8 +1170,8 @@ token
 ;
 add_task
 (
+async
 function
-*
 testSignOutDestroysTokens
 (
 )
@@ -1187,7 +1187,7 @@ MockFxAccountsOAuthGrantClient
 let
 fxa
 =
-yield
+await
 createMockFxA
 (
 client
@@ -1209,7 +1209,7 @@ mock
 let
 token1
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -1261,7 +1261,7 @@ another
 let
 token2
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -1362,14 +1362,14 @@ should
 be
 removed
 .
-yield
+await
 fxa
 .
 signOut
 (
 )
 ;
-yield
+await
 signoutComplete
 ;
 /
@@ -1394,8 +1394,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 testTokenRaces
 (
 )
@@ -1479,7 +1479,7 @@ MockFxAccountsOAuthGrantClient
 let
 fxa
 =
-yield
+await
 createMockFxA
 (
 client
@@ -1549,7 +1549,7 @@ complete
 let
 results
 =
-yield
+await
 Promise
 .
 all
@@ -1653,7 +1653,7 @@ to
 the
 race
 .
-yield
+await
 notifications
 ;
 /
@@ -1752,7 +1752,7 @@ complete
 ]
 )
 ;
-yield
+await
 fxa
 .
 removeCachedOAuthToken
@@ -1777,7 +1777,7 @@ size
 1
 )
 ;
-yield
+await
 fxa
 .
 removeCachedOAuthToken
@@ -1802,7 +1802,7 @@ size
 0
 )
 ;
-yield
+await
 notifications
 ;
 }

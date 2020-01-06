@@ -406,8 +406,8 @@ activated
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -422,7 +422,7 @@ true
 ]
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -442,7 +442,7 @@ shouldBlock
 let
 response
 =
-yield
+await
 xhr
 (
 "

@@ -52,8 +52,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -289,7 +289,7 @@ load
 can
 begin
 .
-yield
+await
 new
 Promise
 (

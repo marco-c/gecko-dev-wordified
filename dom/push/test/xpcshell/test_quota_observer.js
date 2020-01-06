@@ -83,12 +83,8 @@ run_next_test
 let
 putRecord
 =
-Task
-.
 async
-(
 function
-*
 (
 perm
 record
@@ -152,7 +148,7 @@ notification
 }
 )
 ;
-yield
+await
 db
 .
 put
@@ -161,12 +157,11 @@ record
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_expiration_history_observer
 (
 )
@@ -216,7 +211,7 @@ expire
 .
 .
 .
-yield
+await
 putRecord
 (
 '
@@ -299,7 +294,7 @@ evict
 on
 startup
 .
-yield
+await
 putRecord
 (
 '
@@ -366,7 +361,7 @@ quota
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -634,16 +629,16 @@ request
 }
 )
 ;
-yield
+await
 subChangePromise
 ;
-yield
+await
 unregisterPromise
 ;
 let
 expiredRecord
 =
-yield
+await
 db
 .
 getByKeyID
@@ -732,7 +727,7 @@ idle
 /
 observer
 .
-yield
+await
 putRecord
 (
 '
@@ -816,7 +811,7 @@ revive
 on
 fetch
 .
-yield
+await
 putRecord
 (
 '
@@ -892,7 +887,7 @@ site
 .
 .
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -965,7 +960,7 @@ for
 both
 scopes
 .
-yield
+await
 subChangePromise
 ;
 deepEqual
@@ -1011,7 +1006,7 @@ changes
 let
 aRecord
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1044,7 +1039,7 @@ record
 let
 bRecord
 =
-yield
+await
 db
 .
 getByKeyID
@@ -1107,7 +1102,7 @@ observer
 /
 notification
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1212,7 +1207,7 @@ true
 let
 record
 =
-yield
+await
 PushService
 .
 registration
@@ -1255,7 +1250,7 @@ ok
 (
 !
 (
-yield
+await
 db
 .
 getByKeyID
@@ -1283,7 +1278,7 @@ fetch
 '
 )
 ;
-yield
+await
 subChangePromise
 ;
 }

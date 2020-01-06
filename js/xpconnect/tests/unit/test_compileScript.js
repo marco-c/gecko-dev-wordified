@@ -31,8 +31,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ spec
 let
 script1
 =
-yield
+await
 ChromeUtils
 .
 compileScript
@@ -76,7 +76,7 @@ true
 let
 script2
 =
-yield
+await
 ChromeUtils
 .
 compileScript
@@ -495,8 +495,8 @@ charset
 ;
 add_task
 (
+async
 function
-*
 test_syntaxError
 (
 )
@@ -538,7 +538,7 @@ repeat
 }
 (
 ;
-yield
+await
 Assert
 .
 rejects
@@ -571,7 +571,7 @@ data
 ;
 (
 ;
-yield
+await
 Assert
 .
 rejects

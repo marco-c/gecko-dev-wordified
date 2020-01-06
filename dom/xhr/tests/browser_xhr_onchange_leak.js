@@ -97,8 +97,8 @@ closed
 .
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -133,7 +133,7 @@ html
 let
 newTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -152,7 +152,7 @@ selectedBrowser
 let
 done
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -160,8 +160,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 browser
 )
@@ -197,7 +197,7 @@ about
 home
 "
 ;
-yield
+await
 promise
 ;
 return
@@ -218,7 +218,7 @@ something
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

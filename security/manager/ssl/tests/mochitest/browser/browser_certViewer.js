@@ -131,8 +131,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 testCAandTitle
 (
 )
@@ -140,7 +140,7 @@ testCAandTitle
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -158,7 +158,7 @@ CTu
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -229,7 +229,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -242,8 +242,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testSSLEndEntity
 (
 )
@@ -251,7 +251,7 @@ testSSLEndEntity
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -268,7 +268,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -291,7 +291,7 @@ Certificate
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -304,8 +304,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testEmailEndEntity
 (
 )
@@ -313,7 +313,7 @@ testEmailEndEntity
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -330,7 +330,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -353,7 +353,7 @@ Certificate
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -366,8 +366,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testCodeSignEndEntity
 (
 )
@@ -375,7 +375,7 @@ testCodeSignEndEntity
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -392,7 +392,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -409,7 +409,7 @@ Signer
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -422,8 +422,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testExpired
 (
 )
@@ -431,7 +431,7 @@ testExpired
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -448,7 +448,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -471,7 +471,7 @@ expired
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -484,8 +484,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testIssuerExpired
 (
 )
@@ -493,7 +493,7 @@ testIssuerExpired
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -514,7 +514,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -542,7 +542,7 @@ invalid
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -555,8 +555,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testUnknownIssuer
 (
 )
@@ -564,7 +564,7 @@ testUnknownIssuer
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -581,7 +581,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -608,7 +608,7 @@ unknown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -621,8 +621,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testInsecureAlgo
 (
 )
@@ -630,7 +630,7 @@ testInsecureAlgo
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -647,7 +647,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -689,7 +689,7 @@ secure
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -702,8 +702,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testUntrusted
 (
 )
@@ -711,7 +711,7 @@ testUntrusted
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -731,7 +731,7 @@ p
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -755,7 +755,7 @@ trusted
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -768,8 +768,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testUntrustedIssuer
 (
 )
@@ -777,7 +777,7 @@ testUntrustedIssuer
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -798,7 +798,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -826,7 +826,7 @@ trusted
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -839,8 +839,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testRevoked
 (
 )
@@ -948,7 +948,7 @@ key
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -963,7 +963,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -1031,7 +1031,7 @@ Certificate
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1044,8 +1044,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testInvalid
 (
 )
@@ -1103,7 +1103,7 @@ case
 let
 cert
 =
-yield
+await
 readCertificate
 (
 "
@@ -1118,7 +1118,7 @@ pem
 let
 win
 =
-yield
+await
 displayCertificate
 (
 cert
@@ -1140,7 +1140,7 @@ reasons
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -60,8 +60,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unregister_empty_scope
 (
 )
@@ -143,7 +143,7 @@ d1fd6987aef7
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService

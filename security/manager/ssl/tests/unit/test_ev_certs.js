@@ -1428,13 +1428,13 @@ EV
 .
 add_task
 (
+async
 function
-*
 plainExpectSuccessEVTests
 (
 )
 {
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1446,7 +1446,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1458,7 +1458,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1470,7 +1470,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1488,7 +1488,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1506,7 +1506,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1588,7 +1588,7 @@ verifies
 as
 EV
 .
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -1637,13 +1637,13 @@ succeed
 .
 add_task
 (
+async
 function
-*
 expectDVFallbackTests
 (
 )
 {
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1655,7 +1655,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1669,7 +1669,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1701,7 +1701,7 @@ int
 ]
 )
 ;
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1766,7 +1766,7 @@ verify
 as
 EV
 .
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1856,7 +1856,7 @@ verify
 as
 EV
 .
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -1927,8 +1927,8 @@ again
 .
 add_task
 (
+async
 function
-*
 evRootTrustTests
 (
 )
@@ -1962,7 +1962,7 @@ nsIX509CertDB
 UNTRUSTED
 )
 ;
-yield
+await
 ensureVerificationFails
 (
 "
@@ -2002,7 +2002,7 @@ nsIX509CertDB
 TRUSTED_SSL
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2049,8 +2049,8 @@ EV
 .
 add_task
 (
+async
 function
-*
 localOnlyMustBeEVTests
 (
 )
@@ -2059,7 +2059,7 @@ clearOCSPCache
 (
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2071,7 +2071,7 @@ path
 "
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2083,7 +2083,7 @@ path
 "
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2097,7 +2097,7 @@ path
 "
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2111,7 +2111,7 @@ path
 "
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2125,7 +2125,7 @@ path
 "
 )
 ;
-yield
+await
 ensureNoOCSPMeansNoEV
 (
 "
@@ -2159,8 +2159,8 @@ intermediates
 .
 add_task
 (
+async
 function
-*
 oneCRLTests
 (
 )
@@ -2283,7 +2283,7 @@ now
 1
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -2295,7 +2295,7 @@ path
 "
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -2309,7 +2309,7 @@ path
 "
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -2352,7 +2352,7 @@ maximum_staleness_in_seconds
 0
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2393,7 +2393,7 @@ back
 to
 DV
 .
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -2407,7 +2407,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2538,7 +2538,7 @@ now
 108080
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2550,7 +2550,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -2564,7 +2564,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2742,7 +2742,7 @@ now
 1
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2754,7 +2754,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDV
 (
 "
@@ -2768,7 +2768,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -2910,7 +2910,7 @@ now
 1
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -2922,7 +2922,7 @@ path
 "
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -2936,7 +2936,7 @@ path
 "
 )
 ;
-yield
+await
 ensureOneCRLSkipsOCSPForIntermediates
 (
 "
@@ -3090,8 +3090,8 @@ used
 .
 add_task
 (
+async
 function
-*
 ocspCachingTests
 (
 )
@@ -3100,7 +3100,7 @@ clearOCSPCache
 (
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -3112,7 +3112,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEV
 (
 "
@@ -3124,7 +3124,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithNoOCSPRequests
 (
 "
@@ -3136,7 +3136,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithNoOCSPRequests
 (
 "
@@ -3148,7 +3148,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithFLAG_LOCAL_ONLY
 (
 "
@@ -3160,7 +3160,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithFLAG_LOCAL_ONLY
 (
 "
@@ -3216,8 +3216,8 @@ fallback
 .
 add_task
 (
+async
 function
-*
 oldOCSPResponseTests
 (
 )
@@ -3226,7 +3226,7 @@ clearOCSPCache
 (
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithOldIntermediateOCSPResponse
 (
 "
@@ -3238,7 +3238,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsEVWithOldIntermediateOCSPResponse
 (
 "
@@ -3254,7 +3254,7 @@ clearOCSPCache
 (
 )
 ;
-yield
+await
 ensureVerifiesAsDVWithOldEndEntityOCSPResponse
 (
 "
@@ -3266,7 +3266,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDVWithOldEndEntityOCSPResponse
 (
 "
@@ -3282,7 +3282,7 @@ clearOCSPCache
 (
 )
 ;
-yield
+await
 ensureVerifiesAsDVWithVeryOldEndEntityOCSPResponse
 (
 "
@@ -3294,7 +3294,7 @@ path
 "
 )
 ;
-yield
+await
 ensureVerifiesAsDVWithVeryOldEndEntityOCSPResponse
 (
 "

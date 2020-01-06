@@ -87,8 +87,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_ws_retry
 (
 )
@@ -131,7 +131,7 @@ close
 }
 )
 ;
-yield
+await
 db
 .
 put
@@ -381,7 +381,7 @@ serverInterrupt
 }
 )
 ;
-yield
+await
 handshakePromise
 ;
 }

@@ -136,8 +136,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -229,7 +229,7 @@ off
 entirely
 )
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -254,7 +254,7 @@ processCount
 ;
 gOldContentCanRecord
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -329,8 +329,8 @@ gOldContentCanRecord
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -349,7 +349,7 @@ directly
 in
 iframes
 .
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -362,7 +362,7 @@ SVGSVGELEMENT_GETELEMENTBYID
 "
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -375,7 +375,7 @@ SVGSVGELEMENT_CURRENTSCALE_getter
 "
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -451,7 +451,7 @@ the
 SVG
 documents
 .
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -465,7 +465,7 @@ SVGSVGELEMENT_GETELEMENTBYID
 false
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -479,7 +479,7 @@ SVGSVGELEMENT_CURRENTSCALE_getter
 false
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -530,7 +530,7 @@ for
 properties
 here
 .
-yield
+await
 check_use_counter_img
 (
 "
@@ -543,7 +543,7 @@ PROPERTY_FILL
 "
 )
 ;
-yield
+await
 check_use_counter_img
 (
 "
@@ -579,7 +579,7 @@ another
 SVG
 file
 .
-yield
+await
 check_use_counter_direct
 (
 "
@@ -627,7 +627,7 @@ data
 :
 URLs
 .
-yield
+await
 check_use_counter_direct
 (
 "
@@ -678,8 +678,8 @@ PROPERTY_FILL_OPACITY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -714,7 +714,7 @@ canRecordExtended
 =
 gOldParentCanRecord
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -727,8 +727,8 @@ oldCanRecord
 :
 gOldContentCanRecord
 }
+async
 function
-*
 (
 arg
 )
@@ -752,7 +752,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -848,8 +848,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -872,7 +872,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1720,8 +1720,8 @@ file
 :
 file
 }
+async
 function
-*
 (
 opts
 )
@@ -2204,8 +2204,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -2228,7 +2228,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (

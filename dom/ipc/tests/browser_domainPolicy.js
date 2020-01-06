@@ -68,8 +68,8 @@ null
 ;
 }
 }
+async
 function
-*
 test_domainPolicy
 (
 )
@@ -167,7 +167,7 @@ resolve
 }
 )
 ;
-yield
+await
 currentTask
 ;
 /
@@ -839,7 +839,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 activateDomainPolicy
@@ -895,7 +895,7 @@ com
 ;
 checkAndCleanup
 (
-yield
+await
 currentTask
 )
 ;
@@ -951,7 +951,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 currentTask
@@ -974,7 +974,7 @@ com
 ;
 checkAndCleanup
 (
-yield
+await
 currentTask
 )
 ;
@@ -1510,7 +1510,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 let
@@ -1538,7 +1538,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1561,7 +1561,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1589,7 +1589,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 activate
@@ -1627,7 +1627,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1650,7 +1650,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1717,7 +1717,7 @@ resolve
 }
 )
 ;
-yield
+await
 currentTask
 ;
 info
@@ -1750,7 +1750,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 results
@@ -1777,7 +1777,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1800,7 +1800,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1828,7 +1828,7 @@ initProcess
 (
 )
 ;
-yield
+await
 currentTask
 ;
 activate
@@ -1866,7 +1866,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;
@@ -1889,7 +1889,7 @@ results
 .
 concat
 (
-yield
+await
 currentTask
 )
 ;

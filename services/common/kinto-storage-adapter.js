@@ -1261,8 +1261,8 @@ connection
 .
 executeTransaction
 (
+async
 function
-*
 doSetup
 (
 )
@@ -1270,7 +1270,7 @@ doSetup
 const
 schema
 =
-yield
+await
 connection
 .
 getSchemaVersion
@@ -1293,7 +1293,7 @@ of
 createStatements
 )
 {
-yield
+await
 connection
 .
 execute
@@ -1305,7 +1305,7 @@ statementName
 )
 ;
 }
-yield
+await
 connection
 .
 setSchemaVersion
@@ -1521,8 +1521,8 @@ conn
 .
 executeTransaction
 (
+async
 function
-*
 doExecuteTransaction
 (
 )
@@ -1594,7 +1594,7 @@ join
 const
 rows
 =
-yield
+await
 conn
 .
 execute
@@ -1685,7 +1685,7 @@ proxy
 operations
 )
 {
-yield
+await
 conn
 .
 executeCached
@@ -2025,8 +2025,8 @@ connection
 .
 executeTransaction
 (
+async
 function
-*
 doImport
 (
 )
@@ -2059,7 +2059,7 @@ record
 )
 }
 ;
-yield
+await
 connection
 .
 execute
@@ -2104,7 +2104,7 @@ collection_name
 const
 previousLastModified
 =
-yield
+await
 connection
 .
 execute
@@ -2163,7 +2163,7 @@ last_modified
 lastModified
 }
 ;
-yield
+await
 connection
 .
 execute
@@ -2444,8 +2444,8 @@ _connection
 .
 executeTransaction
 (
+async
 function
-*
 (
 conn
 )
@@ -2456,7 +2456,7 @@ promises
 [
 ]
 ;
-yield
+await
 conn
 .
 execute
@@ -2604,7 +2604,7 @@ collection_name
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2612,7 +2612,7 @@ all
 promises
 )
 ;
-yield
+await
 conn
 .
 execute

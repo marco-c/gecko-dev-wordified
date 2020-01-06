@@ -29,8 +29,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -52,14 +52,13 @@ enabled
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 kTestPage
 function
-*
 (
 browser
 )

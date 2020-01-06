@@ -57,8 +57,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 testPermissionDenied
 (
 )
@@ -113,7 +113,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -191,7 +191,7 @@ hidden
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 false
@@ -250,8 +250,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 testNoPermissionPrompt
 (
 )
@@ -296,7 +296,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -387,7 +387,7 @@ time
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 false
@@ -444,8 +444,8 @@ storage
 ;
 add_task
 (
+async
 function
-*
 testPermissionDeniedDismiss
 (
 )
@@ -490,7 +490,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -574,7 +574,7 @@ hidden
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 false

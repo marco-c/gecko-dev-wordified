@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -137,7 +137,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -153,7 +153,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 new
 Promise
 (
@@ -201,7 +201,7 @@ start
 the
 test
 .
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -259,7 +259,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -278,7 +278,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -320,7 +320,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -339,7 +339,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 gBrowser

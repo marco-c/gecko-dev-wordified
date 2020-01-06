@@ -107,8 +107,8 @@ script
 ;
 add_task
 (
+async
 function
-*
 doClick
 (
 )
@@ -173,8 +173,7 @@ onDialogShown
 obsName
 )
 ;
-yield
-*
+await
 openPage
 (
 true
@@ -209,8 +208,8 @@ dialog
 ;
 add_task
 (
+async
 function
-*
 noClick
 (
 )
@@ -224,7 +223,7 @@ should
 NOT
 appear
 .
-yield
+await
 openPage
 (
 false
@@ -252,8 +251,8 @@ shown
 }
 )
 ;
+async
 function
-*
 openPage
 (
 shouldClick
@@ -270,7 +269,7 @@ a
 new
 tab
 .
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -285,8 +284,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -297,7 +296,7 @@ Load
 the
 page
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -306,7 +305,7 @@ browser
 PAGE_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -319,7 +318,7 @@ if
 shouldClick
 )
 {
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -338,7 +337,7 @@ browser
 let
 hasInteractedWith
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -381,7 +380,7 @@ then
 navigate
 away
 .
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -399,7 +398,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

@@ -23,7 +23,6 @@ browser
 "
 ;
 function
-*
 promiseTabLoadEvent
 (
 tab
@@ -155,12 +154,12 @@ blank
 tab
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -181,7 +180,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -245,8 +244,8 @@ is
 focused
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -276,7 +275,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -289,7 +288,7 @@ html
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -316,7 +315,7 @@ loaded
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -371,12 +370,12 @@ to
 promiseFocus
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -397,7 +396,7 @@ focus
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus

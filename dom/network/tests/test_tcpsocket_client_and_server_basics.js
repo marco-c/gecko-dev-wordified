@@ -1316,8 +1316,8 @@ return
 deferred
 ;
 }
+async
 function
-*
 test_basics
 (
 )
@@ -1459,7 +1459,7 @@ connects
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -1511,7 +1511,7 @@ queue
 serverQueue
 }
 =
-yield
+await
 connectedPromise
 ;
 is
@@ -1629,7 +1629,7 @@ full
 let
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForDataWithAtLeastLength
@@ -1706,7 +1706,7 @@ full
 let
 clientReceived
 =
-yield
+await
 clientQueue
 .
 waitForDataWithAtLeastLength
@@ -1824,7 +1824,7 @@ full
 ;
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForDataWithAtLeastLength
@@ -1930,7 +1930,7 @@ full
 ;
 clientReceived
 =
-yield
+await
 clientQueue
 .
 waitForDataWithAtLeastLength
@@ -2108,7 +2108,7 @@ full
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2139,7 +2139,7 @@ full
 ;
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForDataWithAtLeastLength
@@ -2211,7 +2211,7 @@ full
 is
 (
 (
-yield
+await
 serverQueue
 .
 waitForEvent
@@ -2242,7 +2242,7 @@ full
 ;
 clientReceived
 =
-yield
+await
 clientQueue
 .
 waitForDataWithAtLeastLength
@@ -2303,7 +2303,7 @@ close
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2354,7 +2354,7 @@ event
 is
 (
 (
-yield
+await
 serverQueue
 .
 waitForEvent
@@ -2453,7 +2453,7 @@ client
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2475,7 +2475,7 @@ event
 let
 connectedResult
 =
-yield
+await
 connectedPromise
 ;
 /
@@ -2540,7 +2540,7 @@ close
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2594,7 +2594,7 @@ received
 is
 (
 (
-yield
+await
 serverQueue
 .
 waitForEvent
@@ -2696,7 +2696,7 @@ client
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2717,7 +2717,7 @@ event
 ;
 connectedResult
 =
-yield
+await
 connectedPromise
 ;
 /
@@ -2822,7 +2822,7 @@ fire
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2863,7 +2863,7 @@ close
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -2899,7 +2899,7 @@ its
 data
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForDataWithAtLeastLength
@@ -2931,7 +2931,7 @@ close
 is
 (
 (
-yield
+await
 serverQueue
 .
 waitForEvent
@@ -3011,7 +3011,7 @@ client
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -3032,7 +3032,7 @@ event
 ;
 connectedResult
 =
-yield
+await
 connectedPromise
 ;
 /
@@ -3146,7 +3146,7 @@ its
 data
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForDataWithAtLeastLength
@@ -3172,7 +3172,7 @@ close
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -3255,7 +3255,7 @@ client
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent
@@ -3276,7 +3276,7 @@ event
 ;
 connectedResult
 =
-yield
+await
 connectedPromise
 ;
 /
@@ -3388,7 +3388,7 @@ closeImmediately
 ;
 serverReceived
 =
-yield
+await
 serverQueue
 .
 waitForAnyDataAndClose
@@ -3538,7 +3538,7 @@ client
 is
 (
 (
-yield
+await
 clientQueue
 .
 waitForEvent

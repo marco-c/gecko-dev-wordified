@@ -81,8 +81,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notification_version_string
 (
 )
@@ -125,7 +125,7 @@ close
 }
 )
 ;
-yield
+await
 db
 .
 put
@@ -340,7 +340,7 @@ data
 scope
 }
 =
-yield
+await
 notifyPromise
 ;
 equal
@@ -366,13 +366,13 @@ message
 '
 )
 ;
-yield
+await
 ackPromise
 ;
 let
 storeRecord
 =
-yield
+await
 db
 .
 getByKeyID

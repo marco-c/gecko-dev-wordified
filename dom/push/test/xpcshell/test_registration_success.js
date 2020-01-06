@@ -79,8 +79,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_registration_success
 (
 )
@@ -325,7 +325,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -437,13 +437,13 @@ handshakeDone
 }
 )
 ;
-yield
+await
 handshakePromise
 ;
 let
 registration
 =
-yield
+await
 PushService
 .
 registration

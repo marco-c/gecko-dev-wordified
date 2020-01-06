@@ -251,8 +251,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_pushNotifications
 (
 )
@@ -912,7 +912,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -1245,7 +1245,7 @@ db
 }
 )
 ;
-yield
+await
 notifyPromise
 ;
 }

@@ -1011,8 +1011,8 @@ one
 .
 add_task
 (
+async
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -1235,7 +1235,7 @@ data
 let
 got1
 =
-yield
+await
 request1
 ;
 do_check_eq
@@ -1251,7 +1251,7 @@ myimg
 let
 got2
 =
-yield
+await
 request1
 ;
 do_check_eq
@@ -1304,8 +1304,8 @@ rejected
 .
 add_task
 (
+async
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -1522,7 +1522,7 @@ reject
 .
 try
 {
-yield
+await
 request1
 ;
 throw
@@ -1560,7 +1560,7 @@ ex
 }
 try
 {
-yield
+await
 request2
 ;
 throw
@@ -1636,7 +1636,7 @@ myimg
 let
 got
 =
-yield
+await
 profile
 .
 _fetchAndCacheProfile
@@ -1839,8 +1839,8 @@ fresh
 .
 add_task
 (
+async
 function
-*
 fetchAndCacheProfileAfterThreshold
 (
 )
@@ -1904,7 +1904,7 @@ PROFILE_FRESHNESS_THRESHOLD
 =
 1000
 ;
-yield
+await
 profile
 .
 getProfile
@@ -1917,7 +1917,7 @@ numFetches
 1
 )
 ;
-yield
+await
 profile
 .
 getProfile
@@ -1930,7 +1930,7 @@ numFetches
 1
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1947,7 +1947,7 @@ resolve
 }
 )
 ;
-yield
+await
 profile
 .
 getProfile
@@ -1996,8 +1996,8 @@ sent
 .
 add_task
 (
+async
 function
-*
 fetchAndCacheProfileBeforeThresholdOnNotification
 (
 )
@@ -2061,7 +2061,7 @@ PROFILE_FRESHNESS_THRESHOLD
 =
 1000
 ;
-yield
+await
 profile
 .
 getProfile
@@ -2084,7 +2084,7 @@ null
 ON_PROFILE_CHANGE_NOTIFICATION
 )
 ;
-yield
+await
 profile
 .
 getProfile

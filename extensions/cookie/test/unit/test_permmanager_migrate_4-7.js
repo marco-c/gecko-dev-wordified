@@ -87,8 +87,8 @@ file
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -1672,7 +1672,7 @@ to
 the
 places
 database
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1701,7 +1701,7 @@ subdirectory
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

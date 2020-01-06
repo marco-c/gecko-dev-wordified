@@ -227,8 +227,8 @@ true
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -253,7 +253,7 @@ signing
 .
 gCert
 =
-yield
+await
 readCertificate
 (
 "
@@ -432,8 +432,8 @@ DB
 .
 add_task
 (
+async
 function
-*
 testAcceptDialog
 (
 )
@@ -441,7 +441,7 @@ testAcceptDialog
 let
 win
 =
-yield
+await
 openEditCertTrustDialog
 (
 )
@@ -587,7 +587,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed
@@ -750,8 +750,8 @@ DB
 .
 add_task
 (
+async
 function
-*
 testCancelDialog
 (
 )
@@ -759,7 +759,7 @@ testCancelDialog
 let
 win
 =
-yield
+await
 openEditCertTrustDialog
 (
 )
@@ -911,7 +911,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed

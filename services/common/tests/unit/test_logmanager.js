@@ -272,8 +272,8 @@ manager
 .
 add_task
 (
+async
 function
-*
 test_noPrefs
 (
 )
@@ -460,8 +460,8 @@ dynamically
 .
 add_task
 (
+async
 function
-*
 test_PrefChanges
 (
 )
@@ -905,8 +905,8 @@ thing
 .
 add_task
 (
+async
 function
-*
 test_SharedLogs
 (
 )
@@ -1554,8 +1554,8 @@ by
 default
 add_task
 (
+async
 function
-*
 test_logFileErrorDefault
 (
 )
@@ -1609,7 +1609,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -1655,8 +1655,8 @@ logs
 .
 add_task
 (
+async
 function
-*
 test_logFileSuccess
 (
 )
@@ -1758,7 +1758,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -1825,7 +1825,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -1867,7 +1867,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -1920,7 +1920,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -1979,7 +1979,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog
@@ -2014,8 +2014,8 @@ logs
 .
 add_task
 (
+async
 function
-*
 test_logFileError
 (
 )
@@ -2120,7 +2120,7 @@ message
 let
 reason
 =
-yield
+await
 lm
 .
 resetFileLog
@@ -2207,7 +2207,7 @@ message
 ;
 reason
 =
-yield
+await
 lm
 .
 resetFileLog
@@ -2305,7 +2305,7 @@ message
 ;
 reason
 =
-yield
+await
 lm
 .
 resetFileLog
@@ -2353,7 +2353,7 @@ message
 ;
 reason
 =
-yield
+await
 lm
 .
 resetFileLog
@@ -2405,7 +2405,7 @@ message
 ;
 reason
 =
-yield
+await
 lm
 .
 resetFileLog
@@ -2476,7 +2476,7 @@ message
 "
 )
 ;
-yield
+await
 lm
 .
 resetFileLog

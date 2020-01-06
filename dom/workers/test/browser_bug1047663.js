@@ -92,19 +92,16 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -163,7 +160,7 @@ terminate
 the
 worker
 .
-yield
+await
 createWorkerInTab
 (
 tab
@@ -173,7 +170,7 @@ WORKER_URL
 let
 message
 =
-yield
+await
 postMessageToWorkerInTab
 (
 tab
@@ -191,7 +188,7 @@ one
 "
 )
 ;
-yield
+await
 terminateWorkerInTab
 (
 tab
@@ -263,7 +260,7 @@ terminate
 the
 worker
 .
-yield
+await
 createWorkerInTab
 (
 tab
@@ -272,7 +269,7 @@ WORKER_URL
 ;
 message
 =
-yield
+await
 postMessageToWorkerInTab
 (
 tab
@@ -290,7 +287,7 @@ one
 "
 )
 ;
-yield
+await
 terminateWorkerInTab
 (
 tab
@@ -321,7 +318,7 @@ in
 this
 tab
 .
-yield
+await
 disableCacheInTab
 (
 tab
@@ -392,7 +389,7 @@ terminate
 the
 worker
 .
-yield
+await
 createWorkerInTab
 (
 tab
@@ -401,7 +398,7 @@ WORKER_URL
 ;
 message
 =
-yield
+await
 postMessageToWorkerInTab
 (
 tab
@@ -419,7 +416,7 @@ two
 "
 )
 ;
-yield
+await
 terminateWorkerInTab
 (
 tab
@@ -436,6 +433,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

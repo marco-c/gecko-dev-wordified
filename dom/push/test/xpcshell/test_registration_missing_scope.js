@@ -60,8 +60,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_registration_missing_scope
 (
 )
@@ -101,7 +101,7 @@ uri
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService

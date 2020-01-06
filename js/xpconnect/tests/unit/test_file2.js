@@ -78,8 +78,8 @@ interfaces
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -157,7 +157,7 @@ file
 var
 f1
 =
-yield
+await
 File
 .
 createFromFileName
@@ -175,7 +175,7 @@ nsIFiles
 var
 f2
 =
-yield
+await
 File
 .
 createFromNsIFile
@@ -436,7 +436,7 @@ nsIFile
 var
 f7
 =
-yield
+await
 File
 .
 createFromNsIFile

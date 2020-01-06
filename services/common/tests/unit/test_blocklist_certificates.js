@@ -317,8 +317,8 @@ services
 common
 add_task
 (
+async
 function
-*
 test_something
 (
 )
@@ -569,7 +569,7 @@ an
 empty
 db
 populates
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -584,7 +584,7 @@ now
 ;
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -621,7 +621,7 @@ populated
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -737,7 +737,7 @@ in
 JSON
 dump
 .
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -829,7 +829,7 @@ we
 sync
 again
 .
-yield
+await
 collection
 .
 clear
@@ -855,7 +855,7 @@ a
 /
 single
 record
-yield
+await
 collection
 .
 db
@@ -865,7 +865,7 @@ saveLastModified
 1000
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -909,7 +909,7 @@ local
 collection
 list
 =
-yield
+await
 collection
 .
 list
@@ -942,7 +942,7 @@ a
 later
 lastModified
 value
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -986,7 +986,7 @@ local
 collection
 list
 =
-yield
+await
 collection
 .
 list
@@ -1052,7 +1052,7 @@ server
 "
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -1079,7 +1079,7 @@ point
 in
 the
 past
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -1130,7 +1130,7 @@ checked
 0
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -1221,7 +1221,7 @@ server
 dummyServerURL
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync

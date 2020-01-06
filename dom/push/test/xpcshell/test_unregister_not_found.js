@@ -60,8 +60,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unregister_not_found
 (
 )
@@ -146,7 +146,7 @@ ba65
 let
 result
 =
-yield
+await
 PushService
 .
 unregister

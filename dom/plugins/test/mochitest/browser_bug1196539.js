@@ -153,8 +153,8 @@ kMaxPaints
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -187,7 +187,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -205,7 +205,7 @@ html
 let
 homeTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -220,7 +220,7 @@ home
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -229,8 +229,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -274,7 +274,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -283,8 +283,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -340,7 +340,7 @@ reset
 plugin
 paint
 count
-yield
+await
 ContentTask
 .
 spawn
@@ -349,8 +349,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -404,7 +404,7 @@ selectedTab
 =
 pluginTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 /
@@ -415,7 +415,7 @@ bit
 for
 spurious
 paints
-yield
+await
 waitForMs
 (
 100
@@ -423,7 +423,7 @@ waitForMs
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -432,8 +432,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -491,7 +491,7 @@ paint
 count
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -500,8 +500,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -561,7 +561,7 @@ selectedTab
 =
 homeTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 /
@@ -569,7 +569,7 @@ tabSwitchedPromise
 reset
 paint
 count
-yield
+await
 ContentTask
 .
 spawn
@@ -578,8 +578,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -624,7 +624,7 @@ bit
 for
 spurious
 paints
-yield
+await
 waitForMs
 (
 100
@@ -639,7 +639,7 @@ paint
 count
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -648,8 +648,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -703,7 +703,7 @@ correct
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -712,8 +712,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -768,7 +768,7 @@ hidden
 reset
 paint
 count
-yield
+await
 ContentTask
 .
 spawn
@@ -777,8 +777,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -832,7 +832,7 @@ selectedTab
 =
 pluginTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 /
@@ -842,7 +842,7 @@ paint
 count
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -851,8 +851,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

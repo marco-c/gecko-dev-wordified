@@ -107,8 +107,8 @@ jscs
 disable
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -188,7 +188,7 @@ test_servers
 )
 )
 {
-yield
+await
 execute_test
 (
 server

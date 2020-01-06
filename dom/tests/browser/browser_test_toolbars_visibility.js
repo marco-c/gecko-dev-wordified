@@ -157,8 +157,8 @@ spawn
 aBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -843,12 +843,12 @@ visible
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -859,8 +859,8 @@ url
 :
 CONTENT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -892,7 +892,7 @@ waitForNewTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -909,7 +909,7 @@ browser
 let
 tab
 =
-yield
+await
 newTabPromise
 ;
 /
@@ -923,7 +923,7 @@ visible
 let
 toolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 gBrowser
@@ -939,7 +939,7 @@ toolbars
 /
 /
 Cleanup
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -968,7 +968,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -985,7 +985,7 @@ browser
 let
 popupWindow
 =
-yield
+await
 winPromise
 ;
 let
@@ -997,7 +997,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1013,7 +1013,7 @@ visibility
 let
 popupToolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 popupBrowser
@@ -1052,7 +1052,7 @@ Close
 the
 new
 window
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1128,12 +1128,12 @@ visible
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1144,8 +1144,8 @@ url
 :
 CONTENT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -1168,7 +1168,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -1185,7 +1185,7 @@ browser
 let
 popupWindow
 =
-yield
+await
 winPromise
 ;
 /
@@ -1219,7 +1219,7 @@ selectedBrowser
 let
 popupToolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 popupBrowser
@@ -1258,7 +1258,7 @@ Close
 the
 new
 window
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1345,8 +1345,8 @@ visible
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1383,7 +1383,7 @@ _blank
 let
 defaultWindow
 =
-yield
+await
 defaultWindowPromise
 ;
 /
@@ -1468,7 +1468,7 @@ features
 let
 popupWindow
 =
-yield
+await
 popupWindowPromise
 ;
 /
@@ -1496,7 +1496,7 @@ hiddenToolbars
 /
 /
 Cleanup
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1504,7 +1504,7 @@ closeWindow
 defaultWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
