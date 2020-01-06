@@ -72,12 +72,8 @@ BitReader
 .
 h
 "
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 BitReader
 :
@@ -790,4 +786,4 @@ mNumBitsLeft
 /
 /
 namespace
-mp4_demuxer
+mozilla

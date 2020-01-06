@@ -188,7 +188,7 @@ media
 TimeUnit
 ;
 namespace
-mp4_demuxer
+mozilla
 {
 LazyLogModule
 gMP4MetadataLog
@@ -198,6 +198,10 @@ MP4Metadata
 "
 )
 ;
+}
+namespace
+mp4_demuxer
+{
 /
 /
 the

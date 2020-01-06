@@ -79,7 +79,7 @@ nsTArray
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 ByteWriter
@@ -377,6 +377,6 @@ mPtr
 /
 /
 namespace
-mp4_demuxer
+mozilla
 #
 endif

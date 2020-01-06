@@ -593,9 +593,6 @@ nsresult
 >
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -1648,9 +1645,6 @@ range
 bool
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -1702,9 +1696,6 @@ nsresult
 >
 ParseXing
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -1785,9 +1776,6 @@ nsresult
 >
 ParseVBRI
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -2273,9 +2261,6 @@ nsresult
 >
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -2346,9 +2331,6 @@ found
 bool
 ParseVBRHeader
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader

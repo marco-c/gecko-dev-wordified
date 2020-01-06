@@ -396,9 +396,6 @@ size_t
 aBytes
 )
 {
-mp4_demuxer
-:
-:
 BitReader
 br
 (

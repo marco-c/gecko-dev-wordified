@@ -111,7 +111,7 @@ Result
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 extern
 mozilla
@@ -1918,6 +1918,6 @@ mLength
 /
 /
 namespace
-mp4_demuxer
+mozilla
 #
 endif

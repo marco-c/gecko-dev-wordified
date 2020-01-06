@@ -235,12 +235,6 @@ msg
 __VA_ARGS__
 )
 )
-using
-mp4_demuxer
-:
-:
-BufferReader
-;
 namespace
 mozilla
 {
