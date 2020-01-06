@@ -29292,6 +29292,15 @@ prompt
 to
 unload
 .
+window_from_node
+(
+self
+)
+.
+set_navigation_start
+(
+)
+;
 /
 /
 Step
