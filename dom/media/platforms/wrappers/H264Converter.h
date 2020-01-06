@@ -707,6 +707,13 @@ CreateDecoderParams
 OptionSet
 mDecoderOptions
 ;
+const
+CreateDecoderParams
+:
+:
+VideoFrameRate
+mRate
+;
 Maybe
 <
 bool
