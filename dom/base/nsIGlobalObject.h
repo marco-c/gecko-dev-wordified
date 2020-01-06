@@ -537,6 +537,16 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 ;
+virtual
+bool
+IsInSyncOperation
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 virtual
