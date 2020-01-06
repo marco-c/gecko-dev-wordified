@@ -2947,10 +2947,7 @@ moveValue
 UndefinedValue
 (
 )
-ValueOperand
-(
 r4
-)
 )
 ;
 /
