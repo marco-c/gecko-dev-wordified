@@ -251,6 +251,12 @@ PropertyValuePair
 struct
 PropertyStyleAnimationValuePair
 ;
+enum
+class
+OriginFlags
+:
+uint8_t
+;
 using
 ComputedKeyframeValues
 =

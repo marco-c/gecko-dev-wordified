@@ -6268,6 +6268,10 @@ get
 (
 )
 mAuthorStyleDisabled
+OriginFlags
+:
+:
+All
 )
 ;
 }

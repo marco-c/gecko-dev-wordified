@@ -464,6 +464,11 @@ RawServoStyleSetBorrowed
 set
 bool
 author_style_disabled
+mozilla
+:
+:
+OriginFlags
+changed_origins
 )
 SERVO_BINDING_FUNC
 (
