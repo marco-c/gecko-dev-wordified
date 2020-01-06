@@ -152,6 +152,10 @@ gfx_traits
 ;
 extern
 crate
+hyper
+;
+extern
+crate
 ipc_channel
 ;
 extern
@@ -242,6 +246,9 @@ constellation
 ;
 mod
 event_loop
+;
+mod
+network_listener
 ;
 mod
 pipeline
