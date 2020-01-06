@@ -1736,6 +1736,11 @@ root
 GetWebRenderAPI
 (
 )
+-
+>
+Clone
+(
+)
 ;
 RefPtr
 <
