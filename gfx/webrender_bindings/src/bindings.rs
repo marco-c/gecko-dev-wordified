@@ -9395,7 +9395,13 @@ offset
 color
 blur_radius
 spread_radius
+BorderRadius
+:
+:
+uniform
+(
 border_radius
+)
 clip_mode
 )
 ;
