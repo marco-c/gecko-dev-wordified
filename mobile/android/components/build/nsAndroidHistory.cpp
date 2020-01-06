@@ -217,8 +217,10 @@ nullptr
 static
 *
 /
+already_AddRefed
+<
 nsAndroidHistory
-*
+>
 nsAndroidHistory
 :
 :
@@ -246,13 +248,11 @@ nullptr
 )
 ;
 }
-NS_ADDREF
+return
+do_AddRef
 (
 sHistory
 )
-;
-return
-sHistory
 ;
 }
 nsAndroidHistory

@@ -240,8 +240,10 @@ only
 *
 /
 static
+already_AddRefed
+<
 nsAndroidHistory
-*
+>
 GetSingleton
 (
 )
