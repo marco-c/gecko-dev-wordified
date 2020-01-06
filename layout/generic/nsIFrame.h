@@ -29177,8 +29177,10 @@ Members
 nsRect
 mRect
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mContent
 ;
 nsStyleContext
