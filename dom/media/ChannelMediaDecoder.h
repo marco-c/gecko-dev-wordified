@@ -144,6 +144,9 @@ namespace
 mozilla
 {
 class
+BaseMediaResource
+;
+class
 ChannelMediaDecoder
 :
 public
@@ -363,7 +366,7 @@ mResourceCallback
 ;
 RefPtr
 <
-MediaResource
+BaseMediaResource
 >
 mResource
 ;
@@ -464,7 +467,7 @@ aStreamListener
 nsresult
 Load
 (
-MediaResource
+BaseMediaResource
 *
 aOriginal
 )
