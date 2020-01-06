@@ -458,6 +458,13 @@ h
 #
 include
 "
+nsContentDLF
+.
+h
+"
+#
+include
+"
 nsDocShellCID
 .
 h
@@ -46460,9 +46467,9 @@ blank
 document
 to
 load
-docFactory
--
->
+nsContentDLF
+:
+:
 CreateBlankDocument
 (
 mLoadGroup

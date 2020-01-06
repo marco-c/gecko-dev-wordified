@@ -1319,7 +1319,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+/
+*
+static
+*
+/
+nsresult
 nsContentDLF
 :
 :
