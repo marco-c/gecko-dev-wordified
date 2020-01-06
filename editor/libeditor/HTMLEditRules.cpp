@@ -31392,10 +31392,12 @@ Text
 >
 newNode
 =
-aDoc
-.
+EditorBase
+:
+:
 CreateTextNode
 (
+aDoc
 EmptyString
 (
 )

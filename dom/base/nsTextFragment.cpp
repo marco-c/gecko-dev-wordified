@@ -1307,6 +1307,8 @@ int32_t
 aLength
 bool
 aUpdateBidi
+bool
+aForce2b
 )
 {
 ReleaseText
@@ -1333,6 +1335,10 @@ aBuffer
 ;
 if
 (
+!
+aForce2b
+&
+&
 aLength
 =
 =
@@ -1400,6 +1406,10 @@ shared
 string
 if
 (
+!
+aForce2b
+&
+&
 aLength
 <
 =
@@ -1650,6 +1660,10 @@ not
 int32_t
 first16bit
 =
+aForce2b
+?
+0
+:
 FirstNon8Bit
 (
 ucp
@@ -2032,6 +2046,8 @@ uint32_t
 aLength
 bool
 aUpdateBidi
+bool
+aForce2b
 )
 {
 /
@@ -2077,6 +2093,7 @@ SetTo
 aBuffer
 aLength
 aUpdateBidi
+aForce2b
 )
 ;
 }
@@ -2262,6 +2279,10 @@ too
 int32_t
 first16bit
 =
+aForce2b
+?
+0
+:
 FirstNon8Bit
 (
 aBuffer

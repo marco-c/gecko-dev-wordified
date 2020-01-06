@@ -7148,6 +7148,13 @@ NodeInfoManager
 )
 )
 ;
+textNode
+-
+>
+MarkAsMaybeModifiedFrequently
+(
+)
+;
 NS_ASSERTION
 (
 textNode
