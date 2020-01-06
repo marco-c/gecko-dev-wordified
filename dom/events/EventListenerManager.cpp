@@ -7851,7 +7851,7 @@ GetEventPhase
 phase
 )
 ;
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 DOMEvent

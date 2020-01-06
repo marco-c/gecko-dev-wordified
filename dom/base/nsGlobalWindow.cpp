@@ -38071,7 +38071,7 @@ stage
 eBeforeToggle
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Fullscreen
@@ -38106,7 +38106,7 @@ stage
 eToggleFullscreen
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Fullscreen
@@ -38554,7 +38554,7 @@ stage
 eEnd
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Fullscreen
@@ -38690,7 +38690,7 @@ shouldContinue
 =
 true
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Fullscreen
@@ -38774,7 +38774,7 @@ shouldContinue
 =
 true
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Fullscreen

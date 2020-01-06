@@ -16799,7 +16799,7 @@ bool
 aRetVal
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Enter
@@ -16947,7 +16947,7 @@ ExitFullscreen
 (
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Exit

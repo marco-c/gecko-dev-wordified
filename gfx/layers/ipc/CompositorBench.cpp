@@ -1805,7 +1805,7 @@ testsOverThreshold
 =
 0
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 test
 -

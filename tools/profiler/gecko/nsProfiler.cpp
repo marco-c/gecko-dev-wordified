@@ -946,7 +946,7 @@ char
 aMarker
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 aMarker
 )

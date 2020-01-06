@@ -445,7 +445,7 @@ DocShellState
 eActive
 )
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Navigation
@@ -775,7 +775,7 @@ mDOMLoadingSet
 =
 true
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Navigation
@@ -838,7 +838,7 @@ mDOMInteractiveSet
 =
 true
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Navigation
@@ -901,7 +901,7 @@ mDOMCompleteSet
 =
 true
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Navigation
@@ -1198,7 +1198,7 @@ paint
 "
 )
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 marker
 .
