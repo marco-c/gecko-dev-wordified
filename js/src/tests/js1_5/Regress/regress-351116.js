@@ -26,7 +26,7 @@ shell
 !
 xulRuntime
 .
-CPU
+XPCOMABI
 .
 match
 (

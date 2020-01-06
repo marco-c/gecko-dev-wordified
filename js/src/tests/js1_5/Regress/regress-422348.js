@@ -9,7 +9,7 @@ if
 (
 xulRuntime
 .
-CPU
+XPCOMABI
 .
 match
 (
