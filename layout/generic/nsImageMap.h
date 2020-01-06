@@ -217,7 +217,7 @@ nsImageMap
 (
 )
 ;
-nsresult
+void
 Init
 (
 nsImageFrame
@@ -420,12 +420,12 @@ FreeAreas
 (
 )
 ;
-nsresult
+void
 UpdateAreas
 (
 )
 ;
-nsresult
+void
 SearchForAreas
 (
 nsIContent
@@ -439,7 +439,7 @@ bool
 aFoundAnchor
 )
 ;
-nsresult
+void
 AddArea
 (
 nsIContent
