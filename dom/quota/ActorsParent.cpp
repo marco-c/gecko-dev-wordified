@@ -3196,7 +3196,7 @@ MOZ_COUNT_DTOR
 OriginInfo
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mQuotaObjects
@@ -13791,7 +13791,7 @@ IsEmpty
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -15737,7 +15737,7 @@ if
 match
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 originInfo
