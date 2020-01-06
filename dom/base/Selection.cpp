@@ -10017,6 +10017,10 @@ if
 (
 !
 focusNode
+|
+|
+!
+focusNode
 -
 >
 IsContent
