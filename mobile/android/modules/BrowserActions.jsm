@@ -514,6 +514,8 @@ name
 :
 browserAction
 .
+defaults
+.
 name
 }
 )
