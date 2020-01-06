@@ -910,6 +910,7 @@ uri
 0
 originAttributes
 nullptr
+nullptr
 &
 hsts
 )
@@ -1216,7 +1217,7 @@ bool
 hsts
 ;
 bool
-cached
+hstsCached
 ;
 nsCOMPtr
 <
@@ -1261,7 +1262,8 @@ uri
 0
 originAttributes
 &
-cached
+hstsCached
+nullptr
 &
 hsts
 )
@@ -1317,7 +1319,7 @@ true
 }
 if
 (
-cached
+hstsCached
 )
 {
 /

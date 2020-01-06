@@ -462,6 +462,11 @@ uri
 header
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 for
@@ -500,6 +505,11 @@ uri
 header
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 }

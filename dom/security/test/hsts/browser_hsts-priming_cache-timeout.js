@@ -165,7 +165,7 @@ now
 pre_promise
 )
 <
-2000
+1000
 )
 {
 yield
@@ -180,7 +180,7 @@ resolve
 setTimeout
 (
 resolve
-2000
+1000
 )
 ;
 }

@@ -362,6 +362,11 @@ privacyFlags
 (
 aIsPrivateMode
 )
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 ok
