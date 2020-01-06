@@ -5249,6 +5249,9 @@ nsIChannel
 newChan
 uint32_t
 flags
+nsIEventTarget
+*
+mainThreadEventTarget
 )
 {
 /
@@ -5285,6 +5288,7 @@ Init
 oldChan
 newChan
 flags
+mainThreadEventTarget
 )
 ;
 }

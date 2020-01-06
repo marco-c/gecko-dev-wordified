@@ -346,6 +346,17 @@ redirect
 flags
 *
 param
+mainThreadEventTarget
+*
+a
+labeled
+event
+target
+for
+dispatching
+runnables
+*
+param
 synchronize
 *
 set
@@ -377,6 +388,9 @@ nsIChannel
 newChan
 uint32_t
 flags
+nsIEventTarget
+*
+mainThreadEventTarget
 bool
 synchronize
 =

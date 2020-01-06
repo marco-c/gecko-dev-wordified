@@ -2013,6 +2013,11 @@ nsIChannel
 newChan
 uint32_t
 flags
+nsIEventTarget
+*
+mainThreadEventTarget
+=
+nullptr
 )
 ;
 /

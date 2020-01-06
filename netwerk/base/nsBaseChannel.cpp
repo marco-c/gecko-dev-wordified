@@ -975,6 +975,16 @@ checkRedirectSynchronously
 !
 openNewChannel
 ;
+nsCOMPtr
+<
+nsIEventTarget
+>
+target
+=
+GetNeckoTarget
+(
+)
+;
 mRedirectChannel
 =
 newChannel
@@ -998,6 +1008,7 @@ Init
 this
 newChannel
 redirectFlags
+target
 checkRedirectSynchronously
 )
 ;
