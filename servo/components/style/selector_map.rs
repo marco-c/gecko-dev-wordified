@@ -85,6 +85,12 @@ LocalName
 }
 ;
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationBlock
+;
+use
 dom
 :
 :
@@ -190,10 +196,7 @@ use
 stylist
 :
 :
-{
-ApplicableDeclarationBlock
 Rule
-}
 ;
 /
 /
@@ -1182,6 +1185,8 @@ specificity
 block
 .
 source_order
+(
+)
 )
 )
 ;
@@ -1358,6 +1363,8 @@ specificity
 block
 .
 source_order
+(
+)
 )
 )
 ;

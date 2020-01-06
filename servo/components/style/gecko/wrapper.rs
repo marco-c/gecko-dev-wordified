@@ -171,6 +171,12 @@ app_units
 Au
 ;
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationBlock
+;
+use
 atomic_refcell
 :
 :
@@ -827,12 +833,6 @@ stylesheets
 :
 :
 UrlExtraData
-;
-use
-stylist
-:
-:
-ApplicableDeclarationBlock
 ;
 /
 /

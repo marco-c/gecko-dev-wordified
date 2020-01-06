@@ -95,6 +95,12 @@ LocalName
 }
 ;
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationBlock
+;
+use
 atomic_refcell
 :
 :
@@ -301,12 +307,6 @@ stylearc
 :
 :
 Arc
-;
-use
-stylist
-:
-:
-ApplicableDeclarationBlock
 ;
 use
 thread_state
