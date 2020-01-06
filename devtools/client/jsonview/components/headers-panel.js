@@ -427,6 +427,8 @@ this
 .
 onCopy
 }
+JSONView
+.
 Locale
 .
 STR

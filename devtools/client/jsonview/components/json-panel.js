@@ -1063,6 +1063,8 @@ this
 .
 onSave
 }
+JSONView
+.
 Locale
 .
 STR
@@ -1089,6 +1091,8 @@ this
 .
 onCopy
 }
+JSONView
+.
 Locale
 .
 STR

@@ -249,7 +249,7 @@ json
 jsonData
 headers
 :
-window
+JSONView
 .
 headers
 tabActive
