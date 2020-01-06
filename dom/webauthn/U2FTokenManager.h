@@ -250,15 +250,6 @@ softTokenCounter
 ;
 }
 ;
-typedef
-MozPromise
-<
-bool
-nsresult
-false
->
-PrefPromise
-;
 public
 :
 enum
