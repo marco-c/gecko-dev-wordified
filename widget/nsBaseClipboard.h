@@ -113,6 +113,13 @@ nsITransferable
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsITransferable
 ;

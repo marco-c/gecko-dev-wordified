@@ -125,9 +125,13 @@ h
 /
 for
 StaticRefPtr
-class
+#
+include
+"
 nsIContent
-;
+.
+h
+"
 namespace
 mozilla
 {

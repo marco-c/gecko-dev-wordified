@@ -66,6 +66,15 @@ h
 #
 include
 "
+mozilla
+/
+VsyncDispatcher
+.
+h
+"
+#
+include
+"
 nsBaseWidget
 .
 h

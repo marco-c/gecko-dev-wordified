@@ -147,6 +147,13 @@ Services
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 /
 /
 When
