@@ -1247,7 +1247,10 @@ true
 ;
 gSearchResultsPane
 .
-findSelection
+getFindSelection
+(
+window
+)
 .
 removeAllRanges
 (
@@ -1314,6 +1317,12 @@ location
 hash
 =
 kDefaultCategory
+;
+gSearchResultsPane
+.
+query
+=
+null
 ;
 }
 /
