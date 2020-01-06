@@ -375,13 +375,6 @@ aResources
 bool
 BeginTransaction
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSize
 )
 ;
 void

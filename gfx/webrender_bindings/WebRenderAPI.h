@@ -1354,17 +1354,6 @@ PopStickyFrame
 (
 )
 ;
-void
-PushBuiltDisplayList
-(
-wr
-:
-:
-BuiltDisplayList
-&
-dl
-)
-;
 bool
 IsScrollLayerDefined
 (
