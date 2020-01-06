@@ -21467,7 +21467,7 @@ GeckoDriver
 .
 prototype
 .
-fullscreen
+fullscreenWindow
 =
 async
 function
@@ -24619,7 +24619,7 @@ GeckoDriver
 .
 prototype
 .
-fullscreen
+fullscreenWindow
 "
 WebDriver
 :
@@ -25234,7 +25234,7 @@ GeckoDriver
 .
 prototype
 .
-fullscreen
+fullscreenWindow
 "
 getActiveElement
 "
