@@ -284,17 +284,6 @@ uint32_t
 aGroupMask
 )
 ;
-bool
-IsPresentationGenerationCurrent
-(
-)
-const
-;
-void
-MakePresentationGenerationCurrent
-(
-)
-;
 protected
 :
 virtual
@@ -322,9 +311,6 @@ mPresentationCount
 ;
 uint64_t
 mLastEventFrameId
-;
-uint32_t
-mLastPresentingGeneration
 ;
 private
 :
