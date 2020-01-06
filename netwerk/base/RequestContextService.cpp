@@ -705,9 +705,6 @@ if
 IsNeckoChild
 (
 )
-&
-&
-gNeckoChild
 )
 {
 /
@@ -720,6 +717,11 @@ on
 the
 child
 process
+if
+(
+gNeckoChild
+)
+{
 gNeckoChild
 -
 >
@@ -728,6 +730,7 @@ SendRequestContextLoadBegin
 mID
 )
 ;
+}
 return
 NS_OK
 ;
