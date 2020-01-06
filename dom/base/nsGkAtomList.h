@@ -12475,6 +12475,13 @@ slope
 )
 GK_ATOM
 (
+slot
+"
+slot
+"
+)
+GK_ATOM
+(
 softLight
 "
 soft

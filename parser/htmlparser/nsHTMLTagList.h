@@ -995,6 +995,12 @@ small
 )
 HTML_TAG
 (
+slot
+Slot
+Slot
+)
+HTML_TAG
+(
 source
 Source
 Source

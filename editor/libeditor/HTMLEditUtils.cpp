@@ -4147,6 +4147,14 @@ GROUP_INLINE_ELEMENT
 )
 ELEM
 (
+slot
+true
+false
+GROUP_NONE
+GROUP_FLOW_ELEMENT
+)
+ELEM
+(
 source
 false
 false
