@@ -135,6 +135,15 @@ Vec
 <
 u8
 >
+key_handles
+:
+Vec
+<
+Vec
+<
+u8
+>
+>
 callback
 :
 OnceCallback
