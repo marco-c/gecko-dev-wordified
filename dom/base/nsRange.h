@@ -401,7 +401,7 @@ GetStartContainer
 const
 {
 return
-mStartParent
+mStartContainer
 ;
 }
 nsINode
@@ -1085,7 +1085,7 @@ return
 mIsPositioned
 &
 &
-mStartParent
+mStartContainer
 =
 =
 mEndParent
@@ -2761,7 +2761,7 @@ nsCOMPtr
 <
 nsINode
 >
-mStartParent
+mStartContainer
 ;
 nsCOMPtr
 <

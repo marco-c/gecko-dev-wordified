@@ -15543,7 +15543,7 @@ nsCOMPtr
 <
 nsINode
 >
-mStartNode
+mStartContainer
 ;
 nsCOMPtr
 <
@@ -15727,7 +15727,7 @@ IsPositioned
 ;
 range
 .
-mStartNode
+mStartContainer
 =
 r
 -
@@ -16305,7 +16305,7 @@ if
 (
 range
 .
-mStartNode
+mStartContainer
 =
 =
 &
@@ -16323,7 +16323,7 @@ aOffset
 {
 range
 .
-mStartNode
+mStartContainer
 =
 &
 aNewLeftNode
@@ -16395,7 +16395,7 @@ CreateRange
 (
 range
 .
-mStartNode
+mStartContainer
 range
 .
 mStartOffset
@@ -16702,7 +16702,7 @@ IsPositioned
 ;
 range
 .
-mStartNode
+mStartContainer
 =
 r
 -
@@ -16786,14 +16786,14 @@ if
 (
 range
 .
-mStartNode
+mStartContainer
 )
 {
 if
 (
 range
 .
-mStartNode
+mStartContainer
 =
 =
 parent
@@ -16816,7 +16816,7 @@ keepOffset
 {
 range
 .
-mStartNode
+mStartContainer
 =
 aNodeToJoin
 ;
@@ -17339,7 +17339,7 @@ if
 (
 range
 .
-mStartNode
+mStartContainer
 =
 =
 aNodeToJoin
@@ -17347,7 +17347,7 @@ aNodeToJoin
 {
 range
 .
-mStartNode
+mStartContainer
 =
 aNodeToKeep
 ;
@@ -17357,7 +17357,7 @@ if
 (
 range
 .
-mStartNode
+mStartContainer
 =
 =
 aNodeToKeep
@@ -17436,7 +17436,7 @@ CreateRange
 (
 range
 .
-mStartNode
+mStartContainer
 range
 .
 mStartOffset

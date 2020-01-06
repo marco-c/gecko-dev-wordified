@@ -2456,7 +2456,7 @@ mOwner
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mStartParent
+mStartContainer
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -3386,7 +3386,7 @@ if
 parentNode
 =
 =
-mStartParent
+mStartContainer
 &
 &
 mStartOffset
@@ -3497,7 +3497,7 @@ if
 aContent
 =
 =
-mStartParent
+mStartContainer
 &
 &
 aInfo
@@ -3650,7 +3650,7 @@ IsInSelection
 )
 &
 &
-mStartParent
+mStartContainer
 =
 =
 mEndParent
@@ -3662,7 +3662,7 @@ isCommonAncestor
 {
 UnregisterCommonAncestor
 (
-mStartParent
+mStartContainer
 )
 ;
 RegisterCommonAncestor
@@ -3673,7 +3673,7 @@ newStartNode
 }
 if
 (
-mStartParent
+mStartContainer
 -
 >
 IsDescendantOfCommonAncestorForRangeInSelection
@@ -3957,7 +3957,7 @@ IsInSelection
 )
 &
 &
-mStartParent
+mStartContainer
 =
 =
 mEndParent
@@ -3982,12 +3982,12 @@ range
 .
 UnregisterCommonAncestor
 (
-mStartParent
+mStartContainer
 )
 ;
 RegisterCommonAncestor
 (
-mStartParent
+mStartContainer
 -
 >
 GetParentNode
@@ -4131,7 +4131,7 @@ if
 removed
 =
 =
-mStartParent
+mStartContainer
 )
 {
 newStartOffset
@@ -4335,7 +4335,7 @@ if
 parentNode
 =
 =
-mStartParent
+mStartContainer
 &
 &
 mStartOffset
@@ -4447,7 +4447,7 @@ newStartNode
 {
 newStartNode
 =
-mStartParent
+mStartContainer
 ;
 newStartOffset
 =
@@ -4728,7 +4728,7 @@ if
 container
 =
 =
-mStartParent
+mStartContainer
 &
 &
 aIndexInContainer
@@ -4965,7 +4965,7 @@ if
 container
 =
 =
-mStartParent
+mStartContainer
 )
 {
 if
@@ -5007,7 +5007,7 @@ nsContentUtils
 :
 ContentIsDescendantOf
 (
-mStartParent
+mStartContainer
 aChild
 )
 ;
@@ -5048,7 +5048,7 @@ if
 didCheckStartParentDescendant
 &
 &
-mStartParent
+mStartContainer
 =
 =
 mEndParent
@@ -5087,7 +5087,7 @@ gravitateStart
 ?
 container
 :
-mStartParent
+mStartContainer
 .
 get
 (
@@ -5205,7 +5205,7 @@ newRoot
 =
 IsValidBoundary
 (
-mStartParent
+mStartContainer
 )
 ;
 NS_ASSERTION
@@ -5369,7 +5369,7 @@ DoSetRange
 .
 DoSetRange
 (
-mStartParent
+mStartContainer
 mStartOffset
 mEndParent
 mEndOffset
@@ -5843,7 +5843,7 @@ ComparePoints
 &
 aParent
 aOffset
-mStartParent
+mStartContainer
 mStartOffset
 )
 )
@@ -6087,7 +6087,7 @@ nsContentUtils
 :
 ComparePoints
 (
-mStartParent
+mStartContainer
 mStartOffset
 parent
 nodeIndex
@@ -6600,7 +6600,7 @@ bool
 checkCommonAncestor
 =
 (
-mStartParent
+mStartContainer
 !
 =
 aStartN
@@ -6633,7 +6633,7 @@ GetCommonAncestor
 :
 nullptr
 ;
-mStartParent
+mStartContainer
 =
 aStartN
 ;
@@ -6653,7 +6653,7 @@ mIsPositioned
 =
 !
 !
-mStartParent
+mStartContainer
 ;
 if
 (
@@ -7097,7 +7097,7 @@ nsContentUtils
 :
 GetCommonAncestor
 (
-mStartParent
+mStartContainer
 mEndParent
 )
 :
@@ -7258,7 +7258,7 @@ NS_ERROR_NOT_INITIALIZED
 return
 CallQueryInterface
 (
-mStartParent
+mStartContainer
 aStartParent
 )
 ;
@@ -7294,7 +7294,7 @@ nullptr
 ;
 }
 return
-mStartParent
+mStartContainer
 ;
 }
 NS_IMETHODIMP
@@ -7547,7 +7547,7 @@ nsContentUtils
 :
 GetCommonAncestor
 (
-mStartParent
+mStartContainer
 mEndParent
 )
 ;
@@ -8756,7 +8756,7 @@ nsContentUtils
 :
 ComparePoints
 (
-mStartParent
+mStartContainer
 mStartOffset
 aParent
 aOffset
@@ -8781,7 +8781,7 @@ NS_OK
 }
 DoSetRange
 (
-mStartParent
+mStartContainer
 mStartOffset
 aParent
 aOffset
@@ -9435,16 +9435,19 @@ if
 (
 aToStart
 )
+{
 DoSetRange
 (
-mStartParent
+mStartContainer
 mStartOffset
-mStartParent
+mStartContainer
 mStartOffset
 mRoot
 )
 ;
+}
 else
+{
 DoSetRange
 (
 mEndParent
@@ -9454,6 +9457,7 @@ mEndOffset
 mRoot
 )
 ;
+}
 return
 NS_OK
 ;
@@ -11961,7 +11965,7 @@ nsIDocument
 >
 doc
 =
-mStartParent
+mStartContainer
 -
 >
 OwnerDoc
@@ -12100,7 +12104,7 @@ nsINode
 >
 startContainer
 =
-mStartParent
+mStartContainer
 ;
 int32_t
 startOffset
@@ -13764,7 +13768,7 @@ START_TO_START
 :
 ourNode
 =
-mStartParent
+mStartContainer
 ;
 ourOffset
 =
@@ -13828,7 +13832,7 @@ END_TO_START
 :
 ourNode
 =
-mStartParent
+mStartContainer
 ;
 ourOffset
 =
@@ -14247,7 +14251,7 @@ nsIDocument
 >
 doc
 =
-mStartParent
+mStartContainer
 -
 >
 OwnerDoc
@@ -14584,7 +14588,7 @@ mEndOffset
 node
 =
 =
-mStartParent
+mStartContainer
 &
 &
 mStartOffset
@@ -14800,7 +14804,7 @@ if
 node
 =
 =
-mStartParent
+mStartContainer
 )
 {
 /
@@ -15315,7 +15319,7 @@ range
 >
 DoSetRange
 (
-mStartParent
+mStartContainer
 mStartOffset
 mEndParent
 mEndOffset
@@ -16066,7 +16070,7 @@ node
 .
 if
 (
-mStartParent
+mStartContainer
 !
 =
 mEndParent
@@ -16075,7 +16079,7 @@ mEndParent
 bool
 startIsText
 =
-mStartParent
+mStartContainer
 -
 >
 IsNodeOfType
@@ -16104,7 +16108,7 @@ nsINode
 *
 startGrandParent
 =
-mStartParent
+mStartContainer
 -
 >
 GetParentNode
@@ -16167,7 +16171,7 @@ endGrandParent
 endGrandParent
 =
 =
-mStartParent
+mStartContainer
 )
 )
 )
@@ -16588,7 +16592,7 @@ simple
 case
 if
 (
-mStartParent
+mStartContainer
 =
 =
 mEndParent
@@ -16599,11 +16603,10 @@ nsCOMPtr
 nsIDOMText
 >
 textNode
-(
+=
 do_QueryInterface
 (
-mStartParent
-)
+mStartContainer
 )
 ;
 if
@@ -16626,11 +16629,10 @@ nsCOMPtr
 nsIContent
 >
 cN
-(
+=
 do_QueryInterface
 (
-mStartParent
-)
+mStartContainer
 )
 ;
 if
@@ -16722,7 +16724,7 @@ NS_OK
 complex
 case
 :
-mStartParent
+mStartContainer
 !
 =
 mEndParent
@@ -16883,8 +16885,9 @@ if
 n
 =
 =
-mStartParent
+mStartContainer
 )
+{
 /
 /
 only
@@ -16893,7 +16896,6 @@ text
 past
 start
 offset
-{
 uint32_t
 strLength
 ;
@@ -17080,7 +17082,7 @@ nsContentUtils
 :
 CreateContextualFragment
 (
-mStartParent
+mStartContainer
 aFragment
 false
 aReturn
@@ -17132,7 +17134,7 @@ nsContentUtils
 :
 CreateContextualFragment
 (
-mStartParent
+mStartContainer
 aFragment
 false
 aRv
@@ -18284,7 +18286,7 @@ this
 if
 (
 !
-mStartParent
+mStartContainer
 )
 {
 return
@@ -18307,7 +18309,7 @@ CollectClientRectsAndText
 accumulator
 nullptr
 this
-mStartParent
+mStartContainer
 mStartOffset
 mEndParent
 mEndOffset
@@ -18396,7 +18398,7 @@ aFlushLayout
 if
 (
 !
-mStartParent
+mStartContainer
 )
 {
 return
@@ -18437,7 +18439,7 @@ CollectClientRectsAndText
 builder
 nullptr
 this
-mStartParent
+mStartContainer
 mStartOffset
 mEndParent
 mEndOffset
@@ -18476,7 +18478,7 @@ aErr
 if
 (
 !
-mStartParent
+mStartContainer
 )
 {
 return
@@ -18519,7 +18521,7 @@ aResult
 .
 mTextList
 this
-mStartParent
+mStartContainer
 mStartOffset
 mEndParent
 mEndOffset
@@ -18547,7 +18549,7 @@ nullptr
 ;
 NS_ENSURE_TRUE
 (
-mStartParent
+mStartContainer
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -18559,7 +18561,7 @@ startContainer
 =
 do_QueryInterface
 (
-mStartParent
+mStartContainer
 )
 ;
 nsCOMPtr
@@ -18590,7 +18592,7 @@ nsIDocument
 *
 doc
 =
-mStartParent
+mStartContainer
 -
 >
 OwnerDoc
@@ -18627,7 +18629,7 @@ the
 document
 NS_ENSURE_TRUE
 (
-mStartParent
+mStartContainer
 -
 >
 IsInUncomposedDoc
@@ -18880,7 +18882,7 @@ ancestor
 =
 GetNextRangeCommonAncestor
 (
-mStartParent
+mStartContainer
 )
 ;
 while
@@ -19193,7 +19195,7 @@ mEndParent
 ;
 MOZ_ASSERT
 (
-mStartParent
+mStartContainer
 )
 ;
 nsRange

@@ -191,7 +191,7 @@ mozilla
 ErrorResult
 rv
 ;
-mStartParent
+mStartContainer
 =
 aRange
 -
@@ -280,7 +280,7 @@ rv
 bool
 eq
 =
-mStartParent
+mStartContainer
 =
 =
 aRange
@@ -395,9 +395,9 @@ ImplCycleCollectionTraverse
 aCallback
 aField
 .
-mStartParent
+mStartContainer
 "
-mStartParent
+mStartContainer
 "
 aFlags
 )
