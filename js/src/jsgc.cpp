@@ -2870,6 +2870,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 static_assert
@@ -3005,6 +3007,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 sizeof
@@ -3071,6 +3075,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 OFFSET
@@ -3126,6 +3132,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 COUNT
@@ -4454,6 +4462,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 case
@@ -7399,6 +7409,8 @@ allocKind
 _1
 _2
 _3
+_4
+_5
 )
 \
 #
@@ -15142,6 +15154,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 case
@@ -22991,6 +23005,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 case
