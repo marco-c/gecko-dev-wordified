@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsDisplayList
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
