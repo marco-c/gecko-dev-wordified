@@ -2630,6 +2630,11 @@ GetOrigin
 )
 {
 return
+static_cast
+<
+OriginFlags
+>
+(
 Servo_StyleSheet_GetOrigin
 (
 Inner
@@ -2638,6 +2643,7 @@ Inner
 -
 >
 mContents
+)
 )
 ;
 }
