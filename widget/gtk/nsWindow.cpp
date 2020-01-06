@@ -21599,6 +21599,11 @@ eWindowType_plugin_ipc_content
 :
 MOZ_ASSERT_UNREACHABLE
 (
+"
+Unexpected
+eWindowType_plugin
+*
+"
 )
 ;
 return

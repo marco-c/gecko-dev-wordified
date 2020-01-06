@@ -2758,8 +2758,12 @@ mError
 serial
 )
 ;
-NS_ABORT
+MOZ_ASSERT_UNREACHABLE
 (
+"
+AfterGLXCall
+sErrorEvent
+"
 )
 ;
 }

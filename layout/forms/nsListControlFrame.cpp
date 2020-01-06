@@ -16943,8 +16943,12 @@ aEvent
 )
 ;
 }
-NS_ABORT
+MOZ_ASSERT_UNREACHABLE
 (
+"
+Unexpected
+eventType
+"
 )
 ;
 return
