@@ -30934,7 +30934,6 @@ aEvent
 }
 show
 (
-aEvent
 )
 {
 if
@@ -31160,11 +31159,6 @@ anchor
 this
 .
 _chevron
-{
-triggerEvent
-:
-aEvent
-}
 )
 ;
 this
@@ -31286,7 +31280,6 @@ this
 .
 show
 (
-aEvent
 )
 ;
 }
