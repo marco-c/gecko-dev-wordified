@@ -3584,6 +3584,8 @@ gfxContext
 :
 GetClipExtents
 (
+ClipExtentsSpace
+aSpace
 )
 const
 {
@@ -3622,6 +3624,14 @@ gfxRect
 )
 ;
 }
+if
+(
+aSpace
+=
+=
+eUserSpace
+)
+{
 Matrix
 mat
 =
@@ -3642,6 +3652,7 @@ TransformBounds
 rect
 )
 ;
+}
 return
 ThebesRect
 (
