@@ -2188,9 +2188,6 @@ linux64
 '
 linux
 '
-'
-macosx64
-'
 )
 :
             
