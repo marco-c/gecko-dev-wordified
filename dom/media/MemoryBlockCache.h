@@ -368,6 +368,15 @@ Allocate
 initial
 buffer
 .
+/
+/
+If
+re
+-
+initializing
+clear
+buffer
+.
 virtual
 nsresult
 Init
