@@ -6926,10 +6926,6 @@ varlist
 [
             
 '
-ALLOW_COMPILER_WARNINGS
-'
-            
-'
 ANDROID_APK_NAME
 '
             
