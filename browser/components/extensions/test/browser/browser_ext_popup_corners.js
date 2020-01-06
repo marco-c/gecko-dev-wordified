@@ -286,9 +286,16 @@ arrowContent
 )
 ;
 let
-viewNode
+stack
 =
 browser
+.
+parentNode
+;
+let
+viewNode
+=
+stack
 .
 parentNode
 =
@@ -298,7 +305,7 @@ panel
 ?
 browser
 :
-browser
+stack
 .
 parentNode
 ;
