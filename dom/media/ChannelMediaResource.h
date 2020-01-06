@@ -714,7 +714,7 @@ is
 currently
 not
 wanted
-nsresult
+void
 CacheClientSuspend
 (
 )
@@ -730,7 +730,7 @@ data
 is
 wanted
 again
-nsresult
+void
 CacheClientResume
 (
 )
