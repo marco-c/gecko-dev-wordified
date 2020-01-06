@@ -555,6 +555,25 @@ stylo
 False
         
 if
+'
+STYLO_FORCE_ENABLED
+'
+in
+os
+.
+environ
+:
+            
+self
+[
+"
+stylo
+"
+]
+=
+True
+        
+if
 extras
 is
 not
