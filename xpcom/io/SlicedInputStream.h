@@ -164,6 +164,9 @@ nsISeekableStream
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 A
@@ -442,6 +445,11 @@ mAsyncWaitRequestedCount
 ;
 }
 ;
+}
+/
+/
+mozilla
+namespace
 #
 endif
 /
