@@ -2262,6 +2262,9 @@ aEvent
 .
 metaKey
 aEvent
+aEvent
+.
+mozInputSource
 )
 ;
 node
