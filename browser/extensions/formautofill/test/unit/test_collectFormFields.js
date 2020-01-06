@@ -1444,16 +1444,6 @@ form
 "
 )
 ;
-let
-formLike
-=
-FormLikeFactory
-.
-createFromForm
-(
-form
-)
-;
 testcase
 .
 fieldDetails
@@ -1548,7 +1538,7 @@ handler
 new
 FormAutofillHandler
 (
-formLike
+form
 )
 ;
 handler
