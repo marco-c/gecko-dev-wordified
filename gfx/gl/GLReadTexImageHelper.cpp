@@ -2312,6 +2312,8 @@ gfx
 DataSourceSurface
 *
 aSurf
+uint32_t
+aStride
 )
 {
 RefPtr
@@ -2337,12 +2339,7 @@ aSurf
 GetFormat
 (
 )
-aSurf
--
->
-Stride
-(
-)
+aStride
 )
 ;
 if
@@ -2789,6 +2786,11 @@ surf
 YInvertImageSurface
 (
 surf
+map
+.
+GetStride
+(
+)
 )
 ;
 }

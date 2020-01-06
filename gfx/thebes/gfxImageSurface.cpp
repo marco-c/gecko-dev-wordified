@@ -1486,10 +1486,9 @@ GetData
 )
 size
 mStride
-data
--
->
-Stride
+map
+.
+GetStride
 (
 )
 )
@@ -1671,10 +1670,9 @@ GetData
 )
 mData
 size
-data
--
->
-Stride
+map
+.
+GetStride
 (
 )
 mStride

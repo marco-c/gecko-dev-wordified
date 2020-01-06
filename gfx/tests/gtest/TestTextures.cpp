@@ -1301,10 +1301,9 @@ hostDataSurface
 GetSize
 (
 )
-hostDataSurface
--
->
-Stride
+map
+.
+GetStride
 (
 )
 SurfaceFormatToImageFormat

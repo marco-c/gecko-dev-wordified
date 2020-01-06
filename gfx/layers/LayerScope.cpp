@@ -2535,10 +2535,9 @@ tp
 >
 set_stride
 (
-aImage
--
->
-Stride
+map
+.
+GetStride
 (
 )
 )
@@ -2554,10 +2553,9 @@ GetSize
 .
 height
 *
-aImage
--
->
-Stride
+map
+.
+GetStride
 (
 )
 ;
