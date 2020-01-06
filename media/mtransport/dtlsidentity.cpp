@@ -788,7 +788,7 @@ certificate
 >
 signature
 SEC_OID_ANSIX962_ECDSA_SHA256_SIGNATURE
-0
+nullptr
 )
 ;
 if

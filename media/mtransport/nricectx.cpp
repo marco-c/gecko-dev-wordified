@@ -887,7 +887,7 @@ PK11SlotInfo
 *
 slot
 =
-0
+nullptr
 ;
 MOZ_ASSERT
 (
@@ -916,13 +916,13 @@ PK11SymKey
 *
 skey
 =
-0
+nullptr
 ;
 PK11Context
 *
 hmac_ctx
 =
-0
+nullptr
 ;
 SECStatus
 status
@@ -4527,11 +4527,11 @@ ice_handler_
 ;
 ice_handler_vtbl_
 =
-0
+nullptr
 ;
 ice_handler_
 =
-0
+nullptr
 ;
 streams_
 .
@@ -5702,7 +5702,7 @@ char
 *
 attrs
 =
-0
+nullptr
 ;
 int
 attrct

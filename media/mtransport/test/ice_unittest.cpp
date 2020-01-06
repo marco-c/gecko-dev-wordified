@@ -24028,7 +24028,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -24119,7 +24119,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -24271,7 +24271,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -24393,7 +24393,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -24516,7 +24516,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -24869,7 +24869,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -25005,7 +25005,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
@@ -25245,7 +25245,7 @@ ASSERT_EQ
 0
 nr_stun_build_req_no_auth
 (
-NULL
+nullptr
 &
 msg
 )
