@@ -26,6 +26,12 @@ threads
 no
 -
 ion
+;
+allow
+-
+unhandlable
+-
+oom
 g
 =
 newGlobal

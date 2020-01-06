@@ -7,6 +7,11 @@ test
 |
 slow
 ;
+allow
+-
+unhandlable
+-
+oom
 /
 /
 Binary

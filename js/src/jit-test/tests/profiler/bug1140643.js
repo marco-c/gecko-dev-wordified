@@ -8,6 +8,12 @@ test
 allow
 -
 oom
+;
+allow
+-
+unhandlable
+-
+oom
 enableGeckoProfiling
 (
 )

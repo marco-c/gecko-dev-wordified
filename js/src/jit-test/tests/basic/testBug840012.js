@@ -11,6 +11,12 @@ oom
 ;
 allow
 -
+unhandlable
+-
+oom
+;
+allow
+-
 overrecursed
 gcPreserveCode
 (

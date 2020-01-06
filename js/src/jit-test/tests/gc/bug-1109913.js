@@ -10,6 +10,12 @@ error
 out
 of
 memory
+;
+allow
+-
+unhandlable
+-
+oom
 gcparam
 (
 "
