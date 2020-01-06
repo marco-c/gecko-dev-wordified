@@ -2790,6 +2790,9 @@ ready
 "
 )
 ;
+let
+page
+=
 await
 ExtensionTestUtils
 .
@@ -3164,6 +3167,13 @@ optional
 wildcard
 origin
 "
+)
+;
+await
+page
+.
+close
+(
 )
 ;
 }
