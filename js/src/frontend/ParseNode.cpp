@@ -4985,10 +4985,11 @@ c
 <
 127
 )
-fputc
+out
+.
+putChar
 (
 c
-stderr
 )
 ;
 else
