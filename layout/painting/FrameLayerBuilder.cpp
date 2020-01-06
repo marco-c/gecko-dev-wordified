@@ -822,10 +822,6 @@ mInLayerTreeCompressionMode
 (
 false
 )
-mIsInactiveLayerManager
-(
-false
-)
 mContainerLayerGeneration
 (
 0
@@ -10954,8 +10950,6 @@ aManager
 PaintedLayerData
 *
 aLayerData
-bool
-aIsInactiveLayerManager
 const
 DisplayItemClip
 *
@@ -11003,10 +10997,6 @@ GetDOMGeneration
 mContainingPaintedLayer
 =
 aLayerData
-;
-mIsInactiveLayerManager
-=
-aIsInactiveLayerManager
 ;
 mInactiveLayerClip
 =
@@ -30698,7 +30688,6 @@ Init
 mDisplayListBuilder
 tempManager
 aLayerData
-true
 &
 aClip
 )
@@ -39796,7 +39785,7 @@ continue
 #
 ifdef
 MOZ_DUMP_PAINTING
-AUTO_PROFILER_LABEL_DYNAMIC
+AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 FrameLayerBuilder

@@ -7662,13 +7662,7 @@ GetType
 typeStr
 )
 ;
-NS_LossyConvertUTF16toASCII
-typeCStr
-(
-typeStr
-)
-;
-AUTO_PROFILER_LABEL_DYNAMIC
+AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
 (
 "
 EventListenerManager
@@ -7677,11 +7671,7 @@ EventListenerManager
 HandleEventInternal
 "
 EVENTS
-typeCStr
-.
-get
-(
-)
+typeStr
 )
 ;
 TimeStamp
