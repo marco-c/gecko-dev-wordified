@@ -347,13 +347,6 @@ h
 #
 include
 "
-nsIDOMHTMLHtmlElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLDocument
 .
 h
