@@ -8995,13 +8995,11 @@ isProfiling
 )
 const
 ;
-inline
 void
 registerProfiling
 (
 )
 ;
-inline
 void
 unregisterProfiling
 (
