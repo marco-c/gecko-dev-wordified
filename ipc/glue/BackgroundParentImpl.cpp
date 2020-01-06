@@ -2426,6 +2426,15 @@ nsCString
 aOrigin
 )
 :
+Runnable
+(
+"
+ipc
+:
+:
+CheckPrincipalRunnable
+"
+)
 mContentParent
 (
 aParent

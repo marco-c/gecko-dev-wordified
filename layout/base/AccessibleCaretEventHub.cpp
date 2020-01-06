@@ -4036,7 +4036,7 @@ UiClickHoldContextMenusDelay
 mLongTapInjectorTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FireLongTap
 this
@@ -4045,6 +4045,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+AccessibleCaretEventHub
+:
+:
+LaunchLongTapInjector
+"
 )
 ;
 }
@@ -4462,7 +4468,7 @@ return
 mScrollEndInjectorTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FireScrollEnd
 this
@@ -4471,6 +4477,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+AccessibleCaretEventHub
+:
+:
+LaunchScrollEndInjector
+"
 )
 ;
 }

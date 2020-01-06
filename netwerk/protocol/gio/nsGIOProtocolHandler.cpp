@@ -3436,6 +3436,15 @@ char
 contentType
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsGIOSetContentTypeEvent
+"
+)
 mChannel
 (
 channel

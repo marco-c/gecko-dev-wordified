@@ -717,6 +717,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+dom
+:
+:
+PresentationReceiver
+:
+:
+GetConnectionList
+"
 [
 self
 ]

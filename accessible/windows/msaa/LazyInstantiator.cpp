@@ -1765,6 +1765,12 @@ AccumulateRunnable
 >
 >
 (
+"
+LazyInstantiator
+:
+:
+GatherTelemetry
+"
 this
 &
 LazyInstantiator

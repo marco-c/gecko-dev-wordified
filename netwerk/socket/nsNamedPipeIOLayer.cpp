@@ -1717,6 +1717,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+NamedPipeInfo
+:
+:
+OnDataAvailable
+"
 [
 ]
 {
@@ -1804,6 +1810,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+NamedPipeInfo
+:
+:
+OnError
+"
 [
 ]
 {

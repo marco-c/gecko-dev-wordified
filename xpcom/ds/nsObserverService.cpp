@@ -1142,6 +1142,12 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
+"
+nsObserverService
+:
+:
+RegisterReporter
+"
 os
 &
 nsObserverService

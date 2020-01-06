@@ -22467,6 +22467,15 @@ nsISupports
 aHandlerData
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+FinishCollectRunnable
+"
+)
 mHandleReport
 (
 aHandleReport

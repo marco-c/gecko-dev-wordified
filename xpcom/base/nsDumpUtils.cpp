@@ -592,6 +592,12 @@ PostTask
 (
 NewRunnableMethod
 (
+"
+FdWatcher
+:
+:
+StartWatching
+"
 this
 &
 FdWatcher

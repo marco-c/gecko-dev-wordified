@@ -2647,6 +2647,12 @@ runnable
 =
 NS_NewRunnableFunction
 (
+"
+TelemetryTestFixture_NonMainThreadAdd_Test
+:
+:
+TestBody
+"
 [
 ]
 (

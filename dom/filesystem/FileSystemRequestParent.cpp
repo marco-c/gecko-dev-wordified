@@ -467,6 +467,15 @@ nsAString
 aPath
 )
 :
+Runnable
+(
+"
+dom
+:
+:
+CheckPermissionRunnable
+"
+)
 mContentParent
 (
 aParent

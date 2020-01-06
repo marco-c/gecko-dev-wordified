@@ -306,6 +306,15 @@ MessagePump
 aPump
 )
 :
+CancelableRunnable
+(
+"
+ipc
+:
+:
+DoWorkRunnable
+"
+)
 mPump
 (
 aPump

@@ -202,6 +202,15 @@ char
 topicStringLiteral
 )
 :
+Runnable
+(
+"
+psm
+:
+:
+NotifyObserverRunnable
+"
+)
 mObserver
 (
 new

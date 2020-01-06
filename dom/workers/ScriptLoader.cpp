@@ -3577,6 +3577,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+ScriptLoaderRunnable
+:
+:
+CancelMainThreadWithBindingAborted
+"
 this
 &
 ScriptLoaderRunnable

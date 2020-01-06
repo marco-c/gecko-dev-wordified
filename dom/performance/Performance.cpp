@@ -2615,6 +2615,15 @@ Performance
 aPerformance
 )
 :
+CancelableRunnable
+(
+"
+dom
+:
+:
+NotifyObserversTask
+"
+)
 mPerformance
 (
 aPerformance

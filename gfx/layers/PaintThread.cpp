@@ -253,6 +253,12 @@ paintInitTask
 =
 NewRunnableMethod
 (
+"
+PaintThread
+:
+:
+InitOnPaintThread
+"
 this
 &
 PaintThread
@@ -509,6 +515,12 @@ DrawTarget
 *
 >
 (
+"
+PaintThread
+:
+:
+PaintContents
+"
 this
 &
 PaintThread

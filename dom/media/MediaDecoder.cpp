@@ -1865,6 +1865,12 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+MediaDecoder
+:
+:
+Shutdown
+"
 [
 self
 ]
