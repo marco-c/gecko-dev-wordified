@@ -1614,7 +1614,7 @@ only
 .
 virtual
 void
-NotifyBytesDownloaded
+NotifyDownloadProgressed
 (
 )
 ;

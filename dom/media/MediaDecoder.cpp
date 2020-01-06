@@ -1107,7 +1107,7 @@ return
 mDecoder
 -
 >
-NotifyBytesDownloaded
+NotifyDownloadProgressed
 (
 )
 ;
@@ -5566,7 +5566,7 @@ void
 MediaDecoder
 :
 :
-NotifyBytesDownloaded
+NotifyDownloadProgressed
 (
 )
 {

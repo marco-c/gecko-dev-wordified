@@ -2753,7 +2753,7 @@ GetDecoder
 )
 -
 >
-NotifyBytesDownloaded
+NotifyDownloadProgressed
 (
 )
 ;
