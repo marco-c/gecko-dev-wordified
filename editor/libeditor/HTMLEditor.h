@@ -4651,9 +4651,6 @@ aUseCapture
 Element
 *
 aElement
-nsIContent
-*
-aParentContent
 nsIPresShell
 *
 aShell
@@ -4665,9 +4662,6 @@ DeleteRefToAnonymousNode
 nsIContent
 *
 aContent
-nsIContent
-*
-aParentContent
 nsIPresShell
 *
 aShell

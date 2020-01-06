@@ -2643,27 +2643,6 @@ to
 /
 UnbindFromTree
 .
-nsCOMPtr
-<
-nsIContent
->
-parentContent
-;
-if
-(
-mTopLeftHandle
-)
-{
-parentContent
-=
-mTopLeftHandle
--
->
-GetParent
-(
-)
-;
-}
 NS_NAMED_LITERAL_STRING
 (
 mousedown
@@ -2678,7 +2657,6 @@ mousedown
 mEventListener
 true
 mTopLeftHandle
-parentContent
 ps
 )
 ;
@@ -2692,7 +2670,6 @@ mousedown
 mEventListener
 true
 mTopHandle
-parentContent
 ps
 )
 ;
@@ -2706,7 +2683,6 @@ mousedown
 mEventListener
 true
 mTopRightHandle
-parentContent
 ps
 )
 ;
@@ -2720,7 +2696,6 @@ mousedown
 mEventListener
 true
 mLeftHandle
-parentContent
 ps
 )
 ;
@@ -2734,7 +2709,6 @@ mousedown
 mEventListener
 true
 mRightHandle
-parentContent
 ps
 )
 ;
@@ -2748,7 +2722,6 @@ mousedown
 mEventListener
 true
 mBottomLeftHandle
-parentContent
 ps
 )
 ;
@@ -2762,7 +2735,6 @@ mousedown
 mEventListener
 true
 mBottomHandle
-parentContent
 ps
 )
 ;
@@ -2776,7 +2748,6 @@ mousedown
 mEventListener
 true
 mBottomRightHandle
-parentContent
 ps
 )
 ;
@@ -2790,7 +2761,6 @@ mousedown
 mEventListener
 true
 mResizingShadow
-parentContent
 ps
 )
 ;
@@ -2804,7 +2774,6 @@ mousedown
 mEventListener
 true
 mResizingInfo
-parentContent
 ps
 )
 ;
