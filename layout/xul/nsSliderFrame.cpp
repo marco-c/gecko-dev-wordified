@@ -2445,13 +2445,6 @@ thumbClipState
 aBuilder
 )
 ;
-aBuilder
--
->
-GetCurrentReferenceFrame
-(
-)
-;
 thumbClipState
 .
 ClipContainingBlockDescendants
