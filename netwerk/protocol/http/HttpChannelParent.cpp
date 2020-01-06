@@ -12240,12 +12240,6 @@ rv
 )
 )
 {
-FailDiversion
-(
-NS_ERROR_UNEXPECTED
-true
-)
-;
 return
 rv
 ;
@@ -12269,11 +12263,6 @@ DoSendDeleteSelf
 )
 )
 {
-FailDiversion
-(
-NS_ERROR_UNEXPECTED
-)
-;
 return
 NS_ERROR_UNEXPECTED
 ;
