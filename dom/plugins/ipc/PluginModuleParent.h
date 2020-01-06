@@ -3745,9 +3745,6 @@ friend
 class
 LaunchedTask
 ;
-bool
-mInitOnAsyncConnect
-;
 nsresult
 mAsyncInitRv
 ;
