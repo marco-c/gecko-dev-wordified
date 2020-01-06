@@ -2276,7 +2276,7 @@ bool
 nsContentUtils
 :
 :
-sIsExperimentalAutocompleteEnabled
+sIsFormAutofillAutocompleteEnabled
 =
 false
 ;
@@ -4084,7 +4084,7 @@ Preferences
 AddBoolVarCache
 (
 &
-sIsExperimentalAutocompleteEnabled
+sIsFormAutofillAutocompleteEnabled
 "
 dom
 .
@@ -4092,7 +4092,7 @@ forms
 .
 autocomplete
 .
-experimental
+formautofill
 "
 false
 )
@@ -6711,7 +6711,8 @@ on
 /
 off
 if
-experimental
+form
+autofill
 autocomplete
 values
 aren
@@ -6733,7 +6734,7 @@ values
 if
 (
 !
-sIsExperimentalAutocompleteEnabled
+sIsFormAutofillAutocompleteEnabled
 &
 &
 !
@@ -6788,7 +6789,8 @@ on
 /
 off
 if
-experimental
+form
+autofill
 autocomplete
 values
 aren
@@ -6810,7 +6812,7 @@ values
 if
 (
 !
-sIsExperimentalAutocompleteEnabled
+sIsFormAutofillAutocompleteEnabled
 &
 &
 !

@@ -15916,10 +15916,13 @@ false
 /
 /
 Support
-for
-new
 autocomplete
 values
+for
+form
+autofill
+feature
+.
 pref
 (
 "
@@ -15929,7 +15932,7 @@ forms
 .
 autocomplete
 .
-experimental
+formautofill
 "
 false
 )
