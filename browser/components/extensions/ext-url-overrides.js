@@ -197,6 +197,13 @@ manifest
 =
 extension
 ;
+await
+ExtensionSettingsStore
+.
+initialize
+(
+)
+;
 if
 (
 manifest
