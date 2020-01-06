@@ -171,12 +171,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-simple1
-.
-js
-"
-4
 )
 ;
 is

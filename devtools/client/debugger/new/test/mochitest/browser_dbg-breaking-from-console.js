@@ -269,8 +269,6 @@ toJS
 assertPausedLocation
 (
 dbg
-source
-1
 )
 ;
 }

@@ -161,14 +161,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-bogus
--
-map
-.
-js
-"
-4
 )
 ;
 /
