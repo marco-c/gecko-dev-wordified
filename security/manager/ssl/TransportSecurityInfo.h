@@ -329,14 +329,6 @@ mPort
 ;
 }
 nsresult
-GetPort
-(
-int32_t
-*
-aPort
-)
-;
-nsresult
 SetPort
 (
 int32_t
