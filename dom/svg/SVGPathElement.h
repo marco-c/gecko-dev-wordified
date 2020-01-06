@@ -281,13 +281,7 @@ aNodeInfo
 ;
 public
 :
-/
-/
-DOM
-memory
-reporter
-participant
-NS_DECL_SIZEOF_EXCLUDING_THIS
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 /
 /
 nsIContent

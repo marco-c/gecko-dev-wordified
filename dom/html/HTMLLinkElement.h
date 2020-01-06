@@ -221,13 +221,7 @@ nsGenericHTMLElement
 /
 nsIDOMHTMLLinkElement
 NS_DECL_NSIDOMHTMLLINKELEMENT
-/
-/
-DOM
-memory
-reporter
-participant
-NS_DECL_SIZEOF_EXCLUDING_THIS
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 void
 LinkAdded
 (
