@@ -217,7 +217,7 @@ Tools
 .
 webConsole
 .
-url
+oldWebConsoleURL
 "
 The
 Browser
@@ -265,7 +265,7 @@ Tools
 .
 webConsole
 .
-url
+oldWebConsoleURL
 "
 The
 Browser

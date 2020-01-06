@@ -367,7 +367,7 @@ hud
 .
 ui
 .
-experimentalOutputNode
+outputNode
 ;
 info
 (
