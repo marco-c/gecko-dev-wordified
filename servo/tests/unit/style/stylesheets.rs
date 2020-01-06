@@ -225,7 +225,7 @@ style
 properties
 :
 :
-longhands
+DeclarationSource
 ;
 use
 style
@@ -237,7 +237,10 @@ properties
 longhands
 :
 :
+{
+self
 animation_timing_function
+}
 ;
 use
 style
@@ -399,7 +402,12 @@ push
 (
 d
 i
+DeclarationSource
+:
+:
+CssOm
 )
+;
 }
 block
 }

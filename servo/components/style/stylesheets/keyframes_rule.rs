@@ -125,11 +125,11 @@ properties
 :
 :
 {
+DeclarationSource
 Importance
 PropertyDeclaration
 PropertyDeclarationBlock
 PropertyId
-PropertyParserContext
 }
 ;
 use
@@ -138,6 +138,7 @@ properties
 :
 {
 PropertyDeclarationId
+PropertyParserContext
 LonghandId
 SourcePropertyDeclaration
 }
@@ -3969,6 +3970,10 @@ Importance
 :
 :
 Normal
+DeclarationSource
+:
+:
+Parsing
 )
 ;
 }

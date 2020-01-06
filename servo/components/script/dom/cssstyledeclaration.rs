@@ -250,6 +250,7 @@ properties
 :
 :
 {
+DeclarationSource
 Importance
 PropertyDeclarationBlock
 PropertyId
@@ -1921,7 +1922,7 @@ changed
 =
 pdb
 .
-extend_reset
+extend
 (
 declarations
 .
@@ -1929,6 +1930,10 @@ drain
 (
 )
 importance
+DeclarationSource
+:
+:
+CssOm
 )
 ;
 Ok
