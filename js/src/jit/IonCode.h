@@ -2396,6 +2396,9 @@ traceLoggerEvents_
 .
 append
 (
+mozilla
+:
+:
 Move
 (
 event
