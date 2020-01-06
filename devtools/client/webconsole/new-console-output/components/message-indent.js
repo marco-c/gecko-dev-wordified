@@ -184,6 +184,13 @@ dom
 span
 (
 {
+"
+data
+-
+indent
+"
+:
+indent
 className
 :
 "
