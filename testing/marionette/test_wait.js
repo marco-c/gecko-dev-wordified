@@ -86,8 +86,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 test_until_types
 (
 )
@@ -114,7 +114,7 @@ foo
 strictEqual
 (
 typ
-yield
+await
 wait
 .
 until
@@ -135,8 +135,8 @@ typ
 ;
 add_task
 (
+async
 function
-*
 test_until_timeoutElapse
 (
 )
@@ -158,7 +158,7 @@ getTime
 (
 )
 ;
-yield
+await
 wait
 .
 until
@@ -214,8 +214,8 @@ nevals
 ;
 add_task
 (
+async
 function
-*
 test_until_rethrowError
 (
 )
@@ -230,7 +230,7 @@ err
 ;
 try
 {
-yield
+await
 wait
 .
 until
@@ -282,8 +282,8 @@ Error
 ;
 add_task
 (
+async
 function
-*
 test_until_noTimeout
 (
 )
@@ -315,7 +315,7 @@ getTime
 (
 )
 ;
-yield
+await
 wait
 .
 until
@@ -372,8 +372,8 @@ start
 ;
 add_task
 (
+async
 function
-*
 test_until_timeout
 (
 )
@@ -395,7 +395,7 @@ getTime
 (
 )
 ;
-yield
+await
 wait
 .
 until
@@ -452,8 +452,8 @@ start
 ;
 add_task
 (
+async
 function
-*
 test_until_interval
 (
 )
@@ -463,7 +463,7 @@ nevals
 =
 0
 ;
-yield
+await
 wait
 .
 until
