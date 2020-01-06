@@ -1441,6 +1441,14 @@ MOZ_ASSERT
 mWatchdog
 )
 ;
+}
+public
+:
+void
+Shutdown
+(
+)
+{
 mozilla
 :
 :
@@ -1482,8 +1490,6 @@ PREF_MAX_SCRIPT_RUN_TIME_CHROME
 )
 ;
 }
-public
-:
 NS_IMETHOD
 Observe
 (
@@ -4460,6 +4466,13 @@ mWatchdogManager
 -
 >
 StopWatchdog
+(
+)
+;
+mWatchdogManager
+-
+>
+Shutdown
 (
 )
 ;
