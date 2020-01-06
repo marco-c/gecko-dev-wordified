@@ -12028,6 +12028,13 @@ t
 )
 )
 ;
+if
+(
+newTags
+.
+length
+)
+{
 PlacesUtils
 .
 tagging
@@ -12082,6 +12089,7 @@ newTags
 }
 )
 ;
+}
 }
 }
 this
