@@ -2726,6 +2726,9 @@ aScriptElement
 bool
 *
 aInterrupted
+bool
+*
+aStreamEnded
 )
 ;
 private
