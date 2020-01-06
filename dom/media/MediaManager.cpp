@@ -23721,6 +23721,9 @@ true
 ;
 if
 (
+mActivated
+&
+&
 !
 mFinished
 )
