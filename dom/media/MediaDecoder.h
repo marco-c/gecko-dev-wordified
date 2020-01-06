@@ -3202,6 +3202,17 @@ Ref
 )
 ;
 }
+already_AddRefed
+<
+layers
+:
+:
+KnowsCompositor
+>
+GetCompositor
+(
+)
+;
 /
 /
 Official

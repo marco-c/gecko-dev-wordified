@@ -264,6 +264,14 @@ GetVideoFrameContainer
 (
 )
 ;
+init
+.
+mKnowsCompositor
+=
+GetCompositor
+(
+)
+;
 mReader
 =
 new

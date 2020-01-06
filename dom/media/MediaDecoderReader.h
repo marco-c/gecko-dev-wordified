@@ -400,6 +400,15 @@ mVideoFrameContainer
 =
 nullptr
 ;
+already_AddRefed
+<
+layers
+:
+:
+KnowsCompositor
+>
+mKnowsCompositor
+;
 explicit
 MediaDecoderReaderInit
 (
@@ -679,7 +688,6 @@ destroyed
 explicit
 MediaDecoderReader
 (
-const
 MediaDecoderReaderInit
 &
 aInit
