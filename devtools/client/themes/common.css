@@ -116,7 +116,14 @@ selected
 -
 color
 :
-highlight
+var
+(
+-
+-
+blue
+-
+50
+)
 ;
 }
 :
