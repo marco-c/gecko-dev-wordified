@@ -738,6 +738,21 @@ self
 )
 :
         
+if
+self
+.
+sock
+:
+            
+return
+self
+.
+sock
+.
+gettimeout
+(
+)
+        
 return
 self
 .
@@ -755,6 +770,12 @@ value
 )
 :
         
+self
+.
+_socket_timeout
+=
+value
+        
 if
 self
 .
@@ -769,12 +790,6 @@ settimeout
 (
 value
 )
-        
-self
-.
-_socket_timeout
-=
-value
     
 def
 _unmarshal
@@ -1281,7 +1296,7 @@ SocketTimeout
 self
 .
 sock
-2
+60
 .
 0
 )
