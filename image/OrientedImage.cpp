@@ -750,7 +750,10 @@ DrawPixelSnapped
 (
 ctx
 drawable
+SizeDouble
+(
 size
+)
 ImageRegion
 :
 :

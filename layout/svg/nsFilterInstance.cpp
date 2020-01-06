@@ -1910,10 +1910,13 @@ nsSVGUtils
 :
 ConvertToSurfaceSize
 (
+SizeDouble
+(
 aBounds
 .
 Size
 (
+)
 )
 &
 overflow

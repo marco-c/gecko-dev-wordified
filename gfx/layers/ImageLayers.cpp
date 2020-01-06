@@ -271,11 +271,14 @@ sourceRect
 .
 SizeTo
 (
+SizeDouble
+(
 mContainer
 -
 >
 GetCurrentSize
 (
+)
 )
 )
 ;
