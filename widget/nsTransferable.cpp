@@ -1213,7 +1213,7 @@ if
 mCacheFileName
 )
 {
-nsXPIDLCString
+nsCString
 fName
 ;
 cacheFile
@@ -1229,6 +1229,10 @@ mCacheFileName
 strdup
 (
 fName
+.
+get
+(
+)
 )
 ;
 }
@@ -1286,10 +1290,6 @@ nsPrimitiveHelpers
 CreateDataFromPrimitive
 (
 mFlavor
-.
-get
-(
-)
 aData
 &
 buff
@@ -1647,10 +1647,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 mFlavor
-.
-get
-(
-)
 data
 .
 get

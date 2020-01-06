@@ -5776,7 +5776,7 @@ catMan
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsXPIDLCString
+nsCString
 contractId
 ;
 nsresult
@@ -5820,6 +5820,10 @@ docLoaderFactory
 do_GetService
 (
 contractId
+.
+get
+(
+)
 )
 ;
 NS_ENSURE_TRUE

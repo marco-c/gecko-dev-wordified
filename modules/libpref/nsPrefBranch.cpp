@@ -5030,7 +5030,7 @@ a
 .
 properties
 file
-nsXPIDLCString
+nsCString
 propertyFileURL
 ;
 rv
@@ -5093,6 +5093,10 @@ bundleService
 CreateBundle
 (
 propertyFileURL
+.
+get
+(
+)
 getter_AddRefs
 (
 bundle

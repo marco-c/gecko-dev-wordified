@@ -166,8 +166,8 @@ void
 CreatePrimitiveForData
 (
 const
-char
-*
+nsACString
+&
 aFlavor
 const
 void
@@ -258,8 +258,8 @@ void
 CreateDataFromPrimitive
 (
 const
-char
-*
+nsACString
+&
 aFlavor
 nsISupports
 *
@@ -369,8 +369,8 @@ nsresult
 ConvertPlatformToDOMLinebreaks
 (
 const
-char
-*
+nsACString
+&
 inFlavor
 void
 *

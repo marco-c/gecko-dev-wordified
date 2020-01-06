@@ -2147,7 +2147,7 @@ constant
 cx
 )
 ;
-nsXPIDLCString
+nsCString
 namestr
 ;
 if
@@ -2183,6 +2183,10 @@ JS_AtomizeAndPinString
 (
 cx
 namestr
+.
+get
+(
+)
 )
 ;
 if

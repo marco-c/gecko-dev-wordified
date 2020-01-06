@@ -5676,7 +5676,7 @@ the
 HTML
 parser
 .
-nsXPIDLCString
+nsCString
 loc
 ;
 aIndex

@@ -609,7 +609,7 @@ mCallback
 =
 aColorPickerShownCallback
 ;
-nsXPIDLCString
+nsCString
 title
 ;
 title
@@ -730,6 +730,10 @@ color_chooser
 gtk_color_selection_dialog_new
 (
 title
+.
+get
+(
+)
 )
 ;
 if
