@@ -5094,9 +5094,6 @@ Profiler
 webrender
 :
 :
-renderer
-:
-:
 PROFILER_DBG
 WebRenderDebugOption
 :
@@ -5107,9 +5104,6 @@ TextureCacheDebug
 webrender
 :
 :
-renderer
-:
-:
 TEXTURE_CACHE_DBG
 WebRenderDebugOption
 :
@@ -5118,9 +5112,6 @@ RenderTargetDebug
 =
 >
 webrender
-:
-:
-renderer
 :
 :
 RENDER_TARGET_DBG
