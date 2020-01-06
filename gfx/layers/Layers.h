@@ -2374,7 +2374,7 @@ EndTransaction
 /
 virtual
 void
-Composite
+ScheduleComposite
 (
 )
 {

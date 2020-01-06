@@ -2585,7 +2585,7 @@ void
 WebRenderLayerManager
 :
 :
-Composite
+ScheduleComposite
 (
 )
 {

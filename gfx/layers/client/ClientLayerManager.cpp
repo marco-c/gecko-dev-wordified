@@ -2903,7 +2903,7 @@ void
 ClientLayerManager
 :
 :
-Composite
+ScheduleComposite
 (
 )
 {

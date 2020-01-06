@@ -602,7 +602,7 @@ override
 ;
 virtual
 void
-Composite
+ScheduleComposite
 (
 )
 override
