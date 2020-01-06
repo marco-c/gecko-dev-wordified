@@ -2694,6 +2694,8 @@ mChannel
 >
 StartSynthesizedResponse
 (
+nullptr
+nullptr
 EmptyCString
 (
 )

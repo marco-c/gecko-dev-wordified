@@ -765,6 +765,12 @@ override
 NS_IMETHOD
 StartSynthesizedResponse
 (
+nsIInputStream
+*
+aBody
+nsIInterceptedBodyCallback
+*
+aBodyCallback
 const
 nsACString
 &
