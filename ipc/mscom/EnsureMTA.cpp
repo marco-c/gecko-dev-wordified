@@ -244,7 +244,13 @@ EnterMTARunnable
 (
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_NewNamedThread
