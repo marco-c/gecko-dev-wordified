@@ -1197,7 +1197,7 @@ name
 basestring
     
 #
-Optimizations
+Optimization
 to
 perform
 on
@@ -1207,19 +1207,13 @@ during
 the
 optimization
 phase
+.
     
 #
-specified
-in
-order
-.
-These
-optimizations
+Optimizations
 are
 defined
 in
-    
-#
 taskcluster
 /
 taskgraph
@@ -1229,16 +1223,29 @@ optimize
 py
 .
     
-Optional
+Required
 (
 '
-optimizations
+optimization
 '
+default
+=
+None
 )
 :
-[
 Any
 (
+        
+#
+always
+run
+this
+task
+(
+default
+)
+        
+None
         
 #
 search
@@ -1248,7 +1255,7 @@ for
 the
 given
 index
-namespace
+namespaces
 and
 replace
 this
@@ -1256,14 +1263,29 @@ task
 if
 found
         
-[
+#
+the
+search
+occurs
+in
+order
+with
+the
+first
+match
+winning
+        
+{
 '
 index
 -
 search
 '
+:
+[
 basestring
 ]
+}
         
 #
 consult
@@ -1279,11 +1301,13 @@ low
 -
 value
         
-[
+{
 '
 seta
 '
-]
+:
+None
+}
         
 #
 skip
@@ -1298,7 +1322,7 @@ file
 patterns
 match
         
-[
+{
 '
 skip
 -
@@ -1306,13 +1330,13 @@ unless
 -
 changed
 '
+:
 [
 basestring
 ]
-]
+}
     
 )
-]
     
 #
 the
@@ -10300,7 +10324,7 @@ attributes
 attributes
             
 '
-optimizations
+optimization
 '
 :
 task
@@ -10308,10 +10332,9 @@ task
 get
 (
 '
-optimizations
+optimization
 '
-[
-]
+None
 )
         
 }

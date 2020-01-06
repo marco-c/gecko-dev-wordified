@@ -343,7 +343,7 @@ basestring
 }
 )
 def
-add_optimizations
+add_optimization
 (
 config
 run
@@ -615,19 +615,6 @@ digest
     
 }
     
-optimizations
-=
-taskdesc
-.
-setdefault
-(
-'
-optimizations
-'
-[
-]
-)
-    
 #
 We
 '
@@ -690,16 +677,21 @@ level
 =
 level
         
-optimizations
-.
-append
-(
+taskdesc
 [
+'
+optimization
+'
+]
+=
+{
 '
 index
 -
 search
 '
+:
+[
 TOOLCHAIN_INDEX
 .
 format
@@ -709,7 +701,7 @@ format
 subs
 )
 ]
-)
+}
     
 #
 .
@@ -1123,7 +1115,7 @@ alias
 '
 ]
     
-add_optimizations
+add_optimization
 (
 config
 run
@@ -1578,7 +1570,7 @@ alias
 '
 ]
     
-add_optimizations
+add_optimization
 (
 config
 run
