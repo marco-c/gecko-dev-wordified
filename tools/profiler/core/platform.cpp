@@ -15703,6 +15703,10 @@ GeckoMain
 "
 Compositor
 "
+"
+DOM
+Worker
+"
 }
 ;
 if
