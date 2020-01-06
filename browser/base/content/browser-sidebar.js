@@ -2379,9 +2379,7 @@ title
 {
 this
 .
-_title
-.
-value
+title
 =
 title
 ;
@@ -2783,9 +2781,7 @@ sidebarcommand
 ;
 this
 .
-_title
-.
-value
+title
 =
 "
 "
