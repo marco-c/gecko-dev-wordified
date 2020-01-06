@@ -6059,7 +6059,7 @@ return
 true
 ;
 }
-UniqueConstCodeSegment
+UniqueCodeSegment
 ModuleGenerator
 :
 :
@@ -6382,7 +6382,7 @@ CompileMode
 Tier1
 )
 ;
-UniqueConstCodeSegment
+UniqueCodeSegment
 codeSegment
 =
 finishCodeSegment
@@ -6694,7 +6694,7 @@ cancelled_
 return
 false
 ;
-UniqueConstCodeSegment
+UniqueCodeSegment
 codeSegment
 =
 finishCodeSegment

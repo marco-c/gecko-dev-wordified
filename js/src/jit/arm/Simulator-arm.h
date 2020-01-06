@@ -2944,12 +2944,6 @@ support
 bool
 wasm_interrupt_
 ;
-wasm
-:
-:
-SharedCode
-wasm_code_
-;
 /
 /
 Debugger

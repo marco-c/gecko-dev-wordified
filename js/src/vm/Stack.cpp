@@ -10763,7 +10763,7 @@ ignoredUnwound
 ;
 void
 *
-unwindPC
+pc
 =
 unwindState
 .
@@ -10780,13 +10780,13 @@ wasm
 .
 lookupCode
 (
-unwindPC
+pc
 )
 -
 >
 lookupRange
 (
-unwindPC
+pc
 )
 -
 >
@@ -10808,7 +10808,7 @@ startWasmInterrupt
 state
 .
 pc
-unwindPC
+pc
 )
 ;
 setWasmExitFP

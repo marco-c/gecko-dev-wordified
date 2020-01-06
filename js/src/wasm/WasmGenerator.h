@@ -1087,7 +1087,7 @@ ShareableBytes
 bytecode
 )
 ;
-UniqueConstCodeSegment
+UniqueCodeSegment
 finishCodeSegment
 (
 const
