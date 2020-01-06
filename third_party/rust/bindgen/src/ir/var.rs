@@ -1513,12 +1513,14 @@ and_then
 |
 t
 |
+{
 t
 .
 safe_canonical_type
 (
 ctx
 )
+}
 )
 ;
 let
@@ -2135,7 +2137,6 @@ val
 )
 =
 >
-{
 Some
 (
 (
@@ -2147,7 +2148,6 @@ into
 val
 )
 )
-}
 _
 =
 >
