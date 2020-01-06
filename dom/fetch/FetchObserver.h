@@ -164,10 +164,7 @@ final
 public
 DOMEventTargetHelper
 public
-AbortSignal
-:
-:
-Follower
+AbortFollower
 {
 public
 :
@@ -240,7 +237,7 @@ responseprogress
 )
 ;
 void
-Aborted
+Abort
 (
 )
 override
