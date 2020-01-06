@@ -1066,6 +1066,7 @@ false
 |
 attr
 |
+{
 attr
 .
 name
@@ -1074,6 +1075,7 @@ name
 "
 rustbindgen
 "
+}
 )
 {
 *

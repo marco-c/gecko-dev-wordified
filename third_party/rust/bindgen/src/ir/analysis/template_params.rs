@@ -4017,7 +4017,7 @@ Some
 TypeKind
 :
 :
-Named
+TypeParam
 )
 =
 >

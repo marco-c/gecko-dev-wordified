@@ -465,6 +465,7 @@ and_then
 |
 et
 |
+{
 Item
 :
 :
@@ -480,6 +481,7 @@ ctx
 ok
 (
 )
+}
 )
 ;
 let
@@ -735,7 +737,6 @@ and_then
 |
 t
 |
-{
 t
 .
 enum_variant_behavior
@@ -745,7 +746,6 @@ type_name
 name
 val
 )
-}
 )
 .
 or_else
@@ -941,6 +941,7 @@ any
 |
 v
 |
+{
 ctx
 .
 options
@@ -958,6 +959,7 @@ name
 (
 )
 )
+}
 )
 )
 }
@@ -1253,6 +1255,7 @@ false
 |
 b
 |
+{
 b
 =
 =
@@ -1260,6 +1263,7 @@ EnumVariantCustomBehavior
 :
 :
 Constify
+}
 )
 }
 /
@@ -1304,6 +1308,7 @@ false
 |
 b
 |
+{
 b
 =
 =
@@ -1311,6 +1316,7 @@ EnumVariantCustomBehavior
 :
 :
 Hide
+}
 )
 }
 }
