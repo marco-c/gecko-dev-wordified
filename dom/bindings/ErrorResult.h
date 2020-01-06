@@ -541,7 +541,6 @@ ThrowErrorMessage
 aCx
 static_cast
 <
-const
 unsigned
 >
 (
