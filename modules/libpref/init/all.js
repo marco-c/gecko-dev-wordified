@@ -22110,7 +22110,7 @@ specified
 in
 /
 /
-http
+https
 :
 /
 /
@@ -22122,13 +22122,10 @@ org
 /
 reports
 /
-tr36
+tr39
 /
-proposed
-.
-html
 #
-Security_Levels_and_Alerts
+Restriction_Level_Detection
 /
 /
 If
@@ -22241,7 +22238,7 @@ IDN
 restriction_profile
 "
 "
-moderate
+high
 "
 )
 ;
