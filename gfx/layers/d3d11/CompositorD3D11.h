@@ -1306,6 +1306,9 @@ mCurrentClip
 bool
 mVerifyBuffersFailed
 ;
+bool
+mUseMutexOnPresent
+;
 }
 ;
 }
