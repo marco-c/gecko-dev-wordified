@@ -2068,6 +2068,11 @@ Servo_TakeChangeHint
 nsChangeHint
 RawGeckoElementBorrowed
 element
+mozilla
+:
+:
+TraversalRestyleBehavior
+restyle_behavior
 )
 SERVO_BINDING_FUNC
 (
