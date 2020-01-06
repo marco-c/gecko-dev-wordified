@@ -4431,6 +4431,9 @@ StreamSizeListener
 class
 ShutdownObserver
 ;
+class
+ForceReloadListener
+;
 MediaDecoderOwner
 :
 :
@@ -7990,6 +7993,12 @@ RefPtr
 ShutdownObserver
 >
 mShutdownObserver
+;
+RefPtr
+<
+ForceReloadListener
+>
+mForceReloadListener
 ;
 /
 /
