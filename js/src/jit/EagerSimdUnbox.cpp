@@ -883,9 +883,7 @@ JitCompartment
 *
 jitCompartment
 =
-GetJitContext
-(
-)
+mir
 -
 >
 compartment

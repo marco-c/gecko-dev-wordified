@@ -15668,9 +15668,7 @@ JSAtomState
 &
 names
 =
-GetJitContext
-(
-)
+gen
 -
 >
 runtime
@@ -15718,9 +15716,7 @@ JSAtomState
 &
 names
 =
-GetJitContext
-(
-)
+gen
 -
 >
 runtime

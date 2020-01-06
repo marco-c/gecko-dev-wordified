@@ -994,6 +994,9 @@ public
 :
 CompileInfo
 (
+CompileRuntime
+*
+runtime
 JSScript
 *
 script
@@ -1354,17 +1357,6 @@ functionHasThisBinding
 (
 )
 )
-;
-CompileRuntime
-*
-runtime
-=
-GetJitContext
-(
-)
--
->
-runtime
 ;
 for
 (
