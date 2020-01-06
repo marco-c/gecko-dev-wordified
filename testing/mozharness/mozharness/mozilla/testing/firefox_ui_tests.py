@@ -2032,8 +2032,10 @@ is
 enabled
 set
 GCOV_PREFIX
+and
+JS_CODE_COVERAGE_OUTPUT_DIR
 env
-variable
+variables
         
 if
 self
@@ -2058,6 +2060,17 @@ GCOV_PREFIX
 self
 .
 gcov_dir
+            
+env
+[
+'
+JS_CODE_COVERAGE_OUTPUT_DIR
+'
+]
+=
+self
+.
+jsvm_dir
         
 if
 self
