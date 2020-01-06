@@ -211,9 +211,9 @@ IDWriteRenderingParams
 *
 aParams
 Float
-aContrast
-Float
 aGamma
+Float
+aContrast
 const
 gfxFontStyle
 *
