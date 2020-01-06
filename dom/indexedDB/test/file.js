@@ -1107,6 +1107,9 @@ exp1
 wasmExtractCode
 (
 module1
+"
+ion
+"
 )
 ;
 let
@@ -1115,6 +1118,9 @@ exp2
 wasmExtractCode
 (
 module2
+"
+ion
+"
 )
 ;
 let
