@@ -248,15 +248,6 @@ reason
 )
 ;
 void
-handleError
-(
-GlobalSession
-globalSession
-Exception
-ex
-)
-;
-void
 handleSuccess
 (
 GlobalSession

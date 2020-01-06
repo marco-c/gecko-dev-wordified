@@ -586,7 +586,10 @@ session
 .
 abort
 (
-null
+new
+IllegalStateException
+(
+)
 "
 No
 info

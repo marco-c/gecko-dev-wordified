@@ -936,6 +936,8 @@ GlobalSession
 globalSession
 Exception
 ex
+String
+reason
 )
 {
 performNotify
