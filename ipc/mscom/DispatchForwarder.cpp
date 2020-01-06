@@ -630,12 +630,6 @@ Invoke
 (
 NS_NewRunnableFunction
 (
-"
-DispatchForwarder
-:
-:
-GetTypeInfo
-"
 fn
 )
 )
@@ -731,12 +725,6 @@ Invoke
 (
 NS_NewRunnableFunction
 (
-"
-DispatchForwarder
-:
-:
-GetIDsOfNames
-"
 fn
 )
 )

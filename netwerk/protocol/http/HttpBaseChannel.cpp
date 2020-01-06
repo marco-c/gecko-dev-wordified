@@ -5035,15 +5035,6 @@ NewRunnableMethod
 nsresult
 >
 (
-"
-net
-:
-:
-HttpBaseChannel
-:
-:
-EnsureUploadStreamIsCloneableComplete
-"
 this
 &
 HttpBaseChannel

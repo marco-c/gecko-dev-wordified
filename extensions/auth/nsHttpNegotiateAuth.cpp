@@ -2111,15 +2111,6 @@ GetNextTokenCompleteEvent
 aCompleteEvent
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-GetNextTokenRunnable
-"
-)
 mAuthChannel
 (
 authChannel

@@ -1437,12 +1437,6 @@ MediaCodecOutputDrain
 (
 )
 :
-Runnable
-(
-"
-MediaCodecOutputDrain
-"
-)
 mMonitor
 (
 "

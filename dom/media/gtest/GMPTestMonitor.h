@@ -228,12 +228,6 @@ mozilla
 :
 NewNonOwningRunnableMethod
 (
-"
-GMPTestMonitor
-:
-:
-MarkFinished
-"
 this
 &
 GMPTestMonitor

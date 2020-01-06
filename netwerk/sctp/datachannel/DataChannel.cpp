@@ -16463,12 +16463,6 @@ nsIInputStream
 aBlob
 )
 :
-Runnable
-(
-"
-ReadBlobRunnable
-"
-)
 mConnection
 (
 aConnection
@@ -16740,12 +16734,6 @@ uint16_t
 aStream
 )
 :
-Runnable
-(
-"
-DataChannelBlobSendRunnable
-"
-)
 mConnection
 (
 aConnection

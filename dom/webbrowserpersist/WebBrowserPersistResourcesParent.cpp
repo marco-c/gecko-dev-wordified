@@ -214,12 +214,6 @@ nsIWebBrowserPersistDocument
 nsresult
 >
 (
-"
-nsIWebBrowserPersistResourceVisitor
-:
-:
-EndVisit
-"
 mVisitor
 &
 nsIWebBrowserPersistResourceVisitor

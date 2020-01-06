@@ -631,15 +631,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-dom
-:
-:
-HTMLStyleElement
-:
-:
-BindToTree
-"
 this
 update
 )

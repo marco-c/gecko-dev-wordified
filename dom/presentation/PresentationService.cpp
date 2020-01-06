@@ -5975,15 +5975,6 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
-"
-dom
-:
-:
-PresentationService
-:
-:
-UntrackSessionInfo
-"
 [
 windowId
 ]

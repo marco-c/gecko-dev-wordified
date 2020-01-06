@@ -181,15 +181,6 @@ nsIDocument
 aDoc
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsDocElementCreatedNotificationRunner
-"
-)
 mDoc
 (
 aDoc

@@ -327,15 +327,6 @@ bool
 aTrustedCaller
 )
 :
-Runnable
-(
-"
-dom
-:
-:
-PostMessageEvent
-"
-)
 StructuredCloneHolder
 (
 CloningSupported

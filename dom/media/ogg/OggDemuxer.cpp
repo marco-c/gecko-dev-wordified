@@ -1145,13 +1145,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-OggDemuxer
-:
-:
-~
-OggDemuxer
-"
 [
 ptr
 isChained
@@ -1213,8 +1206,6 @@ s
 :
 Reporting
 telemetry
-"
-"
 MEDIA_OGG_LOADED_IS_CHAINED
 =
 %

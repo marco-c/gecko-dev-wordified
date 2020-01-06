@@ -482,9 +482,6 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
-"
-EnsureMTA
-"
 eventSetter
 )
 NS_DISPATCH_NORMAL
@@ -672,15 +669,6 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
-"
-mscom
-:
-:
-EnsureMTA
-:
-:
-AsyncOperation
-"
 aClosure
 )
 NS_DISPATCH_NORMAL

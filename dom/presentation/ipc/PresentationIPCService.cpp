@@ -2210,15 +2210,6 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
-"
-dom
-:
-:
-PresentationIPCService
-:
-:
-UntrackSessionInfo
-"
 [
 windowId
 ]

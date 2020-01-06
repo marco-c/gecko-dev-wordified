@@ -2355,12 +2355,6 @@ r
 =
 NS_NewRunnableFunction
 (
-"
-OmxDataDecoder
-:
-:
-EmptyBufferDone
-"
 [
 self
 this

@@ -777,15 +777,6 @@ RunWhenRecreated
 (
 NS_NewRunnableFunction
 (
-"
-dom
-:
-:
-VideoDecoderChild
-:
-:
-ActorDestroy
-"
 [
 =
 ]

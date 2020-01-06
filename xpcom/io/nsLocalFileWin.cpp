@@ -660,12 +660,6 @@ AsyncLocalFileWinDone
 (
 )
 :
-Runnable
-(
-"
-AsyncLocalFileWinDone
-"
-)
 mWorkerThread
 (
 do_GetCurrentThread
@@ -817,12 +811,6 @@ nsAString
 aResolvedPath
 )
 :
-Runnable
-(
-"
-AsyncRevealOperation
-"
-)
 mResolvedPath
 (
 aResolvedPath

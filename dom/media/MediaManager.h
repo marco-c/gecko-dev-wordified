@@ -851,12 +851,6 @@ OnTracksAvailableCallback
 aOnTracksAvailableCallback
 )
 :
-Runnable
-(
-"
-ReleaseMediaOperationResource
-"
-)
 mStream
 (
 aStream

@@ -158,15 +158,6 @@ ObserverArray
 aObservers
 )
 :
-Runnable
-(
-"
-net
-:
-:
-nsHttpActivityEvent
-"
-)
 mHttpChannel
 (
 aHttpChannel

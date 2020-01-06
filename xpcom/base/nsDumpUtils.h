@@ -581,12 +581,6 @@ mozilla
 :
 NewRunnableMethod
 (
-"
-FdWatcher
-:
-:
-StopWatching
-"
 this
 &
 FdWatcher

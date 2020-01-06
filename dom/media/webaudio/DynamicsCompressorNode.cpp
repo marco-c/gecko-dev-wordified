@@ -803,15 +803,6 @@ float
 aReduction
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-Command
-"
-)
 mStream
 (
 aStream

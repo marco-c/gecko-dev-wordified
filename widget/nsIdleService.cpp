@@ -1063,7 +1063,7 @@ void
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 DailyCallback
 this
@@ -1074,12 +1074,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsIdleServiceDaily
-:
-:
-Observe
-"
 )
 ;
 return
@@ -1588,7 +1582,7 @@ void
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 DailyCallback
 this
@@ -1597,12 +1591,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsIdleServiceDaily
-:
-:
-Init
-"
 )
 ;
 }
@@ -2044,7 +2032,7 @@ self
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 DailyCallback
 self
@@ -2055,12 +2043,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsIdleServiceDaily
-:
-:
-DailyCallback
-"
 )
 ;
 return
@@ -5493,7 +5475,7 @@ timer
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 StaticIdleTimerCallback
 this
@@ -5506,12 +5488,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsIdleService
-:
-:
-SetTimerExpiryIfBefore
-"
 )
 ;
 }

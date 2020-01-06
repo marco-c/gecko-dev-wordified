@@ -245,10 +245,6 @@ inline
 bool
 InvokeOnMainThread
 (
-const
-char
-*
-aName
 Class
 *
 aObject
@@ -287,7 +283,6 @@ Args
 .
 >
 (
-aName
 aObject
 aMethod
 Forward

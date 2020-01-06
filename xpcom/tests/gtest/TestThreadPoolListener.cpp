@@ -842,9 +842,6 @@ runnable
 new
 Runnable
 (
-"
-TestRunnable
-"
 )
 ;
 ASSERT_TRUE

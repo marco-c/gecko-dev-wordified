@@ -1673,12 +1673,6 @@ nsIFile
 >
 >
 (
-"
-LazyInstantiator
-:
-:
-GatherTelemetry
-"
 this
 &
 LazyInstantiator
@@ -2098,12 +2092,6 @@ NewNonOwningRunnableMethod
 nsString
 >
 (
-"
-LazyInstantiator
-:
-:
-AccumulateTelemetry
-"
 this
 &
 LazyInstantiator

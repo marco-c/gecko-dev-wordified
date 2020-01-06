@@ -2609,15 +2609,6 @@ nsIInterceptedChannel
 aChannel
 )
 :
-Runnable
-(
-"
-net
-:
-:
-FinishSynthesizedResponse
-"
-)
 mChannel
 (
 aChannel

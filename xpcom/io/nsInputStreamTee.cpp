@@ -394,16 +394,6 @@ nsInputStreamTee
 *
 aTee
 )
-:
-mozilla
-:
-:
-Runnable
-(
-"
-nsInputStreamTeeWriteEvent
-"
-)
 {
 /
 /

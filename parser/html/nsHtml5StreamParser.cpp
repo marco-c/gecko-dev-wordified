@@ -7078,7 +7078,7 @@ mFlushTimerMutex
 mFlushTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsHtml5StreamParser
 :
@@ -7101,12 +7101,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsHtml5StreamParser
-:
-:
-DoDataAvailable
-"
 )
 ;
 }

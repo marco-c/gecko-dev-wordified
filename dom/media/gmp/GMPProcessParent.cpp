@@ -636,15 +636,6 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
-"
-gmp
-:
-:
-GMPProcessParent
-:
-:
-DoDelete
-"
 this
 &
 GMPProcessParent

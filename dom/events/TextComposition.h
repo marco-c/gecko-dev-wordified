@@ -2484,15 +2484,6 @@ CompositionEventDispatcher
 (
 )
 :
-Runnable
-(
-"
-TextComposition
-:
-:
-CompositionEventDispatcher
-"
-)
 mIsSynthesizedEvent
 (
 false

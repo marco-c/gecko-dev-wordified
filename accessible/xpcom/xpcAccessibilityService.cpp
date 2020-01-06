@@ -513,7 +513,7 @@ mShutdownTimer
 mShutdownTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 ShutdownCallback
 this
@@ -522,12 +522,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-xpcAccessibilityService
-:
-:
-Release
-"
 )
 ;
 }
