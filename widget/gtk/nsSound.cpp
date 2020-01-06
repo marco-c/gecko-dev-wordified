@@ -755,6 +755,12 @@ sound_theme_name
 nsAutoString
 wbrand
 ;
+mozilla
+:
+:
+widget
+:
+:
 WidgetUtils
 :
 :
@@ -1304,6 +1310,9 @@ IsHeadless
 sInstance
 =
 new
+mozilla
+:
+:
 widget
 :
 :
