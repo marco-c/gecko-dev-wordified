@@ -1761,7 +1761,7 @@ reflect
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1774,8 +1774,6 @@ names
 .
 Reflect
 value
-nullptr
-nullptr
 JSPROP_RESOLVING
 )
 )

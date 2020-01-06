@@ -6142,7 +6142,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj

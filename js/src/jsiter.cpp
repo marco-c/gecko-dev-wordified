@@ -4099,7 +4099,7 @@ next
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 res
@@ -6554,7 +6554,7 @@ Step
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 resultObj
@@ -6580,7 +6580,7 @@ Step
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 resultObj

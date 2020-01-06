@@ -15656,7 +15656,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 context
 (

@@ -4397,7 +4397,7 @@ rawStrings
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 templateObj
@@ -4410,8 +4410,6 @@ names
 .
 raw
 rawValue
-nullptr
-nullptr
 0
 )
 )

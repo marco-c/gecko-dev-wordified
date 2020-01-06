@@ -13336,7 +13336,7 @@ index
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 valuesArray

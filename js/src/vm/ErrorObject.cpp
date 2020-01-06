@@ -1997,7 +1997,7 @@ args
 )
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 thisObj
