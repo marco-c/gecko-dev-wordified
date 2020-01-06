@@ -223,6 +223,10 @@ WrImageMask
 RenderMaskLayer
 (
 const
+StackingContextHelper
+&
+aSc
+const
 gfx
 :
 :
