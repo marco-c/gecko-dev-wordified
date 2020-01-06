@@ -2978,6 +2978,14 @@ GetTestingTimeStamp
 const
 ;
 static
+void
+SetWebRenderProfilerEnabled
+(
+bool
+aEnabled
+)
+;
+static
 CompositorBridgeParent
 *
 GetCompositorBridgeParentFromLayersId
