@@ -3091,6 +3091,7 @@ repository
 .
 forget_add_remove_files
 (
+vendor_dir
 )
             
 sys
