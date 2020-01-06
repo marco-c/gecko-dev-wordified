@@ -419,7 +419,7 @@ URL
 .
 *
 /
-public
+VisibleForTesting
 static
 IconResponse
 generate
