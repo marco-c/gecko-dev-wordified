@@ -292,11 +292,5 @@ MutableHandleValue
 retval
 )
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mSystemPrincipal
-;
 }
 ;

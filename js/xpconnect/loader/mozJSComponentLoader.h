@@ -471,12 +471,6 @@ nsIComponentManager
 >
 mCompMgr
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mSystemPrincipal
-;
 class
 ModuleEntry
 :
