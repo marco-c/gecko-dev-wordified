@@ -5441,16 +5441,9 @@ marionette
 .
 start_session
 (
-            
-{
-"
-requiredCapabilities
-"
-:
 self
 .
 insecure_tls
-}
 )
     
 def
@@ -5510,16 +5503,9 @@ marionette
 .
 start_session
 (
-                
-{
-"
-requiredCapabilities
-"
-:
 self
 .
 secure_tls
-}
 )
             
 self
@@ -5576,16 +5562,9 @@ marionette
 .
 start_session
 (
-                
-{
-"
-requiredCapabilities
-"
-:
 self
 .
 insecure_tls
-}
 )
             
 self
@@ -5900,18 +5879,12 @@ start_session
 (
 {
 "
-desiredCapabilities
-"
-:
-{
-"
 pageLoadStrategy
 "
 :
 "
 none
 "
-}
 }
 )
         
@@ -6001,18 +5974,12 @@ start_session
 (
 {
 "
-desiredCapabilities
-"
-:
-{
-"
 pageLoadStrategy
 "
 :
 "
 eager
 "
-}
 }
 )
         
@@ -6092,18 +6059,12 @@ start_session
 (
 {
 "
-desiredCapabilities
-"
-:
-{
-"
 pageLoadStrategy
 "
 :
 "
 normal
 "
-}
 }
 )
         
@@ -6209,18 +6170,12 @@ start_session
 (
 {
 "
-desiredCapabilities
-"
-:
-{
-"
 pageLoadStrategy
 "
 :
 "
 eager
 "
-}
 }
 )
         

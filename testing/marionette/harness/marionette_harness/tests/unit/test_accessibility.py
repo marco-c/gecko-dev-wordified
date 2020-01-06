@@ -711,12 +711,6 @@ marionette
 .
 start_session
 (
-            
-{
-"
-requiredCapabilities
-"
-:
 {
 "
 moz
@@ -725,7 +719,6 @@ accessibilityChecks
 "
 :
 enable_a11y_checks
-}
 }
 )
         
