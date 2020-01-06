@@ -1134,6 +1134,17 @@ finish
 )
 ;
 }
+sendTelemetry
+(
+)
+;
+recordCustomTabUsage
+(
+getReferrerHost
+(
+)
+)
+;
 }
 Override
 public
