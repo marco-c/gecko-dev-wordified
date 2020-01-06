@@ -1924,6 +1924,12 @@ if
 XP_WIN
 if
 (
+!
+XRE_IsParentProcess
+(
+)
+&
+&
 aAllocator
 &
 &
