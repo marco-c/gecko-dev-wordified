@@ -213,6 +213,7 @@ configureIdentity
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -336,6 +337,7 @@ type
 Bookmark
 )
 ;
+await
 bookmarkItem
 .
 encrypt
@@ -381,6 +383,7 @@ record
 let
 payload
 =
+await
 bookmarkItem
 .
 decrypt

@@ -1012,9 +1012,7 @@ lookup
 .
 *
 /
-encrypt
-:
-function
+async
 encrypt
 (
 keyBundle
@@ -1060,6 +1058,7 @@ this
 .
 ciphertext
 =
+await
 Weave
 .
 Crypto
@@ -1106,9 +1105,7 @@ Optional
 key
 bundle
 .
-decrypt
-:
-function
+async
 decrypt
 (
 keyBundle
@@ -1222,6 +1219,7 @@ object
 let
 cleartext
 =
+await
 Weave
 .
 Crypto
@@ -2637,6 +2635,7 @@ collections
 .
 *
 /
+async
 newKeys
 (
 collections
@@ -2645,6 +2644,7 @@ collections
 let
 newDefaultKeyBundle
 =
+await
 this
 .
 newDefaultKeyBundle
@@ -2662,13 +2662,12 @@ if
 collections
 )
 {
-collections
-.
-forEach
+for
 (
-function
-(
+let
 c
+of
+collections
 )
 {
 let
@@ -2680,6 +2679,7 @@ BulkKeyBundle
 c
 )
 ;
+await
 b
 .
 generateRandom
@@ -2694,8 +2694,6 @@ c
 b
 ;
 }
-)
-;
 }
 return
 [
@@ -2731,6 +2729,7 @@ storing
 .
 *
 /
+async
 generateNewKeysWBO
 (
 collections
@@ -2745,6 +2744,7 @@ newDefaultKey
 newColls
 ]
 =
+await
 this
 .
 newKeys
@@ -2780,6 +2780,7 @@ BulkKeyBundle
 }
 *
 /
+async
 newDefaultKeyBundle
 (
 )
@@ -2793,6 +2794,7 @@ BulkKeyBundle
 DEFAULT_KEYBUNDLE_NAME
 )
 ;
+await
 key
 .
 generateRandom
@@ -2829,6 +2831,7 @@ setContents
 .
 *
 /
+async
 generateDefaultKey
 (
 )
@@ -2837,6 +2840,7 @@ this
 .
 _default
 =
+await
 this
 .
 newDefaultKeyBundle
@@ -2953,6 +2957,7 @@ keys
 .
 *
 /
+async
 ensureKeysFor
 (
 collections
@@ -3008,6 +3013,7 @@ BulkKeyBundle
 c
 )
 ;
+await
 b
 .
 generateRandom
@@ -3711,9 +3717,7 @@ changed
 true
 ;
 }
-updateContents
-:
-function
+async
 updateContents
 (
 syncKeyBundle
@@ -3794,6 +3798,7 @@ try
 {
 payload
 =
+await
 storage_keys
 .
 decrypt

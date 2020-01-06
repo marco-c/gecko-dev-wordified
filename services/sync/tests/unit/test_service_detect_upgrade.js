@@ -968,6 +968,7 @@ success
 ;
 serverDecrypted
 =
+await
 serverKeys
 .
 decrypt
@@ -1141,6 +1142,7 @@ cleartext
 =
 serverDecrypted
 ;
+await
 serverKeys
 .
 encrypt
@@ -1772,6 +1774,7 @@ wboName
 collWBO
 )
 {
+await
 generateNewKeys
 (
 Service
@@ -1794,6 +1797,7 @@ crypto
 wboName
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -1936,6 +1940,7 @@ crypto
 "
 )
 ;
+await
 badKeys
 .
 generateRandom
@@ -1986,6 +1991,7 @@ keys
 "
 )
 ;
+await
 generateNewKeys
 (
 Service

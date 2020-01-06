@@ -1397,6 +1397,7 @@ generateRandomIV
 let
 ciphertext
 =
+await
 WeaveCrypto
 .
 encrypt
@@ -1660,6 +1661,7 @@ object
 let
 cleartext
 =
+await
 WeaveCrypto
 .
 decrypt
@@ -4280,6 +4282,7 @@ one
 multiple
 times
 .
+await
 collectionKeys
 .
 generateDefaultKey

@@ -449,6 +449,7 @@ history
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {
@@ -843,6 +844,7 @@ passwords
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {
@@ -1280,6 +1282,7 @@ prefs
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {
@@ -1755,6 +1758,7 @@ forms
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {
@@ -2239,6 +2243,7 @@ bookmarks
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {

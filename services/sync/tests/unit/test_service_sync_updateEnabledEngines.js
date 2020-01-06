@@ -513,6 +513,7 @@ these
 tests
 useless
 .
+await
 generateNewKeys
 (
 Service
@@ -537,6 +538,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -1891,6 +1893,7 @@ start
 let
 wbo
 =
+await
 Service
 .
 collectionKeys
@@ -1899,6 +1902,7 @@ generateNewKeysWBO
 (
 )
 ;
+await
 wbo
 .
 encrypt

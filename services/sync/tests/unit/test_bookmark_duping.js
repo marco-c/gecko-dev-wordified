@@ -297,6 +297,7 @@ sharedSetup
 let
 server
 =
+await
 serverForFoo
 (
 engine

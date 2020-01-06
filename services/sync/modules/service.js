@@ -2127,6 +2127,7 @@ isClear
 let
 keysChanged
 =
+await
 this
 .
 collectionKeys
@@ -5423,6 +5424,7 @@ WBO
 let
 wbo
 =
+await
 this
 .
 collectionKeys
@@ -5446,6 +5448,7 @@ bundle
 "
 )
 ;
+await
 wbo
 .
 encrypt

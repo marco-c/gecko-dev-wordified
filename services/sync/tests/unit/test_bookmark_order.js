@@ -212,12 +212,14 @@ Level
 .
 Info
 ;
+async
 function
 serverForFoo
 (
 engine
 )
 {
+await
 generateNewKeys
 (
 Service
@@ -333,6 +335,7 @@ sync
 default
 :
 [
+await
 Weave
 .
 Crypto
@@ -340,6 +343,7 @@ Crypto
 generateRandomKey
 (
 )
+await
 Weave
 .
 Crypto
@@ -965,6 +969,7 @@ bookmarks
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -1181,6 +1186,7 @@ bookmarks
 let
 server
 =
+await
 serverForFoo
 (
 engine

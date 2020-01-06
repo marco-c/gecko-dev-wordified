@@ -2366,6 +2366,7 @@ wipe
 server
 )
 ;
+await
 EHTestsCommon
 .
 generateAndUploadKeys
@@ -3779,6 +3780,7 @@ wipe
 server
 )
 ;
+await
 EHTestsCommon
 .
 generateAndUploadKeys

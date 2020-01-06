@@ -259,6 +259,7 @@ record
 "
 )
 ;
+await
 record
 .
 encrypt
@@ -391,6 +392,7 @@ before
 "
 )
 ;
+await
 record
 .
 decrypt

@@ -217,6 +217,7 @@ records
 .
 *
 /
+async
 function
 check_record_version
 (
@@ -297,6 +298,7 @@ IV
 let
 cleartext
 =
+await
 rec
 .
 decrypt
@@ -694,6 +696,7 @@ coll
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -811,6 +814,7 @@ uploadNewKeys
 (
 )
 {
+await
 generateNewKeys
 (
 Service
@@ -835,6 +839,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -891,6 +896,7 @@ login
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -952,6 +958,7 @@ has
 a
 version
 .
+await
 check_record_version
 (
 user
@@ -1030,6 +1037,7 @@ resetClient
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -1054,6 +1062,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -1184,6 +1193,7 @@ resetClient
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -1453,6 +1463,7 @@ resetClient
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -1678,6 +1689,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -1701,6 +1713,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -2143,6 +2156,7 @@ week
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -2166,6 +2180,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -2688,6 +2703,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -2711,6 +2727,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -4277,6 +4294,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4300,6 +4318,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -5501,6 +5520,7 @@ wipe
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -5511,6 +5531,7 @@ collectionKeys
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -5968,6 +5989,7 @@ wipe
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -5978,6 +6000,7 @@ collectionKeys
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -7153,6 +7176,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -7164,6 +7188,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -7639,6 +7664,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -7650,6 +7676,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -8077,6 +8104,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -8088,6 +8116,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -8701,6 +8730,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -8712,6 +8742,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -9594,6 +9625,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -9605,6 +9637,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -9984,6 +10017,7 @@ now
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -9995,6 +10029,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -10431,6 +10466,7 @@ wipe
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -10441,6 +10477,7 @@ collectionKeys
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -10888,6 +10925,7 @@ extra
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -11698,6 +11736,7 @@ extra
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -12084,6 +12123,7 @@ wipe
 (
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -12094,6 +12134,7 @@ collectionKeys
 let
 server
 =
+await
 serverForFoo
 (
 engine

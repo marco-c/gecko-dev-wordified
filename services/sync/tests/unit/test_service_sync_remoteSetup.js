@@ -1642,6 +1642,7 @@ hmacerror
 "
 )
 ;
+await
 b
 .
 generateRandom
@@ -1674,6 +1675,7 @@ Future
 modification
 time
 .
+await
 keys
 .
 encrypt
@@ -1681,6 +1683,7 @@ encrypt
 b
 )
 ;
+await
 keys
 .
 upload

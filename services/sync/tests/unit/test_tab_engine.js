@@ -713,6 +713,7 @@ syncID
 }
 }
 ;
+await
 generateNewKeys
 (
 Service

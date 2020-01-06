@@ -253,12 +253,19 @@ b
 )
 ;
 }
+add_task
+(
+async
 function
 test_time_keyFromString
 (
-iterations
 )
 {
+const
+iterations
+=
+1000
+;
 let
 o
 ;
@@ -285,6 +292,7 @@ ababcdefabcdefabcdefabcdef
 "
 )
 ;
+await
 b
 .
 generateRandom
@@ -357,6 +365,7 @@ Done
 )
 ;
 }
+)
 add_test
 (
 function
@@ -938,6 +947,7 @@ keys
 let
 default_key64
 =
+await
 Weave
 .
 Crypto
@@ -949,6 +959,7 @@ generateRandomKey
 let
 default_hmac64
 =
+await
 Weave
 .
 Crypto
@@ -960,6 +971,7 @@ generateRandomKey
 let
 bookmarks_key64
 =
+await
 Weave
 .
 Crypto
@@ -971,6 +983,7 @@ generateRandomKey
 let
 bookmarks_hmac64
 =
+await
 Weave
 .
 Crypto
@@ -1057,6 +1070,7 @@ the
 key
 bundle
 .
+await
 storage_keys
 .
 encrypt
@@ -1128,6 +1142,7 @@ changed
 .
 do_check_true
 (
+await
 collectionKeys
 .
 updateContents
@@ -1344,6 +1359,7 @@ proceed
 "
 )
 ;
+await
 storage_keys
 .
 encrypt
@@ -1353,6 +1369,7 @@ keyBundle
 ;
 do_check_false
 (
+await
 collectionKeys
 .
 updateContents
@@ -1617,6 +1634,7 @@ _compareKeyBundleCollections
 .
 *
 /
+async
 function
 newBundle
 (
@@ -1632,6 +1650,7 @@ BulkKeyBundle
 name
 )
 ;
+await
 r
 .
 generateRandom
@@ -1645,6 +1664,7 @@ r
 let
 k1
 =
+await
 newBundle
 (
 "
@@ -1655,6 +1675,7 @@ k1
 let
 k2
 =
+await
 newBundle
 (
 "
@@ -1665,6 +1686,7 @@ k2
 let
 k3
 =
+await
 newBundle
 (
 "
@@ -1675,6 +1697,7 @@ k3
 let
 k4
 =
+await
 newBundle
 (
 "
@@ -1685,6 +1708,7 @@ k4
 let
 k5
 =
+await
 newBundle
 (
 "
@@ -2054,35 +2078,3 @@ foo
 }
 )
 ;
-function
-run_test
-(
-)
-{
-/
-/
-Only
-do
-1
-000
-to
-avoid
-a
-5
--
-second
-pause
-in
-test
-runs
-.
-test_time_keyFromString
-(
-1000
-)
-;
-run_next_test
-(
-)
-;
-}
