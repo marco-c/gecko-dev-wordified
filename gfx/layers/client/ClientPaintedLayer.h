@@ -667,6 +667,9 @@ aState
 void
 PaintOffMainThread
 (
+gfx
+:
+:
 DrawTargetCapture
 *
 aCapture
