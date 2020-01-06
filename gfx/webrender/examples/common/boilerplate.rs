@@ -1284,6 +1284,9 @@ toggle
 webrender
 :
 :
+DebugFlags
+:
+:
 PROFILER_DBG
 )
 ;
@@ -1340,6 +1343,9 @@ flags
 toggle
 (
 webrender
+:
+:
+DebugFlags
 :
 :
 RENDER_TARGET_DBG
@@ -1400,6 +1406,9 @@ toggle
 webrender
 :
 :
+DebugFlags
+:
+:
 TEXTURE_CACHE_DBG
 )
 ;
@@ -1456,6 +1465,9 @@ flags
 toggle
 (
 webrender
+:
+:
+DebugFlags
 :
 :
 ALPHA_PRIM_DBG
