@@ -11019,11 +11019,11 @@ old_value
 =
 context
 .
-within_functional_pseudo_class_argument
+hover_active_quirk_disabled
 ;
 context
 .
-within_functional_pseudo_class_argument
+hover_active_quirk_disabled
 =
 true
 ;
@@ -11058,7 +11058,7 @@ flags_setter
 ;
 context
 .
-within_functional_pseudo_class_argument
+hover_active_quirk_disabled
 =
 old_value
 ;
