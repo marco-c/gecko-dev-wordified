@@ -235,7 +235,7 @@ globals
 "
 :
 "
-warn
+error
 "
 "
 mozilla
@@ -250,7 +250,7 @@ used
 "
 :
 "
-warn
+error
 "
 "
 no
