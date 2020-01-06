@@ -7618,6 +7618,9 @@ actionHint
 final
 boolean
 inPrivateBrowsing
+final
+boolean
+isUserAction
 )
 {
 /
@@ -7760,6 +7763,7 @@ typeHint
 modeHint
 actionHint
 inPrivateBrowsing
+isUserAction
 )
 ;
 }

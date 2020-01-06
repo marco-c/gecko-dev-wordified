@@ -263,6 +263,8 @@ String
 actionHint
 boolean
 inPrivateBrowsing
+boolean
+isUserAction
 )
 ;
 void
