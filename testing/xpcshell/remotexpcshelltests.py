@@ -73,8 +73,9 @@ logging
 import
 posixpath
 import
-sys
 os
+import
+sys
 import
 subprocess
 import
@@ -303,7 +304,7 @@ s
 ;
 '
 %
-                 
+                
 remoteName
 .
 replace
@@ -1364,6 +1365,7 @@ remote
 device
 "
 %
+                  
 self
 .
 remoteMinidumpDir
@@ -1417,6 +1419,7 @@ XPCShellTestThread
 .
 checkForCrashes
 (
+                  
 self
 dumpDir
 symbols_path
@@ -3361,7 +3364,6 @@ self
 remoteBinDir
 ]
 )
-;
             
 except
 mozdevice
@@ -3401,7 +3403,6 @@ root
 =
 True
 )
-;
                 
 self
 .
@@ -3424,7 +3425,6 @@ root
 =
 True
 )
-;
         
 remotePrefDir
 =
@@ -3775,6 +3775,7 @@ s
 !
 "
 %
+                      
 (
 fname
 self
@@ -4683,6 +4684,7 @@ XPCShellTests
 .
 buildTestList
 (
+            
 self
 test_tags
 =

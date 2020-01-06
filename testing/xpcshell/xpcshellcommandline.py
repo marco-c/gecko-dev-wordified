@@ -476,6 +476,9 @@ plugins
 directory
 containing
 the
+"
+                             
+"
 test
 plugin
 or
@@ -485,7 +488,7 @@ for
 tests
 .
 "
-                        
+                             
 "
 By
 default
@@ -500,6 +503,9 @@ gre
 /
 plugins
 .
+"
+                             
+"
 Use
 test
 -
@@ -680,6 +686,9 @@ information
 about
 the
 build
+"
+                             
+"
 configuration
 .
 defaults
@@ -691,6 +700,9 @@ mozinfo
 json
 next
 to
+"
+                             
+"
 the
 script
 .
@@ -827,6 +839,9 @@ directory
 containing
 breakpad
 symbols
+"
+                             
+"
 or
 the
 URL
@@ -1425,11 +1440,11 @@ threads
 when
 running
 tests
-in
-parallel
 "
                              
 "
+in
+parallel
 the
 default
 is
@@ -1442,15 +1457,15 @@ when
 running
 via
 mach
+"
+                             
+"
 and
 CPU
 x
 4
 when
 running
-"
-                             
-"
 in
 automation
 "
@@ -1751,6 +1766,9 @@ be
 used
 only
 if
+"
+                             
+"
 device
 is
 already
@@ -1868,6 +1886,9 @@ use
 as
 test
 root
+"
+                             
+"
 (
 eg
 .
