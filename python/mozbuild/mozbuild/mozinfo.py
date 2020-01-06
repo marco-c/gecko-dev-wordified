@@ -1017,7 +1017,7 @@ MOZ_ARTIFACT_BUILDS
 d
 [
 '
-coverage
+ccov
 '
 ]
 =
