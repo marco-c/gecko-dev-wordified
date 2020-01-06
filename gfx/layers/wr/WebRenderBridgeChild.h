@@ -621,7 +621,10 @@ aBuilder
 const
 nsTArray
 <
-GlyphArray
+gfx
+:
+:
+Glyph
 >
 &
 aGlyphs
@@ -631,6 +634,13 @@ gfx
 ScaledFont
 *
 aFont
+const
+gfx
+:
+:
+Color
+&
+aColor
 const
 StackingContextHelper
 &
