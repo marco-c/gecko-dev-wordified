@@ -263,14 +263,12 @@ kIcePwdAttribute
 kIceUfragAttribute
 kIdentityAttribute
 kImageattrAttribute
-kInactiveAttribute
 kLabelAttribute
 kMaxptimeAttribute
 kMidAttribute
 kMsidAttribute
 kMsidSemanticAttribute
 kPtimeAttribute
-kRecvonlyAttribute
 kRemoteCandidatesAttribute
 kRidAttribute
 kRtcpAttribute
@@ -279,8 +277,6 @@ kRtcpMuxAttribute
 kRtcpRsizeAttribute
 kRtpmapAttribute
 kSctpmapAttribute
-kSendonlyAttribute
-kSendrecvAttribute
 kSetupAttribute
 kSimulcastAttribute
 kSsrcAttribute
