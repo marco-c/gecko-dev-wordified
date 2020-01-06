@@ -1545,6 +1545,10 @@ mSpellCheckerDictionaryUpdated
 (
 true
 )
+mIsHTMLEditorClass
+(
+false
+)
 {
 }
 EditorBase
