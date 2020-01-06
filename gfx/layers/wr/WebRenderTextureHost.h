@@ -445,7 +445,7 @@ override
 ;
 virtual
 void
-PushResourceUpdates
+AddWRImage
 (
 wr
 :
@@ -453,11 +453,9 @@ wr
 ResourceUpdateQueue
 &
 aResources
-ResourceUpdateOp
-aOp
-const
 Range
 <
+const
 wr
 :
 :
