@@ -999,6 +999,15 @@ Some
 sheet
 )
 ;
+self
+.
+cssom_stylesheet
+.
+set
+(
+None
+)
+;
 doc
 .
 invalidate_stylesheets
