@@ -554,28 +554,6 @@ releng
 manifest
 '
             
-'
-mobile
-/
-android
-/
-config
-/
-tooltool
--
-manifests
-/
-android
--
-gradle
--
-dependencies
-/
-releng
-.
-manifest
-'
-            
 ]
         
 '
