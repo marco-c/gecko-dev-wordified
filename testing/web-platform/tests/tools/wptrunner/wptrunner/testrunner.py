@@ -876,6 +876,14 @@ object
 )
 :
     
+init_lock
+=
+threading
+.
+Lock
+(
+)
+    
 def
 __init__
 (
@@ -1060,7 +1068,7 @@ stops
 the
 spawned
 processes
-initialising
+initalising
 correctly
 and
         
@@ -1103,13 +1111,35 @@ runner
 "
 )
         
+with
+self
+.
+init_lock
+:
+            
+#
+Guard
+against
+problems
+initialising
+the
+browser
+or
+the
+browser
+            
+#
+remote
+control
+method
+            
 if
 not
 self
 .
 no_timeout
 :
-            
+                
 self
 .
 init_timer
@@ -1123,15 +1153,15 @@ self
 browser
 .
 init_timeout
-                                              
+                                                  
 self
 .
 init_timeout
 )
-        
+            
 try
 :
-            
+                
 if
 self
 .
@@ -1140,7 +1170,7 @@ is
 not
 None
 :
-                
+                    
 self
 .
 init_timer
@@ -1148,7 +1178,7 @@ init_timer
 start
 (
 )
-            
+                
 self
 .
 logger
@@ -1168,7 +1198,7 @@ self
 .
 browser_settings
 )
-            
+                
 self
 .
 browser
@@ -1181,7 +1211,7 @@ self
 .
 browser_settings
 )
-            
+                
 self
 .
 browser_pid
@@ -1193,10 +1223,10 @@ browser
 pid
 (
 )
-        
+            
 except
 :
-            
+                
 self
 .
 logger
@@ -1217,7 +1247,7 @@ format_exc
 (
 )
 )
-            
+                
 if
 self
 .
@@ -1226,7 +1256,7 @@ is
 not
 None
 :
-                
+                    
 self
 .
 init_timer
@@ -1234,7 +1264,7 @@ init_timer
 cancel
 (
 )
-            
+                
 self
 .
 logger
@@ -1247,18 +1277,18 @@ format_exc
 (
 )
 )
-            
+                
 succeeded
 =
 False
-        
+            
 else
 :
-            
+                
 succeeded
 =
 True
-            
+                
 self
 .
 started
@@ -1516,12 +1546,12 @@ before_init
 ]
 )
     
-initializing
+initalizing
 =
 namedtuple
 (
 "
-initializing_browser
+initalizing_browser
 "
                              
 [
@@ -1530,9 +1560,6 @@ test
 "
 "
 test_queue
-"
-"
-queue_metadata
 "
 "
 failure_count
@@ -1571,9 +1598,6 @@ test
 "
 test_queue
 "
-"
-queue_metadata
-"
 ]
 )
     
@@ -1611,6 +1635,14 @@ threading
 Thread
 )
 :
+    
+init_lock
+=
+threading
+.
+Lock
+(
+)
     
 def
 __init__
@@ -2132,7 +2164,7 @@ start_init
                 
 RunnerManagerState
 .
-initializing
+initalizing
 :
 self
 .
@@ -2464,7 +2496,7 @@ before_init
             
 RunnerManagerState
 .
-initializing
+initalizing
 :
             
 {
@@ -2949,7 +2981,6 @@ self
         
 test
 test_queue
-queue_metadata
 =
 self
 .
@@ -2976,11 +3007,10 @@ else
 return
 RunnerManagerState
 .
-initializing
+initalizing
 (
 test
 test_queue
-queue_metadata
 0
 )
     
@@ -2999,7 +3029,7 @@ self
 state
 RunnerManagerState
 .
-initializing
+initalizing
 )
         
 if
@@ -3078,26 +3108,20 @@ result
 return
 RunnerManagerState
 .
-initializing
+initalizing
 (
 self
 .
 state
 .
 test
-                                                   
+                                                  
 self
 .
 state
 .
 test_queue
-                                                   
-self
-.
-state
-.
-queue_metadata
-                                                   
+                                                  
 self
 .
 state
@@ -3109,21 +3133,6 @@ failure_count
         
 else
 :
-            
-self
-.
-executor_kwargs
-[
-"
-queue_metadata
-"
-]
-=
-self
-.
-state
-.
-queue_metadata
             
 self
 .
@@ -3187,7 +3196,7 @@ self
 state
 RunnerManagerState
 .
-initializing
+initalizing
 )
         
 assert
@@ -3339,7 +3348,7 @@ self
 state
 RunnerManagerState
 .
-initializing
+initalizing
 )
         
 self
@@ -3383,7 +3392,7 @@ self
 state
 RunnerManagerState
 .
-initializing
+initalizing
 )
         
 self
@@ -3406,26 +3415,20 @@ True
 return
 RunnerManagerState
 .
-initializing
+initalizing
 (
 self
 .
 state
 .
 test
-                                               
+                                              
 self
 .
 state
 .
 test_queue
-                                               
-self
-.
-state
-.
-queue_metadata
-                                               
+                                              
 self
 .
 state
@@ -3462,7 +3465,6 @@ None
 :
                 
 test_queue
-queue_metadata
 =
 self
 .
@@ -3494,39 +3496,57 @@ tests
 return
 None
 None
-None
-                
-if
-len
-(
-test_queue
-)
-=
-=
-0
+            
+try
 :
-                    
-test_queue
-queue_metadata
-=
-None
-None
                 
-else
-:
-                    
+#
+Need
+to
+block
+here
+just
+to
+allow
+for
+contention
+with
+other
+processes
+                
 test
 =
 test_queue
 .
-popleft
+get
+(
+block
+=
+True
+timeout
+=
+2
+)
+            
+except
+Empty
+:
+                
+if
+test_queue
+.
+empty
 (
 )
+:
+                    
+test_queue
+=
+None
         
 return
 test
 test_queue
-queue_metadata
     
 def
 run_test
@@ -3603,12 +3623,6 @@ self
 state
 .
 test_queue
-                                                 
-self
-.
-state
-.
-queue_metadata
 )
         
 self
@@ -4144,7 +4158,6 @@ running
         
 test
 test_queue
-queue_metadata
 =
 self
 .
@@ -4205,7 +4218,6 @@ restarting
 (
 test
 test_queue
-queue_metadata
 )
         
 else
@@ -4259,7 +4271,7 @@ stop_runner
 return
 RunnerManagerState
 .
-initializing
+initalizing
 (
 self
 .
@@ -4271,11 +4283,6 @@ self
 state
 .
 test_queue
-self
-.
-state
-.
-queue_metadata
 0
 )
     
