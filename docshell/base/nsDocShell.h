@@ -2423,6 +2423,9 @@ ShouldAddToSessionHistory
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
 )
 ;
 /
