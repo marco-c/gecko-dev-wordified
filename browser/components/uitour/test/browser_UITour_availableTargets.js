@@ -979,13 +979,13 @@ push
 action
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 ]
 )
 ;
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 =
 inUrlbar
 ;
@@ -1023,7 +1023,7 @@ _originalStates
 {
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 =
 originalState
 ;

@@ -210,7 +210,7 @@ _
 Tests
 that
 the
-shownInUrlbar
+pinnedToUrlbar
 property
 of
 the
@@ -315,7 +315,7 @@ Action
 object
 .
 Its
-shownInUrlbar
+pinnedToUrlbar
 should
 have
 been
@@ -362,7 +362,7 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 true
 )
 ;
@@ -408,7 +408,7 @@ the
 action
 .
 Its
-shownInUrlbar
+pinnedToUrlbar
 should
 remain
 true
@@ -428,7 +428,7 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 true
 )
 ;
@@ -437,13 +437,13 @@ true
 Now
 set
 its
-shownInUrlbar
+pinnedToUrlbar
 to
 false
 .
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 =
 false
 ;
@@ -490,7 +490,7 @@ the
 action
 .
 Its
-shownInUrlbar
+pinnedToUrlbar
 should
 remain
 false
@@ -510,7 +510,7 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 false
 )
 ;
