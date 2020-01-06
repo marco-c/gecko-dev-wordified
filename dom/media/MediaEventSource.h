@@ -175,6 +175,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -742,6 +751,9 @@ nsIRunnable
 aTask
 )
 {
+Unused
+<
+<
 aTarget
 -
 >
@@ -751,10 +763,6 @@ Move
 (
 aTask
 )
-AbstractThread
-:
-:
-DontAssertDispatchSuccess
 )
 ;
 }
