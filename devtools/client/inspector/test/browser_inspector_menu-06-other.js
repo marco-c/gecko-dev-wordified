@@ -759,8 +759,6 @@ eval
 "
 !
 !
-content
-.
 document
 .
 documentElement
