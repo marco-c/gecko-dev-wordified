@@ -372,11 +372,6 @@ nsAString
 aOutString
 )
 ;
-bool
-IsCallerExternalProcess
-(
-)
-;
 #
 endif
 /
@@ -407,6 +402,11 @@ defined
 (
 MOZILLA_INTERNAL_API
 )
+bool
+IsCallerExternalProcess
+(
+)
+;
 bool
 IsInterfaceEqualToOrInheritedFrom
 (
