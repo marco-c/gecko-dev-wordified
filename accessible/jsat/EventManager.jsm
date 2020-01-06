@@ -1606,10 +1606,6 @@ if
 evt
 .
 changedAttribute
-.
-toString
-(
-)
 !
 =
 =

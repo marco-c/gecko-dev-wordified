@@ -10906,10 +10906,6 @@ is
 event
 .
 changedAttribute
-.
-toString
-(
-)
 aAttr
 "
 Wrong
@@ -10974,10 +10970,6 @@ target
 scEvent
 .
 changedAttribute
-.
-toString
-(
-)
 =
 =
 aAttr
