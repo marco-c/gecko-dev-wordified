@@ -107,15 +107,6 @@ taskcluster
 docker
 '
 )
-INDEX_PREFIX
-=
-'
-docker
-.
-images
-.
-v2
-'
 def
 docker_image
 (
