@@ -785,16 +785,6 @@ n
 "
 )
 ;
-if
-(
-CacheObserver
-:
-:
-UseNewCache
-(
-)
-)
-{
 /
 /
 Visit
@@ -903,7 +893,6 @@ n
 "
 )
 ;
-}
 mBuffer
 .
 AppendLiteral
