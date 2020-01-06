@@ -17992,6 +17992,14 @@ mDestinationTrackID
 )
 )
 ;
+mCapturedTrackSource
+-
+>
+RegisterSink
+(
+this
+)
+;
 }
 void
 Destroy
