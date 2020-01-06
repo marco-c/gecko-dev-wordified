@@ -479,6 +479,8 @@ UntypedCallbackHolder
 ActorIdType
 aActorId
 RejectCallback
+&
+&
 aReject
 )
 :
@@ -542,8 +544,12 @@ ResolveCallback
 <
 Value
 >
+&
+&
 aResolve
 RejectCallback
+&
+&
 aReject
 )
 :
@@ -1143,8 +1149,12 @@ ResolveCallback
 <
 Value
 >
+&
+&
 aResolve
 RejectCallback
+&
+&
 aReject
 )
 {
