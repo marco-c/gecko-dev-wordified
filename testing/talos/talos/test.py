@@ -1065,12 +1065,6 @@ startup_test
 sessionrestore
 /
 addon
-/
-sessionrestore
--
-signed
-.
-xpi
 '
     
 cycles
@@ -1381,12 +1375,6 @@ startup_test
 tresize
 /
 addon
-/
-tresize
--
-signed
-.
-xpi
 '
     
 cycles
@@ -1985,12 +1973,6 @@ talos
 tests
 /
 tabpaint
-/
-tabpaint
--
-signed
-.
-xpi
 '
     
 tpmanifest
@@ -2166,12 +2148,6 @@ talos
 tests
 /
 tabswitch
-/
-tabswitch
--
-signed
-.
-xpi
 '
     
 tpmanifest
@@ -2553,12 +2529,6 @@ tests
 tart
 /
 addon
-/
-tart
--
-signed
-.
-xpi
 '
     
 tpcycles
@@ -2871,12 +2841,6 @@ tests
 tart
 /
 addon
-/
-tart
--
-signed
-.
-xpi
 '
     
 tpcycles
@@ -3052,12 +3016,6 @@ tests
 devtools
 /
 addon
-/
-devtools
--
-signed
-.
-xpi
 '
     
 cycles

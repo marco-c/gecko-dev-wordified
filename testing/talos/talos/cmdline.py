@@ -1074,14 +1074,6 @@ talos
 talos
 -
 powers
-/
-talos
--
-powers
--
-signed
-.
-xpi
 '
                      
 '
@@ -1090,12 +1082,6 @@ talos
 }
 /
 pageloader
-/
-pageloader
--
-signed
-.
-xpi
 '
 ]
             
