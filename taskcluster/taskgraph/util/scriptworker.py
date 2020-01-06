@@ -2658,6 +2658,9 @@ def
 get_release_config
 (
 config
+force
+=
+False
 )
 :
     
@@ -2761,6 +2764,8 @@ release_config
 }
     
 if
+force
+or
 config
 .
 params
@@ -2786,8 +2791,7 @@ get
 "
 BUILD_NUMBER
 "
-"
-"
+1
 )
 )
         
