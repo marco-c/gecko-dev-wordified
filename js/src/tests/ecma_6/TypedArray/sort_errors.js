@@ -322,6 +322,8 @@ b
 )
 ;
 }
+otherGlobal
+.
 TypeError
 )
 ;
