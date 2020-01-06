@@ -762,8 +762,9 @@ sizes
 .
 add
 (
-new
 Integer
+.
+valueOf
 (
 keys
 .
