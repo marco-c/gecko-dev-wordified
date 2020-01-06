@@ -8434,9 +8434,6 @@ tunables
 GCSchedulingState
 schedulingState
 ;
-MemProfiler
-mMemProfiler
-;
 /
 /
 State
