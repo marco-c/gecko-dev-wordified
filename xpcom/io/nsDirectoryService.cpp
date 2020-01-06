@@ -821,8 +821,8 @@ undef
 DIR_ATOM
 static
 const
-nsStaticAtom
-directory_atoms
+nsStaticAtomSetup
+sDirectoryServiceAtomSetup
 [
 ]
 =
@@ -834,7 +834,7 @@ DIR_ATOM
 name_
 value_
 )
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -922,7 +922,7 @@ nsDirectoryService
 ;
 NS_RegisterStaticAtoms
 (
-directory_atoms
+sDirectoryServiceAtomSetup
 )
 ;
 /

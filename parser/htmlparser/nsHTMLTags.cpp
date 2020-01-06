@@ -429,7 +429,7 @@ _tag
 _classname
 _interfacename
 )
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 Atombuffer_
 #
@@ -457,8 +457,8 @@ _tag
 )
 static
 const
-nsStaticAtom
-sTagAtoms_info
+nsStaticAtomSetup
+sTagAtomSetup
 [
 ]
 =
@@ -488,7 +488,7 @@ atom
 pointers
 NS_RegisterStaticAtoms
 (
-sTagAtoms_info
+sTagAtomSetup
 )
 ;
 #
@@ -539,7 +539,7 @@ temp1
 char16_t
 *
 )
-sTagAtoms_info
+sTagAtomSetup
 [
 i
 ]
@@ -554,7 +554,7 @@ temp2
 char16_t
 *
 )
-sTagAtoms_info
+sTagAtomSetup
 [
 i
 ]
@@ -636,7 +636,7 @@ temp2
 char16_t
 *
 )
-sTagAtoms_info
+sTagAtomSetup
 [
 i
 ]

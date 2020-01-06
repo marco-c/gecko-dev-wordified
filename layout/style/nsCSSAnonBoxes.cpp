@@ -197,8 +197,8 @@ undef
 CSS_ANON_BOX
 static
 const
-nsStaticAtom
-CSSAnonBoxes_info
+nsStaticAtomSetup
+sCSSAnonBoxAtomSetup
 [
 ]
 =
@@ -241,7 +241,7 @@ name_
 value_
 )
 \
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -279,7 +279,7 @@ name_
 value_
 )
 \
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -333,7 +333,7 @@ AddRefAtoms
 {
 NS_RegisterStaticAtoms
 (
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 )
 ;
 }
@@ -355,10 +355,10 @@ nsAtomListUtils
 IsMember
 (
 aAtom
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 ArrayLength
 (
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 )
 )
 ;
@@ -454,7 +454,7 @@ i
 <
 ArrayLength
 (
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 )
 ;
 +
@@ -465,7 +465,7 @@ i
 if
 (
 *
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 [
 i
 ]
@@ -527,7 +527,7 @@ _Count
 ;
 return
 *
-CSSAnonBoxes_info
+sCSSAnonBoxAtomSetup
 [
 static_cast
 <

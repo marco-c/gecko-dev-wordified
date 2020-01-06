@@ -1577,8 +1577,8 @@ undef
 RDF_ATOM
 static
 const
-nsStaticAtom
-rdf_atoms
+nsStaticAtomSetup
+sRDFContentSinkAtomSetup
 [
 ]
 =
@@ -1590,7 +1590,7 @@ RDF_ATOM
 name_
 value_
 )
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -1627,7 +1627,7 @@ RegisterAtoms
 {
 NS_RegisterStaticAtoms
 (
-rdf_atoms
+sRDFContentSinkAtomSetup
 )
 ;
 }

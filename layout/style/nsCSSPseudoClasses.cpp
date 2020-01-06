@@ -316,7 +316,7 @@ CSS_PSEUDO_CLASS
 /
 Array
 of
-nsStaticAtom
+nsStaticAtomSetup
 for
 each
 of
@@ -327,8 +327,8 @@ classes
 .
 static
 const
-nsStaticAtom
-CSSPseudoClasses_info
+nsStaticAtomSetup
+sCSSPseudoClassAtomSetup
 [
 ]
 =
@@ -343,7 +343,7 @@ flags_
 pref_
 )
 \
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -399,7 +399,7 @@ it
 in
 /
 /
-nsStaticAtom
+nsStaticAtomSetup
 .
 /
 *
@@ -589,7 +589,7 @@ AddRefAtoms
 {
 NS_RegisterStaticAtoms
 (
-CSSPseudoClasses_info
+sCSSPseudoClassAtomSetup
 )
 ;
 #
@@ -777,7 +777,7 @@ aType
 ;
 (
 *
-CSSPseudoClasses_info
+sCSSPseudoClassAtomSetup
 [
 idx
 ]
@@ -821,7 +821,7 @@ i
 <
 ArrayLength
 (
-CSSPseudoClasses_info
+sCSSPseudoClassAtomSetup
 )
 ;
 +
@@ -832,7 +832,7 @@ i
 if
 (
 *
-CSSPseudoClasses_info
+sCSSPseudoClassAtomSetup
 [
 i
 ]

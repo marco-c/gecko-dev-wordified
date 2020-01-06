@@ -444,7 +444,7 @@ h
 /
 /
 for
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 etc
 #
 include
@@ -740,8 +740,8 @@ RegisterAtoms
 {
 static
 const
-nsStaticAtom
-ts_atoms
+nsStaticAtomSetup
+sTSAtomSetup
 [
 ]
 =
@@ -753,7 +753,7 @@ TS_ATOM
 name_
 value_
 )
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -782,7 +782,7 @@ TS_ATOM
 ;
 NS_RegisterStaticAtoms
 (
-ts_atoms
+sTSAtomSetup
 )
 ;
 }
