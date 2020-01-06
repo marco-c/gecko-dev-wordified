@@ -19462,12 +19462,6 @@ type
 =
 =
 LOCAL_GL_UNSIGNED_SHORT_5_6_5
-|
-|
-type
-=
-=
-LOCAL_GL_UNSIGNED_SHORT
 )
 {
 return
