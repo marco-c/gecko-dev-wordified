@@ -228,6 +228,8 @@ classList
 contains
 (
 "
+onboarding
+-
 opened
 "
 )
