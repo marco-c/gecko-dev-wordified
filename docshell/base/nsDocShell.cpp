@@ -9892,6 +9892,11 @@ No
 forced
 download
 postStream
+-
+1
+/
+/
+XXXbaku
 headersStream
 loadType
 nullptr
@@ -30218,6 +30223,8 @@ VoidString
 (
 )
 nullptr
+-
+1
 nullptr
 LOAD_ERROR_PAGE
 nullptr
@@ -30811,6 +30818,14 @@ nullptr
 No
 post
 data
+-
+1
+/
+/
+No
+post
+data
+length
 nullptr
 /
 /
@@ -56006,6 +56021,8 @@ aTypeHint
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -56082,6 +56099,10 @@ aPrincipalToInherit
 mPostData
 (
 aPostData
+)
+mPostDataLength
+(
+aPostDataLength
 )
 mHeadersData
 (
@@ -56189,6 +56210,7 @@ VoidString
 (
 )
 mPostData
+mPostDataLength
 mHeadersData
 mLoadType
 mSHEntry
@@ -56266,6 +56288,9 @@ nsCOMPtr
 nsIInputStream
 >
 mPostData
+;
+int64_t
+mPostDataLength
 ;
 nsCOMPtr
 <
@@ -56516,6 +56541,8 @@ aFileName
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -59208,6 +59235,7 @@ No
 forced
 download
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -59737,6 +59765,7 @@ principalToInherit
 aFlags
 aTypeHint
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -62395,6 +62424,7 @@ principalToInherit
 aFlags
 aTypeHint
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -63414,6 +63444,7 @@ principalToInherit
 aTypeHint
 aFileName
 aPostData
+aPostDataLength
 aHeadersData
 aFirstParty
 aDocShell
@@ -64260,6 +64291,8 @@ aFileName
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -67055,8 +67088,7 @@ aPostData
 EmptyCString
 (
 )
--
-1
+aPostDataLength
 )
 ;
 }
@@ -76654,6 +76686,14 @@ postData
 Post
 data
 stream
+-
+1
+/
+/
+Post
+data
+stream
+length
 nullptr
 /
 /
@@ -84780,6 +84820,15 @@ aPostDataStream
 Post
 data
 stream
+-
+1
+/
+/
+Post
+data
+stream
+length
+XXXbaku
 aHeadersDataStream
 /
 /
