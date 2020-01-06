@@ -454,15 +454,7 @@ getSimpleName
 ;
 DEBUG
 =
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
-AppConstants
-.
-DEBUG_BUILD
-;
+false
 ;
 }
 Override
