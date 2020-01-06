@@ -265,14 +265,6 @@ MediaResource
 )
 override
 ;
-private
-:
-RefPtr
-<
-MediaFormatReader
->
-mReader
-;
 }
 ;
 }

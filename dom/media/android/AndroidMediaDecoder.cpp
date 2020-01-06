@@ -169,11 +169,8 @@ CreateStateMachine
 (
 )
 {
-return
-new
-MediaDecoderStateMachine
-(
-this
+mReader
+=
 new
 AndroidMediaReader
 (
@@ -181,6 +178,13 @@ this
 mType
 mResource
 )
+;
+return
+new
+MediaDecoderStateMachine
+(
+this
+mReader
 )
 ;
 }

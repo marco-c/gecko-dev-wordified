@@ -200,11 +200,7 @@ CreateStateMachine
 (
 )
 {
-RefPtr
-<
-MediaDecoderReader
->
-reader
+mReader
 =
 new
 MediaFormatReader
@@ -222,7 +218,7 @@ new
 MediaDecoderStateMachine
 (
 this
-reader
+mReader
 )
 ;
 }

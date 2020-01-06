@@ -427,14 +427,6 @@ aString
 )
 override
 ;
-private
-:
-RefPtr
-<
-MediaFormatReader
->
-mReader
-;
 }
 ;
 }
