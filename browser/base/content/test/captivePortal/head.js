@@ -569,9 +569,11 @@ a
 short
 recheck
 .
-Preferences
+Services
 .
-set
+prefs
+.
+setIntPref
 (
 "
 captivedetect

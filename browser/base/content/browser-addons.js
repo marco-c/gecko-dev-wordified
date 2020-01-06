@@ -2255,9 +2255,11 @@ notificationElement
 {
 if
 (
-Preferences
+Services
 .
-get
+prefs
+.
+getBoolPref
 (
 "
 xpinstall
