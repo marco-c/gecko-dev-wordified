@@ -9180,7 +9180,7 @@ mainWindow
 openPreferences
 (
 "
-panePrivacy
+paneAdvanced
 "
 {
 origin
