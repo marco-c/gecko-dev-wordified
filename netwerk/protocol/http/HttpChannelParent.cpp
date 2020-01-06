@@ -1036,6 +1036,11 @@ beConservative
 )
 a
 .
+tlsFlags
+(
+)
+a
+.
 loadInfo
 (
 )
@@ -3079,6 +3084,10 @@ bool
 &
 beConservative
 const
+uint32_t
+&
+tlsFlags
+const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs
@@ -4463,6 +4472,14 @@ httpChannel
 SetBeConservative
 (
 beConservative
+)
+;
+httpChannel
+-
+>
+SetTlsFlags
+(
+tlsFlags
 )
 ;
 httpChannel

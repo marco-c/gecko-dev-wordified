@@ -136,6 +136,8 @@ int32_t
 socksVersion
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 fd

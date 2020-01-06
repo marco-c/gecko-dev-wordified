@@ -172,6 +172,8 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 *
@@ -196,6 +198,7 @@ _result
 securityInfo
 false
 flags
+tlsFlags
 )
 ;
 return
@@ -245,6 +248,8 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 aSocket
@@ -268,6 +273,7 @@ aSocket
 securityInfo
 false
 flags
+tlsFlags
 )
 ;
 return

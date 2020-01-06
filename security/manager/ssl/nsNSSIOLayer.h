@@ -241,6 +241,8 @@ SharedSSLState
 aState
 uint32_t
 providerFlags
+uint32_t
+providerTlsFlags
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -451,6 +453,16 @@ const
 {
 return
 mProviderFlags
+;
+}
+uint32_t
+GetProviderTlsFlags
+(
+)
+const
+{
+return
+mProviderTlsFlags
 ;
 }
 mozilla
@@ -770,6 +782,9 @@ mBypassAuthentication
 ;
 uint32_t
 mProviderFlags
+;
+uint32_t
+mProviderTlsFlags
 ;
 mozilla
 :
@@ -1117,6 +1132,8 @@ bool
 forSTARTTLS
 uint32_t
 flags
+uint32_t
+tlsFlags
 )
 ;
 nsresult
@@ -1148,6 +1165,8 @@ bool
 forSTARTTLS
 uint32_t
 flags
+uint32_t
+tlsFlags
 )
 ;
 nsresult
