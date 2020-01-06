@@ -3017,6 +3017,12 @@ friend
 class
 AutoPrepareTraversal
 ;
+bool
+ShouldTraverseInParallel
+(
+)
+const
+;
 /
 *
 *
