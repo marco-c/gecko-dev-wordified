@@ -6660,7 +6660,7 @@ id
 .
 home
 :
-finishChoosingTransition
+onBackPressed
 (
 )
 ;
