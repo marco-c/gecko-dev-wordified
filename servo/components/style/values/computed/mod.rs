@@ -3170,7 +3170,6 @@ HeapSizeOf
 [
 derive
 (
-Animate
 Clone
 ComputeSquaredDistance
 Copy
