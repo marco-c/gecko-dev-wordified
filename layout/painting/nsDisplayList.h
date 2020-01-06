@@ -10689,6 +10689,15 @@ aOther
 .
 mDisableSubpixelAA
 )
+#
+ifdef
+MOZ_DUMP_PAINTING
+mPainted
+(
+false
+)
+#
+endif
 {
 }
 struct
