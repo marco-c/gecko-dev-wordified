@@ -417,7 +417,7 @@ aCommands
 )
 ;
 }
-bool
+void
 WebRenderBridgeChild
 :
 :
@@ -448,9 +448,6 @@ mReadLocks
 AppendElement
 (
 )
-;
-return
-true
 ;
 }
 void
