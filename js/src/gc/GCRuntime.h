@@ -925,6 +925,10 @@ gcZoneAllocThresholdBase_
 ;
 /
 *
+*
+JSGC_ALLOCATION_THRESHOLD_FACTOR
+*
+*
 Fraction
 of
 threshold
@@ -947,6 +951,10 @@ float
 zoneAllocThresholdFactor_
 ;
 /
+*
+*
+JSGC_ALLOCATION_THRESHOLD_FACTOR_AVOID_INTERRUPT
+*
 *
 The
 same
