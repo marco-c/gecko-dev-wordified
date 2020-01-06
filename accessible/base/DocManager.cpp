@@ -802,7 +802,6 @@ Remove
 aDocument
 )
 ;
-}
 if
 (
 !
@@ -819,6 +818,7 @@ nsAccessibilityService
 eXPCOM
 )
 ;
+}
 }
 }
 void
