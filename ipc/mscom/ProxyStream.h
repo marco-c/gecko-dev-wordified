@@ -276,14 +276,11 @@ mUnmarshaledProxy
 bool
 GetInterface
 (
-REFIID
-aIID
 void
 *
 *
 aOutInterface
 )
-const
 ;
 const
 BYTE
