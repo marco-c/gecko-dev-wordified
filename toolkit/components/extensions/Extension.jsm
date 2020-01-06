@@ -7716,11 +7716,10 @@ shutdown
 "
 )
 ;
-Services
+await
+this
 .
-ppmm
-.
-broadcastAsyncMessage
+broadcast
 (
 "
 Extension
