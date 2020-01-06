@@ -180,7 +180,7 @@ test1
 ;
 ps
 .
-readUserPrefs
+readUserPrefsFromFile
 (
 file
 )
