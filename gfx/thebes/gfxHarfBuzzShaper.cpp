@@ -7473,9 +7473,6 @@ mCmapTable
 len
 )
 ;
-bool
-symbol
-;
 mCmapFormat
 =
 gfxFontUtils
@@ -7489,8 +7486,6 @@ len
 mSubtableOffset
 &
 mUVSTableOffset
-&
-symbol
 )
 ;
 if

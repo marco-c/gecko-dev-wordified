@@ -4664,9 +4664,6 @@ aTableOffset
 uint32_t
 *
 aUVSTableOffset
-bool
-*
-aSymbolEncoding
 )
 ;
 static
@@ -4685,12 +4682,6 @@ aCharacterMap
 uint32_t
 &
 aUVSOffset
-bool
-&
-aUnicodeFont
-bool
-&
-aSymbolFont
 )
 ;
 static

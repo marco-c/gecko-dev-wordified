@@ -2783,9 +2783,6 @@ aFontInfoData
 uint32_t
 &
 aUVSOffset
-bool
-&
-aSymbolFont
 )
 ;
 /
