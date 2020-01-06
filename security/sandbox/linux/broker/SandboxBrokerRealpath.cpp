@@ -423,16 +423,6 @@ h
 "
 /
 /
-base
-:
-:
-strlcpy
-using
-namespace
-base
-;
-/
-/
 Original
 copy
 in
@@ -516,6 +506,9 @@ pos1
 return
 pos1
 +
+base
+:
+:
 strlcpy
 (
 s1
@@ -841,6 +834,9 @@ resolved_len
 ;
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
@@ -914,6 +910,9 @@ resolved
 ;
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
@@ -1857,6 +1856,9 @@ NULL
 }
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
