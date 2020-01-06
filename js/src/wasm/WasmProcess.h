@@ -362,6 +362,11 @@ CodeSegment
 cs
 )
 ;
+void
+ShutDownProcessStaticData
+(
+)
+;
 }
 /
 /
