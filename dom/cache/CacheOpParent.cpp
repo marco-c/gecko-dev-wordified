@@ -197,6 +197,17 @@ InputStreamUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+IPCStreamUtils
+.
+h
+"
 namespace
 mozilla
 {
