@@ -1368,20 +1368,6 @@ canonical_suffix
 ]
 )
         
-append_var
-(
-'
-DSO_CFLAGS
-'
-)
-        
-append_var
-(
-'
-DSO_PIC_CFLAGS
-'
-)
-        
 if
 canonical_suffix
 in
