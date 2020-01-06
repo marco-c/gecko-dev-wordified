@@ -440,6 +440,10 @@ getter_AddRefs
 stream
 )
 base
+.
+forget
+(
+)
 4096
 )
 ;
@@ -626,6 +630,10 @@ getter_AddRefs
 stream
 )
 base
+.
+forget
+(
+)
 4096
 )
 ;

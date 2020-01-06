@@ -201,8 +201,10 @@ ConvertAsyncToSyncStream
 (
 uint64_t
 aStreamSize
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aAsyncStream
 nsIInputStream
 *
