@@ -443,7 +443,6 @@ maybe_set_metric
 (
 epoch
 0
-.
 )
 ;
 assert_eq
@@ -490,8 +489,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 ;
 paint_time_metrics
 .
@@ -585,8 +582,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 ;
 paint_time_metrics
 .
@@ -768,8 +763,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 ;
 paint_time_metrics
 .

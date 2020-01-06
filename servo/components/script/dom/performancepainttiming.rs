@@ -160,7 +160,7 @@ metric_type
 ProgressiveWebMetricType
 start_time
 :
-f64
+u64
 )
 -
 >
@@ -241,6 +241,8 @@ paint
 "
 )
 start_time
+as
+f64
 0
 .
 )
@@ -266,7 +268,7 @@ metric_type
 ProgressiveWebMetricType
 start_time
 :
-f64
+u64
 )
 -
 >

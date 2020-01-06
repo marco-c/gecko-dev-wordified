@@ -1808,7 +1808,7 @@ load
 .
 navigation_start_precise
 :
-f64
+u64
 }
 impl
 InProgressLoad
@@ -1882,8 +1882,6 @@ navigation_start_precise
 precise_time_ns
 (
 )
-as
-f64
 ;
 layout_chan
 .
@@ -20382,7 +20380,7 @@ metric_type
 ProgressiveWebMetricType
 metric_value
 :
-f64
+u64
 )
 {
 let

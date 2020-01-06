@@ -792,7 +792,7 @@ started
 .
 SetNavigationStart
 (
-f64
+u64
 )
 }
 #

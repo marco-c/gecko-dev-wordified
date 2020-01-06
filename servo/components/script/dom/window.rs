@@ -1601,7 +1601,7 @@ navigation_start_precise
 :
 Cell
 <
-f64
+u64
 >
 screen
 :
@@ -8756,7 +8756,7 @@ self
 )
 -
 >
-f64
+u64
 {
 self
 .
@@ -14471,8 +14471,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 )
 ;
 }
@@ -14657,7 +14655,7 @@ navigation_start
 u64
 navigation_start_precise
 :
-f64
+u64
 webgl_chan
 :
 WebGLChan

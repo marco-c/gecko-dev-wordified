@@ -958,7 +958,7 @@ thread
 PaintMetric
 (
 Epoch
-f64
+u64
 )
 }
 /
@@ -2629,7 +2629,7 @@ PaintMetric
 (
 PipelineId
 ProgressiveWebMetricType
-f64
+u64
 )
 }
 impl

@@ -872,7 +872,7 @@ bool
 >
 navigation_start_precise
 :
-f64
+u64
 }
 impl
 Performance
@@ -889,7 +889,7 @@ navigation_start
 u64
 navigation_start_precise
 :
-f64
+u64
 )
 -
 >
@@ -1007,7 +1007,7 @@ navigation_start
 u64
 navigation_start_precise
 :
-f64
+u64
 )
 -
 >
@@ -1961,15 +1961,14 @@ time
 precise_time_ns
 (
 )
-as
-f64
 -
 nav_start
 )
-/
-1000000
 as
 f64
+/
+1000000
+.
 }
 }
 impl

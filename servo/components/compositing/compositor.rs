@@ -8832,8 +8832,6 @@ paint_time
 precise_time_ns
 (
 )
-as
-f64
 ;
 let
 mut
