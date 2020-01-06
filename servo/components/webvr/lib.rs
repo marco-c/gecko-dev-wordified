@@ -90,6 +90,10 @@ msg
 ;
 extern
 crate
+rust_webvr
+;
+extern
+crate
 script_traits
 ;
 extern
