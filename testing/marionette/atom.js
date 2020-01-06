@@ -147,6 +147,12 @@ atom
 "
 ]
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 atom

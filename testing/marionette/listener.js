@@ -4844,9 +4844,11 @@ response
 *
 param
 {
-?
-=
+*
 }
+[
+Object
+]
 data
 *
 JSON
@@ -4921,7 +4923,7 @@ chrome
 *
 param
 {
-?
+Object
 }
 obj
 *

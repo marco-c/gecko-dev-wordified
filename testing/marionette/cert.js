@@ -204,6 +204,7 @@ preloadlist
 /
 *
 *
+*
 TLS
 certificate
 service
@@ -212,6 +213,9 @@ management
 for
 Marionette
 .
+*
+*
+namespace
 *
 /
 this

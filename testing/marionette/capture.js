@@ -141,12 +141,16 @@ xhtml
 /
 *
 *
+*
 Provides
 primitives
 to
 capture
 screenshots
 .
+*
+*
+namespace
 *
 /
 this

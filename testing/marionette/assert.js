@@ -211,6 +211,7 @@ Firefox
 /
 *
 *
+*
 Shorthands
 for
 common
@@ -219,6 +220,9 @@ made
 in
 Marionette
 .
+*
+*
+namespace
 *
 /
 this

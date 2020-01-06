@@ -291,6 +291,12 @@ accessibility
 "
 ]
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 accessibility
@@ -727,8 +733,10 @@ this
 return
 {
 Promise
-:
+.
+<
 nsIAccessible
+>
 }
 *
 Promise

@@ -147,6 +147,12 @@ addon
 "
 ]
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 addon
@@ -393,8 +399,10 @@ otherwise
 return
 {
 Promise
-:
+.
+<
 string
+>
 }
 *
 Addon

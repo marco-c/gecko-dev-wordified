@@ -402,6 +402,12 @@ server
 "
 ]
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 server
@@ -3810,7 +3816,7 @@ Response
 *
 param
 {
-?
+number
 }
 msgID
 *
@@ -4064,8 +4070,7 @@ order
 *
 param
 {
-Command
-Response
+Message
 }
 msg
 *
@@ -4217,8 +4222,7 @@ it
 *
 param
 {
-Command
-Response
+Message
 }
 msg
 *
@@ -4282,6 +4286,11 @@ client
 param
 {
 Object
+.
+<
+string
+?
+>
 }
 payload
 *

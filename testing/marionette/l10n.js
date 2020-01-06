@@ -268,6 +268,12 @@ l10n
 "
 ]
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 l10n

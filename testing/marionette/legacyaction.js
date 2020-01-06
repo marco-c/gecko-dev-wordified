@@ -209,6 +209,12 @@ Marionette
 "
 )
 ;
+/
+*
+*
+namespace
+*
+/
 this
 .
 legacyaction
