@@ -7580,6 +7580,8 @@ NULL
 JOF_ATOM
 |
 JOF_PROP
+|
+JOF_TYPESET
 )
 \
 /
@@ -9567,9 +9569,9 @@ Operands
 *
 Stack
 :
+propval
 receiver
 obj
-propval
 =
 >
 obj
@@ -9595,6 +9597,8 @@ NULL
 JOF_BYTE
 |
 JOF_ELEM
+|
+JOF_TYPESET
 |
 JOF_LEFTASSOC
 )
