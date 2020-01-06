@@ -529,7 +529,9 @@ SVGGraphicsElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix

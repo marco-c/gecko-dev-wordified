@@ -627,7 +627,9 @@ SVGGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -861,7 +863,9 @@ SVGGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1118,7 +1122,9 @@ animTransformList
 =
 GetGradientTransformList
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -2354,7 +2360,9 @@ SVGGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsAutoString
@@ -3155,7 +3163,9 @@ SVGLinearGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 )
 ;
@@ -3344,7 +3354,9 @@ SVGLinearGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 const
@@ -3939,7 +3951,9 @@ SVGRadialGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 )
 ;
@@ -4190,7 +4204,9 @@ SVGRadialGradientElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 const

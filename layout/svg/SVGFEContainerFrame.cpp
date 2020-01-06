@@ -467,7 +467,9 @@ nsSVGFE
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if

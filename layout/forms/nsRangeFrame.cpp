@@ -2961,7 +2961,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -3184,7 +3186,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -3388,7 +3392,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5049,7 +5055,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5592,7 +5600,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 return
@@ -5681,7 +5691,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5713,7 +5725,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5745,7 +5759,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >

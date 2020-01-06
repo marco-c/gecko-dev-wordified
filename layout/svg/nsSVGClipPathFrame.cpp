@@ -2757,7 +2757,9 @@ SVGClipPathElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix

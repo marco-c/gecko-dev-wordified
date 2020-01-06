@@ -2129,7 +2129,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 /

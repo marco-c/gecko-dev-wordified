@@ -593,7 +593,9 @@ SVGMarkerElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 mInUse2
@@ -776,7 +778,9 @@ SVGMarkerElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -1093,7 +1097,9 @@ SVGMarkerElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -1300,7 +1306,9 @@ SVGMarkerElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 marker

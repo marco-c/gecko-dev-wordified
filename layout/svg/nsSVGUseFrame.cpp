@@ -693,7 +693,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -989,7 +991,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsSVGGFrame
@@ -1144,7 +1148,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1301,7 +1307,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -1593,7 +1601,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsIContent
@@ -1672,7 +1682,9 @@ SVGUseElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsIContent

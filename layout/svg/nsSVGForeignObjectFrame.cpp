@@ -1177,7 +1177,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1292,7 +1294,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsSVGAnimatedTransformList
@@ -1724,7 +1728,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2052,7 +2058,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2274,7 +2282,9 @@ SVGForeignObjectElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2689,7 +2699,9 @@ SVGForeignObjectElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 /
@@ -3230,7 +3242,9 @@ SVGForeignObjectElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 float
@@ -3446,7 +3460,9 @@ SVGForeignObjectElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix

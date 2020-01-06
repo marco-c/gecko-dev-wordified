@@ -22357,7 +22357,9 @@ SVGContextPaint
 :
 GetContextPaint
 (
-mContent
+GetContent
+(
+)
 )
 ;
 while
@@ -24365,7 +24367,9 @@ SVGTextContentElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix
@@ -31904,7 +31908,9 @@ SVGTextContentElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsSVGLength2
@@ -33036,7 +33042,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 style
 -
