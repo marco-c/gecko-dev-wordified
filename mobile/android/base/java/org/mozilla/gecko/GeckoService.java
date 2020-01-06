@@ -717,12 +717,6 @@ onCreate
 (
 )
 {
-GeckoAppShell
-.
-ensureCrashHandling
-(
-)
-;
 GeckoThread
 .
 onResume
