@@ -811,6 +811,12 @@ FAILED
 (
 hr
 )
+&
+&
+hr
+!
+=
+MF_E_TRANSFORM_NEED_MORE_INPUT
 )
 {
 return
