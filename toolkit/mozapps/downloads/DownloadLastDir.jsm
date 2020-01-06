@@ -1130,6 +1130,8 @@ interfaces
 nsIContentPref
 )
 {
+try
+{
 file
 =
 Components
@@ -1167,6 +1169,17 @@ result
 value
 )
 ;
+}
+catch
+(
+e
+)
+{
+file
+=
+plainPrefFile
+;
+}
 }
 aCallback
 (
