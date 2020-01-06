@@ -407,7 +407,7 @@ generation
 *
 /
 MFBT_API
-bool
+void
 MozStackWalk
 (
 MozWalkStackCallback
@@ -601,7 +601,7 @@ obtained
 *
 /
 MFBT_API
-bool
+void
 MozStackWalkThread
 (
 MozWalkStackCallback
@@ -1243,7 +1243,7 @@ namespace
 mozilla
 {
 MFBT_API
-bool
+void
 FramePointerStackWalk
 (
 MozWalkStackCallback
