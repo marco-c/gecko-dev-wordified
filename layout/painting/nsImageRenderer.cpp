@@ -3551,6 +3551,12 @@ DrawImage
 (
 *
 ctx
+mForFrame
+-
+>
+StyleContext
+(
+)
 aPresContext
 image
 samplingFilter

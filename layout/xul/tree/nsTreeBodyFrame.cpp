@@ -23103,6 +23103,7 @@ nsLayoutUtils
 DrawImage
 (
 aRenderingContext
+imageContext
 aPresContext
 image
 nsLayoutUtils
@@ -24954,6 +24955,7 @@ nsLayoutUtils
 DrawImage
 (
 aRenderingContext
+meterContext
 aPresContext
 image
 nsLayoutUtils
@@ -25179,6 +25181,7 @@ nsLayoutUtils
 DrawImage
 (
 aRenderingContext
+meterContext
 aPresContext
 image
 nsLayoutUtils
