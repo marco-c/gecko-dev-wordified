@@ -2751,16 +2751,6 @@ bool
 aIsLongpressEnabled
 )
 {
-MOZ_ASSERT
-(
-AndroidBridge
-:
-:
-IsJavaUiThread
-(
-)
-)
-;
 RefPtr
 <
 IAPZCTreeManager
