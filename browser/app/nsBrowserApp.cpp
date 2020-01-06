@@ -1461,6 +1461,10 @@ static
 nsresult
 InitXPCOMGlue
 (
+const
+char
+*
+argv0
 )
 {
 UniqueFreePtr
@@ -1474,6 +1478,7 @@ BinaryPath
 :
 Get
 (
+argv0
 )
 ;
 if
@@ -1724,6 +1729,10 @@ rv
 =
 InitXPCOMGlue
 (
+argv
+[
+0
+]
 )
 ;
 if
@@ -1792,6 +1801,10 @@ rv
 =
 InitXPCOMGlue
 (
+argv
+[
+0
+]
 )
 ;
 if

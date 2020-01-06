@@ -3384,6 +3384,10 @@ appFile
 ;
 XRE_GetBinaryPath
 (
+appArgv
+[
+0
+]
 getter_AddRefs
 (
 appFile
