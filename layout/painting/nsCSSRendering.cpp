@@ -5209,7 +5209,7 @@ dev
 pixels
 .
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aPresContext
 -
@@ -5225,7 +5225,7 @@ joinedBorderAreaPx
 NSRectToRect
 (
 joinedBorderArea
-twipsPerPixel
+oneDevPixel
 )
 ;
 Float
@@ -5242,7 +5242,7 @@ border
 top
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -5250,7 +5250,7 @@ border
 right
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -5258,7 +5258,7 @@ border
 bottom
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -5266,7 +5266,7 @@ border
 left
 )
 /
-twipsPerPixel
+oneDevPixel
 }
 ;
 Rect
@@ -5275,7 +5275,7 @@ dirtyRect
 NSRectToRect
 (
 aDirtyRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 uint8_t
@@ -6557,7 +6557,7 @@ our
 conversion
 values
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aPresContext
 -
@@ -6579,7 +6579,7 @@ oRect
 NSRectToRect
 (
 outerRect
-twipsPerPixel
+oneDevPixel
 )
 )
 ;
@@ -6603,7 +6603,7 @@ outlineRadii
 ComputePixelRadii
 (
 twipsRadii
-twipsPerPixel
+oneDevPixel
 &
 outlineRadii
 )
@@ -6834,25 +6834,25 @@ Float
 width
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 width
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 width
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 width
 )
 /
-twipsPerPixel
+oneDevPixel
 }
 ;
 Rect
@@ -6861,7 +6861,7 @@ dirtyRect
 NSRectToRect
 (
 aDirtyRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 nsIDocument
@@ -9217,7 +9217,7 @@ aOutRadii
 {
 const
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aFrame
 -
@@ -9296,7 +9296,7 @@ hasBorderRadius
 ComputePixelRadii
 (
 twipsRadii
-twipsPerPixel
+oneDevPixel
 &
 aOutRadii
 )
@@ -9432,7 +9432,7 @@ borderRadii
 ;
 const
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aPresContext
 -
@@ -9510,7 +9510,7 @@ hasBorderRadius
 ComputePixelRadii
 (
 twipsRadii
-twipsPerPixel
+oneDevPixel
 &
 borderRadii
 )
@@ -9557,7 +9557,7 @@ ThebesRect
 NSRectToRect
 (
 frameRect
-twipsPerPixel
+oneDevPixel
 )
 )
 ;
@@ -9700,7 +9700,7 @@ nsLayoutUtils
 RectToGfxRect
 (
 paddingRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 }
@@ -9896,7 +9896,7 @@ nsContextBoxBlur
 GetBlurRadiusMargin
 (
 blurRadius
-twipsPerPixel
+oneDevPixel
 )
 )
 ;
@@ -9906,7 +9906,7 @@ shadowGfxRectPlusBlur
 NSRectToRect
 (
 shadowRectPlusBlur
-twipsPerPixel
+oneDevPixel
 )
 ;
 shadowGfxRectPlusBlur
@@ -10014,7 +10014,7 @@ shadowItem
 >
 mSpread
 blurRadius
-twipsPerPixel
+oneDevPixel
 &
 aRenderingContext
 aDirtyRect
@@ -10313,7 +10313,7 @@ innerClipRect
 NSRectToRect
 (
 frameRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 if
@@ -10682,7 +10682,7 @@ shadowItem
 mSpread
 )
 /
-twipsPerPixel
+oneDevPixel
 ;
 Float
 borderSizes
@@ -10738,7 +10738,7 @@ BlurRectangle
 &
 aRenderingContext
 shadowRect
-twipsPerPixel
+oneDevPixel
 hasBorderRadius
 ?
 &
@@ -11066,7 +11066,7 @@ twipsRadii
 ;
 const
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aFrame
 -
@@ -11102,7 +11102,7 @@ hasBorderRadius
 ComputePixelRadii
 (
 twipsRadii
-twipsPerPixel
+oneDevPixel
 &
 borderRadii
 )
@@ -11121,7 +11121,7 @@ border
 top
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -11129,7 +11129,7 @@ border
 right
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -11137,7 +11137,7 @@ border
 bottom
 )
 /
-twipsPerPixel
+oneDevPixel
 Float
 (
 border
@@ -11145,7 +11145,7 @@ border
 left
 )
 /
-twipsPerPixel
+oneDevPixel
 }
 ;
 nsCSSBorderRenderer
@@ -11264,7 +11264,7 @@ innerRadii
 ;
 const
 nscoord
-twipsPerPixel
+oneDevPixel
 =
 aPresContext
 -
@@ -11368,7 +11368,7 @@ nsContextBoxBlur
 GetBlurRadiusMargin
 (
 blurRadius
-twipsPerPixel
+oneDevPixel
 )
 ;
 nsRect
@@ -11457,7 +11457,7 @@ shadowItem
 >
 mSpread
 /
-twipsPerPixel
+oneDevPixel
 ;
 nscoord
 spreadDistanceAppUnits
@@ -11503,7 +11503,7 @@ shadowClipGfxRect
 NSRectToRect
 (
 shadowClipRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 shadowClipGfxRect
@@ -11731,7 +11731,7 @@ nsLayoutUtils
 RectToGfxRect
 (
 skipRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 if
@@ -11899,7 +11899,7 @@ shadowGfxRect
 NSRectToRect
 (
 paddingRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 shadowGfxRect
@@ -11996,7 +11996,7 @@ nsLayoutUtils
 RectToGfxRect
 (
 shadowPaintRect
-twipsPerPixel
+oneDevPixel
 )
 ;
 Point
@@ -12007,13 +12007,13 @@ shadowItem
 >
 mXOffset
 /
-twipsPerPixel
+oneDevPixel
 shadowItem
 -
 >
 mYOffset
 /
-twipsPerPixel
+oneDevPixel
 )
 ;
 insetBoxBlur
@@ -12030,7 +12030,7 @@ shadowClipGfxRect
 shadowColor
 blurRadius
 spreadDistanceAppUnits
-twipsPerPixel
+oneDevPixel
 hasBorderRadius
 clipRectRadii
 ToRect
@@ -21758,7 +21758,7 @@ RoundIntToPixel
 nscoord
 aValue
 nscoord
-aTwipsPerPixel
+aOneDevPixel
 bool
 aRoundDown
 =
@@ -21767,7 +21767,7 @@ false
 {
 if
 (
-aTwipsPerPixel
+aOneDevPixel
 <
 =
 0
@@ -21787,7 +21787,11 @@ a
 resolution
 greater
 than
-Twips
+/
+/
+one
+device
+pixel
 !
 /
 /
@@ -21814,7 +21818,7 @@ halfPixel
 =
 NSToCoordRound
 (
-aTwipsPerPixel
+aOneDevPixel
 /
 2
 .
@@ -21826,7 +21830,7 @@ extra
 =
 aValue
 %
-aTwipsPerPixel
+aOneDevPixel
 ;
 nscoord
 finalValue
@@ -21847,7 +21851,7 @@ halfPixel
 aValue
 +
 (
-aTwipsPerPixel
+aOneDevPixel
 -
 extra
 )
@@ -21867,7 +21871,7 @@ RoundFloatToPixel
 float
 aValue
 nscoord
-aTwipsPerPixel
+aOneDevPixel
 bool
 aRoundDown
 =
@@ -21881,7 +21885,7 @@ NSToCoordRound
 (
 aValue
 )
-aTwipsPerPixel
+aOneDevPixel
 aRoundDown
 )
 ;
@@ -22642,7 +22646,7 @@ aBorderLength
 nscoord
 aDashLength
 nscoord
-aTwipsPerPixel
+aOneDevPixel
 int32_t
 &
 aNumDashSpaces
@@ -22737,7 +22741,7 @@ RoundIntToPixel
 extra
 /
 2
-aTwipsPerPixel
+aOneDevPixel
 )
 ;
 aStartDashLength
