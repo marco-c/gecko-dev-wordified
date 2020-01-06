@@ -215,7 +215,9 @@ sqlite
 let
 profileDir
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
