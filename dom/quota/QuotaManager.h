@@ -629,6 +629,11 @@ aOrigin
 nsIFile
 *
 aFile
+int64_t
+*
+aFileSizeOut
+=
+nullptr
 )
 ;
 already_AddRefed
@@ -651,6 +656,11 @@ const
 nsAString
 &
 aPath
+int64_t
+*
+aFileSizeOut
+=
+nullptr
 )
 ;
 Nullable
