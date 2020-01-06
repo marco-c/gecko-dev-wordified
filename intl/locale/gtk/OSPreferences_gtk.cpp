@@ -93,6 +93,13 @@ MPL
 /
 #
 include
+<
+locale
+.
+h
+>
+#
+include
 "
 OSPreferences
 .
