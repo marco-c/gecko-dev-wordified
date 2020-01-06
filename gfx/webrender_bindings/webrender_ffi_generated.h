@@ -2763,7 +2763,7 @@ aDlData
 WR_FUNC
 ;
 WR_INLINE
-void
+uint64_t
 wr_dp_push_clip
 (
 WrState
