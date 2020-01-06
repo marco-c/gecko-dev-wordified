@@ -2115,6 +2115,9 @@ CacheStorage
 :
 Match
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -2163,6 +2166,7 @@ request
 =
 ToInternalRequest
 (
+aCx
 aRequest
 IgnoreBody
 aRv

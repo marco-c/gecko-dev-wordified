@@ -266,6 +266,9 @@ Promise
 >
 Match
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -285,6 +288,9 @@ Promise
 >
 MatchAll
 (
+JSContext
+*
+aCx
 const
 Optional
 <
@@ -350,6 +356,9 @@ Promise
 >
 Put
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -368,6 +377,9 @@ Promise
 >
 Delete
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -387,6 +399,9 @@ Promise
 >
 Keys
 (
+JSContext
+*
+aCx
 const
 Optional
 <
@@ -576,6 +591,9 @@ Promise
 >
 PutAll
 (
+JSContext
+*
+aCx
 const
 nsTArray
 <
