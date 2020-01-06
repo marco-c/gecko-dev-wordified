@@ -862,7 +862,7 @@ should_be_blocked_due_to_bad_port
 &
 request
 .
-url
+current_url
 (
 )
 )
