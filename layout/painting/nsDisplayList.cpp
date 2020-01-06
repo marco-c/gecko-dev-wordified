@@ -46959,7 +46959,7 @@ effects
 With
 prerender
 and
-sync
+async
 transform
 animation
 we
@@ -47121,7 +47121,6 @@ it
 as
 the
 position
-/
 /
 /
 size
