@@ -124,6 +124,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -162,9 +169,6 @@ h
 "
 class
 gfxImageSurface
-;
-struct
-gfxRect
 ;
 template
 <

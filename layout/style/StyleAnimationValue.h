@@ -113,6 +113,13 @@ mozilla_StyleAnimationValue_h_
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

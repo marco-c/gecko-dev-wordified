@@ -120,6 +120,13 @@ nsStyleTransformMatrix_h_
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -141,6 +148,13 @@ h
 include
 "
 nsCSSValue
+.
+h
+"
+#
+include
+"
+nsSize
 .
 h
 "

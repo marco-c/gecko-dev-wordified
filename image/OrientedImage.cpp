@@ -2174,6 +2174,12 @@ innerSize
 gfxRect
 invalidRect
 (
+matrix
+.
+TransformBounds
+(
+gfxRect
+(
 rect
 .
 x
@@ -2187,12 +2193,7 @@ rect
 .
 height
 )
-;
-invalidRect
-.
-TransformBoundsBy
-(
-matrix
+)
 )
 ;
 return

@@ -102,6 +102,13 @@ __NS_SVGPAINTSERVERFRAME_H__
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -177,9 +184,6 @@ gfxPattern
 ;
 class
 nsStyleContext
-;
-struct
-gfxRect
 ;
 /
 *

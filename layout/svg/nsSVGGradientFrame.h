@@ -118,6 +118,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -160,9 +167,6 @@ nsIPresShell
 ;
 class
 nsStyleContext
-;
-struct
-gfxRect
 ;
 namespace
 mozilla

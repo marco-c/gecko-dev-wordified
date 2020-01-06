@@ -1606,10 +1606,12 @@ height
 )
 ;
 transDirtyRect
-.
-TransformBoundsBy
-(
+=
 invmatrix
+.
+TransformBounds
+(
+transDirtyRect
 )
 ;
 kidDirtyRect

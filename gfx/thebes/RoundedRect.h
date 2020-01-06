@@ -106,6 +106,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
