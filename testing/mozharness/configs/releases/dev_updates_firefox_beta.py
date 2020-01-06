@@ -296,8 +296,6 @@ update_channels
         
 "
 beta
--
-dev
 "
 :
 {
@@ -351,9 +349,7 @@ s
 /
 MozJamun
 /
-MozBeta
--
-dev
+Mozbeta
 /
             
 "
@@ -377,8 +373,6 @@ update_verify_channel
 "
 beta
 -
-dev
--
 localtest
 "
             
@@ -396,20 +390,14 @@ channel_names
 [
 "
 beta
--
-dev
 "
 "
 beta
--
-dev
 -
 localtest
 "
 "
 beta
--
-dev
 -
 cdntest
 "
@@ -425,16 +413,12 @@ firefox
 -
 beta
 -
-dev
--
 cdntest
 "
 "
 firefox
 -
 beta
--
-dev
 -
 localtest
 "
