@@ -234,6 +234,11 @@ false
 )
 ;
 void
+RefreshVRControllers
+(
+)
+;
+void
 ScanForControllers
 (
 )
@@ -421,11 +426,6 @@ Shutdown
 ;
 void
 DispatchVRDisplayInfoUpdate
-(
-)
-;
-void
-RefreshVRControllers
 (
 )
 ;
