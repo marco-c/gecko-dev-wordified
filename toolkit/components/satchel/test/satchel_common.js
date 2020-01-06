@@ -358,10 +358,12 @@ if
 !
 modifier
 )
+{
 modifier
 =
 null
 ;
+}
 /
 /
 Window
@@ -532,6 +534,7 @@ i
 +
 +
 )
+{
 is
 (
 actualValues
@@ -554,6 +557,7 @@ entry
 i
 )
 ;
+}
 }
 var
 checkObserver
@@ -631,17 +635,21 @@ length
 =
 0
 )
+{
 callback
 (
 )
 ;
+}
 else
+{
 this
 .
 callback
 =
 callback
 ;
+}
 }
 observe
 (
@@ -673,8 +681,10 @@ formhistory
 update
 "
 )
+{
 return
 ;
+}
 ok
 (
 this
@@ -1689,6 +1699,7 @@ if
 (
 gPopupShownListener
 )
+{
 gPopupShownListener
 (
 {
@@ -1696,6 +1707,7 @@ results
 }
 )
 ;
+}
 }
 )
 ;

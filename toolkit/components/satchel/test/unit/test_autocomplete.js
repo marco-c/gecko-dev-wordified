@@ -105,6 +105,7 @@ length
 <
 length
 )
+{
 str
 =
 "
@@ -113,6 +114,7 @@ str
 +
 str
 ;
+}
 return
 str
 ;
@@ -241,6 +243,7 @@ exists
 (
 )
 )
+{
 destFile
 .
 remove
@@ -248,6 +251,7 @@ remove
 false
 )
 ;
+}
 testfile
 .
 copyTo

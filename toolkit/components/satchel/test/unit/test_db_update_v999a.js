@@ -265,6 +265,7 @@ exists
 (
 )
 )
+{
 destFile
 .
 remove
@@ -272,6 +273,7 @@ remove
 false
 )
 ;
+}
 testfile
 .
 copyTo

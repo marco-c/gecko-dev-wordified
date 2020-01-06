@@ -249,6 +249,7 @@ expire_days
 "
 )
 )
+{
 Services
 .
 prefs
@@ -264,6 +265,7 @@ expire_days
 "
 )
 ;
+}
 do_test_finished
 (
 )
@@ -397,6 +399,7 @@ exists
 (
 )
 )
+{
 dbFile
 .
 remove
@@ -404,6 +407,7 @@ remove
 false
 )
 ;
+}
 testfile
 .
 copyTo

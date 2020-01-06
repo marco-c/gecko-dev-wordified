@@ -966,9 +966,11 @@ if
 !
 reason
 )
+{
 next_test
 (
 )
+}
 }
 handleErrors
 (

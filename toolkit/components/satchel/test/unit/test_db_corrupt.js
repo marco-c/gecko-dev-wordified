@@ -143,6 +143,7 @@ exists
 (
 )
 )
+{
 destFile
 .
 remove
@@ -150,6 +151,7 @@ remove
 false
 )
 ;
+}
 bakFile
 =
 profileDir
@@ -179,6 +181,7 @@ exists
 (
 )
 )
+{
 bakFile
 .
 remove
@@ -186,6 +189,7 @@ remove
 false
 )
 ;
+}
 testfile
 .
 copyTo
