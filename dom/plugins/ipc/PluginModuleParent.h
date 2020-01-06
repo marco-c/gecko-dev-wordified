@@ -2022,9 +2022,6 @@ GetPluginDetails
 (
 )
 ;
-bool
-mIsNPShutdownPending
-;
 nsresult
 mAsyncNewRv
 ;
