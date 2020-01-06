@@ -1148,6 +1148,10 @@ InitChildReflowInput
 nsPresContext
 &
 aPresContext
+const
+ReflowInput
+&
+aOuterRS
 ReflowInput
 &
 aReflowInput
