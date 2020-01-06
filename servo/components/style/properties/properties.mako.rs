@@ -3330,7 +3330,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 f
@@ -3510,7 +3510,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 f
@@ -13608,7 +13608,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 /
@@ -13809,7 +13809,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 writing_mode
@@ -14568,7 +14568,7 @@ Option
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 {
 self
@@ -14654,7 +14654,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 {
@@ -16826,7 +16826,7 @@ map
 |
 map
 .
-get
+get_computed_value
 (
 name
 )
@@ -18147,7 +18147,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 /
@@ -18352,7 +18352,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 writing_mode
@@ -19304,7 +19304,7 @@ Arc
 custom_properties
 :
 :
-ComputedValuesMap
+CustomPropertiesMap
 >
 >
 {
