@@ -120,6 +120,10 @@ pub
 offset
 :
 DevicePoint
+pub
+scale
+:
+f32
 }
 pub
 type

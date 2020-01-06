@@ -513,6 +513,9 @@ mod
 internal_types
 ;
 mod
+picture
+;
+mod
 prim_store
 ;
 mod

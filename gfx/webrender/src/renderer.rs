@@ -124,6 +124,7 @@ api
 :
 {
 ColorF
+ColorU
 Epoch
 PipelineId
 RenderApiSender
@@ -3375,7 +3376,7 @@ factor
 .
 Subpixel
 (
-ColorF
+ColorU
 )
 }
 /
@@ -14729,6 +14730,10 @@ device
 set_blend_mode_subpixel
 (
 color
+.
+into
+(
+)
 )
 ;
 }

@@ -563,7 +563,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 /
 /
@@ -653,7 +653,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 last_access
 :
@@ -875,9 +875,12 @@ user_data
 [
 1
 ]
-0
+self
 .
-0
+user_data
+[
+2
+]
 ]
 )
 ;
@@ -1767,7 +1770,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 mut
 dirty_rect
@@ -3384,7 +3387,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 )
 -
@@ -3682,7 +3685,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 )
 {
@@ -5501,7 +5504,7 @@ user_data
 [
 f32
 ;
-2
+3
 ]
 frame_id
 :
