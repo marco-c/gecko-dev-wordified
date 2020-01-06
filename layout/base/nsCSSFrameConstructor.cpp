@@ -48484,6 +48484,9 @@ NoteDirtyForServo
 }
 }
 }
+#
+ifdef
+DEBUG
 static
 bool
 IsFlattenedTreeChild
@@ -48542,6 +48545,8 @@ return
 false
 ;
 }
+#
+endif
 void
 nsCSSFrameConstructor
 :
