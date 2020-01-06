@@ -288,6 +288,17 @@ shutdownPingSender
 .
 enabled
 "
+ShutdownPingSenderFirstSession
+:
+"
+toolkit
+.
+telemetry
+.
+shutdownPingSender
+.
+enabledFirstSession
+"
 TelemetryEnabled
 :
 "
