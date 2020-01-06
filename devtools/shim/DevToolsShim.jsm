@@ -1787,6 +1787,9 @@ connectDebuggerServer
 createDebuggerClient
 "
 "
+getTargetForTab
+"
+"
 getToolbox
 "
 "
@@ -1840,16 +1843,7 @@ webExtensionsMethods
 =
 [
 "
-createWebExtensionInspectedWindowFront
-"
-"
-getTargetForTab
-"
-"
 getTheme
-"
-"
-openBrowserConsole
 "
 ]
 ;
