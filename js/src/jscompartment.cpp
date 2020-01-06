@@ -482,6 +482,10 @@ enterCompartmentDepth
 (
 0
 )
+globalHolds
+(
+0
+)
 performanceMonitoring
 (
 runtime_
@@ -5240,7 +5244,9 @@ valid
 .
 if
 (
-enterCompartmentDepth
+shouldTraceGlobal
+(
+)
 &
 &
 global_

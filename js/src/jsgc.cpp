@@ -24966,7 +24966,7 @@ maybeAlive
 c
 -
 >
-hasBeenEntered
+shouldTraceGlobal
 (
 )
 |
