@@ -3643,7 +3643,9 @@ delay
 =
 timing
 .
-mDelay
+Delay
+(
+)
 ;
 animation
 -
@@ -3654,7 +3656,9 @@ endDelay
 =
 timing
 .
-mEndDelay
+EndDelay
+(
+)
 ;
 animation
 -
@@ -3703,7 +3707,9 @@ uint8_t
 (
 timing
 .
-mDirection
+Direction
+(
+)
 )
 ;
 animation
@@ -3768,7 +3774,9 @@ ToTimingFunction
 (
 timing
 .
-mFunction
+Function
+(
+)
 )
 ;
 animation

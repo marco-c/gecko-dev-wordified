@@ -574,8 +574,8 @@ SpecifiedTiming
 ;
 timingToUse
 .
-mFill
-=
+SetFill
+(
 dom
 :
 :
@@ -583,6 +583,7 @@ FillMode
 :
 :
 Both
+)
 ;
 ComputedTiming
 computedTiming
@@ -1515,7 +1516,9 @@ SpecifiedTiming
 (
 )
 .
-mDelay
+Delay
+(
+)
 )
 computedTiming
 .
@@ -1548,7 +1551,9 @@ SpecifiedTiming
 (
 )
 .
-mDelay
+Delay
+(
+)
 )
 computedTiming
 .
