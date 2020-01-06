@@ -198,7 +198,7 @@ HomePager
 ;
 public
 class
-TopPanel
+TopPanelRow
 extends
 StreamViewHolder
 {
@@ -336,7 +336,7 @@ SwipeListener
 )
 ;
 public
-TopPanel
+TopPanelRow
 (
 View
 itemView
