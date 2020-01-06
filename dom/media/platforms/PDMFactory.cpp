@@ -1210,11 +1210,9 @@ if
 current
 -
 >
-SupportsMimeType
+Supports
 (
 config
-.
-mMimeType
 diagnostics
 )
 )
