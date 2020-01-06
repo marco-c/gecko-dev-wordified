@@ -14017,6 +14017,9 @@ moduleloader
 return
 NS_ERROR_FAILURE
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 const
 nsCString
 &
@@ -14054,6 +14057,8 @@ get
 )
 )
 ;
+#
+endif
 return
 moduleloader
 -
