@@ -2448,6 +2448,11 @@ sandbox
 :
 :
 MITIGATION_DEP
+|
+sandbox
+:
+:
+MITIGATION_EXTENSION_POINT_DISABLE
 ;
 result
 =
