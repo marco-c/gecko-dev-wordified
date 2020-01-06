@@ -920,7 +920,7 @@ aWhitespaceIsSignificant
 ;
 }
 RawGeckoNodeBorrowedOrNull
-Gecko_GetParentNode
+Gecko_GetFlattenedTreeParentNode
 (
 RawGeckoNodeBorrowed
 aNode
