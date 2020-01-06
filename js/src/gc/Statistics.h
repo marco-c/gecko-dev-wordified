@@ -1900,9 +1900,6 @@ startingMinorGCNumber
 uint64_t
 startingMajorGCNumber
 ;
-uint64_t
-startingSliceNumber
-;
 /
 *
 Records
