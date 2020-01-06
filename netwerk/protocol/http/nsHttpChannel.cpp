@@ -47284,6 +47284,14 @@ mDecodedBodySize
 )
 ;
 }
+bool
+isFromNet
+=
+request
+=
+=
+mTransactionPump
+;
 if
 (
 mTransaction
@@ -48845,6 +48853,7 @@ rv
 ReportRcwnStats
 (
 request
+isFromNet
 )
 ;
 /
@@ -58728,6 +58737,8 @@ ReportRcwnStats
 nsIRequest
 *
 firstResponseRequest
+bool
+isFromNet
 )
 {
 if
@@ -58793,10 +58804,7 @@ kDidNotRaceUsedNetwork
 ;
 if
 (
-firstResponseRequest
-=
-=
-mTransactionPump
+isFromNet
 )
 {
 rcwnStatus
