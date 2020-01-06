@@ -1626,11 +1626,13 @@ mPluginHost
 ifdef
 XP_MACOSX
 static
-nsCOMPtr
+mozilla
+:
+:
+StaticRefPtr
 <
 nsITimer
 >
-*
 sCATimer
 ;
 static
