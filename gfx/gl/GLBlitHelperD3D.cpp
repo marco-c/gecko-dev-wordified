@@ -759,10 +759,7 @@ i
 >
 QueryInterface
 (
-_uuidof
-(
-IDXGIKeyedMutex
-)
+IID_IDXGIKeyedMutex
 (
 void
 *
