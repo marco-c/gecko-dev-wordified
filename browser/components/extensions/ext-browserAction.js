@@ -1831,6 +1831,15 @@ else
 {
 this
 .
+tabManager
+.
+addActiveTabPermission
+(
+tab
+)
+;
+this
+.
 emit
 (
 "
