@@ -7045,6 +7045,7 @@ GetPresContext
 (
 )
 focusedContent
+*
 editorBase
 )
 ;
