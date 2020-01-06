@@ -80,6 +80,12 @@ inspect
 import
 re
 from
+mozbuild
+.
+util
+import
+memoize
+from
 types
 import
 FunctionType
@@ -2321,7 +2327,7 @@ extra
 '
 :
 {
-                      
+                    
 '
 treeherder
 '
@@ -2351,7 +2357,7 @@ symbol
 '
 :
 symbol
-                      
+                    
 }
                 
 }
@@ -2457,9 +2463,6 @@ artifact
 "
 "
     
-global
-actions
-    
 assert
 isinstance
 (
@@ -2483,7 +2486,9 @@ action
 in
 sorted
 (
-actions
+get_actions
+(
+)
 key
 =
 lambda
@@ -2698,7 +2703,9 @@ tasks
     
 cb
 =
-callbacks
+get_callbacks
+(
+)
 .
 get
 (
@@ -2751,6 +2758,13 @@ task_group_id
 task_id
 task
 )
+memoize
+def
+_load
+(
+)
+:
+    
 #
 Load
 all
@@ -2766,6 +2780,7 @@ side
 effects
 of
 register_
+    
 #
 functions
 to
@@ -2774,6 +2789,7 @@ the
 action
 registry
 .
+    
 for
 f
 in
@@ -2834,3 +2850,33 @@ f
 3
 ]
 )
+    
+return
+callbacks
+actions
+def
+get_callbacks
+(
+)
+:
+    
+return
+_load
+(
+)
+[
+0
+]
+def
+get_actions
+(
+)
+:
+    
+return
+_load
+(
+)
+[
+1
+]
