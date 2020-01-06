@@ -174,6 +174,12 @@ http
 https
 "
 "
+ws
+"
+"
+wss
+"
+"
 file
 "
 "
