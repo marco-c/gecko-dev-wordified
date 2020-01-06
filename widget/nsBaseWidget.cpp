@@ -9506,7 +9506,6 @@ lm
 UpdateTextureFactoryIdentifier
 (
 textureFactoryIdentifier
-0
 )
 ;
 /

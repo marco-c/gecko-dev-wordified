@@ -3267,17 +3267,6 @@ ReinitRenderingForDeviceReset
 (
 )
 ;
-void
-CompositorUpdated
-(
-const
-TextureFactoryIdentifier
-&
-aNewIdentifier
-uint64_t
-aDeviceResetSeqNo
-)
-;
 static
 inline
 TabChild

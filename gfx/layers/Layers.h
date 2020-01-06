@@ -5029,8 +5029,6 @@ const
 TextureFactoryIdentifier
 &
 aNewIdentifier
-uint64_t
-aDeviceResetSeqNo
 )
 {
 }

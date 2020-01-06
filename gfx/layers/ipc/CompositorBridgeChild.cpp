@@ -744,10 +744,6 @@ mFwdTransactionId
 (
 0
 )
-mDeviceResetSequenceNumber
-(
-0
-)
 mMessageLoop
 (
 MessageLoop
