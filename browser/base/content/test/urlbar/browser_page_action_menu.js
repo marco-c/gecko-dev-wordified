@@ -964,9 +964,9 @@ BrowserPageActions
 mainButtonNode
 )
 .
-visibility
+display
 "
-collapse
+none
 "
 "
 Main
@@ -987,10 +987,13 @@ mainButtonNode
 .
 style
 .
-visibility
+display
 =
 "
-visible
+-
+moz
+-
+box
 "
 ;
 await
@@ -1063,7 +1066,7 @@ hiddenPromise
 /
 Remove
 the
-visibility
+display
 style
 set
 above
@@ -1077,7 +1080,7 @@ style
 removeProperty
 (
 "
-visibility
+display
 "
 )
 ;

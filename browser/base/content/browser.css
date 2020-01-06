@@ -3626,9 +3626,9 @@ button
 displaystop
 ]
 {
-visibility
+display
 :
-collapse
+none
 ;
 }
 /
@@ -5375,9 +5375,9 @@ icon
 -
 labels
 {
-visibility
+display
 :
-collapse
+none
 ;
 }
 #
