@@ -3311,6 +3311,19 @@ activeCamera
 let
 activeMic
 ;
+/
+/
+Always
+prompt
+for
+screen
+sharing
+if
+(
+!
+sharingScreen
+)
+{
 for
 (
 let
@@ -3415,6 +3428,7 @@ device
 ;
 break
 ;
+}
 }
 }
 if
