@@ -781,15 +781,12 @@ queries
 .
 *
 /
-nsresult
+bool
 MediumFeaturesChanged
 (
 nsPresContext
 *
 aPresContext
-bool
-*
-aRulesChanged
 )
 ;
 void
