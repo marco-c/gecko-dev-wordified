@@ -523,7 +523,9 @@ y
 &
 mFrameRect
 .
-width
+Width
+(
+)
 >
 =
 0
@@ -531,7 +533,9 @@ width
 &
 mFrameRect
 .
-height
+Height
+(
+)
 >
 =
 0
@@ -1421,7 +1425,9 @@ y
 +
 mFrameRect
 .
-height
+Height
+(
+)
 )
 )
 {

@@ -1775,7 +1775,9 @@ height
 |
 aFrameRect
 .
-width
+Width
+(
+)
 <
 =
 0
@@ -1783,7 +1785,9 @@ width
 |
 aFrameRect
 .
-height
+Height
+(
+)
 <
 =
 0

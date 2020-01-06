@@ -878,11 +878,15 @@ uint32_t
 (
 mFrameRect
 .
-width
+Width
+(
+)
 *
 mFrameRect
 .
-height
+Height
+(
+)
 *
 sizeof
 (
