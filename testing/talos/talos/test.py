@@ -5939,6 +5939,10 @@ tppagecycles
 =
 10
     
+tptimeout
+=
+30000
+    
 gecko_profile_interval
 =
 1
