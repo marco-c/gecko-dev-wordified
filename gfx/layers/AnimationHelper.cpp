@@ -2200,7 +2200,7 @@ angle
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2251,7 +2251,7 @@ angle
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2302,7 +2302,7 @@ angle
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2353,7 +2353,7 @@ angle
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2452,7 +2452,7 @@ angle
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2527,7 +2527,7 @@ TScale
 {
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2623,7 +2623,7 @@ TTranslation
 {
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2737,7 +2737,7 @@ x
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2788,7 +2788,7 @@ y
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2857,7 +2857,7 @@ y
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -2902,7 +2902,7 @@ TTransformMatrix
 {
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
@@ -3216,7 +3216,7 @@ value
 ;
 arr
 =
-StyleAnimationValue
+AnimationValue
 :
 :
 AppendTransformFunction
