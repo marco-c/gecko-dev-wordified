@@ -17196,11 +17196,6 @@ ExpandWeakMaps
 )
 stack
 (
-size_t
-(
--
-1
-)
 )
 color
 (
