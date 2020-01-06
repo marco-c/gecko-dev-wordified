@@ -598,10 +598,7 @@ false
 The
 response
 editor
-doesn
-'
-t
-have
+has
 the
 intended
 visibility
