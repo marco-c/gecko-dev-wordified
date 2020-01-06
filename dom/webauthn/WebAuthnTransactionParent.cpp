@@ -256,7 +256,7 @@ Get
 mgr
 -
 >
-MaybeClearTransaction
+Cancel
 (
 this
 )

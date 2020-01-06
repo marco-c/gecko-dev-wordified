@@ -290,6 +290,13 @@ aSignature
 )
 override
 ;
+virtual
+void
+Cancel
+(
+)
+override
+;
 /
 /
 For

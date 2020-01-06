@@ -286,6 +286,14 @@ aSignature
 =
 0
 ;
+virtual
+void
+Cancel
+(
+)
+=
+0
+;
 protected
 :
 virtual
