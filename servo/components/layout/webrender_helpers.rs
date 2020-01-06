@@ -237,6 +237,7 @@ webrender_api
 :
 :
 {
+ClipMode
 ExtendMode
 LayoutTransform
 }
@@ -3336,7 +3337,7 @@ item
 .
 border_radius
 .
-to_f32_px
+to_border_radius
 (
 )
 item
@@ -3837,6 +3838,10 @@ radii
 to_border_radius
 (
 )
+ClipMode
+:
+:
+Clip
 )
 }
 )
