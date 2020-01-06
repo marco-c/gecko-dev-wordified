@@ -556,9 +556,6 @@ mUseSubpixelPositions
 bool
 mAllowManualShowGlyphs
 ;
-bool
-mAzureScaledFontIsCairo
-;
 static
 bool
 mUseClearType
