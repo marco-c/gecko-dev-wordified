@@ -166,30 +166,16 @@ py
 virtualenv
 '
 :
-[
 '
 /
 tools
 /
-buildbot
+virtualenv
 /
 bin
 /
-python
-'
-'
-/
-tools
-/
-misc
--
-python
-/
 virtualenv
-.
-py
 '
-]
         
 }
         
@@ -263,30 +249,16 @@ py
 virtualenv
 '
 :
-[
 '
 /
 tools
 /
-buildbot
+virtualenv
 /
 bin
 /
-python
-'
-'
-/
-tools
-/
-misc
--
-python
-/
 virtualenv
-.
-py
 '
-]
         
 }
         
@@ -360,30 +332,16 @@ py
 virtualenv
 '
 :
-[
 '
 /
 tools
 /
-buildbot
+virtualenv
 /
 bin
 /
-python
-'
-'
-/
-tools
-/
-misc
--
-python
-/
 virtualenv
-.
-py
 '
-]
         
 }
         
