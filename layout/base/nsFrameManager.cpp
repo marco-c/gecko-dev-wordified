@@ -1782,7 +1782,7 @@ content
 MOZ_ASSERT
 (
 !
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 aContent
 )

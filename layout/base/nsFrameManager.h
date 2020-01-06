@@ -743,7 +743,7 @@ any
 /
 nsStyleContext
 *
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 const
 nsIContent

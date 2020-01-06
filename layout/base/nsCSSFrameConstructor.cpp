@@ -36622,7 +36622,7 @@ mCreatingExtraFrames
 {
 MOZ_ASSERT
 (
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 aContent
 )
@@ -47108,7 +47108,7 @@ nsStyleContext
 *
 sc
 =
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 content
 )
@@ -48263,7 +48263,7 @@ GetPrimaryFrame
 )
 |
 |
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 child
 )
@@ -64034,7 +64034,7 @@ nsStyleContext
 >
 oldContext
 =
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 aElement
 )
