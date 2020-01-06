@@ -641,15 +641,6 @@ const
 CM_IFRAME
 =
 "
-data
-:
-text
-/
-html
-;
-charset
-=
-utf8
 <
 !
 DOCTYPE
@@ -2264,7 +2255,7 @@ env
 setAttribute
 (
 "
-src
+srcdoc
 "
 CM_IFRAME
 )
