@@ -3138,7 +3138,7 @@ border
 -
 radius
 :
-1px
+2px
 ;
 box
 -
