@@ -441,17 +441,6 @@ gfxVars
 #
 include
 "
-VRManager
-.
-h
-"
-/
-/
-for
-VRManager
-#
-include
-"
 mozilla
 /
 ipc

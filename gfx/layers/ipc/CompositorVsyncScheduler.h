@@ -486,6 +486,11 @@ CancelCurrentSetNeedsCompositeTask
 (
 )
 ;
+void
+ShutdownVRListenerThread
+(
+)
+;
 class
 Observer
 final
