@@ -829,14 +829,6 @@ void
 *
 __aeabi_idivmod
 )
-MoveOp
-:
-:
-GENERAL
-CheckUnsafeCallWithABI
-:
-:
-DontCheckOther
 )
 ;
 /
