@@ -301,12 +301,6 @@ nsIHandlerService
 "
 )
 ;
-HandlerServiceTestUtils
-.
-Assert
-=
-Assert
-;
 do_get_profile
 (
 )

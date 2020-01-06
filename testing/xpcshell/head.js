@@ -473,6 +473,7 @@ stack
 ;
 }
 }
+true
 )
 ;
 var
@@ -3908,12 +3909,6 @@ _PromiseTestUtils
 init
 (
 )
-;
-_PromiseTestUtils
-.
-Assert
-=
-Assert
 ;
 let
 coverageCollector
