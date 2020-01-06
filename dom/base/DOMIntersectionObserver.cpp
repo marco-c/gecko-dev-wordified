@@ -2000,7 +2000,7 @@ Some
 targetFrame
 -
 >
-GetVisualOverflowRect
+GetRectRelativeToSelf
 (
 )
 )
