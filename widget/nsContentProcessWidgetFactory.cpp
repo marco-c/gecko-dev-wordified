@@ -186,9 +186,6 @@ mozilla
 :
 widget
 ;
-#
-ifndef
-MOZ_WIDGET_GONK
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardProxy
@@ -489,10 +486,3 @@ nsContentProcessWidgetModule
 &
 kWidgetModule
 ;
-#
-endif
-/
-*
-MOZ_WIDGET_GONK
-*
-/

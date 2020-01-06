@@ -701,13 +701,6 @@ AudioManager
 (
 )
 {
-#
-if
-!
-defined
-(
-MOZ_WIDGET_GONK
-)
 ALOGD
 (
 "
@@ -725,8 +718,6 @@ c_str
 )
 )
 ;
-#
-endif
 RTC_DCHECK
 (
 thread_checker_
