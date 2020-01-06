@@ -10789,6 +10789,14 @@ MOZ_DEVELOPER_REPO_DIR
 self
 .
 topsrcdir
+            
+'
+MOZ_DEVELOPER_OBJ_DIR
+'
+:
+self
+.
+topobjdir
         
 }
         
