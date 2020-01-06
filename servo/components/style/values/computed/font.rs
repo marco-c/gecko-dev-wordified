@@ -174,6 +174,7 @@ font
 {
 XTextZoom
 FontSynthesis
+FontVariantSettings
 }
 ;
 /

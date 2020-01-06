@@ -363,6 +363,7 @@ font
 :
 {
 FontLanguageOverride
+FontVariantSettings
 MozScriptLevel
 MozScriptMinSize
 XTextZoom
