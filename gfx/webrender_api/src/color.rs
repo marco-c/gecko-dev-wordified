@@ -159,13 +159,6 @@ a
 :
 f32
 }
-known_heap_size
-!
-(
-0
-ColorF
-)
-;
 impl
 ColorF
 {

@@ -132,14 +132,6 @@ euclid
 ;
 #
 [
-macro_use
-]
-extern
-crate
-heapsize
-;
-#
-[
 cfg
 (
 feature

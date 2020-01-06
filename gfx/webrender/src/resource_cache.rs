@@ -2523,6 +2523,7 @@ new
 (
 )
 )
+dirty_rect
 )
 ;
 }

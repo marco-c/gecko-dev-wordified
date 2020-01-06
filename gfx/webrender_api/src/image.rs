@@ -853,6 +853,12 @@ ImageKey
 data
 :
 BlobImageData
+dirty_rect
+:
+Option
+<
+DeviceUintRect
+>
 )
 ;
 fn
