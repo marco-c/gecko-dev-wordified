@@ -476,6 +476,14 @@ highlight
 "
 )
 ;
+container
+.
+tagLine
+.
+scrollIntoView
+(
+)
+;
 EventUtils
 .
 synthesizeMouse
