@@ -5828,11 +5828,15 @@ before
 the
 call
 .
+MOZ_TRY
+(
 callInfo
 .
 pushFormals
 (
+this
 current
+)
 )
 ;
 }
