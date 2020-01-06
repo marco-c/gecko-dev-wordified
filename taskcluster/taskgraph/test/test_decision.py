@@ -640,6 +640,19 @@ t
 all
 '
         
+self
+.
+options
+[
+'
+project
+'
+]
+=
+'
+try
+'
+        
 params
 =
 decision
@@ -768,6 +781,19 @@ try_task_config
 json
 '
 )
+        
+self
+.
+options
+[
+'
+project
+'
+]
+=
+'
+try
+'
         
 with
 MockedOpen
