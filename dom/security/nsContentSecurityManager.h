@@ -144,6 +144,9 @@ h
 class
 nsIStreamListener
 ;
+class
+nsIDocument
+;
 #
 define
 NS_CONTENTSECURITYMANAGER_CONTRACTID
@@ -232,6 +235,9 @@ aContentPolicyType
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIDocument
+*
+aDoc
 bool
 aLoadFromExternal
 bool
