@@ -1201,7 +1201,7 @@ AnimData
 >
 &
 aAnimationData
-StyleAnimationValue
+AnimationValue
 &
 aAnimationValue
 bool
@@ -1676,6 +1676,8 @@ mStartValues
 [
 segmentIndex
 ]
+.
+mGecko
 static_cast
 <
 dom
@@ -1702,6 +1704,8 @@ mEndValues
 [
 segmentIndex
 ]
+.
+mGecko
 static_cast
 <
 dom
@@ -1725,6 +1729,8 @@ interpolate
 the
 property
 aAnimationValue
+.
+mGecko
 =
 SampleValue
 (
@@ -1739,10 +1745,14 @@ mEndValues
 LastElement
 (
 )
+.
+mGecko
 computedTiming
 .
 mCurrentIteration
 aAnimationValue
+.
+mGecko
 )
 ;
 aHasInEffectAnimations
@@ -3341,7 +3351,7 @@ AnimData
 >
 &
 aAnimData
-StyleAnimationValue
+AnimationValue
 &
 aBaseAnimationStyle
 )
@@ -3527,8 +3537,6 @@ baseStyle
 (
 )
 )
-.
-mGecko
 ;
 }
 AnimData
@@ -3558,7 +3566,7 @@ mFunctions
 ;
 InfallibleTArray
 <
-StyleAnimationValue
+AnimationValue
 >
 &
 startValues
@@ -3570,7 +3578,7 @@ mStartValues
 ;
 InfallibleTArray
 <
-StyleAnimationValue
+AnimationValue
 >
 &
 endValues
@@ -3616,8 +3624,6 @@ startState
 (
 )
 )
-.
-mGecko
 )
 ;
 endValues
@@ -3632,8 +3638,6 @@ endState
 (
 )
 )
-.
-mGecko
 )
 ;
 TimingFunction
@@ -3811,7 +3815,7 @@ UserData
 (
 )
 ;
-StyleAnimationValue
+AnimationValue
 animationValue
 ;
 InfallibleTArray
@@ -3894,7 +3898,7 @@ Key
 )
 animationValue
 .
-GetFloatValue
+GetOpacity
 (
 )
 )
@@ -3906,11 +3910,24 @@ case
 eCSSProperty_transform
 :
 {
+/
+/
+TODO
+:
+Convert
+AnimationValue
+into
+css
+shared
+list
+.
 nsCSSValueSharedList
 *
 list
 =
 animationValue
+.
+mGecko
 .
 GetCSSValueSharedListValue
 (

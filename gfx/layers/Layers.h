@@ -10174,7 +10174,7 @@ HasOpacityAnimation
 )
 const
 ;
-StyleAnimationValue
+AnimationValue
 GetBaseAnimationStyle
 (
 )
