@@ -779,7 +779,7 @@ NS_ERROR_UNEXPECTED
 imageLoader
 -
 >
-AddObserver
+AddNativeObserver
 (
 imgDoc
 )
@@ -1284,7 +1284,7 @@ imageLoader
 imageLoader
 -
 >
-RemoveObserver
+RemoveNativeObserver
 (
 this
 )
