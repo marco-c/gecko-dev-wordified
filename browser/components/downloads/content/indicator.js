@@ -3213,7 +3213,7 @@ indicator
 -
 progress
 -
-icon
+inner
 "
 )
 )
