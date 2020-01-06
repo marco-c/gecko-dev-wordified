@@ -1392,7 +1392,7 @@ nsHTMLElement
 :
 IsContainer
 (
-eHTMLTags
+nsHTMLTag
 aId
 )
 {
@@ -1412,7 +1412,7 @@ nsHTMLElement
 :
 IsBlock
 (
-eHTMLTags
+nsHTMLTag
 aId
 )
 {
@@ -1482,7 +1482,7 @@ CheckElementTable
 {
 for
 (
-eHTMLTags
+nsHTMLTag
 t
 =
 eHTMLTag_unknown
@@ -1494,7 +1494,7 @@ eHTMLTag_userdefined
 ;
 t
 =
-eHTMLTags
+nsHTMLTag
 (
 t
 +
