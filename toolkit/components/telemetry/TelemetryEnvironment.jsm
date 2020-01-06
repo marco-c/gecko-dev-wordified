@@ -11370,6 +11370,15 @@ this
 _getGFXData
 (
 )
+appleModelId
+:
+getSysinfoProperty
+(
+"
+appleModelId
+"
+null
+)
 }
 ;
 if
