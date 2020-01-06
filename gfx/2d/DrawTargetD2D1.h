@@ -1978,7 +1978,7 @@ of
 effects
 we
 use
-void
+bool
 EnsureLuminanceEffect
 (
 )
