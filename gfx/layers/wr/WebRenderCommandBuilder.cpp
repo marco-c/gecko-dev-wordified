@@ -3040,7 +3040,7 @@ So
 we
 should
 call
-ComputeVisibility
+RecomputeVisibility
 (
 )
 before
@@ -3083,7 +3083,7 @@ clippedBounds
 aItem
 -
 >
-ComputeVisibility
+RecomputeVisibility
 (
 aDisplayListBuilder
 &
