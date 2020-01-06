@@ -1417,11 +1417,6 @@ UpdateImageClient
 (
 RefPtr
 <
-ImageClient
->
-aClient
-RefPtr
-<
 ImageContainer
 >
 aContainer
