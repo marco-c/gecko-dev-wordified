@@ -142,6 +142,17 @@ jpeglib
 .
 h
 "
+#
+define
+NEG_1
+(
+(
+unsigned
+int
+)
+-
+1
+)
 /
 *
 Expanded
@@ -3517,8 +3528,7 @@ coded
 m1
 =
 (
--
-1
+NEG_1
 )
 <
 <

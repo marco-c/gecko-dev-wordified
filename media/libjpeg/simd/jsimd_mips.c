@@ -387,6 +387,12 @@ init_simd
 void
 )
 {
+char
+*
+env
+=
+NULL
+;
 if
 (
 simd_support

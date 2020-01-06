@@ -53,7 +53,7 @@ LIBJPEG_TURBO_VERSION
 .
 5
 .
-1
+2
 /
 *
 Support
