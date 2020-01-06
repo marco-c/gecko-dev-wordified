@@ -240,7 +240,8 @@ style_traits
 :
 {
 ToCss
-OneOrMoreCommaSeparated
+OneOrMoreSeparated
+CommaSeparator
 ParseError
 StyleParseError
 }
@@ -4515,10 +4516,15 @@ symbol
 Symbol
 }
 impl
-OneOrMoreCommaSeparated
+OneOrMoreSeparated
 for
 AdditiveTuple
 {
+type
+S
+=
+CommaSeparator
+;
 }
 impl
 Parse

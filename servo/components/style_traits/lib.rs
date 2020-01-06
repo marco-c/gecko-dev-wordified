@@ -626,7 +626,10 @@ values
 :
 {
 ToCss
-OneOrMoreCommaSeparated
+OneOrMoreSeparated
+CommaSeparator
+SpaceSeparator
+IsCommaSeparator
 }
 ;
 pub
