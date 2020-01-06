@@ -32249,16 +32249,6 @@ getter_AddRefs
 mCachePump
 )
 inputStream
-int64_t
-(
--
-1
-)
-int64_t
-(
--
-1
-)
 0
 0
 true
