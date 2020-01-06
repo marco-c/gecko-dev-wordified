@@ -661,10 +661,6 @@ doc
 GetDocumentCharacterSet
 (
 )
-.
-get
-(
-)
 docURL
 )
 )
