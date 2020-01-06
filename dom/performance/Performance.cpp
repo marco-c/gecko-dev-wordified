@@ -129,6 +129,13 @@ GeckoProfiler
 h
 "
 #
+include
+"
+nsRFPService
+.
+h
+"
+#
 ifdef
 MOZ_GECKO_PROFILER
 #
@@ -1334,6 +1341,11 @@ maxResolutionMs
 005
 ;
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 floor
 (
 aTime
@@ -1342,6 +1354,7 @@ maxResolutionMs
 )
 *
 maxResolutionMs
+)
 ;
 }
 void

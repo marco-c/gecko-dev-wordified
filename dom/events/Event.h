@@ -401,6 +401,12 @@ WidgetEvent
 aEvent
 )
 ;
+double
+TimeStampImpl
+(
+)
+const
+;
 public
 :
 static
