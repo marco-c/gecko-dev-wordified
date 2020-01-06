@@ -29308,7 +29308,7 @@ range
 .
 nsINode
 *
-startParent
+startContainer
 =
 range
 -
@@ -29332,7 +29332,7 @@ nsIDocument
 *
 doc
 =
-startParent
+startContainer
 -
 >
 GetComposedDoc
@@ -29341,7 +29341,7 @@ GetComposedDoc
 ;
 if
 (
-startParent
+startContainer
 =
 =
 doc
@@ -29369,7 +29369,7 @@ nsContentUtils
 :
 GetCommonAncestor
 (
-startParent
+startContainer
 endParent
 )
 ;
@@ -29698,7 +29698,7 @@ mList
 ;
 if
 (
-startParent
+startContainer
 -
 >
 NodeType
@@ -29714,7 +29714,7 @@ TEXT_NODE
 {
 BuildDisplayListForNode
 (
-startParent
+startContainer
 )
 ;
 }
@@ -29761,7 +29761,7 @@ if
 endParent
 !
 =
-startParent
+startContainer
 &
 &
 endParent

@@ -15503,7 +15503,7 @@ nullptr
 ;
 nsINode
 *
-startParent
+startContainer
 =
 aRange
 -
@@ -15515,11 +15515,13 @@ GetStartContainer
 if
 (
 !
-startParent
+startContainer
 )
+{
 return
 nullptr
 ;
+}
 int32_t
 offset
 =
@@ -15534,7 +15536,7 @@ nsIContent
 *
 childContent
 =
-startParent
+startContainer
 -
 >
 GetChildAt

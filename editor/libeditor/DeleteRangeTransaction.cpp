@@ -375,7 +375,7 @@ nsCOMPtr
 <
 nsINode
 >
-startParent
+startContainer
 =
 rangeToDelete
 -
@@ -419,7 +419,7 @@ EndOffset
 ;
 MOZ_ASSERT
 (
-startParent
+startContainer
 &
 &
 endParent
@@ -427,7 +427,7 @@ endParent
 ;
 if
 (
-startParent
+startContainer
 =
 =
 endParent
@@ -449,7 +449,7 @@ rv
 =
 CreateTxnsToDeleteBetween
 (
-startParent
+startContainer
 startOffset
 endOffset
 )
@@ -492,7 +492,7 @@ rv
 =
 CreateTxnsToDeleteContent
 (
-startParent
+startContainer
 startOffset
 nsIEditor
 :
@@ -640,7 +640,7 @@ selection
 >
 Collapse
 (
-startParent
+startContainer
 startOffset
 )
 ;
