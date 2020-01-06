@@ -335,7 +335,7 @@ UnprotectedData
 <
 bool
 >
-useExclusiveLocking
+useExclusiveLocking_
 ;
 public
 :
@@ -633,7 +633,7 @@ isGCScheduled
 /
 See
 the
-useExclusiveLocking
+useExclusiveLocking_
 field
 above
 .
@@ -642,9 +642,18 @@ setUseExclusiveLocking
 (
 )
 {
-useExclusiveLocking
+useExclusiveLocking_
 =
 true
+;
+}
+bool
+useExclusiveLocking
+(
+)
+{
+return
+useExclusiveLocking_
 ;
 }
 /
