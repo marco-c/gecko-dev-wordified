@@ -795,7 +795,11 @@ nightly_macosx
 '
         
 '
-nightly_win
+nightly_win32
+'
+        
+'
+nightly_win64
 '
         
 '
