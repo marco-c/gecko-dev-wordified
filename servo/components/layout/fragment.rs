@@ -17101,6 +17101,8 @@ space_needed
 scale_by
 (
 percentage
+.
+0
 )
 }
 vertical_align

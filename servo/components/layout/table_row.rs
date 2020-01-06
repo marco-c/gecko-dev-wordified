@@ -2181,6 +2181,8 @@ percentage
 =
 >
 percentage
+.
+0
 }
 preferred
 :

@@ -5815,6 +5815,7 @@ derive
 Clone
 Copy
 Debug
+Default
 HasViewportPercentage
 PartialEq
 )

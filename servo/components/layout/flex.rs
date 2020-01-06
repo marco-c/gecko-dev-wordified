@@ -432,6 +432,8 @@ size
 scale_by
 (
 percent
+.
+0
 )
 )
 None
@@ -649,6 +651,8 @@ size
 scale_by
 (
 percent
+.
+0
 )
 )
 (

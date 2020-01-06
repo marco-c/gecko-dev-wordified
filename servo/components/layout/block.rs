@@ -2508,6 +2508,8 @@ block_container_block_size
 scale_by
 (
 percent
+.
+0
 )
 )
 }
@@ -2620,6 +2622,8 @@ block_container_block_size
 scale_by
 (
 percent
+.
+0
 )
 )
 }
@@ -2718,6 +2722,8 @@ block_container_block_size
 scale_by
 (
 percent
+.
+0
 )
 }
 (
@@ -8899,6 +8905,8 @@ container_size
 scale_by
 (
 percent
+.
+0
 )
 )
 }
