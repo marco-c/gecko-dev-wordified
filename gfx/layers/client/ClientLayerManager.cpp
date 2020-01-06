@@ -3032,11 +3032,6 @@ aCompositeEnd
 )
 ;
 }
-if
-(
-mTransactionIdAllocator
-)
-{
 mTransactionIdAllocator
 -
 >
@@ -3045,7 +3040,6 @@ NotifyTransactionCompleted
 aTransactionId
 )
 ;
-}
 }
 /
 /
