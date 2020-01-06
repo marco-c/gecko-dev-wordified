@@ -1571,6 +1571,16 @@ geckoSheet
 #
 ifdef
 MOZ_STYLO
+if
+(
+nsLayoutUtils
+:
+:
+StyloSupportedInCurrentProcess
+(
+)
+)
+{
 rv
 =
 LoadSheet
@@ -1596,6 +1606,7 @@ MOZ_ASSERT
 servoSheet
 )
 ;
+}
 #
 endif
 mGeckoSheets
