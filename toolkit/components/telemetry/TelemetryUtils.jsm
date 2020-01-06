@@ -328,6 +328,15 @@ newProfilePing
 .
 delay
 "
+PreviousBuildID
+:
+"
+toolkit
+.
+telemetry
+.
+previousBuildID
+"
 /
 /
 Log
