@@ -2021,8 +2021,8 @@ inline
 wr
 :
 :
-WrComplexClipRegion
-ToWrComplexClipRegion
+ComplexClipRegion
+ToComplexClipRegion
 (
 const
 RoundedRect
@@ -2033,7 +2033,7 @@ rect
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 ret
 ;
 ret
@@ -3108,8 +3108,8 @@ inline
 wr
 :
 :
-WrComplexClipRegion
-ToWrComplexClipRegion
+ComplexClipRegion
+ToComplexClipRegion
 (
 const
 wr
@@ -3130,7 +3130,7 @@ size
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 complex_clip
 ;
 complex_clip
@@ -3165,8 +3165,8 @@ inline
 wr
 :
 :
-WrComplexClipRegion
-ToWrComplexClipRegion
+ComplexClipRegion
+ToComplexClipRegion
 (
 const
 gfx
@@ -3188,7 +3188,7 @@ size
 )
 {
 return
-ToWrComplexClipRegion
+ToComplexClipRegion
 (
 wr
 :

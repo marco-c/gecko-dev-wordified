@@ -3155,7 +3155,7 @@ nsTArray
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 >
 *
 aComplex
