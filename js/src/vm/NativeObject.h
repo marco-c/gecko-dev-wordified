@@ -5581,7 +5581,7 @@ wall
 /
 static
 bool
-allocSlot
+allocDictionarySlot
 (
 JSContext
 *
