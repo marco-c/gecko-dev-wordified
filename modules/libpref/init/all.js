@@ -11730,7 +11730,7 @@ layers
 -
 free
 "
-false
+true
 )
 ;
 pref
@@ -16896,7 +16896,7 @@ options
 .
 wasm_baselinejit
 "
-true
+false
 )
 ;
 pref
