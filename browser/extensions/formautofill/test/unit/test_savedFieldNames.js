@@ -169,9 +169,6 @@ remove
 "
 reconcile
 "
-"
-merge
-"
 ]
 .
 forEach

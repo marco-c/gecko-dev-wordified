@@ -436,9 +436,6 @@ remove
 "
 reconcile
 "
-"
-merge
-"
 ]
 .
 forEach
