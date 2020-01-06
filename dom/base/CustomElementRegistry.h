@@ -1135,18 +1135,11 @@ public
 explicit
 CustomElementReaction
 (
-CustomElementRegistry
-*
-aRegistry
 CustomElementDefinition
 *
 aDefinition
 )
 :
-mRegistry
-(
-aRegistry
-)
 mDefinition
 (
 aDefinition
@@ -1188,10 +1181,6 @@ const
 }
 protected
 :
-CustomElementRegistry
-*
-mRegistry
-;
 CustomElementDefinition
 *
 mDefinition
@@ -1210,9 +1199,6 @@ public
 explicit
 CustomElementUpgradeReaction
 (
-CustomElementRegistry
-*
-aRegistry
 CustomElementDefinition
 *
 aDefinition
@@ -1220,7 +1206,6 @@ aDefinition
 :
 CustomElementReaction
 (
-aRegistry
 aDefinition
 )
 {
@@ -1253,9 +1238,6 @@ public
 :
 CustomElementCallbackReaction
 (
-CustomElementRegistry
-*
-aRegistry
 CustomElementDefinition
 *
 aDefinition
@@ -1268,7 +1250,6 @@ aCustomElementCallback
 :
 CustomElementReaction
 (
-aRegistry
 aDefinition
 )
 mCustomElementCallback
@@ -1473,9 +1454,6 @@ reaction
 void
 EnqueueUpgradeReaction
 (
-CustomElementRegistry
-*
-aRegistry
 Element
 *
 aElement
@@ -1529,9 +1507,6 @@ reaction
 void
 EnqueueCallbackReaction
 (
-CustomElementRegistry
-*
-aRegistry
 Element
 *
 aElement
@@ -2050,6 +2025,7 @@ nsAString
 aTypeExtension
 )
 ;
+static
 void
 EnqueueLifecycleCallback
 (
@@ -2154,6 +2130,7 @@ CustomElementRegistry
 (
 )
 ;
+static
 UniquePtr
 <
 CustomElementCallback

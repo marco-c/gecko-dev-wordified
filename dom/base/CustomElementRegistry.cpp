@@ -427,7 +427,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-document
 nsIDocument
 :
 :
@@ -2070,6 +2069,11 @@ definition
 )
 ;
 }
+/
+*
+static
+*
+/
 UniquePtr
 <
 CustomElementCallback
@@ -2483,7 +2487,6 @@ MakeUnique
 CustomElementCallbackReaction
 >
 (
-this
 aDefinition
 Move
 (
@@ -2518,6 +2521,11 @@ runnable
 )
 ;
 }
+/
+*
+static
+*
+/
 void
 CustomElementRegistry
 :
@@ -2614,7 +2622,12 @@ DocGroup
 *
 docGroup
 =
-mWindow
+aCustomElement
+-
+>
+OwnerDoc
+(
+)
 -
 >
 GetDocGroup
@@ -2699,7 +2712,6 @@ reactionsStack
 >
 EnqueueCallbackReaction
 (
-this
 aCustomElement
 definition
 Move
@@ -2922,7 +2934,6 @@ reactionsStack
 >
 EnqueueUpgradeReaction
 (
-this
 elem
 aDefinition
 )
@@ -5826,12 +5837,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-aElement
--
->
-OwnerDoc
-(
-)
 nsIDocument
 :
 :
@@ -5865,12 +5870,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-aElement
--
->
-OwnerDoc
-(
-)
 nsIDocument
 :
 :
@@ -6009,12 +6008,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-aElement
--
->
-OwnerDoc
-(
-)
 nsIDocument
 :
 :
@@ -6375,9 +6368,6 @@ CustomElementReactionsStack
 :
 EnqueueUpgradeReaction
 (
-CustomElementRegistry
-*
-aRegistry
 Element
 *
 aElement
@@ -6392,7 +6382,6 @@ aElement
 new
 CustomElementUpgradeReaction
 (
-aRegistry
 aDefinition
 )
 )
@@ -6404,9 +6393,6 @@ CustomElementReactionsStack
 :
 EnqueueCallbackReaction
 (
-CustomElementRegistry
-*
-aRegistry
 Element
 *
 aElement
@@ -6426,7 +6412,6 @@ aElement
 new
 CustomElementCallbackReaction
 (
-aRegistry
 aDefinition
 Move
 (
@@ -7442,9 +7427,9 @@ ErrorResult
 aRv
 )
 {
-mRegistry
--
->
+CustomElementRegistry
+:
+:
 Upgrade
 (
 aElement
