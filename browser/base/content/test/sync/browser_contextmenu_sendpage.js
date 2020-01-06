@@ -270,6 +270,8 @@ label
 "
 )
 "
+Send
+to
 All
 Devices
 "
