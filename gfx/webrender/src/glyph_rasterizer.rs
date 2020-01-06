@@ -2253,10 +2253,11 @@ add_raw_font
 (
 &
 font_key
-&
-*
-*
 bytes
+.
+clone
+(
+)
 index
 )
 ;

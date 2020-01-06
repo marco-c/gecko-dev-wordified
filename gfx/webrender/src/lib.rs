@@ -526,6 +526,9 @@ mod
 spring
 ;
 mod
+texture_allocator
+;
+mod
 texture_cache
 ;
 mod
