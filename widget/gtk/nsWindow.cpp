@@ -21129,16 +21129,6 @@ g_object_unref
 group
 )
 ;
-if
-(
-GetCSDSupportLevel
-(
-)
-!
-=
-CSD_SUPPORT_NONE
-)
-{
 int32_t
 isCSDAvailable
 =
@@ -21172,7 +21162,6 @@ mIsCSDAvailable
 =
 isCSDAvailable
 ;
-}
 }
 }
 /
