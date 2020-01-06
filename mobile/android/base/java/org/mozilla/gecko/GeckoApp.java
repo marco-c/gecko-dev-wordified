@@ -2866,6 +2866,12 @@ mMenuPanel
 =
 =
 null
+|
+|
+mMenu
+=
+=
+null
 )
 {
 onCreatePanelMenu
