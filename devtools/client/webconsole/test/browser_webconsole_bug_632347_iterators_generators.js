@@ -273,6 +273,8 @@ gen1
 next
 (
 )
+.
+value
 ;
 let
 completion
@@ -317,6 +319,8 @@ gen1
 next
 (
 )
+.
+value
 "
 gen1
 .
