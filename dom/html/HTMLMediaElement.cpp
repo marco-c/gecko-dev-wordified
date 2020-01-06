@@ -23616,7 +23616,9 @@ NewWakeLock
 NS_LITERAL_STRING
 (
 "
-cpu
+audio
+-
+playing
 "
 )
 OwnerDoc
