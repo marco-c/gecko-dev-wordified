@@ -1163,6 +1163,9 @@ Data
 *
 >
 data
+uint32_t
+*
+lengthOut
 )
 ;
 Shape
