@@ -524,6 +524,12 @@ arch
 "
 #
 endif
+aRegs
+.
+mLR
+=
+0
+;
 }
 class
 PlatformData
