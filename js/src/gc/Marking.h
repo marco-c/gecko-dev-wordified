@@ -2384,6 +2384,14 @@ JSTracer
 trc
 )
 ;
+bool
+IsUnmarkGrayTracer
+(
+JSTracer
+*
+trc
+)
+;
 #
 endif
 namespace
