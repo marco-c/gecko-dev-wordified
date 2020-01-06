@@ -177,6 +177,7 @@ gBrowser
 "
 about
 :
+mozilla
 "
 )
 ;

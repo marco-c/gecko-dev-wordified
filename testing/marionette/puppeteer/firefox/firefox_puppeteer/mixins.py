@@ -832,6 +832,22 @@ page
 loaded
 .
             
+#
+Bug
+1418979
+-
+Update
+this
+to
+a
+test
+-
+framework
+-
+specific
+file
+.
+            
 self
 .
 marionette
@@ -841,6 +857,7 @@ navigate
 '
 about
 :
+about
 '
 )
     

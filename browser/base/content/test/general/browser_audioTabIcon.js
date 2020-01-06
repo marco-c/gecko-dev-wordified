@@ -3307,6 +3307,7 @@ loadURI
 "
 about
 :
+mozilla
 "
 )
 ;
