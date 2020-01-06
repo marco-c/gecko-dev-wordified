@@ -192,6 +192,8 @@ ScrollWheelInput
 :
 SCROLLDELTA_PAGE
 :
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -206,6 +208,8 @@ PageSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -217,6 +221,8 @@ PageSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -228,6 +234,8 @@ ScrollWheelInput
 :
 SCROLLDELTA_PIXEL
 :
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -242,6 +250,8 @@ PixelSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -253,6 +263,8 @@ PixelSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -264,6 +276,8 @@ ScrollWheelInput
 :
 SCROLLDELTA_LINE
 :
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -278,6 +292,8 @@ WheelSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -289,6 +305,8 @@ WheelSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -312,6 +330,8 @@ is
 -
 based
 ratio
+mAnimationPhysics
+.
 mIntervalRatio
 =
 (
@@ -330,6 +350,8 @@ SmoothScrollDurationToIntervalRatio
 .
 0
 ;
+mAnimationPhysics
+.
 mIntervalRatio
 =
 std
@@ -340,6 +362,8 @@ max
 1
 .
 0
+mAnimationPhysics
+.
 mIntervalRatio
 )
 ;

@@ -174,6 +174,8 @@ KeyboardScrollAction
 eScrollLine
 :
 {
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -188,6 +190,8 @@ LineSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -199,6 +203,8 @@ LineSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -212,6 +218,8 @@ KeyboardScrollAction
 eScrollPage
 :
 {
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -226,6 +234,8 @@ PageSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -237,6 +247,8 @@ PageSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -250,6 +262,8 @@ KeyboardScrollAction
 eScrollComplete
 :
 {
+mAnimationPhysics
+.
 mOriginMaxMS
 =
 clamped
@@ -264,6 +278,8 @@ OtherSmoothScrollMaxDurationMs
 10000
 )
 ;
+mAnimationPhysics
+.
 mOriginMinMS
 =
 clamped
@@ -275,6 +291,8 @@ OtherSmoothScrollMinDurationMs
 (
 )
 0
+mAnimationPhysics
+.
 mOriginMaxMS
 )
 ;
@@ -299,6 +317,8 @@ is
 -
 based
 ratio
+mAnimationPhysics
+.
 mIntervalRatio
 =
 (
@@ -317,6 +337,8 @@ SmoothScrollDurationToIntervalRatio
 .
 0
 ;
+mAnimationPhysics
+.
 mIntervalRatio
 =
 std
@@ -327,6 +349,8 @@ max
 1
 .
 0
+mAnimationPhysics
+.
 mIntervalRatio
 )
 ;
