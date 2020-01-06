@@ -395,9 +395,6 @@ Date
 toSource
 "
 "
-toLocaleFormat
-"
-"
 getYear
 "
 "
