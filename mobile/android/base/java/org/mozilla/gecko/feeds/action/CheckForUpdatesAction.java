@@ -1235,7 +1235,7 @@ R
 .
 color
 .
-fennec_ui_orange
+fennec_ui_accent
 )
 )
 .
@@ -1448,7 +1448,7 @@ R
 .
 color
 .
-fennec_ui_orange
+fennec_ui_accent
 )
 )
 .
