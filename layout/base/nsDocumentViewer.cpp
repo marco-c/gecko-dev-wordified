@@ -548,13 +548,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameSetElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLImageElement
 .
 h

@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsIDOMHTMLMenuElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -246,9 +239,6 @@ h
 "
 class
 nsDOMTokenList
-;
-class
-nsIDOMHTMLMenuElement
 ;
 class
 nsIFormControlFrame

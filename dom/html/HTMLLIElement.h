@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIDOMHTMLLIElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -155,8 +148,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLLIElement
 {
 public
 :
@@ -187,10 +178,6 @@ aNodeInfo
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMHTMLLIElement
-NS_DECL_NSIDOMHTMLLIELEMENT
 virtual
 bool
 ParseAttribute

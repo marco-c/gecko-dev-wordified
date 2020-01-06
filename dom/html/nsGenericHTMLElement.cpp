@@ -316,13 +316,6 @@ h
 #
 include
 "
-nsIDOMHTMLMenuElement
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

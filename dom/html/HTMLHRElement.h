@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIDOMHTMLHRElement
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h
@@ -167,8 +160,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLHRElement
 {
 public
 :
@@ -193,10 +184,6 @@ aNodeInfo
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMHTMLHRElement
-NS_DECL_NSIDOMHTMLHRELEMENT
 virtual
 bool
 ParseAttribute

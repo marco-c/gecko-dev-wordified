@@ -325,13 +325,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameSetElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLIFrameElement
 .
 h

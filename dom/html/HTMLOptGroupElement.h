@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIDOMHTMLOptGroupElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -158,8 +151,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLOptGroupElement
 {
 public
 :
@@ -189,10 +180,6 @@ optgroup
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMHTMLOptGroupElement
-NS_DECL_NSIDOMHTMLOPTGROUPELEMENT
 /
 /
 nsINode

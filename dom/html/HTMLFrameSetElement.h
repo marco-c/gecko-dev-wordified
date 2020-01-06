@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameSetElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -337,8 +330,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLFrameSetElement
 {
 public
 :
@@ -390,10 +381,6 @@ frameset
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMHTMLFrameSetElement
-NS_DECL_NSIDOMHTMLFRAMESETELEMENT
 void
 GetCols
 (
