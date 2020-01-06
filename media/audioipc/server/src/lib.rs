@@ -4154,7 +4154,7 @@ e
 =
 >
 {
-error
+warn
 !
 (
 "
@@ -4610,7 +4610,7 @@ e
 )
 =
 >
-error
+warn
 !
 (
 "
@@ -4658,7 +4658,7 @@ accept
 poll
 )
 {
-error
+warn
 !
 (
 "
