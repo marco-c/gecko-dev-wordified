@@ -16487,7 +16487,7 @@ ElementCallbackType
 {
 eCreated
 eConnected
-eDetached
+eDisconnected
 eAttributeChanged
 }
 ;
