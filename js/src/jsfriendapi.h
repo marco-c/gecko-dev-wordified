@@ -2769,6 +2769,10 @@ UseInternalJobQueues
 JSContext
 *
 cx
+bool
+cooperative
+=
+false
 )
 ;
 /
