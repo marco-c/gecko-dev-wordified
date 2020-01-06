@@ -196,10 +196,6 @@ nsTGetterCopies_CharT
 nsGetterCopies
 #
 define
-nsTAdoptingString_CharT
-nsAdoptingString
-#
-define
 nsTPromiseFlatString_CharT
 nsPromiseFlatString
 #
