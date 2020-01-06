@@ -1413,7 +1413,7 @@ base
 scalar
 object
 that
-servers
+serves
 as
 a
 common
