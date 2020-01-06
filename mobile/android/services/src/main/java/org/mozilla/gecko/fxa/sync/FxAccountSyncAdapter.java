@@ -3561,9 +3561,8 @@ synchronously
 .
 deviceListUpdater
 .
-updateAndMaybeRenewRegistration
+update
 (
-context
 )
 ;
 }
