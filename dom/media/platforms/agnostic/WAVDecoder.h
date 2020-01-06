@@ -129,15 +129,6 @@ PlatformDecoderModule
 .
 h
 "
-#
-include
-"
-mp4_demuxer
-/
-ByteReader
-.
-h
-"
 namespace
 mozilla
 {
