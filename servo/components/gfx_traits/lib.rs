@@ -262,6 +262,7 @@ a
 single
 word
 .
+pub
 u64
 )
 ;

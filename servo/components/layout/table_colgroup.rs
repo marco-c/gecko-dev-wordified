@@ -659,13 +659,13 @@ self
 .
 base
 .
-scroll_root_id
+clip_and_scroll_info
 =
 Some
 (
 state
 .
-current_scroll_root_id
+current_clip_and_scroll_info
 )
 ;
 }
