@@ -56,6 +56,15 @@ MPL
 .
 *
 /
+use
+style
+:
+:
+context
+:
+:
+QuirksMode
+;
 #
 [
 test
@@ -242,6 +251,10 @@ dependencies
 note_selector
 (
 selector
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 assert_eq

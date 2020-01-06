@@ -79,6 +79,7 @@ Atom
 Prefix
 Namespace
 LocalName
+CaseSensitivityExt
 }
 ;
 use
@@ -159,6 +160,7 @@ attr
 {
 AttrSelectorOperation
 NamespaceConstraint
+CaseSensitivity
 }
 ;
 use
@@ -3939,6 +3941,9 @@ name
 :
 &
 Atom
+case_sensitivity
+:
+CaseSensitivity
 )
 -
 >
@@ -3984,10 +3989,13 @@ any
 |
 atom
 |
+case_sensitivity
+.
+eq_atom
+(
 atom
-=
-=
 name
+)
 )
 )
 }

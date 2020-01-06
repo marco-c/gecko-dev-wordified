@@ -550,6 +550,10 @@ map
 insert
 (
 rule
+QuirksMode
+:
+:
+NoQuirks
 )
 }
 }
@@ -1963,6 +1967,10 @@ rules_list
 clone
 (
 )
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 assert_eq
@@ -1985,6 +1993,10 @@ from
 top
 "
 )
+QuirksMode
+:
+:
+NoQuirks
 )
 .
 unwrap
@@ -2012,6 +2024,10 @@ rules_list
 clone
 (
 )
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 assert_eq
@@ -2034,6 +2050,10 @@ from
 foo
 "
 )
+QuirksMode
+:
+:
+NoQuirks
 )
 .
 unwrap
@@ -2065,6 +2085,10 @@ from
 intro
 "
 )
+QuirksMode
+:
+:
+NoQuirks
 )
 .
 is_none
