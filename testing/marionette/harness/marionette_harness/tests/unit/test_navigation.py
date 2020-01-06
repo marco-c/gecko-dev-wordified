@@ -2246,6 +2246,24 @@ self
 test_page_remote
 )
     
+skip
+(
+"
+Bug
+1369923
+-
+Disabling
+as
+keystrokes
+don
+'
+t
+trigger
+page
+loads
+"
+)
+    
 skip_if_mobile
 (
 "
