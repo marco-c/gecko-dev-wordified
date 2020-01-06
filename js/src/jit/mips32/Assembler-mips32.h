@@ -375,11 +375,13 @@ clobberable
 during
 the
 prologue
+and
+/
+/
+epilogue
 of
 an
 ABI
-/
-/
 call
 which
 must
@@ -387,6 +389,9 @@ preserve
 both
 ABI
 argument
+return
+/
+/
 and
 non
 -
@@ -396,7 +401,7 @@ registers
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
 t0
 ;

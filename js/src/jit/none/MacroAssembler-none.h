@@ -745,7 +745,7 @@ invalid_reg
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 {
 Registers
 :
