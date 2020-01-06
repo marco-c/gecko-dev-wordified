@@ -3974,6 +3974,17 @@ mPlayer
 null
 )
 ;
+if
+(
+isLiveStream
+(
+)
+)
+{
+return
+0L
+;
+}
 /
 /
 Value
