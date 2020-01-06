@@ -9376,8 +9376,6 @@ uint32_t
 slot
 unsigned
 attrs
-unsigned
-flags
 )
 :
 base
@@ -9409,10 +9407,7 @@ attrs
 )
 flags
 (
-uint8_t
-(
-flags
-)
+0
 )
 {
 MOZ_ASSERT

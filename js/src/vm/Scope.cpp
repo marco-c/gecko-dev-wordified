@@ -718,7 +718,6 @@ base
 id
 slot
 attrs
-0
 )
 )
 ;
