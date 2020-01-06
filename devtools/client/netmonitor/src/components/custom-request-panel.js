@@ -935,6 +935,13 @@ CustomRequestPanel
 propTypes
 =
 {
+connector
+:
+PropTypes
+.
+object
+.
+isRequired
 removeSelectedCustomRequest
 :
 PropTypes
@@ -1597,6 +1604,7 @@ state
 )
 (
 dispatch
+props
 )
 =
 >
@@ -1628,6 +1636,9 @@ Actions
 .
 sendCustomRequest
 (
+props
+.
+connector
 )
 )
 updateRequest
