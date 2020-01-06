@@ -2113,9 +2113,11 @@ be
 expired
 .
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -2366,9 +2368,11 @@ start
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
