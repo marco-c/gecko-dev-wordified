@@ -837,7 +837,7 @@ lm
 {
 adapter
 .
-reset
+clearAndInit
 (
 )
 ;
