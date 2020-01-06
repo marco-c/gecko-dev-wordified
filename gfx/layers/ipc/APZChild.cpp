@@ -505,7 +505,7 @@ IPCResult
 APZChild
 :
 :
-RecvNotifyAutoscrollHandledByAPZ
+RecvNotifyAsyncAutoscrollRejected
 (
 const
 ViewID
@@ -516,7 +516,7 @@ aScrollId
 mController
 -
 >
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 aScrollId
 )

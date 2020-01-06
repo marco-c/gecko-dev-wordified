@@ -366,7 +366,7 @@ aScrollId
 override
 ;
 void
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics

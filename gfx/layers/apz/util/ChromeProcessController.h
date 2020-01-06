@@ -431,7 +431,7 @@ override
 ;
 virtual
 void
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics

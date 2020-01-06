@@ -750,7 +750,7 @@ aDragMetrics
 )
 ;
 }
-void
+bool
 APZCTreeManagerChild
 :
 :
@@ -766,6 +766,7 @@ ScreenPoint
 aAnchorLocation
 )
 {
+return
 SendStartAutoscroll
 (
 aGuid

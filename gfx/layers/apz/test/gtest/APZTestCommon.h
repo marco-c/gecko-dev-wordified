@@ -726,7 +726,7 @@ ViewID
 ;
 MOCK_METHOD1
 (
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 void
 (
 const

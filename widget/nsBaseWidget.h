@@ -2379,7 +2379,7 @@ aDragMetrics
 override
 ;
 virtual
-void
+bool
 StartAsyncAutoscroll
 (
 const

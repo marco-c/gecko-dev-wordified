@@ -1394,7 +1394,7 @@ aDragMetrics
 0
 ;
 virtual
-void
+bool
 StartAutoscroll
 (
 const

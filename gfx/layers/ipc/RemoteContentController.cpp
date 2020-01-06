@@ -1406,7 +1406,7 @@ void
 RemoteContentController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics
@@ -1461,14 +1461,14 @@ layers
 RemoteContentController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 "
 this
 &
 RemoteContentController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 aScrollId
 )
 )
@@ -1484,7 +1484,7 @@ mCanSend
 Unused
 <
 <
-SendNotifyAutoscrollHandledByAPZ
+SendNotifyAsyncAutoscrollRejected
 (
 aScrollId
 )

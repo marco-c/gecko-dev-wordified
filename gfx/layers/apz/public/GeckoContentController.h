@@ -1084,7 +1084,7 @@ aScrollId
 ;
 virtual
 void
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics
