@@ -601,7 +601,7 @@ mSerialEventTarget
 aWorkerPrivate
 -
 >
-GetEventTarget
+HybridEventTarget
 (
 )
 )
@@ -4110,7 +4110,7 @@ mSerialEventTarget
 aWorkerPrivate
 -
 >
-GetEventTarget
+HybridEventTarget
 (
 )
 )
