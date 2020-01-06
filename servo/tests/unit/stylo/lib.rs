@@ -72,6 +72,10 @@ extern
 crate
 geckoservo
 ;
+extern
+crate
+hashglobe
+;
 #
 [
 macro_use
