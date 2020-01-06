@@ -184,13 +184,6 @@ const
 override
 final
 ;
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 nsresult
 Load
 (
@@ -354,6 +347,12 @@ NotifyInitDataArrived
 ;
 private
 :
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+;
 void
 DoSetMediaSourceDuration
 (
