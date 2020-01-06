@@ -719,9 +719,6 @@ SetThreadType
 js
 :
 :
-oom
-:
-:
 THREAD_TYPE_COOPERATING
 )
 ;
