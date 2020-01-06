@@ -4032,9 +4032,6 @@ IsApplicable
 ;
 MOZ_ASSERT
 (
-nsStyleSet
-:
-:
 IsCSSSheetType
 (
 aType
@@ -4161,9 +4158,6 @@ IsApplicable
 ;
 MOZ_ASSERT
 (
-nsStyleSet
-:
-:
 IsCSSSheetType
 (
 aType
@@ -4280,9 +4274,6 @@ aSheet
 ;
 MOZ_ASSERT
 (
-nsStyleSet
-:
-:
 IsCSSSheetType
 (
 aType
@@ -4714,9 +4705,6 @@ const
 {
 MOZ_ASSERT
 (
-nsStyleSet
-:
-:
 IsCSSSheetType
 (
 aType
@@ -4750,9 +4738,6 @@ const
 {
 MOZ_ASSERT
 (
-nsStyleSet
-:
-:
 IsCSSSheetType
 (
 aType
