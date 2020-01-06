@@ -3212,7 +3212,7 @@ if
 (
 checkThresholds
 )
-maybeAllocTriggerZoneGC
+maybeAllocTriggerGC
 (
 zone
 lock
