@@ -317,6 +317,12 @@ renderComponent
 (
 MessageContainer
 {
+getMessage
+:
+(
+)
+=
+>
 message
 serviceContainer
 }
