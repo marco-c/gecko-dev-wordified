@@ -217,6 +217,7 @@ parents
 array
 *
 /
+MOZ_INIT_OUTSIDE_CTOR
 ParseNode
 *
 parents
