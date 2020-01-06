@@ -209,19 +209,28 @@ remove
 cache
 )
 def
-generate_target
+generate_tasks
 (
 params
 =
-'
+None
+full
+=
+False
+)
+:
+    
+params
+=
+params
+or
+"
 project
 =
 mozilla
 -
 central
-'
-)
-:
+"
     
 cache_dir
 =
@@ -245,6 +254,18 @@ taskgraph
 '
 )
     
+attr
+=
+'
+full_task_set
+'
+if
+full
+else
+'
+target_task_set
+'
+    
 cache
 =
 os
@@ -254,9 +275,7 @@ path
 join
 (
 cache_dir
-'
-target_task_set
-'
+attr
 )
     
 invalidate
@@ -324,9 +343,23 @@ Task
 configuration
 changed
 generating
-target
-tasks
+{
+}
 "
+.
+format
+(
+attr
+.
+replace
+(
+'
+_
+'
+'
+'
+)
+)
 )
     
 params
@@ -363,6 +396,8 @@ ci
     
 tg
 =
+getattr
+(
 TaskGraphGenerator
 (
 root_dir
@@ -372,8 +407,8 @@ parameters
 =
 params
 )
-.
-target_task_set
+attr
+)
     
 labels
 =
