@@ -5013,9 +5013,8 @@ test_type
 ]
         
 if
+not
 type_tests
-is
-None
 :
             
 self
