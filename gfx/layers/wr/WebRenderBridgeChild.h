@@ -377,6 +377,11 @@ WebRenderScrollData
 aScrollData
 )
 ;
+void
+ProcessWebRenderParentCommands
+(
+)
+;
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
