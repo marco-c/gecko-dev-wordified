@@ -1177,7 +1177,10 @@ class
 GradientStops
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 GradientStops
 >
