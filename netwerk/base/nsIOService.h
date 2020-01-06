@@ -1078,12 +1078,6 @@ mDNSService
 ;
 nsCOMPtr
 <
-nsIProtocolProxyService2
->
-mProxyService
-;
-nsCOMPtr
-<
 nsICaptivePortalService
 >
 mCaptivePortalService
