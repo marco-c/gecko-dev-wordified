@@ -911,8 +911,6 @@ aTrack
 bool
 ShouldSkip
 (
-bool
-aSkipToNextKeyframe
 media
 :
 :
