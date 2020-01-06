@@ -3604,7 +3604,7 @@ MOZ_ASSERT
 xpc
 :
 :
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get
