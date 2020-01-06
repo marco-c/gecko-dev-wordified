@@ -3795,11 +3795,11 @@ TraceBlackJS
 this
 )
 ;
-JS_RemoveExtraGCRootsTracer
+JS_SetGrayGCRootsTracer
 (
 cx
-TraceGrayJS
-this
+nullptr
+nullptr
 )
 ;
 }
