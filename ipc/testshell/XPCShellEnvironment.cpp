@@ -1159,15 +1159,12 @@ isInt32
 (
 )
 )
-JS_SetVersionForCompartment
-(
-js
+JS
 :
 :
-GetContextCompartment
+SetVersionForCurrentRealm
 (
 cx
-)
 JSVersion
 (
 args

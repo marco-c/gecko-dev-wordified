@@ -6057,15 +6057,9 @@ return
 false
 ;
 }
-JS_SetVersionForCompartment
-(
-js
-:
-:
-GetContextCompartment
+SetVersionForCurrentRealm
 (
 cx
-)
 JSVersion
 (
 v
