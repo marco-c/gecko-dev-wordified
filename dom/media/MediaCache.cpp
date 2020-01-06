@@ -3466,10 +3466,6 @@ mChannelEnded
 (
 false
 )
-mChannelOffset
-(
-0
-)
 mStreamLength
 (
 -
@@ -15475,9 +15471,13 @@ GetOffset
 )
 const
 {
-MOZ_ASSERT
+ReentrantMonitorAutoEnter
+mon
 (
-NS_IsMainThread
+mMediaCache
+-
+>
+GetReentrantMonitor
 (
 )
 )
