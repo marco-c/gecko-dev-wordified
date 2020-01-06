@@ -428,6 +428,7 @@ aScrollData
 =
 WebRenderScrollData
 (
+mManager
 )
 ;
 MOZ_ASSERT
@@ -453,6 +454,7 @@ mScrollingHelper
 .
 BeginBuild
 (
+mManager
 aBuilder
 )
 ;
@@ -612,7 +614,7 @@ nsLayoutUtils
 GetRootMetadata
 (
 aDisplayListBuilder
-nullptr
+mManager
 ContainerLayerParameters
 (
 )

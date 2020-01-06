@@ -250,6 +250,9 @@ layers
 class
 Layer
 ;
+class
+LayerManager
+;
 }
 /
 /
@@ -327,6 +330,16 @@ layers
 :
 Layer
 Layer
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+LayerManager
+LayerManager
 ;
 class
 AsyncScroll
@@ -2746,6 +2759,9 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+LayerManager
+*
+aLayerManager
 const
 nsIFrame
 *
@@ -5693,6 +5709,9 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+LayerManager
+*
+aLayerManager
 const
 nsIFrame
 *
@@ -5718,6 +5737,7 @@ mHelper
 ComputeScrollMetadata
 (
 aLayer
+aLayerManager
 aContainerReferenceFrame
 aParameters
 aClip
@@ -8080,6 +8100,9 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+LayerManager
+*
+aLayerManager
 const
 nsIFrame
 *
@@ -8105,6 +8128,7 @@ mHelper
 ComputeScrollMetadata
 (
 aLayer
+aLayerManager
 aContainerReferenceFrame
 aParameters
 aClip

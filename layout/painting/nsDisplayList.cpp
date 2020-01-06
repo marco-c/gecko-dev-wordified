@@ -15987,6 +15987,11 @@ GetRootMetadata
 (
 aBuilder
 root
+-
+>
+Manager
+(
+)
 containerParameters
 callback
 )
@@ -42180,9 +42185,9 @@ nsDisplaySubDocument
 :
 ComputeScrollMetadata
 (
-Layer
+LayerManager
 *
-aLayer
+aLayerManager
 const
 ContainerLayerParameters
 &
@@ -42335,7 +42340,7 @@ GetContent
 ReferenceFrame
 (
 )
-aLayer
+aLayerManager
 mScrollParentId
 viewport
 Nothing
@@ -45546,9 +45551,9 @@ nsDisplayScrollInfoLayer
 :
 ComputeScrollMetadata
 (
-Layer
+LayerManager
 *
-aLayer
+aLayerManager
 const
 ContainerLayerParameters
 &
@@ -45601,7 +45606,7 @@ GetContent
 ReferenceFrame
 (
 )
-aLayer
+aLayerManager
 mScrollParentId
 viewport
 Nothing
@@ -45675,7 +45680,12 @@ metadata
 =
 ComputeScrollMetadata
 (
-nullptr
+aData
+-
+>
+GetManager
+(
+)
 ContainerLayerParameters
 (
 )

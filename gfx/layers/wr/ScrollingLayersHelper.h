@@ -139,6 +139,9 @@ class
 StackingContextHelper
 ;
 class
+WebRenderLayerManager
+;
+class
 ScrollingLayersHelper
 {
 public
@@ -150,6 +153,9 @@ ScrollingLayersHelper
 void
 BeginBuild
 (
+WebRenderLayerManager
+*
+aManager
 wr
 :
 :
@@ -499,6 +505,11 @@ wr
 WrClipId
 >
 ClipIdMap
+;
+WebRenderLayerManager
+*
+MOZ_NON_OWNING_REF
+mManager
 ;
 wr
 :

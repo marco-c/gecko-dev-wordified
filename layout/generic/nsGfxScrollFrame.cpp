@@ -25706,6 +25706,9 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+LayerManager
+*
+aLayerManager
 const
 nsIFrame
 *
@@ -26004,7 +26007,7 @@ GetContent
 (
 )
 aContainerReferenceFrame
-aLayer
+aLayerManager
 mScrollParentID
 scrollport
 parentLayerClip
