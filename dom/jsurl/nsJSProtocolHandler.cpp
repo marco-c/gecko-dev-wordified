@@ -389,6 +389,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ScriptSettings
@@ -1350,6 +1359,9 @@ work
 javascript
 -
 protocol
+mozilla
+:
+:
 nsAutoMicroTask
 mt
 ;
