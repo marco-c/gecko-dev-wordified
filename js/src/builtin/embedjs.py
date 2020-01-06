@@ -1390,10 +1390,6 @@ PREPROCESS_OPTION
   
 cppflags
 =
-shlex
-.
-split
-(
 buildconfig
 .
 substs
@@ -1402,7 +1398,6 @@ substs
 OS_CPPFLAGS
 '
 ]
-)
   
 cppflags
 +
