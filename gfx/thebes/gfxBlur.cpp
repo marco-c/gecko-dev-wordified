@@ -387,7 +387,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -3590,14 +3590,11 @@ records
 Matrix
 destMatrix
 =
-ToMatrix
-(
 aDestinationCtx
 -
 >
 CurrentMatrix
 (
-)
 )
 ;
 bool
