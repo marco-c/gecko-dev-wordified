@@ -4363,7 +4363,6 @@ enum
 Serialization
 {
 eNormalized
-eAuthorSpecified
 }
 ;
 /
