@@ -265,12 +265,6 @@ remove
 null
 )
 ;
-FormHistory
-.
-shutdown
-(
-)
-;
 Services
 .
 prefs

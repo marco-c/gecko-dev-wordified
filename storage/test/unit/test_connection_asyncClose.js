@@ -495,6 +495,14 @@ gone
 .
 *
 /
+if
+(
+!
+AppConstants
+.
+DEBUG
+)
+{
 add_task
 (
 function
@@ -612,6 +620,7 @@ realClosePromise
 }
 )
 ;
+}
 /
 *
 *

@@ -5252,7 +5252,7 @@ rv
 mMainConn
 -
 >
-Close
+SpinningSynchronousClose
 (
 )
 ;
