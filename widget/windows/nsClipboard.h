@@ -174,6 +174,15 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 nsIObserver
 NS_DECL_NSIOBSERVER
+static
+already_AddRefed
+<
+nsIClipboard
+>
+GetInstance
+(
+)
+;
 /
 /
 nsIClipboard
