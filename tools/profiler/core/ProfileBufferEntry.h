@@ -330,14 +330,6 @@ double
 \
 macro
 (
-Sample
-const
-char
-*
-)
-\
-macro
-(
 ThreadId
 int
 )
