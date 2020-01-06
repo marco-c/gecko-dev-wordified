@@ -871,10 +871,10 @@ AsyncOnChannelRedirect
 (
 nsIChannel
 *
-aOldChannel
+aOld
 nsIChannel
 *
-aNewChannel
+aNew
 uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
@@ -891,6 +891,7 @@ if
 (
 mResource
 )
+{
 rv
 =
 mResource
@@ -898,11 +899,13 @@ mResource
 >
 OnChannelRedirect
 (
-aOldChannel
-aNewChannel
+aOld
+aNew
 aFlags
+mOffset
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -910,9 +913,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 cb
 -
 >
@@ -2893,6 +2898,8 @@ nsIChannel
 aNew
 uint32_t
 aFlags
+int64_t
+aOffset
 )
 {
 mChannel
@@ -2909,9 +2916,7 @@ mChannel
 return
 SetupChannelHeaders
 (
-GetOffset
-(
-)
+aOffset
 )
 ;
 }
@@ -3370,6 +3375,7 @@ new
 Listener
 (
 this
+0
 )
 ;
 *
@@ -3430,6 +3436,7 @@ new
 Listener
 (
 this
+aOffset
 )
 ;
 nsresult
