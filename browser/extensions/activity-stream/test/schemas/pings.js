@@ -103,6 +103,9 @@ about
 :
 newtab
 "
+"
+unknown
+"
 ]
 )
 user_prefs
