@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIDOMHTMLCanvasElement
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -599,6 +606,8 @@ final
 public
 nsGenericHTMLElement
 public
+nsIDOMHTMLCanvasElement
+public
 CanvasRenderingContextHelper
 {
 enum
@@ -674,6 +683,10 @@ canvas
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+/
+/
+nsIDOMHTMLCanvasElement
+NS_DECL_NSIDOMHTMLCANVASELEMENT
 /
 /
 CC
