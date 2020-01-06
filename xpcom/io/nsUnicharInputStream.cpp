@@ -1608,7 +1608,7 @@ Elements
 )
 )
 ;
-nsASingleFragmentCString
+nsACString
 :
 :
 const_char_iterator
@@ -1620,7 +1620,7 @@ Elements
 (
 )
 ;
-nsASingleFragmentCString
+nsACString
 :
 :
 const_char_iterator

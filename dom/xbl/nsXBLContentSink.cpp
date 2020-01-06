@@ -483,7 +483,7 @@ mTextLength
 )
 {
 const
-nsASingleFragmentString
+nsAString
 &
 text
 =

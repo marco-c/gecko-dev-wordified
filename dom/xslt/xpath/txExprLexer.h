@@ -340,7 +340,7 @@ Constructors
 *
 /
 typedef
-nsASingleFragmentString
+nsAString
 :
 :
 const_char_iterator
@@ -543,13 +543,13 @@ nsresult
 parse
 (
 const
-nsASingleFragmentString
+nsAString
 &
 aPattern
 )
 ;
 typedef
-nsASingleFragmentString
+nsAString
 :
 :
 const_char_iterator

@@ -1858,13 +1858,13 @@ static
 bool
 GetTokenValue
 (
-nsASingleFragmentCString
+nsACString
 :
 :
 const_char_iterator
 &
 aIter
-nsASingleFragmentCString
+nsACString
 :
 :
 const_char_iterator

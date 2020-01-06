@@ -4356,7 +4356,7 @@ hasMoreTokens
 )
 {
 const
-nsASingleFragmentString
+nsAString
 &
 name
 =

@@ -949,7 +949,7 @@ rv
 )
 )
 {
-nsASingleFragmentString
+nsAString
 :
 :
 const_char_iterator
@@ -1035,7 +1035,7 @@ rv
 )
 )
 {
-nsASingleFragmentString
+nsAString
 :
 :
 const_char_iterator
