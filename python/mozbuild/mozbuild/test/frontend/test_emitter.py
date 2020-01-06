@@ -11678,25 +11678,24 @@ read_topsrcdir
 reader
 )
         
+ldflags
+prog
+=
+objs
+        
 self
 .
-assertEqual
+assertIsInstance
 (
-len
-(
-objs
-)
-1
+ldflags
+ComputedFlags
 )
         
 self
 .
 assertIsInstance
 (
-objs
-[
-0
-]
+prog
 RustProgram
 )
         
@@ -11704,10 +11703,7 @@ self
 .
 assertEqual
 (
-objs
-[
-0
-]
+prog
 .
 name
 '
