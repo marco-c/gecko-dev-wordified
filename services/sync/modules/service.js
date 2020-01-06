@@ -7128,10 +7128,16 @@ async
 _remoteSetup
 (
 infoResponse
+fetchConfig
+=
+true
 )
 {
 if
 (
+fetchConfig
+&
+&
 !
 (
 await
@@ -8810,6 +8816,7 @@ synchronizer
 sync
 (
 engineNamesToSync
+why
 )
 ;
 /
