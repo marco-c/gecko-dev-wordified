@@ -825,7 +825,7 @@ TaskQueue
 .
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 WrapAsEventTarget
 (

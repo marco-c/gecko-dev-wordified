@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -148,7 +148,7 @@ EventTargetWrapper
 final
 :
 public
-nsIEventTarget
+nsISerialEventTarget
 {
 RefPtr
 <
@@ -333,6 +333,7 @@ TaskQueue
 :
 EventTargetWrapper
 nsIEventTarget
+nsISerialEventTarget
 )
 TaskQueue
 :
@@ -1017,7 +1018,7 @@ in
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 TaskQueue
 :
@@ -1028,7 +1029,7 @@ WrapAsEventTarget
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 ref
 =

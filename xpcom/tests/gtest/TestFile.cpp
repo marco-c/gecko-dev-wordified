@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h

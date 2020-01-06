@@ -1080,6 +1080,10 @@ nsIEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsISerialEventTarget
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsISupportsPriority
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS

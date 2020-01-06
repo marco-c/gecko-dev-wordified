@@ -10040,7 +10040,7 @@ EventTarget
 final
 :
 public
-nsIEventTarget
+nsISerialEventTarget
 {
 /
 /
@@ -14681,7 +14681,7 @@ Derived
 >
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 WorkerPrivateParent
 <
@@ -14703,7 +14703,7 @@ ParentAsWorkerPrivate
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -35153,6 +35153,10 @@ Derived
 :
 :
 EventTarget
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsISerialEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
