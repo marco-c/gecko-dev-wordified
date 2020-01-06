@@ -665,10 +665,6 @@ filtered_results
 ]
 )
                     
-subtest_index
-=
-0
-                    
 for
 val
 page
@@ -787,7 +783,7 @@ result
 .
 results
 [
-subtest_index
+0
 ]
 .
 get
@@ -804,7 +800,7 @@ result
 .
 results
 [
-subtest_index
+0
 ]
 .
 get
@@ -845,11 +841,6 @@ append
 (
 subtest
 )
-                        
-subtest_index
-+
-=
-1
                         
 if
 test
