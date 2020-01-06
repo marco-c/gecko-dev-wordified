@@ -671,8 +671,7 @@ JitExec_Aborted
 struct
 EnterJitData
 ;
-MOZ_MUST_USE
-bool
+void
 SetEnterJitData
 (
 JSContext
@@ -684,14 +683,6 @@ data
 RunState
 &
 state
-MutableHandle
-<
-GCVector
-<
-Value
->
->
-vals
 )
 ;
 JitExecStatus
