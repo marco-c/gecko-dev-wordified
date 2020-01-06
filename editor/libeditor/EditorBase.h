@@ -4382,7 +4382,7 @@ nsIContent
 *
 GetNodeAtRangeOffsetPoint
 (
-nsIDOMNode
+nsINode
 *
 aParentOrNode
 int32_t
