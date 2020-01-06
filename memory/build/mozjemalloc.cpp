@@ -3805,7 +3805,7 @@ CHUNK_RECYCLE_LIMIT
 static
 const
 size_t
-recycle_limit
+gRecycleLimit
 =
 CHUNK_RECYCLE_LIMIT
 *
@@ -3826,7 +3826,7 @@ atomically
 /
 static
 size_t
-recycled_size
+gRecycledSize
 ;
 /
 *
@@ -13534,7 +13534,7 @@ node
 nullptr
 ;
 }
-recycled_size
+gRecycledSize
 -
 =
 aSize
@@ -14542,7 +14542,7 @@ prev
 )
 ;
 }
-recycled_size
+gRecycledSize
 +
 =
 aSize
@@ -14618,7 +14618,7 @@ recycled_so_far
 load_acquire_z
 (
 &
-recycled_size
+gRecycledSize
 )
 ;
 /
@@ -14638,13 +14638,13 @@ if
 (
 recycled_so_far
 <
-recycle_limit
+gRecycleLimit
 )
 {
 size_t
 recycle_remaining
 =
-recycle_limit
+gRecycleLimit
 -
 recycled_so_far
 ;
@@ -28545,7 +28545,7 @@ calculate_arena_maxclass
 ;
 #
 endif
-recycled_size
+gRecycledSize
 =
 0
 ;
