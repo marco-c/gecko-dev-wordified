@@ -287,7 +287,7 @@ include
 <
 sys
 /
-types
+stat
 .
 h
 >
@@ -296,7 +296,16 @@ include
 <
 sys
 /
-stat
+sysmacros
+.
+h
+>
+#
+include
+<
+sys
+/
+types
 .
 h
 >
