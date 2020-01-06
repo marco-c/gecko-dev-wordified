@@ -468,6 +468,12 @@ TracedRunnable
 .
 *
 /
+NS_IMPL_ISUPPORTS
+(
+TracedRunnable
+nsIRunnable
+)
+;
 TracedRunnable
 :
 :
@@ -591,7 +597,7 @@ aRunnable
 /
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 CreateTracedRunnable
 (
@@ -606,7 +612,7 @@ aRunnable
 {
 RefPtr
 <
-Runnable
+nsIRunnable
 >
 runnable
 =

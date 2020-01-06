@@ -822,7 +822,7 @@ functions
 /
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 CreateTracedRunnable
 (
