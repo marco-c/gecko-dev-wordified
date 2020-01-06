@@ -1931,7 +1931,7 @@ Services
 .
 locale
 .
-getRequestedLocale
+getRequestedLocales
 (
 )
 ;
