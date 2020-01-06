@@ -1688,8 +1688,7 @@ Boxer
 Node
 newRegExp
 (
-RegExpObject
-*
+Node
 reobj
 const
 TokenPos
