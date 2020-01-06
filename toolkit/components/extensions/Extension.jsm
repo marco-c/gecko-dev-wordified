@@ -983,7 +983,7 @@ complete
 const
 SHUTDOWN_BLOCKER_MAX_MS
 =
-1000
+8000
 ;
 /
 /
