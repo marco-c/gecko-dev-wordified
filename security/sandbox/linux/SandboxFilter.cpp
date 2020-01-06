@@ -3845,6 +3845,9 @@ AF_UNIX
 Switch
 (
 type
+&
+~
+SOCK_CLOEXEC
 )
 .
 Case
