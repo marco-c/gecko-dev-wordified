@@ -1567,7 +1567,7 @@ that
 (
 Number
 .
-isInteger
+isSafeInteger
 msg
 )
 (
