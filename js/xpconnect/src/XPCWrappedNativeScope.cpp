@@ -1453,7 +1453,6 @@ NativeInterface2JSObject
 (
 &
 val
-nullptr
 helper
 nullptr
 false

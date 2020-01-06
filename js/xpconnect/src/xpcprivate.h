@@ -14274,10 +14274,6 @@ JS
 :
 :
 MutableHandleValue
-d
-nsIXPConnectJSObjectHolder
-*
-*
 dest
 xpcObjectHelper
 &
