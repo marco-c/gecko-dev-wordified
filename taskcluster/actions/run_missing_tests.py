@@ -223,11 +223,6 @@ Applies
 to
 any
 task
-    
-schema
-=
-{
-}
 )
 def
 run_missing_tests
