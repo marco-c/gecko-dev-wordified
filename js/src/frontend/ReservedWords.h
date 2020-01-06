@@ -495,13 +495,6 @@ TOK_AWAIT
 \
 macro
 (
-each
-each
-TOK_EACH
-)
-\
-macro
-(
 from
 from
 TOK_FROM

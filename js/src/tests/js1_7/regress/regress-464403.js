@@ -390,10 +390,9 @@ function
 ]
 ;
 for
-each
 (
 x
-in
+of
 u
 )
 for

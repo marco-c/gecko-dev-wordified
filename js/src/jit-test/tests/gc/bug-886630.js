@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-need
--
-for
--
-each
 function
 errorToString
 (
@@ -128,7 +116,6 @@ x
 1
 ;
 for
-each
 (
 x
 in
@@ -171,7 +158,6 @@ infinite
 loop
 :
 for
-each
 (
 x
 in

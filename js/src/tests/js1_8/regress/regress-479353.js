@@ -260,11 +260,10 @@ x
 y
 ;
 for
-each
 (
 let
 x
-in
+of
 [
 arguments
 ]

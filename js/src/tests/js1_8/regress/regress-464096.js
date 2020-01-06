@@ -413,11 +413,10 @@ function
 )
 {
 for
-each
 (
 let
 j
-in
+of
 [
 1
 1

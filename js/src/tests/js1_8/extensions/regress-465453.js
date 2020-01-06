@@ -428,11 +428,10 @@ out
 ]
 ;
 for
-each
 (
 var
 e
-in
+of
 [
 (
 new

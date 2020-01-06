@@ -558,11 +558,10 @@ TUUL
 *
 /
 for
-each
 (
 let
 y
-in
+of
 [
 true
 {
@@ -614,7 +613,6 @@ tryItOut
 (
 "
 for
-each
 (
 NaN
 in

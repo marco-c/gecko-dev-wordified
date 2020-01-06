@@ -398,11 +398,10 @@ summary
 )
 ;
 for
-each
 (
 let
 a
-in
+of
 [
 2
 2

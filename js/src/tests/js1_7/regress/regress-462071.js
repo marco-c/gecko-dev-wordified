@@ -378,11 +378,10 @@ summary
 )
 ;
 for
-each
 (
 let
 i
-in
+of
 [
 {
 }

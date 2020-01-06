@@ -209,11 +209,10 @@ v
 0
 ;
 for
-each
 (
 var
 a
-in
+of
 [
 0
 {
@@ -239,11 +238,10 @@ v
 0
 ;
 for
-each
 (
 var
 b
-in
+of
 [
 {
 }

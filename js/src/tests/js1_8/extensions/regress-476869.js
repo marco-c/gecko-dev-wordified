@@ -429,11 +429,10 @@ gczeal
 )
 ;
 for
-each
 (
 let
 y
-in
+of
 [
 /
 x

@@ -570,10 +570,9 @@ interesting
 numbers
 .
 for
-each
 (
 num
-in
+of
 [
 Math
 .
@@ -612,10 +611,9 @@ num
 )
 ;
 for
-each
 (
 eps
-in
+of
 [
 1e
 -

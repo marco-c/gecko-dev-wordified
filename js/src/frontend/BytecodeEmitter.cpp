@@ -46678,11 +46678,7 @@ MOZ_ASSERT
 iflags
 &
 ~
-(
-JSITER_FOREACH
-|
 JSITER_ENUMERATE
-)
 )
 )
 ;

@@ -389,11 +389,10 @@ a
 )
 {
 for
-each
 (
 let
 c
-in
+of
 a
 )
 [

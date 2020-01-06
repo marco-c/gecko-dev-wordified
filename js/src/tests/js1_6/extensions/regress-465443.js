@@ -396,10 +396,9 @@ out
 ]
 ;
 for
-each
 (
 b
-in
+of
 [
 true
 "

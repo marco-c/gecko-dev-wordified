@@ -1136,18 +1136,6 @@ False
         
 self
 .
-need_for_each
-=
-False
-#
-Enable
-for
--
-each
-syntax
-        
-self
-.
 test_reflect_stringify
 =
 None
@@ -1343,14 +1331,6 @@ is_module
 self
 .
 is_module
-        
-t
-.
-need_for_each
-=
-self
-.
-need_for_each
         
 return
 t
@@ -2492,25 +2472,6 @@ append
 name
 )
                     
-elif
-name
-=
-=
-'
-need
--
-for
--
-each
-'
-:
-                        
-test
-.
-need_for_each
-=
-True
-                    
 else
 :
                         
@@ -2803,23 +2764,6 @@ scriptdir_var
 )
 ]
 ;
-        
-if
-self
-.
-need_for_each
-:
-            
-exprs
-+
-=
-[
-"
-enableForEach
-(
-)
-"
-]
         
 #
 We

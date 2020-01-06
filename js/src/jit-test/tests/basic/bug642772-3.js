@@ -1,17 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-need
--
-for
--
-each
-/
-/
 Catch
 memory
 leaks
@@ -40,7 +28,6 @@ z
 )
 {
 for
-each
 (
 y
 in

@@ -212,10 +212,9 @@ eval
 (
 "
 for
-each
 (
 e
-in
+of
 [
 '
 '

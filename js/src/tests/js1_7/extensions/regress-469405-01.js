@@ -221,10 +221,9 @@ a
 b
 ;
 for
-each
 (
 a
-in
+of
 [
 {
 }

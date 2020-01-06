@@ -365,11 +365,10 @@ summary
 )
 ;
 for
-each
 (
 let
 b
-in
+of
 [
 eval
 eval
@@ -383,10 +382,9 @@ eval
 b
 ;
 for
-each
 (
 b
-in
+of
 [
 (
 void
@@ -415,11 +413,10 @@ b
 b
 ;
 for
-each
 (
 var
 c
-in
+of
 [
 1
 /

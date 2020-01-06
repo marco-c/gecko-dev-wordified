@@ -403,11 +403,10 @@ b
 )
 {
 for
-each
 (
 let
 h
-in
+of
 [
 '
 '
@@ -419,10 +418,9 @@ x
 )
 {
 for
-each
 (
 c
-in
+of
 [
 [
 ]

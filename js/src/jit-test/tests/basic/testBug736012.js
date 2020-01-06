@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-need
--
-for
--
-each
 evaluate
 (
 "
@@ -34,10 +22,9 @@ e
 {
 \
 for
-each
 (
 foo
-in
+of
 [
 1
 ]

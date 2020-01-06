@@ -393,11 +393,10 @@ b
 )
 {
 for
-each
 (
 let
 h
-in
+of
 [
 33
 3
@@ -408,10 +407,9 @@ x
 )
 {
 for
-each
 (
 c
-in
+of
 [
 [
 ]

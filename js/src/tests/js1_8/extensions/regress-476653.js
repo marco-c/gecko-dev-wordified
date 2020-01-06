@@ -198,11 +198,10 @@ summary
 )
 ;
 for
-each
 (
 let
 x1
-in
+of
 [
 '
 '
@@ -244,11 +243,10 @@ i
 {
 }
 for
-each
 (
 let
 x
-in
+of
 [
 new
 String

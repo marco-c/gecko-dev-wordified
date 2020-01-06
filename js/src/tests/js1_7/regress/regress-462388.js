@@ -378,11 +378,10 @@ c
 v
 ;
 for
-each
 (
 let
 x
-in
+of
 [
 "
 "

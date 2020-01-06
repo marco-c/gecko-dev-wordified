@@ -390,11 +390,10 @@ iters
 )
 {
 for
-each
 (
 let
 x
-in
+of
 [
 '
 '
