@@ -326,6 +326,9 @@ is_logical
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 ignored_when_colors_disabled
@@ -390,6 +393,9 @@ style
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 animation_value_type
@@ -496,6 +502,9 @@ is_logical
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 allow_quirks
@@ -663,6 +672,9 @@ True
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 animation_value_type
@@ -784,6 +796,9 @@ gecko
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 ignored_when_colors_disabled
@@ -1675,6 +1690,9 @@ discrete
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 boxed
@@ -1780,6 +1798,9 @@ discrete
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 boxed
@@ -1809,6 +1830,9 @@ discrete
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 spec
@@ -2244,6 +2268,9 @@ discrete
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 boxed
@@ -2351,6 +2378,9 @@ discrete
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_FIRST_LETTER
 "
 boxed

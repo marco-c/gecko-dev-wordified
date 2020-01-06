@@ -193,7 +193,7 @@ flow
 {
 BaseFlow
 Flow
-IS_ABSOLUTELY_POSITIONED
+FlowFlags
 }
 ;
 use
@@ -357,9 +357,8 @@ inline
 :
 :
 {
-FIRST_FRAGMENT_OF_ELEMENT
+InlineFragmentNodeFlags
 InlineFlow
-LAST_FRAGMENT_OF_ELEMENT
 }
 ;
 use
@@ -578,7 +577,7 @@ servo
 restyle_damage
 :
 :
-REPAINT
+ServoRestyleDamage
 ;
 use
 style
@@ -1014,6 +1013,9 @@ flags
 .
 contains
 (
+StackingContextCollectionFlags
+:
+:
 NEVER_CREATES_CONTAINING_BLOCK
 )
 &
@@ -14355,6 +14357,9 @@ restyle_damage
 .
 remove
 (
+ServoRestyleDamage
+:
+:
 REPAINT
 )
 ;
@@ -14625,6 +14630,9 @@ flags
 .
 contains
 (
+InlineFragmentNodeFlags
+:
+:
 FIRST_FRAGMENT_OF_ELEMENT
 )
 is_last_fragment_of_element
@@ -14635,6 +14643,9 @@ flags
 .
 contains
 (
+InlineFragmentNodeFlags
+:
+:
 LAST_FRAGMENT_OF_ELEMENT
 )
 }
@@ -17371,7 +17382,7 @@ bitflags
 !
 {
 pub
-flags
+struct
 StackingContextCollectionFlags
 :
 u8
@@ -17391,6 +17402,7 @@ const
 NEVER_CREATES_CONTAINING_BLOCK
 =
 0b001
+;
 /
 /
 /
@@ -17405,6 +17417,7 @@ const
 NEVER_CREATES_CLIP_SCROLL_NODE
 =
 0b010
+;
 /
 /
 /
@@ -17420,6 +17433,7 @@ const
 NEVER_CREATES_STACKING_CONTEXT
 =
 0b100
+;
 }
 }
 pub
@@ -19035,6 +19049,9 @@ flags
 .
 contains
 (
+StackingContextCollectionFlags
+:
+:
 NEVER_CREATES_CLIP_SCROLL_NODE
 )
 {
@@ -19125,6 +19142,9 @@ flags
 .
 contains
 (
+StackingContextCollectionFlags
+:
+:
 NEVER_CREATES_CONTAINING_BLOCK
 )
 {
@@ -20824,6 +20844,9 @@ flags
 .
 contains
 (
+FlowFlags
+:
+:
 IS_ABSOLUTELY_POSITIONED
 )
 |
@@ -21131,6 +21154,9 @@ flags
 .
 contains
 (
+FlowFlags
+:
+:
 IS_ABSOLUTELY_POSITIONED
 )
 {
@@ -21266,6 +21292,9 @@ flags
 .
 contains
 (
+StackingContextCollectionFlags
+:
+:
 NEVER_CREATES_STACKING_CONTEXT
 )
 {
@@ -21300,6 +21329,9 @@ flags
 .
 contains
 (
+FlowFlags
+:
+:
 IS_ABSOLUTELY_POSITIONED
 )
 {

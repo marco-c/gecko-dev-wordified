@@ -235,7 +235,7 @@ style_traits
 :
 :
 {
-PARSING_MODE_DEFAULT
+ParsingMode
 PinchZoomFactor
 }
 ;
@@ -3165,7 +3165,10 @@ CssRuleType
 :
 Viewport
 )
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 QuirksMode
 :
 :

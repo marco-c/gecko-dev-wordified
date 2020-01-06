@@ -1334,7 +1334,7 @@ MallocSizeOf
 )
 ]
 pub
-flags
+struct
 NodeFlags
 :
 u16
@@ -1362,6 +1362,7 @@ IS_IN_DOC
 <
 <
 0
+;
 #
 [
 doc
@@ -1387,6 +1388,7 @@ HAS_DIRTY_DESCENDANTS
 <
 <
 1
+;
 /
 /
 TODO
@@ -1460,6 +1462,7 @@ CLICK_IN_PROGRESS
 <
 <
 2
+;
 #
 [
 doc
@@ -1495,6 +1498,7 @@ SEQUENTIALLY_FOCUSABLE
 <
 <
 3
+;
 /
 /
 /
@@ -1512,6 +1516,7 @@ CAN_BE_FRAGMENTED
 <
 <
 4
+;
 /
 /
 There
@@ -1559,6 +1564,7 @@ PARSER_ASSOCIATED_FORM_OWNER
 <
 <
 6
+;
 /
 /
 /
@@ -1601,6 +1607,7 @@ HAS_SNAPSHOT
 <
 <
 7
+;
 /
 /
 /
@@ -1621,6 +1628,7 @@ HANDLED_SNAPSHOT
 <
 <
 8
+;
 }
 }
 impl
@@ -2248,6 +2256,9 @@ node
 .
 set_flag
 (
+NodeFlags
+:
+:
 IS_IN_DOC
 parent_in_doc
 )
@@ -2275,6 +2286,9 @@ node
 .
 get_flag
 (
+NodeFlags
+:
+:
 HAS_DIRTY_DESCENDANTS
 )
 )
@@ -2604,12 +2618,24 @@ node
 .
 set_flag
 (
+NodeFlags
+:
+:
 IS_IN_DOC
 |
+NodeFlags
+:
+:
 HAS_DIRTY_DESCENDANTS
 |
+NodeFlags
+:
+:
 HAS_SNAPSHOT
 |
+NodeFlags
+:
+:
 HANDLED_SNAPSHOT
 false
 )
@@ -3453,6 +3479,9 @@ get
 .
 contains
 (
+NodeFlags
+:
+:
 IS_IN_DOC
 )
 }
@@ -3831,6 +3860,9 @@ self
 .
 get_flag
 (
+NodeFlags
+:
+:
 HAS_DIRTY_DESCENDANTS
 )
 }
@@ -10365,6 +10397,9 @@ new
 (
 )
 |
+NodeFlags
+:
+:
 IS_IN_DOC
 None
 )

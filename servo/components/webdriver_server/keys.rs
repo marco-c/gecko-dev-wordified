@@ -67,7 +67,6 @@ constellation_msg
 Key
 KeyState
 KeyModifiers
-SHIFT
 }
 ;
 /
@@ -2696,6 +2695,9 @@ modifiers
 if
 with_shift
 {
+KeyModifiers
+:
+:
 SHIFT
 }
 else

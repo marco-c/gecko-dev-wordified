@@ -1020,7 +1020,7 @@ bitflags
 !
 {
 pub
-flags
+struct
 ShapingFlags
 :
 u8
@@ -1044,6 +1044,7 @@ const
 IS_WHITESPACE_SHAPING_FLAG
 =
 0x01
+;
 #
 [
 doc
@@ -1063,6 +1064,7 @@ const
 IGNORE_LIGATURES_SHAPING_FLAG
 =
 0x02
+;
 #
 [
 doc
@@ -1082,6 +1084,7 @@ const
 DISABLE_KERNING_SHAPING_FLAG
 =
 0x04
+;
 #
 [
 doc
@@ -1102,6 +1105,7 @@ const
 RTL_FLAG
 =
 0x08
+;
 #
 [
 doc
@@ -1125,6 +1129,7 @@ const
 KEEP_ALL_FLAG
 =
 0x10
+;
 }
 }
 /
@@ -1410,6 +1415,9 @@ flags
 .
 contains
 (
+ShapingFlags
+:
+:
 IS_WHITESPACE_SHAPING_FLAG
 )
 options
@@ -1418,6 +1426,9 @@ flags
 .
 contains
 (
+ShapingFlags
+:
+:
 RTL_FLAG
 )
 )
@@ -1597,6 +1608,9 @@ flags
 .
 contains
 (
+ShapingFlags
+:
+:
 RTL_FLAG
 )
 &

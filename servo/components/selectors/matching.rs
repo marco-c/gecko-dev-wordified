@@ -207,7 +207,7 @@ a
 selector
 .
 pub
-flags
+struct
 ElementSelectorFlags
 :
 usize
@@ -276,6 +276,7 @@ HAS_SLOW_SELECTOR
 <
 <
 0
+;
 /
 /
 /
@@ -330,6 +331,7 @@ HAS_SLOW_SELECTOR_LATER_SIBLINGS
 <
 <
 1
+;
 /
 /
 /
@@ -382,6 +384,7 @@ HAS_EDGE_CHILD_SELECTOR
 <
 <
 2
+;
 /
 /
 /
@@ -416,6 +419,7 @@ HAS_EMPTY_SELECTOR
 <
 <
 3
+;
 }
 }
 impl
@@ -448,6 +452,9 @@ ElementSelectorFlags
 self
 &
 (
+ElementSelectorFlags
+:
+:
 HAS_EMPTY_SELECTOR
 )
 }
@@ -478,10 +485,19 @@ ElementSelectorFlags
 self
 &
 (
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR
 |
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR_LATER_SIBLINGS
 |
+ElementSelectorFlags
+:
+:
 HAS_EDGE_CHILD_SELECTOR
 )
 }
@@ -3430,6 +3446,9 @@ siblings
 flags_setter
 (
 element
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR_LATER_SIBLINGS
 )
 ;
@@ -4526,6 +4545,9 @@ Empty
 flags_setter
 (
 element
+ElementSelectorFlags
+:
+:
 HAS_EMPTY_SELECTOR
 )
 ;
@@ -4907,10 +4929,16 @@ element
 if
 is_from_end
 {
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR
 }
 else
 {
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR_LATER_SIBLINGS
 }
 )
@@ -5635,6 +5663,9 @@ ElementSelectorFlags
 flags_setter
 (
 element
+ElementSelectorFlags
+:
+:
 HAS_EDGE_CHILD_SELECTOR
 )
 ;
@@ -5688,6 +5719,9 @@ ElementSelectorFlags
 flags_setter
 (
 element
+ElementSelectorFlags
+:
+:
 HAS_EDGE_CHILD_SELECTOR
 )
 ;

@@ -114,7 +114,7 @@ multiple
 assertions
 .
 pub
-flags
+struct
 ThreadState
 :
 u32
@@ -135,6 +135,7 @@ const
 SCRIPT
 =
 0x01
+;
 /
 /
 /
@@ -151,6 +152,7 @@ const
 LAYOUT
 =
 0x02
+;
 /
 /
 /
@@ -182,6 +184,7 @@ const
 IN_WORKER
 =
 0x0100
+;
 /
 /
 /
@@ -199,6 +202,7 @@ const
 IN_GC
 =
 0x0200
+;
 }
 }
 macro_rules
@@ -213,7 +217,7 @@ ident
 =
 flag
 :
-ident
+path
 ;
 )
 *
@@ -250,6 +254,9 @@ self
 .
 contains
 (
+ThreadState
+:
+:
 IN_WORKER
 )
 }
@@ -289,10 +296,16 @@ thread_types
 {
 is_script
 =
+ThreadState
+:
+:
 SCRIPT
 ;
 is_layout
 =
+ThreadState
+:
+:
 LAYOUT
 ;
 }
@@ -424,8 +437,14 @@ initialize_layout_worker_thread
 {
 initialize
 (
+ThreadState
+:
+:
 LAYOUT
 |
+ThreadState
+:
+:
 IN_WORKER
 )
 ;
