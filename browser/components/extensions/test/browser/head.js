@@ -2184,7 +2184,7 @@ itemToSelect
 modifiers
 )
 ;
-return
+await
 popupHiddenPromise
 ;
 }
