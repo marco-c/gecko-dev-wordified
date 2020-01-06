@@ -195,16 +195,6 @@ namespace
 TelemetryHistogram
 {
 void
-CreateStatisticsRecorder
-(
-)
-;
-void
-DestroyStatisticsRecorder
-(
-)
-;
-void
 InitializeGlobalState
 (
 bool
