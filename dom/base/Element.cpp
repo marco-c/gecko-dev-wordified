@@ -11341,6 +11341,10 @@ dangerous
 }
 #
 endif
+ClearInDocument
+(
+)
+;
 /
 /
 Ensure
@@ -11470,10 +11474,6 @@ animationsProperty
 )
 ;
 }
-ClearInDocument
-(
-)
-;
 /
 /
 Computed
