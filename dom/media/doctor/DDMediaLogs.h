@@ -264,8 +264,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -322,9 +322,9 @@ aSubjectPointer
 ;
 aMessage
 .
-mClass
+mCategory
 =
-aClass
+aCategory
 ;
 aMessage
 .

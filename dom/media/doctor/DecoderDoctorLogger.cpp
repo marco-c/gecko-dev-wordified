@@ -1085,8 +1085,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -1116,7 +1116,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-aClass
+aCategory
 aLabel
 Move
 (
