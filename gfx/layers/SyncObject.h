@@ -211,7 +211,10 @@ class
 SyncObjectClient
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 SyncObjectClient
 >
