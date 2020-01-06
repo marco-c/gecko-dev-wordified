@@ -1596,6 +1596,8 @@ aDocument
 nsIContent
 *
 aAnonParent
+bool
+aNullParent
 )
 {
 nsAutoScriptBlocker
@@ -1668,6 +1670,8 @@ child
 >
 UnbindFromTree
 (
+true
+aNullParent
 )
 ;
 #
