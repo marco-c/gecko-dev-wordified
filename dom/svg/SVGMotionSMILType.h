@@ -167,17 +167,6 @@ nsSMILValue
 namespace
 mozilla
 {
-namespace
-gfx
-{
-class
-Matrix
-;
-}
-/
-/
-namespace
-gfx
 /
 *
 *

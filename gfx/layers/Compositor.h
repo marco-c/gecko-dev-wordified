@@ -164,6 +164,7 @@ h
 /
 /
 for
+Matrix
 Matrix4x4
 #
 include
@@ -1009,9 +1010,6 @@ mozilla
 namespace
 gfx
 {
-class
-Matrix
-;
 class
 DrawTarget
 ;

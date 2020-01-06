@@ -249,17 +249,6 @@ SVGSVGElement
 /
 namespace
 dom
-namespace
-gfx
-{
-class
-Matrix
-;
-}
-/
-/
-namespace
-gfx
 }
 /
 /
