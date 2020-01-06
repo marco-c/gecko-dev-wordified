@@ -2816,6 +2816,27 @@ py
 '
         
 '
+asan
+-
+reporter
+-
+tc
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_asan_reporter_tc
+.
+py
+'
+        
+'
 fuzzing
 -
 asan
