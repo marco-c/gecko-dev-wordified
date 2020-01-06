@@ -362,9 +362,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 aURI
+{
+}
 )
 ;
 channel
