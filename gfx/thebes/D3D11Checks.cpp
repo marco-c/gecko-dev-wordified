@@ -1005,6 +1005,12 @@ V
 )
 )
 {
+NS_ConvertUTF16toUTF8
+version
+(
+displayLinkModuleVersionString
+)
+;
 gfxCriticalError
 (
 CriticalLog
@@ -1026,7 +1032,7 @@ version
 "
 <
 <
-displayLinkModuleVersionString
+version
 .
 get
 (
