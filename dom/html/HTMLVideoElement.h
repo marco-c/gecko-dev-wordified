@@ -143,9 +143,6 @@ h
 namespace
 mozilla
 {
-class
-FrameStatistics
-;
 namespace
 dom
 {
