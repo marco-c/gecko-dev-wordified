@@ -2580,18 +2580,6 @@ bug
 137155
 )
 .
-nsCOMPtr
-<
-nsIInputStream
->
-stream
-(
-do_QueryInterface
-(
-multi
-)
-)
-;
 rv
 =
 NS_NewBufferedInputStream
@@ -2600,7 +2588,7 @@ getter_AddRefs
 (
 mRequestStream
 )
-stream
+multi
 nsIOService
 :
 :

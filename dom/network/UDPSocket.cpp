@@ -2003,10 +2003,7 @@ false
 }
 stream
 =
-do_QueryInterface
-(
 strStream
-)
 ;
 }
 if

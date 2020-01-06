@@ -9837,18 +9837,6 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-stream
-(
-do_QueryInterface
-(
-sstream
-)
-)
-;
 /
 /
 Set
@@ -10027,7 +10015,7 @@ uploadChannel
 >
 ExplicitSetUploadStream
 (
-stream
+sstream
 NS_LITERAL_CSTRING
 (
 "
