@@ -1027,6 +1027,13 @@ aTransformToSurface
 }
 virtual
 void
+Cleanup
+(
+)
+override
+;
+virtual
+void
 CleanupResources
 (
 )
