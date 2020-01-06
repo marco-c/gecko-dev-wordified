@@ -202,7 +202,7 @@ activitystream
 .
 homepanel
 .
-StreamHighlightItemContextMenuListener
+StreamHighlightItemRowContextMenuListener
 ;
 import
 org
@@ -295,7 +295,7 @@ UUID
 ;
 public
 class
-HighlightItem
+HighlightItemRow
 extends
 StreamViewHolder
 {
@@ -366,13 +366,13 @@ ImageView
 menuButton
 ;
 public
-HighlightItem
+HighlightItemRow
 (
 final
 View
 itemView
 final
-StreamHighlightItemContextMenuListener
+StreamHighlightItemRowContextMenuListener
 contextMenuListener
 )
 {
@@ -540,7 +540,7 @@ contextMenuListener
 .
 openContextMenu
 (
-HighlightItem
+HighlightItemRow
 .
 this
 position

@@ -253,7 +253,7 @@ homepanel
 .
 stream
 .
-HighlightItem
+HighlightItemRow
 ;
 import
 org
@@ -405,7 +405,7 @@ OnItemClickListener
 RecyclerViewClickSupport
 .
 OnItemLongClickListener
-StreamHighlightItemContextMenuListener
+StreamHighlightItemRowContextMenuListener
 {
 private
 static
@@ -882,13 +882,13 @@ getViewType
 {
 return
 new
-HighlightItem
+HighlightItemRow
 (
 inflater
 .
 inflate
 (
-HighlightItem
+HighlightItemRow
 .
 LAYOUT_ID
 parent
@@ -1011,7 +1011,7 @@ position
 ;
 (
 (
-HighlightItem
+HighlightItemRow
 )
 holder
 )
@@ -1296,11 +1296,11 @@ false
 ;
 }
 final
-HighlightItem
+HighlightItemRow
 highlightItem
 =
 (
-HighlightItem
+HighlightItemRow
 )
 recyclerView
 .
@@ -1545,7 +1545,7 @@ void
 openContextMenu
 (
 final
-HighlightItem
+HighlightItemRow
 highlightItem
 final
 int
