@@ -713,9 +713,6 @@ responseCookies
 responseContent
 "
 "
-responseContentAvailable
-"
-"
 responseContentDataUri
 "
 "

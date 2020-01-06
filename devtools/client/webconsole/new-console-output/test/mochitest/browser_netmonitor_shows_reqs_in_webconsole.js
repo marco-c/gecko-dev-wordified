@@ -534,10 +534,4 @@ correct
 "
 )
 ;
-await
-waitForExistingRequests
-(
-monitor
-)
-;
 }

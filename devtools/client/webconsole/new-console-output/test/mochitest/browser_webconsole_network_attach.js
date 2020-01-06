@@ -373,12 +373,6 @@ testNetworkMessage
 messageNode
 )
 ;
-await
-waitForExistingRequests
-(
-monitor
-)
-;
 }
 )
 ;
