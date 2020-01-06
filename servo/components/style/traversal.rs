@@ -1278,8 +1278,6 @@ ancestors
 .
 data
 .
-restyle
-.
 set_reconstructed_ancestor
 (
 false
@@ -1708,8 +1706,6 @@ unwrap
 (
 )
 .
-restyle
-.
 hint
 .
 has_animation_hint_or_recascade
@@ -1923,8 +1919,6 @@ let
 going_to_reframe
 =
 parent_data
-.
-restyle
 .
 reconstructed_self_or_ancestor
 (
@@ -2152,8 +2146,6 @@ if
 !
 data
 .
-restyle
-.
 hint
 .
 is_empty
@@ -2219,8 +2211,6 @@ servo
 &
 !
 data
-.
-restyle
 .
 damage
 .
@@ -3723,8 +3713,6 @@ has_styles
 ;
 data
 .
-restyle
-.
 set_traversed_without_styling
 (
 )
@@ -3816,8 +3804,6 @@ for_animation_only
 !
 data
 .
-restyle
-.
 hint
 .
 has_animation_hint
@@ -3840,8 +3826,6 @@ restyles
 )
 ;
 data
-.
-restyle
 .
 hint
 .
@@ -4142,8 +4126,6 @@ is_initial_style
 |
 data
 .
-restyle
-.
 reconstructed_self
 (
 )
@@ -4200,8 +4182,6 @@ data
 propagated_hint
 child_cascade_requirement
 data
-.
-restyle
 .
 reconstructed_self_or_ancestor
 (
@@ -4589,8 +4569,6 @@ has_styles
 )
 {
 data
-.
-restyle
 .
 set_restyled
 (
@@ -5572,8 +5550,6 @@ d
 |
 d
 .
-restyle
-.
 hint
 )
 propagated_hint
@@ -5614,8 +5590,6 @@ whole
 subtree
 .
 child_data
-.
-restyle
 .
 set_reconstructed_ancestor
 (
@@ -5708,8 +5682,6 @@ RECASCADE_SELF
 }
 }
 child_data
-.
-restyle
 .
 hint
 .

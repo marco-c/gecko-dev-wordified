@@ -104,7 +104,6 @@ data
 {
 ElementData
 ElementStyles
-RestyleData
 }
 ;
 use
@@ -445,14 +444,6 @@ size_of_test
 test_size_of_element_styles
 ElementStyles
 16
-)
-;
-size_of_test
-!
-(
-test_size_of_restyle_data
-RestyleData
-8
 )
 ;
 size_of_test

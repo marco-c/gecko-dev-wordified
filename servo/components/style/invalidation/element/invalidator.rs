@@ -1499,8 +1499,6 @@ unwrap
 ;
 data
 .
-restyle
-.
 hint
 .
 insert
@@ -1956,8 +1954,6 @@ self
 data
 {
 data
-.
-restyle
 .
 hint
 .
@@ -3013,8 +3009,6 @@ really
 if
 data
 .
-restyle
-.
 hint
 .
 contains_subtree
@@ -3056,8 +3050,6 @@ as_mut
 unwrap
 (
 )
-.
-restyle
 .
 hint
 .
@@ -4827,8 +4819,6 @@ self
 data
 {
 data
-.
-restyle
 .
 hint
 .

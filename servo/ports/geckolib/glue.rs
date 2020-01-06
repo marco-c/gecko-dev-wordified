@@ -2795,7 +2795,7 @@ lfc
 =
 {
 }
-restyle
+data
 =
 {
 :
@@ -2832,8 +2832,6 @@ borrow_data
 unwrap
 (
 )
-.
-restyle
 )
 ;
 element
@@ -21152,8 +21150,6 @@ was_restyled
 =
 data
 .
-restyle
-.
 is_restyle
 (
 )
@@ -21162,8 +21158,6 @@ let
 damage
 =
 data
-.
-restyle
 .
 damage
 ;
@@ -26770,8 +26764,6 @@ borrow_data
 if
 !
 data
-.
-restyle
 .
 hint
 .

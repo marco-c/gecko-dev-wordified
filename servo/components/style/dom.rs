@@ -3660,8 +3660,6 @@ has_styles
 !
 data
 .
-restyle
-.
 hint
 .
 has_animation_hint_or_recascade
@@ -3728,8 +3726,6 @@ has_styles
 &
 !
 data
-.
-restyle
 .
 hint
 .
@@ -3925,8 +3921,6 @@ this
 .
 !
 data
-.
-restyle
 .
 hint
 .
@@ -5251,8 +5245,6 @@ false
 ;
 return
 data
-.
-restyle
 .
 hint
 .

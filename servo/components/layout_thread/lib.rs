@@ -8305,8 +8305,6 @@ mutate_data
 {
 data
 .
-restyle
-.
 hint
 .
 insert
@@ -8832,8 +8830,6 @@ system
 .
 style_data
 .
-restyle
-.
 hint
 .
 insert
@@ -8848,8 +8844,6 @@ into
 )
 ;
 style_data
-.
-restyle
 .
 damage
 =
@@ -8876,8 +8870,6 @@ for
 "
 el
 style_data
-.
-restyle
 )
 ;
 }

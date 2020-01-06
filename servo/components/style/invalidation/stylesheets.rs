@@ -943,8 +943,6 @@ element
 ;
 data
 .
-restyle
-.
 hint
 .
 insert
@@ -1115,8 +1113,6 @@ false
 if
 data
 .
-restyle
-.
 hint
 .
 contains_subtree
@@ -1181,8 +1177,6 @@ scope
 )
 ;
 data
-.
-restyle
 .
 hint
 .
