@@ -3348,6 +3348,17 @@ abs_test_install_dir
 gtest
 '
 )
+                
+'
+abs_work_dir
+'
+:
+dirs
+[
+'
+abs_work_dir
+'
+]
             
 }
             

@@ -599,6 +599,14 @@ symbols
 "
 )
         
+args
+.
+workPath
+=
+self
+.
+topsrcdir
+        
 if
 not
 args

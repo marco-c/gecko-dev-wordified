@@ -757,6 +757,20 @@ cleanup
 -
 crashes
 "
+                
+"
+-
+-
+work
+-
+path
+=
+%
+(
+abs_work_dir
+)
+s
+"
             
 ]
             
@@ -1015,6 +1029,20 @@ s
 cleanup
 -
 crashes
+"
+                
+"
+-
+-
+work
+-
+path
+=
+%
+(
+abs_work_dir
+)
+s
 "
             
 ]
