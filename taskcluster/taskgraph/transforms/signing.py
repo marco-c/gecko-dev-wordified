@@ -1229,6 +1229,24 @@ routes
 }
         
 if
+'
+macosx
+'
+not
+in
+dep_job
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+)
+and
+\
+                
 job
 .
 get
