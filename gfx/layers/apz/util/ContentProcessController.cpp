@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsIContentInlines
-.
-h
-"
-#
-include
-"
 InputData
 .
 h
