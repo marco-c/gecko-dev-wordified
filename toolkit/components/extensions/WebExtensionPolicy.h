@@ -376,8 +376,9 @@ const
 bool
 CanAccessURI
 (
-nsIURI
-*
+const
+URLInfo
+&
 aURI
 bool
 aExplicit
