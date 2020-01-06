@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h
