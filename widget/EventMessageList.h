@@ -2191,10 +2191,6 @@ NS_EVENT_MESSAGE
 (
 eMessage
 )
-NS_EVENT_MESSAGE
-(
-eMessageError
-)
 /
 /
 Menu
