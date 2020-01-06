@@ -531,7 +531,7 @@ nsPrefBranch
 (
 )
 {
-freeObserverList
+FreeObserverList
 (
 )
 ;
@@ -667,7 +667,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -823,7 +823,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -878,7 +878,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -1102,7 +1102,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -1209,7 +1209,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -1431,7 +1431,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -1486,7 +1486,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -1597,7 +1597,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -2687,7 +2687,7 @@ processes
 .
 "
 aLength
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3390,7 +3390,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3436,7 +3436,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3492,7 +3492,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3553,7 +3553,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3609,7 +3609,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aPrefName
 )
@@ -3677,7 +3677,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aStartingAt
 )
@@ -3784,7 +3784,7 @@ PrefName
 &
 parent
 =
-getPrefName
+GetPrefName
 (
 aStartingAt
 )
@@ -3847,7 +3847,7 @@ strncmp
 entry
 -
 >
-key
+mKey
 parent
 .
 get
@@ -3867,7 +3867,7 @@ AppendElement
 entry
 -
 >
-key
+mKey
 )
 ;
 }
@@ -4314,7 +4314,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aDomain
 )
@@ -4377,7 +4377,7 @@ of
 a
 call
 to
-freeObserverList
+FreeObserverList
 don
 '
 t
@@ -4452,7 +4452,7 @@ break
 the
 iteration
 in
-freeObserverList
+FreeObserverList
 .
 if
 (
@@ -4550,7 +4550,7 @@ PrefName
 &
 pref
 =
-getPrefName
+GetPrefName
 (
 aDomain
 )
@@ -4623,7 +4623,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
 {
-freeObserverList
+FreeObserverList
 (
 )
 ;
@@ -4845,7 +4845,7 @@ void
 nsPrefBranch
 :
 :
-freeObserverList
+FreeObserverList
 (
 )
 {
@@ -4965,7 +4965,7 @@ pref
 prefBranch
 -
 >
-getPrefName
+GetPrefName
 (
 callback
 -
@@ -5178,7 +5178,7 @@ PrefName
 nsPrefBranch
 :
 :
-getPrefName
+GetPrefName
 (
 const
 char
