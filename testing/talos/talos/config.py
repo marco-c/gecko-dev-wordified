@@ -1960,6 +1960,16 @@ migrateToDevEdition
 False
         
 '
+plugin
+.
+state
+.
+flash
+'
+:
+0
+        
+'
 media
 .
 libavcodec
