@@ -407,7 +407,7 @@ aCallback
 ;
 /
 /
-To
+Must
 be
 called
 on
@@ -443,7 +443,7 @@ this
 layer
 .
 void
-FinishedLayerBatch
+EndLayer
 (
 )
 ;
@@ -530,7 +530,7 @@ new
 frame
 .
 void
-FinishedLayerTransaction
+EndLayerTransaction
 (
 SyncObjectClient
 *
@@ -622,7 +622,7 @@ InitOnPaintThread
 )
 ;
 void
-PaintContentsAsync
+AsyncPaintContents
 (
 CompositorBridgeChild
 *
@@ -635,12 +635,12 @@ aCallback
 )
 ;
 void
-EndAsyncPaintingLayer
+AsyncEndLayer
 (
 )
 ;
 void
-EndAsyncLayerTransaction
+AsyncEndLayerTransaction
 (
 CompositorBridgeChild
 *

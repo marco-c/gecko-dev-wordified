@@ -1619,7 +1619,7 @@ until
 finished
 .
 void
-NotifyBeginAsyncPaintEndTransaction
+NotifyBeginAsyncEndLayerTransaction
 (
 )
 ;
@@ -1664,7 +1664,7 @@ sending
 messages
 .
 void
-NotifyFinishedAsyncPaintEndTransaction
+NotifyFinishedAsyncEndLayerTransaction
 (
 )
 ;
