@@ -1335,11 +1335,26 @@ float
 )
 )
 def
-test_exit_fullscreen_on_second_call
+test_fullscreen_twice_is_idempotent
 (
 session
 )
 :
+    
+assert
+session
+.
+execute_script
+(
+"
+return
+window
+.
+fullScreen
+"
+)
+is
+False
     
 first_response
 =
@@ -1365,8 +1380,7 @@ window
 fullScreen
 "
 )
-=
-=
+is
 True
     
 second_response
@@ -1393,6 +1407,5 @@ window
 fullScreen
 "
 )
-=
-=
-False
+is
+True
