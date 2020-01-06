@@ -905,7 +905,7 @@ ServoStyleContextBorrowedOrNull
 parent_context
 RawGeckoPresContextBorrowed
 pres_context
-ServoComputedValuesStrong
+ServoComputedValuesBorrowed
 values
 mozilla
 :

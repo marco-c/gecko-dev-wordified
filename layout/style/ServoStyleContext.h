@@ -152,10 +152,7 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-already_AddRefed
-<
-ServoComputedValues
->
+ServoComputedValuesForgotten
 aComputedValues
 )
 ;
@@ -170,6 +167,7 @@ return
 mPresContext
 ;
 }
+const
 ServoComputedValues
 *
 ComputedValues
@@ -178,6 +176,7 @@ ComputedValues
 const
 {
 return
+&
 mSource
 ;
 }
@@ -369,10 +368,7 @@ nsPresContext
 *
 mPresContext
 ;
-RefPtr
-<
 ServoComputedValues
->
 mSource
 ;
 }

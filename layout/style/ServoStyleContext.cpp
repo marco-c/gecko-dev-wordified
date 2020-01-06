@@ -152,10 +152,7 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-already_AddRefed
-<
-ServoComputedValues
->
+ServoComputedValuesForgotten
 aComputedValues
 )
 :
@@ -167,10 +164,7 @@ aPseudoType
 )
 mSource
 (
-Move
-(
 aComputedValues
-)
 )
 {
 mPresContext
@@ -181,6 +175,7 @@ AddStyleBit
 (
 Servo_ComputedValues_GetStyleBits
 (
+&
 mSource
 )
 )

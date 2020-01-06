@@ -143,11 +143,6 @@ RawServoStyleSheetContents
 )
 SERVO_ARC_TYPE
 (
-ComputedValues
-ServoComputedValues
-)
-SERVO_ARC_TYPE
-(
 DeclarationBlock
 RawServoDeclarationBlock
 )
