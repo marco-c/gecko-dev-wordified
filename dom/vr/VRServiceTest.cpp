@@ -203,6 +203,17 @@ Now
 )
 )
 {
+memset
+(
+&
+mDisplayInfo
+0
+sizeof
+(
+mDisplayInfo
+)
+)
+;
 mDisplayInfo
 .
 mDisplayName
