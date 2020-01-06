@@ -2049,6 +2049,11 @@ win64
 -
 nightly
 '
+'
+win32
+-
+nightly
+'
 )
 :
             
