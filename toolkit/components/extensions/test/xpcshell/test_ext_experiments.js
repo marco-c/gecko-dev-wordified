@@ -905,13 +905,15 @@ gre
 /
 modules
 /
-ExtensionAPI
+ExtensionCommon
 .
 jsm
 "
 {
 }
 )
+.
+ExtensionCommon
 ;
 ok
 (
