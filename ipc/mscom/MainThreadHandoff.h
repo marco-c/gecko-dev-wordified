@@ -410,6 +410,12 @@ GetHandlerPayloadSize
 (
 NotNull
 <
+IInterceptor
+*
+>
+aInterceptor
+NotNull
+<
 DWORD
 *
 >
@@ -420,6 +426,12 @@ override
 STDMETHODIMP
 WriteHandlerPayload
 (
+NotNull
+<
+IInterceptor
+*
+>
+aInterceptor
 NotNull
 <
 IStream

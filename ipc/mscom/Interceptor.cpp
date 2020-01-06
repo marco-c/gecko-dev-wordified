@@ -1382,6 +1382,10 @@ GetHandlerPayloadSize
 (
 WrapNotNull
 (
+this
+)
+WrapNotNull
+(
 &
 payloadSize
 )
@@ -1665,6 +1669,10 @@ mEventSink
 >
 WriteHandlerPayload
 (
+WrapNotNull
+(
+this
+)
 WrapNotNull
 (
 pStm

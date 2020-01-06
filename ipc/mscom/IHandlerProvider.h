@@ -154,6 +154,9 @@ namespace
 mscom
 {
 struct
+IInterceptor
+;
+struct
 HandlerProvider
 {
 virtual
@@ -176,6 +179,12 @@ GetHandlerPayloadSize
 (
 NotNull
 <
+IInterceptor
+*
+>
+aInterceptor
+NotNull
+<
 DWORD
 *
 >
@@ -188,6 +197,12 @@ virtual
 STDMETHODIMP
 WriteHandlerPayload
 (
+NotNull
+<
+IInterceptor
+*
+>
+aInterceptor
 NotNull
 <
 IStream
