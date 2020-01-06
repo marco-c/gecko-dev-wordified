@@ -18570,6 +18570,13 @@ CloneRegExpObject
 (
 cx
 re1
+.
+as
+<
+RegExpObject
+>
+(
+)
 )
 )
 ;
