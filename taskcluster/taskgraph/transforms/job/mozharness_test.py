@@ -663,7 +663,7 @@ logs
 "
 "
 /
-builds
+home
 /
 worker
 /
@@ -686,7 +686,7 @@ test
 "
 "
 /
-builds
+home
 /
 worker
 /
@@ -704,7 +704,7 @@ test_info
 "
 "
 /
-builds
+home
 /
 worker
 /
@@ -789,7 +789,7 @@ join
 (
 '
 /
-builds
+home
 /
 worker
 /
@@ -881,7 +881,7 @@ point
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -1184,7 +1184,7 @@ point
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -1290,7 +1290,7 @@ command
         
 '
 /
-builds
+home
 /
 worker
 /
@@ -1323,7 +1323,7 @@ chown
 '
 '
 /
-builds
+home
 /
 worker
 /
@@ -1414,7 +1414,7 @@ checkout
 '
 '
 /
-builds
+home
 /
 worker
 /
@@ -1434,7 +1434,7 @@ MOZHARNESS_PATH
 =
 '
 /
-builds
+home
 /
 worker
 /
@@ -1480,7 +1480,7 @@ extend
         
 '
 /
-builds
+home
 /
 worker
 /

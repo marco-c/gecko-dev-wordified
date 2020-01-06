@@ -193,7 +193,7 @@ a
 checkout
 in
 /
-builds
+home
 /
 worker
 /
@@ -445,7 +445,7 @@ point
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -491,7 +491,7 @@ command
 [
 '
 /
-builds
+home
 /
 worker
 /
