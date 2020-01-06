@@ -245,13 +245,13 @@ namespace
 wr
 {
 struct
-WrColor
+ColorF
 ;
 struct
-WrRect
+LayoutRect
 ;
 struct
-WrSize
+LayoutSize
 ;
 }
 /
@@ -749,7 +749,7 @@ const
 wr
 :
 :
-WrColor
+ColorF
 &
 c
 const
@@ -781,7 +781,7 @@ const
 wr
 :
 :
-WrRect
+LayoutRect
 &
 r
 const
@@ -813,7 +813,7 @@ const
 wr
 :
 :
-WrSize
+LayoutSize
 &
 s
 const

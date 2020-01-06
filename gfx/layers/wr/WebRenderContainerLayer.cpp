@@ -1072,12 +1072,12 @@ rect
 wr
 :
 :
-WrRect
+LayoutRect
 r
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 rect
 )

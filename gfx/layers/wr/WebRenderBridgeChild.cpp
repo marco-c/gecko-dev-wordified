@@ -565,7 +565,7 @@ dl
 wr
 :
 :
-WrSize
+LayoutSize
 contentSize
 ;
 aBuilder
@@ -1152,7 +1152,7 @@ point
 =
 aSc
 .
-ToRelativeWrPoint
+ToRelativeLayoutPoint
 (
 LayerPoint
 :
@@ -1175,13 +1175,13 @@ PushText
 (
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 aBounds
 )
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 aClip
 )

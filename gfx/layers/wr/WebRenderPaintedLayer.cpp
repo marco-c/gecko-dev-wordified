@@ -685,12 +685,12 @@ key
 wr
 :
 :
-WrRect
+LayoutRect
 r
 =
 sc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 rect
 )

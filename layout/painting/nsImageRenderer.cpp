@@ -4265,12 +4265,12 @@ appUnitsPerDevPixel
 wr
 :
 :
-WrRect
+LayoutRect
 fill
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 fillRect
 )
@@ -4278,12 +4278,12 @@ fillRect
 wr
 :
 :
-WrRect
+LayoutRect
 clip
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 LayoutDeviceRect
 :
@@ -4322,7 +4322,7 @@ clip
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 destRect
 .
@@ -4333,7 +4333,7 @@ Size
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 gapSize
 )

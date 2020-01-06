@@ -523,7 +523,7 @@ coordinate
 space
 to
 a
-WrRect
+LayoutRect
 /
 /
 that
@@ -612,8 +612,8 @@ somehow
 wr
 :
 :
-WrRect
-ToRelativeWrRect
+LayoutRect
+ToRelativeLayoutRect
 (
 const
 LayerRect
@@ -625,8 +625,8 @@ const
 wr
 :
 :
-WrRect
-ToRelativeWrRect
+LayoutRect
+ToRelativeLayoutRect
 (
 const
 LayoutDeviceRect
@@ -644,8 +644,8 @@ points
 wr
 :
 :
-WrPoint
-ToRelativeWrPoint
+LayoutPoint
+ToRelativeLayoutPoint
 (
 const
 LayerPoint
@@ -669,8 +669,8 @@ transforming
 wr
 :
 :
-WrRect
-ToRelativeWrRectRounded
+LayoutRect
+ToRelativeLayoutRectRounded
 (
 const
 LayoutDeviceRect

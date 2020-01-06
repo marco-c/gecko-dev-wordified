@@ -8742,12 +8742,12 @@ context
 wr
 :
 :
-WrRect
+LayoutRect
 wrClipBounds
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 clipBounds
 )
@@ -8774,12 +8774,12 @@ WebRenderHasUnitResolution
 wr
 :
 :
-WrRect
+LayoutRect
 wrGradientBounds
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 gradientBounds
 )
@@ -8952,7 +8952,7 @@ mozilla
 wr
 :
 :
-ToWrPoint
+ToLayoutPoint
 (
 lineStart
 )
@@ -8962,7 +8962,7 @@ mozilla
 wr
 :
 :
-ToWrPoint
+ToLayoutPoint
 (
 lineEnd
 )
@@ -8974,7 +8974,7 @@ mozilla
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 layerFirstTileSize
 )
@@ -8984,7 +8984,7 @@ mozilla
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 tileSpacing
 )
@@ -9023,7 +9023,7 @@ mozilla
 wr
 :
 :
-ToWrPoint
+ToLayoutPoint
 (
 lineStart
 )
@@ -9033,7 +9033,7 @@ mozilla
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 gradientRadius
 )
@@ -9045,7 +9045,7 @@ mozilla
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 layerFirstTileSize
 )
@@ -9055,7 +9055,7 @@ mozilla
 wr
 :
 :
-ToWrSize
+ToLayoutSize
 (
 tileSpacing
 )

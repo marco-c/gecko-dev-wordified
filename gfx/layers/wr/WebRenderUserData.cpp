@@ -727,12 +727,12 @@ WebRenderCompositableHolder
 wr
 :
 :
-WrRect
+LayoutRect
 r
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 aBounds
 )

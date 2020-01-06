@@ -687,7 +687,7 @@ mozilla
 wr
 :
 :
-WrSize
+LayoutSize
 >
 {
 static
@@ -704,7 +704,7 @@ mozilla
 wr
 :
 :
-WrSize
+LayoutSize
 &
 aParam
 )
@@ -743,7 +743,7 @@ mozilla
 wr
 :
 :
-WrSize
+LayoutSize
 *
 aResult
 )
@@ -787,7 +787,7 @@ mozilla
 wr
 :
 :
-WrRect
+LayoutRect
 >
 {
 static
@@ -804,7 +804,7 @@ mozilla
 wr
 :
 :
-WrRect
+LayoutRect
 &
 aParam
 )
@@ -814,6 +814,8 @@ WriteParam
 aMsg
 aParam
 .
+origin
+.
 x
 )
 ;
@@ -821,6 +823,8 @@ WriteParam
 (
 aMsg
 aParam
+.
+origin
 .
 y
 )
@@ -830,6 +834,8 @@ WriteParam
 aMsg
 aParam
 .
+size
+.
 width
 )
 ;
@@ -837,6 +843,8 @@ WriteParam
 (
 aMsg
 aParam
+.
+size
 .
 height
 )
@@ -859,7 +867,7 @@ mozilla
 wr
 :
 :
-WrRect
+LayoutRect
 *
 aResult
 )
@@ -873,6 +881,8 @@ aIter
 aResult
 -
 >
+origin
+.
 x
 )
 &
@@ -885,6 +895,8 @@ aIter
 aResult
 -
 >
+origin
+.
 y
 )
 &
@@ -897,6 +909,8 @@ aIter
 aResult
 -
 >
+size
+.
 width
 )
 &
@@ -909,6 +923,8 @@ aIter
 aResult
 -
 >
+size
+.
 height
 )
 ;
@@ -927,7 +943,7 @@ mozilla
 wr
 :
 :
-WrPoint
+LayoutPoint
 >
 {
 static
@@ -944,7 +960,7 @@ mozilla
 wr
 :
 :
-WrPoint
+LayoutPoint
 &
 aParam
 )
@@ -983,7 +999,7 @@ mozilla
 wr
 :
 :
-WrPoint
+LayoutPoint
 *
 aResult
 )
