@@ -1978,6 +1978,11 @@ document
 blockParsing
 (
 scriptsPromise
+{
+blockScriptCreated
+:
+false
+}
 )
 ;
 }
