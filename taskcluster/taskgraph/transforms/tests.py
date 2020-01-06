@@ -6050,6 +6050,27 @@ ccov
 /
 opt
 '
+and
+\
+                
+not
+test
+[
+'
+test
+-
+name
+'
+]
+.
+startswith
+(
+'
+test
+-
+verify
+'
+)
 :
             
 test
