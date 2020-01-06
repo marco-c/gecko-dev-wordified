@@ -192,8 +192,7 @@ AddStyleBit
 (
 Servo_ComputedValues_GetStyleBits
 (
-&
-mSource
+this
 )
 )
 ;

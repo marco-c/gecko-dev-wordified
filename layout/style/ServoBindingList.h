@@ -1167,7 +1167,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_SpecifiesAnimationsOrTransitions
 bool
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 computed_values
 )
 SERVO_BINDING_FUNC
@@ -1960,7 +1960,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_GetStyleBits
 uint64_t
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 values
 )
 SERVO_BINDING_FUNC
@@ -2009,7 +2009,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_GetStyleRuleList
 void
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 values
 RawGeckoServoStyleRuleListBorrowedMut
 rules
@@ -2422,7 +2422,7 @@ SERVO_BINDING_FUNC
 (
 Servo_GetCustomPropertyValue
 bool
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 computed_values
 const
 nsAString
@@ -2436,14 +2436,14 @@ SERVO_BINDING_FUNC
 (
 Servo_GetCustomPropertiesCount
 uint32_t
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 computed_values
 )
 SERVO_BINDING_FUNC
 (
 Servo_GetCustomPropertyNameAt
 bool
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 uint32_t
 index
 nsAString

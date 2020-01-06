@@ -12387,11 +12387,6 @@ hasServoAnimations
 Servo_ComputedValues_SpecifiesAnimationsOrTransitions
 (
 servoStyle
--
->
-ComputedValues
-(
-)
 )
 ;
 if

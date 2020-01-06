@@ -1823,7 +1823,7 @@ Servo_GetCustomPropertiesCount
 mStyleContext
 -
 >
-ComputedValues
+AsServo
 (
 )
 )
@@ -6127,7 +6127,7 @@ Servo_GetCustomPropertiesCount
 mStyleContext
 -
 >
-ComputedValues
+AsServo
 (
 )
 )
@@ -6173,7 +6173,7 @@ Servo_GetCustomPropertyNameAt
 mStyleContext
 -
 >
-ComputedValues
+AsServo
 (
 )
 index
@@ -38680,7 +38680,7 @@ Servo_GetCustomPropertyValue
 mStyleContext
 -
 >
-ComputedValues
+AsServo
 (
 )
 &

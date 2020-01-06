@@ -1293,9 +1293,13 @@ ResolveTransientStyle
 (
 )
 but
-returns
-ServoComputedValues
-.
+doesn
+'
+t
+update
+the
+context
+state
 /
 /
 Unlike
