@@ -708,6 +708,8 @@ aCharset
 nsHtml5String
 aCrossOrigin
 nsHtml5String
+aReferrerPolicy
+nsHtml5String
 aIntegrity
 )
 {
@@ -751,6 +753,13 @@ aCrossOrigin
 ToString
 (
 mCrossOrigin
+)
+;
+aReferrerPolicy
+.
+ToString
+(
+mReferrerPolicy
 )
 ;
 aIntegrity

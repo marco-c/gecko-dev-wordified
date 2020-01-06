@@ -280,6 +280,7 @@ PreloadStyle
 mUrl
 mCharset
 mCrossOrigin
+mReferrerPolicy
 mIntegrity
 )
 ;
