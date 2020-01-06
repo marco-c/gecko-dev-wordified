@@ -1918,7 +1918,7 @@ now
 if
 (
 !
-DWriteEnabled
+DWriteAvailable
 (
 )
 &
@@ -2713,7 +2713,7 @@ IsNotWin7PreRTM
 )
 &
 &
-DWriteEnabled
+DWriteAvailable
 (
 )
 )
@@ -6024,7 +6024,7 @@ SetupClearTypeParams
 {
 if
 (
-DWriteEnabled
+DWriteAvailable
 (
 )
 )
@@ -8570,7 +8570,7 @@ support
 if
 (
 !
-DWriteEnabled
+DWriteAvailable
 (
 )
 &
