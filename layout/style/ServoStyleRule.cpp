@@ -1399,7 +1399,7 @@ nsAString
 aText
 )
 {
-Servo_StyleRule_GetSelectorTextFromIndex
+Servo_StyleRule_GetSelectorTextAtIndex
 (
 mRawRule
 aSelectorIndex

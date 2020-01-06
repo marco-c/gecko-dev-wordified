@@ -794,7 +794,7 @@ result
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleRule_GetSelectorTextFromIndex
+Servo_StyleRule_GetSelectorTextAtIndex
 void
 RawServoStyleRuleBorrowed
 rule
