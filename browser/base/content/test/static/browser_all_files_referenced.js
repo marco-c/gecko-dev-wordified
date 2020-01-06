@@ -1663,9 +1663,6 @@ platforms
 "
 linux
 "
-"
-win
-"
 ]
 }
 /
