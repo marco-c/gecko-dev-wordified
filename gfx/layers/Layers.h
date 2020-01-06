@@ -5394,6 +5394,7 @@ code
 .
 *
 /
+virtual
 bool
 SetPendingScrollUpdateForNextTransaction
 (
