@@ -76,6 +76,13 @@ ExtensionData
 ;
 /
 *
+exported
+Extension
+ExtensionData
+*
+/
+/
+*
 globals
 Extension
 ExtensionData

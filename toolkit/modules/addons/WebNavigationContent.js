@@ -5,8 +5,14 @@ strict
 ;
 /
 *
-globals
-docShell
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
 *
 /
 var

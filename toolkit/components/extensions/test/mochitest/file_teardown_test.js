@@ -5,8 +5,14 @@ strict
 ;
 /
 *
-globals
-addMessageListener
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
 *
 /
 let
