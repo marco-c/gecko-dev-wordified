@@ -401,7 +401,7 @@ extensions
 on
 (
 "
-uninstall
+uninstalling
 "
 (
 msg
