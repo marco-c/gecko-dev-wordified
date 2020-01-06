@@ -919,7 +919,7 @@ shims
 /
 platform
 -
-clipboard
+stack
 -
 stub
 "
