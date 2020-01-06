@@ -7812,16 +7812,6 @@ documentURIObject
 .
 spec
 ;
-documentURIObject
-.
-originCharset
-=
-document
-.
-documentURIObject
-.
-originCharset
-;
 docInfo
 .
 documentURIObject

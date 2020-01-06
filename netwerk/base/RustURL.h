@@ -184,6 +184,7 @@ net
 {
 class
 RustURL
+final
 :
 public
 nsIFileURL

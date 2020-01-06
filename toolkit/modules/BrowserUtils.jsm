@@ -1189,9 +1189,6 @@ newURI
 aCPOWURI
 .
 spec
-aCPOWURI
-.
-originCharset
 )
 ;
 }
