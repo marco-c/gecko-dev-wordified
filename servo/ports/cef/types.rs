@@ -1730,6 +1730,13 @@ rectangle
 .
 /
 /
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 cef_rect
@@ -7475,6 +7482,13 @@ client
 /
 /
 /
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 _cef_screen_info
