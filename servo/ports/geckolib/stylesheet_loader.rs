@@ -81,6 +81,7 @@ structs
 {
 Loader
 ServoStyleSheet
+LoaderReusableStyleSheets
 }
 ;
 use
@@ -153,6 +154,9 @@ Loader
 *
 mut
 ServoStyleSheet
+*
+mut
+LoaderReusableStyleSheets
 )
 ;
 impl
@@ -172,6 +176,11 @@ parent
 *
 mut
 ServoStyleSheet
+reusable_sheets
+:
+*
+mut
+LoaderReusableStyleSheets
 )
 -
 >
@@ -181,6 +190,7 @@ StylesheetLoader
 (
 loader
 parent
+reusable_sheets
 )
 }
 }
@@ -365,6 +375,9 @@ self
 self
 .
 1
+self
+.
+2
 Stylesheet
 :
 :
