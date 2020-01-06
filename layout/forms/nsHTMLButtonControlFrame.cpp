@@ -601,14 +601,6 @@ if
 (
 !
 isForEventDelivery
-|
-|
-aBuilder
--
->
-HitTestShouldStopAtFirstOpaque
-(
-)
 )
 {
 DisplayListClipState
