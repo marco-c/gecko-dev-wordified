@@ -161,15 +161,6 @@ MPL
 -
 -
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 '
@@ -371,11 +362,6 @@ enterFunc
 '
 test
 '
-)
-;
-printBugNumber
-(
-BUGNUMBER
 )
 ;
 printStatus

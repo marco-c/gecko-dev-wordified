@@ -169,17 +169,6 @@ x
 )
 "
 ;
-var
-BUGNUMBER
-=
-"
-none
-"
-;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

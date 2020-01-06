@@ -161,15 +161,6 @@ MPL
 -
 -
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 "
@@ -193,11 +184,6 @@ forever
 var
 actual
 expect
-;
-printBugNumber
-(
-BUGNUMBER
-)
 ;
 printStatus
 (

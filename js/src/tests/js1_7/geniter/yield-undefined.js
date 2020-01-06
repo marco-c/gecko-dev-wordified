@@ -201,15 +201,6 @@ Spidermonkey
 specific
 .
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 "
@@ -230,11 +221,6 @@ undefined
 var
 actual
 expect
-;
-printBugNumber
-(
-BUGNUMBER
-)
 ;
 printStatus
 (

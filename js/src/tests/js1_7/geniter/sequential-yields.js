@@ -161,15 +161,6 @@ MPL
 -
 -
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 "
@@ -180,11 +171,6 @@ yields
 var
 actual
 expect
-;
-printBugNumber
-(
-BUGNUMBER
-)
 ;
 printStatus
 (

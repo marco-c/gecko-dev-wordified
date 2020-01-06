@@ -169,16 +169,6 @@ RegExp
 Instances
 "
 ;
-var
-BUGNUMBER
-=
-"
-"
-;
-startTest
-(
-)
-;
 AddRegExpCases
 (
 new
