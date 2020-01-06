@@ -133,15 +133,6 @@ BaselineIC
 .
 h
 "
-#
-include
-"
-jit
-/
-IonCaches
-.
-h
-"
 using
 namespace
 js
