@@ -2167,6 +2167,17 @@ break
 /
 /
 nsIHandlerService
+asyncInit
+:
+function
+HS_asyncInit
+(
+)
+{
+/
+/
+noop
+}
 enumerate
 :
 function
