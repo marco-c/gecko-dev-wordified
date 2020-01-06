@@ -6415,6 +6415,11 @@ MutableHandleValue
 rval
 )
 ;
+extern
+const
+VMFunction
+SetObjectElementInfo
+;
 }
 /
 /
