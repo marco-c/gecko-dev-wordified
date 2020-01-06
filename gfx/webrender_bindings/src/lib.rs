@@ -96,6 +96,10 @@ extern
 crate
 bincode
 ;
+extern
+crate
+log
+;
 #
 [
 allow
