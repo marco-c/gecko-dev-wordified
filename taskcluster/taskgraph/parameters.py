@@ -169,10 +169,6 @@ pushlog_id
 '
     
 '
-release_history
-'
-    
-'
 target_task_labels
 '
     
