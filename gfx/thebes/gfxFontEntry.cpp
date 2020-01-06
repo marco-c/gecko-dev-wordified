@@ -422,10 +422,6 @@ mFixedPitch
 (
 false
 )
-mIsValid
-(
-true
-)
 mIsBadUnderlineFont
 (
 false
@@ -606,10 +602,6 @@ NS_FONT_STYLE_NORMAL
 mFixedPitch
 (
 false
-)
-mIsValid
-(
-true
 )
 mIsBadUnderlineFont
 (

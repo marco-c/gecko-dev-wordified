@@ -2428,11 +2428,6 @@ mFixedPitch
 1
 ;
 bool
-mIsValid
-:
-1
-;
-bool
 mIsBadUnderlineFont
 :
 1
