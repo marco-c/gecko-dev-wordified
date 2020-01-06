@@ -117,6 +117,7 @@ UNSUPPORTED_FEATURES
 set
 (
 [
+                            
 "
 tail
 -
@@ -141,6 +142,14 @@ Promise
 prototype
 .
 finally
+"
+                            
+"
+optional
+-
+catch
+-
+binding
 "
                             
 "
