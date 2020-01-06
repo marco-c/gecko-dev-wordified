@@ -1217,11 +1217,6 @@ JSOP_SUPERBASE
 \
 _
 (
-JSOP_SUPERFUN
-)
-\
-_
-(
 JSOP_GETRVAL
 )
 \
@@ -1263,11 +1258,6 @@ JSOP_CHECKISCALLABLE
 _
 (
 JSOP_CHECKTHIS
-)
-\
-_
-(
-JSOP_CHECKTHISREINIT
 )
 \
 _
@@ -1626,10 +1616,6 @@ emitCheckThis
 (
 ValueOperand
 val
-bool
-reinit
-=
-false
 )
 ;
 void
