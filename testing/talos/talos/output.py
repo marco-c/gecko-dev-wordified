@@ -66,6 +66,8 @@ Talos
 import
 filter
 import
+simplejson
+as
 json
 import
 utils
@@ -1467,6 +1469,10 @@ json
 dumps
 (
 results
+                                                        
+ignore_nan
+=
+True
 )
 )
         
@@ -1497,6 +1503,9 @@ indent
 2
                       
 sort_keys
+=
+True
+ignore_nan
 =
 True
 )
