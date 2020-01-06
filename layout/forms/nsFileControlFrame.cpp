@@ -717,12 +717,16 @@ IsEmpty
 )
 )
 {
+IgnoredErrorResult
+ignored
+;
 buttonElement
 -
 >
 SetAccessKey
 (
 aAccessKey
+ignored
 )
 ;
 }
