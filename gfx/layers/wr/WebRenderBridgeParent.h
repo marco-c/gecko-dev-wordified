@@ -1451,6 +1451,11 @@ aScrollData
 )
 ;
 void
+AdvanceAnimations
+(
+)
+;
+void
 SampleAnimations
 (
 nsTArray
