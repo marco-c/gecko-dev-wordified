@@ -327,8 +327,9 @@ JOF_ENVCOORD
 EnvironmentCoordinate
 (
 )
-{
-}
+=
+default
+;
 void
 setHops
 (
