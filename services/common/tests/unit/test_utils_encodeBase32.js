@@ -515,6 +515,8 @@ ex
 do_check_eq
 (
 err
+.
+message
 "
 Unknown
 character

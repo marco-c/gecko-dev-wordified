@@ -2127,12 +2127,16 @@ skipping
 )
 ;
 throw
+new
+Error
+(
 "
 Invalid
 URI
 in
 record
 "
+)
 ;
 }
 if

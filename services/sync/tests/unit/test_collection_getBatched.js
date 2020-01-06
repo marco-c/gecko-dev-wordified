@@ -326,11 +326,15 @@ throwAfter
 )
 {
 throw
+new
+Error
+(
 "
 Some
 Network
 Error
 "
+)
 ;
 }
 let

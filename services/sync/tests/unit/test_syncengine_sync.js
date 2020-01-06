@@ -7898,6 +7898,9 @@ id
 )
 {
 throw
+new
+Error
+(
 "
 I
 don
@@ -7910,6 +7913,7 @@ record
 Baaaaaah
 !
 "
+)
 ;
 }
 return
@@ -7967,6 +7971,9 @@ id
 )
 {
 throw
+new
+Error
+(
 "
 I
 don
@@ -7979,6 +7986,7 @@ record
 Baaaaaah
 !
 "
+)
 ;
 }
 return
@@ -8835,6 +8843,9 @@ this
 )
 {
 throw
+new
+Error
+(
 "
 Derp
 !
@@ -8850,6 +8861,7 @@ ur
 recordz
 .
 "
+)
 ;
 }
 return
@@ -13178,10 +13190,14 @@ noOfUploads
 2
 )
 throw
+new
+Error
+(
 "
 FAIL
 !
 "
+)
 ;
 noOfUploads
 +

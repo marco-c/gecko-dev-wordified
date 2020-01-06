@@ -116,10 +116,14 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 FAIL
 !
 "
+)
 ;
 }
 ;
@@ -185,6 +189,8 @@ ex
 do_check_eq
 (
 ex
+.
+message
 "
 FAIL
 !

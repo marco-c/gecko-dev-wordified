@@ -4876,10 +4876,14 @@ rec
 )
 {
 throw
+new
+Error
+(
 "
 BOO
 !
 "
+)
 ;
 }
 ;
@@ -4930,7 +4934,7 @@ error
 result
 Cr
 .
-NS_ERROR_XPC_JS_THREW_STRING
+NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS
 )
 ;
 do_check_eq
@@ -4939,7 +4943,7 @@ error
 .
 message
 "
-NS_ERROR_XPC_JS_THREW_STRING
+NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS
 "
 )
 ;
