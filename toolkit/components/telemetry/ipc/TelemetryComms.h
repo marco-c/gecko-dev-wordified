@@ -780,7 +780,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 .
 WriteParam
 (
@@ -793,7 +793,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 )
 ;
@@ -839,7 +839,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 .
 WriteParam
 (
@@ -852,7 +852,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 )
 )
 ;
@@ -898,7 +898,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 .
 WriteParam
 (
@@ -911,7 +911,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 )
 )
 ;
@@ -1062,7 +1062,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 {
 uint32_t
@@ -1120,7 +1120,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 {
 nsString
@@ -1176,7 +1176,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 {
 bool
@@ -1404,7 +1404,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 .
 WriteParam
 (
@@ -1417,7 +1417,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 )
 ;
@@ -1463,7 +1463,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 .
 /
 /
@@ -1521,7 +1521,7 @@ a
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 .
 WriteParam
 (
@@ -1534,7 +1534,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 )
 )
 ;
@@ -1701,7 +1701,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 {
 uint32_t
@@ -1759,7 +1759,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 {
 /
@@ -1800,7 +1800,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 {
 bool

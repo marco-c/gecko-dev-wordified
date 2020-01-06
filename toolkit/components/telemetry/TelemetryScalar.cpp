@@ -1158,7 +1158,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 {
 uint32_t
@@ -1216,7 +1216,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 {
 nsString
@@ -1271,7 +1271,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 {
 bool
@@ -3249,7 +3249,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 scalar
 =
@@ -3264,7 +3264,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 scalar
 =
@@ -3279,7 +3279,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 scalar
 =
@@ -7666,7 +7666,7 @@ kind
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 )
 {
 MOZ_ASSERT
@@ -14284,7 +14284,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 scalar
 -
@@ -14310,7 +14310,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 scalar
 -
@@ -14336,7 +14336,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 scalar
 -
@@ -14377,7 +14377,7 @@ scalarType
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 {
 NS_WARNING
@@ -14442,7 +14442,7 @@ scalarType
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 {
 NS_WARNING
@@ -14848,7 +14848,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 scalar
 -
@@ -14880,7 +14880,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 scalar
 -
@@ -14943,7 +14943,7 @@ scalarType
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 {
 NS_WARNING
@@ -15015,7 +15015,7 @@ scalarType
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 {
 NS_WARNING

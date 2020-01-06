@@ -82,7 +82,7 @@ to
 nsITelemetry
 :
 :
-SCALAR_
+SCALAR_TYPE_
 *
 type
 constants
@@ -135,7 +135,7 @@ uint
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 '
     
 '
@@ -146,7 +146,7 @@ string
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 '
     
 '
@@ -157,7 +157,7 @@ boolean
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 '
 }
 class
