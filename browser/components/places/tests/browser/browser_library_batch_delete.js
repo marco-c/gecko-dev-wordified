@@ -413,7 +413,9 @@ enabled
 let
 promiseItemRemovedNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemRemoved

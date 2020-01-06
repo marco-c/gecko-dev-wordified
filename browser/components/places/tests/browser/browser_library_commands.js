@@ -578,7 +578,9 @@ removed
 let
 promiseURIRemoved
 =
-promiseHistoryNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onDeleteURI
@@ -592,6 +594,9 @@ equals
 (
 v
 )
+"
+history
+"
 )
 ;
 PO
@@ -1119,7 +1124,9 @@ removed
 let
 promiseItemRemoved
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemRemoved

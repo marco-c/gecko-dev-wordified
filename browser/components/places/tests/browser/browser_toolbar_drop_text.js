@@ -342,7 +342,9 @@ A152
 let
 promiseItemAddedNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemAdded
@@ -743,7 +745,9 @@ n
 let
 promiseItemAddedNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemAdded
