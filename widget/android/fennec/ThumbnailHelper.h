@@ -1031,7 +1031,7 @@ CurrentMatrix
 (
 )
 .
-Scale
+PreScale
 (
 aZoomFactor
 *

@@ -258,6 +258,13 @@ SVGContentUtils
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 nsSVGAngle
 ;
@@ -364,9 +371,6 @@ DOMSVGStringList
 /
 namespace
 mozilla
-class
-gfxMatrix
-;
 struct
 nsSVGEnumMapping
 ;

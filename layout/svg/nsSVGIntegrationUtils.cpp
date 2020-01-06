@@ -2961,7 +2961,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 -
 mUserSpaceToFrameSpaceOffset
@@ -4988,7 +4988,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 offset
 .

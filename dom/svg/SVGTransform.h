@@ -130,6 +130,13 @@ h
 #
 include
 "
+gfxMatrix
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -180,9 +187,6 @@ h
 "
 class
 nsSVGElement
-;
-class
-gfxMatrix
 ;
 #
 define

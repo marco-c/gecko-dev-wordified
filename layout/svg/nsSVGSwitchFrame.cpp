@@ -856,7 +856,7 @@ point
 =
 m
 .
-Transform
+TransformPoint
 (
 point
 )

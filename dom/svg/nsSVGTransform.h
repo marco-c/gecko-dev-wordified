@@ -130,6 +130,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Matrix
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

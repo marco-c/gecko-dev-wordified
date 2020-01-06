@@ -1065,7 +1065,7 @@ else
 {
 mMatrix
 .
-Scale
+PreScale
 (
 aX
 aY
@@ -1102,7 +1102,7 @@ else
 {
 mMatrix
 .
-Rotate
+PreRotate
 (
 aPhi
 )
@@ -1138,7 +1138,7 @@ else
 {
 mMatrix
 .
-Translate
+PreTranslate
 (
 aDelta
 )
@@ -2174,12 +2174,6 @@ innerSize
 gfxRect
 invalidRect
 (
-matrix
-.
-TransformBounds
-(
-gfxRect
-(
 rect
 .
 x
@@ -2193,7 +2187,12 @@ rect
 .
 height
 )
-)
+;
+invalidRect
+.
+TransformBoundsBy
+(
+matrix
 )
 ;
 return

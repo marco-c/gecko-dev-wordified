@@ -2079,7 +2079,7 @@ aGradientStart
 aGradientEnd
 aPatternMatrix
 .
-Transform
+TransformPoint
 (
 aRect
 .
@@ -2098,7 +2098,7 @@ aGradientStart
 aGradientEnd
 aPatternMatrix
 .
-Transform
+TransformPoint
 (
 aRect
 .
@@ -2117,7 +2117,7 @@ aGradientStart
 aGradientEnd
 aPatternMatrix
 .
-Transform
+TransformPoint
 (
 aRect
 .
@@ -2136,7 +2136,7 @@ aGradientStart
 aGradientEnd
 aPatternMatrix
 .
-Transform
+TransformPoint
 (
 aRect
 .
@@ -5361,7 +5361,7 @@ mLineEnd
 ;
 matrix
 .
-Scale
+PreScale
 (
 -
 1
@@ -6997,14 +6997,14 @@ P
 .
 matrix
 .
-Translate
+PreTranslate
 (
 mLineStart
 )
 ;
 matrix
 .
-Scale
+PreScale
 (
 1
 .
@@ -7016,7 +7016,7 @@ mRadiusY
 ;
 matrix
 .
-Translate
+PreTranslate
 (
 -
 mLineStart
@@ -7040,7 +7040,7 @@ dest
 rects
 matrix
 .
-Translate
+PreTranslate
 (
 gfxPoint
 (
@@ -7067,7 +7067,7 @@ y
 ;
 matrix
 .
-Scale
+PreScale
 (
 gfxFloat
 (
@@ -8205,7 +8205,7 @@ Copy
 (
 )
 .
-Translate
+PreTranslate
 (
 tileRect
 .

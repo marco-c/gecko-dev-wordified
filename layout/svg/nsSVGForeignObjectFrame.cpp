@@ -1606,12 +1606,10 @@ height
 )
 ;
 transDirtyRect
-=
-invmatrix
 .
-TransformBounds
+TransformBoundsBy
 (
-transDirtyRect
+invmatrix
 )
 ;
 kidDirtyRect
@@ -1845,7 +1843,7 @@ aTransform
 ;
 canvasTMForChildren
 .
-Scale
+PreScale
 (
 cssPxPerDevPx
 cssPxPerDevPx

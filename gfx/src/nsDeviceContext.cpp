@@ -2586,7 +2586,7 @@ GetSize
 ;
 transform
 .
-Translate
+PreTranslate
 (
 gfxPoint
 (
@@ -2618,7 +2618,7 @@ transform
 }
 transform
 .
-Scale
+PreScale
 (
 mPrintingScale
 mPrintingScale

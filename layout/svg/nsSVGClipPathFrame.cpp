@@ -1915,7 +1915,7 @@ point
 =
 matrix
 .
-Transform
+TransformPoint
 (
 aPoint
 )
@@ -2123,7 +2123,7 @@ pointForChild
 =
 m
 .
-Transform
+TransformPoint
 (
 point
 )
