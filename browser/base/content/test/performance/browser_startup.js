@@ -972,8 +972,6 @@ getService
 wrappedJSObject
 .
 data
-.
-code
 ;
 /
 /
