@@ -275,10 +275,11 @@ mozilla
 .
 org
 "
-function
 (
 aAddon
 )
+=
+>
 {
 isnot
 (
@@ -318,6 +319,13 @@ jsm
 )
 .
 TestRunner
+;
+TestRunner
+.
+initTest
+(
+this
+)
 ;
 resolve
 (
