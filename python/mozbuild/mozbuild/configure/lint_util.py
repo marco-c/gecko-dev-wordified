@@ -235,7 +235,7 @@ extended_arg
 =
 arg
 *
-65536L
+65536
                 
 continue
             

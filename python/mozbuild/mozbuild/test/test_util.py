@@ -643,6 +643,7 @@ mode
                     
 raise
 Exception
+(
 '
 Unexpected
 open
@@ -650,6 +651,7 @@ with
 write
 mode
 '
+)
                 
 return
 MockedOpen

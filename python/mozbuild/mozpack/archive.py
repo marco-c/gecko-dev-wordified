@@ -62,8 +62,6 @@ bz2
 import
 gzip
 import
-io
-import
 stat
 import
 tarfile
@@ -249,7 +247,7 @@ f
 .
 mode
 or
-0644
+0o0644
             
 ti
 .

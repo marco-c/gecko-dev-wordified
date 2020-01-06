@@ -973,25 +973,25 @@ everyone
 if
 mode
 &
-0400
+0o0400
 :
             
 ret
 |
 =
-0444
+0o0444
         
 if
 mode
 &
-0100
+0o0100
 :
             
 ret
 |
 =
-0111
-        
+0o0111
+         
 #
 -
 keep
@@ -1002,13 +1002,13 @@ permissions
 if
 mode
 &
-0200
+0o0200
 :
             
 ret
 |
 =
-0200
+0o0200
         
 #
 -

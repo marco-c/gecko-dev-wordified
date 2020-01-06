@@ -363,7 +363,9 @@ raise
 Expression
 .
 ParseError
+(
 self
+)
     
 def
 __get_logical_or
@@ -1221,7 +1223,9 @@ raise
 Expression
 .
 ParseError
+(
 self
+)
         
 self
 .
@@ -1528,7 +1532,9 @@ raise
 Expression
 .
 ParseError
+(
 self
+)
         
 #
 Mapping
