@@ -319,7 +319,7 @@ R
 .
 layout
 .
-activity_stream_card_history_item
+activity_stream_webpage_item_row
 ;
 private
 static
@@ -398,7 +398,7 @@ R
 .
 id
 .
-card_history_label
+page_title
 )
 ;
 pageIconLayout
@@ -414,7 +414,7 @@ R
 .
 id
 .
-icon
+page_icon
 )
 ;
 pageSourceView
@@ -430,7 +430,7 @@ R
 .
 id
 .
-card_history_source
+page_source
 )
 ;
 pageDomainView
@@ -446,7 +446,7 @@ R
 .
 id
 .
-page
+page_domain
 )
 ;
 pageSourceIconView
@@ -462,7 +462,7 @@ R
 .
 id
 .
-source_icon
+page_source_icon
 )
 ;
 menuButton
