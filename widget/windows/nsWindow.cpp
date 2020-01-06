@@ -23089,10 +23089,9 @@ msg
 ;
 while
 (
-WinUtils
 :
 :
-GetMessage
+GetMessageW
 (
 &
 msg
