@@ -2176,11 +2176,8 @@ family
 )
 &
 &
+!
 middle
-=
-=
-"
-"
 )
 {
 return
