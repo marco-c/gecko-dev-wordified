@@ -1107,6 +1107,13 @@ formhistory
 .
 sqlite
 "
+"
+autofill
+-
+profiles
+.
+json
+"
 ]
 )
 ;
