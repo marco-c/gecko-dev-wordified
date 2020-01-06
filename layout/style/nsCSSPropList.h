@@ -6696,7 +6696,7 @@ eStyleAnimType_float
 #
 ifndef
 CSS_PROP_LIST_EXCLUDE_INTERNAL
-CSS_PROP_USERINTERFACE
+CSS_PROP_FONT
 (
 -
 moz
@@ -6724,8 +6724,10 @@ VARIANT_HC
 nullptr
 offsetof
 (
-nsStyleUserInterface
-mFontSmoothingBackgroundColor
+nsStyleFont
+mFont
+.
+fontSmoothingBackgroundColor
 )
 eStyleAnimType_Color
 )

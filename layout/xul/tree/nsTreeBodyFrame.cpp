@@ -18663,12 +18663,14 @@ ToDeviceColor
 rowContext
 -
 >
-StyleUserInterface
+StyleFont
 (
 )
 -
 >
-mFontSmoothingBackgroundColor
+mFont
+.
+fontSmoothingBackgroundColor
 )
 )
 ;

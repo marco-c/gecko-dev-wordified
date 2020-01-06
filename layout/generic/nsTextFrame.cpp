@@ -47447,12 +47447,14 @@ Color
 :
 FromABGR
 (
-StyleUserInterface
+StyleFont
 (
 )
 -
 >
-mFontSmoothingBackgroundColor
+mFont
+.
+fontSmoothingBackgroundColor
 )
 )
 ;

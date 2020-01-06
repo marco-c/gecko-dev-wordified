@@ -11181,12 +11181,14 @@ nsROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-StyleUserInterface
+StyleFont
 (
 )
 -
 >
-mFontSmoothingBackgroundColor
+mFont
+.
+fontSmoothingBackgroundColor
 )
 ;
 return
