@@ -247,7 +247,7 @@ final
 int
 PAGES
 =
-4
+2
 ;
 public
 static
@@ -711,13 +711,6 @@ layout
 activity_stream_topsites_page
 null
 false
-)
-;
-page
-.
-setTiles
-(
-tiles
 )
 ;
 final
