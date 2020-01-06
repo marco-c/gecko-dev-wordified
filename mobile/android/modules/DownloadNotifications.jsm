@@ -495,7 +495,7 @@ chrome
 -
 document
 -
-interactive
+loaded
 "
 )
 {
