@@ -14623,7 +14623,7 @@ try
 if
 options
 .
-topsrcdir
+objPath
 :
                 
 sandbox_whitelist_paths
@@ -14632,7 +14632,7 @@ append
 (
 options
 .
-topsrcdir
+objPath
 )
         
 except
