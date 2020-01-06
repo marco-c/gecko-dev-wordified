@@ -286,7 +286,7 @@ SubprocessConstants
 const
 BUFFER_SIZE
 =
-4096
+32768
 ;
 let
 nextResponseId
