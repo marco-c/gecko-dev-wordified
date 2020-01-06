@@ -319,6 +319,10 @@ MOZ_ANDROID_MOZILLA_ONLINE
 '
                 
 '
+MOZ_ANDROID_PWA
+'
+                
+'
 MOZ_LEANPLUM_SDK_KEY
 '
                 
