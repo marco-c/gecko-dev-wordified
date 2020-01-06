@@ -514,15 +514,12 @@ self
 .
 topsrcdir
 '
-third_party
-'
-'
 python
 '
-            
 '
 virtualenv
 '
+            
 '
 virtualenv
 .
