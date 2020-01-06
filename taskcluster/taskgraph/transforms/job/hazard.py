@@ -470,7 +470,7 @@ GECKO_DIR
 =
 '
 /
-home
+builds
 /
 worker
 /
@@ -490,7 +490,7 @@ command
         
 '
 /
-home
+builds
 /
 worker
 /
@@ -510,7 +510,7 @@ checkout
 '
 '
 /
-home
+builds
 /
 worker
 /

@@ -214,7 +214,7 @@ command
 '
 cd
 /
-home
+builds
 /
 worker
 /

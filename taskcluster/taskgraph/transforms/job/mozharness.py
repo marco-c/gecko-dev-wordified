@@ -1443,7 +1443,7 @@ command
         
 '
 /
-home
+builds
 /
 worker
 /
@@ -1463,7 +1463,7 @@ checkout
 '
 '
 /
-home
+builds
 /
 worker
 /
@@ -1483,7 +1483,7 @@ checkout
 '
 '
 /
-home
+builds
 /
 worker
 /
@@ -1501,7 +1501,7 @@ tools
         
 '
 /
-home
+builds
 /
 worker
 /
