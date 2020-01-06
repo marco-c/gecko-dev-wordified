@@ -1040,7 +1040,8 @@ q8s16
 q9s16
 )
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -1054,7 +1055,7 @@ tx_type
 )
 {
 case
-0
+DCT_DCT
 :
 /
 /
@@ -1080,7 +1081,7 @@ return
 break
 ;
 case
-1
+ADST_DCT
 :
 /
 /
@@ -1167,7 +1168,7 @@ q9s16
 break
 ;
 case
-2
+DCT_ADST
 :
 /
 /
@@ -1254,7 +1255,7 @@ q9s16
 break
 ;
 case
-3
+ADST_ADST
 :
 /
 /

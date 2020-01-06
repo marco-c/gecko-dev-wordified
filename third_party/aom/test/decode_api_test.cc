@@ -374,6 +374,16 @@ NULL
 )
 )
 ;
+#
+if
+!
+CONFIG_OBU
+/
+/
+Needs
+to
+be
+fixed
 EXPECT_EQ
 (
 AOM_CODEC_UNSUP_BITSTREAM
@@ -391,6 +401,8 @@ NULL
 )
 )
 ;
+#
+endif
 EXPECT_EQ
 (
 AOM_CODEC_INVALID_PARAM

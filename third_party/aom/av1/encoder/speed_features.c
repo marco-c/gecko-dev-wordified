@@ -1421,7 +1421,7 @@ intra_uv_mode_mask
 TX_64X64
 ]
 =
-UV_INTRA_DC_H_V
+UV_INTRA_DC_H_V_CFL
 ;
 #
 else
@@ -1466,7 +1466,7 @@ intra_uv_mode_mask
 TX_32X32
 ]
 =
-UV_INTRA_DC_H_V
+UV_INTRA_DC_H_V_CFL
 ;
 #
 else
@@ -1503,7 +1503,7 @@ intra_uv_mode_mask
 TX_16X16
 ]
 =
-UV_INTRA_DC_H_V
+UV_INTRA_DC_H_V_CFL
 ;
 #
 else
@@ -1569,9 +1569,6 @@ use_transform_domain_distortion
 =
 1
 ;
-#
-if
-CONFIG_EXT_INTER
 sf
 -
 >
@@ -1586,11 +1583,6 @@ fast_wedge_sign_estimate
 =
 1
 ;
-#
-endif
-/
-/
-CONFIG_EXT_INTER
 }
 if
 (
@@ -1834,7 +1826,7 @@ intra_uv_mode_mask
 TX_64X64
 ]
 =
-UV_INTRA_DC
+UV_INTRA_DC_CFL
 ;
 #
 else
@@ -1879,7 +1871,7 @@ intra_uv_mode_mask
 TX_32X32
 ]
 =
-UV_INTRA_DC
+UV_INTRA_DC_CFL
 ;
 #
 else
@@ -2070,7 +2062,7 @@ intra_uv_mode_mask
 i
 ]
 =
-UV_INTRA_DC
+UV_INTRA_DC_CFL
 ;
 #
 else
@@ -3047,6 +3039,15 @@ sf
 >
 tx_type_search
 .
+use_skip_flag_prediction
+=
+1
+;
+sf
+-
+>
+tx_type_search
+.
 fast_intra_tx_type_search
 =
 0
@@ -3172,9 +3173,6 @@ use_upsampled_references
 =
 1
 ;
-#
-if
-CONFIG_EXT_INTER
 sf
 -
 >
@@ -3189,11 +3187,6 @@ fast_wedge_sign_estimate
 =
 0
 ;
-#
-endif
-/
-/
-CONFIG_EXT_INTER
 for
 (
 i

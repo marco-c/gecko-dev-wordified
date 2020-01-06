@@ -174,7 +174,8 @@ in5
 in6
 in7
 ;
-int32_t
+const
+TX_TYPE
 tx_type
 =
 txfm_param

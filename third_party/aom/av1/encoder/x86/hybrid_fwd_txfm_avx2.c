@@ -7754,7 +7754,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -12113,7 +12114,8 @@ in1
 right
 32
 columns
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param

@@ -181,9 +181,6 @@ C
 {
 #
 endif
-#
-if
-CONFIG_PALETTE
 void
 av1_decode_palette_tokens
 (
@@ -198,11 +195,6 @@ aom_reader
 r
 )
 ;
-#
-endif
-/
-/
-CONFIG_PALETTE
 #
 if
 !

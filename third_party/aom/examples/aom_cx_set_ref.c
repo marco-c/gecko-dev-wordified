@@ -2095,14 +2095,14 @@ frame_out
 update_frame_num
 )
 {
-aom_ref_frame_t
+av1_ref_frame_t
 ref
 ;
 ref
 .
-frame_type
+idx
 =
-AOM_LAST_FRAME
+0
 ;
 ref
 .
@@ -2124,7 +2124,7 @@ aom_codec_control
 (
 &
 ecodec
-AOM_SET_REFERENCE
+AV1_SET_REFERENCE
 &
 ref
 )
@@ -2182,7 +2182,7 @@ aom_codec_control
 (
 &
 dcodec
-AOM_SET_REFERENCE
+AV1_SET_REFERENCE
 &
 ref
 )

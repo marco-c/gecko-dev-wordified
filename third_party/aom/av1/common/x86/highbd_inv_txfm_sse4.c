@@ -1933,7 +1933,7 @@ uint16_t
 output
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -5944,7 +5944,7 @@ uint16_t
 output
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -13054,7 +13054,7 @@ uint16_t
 output
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd

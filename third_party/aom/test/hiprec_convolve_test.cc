@@ -195,6 +195,9 @@ AV1HighbdHiprecConvolveTest
 endif
 namespace
 {
+#
+if
+HAVE_SSE2
 TEST_P
 (
 AV1HiprecConvolveTest
@@ -226,6 +229,8 @@ aom_convolve8_add_src_hip_sse2
 )
 )
 ;
+#
+endif
 #
 if
 CONFIG_HIGHBITDEPTH

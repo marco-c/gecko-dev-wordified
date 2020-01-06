@@ -5028,6 +5028,9 @@ OD_LOG2_OUTSCALE
 ;
 logr
 =
+(
+od_val32
+)
 OD_MULT16_32_QBETA
 (
 beta
@@ -8310,6 +8313,9 @@ this
 /
 x
 =
+(
+od_val32
+)
 OD_MULT16_32_Q16
 (
 ypulse

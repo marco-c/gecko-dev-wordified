@@ -466,6 +466,7 @@ frame_number
 =
 0
 )
+{
 ASSERT_EQ
 (
 AOM_CODEC_OK
@@ -486,6 +487,7 @@ aom_codec_err_to_string
 res_peek
 )
 ;
+}
 }
 else
 {

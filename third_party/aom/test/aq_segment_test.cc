@@ -611,8 +611,6 @@ DoTest
 }
 #
 if
-CONFIG_DELTA_Q
-&
 !
 CONFIG_EXT_DELTA_Q
 /

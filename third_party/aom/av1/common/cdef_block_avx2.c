@@ -136,13 +136,13 @@ name
 name
 #
 #
-_neon
+_avx2
 #
 include
 "
 .
 /
-od_dering_simd
+cdef_block_simd
 .
 h
 "

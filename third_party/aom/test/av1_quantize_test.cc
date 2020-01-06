@@ -1512,10 +1512,6 @@ RunEobTest
 #
 if
 HAVE_SSE4_1
-#
-if
-!
-CONFIG_AOM_QM
 const
 QuantizeFuncParams
 qfps
@@ -1572,12 +1568,6 @@ qfps
 )
 )
 ;
-#
-endif
-/
-/
-!
-CONFIG_AOM_QM
 #
 endif
 /

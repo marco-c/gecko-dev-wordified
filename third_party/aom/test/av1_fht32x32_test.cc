@@ -259,7 +259,7 @@ tuple
 <
 FhtFunc
 IhtFunc
-int
+TX_TYPE
 aom_bit_depth_t
 int
 >
@@ -310,7 +310,7 @@ uint8_t
 out
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -332,7 +332,7 @@ int32_t
 output
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -350,7 +350,7 @@ typedef
 tuple
 <
 HbdHtFunc
-int
+TX_TYPE
 int
 >
 HighbdHt32x32Param
@@ -367,7 +367,7 @@ int32_t
 out
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -390,10 +390,16 @@ endif
 CONFIG_HIGHBITDEPTH
 #
 if
+(
 HAVE_SSE2
 |
 |
 HAVE_AVX2
+)
+&
+&
+!
+CONFIG_DAALA_DCT32
 void
 dummy_inv_txfm
 (
@@ -801,7 +807,7 @@ fwd_txfm_
 HbdHtFunc
 fwd_txfm_ref_
 ;
-int
+TX_TYPE
 tx_type_
 ;
 int
@@ -1023,6 +1029,10 @@ make_tuple
 #
 if
 HAVE_SSE2
+&
+&
+!
+CONFIG_DAALA_DCT32
 const
 Ht32x32Param
 kArrayHt32x32Param_sse2
@@ -1036,7 +1046,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-0
+DCT_DCT
 AOM_BITS_8
 1024
 )
@@ -1046,7 +1056,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-1
+ADST_DCT
 AOM_BITS_8
 1024
 )
@@ -1056,7 +1066,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-2
+DCT_ADST
 AOM_BITS_8
 1024
 )
@@ -1066,7 +1076,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-3
+ADST_ADST
 AOM_BITS_8
 1024
 )
@@ -1079,7 +1089,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-4
+FLIPADST_DCT
 AOM_BITS_8
 1024
 )
@@ -1089,7 +1099,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-5
+DCT_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1099,7 +1109,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-6
+FLIPADST_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1109,7 +1119,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-7
+ADST_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1119,7 +1129,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-8
+FLIPADST_ADST
 AOM_BITS_8
 1024
 )
@@ -1129,7 +1139,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-9
+IDTX
 AOM_BITS_8
 1024
 )
@@ -1139,7 +1149,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-10
+V_DCT
 AOM_BITS_8
 1024
 )
@@ -1149,7 +1159,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-11
+H_DCT
 AOM_BITS_8
 1024
 )
@@ -1159,7 +1169,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-12
+V_ADST
 AOM_BITS_8
 1024
 )
@@ -1169,7 +1179,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-13
+H_ADST
 AOM_BITS_8
 1024
 )
@@ -1179,7 +1189,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-14
+V_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1189,7 +1199,7 @@ make_tuple
 av1_fht32x32_sse2
 &
 dummy_inv_txfm
-15
+H_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1220,9 +1230,17 @@ endif
 /
 /
 HAVE_SSE2
+&
+&
+!
+CONFIG_DAALA_DCT32
 #
 if
 HAVE_AVX2
+&
+&
+!
+CONFIG_DAALA_DCT32
 const
 Ht32x32Param
 kArrayHt32x32Param_avx2
@@ -1236,7 +1254,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-0
+DCT_DCT
 AOM_BITS_8
 1024
 )
@@ -1246,7 +1264,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-1
+ADST_DCT
 AOM_BITS_8
 1024
 )
@@ -1256,7 +1274,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-2
+DCT_ADST
 AOM_BITS_8
 1024
 )
@@ -1266,7 +1284,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-3
+ADST_ADST
 AOM_BITS_8
 1024
 )
@@ -1279,7 +1297,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-4
+FLIPADST_DCT
 AOM_BITS_8
 1024
 )
@@ -1289,7 +1307,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-5
+DCT_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1299,7 +1317,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-6
+FLIPADST_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1309,7 +1327,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-7
+ADST_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1319,7 +1337,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-8
+FLIPADST_ADST
 AOM_BITS_8
 1024
 )
@@ -1329,7 +1347,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-9
+IDTX
 AOM_BITS_8
 1024
 )
@@ -1339,7 +1357,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-10
+V_DCT
 AOM_BITS_8
 1024
 )
@@ -1349,7 +1367,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-11
+H_DCT
 AOM_BITS_8
 1024
 )
@@ -1359,7 +1377,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-12
+V_ADST
 AOM_BITS_8
 1024
 )
@@ -1369,7 +1387,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-13
+H_ADST
 AOM_BITS_8
 1024
 )
@@ -1379,7 +1397,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-14
+V_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1389,7 +1407,7 @@ make_tuple
 av1_fht32x32_avx2
 &
 dummy_inv_txfm
-15
+H_FLIPADST
 AOM_BITS_8
 1024
 )
@@ -1420,6 +1438,10 @@ endif
 /
 /
 HAVE_AVX2
+&
+&
+!
+CONFIG_DAALA_DCT32
 }
 /
 /
