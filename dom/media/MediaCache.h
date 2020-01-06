@@ -2116,11 +2116,6 @@ the
 aOriginal
 stream
 .
-Can
-fail
-on
-OOM
-.
 /
 /
 Exactly
@@ -2142,13 +2137,7 @@ on
 this
 class
 .
-Does
-nothing
-if
-already
-initialized
-.
-nsresult
+void
 InitAsClone
 (
 MediaCacheStream
