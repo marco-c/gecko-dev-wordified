@@ -305,7 +305,7 @@ tokenizer
 :
 :
 Tokenizer
-56
+40
 )
 ;
 size_of_test
@@ -318,7 +318,7 @@ parser
 :
 :
 ParserInput
-128
+112
 )
 ;
 size_of_test
