@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsIExtendedExpatSink
+nsIExpatSink
 .
 h
 "
@@ -221,7 +221,7 @@ final
 public
 nsISAXXMLReader
 public
-nsIExtendedExpatSink
+nsIExpatSink
 public
 nsIContentSink
 {
@@ -234,7 +234,6 @@ nsSAXXMLReader
 nsISAXXMLReader
 )
 NS_DECL_NSIEXPATSINK
-NS_DECL_NSIEXTENDEDEXPATSINK
 NS_DECL_NSISAXXMLREADER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
