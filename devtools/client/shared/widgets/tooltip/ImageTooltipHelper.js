@@ -777,7 +777,10 @@ src
 =
 "
 {
+encodeURI
+(
 imageUrl
+)
 }
 "
 /
