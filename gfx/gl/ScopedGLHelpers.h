@@ -533,6 +533,16 @@ return
 mTexture
 ;
 }
+operator
+GLuint
+(
+)
+const
+{
+return
+mTexture
+;
+}
 protected
 :
 void
