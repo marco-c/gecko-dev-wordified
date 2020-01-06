@@ -343,7 +343,7 @@ basestring
 }
 )
 def
-add_optimizations
+add_optimization
 (
 config
 run
@@ -615,19 +615,6 @@ digest
     
 }
     
-optimizations
-=
-taskdesc
-.
-setdefault
-(
-'
-optimizations
-'
-[
-]
-)
-    
 #
 We
 '
@@ -657,6 +644,11 @@ the
 highest
 level
 .
+    
+index_routes
+=
+[
+]
     
 for
 level
@@ -690,16 +682,10 @@ level
 =
 level
         
-optimizations
+index_routes
 .
 append
 (
-[
-'
-index
--
-search
-'
 TOOLCHAIN_INDEX
 .
 format
@@ -708,8 +694,24 @@ format
 *
 subs
 )
-]
 )
+    
+taskdesc
+[
+'
+optimization
+'
+]
+=
+{
+'
+index
+-
+search
+'
+:
+index_routes
+}
     
 #
 .
@@ -1123,7 +1125,7 @@ alias
 '
 ]
     
-add_optimizations
+add_optimization
 (
 config
 run
@@ -1578,7 +1580,7 @@ alias
 '
 ]
     
-add_optimizations
+add_optimization
 (
 config
 run

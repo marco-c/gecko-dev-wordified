@@ -519,15 +519,16 @@ per
 branch
 .
         
-optimizations
+optimization
 =
-[
-[
+{
 '
 index
 -
 search
 '
+:
+[
 '
 {
 }
@@ -554,7 +555,6 @@ level
 image_name
 context_hash
 )
-]
             
 for
 level
@@ -578,6 +578,7 @@ level
 )
 )
 ]
+}
         
 #
 Adjust
@@ -748,10 +749,10 @@ routes
 routes
             
 '
-optimizations
+optimization
 '
 :
-optimizations
+optimization
             
 '
 scopes
