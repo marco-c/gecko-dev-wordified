@@ -411,6 +411,7 @@ Clone
 Copy
 HasViewportPercentage
 PartialEq
+ToAnimatedValue
 ToComputedValue
 ToCss
 )

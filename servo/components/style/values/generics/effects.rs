@@ -145,6 +145,7 @@ Clone
 Debug
 HasViewportPercentage
 PartialEq
+ToAnimatedValue
 )
 ]
 pub
@@ -235,6 +236,7 @@ Clone
 Debug
 HasViewportPercentage
 PartialEq
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -547,6 +549,7 @@ Clone
 Debug
 HasViewportPercentage
 PartialEq
+ToAnimatedValue
 ToCss
 )
 ]
