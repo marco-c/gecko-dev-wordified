@@ -8798,6 +8798,8 @@ result
 of
 a
 getter_AddRefs
+or
+getter_Copies
 call
 .
 if
@@ -8832,7 +8834,14 @@ isDirectCall
 (
 otherEdge
 /
-getter_AddRefs
+getter_
+(
+?
+:
+AddRefs
+|
+Copies
+)
 /
 )
 &
