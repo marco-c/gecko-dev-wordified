@@ -3578,6 +3578,7 @@ FetchChannels
 ResponseMsg
 (
 action_sender
+None
 )
 )
 )
@@ -4109,6 +4110,7 @@ ResponseMsg
 self
 .
 action_sender
+None
 )
 )
 )
