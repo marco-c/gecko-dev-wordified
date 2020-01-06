@@ -13427,9 +13427,10 @@ For
 now
 only
 inspector
-and
 webconsole
-fires
+and
+netmonitor
+fire
 "
 reloaded
 "
@@ -13449,6 +13450,14 @@ toolId
 =
 "
 webconsole
+"
+&
+&
+toolId
+!
+=
+"
+netmonitor
 "
 )
 {
