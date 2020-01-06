@@ -89,14 +89,6 @@ feature
 mpsc_select
 )
 ]
-#
-!
-[
-feature
-(
-nonzero
-)
-]
 extern
 crate
 app_units
@@ -104,10 +96,6 @@ app_units
 extern
 crate
 atomic_refcell
-;
-extern
-crate
-core
 ;
 extern
 crate
@@ -180,6 +168,10 @@ msg
 extern
 crate
 net_traits
+;
+extern
+crate
+nonzero
 ;
 extern
 crate

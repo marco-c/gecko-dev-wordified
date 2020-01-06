@@ -61,6 +61,13 @@ MPL
 [
 cfg_attr
 (
+all
+(
+feature
+=
+"
+unstable
+"
 not
 (
 target_os
@@ -68,6 +75,7 @@ target_os
 "
 windows
 "
+)
 )
 feature
 (
@@ -94,6 +102,13 @@ unused_extern_crates
 [
 cfg
 (
+all
+(
+feature
+=
+"
+unstable
+"
 not
 (
 target_os
@@ -101,6 +116,7 @@ target_os
 "
 windows
 "
+)
 )
 )
 ]
@@ -120,6 +136,13 @@ extern
 crate
 ipc_channel
 ;
+#
+[
+allow
+(
+unused_extern_crates
+)
+]
 #
 [
 cfg

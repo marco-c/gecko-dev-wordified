@@ -73,7 +73,7 @@ cfg_attr
 feature
 =
 "
-unstable
+bench
 "
 feature
 (

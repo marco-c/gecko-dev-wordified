@@ -2388,7 +2388,7 @@ cfg
 feature
 =
 "
-unstable
+bench
 "
 )
 ]
