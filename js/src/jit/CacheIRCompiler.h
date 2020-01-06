@@ -358,11 +358,6 @@ LoadTypeOfObjectResult
 \
 _
 (
-CompareStringResult
-)
-\
-_
-(
 CallPrintString
 )
 \
