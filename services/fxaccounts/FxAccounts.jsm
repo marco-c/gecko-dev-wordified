@@ -9326,6 +9326,15 @@ requiresHttps
 (
 )
 {
+/
+/
+Also
+used
+in
+FxAccountsOAuthGrantClient
+.
+jsm
+.
 let
 allowHttp
 =
