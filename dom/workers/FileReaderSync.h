@@ -199,6 +199,8 @@ aResult
 nsresult
 ConvertAsyncToSyncStream
 (
+uint64_t
+aStreamSize
 nsIInputStream
 *
 aAsyncStream
