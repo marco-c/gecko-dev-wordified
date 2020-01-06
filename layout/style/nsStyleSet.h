@@ -1710,17 +1710,6 @@ aParentContext
 TreeMatchContext
 &
 aTreeMatchContext
-mozilla
-:
-:
-dom
-:
-:
-Element
-*
-aPseudoElement
-=
-nullptr
 )
 ;
 /

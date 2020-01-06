@@ -1751,14 +1751,6 @@ aType
 nsStyleContext
 *
 aParentContext
-dom
-:
-:
-Element
-*
-aPseudoElement
-=
-nullptr
 )
 ;
 /
