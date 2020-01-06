@@ -375,14 +375,6 @@ specified_mochitest_suites
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -462,14 +454,6 @@ specified_reftest_suites
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -543,14 +527,6 @@ specified_xpcshell_suites
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -614,14 +590,6 @@ dest
 :
 "
 specified_cppunittest_suites
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "
@@ -692,14 +660,6 @@ specified_gtest_suites
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -763,14 +723,6 @@ dest
 :
 "
 specified_jittest_suites
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "
@@ -842,14 +794,6 @@ specified_mozbase_suites
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -913,14 +857,6 @@ dest
 :
 "
 specified_mozmill_suites
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "

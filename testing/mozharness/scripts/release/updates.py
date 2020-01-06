@@ -293,14 +293,6 @@ hg_user
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 default
 "
 :
@@ -363,14 +355,6 @@ ssh_user
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -415,14 +399,6 @@ dest
 :
 "
 ssh_key
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "

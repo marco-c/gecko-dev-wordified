@@ -3516,14 +3516,6 @@ store
 "
      
 "
-type
-"
-:
-"
-choice
-"
-     
-"
 dest
 "
 :
@@ -3597,14 +3589,6 @@ action
 :
 "
 store
-"
-     
-"
-type
-"
-:
-"
-choice
 "
      
 "

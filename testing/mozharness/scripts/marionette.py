@@ -462,14 +462,6 @@ store
 "
          
 "
-type
-"
-:
-"
-choice
-"
-         
-"
 choices
 "
 :

@@ -230,14 +230,6 @@ hg_user
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 default
 "
 :
@@ -300,14 +292,6 @@ next_version
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -349,14 +333,6 @@ dest
 :
 "
 ssh_user
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "
@@ -407,14 +383,6 @@ ssh_key
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -456,14 +424,6 @@ product
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -499,14 +459,6 @@ dest
 :
 "
 version
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "
@@ -549,14 +501,6 @@ build_number
 "
             
 "
-type
-"
-:
-"
-string
-"
-            
-"
 help
 "
 :
@@ -592,14 +536,6 @@ dest
 :
 "
 revision
-"
-            
-"
-type
-"
-:
-"
-string
 "
             
 "

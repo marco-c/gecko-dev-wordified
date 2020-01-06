@@ -131,6 +131,10 @@ glob
 import
 shlex
 from
+argparse
+import
+Action
+from
 itertools
 import
 chain
@@ -2605,7 +2609,7 @@ PyUnusedLocal
 class
 BuildOptionParser
 (
-object
+Action
 )
 :
     
@@ -3583,6 +3587,45 @@ branch_specifics
 py
 '
     
+def
+__call__
+(
+self
+parser
+namespace
+values
+option_string
+=
+None
+)
+:
+        
+func
+=
+getattr
+(
+self
+'
+set_
+{
+}
+'
+.
+format
+(
+self
+.
+dest
+)
+)
+        
+func
+(
+self
+namespace
+values
+)
+    
 classmethod
     
 def
@@ -3999,7 +4042,7 @@ find_variant_cfg_path
 cls
 opt
 value
-parser
+namespace
 )
 :
         
@@ -4042,9 +4085,7 @@ cls
 _query_pltfrm_and_bits
 (
 opt
-parser
-.
-values
+namespace
 )
             
 prospective_cfg_path
@@ -4197,9 +4238,8 @@ set_build_variant
 (
 cls
 option
-opt
+namespace
 value
-parser
 )
 :
         
@@ -4261,7 +4301,7 @@ variant
 cfg
 '
 value
-parser
+namespace
 )
         
 if
@@ -4406,9 +4446,7 @@ config_file_search_path
 )
 )
         
-parser
-.
-values
+namespace
 .
 config_files
 .
@@ -4419,9 +4457,7 @@ valid_variant_cfg_path
         
 setattr
 (
-parser
-.
-values
+namespace
 option
 .
 dest
@@ -4438,9 +4474,8 @@ set_build_pool
 (
 cls
 option
-opt
+namespace
 value
-parser
 )
 :
         
@@ -4475,9 +4510,7 @@ the
 pool
 name
         
-parser
-.
-values
+namespace
 .
 config_files
 .
@@ -4490,9 +4523,7 @@ build_pool_cfg_file
         
 setattr
 (
-parser
-.
-values
+namespace
 option
 .
 dest
@@ -4505,13 +4536,12 @@ pool
 classmethod
     
 def
-set_build_branch
+set_branch
 (
 cls
 option
-opt
+namespace
 value
-parser
 )
 :
         
@@ -4548,9 +4578,7 @@ we
 are
 using
         
-parser
-.
-values
+namespace
 .
 config_files
 .
@@ -4563,9 +4591,7 @@ branch_cfg_file
         
 setattr
 (
-parser
-.
-values
+namespace
 option
 .
 dest
@@ -4583,9 +4609,8 @@ set_platform
 (
 cls
 option
-opt
+namespace
 value
-parser
 )
 :
         
@@ -4597,9 +4622,7 @@ value
         
 setattr
 (
-parser
-.
-values
+namespace
 option
 .
 dest
@@ -4613,9 +4636,8 @@ set_bits
 (
 cls
 option
-opt
+namespace
 value
-parser
 )
 :
         
@@ -4627,9 +4649,7 @@ value
         
 setattr
 (
-parser
-.
-values
+namespace
 option
 .
 dest
@@ -4756,25 +4776,7 @@ platform
 action
 "
 :
-"
-callback
-"
-        
-"
-callback
-"
-:
 BuildOptionParser
-.
-set_platform
-        
-"
-type
-"
-:
-"
-string
-"
         
 "
 dest
@@ -4830,25 +4832,7 @@ bits
 action
 "
 :
-"
-callback
-"
-        
-"
-callback
-"
-:
 BuildOptionParser
-.
-set_bits
-        
-"
-type
-"
-:
-"
-string
-"
         
 "
 dest
@@ -4907,25 +4891,7 @@ cfg
 action
 "
 :
-"
-callback
-"
-        
-"
-callback
-"
-:
 BuildOptionParser
-.
-set_build_variant
-        
-"
-type
-"
-:
-"
-string
-"
         
 "
 dest
@@ -5006,25 +4972,7 @@ pool
 action
 "
 :
-"
-callback
-"
-        
-"
-callback
-"
-:
 BuildOptionParser
-.
-set_build_pool
-        
-"
-type
-"
-:
-"
-string
-"
         
 "
 dest
@@ -5104,25 +5052,7 @@ branch
 action
 "
 :
-"
-callback
-"
-        
-"
-callback
-"
-:
 BuildOptionParser
-.
-set_build_branch
-        
-"
-type
-"
-:
-"
-string
-"
         
 "
 dest
@@ -5217,9 +5147,7 @@ store
 type
 "
 :
-"
 int
-"
         
 "
 dest

@@ -2159,6 +2159,27 @@ e
 '
 ]
     
+config_options
+=
+[
+[
+[
+'
+args
+'
+]
+{
+'
+nargs
+'
+:
+'
+*
+'
+}
+]
+]
+    
 default_actions
 =
 [
@@ -2373,6 +2394,12 @@ self
 .
 all_actions
                               
+config_options
+=
+self
+.
+config_options
+                              
 initial_config_file
 =
 '
@@ -2456,6 +2483,12 @@ all_actions
 self
 .
 all_actions
+                              
+config_options
+=
+self
+.
+config_options
                               
 initial_config_file
 =
@@ -2542,6 +2575,12 @@ all_actions
 self
 .
 all_actions
+                              
+config_options
+=
+self
+.
+config_options
                               
 initial_config_file
 =
@@ -2638,6 +2677,12 @@ all_actions
 self
 .
 all_actions
+                              
+config_options
+=
+self
+.
+config_options
                               
 initial_config_file
 =
