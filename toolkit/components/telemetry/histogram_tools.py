@@ -558,6 +558,9 @@ load_whitelist
 )
 :
     
+global
+whitelists
+    
 try
 :
         
