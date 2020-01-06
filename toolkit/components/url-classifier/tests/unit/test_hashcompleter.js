@@ -1340,9 +1340,11 @@ numeric
 string
 of
 length
-at
-most
-6
+start
+with
+"
+test
+"
 for
 the
 /
@@ -1354,6 +1356,10 @@ completion
 .
 table
 =
+"
+test
+"
++
 (
 rand
 .
