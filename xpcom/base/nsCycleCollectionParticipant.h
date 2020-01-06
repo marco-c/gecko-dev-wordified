@@ -2747,6 +2747,8 @@ NS_OK
 \
 nsresult
 rv
+=
+NS_ERROR_FAILURE
 ;
 #
 define
