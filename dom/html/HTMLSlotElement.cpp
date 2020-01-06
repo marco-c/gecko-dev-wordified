@@ -210,12 +210,11 @@ for
 now
 if
 (
-nsDocument
+nsContentUtils
 :
 :
 IsWebComponentsEnabled
 (
-nodeInfo
 )
 )
 {

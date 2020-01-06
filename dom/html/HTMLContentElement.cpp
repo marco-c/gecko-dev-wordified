@@ -366,12 +366,11 @@ aNodeInfo
 if
 (
 !
-nsDocument
+nsContentUtils
 :
 :
 IsWebComponentsEnabled
 (
-nodeInfo
 )
 )
 {
