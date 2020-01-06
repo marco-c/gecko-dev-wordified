@@ -9824,6 +9824,9 @@ dumpStack
 return
 0
 ;
+if
+(
+!
 sp
 -
 >
@@ -9834,6 +9837,9 @@ put
 n
 "
 )
+)
+return
+0
 ;
 return
 len
