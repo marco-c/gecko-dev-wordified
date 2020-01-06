@@ -748,6 +748,7 @@ mTargetInterface
 ;
 private
 :
+explicit
 Interceptor
 (
 IInterceptorSink
