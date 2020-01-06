@@ -773,10 +773,10 @@ UnicodeRange
 ;
 pub
 use
-compact_cow_str
+cow_rc_str
 :
 :
-CompactCowStr
+CowRcStr
 ;
 /
 /
@@ -906,7 +906,7 @@ mod
 unicode_range
 ;
 mod
-compact_cow_str
+cow_rc_str
 ;
 #
 [
