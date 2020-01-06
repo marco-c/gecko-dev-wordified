@@ -174,7 +174,26 @@ FuzzyParser
 (
 )
 def
-base_parser
+empty_parser
+(
+)
+:
+    
+from
+tryselect
+.
+selectors
+.
+empty
+import
+EmptyParser
+    
+return
+EmptyParser
+(
+)
+def
+generic_parser
 (
 )
 :
@@ -186,19 +205,9 @@ cli
 import
 BaseTryParser
     
-return
-BaseTryParser
-(
-)
-def
-generic_parser
-(
-)
-:
-    
 parser
 =
-base_parser
+BaseTryParser
 (
 )
     
@@ -1031,7 +1040,7 @@ tasks
                 
 parser
 =
-base_parser
+empty_parser
 )
     
 def
