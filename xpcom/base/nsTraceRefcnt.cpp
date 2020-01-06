@@ -5333,10 +5333,6 @@ not
 allow
 that
 .
-StackWalkInitCriticalAddress
-(
-)
-;
 if
 (
 +
