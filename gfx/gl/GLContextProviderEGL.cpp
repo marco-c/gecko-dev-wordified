@@ -1904,6 +1904,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 {
 bool
 succeeded
@@ -2087,6 +2088,7 @@ GLContextEGL
 IsCurrent
 (
 )
+const
 {
 return
 sEGLLibrary
