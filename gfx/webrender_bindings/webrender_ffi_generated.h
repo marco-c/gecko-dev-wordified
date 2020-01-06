@@ -3257,7 +3257,7 @@ WrThreadPool
 *
 aThreadPool
 )
-WR_FUNC
+WR_DESTRUCTOR_SAFE_FUNC
 ;
 WR_INLINE
 WrThreadPool
