@@ -2175,8 +2175,10 @@ side
 static
 *
 /
+UniquePtr
+<
 TextOverflow
-*
+>
 TextOverflow
 :
 :
@@ -2280,8 +2282,10 @@ nullptr
 ;
 }
 return
-new
+MakeUnique
+<
 TextOverflow
+>
 (
 aBuilder
 aBlockFrame

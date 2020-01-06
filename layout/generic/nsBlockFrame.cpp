@@ -49261,7 +49261,7 @@ UniquePtr
 TextOverflow
 >
 textOverflow
-(
+=
 TextOverflow
 :
 :
@@ -49269,7 +49269,6 @@ WillProcessLines
 (
 aBuilder
 this
-)
 )
 ;
 /
