@@ -236,7 +236,12 @@ Layer
 aLayer
 )
 override
+{
+mRoot
+=
+aLayer
 ;
+}
 already_AddRefed
 <
 PaintedLayer
