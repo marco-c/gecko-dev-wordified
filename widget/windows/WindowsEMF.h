@@ -553,6 +553,11 @@ ReleaseEMFHandle
 (
 )
 ;
+void
+ReleaseAllResource
+(
+)
+;
 /
 *
 Compiled
