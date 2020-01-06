@@ -157,13 +157,6 @@ aInit
 )
 {
 }
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 /
 /
 Returns
