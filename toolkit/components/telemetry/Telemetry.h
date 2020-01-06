@@ -2291,6 +2291,7 @@ RecordThreadHangStats
 (
 ThreadHangStats
 &
+&
 aStats
 )
 ;
