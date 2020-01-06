@@ -445,7 +445,8 @@ mMutex
 /
 Protects
 mSerializer
-REFIID
+const
+IID
 mTargetUnkIid
 ;
 mscom
