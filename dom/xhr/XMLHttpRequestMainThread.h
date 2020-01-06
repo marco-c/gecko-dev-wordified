@@ -1102,8 +1102,6 @@ XMLHttpRequest
 public
 nsIXMLHttpRequest
 public
-nsIJSXMLHttpRequest
-public
 nsIStreamListener
 public
 nsIChannelEventSink
