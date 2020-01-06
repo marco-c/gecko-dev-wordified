@@ -2563,8 +2563,6 @@ options
 :
         
 import
-taskgraph
-.
 actions
         
 try
@@ -2690,8 +2688,6 @@ ACTION_PARAMETERS
 )
             
 return
-taskgraph
-.
 actions
 .
 trigger_action_callback
@@ -2984,8 +2980,6 @@ import
 get_task_definition
         
 import
-taskgraph
-.
 actions
         
 import
@@ -3174,8 +3168,6 @@ check
 )
             
 return
-taskgraph
-.
 actions
 .
 trigger_action_callback
