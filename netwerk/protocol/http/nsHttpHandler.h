@@ -2461,6 +2461,9 @@ mThrottleResumeFor
 uint32_t
 mThrottleResumeIn
 ;
+uint32_t
+mThrottleTimeWindow
+;
 bool
 mUrgentStartEnabled
 ;
