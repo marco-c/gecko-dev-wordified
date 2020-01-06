@@ -6208,6 +6208,19 @@ parse_entirely
 parser
 |
 {
+let
+name
+=
+id
+.
+name
+(
+)
+.
+into
+(
+)
+;
 PropertyDeclaration
 :
 :
@@ -6215,6 +6228,7 @@ parse_into
 (
 declarations
 id
+name
 &
 context
 parser
@@ -6628,6 +6642,7 @@ self
 .
 declarations
 id
+name
 self
 .
 context
