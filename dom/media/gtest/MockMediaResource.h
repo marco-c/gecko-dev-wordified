@@ -212,16 +212,6 @@ false
 ;
 }
 bool
-IsSuspendedByCache
-(
-)
-override
-{
-return
-false
-;
-}
-bool
 IsSuspended
 (
 )
