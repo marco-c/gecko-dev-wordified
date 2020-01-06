@@ -11839,8 +11839,6 @@ JSNativeWrapper
 set
 unsigned
 attrs
-unsigned
-flags
 )
 {
 JSGetterOp
@@ -12330,8 +12328,6 @@ HandleValue
 value
 unsigned
 attrs
-unsigned
-flags
 )
 {
 MOZ_ASSERT
@@ -12454,7 +12450,6 @@ obj
 id
 value
 attrs
-0
 )
 ;
 }
@@ -12494,7 +12489,6 @@ NativeOpWrapper
 setter
 )
 attrs
-0
 )
 ;
 }
@@ -12536,7 +12530,6 @@ obj
 id
 value
 attrs
-0
 )
 ;
 }
@@ -12577,7 +12570,6 @@ obj
 id
 value
 attrs
-0
 )
 ;
 }
@@ -12623,7 +12615,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -12669,7 +12660,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -12715,7 +12705,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -12742,8 +12731,6 @@ JSNativeWrapper
 setter
 unsigned
 attrs
-unsigned
-flags
 )
 {
 AutoRooterGetterSetter
@@ -12816,7 +12803,6 @@ id
 getter
 setter
 attrs
-flags
 )
 ;
 }
@@ -12837,8 +12823,6 @@ HandleValue
 value
 unsigned
 attrs
-unsigned
-flags
 )
 {
 JSAtom
@@ -12881,7 +12865,6 @@ obj
 id
 value
 attrs
-flags
 )
 ;
 }
@@ -12914,7 +12897,6 @@ obj
 name
 value
 attrs
-0
 )
 ;
 }
@@ -12956,7 +12938,6 @@ NativeOpWrapper
 setter
 )
 attrs
-0
 )
 ;
 }
@@ -13000,7 +12981,6 @@ obj
 name
 value
 attrs
-0
 )
 ;
 }
@@ -13043,7 +13023,6 @@ obj
 name
 value
 attrs
-0
 )
 ;
 }
@@ -13091,7 +13070,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13139,7 +13117,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13187,7 +13164,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13394,8 +13370,6 @@ Native
 setter
 unsigned
 attrs
-unsigned
-flags
 )
 {
 AutoRooterGetterSetter
@@ -13457,7 +13431,6 @@ NativeOpWrapper
 setter
 )
 attrs
-flags
 )
 ;
 }
@@ -13476,23 +13449,12 @@ char16_t
 name
 size_t
 namelen
-const
-Value
-&
-value_
+HandleValue
+value
 unsigned
 attrs
-unsigned
-flags
 )
 {
-RootedValue
-value
-(
-cx
-value_
-)
-;
 JSAtom
 *
 atom
@@ -13534,7 +13496,6 @@ obj
 id
 value
 attrs
-flags
 )
 ;
 }
@@ -13570,7 +13531,6 @@ name
 namelen
 value
 attrs
-0
 )
 ;
 }
@@ -13609,7 +13569,6 @@ namelen
 getter
 setter
 attrs
-0
 )
 ;
 }
@@ -13656,7 +13615,6 @@ name
 namelen
 value
 attrs
-0
 )
 ;
 }
@@ -13702,7 +13660,6 @@ name
 namelen
 value
 attrs
-0
 )
 ;
 }
@@ -13753,7 +13710,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13804,7 +13760,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13855,7 +13810,6 @@ fromMarkedLocation
 value
 )
 attrs
-0
 )
 ;
 }
@@ -13939,7 +13893,6 @@ NativeOpWrapper
 setter
 )
 attrs
-0
 )
 ;
 }
@@ -14004,7 +13957,6 @@ obj
 id
 value
 attrs
-0
 )
 ;
 }
@@ -17147,8 +17099,6 @@ char
 setterName
 unsigned
 attrs
-unsigned
-flags
 )
 {
 JSAtom
@@ -17438,7 +17388,6 @@ NativeOpWrapper
 setterOp
 )
 attrs
-flags
 )
 ;
 }
@@ -17553,7 +17502,6 @@ obj
 name
 nobjValue
 attrs
-0
 )
 )
 return
@@ -17673,7 +17621,6 @@ cds
 name
 value
 attrs
-0
 )
 )
 return
@@ -18185,7 +18132,6 @@ ps
 -
 >
 flags
-0
 )
 )
 {
@@ -18224,7 +18170,6 @@ ps
 -
 >
 flags
-0
 )
 )
 {
@@ -18274,7 +18219,6 @@ flags
 &
 ~
 JSPROP_INTERNAL_USE_BIT
-0
 )
 )
 return
