@@ -538,6 +538,7 @@ derive
 (
 PartialEq
 ToAnimatedValue
+ToAnimatedZero
 ToComputedValue
 ToCss
 )

@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+[
+macro_use
+]
+extern
+crate
+darling
+;
 extern
 crate
 proc_macro
@@ -111,6 +119,10 @@ to_css
 proc_macro_derive
 (
 Animate
+attributes
+(
+animation
+)
 )
 ]
 pub
@@ -170,6 +182,10 @@ unwrap
 proc_macro_derive
 (
 ComputeSquaredDistance
+attributes
+(
+animation
+)
 )
 ]
 pub
