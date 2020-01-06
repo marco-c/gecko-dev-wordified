@@ -2495,7 +2495,7 @@ mozilla
 :
 :
 LayoutDeviceRect
-visible
+rect
 =
 mozilla
 :
@@ -2505,7 +2505,10 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-GetVisibleRect
+mFrame
+-
+>
+GetContentRectRelativeToSelf
 (
 )
 mFrame
@@ -2521,7 +2524,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-visible
+rect
 +
 =
 mOffset
@@ -2534,7 +2537,7 @@ aSc
 .
 ToRelativeLayoutRect
 (
-visible
+rect
 )
 !
 BackfaceIsHidden
