@@ -549,6 +549,10 @@ extern
 crate
 dtoa_short
 ;
+extern
+crate
+itoa
+;
 #
 [
 macro_use
