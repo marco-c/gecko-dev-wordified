@@ -4125,7 +4125,7 @@ gfx
 :
 :
 IntSize
-dstSize
+destSize
 (
 mWidth
 mHeight
@@ -4172,7 +4172,7 @@ BlitHelper
 BlitImageToFramebuffer
 (
 mImage
-dstSize
+destSize
 dstOrigin
 )
 )
