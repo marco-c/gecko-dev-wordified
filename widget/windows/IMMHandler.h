@@ -183,6 +183,9 @@ h
 class
 nsWindow
 ;
+class
+nsWindowBase
+;
 namespace
 mozilla
 {
@@ -222,9 +225,9 @@ aWnd
 explicit
 IMEContext
 (
-nsWindow
+nsWindowBase
 *
-aWindow
+aWindowBase
 )
 ;
 ~
@@ -257,9 +260,9 @@ aWnd
 void
 Init
 (
-nsWindow
+nsWindowBase
 *
-aWindow
+aWindowBase
 )
 ;
 void
