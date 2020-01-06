@@ -612,6 +612,11 @@ aBaseDir
 mozIStorageConnection
 *
 aConn
+bool
+aMustRestore
+int64_t
+*
+aPaddingSizeOut
 )
 ;
 nsresult
