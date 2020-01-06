@@ -140,6 +140,13 @@ child_privileges
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 sandbox
 {
@@ -214,6 +221,8 @@ const
 wchar_t
 *
 aArguments
+GeckoProcessType
+aProcessType
 const
 bool
 aEnableLogging

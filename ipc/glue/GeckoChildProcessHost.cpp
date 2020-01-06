@@ -7375,6 +7375,7 @@ command_line_string
 c_str
 (
 )
+mProcessType
 mEnableSandboxLogging
 &
 process
