@@ -6281,6 +6281,16 @@ aSurfaceCacheExpirationTimeMS
 "
 SurfaceTracker
 "
+SystemGroup
+:
+:
+EventTargetFor
+(
+TaskCategory
+:
+:
+Other
+)
 )
 {
 }
