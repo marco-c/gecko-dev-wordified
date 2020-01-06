@@ -1138,6 +1138,8 @@ override
 bool
 mCanSend
 ;
+private
+:
 RefPtr
 <
 CompositorManagerParent
