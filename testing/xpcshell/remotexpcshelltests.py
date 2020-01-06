@@ -81,6 +81,10 @@ tempfile
 import
 time
 from
+argparse
+import
+Namespace
+from
 zipfile
 import
 ZipFile
@@ -994,8 +998,11 @@ if
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 self
@@ -1940,16 +1947,22 @@ self
 localLib
 =
 options
-.
+[
+'
 localLib
+'
+]
         
 self
 .
 localBin
 =
 options
-.
+[
+'
 localBin
+'
+]
         
 self
 .
@@ -2221,24 +2234,33 @@ self
 remoteDebugger
 =
 options
-.
+[
+'
 debugger
+'
+]
         
 self
 .
 remoteDebuggerArgs
 =
 options
-.
+[
+'
 debuggerArgs
+'
+]
         
 self
 .
 testingModulesDir
 =
 options
-.
+[
+'
 testingModulesDir
+'
+]
         
 self
 .
@@ -2248,11 +2270,12 @@ env
 }
         
 if
-self
-.
 options
-.
+[
+'
 objdir
+'
+]
 :
             
 self
@@ -2265,11 +2288,12 @@ path
 .
 join
 (
-self
-.
 options
-.
+[
+'
 objdir
+'
+]
 "
 _tests
 /
@@ -2343,8 +2367,11 @@ exit
         
 if
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 self
@@ -2354,14 +2381,20 @@ localAPKContents
 ZipFile
 (
 options
-.
+[
+'
 localAPK
+'
+]
 )
         
 if
 options
-.
+[
+'
 setup
+'
+]
 :
             
 self
@@ -2396,8 +2429,11 @@ None
         
 if
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 self
@@ -2416,8 +2452,11 @@ path
 basename
 (
 options
-.
+[
+'
 localAPK
+'
+]
 )
 )
             
@@ -3032,8 +3071,11 @@ if
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 and
 self
 .
@@ -3122,8 +3164,11 @@ if
 self
 .
 options
-.
+[
+'
 setup
+'
+]
 :
             
 self
@@ -3173,8 +3218,11 @@ if
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 try
@@ -3861,8 +3909,11 @@ if
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 remoteFile
@@ -3881,8 +3932,11 @@ basename
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 )
 )
             
@@ -3895,8 +3949,11 @@ pushFile
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 remoteFile
 )
         
@@ -3921,8 +3978,11 @@ if
 self
 .
 options
-.
+[
+'
 localAPK
+'
+]
 :
             
 try
@@ -4683,21 +4743,45 @@ options
 :
     
 if
+isinstance
+(
 options
-.
+Namespace
+)
+:
+        
+options
+=
+vars
+(
+options
+)
+    
+if
+options
+[
+'
 localLib
+'
+]
 is
 None
 :
         
 if
 options
-.
+[
+'
 localAPK
+'
+]
 and
 options
-.
+[
+'
 objdir
+'
+]
 :
             
 for
@@ -4718,8 +4802,11 @@ lib
 :
                 
 options
-.
+[
+'
 localLib
+'
+]
 =
 os
 .
@@ -4728,8 +4815,11 @@ path
 join
 (
 options
-.
+[
+'
 objdir
+'
+]
 path
 )
                 
@@ -4741,8 +4831,11 @@ path
 isdir
 (
 options
-.
+[
+'
 localLib
+'
+]
 )
 :
                     
@@ -4776,13 +4869,19 @@ dir
         
 elif
 options
-.
+[
+'
 objdir
+'
+]
 :
             
 options
-.
+[
+'
 localLib
+'
+]
 =
 os
 .
@@ -4791,8 +4890,11 @@ path
 join
 (
 options
-.
+[
+'
 objdir
+'
+]
 '
 dist
 /
@@ -4841,8 +4943,11 @@ tests
 zip
             
 options
-.
+[
+'
 localLib
+'
+]
 =
 os
 .
@@ -4895,16 +5000,22 @@ dir
     
 if
 options
-.
+[
+'
 localBin
+'
+]
 is
 None
 :
         
 if
 options
-.
+[
+'
 objdir
+'
+]
 :
             
 for
@@ -4923,8 +5034,11 @@ bin
 :
                 
 options
-.
+[
+'
 localBin
+'
+]
 =
 os
 .
@@ -4933,8 +5047,11 @@ path
 join
 (
 options
-.
+[
+'
 objdir
+'
+]
 path
 )
                 
@@ -4946,8 +5063,11 @@ path
 isdir
 (
 options
-.
+[
+'
 localBin
+'
+]
 )
 :
                     
@@ -5020,8 +5140,11 @@ tests
 zip
             
 options
-.
+[
+'
 localBin
+'
+]
 =
 os
 .
@@ -5333,14 +5456,20 @@ deviceRoot
 '
 :
 options
-.
+[
+'
 remoteTestRoot
+'
+]
 }
     
 if
 options
-.
+[
+'
 deviceIP
+'
+]
 :
         
 dm_args
@@ -5351,8 +5480,11 @@ host
 ]
 =
 options
-.
+[
+'
 deviceIP
+'
+]
         
 dm_args
 [
@@ -5362,13 +5494,19 @@ port
 ]
 =
 options
-.
+[
+'
 devicePort
+'
+]
     
 if
 options
-.
+[
+'
 log_tbpl_level
+'
+]
 =
 =
 '
@@ -5376,8 +5514,11 @@ debug
 '
 or
 options
-.
+[
+'
 log_mach_level
+'
+]
 =
 =
 '
@@ -5409,13 +5550,19 @@ dm_args
     
 if
 options
-.
+[
+'
 interactive
+'
+]
 and
 not
 options
-.
+[
+'
 testPath
+'
+]
 :
         
 print
@@ -5448,15 +5595,21 @@ exit
     
 if
 options
-.
+[
+'
 xpcshell
+'
+]
 is
 None
 :
         
 options
-.
+[
+'
 xpcshell
+'
+]
 =
 "
 xpcshell
@@ -5483,8 +5636,11 @@ on
 mobile
     
 options
-.
+[
+'
 sequential
+'
+]
 =
 True
     
@@ -5494,6 +5650,8 @@ xpcsh
 .
 runTests
 (
+options
+                          
 testClass
 =
 RemoteXPCShellTestThread
@@ -5503,13 +5661,6 @@ mobileArgs
 xpcsh
 .
 mobileArgs
-                          
-*
-*
-vars
-(
-options
-)
 )
 :
         

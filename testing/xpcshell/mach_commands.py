@@ -1023,8 +1023,6 @@ xpcshell
 .
 runTests
 (
-*
-*
 filtered_args
 )
         
@@ -1663,17 +1661,6 @@ sequential
 =
 True
         
-options
-=
-argparse
-.
-Namespace
-(
-*
-*
-kwargs
-)
-        
 xpcshell
 =
 remotexpcshelltests
@@ -1681,7 +1668,7 @@ remotexpcshelltests
 XPCShellRemote
 (
 dm
-options
+kwargs
 log
 )
         
@@ -1691,6 +1678,7 @@ xpcshell
 .
 runTests
 (
+kwargs
 testClass
 =
 remotexpcshelltests
@@ -1702,13 +1690,6 @@ mobileArgs
 xpcshell
 .
 mobileArgs
-                                   
-*
-*
-vars
-(
-options
-)
 )
         
 self
