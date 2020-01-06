@@ -713,9 +713,6 @@ Pref
 let
 value
 =
-try
-!
-(
 PrefValue
 :
 :
@@ -723,7 +720,7 @@ from_json
 (
 data
 )
-)
+?
 ;
 Ok
 (
@@ -1020,9 +1017,6 @@ Read
 let
 json
 =
-try
-!
-(
 Json
 :
 :
@@ -1065,7 +1059,7 @@ Err
 )
 }
 )
-)
+?
 ;
 let
 mut
@@ -1362,9 +1356,6 @@ let
 mut
 path
 =
-try
-!
-(
 resources_dir_path
 (
 )
@@ -1377,7 +1368,7 @@ _
 (
 )
 )
-)
+?
 ;
 path
 .
@@ -1393,9 +1384,6 @@ json
 let
 file
 =
-try
-!
-(
 File
 :
 :
@@ -1449,7 +1437,7 @@ Err
 )
 }
 )
-)
+?
 ;
 read_prefs_from_file
 (

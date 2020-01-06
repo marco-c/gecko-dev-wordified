@@ -1046,9 +1046,6 @@ ar
 }
 )
 ;
-try
-!
-(
 serializer
 .
 start_elem
@@ -1060,7 +1057,7 @@ clone
 )
 attr_refs
 )
-)
+?
 ;
 }
 let
@@ -1136,9 +1133,6 @@ handle
 in
 children
 {
-try
-!
-(
 (
 &
 *
@@ -1150,7 +1144,7 @@ serialize
 serializer
 IncludeNode
 )
-)
+?
 ;
 }
 if
@@ -1159,9 +1153,6 @@ traversal_scope
 =
 IncludeNode
 {
-try
-!
-(
 serializer
 .
 end_elem
@@ -1172,7 +1163,7 @@ clone
 (
 )
 )
-)
+?
 ;
 }
 Ok
@@ -1203,9 +1194,6 @@ children
 (
 )
 {
-try
-!
-(
 (
 &
 *
@@ -1217,7 +1205,7 @@ serialize
 serializer
 IncludeNode
 )
-)
+?
 ;
 }
 Ok

@@ -3245,9 +3245,6 @@ bool
 let
 dom_class
 =
-try
-!
-(
 get_dom_class
 (
 obj
@@ -3360,7 +3357,7 @@ Err
 }
 }
 )
-)
+?
 ;
 if
 proto_check

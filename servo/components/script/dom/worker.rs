@@ -1355,9 +1355,6 @@ ErrorResult
 let
 data
 =
-try
-!
-(
 StructuredCloneData
 :
 :
@@ -1366,7 +1363,7 @@ write
 cx
 message
 )
-)
+?
 ;
 let
 address

@@ -610,9 +610,6 @@ let
 mut
 file
 =
-try
-!
-(
 File
 :
 :
@@ -620,7 +617,7 @@ open
 (
 path
 )
-)
+?
 ;
 let
 mut
@@ -631,9 +628,6 @@ vec
 [
 ]
 ;
-try
-!
-(
 file
 .
 read_to_end
@@ -642,7 +636,7 @@ read_to_end
 mut
 image_data
 )
-)
+?
 ;
 let
 mut

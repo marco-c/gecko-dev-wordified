@@ -907,9 +907,6 @@ NodeFilterConstants
 FILTER_ACCEPT
 =
 =
-try
-!
-(
 self
 .
 accept_node
@@ -917,7 +914,7 @@ accept_node
 &
 node
 )
-)
+?
 {
 self
 .
@@ -1507,9 +1504,6 @@ loop
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -1517,7 +1511,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 match
 result
@@ -1752,9 +1746,6 @@ NodeFilterConstants
 FILTER_ACCEPT
 =
 =
-try
-!
-(
 self
 .
 accept_node
@@ -1762,7 +1753,7 @@ accept_node
 &
 node
 )
-)
+?
 {
 self
 .
@@ -1984,9 +1975,6 @@ value
 "
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -1994,7 +1982,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 /
 /
@@ -2131,9 +2119,6 @@ value
 "
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -2141,7 +2126,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 /
 /
@@ -2446,9 +2431,6 @@ value
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -2456,7 +2438,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 match
 result
@@ -3090,9 +3072,6 @@ value
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -3100,7 +3079,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 /
 /
@@ -3370,9 +3349,6 @@ NodeFilterConstants
 FILTER_ACCEPT
 =
 =
-try
-!
-(
 self
 .
 accept_node
@@ -3380,7 +3356,7 @@ accept_node
 &
 node
 )
-)
+?
 {
 return
 Ok

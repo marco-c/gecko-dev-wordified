@@ -686,9 +686,6 @@ _
 >
 Some
 (
-try
-!
-(
 FontTemplateData
 :
 :
@@ -701,7 +698,7 @@ clone
 )
 maybe_bytes
 )
-)
+?
 )
 None
 =
@@ -1226,9 +1223,6 @@ Err
 let
 data
 =
-try
-!
-(
 self
 .
 data
@@ -1243,7 +1237,7 @@ _
 (
 )
 )
-)
+?
 ;
 let
 handle
@@ -1278,11 +1272,8 @@ is_ok
 let
 handle
 =
-try
-!
-(
 handle
-)
+?
 ;
 self
 .
@@ -1490,9 +1481,6 @@ Arc
 :
 new
 (
-try
-!
-(
 FontTemplateData
 :
 :
@@ -1507,7 +1495,7 @@ clone
 )
 None
 )
-)
+?
 )
 ;
 self

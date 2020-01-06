@@ -4079,15 +4079,12 @@ Vec
 :
 from
 (
-try
-!
-(
 serialize_document
 (
 &
 doc
 )
-)
+?
 .
 as_ref
 (
@@ -5864,9 +5861,6 @@ Step
 let
 override_mime
 =
-try
-!
-(
 mime
 .
 parse
@@ -5888,7 +5882,7 @@ Error
 :
 Syntax
 )
-)
+?
 ;
 /
 /

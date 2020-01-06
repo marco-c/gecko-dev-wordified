@@ -1304,15 +1304,12 @@ Radial
 let
 func
 =
-try
-!
-(
 input
 .
 expect_function
 (
 )
-)
+?
 ;
 let
 result
@@ -5278,9 +5275,6 @@ i
 >
 {
 match
-try
-!
-(
 Self
 :
 :
@@ -5288,7 +5282,7 @@ parse
 (
 input
 )
-)
+?
 {
 ShapeExtent
 :
@@ -5382,9 +5376,6 @@ false
 let
 items
 =
-try
-!
-(
 input
 .
 parse_comma_separated
@@ -5460,7 +5451,7 @@ ColorStop
 )
 }
 )
-)
+?
 ;
 if
 !
@@ -5543,9 +5534,6 @@ ColorStop
 {
 color
 :
-try
-!
-(
 RGBAColor
 :
 :
@@ -5554,7 +5542,7 @@ parse
 context
 input
 )
-)
+?
 position
 :
 input

@@ -746,9 +746,6 @@ tokens
 let
 token
 =
-try
-!
-(
 self
 .
 check_token_exceptions
@@ -756,7 +753,7 @@ check_token_exceptions
 &
 token
 )
-)
+?
 ;
 if
 !
@@ -867,9 +864,6 @@ tokens
 let
 token
 =
-try
-!
-(
 self
 .
 check_token_exceptions
@@ -877,7 +871,7 @@ check_token_exceptions
 &
 token
 )
-)
+?
 ;
 atoms
 .
@@ -991,9 +985,6 @@ local_name
 let
 token
 =
-try
-!
-(
 self
 .
 check_token_exceptions
@@ -1001,7 +992,7 @@ check_token_exceptions
 &
 token
 )
-)
+?
 ;
 match
 atoms

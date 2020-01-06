@@ -2328,9 +2328,6 @@ context
 let
 image_data
 =
-try
-!
-(
 context
 .
 GetImageData
@@ -2376,7 +2373,7 @@ as
 f64
 )
 )
-)
+?
 ;
 image_data
 .

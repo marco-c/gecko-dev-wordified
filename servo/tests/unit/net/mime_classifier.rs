@@ -152,9 +152,6 @@ let
 mut
 file
 =
-try
-!
-(
 File
 :
 :
@@ -162,7 +159,7 @@ open
 (
 path
 )
-)
+?
 ;
 let
 mut
@@ -175,9 +172,6 @@ new
 (
 )
 ;
-try
-!
-(
 file
 .
 read_to_end
@@ -186,7 +180,7 @@ read_to_end
 mut
 buffer
 )
-)
+?
 ;
 Ok
 (

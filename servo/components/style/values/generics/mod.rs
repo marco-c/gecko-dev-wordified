@@ -1272,15 +1272,12 @@ Cursor
 let
 tag
 =
-try
-!
-(
 input
 .
 expect_string
 (
 )
-)
+?
 ;
 /
 /

@@ -843,9 +843,6 @@ Step
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -853,7 +850,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 /
 /
@@ -936,9 +933,6 @@ Step
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -946,7 +940,7 @@ accept_node
 &
 following_node
 )
-)
+?
 ;
 /
 /
@@ -1121,9 +1115,6 @@ Step
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -1131,7 +1122,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 /
 /
@@ -1214,9 +1205,6 @@ Step
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -1224,7 +1212,7 @@ accept_node
 &
 preceding_node
 )
-)
+?
 ;
 /
 /

@@ -946,9 +946,6 @@ style
 width
 )
 =
-try
-!
-(
 super
 :
 :
@@ -957,7 +954,7 @@ parse_border
 context
 input
 )
-)
+?
 ;
 Ok
 (
@@ -1329,9 +1326,6 @@ style
 width
 )
 =
-try
-!
-(
 super
 :
 :
@@ -1340,7 +1334,7 @@ parse_border
 context
 input
 )
-)
+?
 ;
 Ok
 (
@@ -1875,9 +1869,6 @@ i
 let
 radii
 =
-try
-!
-(
 BorderRadius
 :
 :
@@ -1886,7 +1877,7 @@ parse
 context
 input
 )
-)
+?
 ;
 Ok
 (
@@ -2348,9 +2339,6 @@ try
 input
 |
 {
-try
-!
-(
 input
 .
 expect_delim
@@ -2359,7 +2347,7 @@ expect_delim
 /
 '
 )
-)
+?
 ;
 /
 /
@@ -2414,9 +2402,6 @@ try
 input
 |
 {
-try
-!
-(
 input
 .
 expect_delim
@@ -2425,7 +2410,7 @@ expect_delim
 /
 '
 )
-)
+?
 ;
 border_image_outset
 :
@@ -2676,11 +2661,8 @@ into
 }
 )
 ;
-try
-!
-(
 result
-)
+?
 ;
 Ok
 (

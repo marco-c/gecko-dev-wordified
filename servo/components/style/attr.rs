@@ -4021,9 +4021,6 @@ _
 let
 upper
 =
-try
-!
-(
 hex
 (
 string
@@ -4033,14 +4030,11 @@ string
 as
 char
 )
-)
+?
 ;
 let
 lower
 =
-try
-!
-(
 hex
 (
 string
@@ -4050,7 +4044,7 @@ string
 as
 char
 )
-)
+?
 ;
 Ok
 (

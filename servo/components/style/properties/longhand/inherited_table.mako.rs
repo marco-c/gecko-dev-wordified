@@ -456,9 +456,6 @@ T
 {
 horizontal
 :
-try
-!
-(
 self
 .
 horizontal
@@ -472,12 +469,9 @@ horizontal
 self_portion
 other_portion
 )
-)
+?
 vertical
 :
-try
-!
-(
 self
 .
 vertical
@@ -491,7 +485,7 @@ vertical
 self_portion
 other_portion
 )
-)
+?
 }
 )
 }
@@ -562,9 +556,6 @@ f64
 {
 Ok
 (
-try
-!
-(
 self
 .
 horizontal
@@ -576,11 +567,8 @@ other
 .
 horizontal
 )
-)
+?
 +
-try
-!
-(
 self
 .
 vertical
@@ -592,7 +580,7 @@ other
 .
 vertical
 )
-)
+?
 )
 }
 }
@@ -706,9 +694,6 @@ fmt
 :
 Write
 {
-try
-!
-(
 self
 .
 horizontal
@@ -717,7 +702,7 @@ to_css
 (
 dest
 )
-)
+?
 ;
 if
 let
@@ -734,9 +719,6 @@ as_ref
 (
 )
 {
-try
-!
-(
 dest
 .
 write_str
@@ -744,7 +726,7 @@ write_str
 "
 "
 )
-)
+?
 ;
 vertical
 .

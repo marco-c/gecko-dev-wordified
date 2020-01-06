@@ -11846,9 +11846,6 @@ str
 let
 res
 =
-try
-!
-(
 read_resource_file
 (
 filename
@@ -11861,7 +11858,7 @@ _
 |
 filename
 )
-)
+?
 ;
 Ok
 (
@@ -12005,16 +12002,13 @@ user_or_user_agent_stylesheets
 .
 push
 (
-try
-!
-(
 parse_ua_stylesheet
 (
 &
 shared_lock
 filename
 )
-)
+?
 )
 ;
 }
@@ -12084,9 +12078,6 @@ NoQuirks
 let
 quirks_mode_stylesheet
 =
-try
-!
-(
 parse_ua_stylesheet
 (
 &
@@ -12099,7 +12090,7 @@ mode
 css
 "
 )
-)
+?
 ;
 Ok
 (

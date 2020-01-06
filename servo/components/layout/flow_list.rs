@@ -321,9 +321,6 @@ let
 mut
 serializer
 =
-try
-!
-(
 serializer
 .
 serialize_seq
@@ -337,7 +334,7 @@ len
 )
 )
 )
-)
+?
 ;
 for
 f
@@ -591,9 +588,6 @@ to_owned
 data
 )
 ;
-try
-!
-(
 serializer
 .
 serialize_element
@@ -601,7 +595,7 @@ serialize_element
 &
 flow_val
 )
-)
+?
 ;
 }
 serializer

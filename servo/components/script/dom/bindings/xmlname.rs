@@ -290,14 +290,11 @@ namespace
 Step
 2
 .
-try
-!
-(
 validate_qualified_name
 (
 qualified_name
 )
-)
+?
 ;
 let
 colon

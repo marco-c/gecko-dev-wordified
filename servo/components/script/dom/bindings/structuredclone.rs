@@ -999,15 +999,12 @@ w
 let
 blob_vec
 =
-try
-!
-(
 blob
 .
 get_bytes
 (
 )
-)
+?
 ;
 assert
 !

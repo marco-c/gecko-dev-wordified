@@ -741,9 +741,6 @@ unwrap
 let
 messages
 =
-try
-!
-(
 port
 .
 recv
@@ -758,7 +755,7 @@ _
 (
 )
 )
-)
+?
 .
 into_iter
 (
@@ -1213,9 +1210,6 @@ let
 result
 =
 match
-try
-!
-(
 port
 .
 recv
@@ -1230,7 +1224,7 @@ _
 (
 )
 )
-)
+?
 {
 VoidValue
 =

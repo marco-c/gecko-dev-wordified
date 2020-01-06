@@ -217,9 +217,6 @@ let
 mut
 file
 =
-try
-!
-(
 File
 :
 :
@@ -229,7 +226,7 @@ open
 *
 identifier
 )
-)
+?
 ;
 let
 mut

@@ -654,9 +654,6 @@ pt_size
 let
 handle
 =
-try
-!
-(
 FontHandle
 :
 :
@@ -672,7 +669,7 @@ Some
 actual_pt_size
 )
 )
-)
+?
 ;
 Ok
 (

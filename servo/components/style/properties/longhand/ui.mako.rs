@@ -707,15 +707,12 @@ i
 >
 {
 match
-try
-!
-(
 input
 .
 expect_integer
 (
 )
-)
+?
 {
 0
 =

@@ -270,9 +270,6 @@ FileOrigin
 let
 url_inner
 =
-try
-!
-(
 Url
 :
 :
@@ -293,7 +290,7 @@ _
 (
 )
 )
-)
+?
 ;
 let
 id
@@ -303,9 +300,6 @@ let
 mut
 segs
 =
-try
-!
-(
 url_inner
 .
 path_segments
@@ -317,14 +311,11 @@ ok_or
 (
 )
 )
-)
+?
 ;
 let
 id
 =
-try
-!
-(
 segs
 .
 nth
@@ -337,11 +328,8 @@ ok_or
 (
 )
 )
-)
+?
 ;
-try
-!
-(
 Uuid
 :
 :
@@ -358,7 +346,7 @@ _
 (
 )
 )
-)
+?
 }
 ;
 Ok

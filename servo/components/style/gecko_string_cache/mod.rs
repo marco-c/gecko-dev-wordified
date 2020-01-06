@@ -1732,9 +1732,6 @@ chars
 (
 )
 {
-try
-!
-(
 w
 .
 write_char
@@ -1749,7 +1746,7 @@ char
 REPLACEMENT_CHARACTER
 )
 )
-)
+?
 }
 Ok
 (

@@ -1360,9 +1360,6 @@ let
 mut
 serializer
 =
-try
-!
-(
 serializer
 .
 serialize_struct
@@ -1372,11 +1369,8 @@ fragment
 "
 3
 )
-)
+?
 ;
-try
-!
-(
 serializer
 .
 serialize_field
@@ -1389,11 +1383,8 @@ self
 .
 debug_id
 )
-)
+?
 ;
-try
-!
-(
 serializer
 .
 serialize_field
@@ -1406,11 +1397,8 @@ self
 .
 border_box
 )
-)
+?
 ;
-try
-!
-(
 serializer
 .
 serialize_field
@@ -1423,7 +1411,7 @@ self
 .
 margin
 )
-)
+?
 ;
 serializer
 .

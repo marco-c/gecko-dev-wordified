@@ -2600,9 +2600,6 @@ Decoder
 :
 Gzip
 (
-try
-!
-(
 GzDecoder
 :
 :
@@ -2610,7 +2607,7 @@ new
 (
 response
 )
-)
+?
 )
 }
 Some
@@ -9589,9 +9586,6 @@ Step
 let
 origin
 =
-try
-!
-(
 origin
 .
 ok_or
@@ -9599,7 +9593,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 /
 /

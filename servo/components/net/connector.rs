@@ -314,9 +314,6 @@ stream
 =
 HttpStream
 (
-try
-!
-(
 TcpStream
 :
 :
@@ -324,7 +321,7 @@ connect
 (
 addr
 )
-)
+?
 )
 ;
 if

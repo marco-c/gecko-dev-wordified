@@ -990,9 +990,6 @@ is_err
 let
 results
 =
-try
-!
-(
 input
 .
 parse_comma_separated
@@ -1006,7 +1003,7 @@ context
 i
 )
 )
-)
+?
 ;
 for
 result
@@ -1909,9 +1906,6 @@ endfor
 let
 results
 =
-try
-!
-(
 input
 .
 parse_comma_separated
@@ -1925,7 +1919,7 @@ context
 i
 )
 )
-)
+?
 ;
 for
 result
@@ -2144,9 +2138,6 @@ i
 =
 0
 {
-try
-!
-(
 write
 !
 (
@@ -2154,7 +2145,7 @@ dest
 "
 "
 )
-)
+?
 ;
 }
 %
@@ -2342,9 +2333,6 @@ i
 let
 result
 =
-try
-!
-(
 scroll_snap_type_x
 :
 :
@@ -2353,7 +2341,7 @@ parse
 context
 input
 )
-)
+?
 ;
 Ok
 (

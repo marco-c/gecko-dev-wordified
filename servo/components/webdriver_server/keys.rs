@@ -2668,9 +2668,6 @@ key
 with_shift
 )
 =
-try
-!
-(
 key_from_char
 (
 char_code
@@ -2691,7 +2688,7 @@ code
 char_code
 )
 )
-)
+?
 ;
 let
 modifiers
