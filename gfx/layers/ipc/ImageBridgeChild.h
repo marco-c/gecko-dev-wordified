@@ -336,6 +336,9 @@ class
 ImageContainer
 ;
 class
+ImageContainerListener
+;
+class
 ImageBridgeParent
 ;
 class
@@ -2351,13 +2354,12 @@ containers
 Mutex
 mContainerMapLock
 ;
-nsDataHashtable
+nsRefPtrHashtable
 <
 nsUint64HashKey
-ImageContainer
-*
+ImageContainerListener
 >
-mImageContainers
+mImageContainerListeners
 ;
 }
 ;
