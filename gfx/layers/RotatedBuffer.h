@@ -2303,6 +2303,7 @@ ShallowCopy
 (
 )
 const
+override
 {
 return
 new
@@ -2627,6 +2628,7 @@ ShallowCopy
 (
 )
 const
+override
 {
 return
 new
@@ -2875,6 +2877,7 @@ ShallowCopy
 (
 )
 const
+override
 {
 return
 nullptr
