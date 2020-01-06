@@ -561,10 +561,7 @@ mLayerManager
 new
 BasicLayerManager
 (
-BasicLayerManager
-:
-:
-BLM_OFFSCREEN
+this
 )
 ;
 }
