@@ -26912,9 +26912,6 @@ eSideTop
 /
 stroke
 width
-bool
-allBordersSolid
-;
 /
 /
 First
@@ -27283,6 +27280,8 @@ return
 bool
 hasCompositeColors
 ;
+const
+bool
 allBordersSolid
 =
 AllBordersSolid
