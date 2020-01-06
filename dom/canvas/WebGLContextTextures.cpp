@@ -1678,13 +1678,6 @@ const
 TexImageSource
 &
 src
-const
-Maybe
-<
-GLsizei
->
-&
-expectedImageSize
 )
 {
 TexImageTarget
@@ -1725,7 +1718,6 @@ height
 depth
 border
 src
-expectedImageSize
 )
 ;
 }
@@ -1763,13 +1755,6 @@ const
 TexImageSource
 &
 src
-const
-Maybe
-<
-GLsizei
->
-&
-expectedImageSize
 )
 {
 TexImageTarget
@@ -1812,7 +1797,6 @@ height
 depth
 unpackFormat
 src
-expectedImageSize
 )
 ;
 }
