@@ -6987,6 +6987,15 @@ Document
 .
 .
 )
+|
+CssRule
+:
+:
+FontFeatureValues
+(
+.
+.
+)
 =
 >
 {
