@@ -3549,10 +3549,7 @@ resource
 %
 s
 "
-mResource
--
->
-GetContentType
+ContainerType
 (
 )
 .
