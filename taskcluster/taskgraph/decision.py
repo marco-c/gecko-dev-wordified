@@ -266,7 +266,7 @@ is
 specified
 in
 the
-commmit
+commit
 message
 .
         
