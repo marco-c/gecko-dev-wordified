@@ -56,13 +56,16 @@ of
 the
 sender
 .
-function
+const
 getSender
+=
 (
 extension
 target
 sender
 )
+=
+>
 {
 let
 tabId
@@ -188,6 +191,7 @@ convert
 }
 }
 }
+;
 /
 /
 Used

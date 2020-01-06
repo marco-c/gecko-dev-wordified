@@ -136,7 +136,7 @@ Extension
 >
 BrowserAction
 ]
-var
+let
 browserActionMap
 =
 new

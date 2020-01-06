@@ -160,7 +160,7 @@ Extension
 >
 PageAction
 ]
-var
+let
 pageActionMap
 =
 new
