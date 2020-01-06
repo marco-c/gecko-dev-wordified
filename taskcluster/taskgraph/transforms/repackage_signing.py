@@ -1155,6 +1155,18 @@ funsize_platforms
 [
             
 '
+linux
+-
+nightly
+'
+            
+'
+linux64
+-
+nightly
+'
+            
+'
 macosx64
 -
 nightly
