@@ -1250,7 +1250,7 @@ h
 "
 #
 ifdef
-MOZ_MEMORY_ANDROID
+ANDROID
 #
 define
 NO_TLS
@@ -1815,7 +1815,7 @@ MOZ_MEMORY_SOLARIS
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 #
 include
@@ -2286,7 +2286,7 @@ else
 if
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 &
 &
@@ -3308,7 +3308,7 @@ XP_LINUX
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 static
 malloc_mutex_t
@@ -7721,7 +7721,7 @@ MozTagAnonymousMemory
 .
 #
 ifdef
-MOZ_MEMORY_ANDROID
+ANDROID
 /
 /
 Android
@@ -7943,7 +7943,7 @@ XP_LINUX
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 pthread_mutexattr_t
 attr
@@ -8189,7 +8189,7 @@ XP_LINUX
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 pthread_mutexattr_t
 attr
