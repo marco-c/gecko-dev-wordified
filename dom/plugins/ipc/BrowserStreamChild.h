@@ -353,13 +353,6 @@ aRangeList
 )
 ;
 void
-NPN_DestroyStream
-(
-NPReason
-reason
-)
-;
-void
 NotifyPending
 (
 )
@@ -497,12 +490,6 @@ private
 friend
 class
 StreamNotifyChild
-;
-using
-PBrowserStreamChild
-:
-:
-SendNPN_DestroyStream
 ;
 /
 *
@@ -654,7 +641,8 @@ delivery
 of
 data
 and
-NPN_DestroyStream
+stream
+destruction
 .
 While
 the
