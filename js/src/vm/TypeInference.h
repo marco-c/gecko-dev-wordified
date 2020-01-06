@@ -2265,9 +2265,7 @@ type
 )
 ;
 static
-const
-char
-*
+UniqueChars
 TypeString
 (
 Type
@@ -2275,9 +2273,7 @@ type
 )
 ;
 static
-const
-char
-*
+UniqueChars
 ObjectGroupString
 (
 ObjectGroup
