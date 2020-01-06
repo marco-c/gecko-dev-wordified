@@ -4904,6 +4904,16 @@ type
 public
 static
 final
+String
+PAGE_METADATA_JSON
+=
+"
+page_metadata_json
+"
+;
+public
+static
+final
 Uri
 CONTENT_URI
 =
