@@ -827,10 +827,7 @@ GetNumElements
 const
 ;
 typedef
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
