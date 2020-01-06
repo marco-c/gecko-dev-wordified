@@ -1811,6 +1811,9 @@ eslint
 -
 disable
 indent
+indent
+-
+legacy
 no
 -
 multi
@@ -2120,6 +2123,9 @@ eslint
 -
 enable
 indent
+indent
+-
+legacy
 no
 -
 multi

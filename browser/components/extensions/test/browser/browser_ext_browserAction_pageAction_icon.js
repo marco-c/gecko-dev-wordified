@@ -228,6 +228,9 @@ comma
 -
 dangle
 indent
+indent
+-
+legacy
 *
 /
 let
