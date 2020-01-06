@@ -4257,8 +4257,6 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
-ServoTraversalFlags
-aFlags
 bool
 aParentWasRestyled
 )
@@ -5606,7 +5604,6 @@ AsElement
 )
 upToDateContext
 childrenRestyleState
-aFlags
 wasRestyled
 )
 ;
@@ -7106,7 +7103,6 @@ ProcessPostTraversal
 root
 nullptr
 state
-aFlags
 /
 *
 aParentWasRestyled

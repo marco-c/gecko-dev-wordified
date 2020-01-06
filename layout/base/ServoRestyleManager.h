@@ -1794,8 +1794,6 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
-ServoTraversalFlags
-aFlags
 bool
 aParentWasRestyled
 )
