@@ -1030,13 +1030,6 @@ soundplaying
 -
 icon
 "
-"
-restore
--
-tabs
--
-button
-"
 ]
 return
 DEFAULT_ITEMS
