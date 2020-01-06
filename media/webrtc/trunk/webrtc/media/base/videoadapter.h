@@ -258,6 +258,7 @@ should
 be
 dropped
 .
+virtual
 bool
 AdaptFrameResolution
 (
@@ -407,6 +408,7 @@ than
 /
 max_pixel_count_step_up
 .
+virtual
 void
 OnResolutionRequest
 (
@@ -458,6 +460,7 @@ min
 .
 0
 )
+virtual
 void
 OnScaleResolutionBy
 (
