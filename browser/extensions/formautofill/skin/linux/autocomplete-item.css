@@ -77,7 +77,7 @@ xhtml
 )
 ;
 .
-profile
+autofill
 -
 item
 -
@@ -104,7 +104,7 @@ size
 ;
 }
 .
-profile
+autofill
 -
 item
 -
@@ -128,5 +128,18 @@ size
 :
 .
 7em
+;
+}
+.
+autofill
+-
+footer
+{
+font
+-
+size
+:
+.
+77em
 ;
 }
