@@ -1515,6 +1515,10 @@ False
 parameters
 =
 None
+                  
+push
+=
+True
 *
 *
 kwargs
@@ -1552,6 +1556,7 @@ vcs
 .
 check_working_directory
 (
+push
 )
     
 all_tasks
@@ -1821,4 +1826,7 @@ push_to_try
 msg
 selected
 templates
+push
+=
+push
 )
