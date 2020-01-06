@@ -6456,7 +6456,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 )
 {

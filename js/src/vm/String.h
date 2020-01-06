@@ -4624,7 +4624,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4643,7 +4643,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4684,7 +4684,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4730,7 +4730,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4749,7 +4749,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4771,7 +4771,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4800,7 +4800,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -4853,7 +4853,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -5986,7 +5986,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -6025,7 +6025,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -9408,7 +9408,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -9440,7 +9440,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -9469,7 +9469,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )
@@ -9500,7 +9500,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 nogc
 )

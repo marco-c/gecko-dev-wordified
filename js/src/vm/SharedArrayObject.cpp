@@ -3029,7 +3029,7 @@ const
 JS
 :
 :
-AutoRequireNoGC
+AutoCheckCannotGC
 &
 )
 {
