@@ -320,7 +320,7 @@ void
 *
 newPtr
 =
-NS_Alloc
+moz_xmalloc
 (
 aSize
 )

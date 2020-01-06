@@ -608,7 +608,7 @@ iter_
 )
 ;
 \
-NS_Free
+free
 (
 (
 array
@@ -737,7 +737,7 @@ size
 (
 array
 )
-NS_Free
+free
 )
 /
 *

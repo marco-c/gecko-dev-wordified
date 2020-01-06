@@ -658,7 +658,7 @@ newBuf
 CharT
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 (
 aLen
@@ -762,7 +762,7 @@ str
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 len
 +

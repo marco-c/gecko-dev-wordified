@@ -2856,7 +2856,7 @@ if
 mKey
 )
 {
-NS_Free
+free
 (
 const_cast
 <

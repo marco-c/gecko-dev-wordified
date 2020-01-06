@@ -508,7 +508,7 @@ AutoFreeKeyBuffer
 (
 )
 {
-NS_Free
+free
 (
 *
 mKeyBuffer

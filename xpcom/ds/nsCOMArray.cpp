@@ -1576,7 +1576,7 @@ array
 as
 well
 .
-NS_Free
+free
 (
 aElements
 )
@@ -1625,7 +1625,7 @@ nsISupports
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 array_size
 )

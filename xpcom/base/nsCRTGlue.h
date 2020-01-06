@@ -469,7 +469,7 @@ char16_t
 strings
 uses
 the
-NS_Alloc
+moz_xmalloc
 allocator
 .
 *
@@ -494,7 +494,7 @@ strdup
 but
 using
 the
-NS_Alloc
+moz_xmalloc
 allocator
 .
 *
@@ -546,7 +546,7 @@ terminated
 .
 Uses
 the
-NS_Alloc
+moz_xmalloc
 allocator
 .
 *

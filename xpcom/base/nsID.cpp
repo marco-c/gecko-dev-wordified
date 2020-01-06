@@ -747,7 +747,7 @@ string
 is
 allocated
 with
-NS_Alloc
+moz_xmalloc
 and
 should
 be
@@ -777,7 +777,7 @@ res
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 NSID_LENGTH
 )
