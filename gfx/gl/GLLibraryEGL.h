@@ -478,7 +478,6 @@ ANGLE_d3d_share_handle_client_buffer
 KHR_create_context
 KHR_stream
 KHR_stream_consumer_gltexture
-EXT_device_base
 EXT_device_query
 NV_stream_consumer_gltexture_yuv
 ANGLE_stream_producer_d3d_texture_nv12
@@ -1572,7 +1571,7 @@ stream
 )
 /
 /
-EXT_device_base
+EXT_device_query
 EGLBoolean
 fQueryDisplayAttribEXT
 (
@@ -1594,9 +1593,6 @@ attribute
 value
 )
 )
-/
-/
-EXT_device_query
 EGLBoolean
 fQueryDeviceAttribEXT
 (
@@ -2572,7 +2568,7 @@ stream
 ;
 /
 /
-EXT_device_base
+EXT_device_query
 EGLBoolean
 (
 GLAPIENTRY
@@ -2589,9 +2585,6 @@ EGLAttrib
 value
 )
 ;
-/
-/
-EXT_device_query
 EGLBoolean
 (
 GLAPIENTRY
