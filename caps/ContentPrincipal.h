@@ -253,6 +253,16 @@ ContentPrincipal
 (
 )
 ;
+static
+PrincipalKind
+Kind
+(
+)
+{
+return
+eCodebasePrincipal
+;
+}
 /
 /
 Init

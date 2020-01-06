@@ -174,6 +174,16 @@ OriginAttributes
 aAttrs
 )
 ;
+static
+PrincipalKind
+Kind
+(
+)
+{
+return
+eExpandedPrincipal
+;
+}
 NS_DECL_NSIEXPANDEDPRINCIPAL
 NS_DECL_NSISERIALIZABLE
 NS_IMETHOD_
