@@ -3127,12 +3127,6 @@ spec
 "
 createdCallback
 "
-"
-attachedCallback
-"
-"
-detachedCallback
-"
 }
 ;
 static
