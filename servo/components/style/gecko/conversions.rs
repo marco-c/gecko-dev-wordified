@@ -2410,7 +2410,6 @@ by
 default
 .
 let
-mut
 gecko_stop
 =
 unsafe

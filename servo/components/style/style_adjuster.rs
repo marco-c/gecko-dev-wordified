@@ -1669,7 +1669,6 @@ overflow
 visible
 {
 let
-mut
 box_style
 =
 self
@@ -1821,7 +1820,6 @@ moz_math_variant
 none
 {
 let
-mut
 font_style
 =
 self
