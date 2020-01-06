@@ -150,7 +150,7 @@ mozilla
 namespace
 detail
 {
-struct
+class
 CacheMapUntypedEntry
 ;
 }
@@ -158,7 +158,7 @@ class
 CacheMapInvalidator
 {
 friend
-struct
+class
 detail
 :
 :
@@ -202,7 +202,7 @@ const
 namespace
 detail
 {
-struct
+class
 CacheMapUntypedEntry
 {
 template
@@ -214,6 +214,8 @@ friend
 class
 CacheMap
 ;
+private
+:
 const
 std
 :
@@ -226,6 +228,8 @@ CacheMapInvalidator
 >
 mInvalidators
 ;
+protected
+:
 CacheMapUntypedEntry
 (
 std
@@ -260,15 +264,15 @@ const
 ;
 }
 ;
+struct
+DerefLess
+final
+{
 template
 <
 typename
 T
 >
-struct
-DerefLess
-final
-{
 bool
 operator
 (
@@ -313,7 +317,7 @@ class
 CacheMap
 final
 {
-struct
+class
 Entry
 final
 :
@@ -323,6 +327,8 @@ detail
 :
 CacheMapUntypedEntry
 {
+public
+:
 CacheMap
 &
 mParent
@@ -461,9 +467,6 @@ detail
 :
 :
 DerefLess
-<
-KeyT
->
 >
 MapT
 ;
