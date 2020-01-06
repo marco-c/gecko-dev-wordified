@@ -137,6 +137,10 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 class
 ServoStyleContext
 final
@@ -310,6 +314,10 @@ mSource
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /
