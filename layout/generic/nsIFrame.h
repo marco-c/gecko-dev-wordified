@@ -8867,12 +8867,10 @@ nscoord
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 ModifiedFrameList
-std
-:
-:
-vector
+nsTArray
 <
-WeakFrame
+nsIFrame
+*
 >
 )
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
