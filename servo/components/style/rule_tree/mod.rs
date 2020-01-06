@@ -7649,10 +7649,7 @@ check
 )
 ;
 use
-std
-:
-:
-collections
+hash
 :
 :
 HashSet

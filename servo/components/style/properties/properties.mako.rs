@@ -205,10 +205,7 @@ borrow
 Cow
 ;
 use
-std
-:
-:
-collections
+hash
 :
 :
 HashSet

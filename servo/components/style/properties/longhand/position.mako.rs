@@ -3497,10 +3497,7 @@ True
 "
 >
 use
-std
-:
-:
-collections
+hash
 :
 :
 HashMap
