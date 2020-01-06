@@ -278,6 +278,11 @@ GetElementById
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+DocumentFragment
+FragmentOrElement
+)
 /
 /
 interface
@@ -593,7 +598,7 @@ return
 nullptr
 ;
 }
-nsIContent
+Element
 *
 GetHost
 (
@@ -607,7 +612,7 @@ mHost
 void
 SetHost
 (
-nsIContent
+Element
 *
 aHost
 )
@@ -697,13 +702,12 @@ aPreallocateChildren
 const
 override
 ;
-nsIContent
-*
+nsCOMPtr
+<
+Element
+>
 mHost
 ;
-/
-/
-Weak
 }
 ;
 }
