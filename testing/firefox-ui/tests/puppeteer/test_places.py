@@ -60,7 +60,6 @@ PuppeteerMixin
 from
 marionette_driver
 import
-By
 Wait
 from
 marionette_harness
@@ -376,18 +375,14 @@ self
 .
 marionette
 .
-find_element
+execute_script
 (
-By
+"
+return
+BookmarkingUI
 .
-ID
-'
-bookmarks
--
-menu
--
-button
-'
+star
+"
 )
         
 #

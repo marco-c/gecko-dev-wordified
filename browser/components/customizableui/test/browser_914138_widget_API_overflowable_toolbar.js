@@ -150,17 +150,6 @@ search
 container
 "
 ;
-const
-kStarBtn
-=
-"
-bookmarks
--
-menu
--
-button
-"
-;
 var
 originalWindowWidth
 ;
