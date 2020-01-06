@@ -2963,14 +2963,6 @@ mPrivateBrowsingMode
 CommonFactoryRequestParams
 commonParams
 ;
-commonParams
-.
-privateBrowsingMode
-(
-)
-=
-mPrivateBrowsingMode
-;
 PrincipalInfo
 &
 principalInfo
