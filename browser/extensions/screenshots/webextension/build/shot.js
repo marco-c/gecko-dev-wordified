@@ -310,6 +310,7 @@ z0
 9
 .
 -
+_
 ]
 {
 1
@@ -471,6 +472,7 @@ z0
 9
 .
 -
+_
 ]
 {
 1
@@ -1130,6 +1132,7 @@ z0
 9
 .
 -
+_
 ]
 {
 1
@@ -1727,6 +1730,7 @@ z0
 9
 .
 -
+_
 ]
 {
 1
@@ -2898,6 +2902,20 @@ this
 createdDate
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+control
+-
+regex
 filenameTitle
 =
 filenameTitle
@@ -2920,11 +2938,10 @@ replace
 .
 |
 \
-n
+x00
+-
 \
-r
-\
-t
+x1F
 ]
 /
 g

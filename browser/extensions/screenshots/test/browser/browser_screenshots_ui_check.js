@@ -1,9 +1,3 @@
-/
-*
-eslint
-disable
-*
-/
 "
 use
 strict
