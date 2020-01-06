@@ -2508,7 +2508,7 @@ do
 static_assert
 (
 \
-MOZ_PASTE_PREFIX_AND_ARG_COUNT
+MOZ_ARG_COUNT
 (
 __VA_ARGS__
 )
