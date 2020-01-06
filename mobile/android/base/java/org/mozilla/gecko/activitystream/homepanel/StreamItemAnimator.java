@@ -197,9 +197,15 @@ getItemViewType
 )
 =
 =
-TopPanel
+StreamRecyclerAdapter
 .
-LAYOUT_ID
+RowItemType
+.
+TOP_PANEL
+.
+getViewType
+(
+)
 )
 {
 /
