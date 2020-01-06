@@ -4010,7 +4010,7 @@ android
 -
 api
 -
-15
+16
 -
 opt
 '
@@ -4095,7 +4095,7 @@ android
 -
 api
 -
-15
+16
 -
 debug
 '
@@ -8164,7 +8164,7 @@ android
 -
 api
 -
-15
+16
 '
 +
 target_suffix

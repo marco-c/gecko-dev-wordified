@@ -4792,7 +4792,7 @@ android
 -
 api
 -
-15
+16
 /
 debug
 '
@@ -4806,7 +4806,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 debug
 '
@@ -4816,7 +4818,7 @@ android
 -
 api
 -
-15
+16
 /
 opt
 '
@@ -4830,7 +4832,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 opt
 '
@@ -4860,7 +4864,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 /
@@ -4872,7 +4876,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 /
@@ -5356,7 +5360,7 @@ arm7
 -
 api
 -
-15
+16
 /
 opt
 '
@@ -5372,7 +5376,7 @@ arm7
 -
 api
 -
-15
+16
 /
 debug
 '

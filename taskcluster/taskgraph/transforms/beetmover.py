@@ -1414,7 +1414,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 '
@@ -1440,7 +1440,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -1706,7 +1706,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 -
@@ -1726,7 +1726,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 -
@@ -1740,7 +1740,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -2015,7 +2015,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 '
@@ -2061,7 +2061,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -2339,7 +2339,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 -
@@ -2359,7 +2359,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 -
@@ -2379,7 +2379,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -

@@ -337,7 +337,7 @@ arm7
 -
 api
 -
-15
+16
 '
 :
 '
@@ -346,8 +346,9 @@ Android
 .
 3
 armv7
-API
-15
+api
+-
+16
 +
 '
     
@@ -381,7 +382,7 @@ arm7
 -
 api
 -
-15
+16
 -
 gradle
 '
@@ -392,8 +393,9 @@ Android
 .
 3
 armv7
-API
-15
+api
+-
+16
 +
 '
     
