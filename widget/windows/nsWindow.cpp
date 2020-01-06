@@ -8771,10 +8771,6 @@ nsIWidget
 aNewParent
 )
 {
-mParent
-=
-aNewParent
-;
 nsCOMPtr
 <
 nsIWidget
@@ -8806,6 +8802,10 @@ this
 )
 ;
 }
+mParent
+=
+aNewParent
+;
 if
 (
 aNewParent
