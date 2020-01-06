@@ -262,6 +262,26 @@ True
 }
     
 '
+try
+-
+comm
+-
+central
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+try_tasks
+'
+    
+}
+    
+'
 ash
 '
 :
@@ -1398,12 +1418,11 @@ try
 settings
     
 if
-project
-=
-=
 '
 try
 '
+in
+project
 :
         
 parameters
