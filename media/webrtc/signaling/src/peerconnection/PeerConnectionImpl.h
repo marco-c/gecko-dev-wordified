@@ -3406,7 +3406,11 @@ NS_IMETHODIMP
 EnsureDataConnection
 (
 uint16_t
+aLocalPort
+uint16_t
 aNumstreams
+uint32_t
+aMaxMessageSize
 )
 ;
 nsresult
@@ -3574,6 +3578,9 @@ localport
 uint16_t
 *
 remoteport
+uint32_t
+*
+maxmessagesize
 uint16_t
 *
 level
