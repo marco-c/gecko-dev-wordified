@@ -188,9 +188,9 @@ countSources
 (
 dbg
 )
-5
+4
 "
-5
+4
 sources
 are
 loaded
@@ -273,11 +273,6 @@ simple2
 js
 "
 "
-simple3
-.
-js
-"
-"
 long
 .
 js
@@ -295,9 +290,9 @@ countSources
 (
 dbg
 )
-5
+4
 "
-5
+4
 sources
 are
 loaded
