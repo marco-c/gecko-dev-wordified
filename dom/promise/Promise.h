@@ -796,6 +796,12 @@ PerformWorkerDebuggerMicroTaskCheckpoint
 (
 )
 ;
+static
+bool
+IsWorkerDebuggerMicroTaskEmpty
+(
+)
+;
 /
 /
 WebIDL
