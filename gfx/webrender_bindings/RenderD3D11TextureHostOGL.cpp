@@ -423,6 +423,13 @@ mGL
 =
 aContext
 ;
+mGL
+-
+>
+MakeCurrent
+(
+)
+;
 }
 }
 bool
@@ -1714,6 +1721,13 @@ DeleteTextureHandle
 mGL
 =
 aContext
+;
+mGL
+-
+>
+MakeCurrent
+(
+)
 ;
 }
 }

@@ -708,6 +708,13 @@ mGL
 =
 aContext
 ;
+mGL
+-
+>
+MakeCurrent
+(
+)
+;
 }
 }
 void
