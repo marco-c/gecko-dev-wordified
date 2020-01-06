@@ -777,15 +777,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -13868,9 +13859,7 @@ nsExternalAppHandler
 :
 Got
 %
-"
-PRIuSIZE
-"
+zu
 redirects
 \
 n
