@@ -2388,7 +2388,7 @@ public
 RINSTRUCTION_HEADER_NUM_OP_
 (
 StringSplit
-3
+2
 )
 MOZ_MUST_USE
 bool
