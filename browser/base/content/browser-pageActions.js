@@ -2195,6 +2195,13 @@ urlbar
 -
 icon
 "
+"
+urlbar
+-
+page
+-
+action
+"
 )
 ;
 if

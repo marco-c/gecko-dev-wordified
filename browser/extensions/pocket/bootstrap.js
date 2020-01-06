@@ -918,6 +918,13 @@ icon
 -
 wrapper
 "
+"
+urlbar
+-
+page
+-
+action
+"
 )
 ;
 wrapper
