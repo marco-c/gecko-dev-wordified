@@ -6344,8 +6344,13 @@ Value
 vp
 )
 ;
+template
+<
 bool
-HasOwnNativeDataProperty
+HasOwn
+>
+bool
+HasNativeDataProperty
 (
 JSContext
 *
