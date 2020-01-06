@@ -1840,13 +1840,16 @@ webExtensionsMethods
 =
 [
 "
+createWebExtensionInspectedWindowFront
+"
+"
 getTargetForTab
 "
 "
 getTheme
 "
 "
-createWebExtensionInspectedWindowFront
+openBrowserConsole
 "
 ]
 ;
