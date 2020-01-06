@@ -6080,6 +6080,13 @@ options_list
 env
 =
 {
+                    
+'
+TEST_SUITE
+'
+:
+suite
+                
 }
                 
 if

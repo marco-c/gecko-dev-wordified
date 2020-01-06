@@ -1728,6 +1728,24 @@ screenshots
 ]
         
 "
+browser
+-
+chrome
+-
+instrumentation
+"
+:
+[
+"
+-
+-
+flavor
+=
+browser
+"
+]
+        
+"
 mochitest
 -
 gl
