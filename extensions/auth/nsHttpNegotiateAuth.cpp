@@ -3053,6 +3053,8 @@ challenge
 void
 *
 inToken
+=
+nullptr
 *
 outToken
 ;
@@ -3163,6 +3165,11 @@ rv
 )
 )
 {
+free
+(
+inToken
+)
+;
 return
 rv
 ;
@@ -3185,10 +3192,6 @@ token
 .
 /
 /
-inToken
-=
-nullptr
-;
 inTokenLen
 =
 0
