@@ -100,10 +100,6 @@ Localization
 "
 import
 os
-from
-urlparse
-import
-urljoin
 import
 pprint
 import

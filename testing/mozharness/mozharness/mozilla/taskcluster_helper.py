@@ -38,14 +38,6 @@ base
 .
 log
 import
-INFO
-from
-mozharness
-.
-base
-.
-log
-import
 LogMixin
 #
 Taskcluster
@@ -2396,6 +2388,7 @@ self
 url_to_artifact
 (
 parent_id
+                                         
 '
 public
 /
@@ -2566,6 +2559,7 @@ signed_installer_url
 s
 '
 %
+                      
 signed_installer_url
 )
             

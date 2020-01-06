@@ -524,6 +524,9 @@ the
 test
 was
 otherwise
+"
+         
+"
 unsuccessful
 in
 even
@@ -1324,70 +1327,6 @@ milliseconds
 "
 -
 -
-e10s
-"
-]
-{
-            
-"
-dest
-"
-:
-"
-e10s
-"
-            
-"
-action
-"
-:
-"
-store_true
-"
-            
-"
-default
-"
-:
-False
-            
-"
-help
-"
-:
-"
-we
-should
-have
--
--
-disable
--
-e10s
-but
-instead
-we
-assume
-non
--
-e10s
-and
-use
--
--
-e10s
-to
-help
-"
-        
-}
-]
-        
-[
-[
-"
--
--
 enable
 -
 stylo
@@ -1872,11 +1811,6 @@ pagesets_name
 =
 None
         
-self
-.
-mitmproxy_rel_bin
-=
-None
 #
 some
 platforms
@@ -1888,9 +1822,10 @@ binary
         
 self
 .
-mitmproxy_recording_set
+mitmproxy_rel_bin
 =
 None
+        
 #
 zip
 file
@@ -1907,6 +1842,19 @@ recordings
         
 self
 .
+mitmproxy_recording_set
+=
+None
+        
+#
+files
+inside
+the
+recording
+set
+        
+self
+.
 mitmproxy_recordings_file_list
 =
 self
@@ -1920,18 +1868,7 @@ mitmproxy
 '
 None
 )
-#
-files
-inside
-the
-recording
-set
         
-self
-.
-mitmdump
-=
-None
 #
 path
 to
@@ -1941,6 +1878,12 @@ itself
 in
 py3
 venv
+        
+self
+.
+mitmdump
+=
+None
     
 #
 We
@@ -1953,6 +1896,8 @@ the
 try
 commit
 message
+    
+#
 in
 the
 format
@@ -2031,6 +1976,8 @@ opts
 self
 .
 buildbot_config
+(
+                   
 [
 '
 sourcestamp
@@ -2057,6 +2004,8 @@ partition
 mozharness
 :
 '
+)
+                   
 )
             
 except
@@ -2367,6 +2316,7 @@ abs_dirs
 abs_work_dir
 '
 ]
+                                                       
 '
 blobber_upload_dir
 '
@@ -2714,6 +2664,8 @@ instead
 of
 suite
 ;
+        
+#
 go
 through
 tests
@@ -2972,10 +2924,10 @@ None
 :
             
 if
-not
 self
 .
 suite
+not
 in
 self
 .
@@ -3085,6 +3037,9 @@ can
 specify
 binary_path
 or
+"
+                       
+"
 add
 download
 -
@@ -3182,43 +3137,6 @@ suite
 '
 ]
 =
-self
-.
-config
-[
-'
-suite
-'
-]
-            
-if
-self
-.
-config
-.
-get
-(
-'
-e10s
-'
-False
-)
-:
-                
-kw_options
-[
-'
-suite
-'
-]
-=
-"
-%
-s
--
-e10s
-"
-%
 self
 .
 config
@@ -3690,14 +3608,6 @@ get
 run_local
 '
 )
-and
-'
-talos_extra_options
-'
-in
-self
-.
-config
 :
             
 #
@@ -3735,6 +3645,7 @@ if
 a
 '
 in
+(
 self
 .
 config
@@ -3744,6 +3655,7 @@ talos_extra_options
 '
 ]
 or
+                        
 '
 -
 -
@@ -3758,6 +3670,7 @@ config
 talos_extra_options
 '
 ]
+)
 :
                 
 #
@@ -3973,15 +3886,11 @@ in
 self
 .
 config
-.
-get
-(
+[
 '
 talos_extra_options
 '
-[
 ]
-)
 :
                 
 self
@@ -4469,6 +4378,7 @@ talos
 '
 mitmproxy
 '
+                        
 '
 mitmproxy_requirements
 .
@@ -4532,16 +4442,6 @@ env
 "
 "
         
-self
-.
-info
-(
-"
-Installing
-mitmproxy
-"
-)
-        
 if
 '
 win
@@ -4553,6 +4453,16 @@ platform_name
 (
 )
 :
+            
+self
+.
+info
+(
+"
+Installing
+mitmproxy
+"
+)
             
 self
 .
@@ -4770,6 +4680,9 @@ mitmproxy
 rel
 binary
 because
+"
+                              
+"
 no
 -
 download
@@ -4886,6 +4799,8 @@ self
 .
 mitmproxy_rel_bin
 =
+(
+                
 self
 .
 talos_json_config
@@ -4904,6 +4819,8 @@ get
 (
 config_key
 False
+)
+            
 )
             
 return
@@ -5148,6 +5065,8 @@ self
 .
 mitmproxy_recording_set
 =
+(
+                
 self
 .
 talos_json_config
@@ -5168,6 +5087,8 @@ get
 mitmproxy_recording_set
 '
 False
+)
+            
 )
             
 return
@@ -5252,6 +5173,7 @@ talos
 '
 mitmproxy
 '
+                                     
 '
 mitmproxy
 -
@@ -5913,14 +5835,6 @@ s
 src
 dest
 )
-)
-            
-parser
-.
-update_worst_log_and_tbpl_levels
-(
-CRITICAL
-TBPL_FAILURE
 )
     
 def

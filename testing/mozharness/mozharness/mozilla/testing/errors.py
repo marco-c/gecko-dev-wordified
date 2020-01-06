@@ -184,6 +184,8 @@ _mochitest_summary
 regex
 '
 :
+(
+        
 re
 .
 compile
@@ -232,6 +234,7 @@ d
 '
 '
 '
+)
 )
     
 '
@@ -386,6 +389,8 @@ reftest_summary
 regex
 '
 :
+(
+            
 re
 .
 compile
@@ -417,6 +422,7 @@ d
 '
 '
 '
+)
 )
         
 '
@@ -456,6 +462,8 @@ crashtest_summary
 regex
 '
 :
+(
+            
 re
 .
 compile
@@ -487,6 +495,7 @@ d
 '
 '
 '
+)
 )
         
 '
@@ -587,6 +596,8 @@ jsreftest_summary
 regex
 '
 :
+(
+            
 re
 .
 compile
@@ -618,6 +629,7 @@ d
 '
 '
 '
+)
 )
         
 '
@@ -1031,6 +1043,7 @@ harness_error
 full_regex
 '
 :
+            
 re
 .
 compile
@@ -1056,6 +1069,9 @@ CRASH
 *
 \
 |
+"
+                       
+"
 (
 application
 crashed
@@ -1070,6 +1086,9 @@ leaks
 |
 negative
 leaks
+"
+                       
+"
 caught
 !
 |
@@ -1112,6 +1131,7 @@ CRASH
 retry_regex
 '
 :
+            
 re
 .
 compile
@@ -1138,6 +1158,9 @@ DMError
 Connection
 to
 the
+"
+                       
+"
 other
 side
 was
@@ -1153,6 +1176,9 @@ program
 finished
 with
 exit
+"
+                       
+"
 code
 80
 |
@@ -1170,6 +1196,9 @@ PBConnectionLost
 |
 _dl_open
 :
+"
+                       
+"
 Assertion
 |
 Timeout
@@ -1343,6 +1372,7 @@ LogcatErrorList
 substr
 '
 :
+        
 '
 Fatal
 signal
@@ -1351,6 +1381,7 @@ signal
 SIGSEGV
 )
 '
+        
 '
 level
 '
@@ -1377,6 +1408,7 @@ crashed
 substr
 '
 :
+        
 '
 Fatal
 signal
@@ -1385,6 +1417,7 @@ signal
 SIGBUS
 )
 '
+        
 '
 level
 '
@@ -1411,12 +1444,14 @@ crashed
 substr
 '
 :
+        
 '
 [
 JavaScript
 Error
 :
 '
+        
 '
 level
 '
@@ -1429,16 +1464,19 @@ WARNING
 substr
 '
 :
+        
 '
 seccomp
 sandbox
 violation
 '
+        
 '
 level
 '
 :
 ERROR
+        
 '
 explanation
 '
