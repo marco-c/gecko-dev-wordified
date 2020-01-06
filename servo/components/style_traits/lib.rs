@@ -1047,7 +1047,11 @@ value
 .
 InvalidValue
 (
-String
+CompactCowStr
+<
+'
+i
+>
 )
 /
 /
