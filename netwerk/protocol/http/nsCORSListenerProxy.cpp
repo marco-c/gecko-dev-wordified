@@ -9171,7 +9171,7 @@ rv
 scriptError
 -
 >
-InitWithWindowID
+InitWithSanitizedSource
 (
 aMessage
 EmptyString

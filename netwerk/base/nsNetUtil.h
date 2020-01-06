@@ -612,6 +612,17 @@ nsIIOService
 to
 optimize
 callers
+nsresult
+NS_GetSanitizedURIStringFromURI
+(
+nsIURI
+*
+aUri
+nsAString
+&
+aSanitizedSpec
+)
+;
 /
 *
 *
