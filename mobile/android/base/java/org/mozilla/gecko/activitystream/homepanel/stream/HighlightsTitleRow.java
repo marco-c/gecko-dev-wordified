@@ -120,7 +120,7 @@ R
 ;
 public
 class
-HighlightsTitle
+HighlightsTitleRow
 extends
 StreamViewHolder
 {
@@ -137,7 +137,7 @@ layout
 activity_stream_main_highlightstitle
 ;
 public
-HighlightsTitle
+HighlightsTitleRow
 (
 final
 View
