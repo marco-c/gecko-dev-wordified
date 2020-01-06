@@ -234,6 +234,11 @@ _
 IntlIsPluralRules
 )
 \
+_
+(
+IntlIsRelativeTimeFormat
+)
+\
 \
 _
 (
