@@ -277,6 +277,10 @@ const
 float
 &
 aRate
+const
+bool
+&
+aIsChrome
 )
 override
 ;
@@ -477,6 +481,8 @@ SpeechTaskChild
 SpeechSynthesisUtterance
 *
 aUtterance
+bool
+aIsChrome
 )
 ;
 NS_IMETHOD

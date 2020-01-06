@@ -342,6 +342,10 @@ const
 float
 &
 aPitch
+const
+bool
+&
+aIsChrome
 )
 {
 MOZ_CRASH
@@ -717,11 +721,14 @@ SpeechTaskChild
 SpeechSynthesisUtterance
 *
 aUtterance
+bool
+aIsChrome
 )
 :
 nsSpeechTask
 (
 aUtterance
+aIsChrome
 )
 {
 }
