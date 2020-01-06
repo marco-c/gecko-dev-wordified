@@ -182,9 +182,6 @@ mOrigStreamListener
 "
 )
 ;
-nsresult
-rv
-=
 mTargetStreamListener
 -
 >
@@ -192,12 +189,6 @@ OnStartRequest
 (
 request
 aCtxt
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
@@ -247,9 +238,6 @@ mTargetStreamListener
 "
 )
 ;
-nsresult
-rv
-=
 mOrigStreamListener
 -
 >
@@ -258,12 +246,6 @@ OnStopRequest
 request
 aCtxt
 aStatus
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
