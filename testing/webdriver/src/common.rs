@@ -63,10 +63,10 @@ a52e
 [
 derive
 (
-RustcEncodable
-PartialEq
 Clone
 Debug
+PartialEq
+RustcEncodable
 )
 ]
 pub
@@ -133,9 +133,9 @@ to_json
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 pub
@@ -891,8 +891,8 @@ into
 [
 derive
 (
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub
@@ -1155,6 +1155,7 @@ Null
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
