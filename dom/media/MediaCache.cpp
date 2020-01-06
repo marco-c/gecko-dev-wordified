@@ -3332,6 +3332,10 @@ bool
 aIsPrivateBrowsing
 )
 :
+mMediaCache
+(
+nullptr
+)
 mClient
 (
 aClient
@@ -13011,7 +13015,7 @@ length
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -13051,7 +13055,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -13262,7 +13266,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
-gMediaCache
+mMediaCache
 mResourceID
 )
 ;
@@ -13306,7 +13310,7 @@ CacheClientNotifyPrincipalChanged
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -13515,7 +13519,7 @@ data
 chunkSize
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 AllocateAndWriteBlock
@@ -13565,7 +13569,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
-gMediaCache
+mMediaCache
 mResourceID
 )
 ;
@@ -13823,7 +13827,7 @@ get
 BLOCK_SIZE
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 AllocateAndWriteBlock
@@ -13938,7 +13942,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14001,7 +14005,7 @@ false
 mon
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -14036,7 +14040,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14091,7 +14095,7 @@ streams
 .
 mResourceID
 =
-gMediaCache
+mMediaCache
 -
 >
 AllocateResourceID
@@ -14134,7 +14138,7 @@ mChannelEnded
 =
 true
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -14147,7 +14151,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
-gMediaCache
+mMediaCache
 mResourceID
 )
 ;
@@ -14254,7 +14258,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14305,7 +14309,7 @@ Pin
 ;
 if
 (
-gMediaCache
+mMediaCache
 )
 {
 NS_ASSERTION
@@ -14319,7 +14323,7 @@ closed
 "
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 ReleaseStream
@@ -14327,7 +14331,7 @@ ReleaseStream
 this
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 MaybeShutdown
@@ -14419,7 +14423,7 @@ aIsTransportSeekable
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14476,7 +14480,7 @@ dealing
 with
 this
 stream
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -14495,7 +14499,7 @@ IsTransportSeekable
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14518,7 +14522,7 @@ AreAllStreamsForResourceSuspended
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14532,7 +14536,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
-gMediaCache
+mMediaCache
 mResourceID
 )
 ;
@@ -14674,7 +14678,7 @@ return
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14735,7 +14739,7 @@ Update
 (
 )
 .
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -14757,7 +14761,7 @@ mHasHadUpdate
 )
 return
 ;
-gMediaCache
+mMediaCache
 -
 >
 Update
@@ -14833,7 +14837,7 @@ s
 notify
 it
 .
-gMediaCache
+mMediaCache
 -
 >
 QueueSuspendedStatusUpdate
@@ -14841,7 +14845,7 @@ QueueSuspendedStatusUpdate
 mResourceID
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 ReleaseStreamBlocks
@@ -14874,7 +14878,7 @@ Pin
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14916,7 +14920,7 @@ become
 non
 -
 evictable
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -14935,7 +14939,7 @@ Unpin
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -14985,7 +14989,7 @@ block
 have
 become
 evictable
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -15004,7 +15008,7 @@ GetLength
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15029,7 +15033,7 @@ aOffset
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15057,7 +15061,7 @@ aOffset
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15085,7 +15089,7 @@ aOffset
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15122,7 +15126,7 @@ int64_t
 aOffset
 )
 {
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15278,7 +15282,7 @@ int64_t
 aOffset
 )
 {
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15560,7 +15564,7 @@ aMode
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15581,7 +15585,7 @@ mCurrentMode
 =
 aMode
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -15616,7 +15620,7 @@ allowed
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15637,7 +15641,7 @@ mPlaybackBytesPerSecond
 =
 aBytesPerSecond
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -15677,7 +15681,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15788,7 +15792,7 @@ this
 mStreamOffset
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 NoteSeek
@@ -15797,7 +15801,7 @@ this
 oldOffset
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -15854,7 +15858,7 @@ bThrottle
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15862,7 +15866,7 @@ GetReentrantMonitor
 )
 )
 ;
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -15882,7 +15886,7 @@ Tell
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -15930,7 +15934,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -16292,7 +16296,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
-gMediaCache
+mMediaCache
 mResourceID
 )
 ;
@@ -16542,7 +16546,7 @@ NS_ERROR_FAILURE
 continue
 ;
 }
-gMediaCache
+mMediaCache
 -
 >
 NoteBlockUsage
@@ -16595,7 +16599,7 @@ range
 nsresult
 rv
 =
-gMediaCache
+mMediaCache
 -
 >
 ReadCacheFile
@@ -16683,7 +16687,7 @@ may
 /
 have
 changed
-gMediaCache
+mMediaCache
 -
 >
 QueueUpdate
@@ -16766,7 +16770,7 @@ thread
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -16823,7 +16827,7 @@ aCount
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -16889,7 +16893,7 @@ changed
 after
 calling
 |
-gMediaCache
+mMediaCache
 -
 >
 ReadCacheFile
@@ -17241,7 +17245,7 @@ range
 nsresult
 rv
 =
-gMediaCache
+mMediaCache
 -
 >
 ReadCacheFile
@@ -17315,6 +17319,8 @@ mInitialized
 return
 NS_OK
 ;
+mMediaCache
+=
 MediaCache
 :
 :
@@ -17325,14 +17331,14 @@ GetMediaCache
 if
 (
 !
-gMediaCache
+mMediaCache
 )
 {
 return
 NS_ERROR_FAILURE
 ;
 }
-gMediaCache
+mMediaCache
 -
 >
 OpenStream
@@ -17419,7 +17425,7 @@ stream
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
@@ -17590,7 +17596,7 @@ stream
 offset
 is
 zero
-gMediaCache
+mMediaCache
 -
 >
 AddBlockOwnerAsReadahead
@@ -17646,7 +17652,7 @@ them
 ReentrantMonitorAutoEnter
 mon
 (
-gMediaCache
+mMediaCache
 -
 >
 GetReentrantMonitor
