@@ -2711,6 +2711,19 @@ result
 ;
 /
 /
+Bug
+1394785
+-
+ignore
+unstable
+test
+on
+OSX
+#
+ifndef
+XP_MACOSX
+/
+/
 Note
 the
 five
@@ -2872,3 +2885,5 @@ result
 }
 )
 ;
+#
+endif
