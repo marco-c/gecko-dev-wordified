@@ -6527,14 +6527,11 @@ PinchGestureInput
 :
 PINCHGESTURE_SENTINEL
 :
-default
-:
 MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
-gesture
-type
+value
 "
 )
 ;
