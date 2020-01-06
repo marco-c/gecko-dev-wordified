@@ -338,7 +338,10 @@ self
 font
 :
 :
+{
 XTextZoom
+MozScriptMinSize
+}
 ;
 pub
 use

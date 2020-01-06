@@ -9025,6 +9025,11 @@ MozLength
 :
 impl_style_coord
 "
+MozScriptMinSize
+"
+:
+impl_absolute_length
+"
 NonNegativeLengthOrPercentage
 "
 :
