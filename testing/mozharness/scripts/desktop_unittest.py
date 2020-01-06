@@ -4435,17 +4435,6 @@ chrome
 chrome
 "
 )
-                          
-(
-"
-jetpack
-.
-*
-"
-"
-jetpack
-"
-)
 ]
             
 "

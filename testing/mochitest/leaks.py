@@ -209,10 +209,8 @@ Remove
 log
 '
 when
-jetpack
-and
 clipboard
-are
+is
 gone
 and
 /

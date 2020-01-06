@@ -2274,7 +2274,7 @@ jsm
 /
 /
 Bug
-1351637
+1399216
 {
 file
 :
@@ -2287,11 +2287,9 @@ gre
 /
 modules
 /
-sdk
-/
-bootstrap
+HiddenFrame
 .
-js
+jsm
 "
 }
 ]
