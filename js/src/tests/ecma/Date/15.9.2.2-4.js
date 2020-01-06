@@ -171,11 +171,6 @@ Version
 *
 /
 var
-VERSION
-=
-9706
-;
-var
 SECTION
 =
 "

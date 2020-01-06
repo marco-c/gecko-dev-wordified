@@ -140,15 +140,6 @@ js
 "
 ;
 var
-VERSION
-=
-"
-JS_1
-.
-3
-"
-;
-var
 TITLE
 =
 "

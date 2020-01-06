@@ -213,13 +213,6 @@ SECTION
 1
 "
 var
-VERSION
-=
-"
-ECMA_1
-"
-;
-var
 TITLE
 =
 "

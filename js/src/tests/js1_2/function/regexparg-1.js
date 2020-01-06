@@ -151,15 +151,6 @@ JS_1
 "
 ;
 var
-VERSION
-=
-"
-JS_1
-.
-2
-"
-;
-var
 TITLE
 =
 "

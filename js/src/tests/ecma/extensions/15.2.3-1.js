@@ -181,13 +181,6 @@ SECTION
 3
 "
 ;
-var
-VERSION
-=
-"
-ECMA_2
-"
-;
 writeHeaderToLog
 (
 SECTION

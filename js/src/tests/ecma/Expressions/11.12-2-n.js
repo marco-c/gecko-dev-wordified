@@ -208,13 +208,6 @@ SECTION
 n
 "
 ;
-var
-VERSION
-=
-"
-ECMA_1
-"
-;
 writeHeaderToLog
 (
 SECTION

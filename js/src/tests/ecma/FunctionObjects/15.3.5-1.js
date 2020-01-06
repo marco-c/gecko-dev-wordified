@@ -387,13 +387,6 @@ SECTION
 "
 ;
 var
-VERSION
-=
-"
-ECMA_1
-"
-;
-var
 TITLE
 =
 "

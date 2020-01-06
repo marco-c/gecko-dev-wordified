@@ -212,13 +212,6 @@ proto_3
 "
 ;
 var
-VERSION
-=
-"
-JS1_3
-"
-;
-var
 TITLE
 =
 "

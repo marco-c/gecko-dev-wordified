@@ -149,13 +149,6 @@ js
 "
 ;
 var
-VERSION
-=
-"
-ECMA_2
-"
-;
-var
 TITLE
 =
 "

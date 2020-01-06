@@ -148,13 +148,6 @@ october
 *
 /
 var
-VERSION
-=
-"
-0697
-"
-;
-var
 SECTION
 =
 "

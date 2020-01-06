@@ -153,13 +153,6 @@ september
 *
 /
 var
-VERSION
-=
-"
-ECMA_1
-"
-;
-var
 SECTION
 =
 "

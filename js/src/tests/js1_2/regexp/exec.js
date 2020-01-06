@@ -136,14 +136,6 @@ JavaScript
 '
 ;
 var
-VERSION
-=
-'
-no
-version
-'
-;
-var
 TITLE
 =
 '

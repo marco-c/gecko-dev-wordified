@@ -2467,13 +2467,6 @@ value
 /
 global
 .
-VERSION
-=
-"
-"
-;
-global
-.
 BUGNUMBER
 =
 "

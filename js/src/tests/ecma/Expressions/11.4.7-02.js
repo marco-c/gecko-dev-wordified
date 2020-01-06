@@ -140,13 +140,6 @@ SECTION
 "
 ;
 var
-VERSION
-=
-"
-ECMA
-"
-;
-var
 TITLE
 =
 "
