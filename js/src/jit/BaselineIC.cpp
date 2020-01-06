@@ -16716,12 +16716,12 @@ nobj
 /
 /
 XXX
-CopyBoxedOrUnboxedDenseElements
-(
-cx
 nobj
+-
+>
+initDenseElements
+(
 arr
-0
 0
 length
 )
