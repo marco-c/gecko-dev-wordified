@@ -14417,11 +14417,6 @@ bar
 PersonalToolbar
 "
 "
-addon
--
-bar
-"
-"
 TabsToolbar
 "
 "
@@ -15871,11 +15866,6 @@ bar
 "
 "
 PersonalToolbar
-"
-"
-addon
--
-bar
 "
 "
 TabsToolbar
