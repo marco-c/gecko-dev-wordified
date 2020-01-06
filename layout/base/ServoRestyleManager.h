@@ -1271,6 +1271,11 @@ ProcessPendingRestyles
 (
 )
 ;
+void
+ProcessAllPendingAttributeAndStateInvalidations
+(
+)
+;
 /
 *
 *
