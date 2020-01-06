@@ -124,6 +124,15 @@ jscompartmentinlines
 .
 h
 "
+#
+include
+"
+jit
+/
+JitCompartment
+.
+h
+"
 using
 namespace
 js
