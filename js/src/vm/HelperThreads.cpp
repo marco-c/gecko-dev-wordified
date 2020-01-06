@@ -1119,11 +1119,12 @@ jit
 IonBuilder
 *
 builder
+const
+AutoLockHelperThreadState
+&
+lock
 )
 {
-AutoLockHelperThreadState
-lock
-;
 if
 (
 !
