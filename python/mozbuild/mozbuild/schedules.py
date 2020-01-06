@@ -249,6 +249,15 @@ tests
 -
 wdspec
 '
+    
+#
+Thunderbird
+test
+suites
+    
+'
+mozmill
+'
 ]
 EXCLUSIVE_COMPONENTS
 =
