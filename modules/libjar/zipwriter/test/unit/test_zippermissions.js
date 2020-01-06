@@ -247,7 +247,7 @@ createUnique
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 DIRECTORY_TYPE
 0o755

@@ -961,7 +961,7 @@ parent_directory
 "
 Ci
 .
-nsILocalFile
+nsIFile
 profileDir
 )
 ;

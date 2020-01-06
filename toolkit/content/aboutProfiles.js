@@ -608,7 +608,7 @@ local
 1
 "
 "
-nsILocalFile
+nsIFile
 "
 "
 initWithPath

@@ -871,7 +871,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 gBookmarksFileNew

@@ -883,7 +883,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 0x02
 |

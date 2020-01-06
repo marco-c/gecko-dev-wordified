@@ -560,7 +560,7 @@ file
 *
 *
 param
-nsILocalFile
+nsIFile
 file
 *
 The

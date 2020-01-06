@@ -2161,7 +2161,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 rootHashesFile

@@ -826,7 +826,7 @@ aFile
 (
 nsIDOMBlob
 /
-nsILocalFile
+nsIFile
 )
 *
 the
@@ -916,7 +916,7 @@ aFile
 instanceof
 Ci
 .
-nsILocalFile
+nsIFile
 |
 |
 aFile
@@ -1111,7 +1111,7 @@ aFile
 instanceof
 Ci
 .
-nsILocalFile
+nsIFile
 )
 {
 if

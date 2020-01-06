@@ -328,13 +328,13 @@ interfaces
 nsIAppShellService
 ;
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIFileURL
@@ -557,7 +557,7 @@ LOCAL_FILE_CONTRACTID
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 dir
@@ -643,7 +643,7 @@ NS_ERROR_NO_INTERFACE
 /
 *
 attribute
-nsILocalFile
+nsIFile
 displayDirectory
 ;
 *
@@ -669,7 +669,7 @@ clone
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -694,7 +694,7 @@ clone
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -734,7 +734,7 @@ mDisplaySpecialDirectory
 *
 readonly
 attribute
-nsILocalFile
+nsIFile
 file
 ;
 *

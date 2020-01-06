@@ -339,7 +339,7 @@ JSON
 .
 *
 param
-nsILocalFile
+nsIFile
 file
 *
 The
@@ -462,7 +462,7 @@ file
 *
 *
 param
-nsILocalFile
+nsIFile
 file
 *
 The

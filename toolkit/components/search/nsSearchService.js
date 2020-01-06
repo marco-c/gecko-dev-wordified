@@ -9189,7 +9189,7 @@ param
 aLocation
 *
 A
-nsILocalFile
+nsIFile
 or
 nsIURI
 object
@@ -9279,7 +9279,7 @@ aLocation
 instanceof
 Ci
 .
-nsILocalFile
+nsIFile
 )
 {
 if
@@ -24805,7 +24805,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -29031,7 +29031,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

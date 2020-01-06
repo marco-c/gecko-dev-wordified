@@ -443,7 +443,7 @@ handlers
 application
 *
 -
-nsILocalFile
+nsIFile
 stores
 the
 current

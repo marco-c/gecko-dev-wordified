@@ -65,7 +65,7 @@ found
 *
 *
 return
-nsILocalFile
+nsIFile
 of
 the
 manifest
@@ -113,7 +113,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

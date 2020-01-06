@@ -1981,7 +1981,7 @@ TmpD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 _

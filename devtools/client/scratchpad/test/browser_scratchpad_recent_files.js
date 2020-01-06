@@ -1531,7 +1531,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 0x02
 |
@@ -1563,7 +1563,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 true
 fileImported

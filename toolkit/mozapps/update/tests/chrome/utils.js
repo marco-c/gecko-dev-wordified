@@ -3244,7 +3244,7 @@ it
 *
 *
 return
-nsILocalFile
+nsIFile
 for
 the
 continue
@@ -3289,7 +3289,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -5052,7 +5052,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

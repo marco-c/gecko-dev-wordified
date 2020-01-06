@@ -594,7 +594,7 @@ file
 *
 param
 {
-nsILocalFile
+nsIFile
 }
 file
 *

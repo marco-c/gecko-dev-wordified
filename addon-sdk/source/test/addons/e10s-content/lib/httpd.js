@@ -12329,7 +12329,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 NS_ASSERT
@@ -13518,7 +13518,7 @@ of
 path
 -
 >
-nsILocalFile
+nsIFile
 mappings
 for
 *
@@ -16070,7 +16070,7 @@ generated
 param
 file
 :
-nsILocalFile
+nsIFile
 *
 the
 file
@@ -18003,7 +18003,7 @@ stream
 *
 Returns
 the
-nsILocalFile
+nsIFile
 which
 corresponds
 to
@@ -18098,7 +18098,7 @@ etc
 )
 *
 returns
-nsILocalFile
+nsIFile
 *
 the
 file
@@ -20687,7 +20687,7 @@ a
 clone
 of
 the
-nsILocalFile
+nsIFile
 value
 if
 value
@@ -20725,7 +20725,7 @@ mapped
 param
 value
 :
-nsILocalFile
+nsIFile
 *
 the
 file
@@ -20785,7 +20785,7 @@ a
 clone
 of
 the
-nsILocalFile
+nsIFile
 mapped
 to
 key
@@ -20814,7 +20814,7 @@ file
 maps
 *
 returns
-nsILocalFile
+nsIFile
 *
 a
 clone
@@ -32433,7 +32433,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 lp
@@ -32562,7 +32562,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 lp

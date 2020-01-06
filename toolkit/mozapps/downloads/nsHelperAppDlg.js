@@ -2604,7 +2604,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 /
@@ -2929,7 +2929,7 @@ non
 empty
 *
 return
-nsILocalFile
+nsIFile
 *
 the
 created
@@ -7337,7 +7337,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 var

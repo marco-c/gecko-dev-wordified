@@ -163,13 +163,13 @@ interfaces
 nsITreeView
 ;
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIFile
@@ -224,7 +224,7 @@ NS_LOCAL_FILE_CONTRACTID
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 var
@@ -3496,7 +3496,7 @@ NS_LOCAL_FILE_CONTRACTID
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -4732,7 +4732,7 @@ clone
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 }

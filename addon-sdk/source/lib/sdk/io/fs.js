@@ -189,7 +189,7 @@ heritage
 )
 ;
 const
-nsILocalFile
+nsIFile
 =
 CC
 (
@@ -205,7 +205,7 @@ local
 1
 "
 "
-nsILocalFile
+nsIFile
 "
 "
 initWithPath
@@ -827,7 +827,7 @@ let
 fd
 =
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -1892,7 +1892,7 @@ let
 file
 =
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -2452,7 +2452,7 @@ let
 source
 =
 new
-nsILocalFile
+nsIFile
 (
 oldPath
 )
@@ -2461,7 +2461,7 @@ let
 target
 =
 new
-nsILocalFile
+nsIFile
 (
 newPath
 )
@@ -2579,7 +2579,7 @@ path
 {
 return
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -2938,7 +2938,7 @@ try
 file
 =
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -3582,7 +3582,7 @@ path
 {
 return
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -3659,7 +3659,7 @@ path
 {
 return
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -3861,7 +3861,7 @@ mode
 try
 {
 return
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -4024,7 +4024,7 @@ return
 toArray
 (
 new
-nsILocalFile
+nsIFile
 (
 path
 )
@@ -4377,7 +4377,7 @@ Mode
 (
 aMode
 )
-nsILocalFile
+nsIFile
 (
 aPath
 )

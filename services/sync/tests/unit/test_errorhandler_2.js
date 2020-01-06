@@ -354,7 +354,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 logfile
@@ -407,7 +407,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 )
 ;

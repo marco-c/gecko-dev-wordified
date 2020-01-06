@@ -144,11 +144,11 @@ methods
 :
 *
 *
-nsILocalFile
+nsIFile
 *
 createNiceUniqueFile
 (
-nsILocalFile
+nsIFile
 aLocalFile
 )
 *
@@ -291,7 +291,7 @@ expected
 param
 aTemplateFile
 *
-nsILocalFile
+nsIFile
 whose
 leaf
 name
@@ -319,7 +319,7 @@ new
 instance
 of
 an
-nsILocalFile
+nsIFile
 object
 pointing
 to
@@ -381,7 +381,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 var

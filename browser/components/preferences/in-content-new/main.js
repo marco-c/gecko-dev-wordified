@@ -640,7 +640,7 @@ handlers
 application
 *
 -
-nsILocalFile
+nsIFile
 stores
 the
 current
@@ -17590,7 +17590,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 case

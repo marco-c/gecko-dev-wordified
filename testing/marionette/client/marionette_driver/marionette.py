@@ -6756,7 +6756,7 @@ values
 are
 :
                            
-nsILocalFile
+nsIFile
 and
 nsIPrefLocalizedString
 .

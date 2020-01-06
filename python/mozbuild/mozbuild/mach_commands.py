@@ -8792,7 +8792,7 @@ seperators
 because
         
 #
-nsILocalFile
+nsIFile
 cannot
 open
 the

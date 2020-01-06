@@ -1714,7 +1714,7 @@ NORMAL_FILE_TYPE
 =
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 ;
@@ -1723,7 +1723,7 @@ DIRECTORY_TYPE
 =
 Ci
 .
-nsILocalFile
+nsIFile
 .
 DIRECTORY_TYPE
 ;
@@ -2212,7 +2212,7 @@ get
 KEY_EXECUTABLE
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -3184,7 +3184,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 FileUtils
@@ -3495,7 +3495,7 @@ createUnique
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 DIRECTORY_TYPE
 FileUtils
@@ -17643,7 +17643,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 FileUtils

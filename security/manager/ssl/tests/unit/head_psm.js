@@ -1737,7 +1737,7 @@ GreBinD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -3558,7 +3558,7 @@ CurProcD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 utilBin
@@ -3617,7 +3617,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 while
@@ -4131,7 +4131,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 certDir
@@ -6637,7 +6637,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 libraryFile

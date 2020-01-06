@@ -1872,13 +1872,13 @@ interfaces
 nsIFile
 ;
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIFileURL
@@ -2049,7 +2049,7 @@ NS_LOCAL_FILE_CONTRACTID
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 listFile
@@ -2519,7 +2519,7 @@ data
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 .
 persistentDescriptor
@@ -2620,7 +2620,7 @@ base_data
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 .
 persistentDescriptor

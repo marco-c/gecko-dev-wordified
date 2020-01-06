@@ -6687,7 +6687,7 @@ file
 *
 *
 param
-nsILocalFile
+nsIFile
 aFile
 *
 The
@@ -7216,7 +7216,7 @@ textbox
 *
 *
 param
-nsILocalFile
+nsIFile
 aFile
 *
 The
@@ -7836,7 +7836,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -8194,11 +8194,11 @@ string
 *
 *
 param
-nsILocalFile
+nsIFile
 aFile
 *
 The
-nsILocalFile
+nsIFile
 we
 want
 to
@@ -9236,7 +9236,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -9606,7 +9606,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

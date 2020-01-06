@@ -5323,7 +5323,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 PERMS_FILE
@@ -8386,7 +8386,7 @@ maintSvcDir
 *
 Get
 the
-nsILocalFile
+nsIFile
 for
 a
 Windows
@@ -8415,7 +8415,7 @@ folder
 *
 return
 The
-nsILocalFile
+nsIFile
 for
 the
 Windows
@@ -8631,7 +8631,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 dir
@@ -9403,7 +9403,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 updatesDir
@@ -9477,7 +9477,7 @@ ULibDir
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 dir
@@ -9693,7 +9693,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 updatesDir
@@ -15115,7 +15115,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 ln
@@ -16295,7 +16295,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 launchBin
@@ -25589,7 +25589,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 PERMS_DIRECTORY
@@ -27453,7 +27453,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

@@ -222,7 +222,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 true
 fileImported
@@ -343,7 +343,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 true
 true
@@ -454,7 +454,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 false
 true

@@ -348,7 +348,7 @@ string
 param
 file
 :
-nsILocalFile
+nsIFile
 *
 the
 file

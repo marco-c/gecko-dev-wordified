@@ -2549,7 +2549,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 modulesFile
@@ -6944,7 +6944,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -7527,7 +7527,7 @@ dir
 *
 *
 return
-nsILocalFile
+nsIFile
 of
 the
 temporary
@@ -7618,7 +7618,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -7646,7 +7646,7 @@ minidumps
 *
 *
 return
-nsILocalFile
+nsIFile
 of
 the
 minidump
@@ -7743,7 +7743,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -7781,7 +7781,7 @@ the
 directory
 as
 an
-nsILocalFile
+nsIFile
 .
 *
 *
@@ -7801,7 +7801,7 @@ change
 .
 *
 return
-nsILocalFile
+nsIFile
 of
 the
 profile
@@ -7921,7 +7921,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

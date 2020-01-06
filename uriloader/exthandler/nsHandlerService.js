@@ -4492,7 +4492,7 @@ file
 *
 returns
 {
-nsILocalFile
+nsIFile
 }
 the
 file
@@ -4536,7 +4536,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 try
@@ -4592,7 +4592,7 @@ is
 what
 /
 /
-nsILocalFile
+nsIFile
 :
 :
 initWithPath

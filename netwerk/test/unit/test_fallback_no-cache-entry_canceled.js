@@ -675,7 +675,7 @@ parent_directory
 "
 Ci
 .
-nsILocalFile
+nsIFile
 do_get_profile
 (
 )

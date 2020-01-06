@@ -377,7 +377,7 @@ input
 URI
 into
 a
-nsILocalFile
+nsIFile
 (
 actually
 the
@@ -513,7 +513,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -822,7 +822,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 tmpdir
@@ -1557,7 +1557,7 @@ a
 path
 of
 a
-nsILocalFile
+nsIFile
 .
 *
 /
@@ -1642,7 +1642,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 targetFile

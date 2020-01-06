@@ -2660,7 +2660,7 @@ return
 Promise
 <
 ?
-nsILocalFile
+nsIFile
 >
 }
 *

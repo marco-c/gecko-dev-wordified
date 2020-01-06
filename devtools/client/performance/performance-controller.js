@@ -2445,7 +2445,7 @@ data
 .
 *
 param
-nsILocalFile
+nsIFile
 file
 *
 The
@@ -2787,7 +2787,7 @@ loaded
 *
 *
 param
-nsILocalFile
+nsIFile
 file
 *
 The

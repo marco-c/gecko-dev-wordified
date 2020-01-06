@@ -7837,7 +7837,7 @@ URL
 param
 file
 *
-nsILocalFile
+nsIFile
 representing
 a
 static

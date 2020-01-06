@@ -2946,7 +2946,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 PERMS_FILE

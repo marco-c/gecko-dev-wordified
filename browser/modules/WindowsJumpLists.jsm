@@ -2271,7 +2271,7 @@ XREExeF
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 var
