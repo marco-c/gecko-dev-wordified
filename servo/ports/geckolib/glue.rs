@@ -2233,6 +2233,16 @@ assert_traversal_flags_match
 (
 )
 ;
+specified
+:
+:
+font
+:
+:
+assert_variant_east_asian_matches
+(
+)
+;
 /
 /
 Initialize
