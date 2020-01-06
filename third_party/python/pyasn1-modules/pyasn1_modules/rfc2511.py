@@ -1,5 +1,50 @@
 #
 #
+This
+file
+is
+part
+of
+pyasn1
+-
+modules
+software
+.
+#
+#
+Copyright
+(
+c
+)
+2005
+-
+2017
+Ilya
+Etingof
+<
+etingof
+gmail
+.
+com
+>
+#
+License
+:
+http
+:
+/
+/
+pyasn1
+.
+sf
+.
+net
+/
+license
+.
+html
+#
+#
 X
 .
 509
@@ -44,18 +89,6 @@ with
 OpenSSL
 #
 from
-pyasn1
-.
-type
-import
-tag
-namedtype
-namedval
-univ
-constraint
-char
-useful
-from
 pyasn1_modules
 .
 rfc2459
@@ -67,7 +100,12 @@ import
 rfc2315
 MAX
 =
-16
+float
+(
+'
+inf
+'
+)
 id_pkix
 =
 univ
@@ -407,6 +445,7 @@ univ
 OctetString
 )
 :
+    
 pass
 #
 end
@@ -423,6 +462,7 @@ char
 UTF8String
 )
 :
+    
 pass
 class
 ProtocolEncrKey
@@ -430,6 +470,7 @@ ProtocolEncrKey
 SubjectPublicKeyInfo
 )
 :
+    
 pass
 class
 CertId
@@ -480,6 +521,7 @@ OldCertId
 CertId
 )
 :
+    
 pass
 class
 KeyGenParameters
@@ -489,6 +531,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 EncryptedValue
@@ -519,6 +562,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -549,6 +593,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -581,6 +626,7 @@ BitString
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -611,6 +657,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -643,6 +690,7 @@ OctetString
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -718,6 +766,7 @@ EnvelopedData
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -765,6 +814,7 @@ EncryptedKey
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -795,6 +845,7 @@ KeyGenParameters
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -819,6 +870,7 @@ NamedType
 '
 archiveRemGenPrivKey
 '
+                            
 univ
 .
 Boolean
@@ -872,6 +924,7 @@ univ
 .
 Integer
 (
+            
 namedValues
 =
 namedval
@@ -942,6 +995,7 @@ NamedType
 '
 action
 '
+                            
 univ
 .
 Integer
@@ -988,6 +1042,7 @@ SinglePubInfo
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1009,6 +1064,7 @@ char
 UTF8String
 )
 :
+    
 pass
 class
 RegToken
@@ -1018,6 +1074,7 @@ char
 UTF8String
 )
 :
+    
 pass
 class
 SubsequentMessage
@@ -1073,6 +1130,7 @@ NamedType
 '
 thisMessage
 '
+                            
 univ
 .
 BitString
@@ -1111,6 +1169,7 @@ SubsequentMessage
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1135,6 +1194,7 @@ NamedType
 '
 dhMAC
 '
+                            
 univ
 .
 BitString
@@ -1293,6 +1353,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 authInfo
 '
@@ -1300,16 +1361,19 @@ univ
 .
 Choice
 (
+                
 componentType
 =
 namedtype
 .
 NamedTypes
 (
+                    
 namedtype
 .
 NamedType
 (
+                        
 '
 sender
 '
@@ -1334,7 +1398,9 @@ tagFormatSimple
 0
 )
 )
+                    
 )
+                    
 namedtype
 .
 NamedType
@@ -1346,8 +1412,11 @@ PKMACValue
 (
 )
 )
+                
 )
+            
 )
+        
 )
         
 namedtype
@@ -1392,6 +1461,7 @@ POPOSigningKeyInput
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1459,6 +1529,7 @@ NamedType
 '
 raVerified
 '
+                            
 univ
 .
 Null
@@ -1497,6 +1568,7 @@ POPOSigningKey
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1527,6 +1599,7 @@ POPOPrivKey
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1557,6 +1630,7 @@ POPOPrivKey
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1628,6 +1702,7 @@ OptionalNamedType
 '
 notBefore
 '
+                                    
 Time
 (
 )
@@ -1658,6 +1733,7 @@ OptionalNamedType
 '
 notAfter
 '
+                                    
 Time
 (
 )
@@ -1680,7 +1756,7 @@ tagFormatSimple
 )
 )
 )
-	
+    
 )
 class
 CertTemplate
@@ -1711,6 +1787,7 @@ Version
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1743,6 +1820,7 @@ Integer
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1773,6 +1851,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1803,6 +1882,7 @@ Name
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1833,6 +1913,7 @@ OptionalValidity
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1863,6 +1944,7 @@ Name
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1893,6 +1975,7 @@ SubjectPublicKeyInfo
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1923,6 +2006,7 @@ UniqueIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1953,6 +2037,7 @@ UniqueIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1983,6 +2068,7 @@ Extensions
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1999,7 +2085,7 @@ tagFormatConstructed
 )
 )
 )
-	
+    
 )
 class
 CertRequest
@@ -2054,7 +2140,7 @@ Controls
 (
 )
 )
-	
+    
 )
 class
 CertReq
@@ -2062,6 +2148,7 @@ CertReq
 CertRequest
 )
 :
+    
 pass
 class
 CertReqMsg
@@ -2117,10 +2204,13 @@ SequenceOf
 componentType
 =
 AttributeTypeAndValue
+(
+)
 )
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -2132,7 +2222,7 @@ MAX
 )
 )
 )
-	
+    
 )
 class
 CertReqMessages

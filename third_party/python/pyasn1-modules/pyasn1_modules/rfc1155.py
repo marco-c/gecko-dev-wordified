@@ -1,5 +1,50 @@
 #
 #
+This
+file
+is
+part
+of
+pyasn1
+-
+modules
+software
+.
+#
+#
+Copyright
+(
+c
+)
+2005
+-
+2017
+Ilya
+Etingof
+<
+etingof
+gmail
+.
+com
+>
+#
+License
+:
+http
+:
+/
+/
+pyasn1
+.
+sf
+.
+net
+/
+license
+.
+html
+#
+#
 SNMPv1
 message
 syntax
@@ -54,7 +99,6 @@ type
 import
 univ
 namedtype
-namedval
 tag
 constraint
 class
@@ -65,6 +109,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 SimpleSyntax
@@ -137,7 +182,7 @@ Null
 (
 )
 )
-        
+    
 )
 class
 IpAddress
@@ -171,7 +216,7 @@ tag
 tagFormatSimple
 0
 )
-        
+    
 )
     
 subtypeSpec
@@ -189,7 +234,7 @@ ValueSizeConstraint
         
 4
 4
-        
+    
 )
 class
 NetworkAddress
@@ -218,7 +263,7 @@ IpAddress
 (
 )
 )
-        
+    
 )
 class
 Counter
@@ -252,7 +297,7 @@ tag
 tagFormatSimple
 1
 )
-        
+    
 )
     
 subtypeSpec
@@ -270,7 +315,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Gauge
@@ -304,7 +349,7 @@ tag
 tagFormatSimple
 2
 )
-        
+    
 )
     
 subtypeSpec
@@ -322,7 +367,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 TimeTicks
@@ -356,7 +401,7 @@ tag
 tagFormatSimple
 3
 )
-        
+    
 )
     
 subtypeSpec
@@ -374,7 +419,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Opaque
@@ -408,7 +453,7 @@ tag
 tagFormatSimple
 4
 )
-        
+    
 )
 class
 ApplicationSyntax
@@ -485,7 +530,7 @@ Opaque
 (
 )
 )
-        
+    
 )
 class
 ObjectSyntax
@@ -528,5 +573,5 @@ ApplicationSyntax
 (
 )
 )
-        
+    
 )

@@ -1,5 +1,50 @@
 #
 #
+This
+file
+is
+part
+of
+pyasn1
+-
+modules
+software
+.
+#
+#
+Copyright
+(
+c
+)
+2005
+-
+2017
+Ilya
+Etingof
+<
+etingof
+gmail
+.
+com
+>
+#
+License
+:
+http
+:
+/
+/
+pyasn1
+.
+sf
+.
+net
+/
+license
+.
+html
+#
+#
 SNMPv2c
 message
 syntax
@@ -35,7 +80,6 @@ type
 import
 univ
 namedtype
-namedval
 tag
 constraint
 class
@@ -63,7 +107,7 @@ ValueRangeConstraint
 -
 2147483648
 2147483647
-        
+    
 )
 class
 Integer32
@@ -90,7 +134,7 @@ ValueRangeConstraint
 -
 2147483648
 2147483647
-        
+    
 )
 class
 OctetString
@@ -116,7 +160,7 @@ ValueSizeConstraint
         
 0
 65535
-        
+    
 )
 class
 IpAddress
@@ -150,7 +194,7 @@ tag
 tagFormatSimple
 0x00
 )
-        
+    
 )
     
 subtypeSpec
@@ -168,7 +212,7 @@ ValueSizeConstraint
         
 4
 4
-        
+    
 )
 class
 Counter32
@@ -202,7 +246,7 @@ tag
 tagFormatSimple
 0x01
 )
-        
+    
 )
     
 subtypeSpec
@@ -220,7 +264,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Gauge32
@@ -254,7 +298,7 @@ tag
 tagFormatSimple
 0x02
 )
-        
+    
 )
     
 subtypeSpec
@@ -272,7 +316,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Unsigned32
@@ -306,7 +350,7 @@ tag
 tagFormatSimple
 0x02
 )
-        
+    
 )
     
 subtypeSpec
@@ -324,7 +368,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 TimeTicks
@@ -358,7 +402,7 @@ tag
 tagFormatSimple
 0x03
 )
-        
+    
 )
     
 subtypeSpec
@@ -376,7 +420,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Opaque
@@ -410,7 +454,7 @@ tag
 tagFormatSimple
 0x04
 )
-        
+    
 )
 class
 Counter64
@@ -444,7 +488,7 @@ tag
 tagFormatSimple
 0x06
 )
-        
+    
 )
     
 subtypeSpec
@@ -462,7 +506,7 @@ ValueRangeConstraint
         
 0
 18446744073709551615
-        
+    
 )
 class
 Bits
@@ -472,6 +516,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 ObjectName
@@ -481,6 +526,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 SimpleSyntax
@@ -541,7 +587,7 @@ ObjectIdentifier
 (
 )
 )
-        
+    
 )
 class
 ApplicationSyntax
@@ -630,11 +676,13 @@ Counter64
 (
 )
 )
+        
 #
 This
 conflicts
 with
 Counter32
+        
 #
 namedtype
 .
@@ -665,7 +713,7 @@ Gauge32
 (
 )
 )
-        
+    
 )
 #
 BITS
@@ -712,5 +760,5 @@ ApplicationSyntax
 (
 )
 )
-        
+    
 )

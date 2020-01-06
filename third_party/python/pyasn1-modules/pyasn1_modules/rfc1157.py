@@ -1,5 +1,50 @@
 #
 #
+This
+file
+is
+part
+of
+pyasn1
+-
+modules
+software
+.
+#
+#
+Copyright
+(
+c
+)
+2005
+-
+2017
+Ilya
+Etingof
+<
+etingof
+gmail
+.
+com
+>
+#
+License
+:
+http
+:
+/
+/
+pyasn1
+.
+sf
+.
+net
+/
+license
+.
+html
+#
+#
 SNMPv1
 message
 syntax
@@ -56,7 +101,6 @@ univ
 namedtype
 namedval
 tag
-constraint
 from
 pyasn1_modules
 import
@@ -85,7 +129,7 @@ version
 '
 0
 )
-        
+    
 )
     
 defaultValue
@@ -99,6 +143,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 RequestID
@@ -108,6 +153,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 ErrorStatus
@@ -166,7 +212,7 @@ genErr
 '
 5
 )
-        
+    
 )
 class
 ErrorIndex
@@ -176,6 +222,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 VarBind
@@ -220,7 +267,7 @@ ObjectSyntax
 (
 )
 )
-        
+    
 )
 class
 VarBindList
@@ -307,7 +354,7 @@ VarBindList
 (
 )
 )
-        
+    
 )
 class
 GetRequestPDU
@@ -337,7 +384,7 @@ tag
 tagFormatConstructed
 0
 )
-        
+    
 )
 class
 GetNextRequestPDU
@@ -367,7 +414,7 @@ tag
 tagFormatConstructed
 1
 )
-        
+    
 )
 class
 GetResponsePDU
@@ -397,7 +444,7 @@ tag
 tagFormatConstructed
 2
 )
-        
+    
 )
 class
 SetRequestPDU
@@ -427,7 +474,7 @@ tag
 tagFormatConstructed
 3
 )
-        
+    
 )
 class
 TrapPDU
@@ -492,6 +539,7 @@ Integer
 .
 clone
 (
+            
 namedValues
 =
 namedval
@@ -522,6 +570,7 @@ linkUp
 '
 3
 )
+                                             
 (
 '
 authenticationFailure
@@ -534,6 +583,7 @@ egpNeighborLoss
 '
 5
 )
+                                             
 (
 '
 enterpriseSpecific
@@ -589,7 +639,7 @@ VarBindList
 (
 )
 )
-        
+    
 )
 class
 Pdus
@@ -676,7 +726,7 @@ TrapPDU
 (
 )
 )
-        
+    
 )
 class
 Message
@@ -729,5 +779,5 @@ Pdus
 (
 )
 )
-        
+    
 )
