@@ -1221,6 +1221,10 @@ waiveInterposition
 (
 false
 )
+addonCallInterposition
+(
+false
+)
 allowCPOWs
 (
 false
