@@ -97,7 +97,7 @@ gecko
 .
 telemetry
 .
-TelemetryPing
+TelemetryOutgoingPing
 ;
 import
 java
@@ -123,7 +123,7 @@ Builder
 for
 {
 link
-TelemetryPing
+TelemetryOutgoingPing
 }
 instances
 .
@@ -225,7 +225,7 @@ final
 ExtendedJSONObject
 payload
 ;
-private
+protected
 final
 String
 docID
@@ -337,7 +337,7 @@ getMandatoryFields
 )
 ;
 public
-TelemetryPing
+TelemetryOutgoingPing
 build
 (
 )
@@ -348,7 +348,7 @@ validatePayload
 ;
 return
 new
-TelemetryPing
+TelemetryOutgoingPing
 (
 serverPath
 payload

@@ -137,15 +137,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoApp
 ;
 import
@@ -206,7 +197,7 @@ gecko
 .
 telemetry
 .
-TelemetryPing
+TelemetryOutgoingPing
 ;
 import
 org
@@ -284,7 +275,7 @@ Builds
 a
 {
 link
-TelemetryPing
+TelemetryOutgoingPing
 }
 representing
 a

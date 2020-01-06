@@ -135,6 +135,9 @@ boolean
 isReadyToUpload
 (
 final
+Context
+applicationContext
+final
 TelemetryPingStore
 store
 )

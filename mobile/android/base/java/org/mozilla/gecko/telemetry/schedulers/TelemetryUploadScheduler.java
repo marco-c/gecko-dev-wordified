@@ -256,6 +256,8 @@ TelemetryUploadScheduler
 boolean
 isReadyToUpload
 (
+Context
+applicationContext
 TelemetryPingStore
 store
 )
