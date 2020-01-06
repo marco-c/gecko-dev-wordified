@@ -262,6 +262,9 @@ nsID
 >
 &
 aDeletedBodyIdListOut
+int64_t
+*
+aDeletedPaddingSizeOut
 )
 ;
 /
@@ -400,6 +403,9 @@ nsID
 >
 &
 aDeletedBodyIdListOut
+int64_t
+*
+aDeletedPaddingSizeOut
 )
 ;
 nsresult
@@ -424,6 +430,9 @@ nsID
 >
 &
 aDeletedBodyIdListOut
+int64_t
+*
+aDeletedPaddingSizeOut
 bool
 *
 aSuccessOut
