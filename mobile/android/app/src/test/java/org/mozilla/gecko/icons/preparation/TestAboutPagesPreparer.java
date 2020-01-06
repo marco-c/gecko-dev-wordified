@@ -152,9 +152,6 @@ HEALTHREPORT
 AboutPages
 .
 HOME
-AboutPages
-.
-UPDATER
 }
 ;
 Test
