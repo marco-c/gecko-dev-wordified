@@ -291,7 +291,7 @@ cPicker
 .
 tooltip
 .
-doc
+container
 .
 querySelector
 (
