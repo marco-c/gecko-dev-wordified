@@ -441,10 +441,6 @@ aFrame
 LayerManager
 *
 aManager
-const
-nsIntRect
-&
-aVisibleRect
 nsDisplayItem
 *
 aItem
