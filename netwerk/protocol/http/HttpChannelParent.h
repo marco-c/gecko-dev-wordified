@@ -492,10 +492,6 @@ NotifyDiversionFailed
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
-=
-true
 )
 ;
 /
@@ -1178,10 +1174,6 @@ FailDiversion
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
-=
-true
 )
 ;
 friend
