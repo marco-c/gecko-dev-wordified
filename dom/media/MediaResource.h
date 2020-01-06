@@ -3949,10 +3949,6 @@ only
 nsresult
 OpenChannel
 (
-nsIStreamListener
-*
-*
-aStreamListener
 )
 ;
 nsresult
