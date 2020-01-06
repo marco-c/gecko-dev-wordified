@@ -142,7 +142,7 @@ style
 values
 :
 :
-specified
+computed
 :
 :
 length

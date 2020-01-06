@@ -90,6 +90,7 @@ computed
 Length
 LengthOrPercentage
 Number
+Percentage
 }
 ;
 use
@@ -119,18 +120,6 @@ transform
 TransformOrigin
 as
 GenericTransformOrigin
-;
-use
-values
-:
-:
-specified
-:
-:
-length
-:
-:
-Percentage
 ;
 /
 /

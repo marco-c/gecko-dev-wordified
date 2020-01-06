@@ -3018,6 +3018,9 @@ BorderCornerRadius
 new
 (
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3028,6 +3031,9 @@ into
 (
 )
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3062,6 +3068,9 @@ BorderCornerRadius
 new
 (
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3072,6 +3081,9 @@ into
 (
 )
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3106,6 +3118,9 @@ BorderCornerRadius
 new
 (
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3116,6 +3131,9 @@ into
 (
 )
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3150,6 +3168,9 @@ BorderCornerRadius
 new
 (
 Percentage
+:
+:
+new
 (
 0
 .
@@ -3160,6 +3181,9 @@ into
 (
 )
 Percentage
+:
+:
+new
 (
 0
 .
@@ -4683,6 +4707,9 @@ FlexBasis
 Length
 (
 Percentage
+:
+:
+new
 (
 0
 .

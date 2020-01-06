@@ -230,6 +230,7 @@ computed
 {
 LengthOrPercentage
 LengthOrPercentageOrAuto
+Percentage
 }
 ;
 use
@@ -273,18 +274,6 @@ rect
 :
 :
 Rect
-;
-use
-values
-:
-:
-specified
-:
-:
-length
-:
-:
-Percentage
 ;
 use
 values

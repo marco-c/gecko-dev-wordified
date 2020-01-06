@@ -72,7 +72,7 @@ use
 values
 :
 :
-specified
+computed
 :
 :
 Percentage
