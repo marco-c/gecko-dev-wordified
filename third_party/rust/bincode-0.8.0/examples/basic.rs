@@ -27,7 +27,6 @@ derive
 Serialize
 Deserialize
 PartialEq
-Debug
 )
 ]
 struct
@@ -47,7 +46,6 @@ derive
 Serialize
 Deserialize
 PartialEq
-Debug
 )
 ]
 struct
@@ -130,9 +128,6 @@ length
 of
 the
 vector
-(
-usize
-)
 4
 bytes
 per
@@ -172,10 +167,12 @@ unwrap
 (
 )
 ;
-assert_eq
+assert
 !
 (
 world
+=
+=
 decoded
 )
 ;
