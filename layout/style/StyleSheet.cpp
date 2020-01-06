@@ -1616,7 +1616,7 @@ if
 mPrincipal
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 NullPrincipal

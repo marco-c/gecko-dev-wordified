@@ -362,9 +362,6 @@ implemented
 "
 )
 ;
-return
-nullptr
-;
 }
 virtual
 already_AddRefed
@@ -404,7 +401,7 @@ CreateColorLayer
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not
@@ -412,9 +409,6 @@ implemented
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 virtual
@@ -426,7 +420,7 @@ CreateTextLayer
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not
@@ -434,9 +428,6 @@ implemented
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 virtual
@@ -448,7 +439,7 @@ CreateBorderLayer
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not
@@ -456,9 +447,6 @@ implemented
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 virtual
@@ -493,7 +481,7 @@ CreateCanvasLayer
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not
@@ -501,9 +489,6 @@ implemented
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 virtual

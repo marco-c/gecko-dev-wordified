@@ -824,7 +824,7 @@ if
 !
 mLock
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 PR_NewLock
@@ -845,7 +845,7 @@ if
 !
 mWakeup
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 PR_NewCondVar
@@ -922,7 +922,7 @@ if
 !
 mThread
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 PR_CreateThread
@@ -7278,7 +7278,7 @@ rv
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 new
@@ -7289,12 +7289,6 @@ initialize
 .
 "
 )
-;
-delete
-self
-;
-return
-nullptr
 ;
 }
 if
@@ -7309,7 +7303,7 @@ Context
 return
 self
 ;
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 new
@@ -7320,9 +7314,6 @@ initialize
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 void
