@@ -96,13 +96,6 @@ h
 #
 include
 "
-DanglingOnTemporaryChecker
-.
-h
-"
-#
-include
-"
 ExplicitImplicitChecker
 .
 h
