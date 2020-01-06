@@ -361,6 +361,13 @@ bool
 false
 )
 \
+_
+(
+AllowD3D11KeyedMutex
+bool
+false
+)
+\
 /
 *
 Add
