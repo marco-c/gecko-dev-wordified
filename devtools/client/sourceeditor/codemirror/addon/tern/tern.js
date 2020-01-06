@@ -5625,6 +5625,15 @@ from
 Pos
 (
 endLine
+end
+.
+line
+=
+=
+endLine
+?
+null
+:
 0
 )
 )
