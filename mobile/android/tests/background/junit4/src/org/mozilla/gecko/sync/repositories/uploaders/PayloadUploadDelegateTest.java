@@ -629,6 +629,16 @@ e
 }
 Override
 public
+void
+onRecordStoreReconciled
+(
+String
+guid
+)
+{
+}
+Override
+public
 RepositorySessionStoreDelegate
 deferredStoreDelegate
 (
