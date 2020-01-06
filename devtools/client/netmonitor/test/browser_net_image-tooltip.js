@@ -503,7 +503,7 @@ requestsListContents
 type
 :
 "
-mouseout
+mousemove
 "
 }
 monitor
