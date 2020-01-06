@@ -481,6 +481,14 @@ display
 :
 flex
 ;
+box
+-
+sizing
+:
+border
+-
+box
+;
 justify
 -
 content
