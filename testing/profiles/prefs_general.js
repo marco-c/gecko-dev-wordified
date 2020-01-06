@@ -144,7 +144,7 @@ browser
 .
 urlbar
 .
-speculativeConnection
+speculativeConnect
 .
 enabled
 "
