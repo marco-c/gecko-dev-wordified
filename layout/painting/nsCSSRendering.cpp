@@ -407,7 +407,7 @@ h
 #
 include
 "
-nsSVGEffects
+SVGObserverUtils
 .
 h
 "

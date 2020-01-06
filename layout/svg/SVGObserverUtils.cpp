@@ -102,7 +102,7 @@ first
 #
 include
 "
-nsSVGEffects
+SVGObserverUtils
 .
 h
 "
