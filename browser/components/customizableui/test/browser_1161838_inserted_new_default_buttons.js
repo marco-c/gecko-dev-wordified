@@ -141,7 +141,7 @@ loadSavedState
 ;
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
@@ -354,7 +354,7 @@ builtin
 widgets
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
