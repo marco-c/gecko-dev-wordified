@@ -1184,7 +1184,7 @@ getAllDisabledHosts
 (
 )
 [
-encoding
+hostname
 ]
 )
 ;
@@ -1276,7 +1276,7 @@ getAllDisabledHosts
 (
 )
 [
-encoding
+hostname
 ]
 )
 ;

@@ -2558,7 +2558,7 @@ principal
 .
 URI
 .
-prePath
+displayPrePath
 )
 ;
 }

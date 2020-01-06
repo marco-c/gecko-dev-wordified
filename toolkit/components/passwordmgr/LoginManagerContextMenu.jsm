@@ -719,7 +719,7 @@ hostname
 :
 documentURI
 .
-prePath
+displayPrePath
 schemeUpgrades
 :
 LoginHelper
@@ -767,7 +767,7 @@ password
 resolveBy
 documentURI
 .
-prePath
+displayPrePath
 )
 ;
 /
@@ -1131,7 +1131,7 @@ loginFormOrigin
 :
 documentURI
 .
-prePath
+displayPrePath
 login
 inputElement
 }

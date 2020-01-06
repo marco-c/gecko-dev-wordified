@@ -2822,7 +2822,7 @@ http
 +
 valueURI
 .
-hostPort
+displayHostPort
 ;
 }
 }

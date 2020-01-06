@@ -685,7 +685,7 @@ handled
 "
 aLocation
 .
-spec
+displaySpec
 aWebProgress
 .
 DOMWindow
@@ -9444,7 +9444,7 @@ scheme
 +
 uri
 .
-hostPort
+displayHostPort
 ;
 }
 catch
