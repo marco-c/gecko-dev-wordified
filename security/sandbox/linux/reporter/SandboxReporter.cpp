@@ -1507,6 +1507,15 @@ prctl
 /
 /
 option
+ARG_HEX
+(
+ioctl
+1
+)
+;
+/
+/
+request
 ARG_DECIMAL
 (
 madvise
