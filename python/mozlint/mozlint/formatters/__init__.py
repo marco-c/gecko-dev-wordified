@@ -63,6 +63,11 @@ import
 ResultEncoder
 from
 .
+compact
+import
+CompactFormatter
+from
+.
 stylish
 import
 StylishFormatter
@@ -102,6 +107,12 @@ ResultEncoder
 all_formatters
 =
 {
+    
+'
+compact
+'
+:
+CompactFormatter
     
 '
 json
