@@ -189,10 +189,10 @@ issues
 .
 #
 ifndef
-BASE_THREAD_ANNOTATIONS_H_
+WEBRTC_BASE_THREAD_ANNOTATIONS_H_
 #
 define
-BASE_THREAD_ANNOTATIONS_H_
+WEBRTC_BASE_THREAD_ANNOTATIONS_H_
 #
 if
 defined
@@ -327,7 +327,7 @@ define
 GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-guarded
+guarded_var
 )
 /
 /
@@ -452,7 +452,7 @@ x
 )
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-point_to_guarded_by
+pt_guarded_by
 (
 x
 )
@@ -462,7 +462,7 @@ define
 PT_GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-point_to_guarded
+pt_guarded_var
 )
 /
 /
@@ -666,13 +666,16 @@ reentrant
 define
 LOCKS_EXCLUDED
 (
-x
+.
+.
+.
 )
+\
 THREAD_ANNOTATION_ATTRIBUTE__
 (
 locks_excluded
 (
-x
+__VA_ARGS__
 )
 )
 /
@@ -872,4 +875,4 @@ no_thread_safety_analysis
 endif
 /
 /
-BASE_THREAD_ANNOTATIONS_H_
+WEBRTC_BASE_THREAD_ANNOTATIONS_H_

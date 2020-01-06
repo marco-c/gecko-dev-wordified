@@ -269,6 +269,9 @@ Hz
 ifdef
 WIN32
 #
+ifndef
+CLOCKS_PER_SEC
+#
 define
 CLOCKS_PER_SEC
 1000
@@ -278,6 +281,8 @@ Runtime
 statistics
 *
 /
+#
+endif
 #
 endif
 using

@@ -131,12 +131,8 @@ DeviceInfoImpl
 {
 public
 :
-explicit
 DeviceInfoMF
 (
-const
-int32_t
-id
 )
 ;
 virtual

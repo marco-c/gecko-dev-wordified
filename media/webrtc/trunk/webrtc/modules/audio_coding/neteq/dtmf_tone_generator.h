@@ -286,7 +286,7 @@ const
 int
 kAmplitude
 [
-37
+64
 ]
 ;
 /
@@ -296,7 +296,7 @@ for
 0
 through
 -
-36
+63
 dBm0
 .
 static

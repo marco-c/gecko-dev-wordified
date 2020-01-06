@@ -113,7 +113,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+criticalsection
 .
 h
 "
@@ -163,9 +163,6 @@ h
 namespace
 webrtc
 {
-class
-CriticalSectionWrapper
-;
 class
 ProcessThread
 ;
@@ -360,13 +357,11 @@ std
 :
 vector
 <
-unsigned
-int
+uint32_t
 >
 &
 ssrcs
-unsigned
-int
+uint32_t
 bitrate
 )
 ;
@@ -391,10 +386,7 @@ clock_
 rtc
 :
 :
-scoped_ptr
-<
-CriticalSectionWrapper
->
+CriticalSection
 list_crit_
 ;
 /
@@ -410,8 +402,7 @@ sent
 int64_t
 last_remb_time_
 ;
-unsigned
-int
+uint32_t
 last_send_bitrate_
 ;
 /
@@ -449,8 +440,7 @@ last
 bitrate
 update
 .
-unsigned
-int
+uint32_t
 bitrate_
 ;
 }

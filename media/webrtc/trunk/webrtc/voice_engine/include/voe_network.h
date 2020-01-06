@@ -284,7 +284,11 @@ include
 "
 webrtc
 /
-common_types
+api
+/
+call
+/
+transport
 .
 h
 "
@@ -293,7 +297,7 @@ include
 "
 webrtc
 /
-transport
+common_types
 .
 h
 "

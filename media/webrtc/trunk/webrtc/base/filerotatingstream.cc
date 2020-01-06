@@ -240,13 +240,13 @@ kWrite
 RTC_DCHECK_GT
 (
 max_file_size
-0u
+0
 )
 ;
 RTC_DCHECK_GT
 (
 num_files
-1u
+1
 )
 ;
 }
@@ -1446,7 +1446,7 @@ file
 RTC_DCHECK_EQ
 (
 current_file_index_
-0u
+0
 )
 ;
 break
@@ -2188,7 +2188,7 @@ num_rotations_
 RTC_DCHECK_GE
 (
 max_total_log_size
-4u
+4
 )
 ;
 }

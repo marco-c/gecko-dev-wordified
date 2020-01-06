@@ -151,7 +151,7 @@ VideoRenderer
 public
 :
 void
-RenderFrame
+OnFrame
 (
 const
 webrtc
@@ -160,8 +160,6 @@ webrtc
 VideoFrame
 &
 frame
-int
-time_to_render_ms
 )
 override
 ;

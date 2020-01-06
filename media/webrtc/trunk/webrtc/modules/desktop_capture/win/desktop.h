@@ -114,17 +114,6 @@ constructormagic
 .
 h
 "
-#
-include
-"
-webrtc
-/
-base
-/
-scoped_ptr
-.
-h
-"
 namespace
 webrtc
 {

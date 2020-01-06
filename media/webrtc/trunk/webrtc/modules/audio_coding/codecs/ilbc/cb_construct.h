@@ -238,6 +238,13 @@ define
 WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_CB_CONSTRUCT_H_
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 defines
 .
@@ -385,7 +392,17 @@ gains
 -
 *
 /
-void
+/
+/
+Returns
+true
+on
+success
+false
+on
+failure
+.
+bool
 WebRtcIlbcfix_CbConstruct
 (
 int16_t
@@ -400,6 +417,7 @@ Decoded
 vector
 *
 /
+const
 int16_t
 *
 index
@@ -412,6 +430,7 @@ Codebook
 indices
 *
 /
+const
 int16_t
 *
 gain_index
@@ -464,6 +483,7 @@ vector
 *
 /
 )
+WARN_UNUSED_RESULT
 ;
 #
 endif

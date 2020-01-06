@@ -133,11 +133,15 @@ h
 "
 #
 include
-<
-assert
+"
+webrtc
+/
+base
+/
+checks
 .
 h
->
+"
 #
 include
 <
@@ -918,7 +922,7 @@ immediate_set
 int
 num_pkts_expected
 ;
-assert
+RTC_DCHECK
 (
 !
 bwest_str
@@ -3182,7 +3186,7 @@ IsacSamplingRate
 encoderSamplingFreq
 )
 {
-assert
+RTC_DCHECK
 (
 !
 bwest_str
@@ -3505,7 +3509,7 @@ int32_t
 index
 )
 {
-assert
+RTC_DCHECK
 (
 !
 bwest_str
@@ -4215,7 +4219,7 @@ jitter_sign
 float
 bw_adjust
 ;
-assert
+RTC_DCHECK
 (
 !
 bwest_str
@@ -4384,7 +4388,7 @@ bwest_str
 int32_t
 rec_max_delay
 ;
-assert
+RTC_DCHECK
 (
 !
 bwest_str
@@ -4472,11 +4476,9 @@ int32_t
 max
 )
 {
-assert
+RTC_DCHECK_LE
 (
 min
-<
-=
 max
 )
 ;
@@ -4582,7 +4584,7 @@ IsacBandwidthInfo
 bwinfo
 )
 {
-assert
+RTC_DCHECK
 (
 !
 bwest_str

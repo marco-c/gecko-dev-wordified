@@ -156,7 +156,7 @@ public
 :
 RateTracker
 (
-uint32_t
+int64_t
 bucket_milliseconds
 size_t
 bucket_count
@@ -206,7 +206,7 @@ added
 double
 ComputeRateForInterval
 (
-uint32_t
+int64_t
 interval_milliseconds
 )
 const
@@ -245,7 +245,7 @@ bucket_milliseconds_
 *
 static_cast
 <
-uint32_t
+int64_t
 >
 (
 bucket_count_
@@ -336,7 +336,7 @@ overrideable
 for
 tests
 virtual
-uint32_t
+int64_t
 Time
 (
 )
@@ -358,7 +358,7 @@ bucket_index
 const
 ;
 const
-uint32_t
+int64_t
 bucket_milliseconds_
 ;
 const
@@ -375,10 +375,10 @@ total_sample_count_
 size_t
 current_bucket_
 ;
-uint32_t
+int64_t
 bucket_start_time_milliseconds_
 ;
-uint32_t
+int64_t
 initialization_time_milliseconds_
 ;
 }

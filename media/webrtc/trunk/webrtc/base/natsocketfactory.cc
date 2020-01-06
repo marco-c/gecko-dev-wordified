@@ -111,6 +111,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 logging
 .
 h
@@ -262,7 +273,7 @@ family
 AF_INET
 )
 {
-ASSERT
+RTC_DCHECK
 (
 buf_size
 >
@@ -306,7 +317,7 @@ family
 AF_INET6
 )
 {
-ASSERT
+RTC_DCHECK
 (
 buf_size
 >
@@ -408,7 +419,7 @@ SocketAddress
 remote_addr
 )
 {
-ASSERT
+RTC_DCHECK
 (
 buf_size
 >
@@ -416,7 +427,7 @@ buf_size
 8
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 buf
 [
@@ -511,7 +522,7 @@ family
 AF_INET6
 )
 {
-ASSERT
+RTC_DCHECK
 (
 buf_size
 >
@@ -924,7 +935,7 @@ size
 )
 override
 {
-ASSERT
+RTC_DCHECK
 (
 connected_
 )
@@ -954,7 +965,7 @@ addr
 )
 override
 {
-ASSERT
+RTC_DCHECK
 (
 !
 connected_
@@ -1010,7 +1021,10 @@ by
 12
 bytes
 .
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 char
 [
@@ -1088,7 +1102,7 @@ result
 0
 )
 {
-ASSERT
+RTC_DCHECK
 (
 result
 =
@@ -1127,6 +1141,9 @@ void
 data
 size_t
 size
+int64_t
+*
+timestamp
 )
 override
 {
@@ -1140,6 +1157,7 @@ data
 size
 &
 addr
+timestamp
 )
 ;
 }
@@ -1154,6 +1172,9 @@ size
 SocketAddress
 *
 out_addr
+int64_t
+*
+timestamp
 )
 override
 {
@@ -1181,6 +1202,7 @@ RecvFrom
 data
 size
 out_addr
+timestamp
 )
 ;
 }
@@ -1237,6 +1259,7 @@ buf_
 size_
 &
 remote_addr
+timestamp
 )
 ;
 if
@@ -1247,7 +1270,7 @@ result
 0
 )
 {
-ASSERT
+RTC_DCHECK
 (
 remote_addr
 =
@@ -1303,7 +1326,7 @@ in
 the
 packet
 .
-ASSERT
+RTC_DCHECK
 (
 (
 size_t
@@ -1676,7 +1699,7 @@ addr
 to
 use
 .
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -1734,7 +1757,7 @@ the
 connect
 reply
 .
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -1784,7 +1807,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -1808,7 +1831,7 @@ int
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -1955,6 +1978,7 @@ sizeof
 (
 code
 )
+nullptr
 )
 ;
 if

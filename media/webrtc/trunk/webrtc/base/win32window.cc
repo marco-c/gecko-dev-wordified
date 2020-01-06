@@ -89,6 +89,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -328,7 +339,7 @@ Win32Window
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 =

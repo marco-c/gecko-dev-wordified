@@ -398,7 +398,7 @@ Deleter
 for
 use
 with
-scoped_ptr
+unique_ptr
 .
 E
 .
@@ -408,7 +408,10 @@ use
 as
 /
 /
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 Foo
 AlignedFreeDeleter

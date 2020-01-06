@@ -140,7 +140,7 @@ signal_processing
 /
 include
 /
-spl_inl
+signal_processing_library
 .
 h
 "
@@ -162,10 +162,10 @@ kFftBufferAlignment
 =
 32
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 RealFourier
 >
@@ -185,10 +185,10 @@ defined
 RTC_USE_OPENMAX_DL
 )
 return
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 RealFourier
 >
@@ -203,10 +203,10 @@ fft_order
 #
 else
 return
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 RealFourier
 >

@@ -432,7 +432,7 @@ rotation
 const
 {
 return
-_rotation
+rotation_
 ;
 }
 /
@@ -560,14 +560,6 @@ return
 _codecSpecificInfo
 ;
 }
-const
-RTPFragmentationHeader
-*
-FragmentationHeader
-(
-)
-const
-;
 protected
 :
 /
@@ -666,12 +658,6 @@ webrtc
 :
 VideoCodecType
 _codec
-;
-RTPFragmentationHeader
-_fragmentation
-;
-VideoRotation
-_rotation
 ;
 /
 /

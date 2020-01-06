@@ -253,7 +253,7 @@ worker
 thread
 .
 virtual
-int32_t
+void
 Process
 (
 )

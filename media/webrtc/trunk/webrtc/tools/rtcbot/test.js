@@ -895,9 +895,10 @@ test
 reports
 /
 "
+function
+(
 exists
-=
->
+)
 {
 if
 (
@@ -926,7 +927,7 @@ test
 reports
 /
 "
-0o777
+0777
 writeFile
 .
 bind
@@ -937,6 +938,11 @@ this
 ;
 }
 }
+.
+bind
+(
+this
+)
 )
 ;
 function

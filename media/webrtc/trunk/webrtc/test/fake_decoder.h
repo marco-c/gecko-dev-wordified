@@ -198,12 +198,6 @@ Release
 )
 override
 ;
-int32_t
-Reset
-(
-)
-override
-;
 const
 char
 *
@@ -223,9 +217,6 @@ private
 :
 VideoCodec
 config_
-;
-VideoFrame
-frame_
 ;
 DecodedImageCallback
 *

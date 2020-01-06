@@ -141,13 +141,9 @@ iostream
 #
 include
 "
-testing
+webrtc
 /
-gtest
-/
-include
-/
-gtest
+test
 /
 gtest
 .
@@ -2215,7 +2211,7 @@ event
 .
 volume
 =
-37
+64
 ;
 EXPECT_EQ
 (

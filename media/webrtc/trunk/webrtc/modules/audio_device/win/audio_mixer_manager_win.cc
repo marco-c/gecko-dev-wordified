@@ -26333,9 +26333,14 @@ complete
 the
 conversion
 .
+unsigned
 int
 required_size
 =
+(
+unsigned
+int
+)
 WideCharToMultiByte
 (
 CP_UTF8

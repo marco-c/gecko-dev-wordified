@@ -151,19 +151,6 @@ system_wrappers
 /
 include
 /
-tick_util
-.
-h
-"
-#
-include
-"
-webrtc
-/
-system_wrappers
-/
-include
-/
 trace
 .
 h
@@ -449,7 +436,7 @@ return
 1
 ;
 }
-int32_t
+void
 MediaFileImpl
 :
 :
@@ -476,10 +463,6 @@ class
 .
 "
 )
-;
-return
--
-1
 ;
 }
 int32_t
@@ -1520,6 +1503,7 @@ return
 }
 if
 (
+!
 inputStream
 -
 >
@@ -1527,11 +1511,7 @@ OpenFile
 (
 fileName
 true
-loop
 )
-!
-=
-0
 )
 {
 delete
@@ -3096,6 +3076,7 @@ return
 }
 if
 (
+!
 outputStream
 -
 >
@@ -3104,9 +3085,6 @@ OpenFile
 fileName
 false
 )
-!
-=
-0
 )
 {
 delete

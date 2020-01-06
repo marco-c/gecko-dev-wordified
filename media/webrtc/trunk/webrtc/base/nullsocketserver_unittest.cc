@@ -177,6 +177,7 @@ thread
 .
 Post
 (
+RTC_FROM_HERE
 this
 0
 )
@@ -217,10 +218,10 @@ NullSocketServerTest
 TestWait
 )
 {
-uint32_t
+int64_t
 start
 =
-Time
+TimeMillis
 (
 )
 ;

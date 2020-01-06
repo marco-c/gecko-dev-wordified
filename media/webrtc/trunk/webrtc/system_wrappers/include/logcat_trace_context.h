@@ -168,18 +168,17 @@ LogcatTraceContext
 (
 )
 ;
-virtual
 ~
 LogcatTraceContext
 (
 )
+override
 ;
 /
 /
 TraceCallback
 impl
 .
-virtual
 void
 Print
 (
@@ -192,6 +191,7 @@ message
 int
 length
 )
+override
 ;
 }
 ;

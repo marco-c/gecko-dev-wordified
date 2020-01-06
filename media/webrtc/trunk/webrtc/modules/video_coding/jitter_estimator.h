@@ -324,6 +324,7 @@ Jitter
 estimate
 in
 milliseconds
+virtual
 int
 GetJitterEstimate
 (

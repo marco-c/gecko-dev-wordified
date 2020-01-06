@@ -330,7 +330,13 @@ WM_USER
 ;
 EXPECT_EQ
 (
+static_cast
+<
+UINT
+>
+(
 WM_USER
+)
 wnd
 .
 msg
@@ -342,7 +348,7 @@ message
 ;
 EXPECT_EQ
 (
-1
+1u
 wnd
 .
 msg
@@ -354,7 +360,7 @@ wParam
 ;
 EXPECT_EQ
 (
-2
+2l
 wnd
 .
 msg

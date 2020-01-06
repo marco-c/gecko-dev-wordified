@@ -93,6 +93,17 @@ socketstream
 .
 h
 "
+#
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
 namespace
 rtc
 {
@@ -296,7 +307,7 @@ GetState
 )
 const
 {
-ASSERT
+RTC_DCHECK
 (
 socket_
 !
@@ -364,7 +375,7 @@ int
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket_
 !
@@ -382,6 +393,7 @@ Recv
 (
 buffer
 buffer_len
+nullptr
 )
 ;
 if
@@ -475,7 +487,7 @@ int
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket_
 !
@@ -553,7 +565,7 @@ Close
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket_
 !
@@ -580,7 +592,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -611,7 +623,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -638,7 +650,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -667,7 +679,7 @@ int
 err
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =

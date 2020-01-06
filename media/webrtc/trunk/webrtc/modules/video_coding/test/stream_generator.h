@@ -101,6 +101,17 @@ include
 "
 webrtc
 /
+base
+/
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
 modules
 /
 video_coding

@@ -122,6 +122,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -457,7 +468,7 @@ pv
 cb
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 pad_bytes
 <

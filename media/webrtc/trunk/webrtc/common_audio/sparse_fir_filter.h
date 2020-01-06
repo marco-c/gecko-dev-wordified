@@ -268,6 +268,11 @@ size_t
 offset
 )
 ;
+~
+SparseFIRFilter
+(
+)
+;
 /
 /
 Filters

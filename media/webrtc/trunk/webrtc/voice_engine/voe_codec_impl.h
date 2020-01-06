@@ -300,10 +300,14 @@ enable_dtx
 )
 override
 ;
-RtcEventLog
-*
-GetEventLog
+int
+GetOpusDtxStatus
 (
+int
+channel
+bool
+*
+enabled
 )
 override
 ;

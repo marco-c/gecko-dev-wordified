@@ -1369,12 +1369,8 @@ postLocSnr
 ;
 #
 if
+defined
 (
-defined
-WEBRTC_DETECT_NEON
-|
-|
-defined
 WEBRTC_HAS_NEON
 )
 /

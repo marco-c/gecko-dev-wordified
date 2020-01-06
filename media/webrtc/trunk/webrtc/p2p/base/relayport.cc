@@ -118,6 +118,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 helpers
 .
 h
@@ -138,7 +149,7 @@ cricket
 {
 static
 const
-uint32_t
+int
 kMessageConnectTimeout
 =
 1
@@ -1210,7 +1221,7 @@ RelayConnection
 *
 connection_
 ;
-uint32_t
+int64_t
 start_time_
 ;
 }
@@ -1696,7 +1707,7 @@ proto_name
 "
 "
 RELAY_PORT_TYPE
-ICE_TYPE_PREFERENCE_RELAY
+ICE_TYPE_PREFERENCE_RELAY_UDP
 0
 false
 )
@@ -1835,7 +1846,7 @@ of
 this
 port
 .
-ASSERT
+RTC_DCHECK
 (
 entries_
 .
@@ -2041,7 +2052,7 @@ index
 address
 )
 ;
-AddConnection
+AddOrReplaceConnection
 (
 conn
 )
@@ -2359,7 +2370,7 @@ connected
 )
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 entries_
@@ -2389,7 +2400,7 @@ connected
 {
 error_
 =
-EWOULDBLOCK
+ENOTCONN
 ;
 return
 SOCKET_ERROR
@@ -2432,7 +2443,7 @@ sent
 0
 )
 {
-ASSERT
+RTC_DCHECK
 (
 sent
 <
@@ -2974,7 +2985,7 @@ GetError
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 sent
 <
@@ -3376,7 +3387,7 @@ rtc
 PacketSocketFactory
 :
 :
-OPT_SSLTCP
+OPT_TLS_FAKE
 :
 0
 ;
@@ -3504,6 +3515,7 @@ thread
 >
 Post
 (
+RTC_FROM_HERE
 this
 kMessageConnectTimeout
 )
@@ -3735,6 +3747,7 @@ thread
 >
 PostDelayed
 (
+RTC_FROM_HERE
 kSoftConnectTimeoutMs
 this
 kMessageConnectTimeout
@@ -4279,7 +4292,7 @@ HMAC
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 buf
 ;
 request
@@ -4504,7 +4517,7 @@ Message
 pmsg
 )
 {
-ASSERT
+RTC_DCHECK
 (
 pmsg
 -
@@ -4801,7 +4814,7 @@ packet_time
 {
 /
 /
-ASSERT
+RTC_DCHECK
 (
 remote_addr
 =
@@ -4956,7 +4969,7 @@ return
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 buf
 (
 data
@@ -5448,7 +5461,7 @@ start_time_
 rtc
 :
 :
-Time
+TimeMillis
 (
 )
 ;
@@ -5840,10 +5853,11 @@ if
 rtc
 :
 :
-TimeSince
+TimeMillis
 (
-start_time_
 )
+-
+start_time_
 <
 =
 kRetryTimeout

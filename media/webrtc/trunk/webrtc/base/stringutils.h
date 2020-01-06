@@ -153,7 +153,7 @@ WEBRTC_POSIX
 )
 #
 ifdef
-WEBRTC_BSD
+BSD
 #
 include
 <
@@ -189,17 +189,6 @@ include
 <
 string
 >
-#
-include
-"
-webrtc
-/
-base
-/
-basictypes
-.
-h
-"
 /
 /
 /

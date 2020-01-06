@@ -407,12 +407,7 @@ pcConfig
 ;
 return
 new
-(
-RTCPeerConnectioni
-|
-|
 mozRTCPeerConnection
-)
 (
 pcConfig
 pcConstraints
@@ -427,9 +422,6 @@ object
 .
 RTCSessionDescription
 =
-RTCSessionDescription
-|
-|
 mozRTCSessionDescription
 ;
 /
@@ -440,9 +432,6 @@ object
 .
 RTCIceCandidate
 =
-RTCIceCandidate
-|
-|
 mozRTCIceCandidate
 ;
 /

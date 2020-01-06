@@ -98,7 +98,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+constructormagic
 .
 h
 "
@@ -219,6 +219,16 @@ override
 ;
 size_t
 BytesPerSample
+(
+)
+const
+override
+;
+AudioEncoder
+:
+:
+CodecType
+GetCodecType
 (
 )
 const

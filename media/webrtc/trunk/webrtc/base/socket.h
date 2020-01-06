@@ -797,6 +797,17 @@ addr
 =
 0
 ;
+/
+/
+|
+timestamp
+|
+is
+in
+units
+of
+microseconds
+.
 virtual
 int
 Recv
@@ -806,6 +817,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 =
 0
@@ -822,6 +836,9 @@ cb
 SocketAddress
 *
 paddr
+int64_t
+*
+timestamp
 )
 =
 0

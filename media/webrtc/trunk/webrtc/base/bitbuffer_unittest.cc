@@ -1221,10 +1221,7 @@ nicely
 .
 #
 if
-defined
-(
 GTEST_HAS_DEATH_TEST
-)
 #
 if
 !
@@ -1329,7 +1326,7 @@ BitBufferTest
 GolombUint32Values
 )
 {
-ByteBuffer
+ByteBufferWriter
 byteBuffer
 ;
 byteBuffer

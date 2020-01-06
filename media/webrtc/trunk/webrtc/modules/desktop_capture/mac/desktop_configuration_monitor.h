@@ -103,6 +103,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 set
 >
 #
@@ -112,7 +117,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+constructormagic
 .
 h
 "
@@ -316,10 +321,10 @@ reconfiguring_displays_
 MacDesktopConfiguration
 desktop_configuration_
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 EventWrapper
 >

@@ -105,6 +105,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 logging
 .
 h
@@ -800,9 +811,8 @@ return
 ;
 }
 }
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -986,9 +996,8 @@ return
 ;
 }
 }
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1476,7 +1485,7 @@ ReuseSocketPool
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 checked_out_
@@ -1518,7 +1527,7 @@ pool
 at
 a
 time
-ASSERT
+RTC_DCHECK
 (
 !
 checked_out_
@@ -1792,7 +1801,7 @@ StreamInterface
 stream
 )
 {
-ASSERT
+RTC_DCHECK
 (
 stream
 =
@@ -1800,7 +1809,7 @@ stream
 stream_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 checked_out_
 )
@@ -1855,7 +1864,7 @@ int
 err
 )
 {
-ASSERT
+RTC_DCHECK
 (
 stream
 =
@@ -1863,7 +1872,7 @@ stream
 stream_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 !
 checked_out_
@@ -1971,7 +1980,7 @@ it
 is
 used
 .
-ASSERT
+RTC_DCHECK
 (
 0
 !
@@ -2330,7 +2339,7 @@ err
 )
 )
 {
-ASSERT
+RTC_DCHECK
 (
 SS_CLOSED
 !

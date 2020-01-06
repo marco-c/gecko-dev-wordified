@@ -91,6 +91,15 @@ WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_SOURCE_AUDIO_FRAME_MANIPULATOR_H_
 #
 define
 WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_SOURCE_AUDIO_FRAME_MANIPULATOR_H_
+#
+include
+"
+webrtc
+/
+typedefs
+.
+h
+"
 namespace
 webrtc
 {
@@ -112,9 +121,10 @@ its
 samples
 )
 .
-void
+uint32_t
 CalculateEnergy
 (
+const
 AudioFrame
 &
 audioFrame

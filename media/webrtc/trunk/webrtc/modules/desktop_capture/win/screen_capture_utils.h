@@ -100,7 +100,7 @@ modules
 /
 desktop_capture
 /
-screen_capturer
+desktop_capturer
 .
 h
 "
@@ -140,10 +140,10 @@ devices
 bool
 GetScreenList
 (
-ScreenCapturer
+DesktopCapturer
 :
 :
-ScreenList
+SourceList
 *
 screens
 )
@@ -204,7 +204,10 @@ id
 bool
 IsScreenValid
 (
-ScreenId
+DesktopCapturer
+:
+:
+SourceId
 screen
 std
 :
@@ -272,7 +275,10 @@ returned
 DesktopRect
 GetScreenRect
 (
-ScreenId
+DesktopCapturer
+:
+:
+SourceId
 screen
 const
 std

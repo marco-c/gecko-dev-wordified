@@ -538,6 +538,11 @@ error
 )
 ;
 void
+OnTimeout
+(
+)
+;
+void
 OnResolveResult
 (
 AsyncResolverInterface

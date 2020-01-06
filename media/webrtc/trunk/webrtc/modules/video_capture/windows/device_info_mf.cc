@@ -111,14 +111,6 @@ DeviceInfoMF
 :
 DeviceInfoMF
 (
-const
-int32_t
-id
-)
-:
-DeviceInfoImpl
-(
-id
 )
 {
 }

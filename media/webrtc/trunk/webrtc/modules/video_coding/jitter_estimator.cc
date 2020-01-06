@@ -2970,9 +2970,6 @@ LowRateExperimentEnabled
 (
 )
 {
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 if
 (
 low_rate_experiment_
@@ -3025,8 +3022,6 @@ kEnabled
 ;
 }
 }
-#
-endif
 return
 low_rate_experiment_
 =
@@ -3051,11 +3046,13 @@ if
 (
 fps_counter_
 .
-count
+ComputeMean
 (
 )
 =
 =
+0
+.
 0
 )
 return

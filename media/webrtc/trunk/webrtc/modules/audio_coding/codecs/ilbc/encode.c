@@ -315,6 +315,17 @@ hp_input
 h
 "
 #
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
+#
 ifdef
 SPLIT_10MS
 #
@@ -1681,6 +1692,8 @@ decoded
 vector
 *
 /
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -1708,6 +1721,7 @@ CB_MEML
 ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
+)
 )
 ;
 }
@@ -1855,6 +1869,8 @@ decoded
 vector
 *
 /
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 reverseDecresidual
@@ -1873,6 +1889,7 @@ CB_MEML
 ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
+)
 )
 ;
 /
@@ -2401,6 +2418,8 @@ decoded
 vector
 *
 /
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -2438,6 +2457,7 @@ CB_NSTAGES
 mem
 MEM_LF_TBL
 SUBL
+)
 )
 ;
 /
@@ -3013,6 +3033,8 @@ decoded
 vector
 *
 /
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -3041,6 +3063,7 @@ CB_NSTAGES
 mem
 MEM_LF_TBL
 SUBL
+)
 )
 ;
 /

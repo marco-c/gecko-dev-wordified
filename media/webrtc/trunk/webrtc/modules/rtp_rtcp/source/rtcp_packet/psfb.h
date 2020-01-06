@@ -152,7 +152,7 @@ RtcpPacket
 public
 :
 static
-const
+constexpr
 uint8_t
 kPacketType
 =
@@ -172,15 +172,15 @@ media_ssrc_
 )
 {
 }
-virtual
 ~
 Psfb
 (
 )
+override
 {
 }
 void
-From
+SetSenderSsrc
 (
 uint32_t
 ssrc
@@ -192,7 +192,7 @@ ssrc
 ;
 }
 void
-To
+SetMediaSsrc
 (
 uint32_t
 ssrc
@@ -226,7 +226,7 @@ media_ssrc_
 protected
 :
 static
-const
+constexpr
 size_t
 kCommonFeedbackLength
 =

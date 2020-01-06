@@ -116,6 +116,17 @@ webrtc
 /
 base
 /
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 cryptstring
 .
 h
@@ -138,7 +149,10 @@ struct
 HttpAuthContext
 ;
 class
-ByteBuffer
+ByteBufferReader
+;
+class
+ByteBufferWriter
 ;
 /
 /
@@ -301,6 +315,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 override
 ;
@@ -1433,7 +1450,7 @@ void
 DirectSend
 (
 const
-ByteBuffer
+ByteBufferWriter
 &
 buf
 )
@@ -1441,7 +1458,7 @@ buf
 void
 HandleHello
 (
-ByteBuffer
+ByteBufferReader
 *
 request
 )
@@ -1456,7 +1473,7 @@ method
 void
 HandleAuth
 (
-ByteBuffer
+ByteBufferReader
 *
 request
 )
@@ -1471,7 +1488,7 @@ result
 void
 HandleConnect
 (
-ByteBuffer
+ByteBufferReader
 *
 request
 )
@@ -1678,6 +1695,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 override
 ;
@@ -1692,6 +1712,9 @@ cb
 SocketAddress
 *
 paddr
+int64_t
+*
+timestamp
 )
 override
 ;

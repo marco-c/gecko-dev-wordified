@@ -635,14 +635,8 @@ matrix0_index_step
 ;
 #
 if
-(
 defined
-WEBRTC_DETECT_NEON
-)
-|
-|
 (
-defined
 WEBRTC_HAS_NEON
 )
 void

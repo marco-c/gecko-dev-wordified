@@ -103,6 +103,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -309,7 +320,7 @@ Update
 (
 )
 s
-ASSERT
+RTC_DCHECK
 (
 md_len
 =
@@ -455,7 +466,7 @@ Can
 '
 t
 happen
-ASSERT
+RTC_DCHECK
 (
 EVP_MD_size
 (
@@ -493,7 +504,7 @@ string
 algorithm
 )
 {
-ASSERT
+RTC_DCHECK
 (
 md
 !
@@ -501,7 +512,7 @@ md
 NULL
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 algorithm
 !

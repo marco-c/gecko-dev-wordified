@@ -164,7 +164,7 @@ Main
 initializaton
 and
 termination
-int32_t
+InitStatus
 Init
 (
 )

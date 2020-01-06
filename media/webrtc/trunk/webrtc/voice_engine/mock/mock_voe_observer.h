@@ -94,13 +94,9 @@ WEBRTC_VOICE_ENGINE_MOCK_VOE_OBSERVER_H_
 #
 include
 "
-testing
+webrtc
 /
-gmock
-/
-include
-/
-gmock
+test
 /
 gmock
 .

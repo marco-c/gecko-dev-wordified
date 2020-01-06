@@ -133,6 +133,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 helpers
 .
 h
@@ -361,7 +372,7 @@ addr
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 buf
 ;
 msg
@@ -793,7 +804,7 @@ AsyncPacketSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 internal_sockets_
 .
@@ -882,7 +893,7 @@ end
 socket
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 iter
 !
@@ -933,7 +944,7 @@ AsyncPacketSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 external_sockets_
 .
@@ -1022,7 +1033,7 @@ end
 socket
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 iter
 !
@@ -1078,7 +1089,7 @@ ProtocolType
 proto
 )
 {
-ASSERT
+RTC_DCHECK
 (
 server_sockets_
 .
@@ -1145,7 +1156,7 @@ find
 socket
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 iter
 !
@@ -1366,7 +1377,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 server_sockets_
 .
@@ -1451,7 +1462,7 @@ GetLocalAddress
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 !
 ap
@@ -1797,7 +1808,7 @@ GetLocalAddress
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 !
 ap
@@ -1891,7 +1902,7 @@ source
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 int_conn
 !
@@ -1968,7 +1979,7 @@ msg
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 buf
 (
 bytes
@@ -2265,7 +2276,7 @@ source
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 int_conn
 !
@@ -2348,7 +2359,7 @@ fails
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 buf
 (
 bytes
@@ -2681,7 +2692,7 @@ for
 this
 binding
 .
-uint32_t
+int
 lifetime
 =
 MAX_LIFETIME
@@ -2710,6 +2721,11 @@ std
 min
 (
 lifetime
+static_cast
+<
+int
+>
+(
 lifetime_attr
 -
 >
@@ -2718,6 +2734,7 @@ value
 )
 *
 1000
+)
 )
 ;
 binding
@@ -3451,7 +3468,7 @@ with
 this
 binding
 .
-ASSERT
+RTC_DCHECK
 (
 external_sockets_
 .
@@ -3740,7 +3757,7 @@ RelayServerConnection
 conn
 )
 {
-ASSERT
+RTC_DCHECK
 (
 connections_
 .
@@ -3804,7 +3821,7 @@ addr_pair
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 iter
 !
@@ -3853,7 +3870,7 @@ username
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 iter
 !
@@ -3928,9 +3945,6 @@ Message
 pmsg
 )
 {
-#
-if
-ENABLE_DEBUG
 static
 const
 uint32_t
@@ -3938,7 +3952,7 @@ kMessageAcceptConnection
 =
 1
 ;
-ASSERT
+RTC_DCHECK
 (
 pmsg
 -
@@ -3949,8 +3963,6 @@ message_id
 kMessageAcceptConnection
 )
 ;
-#
-endif
 rtc
 :
 :
@@ -4138,7 +4150,7 @@ a
 packet
 socket
 .
-ASSERT
+RTC_DCHECK
 (
 server_sockets_
 [
@@ -4572,7 +4584,7 @@ CreateByteString
 STUN_ATTR_DATA
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 size
 <
@@ -4786,7 +4798,7 @@ std
 string
 &
 password
-uint32_t
+int
 lifetime
 )
 :
@@ -4872,6 +4884,7 @@ thread
 >
 PostDelayed
 (
+RTC_FROM_HERE
 lifetime_
 this
 MSG_LIFETIME_TIMER
@@ -5038,7 +5051,7 @@ last_used_
 rtc
 :
 :
-Time
+TimeMillis
 (
 )
 ;
@@ -5199,7 +5212,7 @@ the
 first
 connection
 .
-ASSERT
+RTC_DCHECK
 (
 internal_connections_
 .
@@ -5308,7 +5321,7 @@ message_id
 MSG_LIFETIME_TIMER
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 pmsg
@@ -5343,7 +5356,7 @@ if
 rtc
 :
 :
-Time
+TimeMillis
 (
 )
 >
@@ -5385,6 +5398,7 @@ thread
 >
 PostDelayed
 (
+RTC_FROM_HERE
 lifetime_
 this
 MSG_LIFETIME_TIMER
@@ -5394,9 +5408,8 @@ MSG_LIFETIME_TIMER
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }

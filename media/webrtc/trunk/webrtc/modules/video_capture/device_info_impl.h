@@ -154,9 +154,6 @@ public
 :
 DeviceInfoImpl
 (
-const
-int32_t
-id
 )
 ;
 virtual
@@ -239,16 +236,6 @@ Init
 =
 0
 ;
-virtual
-int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
 /
 *
 *
@@ -317,9 +304,6 @@ protected
 /
 Data
 members
-int32_t
-_id
-;
 typedef
 std
 :

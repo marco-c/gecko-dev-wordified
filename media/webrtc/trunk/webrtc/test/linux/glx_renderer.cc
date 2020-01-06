@@ -108,6 +108,13 @@ h
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 X11
 /
 Xatom
@@ -808,7 +815,7 @@ void
 GlxRenderer
 :
 :
-RenderFrame
+OnFrame
 (
 const
 webrtc
@@ -817,12 +824,6 @@ webrtc
 VideoFrame
 &
 frame
-int
-/
-*
-render_delay_ms
-*
-/
 )
 {
 if
@@ -958,10 +959,9 @@ break
 GlRenderer
 :
 :
-RenderFrame
+OnFrame
 (
 frame
-0
 )
 ;
 glXSwapBuffers

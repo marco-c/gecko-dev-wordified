@@ -98,7 +98,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+constructormagic
 .
 h
 "
@@ -237,13 +237,6 @@ AudioEncoderIlbc
 )
 override
 ;
-size_t
-MaxEncodedBytes
-(
-)
-const
-override
-;
 int
 SampleRateHz
 (
@@ -280,7 +273,7 @@ const
 override
 ;
 EncodedInfo
-EncodeInternal
+EncodeImpl
 (
 uint32_t
 rtp_timestamp
@@ -293,9 +286,10 @@ const
 int16_t
 >
 audio
-size_t
-max_encoded_bytes
-uint8_t
+rtc
+:
+:
+Buffer
 *
 encoded
 )

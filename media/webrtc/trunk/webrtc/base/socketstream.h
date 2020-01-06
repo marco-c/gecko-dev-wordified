@@ -117,6 +117,17 @@ webrtc
 /
 base
 /
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 stream
 .
 h

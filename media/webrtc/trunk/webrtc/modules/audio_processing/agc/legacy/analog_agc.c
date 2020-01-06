@@ -156,13 +156,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 stdlib
 .
 h
@@ -179,6 +172,17 @@ h
 >
 #
 endif
+#
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
 /
 *
 The
@@ -348,6 +352,7 @@ To
 convert
 to
 RMS
+*
 scale
 you
 *
@@ -390,6 +395,7 @@ part
 )
 .
 This
+*
 value
 actually
 *
@@ -403,6 +409,7 @@ should
 in
 the
 future
+*
 replace
 it
 with
@@ -431,6 +438,7 @@ gives
 an
 output
 of
+*
 targetLevelDbfs
 *
 (
@@ -450,6 +458,7 @@ should
 be
 set
 high
+*
 enough
 not
 *
@@ -933,6 +942,7 @@ d
 \
 n
 '
+*
 round
 (
 (
@@ -1198,13 +1208,12 @@ zero
 .
 *
 /
-assert
+RTC_DCHECK_GT
 (
 stt
 -
 >
 maxLevel
->
 stt
 -
 >
@@ -1266,10 +1275,9 @@ tmp32
 /
 tmp16
 ;
-assert
+RTC_DCHECK_LT
 (
 targetGainIdx
-<
 GAIN_TBL_LEN
 )
 ;
@@ -2975,6 +2983,7 @@ we
 should
 make
 this
+*
 into
 a
 *
@@ -2993,6 +3002,7 @@ tuned
 for
 the
 chosen
+*
 analog
 *
 target
@@ -3402,8 +3412,8 @@ env
 int16_t
 i
 ;
-int32_t
-tmp32
+int64_t
+tmp
 =
 0
 ;
@@ -3435,7 +3445,7 @@ i
 +
 )
 {
-tmp32
+tmp
 +
 =
 env
@@ -3464,7 +3474,7 @@ samples
 /
 if
 (
-tmp32
+tmp
 <
 500
 )
@@ -4340,6 +4350,7 @@ there
 is
 digital
 input
+*
 gain
 *
 /
@@ -7049,6 +7060,8 @@ measure
 <
 LowerLim
 micVol
+"
+"
 =
 %
 d
@@ -7629,6 +7642,9 @@ saturationWarning
 /
 /
 TODO
+(
+minyue
+)
 :
 PUT
 IN
@@ -8644,6 +8660,7 @@ targetLevelDbfs
 default
 -
 3
+*
 dBOv
 )
 ]
@@ -8661,6 +8678,7 @@ targetLevelDbfs
 default
 -
 3
+*
 dBOv
 )
 ]
@@ -8863,6 +8881,8 @@ a
 small
 range
 now
+/
+/
 when
 we
 have
@@ -8885,6 +8905,8 @@ scale
 up
 (
 scale
+/
+/
 =
 0
 )

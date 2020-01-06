@@ -112,14 +112,9 @@ LockedIsacBandwidthInfo
 (
 )
 :
-lock_
+ref_count_
 (
-CriticalSectionWrapper
-:
-:
-CreateCriticalSection
-(
-)
+0
 )
 {
 bwinfo_

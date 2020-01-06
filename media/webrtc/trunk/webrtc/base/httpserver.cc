@@ -118,6 +118,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -448,7 +459,7 @@ next_connection_id_
 +
 +
 ;
-ASSERT
+RTC_DCHECK
 (
 connection_id
 !
@@ -806,9 +817,8 @@ end
 )
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1226,7 +1236,7 @@ HttpServerTransaction
 transaction
 )
 {
-ASSERT
+RTC_DCHECK
 (
 current_
 =
@@ -1431,7 +1441,7 @@ data_size
 0
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 current_
 !
@@ -1502,7 +1512,7 @@ mode
 HM_SEND
 )
 {
-ASSERT
+RTC_DCHECK
 (
 current_
 !
@@ -1591,7 +1601,7 @@ mode
 HM_RECV
 )
 {
-ASSERT
+RTC_DCHECK
 (
 current_
 !
@@ -1704,9 +1714,8 @@ request
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -2115,7 +2124,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 =
@@ -2125,11 +2134,6 @@ listener_
 get
 (
 )
-)
-;
-ASSERT
-(
-listener_
 )
 ;
 AsyncSocket

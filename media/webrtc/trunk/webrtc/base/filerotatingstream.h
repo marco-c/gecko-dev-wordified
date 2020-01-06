@@ -91,6 +91,11 @@ WEBRTC_BASE_FILEROTATINGSTREAM_H_
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -730,7 +735,10 @@ the
 current
 file
 .
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 FileStream
 >

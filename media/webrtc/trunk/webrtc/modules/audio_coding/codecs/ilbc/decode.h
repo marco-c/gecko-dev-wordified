@@ -380,7 +380,18 @@ function
 -
 *
 /
-void
+/
+/
+Returns
+0
+on
+success
+-
+1
+on
+error
+.
+int
 WebRtcIlbcfix_DecodeImpl
 (
 int16_t
@@ -444,6 +455,7 @@ normal
 *
 /
 )
+WARN_UNUSED_RESULT
 ;
 #
 endif

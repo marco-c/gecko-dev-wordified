@@ -259,10 +259,10 @@ Revert
 (
 )
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 Desktop
 >

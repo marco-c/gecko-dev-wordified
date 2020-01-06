@@ -981,7 +981,7 @@ cumulative_lost
 (
 )
 (
-1u
+1
 <
 <
 24
@@ -1129,7 +1129,7 @@ bool
 ReportBlock
 :
 :
-WithCumulativeLost
+SetCumulativeLost
 (
 uint32_t
 cumulative_lost

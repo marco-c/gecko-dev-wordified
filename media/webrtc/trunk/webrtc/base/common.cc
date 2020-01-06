@@ -111,7 +111,7 @@ string
 h
 >
 #
-if
+ifdef
 WEBRTC_WIN
 #
 define
@@ -341,7 +341,7 @@ Break
 )
 {
 #
-if
+ifdef
 WEBRTC_WIN
 :
 :

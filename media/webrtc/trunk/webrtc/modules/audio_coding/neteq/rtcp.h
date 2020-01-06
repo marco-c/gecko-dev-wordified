@@ -343,7 +343,7 @@ the
 last
 report
 .
-uint32_t
+int64_t
 jitter_
 ;
 /
@@ -351,6 +351,8 @@ jitter_
 Current
 jitter
 value
+in
+Q4
 .
 int32_t
 transit_

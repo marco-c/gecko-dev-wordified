@@ -546,7 +546,7 @@ initializaton
 and
 termination
 virtual
-int32_t
+InitStatus
 Init
 (
 )
@@ -1197,13 +1197,6 @@ EnableBuiltInAEC
 bool
 enable
 )
-;
-virtual
-bool
-BuiltInAECIsEnabled
-(
-)
-const
 ;
 public
 :

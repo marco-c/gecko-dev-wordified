@@ -409,6 +409,7 @@ be
 created
 *
 /
+const
 int16_t
 *
 buffer
@@ -439,6 +440,8 @@ codebook
 int16_t
 *
 cbVec
+)
+;
 /
 *
 (
@@ -450,7 +453,5 @@ codebook
 vector
 *
 /
-)
-;
 #
 endif

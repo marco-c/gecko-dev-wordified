@@ -165,6 +165,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -2509,7 +2520,7 @@ kTimeZoneOffsets
 12
 }
 ;
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -3075,6 +3086,12 @@ tm_gmtoff
 else
 #
 if
+defined
+(
+_MSC_VER
+)
+&
+&
 _MSC_VER
 >
 =
@@ -3734,7 +3751,7 @@ Rewind
 )
 here
 ?
-ASSERT
+RTC_DCHECK
 (
 !
 hasHeader
@@ -3744,7 +3761,7 @@ NULL
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 !
 hasHeader
@@ -3754,7 +3771,7 @@ NULL
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 document
 !
@@ -3914,7 +3931,7 @@ size
 )
 const
 {
-ASSERT
+RTC_DCHECK
 (
 path
 .
@@ -6345,7 +6362,7 @@ HA2
 #
 if
 TEST_DIGEST
-ASSERT
+RTC_DCHECK
 (
 strcmp
 (
@@ -7723,7 +7740,7 @@ return
 HAR_IGNORE
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 !
 context
