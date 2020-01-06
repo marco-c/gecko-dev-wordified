@@ -17971,13 +17971,13 @@ check
 the
 presshell
 is
-styled
+initialized
 in
 order
 to
+/
+/
 ensure
-/
-/
 the
 document
 is
