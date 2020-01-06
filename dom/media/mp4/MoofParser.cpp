@@ -85,7 +85,7 @@ limits
 #
 include
 "
-Intervals
+MP4Interval
 .
 h
 "
@@ -200,12 +200,8 @@ LOG
 #
 endif
 namespace
-mp4_demuxer
-{
-using
-namespace
 mozilla
-;
+{
 const
 uint32_t
 kKeyIdSize
@@ -797,14 +793,14 @@ class
 BlockingStream
 :
 public
-Stream
+ByteStream
 {
 public
 :
 explicit
 BlockingStream
 (
-Stream
+ByteStream
 *
 aStream
 )
@@ -897,7 +893,7 @@ private
 :
 RefPtr
 <
-Stream
+ByteStream
 >
 mStream
 ;
@@ -950,9 +946,6 @@ length
 ;
 RefPtr
 <
-mp4_demuxer
-:
-:
 BlockingStream
 >
 stream
@@ -1099,9 +1092,6 @@ length
 ;
 RefPtr
 <
-mp4_demuxer
-:
-:
 BlockingStream
 >
 stream
@@ -1431,9 +1421,6 @@ nullptr
 }
 RefPtr
 <
-mp4_demuxer
-:
-:
 BlockingStream
 >
 stream
@@ -1552,7 +1539,7 @@ forget
 )
 ;
 }
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -1567,7 +1554,7 @@ MediaByteRangeSet
 aByteRanges
 )
 {
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -3244,7 +3231,7 @@ Length
 }
 mTimeRange
 =
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -4664,7 +4651,7 @@ aDecodeTime
 ;
 nsTArray
 <
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -4938,7 +4925,7 @@ sample
 .
 mCompositionRange
 =
-Interval
+MP4Interval
 <
 Microseconds
 >

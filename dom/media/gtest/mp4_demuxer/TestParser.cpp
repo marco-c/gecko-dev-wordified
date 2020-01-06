@@ -159,10 +159,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mp4_demuxer
-;
 static
 const
 uint32_t
@@ -179,7 +175,7 @@ class
 TestStream
 :
 public
-Stream
+ByteStream
 {
 public
 :
@@ -470,7 +466,7 @@ EmptyStream
 {
 RefPtr
 <
-Stream
+ByteStream
 >
 stream
 =
@@ -778,7 +774,7 @@ EmptyStream
 {
 RefPtr
 <
-Stream
+ByteStream
 >
 stream
 =
@@ -2035,7 +2031,7 @@ IsEmpty
 ;
 RefPtr
 <
-Stream
+ByteStream
 >
 stream
 =
@@ -3437,7 +3433,7 @@ IsEmpty
 ;
 RefPtr
 <
-Stream
+ByteStream
 >
 stream
 =

@@ -72,7 +72,7 @@ h
 #
 include
 "
-Stream
+ByteStream
 .
 h
 "
@@ -86,13 +86,13 @@ RefPtr
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 ResourceStream
 :
 public
-Stream
+ByteStream
 {
 public
 :

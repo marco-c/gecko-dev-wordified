@@ -82,12 +82,8 @@ include
 <
 algorithm
 >
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 BufferStream
 :

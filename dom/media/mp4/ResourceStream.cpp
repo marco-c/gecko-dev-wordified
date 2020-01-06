@@ -120,7 +120,7 @@ ResourceStream
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 ResourceStream
 :
@@ -388,4 +388,4 @@ true
 /
 /
 namespace
-mp4_demuxer
+mozilla

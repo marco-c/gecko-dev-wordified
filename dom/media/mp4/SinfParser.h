@@ -86,7 +86,7 @@ AtomType
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 Box

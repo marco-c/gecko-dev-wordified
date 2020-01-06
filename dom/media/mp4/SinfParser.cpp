@@ -89,12 +89,12 @@ h
 #
 include
 "
-Stream
+ByteStream
 .
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 Sinf
 :
