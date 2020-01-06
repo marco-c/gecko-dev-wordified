@@ -1592,7 +1592,7 @@ if
 cx
 -
 >
-compartment
+zone
 (
 )
 -

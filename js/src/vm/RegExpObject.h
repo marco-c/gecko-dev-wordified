@@ -282,7 +282,7 @@ GC
 )
 .
 *
-RegExpCompartment
+RegExpZone
 :
 *
 Owns
@@ -291,7 +291,7 @@ RegExpShared
 instances
 in
 a
-compartment
+zone
 .
 *
 /

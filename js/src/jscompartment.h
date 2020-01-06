@@ -5151,9 +5151,6 @@ size_t
 crossCompartmentWrappers
 size_t
 *
-regexpCompartment
-size_t
-*
 savedStacksSet
 size_t
 *

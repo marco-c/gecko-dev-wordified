@@ -3535,6 +3535,13 @@ macro
 (
 Other
 MallocHeap
+regexpZone
+)
+\
+macro
+(
+Other
+MallocHeap
 jitZone
 )
 \
@@ -4273,13 +4280,6 @@ macro
 Other
 MallocHeap
 crossCompartmentWrappersTable
-)
-\
-macro
-(
-Other
-MallocHeap
-regexpCompartment
 )
 \
 macro

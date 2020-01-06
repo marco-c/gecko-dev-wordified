@@ -536,7 +536,7 @@ the
 RegExpShared
 in
 this
-compartment
+zone
 .
 *
 /
@@ -559,7 +559,7 @@ if
 cx
 -
 >
-compartment
+zone
 (
 )
 -
