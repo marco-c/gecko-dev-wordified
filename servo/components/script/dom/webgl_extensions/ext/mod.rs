@@ -84,6 +84,7 @@ super
 ext_constants
 WebGLExtension
 WebGLExtensions
+WebGLExtensionSpec
 }
 ;
 pub

@@ -124,6 +124,7 @@ as
 webgl
 WebGLExtension
 WebGLExtensions
+WebGLExtensionSpec
 }
 ;
 #
@@ -213,6 +214,19 @@ OESTextureFloatLinearBinding
 :
 Wrap
 )
+}
+fn
+spec
+(
+)
+-
+>
+WebGLExtensionSpec
+{
+WebGLExtensionSpec
+:
+:
+All
 }
 fn
 is_supported
