@@ -118,7 +118,7 @@ namespace
 js
 {
 class
-GeckoProfiler
+GeckoProfilerRuntime
 ;
 namespace
 jit
@@ -144,7 +144,7 @@ public
 :
 IonInstrumentation
 (
-GeckoProfiler
+GeckoProfilerRuntime
 *
 profiler
 jsbytecode

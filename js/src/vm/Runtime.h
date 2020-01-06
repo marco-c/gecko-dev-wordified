@@ -3187,7 +3187,7 @@ UnprotectedData
 js
 :
 :
-GeckoProfiler
+GeckoProfilerRuntime
 >
 geckoProfiler_
 ;
@@ -3196,7 +3196,7 @@ public
 js
 :
 :
-GeckoProfiler
+GeckoProfilerRuntime
 &
 geckoProfiler
 (

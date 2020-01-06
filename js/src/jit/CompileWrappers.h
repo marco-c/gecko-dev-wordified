@@ -253,7 +253,7 @@ Profiler
 is
 enabled
 .
-GeckoProfiler
+GeckoProfilerRuntime
 &
 geckoProfiler
 (

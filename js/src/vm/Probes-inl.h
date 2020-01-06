@@ -268,7 +268,7 @@ enabled
 if
 (
 !
-rt
+cx
 -
 >
 geckoProfiler
@@ -391,11 +391,6 @@ if
 popProfilerFrame
 )
 cx
--
->
-runtime
-(
-)
 -
 >
 geckoProfiler
