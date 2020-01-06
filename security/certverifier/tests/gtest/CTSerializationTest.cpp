@@ -1351,6 +1351,9 @@ invalidVersionSctInput
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :
@@ -1399,6 +1402,9 @@ invalidLengthSctInput
 ;
 EXPECT_EQ
 (
+pkix
+:
+:
 Result
 :
 :

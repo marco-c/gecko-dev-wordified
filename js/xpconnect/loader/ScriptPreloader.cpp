@@ -2393,7 +2393,7 @@ nsIFile
 >
 cacheFile
 ;
-NS_TRY
+MOZ_TRY
 (
 mProfD
 -
@@ -2407,7 +2407,7 @@ cacheFile
 )
 )
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -2438,7 +2438,7 @@ DIRECTORY_TYPE
 0777
 )
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -2481,7 +2481,7 @@ OpenCache
 (
 )
 {
-NS_TRY
+MOZ_TRY
 (
 NS_GetSpecialDirectory
 (
@@ -2519,7 +2519,7 @@ bin
 bool
 exists
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -2536,7 +2536,7 @@ if
 exists
 )
 {
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -2561,7 +2561,7 @@ bin
 }
 else
 {
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -2582,7 +2582,7 @@ bin
 )
 )
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -3880,7 +3880,7 @@ bin
 bool
 exists
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -3897,7 +3897,7 @@ if
 exists
 )
 {
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -3913,7 +3913,7 @@ false
 AutoFDClose
 fd
 ;
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
@@ -4215,7 +4215,7 @@ FreeData
 }
 }
 }
-NS_TRY
+MOZ_TRY
 (
 cacheFile
 -
