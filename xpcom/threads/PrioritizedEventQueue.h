@@ -538,6 +538,9 @@ mMutex
 aMutex
 ;
 }
+#
+ifndef
+RELEASE_OR_BETA
 /
 /
 nsThread
@@ -596,6 +599,8 @@ mNextIdleDeadline
 aDeadline
 ;
 }
+#
+endif
 void
 EnableInputEventPrioritization
 (
@@ -690,6 +695,9 @@ mMutex
 =
 nullptr
 ;
+#
+ifndef
+RELEASE_OR_BETA
 /
 /
 Pointer
@@ -714,6 +722,8 @@ mNextIdleDeadline
 =
 nullptr
 ;
+#
+endif
 /
 /
 Try

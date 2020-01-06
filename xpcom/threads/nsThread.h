@@ -506,6 +506,9 @@ EnableInputEventPrioritization
 )
 ;
 }
+#
+ifndef
+RELEASE_OR_BETA
 mozilla
 :
 :
@@ -519,6 +522,8 @@ return
 mNextIdleDeadline
 ;
 }
+#
+endif
 mozilla
 :
 :

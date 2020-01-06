@@ -837,6 +837,9 @@ MutexRef
 )
 )
 ;
+#
+ifndef
+RELEASE_OR_BETA
 prioritizedRef
 -
 >
@@ -850,6 +853,8 @@ NextIdleDeadlineRef
 )
 )
 ;
+#
+endif
 nsresult
 rv
 =
