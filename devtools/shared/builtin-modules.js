@@ -226,7 +226,6 @@ const
 {
 PromiseDebugging
 ChromeUtils
-ThreadSafeChromeUtils
 HeapSnapshot
 atob
 btoa
@@ -1262,7 +1261,6 @@ bug
 Promise
 PromiseDebugging
 ChromeUtils
-ThreadSafeChromeUtils
 HeapSnapshot
 FileReader
 }

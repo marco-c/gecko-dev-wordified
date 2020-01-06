@@ -59,7 +59,7 @@ MPL
 /
 *
 global
-ThreadSafeChromeUtils
+ChromeUtils
 *
 /
 /
@@ -411,7 +411,7 @@ snapshots
 snapshotFilePath
 ]
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 readHeapSnapshot
 (

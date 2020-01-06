@@ -338,7 +338,7 @@ snapshot
 .
 See
 *
-ThreadSafeChromeUtils
+ChromeUtils
 .
 webidl
 for

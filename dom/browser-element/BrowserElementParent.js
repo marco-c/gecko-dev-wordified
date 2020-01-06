@@ -271,7 +271,7 @@ _browserElementParents
 let
 beps
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

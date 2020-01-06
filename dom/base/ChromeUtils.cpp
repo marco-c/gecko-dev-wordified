@@ -209,7 +209,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 NondeterministicGetWeakMapKeys
@@ -359,7 +359,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 NondeterministicGetWeakSetKeys
@@ -509,7 +509,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 Base64URLEncode
@@ -710,7 +710,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 Base64URLDecode

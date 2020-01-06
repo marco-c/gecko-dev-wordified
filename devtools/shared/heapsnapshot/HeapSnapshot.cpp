@@ -10201,7 +10201,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshotShared
@@ -10543,7 +10543,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshot
@@ -10582,7 +10582,7 @@ static
 *
 /
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshotGetId
@@ -10624,7 +10624,7 @@ already_AddRefed
 <
 HeapSnapshot
 >
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 ReadHeapSnapshot
