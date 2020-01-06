@@ -399,7 +399,7 @@ startArea
 =
 CustomizableUI
 .
-AREA_NAVBAR
+AREA_TABSTRIP
 ;
 let
 targetArea
