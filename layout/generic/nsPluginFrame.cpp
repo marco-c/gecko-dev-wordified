@@ -7193,7 +7193,7 @@ PaintPrintPlugin
 "
 PrintPlugin
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PRINT_PLUGIN
@@ -8545,7 +8545,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PLUGIN
@@ -8944,7 +8944,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PLUGIN_READBACK

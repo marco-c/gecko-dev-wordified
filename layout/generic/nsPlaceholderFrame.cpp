@@ -1749,7 +1749,7 @@ PaintDebugPlaceholder
 "
 DebugPlaceholder
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_DEBUG_PLACEHOLDER

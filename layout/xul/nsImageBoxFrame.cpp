@@ -4380,7 +4380,7 @@ NS_OK
 }
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_XUL_IMAGE

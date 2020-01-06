@@ -4177,16 +4177,10 @@ userDataTable
 >
 Get
 (
-static_cast
-<
-uint32_t
->
-(
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_IMAGE
-)
 getter_AddRefs
 (
 data
@@ -4229,7 +4223,7 @@ return
 }
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_IMAGE
@@ -4245,7 +4239,7 @@ mFirstFrameComplete
 {
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_ALT_FEEDBACK
@@ -12040,7 +12034,7 @@ PaintDebugImageMap
 "
 DebugImageMap
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_DEBUG_IMAGE_MAP

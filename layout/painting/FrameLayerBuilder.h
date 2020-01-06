@@ -188,13 +188,6 @@ LayerUserData
 .
 h
 "
-#
-include
-"
-nsDisplayItemTypes
-.
-h
-"
 class
 nsDisplayListBuilder
 ;
@@ -2628,8 +2621,8 @@ GetDedicatedLayer
 nsIFrame
 *
 aFrame
-DisplayItemType
-aDisplayItemType
+uint32_t
+aDisplayItemKey
 )
 ;
 /

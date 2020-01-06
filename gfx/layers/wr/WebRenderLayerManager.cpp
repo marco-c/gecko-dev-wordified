@@ -1125,7 +1125,10 @@ RemoveBottom
 nullptr
 )
 {
-DisplayItemType
+nsDisplayItem
+:
+:
+Type
 itemType
 =
 item
@@ -1169,7 +1172,7 @@ if
 itemType
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_LAYER_EVENT_REGIONS
@@ -1201,9 +1204,9 @@ IsEmpty
 item
 -
 >
-Destroy
+~
+nsDisplayItem
 (
-aDisplayListBuilder
 )
 ;
 continue
@@ -1274,9 +1277,9 @@ RemoveBottom
 item
 -
 >
-Destroy
+~
+nsDisplayItem
 (
-aDisplayListBuilder
 )
 ;
 item
@@ -1332,9 +1335,9 @@ itemSameCoordinateSystemChildren
 item
 -
 >
-Destroy
+~
+nsDisplayItem
 (
-aDisplayListBuilder
 )
 ;
 continue
@@ -2254,7 +2257,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_MASK
@@ -2840,7 +2843,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_MASK

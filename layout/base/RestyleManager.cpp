@@ -12714,7 +12714,7 @@ layerInfo
 mLayerType
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_TRANSFORM
