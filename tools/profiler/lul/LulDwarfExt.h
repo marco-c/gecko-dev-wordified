@@ -10809,6 +10809,17 @@ ARM
 (
 )
 ;
+/
+/
+MIPS
+.
+static
+unsigned
+int
+MIPS
+(
+)
+;
 }
 ;
 /
