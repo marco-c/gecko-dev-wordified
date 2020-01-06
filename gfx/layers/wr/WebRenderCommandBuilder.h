@@ -509,6 +509,11 @@ RemoveUnusedAndResetWebRenderUserData
 (
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 /
 /
 Those
