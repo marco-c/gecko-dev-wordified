@@ -30809,7 +30809,7 @@ pm
 pm
 -
 >
-TriggerDeviceResetForTesting
+SimulateDeviceReset
 (
 )
 ;
