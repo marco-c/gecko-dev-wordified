@@ -497,6 +497,9 @@ nsACString
 aName
 )
 {
+mozilla
+:
+:
 GetErrorName
 (
 aRv
