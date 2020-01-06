@@ -2671,8 +2671,8 @@ id
 JS
 :
 :
-MutableHandleValue
-vp
+HandleValue
+v
 JS
 :
 :
@@ -2718,7 +2718,7 @@ JS_ForwardSetPropertyTo
 cx
 proto
 id
-vp
+v
 receiver
 result
 )

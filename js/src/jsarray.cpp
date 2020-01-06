@@ -4041,8 +4041,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 ObjectOpResult
 &
 result
@@ -4124,7 +4124,7 @@ DefineDataProperty
 cx
 obj
 id
-vp
+v
 JSPROP_ENUMERATE
 result
 )
@@ -4181,7 +4181,7 @@ cx
 arr
 id
 JSPROP_PERMANENT
-vp
+v
 result
 )
 ;

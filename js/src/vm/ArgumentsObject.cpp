@@ -3287,8 +3287,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 ObjectOpResult
 &
 result
@@ -3481,7 +3481,7 @@ setElement
 (
 cx
 arg
-vp
+v
 )
 ;
 if
@@ -3508,7 +3508,7 @@ SetArgument
 cx
 script
 arg
-vp
+v
 )
 ;
 return
@@ -3646,7 +3646,7 @@ NativeDefineDataProperty
 cx
 argsobj
 id
-vp
+v
 attrs
 result
 )
@@ -5030,8 +5030,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 ObjectOpResult
 &
 result
@@ -5179,7 +5179,7 @@ setElement
 (
 cx
 arg
-vp
+v
 )
 ;
 return
@@ -5269,7 +5269,7 @@ NativeDefineDataProperty
 cx
 argsobj
 id
-vp
+v
 attrs
 result
 )

@@ -2347,8 +2347,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 ObjectOpResult
 &
 result
@@ -2370,7 +2370,7 @@ assertSameCompartment
 cx
 obj
 id
-vp
+v
 )
 ;
 return
@@ -2379,7 +2379,7 @@ op
 cx
 obj
 id
-vp
+v
 result
 )
 ;
