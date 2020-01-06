@@ -302,9 +302,7 @@ stuff
 we
 need
 .
-if
-(
-!
+do_check_true
 (
 gfxInfo
 instanceof
@@ -312,15 +310,7 @@ Ci
 .
 nsIGfxInfoDebug
 )
-)
-{
-do_test_finished
-(
-)
 ;
-return
-;
-}
 gfxInfo
 .
 QueryInterface
