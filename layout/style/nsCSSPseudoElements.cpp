@@ -757,8 +757,10 @@ mAtom
 static
 *
 /
+already_AddRefed
+<
 nsIAtom
-*
+>
 nsCSSPseudoElements
 :
 :
@@ -977,6 +979,10 @@ nullptr
 }
 return
 pseudo
+.
+forget
+(
+)
 ;
 }
 /
