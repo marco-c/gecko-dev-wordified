@@ -99,7 +99,13 @@ showMenu
 require
 (
 "
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 utils
 /
