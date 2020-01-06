@@ -300,9 +300,8 @@ const
 nsACString
 &
 key
-char
-*
-*
+nsACString
+&
 result
 )
 ;

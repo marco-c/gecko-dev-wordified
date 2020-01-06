@@ -919,7 +919,7 @@ from
 the
 entry
 .
-nsCString
+nsAutoCString
 clientId
 ;
 rv
@@ -929,10 +929,7 @@ entryInfo
 >
 GetClientID
 (
-getter_Copies
-(
 clientId
-)
 )
 ;
 if
