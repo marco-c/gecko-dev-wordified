@@ -208,6 +208,12 @@ checkPopup
 autoCompletePopup
 )
 ;
+await
+closePopup
+(
+browser
+)
+;
 /
 /
 Detach
