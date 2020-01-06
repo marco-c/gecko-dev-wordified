@@ -631,6 +631,9 @@ frames
 type
 =
 range_1_24
+default
+=
+8
                     
 help
 =
