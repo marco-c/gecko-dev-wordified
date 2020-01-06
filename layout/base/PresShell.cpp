@@ -8391,6 +8391,13 @@ shell
 mDocument
 -
 >
+ClearServoRestyleRoot
+(
+)
+;
+mDocument
+-
+>
 DeleteShell
 (
 )

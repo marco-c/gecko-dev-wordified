@@ -272,6 +272,13 @@ node
 size_t
 index
 )
+SERVO_BINDING_FUNC
+(
+Servo_Element_IsDisplayNone
+bool
+RawGeckoElementBorrowed
+element
+)
 /
 /
 Styleset

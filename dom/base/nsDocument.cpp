@@ -8648,6 +8648,10 @@ mUserHasInteracted
 (
 false
 )
+mServoRestyleRootDirtyBits
+(
+0
+)
 {
 SetIsInDocument
 (
