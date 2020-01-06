@@ -3944,6 +3944,9 @@ defaultHandling
 FunctionAsyncKind
 asyncKind
 =
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;
@@ -3959,6 +3962,9 @@ PredictUninvoked
 FunctionAsyncKind
 asyncKind
 =
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;
@@ -4275,6 +4281,9 @@ toStringStart
 FunctionAsyncKind
 asyncKind
 =
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;
@@ -4311,6 +4320,9 @@ toStringStart
 FunctionAsyncKind
 asyncKind
 =
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;

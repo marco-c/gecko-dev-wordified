@@ -47032,6 +47032,9 @@ GeneratorKind
 :
 :
 NotGenerator
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;

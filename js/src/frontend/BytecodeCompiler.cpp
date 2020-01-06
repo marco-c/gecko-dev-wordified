@@ -4520,6 +4520,9 @@ GeneratorKind
 :
 :
 NotGenerator
+FunctionAsyncKind
+:
+:
 SyncFunction
 parameterListEnd
 )
@@ -4598,6 +4601,9 @@ GeneratorKind
 :
 :
 Generator
+FunctionAsyncKind
+:
+:
 SyncFunction
 parameterListEnd
 )
@@ -4676,6 +4682,9 @@ GeneratorKind
 :
 :
 NotGenerator
+FunctionAsyncKind
+:
+:
 AsyncFunction
 parameterListEnd
 )
@@ -4754,6 +4763,9 @@ GeneratorKind
 :
 :
 Generator
+FunctionAsyncKind
+:
+:
 AsyncFunction
 parameterListEnd
 )
