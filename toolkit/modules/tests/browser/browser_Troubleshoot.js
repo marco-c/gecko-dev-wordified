@@ -1200,15 +1200,6 @@ type
 boolean
 "
 }
-windowUsingAdvancedLayers
-:
-{
-type
-:
-"
-boolean
-"
-}
 currentAudioBackend
 :
 {
