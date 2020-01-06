@@ -50322,6 +50322,14 @@ TraceKind
 kind
 )
 {
+MOZ_ASSERT
+(
+IsCellPointerValid
+(
+cell
+)
+)
+;
 if
 (
 !
