@@ -15879,9 +15879,9 @@ if
 applySignedContentCSP
 )
 {
-nsAdoptingString
+nsAutoString
 signedContentCSP
-=
+;
 Preferences
 :
 :
@@ -15896,6 +15896,7 @@ CSP
 .
 default
 "
+signedContentCSP
 )
 ;
 csp

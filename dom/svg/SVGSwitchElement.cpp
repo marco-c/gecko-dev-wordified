@@ -952,11 +952,9 @@ FindActiveChild
 )
 const
 {
-const
-nsAdoptingString
-&
+nsAutoString
 acceptLangs
-=
+;
 Preferences
 :
 :
@@ -967,6 +965,7 @@ intl
 .
 accept_languages
 "
+acceptLangs
 )
 ;
 if

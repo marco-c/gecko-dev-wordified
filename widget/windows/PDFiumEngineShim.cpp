@@ -287,11 +287,9 @@ true
 #
 ifdef
 USE_EXTERNAL_PDFIUM
-const
-nsAdoptingString
-&
+nsAutoString
 PDFiumPath
-=
+;
 mozilla
 :
 :
@@ -305,6 +303,7 @@ print
 .
 load_external_pdfium
 "
+PDFiumPath
 )
 ;
 NS_ENSURE_FALSE

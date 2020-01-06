@@ -2969,9 +2969,9 @@ if
 usePrefColors
 )
 {
-nsAdoptingString
+nsAutoString
 colorStr
-=
+;
 Preferences
 :
 :
@@ -2984,6 +2984,7 @@ display
 .
 foreground_color
 "
+colorStr
 )
 ;
 if
@@ -3004,8 +3005,6 @@ colorStr
 )
 ;
 }
-colorStr
-=
 Preferences
 :
 :
@@ -3018,6 +3017,7 @@ display
 .
 background_color
 "
+colorStr
 )
 ;
 if
@@ -3317,9 +3317,9 @@ underline_anchors
 mUnderlineLinks
 )
 ;
-nsAdoptingString
+nsAutoString
 colorStr
-=
+;
 Preferences
 :
 :
@@ -3330,6 +3330,7 @@ browser
 .
 anchor_color
 "
+colorStr
 )
 ;
 if
@@ -3350,8 +3351,6 @@ colorStr
 )
 ;
 }
-colorStr
-=
 Preferences
 :
 :
@@ -3362,6 +3361,7 @@ browser
 .
 active_color
 "
+colorStr
 )
 ;
 if
@@ -3382,8 +3382,6 @@ colorStr
 )
 ;
 }
-colorStr
-=
 Preferences
 :
 :
@@ -3394,6 +3392,7 @@ browser
 .
 visited_color
 "
+colorStr
 )
 ;
 if
@@ -3439,8 +3438,6 @@ mFocusBackgroundColor
 =
 mBackgroundColor
 ;
-colorStr
-=
 Preferences
 :
 :
@@ -3453,6 +3450,7 @@ display
 .
 focus_text_color
 "
+colorStr
 )
 ;
 if
@@ -3473,8 +3471,6 @@ colorStr
 )
 ;
 }
-colorStr
-=
 Preferences
 :
 :
@@ -3487,6 +3483,7 @@ display
 .
 focus_background_color
 "
+colorStr
 )
 ;
 if
