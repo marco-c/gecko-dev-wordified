@@ -968,8 +968,6 @@ getService
 wrappedJSObject
 .
 data
-.
-code
 ;
 /
 /
