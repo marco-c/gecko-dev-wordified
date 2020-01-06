@@ -94,8 +94,6 @@ CommandProvider
     
 Command
 )
-import
-reftestcommandline
 parser
 =
 None
@@ -1540,6 +1538,9 @@ get_parser
 (
 )
 :
+    
+import
+reftestcommandline
     
 global
 parser
