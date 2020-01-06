@@ -1425,8 +1425,6 @@ c
 >
 value
 PM_CATTRS
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
 return

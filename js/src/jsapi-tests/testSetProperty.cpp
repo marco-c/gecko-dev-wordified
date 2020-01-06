@@ -156,8 +156,6 @@ globalProp
 "
 obj
 JSPROP_ENUMERATE
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
 ;
@@ -181,7 +179,7 @@ JS_PROPERTYOP_GETTER
 (
 NativeGet
 )
-JS_STUBSETTER
+nullptr
 )
 )
 ;

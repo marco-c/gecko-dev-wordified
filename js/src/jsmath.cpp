@@ -8004,15 +8004,11 @@ obj
 js_Math_str
 Math
 JSPROP_RESOLVING
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
-{
 return
 nullptr
 ;
-}
 if
 (
 !
