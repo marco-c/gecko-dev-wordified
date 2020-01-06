@@ -14186,7 +14186,10 @@ layerManager
 GetLastTransactionId
 (
 )
-nsIntRect
+frame
+-
+>
+GetRect
 (
 )
 )
