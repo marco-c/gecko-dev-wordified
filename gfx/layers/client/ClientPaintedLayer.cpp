@@ -1146,7 +1146,7 @@ PaintOffMainThread
 mContentClient
 -
 >
-BeginPaint
+BeginAsyncPaint
 (
 )
 ;
