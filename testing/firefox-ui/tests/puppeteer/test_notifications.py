@@ -68,9 +68,9 @@ notifications
 import
 (
     
-AddOnInstallFailedNotification
-    
 AddOnInstallConfirmationNotification
+    
+AddOnInstallFailedNotification
 )
 from
 marionette_driver
@@ -331,7 +331,9 @@ self
 trigger_addon_notification
 (
 '
-restartless_addon_signed
+webextension
+-
+signed
 .
 xpi
 '
@@ -494,7 +496,9 @@ self
 trigger_addon_notification
 (
 '
-restartless_addon_signed
+webextension
+-
+signed
 .
 xpi
 '
@@ -544,7 +548,9 @@ self
 trigger_addon_notification
 (
 '
-restartless_addon_signed
+webextension
+-
+signed
 .
 xpi
 '
@@ -638,7 +644,9 @@ trigger_addon_notification
 (
             
 '
-restartless_addon_unsigned
+webextension
+-
+unsigned
 .
 xpi
 '
