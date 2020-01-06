@@ -534,4 +534,10 @@ correct
 "
 )
 ;
+await
+waitForExistingRequests
+(
+monitor
+)
+;
 }
