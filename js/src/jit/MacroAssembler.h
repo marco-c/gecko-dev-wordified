@@ -15969,10 +15969,10 @@ profilerCallSites_
 public
 :
 void
-loadBaselineOrIonRaw
+loadJitCodeRaw
 (
 Register
-script
+callee
 Register
 dest
 Label
@@ -15981,7 +15981,7 @@ failure
 )
 ;
 void
-loadBaselineOrIonNoArgCheck
+loadJitCodeNoArgCheck
 (
 Register
 callee
