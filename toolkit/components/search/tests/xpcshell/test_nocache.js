@@ -70,10 +70,6 @@ run_test
 (
 )
 {
-removeCacheFile
-(
-)
-;
 do_load_manifest
 (
 "
@@ -173,6 +169,8 @@ that
 search
 .
 json
+.
+mozlz4
 has
 been
 created
@@ -320,10 +318,6 @@ break
 do_check_true
 (
 found
-)
-;
-removeCacheFile
-(
 )
 ;
 }

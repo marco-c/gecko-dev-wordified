@@ -66,10 +66,6 @@ run_test
 (
 )
 {
-removeMetadata
-(
-)
-;
 /
 /
 The
