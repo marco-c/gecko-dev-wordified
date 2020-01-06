@@ -363,6 +363,12 @@ uint32_t
 aPointerId
 )
 ;
+static
+void
+ReleaseAllPointerCapture
+(
+)
+;
 /
 /
 Get
