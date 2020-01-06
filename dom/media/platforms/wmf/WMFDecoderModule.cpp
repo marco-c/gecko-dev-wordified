@@ -762,6 +762,11 @@ mKnowsCompositor
 aParams
 .
 mImageContainer
+aParams
+.
+mRate
+.
+mValue
 sDXVAEnabled
 )
 )
