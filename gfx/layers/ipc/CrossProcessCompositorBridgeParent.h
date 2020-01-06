@@ -148,9 +148,6 @@ layers
 class
 CompositorOptions
 ;
-class
-CompositorAnimationStorage
-;
 /
 *
 *
