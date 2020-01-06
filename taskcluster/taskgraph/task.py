@@ -134,9 +134,9 @@ dictionary
 )
     
 -
-optimization
+optimizations
 :
-optimization
+optimizations
 to
 apply
 to
@@ -224,6 +224,19 @@ will
 be
 created
     
+-
+optimized
+-
+-
+true
+if
+this
+task
+need
+not
+be
+performed
+    
 This
 class
 is
@@ -265,7 +278,7 @@ label
 attributes
 task
                  
-optimization
+optimizations
 =
 None
 dependencies
@@ -306,6 +319,12 @@ None
         
 self
 .
+optimized
+=
+False
+        
+self
+.
 attributes
 [
 '
@@ -317,9 +336,12 @@ kind
         
 self
 .
-optimization
+optimizations
 =
-optimization
+optimizations
+or
+[
+]
         
 self
 .
@@ -396,12 +418,12 @@ and
             
 self
 .
-optimization
+optimizations
 =
 =
 other
 .
-optimization
+optimizations
 and
 \
             
@@ -449,10 +471,10 @@ r
 '
                 
 '
-optimization
+optimizations
 =
 {
-optimization
+optimizations
 !
 r
 }
@@ -523,12 +545,12 @@ self
 dependencies
             
 '
-optimization
+optimizations
 '
 :
 self
 .
-optimization
+optimizations
             
 '
 task
@@ -659,12 +681,12 @@ task
 '
 ]
             
-optimization
+optimizations
 =
 task_dict
 [
 '
-optimization
+optimizations
 '
 ]
             
