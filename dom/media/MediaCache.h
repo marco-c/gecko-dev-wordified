@@ -4375,8 +4375,10 @@ with
 this
 MediaCacheStream
 .
+RefPtr
+<
 MediaCache
-*
+>
 mMediaCache
 ;
 /
