@@ -3865,9 +3865,6 @@ CSSStyleSheet
 :
 GetCssRulesInternal
 (
-ErrorResult
-&
-aRv
 )
 {
 if
