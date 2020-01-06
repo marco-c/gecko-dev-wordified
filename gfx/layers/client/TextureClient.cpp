@@ -7989,15 +7989,6 @@ gfxPrefs
 LayersDumpTexture
 (
 )
-|
-|
-PROFILER_FEATURE_ACTIVE
-(
-ProfilerFeature
-:
-:
-LayersDump
-)
 )
 {
 nsAutoCString
