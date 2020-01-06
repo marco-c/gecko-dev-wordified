@@ -1555,13 +1555,11 @@ this
 .
 removeAnnotation
 =
+!
+!
 obj
 .
 removeAnnotation
-?
-true
-:
-false
 ;
 this
 .

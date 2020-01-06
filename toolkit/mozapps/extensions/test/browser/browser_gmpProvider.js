@@ -152,6 +152,8 @@ isInstalled
 false
 isEME
 :
+!
+!
 (
 plugin
 .
@@ -182,10 +184,6 @@ eme
 =
 0
 )
-?
-true
-:
-false
 }
 )
 ;

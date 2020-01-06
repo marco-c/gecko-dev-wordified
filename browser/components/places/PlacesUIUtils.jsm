@@ -6812,10 +6812,6 @@ where
 "
 tabshifted
 "
-?
-true
-:
-false
 ;
 /
 /

@@ -8511,6 +8511,8 @@ pref
 pane
 .
 return
+!
+!
 shellService
 .
 isDefaultBrowser
@@ -8518,10 +8520,6 @@ isDefaultBrowser
 false
 true
 )
-?
-true
-:
-false
 ;
 }
 catch

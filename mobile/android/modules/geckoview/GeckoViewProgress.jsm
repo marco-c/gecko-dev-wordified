@@ -413,11 +413,8 @@ PageStop
 "
 success
 :
+!
 aStatus
-?
-false
-:
-true
 }
 ;
 this

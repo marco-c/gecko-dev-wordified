@@ -1818,10 +1818,6 @@ aIsFromUserInput
 =
 =
 undefined
-?
-true
-:
-false
 )
 ;
 SimpleTest

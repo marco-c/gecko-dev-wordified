@@ -971,10 +971,6 @@ where
 "
 tabshifted
 "
-?
-true
-:
-false
 ;
 this
 .

@@ -1134,6 +1134,8 @@ is
 index
 .
 unique
+!
+!
 indexData
 [
 i
@@ -1142,10 +1144,6 @@ i
 options
 .
 unique
-?
-true
-:
-false
 "
 Correct
 unique
