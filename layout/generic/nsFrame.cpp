@@ -72667,9 +72667,7 @@ aSizes
 &
 aSizes
 .
-mStyleSizes
-.
-mComputedValuesNonDom
+mLayoutComputedValuesNonDom
 )
 ;
 }
