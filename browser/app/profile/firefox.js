@@ -8901,7 +8901,7 @@ preferences
 .
 search
 "
-false
+true
 )
 ;
 /
