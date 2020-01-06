@@ -8477,6 +8477,9 @@ customizeMode
 inc
 .
 css
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -8949,6 +8952,8 @@ solid
 transparent
 ;
 }
+%
+endif
 /
 *
 The
