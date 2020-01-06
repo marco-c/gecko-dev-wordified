@@ -33065,30 +33065,6 @@ codeOnFailure
                 
 }
                 
-JS
-:
-:
-Rooted
-<
-JS
-:
-:
-Value
->
-maybeUncheckedVal
-(
-cx
-JS
-:
-:
-ObjectValue
-(
-*
-maybeUncheckedObj
-)
-)
-;
-                
 "
 "
 "
@@ -33120,7 +33096,7 @@ source
 ]
 =
 "
-maybeUncheckedVal
+maybeUncheckedObj
 "
             
 self
@@ -33134,7 +33110,7 @@ mutableSource
 =
 "
 &
-maybeUncheckedVal
+maybeUncheckedObj
 "
             
 xpconnectUnwrap
@@ -33174,33 +33150,13 @@ UnwrapArg
 call
 .
                   
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
-source
-(
-cx
-&
-{
-source
-}
-.
-toObject
-(
-)
-)
-;
-                  
 JSAutoCompartment
 ac
 (
 cx
+{
 source
+}
 )
 ;
                   
@@ -33214,7 +33170,9 @@ type
 >
 (
 cx
+{
 source
+}
 getter_AddRefs
 (
 objPtr
@@ -33761,14 +33719,9 @@ type
 }
 >
 (
-&
 {
-source
+mutableSource
 }
-.
-toObject
-(
-)
 {
 target
 }

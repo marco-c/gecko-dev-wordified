@@ -4609,11 +4609,11 @@ throw
 an
 error
 .
+RefPtr
+<
 ServiceWorkerGlobalScope
-*
+>
 scope
-=
-nullptr
 ;
 UNWRAP_OBJECT
 (

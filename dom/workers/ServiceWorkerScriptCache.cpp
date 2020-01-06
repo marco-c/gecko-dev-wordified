@@ -2124,6 +2124,7 @@ NS_FAILED
 UNWRAP_OBJECT
 (
 Request
+&
 requestObj
 request
 )
@@ -2299,6 +2300,7 @@ rv
 UNWRAP_OBJECT
 (
 Cache
+&
 obj
 cache
 )
@@ -5382,6 +5384,7 @@ rv
 UNWRAP_OBJECT
 (
 Response
+&
 obj
 response
 )
