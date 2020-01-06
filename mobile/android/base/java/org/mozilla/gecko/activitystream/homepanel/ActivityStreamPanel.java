@@ -485,6 +485,11 @@ pref_activitystream_recentbookmarks_enabled
 "
 ;
 private
+final
+RecyclerView
+contentRecyclerView
+;
+private
 int
 desiredTileWidth
 ;
@@ -554,9 +559,7 @@ forProfile
 context
 )
 ;
-final
-RecyclerView
-rv
+contentRecyclerView
 =
 (
 RecyclerView
@@ -570,14 +573,14 @@ id
 activity_stream_main_recyclerview
 )
 ;
-rv
+contentRecyclerView
 .
 setAdapter
 (
 adapter
 )
 ;
-rv
+contentRecyclerView
 .
 setLayoutManager
 (
@@ -590,7 +593,7 @@ getContext
 )
 )
 ;
-rv
+contentRecyclerView
 .
 setHasFixedSize
 (
@@ -607,7 +610,7 @@ avoid
 horrible
 topsites
 refreshing
-rv
+contentRecyclerView
 .
 setItemAnimator
 (
@@ -617,7 +620,7 @@ StreamItemAnimator
 )
 )
 ;
-rv
+contentRecyclerView
 .
 addItemDecoration
 (
@@ -632,7 +635,7 @@ RecyclerViewClickSupport
 .
 addTo
 (
-rv
+contentRecyclerView
 )
 .
 setOnItemClickListener
@@ -1100,6 +1103,8 @@ them
 to
 be
 .
+contentRecyclerView
+.
 setPadding
 (
 0
@@ -1197,6 +1202,8 @@ w
 =
 needed
 ;
+contentRecyclerView
+.
 setPadding
 (
 padding
