@@ -4425,7 +4425,7 @@ results
 )
 ;
 }
-open_parent
+open
 (
 downloadId
 )
