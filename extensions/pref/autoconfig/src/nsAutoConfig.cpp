@@ -3152,7 +3152,7 @@ check
 =
 false
 ;
-nsXPIDLString
+nsString
 emailResult
 ;
 bool

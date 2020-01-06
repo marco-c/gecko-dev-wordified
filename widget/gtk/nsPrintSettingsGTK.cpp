@@ -2617,7 +2617,7 @@ Get
 before
 we
 Set
-nsXPIDLString
+nsString
 nullPrintName
 ;
 *

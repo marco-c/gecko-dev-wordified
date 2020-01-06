@@ -4627,7 +4627,7 @@ document
 headers
 and
 footers
-nsXPIDLString
+nsString
 headerLeft
 headerCenter
 headerRight
@@ -4688,7 +4688,7 @@ ascent
 visibleHeight
 )
 ;
-nsXPIDLString
+nsString
 footerLeft
 footerCenter
 footerRight

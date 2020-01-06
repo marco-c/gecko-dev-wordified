@@ -8377,7 +8377,7 @@ already
 has
 a
 printer
-nsXPIDLString
+nsString
 printerName
 ;
 nsresult

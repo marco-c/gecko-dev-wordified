@@ -3818,7 +3818,7 @@ nsIURI
 >
 uri
 ;
-nsXPIDLString
+nsString
 title
 ;
 entry

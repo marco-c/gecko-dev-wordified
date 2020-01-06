@@ -7391,7 +7391,7 @@ length
 "
 )
 ;
-nsXPIDLString
+nsString
 cfcontext
 cffragment
 cfselection
@@ -8174,7 +8174,7 @@ cfhtml
 text
 )
 ;
-nsXPIDLString
+nsString
 cfcontext
 cffragment
 cfselection

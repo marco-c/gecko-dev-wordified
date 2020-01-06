@@ -2134,7 +2134,7 @@ FALSE
 /
 3x3
 table
-nsXPIDLString
+nsString
 header_footer_str
 [
 3
@@ -4159,7 +4159,7 @@ if
 psService
 )
 {
-nsXPIDLString
+nsString
 printName
 ;
 aNSSettings
@@ -4175,8 +4175,11 @@ printName
 ;
 if
 (
-!
 printName
+.
+IsVoid
+(
+)
 )
 {
 psService

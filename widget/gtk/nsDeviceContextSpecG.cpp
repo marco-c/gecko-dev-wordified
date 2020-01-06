@@ -1626,7 +1626,7 @@ inside
 the
 settings
 .
-nsXPIDLString
+nsString
 printerName
 ;
 nsresult
@@ -1654,7 +1654,12 @@ rv
 )
 &
 &
+!
 printerName
+.
+IsVoid
+(
+)
 )
 {
 NS_ConvertUTF16toUTF8
@@ -2162,7 +2167,7 @@ the
 benefit
 of
 embedders
-nsXPIDLString
+nsString
 targetPath
 ;
 nsCOMPtr

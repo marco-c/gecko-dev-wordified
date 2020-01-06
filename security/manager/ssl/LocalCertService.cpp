@@ -1842,10 +1842,10 @@ and
 issuer
 match
 nickname
-nsXPIDLString
+nsAutoString
 subjectName
 ;
-nsXPIDLString
+nsAutoString
 issuerName
 ;
 mCert

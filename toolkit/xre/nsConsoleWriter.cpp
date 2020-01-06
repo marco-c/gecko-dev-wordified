@@ -432,7 +432,7 @@ XPCOM
 arrays
 suck
 .
-nsXPIDLString
+nsString
 msg
 ;
 nsAutoCString

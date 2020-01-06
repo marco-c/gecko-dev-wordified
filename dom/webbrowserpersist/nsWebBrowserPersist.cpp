@@ -14819,7 +14819,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsString
 ext
 ;
 GetExtensionForContentType

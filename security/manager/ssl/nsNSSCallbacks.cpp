@@ -3800,7 +3800,7 @@ rv
 return
 ;
 }
-nsXPIDLString
+nsString
 password
 ;
 /

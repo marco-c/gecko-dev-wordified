@@ -941,7 +941,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsString
 printerName
 ;
 settings
@@ -1039,6 +1039,10 @@ settings
 SetPrinterName
 (
 printerName
+.
+get
+(
+)
 )
 ;
 }
@@ -1048,6 +1052,10 @@ mPrintSettingsSvc
 InitPrintSettingsFromPrinter
 (
 printerName
+.
+get
+(
+)
 settings
 )
 ;
@@ -1120,6 +1128,10 @@ mPrintSettingsSvc
 InitPrintSettingsFromPrinter
 (
 printerName
+.
+get
+(
+)
 settings
 )
 ;

@@ -2515,7 +2515,7 @@ rv
 return
 rv
 ;
-nsXPIDLString
+nsString
 xpstr
 ;
 /

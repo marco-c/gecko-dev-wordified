@@ -2131,7 +2131,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLString
+nsAutoString
 dictname
 ;
 mSpellCheckingEngine
@@ -2390,9 +2390,6 @@ get
 )
 )
 ;
-nsXPIDLString
-language
-;
 nsCOMPtr
 <
 mozISpellI18NManager
@@ -2429,11 +2426,7 @@ serv
 >
 GetUtil
 (
-language
-.
-get
-(
-)
+nullptr
 getter_AddRefs
 (
 mConverter

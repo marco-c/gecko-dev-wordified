@@ -6523,7 +6523,7 @@ get
 the
 title
 .
-nsXPIDLString
+nsString
 title
 ;
 if

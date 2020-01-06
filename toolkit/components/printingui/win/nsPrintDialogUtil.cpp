@@ -4152,7 +4152,7 @@ nsHGLOBAL
 CreateGlobalDevModeAndInit
 (
 const
-nsXPIDLString
+nsString
 &
 aPrintName
 nsIPrintSettings
@@ -4625,7 +4625,7 @@ static
 void
 GetDefaultPrinterNameFromGlobalPrinters
 (
-nsXPIDLString
+nsAString
 &
 printerName
 )
@@ -4881,7 +4881,7 @@ Name
 to
 be
 used
-nsXPIDLString
+nsString
 printerName
 ;
 aPrintSettings
@@ -5145,6 +5145,10 @@ pDevNames
 +
 1
 printerName
+.
+get
+(
+)
 (
 len
 +
