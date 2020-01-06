@@ -981,7 +981,14 @@ SEARCH_TERM
 urlbar
 -
 reflows
+-
 "
++
+Date
+.
+now
+(
+)
 ;
 add_task
 (
@@ -994,6 +1001,7 @@ setup
 await
 addDummyHistoryEntries
 (
+SEARCH_TERM
 )
 ;
 }
