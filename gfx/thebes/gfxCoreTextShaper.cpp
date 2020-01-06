@@ -3945,14 +3945,9 @@ glyphStart
 details
 -
 >
-mXOffset
-=
-0
-;
-details
--
->
-mYOffset
+mOffset
+.
+y
 =
 -
 positions
