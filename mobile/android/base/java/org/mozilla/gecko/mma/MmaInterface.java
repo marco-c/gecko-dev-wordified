@@ -117,6 +117,13 @@ content
 .
 Context
 ;
+import
+java
+.
+util
+.
+Map
+;
 public
 interface
 MmaInterface
@@ -126,6 +133,12 @@ init
 (
 Activity
 Activity
+Map
+<
+String
+?
+>
+attributes
 )
 ;
 void
