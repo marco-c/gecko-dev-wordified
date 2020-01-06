@@ -4887,12 +4887,6 @@ UTF
 -
 8
 "
-STREAM_SEGMENT_SIZE
-Ci
-.
-nsIConverterInputStream
-.
-DEFAULT_REPLACEMENT_CHARACTER
 )
 ;
 }

@@ -1364,8 +1364,6 @@ UTF
 -
 8
 "
-0
-0x0000
 )
 ;
 converter
@@ -2062,8 +2060,6 @@ us
 -
 ascii
 "
-0
-0x0000
 )
 ;
 converter
