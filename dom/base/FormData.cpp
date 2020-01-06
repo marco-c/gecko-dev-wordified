@@ -719,6 +719,9 @@ nsIInputStream
 *
 *
 aPostDataStream
+int64_t
+*
+aPostDataStreamLength
 )
 {
 NS_NOTREACHED

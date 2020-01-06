@@ -4387,6 +4387,12 @@ nsIInputStream
 >
 postDataStream
 ;
+int64_t
+postDataStreamLength
+=
+-
+1
+;
 rv
 =
 aFormSubmission
@@ -4399,6 +4405,8 @@ getter_AddRefs
 (
 postDataStream
 )
+&
+postDataStreamLength
 )
 ;
 NS_ENSURE_SUBMIT_SUCCESS
@@ -4424,13 +4432,7 @@ VoidString
 (
 )
 postDataStream
--
-1
-/
-*
-XXXbaku
-*
-/
+postDataStreamLength
 nullptr
 false
 getter_AddRefs
