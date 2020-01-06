@@ -465,10 +465,6 @@ extern
 crate
 log
 ;
-extern
-crate
-lru_cache
-;
 #
 [
 macro_use
@@ -663,6 +659,10 @@ style_traits
 extern
 crate
 time
+;
+extern
+crate
+uluru
 ;
 extern
 crate
