@@ -724,6 +724,12 @@ FireTailDispatcher
 (
 )
 {
+AutoEnter
+context
+(
+this
+)
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 mTailDispatcher
@@ -1702,13 +1708,6 @@ MOZ_CRASH
 )
 ;
 }
-sCurrentThreadTLS
-.
-set
-(
-sMainThread
-)
-;
 }
 void
 AbstractThread
