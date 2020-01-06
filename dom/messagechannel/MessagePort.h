@@ -358,10 +358,6 @@ EventHandlerNonNull
 aCallback
 )
 ;
-IMPL_EVENT_HANDLER
-(
-messageerror
-)
 /
 /
 Non
@@ -832,11 +828,6 @@ nsRunnable
 .
 void
 Dispatch
-(
-)
-;
-void
-DispatchError
 (
 )
 ;
