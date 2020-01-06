@@ -404,7 +404,7 @@ tools
 )
 ]
         
-outdir
+format_outdir
 =
 os
 .
@@ -513,7 +513,7 @@ path
 .
 join
 (
-outdir
+format_outdir
 project
 )
             
@@ -779,9 +779,10 @@ addr
 [
 1
 ]
+                                      
 docroot
 =
-outdir
+format_outdir
 )
             
 print
