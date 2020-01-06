@@ -321,6 +321,14 @@ getCategoriesFromFieldNames
 (
 allFieldNames
 )
+focusedCategory
+:
+FormAutofillUtils
+.
+getCategoryFromFieldName
+(
+focusedFieldName
+)
 }
 )
 ;
