@@ -7002,6 +7002,11 @@ Some
 bloom_filter
 )
 visited_handling
+context
+.
+shared
+.
+quirks_mode
 )
 ;
 {
@@ -7485,6 +7490,11 @@ Some
 bloom_filter
 )
 visited_handling
+context
+.
+shared
+.
+quirks_mode
 )
 ;
 /
