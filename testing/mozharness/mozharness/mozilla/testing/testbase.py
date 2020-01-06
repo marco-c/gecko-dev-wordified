@@ -99,9 +99,13 @@ platform
 import
 pprint
 import
+re
+import
 urllib2
 import
 json
+import
+socket
 from
 urlparse
 import
@@ -371,7 +375,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -379,13 +383,13 @@ dest
 "
 installer_url
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -421,7 +425,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -429,13 +433,13 @@ dest
 "
 installer_path
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -455,9 +459,6 @@ automatically
 if
 run
 with
-"
-        
-"
 -
 -
 download
@@ -490,7 +491,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -498,13 +499,13 @@ dest
 "
 binary_path
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -550,7 +551,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -558,13 +559,13 @@ dest
 "
 exe_suffix
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -601,7 +602,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -609,13 +610,13 @@ dest
 "
 test_url
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -656,7 +657,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -664,13 +665,13 @@ dest
 "
 test_packages_url
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -711,7 +712,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -719,13 +720,13 @@ dest
 "
 jsshell_url
 "
-      
+     
 "
 default
 "
 :
 None
-      
+     
 "
 help
 "
@@ -761,7 +762,7 @@ action
 "
 store
 "
-      
+     
 "
 dest
 "
@@ -769,7 +770,7 @@ dest
 "
 download_symbols
 "
-      
+     
 "
 type
 "
@@ -777,7 +778,7 @@ type
 "
 choice
 "
-      
+     
 "
 choices
 "
@@ -790,7 +791,7 @@ ondemand
 true
 '
 ]
-      
+     
 "
 help
 "
@@ -1572,7 +1573,7 @@ s
 s
 "
 %
-                             
+                    
 (
 symbols_url
 self
@@ -1816,7 +1817,7 @@ py
 we
 drop
 "
-                     
+                
 "
 '
 read
@@ -2015,9 +2016,6 @@ test
 -
 url
 or
-"
-                               
-"
 -
 -
 test
@@ -2365,8 +2363,6 @@ username
 /
 password
 combination
-            
-#
 from
 here
 on
@@ -2522,6 +2518,22 @@ files
 '
 ]
             
+buildbot_prop_branch
+=
+self
+.
+buildbot_config
+[
+'
+properties
+'
+]
+[
+'
+branch
+'
+]
+            
 #
 Bug
 868490
@@ -2622,11 +2634,7 @@ config
 s
 .
 \
-n
-"
-                           
-"
-Expected
+nExpected
 these
 number
 (
@@ -2870,7 +2878,6 @@ gcno
 .
 zip
 '
-                                                             
 '
 stylo
 -
@@ -3454,7 +3461,6 @@ action
 "
         
 if
-(
 self
 .
 config
@@ -3465,7 +3471,6 @@ get
 require_test_zip
 "
 )
-            
 and
 not
 self
@@ -3476,7 +3481,6 @@ not
 self
 .
 test_packages_url
-)
 :
             
 message
@@ -4535,10 +4539,11 @@ download_file
 self
 .
 installer_url
+                                            
 file_name
 =
 file_name
-                                    
+                                            
 parent_dir
 =
 dirs
@@ -4547,6 +4552,7 @@ dirs
 abs_work_dir
 '
 ]
+                                            
 error_level
 =
 FATAL
@@ -5369,7 +5375,6 @@ query_python_path
 mozinstall
 "
 )
-                             
 return_type
 =
 "
@@ -6170,6 +6175,7 @@ self
 query_abs_dirs
 (
 )
+;
         
 nodejs_path
 =
@@ -6396,9 +6402,6 @@ t
 be
 found
 .
-"
-                         
-"
 Tried
 looking
 in

@@ -1678,13 +1678,14 @@ fail_count
 =
 0
 and
+\
+            
 (
 self
 .
 known_fail_count
 is
 None
-                                                              
 or
 self
 .
@@ -1720,6 +1721,7 @@ self
 worst_level
 (
 WARNING
+                                                    
 self
 .
 worst_log_level
@@ -1734,6 +1736,7 @@ self
 worst_level
 (
 TBPL_WARNING
+                                                
 self
 .
 tbpl_status

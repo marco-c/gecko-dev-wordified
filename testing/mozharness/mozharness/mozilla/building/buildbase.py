@@ -202,6 +202,8 @@ EXIT_STATUS_DICT
     
 TBPL_STATUS_DICT
     
+TBPL_EXCEPTION
+    
 TBPL_FAILURE
     
 TBPL_RETRY
@@ -437,6 +439,8 @@ update
 (
 MOCK_ERROR_MSGS
 )
+#
+#
 #
 Output
 Parsers
@@ -1106,9 +1110,6 @@ multiple
 package
 URLs
 .
-"
-                                           
-"
 Please
 update
 buildbase
@@ -1310,7 +1311,6 @@ size
 s
 "
 %
-                          
 (
 m
 .
@@ -2101,6 +2101,9 @@ be
 different
         
 #
+#
+#
+#
 The
 order
 from
@@ -2111,6 +2114,7 @@ lowest
 is
 :
         
+#
 #
 There
 can
@@ -2175,7 +2179,9 @@ custom
 config
         
 #
+#
         
+#
 #
 There
 can
@@ -2183,7 +2189,6 @@ be
 many
 of
 these
-:
         
 #
 4
@@ -2243,6 +2248,12 @@ default
 in
 mozharness
         
+#
+#
+        
+#
+#
+#
 #
         
 #
@@ -3090,7 +3101,6 @@ gradle
 dependencies
 '
 :
-            
 '
 builds
 /
@@ -6921,6 +6931,7 @@ self
 get_output_from_command_m
 (
 cmd
+                
 cwd
 =
 dirs
@@ -10490,7 +10501,7 @@ self
 .
 buildbot_config
 and
-              
+                  
 self
 .
 buildbot_config
@@ -11986,14 +11997,12 @@ buildbot_buildid
 )
             
 if
-(
 app_ini_buildid
 =
 =
 buildbot_buildid
-)
-is
-not
+!
+=
 None
 :
                 
@@ -13157,9 +13166,6 @@ to
 S3
 :
 uploadFiles
-'
-                         
-'
 property
 is
 missing
@@ -13358,7 +13364,7 @@ zip
 '
 )
 or
-                
+                           
 m
 .
 endswith
@@ -13666,7 +13672,6 @@ log_obj
 abs_log_dir
 x
 )
-                     
 for
 x
 in
@@ -14605,12 +14610,12 @@ failures
 when
 not
 invoking
-            
-#
 mach
 via
 bash
 .
+            
+#
 See
 bug
 1364651
@@ -15262,9 +15267,6 @@ multi
 l10n
 build
 .
-"
-                       
-"
 Was
 trying
 to
@@ -18908,17 +18910,17 @@ downloadables
 [
 installer_url
 ]
-                                   
+                            
 branch
 =
 talos_branch
-                                   
+                            
 username
 =
 '
 sendchange
 '
-                                   
+                            
 sendchange_props
 =
 sendchange_props
@@ -19282,7 +19284,7 @@ env
 UPLOAD_PATH
 "
 ]
-                                      
+                    
 '
 balrog_props
 .

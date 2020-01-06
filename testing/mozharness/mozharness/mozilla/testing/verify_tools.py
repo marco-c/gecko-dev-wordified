@@ -91,6 +91,8 @@ BLOCK
 *
 *
 import
+argparse
+import
 os
 import
 posixpath
@@ -298,7 +300,6 @@ extracted
 "
         
 if
-not
 self
 .
 config
@@ -309,6 +310,9 @@ get
 verify
 '
 )
+!
+=
+True
 :
             
 return
@@ -481,7 +485,6 @@ abs_mochitest_dir
 '
 browser
 '
-                          
 '
 browser
 -
@@ -685,7 +688,6 @@ layout
 '
 reftests
 '
-                          
 '
 reftest
 .
@@ -719,7 +721,6 @@ testing
 '
 crashtest
 '
-                          
 '
 crashtests
 .
@@ -752,8 +753,6 @@ jsreftest
 '
 tests
 '
-            
-#
 '
 jstests
 .
@@ -861,7 +860,6 @@ reftest_test_dir
 suite
 None
 )
-                                     
 for
 t
 in
@@ -1435,6 +1433,9 @@ get
 verify
 '
 )
+!
+=
+True
 :
             
 #
@@ -1756,6 +1757,9 @@ get
 verify
 '
 )
+=
+=
+True
 :
             
 if
@@ -1782,7 +1786,7 @@ key
 for
 key
 in
-                              
+                    
 self
 .
 verify_suites

@@ -101,8 +101,18 @@ mozharness
 .
 base
 .
+log
+import
+FATAL
+WARNING
+from
+mozharness
+.
+base
+.
 python
 import
+PostScriptRun
 PreScriptAction
 from
 mozharness
@@ -218,9 +228,6 @@ LLVMPipe
 )
 to
 use
-"
-                
-"
 the
 GL
 compositor
@@ -2027,8 +2034,6 @@ set
 GCOV_PREFIX
 and
 JS_CODE_COVERAGE_OUTPUT_DIR
-        
-#
 env
 variables
         

@@ -124,7 +124,7 @@ upload
 branch
 "
 ]
-     
+    
 {
 "
 dest
@@ -133,7 +133,7 @@ dest
 "
 blob_upload_branch
 "
-      
+     
 "
 help
 "
@@ -147,6 +147,7 @@ server
 s
 metadata
 "
+    
 }
 ]
     
@@ -162,7 +163,7 @@ upload
 server
 "
 ]
-     
+    
 {
 "
 dest
@@ -171,7 +172,7 @@ dest
 "
 blob_upload_servers
 "
-      
+     
 "
 action
 "
@@ -179,7 +180,7 @@ action
 "
 extend
 "
-      
+     
 "
 help
 "
@@ -191,6 +192,7 @@ servers
 s
 location
 "
+    
 }
 ]
     
@@ -397,7 +399,7 @@ default_blob_upload_servers
 )
 and
 \
-            
+                 
 self
 .
 config
@@ -668,7 +670,7 @@ get
 '
 blob_upload_servers
 '
-                                                
+                               
 self
 .
 config
@@ -821,10 +823,10 @@ s
 s
 "
 %
-                      
 (
 blob_dir
 blob_branch
+                      
 "
 "
 .
@@ -868,7 +870,6 @@ auth
 +
 branch
 +
-                             
 dir_to_upload
 +
 record_uploaded_files
@@ -928,7 +929,7 @@ prop_name
 '
 blobber_files
 '
-                                       
+                    
 prop_value
 =
 uploaded_files
