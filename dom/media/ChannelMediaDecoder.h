@@ -516,15 +516,6 @@ override
 ;
 private
 :
-MediaResource
-*
-GetResource
-(
-)
-const
-override
-final
-;
 void
 PinForSeek
 (
