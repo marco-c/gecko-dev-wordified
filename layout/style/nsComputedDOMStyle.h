@@ -827,6 +827,8 @@ nsStyleContext
 &
 &
 aContext
+uint64_t
+aGeneration
 )
 ;
 void
@@ -835,6 +837,8 @@ SetFrameStyleContext
 nsStyleContext
 *
 aContext
+uint64_t
+aGeneration
 )
 ;
 static
