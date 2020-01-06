@@ -335,18 +335,6 @@ TextLayer
 rect
 )
 ;
-LayerRect
-clipRect
-=
-ClipRect
-(
-)
-.
-valueOr
-(
-rect
-)
-;
 WrBridge
 (
 )
@@ -359,7 +347,7 @@ mGlyphs
 mFont
 aSc
 rect
-clipRect
+rect
 )
 ;
 }
