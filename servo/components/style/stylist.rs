@@ -7815,7 +7815,7 @@ flags_setter
 CascadeLevel
 :
 :
-XBL
+AuthorNormal
 )
 ;
 }
