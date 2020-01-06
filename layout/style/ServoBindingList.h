@@ -285,6 +285,13 @@ bool
 RawGeckoElementBorrowed
 element
 )
+SERVO_BINDING_FUNC
+(
+Servo_Element_IsPrimaryStyleReusedViaRuleNode
+bool
+RawGeckoElementBorrowed
+element
+)
 /
 /
 Styleset
