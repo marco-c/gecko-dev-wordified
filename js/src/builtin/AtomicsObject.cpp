@@ -3539,7 +3539,7 @@ jit
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 size
 )
