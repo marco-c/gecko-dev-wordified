@@ -6777,7 +6777,7 @@ constant
 0
 0
 or
-0x01000000
+0x40000000
 just
 return
 the
@@ -6807,7 +6807,7 @@ html
 #
 specificity
 return
-0x01000000
+0x40000000
 ;
 }
 if
