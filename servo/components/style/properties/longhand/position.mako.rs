@@ -3496,11 +3496,6 @@ animation_value_type
 "
 discrete
 "
-disable_when_testing
-=
-"
-True
-"
 boxed
 =
 "

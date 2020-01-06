@@ -7210,18 +7210,6 @@ in
 /
 script
 .
-if
-!
-cfg
-!
-(
-feature
-=
-"
-testing
-"
-)
-{
 debug_assert
 !
 (
@@ -7264,7 +7252,6 @@ is_script
 )
 )
 ;
-}
 let
 current
 =

@@ -197,11 +197,6 @@ crate
 |
 html
 ]
-[
-testing
-|
-regular
-]
 "
 %
 sys
@@ -219,7 +214,7 @@ sys
 argv
 )
 <
-4
+3
 :
         
 abort
@@ -244,20 +239,6 @@ argv
 [
 2
 ]
-    
-testing
-=
-sys
-.
-argv
-[
-3
-]
-=
-=
-"
-testing
-"
     
 if
 product
@@ -304,9 +285,6 @@ PropertiesData
 product
 =
 product
-testing
-=
-testing
 )
     
 template
