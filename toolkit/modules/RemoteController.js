@@ -79,16 +79,6 @@ MPL
 0
 /
 .
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-RemoteController
-"
-]
-;
 const
 Ci
 =
