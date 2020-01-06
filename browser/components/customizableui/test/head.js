@@ -300,6 +300,11 @@ kTabEventFailureTimeoutInMs
 =
 20000
 ;
+const
+kForceOverflowWidthPx
+=
+300
+;
 function
 createDummyXULButton
 (

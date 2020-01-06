@@ -237,7 +237,7 @@ window
 .
 resizeTo
 (
-400
+kForceOverflowWidthPx
 window
 .
 outerHeight
@@ -864,7 +864,7 @@ window
 .
 resizeTo
 (
-400
+kForceOverflowWidthPx
 window
 .
 outerHeight
@@ -1197,7 +1197,7 @@ window
 .
 resizeTo
 (
-400
+kForceOverflowWidthPx
 window
 .
 outerHeight

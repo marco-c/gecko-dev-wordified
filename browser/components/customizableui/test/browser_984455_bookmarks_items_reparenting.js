@@ -117,11 +117,6 @@ window
 .
 outerWidth
 ;
-const
-kSmallWidth
-=
-400
-;
 /
 *
 *
@@ -990,7 +985,7 @@ window
 .
 resizeTo
 (
-kSmallWidth
+kForceOverflowWidthPx
 window
 .
 outerHeight

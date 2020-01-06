@@ -111,16 +111,16 @@ button
 )
 ;
 let
-searchBox
+homeButton
 =
 document
 .
 getElementById
 (
 "
-search
+home
 -
-container
+button
 "
 )
 ;
@@ -146,7 +146,7 @@ devButton
 downloadsButton
 &
 &
-searchBox
+homeButton
 &
 &
 palette
@@ -165,7 +165,7 @@ downloadsButton
 ;
 simulateItemDrag
 (
-searchBox
+homeButton
 palette
 )
 ;

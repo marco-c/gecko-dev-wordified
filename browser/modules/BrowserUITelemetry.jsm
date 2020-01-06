@@ -424,11 +424,6 @@ urlbar
 container
 "
 "
-search
--
-container
-"
-"
 downloads
 -
 button
@@ -587,6 +582,11 @@ bookmarks
 menu
 -
 button
+"
+"
+search
+-
+container
 "
 "
 open
