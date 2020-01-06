@@ -18117,7 +18117,7 @@ ShouldDumpExts
 (
 )
 ;
-void
+bool
 Readback
 (
 SharedSurface
