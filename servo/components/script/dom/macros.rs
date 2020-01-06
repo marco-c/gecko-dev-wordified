@@ -2177,7 +2177,7 @@ unsafe_no_jsmanaged_fields
 (
 ty
 :
-ident
+ty
 )
 +
 )
