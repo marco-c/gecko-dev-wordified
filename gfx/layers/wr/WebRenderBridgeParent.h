@@ -1973,6 +1973,9 @@ ImageCompositeNotificationInfo
 >
 mImageCompositeNotifications
 ;
+TimeStamp
+mPreviousFrameTimeStamp
+;
 /
 /
 These
