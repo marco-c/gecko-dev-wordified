@@ -89,6 +89,8 @@ base
 import
 MachCommandBase
 MozbuildObject
+import
+mozversioncontrol
 CommandProvider
 class
 SearchProvider
@@ -2625,16 +2627,14 @@ Popen
 PIPE
         
 if
-os
-.
-path
-.
-exists
+isinstance
 (
-"
+self
 .
-hg
-"
+repository
+mozversioncontrol
+.
+HgRepository
 )
 :
             
@@ -3155,16 +3155,14 @@ the
 diff
             
 if
-os
-.
-path
-.
-exists
+isinstance
 (
-"
+self
 .
-hg
-"
+repository
+mozversioncontrol
+.
+HgRepository
 )
 :
                 
