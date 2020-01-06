@@ -3250,6 +3250,7 @@ ice_
 new
 TransportLayerIce
 (
+name
 )
 ;
 ice_
@@ -3257,6 +3258,12 @@ ice_
 >
 SetParameters
 (
+ice_ctx_
+-
+>
+ctx
+(
+)
 stream
 1
 )

@@ -400,13 +400,7 @@ msection
 std
 :
 :
-vector
-<
-std
-:
-:
 string
->
 *
 streamId
 std
