@@ -335,10 +335,10 @@ destructor
 which
 should
 call
-StartListening
+StartObserving
 and
 *
-StopListening
+StopObserving
 respectively
 .
 *
@@ -516,12 +516,12 @@ virtual
 protected
 methods
 void
-StartListening
+StartObserving
 (
 )
 ;
 void
-StopListening
+StopObserving
 (
 )
 ;
@@ -873,7 +873,7 @@ override
 mOwningObserver
 -
 >
-StopListening
+StopObserving
 (
 )
 ;
@@ -896,7 +896,7 @@ aTo
 mOwningObserver
 -
 >
-StartListening
+StartObserving
 (
 )
 ;

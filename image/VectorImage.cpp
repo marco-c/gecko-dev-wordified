@@ -436,7 +436,7 @@ VectorImage
 "
 )
 ;
-StartListening
+StartObserving
 (
 )
 ;
@@ -495,7 +495,7 @@ SVGRootRenderingObserver
 (
 )
 {
-StopListening
+StopObserving
 (
 )
 ;
