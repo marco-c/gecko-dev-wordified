@@ -127,9 +127,7 @@ require
 "
 .
 /
-dpr
--
-selector
+DprSelector
 "
 )
 )
@@ -144,11 +142,7 @@ require
 "
 .
 /
-network
--
-throttling
--
-selector
+NetworkThrottlingSelector
 "
 )
 )

@@ -136,9 +136,7 @@ require
 "
 .
 /
-device
--
-adder
+DeviceAdder
 "
 )
 )

@@ -128,7 +128,7 @@ require
 "
 .
 /
-browser
+Browser
 "
 )
 )
@@ -143,9 +143,7 @@ require
 "
 .
 /
-viewport
--
-toolbar
+ViewportToolbar
 "
 )
 )
