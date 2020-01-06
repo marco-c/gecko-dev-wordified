@@ -236,6 +236,7 @@ AddStream
 (
 aInputStream
 id
+aSize
 aChildID
 )
 ;
@@ -576,6 +577,8 @@ Get
 GetStream
 (
 mID
+0
+mSize
 getter_AddRefs
 (
 stream
@@ -815,6 +818,8 @@ Get
 GetStream
 (
 mID
+0
+mSize
 getter_AddRefs
 (
 stream

@@ -210,6 +210,8 @@ nsID
 &
 aID
 uint64_t
+aSize
+uint64_t
 aChildID
 )
 ;
@@ -229,6 +231,10 @@ const
 nsID
 &
 aID
+uint64_t
+aStart
+uint64_t
+aLength
 nsIInputStream
 *
 *
@@ -319,6 +325,9 @@ shutdowns
 .
 uint64_t
 mChildID
+;
+uint64_t
+mSize
 ;
 }
 ;
