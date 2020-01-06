@@ -15594,6 +15594,9 @@ excess
 ;
 aSize
 =
+(
+float
+)
 nscoord_MAX
 ;
 }
