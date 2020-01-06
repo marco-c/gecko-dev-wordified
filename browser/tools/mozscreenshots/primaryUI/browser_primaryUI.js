@@ -114,6 +114,9 @@ Toolbars
 "
 LightweightThemes
 "
+"
+UIDensities
+"
 ]
 ;
 await
