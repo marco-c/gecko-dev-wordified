@@ -198,6 +198,15 @@ LayersMessages
 .
 h
 "
+#
+include
+"
+RenderPassMLGPU
+-
+inl
+.
+h
+"
 namespace
 mozilla
 {
@@ -2712,6 +2721,7 @@ ToUnknownRect
 ColorTraits
 traits
 (
+aInfo
 Rect
 (
 rect
@@ -2727,7 +2737,6 @@ txn
 Add
 (
 traits
-aInfo
 )
 )
 {
@@ -3333,6 +3342,7 @@ i
 TexturedTraits
 traits
 (
+aInfo
 layerRects
 [
 i
@@ -3351,7 +3361,6 @@ aTxn
 Add
 (
 traits
-aInfo
 )
 )
 {
