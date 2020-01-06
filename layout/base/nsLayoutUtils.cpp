@@ -327,7 +327,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -4894,7 +4894,7 @@ DestroyViewID
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -10186,7 +10186,7 @@ const
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aPseudoProperty
 )
@@ -10728,7 +10728,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aPseudoElement
 )
@@ -25810,7 +25810,7 @@ BoxCallback
 aCallback
 )
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -26011,7 +26011,7 @@ while
 aFrame
 )
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -52808,7 +52808,7 @@ nsSetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -52863,7 +52863,7 @@ nsSetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 int32_t
@@ -52940,7 +52940,7 @@ nsUnsetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -58275,7 +58275,7 @@ nsLayoutUtils
 :
 CanScrollOriginClobberApz
 (
-nsIAtom
+nsAtom
 *
 aScrollOrigin
 )
@@ -58854,7 +58854,7 @@ AllowScrollOriginDowngrade
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 lastSmoothScrollOrigin
 =

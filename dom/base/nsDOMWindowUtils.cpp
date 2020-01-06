@@ -1932,7 +1932,7 @@ doc
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -14523,7 +14523,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudo
 =
