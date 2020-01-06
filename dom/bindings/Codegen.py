@@ -61536,6 +61536,24 @@ fill
 "
 "
                 
+Maybe
+<
+AutoCEReaction
+>
+ceReaction
+;
+                
+if
+(
+CustomElementRegistry
+:
+:
+IsCustomElementEnabled
+(
+)
+)
+{
+                  
 CustomElementReactionsStack
 *
 reactionsStack
@@ -61547,20 +61565,13 @@ obj
 }
 )
 ;
-                
-Maybe
-<
-AutoCEReaction
->
-ceReaction
-;
-                
+                  
 if
 (
 reactionsStack
 )
 {
-                  
+                    
 ceReaction
 .
 emplace
@@ -61568,6 +61579,8 @@ emplace
 reactionsStack
 )
 ;
+                  
+}
                 
 }
                 
