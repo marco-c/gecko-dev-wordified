@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MediaDecoderReaderWrapper_h_
+ReaderProxy_h_
 #
 define
-MediaDecoderReaderWrapper_h_
+ReaderProxy_h_
 #
 include
 "
@@ -231,7 +231,7 @@ reader
 *
 /
 class
-MediaDecoderReaderWrapper
+ReaderProxy
 {
 using
 MetadataPromise
@@ -283,12 +283,12 @@ TrackSet
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-MediaDecoderReaderWrapper
+ReaderProxy
 )
 ;
 public
 :
-MediaDecoderReaderWrapper
+ReaderProxy
 (
 AbstractThread
 *
@@ -569,7 +569,7 @@ aCanonical
 private
 :
 ~
-MediaDecoderReaderWrapper
+ReaderProxy
 (
 )
 ;
@@ -639,7 +639,7 @@ manager
 .
 WatchManager
 <
-MediaDecoderReaderWrapper
+ReaderProxy
 >
 mWatchManager
 ;
@@ -674,4 +674,4 @@ mozilla
 endif
 /
 /
-MediaDecoderReaderWrapper_h_
+ReaderProxy_h_
