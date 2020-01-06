@@ -170,7 +170,7 @@ public
 class
 WelcomePanel
 extends
-StreamItem
+StreamViewHolder
 implements
 View
 .
@@ -206,7 +206,7 @@ RecyclerView
 .
 Adapter
 <
-StreamItem
+StreamViewHolder
 >
 adapter
 ;
@@ -226,7 +226,7 @@ RecyclerView
 .
 Adapter
 <
-StreamItem
+StreamViewHolder
 >
 adapter
 )
@@ -404,7 +404,7 @@ version
 of
 the
 Header
-Item
+StreamViewHolder
 /
 /
 with

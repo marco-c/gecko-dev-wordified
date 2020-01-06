@@ -142,7 +142,7 @@ public
 class
 TopSite
 implements
-Item
+WebpageModel
 {
 private
 final

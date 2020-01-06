@@ -215,10 +215,8 @@ public
 class
 Highlight
 implements
-Item
-StreamRecyclerAdapter
-.
-RowItem
+WebpageModel
+RowModel
 {
 /
 *

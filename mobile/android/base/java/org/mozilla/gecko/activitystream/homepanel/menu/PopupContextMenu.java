@@ -224,7 +224,7 @@ homepanel
 .
 model
 .
-Item
+WebpageModel
 ;
 /
 *
@@ -272,7 +272,7 @@ final
 MenuMode
 mode
 final
-Item
+WebpageModel
 item
 HomePager
 .

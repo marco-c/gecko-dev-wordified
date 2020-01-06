@@ -297,7 +297,7 @@ public
 class
 HighlightItem
 extends
-StreamItem
+StreamViewHolder
 {
 private
 static
