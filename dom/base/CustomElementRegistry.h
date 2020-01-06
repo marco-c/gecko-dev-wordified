@@ -250,6 +250,9 @@ oldValue
 nsString
 newValue
 ;
+nsString
+namespaceURI
+;
 }
 ;
 class
