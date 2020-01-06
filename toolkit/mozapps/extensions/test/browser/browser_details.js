@@ -13274,7 +13274,7 @@ hidden
 "
 )
 ;
-is_element_hidden
+is_element_visible
 (
 get
 (
@@ -13291,7 +13291,7 @@ Preferences
 button
 should
 be
-hidden
+visible
 "
 )
 ;
