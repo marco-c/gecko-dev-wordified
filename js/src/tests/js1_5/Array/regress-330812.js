@@ -15,6 +15,14 @@ match
 (
 /
 x86_64
+|
+aarch64
+|
+ppc64
+|
+ppc64le
+|
+s390x
 /
 )
 |
