@@ -5,11 +5,9 @@ jit
 -
 test
 |
-error
-:
-out
-of
-memory
+allow
+-
+oom
 ;
 allow
 -
