@@ -13881,6 +13881,15 @@ MakeVisible
 (
 )
 ;
+if
+(
+!
+docShell
+)
+{
+return
+;
+}
 /
 /
 We
