@@ -4700,7 +4700,7 @@ setWasm
 useWasm
 )
 .
-setWasmAlwaysBaseline
+setWasmBaseline
 (
 useWasmBaseline
 )

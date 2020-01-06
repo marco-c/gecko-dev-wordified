@@ -650,7 +650,7 @@ ScriptedCaller
 scriptedCaller
 )
 {
-alwaysBaseline
+baselineEnabled
 =
 cx
 -
@@ -659,7 +659,7 @@ options
 (
 )
 .
-wasmAlwaysBaseline
+wasmBaseline
 (
 )
 ;
