@@ -179,12 +179,6 @@ wr
 DisplayListBuilder
 &
 aBuilder
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 const
 StackingContextHelper
 &
@@ -261,7 +255,6 @@ though
 PushLayerLocalClip
 (
 aStackingContext
-aResources
 )
 ;
 return
@@ -414,7 +407,6 @@ ref
 (
 )
 aStackingContext
-aResources
 )
 ;
 }
@@ -505,7 +497,6 @@ stack
 PushLayerLocalClip
 (
 aStackingContext
-aResources
 )
 ;
 }
@@ -599,7 +590,6 @@ ref
 (
 )
 aStackingContext
-aResources
 )
 ;
 }
@@ -890,7 +880,6 @@ else
 PushLayerLocalClip
 (
 aStackingContext
-aResources
 )
 ;
 }
@@ -2486,12 +2475,6 @@ const
 StackingContextHelper
 &
 aStackingContext
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 )
 {
 Layer
@@ -2626,7 +2609,6 @@ mLayer
 BuildWrMaskLayer
 (
 aStackingContext
-aResources
 )
 ;
 LayerRect
@@ -2694,12 +2676,6 @@ const
 StackingContextHelper
 &
 aSc
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 )
 {
 LayerRect
@@ -2807,7 +2783,6 @@ maskLayer
 GetTransform
 (
 )
-aResources
 )
 ;
 }
