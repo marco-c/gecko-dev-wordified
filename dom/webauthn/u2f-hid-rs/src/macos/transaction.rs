@@ -293,15 +293,6 @@ channel
 )
 ;
 let
-cbc
-=
-callback
-.
-clone
-(
-)
-;
-let
 timeout
 =
 (
@@ -466,7 +457,7 @@ start
 |
 e
 |
-cbc
+callback
 .
 call
 (
@@ -527,7 +518,7 @@ t
 called
 already
 .
-cbc
+callback
 .
 call
 (
