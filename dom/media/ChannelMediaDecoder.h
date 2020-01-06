@@ -292,6 +292,8 @@ override
 void
 NotifySuspendedStatusChanged
 (
+bool
+aSuspendedByCache
 )
 override
 ;

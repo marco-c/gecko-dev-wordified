@@ -377,6 +377,8 @@ virtual
 void
 NotifySuspendedStatusChanged
 (
+bool
+aSuspendedByCache
 )
 {
 }
