@@ -2261,9 +2261,8 @@ nsCSSKeyframesRule
 *
 KeyframesRuleForName
 (
-const
-nsString
-&
+nsAtom
+*
 aName
 )
 ;

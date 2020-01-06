@@ -1358,8 +1358,8 @@ nsPresContext
 *
 aPresContext
 const
-nsString
-&
+nsAtom
+*
 aName
 )
 ;

@@ -24785,7 +24785,10 @@ rule
 new
 nsCSSKeyframesRule
 (
+NS_Atomize
+(
 name
+)
 linenum
 colnum
 )

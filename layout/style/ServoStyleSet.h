@@ -2425,9 +2425,8 @@ aElement
 bool
 GetKeyframesForName
 (
-const
-nsString
-&
+nsAtom
+*
 aName
 const
 nsTimingFunction

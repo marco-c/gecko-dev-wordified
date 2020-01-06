@@ -19349,9 +19349,10 @@ mDelay
 ;
 mName
 =
-EmptyString
-(
-)
+nsGkAtoms
+:
+:
+_empty
 ;
 mDirection
 =
