@@ -1886,6 +1886,10 @@ dd
 =
 {
 }
+aodd
+=
+{
+}
 data
 =
 {
@@ -1897,6 +1901,11 @@ el
 el
 .
 has_dirty_descendants
+(
+)
+el
+.
+has_animation_only_dirty_descendants
 (
 )
 el
@@ -1972,6 +1981,15 @@ has_dirty_descendants
 )
 ;
 let
+aodd
+=
+el
+.
+has_animation_only_dirty_descendants
+(
+)
+;
+let
 data
 =
 el
@@ -2016,6 +2034,10 @@ dd
 =
 {
 }
+aodd
+=
+{
+}
 data
 =
 {
@@ -2031,6 +2053,7 @@ values
 "
 el
 dd
+aodd
 &
 data
 values
