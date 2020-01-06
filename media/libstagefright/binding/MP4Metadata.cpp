@@ -274,9 +274,8 @@ TimeUnit
 namespace
 mp4_demuxer
 {
-static
 LazyLogModule
-sLog
+gMP4MetadataLog
 (
 "
 MP4Metadata
@@ -975,7 +974,7 @@ Length
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -1165,7 +1164,7 @@ length
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -1488,7 +1487,7 @@ aType
 ;
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -3332,7 +3331,7 @@ fallible
 ;
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -4721,7 +4720,7 @@ isValid
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -4850,7 +4849,7 @@ rv
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -4940,7 +4939,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -4968,7 +4967,7 @@ get
 ;
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5018,7 +5017,7 @@ mp4parse_status_OOM
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5230,7 +5229,7 @@ mp4parse_status_OK
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5277,7 +5276,7 @@ NumberTracksError
 }
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5674,7 +5673,7 @@ mp4parse_status_OK
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5867,7 +5866,7 @@ break
 }
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -5958,7 +5957,7 @@ mp4parse_status_OK
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -6079,7 +6078,7 @@ mp4parse_status_OK
 {
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -6162,7 +6161,7 @@ default
 :
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
@@ -6299,7 +6298,7 @@ e
 }
 MOZ_LOG
 (
-sLog
+gMP4MetadataLog
 LogLevel
 :
 :
