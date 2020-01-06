@@ -116,13 +116,6 @@ URI
 *
 /
 var
-hs
-=
-PlacesUtils
-.
-history
-;
-var
 bs
 =
 PlacesUtils

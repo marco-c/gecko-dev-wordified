@@ -366,11 +366,6 @@ results
 ]
 ;
 var
-matchCount
-=
-0
-;
-var
 now
 =
 Date

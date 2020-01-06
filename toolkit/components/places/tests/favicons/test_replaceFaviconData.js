@@ -49,13 +49,6 @@ PlacesUtils
 favicons
 ;
 var
-histsvc
-=
-PlacesUtils
-.
-history
-;
-var
 originalFavicon
 =
 {

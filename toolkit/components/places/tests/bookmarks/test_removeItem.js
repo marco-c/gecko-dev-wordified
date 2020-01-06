@@ -99,12 +99,6 @@ MPL
 .
 *
 /
-var
-tests
-=
-[
-]
-;
 const
 DEFAULT_INDEX
 =

@@ -2224,13 +2224,3 @@ check_orphans
 }
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
