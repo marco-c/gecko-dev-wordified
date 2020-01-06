@@ -226,6 +226,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+prsystem
+.
+h
+"
 typedef
 mozilla
 :

@@ -154,6 +154,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

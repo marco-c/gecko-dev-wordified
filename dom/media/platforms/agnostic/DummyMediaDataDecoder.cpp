@@ -137,6 +137,13 @@ H264
 .
 h
 "
+#
+include
+"
+MP4Decoder
+.
+h
+"
 namespace
 mozilla
 {

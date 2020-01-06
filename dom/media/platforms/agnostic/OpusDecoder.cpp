@@ -180,6 +180,13 @@ h
 "
 #
 include
+"
+VideoUtils
+.
+h
+"
+#
+include
 <
 inttypes
 .
