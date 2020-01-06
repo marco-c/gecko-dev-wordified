@@ -668,6 +668,8 @@ ExtensionPreferencesManager
 setSetting
 (
 extension
+.
+id
 CONTAINERS_ENABLED_SETTING_NAME
 extension
 .

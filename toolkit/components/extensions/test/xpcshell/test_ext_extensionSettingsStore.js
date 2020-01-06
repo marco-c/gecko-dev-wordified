@@ -590,6 +590,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -628,6 +630,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 itemToAdd
 .
@@ -718,6 +722,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -754,6 +760,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -821,6 +829,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 itemToAdd
 .
@@ -916,6 +926,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1007,6 +1019,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1043,6 +1057,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 itemToAdd
 .
@@ -1136,6 +1152,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1179,6 +1197,8 @@ ExtensionSettingsStore
 getAllForExtension
 (
 extension
+.
+id
 TEST_TYPE
 )
 ;
@@ -1228,6 +1248,8 @@ extensions
 [
 0
 ]
+.
+id
 "
 myType
 "
@@ -1288,6 +1310,8 @@ extensions
 [
 0
 ]
+.
+id
 "
 myType
 "
@@ -1354,6 +1378,8 @@ extensions
 [
 0
 ]
+.
+id
 "
 myType
 "
@@ -1429,6 +1455,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 "
@@ -1483,6 +1511,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1518,6 +1548,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 )
 ;
@@ -1582,6 +1614,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1648,6 +1682,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1683,6 +1719,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 )
 ;
@@ -1747,6 +1785,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1811,6 +1851,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1861,6 +1903,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 )
 ;
@@ -1925,6 +1969,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -1962,6 +2008,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2015,6 +2063,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2090,6 +2140,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2137,6 +2189,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2213,6 +2267,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2259,6 +2315,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2333,6 +2391,8 @@ extensions
 [
 2
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2398,6 +2458,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 itemToAdd
 .
@@ -2479,6 +2541,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2562,6 +2626,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2625,6 +2691,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2672,6 +2740,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2736,6 +2806,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2781,6 +2853,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2842,6 +2916,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2897,6 +2973,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 key
 )
@@ -2973,6 +3051,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 testKey
 1
@@ -3065,6 +3145,8 @@ extensions
 [
 extensionIndex
 ]
+.
+id
 TEST_TYPE
 testKey
 )
@@ -3164,6 +3246,8 @@ extensions
 [
 1
 ]
+.
+id
 TEST_TYPE
 "
 not
@@ -3457,6 +3541,8 @@ ExtensionSettingsStore
 addSetting
 (
 one
+.
+id
 type
 key
 "
@@ -3499,6 +3585,8 @@ ExtensionSettingsStore
 addSetting
 (
 two
+.
+id
 type
 key
 "
@@ -3541,6 +3629,8 @@ ExtensionSettingsStore
 addSetting
 (
 three
+.
+id
 type
 key
 "
@@ -3641,6 +3731,8 @@ ExtensionSettingsStore
 enable
 (
 one
+.
+id
 type
 key
 )
@@ -3680,6 +3772,8 @@ ExtensionSettingsStore
 enable
 (
 three
+.
+id
 type
 key
 )
@@ -3719,6 +3813,8 @@ ExtensionSettingsStore
 enable
 (
 two
+.
+id
 type
 key
 )
@@ -3785,6 +3881,8 @@ ExtensionSettingsStore
 removeSetting
 (
 three
+.
+id
 type
 key
 )
@@ -3794,6 +3892,8 @@ ExtensionSettingsStore
 removeSetting
 (
 two
+.
+id
 type
 key
 )
@@ -3803,6 +3903,8 @@ ExtensionSettingsStore
 removeSetting
 (
 one
+.
+id
 type
 key
 )

@@ -630,6 +630,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -664,6 +666,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 newValue1
 )
@@ -716,6 +720,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -785,6 +791,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 newValue2
 )
@@ -844,6 +852,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 )
 ;
@@ -904,6 +914,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 )
 ;
@@ -964,6 +976,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 )
 ;
@@ -1024,6 +1038,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 newValue2
 )
@@ -1083,6 +1099,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -1142,6 +1160,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -1199,6 +1219,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -1258,6 +1280,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 )
 ;
@@ -1411,6 +1435,8 @@ extensions
 [
 0
 ]
+.
+id
 setting
 newValue3
 )
@@ -1441,6 +1467,8 @@ extensions
 [
 0
 ]
+.
+id
 STORE_TYPE
 )
 ;
@@ -1473,6 +1501,8 @@ extensions
 [
 0
 ]
+.
+id
 )
 ;
 for
@@ -1552,6 +1582,8 @@ extensions
 [
 0
 ]
+.
+id
 STORE_TYPE
 )
 ;
@@ -1582,6 +1614,8 @@ extensions
 [
 0
 ]
+.
+id
 )
 ;
 for
@@ -1625,6 +1659,8 @@ extensions
 [
 0
 ]
+.
+id
 )
 ;
 for
@@ -1704,6 +1740,8 @@ extensions
 [
 0
 ]
+.
+id
 STORE_TYPE
 )
 ;
@@ -1778,6 +1816,8 @@ ExtensionPreferencesManager
 setSetting
 (
 extension
+.
+id
 setting
 apiValue
 )
@@ -1925,6 +1965,8 @@ ExtensionPreferencesManager
 disableAll
 (
 extension
+.
+id
 )
 ;
 checkResetPrefs
@@ -1940,6 +1982,8 @@ ExtensionPreferencesManager
 enableAll
 (
 extension
+.
+id
 )
 ;
 checkResetPrefs
@@ -1955,6 +1999,8 @@ ExtensionPreferencesManager
 removeAll
 (
 extension
+.
+id
 )
 ;
 checkResetPrefs
@@ -2021,6 +2067,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 newValue
 )
@@ -2058,6 +2106,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
@@ -2144,6 +2194,8 @@ extensions
 [
 1
 ]
+.
+id
 setting
 )
 ;
