@@ -7,7 +7,7 @@ test
 |
 error
 :
-TypeError
+InternalError
 var
 Date_toString
 =
