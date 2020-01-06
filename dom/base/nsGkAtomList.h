@@ -16089,6 +16089,17 @@ PseudoProperty
 /
 /
 CSSPseudoElementType
+GK_ATOM
+(
+manualNACProperty
+"
+ManualNACProperty
+"
+)
+/
+/
+ManualNAC
+*
 /
 /
 Languages
