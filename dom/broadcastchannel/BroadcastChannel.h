@@ -332,10 +332,6 @@ IMPL_EVENT_HANDLER
 (
 message
 )
-IMPL_EVENT_HANDLER
-(
-messageerror
-)
 void
 Shutdown
 (

@@ -239,14 +239,6 @@ aWhy
 )
 override
 ;
-void
-DispatchError
-(
-JSContext
-*
-aCx
-)
-;
 /
 /
 This
