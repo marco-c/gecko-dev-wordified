@@ -221,9 +221,6 @@ BASE_ABS_DIRS
 =
 [
 '
-abs_compare_locales_dir
-'
-'
 abs_log_dir
 '
                      
@@ -1060,9 +1057,6 @@ abs_l10n_dir
 '
 '
 abs_objdir
-'
-'
-abs_merge_dir
 '
 '
 abs_locales_dir
