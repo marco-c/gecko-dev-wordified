@@ -4157,9 +4157,6 @@ dumpCellPath
 (
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 cell
@@ -4202,13 +4199,6 @@ stderr
 )
 ;
 }
-#
-endif
-/
-*
-DEBUG
-*
-/
 }
 }
 bool
