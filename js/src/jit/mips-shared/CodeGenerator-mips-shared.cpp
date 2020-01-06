@@ -11550,7 +11550,7 @@ Combine
 .
 masm
 .
-as_ins
+ma_ins
 (
 rhsi
 lhsi
@@ -11679,7 +11679,7 @@ Combine
 .
 masm
 .
-as_ins
+ma_ins
 (
 rhsi
 lhsi

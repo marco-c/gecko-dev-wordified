@@ -193,7 +193,7 @@ Register
 dest
 )
 {
-as_seb
+ma_seb
 (
 dest
 src
@@ -212,7 +212,7 @@ Register
 dest
 )
 {
-as_seh
+ma_seh
 (
 dest
 src

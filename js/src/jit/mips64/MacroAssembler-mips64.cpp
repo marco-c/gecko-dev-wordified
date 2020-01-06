@@ -15124,7 +15124,7 @@ Assembler
 FCSR
 )
 ;
-as_ext
+ma_ext
 (
 ScratchRegister
 ScratchRegister
@@ -15195,7 +15195,7 @@ Assembler
 FCSR
 )
 ;
-as_ext
+ma_ext
 (
 ScratchRegister
 ScratchRegister

@@ -4770,7 +4770,7 @@ from
 FCSR
 masm
 .
-as_ext
+ma_ext
 (
 ScratchRegister
 ScratchRegister
@@ -4930,7 +4930,7 @@ FCSR
 ;
 masm
 .
-as_ext
+ma_ext
 (
 ScratchRegister
 ScratchRegister
@@ -5105,7 +5105,7 @@ FCSR
 ;
 masm
 .
-as_ext
+ma_ext
 (
 output
 output
