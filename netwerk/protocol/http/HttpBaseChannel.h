@@ -2407,6 +2407,7 @@ and
 the
 progress
 sink
+virtual
 void
 ReleaseListeners
 (
