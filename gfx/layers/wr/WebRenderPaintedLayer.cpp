@@ -804,7 +804,9 @@ mVisibleRegion
 ToUnknownRegion
 (
 )
-mValidRegion
+GetValidRegion
+(
+)
 )
 ;
 /
