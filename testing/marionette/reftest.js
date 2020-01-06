@@ -970,6 +970,13 @@ abort
 (
 )
 {
+if
+(
+this
+.
+reftestWin
+)
+{
 this
 .
 driver
@@ -978,6 +985,7 @@ close
 (
 )
 ;
+}
 this
 .
 reftestWin
