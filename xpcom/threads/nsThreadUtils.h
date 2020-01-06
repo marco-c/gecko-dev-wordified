@@ -2364,6 +2364,12 @@ NS_IsInCompositorThread
 (
 )
 ;
+extern
+bool
+NS_IsInVRThread
+(
+)
+;
 /
 /
 -
