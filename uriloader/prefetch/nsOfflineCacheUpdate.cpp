@@ -10928,7 +10928,7 @@ at
 one
 moment
 the
-algoritm
+algorithm
 will
 /
 /

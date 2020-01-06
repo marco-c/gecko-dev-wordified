@@ -1915,7 +1915,7 @@ the
 RSA
 /
 /
-algorighm
+algorithm
 with
 the
 SHA
