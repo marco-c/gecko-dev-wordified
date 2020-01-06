@@ -2537,6 +2537,13 @@ mt
 )
 )
 ;
+RefPtr
+<
+ID3D11Texture2D
+>
+texture11
+;
+{
 D3D11MTAutoEnter
 lock
 (
@@ -2546,12 +2553,6 @@ forget
 (
 )
 )
-;
-RefPtr
-<
-ID3D11Texture2D
->
-texture11
 ;
 HRESULT
 hr
@@ -2719,6 +2720,7 @@ mStride
 0
 )
 ;
+}
 }
 if
 (
