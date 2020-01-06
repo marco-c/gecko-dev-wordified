@@ -704,6 +704,11 @@ get
 }
 }
 }
+closedir
+(
+dir
+)
+;
 }
 }
 SandboxBrokerPolicyFactory
