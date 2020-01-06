@@ -379,6 +379,16 @@ cache
 temporary
 directory
                      
+"
+-
+p
+"
+"
+no
+:
+mozlog
+"
+                     
 path
 ]
                     
