@@ -1314,12 +1314,7 @@ AOM_IMG_FMT_HIGHBITDEPTH
 ;
 if
 (
-img
--
->
-bit_depth
->
-8
+highbd
 )
 {
 /
@@ -1330,7 +1325,6 @@ with
 more
 than
 8
-significant
 bits
 per
 channel
