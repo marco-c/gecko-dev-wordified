@@ -1653,12 +1653,7 @@ SetFastOpenStatus
 uint8_t
 tfoStatus
 )
-{
-mFastOpenStatus
-=
-tfoStatus
 ;
-}
 private
 :
 /
