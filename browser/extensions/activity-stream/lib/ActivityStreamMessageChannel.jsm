@@ -1278,15 +1278,9 @@ at
 NEW_TAB_INIT
 data
 :
-{
-url
-:
 msg
 .
 target
-.
-url
-}
 }
 msg
 .
