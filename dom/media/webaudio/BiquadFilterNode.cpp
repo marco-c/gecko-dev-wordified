@@ -937,6 +937,17 @@ mWindowID
 "
 BiquadFilterChannelCountChangeWarning
 "
+aStream
+-
+>
+Graph
+(
+)
+-
+>
+AbstractMainThread
+(
+)
 )
 ;
 }

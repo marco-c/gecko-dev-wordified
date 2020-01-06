@@ -470,6 +470,17 @@ mWindowID
 "
 IIRFilterChannelCountChangeWarning
 "
+aStream
+-
+>
+Graph
+(
+)
+-
+>
+AbstractMainThread
+(
+)
 )
 ;
 }
