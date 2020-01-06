@@ -2053,11 +2053,11 @@ shader_texture_lod
 GLVersion
 :
 :
-NONE
+GL3
 GLESVersion
 :
 :
-NONE
+ES3
 GLContext
 :
 :
