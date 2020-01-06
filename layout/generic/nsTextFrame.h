@@ -1135,7 +1135,9 @@ endif
 ContentOffsets
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 override
@@ -5181,7 +5183,9 @@ aSelectionType
 ContentOffsets
 GetCharacterOffsetAtFramePointInternal
 (
+const
 nsPoint
+&
 aPoint
 bool
 aForInsertionPoint

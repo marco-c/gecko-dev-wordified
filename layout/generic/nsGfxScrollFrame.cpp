@@ -9337,7 +9337,9 @@ static
 nsRect
 GetOnePixelRangeAroundPoint
 (
+const
 nsPoint
+&
 aPoint
 bool
 aIsHorizontal

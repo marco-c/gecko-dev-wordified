@@ -1633,7 +1633,9 @@ HandleDrag
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 )
 ;
@@ -2251,7 +2253,9 @@ StartAutoScrollTimer
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 uint32_t
 aDelay

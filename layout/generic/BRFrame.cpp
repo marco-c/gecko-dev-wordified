@@ -248,11 +248,12 @@ nsStyleContext
 aContext
 )
 ;
-virtual
 ContentOffsets
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 override
@@ -1422,7 +1423,9 @@ BRFrame
 :
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 {

@@ -11251,7 +11251,9 @@ char16_t
 aString
 uint32_t
 aLength
+const
 nsPoint
+&
 aPoint
 nsFontMetrics
 &

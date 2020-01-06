@@ -2984,7 +2984,9 @@ virtual
 ContentOffsets
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 ;

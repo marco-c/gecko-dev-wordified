@@ -20861,11 +20861,10 @@ SVGTextFrame
 :
 FindCloserFrameForSelection
 (
+const
 nsPoint
+&
 aPoint
-nsIFrame
-:
-:
 FrameWithDistance
 *
 aCurrentBestFrame
