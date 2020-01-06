@@ -3386,6 +3386,10 @@ text
 ;
 pub
 mod
+textcontrol
+;
+pub
+mod
 textdecoder
 ;
 pub
