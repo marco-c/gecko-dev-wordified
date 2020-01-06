@@ -583,18 +583,6 @@ html
                                 
 (
 "
-testharnessreport
-.
-js
-"
-"
-resources
-/
-"
-)
-                                
-(
-"
 testdriver
 -
 vendor
