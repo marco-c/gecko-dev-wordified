@@ -239,13 +239,6 @@ to
 the
 mozharness
 command
-;
-not
-supported
-    
-#
-on
-Windows
     
 Optional
 (
@@ -273,13 +266,6 @@ be
 passed
 to
 mozharness
-;
-    
-#
-not
-supported
-on
-Windows
     
 Optional
 (
@@ -303,12 +289,6 @@ variant
 -
 cfg
 value
-(
-not
-supported
-on
-Windows
-)
     
 Optional
 (
