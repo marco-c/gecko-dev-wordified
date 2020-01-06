@@ -3479,16 +3479,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-if
-(
-aManager
--
->
-IsLayersFreeTransaction
-(
-)
-)
-{
 ContainerLayerParameters
 parameter
 ;
@@ -3508,7 +3498,6 @@ LAYER_ACTIVE
 return
 false
 ;
-}
 }
 if
 (

@@ -3116,16 +3116,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-if
-(
-aManager
--
->
-IsLayersFreeTransaction
-(
-)
-)
-{
 ContainerLayerParameters
 parameter
 ;
@@ -3145,7 +3135,6 @@ LAYER_ACTIVE
 return
 false
 ;
-}
 }
 uint32_t
 flags

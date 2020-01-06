@@ -1831,15 +1831,6 @@ aDisplayListBuilder
 if
 (
 !
-aManager
--
->
-IsLayersFreeTransaction
-(
-)
-|
-|
-!
 gfxPrefs
 :
 :

@@ -640,16 +640,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-if
-(
-aManager
--
->
-IsLayersFreeTransaction
-(
-)
-)
-{
 RefPtr
 <
 gfxContext
@@ -750,7 +740,6 @@ CanCreateWebRenderCommands
 return
 false
 ;
-}
 }
 }
 for
