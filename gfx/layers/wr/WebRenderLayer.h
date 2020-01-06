@@ -311,7 +311,7 @@ wr
 :
 :
 WrImageKey
-GetImageKey
+GenerateImageKey
 (
 )
 ;
