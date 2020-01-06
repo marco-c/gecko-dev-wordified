@@ -1597,7 +1597,7 @@ the
 autocomplete
 popup
 *
-return
+returns
 {
 Promise
 }

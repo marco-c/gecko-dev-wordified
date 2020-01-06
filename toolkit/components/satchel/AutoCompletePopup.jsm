@@ -1610,6 +1610,12 @@ that
 process
 .
 *
+param
+{
+boolean
+}
+aIsPopupSelection
+*
 /
 handleEnter
 (
