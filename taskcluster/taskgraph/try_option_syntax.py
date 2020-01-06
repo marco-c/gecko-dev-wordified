@@ -1877,26 +1877,6 @@ bindings
 '
     
 ]
-    
-'
-win32
-'
-:
-[
-        
-'
-sm
--
-plain
-'
-        
-'
-sm
--
-compacting
-'
-    
-]
 }
 TEST_CHUNK_SUFFIX
 =
