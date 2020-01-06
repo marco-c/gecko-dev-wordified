@@ -881,6 +881,7 @@ frames
 let
 frameMenu
 =
+await
 toolbox
 .
 showFramesMenu

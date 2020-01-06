@@ -484,6 +484,7 @@ present
 let
 menu
 =
+yield
 toolbox
 .
 showFramesMenu

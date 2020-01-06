@@ -230,6 +230,7 @@ screen
 let
 menu
 =
+yield
 toolbox
 .
 showFramesMenu
