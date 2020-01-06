@@ -314,6 +314,15 @@ BOOKMARK_DELETE
 "
 BOOKMARK_ADD
 "
+"
+PIN
+"
+"
+UNPIN
+"
+"
+SAVE_TO_POCKET
+"
 ]
 )
 .
@@ -718,6 +727,9 @@ valid
 "
 menu_plus_or_keyboard
 "
+"
+unexpected
+"
 ]
 )
 .
@@ -734,6 +746,10 @@ counter
 alert
 "
 ]
+)
+.
+required
+(
 )
 /
 /
