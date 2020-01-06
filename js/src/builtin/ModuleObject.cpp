@@ -6511,6 +6511,14 @@ JSFunction
 ;
 }
 }
+if
+(
+!
+obj
+)
+return
+false
+;
 value
 =
 ObjectValue

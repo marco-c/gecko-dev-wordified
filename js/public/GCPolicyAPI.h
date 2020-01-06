@@ -1054,7 +1054,7 @@ js
 gc
 :
 :
-IsCellPointerValid
+IsCellPointerValidOrNull
 (
 v
 )
