@@ -14601,6 +14601,14 @@ cmd
 .
 parameters
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+camelcase
 this
 .
 addFrameCloseListener

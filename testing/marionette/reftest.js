@@ -2148,6 +2148,16 @@ length
 1
 ]
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+camelcase
 result
 .
 extra

@@ -1188,6 +1188,16 @@ Ci
 nsIMarionette
 ]
 )
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+camelcase
 _xpcom_categories
 :
 [
