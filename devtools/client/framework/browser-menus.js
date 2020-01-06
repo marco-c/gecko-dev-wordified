@@ -558,6 +558,13 @@ window
 .
 gBrowser
 id
+window
+.
+performance
+.
+now
+(
+)
 )
 ;
 }
