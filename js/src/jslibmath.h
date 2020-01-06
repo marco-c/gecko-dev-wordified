@@ -133,6 +133,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h
@@ -321,6 +328,9 @@ double
 b
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 b
@@ -440,6 +450,9 @@ double
 b
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 b
