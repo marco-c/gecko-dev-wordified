@@ -374,14 +374,6 @@ FileBlobImpl
 *
 -
 a
-temporary
-OS
-file
-:
-TemporaryBlobImpl
-*
--
-a
 generic
 nsIInputStream
 :
