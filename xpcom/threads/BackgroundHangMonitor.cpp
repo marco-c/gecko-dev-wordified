@@ -4839,8 +4839,11 @@ DisableOnBeta
 (
 )
 {
-nsAdoptingCString
+nsAutoCString
 clientID
+;
+nsresult
+rv
 =
 Preferences
 :
@@ -4854,6 +4857,7 @@ telemetry
 .
 cachedClientID
 "
+clientID
 )
 ;
 bool
@@ -4879,8 +4883,10 @@ if
 telemetryEnabled
 |
 |
-!
-clientID
+NS_FAILED
+(
+rv
+)
 |
 |
 BackgroundHangMonitor

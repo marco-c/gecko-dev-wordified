@@ -17659,9 +17659,9 @@ ImportDefaults
 (
 )
 {
-nsCString
+nsAutoCString
 defaultsURL
-=
+;
 mozilla
 :
 :
@@ -17671,6 +17671,7 @@ Preferences
 GetCString
 (
 kDefaultsUrlPrefName
+defaultsURL
 )
 ;
 if

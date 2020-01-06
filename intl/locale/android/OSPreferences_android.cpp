@@ -223,9 +223,9 @@ cached
 in
 mSystemLocales
 .
-nsAdoptingCString
+nsAutoCString
 locale
-=
+;
 Preferences
 :
 :
@@ -238,6 +238,7 @@ locale
 .
 os
 "
+locale
 )
 ;
 if

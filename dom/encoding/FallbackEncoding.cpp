@@ -324,11 +324,9 @@ mFallback
 )
 ;
 }
-const
-nsAdoptingCString
-&
+nsAutoCString
 override
-=
+;
 Preferences
 :
 :
@@ -343,6 +341,7 @@ fallback
 .
 override
 "
+override
 )
 ;
 /

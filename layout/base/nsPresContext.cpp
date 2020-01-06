@@ -3657,11 +3657,9 @@ ResetCachedFontPrefs
 *
 image
 animation
-const
-nsAdoptingCString
-&
+nsAutoCString
 animatePref
-=
+;
 Preferences
 :
 :
@@ -3672,6 +3670,7 @@ image
 .
 animation_mode
 "
+animatePref
 )
 ;
 if
