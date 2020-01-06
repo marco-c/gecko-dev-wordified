@@ -40,6 +40,13 @@ es6id
 2
 .
 3
+esid
+:
+sec
+-
+isnan
+-
+number
 description
 :
 >

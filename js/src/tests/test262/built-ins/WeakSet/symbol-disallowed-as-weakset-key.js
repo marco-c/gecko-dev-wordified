@@ -44,6 +44,15 @@ es6id
 3
 .
 1_S2
+esid
+:
+sec
+-
+weakset
+.
+prototype
+.
+add
 description
 :
 >
@@ -59,6 +68,7 @@ entry
 features
 :
 [
+Symbol
 WeakSet
 ]
 -

@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+reduceright
 es5id
 :
 15

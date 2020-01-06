@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+splice
 es6id
 :
 22

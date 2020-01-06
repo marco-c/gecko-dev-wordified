@@ -45,6 +45,15 @@ setSeconds
 "
 is
 2
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setseconds
 es5id
 :
 15

@@ -176,6 +176,13 @@ GetFunctionRealm
 proxyTarget
 )
 .
+features
+:
+[
+cross
+-
+realm
+]
 -
 -
 -

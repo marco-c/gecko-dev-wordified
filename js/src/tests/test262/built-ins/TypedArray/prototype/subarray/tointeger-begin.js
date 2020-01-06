@@ -100,6 +100,11 @@ compareArray
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -

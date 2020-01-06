@@ -35,6 +35,13 @@ Source
 object
 has
 iterator
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22
@@ -44,6 +51,13 @@ es6id
 2
 .
 1
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

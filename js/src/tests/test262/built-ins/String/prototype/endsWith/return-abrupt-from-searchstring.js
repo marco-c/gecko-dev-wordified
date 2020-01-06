@@ -98,6 +98,15 @@ searchStr
 .
 .
 .
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

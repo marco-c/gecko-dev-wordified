@@ -105,6 +105,7 @@ es6id
 features
 :
 [
+Symbol
 destructuring
 -
 binding

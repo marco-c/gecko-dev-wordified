@@ -40,6 +40,13 @@ has
 the
 attribute
 ReadOnly
+esid
+:
+sec
+-
+boolean
+.
+prototype
 es5id
 :
 15

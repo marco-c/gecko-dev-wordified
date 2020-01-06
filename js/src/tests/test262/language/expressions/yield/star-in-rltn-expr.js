@@ -83,6 +83,7 @@ Yield
 features
 :
 [
+generators
 Symbol
 .
 iterator

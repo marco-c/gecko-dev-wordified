@@ -44,6 +44,15 @@ es6id
 3
 .
 2
+esid
+:
+sec
+-
+weakset
+.
+prototype
+.
+constructor
 description
 :
 >

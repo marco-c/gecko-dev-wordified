@@ -42,6 +42,13 @@ property
 "
 prototype
 "
+esid
+:
+sec
+-
+boolean
+.
+prototype
 es5id
 :
 15

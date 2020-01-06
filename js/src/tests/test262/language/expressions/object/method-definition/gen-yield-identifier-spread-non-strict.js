@@ -94,9 +94,11 @@ GeneratorMethod
 features
 :
 [
+Symbol
 object
 -
 spread
+generators
 ]
 flags
 :

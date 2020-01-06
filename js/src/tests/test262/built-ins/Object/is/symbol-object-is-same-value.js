@@ -51,6 +51,11 @@ is
 SameValue
 :
 Symbol
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -66,7 +66,7 @@ prototype
 formatToParts
 .
 length
-0
+1
 )
 ;
 verifyNotEnumerable

@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+concat
 es6id
 :
 22

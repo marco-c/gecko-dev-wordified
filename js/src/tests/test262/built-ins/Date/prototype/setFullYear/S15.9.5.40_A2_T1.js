@@ -45,6 +45,15 @@ setFullYear
 "
 is
 3
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setfullyear
 es5id
 :
 15

@@ -75,6 +75,11 @@ es6id
 5
 .
 2
+features
+:
+[
+generators
+]
 flags
 :
 [

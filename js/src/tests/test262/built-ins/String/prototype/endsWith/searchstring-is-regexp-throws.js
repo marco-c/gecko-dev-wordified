@@ -111,6 +111,15 @@ exception
 .
 .
 .
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

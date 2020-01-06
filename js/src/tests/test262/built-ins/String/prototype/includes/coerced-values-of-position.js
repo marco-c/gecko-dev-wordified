@@ -218,6 +218,15 @@ false
 .
 .
 .
+features
+:
+[
+String
+.
+prototype
+.
+includes
+]
 -
 -
 -

@@ -35,13 +35,6 @@ file
 -
 -
 -
-esid
-:
-sec
--
-weakset
--
-iterable
 es6id
 :
 23
@@ -51,6 +44,13 @@ es6id
 1
 .
 1
+esid
+:
+sec
+-
+weakset
+-
+iterable
 description
 :
 Default
@@ -168,6 +168,9 @@ intrinsicDefaultProto
 features
 :
 [
+cross
+-
+realm
 Reflect
 ]
 -

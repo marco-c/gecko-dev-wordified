@@ -152,6 +152,11 @@ flags
 [
 onlyStrict
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

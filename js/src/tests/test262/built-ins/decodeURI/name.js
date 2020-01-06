@@ -42,6 +42,13 @@ es6id
 6
 .
 2
+esid
+:
+sec
+-
+decodeuri
+-
+encodeduri
 description
 :
 >

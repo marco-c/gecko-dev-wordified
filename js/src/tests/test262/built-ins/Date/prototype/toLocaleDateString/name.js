@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+tolocaledatestring
 es6id
 :
 20

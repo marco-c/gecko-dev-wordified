@@ -64,6 +64,11 @@ flags
 [
 noStrict
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

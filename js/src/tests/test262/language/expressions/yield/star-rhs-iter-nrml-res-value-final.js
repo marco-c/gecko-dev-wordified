@@ -213,6 +213,7 @@ value
 features
 :
 [
+generators
 Symbol
 .
 iterator

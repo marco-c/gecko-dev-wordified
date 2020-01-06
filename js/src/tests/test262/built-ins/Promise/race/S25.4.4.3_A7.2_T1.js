@@ -55,7 +55,7 @@ settles
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

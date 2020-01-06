@@ -197,6 +197,11 @@ detachArrayBuffer
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -

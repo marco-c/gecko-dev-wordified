@@ -44,6 +44,15 @@ es6id
 3
 .
 3
+esid
+:
+sec
+-
+weakset
+.
+prototype
+.
+delete
 description
 :
 Throws
@@ -89,6 +98,11 @@ a
 TypeError
 exception
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

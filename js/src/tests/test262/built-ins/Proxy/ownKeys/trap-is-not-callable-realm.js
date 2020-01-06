@@ -54,13 +54,6 @@ internal
 slots
 -
 ownpropertykeys
-es6id
-:
-9
-.
-5
-.
-12
 description
 :
 >
@@ -106,6 +99,10 @@ ownKeys
 .
 .
 .
+#
+sec
+-
+getmethod
 7
 .
 3
@@ -116,7 +113,7 @@ GetMethod
 O
 P
 )
-5
+4
 .
 If
 IsCallable
@@ -130,6 +127,13 @@ a
 TypeError
 exception
 .
+features
+:
+[
+cross
+-
+realm
+]
 -
 -
 -

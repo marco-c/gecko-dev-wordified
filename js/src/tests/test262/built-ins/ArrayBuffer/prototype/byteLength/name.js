@@ -35,6 +35,17 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+get
+-
+arraybuffer
+.
+prototype
+.
+bytelength
 es6id
 :
 24

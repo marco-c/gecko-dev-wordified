@@ -45,6 +45,15 @@ getTimezoneOffset
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+gettimezoneoffset
 es5id
 :
 15

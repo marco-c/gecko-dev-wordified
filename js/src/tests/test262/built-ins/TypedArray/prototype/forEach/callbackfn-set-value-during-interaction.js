@@ -153,6 +153,7 @@ features
 Reflect
 .
 set
+TypedArray
 ]
 -
 -

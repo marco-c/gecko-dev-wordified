@@ -115,6 +115,7 @@ Symbol
 Symbol
 .
 toStringTag
+TypedArray
 ]
 -
 -

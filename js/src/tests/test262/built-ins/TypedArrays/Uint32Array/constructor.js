@@ -40,6 +40,13 @@ es6id
 2
 .
 4
+esid
+:
+sec
+-
+typedarray
+-
+constructors
 description
 :
 >

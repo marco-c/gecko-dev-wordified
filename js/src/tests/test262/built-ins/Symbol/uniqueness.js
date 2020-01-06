@@ -114,6 +114,11 @@ value
 is
 descString
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -236,12 +236,6 @@ P
 Return
 false
 .
-features
-:
-[
-Reflect
-Proxy
-]
 includes
 :
 [
@@ -251,6 +245,13 @@ js
 detachArrayBuffer
 .
 js
+]
+features
+:
+[
+Reflect
+Proxy
+TypedArray
 ]
 -
 -

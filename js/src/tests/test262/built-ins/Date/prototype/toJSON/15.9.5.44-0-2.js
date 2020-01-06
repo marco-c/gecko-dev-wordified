@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+tojson
 es5id
 :
 15

@@ -44,6 +44,13 @@ visited
 are
 not
 visited
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

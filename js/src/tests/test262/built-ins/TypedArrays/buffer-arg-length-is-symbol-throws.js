@@ -145,6 +145,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

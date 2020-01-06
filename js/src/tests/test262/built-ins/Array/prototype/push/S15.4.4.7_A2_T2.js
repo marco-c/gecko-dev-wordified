@@ -53,6 +53,15 @@ be
 an
 Array
 object
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+push
 es5id
 :
 15

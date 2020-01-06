@@ -55,6 +55,13 @@ the
 newly
 created
 object
+esid
+:
+sec
+-
+date
+-
+value
 es5id
 :
 15
@@ -77,10 +84,11 @@ it
 values
 includes
 :
--
-Date_constants
+[
+dateConstants
 .
 js
+]
 -
 -
 -

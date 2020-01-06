@@ -92,9 +92,7 @@ optimization
 includes
 :
 [
-tco
--
-helper
+tcoHelper
 .
 js
 ]

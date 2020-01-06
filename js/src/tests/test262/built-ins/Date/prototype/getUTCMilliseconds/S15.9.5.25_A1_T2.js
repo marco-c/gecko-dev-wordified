@@ -47,6 +47,15 @@ has
 DontEnum
 }
 attributes
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getutcmilliseconds
 es5id
 :
 15

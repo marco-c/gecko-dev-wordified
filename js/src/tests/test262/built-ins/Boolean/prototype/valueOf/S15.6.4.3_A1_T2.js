@@ -44,6 +44,15 @@ returns
 this
 boolean
 value
+esid
+:
+sec
+-
+boolean
+.
+prototype
+.
+valueof
 es5id
 :
 15

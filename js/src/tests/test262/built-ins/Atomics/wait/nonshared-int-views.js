@@ -33,6 +33,13 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+atomics
+.
+wait
 description
 :
 >
@@ -52,6 +59,11 @@ includes
 testTypedArray
 .
 js
+]
+features
+:
+[
+TypedArray
 ]
 -
 -

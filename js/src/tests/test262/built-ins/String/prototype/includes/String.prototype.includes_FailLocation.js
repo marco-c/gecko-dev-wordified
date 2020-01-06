@@ -63,7 +63,9 @@ features
 :
 [
 String
-#
+.
+prototype
+.
 includes
 ]
 -

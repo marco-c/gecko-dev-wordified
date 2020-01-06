@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+filter
 es5id
 :
 15

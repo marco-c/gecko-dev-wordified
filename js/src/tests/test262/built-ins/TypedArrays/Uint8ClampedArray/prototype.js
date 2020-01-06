@@ -42,6 +42,13 @@ es6id
 5
 .
 2
+esid
+:
+sec
+-
+typedarray
+.
+prototype
 description
 :
 >

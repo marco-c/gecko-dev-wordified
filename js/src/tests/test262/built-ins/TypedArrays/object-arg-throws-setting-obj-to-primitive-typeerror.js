@@ -380,6 +380,7 @@ features
 Symbol
 .
 toPrimitive
+TypedArray
 ]
 -
 -

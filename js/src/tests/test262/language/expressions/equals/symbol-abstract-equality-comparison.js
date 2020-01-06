@@ -50,6 +50,11 @@ Equality
 Comparison
 :
 Symbol
+features
+:
+[
+Symbol
+]
 -
 -
 -

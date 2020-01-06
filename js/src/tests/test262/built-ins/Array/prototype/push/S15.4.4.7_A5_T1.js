@@ -45,6 +45,15 @@ an
 inherited
 property
 "
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+push
 es5id
 :
 15

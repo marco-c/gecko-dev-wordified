@@ -1,5 +1,19 @@
 /
 /
+|
+reftest
+|
+skip
+-
+-
+regexp
+-
+dotall
+is
+not
+supported
+/
+/
 Copyright
 2017
 the
@@ -123,6 +137,7 @@ features
 regexp
 -
 dotall
+u180e
 ]
 -
 -

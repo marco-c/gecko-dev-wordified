@@ -357,6 +357,7 @@ features
 Symbol
 .
 toPrimitive
+TypedArray
 ]
 -
 -

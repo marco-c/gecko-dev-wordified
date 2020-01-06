@@ -52,6 +52,15 @@ DontDelete
 DontEnum
 }
 attributes
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setseconds
 es5id
 :
 15

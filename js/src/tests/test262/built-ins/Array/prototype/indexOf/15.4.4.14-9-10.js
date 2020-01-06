@@ -58,6 +58,15 @@ found
 using
 indexOf
 *
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+indexof
 es5id
 :
 15

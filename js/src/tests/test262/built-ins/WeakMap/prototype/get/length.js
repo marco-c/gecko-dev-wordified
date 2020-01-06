@@ -44,6 +44,15 @@ es6id
 3
 .
 3
+esid
+:
+sec
+-
+weakmap
+.
+prototype
+.
+get
 description
 :
 >

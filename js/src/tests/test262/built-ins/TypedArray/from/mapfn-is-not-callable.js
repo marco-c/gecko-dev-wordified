@@ -125,6 +125,7 @@ Symbol
 Symbol
 .
 iterator
+TypedArray
 ]
 -
 -

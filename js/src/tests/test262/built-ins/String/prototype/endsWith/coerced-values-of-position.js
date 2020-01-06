@@ -189,6 +189,15 @@ false
 .
 .
 .
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

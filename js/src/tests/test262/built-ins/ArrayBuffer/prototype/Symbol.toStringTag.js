@@ -35,6 +35,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+arraybuffer
+.
+prototype
+-
+tostringtag
 es6id
 :
 24

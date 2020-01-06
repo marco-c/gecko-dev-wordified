@@ -158,11 +158,6 @@ exception
 .
 .
 .
-features
-:
-[
-Reflect
-]
 includes
 :
 [
@@ -172,6 +167,15 @@ js
 detachArrayBuffer
 .
 js
+]
+features
+:
+[
+cross
+-
+realm
+Reflect
+TypedArray
 ]
 -
 -

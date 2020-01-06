@@ -42,6 +42,13 @@ es6id
 6
 .
 4
+esid
+:
+sec
+-
+encodeuri
+-
+uri
 description
 :
 >

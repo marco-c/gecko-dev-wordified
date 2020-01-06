@@ -65,7 +65,9 @@ features
 :
 [
 String
-#
+.
+prototype
+.
 endsWith
 ]
 -

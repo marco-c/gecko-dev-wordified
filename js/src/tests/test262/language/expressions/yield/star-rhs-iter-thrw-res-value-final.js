@@ -269,6 +269,7 @@ innerResult
 features
 :
 [
+generators
 Symbol
 .
 iterator

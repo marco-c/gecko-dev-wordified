@@ -45,6 +45,15 @@ getUTCFullYear
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getutcfullyear
 es5id
 :
 15

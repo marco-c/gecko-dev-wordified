@@ -51,6 +51,11 @@ toString
 operations
 on
 Symbols
+features
+:
+[
+Symbol
+]
 -
 -
 -

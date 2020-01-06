@@ -46,6 +46,13 @@ the
 Boolean
 prototype
 object
+esid
+:
+sec
+-
+boolean
+.
+prototype
 es5id
 :
 15

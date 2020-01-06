@@ -173,6 +173,14 @@ intrinsicDefaultProto
 .
 .
 ]
+features
+:
+[
+generators
+cross
+-
+realm
+]
 -
 -
 -

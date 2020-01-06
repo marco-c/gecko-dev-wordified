@@ -42,6 +42,13 @@ es6id
 4
 .
 1
+esid
+:
+sec
+-
+weakset
+-
+constructor
 description
 :
 >

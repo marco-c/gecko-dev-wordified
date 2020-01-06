@@ -52,7 +52,7 @@ a
 TypeError
 if
 iterable
-itens
+items
 are
 not
 Objects

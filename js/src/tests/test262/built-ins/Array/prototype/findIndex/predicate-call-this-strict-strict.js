@@ -40,6 +40,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+findindex
 es6id
 :
 22

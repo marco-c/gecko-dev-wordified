@@ -50,6 +50,7 @@ entry
 features
 :
 [
+Symbol
 Set
 ]
 -

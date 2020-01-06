@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+dataview
+.
+prototype
+.
+getint8
 es6id
 :
 24

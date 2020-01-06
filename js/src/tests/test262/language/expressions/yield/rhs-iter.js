@@ -114,6 +114,7 @@ false
 features
 :
 [
+generators
 Symbol
 .
 iterator

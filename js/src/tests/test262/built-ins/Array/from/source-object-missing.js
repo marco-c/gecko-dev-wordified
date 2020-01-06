@@ -38,6 +38,13 @@ object
 with
 missing
 values
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

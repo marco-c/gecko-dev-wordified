@@ -152,9 +152,15 @@ intrinsicDefaultProto
 features
 :
 [
+cross
+-
+realm
 Symbol
 .
 species
+Symbol
+.
+split
 ]
 -
 -

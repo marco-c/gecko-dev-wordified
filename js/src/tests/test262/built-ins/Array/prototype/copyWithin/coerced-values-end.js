@@ -35,6 +35,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+copywithin
 es6id
 :
 22

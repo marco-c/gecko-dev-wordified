@@ -101,6 +101,7 @@ features
 Symbol
 .
 iterator
+generators
 destructuring
 -
 binding

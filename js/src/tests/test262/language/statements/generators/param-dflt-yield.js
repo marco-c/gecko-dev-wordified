@@ -131,6 +131,7 @@ state
 features
 :
 [
+generators
 default
 -
 parameters
@@ -148,6 +149,19 @@ SyntaxError
 -
 *
 /
+throw
+"
+Test262
+:
+This
+statement
+should
+not
+be
+evaluated
+.
+"
+;
 function
 *
 g

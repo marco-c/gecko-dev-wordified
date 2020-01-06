@@ -46,6 +46,13 @@ is
 not
 a
 function
+includes
+:
+[
+sta
+.
+js
+]
 -
 -
 -

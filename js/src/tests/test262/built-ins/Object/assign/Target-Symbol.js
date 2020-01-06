@@ -83,6 +83,11 @@ es6id
 1
 .
 1
+features
+:
+[
+Symbol
+]
 -
 -
 -

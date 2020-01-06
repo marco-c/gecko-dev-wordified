@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+boolean
+.
+prototype
+.
+valueof
 es6id
 :
 19

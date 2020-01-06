@@ -107,6 +107,7 @@ es6id
 features
 :
 [
+generators
 destructuring
 -
 binding

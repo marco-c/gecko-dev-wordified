@@ -126,7 +126,7 @@ features
 [
 Symbol
 .
-match
+replace
 ]
 -
 -

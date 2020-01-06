@@ -65,6 +65,13 @@ of
 Boolean
 .
 prototype
+esid
+:
+sec
+-
+boolean
+-
+constructor
 es5id
 :
 15

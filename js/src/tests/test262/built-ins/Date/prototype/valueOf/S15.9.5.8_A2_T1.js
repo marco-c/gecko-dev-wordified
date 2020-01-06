@@ -45,6 +45,15 @@ valueOf
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+valueof
 es5id
 :
 15

@@ -71,6 +71,15 @@ not
 a
 Boolean
 object
+esid
+:
+sec
+-
+boolean
+.
+prototype
+.
+valueof
 es5id
 :
 15

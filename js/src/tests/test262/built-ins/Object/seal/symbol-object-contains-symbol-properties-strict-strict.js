@@ -65,6 +65,11 @@ flags
 [
 onlyStrict
 ]
+features
+:
+[
+Symbol
+]
 -
 -
 -

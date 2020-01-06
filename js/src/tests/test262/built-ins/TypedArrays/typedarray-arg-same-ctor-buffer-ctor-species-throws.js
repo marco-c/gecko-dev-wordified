@@ -222,6 +222,7 @@ features
 Symbol
 .
 species
+TypedArray
 ]
 -
 -

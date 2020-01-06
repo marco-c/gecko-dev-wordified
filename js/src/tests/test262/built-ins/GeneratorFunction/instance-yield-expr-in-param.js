@@ -117,6 +117,11 @@ a
 SyntaxError
 exception
 .
+features
+:
+[
+generators
+]
 -
 -
 -

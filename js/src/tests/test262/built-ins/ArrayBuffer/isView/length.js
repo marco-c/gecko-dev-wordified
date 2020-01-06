@@ -33,6 +33,13 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+arraybuffer
+.
+isview
 es6id
 :
 24

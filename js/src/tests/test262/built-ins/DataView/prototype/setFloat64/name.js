@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+dataview
+.
+prototype
+.
+setfloat64
 es6id
 :
 24

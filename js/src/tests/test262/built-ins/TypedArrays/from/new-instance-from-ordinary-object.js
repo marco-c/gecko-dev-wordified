@@ -70,6 +70,7 @@ Array
 prototype
 .
 values
+TypedArray
 ]
 -
 -

@@ -47,6 +47,13 @@ DontDelete
 ReadOnly
 }
 attributes
+esid
+:
+sec
+-
+date
+.
+prototype
 es5id
 :
 15

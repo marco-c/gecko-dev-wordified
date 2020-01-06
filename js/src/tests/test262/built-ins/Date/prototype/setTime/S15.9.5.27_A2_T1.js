@@ -45,6 +45,15 @@ setTime
 "
 is
 1
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+settime
 es5id
 :
 15

@@ -127,6 +127,9 @@ features
 :
 [
 Proxy
+Symbol
+.
+toStringTag
 ]
 -
 -

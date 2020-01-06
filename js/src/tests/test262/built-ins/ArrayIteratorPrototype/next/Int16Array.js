@@ -46,6 +46,15 @@ es6id
 2
 .
 1
+esid
+:
+sec
+-
+%
+arrayiteratorprototype
+%
+.
+next
 description
 :
 >
@@ -70,6 +79,9 @@ visited
 features
 :
 [
+Symbol
+.
+iterator
 TypedArray
 ]
 -

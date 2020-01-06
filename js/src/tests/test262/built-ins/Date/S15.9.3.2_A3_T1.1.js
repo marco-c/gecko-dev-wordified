@@ -52,6 +52,13 @@ to
 "
 Date
 "
+esid
+:
+sec
+-
+date
+-
+value
 es5id
 :
 15
@@ -74,10 +81,11 @@ prototype
 toString
 includes
 :
--
-Date_constants
+[
+dateConstants
 .
 js
+]
 -
 -
 -

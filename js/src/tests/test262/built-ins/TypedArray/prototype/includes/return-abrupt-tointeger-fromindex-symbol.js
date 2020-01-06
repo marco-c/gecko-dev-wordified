@@ -203,6 +203,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

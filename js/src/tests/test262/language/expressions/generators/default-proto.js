@@ -195,6 +195,11 @@ intrinsicDefaultProto
 .
 .
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

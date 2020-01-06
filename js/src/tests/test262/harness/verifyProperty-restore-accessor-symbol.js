@@ -50,6 +50,11 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+Symbol
+]
 -
 -
 -

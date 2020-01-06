@@ -139,6 +139,11 @@ strict
 .
 .
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

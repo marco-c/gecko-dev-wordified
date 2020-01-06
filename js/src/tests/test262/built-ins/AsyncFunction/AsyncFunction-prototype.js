@@ -44,7 +44,15 @@ com
 >
 esid
 :
-pending
+sec
+-
+async
+-
+function
+-
+constructor
+-
+prototype
 description
 :
 AsyncFunction

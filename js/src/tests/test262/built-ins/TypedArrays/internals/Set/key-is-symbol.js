@@ -124,6 +124,7 @@ features
 [
 Reflect
 Symbol
+TypedArray
 ]
 -
 -

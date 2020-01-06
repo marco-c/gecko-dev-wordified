@@ -45,6 +45,15 @@ setUTCHours
 "
 is
 4
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setutchours
 es5id
 :
 15

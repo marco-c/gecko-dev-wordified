@@ -65,7 +65,7 @@ pending
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

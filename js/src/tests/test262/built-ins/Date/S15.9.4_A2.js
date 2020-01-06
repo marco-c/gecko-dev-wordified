@@ -42,6 +42,13 @@ property
 "
 parse
 "
+esid
+:
+sec
+-
+date
+-
+constructor
 es5id
 :
 15

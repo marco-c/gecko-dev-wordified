@@ -1,5 +1,23 @@
 /
 /
+|
+reftest
+|
+skip
+-
+-
+regexp
+-
+unicode
+-
+property
+-
+escapes
+is
+not
+supported
+/
+/
 Copyright
 2017
 Mathias
@@ -67,7 +85,7 @@ escapes
 -
 tests
 Unicode
-v9
+v10
 .
 0
 .
@@ -127,6 +145,7 @@ loneCodePoints
 0x000BD7
 0x001CDA
 0x00A8F3
+0x011301
 0x011303
 0x01133C
 ]
@@ -319,6 +338,7 @@ loneCodePoints
 0x000B9B
 0x000B9D
 0x000BC9
+0x011302
 ]
 ranges
 :
@@ -393,7 +413,7 @@ ranges
 ]
 [
 0x00E000
-0x011302
+0x011300
 ]
 [
 0x011304

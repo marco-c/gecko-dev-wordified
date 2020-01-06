@@ -66,7 +66,7 @@ rejected
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

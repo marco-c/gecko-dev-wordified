@@ -58,6 +58,15 @@ result
 of
 the
 call
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+reverse
 es5id
 :
 15

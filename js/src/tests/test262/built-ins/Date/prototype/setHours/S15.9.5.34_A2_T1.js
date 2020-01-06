@@ -45,6 +45,15 @@ setHours
 "
 is
 4
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+sethours
 es5id
 :
 15

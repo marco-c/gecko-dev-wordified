@@ -61,6 +61,11 @@ compareArray
 .
 js
 ]
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -45,6 +45,15 @@ getUTCMonth
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getutcmonth
 es5id
 :
 15

@@ -35,6 +35,13 @@ mapFn
 throws
 an
 exception
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

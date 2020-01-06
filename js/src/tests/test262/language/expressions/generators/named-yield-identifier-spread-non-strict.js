@@ -95,9 +95,11 @@ GeneratorExpression
 features
 :
 [
+Symbol
 object
 -
 spread
+generators
 ]
 flags
 :

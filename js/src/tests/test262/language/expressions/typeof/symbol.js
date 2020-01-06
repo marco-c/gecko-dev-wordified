@@ -68,6 +68,11 @@ returns
 object
 '
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -45,6 +45,15 @@ be
 used
 as
 constructor
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+shift
 es5id
 :
 15

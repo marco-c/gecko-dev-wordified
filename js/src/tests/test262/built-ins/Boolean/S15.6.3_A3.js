@@ -42,6 +42,13 @@ whose
 value
 is
 1
+esid
+:
+sec
+-
+boolean
+.
+prototype
 es5id
 :
 15

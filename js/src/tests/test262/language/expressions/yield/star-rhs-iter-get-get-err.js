@@ -137,6 +137,7 @@ iterator
 features
 :
 [
+generators
 Symbol
 .
 iterator

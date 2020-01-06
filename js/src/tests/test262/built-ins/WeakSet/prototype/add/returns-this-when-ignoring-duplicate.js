@@ -44,6 +44,15 @@ es6id
 3
 .
 1
+esid
+:
+sec
+-
+weakset
+.
+prototype
+.
+add
 description
 :
 Returns

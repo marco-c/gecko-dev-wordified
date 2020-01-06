@@ -47,6 +47,13 @@ deleted
 from
 the
 source
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

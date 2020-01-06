@@ -70,6 +70,7 @@ features
 Symbol
 .
 iterator
+TypedArray
 ]
 -
 -

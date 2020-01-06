@@ -47,6 +47,15 @@ the
 array
 and
 returned
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+shift
 es5id
 :
 15

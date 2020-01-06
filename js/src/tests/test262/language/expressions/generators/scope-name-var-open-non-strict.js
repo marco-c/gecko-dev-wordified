@@ -147,6 +147,11 @@ flags
 [
 noStrict
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

@@ -137,6 +137,11 @@ SymbolData
 internal
 slot
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -168,6 +168,9 @@ intrinsicDefaultProto
 features
 :
 [
+cross
+-
+realm
 Reflect
 ]
 -

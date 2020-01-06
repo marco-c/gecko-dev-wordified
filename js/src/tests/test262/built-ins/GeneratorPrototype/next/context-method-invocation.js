@@ -61,6 +61,11 @@ is
 that
 object
 .
+features
+:
+[
+generators
+]
 -
 -
 -

@@ -172,6 +172,11 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

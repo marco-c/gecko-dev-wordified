@@ -63,6 +63,11 @@ esid
 prod
 -
 GeneratorDeclaration
+features
+:
+[
+generators
+]
 flags
 :
 [

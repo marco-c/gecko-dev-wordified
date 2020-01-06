@@ -109,6 +109,7 @@ es6id
 features
 :
 [
+generators
 destructuring
 -
 binding
@@ -502,6 +503,19 @@ opt
 -
 *
 /
+throw
+"
+Test262
+:
+This
+statement
+should
+not
+be
+evaluated
+.
+"
+;
 var
 callCount
 =

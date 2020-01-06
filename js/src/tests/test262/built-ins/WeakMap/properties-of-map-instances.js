@@ -42,6 +42,17 @@ es6id
 3
 .
 4
+esid
+:
+sec
+-
+properties
+-
+of
+-
+weakmap
+-
+instances
 description
 :
 >

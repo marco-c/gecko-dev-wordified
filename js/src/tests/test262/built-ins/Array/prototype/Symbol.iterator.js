@@ -119,6 +119,15 @@ es6id
 3
 .
 30
+esid
+:
+sec
+-
+array
+.
+prototype
+-
+iterator
 -
 -
 -

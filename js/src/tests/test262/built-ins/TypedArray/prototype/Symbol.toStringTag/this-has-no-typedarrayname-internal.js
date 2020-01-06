@@ -132,6 +132,7 @@ Symbol
 .
 toStringTag
 DataView
+TypedArray
 ]
 -
 -

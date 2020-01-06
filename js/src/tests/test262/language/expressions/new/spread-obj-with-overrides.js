@@ -79,6 +79,7 @@ es6id
 features
 :
 [
+Symbol
 object
 -
 spread

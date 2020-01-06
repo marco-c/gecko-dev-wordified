@@ -45,6 +45,15 @@ getTime
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getseconds
 es5id
 :
 15

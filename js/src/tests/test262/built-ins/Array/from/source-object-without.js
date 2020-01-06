@@ -38,6 +38,13 @@ object
 without
 length
 property
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

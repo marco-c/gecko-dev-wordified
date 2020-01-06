@@ -80,6 +80,11 @@ constructor
 is
 true
 .
+features
+:
+[
+generators
+]
 -
 -
 -

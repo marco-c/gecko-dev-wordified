@@ -84,6 +84,11 @@ object
 is
 true
 .
+features
+:
+[
+generators
+]
 -
 -
 -

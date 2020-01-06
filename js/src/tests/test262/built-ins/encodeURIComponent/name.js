@@ -42,6 +42,13 @@ es6id
 6
 .
 5
+esid
+:
+sec
+-
+encodeuricomponent
+-
+uricomponent
 description
 :
 >

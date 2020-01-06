@@ -81,7 +81,7 @@ sequence
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

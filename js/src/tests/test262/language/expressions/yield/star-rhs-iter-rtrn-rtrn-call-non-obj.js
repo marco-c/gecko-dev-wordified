@@ -243,6 +243,7 @@ exception
 features
 :
 [
+generators
 Symbol
 .
 iterator

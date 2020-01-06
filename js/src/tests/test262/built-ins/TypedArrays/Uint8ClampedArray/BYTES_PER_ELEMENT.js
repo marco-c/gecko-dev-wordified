@@ -42,6 +42,13 @@ es6id
 5
 .
 1
+esid
+:
+sec
+-
+typedarray
+.
+bytes_per_element
 description
 :
 >

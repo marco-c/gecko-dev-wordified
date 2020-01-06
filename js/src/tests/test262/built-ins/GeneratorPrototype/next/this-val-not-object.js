@@ -151,6 +151,7 @@ exception
 features
 :
 [
+generators
 Symbol
 ]
 -

@@ -149,6 +149,7 @@ obj
 features
 :
 [
+generators
 Symbol
 .
 iterator

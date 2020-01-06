@@ -160,6 +160,13 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+Symbol
+.
+replace
+]
 -
 -
 -

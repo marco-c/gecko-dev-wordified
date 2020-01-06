@@ -82,6 +82,11 @@ a
 TypeError
 exception
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

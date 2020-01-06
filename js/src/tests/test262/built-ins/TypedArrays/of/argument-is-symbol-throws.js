@@ -99,6 +99,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

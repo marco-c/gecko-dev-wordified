@@ -170,6 +170,7 @@ throw
 features
 :
 [
+generators
 Symbol
 .
 iterator

@@ -82,6 +82,11 @@ Passing
 symbol
 as
 callback
+features
+:
+[
+Symbol
+]
 -
 -
 -

@@ -52,7 +52,7 @@ immediately
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

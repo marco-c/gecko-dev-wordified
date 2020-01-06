@@ -45,6 +45,15 @@ toUTCString
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+toutcstring
 es5id
 :
 15

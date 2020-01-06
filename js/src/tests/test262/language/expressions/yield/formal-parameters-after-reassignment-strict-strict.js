@@ -61,6 +61,11 @@ flags
 [
 onlyStrict
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

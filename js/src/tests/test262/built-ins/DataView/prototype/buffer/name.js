@@ -35,6 +35,17 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+get
+-
+dataview
+.
+prototype
+.
+buffer
 es6id
 :
 24

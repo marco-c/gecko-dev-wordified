@@ -33,6 +33,13 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+isarray
 es5id
 :
 15

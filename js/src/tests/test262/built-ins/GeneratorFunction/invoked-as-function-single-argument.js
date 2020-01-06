@@ -72,6 +72,11 @@ as
 source
 code
 .
+features
+:
+[
+generators
+]
 -
 -
 -

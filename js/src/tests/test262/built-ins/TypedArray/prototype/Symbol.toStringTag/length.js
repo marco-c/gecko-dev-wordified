@@ -194,6 +194,13 @@ testTypedArray
 .
 js
 ]
+features
+:
+[
+Symbol
+.
+toStringTag
+]
 -
 -
 -

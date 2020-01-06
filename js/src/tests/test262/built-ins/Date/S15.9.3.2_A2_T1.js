@@ -65,6 +65,13 @@ of
 Date
 .
 prototype
+esid
+:
+sec
+-
+date
+-
+value
 es5id
 :
 15
@@ -87,10 +94,11 @@ constructed
 objects
 includes
 :
--
-Date_constants
+[
+dateConstants
 .
 js
+]
 -
 -
 -

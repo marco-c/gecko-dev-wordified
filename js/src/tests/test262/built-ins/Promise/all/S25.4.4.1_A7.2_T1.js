@@ -71,7 +71,7 @@ array
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

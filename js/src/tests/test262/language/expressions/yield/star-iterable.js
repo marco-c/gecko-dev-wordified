@@ -66,6 +66,14 @@ each
 iterated
 item
 .
+features
+:
+[
+generators
+Symbol
+.
+iterator
+]
 -
 -
 -

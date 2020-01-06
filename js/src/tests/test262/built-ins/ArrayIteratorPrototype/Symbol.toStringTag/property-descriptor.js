@@ -35,6 +35,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+%
+arrayiteratorprototype
+%
+-
+tostringtag
 description
 :
 >

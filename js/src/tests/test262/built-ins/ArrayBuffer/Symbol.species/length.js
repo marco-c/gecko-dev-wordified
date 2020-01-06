@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+get
+-
+arraybuffer
+-
+species
 es6id
 :
 24

@@ -91,6 +91,7 @@ features
 Reflect
 .
 set
+TypedArray
 ]
 -
 -

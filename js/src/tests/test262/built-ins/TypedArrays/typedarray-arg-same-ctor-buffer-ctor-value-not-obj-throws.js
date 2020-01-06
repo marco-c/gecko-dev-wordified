@@ -241,6 +241,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

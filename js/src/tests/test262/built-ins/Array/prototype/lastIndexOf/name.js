@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+lastindexof
 es6id
 :
 22
@@ -41,7 +50,7 @@ es6id
 .
 3
 .
-14
+15
 description
 :
 >

@@ -38,6 +38,15 @@ use
 ToInteger
 from
 start
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+splice
 es5id
 :
 15

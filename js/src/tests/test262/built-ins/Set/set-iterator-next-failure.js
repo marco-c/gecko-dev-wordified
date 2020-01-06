@@ -92,6 +92,13 @@ ReturnIfAbrupt
 next
 )
 .
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

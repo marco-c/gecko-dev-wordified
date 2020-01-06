@@ -96,6 +96,15 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

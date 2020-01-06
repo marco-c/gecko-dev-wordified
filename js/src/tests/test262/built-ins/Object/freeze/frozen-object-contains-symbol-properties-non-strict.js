@@ -58,6 +58,11 @@ flags
 [
 noStrict
 ]
+features
+:
+[
+Symbol
+]
 -
 -
 -

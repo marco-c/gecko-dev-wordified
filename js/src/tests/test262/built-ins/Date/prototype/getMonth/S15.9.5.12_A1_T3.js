@@ -46,6 +46,15 @@ has
 DontEnum
 }
 attributes
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getmonth
 es5id
 :
 15

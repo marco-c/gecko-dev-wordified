@@ -45,6 +45,15 @@ toTimeString
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+totimestring
 es5id
 :
 15

@@ -70,6 +70,13 @@ es6id
 3
 .
 12
+features
+:
+[
+Symbol
+.
+toStringTag
+]
 -
 -
 -

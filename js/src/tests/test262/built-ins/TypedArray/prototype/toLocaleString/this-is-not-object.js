@@ -163,6 +163,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

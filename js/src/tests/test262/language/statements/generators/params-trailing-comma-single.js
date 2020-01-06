@@ -86,6 +86,11 @@ runtime
 semantics
 -
 instantiatefunctionobject
+features
+:
+[
+generators
+]
 flags
 :
 [

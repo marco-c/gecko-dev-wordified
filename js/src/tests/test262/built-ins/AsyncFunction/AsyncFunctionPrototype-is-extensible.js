@@ -44,7 +44,15 @@ com
 >
 esid
 :
-pending
+sec
+-
+sync
+-
+function
+-
+prototype
+-
+properties
 description
 :
 >

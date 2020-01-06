@@ -45,6 +45,15 @@ constructor
 "
 is
 7
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+constructor
 es5id
 :
 15

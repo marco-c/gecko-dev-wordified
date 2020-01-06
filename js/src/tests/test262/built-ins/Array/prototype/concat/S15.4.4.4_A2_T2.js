@@ -31,6 +31,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+concat
 info
 :
 >

@@ -112,6 +112,15 @@ es6id
 3
 .
 25
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+splice
 -
 -
 -

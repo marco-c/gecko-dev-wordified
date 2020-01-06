@@ -57,6 +57,15 @@ min
 end
 length
 )
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+slice
 es5id
 :
 15

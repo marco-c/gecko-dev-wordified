@@ -173,6 +173,11 @@ List
 Return
 newSymbol
 .
+features
+:
+[
+Symbol
+]
 -
 -
 -

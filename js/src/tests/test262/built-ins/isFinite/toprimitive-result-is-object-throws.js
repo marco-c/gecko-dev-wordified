@@ -35,13 +35,6 @@ file
 -
 -
 -
-esid
-:
-sec
--
-isfinite
--
-number
 es6id
 :
 18
@@ -49,6 +42,13 @@ es6id
 2
 .
 2
+esid
+:
+sec
+-
+isfinite
+-
+number
 description
 :
 >

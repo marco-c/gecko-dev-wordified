@@ -53,6 +53,11 @@ flags
 [
 noStrict
 ]
+features
+:
+[
+Symbol
+]
 -
 -
 -

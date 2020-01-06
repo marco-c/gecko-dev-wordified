@@ -99,6 +99,7 @@ features
 default
 -
 parameters
+generators
 ]
 flags
 :
@@ -346,6 +347,19 @@ elements
 -
 *
 /
+throw
+"
+Test262
+:
+This
+statement
+should
+not
+be
+evaluated
+.
+"
+;
 0
 function
 *

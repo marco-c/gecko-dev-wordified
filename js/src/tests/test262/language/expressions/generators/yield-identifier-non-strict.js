@@ -83,6 +83,11 @@ esid
 prod
 -
 GeneratorExpression
+features
+:
+[
+generators
+]
 flags
 :
 [

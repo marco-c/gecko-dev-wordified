@@ -213,6 +213,10 @@ intrinsicDefaultProto
 features
 :
 [
+generators
+cross
+-
+realm
 Reflect
 ]
 -

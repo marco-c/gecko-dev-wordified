@@ -56,6 +56,11 @@ the
 GeneratorFunction
 intrinsic
 .
+features
+:
+[
+generators
+]
 -
 -
 -

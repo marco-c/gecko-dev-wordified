@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+arraybuffer
+.
+prototype
+.
+slice
 es6id
 :
 24

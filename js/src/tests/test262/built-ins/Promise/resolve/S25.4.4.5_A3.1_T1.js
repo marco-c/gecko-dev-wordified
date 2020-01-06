@@ -55,7 +55,7 @@ thenable
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

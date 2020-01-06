@@ -38,6 +38,15 @@ use
 ToInteger
 from
 end
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+slice
 es5id
 :
 15

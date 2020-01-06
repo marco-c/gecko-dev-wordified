@@ -35,6 +35,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+dataview
+.
+prototype
+-
+tostringtag
 es6id
 :
 24

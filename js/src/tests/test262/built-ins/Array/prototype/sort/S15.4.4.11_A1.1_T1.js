@@ -65,6 +65,15 @@ k
 return
 +
 0
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+sort
 es5id
 :
 15

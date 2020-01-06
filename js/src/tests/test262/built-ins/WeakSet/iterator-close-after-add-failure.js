@@ -44,6 +44,13 @@ es6id
 1
 .
 1
+esid
+:
+sec
+-
+weakset
+-
+iterable
 description
 :
 >
@@ -103,6 +110,13 @@ iter
 status
 )
 .
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

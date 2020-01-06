@@ -74,6 +74,13 @@ object
 2
 )
 .
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

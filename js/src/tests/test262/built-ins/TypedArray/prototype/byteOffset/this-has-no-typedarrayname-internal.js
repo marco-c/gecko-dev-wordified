@@ -153,6 +153,7 @@ features
 :
 [
 DataView
+TypedArray
 ]
 -
 -

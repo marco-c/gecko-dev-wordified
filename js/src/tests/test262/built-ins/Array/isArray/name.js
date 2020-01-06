@@ -33,6 +33,13 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+isarray
 es6id
 :
 22

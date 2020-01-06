@@ -180,6 +180,7 @@ features
 Symbol
 .
 iterator
+TypedArray
 ]
 -
 -

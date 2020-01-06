@@ -132,6 +132,11 @@ features
 Symbol
 .
 match
+String
+.
+prototype
+.
+endsWith
 ]
 -
 -

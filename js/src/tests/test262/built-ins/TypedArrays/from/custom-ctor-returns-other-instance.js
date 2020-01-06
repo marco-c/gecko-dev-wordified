@@ -181,6 +181,7 @@ features
 Symbol
 .
 iterator
+TypedArray
 ]
 -
 -

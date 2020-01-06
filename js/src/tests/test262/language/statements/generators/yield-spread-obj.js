@@ -67,6 +67,7 @@ features
 object
 -
 spread
+generators
 ]
 flags
 :

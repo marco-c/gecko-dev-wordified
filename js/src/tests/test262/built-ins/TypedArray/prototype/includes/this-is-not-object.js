@@ -170,6 +170,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

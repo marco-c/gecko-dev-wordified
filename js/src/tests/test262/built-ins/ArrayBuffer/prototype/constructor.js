@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+arraybuffer
+.
+prototype
+.
+constructor
 es6id
 :
 24

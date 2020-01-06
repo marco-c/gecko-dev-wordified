@@ -45,6 +45,15 @@ getDate
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getdate
 es5id
 :
 15

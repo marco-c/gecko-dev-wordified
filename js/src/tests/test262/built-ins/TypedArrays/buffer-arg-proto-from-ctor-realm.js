@@ -196,7 +196,11 @@ js
 features
 :
 [
+cross
+-
+realm
 Reflect
+TypedArray
 ]
 -
 -

@@ -40,6 +40,15 @@ es6id
 2
 .
 5
+esid
+:
+sec
+-
+parseint
+-
+string
+-
+radix
 description
 :
 >

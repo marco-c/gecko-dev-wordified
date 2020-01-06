@@ -85,6 +85,11 @@ runtime
 semantics
 -
 bindingclassdeclarationevaluation
+features
+:
+[
+generators
+]
 flags
 :
 [

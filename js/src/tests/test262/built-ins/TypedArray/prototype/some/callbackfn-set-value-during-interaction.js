@@ -224,6 +224,7 @@ features
 Reflect
 .
 set
+TypedArray
 ]
 -
 -

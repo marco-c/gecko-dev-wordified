@@ -153,6 +153,13 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

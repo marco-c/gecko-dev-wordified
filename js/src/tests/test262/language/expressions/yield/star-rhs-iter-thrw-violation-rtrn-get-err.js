@@ -300,6 +300,7 @@ return
 features
 :
 [
+generators
 Symbol
 .
 iterator

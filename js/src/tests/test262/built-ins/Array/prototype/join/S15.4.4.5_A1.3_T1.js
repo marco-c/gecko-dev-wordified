@@ -44,6 +44,15 @@ use
 the
 empty
 string
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+join
 es5id
 :
 15

@@ -42,6 +42,15 @@ for
 non
 Array
 objects
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+pop
 es5id
 :
 15

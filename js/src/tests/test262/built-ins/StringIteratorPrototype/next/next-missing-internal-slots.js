@@ -82,6 +82,13 @@ a
 TypeError
 exception
 .
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

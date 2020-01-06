@@ -109,6 +109,7 @@ js
 features
 :
 [
+generators
 Symbol
 .
 toStringTag

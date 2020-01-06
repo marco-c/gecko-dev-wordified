@@ -87,6 +87,15 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+String
+.
+prototype
+.
+includes
+]
 -
 -
 -

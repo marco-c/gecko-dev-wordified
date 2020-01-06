@@ -71,6 +71,9 @@ includes
 testBuiltInObject
 .
 js
+sta
+.
+js
 ]
 -
 -

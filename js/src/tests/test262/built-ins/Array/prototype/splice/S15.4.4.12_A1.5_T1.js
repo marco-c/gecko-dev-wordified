@@ -37,6 +37,15 @@ Splice
 with
 undefined
 arguments
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+splice
 es5id
 :
 15

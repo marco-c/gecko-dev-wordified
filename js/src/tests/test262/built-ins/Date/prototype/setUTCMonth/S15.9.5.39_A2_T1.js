@@ -45,6 +45,15 @@ setUTCMonth
 "
 is
 2
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setutcmonth
 es5id
 :
 15

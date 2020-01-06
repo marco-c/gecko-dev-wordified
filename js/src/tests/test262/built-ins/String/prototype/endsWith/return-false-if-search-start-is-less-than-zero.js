@@ -189,6 +189,15 @@ length
 <
 0
 ;
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

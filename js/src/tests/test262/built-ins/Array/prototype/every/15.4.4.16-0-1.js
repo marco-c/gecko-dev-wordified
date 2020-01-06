@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+every
 es5id
 :
 15
@@ -42,10 +51,6 @@ es5id
 4
 .
 16
--
-0
--
-1
 description
 :
 Array

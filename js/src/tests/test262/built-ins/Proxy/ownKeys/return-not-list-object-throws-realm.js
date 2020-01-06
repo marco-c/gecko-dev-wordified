@@ -54,13 +54,6 @@ internal
 slots
 -
 ownpropertykeys
-es6id
-:
-9
-.
-5
-.
-12
 description
 :
 >
@@ -120,6 +113,10 @@ Symbol
 .
 .
 .
+#
+sec
+-
+createlistfromarraylike
 7
 .
 3
@@ -132,10 +129,7 @@ obj
 elementTypes
 ]
 )
-.
-.
-.
-3
+2
 .
 If
 Type
@@ -153,6 +147,9 @@ exception
 features
 :
 [
+cross
+-
+realm
 Symbol
 ]
 -

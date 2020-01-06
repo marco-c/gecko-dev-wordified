@@ -45,6 +45,15 @@ getUTCDay
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getutcdaty
 es5id
 :
 15

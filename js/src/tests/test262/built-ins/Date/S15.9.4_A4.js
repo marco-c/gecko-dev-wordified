@@ -54,6 +54,13 @@ the
 Function
 prototype
 object
+esid
+:
+sec
+-
+date
+-
+constructor
 es5id
 :
 15

@@ -35,6 +35,11 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+toboolean
 es6id
 :
 7
@@ -50,6 +55,11 @@ coercion
 operations
 on
 Symbols
+features
+:
+[
+Symbol
+]
 -
 -
 -

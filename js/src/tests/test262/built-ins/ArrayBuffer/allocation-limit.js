@@ -33,6 +33,13 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+arraybuffer
+-
+length
 es6id
 :
 24

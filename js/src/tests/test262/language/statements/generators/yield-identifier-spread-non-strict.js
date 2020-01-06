@@ -93,9 +93,11 @@ GeneratorDeclaration
 features
 :
 [
+Symbol
 object
 -
 spread
+generators
 ]
 flags
 :

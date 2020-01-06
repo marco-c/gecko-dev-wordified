@@ -51,6 +51,15 @@ is
 negative
 use
 0
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+splice
 es5id
 :
 15

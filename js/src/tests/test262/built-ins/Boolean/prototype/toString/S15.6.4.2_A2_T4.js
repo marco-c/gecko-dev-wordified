@@ -31,6 +31,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+boolean
+.
+prototype
+.
+tostring
 info
 :
 >

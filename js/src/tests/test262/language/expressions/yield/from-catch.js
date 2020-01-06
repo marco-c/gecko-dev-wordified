@@ -63,6 +63,11 @@ of
 try
 statements
 .
+features
+:
+[
+generators
+]
 -
 -
 -

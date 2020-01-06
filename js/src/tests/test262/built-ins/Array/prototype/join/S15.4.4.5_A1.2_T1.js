@@ -45,6 +45,15 @@ used
 as
 the
 separator
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+join
 es5id
 :
 15

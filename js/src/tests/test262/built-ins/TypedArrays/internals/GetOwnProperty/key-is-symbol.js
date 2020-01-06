@@ -139,6 +139,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

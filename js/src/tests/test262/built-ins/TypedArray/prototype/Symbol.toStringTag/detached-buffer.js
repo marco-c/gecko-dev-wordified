@@ -126,6 +126,14 @@ detachArrayBuffer
 .
 js
 ]
+features
+:
+[
+Symbol
+.
+toStringTag
+TypedArray
+]
 -
 -
 -

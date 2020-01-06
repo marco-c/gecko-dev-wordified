@@ -45,6 +45,15 @@ setUTCFullYear
 "
 is
 3
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setutcfullyear
 es5id
 :
 15

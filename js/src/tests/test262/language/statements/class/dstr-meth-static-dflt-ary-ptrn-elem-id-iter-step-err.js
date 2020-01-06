@@ -100,6 +100,9 @@ es6id
 features
 :
 [
+Symbol
+.
+iterator
 destructuring
 -
 binding

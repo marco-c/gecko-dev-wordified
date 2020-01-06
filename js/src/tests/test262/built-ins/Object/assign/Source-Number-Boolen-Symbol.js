@@ -64,6 +64,11 @@ es6id
 5
 .
 c
+features
+:
+[
+Symbol
+]
 -
 -
 -

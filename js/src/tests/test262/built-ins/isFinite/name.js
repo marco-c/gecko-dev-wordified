@@ -40,6 +40,13 @@ es6id
 2
 .
 2
+esid
+:
+sec
+-
+isfinite
+-
+number
 description
 :
 >

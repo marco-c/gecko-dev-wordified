@@ -49,6 +49,11 @@ description
 >
 Symbol
 constructor
+features
+:
+[
+Symbol
+]
 -
 -
 -

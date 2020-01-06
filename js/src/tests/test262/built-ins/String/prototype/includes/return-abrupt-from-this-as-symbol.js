@@ -112,6 +112,11 @@ features
 :
 [
 Symbol
+String
+.
+prototype
+.
+includes
 ]
 -
 -

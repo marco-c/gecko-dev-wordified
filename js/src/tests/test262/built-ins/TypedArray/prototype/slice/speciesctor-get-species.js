@@ -189,6 +189,7 @@ features
 Symbol
 .
 species
+TypedArray
 ]
 -
 -

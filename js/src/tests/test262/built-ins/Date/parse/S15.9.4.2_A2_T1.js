@@ -45,6 +45,13 @@ parse
 "
 is
 1
+esid
+:
+sec
+-
+date
+.
+parse
 es5id
 :
 15

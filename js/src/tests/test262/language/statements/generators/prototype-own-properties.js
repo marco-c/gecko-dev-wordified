@@ -65,6 +65,11 @@ own
 "
 properties
 .
+features
+:
+[
+generators
+]
 -
 -
 -

@@ -83,6 +83,11 @@ runtime
 semantics
 -
 propertydefinitionevaluation
+features
+:
+[
+generators
+]
 flags
 :
 [

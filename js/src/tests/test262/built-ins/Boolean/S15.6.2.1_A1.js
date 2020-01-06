@@ -55,6 +55,13 @@ the
 newly
 created
 object
+esid
+:
+sec
+-
+boolean
+-
+constructor
 es5id
 :
 15

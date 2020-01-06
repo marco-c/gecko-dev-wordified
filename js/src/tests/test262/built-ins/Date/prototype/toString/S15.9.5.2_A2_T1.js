@@ -45,6 +45,15 @@ toString
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+tostring
 es5id
 :
 15

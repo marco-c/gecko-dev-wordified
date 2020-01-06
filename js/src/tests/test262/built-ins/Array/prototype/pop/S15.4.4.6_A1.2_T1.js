@@ -47,6 +47,15 @@ the
 array
 and
 returned
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+pop
 es5id
 :
 15

@@ -208,6 +208,7 @@ received
 features
 :
 [
+generators
 Symbol
 .
 iterator

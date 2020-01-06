@@ -84,6 +84,7 @@ features
 Symbol
 .
 toStringTag
+TypedArray
 ]
 -
 -

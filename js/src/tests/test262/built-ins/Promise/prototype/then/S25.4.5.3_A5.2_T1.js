@@ -66,7 +66,7 @@ fulfilled
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

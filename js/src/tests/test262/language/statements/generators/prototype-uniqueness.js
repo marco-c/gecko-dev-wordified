@@ -55,6 +55,11 @@ es6id
 2
 .
 1
+features
+:
+[
+generators
+]
 -
 -
 -

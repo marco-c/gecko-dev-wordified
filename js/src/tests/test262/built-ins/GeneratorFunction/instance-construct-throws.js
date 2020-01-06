@@ -170,6 +170,11 @@ false
 .
 .
 .
+features
+:
+[
+generators
+]
 -
 -
 -

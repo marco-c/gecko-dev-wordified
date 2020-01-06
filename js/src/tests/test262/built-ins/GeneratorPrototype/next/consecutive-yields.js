@@ -66,6 +66,11 @@ and
 then
 completes
 .
+features
+:
+[
+generators
+]
 -
 -
 -

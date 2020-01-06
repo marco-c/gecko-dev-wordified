@@ -142,6 +142,7 @@ ArrayBufferByteLength
 features
 :
 [
+Symbol
 Reflect
 .
 construct

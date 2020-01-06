@@ -72,6 +72,11 @@ s
 prototype
 property
 .
+features
+:
+[
+generators
+]
 -
 -
 -

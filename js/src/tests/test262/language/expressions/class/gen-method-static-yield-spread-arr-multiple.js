@@ -73,6 +73,11 @@ esid
 prod
 -
 GeneratorMethod
+features
+:
+[
+generators
+]
 flags
 :
 [

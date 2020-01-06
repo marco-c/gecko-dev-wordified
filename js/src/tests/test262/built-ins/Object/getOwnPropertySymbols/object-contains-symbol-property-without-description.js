@@ -59,6 +59,11 @@ do
 not
 have
 descriptions
+features
+:
+[
+Symbol
+]
 -
 -
 -

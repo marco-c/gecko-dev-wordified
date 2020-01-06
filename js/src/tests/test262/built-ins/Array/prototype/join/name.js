@@ -33,6 +33,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+join
 es6id
 :
 22
@@ -41,7 +50,7 @@ es6id
 .
 3
 .
-12
+13
 description
 :
 >

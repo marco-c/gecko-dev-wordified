@@ -201,6 +201,7 @@ done
 features
 :
 [
+generators
 Symbol
 .
 iterator

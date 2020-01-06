@@ -85,6 +85,7 @@ features
 default
 -
 parameters
+generators
 ]
 flags
 :

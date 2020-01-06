@@ -96,6 +96,15 @@ return
 return
 -
 1
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+sort
 es5id
 :
 15

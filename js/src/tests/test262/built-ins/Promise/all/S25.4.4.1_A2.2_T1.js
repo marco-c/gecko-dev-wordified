@@ -52,7 +52,7 @@ Mikes
 includes
 :
 [
-PromiseHelper
+promiseHelper
 .
 js
 ]

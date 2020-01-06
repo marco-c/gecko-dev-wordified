@@ -94,6 +94,10 @@ es6id
 features
 :
 [
+Symbol
+.
+iterator
+generators
 destructuring
 -
 binding

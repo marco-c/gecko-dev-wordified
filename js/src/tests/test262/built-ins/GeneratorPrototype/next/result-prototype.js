@@ -67,6 +67,11 @@ the
 Object
 prototype
 .
+features
+:
+[
+generators
+]
 -
 -
 -

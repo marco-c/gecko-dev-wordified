@@ -35,13 +35,6 @@ file
 -
 -
 -
-esid
-:
-sec
--
-isnan
--
-number
 es6id
 :
 18
@@ -49,6 +42,13 @@ es6id
 2
 .
 3
+esid
+:
+sec
+-
+isnan
+-
+number
 description
 :
 >

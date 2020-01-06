@@ -80,6 +80,11 @@ es6id
 4
 .
 1
+features
+:
+[
+generators
+]
 flags
 :
 [

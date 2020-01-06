@@ -157,6 +157,15 @@ ReturnIfAbrupt
 upperValue
 )
 .
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+reverse
 es6id
 :
 22

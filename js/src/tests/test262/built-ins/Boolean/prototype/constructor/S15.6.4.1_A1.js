@@ -50,6 +50,13 @@ built
 in
 Boolean
 constructor
+esid
+:
+sec
+-
+boolean
+-
+constructor
 es5id
 :
 15

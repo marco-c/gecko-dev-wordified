@@ -150,6 +150,11 @@ flags
 [
 onlyStrict
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -

@@ -144,6 +144,7 @@ features
 :
 [
 DataView
+TypedArray
 ]
 -
 -

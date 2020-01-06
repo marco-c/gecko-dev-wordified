@@ -148,6 +148,7 @@ exception
 features
 :
 [
+generators
 Symbol
 ]
 -

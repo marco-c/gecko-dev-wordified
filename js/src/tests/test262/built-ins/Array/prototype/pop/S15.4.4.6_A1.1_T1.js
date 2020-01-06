@@ -59,6 +59,15 @@ and
 and
 return
 undefined
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+pop
 es5id
 :
 15

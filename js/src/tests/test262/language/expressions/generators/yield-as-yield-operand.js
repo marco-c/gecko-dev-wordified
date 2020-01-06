@@ -60,6 +60,11 @@ es6id
 14
 .
 4
+features
+:
+[
+generators
+]
 -
 -
 -

@@ -198,6 +198,14 @@ detachArrayBuffer
 .
 js
 ]
+features
+:
+[
+cross
+-
+realm
+TypedArray
+]
 -
 -
 -

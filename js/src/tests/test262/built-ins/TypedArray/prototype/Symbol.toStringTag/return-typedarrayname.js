@@ -131,6 +131,7 @@ features
 Symbol
 .
 toStringTag
+TypedArray
 ]
 -
 -

@@ -47,6 +47,11 @@ description
 >
 Symbol
 prototype
+features
+:
+[
+Symbol
+]
 -
 -
 -

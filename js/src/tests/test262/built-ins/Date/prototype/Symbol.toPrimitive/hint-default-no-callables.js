@@ -35,6 +35,15 @@ file
 -
 -
 -
+esid
+:
+sec
+-
+date
+.
+prototype
+-
+toprimitive
 es6id
 :
 20

@@ -45,6 +45,15 @@ setUTCMilliseconds
 "
 is
 1
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setutcmilliseconds
 es5id
 :
 15

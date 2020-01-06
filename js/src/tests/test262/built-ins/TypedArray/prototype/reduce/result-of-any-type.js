@@ -280,6 +280,7 @@ features
 :
 [
 Symbol
+TypedArray
 ]
 -
 -

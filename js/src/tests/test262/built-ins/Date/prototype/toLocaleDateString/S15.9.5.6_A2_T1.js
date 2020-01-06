@@ -45,6 +45,15 @@ toLocaleDateString
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+tolocaledatestring
 es5id
 :
 15

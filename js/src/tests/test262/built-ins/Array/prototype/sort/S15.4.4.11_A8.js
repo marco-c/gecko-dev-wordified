@@ -46,6 +46,15 @@ value
 step
 13b
 )
+esid
+:
+sec
+-
+array
+.
+prototype
+.
+sort
 es5id
 :
 15

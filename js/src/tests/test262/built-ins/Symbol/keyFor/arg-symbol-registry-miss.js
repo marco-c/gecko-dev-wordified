@@ -149,6 +149,14 @@ sym
 Return
 undefined
 .
+features
+:
+[
+Symbol
+.
+iterator
+Symbol
+]
 -
 -
 -

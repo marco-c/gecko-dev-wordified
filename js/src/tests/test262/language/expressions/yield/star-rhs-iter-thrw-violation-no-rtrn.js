@@ -352,6 +352,7 @@ completion
 features
 :
 [
+generators
 Symbol
 .
 iterator

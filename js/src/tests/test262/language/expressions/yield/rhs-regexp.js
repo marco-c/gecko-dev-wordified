@@ -81,6 +81,11 @@ InputElementRegExpOrTemplateTail
 lexical
 goal
 .
+features
+:
+[
+generators
+]
 -
 -
 -

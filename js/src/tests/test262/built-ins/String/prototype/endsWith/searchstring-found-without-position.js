@@ -188,6 +188,15 @@ true
 .
 .
 .
+features
+:
+[
+String
+.
+prototype
+.
+endsWith
+]
 -
 -
 -

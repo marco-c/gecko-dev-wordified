@@ -57,6 +57,11 @@ properties
 that
 have
 descriptions
+features
+:
+[
+Symbol
+]
 -
 -
 -

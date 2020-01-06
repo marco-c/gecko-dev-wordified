@@ -44,6 +44,15 @@ es6id
 3
 .
 4
+esid
+:
+sec
+-
+weakmap
+.
+prototype
+.
+has
 description
 :
 Throws

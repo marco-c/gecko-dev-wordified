@@ -44,6 +44,13 @@ includes
 propertyHelper
 .
 js
+esid
+:
+sec
+-
+array
+.
+from
 es6id
 :
 22

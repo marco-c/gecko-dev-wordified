@@ -145,6 +145,11 @@ flags
 [
 noStrict
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -

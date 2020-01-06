@@ -188,6 +188,13 @@ proxyTrapsHelper
 .
 js
 ]
+features
+:
+[
+Symbol
+.
+species
+]
 -
 -
 -

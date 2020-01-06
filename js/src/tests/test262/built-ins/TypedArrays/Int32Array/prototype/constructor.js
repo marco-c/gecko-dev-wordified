@@ -42,6 +42,15 @@ es6id
 6
 .
 2
+esid
+:
+sec
+-
+typedarray
+.
+prototype
+.
+constructor
 description
 :
 >

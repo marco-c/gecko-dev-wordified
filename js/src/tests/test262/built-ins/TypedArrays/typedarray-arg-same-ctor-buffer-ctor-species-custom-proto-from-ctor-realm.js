@@ -335,9 +335,13 @@ js
 features
 :
 [
+cross
+-
+realm
 Symbol
 .
 species
+TypedArray
 ]
 -
 -

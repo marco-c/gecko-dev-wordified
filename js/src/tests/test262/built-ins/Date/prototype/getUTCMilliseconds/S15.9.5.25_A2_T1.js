@@ -45,6 +45,15 @@ getUTCMilliseconds
 "
 is
 0
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+getutcmilliseconds
 es5id
 :
 15

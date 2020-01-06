@@ -45,6 +45,15 @@ setMinutes
 "
 is
 3
+esid
+:
+sec
+-
+date
+.
+prototype
+.
+setminutes
 es5id
 :
 15

@@ -50,6 +50,13 @@ DontDelete
 DontEnum
 }
 attributes
+esid
+:
+sec
+-
+date
+.
+parse
 es5id
 :
 15

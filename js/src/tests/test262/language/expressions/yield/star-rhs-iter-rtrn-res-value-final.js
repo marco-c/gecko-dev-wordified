@@ -307,6 +307,7 @@ innerReturnResult
 features
 :
 [
+generators
 Symbol
 .
 iterator

@@ -57,6 +57,11 @@ NaN
 otherwise
 is
 true
+esid
+:
+sec
+-
+toboolean
 es5id
 :
 9

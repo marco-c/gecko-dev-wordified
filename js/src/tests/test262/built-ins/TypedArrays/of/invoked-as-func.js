@@ -44,6 +44,15 @@ es6id
 2
 .
 2
+esid
+:
+sec
+-
+%
+typedarray
+%
+.
+of
 description
 :
 >
@@ -112,6 +121,11 @@ includes
 testTypedArray
 .
 js
+]
+features
+:
+[
+TypedArray
 ]
 -
 -

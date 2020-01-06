@@ -67,6 +67,13 @@ es6id
 3
 .
 30
+features
+:
+[
+Symbol
+.
+iterator
+]
 -
 -
 -

@@ -53,6 +53,13 @@ includes
 propertyHelper
 .
 js
+features
+:
+[
+Symbol
+.
+species
+]
 -
 -
 -

@@ -356,6 +356,7 @@ noStrict
 features
 :
 [
+generators
 let
 ]
 -

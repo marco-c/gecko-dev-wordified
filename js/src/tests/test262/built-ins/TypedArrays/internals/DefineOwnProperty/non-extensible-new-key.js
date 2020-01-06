@@ -149,6 +149,7 @@ features
 :
 [
 Reflect
+TypedArray
 ]
 -
 -

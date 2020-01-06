@@ -92,6 +92,11 @@ es6id
 3
 .
 4
+features
+:
+[
+Symbol
+]
 -
 -
 -

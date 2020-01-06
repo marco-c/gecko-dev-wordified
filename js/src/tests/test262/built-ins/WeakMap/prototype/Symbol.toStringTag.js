@@ -44,6 +44,15 @@ es6id
 3
 .
 6
+esid
+:
+sec
+-
+weakmap
+.
+prototype
+-
+tostringtag
 description
 :
 >

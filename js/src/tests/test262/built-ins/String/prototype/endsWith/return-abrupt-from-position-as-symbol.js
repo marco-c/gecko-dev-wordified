@@ -115,6 +115,11 @@ features
 :
 [
 Symbol
+String
+.
+prototype
+.
+endsWith
 ]
 -
 -
