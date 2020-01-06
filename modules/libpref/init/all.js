@@ -4003,11 +4003,7 @@ pref
 "
 media
 .
-windows
--
-media
--
-foundation
+wmf
 .
 allow
 -
@@ -4023,11 +4019,7 @@ pref
 "
 media
 .
-windows
--
-media
--
-foundation
+wmf
 .
 use
 -
