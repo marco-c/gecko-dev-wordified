@@ -1253,13 +1253,6 @@ dispatcher
 payloadSucceeded
 (
 response
-dispatcher
-.
-batchWhiteboard
-.
-getSuccessRecordGuids
-(
-)
 isCommit
 isLastPayload
 )
