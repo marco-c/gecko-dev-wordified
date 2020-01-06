@@ -1343,6 +1343,14 @@ convert
 )
 ;
 void
+visitToObject
+(
+MToObject
+*
+convert
+)
+;
+void
 visitToObjectOrNull
 (
 MToObjectOrNull
