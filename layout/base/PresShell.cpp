@@ -29319,7 +29319,7 @@ GetStartContainer
 ;
 nsINode
 *
-endParent
+endContainer
 =
 range
 -
@@ -29347,7 +29347,7 @@ startContainer
 doc
 |
 |
-endParent
+endContainer
 =
 =
 doc
@@ -29370,7 +29370,7 @@ nsContentUtils
 GetCommonAncestor
 (
 startContainer
-endParent
+endContainer
 )
 ;
 NS_ASSERTION
@@ -29758,13 +29758,13 @@ node
 }
 if
 (
-endParent
+endContainer
 !
 =
 startContainer
 &
 &
-endParent
+endContainer
 -
 >
 NodeType
@@ -29780,7 +29780,7 @@ TEXT_NODE
 {
 BuildDisplayListForNode
 (
-endParent
+endContainer
 )
 ;
 }

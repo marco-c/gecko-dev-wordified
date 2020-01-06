@@ -4747,7 +4747,7 @@ StartOffset
 ;
 nsINode
 *
-endParent
+endContainer
 =
 aRange
 -
@@ -4758,7 +4758,7 @@ GetEndContainer
 ;
 NS_ENSURE_TRUE
 (
-endParent
+endContainer
 NS_ERROR_FAILURE
 )
 ;
@@ -4849,7 +4849,7 @@ ep
 =
 do_QueryInterface
 (
-endParent
+endContainer
 )
 ;
 nsContentUtils
@@ -4915,12 +4915,10 @@ rv
 ;
 if
 (
-(
 startContainer
 =
 =
-endParent
-)
+endContainer
 &
 &
 IsTextNode

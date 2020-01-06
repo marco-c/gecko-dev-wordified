@@ -13417,7 +13417,7 @@ nsCOMPtr
 nsIDOMNode
 >
 startContainer
-endParent
+endContainer
 ;
 int32_t
 startOffset
@@ -13605,7 +13605,7 @@ startContainer
 startOffset
 getter_AddRefs
 (
-endParent
+endContainer
 )
 &
 endOffset
@@ -13629,7 +13629,7 @@ eStart
 >
 mNode
 eStartOffset
-endParent
+endContainer
 endOffset
 )
 ;
@@ -13779,7 +13779,7 @@ eEnd
 >
 mNode
 eEndOffset
-endParent
+endContainer
 endOffset
 )
 ;
@@ -14051,7 +14051,7 @@ else
 {
 p2
 =
-endParent
+endContainer
 ;
 o2
 =

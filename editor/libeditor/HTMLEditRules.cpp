@@ -2858,7 +2858,7 @@ nsCOMPtr
 nsIDOMNode
 >
 rangeStartContainer
-rangeEndParent
+rangeEndContainer
 ;
 int32_t
 rangeStartOffset
@@ -2908,7 +2908,7 @@ GetEndContainer
 (
 getter_AddRefs
 (
-rangeEndParent
+rangeEndContainer
 )
 )
 ;
@@ -2935,7 +2935,7 @@ if
 rangeStartContainer
 &
 &
-rangeEndParent
+rangeEndContainer
 )
 {
 bDamagedRange
@@ -3653,7 +3653,7 @@ mRangeItem
 mStartOffset
 rangeStartContainer
 rangeStartOffset
-rangeEndParent
+rangeEndContainer
 rangeEndOffset
 )
 ;
@@ -39804,7 +39804,7 @@ nsCOMPtr
 <
 nsINode
 >
-endParent
+endContainer
 =
 r
 -
@@ -39816,7 +39816,7 @@ GetEndContainer
 if
 (
 !
-endParent
+endContainer
 -
 >
 IsNodeOfType
@@ -39855,7 +39855,7 @@ static_cast
 int32_t
 >
 (
-endParent
+endContainer
 -
 >
 Length
@@ -39885,7 +39885,7 @@ htmlEditor
 >
 SplitNode
 (
-endParent
+endContainer
 -
 >
 AsDOMNode
@@ -39930,7 +39930,7 @@ nsIContent
 >
 newParent
 =
-endParent
+endContainer
 -
 >
 GetParent
@@ -39948,7 +39948,7 @@ newParent
 >
 IndexOf
 (
-endParent
+endContainer
 )
 )
 ;
@@ -54537,7 +54537,7 @@ nsCOMPtr
 nsIDOMNode
 >
 startContainer
-endParent
+endContainer
 ;
 range
 -
@@ -54601,7 +54601,7 @@ GetEndContainer
 (
 getter_AddRefs
 (
-endParent
+endContainer
 )
 )
 ;
@@ -54610,7 +54610,7 @@ if
 startContainer
 =
 =
-endParent
+endContainer
 )
 {
 continue
@@ -54618,7 +54618,7 @@ continue
 }
 if
 (
-endParent
+endContainer
 )
 {
 if
@@ -54626,7 +54626,7 @@ if
 node
 =
 =
-endParent
+endContainer
 )
 {
 *
@@ -54645,7 +54645,7 @@ EditorUtils
 :
 IsDescendantOf
 (
-endParent
+endContainer
 node
 )
 )

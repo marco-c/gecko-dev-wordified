@@ -1026,7 +1026,7 @@ GetStartContainer
 ;
 nsINode
 *
-rangeEndParent
+rangeEndContainer
 =
 aRange
 -
@@ -1121,7 +1121,7 @@ nsContentUtils
 :
 ComparePoints
 (
-rangeEndParent
+rangeEndContainer
 rangeEndOffset
 parent
 nodeEnd
@@ -2151,7 +2151,7 @@ nsCOMPtr
 <
 nsINode
 >
-endParent
+endContainer
 =
 do_QueryInterface
 (
@@ -2163,7 +2163,7 @@ CreateRange
 (
 startContainer
 aStartOffset
-endParent
+endContainer
 aEndOffset
 aRange
 )
@@ -19649,7 +19649,7 @@ range
 .
 nsINode
 *
-endParent
+endContainer
 =
 range
 -
@@ -19856,7 +19856,7 @@ CreateRange
 (
 startContainer
 startOffset
-endParent
+endContainer
 endOffset
 getter_AddRefs
 (
