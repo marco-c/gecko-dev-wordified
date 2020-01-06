@@ -262,6 +262,16 @@ LC_ALL
 C
 '
         
+'
+ASAN_OPTIONS
+'
+:
+'
+detect_leaks
+=
+0
+'
+        
 #
 #
 64
