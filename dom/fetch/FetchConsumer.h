@@ -187,7 +187,8 @@ on
 workers
 plus
 a
-wrapper
+this
+consumer
 .
 template
 <
@@ -195,14 +196,14 @@ class
 Derived
 >
 class
-FetchBodyWrapper
+FetchBodyConsumer
 final
 {
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-FetchBodyWrapper
+FetchBodyConsumer
 <
 Derived
 >
@@ -210,7 +211,7 @@ Derived
 static
 already_AddRefed
 <
-FetchBodyWrapper
+FetchBodyConsumer
 <
 Derived
 >
@@ -247,7 +248,7 @@ mBody
 private
 :
 explicit
-FetchBodyWrapper
+FetchBodyConsumer
 (
 FetchBody
 <
@@ -258,7 +259,7 @@ aBody
 )
 ;
 ~
-FetchBodyWrapper
+FetchBodyConsumer
 (
 )
 ;
@@ -324,7 +325,7 @@ WorkerHolder
 keeps
 alive
 the
-wrapper
+consumer
 via
 a
 cycle
