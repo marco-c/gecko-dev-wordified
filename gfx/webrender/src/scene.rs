@@ -357,7 +357,6 @@ key
 )
 =
 >
-{
 self
 .
 transform_properties
@@ -406,7 +405,6 @@ identity
 )
 }
 )
-}
 }
 }
 /
@@ -466,7 +464,6 @@ key
 )
 =
 >
-{
 self
 .
 float_properties
@@ -510,7 +507,6 @@ key
 default_value
 }
 )
-}
 }
 }
 }

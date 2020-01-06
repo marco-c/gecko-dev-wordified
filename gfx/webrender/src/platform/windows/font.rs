@@ -77,14 +77,17 @@ GlyphKey
 }
 ;
 use
+dwrote
+;
+use
 gamma_lut
 :
 :
 {
-GammaLut
 Color
 as
 ColorLut
+GammaLut
 }
 ;
 use
@@ -92,9 +95,6 @@ internal_types
 :
 :
 FastHashMap
-;
-use
-dwrote
 ;
 use
 std
@@ -648,6 +648,7 @@ font_key
 )
 {
 return
+;
 }
 if
 let
@@ -779,6 +780,7 @@ font_key
 )
 {
 return
+;
 }
 let
 system_fc
@@ -1483,6 +1485,7 @@ height
 {
 return
 None
+;
 }
 let
 face
@@ -2149,7 +2152,6 @@ option
 )
 =
 >
-{
 if
 option
 .
@@ -2166,7 +2168,6 @@ else
 self
 .
 gamma_lut
-}
 }
 None
 =

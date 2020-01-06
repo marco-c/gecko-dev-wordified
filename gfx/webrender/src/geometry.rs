@@ -61,8 +61,8 @@ euclid
 :
 :
 {
-Rect
 Point3D
+Rect
 }
 ;
 /

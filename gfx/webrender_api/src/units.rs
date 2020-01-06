@@ -174,9 +174,9 @@ euclid
 :
 {
 Length
-TypedTransform3D
 TypedRect
 TypedSize2D
+TypedTransform3D
 }
 ;
 use

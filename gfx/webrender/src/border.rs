@@ -93,16 +93,16 @@ ellipse
 Ellipse
 ;
 use
-gpu_cache
-:
-:
-GpuDataRequest
-;
-use
 frame_builder
 :
 :
 FrameBuilder
+;
+use
+gpu_cache
+:
+:
+GpuDataRequest
 ;
 use
 prim_store
@@ -1004,7 +1004,6 @@ Dashed
 )
 =
 >
-{
 BorderCornerKind
 :
 :
@@ -1022,7 +1021,6 @@ radius
 *
 border_rect
 )
-}
 (
 BorderStyle
 :
@@ -1035,7 +1033,6 @@ Dotted
 )
 =
 >
-{
 BorderCornerKind
 :
 :
@@ -1053,7 +1050,6 @@ radius
 *
 border_rect
 )
-}
 /
 /
 Draw
@@ -1144,7 +1140,6 @@ Dashed
 )
 =
 >
-{
 BorderCornerKind
 :
 :
@@ -1155,7 +1150,6 @@ BorderCornerInstance
 :
 Single
 )
-}
 /
 /
 Everything
@@ -1312,6 +1306,7 @@ BorderStyle
 Outset
 =
 >
+{
 (
 BorderEdgeKind
 :
@@ -1319,6 +1314,7 @@ BorderEdgeKind
 Solid
 width
 )
+}
 BorderStyle
 :
 :

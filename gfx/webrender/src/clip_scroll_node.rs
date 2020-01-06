@@ -126,9 +126,9 @@ spring
 :
 :
 {
+Spring
 DAMPING
 STIFFNESS
-Spring
 }
 ;
 use
@@ -1378,6 +1378,7 @@ zero
 )
 =
 >
+{
 warn
 !
 (
@@ -1393,6 +1394,7 @@ node
 .
 "
 )
+}
 _
 =
 >

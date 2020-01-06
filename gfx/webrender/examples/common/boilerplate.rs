@@ -1494,7 +1494,6 @@ notify_memory_pressure
 _
 =
 >
-{
 if
 example
 .
@@ -1586,7 +1585,6 @@ document_id
 None
 )
 ;
-}
 }
 }
 }
