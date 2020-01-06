@@ -1,12 +1,5 @@
 import
 os
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {
@@ -101,12 +94,6 @@ hg
 -
 shared
 '
-    
-'
-objdir
-'
-:
-MOZ_OBJDIR
     
 '
 tooltool_script

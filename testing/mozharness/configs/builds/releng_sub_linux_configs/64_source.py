@@ -91,16 +91,6 @@ the
 script
     
 '
-objdir
-'
-:
-'
-obj
--
-firefox
-'
-    
-'
 env
 '
 :

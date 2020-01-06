@@ -2,13 +2,6 @@ import
 os
 import
 sys
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {
@@ -200,12 +193,6 @@ hg
 -
 shared
 '
-    
-'
-objdir
-'
-:
-MOZ_OBJDIR
     
 #
 debug
