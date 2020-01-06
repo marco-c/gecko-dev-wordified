@@ -692,6 +692,15 @@ if
 report
 .
 failed
+or
+report
+.
+outcome
+=
+=
+'
+rerun
+'
 :
             
 status
@@ -1007,6 +1016,15 @@ stack
 )
         
 if
+report
+.
+outcome
+=
+=
+'
+rerun
+'
+or
 report
 .
 when
