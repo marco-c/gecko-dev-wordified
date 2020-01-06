@@ -445,7 +445,6 @@ getAllGrids
 walker
 .
 rootNode
-true
 )
 ;
 let
