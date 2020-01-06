@@ -732,6 +732,8 @@ WEBAUTHN_GET_ASSERTION_MS
 )
 ;
 }
+/
+*
 {
 cleanupTelemetry
 (
@@ -965,6 +967,8 @@ WEBAUTHN_GET_ASSERTION_MS
 )
 ;
 }
+*
+/
 /
 /
 There
