@@ -6631,7 +6631,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsCString
+nsAutoCString
 uri
 ;
 rv
@@ -6641,10 +6641,7 @@ aDataSource
 >
 GetURI
 (
-getter_Copies
-(
 uri
-)
 )
 ;
 if
@@ -6915,7 +6912,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsCString
+nsAutoCString
 uri
 ;
 rv
@@ -6925,10 +6922,7 @@ aDataSource
 >
 GetURI
 (
-getter_Copies
-(
 uri
-)
 )
 ;
 if
