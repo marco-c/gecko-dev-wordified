@@ -1039,7 +1039,7 @@ mLogFont
 mozilla
 :
 :
-WeakPtr
+ThreadSafeWeakPtr
 <
 mozilla
 :
@@ -1047,7 +1047,7 @@ mozilla
 gfx
 :
 :
-UnscaledFont
+UnscaledFontGDI
 >
 mUnscaledFont
 ;

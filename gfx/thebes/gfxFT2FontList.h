@@ -582,7 +582,7 @@ mFTFontIndex
 mozilla
 :
 :
-WeakPtr
+ThreadSafeWeakPtr
 <
 mozilla
 :
@@ -590,7 +590,7 @@ mozilla
 gfx
 :
 :
-UnscaledFont
+UnscaledFontFreeType
 >
 mUnscaledFont
 ;
