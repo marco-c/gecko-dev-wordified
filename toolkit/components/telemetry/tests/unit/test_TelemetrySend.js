@@ -2381,7 +2381,7 @@ yet
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 histSendTimeFail
 .
@@ -2740,7 +2740,7 @@ histograms
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 histSendTimeSuccess
 .
@@ -3096,7 +3096,7 @@ time
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 histSendTimeSuccess
 .
@@ -3284,7 +3284,7 @@ time
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 histSendTimeSuccess
 .
@@ -3652,7 +3652,7 @@ snapshot
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 histSendTimeSuccess
 .
