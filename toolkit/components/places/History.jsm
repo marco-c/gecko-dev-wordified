@@ -5112,6 +5112,11 @@ let
 info
 =
 {
+guid
+:
+pageInfo
+.
+guid
 uri
 :
 PlacesUtils
