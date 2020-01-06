@@ -3280,6 +3280,14 @@ mWritingMode
 0
 ;
 }
+using
+PostDestroyData
+=
+nsIFrame
+:
+:
+PostDestroyData
+;
 static
 void
 DeleteLineList
@@ -3296,6 +3304,9 @@ aDestructRoot
 nsFrameList
 *
 aFrames
+PostDestroyData
+&
+aPostDestroyData
 )
 ;
 /

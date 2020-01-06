@@ -464,6 +464,9 @@ DestroyFrom
 nsIFrame
 *
 aDestroyRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 if
@@ -498,6 +501,7 @@ nsMathMLContainerFrame
 DestroyFrom
 (
 aDestroyRoot
+aPostDestroyData
 )
 ;
 }

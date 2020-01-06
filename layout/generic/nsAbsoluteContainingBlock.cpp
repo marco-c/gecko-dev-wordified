@@ -2775,6 +2775,9 @@ aDelegatingFrame
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 mAbsoluteFrames
@@ -2782,6 +2785,7 @@ mAbsoluteFrames
 DestroyFramesFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

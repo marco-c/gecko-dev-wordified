@@ -242,9 +242,14 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mTextContent
 .
@@ -259,6 +264,7 @@ nsHTMLButtonControlFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }
