@@ -746,8 +746,7 @@ ULONG_PTR
 aParam
 )
 {
-AutoProfilerThreadWake
-wake
+AUTO_PROFILER_THREAD_WAKE
 ;
 mozilla
 :

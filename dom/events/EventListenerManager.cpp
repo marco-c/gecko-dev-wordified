@@ -333,13 +333,6 @@ h
 #
 include
 "
-ProfilerMarkerPayload
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -484,6 +477,18 @@ nsDisplayList
 .
 h
 "
+#
+ifdef
+MOZ_GECKO_PROFILER
+#
+include
+"
+ProfilerMarkerPayload
+.
+h
+"
+#
+endif
 namespace
 mozilla
 {
@@ -1335,7 +1340,7 @@ EventListenerHolder
 aListenerHolder
 EventMessage
 aEventMessage
-nsAtom
+nsIAtom
 *
 aTypeAtom
 const
@@ -3323,7 +3328,7 @@ EventListenerManager
 :
 NotifyEventListenerRemoved
 (
-nsAtom
+nsIAtom
 *
 aUserType
 const
@@ -3430,7 +3435,7 @@ EventListenerHolder
 aListenerHolder
 EventMessage
 aEventMessage
-nsAtom
+nsIAtom
 *
 aUserType
 const
@@ -3883,7 +3888,7 @@ aFlags
 {
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 atom
 ;
@@ -3939,7 +3944,7 @@ aFlags
 {
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 atom
 ;
@@ -3987,7 +3992,7 @@ FindEventHandler
 (
 EventMessage
 aEventMessage
-nsAtom
+nsIAtom
 *
 aTypeAtom
 const
@@ -4091,7 +4096,7 @@ EventListenerManager
 :
 SetEventHandlerInternal
 (
-nsAtom
+nsIAtom
 *
 aName
 const
@@ -4413,7 +4418,7 @@ EventListenerManager
 :
 SetEventHandler
 (
-nsAtom
+nsIAtom
 *
 aName
 const
@@ -4995,7 +5000,7 @@ EventListenerManager
 :
 RemoveEventHandler
 (
-nsAtom
+nsIAtom
 *
 aName
 const
@@ -5243,7 +5248,7 @@ cx
 ;
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 typeAtom
 =
@@ -5252,7 +5257,7 @@ aListener
 >
 mTypeAtom
 ;
-nsAtom
+nsIAtom
 *
 attrName
 =
@@ -7583,6 +7588,9 @@ rv
 =
 NS_OK
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -7744,6 +7752,8 @@ endTime
 ;
 }
 else
+#
+endif
 {
 rv
 =
@@ -8850,7 +8860,7 @@ mIsMainThreadELM
 {
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 atom
 =
@@ -8936,7 +8946,7 @@ EventListenerManager
 :
 HasListenersFor
 (
-nsAtom
+nsIAtom
 *
 aEventNameWithOn
 )
@@ -9436,7 +9446,7 @@ EventListenerManager
 :
 SetEventHandler
 (
-nsAtom
+nsIAtom
 *
 aEventName
 const
@@ -9706,7 +9716,7 @@ EventListenerManager
 :
 GetTypedEventHandler
 (
-nsAtom
+nsIAtom
 *
 aEventName
 const
@@ -10541,7 +10551,7 @@ EventListenerManager
 :
 IsApzAwareEvent
 (
-nsAtom
+nsIAtom
 *
 aEvent
 )

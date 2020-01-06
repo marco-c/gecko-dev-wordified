@@ -3695,6 +3695,9 @@ bool
 aIsSync
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -3725,6 +3728,8 @@ get
 )
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 !
@@ -8679,6 +8684,9 @@ bool
 aRunInGlobalScope
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -8709,6 +8717,8 @@ get
 )
 ;
 }
+#
+endif
 if
 (
 !

@@ -569,8 +569,7 @@ void
 aData
 )
 {
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 BgHangMonitor
@@ -1241,6 +1240,9 @@ BackgroundHangMonitor
 ThreadType
 mThreadType
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 Platform
@@ -1254,6 +1256,8 @@ stacks
 ThreadStackHelper
 mStackHelper
 ;
+#
+endif
 /
 /
 Stack
@@ -2226,6 +2230,9 @@ mTimeout
 )
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 A
@@ -2252,6 +2259,8 @@ mRunnableName
 true
 )
 ;
+#
+endif
 /
 /
 If

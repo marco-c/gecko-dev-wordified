@@ -10263,9 +10263,6 @@ void
 arg
 )
 {
-char
-stackTop
-;
 LOG
 (
 (
@@ -10300,7 +10297,7 @@ Resolver
 "
 )
 ;
-NS_SetCurrentThreadName
+AUTO_PROFILER_REGISTER_THREAD
 (
 name
 .
@@ -10309,15 +10306,13 @@ BeginReading
 )
 )
 ;
-profiler_register_thread
+NS_SetCurrentThreadName
 (
 name
 .
 BeginReading
 (
 )
-&
-stackTop
 )
 ;
 #
@@ -10857,10 +10852,6 @@ finished
 n
 "
 )
-)
-;
-profiler_unregister_thread
-(
 )
 ;
 }

@@ -22220,8 +22220,7 @@ bool
 aFlushOnHoverChange
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -23974,6 +23973,9 @@ called
 "
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 static
 const
 EnumeratedArray
@@ -24050,6 +24052,8 @@ flushType
 ]
 )
 ;
+#
+endif
 #
 ifdef
 ACCESSIBILITY
@@ -25589,7 +25593,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsAtom
+nsIAtom
 *
 aAttribute
 int32_t
@@ -25703,7 +25707,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsAtom
+nsIAtom
 *
 aAttribute
 int32_t
@@ -60222,7 +60226,7 @@ if
 content
 )
 {
-nsAtom
+nsIAtom
 *
 tag
 ;

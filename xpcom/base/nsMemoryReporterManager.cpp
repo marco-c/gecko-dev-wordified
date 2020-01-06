@@ -213,12 +213,17 @@ nsIXPConnect
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 GeckoProfilerReporter
 .
 h
 "
+#
+endif
 #
 if
 defined

@@ -112,12 +112,17 @@ GeckoProfiler
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -136,6 +141,9 @@ char
 aSectionName
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -201,9 +209,9 @@ new
 section
 and
 restore
+/
+/
 it
-/
-/
 when
 this
 section
@@ -284,6 +292,8 @@ AppendElement
 newSection
 )
 ;
+#
+endif
 }
 void
 ContextStateTrackerOGL
@@ -724,6 +734,9 @@ fDeleteQueries
 handle
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -759,6 +772,8 @@ gpuTime
 )
 ;
 }
+#
+endif
 mCompletedSections
 .
 RemoveElementAt

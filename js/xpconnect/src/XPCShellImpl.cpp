@@ -6777,6 +6777,9 @@ Init
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 char
 aLocal
 ;
@@ -6786,6 +6789,8 @@ profiler_init
 aLocal
 )
 ;
+#
+endif
 if
 (
 PR_GetEnv
@@ -8816,6 +8821,9 @@ UnsetExceptionHandler
 ;
 #
 endif
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 This
@@ -8843,6 +8851,8 @@ profiler_shutdown
 (
 )
 ;
+#
+endif
 NS_LogTerm
 (
 )

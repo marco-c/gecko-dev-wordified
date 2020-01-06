@@ -2121,8 +2121,7 @@ Metric
 Rasterization
 )
 ;
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -4154,8 +4153,7 @@ bool
 aScheduleComposite
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint

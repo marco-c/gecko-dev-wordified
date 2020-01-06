@@ -2263,8 +2263,7 @@ Init
 (
 )
 ;
-AutoProfilerInit
-profilerInit
+AUTO_PROFILER_INIT
 ;
 AUTO_PROFILER_LABEL
 (
@@ -4377,8 +4376,7 @@ Init
 (
 )
 ;
-AutoProfilerInit
-profilerInit
+AUTO_PROFILER_INIT
 ;
 ScopedXREEmbed
 embed

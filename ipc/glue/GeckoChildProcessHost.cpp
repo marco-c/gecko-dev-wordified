@@ -3245,9 +3245,14 @@ ProcessArchitecture
 arch
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 AutoSetProfilerEnvVarsForChildProcess
 profilerEnvironment
 ;
+#
+endif
 const
 char
 *

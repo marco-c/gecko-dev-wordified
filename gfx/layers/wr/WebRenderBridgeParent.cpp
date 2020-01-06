@@ -3076,8 +3076,7 @@ IPC_OK
 )
 ;
 }
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -6339,8 +6338,7 @@ IntRect
 aRect
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint

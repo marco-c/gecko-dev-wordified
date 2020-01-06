@@ -3473,7 +3473,7 @@ it
 s
 pending
 .
-profiler_js_interrupt_callback
+PROFILER_JS_INTERRUPT_CALLBACK
 (
 )
 ;
@@ -14352,9 +14352,6 @@ ipc
 :
 BackgroundChild
 ;
-char
-stackBaseGuess
-;
 NS_SetCurrentThreadName
 (
 "
@@ -14402,15 +14399,13 @@ Append
 '
 )
 ;
-profiler_register_thread
+AUTO_PROFILER_REGISTER_THREAD
 (
 threadName
 .
 get
 (
 )
-&
-stackBaseGuess
 )
 ;
 /
@@ -14709,7 +14704,7 @@ NS_ERROR_FAILURE
 ;
 }
 {
-profiler_set_js_context
+PROFILER_SET_JS_CONTEXT
 (
 cx
 )
@@ -14783,7 +14778,7 @@ CloseForCurrentThread
 (
 )
 ;
-profiler_clear_js_context
+PROFILER_CLEAR_JS_CONTEXT
 (
 )
 ;
@@ -15062,10 +15057,6 @@ Dispatch
 finishedRunnable
 NS_DISPATCH_NORMAL
 )
-)
-;
-profiler_unregister_thread
-(
 )
 ;
 return

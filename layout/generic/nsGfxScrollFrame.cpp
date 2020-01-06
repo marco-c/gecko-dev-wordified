@@ -11803,7 +11803,7 @@ nsPoint
 aInitialPosition
 nsPoint
 aDestination
-nsAtom
+nsIAtom
 *
 aOrigin
 const
@@ -11930,7 +11930,7 @@ origin
 .
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 mOrigin
 ;
@@ -11951,7 +11951,7 @@ InitPreferences
 (
 TimeStamp
 aTime
-nsAtom
+nsIAtom
 *
 aOrigin
 )
@@ -12326,7 +12326,7 @@ static
 ScrollAnimationBezierPhysicsSettings
 ComputeBezierAnimationSettingsForOrigin
 (
-nsAtom
+nsIAtom
 *
 aOrigin
 )
@@ -12633,7 +12633,7 @@ nsPoint
 aInitialPosition
 nsPoint
 aDestination
-nsAtom
+nsIAtom
 *
 aOrigin
 const
@@ -13950,7 +13950,7 @@ const
 nsRect
 &
 aRange
-nsAtom
+nsIAtom
 *
 aOrigin
 )
@@ -14383,7 +14383,7 @@ const
 CSSPoint
 &
 aScrollPosition
-nsAtom
+nsIAtom
 *
 aOrigin
 )
@@ -14519,7 +14519,7 @@ nsIScrollableFrame
 :
 ScrollMode
 aMode
-nsAtom
+nsIAtom
 *
 aOrigin
 const
@@ -17745,7 +17745,7 @@ const
 nsRect
 &
 aRange
-nsAtom
+nsIAtom
 *
 aOrigin
 )
@@ -26379,7 +26379,7 @@ aMode
 nsIntPoint
 *
 aOverflow
-nsAtom
+nsIAtom
 *
 aOrigin
 nsIScrollableFrame
@@ -31712,8 +31712,7 @@ FireScrollEvent
 (
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -38173,7 +38172,7 @@ SetCoordAttribute
 nsIContent
 *
 aContent
-nsAtom
+nsIAtom
 *
 aAtom
 nscoord
@@ -39678,7 +39677,7 @@ GetCoordAttribute
 nsIFrame
 *
 aBox
-nsAtom
+nsIAtom
 *
 aAtom
 nscoord

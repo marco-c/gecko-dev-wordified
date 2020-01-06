@@ -23434,8 +23434,7 @@ BuildDisplayList
 GRAPHICS
 )
 ;
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -23872,7 +23871,7 @@ startBuildDisplayList
 bool
 profilerNeedsDisplayList
 =
-profiler_feature_active
+PROFILER_FEATURE_ACTIVE
 (
 ProfilerFeature
 :
@@ -24309,7 +24308,7 @@ profilerNeedsDisplayList
 consoleNeedsDisplayList
 )
 {
-profiler_tracing
+PROFILER_TRACING
 (
 "
 log
@@ -24878,7 +24877,7 @@ profilerNeedsDisplayList
 consoleNeedsDisplayList
 )
 {
-profiler_tracing
+PROFILER_TRACING
 (
 "
 log

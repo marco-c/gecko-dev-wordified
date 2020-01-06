@@ -3561,8 +3561,7 @@ SubmitFrame
 (
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 VR

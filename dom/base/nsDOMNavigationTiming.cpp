@@ -417,7 +417,7 @@ DocShellState
 eActive
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Navigation
@@ -534,7 +534,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -563,7 +563,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -605,7 +605,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -667,7 +667,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -771,7 +771,7 @@ Now
 (
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Navigation
@@ -819,7 +819,7 @@ Now
 (
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Navigation
@@ -867,7 +867,7 @@ Now
 (
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Navigation
@@ -915,7 +915,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -984,7 +984,7 @@ Now
 (
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 Navigation
@@ -1063,13 +1063,9 @@ Now
 (
 )
 ;
-TimeDuration
-elapsed
-=
-mNonBlankPaint
--
-mNavigationStart
-;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -1077,6 +1073,13 @@ profiler_is_active
 )
 )
 {
+TimeDuration
+elapsed
+=
+mNonBlankPaint
+-
+mNavigationStart
+;
 nsAutoCString
 spec
 ;
@@ -1163,6 +1166,8 @@ get
 )
 ;
 }
+#
+endif
 if
 (
 mDocShellHasBeenActiveSinceNavigationStart

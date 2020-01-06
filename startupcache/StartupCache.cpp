@@ -2915,8 +2915,7 @@ void
 aClosure
 )
 {
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 StartupCache

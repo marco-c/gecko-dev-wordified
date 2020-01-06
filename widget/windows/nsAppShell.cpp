@@ -2430,8 +2430,7 @@ Suspend
 )
 ;
 {
-AutoProfilerThreadSleep
-sleep
+AUTO_PROFILER_THREAD_SLEEP
 ;
 WinUtils
 :

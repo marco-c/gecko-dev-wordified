@@ -918,8 +918,7 @@ StartFrame
 (
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 VR
@@ -1497,8 +1496,7 @@ Rect
 aRightEyeRect
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 VR

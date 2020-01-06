@@ -389,9 +389,14 @@ Element
 >
 mElement
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 UniqueProfilerBacktrace
 mBacktrace
 ;
+#
+endif
 }
 ;
 inline
@@ -677,6 +682,9 @@ DoProcessRestyles
 (
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 nsAutoCString
 docURL
 (
@@ -739,6 +747,8 @@ get
 )
 )
 ;
+#
+endif
 /
 /
 Create
@@ -1841,6 +1851,9 @@ mRestyleHint
 eRestyle_AllHintsWithAnimations
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 Maybe
 <
 AutoProfilerTracing
@@ -1878,6 +1891,8 @@ mBacktrace
 )
 ;
 }
+#
+endif
 ProcessOneRestyle
 (
 element
@@ -2487,6 +2502,9 @@ data
 mRestyleHintData
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 restyle
 -
 >
@@ -2500,6 +2518,8 @@ data
 mBacktrace
 )
 ;
+#
+endif
 #
 ifdef
 RESTYLE_LOGGING
@@ -2615,6 +2635,9 @@ LOG_RESTYLE_INDENT
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 Maybe
 <
 AutoProfilerTracing
@@ -2652,6 +2675,8 @@ mBacktrace
 )
 ;
 }
+#
+endif
 {
 AutoRestyleTimelineMarker
 marker

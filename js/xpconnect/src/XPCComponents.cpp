@@ -14003,6 +14003,9 @@ MOZ_ASSERT
 moduleloader
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 const
 nsCString
 &
@@ -14029,6 +14032,8 @@ get
 )
 )
 ;
+#
+endif
 return
 moduleloader
 -

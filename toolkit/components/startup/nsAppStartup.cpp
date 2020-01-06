@@ -2143,7 +2143,7 @@ more
 }
 }
 }
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Shutdown

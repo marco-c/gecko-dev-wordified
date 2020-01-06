@@ -1005,8 +1005,7 @@ WindowId
 aWindowId
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint

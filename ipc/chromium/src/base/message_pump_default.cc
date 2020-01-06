@@ -364,11 +364,7 @@ OTHER
 )
 ;
 {
-mozilla
-:
-:
-AutoProfilerThreadSleep
-sleep
+AUTO_PROFILER_THREAD_SLEEP
 ;
 event_
 .
@@ -421,11 +417,7 @@ OTHER
 )
 ;
 {
-mozilla
-:
-:
-AutoProfilerThreadSleep
-sleep
+AUTO_PROFILER_THREAD_SLEEP
 ;
 event_
 .

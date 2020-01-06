@@ -338,7 +338,7 @@ Event
 ev
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 Describe
 (
