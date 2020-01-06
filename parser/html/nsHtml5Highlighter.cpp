@@ -647,14 +647,6 @@ Init
 STANDARDS_MODE
 )
 ;
-/
-/
-<
-html
->
-uses
-NS_NewHTMLSharedElement
-creator
 nsIContent
 *
 *
@@ -668,7 +660,6 @@ nsGkAtoms
 html
 nullptr
 nullptr
-NS_NewHTMLSharedElement
 )
 ;
 mOpQueue
@@ -691,14 +682,6 @@ AppendElement
 root
 )
 ;
-/
-/
-<
-head
->
-uses
-NS_NewHTMLSharedElement
-creator
 Push
 (
 nsGkAtoms
@@ -706,7 +689,6 @@ nsGkAtoms
 :
 head
 nullptr
-NS_NewHTMLSharedElement
 )
 ;
 Push
@@ -716,7 +698,6 @@ nsGkAtoms
 :
 title
 nullptr
-NS_NewHTMLTitleElement
 )
 ;
 /
@@ -786,7 +767,6 @@ nsHtml5ViewSourceUtils
 NewLinkAttributes
 (
 )
-NS_NewHTMLLinkElement
 )
 ;
 mOpQueue
@@ -830,7 +810,6 @@ nsHtml5ViewSourceUtils
 NewBodyAttributes
 (
 )
-NS_NewHTMLBodyElement
 )
 ;
 nsHtml5HtmlAttributes
@@ -877,7 +856,6 @@ nsGkAtoms
 :
 pre
 preAttrs
-NS_NewHTMLPreElement
 )
 ;
 StartCharacters
@@ -2717,7 +2695,6 @@ nsGkAtoms
 :
 span
 nullptr
-NS_NewHTMLSpanElement
 )
 ;
 +
@@ -2799,7 +2776,6 @@ nsGkAtoms
 :
 span
 nullptr
-NS_NewHTMLSpanElement
 )
 ;
 mCurrentRun
@@ -2880,7 +2856,6 @@ nsGkAtoms
 :
 a
 nullptr
-NS_NewHTMLAnchorElement
 )
 ;
 AddClass
@@ -3140,7 +3115,6 @@ nsGkAtoms
 :
 span
 nullptr
-NS_NewHTMLSpanElement
 )
 ;
 nsHtml5TreeOperation
@@ -3483,14 +3457,6 @@ nsIContent
 *
 *
 aIntendedParent
-mozilla
-:
-:
-dom
-:
-:
-HTMLContentCreatorFunction
-aCreator
 )
 {
 NS_PRECONDITION
@@ -3503,15 +3469,6 @@ name
 .
 "
 )
-;
-nsHtml5ContentCreatorFunction
-creator
-;
-creator
-.
-html
-=
-aCreator
 ;
 nsIContent
 *
@@ -3537,7 +3494,6 @@ aAttributes
 content
 aIntendedParent
 true
-creator
 )
 ;
 return
@@ -3599,14 +3555,6 @@ aName
 nsHtml5HtmlAttributes
 *
 aAttributes
-mozilla
-:
-:
-dom
-:
-:
-HTMLContentCreatorFunction
-aCreator
 )
 {
 NS_PRECONDITION
@@ -3639,7 +3587,6 @@ aAttributes
 CurrentNode
 (
 )
-aCreator
 )
 ;
 /
