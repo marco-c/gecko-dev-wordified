@@ -4561,6 +4561,17 @@ bool
 enabled
 )
 ;
+void
+Gecko_AddBufferToCrashReport
+(
+const
+void
+*
+addr
+size_t
+len
+)
+;
 /
 /
 Pseudo
