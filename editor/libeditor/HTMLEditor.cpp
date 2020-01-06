@@ -972,17 +972,6 @@ mSelectionListenerP
 =
 nullptr
 ;
-/
-/
-free
-any
-default
-style
-propItems
-RemoveAllDefaultProperties
-(
-)
-;
 if
 (
 mLinkHandler
