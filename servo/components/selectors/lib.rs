@@ -119,6 +119,10 @@ fnv
 ;
 extern
 crate
+lru_cache
+;
+extern
+crate
 malloc_size_of
 ;
 #

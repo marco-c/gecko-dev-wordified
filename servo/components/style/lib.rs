@@ -611,6 +611,10 @@ extern
 crate
 log
 ;
+extern
+crate
+lru_cache
+;
 #
 [
 cfg
@@ -912,10 +916,6 @@ bezier
 pub
 mod
 bloom
-;
-pub
-mod
-cache
 ;
 pub
 mod
