@@ -553,7 +553,7 @@ ipc
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 ;
@@ -807,7 +807,7 @@ run
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 there
 while
 we

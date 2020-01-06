@@ -1514,7 +1514,7 @@ support
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateCreateForCurrentThread
 (
 )
 .
