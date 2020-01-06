@@ -353,6 +353,13 @@ h
 #
 endif
 #
+include
+<
+stdbool
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -362,11 +369,6 @@ C
 {
 #
 endif
-typedef
-unsigned
-char
-jemalloc_bool
-;
 /
 *
 *
@@ -418,7 +420,7 @@ settings
 .
 *
 /
-jemalloc_bool
+bool
 opt_junk
 ;
 /
@@ -431,7 +433,7 @@ kAllocJunk
 ?
 *
 /
-jemalloc_bool
+bool
 opt_zero
 ;
 /

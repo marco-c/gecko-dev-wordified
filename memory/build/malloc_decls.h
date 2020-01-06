@@ -321,7 +321,7 @@ jemalloc_free_dirty_pages
 MALLOC_DECL_VOID
 (
 jemalloc_thread_local_arena
-jemalloc_bool
+bool
 )
 #
 endif
