@@ -2102,8 +2102,12 @@ opsize
 ;
 imm
 =
+int32_t
+(
+uint32_t
 (
 imm
+)
 <
 <
 (

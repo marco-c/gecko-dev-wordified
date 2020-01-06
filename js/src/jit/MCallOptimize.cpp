@@ -23075,6 +23075,11 @@ TemporaryTypeSet
 :
 TypedArraySharedness
 sharedness
+=
+TemporaryTypeSet
+:
+:
+UnknownSharedness
 ;
 *
 arrayType
