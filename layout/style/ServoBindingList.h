@@ -495,11 +495,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleContext_AddRef
 void
-mozilla
-:
-:
-ServoStyleContext
-*
+ServoStyleContextBorrowed
 ctx
 )
 ;
@@ -507,11 +503,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleContext_Release
 void
-mozilla
-:
-:
-ServoStyleContext
-*
+ServoStyleContextBorrowed
 ctx
 )
 ;
