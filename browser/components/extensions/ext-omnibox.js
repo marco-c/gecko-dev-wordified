@@ -479,10 +479,11 @@ listener
 api
 (
 )
-}
-omnibox_internal
-:
-{
+/
+/
+Internal
+APIs
+.
 addSuggestions
 :
 (
@@ -548,7 +549,7 @@ EventManager
 (
 context
 "
-omnibox_internal
+omnibox
 .
 onInputChanged
 "
