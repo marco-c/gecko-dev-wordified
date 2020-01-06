@@ -8805,6 +8805,12 @@ size
 *
 /
 minBuffSize
+/
+*
+mainThreadEventTarget
+*
+/
+nullptr
 )
 )
 )
