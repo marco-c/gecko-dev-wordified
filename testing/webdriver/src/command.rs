@@ -2565,6 +2565,8 @@ data
 }
 trait
 Parameters
+:
+Sized
 {
 fn
 from_json
