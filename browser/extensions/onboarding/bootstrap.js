@@ -437,7 +437,7 @@ is
 due
 to
 the
-priviledge
+privilege
 level
 .
 *
@@ -456,7 +456,7 @@ read
 For
 simplicity
 and
-effeciency
+efficiency
 we
 still
 read
@@ -483,7 +483,7 @@ set
 The
 array
 element
-carrys
+carries
 info
 to
 set
