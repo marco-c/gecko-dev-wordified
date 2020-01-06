@@ -16422,7 +16422,7 @@ false
 If
 true
 close
-buton
+button
 will
 be
 shown
