@@ -427,10 +427,7 @@ SVGPathElement
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -444,7 +441,6 @@ SVGPathElementBase
 :
 AddSizeOfExcludingThis
 (
-aState
 aSizes
 aNodeSize
 )
@@ -457,7 +453,9 @@ mD
 .
 SizeOfExcludingThis
 (
-aState
+aSizes
+.
+mState
 .
 mMallocSizeOf
 )

@@ -183,8 +183,8 @@ file
 .
 *
 /
-struct
-nsStyleSizes
+class
+nsWindowSizes
 ;
 struct
 ServoNodeData
@@ -1482,13 +1482,7 @@ const
 void
 AddSizeOfExcludingThis
 (
-mozilla
-:
-:
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 )

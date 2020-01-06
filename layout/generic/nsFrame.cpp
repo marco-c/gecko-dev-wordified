@@ -72664,11 +72664,6 @@ sc
 AddSizeOfIncludingThis
 (
 aSizes
-.
-mState
-aSizes
-.
-mStyleSizes
 &
 aSizes
 .

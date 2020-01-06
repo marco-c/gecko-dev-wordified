@@ -14376,15 +14376,17 @@ nodeSize
 =
 0
 ;
-nsStyleSizes
+nsWindowSizes
 sizes
+(
+mState
+)
 ;
 tree
 -
 >
 AddSizeOfIncludingThis
 (
-mState
 sizes
 &
 nodeSize
@@ -14420,7 +14422,6 @@ child
 >
 AddSizeOfIncludingThis
 (
-mState
 sizes
 &
 nodeSize

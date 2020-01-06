@@ -729,10 +729,7 @@ to
 void
 AddSizeOfIncludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -886,7 +883,6 @@ mSource
 .
 AddSizeOfExcludingThis
 (
-aState
 aSizes
 )
 ;

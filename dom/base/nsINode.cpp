@@ -15106,10 +15106,7 @@ nsINode
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -15140,7 +15137,9 @@ elm
 >
 SizeOfIncludingThis
 (
-aState
+aSizes
+.
+mState
 .
 mMallocSizeOf
 )

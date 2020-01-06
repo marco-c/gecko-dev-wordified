@@ -5983,10 +5983,7 @@ nsGenericDOMDataNode
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -6000,7 +5997,6 @@ nsIContent
 :
 AddSizeOfExcludingThis
 (
-aState
 aSizes
 aNodeSize
 )
@@ -6013,7 +6009,9 @@ mText
 .
 SizeOfExcludingThis
 (
-aState
+aSizes
+.
+mState
 .
 mMallocSizeOf
 )

@@ -16062,10 +16062,7 @@ FragmentOrElement
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -16079,7 +16076,6 @@ nsIContent
 :
 AddSizeOfExcludingThis
 (
-aState
 aSizes
 aNodeSize
 )
@@ -16092,7 +16088,9 @@ mAttrsAndChildren
 .
 SizeOfExcludingThis
 (
-aState
+aSizes
+.
+mState
 .
 mMallocSizeOf
 )
@@ -16119,7 +16117,9 @@ slots
 >
 SizeOfIncludingThis
 (
-aState
+aSizes
+.
+mState
 .
 mMallocSizeOf
 )
