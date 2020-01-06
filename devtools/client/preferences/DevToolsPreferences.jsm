@@ -306,10 +306,6 @@ isPrefLine
 /
 ^
 *
-(
-sticky_
-)
-?
 pref
 \
 (
