@@ -3725,6 +3725,12 @@ mIcoNoDeleteSeconds
 bool
 mIgnoreRecent
 ;
+nsCOMPtr
+<
+nsIFile
+>
+mJumpListCacheDir
+;
 }
 ;
 class
