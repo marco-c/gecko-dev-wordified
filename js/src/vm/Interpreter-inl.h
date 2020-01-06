@@ -2354,13 +2354,15 @@ getOpsSetProperty
 ok
 =
 NativeSetProperty
+<
+Unqualified
+>
 (
 cx
 varobj
 id
 val
 receiver
-Unqualified
 result
 )
 ;

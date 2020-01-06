@@ -9990,6 +9990,11 @@ Qualified
 1
 }
 ;
+template
+<
+QualifiedBool
+Qualified
+>
 extern
 bool
 NativeSetProperty
@@ -10005,8 +10010,6 @@ HandleValue
 v
 HandleValue
 receiver
-QualifiedBool
-qualified
 ObjectOpResult
 &
 result
@@ -10619,6 +10622,9 @@ result
 ;
 return
 NativeSetProperty
+<
+Qualified
+>
 (
 cx
 obj
@@ -10632,7 +10638,6 @@ NativeObject
 id
 v
 receiver
-Qualified
 result
 )
 ;
