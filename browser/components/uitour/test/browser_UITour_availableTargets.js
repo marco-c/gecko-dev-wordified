@@ -57,13 +57,6 @@ hasQuit
 isPhoton
 |
 |
-false
-;
-/
-/
-Update
-this
-with
 AppConstants
 .
 platform
@@ -72,10 +65,6 @@ platform
 "
 macosx
 "
-after
-bug
-1368734
-lands
 ;
 var
 hasLibrary
