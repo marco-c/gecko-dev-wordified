@@ -174,6 +174,16 @@ coordinate
 *
 space
 .
+If
+null
+then
+the
+entire
+region
+must
+be
+invalidated
+.
 *
 /
 typedef
@@ -188,7 +198,7 @@ ContainerLayer
 aLayer
 const
 nsIntRegion
-&
+*
 aRegion
 )
 ;

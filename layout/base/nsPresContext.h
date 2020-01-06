@@ -6052,7 +6052,7 @@ ContainerLayer
 aContainer
 const
 nsIntRegion
-&
+*
 aRegion
 )
 ;

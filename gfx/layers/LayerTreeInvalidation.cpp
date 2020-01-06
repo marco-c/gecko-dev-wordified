@@ -1019,9 +1019,9 @@ if
 container
 )
 {
-aCallback
-(
-container
+nsIntRegion
+region
+=
 container
 -
 >
@@ -1032,6 +1032,12 @@ GetLocalVisibleRegion
 ToUnknownRegion
 (
 )
+;
+aCallback
+(
+container
+&
+region
 )
 ;
 }
@@ -3183,6 +3189,11 @@ aCallback
 aCallback
 (
 container
+areaOverflowed
+?
+nullptr
+:
+&
 result
 )
 ;
