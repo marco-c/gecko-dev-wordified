@@ -19303,6 +19303,7 @@ DISPLAY_INIT_OFFSETS
 mFrame
 this
 aPercentBasis
+aWM
 aBorder
 aPadding
 )
