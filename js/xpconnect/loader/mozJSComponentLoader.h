@@ -344,6 +344,15 @@ aTargetObject
 )
 ;
 static
+already_AddRefed
+<
+mozJSComponentLoader
+>
+GetOrCreate
+(
+)
+;
+static
 mozJSComponentLoader
 *
 Get
