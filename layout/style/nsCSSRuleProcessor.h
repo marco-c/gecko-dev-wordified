@@ -1164,7 +1164,7 @@ Element
 *
 aElement
 const
-nsAString
+nsIAtom
 *
 aOverrideLang
 bool
