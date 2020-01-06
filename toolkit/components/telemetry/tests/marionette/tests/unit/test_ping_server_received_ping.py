@@ -154,6 +154,20 @@ headers
 headers
 )
         
+ping
+=
+self
+.
+wait_for_ping
+(
+)
+        
+assert
+ping
+is
+not
+None
+        
 assert
 json_req
 .
@@ -161,17 +175,6 @@ status_code
 =
 =
 200
-        
-assert
-len
-(
-self
-.
-ping_list
-)
-=
-=
-1
         
 assert
 data
@@ -182,13 +185,7 @@ sender
 ]
 =
 =
-self
-.
-ping_list
-[
--
-1
-]
+ping
 [
 '
 sender
