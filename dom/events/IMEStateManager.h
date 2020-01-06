@@ -984,7 +984,7 @@ nsIContent
 *
 aContent
 EditorBase
-&
+*
 aEditorBase
 )
 ;
