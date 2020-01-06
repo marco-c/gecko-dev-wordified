@@ -50,7 +50,7 @@ content
 /
 test
 /
-about
+general
 /
 "
 ;
@@ -76,7 +76,7 @@ content
 /
 test
 /
-about
+general
 /
 "
 ;

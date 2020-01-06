@@ -121,7 +121,7 @@ content
 /
 test
 /
-about
+general
 /
 aboutHome_content_script
 .
@@ -2244,7 +2244,7 @@ content
 /
 test
 /
-about
+general
 /
 POSTSearchEngine
 .
@@ -2343,7 +2343,7 @@ content
 /
 test
 /
-about
+general
 /
 test_bug959531
 .
