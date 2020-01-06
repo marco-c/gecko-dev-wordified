@@ -30296,6 +30296,17 @@ show
 (
 )
 ;
+this
+.
+_chevron
+.
+removeAttribute
+(
+"
+animate
+"
+)
+;
 }
 }
 _onPanelHiding
