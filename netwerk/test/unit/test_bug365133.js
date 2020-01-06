@@ -87,7 +87,7 @@ a
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -180,7 +180,7 @@ l
 \
 "
 2
-Sun
+Sat
 %
 2C
 %
@@ -294,7 +294,7 @@ arrow
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -383,7 +383,7 @@ t
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -499,7 +499,7 @@ symlink
 \
 "
 26
-Sun
+Sat
 %
 2C
 %
@@ -630,7 +630,7 @@ symlink
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -724,7 +724,7 @@ file
 \
 "
 1024
-Sun
+Fri
 %
 2C
 %
@@ -816,7 +816,7 @@ file
 \
 "
 1024
-Sun
+Sat
 %
 2C
 %
