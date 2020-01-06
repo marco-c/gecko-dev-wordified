@@ -16516,6 +16516,11 @@ nsSVGUtils
 :
 :
 eBBoxIncludeMarkers
+|
+nsSVGUtils
+:
+:
+eBBoxIncludeStroke
 )
 ;
 combinedClip
