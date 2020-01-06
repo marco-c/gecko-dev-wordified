@@ -277,6 +277,9 @@ mParent
 aOptions
 .
 mPublicKey
+aOptions
+.
+mSignal
 )
 ;
 }
@@ -318,6 +321,9 @@ mParent
 aOptions
 .
 mPublicKey
+aOptions
+.
+mSignal
 )
 ;
 }
