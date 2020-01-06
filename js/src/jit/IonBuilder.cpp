@@ -83008,6 +83008,10 @@ lookup
 name
 )
 ;
+MInstruction
+*
+store
+=
 storeUnboxedProperty
 (
 obj
@@ -83028,6 +83032,14 @@ current
 push
 (
 value
+)
+;
+MOZ_TRY
+(
+resumeAfter
+(
+store
+)
 )
 ;
 trackOptimizationOutcome
