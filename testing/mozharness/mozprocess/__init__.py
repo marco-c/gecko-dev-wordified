@@ -1,4 +1,8 @@
 #
+flake8
+:
+noqa
+#
 This
 Source
 Code
@@ -54,6 +58,11 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+from
+.
 processhandler
 import
 *
