@@ -5776,6 +5776,14 @@ interval
 if
 (
 aOldLayers
+&
+&
+aFrame
+-
+>
+HasImageRequest
+(
+)
 )
 {
 CompareLayers
