@@ -804,8 +804,6 @@ org
 privacy
 /
 firefox
--
-cloud
 /
 "
 }
