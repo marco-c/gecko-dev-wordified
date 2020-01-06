@@ -20695,6 +20695,13 @@ aFrame
 ;
 builder
 .
+SetVisibleRect
+(
+aRect
+)
+;
+builder
+.
 SetDirtyRect
 (
 aRect
@@ -22447,6 +22454,7 @@ buildingDisplayList
 aBuilder
 aFrame
 bounds
+bounds
 false
 )
 ;
@@ -22604,6 +22612,7 @@ buildingDisplayList
 &
 aBuilder
 aFrame
+canvasArea
 canvasArea
 false
 )
@@ -22977,6 +22986,11 @@ GetVisualOverflowRectRelativeToSelf
 (
 )
 ;
+nsRect
+temp
+=
+displayPortBase
+;
 Unused
 <
 <
@@ -22989,6 +23003,8 @@ DecideScrollableLayer
 builder
 &
 displayPortBase
+&
+temp
 /
 *
 aSetBase
@@ -23732,6 +23748,13 @@ id
 builder
 .
 SetDirtyRect
+(
+dirtyRect
+)
+;
+builder
+.
+SetVisibleRect
 (
 dirtyRect
 )

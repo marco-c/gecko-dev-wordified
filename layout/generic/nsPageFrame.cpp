@@ -3893,7 +3893,7 @@ nullptr
 )
 ;
 nsRect
-dirtyRect
+visibleRect
 =
 child
 -
@@ -3910,7 +3910,8 @@ buildingForChild
 (
 aBuilder
 child
-dirtyRect
+visibleRect
+visibleRect
 aBuilder
 -
 >
@@ -4062,9 +4063,9 @@ nullptr
 )
 {
 nsRect
-childDirty
+childVisible
 =
-dirtyRect
+visibleRect
 +
 child
 -
@@ -4082,7 +4083,8 @@ buildingForChild
 (
 aBuilder
 page
-childDirty
+childVisible
+childVisible
 aBuilder
 -
 >
@@ -4110,7 +4112,7 @@ ensure
 that
 the
 correct
-dirtyRect
+visibleRect
 /
 /
 is
@@ -4137,7 +4139,8 @@ building
 (
 aBuilder
 child
-dirtyRect
+visibleRect
+visibleRect
 true
 )
 ;

@@ -2336,7 +2336,7 @@ dirty
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 .
@@ -2355,7 +2355,7 @@ ComputePartialPrerenderArea
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 overflow
@@ -2370,6 +2370,7 @@ buildingDisplayList
 (
 aBuilder
 this
+dirty
 dirty
 false
 )

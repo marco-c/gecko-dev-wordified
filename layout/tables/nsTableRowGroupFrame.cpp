@@ -1389,6 +1389,7 @@ aBuilder
 ShouldDescendIntoFrame
 (
 f
+true
 )
 ?
 nullptr
@@ -1401,7 +1402,7 @@ GetFirstRowContaining
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 .
@@ -1444,7 +1445,7 @@ overflowAbove
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 .
@@ -1468,7 +1469,7 @@ overflowAbove
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 .

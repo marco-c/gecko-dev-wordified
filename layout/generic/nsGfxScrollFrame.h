@@ -2583,6 +2583,9 @@ nsDisplayListBuilder
 aBuilder
 nsRect
 *
+aVisibleRect
+nsRect
+*
 aDirtyRect
 bool
 aSetBase
@@ -5772,6 +5775,9 @@ nsDisplayListBuilder
 aBuilder
 nsRect
 *
+aVisibleRect
+nsRect
+*
 aDirtyRect
 bool
 aSetBase
@@ -5784,6 +5790,7 @@ mHelper
 DecideScrollableLayer
 (
 aBuilder
+aVisibleRect
 aDirtyRect
 aSetBase
 )
@@ -8555,6 +8562,9 @@ nsDisplayListBuilder
 aBuilder
 nsRect
 *
+aVisibleRect
+nsRect
+*
 aDirtyRect
 bool
 aSetBase
@@ -8567,6 +8577,7 @@ mHelper
 DecideScrollableLayer
 (
 aBuilder
+aVisibleRect
 aDirtyRect
 aSetBase
 )

@@ -672,6 +672,9 @@ aList
 )
 {
 nsRect
+visible
+;
+nsRect
 dirty
 ;
 DisplayListClipState
@@ -712,6 +715,13 @@ if
 savedOutOfFlowData
 )
 {
+visible
+=
+savedOutOfFlowData
+-
+>
+mVisibleRect
+;
 dirty
 =
 savedOutOfFlowData
@@ -864,6 +874,7 @@ buildingForChild
 (
 aBuilder
 aFrame
+visible
 dirty
 aBuilder
 -
