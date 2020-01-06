@@ -4824,6 +4824,10 @@ unsafe
 f
 .
 mName
+as
+*
+mut
+_
 }
 )
 {

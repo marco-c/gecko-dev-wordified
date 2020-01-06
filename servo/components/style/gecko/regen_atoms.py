@@ -196,6 +196,8 @@ components
 /
 style
 /
+gecko
+/
 binding_tools
 /
 regen_atoms
@@ -411,7 +413,7 @@ nsGkAtoms
 TYPE
 =
 "
-nsAtom
+nsStaticAtom
 "
 class
 CSSPseudoElementsAtomSource
@@ -472,7 +474,7 @@ the
 same
 as
 a
-nsAtom
+nsStaticAtom
 but
 we
 need
@@ -1248,7 +1250,7 @@ gecko_bindings
 structs
 :
 :
-nsAtom
+nsStaticAtom
 ;
 "
            
@@ -1326,7 +1328,7 @@ ptr
 :
 *
 mut
-nsAtom
+nsStaticAtom
 )
 -
 >
@@ -1674,7 +1676,7 @@ TYPE
 !
 =
 "
-nsAtom
+nsStaticAtom
 "
 :
                 
