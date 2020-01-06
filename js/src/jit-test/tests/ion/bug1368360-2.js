@@ -19,12 +19,15 @@ r
 (
 y
 )
+{
+return
 t
 .
 y
 =
 y
 ;
+}
 function
 g
 (

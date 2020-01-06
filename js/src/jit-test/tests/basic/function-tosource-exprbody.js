@@ -1,3 +1,13 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+)
+eval
+(
 function
 f1
 (
@@ -408,5 +418,7 @@ toString
 "
 )
 "
+)
+;
 )
 ;

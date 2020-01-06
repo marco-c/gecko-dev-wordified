@@ -10236,6 +10236,15 @@ Legacy
 /
 Expression
 closures
+if
+(
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+)
+{
 test
 (
 "
@@ -10283,6 +10292,7 @@ function
 "
 )
 ;
+}
 /
 /
 for
