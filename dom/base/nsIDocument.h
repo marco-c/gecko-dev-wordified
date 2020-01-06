@@ -17026,6 +17026,7 @@ GetRootElement
 enum
 ElementCallbackType
 {
+eCreated
 eConnected
 eDisconnected
 eAdopted
