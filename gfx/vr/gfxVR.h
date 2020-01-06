@@ -1937,7 +1937,7 @@ Shutdown
 0
 ;
 virtual
-void
+bool
 GetHMDs
 (
 nsTArray
