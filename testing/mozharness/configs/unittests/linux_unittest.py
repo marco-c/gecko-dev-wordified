@@ -2248,6 +2248,20 @@ style
 /
 test
 "
+"
+dom
+/
+smil
+/
+test
+"
+"
+dom
+/
+animation
+/
+test
+"
 ]
         
 "
@@ -2290,6 +2304,13 @@ style
 test
 /
 chrome
+"
+"
+dom
+/
+animation
+/
+test
 "
 ]
     
