@@ -206,7 +206,7 @@ delay
 )
 ;
 function
-TouchSimulator
+SimulatorCore
 (
 simulatorTarget
 )
@@ -237,7 +237,7 @@ available
 .
 *
 /
-TouchSimulator
+SimulatorCore
 .
 prototype
 =
@@ -2211,7 +2211,7 @@ return
 ;
 exports
 .
-TouchSimulator
+SimulatorCore
 =
-TouchSimulator
+SimulatorCore
 ;
