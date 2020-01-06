@@ -234,7 +234,7 @@ thread
 RunLoop
 :
 :
-new
+new_with_timeout
 (
 move
 |
@@ -524,7 +524,7 @@ thread
 RunLoop
 :
 :
-new
+new_with_timeout
 (
 move
 |
