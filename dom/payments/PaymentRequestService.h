@@ -259,6 +259,15 @@ aActionType
 )
 ;
 bool
+CanMakePayment
+(
+const
+nsAString
+&
+aRequestId
+)
+;
+bool
 IsBasicCardPayment
 (
 const

@@ -401,8 +401,6 @@ aRv
 void
 RespondShowPayment
 (
-bool
-aAccept
 const
 nsAString
 &
@@ -425,8 +423,6 @@ nsAString
 aPayerPhone
 nsresult
 aRv
-=
-NS_ERROR_DOM_ABORT_ERR
 )
 ;
 void
