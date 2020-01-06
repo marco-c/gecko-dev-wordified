@@ -426,6 +426,7 @@ identity
 syncKeyBundle
 )
 ;
+await
 serverKeys
 .
 upload
