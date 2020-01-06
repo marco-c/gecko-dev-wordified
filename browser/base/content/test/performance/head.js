@@ -1350,7 +1350,7 @@ gBrowser
 .
 tabContainer
 "
-anonid
+class
 "
 "
 tabs
