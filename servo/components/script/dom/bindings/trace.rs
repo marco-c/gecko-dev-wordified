@@ -600,13 +600,10 @@ document
 PendingRestyle
 ;
 use
-encoding
+encoding_rs
 :
 :
-types
-:
-:
-EncodingRef
+Encoding
 ;
 use
 euclid
@@ -1336,7 +1333,10 @@ CSSError
 unsafe_no_jsmanaged_fields
 !
 (
-EncodingRef
+&
+'
+static
+Encoding
 )
 ;
 unsafe_no_jsmanaged_fields
