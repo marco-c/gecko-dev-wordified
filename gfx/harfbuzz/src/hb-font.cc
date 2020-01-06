@@ -4631,7 +4631,7 @@ destroy
 hb_font_t
 :
 :
-NOTHING
+DIRTY_NOTHING
 /
 *
 dirty
@@ -5200,7 +5200,7 @@ dirty
 font
 -
 >
-PARENT
+DIRTY_PARENT
 ;
 hb_font_t
 *
@@ -5373,7 +5373,7 @@ dirty
 font
 -
 >
-FACE
+DIRTY_FACE
 ;
 hb_face_t
 *
@@ -5574,7 +5574,7 @@ dirty
 font
 -
 >
-FUNCS
+DIRTY_FUNCS
 ;
 hb_font_funcs_reference
 (
@@ -5808,7 +5808,7 @@ dirty
 font
 -
 >
-SCALE
+DIRTY_SCALE
 ;
 font
 -
@@ -5989,7 +5989,7 @@ dirty
 font
 -
 >
-PPEM
+DIRTY_PPEM
 ;
 font
 -
@@ -6174,7 +6174,7 @@ dirty
 font
 -
 >
-VARIATIONS
+DIRTY_VARIATIONS
 ;
 free
 (

@@ -2379,6 +2379,7 @@ int
 -
 1
 )
+{
 info
 [
 prev
@@ -2393,6 +2394,18 @@ entry
 >
 prev_action
 ;
+buffer
+-
+>
+unsafe_to_break
+(
+prev
+i
++
+1
+)
+;
+}
 info
 [
 i

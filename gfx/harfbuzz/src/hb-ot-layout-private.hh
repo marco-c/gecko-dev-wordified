@@ -904,9 +904,16 @@ boundaries
 /
 /
 *
-loop
+Loop
 over
 syllables
+.
+Based
+on
+foreach_cluster
+(
+)
+.
 *
 /
 #
