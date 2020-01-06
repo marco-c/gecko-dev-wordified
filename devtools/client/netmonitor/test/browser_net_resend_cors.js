@@ -98,6 +98,7 @@ let
 {
 store
 windowRequire
+connector
 }
 =
 monitor
@@ -465,6 +466,7 @@ Actions
 .
 sendCustomRequest
 (
+connector
 )
 )
 ;
