@@ -1385,6 +1385,24 @@ message
 =
 None
     
+def
+setup
+(
+self
+)
+:
+        
+pass
+    
+def
+teardown
+(
+self
+)
+:
+        
+pass
+    
 property
     
 def
