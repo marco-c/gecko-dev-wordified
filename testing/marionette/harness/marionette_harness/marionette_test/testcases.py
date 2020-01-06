@@ -2108,25 +2108,18 @@ test_name
         
 self
 .
-marionette
+logger
 .
-execute_script
+info
 (
 "
-log
-(
-'
 TEST
 -
 START
 :
 {
-0
 }
-'
-)
 "
-                                       
 .
 format
 (
@@ -2134,12 +2127,6 @@ self
 .
 test_name
 )
-                                       
-sandbox
-=
-"
-simpletest
-"
 )
     
 def
@@ -2209,25 +2196,18 @@ try
                 
 self
 .
-marionette
+logger
 .
-execute_script
+info
 (
 "
-log
-(
-'
 TEST
 -
 END
 :
 {
-0
 }
-'
-)
 "
-                                               
 .
 format
 (
@@ -2235,12 +2215,6 @@ self
 .
 test_name
 )
-                                               
-sandbox
-=
-"
-simpletest
-"
 )
                 
 self
