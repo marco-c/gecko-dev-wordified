@@ -22676,6 +22676,8 @@ ownerDocument
 location
 .
 hostname
+{
+}
 )
 ;
 let
