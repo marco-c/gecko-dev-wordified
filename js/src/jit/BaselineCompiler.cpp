@@ -9224,7 +9224,7 @@ true
 ;
 }
 typedef
-bool
+void
 (
 *
 GetNonSyntacticGlobalThisFn
