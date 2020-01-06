@@ -470,6 +470,15 @@ nsIStreamListener
 aStreamListener
 )
 ;
+void
+AddSizeOfResources
+(
+ResourceSizes
+*
+aSizes
+)
+override
+;
 already_AddRefed
 <
 nsIPrincipal

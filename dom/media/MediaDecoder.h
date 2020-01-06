@@ -1773,6 +1773,8 @@ ResourceSizes
 *
 aSizes
 )
+=
+0
 ;
 VideoFrameContainer
 *

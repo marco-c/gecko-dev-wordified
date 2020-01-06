@@ -256,6 +256,15 @@ Pause
 )
 override
 ;
+void
+AddSizeOfResources
+(
+ResourceSizes
+*
+aSizes
+)
+override
+;
 already_AddRefed
 <
 nsIPrincipal
