@@ -3389,9 +3389,9 @@ mTitle
 .
 setText
 (
-selectedTab
+mSiteIdentity
 .
-getBaseDomain
+getHost
 (
 )
 )
