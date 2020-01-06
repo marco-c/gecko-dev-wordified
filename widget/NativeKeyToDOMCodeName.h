@@ -223,8 +223,6 @@ aNativeKey
 /
 /
 Android
-and
-Gonk
 #
 define
 CODE_MAP_ANDROID

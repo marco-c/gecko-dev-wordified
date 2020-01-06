@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_dbus_gonk_rawdbusconnection_h__
+mozilla_ipc_dbus_rawdbusconnection_h__
 #
 define
-mozilla_ipc_dbus_gonk_rawdbusconnection_h__
+mozilla_ipc_dbus_rawdbusconnection_h__
 #
 include
 <

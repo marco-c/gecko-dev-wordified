@@ -382,9 +382,7 @@ operating
 system
 .
 On
-gonk
 *
-or
 android
 we
 may

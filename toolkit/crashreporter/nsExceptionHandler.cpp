@@ -7062,13 +7062,6 @@ aBufLen
 /
 /
 GeckoAppShell
-or
-Gonk
-'
-s
-init
-.
-rc
 sets
 this
 in

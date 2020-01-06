@@ -1372,9 +1372,6 @@ android
 mac
 "
 "
-gonk
-"
-"
 gtk
 "
 "

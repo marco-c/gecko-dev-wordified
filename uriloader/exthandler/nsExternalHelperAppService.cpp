@@ -12375,10 +12375,6 @@ ANDROID
 /
 On
 Android
-(
-and
-Gonk
-)
 this
 means
 the
@@ -12483,10 +12479,6 @@ kWriteError
 /
 On
 Android
-(
-and
-Gonk
-)
 this
 means
 the

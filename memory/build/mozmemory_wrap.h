@@ -408,8 +408,6 @@ unprefixed
 -
 On
 Android
-and
-Gonk
 all
 functions
 are
@@ -456,9 +454,7 @@ unprefixed
 *
 Only
 Android
-and
-Gonk
-add
+adds
 C
 +
 +
