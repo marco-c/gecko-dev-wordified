@@ -315,6 +315,12 @@ const
 StackingContextHelper
 &
 aSc
+nsTArray
+<
+WebRenderParentCommand
+>
+&
+aParentCommands
 mozilla
 :
 :
@@ -626,6 +632,12 @@ const
 StackingContextHelper
 &
 aSc
+nsTArray
+<
+WebRenderParentCommand
+>
+&
+aParentCommands
 mozilla
 :
 :
