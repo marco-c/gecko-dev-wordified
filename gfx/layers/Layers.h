@@ -9484,7 +9484,7 @@ HasScrollableFrameMetrics
 const
 ;
 bool
-IsScrollInfoLayer
+IsScrollableWithoutContent
 (
 )
 const

@@ -4045,7 +4045,7 @@ bool
 Layer
 :
 :
-IsScrollInfoLayer
+IsScrollableWithoutContent
 (
 )
 const

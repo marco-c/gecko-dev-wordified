@@ -6675,7 +6675,7 @@ if
 layer
 -
 >
-IsScrollInfoLayer
+IsScrollableWithoutContent
 (
 )
 )
