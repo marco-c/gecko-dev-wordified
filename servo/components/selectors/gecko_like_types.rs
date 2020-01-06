@@ -145,6 +145,15 @@ PseudoElement
 {
 A
 B
+Tree
+(
+Box
+<
+[
+String
+]
+>
+)
 }
 #
 [

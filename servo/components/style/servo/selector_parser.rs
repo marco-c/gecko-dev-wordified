@@ -281,7 +281,7 @@ be
 sure
 to
 update
-each_pseudo_element
+each_simple_pseudo_element
 too
 .
 #
@@ -3245,7 +3245,7 @@ inline
 ]
 pub
 fn
-each_pseudo_element
+each_simple_pseudo_element
 <
 F
 >

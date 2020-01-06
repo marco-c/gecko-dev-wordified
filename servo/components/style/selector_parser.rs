@@ -1063,7 +1063,7 @@ PseudoElement
 Self
 :
 :
-each_pseudo_element
+each_simple_pseudo_element
 (
 |
 pseudo
