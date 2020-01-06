@@ -4832,16 +4832,6 @@ moz
 -
 win
 -
-accentcolor
-_moz_win_accentcolor
-)
-CSS_KEY
-(
--
-moz
--
-win
--
 mediatext
 _moz_win_mediatext
 )
