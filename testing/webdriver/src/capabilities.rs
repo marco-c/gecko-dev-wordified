@@ -946,7 +946,7 @@ value
 )
 }
 "
-unhandledPromptBehaviour
+unhandledPromptBehavior
 "
 =
 >
@@ -2506,7 +2506,7 @@ ErrorStatus
 :
 InvalidArgument
 "
-unhandledPromptBehaviour
+unhandledPromptBehavior
 capability
 was
 not
@@ -2554,7 +2554,7 @@ was
 not
 a
 valid
-unhandledPromptBehaviour
+unhandledPromptBehavior
 value
 "
 x
