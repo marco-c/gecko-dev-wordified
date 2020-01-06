@@ -20927,7 +20927,7 @@ RemoveFromRootSet
 JS
 :
 :
-PokeGC
+NotifyGCRootsRemoved
 (
 XPCJSContext
 :
