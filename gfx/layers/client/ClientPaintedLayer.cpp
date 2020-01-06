@@ -483,8 +483,11 @@ this
 flags
 )
 ;
-SubtractFromValidRegion
+mValidRegion
+.
+Sub
 (
+mValidRegion
 state
 .
 mRegionToInvalidate
@@ -756,8 +759,11 @@ Mutated
 (
 )
 ;
-AddToValidRegion
+mValidRegion
+.
+Or
 (
+mValidRegion
 state
 .
 mRegionToDraw
