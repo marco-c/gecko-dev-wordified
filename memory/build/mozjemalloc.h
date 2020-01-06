@@ -186,9 +186,9 @@ name
 .
 .
 )
+\
 MACRO_CALL2
 (
-\
 MOZ_PASTE_PREFIX_AND_ARG_COUNT
 (
 name
@@ -477,13 +477,13 @@ return_type
 \
 static
 return_type
-\
 moz_arena_
 #
 #
 name
 (
 arena_id_t
+\
 ARGS_HELPER
 (
 TYPED_ARGS

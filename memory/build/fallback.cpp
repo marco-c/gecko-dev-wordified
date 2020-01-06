@@ -211,7 +211,6 @@ return_type
 static
 inline
 return_type
-\
 name
 (
 ARGS_HELPER
@@ -267,7 +266,6 @@ return_type
 \
 MOZ_JEMALLOC_API
 return_type
-\
 name
 (
 ARGS_HELPER
@@ -290,6 +288,7 @@ SystemMalloc
 :
 name
 (
+\
 ARGS_HELPER
 (
 ARGS

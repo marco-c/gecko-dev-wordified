@@ -639,7 +639,6 @@ return_type
 .
 .
 )
-\
 name
 #
 #
