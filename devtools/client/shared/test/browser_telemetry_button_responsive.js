@@ -114,10 +114,13 @@ devtools
 /
 client
 /
-responsivedesign
+responsive
+.
+html
 /
-responsivedesign
+manager
 "
+true
 )
 ;
 add_task
