@@ -35826,7 +35826,7 @@ if
 cell
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )

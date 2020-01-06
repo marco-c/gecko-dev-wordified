@@ -3946,16 +3946,7 @@ if
 tenuredParent
 -
 >
-isMarkedAny
-(
-)
-&
-&
-!
-tenuredParent
--
->
-isMarkedGray
+isMarkedBlack
 (
 )
 &

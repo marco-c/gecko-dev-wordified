@@ -2332,16 +2332,7 @@ if
 wrapper
 -
 >
-isMarkedAny
-(
-)
-&
-&
-!
-wrapper
--
->
-isMarkedGray
+isMarkedBlack
 (
 )
 )

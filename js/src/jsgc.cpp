@@ -12831,7 +12831,7 @@ MOZ_ASSERT
 src
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 =
@@ -12839,7 +12839,7 @@ isMarkedAny
 dest
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )
@@ -28939,14 +28939,7 @@ needsEdge
 !
 other
 .
-isMarkedAny
-(
-)
-|
-|
-other
-.
-isMarkedGray
+isMarkedBlack
 (
 )
 ;
@@ -43120,10 +43113,6 @@ global
 global
 -
 >
-asTenured
-(
-)
-.
 isMarkedGray
 (
 )
