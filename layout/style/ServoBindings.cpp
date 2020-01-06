@@ -13423,6 +13423,13 @@ Gecko_ShouldCreateStyleThreadPool
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 !
 mozilla
