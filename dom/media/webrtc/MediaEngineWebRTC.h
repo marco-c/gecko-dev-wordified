@@ -2613,6 +2613,10 @@ const
 char
 *
 uuid
+bool
+aDelayAgnostic
+bool
+aExtendedFilter
 )
 ;
 void
@@ -3228,6 +3232,12 @@ mCapIndex
 int
 mChannel
 ;
+bool
+mDelayAgnostic
+;
+bool
+mExtendedFilter
+;
 MOZ_INIT_OUTSIDE_CTOR
 TrackID
 mTrackID
@@ -3487,6 +3497,12 @@ mAudioInput
 ;
 bool
 mFullDuplex
+;
+bool
+mDelayAgnostic
+;
+bool
+mExtendedFilter
 ;
 bool
 mHasTabVideoSource
