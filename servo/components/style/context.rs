@@ -286,7 +286,7 @@ use
 sharing
 :
 :
-StyleSharingCandidateCache
+StyleSharingCache
 ;
 use
 std
@@ -5378,9 +5378,9 @@ among
 siblings
 .
 pub
-style_sharing_candidate_cache
+sharing_cache
 :
-StyleSharingCandidateCache
+StyleSharingCache
 <
 E
 >
@@ -5771,9 +5771,9 @@ Self
 {
 ThreadLocalStyleContext
 {
-style_sharing_candidate_cache
+sharing_cache
 :
-StyleSharingCandidateCache
+StyleSharingCache
 :
 :
 new
@@ -5903,9 +5903,9 @@ Self
 {
 ThreadLocalStyleContext
 {
-style_sharing_candidate_cache
+sharing_cache
 :
-StyleSharingCandidateCache
+StyleSharingCache
 :
 :
 new
