@@ -566,6 +566,7 @@ nsIPresShell
 *
 GetPresShellForContent
 (
+const
 nsIContent
 *
 aContent
