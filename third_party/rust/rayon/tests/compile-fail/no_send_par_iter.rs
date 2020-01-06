@@ -103,10 +103,10 @@ count
 /
 ~
 ERROR
-no
-method
-named
-count
+Send
+is
+not
+satisfied
 x
 .
 par_iter
@@ -171,8 +171,8 @@ count
 /
 ~
 ERROR
-no
-method
-named
-count
+Send
+is
+not
+satisfied
 }

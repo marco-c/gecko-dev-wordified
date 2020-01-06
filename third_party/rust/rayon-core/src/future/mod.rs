@@ -30,7 +30,9 @@ and
 /
 /
 !
-spawn_future_async
+:
+:
+spawn_future
 .
 However
 the

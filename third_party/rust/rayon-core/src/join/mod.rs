@@ -225,7 +225,6 @@ CPU
 bound
 tasks
 that
-to
 do
 not
 perform
@@ -679,7 +678,7 @@ job
 =
 worker_thread
 .
-pop
+take_local_job
 (
 )
 {
