@@ -3632,6 +3632,7 @@ PushImage
 (
 aBounds
 aClip
+true
 aFilter
 aImageKeys
 [
@@ -3660,6 +3661,7 @@ PushYCbCrPlanarImage
 (
 aBounds
 aClip
+true
 aImageKeys
 [
 0

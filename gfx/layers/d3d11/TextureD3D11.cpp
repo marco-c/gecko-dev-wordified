@@ -5852,6 +5852,7 @@ PushImage
 (
 aBounds
 aClip
+true
 aFilter
 aImageKeys
 [
@@ -5890,6 +5891,7 @@ PushNV12Image
 (
 aBounds
 aClip
+true
 aImageKeys
 [
 0
@@ -7310,6 +7312,7 @@ PushImage
 (
 aBounds
 aClip
+true
 aFilter
 aImageKeys
 [

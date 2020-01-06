@@ -2546,6 +2546,10 @@ ToRelativeLayoutRect
 (
 visible
 )
+!
+BackfaceIsHidden
+(
+)
 mozilla
 :
 :

@@ -1751,6 +1751,7 @@ WrFilterOp
 >
 (
 )
+true
 )
 ;
 LayerRect
@@ -1941,6 +1942,7 @@ ToLayoutRect
 (
 rect
 )
+true
 pipeline
 -
 >
