@@ -657,11 +657,10 @@ pos
 ;
 pos
 <
-sizeof
-(
-void
-*
-)
+ProfileBufferEntry
+:
+:
+kNumChars
 ;
 pos
 +
