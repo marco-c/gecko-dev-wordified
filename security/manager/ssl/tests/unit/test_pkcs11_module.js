@@ -856,11 +856,6 @@ expectedSlotNames
 =
 [
 "
-Empty
-PKCS11
-Slot
-"
-"
 Test
 PKCS11
 Slot
