@@ -321,6 +321,12 @@ StackingContextHelper
 aSc
 )
 ;
+bool
+InsideClipAndScroll
+(
+)
+const
+;
 /
 /
 Note
