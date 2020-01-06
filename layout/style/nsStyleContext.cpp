@@ -1603,6 +1603,11 @@ if
 (
 Servo_ComputedValues_EqualCustomProperties
 (
+AsServo
+(
+)
+-
+>
 ComputedValues
 (
 )

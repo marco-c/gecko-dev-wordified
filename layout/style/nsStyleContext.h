@@ -2450,16 +2450,6 @@ SetStyleBits
 (
 )
 ;
-inline
-const
-void
-*
-StyleStructFromServoComputedValues
-(
-nsStyleStructID
-aSID
-)
-;
 /
 /
 Helper

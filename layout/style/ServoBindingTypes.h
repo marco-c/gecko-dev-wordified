@@ -773,12 +773,6 @@ const
 *
 ServoComputedValuesBorrowed
 ;
-typedef
-ServoComputedValues
-const
-*
-ServoComputedValuesBorrowedOrNull
-;
 struct
 MOZ_MUST_USE_TYPE
 ServoStyleContextStrong

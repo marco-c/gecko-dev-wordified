@@ -179,9 +179,6 @@ nsIDocument
 class
 nsStyleContext
 ;
-class
-ServoComputedValues
-;
 struct
 RawServoDeclarationBlock
 ;
@@ -565,11 +562,11 @@ param
 aStyleType
 The
 |
-ServoComputedValues
+ServoStyleContext
 |
 or
 |
-nsStyleContext
+GeckoStyleContext
 |
 to
 use

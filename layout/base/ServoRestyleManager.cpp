@@ -3475,7 +3475,7 @@ in
 the
 /
 /
-ServoComputedValues
+ServoStyleContext
 case
 which
 uses
