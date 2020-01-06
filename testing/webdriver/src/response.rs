@@ -471,13 +471,6 @@ Nullable
 Date
 >
 pub
-maxAge
-:
-Nullable
-<
-Date
->
-pub
 secure
 :
 bool
@@ -517,12 +510,6 @@ Nullable
 <
 Date
 >
-max_age
-:
-Nullable
-<
-Date
->
 secure
 :
 bool
@@ -551,9 +538,6 @@ domain
 expiry
 :
 expiry
-maxAge
-:
-max_age
 secure
 :
 secure
