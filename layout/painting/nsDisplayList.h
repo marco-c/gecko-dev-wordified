@@ -5328,6 +5328,11 @@ aStopAtFrame
 nullptr
 )
 ;
+void
+ClearFixedBackgroundDisplayData
+(
+)
+;
 /
 *
 *
