@@ -1191,6 +1191,10 @@ selection
 contextData
 .
 selectionText
+.
+trim
+(
+)
 ;
 /
 /
