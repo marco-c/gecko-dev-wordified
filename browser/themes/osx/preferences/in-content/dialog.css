@@ -115,7 +115,7 @@ size
 :
 1
 .
-3em
+3rem
 ;
 }
 /
@@ -166,15 +166,6 @@ font
 size
 :
 unset
-;
-}
-button
-{
-font
--
-size
-:
-1em
 ;
 }
 caption
