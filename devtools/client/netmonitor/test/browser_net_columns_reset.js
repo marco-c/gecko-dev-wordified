@@ -110,7 +110,7 @@ prefBefore
 =
 Prefs
 .
-hiddenColumns
+visibleColumns
 ;
 hideColumn
 (
@@ -192,7 +192,7 @@ stringify
 (
 Prefs
 .
-hiddenColumns
+visibleColumns
 )
 "
 Reset

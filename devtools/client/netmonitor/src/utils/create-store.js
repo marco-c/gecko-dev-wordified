@@ -334,7 +334,7 @@ Columns
 )
 ;
 let
-hiddenColumns
+visibleColumns
 =
 getPref
 (
@@ -343,7 +343,7 @@ devtools
 .
 netmonitor
 .
-hiddenColumns
+visibleColumns
 "
 )
 ;
@@ -374,8 +374,7 @@ state
 set
 (
 col
-!
-hiddenColumns
+visibleColumns
 .
 includes
 (

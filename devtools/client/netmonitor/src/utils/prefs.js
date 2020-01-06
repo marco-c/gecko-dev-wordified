@@ -138,14 +138,14 @@ details
 height
 "
 ]
-hiddenColumns
+visibleColumns
 :
 [
 "
 Json
 "
 "
-hiddenColumns
+visibleColumns
 "
 ]
 filters

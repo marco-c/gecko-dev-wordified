@@ -651,6 +651,12 @@ name
 let
 label
 =
+header
+.
+noLocalization
+?
+name
+:
 L10N
 .
 getStr
