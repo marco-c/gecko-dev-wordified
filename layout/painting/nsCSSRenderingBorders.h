@@ -946,6 +946,9 @@ mBackgroundColor
 calculated
 values
 bool
+mAllBordersSameStyle
+;
+bool
 mOneUnitBorder
 ;
 bool
