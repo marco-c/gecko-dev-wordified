@@ -866,9 +866,16 @@ growByUninitialized
 numRegisters
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 RegExpRunStatus_Error
 ;
+}
 for
 (
 size_t
