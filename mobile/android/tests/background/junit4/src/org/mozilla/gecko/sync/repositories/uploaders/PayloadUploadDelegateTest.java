@@ -3650,6 +3650,10 @@ assertTrue
 payloadDispatcher
 .
 storeFailed
+.
+get
+(
+)
 )
 ;
 assertTrue
