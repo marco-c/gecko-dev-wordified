@@ -306,10 +306,6 @@ pageNumber
 ;
 private
 int
-tiles
-;
-private
-int
 tilesSize
 ;
 private
@@ -339,8 +335,6 @@ Context
 context
 int
 pageNumber
-int
-tiles
 int
 tilesSize
 HomePager
@@ -374,12 +368,6 @@ this
 pageNumber
 =
 pageNumber
-;
-this
-.
-tiles
-=
-tiles
 ;
 this
 .
@@ -469,7 +457,9 @@ i
 ;
 i
 <
-tiles
+TopSitesPage
+.
+NUM_TILES
 &
 &
 startIndex
@@ -866,7 +856,9 @@ relativePosition
 |
 relativePosition
 >
-tiles
+TopSitesPage
+.
+NUM_TILES
 )
 {
 throw
@@ -889,7 +881,9 @@ relativePosition
 +
 pageNumber
 *
-tiles
+TopSitesPage
+.
+NUM_TILES
 ;
 }
 }

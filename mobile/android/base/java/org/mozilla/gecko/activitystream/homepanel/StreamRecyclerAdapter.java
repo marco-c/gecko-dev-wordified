@@ -627,10 +627,6 @@ onUrlOpenInBackgroundListener
 ;
 private
 int
-tiles
-;
-private
-int
 tilesSize
 ;
 public
@@ -861,8 +857,6 @@ void
 setTileSize
 (
 int
-tiles
-int
 tilesSize
 )
 {
@@ -871,12 +865,6 @@ this
 tilesSize
 =
 tilesSize
-;
-this
-.
-tiles
-=
-tiles
 ;
 notifyDataSetChanged
 (
@@ -1512,7 +1500,6 @@ holder
 bind
 (
 topSitesCursor
-tiles
 tilesSize
 )
 ;
