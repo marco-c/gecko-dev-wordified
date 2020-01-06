@@ -1978,7 +1978,7 @@ sIMEName
 .
 Equals
 (
-u
+L
 "
 Google
 \
@@ -1992,7 +1992,7 @@ x5165
 \
 x529B
 "
-u
+L
 "
 IMM32
 \

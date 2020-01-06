@@ -152,13 +152,6 @@ nsIObserver
 .
 h
 "
-#
-include
-"
-nsStringFwd
-.
-h
-"
 class
 nsIRunnable
 ;
@@ -167,6 +160,9 @@ nsITabChild
 ;
 class
 nsIThread
+;
+class
+nsString
 ;
 namespace
 mozilla
