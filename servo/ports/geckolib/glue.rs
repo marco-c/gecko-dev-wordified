@@ -16284,8 +16284,6 @@ expr
 let
 property
 =
-unsafe
-{
 property
 .
 as_ref
@@ -16299,7 +16297,6 @@ unwrap
 as_str_unchecked
 (
 )
-}
 ;
 match
 PropertyId
@@ -16337,6 +16334,7 @@ ret
 }
 }
 }
+unsafe
 fn
 get_property_value
 (
@@ -16392,8 +16390,6 @@ in
 bug
 1355599
 .
-unsafe
-{
 read_locked_arc_unchecked
 (
 declarations
@@ -16428,12 +16424,12 @@ unwrap
 }
 )
 }
-}
 #
 [
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16474,6 +16470,7 @@ value
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16512,6 +16509,7 @@ value
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16717,6 +16715,7 @@ false
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16790,6 +16789,7 @@ loader
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16895,6 +16895,7 @@ property_id
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -20797,6 +20798,7 @@ Normal
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -20847,10 +20849,7 @@ mut
 declarations
 id
 value
-unsafe
-{
 DUMMY_URL_DATA
-}
 structs
 :
 :
