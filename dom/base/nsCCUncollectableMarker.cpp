@@ -2932,10 +2932,11 @@ Data
 ;
 if
 (
+!
 window
 -
 >
-GetDocShell
+IsCleanedUp
 (
 )
 &
