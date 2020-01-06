@@ -1997,7 +1997,7 @@ static
 ArenaAllocator
 <
 8192
-4
+1
 >
 gPrefNameArena
 ;
