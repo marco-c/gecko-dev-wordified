@@ -150,9 +150,10 @@ ServoBindings
 .
 h
 "
+using
 namespace
 mozilla
-{
+;
 ServoStyleContext
 :
 :
@@ -482,8 +483,3 @@ mColor
 }
 }
 }
-}
-/
-/
-namespace
-mozilla
