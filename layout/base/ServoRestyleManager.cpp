@@ -4984,6 +4984,8 @@ snapshot
 AddAttrs
 (
 aElement
+aNameSpaceID
+aAttribute
 )
 ;
 if
