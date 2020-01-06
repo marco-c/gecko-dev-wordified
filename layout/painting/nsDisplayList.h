@@ -17407,14 +17407,6 @@ mSentinel
 *
 *
 *
-This
-is
-*
-linear
-time
-*
-!
-*
 return
 the
 number
@@ -17430,7 +17422,11 @@ Count
 (
 )
 const
+{
+return
+mLength
 ;
+}
 /
 *
 *
