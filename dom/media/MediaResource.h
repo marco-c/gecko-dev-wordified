@@ -3936,7 +3936,7 @@ request
 to
 start
 at
-mOffset
+aOffset
 /
 /
 if
@@ -3949,6 +3949,8 @@ only
 nsresult
 OpenChannel
 (
+int64_t
+aOffset
 )
 ;
 nsresult
@@ -3971,6 +3973,8 @@ only
 nsresult
 SetupChannelHeaders
 (
+int64_t
+aOffset
 )
 ;
 /
@@ -3987,6 +3991,12 @@ void
 CloseChannel
 (
 )
+;
+int64_t
+GetOffset
+(
+)
+const
 ;
 /
 /
@@ -4090,9 +4100,6 @@ Main
 thread
 access
 only
-int64_t
-mOffset
-;
 RefPtr
 <
 Listener
