@@ -178,7 +178,7 @@ BMB_bookmarksPopup
 )
 ;
 let
-onTransitionEnd
+onPopupShown
 =
 (
 e
@@ -201,9 +201,9 @@ bookmarksMenuPopup
 removeEventListener
 (
 "
-transitionend
+popupshown
 "
-onTransitionEnd
+onPopupShown
 )
 ;
 resolve
@@ -217,9 +217,9 @@ bookmarksMenuPopup
 addEventListener
 (
 "
-transitionend
+popupshown
 "
-onTransitionEnd
+onPopupShown
 )
 ;
 }
