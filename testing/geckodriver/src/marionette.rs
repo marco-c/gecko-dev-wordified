@@ -258,6 +258,7 @@ GetWindowHandles
 CloseWindow
 SetWindowRect
 GetWindowRect
+MinimizeWindow
 MaximizeWindow
 FullscreenWindow
 SwitchToWindow
@@ -5661,6 +5662,8 @@ height
 }
 FullscreenWindow
 |
+MinimizeWindow
+|
 MaximizeWindow
 |
 GetWindowRect
@@ -8115,6 +8118,20 @@ Some
 (
 "
 getWindowRect
+"
+)
+None
+)
+MinimizeWindow
+=
+>
+(
+Some
+(
+"
+WebDriver
+:
+MinimizeWindow
 "
 )
 None
