@@ -14716,6 +14716,12 @@ halt_on_failure
 =
 True
 )
+        
+self
+.
+_generate_build_stats
+(
+)
     
 def
 multi_l10n
@@ -17358,7 +17364,7 @@ size_measurements
 }
     
 def
-generate_build_stats
+_generate_build_stats
 (
 self
 )
@@ -17412,6 +17418,17 @@ build
 "
 "
 "
+        
+self
+.
+info
+(
+'
+Collecting
+build
+metrics
+'
+)
         
 if
 self

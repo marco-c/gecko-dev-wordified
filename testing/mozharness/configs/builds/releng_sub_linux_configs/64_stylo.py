@@ -43,15 +43,6 @@ mock
 build
 '
         
-#
-'
-generate
--
-build
--
-stats
-'
-        
 '
 upload
 -
