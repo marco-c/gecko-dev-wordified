@@ -7523,11 +7523,9 @@ charsetStr
 AssignLiteral
 (
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 )
 ;

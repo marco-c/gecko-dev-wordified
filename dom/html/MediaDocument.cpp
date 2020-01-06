@@ -1612,11 +1612,9 @@ bogus
 value
 (
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 set
 in

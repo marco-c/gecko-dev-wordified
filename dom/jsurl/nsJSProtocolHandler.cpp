@@ -1736,11 +1736,9 @@ NS_NAMED_LITERAL_CSTRING
 (
 isoCharset
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 )
 ;
@@ -1784,11 +1782,9 @@ we
 use
 /
 /
-ISO
+windows
 -
-8859
--
-1
+1252
 so
 that
 people
