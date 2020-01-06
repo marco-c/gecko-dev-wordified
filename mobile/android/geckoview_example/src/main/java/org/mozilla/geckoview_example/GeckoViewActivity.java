@@ -446,6 +446,16 @@ MyGeckoViewProgress
 )
 )
 ;
+mGeckoView
+.
+setNavigationListener
+(
+new
+Navigation
+(
+)
+)
+;
 final
 BasicGeckoViewPrompt
 prompt
