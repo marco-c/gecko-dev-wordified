@@ -158,11 +158,14 @@ gtest
 .
 h
 "
+#
+include
+<
+functional
+>
 using
+namespace
 mozilla
-:
-:
-Runnable
 ;
 class
 TestEvent
