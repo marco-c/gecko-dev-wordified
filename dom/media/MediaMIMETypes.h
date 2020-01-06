@@ -430,7 +430,7 @@ always
 lowercase
 .
 const
-nsACString
+nsCString
 &
 AsString
 (
@@ -870,7 +870,7 @@ IsEmpty
 ;
 }
 const
-nsAString
+nsString
 &
 AsString
 (
@@ -1372,7 +1372,7 @@ subtype
 "
 .
 const
-nsACString
+nsCString
 &
 OriginalString
 (

@@ -291,7 +291,7 @@ subtype
 "
 .
 const
-nsACString
+nsCString
 &
 OriginalString
 (
