@@ -664,16 +664,6 @@ handler
 canNurseryAllocate
 (
 )
-|
-|
-!
-handler
--
->
-finalizeInBackground
-(
-priv
-)
 )
 {
 newKind
