@@ -585,6 +585,12 @@ key
 bool
 GenerateImageKeyForTextureHost
 (
+wr
+:
+:
+ResourceUpdateQueue
+&
+aResources
 TextureHost
 *
 aTexture
@@ -732,6 +738,12 @@ mKeys
 bool
 UpdateImageKeys
 (
+wr
+:
+:
+ResourceUpdateQueue
+&
+aResourceUpdates
 bool
 &
 aUseExternalImage

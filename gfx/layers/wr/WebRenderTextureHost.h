@@ -473,9 +473,9 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
-aAPI
+ResourceUpdateQueue
+&
+aResources
 Range
 <
 const

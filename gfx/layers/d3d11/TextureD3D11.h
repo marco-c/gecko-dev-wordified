@@ -1855,8 +1855,8 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
+ResourceUpdateQueue
+&
 aAPI
 Range
 <
@@ -2185,9 +2185,9 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
-aAPI
+ResourceUpdateQueue
+&
+aResources
 Range
 <
 const
