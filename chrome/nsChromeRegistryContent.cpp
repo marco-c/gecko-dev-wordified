@@ -680,12 +680,15 @@ rv
 sph
 -
 >
-SetSubstitution
+SetSubstitutionWithFlags
 (
 aSubstitution
 .
 path
 resolvedURI
+aSubstitution
+.
+flags
 )
 ;
 if
