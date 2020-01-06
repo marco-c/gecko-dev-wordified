@@ -162,7 +162,7 @@ include
 "
 mp4_demuxer
 /
-ByteReader
+BufferReader
 .
 h
 "
@@ -490,7 +490,7 @@ Length
 )
 {
 }
-ByteReader
+BufferReader
 *
 operator
 -
@@ -511,7 +511,7 @@ uint8_t
 >
 mBuffer
 ;
-ByteReader
+BufferReader
 mReader
 ;
 }
