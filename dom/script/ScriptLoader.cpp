@@ -359,13 +359,6 @@ h
 #
 include
 "
-nsIDOMHTMLScriptElement
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
