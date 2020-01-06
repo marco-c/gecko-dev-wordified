@@ -595,6 +595,9 @@ nsIWebBrowserFind
 class
 nsIWidget
 ;
+class
+FramingChecker
+;
 /
 *
 internally
@@ -730,6 +733,10 @@ nsDocShell
 friend
 class
 nsDSURIContentListener
+;
+friend
+class
+FramingChecker
 ;
 public
 :

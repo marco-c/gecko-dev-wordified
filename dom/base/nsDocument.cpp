@@ -536,6 +536,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FramingChecker
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -559,13 +570,6 @@ mozilla
 dom
 /
 ProcessingInstruction
-.
-h
-"
-#
-include
-"
-nsDSURIContentListener
 .
 h
 "
@@ -14730,7 +14734,7 @@ ancestors
 if
 (
 !
-nsDSURIContentListener
+FramingChecker
 :
 :
 CheckFrameOptions
@@ -30624,7 +30628,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleChanged
 (
 aSheet
-aStyleRule
 )
 )
 ;
@@ -30669,7 +30672,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleAdded
 (
 aSheet
-aStyleRule
 )
 )
 ;
@@ -30714,7 +30716,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleRemoved
 (
 aSheet
-aStyleRule
 )
 )
 ;
