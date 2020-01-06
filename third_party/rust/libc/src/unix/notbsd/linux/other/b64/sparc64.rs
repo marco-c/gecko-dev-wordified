@@ -2300,6 +2300,16 @@ size_t
 ;
 pub
 const
+MINSIGSTKSZ
+:
+:
+:
+size_t
+=
+4096
+;
+pub
+const
 CBAUD
 :
 :
