@@ -308,6 +308,11 @@ Shalom
 "
 "
 Namast
+\
+u
+{
+00E9
+}
 "
 "
 Hallo
@@ -319,6 +324,11 @@ da
 "
 "
 Ch
+\
+u
+{
+00E0
+}
 o
 "
 "
@@ -416,6 +426,11 @@ Sawubona
 "
 "
 Namast
+\
+u
+{
+00E9
+}
 "
 ]
 unassigned
