@@ -7298,7 +7298,8 @@ return
 nullptr
 ;
 }
-bool
+RegExpShared
+*
 ScriptedProxyHandler
 :
 :
@@ -7309,8 +7310,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleRegExpShared
-shared
 )
 const
 {
@@ -7328,9 +7327,6 @@ ScriptedProxyHandler
 regexp_toShared
 "
 )
-;
-return
-false
 ;
 }
 bool

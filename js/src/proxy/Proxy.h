@@ -613,7 +613,8 @@ indent
 )
 ;
 static
-bool
+RegExpShared
+*
 regexp_toShared
 (
 JSContext
@@ -621,12 +622,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandle
-<
-RegExpShared
-*
->
-shared
 )
 ;
 static

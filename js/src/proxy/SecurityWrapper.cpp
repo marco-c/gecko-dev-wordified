@@ -494,7 +494,8 @@ template
 class
 Base
 >
-bool
+RegExpShared
+*
 SecurityWrapper
 <
 Base
@@ -508,12 +509,6 @@ JSContext
 cx
 HandleObject
 obj
-MutableHandle
-<
-RegExpShared
-*
->
-shared
 )
 const
 {
@@ -525,7 +520,6 @@ regexp_toShared
 (
 cx
 obj
-shared
 )
 ;
 }

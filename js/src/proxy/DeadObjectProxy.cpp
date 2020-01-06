@@ -775,7 +775,8 @@ template
 DeadProxyIsCallableIsConstructorOption
 CC
 >
-bool
+RegExpShared
+*
 DeadObjectProxy
 <
 CC
@@ -789,12 +790,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandle
-<
-RegExpShared
-*
->
-shared
 )
 const
 {
@@ -804,7 +799,7 @@ cx
 )
 ;
 return
-false
+nullptr
 ;
 }
 template
