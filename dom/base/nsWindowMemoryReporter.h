@@ -884,7 +884,7 @@ Get
 void
 ObserveDOMWindowDetached
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
