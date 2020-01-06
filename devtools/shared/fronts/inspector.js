@@ -201,11 +201,14 @@ task
 "
 )
 ;
-const
-nodeConstants
-=
-require
+loader
+.
+lazyRequireGetter
 (
+this
+"
+nodeConstants
+"
 "
 devtools
 /
@@ -216,8 +219,6 @@ dom
 node
 -
 constants
-.
-js
 "
 )
 ;
