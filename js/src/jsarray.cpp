@@ -15517,6 +15517,9 @@ JSObject
 obj
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 MOZ_ASSERT_IF
 (
 obj
