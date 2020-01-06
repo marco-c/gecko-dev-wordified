@@ -348,6 +348,10 @@ SkFontStyle
 aStyle
 bool
 aForceGDI
+float
+aGamma
+float
+aContrast
 )
 ;
 SK_API
