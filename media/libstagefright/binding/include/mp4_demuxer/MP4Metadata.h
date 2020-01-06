@@ -525,7 +525,7 @@ mRust
 ;
 mutable
 bool
-mPreferRust
+mDisableRust
 ;
 mutable
 bool
@@ -535,15 +535,6 @@ mutable
 bool
 mReportedVideoTrackTelemetry
 ;
-#
-ifndef
-RELEASE_OR_BETA
-mutable
-bool
-mRustTestMode
-;
-#
-endif
 bool
 ShouldPreferRust
 (
