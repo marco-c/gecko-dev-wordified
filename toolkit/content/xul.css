@@ -4030,8 +4030,7 @@ calc
 ;
 }
 %
-elifndef
-MOZ_WIDGET_GTK
+else
 panel
 [
 type

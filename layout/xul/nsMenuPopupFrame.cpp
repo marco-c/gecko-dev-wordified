@@ -3738,9 +3738,6 @@ mCurrentMenu
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_GTK
 /
 /
 If
@@ -3826,8 +3823,6 @@ false
 return
 ;
 }
-#
-endif
 /
 /
 If
