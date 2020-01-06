@@ -1533,6 +1533,9 @@ supportsMoz2D
 bool
 canExposeMappedData
 ;
+bool
+canConcurrentlyReadLock
+;
 Info
 (
 )
@@ -1562,6 +1565,10 @@ false
 canExposeMappedData
 (
 false
+)
+canConcurrentlyReadLock
+(
+true
 )
 {
 }
@@ -1718,6 +1725,13 @@ GetSubDescriptor
 GPUVideoSubDescriptor
 *
 aOutDesc
+)
+{
+}
+virtual
+void
+OnForwardedToHost
+(
 )
 {
 }
