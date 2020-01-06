@@ -63,10 +63,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-import
-os
-.
-path
 class
 TestCapabilities
 (
@@ -572,12 +568,6 @@ else
                 
 current_profile
 =
-os
-.
-path
-.
-normcase
-(
 self
 .
 marionette
@@ -589,19 +579,10 @@ runner
 profile
 .
 profile
-)
             
 self
 .
 assertEqual
-(
-os
-.
-path
-.
-normcase
-(
-str
 (
 self
 .
@@ -613,8 +594,6 @@ moz
 profile
 "
 ]
-)
-)
 current_profile
 )
             
@@ -622,21 +601,11 @@ self
 .
 assertEqual
 (
-os
-.
-path
-.
-normcase
-(
-str
-(
 self
 .
 marionette
 .
 profile
-)
-)
 current_profile
 )
         

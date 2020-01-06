@@ -3400,15 +3400,6 @@ aPath
 )
 ;
 static
-bool
-ResolveJunctionPointsAndSymLinks
-(
-nsIFile
-*
-aPath
-)
-;
-static
 void
 Initialize
 (
