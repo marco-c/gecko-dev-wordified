@@ -1339,6 +1339,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsDocShell
+*
+aContainer
 )
 {
 /
@@ -1414,6 +1417,14 @@ ResetToURI
 uri
 aLoadGroup
 aPrincipal
+)
+;
+blankDoc
+-
+>
+SetContainer
+(
+aContainer
 )
 ;
 /
