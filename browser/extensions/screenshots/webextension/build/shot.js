@@ -5573,6 +5573,16 @@ fullPage
 "
 |
 |
+image
+.
+captureType
+=
+=
+"
+fullPageTruncated
+"
+|
+|
 !
 image
 .
