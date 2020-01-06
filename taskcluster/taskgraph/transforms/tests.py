@@ -3549,9 +3549,7 @@ debug
 '
 osx
 -
-10
--
-10
+cross
 /
 debug
 '
@@ -3565,9 +3563,7 @@ opt
 '
 osx
 -
-10
--
-10
+cross
 /
 opt
 '
