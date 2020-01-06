@@ -440,6 +440,13 @@ pixelDepth
 24
 ;
 }
+float
+dpi
+=
+96
+.
+0f
+;
 MOZ_LOG
 (
 sScreenLog
@@ -464,6 +471,8 @@ d
 d
 %
 f
+%
+f
 ]
 "
 rect
@@ -482,6 +491,7 @@ pixelDepth
 defaultCssScaleFactor
 .
 scale
+dpi
 )
 )
 ;
@@ -497,6 +507,7 @@ pixelDepth
 pixelDepth
 contentsScaleFactor
 defaultCssScaleFactor
+dpi
 )
 ;
 if

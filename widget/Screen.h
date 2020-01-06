@@ -184,6 +184,8 @@ DesktopToLayoutDeviceScale
 aContentsScale
 CSSToLayoutDeviceScale
 aDefaultCssScale
+float
+dpi
 )
 ;
 explicit
@@ -252,6 +254,9 @@ mContentsScale
 ;
 CSSToLayoutDeviceScale
 mDefaultCssScale
+;
+float
+mDPI
 ;
 }
 ;

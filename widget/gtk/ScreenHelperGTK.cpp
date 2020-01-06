@@ -844,6 +844,13 @@ GetFontScaleFactor
 )
 )
 ;
+float
+dpi
+=
+96
+.
+0f
+;
 MOZ_LOG
 (
 sScreenLog
@@ -878,6 +885,8 @@ d
 d
 %
 f
+%
+f
 ]
 "
 rect
@@ -908,6 +917,7 @@ pixelDepth
 defaultCssScale
 .
 scale
+dpi
 )
 )
 ;
@@ -926,6 +936,7 @@ pixelDepth
 pixelDepth
 contentsScale
 defaultCssScale
+dpi
 )
 ;
 return
