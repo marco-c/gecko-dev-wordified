@@ -1873,6 +1873,17 @@ aURI
 nullptr
 *
 /
+StyleBackendType
+aStyleBackendType
+/
+*
+=
+StyleBackendType
+:
+:
+None
+*
+/
 )
 :
 ImageResource
@@ -1909,6 +1920,10 @@ false
 mHasPendingInvalidation
 (
 false
+)
+mStyleBackendType
+(
+aStyleBackendType
 )
 {
 }
@@ -7815,6 +7830,7 @@ mSVGDocumentWrapper
 new
 SVGDocumentWrapper
 (
+mStyleBackendType
 )
 ;
 nsresult
