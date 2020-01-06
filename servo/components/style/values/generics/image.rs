@@ -1934,6 +1934,9 @@ direction
 .
 points_downwards
 (
+self
+.
+compat_mode
 )
 =
 >
@@ -2285,6 +2288,9 @@ points_downwards
 (
 &
 self
+compat_mode
+:
+CompatMode
 )
 -
 >
