@@ -3282,6 +3282,12 @@ case
 CacheKind
 :
 :
+Compare
+:
+case
+CacheKind
+:
+:
 TypeOf
 :
 case
