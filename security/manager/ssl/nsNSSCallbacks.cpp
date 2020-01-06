@@ -6655,7 +6655,7 @@ CertificateTransparencyInfo
 certificateTransparencyInfo
 ;
 UniqueCERTCertList
-builtChain
+unusedBuiltChain
 ;
 const
 bool
@@ -6696,7 +6696,7 @@ infoObject
 GetHostName
 (
 )
-builtChain
+unusedBuiltChain
 saveIntermediates
 flags
 infoObject
@@ -6875,17 +6875,6 @@ sslStatus
 SetCertificateTransparencyInfo
 (
 certificateTransparencyInfo
-)
-;
-sslStatus
--
->
-SetSucceededCertChain
-(
-Move
-(
-builtChain
-)
 )
 ;
 }
