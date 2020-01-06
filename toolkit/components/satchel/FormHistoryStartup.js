@@ -602,6 +602,11 @@ null
 let
 mm
 ;
+let
+query
+=
+null
+;
 if
 (
 message
@@ -742,6 +747,7 @@ if
 query
 =
 =
+=
 this
 .
 pendingQuery
@@ -779,7 +785,6 @@ results
 }
 }
 ;
-let
 query
 =
 FormHistory
