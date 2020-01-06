@@ -1323,6 +1323,12 @@ processing
 HTTP
 responses
 .
+RefPtr
+<
+CookieServiceChild
+>
+cookieService
+=
 CookieServiceChild
 :
 :

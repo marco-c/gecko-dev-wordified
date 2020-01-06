@@ -220,8 +220,10 @@ CookieServiceChild
 )
 ;
 static
+already_AddRefed
+<
 CookieServiceChild
-*
+>
 GetSingleton
 (
 )

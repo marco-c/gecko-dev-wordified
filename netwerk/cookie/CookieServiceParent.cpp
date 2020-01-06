@@ -501,17 +501,11 @@ methods
 .
 mCookieService
 =
-already_AddRefed
-<
-nsCookieService
->
-(
 nsCookieService
 :
 :
 GetSingleton
 (
-)
 )
 ;
 NS_ASSERTION
