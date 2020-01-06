@@ -94,18 +94,28 @@ applications
       
 long_description
 =
-'
-See
-http
+"
+see
+https
 :
 /
 /
-mozbase
+firefox
+-
+source
+-
+docs
 .
-readthedocs
+mozilla
 .
 org
-'
+/
+mozbase
+/
+index
+.
+html
+"
       
 classifiers
 =
