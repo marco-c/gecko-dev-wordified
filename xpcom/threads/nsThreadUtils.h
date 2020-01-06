@@ -2364,12 +2364,6 @@ NS_IsInCompositorThread
 (
 )
 ;
-extern
-bool
-NS_IsInVRThread
-(
-)
-;
 /
 /
 -
@@ -3890,14 +3884,6 @@ mozilla
 namespace
 detail
 {
-already_AddRefed
-<
-nsITimer
->
-CreateTimer
-(
-)
-;
 template
 <
 RunnableKind
@@ -3959,7 +3945,7 @@ mTimer
 {
 mTimer
 =
-CreateTimer
+NS_NewTimer
 (
 )
 ;
