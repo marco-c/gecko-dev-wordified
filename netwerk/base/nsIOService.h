@@ -890,6 +890,11 @@ InitializeNetworkLinkService
 (
 )
 ;
+nsresult
+InitializeProtocolProxyService
+(
+)
+;
 /
 /
 consolidated
