@@ -1109,7 +1109,7 @@ ProcessPostTraversal
 Element
 *
 aElement
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 ServoRestyleState

@@ -799,7 +799,7 @@ dom
 Element
 *
 aElement
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 LazyComputeBehavior
@@ -902,7 +902,7 @@ ResolveStyleForText
 nsIContent
 *
 aTextNode
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 )
@@ -1013,7 +1013,7 @@ nsStyleContext
 >
 ResolveStyleForFirstLetterContinuation
 (
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 )
@@ -1191,7 +1191,7 @@ Element
 aOriginatingElement
 CSSPseudoElementType
 aType
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 dom
@@ -1395,7 +1395,7 @@ ResolveInheritingAnonymousBoxStyle
 nsIAtom
 *
 aPseudoTag
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 )
@@ -1702,7 +1702,7 @@ mozilla
 :
 CSSPseudoElementType
 aType
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 )
@@ -2562,7 +2562,7 @@ dom
 Element
 *
 aElement
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 nsPresContext
@@ -3039,7 +3039,7 @@ already_AddRefed
 <
 ServoStyleContext
 >
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 nsIAtom
@@ -3064,7 +3064,7 @@ GetContext
 nsIContent
 *
 aContent
-nsStyleContext
+ServoStyleContext
 *
 aParentContext
 nsIAtom

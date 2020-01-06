@@ -1700,7 +1700,7 @@ Initialize
 #
 ifdef
 DEBUG
-nsStyleContext
+GeckoStyleContext
 :
 :
 Initialize

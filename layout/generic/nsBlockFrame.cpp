@@ -41412,7 +41412,7 @@ nsCSSPseudoElements
 firstLetter
 )
 ;
-nsStyleContext
+ServoStyleContext
 *
 parentStyle
 =
@@ -41420,6 +41420,11 @@ styleParent
 -
 >
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 ;
@@ -41596,6 +41601,11 @@ GetContent
 (
 )
 firstLetterStyle
+-
+>
+AsServo
+(
+)
 )
 ;
 textFrame

@@ -7326,11 +7326,16 @@ get
 our
 style
 .
-nsStyleContext
+ServoStyleContext
 *
 ourStyle
 =
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 ;
@@ -7358,7 +7363,7 @@ context
 .
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 newContext
 =
