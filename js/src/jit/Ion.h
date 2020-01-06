@@ -925,6 +925,14 @@ lock
 )
 ;
 void
+FreeIonBuilder
+(
+IonBuilder
+*
+builder
+)
+;
+void
 LinkIonScript
 (
 JSContext
