@@ -109,6 +109,22 @@ args
 )
 :
     
+#
+-
+-
+quiet
+prevents
+warnings
+on
+eslint
+it
+will
+be
+ignored
+by
+other
+linters
+    
 cmd
 =
 [
@@ -125,6 +141,11 @@ mach
 )
 '
 lint
+'
+'
+-
+-
+quiet
 '
 ]
     
