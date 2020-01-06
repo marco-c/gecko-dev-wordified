@@ -226,6 +226,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsTemplateMatch
+.
+h
+"
 /
 /
 -

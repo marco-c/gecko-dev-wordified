@@ -303,6 +303,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsIRDFCompositeDataSource
+.
+h
+"
 /
 /
 -
