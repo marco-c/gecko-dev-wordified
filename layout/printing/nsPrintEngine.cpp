@@ -709,6 +709,13 @@ h
 #
 include
 "
+nsIDOMHTMLAnchorElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLAreaElement
 .
 h
