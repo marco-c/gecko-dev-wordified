@@ -1850,7 +1850,7 @@ branchId
 ;
 if
 (
-taken
+hits
 )
 outBRDA_
 .
@@ -1899,7 +1899,7 @@ branchId
 ;
 if
 (
-fallthroughHits
+hits
 )
 outBRDA_
 .
@@ -2691,7 +2691,7 @@ caseId
 ;
 if
 (
-caseHits
+hits
 )
 outBRDA_
 .
@@ -3147,7 +3147,7 @@ caseId
 ;
 if
 (
-defaultHits
+hits
 )
 outBRDA_
 .
