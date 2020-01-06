@@ -877,6 +877,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -895,6 +896,7 @@ align
 content
 -
 distribution
+>
 /
 /
 /
@@ -1077,6 +1079,7 @@ alignment
 /
 /
 /
+<
 https
 :
 /
@@ -1095,6 +1098,7 @@ align
 fallback
 -
 alignment
+>
 #
 [
 inline
@@ -1684,6 +1688,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -1702,6 +1707,7 @@ align
 self
 -
 alignment
+>
 #
 [
 cfg_attr
@@ -1981,6 +1987,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -1999,6 +2006,7 @@ align
 self
 -
 alignment
+>
 #
 [
 cfg_attr
@@ -2274,6 +2282,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -2294,6 +2303,7 @@ justify
 items
 -
 property
+>
 #
 [
 cfg_attr

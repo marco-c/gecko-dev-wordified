@@ -264,6 +264,7 @@ CSSStyleValue
 /
 /
 /
+<
 https
 :
 /
@@ -290,6 +291,7 @@ CSSStyleValue
 stringification
 -
 behavior
+>
 fn
 Stringifier
 (
@@ -363,6 +365,7 @@ base
 /
 /
 /
+<
 https
 :
 /
@@ -378,6 +381,7 @@ servo
 issues
 /
 17625
+>
 pub
 fn
 get_url

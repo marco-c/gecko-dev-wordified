@@ -3943,6 +3943,7 @@ IpcSender
 /
 /
 /
+<
 https
 :
 /
@@ -3961,6 +3962,7 @@ multipage
 microtask
 -
 queue
+>
 microtask_queue
 :
 Rc
@@ -4145,6 +4147,7 @@ Node
 /
 /
 /
+<
 https
 :
 /
@@ -4167,6 +4170,7 @@ element
 reactions
 -
 stack
+>
 custom_element_reaction_stack
 :
 CustomElementReactionStack
@@ -12224,6 +12228,7 @@ see
 /
 /
 /
+<
 https
 :
 /
@@ -12245,6 +12250,7 @@ Web
 Events
 /
 mozbrowserloadstart
+>
 fn
 handle_mozbrowser_event_msg
 (
@@ -17676,6 +17682,7 @@ point
 /
 /
 /
+<
 https
 :
 /
@@ -17696,6 +17703,7 @@ navigating
 across
 -
 documents
+>
 /
 /
 /

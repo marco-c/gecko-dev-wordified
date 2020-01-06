@@ -404,6 +404,7 @@ Wrap
 /
 /
 /
+<
 https
 :
 /
@@ -426,6 +427,7 @@ the
 csssupportsrule
 -
 interface
+>
 pub
 fn
 get_condition_text
@@ -480,6 +482,7 @@ into
 /
 /
 /
+<
 https
 :
 /
@@ -502,6 +505,7 @@ the
 csssupportsrule
 -
 interface
+>
 pub
 fn
 set_condition_text

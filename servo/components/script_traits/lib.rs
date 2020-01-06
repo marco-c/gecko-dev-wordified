@@ -1216,6 +1216,7 @@ code
 /
 /
 /
+<
 https
 :
 /
@@ -1232,6 +1233,7 @@ multipage
 /
 #
 navigate
+>
 12
 .
 11
@@ -1674,6 +1676,11 @@ otherwise
 /
 /
 /
+/
+/
+/
+*
+<
 https
 :
 /
@@ -1692,9 +1699,12 @@ multipage
 active
 -
 document
+>
 /
 /
 /
+*
+<
 https
 :
 /
@@ -1713,6 +1723,7 @@ multipage
 fully
 -
 active
+>
 #
 [
 derive
@@ -3205,6 +3216,7 @@ point
 /
 /
 /
+<
 http
 :
 /
@@ -3225,6 +3237,7 @@ widl
 Touch
 -
 identifier
+>
 #
 [
 derive
@@ -5824,6 +5837,7 @@ an
 /
 /
 /
+<
 http
 :
 /
@@ -5846,6 +5860,7 @@ adapt
 initial
 -
 viewport
+>
 pub
 initial_viewport
 :
@@ -6801,6 +6816,7 @@ SpeculativePainter
 /
 /
 /
+<
 https
 :
 /
@@ -6827,6 +6843,7 @@ a
 paint
 -
 image
+>
 fn
 draw_a_paint_image
 (
@@ -6950,6 +6967,9 @@ loaded
 /
 /
 /
+/
+/
+/
 TODO
 :
 this
@@ -6960,6 +6980,7 @@ WR
 display
 list
 .
+<
 https
 :
 /
@@ -6975,6 +6996,7 @@ servo
 issues
 /
 17497
+>
 #
 [
 derive

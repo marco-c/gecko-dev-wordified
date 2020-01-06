@@ -735,6 +735,7 @@ dom_struct
 /
 /
 /
+<
 https
 :
 /
@@ -751,6 +752,7 @@ worklets
 /
 #
 worklet
+>
 pub
 struct
 Worklet
@@ -928,6 +930,7 @@ unrooted_must_root
 /
 /
 /
+<
 https
 :
 /
@@ -948,6 +951,7 @@ dom
 worklet
 -
 addmodule
+>
 fn
 AddModule
 (
@@ -1262,6 +1266,7 @@ random
 /
 /
 /
+<
 https
 :
 /
@@ -1282,6 +1287,7 @@ pending
 tasks
 -
 struct
+>
 #
 [
 derive
@@ -2279,6 +2285,7 @@ rejected
 /
 /
 /
+<
 https
 :
 /
@@ -2305,6 +2312,7 @@ a
 worklet
 -
 script
+>
 fn
 fetch_and_invoke_a_worklet_script
 (
@@ -4236,6 +4244,7 @@ script
 /
 /
 /
+<
 https
 :
 /
@@ -4262,6 +4271,7 @@ a
 worklet
 -
 script
+>
 fn
 fetch_and_invoke_a_worklet_script
 (

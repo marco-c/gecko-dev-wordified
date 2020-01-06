@@ -1572,6 +1572,7 @@ object
 /
 /
 /
+<
 https
 :
 /
@@ -1590,6 +1591,7 @@ dfn
 platform
 -
 object
+>
 pub
 fn
 is_platform_object

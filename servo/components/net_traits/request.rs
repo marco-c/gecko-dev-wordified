@@ -1169,6 +1169,7 @@ Request
 /
 /
 /
+<
 https
 :
 /
@@ -1187,6 +1188,7 @@ concept
 request
 -
 method
+>
 #
 [
 ignore_heap_size_of
@@ -1204,6 +1206,7 @@ Method
 /
 /
 /
+<
 https
 :
 /
@@ -1224,6 +1227,7 @@ urls
 only
 -
 flag
+>
 pub
 local_urls_only
 :
@@ -1231,6 +1235,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1253,6 +1258,7 @@ area
 urls
 -
 flag
+>
 pub
 sandboxed_storage_area_urls
 :
@@ -1260,6 +1266,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1280,6 +1287,7 @@ request
 header
 -
 list
+>
 #
 [
 ignore_heap_size_of
@@ -1297,6 +1305,7 @@ Headers
 /
 /
 /
+<
 https
 :
 /
@@ -1315,6 +1324,7 @@ unsafe
 request
 -
 flag
+>
 pub
 unsafe_request
 :
@@ -1322,6 +1332,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1340,6 +1351,7 @@ concept
 request
 -
 body
+>
 pub
 body
 :
@@ -1370,6 +1382,7 @@ context
 /
 /
 /
+<
 https
 :
 /
@@ -1388,6 +1401,7 @@ request
 keepalive
 -
 flag
+>
 pub
 keep_alive
 :
@@ -1395,6 +1409,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1415,6 +1430,7 @@ service
 workers
 -
 mode
+>
 pub
 service_workers_mode
 :
@@ -1422,6 +1438,7 @@ ServiceWorkersMode
 /
 /
 /
+<
 https
 :
 /
@@ -1440,6 +1457,7 @@ concept
 request
 -
 initiator
+>
 pub
 initiator
 :
@@ -1447,6 +1465,7 @@ Initiator
 /
 /
 /
+<
 https
 :
 /
@@ -1465,6 +1484,7 @@ concept
 request
 -
 type
+>
 pub
 type_
 :
@@ -1472,6 +1492,7 @@ Type
 /
 /
 /
+<
 https
 :
 /
@@ -1490,6 +1511,7 @@ concept
 request
 -
 destination
+>
 pub
 destination
 :
@@ -1503,6 +1525,7 @@ object
 /
 /
 /
+<
 https
 :
 /
@@ -1521,6 +1544,7 @@ concept
 request
 -
 origin
+>
 pub
 origin
 :
@@ -1528,6 +1552,7 @@ Origin
 /
 /
 /
+<
 https
 :
 /
@@ -1546,6 +1571,7 @@ concept
 request
 -
 referrer
+>
 pub
 referrer
 :
@@ -1553,6 +1579,7 @@ Referrer
 /
 /
 /
+<
 https
 :
 /
@@ -1573,6 +1600,7 @@ request
 referrer
 -
 policy
+>
 pub
 referrer_policy
 :
@@ -1590,6 +1618,7 @@ PipelineId
 /
 /
 /
+<
 https
 :
 /
@@ -1606,6 +1635,7 @@ org
 synchronous
 -
 flag
+>
 pub
 synchronous
 :
@@ -1613,6 +1643,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1631,6 +1662,7 @@ concept
 request
 -
 mode
+>
 pub
 mode
 :
@@ -1638,6 +1670,7 @@ RequestMode
 /
 /
 /
+<
 https
 :
 /
@@ -1658,6 +1691,7 @@ cors
 preflight
 -
 flag
+>
 pub
 use_cors_preflight
 :
@@ -1665,6 +1699,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1685,6 +1720,7 @@ request
 credentials
 -
 mode
+>
 pub
 credentials_mode
 :
@@ -1692,6 +1728,7 @@ CredentialsMode
 /
 /
 /
+<
 https
 :
 /
@@ -1716,6 +1753,7 @@ url
 credentials
 -
 flag
+>
 pub
 use_url_credentials
 :
@@ -1723,6 +1761,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -1743,6 +1782,7 @@ request
 cache
 -
 mode
+>
 pub
 cache_mode
 :
@@ -1750,6 +1790,7 @@ CacheMode
 /
 /
 /
+<
 https
 :
 /
@@ -1770,6 +1811,7 @@ request
 redirect
 -
 mode
+>
 pub
 redirect_mode
 :
@@ -1777,6 +1819,7 @@ RedirectMode
 /
 /
 /
+<
 https
 :
 /
@@ -1797,6 +1840,7 @@ request
 integrity
 -
 metadata
+>
 pub
 integrity_metadata
 :
@@ -1830,6 +1874,7 @@ field
 /
 /
 /
+<
 https
 :
 /
@@ -1850,6 +1895,7 @@ request
 url
 -
 list
+>
 pub
 url_list
 :
@@ -1860,6 +1906,7 @@ ServoUrl
 /
 /
 /
+<
 https
 :
 /
@@ -1880,6 +1927,7 @@ request
 redirect
 -
 count
+>
 pub
 redirect_count
 :
@@ -1887,6 +1935,7 @@ u32
 /
 /
 /
+<
 https
 :
 /
@@ -1907,6 +1956,7 @@ request
 response
 -
 tainting
+>
 pub
 response_tainting
 :
@@ -2344,6 +2394,7 @@ req
 /
 /
 /
+<
 https
 :
 /
@@ -2362,6 +2413,7 @@ concept
 request
 -
 url
+>
 pub
 fn
 url
@@ -2392,6 +2444,7 @@ clone
 /
 /
 /
+<
 https
 :
 /
@@ -2412,6 +2465,7 @@ request
 current
 -
 url
+>
 pub
 fn
 current_url
@@ -2442,6 +2496,7 @@ clone
 /
 /
 /
+<
 https
 :
 /
@@ -2462,6 +2517,7 @@ request
 current
 -
 url
+>
 pub
 fn
 current_url_mut
@@ -2491,6 +2547,7 @@ unwrap
 /
 /
 /
+<
 https
 :
 /
@@ -2507,6 +2564,7 @@ org
 navigation
 -
 request
+>
 pub
 fn
 is_navigation_request
@@ -2531,6 +2589,7 @@ Document
 /
 /
 /
+<
 https
 :
 /
@@ -2547,6 +2606,7 @@ org
 subresource
 -
 request
+>
 pub
 fn
 is_subresource_request

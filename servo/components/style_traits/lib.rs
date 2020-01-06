@@ -531,6 +531,7 @@ viewport
 /
 /
 /
+<
 http
 :
 /
@@ -553,6 +554,7 @@ adapt
 initial
 -
 viewport
+>
 /
 /
 /
@@ -1688,6 +1690,7 @@ omitted
 /
 /
 /
+<
 https
 :
 /
@@ -1706,6 +1709,7 @@ values
 /
 #
 lengths
+>
 const
 PARSING_MODE_DEFAULT
 =
@@ -1750,6 +1754,7 @@ px
 /
 /
 /
+<
 https
 :
 /
@@ -1769,6 +1774,7 @@ coords
 html
 #
 Units
+>
 const
 PARSING_MODE_ALLOW_UNITLESS_LENGTH
 =
@@ -1796,6 +1802,7 @@ parsing
 /
 /
 /
+<
 https
 :
 /
@@ -1815,6 +1822,7 @@ implnote
 html
 #
 RangeClamping
+>
 const
 PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 =
@@ -1929,6 +1937,7 @@ Sync
 /
 /
 /
+<
 https
 :
 /
@@ -1955,6 +1964,7 @@ a
 paint
 -
 image
+>
 fn
 speculatively_draw_a_paint_image
 (

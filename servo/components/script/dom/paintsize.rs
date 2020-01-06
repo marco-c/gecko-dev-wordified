@@ -298,6 +298,7 @@ PaintSize
 /
 /
 /
+<
 https
 :
 /
@@ -318,6 +319,7 @@ api
 /
 #
 paintsize
+>
 fn
 Width
 (
@@ -338,6 +340,7 @@ width
 /
 /
 /
+<
 https
 :
 /
@@ -358,6 +361,7 @@ api
 /
 #
 paintsize
+>
 fn
 Height
 (

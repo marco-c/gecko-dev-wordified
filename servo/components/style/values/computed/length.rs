@@ -2287,6 +2287,7 @@ LengthOrPercentage
 /
 /
 /
+<
 https
 :
 /
@@ -2305,6 +2306,7 @@ transitions
 animtype
 -
 lpcalc
+>
 fn
 animate_fallback
 (
@@ -3389,6 +3391,7 @@ LengthOrPercentageOrAuto
 /
 /
 /
+<
 https
 :
 /
@@ -3407,6 +3410,7 @@ transitions
 animtype
 -
 lpcalc
+>
 fn
 animate_fallback
 (
@@ -3999,6 +4003,7 @@ LengthOrPercentageOrNone
 /
 /
 /
+<
 https
 :
 /
@@ -4017,6 +4022,7 @@ transitions
 animtype
 -
 lpcalc
+>
 fn
 animate_fallback
 (

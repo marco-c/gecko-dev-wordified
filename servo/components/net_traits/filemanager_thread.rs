@@ -185,6 +185,7 @@ in
 /
 /
 /
+<
 https
 :
 /
@@ -201,6 +202,7 @@ FileAPI
 dfn
 -
 slice
+>
 #
 [
 derive
@@ -458,6 +460,7 @@ size
 /
 /
 /
+<
 https
 :
 /
@@ -476,6 +479,7 @@ slice
 method
 -
 algo
+>
 pub
 fn
 to_abs_range

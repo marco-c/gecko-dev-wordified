@@ -152,6 +152,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -171,6 +172,7 @@ painting
 html
 #
 SpecifyingPaint
+>
 #
 [
 cfg_attr
@@ -557,6 +559,7 @@ empty
 /
 /
 /
+<
 https
 :
 /
@@ -574,6 +577,7 @@ painting
 html
 #
 SpecifyingPaint
+>
 fn
 parse_fallback
 <
@@ -938,6 +942,7 @@ length
 /
 /
 /
+<
 https
 :
 /
@@ -957,6 +962,7 @@ painting
 html
 #
 StrokeProperties
+>
 #
 [
 cfg_attr

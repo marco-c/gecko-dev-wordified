@@ -507,6 +507,7 @@ Rc
 /
 /
 /
+<
 https
 :
 /
@@ -523,6 +524,7 @@ multipage
 /
 #
 customelementregistry
+>
 #
 [
 dom_struct
@@ -711,6 +713,7 @@ promises
 /
 /
 /
+<
 https
 :
 /
@@ -726,6 +729,7 @@ servo
 issues
 /
 15318
+>
 pub
 fn
 teardown
@@ -749,6 +753,7 @@ clear
 /
 /
 /
+<
 https
 :
 /
@@ -775,6 +780,7 @@ custom
 element
 -
 definition
+>
 pub
 fn
 lookup_definition
@@ -926,6 +932,7 @@ cloned
 /
 /
 /
+<
 https
 :
 /
@@ -946,6 +953,7 @@ dom
 customelementregistry
 -
 define
+>
 /
 /
 /
@@ -1089,6 +1097,7 @@ Ok
 /
 /
 /
+<
 https
 :
 /
@@ -1109,6 +1118,7 @@ dom
 customelementregistry
 -
 define
+>
 /
 /
 /
@@ -1216,6 +1226,7 @@ attributeChangedCallback
 /
 /
 /
+<
 https
 :
 /
@@ -1236,6 +1247,7 @@ dom
 customelementregistry
 -
 define
+>
 /
 /
 /
@@ -1439,6 +1451,7 @@ JSFailed
 /
 /
 /
+<
 https
 :
 /
@@ -1459,6 +1472,7 @@ dom
 customelementregistry
 -
 define
+>
 /
 /
 /
@@ -1667,6 +1681,7 @@ unrooted_must_root
 /
 /
 /
+<
 https
 :
 /
@@ -1687,6 +1702,7 @@ dom
 customelementregistry
 -
 define
+>
 fn
 Define
 (
@@ -2609,6 +2625,7 @@ Ok
 /
 /
 /
+<
 https
 :
 /
@@ -2629,6 +2646,7 @@ dom
 customelementregistry
 -
 get
+>
 #
 [
 allow
@@ -2732,6 +2750,7 @@ UndefinedValue
 /
 /
 /
+<
 https
 :
 /
@@ -2752,6 +2771,7 @@ dom
 customelementregistry
 -
 whendefined
+>
 #
 [
 allow
@@ -3073,6 +3093,7 @@ AlreadyConstructedMarker
 /
 /
 /
+<
 https
 :
 /
@@ -3093,6 +3114,7 @@ custom
 element
 -
 definition
+>
 #
 [
 derive
@@ -3213,6 +3235,7 @@ default
 /
 /
 /
+<
 https
 :
 /
@@ -3233,6 +3256,7 @@ autonomous
 custom
 -
 element
+>
 pub
 fn
 is_autonomous
@@ -3737,6 +3761,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -3759,6 +3784,7 @@ upgrade
 an
 -
 element
+>
 #
 [
 allow
@@ -4124,6 +4150,7 @@ definition
 /
 /
 /
+<
 https
 :
 /
@@ -4146,6 +4173,7 @@ upgrade
 an
 -
 element
+>
 /
 /
 /
@@ -4433,6 +4461,7 @@ Ok
 /
 /
 /
+<
 https
 :
 /
@@ -4453,6 +4482,7 @@ concept
 try
 -
 upgrade
+>
 pub
 fn
 try_upgrade_element
@@ -4599,6 +4629,7 @@ CustomElementReaction
 /
 /
 /
+<
 https
 :
 /
@@ -4621,6 +4652,7 @@ custom
 element
 -
 reactions
+>
 #
 [
 allow
@@ -4762,6 +4794,7 @@ Namespace
 /
 /
 /
+<
 https
 :
 /
@@ -4786,6 +4819,7 @@ backup
 element
 -
 queue
+>
 #
 [
 derive
@@ -4807,6 +4841,7 @@ NotProcessing
 /
 /
 /
+<
 https
 :
 /
@@ -4829,6 +4864,7 @@ element
 reactions
 -
 stack
+>
 #
 [
 derive
@@ -5045,6 +5081,7 @@ stack
 /
 /
 /
+<
 https
 :
 /
@@ -5075,6 +5112,7 @@ appropriate
 element
 -
 queue
+>
 /
 /
 /
@@ -5124,6 +5162,7 @@ NotProcessing
 /
 /
 /
+<
 https
 :
 /
@@ -5154,6 +5193,7 @@ appropriate
 element
 -
 queue
+>
 pub
 fn
 enqueue_element
@@ -5276,6 +5316,7 @@ CustomElementReaction
 /
 /
 /
+<
 https
 :
 /
@@ -5302,6 +5343,7 @@ element
 callback
 -
 reaction
+>
 #
 [
 allow
@@ -5915,6 +5957,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -5941,6 +5984,7 @@ element
 upgrade
 -
 reaction
+>
 pub
 fn
 enqueue_upgrade_reaction
@@ -5986,6 +6030,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -6004,6 +6049,7 @@ multipage
 element
 -
 queue
+>
 #
 [
 derive
@@ -6058,6 +6104,7 @@ default
 /
 /
 /
+<
 https
 :
 /
@@ -6080,6 +6127,7 @@ custom
 element
 -
 reactions
+>
 fn
 invoke_reactions
 (
@@ -6208,6 +6256,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -6230,6 +6279,7 @@ custom
 element
 -
 name
+>
 pub
 fn
 is_valid_custom_element_name
@@ -6470,6 +6520,7 @@ PCENChar
 /
 /
 /
+<
 https
 :
 /
@@ -6488,6 +6539,7 @@ multipage
 prod
 -
 pcenchar
+>
 fn
 is_potential_custom_element_char
 (

@@ -638,6 +638,7 @@ mutated
 /
 /
 /
+<
 https
 :
 /
@@ -656,9 +657,11 @@ attribute
 is
 -
 set
+>
 /
 /
 /
+<
 https
 :
 /
@@ -677,6 +680,7 @@ attribute
 is
 -
 removed
+>
 fn
 attribute_mutated
 (
@@ -948,6 +952,7 @@ steps
 /
 /
 /
+<
 https
 :
 /
@@ -968,6 +973,7 @@ node
 remove
 -
 ext
+>
 fn
 unbind_from_tree
 (
@@ -1098,6 +1104,7 @@ event
 /
 /
 /
+<
 https
 :
 /
@@ -1118,6 +1125,7 @@ node
 adopt
 -
 ext
+>
 fn
 adopting_steps
 (
@@ -1155,6 +1163,7 @@ old_doc
 /
 /
 /
+<
 https
 :
 /
@@ -1175,6 +1184,7 @@ node
 clone
 -
 ext
+>
 fn
 cloning_steps
 (

@@ -256,6 +256,7 @@ unwrap
 /
 /
 /
+<
 https
 :
 /
@@ -272,6 +273,7 @@ multipage
 /
 #
 selectors
+>
 static
 ASCII_CASE_INSENSITIVE_HTML_ATTRIBUTES
 :

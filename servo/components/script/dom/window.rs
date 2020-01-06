@@ -2354,6 +2354,7 @@ Worklet
 /
 /
 /
+<
 https
 :
 /
@@ -2378,6 +2379,7 @@ api
 paint
 -
 worklet
+>
 paint_worklet
 :
 MutNullableDom
@@ -2832,6 +2834,7 @@ discarded
 /
 /
 /
+<
 https
 :
 /
@@ -2856,6 +2859,7 @@ context
 is
 -
 discarded
+>
 pub
 fn
 undiscarded_window_proxy
@@ -6114,6 +6118,7 @@ atob
 /
 /
 /
+<
 https
 :
 /
@@ -6134,6 +6139,7 @@ dom
 window
 -
 requestanimationframe
+>
 fn
 RequestAnimationFrame
 (
@@ -6170,6 +6176,7 @@ callback
 /
 /
 /
+<
 https
 :
 /
@@ -6190,6 +6197,7 @@ dom
 window
 -
 cancelanimationframe
+>
 fn
 CancelAnimationFrame
 (
@@ -9180,6 +9188,7 @@ SeqCst
 /
 /
 /
+<
 https
 :
 /
@@ -9200,6 +9209,7 @@ dom
 window
 -
 scroll
+>
 pub
 fn
 scroll
@@ -9599,6 +9609,7 @@ None
 /
 /
 /
+<
 https
 :
 /
@@ -9619,6 +9630,7 @@ perform
 a
 -
 scroll
+>
 pub
 fn
 perform_a_scroll

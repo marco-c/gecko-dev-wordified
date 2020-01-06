@@ -511,6 +511,7 @@ CSSStyleSheet
 /
 /
 /
+<
 https
 :
 /
@@ -539,6 +540,7 @@ is
 blocking
 -
 scripts
+>
 parser_inserted
 :
 Cell
@@ -1256,6 +1258,7 @@ used
 /
 /
 /
+<
 https
 :
 /
@@ -1274,6 +1277,7 @@ multipage
 rel
 -
 icon
+>
 fn
 is_favicon
 (
@@ -1997,6 +2001,7 @@ HTMLLinkElement
 /
 /
 /
+<
 https
 :
 /
@@ -2017,6 +2022,7 @@ concept
 link
 -
 obtain
+>
 fn
 handle_stylesheet_url
 (

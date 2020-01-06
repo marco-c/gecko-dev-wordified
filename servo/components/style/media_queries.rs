@@ -355,6 +355,7 @@ vec
 /
 /
 /
+<
 https
 :
 /
@@ -371,6 +372,7 @@ mediaqueries
 mq
 -
 prefix
+>
 #
 [
 cfg_attr
@@ -416,6 +418,7 @@ UAs
 /
 /
 /
+<
 https
 :
 /
@@ -432,6 +435,7 @@ mediaqueries
 mq
 -
 only
+>
 Only
 /
 /
@@ -444,6 +448,7 @@ query
 /
 /
 /
+<
 https
 :
 /
@@ -460,6 +465,7 @@ mediaqueries
 mq
 -
 not
+>
 Not
 }
 /
@@ -987,6 +993,7 @@ Ok
 /
 /
 /
+<
 http
 :
 /
@@ -1005,6 +1012,7 @@ mediaqueries
 /
 #
 media0
+>
 #
 [
 derive
@@ -1176,6 +1184,7 @@ other
 /
 /
 /
+<
 https
 :
 /
@@ -1192,6 +1201,7 @@ mediaqueries
 media
 -
 types
+>
 #
 [
 derive
@@ -1851,6 +1861,7 @@ see
 /
 /
 /
+<
 https
 :
 /
@@ -1867,6 +1878,7 @@ mediaqueries
 error
 -
 handling
+>
 pub
 fn
 parse_media_query_list
@@ -2306,6 +2318,7 @@ list
 /
 /
 /
+<
 https
 :
 /
@@ -2324,6 +2337,7 @@ dom
 medialist
 -
 appendmedium
+>
 /
 /
 /
@@ -2511,6 +2525,7 @@ list
 /
 /
 /
+<
 https
 :
 /
@@ -2529,6 +2544,7 @@ dom
 medialist
 -
 deletemedium
+>
 /
 /
 /

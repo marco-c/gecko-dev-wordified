@@ -646,6 +646,7 @@ allowed
 /
 /
 /
+<
 https
 :
 /
@@ -666,6 +667,7 @@ a
 root
 -
 margin
+>
 pub
 struct
 IntersectionObserverRootMargin

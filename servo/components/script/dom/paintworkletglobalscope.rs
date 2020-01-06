@@ -623,6 +623,7 @@ SpeculativePainter
 /
 /
 /
+<
 https
 :
 /
@@ -643,6 +644,7 @@ api
 /
 #
 paintworkletglobalscope
+>
 #
 [
 dom_struct
@@ -686,6 +688,7 @@ ImageCache
 /
 /
 /
+<
 https
 :
 /
@@ -708,6 +711,7 @@ api
 paint
 -
 definitions
+>
 paint_definitions
 :
 DomRefCell
@@ -724,6 +728,7 @@ PaintDefinition
 /
 /
 /
+<
 https
 :
 /
@@ -748,6 +753,7 @@ paint
 class
 -
 instances
+>
 paint_class_instances
 :
 DomRefCell
@@ -1645,6 +1651,7 @@ result
 /
 /
 /
+<
 https
 :
 /
@@ -1671,6 +1678,7 @@ a
 paint
 -
 image
+>
 fn
 draw_a_paint_image
 (
@@ -1777,6 +1785,7 @@ arguments
 /
 /
 /
+<
 https
 :
 /
@@ -1803,6 +1812,7 @@ a
 paint
 -
 callback
+>
 #
 [
 allow
@@ -3296,6 +3306,7 @@ unrooted_must_root
 /
 /
 /
+<
 https
 :
 /
@@ -3320,6 +3331,7 @@ dom
 paintworkletglobalscope
 -
 registerpaint
+>
 fn
 RegisterPaint
 (
@@ -4080,6 +4092,7 @@ definition
 /
 /
 /
+<
 https
 :
 /
@@ -4102,6 +4115,7 @@ api
 paint
 -
 definition
+>
 /
 /
 /

@@ -1311,6 +1311,7 @@ Storage
 /
 /
 /
+<
 https
 :
 /
@@ -1333,6 +1334,7 @@ a
 storage
 -
 notification
+>
 fn
 broadcast_change_notification
 (
@@ -1412,6 +1414,7 @@ unwrap
 /
 /
 /
+<
 https
 :
 /
@@ -1434,6 +1437,7 @@ a
 storage
 -
 notification
+>
 pub
 fn
 queue_storage_event

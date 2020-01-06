@@ -735,6 +735,7 @@ SVGOpacity
 /
 /
 /
+<
 https
 :
 /
@@ -755,6 +756,7 @@ animtype
 repeatable
 -
 list
+>
 pub
 trait
 RepeatableListAnimatable
@@ -4887,6 +4889,7 @@ T
 /
 /
 /
+<
 https
 :
 /
@@ -4905,6 +4908,7 @@ transitions
 animtype
 -
 visibility
+>
 impl
 Animate
 for
@@ -5114,6 +5118,7 @@ Err
 /
 /
 /
+<
 https
 :
 /
@@ -5132,6 +5137,7 @@ transitions
 animtype
 -
 lpcalc
+>
 impl
 Animate
 for
@@ -5494,6 +5500,7 @@ Err
 /
 /
 /
+<
 http
 :
 /
@@ -5516,6 +5523,7 @@ animtype
 font
 -
 weight
+>
 impl
 Animate
 for
@@ -5684,6 +5692,7 @@ normal
 /
 /
 /
+<
 https
 :
 /
@@ -5704,6 +5713,7 @@ font
 stretch
 -
 prop
+>
 impl
 Animate
 for
@@ -5919,6 +5929,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -5941,6 +5952,7 @@ font
 stretch
 -
 animation
+>
 impl
 From
 <
@@ -6131,6 +6143,7 @@ usize
 /
 /
 /
+<
 https
 :
 /
@@ -6155,6 +6168,7 @@ variation
 settings
 -
 def
+>
 #
 [
 cfg
@@ -7544,6 +7558,7 @@ RepeatableListAnimatable
 /
 /
 /
+<
 https
 :
 /
@@ -7562,6 +7577,7 @@ transitions
 animtype
 -
 rect
+>
 impl
 Animate
 for
@@ -7796,6 +7812,7 @@ list
 /
 /
 /
+<
 http
 :
 /
@@ -7818,6 +7835,7 @@ none
 transform
 -
 animation
+>
 impl
 ToAnimatedZero
 for
@@ -8299,6 +8317,7 @@ procedure
 /
 /
 /
+<
 http
 :
 /
@@ -8321,6 +8340,7 @@ interpolation
 of
 -
 transforms
+>
 impl
 Animate
 for
@@ -8859,6 +8879,7 @@ Err
 /
 /
 /
+<
 https
 :
 /
@@ -8879,6 +8900,7 @@ transforms
 /
 #
 Rotate3dDefined
+>
 fn
 rotate_to_matrix
 (
@@ -9594,6 +9616,7 @@ MatrixDecomposed2D
 /
 /
 /
+<
 https
 :
 /
@@ -9620,6 +9643,7 @@ decomposed
 matrix
 -
 values
+>
 fn
 animate
 (
@@ -10668,6 +10692,7 @@ matrix
 /
 /
 /
+<
 https
 :
 /
@@ -10690,6 +10715,7 @@ a
 2d
 -
 matrix
+>
 fn
 from
 (
@@ -11082,6 +11108,7 @@ matrix
 /
 /
 /
+<
 https
 :
 /
@@ -11106,6 +11133,7 @@ a
 2d
 -
 matrix
+>
 fn
 from
 (
@@ -12342,6 +12370,7 @@ matrix
 /
 /
 /
+<
 https
 :
 /
@@ -12364,6 +12393,7 @@ a
 3d
 -
 matrix
+>
 fn
 decompose_3d_matrix
 (
@@ -14850,6 +14880,7 @@ MatrixDecomposed3D
 /
 /
 /
+<
 https
 :
 /
@@ -14876,6 +14907,7 @@ decomposed
 matrix
 -
 values
+>
 fn
 animate
 (
@@ -15660,6 +15692,7 @@ matrix
 /
 /
 /
+<
 https
 :
 /
@@ -15684,6 +15717,7 @@ a
 3d
 -
 matrix
+>
 fn
 from
 (
@@ -18172,6 +18206,7 @@ x
 /
 /
 /
+<
 https
 :
 /
@@ -18192,6 +18227,7 @@ interpolation
 of
 -
 transforms
+>
 impl
 Animate
 for
@@ -20705,6 +20741,7 @@ Err
 /
 /
 /
+<
 https
 :
 /
@@ -20724,6 +20761,7 @@ painting
 html
 #
 StrokeDasharrayProperty
+>
 impl
 <
 L
@@ -21103,6 +21141,7 @@ Sepia
 /
 /
 /
+<
 https
 :
 /
@@ -21121,6 +21160,7 @@ animation
 of
 -
 filters
+>
 impl
 Animate
 for
@@ -21365,6 +21405,7 @@ Err
 /
 /
 /
+<
 http
 :
 /
@@ -21387,6 +21428,7 @@ none
 transform
 -
 animation
+>
 impl
 ToAnimatedZero
 for

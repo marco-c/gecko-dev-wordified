@@ -406,6 +406,7 @@ function
 /
 /
 /
+<
 https
 :
 /
@@ -424,6 +425,7 @@ fonts
 src
 -
 desc
+>
 #
 [
 derive
@@ -1863,6 +1865,7 @@ rule
 /
 /
 /
+<
 https
 :
 /
@@ -1883,6 +1886,7 @@ font
 face
 -
 rule
+>
 #
 [
 derive

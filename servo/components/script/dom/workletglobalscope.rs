@@ -300,6 +300,7 @@ dom_struct
 /
 /
 /
+<
 https
 :
 /
@@ -316,6 +317,7 @@ worklets
 /
 #
 workletglobalscope
+>
 pub
 struct
 WorkletGlobalScope
@@ -1040,6 +1042,7 @@ ImageCache
 /
 /
 /
+<
 https
 :
 /
@@ -1062,6 +1065,7 @@ global
 scope
 -
 type
+>
 #
 [
 derive

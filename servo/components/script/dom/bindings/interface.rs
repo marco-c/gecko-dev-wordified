@@ -4447,6 +4447,7 @@ prototype
 /
 /
 /
+<
 http
 :
 /
@@ -4465,6 +4466,7 @@ es
 interface
 -
 hasinstance
+>
 unsafe
 fn
 has_instance

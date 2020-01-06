@@ -326,6 +326,7 @@ image
 /
 /
 /
+<
 https
 :
 /
@@ -344,6 +345,7 @@ paint
 -
 api
 /
+>
 #
 [
 cfg
@@ -370,6 +372,7 @@ gradient
 /
 /
 /
+<
 https
 :
 /
@@ -386,6 +389,7 @@ images
 /
 #
 gradients
+>
 #
 [
 cfg_attr
@@ -950,6 +954,7 @@ ShapeExtent
 /
 /
 /
+<
 https
 :
 /
@@ -970,6 +975,7 @@ typedef
 extent
 -
 keyword
+>
 define_css_keyword_enum
 !
 (
@@ -1037,6 +1043,7 @@ item
 /
 /
 /
+<
 https
 :
 /
@@ -1059,6 +1066,7 @@ color
 stop
 -
 syntax
+>
 #
 [
 cfg_attr
@@ -1146,6 +1154,7 @@ stop
 /
 /
 /
+<
 https
 :
 /
@@ -1168,6 +1177,7 @@ color
 stop
 -
 list
+>
 #
 [
 derive
@@ -1260,6 +1270,7 @@ worklet
 /
 /
 /
+<
 https
 :
 /
@@ -1278,6 +1289,7 @@ paint
 -
 api
 /
+>
 #
 [
 derive

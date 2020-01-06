@@ -299,6 +299,7 @@ AutoEntryScript
 /
 /
 /
+<
 https
 :
 /
@@ -321,6 +322,7 @@ to
 run
 -
 script
+>
 pub
 fn
 new
@@ -417,6 +419,7 @@ AutoEntryScript
 /
 /
 /
+<
 https
 :
 /
@@ -441,6 +444,7 @@ after
 running
 -
 script
+>
 fn
 drop
 (
@@ -726,6 +730,7 @@ AutoIncumbentScript
 /
 /
 /
+<
 https
 :
 /
@@ -750,6 +755,7 @@ run
 a
 -
 callback
+>
 pub
 fn
 new
@@ -888,6 +894,7 @@ AutoIncumbentScript
 /
 /
 /
+<
 https
 :
 /
@@ -914,6 +921,7 @@ running
 a
 -
 callback
+>
 fn
 drop
 (

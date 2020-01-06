@@ -318,6 +318,7 @@ style
 /
 /
 /
+<
 https
 :
 /
@@ -336,6 +337,7 @@ new
 stacking
 -
 layer
+>
 /
 /
 /
@@ -543,6 +545,7 @@ section
 /
 /
 /
+<
 https
 :
 /
@@ -564,6 +567,7 @@ dis
 pos
 -
 flo
+>
 fn
 blockify_if_necessary
 (
@@ -1282,6 +1286,7 @@ SHOULD_SUPPRESS_LINEBREAK
 /
 /
 /
+<
 https
 :
 /
@@ -1305,6 +1310,7 @@ block
 -
 flow
 :
+>
 /
 /
 /
@@ -1390,6 +1396,7 @@ also
 /
 /
 /
+<
 https
 :
 /
@@ -1413,9 +1420,11 @@ style
 0045
 .
 html
+>
 /
 /
 /
+<
 https
 :
 /
@@ -1431,6 +1440,7 @@ servo
 issues
 /
 15754
+>
 fn
 adjust_for_writing_mode
 (
@@ -4123,6 +4133,7 @@ with
 /
 /
 /
+<
 https
 :
 /
@@ -4145,6 +4156,7 @@ justify
 items
 -
 legacy
+>
 /
 /
 /

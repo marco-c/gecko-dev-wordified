@@ -162,6 +162,7 @@ descriptors
 /
 /
 /
+<
 https
 :
 /
@@ -182,6 +183,7 @@ adapt
 viewport
 -
 desc
+>
 #
 [
 derive
@@ -278,6 +280,7 @@ CSSPixel
 /
 /
 /
+<
 https
 :
 /
@@ -298,6 +301,7 @@ adapt
 zoom
 -
 desc
+>
 pub
 initial_zoom
 :
@@ -305,6 +309,7 @@ PinchZoomFactor
 /
 /
 /
+<
 https
 :
 /
@@ -329,6 +334,7 @@ max
 width
 -
 desc
+>
 pub
 min_zoom
 :
@@ -339,6 +345,7 @@ PinchZoomFactor
 /
 /
 /
+<
 https
 :
 /
@@ -363,6 +370,7 @@ max
 width
 -
 desc
+>
 pub
 max_zoom
 :
@@ -373,6 +381,7 @@ PinchZoomFactor
 /
 /
 /
+<
 https
 :
 /
@@ -395,6 +404,7 @@ user
 zoom
 -
 desc
+>
 pub
 user_zoom
 :
@@ -402,6 +412,7 @@ UserZoom
 /
 /
 /
+<
 https
 :
 /
@@ -422,6 +433,7 @@ adapt
 orientation
 -
 desc
+>
 pub
 orientation
 :
@@ -673,6 +685,7 @@ write_str
 /
 /
 /
+<
 https
 :
 /
@@ -695,6 +708,7 @@ descdef
 viewport
 -
 zoom
+>
 #
 [
 derive
@@ -874,6 +888,7 @@ per
 /
 /
 /
+<
 https
 :
 /
@@ -896,6 +911,7 @@ descdef
 viewport
 -
 zoom
+>
 pub
 fn
 parse

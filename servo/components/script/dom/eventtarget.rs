@@ -732,6 +732,7 @@ Bubbling
 /
 /
 /
+<
 https
 :
 /
@@ -754,6 +755,7 @@ raw
 uncompiled
 -
 handler
+>
 #
 [
 derive
@@ -845,6 +847,7 @@ necessary
 /
 /
 /
+<
 https
 :
 /
@@ -875,6 +878,7 @@ the
 event
 -
 handler
+>
 fn
 get_compiled_handler
 (
@@ -2333,6 +2337,7 @@ default
 /
 /
 /
+<
 https
 :
 /
@@ -2359,6 +2364,7 @@ event
 handlers
 -
 11
+>
 fn
 set_inline_event_listener
 (
@@ -2612,6 +2618,7 @@ later
 /
 /
 /
+<
 https
 :
 /
@@ -2642,6 +2649,7 @@ content
 attributes
 -
 3
+>
 pub
 fn
 set_event_handler_uncompiled

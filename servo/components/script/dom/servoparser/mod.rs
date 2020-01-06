@@ -891,6 +891,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -911,6 +912,7 @@ script
 nesting
 -
 level
+>
 script_nesting_level
 :
 Cell
@@ -920,6 +922,7 @@ usize
 /
 /
 /
+<
 https
 :
 /
@@ -940,6 +943,7 @@ abort
 a
 -
 parser
+>
 aborted
 :
 Cell
@@ -949,6 +953,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -969,6 +974,7 @@ script
 created
 -
 parser
+>
 script_created_parser
 :
 bool
@@ -1711,6 +1717,7 @@ of
 /
 /
 /
+<
 https
 :
 /
@@ -1731,6 +1738,7 @@ parsing
 main
 -
 incdata
+>
 /
 /
 /
@@ -7152,6 +7160,7 @@ unwrap
 /
 /
 /
+<
 https
 :
 /
@@ -7172,6 +7181,7 @@ html
 integration
 -
 point
+>
 /
 /
 /

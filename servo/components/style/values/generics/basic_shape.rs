@@ -204,6 +204,7 @@ Url
 /
 /
 /
+<
 https
 :
 /
@@ -226,6 +227,7 @@ typedef
 geometry
 -
 box
+>
 #
 [
 allow
@@ -599,6 +601,7 @@ LengthOrPercentage
 /
 /
 /
+<
 https
 :
 /
@@ -617,6 +620,7 @@ shapes
 funcdef
 -
 inset
+>
 #
 [
 allow
@@ -694,6 +698,7 @@ LengthOrPercentage
 /
 /
 /
+<
 https
 :
 /
@@ -712,6 +717,7 @@ shapes
 funcdef
 -
 circle
+>
 #
 [
 allow
@@ -790,6 +796,7 @@ LengthOrPercentage
 /
 /
 /
+<
 https
 :
 /
@@ -808,6 +815,7 @@ shapes
 funcdef
 -
 ellipse
+>
 #
 [
 allow
@@ -893,6 +901,7 @@ LengthOrPercentage
 /
 /
 /
+<
 https
 :
 /
@@ -913,6 +922,7 @@ typedef
 shape
 -
 radius
+>
 #
 [
 allow
@@ -1057,6 +1067,7 @@ function
 /
 /
 /
+<
 https
 :
 /
@@ -1075,6 +1086,7 @@ shapes
 funcdef
 -
 polygon
+>
 pub
 struct
 Polygon

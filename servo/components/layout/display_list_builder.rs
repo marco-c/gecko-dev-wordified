@@ -6821,6 +6821,7 @@ provided
 /
 /
 /
+<
 https
 :
 /
@@ -6841,6 +6842,7 @@ images
 typedef
 -
 size
+>
 fn
 convert_circle_size_keyword
 (
@@ -7045,6 +7047,7 @@ provided
 /
 /
 /
+<
 https
 :
 /
@@ -7065,6 +7068,7 @@ images
 typedef
 -
 size
+>
 fn
 convert_ellipse_size_keyword
 (

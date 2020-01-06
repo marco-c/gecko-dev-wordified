@@ -482,6 +482,7 @@ x
 /
 /
 /
+<
 https
 :
 /
@@ -504,6 +505,7 @@ typedef
 counter
 -
 style
+>
 /
 /
 /
@@ -1269,6 +1271,7 @@ T
 /
 /
 /
+<
 https
 :
 /
@@ -1295,9 +1298,11 @@ font
 feature
 -
 settings
+>
 /
 /
 /
+<
 https
 :
 /
@@ -1323,6 +1328,7 @@ font
 -
 variation
 -
+>
 /
 /
 /
@@ -1674,6 +1680,7 @@ T
 /
 /
 /
+<
 https
 :
 /
@@ -1700,6 +1707,7 @@ font
 feature
 -
 settings
+>
 fn
 parse
 <

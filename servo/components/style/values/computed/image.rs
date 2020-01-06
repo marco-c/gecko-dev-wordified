@@ -333,6 +333,7 @@ IMAGES
 /
 /
 /
+<
 https
 :
 /
@@ -351,6 +352,7 @@ images
 image
 -
 values
+>
 pub
 type
 Image
@@ -375,6 +377,7 @@ gradient
 /
 /
 /
+<
 https
 :
 /
@@ -391,6 +394,7 @@ images
 /
 #
 gradients
+>
 pub
 type
 Gradient

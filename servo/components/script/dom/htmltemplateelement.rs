@@ -230,6 +230,7 @@ HTMLElement
 /
 /
 /
+<
 https
 :
 /
@@ -248,6 +249,7 @@ multipage
 template
 -
 contents
+>
 contents
 :
 MutNullableDom
@@ -371,6 +373,7 @@ HTMLTemplateElement
 /
 /
 /
+<
 https
 :
 /
@@ -391,6 +394,7 @@ dom
 template
 -
 content
+>
 fn
 Content
 (
@@ -473,6 +477,7 @@ VirtualMethods
 /
 /
 /
+<
 https
 :
 /
@@ -493,6 +498,7 @@ template
 adopting
 -
 steps
+>
 fn
 adopting_steps
 (
@@ -563,6 +569,7 @@ doc
 /
 /
 /
+<
 https
 :
 /
@@ -591,6 +598,7 @@ node
 clone
 -
 ext
+>
 fn
 cloning_steps
 (

@@ -4578,6 +4578,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -4616,6 +4617,7 @@ browsing
 context
 -
 name
+>
 fn
 is_current_browsing_context
 (
@@ -4644,6 +4646,7 @@ _self
 /
 /
 /
+<
 https
 :
 /
@@ -4664,6 +4667,7 @@ following
 hyperlinks
 -
 2
+>
 pub
 fn
 follow_hyperlink

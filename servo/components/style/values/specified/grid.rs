@@ -712,6 +712,7 @@ strings
 /
 /
 /
+<
 https
 :
 /
@@ -732,6 +733,7 @@ typedef
 line
 -
 names
+>
 pub
 fn
 parse_line_names
@@ -903,6 +905,7 @@ parsing
 /
 /
 /
+<
 https
 :
 /
@@ -923,6 +926,7 @@ typedef
 track
 -
 repeat
+>
 #
 [
 derive

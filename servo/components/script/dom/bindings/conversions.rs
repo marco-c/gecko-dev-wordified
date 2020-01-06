@@ -157,6 +157,7 @@ any
 |
 JSVal
 |
+|
 /
 /
 !
@@ -164,6 +165,7 @@ JSVal
 boolean
 |
 bool
+|
 |
 /
 /
@@ -173,6 +175,7 @@ byte
 |
 i8
 |
+|
 /
 /
 !
@@ -181,6 +184,7 @@ octet
 |
 u8
 |
+|
 /
 /
 !
@@ -188,6 +192,7 @@ u8
 short
 |
 i16
+|
 |
 /
 /
@@ -198,6 +203,7 @@ short
 |
 u16
 |
+|
 /
 /
 !
@@ -205,6 +211,7 @@ u16
 long
 |
 i32
+|
 |
 /
 /
@@ -215,6 +222,7 @@ long
 |
 u32
 |
+|
 /
 /
 !
@@ -223,6 +231,7 @@ long
 long
 |
 i64
+|
 |
 /
 /
@@ -234,6 +243,7 @@ long
 |
 u64
 |
+|
 /
 /
 !
@@ -242,6 +252,7 @@ unrestricted
 float
 |
 f32
+|
 |
 /
 /
@@ -254,6 +265,7 @@ Finite
 f32
 >
 |
+|
 /
 /
 !
@@ -262,6 +274,7 @@ unrestricted
 double
 |
 f64
+|
 |
 /
 /
@@ -274,6 +287,7 @@ Finite
 f64
 >
 |
+|
 /
 /
 !
@@ -281,6 +295,7 @@ f64
 DOMString
 |
 DOMString
+|
 |
 /
 /
@@ -290,6 +305,7 @@ USVString
 |
 USVString
 |
+|
 /
 /
 !
@@ -297,6 +313,7 @@ USVString
 ByteString
 |
 ByteString
+|
 |
 /
 /
@@ -307,6 +324,7 @@ object
 *
 mut
 JSObject
+|
 |
 /
 /
@@ -346,6 +364,7 @@ types
 |
 T
 |
+|
 /
 /
 !
@@ -359,6 +378,7 @@ Rc
 T
 >
 |
+|
 /
 /
 !
@@ -371,6 +391,7 @@ Option
 T
 >
 |
+|
 /
 /
 !
@@ -382,6 +403,7 @@ Vec
 T
 >
 |
+|
 /
 /
 !
@@ -390,6 +412,7 @@ union
 types
 |
 T
+|
 |
 use
 dom

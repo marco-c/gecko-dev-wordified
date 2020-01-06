@@ -612,6 +612,7 @@ HTMLElement
 /
 /
 /
+<
 https
 :
 /
@@ -632,6 +633,7 @@ dom
 media
 -
 networkstate
+>
 network_state
 :
 Cell
@@ -641,6 +643,7 @@ NetworkState
 /
 /
 /
+<
 https
 :
 /
@@ -661,6 +664,7 @@ dom
 media
 -
 readystate
+>
 ready_state
 :
 Cell
@@ -670,6 +674,7 @@ ReadyState
 /
 /
 /
+<
 https
 :
 /
@@ -690,6 +695,7 @@ dom
 media
 -
 srcobject
+>
 src_object
 :
 MutNullableDom
@@ -699,6 +705,7 @@ Blob
 /
 /
 /
+<
 https
 :
 /
@@ -719,6 +726,7 @@ dom
 media
 -
 currentsrc
+>
 current_src
 :
 DomRefCell
@@ -747,6 +755,7 @@ u32
 /
 /
 /
+<
 https
 :
 /
@@ -765,6 +774,7 @@ multipage
 fire
 -
 loadeddata
+>
 /
 /
 /
@@ -791,6 +801,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -811,6 +822,7 @@ dom
 media
 -
 error
+>
 error
 :
 MutNullableDom
@@ -820,6 +832,7 @@ MediaError
 /
 /
 /
+<
 https
 :
 /
@@ -840,6 +853,7 @@ dom
 media
 -
 paused
+>
 paused
 :
 Cell
@@ -849,6 +863,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -869,6 +884,7 @@ attr
 media
 -
 autoplay
+>
 autoplaying
 :
 Cell
@@ -878,6 +894,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -902,6 +919,7 @@ load
 event
 -
 flag
+>
 delaying_the_load_event_flag
 :
 DomRefCell
@@ -914,6 +932,7 @@ LoadBlocker
 /
 /
 /
+<
 https
 :
 /
@@ -938,6 +957,7 @@ pending
 play
 -
 promises
+>
 #
 [
 ignore_heap_size_of
@@ -1010,6 +1030,7 @@ ErrorResult
 /
 /
 /
+<
 https
 :
 /
@@ -1030,6 +1051,7 @@ dom
 media
 -
 networkstate
+>
 #
 [
 derive
@@ -1088,6 +1110,7 @@ u8
 /
 /
 /
+<
 https
 :
 /
@@ -1108,6 +1131,7 @@ dom
 media
 -
 readystate
+>
 #
 [
 derive
@@ -1447,6 +1471,7 @@ again
 /
 /
 /
+<
 https
 :
 /
@@ -1471,6 +1496,7 @@ load
 event
 -
 flag
+>
 fn
 delay_load_event
 (
@@ -1554,6 +1580,7 @@ blocker
 /
 /
 /
+<
 https
 :
 /
@@ -1574,6 +1601,7 @@ dom
 media
 -
 play
+>
 /
 /
 FIXME
@@ -2090,6 +2118,7 @@ Play
 /
 /
 /
+<
 https
 :
 /
@@ -2110,6 +2139,7 @@ internal
 pause
 -
 steps
+>
 fn
 internal_pause_steps
 (
@@ -6118,6 +6148,7 @@ children
 /
 /
 /
+<
 https
 :
 /
@@ -6144,6 +6175,7 @@ nodes
 are
 -
 inserted
+>
 pub
 fn
 handle_source_child_insertion

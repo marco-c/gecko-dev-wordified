@@ -110,6 +110,7 @@ MatchingMode
 /
 /
 /
+<
 https
 :
 /
@@ -128,6 +129,7 @@ dom
 element
 -
 matches
+>
 pub
 fn
 element_matches
@@ -207,6 +209,7 @@ context
 /
 /
 /
+<
 https
 :
 /
@@ -225,6 +228,7 @@ dom
 element
 -
 closest
+>
 pub
 fn
 element_closest

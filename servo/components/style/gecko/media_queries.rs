@@ -561,6 +561,7 @@ quirk
 /
 /
 /
+<
 https
 :
 /
@@ -587,6 +588,7 @@ from
 body
 -
 quirk
+>
 body_text_color
 :
 AtomicUsize
@@ -1035,6 +1037,7 @@ quirk
 /
 /
 /
+<
 https
 :
 /
@@ -1061,6 +1064,7 @@ from
 body
 -
 quirk
+>
 pub
 fn
 set_body_text_color

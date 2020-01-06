@@ -566,6 +566,7 @@ inset
 /
 /
 /
+<
 https
 :
 /
@@ -586,6 +587,7 @@ backgrounds
 border
 -
 radius
+>
 #
 [
 cfg_attr

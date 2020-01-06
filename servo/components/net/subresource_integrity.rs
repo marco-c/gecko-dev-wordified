@@ -165,6 +165,7 @@ to
 /
 /
 /
+<
 https
 :
 /
@@ -183,6 +184,7 @@ multipage
 space
 -
 character
+>
 pub
 static
 HTML_SPACE_CHARACTERS
@@ -337,6 +339,7 @@ opt
 /
 /
 /
+<
 https
 :
 /
@@ -357,6 +360,7 @@ integrity
 parse
 -
 metadata
+>
 pub
 fn
 parsed_metadata
@@ -541,6 +545,7 @@ result
 /
 /
 /
+<
 https
 :
 /
@@ -559,6 +564,7 @@ integrity
 /
 #
 getprioritizedhashfunction
+>
 pub
 fn
 get_prioritized_hash_function
@@ -674,6 +680,7 @@ to_owned
 /
 /
 /
+<
 https
 :
 /
@@ -698,6 +705,7 @@ the
 strongest
 -
 metadata
+>
 pub
 fn
 get_strongest_metadata
@@ -837,6 +845,7 @@ result
 /
 /
 /
+<
 https
 :
 /
@@ -861,6 +870,7 @@ algorithm
 to
 -
 response
+>
 fn
 apply_algorithm_to_response
 (
@@ -939,6 +949,7 @@ body
 /
 /
 /
+<
 https
 :
 /
@@ -961,6 +972,7 @@ is
 response
 -
 eligible
+>
 fn
 is_eligible_for_integrity_validation
 (
@@ -1004,6 +1016,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -1028,6 +1041,7 @@ response
 match
 -
 metadatalist
+>
 pub
 fn
 is_response_integrity_valid

@@ -393,6 +393,7 @@ Touch
 /
 /
 /
+<
 https
 :
 /
@@ -413,6 +414,7 @@ widl
 Touch
 -
 identifier
+>
 fn
 Identifier
 (
@@ -430,6 +432,7 @@ identifier
 /
 /
 /
+<
 https
 :
 /
@@ -450,6 +453,7 @@ widl
 Touch
 -
 target
+>
 fn
 Target
 (
@@ -474,6 +478,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -494,6 +499,7 @@ widl
 Touch
 -
 screenX
+>
 fn
 ScreenX
 (
@@ -520,6 +526,7 @@ screen_x
 /
 /
 /
+<
 https
 :
 /
@@ -540,6 +547,7 @@ widl
 Touch
 -
 screenY
+>
 fn
 ScreenY
 (
@@ -566,6 +574,7 @@ screen_y
 /
 /
 /
+<
 https
 :
 /
@@ -586,6 +595,7 @@ widl
 Touch
 -
 clientX
+>
 fn
 ClientX
 (
@@ -612,6 +622,7 @@ client_x
 /
 /
 /
+<
 https
 :
 /
@@ -632,6 +643,7 @@ widl
 Touch
 -
 clientY
+>
 fn
 ClientY
 (
@@ -658,6 +670,7 @@ client_y
 /
 /
 /
+<
 https
 :
 /
@@ -678,6 +691,7 @@ widl
 Touch
 -
 clientX
+>
 fn
 PageX
 (
@@ -704,6 +718,7 @@ page_x
 /
 /
 /
+<
 https
 :
 /
@@ -724,6 +739,7 @@ widl
 Touch
 -
 clientY
+>
 fn
 PageY
 (

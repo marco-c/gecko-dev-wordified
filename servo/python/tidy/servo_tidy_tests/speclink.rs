@@ -168,6 +168,7 @@ link
 /
 /
 /
+<
 https
 :
 /
@@ -176,6 +177,7 @@ example
 .
 com
 /
+>
 fn
 Foo
 (
@@ -192,6 +194,7 @@ link
 /
 /
 /
+<
 https
 :
 /
@@ -200,6 +203,7 @@ example
 .
 com
 /
+>
 /
 /
 /

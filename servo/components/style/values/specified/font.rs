@@ -1970,6 +1970,7 @@ FontSize
 /
 /
 /
+<
 https
 :
 /
@@ -1998,6 +1999,7 @@ legacy
 font
 -
 size
+>
 pub
 fn
 from_html_size

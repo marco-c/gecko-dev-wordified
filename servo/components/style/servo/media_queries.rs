@@ -811,6 +811,7 @@ quirk
 /
 /
 /
+<
 https
 :
 /
@@ -837,6 +838,7 @@ from
 body
 -
 quirk
+>
 pub
 fn
 set_body_text_color
@@ -1272,6 +1274,7 @@ ExpressionKind
 /
 /
 /
+<
 http
 :
 /
@@ -1290,6 +1293,7 @@ mediaqueries
 /
 #
 width
+>
 Width
 (
 Range
@@ -1316,6 +1320,7 @@ per
 /
 /
 /
+<
 http
 :
 /
@@ -1334,6 +1339,7 @@ mediaqueries
 /
 #
 media1
+>
 #
 [
 derive

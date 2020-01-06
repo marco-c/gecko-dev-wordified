@@ -7994,6 +7994,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8012,6 +8013,7 @@ concept
 node
 -
 insert
+>
 pub
 fn
 increase_above
@@ -8063,6 +8065,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8081,6 +8084,7 @@ concept
 node
 -
 remove
+>
 pub
 fn
 decrease_above
@@ -8132,6 +8136,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8150,6 +8155,7 @@ concept
 node
 -
 remove
+>
 pub
 fn
 drain_to_parent
@@ -8359,6 +8365,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8377,6 +8384,7 @@ dom
 node
 -
 normalize
+>
 pub
 fn
 drain_to_preceding_text_sibling
@@ -8579,6 +8587,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8597,6 +8606,7 @@ dom
 node
 -
 normalize
+>
 pub
 fn
 move_to_text_child_at
@@ -8879,6 +8889,7 @@ data
 /
 /
 /
+<
 https
 :
 /
@@ -8897,6 +8908,7 @@ concept
 cd
 -
 replace
+>
 pub
 fn
 replace_code_units
@@ -8971,6 +8983,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -8989,6 +9002,7 @@ concept
 text
 -
 split
+>
 pub
 fn
 move_to_following_text_sibling_above
@@ -9283,6 +9297,7 @@ node
 /
 /
 /
+<
 https
 :
 /
@@ -9301,6 +9316,7 @@ concept
 text
 -
 split
+>
 pub
 fn
 increment_at

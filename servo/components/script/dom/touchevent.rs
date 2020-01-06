@@ -575,6 +575,7 @@ TouchEvent
 /
 /
 /
+<
 https
 :
 /
@@ -595,6 +596,7 @@ widl
 TouchEvent
 -
 ctrlKey
+>
 fn
 CtrlKey
 (
@@ -616,6 +618,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -636,6 +639,7 @@ widl
 TouchEvent
 -
 shiftKey
+>
 fn
 ShiftKey
 (
@@ -657,6 +661,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -677,6 +682,7 @@ widl
 TouchEvent
 -
 altKey
+>
 fn
 AltKey
 (
@@ -698,6 +704,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -718,6 +725,7 @@ widl
 TouchEvent
 -
 metaKey
+>
 fn
 MetaKey
 (
@@ -739,6 +747,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -759,6 +768,7 @@ widl
 TouchEventInit
 -
 touches
+>
 fn
 Touches
 (
@@ -783,6 +793,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -803,6 +814,7 @@ widl
 TouchEvent
 -
 targetTouches
+>
 fn
 TargetTouches
 (
@@ -827,6 +839,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -847,6 +860,7 @@ widl
 TouchEvent
 -
 changedTouches
+>
 fn
 ChangedTouches
 (
@@ -871,6 +885,7 @@ get
 /
 /
 /
+<
 https
 :
 /
@@ -889,6 +904,7 @@ dom
 event
 -
 istrusted
+>
 fn
 IsTrusted
 (

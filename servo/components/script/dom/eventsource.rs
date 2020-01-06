@@ -451,6 +451,7 @@ PartialEq
 /
 /
 /
+<
 https
 :
 /
@@ -471,6 +472,7 @@ dom
 eventsource
 -
 readystate
+>
 enum
 ReadyState
 {
@@ -601,6 +603,7 @@ EventSourceContext
 /
 /
 /
+<
 https
 :
 /
@@ -621,6 +624,7 @@ announce
 the
 -
 connection
+>
 fn
 announce_the_connection
 (
@@ -778,6 +782,7 @@ global
 /
 /
 /
+<
 https
 :
 /
@@ -798,6 +803,7 @@ fail
 the
 -
 connection
+>
 fn
 fail_the_connection
 (

@@ -1632,6 +1632,7 @@ ElementSelectorFlags
 /
 /
 /
+<
 https
 :
 /
@@ -1654,6 +1655,7 @@ element
 reaction
 -
 queue
+>
 custom_element_reaction_queue
 :
 DomRefCell
@@ -1666,6 +1668,7 @@ CustomElementReaction
 /
 /
 /
+<
 https
 :
 /
@@ -1688,6 +1691,7 @@ custom
 element
 -
 definition
+>
 #
 [
 ignore_heap_size_of
@@ -1711,6 +1715,7 @@ CustomElementDefinition
 /
 /
 /
+<
 https
 :
 /
@@ -1733,6 +1738,7 @@ custom
 element
 -
 state
+>
 custom_element_state
 :
 Cell
@@ -1898,6 +1904,7 @@ Asynchronous
 /
 /
 /
+<
 https
 :
 /
@@ -1920,6 +1927,7 @@ custom
 element
 -
 state
+>
 #
 [
 derive
@@ -16200,6 +16208,7 @@ height
 /
 /
 /
+<
 https
 :
 /
@@ -16220,6 +16229,7 @@ widl
 Element
 -
 innerHTML
+>
 fn
 GetInnerHTML
 (
@@ -16316,6 +16326,7 @@ qname
 /
 /
 /
+<
 https
 :
 /
@@ -16336,6 +16347,7 @@ widl
 Element
 -
 innerHTML
+>
 fn
 SetInnerHTML
 (
@@ -21699,6 +21711,7 @@ events
 /
 /
 /
+<
 https
 :
 /
@@ -21723,6 +21736,7 @@ click
 activation
 -
 steps
+>
 /
 /
 /
@@ -22316,6 +22330,7 @@ IN_ACTIVE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -22336,6 +22351,7 @@ concept
 selector
 -
 active
+>
 pub
 fn
 set_active_state
@@ -22784,6 +22800,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -22798,6 +22815,7 @@ org
 /
 #
 connected
+>
 pub
 fn
 is_connected
@@ -23208,6 +23226,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -23226,6 +23245,7 @@ attribute
 is
 -
 set
+>
 Set
 (
 Option
@@ -23247,6 +23267,7 @@ removed
 /
 /
 /
+<
 https
 :
 /
@@ -23265,6 +23286,7 @@ attribute
 is
 -
 removed
+>
 Removed
 }
 impl

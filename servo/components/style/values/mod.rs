@@ -768,6 +768,7 @@ Second
 /
 /
 /
+<
 https
 :
 /
@@ -788,6 +789,7 @@ values
 custom
 -
 idents
+>
 #
 [
 derive
@@ -1051,6 +1053,7 @@ dest
 /
 /
 /
+<
 https
 :
 /
@@ -1071,6 +1074,7 @@ typedef
 keyframes
 -
 name
+>
 #
 [
 derive
@@ -1143,6 +1147,7 @@ KeyframesName
 /
 /
 /
+<
 https
 :
 /
@@ -1163,6 +1168,7 @@ dom
 csskeyframesrule
 -
 name
+>
 pub
 fn
 from_ident

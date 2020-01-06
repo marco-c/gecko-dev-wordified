@@ -963,6 +963,7 @@ quirks
 /
 /
 /
+<
 https
 :
 /
@@ -985,6 +986,7 @@ hex
 color
 -
 quirk
+>
 pub
 fn
 parse_quirky
@@ -1117,6 +1119,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -1139,6 +1142,7 @@ hex
 color
 -
 quirk
+>
 fn
 parse_quirky_color
 <

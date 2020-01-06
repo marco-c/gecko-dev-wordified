@@ -2152,6 +2152,7 @@ it
 /
 /
 /
+<
 https
 :
 /
@@ -2172,6 +2173,7 @@ dom
 cssstyledeclaration
 -
 getpropertyvalue
+>
 pub
 fn
 property_value_to_css
@@ -2539,6 +2541,7 @@ Ok
 /
 /
 /
+<
 https
 :
 /
@@ -2559,6 +2562,7 @@ dom
 cssstyledeclaration
 -
 getpropertypriority
+>
 pub
 fn
 property_priority
@@ -3790,6 +3794,7 @@ updated_at_least_one
 /
 /
 /
+<
 https
 :
 /
@@ -3810,6 +3815,7 @@ dom
 cssstyledeclaration
 -
 removeproperty
+>
 /
 /
 /

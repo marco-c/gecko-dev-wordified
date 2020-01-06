@@ -232,6 +232,10 @@ definition
 /
 /
 /
+/
+/
+/
+<
 https
 :
 /
@@ -246,6 +250,7 @@ FileAPI
 /
 #
 DefinitionOfScheme
+>
 pub
 fn
 parse_blob_url
@@ -389,6 +394,9 @@ URL
 should
 have
 .
+/
+/
+/
 /
 /
 /

@@ -190,6 +190,7 @@ to
 /
 /
 /
+<
 https
 :
 /
@@ -208,6 +209,7 @@ multipage
 space
 -
 character
+>
 pub
 static
 HTML_SPACE_CHARACTERS

@@ -812,6 +812,7 @@ TimerSchedulerMsg
 /
 /
 /
+<
 https
 :
 /
@@ -834,6 +835,7 @@ error
 reporting
 -
 mode
+>
 in_error_reporting_mode
 :
 Cell
@@ -920,6 +922,7 @@ queue
 /
 /
 /
+<
 https
 :
 /
@@ -938,6 +941,7 @@ multipage
 microtask
 -
 queue
+>
 #
 [
 ignore_heap_size_of
@@ -2364,6 +2368,7 @@ scope
 /
 /
 /
+<
 https
 :
 /
@@ -2384,6 +2389,7 @@ report
 the
 -
 error
+>
 pub
 fn
 report_an_error

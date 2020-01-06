@@ -466,6 +466,7 @@ StylePropertyMapReadOnly
 /
 /
 /
+<
 https
 :
 /
@@ -492,6 +493,7 @@ dom
 stylepropertymapreadonly
 -
 get
+>
 fn
 Get
 (
@@ -555,6 +557,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -581,6 +584,7 @@ dom
 stylepropertymapreadonly
 -
 has
+>
 fn
 Has
 (
@@ -621,6 +625,7 @@ property
 /
 /
 /
+<
 https
 :
 /
@@ -647,6 +652,7 @@ dom
 stylepropertymapreadonly
 -
 getproperties
+>
 fn
 GetProperties
 (

@@ -381,6 +381,7 @@ dashoffset
 /
 /
 /
+<
 https
 :
 /
@@ -400,6 +401,7 @@ painting
 html
 #
 StrokeProperties
+>
 pub
 type
 SvgLengthOrPercentageOrNumber
@@ -589,6 +591,7 @@ dasharray
 /
 /
 /
+<
 https
 :
 /
@@ -608,6 +611,7 @@ painting
 html
 #
 StrokeProperties
+>
 pub
 type
 NonNegativeSvgLengthOrPercentageOrNumber

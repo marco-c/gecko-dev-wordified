@@ -2823,6 +2823,7 @@ add_pending_reflow
 /
 /
 /
+<
 https
 :
 /
@@ -2845,6 +2846,7 @@ the
 image
 -
 request
+>
 fn
 abort_request
 (
@@ -2927,6 +2929,7 @@ None
 /
 /
 /
+<
 https
 :
 /
@@ -2949,6 +2952,7 @@ the
 source
 -
 set
+>
 fn
 update_source_set
 (
@@ -3022,6 +3026,7 @@ src
 /
 /
 /
+<
 https
 :
 /
@@ -3044,6 +3049,7 @@ an
 image
 -
 source
+>
 fn
 select_image_source
 (
@@ -4220,6 +4226,7 @@ upcast
 /
 /
 /
+<
 https
 :
 /
@@ -4242,6 +4249,7 @@ the
 image
 -
 data
+>
 fn
 update_the_image_data
 (

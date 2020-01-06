@@ -588,6 +588,7 @@ observer
 /
 /
 /
+<
 https
 :
 /
@@ -612,6 +613,7 @@ observer
 compound
 -
 microtask
+>
 pub
 fn
 queue_mutation_observer_compound_microtask
@@ -664,6 +666,7 @@ NotifyMutationObservers
 /
 /
 /
+<
 https
 :
 /
@@ -682,6 +685,7 @@ notify
 mutation
 -
 observers
+>
 pub
 fn
 notify_mutation_observers
@@ -836,6 +840,7 @@ signals
 /
 /
 /
+<
 https
 :
 /
@@ -856,6 +861,7 @@ a
 mutation
 -
 record
+>
 pub
 fn
 queue_a_mutation_record
@@ -1367,6 +1373,7 @@ MutationObserver
 /
 /
 /
+<
 https
 :
 /
@@ -1385,6 +1392,7 @@ dom
 mutationobserver
 -
 observe
+>
 fn
 Observe
 (

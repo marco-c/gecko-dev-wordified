@@ -525,6 +525,7 @@ HTMLElement
 /
 /
 /
+<
 https
 :
 /
@@ -543,6 +544,7 @@ multipage
 already
 -
 started
+>
 already_started
 :
 Cell
@@ -552,6 +554,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -570,6 +573,7 @@ multipage
 parser
 -
 inserted
+>
 parser_inserted
 :
 Cell
@@ -579,6 +583,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -597,6 +602,7 @@ multipage
 non
 -
 blocking
+>
 /
 /
 /
@@ -1441,6 +1447,7 @@ chunk
 /
 /
 /
+<
 https
 :
 /
@@ -1463,6 +1470,7 @@ a
 classic
 -
 script
+>
 /
 /
 /
@@ -1759,6 +1767,7 @@ ScriptContext
 /
 /
 /
+<
 https
 :
 /
@@ -1781,6 +1790,7 @@ a
 classic
 -
 script
+>
 fn
 fetch_a_classic_script
 (
@@ -2197,6 +2207,7 @@ HTMLScriptElement
 /
 /
 /
+<
 https
 :
 /
@@ -2217,6 +2228,7 @@ prepare
 a
 -
 script
+>
 pub
 fn
 prepare
@@ -3768,6 +3780,7 @@ why
 /
 /
 /
+<
 https
 :
 /
@@ -3790,6 +3803,7 @@ the
 script
 -
 block
+>
 pub
 fn
 execute

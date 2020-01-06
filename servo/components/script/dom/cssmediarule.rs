@@ -523,6 +523,7 @@ clone
 /
 /
 /
+<
 https
 :
 /
@@ -545,6 +546,7 @@ the
 cssmediarule
 -
 interface
+>
 pub
 fn
 get_condition_text
@@ -610,6 +612,7 @@ into
 /
 /
 /
+<
 https
 :
 /
@@ -632,6 +635,7 @@ the
 cssmediarule
 -
 interface
+>
 pub
 fn
 set_condition_text

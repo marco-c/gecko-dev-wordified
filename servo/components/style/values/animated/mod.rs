@@ -493,6 +493,7 @@ procedure
 /
 /
 /
+<
 https
 :
 /
@@ -515,6 +516,7 @@ for
 animating
 -
 properties
+>
 #
 [
 allow
@@ -539,6 +541,7 @@ Procedure
 /
 /
 /
+<
 https
 :
 /
@@ -557,6 +560,7 @@ animations
 animation
 -
 interpolation
+>
 Interpolate
 {
 progress
@@ -566,6 +570,7 @@ f64
 /
 /
 /
+<
 https
 :
 /
@@ -584,10 +589,12 @@ animations
 animation
 -
 addition
+>
 Add
 /
 /
 /
+<
 https
 :
 /
@@ -606,6 +613,7 @@ animations
 animation
 -
 accumulation
+>
 Accumulate
 {
 count
@@ -1103,6 +1111,7 @@ f64
 /
 /
 /
+<
 https
 :
 /
@@ -1121,6 +1130,7 @@ transitions
 animtype
 -
 number
+>
 impl
 Animate
 for
@@ -1191,6 +1201,7 @@ i32
 /
 /
 /
+<
 https
 :
 /
@@ -1209,6 +1220,7 @@ transitions
 animtype
 -
 number
+>
 impl
 Animate
 for
@@ -1300,6 +1312,7 @@ f32
 /
 /
 /
+<
 https
 :
 /
@@ -1318,6 +1331,7 @@ transitions
 animtype
 -
 number
+>
 impl
 Animate
 for

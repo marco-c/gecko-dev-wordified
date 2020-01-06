@@ -274,6 +274,7 @@ TouchList
 /
 /
 /
+<
 https
 :
 /
@@ -294,6 +295,7 @@ widl
 TouchList
 -
 length
+>
 fn
 Length
 (
@@ -317,6 +319,7 @@ u32
 /
 /
 /
+<
 https
 :
 /
@@ -347,6 +350,7 @@ unsigned
 long
 -
 index
+>
 fn
 Item
 (
@@ -397,6 +401,7 @@ js
 /
 /
 /
+<
 https
 :
 /
@@ -427,6 +432,7 @@ unsigned
 long
 -
 index
+>
 fn
 IndexedGetter
 (

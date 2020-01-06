@@ -1003,6 +1003,7 @@ Wrap
 /
 /
 /
+<
 https
 :
 /
@@ -1021,6 +1022,7 @@ multipage
 dom
 -
 websocket
+>
 pub
 fn
 Constructor
@@ -3025,6 +3027,7 @@ established
 /
 /
 /
+<
 https
 :
 /
@@ -3053,6 +3056,7 @@ concept
 websocket
 -
 established
+>
 struct
 ConnectionEstablishedTask
 {
@@ -3077,6 +3081,7 @@ ConnectionEstablishedTask
 /
 /
 /
+<
 https
 :
 /
@@ -3105,6 +3110,7 @@ concept
 websocket
 -
 established
+>
 fn
 run_once
 (

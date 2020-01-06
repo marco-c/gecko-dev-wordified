@@ -269,6 +269,7 @@ CSSConditionRule
 /
 /
 /
+<
 https
 :
 /
@@ -291,6 +292,7 @@ dom
 cssconditionrule
 -
 conditiontext
+>
 fn
 ConditionText
 (
@@ -361,6 +363,7 @@ unreachable
 /
 /
 /
+<
 https
 :
 /
@@ -383,6 +386,7 @@ dom
 cssconditionrule
 -
 conditiontext
+>
 fn
 SetConditionText
 (

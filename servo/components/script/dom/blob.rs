@@ -2521,6 +2521,7 @@ constructor
 /
 /
 /
+<
 https
 :
 /
@@ -2535,6 +2536,7 @@ FileAPI
 /
 #
 constructorBlob
+>
 pub
 fn
 blob_parts_to_bytes
@@ -2891,6 +2893,7 @@ string
 /
 /
 /
+<
 https
 :
 /
@@ -2907,6 +2910,7 @@ FileAPI
 dfn
 -
 type
+>
 /
 /
 /

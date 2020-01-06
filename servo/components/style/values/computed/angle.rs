@@ -579,6 +579,7 @@ Radian
 /
 /
 /
+<
 https
 :
 /
@@ -597,6 +598,7 @@ transitions
 animtype
 -
 number
+>
 #
 [
 inline

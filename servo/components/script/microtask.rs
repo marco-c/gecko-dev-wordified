@@ -301,6 +301,7 @@ Microtask
 /
 /
 /
+<
 https
 :
 /
@@ -323,6 +324,7 @@ a
 microtask
 -
 checkpoint
+>
 performing_a_microtask_checkpoint
 :
 Cell
@@ -481,6 +483,7 @@ job
 /
 /
 /
+<
 https
 :
 /
@@ -503,6 +506,7 @@ a
 microtask
 -
 checkpoint
+>
 /
 /
 /

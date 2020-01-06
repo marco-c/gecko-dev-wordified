@@ -1995,6 +1995,7 @@ enabled
 /
 /
 /
+<
 https
 :
 /
@@ -2009,6 +2010,7 @@ org
 /
 #
 document
+>
 #
 [
 dom_struct
@@ -2344,6 +2346,7 @@ HTMLScriptElement
 /
 /
 /
+<
 https
 :
 /
@@ -2366,6 +2369,7 @@ parsing
 blocking
 -
 script
+>
 pending_parsing_blocking_script
 :
 DomRefCell
@@ -2443,6 +2447,7 @@ PendingInOrderScriptVec
 /
 /
 /
+<
 https
 :
 /
@@ -2481,12 +2486,14 @@ soon
 as
 -
 possible
+>
 asap_in_order_scripts_list
 :
 PendingInOrderScriptVec
 /
 /
 /
+<
 https
 :
 /
@@ -2521,6 +2528,7 @@ soon
 as
 -
 possible
+>
 asap_scripts_set
 :
 DomRefCell
@@ -2536,6 +2544,7 @@ HTMLScriptElement
 /
 /
 /
+<
 https
 :
 /
@@ -2556,6 +2565,7 @@ concept
 n
 -
 noscript
+>
 /
 /
 /
@@ -2576,6 +2586,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -2598,6 +2609,7 @@ frame
 callback
 -
 identifier
+>
 /
 /
 /
@@ -2616,6 +2628,7 @@ u32
 /
 /
 /
+<
 https
 :
 /
@@ -2640,6 +2653,7 @@ animation
 frame
 -
 callbacks
+>
 /
 /
 /
@@ -2816,6 +2830,7 @@ documents
 /
 /
 /
+<
 https
 :
 /
@@ -2840,6 +2855,7 @@ contents
 owner
 -
 document
+>
 appropriate_template_contents_owner_document
 :
 MutNullableDom
@@ -2920,6 +2936,7 @@ bool
 /
 /
 /
+<
 http
 :
 /
@@ -2942,6 +2959,7 @@ active
 touch
 -
 point
+>
 active_touch_points
 :
 DomRefCell
@@ -2964,6 +2982,7 @@ properties
 /
 /
 /
+<
 https
 :
 /
@@ -2982,6 +3001,7 @@ timing
 sec
 -
 PerformanceNavigationTiming
+>
 dom_loading
 :
 Cell
@@ -3027,6 +3047,7 @@ u64
 /
 /
 /
+<
 https
 :
 /
@@ -3049,6 +3070,7 @@ document
 https
 -
 state
+>
 https_state
 :
 Cell
@@ -3110,6 +3132,7 @@ ReferrerPolicy
 /
 /
 /
+<
 https
 :
 /
@@ -3130,6 +3153,7 @@ dom
 document
 -
 referrer
+>
 referrer
 :
 Option
@@ -3139,6 +3163,7 @@ String
 /
 /
 /
+<
 https
 :
 /
@@ -3157,6 +3182,7 @@ multipage
 target
 -
 element
+>
 target_element
 :
 MutNullableDom
@@ -3166,6 +3192,7 @@ Element
 /
 /
 /
+<
 https
 :
 /
@@ -3184,6 +3211,7 @@ event
 type
 -
 dblclick
+>
 #
 [
 ignore_heap_size_of
@@ -3212,6 +3240,7 @@ f32
 /
 /
 /
+<
 https
 :
 /
@@ -3234,6 +3263,7 @@ destructive
 writes
 -
 counter
+>
 ignore_destructive_writes_counter
 :
 Cell
@@ -3916,6 +3946,7 @@ has_browsing_context
 /
 /
 /
+<
 https
 :
 /
@@ -3936,6 +3967,7 @@ concept
 document
 -
 bc
+>
 #
 [
 inline
@@ -4644,6 +4676,7 @@ DOM
 /
 /
 /
+<
 https
 :
 /
@@ -4663,6 +4696,7 @@ tests
 issues
 /
 2122
+>
 pub
 fn
 refresh_base_element
@@ -5818,6 +5852,7 @@ document
 /
 /
 /
+<
 https
 :
 /
@@ -5844,6 +5879,7 @@ of
 the
 -
 document
+>
 pub
 fn
 find_fragment_node
@@ -6004,6 +6040,7 @@ top
 /
 /
 /
+<
 https
 :
 /
@@ -6028,6 +6065,7 @@ the
 fragment
 -
 identifier
+>
 pub
 fn
 check_and_scroll_fragment
@@ -12156,6 +12194,7 @@ event
 /
 /
 /
+<
 https
 :
 /
@@ -12176,6 +12215,7 @@ dom
 window
 -
 requestanimationframe
+>
 pub
 fn
 request_animation_frame
@@ -12416,6 +12456,7 @@ ident
 /
 /
 /
+<
 https
 :
 /
@@ -12436,6 +12477,7 @@ dom
 window
 -
 cancelanimationframe
+>
 pub
 fn
 cancel_animation_frame
@@ -12496,6 +12538,7 @@ None
 /
 /
 /
+<
 https
 :
 /
@@ -12520,6 +12563,7 @@ animation
 frame
 -
 callbacks
+>
 pub
 fn
 run_the_animation_frame_callbacks
@@ -15824,6 +15868,7 @@ target
 /
 /
 /
+<
 https
 :
 /
@@ -15846,6 +15891,7 @@ averse
 document
 -
 object
+>
 pub
 fn
 is_cookie_averse
@@ -15940,6 +15986,7 @@ nodes_from_point_response
 /
 /
 /
+<
 https
 :
 /
@@ -15966,6 +16013,7 @@ custom
 element
 -
 definition
+>
 pub
 fn
 lookup_custom_element_definition
@@ -16824,6 +16872,7 @@ host
 /
 /
 /
+<
 https
 :
 /
@@ -16840,6 +16889,7 @@ org
 network
 -
 scheme
+>
 fn
 url_has_network_scheme
 (
@@ -17392,6 +17442,7 @@ instead
 /
 /
 /
+<
 https
 :
 /
@@ -17407,6 +17458,7 @@ servo
 issues
 /
 16027
+>
 /
 /
 /
@@ -19108,6 +19160,7 @@ get_cssom_stylesheet
 /
 /
 /
+<
 https
 :
 /
@@ -19132,6 +19185,7 @@ contents
 owner
 -
 document
+>
 pub
 fn
 appropriate_template_contents_owner_document
@@ -31343,6 +31397,7 @@ u64
 /
 /
 /
+<
 https
 :
 /
@@ -31367,6 +31422,7 @@ policy
 for
 -
 token
+>
 pub
 fn
 determine_policy_for_token

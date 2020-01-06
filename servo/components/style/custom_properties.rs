@@ -259,6 +259,7 @@ name
 /
 /
 /
+<
 https
 :
 /
@@ -281,6 +282,7 @@ custom
 property
 -
 name
+>
 pub
 fn
 parse_name
@@ -2295,6 +2297,7 @@ last
 /
 /
 /
+<
 https
 :
 /
@@ -2317,6 +2320,7 @@ typedef
 declaration
 -
 value
+>
 fn
 parse_declaration_value
 <

@@ -5512,6 +5512,7 @@ phase
 /
 /
 /
+<
 http
 :
 /
@@ -5530,6 +5531,7 @@ events
 mouse
 -
 events
+>
 fn
 simulate_mouse_click
 (

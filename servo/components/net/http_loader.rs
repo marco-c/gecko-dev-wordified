@@ -1533,6 +1533,7 @@ Quality
 /
 /
 /
+<
 https
 :
 /
@@ -1563,6 +1564,7 @@ referrer
 when
 -
 downgrade
+>
 fn
 no_referrer_when_downgrade_header
 (
@@ -1619,6 +1621,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -1643,6 +1646,7 @@ policy
 strict
 -
 origin
+>
 fn
 strict_origin
 (
@@ -1697,6 +1701,7 @@ true
 /
 /
 /
+<
 https
 :
 /
@@ -1727,6 +1732,7 @@ when
 cross
 -
 origin
+>
 fn
 strict_origin_when_cross_origin
 (
@@ -1797,6 +1803,7 @@ cross_origin
 /
 /
 /
+<
 https
 :
 /
@@ -1817,6 +1824,7 @@ policy
 strip
 -
 url
+>
 fn
 strip_url
 (
@@ -1933,6 +1941,7 @@ None
 /
 /
 /
+<
 https
 :
 /
@@ -1955,6 +1964,7 @@ determine
 requests
 -
 referrer
+>
 /
 /
 /
@@ -10117,6 +10127,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -10133,6 +10144,7 @@ org
 redirect
 -
 status
+>
 pub
 fn
 is_redirect_status

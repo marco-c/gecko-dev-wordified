@@ -131,6 +131,7 @@ ApacheBugFlag
 /
 /
 /
+<
 https
 :
 /
@@ -153,6 +154,7 @@ type
 detection
 -
 algorithm
+>
 pub
 fn
 from_content_type

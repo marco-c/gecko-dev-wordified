@@ -3573,6 +3573,7 @@ into
 /
 /
 /
+<
 https
 :
 /
@@ -3593,6 +3594,7 @@ safelisted
 request
 -
 header
+>
 pub
 fn
 is_cors_safelisted_request_header
@@ -3734,6 +3736,7 @@ ContentLanguage
 /
 /
 /
+<
 https
 :
 /
@@ -3752,6 +3755,7 @@ cors
 safelisted
 -
 method
+>
 pub
 fn
 is_cors_safelisted_method
@@ -3856,6 +3860,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -3887,6 +3892,7 @@ to
 -
 nosniff
 ?
+>
 pub
 fn
 should_be_blocked_due_to_nosniff
@@ -3906,6 +3912,7 @@ bool
 /
 /
 /
+<
 https
 :
 /
@@ -3928,6 +3935,7 @@ type
 options
 -
 header
+>
 /
 /
 /
@@ -4267,6 +4275,7 @@ ContentType
 /
 /
 /
+<
 https
 :
 /
@@ -4283,6 +4292,7 @@ multipage
 /
 #
 scriptingLanguages
+>
 #
 [
 inline
@@ -4649,6 +4659,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -4682,6 +4693,7 @@ mime
 -
 type
 ?
+>
 fn
 should_be_blocked_due_to_mime_type
 (
@@ -4816,6 +4828,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -4834,6 +4847,7 @@ block
 bad
 -
 port
+>
 pub
 fn
 should_be_blocked_due_to_bad_port
@@ -5006,6 +5020,7 @@ false
 /
 /
 /
+<
 https
 :
 /
@@ -5022,6 +5037,7 @@ org
 network
 -
 scheme
+>
 fn
 is_network_scheme
 (
@@ -5060,6 +5076,7 @@ https
 /
 /
 /
+<
 https
 :
 /
@@ -5076,6 +5093,7 @@ org
 bad
 -
 port
+>
 fn
 is_bad_port
 (

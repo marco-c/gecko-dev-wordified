@@ -1465,6 +1465,7 @@ spec
 /
 /
 /
+<
 https
 :
 /
@@ -1485,6 +1486,7 @@ queue
 a
 -
 performanceentry
+>
 pub
 fn
 queue_entry
@@ -1743,6 +1745,7 @@ step
 /
 /
 /
+<
 https
 :
 /
@@ -1763,6 +1766,7 @@ queue
 a
 -
 performanceentry
+>
 pub
 fn
 notify_observers
