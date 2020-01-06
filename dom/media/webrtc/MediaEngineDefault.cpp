@@ -247,6 +247,9 @@ mTimer
 (
 nullptr
 )
+#
+ifndef
+MOZ_WEBRTC
 mMonitor
 (
 "
@@ -254,6 +257,8 @@ Fake
 video
 "
 )
+#
+endif
 mCb
 (
 16
