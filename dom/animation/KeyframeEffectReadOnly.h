@@ -2588,8 +2588,13 @@ aPseudoType
 nsPresContext
 *
 aPresContext
+const
+ServoComputedValues
+*
+aComputedValues
 RefPtr
 <
+const
 ServoComputedValues
 >
 &

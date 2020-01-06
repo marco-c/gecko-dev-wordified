@@ -2646,6 +2646,7 @@ nsPresContext
 ;
 RefPtr
 <
+const
 ServoComputedValues
 >
 baseComputedValues
@@ -2668,6 +2669,7 @@ mTarget
 >
 mPseudoType
 presContext
+aComputedValues
 baseComputedValues
 )
 ;
@@ -2688,8 +2690,13 @@ aPseudoType
 nsPresContext
 *
 aPresContext
+const
+ServoComputedValues
+*
+aComputedStyle
 RefPtr
 <
+const
 ServoComputedValues
 >
 &
@@ -2768,6 +2775,7 @@ mTarget
 >
 mElement
 aPseudoType
+aComputedStyle
 )
 ;
 }

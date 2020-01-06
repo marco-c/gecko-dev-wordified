@@ -2561,6 +2561,8 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
+ServoComputedValuesBorrowed
+aStyle
 )
 ;
 /

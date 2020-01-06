@@ -2341,6 +2341,8 @@ RawServoStyleSetBorrowed
 set
 RawGeckoElementBorrowed
 element
+ServoComputedValuesBorrowed
+existing_style
 const
 mozilla
 :

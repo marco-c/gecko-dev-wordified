@@ -3572,6 +3572,12 @@ GetBaseComputedValuesForElement
 (
 aElement
 pseudoType
+result
+-
+>
+ComputedValues
+(
+)
 )
 ;
 return
@@ -3776,6 +3782,12 @@ GetBaseComputedValuesForElement
 (
 aElement
 pseudoType
+result
+-
+>
+ComputedValues
+(
+)
 )
 ;
 return
