@@ -2004,12 +2004,6 @@ aMallocSizeOf
 }
 private
 :
-friend
-class
-:
-:
-nsIFrame
-;
 /
 /
 Prevent
