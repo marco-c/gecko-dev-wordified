@@ -120,7 +120,7 @@ specification
 Copyright
 1996
 -
-2017
+2016
 by
 *
 /
@@ -6590,7 +6590,8 @@ PSAux_Service
 ;
 /
 *
-backward
+backwards
+-
 compatible
 type
 definition

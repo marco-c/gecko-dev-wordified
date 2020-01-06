@@ -122,7 +122,7 @@ only
 Copyright
 1996
 -
-2017
+2016
 by
 *
 /
@@ -2215,7 +2215,8 @@ PS_DesignMap
 ;
 /
 *
-backward
+backwards
+-
 compatible
 definition
 *
@@ -2361,7 +2362,8 @@ PS_Blend
 ;
 /
 *
-backward
+backwards
+-
 compatible
 definition
 *

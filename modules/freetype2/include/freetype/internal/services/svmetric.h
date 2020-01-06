@@ -112,8 +112,6 @@ specification
 *
 Copyright
 2016
--
-2017
 by
 *
 /
@@ -452,7 +450,7 @@ MVAR
 *
 /
 typedef
-void
+FT_Error
 (
 *
 FT_Metrics_Adjust_Func
@@ -460,6 +458,11 @@ FT_Metrics_Adjust_Func
 (
 FT_Face
 face
+FT_ULong
+tag
+FT_Int
+*
+avalue
 )
 ;
 FT_DEFINE_SERVICE
@@ -654,6 +657,7 @@ metrics_adjust_
 ;
 \
 }
+;
 #
 endif
 /

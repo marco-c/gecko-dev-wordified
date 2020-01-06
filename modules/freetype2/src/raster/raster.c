@@ -113,7 +113,7 @@ only
 Copyright
 1996
 -
-2017
+2016
 by
 *
 /
@@ -299,6 +299,13 @@ h
 #
 include
 "
+rastpic
+.
+c
+"
+#
+include
+"
 ftraster
 .
 c
@@ -307,13 +314,6 @@ c
 include
 "
 ftrend1
-.
-c
-"
-#
-include
-"
-rastpic
 .
 c
 "

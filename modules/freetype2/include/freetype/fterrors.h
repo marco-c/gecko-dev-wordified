@@ -111,7 +111,7 @@ specification
 Copyright
 1996
 -
-2017
+2016
 by
 *
 /
@@ -1210,7 +1210,7 @@ __FTERRORS_H__
 *
 work
 for
-backward
+backwards
 compatibility
 .
 *

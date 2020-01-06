@@ -113,7 +113,7 @@ specification
 Copyright
 1996
 -
-2017
+2016
 by
 *
 /
@@ -4632,7 +4632,7 @@ FT_Load_Char
 (
 face
 glyph_index
-FT_LOAD_DEFAULT
+FT_LOAD_DEFAUT
 )
 ;
 *

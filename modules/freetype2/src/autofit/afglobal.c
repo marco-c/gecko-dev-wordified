@@ -116,7 +116,7 @@ body
 Copyright
 2003
 -
-2017
+2016
 by
 *
 /
@@ -2266,6 +2266,13 @@ globals
 hb_font
 )
 ;
+globals
+-
+>
+hb_font
+=
+NULL
+;
 hb_buffer_destroy
 (
 globals
@@ -2273,6 +2280,13 @@ globals
 >
 hb_buf
 )
+;
+globals
+-
+>
+hb_buf
+=
+NULL
 ;
 #
 endif
