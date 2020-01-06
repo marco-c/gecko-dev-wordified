@@ -144,6 +144,13 @@ endif
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -303,6 +310,8 @@ public
 nsIThreadObserver
 public
 nsIObserver
+public
+nsINamed
 {
 public
 :
@@ -312,6 +321,7 @@ NS_DECL_NSITHREAD
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIOBSERVER
+NS_DECL_NSINAMED
 enum
 ShutdownMethod
 {

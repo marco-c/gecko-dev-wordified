@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -132,6 +139,8 @@ public
 nsITimerCallback
 public
 nsICaptivePortalCallback
+public
+nsINamed
 {
 public
 :
@@ -140,6 +149,7 @@ NS_DECL_NSICAPTIVEPORTALSERVICE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSICAPTIVEPORTALCALLBACK
+NS_DECL_NSINAMED
 CaptivePortalService
 (
 )

@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -321,6 +328,8 @@ public
 mozIAsyncFavicons
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -705,6 +714,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIFAVICONSERVICE
 NS_DECL_MOZIASYNCFAVICONS
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 private
 :
 imgITools

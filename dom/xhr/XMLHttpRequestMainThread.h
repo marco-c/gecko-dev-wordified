@@ -4194,6 +4194,8 @@ public
 nsIInterfaceRequestor
 public
 nsITimerCallback
+public
+nsINamed
 {
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
@@ -4269,6 +4271,12 @@ mXHR
 >
 )
 NS_FORWARD_NSITIMERCALLBACK
+(
+mXHR
+-
+>
+)
+NS_FORWARD_NSINAMED
 (
 mXHR
 -

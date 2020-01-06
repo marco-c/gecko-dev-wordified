@@ -65,6 +65,13 @@ MEDIAENGINEDEFAULT_H_
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -203,6 +210,8 @@ MediaEngineDefaultVideoSource
 :
 public
 nsITimerCallback
+public
+nsINamed
 #
 ifdef
 MOZ_WEBRTC
@@ -433,6 +442,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 protected
 :
 ~

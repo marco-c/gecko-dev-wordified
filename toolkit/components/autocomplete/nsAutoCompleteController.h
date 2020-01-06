@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -165,6 +172,8 @@ public
 nsITimerCallback
 public
 nsITreeView
+public
+nsINamed
 {
 public
 :
@@ -178,6 +187,7 @@ NS_DECL_NSIAUTOCOMPLETECONTROLLER
 NS_DECL_NSIAUTOCOMPLETEOBSERVER
 NS_DECL_NSITREEVIEW
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 nsAutoCompleteController
 (
 )

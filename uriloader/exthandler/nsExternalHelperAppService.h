@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -1325,6 +1332,8 @@ public
 nsITimerCallback
 public
 nsIBackgroundFileSaverObserver
+public
+nsINamed
 {
 public
 :
@@ -1335,6 +1344,7 @@ NS_DECL_NSIHELPERAPPLAUNCHER
 NS_DECL_NSICANCELABLE
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIBACKGROUNDFILESAVEROBSERVER
+NS_DECL_NSINAMED
 /
 *
 *

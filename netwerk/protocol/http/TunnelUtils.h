@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsISocketTransport
 .
 h
@@ -913,6 +920,8 @@ public
 nsAHttpSegmentWriter
 public
 nsITimerCallback
+public
+nsINamed
 {
 ~
 TLSFilterTransaction
@@ -926,6 +935,7 @@ NS_DECL_NSAHTTPTRANSACTION
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 TLSFilterTransaction
 (
 nsAHttpTransaction

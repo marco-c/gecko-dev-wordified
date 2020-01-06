@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -322,6 +329,8 @@ public
 nsIEditRules
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -472,6 +481,11 @@ DocumentModified
 )
 override
 ;
+/
+/
+nsINamed
+methods
+NS_DECL_NSINAMED
 protected
 :
 virtual
