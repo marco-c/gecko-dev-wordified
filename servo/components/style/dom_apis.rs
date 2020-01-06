@@ -89,6 +89,7 @@ dom
 :
 :
 {
+TDocument
 TElement
 TNode
 }
@@ -1945,9 +1946,6 @@ Q
 :
 :
 Output
-quirks_mode
-:
-QuirksMode
 )
 where
 E
@@ -1971,6 +1969,19 @@ invalidator
 :
 :
 TreeStyleInvalidator
+;
+let
+quirks_mode
+=
+root
+.
+owner_doc
+(
+)
+.
+quirks_mode
+(
+)
 ;
 let
 fast_result
