@@ -235,6 +235,9 @@ CDMProxy
 class
 MediaDecoderReader
 ;
+class
+TaskQueue
+;
 struct
 WaitForDataRejectValue
 {
