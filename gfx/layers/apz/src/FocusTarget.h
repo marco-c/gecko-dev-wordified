@@ -364,6 +364,14 @@ aRhs
 )
 const
 ;
+const
+char
+*
+Type
+(
+)
+const
+;
 public
 :
 /
