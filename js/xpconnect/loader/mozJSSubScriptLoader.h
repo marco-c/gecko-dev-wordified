@@ -254,6 +254,11 @@ JS
 :
 HandleObject
 targetObj
+JS
+:
+:
+HandleObject
+loadScope
 const
 nsAString
 &

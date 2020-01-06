@@ -1104,6 +1104,11 @@ javascript
 use_us_english_locale
 "
 "
+jsloader
+.
+shareGlobal
+"
+"
 layout
 .
 idle_period
