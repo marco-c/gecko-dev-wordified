@@ -179,7 +179,6 @@ glutin
 [
 feature
 (
-start
 core_intrinsics
 )
 ]
