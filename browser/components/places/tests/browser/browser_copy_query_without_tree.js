@@ -88,6 +88,11 @@ copy_toolbar_shortcut
 (
 )
 {
+await
+promisePlacesInitComplete
+(
+)
+;
 let
 library
 =
