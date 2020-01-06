@@ -129,25 +129,6 @@ official
 "
 )
         
-#
-TODO
-Bug
-1389420
-:
-Rename
-api
--
-15
-into
-api
--
-16
-after
-Firefox
-57
-made
-Beta
-        
 for
 d
 in
@@ -165,7 +146,7 @@ android
 -
 api
 -
-15
+16
 /
 "
                   
@@ -271,25 +252,6 @@ release
 "
 )
         
-#
-TODO
-Bug
-1389420
-:
-Rename
-api
--
-15
-into
-api
--
-16
-after
-Firefox
-57
-made
-Beta
-        
 for
 f
 in
@@ -307,7 +269,7 @@ android
 -
 api
 -
-15
+16
 /
 l10n
 -
