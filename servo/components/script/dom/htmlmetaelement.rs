@@ -255,6 +255,12 @@ Prefix
 }
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 servo_config
 :
 :
@@ -914,6 +920,11 @@ clone
 )
 url_data
 :
+RwLock
+:
+:
+new
+(
 window_from_node
 (
 self
@@ -921,6 +932,7 @@ self
 .
 get_url
 (
+)
 )
 namespaces
 :

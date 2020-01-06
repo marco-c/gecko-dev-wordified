@@ -6130,6 +6130,10 @@ update_from_str
 sheet
 input
 url_data
+.
+clone
+(
+)
 loader
 &
 RustLogReporter
