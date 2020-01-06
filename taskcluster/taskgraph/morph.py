@@ -2452,6 +2452,23 @@ templates
 [
 template
 ]
+                    
+#
+The
+following
+context
+differs
+from
+action
+tasks
+                    
+'
+attributes
+'
+:
+task
+.
+attributes
                 
 }
                 
@@ -2492,9 +2509,7 @@ load
 f
 )
                 
-task
-.
-task
+result
 =
 jsone
 .
@@ -2502,6 +2517,38 @@ render
 (
 template
 context
+)
+or
+{
+}
+                
+for
+attr
+in
+(
+'
+task
+'
+'
+attributes
+'
+)
+:
+                    
+if
+attr
+in
+result
+:
+                        
+setattr
+(
+task
+attr
+result
+[
+attr
+]
 )
         
 return
