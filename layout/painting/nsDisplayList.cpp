@@ -38967,7 +38967,15 @@ CanApplyOpacity
 const
 {
 return
-true
+!
+EffectCompositor
+:
+:
+HasAnimationsForCompositor
+(
+mFrame
+eCSSProperty_opacity
+)
 ;
 }
 /
