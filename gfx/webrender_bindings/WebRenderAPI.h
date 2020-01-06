@@ -364,6 +364,9 @@ Color
 aBgColor
 Epoch
 aEpoch
+mozilla
+:
+:
 LayerSize
 aViewportSize
 wr
@@ -784,6 +787,9 @@ void
 Begin
 (
 const
+mozilla
+:
+:
 LayerIntSize
 &
 aSize
