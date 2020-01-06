@@ -1366,6 +1366,17 @@ type_
 (
 type
 )
+endCycleType_
+(
+GENERAL
+)
+/
+/
+initialize
+to
+silence
+UBSan
+warning
 {
 }
 bool
