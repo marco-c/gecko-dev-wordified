@@ -282,13 +282,12 @@ bindings
 )
 ;
 }
-void
+size_t
 ObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -299,6 +298,9 @@ UpdateWrapper
 obj
 old
 )
+;
+return
+0
 ;
 }
 private

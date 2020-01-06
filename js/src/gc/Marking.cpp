@@ -21438,6 +21438,9 @@ extObjectMovedOp
 (
 )
 )
+tenuredSize
++
+=
 op
 (
 dst
@@ -21464,6 +21467,9 @@ extObjectMovedOp
 )
 )
 {
+tenuredSize
++
+=
 op
 (
 dst

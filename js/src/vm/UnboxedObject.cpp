@@ -8826,7 +8826,7 @@ MOZ_CRASH
 static
 *
 /
-void
+size_t
 UnboxedArrayObject
 :
 :
@@ -8835,7 +8835,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -8892,6 +8891,9 @@ dst
 setInlineElements
 (
 )
+;
+return
+0
 ;
 }
 /

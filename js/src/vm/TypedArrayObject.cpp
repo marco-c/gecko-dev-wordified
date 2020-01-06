@@ -1243,7 +1243,7 @@ elements
 static
 *
 /
-void
+size_t
 TypedArrayObject
 :
 :
@@ -1252,7 +1252,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -1313,6 +1312,7 @@ hasBuffer
 )
 )
 return
+0
 ;
 /
 /
@@ -1344,6 +1344,9 @@ newObj
 setInlineElements
 (
 )
+;
+return
+0
 ;
 }
 /

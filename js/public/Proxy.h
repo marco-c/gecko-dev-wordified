@@ -2781,13 +2781,12 @@ proxy
 const
 ;
 virtual
-void
+size_t
 objectMoved
 (
 JSObject
 *
 proxy
-const
 JSObject
 *
 old

@@ -957,13 +957,12 @@ true
 ;
 }
 static
-void
+size_t
 DelegateObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -975,6 +974,7 @@ if
 keyDelegate
 )
 return
+0
 ;
 /
 /
@@ -1001,6 +1001,9 @@ old
 keyDelegate
 =
 obj
+;
+return
+0
 ;
 }
 static

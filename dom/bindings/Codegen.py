@@ -13241,7 +13241,6 @@ obj
 Argument
 (
 '
-const
 JSObject
 *
 '
@@ -13260,7 +13259,7 @@ descriptor
 OBJECT_MOVED_HOOK_NAME
                                      
 '
-void
+size_t
 '
 args
 )
@@ -13280,6 +13279,10 @@ descriptor
 wrapperCache
         
 return
+CGList
+(
+[
+            
 CGIfWrapper
 (
 CGGeneric
@@ -13297,10 +13300,23 @@ old
 n
 "
 )
-                           
+                        
 "
 self
 "
+)
+            
+CGGeneric
+(
+"
+return
+0
+;
+\
+n
+"
+)
+]
 )
 .
 define

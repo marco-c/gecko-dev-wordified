@@ -891,13 +891,12 @@ const
 override
 ;
 virtual
-void
+size_t
 objectMoved
 (
 JSObject
 *
 proxy
-const
 JSObject
 *
 old
@@ -4977,7 +4976,7 @@ delete
 aux
 ;
 }
-void
+size_t
 CPOWProxyHandler
 :
 :
@@ -4986,7 +4985,6 @@ objectMoved
 JSObject
 *
 proxy
-const
 JSObject
 *
 old
@@ -5004,6 +5002,9 @@ updatePointer
 proxy
 old
 )
+;
+return
+0
 ;
 }
 bool

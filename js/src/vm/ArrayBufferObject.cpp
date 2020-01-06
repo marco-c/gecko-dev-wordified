@@ -8143,7 +8143,7 @@ inlineTypedMem
 static
 *
 /
-void
+size_t
 ArrayBufferObject
 :
 :
@@ -8152,7 +8152,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -8218,6 +8217,9 @@ inlineDataPointer
 )
 )
 )
+;
+return
+0
 ;
 }
 ArrayBufferViewObject

@@ -6692,13 +6692,12 @@ const
 override
 ;
 static
-void
+size_t
 ObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -9172,7 +9171,7 @@ id
 )
 ;
 }
-void
+size_t
 nsOuterWindowProxy
 :
 :
@@ -9211,6 +9210,9 @@ old
 )
 ;
 }
+return
+0
+;
 }
 const
 nsOuterWindowProxy

@@ -2190,7 +2190,7 @@ proxy
 const
 {
 }
-void
+size_t
 BaseProxyHandler
 :
 :
@@ -2199,13 +2199,15 @@ objectMoved
 JSObject
 *
 proxy
-const
 JSObject
 *
 old
 )
 const
 {
+return
+0
+;
 }
 JSObject
 *

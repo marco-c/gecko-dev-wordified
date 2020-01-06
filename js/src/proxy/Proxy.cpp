@@ -5155,13 +5155,12 @@ values
 ;
 }
 static
-void
+size_t
 proxy_ObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -5180,6 +5179,7 @@ ProxyObject
 )
 )
 ;
+return
 obj
 -
 >

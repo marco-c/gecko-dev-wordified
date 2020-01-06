@@ -291,13 +291,12 @@ globalObject
 ;
 }
 static
-void
+size_t
 SimpleGlobal_moved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -327,6 +326,9 @@ UpdateWrapper
 obj
 old
 )
+;
+return
+0
 ;
 }
 static
