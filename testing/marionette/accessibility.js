@@ -232,13 +232,9 @@ service
 =
 >
 {
-let
-service
-;
 try
 {
-service
-=
+return
 Cc
 [
 "
@@ -278,11 +274,8 @@ present
 "
 )
 ;
-}
-finally
-{
 return
-service
+undefined
 ;
 }
 }
