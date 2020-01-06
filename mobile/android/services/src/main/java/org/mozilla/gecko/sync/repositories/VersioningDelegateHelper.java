@@ -1309,8 +1309,6 @@ public
 void
 onFetchCompleted
 (
-long
-fetchEnd
 )
 {
 this
@@ -1319,7 +1317,6 @@ inner
 .
 onFetchCompleted
 (
-fetchEnd
 )
 ;
 }
@@ -1604,15 +1601,12 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 inner
 .
 onStoreCompleted
 (
-storeEnd
 )
 ;
 }

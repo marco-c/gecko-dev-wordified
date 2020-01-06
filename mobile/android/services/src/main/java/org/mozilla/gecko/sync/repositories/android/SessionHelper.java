@@ -2498,7 +2498,7 @@ else
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -3965,7 +3965,6 @@ delegate
 .
 onFetchCompleted
 (
-end
 )
 ;
 return
@@ -4067,11 +4066,17 @@ moveToNext
 )
 ;
 }
+session
+.
+setLastFetchTimestamp
+(
+end
+)
+;
 delegate
 .
 onFetchCompleted
 (
-end
 )
 ;
 /

@@ -189,9 +189,6 @@ header
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 ;
 /

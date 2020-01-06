@@ -99,8 +99,6 @@ synchronized
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 try

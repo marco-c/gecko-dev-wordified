@@ -172,8 +172,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 log
@@ -182,10 +180,7 @@ log
 Record
 store
 completed
-at
 "
-+
-storeEnd
 )
 ;
 }

@@ -3651,9 +3651,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 assertEquals

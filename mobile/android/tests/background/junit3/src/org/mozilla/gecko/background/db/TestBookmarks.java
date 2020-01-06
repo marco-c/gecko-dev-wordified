@@ -4870,8 +4870,6 @@ public
 void
 onFetchCompleted
 (
-long
-end
 )
 {
 finishAndNotify
@@ -4993,8 +4991,6 @@ public
 void
 onFetchCompleted
 (
-long
-end
 )
 {
 finishAndNotify
@@ -5149,9 +5145,6 @@ public
 void
 onStoreCompleted
 (
-final
-long
-storeEnd
 )
 {
 /

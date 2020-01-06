@@ -118,8 +118,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 performNotify
@@ -316,9 +314,6 @@ public
 void
 onStoreCompleted
 (
-final
-long
-storeEnd
 )
 {
 executor
@@ -341,7 +336,6 @@ self
 .
 onStoreCompleted
 (
-storeEnd
 )
 ;
 }

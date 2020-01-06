@@ -154,9 +154,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 super
@@ -169,7 +166,6 @@ records
 this
 .
 expect
-fetchEnd
 )
 ;
 }

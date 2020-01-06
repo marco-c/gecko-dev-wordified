@@ -185,8 +185,6 @@ guid
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 ;
 void

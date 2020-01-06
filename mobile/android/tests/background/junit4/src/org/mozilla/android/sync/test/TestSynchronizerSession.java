@@ -1730,6 +1730,7 @@ originalWbosA
 /
 /
 Timestamps
+not
 updated
 .
 SynchronizerConfiguration
@@ -1745,11 +1746,9 @@ save
 (
 )
 ;
-TestSynchronizer
-.
-assertInRangeInclusive
+assertEquals
 (
-before
+0L
 sc
 .
 localBundle
@@ -1757,14 +1756,11 @@ localBundle
 getTimestamp
 (
 )
-after
 )
 ;
-TestSynchronizer
-.
-assertInRangeInclusive
+assertEquals
 (
-before
+0L
 sc
 .
 remoteBundle
@@ -1772,7 +1768,6 @@ remoteBundle
 getTimestamp
 (
 )
-after
 )
 ;
 }

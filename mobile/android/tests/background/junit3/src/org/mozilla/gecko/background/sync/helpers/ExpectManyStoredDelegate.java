@@ -174,8 +174,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 try
