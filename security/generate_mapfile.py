@@ -162,6 +162,50 @@ replacement
 in
 Python
 .
+#
+#
+One
+difference
+between
+the
+NSS
+build
+system
+and
+Mozilla
+'
+s
+is
+that
+#
+Mozilla
+'
+s
+supports
+building
+on
+Linux
+for
+Windows
+using
+MinGW
+.
+MinGW
+#
+expects
+all
+lines
+containing
+;
++
+removed
+and
+all
+;
+-
+tokens
+removed
+.
 import
 buildconfig
 def
@@ -187,6 +231,31 @@ OS_ARCH
 '
 Darwin
 '
+    
+is_mingw
+=
+"
+WINNT
+"
+=
+=
+buildconfig
+.
+substs
+[
+'
+OS_ARCH
+'
+]
+and
+buildconfig
+.
+substs
+[
+'
+GCC_USE_GNU_LD
+'
+]
     
 with
 open
@@ -215,7 +284,11 @@ rstrip
 )
             
 #
-Remove
+On
+everything
+except
+MinGW
+remove
 all
 lines
 containing
@@ -225,6 +298,9 @@ containing
 '
             
 if
+not
+is_mingw
+and
 '
 ;
 -
@@ -292,6 +368,11 @@ string
 +
 '
             
+if
+not
+is_mingw
+:
+                
 line
 =
 line
@@ -374,6 +455,8 @@ i
                 
 if
 is_darwin
+or
+is_mingw
 :
                     
 line
