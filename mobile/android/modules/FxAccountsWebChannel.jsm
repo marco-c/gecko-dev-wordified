@@ -100,6 +100,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -2806,9 +2811,10 @@ this
 .
 EnsureFxAccountsWebChannel
 =
-function
 (
 )
+=
+>
 {
 if
 (

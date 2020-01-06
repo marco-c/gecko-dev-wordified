@@ -97,6 +97,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -6107,6 +6112,7 @@ null
 false
 ]
 ;
+var
 globalFilter
 =
 aFilter
@@ -6114,6 +6120,7 @@ aFilter
 0
 ]
 ;
+var
 manifestFilter
 =
 aFilter
@@ -6121,6 +6128,7 @@ aFilter
 1
 ]
 ;
+var
 invertManifest
 =
 aFilter
@@ -11118,8 +11126,6 @@ logger
 .
 suiteEnd
 (
-extra
-=
 {
 '
 results

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -3642,9 +3647,10 @@ this
 .
 EnsureFxAccountsWebChannel
 =
-function
 (
 )
+=
+>
 {
 let
 contentUri

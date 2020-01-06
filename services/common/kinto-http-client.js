@@ -120,6 +120,11 @@ License
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *

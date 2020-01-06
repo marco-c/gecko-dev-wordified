@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -2900,6 +2905,9 @@ return
 stmt
 ;
 }
+var
+dbMigrate
+;
 /
 *
 *
@@ -3320,11 +3328,13 @@ schemaVersion
 DB_SCHEMA_VERSION
 ;
 }
-function
 dbMigrate
+=
 (
 oldVersion
 )
+=
+>
 {
 log
 (
@@ -3628,6 +3638,7 @@ completed
 )
 ;
 }
+;
 /
 *
 *
