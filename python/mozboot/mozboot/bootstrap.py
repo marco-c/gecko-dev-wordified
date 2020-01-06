@@ -917,7 +917,9 @@ like
 to
 clone
 the
-canonical
+mozilla
+-
+unified
 Mercurial
 repository
 please
