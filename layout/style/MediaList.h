@@ -320,6 +320,13 @@ const
 nsAString
 &
 aMedia
+CallerType
+aCallerType
+=
+CallerType
+:
+:
+NonSystem
 )
 ;
 virtual

@@ -226,6 +226,8 @@ const
 nsAString
 &
 aMediaQueryList
+CallerType
+aCallerType
 )
 :
 mDocument
@@ -251,6 +253,7 @@ GetStyleBackendType
 (
 )
 aMediaQueryList
+aCallerType
 )
 ;
 KeepAliveIfHasListenersFor

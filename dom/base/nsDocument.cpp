@@ -41766,6 +41766,8 @@ const
 nsAString
 &
 aMediaQueryList
+CallerType
+aCallerType
 )
 {
 RefPtr
@@ -41779,6 +41781,7 @@ MediaQueryList
 (
 this
 aMediaQueryList
+aCallerType
 )
 ;
 mDOMMediaQueryLists

@@ -259,6 +259,14 @@ const
 nsAString
 &
 aMediaQueryList
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 private
