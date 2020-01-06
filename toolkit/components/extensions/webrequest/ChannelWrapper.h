@@ -397,6 +397,9 @@ const
 {
 return
 mChannel
+&
+&
+mChannel
 -
 >
 IsAlive
@@ -442,10 +445,7 @@ const
 if
 (
 !
-mChannel
--
->
-IsAlive
+HaveChannel
 (
 )
 )
@@ -505,10 +505,7 @@ get
 if
 (
 !
-mChannel
--
->
-IsAlive
+HaveChannel
 (
 )
 )
