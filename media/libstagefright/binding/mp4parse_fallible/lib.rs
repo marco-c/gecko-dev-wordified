@@ -559,6 +559,7 @@ capacity
 if
 old_cap
 >
+=
 new_cap
 {
 return
