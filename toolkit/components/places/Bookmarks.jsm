@@ -8372,6 +8372,9 @@ observers
 *
 *
 param
+{
+Array
+}
 observers
 *
 array
@@ -8381,6 +8384,9 @@ objects
 .
 *
 param
+{
+String
+}
 notification
 *
 the
@@ -8389,7 +8395,12 @@ name
 .
 *
 param
+{
+Array
+}
+[
 args
+]
 *
 array
 of
@@ -8402,7 +8413,12 @@ notification
 .
 *
 param
+{
+Object
+}
+[
 information
+]
 *
 Information
 about
@@ -8430,6 +8446,9 @@ notify
 observers
 notification
 args
+=
+[
+]
 information
 =
 {
