@@ -650,7 +650,7 @@ mask
 specifies
 use
 of
-SSL_AltHandshakeType
+SSL_AltServerHelloType
 on
 handshake
 enum
@@ -706,7 +706,7 @@ flags
 }
 static
 bool
-getTLSProviderFlagAltHandshake
+getTLSProviderFlagAltServerHello
 (
 uint32_t
 flags
@@ -14484,10 +14484,11 @@ versionFlags
 /
 enabling
 alternative
-handshake
+server
+hello
 if
 (
-getTLSProviderFlagAltHandshake
+getTLSProviderFlagAltServerHello
 (
 infoObject
 -
@@ -14514,7 +14515,7 @@ p
 nsSSLIOLayerSetOptions
 :
 Use
-AltHandshake
+AltServerHello
 \
 n
 "
@@ -14527,7 +14528,7 @@ if
 SECSuccess
 !
 =
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 fd
 PR_TRUE
@@ -14550,7 +14551,7 @@ p
 nsSSLIOLayerSetOptions
 :
 Use
-AltHandshake
+AltServerHello
 failed
 \
 n

@@ -20944,7 +20944,7 @@ ifndef
 SSL_DISABLE_EXPERIMENTAL_API
 EXP
 (
-UseAltHandshakeType
+UseAltServerHelloType
 )
 #
 endif
