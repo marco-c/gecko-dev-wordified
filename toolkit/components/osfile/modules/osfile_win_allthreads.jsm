@@ -169,14 +169,6 @@ require
 .
 *
 /
-/
-*
-eslint
--
-env
-node
-*
-/
 "
 use
 strict
