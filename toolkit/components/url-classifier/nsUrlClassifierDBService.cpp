@@ -8859,10 +8859,10 @@ CHECK_BLOCKED_PREF
 CHECK_BLOCKED_DEFAULT
 )
 ;
-nsAutoCString
+nsCString
 allTables
 ;
-nsAutoCString
+nsCString
 tables
 ;
 mBaseTables
@@ -8883,6 +8883,7 @@ Preferences
 GetCString
 (
 PHISH_TABLE_PREF
+&
 allTables
 )
 ;
@@ -8904,6 +8905,7 @@ Preferences
 GetCString
 (
 MALWARE_TABLE_PREF
+&
 tables
 )
 ;
@@ -8931,6 +8933,7 @@ Preferences
 GetCString
 (
 BLOCKED_TABLE_PREF
+&
 tables
 )
 ;
@@ -8958,6 +8961,7 @@ Preferences
 GetCString
 (
 DOWNLOAD_BLOCK_TABLE_PREF
+&
 tables
 )
 ;
@@ -8973,6 +8977,7 @@ Preferences
 GetCString
 (
 DOWNLOAD_ALLOW_TABLE_PREF
+&
 tables
 )
 ;
@@ -8988,6 +8993,7 @@ Preferences
 GetCString
 (
 TRACKING_TABLE_PREF
+&
 tables
 )
 ;
@@ -9009,6 +9015,7 @@ Preferences
 GetCString
 (
 TRACKING_WHITELIST_TABLE_PREF
+&
 tables
 )
 ;
@@ -9039,6 +9046,7 @@ Preferences
 GetCString
 (
 DISALLOW_COMPLETION_TABLE_PREF
+&
 tables
 )
 ;

@@ -74610,6 +74610,7 @@ urlclassifier
 .
 flashAllowTable
 "
+&
 allowTables
 )
 ;
@@ -74629,6 +74630,7 @@ urlclassifier
 .
 flashAllowExceptTable
 "
+&
 allowExceptionsTables
 )
 ;
@@ -74648,6 +74650,7 @@ urlclassifier
 .
 flashTable
 "
+&
 denyTables
 )
 ;
@@ -74667,6 +74670,7 @@ urlclassifier
 .
 flashExceptTable
 "
+&
 denyExceptionsTables
 )
 ;
@@ -74698,6 +74702,7 @@ urlclassifier
 .
 flashSubDocTable
 "
+&
 subDocDenyTables
 )
 ;
@@ -74717,6 +74722,7 @@ urlclassifier
 .
 flashSubDocExceptTable
 "
+&
 subDocDenyExceptionsTables
 )
 ;

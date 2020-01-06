@@ -515,6 +515,7 @@ Preferences
 GetCString
 (
 aName
+&
 prefValue
 )
 ;
@@ -716,6 +717,7 @@ Preferences
 GetCString
 (
 aName
+&
 prefValue
 )
 =

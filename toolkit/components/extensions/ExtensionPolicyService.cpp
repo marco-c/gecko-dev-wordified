@@ -1043,6 +1043,7 @@ security
 -
 policy
 "
+&
 aBaseCSP
 )
 ;
@@ -1098,6 +1099,7 @@ security
 -
 policy
 "
+&
 aDefaultCSP
 )
 ;

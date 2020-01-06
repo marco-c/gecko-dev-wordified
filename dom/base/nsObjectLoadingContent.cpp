@@ -22155,7 +22155,7 @@ return
 false
 ;
 }
-nsAutoCString
+nsCString
 prefString
 ;
 if
@@ -22168,6 +22168,7 @@ Preferences
 GetCString
 (
 kPrefFavorFallbackMode
+&
 prefString
 )
 )
@@ -22284,7 +22285,7 @@ nsCString
 >
 rulesList
 ;
-nsAutoCString
+nsCString
 prefString
 ;
 if
@@ -22297,6 +22298,7 @@ Preferences
 GetCString
 (
 kPrefFavorFallbackRules
+&
 prefString
 )
 )

@@ -9345,7 +9345,7 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoCString
+nsCString
 insecureFallbackHosts
 ;
 Preferences
@@ -9360,6 +9360,7 @@ tls
 .
 insecure_fallback_hosts
 "
+&
 insecureFallbackHosts
 )
 ;
@@ -9454,7 +9455,7 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoCString
+nsCString
 oldValue
 ;
 Preferences
@@ -9469,6 +9470,7 @@ tls
 .
 insecure_fallback_hosts
 "
+&
 oldValue
 )
 ;
@@ -10638,6 +10640,7 @@ security
 .
 default_personal_cert
 "
+&
 value
 )
 ;

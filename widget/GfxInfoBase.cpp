@@ -1387,6 +1387,7 @@ Preferences
 GetCString
 (
 SUGGESTED_VERSION_PREF
+&
 aVersion
 )
 )

@@ -1005,6 +1005,7 @@ IDN
 .
 blacklist_chars
 "
+&
 blacklist
 )
 ;

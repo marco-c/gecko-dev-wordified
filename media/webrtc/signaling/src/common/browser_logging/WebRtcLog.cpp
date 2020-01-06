@@ -390,10 +390,10 @@ uint32_t
 *
 aTraceMask
 nsACString
-&
+*
 aLogFile
 nsACString
-&
+*
 aAECLogDir
 bool
 *
@@ -1453,7 +1453,9 @@ GetWebRtcLogPrefs
 (
 &
 trace_mask
+&
 log_file
+&
 aec_log_dir
 &
 multi_log
@@ -1531,7 +1533,9 @@ GetWebRtcLogPrefs
 (
 &
 trace_mask
+&
 log_file
+&
 aec_log_dir
 &
 multi_log
@@ -1885,7 +1889,9 @@ GetWebRtcLogPrefs
 (
 &
 trace_mask
+&
 log_file
+&
 aec_log_dir
 &
 multi_log

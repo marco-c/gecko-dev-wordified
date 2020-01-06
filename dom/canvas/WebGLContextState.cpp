@@ -1482,6 +1482,7 @@ Preferences
 GetString
 (
 overridePref
+&
 ret
 )
 ;
