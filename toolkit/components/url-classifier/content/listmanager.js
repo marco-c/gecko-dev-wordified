@@ -3004,6 +3004,15 @@ substring
 p
 )
 ;
+if
+(
+tableName
+in
+streamerMap
+.
+tableNames
+)
+{
 let
 metadata
 =
@@ -3051,6 +3060,7 @@ tableName
 =
 stateBase64
 ;
+}
 }
 )
 ;
