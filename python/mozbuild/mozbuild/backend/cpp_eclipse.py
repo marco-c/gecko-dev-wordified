@@ -3695,15 +3695,6 @@ all
 binaryParser
 =
 "
-org
-.
-eclipse
-.
-cdt
-.
-core
-.
-ELF
 "
 id
 =
