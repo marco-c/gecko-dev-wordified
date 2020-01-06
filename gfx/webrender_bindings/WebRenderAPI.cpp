@@ -2631,6 +2631,12 @@ wr
 FontInstancePlatformOptions
 *
 aPlatformOptions
+wr
+:
+:
+Vec_u8
+&
+aVariations
 )
 {
 wr_resource_updates_add_font_instance
@@ -2641,6 +2647,10 @@ aFontKey
 aGlyphSize
 aOptions
 aPlatformOptions
+&
+aVariations
+.
+inner
 )
 ;
 }
