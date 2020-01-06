@@ -28044,7 +28044,7 @@ return
 ModuleObject
 :
 :
-DeclarationInstantiation
+Instantiate
 (
 cx
 moduleArg
@@ -28096,7 +28096,7 @@ return
 ModuleObject
 :
 :
-Evaluation
+Evaluate
 (
 cx
 moduleArg
