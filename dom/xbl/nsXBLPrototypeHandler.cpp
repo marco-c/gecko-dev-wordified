@@ -1018,14 +1018,14 @@ modifiers
 Modifiers
 modifiersMask
 =
-GetModifiers
+GetModifiersMask
 (
 )
 ;
 Modifiers
 modifiers
 =
-GetModifiersMask
+GetModifiers
 (
 )
 ;
