@@ -478,6 +478,9 @@ enum
 '
 WindowsTheme
 '
+int32_t
+mCaretBlinkTime
+;
 struct
 CachedSystemFont
 {
