@@ -61,9 +61,10 @@ api
 :
 :
 {
+FontInstance
+FontInstancePlatformOptions
 FontKey
 FontRenderMode
-GlyphDimensions
 }
 ;
 use
@@ -71,7 +72,7 @@ api
 :
 :
 {
-FontInstance
+GlyphDimensions
 GlyphKey
 GlyphOptions
 SubpixelDirection
@@ -297,7 +298,7 @@ options
 :
 Option
 <
-GlyphOptions
+FontInstancePlatformOptions
 >
 )
 -
@@ -311,7 +312,7 @@ if
 let
 Some
 (
-GlyphOptions
+FontInstancePlatformOptions
 {
 force_gdi_rendering
 :
@@ -386,7 +387,7 @@ options
 :
 Option
 <
-GlyphOptions
+FontInstancePlatformOptions
 >
 )
 -
@@ -400,7 +401,7 @@ if
 let
 Some
 (
-GlyphOptions
+FontInstancePlatformOptions
 {
 force_gdi_rendering
 :
@@ -1169,7 +1170,7 @@ font
 render_mode
 font
 .
-glyph_options
+platform_options
 )
 ;
 let
@@ -1191,7 +1192,7 @@ to_f32_px
 dwrite_measure_mode
 font
 .
-glyph_options
+platform_options
 )
 ;
 let
@@ -2142,7 +2143,7 @@ lut_correction
 match
 font
 .
-glyph_options
+platform_options
 {
 Some
 (
