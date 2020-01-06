@@ -205,7 +205,7 @@ nsIDOMNodeList
 *
 /
 class
-nsChildContentList
+nsAttrChildContentList
 final
 :
 public
@@ -214,7 +214,7 @@ nsINodeList
 public
 :
 explicit
-nsChildContentList
+nsAttrChildContentList
 (
 nsINode
 *
@@ -230,7 +230,7 @@ aNode
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
-nsChildContentList
+nsAttrChildContentList
 )
 /
 /
@@ -309,7 +309,7 @@ mNode
 private
 :
 ~
-nsChildContentList
+nsAttrChildContentList
 (
 )
 {
