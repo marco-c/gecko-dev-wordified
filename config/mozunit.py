@@ -954,6 +954,36 @@ to
 f
 .
     
+If
+the
+content
+of
+a
+file
+is
+given
+as
+None
+then
+that
+file
+will
+be
+    
+represented
+as
+not
+existing
+(
+even
+if
+it
+does
+actually
+exist
+)
+.
+    
 MockedOpen
 also
 masks
@@ -1133,18 +1163,41 @@ self
 files
 :
             
-file
+content
 =
-MockedFile
-(
-self
-absname
 self
 .
 files
 [
 absname
 ]
+            
+if
+content
+is
+None
+:
+                
+raise
+IOError
+(
+2
+'
+No
+such
+file
+or
+directory
+'
+)
+            
+file
+=
+MockedFile
+(
+self
+absname
+content
 )
         
 elif
@@ -1369,14 +1422,6 @@ _wrapped_isdir
 (
 p
 )
-or
-                
-self
-.
-_orig_path_exists
-(
-p
-)
 )
     
 def
@@ -1403,7 +1448,15 @@ files
 :
             
 return
-True
+self
+.
+files
+[
+p
+]
+is
+not
+None
         
 abspath
 =
@@ -1428,7 +1481,15 @@ files
 :
             
 return
-True
+self
+.
+files
+[
+abspath
+]
+is
+not
+None
         
 return
 self
@@ -1541,7 +1602,7 @@ True
 return
 self
 .
-_orig_path_exists
+_orig_path_isdir
 (
 p
 )
