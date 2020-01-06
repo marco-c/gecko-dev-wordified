@@ -6133,12 +6133,14 @@ handlerInfo
 )
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_SUCCEEDED
 (
 rv
-rv
 )
-;
+)
+{
 /
 /
 See
@@ -6194,6 +6196,7 @@ true
 return
 NS_OK
 ;
+}
 }
 /
 /
