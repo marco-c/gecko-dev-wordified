@@ -1125,6 +1125,13 @@ sync
 page
 form
 >
+#
+onboarding
+-
+tour
+-
+sync
+-
 button
 {
 padding
@@ -1202,6 +1209,10 @@ margin
 :
 15px
 0
+;
+float
+:
+none
 ;
 }
 /
@@ -1581,6 +1592,8 @@ onboarding
 tour
 -
 button
+-
+container
 {
 grid
 -
@@ -1634,6 +1647,8 @@ onboarding
 tour
 -
 button
+-
+container
 {
 display
 :
@@ -1665,8 +1680,8 @@ onboarding
 -
 tour
 -
-button
->
+action
+-
 button
 {
 padding
@@ -1760,8 +1775,8 @@ onboarding
 -
 tour
 -
-button
->
+action
+-
 button
 :
 active
@@ -2816,6 +2831,12 @@ width
 64px
 ;
 height
+:
+64px
+;
+background
+-
+size
 :
 64px
 ;
