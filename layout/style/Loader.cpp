@@ -2636,9 +2636,6 @@ SheetLoadData
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-aThread
 )
 {
 return

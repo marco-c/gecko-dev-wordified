@@ -2616,13 +2616,6 @@ LazyIdleThread
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-/
-*
-aThread
-*
-/
 )
 {
 MOZ_ASSERT

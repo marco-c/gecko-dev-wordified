@@ -1435,13 +1435,6 @@ Observer
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-/
-*
-aThread
-*
-/
 )
 {
 MOZ_CRASH

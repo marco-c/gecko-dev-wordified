@@ -4483,9 +4483,6 @@ nsSocketTransportService
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thread
 )
 {
 #

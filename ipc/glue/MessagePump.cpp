@@ -2400,9 +2400,6 @@ MessagePumpForNonMainUIThreads
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thread
 )
 {
 /

@@ -138426,13 +138426,6 @@ DEBUGThreadSlower
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-/
-*
-aThread
-*
-/
 )
 {
 MOZ_CRASH
