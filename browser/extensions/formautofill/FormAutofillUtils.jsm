@@ -1395,7 +1395,7 @@ using
 the
 country
 from
-profile
+address
 .
 *
 2
@@ -1418,7 +1418,7 @@ to
 identify
 values
 from
-profile
+address
 value
 and
 options
@@ -1440,7 +1440,7 @@ param
 {
 object
 }
-profile
+address
 *
 param
 {
@@ -1457,14 +1457,14 @@ DOMElement
 findSelectOption
 (
 selectEl
-profile
+address
 fieldName
 )
 {
 let
 value
 =
-profile
+address
 [
 fieldName
 ]
@@ -1536,7 +1536,7 @@ addressData
 data
 /
 {
-profile
+address
 .
 country
 }
@@ -1729,7 +1729,7 @@ cannot
 identify
 value
 from
-profile
+address
 if
 (
 identifiedValue

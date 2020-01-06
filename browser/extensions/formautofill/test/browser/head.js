@@ -1,8 +1,8 @@
 /
 *
 exported
-MANAGE_PROFILES_DIALOG_URL
-EDIT_PROFILE_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 BASE_URL
 TEST_ADDRESS_1
 TEST_ADDRESS_2
@@ -22,7 +22,7 @@ strict
 "
 ;
 const
-MANAGE_PROFILES_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
 =
 "
 chrome
@@ -33,13 +33,13 @@ formautofill
 /
 content
 /
-manageProfiles
+manageAddresses
 .
 xhtml
 "
 ;
 const
-EDIT_PROFILE_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 =
 "
 chrome
@@ -50,7 +50,7 @@ formautofill
 /
 content
 /
-editProfile
+editAddress
 .
 xhtml
 "

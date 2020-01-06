@@ -461,6 +461,15 @@ this
 _address
 )
 {
+document
+.
+title
+=
+"
+Edit
+Address
+"
+;
 this
 .
 loadInitialValues
