@@ -163,6 +163,14 @@ extern
 crate
 u2fhid
 ;
+extern
+crate
+log
+;
+extern
+crate
+syn
+;
 use
 std
 :
