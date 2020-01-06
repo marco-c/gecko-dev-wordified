@@ -177,6 +177,9 @@ in
 startedMillis
 :
 undefined
+endedMillis
+:
+undefined
 method
 :
 undefined
