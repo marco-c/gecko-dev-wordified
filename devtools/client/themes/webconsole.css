@@ -2726,6 +2726,14 @@ content
 color1
 )
 ;
+box
+-
+sizing
+:
+border
+-
+box
+;
 }
 .
 jsterm
