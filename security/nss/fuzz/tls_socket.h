@@ -97,6 +97,13 @@ len
 )
 {
 }
+virtual
+~
+DummyPrSocket
+(
+)
+{
+}
 int32_t
 Read
 (

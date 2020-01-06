@@ -175,6 +175,7 @@ nullptr
 )
 {
 }
+virtual
 ~
 AeadCipher
 (

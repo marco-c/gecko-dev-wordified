@@ -1105,17 +1105,6 @@ NULL
 CK_RV
 crv
 ;
-PORT_Assert
-(
-slot
--
->
-session
-!
-=
-CK_INVALID_SESSION
-)
-;
 if
 (
 slot

@@ -1856,9 +1856,6 @@ platform
 "
 mac
 "
-tier
-:
-3
 }
 )
 ;
