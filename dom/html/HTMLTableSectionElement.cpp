@@ -275,7 +275,7 @@ QueryInterface
 implementation
 for
 HTMLTableSectionElement
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 HTMLTableSectionElement
 )

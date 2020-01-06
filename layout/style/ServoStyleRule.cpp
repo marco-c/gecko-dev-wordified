@@ -747,7 +747,7 @@ QueryInterface
 implementation
 for
 ServoStyleRule
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServoStyleRule
 )
