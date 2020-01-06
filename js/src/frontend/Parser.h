@@ -4336,8 +4336,6 @@ nextTokenContinuesLetDeclaration
 (
 TokenKind
 next
-YieldHandling
-yieldHandling
 )
 ;
 Node
