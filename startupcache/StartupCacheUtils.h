@@ -296,7 +296,7 @@ would
 /
 typically
 call
-nsIStartupCache
+StartupCache
 :
 :
 PutBuffer
