@@ -595,6 +595,12 @@ dir
 rtl
 )
 {
+background
+-
+position
+:
+right
+;
 animation
 -
 name
@@ -624,7 +630,7 @@ margin
 -
 right
 :
-14px
+15px
 ;
 }
 100
@@ -634,7 +640,7 @@ margin
 -
 right
 :
-2px
+1px
 ;
 }
 }
@@ -648,7 +654,7 @@ margin
 -
 left
 :
-14px
+15px
 ;
 }
 100
@@ -658,7 +664,7 @@ margin
 -
 left
 :
-2px
+1px
 ;
 }
 }
