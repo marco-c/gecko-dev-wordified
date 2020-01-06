@@ -39,6 +39,9 @@ cork_state
 mod
 stream
 ;
+mod
+intern
+;
 use
 std
 :
@@ -110,6 +113,15 @@ stream
 :
 :
 Stream
+;
+use
+self
+:
+:
+intern
+:
+:
+Intern
 ;
 /
 /
