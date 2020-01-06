@@ -57,7 +57,9 @@ MPL
 *
 /
 var
+{
 FormHistory
+}
 =
 (
 Components
@@ -83,8 +85,6 @@ jsm
 }
 )
 )
-.
-FormHistory
 ;
 /
 *

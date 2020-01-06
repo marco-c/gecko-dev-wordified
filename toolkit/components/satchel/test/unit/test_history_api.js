@@ -231,6 +231,9 @@ SELECT
 timeDeleted
 FROM
 moz_deleted_formhistory
+"
++
+"
 WHERE
 guid
 =
@@ -1159,6 +1162,8 @@ and
 value
 are
 null
+/
+/
 because
 it
 treats
