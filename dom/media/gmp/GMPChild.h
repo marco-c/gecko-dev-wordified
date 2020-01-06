@@ -113,6 +113,15 @@ h
 #
 include
 "
+mozilla
+/
+Pair
+.
+h
+"
+#
+include
+"
 GMPTimerChild
 .
 h
@@ -424,7 +433,11 @@ aDecryptorId
 ;
 nsTArray
 <
+Pair
+<
 nsCString
+nsCString
+>
 >
 MakeCDMHostVerificationPaths
 (
