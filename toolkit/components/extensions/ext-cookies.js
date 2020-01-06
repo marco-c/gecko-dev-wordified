@@ -1570,7 +1570,7 @@ pathMatches
 (
 url
 .
-path
+pathname
 )
 )
 {
