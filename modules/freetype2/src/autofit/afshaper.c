@@ -298,6 +298,9 @@ include
 FT_FREETYPE_H
 #
 include
+FT_ADVANCES_H
+#
+include
 "
 afglobal
 .

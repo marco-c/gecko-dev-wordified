@@ -1724,6 +1724,17 @@ glyf
 bytecode
 "
 )
+FT_ERRORDEF_
+(
+Missing_Bitmap
+0x9D
+"
+missing
+bitmap
+in
+strike
+"
+)
 /
 *
 CFF

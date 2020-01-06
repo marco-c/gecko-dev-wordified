@@ -1738,6 +1738,7 @@ hinted
 *
 x_scale
 =
+ADD_INT32
 (
 decoder
 -
@@ -1748,7 +1749,6 @@ glyph
 -
 >
 x_scale
-+
 32
 )
 /
@@ -1757,6 +1757,7 @@ x_scale
 *
 y_scale
 =
+ADD_INT32
 (
 decoder
 -
@@ -1767,7 +1768,6 @@ glyph
 -
 >
 y_scale
-+
 32
 )
 /

@@ -1537,6 +1537,8 @@ i
 ;
 zoneHeight
 =
+SUB_INT32
+(
 blues
 -
 >
@@ -1549,7 +1551,6 @@ count
 ]
 .
 csTopEdge
--
 blues
 -
 >
@@ -1562,6 +1563,7 @@ count
 ]
 .
 csBottomEdge
+)
 ;
 if
 (
@@ -1874,6 +1876,8 @@ i
 ;
 zoneHeight
 =
+SUB_INT32
+(
 blues
 -
 >
@@ -1886,7 +1890,6 @@ count
 ]
 .
 csTopEdge
--
 blues
 -
 >
@@ -1899,6 +1902,7 @@ count
 ]
 .
 csBottomEdge
+)
 ;
 if
 (
@@ -2258,9 +2262,11 @@ diff
 =
 cf2_fixedAbs
 (
+SUB_INT32
+(
 flatEdge
--
 flatFamilyEdge
+)
 )
 ;
 if
@@ -2345,9 +2351,11 @@ diff
 =
 cf2_fixedAbs
 (
+SUB_INT32
+(
 flatEdge
--
 flatFamilyEdge
+)
 )
 ;
 if
@@ -2503,9 +2511,11 @@ diff
 =
 cf2_fixedAbs
 (
+SUB_INT32
+(
 flatEdge
--
 flatFamilyEdge
+)
 )
 ;
 if
@@ -2869,7 +2879,7 @@ blues
 >
 boost
 =
-cf2_floatToFixed
+cf2_doubleToFixed
 (
 .
 6
@@ -2877,7 +2887,7 @@ cf2_floatToFixed
 -
 FT_MulDiv
 (
-cf2_floatToFixed
+cf2_doubleToFixed
 (
 .
 6
@@ -3383,6 +3393,7 @@ bottomHintEdge
 {
 if
 (
+SUB_INT32
 (
 blues
 -
@@ -3393,7 +3404,6 @@ i
 ]
 .
 csBottomEdge
--
 csFuzz
 )
 <
@@ -3410,6 +3420,7 @@ bottomHintEdge
 csCoord
 <
 =
+ADD_INT32
 (
 blues
 -
@@ -3420,7 +3431,6 @@ i
 ]
 .
 csTopEdge
-+
 csFuzz
 )
 )
@@ -3457,6 +3467,7 @@ dsFlatEdge
 else
 if
 (
+SUB_INT32
 (
 blues
 -
@@ -3467,7 +3478,6 @@ i
 ]
 .
 csTopEdge
--
 bottomHintEdge
 -
 >
@@ -3542,12 +3552,14 @@ dsCoord
 }
 dsMove
 =
+SUB_INT32
+(
 dsNew
--
 bottomHintEdge
 -
 >
 dsCoord
+)
 ;
 captured
 =
@@ -3579,6 +3591,7 @@ topHintEdge
 {
 if
 (
+SUB_INT32
 (
 blues
 -
@@ -3589,7 +3602,6 @@ i
 ]
 .
 csBottomEdge
--
 csFuzz
 )
 <
@@ -3606,6 +3618,7 @@ topHintEdge
 csCoord
 <
 =
+ADD_INT32
 (
 blues
 -
@@ -3616,7 +3629,6 @@ i
 ]
 .
 csTopEdge
-+
 csFuzz
 )
 )
@@ -3653,12 +3665,12 @@ dsFlatEdge
 else
 if
 (
+SUB_INT32
 (
 topHintEdge
 -
 >
 csCoord
--
 blues
 -
 >
@@ -3738,12 +3750,14 @@ dsCoord
 }
 dsMove
 =
+SUB_INT32
+(
 dsNew
--
 topHintEdge
 -
 >
 dsCoord
+)
 ;
 captured
 =
@@ -3783,9 +3797,15 @@ bottomHintEdge
 -
 >
 dsCoord
-+
 =
+ADD_INT32
+(
+bottomHintEdge
+-
+>
+dsCoord
 dsMove
+)
 ;
 cf2_hint_lock
 (
@@ -3805,9 +3825,15 @@ topHintEdge
 -
 >
 dsCoord
-+
 =
+ADD_INT32
+(
+topHintEdge
+-
+>
+dsCoord
 dsMove
+)
 ;
 cf2_hint_lock
 (

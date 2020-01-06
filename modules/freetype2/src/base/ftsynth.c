@@ -1434,8 +1434,7 @@ FT_GlyphSlot_Embolden
 (
 )
 since
-freetype
--
+FreeType
 2
 .
 1

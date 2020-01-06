@@ -5375,7 +5375,7 @@ not
 suitable
 for
 the
-freetype
+FreeType
 API
 .
 *

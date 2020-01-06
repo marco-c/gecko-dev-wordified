@@ -2653,7 +2653,7 @@ seg
 first
 -
 >
-ox
+fx
 :
 seg
 -
@@ -2661,7 +2661,7 @@ seg
 first
 -
 >
-oy
+fy
 ;
 if
 (
@@ -2712,7 +2712,7 @@ edge
 blue_edge
 -
 >
-cur
+org
 ;
 else
 *

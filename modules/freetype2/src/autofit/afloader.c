@@ -3015,6 +3015,11 @@ x
 FT_PIX_ROUND
 (
 pp1x
++
+hints
+-
+>
+xmin_delta
 )
 ;
 loader
@@ -3027,6 +3032,11 @@ x
 FT_PIX_ROUND
 (
 pp2x
++
+hints
+-
+>
+xmax_delta
 )
 ;
 slot
@@ -3113,11 +3123,6 @@ x
 FT_PIX_ROUND
 (
 pp1x
-+
-hints
--
->
-xmin_delta
 )
 ;
 loader
@@ -3130,11 +3135,6 @@ x
 FT_PIX_ROUND
 (
 pp2x
-+
-hints
--
->
-xmax_delta
 )
 ;
 slot

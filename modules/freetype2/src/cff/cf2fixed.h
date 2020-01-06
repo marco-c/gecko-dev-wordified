@@ -772,7 +772,7 @@ x
 )
 #
 define
-cf2_floatToFixed
+cf2_doubleToFixed
 (
 f
 )
@@ -809,7 +809,7 @@ x
 <
 0
 ?
--
+NEG_INT32
 (
 x
 )

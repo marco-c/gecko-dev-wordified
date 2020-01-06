@@ -5932,8 +5932,10 @@ y
 yshift
 ;
 area
-+
 =
+ADD_LONG
+(
+area
 (
 v_cur
 .
@@ -5952,6 +5954,7 @@ x
 v_prev
 .
 x
+)
 )
 ;
 v_prev
