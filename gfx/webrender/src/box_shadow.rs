@@ -942,7 +942,6 @@ self
 .
 create_primitive
 (
-clip_and_scroll
 &
 brush_info
 Vec
@@ -1335,7 +1334,6 @@ self
 .
 create_primitive
 (
-clip_and_scroll
 &
 brush_info
 Vec
