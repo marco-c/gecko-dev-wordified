@@ -221,9 +221,6 @@ nsStringComparator
 class
 nsDefaultStringComparator
 ;
-class
-nsXPIDLString
-;
 /
 /
 Single
@@ -265,6 +262,9 @@ nsDefaultCStringComparator
 class
 nsXPIDLCString
 ;
+/
+/
+deprecated
 #
 endif
 /
