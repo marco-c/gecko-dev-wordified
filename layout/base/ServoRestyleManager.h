@@ -1115,8 +1115,8 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
-TraversalRestyleBehavior
-aRestyleBehavior
+ServoTraversalFlags
+aFlags
 )
 ;
 struct
@@ -1244,8 +1244,8 @@ aAttribute
 void
 DoProcessPendingRestyles
 (
-TraversalRestyleBehavior
-aRestyleBehavior
+ServoTraversalFlags
+aFlags
 )
 ;
 /
