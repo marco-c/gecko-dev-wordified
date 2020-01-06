@@ -87,6 +87,10 @@ extern
 crate
 rust_url_capi
 ;
+extern
+crate
+netwerk_helper
+;
 #
 [
 cfg
