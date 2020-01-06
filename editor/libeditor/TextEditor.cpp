@@ -7416,6 +7416,12 @@ outString
 &
 resultString
 ;
+ruleInfo
+.
+flags
+=
+aFlags
+;
 /
 /
 XXX
