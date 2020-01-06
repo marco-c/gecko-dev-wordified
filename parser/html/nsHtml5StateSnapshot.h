@@ -404,10 +404,6 @@ nsIContentHandle
 *
 headPointer
 ;
-nsIContentHandle
-*
-deepTreeSurrogateParent
-;
 int32_t
 mode
 ;
@@ -453,9 +449,6 @@ formPointer
 nsIContentHandle
 *
 headPointer
-nsIContentHandle
-*
-deepTreeSurrogateParent
 int32_t
 mode
 int32_t
@@ -506,12 +499,6 @@ getFormPointer
 nsIContentHandle
 *
 getHeadPointer
-(
-)
-;
-nsIContentHandle
-*
-getDeepTreeSurrogateParent
 (
 )
 ;
