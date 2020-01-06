@@ -10056,15 +10056,6 @@ return
 false
 ;
 }
-/
-/
-GetAnimationStorage
-in
-CompositorBridgeParent
-expects
-id
-as
-0
 CompositorAnimationStorage
 *
 storage
@@ -10074,7 +10065,6 @@ mCompositorBridge
 >
 GetAnimationStorage
 (
-0
 )
 ;
 /
