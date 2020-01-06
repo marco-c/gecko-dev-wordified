@@ -9318,7 +9318,7 @@ media
 .
 cubeb
 .
-log_level
+logging_level
 "
 "
 "
