@@ -1181,6 +1181,9 @@ mYSize
 aData
 .
 mCbCrSize
+aData
+.
+mYUVColorSpace
 )
 ;
 }
