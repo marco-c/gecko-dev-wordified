@@ -2936,15 +2936,6 @@ AfterPaintListener
 event
 )
 {
-dump
-(
-"
-AfterPaintListener
-\
-n
-"
-)
-;
 LogInfo
 (
 "
