@@ -4480,7 +4480,7 @@ flags
 if
 context
 .
-in_chrome_stylesheet
+chrome_rules_enabled
 (
 )
 |
