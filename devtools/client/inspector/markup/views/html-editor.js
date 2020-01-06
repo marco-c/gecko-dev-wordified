@@ -937,6 +937,14 @@ focus
 ;
 this
 .
+editor
+.
+clearHistory
+(
+)
+;
+this
+.
 emit
 (
 "
