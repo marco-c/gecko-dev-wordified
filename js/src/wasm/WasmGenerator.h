@@ -766,6 +766,9 @@ env_
 Tier
 tier_
 ;
+CompileMode
+mode_
+;
 LifoAlloc
 lifo_
 ;
@@ -859,6 +862,8 @@ ModuleEnvironment
 env
 Tier
 tier
+CompileMode
+mode
 size_t
 defaultChunkSize
 )
@@ -870,6 +875,10 @@ env
 tier_
 (
 tier
+)
+mode_
+(
+mode
 )
 lifo_
 (
@@ -949,6 +958,16 @@ const
 {
 return
 tier_
+;
+}
+CompileMode
+mode
+(
+)
+const
+{
+return
+mode_
 ;
 }
 bool
