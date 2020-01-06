@@ -2872,7 +2872,7 @@ override
 ;
 virtual
 void
-CreateWebRenderCommands
+CreateWebRenderCommand
 (
 mozilla
 :
@@ -3399,7 +3399,7 @@ void
 nsDisplayBullet
 :
 :
-CreateWebRenderCommands
+CreateWebRenderCommand
 (
 wr
 :

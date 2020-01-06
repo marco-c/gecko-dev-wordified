@@ -2039,15 +2039,6 @@ WebRenderParentCommand
 >
 &
 aParentCommands
-mozilla
-:
-:
-layers
-:
-:
-WebRenderDisplayItemLayer
-*
-aLayer
 const
 nsPoint
 &

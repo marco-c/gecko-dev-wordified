@@ -911,7 +911,7 @@ aContainerParameters
 override
 ;
 virtual
-void
+bool
 CreateWebRenderCommands
 (
 mozilla
@@ -939,9 +939,12 @@ mozilla
 layers
 :
 :
-WebRenderDisplayItemLayer
+WebRenderLayerManager
 *
-aLayer
+aManager
+nsDisplayListBuilder
+*
+aDisplayListBuilder
 )
 override
 ;
