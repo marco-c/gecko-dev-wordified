@@ -567,11 +567,7 @@ currentStyle
 mBaseStyleContext
 -
 >
-StyleSource
-(
-)
-.
-AsServoComputedValues
+ComputedValues
 (
 )
 ;

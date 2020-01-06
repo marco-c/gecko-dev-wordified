@@ -2979,11 +2979,7 @@ GetPseudo
 aContext
 -
 >
-StyleSource
-(
-)
-.
-IsServoComputedValues
+IsServo
 (
 )
 )
@@ -4794,11 +4790,7 @@ mStyleContext
 mStyleContext
 -
 >
-StyleSource
-(
-)
-.
-IsGeckoRuleNodeOrNull
+IsGecko
 (
 )
 )

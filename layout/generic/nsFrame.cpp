@@ -48507,11 +48507,7 @@ if
 mStyleContext
 -
 >
-StyleSource
-(
-)
-.
-IsGeckoRuleNodeOrNull
+IsGecko
 (
 )
 )
