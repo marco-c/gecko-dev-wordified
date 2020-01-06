@@ -494,15 +494,6 @@ nsINode
 aNodeToSelectContents
 )
 ;
-already_AddRefed
-<
-nsRange
->
-CreateRange
-(
-)
-const
-;
 private
 :
 bool
