@@ -1709,6 +1709,7 @@ window
 "
 toolbarbutton
 "
+true
 )
 ;
 let
