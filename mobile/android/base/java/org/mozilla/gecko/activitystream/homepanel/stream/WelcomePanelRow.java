@@ -168,7 +168,7 @@ R
 ;
 public
 class
-WelcomePanel
+WelcomePanelRow
 extends
 StreamViewHolder
 implements
@@ -216,7 +216,7 @@ Context
 context
 ;
 public
-WelcomePanel
+WelcomePanelRow
 (
 final
 View
@@ -459,7 +459,7 @@ edit
 .
 putBoolean
 (
-WelcomePanel
+WelcomePanelRow
 .
 PREF_WELCOME_DISMISSED
 true
