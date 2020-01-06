@@ -2918,6 +2918,7 @@ nsIAtom
 *
 aAttribute
 )
+const
 ;
 /
 *
@@ -2992,6 +2993,7 @@ aElement
 EventStates
 aState
 )
+const
 ;
 private
 :

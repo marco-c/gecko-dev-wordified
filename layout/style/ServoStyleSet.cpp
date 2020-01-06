@@ -7292,6 +7292,7 @@ nsIAtom
 *
 aAttribute
 )
+const
 {
 return
 Servo_StyleSet_MightHaveAttributeDependency
@@ -7320,6 +7321,7 @@ aElement
 EventStates
 aState
 )
+const
 {
 return
 Servo_StyleSet_HasStateDependency
