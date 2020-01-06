@@ -420,6 +420,13 @@ this
 _form
 .
 direction
+animationTimingFunction
+:
+this
+.
+_form
+.
+animationTimingFunction
 isRunningOnCompositor
 :
 this
