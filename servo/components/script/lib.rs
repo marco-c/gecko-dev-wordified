@@ -594,6 +594,13 @@ extern
 crate
 xml5ever
 ;
+#
+[
+macro_use
+]
+mod
+task
+;
 mod
 body
 ;

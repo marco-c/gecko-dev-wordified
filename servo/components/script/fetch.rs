@@ -877,13 +877,13 @@ global
 networking_task_source
 (
 )
-wrapper
+canceller
 :
 Some
 (
 global
 .
-get_runnable_wrapper
+task_canceller
 (
 )
 )
