@@ -784,6 +784,7 @@ AuthHeaderProvider
 .
 class
 )
+false
 )
 )
 ;

@@ -622,6 +622,16 @@ return
 false
 ;
 }
+public
+boolean
+getAbortOnStoreFailure
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *
