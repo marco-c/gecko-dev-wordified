@@ -3595,15 +3595,9 @@ onHidden
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

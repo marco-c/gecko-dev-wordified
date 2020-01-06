@@ -1750,15 +1750,9 @@ false
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

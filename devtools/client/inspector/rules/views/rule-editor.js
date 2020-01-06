@@ -2220,15 +2220,9 @@ full
 )
 ;
 }
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 .
 then

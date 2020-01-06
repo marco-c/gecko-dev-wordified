@@ -1357,15 +1357,9 @@ opened
 )
 ;
 }
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 inspector

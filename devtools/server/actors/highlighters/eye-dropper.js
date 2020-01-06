@@ -2819,15 +2819,9 @@ this
 hide
 (
 )
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

@@ -11065,17 +11065,9 @@ init
 .
 catch
 (
-(
-err
-)
-=
->
 console
 .
 error
-(
-err
-)
 )
 ;
 this

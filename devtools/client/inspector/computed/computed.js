@@ -3481,17 +3481,9 @@ schedule
 .
 catch
 (
-(
-err
-)
-=
->
 console
 .
 error
-(
-err
-)
 )
 ;
 }
