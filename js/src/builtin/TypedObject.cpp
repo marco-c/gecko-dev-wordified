@@ -14473,15 +14473,6 @@ TypedObject
 :
 obj_deleteProperty
 nullptr
-nullptr
-/
-*
-watch
-/
-unwatch
-*
-/
-nullptr
 /
 *
 getElements

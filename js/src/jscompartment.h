@@ -4011,9 +4011,6 @@ class
 ObjectWeakMap
 ;
 class
-WatchpointMap
-;
-class
 WeakMapBase
 ;
 }
@@ -4453,11 +4450,6 @@ warnedAboutForEach
 ;
 bool
 warnedAboutLegacyGenerator
-:
-1
-;
-bool
-warnedAboutObjectWatch
 :
 1
 ;
@@ -6694,11 +6686,6 @@ sweepVarNames
 )
 ;
 void
-sweepWatchpoints
-(
-)
-;
-void
 purge
 (
 )
@@ -7959,13 +7946,6 @@ fop
 ;
 public
 :
-js
-:
-:
-WatchpointMap
-*
-watchpointMap
-;
 js
 :
 :

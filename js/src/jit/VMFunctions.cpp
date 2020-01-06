@@ -10316,14 +10316,6 @@ shape
 writable
 (
 )
-|
-|
-nobj
--
->
-watched
-(
-)
 )
 {
 return
