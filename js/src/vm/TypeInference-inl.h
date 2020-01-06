@@ -4595,6 +4595,10 @@ TypeString
 (
 type
 )
+.
+get
+(
+)
 )
 ;
 types
@@ -4741,6 +4745,10 @@ TypeSet
 TypeString
 (
 type
+)
+.
+get
+(
 )
 )
 ;
