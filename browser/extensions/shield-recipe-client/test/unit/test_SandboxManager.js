@@ -46,8 +46,8 @@ sandbox
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -163,7 +163,7 @@ equal
 const
 sandboxResult
 =
-await
+yield
 new
 Promise
 (
@@ -329,7 +329,7 @@ sandbox
 "
 )
 ;
-await
+yield
 manager
 .
 evalInSandbox
@@ -390,8 +390,8 @@ cloning
 options
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -542,7 +542,7 @@ deepEqual
 deepEqual
 )
 ;
-await
+yield
 new
 Promise
 (

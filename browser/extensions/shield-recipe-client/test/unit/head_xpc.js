@@ -269,6 +269,12 @@ v2
 .
 2
 /
+/
+*
+exported
+sinon
+*
+/
 Cu
 .
 import
@@ -371,7 +377,8 @@ id
 }
 )
 ;
-const
+this
+.
 sinon
 =
 require

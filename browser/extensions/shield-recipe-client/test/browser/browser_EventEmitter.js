@@ -161,11 +161,12 @@ c
 "
 ;
 }
-add_task
+decorate_task
 (
 withSandboxManager
 (
 Assert
+)
 async
 function
 (
@@ -614,13 +615,13 @@ handlers
 ;
 }
 )
-)
 ;
-add_task
+decorate_task
 (
 withSandboxManager
 (
 Assert
+)
 async
 function
 sandboxedEmitter
@@ -827,6 +828,5 @@ sandbox
 )
 ;
 }
-)
 )
 ;
