@@ -2460,11 +2460,16 @@ GetLayersId
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 lts
 )
+{
+return
+nullptr
 ;
+}
 return
 lts
 -
