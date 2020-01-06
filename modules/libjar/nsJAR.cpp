@@ -2502,7 +2502,7 @@ manItem
 entryVerified
 )
 {
-nsXPIDLCString
+nsCString
 entryData
 ;
 rv
@@ -2529,6 +2529,10 @@ VerifyEntry
 (
 manItem
 entryData
+.
+get
+(
+)
 entryData
 .
 Length
@@ -3598,7 +3602,7 @@ one
 MF
 file
 }
-nsXPIDLCString
+nsCString
 manifestBuffer
 ;
 rv
@@ -3630,6 +3634,10 @@ rv
 ParseOneFile
 (
 manifestBuffer
+.
+get
+(
+)
 JAR_MF
 )
 ;
@@ -3841,7 +3849,7 @@ extension
 2
 )
 ;
-nsXPIDLCString
+nsCString
 sigBuffer
 ;
 {
@@ -4129,6 +4137,10 @@ return
 ParseOneFile
 (
 manifestBuffer
+.
+get
+(
+)
 JAR_SF
 )
 ;

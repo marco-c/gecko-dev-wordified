@@ -3448,7 +3448,7 @@ Debug
 )
 )
 {
-nsXPIDLCString
+nsCString
 reqname
 ;
 aRequest
