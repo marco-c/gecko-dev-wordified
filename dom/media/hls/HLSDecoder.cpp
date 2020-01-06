@@ -452,8 +452,10 @@ rv
 }
 mResource
 =
-new
+MakeUnique
+<
 HLSResource
+>
 (
 this
 aChannel
