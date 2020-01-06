@@ -5,8 +5,10 @@ Copyright
 c
 )
 2009
+-
+2017
 The
-Chromium
+OTS
 Authors
 .
 All
@@ -349,7 +351,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -362,7 +364,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -375,7 +377,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -388,7 +390,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 tag
@@ -1252,7 +1254,7 @@ and
 write
 out
 a
-sanitised
+sanitized
 version
 /
 /
