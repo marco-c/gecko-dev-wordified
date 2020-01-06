@@ -338,10 +338,10 @@ struct
 DiscardedData
 {
 uint32_t
-mDiscardedAccumulations
+mDiscardedHistogramAccumulations
 ;
 uint32_t
-mDiscardedKeyedAccumulations
+mDiscardedKeyedHistogramAccumulations
 ;
 uint32_t
 mDiscardedScalarActions

@@ -1171,7 +1171,7 @@ kHistogramAccumulationsArrayHighWaterMark
 {
 gDiscardedData
 .
-mDiscardedAccumulations
+mDiscardedHistogramAccumulations
 +
 +
 ;
@@ -1276,7 +1276,7 @@ kHistogramAccumulationsArrayHighWaterMark
 {
 gDiscardedData
 .
-mDiscardedKeyedAccumulations
+mDiscardedKeyedHistogramAccumulations
 +
 +
 ;
