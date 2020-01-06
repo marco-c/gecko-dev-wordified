@@ -67,7 +67,7 @@ device
 Device
 GpuMarker
 Program
-VAOId
+VAO
 TextureId
 VertexDescriptor
 }
@@ -393,7 +393,7 @@ font_program
 Program
 font_vao
 :
-VAOId
+VAO
 font_texture_id
 :
 TextureId
@@ -411,7 +411,7 @@ u32
 >
 tri_vao
 :
-VAOId
+VAO
 line_vertices
 :
 Vec
@@ -420,7 +420,7 @@ DebugColorVertex
 >
 line_vao
 :
-VAOId
+VAO
 color_program
 :
 Program
@@ -531,7 +531,7 @@ create_texture_ids
 TextureTarget
 :
 :
-Default
+Array
 )
 [
 0
@@ -562,6 +562,7 @@ RenderTargetMode
 :
 :
 None
+1
 Some
 (
 &
@@ -626,8 +627,6 @@ pub
 fn
 deinit
 (
-&
-mut
 self
 device
 :
@@ -640,8 +639,6 @@ device
 .
 delete_program
 (
-&
-mut
 self
 .
 font_program
@@ -651,11 +648,36 @@ device
 .
 delete_program
 (
-&
-mut
 self
 .
 color_program
+)
+;
+device
+.
+delete_vao
+(
+self
+.
+tri_vao
+)
+;
+device
+.
+delete_vao
+(
+self
+.
+line_vao
+)
+;
+device
+.
+delete_vao
+(
+self
+.
+font_vao
 )
 ;
 }
@@ -1545,6 +1567,7 @@ device
 .
 bind_vao
 (
+&
 self
 .
 tri_vao
@@ -1554,6 +1577,7 @@ device
 .
 update_vao_indices
 (
+&
 self
 .
 tri_vao
@@ -1571,6 +1595,7 @@ device
 .
 update_vao_main_vertices
 (
+&
 self
 .
 tri_vao
@@ -1640,6 +1665,7 @@ device
 .
 bind_vao
 (
+&
 self
 .
 line_vao
@@ -1649,6 +1675,7 @@ device
 .
 update_vao_main_vertices
 (
+&
 self
 .
 line_vao
@@ -1731,6 +1758,7 @@ device
 .
 bind_vao
 (
+&
 self
 .
 font_vao
@@ -1740,6 +1768,7 @@ device
 .
 update_vao_indices
 (
+&
 self
 .
 font_vao
@@ -1757,6 +1786,7 @@ device
 .
 update_vao_main_vertices
 (
+&
 self
 .
 font_vao

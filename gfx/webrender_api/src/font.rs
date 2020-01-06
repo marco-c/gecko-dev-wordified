@@ -1057,7 +1057,7 @@ PartialOrd
 ]
 pub
 struct
-FontInstanceKey
+FontInstance
 {
 pub
 font_key
@@ -1160,7 +1160,7 @@ subpx_dir
 SubpixelDirection
 }
 impl
-FontInstanceKey
+FontInstance
 {
 pub
 fn
@@ -1191,7 +1191,7 @@ SubpixelDirection
 )
 -
 >
-FontInstanceKey
+FontInstance
 {
 /
 /
@@ -1260,7 +1260,7 @@ new
 )
 ;
 }
-FontInstanceKey
+FontInstance
 {
 font_key
 size

@@ -201,7 +201,7 @@ api
 :
 :
 {
-FontInstanceKey
+FontInstance
 NativeFontHandle
 }
 ;
@@ -1648,7 +1648,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &
@@ -2078,7 +2078,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &

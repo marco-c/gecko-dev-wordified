@@ -257,6 +257,12 @@ Texture2DHandle
 gl
 TEXTURE_2D
 handle
+Texture2DArrayHandle
+/
+/
+gl
+TEXTURE_2D_ARRAY
+handle
 TextureRectHandle
 /
 /
@@ -736,6 +742,13 @@ ExternalImageType
 :
 :
 Texture2DHandle
+=
+>
+false
+ExternalImageType
+:
+:
+Texture2DArrayHandle
 =
 >
 false
