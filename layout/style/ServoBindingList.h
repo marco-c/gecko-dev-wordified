@@ -417,6 +417,16 @@ nsAString
 *
 result
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSheet_GetSourceURL
+void
+RawServoStyleSheetContentsBorrowed
+sheet
+nsAString
+*
+result
+)
 /
 /
 We
