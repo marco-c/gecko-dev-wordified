@@ -699,7 +699,7 @@ JS_GetObjectFunction
 js
 :
 :
-UncheckedUnwrap
+UncheckedUnwrapWithoutExpose
 (
 obj
 )
