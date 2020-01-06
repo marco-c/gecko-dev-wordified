@@ -5345,9 +5345,6 @@ FinishDecoderSetup
 MediaDecoder
 *
 aDecoder
-MediaResource
-*
-aStream
 nsIStreamListener
 *
 *
