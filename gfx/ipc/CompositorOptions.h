@@ -388,6 +388,14 @@ mUseWebRender
 aOther
 .
 mUseWebRender
+&
+&
+mUseAdvancedLayers
+=
+=
+aOther
+.
+mUseAdvancedLayers
 ;
 }
 friend
