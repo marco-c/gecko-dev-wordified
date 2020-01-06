@@ -381,13 +381,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLIFrameElement
 .
 h
