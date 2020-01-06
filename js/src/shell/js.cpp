@@ -27366,7 +27366,7 @@ if
 JS
 :
 :
-CanCompileOffThread
+CanDecodeOffThread
 (
 cx
 options
