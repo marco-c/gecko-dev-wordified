@@ -2563,7 +2563,7 @@ slots
 mChildNodes
 =
 new
-nsAttrChildContentList
+nsChildContentList
 (
 this
 )
