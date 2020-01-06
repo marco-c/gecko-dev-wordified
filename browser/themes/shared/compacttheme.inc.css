@@ -683,6 +683,9 @@ rect
 )
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 /
 *
 Override
@@ -859,6 +862,8 @@ backgroundcolor
 3C5283
 ;
 }
+%
+endif
 :
 root
 :
@@ -1126,6 +1131,9 @@ transparent
 )
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 /
 *
 Override
@@ -1250,9 +1258,6 @@ backgroundcolor
 d7d7d8
 ;
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 /
 *
 Give
