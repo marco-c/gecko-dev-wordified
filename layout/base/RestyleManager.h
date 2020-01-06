@@ -1643,12 +1643,12 @@ nsIFrame
 >
 mDestroyedFrames
 ;
+protected
+:
 const
 StyleBackendType
 mType
 ;
-protected
-:
 /
 /
 True
