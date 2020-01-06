@@ -162,7 +162,7 @@ const
 HangMonitor
 :
 :
-HangAnnotations
+HangAnnotationsPtr
 &
 aAnnotations
 nsAString
@@ -211,9 +211,7 @@ aHangIndex
 HangMonitor
 :
 :
-HangAnnotations
-&
-&
+HangAnnotationsPtr
 aAnnotations
 )
 :
@@ -335,7 +333,7 @@ mHangIndices
 HangMonitor
 :
 :
-HangAnnotations
+HangAnnotationsPtr
 mAnnotations
 ;
 private
@@ -405,9 +403,7 @@ aFirefoxUptime
 HangMonitor
 :
 :
-HangAnnotations
-&
-&
+HangAnnotationsPtr
 aAnnotations
 )
 ;

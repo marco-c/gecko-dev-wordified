@@ -1275,7 +1275,10 @@ firefoxUptime
 -
 1
 ;
+UniquePtr
+<
 HangAnnotations
+>
 annotations
 ;
 #
