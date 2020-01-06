@@ -21390,6 +21390,10 @@ newSession
 this
 .
 capabilities
+.
+toJSON
+(
+)
 )
 ;
 this
