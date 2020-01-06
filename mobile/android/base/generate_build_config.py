@@ -311,6 +311,10 @@ MOZ_ANDROID_MMA
 '
                 
 '
+MOZ_ANDROID_MOZILLA_ONLINE
+'
+                
+'
 MOZ_LEANPLUM_SDK_KEY
 '
                 
