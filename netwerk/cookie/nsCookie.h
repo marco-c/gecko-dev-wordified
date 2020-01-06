@@ -424,6 +424,8 @@ const
 OriginAttributes
 &
 aOriginAttributes
+int32_t
+aSameSite
 )
 :
 mName
@@ -473,6 +475,10 @@ aIsHttpOnly
 mOriginAttributes
 (
 aOriginAttributes
+)
+mSameSite
+(
+aSameSite
 )
 {
 }
@@ -622,6 +628,8 @@ const
 OriginAttributes
 &
 aOriginAttributes
+int32_t
+aSameSite
 )
 ;
 size_t
@@ -849,6 +857,17 @@ return
 mOriginAttributes
 ;
 }
+inline
+int32_t
+SameSite
+(
+)
+const
+{
+return
+mSameSite
+;
+}
 /
 /
 setters
@@ -1056,6 +1075,9 @@ mozilla
 :
 OriginAttributes
 mOriginAttributes
+;
+int32_t
+mSameSite
 ;
 }
 ;
