@@ -350,10 +350,14 @@ define
 nscoord_MAX
 nscoord
 (
+(
 1
 <
 <
 30
+)
+-
+1
 )
 #
 endif
