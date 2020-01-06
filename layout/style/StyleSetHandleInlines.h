@@ -1655,7 +1655,12 @@ IsGecko
 )
 )
 {
-RootStyleContextAdded
+AsGecko
+(
+)
+-
+>
+RootStyleContextRemoved
 (
 )
 ;
