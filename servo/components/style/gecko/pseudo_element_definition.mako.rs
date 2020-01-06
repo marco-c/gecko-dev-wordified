@@ -452,6 +452,7 @@ box
 [
 inline
 ]
+pub
 fn
 is_anon_box
 (
