@@ -2589,6 +2589,16 @@ settings
 .
 send_hsts_priming
 ]
+[
+"
+toolkit
+.
+telemetry
+.
+enabled
+"
+true
+]
 ]
 ;
 if

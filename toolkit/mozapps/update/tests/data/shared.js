@@ -392,6 +392,17 @@ version
 "
 ;
 const
+PREF_TOOLKIT_TELEMETRY_ENABLED
+=
+"
+toolkit
+.
+telemetry
+.
+enabled
+"
+;
+const
 NS_APP_PROFILE_DIR_STARTUP
 =
 "
