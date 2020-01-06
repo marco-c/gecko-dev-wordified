@@ -186,6 +186,13 @@ node
 -
 menu
 -
+copyxpath
+"
+"
+node
+-
+menu
+-
 copyimagedatauri
 "
 "
