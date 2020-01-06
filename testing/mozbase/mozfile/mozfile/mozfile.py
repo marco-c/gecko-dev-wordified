@@ -87,6 +87,7 @@ from
 __future__
 import
 absolute_import
+print_function
 from
 contextlib
 import
@@ -273,6 +274,7 @@ Exception
 :
             
 print
+(
 "
 src
 :
@@ -281,6 +283,7 @@ s
 "
 %
 src
+)
             
 raise
     
@@ -1055,6 +1058,7 @@ retry_count
 1
             
 print
+(
 '
 %
 s
@@ -1082,8 +1086,7 @@ Retrying
 .
 '
 %
-\
-                
+                  
 (
 func
 .
@@ -1095,6 +1098,7 @@ strerror
 e
 .
 errno
+)
 )
             
 time

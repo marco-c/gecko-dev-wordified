@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 time
 from
@@ -71,6 +75,8 @@ ImportError
 blessings
 =
 None
+from
+.
 import
 base
 from

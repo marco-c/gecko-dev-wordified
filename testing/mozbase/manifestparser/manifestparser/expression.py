@@ -53,12 +53,21 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 re
 import
 sys
 import
 traceback
+from
+six
+import
+reraise
 __all__
 =
 [
@@ -2044,7 +2053,8 @@ ex
 )
 )
             
-raise
+reraise
+(
 ParseError
 (
 "
@@ -2052,9 +2062,6 @@ could
 not
 parse
 :
-"
-                             
-"
 %
 s
 \
@@ -2067,13 +2074,12 @@ svariables
 s
 "
 %
+                    
 (
 self
 .
 text
-                                                                 
 formatted
-                                                                 
 self
 .
 valuemapping
@@ -2081,6 +2087,7 @@ valuemapping
 )
 None
 tb
+)
     
 __call__
 =

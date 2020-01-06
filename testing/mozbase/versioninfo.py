@@ -80,6 +80,11 @@ messages
 "
 "
 from
+__future__
+import
+absolute_import
+print_function
+from
 collections
 import
 Iterable
@@ -658,6 +663,7 @@ changelog
 )
     
 print
+(
 '
 \
 n
@@ -666,6 +672,7 @@ n
 join
 (
 changelog
+)
 )
 def
 dependencies
@@ -771,6 +778,7 @@ values
 :
         
 print
+(
 '
 %
 s
@@ -809,6 +817,7 @@ Name
 '
 ]
 ]
+)
 )
 )
 def

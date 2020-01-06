@@ -53,9 +53,14 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 json
 from
+.
 base
 import
 BaseFormatter

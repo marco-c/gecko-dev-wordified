@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 glob
 import
@@ -668,6 +673,7 @@ frame
 "
             
 print
+(
 "
 PROCESS
 -
@@ -689,8 +695,10 @@ test_name
                                                                      
 signature
 )
+)
             
 print
+(
 '
 \
 n
@@ -700,8 +708,10 @@ join
 (
 stackwalk_output
 )
+)
             
 print
+(
 '
 \
 n
@@ -712,6 +722,7 @@ join
 info
 .
 stackwalk_errors
+)
 )
     
 return
@@ -2940,6 +2951,7 @@ quiet
 :
                     
 print
+(
 "
 PROCESS
 -
@@ -2964,11 +2976,13 @@ exception_type
                                                                          
 exception_location
 )
+)
             
 else
 :
                 
 print
+(
 "
 Automation
 Error
@@ -2980,8 +2994,7 @@ logcat
 at
 line
 "
-\
-                    
+                      
 "
 %
 d
@@ -3000,6 +3013,7 @@ len
 logcat
 )
 line
+)
 )
             
 break

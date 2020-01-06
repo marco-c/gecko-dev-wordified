@@ -73,6 +73,11 @@ parser
 "
 "
 from
+__future__
+import
+absolute_import
+print_function
+from
 optparse
 import
 OptionParser
@@ -488,6 +493,7 @@ args
         
 except
 ParserError
+as
 e
 :
             
@@ -876,7 +882,9 @@ manifest
 :
             
 print
+(
 manifest
+)
 class
 WriteCLI
 (
@@ -960,6 +968,7 @@ args
         
 except
 ParserError
+as
 e
 :
             
@@ -1152,11 +1161,13 @@ print_help
 )
             
 print
+(
 '
 \
 nCommands
 :
 '
+)
             
 for
 command
@@ -1168,6 +1179,7 @@ commands
 :
                 
 print
+(
 '
 %
 s
@@ -1187,6 +1199,7 @@ __doc__
 .
 strip
 (
+)
 )
 )
 class
@@ -1274,6 +1287,7 @@ args
         
 except
 ParserError
+as
 e
 :
             

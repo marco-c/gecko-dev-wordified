@@ -72,6 +72,11 @@ mozrunner
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 mozinfo
 import
@@ -507,9 +512,11 @@ argv
 :
         
 print
+(
 findInPath
 (
 i
+)
 )
 def
 _find_marionette_in_args
