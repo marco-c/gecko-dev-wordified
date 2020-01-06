@@ -260,13 +260,6 @@ typedef
 wr
 :
 :
-WrFontInstanceOptions
-FontInstanceOptions
-;
-typedef
-wr
-:
-:
 WrEpoch
 Epoch
 ;
