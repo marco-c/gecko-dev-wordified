@@ -463,12 +463,6 @@ nsIAsyncInputStream
 >
 mAsyncStream
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-mBufferedStream
-;
 uint64_t
 mStreamOffset
 ;
