@@ -149,9 +149,6 @@ embed
 <
 object
 >
-<
-applet
->
 etc
 )
 .
@@ -1618,13 +1615,10 @@ it
 is
 a
 <
-applet
->
-*
-<
 object
 >
 or
+*
 <
 embed
 >

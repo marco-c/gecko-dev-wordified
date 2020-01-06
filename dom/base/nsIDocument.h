@@ -18685,7 +18685,6 @@ of
 all
 object
 embed
-applet
 video
 /
 audio
@@ -18701,9 +18700,9 @@ which
 this
 is
 the
-/
-/
 owner
+/
+/
 document
 .
 (
@@ -18716,6 +18715,8 @@ the
 document
 .
 )
+/
+/
 /
 /
 These

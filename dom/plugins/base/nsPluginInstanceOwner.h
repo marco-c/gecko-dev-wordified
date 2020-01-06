@@ -444,9 +444,8 @@ supported
 tags
 are
 EMBED
+or
 OBJECT
-and
-APPLET
 .
 *
 /

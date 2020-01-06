@@ -1437,10 +1437,6 @@ object
 nsGkAtoms
 :
 :
-applet
-nsGkAtoms
-:
-:
 select
 nsGkAtoms
 :

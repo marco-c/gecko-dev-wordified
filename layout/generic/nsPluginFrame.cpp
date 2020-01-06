@@ -2209,12 +2209,8 @@ if
 mContent
 -
 >
-IsAnyOfHTMLElements
+IsHTMLElement
 (
-nsGkAtoms
-:
-:
-applet
 nsGkAtoms
 :
 :
@@ -2567,8 +2563,6 @@ ComputedHeight
 /
 for
 EMBED
-and
-APPLET
 default
 to
 240x200
@@ -2579,12 +2573,8 @@ if
 mContent
 -
 >
-IsAnyOfHTMLElements
+IsHTMLElement
 (
-nsGkAtoms
-:
-:
-applet
 nsGkAtoms
 :
 :

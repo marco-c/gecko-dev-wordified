@@ -1822,7 +1822,7 @@ mImages
 ;
 RefPtr
 <
-nsContentList
+nsEmptyContentList
 >
 mApplets
 ;

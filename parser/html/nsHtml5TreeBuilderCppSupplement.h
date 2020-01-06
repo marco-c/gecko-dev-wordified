@@ -5659,15 +5659,6 @@ aName
 nsGkAtoms
 :
 :
-applet
-|
-|
-aName
-=
-=
-nsGkAtoms
-:
-:
 select
 |
 |

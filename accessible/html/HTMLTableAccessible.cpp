@@ -7773,17 +7773,6 @@ HasDescendant
 NS_LITERAL_STRING
 (
 "
-applet
-"
-)
-)
-|
-|
-HasDescendant
-(
-NS_LITERAL_STRING
-(
-"
 iframe
 "
 )
@@ -7801,7 +7790,6 @@ and
 has
 iframe
 object
-applet
 or
 iframe
 typical

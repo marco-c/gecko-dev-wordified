@@ -2945,9 +2945,8 @@ i
 e
 .
 object
-embed
 or
-applet
+embed
 )
 .
 bool
@@ -2974,15 +2973,6 @@ nsGkAtoms
 :
 :
 embed
-)
-|
-|
-IsHTMLElement
-(
-nsGkAtoms
-:
-:
-applet
 )
 )
 ;

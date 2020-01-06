@@ -973,12 +973,9 @@ HTML
 <
 object
 >
-<
-embed
->
 or
 <
-applet
+embed
 >
 (
 a

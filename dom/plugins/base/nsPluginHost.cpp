@@ -4415,12 +4415,6 @@ nsPluginTagType_Embed
 tagType
 !
 =
-nsPluginTagType_Applet
-&
-&
-tagType
-!
-=
 nsPluginTagType_Object
 )
 {

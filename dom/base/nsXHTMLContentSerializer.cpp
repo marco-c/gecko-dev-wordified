@@ -1796,8 +1796,6 @@ nice
 to
 handle
 OBJECT
-and
-APPLET
 tags
 /
 /

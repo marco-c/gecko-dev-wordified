@@ -7051,11 +7051,6 @@ object
 '
 embed
 '
-'
-applet
-'
-/
-/
 or
 '
 iframe

@@ -9805,10 +9805,6 @@ IsAnyOfHTMLElements
 nsGkAtoms
 :
 :
-applet
-nsGkAtoms
-:
-:
 embed
 nsGkAtoms
 :
