@@ -235,8 +235,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aForceUpdate
 uint32_t
 aGenerationId
 wr
@@ -263,8 +261,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aForceUpdate
 wr
 :
 :

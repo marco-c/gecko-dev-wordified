@@ -511,7 +511,7 @@ IpcResourceUpdateQueue
 &
 aResources
 bool
-aForceUpdate
+aFallback
 )
 {
 MOZ_ASSERT
@@ -538,6 +538,12 @@ wr
 WrImageKey
 key
 ;
+if
+(
+!
+aFallback
+)
+{
 nsresult
 rv
 =
@@ -549,7 +555,6 @@ Share
 aContainer
 mWRManager
 aResources
-aForceUpdate
 key
 )
 ;
@@ -647,6 +652,7 @@ Nothing
 (
 )
 ;
+}
 }
 CreateImageClientIfNeeded
 (
@@ -763,7 +769,7 @@ updated
 if
 (
 !
-aForceUpdate
+aFallback
 &
 &
 oldCounter
