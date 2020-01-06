@@ -224,15 +224,6 @@ assert
 expr
 )
 )
-#
-define
-NS_RUNTIMEABORT
-(
-msg
-)
-__coverity_panic__
-(
-)
 /
 /
 Kills

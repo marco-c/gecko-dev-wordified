@@ -428,7 +428,7 @@ h
 /
 /
 for
-NS_RUNTIMEABORT
+NS_WARNING
 #
 include
 "

@@ -659,7 +659,6 @@ h
 /
 for
 NS_WARNING
-NS_RUNTIMEABORT
 etc
 #
 include
