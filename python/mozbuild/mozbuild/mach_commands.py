@@ -2743,16 +2743,8 @@ self
 .
 log_manager
 .
-register_structured_logger
+enable_all_structured_loggers
 (
-logging
-.
-getLogger
-(
-'
-mozbuild
-'
-)
 )
         
 warnings_path
@@ -5076,6 +5068,14 @@ line_handler
 None
 )
 :
+        
+self
+.
+log_manager
+.
+enable_all_structured_loggers
+(
+)
         
 def
 on_line
@@ -18058,6 +18058,14 @@ _set_log_level
 verbose
 )
         
+self
+.
+log_manager
+.
+enable_all_structured_loggers
+(
+)
+        
 rc
 =
 self
@@ -18309,22 +18317,6 @@ append
 -
 fix
 '
-)
-        
-self
-.
-log_manager
-.
-register_structured_logger
-(
-logging
-.
-getLogger
-(
-'
-mozbuild
-'
-)
 )
         
 compile_db
