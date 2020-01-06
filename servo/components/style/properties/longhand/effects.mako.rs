@@ -350,15 +350,6 @@ property
 "
 )
 }
-/
-/
-FIXME
-:
-This
-prop
-should
-be
-animatable
 <
 %
 helpers
@@ -372,7 +363,7 @@ filter
 animation_value_type
 =
 "
-none
+IntermediateFilters
 "
 extra_prefixes
 =
