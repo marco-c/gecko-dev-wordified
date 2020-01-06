@@ -36717,6 +36717,10 @@ WM_DESTROY
 clean
 up
 .
+DestroyLayerManager
+(
+)
+;
 OnDestroy
 (
 )
