@@ -2431,8 +2431,8 @@ Init
 char
 aLocal
 ;
-GeckoProfilerInitRAII
-profiler
+AutoProfilerInit
+profilerInit
 (
 &
 aLocal
@@ -4504,8 +4504,8 @@ Init
 char
 aLocal
 ;
-GeckoProfilerInitRAII
-profiler
+AutoProfilerInit
+profilerInit
 (
 &
 aLocal

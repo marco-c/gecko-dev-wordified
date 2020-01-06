@@ -26546,8 +26546,8 @@ endif
 char
 aLocal
 ;
-GeckoProfilerInitRAII
-profilerGuard
+AutoProfilerInit
+profilerInit
 (
 &
 aLocal

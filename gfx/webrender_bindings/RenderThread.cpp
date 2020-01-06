@@ -901,8 +901,8 @@ WindowId
 aWindowId
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

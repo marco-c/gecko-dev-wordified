@@ -281,7 +281,7 @@ profiler_shutdown
 (
 )
 and
-GeckoProfilerInitRAII
+AutoProfilerInit
 /
 /
 (
@@ -2157,7 +2157,7 @@ TRACING_EVENT
 )
 ;
 {
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 tracing
 (
 "
@@ -3469,8 +3469,8 @@ defined
 (
 MOZ_GECKO_PROFILER
 )
-ProfilerStackFrameRAII
-raii1
+AutoProfilerLabel
+label1
 (
 "
 A
@@ -3489,8 +3489,8 @@ Category
 STORAGE
 )
 ;
-ProfilerStackFrameRAII
-raii2
+AutoProfilerLabel
+label2
 (
 "
 A

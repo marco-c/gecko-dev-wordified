@@ -442,8 +442,8 @@ profiler
 mozilla
 :
 :
-ProfilerStackFrameRAII
-mProfilerRAII
+AutoProfilerLabel
+mAutoProfilerLabel
 ;
 #
 endif

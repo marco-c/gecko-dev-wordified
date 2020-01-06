@@ -1889,9 +1889,9 @@ START
 }
 Maybe
 <
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 >
-profilerRAII
+tracing
 ;
 if
 (
@@ -1904,7 +1904,7 @@ Restyle
 )
 )
 {
-profilerRAII
+tracing
 .
 emplace
 (
@@ -2693,9 +2693,9 @@ LOG_RESTYLE_INDENT
 ;
 Maybe
 <
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 >
-profilerRAII
+tracing
 ;
 if
 (
@@ -2708,7 +2708,7 @@ Restyle
 )
 )
 {
-profilerRAII
+tracing
 .
 emplace
 (

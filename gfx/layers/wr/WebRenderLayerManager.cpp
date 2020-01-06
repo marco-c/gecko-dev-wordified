@@ -962,8 +962,8 @@ EndTransactionFlags
 aFlags
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
@@ -1261,8 +1261,8 @@ GetTransactionId
 )
 ;
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

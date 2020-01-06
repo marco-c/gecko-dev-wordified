@@ -2081,8 +2081,8 @@ Metric
 Rasterization
 )
 ;
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
@@ -4043,8 +4043,8 @@ bool
 aScheduleComposite
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

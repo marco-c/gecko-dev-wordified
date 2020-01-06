@@ -22435,8 +22435,8 @@ bool
 aFlushOnHoverChange
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

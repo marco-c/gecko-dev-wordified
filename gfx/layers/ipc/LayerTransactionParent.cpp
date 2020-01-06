@@ -1026,8 +1026,8 @@ TransactionInfo
 aInfo
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

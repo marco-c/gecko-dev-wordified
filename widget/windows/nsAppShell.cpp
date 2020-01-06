@@ -2726,7 +2726,7 @@ Suspend
 )
 ;
 {
-GeckoProfilerThreadSleepRAII
+AutoProfilerThreadSleep
 sleep
 ;
 WinUtils

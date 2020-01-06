@@ -1687,8 +1687,8 @@ WebRenderScrollData
 aScrollData
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
@@ -4905,8 +4905,8 @@ IntRect
 aRect
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

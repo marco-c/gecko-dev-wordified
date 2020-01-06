@@ -7809,8 +7809,8 @@ TimeStamp
 aDeadline
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 CC
@@ -8886,8 +8886,8 @@ NS_IsMainThread
 return
 ;
 }
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 CC

@@ -3654,15 +3654,15 @@ PseudoStack
 in
 /
 /
-ProfilerStackFrameRAII
+AutoProfilerLabel
 .
 /
 /
 /
 /
 -
-Those
-two
+The
+class
 functions
 are
 hot
@@ -3737,7 +3737,7 @@ uses
 in
 /
 /
-ProfilerStackFrameRAII
+AutoProfilerLabel
 .
 MOZ_THREAD_LOCAL
 (

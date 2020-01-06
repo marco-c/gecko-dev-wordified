@@ -31564,8 +31564,8 @@ FireScrollEvent
 (
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
