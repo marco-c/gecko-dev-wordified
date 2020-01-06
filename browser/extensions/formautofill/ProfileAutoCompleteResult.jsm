@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+/
+*
+exported
+AddressResult
+CreditCardResult
+*
+/
 "
 use
 strict
@@ -74,13 +81,6 @@ CreditCardResult
 "
 ]
 ;
-/
-*
-exported
-AddressResult
-CreditCardResult
-*
-/
 const
 {
 classes
