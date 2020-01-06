@@ -2112,7 +2112,7 @@ WidgetMouseEvent
 event
 (
 true
-eWindowClose
+eClose
 nullptr
 WidgetMouseEvent
 :
@@ -4287,7 +4287,7 @@ WidgetMouseEvent
 event
 (
 true
-eWindowClose
+eClose
 nullptr
 WidgetMouseEvent
 :

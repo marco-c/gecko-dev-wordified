@@ -1062,7 +1062,7 @@ EVENT
 (
 close
 eClose
-EventNameType_HTML
+EventNameType_HTMLXUL
 eBasicEventClass
 )
 EVENT
@@ -2267,13 +2267,6 @@ command
 eXULCommand
 EventNameType_XUL
 eInputEventClass
-)
-NON_IDL_EVENT
-(
-close
-eWindowClose
-EventNameType_XUL
-eBasicEventClass
 )
 NON_IDL_EVENT
 (
