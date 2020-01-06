@@ -195,6 +195,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+StructuredCloneHolder
+*
+aHolder
 )
 ;
 bool
@@ -206,6 +209,9 @@ aCx
 JSStructuredCloneWriter
 *
 aWriter
+StructuredCloneHolder
+*
+aHolder
 )
 ;
 static
@@ -334,6 +340,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+StructuredCloneHolder
+*
+aHolder
 )
 ;
 }
