@@ -2115,11 +2115,6 @@ ELT_FEDROPSHADOW
 static
 nsHtml5ElementName
 *
-ELT_SHADOW
-;
-static
-nsHtml5ElementName
-*
 ELT_VIEW
 ;
 static

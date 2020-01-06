@@ -975,12 +975,6 @@ true
 )
 ELEM
 (
-shadow
-____
-true
-)
-ELEM
-(
 small
 ____
 true

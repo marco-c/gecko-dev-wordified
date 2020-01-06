@@ -307,6 +307,17 @@ mozilla
 /
 dom
 /
+CustomElementRegistry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h

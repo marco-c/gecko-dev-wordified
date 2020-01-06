@@ -595,7 +595,7 @@ node
 shadow
 -
 >
-GetPoolHost
+GetHost
 (
 )
 ;
@@ -784,7 +784,7 @@ node
 shadow
 -
 >
-GetPoolHost
+GetHost
 (
 )
 ;

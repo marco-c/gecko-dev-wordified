@@ -259,6 +259,13 @@ nsXULElement
 .
 h
 "
+#
+include
+"
+nsAttrValueOrString
+.
+h
+"
 using
 namespace
 mozilla
