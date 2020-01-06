@@ -887,10 +887,6 @@ adjust_for_text
 &
 mut
 self
-parent_style
-:
-&
-ComputedValues
 )
 {
 self
@@ -903,7 +899,6 @@ self
 .
 adjust_for_text_in_ruby
 (
-parent_style
 )
 ;
 self
@@ -1197,10 +1192,6 @@ adjust_for_text_in_ruby
 &
 mut
 self
-parent_style
-:
-&
-ComputedValues
 )
 {
 use
@@ -1215,9 +1206,11 @@ SHOULD_SUPPRESS_LINEBREAK
 let
 parent_display
 =
-parent_style
+self
 .
-get_box
+style
+.
+get_parent_box
 (
 )
 .

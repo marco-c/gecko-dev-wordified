@@ -12819,7 +12819,6 @@ style
 .
 adjust_for_text
 (
-reference
 )
 ;
 }
