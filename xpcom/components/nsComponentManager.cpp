@@ -5210,7 +5210,7 @@ Debug
 "
 nsComponentManager
 :
-GetClassObject
+GetClassObjectByContractID
 (
 %
 s
@@ -5268,7 +5268,7 @@ Warning
 \
 t
 \
-tGetClassObject
+tGetClassObjectByContractID
 (
 )
 %
