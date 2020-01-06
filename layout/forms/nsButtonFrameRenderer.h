@@ -272,6 +272,9 @@ const
 nsRect
 &
 aRect
+bool
+*
+aBorderIsEmpty
 )
 ;
 DrawResult

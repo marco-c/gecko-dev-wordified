@@ -1828,6 +1828,11 @@ GetDrawTarget
 :
 nullptr
 ;
+bool
+borderIsEmpty
+=
+false
+;
 Maybe
 <
 nsCSSBorderRenderer
@@ -1848,6 +1853,8 @@ border
 StyleContext
 (
 )
+&
+borderIsEmpty
 skipSides
 )
 ;
@@ -1860,6 +1867,12 @@ isSome
 )
 )
 {
+MOZ_ASSERT
+(
+!
+borderIsEmpty
+)
+;
 aBorderRenderers
 .
 AppendElement

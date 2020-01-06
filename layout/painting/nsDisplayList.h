@@ -21424,6 +21424,9 @@ mBorderImageRenderer
 nsRect
 mBounds
 ;
+bool
+mBorderIsEmpty
+;
 }
 ;
 /
