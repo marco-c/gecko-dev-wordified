@@ -1180,6 +1180,7 @@ property
 )
 {
 return
+(
 this
 .
 properties
@@ -1196,6 +1197,13 @@ property
 ]
 .
 isInherited
+)
+|
+|
+isCssVariable
+(
+property
+)
 ;
 }
 /
@@ -2563,5 +2571,6 @@ CssProperties
 getCssProperties
 getClientCssProperties
 initCssProperties
+isCssVariable
 }
 ;
