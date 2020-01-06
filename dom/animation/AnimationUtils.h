@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -229,6 +236,11 @@ result
 .
 SetValue
 (
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 aTime
 .
 Value
@@ -237,6 +249,7 @@ Value
 .
 ToMilliseconds
 (
+)
 )
 )
 ;
