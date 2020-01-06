@@ -10935,9 +10935,6 @@ bookmarkPage
 this
 .
 browser
-PlacesUtils
-.
-bookmarksMenuFolderId
 true
 )
 .

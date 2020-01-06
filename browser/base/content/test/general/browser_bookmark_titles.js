@@ -846,7 +846,6 @@ bookmarkPage
 gBrowser
 .
 selectedBrowser
-undefined
 false
 url
 overridden_title
@@ -1053,9 +1052,11 @@ currentURI
 ;
 PlacesCommandHook
 .
-bookmarkCurrentPage
+bookmarkPage
 (
-false
+gBrowser
+.
+selectedBrowser
 )
 ;
 await

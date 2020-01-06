@@ -721,12 +721,12 @@ oncommand
 "
 PlacesCommandHook
 .
-bookmarkCurrentPage
+bookmarkPage
 (
-true
-PlacesUtils
+gBrowser
 .
-bookmarksMenuFolderId
+selectedBrowser
+true
 )
 ;
 "

@@ -7584,7 +7584,6 @@ PlacesCommandHook
 bookmarkPage
 (
 aBrowser
-undefined
 true
 url
 title
