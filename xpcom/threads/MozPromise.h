@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Tuple
 .
 h

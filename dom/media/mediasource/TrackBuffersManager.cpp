@@ -161,9 +161,7 @@ h
 #
 include
 "
-mozilla
-/
-StateMirroring
+SourceBuffer
 .
 h
 "
@@ -177,7 +175,7 @@ h
 #
 include
 "
-SourceBuffer
+SourceBufferTask
 .
 h
 "
@@ -185,13 +183,6 @@ h
 include
 "
 WebMDemuxer
-.
-h
-"
-#
-include
-"
-SourceBufferTask
 .
 h
 "
