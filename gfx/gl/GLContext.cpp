@@ -1422,6 +1422,9 @@ mSharedContext
 (
 sharedContext
 )
+mSymbols
+{
+}
 mCaps
 (
 caps
@@ -1762,10 +1765,9 @@ understand
 bugs
 .
 mSymbols
-.
-Zero
-(
-)
+=
+{
+}
 ;
 NS_WARNING
 (
@@ -15106,10 +15108,9 @@ teardown
 ;
 }
 mSymbols
-.
-Zero
-(
-)
+=
+{
+}
 ;
 }
 #
