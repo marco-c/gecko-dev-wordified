@@ -485,7 +485,7 @@ file
 as
 a
 C
-constexpr
+const
 char
 array
 .
@@ -690,7 +690,7 @@ f
 write
 (
 "
-constexpr
+const
 char
 %
 s
