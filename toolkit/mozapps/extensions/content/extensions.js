@@ -18678,7 +18678,7 @@ legacy
 &
 aAddon
 .
-signedStatus
+signedState
 =
 =
 AddonManager
