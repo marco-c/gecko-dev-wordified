@@ -4121,6 +4121,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 {
 nsNSSShutDownPreventionLock
@@ -4993,6 +4995,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 {
 nsNSSShutDownPreventionLock

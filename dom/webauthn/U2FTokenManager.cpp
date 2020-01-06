@@ -1556,6 +1556,11 @@ aTransactionInfo
 ClientDataHash
 (
 )
+aTransactionInfo
+.
+TimeoutMS
+(
+)
 )
 ;
 mRegisterPromise
@@ -1823,6 +1828,11 @@ RpIdHash
 aTransactionInfo
 .
 ClientDataHash
+(
+)
+aTransactionInfo
+.
+TimeoutMS
 (
 )
 )
