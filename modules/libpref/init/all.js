@@ -9635,18 +9635,6 @@ allow_zooming
 false
 )
 ;
-pref
-(
-"
-apz
-.
-autoscroll
-.
-enabled
-"
-false
-)
-;
 /
 /
 Whether
@@ -64973,7 +64961,7 @@ content
 description
 "
 "
-mozfullDesc2
+mozfullDesc
 "
 )
 ;
@@ -68129,9 +68117,6 @@ available
 over
 HTTPS
 .
-#
-ifdef
-RELEASE
 /
 /
 Don
@@ -68160,6 +68145,8 @@ compatible
 with
 current
 standards
+in
+Release
 pref
 (
 "
@@ -68185,7 +68172,8 @@ false
 )
 ;
 #
-else
+ifdef
+EARLY_BETA_OR_EARLIER
 /
 /
 Change
