@@ -140,10 +140,7 @@ use
 parser
 :
 :
-{
 ParserContext
-PARSING_MODE_DEFAULT
-}
 ;
 use
 shared_lock
@@ -162,6 +159,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+PARSING_MODE_DEFAULT
 ;
 use
 stylearc

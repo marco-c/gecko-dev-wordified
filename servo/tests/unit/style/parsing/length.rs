@@ -94,7 +94,6 @@ parser
 :
 :
 {
-PARSING_MODE_ALLOW_UNITLESS_LENGTH
 Parse
 ParserContext
 }
@@ -158,7 +157,10 @@ use
 style_traits
 :
 :
+{
+PARSING_MODE_ALLOW_UNITLESS_LENGTH
 ToCss
+}
 ;
 #
 [

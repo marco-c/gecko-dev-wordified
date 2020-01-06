@@ -374,7 +374,6 @@ parser
 :
 :
 {
-PARSING_MODE_DEFAULT
 Parse
 ParserContext
 }
@@ -451,6 +450,7 @@ style_traits
 :
 :
 {
+PARSING_MODE_DEFAULT
 HasViewportPercentage
 ToCss
 ParseError

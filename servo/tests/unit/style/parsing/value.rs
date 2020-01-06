@@ -93,10 +93,7 @@ style
 parser
 :
 :
-{
-PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 ParserContext
-}
 ;
 use
 style
@@ -131,7 +128,10 @@ use
 style_traits
 :
 :
+{
+PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 HasViewportPercentage
+}
 ;
 #
 [

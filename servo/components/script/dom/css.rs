@@ -154,10 +154,7 @@ style
 parser
 :
 :
-{
-PARSING_MODE_DEFAULT
 ParserContext
-}
 ;
 use
 style
@@ -182,6 +179,12 @@ supports_rule
 Declaration
 parse_condition_or_declaration
 }
+;
+use
+style_traits
+:
+:
+PARSING_MODE_DEFAULT
 ;
 #
 [

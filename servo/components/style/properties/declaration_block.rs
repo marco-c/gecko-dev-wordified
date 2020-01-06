@@ -113,8 +113,6 @@ parser
 :
 :
 {
-PARSING_MODE_DEFAULT
-ParsingMode
 ParserContext
 log_css_error
 }
@@ -163,8 +161,10 @@ style_traits
 :
 :
 {
+PARSING_MODE_DEFAULT
 ToCss
 ParseError
+ParsingMode
 StyleParseError
 }
 ;
