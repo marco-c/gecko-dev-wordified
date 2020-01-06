@@ -153,6 +153,9 @@ MouseInput
 class
 PanGestureInput
 ;
+class
+KeyboardInput
+;
 namespace
 layers
 {
@@ -170,6 +173,9 @@ DragBlockState
 ;
 class
 PanGestureBlockState
+;
+class
+KeyboardBlockState
 ;
 /
 *
@@ -254,6 +260,17 @@ PanGestureInput
 &
 aInput
 PanGestureBlockState
+&
+aBlock
+)
+;
+QueuedInput
+(
+const
+KeyboardInput
+&
+aInput
+KeyboardBlockState
 &
 aBlock
 )
