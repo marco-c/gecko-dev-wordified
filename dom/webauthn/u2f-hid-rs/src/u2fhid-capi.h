@@ -306,6 +306,10 @@ uint8_t
 application_ptr
 size_t
 application_len
+const
+rust_u2f_key_handles
+*
+khs
 )
 ;
 uint64_t

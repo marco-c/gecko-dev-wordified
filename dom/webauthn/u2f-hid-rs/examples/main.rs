@@ -467,6 +467,10 @@ app_bytes
 clone
 (
 )
+vec
+!
+[
+]
 move
 |
 rv

@@ -748,6 +748,14 @@ aApplication
 Length
 (
 )
+U2FKeyHandles
+(
+aDescriptors
+)
+.
+Get
+(
+)
 )
 ;
 if

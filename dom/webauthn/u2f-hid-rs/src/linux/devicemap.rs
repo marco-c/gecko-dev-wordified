@@ -66,7 +66,7 @@ collections
 hash_map
 :
 :
-ValuesMut
+IterMut
 ;
 use
 std
@@ -148,7 +148,7 @@ new
 }
 pub
 fn
-values_mut
+iter_mut
 (
 &
 mut
@@ -156,7 +156,7 @@ self
 )
 -
 >
-ValuesMut
+IterMut
 <
 OsString
 Device
@@ -166,7 +166,7 @@ self
 .
 map
 .
-values_mut
+iter_mut
 (
 )
 }
