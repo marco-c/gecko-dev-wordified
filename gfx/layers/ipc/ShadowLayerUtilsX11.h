@@ -124,7 +124,9 @@ include
 "
 mozilla
 /
-GfxMessageUtils
+layers
+/
+LayersMessageUtils
 .
 h
 "
