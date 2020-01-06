@@ -1611,16 +1611,6 @@ SelectAll
 )
 override
 ;
-NS_IMETHOD
-GetRootElement
-(
-nsIDOMElement
-*
-*
-aRootElement
-)
-override
-;
 /
 /
 nsICSSLoaderObserver
@@ -2201,7 +2191,7 @@ ShouldReplaceRootElement
 )
 ;
 void
-ResetRootElementAndEventTarget
+NotifyRootChanged
 (
 )
 ;
@@ -5078,6 +5068,11 @@ aContainer
 nsIContent
 *
 aChild
+)
+;
+void
+UpdateRootElement
+(
 )
 ;
 /
