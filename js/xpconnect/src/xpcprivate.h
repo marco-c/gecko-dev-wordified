@@ -3447,7 +3447,7 @@ this
 list
 and
 to
-XPCJSRuntime
+XPCJSContext
 :
 :
 mStrings
@@ -3457,7 +3457,7 @@ at
 the
 top
 of
-XPCJSRuntime
+XPCJSContext
 .
 cpp
 enum
@@ -3483,7 +3483,6 @@ IDX_ITERATOR
 IDX_EXPOSEDPROPS
 IDX_EVAL
 IDX_CONTROLLERS
-IDX_CONTROLLERS_CLASS
 IDX_REALFRAMEELEMENT
 IDX_LENGTH
 IDX_NAME

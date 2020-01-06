@@ -774,12 +774,6 @@ controllers
 /
 IDX_CONTROLLERS
 "
-Controllers
-"
-/
-/
-IDX_CONTROLLERS_CLASS
-"
 realFrameElement
 "
 /
