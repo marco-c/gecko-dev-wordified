@@ -743,8 +743,6 @@ const
 nsACString
 &
 aMsgString
-uint32_t
-aMsgLength
 bool
 aIsBinary
 mozilla
