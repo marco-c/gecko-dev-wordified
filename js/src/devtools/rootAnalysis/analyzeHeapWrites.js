@@ -1742,6 +1742,15 @@ aDst
 "
 null
 ]
+[
+"
+Gecko_nsStyleFont_PrefillDefaultForGeneric
+"
+"
+aFont
+"
+null
+]
 ]
 ;
 for
