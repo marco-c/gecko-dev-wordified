@@ -1107,6 +1107,15 @@ free
 with
 it
 .
+if
+(
+!
+ptr
+)
+{
+return
+;
+}
 malloc_zone_t
 *
 zone
