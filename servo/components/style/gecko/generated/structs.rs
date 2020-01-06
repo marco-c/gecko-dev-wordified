@@ -25375,7 +25375,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 }
 #
 [
@@ -26369,7 +26369,7 @@ const
 root
 :
 :
-nsIAtom
+nsAtom
 pub
 mPrefix
 :
@@ -26378,7 +26378,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 pub
 mNamespaceID
 :
@@ -26404,7 +26404,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 pub
 mHash
 :
@@ -58546,7 +58546,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mMinimumFontSize
@@ -62468,7 +62468,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 }
 #
@@ -98857,7 +98857,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 }
 pub
@@ -104681,7 +104681,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 pub
@@ -109516,7 +109516,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 pub
@@ -121118,7 +121118,7 @@ Debug
 ]
 pub
 struct
-nsIAtom
+nsAtom
 {
 pub
 mRefCnt
@@ -121166,7 +121166,7 @@ Hash
 ]
 pub
 enum
-nsIAtom_AtomKind
+nsAtom_AtomKind
 {
 DynamicAtom
 =
@@ -121180,7 +121180,7 @@ HTML5Atom
 }
 pub
 type
-nsIAtom_HasThreadSafeRefCnt
+nsAtom_HasThreadSafeRefCnt
 =
 root
 :
@@ -121195,7 +121195,7 @@ TrueType
 test
 ]
 fn
-bindgen_test_layout_nsIAtom
+bindgen_test_layout_nsAtom
 (
 )
 {
@@ -121214,7 +121214,7 @@ size_of
 :
 :
 <
-nsIAtom
+nsAtom
 >
 (
 )
@@ -121230,7 +121230,7 @@ of
 stringify
 !
 (
-nsIAtom
+nsAtom
 )
 )
 )
@@ -121250,7 +121250,7 @@ align_of
 :
 :
 <
-nsIAtom
+nsAtom
 >
 (
 )
@@ -121265,7 +121265,7 @@ of
 stringify
 !
 (
-nsIAtom
+nsAtom
 )
 )
 )
@@ -121283,7 +121283,7 @@ unsafe
 as
 *
 const
-nsIAtom
+nsAtom
 )
 )
 .
@@ -121308,7 +121308,7 @@ field
 stringify
 !
 (
-nsIAtom
+nsAtom
 )
 "
 :
@@ -121335,7 +121335,7 @@ unsafe
 as
 *
 const
-nsIAtom
+nsAtom
 )
 )
 .
@@ -121360,7 +121360,7 @@ field
 stringify
 !
 (
-nsIAtom
+nsAtom
 )
 "
 :
@@ -121387,7 +121387,7 @@ unsafe
 as
 *
 const
-nsIAtom
+nsAtom
 )
 )
 .
@@ -121412,7 +121412,7 @@ field
 stringify
 !
 (
-nsIAtom
+nsAtom
 )
 "
 :
@@ -121428,7 +121428,7 @@ mString
 ;
 }
 impl
-nsIAtom
+nsAtom
 {
 #
 [
@@ -151957,7 +151957,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mValues
@@ -152790,7 +152790,7 @@ const
 root
 :
 :
-nsIAtom
+nsAtom
 ;
 #
 [
@@ -153228,7 +153228,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mBits
@@ -153644,7 +153644,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 pub
 mMediaEmulated
 :
@@ -153656,7 +153656,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mFontFeatureValuesLookup
@@ -153691,7 +153691,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mInflationDisabledForShrinkWrap
@@ -175842,7 +175842,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 ;
@@ -194029,7 +194029,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 }
 pub
@@ -199761,7 +199761,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mArray
@@ -223930,7 +223930,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 bindgen_union_field
@@ -240239,7 +240239,7 @@ mut
 root
 :
 :
-nsIAtom
+nsAtom
 pub
 mRangeType
 :
@@ -240459,7 +240459,7 @@ const
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 bindgen_union_field
@@ -243647,7 +243647,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 pub
 mExpressions
@@ -247497,7 +247497,7 @@ nsCSSSelector
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation
 (
 )
 {
@@ -247524,7 +247524,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -247551,7 +247551,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -247580,7 +247580,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -247607,7 +247607,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -248667,7 +248667,7 @@ nsStyleCoord
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsIAtom_close1_close0_instantiation
+__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsAtom_close1_close0_instantiation
 (
 )
 {
@@ -248699,7 +248699,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -248732,7 +248732,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -248767,7 +248767,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -248800,7 +248800,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -248813,7 +248813,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_1
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_1
 (
 )
 {
@@ -248840,7 +248840,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -248867,7 +248867,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -248896,7 +248896,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -248923,7 +248923,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -249569,7 +249569,7 @@ GridTemplateAreasValue
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsIAtom_close1_close0_instantiation_1
+__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsAtom_close1_close0_instantiation_1
 (
 )
 {
@@ -249601,7 +249601,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -249634,7 +249634,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -249669,7 +249669,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -249702,7 +249702,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -249715,7 +249715,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_2
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_2
 (
 )
 {
@@ -249742,7 +249742,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -249769,7 +249769,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -249798,7 +249798,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -249825,7 +249825,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -267659,7 +267659,7 @@ u64
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_3
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_3
 (
 )
 {
@@ -267686,7 +267686,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -267713,7 +267713,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -267742,7 +267742,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -267769,7 +267769,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -268163,7 +268163,7 @@ nsIContent
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_4
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_4
 (
 )
 {
@@ -268190,7 +268190,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -268217,7 +268217,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -268246,7 +268246,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -268273,7 +268273,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -270573,7 +270573,7 @@ CounterStyleManager
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_5
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_5
 (
 )
 {
@@ -270600,7 +270600,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -270627,7 +270627,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -270656,7 +270656,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -270683,7 +270683,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -270817,7 +270817,7 @@ gfxFontFeatureValueSet
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_6
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_6
 (
 )
 {
@@ -270844,7 +270844,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -270871,7 +270871,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -270900,7 +270900,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -270927,7 +270927,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -271843,7 +271843,7 @@ gfxMissingFontRecorder
 test
 ]
 fn
-__bindgen_test_layout_nsRefPtrHashKey_open0_nsIAtom_close0_instantiation
+__bindgen_test_layout_nsRefPtrHashKey_open0_nsAtom_close0_instantiation
 (
 )
 {
@@ -271870,7 +271870,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -271897,7 +271897,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -271926,7 +271926,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -271953,7 +271953,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -271965,7 +271965,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsIAtom_close1_close0_instantiation_2
+__bindgen_test_layout_nsTArray_open0_RefPtr_open1_nsAtom_close1_close0_instantiation_2
 (
 )
 {
@@ -271997,7 +271997,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -272030,7 +272030,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -272065,7 +272065,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 >
@@ -272098,7 +272098,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 )
@@ -272111,7 +272111,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_7
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_7
 (
 )
 {
@@ -272138,7 +272138,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -272165,7 +272165,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -272194,7 +272194,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -272221,7 +272221,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -275913,7 +275913,7 @@ nsIContent
 test
 ]
 fn
-__bindgen_test_layout_nsRefPtrHashKey_open0_nsIAtom_close0_instantiation_1
+__bindgen_test_layout_nsRefPtrHashKey_open0_nsAtom_close0_instantiation_1
 (
 )
 {
@@ -275940,7 +275940,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -275967,7 +275967,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -275996,7 +275996,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -276023,7 +276023,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -276035,7 +276035,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_8
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_8
 (
 )
 {
@@ -276062,7 +276062,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -276089,7 +276089,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -276118,7 +276118,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -276145,7 +276145,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -281617,7 +281617,7 @@ nsStringRepr
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_9
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_9
 (
 )
 {
@@ -281644,7 +281644,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -281671,7 +281671,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -281700,7 +281700,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -281727,7 +281727,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -282019,7 +282019,7 @@ EffectCompositor_AnimationStyleRuleProcessor
 test
 ]
 fn
-__bindgen_test_layout_nsRefPtrHashKey_open0_nsIAtom_close0_instantiation_2
+__bindgen_test_layout_nsRefPtrHashKey_open0_nsAtom_close0_instantiation_2
 (
 )
 {
@@ -282046,7 +282046,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -282073,7 +282073,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -282102,7 +282102,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -282129,7 +282129,7 @@ nsRefPtrHashKey
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -288875,7 +288875,7 @@ nsStringRepr
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_10
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_10
 (
 )
 {
@@ -288902,7 +288902,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -288929,7 +288929,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -288958,7 +288958,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -288985,7 +288985,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -299229,7 +299229,7 @@ DocumentRule
 test
 ]
 fn
-__bindgen_test_layout_RefPtr_open0_nsIAtom_close0_instantiation_11
+__bindgen_test_layout_RefPtr_open0_nsAtom_close0_instantiation_11
 (
 )
 {
@@ -299256,7 +299256,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -299283,7 +299283,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )
@@ -299312,7 +299312,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 >
 (
@@ -299339,7 +299339,7 @@ RefPtr
 root
 :
 :
-nsIAtom
+nsAtom
 >
 )
 )

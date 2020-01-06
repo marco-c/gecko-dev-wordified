@@ -1249,7 +1249,7 @@ mut
 structs
 :
 :
-nsIAtom
+nsAtom
 structs
 :
 :
@@ -1500,7 +1500,7 @@ mut
 structs
 :
 :
-nsIAtom
+nsAtom
 )
 -
 >
@@ -29186,7 +29186,7 @@ gecko_bindings
 structs
 :
 :
-nsIAtom
+nsAtom
 ;
 use
 values
@@ -29245,7 +29245,7 @@ mRawPtr
 as
 *
 mut
-nsIAtom
+nsAtom
 )
 .
 into

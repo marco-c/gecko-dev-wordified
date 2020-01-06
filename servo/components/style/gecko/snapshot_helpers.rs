@@ -75,7 +75,7 @@ gecko_bindings
 structs
 :
 :
-nsIAtom
+nsAtom
 ;
 use
 gecko_string_cache
@@ -150,14 +150,14 @@ T
 mut
 *
 mut
-nsIAtom
+nsAtom
 *
 mut
 *
 mut
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
@@ -227,7 +227,7 @@ class
 :
 *
 mut
-nsIAtom
+nsAtom
 =
 ptr
 :
@@ -244,7 +244,7 @@ list
 mut
 *
 mut
-nsIAtom
+nsAtom
 =
 ptr
 :
@@ -400,7 +400,7 @@ class
 :
 *
 mut
-nsIAtom
+nsAtom
 =
 ptr
 :
@@ -417,7 +417,7 @@ list
 mut
 *
 mut
-nsIAtom
+nsAtom
 =
 ptr
 :

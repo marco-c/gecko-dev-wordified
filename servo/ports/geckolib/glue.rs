@@ -1008,7 +1008,7 @@ structs
 {
 ServoStyleSheet
 SheetParsingMode
-nsIAtom
+nsAtom
 nsCSSPropertyID
 }
 ;
@@ -11439,7 +11439,7 @@ RawServoKeyframesRuleBorrowed
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 read_locked_arc
 (
@@ -11482,7 +11482,7 @@ name
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 {
 write_locked_arc
@@ -12050,7 +12050,7 @@ RawServoNamespaceRuleBorrowed
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 read_locked_arc
 (
@@ -12107,7 +12107,7 @@ RawServoNamespaceRuleBorrowed
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 read_locked_arc
 (
@@ -12485,7 +12485,7 @@ pseudo_tag
 :
 *
 mut
-nsIAtom
+nsAtom
 raw_data
 :
 RawServoStyleSetBorrowed
@@ -14081,7 +14081,7 @@ pseudo_tag
 :
 *
 mut
-nsIAtom
+nsAtom
 parent_style_context
 :
 ServoStyleContextBorrowedOrNull
@@ -18524,7 +18524,7 @@ value
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 {
 use
@@ -26294,7 +26294,7 @@ name
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
@@ -26890,7 +26890,7 @@ local_name
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
