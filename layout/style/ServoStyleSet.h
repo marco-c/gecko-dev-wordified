@@ -2257,9 +2257,11 @@ do
 .
 *
 /
+static
 bool
 MayTraverseFrom
 (
+const
 dom
 :
 :
