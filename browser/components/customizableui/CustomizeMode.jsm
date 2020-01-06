@@ -6416,18 +6416,6 @@ removable
 removable
 )
 ;
-if
-(
-AppConstants
-.
-platform
-=
-=
-"
-win
-"
-)
-{
 /
 /
 Allow
@@ -6463,7 +6451,6 @@ true
 "
 )
 ;
-}
 let
 contextMenuAttrName
 =
