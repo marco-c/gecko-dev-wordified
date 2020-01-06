@@ -3757,7 +3757,7 @@ text
 *
 param
 {
-nsIDOMElement
+Element
 }
 el
 *
