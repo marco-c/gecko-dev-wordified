@@ -282,7 +282,8 @@ result
 )
 ;
 static
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -290,8 +291,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 ;
 static

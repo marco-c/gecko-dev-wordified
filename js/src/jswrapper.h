@@ -526,7 +526,8 @@ const
 override
 ;
 virtual
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -534,8 +535,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 const
 override
@@ -1240,7 +1239,8 @@ const
 override
 ;
 virtual
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -1248,8 +1248,6 @@ JSContext
 cx
 HandleObject
 wrapper
-MutableHandleObject
-objp
 )
 const
 override
@@ -1750,7 +1748,8 @@ const
 override
 ;
 virtual
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -1758,8 +1757,6 @@ JSContext
 cx
 HandleObject
 wrapper
-MutableHandleObject
-objp
 )
 const
 override

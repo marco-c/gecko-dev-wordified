@@ -1814,7 +1814,8 @@ return
 true
 ;
 }
-bool
+JSObject
+*
 BaseProxyHandler
 :
 :
@@ -1825,8 +1826,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 const
 {
@@ -1872,7 +1871,7 @@ props
 )
 )
 return
-false
+nullptr
 ;
 return
 EnumeratedIdVectorToIterator
@@ -1881,7 +1880,6 @@ cx
 proxy
 0
 props
-objp
 )
 ;
 }

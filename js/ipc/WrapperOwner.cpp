@@ -587,7 +587,8 @@ const
 override
 ;
 virtual
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -595,8 +596,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 const
 override
@@ -1647,7 +1646,8 @@ result
 )
 ;
 }
-bool
+JSObject
+*
 CPOWProxyHandler
 :
 :
@@ -1658,8 +1658,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 const
 {
@@ -1709,7 +1707,6 @@ enumerate
 (
 cx
 proxy
-objp
 )
 ;
 }

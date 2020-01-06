@@ -242,7 +242,8 @@ succeed
 )
 ;
 }
-bool
+JSObject
+*
 OpaqueCrossCompartmentWrapper
 :
 :
@@ -253,8 +254,6 @@ JSContext
 cx
 HandleObject
 wrapper
-MutableHandleObject
-objp
 )
 const
 {
@@ -266,7 +265,6 @@ enumerate
 (
 cx
 wrapper
-objp
 )
 ;
 }

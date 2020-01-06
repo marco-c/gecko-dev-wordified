@@ -559,7 +559,8 @@ result
 )
 ;
 }
-bool
+JSObject
+*
 Wrapper
 :
 :
@@ -570,8 +571,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleObject
-objp
 )
 const
 {
@@ -629,7 +628,6 @@ GetIterator
 cx
 target
 0
-objp
 )
 ;
 }

@@ -65731,7 +65731,7 @@ JSObject
 *
 (
 *
-GetIteratorObjectFn
+GetIteratorFn
 )
 (
 JSContext
@@ -65743,16 +65743,16 @@ uint32_t
 static
 const
 VMFunction
-GetIteratorObjectInfo
+GetIteratorInfo
 =
 FunctionInfo
 <
-GetIteratorObjectFn
+GetIteratorFn
 >
 (
-GetIteratorObject
+GetIterator
 "
-GetIteratorObject
+GetIterator
 "
 )
 ;
@@ -65800,7 +65800,7 @@ object
 ;
 callVM
 (
-GetIteratorObjectInfo
+GetIteratorInfo
 lir
 )
 ;
@@ -65947,7 +65947,7 @@ ool
 =
 oolCallVM
 (
-GetIteratorObjectInfo
+GetIteratorInfo
 lir
 ArgList
 (
