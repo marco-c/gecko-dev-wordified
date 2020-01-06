@@ -7734,6 +7734,7 @@ ClipId
 Clip
 (
 id
+nesting_index
 pipeline_id
 )
 =
@@ -7748,6 +7749,15 @@ pipeline_id
 state
 .
 pipeline_id
+)
+;
+assert
+!
+(
+nesting_index
+=
+=
+0
 )
 ;
 id
@@ -8244,6 +8254,7 @@ ClipId
 Clip
 (
 id
+0
 state
 .
 pipeline_id
