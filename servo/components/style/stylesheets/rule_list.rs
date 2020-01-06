@@ -81,7 +81,10 @@ use
 stylearc
 :
 :
+{
 Arc
+RawOffsetArc
+}
 ;
 use
 stylesheets
@@ -720,7 +723,7 @@ RulesMutateError
 impl
 CssRulesHelpers
 for
-Arc
+RawOffsetArc
 <
 Locked
 <

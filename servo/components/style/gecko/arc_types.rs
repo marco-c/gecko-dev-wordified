@@ -132,6 +132,7 @@ bindings
 :
 :
 {
+RawServoMediaRule
 RawServoNamespaceRule
 RawServoPageRule
 }
@@ -147,7 +148,6 @@ bindings
 RawServoRuleNode
 RawServoRuleNodeStrong
 RawServoDocumentRule
-RawServoMediaRule
 }
 ;
 use
@@ -157,10 +157,7 @@ gecko_bindings
 bindings
 :
 :
-{
-ServoComputedValues
 ServoCssRules
-}
 ;
 use
 gecko_bindings
@@ -183,7 +180,10 @@ gecko_bindings
 structs
 :
 :
+{
 RawServoStyleSheetContents
+ServoStyleContext
+}
 ;
 use
 gecko_bindings
@@ -419,10 +419,10 @@ impl_arc_ffi
 ComputedValues
 =
 >
-ServoComputedValues
+ServoStyleContext
 [
-Servo_ComputedValues_AddRef
-Servo_ComputedValues_Release
+Servo_StyleContext_AddRef
+Servo_StyleContext_Release
 ]
 )
 ;

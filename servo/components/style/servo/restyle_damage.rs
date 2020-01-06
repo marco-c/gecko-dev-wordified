@@ -118,7 +118,7 @@ use
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 std
@@ -515,11 +515,11 @@ compute_style_difference
 old
 :
 &
-ServoComputedValues
+ComputedValues
 new
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -1271,11 +1271,11 @@ compute_damage
 old
 :
 &
-ServoComputedValues
+ComputedValues
 new
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -1324,7 +1324,7 @@ properties
 /
 struct
 .
-ServoComputedValues
+ComputedValues
 .
 html
 /

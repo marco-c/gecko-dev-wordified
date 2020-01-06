@@ -277,7 +277,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -3301,7 +3301,7 @@ line_height_from_style
 style
 :
 &
-ServoComputedValues
+ComputedValues
 metrics
 :
 &

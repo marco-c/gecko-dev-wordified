@@ -108,7 +108,7 @@ properties
 :
 :
 {
-ComputedValues
+ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -649,7 +649,7 @@ inherited_style
 &
 '
 a
-ComputedValues
+ComputedValuesInner
 /
 /
 /
@@ -712,7 +712,7 @@ layout_parent_style
 &
 '
 a
-ComputedValues
+ComputedValuesInner
 /
 /
 /
@@ -1043,7 +1043,7 @@ self
 -
 >
 &
-ComputedValues
+ComputedValuesInner
 {
 &
 self

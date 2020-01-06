@@ -193,7 +193,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 table
@@ -1208,7 +1208,7 @@ new_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {

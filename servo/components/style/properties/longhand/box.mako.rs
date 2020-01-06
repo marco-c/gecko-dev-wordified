@@ -1436,7 +1436,7 @@ PropertyDeclaration
 _inherited_style
 :
 &
-ComputedValues
+ComputedValuesInner
 context
 :
 &

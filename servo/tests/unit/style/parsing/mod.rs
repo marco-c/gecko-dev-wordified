@@ -137,6 +137,7 @@ properties
 :
 {
 ComputedValues
+ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -667,7 +668,7 @@ new
 let
 initial_style
 =
-ComputedValues
+ComputedValuesInner
 :
 :
 initial_values

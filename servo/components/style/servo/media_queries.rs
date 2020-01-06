@@ -123,7 +123,7 @@ properties
 :
 :
 {
-ComputedValues
+ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -537,7 +537,7 @@ self
 -
 >
 &
-ComputedValues
+ComputedValuesInner
 {
 /
 /
@@ -591,7 +591,7 @@ fixing
 it
 properly
 .
-ComputedValues
+ComputedValuesInner
 :
 :
 initial_values

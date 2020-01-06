@@ -101,7 +101,7 @@ properties
 {
 self
 CascadeFlags
-ComputedValues
+ComputedValuesInner
 }
 ;
 use
@@ -560,7 +560,7 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 flags
 :
 CascadeFlags
@@ -1146,7 +1146,7 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 {
 let
@@ -1706,7 +1706,7 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 {
 use
@@ -2594,7 +2594,7 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 {
 use
@@ -2666,7 +2666,7 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 -
 >
@@ -2998,13 +2998,13 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 default_computed_values
 :
 &
 '
 b
-ComputedValues
+ComputedValuesInner
 flags
 :
 CascadeFlags
@@ -3380,13 +3380,13 @@ self
 layout_parent_style
 :
 &
-ComputedValues
+ComputedValuesInner
 _default_computed_values
 :
 &
 '
 b
-ComputedValues
+ComputedValuesInner
 flags
 :
 CascadeFlags

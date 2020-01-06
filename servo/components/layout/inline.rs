@@ -323,7 +323,7 @@ properties
 :
 {
 longhands
-ServoComputedValues
+ComputedValues
 }
 ;
 use
@@ -9021,7 +9021,7 @@ FontContext
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -9103,7 +9103,7 @@ FontContext
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -13072,7 +13072,7 @@ _
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {
@@ -13649,14 +13649,14 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 pub
 selected_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 pub
 pseudo

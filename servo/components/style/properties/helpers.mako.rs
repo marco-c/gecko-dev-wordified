@@ -2206,7 +2206,7 @@ properties
 :
 {
 CSSWideKeyword
-ComputedValues
+ComputedValuesInner
 PropertyDeclaration
 }
 ;
@@ -2339,11 +2339,11 @@ PropertyDeclaration
 inherited_style
 :
 &
-ComputedValues
+ComputedValuesInner
 default_style
 :
 &
-ComputedValues
+ComputedValuesInner
 context
 :
 &

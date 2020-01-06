@@ -465,7 +465,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -996,7 +996,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 /
 /
@@ -1017,7 +1017,7 @@ selected_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 /
 /
@@ -4973,13 +4973,13 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 selected_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 mut
 restyle_damage
@@ -5140,7 +5140,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 specific
 :
@@ -10162,7 +10162,7 @@ from_style
 style
 :
 &
-ServoComputedValues
+ComputedValues
 container_size
 :
 &
@@ -10578,7 +10578,7 @@ self
 -
 >
 &
-ServoComputedValues
+ComputedValues
 {
 &
 *
@@ -10603,7 +10603,7 @@ self
 -
 >
 &
-ServoComputedValues
+ComputedValues
 {
 &
 *
@@ -16295,7 +16295,7 @@ FlowRef
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -18517,7 +18517,7 @@ new_style
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {
@@ -22966,7 +22966,7 @@ Item
 &
 '
 a
-ServoComputedValues
+ComputedValues
 ;
 fn
 next
@@ -22982,7 +22982,7 @@ Option
 &
 '
 a
-ServoComputedValues
+ComputedValues
 >
 {
 if
