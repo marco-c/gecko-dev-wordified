@@ -724,6 +724,11 @@ h
 \
 F
 (
+PIPELINE
+)
+\
+F
+(
 OR
 )
 \
@@ -1093,7 +1098,7 @@ size
 /
 PNK_BINOP_FIRST
 =
-PNK_OR
+PNK_PIPELINE
 PNK_BINOP_LAST
 =
 PNK_POW

@@ -423,6 +423,7 @@ misc
 /
 BINOP_IN
 BINOP_INSTANCEOF
+BINOP_PIPELINE
 BINOP_LIMIT
 }
 ;
@@ -807,6 +808,15 @@ instanceof
 /
 *
 BINOP_INSTANCEOF
+*
+/
+"
+|
+>
+"
+/
+*
+BINOP_PIPELINE
 *
 /
 }
@@ -10200,6 +10210,12 @@ PNK_INSTANCEOF
 return
 BINOP_INSTANCEOF
 ;
+case
+PNK_PIPELINE
+:
+return
+BINOP_PIPELINE
+;
 default
 :
 return
@@ -16278,6 +16294,9 @@ dst
 )
 ;
 }
+case
+PNK_PIPELINE
+:
 case
 PNK_ADD
 :

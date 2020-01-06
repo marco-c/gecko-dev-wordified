@@ -4651,6 +4651,9 @@ case
 PNK_POW
 :
 case
+PNK_PIPELINE
+:
+case
 PNK_COMMA
 :
 case
