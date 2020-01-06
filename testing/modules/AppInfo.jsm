@@ -396,6 +396,9 @@ invalidateCachesOnRestart
 )
 {
 }
+shouldBlockIncompatJaws
+:
+false
 /
 /
 nsIWinAppHelper
