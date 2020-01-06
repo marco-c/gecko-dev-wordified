@@ -448,12 +448,6 @@ mozilla
 -
 central
 '
-        
-'
-mozilla
--
-aurora
-'
     
 ]
 )
@@ -666,12 +660,6 @@ set
 mozilla
 -
 central
-'
-        
-'
-mozilla
--
-aurora
 '
         
 '
@@ -1060,24 +1048,6 @@ set
 mozilla
 -
 central
-'
-    
-]
-)
-]
-[
-    
-'
-aurora
-'
-set
-(
-[
-        
-'
-mozilla
--
-aurora
 '
     
 ]
