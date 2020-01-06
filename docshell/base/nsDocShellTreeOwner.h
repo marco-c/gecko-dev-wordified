@@ -254,13 +254,6 @@ nsIDroppedLinkHandler
 .
 h
 "
-#
-include
-"
-nsCommandHandler
-.
-h
-"
 namespace
 mozilla
 {
@@ -338,9 +331,6 @@ implements
 /
 /
 Classes
-such
-as
-nsCommandHandler
 can
 QI
 for
@@ -412,10 +402,6 @@ nsSupportsWeakReference
 friend
 class
 nsWebBrowser
-;
-friend
-class
-nsCommandHandler
 ;
 public
 :
