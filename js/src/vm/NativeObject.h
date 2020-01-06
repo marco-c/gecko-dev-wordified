@@ -6097,8 +6097,6 @@ JSSetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 )
 ;
 /
