@@ -1332,6 +1332,12 @@ length
 =
 0
 ;
+instruction_memory
+.
+preallocated
+=
+true
+;
 app_memory_info_
 .
 push_back
@@ -6328,6 +6334,12 @@ ULONG
 (
 length
 )
+;
+app_memory
+.
+preallocated
+=
+false
 ;
 app_memory_info_
 .
