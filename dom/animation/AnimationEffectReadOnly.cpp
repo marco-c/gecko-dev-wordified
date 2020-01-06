@@ -1237,6 +1237,7 @@ result
 .
 mCurrentIteration
 =
+(
 result
 .
 mIterations
@@ -1257,6 +1258,13 @@ AnimationPhase
 :
 :
 After
+)
+|
+|
+overallProgress
+>
+=
+UINT64_MAX
 ?
 UINT64_MAX
 /
