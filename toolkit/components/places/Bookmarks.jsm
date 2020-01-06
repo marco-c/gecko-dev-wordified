@@ -11192,6 +11192,16 @@ node
 return
 node
 .
+type
+=
+=
+Bookmarks
+.
+TYPE_FOLDER
+&
+&
+node
+.
 annos
 &
 &
