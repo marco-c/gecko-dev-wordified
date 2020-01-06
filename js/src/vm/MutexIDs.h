@@ -308,7 +308,7 @@ OffThreadPromiseState
 \
 _
 (
-WasmTier2GeneratorComplete
+WasmModuleTieringLock
 500
 )
 \
