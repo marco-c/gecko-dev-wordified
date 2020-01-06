@@ -2158,7 +2158,7 @@ R
 .
 drawable
 .
-lock_disabled
+ic_lock_disabled
 )
 ;
 clearSecurityStateIcon
@@ -2225,7 +2225,7 @@ R
 .
 drawable
 .
-lock_inactive
+ic_lock_inactive
 )
 ;
 setSecurityStateIcon
@@ -2234,7 +2234,7 @@ R
 .
 drawable
 .
-warning_major
+ic_warning_major
 1
 )
 ;
@@ -2389,7 +2389,7 @@ R
 .
 drawable
 .
-lock_inactive
+ic_lock_inactive
 )
 ;
 setSecurityStateIcon
@@ -2398,7 +2398,7 @@ R
 .
 drawable
 .
-warning_major
+ic_warning_major
 1
 )
 ;
@@ -2447,7 +2447,7 @@ R
 .
 drawable
 .
-lock_secure
+ic_lock
 )
 ;
 setSecurityStateIcon
@@ -2862,13 +2862,13 @@ R
 .
 drawable
 .
-shield_enabled
+ic_shield_enabled
 :
 R
 .
 drawable
 .
-shield_disabled
+ic_shield_disabled
 ;
 final
 GeckoBundle
