@@ -5967,8 +5967,6 @@ JSSetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 bool
 allowDictionary
 =
@@ -6266,8 +6264,6 @@ JSSetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 ShapeTable
 :
 :

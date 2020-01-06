@@ -6789,7 +6789,6 @@ array_length_setter
 JSPROP_PERMANENT
 |
 JSPROP_SHADOWABLE
-0
 /
 *
 allowDictionary
