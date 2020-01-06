@@ -982,6 +982,9 @@ Finish
 ;
 #
 endif
+return
+nullptr
+;
 }
 void
 ScaledFontBase
@@ -1268,6 +1271,11 @@ builder
 return
 ;
 }
+#
+endif
+#
+ifdef
+USE_SKIA
 if
 (
 backendType
@@ -1316,6 +1324,8 @@ aBuilder
 return
 ;
 }
+#
+endif
 MOZ_ASSERT
 (
 false
@@ -1327,8 +1337,6 @@ copied
 "
 )
 ;
-#
-endif
 }
 void
 ScaledFontBase
