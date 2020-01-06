@@ -239,6 +239,10 @@ mIceControlling
 (
 false
 )
+mLocalIceIsRestarting
+(
+false
+)
 mRemoteIsIceLite
 (
 false
@@ -1843,6 +1847,9 @@ std
 :
 string
 mIcePwd
+;
+bool
+mLocalIceIsRestarting
 ;
 bool
 mRemoteIsIceLite
