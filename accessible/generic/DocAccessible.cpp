@@ -8697,6 +8697,14 @@ GetNode
 )
 )
 ;
+aAccessible
+-
+>
+mStateFlags
+|
+=
+eIsNotInDocument
+;
 /
 /
 Update
