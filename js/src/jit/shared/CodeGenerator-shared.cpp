@@ -4117,6 +4117,8 @@ mirRaw
 {
 mirOpcode
 =
+uint32_t
+(
 ins
 -
 >
@@ -4127,6 +4129,7 @@ mirRaw
 >
 op
 (
+)
 )
 ;
 mirId

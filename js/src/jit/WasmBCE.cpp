@@ -427,7 +427,10 @@ case
 MDefinition
 :
 :
-Op_WasmBoundsCheck
+Opcode
+:
+:
+WasmBoundsCheck
 :
 {
 MWasmBoundsCheck
@@ -678,7 +681,10 @@ case
 MDefinition
 :
 :
-Op_Phi
+Opcode
+:
+:
+Phi
 :
 {
 MPhi
