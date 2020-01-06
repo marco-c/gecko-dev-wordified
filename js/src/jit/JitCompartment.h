@@ -823,6 +823,7 @@ const
 VMFunction
 *
 uint32_t
+VMFunction
 >
 ;
 ExclusiveAccessLockWriteOnceData
