@@ -174,7 +174,7 @@ below
 #
 define
 DATABASE_SCHEMA_VERSION
-39
+40
 /
 /
 Fired
@@ -1692,6 +1692,11 @@ MigrateV38Up
 ;
 nsresult
 MigrateV39Up
+(
+)
+;
+nsresult
+MigrateV40Up
 (
 )
 ;
