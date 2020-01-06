@@ -492,7 +492,6 @@ mBitDepth
 =
 bitDepth
 ;
-}
 /
 /
 Verify
@@ -535,6 +534,7 @@ nullptr
 return
 false
 ;
+}
 }
 continue
 ;
