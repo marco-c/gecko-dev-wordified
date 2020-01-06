@@ -131,6 +131,17 @@ mozilla
 /
 layers
 /
+IpcResourceUpdateQueue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ScrollingLayersHelper
 .
 h

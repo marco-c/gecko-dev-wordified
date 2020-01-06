@@ -23410,6 +23410,7 @@ BuildWebRenderDisplayItemsForStyleImageLayer
 (
 params
 aBuilder
+aResources
 aSc
 aParentCommands
 nullptr
@@ -31553,6 +31554,7 @@ mBorderImageRenderer
 CreateBorderImageWebRenderCommands
 (
 aBuilder
+aResources
 aSc
 aParentCommands
 aManager
@@ -31597,6 +31599,15 @@ wr
 DisplayListBuilder
 &
 aBuilder
+mozilla
+:
+:
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -31923,6 +31934,7 @@ CreateImageKey
 this
 container
 aBuilder
+aResources
 aSc
 size
 )
