@@ -5417,15 +5417,6 @@ SOCK_STREAM
                 
 sock
 .
-settimeout
-(
-0
-.
-5
-)
-                
-sock
-.
 connect
 (
 (
@@ -5438,23 +5429,6 @@ port
 )
 )
                 
-data
-=
-sock
-.
-recv
-(
-16
-)
-                
-if
-"
-:
-"
-in
-data
-:
-                    
 return
 True
             
@@ -5475,6 +5449,23 @@ is
 not
 None
 :
+                    
+try
+:
+                        
+sock
+.
+shutdown
+(
+socket
+.
+SHUT_RDWR
+)
+                    
+except
+:
+                        
+pass
                     
 sock
 .
