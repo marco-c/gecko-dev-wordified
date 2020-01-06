@@ -18197,7 +18197,9 @@ StylePosition
 )
 -
 >
-mGridTemplateColumns
+GridTemplateColumns
+(
+)
 info
 )
 ;
@@ -18260,7 +18262,9 @@ StylePosition
 )
 -
 >
-mGridTemplateRows
+GridTemplateRows
+(
+)
 info
 )
 ;
