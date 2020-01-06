@@ -527,11 +527,11 @@ specified
 value
 .
 let
-start_position
+start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -581,7 +581,8 @@ input
 .
 reset
 (
-start_position
+&
+start
 )
 ;
 match

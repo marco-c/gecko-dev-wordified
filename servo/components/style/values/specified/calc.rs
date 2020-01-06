@@ -1493,11 +1493,11 @@ expected_unit
 loop
 {
 let
-position
+start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -1701,7 +1701,8 @@ input
 .
 reset
 (
-position
+&
+start
 )
 ;
 break
@@ -1852,11 +1853,11 @@ expected_unit
 loop
 {
 let
-position
+start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -2015,7 +2016,8 @@ input
 .
 reset
 (
-position
+&
+start
 )
 ;
 break

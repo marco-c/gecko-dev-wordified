@@ -11480,7 +11480,7 @@ start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -11542,6 +11542,7 @@ input
 .
 reset
 (
+&
 start
 )
 ;
@@ -11783,7 +11784,7 @@ start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -11868,6 +11869,7 @@ input
 .
 reset
 (
+&
 start
 )
 ;
