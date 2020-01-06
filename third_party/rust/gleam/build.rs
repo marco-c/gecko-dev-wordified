@@ -179,6 +179,18 @@ GL_ARB_texture_rectangle
 "
 GL_EXT_debug_marker
 "
+"
+GL_APPLE_client_storage
+"
+"
+GL_APPLE_texture_range
+"
+"
+GL_APPLE_fence
+"
+"
+GL_ARB_get_program_binary
+"
 ]
 ;
 let
@@ -228,7 +240,7 @@ unwrap
 /
 /
 GLES
-2
+3
 .
 0
 bindings
@@ -299,7 +311,7 @@ OpenGL
 3
 +
 GLES
-2
+3
 .
 0
 bindings

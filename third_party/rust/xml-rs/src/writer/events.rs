@@ -88,6 +88,13 @@ an
 XML
 document
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 XmlEvent

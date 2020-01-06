@@ -528,7 +528,7 @@ link
 name
 =
 "
-ApplicationServices
+CoreGraphics
 "
 kind
 =

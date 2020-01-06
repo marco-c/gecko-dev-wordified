@@ -318,6 +318,15 @@ Gles2
 "
 Gles2
 "
+Api
+:
+:
+Glsc2
+=
+>
+"
+Glsc2
+"
 }
 }
 /
@@ -910,6 +919,11 @@ Api
 :
 :
 Gles2
+|
+Api
+:
+:
+Glsc2
 =
 >
 format

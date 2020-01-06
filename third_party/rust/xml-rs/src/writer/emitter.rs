@@ -813,7 +813,7 @@ Ok
 bitflags
 !
 (
-flags
+struct
 IndentFlags
 :
 u8
@@ -822,14 +822,17 @@ const
 WROTE_NOTHING
 =
 0
+;
 const
 WROTE_MARKUP
 =
 1
+;
 const
 WROTE_TEXT
 =
 2
+;
 }
 )
 ;
@@ -898,6 +901,9 @@ unwrap
 .
 contains
 (
+IndentFlags
+:
+:
 WROTE_TEXT
 )
 }
@@ -929,6 +935,9 @@ unwrap
 .
 contains
 (
+IndentFlags
+:
+:
 WROTE_MARKUP
 )
 }
@@ -957,6 +966,9 @@ unwrap
 (
 )
 =
+IndentFlags
+:
+:
 WROTE_TEXT
 ;
 }
@@ -985,6 +997,9 @@ unwrap
 (
 )
 =
+IndentFlags
+:
+:
 WROTE_MARKUP
 ;
 }
@@ -1013,6 +1028,9 @@ unwrap
 (
 )
 =
+IndentFlags
+:
+:
 WROTE_NOTHING
 ;
 }
@@ -1263,6 +1281,9 @@ indent_stack
 .
 push
 (
+IndentFlags
+:
+:
 WROTE_NOTHING
 )
 ;
