@@ -694,6 +694,13 @@ HighlightsCallbacks
 )
 )
 ;
+if
+(
+StreamRecyclerAdapter
+.
+POCKET_ENABLED
+)
+{
 lm
 .
 initLoader
@@ -706,6 +713,7 @@ PocketStoriesCallbacks
 )
 )
 ;
+}
 }
 public
 void
