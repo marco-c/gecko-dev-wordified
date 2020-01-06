@@ -170,6 +170,17 @@ iframe
 visited
 {
 }
+*
+{
+box
+-
+sizing
+:
+border
+-
+box
+;
+}
 .
 message
 {
