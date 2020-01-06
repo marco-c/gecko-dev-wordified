@@ -325,7 +325,7 @@ aSpeedY
 override
 ;
 void
-TransformEventRefPoint
+ProcessUnhandledEvent
 (
 LayoutDeviceIntPoint
 *
@@ -333,6 +333,9 @@ aRefPoint
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutFocusSequenceNumber
 )
 override
 ;

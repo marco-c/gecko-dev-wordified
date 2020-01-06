@@ -625,7 +625,7 @@ ipc
 :
 :
 IPCResult
-RecvTransformEventRefPoint
+RecvProcessUnhandledEvent
 (
 const
 LayoutDeviceIntPoint
@@ -637,6 +637,9 @@ aOutRefPoint
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutFocusSequenceNumber
 )
 override
 ;
