@@ -11981,7 +11981,8 @@ Servo_StyleContext_AddRef
 (
 ctx
 :
-ServoStyleContextBorrowed
+&
+ServoStyleContext
 )
 ;
 }
@@ -11996,7 +11997,8 @@ Servo_StyleContext_Release
 (
 ctx
 :
-ServoStyleContextBorrowed
+&
+ServoStyleContext
 )
 ;
 }
