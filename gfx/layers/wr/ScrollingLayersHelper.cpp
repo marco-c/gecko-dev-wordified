@@ -500,7 +500,7 @@ aStackingContext
 )
 ;
 }
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 fm
 aStackingContext
@@ -1718,7 +1718,7 @@ the
 /
 implementation
 of
-PushScrollLayer
+DefineScrollLayer
 in
 DisplayListBuilder
 makes
@@ -1751,7 +1751,7 @@ here
 .
 if
 (
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 metadata
 -
@@ -2137,7 +2137,7 @@ bool
 ScrollingLayersHelper
 :
 :
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 const
 FrameMetrics
@@ -2354,7 +2354,7 @@ TopLeft
 mBuilder
 -
 >
-PushScrollLayer
+DefineScrollLayer
 (
 aMetrics
 .
@@ -2372,6 +2372,18 @@ aStackingContext
 ToRelativeLayoutRect
 (
 clipBounds
+)
+)
+;
+mBuilder
+-
+>
+PushScrollLayer
+(
+aMetrics
+.
+GetScrollId
+(
 )
 )
 ;

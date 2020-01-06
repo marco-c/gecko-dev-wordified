@@ -259,7 +259,7 @@ aCache
 )
 ;
 bool
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 const
 FrameMetrics
