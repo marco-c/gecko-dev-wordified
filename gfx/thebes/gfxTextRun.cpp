@@ -3732,6 +3732,7 @@ non
 opaque
 color
 struct
+MOZ_STACK_CLASS
 BufferAlphaColor
 {
 explicit

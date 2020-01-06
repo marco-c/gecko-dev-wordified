@@ -454,6 +454,7 @@ DrawTarget
 DrawTarget
 ;
 struct
+MOZ_STACK_CLASS
 Params
 {
 nsIAtom

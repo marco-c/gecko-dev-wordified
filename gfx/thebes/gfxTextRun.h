@@ -1606,6 +1606,7 @@ const
 }
 ;
 struct
+MOZ_STACK_CLASS
 DrawParams
 {
 gfxContext
@@ -3396,6 +3397,7 @@ mMatchType
 }
 ;
 class
+MOZ_STACK_CLASS
 GlyphRunIterator
 {
 public

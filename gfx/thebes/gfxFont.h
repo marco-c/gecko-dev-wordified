@@ -2371,6 +2371,7 @@ gfxFontCache
 gGlobalCache
 ;
 struct
+MOZ_STACK_CLASS
 Key
 {
 const
@@ -3476,6 +3477,7 @@ textrun
 *
 /
 struct
+MOZ_STACK_CLASS
 Parameters
 {
 /
@@ -14257,6 +14259,7 @@ per
 GlyphRun
 .
 struct
+MOZ_STACK_CLASS
 TextRunDrawParams
 {
 RefPtr
@@ -14352,6 +14355,7 @@ paintSVGGlyphs
 }
 ;
 struct
+MOZ_STACK_CLASS
 FontDrawParams
 {
 RefPtr
@@ -14431,6 +14435,7 @@ haveColorGlyphs
 }
 ;
 struct
+MOZ_STACK_CLASS
 EmphasisMarkDrawParams
 {
 gfxContext
