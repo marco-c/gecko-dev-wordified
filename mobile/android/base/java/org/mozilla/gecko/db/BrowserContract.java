@@ -1493,7 +1493,7 @@ String
 PARAM_INSERT_FROM_SYNC_AS_MODIFIED
 =
 "
-insertFromSyncAsModified
+modifiedBySync
 "
 ;
 }

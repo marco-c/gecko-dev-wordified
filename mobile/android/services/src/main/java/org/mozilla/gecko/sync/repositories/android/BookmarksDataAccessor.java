@@ -2610,7 +2610,7 @@ if
 (
 rec
 .
-insertFromSyncAsModified
+modifiedBySync
 )
 {
 cv
