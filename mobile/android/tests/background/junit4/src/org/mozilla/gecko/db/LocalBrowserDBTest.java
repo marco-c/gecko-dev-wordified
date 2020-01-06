@@ -743,7 +743,7 @@ parentId
 =
 Long
 .
-valueOf
+parseLong
 (
 parentUri
 .
@@ -867,7 +867,7 @@ folderId
 =
 Long
 .
-valueOf
+parseLong
 (
 folderUri
 .
@@ -1085,7 +1085,7 @@ parentId
 =
 Long
 .
-valueOf
+parseLong
 (
 parentUri
 .
@@ -2125,7 +2125,7 @@ newParentId
 =
 Long
 .
-valueOf
+parseLong
 (
 newFolderUri
 .
@@ -2408,7 +2408,7 @@ folderId
 =
 Long
 .
-valueOf
+parseLong
 (
 folderUri
 .
@@ -4026,7 +4026,7 @@ parentId
 =
 Long
 .
-valueOf
+parseLong
 (
 parentUri
 .
