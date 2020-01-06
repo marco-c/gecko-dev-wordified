@@ -1806,7 +1806,7 @@ socksProxy
 ;
 p
 .
-socksProxyVersion
+socksVersion
 =
 assert
 .
@@ -1814,7 +1814,7 @@ positiveInteger
 (
 json
 .
-socksProxyVersion
+socksVersion
 )
 ;
 }
@@ -1965,11 +1965,11 @@ this
 .
 socksProxyPort
 )
-socksProxyVersion
+socksVersion
 :
 this
 .
-socksProxyVersion
+socksVersion
 proxyAutoconfigUrl
 :
 this
