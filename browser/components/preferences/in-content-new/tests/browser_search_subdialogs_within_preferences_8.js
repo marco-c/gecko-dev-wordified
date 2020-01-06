@@ -13,6 +13,11 @@ bar
 .
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Enabling
