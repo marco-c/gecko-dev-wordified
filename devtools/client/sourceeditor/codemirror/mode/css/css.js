@@ -3953,6 +3953,11 @@ blockCommentEnd
 *
 /
 "
+blockCommentContinue
+:
+"
+*
+"
 lineComment
 :
 lineComment
