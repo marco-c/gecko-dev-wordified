@@ -1019,6 +1019,7 @@ aStartChild
 nsIContent
 *
 aEndChild
+InsertionKind
 )
 ;
 /
@@ -12716,6 +12717,7 @@ aIsAppend
 nsIFrame
 *
 aPrevSibling
+InsertionKind
 )
 ;
 void
