@@ -884,7 +884,7 @@ constexpr
 Register
 FramePointer
 =
-InvalidReg
+fp
 ;
 static
 constexpr
