@@ -2999,6 +2999,18 @@ listener
 mListener
 ;
 }
+nsCOMPtr
+<
+nsIInputStream
+>
+stream
+(
+do_QueryInterface
+(
+mStream
+)
+)
+;
 nsresult
 rv
 =
@@ -3009,7 +3021,7 @@ OnDataAvailable
 (
 request
 context
-mStream
+stream
 offset
 count
 )

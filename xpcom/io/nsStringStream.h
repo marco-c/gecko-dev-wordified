@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h

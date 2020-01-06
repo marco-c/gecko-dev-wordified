@@ -422,6 +422,8 @@ final
 public
 nsIStringInputStream
 public
+nsIInputStream
+public
 nsISeekableStream
 public
 nsISupportsCString
