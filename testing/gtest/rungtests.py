@@ -123,7 +123,7 @@ complete
     
 TEST_PROC_TIMEOUT
 =
-1800
+1200
     
 #
 Time
