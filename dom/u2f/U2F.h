@@ -411,6 +411,11 @@ aRv
 ;
 private
 :
+void
+Cancel
+(
+)
+;
 nsString
 mOrigin
 ;
