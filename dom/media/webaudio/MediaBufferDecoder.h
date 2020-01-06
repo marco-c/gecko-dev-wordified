@@ -236,10 +236,6 @@ operation
 .
 WebAudioDecodeJob
 (
-const
-nsACString
-&
-aContentType
 dom
 :
 :
@@ -345,9 +341,6 @@ const
 ;
 AudioChunk
 mBuffer
-;
-nsCString
-mContentType
 ;
 RefPtr
 <
