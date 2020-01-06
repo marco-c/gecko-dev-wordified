@@ -140,9 +140,20 @@ changed
 jittest
 '
     
+'
+test
+-
+verification
+'
+    
 #
 test
 flavors
+(
+narrower
+than
+suites
+)
     
 '
 jsreftest
