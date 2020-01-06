@@ -254,6 +254,12 @@ FormHistory
 .
 schemaVersion
 ;
+FormHistory
+.
+shutdown
+(
+)
+;
 /
 /
 and
@@ -331,6 +337,7 @@ asyncClose
 cb
 )
 ;
+return
 cb
 .
 wait

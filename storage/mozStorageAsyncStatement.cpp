@@ -678,11 +678,10 @@ given
 ;
 MOZ_ASSERT
 (
-!
 aDBConnection
 -
 >
-isClosed
+isConnectionReadyOnThisThread
 (
 )
 "
@@ -1520,12 +1519,6 @@ threadOpenedOn
 ;
 NS_ProxyRelease
 (
-"
-AsyncStatement
-:
-:
-mDBConnection
-"
 targetThread
 mDBConnection
 .
