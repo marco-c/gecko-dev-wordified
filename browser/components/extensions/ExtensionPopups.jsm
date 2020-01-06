@@ -1519,6 +1519,16 @@ PopupAutoComplete
 "
 )
 ;
+browser
+.
+sameProcessAsFrameLoader
+=
+this
+.
+extension
+.
+groupFrameLoader
+;
 if
 (
 this
