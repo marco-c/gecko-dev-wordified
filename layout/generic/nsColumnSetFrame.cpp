@@ -698,7 +698,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 for
