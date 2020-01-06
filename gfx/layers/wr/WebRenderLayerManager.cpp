@@ -4267,6 +4267,16 @@ aThrottle
 true
 )
 ;
+TimeStamp
+transactionStart
+=
+mTransactionIdAllocator
+-
+>
+GetTransactionStart
+(
+)
+;
 /
 /
 Skip
@@ -4381,6 +4391,7 @@ ToUnknownSize
 sync
 mLatestTransactionId
 mScrollData
+transactionStart
 )
 ;
 }

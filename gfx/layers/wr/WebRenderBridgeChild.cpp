@@ -543,6 +543,13 @@ const
 WebRenderScrollData
 &
 aScrollData
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTxnStartTime
 )
 {
 MOZ_ASSERT
@@ -631,6 +638,7 @@ dl
 dl_desc
 aScrollData
 mIdNamespace
+aTxnStartTime
 fwdTime
 )
 ;
@@ -656,6 +664,7 @@ dl
 dl_desc
 aScrollData
 mIdNamespace
+aTxnStartTime
 fwdTime
 )
 ;

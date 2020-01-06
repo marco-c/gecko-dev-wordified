@@ -781,6 +781,10 @@ aIdNamespace
 const
 TimeStamp
 &
+aTxnStartTime
+const
+TimeStamp
+&
 aFwdTime
 )
 override
@@ -855,6 +859,10 @@ wr
 IdNamespace
 &
 aIdNamespace
+const
+TimeStamp
+&
+aTxnStartTime
 const
 TimeStamp
 &
@@ -1323,6 +1331,10 @@ aTransactionId
 const
 TimeStamp
 &
+aTxnStartTime
+const
+TimeStamp
+&
 aFwdTime
 )
 ;
@@ -1599,6 +1611,10 @@ aIdNamespace
 const
 TimeStamp
 &
+aTxnStartTime
+const
+TimeStamp
+&
 aFwdTime
 )
 ;
@@ -1786,6 +1802,10 @@ aId
 const
 TimeStamp
 &
+aTxnStartTime
+const
+TimeStamp
+&
 aFwdTime
 )
 :
@@ -1796,6 +1816,10 @@ aEpoch
 mId
 (
 aId
+)
+mTxnStartTime
+(
+aTxnStartTime
 )
 mFwdTime
 (
@@ -1811,6 +1835,9 @@ mEpoch
 ;
 uint64_t
 mId
+;
+TimeStamp
+mTxnStartTime
 ;
 TimeStamp
 mFwdTime
