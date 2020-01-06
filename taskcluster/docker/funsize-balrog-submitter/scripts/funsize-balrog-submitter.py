@@ -1202,6 +1202,27 @@ set
 "
 )
     
+#
+blob
+suffix
+used
+for
+releases
+only
+    
+suffix
+=
+os
+.
+environ
+.
+get
+(
+"
+BALROG_BLOB_SUFFIX
+"
+)
+    
 s3_bucket
 =
 os
@@ -1516,6 +1537,9 @@ dummy
 args
 .
 dummy
+suffix
+=
+suffix
 )
             
 productName
@@ -1530,6 +1554,26 @@ e
 appName
 "
 ]
+            
+if
+suffix
+:
+                
+log
+.
+warning
+(
+"
+Not
+submitting
+complete
+info
+"
+)
+                
+complete_info
+=
+None
             
 retry
 (
