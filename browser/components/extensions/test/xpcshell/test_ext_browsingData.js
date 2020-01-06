@@ -328,7 +328,7 @@ remove
 {
 }
 {
-localStorage
+indexedDB
 :
 true
 }
@@ -428,7 +428,7 @@ not
 support
 dataTypes
 :
-localStorage
+indexedDB
 /
 .
 test
