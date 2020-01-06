@@ -1524,6 +1524,7 @@ output
 .
             
 grcov_output
+_
 =
 self
 .
@@ -1532,31 +1533,9 @@ get_output_from_command
                 
 grcov_command
                 
-cwd
-=
-self
-.
-grcov_dir
-                
 silent
 =
 True
-                
-tmpfile_base_path
-=
-os
-.
-path
-.
-join
-(
-self
-.
-grcov_dir
-'
-grcov_lcov_output
-'
-)
                 
 save_tmpfiles
 =
@@ -1570,14 +1549,10 @@ files
             
 )
             
-new_output_name
+output_file_name
 =
-grcov_output
-[
-0
-]
-+
 '
+grcov_lcov_output
 .
 info
 '
@@ -1587,10 +1562,17 @@ os
 rename
 (
 grcov_output
-[
-0
-]
-new_output_name
+os
+.
+path
+.
+join
+(
+self
+.
+grcov_dir
+output_file_name
+)
 )
             
 #
@@ -1634,7 +1616,7 @@ grcov
 zip
 '
 )
-new_output_name
+output_file_name
 ]
                 
 cwd
