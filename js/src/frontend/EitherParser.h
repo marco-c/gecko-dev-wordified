@@ -210,11 +210,6 @@ frontend
 {
 template
 <
-template
-<
-typename
-CharT
->
 class
 ParseHandler
 >
@@ -242,9 +237,6 @@ Node
 =
 typename
 ParseHandler
-<
-char16_t
->
 :
 :
 Node
