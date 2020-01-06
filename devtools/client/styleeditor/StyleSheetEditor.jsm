@@ -2060,6 +2060,13 @@ e
 }
 else
 {
+console
+.
+error
+(
+e
+)
+;
 this
 .
 emit

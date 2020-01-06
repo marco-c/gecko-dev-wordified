@@ -2086,6 +2086,13 @@ catch
 e
 )
 {
+console
+.
+error
+(
+e
+)
+;
 this
 .
 emit
