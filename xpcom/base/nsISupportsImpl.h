@@ -2330,10 +2330,11 @@ on
 this
 thread
 .
-std
-:
-:
-atomic_thread_fence
+result
+=
+mValue
+.
+load
 (
 std
 :
