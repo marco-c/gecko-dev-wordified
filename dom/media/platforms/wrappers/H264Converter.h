@@ -642,6 +642,12 @@ ShutdownPromise
 >
 mShutdownPromise
 ;
+MozPromiseHolder
+<
+FlushPromise
+>
+mFlushPromise
+;
 RefPtr
 <
 GMPCrashHelper
