@@ -2790,6 +2790,13 @@ return
 mCanvasElement
 ;
 }
+nsIDocument
+*
+GetOwnerDoc
+(
+)
+const
+;
 /
 /
 WebIDL
