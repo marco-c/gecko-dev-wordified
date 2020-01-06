@@ -80,7 +80,7 @@ parser
 import
 getParser
 Parser
-Entity
+DTDEntity
 from
 compare_locales
 .
@@ -150,9 +150,6 @@ _test
 self
 content
 refWarnOrErrors
-with_ref_file
-=
-False
 )
 :
         
@@ -200,32 +197,6 @@ l10n
 0
 ]
         
-if
-with_ref_file
-:
-            
-kwargs
-=
-{
-                
-'
-reference
-'
-:
-self
-.
-refList
-            
-}
-        
-else
-:
-            
-kwargs
-=
-{
-}
-        
 checker
 =
 getChecker
@@ -233,9 +204,21 @@ getChecker
 self
 .
 file
-*
-*
-kwargs
+)
+        
+if
+checker
+.
+needs_reference
+:
+            
+checker
+.
+set_reference
+(
+self
+.
+refList
 )
         
 ref
@@ -1766,10 +1749,6 @@ brandShorterName
 tuple
 (
 )
-                   
-with_ref_file
-=
-True
 )
     
 def
@@ -1832,10 +1811,6 @@ xmlparse
 '
 )
 )
-                   
-with_ref_file
-=
-True
 )
     
 def
@@ -1872,10 +1847,6 @@ brandShorterName
 tuple
 (
 )
-                   
-with_ref_file
-=
-True
 )
     
 def
@@ -1950,10 +1921,6 @@ brandShortName
 tuple
 (
 )
-                   
-with_ref_file
-=
-True
 )
     
 def
@@ -2024,10 +1991,6 @@ xmlparse
 '
 )
 )
-                   
-with_ref_file
-=
-True
 )
     
 def
@@ -2092,10 +2055,6 @@ xmlparse
 '
 )
 )
-                   
-with_ref_file
-=
-True
 )
 class
 TestAndroid
@@ -2232,13 +2191,10 @@ v
 )
         
 return
-Entity
+DTDEntity
 (
+            
 ctx
-lambda
-s
-:
-s
 '
 '
 (
@@ -2254,7 +2210,6 @@ v
 )
 (
 )
-                      
 (
 0
 len
@@ -2312,17 +2267,14 @@ v
 )
         
 return
-Entity
+DTDEntity
 (
+            
 ctx
-                      
-lambda
-s
-:
-s
+            
 '
 '
-                      
+            
 (
 0
 len
@@ -2340,7 +2292,7 @@ v
 9
 12
 )
-                      
+            
 (
 14
 len
@@ -2422,6 +2374,15 @@ checker
 getChecker
 (
 f
+extra_tests
+=
+[
+'
+android
+-
+dtd
+'
+]
 )
         
 #
@@ -3438,6 +3399,15 @@ checker
 getChecker
 (
 f
+extra_tests
+=
+[
+'
+android
+-
+dtd
+'
+]
 )
         
 #
@@ -3946,8 +3916,12 @@ checker
 getChecker
 (
 f
-reference
-=
+)
+        
+checker
+.
+set_reference
+(
 ref
 [
 0
