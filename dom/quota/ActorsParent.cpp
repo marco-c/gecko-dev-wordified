@@ -24410,7 +24410,6 @@ rv
 =
 EnsureTemporaryStorageIsInitialized
 (
-aPersistenceType
 )
 ;
 if
@@ -24684,20 +24683,10 @@ QuotaManager
 :
 EnsureTemporaryStorageIsInitialized
 (
-PersistenceType
-aPersistenceType
 )
 {
 AssertIsOnIOThread
 (
-)
-;
-MOZ_ASSERT
-(
-aPersistenceType
-!
-=
-PERSISTENCE_TYPE_PERSISTENT
 )
 ;
 MOZ_ASSERT
@@ -24719,7 +24708,7 @@ rv
 =
 InitializeRepository
 (
-aPersistenceType
+PERSISTENCE_TYPE_DEFAULT
 )
 ;
 if
@@ -24755,10 +24744,7 @@ rv
 =
 InitializeRepository
 (
-ComplementaryPersistenceType
-(
-aPersistenceType
-)
+PERSISTENCE_TYPE_TEMPORARY
 )
 ;
 if
@@ -33287,7 +33273,6 @@ aQuotaManager
 >
 EnsureTemporaryStorageIsInitialized
 (
-PERSISTENCE_TYPE_TEMPORARY
 )
 ;
 if
