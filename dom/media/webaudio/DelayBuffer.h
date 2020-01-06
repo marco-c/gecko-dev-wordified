@@ -128,6 +128,13 @@ h
 #
 include
 "
+AudioBlock
+.
+h
+"
+#
+include
+"
 AudioSegment
 .
 h

@@ -156,6 +156,13 @@ nsMathUtils
 .
 h
 "
+#
+include
+"
+AlignmentUtils
+.
+h
+"
 using
 namespace
 mozilla

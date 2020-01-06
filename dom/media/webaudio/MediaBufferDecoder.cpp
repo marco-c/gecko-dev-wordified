@@ -313,6 +313,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+AudioNodeEngine
+.
+h
+"
 namespace
 mozilla
 {
