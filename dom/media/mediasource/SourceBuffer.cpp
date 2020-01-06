@@ -984,6 +984,11 @@ TimeIntervals
 currentValue
 (
 mBuffered
+-
+>
+ToTimeIntervals
+(
+)
 )
 ;
 rangeChanged
@@ -1062,13 +1067,7 @@ ToSupports
 (
 this
 )
-)
-;
 intersection
-.
-ToTimeRanges
-(
-mBuffered
 )
 ;
 }

@@ -306,6 +306,17 @@ mozilla
 /
 dom
 /
+TimeRanges
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 VideoPlaybackQuality
 .
 h
