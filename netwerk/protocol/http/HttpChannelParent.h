@@ -1207,6 +1207,16 @@ aMessageCategory
 )
 override
 ;
+nsresult
+LogBlockedCORSRequest
+(
+const
+nsAString
+&
+aMessage
+)
+override
+;
 /
 /
 Calls
