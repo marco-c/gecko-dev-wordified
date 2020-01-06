@@ -13550,7 +13550,6 @@ builds
 open
 about
 :
-firefox
 which
 provides
 an
@@ -13640,7 +13639,7 @@ loadUrlInTab
 (
 AboutPages
 .
-FIREFOX
+UPDATER
 )
 ;
 break
@@ -26849,12 +26848,14 @@ getDataString
 ;
 data
 .
-putInt
+putString
 (
 "
 flags
 "
-LOAD_NEW_TAB
+"
+OPEN_NEWTAB
+"
 )
 ;
 getAppEventDispatcher
