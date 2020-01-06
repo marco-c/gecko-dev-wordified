@@ -212,6 +212,14 @@ unsafe_code
 [
 feature
 (
+macro_vis_matcher
+)
+]
+#
+!
+[
+feature
+(
 plugin
 )
 ]
