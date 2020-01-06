@@ -11321,10 +11321,6 @@ JSObject
 aCpows
 )
 :
-mRootingCx
-(
-aRootingCx
-)
 mCpows
 (
 aRootingCx
@@ -11457,7 +11453,9 @@ aManager
 SameProcessCpowHolder
 cpows
 (
-mRootingCx
+RootingCx
+(
+)
 mCpows
 )
 ;
