@@ -694,13 +694,6 @@ resource
 /
 URL
 .
-if
-(
-exception
-.
-stack
-)
-{
 exception
 .
 stack
@@ -787,7 +780,6 @@ addon
 "
 )
 ;
-}
 let
 rest
 =
