@@ -576,7 +576,10 @@ StartupThreads
 (
 )
 {
+DebugOnly
+<
 HRESULT
+>
 hr
 =
 CoInitializeEx

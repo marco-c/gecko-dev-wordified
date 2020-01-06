@@ -42867,7 +42867,10 @@ to
 be
 inited
 .
+DebugOnly
+<
 HRESULT
+>
 hr
 =
 CoInitializeEx
