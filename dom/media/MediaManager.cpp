@@ -12260,6 +12260,15 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+sInShutdown
+)
+{
+return
+NS_OK
+;
+}
 self
 -
 >
