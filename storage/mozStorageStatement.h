@@ -202,6 +202,9 @@ class
 Connection
 ;
 class
+StatementParamsHolder
+;
+class
 StatementRowHolder
 ;
 class
@@ -493,7 +496,7 @@ objects
 /
 nsMainThreadPtrHandle
 <
-nsIXPConnectJSObjectHolder
+StatementParamsHolder
 >
 mStatementParamsHolder
 ;

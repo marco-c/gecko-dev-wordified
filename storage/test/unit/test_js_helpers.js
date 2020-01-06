@@ -136,6 +136,9 @@ let
 expected
 =
 [
+0
+1
+2
 "
 a
 "
@@ -144,6 +147,9 @@ b
 "
 "
 c
+"
+"
+length
 "
 ]
 ;
@@ -188,7 +194,7 @@ index
 do_check_eq
 (
 index
-3
+7
 )
 ;
 }
