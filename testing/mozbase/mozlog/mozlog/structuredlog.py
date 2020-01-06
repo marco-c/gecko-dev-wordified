@@ -1688,6 +1688,15 @@ _state
 suite_started
 :
                 
+#
+limit
+data
+to
+reduce
+unnecessary
+log
+bloat
+                
 self
 .
 error
@@ -1720,6 +1729,10 @@ dumps
 (
 data
 )
+[
+:
+100
+]
 )
 )
                 
