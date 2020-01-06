@@ -444,8 +444,6 @@ kSkipFrames
 24
 &
 aState
-0
-nullptr
 )
 ;
 #

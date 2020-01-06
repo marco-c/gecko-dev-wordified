@@ -5033,8 +5033,6 @@ maxFrames
 /
 0
 aStream
-0
-nullptr
 )
 ;
 }
@@ -5164,8 +5162,6 @@ maxFrames
 /
 0
 aStream
-0
-nullptr
 )
 ;
 }
@@ -5234,8 +5230,6 @@ maxFrames
 0
 &
 aLocations
-0
-nullptr
 )
 ;
 }

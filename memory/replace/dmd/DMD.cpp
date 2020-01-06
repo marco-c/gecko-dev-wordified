@@ -5708,8 +5708,6 @@ skipFrames
 MaxFrames
 &
 tmp
-0
-nullptr
 )
 ;
 #
@@ -11614,8 +11612,6 @@ maxFrames
 *
 /
 1
-nullptr
-0
 nullptr
 )
 ;

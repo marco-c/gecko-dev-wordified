@@ -714,17 +714,8 @@ maxFrames
 *
 /
 0
-reinterpret_cast
-<
-void
-*
->
-(
 &
 rawStack
-)
-0
-nullptr
 )
 ;
 ProcessedStack

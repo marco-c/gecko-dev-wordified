@@ -561,8 +561,6 @@ maxFrames
 /
 0
 nullptr
-0
-nullptr
 )
 ;
 printf
