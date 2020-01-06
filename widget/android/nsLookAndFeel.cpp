@@ -1859,8 +1859,7 @@ AssignLiteral
 "
 \
 "
-Droid
-Sans
+Roboto
 \
 "
 "
