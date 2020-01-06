@@ -1291,7 +1291,7 @@ mdns
 .
 use_js_fallback
 "
-true
+false
 )
 ;
 /
