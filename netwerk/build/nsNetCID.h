@@ -191,9 +191,6 @@ classes
 service
 implementing
 nsIIOService
-and
-nsIIOService2
-.
 #
 define
 NS_IOSERVICE_CONTRACTID

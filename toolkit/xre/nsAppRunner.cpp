@@ -507,7 +507,7 @@ h
 #
 include
 "
-nsIIOService2
+nsIIOService
 .
 h
 "
@@ -24981,7 +24981,7 @@ mStartOffline
 {
 nsCOMPtr
 <
-nsIIOService2
+nsIIOService
 >
 io
 (
