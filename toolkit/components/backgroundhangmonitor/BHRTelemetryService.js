@@ -290,6 +290,7 @@ thread
 runnableName
 process
 stack
+remoteType
 modules
 annotations
 }
@@ -550,6 +551,7 @@ duration
 thread
 runnableName
 process
+remoteType
 annotations
 stack
 }
