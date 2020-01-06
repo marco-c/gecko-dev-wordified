@@ -682,6 +682,8 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
+=
+0
 ;
 /
 /

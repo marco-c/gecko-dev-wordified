@@ -470,6 +470,15 @@ nsIStreamListener
 aStreamListener
 )
 ;
+already_AddRefed
+<
+nsIPrincipal
+>
+GetCurrentPrincipal
+(
+)
+override
+;
 bool
 IsTransportSeekable
 (

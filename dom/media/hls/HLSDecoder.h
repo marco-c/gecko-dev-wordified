@@ -256,6 +256,15 @@ Pause
 )
 override
 ;
+already_AddRefed
+<
+nsIPrincipal
+>
+GetCurrentPrincipal
+(
+)
+override
+;
 bool
 IsTransportSeekable
 (

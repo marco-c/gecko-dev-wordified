@@ -271,6 +271,15 @@ return
 mDemuxer
 ;
 }
+already_AddRefed
+<
+nsIPrincipal
+>
+GetCurrentPrincipal
+(
+)
+override
+;
 bool
 IsTransportSeekable
 (
