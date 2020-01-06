@@ -553,7 +553,7 @@ mValue
 aValue
 ;
 }
-bool
+void
 URLParams
 :
 :
@@ -565,11 +565,6 @@ nsAString
 aName
 )
 {
-bool
-found
-=
-false
-;
 for
 (
 uint32_t
@@ -609,10 +604,6 @@ RemoveElementAt
 i
 )
 ;
-found
-=
-true
-;
 }
 else
 {
@@ -622,9 +613,6 @@ i
 ;
 }
 }
-return
-found
-;
 }
 void
 URLParams
@@ -2102,8 +2090,6 @@ nsAString
 aName
 )
 {
-if
-(
 mParams
 -
 >
@@ -2111,13 +2097,11 @@ Delete
 (
 aName
 )
-)
-{
+;
 NotifyObserver
 (
 )
 ;
-}
 }
 void
 URLSearchParams
