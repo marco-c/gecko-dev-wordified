@@ -31,11 +31,17 @@ toolkit
 js
 *
 /
+const
+ToolkitModules
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+ToolkitModules
 "
 EventEmitter
 "
@@ -531,6 +537,8 @@ Map
 (
 )
 ;
+ToolkitModules
+.
 EventEmitter
 .
 decorate
