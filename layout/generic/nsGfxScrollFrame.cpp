@@ -1428,12 +1428,12 @@ aFrame
 const
 ReflowInput
 &
-aState
+aReflowInput
 )
 :
 mReflowInput
 (
-aState
+aReflowInput
 )
 /
 /
@@ -1460,7 +1460,7 @@ depth
 here
 mBoxState
 (
-aState
+aReflowInput
 .
 mFrame
 -
@@ -1468,7 +1468,7 @@ mFrame
 PresContext
 (
 )
-aState
+aReflowInput
 .
 mRenderingContext
 0
