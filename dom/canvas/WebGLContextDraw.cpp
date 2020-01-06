@@ -3963,7 +3963,7 @@ gl
 }
 if
 (
-lastVert
+indexCount
 )
 {
 AUTO_PROFILER_LABEL
@@ -4181,7 +4181,7 @@ gl
 }
 if
 (
-lastVert
+indexCount
 &
 &
 instanceCount
