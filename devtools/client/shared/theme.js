@@ -109,7 +109,9 @@ variableFileContents
 require
 (
 "
-raw
+theme
+-
+loader
 !
 devtools
 /
