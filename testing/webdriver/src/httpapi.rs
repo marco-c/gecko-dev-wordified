@@ -51,7 +51,7 @@ ErrorStatus
 }
 ;
 static
-routes
+ROUTES
 :
 [
 (
@@ -1083,7 +1083,6 @@ push_str
 )
 ;
 let
-mut
 components
 =
 path
@@ -1135,6 +1134,7 @@ rv
 .
 push_str
 (
+&
 format
 !
 (
@@ -1169,10 +1169,10 @@ len
 1
 ]
 )
+[
 .
-as_slice
-(
-)
+.
+]
 )
 ;
 }
@@ -1182,6 +1182,7 @@ rv
 .
 push_str
 (
+&
 format
 !
 (
@@ -1192,10 +1193,10 @@ format
 "
 component
 )
+[
 .
-as_slice
-(
-)
+.
+]
 )
 ;
 }
@@ -1237,11 +1238,12 @@ Regex
 :
 new
 (
+&
 rv
+[
 .
-as_slice
-(
-)
+.
+]
 )
 .
 unwrap
@@ -1309,7 +1311,7 @@ ref
 match_type
 )
 in
-routes
+ROUTES
 .
 iter
 (
@@ -1511,6 +1513,7 @@ WebDriverError
 new
 (
 error
+&
 format
 !
 (
@@ -1529,10 +1532,10 @@ command
 method
 path
 )
+[
 .
-as_slice
-(
-)
+.
+]
 )
 )
 }
