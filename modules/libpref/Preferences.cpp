@@ -13336,7 +13336,7 @@ nsAString
 aMessage
 )
 ;
-protected
+private
 :
 /
 /
@@ -13715,8 +13715,6 @@ FreeObserverList
 void
 )
 ;
-private
-:
 const
 nsCString
 mPrefRoot
