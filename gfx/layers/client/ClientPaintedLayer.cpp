@@ -1028,7 +1028,7 @@ target
 mContentClient
 -
 >
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 target
 )
@@ -1109,7 +1109,7 @@ nullptr
 mContentClient
 -
 >
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 target
 )
@@ -1564,7 +1564,7 @@ target
 mContentClient
 -
 >
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 target
 )
@@ -1715,7 +1715,7 @@ PrepareDrawTargetForPainting
 mContentClient
 -
 >
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 target
 )
