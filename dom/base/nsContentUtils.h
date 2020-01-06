@@ -515,9 +515,6 @@ class
 nsIParser
 ;
 class
-nsIParserService
-;
-class
 nsIPluginTag
 ;
 class
@@ -3829,13 +3826,6 @@ InProlog
 nsINode
 *
 aNode
-)
-;
-static
-nsIParserService
-*
-GetParserService
-(
 )
 ;
 static
@@ -20508,11 +20498,6 @@ static
 nsIPrincipal
 *
 sNullSubjectPrincipal
-;
-static
-nsIParserService
-*
-sParserService
 ;
 static
 nsNameSpaceManager
