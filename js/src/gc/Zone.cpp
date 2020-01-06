@@ -337,6 +337,10 @@ externalStringCache_
 (
 group
 )
+functionToStringCache_
+(
+group
+)
 usage
 (
 &
