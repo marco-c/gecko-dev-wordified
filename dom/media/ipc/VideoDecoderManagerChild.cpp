@@ -694,14 +694,6 @@ not
 used
 *
 /
-nsCString
-*
-/
-*
-not
-used
-*
-/
 )
 {
 return
