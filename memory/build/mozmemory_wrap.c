@@ -144,10 +144,7 @@ int
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _Znwj
-)
 (
 unsigned
 int
@@ -176,10 +173,7 @@ int
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _Znaj
-)
 (
 unsigned
 int
@@ -205,10 +199,7 @@ void
 /
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdlPv
-)
 (
 void
 *
@@ -235,10 +226,7 @@ void
 /
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdaPv
-)
 (
 void
 *
@@ -270,10 +258,7 @@ const
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _ZnwjRKSt9nothrow_t
-)
 (
 unsigned
 int
@@ -308,10 +293,7 @@ const
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _ZnajRKSt9nothrow_t
-)
 (
 unsigned
 int
@@ -343,10 +325,7 @@ const
 /
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdlPvRKSt9nothrow_t
-)
 (
 void
 *
@@ -379,10 +358,7 @@ const
 /
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdaPvRKSt9nothrow_t
-)
 (
 void
 *
