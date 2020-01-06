@@ -1149,6 +1149,11 @@ ConnectStartHighRes
 )
 ;
 DOMHighResTimeStamp
+SecureConnectionStartHighRes
+(
+)
+;
+DOMHighResTimeStamp
 ConnectEndHighRes
 (
 )
@@ -1205,6 +1210,11 @@ DomainLookupEnd
 ;
 DOMTimeMilliSec
 ConnectStart
+(
+)
+;
+DOMTimeMilliSec
+SecureConnectionStart
 (
 )
 ;
@@ -1669,6 +1679,9 @@ mDomainLookupEnd
 ;
 TimeStamp
 mConnectStart
+;
+TimeStamp
+mSecureConnectionStart
 ;
 TimeStamp
 mConnectEnd

@@ -157,6 +157,9 @@ dns
 connect
 "
 "
+ssl
+"
+"
 send
 "
 "

@@ -173,6 +173,9 @@ dns
 connect
 "
 "
+ssl
+"
+"
 send
 "
 "

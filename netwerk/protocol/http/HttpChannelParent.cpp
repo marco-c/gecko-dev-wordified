@@ -9250,6 +9250,17 @@ connectStart
 mChannel
 -
 >
+GetSecureConnectionStart
+(
+&
+timing
+.
+secureConnectionStart
+)
+;
+mChannel
+-
+>
 GetConnectEnd
 (
 &
