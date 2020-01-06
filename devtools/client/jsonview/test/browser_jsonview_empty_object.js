@@ -282,7 +282,7 @@ summary
 ;
 /
 /
-Collapse
+Collapsed
 auto
 -
 expanded
