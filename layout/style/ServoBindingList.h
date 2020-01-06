@@ -792,13 +792,6 @@ RawServoSelectorListBorrowed
 )
 SERVO_BINDING_FUNC
 (
-Servo_SelectorList_Closest
-RawGeckoElementBorrowedOrNull
-RawGeckoElementBorrowed
-RawServoSelectorListBorrowed
-)
-SERVO_BINDING_FUNC
-(
 Servo_StyleSet_AddSizeOfExcludingThis
 void
 mozilla
