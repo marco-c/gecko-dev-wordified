@@ -1851,10 +1851,6 @@ aFailureReason
 )
 const
 {
-AssertOnManagerThread
-(
-)
-;
 aFailureReason
 =
 mHardwareAcceleratedReason
@@ -1927,10 +1923,6 @@ NeedsConversion
 )
 const
 {
-AssertOnManagerThread
-(
-)
-;
 return
 mConversion
 ;
