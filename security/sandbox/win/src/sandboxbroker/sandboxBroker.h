@@ -359,6 +359,10 @@ BrokerServices
 *
 sBrokerService
 ;
+static
+bool
+sRunningFromNetworkDrive
+;
 sandbox
 :
 :
