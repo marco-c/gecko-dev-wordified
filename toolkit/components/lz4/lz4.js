@@ -285,7 +285,7 @@ Uint8Array
 /
 /
 "
-mozLz4a
+mozLz40
 \
 0
 "
