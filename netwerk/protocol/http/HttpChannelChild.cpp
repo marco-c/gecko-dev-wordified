@@ -15683,8 +15683,8 @@ if
 (
 !
 mCacheEntryAvailable
-|
-|
+&
+&
 !
 mAltDataCacheEntryAvailable
 )
@@ -15722,8 +15722,8 @@ if
 (
 !
 mCacheEntryAvailable
-|
-|
+&
+&
 !
 mAltDataCacheEntryAvailable
 )
