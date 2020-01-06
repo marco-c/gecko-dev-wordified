@@ -4948,6 +4948,8 @@ GetSensorState
 {
 VRHMDSensorState
 result
+{
+}
 ;
 if
 (
@@ -5092,6 +5094,8 @@ absTime
 {
 VRHMDSensorState
 result
+{
+}
 ;
 ovrTrackingState
 state

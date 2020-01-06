@@ -850,15 +850,6 @@ leftDegrees
 struct
 VRHMDSensorState
 {
-VRHMDSensorState
-(
-)
-{
-Clear
-(
-)
-;
-}
 int64_t
 inputFrameID
 ;

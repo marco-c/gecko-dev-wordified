@@ -425,6 +425,12 @@ VRDeviceType
 aType
 )
 :
+mDisplayInfo
+{
+}
+mLastUpdateDisplayInfo
+{
+}
 mFrameStarted
 (
 false

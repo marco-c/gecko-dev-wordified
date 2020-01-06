@@ -1839,6 +1839,8 @@ headToEyeTransforms
 ;
 VRHMDSensorState
 result
+{
+}
 ;
 :
 :
