@@ -4612,13 +4612,6 @@ None
 2
 )
                         
-filename
-=
-normpath
-(
-filename
-)
-                        
 #
 We
 want
@@ -4634,6 +4627,13 @@ server
 sourcepath
 =
 filename
+                        
+filename
+=
+normpath
+(
+filename
+)
                         
 if
 filename
