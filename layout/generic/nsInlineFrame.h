@@ -346,10 +346,12 @@ aForward
 int32_t
 *
 aOffset
-bool
-aRespectClusters
+PeekOffsetCharacterOptions
+aOptions
 =
-true
+PeekOffsetCharacterOptions
+(
+)
 )
 override
 ;

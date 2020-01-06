@@ -2677,8 +2677,8 @@ aForward
 int32_t
 *
 aOffset
-bool
-aRespectClusters
+PeekOffsetCharacterOptions
+aOptions
 )
 {
 NS_ASSERTION
