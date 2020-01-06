@@ -925,6 +925,7 @@ new
 PrintProgressDialogChild
 (
 openDialogObserver
+printSettings
 )
 ;
 SendPPrintProgressDialogConstructor
