@@ -4070,7 +4070,7 @@ gNavigatorBundle
 formatStringFromName
 (
 "
-PluginClickToActivate
+PluginClickToActivate2
 "
 [
 pluginName
