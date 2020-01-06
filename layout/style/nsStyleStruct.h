@@ -20960,6 +20960,14 @@ mWindowShadow
 [
 reset
 ]
+float
+mWindowOpacity
+;
+/
+/
+[
+reset
+]
 }
 ;
 struct
