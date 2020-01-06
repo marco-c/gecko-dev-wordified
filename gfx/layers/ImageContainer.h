@@ -4488,9 +4488,6 @@ mStereoMode
 YUVColorSpace
 mYUVColorSpace
 ;
-uint32_t
-mDepth
-;
 gfx
 :
 :
@@ -4589,10 +4586,6 @@ YUVColorSpace
 :
 :
 BT601
-)
-mDepth
-(
-8
 )
 {
 }

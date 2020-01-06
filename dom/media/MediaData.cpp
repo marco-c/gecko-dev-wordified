@@ -1655,14 +1655,6 @@ aBuffer
 .
 mYUVColorSpace
 ;
-data
-.
-mDepth
-=
-aBuffer
-.
-mDepth
-;
 return
 data
 ;
