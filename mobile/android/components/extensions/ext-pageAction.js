@@ -295,6 +295,15 @@ tabTracker
 .
 activeTab
 ;
+this
+.
+tabManager
+.
+addActiveTabPermission
+(
+tab
+)
+;
 let
 popup
 =
