@@ -820,11 +820,6 @@ className
 command
 -
 button
-command
--
-button
--
-invertable
 devtools
 -
 button

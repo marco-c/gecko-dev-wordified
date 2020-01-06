@@ -724,9 +724,6 @@ options
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 bgTheme
 :
 "
@@ -841,9 +838,6 @@ inspector
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -1090,9 +1084,6 @@ webconsole
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 label
 :
 l10n
@@ -1377,9 +1368,6 @@ debugger
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -1710,9 +1698,6 @@ styleeditor
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -1876,9 +1861,6 @@ shadereditor
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2010,9 +1992,6 @@ canvas
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2157,9 +2136,6 @@ profiler
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2320,9 +2296,6 @@ memory
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2473,9 +2446,6 @@ network
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2651,9 +2621,6 @@ storage
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2831,9 +2798,6 @@ webaudio
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -2965,9 +2929,6 @@ scratchpad
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
@@ -3119,9 +3080,6 @@ dom
 .
 svg
 "
-invertIconForDarkTheme
-:
-true
 url
 :
 "
