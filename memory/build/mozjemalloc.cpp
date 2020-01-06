@@ -8425,7 +8425,6 @@ endif
 bool
 malloc_init_hard
 (
-void
 )
 ;
 #
@@ -27595,15 +27594,24 @@ define
 malloc_init
 (
 )
-false
+true
 #
 else
+/
+/
+Returns
+whether
+the
+allocator
+was
+successfully
+initialized
+.
 static
 inline
 bool
 malloc_init
 (
-void
 )
 {
 if
@@ -27621,7 +27629,7 @@ malloc_init_hard
 ;
 }
 return
-false
+true
 ;
 }
 #
@@ -27692,6 +27700,16 @@ return
 kernel_page_size
 ;
 }
+/
+/
+Returns
+whether
+the
+allocator
+was
+successfully
+initialized
+.
 #
 if
 !
@@ -27705,7 +27723,6 @@ endif
 bool
 malloc_init_hard
 (
-void
 )
 {
 unsigned
@@ -27751,7 +27768,7 @@ acquired
 gInitLock
 .
 return
-false
+true
 ;
 }
 if
@@ -27765,7 +27782,7 @@ init
 )
 {
 return
-false
+true
 ;
 }
 /
@@ -28470,7 +28487,7 @@ gMainArena
 )
 {
 return
-true
+false
 ;
 }
 /
@@ -28540,7 +28557,7 @@ Init
 )
 {
 return
-true
+false
 ;
 }
 malloc_initialized
@@ -28606,7 +28623,7 @@ _malloc_postfork_child
 #
 endif
 return
-false
+true
 ;
 }
 /
@@ -28889,6 +28906,7 @@ ret
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -28983,6 +29001,7 @@ aAlignment
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -29059,6 +29078,7 @@ num_size
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -29281,6 +29301,7 @@ else
 {
 if
 (
+!
 malloc_init
 (
 )
