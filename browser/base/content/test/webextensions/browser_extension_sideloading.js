@@ -1,17 +1,3 @@
-/
-*
-eslint
--
-disable
-mozilla
-/
-no
--
-arbitrary
--
-setTimeout
-*
-/
 const
 {
 AddonManagerPrivate
