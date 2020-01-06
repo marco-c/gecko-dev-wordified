@@ -723,6 +723,11 @@ aRedirectFlags
 )
 override
 ;
+void
+AsyncOpenInternal
+(
+)
+;
 bool
 ShouldRedirect
 (
