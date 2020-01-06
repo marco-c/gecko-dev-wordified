@@ -755,6 +755,11 @@ ErrorResult
 aRv
 )
 ;
+void
+ReleaseSelf
+(
+)
+;
 /
 /
 to

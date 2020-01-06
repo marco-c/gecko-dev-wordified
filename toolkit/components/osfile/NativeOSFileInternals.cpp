@@ -2837,7 +2837,7 @@ cause
 a
 crash
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AbstractDoEvent
@@ -2949,7 +2949,7 @@ cause
 a
 crash
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AbstractDoEvent
@@ -3971,7 +3971,7 @@ mResult
 return
 ;
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 DoReadToTypedArrayEvent
@@ -4175,7 +4175,7 @@ mResult
 return
 ;
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 DoReadToStringEvent

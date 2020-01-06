@@ -248,7 +248,9 @@ make
 it
 usable
 with
-NS_ReleaseOnMainThread
+/
+/
+NS_ReleaseOnMainThreadSystemGroup
 .
 class
 JSObjectHolder

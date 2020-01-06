@@ -4260,7 +4260,7 @@ mSaveComplete
 =
 true
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 ScriptPreloader

@@ -427,7 +427,7 @@ on
 the
 main
 thread
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 mozPersonalDictionaryLoader
@@ -806,7 +806,7 @@ the
 main
 thread
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 mozPersonalDictionarySave

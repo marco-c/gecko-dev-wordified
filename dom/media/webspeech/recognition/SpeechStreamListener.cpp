@@ -163,7 +163,7 @@ SpeechStreamListener
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 SpeechStreamListener

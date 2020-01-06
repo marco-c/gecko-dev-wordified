@@ -3742,7 +3742,7 @@ ref
 to
 AudioProxyThread
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AudioProxyThread

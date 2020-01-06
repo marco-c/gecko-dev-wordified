@@ -5971,7 +5971,7 @@ if
 mCallback
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsUrlClassifierLookupCallback

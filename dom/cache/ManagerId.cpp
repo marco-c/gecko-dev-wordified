@@ -460,7 +460,7 @@ to
 exist
 here
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 ManagerId

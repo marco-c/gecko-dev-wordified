@@ -339,7 +339,7 @@ if
 mLoadInfo
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsWyciwygChannel

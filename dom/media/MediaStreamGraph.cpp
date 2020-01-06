@@ -12416,7 +12416,7 @@ outside
 of
 StableState
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 MediaStreamGraphImpl

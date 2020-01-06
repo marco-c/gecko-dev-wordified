@@ -2174,7 +2174,7 @@ if
 observer
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 TLSServerConnectionInfo

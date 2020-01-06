@@ -304,9 +304,9 @@ we
 d
 have
 to
-NS_ReleaseOnMainThread
 /
 /
+NS_ReleaseOnMainThreadSystemGroup
 it
 in
 our
@@ -427,7 +427,7 @@ gfxFontSrcURI
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 gfxFontSrcURI

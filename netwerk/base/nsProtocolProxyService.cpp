@@ -1165,7 +1165,7 @@ if
 mChannel
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsAsyncResolveRequest
@@ -1186,7 +1186,7 @@ if
 mCallback
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsAsyncResolveRequest
@@ -1207,7 +1207,7 @@ if
 mProxyInfo
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsAsyncResolveRequest
@@ -1228,7 +1228,7 @@ if
 mXPComPPS
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsAsyncResolveRequest
@@ -2336,7 +2336,7 @@ NS_IsMainThread
 mIsMainThreadOnly
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AsyncGetPACURIRequest

@@ -2885,7 +2885,7 @@ if
 mLoader
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsHTTPListener

@@ -2823,7 +2823,7 @@ PR_smprintf_free
 NS_DispatchToMainThread
 /
 /
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 /
 /
 NS_NewRunnableFunction

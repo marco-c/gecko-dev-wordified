@@ -1265,7 +1265,7 @@ complete
 as
 well
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 ServiceWorkerJob
