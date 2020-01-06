@@ -797,7 +797,7 @@ opened
 )
 "
 Should
-close
+open
 onboarding
 overlay
 "
