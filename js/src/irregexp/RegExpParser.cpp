@@ -2152,6 +2152,12 @@ current_
 =
 kEndMarker
 ;
+next_pos_
+=
+end_
++
+1
+;
 has_more_
 =
 false
