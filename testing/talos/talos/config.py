@@ -3723,7 +3723,13 @@ no_upload_results
 False
                 
 '
-stylo
+enable_stylo
+'
+:
+False
+                
+'
+disable_stylo
 '
 :
 False
