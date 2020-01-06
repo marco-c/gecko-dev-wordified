@@ -2618,6 +2618,17 @@ rust
             
 (
 '
+mozjs_sys
+'
+'
+js
+/
+src
+'
+)
+            
+(
+'
 webdriver
 '
 '
