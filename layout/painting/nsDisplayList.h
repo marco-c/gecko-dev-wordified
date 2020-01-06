@@ -9964,10 +9964,6 @@ SetFrameIsModified
 true
 )
 ;
-mInInvalidSubtree
-=
-true
-;
 return
 true
 ;
