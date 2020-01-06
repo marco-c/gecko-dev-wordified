@@ -6875,6 +6875,8 @@ HandleScript
 script
 HandleObject
 obj
+HandleObjectGroup
+group
 HandleId
 id
 HandleValue
