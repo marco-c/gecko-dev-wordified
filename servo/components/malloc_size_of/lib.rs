@@ -5943,7 +5943,7 @@ malloc_size_of_is_0
 webrender_api
 :
 :
-StickySideConstraint
+StickyOffsetBounds
 )
 ;
 #
