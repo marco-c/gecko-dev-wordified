@@ -66,10 +66,6 @@ warnings
 ]
 extern
 crate
-atomic_refcell
-;
-extern
-crate
 cssparser
 ;
 extern
