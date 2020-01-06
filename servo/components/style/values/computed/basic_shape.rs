@@ -131,7 +131,10 @@ values
 computed
 :
 :
+{
 LengthOrPercentage
+ComputedUrl
+}
 ;
 use
 values
@@ -221,6 +224,7 @@ ClippingShape
 GenericClippingShape
 <
 BasicShape
+ComputedUrl
 >
 ;
 /
@@ -239,6 +243,7 @@ FloatAreaShape
 GenericFloatAreaShape
 <
 BasicShape
+ComputedUrl
 >
 ;
 /

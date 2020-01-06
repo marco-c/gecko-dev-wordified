@@ -617,6 +617,7 @@ CalcLengthOrPercentage
 Color
 Context
 ComputedValueAsSpecified
+ComputedUrl
 }
 ;
 use
@@ -24829,6 +24830,7 @@ IntermediateSVGPaint
 SVGPaint
 <
 IntermediateRGBA
+ComputedUrl
 >
 ;
 /
@@ -24843,6 +24845,7 @@ IntermediateSVGPaintKind
 SVGPaintKind
 <
 IntermediateRGBA
+ComputedUrl
 >
 ;
 impl

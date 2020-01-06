@@ -152,6 +152,7 @@ computed
 :
 {
 Angle
+ComputedUrl
 Context
 Length
 LengthOrPercentage
@@ -359,6 +360,7 @@ GenericImage
 <
 Gradient
 MozImageRect
+ComputedUrl
 >
 ;
 /
@@ -626,6 +628,7 @@ MozImageRect
 GenericMozImageRect
 <
 NumberOrPercentage
+ComputedUrl
 >
 ;
 impl
