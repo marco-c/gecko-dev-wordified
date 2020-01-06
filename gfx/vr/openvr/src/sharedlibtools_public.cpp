@@ -49,7 +49,7 @@ _WIN32
 #
 include
 <
-Windows
+windows
 .
 h
 >
@@ -136,6 +136,10 @@ defined
 _WIN32
 )
 return
+(
+void
+*
+)
 GetProcAddress
 (
 (
