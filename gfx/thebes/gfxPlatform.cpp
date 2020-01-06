@@ -6097,16 +6097,6 @@ Start
 (
 )
 ;
-gfx
-:
-:
-VRListenerThreadHolder
-:
-:
-Start
-(
-)
-;
 }
 }
 /
