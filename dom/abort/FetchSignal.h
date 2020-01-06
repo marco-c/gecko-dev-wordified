@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_AbortSignal_h
+mozilla_dom_FetchSignal_h
 #
 define
-mozilla_dom_AbortSignal_h
+mozilla_dom_FetchSignal_h
 #
 include
 "
@@ -136,13 +136,13 @@ namespace
 dom
 {
 class
-AbortController
+FetchController
 ;
 class
-AbortSignal
+FetchSignal
 ;
 class
-AbortSignal
+FetchSignal
 final
 :
 public
@@ -164,7 +164,7 @@ want
 to
 follow
 a
-AbortSignal
+FetchSignal
 .
 class
 Follower
@@ -190,7 +190,7 @@ Follower
 void
 Follow
 (
-AbortSignal
+FetchSignal
 *
 aSignal
 )
@@ -202,7 +202,7 @@ Unfollow
 ;
 RefPtr
 <
-AbortSignal
+FetchSignal
 >
 mFollowingSignal
 ;
@@ -211,12 +211,12 @@ mFollowingSignal
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-AbortSignal
+FetchSignal
 DOMEventTargetHelper
 )
-AbortSignal
+FetchSignal
 (
-AbortController
+FetchController
 *
 aController
 bool
@@ -224,7 +224,7 @@ aAborted
 )
 ;
 explicit
-AbortSignal
+FetchSignal
 (
 bool
 aAborted
@@ -293,7 +293,7 @@ const
 private
 :
 ~
-AbortSignal
+FetchSignal
 (
 )
 =
@@ -301,7 +301,7 @@ default
 ;
 RefPtr
 <
-AbortController
+FetchController
 >
 mController
 ;
@@ -343,4 +343,4 @@ namespace
 endif
 /
 /
-mozilla_dom_AbortSignal_h
+mozilla_dom_FetchSignal_h

@@ -264,7 +264,7 @@ FetchObserver
 nsIGlobalObject
 *
 aGlobal
-AbortSignal
+FetchSignal
 *
 aSignal
 )
