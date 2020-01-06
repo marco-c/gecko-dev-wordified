@@ -1199,6 +1199,8 @@ name
 nsIAtom
 *
 str
+bool
+ignore_case
 )
 ;
 \
@@ -1220,6 +1222,8 @@ name
 nsIAtom
 *
 str
+bool
+ignore_case
 )
 ;
 \
@@ -1241,6 +1245,9 @@ name
 nsIAtom
 *
 str
+\
+bool
+ignore_case
 )
 ;
 \
@@ -1262,6 +1269,8 @@ name
 nsIAtom
 *
 str
+bool
+ignore_case
 )
 ;
 \
@@ -1283,6 +1292,8 @@ name
 nsIAtom
 *
 str
+bool
+ignore_case
 )
 ;
 \
