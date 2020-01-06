@@ -4756,7 +4756,7 @@ a
 new
 channel
 return
-NS_OK
+NS_ERROR_ABORT
 ;
 }
 dom
@@ -4797,7 +4797,7 @@ a
 new
 channel
 return
-NS_OK
+NS_ERROR_ABORT
 ;
 }
 nsCOMPtr
