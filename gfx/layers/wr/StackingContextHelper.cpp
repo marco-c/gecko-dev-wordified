@@ -659,6 +659,16 @@ NudgeToIntegersFixedEpsilon
 (
 )
 ;
+/
+/
+Calculate
+the
+correct
+scale
+for
+current
+stacking
+context
 gfx
 :
 :
@@ -758,8 +768,8 @@ Store
 the
 inherited
 scale
-if
-has
+for
+child
 this
 -
 >
