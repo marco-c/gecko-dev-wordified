@@ -52856,13 +52856,30 @@ isCallbackInterface
 )
 :
         
+#
+Callbacks
+can
+store
+null
+if
+we
+nuked
+the
+compartments
+their
+        
+#
+objects
+lived
+in
+.
+        
 wrapCode
 =
-setObject
+setObjectOrNull
 (
             
 "
-*
 GetCallbackFromCallbackObject
 (
 %
