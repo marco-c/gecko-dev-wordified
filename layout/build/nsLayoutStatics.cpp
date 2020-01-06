@@ -822,13 +822,6 @@ h
 #
 include
 "
-MediaDecoder
-.
-h
-"
-#
-include
-"
 MediaPrefs
 .
 h
@@ -1723,13 +1716,6 @@ Initialize
 ;
 #
 endif
-MediaDecoder
-:
-:
-InitStatics
-(
-)
-;
 PromiseDebugging
 :
 :
