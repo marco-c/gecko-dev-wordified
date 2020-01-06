@@ -1024,6 +1024,13 @@ javascript
 .
 options
 .
+streams
+"
+"
+javascript
+.
+options
+.
 strict
 "
 "
