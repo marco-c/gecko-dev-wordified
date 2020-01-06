@@ -155,15 +155,6 @@ nsClipboard
 NS_DECL_ISUPPORTS
 NS_DECL_NSICLIPBOARD
 NS_DECL_NSIOBSERVER
-static
-already_AddRefed
-<
-nsIClipboard
->
-GetInstance
-(
-)
-;
 /
 /
 Make
