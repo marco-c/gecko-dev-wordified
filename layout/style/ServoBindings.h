@@ -1016,6 +1016,13 @@ StyleChildrenIteratorBorrowedMut
 it
 )
 ;
+bool
+Gecko_ElementHasBindingWithAnonymousContent
+(
+RawGeckoElementBorrowed
+element
+)
+;
 /
 /
 Selector
