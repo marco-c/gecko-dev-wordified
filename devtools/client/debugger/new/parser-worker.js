@@ -215494,6 +215494,9 @@ jsx
 "
 flow
 "
+"
+objectRestSpread
+"
 ]
 }
 )
