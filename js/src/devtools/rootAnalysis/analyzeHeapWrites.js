@@ -2877,6 +2877,9 @@ Gecko_CSSValue_SetFunction
 Gecko_CSSValue_SetArray
 "
 "
+Gecko_CSSValue_InitSharedList
+"
+"
 Gecko_EnsureMozBorderColors
 "
 "
