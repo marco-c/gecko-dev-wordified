@@ -540,6 +540,10 @@ clear_flags_and_damage
 (
 )
 .
+#
+[
+inline
+]
 fn
 clear_restyle_state
 (
@@ -635,6 +639,10 @@ style
 sharing
 behavior
 .
+#
+[
+inline
+]
 fn
 clear_restyle_flags_and_damage
 (
@@ -929,6 +937,10 @@ element
 was
 restyled
 .
+#
+[
+inline
+]
 pub
 fn
 is_restyle
@@ -1037,6 +1049,10 @@ of
 a
 restyle
 .
+#
+[
+inline
+]
 pub
 fn
 contains_restyle_data
@@ -2680,6 +2696,10 @@ element
 has
 styles
 .
+#
+[
+inline
+]
 pub
 fn
 has_styles
@@ -3219,6 +3239,10 @@ from
 the
 element
 .
+#
+[
+inline
+]
 pub
 fn
 clear_restyle_state
@@ -3249,6 +3273,10 @@ from
 the
 element
 .
+#
+[
+inline
+]
 pub
 fn
 clear_restyle_flags_and_damage

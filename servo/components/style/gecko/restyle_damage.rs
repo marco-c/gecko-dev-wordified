@@ -173,6 +173,10 @@ a
 new
 GeckoRestyleDamage
 .
+#
+[
+inline
+]
 pub
 fn
 new
@@ -202,6 +206,10 @@ for
 this
 damage
 .
+#
+[
+inline
+]
 pub
 fn
 as_change_hint
@@ -234,6 +242,10 @@ nsChangeHint
 )
 )
 .
+#
+[
+inline
+]
 pub
 fn
 empty
@@ -264,6 +276,10 @@ the
 empty
 damage
 .
+#
+[
+inline
+]
 pub
 fn
 is_empty

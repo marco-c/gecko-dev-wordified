@@ -619,6 +619,10 @@ animation
 only
 restyles
 .
+#
+[
+inline
+]
 pub
 fn
 for_animation_only

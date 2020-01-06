@@ -473,6 +473,10 @@ servo
 "
 )
 ]
+#
+[
+inline
+]
 fn
 is_servo_nonincremental_layout
 (
@@ -509,6 +513,10 @@ servo
 "
 )
 )
+]
+#
+[
+inline
 ]
 fn
 is_servo_nonincremental_layout
