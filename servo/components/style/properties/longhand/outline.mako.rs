@@ -580,14 +580,6 @@ a
 standards
 track
 .
-/
-/
-TODO
-:
-Should
-they
-animate
-?
 %
 for
 corner
@@ -652,7 +644,7 @@ True
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 spec
 =

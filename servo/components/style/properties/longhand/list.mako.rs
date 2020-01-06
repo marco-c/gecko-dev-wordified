@@ -1941,7 +1941,7 @@ auto
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 products
 =
