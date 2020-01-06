@@ -22781,6 +22781,9 @@ bitrateStdDev
 uint32_t
 discardedPackets
 ;
+uint32_t
+framesDecoded
+;
 if
 (
 mp
@@ -22802,6 +22805,8 @@ bitrateMean
 bitrateStdDev
 &
 discardedPackets
+&
+framesDecoded
 )
 )
 {
@@ -22848,6 +22853,15 @@ mDiscardedPackets
 Construct
 (
 discardedPackets
+)
+;
+s
+.
+mFramesDecoded
+.
+Construct
+(
+framesDecoded
 )
 ;
 }
