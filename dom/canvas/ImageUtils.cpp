@@ -1584,17 +1584,6 @@ platforms
 /
 /
 For
-GONK
-:
-implement
-GrallocImageImpl
-GrallocPlanarYCbCrImpl
-and
-GonkCameraImpl
-.
-/
-/
-For
 Windows
 :
 implement

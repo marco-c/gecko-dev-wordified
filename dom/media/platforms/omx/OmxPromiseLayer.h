@@ -678,12 +678,12 @@ mBuffer
 /
 /
 However
-in
-platform
-like
-gonk
+on
+some
+platforms
 it
-is
+may
+be
 another
 value
 .

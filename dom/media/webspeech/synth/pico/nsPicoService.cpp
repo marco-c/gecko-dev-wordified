@@ -428,10 +428,10 @@ the
 language
 files
 in
-Gonk
+Android
 #
 define
-GONK_PICO_LANG_PATH
+PICO_LANG_PATH
 "
 /
 system
@@ -2728,8 +2728,6 @@ variable
 or
 default
 android
-/
-b2g
 path
 nsAutoCString
 langPath
@@ -2755,7 +2753,7 @@ langPath
 .
 AssignLiteral
 (
-GONK_PICO_LANG_PATH
+PICO_LANG_PATH
 )
 ;
 }

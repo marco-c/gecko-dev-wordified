@@ -402,13 +402,6 @@ override
 {
 /
 /
-Cribbed
-from
-MediaPermissionGonk
-.
-cpp
-/
-/
 Create
 array
 for
