@@ -1987,7 +1987,7 @@ parameter
 .
 pub
 trait
-AsNamed
+AsTemplateParam
 {
 /
 /
@@ -2025,7 +2025,7 @@ type
 parameter
 .
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -2060,7 +2060,7 @@ type
 parameter
 ?
 fn
-is_named
+is_template_param
 (
 &
 self
@@ -2082,7 +2082,7 @@ bool
 {
 self
 .
-as_named
+as_template_param
 (
 ctx
 extra

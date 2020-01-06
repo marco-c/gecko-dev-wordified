@@ -97,7 +97,7 @@ template
 :
 :
 {
-AsNamed
+AsTemplateParam
 TemplateParameters
 }
 ;
@@ -899,7 +899,7 @@ id
 }
 }
 impl
-AsNamed
+AsTemplateParam
 for
 ItemId
 {
@@ -910,7 +910,7 @@ Extra
 )
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -939,7 +939,7 @@ resolve_item
 self
 )
 .
-as_named
+as_template_param
 (
 ctx
 &
@@ -949,7 +949,7 @@ ctx
 }
 }
 impl
-AsNamed
+AsTemplateParam
 for
 Item
 {
@@ -960,7 +960,7 @@ Extra
 )
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -985,7 +985,7 @@ self
 .
 kind
 .
-as_named
+as_template_param
 (
 ctx
 self
@@ -993,7 +993,7 @@ self
 }
 }
 impl
-AsNamed
+AsTemplateParam
 for
 ItemKind
 {
@@ -1003,7 +1003,7 @@ Extra
 Item
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -1039,7 +1039,7 @@ ty
 >
 ty
 .
-as_named
+as_template_param
 (
 ctx
 item
@@ -5325,7 +5325,7 @@ mangled
 if
 target
 .
-is_named
+is_template_param
 (
 ctx
 &

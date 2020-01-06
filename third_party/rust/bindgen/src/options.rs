@@ -1454,8 +1454,6 @@ Arg
 with_name
 (
 "
-no
--
 unstable
 -
 rust
@@ -1465,8 +1463,6 @@ rust
 long
 (
 "
-no
--
 unstable
 -
 rust
@@ -1476,9 +1472,7 @@ rust
 help
 (
 "
-Do
-not
-generate
+Generate
 unstable
 Rust
 code
@@ -2819,8 +2813,6 @@ matches
 is_present
 (
 "
-no
--
 unstable
 -
 rust
@@ -2831,8 +2823,9 @@ builder
 =
 builder
 .
-no_unstable_rust
+unstable_rust
 (
+true
 )
 ;
 }

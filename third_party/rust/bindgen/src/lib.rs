@@ -2253,8 +2253,6 @@ push
 "
 -
 -
-no
--
 unstable
 -
 rust
@@ -5347,14 +5345,17 @@ bindings
 .
 pub
 fn
-no_unstable_rust
+unstable_rust
 (
 mut
 self
+doit
+:
+bool
 )
 -
 >
-Builder
+Self
 {
 self
 .
@@ -5362,7 +5363,7 @@ options
 .
 unstable_rust
 =
-false
+doit
 ;
 self
 }
@@ -6898,7 +6899,7 @@ disable_name_namespacing
 false
 unstable_rust
 :
-true
+false
 use_core
 :
 false
