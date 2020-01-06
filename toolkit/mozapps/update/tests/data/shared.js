@@ -150,6 +150,17 @@ backgroundMaxErrors
 "
 ;
 const
+PREF_APP_UPDATE_CANCELATIONS
+=
+"
+app
+.
+update
+.
+cancelations
+"
+;
+const
 PREF_APP_UPDATE_CHANNEL
 =
 "
