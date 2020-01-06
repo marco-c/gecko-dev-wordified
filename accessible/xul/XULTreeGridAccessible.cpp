@@ -1845,6 +1845,9 @@ Shutdown
 {
 if
 (
+mDoc
+&
+&
 !
 mDoc
 -
