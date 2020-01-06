@@ -312,6 +312,17 @@ aOrphanedListOut
 )
 ;
 nsresult
+FindOverallPaddingSize
+(
+mozIStorageConnection
+*
+aConn
+int64_t
+*
+aOverallPaddingSizeOut
+)
+;
+nsresult
 GetKnownBodyIds
 (
 mozIStorageConnection
