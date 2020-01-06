@@ -288,7 +288,7 @@ IsScrollable
 )
 )
 {
-return
+continue
 ;
 }
 LayerRect
@@ -571,7 +571,7 @@ IsScrollable
 )
 )
 {
-return
+continue
 ;
 }
 mBuilder
