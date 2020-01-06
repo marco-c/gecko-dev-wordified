@@ -177,6 +177,14 @@ mPresContext
 =
 aPresContext
 ;
+AddStyleBit
+(
+Servo_ComputedValues_GetStyleBits
+(
+mSource
+)
+)
+;
 FinishConstruction
 (
 )

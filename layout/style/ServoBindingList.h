@@ -1944,6 +1944,13 @@ ServoComputedValuesStrong
 ServoComputedValuesBorrowed
 values
 )
+SERVO_BINDING_FUNC
+(
+Servo_ComputedValues_GetStyleBits
+uint64_t
+ServoComputedValuesBorrowed
+values
+)
 /
 /
 Gets
