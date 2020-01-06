@@ -3158,12 +3158,6 @@ GetImage
 (
 )
 ;
-SizeOfState
-state
-(
-moz_malloc_size_of
-)
-;
 size_t
 size
 =
@@ -3172,7 +3166,7 @@ image
 >
 SizeOfSourceWithComputedFallback
 (
-state
+moz_malloc_size_of
 )
 ;
 mCacheEntry

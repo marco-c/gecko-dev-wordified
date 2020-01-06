@@ -702,9 +702,8 @@ SizeOfExcludingThis
 mozilla
 :
 :
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 ;

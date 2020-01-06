@@ -76806,8 +76806,6 @@ mDOMOtherSize
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 (
 this
@@ -76847,8 +76845,6 @@ SizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -76970,8 +76966,6 @@ SizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -76989,8 +76983,6 @@ ShallowSizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -77062,8 +77054,6 @@ SizeOfEventTargetIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;

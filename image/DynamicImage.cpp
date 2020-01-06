@@ -238,9 +238,8 @@ DynamicImage
 :
 SizeOfSourceWithComputedFallback
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {

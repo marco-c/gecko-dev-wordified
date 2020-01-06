@@ -1126,9 +1126,8 @@ virtual
 size_t
 SizeOfSourceWithComputedFallback
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 override

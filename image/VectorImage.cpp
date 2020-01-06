@@ -2156,9 +2156,8 @@ VectorImage
 :
 SizeOfSourceWithComputedFallback
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -2220,7 +2219,7 @@ document
 nsWindowSizes
 windowSizes
 (
-aState
+aMallocSizeOf
 )
 ;
 doc
