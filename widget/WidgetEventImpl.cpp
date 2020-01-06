@@ -4600,6 +4600,7 @@ ShortcutKeyCandidateArray
 &
 aCandidates
 )
+const
 {
 MOZ_ASSERT
 (
@@ -5381,6 +5382,7 @@ uint32_t
 &
 aCandidates
 )
+const
 {
 MOZ_ASSERT
 (
