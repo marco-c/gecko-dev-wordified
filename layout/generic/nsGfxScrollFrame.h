@@ -2771,6 +2771,7 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+const
 nsIFrame
 *
 aContainerReferenceFrame
@@ -5686,6 +5687,7 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+const
 nsIFrame
 *
 aContainerReferenceFrame
@@ -8042,6 +8044,7 @@ ComputeScrollMetadata
 Layer
 *
 aLayer
+const
 nsIFrame
 *
 aContainerReferenceFrame

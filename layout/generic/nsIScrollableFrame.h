@@ -3063,6 +3063,7 @@ layers
 Layer
 *
 aLayer
+const
 nsIFrame
 *
 aContainerReferenceFrame
