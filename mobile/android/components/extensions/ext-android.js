@@ -69,6 +69,9 @@ sender
 {
 let
 tabId
+=
+-
+1
 ;
 if
 (
@@ -158,6 +161,15 @@ tabId
 if
 (
 tabId
+!
+=
+null
+&
+&
+tabId
+>
+=
+0
 )
 {
 let
