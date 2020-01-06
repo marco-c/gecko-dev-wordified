@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+AtomArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoTypes
 .
 h
