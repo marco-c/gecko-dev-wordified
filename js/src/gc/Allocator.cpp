@@ -3196,7 +3196,7 @@ if
 (
 checkThresholds
 )
-maybeAllocTriggerGC
+maybeAllocTriggerZoneGC
 (
 zone
 lock
