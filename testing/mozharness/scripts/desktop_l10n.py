@@ -8818,8 +8818,26 @@ query_abs_dirs
 (
 )
         
+manifest_src
+=
+os
+.
+environ
+.
+get
+(
+'
+TOOLTOOL_MANIFEST
+'
+)
+        
 if
 not
+manifest_src
+:
+            
+manifest_src
+=
 config
 .
 get
@@ -8828,6 +8846,10 @@ get
 tooltool_manifest_src
 '
 )
+        
+if
+not
+manifest_src
 :
             
 return
@@ -8858,12 +8880,7 @@ abs_mozilla_dir
 '
 ]
                                               
-config
-[
-'
-tooltool_manifest_src
-'
-]
+manifest_src
 )
         
 cmd
