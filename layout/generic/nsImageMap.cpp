@@ -4287,7 +4287,7 @@ mImageFrame
 (
 nullptr
 )
-mContainsBlockContents
+mConsiderWholeSubtree
 (
 false
 )
@@ -4745,7 +4745,7 @@ child
 .
 This
 stops
-mContainsBlockContents
+mConsiderWholeSubtree
 from
 /
 /
@@ -4850,7 +4850,7 @@ IsElement
 )
 )
 {
-mContainsBlockContents
+mConsiderWholeSubtree
 =
 true
 ;
@@ -4894,7 +4894,7 @@ foundAnchor
 =
 false
 ;
-mContainsBlockContents
+mConsiderWholeSubtree
 =
 false
 ;
@@ -5418,7 +5418,7 @@ aContent
 mMap
 |
 |
-mContainsBlockContents
+mConsiderWholeSubtree
 )
 {
 UpdateAreas
