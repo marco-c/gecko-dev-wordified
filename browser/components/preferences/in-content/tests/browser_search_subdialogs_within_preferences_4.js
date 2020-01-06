@@ -168,7 +168,6 @@ await
 evaluateSearchResults
 (
 "
-set
 location
 permissions
 "
