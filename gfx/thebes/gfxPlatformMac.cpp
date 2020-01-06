@@ -682,7 +682,7 @@ void
 gfxPlatformMac
 :
 :
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <
@@ -700,7 +700,7 @@ PlatformFontList
 )
 -
 >
-GetSystemFontList
+ReadSystemFontList
 (
 aFontList
 )

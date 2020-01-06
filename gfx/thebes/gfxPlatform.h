@@ -2019,12 +2019,14 @@ implemented
 only
 on
 MacOSX
+and
+Linux
 .
 *
 /
 virtual
 void
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <
