@@ -7774,7 +7774,7 @@ uri
 {
 str
 .
-Append
+AppendLiteral
 (
 "
 /
@@ -7812,7 +7812,7 @@ mLineNumber
 ;
 str
 .
-Append
+AppendLiteral
 (
 "
 *

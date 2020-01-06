@@ -4290,7 +4290,7 @@ aHost
 ;
 hostSegment
 .
-Append
+AppendLiteral
 (
 "
 ]

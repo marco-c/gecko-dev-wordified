@@ -7525,7 +7525,7 @@ aMimeType
 ;
 string
 .
-Append
+AppendLiteral
 (
 "
 ;

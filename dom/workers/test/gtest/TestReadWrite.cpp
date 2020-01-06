@@ -1030,7 +1030,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -1048,7 +1048,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -1074,7 +1074,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -1097,7 +1097,7 @@ UPDATE_VIA_CACHE_IMPORTS
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1114,7 +1114,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1131,7 +1131,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1148,7 +1148,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1169,7 +1169,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1179,7 +1179,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -1205,7 +1205,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -1228,7 +1228,7 @@ UPDATE_VIA_CACHE_ALL
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1252,7 +1252,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1269,7 +1269,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1286,7 +1286,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -2666,7 +2666,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -2684,7 +2684,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -2711,7 +2711,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -2722,7 +2722,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -2732,7 +2732,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -2759,7 +2759,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -3385,7 +3385,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -3403,7 +3403,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -3424,7 +3424,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -3435,7 +3435,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -3445,7 +3445,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -3466,7 +3466,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -4092,7 +4092,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -4110,7 +4110,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -4128,7 +4128,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -4139,7 +4139,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -4149,7 +4149,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -4167,7 +4167,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -4803,7 +4803,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -4821,7 +4821,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -4836,7 +4836,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TRUE
 "
@@ -4847,7 +4847,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -4859,7 +4859,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -4870,7 +4870,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -4880,7 +4880,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -4895,7 +4895,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_FALSE
 "
@@ -4906,7 +4906,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -4918,7 +4918,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -5542,7 +5542,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -5560,7 +5560,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -5575,7 +5575,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TRUE
 "
@@ -5586,7 +5586,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -5609,7 +5609,7 @@ LOAD_NORMAL
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -5619,7 +5619,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -5630,7 +5630,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -5640,7 +5640,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -5655,7 +5655,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_FALSE
 "
@@ -5666,7 +5666,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -5689,7 +5689,7 @@ VALIDATE_ALWAYS
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -5699,7 +5699,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -6323,7 +6323,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -6341,7 +6341,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -6356,7 +6356,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TRUE
 "
@@ -6367,7 +6367,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -6390,7 +6390,7 @@ LOAD_NORMAL
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6407,7 +6407,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6424,7 +6424,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6441,7 +6441,7 @@ AppendInt
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6451,7 +6451,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -6462,7 +6462,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6472,7 +6472,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 scope
@@ -6487,7 +6487,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_FALSE
 "
@@ -6498,7 +6498,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 cacheName
@@ -6521,7 +6521,7 @@ VALIDATE_ALWAYS
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6545,7 +6545,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6562,7 +6562,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6579,7 +6579,7 @@ ts
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -6589,7 +6589,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -7217,7 +7217,7 @@ unique
 entries
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -7235,7 +7235,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -7256,7 +7256,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -7267,7 +7267,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -7277,7 +7277,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -7298,7 +7298,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -7313,7 +7313,7 @@ dupe
 entries
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -7331,7 +7331,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -7352,7 +7352,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -7363,7 +7363,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 ^
@@ -7381,7 +7381,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -7402,7 +7402,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "
@@ -7413,7 +7413,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -7423,7 +7423,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 "
 spec
@@ -7444,7 +7444,7 @@ n
 ;
 buffer
 .
-Append
+AppendLiteral
 (
 SERVICEWORKERREGISTRAR_TERMINATOR
 "

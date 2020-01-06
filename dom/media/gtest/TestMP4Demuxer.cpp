@@ -1167,7 +1167,7 @@ i
 }
 res
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -1282,7 +1282,7 @@ else
 {
 res
 .
-Append
+AppendLiteral
 (
 "
 no

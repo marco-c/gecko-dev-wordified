@@ -1849,7 +1849,7 @@ IsEmpty
 {
 aCookieString
 .
-Append
+AppendLiteral
 (
 "
 ;
@@ -1890,7 +1890,7 @@ get
 ;
 aCookieString
 .
-Append
+AppendLiteral
 (
 "
 =

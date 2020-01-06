@@ -1101,7 +1101,7 @@ get
 ;
 longKey
 .
-Append
+AppendLiteral
 (
 "
 a
@@ -1234,7 +1234,7 @@ get
 ;
 longValue
 .
-Append
+AppendLiteral
 (
 "
 a

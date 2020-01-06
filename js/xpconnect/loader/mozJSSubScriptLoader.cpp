@@ -868,7 +868,7 @@ origMsg
 ;
 msg
 .
-Append
+AppendLiteral
 (
 "
 :

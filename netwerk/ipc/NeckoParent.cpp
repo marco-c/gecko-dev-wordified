@@ -1360,7 +1360,7 @@ OriginAttributesRef
 {
 debugString
 .
-Append
+AppendLiteral
 (
 "
 (
@@ -1376,7 +1376,7 @@ serializedSuffix
 ;
 debugString
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -1405,7 +1405,7 @@ tabSuffix
 ;
 debugString
 .
-Append
+AppendLiteral
 (
 "
 )
@@ -1542,7 +1542,7 @@ errorString
 ;
 errorString
 .
-Append
+AppendLiteral
 (
 "
 GetValidatedOriginAttributes

@@ -277,7 +277,7 @@ abort
 \
 msg
 .
-Append
+AppendLiteral
 (
 "
 (
@@ -288,10 +288,10 @@ NECKO_ERRORS_ARE_FATAL
 in
 your
 environment
-to
 "
 \
 "
+to
 convert
 this
 error
@@ -320,7 +320,7 @@ else
 \
 msg
 .
-Append
+AppendLiteral
 (
 "
 (
@@ -331,10 +331,10 @@ NECKO_ERRORS_ARE_FATAL
 in
 your
 environment
-to
 "
 \
 "
+to
 convert
 this
 warning

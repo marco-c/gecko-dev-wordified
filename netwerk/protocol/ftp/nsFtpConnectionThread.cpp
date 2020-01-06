@@ -3871,7 +3871,7 @@ usernameStr
 }
 usernameStr
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -4377,7 +4377,7 @@ passwordStr
 }
 passwordStr
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -5454,7 +5454,7 @@ CWD
 ;
 cwdStr
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -5568,7 +5568,7 @@ SIZE
 ;
 sizeBuf
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -5705,7 +5705,7 @@ MDTM
 ;
 mdtmBuf
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -6616,7 +6616,7 @@ RETR
 ;
 retrStr
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -6812,7 +6812,7 @@ StartPos
 ;
 restString
 .
-Append
+AppendLiteral
 (
 CRLF
 )
@@ -7040,7 +7040,7 @@ STOR
 ;
 storStr
 .
-Append
+AppendLiteral
 (
 CRLF
 )

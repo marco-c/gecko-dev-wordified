@@ -11173,7 +11173,7 @@ aName
 ;
 command
 .
-Append
+AppendLiteral
 (
 "
 (

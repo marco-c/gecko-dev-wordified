@@ -1187,7 +1187,7 @@ mType
 ;
 filename
 .
-Append
+AppendLiteral
 (
 "
 .

@@ -9060,7 +9060,7 @@ Truncate
 ;
 spec
 .
-Append
+AppendLiteral
 (
 "
 .

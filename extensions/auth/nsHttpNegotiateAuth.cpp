@@ -2358,7 +2358,7 @@ NS_HTTP_AUTHENTICATOR_CONTRACTID_PREFIX
 ;
 contractId
 .
-Append
+AppendLiteral
 (
 "
 negotiate

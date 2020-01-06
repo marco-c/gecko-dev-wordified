@@ -933,7 +933,7 @@ i
 {
 aString
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -950,7 +950,7 @@ str
 }
 aString
 .
-Append
+AppendLiteral
 (
 "
 ]

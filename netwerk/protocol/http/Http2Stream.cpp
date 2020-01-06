@@ -7055,7 +7055,7 @@ Truncate
 ;
 aHeadersOut
 .
-Append
+AppendLiteral
 (
 "
 X
@@ -7070,7 +7070,7 @@ h2
 ;
 aHeadersOut
 .
-Append
+AppendLiteral
 (
 "
 \
