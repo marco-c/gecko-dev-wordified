@@ -355,7 +355,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -621,7 +621,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -686,7 +686,7 @@ features
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 |
 ProfilerFeature
 :
@@ -738,7 +738,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -864,7 +864,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -1002,7 +1002,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -1618,7 +1618,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
@@ -1786,7 +1786,7 @@ profiler_feature_active
 ProfilerFeature
 :
 :
-GPU
+MainThreadIO
 )
 )
 ;
