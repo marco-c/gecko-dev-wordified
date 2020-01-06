@@ -316,11 +316,6 @@ Get
 ;
 /
 /
-Returns
-an
-owning
-reference
-!
 No
 one
 should
@@ -331,8 +326,10 @@ the
 factory
 .
 static
+already_AddRefed
+<
 QuotaManagerService
-*
+>
 FactoryCreate
 (
 )

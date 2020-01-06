@@ -172,8 +172,10 @@ nsJARProtocolHandler
 )
 ;
 static
+already_AddRefed
+<
 nsJARProtocolHandler
-*
+>
 GetSingleton
 (
 )

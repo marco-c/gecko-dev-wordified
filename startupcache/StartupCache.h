@@ -1451,8 +1451,10 @@ StartupCacheWrapper
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISTARTUPCACHE
 static
+already_AddRefed
+<
 StartupCacheWrapper
-*
+>
 GetSingleton
 (
 )

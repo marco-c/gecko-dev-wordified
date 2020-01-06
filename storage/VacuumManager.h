@@ -195,8 +195,10 @@ object
 *
 /
 static
+already_AddRefed
+<
 VacuumManager
-*
+>
 getSingleton
 (
 )

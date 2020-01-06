@@ -209,8 +209,10 @@ ChildDNSService
 )
 ;
 static
+already_AddRefed
+<
 ChildDNSService
-*
+>
 GetSingleton
 (
 )

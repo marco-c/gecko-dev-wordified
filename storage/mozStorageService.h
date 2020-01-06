@@ -339,8 +339,10 @@ aComparisonStrength
 )
 ;
 static
+already_AddRefed
+<
 Service
-*
+>
 getSingleton
 (
 )

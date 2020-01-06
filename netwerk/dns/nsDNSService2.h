@@ -224,8 +224,10 @@ nsDNSService
 )
 ;
 static
+already_AddRefed
+<
 nsIDNSService
-*
+>
 GetXPCOMSingleton
 (
 )
@@ -283,8 +285,10 @@ nsDNSService
 )
 ;
 static
+already_AddRefed
+<
 nsDNSService
-*
+>
 GetSingleton
 (
 )

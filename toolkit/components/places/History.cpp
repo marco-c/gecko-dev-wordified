@@ -14319,8 +14319,10 @@ gService
 static
 *
 /
+already_AddRefed
+<
 History
-*
+>
 History
 :
 :
@@ -14355,13 +14357,11 @@ InitMemoryReporter
 )
 ;
 }
-NS_ADDREF
+return
+do_AddRef
 (
 gService
 )
-;
-return
-gService
 ;
 }
 mozIStorageConnection

@@ -424,8 +424,10 @@ is
 addreffed
 .
 static
+already_AddRefed
+<
 Preferences
-*
+>
 GetInstanceForService
 (
 )
