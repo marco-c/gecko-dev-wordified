@@ -2735,9 +2735,6 @@ default
 let
 merged_capabilities
 =
-try
-!
-(
 capabilities_list
 .
 iter
@@ -2762,7 +2759,6 @@ any
 |
 k
 |
-{
 self
 .
 alwaysMatch
@@ -2771,7 +2767,6 @@ contains_key
 (
 k
 )
-}
 )
 {
 return
@@ -2840,6 +2835,7 @@ map
 |
 merged
 |
+{
 merged
 .
 and_then
@@ -2855,6 +2851,7 @@ x
 browser_capabilities
 )
 )
+}
 )
 .
 collect
@@ -2871,7 +2868,7 @@ Capabilities
 >
 (
 )
-)
+?
 ;
 let
 selected
@@ -3058,6 +3055,7 @@ else
 {
 return
 None
+;
 }
 }
 "
@@ -3204,6 +3202,7 @@ false
 {
 return
 None
+;
 }
 }
 name
@@ -3238,6 +3237,7 @@ false
 {
 return
 None
+;
 }
 }
 else
@@ -3256,6 +3256,7 @@ Some
 (
 merged
 )
+;
 }
 )
 .
