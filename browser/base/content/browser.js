@@ -35412,16 +35412,6 @@ ensureInitialized
 !
 this
 .
-_shouldSwitch
-(
-aRequest
-aWebProgress
-)
-|
-|
-!
-this
-.
 reload
 .
 hasAttribute
