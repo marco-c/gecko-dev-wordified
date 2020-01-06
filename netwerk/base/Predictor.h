@@ -1794,6 +1794,10 @@ resource
 uri
 -
 the
+ascii
+spec
+of
+the
 URI
 of
 the
@@ -1805,8 +1809,9 @@ int32_t
 confidence
 uint32_t
 flags
-nsIURI
-*
+const
+nsCString
+&
 uri
 )
 ;
@@ -2546,6 +2551,10 @@ uri
 out
 )
 the
+ascii
+spec
+of
+the
 URI
 this
 metadata
@@ -2610,9 +2619,8 @@ const
 char
 *
 value
-nsIURI
-*
-*
+nsCString
+&
 uri
 uint32_t
 &
