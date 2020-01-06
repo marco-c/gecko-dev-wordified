@@ -479,7 +479,7 @@ out
 .
 treeTable
 .
-treeLabel
+treeLabelCell
 {
 cursor
 :
@@ -513,7 +513,7 @@ plaintext
 /
 *
 No
-paddding
+padding
 if
 there
 is
@@ -1551,7 +1551,7 @@ theme
 -
 highlight
 -
-pink
+blue
 )
 ;
 }
@@ -1602,7 +1602,7 @@ theme
 -
 highlight
 -
-pink
+blue
 )
 ;
 }
