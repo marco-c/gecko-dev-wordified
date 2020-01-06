@@ -149,7 +149,7 @@ CACHE_TYPE
 '
 toolchains
 .
-v1
+v2
 '
 toolchain_run_schema
 =
