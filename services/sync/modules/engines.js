@@ -5487,6 +5487,9 @@ batch
 applyIncomingBatchSize
 :
 DEFAULT_STORE_BATCH_SIZE
+downloadBatchSize
+:
+DEFAULT_DOWNLOAD_BATCH_SIZE
 async
 initialize
 (
@@ -8492,6 +8495,9 @@ newitems
 .
 getBatched
 (
+this
+.
+downloadBatchSize
 )
 ;
 if
@@ -8914,6 +8920,9 @@ guidFetchBatchSize
 ;
 while
 (
+batchSize
+&
+&
 fetchBatch
 .
 length
