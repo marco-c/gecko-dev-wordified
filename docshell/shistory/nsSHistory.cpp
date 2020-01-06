@@ -3340,7 +3340,7 @@ given
 index
 *
 /
-nsresult
+NS_IMETHODIMP
 nsSHistory
 :
 :
@@ -9365,7 +9365,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsSHistory
 :
 :
