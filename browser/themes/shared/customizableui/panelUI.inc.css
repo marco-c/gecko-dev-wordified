@@ -14293,6 +14293,12 @@ widget
 overflow
 -
 mainView
+.
+panel
+-
+subview
+-
+body
 {
 %
 endif
