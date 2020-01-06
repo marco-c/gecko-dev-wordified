@@ -153,12 +153,6 @@ h
 "
 namespace
 {
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 /
 *
 *
@@ -1076,8 +1070,6 @@ Clear
 )
 ;
 }
-#
-endif
 }
 /
 /

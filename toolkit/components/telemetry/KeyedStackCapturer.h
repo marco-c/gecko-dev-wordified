@@ -101,9 +101,6 @@ KeyedStackCapturer_h__
 define
 KeyedStackCapturer_h__
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 Telemetry
@@ -402,11 +399,6 @@ Telemetry
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /
