@@ -6006,14 +6006,7 @@ this
 .
 _target
 .
-tab
-.
-tagName
-=
-=
-"
-tab
-"
+isLocalTab
 )
 {
 this
