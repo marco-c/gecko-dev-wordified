@@ -2900,6 +2900,17 @@ openInTabs
 "
 children
 "
+onmouseup
+=
+"
+BookmarksEventHandler
+.
+onMouseUp
+(
+event
+)
+;
+"
 oncommand
 =
 "
