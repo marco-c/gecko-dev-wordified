@@ -2239,12 +2239,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 i
 =
 0

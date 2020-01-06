@@ -2305,13 +2305,6 @@ defined
 (
 ANDROID
 )
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
-)
 /
 /
 Names
