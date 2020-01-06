@@ -1735,6 +1735,12 @@ _table
 hidden
 |
 |
+(
+aEvent
+.
+originalTarget
+&
+&
 aEvent
 .
 originalTarget
@@ -1745,6 +1751,7 @@ id
 "
 contentSearchDefaultEngineHeader
 "
+)
 |
 |
 aEvent
