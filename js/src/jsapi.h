@@ -2887,9 +2887,7 @@ public
 explicit
 HandleValueArray
 (
-const
-RootedValue
-&
+HandleValue
 value
 )
 :
