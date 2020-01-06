@@ -1318,7 +1318,7 @@ Notice
 that
 imageTools
 .
-decodeImageData
+decodeImage
 used
 by
 clipboard

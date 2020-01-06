@@ -1114,9 +1114,6 @@ data
 ;
 let
 container
-=
-{
-}
 ;
 try
 {
@@ -1159,13 +1156,14 @@ image
 length
 )
 ;
+container
+=
 imageTools
 .
-decodeImageData
+decodeImage
 (
 input
 flavor
-container
 )
 ;
 }
@@ -1272,8 +1270,6 @@ imgPtr
 data
 =
 container
-.
-value
 ;
 xferable
 .
