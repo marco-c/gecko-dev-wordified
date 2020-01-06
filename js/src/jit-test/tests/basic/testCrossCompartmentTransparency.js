@@ -2927,7 +2927,6 @@ call
 d
 )
 )
-true
 )
 ;
 test
