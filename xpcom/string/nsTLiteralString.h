@@ -269,9 +269,9 @@ DataFlags
 :
 LITERAL
 ClassFlags
-(
-0
-)
+:
+:
+NULL_TERMINATED
 )
 {
 }

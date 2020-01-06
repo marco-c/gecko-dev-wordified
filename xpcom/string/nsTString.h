@@ -231,6 +231,10 @@ nsTString_CharT
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 }
@@ -253,6 +257,10 @@ size_type
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 Assign
@@ -291,6 +299,10 @@ size_type
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 Assign
@@ -320,6 +332,10 @@ aStr
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 Assign
@@ -339,6 +355,10 @@ aTuple
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 Assign
@@ -358,6 +378,10 @@ aReadable
 :
 substring_type
 (
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 Assign
@@ -2645,6 +2669,11 @@ aData
 aLength
 aDataFlags
 aClassFlags
+|
+ClassFlags
+:
+:
+NULL_TERMINATED
 )
 {
 }
