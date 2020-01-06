@@ -22753,11 +22753,10 @@ path
 )
 )
 ;
-aPath
-.
-AssignWithConversion
+LossyCopyUTF16toASCII
 (
 path
+aPath
 )
 ;
 }
@@ -103335,11 +103334,10 @@ rv
 nsString
 locale
 ;
-locale
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 aLocale
+locale
 )
 ;
 rv

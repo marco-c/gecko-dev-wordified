@@ -3504,14 +3504,13 @@ appModelUserId
 nsString
 appId
 ;
-appId
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 nsDependentCString
 (
 appModelUserId
 )
+appId
 )
 ;
 /

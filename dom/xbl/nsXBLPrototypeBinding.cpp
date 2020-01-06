@@ -3570,12 +3570,8 @@ contains
 a
 :
 .
-nsAutoString
+NS_ConvertASCIItoUTF16
 attrTok
-;
-attrTok
-.
-AssignWithConversion
 (
 token
 )
@@ -3697,12 +3693,8 @@ return
 }
 else
 {
-nsAutoString
+NS_ConvertASCIItoUTF16
 tok
-;
-tok
-.
-AssignWithConversion
 (
 token
 )

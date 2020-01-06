@@ -20705,15 +20705,10 @@ applying
 the
 next
 one
-mLastStyleSheetURL
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 spec
-.
-get
-(
-)
+mLastStyleSheetURL
 )
 ;
 /

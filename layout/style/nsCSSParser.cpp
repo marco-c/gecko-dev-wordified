@@ -38729,11 +38729,10 @@ tk
 mInteger
 )
 ;
-str
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 buffer
+str
 )
 ;
 }
@@ -38796,11 +38795,10 @@ mInteger
 nsAutoString
 temp
 ;
-temp
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 buffer
+temp
 )
 ;
 temp
