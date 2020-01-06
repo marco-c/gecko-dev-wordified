@@ -610,7 +610,7 @@ BLUE_DARK
 =
 "
 #
-46afe3
+75BFFF
 "
 ;
 let
@@ -618,7 +618,7 @@ BLUE_LIGHT
 =
 "
 #
-0088cc
+0074e8
 "
 ;
 let
