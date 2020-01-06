@@ -739,7 +739,7 @@ concat
 /
 gecko
 /
-structs_debug
+structs
 .
 rs
 \
