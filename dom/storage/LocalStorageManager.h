@@ -762,6 +762,10 @@ friend
 class
 LocalStorageCache
 ;
+friend
+class
+StorageDBChild
+;
 /
 /
 Releases
