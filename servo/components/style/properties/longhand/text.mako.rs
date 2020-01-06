@@ -199,12 +199,6 @@ style_traits
 :
 ToCss
 ;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 #
 [
 cfg_attr
@@ -1155,12 +1149,6 @@ for
 SpecifiedValue
 {
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 bitflags
 !
 {

@@ -201,12 +201,6 @@ for
 SpecifiedValue
 {
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 pub
 type
 SpecifiedValue

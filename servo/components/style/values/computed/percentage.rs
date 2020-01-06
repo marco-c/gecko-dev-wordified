@@ -123,7 +123,6 @@ Default
 [
 derive
 (
-HasViewportPercentage
 PartialEq
 PartialOrd
 ToAnimatedZero

@@ -816,12 +816,6 @@ specified
 :
 RGBAColor
 ;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 pub
 mod
 computed_value
@@ -1876,12 +1870,6 @@ style_traits
 :
 :
 ToCss
-;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
 ;
 pub
 mod

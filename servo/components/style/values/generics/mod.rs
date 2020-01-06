@@ -643,12 +643,6 @@ decimal
 )
 }
 }
-no_viewport_percentage
-!
-(
-CounterStyleOrNone
-)
-;
 impl
 Parse
 for
@@ -2310,7 +2304,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-HasViewportPercentage
 )
 ]
 #
@@ -2380,7 +2373,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-HasViewportPercentage
 )
 ]
 #

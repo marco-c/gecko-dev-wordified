@@ -139,7 +139,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 ToCss
@@ -205,7 +204,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 )
@@ -328,7 +326,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-HasViewportPercentage
 )
 ]
 #
@@ -446,7 +443,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-HasViewportPercentage
 )
 ]
 #

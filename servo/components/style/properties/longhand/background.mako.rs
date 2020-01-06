@@ -574,12 +574,6 @@ RepeatKeyword
 )
 ;
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 impl
 ToCss
 for

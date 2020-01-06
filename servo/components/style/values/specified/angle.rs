@@ -225,7 +225,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 )
 ]

@@ -397,7 +397,6 @@ derive
 (
 Clone
 Debug
-HasViewportPercentage
 PartialEq
 ToCss
 )

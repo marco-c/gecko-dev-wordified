@@ -1062,12 +1062,6 @@ for
 GridLine
 {
 }
-no_viewport_percentage
-!
-(
-GridLine
-)
-;
 define_css_keyword_enum
 !
 {
@@ -1539,7 +1533,6 @@ derive
 (
 Clone
 Debug
-HasViewportPercentage
 PartialEq
 )
 ]
@@ -3092,12 +3085,6 @@ for
 RepeatCount
 {
 }
-no_viewport_percentage
-!
-(
-RepeatCount
-)
-;
 /
 /
 /
@@ -5616,12 +5603,6 @@ for
 LineNameList
 {
 }
-no_viewport_percentage
-!
-(
-LineNameList
-)
-;
 /
 /
 /

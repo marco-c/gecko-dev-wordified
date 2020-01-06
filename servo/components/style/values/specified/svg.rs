@@ -160,12 +160,6 @@ RGBAColor
 SpecifiedUrl
 >
 ;
-no_viewport_percentage
-!
-(
-SVGPaint
-)
-;
 /
 /
 /

@@ -166,7 +166,6 @@ Animate
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 )
 ]
