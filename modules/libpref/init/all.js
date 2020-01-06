@@ -7773,6 +7773,12 @@ defined
 (
 XP_LINUX
 )
+|
+|
+defined
+(
+MOZ_SNDIO
+)
 pref
 (
 "
@@ -7859,7 +7865,7 @@ audio
 .
 full_duplex
 "
-false
+true
 )
 ;
 #
