@@ -38482,6 +38482,17 @@ PN_LIST
 )
 )
 ;
+MOZ_ASSERT
+(
+declList
+-
+>
+isOp
+(
+JSOP_NOP
+)
+)
+;
 ParseNode
 *
 next
