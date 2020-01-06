@@ -4901,14 +4901,6 @@ holder
 id
 )
 ;
-if
-(
-obj
-=
-=
-holder
-)
-{
 /
 /
 See
@@ -4939,7 +4931,6 @@ PreliminaryObjectAction
 :
 Unlink
 ;
-}
 }
 EmitReadSlotResult
 (
