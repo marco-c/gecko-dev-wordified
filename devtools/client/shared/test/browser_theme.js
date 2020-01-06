@@ -918,7 +918,7 @@ selection
 -
 background
 -
-hover
+semitransparent
 "
 "
 splitter
