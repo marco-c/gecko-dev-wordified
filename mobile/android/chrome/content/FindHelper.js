@@ -486,7 +486,7 @@ _viewportChanged
 =
 false
 ;
-GlobalEventDispatcher
+WindowEventDispatcher
 .
 registerListener
 (
@@ -603,7 +603,7 @@ _viewportChanged
 =
 false
 ;
-GlobalEventDispatcher
+WindowEventDispatcher
 .
 unregisterListener
 (
