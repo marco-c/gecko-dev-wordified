@@ -125,7 +125,10 @@ specified
 box_
 :
 :
+{
 AnimationName
+ScrollSnapType
+}
 ;
 /
 /
