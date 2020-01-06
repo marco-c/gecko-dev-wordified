@@ -272,6 +272,14 @@ mozharness
 .
 mozilla
 .
+secrets
+import
+SecretsMixin
+from
+mozharness
+.
+mozilla
+.
 updates
 .
 balrog
@@ -316,6 +324,7 @@ MercurialScript
 BalrogMixin
                          
 VirtualenvMixin
+SecretsMixin
 )
 :
     
@@ -920,6 +929,12 @@ all_actions
 '
 :
 [
+                
+"
+get
+-
+secrets
+"
                 
 "
 clobber
