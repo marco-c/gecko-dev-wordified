@@ -366,6 +366,10 @@ GeckoBundle
 )
 )
 ;
+private
+boolean
+initialized
+;
 public
 static
 GlobalPageMetadata
@@ -462,6 +466,14 @@ init
 (
 )
 {
+if
+(
+initialized
+)
+{
+return
+;
+}
 EventDispatcher
 .
 getInstance
@@ -475,6 +487,10 @@ GlobalHistory
 .
 EVENT_URI_AVAILABLE_IN_HISTORY
 )
+;
+initialized
+=
+true
 ;
 }
 public
