@@ -2207,7 +2207,10 @@ suppressed
 .
 *
 /
+JS_FRIEND_API
+(
 void
+)
 js
 :
 :

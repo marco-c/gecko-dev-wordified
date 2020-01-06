@@ -424,7 +424,10 @@ ShouldFailWithOOM
 }
 }
 ;
+JS_FRIEND_API
+(
 void
+)
 ReportOutOfMemory
 (
 JSContext
