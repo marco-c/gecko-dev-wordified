@@ -1086,7 +1086,7 @@ AllocKind
 STRING
 *
 /
-false
+true
 /
 *
 AllocKind
