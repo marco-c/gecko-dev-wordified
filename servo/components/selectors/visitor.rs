@@ -303,7 +303,7 @@ the
 selector
 is
 the
-leftmost
+rightmost
 one
 .
 fn
