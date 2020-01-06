@@ -266,10 +266,10 @@ const
 return
 !
 (
-mStream
-&
-&
 mUnmarshaledProxy
+&
+&
+mStream
 )
 ;
 }
@@ -363,9 +363,6 @@ ProxyUniquePtr
 IUnknown
 >
 mUnmarshaledProxy
-;
-HRESULT
-mUnmarshalResult
 ;
 }
 ;
