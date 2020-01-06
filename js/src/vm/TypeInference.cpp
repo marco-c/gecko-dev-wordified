@@ -13443,17 +13443,6 @@ nonData
 (
 constraints
 )
-|
-|
-!
-object
-(
-)
--
->
-isSingleton
-(
-)
 )
 return
 false

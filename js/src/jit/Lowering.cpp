@@ -27849,12 +27849,7 @@ expected
 assignSnapshot
 (
 guard
-ins
--
->
-bailoutKind
-(
-)
+Bailout_ObjectIdentityOrTypeGuard
 )
 ;
 add

@@ -190,11 +190,6 @@ GetProp_CommonGetter
 \
 _
 (
-GetProp_Static
-)
-\
-_
-(
 GetProp_InlineAccess
 )
 \

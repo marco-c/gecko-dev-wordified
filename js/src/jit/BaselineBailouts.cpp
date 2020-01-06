@@ -16156,9 +16156,6 @@ Bailout_UninitializedThis
 case
 Bailout_BadDerivedConstructorReturn
 :
-case
-Bailout_LoadStaticObject
-:
 /
 /
 Do

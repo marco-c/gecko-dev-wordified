@@ -6279,13 +6279,6 @@ if
 hasBaselineScript
 (
 )
-|
-|
-*
-pc
-=
-=
-JSOP_SETALIASEDVAR
 )
 return
 false
@@ -7237,13 +7230,6 @@ if
 hasBaselineScript
 (
 )
-|
-|
-*
-pc
-=
-=
-JSOP_SETALIASEDVAR
 )
 return
 false
