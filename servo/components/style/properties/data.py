@@ -1344,6 +1344,9 @@ None
 vector
 =
 False
+need_animatable
+=
+False
 )
 :
         

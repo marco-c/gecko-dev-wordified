@@ -256,6 +256,7 @@ computed
 {
 Color
 LengthOrPercentageOrAuto
+NonNegativeAu
 }
 ;
 use
@@ -749,15 +750,19 @@ T
 {
 horizontal
 :
-Au
+NonNegativeAu
+:
+:
+zero
 (
-0
 )
 vertical
 :
-Au
+NonNegativeAu
+:
+:
+zero
 (
-0
 )
 }
 table_writing_mode
@@ -2803,6 +2808,8 @@ self
 spacing
 .
 horizontal
+.
+0
 ;
 col
 +
@@ -3994,6 +4001,8 @@ get_border
 )
 .
 border_top_width
+.
+0
 color
 :
 css_style
@@ -4066,6 +4075,8 @@ get_border
 )
 .
 border_right_width
+.
+0
 color
 :
 css_style
@@ -4138,6 +4149,8 @@ get_border
 )
 .
 border_bottom_width
+.
+0
 color
 :
 css_style
@@ -4210,6 +4223,8 @@ get_border
 )
 .
 border_left_width
+.
+0
 color
 :
 css_style
@@ -5403,6 +5418,8 @@ None
 border_spacing
 .
 horizontal
+.
+0
 }
 ;
 if
@@ -5718,6 +5735,8 @@ inline_end_margin_edge
 border_spacing
 .
 horizontal
+.
+0
 ;
 }
 else
@@ -5729,6 +5748,8 @@ inline_start_margin_edge
 border_spacing
 .
 horizontal
+.
+0
 ;
 }
 }

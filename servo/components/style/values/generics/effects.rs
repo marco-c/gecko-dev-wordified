@@ -154,6 +154,7 @@ BoxShadow
 <
 Color
 SizeLength
+BlurShapeLength
 ShapeLength
 >
 {
@@ -171,7 +172,7 @@ SimpleShadow
 <
 Color
 SizeLength
-ShapeLength
+BlurShapeLength
 >
 /
 /
@@ -606,6 +607,7 @@ impl
 <
 Color
 SizeLength
+BlurShapeLength
 ShapeLength
 >
 ToCss
@@ -614,6 +616,7 @@ BoxShadow
 <
 Color
 SizeLength
+BlurShapeLength
 ShapeLength
 >
 where
@@ -621,6 +624,9 @@ Color
 :
 ToCss
 SizeLength
+:
+ToCss
+BlurShapeLength
 :
 ToCss
 ShapeLength

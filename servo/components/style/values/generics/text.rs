@@ -797,6 +797,7 @@ Copy
 Debug
 HasViewportPercentage
 PartialEq
+ToAnimatedValue
 ToCss
 )
 ]

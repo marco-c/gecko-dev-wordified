@@ -10979,6 +10979,8 @@ box_shadow
 base
 .
 blur
+.
+0
 box_shadow
 .
 spread
@@ -11094,6 +11096,8 @@ box_shadow
 base
 .
 blur
+.
+0
 spread_radius
 :
 box_shadow
@@ -12151,6 +12155,8 @@ get_outline
 )
 .
 outline_width
+.
+0
 ;
 if
 width
@@ -15148,6 +15154,10 @@ Opacity
 effects
 .
 opacity
+.
+into
+(
+)
 )
 )
 }
@@ -15666,6 +15676,8 @@ blur_radius
 shadow
 .
 blur
+.
+0
 offset
 :
 Vector2D

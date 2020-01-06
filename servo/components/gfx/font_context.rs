@@ -829,6 +829,8 @@ size
 style
 .
 font_size
+.
+0
 }
 ;
 if
@@ -1070,6 +1072,8 @@ requested_pt_size
 style
 .
 font_size
+.
+0
 &
 &
 cached_font
@@ -1159,6 +1163,8 @@ clone
 style
 .
 font_size
+.
+0
 style
 .
 font_variant_caps
@@ -1346,6 +1352,8 @@ requested_pt_size
 style
 .
 font_size
+.
+0
 &
 &
 cached_font
@@ -1416,6 +1424,8 @@ clone
 style
 .
 font_size
+.
+0
 style
 .
 font_variant_caps

@@ -1441,8 +1441,11 @@ True
 animation_value_type
 =
 "
-ComputedValue
+BackgroundSizeList
 "
+need_animatable
+=
+True
 flags
 =
 "

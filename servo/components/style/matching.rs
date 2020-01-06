@@ -3678,6 +3678,8 @@ device
 set_root_font_size
 (
 new_font_size
+.
+0
 )
 ;
 /

@@ -69,12 +69,6 @@ to
 borders
 .
 use
-app_units
-:
-:
-Au
-;
-use
 cssparser
 :
 :
@@ -104,6 +98,7 @@ computed
 :
 {
 Context
+NonNegativeAu
 ToComputedValue
 }
 ;
@@ -601,7 +596,7 @@ BorderSideWidth
 type
 ComputedValue
 =
-Au
+NonNegativeAu
 ;
 #
 [
@@ -768,6 +763,10 @@ to_computed_value
 context
 )
 }
+.
+into
+(
+)
 }
 #
 [
@@ -798,7 +797,10 @@ ToComputedValue
 :
 from_computed_value
 (
+&
 computed
+.
+0
 )
 )
 }

@@ -19928,6 +19928,8 @@ box_shadow
 base
 .
 blur
+.
+0
 *
 BLUR_INFLATION_FACTOR
 ;
@@ -19981,6 +19983,8 @@ get_outline
 )
 .
 outline_width
+.
+0
 ;
 if
 outline_width

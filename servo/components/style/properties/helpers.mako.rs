@@ -641,6 +641,9 @@ separator
 '
 Comma
 '
+need_animatable
+=
+False
 *
 *
 kwargs
@@ -662,6 +665,9 @@ animation_value_type
 vector
 =
 True
+need_animatable
+=
+need_animatable
 *
 *
 kwargs
@@ -1017,6 +1023,8 @@ endif
 ;
 %
 if
+need_animatable
+or
 animation_value_type
 =
 =

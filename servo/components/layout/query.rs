@@ -2776,6 +2776,8 @@ y
 =
 top_width
 .
+0
+.
 to_px
 (
 )
@@ -2789,6 +2791,8 @@ origin
 x
 =
 left_width
+.
+0
 .
 to_px
 (
@@ -2810,8 +2814,12 @@ size
 width
 -
 left_width
+.
+0
 -
 right_width
+.
+0
 )
 .
 to_px
@@ -2834,8 +2842,12 @@ size
 height
 -
 top_width
+.
+0
 -
 bottom_width
+.
+0
 )
 .
 to_px
@@ -3025,8 +3037,12 @@ size
 width
 -
 right_border
+.
+0
 -
 left_border
+.
+0
 )
 .
 to_px
@@ -3044,8 +3060,12 @@ size
 height
 -
 bottom_border
+.
+0
 -
 top_border
+.
+0
 )
 .
 to_px
@@ -3057,6 +3077,8 @@ top_padding
 =
 top_border
 .
+0
+.
 to_px
 (
 )
@@ -3065,6 +3087,8 @@ let
 left_padding
 =
 left_border
+.
+0
 .
 to_px
 (
