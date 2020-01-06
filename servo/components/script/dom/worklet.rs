@@ -4692,7 +4692,7 @@ self
 .
 global_init
 .
-script_sender
+to_script_thread_sender
 .
 send
 (
@@ -4927,7 +4927,7 @@ self
 .
 global_init
 .
-script_sender
+to_script_thread_sender
 .
 send
 (

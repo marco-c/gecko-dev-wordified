@@ -609,11 +609,11 @@ clone
 from_devtools_sender
 :
 devtools_sender
-constellation_chan
+script_to_constellation_chan
 :
 global
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .
@@ -892,7 +892,7 @@ init
 time_profiler_chan
 init
 .
-constellation_chan
+script_to_constellation_chan
 init
 .
 scheduler_chan

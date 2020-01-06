@@ -104,6 +104,7 @@ Key
 KeyModifiers
 KeyState
 PipelineId
+TopLevelBrowsingContextId
 }
 ;
 use
@@ -624,7 +625,7 @@ title
 .
 ChangePageTitle
 (
-PipelineId
+TopLevelBrowsingContextId
 Option
 <
 String
@@ -683,6 +684,9 @@ page
 has
 begun
 LoadStart
+(
+TopLevelBrowsingContextId
+)
 /
 /
 /
@@ -694,6 +698,9 @@ page
 has
 completed
 LoadComplete
+(
+TopLevelBrowsingContextId
+)
 /
 /
 /
@@ -705,6 +712,7 @@ changed
 .
 HistoryChanged
 (
+TopLevelBrowsingContextId
 Vec
 <
 LoadData
@@ -723,6 +731,7 @@ a
 link
 AllowNavigation
 (
+TopLevelBrowsingContextId
 ServoUrl
 IpcSender
 <
@@ -753,6 +762,10 @@ compositor
 .
 KeyEvent
 (
+Option
+<
+TopLevelBrowsingContextId
+>
 Option
 <
 char
@@ -869,6 +882,7 @@ was
 detected
 NewFavicon
 (
+TopLevelBrowsingContextId
 ServoUrl
 )
 /
@@ -881,6 +895,9 @@ tag
 finished
 parsing
 HeadParsed
+(
+TopLevelBrowsingContextId
+)
 /
 /
 /
@@ -897,6 +914,7 @@ chrome
 .
 Status
 (
+TopLevelBrowsingContextId
 Option
 <
 String
@@ -913,6 +931,7 @@ and
 position
 GetClientWindow
 (
+TopLevelBrowsingContextId
 IpcSender
 <
 (
@@ -938,6 +957,7 @@ a
 point
 MoveTo
 (
+TopLevelBrowsingContextId
 Point2D
 <
 i32
@@ -953,6 +973,7 @@ to
 size
 ResizeTo
 (
+TopLevelBrowsingContextId
 Size2D
 <
 u32
@@ -1132,6 +1153,7 @@ exit
 fullscreen
 SetFullscreenState
 (
+TopLevelBrowsingContextId
 bool
 )
 }
@@ -1268,6 +1290,10 @@ Msg
 :
 :
 LoadComplete
+(
+.
+.
+)
 =
 >
 write
@@ -1300,6 +1326,10 @@ Msg
 :
 :
 LoadStart
+(
+.
+.
+)
 =
 >
 write
@@ -1476,6 +1506,10 @@ Msg
 :
 :
 HeadParsed
+(
+.
+.
+)
 =
 >
 write

@@ -324,8 +324,6 @@ script_traits
 {
 MozBrowserEvent
 ScriptMsg
-as
-ConstellationMsg
 }
 ;
 use
@@ -2454,7 +2452,7 @@ url
 let
 event
 =
-ConstellationMsg
+ScriptMsg
 :
 :
 NewFavicon
@@ -2481,7 +2479,7 @@ GlobalScope
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .

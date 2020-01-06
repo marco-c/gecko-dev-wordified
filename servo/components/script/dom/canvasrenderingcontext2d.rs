@@ -555,8 +555,6 @@ script_traits
 :
 :
 ScriptMsg
-as
-ConstellationMsg
 ;
 use
 servo_url
@@ -1072,11 +1070,11 @@ unwrap
 )
 ;
 let
-constellation_chan
+script_to_constellation_chan
 =
 global
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 ;
@@ -1095,11 +1093,11 @@ thread
 "
 )
 ;
-constellation_chan
+script_to_constellation_chan
 .
 send
 (
-ConstellationMsg
+ScriptMsg
 :
 :
 CreateCanvasPaintThread

@@ -617,8 +617,6 @@ script_traits
 :
 :
 ScriptMsg
-as
-ConstellationMsg
 ;
 use
 servo_config
@@ -1428,7 +1426,7 @@ unwrap
 )
 ;
 let
-constellation_chan
+script_to_constellation_chan
 =
 window
 .
@@ -1441,15 +1439,15 @@ GlobalScope
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 ;
-constellation_chan
+script_to_constellation_chan
 .
 send
 (
-ConstellationMsg
+ScriptMsg
 :
 :
 CreateWebGLPaintThread

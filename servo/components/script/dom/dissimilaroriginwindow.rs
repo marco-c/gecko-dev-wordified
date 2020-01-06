@@ -233,8 +233,6 @@ script_traits
 :
 :
 ScriptMsg
-as
-ConstellationMsg
 ;
 use
 servo_url
@@ -532,7 +530,7 @@ clone
 )
 global_to_clone_from
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .
@@ -1536,7 +1534,7 @@ StructuredCloneData
 let
 msg
 =
-ConstellationMsg
+ScriptMsg
 :
 :
 PostMessage
@@ -1570,7 +1568,7 @@ GlobalScope
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .

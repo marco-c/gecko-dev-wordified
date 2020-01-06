@@ -129,7 +129,6 @@ constellation_msg
 :
 {
 BrowsingContextId
-TopLevelBrowsingContextId
 FrameType
 PipelineId
 TraversalDirection
@@ -515,7 +514,6 @@ loads
 InitiateNavigateRequest
 (
 RequestInit
-PipelineId
 )
 /
 /
@@ -546,7 +544,6 @@ value
 .
 BroadcastStorageEvent
 (
-PipelineId
 StorageType
 ServoUrl
 Option
@@ -576,7 +573,6 @@ animations
 .
 ChangeRunningAnimationsState
 (
-PipelineId
 AnimationState
 )
 /
@@ -718,9 +714,6 @@ received
 focus
 .
 Focus
-(
-PipelineId
-)
 /
 /
 /
@@ -844,9 +837,6 @@ been
 dispatched
 .
 LoadComplete
-(
-PipelineId
-)
 /
 /
 /
@@ -878,7 +868,6 @@ entry
 .
 LoadUrl
 (
-PipelineId
 LoadData
 bool
 )
@@ -929,7 +918,6 @@ iframe
 MozBrowserEvent
 (
 PipelineId
-TopLevelBrowsingContextId
 MozBrowserEvent
 )
 /
@@ -943,7 +931,6 @@ traversal
 .
 TraverseHistory
 (
-TopLevelBrowsingContextId
 TraversalDirection
 )
 /
@@ -963,7 +950,6 @@ constellation
 .
 JointSessionHistoryLength
 (
-TopLevelBrowsingContextId
 IpcSender
 <
 u32
@@ -1046,7 +1032,6 @@ pipeline
 visibility
 SetVisible
 (
-PipelineId
 bool
 )
 /
@@ -1066,7 +1051,6 @@ changed
 .
 VisibilityChangeComplete
 (
-PipelineId
 bool
 )
 /
@@ -1138,9 +1122,6 @@ document
 as
 active
 ActivateDocument
-(
-PipelineId
-)
 /
 /
 /
@@ -1160,7 +1141,6 @@ reftests
 )
 SetDocumentState
 (
-PipelineId
 DocumentState
 )
 /
@@ -1178,7 +1158,6 @@ redirections
 .
 SetFinalUrl
 (
-PipelineId
 ServoUrl
 )
 /
@@ -1195,7 +1174,6 @@ be
 presented
 Alert
 (
-PipelineId
 String
 IpcSender
 <
@@ -1251,7 +1229,6 @@ document
 title
 SetTitle
 (
-PipelineId
 Option
 <
 String
@@ -1372,10 +1349,6 @@ LogEntry
 (
 Option
 <
-TopLevelBrowsingContextId
->
-Option
-<
 String
 >
 LogEntry
@@ -1393,9 +1366,6 @@ has
 exited
 .
 PipelineExited
-(
-PipelineId
-)
 /
 /
 /
