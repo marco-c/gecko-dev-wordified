@@ -5110,12 +5110,6 @@ dest
 )
 ;
 }
-result
-.
-mDidSelfCopy
-=
-true
-;
 mDidSelfCopy
 =
 true
@@ -5347,12 +5341,6 @@ self
 copied
 for
 SyncBackToFrontBuffer
-result
-.
-mDidSelfCopy
-=
-true
-;
 mDidSelfCopy
 =
 true
@@ -5373,8 +5361,6 @@ IntPoint
 if
 (
 !
-result
-.
 mDidSelfCopy
 )
 {
