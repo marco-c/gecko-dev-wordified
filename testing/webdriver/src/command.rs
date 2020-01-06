@@ -3959,7 +3959,8 @@ ErrorStatus
 :
 InvalidArgument
 "
-Script
+Page
+load
 timeout
 duration
 was
@@ -4012,7 +4013,7 @@ ErrorStatus
 :
 InvalidArgument
 "
-Script
+Implicit
 timeout
 duration
 was
