@@ -424,6 +424,7 @@ gfx
 DrawTarget
 *
 aTarget
+const
 mozilla
 :
 :
