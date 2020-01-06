@@ -280,13 +280,6 @@ padding
 :
 3px
 ;
-color
-:
--
-moz
--
-DialogText
-;
 }
 .
 toolbarbutton
@@ -640,10 +633,6 @@ true
 ]
 )
 {
-color
-:
-inherit
-;
 text
 -
 shadow
@@ -699,10 +688,6 @@ true
 ]
 )
 {
-color
-:
-inherit
-;
 text
 -
 shadow

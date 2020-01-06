@@ -3124,6 +3124,10 @@ boxshadow
 ;
 %
 endif
+color
+:
+inherit
+;
 }
 .
 findbar
@@ -3447,6 +3451,10 @@ transition
 duration
 :
 10ms
+;
+color
+:
+inherit
 ;
 }
 #
