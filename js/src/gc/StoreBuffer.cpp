@@ -760,7 +760,6 @@ if
 !
 data
 )
-{
 oomUnsafe
 .
 crash
@@ -773,10 +772,6 @@ WholeCellSet
 "
 )
 ;
-return
-nullptr
-;
-}
 if
 (
 nursery
