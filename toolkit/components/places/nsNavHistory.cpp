@@ -12146,7 +12146,6 @@ Find
 ADDITIONAL_CONDITIONS
 }
 "
-0
 )
 !
 =

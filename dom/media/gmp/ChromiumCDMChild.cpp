@@ -1653,10 +1653,12 @@ fail
 bool
 loadSuccessful
 =
-aSessionId
 !
-=
-nullptr
+aSessionId
+.
+IsEmpty
+(
+)
 ;
 GMP_LOG
 (
