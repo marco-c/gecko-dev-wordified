@@ -1573,35 +1573,6 @@ run
 -
 task
 '
-        
-#
-The
-workspace
-cache
-/
-volume
-is
-default
-owned
-by
-root
-:
-root
-.
-        
-'
--
--
-chown
-'
-'
-/
-home
-/
-worker
-/
-workspace
-'
     
 ]
     
