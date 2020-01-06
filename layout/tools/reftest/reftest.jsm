@@ -12917,12 +12917,12 @@ break
 case
 2
 :
-var
+let
 pathToTestPdf
 =
 gTestPrintOutput
 ;
-var
+let
 pathToRefPdf
 =
 typeSpecificResults
@@ -12937,7 +12937,7 @@ error
 results
 )
 {
-var
+let
 expected
 =
 gURLs
@@ -13046,7 +13046,7 @@ extra
 }
 else
 {
-var
+let
 outputPair
 =
 outputs
@@ -13063,7 +13063,7 @@ expected
 EXPECTED_FAIL
 )
 {
-var
+let
 failureResults
 =
 results
@@ -13174,7 +13174,7 @@ result
 passed
 ]
 ;
-var
+let
 extra
 =
 {
@@ -16976,7 +16976,7 @@ function
 data
 )
 {
-var
+let
 fakePort
 =
 new
@@ -17000,7 +17000,7 @@ initializeFromPort
 fakePort
 )
 ;
-var
+let
 myWorker
 =
 new
@@ -17212,7 +17212,7 @@ function
 pdfs
 )
 {
-var
+let
 numberOfPages
 =
 pdfs
@@ -17222,7 +17222,7 @@ pdfs
 .
 numPages
 ;
-var
+let
 sameNumberOfPages
 =
 numberOfPages
@@ -17236,7 +17236,7 @@ pdfs
 .
 numPages
 ;
-var
+let
 resultPromises
 =
 [
@@ -17281,7 +17281,7 @@ sameNumberOfPages
 {
 for
 (
-var
+let
 i
 =
 0
@@ -17295,14 +17295,14 @@ i
 +
 )
 {
-var
+let
 pageNum
 =
 i
 +
 1
 ;
-var
+let
 testPagePromise
 =
 pdfs
@@ -17315,7 +17315,7 @@ getPage
 pageNum
 )
 ;
-var
+let
 refPagePromise
 =
 pdfs
@@ -17358,7 +17358,7 @@ function
 pages
 )
 {
-var
+let
 testTextPromise
 =
 pages
@@ -17370,7 +17370,7 @@ getTextContent
 (
 )
 ;
-var
+let
 refTextPromise
 =
 pages
@@ -17399,7 +17399,7 @@ function
 texts
 )
 {
-var
+let
 testTextItems
 =
 texts
@@ -17409,7 +17409,7 @@ texts
 .
 items
 ;
-var
+let
 refTextItems
 =
 texts
@@ -17419,13 +17419,13 @@ texts
 .
 items
 ;
-var
+let
 testText
 ;
-var
+let
 refText
 ;
-var
+let
 passed
 =
 refTextItems
@@ -17476,7 +17476,7 @@ refText
 }
 )
 ;
-var
+let
 description
 ;
 if
