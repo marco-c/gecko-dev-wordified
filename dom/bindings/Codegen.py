@@ -13540,36 +13540,6 @@ without
 new
 |
 .
-We
-don
-'
-t
-enforce
-this
-for
-chrome
-in
-        
-#
-realease
-builds
-to
-avoid
-the
-addon
-compat
-fallout
-of
-making
-that
-        
-#
-change
-.
-See
-bug
-916644
-.
         
 #
         
