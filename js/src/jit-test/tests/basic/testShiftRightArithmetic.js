@@ -33,17 +33,6 @@ level
 .
 *
 /
-load
-(
-libdir
-+
-'
-range
-.
-js
-'
-)
-;
 /
 *
 Test

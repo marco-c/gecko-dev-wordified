@@ -40,17 +40,6 @@ level
 .
 *
 /
-load
-(
-libdir
-+
-'
-range
-.
-js
-'
-)
-;
 function
 testShiftLeft
 (
