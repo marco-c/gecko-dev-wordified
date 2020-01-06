@@ -190,11 +190,6 @@ nsStyleConsts
 .
 h
 "
-/
-/
-#
-define
-ENABLE_FRAME_LATENCY_LOG
 namespace
 mozilla
 {
@@ -784,6 +779,8 @@ uint64_t
 aId
 .
 mNamespace
+.
+mHandle
 )
 <
 <
@@ -817,6 +814,8 @@ imageKey
 imageKey
 .
 mNamespace
+.
+mHandle
 =
 aId
 >
@@ -867,6 +866,8 @@ uint64_t
 aId
 .
 mNamespace
+.
+mHandle
 )
 <
 <
@@ -900,6 +901,8 @@ fontKey
 fontKey
 .
 mNamespace
+.
+mHandle
 =
 aId
 >
