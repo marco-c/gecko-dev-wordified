@@ -2099,11 +2099,12 @@ contextData
 ;
 }
 ;
-function
-getContexts
-(
+const
+getMenuContexts
+=
 contextData
-)
+=
+>
 {
 let
 contexts
@@ -2361,6 +2362,7 @@ return
 contexts
 ;
 }
+;
 function
 MenuItem
 (
@@ -3449,7 +3451,7 @@ contextData
 let
 contexts
 =
-getContexts
+getMenuContexts
 (
 contextData
 )
