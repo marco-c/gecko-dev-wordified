@@ -605,7 +605,6 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
-TenuredObject
 )
 )
 ;
