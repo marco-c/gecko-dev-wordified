@@ -147,9 +147,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 {
 const
@@ -180,7 +177,7 @@ ctrParams
 >
 ulCounterBits
 >
-blocksize
+AES_BLOCK_SIZE
 *
 PR_BITS_PER_BYTE
 )
@@ -206,7 +203,7 @@ ctr
 bufPtr
 <
 =
-blocksize
+AES_BLOCK_SIZE
 *
 /
 ctr
@@ -221,7 +218,7 @@ ctr
 >
 bufPtr
 =
-blocksize
+AES_BLOCK_SIZE
 ;
 /
 *
@@ -259,7 +256,7 @@ ulCounterBits
 ;
 if
 (
-blocksize
+AES_BLOCK_SIZE
 >
 sizeof
 (
@@ -270,7 +267,7 @@ counter
 )
 |
 |
-blocksize
+AES_BLOCK_SIZE
 >
 sizeof
 (
@@ -300,7 +297,7 @@ ctrParams
 -
 >
 cb
-blocksize
+AES_BLOCK_SIZE
 )
 ;
 if
@@ -323,7 +320,7 @@ ctr
 -
 >
 counter
-blocksize
+AES_BLOCK_SIZE
 )
 ;
 ctr
@@ -352,9 +349,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 {
 CTRContext
@@ -401,7 +395,6 @@ ctr
 context
 cipher
 param
-blocksize
 )
 ;
 if

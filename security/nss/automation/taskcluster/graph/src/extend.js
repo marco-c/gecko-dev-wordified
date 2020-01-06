@@ -5768,9 +5768,9 @@ nss
 /
 automation
 /
-taskcluster
-/
-scripts
+clang
+-
+format
 /
 run_clang_format
 .

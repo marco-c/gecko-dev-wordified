@@ -1286,7 +1286,7 @@ SSL_ShutdownServerSessionIDCache
 (
 )
 ;
-SSLInt_ClearSessionTicketKey
+SSLInt_ClearSelfEncryptKey
 (
 )
 ;
@@ -1323,7 +1323,7 @@ c_str
 )
 )
 ;
-SSLInt_ClearSessionTicketKey
+SSLInt_ClearSelfEncryptKey
 (
 )
 ;
@@ -1366,7 +1366,7 @@ SSL_ClearSessionCache
 (
 )
 ;
-SSLInt_ClearSessionTicketKey
+SSLInt_ClearSelfEncryptKey
 (
 )
 ;

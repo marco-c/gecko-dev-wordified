@@ -174,9 +174,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 ;
 /
@@ -249,9 +246,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 ;
 void

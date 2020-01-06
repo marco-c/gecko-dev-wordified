@@ -1081,6 +1081,10 @@ buf
 void
 ReadBytes
 (
+size_t
+max
+=
+16384U
 )
 ;
 void

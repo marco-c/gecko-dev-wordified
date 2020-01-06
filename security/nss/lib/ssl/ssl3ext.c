@@ -1082,7 +1082,7 @@ ssl3_ParseExtensions
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -2230,7 +2230,7 @@ ssl3_HandleExtensions
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -2955,7 +2955,7 @@ sslSocket
 *
 ss
 const
-SSL3Opaque
+PRUint8
 *
 src
 PRInt32
@@ -3040,7 +3040,7 @@ void
 v
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -3076,7 +3076,7 @@ PRUint32
 num
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -3112,7 +3112,7 @@ SECItem
 i
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b

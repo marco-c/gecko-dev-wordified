@@ -378,7 +378,7 @@ tls13_HandleEncryptedExtensions
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -401,7 +401,7 @@ tls13_HandleCertificate
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -415,7 +415,7 @@ tls13_HandleCertificateRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -441,7 +441,7 @@ tls13_HandleCertificateVerify
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -539,7 +539,7 @@ message
 PK11SymKey
 *
 secret
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -557,7 +557,7 @@ tls13_ClientHandleFinished
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -575,7 +575,7 @@ tls13_ServerHandleFinished
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -593,7 +593,7 @@ tls13_HandleNewSessionTicket
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -2647,7 +2647,7 @@ ss
 SECKEYPublicKey
 *
 peerKey
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -3116,7 +3116,7 @@ tls13_HandlePostHelloHandshakeMessage
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -9973,7 +9973,7 @@ tls13_HandleHelloRetryRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -10533,7 +10533,7 @@ tls13_HandleCertificateRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -13925,7 +13925,7 @@ tls13_HandleCertificate
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -18186,7 +18186,7 @@ tls13_HandleEncryptedExtensions
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -19622,7 +19622,7 @@ tls13_HandleCertificateVerify
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -20924,7 +20924,7 @@ message
 PK11SymKey
 *
 secret
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -21072,7 +21072,7 @@ tls13_ClientHandleFinished
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -21211,7 +21211,7 @@ tls13_ServerHandleFinished
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -23071,7 +23071,7 @@ tls13_HandleNewSessionTicket
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -24429,7 +24429,7 @@ cwSpec
 SSL3ContentType
 type
 const
-SSL3Opaque
+PRUint8
 *
 pIn
 PRUint32

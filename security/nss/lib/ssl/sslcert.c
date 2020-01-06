@@ -1466,7 +1466,7 @@ already
 /
 if
 (
-ssl_MaybeSetSessionTicketKeyPair
+ssl_MaybeSetSelfEncryptKeyPair
 (
 keyPair
 )

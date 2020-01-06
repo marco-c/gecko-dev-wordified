@@ -1668,7 +1668,7 @@ ssl3_HandleECDHClientKeyExchange
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -2094,7 +2094,7 @@ ss
 SECKEYPublicKey
 *
 peerKey
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -3042,7 +3042,7 @@ ssl3_HandleECDHServerKeyExchange
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
