@@ -846,7 +846,7 @@ GetShell
 shell
 -
 >
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 mBoundElement
 -

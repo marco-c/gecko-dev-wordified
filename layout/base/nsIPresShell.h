@@ -3083,7 +3083,7 @@ instead
 /
 virtual
 void
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 mozilla
 :

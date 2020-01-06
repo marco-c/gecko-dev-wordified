@@ -800,7 +800,7 @@ override
 ;
 virtual
 void
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 mozilla
 :
