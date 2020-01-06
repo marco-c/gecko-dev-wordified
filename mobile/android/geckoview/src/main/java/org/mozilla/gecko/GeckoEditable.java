@@ -4310,9 +4310,6 @@ gecko
 private
 GeckoEditable
 (
-final
-GeckoView
-v
 )
 {
 if
@@ -4393,11 +4390,6 @@ ThreadUtils
 .
 getUiHandler
 (
-)
-;
-onViewChange
-(
-v
 )
 ;
 }
