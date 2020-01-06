@@ -408,9 +408,7 @@ message
 .
 AddDescriptor
 (
-mach_thread_self
-(
-)
+MACH_PORT_NULL
 )
 ;
 /
