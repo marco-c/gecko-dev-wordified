@@ -400,6 +400,15 @@ dbg
 "
 )
 ;
+yield
+waitForDispatch
+(
+dbg
+"
+SET_BREAKPOINT_CONDITION
+"
+)
+;
 bp
 =
 findBreakpoint
