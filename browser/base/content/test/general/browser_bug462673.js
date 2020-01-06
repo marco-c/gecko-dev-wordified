@@ -318,7 +318,7 @@ win
 .
 gBrowser
 .
-mTabBox
+tabbox
 .
 selectedPanel
 newBrowser

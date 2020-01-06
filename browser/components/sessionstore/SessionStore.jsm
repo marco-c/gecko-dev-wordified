@@ -23458,7 +23458,7 @@ selected
 =
 tabbrowser
 .
-mTabBox
+tabbox
 .
 selectedIndex
 +
