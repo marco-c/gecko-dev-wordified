@@ -1839,6 +1839,11 @@ UnparentChildren
 (
 )
 ;
+void
+LastRelease
+(
+)
+;
 /
 /
 Return
