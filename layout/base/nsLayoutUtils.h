@@ -9102,6 +9102,7 @@ nsIFrame
 *
 FirstContinuationOrIBSplitSibling
 (
+const
 nsIFrame
 *
 aFrame
@@ -9138,6 +9139,7 @@ nsIFrame
 *
 LastContinuationOrIBSplitSibling
 (
+const
 nsIFrame
 *
 aFrame
