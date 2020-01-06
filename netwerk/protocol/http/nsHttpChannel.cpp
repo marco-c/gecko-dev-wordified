@@ -2066,14 +2066,6 @@ mAuthConnectionRestartable
 (
 0
 )
-mReqContentLengthDetermined
-(
-0
-)
-mReqContentLength
-(
-0U
-)
 mPushedStream
 (
 nullptr
