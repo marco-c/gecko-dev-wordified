@@ -17190,6 +17190,10 @@ IsBuildingInvisibleItems
 (
 )
 )
+mDisableSubpixelAA
+(
+false
+)
 #
 ifdef
 MOZ_DUMP_PAINTING

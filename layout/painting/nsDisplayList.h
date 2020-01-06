@@ -10383,6 +10383,10 @@ mForceNotVisible
 (
 false
 )
+mDisableSubpixelAA
+(
+false
+)
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -14200,12 +14204,15 @@ text
 .
 *
 /
-virtual
 void
 DisableComponentAlpha
 (
 )
 {
+mDisableSubpixelAA
+=
+true
+;
 }
 /
 *
@@ -14578,6 +14585,9 @@ mVisibleRect
 ;
 bool
 mForceNotVisible
+;
+bool
+mDisableSubpixelAA
 ;
 #
 ifdef
