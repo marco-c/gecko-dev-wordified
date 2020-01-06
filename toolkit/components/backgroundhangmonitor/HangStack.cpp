@@ -1636,6 +1636,9 @@ return
 false
 ;
 }
+if
+(
+!
 aResult
 -
 >
@@ -1643,7 +1646,12 @@ reserve
 (
 length
 )
+)
+{
+return
+false
 ;
+}
 for
 (
 size_t

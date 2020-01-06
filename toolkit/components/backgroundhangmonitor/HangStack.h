@@ -1115,6 +1115,7 @@ aEntry
 )
 ;
 }
+MOZ_MUST_USE
 bool
 reserve
 (
@@ -1550,6 +1551,7 @@ length
 )
 ;
 }
+MOZ_MUST_USE
 bool
 EnsureBufferCapacity
 (
