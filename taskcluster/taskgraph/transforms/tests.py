@@ -6168,7 +6168,7 @@ suite
 '
 test
 -
-verification
+verify
 '
 :
             

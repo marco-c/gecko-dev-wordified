@@ -143,7 +143,7 @@ jittest
 '
 test
 -
-verification
+verify
 '
     
 #
