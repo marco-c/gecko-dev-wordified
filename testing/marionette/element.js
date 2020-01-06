@@ -141,10 +141,10 @@ js
 ;
 const
 {
-error
 InvalidSelectorError
 JavaScriptError
 NoSuchElementError
+pprint
 StaleElementReferenceError
 }
 =
@@ -1120,8 +1120,6 @@ throw
 new
 StaleElementReferenceError
 (
-error
-.
 pprint
 The
 element
