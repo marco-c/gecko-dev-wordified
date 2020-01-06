@@ -18,12 +18,6 @@ innerWidth
 /
 Height
 *
-and
-window
-.
-outerWidth
-/
-Height
 when
 fingerprinting
 resistance
@@ -31,7 +25,6 @@ is
 enabled
 .
 This
-*
 test
 is
 for
@@ -86,5 +79,6 @@ initHeight
 1000
 }
 ]
+false
 )
 ;
