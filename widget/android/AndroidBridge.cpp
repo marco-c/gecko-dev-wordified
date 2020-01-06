@@ -178,13 +178,6 @@ h
 #
 include
 "
-AndroidJNIWrapper
-.
-h
-"
-#
-include
-"
 AndroidBridgeUtilities
 .
 h
