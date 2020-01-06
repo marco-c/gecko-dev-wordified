@@ -196,6 +196,9 @@ h
 namespace
 mozilla
 {
+struct
+ActiveScrolledRoot
+;
 namespace
 layers
 {
@@ -343,6 +346,12 @@ aOwner
 nsDisplayItem
 *
 aItem
+int32_t
+aDescendantCount
+const
+ActiveScrolledRoot
+*
+aStopAtAsr
 )
 ;
 int32_t
