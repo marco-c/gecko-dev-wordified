@@ -78,11 +78,16 @@ marionette
 /
 content
 /
-wait
+sync
 .
 js
 "
 )
+;
+const
+DEFAULT_TIMEOUT
+=
+2000
 ;
 add_task
 (
@@ -200,7 +205,7 @@ end
 -
 start
 )
-2000
+DEFAULT_TIMEOUT
 )
 ;
 greaterOrEqual
@@ -364,7 +369,7 @@ end
 -
 start
 )
-2000
+DEFAULT_TIMEOUT
 )
 ;
 }
