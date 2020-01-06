@@ -23654,8 +23654,11 @@ profilerNeedsDisplayList
 consoleNeedsDisplayList
 )
 {
-profiler_log
+profiler_tracing
 (
+"
+log
+"
 ss
 -
 >
@@ -24219,8 +24222,11 @@ profilerNeedsDisplayList
 consoleNeedsDisplayList
 )
 {
-profiler_log
+profiler_tracing
 (
+"
+log
+"
 ss
 -
 >
