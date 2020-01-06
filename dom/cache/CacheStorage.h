@@ -602,6 +602,12 @@ MaybeRunPendingRequests
 (
 )
 ;
+OpenMode
+GetOpenMode
+(
+)
+const
+;
 const
 Namespace
 mNamespace
