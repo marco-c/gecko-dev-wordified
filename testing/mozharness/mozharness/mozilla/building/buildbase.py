@@ -7126,9 +7126,7 @@ get
 is_automation
 "
 )
-:
-            
-if
+and
 self
 .
 buildbot_config
@@ -7145,7 +7143,7 @@ buildid
 '
 )
 :
-                
+            
 self
 .
 info
@@ -7158,7 +7156,7 @@ buildbot
 properties
 "
 )
-                
+            
 buildid
 =
 self
@@ -7177,19 +7175,19 @@ buildid
 .
 encode
 (
-                    
+                
 '
 ascii
 '
 '
 replace
 '
-                
-)
             
+)
+        
 else
 :
-                
+            
 #
 for
 taskcluster
@@ -7201,7 +7199,7 @@ properties
 and
 we
 pass
-                
+            
 #
 MOZ_BUILD_DATE
 into
@@ -7211,7 +7209,7 @@ an
 environment
 variable
 only
-                
+            
 #
 to
 have
@@ -7226,7 +7224,7 @@ the
 same
 name
 .
-                
+            
 buildid
 =
 os
