@@ -14,6 +14,11 @@ allow
 unhandlable
 -
 oom
+gczeal
+(
+0
+)
+;
 function
 MyObject
 (
