@@ -23744,7 +23744,7 @@ notifications
 mSelection
 -
 >
-EndBatchChangesInternal
+EndBatchChanges
 (
 aEvent
 -
