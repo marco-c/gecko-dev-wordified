@@ -425,14 +425,14 @@ startCustomizing
 )
 ;
 let
-downloadsButton
+homeButton
 =
 document
 .
 getElementById
 (
 "
-downloads
+home
 -
 button
 "
@@ -440,7 +440,7 @@ button
 ;
 simulateItemDrag
 (
-downloadsButton
+homeButton
 navbar
 .
 customizationTarget
@@ -453,7 +453,7 @@ endCustomizing
 ;
 is
 (
-downloadsButton
+homeButton
 .
 previousSibling
 .

@@ -104,7 +104,7 @@ picking
 the
 /
 /
-downloads
+home
 button
 somewhat
 arbitrarily
@@ -118,7 +118,7 @@ document
 getElementById
 (
 "
-downloads
+home
 -
 button
 "
@@ -217,7 +217,7 @@ document
 getElementById
 (
 "
-downloads
+home
 -
 button
 "
@@ -301,7 +301,7 @@ document
 getElementById
 (
 "
-downloads
+home
 -
 button
 "
@@ -357,7 +357,7 @@ document
 getElementById
 (
 "
-downloads
+home
 -
 button
 "

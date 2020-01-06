@@ -272,12 +272,6 @@ customizeStart
 (
 )
 ;
-DownloadsButton
-.
-customizeStart
-(
-)
-;
 }
 _customizationEnding
 (
@@ -406,12 +400,6 @@ box
 }
 }
 PlacesToolbarHelper
-.
-customizeDone
-(
-)
-;
-DownloadsButton
 .
 customizeDone
 (
