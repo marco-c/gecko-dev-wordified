@@ -3466,11 +3466,6 @@ mChannelEnded
 (
 false
 )
-mStreamLength
-(
--
-1
-)
 mStreamOffset
 (
 0
