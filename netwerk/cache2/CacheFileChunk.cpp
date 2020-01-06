@@ -2968,12 +2968,6 @@ const
 {
 MOZ_ASSERT
 (
-!
-mListener
-)
-;
-MOZ_ASSERT
-(
 IsReady
 (
 )
