@@ -381,7 +381,7 @@ getPublicSuffix
 io
 :
 {
-NewURI
+newURI
 (
 )
 {

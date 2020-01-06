@@ -719,6 +719,11 @@ _topic
 client_id
 :
 clientID
+release_channel
+:
+AppConstants
+.
+MOZ_UPDATE_CHANNEL
 }
 data
 )
