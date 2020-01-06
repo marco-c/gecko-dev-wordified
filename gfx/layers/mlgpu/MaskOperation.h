@@ -259,6 +259,17 @@ return
 mTexture
 ;
 }
+bool
+IsEmpty
+(
+)
+const
+{
+return
+!
+mTexture
+;
+}
 protected
 :
 explicit
