@@ -1920,9 +1920,8 @@ untrusted
 content
 via
 __exposedProps__
-is
-being
-gradually
+has
+been
 "
 "
 removed

@@ -4271,7 +4271,7 @@ singleton
 /
 /
 For
-Vanilla
+vanilla
 JSObjects
 exposed
 from
@@ -4285,8 +4285,12 @@ wrapper
 /
 /
 that
-supports
-__exposedProps__
+fails
+silently
+in
+a
+few
+cases
 .
 We
 '
@@ -4296,7 +4300,7 @@ to
 get
 rid
 of
-these
+this
 eventually
 /
 /
@@ -4636,7 +4640,12 @@ if
 targetCompartmentPrivate
 -
 >
-hasInterposition
+scope
+-
+>
+HasInterposition
+(
+)
 )
 wrapper
 =

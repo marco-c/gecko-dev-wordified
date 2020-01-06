@@ -138,6 +138,8 @@ do_check_true
 !
 /
 denied
+|
+prohibited
 /
 .
 exec
@@ -262,7 +264,7 @@ a
 '
 contentSB
 )
-2
+undefined
 )
 ;
 try

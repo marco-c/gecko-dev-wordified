@@ -5093,8 +5093,12 @@ object
 wrapper
 which
 would
-require
-__exposedProps__
+not
+let
+us
+access
+any
+properties
 .
 /
 /

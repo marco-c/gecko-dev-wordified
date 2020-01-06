@@ -161,10 +161,17 @@ wrapper
 that
 /
 /
-supports
-__exposedProps__
+fails
+silently
+on
+GET
+ENUMERATE
+and
+GET_PROPERTY_DESCRIPTOR
 for
 legacy
+/
+/
 reasons
 .
 For
@@ -172,8 +179,6 @@ extra
 security
 we
 override
-/
-/
 the
 traps
 that
@@ -181,6 +186,8 @@ allow
 content
 to
 pass
+/
+/
 an
 object
 to
@@ -188,8 +195,6 @@ chrome
 and
 perform
 extra
-/
-/
 security
 checks
 on
