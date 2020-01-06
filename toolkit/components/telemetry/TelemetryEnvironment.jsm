@@ -11370,6 +11370,15 @@ this
 _getGFXData
 (
 )
+hasTouchbar
+:
+getSysinfoProperty
+(
+"
+hasTouchbar
+"
+false
+)
 }
 ;
 if
