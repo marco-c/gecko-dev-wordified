@@ -2325,7 +2325,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8732,7 +8732,7 @@ startParent
 mRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

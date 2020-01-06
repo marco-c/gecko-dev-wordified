@@ -883,7 +883,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -3560,7 +3560,7 @@ startNode
 inRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5849,7 +5849,7 @@ startNode
 =
 aRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -6107,7 +6107,7 @@ startNode
 =
 aRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -6618,7 +6618,7 @@ collapsedNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8178,7 +8178,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8875,7 +8875,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 NS_OK
@@ -8897,7 +8897,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -9104,7 +9104,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

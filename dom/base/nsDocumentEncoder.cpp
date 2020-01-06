@@ -4725,7 +4725,7 @@ startParent
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

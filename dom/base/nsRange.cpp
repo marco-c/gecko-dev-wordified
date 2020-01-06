@@ -1020,7 +1020,7 @@ rangeStartParent
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -1271,7 +1271,7 @@ mEndOffset
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aRange
@@ -11890,7 +11890,7 @@ node
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -13774,7 +13774,7 @@ otherNode
 =
 aOtherRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -13806,7 +13806,7 @@ otherNode
 =
 aOtherRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;

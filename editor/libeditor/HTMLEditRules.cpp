@@ -2249,7 +2249,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -3895,7 +3895,7 @@ selStartNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5352,7 +5352,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -5373,7 +5373,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -7894,7 +7894,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -7914,7 +7914,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8431,7 +8431,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -9854,7 +9854,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 NS_ERROR_FAILURE
@@ -9875,7 +9875,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -10351,7 +10351,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -10372,7 +10372,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -12988,7 +12988,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -13204,7 +13204,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -13651,7 +13651,7 @@ NS_ASSERTION
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 =
@@ -15934,7 +15934,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -21711,7 +21711,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -24007,7 +24007,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -24027,7 +24027,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -24763,7 +24763,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -24783,7 +24783,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -25249,7 +25249,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -26654,7 +26654,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -29778,7 +29778,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -29885,7 +29885,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -30808,7 +30808,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -32225,7 +32225,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -32245,7 +32245,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -32297,7 +32297,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 :
@@ -35326,7 +35326,7 @@ selStartNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -39092,7 +39092,7 @@ startNode
 =
 aRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -50220,7 +50220,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -51387,7 +51387,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -51407,7 +51407,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -59034,7 +59034,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -59054,7 +59054,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

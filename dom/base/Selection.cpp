@@ -2637,7 +2637,7 @@ startNode
 aDomRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -3692,7 +3692,7 @@ do_QueryInterface
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -4100,7 +4100,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -4818,7 +4818,7 @@ return
 mAnchorFocusRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -4953,7 +4953,7 @@ return
 mAnchorFocusRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5153,7 +5153,7 @@ start
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5772,7 +5772,7 @@ CompareToRangeStart
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 range
@@ -6078,7 +6078,7 @@ nsRange
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -6093,7 +6093,7 @@ SetStartAndEnd
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 range
@@ -6105,7 +6105,7 @@ StartOffset
 aSubtract
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aSubtract
@@ -6700,7 +6700,7 @@ target
 aItem
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -7142,7 +7142,7 @@ GetIndicesForInterval
 aItem
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aItem
@@ -7298,7 +7298,7 @@ EqualsRangeAtPoint
 aItem
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aItem
@@ -7651,7 +7651,7 @@ temp
 aItem
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aItem
@@ -8194,7 +8194,7 @@ return
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 =
@@ -10640,7 +10640,7 @@ startNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -11730,7 +11730,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -14210,7 +14210,7 @@ beginNode
 =
 aRange
 .
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -15694,7 +15694,7 @@ parent
 firstRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -17042,7 +17042,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -18107,7 +18107,7 @@ SetStart
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 range
@@ -18411,7 +18411,7 @@ SetStartAndEnd
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 range
@@ -19361,7 +19361,7 @@ range
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 range

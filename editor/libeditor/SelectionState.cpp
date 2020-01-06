@@ -3969,7 +3969,7 @@ startNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

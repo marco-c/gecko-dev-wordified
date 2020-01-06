@@ -15732,7 +15732,7 @@ mStartNode
 r
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -16707,7 +16707,7 @@ mStartNode
 r
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -20624,7 +20624,7 @@ aStartNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -24337,7 +24337,7 @@ node
 aRangeToDelete
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -26834,7 +26834,7 @@ startNode
 firstRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -29267,7 +29267,7 @@ NS_WARN_IF
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 !

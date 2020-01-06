@@ -1706,7 +1706,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -4873,7 +4873,7 @@ startNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5936,7 +5936,7 @@ startNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8819,7 +8819,7 @@ startNode
 mFirstSelectedRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -9237,7 +9237,7 @@ focusNode
 mFirstSelectedRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -10134,7 +10134,7 @@ node
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ?
@@ -10686,7 +10686,7 @@ endOffset
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 !
@@ -13332,7 +13332,7 @@ startsBetweenLineBreaker
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 =
@@ -13340,7 +13340,7 @@ GetStartParent
 rangeToPrevOffset
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 &
@@ -21116,7 +21116,7 @@ NodePosition
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 aRange
@@ -21186,7 +21186,7 @@ parentNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -21549,7 +21549,7 @@ node
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -22317,7 +22317,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

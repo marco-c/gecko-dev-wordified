@@ -3596,7 +3596,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -10802,7 +10802,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -12063,7 +12063,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 &
@@ -12077,7 +12077,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -12104,7 +12104,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -12851,7 +12851,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 &
@@ -12865,7 +12865,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -12892,7 +12892,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -13297,7 +13297,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 &
@@ -13311,7 +13311,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -13338,7 +13338,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -13598,7 +13598,7 @@ GetRangeAt
 )
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 0
@@ -26711,7 +26711,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -28674,7 +28674,7 @@ startContainer
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -28825,7 +28825,7 @@ startContainer
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

@@ -28560,7 +28560,7 @@ content
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -28983,7 +28983,7 @@ GetUncomposedDoc
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -29313,7 +29313,7 @@ startParent
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

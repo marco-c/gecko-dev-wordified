@@ -2056,7 +2056,7 @@ NS_WARN_IF
 selRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -2071,7 +2071,7 @@ mRootContent
 selRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -

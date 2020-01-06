@@ -380,7 +380,7 @@ startParent
 rangeToDelete
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
