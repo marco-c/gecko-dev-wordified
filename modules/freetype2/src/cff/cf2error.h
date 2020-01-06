@@ -722,7 +722,7 @@ error
 *
 *
 The
-perservation
+preservation
 of
 an
 error

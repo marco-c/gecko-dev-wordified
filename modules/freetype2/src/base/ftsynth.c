@@ -114,7 +114,7 @@ body
 Copyright
 2000
 -
-2016
+2017
 by
 *
 /
@@ -1496,7 +1496,7 @@ FT_TRACE1
 "
 too
 strong
-embolding
+emboldening
 parameter
 ystr
 =

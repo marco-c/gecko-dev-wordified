@@ -119,7 +119,7 @@ only
 Copyright
 2013
 -
-2016
+2017
 by
 *
 /
@@ -1093,7 +1093,7 @@ changes
 *
 *
 _ClearType_
-_Backwards_
+_Backward_
 _Compatibility_
 *
 *
@@ -1178,7 +1178,7 @@ compatible
 widths
 .
 ClearType
-backwards
+backward
 compatibility
 has
 no
@@ -1208,7 +1208,7 @@ be
 worked
 around
 in
-backwards
+backward
 *
 compatibility
 mode
@@ -2095,7 +2095,7 @@ the
 configuration
 option
 *
-FT_CONFIG_OPTION_SUBPIXEL_HINTING
+TT_CONFIG_OPTION_SUBPIXEL_HINTING
 selecting
 version
 ~

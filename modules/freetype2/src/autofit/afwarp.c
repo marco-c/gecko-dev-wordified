@@ -112,7 +112,7 @@ body
 Copyright
 2006
 -
-2016
+2017
 by
 *
 /
@@ -920,13 +920,6 @@ warper
 x2min
 -
 w
-;
-xx1max
-=
-warper
--
->
-x1max
 ;
 if
 (

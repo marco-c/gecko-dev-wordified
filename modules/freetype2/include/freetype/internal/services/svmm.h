@@ -115,7 +115,7 @@ specification
 Copyright
 2003
 -
-2016
+2017
 by
 *
 /
@@ -466,6 +466,10 @@ FT_Fixed
 *
 *
 coords
+FT_Fixed
+*
+*
+normalizedcoords
 FT_MM_Var
 *
 *

@@ -112,7 +112,7 @@ only
 Copyright
 2003
 -
-2016
+2017
 by
 *
 /
@@ -5636,6 +5636,8 @@ m_init
 m_scale
 \
 m_done
+\
+m_stdw
 \
 h_init
 \

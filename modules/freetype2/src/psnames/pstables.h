@@ -107,7 +107,7 @@ names
 Copyright
 2005
 -
-2016
+2017
 by
 *
 /
@@ -68056,6 +68056,9 @@ DEFINE_PS_TABLES
 *
 /
 ;
+#
+ifdef
+DEFINE_PS_TABLES
 /
 *
 *
@@ -68491,6 +68494,13 @@ return
 0
 ;
 }
+#
+endif
+/
+*
+DEFINE_PS_TABLES
+*
+/
 #
 endif
 /

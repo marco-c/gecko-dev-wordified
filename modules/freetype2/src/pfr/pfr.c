@@ -108,7 +108,7 @@ component
 Copyright
 2002
 -
-2016
+2017
 by
 *
 /
@@ -294,7 +294,14 @@ h
 #
 include
 "
-pfrload
+pfrcmap
+.
+c
+"
+#
+include
+"
+pfrdrivr
 .
 c
 "
@@ -308,7 +315,7 @@ c
 #
 include
 "
-pfrcmap
+pfrload
 .
 c
 "
@@ -316,13 +323,6 @@ c
 include
 "
 pfrobjs
-.
-c
-"
-#
-include
-"
-pfrdrivr
 .
 c
 "

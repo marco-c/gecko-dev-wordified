@@ -110,7 +110,7 @@ body
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -303,6 +303,13 @@ FT_SERVICE_POSTSCRIPT_CMAPS_H
 include
 "
 psmodule
+.
+h
+"
+#
+include
+"
+pstables
 .
 h
 "

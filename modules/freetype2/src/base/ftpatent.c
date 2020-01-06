@@ -111,7 +111,7 @@ body
 Obsolete
 retained
 for
-backwards
+backward
 compatibility
 .
 *
@@ -125,7 +125,7 @@ compatibility
 Copyright
 2007
 -
-2016
+2017
 by
 *
 /

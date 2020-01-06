@@ -112,7 +112,7 @@ only
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -298,14 +298,14 @@ h
 #
 include
 "
-pspic
+psmodule
 .
 c
 "
 #
 include
 "
-psmodule
+pspic
 .
 c
 "

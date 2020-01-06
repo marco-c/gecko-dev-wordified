@@ -110,7 +110,7 @@ body
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -2175,8 +2175,9 @@ FT_TRACE5
 FT_Outline_Decompose
 :
 Error
+0x
 %
-d
+x
 \
 n
 "

@@ -20,7 +20,7 @@ builder
 Copyright
 1996
 -
-2016
+2017
 by
 #
 David
@@ -19836,7 +19836,7 @@ write
 Copyright
 2005
 -
-2016
+2017
 by
 *
 /
@@ -20424,6 +20424,9 @@ write
 "
 "
 \
+#
+ifdef
+DEFINE_PS_TABLES
   
 /
 *
@@ -20935,6 +20938,13 @@ return
 ;
   
 }
+#
+endif
+/
+*
+DEFINE_PS_TABLES
+*
+/
 #
 endif
 /

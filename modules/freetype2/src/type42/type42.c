@@ -109,7 +109,7 @@ component
 Copyright
 2002
 -
-2016
+2017
 by
 *
 /
@@ -295,6 +295,13 @@ h
 #
 include
 "
+t42drivr
+.
+c
+"
+#
+include
+"
 t42objs
 .
 c
@@ -303,13 +310,6 @@ c
 include
 "
 t42parse
-.
-c
-"
-#
-include
-"
-t42drivr
 .
 c
 "
