@@ -2135,6 +2135,15 @@ type
 boolean
 "
 }
+instantiator
+:
+{
+type
+:
+"
+string
+"
+}
 }
 }
 libraryVersions

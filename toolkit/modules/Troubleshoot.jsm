@@ -4240,6 +4240,16 @@ appinfo
 .
 accessibleHandlerUsed
 ;
+data
+.
+instantiator
+=
+Services
+.
+appinfo
+.
+accessibilityInstantiator
+;
 done
 (
 data
