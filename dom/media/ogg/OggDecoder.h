@@ -125,7 +125,7 @@ OggDecoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -139,7 +139,7 @@ class
 OggDecoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -151,7 +151,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

@@ -123,7 +123,7 @@ ADTS_DECODER_H_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -137,7 +137,7 @@ class
 ADTSDecoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -154,7 +154,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

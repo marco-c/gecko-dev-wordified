@@ -121,7 +121,7 @@ MP3Decoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -135,7 +135,7 @@ class
 MP3Decoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -152,7 +152,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )
