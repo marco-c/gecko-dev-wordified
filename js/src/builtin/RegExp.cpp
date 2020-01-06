@@ -2586,7 +2586,7 @@ later
 during
 /
 /
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 calls
 .
 Accessing
@@ -2935,7 +2935,7 @@ cx
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args
@@ -3300,7 +3300,7 @@ cx
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args

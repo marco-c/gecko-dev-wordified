@@ -2435,7 +2435,7 @@ cx
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args

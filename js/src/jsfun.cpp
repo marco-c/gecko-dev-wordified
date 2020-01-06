@@ -12847,7 +12847,7 @@ isAsync
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args
