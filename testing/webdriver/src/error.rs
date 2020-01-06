@@ -1299,7 +1299,7 @@ InternalServerError
 NoSuchAlert
 =
 >
-BadRequest
+NotFound
 NoSuchCookie
 =
 >
@@ -1311,11 +1311,11 @@ NotFound
 NoSuchFrame
 =
 >
-BadRequest
+NotFound
 NoSuchWindow
 =
 >
-BadRequest
+NotFound
 ScriptTimeout
 =
 >
