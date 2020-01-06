@@ -141,6 +141,7 @@ _GtkStyle
 ;
 class
 nsLookAndFeel
+final
 :
 public
 nsXPLookAndFeel
