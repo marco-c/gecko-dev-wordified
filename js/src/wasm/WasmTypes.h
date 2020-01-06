@@ -7255,7 +7255,7 @@ Code
 objects
 (
 eg
-anyTier
+stableTier
 )
 .
 enum
