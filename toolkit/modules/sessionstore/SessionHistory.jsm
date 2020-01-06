@@ -807,7 +807,7 @@ webNavigation
 .
 currentURI
 .
-spec
+displaySpec
 ;
 let
 body
@@ -1126,7 +1126,7 @@ shEntry
 .
 URI
 .
-spec
+displaySpec
 title
 :
 shEntry
