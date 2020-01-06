@@ -15838,7 +15838,7 @@ We
 need
 to
 use
-ResolveTransientServoStyle
+ResolveStyleLazily
 which
 involves
 traversal
@@ -15846,7 +15846,7 @@ traversal
 /
 instead
 of
-ResolveServoStyle
+ResolvestyleFor
 (
 )
 because
@@ -15875,7 +15875,7 @@ parentStyle
 styleSet
 -
 >
-ResolveTransientServoStyle
+ResolveStyleLazily
 (
 aElement
 CSSPseudoElementType
