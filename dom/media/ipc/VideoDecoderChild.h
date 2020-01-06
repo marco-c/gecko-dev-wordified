@@ -249,10 +249,6 @@ IPCResult
 RecvInitComplete
 (
 const
-nsCString
-&
-aDecoderDescription
-const
 bool
 &
 aHardware
@@ -361,12 +357,6 @@ IsHardwareAccelerated
 nsACString
 &
 aFailureReason
-)
-const
-;
-nsCString
-GetDescriptionName
-(
 )
 const
 ;
@@ -498,9 +488,6 @@ mFlushPromise
 ;
 nsCString
 mHardwareAcceleratedReason
-;
-nsCString
-mDescription
 ;
 bool
 mCanSend
