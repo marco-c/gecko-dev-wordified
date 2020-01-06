@@ -3127,9 +3127,8 @@ mTimer
 {
 mTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 }
