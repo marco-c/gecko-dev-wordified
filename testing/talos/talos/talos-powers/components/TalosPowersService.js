@@ -1535,8 +1535,11 @@ if
 (
 !
 startupInfo
-.
+[
+"
 firstPaint
+"
+]
 )
 {
 /

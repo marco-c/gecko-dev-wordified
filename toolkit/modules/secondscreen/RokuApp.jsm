@@ -1475,8 +1475,11 @@ the
 protocol
 version
 data
-.
+[
+"
 _v
+"
+]
 =
 PROTOCOL_VERSION
 ;

@@ -150,8 +150,11 @@ is
 tabState
 .
 extData
-.
+[
+"
 bug485563
+"
+]
 uniqueValue
 "
 unicode

@@ -190,8 +190,11 @@ registry
 getService
 (
 Ci
-.
+[
+"
 nsIChromeRegistry
+"
+]
 )
 ;
 /

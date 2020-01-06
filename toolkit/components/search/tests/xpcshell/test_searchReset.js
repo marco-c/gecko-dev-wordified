@@ -239,8 +239,11 @@ delete
 engine
 .
 _metaData
-.
+[
+"
 loadPathHash
+"
+]
 ;
 break
 ;

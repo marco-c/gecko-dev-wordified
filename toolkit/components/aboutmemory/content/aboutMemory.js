@@ -8058,8 +8058,11 @@ aProcessA
 ]
 .
 _degenerates
-.
+[
+"
 resident
+"
+]
 ;
 let
 nodeB
@@ -8070,8 +8073,11 @@ aProcessB
 ]
 .
 _degenerates
-.
+[
+"
 resident
+"
+]
 ;
 let
 residentA

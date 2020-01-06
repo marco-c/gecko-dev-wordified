@@ -427,8 +427,11 @@ promiseEngineMetadata
 do_check_eq
 (
 metadata
-.
+[
+"
 foo
+"
+]
 .
 alias
 "
@@ -439,8 +442,11 @@ foo
 do_check_true
 (
 metadata
-.
+[
+"
 foo
+"
+]
 .
 order
 >

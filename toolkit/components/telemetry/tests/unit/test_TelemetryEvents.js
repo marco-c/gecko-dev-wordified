@@ -3497,8 +3497,11 @@ events
 [
 5
 ]
-.
+[
+"
 key1
+"
+]
 value
 "
 Should

@@ -114,8 +114,11 @@ telemetry
 histogramSnapshots
 .
 content
-.
+[
+"
 FX_SESSION_RESTORE_DOM_STORAGE_SIZE_ESTIMATE_CHARS
+"
+]
 ;
 }
 else
@@ -129,8 +132,11 @@ telemetry
 histogramSnapshots
 .
 parent
-.
+[
+"
 FX_SESSION_RESTORE_DOM_STORAGE_SIZE_ESTIMATE_CHARS
+"
+]
 ;
 }
 if

@@ -479,8 +479,11 @@ MOZ_SERVICES_HEALTHREPORT
 )
 {
 modules
-.
+[
+'
 healthreport
+'
+]
 =
 {
 uri

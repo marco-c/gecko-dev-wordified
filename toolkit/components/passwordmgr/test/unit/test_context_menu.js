@@ -959,8 +959,11 @@ entry
 =
 >
 entry
-.
+[
+"
 hostname
+"
+]
 =
 =
 =

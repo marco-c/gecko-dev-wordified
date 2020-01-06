@@ -1289,8 +1289,11 @@ request
 response
 .
 headers
-.
+[
+"
 etag
+"
+]
 }
 )
 ;

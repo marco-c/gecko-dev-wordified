@@ -556,8 +556,11 @@ screenshotMode
 |
 |
 SCREENSHOT_MODE
-.
+[
+"
 unexpected
+"
+]
 ;
 this
 .

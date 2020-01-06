@@ -5271,8 +5271,11 @@ id
 )
 return
 gExpectedInstalls
-.
+[
+"
 NO_ID
+"
+]
 .
 shift
 (

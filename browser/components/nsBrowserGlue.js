@@ -15084,8 +15084,11 @@ defaultBehavior
 Ci
 .
 mozIPlacesAutoComplete
-.
+[
+"
 BEHAVIOR_TYPED
+"
+]
 )
 )
 {

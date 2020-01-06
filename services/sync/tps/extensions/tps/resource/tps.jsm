@@ -3605,8 +3605,11 @@ let
 placesItem
 ;
 bookmark
-.
+[
+"
 location
+"
+]
 =
 folder
 ;
@@ -3619,8 +3622,11 @@ last_item_pos
 1
 )
 bookmark
-.
+[
+"
 last_item_pos
+"
+]
 =
 last_item_pos
 ;

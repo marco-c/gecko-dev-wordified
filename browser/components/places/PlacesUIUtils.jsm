@@ -9620,8 +9620,11 @@ allBookmarksFolderId
 this
 .
 leftPaneQueries
-.
+[
+"
 AllBookmarks
+"
+]
 ;
 }
 /
