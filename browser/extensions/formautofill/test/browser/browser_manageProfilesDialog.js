@@ -46,7 +46,7 @@ height
 "
 ;
 function
-waitForAddresses
+waitForRecords
 (
 )
 {
@@ -67,7 +67,7 @@ addMessageListener
 "
 FormAutofill
 :
-Addresses
+Records
 "
 function
 getResult
@@ -84,7 +84,7 @@ removeMessageListener
 "
 FormAutofill
 :
-Addresses
+Records
 "
 getResult
 )
@@ -420,7 +420,7 @@ DIALOG_SIZE
 )
 ;
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
@@ -530,7 +530,7 @@ win
 )
 ;
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
@@ -608,7 +608,7 @@ win
 )
 ;
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
@@ -656,7 +656,7 @@ DIALOG_SIZE
 )
 ;
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
@@ -684,7 +684,7 @@ let
 addresses
 =
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
@@ -716,7 +716,7 @@ guid
 )
 ;
 await
-waitForAddresses
+waitForRecords
 (
 )
 ;
