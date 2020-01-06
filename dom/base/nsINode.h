@@ -12691,7 +12691,7 @@ nsRange
 >
 >
 *
-GetExitingCommonAncestorRanges
+GetExistingCommonAncestorRanges
 (
 )
 const
