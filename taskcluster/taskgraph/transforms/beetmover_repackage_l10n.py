@@ -147,35 +147,6 @@ job
             
 continue
         
-label
-=
-job
-.
-get
-(
-'
-label
-'
-                        
-"
-beetmover
--
-{
-}
--
-{
-}
-"
-.
-format
-(
-locale
-dep_job
-.
-label
-)
-)
-        
 group
 =
 '
@@ -217,6 +188,17 @@ beet_description
 {
             
 '
+label
+'
+:
+job
+[
+'
+label
+'
+]
+            
+'
 dependent
 -
 task
@@ -229,12 +211,6 @@ treeherder
 '
 :
 treeherder
-            
-'
-label
-'
-:
-label
             
 '
 locale
