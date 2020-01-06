@@ -166,6 +166,14 @@ mozilla
 buildbot
 import
 BuildbotMixin
+from
+mozharness
+.
+base
+.
+log
+import
+FATAL
 #
 PublishBalrog
 {
@@ -877,10 +885,7 @@ extend
 -
 rules
 "
-str
-(
 r
-)
 ]
 )
         
@@ -1083,6 +1088,10 @@ halt_on_failure
 =
 True
 )
+                   
+error_level
+=
+FATAL
 )
 #
 __main__
