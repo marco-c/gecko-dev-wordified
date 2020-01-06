@@ -129,13 +129,6 @@ ChannelMediaDecoder
 .
 h
 "
-#
-include
-"
-MediaFormatReader
-.
-h
-"
 namespace
 mozilla
 {
@@ -194,13 +187,6 @@ aInit
 )
 ;
 }
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 /
 /
 Returns
