@@ -1469,6 +1469,16 @@ GetNextSymbol
 aCtx
 )
 ;
+if
+(
+!
+sym
+)
+{
+return
+false
+;
+}
 }
 else
 if
