@@ -2775,7 +2775,7 @@ e
 )
 {
 return
-cast
+cast_or_null
 <
 Expr
 >
