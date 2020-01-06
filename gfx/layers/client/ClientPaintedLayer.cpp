@@ -1751,6 +1751,7 @@ CapturedPaintState
 state
 .
 mRegionToDraw
+captureDT
 target
 targetOnWhite
 capturedTransform
@@ -1772,7 +1773,6 @@ Get
 >
 PaintContents
 (
-captureDT
 capturedState
 RotatedContentBuffer
 :

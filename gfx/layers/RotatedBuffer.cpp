@@ -6063,6 +6063,7 @@ CapturedPaintState
 >
 (
 regionToDraw
+nullptr
 mDTBuffer
 mDTBufferOnWhite
 Matrix
