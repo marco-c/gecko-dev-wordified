@@ -124,6 +124,8 @@ MOZ_JAR_BROTLI
 #
 include
 "
+brotli
+/
 decode
 .
 h
@@ -541,7 +543,7 @@ MOZ_JAR_BROTLI
 :
 mBrotliState
 =
-BrotliCreateState
+BrotliDecoderCreateInstance
 (
 nullptr
 nullptr
@@ -1642,7 +1644,7 @@ mMode
 MODE_BROTLI
 )
 {
-BrotliDestroyState
+BrotliDecoderDestroyInstance
 (
 mBrotliState
 )
@@ -1927,11 +1929,12 @@ mZs
 .
 total_out
 ;
-BrotliResult
+BrotliDecoderResult
 result
 =
-BrotliDecompressStream
+BrotliDecoderDecompressStream
 (
+mBrotliState
 &
 avail_in
 const_cast
@@ -1956,7 +1959,6 @@ mZs
 next_out
 &
 total_out
-mBrotliState
 )
 ;
 /
@@ -1998,7 +2000,7 @@ if
 result
 =
 =
-BROTLI_RESULT_ERROR
+BROTLI_DECODER_RESULT_ERROR
 )
 {
 nsZipArchive
@@ -2024,7 +2026,7 @@ finished
 result
 =
 =
-BROTLI_RESULT_SUCCESS
+BROTLI_DECODER_RESULT_SUCCESS
 )
 ;
 #

@@ -151,6 +151,8 @@ MOZ_JAR_BROTLI
 #
 include
 "
+brotli
+/
 decode
 .
 h
@@ -8669,7 +8671,7 @@ MOZ_JAR_BROTLI
 {
 mBrotliState
 =
-BrotliCreateState
+BrotliDecoderCreateInstance
 (
 nullptr
 nullptr
@@ -8737,7 +8739,7 @@ Compression
 MOZ_JAR_BROTLI
 )
 {
-BrotliDestroyState
+BrotliDecoderDestroyInstance
 (
 mBrotliState
 )
@@ -8998,11 +9000,12 @@ mZs
 .
 avail_in
 ;
-BrotliResult
+BrotliDecoderResult
 result
 =
-BrotliDecompressStream
+BrotliDecoderDecompressStream
 (
+mBrotliState
 &
 avail_in
 const_cast
@@ -9026,7 +9029,6 @@ mZs
 .
 next_out
 nullptr
-mBrotliState
 )
 ;
 /
@@ -9062,7 +9064,7 @@ if
 result
 =
 =
-BROTLI_RESULT_ERROR
+BROTLI_DECODER_RESULT_ERROR
 )
 {
 return
@@ -9084,7 +9086,7 @@ verifyCRC
 result
 =
 =
-BROTLI_RESULT_SUCCESS
+BROTLI_DECODER_RESULT_SUCCESS
 )
 ;
 break

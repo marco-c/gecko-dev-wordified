@@ -112,6 +112,8 @@ h
 #
 include
 "
+brotli
+/
 decode
 .
 h
@@ -1312,7 +1314,7 @@ mMetaOrigLen
 ;
 if
 (
-BrotliDecompressBuffer
+BrotliDecoderDecompress
 (
 userFontData
 -

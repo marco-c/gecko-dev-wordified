@@ -335,7 +335,7 @@ mBrotliStateIsStreamEnd
 false
 )
 {
-BrotliStateInit
+BrotliDecoderStateInit
 (
 &
 mState
@@ -347,14 +347,14 @@ BrotliWrapper
 (
 )
 {
-BrotliStateCleanup
+BrotliDecoderStateCleanup
 (
 &
 mState
 )
 ;
 }
-BrotliState
+BrotliDecoderState
 mState
 ;
 Atomic

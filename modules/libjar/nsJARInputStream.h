@@ -101,7 +101,7 @@ h
 ifdef
 MOZ_JAR_BROTLI
 struct
-BrotliStateStruct
+BrotliDecoderStateStruct
 ;
 #
 endif
@@ -460,7 +460,7 @@ structure
 #
 ifdef
 MOZ_JAR_BROTLI
-BrotliStateStruct
+BrotliDecoderStateStruct
 *
 mBrotliState
 ;
