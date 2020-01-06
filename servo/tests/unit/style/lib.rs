@@ -102,11 +102,11 @@ rayon
 ;
 extern
 crate
-rustc_serialize
+selectors
 ;
 extern
 crate
-selectors
+serde_json
 ;
 extern
 crate
