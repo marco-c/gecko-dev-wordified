@@ -2100,7 +2100,10 @@ telemetryValue
 SSLErrorMessageType
 errorMessageType
 =
-PlainErrorMessage
+SSLErrorMessageType
+:
+:
+Plain
 )
 ;
 void
@@ -4693,7 +4696,10 @@ Telemetry
 HistogramCount
 -
 1
-OverridableCertErrorMessage
+SSLErrorMessageType
+:
+:
+OverridableCert
 )
 ;
 LogInvalidCertError
@@ -11957,7 +11963,10 @@ it
 isn
 '
 t
-PlainErrorMessage
+SSLErrorMessageType
+:
+:
+Plain
 which
 is
 what
