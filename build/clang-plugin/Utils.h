@@ -65,14 +65,14 @@ Utils_h__
 #
 include
 "
-plugin
+ThirdPartyPaths
 .
 h
 "
 #
 include
 "
-ThirdPartyPaths
+plugin
 .
 h
 "
