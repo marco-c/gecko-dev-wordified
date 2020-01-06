@@ -941,7 +941,7 @@ in
 /
 the
 scalar
-group
+category
 name
 .
 Services

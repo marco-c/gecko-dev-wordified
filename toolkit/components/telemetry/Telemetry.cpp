@@ -9315,7 +9315,7 @@ RegisterScalars
 const
 nsACString
 &
-aGroupName
+aCategoryName
 JS
 :
 :
@@ -9338,7 +9338,7 @@ TelemetryScalar
 :
 RegisterScalars
 (
-aGroupName
+aCategoryName
 aScalarData
 cx
 )

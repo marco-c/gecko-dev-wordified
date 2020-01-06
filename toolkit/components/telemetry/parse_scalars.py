@@ -183,7 +183,7 @@ def
 __init__
 (
 self
-group_name
+category_name
 probe_name
 definition
 strict_type_checks
@@ -224,7 +224,7 @@ self
 .
 validate_names
 (
-group_name
+category_name
 probe_name
 )
         
@@ -236,9 +236,9 @@ probe_name
         
 self
 .
-_group_name
+_category_name
 =
-group_name
+category_name
         
 #
 Validating
@@ -299,7 +299,7 @@ def
 validate_names
 (
 self
-group_name
+category_name
 probe_name
 )
 :
@@ -309,14 +309,14 @@ probe_name
 "
 Validate
 the
-group
+category
 and
 probe
 name
 :
             
 -
-Group
+Category
 name
 must
 be
@@ -363,13 +363,13 @@ _
         
 :
 param
-group_name
+category_name
 :
 the
 name
 of
 the
-group
+category
 the
 probe
 is
@@ -423,7 +423,7 @@ a
 maximum
 length
 on
-group
+category
 and
 probe
 names
@@ -437,7 +437,7 @@ for
 n
 in
 [
-group_name
+category_name
 probe_name
 ]
 :
@@ -711,9 +711,9 @@ BASE_DOC_URL
         
 check_name
 (
-group_name
+category_name
 '
-Group
+Category
 '
 r
 '
@@ -1930,7 +1930,7 @@ from
 the
 scalar
 and
-group
+category
 names
 .
 "
@@ -1940,7 +1940,7 @@ names
 return
 self
 .
-_group_name
+_category_name
 +
 '
 .
@@ -1971,7 +1971,7 @@ from
 the
 scalar
 and
-group
+category
 names
 .
 This
@@ -2729,7 +2729,7 @@ first
 level
 contains
 the
-group
+category
 name
 while
 the
@@ -2747,7 +2747,7 @@ e
 g
 .
 "
-group
+category
 .
 name
 :
@@ -2761,16 +2761,16 @@ probe
 .
     
 for
-group_name
+category_name
 in
 scalars
 :
         
-group
+category
 =
 scalars
 [
-group_name
+category_name
 ]
         
 #
@@ -2778,7 +2778,7 @@ Make
 sure
 that
 the
-group
+category
 has
 at
 least
@@ -2790,11 +2790,11 @@ it
         
 if
 not
-group
+category
 or
 len
 (
-group
+category
 )
 =
 =
@@ -2832,7 +2832,7 @@ nSee
 .
 format
 (
-group_name
+category_name
 BASE_DOC_URL
 )
 )
@@ -2840,7 +2840,7 @@ BASE_DOC_URL
 for
 probe_name
 in
-group
+category
 :
             
 #
@@ -2859,7 +2859,7 @@ it
             
 scalar_info
 =
-group
+category
 [
 probe_name
 ]
@@ -2868,9 +2868,10 @@ scalar_list
 .
 append
 (
+                
 ScalarType
 (
-group_name
+category_name
 probe_name
 scalar_info
 strict_type_checks

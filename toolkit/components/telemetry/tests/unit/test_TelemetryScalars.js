@@ -4209,7 +4209,7 @@ TEST_CASES
 [
 {
 "
-group
+category
 "
 :
 "
@@ -4262,7 +4262,7 @@ missing
 }
 {
 "
-group
+category
 "
 :
 "
@@ -4327,7 +4327,7 @@ type
 }
 {
 "
-group
+category
 "
 :
 "
@@ -4385,7 +4385,7 @@ type
 }
 {
 "
-group
+category
 "
 :
 "
@@ -4448,7 +4448,7 @@ type
 }
 {
 "
-group
+category
 "
 :
 "
@@ -4523,7 +4523,7 @@ one
 }
 {
 "
-group
+category
 "
 :
 "
@@ -4607,7 +4607,7 @@ registerScalars
 (
 testCase
 .
-group
+category
 testCase
 .
 data

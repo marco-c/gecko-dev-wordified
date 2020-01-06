@@ -570,7 +570,7 @@ RegisterScalars
 const
 nsACString
 &
-aGroupName
+aCategoryName
 JS
 :
 :

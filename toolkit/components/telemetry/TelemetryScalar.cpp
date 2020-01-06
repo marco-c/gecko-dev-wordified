@@ -1072,7 +1072,7 @@ kMaximumStringValueLength
 /
 /
 The
-group
+category
 and
 scalar
 name
@@ -1110,7 +1110,7 @@ scalars
 .
 const
 uint32_t
-kMaximumGroupNameLength
+kMaximumCategoryNameLength
 =
 40
 ;
@@ -12869,14 +12869,14 @@ process
 :
 {
 "
-group1
+category1
 .
 probe
 "
 :
 1
 "
-group1
+category1
 .
 other_probe
 "
@@ -13690,7 +13690,7 @@ process
 :
 {
 "
-group1
+category1
 .
 probe
 "
@@ -14655,7 +14655,7 @@ RegisterScalars
 const
 nsACString
 &
-aGroupName
+aCategoryName
 JS
 :
 :
@@ -14697,8 +14697,8 @@ if
 !
 IsValidIdentifierString
 (
-aGroupName
-kMaximumGroupNameLength
+aCategoryName
+kMaximumCategoryNameLength
 true
 false
 )
@@ -14709,7 +14709,7 @@ JS_ReportErrorASCII
 cx
 "
 Invalid
-group
+category
 name
 %
 s
@@ -14717,7 +14717,7 @@ s
 "
 PromiseFlatCString
 (
-aGroupName
+aCategoryName
 )
 .
 get
@@ -14938,7 +14938,7 @@ NS_ERROR_INVALID_ARG
 /
 Join
 the
-group
+category
 and
 the
 probe
@@ -14956,7 +14956,7 @@ s
 "
 PromiseFlatCString
 (
-aGroupName
+aCategoryName
 )
 .
 get
