@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIEditRules
 .
 h

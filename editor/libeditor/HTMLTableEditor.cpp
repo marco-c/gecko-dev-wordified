@@ -229,13 +229,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

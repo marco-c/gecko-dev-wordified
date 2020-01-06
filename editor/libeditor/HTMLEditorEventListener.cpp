@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIHTMLInlineTableEditor
 .
 h
