@@ -1035,9 +1035,6 @@ class
 GLImage
 ;
 class
-EGLImageImage
-;
-class
 SharedRGBImage
 ;
 #
@@ -1413,17 +1410,6 @@ classes
 .
 *
 /
-virtual
-EGLImageImage
-*
-AsEGLImageImage
-(
-)
-{
-return
-nullptr
-;
-}
 virtual
 GLImage
 *
