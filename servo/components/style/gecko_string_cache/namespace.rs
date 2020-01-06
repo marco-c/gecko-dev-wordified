@@ -190,6 +190,7 @@ Debug
 Default
 Eq
 Hash
+MallocSizeOf
 PartialEq
 )
 ]
