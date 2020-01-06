@@ -3273,12 +3273,14 @@ filename
 )
                         
 if
+(
 f_in_dir
 .
 endswith
 (
 extensions
 )
+                            
 and
 not
 re
@@ -3287,6 +3289,7 @@ match
 (
 ignored_dir_re
 f_in_dir
+)
 )
 :
                             
