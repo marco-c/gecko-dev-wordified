@@ -7269,7 +7269,7 @@ Skia
 NS_WARNING_ASSERTION
 (
 aMoz2DBackend
-!
+=
 =
 gfx
 :
@@ -7278,10 +7278,10 @@ BackendType
 :
 :
 SKIA
-&
-&
+|
+|
 aMoz2DBackend
-!
+=
 =
 gfx
 :
@@ -7290,10 +7290,10 @@ BackendType
 :
 :
 DIRECT2D
-&
-&
+|
+|
 aMoz2DBackend
-!
+=
 =
 gfx
 :
