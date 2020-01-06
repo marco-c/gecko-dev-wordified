@@ -464,9 +464,9 @@ rows
 :
 [
 ]
-maxCards
+maxRows
 :
-3
+1
 contextMenuOptions
 :
 [
