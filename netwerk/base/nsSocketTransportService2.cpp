@@ -10366,7 +10366,7 @@ GetProcAddress
 (
 library
 "
-PR_FileDesc2PlatformOverlappedIOHandle
+PR_EXPERIMENTAL_ONLY_IN_4_17_GetOverlappedIOHandle
 "
 )
 )
@@ -10380,7 +10380,7 @@ SOCKET_LOG
 (
 (
 "
-FileDesc2PlatformOverlappedIOHandle
+PR_EXPERIMENTAL_ONLY_IN_4_17_GetOverlappedIOHandle
 function
 "
 "
@@ -10409,7 +10409,7 @@ SOCKET_LOG
 (
 "
 No
-FileDesc2PlatformOverlappedIOHandle
+PR_EXPERIMENTAL_ONLY_IN_4_17_GetOverlappedIOHandle
 function
 :
 "
