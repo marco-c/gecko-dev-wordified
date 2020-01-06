@@ -5591,6 +5591,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 /
@@ -6510,6 +6513,9 @@ pack
 [
 2
 ]
+curContainer
+.
+frame
 )
 ;
 c
@@ -6642,6 +6648,9 @@ pack
 [
 2
 ]
+curContainer
+.
+frame
 )
 ;
 c
@@ -8178,6 +8187,9 @@ get
 opts
 .
 startNode
+curContainer
+.
+frame
 )
 ;
 }
@@ -8304,6 +8316,9 @@ get
 opts
 .
 startNode
+curContainer
+.
+frame
 )
 ;
 }
@@ -8529,6 +8544,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 capabilities
 .
@@ -8588,6 +8606,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 if
@@ -8645,6 +8666,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -8725,6 +8749,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -8792,6 +8819,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -8848,6 +8878,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -8946,6 +8979,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 let
@@ -9038,6 +9074,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 let
@@ -9138,6 +9177,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -9212,6 +9254,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 return
@@ -9249,6 +9294,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 if
@@ -9373,6 +9421,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 if
@@ -9642,6 +9693,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 foundShadowRoot
@@ -10109,6 +10163,9 @@ seenEls
 get
 (
 id
+curContainer
+.
+frame
 )
 ;
 }
@@ -11050,6 +11107,13 @@ opts
 scroll
 ;
 let
+win
+=
+curContainer
+.
+frame
+;
+let
 highlightEls
 =
 highlights
@@ -11064,6 +11128,7 @@ seenEls
 get
 (
 ref
+win
 )
 )
 ;
@@ -11089,9 +11154,7 @@ capture
 .
 viewport
 (
-curContainer
-.
-frame
+win
 highlightEls
 )
 ;
@@ -11120,6 +11183,7 @@ seenEls
 get
 (
 id
+win
 )
 ;
 if
@@ -11140,9 +11204,7 @@ else
 {
 el
 =
-curContainer
-.
-frame
+win
 .
 document
 .

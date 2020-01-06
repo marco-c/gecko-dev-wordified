@@ -8686,6 +8686,7 @@ a
 .
 origin
 seenEls
+window
 )
 )
 ;
@@ -9450,6 +9451,7 @@ getElementCenter
 (
 elementReference
 seenEls
+window
 )
 {
 if
@@ -9488,6 +9490,7 @@ seenEls
 get
 (
 uuid
+window
 )
 ;
 return
