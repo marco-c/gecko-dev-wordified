@@ -156,7 +156,7 @@ def
 task_matches
 (
 self
-attributes
+task
 )
 :
         
@@ -167,6 +167,8 @@ at
 at
 '
 in
+task
+.
 attributes
 class
 TestTargetTasks
