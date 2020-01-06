@@ -524,6 +524,17 @@ StreamItemAnimator
 )
 )
 ;
+rv
+.
+addItemDecoration
+(
+new
+HighlightsDividerItemDecoration
+(
+context
+)
+)
+;
 RecyclerViewClickSupport
 .
 addTo
