@@ -301,7 +301,7 @@ IPCResult
 U2FTransactionChild
 :
 :
-RecvCancel
+RecvAbort
 (
 const
 nsresult
@@ -330,7 +330,7 @@ mgr
 mgr
 -
 >
-Cancel
+RequestAborted
 (
 aError
 )

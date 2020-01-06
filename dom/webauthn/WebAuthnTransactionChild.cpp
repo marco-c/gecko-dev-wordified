@@ -316,7 +316,7 @@ IPCResult
 WebAuthnTransactionChild
 :
 :
-RecvCancel
+RecvAbort
 (
 const
 nsresult
@@ -345,7 +345,7 @@ mgr
 mgr
 -
 >
-Cancel
+RequestAborted
 (
 aError
 )

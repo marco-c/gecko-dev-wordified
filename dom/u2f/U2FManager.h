@@ -529,6 +529,15 @@ nsresult
 aError
 )
 ;
+void
+RequestAborted
+(
+const
+nsresult
+&
+aError
+)
+;
 already_AddRefed
 <
 U2FPromise

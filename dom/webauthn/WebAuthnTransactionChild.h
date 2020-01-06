@@ -248,7 +248,7 @@ ipc
 :
 :
 IPCResult
-RecvCancel
+RecvAbort
 (
 const
 nsresult
