@@ -292,10 +292,13 @@ ClientPaintedLayer
 ClientLayerManager
 *
 aLayerManager
+LayerManager
+:
+:
 PaintedLayerCreationHint
 aCreationHint
 =
-PaintedLayerCreationHint
+LayerManager
 :
 :
 NONE

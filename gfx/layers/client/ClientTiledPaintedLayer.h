@@ -314,10 +314,13 @@ ClientLayerManager
 *
 const
 aManager
+ClientLayerManager
+:
+:
 PaintedLayerCreationHint
 aCreationHint
 =
-PaintedLayerCreationHint
+LayerManager
 :
 :
 NONE
@@ -580,6 +583,9 @@ virtual
 bool
 IsOptimizedFor
 (
+LayerManager
+:
+:
 PaintedLayerCreationHint
 aCreationHint
 )

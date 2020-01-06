@@ -1148,7 +1148,7 @@ mLayerCreationHint
 layers
 :
 :
-PaintedLayerCreationHint
+LayerManager
 :
 :
 NONE
@@ -1214,7 +1214,7 @@ mLayerCreationHint
 layers
 :
 :
-PaintedLayerCreationHint
+LayerManager
 :
 :
 NONE
@@ -1418,6 +1418,9 @@ bool
 mForEventsAndPluginsOnly
 ;
 layers
+:
+:
+LayerManager
 :
 :
 PaintedLayerCreationHint

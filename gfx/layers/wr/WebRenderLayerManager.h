@@ -571,17 +571,6 @@ override
 virtual
 already_AddRefed
 <
-PaintedLayer
->
-CreatePaintedLayerWithHint
-(
-PaintedLayerCreationHint
-)
-override
-;
-virtual
-already_AddRefed
-<
 ContainerLayer
 >
 CreateContainerLayer
