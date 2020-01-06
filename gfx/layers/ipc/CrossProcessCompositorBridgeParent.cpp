@@ -1665,6 +1665,17 @@ CreateDestroyed
 (
 )
 ;
+parent
+-
+>
+AddRef
+(
+)
+;
+/
+/
+IPDL
+reference
 *
 aIdNamespace
 =
