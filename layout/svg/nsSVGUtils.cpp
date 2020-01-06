@@ -3800,16 +3800,6 @@ in
 device
 space
 .
-mSourceCtx
--
->
-SetMatrix
-(
-gfxMatrix
-(
-)
-)
-;
 gfxRect
 clippedFrameSurfaceRect
 =
@@ -3818,6 +3808,10 @@ mSourceCtx
 >
 GetClipExtents
 (
+gfxContext
+:
+:
+eDeviceSpace
 )
 ;
 clippedFrameSurfaceRect
