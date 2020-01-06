@@ -483,7 +483,9 @@ window
 .
 wrappedJSObject
 .
-jsonViewInitialized
+JSONView
+.
+initialized
 )
 {
 deferred
