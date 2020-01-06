@@ -1386,7 +1386,10 @@ cell
 >
 markIfUnmarked
 (
-GRAY
+MarkColor
+:
+:
+Gray
 )
 ;
 cell2
@@ -1394,7 +1397,10 @@ cell2
 >
 markIfUnmarked
 (
-GRAY
+MarkColor
+:
+:
+Gray
 )
 ;
 MOZ_ASSERT
