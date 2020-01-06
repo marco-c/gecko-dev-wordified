@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+CPUUsageWatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HangAnnotations
 .
 h
