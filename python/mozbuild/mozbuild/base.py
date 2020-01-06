@@ -1548,19 +1548,6 @@ path
 self
 .
 _mozconfig
-                
-moz_build_app
-=
-os
-.
-environ
-.
-get
-(
-'
-MOZ_CURRENT_PROJECT
-'
-)
 )
         
 return
