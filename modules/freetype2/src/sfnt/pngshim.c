@@ -698,6 +698,16 @@ vector_size
 )
 )
 ;
+if
+(
+row_info
+-
+>
+rowbytes
+>
+15
+)
+{
 /
 *
 process
@@ -1054,6 +1064,7 @@ s
 16
 )
 ;
+}
 }
 #
 endif
