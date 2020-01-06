@@ -1320,13 +1320,15 @@ files
 from
 device
         
-remoteDir
+tombstones
 =
 "
 /
 data
 /
 tombstones
+/
+*
 "
         
 try
@@ -1346,7 +1348,7 @@ rm
 -
 r
 '
-remoteDir
+tombstones
 ]
 root
 =
