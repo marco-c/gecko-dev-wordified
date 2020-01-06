@@ -548,6 +548,14 @@ hash
 )
 const
 {
+MOZ_ASSERT
+(
+!
+IsHTML5Atom
+(
+)
+)
+;
 return
 mHash
 ;
@@ -696,6 +704,10 @@ friend
 class
 nsAtomFriend
 ;
+friend
+class
+nsHtml5AtomEntry
+;
 /
 /
 Construction
@@ -712,6 +724,8 @@ s
 .
 nsAtom
 (
+AtomKind
+aKind
 const
 nsAString
 &
