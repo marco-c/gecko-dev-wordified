@@ -441,13 +441,6 @@ mPublicId
 nsString
 mSystemId
 ;
-/
-/
-Feature
-flags
-bool
-mEnableNamespacePrefixes
-;
 }
 ;
 #
