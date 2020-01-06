@@ -1273,6 +1273,14 @@ mozilla
 :
 :
 TimeStamp
+GetTcpConnectEnd
+(
+)
+;
+mozilla
+:
+:
+TimeStamp
 GetSecureConnectionStart
 (
 )

@@ -9468,6 +9468,17 @@ connectStart
 mChannel
 -
 >
+GetTcpConnectEnd
+(
+&
+timing
+.
+tcpConnectEnd
+)
+;
+mChannel
+-
+>
 GetSecureConnectionStart
 (
 &

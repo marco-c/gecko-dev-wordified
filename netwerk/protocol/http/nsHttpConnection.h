@@ -1654,6 +1654,13 @@ uint8_t
 tfoStatus
 )
 ;
+void
+SetEvent
+(
+nsresult
+aStatus
+)
+;
 private
 :
 /
