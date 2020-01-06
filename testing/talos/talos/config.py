@@ -3612,6 +3612,12 @@ no_upload_results
 :
 False
                 
+'
+stylo
+'
+:
+False
+                
 }
     
 browser_config
