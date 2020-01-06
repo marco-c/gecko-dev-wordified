@@ -5221,6 +5221,12 @@ triggeringPrincipal
 ;
 if
 (
+!
+originPrincipal
+.
+isNullPrincipal
+&
+&
 originPrincipal
 .
 URI
@@ -5247,6 +5253,12 @@ loadingPrincipal
 if
 (
 docPrincipal
+&
+&
+!
+docPrincipal
+.
+isNullPrincipal
 &
 &
 docPrincipal
