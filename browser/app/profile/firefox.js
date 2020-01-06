@@ -20517,7 +20517,7 @@ heuristics
 .
 enabled
 "
-false
+true
 )
 ;
 pref
