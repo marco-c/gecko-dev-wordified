@@ -11908,6 +11908,11 @@ u32
 quirks_mode
 :
 nsCompatibility
+reusable_sheets
+:
+*
+mut
+LoaderReusableStyleSheets
 )
 -
 >
