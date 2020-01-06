@@ -296,9 +296,10 @@ empty
 )
 &
 &
+!
 remote_rid_set_
 .
-size
+empty
 (
 )
 &

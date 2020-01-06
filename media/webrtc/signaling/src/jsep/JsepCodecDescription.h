@@ -1833,9 +1833,10 @@ red
 "
 &
 &
+!
 mRedundantEncodings
 .
-size
+empty
 (
 )
 )

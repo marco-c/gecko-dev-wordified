@@ -6277,12 +6277,9 @@ sendStats
 .
 substreams
 .
-size
+empty
 (
 )
-=
-=
-0
 |
 |
 mSendStreamConfig
@@ -6291,12 +6288,9 @@ rtp
 .
 ssrcs
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return

@@ -1573,11 +1573,12 @@ aConstraints
 ;
 if
 (
+!
 aConstraints
 .
 mAdvanced
 .
-size
+empty
 (
 )
 )

@@ -2474,14 +2474,12 @@ rv
 else
 if
 (
+!
 turn_servers
 .
-size
+empty
 (
 )
-!
-=
-0
 )
 {
 CSFLogError
