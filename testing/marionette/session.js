@@ -1319,9 +1319,14 @@ p
 .
 proxyType
 =
+assert
+.
+string
+(
 json
 .
 proxyType
+)
 ;
 if
 (
