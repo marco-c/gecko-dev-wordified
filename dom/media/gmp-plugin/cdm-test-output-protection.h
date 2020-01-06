@@ -171,7 +171,7 @@ namespace
 mozilla
 {
 namespace
-gmptest
+cdmtest
 {
 #
 if
@@ -788,7 +788,7 @@ completed
 /
 /
 namespace
-gmptest
+cdmtest
 }
 /
 /

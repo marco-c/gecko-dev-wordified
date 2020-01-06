@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -107,7 +107,7 @@ h
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -118,7 +118,7 @@ h
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -1678,7 +1678,7 @@ tests
 like
 /
 /
-GMPStorage
+CDMStorage
 run
 asynchronously
 .
@@ -2818,7 +2818,7 @@ apis
 mozilla
 :
 :
-gmptest
+cdmtest
 :
 :
 TestOuputProtectionAPIs

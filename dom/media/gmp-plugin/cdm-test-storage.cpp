@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-gmp
+cdm
 -
 test
 -

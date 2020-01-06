@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-TEST_GMP_STORAGE_H__
+TEST_CDM_STORAGE_H__
 #
 define
-TEST_GMP_STORAGE_H__
+TEST_CDM_STORAGE_H__
 #
 include
 <
@@ -417,4 +417,4 @@ aOpenComplete
 endif
 /
 /
-TEST_GMP_STORAGE_H__
+TEST_CDM_STORAGE_H__
