@@ -679,11 +679,11 @@ aSize
 )
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 ipc
 :
