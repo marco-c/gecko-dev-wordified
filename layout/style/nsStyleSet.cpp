@@ -12338,9 +12338,6 @@ aParentContext
 TreeMatchContext
 &
 aTreeMatchContext
-Element
-*
-aPseudoElement
 )
 {
 NS_ENSURE_FALSE
@@ -12414,7 +12411,13 @@ aParentElement
 ruleWalker
 aType
 aTreeMatchContext
+/
+*
 aPseudoElement
+=
+*
+/
+nullptr
 )
 ;
 WalkRestrictionRule
