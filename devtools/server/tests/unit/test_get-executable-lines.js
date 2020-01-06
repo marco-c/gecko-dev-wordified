@@ -261,6 +261,7 @@ arrays_equal
 12
 14
 16
+17
 ]
 lines
 )

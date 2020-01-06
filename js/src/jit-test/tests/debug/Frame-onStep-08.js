@@ -199,6 +199,10 @@ on
 all
 four
 lines
+plus
+the
+final
+line
 .
 assertEq
 (
@@ -217,7 +221,7 @@ g
 '
 )
 '
-BBBB
+BBBBB
 '
 )
 ;
