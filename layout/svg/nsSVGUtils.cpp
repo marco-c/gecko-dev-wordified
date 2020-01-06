@@ -5158,11 +5158,6 @@ PaintFilteredFrame
 (
 aFrame
 target
--
->
-GetDrawTarget
-(
-)
 aTransform
 &
 paintCallback

@@ -684,9 +684,9 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
-DrawTarget
+gfxContext
 *
-aDrawTarget
+aCtx
 const
 gfxMatrix
 &
@@ -1295,9 +1295,9 @@ constructor
 void
 Render
 (
-DrawTarget
+gfxContext
 *
-aDrawTarget
+aCtx
 imgDrawingParams
 &
 aImgParams
