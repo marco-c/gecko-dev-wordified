@@ -225,11 +225,6 @@ NS_DECL_NSIPOWERMANAGERSERVICE
 PowerManagerService
 (
 )
-:
-mWatchdogTimeoutSecs
-(
-0
-)
 {
 }
 static
@@ -409,11 +404,6 @@ nsAString
 aState
 )
 ;
-void
-SyncProfile
-(
-)
-;
 static
 StaticRefPtr
 <
@@ -429,9 +419,6 @@ nsIDOMMozWakeLockListener
 >
 >
 mWakeLockListeners
-;
-int32_t
-mWatchdogTimeoutSecs
 ;
 }
 ;
