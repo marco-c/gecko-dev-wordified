@@ -995,7 +995,17 @@ pop
 whenDelayedStartupFinished
 (
 newWindow
+(
+)
+=
+>
+{
+executeSoon
+(
 checkNewWindow
+)
+;
+}
 )
 ;
 }
