@@ -14564,9 +14564,6 @@ delta
 SrcNoteType
 type
 =
-(
-SrcNoteType
-)
 SN_TYPE
 (
 sn
