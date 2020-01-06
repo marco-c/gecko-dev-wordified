@@ -822,8 +822,6 @@ GetResource
 (
 )
 const
-final
-override
 {
 return
 mResource
