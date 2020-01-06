@@ -688,7 +688,9 @@ STYLO_FORCE_ENABLED
 '
 ]
 =
+'
 1
+'
         
 #
 During
@@ -724,12 +726,15 @@ STYLO_THREADS
 '
 ]
 =
+str
+(
 browser_config
 [
 '
 stylothreads
 '
 ]
+)
         
 test_config
 [
