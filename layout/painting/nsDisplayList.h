@@ -4799,6 +4799,14 @@ nsDisplayList
 aPaintedContents
 )
 ;
+void
+IncrementPresShellPaintCount
+(
+nsIPresShell
+*
+aPresShell
+)
+;
 /
 *
 *

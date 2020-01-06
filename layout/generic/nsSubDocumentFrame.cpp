@@ -2585,6 +2585,14 @@ subdocRootFrame
 pointerEventsNone
 )
 ;
+aBuilder
+-
+>
+IncrementPresShellPaintCount
+(
+presShell
+)
+;
 }
 else
 {
