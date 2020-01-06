@@ -3638,7 +3638,11 @@ self
 >
 bool
 {
-false
+self
+.
+contains_positioned_fragments
+(
+)
 }
 /
 /
