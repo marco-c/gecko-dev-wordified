@@ -1737,7 +1737,7 @@ if
 prefs
 )
 {
-nsCString
+nsAutoCString
 extDictPath
 ;
 rv
@@ -1752,10 +1752,7 @@ spellchecker
 .
 dictionary_path
 "
-getter_Copies
-(
 extDictPath
-)
 )
 ;
 if

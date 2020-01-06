@@ -1122,7 +1122,7 @@ pref
 )
 )
 {
-nsCString
+nsAutoCString
 profile
 ;
 if
@@ -1135,10 +1135,7 @@ prefBranch
 GetCharPref
 (
 NS_NET_PREF_IDNRESTRICTION
-getter_Copies
-(
 profile
-)
 )
 )
 )

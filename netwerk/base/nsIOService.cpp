@@ -7930,7 +7930,7 @@ bool
 remove
 )
 {
-nsCString
+nsAutoCString
 portList
 ;
 /
@@ -7955,10 +7955,7 @@ prefBranch
 GetCharPref
 (
 pref
-getter_Copies
-(
 portList
-)
 )
 ;
 if

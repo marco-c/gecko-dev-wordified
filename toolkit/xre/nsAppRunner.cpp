@@ -24796,7 +24796,7 @@ rv
 )
 )
 {
-nsCString
+nsAutoCString
 sval
 ;
 rv
@@ -24813,10 +24813,7 @@ update
 .
 channel
 "
-getter_Copies
-(
 sval
-)
 )
 ;
 if
