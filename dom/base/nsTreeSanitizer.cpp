@@ -894,6 +894,11 @@ alt
 nsGkAtoms
 :
 :
+as
+&
+nsGkAtoms
+:
+:
 autocomplete
 &
 nsGkAtoms

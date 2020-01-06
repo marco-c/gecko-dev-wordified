@@ -42633,7 +42633,7 @@ bool
 nsContentUtils
 :
 :
-PrefetchEnabled
+PrefetchPreloadEnabled
 (
 nsIDocShell
 *
@@ -42649,6 +42649,8 @@ CHECK
 :
 disable
 prefetching
+and
+preloading
 from
 mailnews
 !
@@ -42744,6 +42746,7 @@ false
 do
 not
 prefetch
+preload
 preconnect
 from
 mailnews
