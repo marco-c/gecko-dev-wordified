@@ -120,7 +120,7 @@ assert
 session
 (
 {
-sessionId
+sessionID
 :
 "
 foo
