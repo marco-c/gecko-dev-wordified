@@ -331,12 +331,9 @@ HTMLSharedElement
 /
 /
 nsIDOMHTMLQuoteElement
-NS_IMPL_URI_ATTR
-(
-HTMLSharedElement
-Cite
-cite
-)
+/
+/
+Empty
 /
 /
 nsIDOMHTMLHeadElement
