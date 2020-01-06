@@ -2890,10 +2890,8 @@ args
 }
 }
 ;
-var
-marshal
-=
 function
+marshal
 (
 args
 )
@@ -2931,4 +2929,3 @@ return
 args
 ;
 }
-;
