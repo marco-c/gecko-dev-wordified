@@ -1324,6 +1324,11 @@ InitializeDirectDrawConfig
 (
 )
 ;
+void
+InitializeAdvancedLayersConfig
+(
+)
+;
 RefPtr
 <
 IDWriteFactory
