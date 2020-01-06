@@ -200,7 +200,7 @@ aTransformToSurface
 override
 ;
 void
-SetRegionToRender
+SetRenderRegion
 (
 LayerIntRegion
 &

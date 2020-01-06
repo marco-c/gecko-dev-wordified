@@ -469,7 +469,7 @@ void
 ImageLayerMLGPU
 :
 :
-SetRegionToRender
+SetRenderRegion
 (
 LayerIntRegion
 &
@@ -565,7 +565,7 @@ break
 LayerMLGPU
 :
 :
-SetRegionToRender
+SetRenderRegion
 (
 Move
 (
