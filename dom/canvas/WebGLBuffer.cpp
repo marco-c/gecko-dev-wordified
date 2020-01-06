@@ -862,9 +862,10 @@ mIndexCache
 {
 if
 (
+!
 mIndexRanges
 .
-size
+empty
 (
 )
 )
@@ -1366,9 +1367,10 @@ range
 }
 if
 (
+!
 invalids
 .
-size
+empty
 (
 )
 )

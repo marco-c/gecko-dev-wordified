@@ -390,7 +390,6 @@ IsLinked
 )
 |
 |
-!
 prog
 -
 >
@@ -401,7 +400,7 @@ LinkInfo
 >
 componentsPerTFVert
 .
-size
+empty
 (
 )
 )

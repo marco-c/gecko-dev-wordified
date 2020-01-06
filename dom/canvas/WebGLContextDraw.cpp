@@ -982,10 +982,9 @@ ScopedResolveTexturesForDraw
 {
 if
 (
-!
 mRebindRequests
 .
-size
+empty
 (
 )
 )

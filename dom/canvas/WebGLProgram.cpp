@@ -7129,9 +7129,10 @@ buffer
 mode
 if
 (
+!
 mNextLink_TransformFeedbackVaryings
 .
-size
+empty
 (
 )
 )
@@ -7218,10 +7219,9 @@ mNextLink_TransformFeedbackVaryings
 {
 if
 (
-!
 componentsPerVert
 .
-size
+empty
 (
 )
 |
@@ -8935,10 +8935,9 @@ structures
 .
 if
 (
-!
 fragDataMap
 .
-size
+empty
 (
 )
 )

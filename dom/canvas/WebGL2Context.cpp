@@ -950,9 +950,10 @@ prim_restart
 /
 if
 (
+!
 missingList
 .
-size
+empty
 (
 )
 )
