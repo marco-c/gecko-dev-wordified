@@ -14560,6 +14560,9 @@ buffer
 *
 mut
 nsAString
+computed_values
+:
+ServoStyleContextBorrowedOrNull
 )
 ;
 }
