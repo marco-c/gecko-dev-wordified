@@ -450,7 +450,7 @@ ft_realloc
 mem
 :
 FT_Memory
-old_size
+_old_size
 :
 c_long
 new_req_size
@@ -491,7 +491,7 @@ _
 let
 old_size
 =
-old_size
+old_actual_size
 as
 usize
 ;
