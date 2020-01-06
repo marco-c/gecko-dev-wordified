@@ -520,6 +520,9 @@ aData
 if
 (
 parsedData
+&
+&
+parsedData
 .
 window
 &
