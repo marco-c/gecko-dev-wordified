@@ -221,6 +221,7 @@ selector_map
 :
 :
 {
+PrecomputedHashMap
 SelectorMap
 SelectorMapEntry
 }
@@ -883,7 +884,7 @@ name
 .
 animations
 :
-FnvHashMap
+PrecomputedHashMap
 <
 Atom
 KeyframesAnimation
@@ -1556,7 +1557,7 @@ counter_styles
 '
 a
 mut
-FnvHashMap
+PrecomputedHashMap
 <
 Atom
 Arc
@@ -8912,7 +8913,7 @@ self
 -
 >
 &
-FnvHashMap
+PrecomputedHashMap
 <
 Atom
 KeyframesAnimation

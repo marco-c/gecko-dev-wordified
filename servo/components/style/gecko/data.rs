@@ -87,12 +87,6 @@ dom
 TElement
 ;
 use
-fnv
-:
-:
-FnvHashMap
-;
-use
 gecko
 :
 :
@@ -190,6 +184,12 @@ properties
 :
 :
 ComputedValues
+;
+use
+selector_map
+:
+:
+PrecomputedHashMap
 ;
 use
 servo_arc
@@ -888,7 +888,7 @@ rules
 pub
 counter_styles
 :
-FnvHashMap
+PrecomputedHashMap
 <
 Atom
 Arc
@@ -1037,7 +1037,7 @@ vec
 ]
 counter_styles
 :
-FnvHashMap
+PrecomputedHashMap
 :
 :
 default
