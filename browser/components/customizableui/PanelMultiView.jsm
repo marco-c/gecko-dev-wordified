@@ -1870,6 +1870,9 @@ ignoreMutations
 "
 showingSubView
 "
+"
+_panelViews
+"
 ]
 .
 forEach
