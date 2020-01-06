@@ -2673,7 +2673,7 @@ t
 )
 ]
 #
-nightly_win64
+nightly_win
 should
 be
 refactored
@@ -2698,7 +2698,7 @@ cgi
 ?
 id
 =
-1267425
+1267428
 dependent
 bugs
 are
@@ -2707,7 +2707,7 @@ implemented
 _target_task
 (
 '
-nightly_win64
+nightly_win
 '
 )
 def
@@ -2732,10 +2732,12 @@ a
 nightly
 build
 of
+win32
+and
 win64
 .
-The
     
+The
 nightly
 build
 process
@@ -2782,6 +2784,11 @@ if
 platform
 in
 (
+'
+win32
+-
+nightly
+'
 '
 win64
 -
