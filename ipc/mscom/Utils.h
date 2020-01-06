@@ -177,6 +177,11 @@ REFGUID
 aCheckGuid
 )
 ;
+uintptr_t
+GetContainingModuleHandle
+(
+)
+;
 #
 if
 defined
