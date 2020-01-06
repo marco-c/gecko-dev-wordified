@@ -4891,6 +4891,9 @@ batches
 void
 ResetMarkedFramesForDisplayList
 (
+nsIFrame
+*
+aReferenceFrame
 )
 ;
 /
@@ -5342,8 +5345,6 @@ aFrame
 nsIFrame
 *
 aStopAtFrame
-=
-nullptr
 )
 ;
 void
@@ -5355,8 +5356,6 @@ aFrame
 nsIFrame
 *
 aStopAtFrame
-=
-nullptr
 )
 ;
 void
