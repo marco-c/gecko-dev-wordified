@@ -10815,6 +10815,9 @@ aOutEndpoint
 nsresult
 *
 aOutRv
+nsCString
+*
+aOutErrorDescription
 )
 {
 if
@@ -11095,6 +11098,9 @@ aOutEndpoint
 nsresult
 *
 aOutRv
+nsCString
+*
+aOutErrorDescription
 )
 {
 nsCString
@@ -11164,6 +11170,7 @@ aOutId
 aOutDisplayName
 aOutEndpoint
 aOutRv
+aOutErrorDescription
 )
 ;
 }
