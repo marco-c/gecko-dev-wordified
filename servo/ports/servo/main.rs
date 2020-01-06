@@ -1426,7 +1426,7 @@ set_var
 RUST_LOG
 "
 "
-debug
+error
 "
 )
 ;
