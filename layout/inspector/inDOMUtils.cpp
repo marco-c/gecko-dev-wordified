@@ -857,11 +857,6 @@ xblSheetArray
 styleSet
 -
 >
-AsGecko
-(
-)
--
->
 AppendAllXBLStyleSheets
 (
 xblSheetArray
