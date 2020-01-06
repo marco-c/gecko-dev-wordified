@@ -342,33 +342,6 @@ nightly
         
 )
         
-label
-=
-dep_job
-.
-label
-.
-replace
-(
-"
-build
--
-"
-"
-signing
--
-"
-)
-        
-job
-[
-'
-label
-'
-]
-=
-label
-        
 yield
 job
 def

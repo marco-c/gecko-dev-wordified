@@ -113,6 +113,8 @@ compile
 (
 r
 '
+build
+-
 signing
 -
 android
