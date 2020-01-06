@@ -2153,14 +2153,6 @@ assert_success
 response
 original
 )
-    
-original
-=
-session
-.
-window
-.
-rect
 def
 test_fully_exit_fullscreen
 (
@@ -2331,8 +2323,23 @@ state
 "
 normal
 "
+    
+assert
+session
+.
+execute_script
+(
+"
+return
+window
+.
+fullScreen
+"
+)
+is
+False
 def
-test_restore_window_from_minimized
+test_restore_from_minimized
 (
 session
 )
@@ -2342,9 +2349,27 @@ session
 "
 "
     
-11
+12
 .
-Restore
+If
+the
+visibility
+state
+of
+the
+top
+-
+level
+browsing
+context
+'
+s
+    
+active
+document
+is
+hidden
+restore
 the
 window
 .
@@ -2366,8 +2391,8 @@ system
 level
 window
 with
-an
     
+an
 associated
 top
 -
@@ -2515,8 +2540,23 @@ state
 "
 normal
 "
+    
+assert
+session
+.
+execute_script
+(
+"
+return
+document
+.
+hidden
+"
+)
+is
+False
 def
-test_restore_window_from_maximized
+test_restore_from_maximized
 (
 session
 )
@@ -2526,9 +2566,27 @@ session
 "
 "
     
-11
+12
 .
-Restore
+If
+the
+visibility
+state
+of
+the
+top
+-
+level
+browsing
+context
+'
+s
+    
+active
+document
+is
+hidden
+restore
 the
 window
 .
@@ -2550,8 +2608,8 @@ system
 level
 window
 with
-an
     
+an
 associated
 top
 -
@@ -2594,6 +2652,7 @@ level
     
 browsing
 context
+'
 s
 active
 document
@@ -2615,6 +2674,14 @@ out
 "
 "
     
+original_size
+=
+session
+.
+window
+.
+size
+    
 session
 .
 window
@@ -2622,6 +2689,16 @@ window
 maximize
 (
 )
+    
+assert
+session
+.
+window
+.
+size
+!
+=
+original_size
     
 assert
 session
@@ -2645,12 +2722,12 @@ session
 width
 "
 :
-500
+400
 "
 height
 "
 :
-500
+400
 }
 )
     
@@ -2670,7 +2747,7 @@ width
 ]
 =
 =
-500
+400
     
 assert
 value
@@ -2681,7 +2758,7 @@ height
 ]
 =
 =
-500
+400
     
 assert
 value
