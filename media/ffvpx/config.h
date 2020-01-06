@@ -132,10 +132,9 @@ MOZ_WIDGET_ANDROID
 )
 &
 &
-!
 defined
 (
-HAVE_64BIT_BUILD
+__arm__
 )
 #
 include
