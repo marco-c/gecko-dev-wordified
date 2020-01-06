@@ -230,6 +230,7 @@ PDFViaEMFPrintHelper
 (
 )
 ;
+virtual
 ~
 PDFViaEMFPrintHelper
 (

@@ -293,6 +293,7 @@ destruction
 /
 class
 TextureMemoryMeasurer
+final
 :
 public
 IUnknown
@@ -443,6 +444,13 @@ mRefCnt
 ;
 int
 mMemoryUsed
+;
+~
+TextureMemoryMeasurer
+(
+)
+=
+default
 ;
 }
 ;
