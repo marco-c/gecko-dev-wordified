@@ -1368,6 +1368,25 @@ expected
 message
 )
         
+crashed
+=
+self
+.
+check_for_crashes
+(
+)
+        
+if
+crashed
+:
+            
+fail_count
+=
+1
+        
+else
+:
+            
 self
 .
 log
@@ -1383,7 +1402,7 @@ d
 %
 pass_count
 )
-        
+            
 self
 .
 log
@@ -1409,11 +1428,11 @@ suite_end
 )
         
 return
-0
-if
-passed
-else
 1
+if
+fail_count
+else
+0
     
 def
 check_for_crashes
@@ -1689,14 +1708,6 @@ self
 appname
 )
         
-crashed
-=
-self
-.
-check_for_crashes
-(
-)
-        
 self
 .
 dm
@@ -1720,9 +1731,6 @@ complete
 .
 "
 )
-        
-return
-crashed
 def
 run_test_harness
 (
@@ -1909,22 +1917,11 @@ finally
 try
 :
             
-crashed
-=
 runner
 .
 cleanup
 (
 )
-            
-if
-not
-result
-:
-                
-result
-=
-crashed
         
 except
 mozdevice
