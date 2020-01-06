@@ -1543,7 +1543,7 @@ sendAsyncMessage
 "
 Extension
 :
-SetTabAndWindowId
+SetFrameData
 "
 {
 windowId

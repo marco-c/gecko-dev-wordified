@@ -1087,7 +1087,7 @@ sendAsyncMessage
 "
 Extension
 :
-SetTabAndWindowId
+SetFrameData
 "
 result
 )
@@ -2047,7 +2047,7 @@ sendAsyncMessage
 "
 Extension
 :
-InitExtensionView
+SetFrameData
 "
 data
 )
