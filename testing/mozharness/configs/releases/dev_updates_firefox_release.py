@@ -40,9 +40,9 @@ org
 /
 users
 /
-raliiev_mozilla
-.
-com
+stage
+-
+ffxbld
 /
 tools
 "
@@ -110,9 +110,9 @@ org
 /
 users
 /
-raliiev_mozilla
-.
-com
+stage
+-
+ffxbld
 /
 tools
 "

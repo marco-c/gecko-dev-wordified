@@ -111,7 +111,11 @@ mozilla
 .
 org
 /
-build
+users
+/
+stage
+-
+ffxbld
 /
 tools
 "
