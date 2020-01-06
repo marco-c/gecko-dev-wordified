@@ -128,7 +128,7 @@ URL
 let
 expectedPath
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (

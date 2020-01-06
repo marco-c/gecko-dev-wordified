@@ -231,7 +231,7 @@ FileUtils
 .
 File
 (
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
@@ -265,7 +265,7 @@ FileUtils
 .
 File
 (
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
@@ -291,7 +291,7 @@ FileUtils
 .
 File
 (
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
@@ -307,7 +307,7 @@ FileUtils
 .
 File
 (
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
