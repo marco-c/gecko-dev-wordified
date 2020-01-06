@@ -639,7 +639,7 @@ dispatchUIEvent
 (
 input
 "
-change
+input
 "
 )
 ;
@@ -697,7 +697,7 @@ dispatchUIEvent
 (
 input
 "
-change
+input
 "
 )
 ;
@@ -809,7 +809,7 @@ dispatchUIEvent
 (
 input
 "
-change
+input
 "
 )
 ;

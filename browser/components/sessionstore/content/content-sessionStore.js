@@ -3191,15 +3191,6 @@ this
 true
 )
 ;
-addEventListener
-(
-"
-change
-"
-this
-true
-)
-;
 gFrameTree
 .
 addObserver
