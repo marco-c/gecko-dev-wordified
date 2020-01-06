@@ -238,6 +238,17 @@ include
 "
 gc
 /
+Nursery
+-
+inl
+.
+h
+"
+#
+include
+"
+gc
+/
 StoreBuffer
 -
 inl
@@ -8131,6 +8142,7 @@ TypedObjectModuleObject
 (
 cx
 objProto
+SingletonObject
 )
 ;
 if
