@@ -2413,6 +2413,15 @@ stream
 data
 ;
 }
+channel
+.
+QueryInterface
+(
+Ci
+.
+nsIHttpChannel
+)
+;
 let
 contentType
 =
