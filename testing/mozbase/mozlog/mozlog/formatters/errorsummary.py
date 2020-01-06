@@ -77,7 +77,8 @@ self
 .
 groups
 =
-None
+{
+}
         
 self
 .
