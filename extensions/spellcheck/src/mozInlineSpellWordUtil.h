@@ -143,6 +143,9 @@ class
 nsRange
 ;
 class
+nsIEditor
+;
+class
 nsINode
 ;
 /
@@ -463,10 +466,9 @@ false
 nsresult
 Init
 (
-const
-nsWeakPtr
-&
-aWeakEditor
+nsIEditor
+*
+aEditor
 )
 ;
 nsresult
