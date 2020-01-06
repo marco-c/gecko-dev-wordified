@@ -28282,6 +28282,15 @@ true
 )
 ;
 }
+mAncestorPrincipals
+=
+aContainer
+-
+>
+AncestorPrincipals
+(
+)
+;
 }
 nsISupports
 *
