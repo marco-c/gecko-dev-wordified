@@ -770,6 +770,13 @@ return
 mDirty
 ;
 }
+inline
+bool
+HasUniqueInner
+(
+)
+const
+;
 void
 EnsureUniqueInner
 (
