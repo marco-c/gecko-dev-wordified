@@ -10845,9 +10845,11 @@ or
 has
 the
 debugger
+or
+tabs
 permission
 bool
-HasDebuggerPrivilege
+HasDebuggerOrTabsPrivilege
 (
 JSContext
 *
