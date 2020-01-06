@@ -329,7 +329,7 @@ namespace
 dom
 {
 class
-FontFamilyListEntry
+SystemFontListEntry
 ;
 }
 }
@@ -1986,12 +1986,12 @@ aListOfFonts
 *
 *
 Fill
-aFontFamilies
+aFontList
 with
 a
 list
 of
-FontFamilyListEntry
+SystemFontListEntry
 records
 for
 the
@@ -2024,7 +2024,7 @@ MacOSX
 /
 virtual
 void
-GetSystemFontFamilyList
+GetSystemFontList
 (
 InfallibleTArray
 <
@@ -2034,10 +2034,10 @@ mozilla
 dom
 :
 :
-FontFamilyListEntry
+SystemFontListEntry
 >
 *
-aFontFamilies
+aFontList
 )
 {
 }

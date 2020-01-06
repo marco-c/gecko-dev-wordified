@@ -929,7 +929,7 @@ sizes
 }
 ;
 void
-GetSystemFontFamilyList
+GetSystemFontList
 (
 InfallibleTArray
 <
@@ -939,7 +939,7 @@ mozilla
 dom
 :
 :
-FontFamilyListEntry
+SystemFontListEntry
 >
 *
 aList
