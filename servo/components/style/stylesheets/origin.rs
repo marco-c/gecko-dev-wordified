@@ -645,6 +645,13 @@ user
 agent
 )
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 OriginSetIterator
