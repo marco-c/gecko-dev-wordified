@@ -5458,7 +5458,7 @@ execute
 (
 DELETE
 FROM
-moz_updatehosts_temp
+moz_updatehostsdelete_temp
 )
 ;
 /
@@ -6157,7 +6157,7 @@ executeCached
 (
 DELETE
 FROM
-moz_updatehosts_temp
+moz_updatehostsdelete_temp
 )
 ;
 /
