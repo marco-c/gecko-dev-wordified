@@ -114,6 +114,12 @@ jsm
 "
 )
 ;
+const
+{
+error
+WebDriverError
+}
+=
 Cu
 .
 import
@@ -131,6 +137,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu

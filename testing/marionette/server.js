@@ -265,6 +265,12 @@ js
 "
 )
 ;
+const
+{
+error
+UnknownCommandError
+}
+=
 Cu
 .
 import
@@ -282,6 +288,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu

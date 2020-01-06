@@ -133,6 +133,16 @@ jsm
 "
 )
 ;
+const
+{
+error
+InvalidArgumentError
+InvalidSessionIDError
+NoSuchWindowError
+UnexpectedAlertOpenError
+UnsupportedOperationError
+}
+=
 Cu
 .
 import
@@ -150,6 +160,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 this

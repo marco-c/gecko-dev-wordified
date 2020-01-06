@@ -133,6 +133,15 @@ js
 "
 )
 ;
+const
+{
+error
+InvalidSelectorError
+JavaScriptError
+NoSuchElementError
+StaleElementReferenceError
+}
+=
 Cu
 .
 import
@@ -150,6 +159,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu

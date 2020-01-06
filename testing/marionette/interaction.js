@@ -108,6 +108,16 @@ js
 "
 )
 ;
+const
+{
+error
+InvalidArgument
+ElementNotInteractableError
+ElementClickInterceptedError
+InvalidElementStateError
+InvalidArgumentError
+}
+=
 Cu
 .
 import
@@ -125,6 +135,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu

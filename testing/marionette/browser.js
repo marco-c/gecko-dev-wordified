@@ -89,6 +89,12 @@ js
 "
 )
 ;
+const
+{
+NoSuchWindowError
+UnsupportedOperationError
+}
+=
 Cu
 .
 import
@@ -106,6 +112,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu

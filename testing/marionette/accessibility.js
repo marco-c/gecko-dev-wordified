@@ -147,6 +147,11 @@ Marionette
 "
 )
 ;
+const
+{
+ElementNotAccessibleError
+}
+=
 Cu
 .
 import
@@ -164,6 +169,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 XPCOMUtils
