@@ -1169,6 +1169,11 @@ sharing_cache
 .
 lookup_by_rules
 (
+self
+.
+context
+.
+shared
 parent_style
 .
 unwrap
