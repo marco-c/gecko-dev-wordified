@@ -3133,6 +3133,8 @@ growAllocableSpace
 void
 shrinkAllocableSpace
 (
+unsigned
+removeNumChunks
 )
 ;
 void
