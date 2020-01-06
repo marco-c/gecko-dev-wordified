@@ -9846,7 +9846,7 @@ VsyncTimestamp
 "
 MakeUnique
 <
-VsyncPayload
+VsyncMarkerPayload
 >
 (
 aVsyncTimestamp

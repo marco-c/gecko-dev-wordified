@@ -506,7 +506,7 @@ h
 /
 /
 for
-LayerTranslationPayload
+LayerTranslationMarkerPayload
 #
 endif
 #
@@ -935,7 +935,7 @@ LayerTranslation
 "
 MakeUnique
 <
-LayerTranslationPayload
+LayerTranslationMarkerPayload
 >
 (
 aLayer

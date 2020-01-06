@@ -1904,7 +1904,7 @@ and
 destroyed
 .
 class
-GTestPayload
+GTestMarkerPayload
 :
 public
 ProfilerMarkerPayload
@@ -1912,7 +1912,7 @@ ProfilerMarkerPayload
 public
 :
 explicit
-GTestPayload
+GTestMarkerPayload
 (
 int
 aN
@@ -1930,7 +1930,7 @@ sNumCreated
 }
 virtual
 ~
-GTestPayload
+GTestMarkerPayload
 (
 )
 {
@@ -1959,7 +1959,7 @@ aUniqueStacks
 )
 override
 {
-streamCommonProps
+StreamCommonProps
 (
 "
 gtest
@@ -2012,16 +2012,16 @@ public
 The
 number
 of
-GTestPayload
+GTestMarkerPayload
 instances
 that
 have
 been
 created
+/
+/
 streamed
 and
-/
-/
 destroyed
 .
 static
@@ -2039,7 +2039,7 @@ sNumDestroyed
 }
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -2047,7 +2047,7 @@ sNumCreated
 0
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -2055,7 +2055,7 @@ sNumStreamed
 0
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -2201,7 +2201,7 @@ M2
 "
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 "
@@ -2225,7 +2225,7 @@ M4
 "
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 "
@@ -2261,7 +2261,7 @@ M5
 "
 MakeUnique
 <
-GTestPayload
+GTestMarkerPayload
 >
 (
 i
@@ -2329,7 +2329,7 @@ CopyData
 /
 /
 The
-GTestPayloads
+GTestMarkerPayloads
 should
 have
 been
@@ -2345,7 +2345,7 @@ destroyed
 .
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -2356,7 +2356,7 @@ sNumCreated
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -2367,7 +2367,7 @@ sNumStreamed
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -2435,7 +2435,7 @@ profiler_stop
 /
 /
 The
-GTestPayloads
+GTestMarkerPayloads
 should
 have
 been
@@ -2443,7 +2443,7 @@ destroyed
 .
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -2475,7 +2475,7 @@ M5
 "
 MakeUnique
 <
-GTestPayload
+GTestMarkerPayload
 >
 (
 i
@@ -2513,7 +2513,7 @@ The
 second
 set
 of
-GTestPayloads
+GTestMarkerPayloads
 should
 not
 have
@@ -2522,7 +2522,7 @@ streamed
 .
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -2533,7 +2533,7 @@ sNumCreated
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -2544,7 +2544,7 @@ sNumStreamed
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed

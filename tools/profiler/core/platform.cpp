@@ -19872,7 +19872,7 @@ payload
 =
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 aCategory
@@ -19948,7 +19948,7 @@ payload
 =
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 aCategory
