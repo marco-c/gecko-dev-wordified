@@ -115,7 +115,7 @@ only
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -301,13 +301,6 @@ h
 #
 include
 "
-ftspic
-.
-c
-"
-#
-include
-"
 ftgrays
 .
 c
@@ -316,6 +309,13 @@ c
 include
 "
 ftsmooth
+.
+c
+"
+#
+include
+"
+ftspic
 .
 c
 "

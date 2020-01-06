@@ -110,7 +110,7 @@ specification
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -1096,6 +1096,9 @@ darken_params
 [
 8
 ]
+;
+FT_Int32
+random_seed
 ;
 }
 CFF_DriverRec

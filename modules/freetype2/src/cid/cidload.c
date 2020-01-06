@@ -113,7 +113,7 @@ body
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -2889,6 +2889,13 @@ data_len
 FT_Byte
 *
 p
+;
+if
+(
+!
+num_subrs
+)
+continue
 ;
 /
 *

@@ -110,7 +110,7 @@ specification
 Copyright
 2002
 -
-2016
+2017
 by
 *
 /
@@ -1004,7 +1004,7 @@ FT_STROKER_LINEJOIN_MITER_VARIABLE
 retained
 for
 *
-backwards
+backward
 compatibility
 .
 *

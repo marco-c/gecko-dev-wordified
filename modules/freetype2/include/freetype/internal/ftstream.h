@@ -109,7 +109,7 @@ specification
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -3616,7 +3616,9 @@ position
 FT_Byte
 *
 )
+(
 buffer
+)
 \
 (
 FT_ULong

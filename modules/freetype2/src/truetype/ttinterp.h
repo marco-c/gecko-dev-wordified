@@ -110,7 +110,7 @@ specification
 Copyright
 1996
 -
-2016
+2017
 by
 *
 /
@@ -1986,7 +1986,7 @@ decided
 to
 implement
 a
-backwards
+backward
 *
 compatibility
 mode
@@ -2582,7 +2582,7 @@ way
 to
 turn
 off
-backwards
+backward
 compatibility
 and
 *
@@ -2643,7 +2643,7 @@ v40
 *
 interpreter
 assumes
-backwards
+backward
 compatibility
 by
 default
@@ -2721,7 +2721,7 @@ fonts
 v40
 with
 *
-backwards
+backward
 compatibility
 turned
 off
@@ -2954,7 +2954,7 @@ vertical_lcd_lean
 *
 Default
 to
-backwards
+backward
 compatibility
 mode
 in
@@ -2989,7 +2989,7 @@ mode
 *
 /
 FT_Bool
-backwards_compatibility
+backward_compatibility
 ;
 /
 *

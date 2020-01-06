@@ -20,7 +20,7 @@ builder
 Copyright
 1996
 -
-2016
+2017
 by
 #
 David
@@ -16872,7 +16872,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -16975,7 +16975,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -17074,7 +17074,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -17174,7 +17174,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -17270,7 +17270,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -17391,7 +17391,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -18977,7 +18977,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -19080,7 +19080,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -19196,7 +19196,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -19241,7 +19241,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -19345,7 +19345,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -19483,7 +19483,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -19559,9 +19559,7 @@ argv
 1
 ]
 "
-w
-\
-n
+wb
 "
 )
   
@@ -19836,7 +19834,7 @@ write
 Copyright
 2005
 -
-2016
+2017
 by
 *
 /
@@ -20424,6 +20422,9 @@ write
 "
 "
 \
+#
+ifdef
+DEFINE_PS_TABLES
   
 /
 *
@@ -20935,6 +20936,13 @@ return
 ;
   
 }
+#
+endif
+/
+*
+DEFINE_PS_TABLES
+*
+/
 #
 endif
 /

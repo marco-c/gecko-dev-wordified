@@ -107,7 +107,7 @@ names
 Copyright
 2005
 -
-2016
+2017
 by
 *
 /
@@ -298,7 +298,7 @@ edit
 /
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -321,7 +321,7 @@ ft_standard_glyph_names
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 '
@@ -10577,7 +10577,7 @@ d
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
@@ -10599,7 +10599,7 @@ table
 /
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -10622,7 +10622,7 @@ FT_NUM_MAC_NAMES
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 253
@@ -10888,7 +10888,7 @@ DEFINE_PS_TABLES
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
@@ -10910,7 +10910,7 @@ table
 /
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -10933,7 +10933,7 @@ FT_NUM_SID_NAMES
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 253
@@ -11332,7 +11332,7 @@ DEFINE_PS_TABLES
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
@@ -11351,7 +11351,7 @@ table
 /
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -11375,7 +11375,7 @@ t1_standard_encoding
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 0
@@ -11639,7 +11639,7 @@ DEFINE_PS_TABLES
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
@@ -11658,7 +11658,7 @@ table
 /
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -11682,7 +11682,7 @@ t1_expert_encoding
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 0
@@ -11946,7 +11946,7 @@ DEFINE_PS_TABLES
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
@@ -12023,7 +12023,7 @@ ifdef
 FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 #
 ifdef
 __cplusplus
@@ -12047,7 +12047,7 @@ ft_adobe_glyph_list
 ]
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 =
 {
 0
@@ -68052,10 +68052,13 @@ DEFINE_PS_TABLES
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 ;
+#
+ifdef
+DEFINE_PS_TABLES
 /
 *
 *
@@ -68491,6 +68494,13 @@ return
 0
 ;
 }
+#
+endif
+/
+*
+DEFINE_PS_TABLES
+*
+/
 #
 endif
 /

@@ -116,7 +116,7 @@ body
 Copyright
 2007
 -
-2016
+2017
 by
 *
 /
@@ -317,6 +317,13 @@ aflatin
 h
 "
 #
+include
+"
+afcjk
+.
+h
+"
+#
 ifdef
 AF_CONFIG_OPTION_INDIC
 #
@@ -330,13 +337,6 @@ h
 include
 "
 aferrors
-.
-h
-"
-#
-include
-"
-afcjk
 .
 h
 "
