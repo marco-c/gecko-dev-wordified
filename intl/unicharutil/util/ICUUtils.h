@@ -178,8 +178,6 @@ UNumberFormat
 class
 nsIContent
 ;
-namespace
-{
 struct
 ScopedUNumberFormatTraits
 {
@@ -216,8 +214,6 @@ handle
 )
 ;
 }
-}
-;
 }
 ;
 typedef
