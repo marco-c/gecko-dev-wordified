@@ -2608,12 +2608,6 @@ strcmp
 aProperty
 XRE_EXECUTABLE_FILE
 )
-&
-&
-gArgv
-[
-0
-]
 )
 {
 nsCOMPtr
@@ -2626,10 +2620,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-gArgv
-[
-0
-]
 getter_AddRefs
 (
 lf
@@ -5592,10 +5582,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-gArgv
-[
-0
-]
 getter_AddRefs
 (
 appdir
