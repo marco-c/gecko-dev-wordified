@@ -415,12 +415,6 @@ updateTooltip
 (
 )
 ;
-XULBrowserWindow
-.
-init
-(
-)
-;
 if
 (
 AppConstants
