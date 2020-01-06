@@ -790,6 +790,12 @@ NotLeaf
 )
 FRAME_ID
 (
+nsSVGSymbolFrame
+SVGSymbol
+NotLeaf
+)
+FRAME_ID
+(
 SVGTextFrame
 SVGText
 NotLeaf

@@ -433,6 +433,10 @@ SVGSwitch
 )
 FRAME_TYPE
 (
+SVGSymbol
+)
+FRAME_TYPE
+(
 SVGText
 )
 FRAME_TYPE

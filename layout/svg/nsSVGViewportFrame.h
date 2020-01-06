@@ -178,6 +178,10 @@ aID
 }
 public
 :
+NS_DECL_ABSTRACT_FRAME
+(
+nsSVGViewportFrame
+)
 virtual
 nsresult
 AttributeChanged
