@@ -353,9 +353,6 @@ VideoConfig
 )
 aParams
 .
-mKnowsCompositor
-aParams
-.
 mImageContainer
 aParams
 .
