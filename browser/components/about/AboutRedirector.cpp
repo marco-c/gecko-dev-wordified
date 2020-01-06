@@ -563,6 +563,11 @@ nsIAboutModule
 :
 :
 ALLOW_SCRIPT
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 {
 "
@@ -585,6 +590,11 @@ nsIAboutModule
 :
 :
 ALLOW_SCRIPT
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 /
 /
