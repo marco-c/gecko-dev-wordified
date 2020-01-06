@@ -188,7 +188,7 @@ mFilter
 wr
 :
 :
-WrImageRendering
+ImageRendering
 :
 :
 Auto
@@ -198,7 +198,7 @@ mMixBlendMode
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 :
 :
 Normal
@@ -778,14 +778,14 @@ const
 wr
 :
 :
-WrImageRendering
+ImageRendering
 &
 aFilter
 const
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 &
 aMixBlendMode
 )
@@ -1682,7 +1682,7 @@ mScTransform
 wr
 :
 :
-WrTransformStyle
+TransformStyle
 :
 :
 Flat

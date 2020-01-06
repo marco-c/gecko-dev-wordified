@@ -224,7 +224,7 @@ NewRenderer
 wr
 :
 :
-WrAPI
+RenderApi
 *
 *
 aApi
@@ -262,7 +262,7 @@ LayoutDeviceIntSize
 aSize
 )
 :
-mWrApi
+mRenderApi
 (
 aApi
 )
@@ -505,7 +505,7 @@ IsANGLE
 wr
 :
 :
-WrRenderer
+Renderer
 *
 wrRenderer
 =
@@ -541,7 +541,7 @@ this
 -
 >
 mEnableProfiler
-mWrApi
+mRenderApi
 &
 wrRenderer
 )
@@ -647,10 +647,10 @@ private
 wr
 :
 :
-WrAPI
+RenderApi
 *
 *
-mWrApi
+mRenderApi
 ;
 GLint
 *
@@ -835,9 +835,9 @@ sNextId
 wr
 :
 :
-WrAPI
+RenderApi
 *
-wrApi
+renderApi
 =
 nullptr
 ;
@@ -859,7 +859,7 @@ synchronous
 task
 because
 the
-WrApi
+RenderApi
 object
 needs
 to
@@ -893,7 +893,7 @@ need
 to
 access
 the
-WrApi
+RenderApi
 object
 .
 layers
@@ -917,7 +917,7 @@ NewRenderer
 >
 (
 &
-wrApi
+renderApi
 aBridge
 &
 maxTextureSize
@@ -959,7 +959,7 @@ Wait
 if
 (
 !
-wrApi
+renderApi
 )
 {
 return
@@ -975,7 +975,7 @@ WebRenderAPI
 new
 WebRenderAPI
 (
-wrApi
+renderApi
 id
 maxTextureSize
 useANGLE
@@ -1001,7 +1001,7 @@ GetNamespace
 return
 wr_api_get_namespace
 (
-mWrApi
+mRenderApi
 )
 ;
 }
@@ -1053,7 +1053,7 @@ Wait
 ;
 wr_api_delete
 (
-mWrApi
+mRenderApi
 )
 ;
 }
@@ -1091,7 +1091,7 @@ aScrollPosition
 {
 wr_scroll_layer_with_id
 (
-mWrApi
+mRenderApi
 aPipelineId
 aScrollId
 aScrollPosition
@@ -1108,7 +1108,7 @@ GenerateFrame
 {
 wr_api_generate_frame
 (
-mWrApi
+mRenderApi
 )
 ;
 }
@@ -1142,7 +1142,7 @@ aTransformArray
 {
 wr_api_generate_frame_with_properties
 (
-mWrApi
+mRenderApi
 aOpacityArray
 .
 IsEmpty
@@ -1209,7 +1209,7 @@ content_size
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 dl_descriptor
 uint8_t
 *
@@ -1220,7 +1220,7 @@ dl_size
 {
 wr_api_set_root_display_list
 (
-mWrApi
+mRenderApi
 ToColorF
 (
 aBgColor
@@ -1257,7 +1257,7 @@ pipeline_id
 {
 wr_api_clear_root_display_list
 (
-mWrApi
+mRenderApi
 aEpoch
 pipeline_id
 )
@@ -1275,7 +1275,7 @@ size
 {
 wr_api_set_window_parameters
 (
-mWrApi
+mRenderApi
 size
 .
 width
@@ -1395,7 +1395,7 @@ aWindowId
 )
 -
 >
-GetWrRenderer
+GetRenderer
 (
 )
 mSize
@@ -2035,7 +2035,7 @@ aPipeline
 {
 wr_api_set_root_pipeline
 (
-mWrApi
+mRenderApi
 aPipeline
 )
 ;
@@ -2061,7 +2061,7 @@ aBytes
 {
 wr_api_add_image
 (
-mWrApi
+mRenderApi
 key
 &
 aDescriptor
@@ -2093,7 +2093,7 @@ aBytes
 {
 wr_api_add_blob_image
 (
-mWrApi
+mRenderApi
 key
 &
 aDescriptor
@@ -2129,7 +2129,7 @@ aChannelIndex
 {
 wr_api_add_external_image
 (
-mWrApi
+mRenderApi
 key
 &
 aDescriptor
@@ -2157,7 +2157,7 @@ aHandle
 {
 wr_api_add_external_image_buffer
 (
-mWrApi
+mRenderApi
 key
 &
 aDescriptor
@@ -2186,7 +2186,7 @@ aBytes
 {
 wr_api_update_image
 (
-mWrApi
+mRenderApi
 aKey
 &
 aDescriptor
@@ -2209,7 +2209,7 @@ aKey
 {
 wr_api_delete_image
 (
-mWrApi
+mRenderApi
 aKey
 )
 ;
@@ -2236,7 +2236,7 @@ aIndex
 {
 wr_api_add_raw_font
 (
-mWrApi
+mRenderApi
 aKey
 &
 aBytes
@@ -2267,7 +2267,7 @@ aKey
 {
 wr_api_delete_font
 (
-mWrApi
+mRenderApi
 aKey
 )
 ;
@@ -2413,7 +2413,7 @@ release
 ;
 wr_api_send_external_event
 (
-mWrApi
+mRenderApi
 event
 )
 ;
@@ -2571,13 +2571,13 @@ aTransform
 wr
 :
 :
-WrTransformStyle
+TransformStyle
 aTransformStyle
 const
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 &
 aMixBlendMode
 const
@@ -4292,7 +4292,7 @@ const
 wr
 :
 :
-WrBoxShadowClipMode
+BoxShadowClipMode
 &
 aClipMode
 )

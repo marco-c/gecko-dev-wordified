@@ -458,9 +458,9 @@ aWindowId
 wr
 :
 :
-WrRenderer
+Renderer
 *
-aWrRenderer
+aRenderer
 layers
 :
 :
@@ -481,9 +481,9 @@ mWidget
 (
 aWidget
 )
-mWrRenderer
+mRenderer
 (
-aWrRenderer
+aRenderer
 )
 mBridge
 (
@@ -511,7 +511,7 @@ mWidget
 ;
 MOZ_ASSERT
 (
-mWrRenderer
+mRenderer
 )
 ;
 MOZ_ASSERT
@@ -574,7 +574,7 @@ return
 }
 wr_renderer_delete
 (
-mWrRenderer
+mRenderer
 )
 ;
 }
@@ -611,7 +611,7 @@ Update
 {
 wr_renderer_update
 (
-mWrRenderer
+mRenderer
 )
 ;
 }
@@ -795,7 +795,7 @@ GetClientSize
 ;
 wr_renderer_render
 (
-mWrRenderer
+mRenderer
 size
 .
 width
@@ -953,7 +953,7 @@ aEnabled
 {
 wr_renderer_set_profiler_enabled
 (
-mWrRenderer
+mRenderer
 aEnabled
 )
 ;
@@ -973,7 +973,7 @@ FlushRenderedEpochs
 return
 wr_renderer_flush_rendered_epochs
 (
-mWrRenderer
+mRenderer
 )
 ;
 }

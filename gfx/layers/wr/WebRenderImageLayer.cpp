@@ -1194,7 +1194,7 @@ mixBlendMode
 wr
 :
 :
-ToWrMixBlendMode
+ToMixBlendMode
 (
 GetMixBlendMode
 (

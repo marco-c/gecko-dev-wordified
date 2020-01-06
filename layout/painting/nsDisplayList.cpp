@@ -33796,7 +33796,7 @@ borderRadius
 wr
 :
 :
-WrBoxShadowClipMode
+BoxShadowClipMode
 :
 :
 Outset
@@ -34730,7 +34730,7 @@ borderRadius
 wr
 :
 :
-WrBoxShadowClipMode
+BoxShadowClipMode
 :
 :
 Inset

@@ -764,7 +764,7 @@ const
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 &
 dlDesc
 const
@@ -834,7 +834,7 @@ const
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 &
 dlDesc
 const
@@ -1522,7 +1522,7 @@ const
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 &
 dlDesc
 const
@@ -1601,7 +1601,7 @@ const
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 &
 dlDesc
 const
