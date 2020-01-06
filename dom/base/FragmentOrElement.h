@@ -889,7 +889,7 @@ override
 virtual
 nsIContent
 *
-GetXBLInsertionParent
+GetXBLInsertionPoint
 (
 )
 const
@@ -897,7 +897,7 @@ override
 ;
 virtual
 void
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nsIContent
 *
@@ -1635,10 +1635,8 @@ mXBLBinding
 *
 XBL
 binding
-installed
-on
-the
-lement
+insertion
+point
 .
 *
 /
@@ -1646,7 +1644,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 ;
 /
 *

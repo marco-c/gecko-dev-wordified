@@ -1266,7 +1266,7 @@ this
 Clear
 out
 insertion
-parent
+point
 and
 content
 lists
@@ -1274,7 +1274,7 @@ lists
 aContent
 -
 >
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nullptr
 )
@@ -5304,7 +5304,7 @@ aPreviousSibling
 aChild
 -
 >
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nullptr
 )

@@ -4337,7 +4337,7 @@ nsIContent
 nsGenericDOMDataNode
 :
 :
-GetXBLInsertionParent
+GetXBLInsertionPoint
 (
 )
 const
@@ -4367,7 +4367,7 @@ return
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 ;
 }
 }
@@ -4379,7 +4379,7 @@ void
 nsGenericDOMDataNode
 :
 :
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nsIContent
 *
@@ -4407,7 +4407,7 @@ NODE_MAY_BE_IN_BINDING_MNGR
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 aContent
 ;
@@ -4430,7 +4430,7 @@ slots
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 nullptr
 ;
@@ -4592,7 +4592,7 @@ cb
 mSlots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 "
 )
 ;
@@ -4600,7 +4600,7 @@ cb
 .
 NoteXPCOMChild
 (
-mXBLInsertionParent
+mXBLInsertionPoint
 .
 get
 (
@@ -4669,7 +4669,7 @@ Unlink
 (
 )
 {
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 nullptr
 ;
