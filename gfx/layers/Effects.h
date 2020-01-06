@@ -1038,6 +1038,8 @@ TextureSource
 aSource
 YUVColorSpace
 aYUVColorSpace
+uint32_t
+aBitDepth
 gfx
 :
 :
@@ -1059,6 +1061,10 @@ mYUVColorSpace
 (
 aYUVColorSpace
 )
+mBitDepth
+(
+aBitDepth
+)
 {
 }
 virtual
@@ -1077,6 +1083,9 @@ EffectYCbCr
 }
 YUVColorSpace
 mYUVColorSpace
+;
+uint32_t
+mBitDepth
 ;
 }
 ;
@@ -1630,6 +1639,12 @@ aHost
 -
 >
 GetYUVColorSpace
+(
+)
+aHost
+-
+>
+GetBitDepth
 (
 )
 aSamplingFilter

@@ -1992,6 +1992,12 @@ BT601
 ;
 clientData
 .
+mBitDepth
+=
+8
+;
+clientData
+.
 mYSkip
 =
 0
@@ -2168,7 +2174,13 @@ clientData
 mYSize
 clientData
 .
+mYStride
+clientData
+.
 mCbCrSize
+clientData
+.
+mCbCrStride
 StereoMode
 :
 :
@@ -2177,6 +2189,7 @@ YUVColorSpace
 :
 :
 BT601
+8
 TextureFlags
 :
 :
