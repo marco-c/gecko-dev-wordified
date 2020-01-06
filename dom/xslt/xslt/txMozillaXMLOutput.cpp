@@ -4884,7 +4884,7 @@ mPublicId
 mOutputFormat
 .
 mSystemId
-NullString
+VoidString
 (
 )
 )

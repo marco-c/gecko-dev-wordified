@@ -6155,7 +6155,7 @@ sEmpty
 const
 nsString
 &
-NullString
+VoidString
 (
 )
 {
@@ -6183,7 +6183,7 @@ sNull
 const
 nsCString
 &
-NullCString
+VoidCString
 (
 )
 {

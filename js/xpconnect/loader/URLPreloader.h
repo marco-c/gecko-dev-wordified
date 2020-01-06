@@ -1283,7 +1283,7 @@ key
 )
 mData
 (
-NullCString
+VoidCString
 (
 )
 )

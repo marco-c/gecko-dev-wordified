@@ -6524,7 +6524,7 @@ Value
 (
 )
 :
-NullString
+VoidString
 (
 )
 mPassword
@@ -6539,7 +6539,7 @@ Value
 (
 )
 :
-NullString
+VoidString
 (
 )
 rv2
@@ -9322,7 +9322,7 @@ SendRunnable
 (
 mWorkerPrivate
 mProxy
-NullString
+VoidString
 (
 )
 )

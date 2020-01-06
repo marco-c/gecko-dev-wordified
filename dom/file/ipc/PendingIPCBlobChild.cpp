@@ -283,7 +283,7 @@ blobImpl
 >
 SetLazyData
 (
-NullString
+VoidString
 (
 )
 aContentType

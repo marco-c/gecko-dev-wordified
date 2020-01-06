@@ -662,7 +662,7 @@ Read
 (
 aSize
 false
-NullString
+VoidString
 (
 )
 aRv

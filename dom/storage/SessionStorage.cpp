@@ -720,7 +720,7 @@ BroadcastChangeNotification
 (
 aKey
 oldValue
-NullString
+VoidString
 (
 )
 )
@@ -768,13 +768,13 @@ DATASET
 ;
 BroadcastChangeNotification
 (
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
 )

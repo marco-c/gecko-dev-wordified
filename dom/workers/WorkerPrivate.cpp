@@ -22581,7 +22581,7 @@ aScriptURL
 aIsChromeWorker
 aWorkerType
 aWorkerName
-NullCString
+VoidCString
 (
 )
 aLoadInfo

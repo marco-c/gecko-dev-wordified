@@ -799,7 +799,7 @@ aRv
 return
 StartWithDevice
 (
-NullString
+VoidString
 (
 )
 aRv

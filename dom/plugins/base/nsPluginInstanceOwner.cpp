@@ -2579,7 +2579,7 @@ unitarget
 get
 (
 )
-NullString
+VoidString
 (
 )
 aPostStream

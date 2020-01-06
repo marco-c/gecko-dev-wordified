@@ -392,7 +392,7 @@ cx
 )
 charset
 (
-NullString
+VoidString
 (
 )
 )

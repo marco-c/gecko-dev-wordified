@@ -9883,7 +9883,7 @@ nullptr
 No
 type
 hint
-NullString
+VoidString
 (
 )
 /
@@ -30214,7 +30214,7 @@ EmptyString
 (
 )
 nullptr
-NullString
+VoidString
 (
 )
 nullptr
@@ -30222,7 +30222,7 @@ nullptr
 LOAD_ERROR_PAGE
 nullptr
 true
-NullString
+VoidString
 (
 )
 this
@@ -30797,7 +30797,7 @@ contentTypeHint
 get
 (
 )
-NullString
+VoidString
 (
 )
 /
@@ -56185,7 +56185,7 @@ mTypeHint
 get
 (
 )
-NullString
+VoidString
 (
 )
 mPostData
@@ -59199,7 +59199,7 @@ No
 window
 target
 aTypeHint
-NullString
+VoidString
 (
 )
 /
@@ -63319,7 +63319,7 @@ else
 {
 srcdoc
 =
-NullString
+VoidString
 (
 )
 ;
@@ -76515,7 +76515,7 @@ else
 {
 srcdoc
 =
-NullString
+VoidString
 (
 )
 ;
@@ -76639,7 +76639,7 @@ get
 /
 Type
 hint
-NullString
+VoidString
 (
 )
 /
@@ -84801,7 +84801,7 @@ true
 first
 party
 site
-NullString
+VoidString
 (
 )
 /

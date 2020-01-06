@@ -27133,7 +27133,7 @@ client
 >
 AbortOperations
 (
-NullCString
+VoidCString
 (
 )
 )

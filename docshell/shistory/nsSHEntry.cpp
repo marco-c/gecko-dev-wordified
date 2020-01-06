@@ -1954,7 +1954,7 @@ false
 ;
 mSrcdocData
 =
-NullString
+VoidString
 (
 )
 ;

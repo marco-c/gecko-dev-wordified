@@ -79895,7 +79895,7 @@ CreateStorageConnection
 (
 aDatabaseFile
 aDirectory
-NullString
+VoidString
 (
 )
 aPersistenceType

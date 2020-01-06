@@ -12687,7 +12687,7 @@ aScriptURL
 false
 WorkerTypeShared
 aName
-NullCString
+VoidCString
 (
 )
 aLoadInfo

@@ -131,7 +131,7 @@ type
 TEST_F
 (
 InitTest
-NullString
+VoidString
 )
 {
 EXPECT_FALSE

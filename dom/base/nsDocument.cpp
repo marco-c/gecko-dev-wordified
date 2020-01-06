@@ -20460,7 +20460,7 @@ aSrcdocData
 }
 aSrcdocData
 =
-NullString
+VoidString
 (
 )
 ;
@@ -55257,7 +55257,7 @@ SelectSourceForTagWithAttrs
 (
 this
 true
-NullString
+VoidString
 (
 )
 aSrcsetAttr
@@ -55409,10 +55409,10 @@ false
 aSrcAttr
 aSrcsetAttr
 aSizesAttr
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
 sourceURL
@@ -72523,7 +72523,7 @@ getter_AddRefs
 (
 document
 )
-NullString
+VoidString
 (
 )
 EmptyString

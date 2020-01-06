@@ -4207,7 +4207,7 @@ GetNodeInfoManager
 aName
 aPublicId
 aSystemId
-NullString
+VoidString
 (
 )
 )
