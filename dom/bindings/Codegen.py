@@ -11686,6 +11686,17 @@ those
 arguments
 .
     
+canRunScript
+should
+be
+True
+to
+generate
+a
+MOZ_CAN_RUN_SCRIPT
+annotation
+.
+    
 "
 "
 "
@@ -11701,6 +11712,7 @@ args
 inline
 =
 False
+                 
 alwaysInline
 =
 False
@@ -11710,6 +11722,10 @@ False
 templateArgs
 =
 None
+                 
+canRunScript
+=
+False
 )
 :
         
@@ -11767,6 +11783,12 @@ self
 templateArgs
 =
 templateArgs
+        
+self
+.
+canRunScript
+=
+canRunScript
     
 def
 _argstring
@@ -11856,6 +11878,22 @@ decorators
 =
 [
 ]
+        
+if
+self
+.
+canRunScript
+:
+            
+decorators
+.
+append
+(
+'
+MOZ_CAN_RUN_SCRIPT
+'
+)
+;
         
 if
 self
@@ -12228,6 +12266,9 @@ descriptor
 name
 returnType
 args
+canRunScript
+=
+False
 )
 :
         
@@ -12247,6 +12288,10 @@ False
 static
 =
 True
+                                  
+canRunScript
+=
+canRunScript
 )
     
 def
@@ -22646,10 +22691,14 @@ descriptor
 '
 JsonifyAttributes
 '
+                                  
 '
 bool
 '
 args
+canRunScript
+=
+True
 )
     
 def
@@ -69689,6 +69738,10 @@ name
 bool
 '
 args
+                                        
+canRunScript
+=
+True
 )
     
 def
@@ -69844,6 +69897,10 @@ name
 bool
 '
 args
+                                        
+canRunScript
+=
+True
 )
     
 def
@@ -72496,10 +72553,64 @@ args
         
 ]
         
+#
+StoreInSlot
+attributes
+have
+their
+getters
+called
+from
+Wrap
+(
+)
+.
+We
+        
+#
+really
+hope
+they
+can
+'
+t
+run
+script
+and
+don
+'
+t
+want
+to
+annotate
+Wrap
+(
+)
+        
+#
+methods
+as
+doing
+that
+anyway
+so
+let
+'
+s
+not
+annotate
+them
+as
+        
+#
+MOZ_CAN_RUN_SCRIPT
+.
+        
 CGAbstractStaticMethod
 .
 __init__
 (
+            
 self
 descriptor
 name
@@ -72507,6 +72618,18 @@ name
 bool
 "
 args
+            
+canRunScript
+=
+not
+attr
+.
+getExtendedAttribute
+(
+"
+StoreInSlot
+"
+)
 )
     
 def
@@ -73495,6 +73618,10 @@ name
 bool
 '
 args
+                                        
+canRunScript
+=
+True
 )
     
 def
