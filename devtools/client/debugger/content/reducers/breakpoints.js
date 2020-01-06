@@ -388,6 +388,7 @@ const
 {
 actor
 text
+isWasm
 }
 =
 action
@@ -620,6 +621,9 @@ false
 actor
 :
 actor
+isWasm
+:
+isWasm
 text
 :
 text
