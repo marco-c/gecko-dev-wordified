@@ -293,15 +293,6 @@ Init
 (
 )
 ;
-bool
-IsCompatibleVersion
-(
-const
-nsAString
-&
-aVersion
-)
-;
 nsresult
 IsRegistered
 (
@@ -337,11 +328,6 @@ static
 const
 nsCString
 mSecretNickname
-;
-static
-const
-nsString
-mVersion
 ;
 nsresult
 GetOrCreateWrappingKey
