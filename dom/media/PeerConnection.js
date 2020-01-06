@@ -4715,6 +4715,8 @@ uriStr
 catch
 (
 e
+)
+{
 if
 (
 e
@@ -4725,7 +4727,6 @@ result
 Cr
 .
 NS_ERROR_MALFORMED_URI
-)
 )
 {
 throw
@@ -4750,6 +4751,10 @@ uriStr
 SyntaxError
 "
 )
+;
+}
+throw
+e
 ;
 }
 }
