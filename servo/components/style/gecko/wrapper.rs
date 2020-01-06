@@ -225,7 +225,7 @@ use
 error_reporting
 :
 :
-RustLogReporter
+create_error_reporter
 ;
 use
 font_metrics
@@ -3369,7 +3369,9 @@ parse_style_attribute
 value
 url_data
 &
-RustLogReporter
+create_error_reporter
+(
+)
 quirks_mode
 )
 }

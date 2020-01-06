@@ -150,7 +150,10 @@ use
 style_traits
 :
 :
+{
 ToCss
+ParseError
+}
 ;
 use
 stylearc
@@ -354,8 +357,11 @@ ParserContext
 Result
 <
 Self
-(
-)
+ParseError
+<
+'
+a
+>
 >
 {
 Ok

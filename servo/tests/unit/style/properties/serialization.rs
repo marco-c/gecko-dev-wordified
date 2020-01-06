@@ -60,7 +60,10 @@ use
 properties
 :
 :
+{
 parse
+parse_input
+}
 ;
 use
 style

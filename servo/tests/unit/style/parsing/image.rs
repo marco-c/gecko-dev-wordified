@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-parsing
-:
-:
-parse
-;
-use
 style
 :
 :
