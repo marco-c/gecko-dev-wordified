@@ -1986,7 +1986,7 @@ _logger
 .
 name
 "
-__main__
+test_logger
 .
 Loggable
 "

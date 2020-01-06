@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+mozunit
+import
 pytest
 from
 marionette_harness
@@ -223,19 +225,10 @@ __main__
 '
 :
     
-import
-sys
-    
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-        
-[
 '
 -
 -
@@ -245,7 +238,4 @@ tbpl
 =
 -
 '
-__file__
-]
-)
 )

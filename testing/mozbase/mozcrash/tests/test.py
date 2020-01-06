@@ -96,6 +96,9 @@ Make
 logs
 go
 away
+try
+:
+    
 log
 =
 mozlog
@@ -116,6 +119,11 @@ os
 devnull
 )
 )
+except
+ValueError
+:
+    
+pass
 def
 popen_factory
 (

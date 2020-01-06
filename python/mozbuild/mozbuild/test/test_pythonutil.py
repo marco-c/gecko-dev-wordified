@@ -122,10 +122,12 @@ self
 .
 assertEquals
 (
-sorted
+set
 (
 paths
 )
+set
+(
 [
             
 os
@@ -188,6 +190,30 @@ mozbuild_path
 test
 '
 '
+__init__
+.
+py
+'
+)
+            
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+abspath
+(
+mozbuild_path
+)
+'
+test
+'
+'
 test_pythonutil
 .
 py
@@ -195,6 +221,7 @@ py
 )
         
 ]
+)
 )
 if
 __name__

@@ -4912,4 +4912,9 @@ mozunit
 .
 main
 (
+runwith
+=
+'
+unittest
+'
 )

@@ -58,7 +58,7 @@ os
 import
 subprocess
 import
-sys
+mozunit
 import
 pytest
 from
@@ -795,21 +795,8 @@ __main__
 '
 :
     
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-[
-'
--
--
-verbose
-'
-__file__
-]
-)
 )
