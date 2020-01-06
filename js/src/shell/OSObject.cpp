@@ -290,6 +290,9 @@ h
 ifdef
 XP_WIN
 #
+ifndef
+PATH_MAX
+#
 define
 PATH_MAX
 (
@@ -301,6 +304,8 @@ MAX_PATH
 :
 _MAX_DIR
 )
+#
+endif
 #
 define
 getcwd
