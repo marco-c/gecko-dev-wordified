@@ -67,7 +67,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -79,6 +79,6 @@ modules
 osfile
 .
 jsm
-'
+"
 )
 ;

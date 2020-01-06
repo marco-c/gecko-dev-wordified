@@ -553,7 +553,6 @@ result
 )
 ;
 }
-;
 /
 *
 *
@@ -684,7 +683,6 @@ b_contents
 )
 ;
 }
-;
 async
 function
 removeTestFile

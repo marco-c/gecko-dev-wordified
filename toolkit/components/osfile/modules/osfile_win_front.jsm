@@ -843,8 +843,6 @@ this
 _closeResult
 ;
 }
-return
-;
 }
 ;
 /
@@ -6674,8 +6672,6 @@ this
 _findData
 ;
 }
-else
-{
 let
 error
 =
@@ -6703,8 +6699,6 @@ return
 null
 ;
 }
-else
-{
 throw
 new
 File
@@ -6723,8 +6717,6 @@ this
 _path
 )
 ;
-}
-}
 }
 /
 *
