@@ -7306,7 +7306,7 @@ aClosure
 void
 *
 *
-bp
+aBp
 void
 *
 aStackEnd
@@ -7337,7 +7337,7 @@ numFrames
 ;
 while
 (
-bp
+aBp
 )
 {
 void
@@ -7351,11 +7351,11 @@ void
 *
 )
 *
-bp
+aBp
 ;
 /
 /
-bp
+aBp
 may
 not
 be
@@ -7386,7 +7386,7 @@ checks
 /
 /
 (
-bp
+aBp
 should
 be
 a
@@ -7436,7 +7436,7 @@ we
 can
 assume
 that
-bp
+aBp
 >
 sp
 if
@@ -7444,7 +7444,7 @@ if
 next
 <
 =
-bp
+aBp
 |
 |
 next
@@ -7498,12 +7498,12 @@ pc
 =
 *
 (
-bp
+aBp
 +
 2
 )
 ;
-bp
+aBp
 +
 =
 3
@@ -7522,12 +7522,12 @@ pc
 =
 *
 (
-bp
+aBp
 +
 1
 )
 ;
-bp
+aBp
 +
 =
 2
@@ -7616,7 +7616,7 @@ aCallback
 (
 numFrames
 pc
-bp
+aBp
 aClosure
 )
 ;
@@ -7638,7 +7638,7 @@ break
 ;
 }
 }
-bp
+aBp
 =
 next
 ;
@@ -7668,6 +7668,8 @@ MozWalkStackCallback
 aCallback
 uint32_t
 aSkipFrames
+uint32_t
+aMaxFrames
 void
 *
 aClosure
@@ -7675,6 +7677,9 @@ void
 *
 *
 aBp
+void
+*
+aStackEnd
 )
 {
 return
