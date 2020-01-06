@@ -860,7 +860,7 @@ it
 .
 *
 /
-nsresult
+void
 HandleSelectCall
 (
 )

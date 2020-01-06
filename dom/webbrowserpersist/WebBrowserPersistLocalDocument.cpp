@@ -6786,12 +6786,16 @@ Checked
 (
 )
 ;
+IgnoredErrorResult
+ignored
+;
 outElt
 -
 >
 SetDefaultChecked
 (
 checked
+ignored
 )
 ;
 }

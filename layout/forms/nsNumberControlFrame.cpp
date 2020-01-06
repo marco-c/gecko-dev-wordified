@@ -3657,7 +3657,7 @@ ignored
 ;
 }
 }
-nsresult
+void
 nsNumberControlFrame
 :
 :
@@ -3665,7 +3665,6 @@ HandleSelectCall
 (
 )
 {
-return
 HTMLInputElement
 :
 :
