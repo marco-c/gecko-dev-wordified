@@ -3419,6 +3419,12 @@ asyncCallback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+CacheFileInputStream
+:
+:
+NotifyListener
+"
 mCallback
 mCallbackTarget
 )
