@@ -6423,6 +6423,17 @@ MutableHandleValue
 rval
 )
 ;
+void
+CloseIteratorFromIon
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+)
+;
 extern
 const
 VMFunction
