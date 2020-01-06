@@ -923,6 +923,12 @@ None
         
 self
 .
+last_test
+=
+None
+        
+self
+.
 started
 =
 False
@@ -973,6 +979,14 @@ browser_settings
 )
 or
                             
+(
+self
+.
+last_test
+!
+=
+test
+and
 test
 .
 expected
@@ -984,12 +998,19 @@ expected
 CRASH
 "
 )
+)
         
 self
 .
 browser_settings
 =
 browser_settings
+        
+self
+.
+last_test
+=
+test
         
 return
 restart_required
