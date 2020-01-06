@@ -715,9 +715,14 @@ cmd
 =
 [
             
-sys
+self
 .
-executable
+query_exe
+(
+"
+python
+"
+)
             
 os
 .
