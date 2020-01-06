@@ -75,7 +75,7 @@ kNotFound
 )
 datetime
 .
-Replace
+ReplaceLiteral
 (
 ind
 10
@@ -162,7 +162,7 @@ ind
 )
 datetime
 .
-Replace
+ReplaceLiteral
 (
 0
 10
@@ -190,7 +190,7 @@ ind
 )
 datetime
 .
-Replace
+ReplaceLiteral
 (
 0
 11

@@ -562,7 +562,7 @@ if
 uri
 )
 {
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -751,7 +751,7 @@ i
 {
 localeStr
 .
-Replace
+ReplaceLiteral
 (
 i
 localeStr
@@ -767,7 +767,7 @@ i
 "
 )
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -1402,7 +1402,7 @@ i
 ;
 }
 }
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -1748,7 +1748,7 @@ get
 ;
 #
 endif
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -1933,7 +1933,7 @@ ToLowerCase
 value
 )
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -1944,7 +1944,7 @@ NS_Atomize
 alias
 )
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >

@@ -2567,7 +2567,7 @@ aContent
 return
 ;
 }
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -64257,7 +64257,7 @@ with
 https
 tmpResultSpec
 .
-Replace
+ReplaceLiteral
 (
 0
 4

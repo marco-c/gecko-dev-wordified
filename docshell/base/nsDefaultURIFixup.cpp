@@ -1702,7 +1702,7 @@ http
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1750,7 +1750,7 @@ https
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 4
@@ -1798,7 +1798,7 @@ https
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1846,7 +1846,7 @@ https
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 2
@@ -1894,7 +1894,7 @@ file
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1942,7 +1942,7 @@ file
 .
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 2
