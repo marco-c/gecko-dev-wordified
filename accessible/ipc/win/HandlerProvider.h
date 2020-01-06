@@ -473,6 +473,12 @@ StructToStream
 >
 mSerializer
 ;
+RefPtr
+<
+IUnknown
+>
+mFastMarshalUnk
+;
 }
 ;
 }

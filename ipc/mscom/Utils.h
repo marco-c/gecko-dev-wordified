@@ -372,6 +372,11 @@ nsAString
 aOutString
 )
 ;
+bool
+IsCallerExternalProcess
+(
+)
+;
 #
 endif
 /
