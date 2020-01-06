@@ -252,10 +252,10 @@ ClipId
 [
 derive
 (
-Copy
-PartialEq
 Clone
+Copy
 Debug
+PartialEq
 )
 ]
 pub

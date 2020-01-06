@@ -4255,8 +4255,8 @@ find_split_info_for_inline_size
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -4649,8 +4649,8 @@ column
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -23070,8 +23070,8 @@ details
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub
@@ -23312,8 +23312,8 @@ false
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -23421,8 +23421,8 @@ overflow
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -23734,8 +23734,8 @@ logic
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]

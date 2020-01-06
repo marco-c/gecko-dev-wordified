@@ -171,8 +171,8 @@ alive
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub
@@ -353,8 +353,8 @@ alive
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub

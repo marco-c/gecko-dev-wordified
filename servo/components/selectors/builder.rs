@@ -1586,8 +1586,8 @@ u32
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq

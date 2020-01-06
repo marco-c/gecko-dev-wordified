@@ -5853,10 +5853,10 @@ reflow
 [
 derive
 (
-PartialEq
-Copy
 Clone
+Copy
 Debug
+PartialEq
 )
 ]
 pub

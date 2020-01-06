@@ -60,11 +60,11 @@ MPL
 [
 derive
 (
-PartialEq
-Eq
-Copy
 Clone
+Copy
 Debug
+Eq
+PartialEq
 )
 ]
 pub

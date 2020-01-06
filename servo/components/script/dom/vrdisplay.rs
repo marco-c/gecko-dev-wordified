@@ -778,9 +778,9 @@ derive
 (
 Clone
 Copy
-PartialEq
 Eq
 HeapSizeOf
+PartialEq
 )
 ]
 enum

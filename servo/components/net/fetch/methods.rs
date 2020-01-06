@@ -4016,9 +4016,9 @@ nosniff
 [
 derive
 (
-Debug
 Clone
 Copy
+Debug
 )
 ]
 struct

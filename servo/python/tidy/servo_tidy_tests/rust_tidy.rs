@@ -150,6 +150,15 @@ bar
 baz
 "
 ]
+#
+[
+derive
+(
+Copy
+Debug
+ComputeSquaredDistance
+)
+]
 impl
 test
 {

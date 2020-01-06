@@ -752,9 +752,9 @@ PI
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -924,8 +924,8 @@ Angle
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1153,9 +1153,9 @@ write_str
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -2084,8 +2084,8 @@ SpecifiedValue
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq

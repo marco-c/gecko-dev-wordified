@@ -543,8 +543,8 @@ RepeatKeyword
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

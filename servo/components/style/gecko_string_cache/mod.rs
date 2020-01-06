@@ -328,8 +328,8 @@ atom
 [
 derive
 (
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

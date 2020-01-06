@@ -4156,8 +4156,8 @@ moved
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #

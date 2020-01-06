@@ -149,9 +149,9 @@ ex
 [
 derive
 (
+Clone
 Debug
 PartialEq
-Clone
 )
 ]
 pub
@@ -210,9 +210,9 @@ family
 [
 derive
 (
+Clone
 Debug
 PartialEq
-Clone
 )
 ]
 pub

@@ -316,8 +316,8 @@ count
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -387,8 +387,8 @@ time
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -496,8 +496,8 @@ file
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1881,8 +1881,8 @@ property
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1961,8 +1961,8 @@ property
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub

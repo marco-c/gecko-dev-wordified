@@ -502,9 +502,9 @@ i32
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1426,9 +1426,9 @@ length
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1902,9 +1902,9 @@ HTML5
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -2134,9 +2134,9 @@ unit
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -2867,9 +2867,9 @@ DPI
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -3153,9 +3153,9 @@ lengths
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #

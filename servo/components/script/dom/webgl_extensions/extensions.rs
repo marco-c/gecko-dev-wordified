@@ -493,8 +493,8 @@ Extensions
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -686,8 +686,8 @@ must_root
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -1871,11 +1871,11 @@ structs
 [
 derive
 (
-JSTraceable
-HeapSizeOf
-PartialEq
 Eq
 Hash
+HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 struct

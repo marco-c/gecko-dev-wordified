@@ -105,8 +105,8 @@ derive
 (
 Clone
 Debug
-Serialize
 Deserialize
+Serialize
 )
 ]
 pub
@@ -166,8 +166,8 @@ derive
 (
 Clone
 Debug
-Serialize
 Deserialize
+Serialize
 )
 ]
 pub

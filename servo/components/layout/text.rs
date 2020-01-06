@@ -4093,8 +4093,8 @@ it
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]

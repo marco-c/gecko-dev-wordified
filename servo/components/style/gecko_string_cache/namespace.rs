@@ -185,12 +185,12 @@ atom
 [
 derive
 (
-Debug
-PartialEq
-Eq
 Clone
+Debug
 Default
+Eq
 Hash
+PartialEq
 )
 ]
 pub

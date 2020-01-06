@@ -1683,8 +1683,8 @@ _
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -5456,8 +5456,8 @@ task
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

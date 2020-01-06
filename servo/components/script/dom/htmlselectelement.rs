@@ -464,8 +464,8 @@ element_state
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

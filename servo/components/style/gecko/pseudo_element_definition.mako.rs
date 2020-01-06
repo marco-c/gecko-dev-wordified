@@ -73,9 +73,9 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
 Hash
+PartialEq
 )
 ]
 pub

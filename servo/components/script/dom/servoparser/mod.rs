@@ -5613,8 +5613,8 @@ unwrap
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #

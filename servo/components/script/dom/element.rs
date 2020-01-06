@@ -1832,8 +1832,8 @@ f
 [
 derive
 (
-PartialEq
 HeapSizeOf
+PartialEq
 )
 ]
 pub
@@ -1884,10 +1884,10 @@ derive
 (
 Clone
 Copy
-PartialEq
 Eq
 HeapSizeOf
 JSTraceable
+PartialEq
 )
 ]
 pub
@@ -23148,8 +23148,8 @@ changes
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

@@ -167,8 +167,8 @@ states
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #

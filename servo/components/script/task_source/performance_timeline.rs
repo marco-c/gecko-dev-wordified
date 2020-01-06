@@ -193,8 +193,8 @@ TaskSource
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub

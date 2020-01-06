@@ -905,8 +905,8 @@ non_opaque
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -2407,8 +2407,8 @@ properties
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -2712,8 +2712,8 @@ properties
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -5672,8 +5672,8 @@ html_element_in_html_document_for_layout
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -7632,8 +7632,8 @@ elements
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]

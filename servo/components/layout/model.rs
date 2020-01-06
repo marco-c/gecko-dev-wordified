@@ -197,8 +197,8 @@ CSS
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -438,8 +438,8 @@ CSS
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -1994,8 +1994,8 @@ Au
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -2050,9 +2050,9 @@ preferred
 [
 derive
 (
-Serialize
-Copy
 Clone
+Copy
+Serialize
 )
 ]
 pub
@@ -2774,10 +2774,10 @@ elements
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 Debug
+PartialEq
 )
 ]
 pub

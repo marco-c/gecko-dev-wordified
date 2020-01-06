@@ -101,10 +101,10 @@ type
 [
 derive
 (
-JSTraceable
 Clone
 Copy
 Eq
+JSTraceable
 PartialEq
 )
 ]

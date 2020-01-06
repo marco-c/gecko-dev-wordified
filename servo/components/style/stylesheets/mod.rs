@@ -690,8 +690,8 @@ around
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #
@@ -1046,11 +1046,11 @@ missing_docs
 [
 derive
 (
-PartialEq
-Eq
-Copy
 Clone
+Copy
 Debug
+Eq
+PartialEq
 )
 ]
 pub

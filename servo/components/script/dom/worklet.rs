@@ -1247,10 +1247,10 @@ derive
 Clone
 Copy
 Debug
-PartialEq
 Eq
 Hash
 JSTraceable
+PartialEq
 )
 ]
 pub
@@ -4961,8 +4961,8 @@ tasks
 derive
 (
 Clone
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

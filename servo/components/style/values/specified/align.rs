@@ -921,8 +921,8 @@ Gecko
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1673,8 +1673,8 @@ alignment
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1959,8 +1959,8 @@ alignment
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -2243,8 +2243,8 @@ property
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq

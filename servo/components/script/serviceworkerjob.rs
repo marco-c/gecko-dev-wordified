@@ -297,11 +297,11 @@ DOMManipulationTaskSource
 [
 derive
 (
-PartialEq
-Copy
 Clone
+Copy
 Debug
 JSTraceable
+PartialEq
 )
 ]
 pub

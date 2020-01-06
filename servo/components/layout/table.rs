@@ -3955,9 +3955,9 @@ pick
 derive
 (
 Clone
-Serialize
-Debug
 Copy
+Debug
+Serialize
 )
 ]
 pub
@@ -4187,10 +4187,10 @@ eventually
 [
 derive
 (
-Serialize
 Clone
 Copy
 Debug
+Serialize
 )
 ]
 pub

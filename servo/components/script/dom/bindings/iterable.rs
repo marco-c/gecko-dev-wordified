@@ -267,8 +267,8 @@ over
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

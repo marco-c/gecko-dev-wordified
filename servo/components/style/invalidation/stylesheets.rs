@@ -188,8 +188,8 @@ restyled
 derive
 (
 Debug
-Hash
 Eq
+Hash
 PartialEq
 )
 ]

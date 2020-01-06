@@ -262,9 +262,9 @@ order
 [
 derive
 (
-JSTraceable
-HeapSizeOf
 Default
+HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -334,8 +334,8 @@ bool
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -393,8 +393,8 @@ checkpoint
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

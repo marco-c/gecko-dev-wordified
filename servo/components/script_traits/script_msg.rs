@@ -1422,9 +1422,9 @@ workers
 [
 derive
 (
+Clone
 Deserialize
 Serialize
-Clone
 )
 ]
 pub
@@ -1517,10 +1517,10 @@ postMessage
 [
 derive
 (
+Clone
+Debug
 Deserialize
 Serialize
-Debug
-Clone
 )
 ]
 pub

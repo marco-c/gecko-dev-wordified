@@ -1069,9 +1069,9 @@ directly
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -1162,9 +1162,9 @@ media1
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -1822,11 +1822,11 @@ Stylo
 [
 derive
 (
-PartialEq
-Eq
-Copy
 Clone
+Copy
 Debug
+Eq
+PartialEq
 )
 ]
 #

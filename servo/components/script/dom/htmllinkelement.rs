@@ -429,11 +429,11 @@ StylesheetOwner
 [
 derive
 (
-JSTraceable
-PartialEq
 Clone
 Copy
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub

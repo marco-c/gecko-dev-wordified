@@ -1825,8 +1825,8 @@ Reflow
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -1984,8 +1984,8 @@ Reflow
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

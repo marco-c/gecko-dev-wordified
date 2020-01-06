@@ -7791,8 +7791,8 @@ stored
 [
 derive
 (
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

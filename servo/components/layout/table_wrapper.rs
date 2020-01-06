@@ -330,10 +330,10 @@ ColumnIntrinsicInlineSize
 [
 derive
 (
-Copy
 Clone
-Serialize
+Copy
 Debug
+Serialize
 )
 ]
 pub
@@ -3859,10 +3859,10 @@ to
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 Debug
+PartialEq
 )
 ]
 enum

@@ -1028,8 +1028,8 @@ zoom
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )

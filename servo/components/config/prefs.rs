@@ -201,10 +201,10 @@ defaults
 [
 derive
 (
-PartialEq
 Clone
 Debug
 Deserialize
+PartialEq
 Serialize
 )
 ]

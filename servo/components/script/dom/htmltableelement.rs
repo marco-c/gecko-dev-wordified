@@ -383,8 +383,8 @@ unrooted_must_root
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

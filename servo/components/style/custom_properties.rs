@@ -371,8 +371,8 @@ names
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #

@@ -129,8 +129,8 @@ Prefix
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

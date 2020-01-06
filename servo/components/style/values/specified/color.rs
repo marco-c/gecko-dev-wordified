@@ -190,8 +190,8 @@ value
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #

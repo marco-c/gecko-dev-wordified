@@ -220,8 +220,8 @@ addr
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

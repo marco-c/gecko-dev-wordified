@@ -1235,8 +1235,8 @@ inlining
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )

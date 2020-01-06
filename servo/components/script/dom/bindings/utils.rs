@@ -500,8 +500,8 @@ mozjs
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 /
@@ -720,8 +720,8 @@ reflectors
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

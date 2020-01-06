@@ -2153,8 +2153,8 @@ system
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -2630,10 +2630,10 @@ symbol
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub
@@ -2991,8 +2991,8 @@ negative
 [
 derive
 (
-Debug
 Clone
+Debug
 ToCss
 )
 ]
@@ -3129,8 +3129,8 @@ auto
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -3971,10 +3971,10 @@ symbols
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub

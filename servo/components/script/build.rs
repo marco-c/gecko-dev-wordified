@@ -745,8 +745,8 @@ unwrap
 derive
 (
 Eq
-PartialEq
 Hash
+PartialEq
 )
 ]
 struct

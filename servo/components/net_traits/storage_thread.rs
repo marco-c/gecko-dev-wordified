@@ -75,11 +75,11 @@ ServoUrl
 [
 derive
 (
-Copy
 Clone
+Copy
 Deserialize
-Serialize
 HeapSizeOf
+Serialize
 )
 ]
 pub

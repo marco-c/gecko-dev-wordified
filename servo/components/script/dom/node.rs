@@ -1351,8 +1351,8 @@ items
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -1777,8 +1777,8 @@ remove
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]
@@ -10188,10 +10188,10 @@ not
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 HeapSizeOf
+PartialEq
 )
 ]
 pub
@@ -19171,10 +19171,10 @@ node
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 HeapSizeOf
+PartialEq
 )
 ]
 pub

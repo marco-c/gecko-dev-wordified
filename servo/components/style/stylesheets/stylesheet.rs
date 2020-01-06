@@ -333,8 +333,8 @@ gecko
 derive
 (
 Clone
-Default
 Debug
+Default
 )
 ]
 #

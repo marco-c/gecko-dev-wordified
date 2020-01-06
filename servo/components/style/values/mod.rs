@@ -793,11 +793,11 @@ idents
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
 Hash
+PartialEq
 )
 ]
 #
@@ -1055,8 +1055,8 @@ name
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #

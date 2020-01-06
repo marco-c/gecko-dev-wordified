@@ -1139,9 +1139,9 @@ ToggleWebRenderDebug
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 PartialEq
 )
 ]

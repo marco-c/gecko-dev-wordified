@@ -293,8 +293,8 @@ call
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

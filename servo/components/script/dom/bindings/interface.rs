@@ -1509,8 +1509,8 @@ object
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

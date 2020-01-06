@@ -1509,8 +1509,8 @@ s
 [
 derive
 (
-PartialEq
 Clone
+PartialEq
 )
 ]
 pub

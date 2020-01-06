@@ -940,8 +940,8 @@ derive
 (
 Clone
 Copy
-PartialEq
 Debug
+PartialEq
 )
 ]
 #

@@ -171,9 +171,9 @@ parse_line_names
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -1101,8 +1101,8 @@ MinContent
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -3269,8 +3269,8 @@ form
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -4230,8 +4230,8 @@ derive
 (
 Clone
 Copy
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -4552,8 +4552,8 @@ list
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -5196,9 +5196,9 @@ list
 derive
 (
 Clone
-PartialEq
 Debug
 Default
+PartialEq
 )
 ]
 #
@@ -5929,8 +5929,8 @@ well
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 ToCss
 )
 ]

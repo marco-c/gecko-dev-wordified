@@ -175,11 +175,11 @@ Sigh
 [
 derive
 (
-Debug
-Copy
 Clone
-PartialEq
+Copy
+Debug
 Eq
+PartialEq
 )
 ]
 pub

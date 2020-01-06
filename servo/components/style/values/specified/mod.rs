@@ -5067,9 +5067,9 @@ ident
 derive
 (
 Clone
-PartialEq
-Eq
 Debug
+Eq
+PartialEq
 )
 ]
 #

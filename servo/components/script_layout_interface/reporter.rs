@@ -123,8 +123,8 @@ ContextualParseError
 [
 derive
 (
-HeapSizeOf
 Clone
+HeapSizeOf
 )
 ]
 pub

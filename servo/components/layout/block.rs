@@ -799,8 +799,8 @@ equation
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 struct
@@ -16798,9 +16798,9 @@ equation
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 )
 ]
 pub
@@ -16922,8 +16922,8 @@ equation
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -22803,8 +22803,8 @@ context
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

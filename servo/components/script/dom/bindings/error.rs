@@ -288,8 +288,8 @@ method
 [
 derive
 (
-Debug
 Clone
+Debug
 HeapSizeOf
 )
 ]

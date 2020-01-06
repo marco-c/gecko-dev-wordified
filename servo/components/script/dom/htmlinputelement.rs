@@ -672,10 +672,10 @@ char
 [
 derive
 (
+Clone
+Copy
 JSTraceable
 PartialEq
-Copy
-Clone
 )
 ]
 #

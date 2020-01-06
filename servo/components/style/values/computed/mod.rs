@@ -3877,10 +3877,10 @@ derive
 (
 Clone
 Debug
-HeapSizeOf
-Serialize
 Deserialize
+HeapSizeOf
 PartialEq
+Serialize
 )
 ]
 pub

@@ -219,8 +219,8 @@ list
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #
@@ -481,9 +481,9 @@ mediaqueries
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -990,10 +990,10 @@ media0
 [
 derive
 (
-PartialEq
-Eq
 Clone
 Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -1177,10 +1177,10 @@ types
 [
 derive
 (
-PartialEq
-Eq
 Clone
 Debug
+Eq
+PartialEq
 )
 ]
 #

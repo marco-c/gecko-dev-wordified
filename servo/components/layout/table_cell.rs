@@ -1991,8 +1991,8 @@ block_flow
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Serialize
 )

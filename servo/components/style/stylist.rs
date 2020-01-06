@@ -2592,8 +2592,8 @@ elements
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

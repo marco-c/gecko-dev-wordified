@@ -105,8 +105,8 @@ return
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 enum
@@ -185,8 +185,8 @@ mode
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub

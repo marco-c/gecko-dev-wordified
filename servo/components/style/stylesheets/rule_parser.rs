@@ -754,12 +754,12 @@ parser
 [
 derive
 (
-Eq
-PartialEq
-Ord
-PartialOrd
-Copy
 Clone
+Copy
+Eq
+Ord
+PartialEq
+PartialOrd
 )
 ]
 pub

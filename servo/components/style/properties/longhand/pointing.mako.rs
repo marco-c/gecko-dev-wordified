@@ -342,8 +342,8 @@ gecko
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub
@@ -381,8 +381,8 @@ gecko
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub

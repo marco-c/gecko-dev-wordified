@@ -461,9 +461,9 @@ must_root
 [
 derive
 (
-JSTraceable
 Clone
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

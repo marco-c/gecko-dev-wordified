@@ -158,9 +158,9 @@ right
 derive
 (
 Clone
-Serialize
-Debug
 Copy
+Debug
+Serialize
 )
 ]
 pub
@@ -256,8 +256,8 @@ both
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -3145,8 +3145,8 @@ parallel
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

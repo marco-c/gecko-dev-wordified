@@ -206,12 +206,12 @@ Host
 derive
 (
 Clone
-PartialEq
 Eq
-PartialOrd
-Ord
 Hash
 HeapSizeOf
+Ord
+PartialEq
+PartialOrd
 )
 ]
 pub

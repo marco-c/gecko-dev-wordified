@@ -817,9 +817,9 @@ run
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 PartialEq
 PartialOrd
 )
@@ -1220,8 +1220,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

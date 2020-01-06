@@ -1629,8 +1629,8 @@ evaluate
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1918,9 +1918,9 @@ resolution
 [
 derive
 (
-PartialEq
-Debug
 Clone
+Debug
+PartialEq
 )
 ]
 pub
@@ -2324,9 +2324,9 @@ expression
 [
 derive
 (
-PartialEq
-Debug
 Clone
+Debug
+PartialEq
 )
 ]
 pub

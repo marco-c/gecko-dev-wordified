@@ -320,8 +320,8 @@ derive
 (
 Clone
 Copy
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -982,8 +982,8 @@ local_name
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -1032,8 +1032,8 @@ AllFilter
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -1345,8 +1345,8 @@ HTMLCollection
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -1558,8 +1558,8 @@ HTMLCollection
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -1679,8 +1679,8 @@ HTMLCollection
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

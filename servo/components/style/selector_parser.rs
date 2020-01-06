@@ -693,10 +693,10 @@ eager
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub
