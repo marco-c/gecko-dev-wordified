@@ -1771,11 +1771,6 @@ this
 .
 updatePerformanceSettingsBox
 (
-{
-duringChangeEvent
-:
-true
-}
 )
 ;
 }
@@ -1785,11 +1780,6 @@ this
 .
 updatePerformanceSettingsBox
 (
-{
-duringChangeEvent
-:
-false
-}
 )
 ;
 /
@@ -8574,9 +8564,6 @@ false
 }
 updatePerformanceSettingsBox
 (
-{
-duringChangeEvent
-}
 )
 {
 let
@@ -8736,9 +8723,6 @@ value
 .
 if
 (
-duringChangeEvent
-&
-&
 e10sRolloutProcessCountPref
 .
 value
