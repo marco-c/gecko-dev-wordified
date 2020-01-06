@@ -4139,10 +4139,34 @@ rect
 "
 )
     
+property
+    
 command
     
 def
-property
+selected
+(
+self
+)
+:
+        
+return
+self
+.
+send_element_command
+(
+"
+GET
+"
+"
+selected
+"
+)
+    
+command
+    
+def
+attribute
 (
 self
 name
@@ -4158,7 +4182,7 @@ send_element_command
 GET
 "
 "
-property
+attribute
 /
 %
 s
@@ -4167,10 +4191,29 @@ s
 name
 )
     
+#
+This
+MUST
+come
+last
+because
+otherwise
+property
+decorators
+above
+    
+#
+will
+be
+overridden
+by
+this
+.
+    
 command
     
 def
-attribute
+property
 (
 self
 name
@@ -4186,7 +4229,7 @@ send_element_command
 GET
 "
 "
-attribute
+property
 /
 %
 s
