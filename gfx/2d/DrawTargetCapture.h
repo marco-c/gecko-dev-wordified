@@ -369,14 +369,7 @@ CompositionOp
 aOperator
 )
 override
-{
-/
-*
-Not
-implemented
-*
-/
-}
+;
 virtual
 void
 ClearRect
