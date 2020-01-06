@@ -134,6 +134,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
@@ -1791,7 +1800,7 @@ Reflect_getOwnPropertyDescriptor
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getPrototypeOf
@@ -1799,6 +1808,7 @@ getPrototypeOf
 Reflect_getPrototypeOf
 1
 0
+ReflectGetPrototypeOf
 )
 JS_SELF_HOSTED_FN
 (

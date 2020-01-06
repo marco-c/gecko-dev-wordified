@@ -2726,6 +2726,14 @@ MIsPackedArray
 ins
 )
 ;
+void
+visitGetPrototypeOf
+(
+MGetPrototypeOf
+*
+ins
+)
+;
 }
 ;
 }

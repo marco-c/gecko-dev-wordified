@@ -15427,7 +15427,7 @@ obj_toString
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Reflect_getPrototypeOf
@@ -15435,6 +15435,7 @@ std_Reflect_getPrototypeOf
 Reflect_getPrototypeOf
 1
 0
+ReflectGetPrototypeOf
 )
 JS_FN
 (

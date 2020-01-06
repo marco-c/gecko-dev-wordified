@@ -413,6 +413,12 @@ MathCbrt
 \
 _
 (
+ReflectGetPrototypeOf
+)
+\
+\
+_
+(
 RegExpMatcher
 )
 \

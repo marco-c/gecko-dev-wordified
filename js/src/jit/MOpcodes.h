@@ -1579,6 +1579,11 @@ IsPackedArray
 \
 _
 (
+GetPrototypeOf
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \
