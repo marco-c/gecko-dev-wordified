@@ -1318,7 +1318,7 @@ clipId
 |
 aBuilder
 .
-HasMaskClip
+HasExtraClip
 (
 )
 )
@@ -1414,7 +1414,7 @@ if
 !
 aBuilder
 .
-HasMaskClip
+HasExtraClip
 (
 )
 )

@@ -1280,7 +1280,7 @@ WrClipId
 &
 aClipId
 bool
-aMask
+aExtra
 =
 false
 )
@@ -1289,7 +1289,7 @@ void
 PopClip
 (
 bool
-aMask
+aExtra
 =
 false
 )
@@ -2427,17 +2427,16 @@ clip
 stack
 has
 any
-mask
-type
+extra
 clip
 .
 bool
-HasMaskClip
+HasExtraClip
 (
 )
 {
 return
-mMaskClipCount
+mExtraClipCount
 >
 0
 ;
@@ -2622,7 +2621,7 @@ mScrollParents
 The
 number
 of
-mask
+extra
 clips
 that
 are
@@ -2631,7 +2630,7 @@ the
 stack
 .
 uint32_t
-mMaskClipCount
+mExtraClipCount
 ;
 friend
 class
