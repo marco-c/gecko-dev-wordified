@@ -1840,6 +1840,9 @@ webExtensionsMethods
 =
 [
 "
+createTargetForTab
+"
+"
 createWebExtensionInspectedWindowFront
 "
 "
