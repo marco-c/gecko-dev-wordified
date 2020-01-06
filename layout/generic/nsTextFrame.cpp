@@ -33372,6 +33372,9 @@ GetType
 )
 !
 =
+DisplayItemType
+:
+:
 TYPE_TEXT
 )
 return

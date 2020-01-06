@@ -117,7 +117,7 @@ sRecords
 {
 {
 eCSSProperty_transform
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_TRANSFORM
@@ -125,7 +125,7 @@ nsChangeHint_UpdateTransformLayer
 }
 {
 eCSSProperty_opacity
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_OPACITY

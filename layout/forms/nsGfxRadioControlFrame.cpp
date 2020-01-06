@@ -609,7 +609,7 @@ PaintCheckedRadioButton
 "
 CheckedRadioButton
 "
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_CHECKED_RADIOBUTTON

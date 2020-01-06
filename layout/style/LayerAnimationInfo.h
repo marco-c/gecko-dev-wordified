@@ -157,10 +157,7 @@ Record
 nsCSSPropertyID
 mProperty
 ;
-nsDisplayItem
-:
-:
-Type
+DisplayItemType
 mLayerType
 ;
 nsChangeHint

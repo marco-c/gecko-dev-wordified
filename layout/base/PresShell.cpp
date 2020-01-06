@@ -1839,6 +1839,8 @@ mList
 .
 DeleteAll
 (
+&
+mBuilder
 )
 ;
 MOZ_COUNT_DTOR
@@ -29124,9 +29126,9 @@ list
 i
 -
 >
-~
-nsDisplayItem
+Destroy
 (
+aBuilder
 )
 ;
 }
@@ -31802,7 +31804,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_CANVAS_BACKGROUND_COLOR
@@ -31859,7 +31861,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_BLEND_CONTAINER
@@ -37559,6 +37561,8 @@ list
 .
 DeleteAll
 (
+&
+builder
 )
 ;
 #
