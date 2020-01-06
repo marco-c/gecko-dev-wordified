@@ -4375,6 +4375,13 @@ OCSP
 signer
 "
 ;
+static
+const
+long
+zero
+=
+0
+;
 /
 /
 sub
@@ -4401,7 +4408,8 @@ subCAExtensions
 CreateEncodedBasicConstraints
 (
 true
-0
+&
+zero
 Critical
 :
 :
@@ -4714,6 +4722,13 @@ OCSP
 signer
 "
 ;
+static
+const
+long
+zero
+=
+0
+;
 /
 /
 sub
@@ -4740,7 +4755,8 @@ subCAExtensions
 CreateEncodedBasicConstraints
 (
 true
-0
+&
+zero
 Critical
 :
 :
