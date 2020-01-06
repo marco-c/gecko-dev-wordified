@@ -2411,6 +2411,7 @@ this
 this
 .
 _profilerStatusInterval
+0
 )
 ;
 }
