@@ -488,9 +488,7 @@ int
                           
 default
 =
-5
-*
-60
+300
 #
 5
 minutes
