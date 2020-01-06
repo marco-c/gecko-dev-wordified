@@ -1110,6 +1110,9 @@ float
 /
 mRatio
 ;
+int32_t
+mAbsolute
+;
 static_assert
 (
 sizeof
