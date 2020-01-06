@@ -1064,13 +1064,6 @@ same
 (
 guard
 )
-/
-*
-ua_sheets
-=
-*
-/
-None
 document_element
 )
 }

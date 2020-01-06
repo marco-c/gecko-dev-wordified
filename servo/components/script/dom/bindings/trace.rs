@@ -4509,7 +4509,10 @@ JSTracer
 )
 {
 for
+(
 s
+_origin
+)
 in
 self
 .

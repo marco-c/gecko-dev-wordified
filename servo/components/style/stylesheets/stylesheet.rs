@@ -304,7 +304,7 @@ user_or_user_agent_stylesheets
 :
 Vec
 <
-Stylesheet
+DocumentStyleSheet
 >
 /
 /
@@ -317,7 +317,7 @@ stylesheet
 pub
 quirks_mode_stylesheet
 :
-Stylesheet
+DocumentStyleSheet
 }
 /
 /
