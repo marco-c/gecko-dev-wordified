@@ -190,6 +190,7 @@ timing
 performanceresourcetiming
 class
 PerformanceResourceTiming
+final
 :
 public
 PerformanceEntry
@@ -221,11 +222,6 @@ const
 nsAString
 &
 aName
-nsIHttpChannel
-*
-aChannel
-=
-nullptr
 )
 ;
 virtual
@@ -801,14 +797,6 @@ virtual
 ~
 PerformanceResourceTiming
 (
-)
-;
-void
-SetPropertiesFromChannel
-(
-nsIHttpChannel
-*
-aChannel
 )
 ;
 size_t
