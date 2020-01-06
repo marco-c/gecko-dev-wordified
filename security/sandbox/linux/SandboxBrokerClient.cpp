@@ -1188,7 +1188,7 @@ expected
 SANDBOX_LOG_ERROR
 (
 "
-Rejected
+Failed
 errno
 %
 d
