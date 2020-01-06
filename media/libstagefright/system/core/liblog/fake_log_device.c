@@ -764,10 +764,7 @@ i
 ;
 i
 <
-sizeof
-(
-openLogTable
-)
+MAX_OPEN_LOGS
 ;
 i
 +
