@@ -955,7 +955,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2174,7 +2174,7 @@ postTraversalRequired
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2323,7 +2323,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2386,7 +2386,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2397,7 +2397,7 @@ ResolveStyleForPlaceholder
 {
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 &
 cache
@@ -2420,7 +2420,7 @@ cache
 {
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 retval
 =
@@ -2489,7 +2489,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2643,7 +2643,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2868,7 +2868,7 @@ forget
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -2961,7 +2961,7 @@ aPseudoTag
 ;
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 &
 cache
@@ -2978,7 +2978,7 @@ cache
 {
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 retval
 =
@@ -4263,7 +4263,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ServoStyleSet
 :
@@ -5921,7 +5921,7 @@ for
 (
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 &
 ptr
