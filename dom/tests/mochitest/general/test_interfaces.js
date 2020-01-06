@@ -8420,9 +8420,6 @@ name
 "
 StorageManager
 "
-nightly
-:
-true
 isSecureContext
 :
 true

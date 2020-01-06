@@ -87,9 +87,6 @@ name
 "
 storage
 "
-nightly
-:
-true
 isSecureContext
 :
 true

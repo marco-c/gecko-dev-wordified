@@ -1736,9 +1736,6 @@ name
 "
 StorageManager
 "
-nightly
-:
-true
 android
 :
 false
