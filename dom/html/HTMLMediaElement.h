@@ -4514,13 +4514,13 @@ return
 mValue
 ;
 }
-private
-:
 void
 UpdateWakeLock
 (
 )
 ;
+private
+:
 bool
 mValue
 ;
