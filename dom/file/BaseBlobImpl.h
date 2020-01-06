@@ -523,6 +523,17 @@ aType
 )
 override
 ;
+size_t
+GetAllocationSize
+(
+)
+const
+override
+{
+return
+0
+;
+}
 virtual
 uint64_t
 GetSerialNumber

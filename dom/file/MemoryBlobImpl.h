@@ -354,6 +354,17 @@ return
 true
 ;
 }
+size_t
+GetAllocationSize
+(
+)
+const
+override
+{
+return
+mLength
+;
+}
 class
 DataOwner
 final
