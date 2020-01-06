@@ -1179,6 +1179,13 @@ thePoint
 ;
 if
 (
+!
+prevPoint
+.
+mTextNode
+|
+|
+(
 prevPoint
 .
 mTextNode
@@ -1193,6 +1200,7 @@ IsAsciiSpace
 prevPoint
 .
 mChar
+)
 )
 )
 {
