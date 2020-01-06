@@ -1846,7 +1846,7 @@ None
 #
 NB
 :
-Animatable
+Animate
 implies
 clone
 because
