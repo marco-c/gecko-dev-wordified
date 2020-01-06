@@ -468,6 +468,9 @@ s
 Elf
 &
 e
+ElfRelHack_Section
+&
+relhack_section
 unsigned
 int
 init
@@ -485,6 +488,10 @@ nullptr
 parent
 (
 e
+)
+relhack_section
+(
+relhack_section
 )
 init
 (
@@ -2909,11 +2916,8 @@ relhack
 {
 addr
 =
-getNext
-(
-)
--
->
+relhack_section
+.
 getAddr
 (
 )
@@ -3551,6 +3555,10 @@ Elf
 elf
 &
 parent
+;
+ElfRelHack_Section
+&
+relhack_section
 ;
 std
 :
@@ -6894,6 +6902,8 @@ ElfRelHackCode_Section
 relhackcode_section
 *
 elf
+*
+relhack
 original_init
 mprotect_cb
 )
