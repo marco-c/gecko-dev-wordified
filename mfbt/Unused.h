@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Types
 .
 h
@@ -166,7 +175,7 @@ template
 typename
 T
 >
-inline
+MOZ_ALWAYS_INLINE_EVEN_DEBUG
 void
 operator
 <
