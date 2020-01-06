@@ -1241,7 +1241,7 @@ aIndex
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 uint32_t
 (
