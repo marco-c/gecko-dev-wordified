@@ -1775,7 +1775,7 @@ ClientManager
 )
 -
 >
-SetNeedTextureSyncOnPaintThread
+SetQueuedAsyncPaints
 (
 )
 ;
