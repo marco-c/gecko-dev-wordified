@@ -622,16 +622,6 @@ aMallocSizeOf
 )
 ;
 }
-bool
-IsExpectingMoreData
-(
-)
-override
-{
-return
-false
-;
-}
 /
 /
 Used
