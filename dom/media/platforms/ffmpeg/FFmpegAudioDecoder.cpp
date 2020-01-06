@@ -255,7 +255,7 @@ Init
 (
 )
 {
-nsresult
+MediaResult
 rv
 =
 InitDecoder
@@ -263,10 +263,10 @@ InitDecoder
 )
 ;
 return
+NS_SUCCEEDED
+(
 rv
-=
-=
-NS_OK
+)
 ?
 InitPromise
 :
@@ -285,7 +285,7 @@ InitPromise
 :
 CreateAndReject
 (
-NS_ERROR_DOM_MEDIA_FATAL_ERR
+rv
 __func__
 )
 ;

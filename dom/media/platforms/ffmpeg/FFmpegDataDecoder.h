@@ -302,7 +302,7 @@ PrepareFrame
 (
 )
 ;
-nsresult
+MediaResult
 InitDecoder
 (
 )
