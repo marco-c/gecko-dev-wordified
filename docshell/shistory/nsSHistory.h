@@ -478,14 +478,7 @@ friend
 class
 nsSHistoryObserver
 ;
-/
-/
-Could
-become
-part
-of
-nsIWebNavigation
-NS_IMETHOD
+nsresult
 GetTransactionAtIndex
 (
 int32_t
@@ -528,7 +521,7 @@ long
 aLoadType
 )
 ;
-NS_IMETHOD
+nsresult
 LoadEntry
 (
 int32_t
