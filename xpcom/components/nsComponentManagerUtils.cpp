@@ -311,11 +311,8 @@ gComponentManager
 ;
 if
 (
-NS_WARN_IF
-(
 !
 compMgr
-)
 )
 {
 return
@@ -365,11 +362,8 @@ gComponentManager
 ;
 if
 (
-NS_WARN_IF
-(
 !
 compMgr
-)
 )
 {
 return
