@@ -3050,7 +3050,9 @@ Page
 Faults
 :
 %
-ld
+"
+PRIu64
+"
 \
 n
 \
