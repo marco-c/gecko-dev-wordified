@@ -558,6 +558,8 @@ len
 <
 =
 BUFFER_SIZE
++
+1
 "
 dtoa
 may
