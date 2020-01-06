@@ -168,7 +168,7 @@ MediaContainerType
 aType
 )
 ;
-MediaDecoder
+ChannelMediaDecoder
 *
 Clone
 (

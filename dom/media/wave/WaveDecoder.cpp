@@ -157,7 +157,7 @@ h
 namespace
 mozilla
 {
-MediaDecoder
+ChannelMediaDecoder
 *
 WaveDecoder
 :

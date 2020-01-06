@@ -159,7 +159,7 @@ h
 namespace
 mozilla
 {
-MediaDecoder
+ChannelMediaDecoder
 *
 ADTSDecoder
 :
