@@ -3075,21 +3075,6 @@ expected
 {
             
 '
-ALLOW_COMPILER_WARNINGS
-'
-:
-[
-                
-'
-ALLOW_COMPILER_WARNINGS
-:
-=
-1
-'
-            
-]
-            
-'
 RCFILE
 '
 :
