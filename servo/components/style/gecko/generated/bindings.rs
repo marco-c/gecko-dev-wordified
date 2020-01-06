@@ -6701,9 +6701,9 @@ aVisibility
 *
 mut
 nsStyleVisibility
-aRadians
+aOrientation
 :
-f64
+u8
 aFlip
 :
 bool
