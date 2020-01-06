@@ -615,7 +615,7 @@ last
 .
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesByTimeframe
 (
@@ -699,7 +699,7 @@ removed
 .
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesByTimeframe
 (
@@ -740,7 +740,7 @@ TEST_URI
 ;
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesFromHost
 (
@@ -794,7 +794,7 @@ TEST_SUBDOMAIN_URI
 ;
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesFromHost
 (

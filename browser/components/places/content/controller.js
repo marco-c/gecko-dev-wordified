@@ -7102,7 +7102,7 @@ container
 .
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesFromHost
 (
@@ -7224,7 +7224,7 @@ requested
 .
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesByTimeframe
 (
