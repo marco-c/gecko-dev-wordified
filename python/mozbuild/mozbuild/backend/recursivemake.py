@@ -7744,7 +7744,7 @@ dist_idl
 '
 ]
 .
-add_symlink
+add_link
 (
 idl
 [
@@ -9089,7 +9089,7 @@ _test_files
 '
 ]
 .
-add_symlink
+add_link
 (
 source
 dest
@@ -9132,7 +9132,7 @@ _test_files
 '
 ]
 .
-add_pattern_symlink
+add_pattern_link
 (
 base
                     
@@ -11284,7 +11284,7 @@ paths
                             
 install_manifest
 .
-add_pattern_symlink
+add_pattern_link
 (
 basepath
 wild
@@ -11296,7 +11296,7 @@ else
                             
 install_manifest
 .
-add_pattern_symlink
+add_pattern_link
 (
 f
 .
@@ -11310,7 +11310,7 @@ else
                         
 install_manifest
 .
-add_symlink
+add_link
 (
 f
 .

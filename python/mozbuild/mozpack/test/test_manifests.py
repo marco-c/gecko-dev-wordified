@@ -188,7 +188,7 @@ InstallManifest
         
 m
 .
-add_symlink
+add_link
 (
 '
 s_source
@@ -230,7 +230,7 @@ o_dest
         
 m
 .
-add_pattern_symlink
+add_pattern_link
 (
 '
 ps_base
@@ -374,7 +374,7 @@ ValueError
             
 m
 .
-add_symlink
+add_link
 (
 '
 s_other
@@ -478,7 +478,7 @@ ValueError
             
 m
 .
-add_pattern_symlink
+add_pattern_link
 (
 '
 ps_base
@@ -556,7 +556,7 @@ InstallManifest
         
 m
 .
-add_symlink
+add_link
 (
 self
 .
@@ -654,7 +654,7 @@ o_dest
         
 m
 .
-add_pattern_symlink
+add_pattern_link
 (
 '
 ps_base
@@ -1066,7 +1066,7 @@ InstallManifest
         
 m
 .
-add_pattern_symlink
+add_pattern_link
 (
 '
 %
@@ -1155,7 +1155,7 @@ InstallManifest
         
 m2
 .
-add_symlink
+add_link
 (
 '
 s_source2
