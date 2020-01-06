@@ -265,11 +265,6 @@ GetOrCreate
 (
 )
 ;
-MOZ_ASSERT
-(
-mgr
-)
-;
 return
 mgr
 -
@@ -309,11 +304,6 @@ WebAuthnManager
 :
 GetOrCreate
 (
-)
-;
-MOZ_ASSERT
-(
-mgr
 )
 ;
 return
