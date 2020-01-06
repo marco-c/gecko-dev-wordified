@@ -7486,7 +7486,7 @@ aContinue
 if
 (
 !
-aRoot
+aEndEntity
 )
 {
 /
@@ -7494,8 +7494,9 @@ aRoot
 This
 is
 the
-root
-aRoot
+end
+entity
+aEndEntity
 =
 aCert
 ;
@@ -7512,9 +7513,8 @@ hasMore
 This
 is
 the
-end
-entity
-aEndEntity
+root
+aRoot
 =
 aCert
 ;

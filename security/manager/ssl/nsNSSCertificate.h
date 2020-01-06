@@ -610,13 +610,13 @@ object
 is
 ordered
 [
-root
+end
+entity
 intermediates
 .
 .
 .
-end
-entity
+root
 ]
 .
 If
