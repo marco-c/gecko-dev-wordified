@@ -2953,10 +2953,10 @@ endif
 /
 /
 DEBUG
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 JSContext
 *
@@ -3414,10 +3414,10 @@ prevSize
 )
 ;
 }
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 void
 *
@@ -3448,7 +3448,7 @@ frame
 ;
 }
 bool
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 tryInitWithPC
@@ -3579,7 +3579,7 @@ false
 ;
 }
 bool
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 tryInitWithTable
@@ -3910,7 +3910,7 @@ false
 ;
 }
 void
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 fixBaselineReturnAddress
@@ -4088,7 +4088,7 @@ return
 }
 }
 void
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 operator
@@ -4112,7 +4112,7 @@ frame
 ;
 }
 void
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 moveToNextFrame
@@ -4747,7 +4747,7 @@ indicate
 that
 /
 /
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 is
 done
 (

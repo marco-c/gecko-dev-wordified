@@ -275,7 +275,7 @@ prevFrameLocalSize
 inline
 JitFrameLayout
 *
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 framePtr
@@ -301,7 +301,7 @@ fp_
 inline
 JSScript
 *
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 :
 :
 frameScript

@@ -2835,7 +2835,7 @@ If
 profiling
 is
 on
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 requires
 a
 /

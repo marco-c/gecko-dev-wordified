@@ -435,7 +435,7 @@ nullptr
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 iter
 (
 jsExitFP

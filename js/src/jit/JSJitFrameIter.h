@@ -1656,7 +1656,7 @@ class
 JitcodeGlobalTable
 ;
 class
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 {
 uint8_t
 *
@@ -1724,7 +1724,7 @@ frame
 ;
 public
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 JSContext
 *
@@ -1742,7 +1742,7 @@ state
 )
 ;
 explicit
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 void
 *

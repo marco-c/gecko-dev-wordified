@@ -188,7 +188,7 @@ class
 JitActivation
 ;
 class
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 ;
 class
 JitcodeGlobalEntry
@@ -500,9 +500,9 @@ js
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 &
-jitIter
+jsJitIter
 (
 )
 {
@@ -516,7 +516,7 @@ done
 ;
 MOZ_ASSERT
 (
-isJit
+isJSJit
 (
 )
 )
@@ -531,7 +531,7 @@ js
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 *
 >
 (
@@ -548,9 +548,9 @@ js
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 &
-jitIter
+jsJitIter
 (
 )
 const
@@ -565,7 +565,7 @@ done
 ;
 MOZ_ASSERT
 (
-isJit
+isJSJit
 (
 )
 )
@@ -581,7 +581,7 @@ js
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 *
 >
 (
@@ -811,7 +811,7 @@ isWasm
 const
 ;
 bool
-isJit
+isJSJit
 (
 )
 const

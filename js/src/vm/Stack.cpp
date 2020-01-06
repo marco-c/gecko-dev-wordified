@@ -11400,7 +11400,7 @@ sizeof
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 )
 <
 =
@@ -11446,7 +11446,7 @@ alignof
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 )
 "
 ProfilingFrameIterator
@@ -11551,7 +11551,7 @@ wasmIter
 else
 +
 +
-jitIter
+jsJitIter
 (
 )
 ;
@@ -11590,13 +11590,13 @@ operator
 .
 if
 (
-isJit
+isJSJit
 (
 )
 &
 &
 !
-jitIter
+jsJitIter
 (
 )
 .
@@ -11605,7 +11605,7 @@ done
 )
 &
 &
-jitIter
+jsJitIter
 (
 )
 .
@@ -11634,7 +11634,7 @@ wasm
 Frame
 *
 )
-jitIter
+jsJitIter
 (
 )
 .
@@ -11948,7 +11948,7 @@ storage
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 cx_
 state
@@ -12097,7 +12097,7 @@ storage
 jit
 :
 :
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 activation
 -
@@ -12163,12 +12163,12 @@ ProfilingFrameIterator
 return
 ;
 }
-jitIter
+jsJitIter
 (
 )
 .
 ~
-JitProfilingFrameIterator
+JSJitProfilingFrameIterator
 (
 )
 ;
@@ -12218,7 +12218,7 @@ done
 )
 ;
 return
-jitIter
+jsJitIter
 (
 )
 .
@@ -12274,7 +12274,7 @@ stackAddress
 )
 ;
 return
-jitIter
+jsJitIter
 (
 )
 .
@@ -12370,7 +12370,7 @@ frame
 }
 MOZ_ASSERT
 (
-isJit
+isJSJit
 (
 )
 )
@@ -12390,7 +12390,7 @@ void
 *
 returnAddr
 =
-jitIter
+jsJitIter
 (
 )
 .
@@ -12711,7 +12711,7 @@ cx_
 runtime
 (
 )
-jitIter
+jsJitIter
 (
 )
 .
@@ -12867,7 +12867,7 @@ JS
 ProfilingFrameIterator
 :
 :
-isJit
+isJSJit
 (
 )
 const
