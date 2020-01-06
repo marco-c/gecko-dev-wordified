@@ -2232,13 +2232,6 @@ aFlags
 void
 UpdateImageContainer
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSize
 )
 ;
 void

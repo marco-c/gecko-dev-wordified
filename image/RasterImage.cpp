@@ -9929,7 +9929,6 @@ invalidating
 .
 UpdateImageContainer
 (
-mSize
 )
 ;
 }
