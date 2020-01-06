@@ -227,6 +227,12 @@ mTabId
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mTopLevelPrincipal
+;
+nsCOMPtr
+<
 nsIArray
 >
 mMethodData
