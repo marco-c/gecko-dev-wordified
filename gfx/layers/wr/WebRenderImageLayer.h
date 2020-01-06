@@ -244,6 +244,11 @@ GetImageClientType
 )
 ;
 void
+ClearWrResources
+(
+)
+;
+void
 AddWRVideoImage
 (
 size_t
