@@ -6558,6 +6558,11 @@ copyFromContinuation
 newContext
 -
 >
+AsGecko
+(
+)
+-
+>
 EnsureSameStructsCached
 (
 oldContext
@@ -6940,6 +6945,11 @@ context
 resolved
 .
 newContext
+-
+>
+AsGecko
+(
+)
 -
 >
 EnsureSameStructsCached
