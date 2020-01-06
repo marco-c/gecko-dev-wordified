@@ -175,14 +175,14 @@ h
 #
 include
 "
-nsTHashtable
+nsIdentifierMapEntry
 .
 h
 "
 #
 include
 "
-nsDocument
+nsTHashtable
 .
 h
 "

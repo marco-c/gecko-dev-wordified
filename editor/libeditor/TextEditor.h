@@ -905,6 +905,16 @@ int32_t
 aCaretStyle
 )
 ;
+int32_t
+MaxTextLength
+(
+)
+const
+{
+return
+mMaxTextLength
+;
+}
 protected
 :
 virtual

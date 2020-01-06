@@ -14036,7 +14036,7 @@ return
 state
 -
 >
-GetEditor
+GetTextEditor
 (
 )
 ;
