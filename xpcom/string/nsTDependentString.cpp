@@ -272,8 +272,8 @@ strLength
 -
 startPos
 ;
-SetDataFlags
-(
+mDataFlags
+=
 str
 .
 GetDataFlags
@@ -290,7 +290,6 @@ DataFlags
 :
 :
 LITERAL
-)
 )
 ;
 }
