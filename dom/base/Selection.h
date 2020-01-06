@@ -357,9 +357,11 @@ Selection
 final
 :
 public
-nsISelectionPrivate
+nsISelection
 public
 nsWrapperCache
+public
+nsISelectionPrivate
 public
 nsSupportsWeakReference
 {
@@ -389,7 +391,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 Selection
-nsISelectionPrivate
+nsISelection
 )
 NS_DECL_NSISELECTION
 NS_DECL_NSISELECTIONPRIVATE
