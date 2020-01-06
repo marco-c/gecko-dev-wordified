@@ -783,6 +783,8 @@ response
 void
 FailWithNetworkError
 (
+nsresult
+rv
 )
 ;
 void

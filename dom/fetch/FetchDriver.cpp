@@ -743,18 +743,23 @@ aSignal
 )
 ;
 }
+rv
+=
+HttpFetch
+(
+)
+;
 if
 (
 NS_FAILED
 (
-HttpFetch
-(
-)
+rv
 )
 )
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 }
@@ -3173,6 +3178,8 @@ FetchDriver
 :
 FailWithNetworkError
 (
+nsresult
+rv
 )
 {
 workers
@@ -3193,6 +3200,7 @@ InternalResponse
 :
 NetworkError
 (
+rv
 )
 ;
 if
@@ -3327,6 +3335,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 return
@@ -3519,6 +3528,7 @@ Error
 {
 FailWithNetworkError
 (
+NS_BINDING_ABORTED
 )
 ;
 return
@@ -4065,6 +4075,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 /
@@ -4125,6 +4136,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 /
@@ -4168,6 +4180,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 return
@@ -4344,6 +4357,7 @@ Opaque
 ;
 FailWithNetworkError
 (
+NS_ERROR_UNEXPECTED
 )
 ;
 return
@@ -4520,6 +4534,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 /
@@ -5407,6 +5422,7 @@ rv
 {
 FailWithNetworkError
 (
+rv
 )
 ;
 /
