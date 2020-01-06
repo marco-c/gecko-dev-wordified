@@ -13802,12 +13802,6 @@ CallTempReg4
 )
 )
 ;
-assignSnapshot
-(
-lir
-Bailout_NotPure
-)
-;
 defineFixed
 (
 lir
