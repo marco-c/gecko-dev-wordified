@@ -86,7 +86,7 @@ ui
 )
 ;
 yield
-enableTouchSimulation
+toggleTouchSimulation
 (
 ui
 )
