@@ -1804,10 +1804,10 @@ i
 {
 aResult
 .
-Append
+AppendLiteral
 (
-'
-'
+"
+"
 )
 ;
 }
