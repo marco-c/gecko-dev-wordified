@@ -1249,15 +1249,6 @@ mozLocaleDir
 _
 _
 )
-(
-"
-dir
-"
-Dir
-dir
-_
-_
-)
 ]
 }
 }
