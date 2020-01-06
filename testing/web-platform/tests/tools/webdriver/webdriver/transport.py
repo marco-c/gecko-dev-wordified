@@ -416,7 +416,7 @@ urljoin
 (
 self
 .
-path_prefix
+url_prefix
 suffix
 )
     
