@@ -1750,6 +1750,15 @@ list
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValue_Transform
+RawServoAnimationValueStrong
+const
+nsCSSValueSharedList
+&
+list
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValue_DeepEqual
 bool
 RawServoAnimationValueBorrowed
