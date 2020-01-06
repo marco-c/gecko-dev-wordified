@@ -5029,7 +5029,6 @@ Option
 <
 EachIndex
 <
-isize
 ByteIndex
 >
 >
