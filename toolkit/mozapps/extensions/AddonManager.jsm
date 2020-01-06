@@ -13044,6 +13044,12 @@ addon
 appDisabled
 )
 {
+install
+.
+cancel
+(
+)
+;
 this
 .
 installNotifyObservers
