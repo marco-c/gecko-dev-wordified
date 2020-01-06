@@ -18137,7 +18137,7 @@ target
 does
 not
 have
-profiler
+performance
 actor
 (
 addons
@@ -18163,7 +18163,7 @@ target
 hasActor
 (
 "
-profiler
+performance
 "
 )
 )

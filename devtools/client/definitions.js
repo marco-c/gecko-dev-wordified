@@ -2319,7 +2319,7 @@ target
 hasActor
 (
 "
-profiler
+performance
 "
 )
 ;
