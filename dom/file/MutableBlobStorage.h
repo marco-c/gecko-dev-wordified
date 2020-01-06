@@ -139,6 +139,9 @@ h
 class
 nsIEventTarget
 ;
+class
+nsIRunnable
+;
 namespace
 mozilla
 {

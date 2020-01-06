@@ -197,6 +197,9 @@ class
 AudioNode
 ;
 class
+Blob
+;
+class
 DOMException
 ;
 /
@@ -286,7 +289,8 @@ store
 the
 encoded
 in
-EncodedBufferCache
+a
+MutableBlobStorage
 object
 .
 *
@@ -336,7 +340,7 @@ and
 store
 buffer
 in
-EncodedBufferCache
+MutableBlobStorage
 object
 .
 *
@@ -589,7 +593,7 @@ encoded
 data
 Blob
 from
-EncodedBufferCache
+MutableBlobStorage
 .
 void
 RequestData
@@ -896,12 +900,8 @@ thread
 nsresult
 CreateAndDispatchBlobEvent
 (
-already_AddRefed
-<
-nsIDOMBlob
->
-&
-&
+Blob
+*
 aBlob
 )
 ;
