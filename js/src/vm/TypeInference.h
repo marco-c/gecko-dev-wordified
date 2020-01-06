@@ -865,12 +865,13 @@ object
 this
 represents
 may
-be
+have
 frozen
+elements
 .
 *
 /
-OBJECT_FLAG_FROZEN
+OBJECT_FLAG_FROZEN_ELEMENTS
 =
 0x00100000
 /

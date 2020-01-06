@@ -40969,7 +40969,7 @@ types
 hasObjectFlags
 (
 constraints
-OBJECT_FLAG_FROZEN
+OBJECT_FLAG_FROZEN_ELEMENTS
 )
 ;
 }
