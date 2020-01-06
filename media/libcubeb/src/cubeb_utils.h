@@ -87,7 +87,7 @@ type_traits
 if
 defined
 (
-WIN32
+_WIN32
 )
 #
 include
