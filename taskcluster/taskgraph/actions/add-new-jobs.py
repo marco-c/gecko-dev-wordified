@@ -159,8 +159,6 @@ order
 context
 =
 [
-{
-}
 ]
     
 schema
