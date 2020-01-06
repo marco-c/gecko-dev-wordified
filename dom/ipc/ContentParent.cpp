@@ -14056,7 +14056,7 @@ Get
 ;
 Endpoint
 <
-PCompositorManagerChild
+PCompositorBridgeChild
 >
 compositor
 ;
@@ -14078,10 +14078,9 @@ PVideoDecoderManagerChild
 >
 videoManager
 ;
-AutoTArray
+nsTArray
 <
 uint32_t
-3
 >
 namespaces
 ;
@@ -14137,7 +14136,10 @@ Move
 (
 videoManager
 )
+Move
+(
 namespaces
+)
 )
 ;
 gpm
@@ -15016,7 +15018,7 @@ Get
 ;
 Endpoint
 <
-PCompositorManagerChild
+PCompositorBridgeChild
 >
 compositor
 ;
@@ -15038,10 +15040,9 @@ PVideoDecoderManagerChild
 >
 videoManager
 ;
-AutoTArray
+nsTArray
 <
 uint32_t
-3
 >
 namespaces
 ;
@@ -15097,7 +15098,10 @@ Move
 (
 videoManager
 )
+Move
+(
 namespaces
+)
 )
 ;
 }

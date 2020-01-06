@@ -777,7 +777,7 @@ RecvInitRendering
 (
 Endpoint
 <
-PCompositorManagerChild
+PCompositorBridgeChild
 >
 &
 &
@@ -824,7 +824,7 @@ RecvReinitRendering
 (
 Endpoint
 <
-PCompositorManagerChild
+PCompositorBridgeChild
 >
 &
 &
