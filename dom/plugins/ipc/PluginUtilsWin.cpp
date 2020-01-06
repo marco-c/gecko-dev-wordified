@@ -271,6 +271,9 @@ GetKey
 (
 )
 ;
+if
+(
+!
 pluginModule
 -
 >
@@ -278,7 +281,12 @@ SendNPP_SetValue_NPNVaudioDeviceChangeDetails
 (
 mChangeDetails
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 }
 return
 NS_OK
