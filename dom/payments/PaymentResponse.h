@@ -407,6 +407,9 @@ nsString
 mMethodName
 ;
 nsString
+mDetails
+;
+nsString
 mShippingOption
 ;
 nsString
