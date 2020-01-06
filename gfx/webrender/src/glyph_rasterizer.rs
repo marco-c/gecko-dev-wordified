@@ -1381,7 +1381,7 @@ self
 .
 workers
 .
-spawn_async
+spawn
 (
 move
 |
@@ -2033,7 +2033,7 @@ self
 .
 workers
 .
-spawn_async
+spawn
 (
 move
 |

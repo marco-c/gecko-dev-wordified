@@ -409,7 +409,7 @@ self
 .
 workers
 .
-spawn_async
+spawn
 (
 move
 |
