@@ -258,6 +258,12 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICACHEENTRY
 NS_DECL_NSIRUNNABLE
+static
+uint64_t
+GetNextId
+(
+)
+;
 CacheEntry
 (
 const
@@ -2384,6 +2390,10 @@ mLoadStart
 ;
 uint32_t
 mUseCount
+;
+const
+uint64_t
+mCacheEntryId
 ;
 }
 ;
