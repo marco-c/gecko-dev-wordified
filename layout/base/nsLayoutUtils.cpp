@@ -25305,10 +25305,8 @@ return
 false
 ;
 }
+static
 void
-nsLayoutUtils
-:
-:
 AddBoxesForFrame
 (
 nsIFrame
@@ -39489,6 +39487,10 @@ AppUnitsPerDevPixel
 aDestCtx
 aDirtyRect
 nullptr
+nsContextBoxBlur
+:
+:
+DISABLE_HARDWARE_ACCELERATION_BLUR
 )
 ;
 if
