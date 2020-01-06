@@ -97,9 +97,6 @@ const
 EXPECTED_REFLOWS
 =
 [
-{
-stack
-:
 [
 "
 select
@@ -146,7 +143,6 @@ tabbrowser
 xml
 "
 ]
-}
 ]
 ;
 /
