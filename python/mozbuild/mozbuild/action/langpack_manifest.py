@@ -2125,24 +2125,8 @@ manifest
 create_webmanifest
 (
 #
-[
 '
 pl
-'
-]
-#
-'
-{
-ec8030f7
--
-c20a
--
-464f
--
-9b0e
--
-13a3a9e97384
-}
 '
 #
 '
@@ -2538,6 +2522,15 @@ defines
 MOZ_LANGPACK_CONTRIBUTORS
 '
 ]
+if
+'
+MOZ_LANGPACK_CONTRIBUTORS
+'
+in
+defines
+else
+"
+"
     
 )
     
