@@ -8464,11 +8464,7 @@ aHotspotY
 }
 mCursor
 =
-nsCursor
-(
--
-1
-)
+eCursorInvalid
 ;
 /
 /
