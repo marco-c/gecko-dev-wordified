@@ -5271,15 +5271,6 @@ usingAdvancedLayers
 =
 true
 ;
-sandbox
-.
-layerChecksEnabled
-=
-!
-sandbox
-.
-webrender
-;
 /
 /
 Shortcuts
