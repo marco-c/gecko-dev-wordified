@@ -595,7 +595,7 @@ PushShadow
 (
 Shadow
 )
-PopShadow
+PopAllShadows
 }
 #
 [
@@ -615,10 +615,6 @@ ClipDisplayItem
 {
 pub
 id
-:
-ClipId
-pub
-parent_id
 :
 ClipId
 pub
@@ -736,10 +732,6 @@ ScrollFrameDisplayItem
 {
 pub
 id
-:
-ClipId
-pub
-parent_id
 :
 ClipId
 pub

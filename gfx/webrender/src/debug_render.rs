@@ -1745,6 +1745,7 @@ self
 color_program
 &
 projection
+0
 )
 ;
 device
@@ -1843,6 +1844,7 @@ self
 color_program
 &
 projection
+0
 )
 ;
 device
@@ -1923,6 +1925,7 @@ self
 font_program
 &
 projection
+0
 )
 ;
 device
