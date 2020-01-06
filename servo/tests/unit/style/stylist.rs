@@ -458,6 +458,10 @@ AncestorHashes
 new
 (
 s
+QuirksMode
+:
+:
+NoQuirks
 )
 locked
 .

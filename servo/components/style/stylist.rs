@@ -3686,6 +3686,9 @@ new
 (
 &
 selector
+self
+.
+quirks_mode
 )
 ;
 map
