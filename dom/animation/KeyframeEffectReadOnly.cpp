@@ -1271,7 +1271,7 @@ aKeyframes
 KeyframeUtils
 :
 :
-ApplyDistributeSpacing
+DistributeKeyframes
 (
 mKeyframes
 )

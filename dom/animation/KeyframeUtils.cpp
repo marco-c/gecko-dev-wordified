@@ -2905,7 +2905,7 @@ void
 KeyframeUtils
 :
 :
-ApplyDistributeSpacing
+DistributeKeyframes
 (
 nsTArray
 <
@@ -10105,7 +10105,7 @@ won
 t
 have
 called
-ApplyDistributeSpacing
+DistributeKeyframes
 when
 this
 is

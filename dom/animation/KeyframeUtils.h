@@ -687,7 +687,7 @@ adjust
 /
 static
 void
-ApplyDistributeSpacing
+DistributeKeyframes
 (
 nsTArray
 <
