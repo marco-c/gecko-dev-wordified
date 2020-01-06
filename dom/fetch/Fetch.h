@@ -1316,6 +1316,16 @@ mFetchStreamReader
 nullptr
 ;
 }
+virtual
+AbortSignal
+*
+GetSignal
+(
+)
+const
+=
+0
+;
 protected
 :
 nsCOMPtr
