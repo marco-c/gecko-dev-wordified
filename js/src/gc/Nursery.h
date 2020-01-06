@@ -2490,6 +2490,9 @@ size_t
 nurseryCapacity
 ;
 size_t
+nurseryLazyCapacity
+;
+size_t
 nurseryUsedBytes
 ;
 size_t
