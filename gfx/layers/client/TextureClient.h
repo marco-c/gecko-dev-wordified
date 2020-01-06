@@ -33,8 +33,6 @@ offset
 -
 *
 -
-/
-/
 *
 This
 Source
