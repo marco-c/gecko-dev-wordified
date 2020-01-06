@@ -5432,6 +5432,7 @@ reason
 ]
 )
 ;
+return
 this
 .
 extension
