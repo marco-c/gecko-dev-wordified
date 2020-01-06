@@ -63,6 +63,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 logging
 import
@@ -1341,6 +1346,7 @@ wrong
 .
             
 print
+(
 "
 Automation
 Error
@@ -1361,6 +1367,7 @@ device
 self
 .
 remoteMinidumpDir
+)
             
 #
 Whilst
@@ -3273,6 +3280,7 @@ detail
 :
                 
 print
+(
 "
 unable
 to
@@ -3285,6 +3293,7 @@ root
 str
 (
 detail
+)
 )
                 
 pass
@@ -4482,6 +4491,7 @@ self
 :
         
 print
+(
 '
 pushing
 %
@@ -4491,6 +4501,7 @@ s
 self
 .
 xpcDir
+)
         
 try
 :
