@@ -494,9 +494,6 @@ h
 for
 GeckoProfiler
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerMarkerPayload
@@ -507,8 +504,6 @@ h
 /
 for
 LayerTranslationMarkerPayload
-#
-endif
 #
 define
 CULLING_LOG
@@ -823,9 +818,6 @@ Layer
 aLayer
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -943,8 +935,6 @@ translation
 )
 )
 ;
-#
-endif
 }
 static
 Maybe

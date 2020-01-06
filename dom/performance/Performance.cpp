@@ -136,17 +136,12 @@ nsRFPService
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1576,9 +1571,6 @@ InsertUserEntry
 performanceMark
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -1607,8 +1599,6 @@ Now
 )
 ;
 }
-#
-endif
 }
 void
 Performance
@@ -2034,9 +2024,6 @@ InsertUserEntry
 performanceMeasure
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -2091,8 +2078,6 @@ endTimeStamp
 )
 ;
 }
-#
-endif
 }
 void
 Performance

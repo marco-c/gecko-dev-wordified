@@ -350,17 +350,12 @@ GeckoProfiler
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -7716,9 +7711,6 @@ profiler_is_active
 )
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 Add
@@ -7867,8 +7859,6 @@ endTime
 )
 )
 ;
-#
-endif
 }
 else
 {

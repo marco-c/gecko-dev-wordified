@@ -919,17 +919,12 @@ GeckoProfiler
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -5574,9 +5569,6 @@ Context
 aContext
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -5672,8 +5664,6 @@ aContext
 ;
 }
 }
-#
-endif
 if
 (
 aProgress
@@ -6177,9 +6167,6 @@ profiler_is_active
 )
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 profiler_add_marker
 (
 "
@@ -6210,8 +6197,6 @@ aContext
 )
 )
 ;
-#
-endif
 }
 if
 (
