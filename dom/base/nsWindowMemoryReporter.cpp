@@ -5850,10 +5850,6 @@ is
 not
 null
 .
-mGhostWindowCount
-+
-+
-;
 if
 (
 aOutGhostIDs
@@ -5874,6 +5870,10 @@ WindowID
 (
 )
 )
+;
+mGhostWindowCount
++
++
 ;
 }
 }
