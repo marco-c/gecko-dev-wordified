@@ -3332,6 +3332,13 @@ LookAndFeelInt
 &
 &
 aLookAndFeelIntCache
+nsTArray
+<
+FontFamilyListEntry
+>
+&
+&
+aFontFamilyList
 )
 override
 ;
