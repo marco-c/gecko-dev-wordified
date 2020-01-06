@@ -13403,12 +13403,15 @@ TranscodeBuffer
 buffer
 )
 {
-MOZ_ASSERT
+if
 (
+!
 hasEncoder
 (
 )
 )
+return
+false
 ;
 auto
 cleanup
