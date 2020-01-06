@@ -473,6 +473,10 @@ mRetargeting
 (
 false
 )
+mAsyncStreamIsBuffered
+(
+false
+)
 mMutex
 (
 "
@@ -4839,7 +4843,7 @@ CreateBufferedStreamIfNeeded
 {
 if
 (
-mAsyncStream
+mAsyncStreamIsBuffered
 )
 {
 return
@@ -4880,6 +4884,10 @@ mAsyncStream
 )
 )
 {
+mAsyncStreamIsBuffered
+=
+true
+;
 return
 NS_OK
 ;
@@ -4933,6 +4941,10 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mAsyncStream
 )
+;
+mAsyncStreamIsBuffered
+=
+true
 ;
 return
 NS_OK

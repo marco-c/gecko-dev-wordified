@@ -536,6 +536,9 @@ mCloseWhenDone
 bool
 mRetargeting
 ;
+bool
+mAsyncStreamIsBuffered
+;
 /
 /
 Protects
