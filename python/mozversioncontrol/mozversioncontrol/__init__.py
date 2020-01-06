@@ -509,6 +509,29 @@ version
     
 abc
 .
+abstractproperty
+    
+def
+name
+(
+self
+)
+:
+        
+"
+"
+"
+Name
+of
+the
+tool
+.
+"
+"
+"
+    
+abc
+.
 abstractmethod
     
 def
@@ -732,6 +755,20 @@ HGPLAIN
 b
 '
 1
+'
+    
+property
+    
+def
+name
+(
+self
+)
+:
+        
+return
+'
+hg
 '
     
 def
@@ -1011,6 +1048,20 @@ tool
 =
 git
 )
+    
+property
+    
+def
+name
+(
+self
+)
+:
+        
+return
+'
+git
+'
     
 def
 get_modified_files

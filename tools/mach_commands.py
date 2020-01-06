@@ -68,8 +68,6 @@ stat
 import
 platform
 import
-errno
-import
 re
 from
 mach
@@ -91,8 +89,6 @@ base
 import
 MachCommandBase
 MozbuildObject
-import
-mozversioncontrol
 CommandProvider
 class
 SearchProvider
@@ -2629,15 +2625,16 @@ Popen
 PIPE
         
 if
-isinstance
-(
 self
 .
 repository
-mozversioncontrol
 .
-HgRepository
-)
+name
+=
+=
+'
+hg
+'
 :
             
 diff_process
@@ -3213,15 +3210,16 @@ the
 diff
             
 if
-isinstance
-(
 self
 .
 repository
-mozversioncontrol
 .
-HgRepository
-)
+name
+=
+=
+'
+hg
+'
 :
                 
 cf_process
@@ -3242,6 +3240,18 @@ path_list
             
 else
 :
+                
+assert
+self
+.
+repository
+.
+name
+=
+=
+'
+git
+'
                 
 cf_process
 =
