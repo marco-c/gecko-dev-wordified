@@ -1007,9 +1007,9 @@ ins
 )
 ;
 void
-visitSignExtend
+visitSignExtendInt32
 (
-MSignExtend
+MSignExtendInt32
 *
 ins
 )

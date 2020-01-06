@@ -413,6 +413,14 @@ lir
 )
 ;
 void
+visitSignExtendInt64
+(
+LSignExtendInt64
+*
+ins
+)
+;
+void
 visitWasmTruncateToInt64
 (
 LWasmTruncateToInt64

@@ -643,7 +643,12 @@ ShiftI64
 \
 _
 (
-SignExtend
+SignExtendInt32
+)
+\
+_
+(
+SignExtendInt64
 )
 \
 _

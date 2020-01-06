@@ -520,6 +520,14 @@ lir
 )
 ;
 void
+visitSignExtendInt64
+(
+LSignExtendInt64
+*
+ins
+)
+;
+void
 visitWrapInt64ToInt32
 (
 LWrapInt64ToInt32

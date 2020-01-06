@@ -648,6 +648,14 @@ ins
 )
 ;
 void
+visitSignExtendInt64
+(
+MSignExtendInt64
+*
+ins
+)
+;
+void
 lowerPhi
 (
 MPhi

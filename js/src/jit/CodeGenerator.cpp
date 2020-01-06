@@ -91795,9 +91795,9 @@ void
 CodeGenerator
 :
 :
-visitSignExtend
+visitSignExtendInt32
 (
-LSignExtend
+LSignExtendInt32
 *
 ins
 )
@@ -91839,7 +91839,7 @@ mode
 )
 {
 case
-MSignExtend
+MSignExtendInt32
 :
 :
 Byte
@@ -91855,7 +91855,7 @@ output
 break
 ;
 case
-MSignExtend
+MSignExtendInt32
 :
 :
 Half

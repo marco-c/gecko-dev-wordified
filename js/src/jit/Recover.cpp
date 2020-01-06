@@ -2093,7 +2093,7 @@ true
 ;
 }
 bool
-MSignExtend
+MSignExtendInt32
 :
 :
 writeRecoverData
@@ -2120,7 +2120,7 @@ uint32_t
 RInstruction
 :
 :
-Recover_SignExtend
+Recover_SignExtendInt32
 )
 )
 ;
@@ -2152,10 +2152,10 @@ return
 true
 ;
 }
-RSignExtend
+RSignExtendInt32
 :
 :
-RSignExtend
+RSignExtendInt32
 (
 CompactBufferReader
 &
@@ -2172,7 +2172,7 @@ readByte
 ;
 }
 bool
-RSignExtend
+RSignExtendInt32
 :
 :
 recover
@@ -2202,7 +2202,7 @@ result
 ;
 switch
 (
-MSignExtend
+MSignExtendInt32
 :
 :
 Mode
@@ -2212,7 +2212,7 @@ mode_
 )
 {
 case
-MSignExtend
+MSignExtendInt32
 :
 :
 Byte
@@ -2240,7 +2240,7 @@ false
 break
 ;
 case
-MSignExtend
+MSignExtendInt32
 :
 :
 Half

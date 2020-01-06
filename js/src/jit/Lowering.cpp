@@ -9266,9 +9266,9 @@ void
 LIRGenerator
 :
 :
-visitSignExtend
+visitSignExtendInt32
 (
-MSignExtend
+MSignExtendInt32
 *
 ins
 )
@@ -9292,7 +9292,7 @@ mode
 )
 =
 =
-MSignExtend
+MSignExtendInt32
 :
 :
 Byte
@@ -9305,7 +9305,7 @@ alloc
 (
 )
 )
-LSignExtend
+LSignExtendInt32
 (
 useByteOpRegisterAtStart
 (
@@ -9333,7 +9333,7 @@ alloc
 (
 )
 )
-LSignExtend
+LSignExtendInt32
 (
 useRegisterAtStart
 (
