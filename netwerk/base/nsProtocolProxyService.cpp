@@ -2333,16 +2333,6 @@ AsyncGetPACURIRequest
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-=
-=
-mIsMainThreadOnly
-)
-;
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
