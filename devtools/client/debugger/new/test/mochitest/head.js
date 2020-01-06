@@ -2241,6 +2241,9 @@ toolbox
 win
 :
 win
+panel
+:
+panel
 }
 ;
 }
@@ -3031,9 +3034,7 @@ return
 waitForState
 (
 dbg
-(
 state
-)
 =
 >
 !
