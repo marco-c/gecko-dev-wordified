@@ -3099,9 +3099,6 @@ char
 branch_name
 )
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -3109,8 +3106,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-endif
 int
 len
 =
@@ -3524,9 +3519,6 @@ PREF_ClearAllUserPrefs
 (
 )
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -3534,8 +3526,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-endif
 if
 (
 !
@@ -4208,9 +4198,6 @@ char
 key
 )
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -4229,8 +4216,6 @@ IsInServoTraversal
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 (
@@ -4384,9 +4369,6 @@ uint32_t
 flags
 )
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -4394,8 +4376,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-endif
 if
 (
 !
