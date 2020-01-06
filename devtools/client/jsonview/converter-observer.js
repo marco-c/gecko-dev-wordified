@@ -839,6 +839,11 @@ new
 JsonViewSniffer
 (
 )
+.
+QueryInterface
+(
+iid
+)
 ;
 }
 }
@@ -913,6 +918,11 @@ JsonViewService
 .
 createInstance
 (
+)
+.
+QueryInterface
+(
+iid
 )
 ;
 }
