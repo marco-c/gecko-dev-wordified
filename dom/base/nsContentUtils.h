@@ -425,6 +425,9 @@ class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
 class
+nsCacheableFuncStringHTMLCollection
+;
+class
 nsHtml5StringParser
 ;
 class
@@ -13462,7 +13465,10 @@ node
 )
 ;
 return
-NS_GetFuncStringHTMLCollection
+GetFuncStringContentList
+<
+nsCacheableFuncStringHTMLCollection
+>
 (
 aRootNode
 MatchClassNames

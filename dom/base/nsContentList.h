@@ -2933,14 +2933,14 @@ mString
 }
 ;
 class
-nsCacheableFuncStringNodeList
+nsCachableElementsByNameNodeList
 :
 public
 nsCacheableFuncStringContentList
 {
 public
 :
-nsCacheableFuncStringNodeList
+nsCachableElementsByNameNodeList
 (
 nsINode
 *
@@ -2976,6 +2976,7 @@ eNodeList
 #
 endif
 }
+NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 virtual
 JSObject
 *
