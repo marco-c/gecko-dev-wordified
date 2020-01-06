@@ -708,6 +708,14 @@ debug
 '
 win32
 -
+nightly
+-
+repackage
+'
+    
+'
+win32
+-
 noopt
 -
 debug
