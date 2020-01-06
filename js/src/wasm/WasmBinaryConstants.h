@@ -2005,9 +2005,7 @@ const
 unsigned
 MaxFunctionBytes
 =
-128
-*
-1024
+7654321
 ;
 /
 /
