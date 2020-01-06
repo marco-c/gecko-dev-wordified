@@ -2532,7 +2532,7 @@ aList
 nsresult
 CacheInlineStyles
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
@@ -2987,7 +2987,7 @@ aStyleCache
 nsresult
 GetInlineStyles
 (
-nsIDOMNode
+nsINode
 *
 aNode
 StyleCache
