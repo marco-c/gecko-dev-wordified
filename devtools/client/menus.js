@@ -1001,9 +1001,7 @@ collections
 /
 mozilla
 /
-framework
--
-devtools
+webdeveloper
 /
 "
 "
