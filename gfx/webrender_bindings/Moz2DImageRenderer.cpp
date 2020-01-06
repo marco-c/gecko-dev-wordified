@@ -454,13 +454,6 @@ end
 )
 )
 {
-sFontDataTable
-.
-erase
-(
-i
-)
-;
 wr_dec_ref_arc
 (
 i
@@ -469,6 +462,13 @@ i
 second
 .
 mVec
+)
+;
+sFontDataTable
+.
+erase
+(
+i
 )
 ;
 }
