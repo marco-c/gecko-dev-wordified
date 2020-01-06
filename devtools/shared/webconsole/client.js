@@ -140,9 +140,7 @@ emitter
 )
 ;
 const
-{
 LongStringClient
-}
 =
 require
 (
@@ -153,7 +151,11 @@ shared
 /
 client
 /
-main
+long
+-
+string
+-
+client
 "
 )
 ;

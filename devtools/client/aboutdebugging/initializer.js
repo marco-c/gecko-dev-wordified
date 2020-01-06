@@ -152,7 +152,9 @@ shared
 /
 client
 /
-main
+debugger
+-
+client
 "
 true
 )

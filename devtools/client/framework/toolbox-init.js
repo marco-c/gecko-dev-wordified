@@ -293,7 +293,9 @@ shared
 /
 client
 /
-main
+debugger
+-
+client
 "
 )
 ;

@@ -814,7 +814,9 @@ shared
 /
 client
 /
-main
+object
+-
+client
 "
 :
 path

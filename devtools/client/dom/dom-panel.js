@@ -120,9 +120,7 @@ chrome
 )
 ;
 const
-{
 ObjectClient
-}
 =
 require
 (
@@ -133,7 +131,9 @@ shared
 /
 client
 /
-main
+object
+-
+client
 "
 )
 ;
