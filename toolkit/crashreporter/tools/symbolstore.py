@@ -7163,6 +7163,8 @@ sys
 .
 stderr
 )
+            
+raise
         
 if
 not
