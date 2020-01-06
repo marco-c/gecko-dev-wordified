@@ -5867,6 +5867,8 @@ GetDesc
 desc
 )
 ;
+hr
+=
 ConfigureForSize
 (
 desc
@@ -5875,6 +5877,15 @@ Width
 desc
 .
 Height
+)
+;
+NS_ENSURE_TRUE
+(
+SUCCEEDED
+(
+hr
+)
+hr
 )
 ;
 RefPtr
