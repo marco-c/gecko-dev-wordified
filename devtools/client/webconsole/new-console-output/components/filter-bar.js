@@ -854,7 +854,7 @@ dispatch
 )
 dom
 .
-span
+div
 (
 {
 className
