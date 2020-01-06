@@ -1805,6 +1805,9 @@ print
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x

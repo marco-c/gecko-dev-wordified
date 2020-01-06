@@ -1748,6 +1748,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0600u
@@ -1772,6 +1775,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x1806u
@@ -1796,6 +1802,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x200Cu
@@ -1820,6 +1829,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0xA840u
@@ -1844,6 +1856,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x10AC0u
@@ -1863,6 +1878,9 @@ joining_offset_0x10ac0u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x10B80u
@@ -1887,6 +1905,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x1E900u

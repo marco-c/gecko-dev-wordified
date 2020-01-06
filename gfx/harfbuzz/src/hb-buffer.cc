@@ -2715,8 +2715,7 @@ HB_BUFFER_CLUSTER_LEVEL_CHARACTERS
 )
 return
 ;
-unsigned
-int
+uint32_t
 cluster
 =
 info
@@ -2954,8 +2953,7 @@ start
 )
 return
 ;
-unsigned
-int
+uint32_t
 cluster
 =
 out_info

@@ -1080,6 +1080,9 @@ longMetric
 MIN
 (
 glyph
+(
+uint32_t
+)
 this
 -
 >

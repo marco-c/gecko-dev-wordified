@@ -597,6 +597,9 @@ u
 )
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -617,6 +620,9 @@ u
 )
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -637,6 +643,9 @@ u
 )
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -659,6 +668,9 @@ u
 )
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -679,6 +691,9 @@ u
 )
 (
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -697,6 +712,9 @@ u
 )
 (
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -715,6 +733,9 @@ u
 )
 (
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 (
 u
@@ -733,6 +754,9 @@ u
 )
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 (
 u

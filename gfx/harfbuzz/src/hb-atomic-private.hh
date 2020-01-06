@@ -981,7 +981,7 @@ h
 static
 inline
 int
-hb_fetch_and_add
+_hb_fetch_and_add
 (
 volatile
 int
@@ -1016,7 +1016,7 @@ result
 static
 inline
 int
-hb_compare_and_swaplp
+_hb_compare_and_swaplp
 (
 volatile
 long
@@ -1071,7 +1071,7 @@ hb_atomic_int_impl_add
 AI
 V
 )
-hb_fetch_and_add
+_hb_fetch_and_add
 (
 &
 (
@@ -1108,7 +1108,7 @@ P
 O
 N
 )
-hb_compare_and_swaplp
+_hb_compare_and_swaplp
 (
 (
 long
