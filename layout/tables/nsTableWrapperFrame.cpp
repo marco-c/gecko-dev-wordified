@@ -1016,12 +1016,6 @@ eTreeChange
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-/
-/
-also
-means
-child
-removed
 }
 void
 nsTableWrapperFrame
