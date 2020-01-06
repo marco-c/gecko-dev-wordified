@@ -2197,12 +2197,12 @@ region
 roles
 :
 :
-PANE
+REGION
 kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eLandmark
 kNoReqStates
 }
 {
