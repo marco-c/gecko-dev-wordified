@@ -1283,6 +1283,18 @@ with
 aLimiter
 parents
 *
+param
+aAccessibleCaretEnabled
+true
+if
+we
+should
+enable
+the
+accessible
+caret
+.
+*
 /
 void
 Init
@@ -1293,6 +1305,8 @@ aShell
 nsIContent
 *
 aLimiter
+bool
+aAccessibleCaretEnabled
 )
 ;
 /
@@ -5042,6 +5056,9 @@ down
 happened
 bool
 mDesiredPosSet
+;
+bool
+mAccessibleCaretEnabled
 ;
 int8_t
 mCaretMovementStyle
