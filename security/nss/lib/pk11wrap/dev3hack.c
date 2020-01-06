@@ -657,7 +657,10 @@ rvSlot
 >
 pk11slot
 =
+PK11_ReferenceSlot
+(
 nss3slot
+)
 ;
 rvSlot
 -
@@ -884,7 +887,10 @@ rvToken
 >
 pk11slot
 =
+PK11_ReferenceSlot
+(
 nss3slot
+)
 ;
 rvToken
 -
