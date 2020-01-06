@@ -2764,6 +2764,12 @@ menuResolutions
 continue
 ;
 }
+if
+(
+!
+gPhotonStructure
+)
+{
 /
 /
 Test
@@ -2909,6 +2915,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
+}
 }
 await
 extension

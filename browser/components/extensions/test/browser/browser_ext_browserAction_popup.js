@@ -1949,9 +1949,9 @@ testBrowserActionInPanel
 await
 testInArea
 (
-CustomizableUI
-.
-AREA_PANEL
+getCustomizableUIPanelID
+(
+)
 )
 ;
 }

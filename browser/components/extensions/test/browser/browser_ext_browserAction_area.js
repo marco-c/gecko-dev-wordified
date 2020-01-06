@@ -63,9 +63,9 @@ AREA_NAVBAR
 menupanel
 "
 :
-CustomizableUI
-.
-AREA_PANEL
+getCustomizableUIPanelID
+(
+)
 "
 tabstrip
 "
