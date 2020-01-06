@@ -5832,7 +5832,7 @@ data
 get
 (
 "
-message
+text
 "
 )
 ErrorStatus
@@ -5842,7 +5842,7 @@ InvalidArgument
 "
 Missing
 '
-message
+text
 '
 parameter
 "
@@ -5857,7 +5857,7 @@ ErrorStatus
 InvalidArgument
 "
 '
-message
+text
 '
 not
 a
