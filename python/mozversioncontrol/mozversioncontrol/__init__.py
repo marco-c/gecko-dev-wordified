@@ -2857,9 +2857,7 @@ upstream
 =
 self
 .
-get_upstream
-(
-)
+base_ref
         
 compare
 =
@@ -2876,7 +2874,8 @@ format
 upstream
 )
         
-return
+files
+=
 self
 .
 _run
@@ -2910,7 +2909,7 @@ upper
 (
 )
 )
-                         
+                          
 '
 -
 -
@@ -2930,6 +2929,17 @@ compare
 splitlines
 (
 )
+        
+return
+[
+f
+for
+f
+in
+files
+if
+f
+]
     
 def
 add_remove_files
