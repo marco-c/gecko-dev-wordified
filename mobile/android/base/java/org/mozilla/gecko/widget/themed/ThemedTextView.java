@@ -944,6 +944,16 @@ id
 )
 ;
 }
+public
+ColorStateList
+getDrawableColors
+(
+)
+{
+return
+drawableColors
+;
+}
 protected
 LightweightTheme
 getTheme
