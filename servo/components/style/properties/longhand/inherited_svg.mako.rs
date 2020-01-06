@@ -884,10 +884,10 @@ animation_value_type
 "
 ComputedValue
 "
-space_separated_allowed
+separator
 =
 "
-True
+CommaWithSpace
 "
 spec
 =

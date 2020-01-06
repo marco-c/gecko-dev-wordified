@@ -625,11 +625,12 @@ values
 :
 :
 {
-ToCss
+Comma
+CommaWithSpace
 OneOrMoreSeparated
-CommaSeparator
-SpaceSeparator
-IsCommaSeparator
+Separator
+Space
+ToCss
 }
 ;
 pub

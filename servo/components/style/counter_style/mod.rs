@@ -239,11 +239,11 @@ style_traits
 :
 :
 {
-ToCss
+Comma
 OneOrMoreSeparated
-CommaSeparator
 ParseError
 StyleParseError
+ToCss
 }
 ;
 use
@@ -4523,7 +4523,7 @@ AdditiveTuple
 type
 S
 =
-CommaSeparator
+Comma
 ;
 }
 impl
