@@ -152,13 +152,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-ipc
-;
 /
 /
 The
