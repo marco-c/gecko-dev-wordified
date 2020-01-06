@@ -1880,9 +1880,10 @@ nsPrintfCString
 {
 l
 =
+0x
 %
 "
-PRIu64
+PRIx64
 "
 p
 =

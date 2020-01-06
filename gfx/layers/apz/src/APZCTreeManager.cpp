@@ -7377,9 +7377,10 @@ repaints
 for
 layers
 id
+0x
 %
 "
-PRIu64
+PRIx64
 aLayersId
 )
 ;
