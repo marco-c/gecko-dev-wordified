@@ -1806,7 +1806,7 @@ debug
 :
 levels
 .
-LEVEL_LOG
+LEVEL_DEBUG
 dir
 :
 levels
@@ -1846,7 +1846,7 @@ count
 :
 levels
 .
-LEVEL_DEBUG
+LEVEL_LOG
 }
 ;
 return
