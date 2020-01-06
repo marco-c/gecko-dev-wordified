@@ -36081,6 +36081,7 @@ aURI
 aOpener
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 {
 /
@@ -36357,11 +36358,6 @@ href
 null
 ;
 let
-triggeringPrincipal
-=
-null
-;
-let
 referrerPolicy
 =
 Ci
@@ -36387,14 +36383,6 @@ aOpener
 document
 .
 referrerPolicy
-;
-triggeringPrincipal
-=
-aOpener
-.
-document
-.
-nodePrincipal
 ;
 }
 let
@@ -36697,7 +36685,7 @@ isExternal
 forceNotRemote
 userContextId
 openerWindow
-triggeringPrincipal
+aTriggeringPrincipal
 )
 ;
 if
@@ -36757,7 +36745,7 @@ aURI
 .
 spec
 {
-triggeringPrincipal
+aTriggeringPrincipal
 flags
 :
 loadflags

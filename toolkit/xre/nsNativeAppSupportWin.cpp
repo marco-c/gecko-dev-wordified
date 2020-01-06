@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -9577,6 +9584,12 @@ nsIBrowserDOMWindow
 :
 :
 OPEN_EXTERNAL
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 getter_AddRefs
 (
 container
