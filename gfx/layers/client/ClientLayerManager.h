@@ -1268,13 +1268,6 @@ AreComponentAlphaLayersEnabled
 )
 override
 ;
-virtual
-bool
-SupportsBackdropCopyForComponentAlpha
-(
-)
-override
-;
 /
 /
 Log

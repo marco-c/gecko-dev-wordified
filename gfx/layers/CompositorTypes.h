@@ -1163,9 +1163,6 @@ bool
 mSupportsComponentAlpha
 ;
 bool
-mSupportsBackdropCopyForComponentAlpha
-;
-bool
 mUsingAdvancedLayers
 ;
 SyncHandle
@@ -1238,10 +1235,6 @@ aSupportsPartialUploads
 mSupportsComponentAlpha
 (
 aSupportsComponentAlpha
-)
-mSupportsBackdropCopyForComponentAlpha
-(
-true
 )
 mUsingAdvancedLayers
 (

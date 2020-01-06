@@ -321,12 +321,6 @@ BlendingRequiresIntermediateSurface
 )
 override
 ;
-bool
-SupportsBackdropCopyForComponentAlpha
-(
-)
-override
-;
 /
 /
 HostLayerManager
