@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-DateTimeFormat
+nsIndexedToHTML
 .
 h
 "
 #
 include
 "
-nsIndexedToHTML
+DateTimeFormat
 .
 h
 "
@@ -112,9 +112,7 @@ include
 "
 mozilla
 /
-dom
-/
-EncodingUtils
+Encoding
 .
 h
 "

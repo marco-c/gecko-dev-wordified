@@ -426,17 +426,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-EncodingUtils
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
