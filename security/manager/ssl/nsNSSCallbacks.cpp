@@ -6156,7 +6156,7 @@ infoObject
 infoObject
 -
 >
-GetHostNameRaw
+GetHostName
 (
 )
 unusedBuiltChain
