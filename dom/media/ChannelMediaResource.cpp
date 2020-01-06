@@ -4642,7 +4642,7 @@ recreate
 the
 channel
 .
-CacheClientSeek
+Seek
 (
 GetOffset
 (
