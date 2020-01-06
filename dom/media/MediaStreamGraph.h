@@ -8448,6 +8448,16 @@ only
 static
 MediaStreamGraph
 *
+GetInstanceIfExists
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
+static
+MediaStreamGraph
+*
 GetInstance
 (
 GraphDriverType
