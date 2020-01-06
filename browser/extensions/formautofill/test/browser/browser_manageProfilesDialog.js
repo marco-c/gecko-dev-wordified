@@ -33,6 +33,18 @@ edit
 "
 }
 ;
+const
+DIALOG_SIZE
+=
+"
+width
+=
+600
+height
+=
+400
+"
+;
 function
 waitForAddresses
 (
@@ -342,6 +354,8 @@ window
 openDialog
 (
 MANAGE_PROFILES_DIALOG_URL
+null
+DIALOG_SIZE
 )
 ;
 await
@@ -576,6 +590,8 @@ window
 openDialog
 (
 MANAGE_PROFILES_DIALOG_URL
+null
+DIALOG_SIZE
 )
 ;
 await
