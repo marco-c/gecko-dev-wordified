@@ -6757,8 +6757,6 @@ into
 (
 )
 line_number_offset
-as
-u64
 )
 )
 .

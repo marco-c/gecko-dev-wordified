@@ -446,7 +446,7 @@ QuirksMode
 :
 :
 NoQuirks
-0u64
+0
 )
 ;
 let
