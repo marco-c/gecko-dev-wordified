@@ -845,13 +845,17 @@ mStatus
 )
 ;
 if
+(
 NS_FAILED
 (
 mStatus
 )
+)
+{
 return
 mStatus
 ;
+}
 return
 NS_OK
 ;
