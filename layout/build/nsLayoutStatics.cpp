@@ -2326,13 +2326,6 @@ Shutdown
 (
 )
 ;
-CustomElementRegistry
-:
-:
-XPCOMShutdown
-(
-)
-;
 CacheObserver
 :
 :
