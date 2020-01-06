@@ -8380,9 +8380,6 @@ from_f32_px
 (
 glyph_size
 )
-0
-.
-0
 glyph_options
 )
 ;
