@@ -1713,6 +1713,7 @@ SVGSVGElement
 mContent
 )
 ;
+const
 nsSVGLength2
 &
 width
@@ -1728,6 +1729,7 @@ SVGSVGElement
 ATTR_WIDTH
 ]
 ;
+const
 nsSVGLength2
 &
 height
@@ -1921,6 +1923,7 @@ SVGSVGElement
 mContent
 )
 ;
+const
 nsSVGLength2
 &
 width
@@ -1936,6 +1939,7 @@ SVGSVGElement
 ATTR_WIDTH
 ]
 ;
+const
 nsSVGLength2
 &
 height
@@ -2533,6 +2537,7 @@ SVGSVGElement
 mContent
 )
 ;
+const
 nsSVGLength2
 &
 width
@@ -2624,6 +2629,7 @@ aWM
 )
 ;
 }
+const
 nsSVGLength2
 &
 height
@@ -7191,6 +7197,7 @@ VerticalScrollbarNotNeeded
 )
 const
 {
+const
 nsSVGLength2
 &
 height
