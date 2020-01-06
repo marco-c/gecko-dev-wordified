@@ -2274,6 +2274,7 @@ return
 {
 tab
 monitor
+toolbox
 }
 ;
 }
