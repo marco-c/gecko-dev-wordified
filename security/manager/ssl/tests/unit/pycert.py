@@ -1611,14 +1611,13 @@ GeneralName
 )
     
 accessLocation
-.
-setComponentByName
-(
+[
 '
 uniformResourceIdentifier
 '
+]
+=
 string
-)
     
 sequence
 =
@@ -1874,16 +1873,15 @@ C
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_countryName
-)
             
 nameComponent
 =
@@ -1904,16 +1902,15 @@ ST
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_stateOrProvinceName
-)
             
 nameComponent
 =
@@ -1933,16 +1930,15 @@ L
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_localityName
-)
             
 nameComponent
 =
@@ -1962,16 +1958,15 @@ O
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_organizationName
-)
             
 nameComponent
 =
@@ -1991,16 +1986,15 @@ OU
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_organizationalUnitName
-)
             
 nameComponent
 =
@@ -2020,16 +2014,15 @@ CN
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 id_at_commonName
-)
             
 nameComponent
 =
@@ -2049,16 +2042,15 @@ emailAddress
 :
             
 ava
-.
-setComponentByName
-(
+[
 '
 type
 '
+]
+=
 rfc2459
 .
 emailAddress
-)
             
 nameComponent
 =
@@ -2150,10 +2142,10 @@ zero
 .
             
 nameComponent
-.
-setComponentByName
-(
+[
 encoding
+]
+=
 value
 .
 decode
@@ -2164,17 +2156,15 @@ encoding
 string_escape
 '
 )
-)
         
 ava
-.
-setComponentByName
-(
+[
 '
 value
 '
+]
+=
 nameComponent
-)
         
 rdn
 =
@@ -2631,12 +2621,12 @@ Time
 )
     
 time
-.
-setComponentByName
-(
+[
 '
 generalTime
 '
+]
+=
 useful
 .
 GeneralizedTime
@@ -2659,7 +2649,6 @@ M
 %
 SZ
 '
-)
 )
 )
     
@@ -4291,14 +4280,13 @@ Extension
 )
         
 extension
-.
-setComponentByName
-(
+[
 '
 extnID
 '
+]
+=
 extensionType
-)
         
 #
 critical
@@ -4332,24 +4320,22 @@ critical
 :
             
 extension
-.
-setComponentByName
-(
+[
 '
 critical
 '
+]
+=
 True
-)
         
 extension
-.
-setComponentByName
-(
+[
 '
 extnValue
 '
+]
+=
 encapsulated
-)
         
 self
 .
@@ -4404,19 +4390,18 @@ BasicConstraints
 )
         
 basicConstraintsExtension
-.
-setComponentByName
-(
+[
 '
 cA
 '
+]
+=
 cA
 =
 =
 '
 cA
 '
-)
         
 if
 pathLenConstraint
@@ -4456,15 +4441,13 @@ inf
 )
             
 basicConstraintsExtension
-.
-setComponentByName
-(
+[
 '
 pathLenConstraint
 '
-                                                         
+]
+=
 pathLenConstraintValue
-)
         
 self
 .
@@ -4783,14 +4766,13 @@ tagFormatSimple
 )
                 
 generalName
-.
-setComponentByName
-(
+[
 '
 directoryName
 '
+]
+=
 directoryName
-)
             
 else
 :
@@ -4849,12 +4831,12 @@ zero
 .
                 
 generalName
-.
-setComponentByName
-(
+[
 '
 dNSName
 '
+]
+=
 name
 .
 decode
@@ -4864,7 +4846,6 @@ encoding
 '
 string_escape
 '
-)
 )
             
 subjectAlternativeName
@@ -5003,14 +4984,13 @@ policyOID
 )
             
 policy
-.
-setComponentByName
-(
+[
 '
 policyIdentifier
 '
+]
+=
 policyIdentifier
-)
             
 policies
 .
@@ -5204,27 +5184,25 @@ tagFormatSimple
 )
                 
 generalName
-.
-setComponentByName
-(
+[
 '
 directoryName
 '
+]
+=
 directoryName
-)
             
 else
 :
                 
 generalName
-.
-setComponentByName
-(
+[
 '
 dNSName
 '
+]
+=
 name
-)
             
 generalSubtree
 =
@@ -5235,14 +5213,13 @@ GeneralSubtree
 )
             
 generalSubtree
-.
-setComponentByName
-(
+[
 '
 base
 '
+]
+=
 generalName
-)
             
 generalSubtrees
 .
@@ -5253,12 +5230,11 @@ generalSubtree
 )
         
 nameConstraints
-.
-setComponentByName
-(
+[
 subtreesType
+]
+=
 generalSubtrees
-)
         
 self
 .
@@ -5803,31 +5779,29 @@ Validity
 )
         
 validity
-.
-setComponentByName
-(
+[
 '
 notBefore
 '
+]
+=
 self
 .
 getNotBefore
 (
 )
-)
         
 validity
-.
-setComponentByName
-(
+[
 '
 notAfter
 '
+]
+=
 self
 .
 getNotAfter
 (
-)
 )
         
 return
@@ -5906,100 +5880,92 @@ TBSCertificate
 )
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 version
 '
+]
+=
 self
 .
 getVersion
 (
 )
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 serialNumber
 '
+]
+=
 self
 .
 getSerialNumber
 (
 )
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 signature
 '
+]
+=
 signatureOID
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 issuer
 '
+]
+=
 self
 .
 getIssuer
 (
 )
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 validity
 '
+]
+=
 self
 .
 getValidity
 (
 )
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 subject
 '
+]
+=
 self
 .
 getSubject
 (
 )
-)
         
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 subjectPublicKeyInfo
 '
-                                          
+]
+=
 self
 .
 subjectKey
 .
 asSubjectPublicKeyInfo
 (
-)
 )
         
 if
@@ -6056,14 +6022,13 @@ extension
 )
             
 tbsCertificate
-.
-setComponentByName
-(
+[
 '
 extensions
 '
+]
+=
 extensions
-)
         
 return
 tbsCertificate
@@ -6104,24 +6069,22 @@ getTBSCertificate
 )
         
 certificate
-.
-setComponentByName
-(
+[
 '
 tbsCertificate
 '
+]
+=
 tbsCertificate
-)
         
 certificate
-.
-setComponentByName
-(
+[
 '
 signatureAlgorithm
 '
+]
+=
 signatureOID
-)
         
 tbsDER
 =
@@ -6133,12 +6096,12 @@ tbsCertificate
 )
         
 certificate
-.
-setComponentByName
-(
+[
 '
 signatureValue
 '
+]
+=
 self
 .
 issuerKey
@@ -6147,7 +6110,6 @@ sign
 (
 tbsDER
 hashAlgorithm
-)
 )
         
 return

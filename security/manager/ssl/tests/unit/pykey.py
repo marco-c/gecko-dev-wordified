@@ -3094,14 +3094,13 @@ PrivateKeyInfo
 )
         
 privateKeyInfo
-.
-setComponentByName
-(
+[
 '
 version
 '
+]
+=
 0
-)
         
 algorithmIdentifier
 =
@@ -3112,16 +3111,15 @@ AlgorithmIdentifier
 )
         
 algorithmIdentifier
-.
-setComponentByName
-(
+[
 '
 algorithm
 '
+]
+=
 rfc2459
 .
 rsaEncryption
-)
         
 #
 Directly
@@ -3166,14 +3164,13 @@ nullEncapsulated
 )
         
 privateKeyInfo
-.
-setComponentByName
-(
+[
 '
 privateKeyAlgorithm
 '
+]
+=
 algorithmIdentifier
-)
         
 rsaPrivateKey
 =
@@ -3182,110 +3179,101 @@ RSAPrivateKey
 )
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 version
 '
+]
+=
 0
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 modulus
 '
+]
+=
 self
 .
 RSA_N
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 publicExponent
 '
+]
+=
 self
 .
 RSA_E
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 privateExponent
 '
+]
+=
 self
 .
 RSA_D
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 prime1
 '
+]
+=
 self
 .
 RSA_P
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 prime2
 '
+]
+=
 self
 .
 RSA_Q
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 exponent1
 '
+]
+=
 self
 .
 RSA_exp1
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 exponent2
 '
+]
+=
 self
 .
 RSA_exp2
-)
         
 rsaPrivateKey
-.
-setComponentByName
-(
+[
 '
 coefficient
 '
+]
+=
 self
 .
 RSA_coef
-)
         
 rsaPrivateKeyEncoded
 =
@@ -3297,18 +3285,17 @@ rsaPrivateKey
 )
         
 privateKeyInfo
-.
-setComponentByName
-(
+[
 '
 privateKey
 '
+]
+=
 univ
 .
 OctetString
 (
 rsaPrivateKeyEncoded
-)
 )
         
 return
@@ -3451,16 +3438,15 @@ AlgorithmIdentifier
 )
         
 algorithmIdentifier
-.
-setComponentByName
-(
+[
 '
 algorithm
 '
+]
+=
 rfc2459
 .
 rsaEncryption
-)
         
 #
 Directly
@@ -3513,14 +3499,13 @@ SubjectPublicKeyInfo
 )
         
 spki
-.
-setComponentByName
-(
+[
 '
 algorithm
 '
+]
+=
 algorithmIdentifier
-)
         
 rsaKey
 =
@@ -3529,12 +3514,12 @@ RSAPublicKey
 )
         
 rsaKey
-.
-setComponentByName
-(
+[
 '
 N
 '
+]
+=
 univ
 .
 Integer
@@ -3543,15 +3528,14 @@ self
 .
 RSA_N
 )
-)
         
 rsaKey
-.
-setComponentByName
-(
+[
 '
 E
 '
+]
+=
 univ
 .
 Integer
@@ -3559,7 +3543,6 @@ Integer
 self
 .
 RSA_E
-)
 )
         
 subjectPublicKey
@@ -3580,14 +3563,13 @@ rsaKey
 )
         
 spki
-.
-setComponentByName
-(
+[
 '
 subjectPublicKey
 '
+]
+=
 subjectPublicKey
-)
         
 return
 spki
@@ -4428,26 +4410,24 @@ AlgorithmIdentifier
 )
         
 algorithmIdentifier
-.
-setComponentByName
-(
+[
 '
 algorithm
 '
+]
+=
 ecPublicKey
-)
         
 algorithmIdentifier
-.
-setComponentByName
-(
+[
 '
 parameters
 '
+]
+=
 self
 .
 keyOID
-)
         
 spki
 =
@@ -4458,14 +4438,13 @@ SubjectPublicKeyInfo
 )
         
 spki
-.
-setComponentByName
-(
+[
 '
 algorithm
 '
+]
+=
 algorithmIdentifier
-)
         
 #
 We
@@ -4648,14 +4627,13 @@ hexifiedBitString
 )
         
 spki
-.
-setComponentByName
-(
+[
 '
 subjectPublicKey
 '
+]
+=
 subjectPublicKey
-)
         
 return
 spki
@@ -4893,24 +4871,22 @@ ECPoint
 )
             
 point
-.
-setComponentByName
-(
+[
 '
 x
 '
+]
+=
 x
-)
             
 point
-.
-setComponentByName
-(
+[
 '
 y
 '
+]
+=
 y
-)
             
 return
 byteStringToHexifiedBitString
