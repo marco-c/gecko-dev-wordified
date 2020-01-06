@@ -5292,9 +5292,6 @@ allow_empty
 "
 NotInitial
 "
-delegate_animate
-=
-True
 )
 }
 <

@@ -369,9 +369,6 @@ ComputedValue
 vector
 =
 True
-delegate_animate
-=
-True
 )
 }
 %

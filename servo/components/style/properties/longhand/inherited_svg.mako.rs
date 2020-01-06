@@ -871,9 +871,6 @@ parse_non_negative
 vector
 =
 True
-delegate_animate
-=
-True
 products
 =
 "
