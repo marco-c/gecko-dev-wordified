@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IDTracker_h_
+NSREFERENCEDELEMENT_H_
 #
 define
-mozilla_dom_IDTracker_h_
+NSREFERENCEDELEMENT_H_
 #
 include
 "
@@ -164,12 +164,6 @@ h
 class
 nsIURI
 ;
-namespace
-mozilla
-{
-namespace
-dom
-{
 /
 *
 *
@@ -359,7 +353,7 @@ change
 *
 /
 class
-IDTracker
+nsReferencedElement
 {
 public
 :
@@ -373,7 +367,7 @@ dom
 Element
 Element
 ;
-IDTracker
+nsReferencedElement
 (
 )
 :
@@ -384,7 +378,7 @@ false
 {
 }
 ~
-IDTracker
+nsReferencedElement
 (
 )
 {
@@ -892,7 +886,7 @@ protected
 explicit
 Notification
 (
-IDTracker
+nsReferencedElement
 *
 aTarget
 )
@@ -914,7 +908,7 @@ target
 )
 ;
 }
-IDTracker
+nsReferencedElement
 *
 mTarget
 ;
@@ -935,7 +929,7 @@ public
 :
 ChangeNotification
 (
-IDTracker
+nsReferencedElement
 *
 aTarget
 Element
@@ -952,7 +946,7 @@ mozilla
 Runnable
 (
 "
-IDTracker
+nsReferencedElement
 :
 :
 ChangeNotification
@@ -1082,7 +1076,7 @@ public
 :
 DocumentLoadNotification
 (
-IDTracker
+nsReferencedElement
 *
 aTarget
 const
@@ -1177,7 +1171,7 @@ inline
 void
 ImplCycleCollectionUnlink
 (
-IDTracker
+nsReferencedElement
 &
 aField
 )
@@ -1196,7 +1190,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
-IDTracker
+nsReferencedElement
 &
 aField
 const
@@ -1218,20 +1212,10 @@ aCallback
 )
 ;
 }
-}
-/
-/
-namespace
-dom
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /
 *
-mozilla_dom_IDTracker_h_
+NSREFERENCEDELEMENT_H_
 *
 /
