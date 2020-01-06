@@ -6802,6 +6802,13 @@ exitFP
 SetExitFP
 (
 masm
+ExitReason
+:
+:
+Fixed
+:
+:
+ImportJit
 scratch
 )
 ;
