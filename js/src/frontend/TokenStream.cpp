@@ -6848,14 +6848,6 @@ tp
 -
 >
 type
-<
-0
-|
-|
-tp
--
->
-type
 >
 =
 TOK_LIMIT
