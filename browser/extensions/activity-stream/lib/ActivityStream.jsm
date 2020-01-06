@@ -123,6 +123,9 @@ loading
 .
 const
 {
+actionCreators
+:
+ac
 actionTypes
 :
 at
@@ -1939,7 +1942,7 @@ data
 "
 value
 :
-false
+true
 }
 {
 name
@@ -2266,6 +2269,19 @@ init
 (
 )
 ;
+/
+/
+Hook
+up
+the
+store
+and
+let
+all
+feeds
+and
+pages
+initialize
 this
 .
 store
@@ -2282,6 +2298,10 @@ this
 store
 .
 dispatch
+(
+ac
+.
+BroadcastToContent
 (
 {
 type
@@ -2301,6 +2321,7 @@ options
 version
 }
 }
+)
 )
 ;
 this

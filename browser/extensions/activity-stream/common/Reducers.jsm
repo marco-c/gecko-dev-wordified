@@ -246,6 +246,7 @@ assign
 (
 {
 }
+prevState
 action
 .
 data
