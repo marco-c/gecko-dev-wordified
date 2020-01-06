@@ -603,7 +603,7 @@ property
 .
 Maybe
 <
-gfxSize
+Size
 >
 mPreviousTransformScale
 ;
@@ -1594,13 +1594,10 @@ ACTIVITY_SCALE
 return
 ;
 }
-gfxSize
+Size
 scale
 =
-ThebesMatrix
-(
 transform2D
-)
 .
 ScaleFactors
 (
