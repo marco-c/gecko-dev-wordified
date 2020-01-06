@@ -602,6 +602,9 @@ storage
 getAll
 (
 {
+rawData
+:
+true
 includeDeleted
 :
 true
@@ -979,6 +982,9 @@ storage
 getAll
 (
 {
+rawData
+:
+true
 includeDeleted
 :
 true
