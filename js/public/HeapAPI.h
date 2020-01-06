@@ -652,7 +652,7 @@ bytes
 to
 pass
 to
-JS_NewRuntime
+JS_NewContext
 (
 )
 .

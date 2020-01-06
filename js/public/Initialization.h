@@ -419,7 +419,7 @@ is
 safe
 to
 call
-JS_NewRuntime
+JS_NewContext
 and
 other
 *
