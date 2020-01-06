@@ -3143,6 +3143,9 @@ traversal
 :
 &
 D
+parallel
+:
+bool
 start
 :
 f64
@@ -3188,11 +3191,7 @@ is_parallel
 =
 Some
 (
-traversal
-.
-is_parallel
-(
-)
+parallel
 )
 ;
 self

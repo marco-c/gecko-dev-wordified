@@ -178,16 +178,6 @@ PreorderFlowTraversal
 }
 ;
 pub
-use
-style
-:
-:
-sequential
-:
-:
-traverse_dom
-;
-pub
 fn
 resolve_generated_content
 (
