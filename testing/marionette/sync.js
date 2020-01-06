@@ -782,12 +782,17 @@ function
 PollPromise
 (
 func
+{
 timeout
 =
 2000
 interval
 =
 10
+}
+=
+{
+}
 )
 {
 const
