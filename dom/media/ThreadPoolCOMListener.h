@@ -161,13 +161,11 @@ may
 call
 into
 WMF
-or
-/
-/
-DirectShow
 on
 this
 thread
+/
+/
 so
 we
 need
