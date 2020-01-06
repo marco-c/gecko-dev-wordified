@@ -42317,7 +42317,7 @@ frame
 }
 static
 bool
-FlushAnimationsForHitTesting
+FlushThrottledStyles
 (
 nsIDocument
 *
@@ -42375,7 +42375,7 @@ RestyleManager
 )
 -
 >
-UpdateAnimationStylesForHitTesting
+UpdateOnlyAnimationStyles
 (
 )
 ;
@@ -42386,7 +42386,7 @@ aDocument
 >
 EnumerateSubDocuments
 (
-FlushAnimationsForHitTesting
+FlushThrottledStyles
 nullptr
 )
 ;
@@ -45043,7 +45043,7 @@ scriptBlocker
 nsAutoScriptBlocker
 scriptBlocker
 ;
-FlushAnimationsForHitTesting
+FlushThrottledStyles
 (
 GetRootPresShell
 (
