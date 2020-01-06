@@ -16140,6 +16140,9 @@ Bailout_UninitializedThis
 case
 Bailout_BadDerivedConstructorReturn
 :
+case
+Bailout_NotPure
+:
 /
 /
 Do
