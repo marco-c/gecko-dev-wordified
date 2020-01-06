@@ -374,6 +374,15 @@ nsIGlobalObject
 aParent
 )
 ;
+void
+GetMozDebugReaderData
+(
+nsACString
+&
+aString
+)
+override
+;
 private
 :
 ChannelMediaDecoder
