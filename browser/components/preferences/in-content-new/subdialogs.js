@@ -274,7 +274,7 @@ aEvent
 target
 !
 =
-gSubDialog
+this
 .
 _frame
 .
@@ -293,7 +293,7 @@ dialogTitle
 .
 textContent
 =
-gSubDialog
+this
 .
 _frame
 .
@@ -1333,11 +1333,12 @@ contentWindow
 .
 resizeBy
 =
-function
 (
 resizeByWidth
 resizeByHeight
 )
+=
+>
 {
 /
 /
@@ -1349,7 +1350,7 @@ currently
 let
 frameHeight
 =
-gSubDialog
+this
 .
 _frame
 .
@@ -1362,7 +1363,7 @@ parseFloat
 (
 getComputedStyle
 (
-gSubDialog
+this
 .
 _box
 )
@@ -1371,7 +1372,7 @@ minHeight
 10
 )
 ;
-gSubDialog
+this
 .
 _frame
 .
@@ -1389,7 +1390,7 @@ resizeByHeight
 px
 "
 ;
-gSubDialog
+this
 .
 _box
 .
@@ -1411,7 +1412,7 @@ oldResizeBy
 .
 call
 (
-gSubDialog
+this
 .
 _frame
 .
@@ -1453,14 +1454,15 @@ contentWindow
 .
 close
 =
-function
 (
 )
+=
+>
 {
 var
 closingEvent
 =
-gSubDialog
+this
 .
 _closingEvent
 ;
@@ -1492,7 +1494,7 @@ null
 }
 )
 ;
-gSubDialog
+this
 .
 _frame
 .
@@ -1504,7 +1506,7 @@ closingEvent
 )
 ;
 }
-gSubDialog
+this
 .
 close
 (
@@ -1515,7 +1517,7 @@ oldClose
 .
 call
 (
-gSubDialog
+this
 .
 _frame
 .
@@ -2464,7 +2466,7 @@ mutations
 let
 frame
 =
-gSubDialog
+this
 .
 _frame
 ;
@@ -2757,11 +2759,12 @@ Services
 .
 focus
 ;
-function
+let
 isLastFocusableElement
-(
+=
 el
-)
+=
+>
 {
 /
 /
@@ -2800,7 +2803,7 @@ fm
 .
 moveFocus
 (
-gSubDialog
+this
 .
 _frame
 .
@@ -2824,6 +2827,7 @@ return
 rv
 ;
 }
+;
 let
 forward
 =
