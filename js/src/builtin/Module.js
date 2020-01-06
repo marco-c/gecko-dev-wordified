@@ -1037,7 +1037,7 @@ exports
 {
 callFunction
 (
-std_Array_sort
+ArraySort
 exports
 )
 ;

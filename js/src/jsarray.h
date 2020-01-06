@@ -981,7 +981,7 @@ JITs
 /
 extern
 bool
-array_sort
+intrinsic_ArrayNativeSort
 (
 JSContext
 *
