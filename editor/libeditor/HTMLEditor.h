@@ -4103,17 +4103,6 @@ nsIDOMNode
 outNode
 )
 ;
-nsIContent
-*
-GetNextHTMLSibling
-(
-nsINode
-*
-aParent
-int32_t
-aOffset
-)
-;
 nsresult
 GetNextHTMLSibling
 (
