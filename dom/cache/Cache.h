@@ -621,12 +621,6 @@ ErrorResult
 aRv
 )
 ;
-OpenMode
-OpenMode
-(
-)
-const
-;
 nsCOMPtr
 <
 nsIGlobalObject
