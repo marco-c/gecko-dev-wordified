@@ -166,9 +166,9 @@ FlacDecoder
 :
 Clone
 (
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 )
 {
 if
@@ -187,7 +187,7 @@ return
 new
 FlacDecoder
 (
-aOwner
+aInit
 )
 ;
 }

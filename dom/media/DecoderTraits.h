@@ -146,6 +146,9 @@ MediaContainerType
 class
 MediaDecoder
 ;
+struct
+MediaDecoderInit
+;
 class
 MediaDecoderOwner
 ;
@@ -298,9 +301,9 @@ const
 nsACString
 &
 aType
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 DecoderDoctorDiagnostics
 *
 aDiagnostics

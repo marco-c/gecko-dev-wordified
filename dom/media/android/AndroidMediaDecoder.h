@@ -159,9 +159,9 @@ public
 :
 AndroidMediaDecoder
 (
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 const
 MediaContainerType
 &
@@ -172,9 +172,9 @@ MediaDecoder
 *
 Clone
 (
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 )
 override
 {
@@ -182,7 +182,7 @@ return
 new
 AndroidMediaDecoder
 (
-aOwner
+aInit
 mType
 )
 ;

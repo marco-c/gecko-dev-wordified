@@ -14035,6 +14035,12 @@ if
 mMediaSource
 )
 {
+MediaDecoderInit
+decoderInit
+(
+this
+)
+;
 RefPtr
 <
 MediaSourceDecoder
@@ -14044,7 +14050,7 @@ decoder
 new
 MediaSourceDecoder
 (
-this
+decoderInit
 )
 ;
 if
@@ -26056,6 +26062,12 @@ originalResource
 return
 NS_ERROR_FAILURE
 ;
+MediaDecoderInit
+decoderInit
+(
+this
+)
+;
 RefPtr
 <
 MediaDecoder
@@ -26067,7 +26079,7 @@ aOriginal
 >
 Clone
 (
-this
+decoderInit
 )
 ;
 if
@@ -26240,6 +26252,12 @@ Type
 DecoderDoctorDiagnostics
 diagnostics
 ;
+MediaDecoderInit
+decoderInit
+(
+this
+)
+;
 RefPtr
 <
 MediaDecoder
@@ -26252,7 +26270,7 @@ DecoderTraits
 CreateDecoder
 (
 mimeType
-this
+decoderInit
 &
 diagnostics
 )

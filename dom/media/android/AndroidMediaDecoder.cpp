@@ -141,9 +141,9 @@ AndroidMediaDecoder
 :
 AndroidMediaDecoder
 (
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 const
 MediaContainerType
 &
@@ -152,7 +152,7 @@ aType
 :
 MediaDecoder
 (
-aOwner
+aInit
 )
 mType
 (

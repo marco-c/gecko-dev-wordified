@@ -166,9 +166,9 @@ ADTSDecoder
 :
 Clone
 (
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 )
 {
 if
@@ -185,7 +185,7 @@ return
 new
 ADTSDecoder
 (
-aOwner
+aInit
 )
 ;
 }
