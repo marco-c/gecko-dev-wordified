@@ -224,6 +224,7 @@ aCompositable
 ;
 protected
 :
+virtual
 ~
 SharedPlanarYCbCrImage
 (

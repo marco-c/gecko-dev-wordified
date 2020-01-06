@@ -243,6 +243,7 @@ aCompositable
 ;
 protected
 :
+virtual
 ~
 SharedRGBImage
 (
