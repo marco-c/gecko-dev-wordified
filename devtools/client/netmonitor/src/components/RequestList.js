@@ -166,7 +166,6 @@ function
 RequestList
 (
 {
-connector
 isEmpty
 }
 )
@@ -186,9 +185,6 @@ list
 container
 "
 }
-RequestListHeader
-(
-)
 isEmpty
 ?
 RequestListEmptyNotice
@@ -206,9 +202,6 @@ connector
 )
 StatusBar
 (
-{
-connector
-}
 )
 )
 )
@@ -227,13 +220,6 @@ RequestList
 propTypes
 =
 {
-connector
-:
-PropTypes
-.
-object
-.
-isRequired
 isEmpty
 :
 PropTypes
