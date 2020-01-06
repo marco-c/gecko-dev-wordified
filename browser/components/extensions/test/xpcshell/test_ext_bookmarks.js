@@ -1346,6 +1346,8 @@ property
 guid
 '
 :
+\
+"
 not
 -
 a
@@ -1353,6 +1355,8 @@ a
 bookmark
 -
 guid
+\
+"
 "
 )
 "

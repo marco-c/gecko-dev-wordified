@@ -2448,7 +2448,7 @@ withConnectionWrapper
 (
 "
 BookmarkSyncUtils
-.
+:
 pushChanges
 "
 async
@@ -2497,6 +2497,11 @@ changeRecord
 =
 validateChangeRecord
 (
+"
+BookmarkSyncUtils
+:
+pushChanges
+"
 changeRecords
 [
 syncId
@@ -4334,6 +4339,11 @@ updateInfo
 =
 validateSyncBookmarkObject
 (
+"
+BookmarkSyncUtils
+:
+update
+"
 info
 {
 syncId
@@ -4558,6 +4568,11 @@ insertInfo
 =
 validateNewBookmark
 (
+"
+BookmarkSyncUtils
+:
+insert
+"
 info
 )
 ;
@@ -5932,6 +5947,7 @@ BookmarkSyncUtils
 function
 validateSyncBookmarkObject
 (
+name
 input
 behavior
 )
@@ -5941,6 +5957,7 @@ PlacesUtils
 .
 validateItemProperties
 (
+name
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -5970,6 +5987,7 @@ pushChanges
 function
 validateChangeRecord
 (
+name
 changeRecord
 behavior
 )
@@ -5979,6 +5997,7 @@ PlacesUtils
 .
 validateItemProperties
 (
+name
 PlacesUtils
 .
 SYNC_CHANGE_RECORD_VALIDATORS
@@ -8423,6 +8442,11 @@ newInfo
 =
 validateNewBookmark
 (
+"
+BookmarkSyncUtils
+:
+reinsert
+"
 updateInfo
 )
 ;
@@ -9220,6 +9244,7 @@ newItem
 function
 validateNewBookmark
 (
+name
 info
 )
 {
@@ -9228,6 +9253,7 @@ insertInfo
 =
 validateSyncBookmarkObject
 (
+name
 info
 {
 kind
