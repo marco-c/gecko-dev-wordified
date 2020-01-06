@@ -167,7 +167,7 @@ class
 nsIInputStream
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -406,12 +406,12 @@ spawns
 GLContext
 .
 void
-SetActiveThread
+SetActiveEventTarget
 (
 )
 ;
 void
-ResetActiveThread
+ResetActiveEventTarget
 (
 )
 ;
@@ -619,9 +619,9 @@ mCanvasClient
 }
 already_AddRefed
 <
-nsIThread
+nsISerialEventTarget
 >
-GetActiveThread
+GetActiveEventTarget
 (
 )
 ;
@@ -895,9 +895,9 @@ mutex
 .
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mActiveThread
+mActiveEventTarget
 ;
 }
 ;

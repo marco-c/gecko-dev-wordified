@@ -6677,7 +6677,7 @@ activeTarget
 mAsyncCanvasRenderer
 -
 >
-GetActiveThread
+GetActiveEventTarget
 (
 )
 ;
@@ -6825,7 +6825,7 @@ activeTarget
 mAsyncCanvasRenderer
 -
 >
-GetActiveThread
+GetActiveEventTarget
 (
 )
 ;

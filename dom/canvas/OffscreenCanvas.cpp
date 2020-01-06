@@ -507,7 +507,7 @@ activeTarget
 mCanvasRenderer
 -
 >
-GetActiveThread
+GetActiveEventTarget
 (
 )
 ;
@@ -580,7 +580,7 @@ nullptr
 mCanvasRenderer
 -
 >
-ResetActiveThread
+ResetActiveEventTarget
 (
 )
 ;
@@ -813,7 +813,7 @@ mCurrentContext
 mCanvasRenderer
 -
 >
-SetActiveThread
+SetActiveEventTarget
 (
 )
 ;
