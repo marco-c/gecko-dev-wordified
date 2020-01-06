@@ -163,9 +163,12 @@ use
 cssparser
 :
 :
+{
+CompactCowStr
 ToCss
 as
 ParserToCss
+}
 ;
 use
 error_reporting
@@ -2163,11 +2166,10 @@ mut
 self
 name
 :
-Cow
+CompactCowStr
 <
 '
 i
-str
 >
 input
 :

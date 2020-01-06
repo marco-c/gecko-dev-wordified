@@ -254,7 +254,10 @@ use
 cssparser
 :
 :
+{
 ParserInput
+CompactCowStr
+}
 ;
 use
 error_reporting
@@ -4030,12 +4033,7 @@ i
 ident
 :
 &
-Cow
-<
-'
-i
 str
->
 )
 -
 >
@@ -7491,11 +7489,10 @@ i
 (
 property_name
 :
-Cow
+CompactCowStr
 <
 '
 i
-str
 >
 )
 -

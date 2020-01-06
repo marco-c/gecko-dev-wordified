@@ -255,12 +255,13 @@ Token
 :
 :
 Dimension
-(
-ref
+{
 value
 ref
 unit
-)
+.
+.
+}
 if
 unit
 .
@@ -274,8 +275,6 @@ fr
 &
 value
 .
-value
-.
 is_sign_positive
 (
 )
@@ -283,8 +282,6 @@ is_sign_positive
 >
 Ok
 (
-value
-.
 value
 )
 t
