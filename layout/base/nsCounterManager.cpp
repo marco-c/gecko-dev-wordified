@@ -578,6 +578,7 @@ mAllCounters
 &
 mScopeStart
 )
+{
 for
 (
 nsCounterNode
@@ -598,6 +599,7 @@ n
 >
 mScopeStart
 )
+{
 stack
 .
 AppendElement
@@ -608,6 +610,8 @@ n
 mScopePrev
 )
 ;
+}
+}
 WritingMode
 wm
 =
@@ -686,8 +690,10 @@ i
 =
 0
 )
+{
 break
 ;
+}
 aResult
 .
 Append
@@ -1412,9 +1418,11 @@ CounterResetCount
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Add
@@ -1472,6 +1480,7 @@ i_end
 +
 i
 )
+{
 dirty
 |
 =
@@ -1492,6 +1501,7 @@ nsCounterChangeNode
 RESET
 )
 ;
+}
 for
 (
 i
@@ -1515,6 +1525,7 @@ i_end
 +
 i
 )
+{
 dirty
 |
 =
@@ -1535,6 +1546,7 @@ nsCounterChangeNode
 INCREMENT
 )
 ;
+}
 return
 dirty
 ;
