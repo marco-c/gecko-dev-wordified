@@ -282,6 +282,7 @@ SlowScriptAction
 Continue
 Terminate
 StartDebugger
+TerminateGlobal
 }
 ;
 SlowScriptAction

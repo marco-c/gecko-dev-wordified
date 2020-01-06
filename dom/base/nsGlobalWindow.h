@@ -4127,6 +4127,7 @@ ContinueSlowScript
 ContinueSlowScriptAndKeepNotifying
 AlwaysContinueSlowScript
 KillSlowScript
+KillScriptGlobal
 }
 ;
 SlowScriptResponse
