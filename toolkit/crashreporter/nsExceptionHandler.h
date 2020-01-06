@@ -569,14 +569,6 @@ nsACString
 aBuildID
 )
 ;
-bool
-GetLastRunCrashID
-(
-nsAString
-&
-id
-)
-;
 /
 /
 Registers
