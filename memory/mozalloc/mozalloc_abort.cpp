@@ -575,6 +575,10 @@ instead
 of
 aborting
 .
+extern
+"
+C
+"
 void
 abort
 (
