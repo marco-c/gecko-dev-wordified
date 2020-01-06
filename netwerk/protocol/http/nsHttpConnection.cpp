@@ -1855,7 +1855,7 @@ nsAHttpTransaction
 list
 ;
 nsresult
-rv
+status
 =
 NS_OK
 ;
@@ -1865,7 +1865,7 @@ if
 mDid0RTTSpdy
 )
 {
-rv
+status
 =
 TryTakeSubTransactions
 (
@@ -1876,11 +1876,11 @@ if
 (
 NS_FAILED
 (
-rv
+status
 )
 &
 &
-rv
+status
 !
 =
 NS_ERROR_NOT_IMPLEMENTED
@@ -1942,6 +1942,11 @@ mProxyConnectInProgress
 false
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 bool
 spdyProxy
 =
@@ -2023,7 +2028,7 @@ rv
 =
 MoveTransactionsToSpdy
 (
-rv
+status
 list
 )
 ;
