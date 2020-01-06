@@ -2989,9 +2989,8 @@ notmin
 }
 masm
 .
-setupUnalignedABICall
+setupWasmABICall
 (
-temp
 )
 ;
 masm
@@ -3308,9 +3307,8 @@ IntegerDivideByZero
 ;
 masm
 .
-setupUnalignedABICall
+setupWasmABICall
 (
-temp
 )
 ;
 masm
