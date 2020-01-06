@@ -1375,7 +1375,6 @@ mLinks
 mAnchors
 mScripts
 mForms
-mFormControls
 mWyciwygChannel
 mMidasCommandManager
 )
@@ -21393,10 +21392,6 @@ mScripts
 /
 -
 mForms
-/
-/
--
-mFormControls
 /
 /
 -
