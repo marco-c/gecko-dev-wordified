@@ -627,6 +627,7 @@ guid
 hidden
 visitCount
 typed
+lastKnownTitle
 )
 {
 let
@@ -643,6 +644,9 @@ uri
 spec
 title
 :
+lastKnownTitle
+|
+|
 "
 "
 lastVisitTime
