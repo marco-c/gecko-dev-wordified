@@ -61,6 +61,7 @@ MPL
 exported
 initialize
 destroy
+Promise
 *
 /
 "
@@ -262,6 +263,16 @@ devtools
 shared
 /
 DevToolsUtils
+"
+)
+;
+const
+Promise
+=
+require
+(
+"
+Promise
 "
 )
 ;
