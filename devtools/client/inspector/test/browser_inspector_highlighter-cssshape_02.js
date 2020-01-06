@@ -640,7 +640,7 @@ cx
 is
 (
 cy
-75
+30
 "
 Ellipse
 highlighter

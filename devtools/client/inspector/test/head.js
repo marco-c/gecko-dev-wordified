@@ -3607,6 +3607,12 @@ prevX
 y
 =
 prevY
+selector
+=
+"
+:
+root
+"
 )
 {
 prevX
@@ -3624,11 +3630,6 @@ synthesizeMouse
 (
 {
 selector
-:
-"
-:
-root
-"
 x
 y
 options
