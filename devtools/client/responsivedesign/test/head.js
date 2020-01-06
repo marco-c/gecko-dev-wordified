@@ -453,7 +453,7 @@ document
 getElementById
 (
 "
-key_responsiveUI
+key_responsiveDesignMode
 "
 )
 )
