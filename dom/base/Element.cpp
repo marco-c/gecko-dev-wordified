@@ -11258,7 +11258,7 @@ this
 presContext
 -
 >
-GetViewportScrollbarStylesOverrideNode
+GetViewportScrollbarStylesOverrideElement
 (
 )
 "
@@ -11269,7 +11269,7 @@ raw
 pointer
 to
 this
-node
+element
 (
 as
 having

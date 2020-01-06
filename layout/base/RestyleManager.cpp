@@ -9361,7 +9361,7 @@ prevOverrideNode
 presContext
 -
 >
-GetViewportScrollbarStylesOverrideNode
+GetViewportScrollbarStylesOverrideElement
 (
 )
 ;
