@@ -1203,10 +1203,6 @@ to
 handle
 invalid
 URLs
-especially
-from
-Valence
-.
 continue
 ;
 }
