@@ -129,10 +129,6 @@ dictionaries
 '
     
 '
-hyphenation
-'
-    
-'
 defaults
 /
 profile
