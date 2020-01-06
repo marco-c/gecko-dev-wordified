@@ -468,7 +468,7 @@ type
 nsGkAtoms
 :
 :
-textInputType
+search
 eCaseMatters
 )
 )
