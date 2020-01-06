@@ -9283,6 +9283,19 @@ self
 .
 topsrcdir
         
+append_env
+[
+'
+CONFIG_GUESS
+'
+]
+=
+self
+.
+resolve_config_guess
+(
+)
+        
 return
 self
 .
