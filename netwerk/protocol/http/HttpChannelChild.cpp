@@ -6308,6 +6308,12 @@ NS_ERROR_BLOCKED_URI
 aChannelStatus
 =
 =
+NS_ERROR_HARMFUL_URI
+|
+|
+aChannelStatus
+=
+=
 NS_ERROR_PHISHING_URI
 )
 {

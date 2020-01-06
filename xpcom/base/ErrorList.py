@@ -10427,6 +10427,18 @@ FAILURE
 37
 )
     
+errors
+[
+"
+NS_ERROR_HARMFUL_URI
+"
+]
+=
+FAILURE
+(
+38
+)
+    
 #
 Used
 when

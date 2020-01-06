@@ -63118,6 +63118,11 @@ test
 unwanted
 -
 simple
+test
+-
+harmful
+-
+simple
 "
 )
 ;
@@ -63251,6 +63256,11 @@ disallow_completions
 test
 -
 malware
+-
+simple
+test
+-
+harmful
 -
 simple
 test
@@ -64157,6 +64167,11 @@ proto
 goog
 -
 unwanted
+-
+proto
+goog
+-
+harmful
 -
 proto
 "
