@@ -715,7 +715,6 @@ TopSitesPageAdapter
 (
 context
 i
-tilesSize
 onUrlOpenListener
 onUrlOpenInBackgroundListener
 )
@@ -814,6 +813,7 @@ swapCursor
 (
 null
 0
+0
 )
 ;
 pages
@@ -870,6 +870,7 @@ swapCursor
 (
 cursor
 startIndex
+tilesSize
 )
 ;
 startIndex
