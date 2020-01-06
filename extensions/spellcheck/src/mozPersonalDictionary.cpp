@@ -420,6 +420,12 @@ main
 thread
 NS_ReleaseOnMainThread
 (
+"
+mozPersonalDictionaryLoader
+:
+:
+mDict
+"
 mDict
 .
 forget
@@ -784,6 +790,12 @@ thread
 .
 NS_ReleaseOnMainThread
 (
+"
+mozPersonalDictionarySave
+:
+:
+mDict
+"
 mDict
 .
 forget

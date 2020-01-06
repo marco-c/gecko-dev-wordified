@@ -443,6 +443,9 @@ observer
 new
 ObserverHolder
 (
+"
+nsIHttpActivityObserver
+"
 aObserver
 )
 )
@@ -487,6 +490,9 @@ observer
 new
 ObserverHolder
 (
+"
+nsIHttpActivityObserver
+"
 aObserver
 )
 )

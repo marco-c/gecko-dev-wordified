@@ -7103,6 +7103,15 @@ nsMainThreadPtrHolder
 nsPIDOMWindowInner
 >
 (
+"
+WorkerNotificationObserver
+:
+:
+Observe
+:
+:
+nsPIDOMWindowInner
+"
 window
 )
 )

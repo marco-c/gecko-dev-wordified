@@ -12508,6 +12508,12 @@ StableState
 .
 NS_ReleaseOnMainThread
 (
+"
+MediaStreamGraphImpl
+:
+:
+CurrentDriver
+"
 driver
 .
 forget

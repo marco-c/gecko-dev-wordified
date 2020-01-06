@@ -1264,6 +1264,9 @@ nsMainThreadPtrHolder
 ServiceWorkerRegistrationInfo
 >
 (
+"
+ServiceWorkerRegistrationInfo
+"
 this
 )
 )

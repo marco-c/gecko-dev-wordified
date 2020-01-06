@@ -1262,6 +1262,12 @@ thread
 .
 NS_ProxyRelease
 (
+"
+FinalizeStatementCacheProxy
+:
+:
+mOwner
+"
 mCallingThread
 mOwner
 .

@@ -293,6 +293,12 @@ nsMainThreadPtrHolder
 nsIURI
 >
 (
+"
+ImageURL
+:
+:
+mURI
+"
 aURI
 )
 )

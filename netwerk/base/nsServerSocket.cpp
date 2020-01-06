@@ -1747,6 +1747,12 @@ listener
 {
 NS_ProxyRelease
 (
+"
+nsServerSocket
+:
+:
+mListener
+"
 mListenerTarget
 listener
 .
@@ -2884,6 +2890,12 @@ nsMainThreadPtrHolder
 nsIServerSocketListener
 >
 (
+"
+ServerSocketListenerProxy
+:
+:
+mListener
+"
 aListener
 )
 )

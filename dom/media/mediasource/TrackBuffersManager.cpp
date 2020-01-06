@@ -727,6 +727,12 @@ nsMainThreadPtrHolder
 MediaSourceDecoder
 >
 (
+"
+TrackBuffersManager
+:
+:
+mParentDecoder
+"
 aParentDecoder
 false
 /

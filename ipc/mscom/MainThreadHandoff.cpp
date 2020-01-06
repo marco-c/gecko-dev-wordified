@@ -1131,6 +1131,9 @@ this
 ;
 NS_ReleaseOnMainThread
 (
+"
+MainThreadHandoff
+"
 self
 .
 forget

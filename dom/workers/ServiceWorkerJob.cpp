@@ -1267,6 +1267,9 @@ well
 .
 NS_ReleaseOnMainThread
 (
+"
+ServiceWorkerJob
+"
 kungFuDeathGrip
 .
 forget

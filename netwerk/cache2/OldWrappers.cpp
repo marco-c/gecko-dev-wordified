@@ -3208,6 +3208,12 @@ _OldCacheLoad
 {
 ProxyReleaseMainThread
 (
+"
+_OldCacheLoad
+:
+:
+mAppCache
+"
 mAppCache
 )
 ;

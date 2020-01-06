@@ -4848,6 +4848,15 @@ destroyed
 .
 NS_ProxyRelease
 (
+"
+Context
+:
+:
+ThreadsafeHandle
+:
+:
+mStrongRef
+"
 mOwningEventTarget
 mStrongRef
 .

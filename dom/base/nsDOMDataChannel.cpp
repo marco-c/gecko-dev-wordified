@@ -3270,6 +3270,12 @@ always
 )
 NS_ReleaseOnMainThread
 (
+"
+nsDOMDataChannel
+:
+:
+mSelfRef
+"
 mSelfRef
 .
 forget
@@ -3334,6 +3340,12 @@ ourselves
 .
 NS_ReleaseOnMainThread
 (
+"
+nsDOMDataChannel
+:
+:
+mSelfRef
+"
 mSelfRef
 .
 forget

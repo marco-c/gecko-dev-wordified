@@ -5781,6 +5781,12 @@ nsMainThreadPtrHolder
 nsIOpenSignedAppFileCallback
 >
 (
+"
+OpenSignedAppFileTask
+:
+:
+mCallback
+"
 aCallback
 )
 )
@@ -8627,6 +8633,12 @@ nsMainThreadPtrHolder
 nsIVerifySignedDirectoryCallback
 >
 (
+"
+VerifySignedDirectoryTask
+:
+:
+mCallback
+"
 aCallback
 )
 )

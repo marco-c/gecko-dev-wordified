@@ -3207,6 +3207,12 @@ GetFilesHelperParent
 {
 NS_ReleaseOnMainThread
 (
+"
+GetFilesHelperParent
+:
+:
+mContentParent
+"
 mContentParent
 .
 forget

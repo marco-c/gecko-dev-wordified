@@ -898,6 +898,12 @@ thread
 .
 NS_ProxyRelease
 (
+"
+nsFileCopyEvent
+:
+:
+mCallback
+"
 mCallbackTarget
 mCallback
 .

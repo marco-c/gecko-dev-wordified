@@ -3738,6 +3738,12 @@ AudioProxyThread
 .
 NS_ReleaseOnMainThread
 (
+"
+AudioProxyThread
+:
+:
+mConduit
+"
 mConduit
 .
 forget

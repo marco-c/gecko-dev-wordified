@@ -2227,6 +2227,9 @@ nsMainThreadPtrHolder
 ServiceWorkerUpdateJob
 >
 (
+"
+ServiceWorkerUpdateJob
+"
 this
 )
 )
@@ -2625,6 +2628,9 @@ nsMainThreadPtrHolder
 ServiceWorkerUpdateJob
 >
 (
+"
+ServiceWorkerUpdateJob
+"
 this
 )
 )

@@ -414,6 +414,12 @@ Other
 ;
 NS_ProxyRelease
 (
+"
+DocGroup
+:
+:
+mReactionsStack
+"
 target
 mReactionsStack
 .

@@ -15874,6 +15874,15 @@ else
 {
 NS_ProxyRelease
 (
+"
+nsCacheService
+:
+:
+ReleaseObject_Locked
+:
+:
+obj
+"
 target
 dont_AddRef
 (

@@ -490,6 +490,12 @@ nsMainThreadPtrHolder
 nsIPrincipal
 >
 (
+"
+MakePrincipalHandle
+:
+:
+nsIPrincipal
+"
 aPrincipal
 )
 ;

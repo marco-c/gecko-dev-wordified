@@ -1405,6 +1405,12 @@ nsJARChannel
 {
 NS_ReleaseOnMainThread
 (
+"
+nsJARChannel
+:
+:
+mLoadInfo
+"
 mLoadInfo
 .
 forget

@@ -636,6 +636,12 @@ nsMainThreadPtrHolder
 nsILocalCertGetCallback
 >
 (
+"
+LocalCertGetTask
+:
+:
+mCallback
+"
 aCallback
 )
 )
@@ -2102,6 +2108,12 @@ nsMainThreadPtrHolder
 nsILocalCertCallback
 >
 (
+"
+LocalCertRemoveTask
+:
+:
+mCallback
+"
 aCallback
 )
 )

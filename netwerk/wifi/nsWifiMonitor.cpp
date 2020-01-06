@@ -529,6 +529,9 @@ nsMainThreadPtrHolder
 nsIWifiListener
 >
 (
+"
+nsIWifiListener
+"
 aListener
 )
 )

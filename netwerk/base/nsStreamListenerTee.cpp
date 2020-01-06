@@ -245,6 +245,12 @@ mEventTarget
 {
 NS_ProxyRelease
 (
+"
+nsStreamListenerTee
+:
+:
+mSink
+"
 mEventTarget
 mSink
 .

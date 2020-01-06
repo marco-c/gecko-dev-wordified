@@ -6626,6 +6626,9 @@ nsMainThreadPtrHolder
 Promise
 >
 (
+"
+Promise
+"
 promise
 )
 )

@@ -210,6 +210,15 @@ nsMainThreadPtrHolder
 nsIObserver
 >
 (
+"
+psm
+:
+:
+NotifyObserverRunnable
+:
+:
+mObserver
+"
 observer
 )
 )

@@ -2915,6 +2915,12 @@ nsMainThreadPtrHolder
 U2FRegisterCallback
 >
 (
+"
+U2FRegisterRunnable
+:
+:
+mCallback
+"
 aCallback
 )
 )
@@ -4271,6 +4277,12 @@ nsMainThreadPtrHolder
 U2FSignCallback
 >
 (
+"
+U2FSignRunnable
+:
+:
+mCallback
+"
 aCallback
 )
 )

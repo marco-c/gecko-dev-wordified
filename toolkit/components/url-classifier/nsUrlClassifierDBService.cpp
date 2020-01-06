@@ -5973,6 +5973,12 @@ mCallback
 {
 NS_ReleaseOnMainThread
 (
+"
+nsUrlClassifierLookupCallback
+:
+:
+mCallback
+"
 mCallback
 .
 forget
@@ -10391,6 +10397,9 @@ nsMainThreadPtrHolder
 nsIURIClassifierCallback
 >
 (
+"
+nsIURIClassifierCallback
+"
 aCallback
 )
 )

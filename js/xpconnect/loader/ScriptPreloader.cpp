@@ -4092,6 +4092,12 @@ true
 ;
 NS_ReleaseOnMainThread
 (
+"
+ScriptPreloader
+:
+:
+mSaveThread
+"
 mSaveThread
 .
 forget

@@ -341,6 +341,12 @@ mLoadInfo
 {
 NS_ReleaseOnMainThread
 (
+"
+nsWyciwygChannel
+:
+:
+mLoadInfo
+"
 mLoadInfo
 .
 forget

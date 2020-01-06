@@ -1199,6 +1199,12 @@ thread
 .
 NS_ProxyRelease
 (
+"
+FileSystemTaskParentBase
+:
+:
+mFileSystem
+"
 mBackgroundEventTarget
 mFileSystem
 .
@@ -1209,6 +1215,12 @@ forget
 ;
 NS_ProxyRelease
 (
+"
+FileSystemTaskParentBase
+:
+:
+mRequestParent
+"
 mBackgroundEventTarget
 mRequestParent
 .
