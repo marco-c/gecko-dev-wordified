@@ -5513,6 +5513,8 @@ JSObject
 body
 (
 aCx
+)
+;
 FetchStream
 :
 :
@@ -5529,8 +5531,9 @@ GetParentObject
 (
 )
 inputStream
+&
+body
 aRv
-)
 )
 ;
 if
