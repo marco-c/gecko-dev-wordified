@@ -440,6 +440,13 @@ TabboxPanel
 {
 activeTabId
 cloneSelectedRequest
+=
+(
+)
+=
+>
+{
+}
 request
 selectTab
 sourceMapService
