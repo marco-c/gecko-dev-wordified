@@ -879,10 +879,6 @@ CompositorAnimationStorage
 (
 )
 {
-Clear
-(
-)
-;
 }
 ;
 private
