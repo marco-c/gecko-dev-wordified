@@ -486,6 +486,13 @@ GetInternalResponse
 (
 )
 ;
+response
+-
+>
+SetBodyUsed
+(
+)
+;
 }
 if
 (
