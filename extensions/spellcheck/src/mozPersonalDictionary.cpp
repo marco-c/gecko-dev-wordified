@@ -598,10 +598,6 @@ getter_AddRefs
 bufferedOutputStream
 )
 outStream
-.
-forget
-(
-)
 4096
 )
 ;
