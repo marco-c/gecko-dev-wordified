@@ -74,8 +74,14 @@ onAlarm
 .
 addListener
 (
-async
 alarm
+=
+>
+{
+(
+async
+(
+)
 =
 >
 {
@@ -278,6 +284,11 @@ duplicate
 )
 ;
 }
+}
+)
+(
+)
+;
 }
 )
 ;
