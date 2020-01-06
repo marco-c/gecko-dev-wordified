@@ -635,10 +635,10 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
 const
-mGMPThread
+mGMPEventTarget
 ;
 #
 endif

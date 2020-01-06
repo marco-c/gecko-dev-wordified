@@ -210,9 +210,6 @@ MozPromise
 .
 h
 "
-class
-nsIThread
-;
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -550,9 +547,9 @@ const
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-GMPThread
+GMPEventTarget
 (
 )
 ;
