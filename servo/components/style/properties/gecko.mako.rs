@@ -9713,8 +9713,6 @@ mBorderImageSlice
 [
 {
 side
-.
-index
 }
 ]
 could
@@ -12756,6 +12754,8 @@ the
 update_border_
 {
 side
+.
+ident
 }
 comment
 for
