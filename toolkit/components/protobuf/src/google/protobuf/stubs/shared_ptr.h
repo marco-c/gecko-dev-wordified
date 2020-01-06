@@ -3266,7 +3266,7 @@ a
 CHECK
 failure
 .
-CHECK
+GOOGLE_CHECK
 (
 !
 weak_this_
@@ -3303,7 +3303,7 @@ shared_from_this
 )
 const
 {
-CHECK
+GOOGLE_CHECK
 (
 !
 weak_this_
@@ -3467,7 +3467,7 @@ if
 ptr
 )
 {
-CHECK
+GOOGLE_CHECK
 (
 ptr
 -

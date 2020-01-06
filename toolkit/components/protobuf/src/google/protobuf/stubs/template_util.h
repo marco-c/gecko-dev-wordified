@@ -372,7 +372,7 @@ platforms
 /
 The
 names
-choosen
+chosen
 here
 reflect
 those

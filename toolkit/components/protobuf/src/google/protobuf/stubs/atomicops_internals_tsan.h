@@ -1075,7 +1075,7 @@ cmp
 }
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {

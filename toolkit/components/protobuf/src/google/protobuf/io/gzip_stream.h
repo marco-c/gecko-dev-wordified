@@ -400,13 +400,6 @@ GOOGLE_PROTOBUF_IO_GZIP_STREAM_H__
 #
 include
 <
-zlib
-.
-h
->
-#
-include
-<
 google
 /
 protobuf
@@ -427,6 +420,13 @@ protobuf
 io
 /
 zero_copy_stream
+.
+h
+>
+#
+include
+<
+zlib
 .
 h
 >
@@ -681,6 +681,9 @@ output_position_
 ;
 size_t
 output_buffer_length_
+;
+int64
+byte_count_
 ;
 int
 Inflate

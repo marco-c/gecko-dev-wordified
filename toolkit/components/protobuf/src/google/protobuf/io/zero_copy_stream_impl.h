@@ -679,11 +679,6 @@ block_size
 1
 )
 ;
-~
-FileInputStream
-(
-)
-;
 /
 /
 Flushes
@@ -1989,6 +1984,9 @@ used
 explicit
 IstreamInputStream
 (
+std
+:
+:
 istream
 *
 stream
@@ -1997,11 +1995,6 @@ block_size
 =
 -
 1
-)
-;
-~
-IstreamInputStream
-(
 )
 ;
 /
@@ -2088,6 +2081,9 @@ public
 :
 CopyingIstreamInputStream
 (
+std
+:
+:
 istream
 *
 input
@@ -2166,6 +2162,9 @@ private
 The
 stream
 .
+std
+:
+:
 istream
 *
 input_
@@ -2358,6 +2357,9 @@ used
 explicit
 OstreamOutputStream
 (
+std
+:
+:
 ostream
 *
 stream
@@ -2448,6 +2450,9 @@ public
 :
 CopyingOstreamOutputStream
 (
+std
+:
+:
 ostream
 *
 output
@@ -2512,6 +2517,9 @@ private
 The
 stream
 .
+std
+:
+:
 ostream
 *
 output_
@@ -2742,11 +2750,6 @@ streams
 ]
 int
 count
-)
-;
-~
-ConcatenatingInputStream
-(
 )
 ;
 /

@@ -800,7 +800,7 @@ Here
 we
 use
 a
-hypothentical
+hypothetical
 "
 MyRpcChannel
 "
@@ -848,7 +848,7 @@ request
 ;
 /
 /
-FooRespnose
+FooResponse
 response
 ;
 /
@@ -1035,6 +1035,19 @@ protobuf
 stubs
 /
 common
+.
+h
+>
+#
+include
+<
+google
+/
+protobuf
+/
+stubs
+/
+callback
 .
 h
 >

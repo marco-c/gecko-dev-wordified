@@ -584,7 +584,7 @@ Atomic32
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -833,7 +833,7 @@ Atomic64
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;

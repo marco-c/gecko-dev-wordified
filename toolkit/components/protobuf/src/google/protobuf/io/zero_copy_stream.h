@@ -1108,7 +1108,6 @@ ZeroCopyInputStream
 {
 public
 :
-inline
 ZeroCopyInputStream
 (
 )
@@ -1119,7 +1118,8 @@ virtual
 ZeroCopyInputStream
 (
 )
-;
+{
+}
 /
 /
 Obtains
@@ -1640,7 +1640,6 @@ ZeroCopyOutputStream
 {
 public
 :
-inline
 ZeroCopyOutputStream
 (
 )
@@ -1651,7 +1650,8 @@ virtual
 ZeroCopyOutputStream
 (
 )
-;
+{
+}
 /
 /
 Obtains

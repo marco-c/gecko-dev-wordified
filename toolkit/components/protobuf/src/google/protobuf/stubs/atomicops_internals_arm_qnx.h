@@ -688,7 +688,7 @@ value
 }
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {
@@ -714,7 +714,7 @@ ptr
 =
 value
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -731,7 +731,7 @@ Atomic32
 value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -774,7 +774,7 @@ value
 *
 ptr
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -793,7 +793,7 @@ Atomic32
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;

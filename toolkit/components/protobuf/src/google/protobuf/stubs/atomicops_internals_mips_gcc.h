@@ -629,7 +629,7 @@ tmp
 )
 :
 "
-Ir
+r
 "
 (
 old_value
@@ -1168,7 +1168,7 @@ Release
 semantics
 .
 A
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 has
@@ -1179,9 +1179,9 @@ semantics
 but
 does
 no
+/
+/
 memory
-/
-/
 access
 .
 inline
@@ -1276,7 +1276,7 @@ value
 }
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {
@@ -1312,7 +1312,7 @@ ptr
 =
 value
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -1329,7 +1329,7 @@ Atomic32
 value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -1372,7 +1372,7 @@ value
 *
 ptr
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -1391,7 +1391,7 @@ Atomic32
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -1593,7 +1593,7 @@ tmp
 )
 :
 "
-Ir
+r
 "
 (
 old_value
@@ -2050,7 +2050,7 @@ Atomic64
 increment
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2063,7 +2063,7 @@ ptr
 increment
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2132,7 +2132,7 @@ Release
 semantics
 .
 A
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 has
@@ -2143,9 +2143,9 @@ semantics
 but
 does
 no
+/
+/
 memory
-/
-/
 access
 .
 inline
@@ -2172,7 +2172,7 @@ old_value
 new_value
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2194,7 +2194,7 @@ Atomic64
 new_value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2242,7 +2242,7 @@ ptr
 =
 value
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2259,7 +2259,7 @@ Atomic64
 value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2302,7 +2302,7 @@ value
 *
 ptr
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -2321,7 +2321,7 @@ Atomic64
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
