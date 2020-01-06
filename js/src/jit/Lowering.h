@@ -1207,6 +1207,14 @@ ins
 )
 ;
 void
+visitStringConvertCase
+(
+MStringConvertCase
+*
+ins
+)
+;
+void
 visitSinCos
 (
 MSinCos

@@ -2206,6 +2206,14 @@ lir
 )
 ;
 void
+visitStringConvertCase
+(
+LStringConvertCase
+*
+lir
+)
+;
+void
 visitSinCos
 (
 LSinCos

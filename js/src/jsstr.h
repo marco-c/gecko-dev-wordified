@@ -3052,7 +3052,7 @@ StringToLowerCase
 JSContext
 *
 cx
-HandleLinearString
+HandleString
 string
 )
 ;
@@ -3064,7 +3064,7 @@ StringToUpperCase
 JSContext
 *
 cx
-HandleLinearString
+HandleString
 string
 )
 ;
