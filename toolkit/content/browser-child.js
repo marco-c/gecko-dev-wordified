@@ -3383,13 +3383,6 @@ function
 aMessage
 )
 {
-requestIdleCallback
-(
-(
-)
-=
->
-{
 let
 result
 =
@@ -3414,9 +3407,6 @@ Response
 "
 {
 result
-}
-)
-;
 }
 )
 ;
