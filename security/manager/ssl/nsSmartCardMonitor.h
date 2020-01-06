@@ -272,8 +272,8 @@ void
 SendEvent
 (
 const
-nsAString
-&
+char
+*
 type
 const
 char
