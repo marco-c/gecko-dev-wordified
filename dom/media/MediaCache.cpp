@@ -3426,10 +3426,6 @@ mClient
 (
 aClient
 )
-mHasHadUpdate
-(
-false
-)
 mClosed
 (
 false
@@ -10486,13 +10482,6 @@ default
 break
 ;
 }
-stream
--
->
-mHasHadUpdate
-=
-true
-;
 }
 for
 (
