@@ -706,7 +706,7 @@ h
 #
 include
 "
-nsIContentPrefService
+nsIContentPrefService2
 .
 h
 "
