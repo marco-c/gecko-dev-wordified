@@ -706,6 +706,16 @@ debug
 '
 sm
 -
+win
+-
+compacting
+-
+debug
+'
+    
+'
+sm
+-
 fuzzing
 '
     
@@ -753,6 +763,26 @@ opt
     
 '
 sm
+-
+win
+-
+plain
+-
+opt
+'
+    
+'
+sm
+-
+plaindebug
+-
+debug
+'
+    
+'
+sm
+-
+win
 -
 plaindebug
 -
