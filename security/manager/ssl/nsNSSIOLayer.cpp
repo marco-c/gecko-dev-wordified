@@ -2576,11 +2576,6 @@ nullptr
 pinarg
 hostname
 unusedBuiltChain
-nullptr
-/
-/
-no
-peerCertChain
 false
 /
 /

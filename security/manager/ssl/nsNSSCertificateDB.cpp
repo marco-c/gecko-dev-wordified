@@ -7872,11 +7872,6 @@ no
 context
 aHostname
 resultChain
-nullptr
-/
-/
-no
-peerCertChain
 false
 /
 /
@@ -7940,11 +7935,6 @@ get
 (
 )
 resultChain
-nullptr
-/
-/
-no
-peerCertChain
 aFlags
 nullptr
 /

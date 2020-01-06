@@ -3461,11 +3461,6 @@ hostname
 *
 /
 nssChain
-nullptr
-/
-/
-no
-peerCertChain
 CertVerifier
 :
 :
@@ -3593,11 +3588,6 @@ hostname
 *
 /
 nssChain
-nullptr
-/
-/
-no
-peerCertChain
 CertVerifier
 :
 :

@@ -6435,11 +6435,6 @@ host
 /
 hostname
 certList
-nullptr
-/
-/
-no
-peerCertChain
 false
 /
 /
