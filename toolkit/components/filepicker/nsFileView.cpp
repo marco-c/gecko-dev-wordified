@@ -3231,7 +3231,13 @@ DateTimeFormat
 :
 FormatPRTime
 (
+mozilla
+:
+:
 kDateFormatShort
+mozilla
+:
+:
 kTimeFormatSeconds
 lastModTime
 *
