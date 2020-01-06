@@ -263,6 +263,9 @@ wr
 MaybeExternalImageId
 mExternalImageId
 ;
+LayerIntRect
+mPaintedRect
+;
 public
 :
 virtual
