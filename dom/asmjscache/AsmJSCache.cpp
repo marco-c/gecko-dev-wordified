@@ -6609,17 +6609,6 @@ to
 the
 main
 thread
-eBackgroundChildPending
-/
-/
-Waiting
-for
-the
-background
-child
-to
-be
-created
 eOpening
 /
 /
@@ -7025,9 +7014,6 @@ return
 NS_OK
 ;
 }
-case
-eBackgroundChildPending
-:
 case
 eOpening
 :
