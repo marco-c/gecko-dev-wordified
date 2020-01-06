@@ -433,7 +433,7 @@ type
 animation_value_type
 =
 "
-none
+discrete
 "
 boxed
 =
