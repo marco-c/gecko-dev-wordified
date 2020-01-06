@@ -1009,14 +1009,6 @@ version
 }
 )
 ;
-this
-.
-extension
-.
-isEmbedded
-=
-true
-;
 /
 /
 This
