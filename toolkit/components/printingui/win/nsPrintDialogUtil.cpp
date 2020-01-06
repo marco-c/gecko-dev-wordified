@@ -4661,10 +4661,7 @@ prtEnum
 >
 GetDefaultPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 }
@@ -4889,10 +4886,7 @@ aPrintSettings
 >
 GetPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 /
@@ -5809,7 +5803,10 @@ aPrintSettings
 >
 SetToFileName
 (
+nsDependentString
+(
 fileName
+)
 )
 ;
 aPrintSettings
@@ -5845,7 +5842,9 @@ aPrintSettings
 >
 SetToFileName
 (
-nullptr
+EmptyString
+(
+)
 )
 ;
 }
@@ -5882,7 +5881,10 @@ psWin
 >
 SetDeviceName
 (
+nsDependentString
+(
 device
+)
 )
 ;
 psWin
@@ -5890,7 +5892,10 @@ psWin
 >
 SetDriverName
 (
+nsDependentString
+(
 driver
+)
 )
 ;
 #
@@ -5950,7 +5955,10 @@ aPrintSettings
 >
 SetPrinterName
 (
+nsDependentString
+(
 device
+)
 )
 ;
 if

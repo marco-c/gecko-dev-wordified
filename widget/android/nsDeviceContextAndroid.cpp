@@ -352,10 +352,7 @@ mPrintSettings
 >
 GetToFileName
 (
-getter_Copies
-(
 targetPath
-)
 )
 ;
 nsresult

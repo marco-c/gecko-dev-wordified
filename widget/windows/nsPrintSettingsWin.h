@@ -391,12 +391,10 @@ DEVMODEW
 aOutDevMode
 )
 ;
-wchar_t
-*
+nsString
 mDeviceName
 ;
-wchar_t
-*
+nsString
 mDriverName
 ;
 LPDEVMODEW

@@ -145,11 +145,13 @@ kOutputFormatPDF
 ;
 SetPrinterName
 (
-u
+NS_LITERAL_STRING
+(
 "
 PDF
 printer
 "
+)
 )
 ;
 }

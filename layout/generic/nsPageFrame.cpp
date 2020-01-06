@@ -4629,10 +4629,7 @@ mPrintSettings
 >
 GetHeaderStrLeft
 (
-getter_Copies
-(
 headerLeft
-)
 )
 ;
 mPD
@@ -4643,10 +4640,7 @@ mPrintSettings
 >
 GetHeaderStrCenter
 (
-getter_Copies
-(
 headerCenter
-)
 )
 ;
 mPD
@@ -4657,10 +4651,7 @@ mPrintSettings
 >
 GetHeaderStrRight
 (
-getter_Copies
-(
 headerRight
-)
 )
 ;
 DrawHeaderFooter
@@ -4690,10 +4681,7 @@ mPrintSettings
 >
 GetFooterStrLeft
 (
-getter_Copies
-(
 footerLeft
-)
 )
 ;
 mPD
@@ -4704,10 +4692,7 @@ mPrintSettings
 >
 GetFooterStrCenter
 (
-getter_Copies
-(
 footerCenter
-)
 )
 ;
 mPD
@@ -4718,10 +4703,7 @@ mPrintSettings
 >
 GetFooterStrRight
 (
-getter_Copies
-(
 footerRight
-)
 )
 ;
 DrawHeaderFooter

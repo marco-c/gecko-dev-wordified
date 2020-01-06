@@ -506,8 +506,8 @@ NS_IMETHOD
 SetToFileName
 (
 const
-char16_t
-*
+nsAString
+&
 aToFileName
 )
 override
