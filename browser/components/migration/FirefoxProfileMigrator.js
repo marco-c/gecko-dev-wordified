@@ -22,8 +22,12 @@ level
 *
 -
 *
+/
+/
+*
 vim
 :
+set
 sw
 =
 2
