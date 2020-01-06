@@ -282,8 +282,8 @@ typedef
 mozilla
 :
 :
-RawSelectionType
-RawSelectionType
+SelectionTypeMask
+SelectionTypeMask
 ;
 typedef
 mozilla
@@ -3110,7 +3110,7 @@ our
 text
 returned
 in
-aAllTypes
+aAllSelectionTypeMask
 .
 /
 /
@@ -3150,9 +3150,9 @@ SelectionDetails
 >
 &
 aDetails
-RawSelectionType
+SelectionTypeMask
 *
-aAllRawSelectionTypes
+aAllSelectionTypeMask
 const
 nsCharClipDisplayItem
 :
