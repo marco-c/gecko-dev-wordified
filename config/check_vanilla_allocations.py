@@ -1304,7 +1304,10 @@ group
 )
         
 #
-mozalloc
+The
+memory
+allocator
+code
 contains
 calls
 to
@@ -1314,16 +1317,16 @@ These
 are
 ok
 so
-we
-whitelist
         
 #
+we
+whitelist
 them
 .
         
 if
 "
-mozalloc
+_memory_
 "
 in
 filename
