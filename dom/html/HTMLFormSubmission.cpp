@@ -5080,10 +5080,7 @@ GetDocumentCharacterSet
 ;
 }
 return
-WrapNotNull
-(
 UTF_8_ENCODING
-)
 ;
 }
 void
