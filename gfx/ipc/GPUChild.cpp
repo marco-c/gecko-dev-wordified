@@ -1285,7 +1285,7 @@ mHost
 mListener
 -
 >
-OnProcessDeviceReset
+OnRemoteProcessDeviceReset
 (
 mHost
 )

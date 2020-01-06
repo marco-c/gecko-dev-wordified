@@ -214,6 +214,7 @@ nsIWidget
 GetWidget
 (
 )
+const
 ;
 RefPtr
 <

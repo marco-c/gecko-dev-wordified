@@ -9302,7 +9302,7 @@ void
 nsBaseWidget
 :
 :
-NotifyRemoteCompositorSessionLost
+NotifyCompositorSessionLost
 (
 CompositorSession
 *

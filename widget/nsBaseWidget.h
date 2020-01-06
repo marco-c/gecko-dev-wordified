@@ -1216,7 +1216,7 @@ has
 returned
 .
 void
-NotifyRemoteCompositorSessionLost
+NotifyCompositorSessionLost
 (
 mozilla
 :
