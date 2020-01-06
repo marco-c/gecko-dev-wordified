@@ -793,11 +793,12 @@ if
 aDuration
 |
 |
-*
 aDuration
-=
-=
-zeroDuration
+-
+>
+IsZero
+(
+)
 |
 |
 aIterations

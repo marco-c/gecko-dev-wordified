@@ -1049,9 +1049,6 @@ MOZ_ASSERT
 result
 .
 mActiveDuration
-!
-=
-zeroDuration
 "
 How
 can
@@ -1131,12 +1128,10 @@ overallProgress
 ;
 if
 (
+!
 result
 .
 mDuration
-=
-=
-zeroDuration
 )
 {
 overallProgress
