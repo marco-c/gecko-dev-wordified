@@ -419,6 +419,8 @@ TenureCountCache
 enum
 class
 AllocKind
+:
+uint8_t
 ;
 class
 TenuredCell

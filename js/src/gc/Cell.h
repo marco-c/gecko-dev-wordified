@@ -254,6 +254,8 @@ Arena
 enum
 class
 AllocKind
+:
+uint8_t
 ;
 struct
 Chunk
