@@ -4132,6 +4132,10 @@ KillSlowScript
 SlowScriptResponse
 ShowSlowScriptDialog
 (
+const
+nsString
+&
+aAddonId
 )
 ;
 /
