@@ -942,6 +942,34 @@ ObjectIdentifier
 oidString
 )
         
+#
+Directly
+setting
+parameters
+to
+univ
+.
+Null
+doesn
+'
+t
+currently
+work
+.
+        
+nullEncapsulated
+=
+encoder
+.
+encode
+(
+univ
+.
+Null
+(
+)
+)
+        
 algorithmIdentifier
 [
 '
@@ -951,8 +979,9 @@ parameters
 =
 univ
 .
-Null
+Any
 (
+nullEncapsulated
 )
         
 return
