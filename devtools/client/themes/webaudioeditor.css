@@ -171,8 +171,6 @@ theme
 body
 -
 color
--
-alt
 )
 ;
 }
@@ -229,6 +227,10 @@ arrow
 -
 color
 )
+;
+fill
+:
+none
 ;
 }
 svg
