@@ -260,6 +260,9 @@ nsXBLPrototypeResources
 bool
 LoadResources
 (
+nsIContent
+*
+aBoundElement
 )
 ;
 void

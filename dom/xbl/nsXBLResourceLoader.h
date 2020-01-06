@@ -287,6 +287,9 @@ override
 bool
 LoadResources
 (
+nsIContent
+*
+aBoundElement
 )
 ;
 void
