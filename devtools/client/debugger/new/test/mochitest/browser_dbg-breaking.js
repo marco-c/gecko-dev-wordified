@@ -142,6 +142,14 @@ resume
 dbg
 )
 ;
+const
+paused
+=
+waitForPaused
+(
+dbg
+)
+;
 /
 /
 Create
@@ -160,10 +168,7 @@ doEval
 )
 ;
 await
-waitForPaused
-(
-dbg
-)
+paused
 ;
 await
 resume
