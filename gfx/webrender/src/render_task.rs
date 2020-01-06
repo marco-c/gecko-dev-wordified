@@ -1629,6 +1629,9 @@ clip_store
 :
 &
 ClipStore
+is_axis_aligned
+:
+bool
 )
 -
 >
@@ -2002,6 +2005,9 @@ None
 ;
 }
 if
+is_axis_aligned
+&
+&
 clips
 .
 len
