@@ -90,13 +90,16 @@ jsm
 "
 )
 ;
-function
-getAPI
+const
+getSettingsAPI
+=
 (
 extension
 name
 callback
 )
+=
+>
 {
 return
 {
@@ -171,6 +174,7 @@ name
 }
 ;
 }
+;
 /
 /
 Add
@@ -277,7 +281,7 @@ browserSettings
 {
 cacheEnabled
 :
-getAPI
+getSettingsAPI
 (
 extension
 "

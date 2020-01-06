@@ -71,11 +71,12 @@ enabled
 "
 )
 ;
-function
-convert
-(
+const
+convertIdentity
+=
 identity
-)
+=
+>
 {
 let
 result
@@ -115,6 +116,7 @@ return
 result
 ;
 }
+;
 this
 .
 contextualIdentities
@@ -193,7 +195,7 @@ Promise
 .
 resolve
 (
-convert
+convertIdentity
 (
 identity
 )
@@ -267,7 +269,7 @@ identities
 .
 push
 (
-convert
+convertIdentity
 (
 identity
 )
@@ -328,7 +330,7 @@ Promise
 .
 resolve
 (
-convert
+convertIdentity
 (
 identity
 )
@@ -500,7 +502,7 @@ Promise
 .
 resolve
 (
-convert
+convertIdentity
 (
 identity
 )
@@ -591,7 +593,7 @@ it
 let
 convertedIdentity
 =
-convert
+convertIdentity
 (
 identity
 )
