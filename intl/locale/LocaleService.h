@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 mozILocaleService
 .
 h
@@ -552,6 +559,8 @@ public
 mozILocaleService
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
