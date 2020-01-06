@@ -4586,6 +4586,17 @@ SpecifiedValue
 :
 Values
 (
+font_family
+:
+:
+computed_value
+:
+:
+FontFamilyList
+:
+:
+new
+(
 vec
 !
 [
@@ -4603,6 +4614,7 @@ from_atom
 font_family
 )
 ]
+)
 )
 )
 )
