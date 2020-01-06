@@ -430,6 +430,17 @@ I337
 /
 S4
 "
+SPH
+-
+L720
+"
+/
+/
+S4
+(
+Sprint
+)
+"
 SAMSUNG
 -
 SGH
