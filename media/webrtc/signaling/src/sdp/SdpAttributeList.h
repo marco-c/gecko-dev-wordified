@@ -283,6 +283,15 @@ Clear
 0
 ;
 virtual
+uint32_t
+Count
+(
+)
+const
+=
+0
+;
+virtual
 const
 SdpConnectionAttribute
 &

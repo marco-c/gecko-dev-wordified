@@ -257,6 +257,14 @@ Clear
 override
 ;
 virtual
+uint32_t
+Count
+(
+)
+const
+override
+;
+virtual
 const
 SdpConnectionAttribute
 &
