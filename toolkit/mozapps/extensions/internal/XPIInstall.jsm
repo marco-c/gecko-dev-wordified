@@ -2600,6 +2600,14 @@ dependencies
 )
 )
 ;
+addon
+.
+startupData
+=
+extension
+.
+startupData
+;
 if
 (
 manifest
