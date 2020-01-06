@@ -1410,7 +1410,7 @@ GetInstance
 )
 -
 >
-GetSystemLocales
+GetRegionalPrefsLocales
 (
 aRetVal
 )
