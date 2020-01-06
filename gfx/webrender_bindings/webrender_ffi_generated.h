@@ -3198,10 +3198,13 @@ FontKey
 WrFontKey
 ;
 struct
-FontInstanceOptions
+WrFontInstanceOptions
 {
 FontRenderMode
 render_mode
+;
+bool
+synthetic_italics
 ;
 bool
 operator
@@ -3209,7 +3212,7 @@ operator
 =
 (
 const
-FontInstanceOptions
+WrFontInstanceOptions
 &
 aOther
 )
@@ -3222,6 +3225,14 @@ render_mode
 aOther
 .
 render_mode
+&
+&
+synthetic_italics
+=
+=
+aOther
+.
+synthetic_italics
 ;
 }
 }
@@ -4528,7 +4539,7 @@ aFontKey
 float
 aGlyphSize
 const
-FontInstanceOptions
+WrFontInstanceOptions
 *
 aOptions
 const
