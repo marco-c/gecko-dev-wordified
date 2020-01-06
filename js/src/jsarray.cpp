@@ -7063,6 +7063,9 @@ isDOMClass
 )
 )
 {
+#
+ifdef
+DEBUG
 /
 /
 We
@@ -7075,10 +7078,7 @@ true
 for
 IsArray
 .
-DebugOnly
-<
 IsArrayAnswer
->
 answer
 ;
 MOZ_ASSERT
@@ -7106,6 +7106,8 @@ IsArrayAnswer
 NotArray
 )
 ;
+#
+endif
 return
 true
 ;
