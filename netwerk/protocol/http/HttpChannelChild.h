@@ -333,6 +333,9 @@ nsIEventTarget
 class
 nsInputStreamPump
 ;
+class
+nsIInterceptedBodyCallback
+;
 namespace
 mozilla
 {
@@ -1196,6 +1199,9 @@ aListener
 nsIInputStream
 *
 aInput
+nsIInterceptedBodyCallback
+*
+aCallback
 nsAutoPtr
 <
 nsHttpResponseHead
@@ -1240,6 +1246,12 @@ nsCOMPtr
 nsIInputStream
 >
 mInput
+;
+nsCOMPtr
+<
+nsIInterceptedBodyCallback
+>
+mCallback
 ;
 nsAutoPtr
 <
@@ -1592,6 +1604,9 @@ aResponseHead
 nsIInputStream
 *
 aSynthesizedInput
+nsIInterceptedBodyCallback
+*
+aSynthesizedCallback
 InterceptStreamListener
 *
 aStreamListener
@@ -1603,6 +1618,9 @@ ForceIntercepted
 nsIInputStream
 *
 aSynthesizedInput
+nsIInterceptedBodyCallback
+*
+aSynthesizedCallback
 )
 ;
 /
@@ -1690,6 +1708,11 @@ TimeStamp
 aTime
 )
 ;
+void
+MaybeCallSynthesizedCallback
+(
+)
+;
 RequestHeaderTuples
 mClientSetRequestHeaders
 ;
@@ -1704,6 +1727,12 @@ nsCOMPtr
 nsIInputStream
 >
 mSynthesizedInput
+;
+nsCOMPtr
+<
+nsIInterceptedBodyCallback
+>
+mSynthesizedCallback
 ;
 int64_t
 mSynthesizedStreamLength
