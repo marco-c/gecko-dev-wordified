@@ -2316,11 +2316,9 @@ IsServo
 )
 )
 {
-NS_WARNING
-(
-"
-stylo
-:
+/
+/
+XXXheycam
 ServoStyleSheets
 don
 '
@@ -2330,9 +2328,7 @@ support
 style
 scoped
 >
-"
-)
-;
+.
 }
 else
 {
