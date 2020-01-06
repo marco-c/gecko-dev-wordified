@@ -1013,10 +1013,7 @@ SanitizeStyleDeclaration
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDeclaration
 nsAutoString
