@@ -1141,6 +1141,7 @@ StreamDataCallback
 (
 isize
 )
+StreamStateCallback
 }
 /
 /
