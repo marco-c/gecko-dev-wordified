@@ -907,7 +907,7 @@ styleWindow
 /
 Flush
 the
-debounce
+throttle
 for
 the
 preview
@@ -915,7 +915,7 @@ text
 .
 view
 .
-debounce
+throttle
 .
 flush
 (

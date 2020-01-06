@@ -2367,7 +2367,7 @@ value
 ;
 view
 .
-debounce
+throttle
 .
 flush
 (
@@ -2637,7 +2637,7 @@ styleWindow
 }
 view
 .
-debounce
+throttle
 .
 flush
 (

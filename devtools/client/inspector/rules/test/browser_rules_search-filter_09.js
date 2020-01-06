@@ -545,7 +545,7 @@ value
 ;
 view
 .
-debounce
+throttle
 .
 flush
 (

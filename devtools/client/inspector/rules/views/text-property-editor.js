@@ -590,7 +590,7 @@ this
 .
 ruleView
 .
-debounce
+throttle
 (
 this
 .
@@ -6301,7 +6301,7 @@ Since
 function
 call
 is
-debounced
+throttled
 we
 need
 to
