@@ -995,7 +995,7 @@ aContent
 *
 /
 void
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -1051,7 +1051,7 @@ aContent
 *
 /
 void
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 nsIContent
 *

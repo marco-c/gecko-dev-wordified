@@ -1638,7 +1638,7 @@ void
 nsFrameManager
 :
 :
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -2050,13 +2050,13 @@ parent
 aParentContent
 )
 {
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 child
 parent
 )
 ;
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 child
 parent
@@ -2195,7 +2195,7 @@ void
 nsFrameManager
 :
 :
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 nsIContent
 *

@@ -57239,7 +57239,7 @@ that
 s
 fixed
 .
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 aChild
 aContainer
@@ -57525,7 +57525,7 @@ return
 }
 }
 }
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 aChild
 aContainer
@@ -58659,7 +58659,7 @@ that
 s
 fixed
 .
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 aChild
 aContainer
