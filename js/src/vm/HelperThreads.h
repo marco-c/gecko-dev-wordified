@@ -828,6 +828,12 @@ maxWasmTier2GeneratorThreads
 const
 ;
 size_t
+maxPromiseHelperThreads
+(
+)
+const
+;
+size_t
 maxParseThreads
 (
 )
