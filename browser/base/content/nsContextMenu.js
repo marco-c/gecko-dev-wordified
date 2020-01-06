@@ -871,6 +871,11 @@ currentURI
 spec
 :
 undefined
+linkText
+:
+this
+.
+linkTextStr
 linkUrl
 :
 this
