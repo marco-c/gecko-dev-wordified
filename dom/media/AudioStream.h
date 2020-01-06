@@ -2007,6 +2007,9 @@ DataSource
 &
 mDataSource
 ;
+bool
+mPrefillQuirk
+;
 }
 ;
 }
