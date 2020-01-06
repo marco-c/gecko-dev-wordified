@@ -1179,15 +1179,6 @@ we
 care
 about
 .
-this
-.
-FormAssistant
-.
-register
-(
-win
-)
-;
 return
 this
 .
