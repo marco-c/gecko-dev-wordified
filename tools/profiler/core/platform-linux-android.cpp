@@ -656,10 +656,7 @@ mozilla
 static
 *
 /
-Thread
-:
-:
-tid_t
+int
 Thread
 :
 :

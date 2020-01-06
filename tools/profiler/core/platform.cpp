@@ -15306,10 +15306,7 @@ ret
 =
 nullptr
 ;
-Thread
-:
-:
-tid_t
+int
 id
 =
 Thread
@@ -18995,10 +18992,7 @@ thread
 if
 appropriate
 .
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
@@ -19814,10 +19808,7 @@ sampling
 live
 threads
 .
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
@@ -21394,10 +21385,7 @@ return
 nullptr
 ;
 }
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
