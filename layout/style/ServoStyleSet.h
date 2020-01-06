@@ -2682,6 +2682,12 @@ ServoComputedValuesBorrowedOrNull
 aParentOrNull
 RawServoDeclarationBlockBorrowed
 aDeclarations
+css
+:
+:
+Loader
+*
+aLoader
 )
 ;
 already_AddRefed

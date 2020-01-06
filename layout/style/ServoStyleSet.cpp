@@ -6675,6 +6675,12 @@ ServoComputedValuesBorrowedOrNull
 aParentOrNull
 RawServoDeclarationBlockBorrowed
 aDeclarations
+css
+:
+:
+Loader
+*
+aLoader
 )
 {
 UpdateStylistIfNeeded
@@ -6691,6 +6697,7 @@ get
 )
 aParentOrNull
 aDeclarations
+aLoader
 )
 .
 Consume
