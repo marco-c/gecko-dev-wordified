@@ -288,12 +288,15 @@ n
 "
 aRootLayerTreeId
 aOriginatingLayersId
-(
+static_cast
+<
 int
-)
+>
+(
 aState
 .
 mType
+)
 aState
 .
 mSequenceNumber
