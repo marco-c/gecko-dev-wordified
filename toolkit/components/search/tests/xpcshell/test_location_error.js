@@ -32,10 +32,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 /
 /
 We

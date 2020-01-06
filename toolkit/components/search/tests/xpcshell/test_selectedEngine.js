@@ -83,6 +83,11 @@ asyncInit
 (
 )
 ;
+await
+installTestEngine
+(
+)
+;
 do_check_eq
 (
 Services

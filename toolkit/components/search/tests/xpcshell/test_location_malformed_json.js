@@ -139,10 +139,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 /
 /
 setup
