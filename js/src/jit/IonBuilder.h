@@ -5949,6 +5949,14 @@ CallInfo
 callInfo
 )
 ;
+InliningResult
+inlineFinishBoundFunctionInit
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Testing

@@ -2678,6 +2678,14 @@ MDebugCheckSelfHosted
 ins
 )
 ;
+void
+visitFinishBoundFunctionInit
+(
+MFinishBoundFunctionInit
+*
+ins
+)
+;
 }
 ;
 }
