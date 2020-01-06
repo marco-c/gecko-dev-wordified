@@ -595,16 +595,13 @@ panes
 General
 "
 "
-Applications
+Search
 "
 "
 Privacy
 "
 "
 Sync
-"
-"
-Advanced
 "
 ]
 ;
