@@ -243,6 +243,11 @@ EmptyTransaction
 (
 )
 ;
+bool
+NeedsEmptyTransaction
+(
+)
+;
 void
 BuildWebRenderCommands
 (
