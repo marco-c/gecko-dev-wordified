@@ -6925,10 +6925,8 @@ return
 NS_OK
 ;
 }
-RefPtr
-<
 Element
->
+*
 root
 =
 mTextEditor
