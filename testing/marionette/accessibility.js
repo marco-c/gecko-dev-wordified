@@ -1403,8 +1403,12 @@ hidden
 )
 ;
 }
-finally
+catch
+(
+e
+)
 {
+}
 /
 /
 if
@@ -1428,7 +1432,6 @@ hidden
 true
 "
 ;
-}
 }
 /
 *
