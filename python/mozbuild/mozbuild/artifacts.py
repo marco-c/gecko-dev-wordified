@@ -7288,6 +7288,32 @@ hexdigest
 16
 ]
             
+#
+Strip
+query
+string
+and
+fragments
+.
+            
+basename
+=
+os
+.
+path
+.
+basename
+(
+urlparse
+.
+urlparse
+(
+url
+)
+.
+path
+)
+            
 fname
 =
 hash
@@ -7296,14 +7322,7 @@ hash
 -
 '
 +
-os
-.
-path
-.
 basename
-(
-url
-)
         
 path
 =
