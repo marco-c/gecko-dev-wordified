@@ -1766,9 +1766,9 @@ invoked
 "
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         
@@ -4001,9 +4001,9 @@ None
 :
             
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
             
@@ -4831,9 +4831,9 @@ mkstemp
 )
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         
@@ -6542,9 +6542,9 @@ test
 manifests
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         

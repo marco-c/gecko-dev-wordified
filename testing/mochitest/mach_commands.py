@@ -615,9 +615,9 @@ return
 test_objects
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         
@@ -3112,9 +3112,9 @@ test_paths
 ]
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         
