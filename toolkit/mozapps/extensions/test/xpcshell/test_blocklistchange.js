@@ -378,6 +378,7 @@ checkUpdateSecurity
 "
 false
 )
+;
 var
 testserver
 =
