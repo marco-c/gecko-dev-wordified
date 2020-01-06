@@ -786,7 +786,7 @@ openssl
 '
 {
 }
-                    
+                     
 '
 Using
 OpenSSL
@@ -804,7 +804,7 @@ openssl
             
 return
 {
-                 
+                
 '
 OPENSSL_INCLUDE_DIR
 '
@@ -821,9 +821,9 @@ openssl
 /
 include
 '
-                 
+                
 '
-DEP_OPENSSL_INCLUDE
+OPENSSL_LIB_DIR
 '
 :
 '
@@ -836,7 +836,7 @@ opt
 /
 openssl
 /
-include
+lib
 '
             
 }
