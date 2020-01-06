@@ -2649,7 +2649,10 @@ ReleaseData
 void
 *
 aData
-uint32_t
+nsAString
+:
+:
+DataFlags
 aFlags
 )
 ;
@@ -3159,7 +3162,7 @@ char_type
 *
 oldData
 ;
-uint32_t
+DataFlags
 oldFlags
 ;
 if

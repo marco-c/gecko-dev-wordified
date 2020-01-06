@@ -295,7 +295,14 @@ char_type
 aData
 )
 aLength
-F_NONE
+DataFlags
+(
+0
+)
+ClassFlags
+(
+0
+)
 )
 {
 }

@@ -180,7 +180,7 @@ special
 buffers
 .
 The
-mFlags
+mDataFlags
 member
 variable
 distinguishes
