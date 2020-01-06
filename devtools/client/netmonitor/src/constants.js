@@ -1230,9 +1230,6 @@ images
 media
 "
 "
-flash
-"
-"
 ws
 "
 "
