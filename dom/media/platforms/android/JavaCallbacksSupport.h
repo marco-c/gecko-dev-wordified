@@ -132,6 +132,12 @@ using
 Base
 :
 :
+GetNative
+;
+using
+Base
+:
+:
 DisposeNative
 ;
 JavaCallbacksSupport
