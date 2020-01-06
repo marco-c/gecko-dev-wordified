@@ -556,6 +556,9 @@ focusFilterMode
 "
 all
 "
+compareRetainedDisplayLists
+:
+false
 compareStyloToGecko
 :
 false
