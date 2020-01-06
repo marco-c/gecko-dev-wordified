@@ -1113,6 +1113,11 @@ insertRecompileCheck
 (
 )
 ;
+bool
+usesEnvironmentChain
+(
+)
+;
 AbortReasonOr
 <
 Ok
