@@ -4821,6 +4821,11 @@ mLoadID
 =
 0
 ;
+bool
+mThrottleReadahead
+=
+false
+;
 /
 /
 The
@@ -4955,11 +4960,6 @@ window
 const
 bool
 mIsPrivateBrowsing
-;
-bool
-mThrottleReadahead
-=
-false
 ;
 }
 ;
