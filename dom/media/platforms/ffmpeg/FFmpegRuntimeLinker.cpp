@@ -253,8 +253,6 @@ dylib
 "
 #
 else
-/
-/
 "
 libavcodec
 -
@@ -264,8 +262,6 @@ so
 .
 57
 "
-/
-/
 "
 libavcodec
 -
@@ -275,8 +271,6 @@ so
 .
 56
 "
-/
-/
 "
 libavcodec
 .
@@ -284,8 +278,6 @@ so
 .
 57
 "
-/
-/
 "
 libavcodec
 .
@@ -293,8 +285,6 @@ so
 .
 56
 "
-/
-/
 "
 libavcodec
 .
@@ -302,8 +292,6 @@ so
 .
 55
 "
-/
-/
 "
 libavcodec
 .
