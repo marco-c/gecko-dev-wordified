@@ -23513,6 +23513,15 @@ return
 op
 -
 >
+emptyResultTypeSet
+(
+)
+&
+&
+!
+op
+-
+>
 mightBeType
 (
 MIRType
