@@ -1338,9 +1338,6 @@ message
 "
 Unable
 to
-"
-                                             
-"
 download
 %
 (
@@ -1923,8 +1920,6 @@ installer_base_names
 platform
 ]
 %
-\
-                    
 {
 '
 version
@@ -1997,8 +1992,6 @@ s
 s
 '
 %
-\
-                    
 (
 dirs
 [
@@ -2051,8 +2044,6 @@ s
 s
 '
 %
-\
-                        
 (
 dirs
 [
@@ -2114,9 +2105,6 @@ s
 locale
 )
 s
-"
-                                                 
-"
 installer
 !
 "
@@ -2415,8 +2403,6 @@ installer_base_names
 platform
 ]
 %
-\
-                    
 {
 '
 version
@@ -2511,8 +2497,6 @@ s
 s
 '
 %
-\
-                        
 (
 dirs
 [
@@ -2546,8 +2530,6 @@ s
 s
 '
 %
-\
-                        
 (
 dirs
 [
@@ -2681,7 +2663,6 @@ apk
 platform
 locale
 )
-                                         
 level
 =
 FATAL

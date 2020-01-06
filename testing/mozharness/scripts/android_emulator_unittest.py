@@ -105,6 +105,8 @@ sys
 import
 signal
 import
+socket
+import
 subprocess
 import
 time
@@ -224,7 +226,6 @@ TestingMixin
 EmulatorMixin
 VCSMixin
 BaseScript
-                          
 MozbaseMixin
 )
 :
@@ -266,7 +267,7 @@ default
 "
 :
 None
-         
+        
 }
     
 ]
@@ -314,7 +315,7 @@ Path
 to
 adb
 "
-         
+        
 }
     
 ]
@@ -363,7 +364,7 @@ of
 total
 chunks
 "
-         
+        
 }
     
 ]
@@ -412,7 +413,7 @@ of
 this
 chunk
 "
-         
+        
 }
     
 ]
@@ -537,7 +538,7 @@ run
 -
 tests
 '
-                         
+                        
 ]
             
 default_actions
@@ -582,7 +583,7 @@ run
 -
 tests
 '
-                             
+                            
 ]
             
 require_config_file
@@ -1437,11 +1438,11 @@ dirs
 abs_mochitest_dir
 '
 ]
-                                        
+                        
 '
 websocketprocessbridge
 '
-                                        
+                        
 '
 websocketprocessbridge_requirements
 .
@@ -1474,7 +1475,7 @@ dirs
 abs_test_install_dir
 '
 ]
-                                        
+                                    
 '
 config
 '
@@ -2089,9 +2090,6 @@ d
 seconds
 exceeded
 ;
-"
-                          
-"
 remaining
 attempts
 abandoned
@@ -2526,7 +2524,6 @@ _retry
 self
 .
 _verify_adb_device
-                                    
 "
 Verify
 emulator
@@ -2576,7 +2573,6 @@ Android
 boot
 completed
 "
-                              
 max_time
 =
 330
@@ -2791,7 +2787,6 @@ r
 -
 g
 '
-                   
 self
 .
 installer_path
@@ -2825,7 +2820,6 @@ install
 -
 r
 '
-                   
 self
 .
 installer_path
@@ -2909,7 +2903,6 @@ r
 -
 g
 '
-                   
 self
 .
 robocop_path
@@ -2943,7 +2936,6 @@ install
 -
 r
 '
-                   
 self
 .
 robocop_path
@@ -3384,7 +3376,7 @@ suffix
 .
 png
 '
-                                               
+                
 dir
 =
 dirs
@@ -4329,8 +4321,8 @@ get
 verify
 '
 )
-is
-not
+!
+=
 True
 :
             
@@ -4597,9 +4589,6 @@ revision
 for
 manifest
 ;
-'
-                         
-'
 using
 mozilla
 -
@@ -4779,9 +4768,13 @@ None
 #
     
 #
+#
+#
 Actions
 for
 AndroidEmulatorTest
+#
+#
 #
     
 #
@@ -5187,8 +5180,6 @@ self
 .
 config
 or
-\
-           
 '
 tools_manifest
 '
@@ -5793,7 +5784,7 @@ emulator
 device_id
 '
 ]
-                   
+                    
 '
 shell
 '
@@ -5865,7 +5856,7 @@ emulator
 device_id
 '
 ]
-                   
+                    
 '
 shell
 '
@@ -5935,7 +5926,7 @@ emulator
 device_id
 '
 ]
-                   
+                    
 '
 shell
 '
@@ -6040,7 +6031,6 @@ max_restarts
 self
 .
 _verify_emulator_and_restart_on_fail
-                                  
 "
 Check
 emulator
@@ -6072,7 +6062,7 @@ attempts
 '
 %
 max_restarts
-                       
+                
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
@@ -6190,10 +6180,6 @@ S
 StrictMode
 :
 S
-'
-\
-            
-'
 ExchangeService
 :
 S
@@ -6203,6 +6189,8 @@ s
 &
 '
 %
+\
+            
 (
 self
 .
@@ -6319,7 +6307,6 @@ self
 .
 download_and_extract
 (
-            
 suite_categories
 =
 self
@@ -6617,8 +6604,6 @@ self
 test_suite
 )
 or
-\
-            
 self
 .
 config
@@ -6642,7 +6627,8 @@ install
         
 if
 install_needed
-is
+=
+=
 False
 :
             
@@ -6709,7 +6695,6 @@ adb_path
 -
 s
 '
-                                                     
 self
 .
 emulator
@@ -6718,7 +6703,7 @@ emulator
 device_id
 '
 ]
-                                                
+            
 '
 shell
 '
@@ -6783,7 +6768,7 @@ on
 s
 '
 %
-                       
+                
 (
 self
 .
@@ -6797,7 +6782,6 @@ name
 "
 ]
 )
-                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
@@ -6869,7 +6853,7 @@ on
 s
 '
 %
-                           
+                    
 (
 self
 .
@@ -6883,7 +6867,6 @@ name
 "
 ]
 )
-                           
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
@@ -7454,9 +7437,6 @@ Verification
 too
 long
 :
-"
-                              
-"
 Not
 all
 tests

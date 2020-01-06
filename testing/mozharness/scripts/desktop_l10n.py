@@ -278,6 +278,14 @@ base
 python
 import
 VirtualenvMixin
+from
+mozharness
+.
+mozilla
+.
+mock
+import
+ERROR_MSGS
 try
 :
     
@@ -1240,7 +1248,7 @@ mock
 "
 ]
 {
-         
+        
 "
 dest
 "
@@ -1248,7 +1256,7 @@ dest
 "
 disable_mock
 "
-         
+        
 "
 action
 "
@@ -1256,7 +1264,7 @@ action
 "
 store_true
 "
-         
+        
 "
 help
 "
@@ -3950,7 +3958,7 @@ self
 .
 buildbot_config
 and
-              
+                  
 self
 .
 buildbot_config
@@ -5089,9 +5097,6 @@ replaced
 .
 Check
 your
-'
-                               
-'
 configuration
 '
 .
@@ -6891,7 +6896,7 @@ for
 target_file
 in
 targets
-                                   
+                                    
 if
 f
 .
@@ -8205,8 +8210,6 @@ target
         
 #
 via
-        
-#
 https
 :
 /
@@ -9408,7 +9411,6 @@ _query_complete_mar_url
 (
 locale
 )
-                                
 for
 locale
 in

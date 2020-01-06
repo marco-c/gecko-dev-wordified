@@ -830,7 +830,7 @@ gecko
 config
 says
 "
-         
+        
 }
     
 ]
@@ -1327,8 +1327,6 @@ MOZ_SIGN_CMD
 '
 ]
 =
-\
-                
 subprocess
 .
 list2cmdline
@@ -2033,7 +2031,7 @@ self
 .
 buildbot_config
 and
-                
+                  
 self
 .
 buildbot_config
@@ -2626,18 +2624,18 @@ query_abs_dirs
 self
 )
 :
-        
+         
 if
 self
 .
 abs_dirs
 :
-            
+             
 return
 self
 .
 abs_dirs
-        
+         
 abs_dirs
 =
 super
@@ -2649,7 +2647,7 @@ self
 query_abs_dirs
 (
 )
-        
+         
 dirs
 =
 {
@@ -2658,6 +2656,7 @@ dirs
 abs_tools_dir
 '
 :
+                 
 os
 .
 path
@@ -2679,6 +2678,7 @@ tools
 build_dir
 '
 :
+                 
 os
 .
 path
@@ -2695,22 +2695,22 @@ base_work_dir
 build
 '
 )
-        
+         
 }
-        
+         
 abs_dirs
 .
 update
 (
 dirs
 )
-        
+         
 self
 .
 abs_dirs
 =
 abs_dirs
-        
+         
 return
 self
 .
@@ -2875,7 +2875,6 @@ self
 .
 locales_property
 )
-                                   
 write_to_file
 =
 True
@@ -3133,9 +3132,6 @@ be
 replaced
 .
 Check
-'
-                               
-'
 your
 configuration
 '
@@ -3227,6 +3223,12 @@ buildid
 None
 )
 :
+        
+c
+=
+self
+.
+config
         
 dirs
 =
@@ -3985,7 +3987,6 @@ s
 !
 "
 %
-                                 
 (
 locale
 locale
@@ -4250,9 +4251,6 @@ d
 of
 %
 d
-"
-                                             
-"
 binaries
 successfully
 .
@@ -4993,8 +4991,6 @@ base_post_upload_cmd
 '
 ]
 %
-\
-                    
 {
 '
 version
@@ -5014,7 +5010,6 @@ str
 (
 buildnum
 )
-                        
 '
 post_upload_extra
 '
@@ -5708,7 +5703,6 @@ n
 s
 "
 %
-                       
 (
 apkdir
 apks
@@ -5877,7 +5871,6 @@ upload
 !
 "
 %
-                                     
 (
 locale
 )
@@ -5908,13 +5901,9 @@ repacks
 successful
 abort
 without
-"
-                                          
-"
 submitting
 to
 balrog
-.
 "
 )
         
@@ -6063,8 +6052,6 @@ platforms
 py
 #
 L23
-#
-noqa
                 
 self
 .

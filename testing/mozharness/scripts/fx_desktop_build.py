@@ -632,8 +632,6 @@ True
 build_resources_path
 '
 :
-\
-                
 '
 %
 (

@@ -1881,7 +1881,6 @@ o
 treestatus_json
 treestatus_url
 ]
-                         
 throw_exception
 =
 True
@@ -1931,7 +1930,6 @@ can
 land
 "
 %
-                      
 repr
 (
 treestatus
