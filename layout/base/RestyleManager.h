@@ -1516,9 +1516,6 @@ aStateMask
 nsChangeHint
 *
 aOutChangeHint
-nsRestyleHint
-*
-aOutRestyleHint
 )
 ;
 bool
