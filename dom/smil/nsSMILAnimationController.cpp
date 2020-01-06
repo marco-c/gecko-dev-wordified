@@ -5849,6 +5849,10 @@ PostRestyleEventForAnimations
 key
 .
 mElement
+CSSPseudoElementType
+:
+:
+NotPseudo
 eRestyle_StyleAttribute_Animations
 )
 ;

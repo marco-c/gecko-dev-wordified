@@ -635,6 +635,8 @@ dom
 Element
 *
 aElement
+CSSPseudoElementType
+aPseudoType
 nsRestyleHint
 aRestyleHint
 )
