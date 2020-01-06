@@ -1220,6 +1220,12 @@ AutoIdVector
 unused
 *
 /
+bool
+/
+*
+unused
+*
+/
 mozilla
 :
 :

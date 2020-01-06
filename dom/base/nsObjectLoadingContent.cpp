@@ -24415,6 +24415,12 @@ AutoIdVector
 unused
 *
 /
+bool
+/
+*
+unused
+*
+/
 ErrorResult
 &
 aRv

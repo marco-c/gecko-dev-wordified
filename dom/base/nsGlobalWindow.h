@@ -2940,6 +2940,8 @@ JS
 AutoIdVector
 &
 aNames
+bool
+aEnumerableOnly
 mozilla
 :
 :
