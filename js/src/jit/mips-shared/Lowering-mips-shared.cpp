@@ -5585,7 +5585,7 @@ lir
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
