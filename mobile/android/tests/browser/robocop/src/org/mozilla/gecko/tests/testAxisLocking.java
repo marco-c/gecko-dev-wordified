@@ -196,6 +196,7 @@ MotionEventHelper
 getInstrumentation
 (
 )
+mSolo
 mDriver
 .
 getGeckoLeft
