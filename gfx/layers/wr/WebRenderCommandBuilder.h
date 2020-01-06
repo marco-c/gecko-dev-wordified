@@ -1098,12 +1098,6 @@ layers
 free
 mode
 .
-wr
-:
-:
-BuiltDisplayList
-mBuiltDisplayList
-;
 nsTArray
 <
 WebRenderParentCommand
