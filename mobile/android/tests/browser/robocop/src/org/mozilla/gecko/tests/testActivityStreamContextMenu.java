@@ -1460,9 +1460,6 @@ ActivityStreamContextMenu
 .
 show
 (
-getActivity
-(
-)
 anchor
 ActivityStreamTelemetry
 .

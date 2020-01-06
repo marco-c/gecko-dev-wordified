@@ -2690,7 +2690,6 @@ ActivityStreamContextMenu
 #
 show
 (
-Context
 View
 ActivityStreamTelemetry
 .
@@ -2892,13 +2891,6 @@ ActivityStreamContextMenu
 .
 show
 (
-webpageItemRow
-.
-itemView
-.
-getContext
-(
-)
 snackbarAnchor
 extras
 menuMode
@@ -2969,7 +2961,6 @@ ActivityStreamContextMenu
 #
 show
 (
-Context
 View
 ActivityStreamTelemetry
 .
@@ -3053,11 +3044,6 @@ ActivityStreamContextMenu
 .
 show
 (
-snackbarAnchor
-.
-getContext
-(
-)
 snackbarAnchor
 extras
 ActivityStreamContextMenu

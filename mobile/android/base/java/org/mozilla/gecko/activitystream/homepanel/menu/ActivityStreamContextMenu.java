@@ -466,9 +466,6 @@ private
 ActivityStreamContextMenu
 (
 final
-Context
-context
-final
 View
 snackbarAnchor
 final
@@ -498,7 +495,11 @@ this
 .
 context
 =
-context
+snackbarAnchor
+.
+getContext
+(
+)
 ;
 this
 .
@@ -2459,8 +2460,6 @@ static
 ActivityStreamContextMenu
 show
 (
-Context
-context
 View
 anchor
 ActivityStreamTelemetry
@@ -2513,7 +2512,6 @@ menu
 new
 BottomSheetContextMenu
 (
-context
 anchor
 telemetryExtraBuilder
 menuMode
@@ -2533,7 +2531,6 @@ menu
 new
 PopupContextMenu
 (
-context
 anchor
 telemetryExtraBuilder
 menuMode
