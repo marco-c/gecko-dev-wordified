@@ -231,7 +231,7 @@ createClass
 displayName
 :
 "
-DPRSelector
+DevicePixelRatioSelector
 "
 propTypes
 :
@@ -511,7 +511,9 @@ getFormatStr
 "
 responsive
 .
-autoDPR
+devicePixelRatio
+.
+auto
 "
 selectedDevice
 )
@@ -526,7 +528,7 @@ getStr
 "
 responsive
 .
-devicePixelRatio
+changeDevicePixelRatio
 "
 )
 ;
@@ -611,7 +613,11 @@ id
 "
 global
 -
-dpr
+device
+-
+pixel
+-
+ratio
 -
 selector
 "

@@ -358,7 +358,9 @@ account
 /
 /
 the
-devicePixelRatio
+device
+pixel
+ratio
 for
 canvas
 draws

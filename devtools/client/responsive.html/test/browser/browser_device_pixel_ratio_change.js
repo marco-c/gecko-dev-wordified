@@ -37,7 +37,9 @@ strict
 Tests
 changing
 viewport
-DPR
+device
+pixel
+ratio
 const
 TEST_URL
 =
@@ -53,7 +55,7 @@ charset
 utf
 -
 8
-DPR
+DevicePixelRatio
 list
 test
 "
@@ -226,7 +228,7 @@ ui
 )
 ;
 yield
-testChangingDPR
+testChangingDevicePixelRatio
 (
 ui
 )
@@ -322,7 +324,7 @@ window
 devicePixelRatio
 )
 ;
-testViewportDPRSelect
+testViewportDevicePixelRatioSelect
 (
 ui
 {
@@ -405,7 +407,7 @@ testDevice
 pixelRatio
 )
 ;
-testViewportDPRSelect
+testViewportDevicePixelRatioSelect
 (
 ui
 {
@@ -524,7 +526,7 @@ window
 devicePixelRatio
 )
 ;
-testViewportDPRSelect
+testViewportDevicePixelRatioSelect
 (
 ui
 {
@@ -552,7 +554,7 @@ selected
 }
 function
 *
-testChangingDPR
+testChangingDevicePixelRatio
 (
 ui
 )
@@ -577,7 +579,7 @@ ui
 )
 ;
 yield
-selectDPR
+selectDevicePixelRatio
 (
 ui
 VIEWPORT_DPPX
@@ -593,7 +595,7 @@ ui
 VIEWPORT_DPPX
 )
 ;
-testViewportDPRSelect
+testViewportDevicePixelRatioSelect
 (
 ui
 {
@@ -618,7 +620,7 @@ selected
 ;
 }
 function
-testViewportDPRSelect
+testViewportDevicePixelRatioSelect
 (
 ui
 expected
@@ -631,7 +633,7 @@ Test
 viewport
 '
 s
-DPR
+DevicePixelRatio
 Select
 "
 )
@@ -651,7 +653,11 @@ querySelector
 #
 global
 -
-dpr
+device
+-
+pixel
+-
+ratio
 -
 selector
 "
@@ -665,7 +671,7 @@ value
 expected
 .
 value
-DPR
+DevicePixelRatio
 Select
 value
 should
@@ -686,7 +692,7 @@ disabled
 expected
 .
 disabled
-DPR
+DevicePixelRatio
 Select
 should
 be

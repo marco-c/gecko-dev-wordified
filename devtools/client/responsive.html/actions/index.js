@@ -303,7 +303,9 @@ is
 selected
 from
 the
-DPR
+device
+pixel
+ratio
 dropdown
 .
 "

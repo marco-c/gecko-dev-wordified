@@ -770,7 +770,9 @@ number
 /
 /
 The
-devicePixelRatio
+device
+pixel
+ratio
 of
 the
 viewport

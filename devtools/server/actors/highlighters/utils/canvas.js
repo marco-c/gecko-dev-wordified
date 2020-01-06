@@ -2920,7 +2920,9 @@ window
 '
 s
 *
-devicePixelRatio
+device
+pixel
+ratio
 and
 the
 position
