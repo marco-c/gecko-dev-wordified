@@ -224,12 +224,6 @@ aNamespace
 ;
 static
 void
-OnGPUProcessShutdown
-(
-)
-;
-static
-void
 Shutdown
 (
 )
