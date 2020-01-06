@@ -304,12 +304,6 @@ initialState
 true
 )
 ;
-await
-promiseWindowRestored
-(
-win
-)
-;
 is
 (
 SessionStore
@@ -368,12 +362,6 @@ stringify
 restoreState
 )
 false
-)
-;
-await
-promiseWindowRestored
-(
-win
 )
 ;
 /

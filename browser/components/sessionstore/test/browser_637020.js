@@ -339,12 +339,6 @@ win
 await
 promiseWindow
 ;
-await
-promiseWindowRestored
-(
-win
-)
-;
 /
 /
 The

@@ -261,12 +261,6 @@ setBrowserState
 state
 )
 ;
-await
-promiseWindowRestored
-(
-window
-)
-;
 /
 /
 at
