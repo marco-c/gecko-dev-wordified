@@ -2526,6 +2526,8 @@ aOutputTrackFinished
 =
 true
 ;
+break
+;
 }
 if
 (
@@ -2576,14 +2578,6 @@ interval
 mInputIsBlocked
 )
 {
-/
-/
-Maybe
-the
-input
-track
-ended
-?
 segment
 -
 >
