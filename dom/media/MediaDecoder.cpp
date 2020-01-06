@@ -5718,6 +5718,17 @@ IsShutdown
 )
 )
 ;
+AbstractThread
+:
+:
+AutoEnter
+context
+(
+AbstractMainThread
+(
+)
+)
+;
 UpdatePlaybackRate
 (
 )
@@ -6768,7 +6779,7 @@ layerManager
 layerManager
 -
 >
-AsKnowsCompositor
+AsShadowForwarder
 (
 )
 :
