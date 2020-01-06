@@ -38196,6 +38196,17 @@ parentNode
 ;
 if
 (
+parent
+.
+nodeType
+!
+=
+=
+Node
+.
+ELEMENT_NODE
+|
+|
 (
 parent
 .
