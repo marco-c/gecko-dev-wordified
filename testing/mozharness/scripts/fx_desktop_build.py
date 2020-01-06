@@ -1011,6 +1011,17 @@ try_message_has_flag
 artifact
 '
 )
+or
+os
+.
+environ
+.
+get
+(
+'
+USE_ARTIFACT
+'
+)
 :
             
 #
@@ -1133,9 +1144,9 @@ info
 Artifact
 build
 requested
-in
+by
 try
-syntax
+push
 .
 '
 )
