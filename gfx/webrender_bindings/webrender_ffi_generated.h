@@ -4477,6 +4477,16 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_resource_updates_clear
+(
+ResourceUpdates
+*
+aResources
+)
+WR_FUNC
+;
+WR_INLINE
+void
 wr_resource_updates_delete
 (
 ResourceUpdates

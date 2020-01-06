@@ -155,6 +155,9 @@ wr
 class
 DisplayListBuilder
 ;
+class
+ResourceUpdateQueue
+;
 }
 namespace
 layers
@@ -353,6 +356,17 @@ WebRenderParentCommand
 >
 &
 aCommands
+)
+;
+void
+UpdateResources
+(
+wr
+:
+:
+ResourceUpdateQueue
+&
+aResources
 )
 ;
 bool
