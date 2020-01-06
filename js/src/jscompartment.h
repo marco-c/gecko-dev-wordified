@@ -5881,6 +5881,17 @@ JSContext
 maybecx
 )
 ;
+void
+destroy
+(
+js
+:
+:
+FreeOp
+*
+fop
+)
+;
 MOZ_MUST_USE
 inline
 bool

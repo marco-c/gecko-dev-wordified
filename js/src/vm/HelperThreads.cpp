@@ -9492,6 +9492,7 @@ runtime
 parseTask
 )
 ;
+{
 AutoCompartment
 ac
 (
@@ -9502,7 +9503,6 @@ parseTask
 parseGlobal
 )
 ;
-{
 /
 /
 Generator
