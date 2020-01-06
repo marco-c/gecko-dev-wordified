@@ -813,10 +813,9 @@ around
 mPoolUnusedSize
 if
 (
-!
 mTextureClients
 .
-size
+empty
 (
 )
 )
@@ -828,10 +827,9 @@ AllocateTextureClient
 }
 if
 (
-!
 mTextureClients
 .
-size
+empty
 (
 )
 )
@@ -1592,9 +1590,10 @@ targetUnusedClients
 {
 if
 (
+!
 mTextureClientsDeferred
 .
-size
+empty
 (
 )
 )

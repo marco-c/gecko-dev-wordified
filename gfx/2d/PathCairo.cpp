@@ -1670,9 +1670,10 @@ aContext
 ;
 if
 (
+!
 mPathData
 .
-size
+empty
 (
 )
 )

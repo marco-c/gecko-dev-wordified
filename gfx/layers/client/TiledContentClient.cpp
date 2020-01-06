@@ -6369,13 +6369,12 @@ failed
 }
 if
 (
+!
 mMoz2DTiles
 .
-size
+empty
 (
 )
->
-0
 )
 {
 gfx
