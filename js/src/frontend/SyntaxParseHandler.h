@@ -2099,8 +2099,8 @@ Node
 name
 Node
 fn
-JSOp
-op
+AccessorType
+atype
 )
 {
 return
@@ -2117,8 +2117,8 @@ Node
 name
 Node
 fn
-JSOp
-op
+AccessorType
+atype
 bool
 isStatic
 )

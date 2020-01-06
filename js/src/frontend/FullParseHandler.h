@@ -2496,8 +2496,8 @@ key
 ParseNode
 *
 fn
-JSOp
-op
+AccessorType
+atype
 )
 {
 MOZ_ASSERT
@@ -2566,7 +2566,10 @@ newBinary
 PNK_COLON
 key
 fn
-op
+AccessorTypeToJSOp
+(
+atype
+)
 )
 ;
 if
@@ -2602,8 +2605,8 @@ key
 ParseNode
 *
 fn
-JSOp
-op
+AccessorType
+atype
 bool
 isStatic
 )
@@ -2668,7 +2671,10 @@ ClassMethod
 (
 key
 fn
-op
+AccessorTypeToJSOp
+(
+atype
+)
 isStatic
 )
 ;
