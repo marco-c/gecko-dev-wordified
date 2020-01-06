@@ -19736,6 +19736,15 @@ valueIsTyped
 !
 valid
 ;
+gURLBar
+.
+removeAttribute
+(
+"
+usertyping
+"
+)
+;
 if
 (
 isDifferentValidValue
