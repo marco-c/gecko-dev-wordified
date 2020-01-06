@@ -1701,7 +1701,7 @@ nsIFile
 :
 :
 DIRECTORY_TYPE
-0644
+0755
 )
 ;
 }
