@@ -193,6 +193,9 @@ Element
 class
 NodeInfo
 ;
+struct
+CustomElementDefinition
+;
 }
 /
 /
@@ -311,6 +314,17 @@ const
 nsAString
 *
 aIs
+=
+nullptr
+mozilla
+:
+:
+dom
+:
+:
+CustomElementDefinition
+*
+aDefinition
 =
 nullptr
 )
