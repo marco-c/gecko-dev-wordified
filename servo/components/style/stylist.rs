@@ -493,15 +493,6 @@ ViewportRule
 use
 thread_state
 ;
-pub
-use
-:
-:
-fnv
-:
-:
-FnvHashMap
-;
 /
 /
 /

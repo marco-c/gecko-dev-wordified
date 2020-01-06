@@ -164,11 +164,6 @@ color
 #
 color
 "
-need_clone
-=
-"
-True
-"
 )
 }
 /

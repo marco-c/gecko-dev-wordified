@@ -4545,9 +4545,6 @@ aliases
 extra_gecko_aliases
 '
 '
-extra_servo_aliases
-'
-'
 custom_consts
 '
 '
@@ -6405,9 +6402,6 @@ name
 logical_setter
 (
 name
-need_clone
-=
-False
 )
 "
 >
@@ -6664,10 +6658,6 @@ other
 wm
 )
 }
-%
-if
-need_clone
-:
 /
 /
 /
@@ -6772,8 +6762,6 @@ self
 logical_setter_helper
 >
 }
-%
-endif
 <
 /
 %

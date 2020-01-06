@@ -539,9 +539,6 @@ None
 extra_gecko_aliases
 =
 None
-extra_servo_aliases
-=
-None
                  
 gecko_strip_moz_prefix
 =
@@ -683,18 +680,6 @@ or
         
 self
 .
-extra_servo_aliases
-=
-parse_aliases
-(
-extra_servo_aliases
-or
-"
-"
-)
-        
-self
-.
 consts_map
 =
 {
@@ -794,35 +779,6 @@ return
 aliases
     
 def
-servo_aliases
-(
-self
-)
-:
-        
-aliases
-=
-self
-.
-aliases
-.
-copy
-(
-)
-        
-aliases
-.
-update
-(
-self
-.
-extra_servo_aliases
-)
-        
-return
-aliases
-    
-def
 values_for
 (
 self
@@ -913,9 +869,7 @@ servo
 return
 self
 .
-servo_aliases
-(
-)
+aliases
         
 else
 :
@@ -1287,18 +1241,12 @@ internal
 =
 False
                  
-need_clone
-=
-False
 need_index
 =
 False
 gecko_ffi_name
 =
 None
-depend_on_viewport_size
-=
-False
                  
 allowed_in_keyframe_block
 =
@@ -1309,9 +1257,6 @@ cast_type
 u8
 '
                  
-has_uncacheable_values
-=
-False
 logical
 =
 False
@@ -1462,12 +1407,6 @@ need_index
         
 self
 .
-has_uncacheable_values
-=
-has_uncacheable_values
-        
-self
-.
 gecko_ffi_name
 =
 gecko_ffi_name
@@ -1479,12 +1418,6 @@ m
 self
 .
 camel_case
-        
-self
-.
-depend_on_viewport_size
-=
-depend_on_viewport_size
         
 self
 .
@@ -1842,54 +1775,6 @@ self
 animation_type
 =
 None
-        
-#
-NB
-:
-Animate
-implies
-clone
-because
-a
-property
-animation
-requires
-a
-        
-#
-copy
-of
-the
-computed
-value
-.
-        
-#
-        
-#
-See
-components
-/
-style
-/
-helpers
-/
-animated_properties
-.
-mako
-.
-rs
-.
-        
-self
-.
-need_clone
-=
-need_clone
-or
-self
-.
-animatable
 class
 Shorthand
 (
