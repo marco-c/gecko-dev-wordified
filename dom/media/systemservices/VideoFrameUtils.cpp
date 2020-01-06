@@ -560,6 +560,8 @@ DataY
 =
 nullptr
 )
+&
+&
 /
 /
 Check
@@ -569,8 +571,6 @@ three
 planes
 are
 ordered
-&
-&
 (
 aFrame
 .
@@ -619,6 +619,8 @@ DataV
 (
 )
 )
+&
+&
 /
 /
 Check
@@ -632,8 +634,6 @@ firstPlane
 [
 totalsize
 ]
-&
-&
 (
 &
 aFrame

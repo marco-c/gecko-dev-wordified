@@ -2712,9 +2712,9 @@ version_major
 _maj
 )
 )
+&
+&
 \
-&
-&
 (
 (
 (
@@ -2741,9 +2741,9 @@ version_minor
 _min
 )
 )
+&
+&
 \
-&
-&
 (
 _info
 )
@@ -4350,6 +4350,7 @@ Length
 2
 |
 |
+(
 th_granule_frame
 (
 mCtx
@@ -4369,6 +4370,7 @@ granulepos
 )
 +
 1
+)
 =
 =
 th_granule_frame

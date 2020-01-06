@@ -2463,6 +2463,8 @@ return
 aLength
 >
 MajorLengthPlus1
+&
+&
 /
 /
 Major
@@ -2475,8 +2477,6 @@ at
 least
 1
 char
-&
-&
 StartsWithMIMETypeMajor
 (
 aString

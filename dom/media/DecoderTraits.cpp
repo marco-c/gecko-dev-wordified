@@ -375,6 +375,8 @@ apple
 mpegurl
 "
 )
+|
+|
 /
 /
 Some
@@ -387,8 +389,6 @@ informal
 m3u
 type
 .
-|
-|
 mimeType
 =
 =

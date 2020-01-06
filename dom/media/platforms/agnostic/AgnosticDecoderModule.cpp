@@ -204,11 +204,11 @@ IsVPX
 (
 aMimeType
 )
+|
+|
 #
 ifdef
 MOZ_AV1
-|
-|
 AOMDecoder
 :
 :
@@ -216,10 +216,10 @@ IsAV1
 (
 aMimeType
 )
+|
+|
 #
 endif
-|
-|
 OpusDataDecoder
 :
 :

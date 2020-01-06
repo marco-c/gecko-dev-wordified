@@ -2383,9 +2383,6 @@ here
 mScale
 <
 101
-&
-&
-true
 ;
 }
 int64_t
