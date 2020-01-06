@@ -267,11 +267,6 @@ aSurfaceSize
 )
 ;
 void
-BindComplete
-(
-)
-;
-void
 ActorDestroy
 (
 ActorDestroyReason
