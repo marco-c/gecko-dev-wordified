@@ -191,13 +191,6 @@ devices
 )
 .
 isRequired
-location
-:
-Types
-.
-location
-.
-isRequired
 screenshot
 :
 PropTypes
@@ -754,7 +747,6 @@ render
 let
 {
 devices
-location
 screenshot
 swapAfterMount
 viewport
@@ -881,7 +873,6 @@ px
 Browser
 (
 {
-location
 swapAfterMount
 onBrowserMounted
 onContentResize

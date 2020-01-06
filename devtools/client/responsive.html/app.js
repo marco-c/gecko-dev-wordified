@@ -317,13 +317,6 @@ pixelRatio
 value
 .
 isRequired
-location
-:
-Types
-.
-location
-.
-isRequired
 networkThrottling
 :
 PropTypes
@@ -913,7 +906,6 @@ let
 {
 devices
 displayPixelRatio
-location
 networkThrottling
 screenshot
 touchSimulation
@@ -1047,7 +1039,6 @@ Viewports
 (
 {
 devices
-location
 screenshot
 viewports
 onBrowserMounted

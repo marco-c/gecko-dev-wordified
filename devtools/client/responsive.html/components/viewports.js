@@ -141,13 +141,6 @@ devices
 )
 .
 isRequired
-location
-:
-Types
-.
-location
-.
-isRequired
 screenshot
 :
 PropTypes
@@ -234,7 +227,6 @@ render
 let
 {
 devices
-location
 screenshot
 viewports
 onBrowserMounted
@@ -283,7 +275,6 @@ viewport
 .
 id
 devices
-location
 screenshot
 swapAfterMount
 :
