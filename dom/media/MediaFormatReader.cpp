@@ -6442,6 +6442,12 @@ Canonical
 )
 "
 )
+mFrameStats
+(
+aInit
+.
+mFrameStats
+)
 {
 MOZ_ASSERT
 (
@@ -12730,7 +12736,7 @@ AbstractMediaDecoder
 AutoNotifyDecoded
 a
 (
-mDecoder
+mFrameStats
 )
 ;
 /

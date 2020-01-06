@@ -217,6 +217,12 @@ CreateGMPCrashHelper
 (
 )
 ;
+init
+.
+mFrameStats
+=
+mFrameStats
+;
 mReader
 =
 new
