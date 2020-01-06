@@ -681,6 +681,9 @@ aBehavior
 :
 WorkerHolder
 (
+"
+CacheWorkerHolder
+"
 aBehavior
 )
 mNotified

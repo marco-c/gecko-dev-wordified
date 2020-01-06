@@ -525,6 +525,12 @@ DOMEventTargetHelper
 (
 aGlobal
 )
+WorkerHolder
+(
+"
+FileReader
+"
+)
 mFileData
 (
 nullptr

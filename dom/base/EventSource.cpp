@@ -9352,6 +9352,12 @@ EventSourceImpl
 aEventSourceImpl
 )
 :
+WorkerHolder
+(
+"
+EventSourceWorkerHolder
+"
+)
 mEventSourceImpl
 (
 aEventSourceImpl

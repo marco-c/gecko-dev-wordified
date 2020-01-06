@@ -322,6 +322,12 @@ ConnectionWorker
 aConnection
 )
 :
+WorkerHolder
+(
+"
+ConnectionProxy
+"
+)
 mConnection
 (
 aConnection

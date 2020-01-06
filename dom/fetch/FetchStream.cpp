@@ -209,6 +209,9 @@ aStream
 :
 WorkerHolder
 (
+"
+FetchStreamWorkerHolder
+"
 WorkerHolder
 :
 :

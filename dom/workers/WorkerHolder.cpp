@@ -183,10 +183,6 @@ Behavior
 aBehavior
 )
 :
-mName
-(
-aName
-)
 mWorkerPrivate
 (
 nullptr
@@ -200,6 +196,10 @@ mThread
 GetCurrentVirtualThread
 (
 )
+)
+mName
+(
+aName
 )
 {
 }

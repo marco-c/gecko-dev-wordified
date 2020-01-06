@@ -11747,6 +11747,12 @@ Notification
 aNotification
 )
 :
+WorkerHolder
+(
+"
+NotificationWorkerHolder
+"
+)
 mNotification
 (
 aNotification

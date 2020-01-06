@@ -222,6 +222,15 @@ Derived
 aConsumer
 )
 :
+workers
+:
+:
+WorkerHolder
+(
+"
+FetchBodyWorkerHolder
+"
+)
 mConsumer
 (
 aConsumer

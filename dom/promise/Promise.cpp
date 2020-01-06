@@ -3866,6 +3866,12 @@ PromiseWorkerProxy
 aProxy
 )
 :
+WorkerHolder
+(
+"
+PromiseWorkerHolder
+"
+)
 mProxy
 (
 aProxy

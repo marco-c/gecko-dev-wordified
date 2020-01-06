@@ -7182,6 +7182,12 @@ ScriptLoaderRunnable
 aRunnable
 )
 :
+WorkerHolder
+(
+"
+ScriptLoaderHolder
+"
+)
 mRunnable
 (
 aRunnable

@@ -12291,6 +12291,12 @@ WebSocketImpl
 aWebSocketImpl
 )
 :
+WorkerHolder
+(
+"
+WebSocketWorkerHolder
+"
+)
 mWebSocketImpl
 (
 aWebSocketImpl
