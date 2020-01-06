@@ -1516,12 +1516,8 @@ is_macosx
 )
 :
         
-osmesa_path
+osmesa_dep_path
 =
-path
-.
-join
-(
 find_dep_path_newest
 (
 '
@@ -1531,6 +1527,22 @@ src
 '
 bin_path
 )
+        
+if
+not
+osmesa_dep_path
+:
+            
+return
+None
+        
+osmesa_path
+=
+path
+.
+join
+(
+osmesa_dep_path
                                 
 "
 out
@@ -1559,15 +1571,7 @@ path
 .
 join
 (
-find_dep_path_newest
-(
-'
-osmesa
--
-src
-'
-bin_path
-)
+osmesa_dep_path
                                
 "
 out
@@ -1588,18 +1592,6 @@ glapi
 libs
 "
 )
-        
-if
-not
-(
-osmesa_path
-and
-glapi_path
-)
-:
-            
-return
-None
         
 env
 [
