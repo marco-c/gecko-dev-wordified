@@ -210,6 +210,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -2548,11 +2557,13 @@ mSeqno
 ;
 mReply
 =
-new
+MakeUnique
+<
 IPC
 :
 :
 Message
+>
 (
 Move
 (
@@ -2715,7 +2726,7 @@ is_reply_error
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 IPC
 :
@@ -2860,7 +2871,7 @@ one
 was
 received
 .
-nsAutoPtr
+UniquePtr
 <
 IPC
 :
@@ -9452,7 +9463,7 @@ msgName
 latencyMs
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Message
 >
