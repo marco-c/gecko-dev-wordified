@@ -785,8 +785,6 @@ alias
 firefox
 -
 sha1
--
-ssl
 "
             
 "
