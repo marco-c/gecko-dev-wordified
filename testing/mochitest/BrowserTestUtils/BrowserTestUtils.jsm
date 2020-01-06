@@ -6269,6 +6269,9 @@ onMessage
 ;
 resolve
 (
+msg
+.
+data
 )
 ;
 }
