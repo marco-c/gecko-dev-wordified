@@ -315,6 +315,15 @@ include
 "
 vm
 /
+Printer
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h
@@ -30674,6 +30683,12 @@ zone
 )
 )
 ;
+Fprinter
+out
+(
+stderr
+)
+;
 if
 (
 script
@@ -30788,6 +30803,7 @@ name
 >
 dumpCharsNoNewline
 (
+out
 )
 ;
 }
