@@ -377,6 +377,10 @@ NS_taccess
 _waccess
 #
 define
+NS_tatoi
+_wtoi64
+#
+define
 NS_tchdir
 _wchdir
 #
@@ -398,6 +402,10 @@ _wmkdir
 (
 path
 )
+#
+define
+NS_tpid
+__int64
 #
 define
 NS_tremove
@@ -598,6 +606,10 @@ NS_taccess
 access
 #
 define
+NS_tatoi
+atoi
+#
+define
 NS_tchdir
 chdir
 #
@@ -612,6 +624,10 @@ fopen
 define
 NS_tmkdir
 mkdir
+#
+define
+NS_tpid
+int
 #
 define
 NS_tremove
