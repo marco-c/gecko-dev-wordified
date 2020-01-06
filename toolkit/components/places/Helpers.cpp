@@ -1852,6 +1852,15 @@ char
 aTopic
 )
 :
+Runnable
+(
+"
+places
+:
+:
+PlacesEvent
+"
+)
 mTopic
 (
 aTopic

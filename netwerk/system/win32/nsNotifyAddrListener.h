@@ -242,6 +242,15 @@ char
 aEventID
 )
 :
+Runnable
+(
+"
+nsNotifyAddrListener
+:
+:
+ChangeEvent
+"
+)
 mService
 (
 aService

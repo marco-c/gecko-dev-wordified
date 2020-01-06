@@ -1721,6 +1721,15 @@ nsIContent
 aTextField
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+FocusTextField
+"
+)
 mNumber
 (
 aNumber

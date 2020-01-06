@@ -166,6 +166,12 @@ WebGLQuery
 query
 )
 :
+Runnable
+(
+"
+AvailableRunnable
+"
+)
 mQuery
 (
 query

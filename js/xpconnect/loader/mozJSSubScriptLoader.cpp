@@ -4136,6 +4136,15 @@ ScriptPrecompiler
 aPrecompiler
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+NotifyPrecompilationCompleteRunnable
+"
+)
 mPrecompiler
 (
 aPrecompiler

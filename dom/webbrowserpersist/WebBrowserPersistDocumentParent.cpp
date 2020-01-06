@@ -322,6 +322,12 @@ NewRunnableMethod
 nsresult
 >
 (
+"
+nsIWebBrowserPersistDocumentReceiver
+:
+:
+OnError
+"
 mOnReady
 &
 nsIWebBrowserPersistDocumentReceiver

@@ -1698,6 +1698,12 @@ mProcessLinkHeaderEvent
 =
 NewNonOwningRunnableMethod
 (
+"
+nsContentSink
+:
+:
+DoProcessLinkHeader
+"
 this
 &
 nsContentSink

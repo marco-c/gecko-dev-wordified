@@ -546,6 +546,15 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
+"
+_ipdltest
+:
+:
+TestHangsParent
+:
+:
+CleanUp
+"
 this
 &
 TestHangsParent

@@ -1222,6 +1222,15 @@ IProgressObserver
 aObserver
 )
 :
+Runnable
+(
+"
+image
+:
+:
+AsyncNotifyCurrentStateRunnable
+"
+)
 mProgressTracker
 (
 aProgressTracker

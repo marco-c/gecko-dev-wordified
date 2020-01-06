@@ -268,6 +268,16 @@ nsCString
 &
 aURIs
 )
+:
+mozilla
+:
+:
+Runnable
+(
+"
+UnlinkHostObjectURIsRunnable
+"
+)
 {
 mURIs
 .

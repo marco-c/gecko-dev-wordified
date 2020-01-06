@@ -355,6 +355,16 @@ nsICacheListener
 *
 listener
 )
+:
+mozilla
+:
+:
+Runnable
+(
+"
+nsAsyncDoomEvent
+"
+)
 {
 mDescriptor
 =

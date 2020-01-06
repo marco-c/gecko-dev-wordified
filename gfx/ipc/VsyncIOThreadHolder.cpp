@@ -183,6 +183,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsIThread
+:
+:
+AsyncShutdown
+"
 mThread
 &
 nsIThread

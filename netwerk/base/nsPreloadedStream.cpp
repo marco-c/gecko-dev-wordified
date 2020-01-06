@@ -522,6 +522,15 @@ nsIInputStreamCallback
 aCallback
 )
 :
+Runnable
+(
+"
+net
+:
+:
+RunOnThread
+"
+)
 mStream
 (
 aStream

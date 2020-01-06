@@ -406,6 +406,16 @@ nsIGlobalObject
 >
 aGlobal
 )
+:
+Runnable
+(
+"
+dom
+:
+:
+ReleaseRunnable
+"
+)
 {
 mPromises
 .

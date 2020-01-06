@@ -211,6 +211,15 @@ ImageTestCase
 aTestCase
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DecodeToSurfaceRunnable
+"
+)
 mSurface
 (
 aSurface

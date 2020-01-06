@@ -713,6 +713,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+dom
+:
+:
+PresentationReconnectCallback
+:
+:
+NotifySuccess
+"
 [
 sessionId
 service

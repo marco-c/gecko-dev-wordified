@@ -4226,7 +4226,7 @@ grip
 mScrollWatchTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ScrollTimerCallback
 this
@@ -4235,6 +4235,15 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+a11y
+:
+:
+DocAccessible
+:
+:
+ScrollPositionDidChange
+"
 )
 ;
 }

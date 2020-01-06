@@ -1721,6 +1721,15 @@ nsIEditorSpellCheckCallback
 aCallback
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+CallbackCaller
+"
+)
 mCallback
 (
 aCallback

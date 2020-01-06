@@ -954,6 +954,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsIThreadPool
+:
+:
+Shutdown
+"
 mPool
 &
 nsIThreadPool

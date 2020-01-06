@@ -1715,6 +1715,15 @@ nsIContent
 aContent
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DispatchResizeToControls
+"
+)
 mContent
 (
 aContent

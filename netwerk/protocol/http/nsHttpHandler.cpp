@@ -16015,6 +16015,15 @@ event
 =
 NewRunnableMethod
 (
+"
+net
+:
+:
+nsHttpConnectionMgr
+:
+:
+ClearConnectionHistory
+"
 mConnMgr
 &
 nsHttpConnectionMgr

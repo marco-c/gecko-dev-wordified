@@ -261,6 +261,15 @@ int
 aIterations
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DelayedResolveOrReject
+"
+)
 mTaskQueue
 (
 aTaskQueue
@@ -425,6 +434,9 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+RunOnTaskQueue
+"
 aFun
 )
 ;

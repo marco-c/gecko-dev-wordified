@@ -2516,6 +2516,12 @@ Dispatch
 (
 NewRunnableMethod
 (
+"
+nsPicoService
+:
+:
+Init
+"
 this
 &
 nsPicoService
@@ -3143,6 +3149,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsPicoService
+:
+:
+RegisterVoices
+"
 this
 &
 nsPicoService

@@ -267,6 +267,15 @@ IPCBlobInputStream
 aStream
 )
 :
+CancelableRunnable
+(
+"
+dom
+:
+:
+CallbackRunnable
+"
+)
 mCallback
 (
 aCallback

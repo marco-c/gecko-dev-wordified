@@ -1278,6 +1278,15 @@ EventType
 aType
 )
 :
+Runnable
+(
+"
+dom
+:
+:
+SpeechEvent
+"
+)
 mAudioSegment
 (
 0

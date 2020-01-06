@@ -850,6 +850,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+gfx
+:
+:
+GPUParent
+:
+:
+NotifyDeviceReset
+"
 [
 ]
 (

@@ -633,6 +633,12 @@ IUnknown
 aTargetInterface
 )
 :
+Runnable
+(
+"
+HandoffRunnable
+"
+)
 mCallFrame
 (
 aCallFrame
@@ -3193,6 +3199,12 @@ Invoke
 (
 NS_NewRunnableFunction
 (
+"
+MainThreadHandoff
+:
+:
+OnWalkInterface
+"
 checkFn
 )
 )

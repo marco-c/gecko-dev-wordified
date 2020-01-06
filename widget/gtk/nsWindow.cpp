@@ -13402,6 +13402,12 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
+"
+nsWindow
+:
+:
+MaybeDispatchResized
+"
 this
 &
 nsWindow
@@ -26967,6 +26973,12 @@ event
 =
 NewRunnableMethod
 (
+"
+nsWindow
+:
+:
+CheckForRollupDuringGrab
+"
 this
 &
 nsWindow

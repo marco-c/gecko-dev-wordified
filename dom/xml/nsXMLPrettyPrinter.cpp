@@ -1271,6 +1271,12 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+nsXMLPrettyPrinter
+:
+:
+Unhook
+"
 this
 &
 nsXMLPrettyPrinter

@@ -2027,6 +2027,15 @@ AsyncPanZoomController
 >
 >
 (
+"
+layers
+:
+:
+AsyncPanZoomController
+:
+:
+HandleFlingOverscroll
+"
 &
 mApzc
 &

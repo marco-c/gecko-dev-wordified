@@ -9548,6 +9548,12 @@ WebGLContext
 webgl
 )
 :
+CancelableRunnable
+(
+"
+UpdateContextLossStatusTask
+"
+)
 mWebGL
 (
 webgl

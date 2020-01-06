@@ -13444,6 +13444,15 @@ nsHttpTransaction
 trans
 )
 :
+Runnable
+(
+"
+net
+:
+:
+DeleteHttpTransaction
+"
+)
 mTrans
 (
 trans

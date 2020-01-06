@@ -4378,6 +4378,15 @@ event
 =
 NewRunnableMethod
 (
+"
+net
+:
+:
+HttpAsyncAborter
+:
+:
+AsyncCall
+"
 mThis
 funcPtr
 )

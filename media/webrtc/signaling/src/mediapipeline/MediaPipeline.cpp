@@ -1410,6 +1410,12 @@ Image
 bool
 >
 (
+"
+VideoFrameConverter
+:
+:
+ProcessVideoFrame
+"
 this
 &
 VideoFrameConverter

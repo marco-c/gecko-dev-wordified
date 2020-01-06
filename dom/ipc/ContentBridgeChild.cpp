@@ -264,6 +264,15 @@ PostTask
 (
 NewRunnableMethod
 (
+"
+dom
+:
+:
+ContentBridgeChild
+:
+:
+DeferredDestroy
+"
 this
 &
 ContentBridgeChild

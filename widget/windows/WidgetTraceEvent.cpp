@@ -253,6 +253,12 @@ HWNDGetter
 (
 )
 :
+Runnable
+(
+"
+HWNDGetter
+"
+)
 hidden_window_hwnd
 (
 nullptr

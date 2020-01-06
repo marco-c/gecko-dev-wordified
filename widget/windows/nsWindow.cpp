@@ -36464,6 +36464,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsWindow
+:
+:
+ForcePresent
+"
 this
 &
 nsWindow

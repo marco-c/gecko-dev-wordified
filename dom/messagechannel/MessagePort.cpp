@@ -442,6 +442,15 @@ SharedMessagePortMessage
 aData
 )
 :
+CancelableRunnable
+(
+"
+dom
+:
+:
+PostMessageRunnable
+"
+)
 mPort
 (
 aPort

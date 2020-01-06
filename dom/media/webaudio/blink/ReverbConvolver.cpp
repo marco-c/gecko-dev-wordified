@@ -1305,6 +1305,15 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
+"
+WebCore
+:
+:
+ReverbConvolver
+:
+:
+backgroundThreadEntry
+"
 this
 &
 ReverbConvolver

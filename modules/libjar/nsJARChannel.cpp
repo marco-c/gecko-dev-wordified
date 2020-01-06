@@ -6211,6 +6211,12 @@ NewRunnableMethod
 uint64_t
 >
 (
+"
+nsJARChannel
+:
+:
+FireOnProgress
+"
 this
 &
 nsJARChannel

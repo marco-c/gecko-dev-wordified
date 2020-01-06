@@ -833,6 +833,15 @@ int32_t
 aDetail
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+AsyncTimeEventRunner
+"
+)
 mTarget
 (
 aTarget
