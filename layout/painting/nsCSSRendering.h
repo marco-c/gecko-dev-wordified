@@ -3400,6 +3400,11 @@ vertical
 =
 false
 ;
+bool
+sidewaysLeft
+=
+false
+;
 }
 ;
 struct
