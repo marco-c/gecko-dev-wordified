@@ -145,9 +145,6 @@ MediaDecoderStateMachine
 class
 MediaSourceDemuxer
 ;
-class
-MediaSourceResource
-;
 namespace
 dom
 {
@@ -417,12 +414,6 @@ return
 mEnded
 ;
 }
-UniquePtr
-<
-MediaSourceResource
->
-mResource
-;
 RefPtr
 <
 nsIPrincipal

@@ -707,7 +707,7 @@ demuxer
 be
 used
 with
-MediaSourceResource
+MediaSource
 .
 virtual
 void
