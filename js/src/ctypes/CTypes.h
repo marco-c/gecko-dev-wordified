@@ -4070,6 +4070,13 @@ obj
 )
 ;
 bool
+IsCDataMaybeUnwrap
+(
+MutableHandleObject
+obj
+)
+;
+bool
 IsCData
 (
 HandleValue
