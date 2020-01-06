@@ -1036,9 +1036,7 @@ true
 /
 /
 aParserCreated
-EmptyString
-(
-)
+nullptr
 /
 /
 aContent
