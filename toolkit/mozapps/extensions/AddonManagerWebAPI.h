@@ -147,8 +147,6 @@ JSObject
 obj
 )
 ;
-private
-:
 static
 bool
 IsValidSite
