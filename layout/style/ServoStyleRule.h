@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsICSSStyleRuleDOMWrapper
+.
+h
+"
+#
+include
+"
 nsIDOMCSSStyleRule
 .
 h
