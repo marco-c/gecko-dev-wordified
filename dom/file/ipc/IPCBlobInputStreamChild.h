@@ -306,7 +306,7 @@ State
 ;
 already_AddRefed
 <
-nsIInputStream
+IPCBlobInputStream
 >
 CreateStream
 (

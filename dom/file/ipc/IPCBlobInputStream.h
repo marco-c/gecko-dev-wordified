@@ -173,7 +173,7 @@ nsIAsyncInputStream
 public
 nsIInputStreamCallback
 public
-nsICloneableInputStream
+nsICloneableInputStreamWithRange
 public
 nsIIPCSerializableInputStream
 public
@@ -186,6 +186,7 @@ NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSICLONEABLEINPUTSTREAM
+NS_DECL_NSICLONEABLEINPUTSTREAMWITHRANGE
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 NS_DECL_NSIFILEMETADATA
 NS_DECL_NSIASYNCFILEMETADATA
@@ -226,6 +227,15 @@ aEventTarget
 nsresult
 EnsureAsyncRemoteStream
 (
+)
+;
+void
+SetRange
+(
+uint64_t
+aStart
+uint64_t
+aLength
 )
 ;
 RefPtr
@@ -388,6 +398,12 @@ NS_BASE_STREAM_CLOSED
 eClosed
 }
 mState
+;
+uint64_t
+mStart
+;
+uint64_t
+mLength
 ;
 nsCOMPtr
 <
