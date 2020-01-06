@@ -331,7 +331,10 @@ a
 sample
 .
 static
-nsIntSize
+gfx
+:
+:
+IntSize
 GetFrameSize
 (
 Span

@@ -408,7 +408,10 @@ specified
 codec
 .
 static
-nsIntSize
+gfx
+:
+:
+IntSize
 GetFrameSize
 (
 Span

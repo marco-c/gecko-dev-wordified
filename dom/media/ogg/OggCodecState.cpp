@@ -2104,7 +2104,10 @@ or
 zero
 sized
 .
-nsIntSize
+gfx
+:
+:
+IntSize
 frame
 (
 mTheoraInfo
@@ -2115,7 +2118,10 @@ mTheoraInfo
 frame_height
 )
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 picture
 (
 mTheoraInfo
@@ -2132,7 +2138,10 @@ mTheoraInfo
 pic_height
 )
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 display
 (
 mTheoraInfo

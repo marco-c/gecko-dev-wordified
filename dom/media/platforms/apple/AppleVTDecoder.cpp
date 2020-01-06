@@ -2040,7 +2040,10 @@ info
 .
 mDisplay
 =
-nsIntSize
+gfx
+:
+:
+IntSize
 (
 mDisplayWidth
 mDisplayHeight

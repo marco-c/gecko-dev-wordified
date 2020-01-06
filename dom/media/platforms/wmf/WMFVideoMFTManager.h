@@ -171,7 +171,11 @@ h
 #
 include
 "
-nsRect
+mozilla
+/
+gfx
+/
+Rect
 .
 h
 "
@@ -469,7 +473,10 @@ VideoInfo
 mVideoInfo
 ;
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 mImageSize
 ;
 uint32_t

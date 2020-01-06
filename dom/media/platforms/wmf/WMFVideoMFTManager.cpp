@@ -5796,7 +5796,10 @@ IsValid
 E_FAIL
 )
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 pictureRegion
 =
 mVideoInfo
@@ -6014,7 +6017,10 @@ nullptr
 HRESULT
 hr
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 pictureRegion
 =
 mVideoInfo

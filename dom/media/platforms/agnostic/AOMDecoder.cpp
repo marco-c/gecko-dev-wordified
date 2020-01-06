@@ -2488,7 +2488,10 @@ is_kf
 static
 *
 /
-nsIntSize
+gfx
+:
+:
+IntSize
 AOMDecoder
 :
 :
@@ -2558,7 +2561,10 @@ aom_codec_peek_stream_info
 ;
 }
 return
-nsIntSize
+gfx
+:
+:
+IntSize
 (
 info
 .

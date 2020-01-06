@@ -844,7 +844,10 @@ IMFSample
 *
 aVideoSample
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 Image
@@ -2743,7 +2746,10 @@ IMFSample
 *
 aSample
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 Image
@@ -3695,7 +3701,10 @@ IMFSample
 *
 aVideoSample
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 Image
@@ -5444,7 +5453,10 @@ IMFSample
 *
 aVideoSample
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 Image

@@ -2128,7 +2128,10 @@ Theora
 video
 track
 .
-nsIntRect
+gfx
+:
+:
+IntRect
 mPicture
 ;
 /
