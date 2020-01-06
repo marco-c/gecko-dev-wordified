@@ -1061,6 +1061,8 @@ nsStyleTextOverflowSide
 *
 aStyle
 uint32_t
+aLineNumber
+uint32_t
 aIndex
 )
 :
@@ -1083,6 +1085,13 @@ aAscent
 )
 mIndex
 (
+(
+aLineNumber
+<
+<
+1
+)
++
 aIndex
 )
 {
@@ -1120,7 +1129,6 @@ bool
 *
 aSnap
 )
-const
 override
 {
 *
@@ -1157,7 +1165,6 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-const
 override
 {
 if
@@ -1279,7 +1286,6 @@ uint32_t
 GetPerFrameKey
 (
 )
-const
 override
 {
 return
@@ -4264,6 +4270,8 @@ aLists
 nsLineBox
 *
 aLine
+uint32_t
+aLineNumber
 )
 {
 NS_ASSERTION
@@ -4652,6 +4660,7 @@ needIStart
 needIEnd
 insideMarkersArea
 contentArea
+aLineNumber
 )
 ;
 }
@@ -5238,6 +5247,8 @@ const
 LogicalRect
 &
 aContentArea
+uint32_t
+aLineNumber
 )
 {
 if
@@ -5346,6 +5357,7 @@ GetLogicalAscent
 mIStart
 .
 mStyle
+aLineNumber
 0
 )
 ;
@@ -5459,6 +5471,7 @@ GetLogicalAscent
 mIEnd
 .
 mStyle
+aLineNumber
 1
 )
 ;

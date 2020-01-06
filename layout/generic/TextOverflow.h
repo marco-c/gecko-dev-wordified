@@ -377,6 +377,8 @@ aLists
 nsLineBox
 *
 aLine
+uint32_t
+aLineNumber
 )
 ;
 /
@@ -1501,6 +1503,8 @@ const
 LogicalRect
 &
 aContentArea
+uint32_t
+aLineNumber
 )
 ;
 LogicalRect
