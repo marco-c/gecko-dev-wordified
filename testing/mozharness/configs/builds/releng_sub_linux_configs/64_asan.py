@@ -197,9 +197,11 @@ MOZ_OBJDIR
 '
 :
 '
-obj
--
-firefox
+%
+(
+abs_obj_dir
+)
+s
 '
         
 '

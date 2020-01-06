@@ -505,7 +505,13 @@ shared
 MOZ_OBJDIR
 '
 :
-MOZ_OBJDIR
+'
+%
+(
+abs_obj_dir
+)
+s
+'
         
 '
 TINDERBOX_OUTPUT
