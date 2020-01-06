@@ -1810,7 +1810,7 @@ MOZ_ASSERT
 aTask
 )
 ;
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 DecodePool
@@ -1820,6 +1820,10 @@ SyncRunIfPreferred
 "
 GRAPHICS
 aURI
+.
+get
+(
+)
 )
 ;
 if
@@ -1879,7 +1883,7 @@ MOZ_ASSERT
 aTask
 )
 ;
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 DecodePool
@@ -1889,6 +1893,10 @@ SyncRunIfPossible
 "
 GRAPHICS
 aURI
+.
+get
+(
+)
 )
 ;
 aTask
