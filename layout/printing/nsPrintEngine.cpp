@@ -21735,10 +21735,6 @@ aParams
 SetDocTitle
 (
 docTitleStr
-.
-get
-(
-)
 )
 ;
 aParams
@@ -21747,10 +21743,6 @@ aParams
 SetDocURL
 (
 docURLStr
-.
-get
-(
-)
 )
 ;
 }
