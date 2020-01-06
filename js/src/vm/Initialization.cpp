@@ -784,7 +784,7 @@ InitProcessExecutableMemory
 )
 )
 ;
-MOZ_ALWAYS_TRUE
+RETURN_IF_FAIL
 (
 js
 :
