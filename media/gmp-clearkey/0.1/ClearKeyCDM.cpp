@@ -694,4 +694,7 @@ DecodingComplete
 }
 #
 endif
+delete
+this
+;
 }
