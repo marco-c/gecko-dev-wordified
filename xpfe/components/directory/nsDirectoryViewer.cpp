@@ -1980,7 +1980,7 @@ aStatus
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 commentStr
 ;
 mParser
@@ -2261,7 +2261,7 @@ entryuriC
 baseStr
 )
 ;
-nsXPIDLCString
+nsCString
 filename
 ;
 nsresult

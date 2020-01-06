@@ -509,7 +509,7 @@ GetData
 name
 )
 ;
-nsXPIDLCString
+nsCString
 spec
 ;
 aManager

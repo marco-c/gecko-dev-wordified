@@ -7645,7 +7645,7 @@ return
 rv
 ;
 }
-nsXPIDLCString
+nsCString
 str
 ;
 rv

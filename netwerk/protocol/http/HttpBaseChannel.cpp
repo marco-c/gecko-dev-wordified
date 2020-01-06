@@ -18797,7 +18797,7 @@ XRE_IsParentProcess
 )
 )
 ;
-nsXPIDLCString
+nsCString
 cookie
 ;
 if

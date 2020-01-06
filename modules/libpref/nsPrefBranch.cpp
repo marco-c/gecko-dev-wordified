@@ -1250,7 +1250,7 @@ nsACString
 _retval
 )
 {
-nsXPIDLCString
+nsCString
 utf8String
 ;
 nsresult
@@ -1534,7 +1534,7 @@ aPrefName
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 utf8String
 ;
 /

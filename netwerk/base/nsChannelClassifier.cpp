@@ -4457,7 +4457,7 @@ return
 false
 ;
 }
-nsXPIDLCString
+nsCString
 tag
 ;
 cacheEntry

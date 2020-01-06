@@ -2789,7 +2789,7 @@ nsCString
 aResult
 )
 {
-nsXPIDLCString
+nsCString
 temp
 ;
 nsresult
@@ -3500,7 +3500,7 @@ type
 PROXYCONFIG_PAC
 )
 {
-nsXPIDLCString
+nsCString
 pacSpec
 ;
 prefs
@@ -4109,7 +4109,7 @@ reloadPAC
 =
 false
 ;
-nsXPIDLCString
+nsCString
 tempString
 ;
 if
@@ -7629,7 +7629,7 @@ rv
 return
 NS_OK
 ;
-nsXPIDLCString
+nsCString
 pacSpec
 ;
 if

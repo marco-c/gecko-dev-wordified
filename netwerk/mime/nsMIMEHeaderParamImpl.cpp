@@ -587,10 +587,10 @@ return
 charset
 .
 )
-nsXPIDLCString
+nsCString
 med
 ;
-nsXPIDLCString
+nsCString
 charset
 ;
 rv

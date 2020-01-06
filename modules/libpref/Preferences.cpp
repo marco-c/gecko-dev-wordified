@@ -4169,7 +4169,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLCString
+nsCString
 lockFileName
 ;
 /

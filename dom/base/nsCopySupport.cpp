@@ -3748,7 +3748,7 @@ rv
 rv
 )
 ;
-nsXPIDLCString
+nsCString
 mimeType
 ;
 rv

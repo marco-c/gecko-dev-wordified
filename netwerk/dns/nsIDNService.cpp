@@ -1118,7 +1118,7 @@ pref
 )
 )
 {
-nsXPIDLCString
+nsCString
 profile
 ;
 if

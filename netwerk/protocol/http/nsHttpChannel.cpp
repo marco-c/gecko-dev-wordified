@@ -19677,7 +19677,7 @@ response
 is
 invalid
 .
-nsXPIDLCString
+nsCString
 lastVal
 ;
 entry
@@ -25454,7 +25454,7 @@ mCachedContentIsValid
 =
 false
 ;
-nsXPIDLCString
+nsCString
 buf
 ;
 /
@@ -51638,7 +51638,7 @@ mCacheEntry
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsXPIDLCString
+nsCString
 cachedCharset
 ;
 rv

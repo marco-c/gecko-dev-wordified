@@ -18911,7 +18911,7 @@ category
 entry
 if
 available
-nsXPIDLCString
+nsCString
 type
 ;
 nsresult

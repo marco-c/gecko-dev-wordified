@@ -919,7 +919,7 @@ from
 the
 entry
 .
-nsXPIDLCString
+nsCString
 clientId
 ;
 rv

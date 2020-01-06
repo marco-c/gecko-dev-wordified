@@ -3422,9 +3422,6 @@ result
 nsresult
 rv
 ;
-nsXPIDLCString
-key
-;
 /
 /
 try

@@ -3385,7 +3385,7 @@ GetFileExtension
 extension
 )
 ;
-nsXPIDLCString
+nsCString
 mimeType
 ;
 imgRequest

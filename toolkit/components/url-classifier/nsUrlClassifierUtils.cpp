@@ -789,7 +789,7 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
-nsXPIDLCString
+nsCString
 clientId
 ;
 nsresult
@@ -3541,7 +3541,7 @@ get
 )
 )
 ;
-nsXPIDLCString
+nsCString
 owningLists
 ;
 nsresult

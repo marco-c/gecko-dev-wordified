@@ -781,7 +781,7 @@ gssInit
 (
 )
 {
-nsXPIDLCString
+nsCString
 libPath
 ;
 nsCOMPtr

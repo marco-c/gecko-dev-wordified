@@ -12972,7 +12972,7 @@ generate
 the
 cached
 response
-nsXPIDLCString
+nsCString
 buf
 ;
 rv
@@ -13376,7 +13376,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLCString
+nsCString
 cachedAuth
 ;
 rv

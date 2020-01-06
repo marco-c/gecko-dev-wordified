@@ -3924,7 +3924,7 @@ return
 false
 ;
 }
-nsXPIDLCString
+nsCString
 dir
 ;
 prefBranch

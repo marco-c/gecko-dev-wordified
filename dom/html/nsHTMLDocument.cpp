@@ -7875,7 +7875,7 @@ return
 ;
 }
 }
-nsXPIDLCString
+nsCString
 cookie
 ;
 service
@@ -21125,7 +21125,7 @@ NS_OK
 /
 regardless
 .
-nsXPIDLCString
+nsCString
 cStringResult
 ;
 cmdParams

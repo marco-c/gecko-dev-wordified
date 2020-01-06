@@ -4442,7 +4442,7 @@ plain
 "
 )
 ;
-nsXPIDLCString
+nsCString
 format
 ;
 /

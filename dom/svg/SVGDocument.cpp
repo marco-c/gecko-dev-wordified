@@ -1023,7 +1023,7 @@ GetData
 name
 )
 ;
-nsXPIDLCString
+nsCString
 spec
 ;
 catMan

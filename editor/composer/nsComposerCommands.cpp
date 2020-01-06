@@ -3218,7 +3218,7 @@ if
 aParams
 )
 {
-nsXPIDLCString
+nsCString
 s
 ;
 nsresult
@@ -7267,7 +7267,7 @@ for
 creating
 link
 ?
-nsXPIDLCString
+nsCString
 s
 ;
 nsresult

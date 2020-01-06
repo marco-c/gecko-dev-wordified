@@ -2673,7 +2673,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsXPIDLCString
+nsCString
 data
 ;
 mCacheEntry
@@ -2703,7 +2703,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsXPIDLCString
+nsCString
 sourceStr
 ;
 mCacheEntry

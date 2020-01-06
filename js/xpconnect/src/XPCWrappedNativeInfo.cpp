@@ -444,7 +444,7 @@ resultVal
 ccx
 )
 ;
-nsXPIDLCString
+nsCString
 name
 ;
 if
