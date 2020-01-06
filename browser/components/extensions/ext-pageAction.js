@@ -1193,11 +1193,9 @@ it
 to
 the
 |
-page
+urlbar
 -
-action
--
-buttons
+icons
 |
 /
 /
@@ -1317,11 +1315,9 @@ document
 getElementById
 (
 "
-page
+urlbar
 -
-action
--
-buttons
+icons
 "
 )
 .
