@@ -56,8 +56,6 @@ MPL
 import
 imp
 import
-os
-import
 re
 import
 sys
@@ -92,8 +90,6 @@ import
 (
     
 MarionetteException
-    
-ScriptTimeoutException
     
 TimeoutException
 )
@@ -2351,10 +2347,6 @@ START
 {
 0
 }
-:
-{
-1
-}
 '
 )
 "
@@ -2364,25 +2356,7 @@ format
 (
 self
 .
-filepath
-.
-replace
-(
-'
-\
-\
-'
-'
-\
-\
-\
-\
-'
-)
-                                               
-self
-.
-methodName
+test_name
 )
                                        
 sandbox
@@ -2482,10 +2456,6 @@ END
 {
 0
 }
-:
-{
-1
-}
 '
 )
 "
@@ -2495,25 +2465,7 @@ format
 (
 self
 .
-filepath
-.
-replace
-(
-'
-\
-\
-'
-'
-\
-\
-\
-\
-'
-)
-                                                       
-self
-.
-methodName
+test_name
 )
                                                
 sandbox
