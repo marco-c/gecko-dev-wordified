@@ -1012,6 +1012,9 @@ aProofOfLock
 ;
 if
 (
+aUpdateState
+&
+&
 mInputQueueState
 =
 =
@@ -1238,6 +1241,14 @@ mInputQueueState
 =
 =
 STATE_ENABLED
+&
+&
+!
+mInputHandlingStartTime
+.
+IsNull
+(
+)
 &
 &
 TimeStamp
