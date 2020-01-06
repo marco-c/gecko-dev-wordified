@@ -298,6 +298,10 @@ mComputingStruct
 (
 nsStyleStructID_None
 )
+mFrameRefCnt
+(
+0
+)
 #
 endif
 {
