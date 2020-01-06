@@ -548,6 +548,7 @@ def
 run_gecko_test
 (
 testcase
+url
 timeout
 is_async
 )
@@ -575,7 +576,7 @@ driver
 .
 get
 (
-testcase
+url
 )
         
 except
