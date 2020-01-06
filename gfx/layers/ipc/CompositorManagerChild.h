@@ -357,12 +357,6 @@ aActor
 )
 override
 ;
-bool
-ShouldContinueFromReplyTimeout
-(
-)
-override
-;
 private
 :
 static
@@ -436,11 +430,6 @@ Message
 aMsg
 )
 override
-;
-void
-SetReplyTimeout
-(
-)
 ;
 bool
 mCanSend
