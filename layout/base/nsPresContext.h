@@ -6859,6 +6859,11 @@ SysColorChangedInternal
 (
 )
 ;
+void
+RefreshSystemMetrics
+(
+)
+;
 /
 /
 update
