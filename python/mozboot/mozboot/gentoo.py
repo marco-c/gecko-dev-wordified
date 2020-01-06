@@ -421,7 +421,7 @@ jdk_file
 '
 jdk
 -
-8u152
+8u144
 -
 linux
 -
@@ -492,17 +492,19 @@ java
 /
 jdk
 /
-8u152
+8u144
 -
-b16
+b01
 /
-aa0333dd3019491ca4f6ddbe78cdb6d0
+090f390dda5b47b9b721c7dfaa008135
 /
 '
 +
 jdk_file
 ]
 )
+#
+noqa
         
 #
 Install
@@ -593,9 +595,7 @@ bin
 .
 0
 .
-152
--
-r1
+144
 '
 ]
 )
