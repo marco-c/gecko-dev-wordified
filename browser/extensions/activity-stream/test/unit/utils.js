@@ -880,6 +880,8 @@ timing
 navigationStart
 :
 222222
+.
+123
 }
 get
 timeOrigin
@@ -888,6 +890,8 @@ timeOrigin
 {
 return
 10000
+.
+234
 ;
 }
 /

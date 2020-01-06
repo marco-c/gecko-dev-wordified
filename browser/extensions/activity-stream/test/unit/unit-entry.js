@@ -282,6 +282,11 @@ getStringPref
 )
 {
 }
+getBoolPref
+(
+)
+{
+}
 getDefaultBranch
 (
 )
