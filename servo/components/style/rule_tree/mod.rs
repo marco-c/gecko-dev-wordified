@@ -8920,7 +8920,7 @@ guards
 )
 )
 .
-declarations
+declaration_importance_iter
 (
 )
 }
@@ -8955,10 +8955,6 @@ longhands
 =
 declarations
 .
-iter
-(
-)
-.
 rev
 (
 )
@@ -8966,9 +8962,7 @@ rev
 filter_map
 (
 |
-&
 (
-ref
 declaration
 importance
 )
@@ -9683,9 +9677,7 @@ style_source
 )
 ;
 for
-&
 (
-ref
 decl
 important
 )
@@ -9706,11 +9698,7 @@ guards
 )
 )
 .
-declarations
-(
-)
-.
-iter
+declaration_importance_iter
 (
 )
 {

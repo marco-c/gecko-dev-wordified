@@ -79,12 +79,6 @@ ApplicableDeclarationList
 }
 ;
 use
-bit_vec
-:
-:
-BitVec
-;
-use
 context
 :
 :
@@ -350,6 +344,12 @@ Locked
 SharedRwLockReadGuard
 StylesheetGuards
 }
+;
+use
+smallbitvec
+:
+:
+SmallBitVec
 ;
 use
 smallvec
@@ -9204,7 +9204,7 @@ F
 )
 -
 >
-BitVec
+SmallBitVec
 where
 E
 :
@@ -9341,7 +9341,7 @@ let
 mut
 results
 =
-BitVec
+SmallBitVec
 :
 :
 new
