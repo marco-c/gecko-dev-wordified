@@ -569,15 +569,6 @@ true
 ;
 #
 endif
-printf
-(
-"
-enabled
-\
-n
-"
-)
-;
 options
 .
 behaviors
