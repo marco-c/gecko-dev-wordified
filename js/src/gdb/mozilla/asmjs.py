@@ -139,7 +139,7 @@ buf
 #
 See
 if
-AsmJSFaultHandler
+WasmFaultHandler
 is
 installed
 as
@@ -167,14 +167,20 @@ SIGSEGV
 buf
 )
         
-AsmJSFaultHandler
+WasmFaultHandler
 =
 gdb
 .
 parse_and_eval
 (
 "
-AsmJSFaultHandler
+WasmFaultHandler
+<
+(
+Signal
+)
+0
+>
 "
 )
         
@@ -192,7 +198,7 @@ sa_handler
 ]
 =
 =
-AsmJSFaultHandler
+WasmFaultHandler
 :
             
 #
@@ -221,7 +227,7 @@ asmjs
 py
 :
 Allowing
-AsmJSFaultHandler
+WasmFaultHandler
 to
 run
 .
@@ -230,7 +236,7 @@ run
             
 #
 If
-AsmJSFaultHandler
+WasmFaultHandler
 doesn
 '
 t

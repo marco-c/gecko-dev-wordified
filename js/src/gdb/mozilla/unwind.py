@@ -242,6 +242,14 @@ IonAccessorICFrameLayout
 '
     
 '
+JitFrame_IonICCall
+'
+:
+'
+IonICCallFrameLayout
+'
+    
+'
 JitFrame_Exit
 '
 :
@@ -3074,9 +3082,19 @@ cx
 runtime_
 '
 ]
+[
+'
+value
+'
+]
         
 if
+long
+(
 runtime
+.
+address
+)
 =
 =
 0
@@ -3095,7 +3113,12 @@ jitRuntime_
 ]
         
 if
+long
+(
 jitRuntime
+.
+address
+)
 =
 =
 0
