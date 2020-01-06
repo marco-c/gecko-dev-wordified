@@ -1503,7 +1503,7 @@ uri
 ?
 uri
 .
-spec
+displaySpec
 :
 "
 "

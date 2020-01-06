@@ -1778,7 +1778,7 @@ uri
 :
 uri
 .
-spec
+displaySpec
 }
 ;
 this

@@ -4431,7 +4431,7 @@ aChannel
 .
 URI
 .
-spec
+displaySpec
 level
 :
 aLevel
@@ -5383,7 +5383,7 @@ aChannel
 .
 URI
 .
-hostPort
+displayHostPort
 ;
 /
 /
