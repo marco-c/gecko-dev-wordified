@@ -37737,6 +37737,8 @@ esuperior
 '
 '
 '
+'
+'
 isuperior
 '
 '
@@ -207828,6 +207830,10 @@ onFailure
 e
 )
 {
+ensureNotTerminated
+(
+)
+;
 if
 (
 e
@@ -336573,14 +336579,14 @@ pdfjsVersion
 .
 8
 .
-497
+507
 '
 ;
 var
 pdfjsBuild
 =
 '
-f2fcf2a5
+9e4dcf15
 '
 ;
 var
