@@ -3398,6 +3398,16 @@ return
 mIndeterminate
 ;
 }
+bool
+IsDraggingRange
+(
+)
+const
+{
+return
+mIsDraggingRange
+;
+}
 /
 /
 XPCOM
