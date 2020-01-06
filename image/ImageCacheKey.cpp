@@ -737,7 +737,7 @@ Spec
 static
 *
 /
-uint32_t
+PLDHashNumber
 ImageCacheKey
 :
 :
