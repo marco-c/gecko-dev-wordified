@@ -1297,6 +1297,7 @@ function
 loadDocument
 (
 browser
+url
 )
 {
 return
@@ -1332,7 +1333,7 @@ loadURI
 gBrowser
 .
 selectedBrowser
-TEST_PATH
+url
 )
 ;
 }

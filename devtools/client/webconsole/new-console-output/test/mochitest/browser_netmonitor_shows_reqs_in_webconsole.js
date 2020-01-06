@@ -278,6 +278,7 @@ loadDocument
 currentTab
 .
 linkedBrowser
+TEST_PATH
 )
 ;
 info
