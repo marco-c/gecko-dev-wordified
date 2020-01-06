@@ -1422,7 +1422,7 @@ GetGeoInfoW
 (
 geoid
 GEO_ISO2
-char16ptr_t
+wwc
 (
 aCountryCode
 .
