@@ -556,6 +556,7 @@ image
 derive
 (
 Clone
+Debug
 Deserialize
 Serialize
 HeapSizeOf
@@ -716,6 +717,7 @@ u64
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )

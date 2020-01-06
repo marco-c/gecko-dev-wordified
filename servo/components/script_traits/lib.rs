@@ -3483,6 +3483,7 @@ DedicatedGlobalWorkerScope
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -3514,6 +3515,7 @@ derive
 (
 Copy
 Clone
+Debug
 HeapSizeOf
 Deserialize
 Serialize
