@@ -3218,10 +3218,6 @@ mIsFlashPlugin
 (
 false
 )
-mAsyncNewRv
-(
-NS_ERROR_NOT_INITIALIZED
-)
 #
 ifdef
 MOZ_CRASHREPORTER
