@@ -3121,6 +3121,17 @@ switchToTabHavingURI
 (
 MANAGER_URI
 true
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 }

@@ -492,6 +492,13 @@ options_ui
 .
 page
 true
+{
+triggeringPrincipal
+:
+extension
+.
+principal
+}
 )
 ;
 return
