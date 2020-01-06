@@ -984,7 +984,7 @@ uint16_t
 (
 pc
 [
-1
+2
 ]
 <
 <
@@ -993,7 +993,7 @@ pc
 |
 pc
 [
-2
+1
 ]
 )
 ;
@@ -1015,7 +1015,7 @@ pc
 1
 ]
 =
-UINT16_HI
+UINT16_LO
 (
 i
 )
@@ -1025,19 +1025,12 @@ pc
 2
 ]
 =
-UINT16_LO
+UINT16_HI
 (
 i
 )
 ;
 }
-static
-const
-unsigned
-UINT16_LEN
-=
-2
-;
 static
 const
 unsigned
