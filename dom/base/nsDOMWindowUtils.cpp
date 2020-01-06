@@ -19847,6 +19847,7 @@ EventStateManager
 :
 StartHandlingUserInput
 (
+eVoidEvent
 )
 ;
 }
@@ -19925,6 +19926,7 @@ EventStateManager
 :
 StopHandlingUserInput
 (
+eVoidEvent
 )
 ;
 }
