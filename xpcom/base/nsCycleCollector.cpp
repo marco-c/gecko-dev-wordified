@@ -6300,7 +6300,7 @@ Length
 )
 ;
 uint32_t
-newLength
+keptLength
 =
 0
 ;
@@ -6593,7 +6593,7 @@ Next
 ;
 +
 +
-newLength
+keptLength
 ;
 }
 if
@@ -6627,7 +6627,7 @@ if
 oldLength
 !
 =
-newLength
+keptLength
 )
 {
 /
@@ -6774,19 +6774,6 @@ Next
 (
 )
 ;
-+
-+
-newLength
-;
-/
-/
-We
-keep
-all
-the
-new
-entries
-.
 }
 }
 mEntries
@@ -6795,7 +6782,7 @@ PopLastN
 (
 oldLength
 -
-newLength
+keptLength
 )
 ;
 }
