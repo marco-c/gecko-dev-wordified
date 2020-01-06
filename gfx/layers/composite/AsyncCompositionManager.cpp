@@ -8091,7 +8091,7 @@ false
 }
 return
 !
-aTarget
+metrics
 .
 IsScrollInfoLayer
 (
