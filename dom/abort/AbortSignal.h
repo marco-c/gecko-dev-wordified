@@ -200,12 +200,6 @@ Unfollow
 (
 )
 ;
-bool
-IsFollowing
-(
-)
-const
-;
 RefPtr
 <
 AbortSignal

@@ -1550,11 +1550,6 @@ r
 >
 SetReadableStreamBody
 (
-aGlobal
-.
-Context
-(
-)
 readableStreamObj
 )
 ;
@@ -2127,7 +2122,6 @@ response
 >
 SetReadableStreamBody
 (
-aCx
 body
 )
 ;
@@ -2376,7 +2370,6 @@ ref
 >
 SetReadableStreamBody
 (
-aCx
 body
 )
 ;
