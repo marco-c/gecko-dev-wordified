@@ -779,7 +779,7 @@ AsyncGeneratorRequest
 )
 ;
 }
-ArrayObject
+NativeObject
 *
 queue
 (
@@ -799,7 +799,7 @@ toObject
 .
 as
 <
-ArrayObject
+NativeObject
 >
 (
 )
@@ -1120,7 +1120,7 @@ queue
 )
 -
 >
-length
+getDenseInitializedLength
 (
 )
 =
