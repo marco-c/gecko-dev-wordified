@@ -2410,7 +2410,7 @@ GetPseudoElementType
 )
 ;
 }
-nsChangeHint
+uint32_t
 Gecko_CalcStyleDifference
 (
 ServoStyleContextBorrowed
