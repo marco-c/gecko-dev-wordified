@@ -386,7 +386,7 @@ Eager
 if
 self
 .
-is_anon_box
+is_precomputed
 (
 )
 {
@@ -1028,6 +1028,14 @@ bool
 self
 .
 is_anon_box
+(
+)
+&
+&
+!
+self
+.
+is_tree_pseudo_element
 (
 )
 }
