@@ -22373,8 +22373,8 @@ nsIContent
 aSplitPointParent
 int32_t
 aSplitPointOffset
-EmptyContainers
-aEmptyContainers
+SplitAtEdges
+aSplitAtEdges
 nsIContent
 *
 *
@@ -22507,13 +22507,13 @@ false
 if
 (
 (
-aEmptyContainers
+aSplitAtEdges
 =
 =
-EmptyContainers
+SplitAtEdges
 :
 :
-yes
+eAllowToCreateEmptyContainer
 &
 &
 !
