@@ -4428,6 +4428,7 @@ v
 ]
 )
 ;
+await
 PlacesTestUtils
 .
 addVisits
