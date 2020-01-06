@@ -1674,6 +1674,16 @@ json
 .
 innerWindowID
 ;
+this
+.
+_browser
+.
+_contentRequestContextID
+=
+json
+.
+requestContextID
+;
 }
 this
 .
