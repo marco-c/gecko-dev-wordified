@@ -8514,7 +8514,7 @@ INSPECTOR_L10N
 getStr
 (
 "
-inspectorCollapseNode
+inspectorCollapseAll
 .
 label
 "
@@ -8537,7 +8537,7 @@ click
 >
 this
 .
-collapseNode
+collapseAll
 (
 )
 }
@@ -13524,7 +13524,7 @@ nodeFront
 )
 ;
 }
-collapseNode
+collapseAll
 :
 function
 (
@@ -13534,7 +13534,7 @@ this
 .
 markup
 .
-collapseNode
+collapseAll
 (
 this
 .
