@@ -7290,7 +7290,10 @@ if
 fileName
 )
 return
+validateFileName
+(
 fileName
+)
 ;
 }
 let
@@ -7643,9 +7646,12 @@ the
 host
 .
 return
+validateFileName
+(
 aURI
 .
 host
+)
 ;
 }
 catch
