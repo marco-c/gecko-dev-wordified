@@ -121,9 +121,7 @@ import
     
 verify_docs
     
-verify_task_graph_symbol
-    
-verify_gecko_v2_routes
+verifications
 )
 logger
 =
@@ -1594,10 +1592,13 @@ verify_run_using
 )
         
 yield
+verifications
+(
 '
 full_task_set
 '
 full_task_set
+)
         
 logger
 .
@@ -1666,28 +1667,6 @@ edges
 )
 )
         
-full_task_graph
-.
-for_each_task
-(
-verify_task_graph_symbol
-scratch_pad
-=
-{
-}
-)
-        
-full_task_graph
-.
-for_each_task
-(
-verify_gecko_v2_routes
-scratch_pad
-=
-{
-}
-)
-        
 logger
 .
 info
@@ -1724,10 +1703,13 @@ edges
 )
         
 yield
+verifications
+(
 '
 full_task_graph
 '
 full_task_graph
+)
         
 logger
 .
@@ -1865,10 +1847,13 @@ target_tasks
 )
         
 yield
+verifications
+(
 '
 target_task_set
 '
 target_task_set
+)
         
 logger
 .
@@ -1974,10 +1959,13 @@ target_graph
 )
         
 yield
+verifications
+(
 '
 target_task_graph
 '
 target_task_graph
+)
         
 logger
 .
@@ -2035,10 +2023,13 @@ do_not_optimize
 )
         
 yield
+verifications
+(
 '
 optimized_task_graph
 '
 optimized_task_graph
+)
         
 morphed_task_graph
 label_to_taskid
@@ -2060,10 +2051,13 @@ label_to_taskid
 label_to_taskid
         
 yield
+verifications
+(
 '
 morphed_task_graph
 '
 morphed_task_graph
+)
     
 def
 _run_until
