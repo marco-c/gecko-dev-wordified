@@ -6242,10 +6242,6 @@ redirect
 html
 "
     
-log
-=
-None
-    
 certdbNew
 =
 False
@@ -6411,14 +6407,6 @@ urlOpts
 [
 ]
         
-if
-self
-.
-log
-is
-None
-:
-            
 commandline
 .
 log_formatters
@@ -6429,9 +6417,9 @@ tbpl
 ]
 =
 (
-                
+            
 MochitestFormatter
-                
+            
 "
 Mochitest
 specific
@@ -6439,7 +6427,7 @@ tbpl
 formatter
 "
 )
-            
+        
 self
 .
 log
@@ -6451,11 +6439,8 @@ setup_logging
 "
 mochitest
 "
-                                                 
 logger_options
-                                                 
 {
-                                                     
 "
 tbpl
 "
@@ -6463,17 +6448,8 @@ tbpl
 sys
 .
 stdout
-                                                 
 }
 )
-            
-MochitestDesktop
-.
-log
-=
-self
-.
-log
         
 #
 Jetpack
