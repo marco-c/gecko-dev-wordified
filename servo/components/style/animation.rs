@@ -3639,13 +3639,6 @@ previous_style
 )
 /
 *
-cascade_info
-=
-*
-/
-None
-/
-*
 visited_style
 =
 *
