@@ -278,9 +278,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 override
 ;
@@ -534,14 +531,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mPopupgroupContent
 .
@@ -550,9 +542,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mTooltipContent
 .
@@ -567,7 +557,6 @@ nsBoxFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

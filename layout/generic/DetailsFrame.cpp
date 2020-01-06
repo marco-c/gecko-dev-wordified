@@ -497,14 +497,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mDefaultSummary
 .
@@ -519,7 +514,6 @@ nsBlockFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

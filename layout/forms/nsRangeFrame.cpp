@@ -613,9 +613,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 NS_ASSERTION
@@ -686,9 +683,7 @@ this
 false
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mTrackDiv
 .
@@ -697,9 +692,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mProgressDiv
 .
@@ -708,9 +701,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mThumbDiv
 .
@@ -725,7 +716,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

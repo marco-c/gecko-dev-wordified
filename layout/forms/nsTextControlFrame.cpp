@@ -736,9 +736,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 mScrollEvent
@@ -867,9 +864,7 @@ frames
 are
 destroyed
 .
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mRootNode
 .
@@ -878,9 +873,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mPlaceholderDiv
 .
@@ -889,9 +882,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mPreviewDiv
 .
@@ -906,7 +897,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

@@ -647,14 +647,6 @@ nsOverflowAreas
 aOverflowAreas
 )
 ;
-using
-PostDestroyData
-=
-nsIFrame
-:
-:
-PostDestroyData
-;
 void
 DestroyFrames
 (
@@ -664,9 +656,6 @@ aDelegatingFrame
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 ;
 bool

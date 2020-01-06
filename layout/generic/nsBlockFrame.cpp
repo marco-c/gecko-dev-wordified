@@ -2028,9 +2028,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 ClearLineCursor
@@ -2040,7 +2037,6 @@ ClearLineCursor
 DestroyAbsoluteFrames
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 mFloats
@@ -2048,7 +2044,6 @@ mFloats
 DestroyFramesFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 nsPresContext
@@ -2080,7 +2075,6 @@ mLines
 aDestructRoot
 &
 mFrames
-aPostDestroyData
 )
 ;
 if
@@ -2093,7 +2087,6 @@ HasPushedFloats
 SafelyDestroyFrameListProp
 (
 aDestructRoot
-aPostDestroyData
 shell
 PushedFloatProperty
 (
@@ -2141,7 +2134,6 @@ overflowLines
 -
 >
 mFrames
-aPostDestroyData
 )
 ;
 delete
@@ -2160,7 +2152,6 @@ NS_BLOCK_HAS_OVERFLOW_OUT_OF_FLOWS
 SafelyDestroyFrameListProp
 (
 aDestructRoot
-aPostDestroyData
 shell
 OverflowOutOfFlowsProperty
 (
@@ -2183,7 +2174,6 @@ HasOutsideBullet
 SafelyDestroyFrameListProp
 (
 aDestructRoot
-aPostDestroyData
 shell
 OutsideBulletProperty
 (
@@ -2202,7 +2192,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }
