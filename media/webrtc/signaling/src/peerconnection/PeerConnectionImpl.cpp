@@ -4505,11 +4505,8 @@ res
 Initialize
 (
 aObserver
+&
 aWindow
-.
-AssertInner
-(
-)
 converted
 aThread
 )
