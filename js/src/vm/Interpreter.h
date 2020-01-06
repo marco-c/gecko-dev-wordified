@@ -3613,6 +3613,17 @@ HandleObject
 proto
 )
 ;
+JSObject
+*
+HomeObjectSuperBase
+(
+JSContext
+*
+cx
+HandleObject
+homeObj
+)
+;
 }
 /
 *
