@@ -189,6 +189,8 @@ void
 (
 )
 >
+&
+&
 aCheck
 uint32_t
 aPriority
