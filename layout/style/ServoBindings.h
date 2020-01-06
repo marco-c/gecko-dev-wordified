@@ -3878,13 +3878,6 @@ nsCSSValueSharedList
 CSSValueSharedList
 )
 ;
-bool
-Gecko_PropertyId_IsPrefEnabled
-(
-nsCSSPropertyID
-id
-)
-;
 void
 Gecko_nsStyleFont_SetLang
 (
