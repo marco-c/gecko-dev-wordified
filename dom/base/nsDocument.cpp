@@ -7847,6 +7847,10 @@ mDidCallBeginLoad
 (
 false
 )
+mBufferingCSPViolations
+(
+false
+)
 mIsScopedStyleEnabled
 (
 eScopedStyle_Unknown
