@@ -371,6 +371,9 @@ s
 )
 #
 s
+#
+ifdef
+MOZILLA_OFFICIAL
 static
 cdm
 :
@@ -417,6 +420,8 @@ TakePlatformFile
 )
 ;
 }
+#
+endif
 GMPErr
 ChromiumCDMAdapter
 :
@@ -453,6 +458,9 @@ return
 GMPGenericErr
 ;
 }
+#
+ifdef
+MOZILLA_OFFICIAL
 /
 /
 Note
@@ -567,6 +575,8 @@ result
 )
 ;
 }
+#
+endif
 auto
 init
 =

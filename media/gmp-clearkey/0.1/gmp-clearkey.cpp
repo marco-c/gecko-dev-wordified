@@ -328,6 +328,9 @@ nullptr
 }
 #
 endif
+#
+ifdef
+MOZILLA_OFFICIAL
 /
 /
 Test
@@ -352,6 +355,8 @@ return
 nullptr
 ;
 }
+#
+endif
 cdm
 :
 :
