@@ -3973,9 +3973,6 @@ SourceMapURLService
 this
 .
 _target
-this
-.
-threadClient
 sourceMaps
 )
 ;
