@@ -850,6 +850,7 @@ KeyError
 raise
 TemplateError
 (
+                
 '
 no
 context
@@ -1472,6 +1473,7 @@ KeyError
 raise
 TemplateError
 (
+                
 '
 {
 }
@@ -1809,6 +1811,7 @@ list
 raise
 expectationError
 (
+                
 '
 in
 '
@@ -2241,29 +2244,3 @@ KeyError
         
 return
 None
-        
-#
-raise
-TemplateError
-(
-'
-{
-}
-not
-found
-in
-{
-}
-'
-.
-format
-(
-a
-json
-.
-dumps
-(
-value
-)
-)
-)

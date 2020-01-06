@@ -754,7 +754,7 @@ if
 isinstance
 (
 reference
-str
+string
 )
 :
         
@@ -766,6 +766,7 @@ datetime
 .
 strptime
 (
+            
 reference
 '
 %

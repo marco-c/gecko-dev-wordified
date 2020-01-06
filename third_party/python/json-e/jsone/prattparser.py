@@ -764,6 +764,7 @@ remainder
 raise
 SyntaxError
 (
+                        
 "
 Unexpected
 input
@@ -811,6 +812,7 @@ indexes
 =
 list
 (
+                
 filter
 (
 lambda
