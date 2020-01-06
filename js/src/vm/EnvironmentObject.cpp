@@ -7472,7 +7472,7 @@ enclosing
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 )
 ;
@@ -7632,7 +7632,7 @@ enclosing
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 }
