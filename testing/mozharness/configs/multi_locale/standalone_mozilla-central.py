@@ -377,12 +377,6 @@ l10n
 "
     
 "
-merge_locales
-"
-:
-True
-    
-"
 mozilla_dir
 "
 :

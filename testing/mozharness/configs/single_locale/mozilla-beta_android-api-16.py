@@ -509,19 +509,6 @@ MOZ_OBJDIR
 OBJDIR
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
-"
-        
-"
 MOZ_UPDATE_CHANNEL
 "
 :
@@ -556,12 +543,6 @@ ssh_key_dir
 .
 ssh
 "
-    
-"
-merge_locales
-"
-:
-True
     
 "
 mozilla_dir
