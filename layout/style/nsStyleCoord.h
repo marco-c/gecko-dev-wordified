@@ -1426,14 +1426,6 @@ GetCalcValue
 )
 const
 ;
-uint32_t
-HashValue
-(
-uint32_t
-aHash
-)
-const
-;
 template
 <
 typename
