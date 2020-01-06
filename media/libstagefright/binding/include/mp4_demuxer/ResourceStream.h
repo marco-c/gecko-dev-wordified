@@ -159,6 +159,10 @@ Pin
 )
 {
 mResource
+.
+GetResource
+(
+)
 -
 >
 Pin
@@ -176,6 +180,10 @@ Unpin
 )
 {
 mResource
+.
+GetResource
+(
+)
 -
 >
 Unpin
@@ -202,13 +210,10 @@ ResourceStream
 ;
 private
 :
-RefPtr
-<
 mozilla
 :
 :
-MediaResource
->
+MediaResourceIndex
 mResource
 ;
 uint32_t
