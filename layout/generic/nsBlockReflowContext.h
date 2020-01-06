@@ -283,7 +283,9 @@ out
 nsOverflowAreas
 &
 aOverflowAreas
+const
 nsReflowStatus
+&
 aReflowStatus
 )
 ;

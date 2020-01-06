@@ -2696,7 +2696,9 @@ aBEndMarginResult
 nsOverflowAreas
 &
 aOverflowAreas
+const
 nsReflowStatus
+&
 aReflowStatus
 )
 {

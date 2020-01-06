@@ -2806,7 +2806,7 @@ status
 .
 *
 /
-nsresult
+void
 SplitFloat
 (
 BlockReflowInput
@@ -2815,7 +2815,9 @@ aState
 nsIFrame
 *
 aFloat
+const
 nsReflowStatus
+&
 aFloatStatus
 )
 ;
