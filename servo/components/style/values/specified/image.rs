@@ -5406,7 +5406,6 @@ compat_mode
 {
 /
 /
-/
 to
 keyword
 is
@@ -5492,7 +5491,6 @@ CompatMode
 Modern
 /
 /
-/
 There
 is
 no
@@ -5508,7 +5506,6 @@ it
 '
 s
 consumed
-/
 /
 /
 parsing
