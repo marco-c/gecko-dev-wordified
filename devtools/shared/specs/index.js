@@ -919,7 +919,7 @@ shared
 /
 fronts
 /
-inspector
+node
 "
 }
 {
