@@ -2149,7 +2149,7 @@ on
 this
 class
 .
-void
+nsresult
 InitAsClone
 (
 MediaCacheStream
@@ -2279,18 +2279,6 @@ mClosed
 &
 !
 mIsPrivateBrowsing
-&
-&
-(
-!
-mDidNotifyDataEnded
-|
-|
-NS_SUCCEEDED
-(
-mNotifyDataEndedStatus
-)
-)
 ;
 }
 /
