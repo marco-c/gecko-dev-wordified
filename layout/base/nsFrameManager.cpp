@@ -1242,7 +1242,7 @@ UndisplayedNode
 nsFrameManager
 :
 :
-GetAllUndisplayedContentIn
+GetAllRegisteredDisplayNoneStylesIn
 (
 nsIContent
 *
@@ -2176,7 +2176,7 @@ UndisplayedNode
 nsFrameManager
 :
 :
-GetAllDisplayContentsIn
+GetAllRegisteredDisplayContentsStylesIn
 (
 nsIContent
 *

@@ -851,7 +851,7 @@ aParentContent
 /
 UndisplayedNode
 *
-GetAllUndisplayedContentIn
+GetAllRegisteredDisplayNoneStylesIn
 (
 nsIContent
 *
@@ -892,7 +892,7 @@ aParentContent
 /
 UndisplayedNode
 *
-GetAllDisplayContentsIn
+GetAllRegisteredDisplayContentsStylesIn
 (
 nsIContent
 *
