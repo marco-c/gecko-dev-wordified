@@ -4585,7 +4585,7 @@ WrBridge
 )
 -
 >
-DPBegin
+BeginTransaction
 (
 size
 .
@@ -5439,7 +5439,7 @@ WrBridge
 )
 -
 >
-DPEnd
+EndTransaction
 (
 builder
 size
@@ -5679,7 +5679,7 @@ WrBridge
 )
 -
 >
-SendDPGetSnapshot
+SendGetSnapshot
 (
 texture
 -

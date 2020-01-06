@@ -356,7 +356,7 @@ aCommands
 )
 ;
 bool
-DPBegin
+BeginTransaction
 (
 const
 gfx
@@ -368,7 +368,7 @@ aSize
 )
 ;
 void
-DPEnd
+EndTransaction
 (
 wr
 :
