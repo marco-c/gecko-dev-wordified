@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsIThreadRetargetableStreamListener
+.
+h
+"
+#
+include
+"
 Intervals
 .
 h
@@ -3801,6 +3808,8 @@ public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink
+public
+nsIThreadRetargetableStreamListener
 {
 ~
 Listener
@@ -3829,6 +3838,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 void
 Revoke
 (
