@@ -351,8 +351,6 @@ equal
 richlistbox
 .
 itemCount
--
-1
 0
 "
 Number
@@ -408,8 +406,6 @@ equal
 richlistbox
 .
 itemCount
--
-1
 1
 )
 ;
@@ -552,8 +548,6 @@ equal
 richlistbox
 .
 itemCount
--
-1
 1
 "
 The
@@ -585,8 +579,6 @@ equal
 richlistbox
 .
 itemCount
--
-1
 0
 )
 ;
@@ -794,7 +786,7 @@ richlistbox
 .
 getItemAtIndex
 (
-1
+0
 )
 )
 ;
@@ -821,8 +813,6 @@ waitForCondition
 richlistbox
 .
 itemCount
--
-1
 =
 =
 0
@@ -1009,8 +999,6 @@ waitForCondition
 richlistbox
 .
 itemCount
--
-1
 =
 =
 0
@@ -1233,7 +1221,7 @@ richlistbox
 .
 getItemAtIndex
 (
-1
+0
 )
 )
 ;
@@ -1260,8 +1248,6 @@ waitForCondition
 richlistbox
 .
 itemCount
--
-1
 =
 =
 0
@@ -1502,7 +1488,7 @@ richlistbox
 .
 getItemAtIndex
 (
-1
+0
 )
 )
 ;
@@ -1529,8 +1515,6 @@ waitForCondition
 richlistbox
 .
 itemCount
--
-1
 =
 =
 0
