@@ -89,6 +89,10 @@ html
 "
 "
 "
+from
+__future__
+import
+absolute_import
 #
 Magic
 version

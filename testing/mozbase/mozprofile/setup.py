@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 sys
 from
@@ -69,7 +73,7 @@ PACKAGE_VERSION
 '
 0
 .
-28
+29
 '
 #
 we
@@ -100,6 +104,7 @@ mozfile
 .
 0
 '
+        
 '
 mozlog
 >
@@ -108,6 +113,18 @@ mozlog
 .
 0
 '
+        
+'
+six
+>
+=
+1
+.
+10
+.
+0
+'
+        
 ]
 setup
 (

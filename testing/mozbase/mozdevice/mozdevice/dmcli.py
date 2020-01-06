@@ -67,6 +67,11 @@ device
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 errno
 import
@@ -2103,11 +2108,13 @@ args
 :
         
 print
+(
 self
 .
 dm
 .
 deviceRoot
+)
     
 def
 push
@@ -2252,6 +2259,7 @@ src
 :
             
 print
+(
 '
 No
 such
@@ -2259,6 +2267,7 @@ file
 or
 directory
 '
+)
             
 return
         
@@ -2447,7 +2456,9 @@ getInstalledApps
 :
             
 print
+(
 app
+)
     
 def
 stopapp
@@ -2527,6 +2538,7 @@ root
 )
         
 print
+(
 str
 (
 buf
@@ -2544,6 +2556,7 @@ getvalue
 .
 rstrip
 (
+)
 )
     
 def
@@ -2614,6 +2627,7 @@ None
 :
                 
 print
+(
 "
 %
 s
@@ -2630,12 +2644,15 @@ upper
 )
 infoitem
 )
+)
             
 else
 :
                 
 print
+(
 infoitem
+)
     
 def
 logcat
@@ -2646,6 +2663,7 @@ args
 :
         
 print
+(
 '
 '
 .
@@ -2657,6 +2675,7 @@ dm
 .
 getLogcat
 (
+)
 )
 )
     
@@ -2722,6 +2741,7 @@ pslist
 :
             
 print
+(
 "
 "
 .
@@ -2735,6 +2755,7 @@ for
 i
 in
 ps
+)
 )
     
 def
@@ -2765,7 +2786,9 @@ filelist
 :
             
 print
+(
 file
+)
     
 def
 removefile
@@ -2808,16 +2831,20 @@ remote_dir
 :
             
 print
+(
 "
 TRUE
 "
+)
             
 return
         
 print
+(
 "
 FALSE
 "
+)
         
 return
 errno
@@ -2903,16 +2930,20 @@ remote_file
 :
             
 print
+(
 "
 TRUE
 "
+)
             
 return
         
 print
+(
 "
 FALSE
 "
+)
         
 return
 errno

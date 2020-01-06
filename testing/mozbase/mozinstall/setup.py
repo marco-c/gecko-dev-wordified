@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 os
 from
@@ -114,7 +118,7 @@ PACKAGE_VERSION
 '
 1
 .
-13
+14
 '
 deps
 =
@@ -139,6 +143,17 @@ mozfile
         
 '
 requests
+'
+        
+'
+six
+>
+=
+1
+.
+10
+.
+0
 '
         
 ]

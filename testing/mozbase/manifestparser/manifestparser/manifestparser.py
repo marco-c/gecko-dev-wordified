@@ -54,6 +54,11 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+print_function
+from
 StringIO
 import
 StringIO
@@ -2812,11 +2817,7 @@ indent
 )
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Warning
 :
@@ -2833,8 +2834,7 @@ missing
 s
 "
 %
-\
-                
+                  
 json
 .
 dumps
@@ -2843,6 +2843,12 @@ missing_paths
 indent
 =
 2
+)
+file
+=
+sys
+.
+stderr
 )
         
 return
@@ -3314,14 +3320,16 @@ global_kwargs
 :
             
 print
->
->
-fp
+(
 '
 [
 DEFAULT
 ]
 '
+file
+=
+fp
+)
             
 for
 tag
@@ -3330,9 +3338,7 @@ global_tags
 :
                 
 print
->
->
-fp
+(
 '
 %
 s
@@ -3340,6 +3346,10 @@ s
 '
 %
 tag
+file
+=
+fp
+)
             
 for
 key
@@ -3353,9 +3363,7 @@ items
 :
                 
 print
->
->
-fp
+(
 '
 %
 s
@@ -3368,11 +3376,17 @@ s
 key
 value
 )
+file
+=
+fp
+)
             
 print
->
->
+(
+file
+=
 fp
+)
         
 for
 test
@@ -3452,9 +3466,7 @@ path
 )
             
 print
->
->
-fp
+(
 '
 [
 %
@@ -3463,6 +3475,10 @@ s
 '
 %
 path
+file
+=
+fp
+)
             
 #
 reserved
@@ -3538,9 +3554,7 @@ key
 continue
                 
 print
->
->
-fp
+(
 '
 %
 s
@@ -3556,11 +3570,17 @@ test
 key
 ]
 )
+file
+=
+fp
+)
             
 print
->
->
+(
+file
+=
 fp
+)
         
 if
 close
@@ -4243,17 +4263,19 @@ message
 )
                     
 print
->
->
-sys
-.
-stderr
+(
 message
 +
 "
 Skipping
 .
 "
+file
+=
+sys
+.
+stderr
+)
                     
 continue
                 
@@ -4927,9 +4949,7 @@ dirnames
 :
                         
 print
->
->
-manifest
+(
 '
 [
 include
@@ -4948,6 +4968,10 @@ join
 dirname
 filename
 )
+file
+=
+manifest
+)
                     
 for
 _filename
@@ -4956,9 +4980,7 @@ filenames
 :
                         
 print
->
->
-manifest
+(
 '
 [
 %
@@ -4967,6 +4989,10 @@ s
 '
 %
 _filename
+file
+=
+manifest
+)
                 
 #
 add
@@ -5307,9 +5333,7 @@ to
 manifest
             
 print
->
->
-write
+(
 '
 \
 n
@@ -5329,12 +5353,16 @@ denormalize_path
 (
 filename
 )
-                                       
+                             
 for
 filename
 in
 filenames
 ]
+)
+file
+=
+write
 )
         
 cls
