@@ -557,6 +557,7 @@ deal
 \
 AUTO_CHECK_DEPENDENCY
 (
+gecko
 eStyleStruct_
 #
 #
@@ -1205,6 +1206,7 @@ deal
 \
 AUTO_CHECK_DEPENDENCY
 (
+gecko
 eStyleStruct_
 #
 #
