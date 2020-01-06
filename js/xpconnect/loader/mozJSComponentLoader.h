@@ -380,6 +380,9 @@ CreateLoaderGlobal
 JSContext
 *
 aCx
+nsACString
+&
+aLocation
 JSAddonId
 *
 aAddonID
