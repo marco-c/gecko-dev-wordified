@@ -43,6 +43,11 @@ TextEncoder
 "
 :
 false
+"
+MatchGlob
+"
+:
+false
 /
 /
 Specific
