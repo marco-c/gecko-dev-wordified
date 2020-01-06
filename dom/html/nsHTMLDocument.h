@@ -415,6 +415,14 @@ uint32_t
 ;
 }
 virtual
+nsIContent
+*
+GetUnfocusedKeyEventTarget
+(
+)
+override
+;
+virtual
 nsContentList
 *
 GetForms
