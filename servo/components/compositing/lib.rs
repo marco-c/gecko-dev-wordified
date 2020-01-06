@@ -163,6 +163,13 @@ use
 compositor
 :
 :
+RenderNotifier
+;
+pub
+use
+compositor
+:
+:
 ShutdownState
 ;
 use
