@@ -1199,8 +1199,6 @@ fieldName
 tel
 "
 }
-/
-/
 {
 "
 section
