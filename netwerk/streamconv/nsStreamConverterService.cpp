@@ -1498,7 +1498,7 @@ delete
 string
 ;
 return
-0
+nullptr
 ;
 }
 }

@@ -1169,7 +1169,7 @@ for
 nsTArray
 value
 =
-0L
+nullptr
 ;
 length
 =
@@ -6108,7 +6108,7 @@ out
 *
 dest
 =
-0
+nullptr
 ;
 out
 =
@@ -7608,7 +7608,7 @@ begin
 )
 !
 =
-0
+nullptr
 )
 {
 if
@@ -7783,7 +7783,7 @@ p
 ;
 charsetEnd
 =
-0
+nullptr
 ;
 for
 (
