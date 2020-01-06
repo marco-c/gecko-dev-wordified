@@ -3398,6 +3398,9 @@ def
 to_cxx
 (
 data
+preamble
+=
+None
 )
 :
   
@@ -3448,21 +3451,24 @@ The
 byte
 array
 encodes
-effective
-tld
-names
+a
+dictionary
+of
+strings
+and
+values
 .
 See
-make_dafsa
-.
-py
-for
 '
   
 text
 +
 =
 '
+make_dafsa
+.
+py
+for
 documentation
 .
 '
@@ -3473,6 +3479,25 @@ text
 '
 *
 /
+\
+n
+\
+n
+'
+  
+if
+preamble
+:
+    
+text
++
+=
+preamble
+    
+text
++
+=
+'
 \
 n
 \
@@ -3574,6 +3599,9 @@ def
 words_to_cxx
 (
 words
+preamble
+=
+None
 )
 :
   
@@ -3626,6 +3654,7 @@ encode
 (
 dafsa
 )
+preamble
 )
 def
 parse_gperf
@@ -3666,6 +3695,41 @@ infile
   
 #
 Extract
+the
+preamble
+.
+  
+first_delimeter
+=
+lines
+.
+index
+(
+'
+%
+%
+'
+)
+  
+preamble
+=
+'
+\
+n
+'
+.
+join
+(
+lines
+[
+0
+:
+first_delimeter
+]
+)
+  
+#
+Extract
 strings
 after
 the
@@ -3686,15 +3750,7 @@ second
   
 begin
 =
-lines
-.
-index
-(
-'
-%
-%
-'
-)
+first_delimeter
 +
 1
   
@@ -3838,6 +3894,8 @@ line
 )
   
 return
+(
+preamble
 [
 line
 [
@@ -3856,6 +3914,7 @@ line
 in
 lines
 ]
+)
 def
 main
 (
@@ -3876,16 +3935,22 @@ as
 infile
 :
     
+preamble
+words
+=
+parse_gperf
+(
+infile
+)
+    
 outfile
 .
 write
 (
 words_to_cxx
 (
-parse_gperf
-(
-infile
-)
+words
+preamble
 )
 )
   
