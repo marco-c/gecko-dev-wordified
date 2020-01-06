@@ -6128,6 +6128,14 @@ if
 (
 !
 aExtraData
+|
+|
+aExtraData
+-
+>
+IsEmpty
+(
+)
 )
 {
 return
