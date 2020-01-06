@@ -11873,7 +11873,7 @@ const
 size_t
 sRopeMatchThresholdRatioLog2
 =
-5
+4
 ;
 bool
 js
