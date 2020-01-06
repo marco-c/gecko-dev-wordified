@@ -1116,6 +1116,7 @@ StartAutoScrollTimer
 nsIFrame
 *
 aFrame
+const
 nsPoint
 &
 aPoint

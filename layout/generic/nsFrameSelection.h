@@ -4198,6 +4198,7 @@ ConstrainFrameAndPointToAnchorSubtree
 nsIFrame
 *
 aFrame
+const
 nsPoint
 &
 aPoint
