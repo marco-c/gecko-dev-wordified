@@ -155,15 +155,6 @@ jspubtd
 .
 h
 "
-#
-include
-"
-js
-/
-GCAPI
-.
-h
-"
 class
 nsIScriptGlobalObject
 ;
