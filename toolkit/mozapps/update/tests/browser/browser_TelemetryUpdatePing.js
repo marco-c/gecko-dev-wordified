@@ -471,6 +471,9 @@ targetVersion
 "
 targetChannel
 "
+"
+targetDisplayVersion
+"
 ]
 )
 {
