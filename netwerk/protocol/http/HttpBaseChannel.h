@@ -2903,6 +2903,14 @@ uint32_t
 aCount
 )
 ;
+nsresult
+CheckRedirectLimit
+(
+uint32_t
+aRedirectFlags
+)
+const
+;
 friend
 class
 PrivateBrowsingChannel
