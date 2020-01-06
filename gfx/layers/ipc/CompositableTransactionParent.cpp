@@ -1842,6 +1842,8 @@ const
 TextureInfo
 &
 aInfo
+bool
+aUseWebRender
 )
 {
 if
@@ -1917,6 +1919,7 @@ CompositableHost
 Create
 (
 aInfo
+aUseWebRender
 )
 ;
 if

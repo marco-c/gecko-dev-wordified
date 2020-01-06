@@ -1287,16 +1287,6 @@ AttachFlags
 aFlags
 )
 {
-MOZ_ASSERT_UNREACHABLE
-(
-"
-unexpected
-to
-be
-called
-"
-)
-;
 }
 void
 WebRenderImageHost

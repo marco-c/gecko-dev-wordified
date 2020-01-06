@@ -551,6 +551,10 @@ const
 TextureInfo
 &
 aInfo
+const
+LayersBackend
+&
+aLayersBackend
 )
 override
 ;

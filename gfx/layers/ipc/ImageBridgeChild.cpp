@@ -1887,6 +1887,9 @@ aCompositable
 GetTextureInfo
 (
 )
+GetCompositorBackendType
+(
+)
 )
 ;
 }

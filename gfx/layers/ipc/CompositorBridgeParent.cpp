@@ -3077,9 +3077,8 @@ RecvFlushRendering
 {
 if
 (
-gfxVars
-:
-:
+mOptions
+.
 UseWebRender
 (
 )
@@ -3146,9 +3145,8 @@ RecvFlushRenderingAsync
 {
 if
 (
-gfxVars
-:
-:
+mOptions
+.
 UseWebRender
 (
 )
@@ -3846,9 +3844,8 @@ true
 if
 (
 !
-gfxVars
-:
-:
+mOptions
+.
 UseWebRender
 (
 )
@@ -3953,9 +3950,8 @@ mResumeCompositionMonitor
 bool
 resumed
 =
-gfxVars
-:
-:
+mOptions
+.
 UseWebRender
 (
 )
