@@ -66,15 +66,6 @@ gecko
 media
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-;
-import
 java
 .
 util

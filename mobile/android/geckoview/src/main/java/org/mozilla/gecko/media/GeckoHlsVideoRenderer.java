@@ -109,9 +109,9 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
-AppConstants
+BuildConfig
 ;
 import
 com
@@ -464,12 +464,12 @@ getSimpleName
 ;
 DEBUG
 =
-AppConstants
+BuildConfig
 .
 NIGHTLY_BUILD
 |
 |
-AppConstants
+BuildConfig
 .
 DEBUG_BUILD
 ;
@@ -2769,7 +2769,7 @@ toQueue
 ;
 if
 (
-AppConstants
+BuildConfig
 .
 DEBUG_BUILD
 )

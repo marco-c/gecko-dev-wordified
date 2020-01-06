@@ -154,15 +154,6 @@ view
 .
 WindowManager
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-;
 public
 class
 ActivityUtils

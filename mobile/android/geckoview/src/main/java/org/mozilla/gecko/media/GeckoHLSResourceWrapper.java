@@ -77,9 +77,9 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
-AppConstants
+BuildConfig
 ;
 import
 org
@@ -123,12 +123,12 @@ final
 boolean
 DEBUG
 =
-AppConstants
+BuildConfig
 .
 NIGHTLY_BUILD
 |
 |
-AppConstants
+BuildConfig
 .
 DEBUG_BUILD
 ;

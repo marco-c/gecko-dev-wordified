@@ -360,6 +360,15 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+BuildConfig
+;
+import
 android
 .
 Manifest
@@ -962,7 +971,7 @@ putString
 "
 ProductName
 "
-AppConstants
+BuildConfig
 .
 MOZ_APP_BASENAME
 )
@@ -974,7 +983,7 @@ putString
 "
 ProductID
 "
-AppConstants
+BuildConfig
 .
 MOZ_APP_ID
 )
@@ -986,7 +995,7 @@ putString
 "
 Version
 "
-AppConstants
+BuildConfig
 .
 MOZ_APP_VERSION
 )
@@ -998,7 +1007,7 @@ putString
 "
 BuildID
 "
-AppConstants
+BuildConfig
 .
 MOZ_APP_BUILDID
 )
@@ -1010,7 +1019,7 @@ putString
 "
 Vendor
 "
-AppConstants
+BuildConfig
 .
 MOZ_APP_VENDOR
 )
@@ -1022,7 +1031,7 @@ putString
 "
 ReleaseChannel
 "
-AppConstants
+BuildConfig
 .
 MOZ_UPDATE_CHANNEL
 )
@@ -1191,12 +1200,12 @@ else
 .
 if
 (
-AppConstants
+BuildConfig
 .
 MOZ_CRASHREPORTER
 &
 &
-AppConstants
+BuildConfig
 .
 MOZILLA_OFFICIAL
 )
