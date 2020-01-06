@@ -104,7 +104,7 @@ include
 "
 mozilla
 /
-EditorBase
+TextEditor
 .
 h
 "
@@ -786,11 +786,14 @@ static
 SpellCheckingState
 gCanEnableSpellChecking
 ;
-nsCOMPtr
+RefPtr
 <
-nsIEditor
+mozilla
+:
+:
+TextEditor
 >
-mEditor
+mTextEditor
 ;
 nsCOMPtr
 <
