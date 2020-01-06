@@ -296,7 +296,7 @@ nsCOMPtr
 <
 nsINode
 >
-mEndParent
+mEndContainer
 ;
 /
 /

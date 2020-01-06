@@ -207,7 +207,7 @@ SuppressException
 (
 )
 ;
-mEndParent
+mEndContainer
 =
 aRange
 -
@@ -302,7 +302,7 @@ eq
 eq
 &
 &
-mEndParent
+mEndContainer
 =
 =
 aRange
@@ -407,9 +407,9 @@ ImplCycleCollectionTraverse
 aCallback
 aField
 .
-mEndParent
+mEndContainer
 "
-mEndParent
+mEndContainer
 "
 aFlags
 )

@@ -412,7 +412,7 @@ GetEndContainer
 const
 {
 return
-mEndParent
+mEndContainer
 ;
 }
 int32_t
@@ -1088,7 +1088,7 @@ mIsPositioned
 mStartContainer
 =
 =
-mEndParent
+mEndContainer
 &
 &
 mStartOffset
@@ -2767,7 +2767,7 @@ nsCOMPtr
 <
 nsINode
 >
-mEndParent
+mEndContainer
 ;
 RefPtr
 <

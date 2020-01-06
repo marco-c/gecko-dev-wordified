@@ -1637,7 +1637,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aParent
@@ -1646,7 +1646,7 @@ aParent
 item
 -
 >
-endOffset
+mEndOffset
 >
 aPosition
 )
@@ -1654,7 +1654,7 @@ aPosition
 item
 -
 >
-endOffset
+mEndOffset
 +
 +
 ;
@@ -1845,7 +1845,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 parent
@@ -1854,7 +1854,7 @@ parent
 item
 -
 >
-endOffset
+mEndOffset
 >
 offset
 )
@@ -1862,7 +1862,7 @@ offset
 item
 -
 >
-endOffset
+mEndOffset
 -
 -
 ;
@@ -1908,7 +1908,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aNode
@@ -1917,14 +1917,14 @@ aNode
 item
 -
 >
-endNode
+mEndContainer
 =
 parent
 ;
 item
 -
 >
-endOffset
+mEndOffset
 =
 offset
 ;
@@ -2017,7 +2017,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 oldStart
@@ -2031,7 +2031,7 @@ IsDescendantOf
 item
 -
 >
-endNode
+mEndContainer
 aNode
 )
 )
@@ -2039,14 +2039,14 @@ aNode
 item
 -
 >
-endNode
+mEndContainer
 =
 parent
 ;
 item
 -
 >
-endOffset
+mEndOffset
 =
 offset
 ;
@@ -2260,7 +2260,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 &
@@ -2272,7 +2272,7 @@ if
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOffset
 )
@@ -2280,7 +2280,7 @@ aOffset
 item
 -
 >
-endOffset
+mEndOffset
 -
 =
 aOffset
@@ -2291,7 +2291,7 @@ else
 item
 -
 >
-endNode
+mEndContainer
 =
 aNewLeftNode
 ;
@@ -2530,7 +2530,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 &
@@ -2549,7 +2549,7 @@ if
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOffset
 )
@@ -2557,7 +2557,7 @@ aOffset
 item
 -
 >
-endOffset
+mEndOffset
 -
 -
 ;
@@ -2568,7 +2568,7 @@ if
 item
 -
 >
-endOffset
+mEndOffset
 =
 =
 aOffset
@@ -2584,7 +2584,7 @@ node
 item
 -
 >
-endNode
+mEndContainer
 =
 &
 aRightNode
@@ -2592,7 +2592,7 @@ aRightNode
 item
 -
 >
-endOffset
+mEndOffset
 =
 aOldLeftNodeLength
 ;
@@ -2604,7 +2604,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 &
@@ -2621,7 +2621,7 @@ aRightNode
 item
 -
 >
-endOffset
+mEndOffset
 +
 =
 aOldLeftNodeLength
@@ -2633,7 +2633,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 &
@@ -2650,7 +2650,7 @@ aLeftNode
 item
 -
 >
-endNode
+mEndContainer
 =
 &
 aRightNode
@@ -2789,7 +2789,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 &
@@ -2799,7 +2799,7 @@ aTextNode
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOffset
 )
@@ -2807,7 +2807,7 @@ aOffset
 item
 -
 >
-endOffset
+mEndOffset
 +
 =
 len
@@ -2960,7 +2960,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aTextNode
@@ -2969,7 +2969,7 @@ aTextNode
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOffset
 )
@@ -2977,7 +2977,7 @@ aOffset
 item
 -
 >
-endOffset
+mEndOffset
 -
 =
 aLength
@@ -2987,7 +2987,7 @@ if
 item
 -
 >
-endOffset
+mEndOffset
 <
 0
 )
@@ -2995,7 +2995,7 @@ endOffset
 item
 -
 >
-endOffset
+mEndOffset
 =
 0
 ;
@@ -3173,7 +3173,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aOriginalNode
@@ -3182,7 +3182,7 @@ aOriginalNode
 item
 -
 >
-endNode
+mEndContainer
 =
 aNewNode
 ;
@@ -3370,7 +3370,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aNode
@@ -3379,14 +3379,14 @@ aNode
 item
 -
 >
-endNode
+mEndContainer
 =
 aParent
 ;
 item
 -
 >
-endOffset
+mEndOffset
 +
 =
 aOffset
@@ -3398,7 +3398,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aParent
@@ -3407,7 +3407,7 @@ aParent
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOffset
 )
@@ -3415,7 +3415,7 @@ aOffset
 item
 -
 >
-endOffset
+mEndOffset
 +
 =
 (
@@ -3654,7 +3654,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aOldParent
@@ -3663,7 +3663,7 @@ aOldParent
 item
 -
 >
-endOffset
+mEndOffset
 >
 aOldOffset
 )
@@ -3671,7 +3671,7 @@ aOldOffset
 item
 -
 >
-endOffset
+mEndOffset
 -
 -
 ;
@@ -3716,7 +3716,7 @@ if
 item
 -
 >
-endNode
+mEndContainer
 =
 =
 aNewParent
@@ -3725,7 +3725,7 @@ aNewParent
 item
 -
 >
-endOffset
+mEndOffset
 >
 aNewOffset
 )
@@ -3733,7 +3733,7 @@ aNewOffset
 item
 -
 >
-endOffset
+mEndOffset
 +
 +
 ;
@@ -3936,7 +3936,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 RangeItem
 mStartContainer
-endNode
+mEndContainer
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
@@ -3982,7 +3982,7 @@ StartOffset
 (
 )
 ;
-endNode
+mEndContainer
 =
 aRange
 -
@@ -3991,7 +3991,7 @@ GetEndContainer
 (
 )
 ;
-endOffset
+mEndOffset
 =
 aRange
 -
@@ -4035,8 +4035,8 @@ SetStartAndEnd
 (
 mStartContainer
 mStartOffset
-endNode
-endOffset
+mEndContainer
+mEndOffset
 )
 )
 )

@@ -2274,7 +2274,7 @@ StartOffset
 mRangeItem
 -
 >
-endNode
+mEndContainer
 =
 selection
 -
@@ -2292,7 +2292,7 @@ GetEndContainer
 mRangeItem
 -
 >
-endOffset
+mEndOffset
 =
 selection
 -
@@ -2327,7 +2327,7 @@ selEndNode
 mRangeItem
 -
 >
-endNode
+mEndContainer
 ;
 /
 /
@@ -3344,7 +3344,7 @@ NS_ENSURE_STATE
 mRangeItem
 -
 >
-endNode
+mEndContainer
 )
 ;
 WSRunObject
@@ -3391,7 +3391,7 @@ mStartContainer
 mRangeItem
 -
 >
-endNode
+mEndContainer
 |
 |
 mRangeItem
@@ -3403,7 +3403,7 @@ mStartOffset
 mRangeItem
 -
 >
-endOffset
+mEndOffset
 )
 {
 NS_ENSURE_STATE
@@ -3417,11 +3417,11 @@ mHTMLEditor
 mRangeItem
 -
 >
-endNode
+mEndContainer
 mRangeItem
 -
 >
-endOffset
+mEndOffset
 )
 .
 AdjustWhitespace
@@ -42227,7 +42227,7 @@ mStartContainer
 =
 item
 .
-endNode
+mEndContainer
 &
 &
 item
@@ -42237,7 +42237,7 @@ mStartOffset
 =
 item
 .
-endOffset
+mEndOffset
 ;
 nsCOMPtr
 <
@@ -42250,7 +42250,7 @@ GetHighestInlineParent
 *
 item
 .
-endNode
+mEndContainer
 )
 ;
 /
@@ -42296,7 +42296,7 @@ mHTMLEditor
 /
 item
 .
-endNode
+mEndContainer
 must
 be
 content
@@ -42319,7 +42319,7 @@ endInline
 *
 item
 .
-endNode
+mEndContainer
 -
 >
 AsContent
@@ -42327,7 +42327,7 @@ AsContent
 )
 item
 .
-endOffset
+mEndOffset
 EditorBase
 :
 :
@@ -42353,13 +42353,13 @@ reset
 range
 item
 .
-endNode
+mEndContainer
 =
 resultEndNode
 ;
 item
 .
-endOffset
+mEndOffset
 =
 resultEndOffset
 ;
