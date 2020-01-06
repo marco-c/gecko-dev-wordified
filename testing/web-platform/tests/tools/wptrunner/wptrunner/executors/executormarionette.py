@@ -3429,8 +3429,6 @@ warning
 (
 traceback
 .
-traceback
-.
 format_exc
 (
 e
