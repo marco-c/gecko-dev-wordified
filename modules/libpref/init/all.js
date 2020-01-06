@@ -63776,9 +63776,7 @@ safebrowsing
 id
 "
 "
-%
-NAME
-%
+Firefox
 "
 )
 ;
