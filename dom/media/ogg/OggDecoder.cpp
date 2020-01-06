@@ -175,9 +175,7 @@ demuxer
 new
 OggDemuxer
 (
-GetResource
-(
-)
+mResource
 )
 ;
 RefPtr

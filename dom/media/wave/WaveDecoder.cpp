@@ -198,9 +198,7 @@ this
 new
 WAVDemuxer
 (
-GetResource
-(
-)
+mResource
 )
 )
 )

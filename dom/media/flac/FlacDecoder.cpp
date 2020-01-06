@@ -213,9 +213,7 @@ this
 new
 FlacDemuxer
 (
-GetResource
-(
-)
+mResource
 )
 )
 ;

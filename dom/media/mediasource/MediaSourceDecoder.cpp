@@ -1283,7 +1283,9 @@ MediaSourceResource
 *
 >
 (
-GetResource
+mResource
+.
+get
 (
 )
 )

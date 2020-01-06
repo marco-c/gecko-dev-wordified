@@ -211,9 +211,7 @@ this
 new
 MP3Demuxer
 (
-GetResource
-(
-)
+mResource
 )
 )
 ;
