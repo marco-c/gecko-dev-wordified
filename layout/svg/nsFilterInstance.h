@@ -687,10 +687,6 @@ aFilteredFrame
 gfxContext
 *
 aCtx
-const
-gfxMatrix
-&
-aTransform
 nsSVGFilterPaintCallback
 *
 aPaintCallback
