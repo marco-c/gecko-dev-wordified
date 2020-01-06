@@ -6231,7 +6231,7 @@ aRoot
 nsContentUtils
 :
 :
-ContentIsFlattenedTreeDescendantOf
+ContentIsFlattenedTreeDescendantOfForStyle
 (
 target
 .
