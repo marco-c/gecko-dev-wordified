@@ -213,7 +213,7 @@ GenericShapeRadius
 /
 /
 A
-specified
+computed
 clipping
 shape
 .
@@ -231,7 +231,7 @@ ComputedUrl
 /
 /
 A
-specified
+computed
 float
 area
 shape
