@@ -2150,6 +2150,14 @@ VP9
 .
 retval
 #
+NESTEGG_CODEC_AV1
+Track
+codec
+is
+AV1
+.
+retval
+#
 NESTEGG_CODEC_VORBIS
 Track
 codec
