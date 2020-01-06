@@ -2960,12 +2960,6 @@ updateNumChunksLocked
 (
 unsigned
 newCount
-gc
-:
-:
-AutoMaybeStartBackgroundAllocation
-&
-maybeBgAlloc
 AutoLockGC
 &
 lock

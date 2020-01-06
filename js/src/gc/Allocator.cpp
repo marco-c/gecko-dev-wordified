@@ -2270,9 +2270,6 @@ GC
 "
 )
 ;
-AutoMaybeStartBackgroundAllocation
-maybeStartBGAlloc
-;
 return
 cx
 -
@@ -2287,7 +2284,6 @@ allocateFromArena
 zone
 thingKind
 CheckThresholds
-maybeStartBGAlloc
 )
 ;
 }
@@ -2356,9 +2352,6 @@ wasGCStarted
 )
 )
 ;
-AutoMaybeStartBackgroundAllocation
-maybeStartBGAlloc
-;
 return
 cx
 -
@@ -2373,7 +2366,6 @@ allocateFromArena
 zone
 thingKind
 CheckThresholds
-maybeStartBGAlloc
 )
 ;
 }
@@ -2474,9 +2466,6 @@ isBackgroundSweeping
 )
 )
 ;
-AutoMaybeStartBackgroundAllocation
-maybeStartBackgroundAllocation
-;
 return
 zone
 -
@@ -2488,7 +2477,6 @@ allocateFromArena
 zone
 thingKind
 DontCheckThresholds
-maybeStartBackgroundAllocation
 )
 ;
 }
@@ -2509,9 +2497,6 @@ AllocKind
 thingKind
 ShouldCheckThresholds
 checkThresholds
-AutoMaybeStartBackgroundAllocation
-&
-maybeStartBGAlloc
 )
 {
 JSRuntime
@@ -2678,7 +2663,6 @@ maybeLock
 ref
 (
 )
-maybeStartBGAlloc
 )
 ;
 if
@@ -3687,13 +3671,9 @@ GCRuntime
 :
 getOrAllocChunk
 (
-const
 AutoLockGC
 &
 lock
-AutoMaybeStartBackgroundAllocation
-&
-maybeStartBackgroundAllocation
 )
 {
 Chunk
@@ -3754,14 +3734,10 @@ wantBackgroundAllocation
 lock
 )
 )
-maybeStartBackgroundAllocation
+lock
 .
 tryToStartBackgroundAllocation
 (
-rt
--
->
-gc
 )
 ;
 return
@@ -3801,13 +3777,9 @@ GCRuntime
 :
 pickChunk
 (
-const
 AutoLockGC
 &
 lock
-AutoMaybeStartBackgroundAllocation
-&
-maybeStartBackgroundAllocation
 )
 {
 if
@@ -3838,7 +3810,6 @@ chunk
 getOrAllocChunk
 (
 lock
-maybeStartBackgroundAllocation
 )
 ;
 if
