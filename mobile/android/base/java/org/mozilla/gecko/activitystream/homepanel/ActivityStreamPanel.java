@@ -822,6 +822,16 @@ HighlightsCallbacks
 }
 if
 (
+ActivityStreamConfiguration
+.
+isPocketEnabledByLocale
+(
+getContext
+(
+)
+)
+&
+&
 sharedPreferences
 .
 getBoolean

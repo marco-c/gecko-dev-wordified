@@ -699,6 +699,15 @@ bitPackedPrefValue
 =
 0
 ;
+/
+/
+todo
+:
+Add
+bit
+for
+isPocketAllowedByLocale
+.
 if
 (
 sharedPreferences

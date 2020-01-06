@@ -1703,6 +1703,14 @@ final
 boolean
 pocketEnabled
 =
+ActivityStreamConfiguration
+.
+isPocketEnabledByLocale
+(
+context
+)
+&
+&
 GeckoSharedPrefs
 .
 forProfile
