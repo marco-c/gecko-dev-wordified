@@ -142,9 +142,6 @@ values
 computed
 :
 :
-length
-:
-:
 Percentage
 ;
 fn
