@@ -406,14 +406,6 @@ mIsAsync
 (
 false
 )
-mPreloadAsAsync
-(
-false
-)
-mPreloadAsDefer
-(
-false
-)
 mIsNonAsyncScriptInserted
 (
 false

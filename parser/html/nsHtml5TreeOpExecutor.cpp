@@ -5360,10 +5360,6 @@ nsAString
 aIntegrity
 bool
 aScriptFromHead
-bool
-aAsync
-bool
-aDefer
 )
 {
 nsCOMPtr
@@ -5402,8 +5398,6 @@ aType
 aCrossOrigin
 aIntegrity
 aScriptFromHead
-aAsync
-aDefer
 mSpeculationReferrerPolicy
 )
 ;
