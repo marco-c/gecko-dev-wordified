@@ -7307,6 +7307,11 @@ if
 GetShadowRoot
 (
 )
+|
+|
+GetXBLBinding
+(
+)
 )
 {
 aError
