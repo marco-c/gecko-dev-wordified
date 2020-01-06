@@ -123,7 +123,11 @@ mozilla_dom_TestInterfaceIterableDoubleUnion_h
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+TestInterfaceJSMaplikeSetlikeIterableBinding
 .
 h
 "
@@ -131,6 +135,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

@@ -123,6 +123,13 @@ mozilla_dom_TestInterfaceIterableSingle_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -130,7 +137,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsTArray
 .
 h
 "
