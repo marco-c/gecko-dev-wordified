@@ -10203,7 +10203,10 @@ executeCached
 (
 query
 params
+(
 row
+cancel
+)
 =
 >
 {
@@ -10216,6 +10219,7 @@ this
 _onResultRow
 (
 row
+cancel
 )
 ;
 }
@@ -10251,7 +10255,10 @@ executeCached
 (
 query
 params
+(
 row
+cancel
+)
 =
 >
 {
@@ -10264,6 +10271,7 @@ this
 _onResultRow
 (
 row
+cancel
 )
 ;
 }
