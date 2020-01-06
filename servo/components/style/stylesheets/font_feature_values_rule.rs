@@ -1947,10 +1947,6 @@ from
 *
 name
 )
-.
-to_ascii_lowercase
-(
-)
 value
 :
 value
