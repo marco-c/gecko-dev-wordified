@@ -11250,17 +11250,6 @@ kPresContext_DefaultVariableFont_ID
 aLanguage
 )
 ;
-if
-(
-!
-mLanguagesUsed
-.
-Contains
-(
-aLanguage
-)
-)
-{
 mLanguagesUsed
 .
 PutEntry
@@ -11268,7 +11257,6 @@ PutEntry
 aLanguage
 )
 ;
-}
 }
 void
 nsPresContext
