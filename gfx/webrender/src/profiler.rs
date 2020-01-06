@@ -81,7 +81,6 @@ euclid
 Point2D
 Size2D
 Rect
-vec2
 }
 ;
 use
@@ -2483,7 +2482,10 @@ rect
 .
 origin
 +
-vec2
+Point2D
+:
+:
+new
 (
 rect
 .

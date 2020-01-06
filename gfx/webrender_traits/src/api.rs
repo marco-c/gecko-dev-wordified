@@ -137,7 +137,6 @@ ImageData
 ImageDescriptor
 ImageKey
 LayoutPoint
-LayoutVector2D
 LayoutSize
 LayoutTransform
 }
@@ -3583,7 +3582,7 @@ ClipId
 pub
 scroll_offset
 :
-LayoutVector2D
+LayoutPoint
 }
 #
 [
@@ -3611,7 +3610,7 @@ amount
 .
 Delta
 (
-LayoutVector2D
+LayoutPoint
 )
 /
 /

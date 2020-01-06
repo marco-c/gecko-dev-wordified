@@ -185,12 +185,6 @@ TransformStyle
 BoxShadowClipMode
 }
 ;
-use
-euclid
-:
-:
-vec2
-;
 #
 [
 derive
@@ -2669,7 +2663,10 @@ new
 let
 offset
 =
-vec2
+LayoutPoint
+:
+:
+new
 (
 10
 .

@@ -57,10 +57,10 @@ MPL
 *
 /
 use
-gpu_cache
+gpu_store
 :
 :
-GpuCacheHandle
+GpuStoreAddress
 ;
 use
 internal_types
@@ -386,7 +386,7 @@ SplitComposite
 (
 StackingContextIndex
 RenderTaskId
-GpuCacheHandle
+GpuStoreAddress
 i32
 )
 HardwareComposite
