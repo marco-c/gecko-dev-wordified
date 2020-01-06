@@ -124,6 +124,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 vm
 /
 BooleanObject
@@ -181,6 +188,9 @@ doesn
 t
 escape
 .
+AutoUnsafeCallWithABI
+unsafe
+;
 JSObject
 *
 actual

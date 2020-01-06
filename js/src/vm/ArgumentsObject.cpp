@@ -2464,11 +2464,8 @@ GC
 in
 here
 .
-JS
-:
-:
-AutoCheckCannotGC
-nogc
+AutoUnsafeCallWithABI
+unsafe
 ;
 JSFunction
 *

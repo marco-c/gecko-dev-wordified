@@ -2857,8 +2857,8 @@ calls
 this
 directly
 .
-AutoCheckCannotGC
-nogc
+AutoUnsafeCallWithABI
+unsafe
 ;
 if
 (
@@ -2921,8 +2921,8 @@ calls
 this
 directly
 .
-AutoCheckCannotGC
-nogc
+AutoUnsafeCallWithABI
+unsafe
 ;
 MOZ_ASSERT
 (
