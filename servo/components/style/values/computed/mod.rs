@@ -424,6 +424,7 @@ font
 MozScriptLevel
 MozScriptMinSize
 XTextZoom
+XLang
 }
 ;
 pub
