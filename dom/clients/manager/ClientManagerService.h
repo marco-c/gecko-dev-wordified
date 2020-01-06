@@ -232,7 +232,7 @@ GetOrCreateInstance
 (
 )
 ;
-void
+bool
 AddSource
 (
 ClientSourceParent
@@ -240,7 +240,7 @@ ClientSourceParent
 aSource
 )
 ;
-void
+bool
 RemoveSource
 (
 ClientSourceParent

@@ -173,6 +173,11 @@ ClientHandleParent
 >
 mHandleList
 ;
+void
+KillInvalidChild
+(
+)
+;
 /
 /
 PClientSourceParent
@@ -223,6 +228,11 @@ aArgs
 ;
 ~
 ClientSourceParent
+(
+)
+;
+void
+Init
 (
 )
 ;
