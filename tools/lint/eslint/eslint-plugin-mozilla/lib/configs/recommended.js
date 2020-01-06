@@ -557,8 +557,6 @@ line
 not
 the
 start
-/
-/
 "
 comma
 -

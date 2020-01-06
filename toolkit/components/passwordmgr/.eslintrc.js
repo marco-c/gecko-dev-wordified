@@ -13,15 +13,6 @@ rules
 "
 :
 {
-"
-comma
--
-style
-"
-:
-"
-error
-"
 /
 /
 XXX
