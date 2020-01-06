@@ -2083,7 +2083,7 @@ DrawIterator
 aIter
 )
 ;
-void
+nsIntRegion
 ExpandDrawRegion
 (
 PaintState
