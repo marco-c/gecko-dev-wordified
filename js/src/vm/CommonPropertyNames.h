@@ -2629,15 +2629,6 @@ PluralRules
 \
 macro
 (
-PluralRulesSelect
-PluralRulesSelect
-"
-Intl_PluralRules_Select
-"
-)
-\
-macro
-(
 percentSign
 percentSign
 "
