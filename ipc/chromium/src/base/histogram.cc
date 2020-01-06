@@ -1779,6 +1779,10 @@ range_checksum_
 (
 0
 )
+recording_enabled_
+(
+true
+)
 {
 Initialize
 (
@@ -1847,6 +1851,10 @@ bucket_count
 range_checksum_
 (
 0
+)
+recording_enabled_
+(
+true
 )
 {
 Initialize
