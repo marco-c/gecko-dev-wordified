@@ -418,6 +418,17 @@ ITypeInfo
 aOutTypeInfo
 )
 ;
+HRESULT
+Register
+(
+NotNull
+<
+IGeckoBackChannel
+*
+>
+aGecko
+)
+;
 private
 :
 AccessibleHandlerControl
@@ -430,6 +441,9 @@ AccessibleHandlerControl
 )
 =
 default
+;
+bool
+mIsRegistered
 ;
 uint32_t
 mCacheGen
