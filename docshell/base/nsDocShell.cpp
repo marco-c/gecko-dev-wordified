@@ -27259,6 +27259,12 @@ formatStrCount
 =
 1
 ;
+errorDescriptionID
+=
+"
+dnsNotFound2
+"
+;
 error
 =
 "
