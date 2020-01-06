@@ -188,7 +188,7 @@ events
 let
 onEvents
 =
-waitForMultipleEvents
+waitForOrderedEvents
 (
 events
 .
@@ -212,10 +212,10 @@ EVENT_TEXT_INSERTED
 EVENT_TEXT_REMOVED
 ;
 return
-{
-id
+[
 eventType
-}
+id
+]
 ;
 }
 )
