@@ -309,12 +309,7 @@ NS_WARN_IF
 (
 IsInitialized
 (
-base
-:
-:
-GetCurrentProcId
-(
-)
+aProcessToken
 )
 )
 )
