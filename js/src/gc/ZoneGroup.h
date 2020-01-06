@@ -377,6 +377,14 @@ leave
 )
 ;
 bool
+canEnterWithoutYielding
+(
+JSContext
+*
+cx
+)
+;
+bool
 ownedByCurrentThread
 (
 )
