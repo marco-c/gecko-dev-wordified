@@ -103,6 +103,12 @@ js
 }
 )
 ;
+/
+*
+exported
+TimedPromise
+*
+/
 this
 .
 EXPORTED_SYMBOLS
@@ -1206,7 +1212,8 @@ out
 let
 bail
 =
-res
+(
+)
 =
 >
 {

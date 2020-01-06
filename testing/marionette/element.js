@@ -5858,15 +5858,11 @@ element
 .
 isKeyboardInteractable
 =
-function
 (
-el
 )
-{
-return
+=
+>
 true
-;
-}
 ;
 /
 *
