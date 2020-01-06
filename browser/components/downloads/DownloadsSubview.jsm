@@ -546,6 +546,7 @@ command
 '
 downloadsCmd_clearDownloads
 '
+]
 "
 )
 ;
@@ -575,6 +576,7 @@ command
 '
 cmd_delete
 '
+]
 "
 )
 .
