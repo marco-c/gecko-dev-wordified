@@ -2495,7 +2495,7 @@ defaultBackend
 BackendType
 :
 :
-CAIRO
+SKIA
 ;
 if
 (
@@ -2844,13 +2844,13 @@ layers
 so
 fallback
 to
-Cairo
+Skia
 .
 return
 BackendType
 :
 :
-CAIRO
+SKIA
 ;
 }
 /
