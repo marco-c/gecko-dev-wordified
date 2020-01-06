@@ -141,6 +141,14 @@ nsRemoteClient
 {
 public
 :
+virtual
+~
+nsRemoteClient
+(
+)
+{
+}
+;
 /
 *
 *
