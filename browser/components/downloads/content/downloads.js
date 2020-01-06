@@ -5005,7 +5005,7 @@ loaded
 .
 *
 /
-onDataLoadStarting
+onDownloadBatchStarting
 (
 )
 {
@@ -5014,7 +5014,7 @@ DownloadsCommon
 log
 (
 "
-onDataLoadStarting
+onDownloadBatchStarting
 called
 for
 DownloadsView
@@ -5041,7 +5041,7 @@ finished
 .
 *
 /
-onDataLoadCompleted
+onDownloadBatchEnded
 (
 )
 {
@@ -5050,7 +5050,7 @@ DownloadsCommon
 log
 (
 "
-onDataLoadCompleted
+onDownloadBatchEnded
 called
 for
 DownloadsView

@@ -7702,12 +7702,7 @@ firstDownloadElement
 }
 }
 }
-onDataLoadStarting
-(
-)
-{
-}
-onDataLoadCompleted
+onDownloadBatchEnded
 (
 )
 {
