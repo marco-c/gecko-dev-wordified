@@ -478,16 +478,6 @@ aGivenProto
 )
 ;
 }
-NS_IMPL_EVENT_HANDLER
-(
-DOMRequest
-success
-)
-NS_IMPL_EVENT_HANDLER
-(
-DOMRequest
-error
-)
 NS_IMETHODIMP
 DOMRequest
 :
