@@ -163,14 +163,6 @@ try_from
 #
 !
 [
-feature
-(
-untagged_unions
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code
