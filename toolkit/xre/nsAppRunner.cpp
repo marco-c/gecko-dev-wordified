@@ -9360,10 +9360,6 @@ appOmni
 nsresult
 XRE_GetBinaryPath
 (
-const
-char
-*
-argv0
 nsIFile
 *
 *
@@ -9379,7 +9375,6 @@ BinaryPath
 :
 GetFile
 (
-argv0
 aResult
 )
 ;
@@ -9610,10 +9605,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-gArgv
-[
-0
-]
 getter_AddRefs
 (
 lf
@@ -27402,10 +27393,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-argv
-[
-0
-]
 getter_AddRefs
 (
 binFile
@@ -27453,10 +27440,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-gArgv
-[
-0
-]
 getter_AddRefs
 (
 lf
@@ -28389,10 +28372,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-aArgv
-[
-0
-]
 getter_AddRefs
 (
 binFile
