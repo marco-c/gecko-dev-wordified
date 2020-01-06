@@ -146,9 +146,6 @@ Command
 Message
 "
 "
-MessageOrigin
-"
-"
 Response
 "
 ]
@@ -420,8 +417,8 @@ both
 endpoints
 may
 be
-the
 *
+the
 origin
 of
 both
@@ -440,8 +437,9 @@ Message
 }
 *
 /
-const
-MessageOrigin
+Message
+.
+Origin
 =
 {
 /
@@ -840,7 +838,9 @@ this
 .
 origin
 =
-MessageOrigin
+Message
+.
+Origin
 .
 Client
 ;
@@ -1613,7 +1613,9 @@ this
 .
 origin
 =
-MessageOrigin
+Message
+.
+Origin
 .
 Server
 ;
