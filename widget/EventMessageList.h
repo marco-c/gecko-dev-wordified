@@ -2526,6 +2526,14 @@ eSelectionChange
 )
 /
 /
+visibility
+change
+NS_EVENT_MESSAGE
+(
+eVisibilityChange
+)
+/
+/
 Details
 element
 events
