@@ -570,11 +570,6 @@ RootReferenceFrame
 )
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

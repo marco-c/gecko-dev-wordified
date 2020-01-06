@@ -20655,11 +20655,6 @@ override
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -20732,11 +20727,6 @@ IsForEventDelivery
 &
 &
 \
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -20805,11 +20795,6 @@ IsForEventDelivery
 &
 &
 \
-PresContext
-(
-)
--
->
 PresShell
 (
 )
