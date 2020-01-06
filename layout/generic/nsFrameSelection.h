@@ -5007,6 +5007,8 @@ mMaintainRange
 ;
 nsSelectionAmount
 mMaintainedAmount
+=
+eSelectNoAmount
 ;
 /
 /
@@ -5055,6 +5057,8 @@ mAncestorLimiter
 nsIPresShell
 *
 mShell
+=
+nullptr
 ;
 /
 /
@@ -5189,6 +5193,8 @@ false
 ;
 bool
 mDragState
+=
+false
 ;
 /
 /
@@ -5219,6 +5225,8 @@ false
 ;
 int8_t
 mCaretMovementStyle
+=
+0
 ;
 static
 bool
