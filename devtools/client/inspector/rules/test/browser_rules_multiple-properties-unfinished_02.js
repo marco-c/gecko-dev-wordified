@@ -156,7 +156,7 @@ TextPropertyEditor
 .
 view
 .
-throttle
+debounce
 =
 (
 )

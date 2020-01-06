@@ -428,7 +428,7 @@ const
 {
 createChild
 promiseWarn
-throttle
+debounce
 }
 =
 require
@@ -1061,7 +1061,7 @@ Allow
 tests
 to
 override
-throttling
+debouncing
 behavior
 as
 this
@@ -1071,9 +1071,9 @@ intermittents
 .
 this
 .
-throttle
+debounce
 =
-throttle
+debounce
 ;
 this
 .
