@@ -696,7 +696,13 @@ sVRManagerParentSingleton
 GetIPCChannel
 (
 )
-VRListenerThreadHolder
+mozilla
+:
+:
+layers
+:
+:
+CompositorThreadHolder
 :
 :
 Loop
