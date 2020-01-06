@@ -8955,6 +8955,11 @@ getStringPref
 PREF_HOTFIX_LASTVERSION
 null
 )
+updaterAvailable
+:
+AppConstants
+.
+MOZ_UPDATER
 }
 ;
 /
