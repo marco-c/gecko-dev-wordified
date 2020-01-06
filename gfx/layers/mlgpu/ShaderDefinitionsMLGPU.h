@@ -393,8 +393,8 @@ targetOffset
 int
 sortIndexOffset
 ;
-float
-padding
+unsigned
+debugFrameNumber
 ;
 }
 ;

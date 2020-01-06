@@ -195,6 +195,17 @@ include
 "
 mozilla
 /
+layers
+/
+UtilityMLGPU
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 CompositorWidget
