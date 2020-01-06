@@ -150,7 +150,6 @@ CSS_ANON_BOX
 (
 name_
 value_
-skips_fixup_
 )
 \
 nsICSSAnonBoxPseudo
@@ -176,7 +175,6 @@ CSS_ANON_BOX
 (
 name_
 value_
-skips_fixup_
 )
 \
 NS_STATIC_ATOM_BUFFER
@@ -229,7 +227,6 @@ CSS_ANON_BOX
 (
 name_
 value_
-skips_fixup_
 )
 /
 *
@@ -280,7 +277,6 @@ CSS_ANON_BOX
 (
 name_
 value_
-skips_fixup_
 )
 \
 NS_STATIC_ATOM
