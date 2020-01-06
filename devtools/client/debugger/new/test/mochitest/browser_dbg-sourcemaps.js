@@ -540,14 +540,6 @@ stepIn
 dbg
 )
 ;
-/
-/
-await
-waitForMappedScopes
-(
-dbg
-)
-;
 assertPausedLocation
 (
 dbg
