@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-SlicedInputStream_h
+mozilla_SlicedInputStream_h
 #
 define
-SlicedInputStream_h
+mozilla_SlicedInputStream_h
 #
 include
 "
@@ -164,6 +164,9 @@ nsISeekableStream
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 A
@@ -442,8 +445,13 @@ mAsyncWaitRequestedCount
 ;
 }
 ;
+}
+/
+/
+mozilla
+namespace
 #
 endif
 /
 /
-SlicedInputStream_h
+mozilla_SlicedInputStream_h

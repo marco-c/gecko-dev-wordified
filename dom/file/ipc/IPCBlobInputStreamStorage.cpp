@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+SlicedInputStream
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentParent

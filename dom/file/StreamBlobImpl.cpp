@@ -124,6 +124,15 @@ h
 #
 include
 "
+mozilla
+/
+SlicedInputStream
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h
