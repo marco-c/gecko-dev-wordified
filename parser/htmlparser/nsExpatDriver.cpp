@@ -4621,10 +4621,7 @@ Assign
 message
 )
 ;
-nsTextFormatter
-:
-:
-smprintf_free
+free
 (
 message
 )
@@ -5126,10 +5123,7 @@ Append
 message
 )
 ;
-nsTextFormatter
-:
-:
-smprintf_free
+free
 (
 message
 )
