@@ -1331,6 +1331,9 @@ bs
 ;
 int64_t
 folderID
+=
+-
+1
 ;
 if
 (
@@ -8687,6 +8690,8 @@ setter
 {
 bool
 value
+=
+false
 ;
 nsresult
 rv
