@@ -2278,6 +2278,7 @@ masm
 enterFakeExitFrame
 (
 scratch
+scratch
 ExitFrameLayoutBareToken
 )
 ;
@@ -5642,6 +5643,11 @@ masm
 enterExitFrame
 (
 cxreg
+regs
+.
+getAny
+(
+)
 &
 f
 )

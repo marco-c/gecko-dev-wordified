@@ -6386,6 +6386,7 @@ masm
 enterFakeExitFrame
 (
 argJSContext
+scratch
 IonOOLNativeExitFrameLayoutToken
 )
 ;
@@ -6752,6 +6753,7 @@ masm
 enterFakeExitFrame
 (
 argJSContext
+scratch
 IonOOLProxyExitFrameLayoutToken
 )
 ;
@@ -11567,6 +11569,7 @@ masm
 enterFakeExitFrame
 (
 argJSContext
+scratch
 IonOOLNativeExitFrameLayoutToken
 )
 ;

@@ -4048,29 +4048,9 @@ cx
 jitActivation
 '
 ]
-            
-jittop
-=
-cx
-[
-'
-jitTop
-'
-]
         
 else
 :
-            
-jittop
-=
-self
-.
-activation
-[
-'
-prevJitTop_
-'
-]
             
 self
 .
@@ -4085,8 +4065,19 @@ prevJitActivation_
 '
 ]
         
+exitFP
+=
+self
+.
+activation
+[
+'
+exitFP_
+'
+]
+        
 if
-jittop
+exitFP
 =
 =
 0
@@ -4121,7 +4112,7 @@ create_frame
 (
 pc
 exit_sp
-jittop
+exitFP
 frame_type
 pending_frame
 )

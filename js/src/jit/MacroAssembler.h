@@ -5193,6 +5193,8 @@ enterExitFrame
 (
 Register
 cxreg
+Register
+scratch
 const
 VMFunction
 *
@@ -5227,6 +5229,8 @@ enterFakeExitFrame
 (
 Register
 cxreg
+Register
+scratch
 enum
 ExitFrameTokenValues
 token
@@ -5250,6 +5254,8 @@ enterFakeExitFrameForNative
 (
 Register
 cxreg
+Register
+scratch
 bool
 isConstructing
 )
@@ -5287,16 +5293,16 @@ of
 the
 stack
 into
-JSontext
+JitActivation
 :
 :
-jitTop
+exitFP
 of
 the
 current
+/
+/
 thread
-/
-/
 which
 should
 be
@@ -5313,6 +5319,8 @@ linkExitFrame
 (
 Register
 cxreg
+Register
+scratch
 )
 ;
 /
