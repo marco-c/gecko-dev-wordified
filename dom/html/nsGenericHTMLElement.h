@@ -251,9 +251,6 @@ class
 nsIDOMHTMLMenuElement
 ;
 class
-nsIEditor
-;
-class
 nsIFormControlFrame
 ;
 class
@@ -5367,7 +5364,7 @@ aRv
 *
 Locates
 the
-nsIEditor
+TextEditor
 associated
 with
 this
@@ -5438,7 +5435,10 @@ node
 virtual
 already_AddRefed
 <
-nsIEditor
+mozilla
+:
+:
+TextEditor
 >
 GetAssociatedEditor
 (

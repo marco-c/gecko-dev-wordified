@@ -153,6 +153,9 @@ h
 namespace
 mozilla
 {
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -637,7 +640,7 @@ override
 virtual
 already_AddRefed
 <
-nsIEditor
+TextEditor
 >
 GetAssociatedEditor
 (
