@@ -2348,10 +2348,7 @@ aSizes
 by
 /
 /
-nsDocument
-:
-:
-DocAddSizeOfExcludingThis
+AddSizeOfNodeTree
 (
 )
 .
