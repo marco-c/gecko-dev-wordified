@@ -384,6 +384,8 @@ uint8_t
 *
 glyf_dst
 =
+num_glyphs
+?
 &
 glyf_table
 -
@@ -392,6 +394,8 @@ buffer
 [
 0
 ]
+:
+NULL
 ;
 uint8_t
 *
@@ -595,18 +599,6 @@ glyf_offset
 glyf_dst_size
 ;
 }
-if
-(
-glyf_offset
-=
-=
-0
-)
-{
-return
-false
-;
-}
 StoreLoca
 (
 index_fmt
@@ -631,6 +623,8 @@ glyf_table
 >
 data
 =
+glyf_offset
+?
 &
 glyf_table
 -
@@ -639,6 +633,8 @@ buffer
 [
 0
 ]
+:
+NULL
 ;
 glyf_table
 -
@@ -652,6 +648,8 @@ loca_table
 >
 data
 =
+loca_offset
+?
 &
 loca_table
 -
@@ -660,6 +658,8 @@ buffer
 [
 0
 ]
+:
+NULL
 ;
 return
 true
