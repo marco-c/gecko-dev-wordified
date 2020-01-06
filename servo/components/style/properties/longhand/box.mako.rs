@@ -5637,7 +5637,7 @@ destination
 animation_value_type
 =
 "
-ComputedValue
+discrete
 "
 )
 }
@@ -5710,7 +5710,7 @@ destination
 animation_value_type
 =
 "
-ComputedValue
+discrete
 "
 allow_empty
 =
