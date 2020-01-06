@@ -8,11 +8,6 @@ bug
 comment
 3
 .
-version
-(
-170
-)
-;
 Reflect
 .
 parse

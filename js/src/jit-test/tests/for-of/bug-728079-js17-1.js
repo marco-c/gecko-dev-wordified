@@ -18,11 +18,6 @@ destructuring
 special
 case
 .
-version
-(
-170
-)
-;
 var
 data
 =

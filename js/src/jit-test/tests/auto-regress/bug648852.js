@@ -52,7 +52,7 @@ startTest
 {
 if
 (
-version
+print
 )
 if
 (
