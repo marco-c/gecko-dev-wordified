@@ -2034,9 +2034,9 @@ false
 .
 if
 (
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
+IsCrossProcessForwardingStopped
+(
+)
 )
 {
 return

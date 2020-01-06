@@ -10693,9 +10693,9 @@ if
 (
 localEvent
 .
-mFlags
-.
-mWantReplyFromContentProcess
+WantReplyFromContentProcess
+(
+)
 )
 {
 SendReplyKeyEvent
