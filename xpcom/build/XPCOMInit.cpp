@@ -539,13 +539,6 @@ void
 #
 include
 "
-nsAtomService
-.
-h
-"
-#
-include
-"
 nsAtomTable
 .
 h
@@ -1234,10 +1227,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsConsoleService
 Init
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsAtomService
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
