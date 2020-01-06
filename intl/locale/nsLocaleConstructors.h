@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsILocaleService
-.
-h
-"
-#
-include
-"
 nsIScriptableDateFormat
 .
 h
@@ -255,12 +248,6 @@ rv
 ;
 \
 }
-NSLOCALE_MAKE_CTOR
-(
-CreateLocaleService
-nsILocaleService
-NS_NewLocaleService
-)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollation
