@@ -1223,7 +1223,6 @@ is
 "
 Moz
 "
-"
 or
 "
 Webkit

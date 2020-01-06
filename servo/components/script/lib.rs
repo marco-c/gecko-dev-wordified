@@ -61,6 +61,14 @@ MPL
 [
 feature
 (
+ascii_ctype
+)
+]
+#
+!
+[
+feature
+(
 box_syntax
 )
 ]
