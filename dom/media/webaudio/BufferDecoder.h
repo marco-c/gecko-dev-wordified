@@ -251,17 +251,6 @@ TaskQueue
 aTaskQueueIdentity
 )
 ;
-void
-NotifyDecodedFrames
-(
-const
-FrameStatisticsData
-&
-aStats
-)
-final
-override
-;
 VideoFrameContainer
 *
 GetVideoFrameContainer
