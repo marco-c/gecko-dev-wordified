@@ -49351,7 +49351,7 @@ nsContentPolicyType
 aType
 )
 {
-if
+return
 (
 aType
 =
@@ -49379,13 +49379,6 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_STYLESHEET_PRELOAD
 )
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 nsresult
