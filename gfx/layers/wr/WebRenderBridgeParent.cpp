@@ -7923,6 +7923,14 @@ wrEpoch
 )
 )
 ;
+mApi
+-
+>
+RemovePipeline
+(
+mPipelineId
+)
+;
 for
 (
 std
