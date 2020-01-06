@@ -751,6 +751,15 @@ envVar
 LD_LIBRARY_PATH
 "
         
+env
+[
+'
+MOZILLA_FIVE_HOME
+'
+]
+=
+xrePath
+        
 dmdLibrary
 =
 "
