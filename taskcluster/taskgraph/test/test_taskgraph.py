@@ -183,15 +183,15 @@ def
 '
 }
                       
-optimizations
+optimization
 =
-[
-[
+{
 '
 seta
 '
-]
-]
+:
+None
+}
                       
 #
 note
@@ -351,11 +351,10 @@ b
 }
                 
 '
-optimizations
+optimization
 '
 :
-[
-]
+None
             
 }
             
@@ -417,16 +416,16 @@ dependencies
 }
                 
 '
-optimizations
+optimization
 '
 :
-[
-[
+{
 '
 seta
 '
-]
-]
+:
+None
+}
             
 }
         
@@ -489,15 +488,15 @@ match
 edges
 below
                 
-optimizations
+optimization
 =
-[
-[
+{
 '
 seta
 '
-]
-]
+:
+None
+}
                 
 task
 =
@@ -541,15 +540,15 @@ dependencies
 {
 }
                 
-optimizations
+optimization
 =
-[
-[
+{
 '
 seta
 '
-]
-]
+:
+None
+}
                 
 task
 =
