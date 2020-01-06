@@ -169,7 +169,7 @@ widget
 .
 themed
 .
-ThemedFrameLayout
+ThemedImageView
 ;
 import
 org
@@ -205,12 +205,12 @@ ThemedRelativeLayout
 {
 private
 final
-ThemedFrameLayout
+ThemedImageView
 box
 ;
 private
 final
-ThemedFrameLayout
+ThemedImageView
 bar
 ;
 private
@@ -319,7 +319,7 @@ this
 box
 =
 (
-ThemedFrameLayout
+ThemedImageView
 )
 findViewById
 (
@@ -333,7 +333,7 @@ counter_box
 bar
 =
 (
-ThemedFrameLayout
+ThemedImageView
 )
 findViewById
 (
