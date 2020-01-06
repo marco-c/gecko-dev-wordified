@@ -355,10 +355,6 @@ sts
 createInputTransport
 (
 aStream
--
-1
--
-1
 true
 )
 ;
