@@ -2783,6 +2783,7 @@ DisplayListBuilder
 PushBuiltDisplayList
 (
 BuiltDisplayList
+&
 dl
 )
 {
@@ -2792,13 +2793,12 @@ mWrState
 dl
 .
 dl_desc
+&
 dl
 .
 dl
 .
-Extract
-(
-)
+inner
 )
 ;
 }

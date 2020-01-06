@@ -2760,6 +2760,7 @@ aState
 WrBuiltDisplayListDescriptor
 aDlDescriptor
 WrVecU8
+*
 aDlData
 )
 WR_FUNC
