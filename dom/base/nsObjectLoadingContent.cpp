@@ -24405,10 +24405,10 @@ GetOwnPropertyNames
 JSContext
 *
 aCx
-nsTArray
-<
-nsString
->
+JS
+:
+:
+AutoIdVector
 &
 /
 *

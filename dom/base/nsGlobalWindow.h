@@ -2934,10 +2934,10 @@ GetOwnPropertyNames
 JSContext
 *
 aCx
-nsTArray
-<
-nsString
->
+JS
+:
+:
+AutoIdVector
 &
 aNames
 mozilla
