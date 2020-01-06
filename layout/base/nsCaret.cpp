@@ -3857,6 +3857,10 @@ Cancel
 (
 )
 ;
+mBlinkRate
+=
+0
+;
 }
 }
 nsresult
