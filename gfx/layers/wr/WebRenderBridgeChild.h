@@ -497,6 +497,8 @@ side
 void
 Destroy
 (
+bool
+aIsSync
 )
 ;
 bool

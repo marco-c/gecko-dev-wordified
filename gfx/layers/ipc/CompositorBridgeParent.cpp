@@ -3097,7 +3097,7 @@ FlushRendering
 (
 /
 *
-aSync
+aIsSync
 *
 /
 true
@@ -3166,7 +3166,7 @@ FlushRendering
 (
 /
 *
-aSync
+aIsSync
 *
 /
 false
