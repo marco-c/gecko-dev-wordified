@@ -4450,6 +4450,11 @@ warnedAboutLegacyGenerator
 :
 1
 ;
+bool
+warnedAboutObjectWatch
+:
+1
+;
 uint32_t
 warnedAboutStringGenericsMethods
 ;

@@ -457,6 +457,10 @@ warnedAboutLegacyGenerator
 (
 false
 )
+warnedAboutObjectWatch
+(
+false
+)
 warnedAboutStringGenericsMethods
 (
 0
