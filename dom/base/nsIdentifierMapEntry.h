@@ -540,9 +540,7 @@ Move
 (
 aOther
 .
-GetKey
-(
-)
+mKey
 )
 )
 mIdContentList
@@ -594,16 +592,6 @@ nsIdentifierMapEntry
 (
 )
 ;
-KeyType
-GetKey
-(
-)
-const
-{
-return
-mKey
-;
-}
 nsString
 GetKeyAsString
 (
