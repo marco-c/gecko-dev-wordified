@@ -104,7 +104,7 @@ responsiveFrameScriptLoaded
 return
 ;
 }
-var
+const
 Ci
 =
 Components
@@ -148,15 +148,15 @@ css
 "
 )
 ;
-var
-gRequiresFloatingScrollbars
+let
+requiresFloatingScrollbars
 ;
-var
+let
 active
 =
 false
 ;
-var
+let
 resizeNotifications
 =
 false
@@ -254,8 +254,6 @@ startResponsiveMode
 (
 {
 data
-:
-data
 }
 )
 {
@@ -340,7 +338,7 @@ deviceSizeIsPageSize
 =
 true
 ;
-gRequiresFloatingScrollbars
+requiresFloatingScrollbars
 =
 data
 .
@@ -661,7 +659,7 @@ makeScrollbarsFloating
 if
 (
 !
-gRequiresFloatingScrollbars
+requiresFloatingScrollbars
 )
 {
 return
@@ -1078,7 +1076,7 @@ toDataURL
 )
 ;
 }
-var
+let
 WebProgressListener
 =
 {
@@ -1114,12 +1112,12 @@ QueryInterface
 function
 QueryInterface
 (
-aIID
+iid
 )
 {
 if
 (
-aIID
+iid
 .
 equals
 (
@@ -1129,7 +1127,7 @@ nsIWebProgressListener
 )
 |
 |
-aIID
+iid
 .
 equals
 (
@@ -1139,7 +1137,7 @@ nsISupportsWeakReference
 )
 |
 |
-aIID
+iid
 .
 equals
 (
