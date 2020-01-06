@@ -358,6 +358,9 @@ SPPingService
 SPLoadExtension
 "
 "
+SPProcessCrashManagerWait
+"
+"
 SPStartupExtension
 "
 "
