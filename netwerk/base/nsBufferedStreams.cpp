@@ -1994,10 +1994,6 @@ Close
 ;
 #
 endif
-mAsyncWaitCallback
-=
-nullptr
-;
 if
 (
 NS_FAILED
