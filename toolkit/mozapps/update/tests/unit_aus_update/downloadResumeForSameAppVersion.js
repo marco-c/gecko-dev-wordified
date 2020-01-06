@@ -65,6 +65,10 @@ setupTestCommon
 (
 )
 ;
+start_httpserver
+(
+)
+;
 debugDump
 (
 "
@@ -254,7 +258,7 @@ waitForUpdateXMLFilesFinished
 (
 )
 {
-do_execute_soon
+stop_httpserver
 (
 doTestFinish
 )
