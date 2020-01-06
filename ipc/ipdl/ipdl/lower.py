@@ -13668,18 +13668,9 @@ compress
         
 compression
 =
-ExprVar
-(
 '
-IPC
-:
-:
-Message
-:
-:
 COMPRESSION_ENABLED
 '
-)
     
 elif
 compress
@@ -13695,36 +13686,18 @@ compressall
         
 compression
 =
-ExprVar
-(
 '
-IPC
-:
-:
-Message
-:
-:
 COMPRESSION_ALL
 '
-)
     
 else
 :
         
 compression
 =
-ExprVar
-(
 '
-IPC
-:
-:
-Message
-:
-:
 COMPRESSION_NONE
 '
-)
     
 if
 nested
@@ -13740,12 +13713,6 @@ NOT_NESTED
 nestedEnum
 =
 '
-IPC
-:
-:
-Message
-:
-:
 NOT_NESTED
 '
     
@@ -13763,12 +13730,6 @@ INSIDE_SYNC_NESTED
 nestedEnum
 =
 '
-IPC
-:
-:
-Message
-:
-:
 NESTED_INSIDE_SYNC
 '
     
@@ -13788,12 +13749,6 @@ INSIDE_CPOW_NESTED
 nestedEnum
 =
 '
-IPC
-:
-:
-Message
-:
-:
 NESTED_INSIDE_CPOW
 '
     
@@ -13811,12 +13766,6 @@ NORMAL_PRIORITY
 prioEnum
 =
 '
-IPC
-:
-:
-Message
-:
-:
 NORMAL_PRIORITY
 '
     
@@ -13834,12 +13783,6 @@ INPUT_PRIORITY
 prioEnum
 =
 '
-IPC
-:
-:
-Message
-:
-:
 INPUT_PRIORITY
 '
     
@@ -13849,14 +13792,30 @@ else
 prioEnum
 =
 '
+HIGH_PRIORITY
+'
+    
+def
+messageEnum
+(
+valname
+)
+:
+        
+return
+ExprVar
+(
+'
 IPC
 :
 :
 Message
 :
 :
-HIGH_PRIORITY
 '
++
+valname
+)
     
 func
 .
@@ -13897,17 +13856,20 @@ segmentSize
 )
 )
                                   
-ExprVar
+messageEnum
 (
 nestedEnum
 )
                                   
-ExprVar
+messageEnum
 (
 prioEnum
 )
                                   
+messageEnum
+(
 compression
+)
                                   
 ExprLiteral
 .
