@@ -4699,6 +4699,13 @@ change
 "
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_TELEMETRY_REPORTING
+)
+{
 os
 .
 addObserver
@@ -4711,6 +4718,7 @@ search
 "
 )
 ;
+}
 os
 .
 addObserver
@@ -5244,6 +5252,13 @@ change
 "
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_TELEMETRY_REPORTING
+)
+{
 os
 .
 removeObserver
@@ -5256,6 +5271,7 @@ search
 "
 )
 ;
+}
 os
 .
 removeObserver
