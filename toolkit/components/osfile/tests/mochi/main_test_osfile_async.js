@@ -3331,8 +3331,6 @@ consoleListener
 =
 {
 observe
-:
-function
 (
 aMessage
 )
@@ -3425,9 +3423,6 @@ LOG
 several
 times
 .
-let
-fileExists
-=
 await
 OS
 .

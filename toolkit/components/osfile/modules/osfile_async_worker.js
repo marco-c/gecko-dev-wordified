@@ -433,8 +433,6 @@ identifier
 *
 /
 get
-:
-function
 (
 id
 )
@@ -484,8 +482,6 @@ identifier
 *
 /
 remove
-:
-function
 (
 id
 )
@@ -594,8 +590,6 @@ forever
 *
 /
 add
-:
-function
 (
 resource
 info
@@ -619,10 +613,6 @@ set
 id
 {
 resource
-:
-resource
-info
-:
 info
 }
 )
@@ -1089,8 +1079,6 @@ from
 controller
 .
 SET_DEBUG
-:
-function
 (
 aDEBUG
 )
@@ -1132,8 +1120,6 @@ testing
 purposes
 .
 GET_DEBUG
-:
-function
 (
 )
 {
@@ -1183,8 +1169,6 @@ leaks
 *
 /
 Meta_shutdown
-:
-function
 (
 kill
 )
@@ -1934,8 +1918,6 @@ options
 ;
 }
 removeDir
-:
-function
 (
 path
 options
