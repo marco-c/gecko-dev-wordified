@@ -1260,10 +1260,13 @@ etc
 .
 )
 .
+virtual
 bool
 IsTransportSeekable
 (
 )
+=
+0
 ;
 /
 /

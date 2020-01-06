@@ -271,6 +271,16 @@ return
 mDemuxer
 ;
 }
+bool
+IsTransportSeekable
+(
+)
+override
+{
+return
+true
+;
+}
 /
 /
 Returns
