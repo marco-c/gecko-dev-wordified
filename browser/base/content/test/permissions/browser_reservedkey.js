@@ -440,7 +440,7 @@ await
 new
 Promise
 (
-r
+resolve
 =
 >
 {
@@ -466,7 +466,7 @@ shortcuts
 ]
 ]
 }
-r
+resolve
 )
 ;
 }
