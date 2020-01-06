@@ -1589,6 +1589,13 @@ IsLeafDynamic
 const
 override
 ;
+virtual
+void
+UpdateWidgetProperties
+(
+)
+override
+;
 /
 /
 layout
