@@ -7744,7 +7744,7 @@ if
 !
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 )
 {
 mHelper
@@ -13057,7 +13057,7 @@ mClipAllDescendants
 (
 aIsRoot
 )
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 (
 false
 )
@@ -34696,7 +34696,7 @@ if
 !
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 )
 {
 mHelper
@@ -36839,7 +36839,7 @@ aOldScrollArea
 NS_ASSERTION
 (
 !
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 "
 This
 should

@@ -3427,7 +3427,7 @@ wrong
 size
 .
 bool
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 :
 1
 ;
@@ -3442,7 +3442,7 @@ scrollbar
 layout
 due
 to
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 /
 /
 being
@@ -3470,7 +3470,7 @@ be
 needed
 next
 time
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 is
 /
 /
@@ -6372,7 +6372,7 @@ aSuppress
 {
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 =
 aSuppress
 ;
@@ -6404,7 +6404,7 @@ const
 return
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 ;
 }
 /
