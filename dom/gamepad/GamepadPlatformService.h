@@ -638,6 +638,8 @@ T
 void
 NotifyGamepadChange
 (
+uint32_t
+aIndex
 const
 T
 &
