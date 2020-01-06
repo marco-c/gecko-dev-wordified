@@ -439,7 +439,7 @@ aOpacity
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 &
 aMode
 nsTArray
@@ -447,7 +447,7 @@ nsTArray
 wr
 :
 :
-WrGradientStop
+GradientStop
 >
 &
 aStops
