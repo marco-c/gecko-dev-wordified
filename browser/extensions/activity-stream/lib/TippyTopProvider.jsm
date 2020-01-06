@@ -207,6 +207,12 @@ Map
 (
 )
 ;
+this
+.
+initialized
+=
+false
+;
 }
 async
 init
@@ -310,6 +316,12 @@ site
 ;
 }
 }
+this
+.
+initialized
+=
+true
+;
 }
 catch
 (
