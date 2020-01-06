@@ -17384,6 +17384,12 @@ return
 nullptr
 ;
 }
+const
+bool
+useInvalidation
+=
+false
+;
 return
 const_cast
 <
@@ -17395,6 +17401,7 @@ Servo_SelectorList_QueryFirst
 (
 this
 aList
+useInvalidation
 )
 )
 ;
@@ -17531,6 +17538,12 @@ aList
 return
 ;
 }
+const
+bool
+useInvalidation
+=
+false
+;
 Servo_SelectorList_QueryAll
 (
 this
@@ -17540,6 +17553,7 @@ contentList
 get
 (
 )
+useInvalidation
 )
 ;
 }
