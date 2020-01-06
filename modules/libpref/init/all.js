@@ -15009,16 +15009,6 @@ pref
 "
 dom
 .
-disable_window_showModalDialog
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 allow_scripts_to_close_windows
 "
 false
@@ -56508,9 +56498,9 @@ pref
 "
 webgl
 .
-max
--
 perf
+.
+max
 -
 warnings
 "
@@ -56521,6 +56511,8 @@ pref
 (
 "
 webgl
+.
+perf
 .
 max
 -
@@ -67056,7 +67048,7 @@ HTTPS
 .
 #
 ifdef
-RELEASE
+RELEASE_OR_BETA
 /
 /
 Don
@@ -67188,7 +67180,7 @@ channel
 to
 timeout
 in
-2
+3
 seconds
 if
 we
@@ -67211,7 +67203,7 @@ mixed_content
 .
 hsts_priming_request_timeout
 "
-2000
+3000
 )
 ;
 /

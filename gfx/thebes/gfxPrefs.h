@@ -8324,9 +8324,9 @@ Live
 "
 webgl
 .
-max
--
 perf
+.
+max
 -
 warnings
 "
@@ -8340,6 +8340,8 @@ DECL_GFX_PREF
 Live
 "
 webgl
+.
+perf
 .
 max
 -
