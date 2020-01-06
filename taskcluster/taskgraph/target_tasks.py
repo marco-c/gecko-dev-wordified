@@ -2099,6 +2099,24 @@ build_type
 '
 opt
 '
+and
+\
+                
+task
+.
+attributes
+.
+get
+(
+'
+unittest_suite
+'
+)
+!
+=
+'
+talos
+'
 :
                 
 return
