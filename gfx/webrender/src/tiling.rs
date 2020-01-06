@@ -470,6 +470,11 @@ PrimitiveKind
 :
 :
 RadialGradient
+|
+PrimitiveKind
+:
+:
+TextShadow
 =
 >
 {

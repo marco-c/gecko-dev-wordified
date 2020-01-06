@@ -520,6 +520,13 @@ LayoutPoint
 ;
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone
