@@ -76,14 +76,10 @@ browserAction
 js
 *
 /
-XPCOMUtils
+Cu
 .
-defineLazyModuleGetter
+import
 (
-this
-"
-PlacesUtils
-"
 "
 resource
 :

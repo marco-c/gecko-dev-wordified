@@ -102,17 +102,6 @@ nsIExternalProtocolService
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 const
 hasHandlerApp
 =
