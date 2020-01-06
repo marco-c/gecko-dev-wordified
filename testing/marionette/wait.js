@@ -131,7 +131,7 @@ wait
 *
 *
 callback
-WaitCondition
+Condition
 *
 *
 param
@@ -509,7 +509,7 @@ code
 *
 param
 {
-WaitCondition
+Condition
 }
 func
 *
