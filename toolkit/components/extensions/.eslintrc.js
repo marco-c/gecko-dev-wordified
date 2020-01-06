@@ -140,7 +140,7 @@ tests
 "
 :
 "
-error
+warn
 "
 "
 mozilla
@@ -157,7 +157,7 @@ level
 "
 :
 "
-error
+warn
 "
 "
 valid
@@ -622,7 +622,7 @@ spaces
 "
 :
 "
-error
+warn
 "
 /
 /
@@ -794,7 +794,7 @@ ops
 :
 [
 "
-error
+warn
 "
 {
 "
@@ -1637,7 +1637,7 @@ str
 "
 :
 "
-error
+warn
 "
 /
 /
@@ -2180,7 +2180,7 @@ blocks
 :
 [
 "
-error
+warn
 "
 "
 never
