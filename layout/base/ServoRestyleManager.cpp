@@ -3341,8 +3341,11 @@ aElement
 newContext
 -
 >
-EnsureSameStructsCached
+ResolveSameStructsAs
 (
+PresContext
+(
+)
 oldStyleContext
 )
 ;
