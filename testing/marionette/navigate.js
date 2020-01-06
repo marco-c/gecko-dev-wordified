@@ -258,6 +258,7 @@ undefined
 )
 {
 throw
+new
 TypeError
 (
 "

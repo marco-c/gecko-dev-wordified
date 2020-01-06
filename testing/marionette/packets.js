@@ -597,6 +597,7 @@ PACKET_LENGTH_MAX
 )
 {
 throw
+new
 Error
 (
 "
