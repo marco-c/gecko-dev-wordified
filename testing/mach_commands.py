@@ -3275,8 +3275,21 @@ params
 import
 subprocess
         
-import
-sys
+self
+.
+virtualenv_manager
+.
+ensure
+(
+)
+        
+python
+=
+self
+.
+virtualenv_manager
+.
+python_path
         
 js
 =
@@ -3310,6 +3323,9 @@ tests
 jittest_cmd
 =
 [
+            
+python
+            
 os
 .
 path
@@ -3336,8 +3352,9 @@ jit_test
 py
 '
 )
-              
+            
 js
+            
 '
 -
 -
@@ -3345,6 +3362,7 @@ no
 -
 slow
 '
+            
 '
 -
 -
@@ -3352,6 +3370,7 @@ jitflags
 =
 all
 '
+        
 ]
         
 if
@@ -3394,6 +3413,9 @@ jstests
 jstest_cmd
 =
 [
+            
+python
+            
 os
 .
 path
@@ -3418,8 +3440,9 @@ jstests
 py
 '
 )
-              
+            
 js
+            
 '
 -
 -
@@ -3427,6 +3450,7 @@ jitflags
 =
 all
 '
+        
 ]
         
 jstest_result
@@ -3493,9 +3517,7 @@ style
 check_style_cmd
 =
 [
-sys
-.
-executable
+python
 os
 .
 path
@@ -3556,9 +3578,7 @@ masm
 check_masm_cmd
 =
 [
-sys
-.
-executable
+python
 os
 .
 path
@@ -3623,9 +3643,7 @@ encoding
 check_js_msg_cmd
 =
 [
-sys
-.
-executable
+python
 os
 .
 path
