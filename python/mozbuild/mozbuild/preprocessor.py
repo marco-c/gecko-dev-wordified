@@ -4585,9 +4585,21 @@ nesting
 of
 #
 else
+in
+%
+s
 \
 n
 '
+%
+self
+.
+context
+[
+'
+FILE
+'
+]
 )
     
 def
