@@ -123,6 +123,8 @@ NoCommandError
 UnknownCommandError
     
 UnrecognizedArgumentError
+    
+FailedCommandError
 )
 from
 .
@@ -3153,6 +3155,24 @@ ki
             
 raise
 ki
+        
+except
+FailedCommandError
+as
+e
+:
+            
+print
+(
+e
+.
+message
+)
+            
+return
+e
+.
+exit_code
         
 except
 Exception
