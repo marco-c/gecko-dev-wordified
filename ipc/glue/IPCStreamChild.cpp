@@ -420,7 +420,10 @@ void
 SendData
 (
 const
-nsCString
+wr
+:
+:
+ByteBuffer
 &
 aBuffer
 )
@@ -810,7 +813,10 @@ IPCResult
 RecvBuffer
 (
 const
-nsCString
+wr
+:
+:
+ByteBuffer
 &
 aBuffer
 )
