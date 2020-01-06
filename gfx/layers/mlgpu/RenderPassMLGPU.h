@@ -2540,6 +2540,12 @@ OnPrepareBuffers
 )
 override
 ;
+void
+ExecuteRendering
+(
+)
+override
+;
 float
 GetOpacity
 (
@@ -2549,6 +2555,11 @@ override
 ;
 bool
 PrepareBlendState
+(
+)
+;
+void
+RenderWithBackdropCopy
 (
 )
 ;
