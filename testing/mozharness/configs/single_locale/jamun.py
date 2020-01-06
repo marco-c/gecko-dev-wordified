@@ -80,7 +80,7 @@ l10n
 /
 mozilla
 -
-aurora
+beta
 "
     
 #

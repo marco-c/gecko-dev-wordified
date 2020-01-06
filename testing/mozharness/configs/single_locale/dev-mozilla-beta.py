@@ -7,7 +7,7 @@ branch
 "
 :
 "
-date
+jamun
 "
     
 "
@@ -62,7 +62,7 @@ beta
 dev
 releases
 use
-date
+jamun
 repo
 for
 now
@@ -72,7 +72,7 @@ mozilla_dir
 "
 :
 "
-date
+jamun
 "
     
 "
@@ -154,7 +154,7 @@ org
 /
 projects
 /
-date
+jamun
 "
         
 "
@@ -174,7 +174,7 @@ dest
 "
 :
 "
-date
+jamun
 "
         
 "
@@ -192,9 +192,9 @@ mozilla
 .
 org
 /
-mozilla
--
-unified
+projects
+/
+jamun
 "
     
 }
