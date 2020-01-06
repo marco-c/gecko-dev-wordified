@@ -400,9 +400,11 @@ principal
 =
 gScriptSecurityManager
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 Assert

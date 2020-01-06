@@ -190,7 +190,7 @@ Services
 .
 scriptSecurityManager
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 Services
 .
@@ -200,6 +200,8 @@ newURI
 (
 url
 )
+{
+}
 )
 type
 :

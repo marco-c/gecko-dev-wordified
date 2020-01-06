@@ -720,9 +720,11 @@ principal
 =
 gScriptSecurityManager
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 if
