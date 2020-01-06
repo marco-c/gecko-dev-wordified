@@ -2396,14 +2396,6 @@ this
 var
 gPageCompleted
 ;
-var
-GLOBAL
-=
-this
-+
-'
-'
-;
 /
 /
 Variables

@@ -81,6 +81,14 @@ MPL
 .
 *
 /
+var
+GLOBAL
+=
+this
++
+'
+'
+;
 /
 *
 *

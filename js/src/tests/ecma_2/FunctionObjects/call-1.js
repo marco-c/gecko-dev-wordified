@@ -157,6 +157,14 @@ SECTION
 TITLE
 )
 ;
+var
+GLOBAL
+=
+this
++
+'
+'
+;
 new
 TestCase
 (
