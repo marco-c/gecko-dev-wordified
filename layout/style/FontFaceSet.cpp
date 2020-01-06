@@ -429,6 +429,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -6564,7 +6571,7 @@ unit
 eCSSUnit_PairListDep
 )
 {
-nsRuleNode
+nsLayoutUtils
 :
 :
 ComputeFontFeatures
@@ -6661,7 +6668,7 @@ stringValue
 ;
 languageOverride
 =
-nsRuleNode
+nsLayoutUtils
 :
 :
 ParseFontLanguageOverride

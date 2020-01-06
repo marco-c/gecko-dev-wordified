@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsRuleNode
-.
-h
-"
-#
-include
-"
 nsROCSSPrimitiveValue
 .
 h
@@ -2929,7 +2922,7 @@ gfxFontFeature
 >
 featureSettings
 ;
-nsRuleNode
+nsLayoutUtils
 :
 :
 ComputeFontFeatures
@@ -3138,7 +3131,7 @@ gfxFontVariation
 >
 variationSettings
 ;
-nsRuleNode
+nsLayoutUtils
 :
 :
 ComputeFontVariations

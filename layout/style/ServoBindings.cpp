@@ -7158,7 +7158,7 @@ guard
 sServoFFILock
 )
 ;
-nsRuleNode
+nsLayoutUtils
 :
 :
 ComputeSystemFont
@@ -11798,7 +11798,7 @@ mLanguage
 kPresContext_DefaultVariableFont_ID
 )
 ;
-nsRuleNode
+nsLayoutUtils
 :
 :
 FixupNoneGeneric
@@ -12005,7 +12005,7 @@ nullptr
 )
 ;
 }
-nsRuleNode
+nsLayoutUtils
 :
 :
 ApplyMinFontSize
@@ -12529,7 +12529,7 @@ nsFontMetrics
 >
 fm
 =
-nsRuleNode
+nsLayoutUtils
 :
 :
 GetMetricsFor
@@ -12539,7 +12539,7 @@ aIsVertical
 aFont
 aFontSize
 aUseUserFontSet
-nsRuleNode
+nsLayoutUtils
 :
 :
 FlushUserFontSet
