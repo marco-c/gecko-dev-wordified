@@ -190,7 +190,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 if
@@ -213,7 +213,7 @@ aProvider
 )
 nsCString
 (
-aPrefix
+aFullHash
 )
 )
 ;

@@ -275,7 +275,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 /
@@ -646,7 +646,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 static

@@ -6403,7 +6403,7 @@ NS_ERROR_PHISHING_URI
 nsCString
 list
 provider
-prefix
+fullhash
 ;
 nsresult
 rv
@@ -6432,9 +6432,9 @@ rv
 ;
 rv
 =
-GetMatchedPrefix
+GetMatchedFullHash
 (
-prefix
+fullhash
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -6451,7 +6451,7 @@ this
 aChannelStatus
 list
 provider
-prefix
+fullhash
 )
 ;
 }
@@ -9826,7 +9826,7 @@ aProvider
 const
 nsCString
 &
-aPrefix
+aFullHash
 )
 {
 LOG
@@ -9896,7 +9896,7 @@ HttpChannelChild
 SetMatchedInfo
 aList
 aProvider
-aPrefix
+aFullHash
 )
 NS_DISPATCH_NORMAL
 )

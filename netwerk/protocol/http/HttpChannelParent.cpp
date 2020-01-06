@@ -10865,7 +10865,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 LOG
@@ -10910,7 +10910,7 @@ OnSetClassifierMatchedInfo
 (
 aList
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }

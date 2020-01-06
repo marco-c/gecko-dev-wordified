@@ -257,7 +257,7 @@ get_ClassifierInfo
 (
 )
 .
-prefix
+fullhash
 (
 )
 )

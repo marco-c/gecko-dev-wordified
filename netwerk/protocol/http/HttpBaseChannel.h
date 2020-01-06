@@ -3974,7 +3974,7 @@ nsCString
 mMatchedProvider
 ;
 nsCString
-mMatchedPrefix
+mMatchedFullHash
 ;
 }
 ;

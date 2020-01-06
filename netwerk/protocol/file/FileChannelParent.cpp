@@ -274,7 +274,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 /
