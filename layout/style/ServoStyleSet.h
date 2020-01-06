@@ -723,11 +723,9 @@ StylistNeedsUpdate
 )
 ;
 }
-nsRestyleHint
+bool
 MediumFeaturesChanged
 (
-bool
-aViewportChanged
 )
 const
 ;
