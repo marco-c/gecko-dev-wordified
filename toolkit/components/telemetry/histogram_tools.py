@@ -3766,6 +3766,15 @@ allowed_keys
 )
 :
         
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
+        
 for
 key
 in
