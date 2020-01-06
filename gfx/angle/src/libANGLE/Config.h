@@ -534,14 +534,6 @@ Optimal
 window
 surface
 orientation
-EGLenum
-colorComponentType
-;
-/
-/
-Color
-component
-type
 }
 ;
 class

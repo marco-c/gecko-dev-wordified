@@ -127,7 +127,7 @@ compiler
 /
 translator
 /
-IntermTraverse
+IntermNode
 .
 h
 "
@@ -460,6 +460,7 @@ getLine
 ;
 queueReplacement
 (
+node
 exp
 OriginalNode
 :

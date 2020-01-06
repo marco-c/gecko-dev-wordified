@@ -105,6 +105,8 @@ EGLint
 >
 &
 attribList
+EGLContext
+context
 RendererGL
 *
 renderer
@@ -116,6 +118,7 @@ state
 egl
 config
 attribList
+context
 renderer
 )
 {
@@ -138,13 +141,6 @@ PbufferSurfaceEGL
 :
 initialize
 (
-const
-egl
-:
-:
-Display
-*
-display
 )
 {
 mSurface
@@ -193,8 +189,9 @@ return
 egl
 :
 :
-NoError
+Error
 (
+EGL_SUCCESS
 )
 ;
 }

@@ -893,7 +893,7 @@ mData
 0
 ]
 :
-nullptr
+NULL
 ;
 }
 private
@@ -985,10 +985,6 @@ T
 }
 ;
 }
-/
-/
-namespace
-gl
 #
 endif
 /

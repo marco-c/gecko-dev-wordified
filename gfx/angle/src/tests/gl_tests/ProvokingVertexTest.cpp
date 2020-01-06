@@ -845,7 +845,7 @@ vertexData
 pixelValue
 )
 ;
-void
+GLvoid
 *
 mapPointer
 =

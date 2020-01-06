@@ -438,7 +438,7 @@ getWindowHeight
 0
 GL_RGB
 GL_UNSIGNED_BYTE
-nullptr
+NULL
 )
 ;
 glTexParameteri

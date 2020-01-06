@@ -1098,7 +1098,7 @@ NV_draw_buffers
 ;
 mCompiler
 =
-nullptr
+NULL
 ;
 }
 virtual
@@ -1132,7 +1132,7 @@ mCompiler
 ;
 mCompiler
 =
-nullptr
+NULL
 ;
 }
 }
@@ -1175,7 +1175,7 @@ ASSERT_TRUE
 mCompiler
 !
 =
-nullptr
+NULL
 )
 <
 <

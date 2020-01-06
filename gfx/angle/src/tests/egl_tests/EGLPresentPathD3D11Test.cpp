@@ -293,8 +293,8 @@ ASSERT_EGL_TRUE
 eglInitialize
 (
 mDisplay
-nullptr
-nullptr
+NULL
+NULL
 )
 )
 ;
@@ -379,7 +379,7 @@ eglCreateContext
 (
 mDisplay
 mConfig
-nullptr
+NULL
 contextAttribs
 )
 ;
@@ -841,8 +841,7 @@ std
 string
 vertexShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -894,7 +893,6 @@ xy
 ;
 }
 )
-"
 ;
 const
 std
@@ -903,8 +901,7 @@ std
 string
 fragmentShaderSource2D
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -933,7 +930,6 @@ texcoord
 ;
 }
 )
-"
 ;
 m2DProgram
 =

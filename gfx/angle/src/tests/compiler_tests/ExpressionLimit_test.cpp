@@ -1106,14 +1106,9 @@ ExpressionLimitTest
 kHasRecursion
 =
 "
-Recursive
-function
-call
-in
-the
-following
-call
-chain
+Function
+recursion
+detected
 "
 ;
 const
@@ -1193,7 +1188,7 @@ c_str
 (
 )
 compileOptions
-nullptr
+NULL
 )
 )
 ;
@@ -1259,7 +1254,7 @@ compileOptions
 &
 ~
 SH_LIMIT_EXPRESSION_COMPLEXITY
-nullptr
+NULL
 )
 )
 ;
@@ -1333,7 +1328,7 @@ c_str
 (
 )
 compileOptions
-nullptr
+NULL
 )
 )
 ;
@@ -1399,7 +1394,7 @@ compileOptions
 &
 ~
 SH_LIMIT_EXPRESSION_COMPLEXITY
-nullptr
+NULL
 )
 )
 ;
@@ -1474,7 +1469,7 @@ c_str
 (
 )
 compileOptions
-nullptr
+NULL
 )
 )
 ;
@@ -1541,7 +1536,7 @@ compileOptions
 &
 ~
 SH_LIMIT_CALL_STACK_DEPTH
-nullptr
+NULL
 )
 )
 ;
@@ -1616,7 +1611,7 @@ c_str
 (
 )
 compileOptions
-nullptr
+NULL
 )
 )
 ;
@@ -1683,7 +1678,7 @@ compileOptions
 &
 ~
 SH_LIMIT_CALL_STACK_DEPTH
-nullptr
+NULL
 )
 )
 ;
@@ -2532,7 +2527,7 @@ CheckShaderCompilation
 vertexCompiler
 shaderWithNoRecursion
 compileOptions
-nullptr
+NULL
 )
 )
 ;
@@ -2556,7 +2551,7 @@ shaderWithNoRecursion
 compileOptions
 |
 SH_LIMIT_CALL_STACK_DEPTH
-nullptr
+NULL
 )
 )
 ;

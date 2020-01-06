@@ -100,12 +100,12 @@ ShaderLang
 .
 h
 >
+class
+TIntermNode
+;
 namespace
 sh
 {
-class
-TIntermBlock
-;
 class
 TSymbolTable
 ;
@@ -126,7 +126,7 @@ InterfaceBlock
 void
 UseInterfaceBlockFields
 (
-TIntermBlock
+TIntermNode
 *
 root
 const

@@ -611,7 +611,7 @@ numParams
 context
 -
 >
-getIntegervImpl
+getIntegerv
 (
 pname
 intParams
@@ -682,7 +682,7 @@ GL_FALSE
 context
 -
 >
-getBooleanvImpl
+getBooleanv
 (
 pname
 boolParams
@@ -769,7 +769,7 @@ numParams
 context
 -
 >
-getFloatvImpl
+getFloatv
 (
 pname
 floatParams

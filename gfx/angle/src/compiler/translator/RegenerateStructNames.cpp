@@ -122,8 +122,7 @@ return
 if
 (
 mSymbolTable
--
->
+.
 findBuiltIn
 (
 userType

@@ -49,14 +49,13 @@ cpp
 :
 /
 /
-Tests
+tests
 used
 to
 check
-environment
+setup
 in
 which
-other
 tests
 are
 run

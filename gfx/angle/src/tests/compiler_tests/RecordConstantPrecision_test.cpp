@@ -248,7 +248,7 @@ foundInCode
 const
 highp
 float
-s
+webgl_angle_s
 "
 )
 )
@@ -405,7 +405,7 @@ foundInCode
 const
 mediump
 float
-s
+webgl_angle_s
 "
 )
 )
@@ -571,7 +571,7 @@ foundInCode
 const
 highp
 float
-s
+webgl_angle_s
 "
 )
 )
@@ -748,7 +748,7 @@ foundInCode
 const
 highp
 float
-s
+webgl_angle_s
 "
 )
 )

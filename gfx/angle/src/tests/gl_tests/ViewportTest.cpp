@@ -831,8 +831,7 @@ std
 string
 testVertexShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 highp
@@ -851,7 +850,6 @@ position
 ;
 }
 )
-"
 ;
 const
 std
@@ -860,8 +858,7 @@ std
 string
 testFragmentShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 void
 main
@@ -889,7 +886,6 @@ vec4
 ;
 }
 )
-"
 ;
 mProgram
 =

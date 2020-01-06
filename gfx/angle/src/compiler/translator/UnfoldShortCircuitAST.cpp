@@ -300,6 +300,7 @@ replacement
 {
 queueReplacement
 (
+node
 replacement
 OriginalNode
 :

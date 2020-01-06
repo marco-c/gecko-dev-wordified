@@ -83,9 +83,9 @@ to
 be
 separated
 from
-/
-/
 declaration
+/
+/
 or
 when
 things
@@ -195,7 +195,7 @@ compiler
 /
 translator
 /
-IntermTraverse
+IntermNode
 .
 h
 "

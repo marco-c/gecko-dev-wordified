@@ -145,8 +145,7 @@ std
 string
 passthroughVS
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 highp
@@ -165,7 +164,6 @@ position
 ;
 }
 )
-"
 ;
 const
 std
@@ -174,8 +172,7 @@ std
 string
 passthroughPS
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -207,7 +204,6 @@ vec4
 ;
 }
 )
-"
 ;
 mProgram
 =
@@ -1460,8 +1456,7 @@ std
 string
 passthroughVS
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 highp
@@ -1480,7 +1475,6 @@ position
 ;
 }
 )
-"
 ;
 const
 std
@@ -1489,8 +1483,7 @@ std
 string
 passthroughPS
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -1522,7 +1515,6 @@ vec4
 ;
 }
 )
-"
 ;
 context
 .

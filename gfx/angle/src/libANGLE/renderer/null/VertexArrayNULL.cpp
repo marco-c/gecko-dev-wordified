@@ -103,6 +103,15 @@ data
 )
 {
 }
+VertexArrayNULL
+:
+:
+~
+VertexArrayNULL
+(
+)
+{
+}
 }
 /
 /

@@ -182,7 +182,6 @@ struct
 Format
 final
 :
-private
 angle
 :
 :

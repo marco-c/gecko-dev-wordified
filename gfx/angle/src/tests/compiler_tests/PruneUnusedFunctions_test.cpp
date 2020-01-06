@@ -470,7 +470,7 @@ used
 functions
 are
 not
-pruned
+prunued
 (
 duh
 )

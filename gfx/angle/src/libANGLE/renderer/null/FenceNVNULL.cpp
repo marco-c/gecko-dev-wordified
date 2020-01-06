@@ -125,8 +125,9 @@ return
 gl
 :
 :
-InternalError
+Error
 (
+GL_INVALID_OPERATION
 )
 ;
 }
@@ -152,8 +153,9 @@ return
 gl
 :
 :
-InternalError
+Error
 (
+GL_INVALID_OPERATION
 )
 ;
 }
@@ -176,8 +178,9 @@ return
 gl
 :
 :
-InternalError
+Error
 (
+GL_INVALID_OPERATION
 )
 ;
 }

@@ -243,7 +243,7 @@ foundInCode
 (
 "
 uint
-packSnorm2x16_emu
+webgl_packSnorm2x16_emu
 (
 vec2
 v
@@ -369,7 +369,7 @@ foundInCode
 (
 "
 vec2
-unpackSnorm2x16_emu
+webgl_unpackSnorm2x16_emu
 (
 uint
 u
@@ -495,7 +495,7 @@ foundInCode
 (
 "
 uint
-packUnorm2x16_emu
+webgl_packUnorm2x16_emu
 (
 vec2
 v
@@ -621,7 +621,7 @@ foundInCode
 (
 "
 vec2
-unpackUnorm2x16_emu
+webgl_unpackUnorm2x16_emu
 (
 uint
 u
@@ -747,7 +747,7 @@ foundInCode
 (
 "
 uint
-packHalf2x16_emu
+webgl_packHalf2x16_emu
 (
 vec2
 v
@@ -873,7 +873,7 @@ foundInCode
 (
 "
 vec2
-unpackHalf2x16_emu
+webgl_unpackHalf2x16_emu
 (
 uint
 u

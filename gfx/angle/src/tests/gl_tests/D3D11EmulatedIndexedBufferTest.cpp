@@ -197,7 +197,12 @@ getRenderer
 )
 )
 ;
-mContext
+gl
+:
+:
+Context
+*
+context
 =
 reinterpret_cast
 <
@@ -236,7 +241,7 @@ rx
 Context11
 >
 (
-mContext
+context
 )
 ;
 mRenderer
@@ -297,7 +302,6 @@ mSourceBuffer
 >
 setData
 (
-nullptr
 GL_ARRAY_BUFFER
 testData
 sizeof
@@ -740,7 +744,6 @@ mSourceBuffer
 >
 getEmulatedIndexedBuffer
 (
-mContext
 srcData
 mTranslatedAttribute
 0
@@ -781,13 +784,6 @@ emulatedBuffer
 }
 protected
 :
-gl
-:
-:
-Context
-*
-mContext
-;
 rx
 :
 :
@@ -1101,14 +1097,11 @@ cleanSourceState
 mRenderer
 )
 ;
-ASSERT_FALSE
-(
 cleanSourceBuffer
 -
 >
 copySubData
 (
-nullptr
 mSourceBuffer
 0
 0
@@ -1116,11 +1109,6 @@ mSourceBuffer
 -
 >
 getSize
-(
-)
-)
-.
-isError
 (
 )
 )
@@ -1195,7 +1183,6 @@ mSourceBuffer
 >
 getData
 (
-mContext
 &
 sourceBufferMem
 )
@@ -1216,7 +1203,6 @@ cleanSourceBuffer
 >
 getData
 (
-mContext
 &
 cleanBufferMem
 )

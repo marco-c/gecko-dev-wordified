@@ -307,11 +307,9 @@ return
 gl
 :
 :
-OutOfMemory
+Error
 (
-)
-<
-<
+GL_OUT_OF_MEMORY
 "
 Mapping
 of
@@ -325,6 +323,7 @@ integer
 overflow
 .
 "
+)
 ;
 }
 gl
@@ -360,7 +359,7 @@ outMappedMemory
 *
 outMappedMemory
 =
-nullptr
+NULL
 ;
 }
 return
@@ -387,8 +386,9 @@ return
 gl
 :
 :
-NoError
+Error
 (
+GL_NO_ERROR
 )
 ;
 }
@@ -686,8 +686,9 @@ return
 gl
 :
 :
-NoError
+Error
 (
+GL_NO_ERROR
 )
 ;
 }
@@ -778,8 +779,9 @@ return
 gl
 :
 :
-NoError
+Error
 (
+GL_NO_ERROR
 )
 ;
 }
@@ -793,11 +795,9 @@ return
 gl
 :
 :
-InternalError
+Error
 (
-)
-<
-<
+GL_INVALID_OPERATION
 "
 Internal
 static
@@ -809,6 +809,7 @@ t
 be
 resized
 "
+)
 ;
 }
 }
