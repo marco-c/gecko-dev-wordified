@@ -1267,6 +1267,11 @@ aOnSuccess
 nsIDOMGetUserMediaErrorCallback
 *
 aOnFailure
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 nsresult
