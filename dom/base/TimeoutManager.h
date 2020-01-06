@@ -390,7 +390,7 @@ aReason
 )
 ;
 int32_t
-DOMMinTimeoutValue
+CalculateDelay
 (
 Timeout
 *
