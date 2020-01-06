@@ -2303,6 +2303,7 @@ if
 !
 mAudioSession
 )
+{
 ASSERT_NE
 (
 mAudioSession
@@ -2313,6 +2314,7 @@ void
 nullptr
 )
 ;
+}
 mAudioSession2
 =
 mozilla
@@ -2330,6 +2332,7 @@ if
 !
 mAudioSession2
 )
+{
 ASSERT_NE
 (
 mAudioSession2
@@ -2340,6 +2343,7 @@ void
 nullptr
 )
 ;
+}
 WebrtcMediaTransport
 *
 xport
@@ -2996,6 +3000,7 @@ if
 !
 videoSession
 )
+{
 ASSERT_NE
 (
 videoSession
@@ -3006,6 +3011,7 @@ void
 nullptr
 )
 ;
+}
 std
 :
 :
@@ -4689,6 +4695,7 @@ if
 !
 mVideoSession
 )
+{
 ASSERT_NE
 (
 mVideoSession
@@ -4699,6 +4706,7 @@ void
 nullptr
 )
 ;
+}
 std
 :
 :
