@@ -259,16 +259,6 @@ Painting
 "
 )
 \
-_
-(
-COMPONENT_ALPHA
-Feature
-"
-Component
-Alpha
-"
-)
-\
 /
 *
 Add

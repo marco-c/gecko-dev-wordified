@@ -4867,11 +4867,6 @@ InitOMTPConfig
 (
 )
 ;
-void
-InitComponentAlphaPrefs
-(
-)
-;
 static
 bool
 IsDXInterop2Blocked
