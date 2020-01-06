@@ -210,9 +210,6 @@ jemalloc_free_dirty_pages
 -
 jemalloc_thread_local_arena
 *
--
-jemalloc_ptr_info
-*
 (
 these
 functions
@@ -1302,14 +1299,6 @@ jemalloc_thread_local_arena_impl
 mozmem_jemalloc_impl
 (
 jemalloc_thread_local_arena
-)
-#
-define
-jemalloc_ptr_info_impl
-\
-mozmem_jemalloc_impl
-(
-jemalloc_ptr_info
 )
 #
 endif
