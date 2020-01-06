@@ -764,6 +764,7 @@ equals
 targetFile
 )
 )
+;
 }
 function
 test_create_unicode
@@ -894,6 +895,7 @@ equals
 targetFile
 )
 )
+;
 }
 function
 test_update_noargs
@@ -1021,6 +1023,7 @@ equals
 targetFile
 )
 )
+;
 }
 function
 test_update_notarget
@@ -1161,6 +1164,7 @@ equals
 targetFile
 )
 )
+;
 }
 function
 test_update_targetonly
@@ -1321,6 +1325,7 @@ equals
 newTargetFile
 )
 )
+;
 }
 function
 test_update_normal
@@ -1493,6 +1498,7 @@ equals
 newTargetFile
 )
 )
+;
 }
 function
 test_update_unicode
@@ -1674,4 +1680,5 @@ equals
 newTargetFile
 )
 )
+;
 }

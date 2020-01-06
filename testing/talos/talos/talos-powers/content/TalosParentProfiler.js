@@ -858,6 +858,7 @@ initted
 the
 Profiler
 "
+;
 console
 .
 error

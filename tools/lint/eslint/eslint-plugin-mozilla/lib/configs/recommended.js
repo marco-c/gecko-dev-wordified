@@ -2460,8 +2460,6 @@ at
 end
 of
 statement
-/
-/
 "
 semi
 "

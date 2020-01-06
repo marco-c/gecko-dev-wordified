@@ -4354,6 +4354,7 @@ stringify
 ping
 )
 )
+;
 equal
 (
 ping

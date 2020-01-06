@@ -80,6 +80,7 @@ msg
 )
 ;
 }
+;
 let
 assertLastMsg
 =
@@ -195,6 +196,7 @@ js
 )
 ;
 }
+;
 let
 addFileName
 =
@@ -214,6 +216,7 @@ js
 "
 ;
 }
+;
 let
 logger
 =

@@ -338,6 +338,7 @@ offset
 :
 closestDistance
 }
+;
 }
 /
 /

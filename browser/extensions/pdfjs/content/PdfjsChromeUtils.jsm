@@ -356,6 +356,7 @@ disablePageLabels
 :
 false
 }
+;
 var
 PdfjsChromeUtils
 =

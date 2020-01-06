@@ -247,6 +247,7 @@ com
 "
 )
 ]
+;
 let
 different
 =
@@ -317,6 +318,7 @@ org
 "
 )
 ]
+;
 let
 id
 =

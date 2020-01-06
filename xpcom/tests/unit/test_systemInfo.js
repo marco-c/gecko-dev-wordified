@@ -182,6 +182,7 @@ property
 umask
 "
 )
+;
 do_check_eq
 (
 typeof

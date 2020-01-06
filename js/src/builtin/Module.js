@@ -2770,6 +2770,7 @@ e
 .
 columnNumber
 )
+;
 }
 }
 /

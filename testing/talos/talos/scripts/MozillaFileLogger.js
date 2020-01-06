@@ -565,6 +565,7 @@ PR_APPEND
 )
 ;
 }
+;
 MozFileLogger
 .
 getLogCallback
@@ -666,7 +667,9 @@ close
 ;
 }
 }
+;
 }
+;
 /
 /
 This
@@ -730,6 +733,7 @@ ex
 {
 }
 }
+;
 MozFileLogger
 .
 close
@@ -793,6 +797,7 @@ _file
 null
 ;
 }
+;
 try
 {
 var

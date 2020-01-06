@@ -334,6 +334,7 @@ return
 retval
 ;
 }
+;
 Report
 .
 prototype
@@ -581,6 +582,7 @@ return
 report
 ;
 }
+;
 Report
 .
 prototype
@@ -1177,6 +1179,7 @@ return
 report
 ;
 }
+;
 Report
 .
 prototype
@@ -1226,6 +1229,7 @@ ms
 )
 ;
 }
+;
 Report
 .
 prototype
@@ -1251,3 +1255,4 @@ showTotalCCTime
 true
 ;
 }
+;

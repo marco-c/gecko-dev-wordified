@@ -3646,6 +3646,7 @@ resolve
 resolveSavingPromise
 =
 resolve
+;
 }
 )
 ;

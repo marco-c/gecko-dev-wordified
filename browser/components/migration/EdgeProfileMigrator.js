@@ -1171,6 +1171,7 @@ dbOverride
 |
 |
 gEdgeDatabase
+;
 }
 get
 exists
@@ -1624,6 +1625,7 @@ dbOverride
 |
 |
 gEdgeDatabase
+;
 }
 get
 TABLE_NAME
@@ -1634,6 +1636,7 @@ return
 "
 Favorites
 "
+;
 }
 get
 exists

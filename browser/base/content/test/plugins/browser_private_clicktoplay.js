@@ -539,6 +539,7 @@ private
 windows
 "
 )
+;
 gPrivateWindow
 .
 close

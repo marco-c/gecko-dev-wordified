@@ -561,6 +561,7 @@ n
 )
 ;
 }
+;
 var
 _LoggerClass
 =
@@ -1115,6 +1116,7 @@ levelNames
 =
 {
 }
+;
 for
 (
 let
@@ -2273,6 +2275,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 /
 *
 *
@@ -2997,6 +3000,7 @@ la
 .
 "
 )
+;
 }
 let
 {
@@ -3495,11 +3499,13 @@ port
 +
 port
 )
+;
 do_print
 (
 "
 "
 )
+;
 do_print
 (
 "
@@ -3613,6 +3619,7 @@ do_print
 "
 "
 )
+;
 let
 AuthenticatorType
 =
@@ -4850,6 +4857,7 @@ source_file
 :
 element
 }
+;
 if
 (
 e
@@ -10177,6 +10185,7 @@ explicitly
 skipped
 .
 "
+;
 let
 _message
 =

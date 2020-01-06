@@ -165,6 +165,7 @@ function
 {
 return
 gShimmedMigrator
+;
 }
 ;
 }

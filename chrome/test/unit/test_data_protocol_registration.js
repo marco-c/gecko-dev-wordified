@@ -445,6 +445,7 @@ later
 .
 "
 )
+;
 old_factories
 .
 push
@@ -527,6 +528,7 @@ Registering
 .
 "
 )
+;
 old_factories
 .
 push

@@ -188,6 +188,7 @@ SpecialPowersError
 "
 ;
 }
+;
 SpecialPowersError
 .
 prototype
@@ -264,6 +265,7 @@ Map
 )
 ;
 }
+;
 function
 parseKeyValuePairs
 (
@@ -3016,6 +3018,7 @@ aMessage
 json
 .
 observerData
+;
 Services
 .
 obs
@@ -3245,6 +3248,7 @@ sandboxOptions
 =
 {
 }
+;
 }
 let
 sb

@@ -2054,6 +2054,7 @@ function
 )
 {
 }
+;
 window
 .
 removeMessageListener
@@ -2063,6 +2064,7 @@ function
 )
 {
 }
+;
 window
 .
 wrappedJSObject

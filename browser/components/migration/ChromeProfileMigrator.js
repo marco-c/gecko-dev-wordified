@@ -1930,6 +1930,7 @@ function
 gotErrors
 =
 true
+;
 }
 ;
 /
@@ -2607,6 +2608,7 @@ aCallback
 (
 true
 )
+;
 }
 ex
 =

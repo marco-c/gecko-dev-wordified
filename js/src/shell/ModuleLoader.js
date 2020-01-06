@@ -1339,6 +1339,7 @@ loadAndParse
 (
 path
 )
+;
 }
 )
 ;

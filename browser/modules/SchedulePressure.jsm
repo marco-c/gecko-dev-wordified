@@ -370,6 +370,7 @@ telemetryCallbackId
 ;
 }
 }
+;
 }
 /
 *
