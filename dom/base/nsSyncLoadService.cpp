@@ -241,6 +241,10 @@ include
 algorithm
 >
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :

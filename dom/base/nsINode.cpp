@@ -15153,10 +15153,12 @@ forget
 )
 ;
 #
-endif
+else
 return
 nullptr
 ;
+#
+endif
 }
 void
 nsINode
