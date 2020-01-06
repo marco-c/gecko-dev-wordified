@@ -2208,6 +2208,12 @@ nsIInputStream
 in
 )
 {
+mCanary
+.
+Check
+(
+)
+;
 uint32_t
 magic
 ;
@@ -2811,6 +2817,12 @@ nsIOutputStream
 out
 )
 {
+mCanary
+.
+Check
+(
+)
+;
 uint32_t
 written
 ;
