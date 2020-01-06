@@ -581,6 +581,13 @@ VRControllerHost
 (
 VRDeviceType
 aType
+dom
+:
+:
+GamepadHand
+aHand
+uint32_t
+aDisplayID
 )
 ;
 virtual
