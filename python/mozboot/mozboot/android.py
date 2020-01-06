@@ -1085,7 +1085,7 @@ android
 -
 ndk
 -
-r11c
+r15c
 '
 )
 )
@@ -2125,7 +2125,7 @@ os_name
 ver
 =
 '
-r11c
+r15c
 '
 )
 :
