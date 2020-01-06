@@ -860,7 +860,7 @@ target
 contains
 (
 "
-macos
+darwin
 "
 )
 |
