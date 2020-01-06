@@ -195,8 +195,8 @@ Clone
 Debug
 Default
 Eq
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -577,7 +577,7 @@ derive
 (
 Clone
 Default
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -1233,7 +1233,7 @@ Clone
 Debug
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd

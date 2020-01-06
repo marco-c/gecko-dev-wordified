@@ -696,7 +696,7 @@ server
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -726,7 +726,7 @@ profiler
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -753,7 +753,7 @@ profiler
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -782,7 +782,7 @@ thread
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -795,7 +795,7 @@ script_to_constellation_chan
 ScriptToConstellationChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -944,7 +944,7 @@ queue
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc

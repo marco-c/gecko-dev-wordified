@@ -117,10 +117,10 @@ webglrenderingcontext
 WebGLRenderingContext
 ;
 use
-heapsize
+malloc_size_of
 :
 :
-HeapSizeOf
+MallocSizeOf
 ;
 use
 std
@@ -170,7 +170,7 @@ WebGLExtensionWrapper
 :
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 {
 fn
 instance_or_init
@@ -256,8 +256,8 @@ must_root
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -357,7 +357,7 @@ WebGLExtension
 +
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 +
 '
 static
@@ -582,7 +582,7 @@ WebGLExtension
 +
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 +
 '
 static

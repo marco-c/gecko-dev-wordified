@@ -124,10 +124,6 @@ to
 those
 terms
 .
-extern
-crate
-heapsize
-;
 pub
 mod
 alloc

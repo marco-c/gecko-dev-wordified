@@ -282,7 +282,7 @@ reflector_
 Reflector
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 can
@@ -386,8 +386,8 @@ Node
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -408,8 +408,8 @@ ObserverOptions
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

@@ -1348,8 +1348,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1390,7 +1390,7 @@ reflowing
 derive
 (
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -1431,7 +1431,7 @@ globalscope
 GlobalScope
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 trait
@@ -1445,7 +1445,7 @@ script_chan
 MainThreadScriptChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1459,7 +1459,7 @@ dom_manipulation_task_source
 DOMManipulationTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1473,7 +1473,7 @@ user_interaction_task_source
 UserInteractionTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1487,7 +1487,7 @@ networking_task_source
 NetworkingTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1501,7 +1501,7 @@ history_traversal_task_source
 HistoryTraversalTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1515,7 +1515,7 @@ file_reading_task_source
 FileReadingTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1535,7 +1535,7 @@ Navigator
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -1549,7 +1549,7 @@ ImageCache
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1664,7 +1664,7 @@ TimelineMarkerType
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1752,7 +1752,7 @@ runtime
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -1790,7 +1790,7 @@ thread
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1820,7 +1820,7 @@ quickly
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 trait
@@ -1876,7 +1876,7 @@ thread
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -2019,7 +2019,7 @@ webdriver
 server
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -2083,7 +2083,7 @@ window
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 defined
@@ -2165,7 +2165,7 @@ available
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -2193,7 +2193,7 @@ available
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -2400,7 +2400,7 @@ window
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 defined

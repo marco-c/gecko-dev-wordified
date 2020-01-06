@@ -464,8 +464,8 @@ element_state
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

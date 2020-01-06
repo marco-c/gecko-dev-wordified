@@ -424,8 +424,8 @@ usize
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -446,8 +446,8 @@ QualName
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 enum
@@ -466,8 +466,8 @@ String
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -484,8 +484,8 @@ String
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 enum
@@ -642,7 +642,7 @@ SetQuirksMode
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -659,7 +659,7 @@ ServoQuirksMode
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 enum
@@ -673,7 +673,7 @@ TokenizerResultDone
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -698,7 +698,7 @@ script
 ParseNode
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -744,7 +744,7 @@ ParseOperation
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 enum
@@ -754,7 +754,7 @@ Feed
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1152,8 +1152,8 @@ _______________
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -1172,7 +1172,7 @@ Document
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1188,7 +1188,7 @@ ToTokenizerMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1204,7 +1204,7 @@ ToHtmlTokenizerMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -3779,8 +3779,8 @@ set_plaintext_state
 derive
 (
 Default
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

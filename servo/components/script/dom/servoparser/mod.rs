@@ -749,7 +749,7 @@ network
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -779,7 +779,7 @@ input
 chunks
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -816,7 +816,7 @@ write
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -3776,8 +3776,8 @@ size_hint
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -3791,8 +3791,8 @@ ScriptCreated
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -5650,8 +5650,8 @@ unwrap
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #

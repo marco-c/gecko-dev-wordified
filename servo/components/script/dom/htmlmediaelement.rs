@@ -960,7 +960,7 @@ promises
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 promises
@@ -998,7 +998,7 @@ task
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 promises
@@ -1058,8 +1058,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1138,8 +1138,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 PartialOrd
 )
@@ -7244,8 +7244,8 @@ task
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

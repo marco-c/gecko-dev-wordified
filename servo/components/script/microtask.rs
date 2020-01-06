@@ -263,8 +263,8 @@ order
 derive
 (
 Default
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -336,8 +336,8 @@ bool
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -395,8 +395,8 @@ checkpoint
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -405,7 +405,7 @@ EnqueuedPromiseCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc

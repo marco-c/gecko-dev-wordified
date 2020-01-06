@@ -16590,10 +16590,10 @@ join
 protoList
 )
     
-heapSizeOf
+mallocSizeOf
 =
 '
-heap_size_of_raw_self_and_children
+malloc_size_of_including_raw_self
 :
 :
 <
@@ -16652,7 +16652,7 @@ type_id
 %
 s
     
-heap_size_of
+malloc_size_of
 :
 %
 s
@@ -16660,6 +16660,9 @@ as
 unsafe
 fn
 (
+&
+mut
+_
 _
 )
 -
@@ -16684,7 +16687,7 @@ DOMClassTypeId
 (
 descriptor
 )
-heapSizeOf
+mallocSizeOf
 globals_
 )
 class
@@ -32962,12 +32965,12 @@ usize
 [
 derive
 (
-JSTraceable
-PartialEq
 Copy
 Clone
-HeapSizeOf
 Debug
+JSTraceable
+MallocSizeOf
+PartialEq
 )
 ]
 pub
@@ -48303,7 +48306,7 @@ GlobalScope
 mem
 :
 :
-heap_size_of_raw_self_and_children
+malloc_size_of_including_raw_self
 '
         
 '

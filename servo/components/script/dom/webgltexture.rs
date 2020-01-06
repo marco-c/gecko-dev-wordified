@@ -326,7 +326,7 @@ faces
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arrays
@@ -395,7 +395,7 @@ u32
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -2475,8 +2475,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]

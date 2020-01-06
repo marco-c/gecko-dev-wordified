@@ -269,8 +269,8 @@ over
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

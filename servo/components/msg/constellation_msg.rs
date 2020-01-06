@@ -150,7 +150,7 @@ Copy
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -794,7 +794,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -836,10 +836,9 @@ u32
 >
 )
 ;
-known_heap_size
+malloc_size_of_is_0
 !
 (
-0
 PipelineIndex
 )
 ;
@@ -853,7 +852,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -1201,10 +1200,9 @@ u32
 >
 )
 ;
-known_heap_size
+malloc_size_of_is_0
 !
 (
-0
 BrowsingContextIndex
 )
 ;
@@ -1218,7 +1216,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -1409,7 +1407,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -1817,7 +1815,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )

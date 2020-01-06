@@ -117,7 +117,7 @@ Clone
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -733,10 +733,9 @@ OpaqueOrigin
 Uuid
 )
 ;
-known_heap_size
+malloc_size_of_is_0
 !
 (
-0
 OpaqueOrigin
 )
 ;
@@ -798,10 +797,9 @@ Host
 >
 )
 ;
-known_heap_size
+malloc_size_of_is_0
 !
 (
-0
 MutableOrigin
 )
 ;

@@ -140,7 +140,7 @@ derive
 Clone
 Debug
 Default
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]

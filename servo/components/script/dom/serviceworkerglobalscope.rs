@@ -571,7 +571,7 @@ workerglobalscope
 WorkerGlobalScope
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -587,7 +587,7 @@ ServiceWorkerScriptMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -603,7 +603,7 @@ ServiceWorkerScriptMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -620,7 +620,7 @@ Receiver
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

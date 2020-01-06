@@ -197,8 +197,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -340,8 +340,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -401,8 +401,8 @@ control
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -485,7 +485,7 @@ multiline
 bool
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Can

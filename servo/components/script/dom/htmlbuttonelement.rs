@@ -351,7 +351,7 @@ PartialEq
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 enum

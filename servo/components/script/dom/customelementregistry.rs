@@ -544,7 +544,7 @@ Window
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -571,7 +571,7 @@ bool
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -2991,8 +2991,8 @@ promise
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -3001,7 +3001,7 @@ LifecycleCallbacks
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -3018,7 +3018,7 @@ Function
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -3035,7 +3035,7 @@ Function
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -3052,7 +3052,7 @@ Function
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -3073,8 +3073,8 @@ Function
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -3120,8 +3120,8 @@ definition
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -3138,7 +3138,7 @@ local_name
 LocalName
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -4571,8 +4571,8 @@ definition
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -4587,7 +4587,7 @@ Upgrade
 (
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -4602,7 +4602,7 @@ Callback
 (
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -4827,8 +4827,8 @@ derive
 Clone
 Copy
 Eq
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -4869,8 +4869,8 @@ stack
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -6054,8 +6054,8 @@ queue
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #

@@ -177,7 +177,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 )

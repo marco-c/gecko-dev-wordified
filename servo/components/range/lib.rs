@@ -66,7 +66,7 @@ unsafe_code
 ]
 extern
 crate
-heapsize
+malloc_size_of
 ;
 #
 [
@@ -74,7 +74,7 @@ macro_use
 ]
 extern
 crate
-heapsize_derive
+malloc_size_of_derive
 ;
 extern
 crate
@@ -996,7 +996,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]

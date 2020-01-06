@@ -8616,8 +8616,8 @@ p
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -8625,7 +8625,7 @@ SimpleHandler
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -9220,8 +9220,8 @@ false
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -9230,7 +9230,7 @@ TestBindingCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 unclear

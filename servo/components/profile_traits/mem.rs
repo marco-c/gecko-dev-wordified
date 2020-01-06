@@ -733,7 +733,7 @@ measurements
 done
 via
 the
-HeapSizeOf
+MallocSizeOf
 trait
 .
 ExplicitJemallocHeapSize

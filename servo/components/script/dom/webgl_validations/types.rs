@@ -153,8 +153,8 @@ Copy
 Debug
 Eq
 Hash
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]

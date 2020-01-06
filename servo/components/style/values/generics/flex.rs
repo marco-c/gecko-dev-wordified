@@ -101,7 +101,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]

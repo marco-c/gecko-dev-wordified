@@ -468,8 +468,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -827,7 +827,7 @@ clear
 buffered_amount
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

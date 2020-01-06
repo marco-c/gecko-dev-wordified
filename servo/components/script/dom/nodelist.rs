@@ -179,8 +179,8 @@ Cell
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -919,8 +919,8 @@ i
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -939,7 +939,7 @@ Node
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

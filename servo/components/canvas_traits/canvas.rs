@@ -527,7 +527,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -550,7 +550,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -638,7 +638,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -860,7 +860,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -964,7 +964,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1184,7 +1184,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1539,7 +1539,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1966,7 +1966,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )

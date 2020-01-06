@@ -462,8 +462,8 @@ must_root
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

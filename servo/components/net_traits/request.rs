@@ -137,7 +137,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -186,7 +186,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -239,7 +239,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -299,7 +299,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -347,7 +347,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -407,7 +407,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -459,7 +459,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -508,7 +508,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -562,7 +562,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -611,7 +611,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -659,7 +659,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -703,7 +703,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -775,7 +775,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -811,7 +811,7 @@ serialize
 ]
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -855,7 +855,7 @@ serialize
 ]
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1159,7 +1159,7 @@ spec
 derive
 (
 Clone
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -1191,7 +1191,7 @@ method
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1290,7 +1290,7 @@ list
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

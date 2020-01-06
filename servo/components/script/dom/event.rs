@@ -2223,7 +2223,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -2318,7 +2318,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -2430,7 +2430,7 @@ u16
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -2653,8 +2653,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]

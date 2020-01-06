@@ -261,7 +261,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -298,7 +298,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -569,19 +569,11 @@ Declaration
 String
 #
 [
-cfg_attr
-(
-feature
-=
-"
-servo
-"
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
 "
-)
 ]
 Arc
 <
@@ -4647,7 +4639,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]

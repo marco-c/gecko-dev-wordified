@@ -265,7 +265,7 @@ evaluated
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -427,7 +427,7 @@ here
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -465,7 +465,7 @@ units
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -494,7 +494,7 @@ size
 .
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -1263,7 +1263,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -1360,7 +1360,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -2017,7 +2017,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]

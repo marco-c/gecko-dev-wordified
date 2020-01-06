@@ -93,7 +93,7 @@ quirks
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub

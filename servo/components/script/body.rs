@@ -257,8 +257,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

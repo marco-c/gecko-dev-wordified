@@ -175,8 +175,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

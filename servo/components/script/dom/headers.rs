@@ -239,7 +239,7 @@ Guard
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -280,8 +280,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]

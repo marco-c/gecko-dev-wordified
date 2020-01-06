@@ -78,7 +78,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]

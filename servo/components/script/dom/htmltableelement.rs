@@ -383,8 +383,8 @@ unrooted_must_root
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

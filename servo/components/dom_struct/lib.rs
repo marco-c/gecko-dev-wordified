@@ -137,8 +137,8 @@ derive
 (
 DenyPublicFields
 DomObject
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #

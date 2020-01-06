@@ -266,7 +266,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -339,6 +339,14 @@ be
 really
 large
 .
+#
+[
+ignore_malloc_size_of
+=
+"
+Arc
+"
+]
 original
 :
 Option

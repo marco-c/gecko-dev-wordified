@@ -494,7 +494,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 Deserialize
 Serialize
 )

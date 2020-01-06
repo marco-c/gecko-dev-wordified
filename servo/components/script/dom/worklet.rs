@@ -1234,10 +1234,9 @@ WorkletId
 Uuid
 )
 ;
-known_heap_size
+malloc_size_of_is_0
 !
 (
-0
 WorkletId
 )
 ;
@@ -4944,8 +4943,8 @@ tasks
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -4957,7 +4956,7 @@ worklet_id
 WorkletId
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
