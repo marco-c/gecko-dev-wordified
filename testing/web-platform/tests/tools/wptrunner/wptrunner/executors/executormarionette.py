@@ -1181,6 +1181,17 @@ socket_timeout
 /
 2
         
+self
+.
+marionette
+.
+switch_to_window
+(
+self
+.
+runner_handle
+)
+        
 while
 True
 :
