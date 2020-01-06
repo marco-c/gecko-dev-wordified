@@ -19411,7 +19411,7 @@ upcast
 )
 )
 .
-attribute_is_mapped
+attribute_affects_presentational_hints
 (
 attr
 )
