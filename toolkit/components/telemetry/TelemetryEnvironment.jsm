@@ -2580,16 +2580,9 @@ null
 ;
 }
 return
-(
-new
 Boolean
 (
 aValue
-)
-)
-.
-valueOf
-(
 )
 ;
 }

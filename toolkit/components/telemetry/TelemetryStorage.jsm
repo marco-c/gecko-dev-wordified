@@ -13463,7 +13463,6 @@ offset
 let
 month
 =
-new
 String
 (
 aDate

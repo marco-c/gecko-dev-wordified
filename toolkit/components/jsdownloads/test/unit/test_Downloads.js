@@ -798,9 +798,6 @@ Downloads
 .
 fetch
 (
-new
-String
-(
 httpUrl
 (
 "
@@ -809,12 +806,7 @@ source
 txt
 "
 )
-)
-new
-String
-(
 targetPath
-)
 )
 ;
 await

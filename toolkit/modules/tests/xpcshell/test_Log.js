@@ -3518,8 +3518,6 @@ with
 number
 bool
 and
-Object
-/
 String
 type
 .
@@ -3555,14 +3553,12 @@ b
 false
 bx
 :
-new
 Boolean
 (
 true
 )
 s
 :
-new
 String
 (
 "
@@ -3878,8 +3874,7 @@ params
 '
 is
 a
-String
-object
+string
 the
 message
 is
@@ -3892,9 +3887,6 @@ str
 formatMessage
 (
 null
-new
-String
-(
 "
 String
 in
@@ -3902,7 +3894,6 @@ place
 of
 params
 "
-)
 )
 ;
 do_check_eq
