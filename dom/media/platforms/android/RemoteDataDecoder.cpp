@@ -871,12 +871,6 @@ MediaFormat
 :
 Param
 aFormat
-layers
-:
-:
-ImageContainer
-*
-aImageContainer
 const
 nsString
 &
@@ -901,10 +895,6 @@ mMimeType
 aFormat
 aDrmStubId
 aTaskQueue
-)
-mImageContainer
-(
-aImageContainer
 )
 mConfig
 (
@@ -1233,13 +1223,6 @@ mIsCodecSupportAdaptivePlayback
 }
 private
 :
-layers
-:
-:
-ImageContainer
-*
-mImageContainer
-;
 const
 VideoInfo
 mConfig
@@ -2212,9 +2195,6 @@ RemoteVideoDecoder
 (
 config
 format
-aParams
-.
-mImageContainer
 aDrmStubId
 aParams
 .
