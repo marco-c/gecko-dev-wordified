@@ -257,6 +257,17 @@ reportingpolicy
 .
 firstRun
 "
+FirstShutdownPingEnabled
+:
+"
+toolkit
+.
+telemetry
+.
+firstShutdownPing
+.
+enabled
+"
 HealthPingEnabled
 :
 "
