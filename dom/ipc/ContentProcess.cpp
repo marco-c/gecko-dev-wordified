@@ -839,6 +839,8 @@ endif
 char
 *
 schedulerPrefs
+=
+nullptr
 ;
 InfallibleTArray
 <
