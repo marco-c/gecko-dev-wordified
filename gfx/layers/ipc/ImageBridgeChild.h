@@ -1608,6 +1608,15 @@ bool
 aResult
 )
 ;
+void
+UpdateTextureFactoryIdentifier
+(
+const
+TextureFactoryIdentifier
+&
+aIdentifier
+)
+;
 public
 :
 /
