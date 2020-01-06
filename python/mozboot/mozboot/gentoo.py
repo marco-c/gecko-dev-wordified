@@ -54,6 +54,10 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+from
 mozboot
 .
 base
@@ -499,6 +503,8 @@ b01
 jdk_file
 ]
 )
+#
+noqa
         
 #
 Install

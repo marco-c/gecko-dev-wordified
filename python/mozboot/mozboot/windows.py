@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 os
 import
@@ -167,9 +172,7 @@ toolchain
 #
 TODO
 :
-Should
-be
-removed
+Remove
 when
 Mercurial
 is
@@ -275,12 +278,12 @@ under
 development
 .
 For
-now
-use
-MozillaBuild
 '
                                       
 '
+now
+use
+MozillaBuild
 to
 set
 up
@@ -288,6 +291,9 @@ a
 build
 environment
 on
+'
+                                      
+'
 Windows
 .
 If
@@ -342,14 +348,14 @@ works
 with
 msys2
 with
+'
+                                      
+'
 pacman
 .
 Get
 msys2
 at
-'
-                                      
-'
 http
 :
 /

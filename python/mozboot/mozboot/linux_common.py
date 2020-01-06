@@ -85,6 +85,10 @@ the
 inheritance
 list
 .
+from
+__future__
+import
+absolute_import
 class
 StyloInstall
 (

@@ -56,10 +56,9 @@ MPL
 from
 __future__
 import
+absolute_import
 print_function
 unicode_literals
-import
-errno
 import
 hashlib
 import
@@ -3812,17 +3811,6 @@ return
 False
 None
         
-cargo
-=
-self
-.
-which
-(
-'
-cargo
-'
-)
-        
 our
 =
 self
@@ -3866,7 +3854,7 @@ get
 '
 CARGO_HOME
 '
-                
+                                    
 os
 .
 path
@@ -4327,7 +4315,7 @@ self
 print_rust_path_advice
 (
 RUST_NOT_IN_PATH
-                        
+                                            
 cargo_home
 cargo_bin
 )
@@ -4547,7 +4535,7 @@ target_list
 splitlines
 (
 )
-                
+                   
 if
 '
 installed
@@ -4629,8 +4617,8 @@ platform
 =
 win64
 and
-not
 win32
+not
 in
 targets
 :
@@ -4886,7 +4874,7 @@ rustup_init
 -
 y
 '
-                
+                                   
 '
 -
 -
@@ -4897,7 +4885,7 @@ toolchain
 '
 stable
 '
-                
+                                   
 '
 -
 -
@@ -4906,7 +4894,6 @@ default
 host
 '
 platform
-            
 ]
 )
             
@@ -4924,7 +4911,7 @@ self
 print_rust_path_advice
 (
 RUST_INSTALL_COMPLETE
-                    
+                                        
 cargo_home
 cargo_bin
 )

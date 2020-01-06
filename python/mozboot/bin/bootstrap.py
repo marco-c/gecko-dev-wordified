@@ -146,6 +146,7 @@ X
 from
 __future__
 import
+absolute_import
 print_function
 WRONG_PYTHON_VERSION_MESSAGE
 =

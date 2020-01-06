@@ -54,6 +54,11 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+print_function
+from
 mozboot
 .
 base
@@ -625,7 +630,7 @@ self
 MOBILE_ANDROID_COMMON_PACKAGES
 +
 \
-                                       
+            
 self
 .
 MOBILE_ANDROID_DISTRO_PACKAGES

@@ -56,6 +56,7 @@ MPL
 from
 __future__
 import
+absolute_import
 print_function
 unicode_literals
 import
@@ -141,6 +142,7 @@ mt
 '
 XCODE_LEGACY
 =
+(
 '
 https
 :
@@ -162,6 +164,9 @@ path
 =
 Developer_Tools
 /
+'
+                
+'
 xcode_3
 .
 2
@@ -180,9 +185,11 @@ xcode_3
 .
 dmg
 '
+)
 MACPORTS_URL
 =
 {
+    
 '
 11
 '
@@ -216,7 +223,7 @@ ElCapitan
 .
 pkg
 '
-                
+    
 '
 10
 '
@@ -250,7 +257,7 @@ Yosemite
 .
 pkg
 '
-                
+    
 '
 9
 '
@@ -284,7 +291,7 @@ Mavericks
 .
 pkg
 '
-                
+    
 '
 8
 '
@@ -318,7 +325,7 @@ MountainLion
 .
 pkg
 '
-                
+    
 '
 7
 '
@@ -352,7 +359,7 @@ Lion
 .
 pkg
 '
-                
+    
 '
 6
 '
@@ -1582,6 +1589,7 @@ ensure_
 s_mobile_android_packages
 '
 %
+                
 self
 .
 package_manager
@@ -1631,6 +1639,7 @@ suggest_
 s_mobile_android_mozconfig
 '
 %
+                
 self
 .
 package_manager
