@@ -7929,6 +7929,10 @@ NotifyDataArrivedInternal
 (
 )
 ;
+NotifyDownloadProgressed
+(
+)
+;
 }
 /
 /
