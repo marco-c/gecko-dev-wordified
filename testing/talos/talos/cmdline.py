@@ -1410,7 +1410,7 @@ store_true
 dest
 =
 "
-first_non_blank_paint
+fnbpaint
 "
             
 help
