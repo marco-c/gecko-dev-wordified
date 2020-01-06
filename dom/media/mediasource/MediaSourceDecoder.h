@@ -418,6 +418,12 @@ MediaSourceResource
 >
 mResource
 ;
+RefPtr
+<
+nsIPrincipal
+>
+mPrincipal
+;
 /
 /
 The
