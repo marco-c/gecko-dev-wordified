@@ -1052,7 +1052,7 @@ JS_ReportErrorNumberUTF8
 cx
 GetErrorMessage
 nullptr
-JSMSG_WASM_BAD_I64
+JSMSG_WASM_BAD_I64_TYPE
 )
 ;
 return
@@ -1270,7 +1270,7 @@ JS_ReportErrorNumberUTF8
 cx
 GetErrorMessage
 nullptr
-JSMSG_WASM_BAD_I64
+JSMSG_WASM_BAD_I64_TYPE
 )
 ;
 return
@@ -4515,7 +4515,7 @@ JS_ReportErrorNumberUTF8
 cx
 GetErrorMessage
 nullptr
-JSMSG_WASM_BAD_I64
+JSMSG_WASM_BAD_I64_TYPE
 )
 ;
 return
@@ -5284,7 +5284,7 @@ JS_ReportErrorNumberUTF8
 cx
 GetErrorMessage
 nullptr
-JSMSG_WASM_BAD_I64
+JSMSG_WASM_BAD_I64_TYPE
 )
 ;
 return
