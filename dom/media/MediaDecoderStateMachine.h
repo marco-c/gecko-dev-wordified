@@ -2737,8 +2737,6 @@ video
 void
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 const
 media
 :

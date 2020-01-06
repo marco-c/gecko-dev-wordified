@@ -8907,8 +8907,6 @@ MediaFormatReader
 :
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 const
 TimeUnit
 &
@@ -8996,14 +8994,11 @@ LOGV
 RequestVideoData
 (
 %
-d
-%
 "
 PRId64
 "
 )
 "
-aSkipToNextKeyframe
 aTimeThreshold
 .
 ToMicroseconds

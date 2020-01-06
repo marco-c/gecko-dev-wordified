@@ -323,8 +323,6 @@ VideoDataPromise
 >
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 media
 :
 :
