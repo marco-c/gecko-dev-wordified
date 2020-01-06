@@ -464,8 +464,11 @@ const
 ;
 virtual
 ServiceWorkerUpdateViaCache
-UpdateViaCache
+GetUpdateViaCache
 (
+ErrorResult
+&
+aRv
 )
 const
 =
