@@ -366,7 +366,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -416,7 +416,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -524,7 +524,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -572,7 +572,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -643,7 +643,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -713,7 +713,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -793,7 +793,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -891,7 +891,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -998,7 +998,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1069,7 +1069,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1135,7 +1135,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1234,7 +1234,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1321,7 +1321,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1409,7 +1409,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks

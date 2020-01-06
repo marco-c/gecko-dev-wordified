@@ -202,7 +202,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -266,7 +266,7 @@ get
 mThreadId
 mBuffer
 aWriter
-aStartTime
+aProcessStartTime
 /
 *
 aSinceTime

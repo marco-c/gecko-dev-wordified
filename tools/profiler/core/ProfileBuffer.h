@@ -367,7 +367,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 UniqueStacks
@@ -404,7 +404,7 @@ it
 patching
 in
 |
-aStartTime
+aProcessStartTime
 |
 as
 appropriate
@@ -420,7 +420,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 LastSample
 &
 aLS
