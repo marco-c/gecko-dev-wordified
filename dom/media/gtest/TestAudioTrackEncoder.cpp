@@ -1498,6 +1498,13 @@ samples
 ;
 encoder
 .
+SetStartOffset
+(
+0
+)
+;
+encoder
+.
 AppendAudioSegment
 (
 Move
