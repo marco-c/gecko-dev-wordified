@@ -5280,9 +5280,9 @@ param
 match
 (
 VariantWriter
-(
+{
 msg
-)
+}
 )
 ;
 }
@@ -5491,7 +5491,7 @@ val
 *
 result
 =
-paramType
+mozilla
 :
 :
 AsVariant
@@ -5518,6 +5518,7 @@ Read
 msg
 iter
 tag
+result
 )
 ;
 }
