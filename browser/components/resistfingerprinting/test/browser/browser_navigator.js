@@ -807,9 +807,13 @@ spoofedVersion
 appVersion
 -
 (
+(
 appVersion
+-
+3
+)
 %
-10
+7
 )
 ;
 spoofedUserAgent
