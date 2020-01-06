@@ -340,7 +340,7 @@ self
 .
 compressed
 =
-True
+False
         
 jars
 =
@@ -1204,25 +1204,19 @@ optimizedjars
 =
 True
         
-if
-not
-any
-(
-f
-.
-compressed
-for
-f
-in
-jar
-)
-:
-            
 self
 .
 compressed
 =
-False
+max
+(
+self
+.
+compressed
+jar
+.
+compression
+)
         
 if
 jar
