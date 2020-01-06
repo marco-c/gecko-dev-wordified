@@ -708,6 +708,11 @@ certificateUsageEmailRecipient
 =
 0x0020
 ;
+const
+certificateUsageObjectSigner
+=
+0x0040
+;
 /
 /
 A
@@ -751,6 +756,7 @@ certificateUsageSSLServer
 certificateUsageSSLCA
 certificateUsageEmailSigner
 certificateUsageEmailRecipient
+certificateUsageObjectSigner
 }
 ;
 /
@@ -792,6 +798,11 @@ certificateUsageEmailRecipient
 :
 "
 VerifyEmailRecip
+"
+certificateUsageObjectSigner
+:
+"
+VerifyObjSign
 "
 }
 ;
