@@ -99,7 +99,7 @@ substring
 }
 ;
 let
-generateUUID
+uuid
 =
 function
 (
@@ -143,6 +143,6 @@ module
 exports
 =
 {
-generateUUID
+uuid
 }
 ;
