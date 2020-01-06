@@ -1682,6 +1682,14 @@ aConnection
 )
 ;
 nsresult
+UpgradeStorageFrom2_0To3_0
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
+nsresult
 InitializeRepository
 (
 PersistenceType
