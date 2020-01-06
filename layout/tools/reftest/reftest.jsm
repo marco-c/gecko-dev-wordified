@@ -1045,6 +1045,10 @@ gStartAfter
 =
 undefined
 ;
+var
+gSuiteStarted
+=
+false
 /
 /
 The
@@ -4067,6 +4071,10 @@ gStartAfter
 =
 =
 undefined
+&
+&
+!
+gSuiteStarted
 )
 {
 logger
@@ -4089,6 +4097,9 @@ length
 }
 )
 ;
+gSuiteStarted
+=
+true
 }
 if
 (
@@ -11618,6 +11629,9 @@ gTestResults
 }
 )
 ;
+gSuiteStarted
+=
+false
 logger
 .
 info
