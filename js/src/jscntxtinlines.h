@@ -2555,6 +2555,10 @@ handleInterrupt
 (
 )
 ;
+JS_INTERRUPT_POSSIBLY_FAIL
+(
+)
+;
 return
 true
 ;
