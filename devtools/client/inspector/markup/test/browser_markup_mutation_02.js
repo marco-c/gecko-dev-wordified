@@ -281,8 +281,6 @@ eval
 let
 newLi
 =
-content
-.
 document
 .
 createElement
@@ -302,8 +300,6 @@ list
 item
 "
 ;
-content
-.
 document
 .
 querySelector
@@ -365,8 +361,6 @@ eval
 let
 root
 =
-content
-.
 document
 .
 querySelector
@@ -422,8 +416,6 @@ eval
 let
 root
 =
-content
-.
 document
 .
 querySelector
@@ -663,8 +655,6 @@ eval
 let
 root
 =
-content
-.
 document
 .
 querySelector
@@ -805,8 +795,6 @@ eval
 let
 root
 =
-content
-.
 document
 .
 querySelector

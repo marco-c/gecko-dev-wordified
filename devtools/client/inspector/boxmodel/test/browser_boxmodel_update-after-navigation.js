@@ -154,8 +154,6 @@ testActor
 .
 eval
 (
-content
-.
 location
 .
 href
@@ -203,8 +201,6 @@ testActor
 eval
 (
 "
-content
-.
 history
 .
 back
