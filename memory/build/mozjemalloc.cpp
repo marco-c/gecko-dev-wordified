@@ -25130,11 +25130,6 @@ aOldSize
 small_min
 &
 &
-ffs
-(
-(
-int
-)
 (
 RoundUpPow2
 (
@@ -25147,16 +25142,8 @@ TINY_MIN_2POW
 +
 1
 )
-)
-)
 =
 =
-ffs
-(
-(
-int
-)
-(
 RoundUpPow2
 (
 aOldSize
@@ -25167,7 +25154,6 @@ aOldSize
 TINY_MIN_2POW
 +
 1
-)
 )
 )
 )
