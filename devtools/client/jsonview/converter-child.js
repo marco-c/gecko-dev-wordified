@@ -1593,9 +1593,9 @@ resource
 /
 /
 devtools
-/
+-
 client
-/
+-
 jsonview
 /
 "

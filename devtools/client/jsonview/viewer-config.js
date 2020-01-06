@@ -238,9 +238,9 @@ resource
 /
 /
 devtools
-/
+-
 client
-/
+-
 jsonview
 /
 "
@@ -261,9 +261,9 @@ resource
 /
 /
 devtools
-/
+-
 client
-/
+-
 shared
 "
 "
@@ -303,9 +303,9 @@ resource
 /
 /
 devtools
-/
+-
 client
-/
+-
 shared
 /
 vendor
@@ -321,9 +321,9 @@ resource
 /
 /
 devtools
-/
+-
 client
-/
+-
 shared
 /
 vendor

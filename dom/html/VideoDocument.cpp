@@ -456,9 +456,9 @@ resource
 :
 /
 /
-gre
-/
-res
+content
+-
+accessible
 /
 TopLevelVideoDocument
 .
