@@ -9732,6 +9732,11 @@ cairo_scaled_font_get_font_options
 ;
 slim_hidden_proto
 (
+cairo_scaled_font_get_hint_metrics
+)
+;
+slim_hidden_proto
+(
 cairo_scaled_font_glyph_extents
 )
 ;
