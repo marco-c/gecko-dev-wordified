@@ -221,7 +221,7 @@ toolbox
 .
 target
 .
-_client
+client
 sourceMaps
 :
 this
