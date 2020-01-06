@@ -563,7 +563,7 @@ Components
 .
 interfaces
 .
-nsIIOService
+nsIIOService2
 )
 ;
 ios
