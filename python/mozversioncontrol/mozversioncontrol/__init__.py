@@ -77,6 +77,30 @@ distutils
 version
 import
 LooseVersion
+class
+MissingVCSTool
+(
+Exception
+)
+:
+    
+"
+"
+"
+Represents
+a
+failure
+to
+find
+a
+version
+control
+tool
+binary
+.
+"
+"
+"
 def
 get_tool_path
 (
@@ -238,13 +262,10 @@ as
 e
 :
             
-print
-(
-e
-)
+pass
     
 raise
-Exception
+MissingVCSTool
 (
 '
 Unable
@@ -257,7 +278,7 @@ path
 Try
 running
 '
-                    
+                         
 '
 |
 mach
@@ -271,7 +292,7 @@ is
 up
 to
 '
-                    
+                         
 '
 date
 .
