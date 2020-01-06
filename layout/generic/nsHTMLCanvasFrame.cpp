@@ -978,6 +978,7 @@ GetCanvasRenderer
 ;
 if
 (
+!
 isRecycled
 )
 {
