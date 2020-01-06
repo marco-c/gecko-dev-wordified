@@ -164,13 +164,25 @@ session
 )
 :
     
-before
+before_size
 =
 session
 .
 window
 .
 size
+    
+assert
+session
+.
+window
+.
+state
+=
+=
+"
+normal
+"
     
 #
 step
@@ -208,7 +220,9 @@ assert_success
 result
 )
     
-after
+assert
+before_size
+!
 =
 session
 .
@@ -217,10 +231,16 @@ window
 size
     
 assert
-before
-!
+session
+.
+window
+.
+state
 =
-after
+=
+"
+maximized
+"
 def
 test_payload
 (
@@ -228,13 +248,25 @@ session
 )
 :
     
-before
+before_size
 =
 session
 .
 window
 .
 size
+    
+assert
+session
+.
+window
+.
+state
+=
+=
+"
+normal
+"
     
 result
 =
@@ -329,6 +361,13 @@ in
 rect
     
 assert
+"
+state
+"
+in
+rect
+    
+assert
 isinstance
 (
 rect
@@ -337,7 +376,10 @@ rect
 width
 "
 ]
+(
+int
 float
+)
 )
     
 assert
@@ -349,7 +391,10 @@ rect
 height
 "
 ]
+(
+int
 float
+)
 )
     
 assert
@@ -361,7 +406,10 @@ rect
 x
 "
 ]
+(
+int
 float
+)
 )
     
 assert
@@ -373,10 +421,27 @@ rect
 y
 "
 ]
+(
+int
 float
 )
+)
     
-after
+assert
+isinstance
+(
+rect
+[
+"
+state
+"
+]
+basestring
+)
+    
+assert
+before_size
+!
 =
 session
 .
@@ -385,10 +450,16 @@ window
 size
     
 assert
-before
-!
+session
+.
+window
+.
+state
 =
-after
+=
+"
+maximized
+"
 def
 test_maximize_when_resized_to_max_size
 (
@@ -438,6 +509,18 @@ end
 (
 )
     
+assert
+session
+.
+window
+.
+state
+=
+=
+"
+normal
+"
+    
 available
 =
 session
@@ -447,6 +530,18 @@ window
 maximize
 (
 )
+    
+assert
+session
+.
+window
+.
+state
+=
+=
+"
+maximized
+"
     
 session
 .
@@ -545,6 +640,18 @@ expected
 dimensions
 .
     
+assert
+session
+.
+window
+.
+state
+=
+=
+"
+normal
+"
+    
 before
 =
 session
@@ -561,16 +668,24 @@ maximize
 (
 )
     
-after
-=
+assert
 session
 .
 window
 .
 size
+=
+=
+before
     
 assert
-before
+session
+.
+window
+.
+state
 =
 =
-after
+"
+maximized
+"
