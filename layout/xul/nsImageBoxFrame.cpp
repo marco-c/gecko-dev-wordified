@@ -2456,10 +2456,6 @@ PushImage
 (
 fill
 fill
-!
-BackfaceIsHidden
-(
-)
 wr
 :
 :

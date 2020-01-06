@@ -580,8 +580,6 @@ mozilla
 CSSIntRect
 &
 aSrc
-bool
-aIsBackfaceVisible
 float
 aOpacity
 =

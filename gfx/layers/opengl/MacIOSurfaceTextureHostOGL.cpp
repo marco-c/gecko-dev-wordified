@@ -1550,7 +1550,6 @@ PushImage
 (
 aBounds
 aClip
-true
 aFilter
 aImageKeys
 [
@@ -1602,7 +1601,6 @@ PushYCbCrInterleavedImage
 (
 aBounds
 aClip
-true
 aImageKeys
 [
 0
@@ -1661,7 +1659,6 @@ PushNV12Image
 (
 aBounds
 aClip
-true
 aImageKeys
 [
 0
