@@ -139,15 +139,6 @@ ifdef
 MOZ_WIDGET_COCOA
 #
 include
-<
-Carbon
-/
-Carbon
-.
-h
->
-#
-include
 "
 nsILocalFileMac
 .
