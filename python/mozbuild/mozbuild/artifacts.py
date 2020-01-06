@@ -2768,20 +2768,6 @@ crashreporter
 '
                 
 '
-crashreporter
-.
-app
-/
-Contents
-/
-MacOS
-/
-minidump
--
-analyzer
-'
-                
-'
 firefox
 '
                 
@@ -2958,6 +2944,33 @@ c
             
 paths_keep_path
 =
+[
+                
+(
+'
+Contents
+/
+MacOS
+'
+[
+                    
+'
+crashreporter
+.
+app
+/
+Contents
+/
+MacOS
+/
+minidump
+-
+analyzer
+'
+                
+]
+)
+                
 (
 '
 Contents
@@ -2965,7 +2978,7 @@ Contents
 Resources
 '
 [
-                
+                    
 '
 browser
 /
@@ -2975,18 +2988,18 @@ libbrowsercomps
 .
 dylib
 '
-                
+                    
 '
 dependentlibs
 .
 list
 '
-                
+                    
 #
 '
 firefox
 '
-                
+                    
 '
 gmp
 -
@@ -3000,7 +3013,7 @@ libclearkey
 .
 dylib
 '
-                
+                    
 #
 '
 gmp
@@ -3015,7 +3028,7 @@ libfake
 .
 dylib
 '
-                
+                    
 #
 '
 gmp
@@ -3030,7 +3043,7 @@ libfakeopenh264
 .
 dylib
 '
-                
+                    
 '
 *
 *
@@ -3039,9 +3052,11 @@ interfaces
 .
 xpt
 '
-            
+                
 ]
 )
+            
+]
             
 with
 JarWriter
@@ -3167,11 +3182,13 @@ f
 mode
 )
                 
+for
 root
 paths
-=
+in
 paths_keep_path
-                
+:
+                    
 finder
 =
 UnpackFinder
@@ -3184,13 +3201,13 @@ source
 root
 )
 )
-                
+                    
 for
 path
 in
 paths
 :
-                    
+                        
 for
 p
 f
@@ -3202,7 +3219,7 @@ find
 path
 )
 :
-                        
+                            
 self
 .
 log
@@ -3213,7 +3230,7 @@ INFO
 '
 artifact
 '
-                            
+                                     
 {
 '
 path
@@ -3221,7 +3238,7 @@ path
 :
 p
 }
-                            
+                                     
 '
 Adding
 {
@@ -3232,7 +3249,7 @@ processed
 archive
 '
 )
-                        
+                            
 destpath
 =
 mozpath
@@ -3244,7 +3261,7 @@ bin
 '
 p
 )
-                        
+                            
 writer
 .
 add
