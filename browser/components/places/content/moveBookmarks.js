@@ -363,9 +363,12 @@ arguments
 .
 moveToGuid
 =
-selectedNode
+PlacesUtils
 .
-bookmarkGuid
+getConcreteItemGuid
+(
+selectedNode
+)
 ;
 }
 newFolder
