@@ -904,6 +904,13 @@ GetCompositorAnimationsId
 )
 ;
 }
+layer
+-
+>
+Disconnect
+(
+)
+;
 }
 }
 mCompositables
