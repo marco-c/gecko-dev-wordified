@@ -600,7 +600,7 @@ download
 currentBytes
 ;
 let
-rawTimeLeft
+timeLeftInSeconds
 =
 sizeLeft
 /
@@ -620,7 +620,11 @@ now
 (
 )
 +
-rawTimeLeft
+(
+timeLeftInSeconds
+*
+1000
+)
 )
 ;
 }
