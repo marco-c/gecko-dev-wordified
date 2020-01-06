@@ -2136,6 +2136,9 @@ nsINode
 aParent
 int32_t
 aPosition
+nsIContent
+*
+aChildAtPosition
 )
 ;
 already_AddRefed
@@ -2152,6 +2155,11 @@ nsINode
 aParent
 int32_t
 aPosition
+nsIContent
+*
+aChildAtPosition
+=
+nullptr
 )
 ;
 /

@@ -259,6 +259,9 @@ nsINode
 aParent
 int32_t
 aOffsetInParent
+nsIContent
+*
+aChildAtOffset
 )
 :
 EditTransactionBase
@@ -282,6 +285,10 @@ aParent
 mOffsetInParent
 (
 aOffsetInParent
+)
+mRefNode
+(
+aChildAtOffset
 )
 {
 }
@@ -452,6 +459,12 @@ GetChildCount
 )
 )
 ;
+if
+(
+!
+mRefNode
+)
+{
 /
 /
 Note
@@ -478,6 +491,7 @@ GetChildAt
 mOffsetInParent
 )
 ;
+}
 nsCOMPtr
 <
 nsIContent

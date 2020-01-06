@@ -274,6 +274,9 @@ nsINode
 aParent
 int32_t
 aOffsetInParent
+nsIContent
+*
+aChildAtOffset
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -412,6 +415,16 @@ We
 compute
 this
 ourselves
+if
+it
+/
+/
+is
+not
+set
+by
+the
+constructor
 .
 nsCOMPtr
 <
