@@ -136,13 +136,6 @@ unordered_map
 #
 include
 "
-DrawTargetD2D1
-.
-h
-"
-#
-include
-"
 Logging
 .
 h
@@ -413,7 +406,7 @@ DWriteFontFileLoader
 (
 )
 ;
-DrawTargetD2D1
+Factory
 :
 :
 GetDWriteFactory
@@ -1071,10 +1064,10 @@ IDWriteFactory
 *
 factory
 =
-DrawTargetD2D1
+Factory
 :
 :
-GetDWriteFactory
+EnsureDWriteFactory
 (
 )
 ;
