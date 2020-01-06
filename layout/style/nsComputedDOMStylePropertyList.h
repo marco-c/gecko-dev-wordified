@@ -1975,6 +1975,16 @@ COMPUTED_STYLE_PROP
 _moz_window_opacity
 WindowOpacity
 )
+COMPUTED_STYLE_PROP
+(
+_moz_window_transform
+WindowTransform
+)
+COMPUTED_STYLE_PROP
+(
+_moz_window_transform_origin
+WindowTransformOrigin
+)
 /
 *
 *
