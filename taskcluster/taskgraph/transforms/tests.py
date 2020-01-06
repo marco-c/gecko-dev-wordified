@@ -3989,6 +3989,24 @@ opt
 '
                                          
 '
+windows7
+-
+32
+/
+debug
+'
+                                         
+'
+windows7
+-
+32
+-
+vm
+/
+debug
+'
+                                         
+'
 macosx64
 /
 opt
