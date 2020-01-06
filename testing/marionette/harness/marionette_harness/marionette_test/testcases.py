@@ -450,13 +450,6 @@ fixtures
         
 self
 .
-loglines
-=
-[
-]
-        
-self
-.
 duration
 =
 0
@@ -1657,12 +1650,12 @@ self
         
 self
 .
-_deleteSession
+_delete_session
 (
 )
     
 def
-_deleteSession
+_delete_session
 (
 self
 )
@@ -1672,9 +1665,9 @@ if
 hasattr
 (
 self
-'
+"
 start_time
-'
+"
 )
 :
             
@@ -1693,18 +1686,6 @@ self
 start_time
         
 if
-hasattr
-(
-self
-.
-marionette
-'
-session
-'
-)
-:
-            
-if
 self
 .
 marionette
@@ -1714,55 +1695,10 @@ is
 not
 None
 :
-                
+            
 try
 :
-                    
-self
-.
-loglines
-.
-extend
-(
-self
-.
-marionette
-.
-get_logs
-(
-)
-)
                 
-except
-Exception
-inst
-:
-                    
-self
-.
-loglines
-=
-[
-[
-'
-Error
-getting
-log
-:
-{
-}
-'
-.
-format
-(
-inst
-)
-]
-]
-                
-try
-:
-                    
 self
 .
 marionette
@@ -1770,17 +1706,17 @@ marionette
 delete_session
 (
 )
-                
+            
 except
 IOError
 :
-                    
+                
 #
 Gecko
 has
 crashed
 ?
-                    
+                
 pass
         
 self
@@ -2177,7 +2113,7 @@ marionette
 execute_script
 (
 "
-log
+dump
 (
 '
 TEST
@@ -2278,7 +2214,7 @@ marionette
 execute_script
 (
 "
-log
+dump
 (
 '
 TEST
