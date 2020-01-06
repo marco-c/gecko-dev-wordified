@@ -1180,6 +1180,13 @@ bool
 aCreated
 )
 ;
+nsresult
+EnsureTemporaryStorageIsInitialized
+(
+PersistenceType
+aPersistenceType
+)
+;
 void
 OriginClearCompleted
 (
