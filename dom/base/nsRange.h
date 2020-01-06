@@ -1924,7 +1924,14 @@ ErrorResult
 aError
 nsIContent
 *
-aNode
+aStartContainer
+uint32_t
+aStartOffset
+nsIContent
+*
+aEndContainer
+uint32_t
+aEndOffset
 )
 ;
 nsINode
