@@ -24915,10 +24915,6 @@ Args
 float
 float
 float
-float
-float
-float
-float
 >
 Args
 ;
@@ -24942,7 +24938,7 @@ signature
 =
 "
 (
-FFFFFFF
+FFF
 )
 V
 "
@@ -25025,10 +25021,6 @@ CURRENT
 auto
 UpdateRootFrameMetrics
 (
-float
-float
-float
-float
 float
 float
 float

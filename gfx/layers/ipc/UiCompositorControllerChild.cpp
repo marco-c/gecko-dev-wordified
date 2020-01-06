@@ -1249,10 +1249,6 @@ const
 CSSToScreenScale
 &
 aZoom
-const
-CSSRect
-&
-aPage
 )
 {
 #
@@ -1273,7 +1269,6 @@ UpdateRootFrameMetrics
 (
 aScrollOffset
 aZoom
-aPage
 )
 ;
 }

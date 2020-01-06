@@ -2625,10 +2625,6 @@ const
 CSSToScreenScale
 &
 aZoom
-const
-CSSRect
-&
-aPage
 )
 override
 {
