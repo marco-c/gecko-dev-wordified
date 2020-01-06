@@ -2043,7 +2043,6 @@ and
 playback
 rates
 .
-virtual
 bool
 CanPlayThrough
 (
@@ -3290,6 +3289,12 @@ aObject
 ;
 void
 DisconnectMirrors
+(
+)
+;
+virtual
+bool
+CanPlayThroughImpl
 (
 )
 ;
@@ -4760,6 +4765,11 @@ mTelemetryReported
 const
 MediaContainerType
 mContainerType
+;
+bool
+mCanPlayThrough
+=
+false
 ;
 }
 ;
