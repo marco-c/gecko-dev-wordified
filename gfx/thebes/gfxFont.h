@@ -9361,7 +9361,6 @@ return
 mStyle
 ;
 }
-virtual
 cairo_scaled_font_t
 *
 GetCairoScaledFont
