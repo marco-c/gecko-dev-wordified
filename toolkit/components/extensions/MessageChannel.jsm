@@ -1497,6 +1497,18 @@ messageName
 handler
 )
 {
+if
+(
+this
+.
+handlers
+.
+has
+(
+messageName
+)
+)
+{
 this
 .
 handlers
@@ -1511,6 +1523,7 @@ delete
 handler
 )
 ;
+}
 }
 }
 /
