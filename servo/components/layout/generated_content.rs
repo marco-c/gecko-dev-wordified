@@ -142,12 +142,6 @@ ImmutableFlowUtils
 }
 ;
 use
-flow
-:
-:
-InorderFlowTraversal
-;
-use
 fragment
 :
 :
@@ -253,6 +247,12 @@ text
 :
 :
 TextRunScanner
+;
+use
+traversal
+:
+:
+InorderFlowTraversal
 ;
 /
 /
@@ -1893,7 +1893,7 @@ fragment
 inline
 ]
 fn
-should_process
+should_process_subtree
 (
 &
 mut
