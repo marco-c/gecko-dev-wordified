@@ -484,7 +484,7 @@ res
 =
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 .
