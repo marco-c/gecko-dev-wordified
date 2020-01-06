@@ -2727,6 +2727,11 @@ mWrBridge
 =
 nullptr
 ;
+if
+(
+mAsyncImageManager
+)
+{
 mAsyncImageManager
 -
 >
@@ -2745,6 +2750,7 @@ mAsyncImageManager
 =
 nullptr
 ;
+}
 }
 if
 (
