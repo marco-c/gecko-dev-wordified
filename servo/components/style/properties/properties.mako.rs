@@ -21434,6 +21434,10 @@ writing_mode
 parent
 .
 flags
+.
+inherited
+(
+)
 visited_style
 )
 }

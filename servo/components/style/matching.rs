@@ -2314,6 +2314,7 @@ correct
 /
 propagation
 of
+inherited
 computed
 value
 flags
@@ -2322,11 +2323,19 @@ if
 old_values
 .
 flags
+.
+inherited
+(
+)
 !
 =
 new_values
 .
 flags
+.
+inherited
+(
+)
 {
 debug
 !
