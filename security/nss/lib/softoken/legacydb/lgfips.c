@@ -99,6 +99,9 @@ Exp
 *
 /
 #
+ifndef
+NSS_FIPS_DISABLED
+#
 include
 "
 seccomon
@@ -660,3 +663,10 @@ return
 lg_self_tests_success
 ;
 }
+#
+endif
+/
+*
+NSS_FIPS_DISABLED
+*
+/

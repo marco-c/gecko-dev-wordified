@@ -607,8 +607,14 @@ NULL
 }
 #
 endif
+#
+ifndef
+NSS_FIPS_DISABLED
 /
 *
+In
+FIPS
+mode
 make
 sure
 the
@@ -619,7 +625,9 @@ have
 been
 run
 before
+*
 continuing
+.
 *
 /
 BL_POSTRan
@@ -627,6 +635,8 @@ BL_POSTRan
 PR_FALSE
 )
 ;
+#
+endif
 return
 &
 vector
