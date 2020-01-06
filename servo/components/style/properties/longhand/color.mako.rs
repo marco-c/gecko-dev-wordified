@@ -675,7 +675,7 @@ the
 typedef
 instead
 .
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 SystemColor
