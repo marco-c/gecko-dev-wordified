@@ -921,6 +921,12 @@ mLayoutServoStyleSetsOther
 \
 macro
 (
+Style
+mLayoutServoElementDataObjects
+)
+\
+macro
+(
 Other
 mLayoutTextRunsSize
 )
