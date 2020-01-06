@@ -28,9 +28,9 @@ libpng
 .
 6
 .
-30
+33
 [
-June
+September
 28
 2017
 ]
@@ -3597,8 +3597,7 @@ row_info
 rowbytes
 =
 (
-unsigned
-int
+png_size_t
 )
 (
 dp
@@ -4224,6 +4223,8 @@ row_info
 -
 >
 rowbytes
+-
+1
 ;
 switch
 (

@@ -23,10 +23,10 @@ libpng
 .
 6
 .
-31
+33
 [
-July
-27
+September
+28
 2017
 ]
 *
@@ -2506,7 +2506,7 @@ png_malloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 (
@@ -2617,7 +2617,7 @@ png_malloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 (
@@ -3450,7 +3450,7 @@ png_malloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 (
@@ -3479,7 +3479,7 @@ png_malloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 (
@@ -3555,7 +3555,7 @@ png_calloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 769
@@ -3720,7 +3720,7 @@ png_malloc_warn
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 sizeof
@@ -4353,7 +4353,7 @@ png_calloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 num_entries
@@ -4376,7 +4376,7 @@ png_malloc
 (
 png_ptr
 (
-png_uint_32
+png_alloc_size_t
 )
 (
 num_entries
