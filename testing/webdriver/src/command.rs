@@ -2665,9 +2665,11 @@ pub
 struct
 TimeoutsParameters
 {
+pub
 type_
 :
 String
+pub
 ms
 :
 f64
@@ -2916,9 +2918,11 @@ pub
 struct
 WindowSizeParameters
 {
+pub
 width
 :
 u64
+pub
 height
 :
 u64
@@ -3344,9 +3348,11 @@ pub
 struct
 LocatorParameters
 {
+pub
 using
 :
 LocatorStrategy
+pub
 value
 :
 String
@@ -4083,9 +4089,11 @@ pub
 struct
 JavascriptCommandParameters
 {
+pub
 script
 :
 String
+pub
 args
 :
 Nullable
@@ -4392,6 +4400,7 @@ pub
 struct
 GetCookieParameters
 {
+pub
 name
 :
 Nullable
