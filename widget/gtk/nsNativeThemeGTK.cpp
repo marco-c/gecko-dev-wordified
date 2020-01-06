@@ -7484,11 +7484,6 @@ aResult
 >
 bottom
 direction
-IsFrameContentNodeInNamespace
-(
-aFrame
-kNameSpaceID_XHTML
-)
 )
 ;
 }
@@ -7736,11 +7731,6 @@ bottom
 GetTextDirection
 (
 aFrame
-)
-IsFrameContentNodeInNamespace
-(
-aFrame
-kNameSpaceID_XHTML
 )
 )
 ;
