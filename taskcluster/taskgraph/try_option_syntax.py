@@ -427,25 +427,6 @@ e10s
 )
     
 '
-external
--
-media
--
-tests
-'
-:
-alias_prefix
-(
-'
-external
--
-media
--
-tests
-'
-)
-    
-'
 firefox
 -
 ui
