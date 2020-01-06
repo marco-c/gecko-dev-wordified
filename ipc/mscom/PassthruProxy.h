@@ -260,6 +260,7 @@ small
 "
 )
 ;
+typename
 detail
 :
 :
