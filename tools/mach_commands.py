@@ -3112,10 +3112,33 @@ strip
                 
 continue
             
+#
+The
+regexp
+is
+to
+make
+sure
+we
+are
+managing
+relative
+paths
+            
 ignored_dir
 .
 append
 (
+"
+^
+[
+\
+.
+/
+]
+*
+"
++
 line
 .
 rstrip
