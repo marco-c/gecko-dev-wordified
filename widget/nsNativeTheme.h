@@ -112,6 +112,12 @@ code
 duplication
 .
 #
+ifndef
+_NSNATIVETHEME_H_
+#
+define
+_NSNATIVETHEME_H_
+#
 include
 "
 nsAlgorithm
@@ -962,3 +968,8 @@ mAnimatedContentList
 ;
 }
 ;
+#
+endif
+/
+/
+_NSNATIVETHEME_H_
