@@ -601,12 +601,6 @@ browser
 "
 )
 ;
-enumerator
-.
-getNext
-(
-)
-;
 if
 (
 !
