@@ -345,6 +345,7 @@ ms
 20000
 )
 ;
+async
 function
 onTabLoad
 (
