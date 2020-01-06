@@ -21076,7 +21076,7 @@ rcwn
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -61730,7 +61730,7 @@ jsloader
 .
 shareGlobal
 "
-false
+true
 )
 ;
 /
