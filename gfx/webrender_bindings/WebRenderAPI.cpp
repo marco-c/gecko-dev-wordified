@@ -224,10 +224,10 @@ NewRenderer
 wr
 :
 :
-RenderApi
+DocumentHandle
 *
 *
-aApi
+aDocHandle
 layers
 :
 :
@@ -268,9 +268,9 @@ SyncHandle
 aHandle
 )
 :
-mRenderApi
+mDocHandle
 (
-aApi
+aDocHandle
 )
 mMaxTextureSize
 (
@@ -551,7 +551,7 @@ this
 -
 >
 mEnableProfiler
-mRenderApi
+mDocHandle
 &
 wrRenderer
 )
@@ -693,10 +693,10 @@ private
 wr
 :
 :
-RenderApi
+DocumentHandle
 *
 *
-mRenderApi
+mDocHandle
 ;
 GLint
 *
@@ -888,9 +888,9 @@ sNextId
 wr
 :
 :
-RenderApi
+DocumentHandle
 *
-renderApi
+docHandle
 =
 nullptr
 ;
@@ -920,7 +920,7 @@ synchronous
 task
 because
 the
-RenderApi
+DocumentHandle
 object
 needs
 to
@@ -954,7 +954,7 @@ need
 to
 access
 the
-RenderApi
+DocumentHandle
 object
 .
 layers
@@ -978,7 +978,7 @@ NewRenderer
 >
 (
 &
-renderApi
+docHandle
 aBridge
 &
 maxTextureSize
@@ -1022,7 +1022,7 @@ Wait
 if
 (
 !
-renderApi
+docHandle
 )
 {
 return
@@ -1038,7 +1038,7 @@ WebRenderAPI
 new
 WebRenderAPI
 (
-renderApi
+docHandle
 id
 maxTextureSize
 useANGLE
@@ -1065,7 +1065,7 @@ GetNamespace
 return
 wr_api_get_namespace
 (
-mRenderApi
+mDocHandle
 )
 ;
 }
@@ -1117,7 +1117,7 @@ Wait
 ;
 wr_api_delete
 (
-mRenderApi
+mDocHandle
 )
 ;
 }
@@ -1155,7 +1155,7 @@ aScrollPosition
 {
 wr_scroll_layer_with_id
 (
-mRenderApi
+mDocHandle
 aPipelineId
 aScrollId
 aScrollPosition
@@ -1172,7 +1172,7 @@ GenerateFrame
 {
 wr_api_generate_frame
 (
-mRenderApi
+mDocHandle
 )
 ;
 }
@@ -1206,7 +1206,7 @@ aTransformArray
 {
 wr_api_generate_frame_with_properties
 (
-mRenderApi
+mDocHandle
 aOpacityArray
 .
 IsEmpty
@@ -1287,7 +1287,7 @@ dl_size
 {
 wr_api_set_root_display_list
 (
-mRenderApi
+mDocHandle
 ToColorF
 (
 aBgColor
@@ -1324,7 +1324,7 @@ pipeline_id
 {
 wr_api_clear_root_display_list
 (
-mRenderApi
+mDocHandle
 aEpoch
 pipeline_id
 )
@@ -1342,7 +1342,7 @@ size
 {
 wr_api_set_window_parameters
 (
-mRenderApi
+mDocHandle
 size
 .
 width
@@ -2102,7 +2102,7 @@ aPipeline
 {
 wr_api_set_root_pipeline
 (
-mRenderApi
+mDocHandle
 aPipeline
 )
 ;
@@ -2128,7 +2128,7 @@ aBytes
 {
 wr_api_add_image
 (
-mRenderApi
+mDocHandle
 key
 &
 aDescriptor
@@ -2160,7 +2160,7 @@ aBytes
 {
 wr_api_add_blob_image
 (
-mRenderApi
+mDocHandle
 key
 &
 aDescriptor
@@ -2196,7 +2196,7 @@ aChannelIndex
 {
 wr_api_add_external_image
 (
-mRenderApi
+mDocHandle
 key
 &
 aDescriptor
@@ -2264,7 +2264,7 @@ aBytes
 {
 wr_api_update_image
 (
-mRenderApi
+mDocHandle
 aKey
 &
 aDescriptor
@@ -2296,7 +2296,7 @@ aBytes
 {
 wr_api_update_blob_image
 (
-mRenderApi
+mDocHandle
 aKey
 &
 aDescriptor
@@ -2332,7 +2332,7 @@ aChannelIndex
 {
 wr_api_update_external_image
 (
-mRenderApi
+mDocHandle
 aKey
 &
 aDescriptor
@@ -2354,7 +2354,7 @@ aKey
 {
 wr_api_delete_image
 (
-mRenderApi
+mDocHandle
 aKey
 )
 ;
@@ -2381,7 +2381,7 @@ aIndex
 {
 wr_api_add_raw_font
 (
-mRenderApi
+mDocHandle
 aKey
 &
 aBytes
@@ -2412,7 +2412,7 @@ aKey
 {
 wr_api_delete_font
 (
-mRenderApi
+mDocHandle
 aKey
 )
 ;
@@ -2673,7 +2673,7 @@ release
 ;
 wr_api_send_external_event
 (
-mRenderApi
+mDocHandle
 event
 )
 ;
