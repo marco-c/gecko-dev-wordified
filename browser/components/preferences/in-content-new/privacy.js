@@ -1899,7 +1899,7 @@ signonBundle
 getString
 (
 "
-loginsDescriptionAll
+loginsDescriptionAll2
 "
 )
 ]
