@@ -1304,10 +1304,10 @@ percentage
 in
 iter
 {
-write
-!
-(
 dest
+.
+write_str
+(
 "
 "
 )

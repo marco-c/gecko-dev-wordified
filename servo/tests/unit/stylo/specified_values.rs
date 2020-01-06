@@ -74,6 +74,10 @@ target_pointer_width
 )
 )
 ]
+#
+[
+test
+]
 fn
 size_of_specified_values
 (

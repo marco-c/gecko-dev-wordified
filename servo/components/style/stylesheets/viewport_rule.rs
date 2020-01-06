@@ -1115,10 +1115,10 @@ ViewportLength
 ExtendToZoom
 =
 >
-write
-!
-(
 dest
+.
+write_str
+(
 "
 extend
 -

@@ -1340,10 +1340,10 @@ i
 =
 0
 {
-write
-!
-(
 dest
+.
+write_str
+(
 "
 "
 )
@@ -2138,10 +2138,10 @@ i
 =
 0
 {
-write
-!
-(
 dest
+.
+write_str
+(
 "
 "
 )
