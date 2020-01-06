@@ -3887,7 +3887,10 @@ monitor
 .
 *
 /
+Atomic
+<
 bool
+>
 mMicrophoneActive
 ;
 /
