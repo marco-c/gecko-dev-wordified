@@ -134,13 +134,6 @@ h
 #
 include
 "
-prlink
-.
-h
-"
-#
-include
-"
 gdk
 /
 gdk
@@ -193,6 +186,10 @@ static
 gint
 GetGTKMonitorScaleFactor
 (
+gint
+aMonitorNum
+=
+0
 )
 ;
 #
@@ -225,10 +222,6 @@ RefreshScreens
 ;
 private
 :
-PRLibrary
-*
-mXineramalib
-;
 GdkWindow
 *
 mRootWindow
