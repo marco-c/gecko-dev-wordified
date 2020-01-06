@@ -333,9 +333,6 @@ nightly_mozconfig_pair
 platform
                       
 mozconfigWhitelist
-=
-{
-}
 )
 :
     
