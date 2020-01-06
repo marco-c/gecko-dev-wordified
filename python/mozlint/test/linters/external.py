@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+os
 from
 mozlint
 import
@@ -125,6 +127,19 @@ path
 in
 files
 :
+        
+if
+os
+.
+path
+.
+isdir
+(
+path
+)
+:
+            
+continue
         
 with
 open
@@ -233,6 +248,19 @@ path
 in
 files
 :
+        
+if
+os
+.
+path
+.
+isdir
+(
+path
+)
+:
+            
+continue
         
 with
 open
