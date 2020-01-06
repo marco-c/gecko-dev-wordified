@@ -2155,8 +2155,6 @@ update_channel
 :
 '
 beta
--
-dev
 '
         
 '
@@ -2517,8 +2515,6 @@ update_channel
 :
 "
 aurora
--
-dev
 "
             
 }
@@ -2537,8 +2533,6 @@ update_channel
 :
 "
 aurora
--
-dev
 "
             
 }
@@ -2557,8 +2551,6 @@ update_channel
 :
 "
 aurora
--
-dev
 "
             
 }
@@ -2577,8 +2569,6 @@ update_channel
 :
 "
 aurora
--
-dev
 "
             
 }
@@ -2597,8 +2587,6 @@ update_channel
 :
 "
 aurora
--
-dev
 "
             
 }
