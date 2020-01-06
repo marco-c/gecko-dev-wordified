@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 json
 import
@@ -4717,6 +4722,7 @@ else
 :
             
 print
+(
 "
 INFO
 |
@@ -4730,6 +4736,7 @@ summary
 start
 .
 "
+)
             
 logResult
 =
@@ -4740,6 +4747,7 @@ logTestSummary
 )
             
 print
+(
 "
 INFO
 |
@@ -4753,6 +4761,7 @@ summary
 end
 .
 "
+)
             
 if
 worstTestResult

@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 posixpath
 import
@@ -1607,6 +1612,7 @@ wrong
 .
                 
 print
+(
 "
 Automation
 Error
@@ -1624,9 +1630,9 @@ remote
 device
 "
 %
-\
-                    
+                      
 remote_dir
+)
                 
 #
 Whilst
