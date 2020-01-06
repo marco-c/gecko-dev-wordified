@@ -6568,6 +6568,10 @@ mIsBuilding
 (
 false
 )
+mInInvalidSubtree
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
