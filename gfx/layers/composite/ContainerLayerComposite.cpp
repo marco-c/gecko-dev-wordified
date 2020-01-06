@@ -4342,13 +4342,6 @@ if
 surface
 )
 {
-aContainer
--
->
-mPrepared
-=
-nullptr
-;
 return
 ;
 }
