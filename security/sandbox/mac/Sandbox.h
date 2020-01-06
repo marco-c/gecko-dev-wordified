@@ -339,6 +339,12 @@ other
 .
 testingReadPath3
 )
+testingReadPath4
+(
+other
+.
+testingReadPath4
+)
 shouldLog
 (
 other
@@ -415,6 +421,12 @@ std
 :
 string
 testingReadPath3
+;
+std
+:
+:
+string
+testingReadPath4
 ;
 bool
 shouldLog
