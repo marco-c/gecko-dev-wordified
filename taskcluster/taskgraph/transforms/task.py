@@ -2719,7 +2719,7 @@ basestring
             
 Extra
 :
-basestring
+taskref_or_string
 #
 additional
 properties
