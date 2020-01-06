@@ -279,7 +279,7 @@ EditTransactionBase
 >
 mChildren
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

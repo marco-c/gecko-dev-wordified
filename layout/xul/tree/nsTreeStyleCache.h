@@ -151,9 +151,12 @@ nsStyleContext
 h
 "
 typedef
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 AtomArray
 ;
@@ -269,7 +272,7 @@ private
 DFAState
 mState
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

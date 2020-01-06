@@ -3839,7 +3839,7 @@ attribute
 nsString
 mAttr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

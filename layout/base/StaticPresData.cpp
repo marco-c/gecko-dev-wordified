@@ -1979,7 +1979,7 @@ aLanguage
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -10063,7 +10063,7 @@ it
 s
 assigned
 to
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -11507,7 +11507,7 @@ if
 action
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -11551,7 +11551,7 @@ if
 hasQuery
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -11790,7 +11790,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12057,7 +12057,7 @@ hasQuery
 )
 continue
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12087,7 +12087,7 @@ SetTag
 tag
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12624,7 +12624,7 @@ uri
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12866,7 +12866,7 @@ aRuleElement
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13044,7 +13044,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13117,7 +13117,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13409,7 +13409,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13537,7 +13537,7 @@ _true
 eCaseMatters
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13973,7 +13973,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -14097,7 +14097,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -14536,7 +14536,7 @@ nsTemplateRule
 aClosure
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

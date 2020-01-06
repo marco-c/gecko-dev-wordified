@@ -471,7 +471,7 @@ uint64_t
 mChannelId
 ;
 const
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

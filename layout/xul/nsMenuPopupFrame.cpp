@@ -1050,7 +1050,7 @@ OwnerDoc
 int32_t
 namespaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

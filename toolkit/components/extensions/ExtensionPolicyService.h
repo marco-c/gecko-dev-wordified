@@ -289,7 +289,7 @@ nsAString
 aAddonId
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

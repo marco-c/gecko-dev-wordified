@@ -5140,7 +5140,7 @@ eXMLContentSinkState_InDocumentElement
 int32_t
 nameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5803,7 +5803,7 @@ closing
 the
 right
 thing
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6427,7 +6427,7 @@ fragment
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7812,7 +7812,7 @@ to
 the
 content
 attributes
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -242,7 +242,7 @@ mExplicitLanguage
 nsFont
 mFont
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

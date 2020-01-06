@@ -7736,7 +7736,7 @@ nsIEditProperty
 h
 for
 this
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7915,7 +7915,7 @@ nsIEditProperty
 h
 for
 this
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

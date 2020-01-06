@@ -2766,7 +2766,7 @@ during
 /
 UnsetAttr
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3266,7 +3266,7 @@ the
 event
 type
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4080,7 +4080,7 @@ handler
 continue
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

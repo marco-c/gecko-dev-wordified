@@ -864,7 +864,7 @@ aOther
 }
 }
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1540,7 +1540,7 @@ serialization
 bool
 mHadUnknownExpression
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

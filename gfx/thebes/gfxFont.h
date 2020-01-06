@@ -1318,7 +1318,10 @@ sizeAdjust
 )
 )
 ^
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 :
 :
 HashKey

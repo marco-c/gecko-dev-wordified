@@ -1918,7 +1918,7 @@ nsAString
 aAttribute
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5451,7 +5451,7 @@ bool
 aSuppressTransaction
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5711,7 +5711,7 @@ do_QueryInterface
 aNode
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6363,7 +6363,7 @@ aNode
 aProperty
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6432,7 +6432,7 @@ do_QueryInterface
 aNode
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1429,7 +1429,7 @@ nsAString
 aName
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

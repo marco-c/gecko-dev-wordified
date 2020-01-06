@@ -654,7 +654,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -862,7 +862,7 @@ bug
 for
 details
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1476,7 +1476,7 @@ int32_t
 aNameSpaceID
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1573,7 +1573,7 @@ int32_t
 aNameSpaceID
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

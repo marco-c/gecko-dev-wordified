@@ -1780,7 +1780,10 @@ mBindToUntrustedContent
 typedef
 nsClassHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 nsXBLAttributeEntry
 >
 InnerAttributeTable
@@ -2262,7 +2265,7 @@ then
 that
 information
 will
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

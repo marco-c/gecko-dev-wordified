@@ -1003,7 +1003,7 @@ if
 element
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1079,7 +1079,7 @@ aValue
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

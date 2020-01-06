@@ -609,7 +609,7 @@ mContext
 /
 /
 owner
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -213,7 +213,7 @@ somewhat
 random
 number
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

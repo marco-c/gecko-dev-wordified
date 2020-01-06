@@ -815,7 +815,7 @@ nsISupports
 >
 mParent
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

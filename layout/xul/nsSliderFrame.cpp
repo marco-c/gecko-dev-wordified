@@ -1143,7 +1143,7 @@ nsISliderListener
 >
 mListener
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

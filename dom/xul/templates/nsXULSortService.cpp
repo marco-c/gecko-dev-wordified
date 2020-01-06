@@ -372,7 +372,7 @@ aSortState
 >
 sortKeys
 .
-Count
+Length
 (
 )
 >
@@ -1215,7 +1215,7 @@ sortState
 >
 sortKeys
 .
-Count
+Length
 (
 )
 ;
@@ -2299,7 +2299,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2315,7 +2315,7 @@ aSortState
 >
 sortKeys
 .
-AppendObject
+AppendElement
 (
 sortkeyatom
 )
@@ -2350,7 +2350,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2366,7 +2366,7 @@ aSortState
 >
 sortKeys
 .
-AppendObject
+AppendElement
 (
 sortkeyatom2
 )
@@ -2406,7 +2406,7 @@ hasMoreTokens
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2432,7 +2432,7 @@ aSortState
 >
 sortKeys
 .
-AppendObject
+AppendElement
 (
 keyatom
 )

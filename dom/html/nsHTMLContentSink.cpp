@@ -1905,7 +1905,7 @@ SetCustomElementData
 (
 )
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1918,7 +1918,7 @@ NameAtom
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

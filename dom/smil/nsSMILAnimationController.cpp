@@ -5369,7 +5369,7 @@ the
 XML
 namespace
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

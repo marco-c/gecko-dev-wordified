@@ -650,7 +650,7 @@ property
 to
 change
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

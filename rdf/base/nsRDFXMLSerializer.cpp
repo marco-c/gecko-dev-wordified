@@ -856,7 +856,7 @@ prefix
 by
 default
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -959,7 +959,7 @@ nsAString
 aURI
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1175,7 +1175,7 @@ EnsureNewPrefix
 nsAutoString
 qname
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1580,7 +1580,7 @@ up
 a
 prefix
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

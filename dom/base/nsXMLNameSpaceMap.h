@@ -165,7 +165,7 @@ aPrefix
 )
 {
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

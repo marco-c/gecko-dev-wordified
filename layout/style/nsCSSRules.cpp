@@ -11856,7 +11856,7 @@ parser
 ;
 if
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

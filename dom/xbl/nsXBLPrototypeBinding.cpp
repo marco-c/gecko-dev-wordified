@@ -658,13 +658,13 @@ nsIContent
 *
 mElement
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mSrcAttribute
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1879,7 +1879,7 @@ during
 /
 UnsetAttr
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3562,7 +3562,7 @@ of
 this
 attribute
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3573,7 +3573,7 @@ atomNsID
 =
 kNameSpaceID_None
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4372,7 +4372,7 @@ while
 curr
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5449,7 +5449,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5460,7 +5460,7 @@ NS_Atomize
 attrPrefix
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6802,7 +6802,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6840,7 +6840,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7077,7 +7077,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7111,7 +7111,7 @@ nameAtom
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7331,7 +7331,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7353,7 +7353,7 @@ NS_Atomize
 prefix
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7472,7 +7472,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7483,7 +7483,7 @@ NS_Atomize
 srcAttribute
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -9089,7 +9089,7 @@ doc
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

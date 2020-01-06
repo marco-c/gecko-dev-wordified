@@ -251,13 +251,13 @@ nsIDOMDocument
 *
 mDocument
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

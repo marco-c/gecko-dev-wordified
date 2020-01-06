@@ -230,7 +230,7 @@ manager
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

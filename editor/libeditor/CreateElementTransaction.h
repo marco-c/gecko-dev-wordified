@@ -342,7 +342,7 @@ the
 new
 element
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

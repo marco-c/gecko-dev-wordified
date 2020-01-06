@@ -605,13 +605,13 @@ variables
 for
 the
 query
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -2974,7 +2974,7 @@ aPersistent
 =
 true
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

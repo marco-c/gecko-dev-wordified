@@ -1603,7 +1603,7 @@ mScriptSizeMultiplier
 [
 inherited
 ]
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -15344,7 +15344,7 @@ mDelay
 nsCSSPropertyID
 mProperty
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -17666,9 +17666,12 @@ a
 stacking
 context
 .
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 mWillChange
 ;
@@ -22421,7 +22424,7 @@ percent
 factor
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

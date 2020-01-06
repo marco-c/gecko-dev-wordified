@@ -2486,7 +2486,7 @@ the
 relevant
 atom
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

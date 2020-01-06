@@ -550,7 +550,7 @@ res
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -658,7 +658,7 @@ false
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

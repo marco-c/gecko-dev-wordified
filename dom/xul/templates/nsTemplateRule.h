@@ -412,7 +412,7 @@ aRightString
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -424,7 +424,7 @@ mSource
 ConditionRelation
 mRelation
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1131,13 +1131,13 @@ protected
 struct
 Binding
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mSourceVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1271,7 +1271,7 @@ container
 with
 this
 tag
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1297,13 +1297,13 @@ Binding
 *
 mBindings
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1505,7 +1505,7 @@ container
 with
 this
 tag
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

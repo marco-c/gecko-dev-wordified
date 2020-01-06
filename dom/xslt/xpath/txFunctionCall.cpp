@@ -658,7 +658,7 @@ nsAString
 aDest
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1160,7 +1160,7 @@ mStrings
 ;
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

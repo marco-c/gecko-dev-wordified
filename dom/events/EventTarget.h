@@ -345,7 +345,7 @@ nsAString
 aType
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

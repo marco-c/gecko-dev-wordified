@@ -7521,7 +7521,7 @@ initialized
 by
 subclass
 ctors
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7639,7 +7639,7 @@ lang
 attribute
 )
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

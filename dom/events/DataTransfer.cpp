@@ -1221,7 +1221,7 @@ aEventType
 onEventType
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3743,7 +3743,7 @@ ErrorResult
 aRv
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

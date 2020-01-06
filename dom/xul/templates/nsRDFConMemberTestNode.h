@@ -446,13 +446,13 @@ nsXULTemplateQueryProcessorRDF
 *
 mProcessor
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mContainerVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

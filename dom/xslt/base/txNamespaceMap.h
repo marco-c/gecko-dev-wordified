@@ -215,9 +215,12 @@ private
 nsAutoRefCnt
 mRefCnt
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 mPrefixes
 ;

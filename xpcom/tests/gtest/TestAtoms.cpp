@@ -235,7 +235,7 @@ i
 m8
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -384,7 +384,7 @@ ValidStrings
 i
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -400,7 +400,7 @@ i
 m16
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -448,7 +448,7 @@ string
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -517,7 +517,7 @@ strCut
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -528,7 +528,7 @@ NS_Atomize
 strCut
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -617,7 +617,7 @@ NS_GetNumberOfAtoms
 )
 ;
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -690,7 +690,7 @@ NS_GetNumberOfAtoms
 )
 ;
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -706,7 +706,7 @@ i
 m8
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -776,7 +776,7 @@ asserts
 #
 ifndef
 DEBUG
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -815,7 +815,7 @@ NS_GetNumberOfAtoms
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1045,7 +1045,7 @@ NS_GetNumberOfAtoms
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1112,7 +1112,7 @@ i
 +
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

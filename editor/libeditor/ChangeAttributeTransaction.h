@@ -316,7 +316,7 @@ The
 attribute
 to
 change
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

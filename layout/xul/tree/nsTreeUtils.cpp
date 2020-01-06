@@ -319,7 +319,7 @@ first
 )
 break
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

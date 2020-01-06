@@ -1489,7 +1489,7 @@ sort
 variable
 *
 /
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

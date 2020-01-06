@@ -678,7 +678,7 @@ txXPathNodeType
 ELEMENT_NODE
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

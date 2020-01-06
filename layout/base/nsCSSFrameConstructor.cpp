@@ -11390,7 +11390,7 @@ case
 eStyleContentType_Attr
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

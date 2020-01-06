@@ -1556,7 +1556,7 @@ through
 the
 element
 factory
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1710,7 +1710,7 @@ float
 resizerWidth
 resizerHeight
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

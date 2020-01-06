@@ -1419,7 +1419,7 @@ aIs
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1430,7 +1430,7 @@ NS_Atomize
 aLocalName
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1646,7 +1646,7 @@ button
 "
 >
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1740,7 +1740,7 @@ nsAString
 aTypeExtension
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1758,7 +1758,7 @@ NameAtom
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2654,7 +2654,7 @@ nsIDocument
 eAttributeChanged
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3526,7 +3526,7 @@ steps
 .
 *
 /
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3824,7 +3824,7 @@ WasPassed
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4001,9 +4001,12 @@ LifecycleCallbacks
 )
 )
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 observedAttributes
 ;
@@ -4924,7 +4927,7 @@ the
 custom
 element
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5208,7 +5211,7 @@ Value
 aRetVal
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5321,7 +5324,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7311,9 +7314,12 @@ aLocalName
 Function
 *
 aConstructor
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 &
 &

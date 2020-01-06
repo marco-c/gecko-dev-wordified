@@ -468,7 +468,7 @@ traceableChannel
 NS_ERROR_INVALID_ARG
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

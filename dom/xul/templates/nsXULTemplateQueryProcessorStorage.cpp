@@ -400,7 +400,7 @@ rv
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -420,7 +420,7 @@ name
 ;
 mColumnNames
 .
-AppendObject
+AppendElement
 (
 columnName
 )
@@ -578,7 +578,7 @@ count
 =
 mColumnNames
 .
-Count
+Length
 (
 )
 ;
@@ -643,7 +643,7 @@ count
 =
 mColumnNames
 .
-Count
+Length
 (
 )
 ;

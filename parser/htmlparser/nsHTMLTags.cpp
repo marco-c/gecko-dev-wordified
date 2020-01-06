@@ -1151,7 +1151,7 @@ tag
 nsHTMLTag
 id
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

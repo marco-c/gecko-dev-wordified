@@ -890,7 +890,7 @@ haveTwoColons
 false
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

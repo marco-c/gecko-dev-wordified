@@ -2371,7 +2371,7 @@ mAttribute
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -423,7 +423,7 @@ nsAString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1623,7 +1623,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2404,7 +2404,7 @@ nsAString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4980,7 +4980,7 @@ to
 eliminate
 the
 attribute
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5178,7 +5178,7 @@ IsElement
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7137,7 +7137,7 @@ bool
 aAll
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7291,7 +7291,7 @@ nsAString
 outValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7481,7 +7481,7 @@ nsAString
 aAttribute
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -8535,7 +8535,7 @@ type
 before
 proceeding
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

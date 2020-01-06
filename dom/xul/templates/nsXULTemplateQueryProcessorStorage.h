@@ -182,9 +182,12 @@ mozIStorageStatement
 >
 mStatement
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 mColumnNames
 ;

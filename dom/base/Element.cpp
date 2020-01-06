@@ -7359,7 +7359,7 @@ if
 name
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7837,7 +7837,7 @@ aReturn
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7989,7 +7989,7 @@ ErrorResult
 aError
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -8361,7 +8361,7 @@ return
 false
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -15440,7 +15440,7 @@ aName
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -15495,7 +15495,7 @@ GetAsAtom
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -17049,7 +17049,7 @@ aNameSpaceID
 ns
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

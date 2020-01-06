@@ -838,7 +838,7 @@ if
 aWatch
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -927,7 +927,7 @@ if
 aWatch
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

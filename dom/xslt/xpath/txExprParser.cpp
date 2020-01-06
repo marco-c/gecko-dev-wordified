@@ -2106,7 +2106,7 @@ nextToken
 )
 ;
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2435,7 +2435,7 @@ expected
 compare
 function
 names
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2762,7 +2762,7 @@ nextToken
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3208,7 +3208,7 @@ nextToken
 /
 resolve
 QName
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

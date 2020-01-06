@@ -1995,7 +1995,10 @@ sConsoleService
 ;
 nsDataHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 EventNameMapping
 >
 *
@@ -2019,9 +2022,12 @@ sStringEventTable
 =
 nullptr
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 *
 nsContentUtils
@@ -5493,7 +5499,10 @@ sAtomEventTable
 new
 nsDataHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 EventNameMapping
 >
 (
@@ -5521,9 +5530,12 @@ eventArray
 sUserDefinedEvents
 =
 new
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 (
 64
@@ -18965,7 +18977,7 @@ EndReading
 end
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -23971,7 +23983,7 @@ if
 sUserDefinedEvents
 -
 >
-Count
+Length
 (
 )
 >
@@ -23983,7 +23995,7 @@ while
 sUserDefinedEvents
 -
 >
-Count
+Length
 (
 )
 >
@@ -23997,7 +24009,7 @@ first
 sUserDefinedEvents
 -
 >
-ObjectAt
+ElementAt
 (
 0
 )
@@ -24020,7 +24032,7 @@ first
 sUserDefinedEvents
 -
 >
-RemoveObjectAt
+RemoveElementAt
 (
 0
 )
@@ -24032,7 +24044,7 @@ aEventMessage
 =
 eUnidentifiedEvent
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -24053,7 +24065,7 @@ aName
 sUserDefinedEvents
 -
 >
-AppendObject
+AppendElement
 (
 atom
 )
@@ -24237,7 +24249,7 @@ msg
 =
 eUnidentifiedEvent
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -25232,7 +25244,7 @@ atomize
 this
 up
 front
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -31760,7 +31772,7 @@ header
 .
 *
 /
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

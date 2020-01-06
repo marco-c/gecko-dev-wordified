@@ -3730,7 +3730,7 @@ i
 mName
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -8056,7 +8056,7 @@ block
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

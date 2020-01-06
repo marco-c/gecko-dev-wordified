@@ -429,7 +429,7 @@ nsXBLPrototypeHandler
 >
 mProtoHandlers
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

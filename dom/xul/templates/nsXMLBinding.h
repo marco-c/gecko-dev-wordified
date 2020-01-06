@@ -190,7 +190,7 @@ description
 struct
 nsXMLBinding
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

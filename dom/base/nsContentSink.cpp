@@ -4910,7 +4910,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

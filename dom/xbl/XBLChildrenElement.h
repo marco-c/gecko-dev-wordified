@@ -790,7 +790,7 @@ mInsertedChildren
 WEAK
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

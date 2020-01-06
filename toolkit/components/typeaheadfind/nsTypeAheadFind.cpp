@@ -5327,7 +5327,7 @@ going
 up
 parent
 chain
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5341,7 +5341,7 @@ href
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

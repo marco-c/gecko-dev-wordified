@@ -1593,7 +1593,7 @@ StealNSResult
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

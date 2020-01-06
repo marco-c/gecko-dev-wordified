@@ -1323,7 +1323,7 @@ we
 have
 an
 entry
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1334,7 +1334,7 @@ NS_Atomize
 aTagname
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2698,7 +2698,7 @@ and
 names
 are
 atomized
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

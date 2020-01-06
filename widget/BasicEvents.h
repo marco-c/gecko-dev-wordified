@@ -4253,7 +4253,7 @@ a
 WidgetCommandEvent
 instance
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

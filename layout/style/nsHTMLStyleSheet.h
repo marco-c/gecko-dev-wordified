@@ -1015,7 +1015,7 @@ override
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

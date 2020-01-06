@@ -458,7 +458,7 @@ if
 mBuilder
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4487,7 +4487,7 @@ if
 mBuilder
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

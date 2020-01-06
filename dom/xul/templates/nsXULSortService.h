@@ -225,9 +225,12 @@ direction
 nsAutoString
 sort
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 sortKeys
 ;

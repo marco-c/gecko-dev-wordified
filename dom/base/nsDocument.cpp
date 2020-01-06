@@ -3969,7 +3969,7 @@ aFound
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -33955,7 +33955,7 @@ CSSPseudoElementType
 NotPseudo
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -35710,7 +35710,7 @@ return
 true
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -39398,7 +39398,7 @@ nsAString
 aAttrValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -41386,7 +41386,7 @@ forget
 int32_t
 namespaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -48879,7 +48879,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

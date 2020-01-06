@@ -753,7 +753,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1345,7 +1345,7 @@ aNode
 nodeValue
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1484,7 +1484,7 @@ txXPathNodeType
 ELEMENT_NODE
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1904,7 +1904,7 @@ txXPathNodeType
 ELEMENT_NODE
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4198,7 +4198,7 @@ nsId
 =
 kNameSpaceID_None
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

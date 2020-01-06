@@ -11829,7 +11829,7 @@ recent
 scroll
 origin
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

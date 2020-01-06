@@ -1230,7 +1230,7 @@ BroadcastListener
 nsWeakPtr
 mListener
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4364,13 +4364,13 @@ mPrefix
 int32_t
 mNamespaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mName
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4722,7 +4722,7 @@ present
 at
 all
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5146,7 +5146,7 @@ not
 there
 already
 !
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5411,7 +5411,7 @@ if
 entry
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7601,7 +7601,7 @@ nsAString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7728,7 +7728,7 @@ ErrorResult
 aRv
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7906,7 +7906,7 @@ element
 return
 NS_OK
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12627,7 +12627,7 @@ return
 rv
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

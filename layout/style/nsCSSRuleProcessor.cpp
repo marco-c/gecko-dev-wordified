@@ -520,7 +520,7 @@ true
 static
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1343,7 +1343,7 @@ Ex
 }
 cludingThis
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6298,7 +6298,7 @@ sSystemMetrics
 new
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -10700,7 +10700,7 @@ CSSPseudoClassType
 mozSystemMetric
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -2168,7 +2168,7 @@ ToLowerCase
 focusTagName
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

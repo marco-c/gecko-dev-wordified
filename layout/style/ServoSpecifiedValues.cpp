@@ -210,7 +210,7 @@ nsString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

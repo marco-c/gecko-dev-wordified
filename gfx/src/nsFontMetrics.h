@@ -1502,7 +1502,7 @@ gfxFontGroup
 >
 mFontGroup
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

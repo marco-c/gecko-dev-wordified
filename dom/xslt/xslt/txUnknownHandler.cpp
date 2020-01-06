@@ -681,7 +681,7 @@ mResultHandler
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

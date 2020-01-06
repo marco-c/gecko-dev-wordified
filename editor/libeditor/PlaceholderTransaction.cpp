@@ -985,7 +985,7 @@ if
 absorbingTransaction
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

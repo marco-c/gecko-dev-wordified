@@ -910,7 +910,7 @@ future
 if
 needed
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

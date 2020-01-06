@@ -901,7 +901,7 @@ return
 result
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

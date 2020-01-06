@@ -1793,7 +1793,7 @@ Truncate
 index
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

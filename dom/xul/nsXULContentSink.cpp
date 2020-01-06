@@ -2412,7 +2412,7 @@ aName
 int32_t
 nameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2677,7 +2677,7 @@ FlushText
 int32_t
 nameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

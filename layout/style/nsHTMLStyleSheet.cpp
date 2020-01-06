@@ -919,7 +919,7 @@ GetUnit
 eCSSUnit_Null
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

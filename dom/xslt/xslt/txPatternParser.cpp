@@ -738,7 +738,7 @@ Literal
 Literal
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1389,7 +1389,7 @@ colon
 return
 NS_ERROR_XPATH_PARSE_FAILURE
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1623,7 +1623,7 @@ nextToken
 /
 resolve
 QName
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -4833,7 +4833,7 @@ away
 during
 UnsetAttr
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5147,7 +5147,7 @@ IsEmpty
 )
 break
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -10565,7 +10565,7 @@ mSortState
 .
 sortKeys
 .
-Count
+Length
 (
 )
 ;

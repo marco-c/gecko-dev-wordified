@@ -1930,7 +1930,7 @@ if
 doc
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -14508,7 +14508,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

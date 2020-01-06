@@ -1815,7 +1815,7 @@ of
 the
 name
 .
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3954,7 +3954,7 @@ GetEventName
 (
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

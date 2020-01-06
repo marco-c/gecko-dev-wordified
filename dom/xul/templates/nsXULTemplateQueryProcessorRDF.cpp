@@ -6626,7 +6626,7 @@ tag
 tagstr
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7174,7 +7174,7 @@ subject
 subject
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7333,7 +7333,7 @@ object
 object
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7764,7 +7764,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7830,7 +7830,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

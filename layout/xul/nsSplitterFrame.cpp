@@ -5299,7 +5299,7 @@ GetXULMargin
 margin
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

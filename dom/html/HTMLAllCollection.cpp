@@ -548,7 +548,7 @@ aID
 (
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

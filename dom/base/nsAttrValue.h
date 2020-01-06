@@ -604,7 +604,7 @@ public
 typedef
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -582,7 +582,7 @@ RemoveDuplicatesInternal
 (
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -656,7 +656,7 @@ Element
 >
 mElement
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

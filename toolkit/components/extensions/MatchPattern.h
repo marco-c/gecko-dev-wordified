@@ -340,7 +340,7 @@ elem
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -368,7 +368,7 @@ aElem
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -445,7 +445,7 @@ nsAString
 aElem
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -472,7 +472,7 @@ nsAString
 aElem
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -848,7 +848,7 @@ nsIURI
 mURINoRef
 ;
 mutable
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

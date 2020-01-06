@@ -6451,7 +6451,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7704,7 +7704,7 @@ aNode
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -21377,7 +21377,7 @@ use
 for
 list
 items
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -28667,7 +28667,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -29220,7 +29220,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -46058,7 +46058,7 @@ if
 isEmptyNode
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -58199,7 +58199,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

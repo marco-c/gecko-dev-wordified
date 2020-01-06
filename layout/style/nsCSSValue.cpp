@@ -6081,7 +6081,7 @@ mUnit
 eCSSUnit_Ident
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

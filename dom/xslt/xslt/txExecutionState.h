@@ -430,7 +430,7 @@ mFrame
 int32_t
 mModeNsId
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

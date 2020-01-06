@@ -449,7 +449,7 @@ nsXULTemplateQueryProcessorRDF
 *
 mProcessor
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1554,7 +1554,7 @@ mSimpleRuleMemberTest
 the
 reference
 variable
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

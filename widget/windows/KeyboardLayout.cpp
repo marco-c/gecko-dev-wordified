@@ -12280,7 +12280,7 @@ aEventCommand
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

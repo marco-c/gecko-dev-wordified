@@ -7207,7 +7207,7 @@ element
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7401,7 +7401,7 @@ element
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7920,7 +7920,7 @@ nsIDOMNode
 aNewNode
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -12163,7 +12163,7 @@ sourceElement
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -25847,7 +25847,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -25909,7 +25909,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

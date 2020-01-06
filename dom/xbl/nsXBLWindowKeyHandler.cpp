@@ -2775,7 +2775,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4587,7 +4587,7 @@ return
 false
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

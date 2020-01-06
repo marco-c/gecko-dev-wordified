@@ -11310,7 +11310,7 @@ opposite
 of
 current
 type
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
