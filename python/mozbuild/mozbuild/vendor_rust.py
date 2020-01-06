@@ -532,8 +532,11 @@ self
 .
 repository
 .
-get_modified_files
+get_changed_files
 (
+'
+M
+'
 )
 if
 os
@@ -2910,8 +2913,11 @@ self
 .
 repository
 .
-get_added_files
+get_changed_files
 (
+'
+A
+'
 )
 :
             

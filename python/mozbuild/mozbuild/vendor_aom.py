@@ -1938,8 +1938,11 @@ self
 .
 repository
 .
-get_modified_files
+get_changed_files
 (
+'
+M
+'
 )
         
 if
