@@ -2771,7 +2771,7 @@ if
 qm
 )
 {
-FailOnNonOwningThread
+Fail
 (
 )
 ;
@@ -2803,7 +2803,7 @@ rv
 )
 )
 {
-FailOnNonOwningThread
+Fail
 (
 )
 ;
