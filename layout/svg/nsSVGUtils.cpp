@@ -7370,6 +7370,17 @@ gfxMatrix
 )
 ;
 }
+matrix
+=
+clipContent
+-
+>
+PrependLocalTransformsTo
+(
+matrix
+eUserSpaceToParent
+)
+;
 bbox
 =
 clipPathFrame
