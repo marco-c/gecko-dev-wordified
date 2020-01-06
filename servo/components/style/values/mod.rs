@@ -797,6 +797,7 @@ Debug
 Eq
 Hash
 PartialEq
+ToComputedValue
 )
 ]
 #
@@ -1056,6 +1057,7 @@ derive
 (
 Clone
 Debug
+ToComputedValue
 )
 ]
 #

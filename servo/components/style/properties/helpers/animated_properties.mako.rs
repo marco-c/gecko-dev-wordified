@@ -642,7 +642,6 @@ computed
 ClipRect
 Context
 ComputedUrl
-ComputedValueAsSpecified
 }
 ;
 use
@@ -1847,6 +1846,7 @@ Eq
 Hash
 PartialEq
 ToCss
+ToComputedValue
 )
 ]
 pub
@@ -1929,12 +1929,6 @@ Unsupported
 (
 CustomIdent
 )
-}
-impl
-ComputedValueAsSpecified
-for
-TransitionProperty
-{
 }
 impl
 TransitionProperty

@@ -196,7 +196,10 @@ values
 specified
 :
 :
+{
 LengthOrPercentage
+Integer
+}
 ;
 /
 /
@@ -1018,6 +1021,7 @@ impl
 TrackRepeat
 <
 LengthOrPercentage
+Integer
 >
 {
 fn
@@ -1050,10 +1054,7 @@ t
 Result
 <
 (
-TrackRepeat
-<
-LengthOrPercentage
->
+Self
 RepeatType
 )
 ParseError
@@ -1570,6 +1571,7 @@ for
 TrackList
 <
 LengthOrPercentage
+Integer
 >
 {
 fn
@@ -2323,6 +2325,7 @@ for
 TrackList
 <
 LengthOrPercentage
+Integer
 >
 {
 type
@@ -2334,6 +2337,10 @@ computed
 :
 :
 LengthOrPercentage
+computed
+:
+:
+Integer
 >
 ;
 #
@@ -3052,6 +3059,7 @@ for
 GridTemplateComponent
 <
 LengthOrPercentage
+Integer
 >
 {
 /
@@ -3147,6 +3155,7 @@ impl
 GridTemplateComponent
 <
 LengthOrPercentage
+Integer
 >
 {
 /

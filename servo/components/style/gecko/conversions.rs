@@ -229,6 +229,7 @@ computed
 :
 :
 {
+Integer
 LengthOrPercentage
 LengthOrPercentageOrAuto
 Percentage
@@ -6538,6 +6539,7 @@ impl
 TrackListValue
 <
 LengthOrPercentage
+Integer
 >
 {
 /

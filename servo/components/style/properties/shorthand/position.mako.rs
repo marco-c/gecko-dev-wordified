@@ -1381,7 +1381,7 @@ line
 GridLine
 :
 :
-default
+auto
 (
 )
 ;
@@ -1697,7 +1697,7 @@ this
 GridLine
 :
 :
-default
+auto
 (
 )
 ;
