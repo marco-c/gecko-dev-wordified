@@ -7229,7 +7229,7 @@ len
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

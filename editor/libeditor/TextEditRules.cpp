@@ -1787,7 +1787,7 @@ from
 working
 .
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )
@@ -4527,7 +4527,7 @@ selOffset
 don
 '
 t
-spaz
+change
 my
 selection
 in
@@ -4538,7 +4538,7 @@ mTextEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )
@@ -5100,13 +5100,13 @@ NS_OK
 don
 '
 t
-spaz
+change
 my
 selection
 in
 subtransactions
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 textEditor
 )
@@ -7733,7 +7733,7 @@ br
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )

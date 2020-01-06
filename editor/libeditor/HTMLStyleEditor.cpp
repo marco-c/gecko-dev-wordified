@@ -745,7 +745,7 @@ this
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )
@@ -7911,7 +7911,7 @@ this
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )
@@ -9020,7 +9020,7 @@ this
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

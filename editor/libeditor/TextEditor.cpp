@@ -4247,13 +4247,13 @@ NS_ERROR_NOT_INITIALIZED
 don
 '
 t
-spaz
+change
 my
 selection
 in
 subtransactions
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

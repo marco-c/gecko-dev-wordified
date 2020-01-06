@@ -3014,7 +3014,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -8847,7 +8847,7 @@ mListenerEnabled
 don
 '
 t
-spaz
+change
 my
 selection
 in
@@ -8858,7 +8858,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -16055,7 +16055,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -18674,7 +18674,7 @@ NameAtom
 }
 }
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )
@@ -23937,7 +23937,7 @@ htmlEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )
@@ -41407,7 +41407,7 @@ our
 selection
 !
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )

@@ -9608,7 +9608,7 @@ insert
 an
 nbsp
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -11909,7 +11909,7 @@ insert
 a
 space
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -12174,7 +12174,7 @@ ASCII
 ws
 run
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -12419,7 +12419,7 @@ insert
 a
 space
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -12717,7 +12717,7 @@ insert
 a
 space
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
