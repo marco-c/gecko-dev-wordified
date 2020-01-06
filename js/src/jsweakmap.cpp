@@ -928,9 +928,8 @@ asTenured
 (
 )
 .
-isMarked
+isMarkedAny
 (
-BLACK
 )
 &
 &
@@ -942,9 +941,8 @@ asTenured
 (
 )
 .
-isMarked
+isMarkedGray
 (
-GRAY
 )
 )
 continue

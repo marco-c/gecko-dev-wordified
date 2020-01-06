@@ -4505,9 +4505,8 @@ return
 tc
 -
 >
-isMarked
+isMarkedAny
 (
-BLACK
 )
 &
 &
@@ -4515,9 +4514,8 @@ BLACK
 tc
 -
 >
-isMarked
+isMarkedGray
 (
-GRAY
 )
 ;
 }
@@ -4548,9 +4546,8 @@ isGray
 tc
 -
 >
-isMarked
+isMarkedGray
 (
-GRAY
 )
 ;
 MOZ_ASSERT_IF
@@ -4559,9 +4556,8 @@ isGray
 tc
 -
 >
-isMarked
+isMarkedAny
 (
-BLACK
 )
 )
 ;

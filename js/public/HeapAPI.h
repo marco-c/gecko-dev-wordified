@@ -464,8 +464,8 @@ as
 follows
 :
 *
-BLACK_BIT
-GRAY_OR_BLACK_BIT
+BlackBit
+GrayOrBlackBit
 color
 *
 0

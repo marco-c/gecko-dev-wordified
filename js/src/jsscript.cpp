@@ -23054,12 +23054,8 @@ asTenured
 (
 )
 .
-isMarked
+isMarkedGray
 (
-gc
-:
-:
-GRAY
 )
 )
 ;

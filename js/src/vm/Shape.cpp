@@ -9918,12 +9918,8 @@ if
 existingShape
 -
 >
-isMarked
+isMarkedGray
 (
-gc
-:
-:
-GRAY
 )
 )
 UnmarkGrayShapeRecursively
@@ -9973,7 +9969,7 @@ MOZ_ASSERT
 parent
 -
 >
-isMarked
+isMarkedAny
 (
 )
 )
@@ -10166,7 +10162,7 @@ parent
 parent
 -
 >
-isMarked
+isMarkedAny
 (
 )
 )

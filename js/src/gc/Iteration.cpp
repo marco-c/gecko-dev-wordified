@@ -815,9 +815,8 @@ asTenured
 (
 )
 .
-isMarked
+isMarkedGray
 (
-GRAY
 )
 )
 cellCallback

@@ -307,12 +307,8 @@ if
 (
 tenured
 .
-isMarked
+isMarkedAny
 (
-gc
-:
-:
-BLACK
 )
 |
 |
