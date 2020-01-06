@@ -12467,7 +12467,10 @@ rv
 {
 mResizeEvent
 =
+Move
+(
 event
+)
 ;
 SetNeedStyleFlush
 (
@@ -33780,7 +33783,10 @@ return
 }
 mSynthMouseMoveEvent
 =
+Move
+(
 ev
+)
 ;
 }
 }
@@ -38148,7 +38154,10 @@ rv
 {
 mUpdateApproximateFrameVisibilityEvent
 =
+Move
+(
 event
+)
 ;
 }
 }
