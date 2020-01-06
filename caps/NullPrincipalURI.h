@@ -329,10 +329,13 @@ Init
 (
 )
 ;
-nsAutoCStringN
-<
+char
+mPathBytes
+[
 NSID_LENGTH
->
+]
+;
+nsFixedCString
 mPath
 ;
 }
