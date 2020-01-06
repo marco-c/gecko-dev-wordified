@@ -6038,6 +6038,7 @@ exists
 .
 *
 /
+inline
 nsIFrame
 *
 GetFlattenedTreeParentPrimaryFrame
