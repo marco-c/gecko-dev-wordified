@@ -456,8 +456,10 @@ aPrincipal
 ;
 mResource
 =
-new
+MakeUnique
+<
 MediaSourceResource
+>
 (
 )
 ;

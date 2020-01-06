@@ -417,7 +417,7 @@ return
 mEnded
 ;
 }
-RefPtr
+UniquePtr
 <
 MediaSourceResource
 >
