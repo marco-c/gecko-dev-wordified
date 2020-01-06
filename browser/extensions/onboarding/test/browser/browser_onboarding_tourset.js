@@ -100,7 +100,7 @@ onboarding
 -
 overlay
 -
-icon
+button
 "
 {
 }
@@ -403,7 +403,7 @@ onboarding
 -
 overlay
 -
-icon
+button
 "
 {
 }
@@ -706,7 +706,7 @@ onboarding
 -
 overlay
 -
-icon
+button
 "
 {
 }

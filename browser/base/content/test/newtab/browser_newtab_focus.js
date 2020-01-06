@@ -92,8 +92,10 @@ so
 there
 would
 be
-2
+3
 more
+overlay
+button
 notification
 close
 button
@@ -249,7 +251,7 @@ onbardingEnabled
 FOCUS_COUNT
 +
 =
-2
+3
 ;
 await
 promiseTourNotificationOpened
@@ -315,7 +317,7 @@ onbardingEnabled
 expectedCount
 +
 =
-2
+3
 ;
 }
 countFocus
