@@ -190,6 +190,10 @@ log
 ;
 extern
 crate
+metrics
+;
+extern
+crate
 msg
 ;
 extern

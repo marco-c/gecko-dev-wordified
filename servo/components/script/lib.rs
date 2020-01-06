@@ -390,6 +390,10 @@ extern
 crate
 log
 ;
+extern
+crate
+metrics
+;
 #
 [
 macro_use
