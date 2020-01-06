@@ -57509,10 +57509,9 @@ Intersect
 (
 mList
 .
-GetClippedBoundsWithRespectToASR
+GetBounds
 (
 aBuilder
-mActiveScrolledRoot
 )
 )
 ;
