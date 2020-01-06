@@ -993,7 +993,7 @@ aOrigin
 ;
 clientDataObject
 .
-mHashAlg
+mHashAlgorithm
 .
 AssignLiteral
 (
@@ -2605,7 +2605,7 @@ a
 <
 aOptions
 .
-mParameters
+mPubKeyCredParams
 .
 Length
 (
@@ -2667,7 +2667,7 @@ if
 (
 aOptions
 .
-mParameters
+mPubKeyCredParams
 [
 a
 ]
@@ -2758,7 +2758,7 @@ GetAlgorithmName
 (
 aOptions
 .
-mParameters
+mPubKeyCredParams
 [
 a
 ]
@@ -2809,7 +2809,7 @@ mType
 =
 aOptions
 .
-mParameters
+mPubKeyCredParams
 [
 a
 ]
@@ -2911,7 +2911,7 @@ IsEmpty
 !
 aOptions
 .
-mParameters
+mPubKeyCredParams
 .
 IsEmpty
 (
@@ -3415,7 +3415,7 @@ s
 :
 aOptions
 .
-mExcludeList
+mExcludeCredentials
 )
 {
 WebAuthnScopedCredentialDescriptor
@@ -4338,7 +4338,7 @@ if
 (
 aOptions
 .
-mAllowList
+mAllowCredentials
 .
 Length
 (
@@ -4378,7 +4378,7 @@ s
 :
 aOptions
 .
-mAllowList
+mAllowCredentials
 )
 {
 WebAuthnScopedCredentialDescriptor
