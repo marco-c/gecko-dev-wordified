@@ -1815,10 +1815,12 @@ WriteParam
 aMsg
 static_cast
 <
+const
 mozilla
 :
 :
 WidgetPointerHelper
+&
 >
 (
 aParam
