@@ -1264,6 +1264,9 @@ InstallCoverageSignalHandlers
 (
 )
 {
+#
+ifndef
+XP_WIN
 fprintf
 (
 stderr
@@ -1400,6 +1403,8 @@ handler
 "
 )
 ;
+#
+endif
 }
 #
 endif
