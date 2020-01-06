@@ -70,6 +70,12 @@ distutils
 spawn
 import
 find_executable
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozpack
 .
@@ -303,6 +309,15 @@ return
 [
 ]
     
+root
+=
+lintargs
+[
+'
+root
+'
+]
+    
 pattern
 =
 "
@@ -316,6 +331,17 @@ py
     
 exclude
 =
+[
+mozpath
+.
+join
+(
+root
+e
+)
+for
+e
+in
 lintargs
 .
 get
@@ -326,6 +352,7 @@ exclude
 [
 ]
 )
+]
     
 files
 =
@@ -337,6 +364,15 @@ path
 in
 paths
 :
+        
+path
+=
+mozpath
+.
+normsep
+(
+path
+)
         
 if
 os
@@ -358,6 +394,44 @@ path
             
 continue
         
+ignore
+=
+[
+e
+[
+len
+(
+path
+)
+:
+]
+.
+lstrip
+(
+'
+/
+'
+)
+for
+e
+in
+exclude
+                  
+if
+mozpath
+.
+commonprefix
+(
+(
+path
+e
+)
+)
+=
+=
+path
+]
+        
 finder
 =
 FileFinder
@@ -365,7 +439,7 @@ FileFinder
 path
 ignore
 =
-exclude
+ignore
 )
         
 files
