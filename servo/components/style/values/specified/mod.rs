@@ -499,7 +499,10 @@ self
 transform
 :
 :
+{
+TimingFunction
 TransformOrigin
+}
 ;
 #
 [
