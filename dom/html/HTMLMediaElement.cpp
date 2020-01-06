@@ -1080,9 +1080,11 @@ const
 double
 MIN_PLAYBACKRATE
 =
-0
+1
 .
-25
+0
+/
+16
 ;
 /
 /
@@ -1096,7 +1098,7 @@ const
 double
 MAX_PLAYBACKRATE
 =
-5
+16
 .
 0
 ;
