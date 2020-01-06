@@ -374,9 +374,6 @@ testNestedObject
 {
 }
 "
-"
-Object
-"
 )
 )
 ;
