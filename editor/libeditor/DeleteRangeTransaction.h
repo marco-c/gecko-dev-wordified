@@ -275,6 +275,9 @@ nsINode
 aNode
 int32_t
 aStartOffset
+nsIContent
+*
+aChildAtStartOffset
 int32_t
 aEndOffset
 )
