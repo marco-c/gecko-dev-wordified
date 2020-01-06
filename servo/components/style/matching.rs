@@ -4240,18 +4240,6 @@ Unvisited
 cascade_inputs
 )
 ;
-if
-!
-context
-.
-shared
-.
-traversal_flags
-.
-for_animation_only
-(
-)
-{
 result
 |
 =
@@ -4268,7 +4256,6 @@ Visited
 cascade_inputs
 )
 ;
-}
 result
 }
 /
