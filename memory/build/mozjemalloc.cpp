@@ -4088,8 +4088,10 @@ uses
 arena_t
 '
 s
-runs_avail
 tree
+or
+available
+runs
 .
 *
 2
@@ -4744,8 +4746,10 @@ the
 arena
 '
 s
-chunks_dirty
 tree
+of
+dirty
+chunks
 .
 *
 /
@@ -5267,7 +5271,7 @@ defined
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 )
 uint32_t
-magic
+mMagic
 ;
 #
 define
@@ -5291,10 +5295,10 @@ locked
 *
 /
 malloc_spinlock_t
-lock
+mLock
 ;
 arena_stats_t
-stats
+mStats
 ;
 /
 *
@@ -5313,7 +5317,7 @@ manages
 *
 /
 arena_chunk_tree_t
-chunks_dirty
+mChunksDirty
 ;
 #
 ifdef
@@ -5348,7 +5352,7 @@ DoublyLinkedList
 <
 arena_chunk_t
 >
-chunks_madvised
+mChunksMAdvised
 ;
 #
 endif
@@ -5439,7 +5443,7 @@ inadequate
 /
 arena_chunk_t
 *
-spare
+mSpare
 ;
 /
 *
@@ -5496,7 +5500,7 @@ arena
 *
 /
 size_t
-ndirty
+mNumDirty
 ;
 /
 *
@@ -5505,12 +5509,12 @@ Maximum
 value
 allowed
 for
-ndirty
+mNumDirty
 .
 *
 /
 size_t
-dirty_max
+mMaxDirty
 ;
 /
 *
@@ -5546,12 +5550,12 @@ allocation
 *
 /
 arena_avail_tree_t
-runs_avail
+mRunsAvail
 ;
 /
 *
 *
-bins
+mBins
 is
 used
 to
@@ -5579,7 +5583,7 @@ MALLOC_OPTIONS
 .
 *
 *
-bins
+mBins
 [
 i
 ]
@@ -5718,7 +5722,7 @@ size
 *
 /
 arena_bin_t
-bins
+mBins
 [
 1
 ]
@@ -17299,7 +17303,7 @@ arena_avail_tree_remove
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -17411,7 +17415,7 @@ arena_avail_tree_insert
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -17672,7 +17676,7 @@ endif
 arena
 -
 >
-stats
+mStats
 .
 committed
 +
@@ -17810,7 +17814,7 @@ ndirty
 arena
 -
 >
-ndirty
+mNumDirty
 -
 -
 ;
@@ -17965,7 +17969,7 @@ arena_chunk_tree_dirty_remove
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 chunk
 )
 ;
@@ -18125,7 +18129,7 @@ CHUNK_MAP_MADVISED
 arena
 -
 >
-stats
+mStats
 .
 mapped
 +
@@ -18331,7 +18335,7 @@ endif
 arena
 -
 >
-stats
+mStats
 .
 committed
 +
@@ -18345,8 +18349,10 @@ the
 run
 into
 the
-runs_avail
 tree
+of
+available
+runs
 .
 *
 /
@@ -18356,7 +18362,7 @@ arena_avail_tree_insert
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -18408,7 +18414,7 @@ if
 arena
 -
 >
-spare
+mSpare
 )
 {
 if
@@ -18416,7 +18422,7 @@ if
 arena
 -
 >
-spare
+mSpare
 -
 >
 ndirty
@@ -18433,23 +18439,23 @@ chunk
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 arena
 -
 >
-spare
+mSpare
 )
 ;
 arena
 -
 >
-ndirty
+mNumDirty
 -
 =
 arena
 -
 >
-spare
+mSpare
 -
 >
 ndirty
@@ -18457,7 +18463,7 @@ ndirty
 arena
 -
 >
-stats
+mStats
 .
 committed
 -
@@ -18465,7 +18471,7 @@ committed
 arena
 -
 >
-spare
+mSpare
 -
 >
 ndirty
@@ -18479,28 +18485,28 @@ if
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 ElementProbablyInList
 (
 arena
 -
 >
-spare
+mSpare
 )
 )
 {
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 remove
 (
 arena
 -
 >
-spare
+mSpare
 )
 ;
 }
@@ -18515,7 +18521,7 @@ void
 arena
 -
 >
-spare
+mSpare
 chunksize
 ARENA_CHUNK
 )
@@ -18523,7 +18529,7 @@ ARENA_CHUNK
 arena
 -
 >
-stats
+mStats
 .
 mapped
 -
@@ -18533,7 +18539,7 @@ chunksize
 arena
 -
 >
-stats
+mStats
 .
 committed
 -
@@ -18547,7 +18553,11 @@ arena_chunk_header_npages
 Remove
 run
 from
-runs_avail
+the
+tree
+of
+available
+runs
 so
 that
 the
@@ -18564,8 +18574,10 @@ flushing
 only
 uses
 the
-chunks_dirty
 tree
+of
+dirty
+chunks
 so
 leaving
 this
@@ -18590,7 +18602,7 @@ arena_avail_tree_remove
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -18604,7 +18616,7 @@ arena_chunk_header_npages
 arena
 -
 >
-spare
+mSpare
 =
 chunk
 ;
@@ -18689,7 +18701,7 @@ arena_avail_tree_nsearch
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 key
 )
@@ -18775,7 +18787,7 @@ if
 arena
 -
 >
-spare
+mSpare
 )
 {
 /
@@ -18793,12 +18805,12 @@ chunk
 arena
 -
 >
-spare
+mSpare
 ;
 arena
 -
 >
-spare
+mSpare
 =
 nullptr
 ;
@@ -18829,8 +18841,10 @@ the
 run
 into
 the
-runs_avail
 tree
+of
+available
+runs
 .
 *
 /
@@ -18840,7 +18854,7 @@ arena_avail_tree_insert
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -19009,7 +19023,7 @@ all
 arena
 -
 >
-dirty_max
+mMaxDirty
 ;
 #
 ifdef
@@ -19027,7 +19041,7 @@ link_dirty
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 chunk
 )
 {
@@ -19048,7 +19062,7 @@ link_dirty
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 chunk
 )
 MOZ_ASSERT
@@ -19059,7 +19073,7 @@ ndirty
 arena
 -
 >
-ndirty
+mNumDirty
 )
 ;
 #
@@ -19073,12 +19087,12 @@ all
 arena
 -
 >
-ndirty
+mNumDirty
 >
 arena
 -
 >
-dirty_max
+mMaxDirty
 )
 )
 ;
@@ -19131,7 +19145,7 @@ while
 arena
 -
 >
-ndirty
+mNumDirty
 >
 (
 dirty_max
@@ -19159,7 +19173,7 @@ arena_chunk_tree_dirty_last
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -19359,7 +19373,7 @@ npages
 arena
 -
 >
-ndirty
+mNumDirty
 -
 =
 npages
@@ -19399,7 +19413,7 @@ endif
 arena
 -
 >
-stats
+mStats
 .
 committed
 -
@@ -19453,7 +19467,7 @@ if
 arena
 -
 >
-ndirty
+mNumDirty
 <
 =
 (
@@ -19484,7 +19498,7 @@ arena_chunk_tree_dirty_remove
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 chunk
 )
 ;
@@ -19526,7 +19540,7 @@ if
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 ElementProbablyInList
 (
@@ -19537,7 +19551,7 @@ chunk
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 remove
 (
@@ -19548,7 +19562,7 @@ chunk
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 pushFront
 (
@@ -19775,7 +19789,7 @@ arena_chunk_tree_dirty_insert
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 chunk
 )
 ;
@@ -19791,7 +19805,7 @@ run_pages
 arena
 -
 >
-ndirty
+mNumDirty
 +
 =
 run_pages
@@ -19961,7 +19975,10 @@ pagesize_mask
 Remove
 successor
 from
-runs_avail
+tree
+of
+available
+runs
 ;
 the
 coalesced
@@ -19979,7 +19996,7 @@ arena_avail_tree_remove
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -20158,7 +20175,10 @@ pagesize_2pow
 Remove
 predecessor
 from
-runs_avail
+tree
+of
+available
+runs
 ;
 the
 coalesced
@@ -20176,7 +20196,7 @@ arena_avail_tree_remove
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -20285,7 +20305,10 @@ pagesize_mask
 *
 Insert
 into
-runs_avail
+tree
+of
+available
+runs
 now
 that
 coalescing
@@ -20300,7 +20323,7 @@ arena_avail_tree_insert
 arena
 -
 >
-runs_avail
+mRunsAvail
 &
 chunk
 -
@@ -20357,7 +20380,7 @@ chunk
 /
 *
 Enforce
-dirty_max
+mMaxDirty
 .
 *
 /
@@ -20366,12 +20389,12 @@ if
 arena
 -
 >
-ndirty
+mNumDirty
 >
 arena
 -
 >
-dirty_max
+mMaxDirty
 )
 arena_purge
 (
@@ -21856,7 +21879,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 ffs
 (
@@ -21957,7 +21980,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 ntbins
 +
@@ -21995,7 +22018,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 ntbins
 +
@@ -22037,7 +22060,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 if
@@ -22089,7 +22112,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 return
@@ -22099,7 +22122,7 @@ nullptr
 arena
 -
 >
-stats
+mStats
 .
 allocated_small
 +
@@ -22112,7 +22135,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 if
@@ -22199,7 +22222,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 ret
@@ -22229,7 +22252,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 return
@@ -22239,7 +22262,7 @@ nullptr
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 +
@@ -22252,7 +22275,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 if
@@ -22318,7 +22341,7 @@ MOZ_DIAGNOSTIC_ASSERT
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -22536,7 +22559,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 ret
@@ -22566,7 +22589,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 return
@@ -22739,7 +22762,7 @@ false
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 +
@@ -22752,7 +22775,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 if
@@ -23741,7 +23764,7 @@ chunk
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -23881,7 +23904,7 @@ chunk
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -24211,7 +24234,7 @@ chunk
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -25352,7 +25375,7 @@ run_mapelm
 arena
 -
 >
-stats
+mStats
 .
 allocated_small
 -
@@ -25419,7 +25442,7 @@ size
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 -
@@ -25521,7 +25544,7 @@ MOZ_DIAGNOSTIC_ASSERT
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -25533,7 +25556,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 pageind
@@ -25623,7 +25646,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -25722,7 +25745,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 arena_run_trim_tail
@@ -25742,7 +25765,7 @@ true
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 -
@@ -25757,7 +25780,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -25812,7 +25835,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -26001,7 +26024,7 @@ CHUNK_MAP_ALLOCATED
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 +
@@ -26016,7 +26039,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 return
@@ -26031,7 +26054,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 return
@@ -26181,7 +26204,7 @@ MOZ_DIAGNOSTIC_ASSERT
 arena
 -
 >
-magic
+mMagic
 =
 =
 ARENA_MAGIC
@@ -26815,7 +26838,7 @@ malloc_spin_init
 arena
 -
 >
-lock
+mLock
 )
 )
 return
@@ -26829,7 +26852,7 @@ memset
 arena
 -
 >
-stats
+mStats
 0
 sizeof
 (
@@ -26850,7 +26873,7 @@ arena_chunk_tree_dirty_new
 arena
 -
 >
-chunks_dirty
+mChunksDirty
 )
 ;
 #
@@ -26862,7 +26885,7 @@ new
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 )
 mozilla
 :
@@ -26879,14 +26902,14 @@ endif
 arena
 -
 >
-spare
+mSpare
 =
 nullptr
 ;
 arena
 -
 >
-ndirty
+mNumDirty
 =
 0
 ;
@@ -26921,7 +26944,7 @@ flexible
 arena
 -
 >
-dirty_max
+mMaxDirty
 =
 opt_dirty_max
 >
@@ -26934,7 +26957,7 @@ arena_avail_tree_new
 arena
 -
 >
-runs_avail
+mRunsAvail
 )
 ;
 /
@@ -26983,7 +27006,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 i
 ]
@@ -27072,7 +27095,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 i
 ]
@@ -27169,7 +27192,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 i
 ]
@@ -27250,7 +27273,7 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 arena
 -
 >
-magic
+mMagic
 =
 ARENA_MAGIC
 ;
@@ -30335,7 +30358,7 @@ arenas
 ]
 -
 >
-dirty_max
+mMaxDirty
 =
 opt_dirty_max
 ;
@@ -32079,7 +32102,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 arena_mapped
@@ -32087,7 +32110,7 @@ arena_mapped
 arena
 -
 >
-stats
+mStats
 .
 mapped
 ;
@@ -32109,7 +32132,7 @@ arena_committed
 arena
 -
 >
-stats
+mStats
 .
 committed
 <
@@ -32121,14 +32144,14 @@ arena_allocated
 arena
 -
 >
-stats
+mStats
 .
 allocated_small
 +
 arena
 -
 >
-stats
+mStats
 .
 allocated_large
 ;
@@ -32137,7 +32160,7 @@ arena_dirty
 arena
 -
 >
-ndirty
+mNumDirty
 <
 <
 pagesize_2pow
@@ -32169,7 +32192,7 @@ bin
 arena
 -
 >
-bins
+mBins
 [
 j
 ]
@@ -32284,7 +32307,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 MOZ_ASSERT
@@ -32761,7 +32784,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 while
@@ -32770,7 +32793,7 @@ while
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 isEmpty
 (
@@ -32784,7 +32807,7 @@ chunk
 arena
 -
 >
-chunks_madvised
+mChunksMAdvised
 .
 popFront
 (
@@ -32802,7 +32825,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -32964,7 +32987,7 @@ malloc_spin_lock
 arena
 -
 >
-lock
+mLock
 )
 ;
 arena_purge
@@ -32979,7 +33002,7 @@ malloc_spin_unlock
 arena
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -33199,7 +33222,7 @@ i
 ]
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -33289,7 +33312,7 @@ i
 ]
 -
 >
-lock
+mLock
 )
 ;
 }
@@ -33373,7 +33396,7 @@ i
 ]
 -
 >
-lock
+mLock
 )
 ;
 }
