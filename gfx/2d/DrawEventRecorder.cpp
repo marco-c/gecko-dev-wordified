@@ -127,6 +127,11 @@ DrawEventRecorderPrivate
 DrawEventRecorderPrivate
 (
 )
+:
+mExternalFonts
+(
+false
+)
 {
 }
 void

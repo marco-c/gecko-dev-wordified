@@ -445,6 +445,14 @@ ScaledFontCreation
 "
 ;
 case
+SCALEDFONTCREATIONBYINDEX
+:
+return
+"
+ScaledFontCreationByIndex
+"
+;
+case
 SCALEDFONTDESTRUCTION
 :
 return
