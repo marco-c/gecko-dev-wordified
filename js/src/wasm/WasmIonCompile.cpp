@@ -19568,6 +19568,7 @@ iter
 .
 unrecognizedOpcode
 (
+&
 op
 )
 ;
@@ -19606,7 +19607,7 @@ ensureBallast
 return
 false
 ;
-uint16_t
+OpBytes
 op
 ;
 if
@@ -19630,6 +19631,8 @@ false
 switch
 (
 op
+.
+b0
 )
 {
 case
@@ -21863,6 +21866,8 @@ Int32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -21907,6 +21912,8 @@ Int32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -22115,6 +22122,8 @@ I32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -22318,6 +22327,8 @@ Int64
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -22362,6 +22373,8 @@ Int64
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -22570,6 +22583,8 @@ I64
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -22905,6 +22920,8 @@ Float32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23261,6 +23278,8 @@ Double
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23357,6 +23376,8 @@ I32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23401,6 +23422,8 @@ I32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23437,6 +23460,8 @@ f
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23481,6 +23506,8 @@ I64
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23525,6 +23552,8 @@ I64
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23625,6 +23654,8 @@ Float32
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23753,6 +23784,8 @@ Double
 Op
 (
 op
+.
+b0
 )
 =
 =
@@ -23924,6 +23957,23 @@ uint16_t
 Op
 :
 :
+MozPrefix
+)
+:
+{
+switch
+(
+op
+.
+b1
+)
+{
+case
+uint16_t
+(
+MozOp
+:
+:
 TeeGlobal
 )
 :
@@ -23938,7 +23988,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32Min
@@ -23947,7 +23997,7 @@ I32Min
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32Max
@@ -23966,13 +24016,15 @@ MIRType
 :
 :
 Int32
-Op
+MozOp
 (
 op
+.
+b1
 )
 =
 =
-Op
+MozOp
 :
 :
 I32Max
@@ -23982,7 +24034,7 @@ I32Max
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32Neg
@@ -24010,7 +24062,7 @@ Int32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32BitNot
@@ -24031,7 +24083,7 @@ I32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32Abs
@@ -24059,7 +24111,7 @@ Int32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F32TeeStoreF64
@@ -24084,7 +24136,7 @@ Float64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64TeeStoreF32
@@ -24109,7 +24161,7 @@ Float32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32TeeStore8
@@ -24134,7 +24186,7 @@ Int8
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32TeeStore16
@@ -24159,7 +24211,7 @@ Int16
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I64TeeStore8
@@ -24184,7 +24236,7 @@ Int8
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I64TeeStore16
@@ -24209,7 +24261,7 @@ Int16
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I64TeeStore32
@@ -24234,7 +24286,7 @@ Int32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32TeeStore
@@ -24259,7 +24311,7 @@ Int32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I64TeeStore
@@ -24284,7 +24336,7 @@ Int64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F32TeeStore
@@ -24309,7 +24361,7 @@ Float32
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64TeeStore
@@ -24334,7 +24386,7 @@ Float64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Mod
@@ -24366,7 +24418,7 @@ false
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Sin
@@ -24391,7 +24443,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Cos
@@ -24416,7 +24468,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Tan
@@ -24441,7 +24493,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Asin
@@ -24466,7 +24518,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Acos
@@ -24491,7 +24543,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Atan
@@ -24516,7 +24568,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Exp
@@ -24541,7 +24593,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Log
@@ -24566,7 +24618,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Pow
@@ -24591,7 +24643,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F64Atan2
@@ -24616,7 +24668,7 @@ F64
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 OldCallIndirect
@@ -24643,7 +24695,7 @@ Atomics
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32AtomicsLoad
@@ -24660,7 +24712,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32AtomicsStore
@@ -24677,7 +24729,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32AtomicsBinOp
@@ -24694,7 +24746,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32AtomicsCompareExchange
@@ -24711,7 +24763,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32AtomicsExchange
@@ -24740,7 +24792,7 @@ SIGN
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 TYPE
@@ -24887,7 +24939,7 @@ DO
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 TYPE
@@ -24994,7 +25046,7 @@ ENUMERATE
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16Const
@@ -25011,7 +25063,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8Const
@@ -25028,7 +25080,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4Const
@@ -25045,7 +25097,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 F32x4Const
@@ -25062,7 +25114,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 B8x16Const
@@ -25079,7 +25131,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 B16x8Const
@@ -25096,7 +25148,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 B32x4Const
@@ -25113,7 +25165,7 @@ f
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16addSaturateU
@@ -25142,7 +25194,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16subSaturateU
@@ -25171,7 +25223,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16shiftRightByScalarU
@@ -25200,7 +25252,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16lessThanU
@@ -25229,7 +25281,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16lessThanOrEqualU
@@ -25258,7 +25310,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16greaterThanU
@@ -25287,7 +25339,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16greaterThanOrEqualU
@@ -25316,7 +25368,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I8x16extractLaneU
@@ -25345,7 +25397,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8addSaturateU
@@ -25374,7 +25426,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8subSaturateU
@@ -25403,7 +25455,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8shiftRightByScalarU
@@ -25432,7 +25484,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8lessThanU
@@ -25461,7 +25513,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8lessThanOrEqualU
@@ -25490,7 +25542,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8greaterThanU
@@ -25519,7 +25571,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8greaterThanOrEqualU
@@ -25548,7 +25600,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I16x8extractLaneU
@@ -25577,7 +25629,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4shiftRightByScalarU
@@ -25606,7 +25658,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4lessThanU
@@ -25635,7 +25687,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4lessThanOrEqualU
@@ -25664,7 +25716,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4greaterThanU
@@ -25693,7 +25745,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4greaterThanOrEqualU
@@ -25722,7 +25774,7 @@ Unsigned
 case
 uint16_t
 (
-Op
+MozOp
 :
 :
 I32x4fromFloat32x4U
@@ -25759,6 +25811,26 @@ iter
 .
 unrecognizedOpcode
 (
+&
+op
+)
+;
+}
+break
+;
+}
+default
+:
+return
+f
+.
+iter
+(
+)
+.
+unrecognizedOpcode
+(
+&
 op
 )
 ;

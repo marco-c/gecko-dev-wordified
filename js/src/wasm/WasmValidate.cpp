@@ -2020,7 +2020,7 @@ while
 true
 )
 {
-uint16_t
+OpBytes
 op
 ;
 if
@@ -2043,6 +2043,8 @@ nothing
 switch
 (
 op
+.
+b0
 )
 {
 case
@@ -4951,6 +4953,7 @@ iter
 .
 unrecognizedOpcode
 (
+&
 op
 )
 ;
@@ -7682,7 +7685,7 @@ InitExpr
 init
 )
 {
-uint16_t
+OpBytes
 op
 ;
 if
@@ -7713,6 +7716,8 @@ type
 switch
 (
 op
+.
+b0
 )
 {
 case
@@ -8110,7 +8115,7 @@ match
 "
 )
 ;
-uint16_t
+OpBytes
 end
 ;
 if
@@ -8126,6 +8131,8 @@ end
 |
 |
 end
+.
+b0
 !
 =
 uint16_t
