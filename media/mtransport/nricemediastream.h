@@ -723,6 +723,16 @@ std
 string
 codeword
 ;
+/
+/
+for
+RTCIceCandidatePairStats
+uint64_t
+bytes_sent
+;
+uint64_t
+bytes_recvd
+;
 }
 ;
 class

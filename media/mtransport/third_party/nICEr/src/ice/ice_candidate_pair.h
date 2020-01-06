@@ -416,6 +416,16 @@ combined
 foundations
 *
 /
+/
+/
+for
+RTCIceCandidatePairStats
+UINT8
+bytes_sent
+;
+UINT8
+bytes_recvd
+;
 nr_stun_client_ctx
 *
 stun_client
