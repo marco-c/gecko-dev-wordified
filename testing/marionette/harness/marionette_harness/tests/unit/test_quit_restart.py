@@ -1665,14 +1665,11 @@ marionette
 session_capabilities
 [
 "
-platformName
+moz
+:
+headless
 "
 ]
-!
-=
-"
-linux
-"
 :
             
 raise
@@ -1682,7 +1679,7 @@ SkipTest
 (
 "
 Bug
-1397612
+1390848
 -
 Hang
 of
