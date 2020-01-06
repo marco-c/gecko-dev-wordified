@@ -297,6 +297,11 @@ JSOP_LABEL
 \
 _
 (
+JSOP_ITERNEXT
+)
+\
+_
+(
 JSOP_POP
 )
 \

@@ -847,7 +847,7 @@ Used
 for
 jsop_iternext
 .
-Bailout_NonStringInputInvalidate
+Bailout_IterNextNonString
 /
 /
 Used
@@ -1288,11 +1288,11 @@ Bailout_OverflowInvalidate
 "
 ;
 case
-Bailout_NonStringInputInvalidate
+Bailout_IterNextNonString
 :
 return
 "
-Bailout_NonStringInputInvalidate
+Bailout_IterNextNonString
 "
 ;
 case
