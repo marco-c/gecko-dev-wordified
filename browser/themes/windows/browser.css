@@ -14676,12 +14676,14 @@ touch
 .
 *
 /
-menupopup
+#
+contentAreaContextMenu
 [
 touchmode
 ]
 menu
-menupopup
+#
+contentAreaContextMenu
 [
 touchmode
 ]
