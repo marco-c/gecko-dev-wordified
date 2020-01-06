@@ -1600,7 +1600,7 @@ forget
 )
 ;
 }
-CSSRuleList
+ServoCSSRuleList
 *
 ServoStyleSheet
 :
