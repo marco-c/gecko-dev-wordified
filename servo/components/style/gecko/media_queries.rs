@@ -1351,8 +1351,6 @@ self
 >
 MediaType
 {
-unsafe
-{
 /
 /
 Gecko
@@ -1415,7 +1413,6 @@ medium_to_use
 )
 )
 )
-}
 }
 /
 /

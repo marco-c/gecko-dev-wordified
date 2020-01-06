@@ -797,14 +797,11 @@ usize
 let
 header
 =
-unsafe
-{
 self
 .
 header_mut
 (
 )
-}
 ;
 header
 .

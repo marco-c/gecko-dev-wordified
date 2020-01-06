@@ -4660,8 +4660,6 @@ self
 &
 AtomicUsize
 {
-unsafe
-{
 mem
 :
 :
@@ -4672,7 +4670,6 @@ self
 .
 0
 )
-}
 }
 }
 /

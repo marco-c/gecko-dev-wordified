@@ -1994,8 +1994,6 @@ is_null
 )
 )
 ;
-unsafe
-{
 Atom
 (
 WeakAtom
@@ -2006,7 +2004,6 @@ new
 ptr
 )
 )
-}
 }
 /
 /

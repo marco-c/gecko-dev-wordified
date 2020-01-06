@@ -3849,8 +3849,6 @@ tasks
 =
 >
 {
-unsafe
-{
 el
 .
 update_animations
@@ -3858,7 +3856,6 @@ update_animations
 before_change_style
 tasks
 )
-}
 ;
 }
 #
@@ -3880,15 +3877,12 @@ tasks
 =
 >
 {
-unsafe
-{
 el
 .
 process_post_animation
 (
 tasks
 )
-}
 ;
 }
 }

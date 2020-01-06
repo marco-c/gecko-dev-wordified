@@ -1722,8 +1722,6 @@ self
 >
 Angle
 {
-unsafe
-{
 Angle
 :
 :
@@ -1738,7 +1736,6 @@ self
 .
 mUnit
 )
-}
 }
 /
 /
