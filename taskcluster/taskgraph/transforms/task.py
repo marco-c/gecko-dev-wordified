@@ -8746,31 +8746,35 @@ task_def
 )
 :
     
-del
 task
 [
 '
 extra
 '
 ]
-[
+.
+pop
+(
 '
 treeherder
 '
-]
+None
+)
     
-del
 task
 [
 '
 extra
 '
 ]
-[
+.
+pop
+(
 '
 treeherderEnv
 '
-]
+None
+)
     
 worker
 =
