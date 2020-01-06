@@ -550,6 +550,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 mPopupList
@@ -557,6 +560,7 @@ mPopupList
 DestroyFramesFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 /
@@ -622,6 +626,7 @@ nsBoxFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }
