@@ -201,10 +201,8 @@ aActor
 void
 StreamReady
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 )
 ;

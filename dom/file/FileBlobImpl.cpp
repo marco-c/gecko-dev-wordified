@@ -1256,10 +1256,6 @@ new
 SlicedInputStream
 (
 stream
-.
-forget
-(
-)
 mStart
 mLength
 )
