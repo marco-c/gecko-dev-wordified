@@ -1376,7 +1376,7 @@ expiry
 :
 cookie
 .
-expires
+expiry
 }
 ;
 }
