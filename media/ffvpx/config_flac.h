@@ -157,6 +157,16 @@ flac
 -
 disable
 -
+vdpau
+-
+-
+disable
+-
+crystalhd
+-
+-
+disable
+-
 asm
 "
 #
@@ -885,7 +895,7 @@ HAVE_FAST_64BIT
 #
 define
 HAVE_FAST_CLZ
-1
+0
 #
 define
 HAVE_FAST_CMOV
@@ -1721,7 +1731,7 @@ HAVE_VAAPI_X11
 #
 define
 HAVE_VDPAU_X11
-1
+0
 #
 define
 HAVE_WINRT
