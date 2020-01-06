@@ -365,9 +365,12 @@ dbg
 1
 )
 "
-(
-unavailable
-)
+ReferenceError
+:
+f
+is
+not
+defined
 "
 )
 ;
