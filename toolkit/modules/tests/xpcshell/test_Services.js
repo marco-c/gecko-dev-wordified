@@ -240,6 +240,16 @@ nsIConsoleService
 checkService
 (
 "
+contentPrefs
+"
+Ci
+.
+nsIContentPrefService
+)
+;
+checkService
+(
+"
 cookies
 "
 Ci
