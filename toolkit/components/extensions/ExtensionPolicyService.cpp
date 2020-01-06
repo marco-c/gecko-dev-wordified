@@ -1746,6 +1746,16 @@ if
 win
 )
 {
+if
+(
+win
+-
+>
+GetDocumentURI
+(
+)
+)
+{
 CheckContentScripts
 (
 win
@@ -1756,6 +1766,7 @@ get
 false
 )
 ;
+}
 nsIPrincipal
 *
 principal
@@ -1986,6 +1997,10 @@ equal
 ;
 if
 (
+!
+uri
+|
+|
 NS_FAILED
 (
 uri
