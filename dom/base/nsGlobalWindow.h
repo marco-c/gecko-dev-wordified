@@ -720,14 +720,9 @@ IdleRequestCallback
 class
 IncrementalRunnable
 ;
-#
-ifdef
-ENABLE_INTL_API
 class
 IntlUtils
 ;
-#
-endif
 class
 Location
 ;
@@ -5766,9 +5761,6 @@ nsString
 aLocales
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 mozilla
 :
 :
@@ -5787,8 +5779,6 @@ ErrorResult
 aRv
 )
 ;
-#
-endif
 protected
 :
 bool
@@ -13437,9 +13427,6 @@ mBeforeUnloadListenerCount
 Inner
 windows
 only
-#
-ifdef
-ENABLE_INTL_API
 RefPtr
 <
 mozilla
@@ -13452,8 +13439,6 @@ IntlUtils
 >
 mIntlUtils
 ;
-#
-endif
 friend
 class
 nsDOMScriptableHelper
