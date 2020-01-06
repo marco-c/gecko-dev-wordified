@@ -343,15 +343,16 @@ WorkerThread
 :
 nsThread
 (
-WrapNotNull
-(
-new
+MakeNotNull
+<
 ThreadEventQueue
 <
 mozilla
 :
 :
 EventQueue
+>
+*
 >
 (
 MakeUnique
@@ -362,7 +363,6 @@ mozilla
 EventQueue
 >
 (
-)
 )
 )
 nsThread
