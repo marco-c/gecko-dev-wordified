@@ -3311,7 +3311,7 @@ tabs
 for
 (
 let
-tab
+openedTab
 of
 openedTabs
 )
@@ -3321,7 +3321,7 @@ BrowserTestUtils
 .
 removeTab
 (
-tab
+openedTab
 )
 ;
 }
