@@ -521,6 +521,15 @@ aWebRenderEnabled
 )
 override
 ;
+NS_IMETHOD
+GetIsHeadless
+(
+bool
+*
+aIsHeadless
+)
+override
+;
 /
 /
 Initialization
