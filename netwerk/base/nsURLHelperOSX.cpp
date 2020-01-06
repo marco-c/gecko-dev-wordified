@@ -1202,7 +1202,7 @@ testRef
 ;
 possibleVolName
 .
-Insert
+InsertLiteral
 (
 "
 /

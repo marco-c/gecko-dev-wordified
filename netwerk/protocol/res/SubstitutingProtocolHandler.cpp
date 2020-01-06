@@ -2904,11 +2904,11 @@ URI
 .
 path
 .
-InsertLiteral
+Insert
 (
-"
+'
 .
-"
+'
 0
 )
 ;

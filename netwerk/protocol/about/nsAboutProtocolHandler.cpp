@@ -1056,7 +1056,7 @@ rv
 ;
 spec
 .
-Insert
+InsertLiteral
 (
 "
 moz

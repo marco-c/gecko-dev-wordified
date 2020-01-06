@@ -407,7 +407,7 @@ IsEmpty
 \
 result
 .
-Insert
+InsertLiteral
 (
 "
 |
@@ -420,7 +420,7 @@ Insert
 \
 result
 .
-Insert
+InsertLiteral
 (
 #
 name_
