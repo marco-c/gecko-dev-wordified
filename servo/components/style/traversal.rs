@@ -1228,6 +1228,7 @@ invalidate_style_if_needed
 (
 root
 shared_context
+None
 )
 ;
 /
@@ -5794,6 +5795,15 @@ child
 context
 .
 shared
+Some
+(
+&
+context
+.
+thread_local
+.
+stack_limit_checker
+)
 )
 ;
 }
