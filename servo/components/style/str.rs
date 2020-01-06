@@ -497,6 +497,14 @@ str
 bool
 )
 }
+/
+/
+/
+Character
+is
+ascii
+digit
+pub
 fn
 is_ascii_digit
 (
