@@ -173,6 +173,15 @@ include
 "
 mozilla
 /
+ServoFontFeatureValuesRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoKeyframesRule
 .
 h
@@ -762,6 +771,11 @@ CASE_RULE
 (
 IMPORT
 Import
+)
+CASE_RULE
+(
+FONT_FEATURE_VALUES
+FontFeatureValues
 )
 #
 undef
