@@ -613,6 +613,12 @@ macro
 Style
 mComputedValuesNonDom
 )
+\
+macro
+(
+Style
+mComputedValuesVisited
+)
 nsStyleSizes
 (
 )
