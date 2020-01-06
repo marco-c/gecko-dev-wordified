@@ -5776,10 +5776,6 @@ const
 nsTimingFunction
 &
 aTimingFunction
-const
-ServoComputedValues
-*
-aComputedValues
 nsTArray
 <
 Keyframe
@@ -5810,7 +5806,6 @@ get
 name
 &
 aTimingFunction
-aComputedValues
 &
 aKeyframes
 )

@@ -2595,7 +2595,6 @@ GetName
 (
 )
 timingFunction
-mComputedValues
 aKeyframes
 )
 ;
