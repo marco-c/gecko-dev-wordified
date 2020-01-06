@@ -129,6 +129,8 @@ browser
 locale
 /
 preferences
+-
+old
 /
 containers
 .
@@ -192,7 +194,7 @@ function
 gotoPref
 (
 "
-general
+privacy
 "
 )
 ;

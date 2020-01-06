@@ -240,8 +240,9 @@ info
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+applications
 "
+null
 {
 leaveOpen
 :

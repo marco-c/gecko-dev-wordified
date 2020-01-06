@@ -5769,7 +5769,7 @@ about
 :
 preferences
 #
-general
+applications
 changes
 /
 /
