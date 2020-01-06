@@ -7716,7 +7716,7 @@ hostName
 =
 alternativeURI
 .
-host
+displayHost
 ;
 /
 /
