@@ -7563,7 +7563,7 @@ unsafe
 bindings
 :
 :
-Gecko_NoteDirtyElement
+Gecko_NoteDirtySubtreeForInvalidation
 (
 doc_element
 .
