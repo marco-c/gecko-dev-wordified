@@ -131,6 +131,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging

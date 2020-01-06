@@ -129,6 +129,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 MP4Demuxer
 .
 h

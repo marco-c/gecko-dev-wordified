@@ -127,6 +127,13 @@ MediaDecoder
 .
 h
 "
+#
+include
+"
+GeneratedJNIWrappers
+.
+h
+"
 namespace
 mozilla
 {
