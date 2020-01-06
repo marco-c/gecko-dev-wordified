@@ -620,8 +620,7 @@ nuses
 =
 GetUseCount
 (
-script_
-offset
+pc
 )
 ;
 unsigned
@@ -629,8 +628,7 @@ ndefs
 =
 GetDefCount
 (
-script_
-offset
+pc
 )
 ;
 MOZ_ASSERT
