@@ -18169,6 +18169,16 @@ mAdvance
 =
 advance
 ;
+detailedGlyph
+.
+mXOffset
+=
+detailedGlyph
+.
+mYOffset
+=
+0
+;
 gfxShapedText
 :
 :

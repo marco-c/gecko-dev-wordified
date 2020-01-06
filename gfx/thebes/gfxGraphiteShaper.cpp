@@ -2347,9 +2347,7 @@ j
 d
 -
 >
-mOffset
-.
-y
+mYOffset
 =
 roundY
 ?
@@ -2382,6 +2380,13 @@ c
 baseGlyph
 )
 {
+d
+-
+>
+mXOffset
+=
+0
+;
 d
 -
 >
@@ -2427,9 +2432,7 @@ adv
 d
 -
 >
-mOffset
-.
-x
+mXOffset
 =
 roundX
 ?
