@@ -692,14 +692,6 @@ HandleObject
 proto
 )
 ;
-enum
-class
-ShouldUpdateTypes
-{
-Update
-DontUpdate
-}
-;
 extern
 ArrayObject
 *
