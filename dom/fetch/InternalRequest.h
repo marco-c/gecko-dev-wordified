@@ -810,14 +810,11 @@ return
 }
 aURL
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 #
 "
-)
 )
 ;
 aURL

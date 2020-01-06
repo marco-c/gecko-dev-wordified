@@ -11071,9 +11071,7 @@ MonthIndex
 ;
 sqlFragmentContainerBeginTime
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 months
@@ -11086,7 +11084,6 @@ utc
 1000000
 )
 "
-)
 )
 ;
 /
@@ -11136,9 +11133,7 @@ MonthIndex
 ;
 sqlFragmentContainerEndTime
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 months
@@ -11151,7 +11146,6 @@ utc
 1000000
 )
 "
-)
 )
 ;
 /

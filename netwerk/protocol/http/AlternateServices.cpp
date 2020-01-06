@@ -6625,9 +6625,7 @@ origin
 ;
 uri
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 /
@@ -6640,7 +6638,6 @@ http
 -
 opportunistic
 "
-)
 )
 ;
 NS_NewURI

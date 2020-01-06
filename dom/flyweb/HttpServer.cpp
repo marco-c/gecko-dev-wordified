@@ -5210,9 +5210,7 @@ n
 }
 head
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 \
@@ -5220,7 +5218,6 @@ r
 \
 n
 "
-)
 )
 ;
 mOutputBuffers
