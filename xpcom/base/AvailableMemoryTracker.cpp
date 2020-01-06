@@ -1960,7 +1960,7 @@ nsMemoryPressureWatcher
 :
 sFreeDirtyPages
 =
-false
+true
 ;
 /
 *
@@ -2070,7 +2070,7 @@ memory
 .
 free_dirty_pages
 "
-false
+true
 )
 ;
 }
