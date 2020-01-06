@@ -889,10 +889,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -912,7 +908,6 @@ IsForEventDelivery
 BuildDisplayListInternal
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;
@@ -925,7 +920,6 @@ set
 BuildDisplayListInternal
 (
 aBuilder
-aDirtyRect
 set
 )
 ;
@@ -953,10 +947,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -968,7 +958,6 @@ nsBlockFrame
 BuildDisplayList
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;

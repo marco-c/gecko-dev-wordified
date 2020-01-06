@@ -464,10 +464,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -692,7 +688,6 @@ mFrames
 FirstChild
 (
 )
-aDirtyRect
 set
 DISPLAY_CHILD_FORCE_PSEUDO_STACKING_CONTEXT
 )

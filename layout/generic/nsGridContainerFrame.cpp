@@ -13510,9 +13510,7 @@ mColFunctions
 mGridStyle
 -
 >
-GridTemplateColumns
-(
-)
+mGridTemplateColumns
 mGridStyle
 -
 >
@@ -13527,9 +13525,7 @@ mRowFunctions
 mGridStyle
 -
 >
-GridTemplateRows
-(
-)
+mGridTemplateRows
 mGridStyle
 -
 >
@@ -18178,9 +18174,7 @@ AddImplicitNamedAreas
 aStyle
 -
 >
-GridTemplateColumns
-(
-)
+mGridTemplateColumns
 .
 mLineNameLists
 )
@@ -18190,9 +18184,7 @@ AddImplicitNamedAreas
 aStyle
 -
 >
-GridTemplateRows
-(
-)
+mGridTemplateRows
 .
 mLineNameLists
 )
@@ -21829,9 +21821,7 @@ colLineNameMap
 gridStyle
 -
 >
-GridTemplateColumns
-(
-)
+mGridTemplateColumns
 numRepeatCols
 )
 ;
@@ -21904,9 +21894,7 @@ rowLineNameMap
 gridStyle
 -
 >
-GridTemplateRows
-(
-)
+mGridTemplateRows
 numRepeatRows
 )
 ;
@@ -23631,9 +23619,7 @@ mHasRepeatAuto
 gridStyle
 -
 >
-GridTemplateColumns
-(
-)
+mGridTemplateColumns
 .
 mIsAutoFill
 &
@@ -23824,9 +23810,7 @@ mHasRepeatAuto
 gridStyle
 -
 >
-GridTemplateRows
-(
-)
+mGridTemplateRows
 .
 mIsAutoFill
 &
@@ -45554,9 +45538,7 @@ gridReflowInput
 mGridStyle
 -
 >
-GridTemplateColumns
-(
-)
+mGridTemplateColumns
 ;
 nsTArray
 <
@@ -45698,9 +45680,7 @@ gridReflowInput
 mGridStyle
 -
 >
-GridTemplateRows
-(
-)
+mGridTemplateRows
 ;
 nsTArray
 <
@@ -47035,10 +47015,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -47060,7 +47036,6 @@ GetPrevInFlow
 DisplayOverflowContainers
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;
@@ -47166,7 +47141,6 @@ BuildDisplayListForChild
 (
 aBuilder
 child
-aDirtyRect
 aLists
 :
 :

@@ -1162,10 +1162,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1202,7 +1198,6 @@ aLists
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;

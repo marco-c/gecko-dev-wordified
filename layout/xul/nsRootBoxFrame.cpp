@@ -444,10 +444,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -928,10 +924,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -989,7 +981,12 @@ rect
 nsRect
 displayPortBase
 =
-aDirtyRect
+aBuilder
+-
+>
+GetDirtyRect
+(
+)
 .
 Intersect
 (
@@ -1070,7 +1067,6 @@ true
 BuildDisplayListForChildren
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;
