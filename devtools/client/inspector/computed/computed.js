@@ -1437,7 +1437,11 @@ doc
 getElementById
 (
 "
-propertyContainer
+computed
+-
+property
+-
+container
 "
 )
 ;
@@ -1465,7 +1469,7 @@ doc
 getElementById
 (
 "
-computedview
+computed
 -
 searchbox
 "
@@ -1480,7 +1484,7 @@ doc
 getElementById
 (
 "
-computedview
+computed
 -
 searchinput
 -
@@ -1703,7 +1707,7 @@ styleDocument
 getElementById
 (
 "
-computedview
+computed
 -
 no
 -
@@ -2532,6 +2536,8 @@ classList
 contains
 (
 "
+computed
+-
 property
 -
 view
@@ -2555,6 +2561,8 @@ classList
 contains
 (
 "
+computed
+-
 property
 -
 content
@@ -2633,6 +2641,8 @@ classes
 contains
 (
 "
+computed
+-
 link
 "
 )
@@ -2648,6 +2658,8 @@ classes
 contains
 (
 "
+computed
+-
 property
 -
 name
@@ -2660,6 +2672,8 @@ classes
 contains
 (
 "
+computed
+-
 property
 -
 value
@@ -2682,6 +2696,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 name
@@ -2699,6 +2715,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 value
@@ -2720,6 +2738,8 @@ classes
 contains
 (
 "
+computed
+-
 other
 -
 property
@@ -2751,6 +2771,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 name
@@ -2780,6 +2802,8 @@ classes
 contains
 (
 "
+computed
+-
 property
 -
 name
@@ -2800,6 +2824,8 @@ classes
 contains
 (
 "
+computed
+-
 property
 -
 value
@@ -2812,6 +2838,8 @@ classes
 contains
 (
 "
+computed
+-
 other
 -
 property
@@ -5727,6 +5755,8 @@ return
 isDark
 ?
 "
+computed
+-
 property
 -
 view
@@ -5736,6 +5766,8 @@ striped
 "
 :
 "
+computed
+-
 property
 -
 view
@@ -5744,9 +5776,9 @@ view
 }
 return
 "
-property
+computed
 -
-view
+property
 -
 hidden
 "
@@ -5803,6 +5835,8 @@ return
 isDark
 ?
 "
+computed
+-
 property
 -
 content
@@ -5812,6 +5846,8 @@ striped
 "
 :
 "
+computed
+-
 property
 -
 content
@@ -5820,9 +5856,9 @@ content
 }
 return
 "
-property
+computed
 -
-content
+property
 -
 hidden
 "
@@ -6075,6 +6111,8 @@ nameContainer
 className
 =
 "
+computed
+-
 property
 -
 name
@@ -6120,6 +6158,8 @@ matchedExpander
 className
 =
 "
+computed
+-
 expander
 theme
 -
@@ -6179,6 +6219,8 @@ classList
 add
 (
 "
+computed
+-
 property
 -
 name
@@ -6393,6 +6435,8 @@ valueContainer
 className
 =
 "
+computed
+-
 property
 -
 value
@@ -6439,6 +6483,8 @@ classList
 add
 (
 "
+computed
+-
 property
 -
 value
@@ -6847,14 +6893,14 @@ value
 colorSwatchClass
 :
 "
-computedview
+computed
 -
 colorswatch
 "
 colorClass
 :
 "
-computedview
+computed
 -
 color
 "
@@ -6958,6 +7004,8 @@ classList
 add
 (
 "
+computed
+-
 expandable
 "
 )
@@ -6974,6 +7022,8 @@ classList
 remove
 (
 "
+computed
+-
 expandable
 "
 )
@@ -7240,6 +7290,8 @@ _blank
 class
 :
 "
+computed
+-
 link
 theme
 -
@@ -7399,6 +7451,8 @@ fix
 get
 -
 selection
+computed
+-
 other
 -
 property
@@ -8377,14 +8431,14 @@ value
 colorSwatchClass
 :
 "
-computedview
+computed
 -
 colorswatch
 "
 colorClass
 :
 "
-computedview
+computed
 -
 color
 "

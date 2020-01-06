@@ -605,6 +605,8 @@ properties
 -
 wrapper
 .
+computed
+-
 property
 -
 view
@@ -621,6 +623,8 @@ propertyName
 }
 ]
 .
+computed
+-
 property
 -
 value

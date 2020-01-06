@@ -235,7 +235,7 @@ querySelector
 (
 "
 .
-computedview
+computed
 -
 color
 "
@@ -420,7 +420,7 @@ querySelector
 (
 "
 .
-computedview
+computed
 -
 colorswatch
 "
@@ -435,7 +435,7 @@ querySelector
 (
 "
 .
-computedview
+computed
 -
 color
 "
