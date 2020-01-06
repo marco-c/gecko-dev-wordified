@@ -270,7 +270,15 @@ usize
 }
 }
 impl
+<
+'
+de
+>
 Deserialize
+<
+'
+de
+>
 for
 Au
 {
@@ -280,6 +288,10 @@ deserialize
 D
 :
 Deserializer
+<
+'
+de
+>
 >
 (
 deserializer

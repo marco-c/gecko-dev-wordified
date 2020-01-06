@@ -686,10 +686,10 @@ vector
 /
 Equivalent
 to
-substracting
+subtracting
 the
 origin
-to
+from
 this
 point
 .

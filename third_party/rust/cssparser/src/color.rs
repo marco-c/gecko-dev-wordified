@@ -634,7 +634,15 @@ serde
 )
 ]
 impl
+<
+'
+de
+>
 Deserialize
+<
+'
+de
+>
 for
 RGBA
 {
@@ -662,6 +670,10 @@ where
 D
 :
 Deserializer
+<
+'
+de
+>
 {
 let
 (

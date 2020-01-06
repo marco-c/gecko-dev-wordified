@@ -2462,9 +2462,13 @@ location
 column
 +
 =
+(
 target
 -
 position
+)
+as
+u32
 ;
 self
 .
@@ -2990,7 +2994,7 @@ line
 pub
 line
 :
-usize
+u32
 /
 /
 /
@@ -3014,7 +3018,7 @@ line
 pub
 column
 :
-usize
+u32
 }
 fn
 next_token
