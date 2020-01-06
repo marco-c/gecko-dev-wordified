@@ -1084,8 +1084,12 @@ sub
 process
 .
 void
-GetChildLogName
+SetChildLogName
 (
+const
+char
+*
+varName
 const
 char
 *
