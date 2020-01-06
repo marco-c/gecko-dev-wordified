@@ -424,6 +424,12 @@ D
 IncrementalSweepThenFinish
 17
 )
+\
+D
+(
+CheckGrayMarking
+18
+)
 enum
 class
 ZealMode
@@ -447,7 +453,7 @@ undef
 ZEAL_MODE
 Limit
 =
-17
+18
 }
 ;
 }
