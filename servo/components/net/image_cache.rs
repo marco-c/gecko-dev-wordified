@@ -531,7 +531,7 @@ RGB8
 PixelFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 webrender_traits
@@ -540,7 +540,7 @@ webrender_traits
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 }
 }
 fn
@@ -748,7 +748,7 @@ webrender_traits
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 {
 premultiply
 (
@@ -903,7 +903,7 @@ webrender_traits
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 {

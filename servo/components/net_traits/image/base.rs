@@ -135,7 +135,7 @@ alpha
 bits
 per
 channel
-RGBA8
+BGRA8
 }
 #
 [
@@ -583,7 +583,7 @@ format
 PixelFormat
 :
 :
-RGBA8
+BGRA8
 bytes
 :
 IpcSharedMemory
