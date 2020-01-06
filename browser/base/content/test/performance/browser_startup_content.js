@@ -515,6 +515,7 @@ c
 {
 try
 {
+return
 Cm
 .
 isServiceInstantiatedByContractID
@@ -524,9 +525,6 @@ Ci
 .
 nsISupports
 )
-;
-return
-true
 ;
 }
 catch
