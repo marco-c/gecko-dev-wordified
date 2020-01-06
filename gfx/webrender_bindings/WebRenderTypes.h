@@ -430,6 +430,15 @@ RGBA
 +
 opaque
 flag
+case
+gfx
+:
+:
+SurfaceFormat
+:
+:
+R8G8B8A8
+:
 return
 Some
 (
