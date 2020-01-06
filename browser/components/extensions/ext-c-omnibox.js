@@ -114,7 +114,7 @@ omnibox
 onInputChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

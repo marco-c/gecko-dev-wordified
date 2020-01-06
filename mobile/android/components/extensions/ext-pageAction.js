@@ -1506,7 +1506,7 @@ pageAction
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

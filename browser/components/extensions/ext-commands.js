@@ -1772,7 +1772,7 @@ shortcut
 onCommand
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

@@ -755,7 +755,7 @@ result
 onClosed
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -843,7 +843,7 @@ api
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

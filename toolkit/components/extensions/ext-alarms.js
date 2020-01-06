@@ -810,7 +810,7 @@ cleared
 onAlarm
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

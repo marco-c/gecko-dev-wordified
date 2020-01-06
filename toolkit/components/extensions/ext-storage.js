@@ -390,7 +390,7 @@ context
 onChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
