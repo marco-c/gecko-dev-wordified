@@ -3348,7 +3348,7 @@ true
 /
 Enable
 the
-experimental
+new
 webconsole
 frontend
 #
@@ -3356,6 +3356,12 @@ if
 defined
 (
 NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+MOZ_DEV_EDITION
 )
 pref
 (
