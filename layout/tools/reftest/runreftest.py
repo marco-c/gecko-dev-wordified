@@ -2341,6 +2341,14 @@ startAfter
 =
 startAfter
         
+#
+Unconditionally
+update
+the
+e10s
+pref
+.
+        
 if
 options
 .
@@ -2361,13 +2369,20 @@ autostart
 ]
 =
 True
+        
+else
+:
             
 prefs
 [
 '
-extensions
+browser
 .
-e10sBlocksEnabling
+tabs
+.
+remote
+.
+autostart
 '
 ]
 =
