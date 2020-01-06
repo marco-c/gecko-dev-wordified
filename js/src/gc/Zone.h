@@ -2356,7 +2356,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneGroupOrGCTaskData
 <
 GrayRootVector
 >

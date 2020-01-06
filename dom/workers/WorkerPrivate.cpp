@@ -19850,13 +19850,6 @@ Derived
 >
 DOMEventTargetHelper
 )
-tmp
--
->
-AssertIsOnParentThread
-(
-)
-;
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 #
 ifdef
