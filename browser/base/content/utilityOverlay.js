@@ -3735,6 +3735,9 @@ false
 excludeUserContextId
 =
 0
+showDefaultTab
+=
+false
 useAccessKeys
 =
 true
@@ -3810,6 +3813,9 @@ item
 if
 (
 excludeUserContextId
+|
+|
+showDefaultTab
 )
 {
 let
