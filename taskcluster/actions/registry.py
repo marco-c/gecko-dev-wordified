@@ -75,6 +75,9 @@ Action
 [
     
 '
+name
+'
+'
 title
 '
 '
@@ -141,6 +144,7 @@ True
 def
 register_task_action
 (
+name
 title
 description
 order
@@ -273,6 +277,24 @@ Parameters
 -
 -
 -
+    
+name
+:
+str
+        
+An
+identifier
+for
+this
+action
+used
+by
+UIs
+to
+find
+the
+action
+.
     
 title
 :
@@ -609,6 +631,20 @@ disabled
 assert
 isinstance
 (
+name
+basestring
+)
+'
+name
+must
+be
+a
+string
+'
+    
+assert
+isinstance
+(
 title
 basestring
 )
@@ -712,6 +748,11 @@ append
 Action
 (
             
+name
+.
+strip
+(
+)
 title
 .
 strip
@@ -724,6 +765,7 @@ strip
 )
 order
 context
+            
 schema
 task_template_builder
         
@@ -744,17 +786,18 @@ register_task_template_builder
 def
 register_callback_action
 (
+name
 title
 symbol
 description
 order
 =
 10000
+                             
 context
 =
 [
 ]
-                             
 available
 =
 lambda
@@ -901,6 +944,24 @@ Parameters
 -
 -
 -
+    
+name
+:
+str
+        
+An
+identifier
+for
+this
+action
+used
+by
+UIs
+to
+find
+the
+action
+.
     
 title
 :
@@ -1414,6 +1475,7 @@ GECKO
         
 register_task_action
 (
+name
 title
 description
 order
@@ -2395,6 +2457,14 @@ kind
 '
 task
 '
+                
+'
+name
+'
+:
+action
+.
+name
                 
 '
 title
