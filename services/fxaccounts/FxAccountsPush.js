@@ -1198,6 +1198,8 @@ data
 collections
 )
 ;
+return
+;
 case
 ON_VERIFY_LOGIN_NOTIFICATION
 :
