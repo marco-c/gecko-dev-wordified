@@ -374,6 +374,9 @@ icon
 check
 "
 }
+shouldSendImpressionStats
+:
+true
 order
 :
 0
@@ -490,6 +493,9 @@ icon
 highlights
 "
 }
+shouldSendImpressionStats
+:
+false
 order
 :
 1
