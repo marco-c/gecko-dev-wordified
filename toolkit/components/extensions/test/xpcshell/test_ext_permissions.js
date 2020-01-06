@@ -3002,9 +3002,6 @@ activeTab
 alarms
 "
 "
-browsingData
-"
-"
 contextMenus
 "
 "
@@ -3012,16 +3009,6 @@ contextualIdentities
 "
 "
 cookies
-"
-"
-downloads
-.
-open
-"
-"
-downloads
-.
-shelf
 "
 "
 geckoProfiler
@@ -3034,9 +3021,6 @@ idle
 "
 "
 menus
-"
-"
-proxy
 "
 "
 storage
