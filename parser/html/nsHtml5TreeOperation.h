@@ -132,7 +132,6 @@ eTreeOpCreateElementNetwork
 eTreeOpCreateElementNotNetwork
 eTreeOpSetFormElement
 eTreeOpAppendText
-eTreeOpAppendIsindexPrompt
 eTreeOpFosterParentText
 eTreeOpAppendComment
 eTreeOpAppendCommentToDocument
