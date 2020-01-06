@@ -17582,7 +17582,7 @@ GetZoom
 ;
 if
 (
-CancelableBlockState
+InputBlockState
 *
 block
 =
@@ -27227,7 +27227,7 @@ velocity
 }
 }
 }
-CancelableBlockState
+InputBlockState
 *
 AsyncPanZoomController
 :

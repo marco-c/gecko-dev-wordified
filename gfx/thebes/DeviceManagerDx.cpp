@@ -3393,6 +3393,11 @@ multi
 )
 )
 ;
+if
+(
+multi
+)
+{
 multi
 -
 >
@@ -3401,6 +3406,7 @@ SetMultithreadProtected
 TRUE
 )
 ;
+}
 if
 (
 reuseDevice
