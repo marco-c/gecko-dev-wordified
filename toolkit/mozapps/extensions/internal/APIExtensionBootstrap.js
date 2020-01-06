@@ -159,6 +159,10 @@ extension
 -
 {
 namespace
+.
+toLowerCase
+(
+)
 }
 -
 api
