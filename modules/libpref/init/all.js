@@ -59446,9 +59446,10 @@ pointer
 events
 #
 if
+!
 defined
 (
-XP_WIN
+ANDROID
 )
 &
 &
