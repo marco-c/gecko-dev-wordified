@@ -6684,6 +6684,24 @@ br
 "
 )
                         
+#
+Signal
+verify
+time
+exceeded
+to
+break
+out
+of
+suites
+loop
+also
+.
+                        
+max_verify_time
+=
+0
+                        
 break
                     
 final_cmd
@@ -6981,6 +6999,27 @@ level
 =
 log_level
 )
+                
+if
+max_verify_time
+<
+=
+0
+:
+                    
+#
+Verification
+ran
+out
+of
+time
+detected
+in
+inner
+loop
+.
+                    
+break
         
 else
 :
