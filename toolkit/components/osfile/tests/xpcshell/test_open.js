@@ -143,9 +143,6 @@ error
 .
 try
 {
-let
-fd
-=
 await
 OS
 .
@@ -192,7 +189,10 @@ fail
 catch
 (
 err
+)
+{
 if
+(
 err
 instanceof
 OS
@@ -219,6 +219,13 @@ failed
 err
 )
 ;
+}
+else
+{
+throw
+err
+;
+}
 }
 /
 /
