@@ -1765,6 +1765,27 @@ write
 (
 data
 )
+        
+#
+Causes
+CI
+task
+to
+fail
+if
+files
+are
+missing
+Bugzilla
+annotation
+.
+        
+if
+missing_component
+:
+            
+return
+1
     
 SubCommand
 (
