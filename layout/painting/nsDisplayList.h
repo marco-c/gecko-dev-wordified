@@ -28611,6 +28611,16 @@ aDisplayListBuilder
 )
 override
 ;
+private
+:
+/
+/
+relative
+to
+mFrame
+nsRect
+mEffectsBounds
+;
 }
 ;
 /
