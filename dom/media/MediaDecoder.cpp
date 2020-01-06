@@ -1478,10 +1478,6 @@ NS_IMPL_ISUPPORTS
 MediaMemoryTracker
 nsIMemoryReporter
 )
-NS_IMPL_ISUPPORTS0
-(
-MediaDecoder
-)
 void
 MediaDecoder
 :
