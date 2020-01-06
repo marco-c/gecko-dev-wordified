@@ -3366,6 +3366,7 @@ gContextMenu
 .
 reloadFrame
 (
+event
 )
 ;
 "
