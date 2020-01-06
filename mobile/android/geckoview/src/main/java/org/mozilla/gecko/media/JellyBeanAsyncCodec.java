@@ -1737,6 +1737,8 @@ String
 mimeType
 )
 {
+try
+{
 return
 android
 .
@@ -1778,6 +1780,17 @@ CodecCapabilities
 FEATURE_TunneledPlayback
 )
 ;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+false
+;
+}
 }
 private
 void
