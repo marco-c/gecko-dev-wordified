@@ -176,7 +176,7 @@ now
 )
 ;
 yield
-selectNodeAndWaitForAnimations
+selectNode
 (
 "
 .
@@ -215,6 +215,14 @@ panel
 "
 )
 ;
+let
+onRendered
+=
+waitForAnimationTimelineRendering
+(
+panel
+)
+;
 inspector
 .
 sidebar
@@ -235,6 +243,9 @@ panel
 .
 UI_UPDATED_EVENT
 )
+;
+yield
+onRendered
 ;
 assertAnimationsDisplayed
 (

@@ -216,11 +216,10 @@ animationEl
 const
 state
 =
+getAnimationTimeBlocks
+(
 panel
-.
-animationsTimelineComponent
-.
-timeBlocks
+)
 [
 0
 ]
