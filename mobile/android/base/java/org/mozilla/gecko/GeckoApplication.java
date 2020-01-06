@@ -1992,6 +1992,12 @@ register
 (
 )
 ;
+IntentHelper
+.
+init
+(
+)
+;
 final
 EventListener
 listener
