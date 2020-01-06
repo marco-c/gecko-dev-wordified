@@ -188,6 +188,8 @@ d
 d
 %
 s
+%
+s
 }
 "
           
@@ -230,6 +232,19 @@ dataset
 label_index
              
 label_count
+             
+"
+|
+"
+.
+join
+(
+histogram
+.
+record_in_processes_enum
+(
+)
+)
              
 "
 true
