@@ -9425,7 +9425,7 @@ mWrBridge
 WebRenderBridgeParent
 :
 :
-CeateDestroyed
+CreateDestroyed
 (
 )
 ;

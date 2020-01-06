@@ -923,7 +923,7 @@ WebRenderBridgeParent
 WebRenderBridgeParent
 :
 :
-CeateDestroyed
+CreateDestroyed
 (
 )
 {
