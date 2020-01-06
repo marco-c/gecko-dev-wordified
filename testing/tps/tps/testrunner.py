@@ -3665,27 +3665,6 @@ tps
 )
 )
         
-self
-.
-extensions
-.
-append
-(
-os
-.
-path
-.
-join
-(
-self
-.
-extensionDir
-"
-mozmill
-"
-)
-)
-        
 #
 build
 the
