@@ -51348,7 +51348,7 @@ toStringStart
 =
 *
 /
-0
+begin
 directives
 StarGenerator
 SyncFunction
@@ -51378,6 +51378,15 @@ initWithEnclosingParseContext
 (
 outerpc
 Expression
+)
+;
+genFunbox
+-
+>
+setStart
+(
+tokenStream
+begin
 )
 ;
 SourceParseContext
