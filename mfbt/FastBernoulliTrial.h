@@ -3653,8 +3653,8 @@ mSkipCount
 .
 *
 *
-Jakub
-Oleson
+Jakob
+Olesen
 cleverly
 suggested
 flipping
