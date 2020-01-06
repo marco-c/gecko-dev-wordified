@@ -311,6 +311,15 @@ shared
 memory
 *
 /
+CAPTURE
+/
+*
+Data
+from
+a
+DrawTargetCapture
+*
+/
 }
 ;
 enum
