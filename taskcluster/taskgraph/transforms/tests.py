@@ -2595,6 +2595,20 @@ tree
 :
 basestring
 }
+            
+#
+an
+indexed
+docker
+image
+            
+{
+'
+indexed
+'
+:
+basestring
+}
         
 )
     
