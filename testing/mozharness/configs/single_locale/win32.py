@@ -312,16 +312,6 @@ py
 ]
     
 '
-tooltool_bootstrap
-'
-:
-"
-setup
-.
-sh
-"
-    
-'
 tooltool_manifest_src
 '
 :
@@ -336,7 +326,7 @@ manifests
 /
 win32
 /
-releng
+l10n
 .
 manifest
 '
