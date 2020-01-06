@@ -157,6 +157,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+KnowsCompositor
+.
+h
+"
+#
+include
+"
 libavutil
 /
 pixfmt
@@ -629,6 +640,9 @@ const
 VideoInfo
 &
 aConfig
+KnowsCompositor
+*
+aAllocator
 ImageContainer
 *
 aImageContainer
@@ -646,6 +660,10 @@ aConfig
 .
 mMimeType
 )
+)
+mImageAllocator
+(
+aAllocator
 )
 mImageContainer
 (
@@ -2405,6 +2423,7 @@ mFrame
 >
 height
 )
+mImageAllocator
 )
 ;
 if
