@@ -3473,7 +3473,10 @@ class
 Path
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 Path
 >
