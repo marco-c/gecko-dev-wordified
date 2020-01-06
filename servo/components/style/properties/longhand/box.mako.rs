@@ -8050,8 +8050,16 @@ name
 match
 input
 .
+try
+(
+|
+i
+|
+i
+.
 expect_function
 (
+)
 )
 {
 Ok
