@@ -268,6 +268,7 @@ libc
 {
 self
 size_t
+c_void
 }
 ;
 use
@@ -606,8 +607,12 @@ repr
 C
 )
 ]
+pub
 struct
 __CTFont
+(
+c_void
+)
 ;
 pub
 type
@@ -1161,6 +1166,8 @@ self
 >
 String
 {
+unsafe
+{
 let
 value
 =
@@ -1186,6 +1193,7 @@ name
 "
 )
 }
+}
 pub
 fn
 face_name
@@ -1196,6 +1204,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1222,6 +1232,7 @@ name
 "
 )
 }
+}
 pub
 fn
 unique_name
@@ -1232,6 +1243,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1258,6 +1271,7 @@ name
 "
 )
 }
+}
 pub
 fn
 postscript_name
@@ -1268,6 +1282,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1293,6 +1309,7 @@ name
 .
 "
 )
+}
 }
 pub
 fn
@@ -1677,7 +1694,6 @@ CGRect
 unsafe
 {
 let
-mut
 result
 =
 CTFontGetBoundingRectsForGlyphs
@@ -1946,6 +1962,8 @@ unwrap
 (
 )
 }
+unsafe
+{
 println
 !
 (
@@ -2042,6 +2060,7 @@ kCTFontPostScriptNameKey
 )
 )
 ;
+}
 }
 pub
 fn
@@ -2208,14 +2227,11 @@ normalized_slant
 [
 cfg
 (
-not
-(
 feature
 =
 "
-lion
+mountainlion
 "
-)
 )
 ]
 pub
@@ -2799,14 +2815,11 @@ CFStringRef
 [
 cfg
 (
-not
-(
 feature
 =
 "
-lion
+mountainlion
 "
-)
 )
 ]
 fn

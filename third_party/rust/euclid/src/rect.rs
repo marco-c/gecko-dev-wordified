@@ -225,6 +225,13 @@ with
 a
 unit
 .
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 TypedRect

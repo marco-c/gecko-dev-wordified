@@ -207,6 +207,12 @@ base
 CGFloat
 ;
 use
+libc
+:
+:
+c_void
+;
+use
 std
 :
 :
@@ -1292,8 +1298,12 @@ repr
 C
 )
 ]
+pub
 struct
 __CTFontDescriptor
+(
+c_void
+)
 ;
 pub
 type
@@ -1607,6 +1617,8 @@ self
 >
 String
 {
+unsafe
+{
 let
 value
 =
@@ -1637,6 +1649,7 @@ name
 "
 )
 }
+}
 pub
 fn
 font_name
@@ -1647,6 +1660,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1676,6 +1691,7 @@ name
 "
 )
 }
+}
 pub
 fn
 style_name
@@ -1686,6 +1702,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1716,6 +1734,7 @@ name
 "
 )
 }
+}
 pub
 fn
 display_name
@@ -1726,6 +1745,8 @@ self
 -
 >
 String
+{
+unsafe
 {
 let
 value
@@ -1756,6 +1777,7 @@ name
 "
 )
 }
+}
 pub
 fn
 font_path
@@ -1784,12 +1806,10 @@ kCTFontURLAttribute
 )
 ;
 if
-(
 value
 .
 is_null
 (
-)
 )
 {
 return
