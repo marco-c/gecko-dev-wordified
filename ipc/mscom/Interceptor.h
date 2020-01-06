@@ -953,7 +953,7 @@ iidTarget
 =
 __uuidof
 (
-aTargetInterface
+InterfaceT
 )
 ;
 STAUniquePtr
