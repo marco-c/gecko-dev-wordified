@@ -726,6 +726,17 @@ GetPerformance
 (
 )
 ;
+Performance
+*
+GetPerformanceIfExists
+(
+)
+const
+{
+return
+mPerformance
+;
+}
 already_AddRefed
 <
 Promise
