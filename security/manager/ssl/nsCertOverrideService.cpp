@@ -1787,6 +1787,10 @@ getter_AddRefs
 bufferedOutputStream
 )
 fileOutputStream
+.
+forget
+(
+)
 4096
 )
 ;

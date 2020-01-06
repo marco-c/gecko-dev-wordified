@@ -20792,6 +20792,10 @@ getter_AddRefs
 outStream
 )
 outStreamSink
+.
+forget
+(
+)
 4096
 )
 ;
