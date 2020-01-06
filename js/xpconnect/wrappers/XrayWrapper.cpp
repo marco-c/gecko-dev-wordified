@@ -9426,8 +9426,6 @@ cx
 DOMXrayTraits
 :
 :
-singleton
-.
 getTargetObject
 (
 wrapper
@@ -11335,8 +11333,6 @@ RootedObject
 target
 (
 cx
-singleton
-.
 getTargetObject
 (
 wrapper
@@ -14047,7 +14043,7 @@ RootedObject
 target
 (
 cx
-XrayTraits
+Traits
 :
 :
 getTargetObject
@@ -14786,7 +14782,7 @@ RootedObject
 target
 (
 cx
-XrayTraits
+Traits
 :
 :
 getTargetObject
@@ -15827,8 +15823,6 @@ cx
 Traits
 :
 :
-singleton
-.
 getTargetObject
 (
 wrapper
@@ -17925,8 +17919,6 @@ cx
 Traits
 :
 :
-singleton
-.
 getTargetObject
 (
 wrapper
