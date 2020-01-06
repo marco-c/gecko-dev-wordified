@@ -544,6 +544,10 @@ CurPosAttributeChanged
 nsIContent
 *
 aChild
+bool
+aDoScroll
+=
+true
 )
 ;
 void
