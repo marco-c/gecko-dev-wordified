@@ -553,8 +553,7 @@ inline
 void
 EmitBaselineTailCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &
@@ -806,10 +805,7 @@ masm
 .
 jump
 (
-ImmPtr
-(
 target
-)
 )
 ;
 }
@@ -817,8 +813,7 @@ inline
 void
 EmitIonTailCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &
@@ -910,8 +905,7 @@ inline
 void
 EmitBaselineCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &
@@ -941,10 +935,7 @@ masm
 .
 call
 (
-ImmPtr
-(
 target
-)
 )
 ;
 }

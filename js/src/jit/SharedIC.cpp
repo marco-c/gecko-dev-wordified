@@ -3570,8 +3570,7 @@ MacroAssembler
 masm
 )
 {
-uint8_t
-*
+TrampolinePtr
 code
 =
 cx
@@ -3684,8 +3683,7 @@ MOZ_ASSERT
 inStubFrame_
 )
 ;
-uint8_t
-*
+TrampolinePtr
 code
 =
 cx

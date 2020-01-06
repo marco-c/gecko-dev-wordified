@@ -29989,11 +29989,8 @@ jitRuntime
 lazyLinkStub
 (
 )
--
->
-raw
-(
-)
+.
+value
 ;
 baselineOrIonSkipArgCheck
 =
@@ -30008,11 +30005,8 @@ jitRuntime
 lazyLinkStub
 (
 )
--
->
-raw
-(
-)
+.
+value
 ;
 }
 else

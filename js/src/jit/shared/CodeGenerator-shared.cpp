@@ -342,7 +342,6 @@ recovers_
 )
 deoptTable_
 (
-nullptr
 )
 #
 ifdef
@@ -9285,8 +9284,7 @@ the
 VM
 function
 .
-uint8_t
-*
+TrampolinePtr
 wrapper
 =
 gen
@@ -9506,10 +9504,7 @@ masm
 .
 callJit
 (
-ImmPtr
-(
 wrapper
-)
 )
 ;
 markSafepointAt

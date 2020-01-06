@@ -27053,8 +27053,7 @@ pushArg
 scratch2
 )
 ;
-uint8_t
-*
+TrampolinePtr
 code
 =
 cx
@@ -27181,10 +27180,7 @@ masm
 .
 jump
 (
-ImmPtr
-(
 code
-)
 )
 ;
 }
