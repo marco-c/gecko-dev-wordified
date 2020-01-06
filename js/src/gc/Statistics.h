@@ -2215,7 +2215,7 @@ printStats
 )
 ;
 void
-reportLongestPhaseInMajorGC
+reportLongestPhase
 (
 const
 PhaseTimeTable
