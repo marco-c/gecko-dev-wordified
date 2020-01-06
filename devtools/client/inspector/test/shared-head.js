@@ -595,7 +595,7 @@ to
 use
 a
 custom
-throttle
+debounce
 function
 that
 can
@@ -628,9 +628,9 @@ ruleview
 .
 view
 .
-throttle
+debounce
 =
-manualThrottle
+manualDebounce
 (
 )
 ;
@@ -1381,7 +1381,7 @@ the
 use
 of
 the
-throttle
+debounce
 function
 from
 devtools
@@ -1418,7 +1418,7 @@ same
 function
 signature
 as
-throttle
+debounce
 but
 *
 the
@@ -1435,13 +1435,13 @@ flushing
 out
 any
 *
-throttled
+debounced
 calls
 .
 *
 /
 function
-manualThrottle
+manualDebounce
 (
 )
 {
@@ -1452,7 +1452,7 @@ calls
 ]
 ;
 function
-throttle
+debounce
 (
 func
 wait
@@ -1515,7 +1515,7 @@ arguments
 }
 ;
 }
-throttle
+debounce
 .
 flush
 =
@@ -1553,7 +1553,7 @@ calls
 }
 ;
 return
-throttle
+debounce
 ;
 }
 /

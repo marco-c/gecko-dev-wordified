@@ -1056,7 +1056,7 @@ _window
 ;
 view
 .
-throttle
+debounce
 .
 flush
 (
