@@ -9367,7 +9367,7 @@ spread_radius
 f32
 border_radius
 :
-f32
+BorderRadius
 clip_mode
 :
 BoxShadowClipMode
@@ -9422,13 +9422,7 @@ offset
 color
 blur_radius
 spread_radius
-BorderRadius
-:
-:
-uniform
-(
 border_radius
-)
 clip_mode
 )
 ;

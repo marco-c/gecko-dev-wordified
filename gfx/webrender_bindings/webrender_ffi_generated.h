@@ -4370,7 +4370,7 @@ float
 aBlurRadius
 float
 aSpreadRadius
-float
+BorderRadius
 aBorderRadius
 BoxShadowClipMode
 aClipMode

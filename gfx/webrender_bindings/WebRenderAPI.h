@@ -2264,7 +2264,10 @@ float
 &
 aSpreadRadius
 const
-float
+wr
+:
+:
+BorderRadius
 &
 aBorderRadius
 const
