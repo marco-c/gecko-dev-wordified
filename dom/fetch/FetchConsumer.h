@@ -339,6 +339,10 @@ NullifyConsumeBodyPump
 (
 )
 {
+mShuttingDown
+=
+true
+;
 mConsumeBodyPump
 =
 nullptr
