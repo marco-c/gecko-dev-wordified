@@ -35680,6 +35680,10 @@ null
 aNextTabParentId
 =
 0
+aName
+=
+"
+"
 )
 {
 let
@@ -35883,6 +35887,9 @@ aOpener
 nextTabParentId
 :
 aNextTabParentId
+name
+:
+aName
 }
 )
 ;
@@ -36652,6 +36659,7 @@ aParams
 aWhere
 aFlags
 aNextTabParentId
+aName
 )
 {
 if
@@ -36768,6 +36776,7 @@ aParams
 .
 triggeringPrincipal
 aNextTabParentId
+aName
 )
 ;
 if
