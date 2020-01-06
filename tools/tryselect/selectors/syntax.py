@@ -3855,7 +3855,7 @@ parts
 )
     
 def
-find_paths_and_tags
+find_paths_and_metadata
 (
 self
 verbose
@@ -3865,7 +3865,11 @@ detect_paths
         
 paths
 tags
+flavors
 =
+set
+(
+)
 set
 (
 )
@@ -3992,6 +3996,13 @@ tags
 info
 .
 test_tags
+                
+flavors
+|
+=
+info
+.
+test_flavors
             
 if
 verbose
@@ -4085,6 +4096,12 @@ tags
 '
 :
 tags
+            
+'
+flavors
+'
+:
+flavors
         
 }
     
@@ -5066,7 +5083,7 @@ res
 =
 self
 .
-find_paths_and_tags
+find_paths_and_metadata
 (
 kwargs
 [
@@ -5074,7 +5091,7 @@ kwargs
 verbose
 '
 ]
-                                           
+                                               
 kwargs
 [
 '
