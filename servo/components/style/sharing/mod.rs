@@ -2147,10 +2147,16 @@ cache
 :
 LRUCache
 <
+[
 StyleSharingCandidate
 <
 E
 >
+;
+STYLE_SHARING_CANDIDATE_CACHE_SIZE
++
+1
+]
 >
 }
 impl
@@ -2193,7 +2199,6 @@ LRUCache
 :
 new
 (
-STYLE_SHARING_CANDIDATE_CACHE_SIZE
 )
 }
 }

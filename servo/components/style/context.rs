@@ -2874,6 +2874,7 @@ cache
 :
 LRUCache
 <
+[
 (
 SendElement
 <
@@ -2881,6 +2882,11 @@ E
 >
 ElementSelectorFlags
 )
+;
+4
++
+1
+]
 >
 }
 #
@@ -2971,7 +2977,6 @@ LRUCache
 :
 new
 (
-4
 )
 }
 }
