@@ -3230,6 +3230,10 @@ chunk_number
 include_https
 =
 True
+                 
+skip_timeout
+=
+False
 )
 :
         
@@ -3296,6 +3300,12 @@ self
 include_https
 =
 include_https
+        
+self
+.
+skip_timeout
+=
+skip_timeout
         
 self
 .
@@ -3926,6 +3936,27 @@ protocol
 =
 "
 https
+"
+:
+                
+enabled
+=
+False
+            
+if
+self
+.
+skip_timeout
+and
+test
+.
+expected
+(
+)
+=
+=
+"
+TIMEOUT
 "
 :
                 
