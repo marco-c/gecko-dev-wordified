@@ -10279,6 +10279,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 {
 Fmov

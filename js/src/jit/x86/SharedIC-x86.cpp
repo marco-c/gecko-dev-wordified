@@ -1377,6 +1377,7 @@ boxDouble
 (
 ScratchDoubleReg
 R0
+ScratchDoubleReg
 )
 ;
 }

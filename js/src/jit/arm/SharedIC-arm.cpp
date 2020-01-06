@@ -1276,6 +1276,7 @@ boxDouble
 (
 scratchDouble
 R0
+scratchDouble
 )
 ;
 }

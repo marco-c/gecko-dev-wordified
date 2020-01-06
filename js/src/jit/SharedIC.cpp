@@ -6846,6 +6846,7 @@ boxDouble
 (
 FloatReg0
 R0
+FloatReg0
 )
 ;
 EmitReturnFromIC
@@ -8346,6 +8347,7 @@ boxDouble
 (
 FloatReg0
 R0
+FloatReg0
 )
 ;
 }

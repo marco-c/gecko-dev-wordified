@@ -516,6 +516,7 @@ doubleReg
 (
 )
 reg
+ScratchDoubleReg
 )
 ;
 loc
@@ -821,6 +822,7 @@ doubleReg
 (
 )
 reg
+ScratchDoubleReg
 )
 ;
 break
