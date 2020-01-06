@@ -1442,10 +1442,6 @@ nsCounterManager
 {
 public
 :
-nsCounterManager
-(
-)
-;
 /
 /
 Returns
