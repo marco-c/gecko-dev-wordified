@@ -792,8 +792,10 @@ if
 mTypeface
 )
 {
+RefPtr
+<
 IDWriteFactory
-*
+>
 factory
 =
 Factory

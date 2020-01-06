@@ -493,8 +493,10 @@ or
 anywhere
 else
 ?
+RefPtr
+<
 ID2D1Device
-*
+>
 device
 =
 Factory

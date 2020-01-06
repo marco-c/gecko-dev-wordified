@@ -776,8 +776,10 @@ MOZ_ASSERT
 aFontFileStream
 )
 ;
+RefPtr
+<
 IDWriteFactory
-*
+>
 factory
 =
 mozilla
