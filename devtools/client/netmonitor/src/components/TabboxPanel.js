@@ -529,9 +529,8 @@ PARAMS_TITLE
 ParamsPanel
 (
 {
-connector
-openLink
 request
+openLink
 }
 )
 )
@@ -612,10 +611,10 @@ STACK_TRACE_TITLE
 StackTracePanel
 (
 {
-connector
-openLink
 request
 sourceMapService
+openLink
+connector
 }
 )
 )
