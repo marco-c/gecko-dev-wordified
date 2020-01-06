@@ -2567,8 +2567,15 @@ SERVO_BINDING_FUNC
 (
 Servo_HasAuthorSpecifiedRules
 bool
+ServoStyleContextBorrowed
+style
 RawGeckoElementBorrowed
 element
+mozilla
+:
+:
+CSSPseudoElementType
+pseudo_type
 uint32_t
 rule_type_mask
 bool
