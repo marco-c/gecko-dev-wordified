@@ -284,12 +284,16 @@ vendor
 .
 1
 .
-11
+12
 and
 newer
         
 strips
 out
+.
+cargo
+-
+ok
 .
 orig
 and
@@ -349,7 +353,7 @@ v0
 .
 1
 .
-11
+12
 :
             
 #
@@ -360,7 +364,7 @@ v0
 .
 1
 .
-11
+12
 (
 file
 :
@@ -447,7 +451,7 @@ b
 .
 1
 .
-11
+12
 '
         
 return
@@ -1166,7 +1170,7 @@ vendor
 .
 1
 .
-11
+12
 required
 ;
 force
