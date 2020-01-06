@@ -1310,7 +1310,7 @@ as
 "
 button
 "
-nsAtom
+nsStaticAtom
 *
 *
 roleAtom

@@ -571,7 +571,7 @@ Static
 member
 initialization
 static
-nsAtom
+nsStaticAtom
 *
 *
 kRelationAttrs

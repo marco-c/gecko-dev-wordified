@@ -128,7 +128,7 @@ stdint
 h
 >
 class
-nsAtom
+nsStaticAtom
 ;
 /
 /
@@ -399,21 +399,21 @@ public
 /
 /
 static
-nsAtom
+nsStaticAtom
 *
 one
 ;
 /
 /
 static
-nsAtom
+nsStaticAtom
 *
 two
 ;
 /
 /
 static
-nsAtom
+nsStaticAtom
 *
 three
 ;
@@ -425,7 +425,7 @@ three
 /
 /
 /
-nsAtom
+nsStaticAtom
 *
 MyAtoms
 :
@@ -434,7 +434,7 @@ one
 ;
 /
 /
-nsAtom
+nsStaticAtom
 *
 MyAtoms
 :
@@ -443,7 +443,7 @@ two
 ;
 /
 /
-nsAtom
+nsStaticAtom
 *
 MyAtoms
 :
@@ -601,7 +601,7 @@ MyAtoms
 one
 =
 new
-nsAtom
+nsStaticAtom
 (
 one_buffer
 )
@@ -645,7 +645,7 @@ name_
 )
 \
 static
-nsAtom
+nsStaticAtom
 *
 name_
 ;
@@ -659,7 +659,7 @@ sub
 -
 classes
 of
-nsAtom
+nsStaticAtom
 .
 #
 define
@@ -704,7 +704,7 @@ a
 heap
 -
 allocated
-nsAtom
+nsStaticAtom
 .
 #
 define
@@ -714,7 +714,7 @@ class_
 name_
 )
 \
-nsAtom
+nsStaticAtom
 *
 class_
 :
@@ -731,7 +731,7 @@ sub
 -
 classes
 of
-nsAtom
+nsStaticAtom
 .
 #
 define
@@ -924,7 +924,7 @@ sub
 -
 classes
 of
-nsAtom
+nsStaticAtom
 .
 #
 define
@@ -941,7 +941,7 @@ name_
 _buffer
 reinterpret_cast
 <
-nsAtom
+nsStaticAtom
 *
 *
 >
@@ -1000,7 +1000,7 @@ char16_t
 const
 mString
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const

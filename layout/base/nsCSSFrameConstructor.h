@@ -5335,7 +5335,7 @@ FrameConstructionDataByTag
 /
 Pointer
 to
-nsAtom
+nsStaticAtom
 *
 is
 used
@@ -5358,7 +5358,7 @@ set
 up
 .
 const
-nsAtom
+nsStaticAtom
 *
 const
 *

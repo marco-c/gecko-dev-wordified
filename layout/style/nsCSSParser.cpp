@@ -46246,10 +46246,17 @@ SetAtomIdentValue
 (
 do_AddRef
 (
+static_cast
+<
+nsAtom
+*
+>
+(
 nsGkAtoms
 :
 :
 decimal
+)
 )
 )
 ;

@@ -524,7 +524,7 @@ an
 array
 .
 static
-nsAtom
+nsStaticAtom
 *
 sTagAtomTable
 [

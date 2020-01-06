@@ -19908,7 +19908,7 @@ list
 ;
 }
 static
-nsAtom
+nsStaticAtom
 *
 *
 sPropertiesToTraverseAndUnlink
@@ -19937,7 +19937,7 @@ nullptr
 /
 /
 static
-nsAtom
+nsStaticAtom
 *
 *
 *
@@ -19970,7 +19970,7 @@ aSupportedTokens
 #
 ifdef
 DEBUG
-nsAtom
+nsStaticAtom
 *
 *
 *

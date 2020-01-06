@@ -1204,7 +1204,7 @@ mReturnType
 int32_t
 mNamespaceID
 ;
-nsAtom
+nsStaticAtom
 *
 *
 mName

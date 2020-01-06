@@ -200,7 +200,7 @@ Expr
 ResultType
 mReturnType
 ;
-nsAtom
+nsStaticAtom
 *
 *
 mName

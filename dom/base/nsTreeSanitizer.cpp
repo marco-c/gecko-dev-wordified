@@ -304,7 +304,7 @@ initial
 whitelist
 /
 /
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -871,7 +871,7 @@ wbr
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -1393,7 +1393,7 @@ wrap
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -1480,7 +1480,7 @@ vspace
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -1522,7 +1522,7 @@ background
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -2147,7 +2147,7 @@ vkern
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -3907,7 +3907,7 @@ zoomAndPan
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -3924,7 +3924,7 @@ href
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -5498,7 +5498,7 @@ xor
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -6428,7 +6428,7 @@ xref
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -6954,7 +6954,7 @@ nsTreeSanitizer
 :
 IsURL
 (
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -6965,7 +6965,7 @@ nsAtom
 aLocalName
 )
 {
-nsAtom
+nsStaticAtom
 *
 *
 atomPtrPtr
@@ -8131,7 +8131,7 @@ nsAtom
 >
 *
 aAllowed
-nsAtom
+nsStaticAtom
 *
 *
 const

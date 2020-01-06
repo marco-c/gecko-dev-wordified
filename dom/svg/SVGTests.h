@@ -147,6 +147,9 @@ nsAttrValue
 class
 nsAtom
 ;
+class
+nsStaticAtom
+;
 namespace
 mozilla
 {
@@ -645,7 +648,7 @@ mStringListAttributes
 ]
 ;
 static
-nsAtom
+nsStaticAtom
 *
 *
 sStringListNames

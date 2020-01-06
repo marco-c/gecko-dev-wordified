@@ -1257,7 +1257,7 @@ nsIDOMSVGLength
 constants
 !
 static
-nsAtom
+nsStaticAtom
 *
 *
 const

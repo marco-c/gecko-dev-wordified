@@ -3206,7 +3206,7 @@ matched
 *
 /
 typedef
-nsAtom
+nsStaticAtom
 *
 const
 *

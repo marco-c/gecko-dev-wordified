@@ -3363,7 +3363,7 @@ BuiltinCounterStyle
 (
 int32_t
 aStyle
-nsAtom
+nsStaticAtom
 *
 *
 aName
@@ -3380,7 +3380,7 @@ aName
 {
 }
 virtual
-nsAtom
+nsStaticAtom
 *
 GetStyleName
 (
@@ -3583,7 +3583,7 @@ at
 compile
 time
 .
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -3596,7 +3596,7 @@ mName
 virtual
 *
 /
-nsAtom
+nsStaticAtom
 *
 BuiltinCounterStyle
 :

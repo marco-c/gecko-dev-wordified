@@ -209,7 +209,7 @@ nsSVGEnumValue
 struct
 nsSVGEnumMapping
 {
-nsAtom
+nsStaticAtom
 *
 *
 mKey

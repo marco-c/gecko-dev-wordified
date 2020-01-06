@@ -4718,7 +4718,7 @@ Helpers
 struct
 MappedAttributeEntry
 {
-nsAtom
+nsStaticAtom
 *
 *
 attribute
@@ -4802,7 +4802,7 @@ N
 ;
 }
 static
-nsAtom
+nsStaticAtom
 *
 *
 *

@@ -360,7 +360,7 @@ t
 an
 array
 .
-nsAtom
+nsStaticAtom
 *
 nsHTMLTags
 :

@@ -2906,7 +2906,7 @@ here
 struct
 AttrCharacteristics
 {
-nsAtom
+nsStaticAtom
 *
 *
 attributeName

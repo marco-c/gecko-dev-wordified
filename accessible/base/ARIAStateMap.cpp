@@ -193,7 +193,7 @@ ARIA
 attribute
 name
 .
-nsAtom
+nsStaticAtom
 *
 const
 mAttrName
@@ -226,7 +226,7 @@ must
 be
 nullptr
 .
-nsAtom
+nsStaticAtom
 *
 const
 *
