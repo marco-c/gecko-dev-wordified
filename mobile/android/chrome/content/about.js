@@ -561,6 +561,11 @@ link
 id
 )
 ;
+if
+(
+element
+)
+{
 element
 .
 setAttribute
@@ -571,6 +576,7 @@ href
 url
 )
 ;
+}
 }
 )
 ;
