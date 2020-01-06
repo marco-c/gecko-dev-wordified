@@ -3022,6 +3022,14 @@ try_options
 '
 ]
         
+if
+not
+options
+:
+            
+return
+None
+        
 self
 .
 jobs
