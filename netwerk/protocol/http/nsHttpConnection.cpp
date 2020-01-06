@@ -982,6 +982,11 @@ mConnInfo
 =
 info
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mConnInfo
+)
+;
 mLastWriteTime
 =
 mLastReadTime
@@ -2001,6 +2006,11 @@ this
 mConnInfo
 =
 wildCardProxyCi
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mConnInfo
+)
 ;
 }
 if
@@ -12582,7 +12592,7 @@ ci
 mConnInfo
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 ci
 )

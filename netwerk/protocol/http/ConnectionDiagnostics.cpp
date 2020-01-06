@@ -438,11 +438,10 @@ Next
 )
 )
 {
-nsAutoPtr
+RefPtr
 <
 nsConnectionEntry
 >
-&
 ent
 =
 iter
