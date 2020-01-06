@@ -1001,6 +1001,17 @@ removed
 by
 do_hg_replace
   
+if
+os
+.
+path
+.
+exists
+(
+permanent_patch_dir
+)
+:
+    
 shutil
 .
 move
@@ -1162,6 +1173,17 @@ to
 a
 subdirectory
   
+if
+os
+.
+path
+.
+exists
+(
+temporary_patch_dir
+)
+:
+    
 shutil
 .
 move
