@@ -701,6 +701,16 @@ There
 it
 is
 !
+self
+.
+rendered_images
+.
+remove
+(
+&
+request
+)
+;
 return
 result
 }
