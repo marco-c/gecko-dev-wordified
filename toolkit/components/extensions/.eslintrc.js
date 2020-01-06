@@ -48,6 +48,16 @@ MatchGlob
 "
 :
 false
+"
+MatchPattern
+"
+:
+true
+"
+MatchPatternSet
+"
+:
+false
 /
 /
 Specific

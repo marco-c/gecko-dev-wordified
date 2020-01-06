@@ -838,6 +838,8 @@ documentUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
@@ -917,6 +919,8 @@ targetUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
@@ -962,6 +966,8 @@ documentUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
@@ -976,6 +982,8 @@ targetUrlPatterns
 *
 :
 /
+/
+*
 /
 does
 -
@@ -1086,6 +1094,8 @@ documentUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
@@ -1165,6 +1175,8 @@ targetUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
@@ -1210,11 +1222,14 @@ documentUrlPatterns
 :
 /
 /
+*
+/
 does
 -
 not
 -
 match
+/
 "
 ]
 targetUrlPatterns
@@ -1224,6 +1239,8 @@ targetUrlPatterns
 *
 :
 /
+/
+*
 /
 does
 -

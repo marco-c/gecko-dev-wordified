@@ -6359,6 +6359,8 @@ Cu
 Cr
 XPCOMUtils
 ChromeWorker
+MatchPattern
+MatchPatternSet
 extensions
 :
 this

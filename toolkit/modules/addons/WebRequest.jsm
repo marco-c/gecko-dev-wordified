@@ -1985,8 +1985,16 @@ filter
 .
 urls
 .
-serialize
+patterns
+.
+map
 (
+url
+=
+>
+url
+.
+pattern
 )
 ;
 }
