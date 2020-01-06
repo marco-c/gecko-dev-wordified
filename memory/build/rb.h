@@ -1066,28 +1066,28 @@ Init
 (
 )
 {
-rbt_root
+mRoot
 =
 &
-rbt_nil
+mSentinel
 ;
-rbt_nil
+mSentinel
 .
 SetLeft
 (
 &
-rbt_nil
+mSentinel
 )
 ;
-rbt_nil
+mSentinel
 .
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
-rbt_nil
+mSentinel
 .
 SetColor
 (
@@ -1514,10 +1514,10 @@ aColor
 ;
 TreeNode
 *
-rbt_root
+mRoot
 ;
 TreeNode
-rbt_nil
+mSentinel
 ;
 TreeNode
 *
@@ -1540,7 +1540,7 @@ aStart
 ?
 aStart
 :
-rbt_root
+mRoot
 ;
 ret
 -
@@ -1551,7 +1551,7 @@ Left
 !
 =
 &
-rbt_nil
+mSentinel
 ;
 ret
 =
@@ -1570,7 +1570,7 @@ ret
 =
 =
 &
-rbt_nil
+mSentinel
 )
 ?
 nullptr
@@ -1599,7 +1599,7 @@ aStart
 ?
 aStart
 :
-rbt_root
+mRoot
 ;
 ret
 -
@@ -1610,7 +1610,7 @@ Right
 !
 =
 &
-rbt_nil
+mSentinel
 ;
 ret
 =
@@ -1629,7 +1629,7 @@ ret
 =
 =
 &
-rbt_nil
+mSentinel
 )
 ?
 nullptr
@@ -1661,7 +1661,7 @@ Right
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 ret
@@ -1683,7 +1683,7 @@ TreeNode
 *
 rbp_n_t
 =
-rbt_root
+mRoot
 ;
 MOZ_ASSERT
 (
@@ -1691,13 +1691,13 @@ rbp_n_t
 !
 =
 &
-rbt_nil
+mSentinel
 )
 ;
 ret
 =
 &
-rbt_nil
+mSentinel
 ;
 while
 (
@@ -1766,7 +1766,7 @@ rbp_n_t
 !
 =
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -1777,7 +1777,7 @@ ret
 =
 =
 &
-rbt_nil
+mSentinel
 )
 ?
 nullptr
@@ -1809,7 +1809,7 @@ Left
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 ret
@@ -1831,7 +1831,7 @@ TreeNode
 *
 rbp_p_t
 =
-rbt_root
+mRoot
 ;
 MOZ_ASSERT
 (
@@ -1839,13 +1839,13 @@ rbp_p_t
 !
 =
 &
-rbt_nil
+mSentinel
 )
 ;
 ret
 =
 &
-rbt_nil
+mSentinel
 ;
 while
 (
@@ -1914,7 +1914,7 @@ rbp_p_t
 !
 =
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -1925,7 +1925,7 @@ ret
 =
 =
 &
-rbt_nil
+mSentinel
 )
 ?
 nullptr
@@ -1946,7 +1946,7 @@ TreeNode
 *
 ret
 =
-rbt_root
+mRoot
 ;
 int
 rbp_se_cmp
@@ -1957,7 +1957,7 @@ ret
 !
 =
 &
-rbt_nil
+mSentinel
 &
 &
 (
@@ -2013,7 +2013,7 @@ ret
 =
 =
 &
-rbt_nil
+mSentinel
 )
 ?
 nullptr
@@ -2040,7 +2040,7 @@ TreeNode
 *
 rbp_ns_t
 =
-rbt_root
+mRoot
 ;
 while
 (
@@ -2048,7 +2048,7 @@ rbp_ns_t
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 int
@@ -2147,13 +2147,13 @@ rbp_i_cmp
 rbp_i_g
 =
 &
-rbt_nil
+mSentinel
 ;
 rbp_i_s
 .
 SetLeft
 (
-rbt_root
+mRoot
 )
 ;
 rbp_i_s
@@ -2161,7 +2161,7 @@ rbp_i_s
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 rbp_i_s
@@ -2181,7 +2181,7 @@ rbp_i_s
 ;
 rbp_i_c
 =
-rbt_root
+mRoot
 ;
 /
 *
@@ -2242,7 +2242,7 @@ rbp_i_c
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 rbp_i_t
@@ -2619,7 +2619,7 @@ aNode
 SetLeft
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 aNode
@@ -2628,7 +2628,7 @@ aNode
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 aNode
@@ -2736,7 +2736,7 @@ black
 .
 *
 /
-rbt_root
+mRoot
 =
 rbp_i_s
 .
@@ -2744,7 +2744,7 @@ Left
 (
 )
 ;
-rbt_root
+mRoot
 -
 >
 SetColor
@@ -2786,7 +2786,7 @@ rbp_r_s
 .
 SetLeft
 (
-rbt_root
+mRoot
 )
 ;
 rbp_r_s
@@ -2794,7 +2794,7 @@ rbp_r_s
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 rbp_r_s
@@ -2814,12 +2814,12 @@ rbp_r_s
 ;
 rbp_r_c
 =
-rbt_root
+mRoot
 ;
 rbp_r_xp
 =
 &
-rbt_nil
+mSentinel
 ;
 /
 *
@@ -3049,7 +3049,7 @@ Right
 =
 =
 &
-rbt_nil
+mSentinel
 )
 {
 /
@@ -3079,7 +3079,7 @@ Left
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 rbp_r_t
@@ -3095,7 +3095,7 @@ rbp_r_t
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -3104,7 +3104,7 @@ else
 rbp_r_t
 =
 &
-rbt_nil
+mSentinel
 ;
 }
 rbp_r_p
@@ -3400,7 +3400,7 @@ rbp_r_p
 !
 =
 &
-rbt_nil
+mSentinel
 )
 ;
 rbp_r_cmp
@@ -3436,7 +3436,7 @@ rbp_r_t
 =
 =
 &
-rbt_nil
+mSentinel
 )
 {
 /
@@ -3574,7 +3574,7 @@ rbp_r_p
 SetLeft
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -3599,7 +3599,7 @@ rbp_r_p
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -3749,7 +3749,7 @@ Right
 =
 =
 &
-rbt_nil
+mSentinel
 )
 {
 /
@@ -3771,7 +3771,7 @@ Left
 !
 =
 &
-rbt_nil
+mSentinel
 )
 {
 rbp_r_t
@@ -3787,7 +3787,7 @@ rbp_r_t
 SetRight
 (
 &
-rbt_nil
+mSentinel
 )
 ;
 }
@@ -3796,7 +3796,7 @@ else
 rbp_r_t
 =
 &
-rbt_nil
+mSentinel
 ;
 }
 if
@@ -3988,7 +3988,7 @@ root
 .
 *
 /
-rbt_root
+mRoot
 =
 rbp_r_s
 .
@@ -4941,7 +4941,7 @@ mSentinel
 aTree
 -
 >
-rbt_nil
+mSentinel
 )
 mDepth
 (
@@ -4966,7 +4966,7 @@ if
 aTree
 -
 >
-rbt_root
+mRoot
 !
 =
 mSentinel
@@ -4986,7 +4986,7 @@ mDepth
 aTree
 -
 >
-rbt_root
+mRoot
 ;
 while
 (
