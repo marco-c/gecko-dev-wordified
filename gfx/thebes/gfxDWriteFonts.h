@@ -556,7 +556,7 @@ mAllowManualShowGlyphs
 ;
 static
 bool
-mUseClearType
+sUseClearType
 ;
 }
 ;

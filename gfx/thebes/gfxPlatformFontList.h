@@ -2826,7 +2826,15 @@ void
 ForceGlobalReflow
 (
 )
+{
+gfxPlatform
+:
+:
+ForceGlobalReflow
+(
+)
 ;
+}
 void
 RebuildLocalFonts
 (
