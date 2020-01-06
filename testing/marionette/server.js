@@ -3380,7 +3380,7 @@ msg
 =
 Message
 .
-fromMsg
+fromPacket
 (
 data
 )
@@ -4353,7 +4353,7 @@ payload
 =
 msg
 .
-toMsg
+toPacket
 (
 )
 ;
