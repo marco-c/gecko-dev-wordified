@@ -1516,10 +1516,6 @@ Clear
 (
 )
 ;
-mCompositorAnimationsId
-=
-0
-;
 mAnimationData
 .
 Clear
