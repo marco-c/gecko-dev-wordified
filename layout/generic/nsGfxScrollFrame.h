@@ -2945,6 +2945,11 @@ nsContainerFrame
 *
 mOuter
 ;
+const
+nsIFrame
+*
+mReferenceFrameDuringPainting
+;
 RefPtr
 <
 AsyncScroll
