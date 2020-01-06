@@ -422,7 +422,7 @@ branch
 *
 *
 *
-_setDefaultPref
+setDefaultPref
 -
 Sets
 the
@@ -464,7 +464,7 @@ the
 pref
 *
 /
-_setDefaultPref
+setDefaultPref
 (
 key
 val
@@ -667,7 +667,7 @@ value
 }
 this
 .
-_setDefaultPref
+setDefaultPref
 (
 pref
 value
