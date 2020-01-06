@@ -42961,7 +42961,7 @@ textDrawer
 wr
 :
 :
-TextShadow
+Shadow
 wrShadow
 ;
 wrShadow
