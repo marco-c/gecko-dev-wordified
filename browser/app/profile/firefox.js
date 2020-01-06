@@ -16227,7 +16227,7 @@ aboutHome
 .
 enabled
 "
-false
+true
 )
 ;
 /
