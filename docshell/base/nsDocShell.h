@@ -5476,7 +5476,7 @@ the
 parent
 shell
 .
-uint32_t
+int32_t
 mChildOffset
 ;
 uint32_t

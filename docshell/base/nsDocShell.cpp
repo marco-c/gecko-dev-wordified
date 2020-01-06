@@ -22108,7 +22108,7 @@ nsDocShell
 :
 SetChildOffset
 (
-uint32_t
+int32_t
 aChildOffset
 )
 {
@@ -28915,7 +28915,7 @@ isFileURI
 aURI
 -
 >
-GetPathQueryRef
+GetPath
 (
 spec
 )
@@ -73408,7 +73408,7 @@ rv
 aURI
 -
 >
-GetPathQueryRef
+GetPath
 (
 buf
 )
