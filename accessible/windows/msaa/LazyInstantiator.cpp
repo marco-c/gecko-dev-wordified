@@ -1594,6 +1594,12 @@ clientExe
 )
 )
 {
+#
+if
+defined
+(
+MOZ_TELEMETRY_REPORTING
+)
 AccumulateTelemetry
 (
 NS_LITERAL_STRING
@@ -1611,6 +1617,14 @@ name
 )
 )
 ;
+#
+endif
+/
+/
+defined
+(
+MOZ_TELEMETRY_REPORTING
+)
 /
 /
 We
