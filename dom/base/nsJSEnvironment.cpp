@@ -10091,6 +10091,8 @@ IsNull
 int64_t
 (
 sActiveIntersliceGCBudget
+*
+2
 )
 :
 int64_t
