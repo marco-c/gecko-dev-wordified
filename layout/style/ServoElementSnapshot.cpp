@@ -219,6 +219,15 @@ OwnerDoc
 )
 )
 ;
+mSupportsLangAttr
+=
+aElement
+-
+>
+SupportsLangAttr
+(
+)
+;
 }
 ServoElementSnapshot
 :
