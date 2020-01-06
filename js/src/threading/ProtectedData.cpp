@@ -559,6 +559,8 @@ group
 -
 >
 usedByHelperThread
+(
+)
 )
 {
 MOZ_ASSERT
