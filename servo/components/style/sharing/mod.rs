@@ -5139,10 +5139,13 @@ debug_assert
 (
 target
 .
-has_current_styles
+has_current_styles_for_traversal
 (
 &
 data
+shared
+.
+traversal_flags
 )
 )
 ;
