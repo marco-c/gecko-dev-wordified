@@ -883,16 +883,6 @@ return
 mWrChild
 ;
 }
-void
-SetTransactionIncomplete
-(
-)
-{
-mTransactionIncomplete
-=
-true
-;
-}
 /
 /
 See
@@ -1260,9 +1250,6 @@ s
 job
 WebRenderScrollData
 mScrollData
-;
-bool
-mTransactionIncomplete
 ;
 bool
 mNeedsComposite
