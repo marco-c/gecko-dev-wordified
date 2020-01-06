@@ -1880,6 +1880,11 @@ GetDimensionInfo
 (
 )
 ;
+nsresult
+UpdatePosition
+(
+)
+;
 void
 SizeModeChanged
 (
@@ -3452,11 +3457,6 @@ mManager
 ;
 void
 TryCacheDPIAndScale
-(
-)
-;
-nsresult
-UpdatePosition
 (
 )
 ;
