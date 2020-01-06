@@ -133,13 +133,9 @@ require
 "
 devtools
 /
-client
+shared
 /
-inspector
-/
-markup
-/
-utils
+extend
 "
 )
 ;
