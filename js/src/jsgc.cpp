@@ -21014,6 +21014,17 @@ FreeOp
 fop
 )
 {
+MOZ_ASSERT
+(
+compartments
+(
+)
+.
+empty
+(
+)
+)
+;
 fop
 -
 >
