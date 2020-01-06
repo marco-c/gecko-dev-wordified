@@ -409,6 +409,8 @@ chrome
 /
 /
 devtools
+-
+shim
 /
 locale
 /
