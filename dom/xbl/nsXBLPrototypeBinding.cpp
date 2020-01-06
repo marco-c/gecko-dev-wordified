@@ -9236,10 +9236,6 @@ doc
 GetDocumentCharacterSet
 (
 )
-.
-get
-(
-)
 doc
 -
 >
