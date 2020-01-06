@@ -71,8 +71,6 @@ import
 absolute_import
 print_function
 unicode_literals
-import
-os
 from
 .
 registry
@@ -1030,25 +1028,6 @@ task
 )
 :
     
-os
-.
-environ
-[
-'
-BUILD_NUMBER
-'
-]
-=
-str
-(
-input
-[
-'
-build_number
-'
-]
-)
-    
 release_promotion_flavor
 =
 input
@@ -1118,17 +1097,6 @@ VERSION_BUMP_FLAVORS
 )
             
 )
-        
-os
-.
-environ
-[
-'
-NEXT_VERSION
-'
-]
-=
-next_version
     
 promotion_config
 =
@@ -1386,6 +1354,32 @@ target_tasks_method
 ]
 =
 target_tasks_method
+    
+parameters
+[
+'
+build_number
+'
+]
+=
+str
+(
+input
+[
+'
+build_number
+'
+]
+)
+    
+parameters
+[
+'
+next_version
+'
+]
+=
+next_version
     
 #
 make

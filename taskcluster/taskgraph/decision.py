@@ -1047,6 +1047,24 @@ do_not_optimize
 [
 ]
     
+parameters
+[
+'
+build_number
+'
+]
+=
+1
+    
+parameters
+[
+'
+next_version
+'
+]
+=
+None
+    
 #
 owner
 must
