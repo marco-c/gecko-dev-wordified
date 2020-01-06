@@ -81,7 +81,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+search
 "
 {
 leaveOpen
@@ -200,7 +200,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+search
 "
 {
 leaveOpen
