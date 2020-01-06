@@ -834,6 +834,11 @@ ClampedHardwareConcurrency
 )
 const
 ;
+void
+CrashIfHanging
+(
+)
+;
 private
 :
 RuntimeService
