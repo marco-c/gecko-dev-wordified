@@ -7705,9 +7705,6 @@ arena_run_t
 *
 AllocRun
 (
-arena_bin_t
-*
-aBin
 size_t
 aSize
 bool
@@ -18196,9 +18193,6 @@ arena_t
 :
 AllocRun
 (
-arena_bin_t
-*
-aBin
 size_t
 aSize
 bool
@@ -20196,7 +20190,6 @@ run
 AllocRun
 (
 aBin
-aBin
 -
 >
 mRunSize
@@ -21381,7 +21374,6 @@ ret
 =
 AllocRun
 (
-nullptr
 aSize
 true
 aZero
@@ -21641,7 +21633,6 @@ ret
 =
 AllocRun
 (
-nullptr
 aAllocSize
 true
 false
