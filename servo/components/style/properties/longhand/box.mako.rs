@@ -1332,6 +1332,11 @@ gecko_ffi_name
 "
 mFloat
 "
+gecko_pref_ident
+=
+"
+float_
+"
 spec
 =
 "

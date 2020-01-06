@@ -1270,6 +1270,9 @@ ignored_when_colors_disabled
 =
 False
                  
+gecko_pref_ident
+=
+None
 vector
 =
 False
@@ -1516,6 +1519,16 @@ self
 ignored_when_colors_disabled
 =
 ignored_when_colors_disabled
+        
+self
+.
+gecko_pref_ident
+=
+gecko_pref_ident
+or
+self
+.
+ident
         
 self
 .
@@ -1845,6 +1858,9 @@ False
 flags
 =
 None
+gecko_pref_ident
+=
+None
 )
 :
         
@@ -1993,6 +2009,16 @@ flags
 else
 [
 ]
+        
+self
+.
+gecko_pref_ident
+=
+gecko_pref_ident
+or
+self
+.
+ident
         
 #
 https
