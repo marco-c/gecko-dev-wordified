@@ -3725,7 +3725,7 @@ Size
 aMaxScale
 )
 {
-gfxSize
+Size
 size
 =
 aValue
