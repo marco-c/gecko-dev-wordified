@@ -4213,11 +4213,11 @@ GeckoAppShell
 Owner
 ;
 typedef
-void
+bool
 ReturnType
 ;
 typedef
-void
+bool
 SetterType
 ;
 typedef
@@ -4255,7 +4255,7 @@ signature
 (
 Z
 )
-V
+Z
 "
 ;
 static
@@ -4341,7 +4341,7 @@ bool
 )
 -
 >
-void
+bool
 ;
 struct
 EnableLocationHighAccuracy_t
@@ -10922,7 +10922,7 @@ jni
 CallingThread
 :
 :
-UI
+ANY
 ;
 static
 const
