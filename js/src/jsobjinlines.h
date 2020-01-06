@@ -1799,14 +1799,6 @@ maybeHasInterestingSymbolProperty
 )
 |
 |
-obj
--
->
-hasDynamicPrototype
-(
-)
-|
-|
 MOZ_UNLIKELY
 (
 ClassMayResolveId
