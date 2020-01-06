@@ -13063,7 +13063,7 @@ global
 is
 a
 Window
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 ;

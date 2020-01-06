@@ -19120,7 +19120,7 @@ static
 void
 CreateGlobalOptions
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 :
 :
@@ -19225,7 +19225,7 @@ static
 bool
 CreateGlobalOptions
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 :
 :

@@ -337,7 +337,7 @@ bool
 canBubbleArg
 bool
 cancelableArg
-nsGlobalWindow
+nsGlobalWindowInner
 *
 viewArg
 int32_t

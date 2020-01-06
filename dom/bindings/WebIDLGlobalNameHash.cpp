@@ -1306,7 +1306,7 @@ global
 ;
 DebugOnly
 <
-nsGlobalWindow
+nsGlobalWindowInner
 *
 >
 win

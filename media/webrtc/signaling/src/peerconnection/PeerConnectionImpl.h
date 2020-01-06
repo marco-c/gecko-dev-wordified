@@ -382,9 +382,6 @@ AFakePCObserver
 endif
 }
 class
-nsGlobalWindow
-;
-class
 nsDOMDataChannel
 ;
 namespace
@@ -1895,7 +1892,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 const

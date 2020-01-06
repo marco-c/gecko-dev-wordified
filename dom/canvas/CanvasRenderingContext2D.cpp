@@ -31700,7 +31700,7 @@ CanvasRenderingContext2D
 :
 DrawWindow
 (
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 double

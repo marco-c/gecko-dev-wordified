@@ -351,7 +351,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 bool
@@ -409,7 +409,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 const

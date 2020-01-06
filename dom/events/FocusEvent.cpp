@@ -284,7 +284,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t

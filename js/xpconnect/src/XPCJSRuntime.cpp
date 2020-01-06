@@ -3309,7 +3309,7 @@ aObj
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -3323,14 +3323,7 @@ win
 )
 ;
 return
-static_cast
-<
-nsGlobalWindowInner
-*
->
-(
 win
-)
 ;
 }
 nsGlobalWindowInner
@@ -14902,7 +14895,7 @@ global
 {
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 window
 ;
@@ -15211,7 +15204,7 @@ global
 {
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 window
 ;

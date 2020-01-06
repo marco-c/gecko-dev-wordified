@@ -150,7 +150,7 @@ nsIDOMTimeEvent
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -245,7 +245,7 @@ const
 nsAString
 &
 aType
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t
