@@ -524,8 +524,6 @@ score
 updated
 "
 onScoreUpdated
-(
-)
 )
 ;
 try
