@@ -25305,8 +25305,10 @@ return
 false
 ;
 }
-static
 void
+nsLayoutUtils
+:
+:
 AddBoxesForFrame
 (
 nsIFrame
