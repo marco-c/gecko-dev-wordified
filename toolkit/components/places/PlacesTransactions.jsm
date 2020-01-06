@@ -8092,7 +8092,6 @@ guid
 ;
 }
 return
-await
 createItem
 (
 tree

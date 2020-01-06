@@ -1073,7 +1073,6 @@ transact
 )
 ;
 }
-async
 function
 new_folder
 (
@@ -1106,7 +1105,6 @@ folder
 itemsCount
 ;
 return
-await
 PlacesTransactions
 .
 NewFolder
@@ -1338,7 +1336,6 @@ itemId
 root
 ;
 return
-await
 test_promiseBookmarksTreeForEachNode
 (
 node

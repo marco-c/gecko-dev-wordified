@@ -442,7 +442,6 @@ function
 )
 {
 return
-await
 new
 Promise
 (

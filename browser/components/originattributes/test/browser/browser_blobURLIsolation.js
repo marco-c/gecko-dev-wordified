@@ -325,7 +325,6 @@ error
 ;
 }
 return
-await
 blobToString
 (
 blob
@@ -353,7 +352,6 @@ browser
 scriptFile
 message
 }
-async
 function
 (
 args
@@ -441,7 +439,6 @@ message
 )
 ;
 return
-await
 promise
 ;
 }

@@ -84,7 +84,6 @@ Define
 the
 testing
 function
-async
 function
 doTest
 (
@@ -92,7 +91,6 @@ aBrowser
 )
 {
 return
-await
 ContentTask
 .
 spawn

@@ -1202,7 +1202,6 @@ await
 certErrorLoaded
 ;
 return
-await
 ContentTask
 .
 spawn

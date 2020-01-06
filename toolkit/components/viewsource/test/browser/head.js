@@ -477,7 +477,6 @@ source
 .
 *
 /
-async
 function
 openViewSource
 (
@@ -531,10 +530,7 @@ browser
 )
 ;
 return
-(
-await
 openPromise
-)
 ;
 }
 /
@@ -749,10 +745,7 @@ await
 popupHiddenPromise
 ;
 return
-(
-await
 openPromise
-)
 ;
 }
 /
@@ -952,10 +945,7 @@ await
 popupHiddenPromise
 ;
 return
-(
-await
 newTabPromise
-)
 ;
 }
 registerCleanupFunction

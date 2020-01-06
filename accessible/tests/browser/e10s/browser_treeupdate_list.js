@@ -130,7 +130,6 @@ value
 )
 ;
 return
-await
 onReorder
 ;
 }

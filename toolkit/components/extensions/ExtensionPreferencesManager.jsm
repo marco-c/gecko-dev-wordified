@@ -2083,7 +2083,6 @@ not_controllable
 }
 }
 return
-await
 ExtensionSettingsStore
 .
 getLevelOfControl

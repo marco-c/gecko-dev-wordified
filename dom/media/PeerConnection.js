@@ -4010,7 +4010,6 @@ null
 ;
 }
 return
-await
 func
 (
 )
@@ -4057,7 +4056,6 @@ catch
 )
 ;
 return
-await
 p
 ;
 }
@@ -5705,7 +5703,6 @@ getWebIDLCallerPrincipal
 origin
 ;
 return
-await
 this
 .
 _chain
@@ -5927,7 +5924,6 @@ getWebIDLCallerPrincipal
 origin
 ;
 return
-await
 this
 .
 _chain
@@ -6320,7 +6316,6 @@ request
 }
 }
 return
-await
 this
 .
 _havePermission
@@ -6491,7 +6486,6 @@ InvalidParameterError
 ;
 }
 return
-await
 this
 .
 _chain
@@ -7058,7 +7052,6 @@ getWebIDLCallerPrincipal
 origin
 ;
 return
-await
 this
 .
 _chain
@@ -7208,7 +7201,6 @@ this
 _certificateReady
 ;
 return
-await
 this
 .
 _localIdp
@@ -7612,7 +7604,6 @@ TypeError
 ;
 }
 return
-await
 this
 .
 _chain
@@ -7968,7 +7959,6 @@ _checkClosed
 )
 ;
 return
-await
 this
 .
 _chain
@@ -8874,7 +8864,6 @@ closed
 state
 .
 return
-await
 this
 .
 _chain

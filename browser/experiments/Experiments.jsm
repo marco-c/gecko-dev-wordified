@@ -11206,7 +11206,6 @@ complete
 .
 *
 /
-async
 start
 (
 )
@@ -11236,7 +11235,6 @@ _enabled
 true
 ;
 return
-await
 this
 .
 reconcileAddonState
@@ -11309,7 +11307,6 @@ spec
 )
 ;
 return
-await
 new
 Promise
 (

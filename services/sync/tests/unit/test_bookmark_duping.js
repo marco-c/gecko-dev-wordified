@@ -501,13 +501,11 @@ syncIds
 .
 map
 (
-async
 (
 syncId
 )
 =
 >
-await
 syncIdToId
 (
 syncId

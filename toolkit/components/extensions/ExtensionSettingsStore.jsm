@@ -1822,7 +1822,6 @@ changed
 .
 *
 /
-async
 removeSetting
 (
 extension
@@ -1831,7 +1830,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -1952,7 +1950,6 @@ changed
 .
 *
 /
-async
 enable
 (
 extension
@@ -1961,7 +1958,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -2082,7 +2078,6 @@ changed
 .
 *
 /
-async
 disable
 (
 extension
@@ -2091,7 +2086,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -2313,7 +2307,6 @@ value
 .
 *
 /
-async
 getSetting
 (
 type
@@ -2321,7 +2314,6 @@ key
 )
 {
 return
-await
 getTopItem
 (
 type

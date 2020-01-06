@@ -1721,7 +1721,6 @@ found
 .
 *
 /
-async
 parseDocument
 (
 doc
@@ -1770,7 +1769,6 @@ null
 ;
 }
 return
-await
 this
 .
 _readerParse
@@ -1884,7 +1882,6 @@ null
 ;
 }
 return
-await
 this
 .
 _readerParse

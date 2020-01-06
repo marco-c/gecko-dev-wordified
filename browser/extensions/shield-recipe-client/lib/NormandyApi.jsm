@@ -1029,7 +1029,6 @@ actionApiUrl
 )
 ;
 return
-await
 res
 .
 json
@@ -1062,7 +1061,6 @@ ok
 )
 {
 return
-await
 response
 .
 text

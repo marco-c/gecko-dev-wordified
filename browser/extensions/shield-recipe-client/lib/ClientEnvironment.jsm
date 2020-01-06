@@ -390,7 +390,6 @@ session
 .
 *
 /
-async
 getClientClassification
 (
 )
@@ -411,7 +410,6 @@ classifyClient
 ;
 }
 return
-await
 _classifyRequest
 ;
 }
