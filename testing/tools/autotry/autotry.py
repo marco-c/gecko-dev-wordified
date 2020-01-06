@@ -3363,7 +3363,16 @@ suite
 ]
 )
         
+#
+intersection
+implies
+tests
+are
+expected
+        
 if
+intersection
+and
 not
 suites
 :
