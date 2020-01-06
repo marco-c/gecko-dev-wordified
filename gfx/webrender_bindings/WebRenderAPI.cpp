@@ -5404,7 +5404,7 @@ void
 DisplayListBuilder
 :
 :
-PushTextShadow
+PushShadow
 (
 const
 wr
@@ -5426,12 +5426,12 @@ const
 wr
 :
 :
-TextShadow
+Shadow
 &
 aShadow
 )
 {
-wr_dp_push_text_shadow
+wr_dp_push_shadow
 (
 mWrState
 aRect
@@ -5445,11 +5445,11 @@ void
 DisplayListBuilder
 :
 :
-PopTextShadow
+PopShadow
 (
 )
 {
-wr_dp_pop_text_shadow
+wr_dp_pop_shadow
 (
 mWrState
 )

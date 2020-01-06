@@ -2167,7 +2167,7 @@ aLine
 )
 ;
 void
-PushTextShadow
+PushShadow
 (
 const
 wr
@@ -2189,13 +2189,13 @@ const
 wr
 :
 :
-TextShadow
+Shadow
 &
 aShadow
 )
 ;
 void
-PopTextShadow
+PopShadow
 (
 )
 ;
