@@ -9753,10 +9753,12 @@ FormatStringFromName
 (
 aUnlocker
 ?
+u
 "
 restartMessageUnlocker
 "
 :
+u
 "
 restartMessageNoUnlocker
 "
@@ -9777,10 +9779,12 @@ FormatStringFromName
 (
 aUnlocker
 ?
+u
 "
 restartMessageUnlockerMac
 "
 :
+u
 "
 restartMessageNoUnlockerMac
 "
@@ -9802,6 +9806,7 @@ sb
 >
 FormatStringFromName
 (
+u
 "
 restartTitle
 "
@@ -10238,6 +10243,7 @@ sb
 >
 FormatStringFromName
 (
+u
 "
 profileMissing
 "
@@ -10257,6 +10263,7 @@ sb
 >
 FormatStringFromName
 (
+u
 "
 profileMissingTitle
 "
@@ -25469,6 +25476,12 @@ release
 )
 ;
 }
+#
+if
+defined
+(
+MOZ_SANDBOX
+)
 /
 /
 Call
@@ -25504,6 +25517,8 @@ CacheRulesDirectories
 (
 )
 ;
+#
+endif
 #
 endif
 SaveStateForAppInitiatedRestart
