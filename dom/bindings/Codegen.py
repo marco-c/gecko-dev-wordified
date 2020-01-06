@@ -53751,6 +53751,7 @@ setObjectOrNull
 "
 GetCallbackFromCallbackObject
 (
+cx
 %
 (
 result

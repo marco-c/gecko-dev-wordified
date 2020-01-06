@@ -12463,6 +12463,9 @@ JSObject
 *
 GetCallbackFromCallbackObject
 (
+JSContext
+*
+aCx
 T
 *
 aObj
@@ -12472,8 +12475,9 @@ return
 aObj
 -
 >
-CallbackOrNull
+Callback
 (
+aCx
 )
 ;
 }
@@ -12532,6 +12536,9 @@ JSObject
 *
 Get
 (
+JSContext
+*
+aCx
 const
 T
 &
@@ -12541,6 +12548,7 @@ aObj
 return
 GetCallbackFromCallbackObject
 (
+aCx
 aObj
 .
 get
@@ -12569,6 +12577,9 @@ JSObject
 *
 Get
 (
+JSContext
+*
+aCx
 T
 &
 aObj
@@ -12577,6 +12588,7 @@ aObj
 return
 GetCallbackFromCallbackObject
 (
+aCx
 &
 aObj
 )
@@ -12594,6 +12606,9 @@ JSObject
 *
 GetCallbackFromCallbackObject
 (
+JSContext
+*
+aCx
 T
 &
 aObj
@@ -12608,6 +12623,7 @@ T
 :
 Get
 (
+aCx
 aObj
 )
 ;
