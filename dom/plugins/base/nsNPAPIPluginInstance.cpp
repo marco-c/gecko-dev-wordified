@@ -6195,15 +6195,6 @@ window
 GetCurrentInnerWindow
 (
 )
-(
-int32_t
-)
-AudioChannelService
-:
-:
-GetDefaultAudioChannel
-(
-)
 this
 )
 ;

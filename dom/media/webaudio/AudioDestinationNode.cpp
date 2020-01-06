@@ -3078,16 +3078,6 @@ InitWithWeakCallback
 GetOwner
 (
 )
-static_cast
-<
-int32_t
->
-(
-AudioChannel
-:
-:
-Normal
-)
 this
 )
 ;
