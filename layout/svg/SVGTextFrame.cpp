@@ -20787,7 +20787,7 @@ childElementFrame
 >
 DeleteProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsTextPathProperty
@@ -23643,7 +23643,7 @@ off
 nsChangeHint_UpdateEffects
 )
 :
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects
@@ -30098,7 +30098,7 @@ aTextPathFrame
 >
 GetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsTextPathProperty
@@ -30267,14 +30267,14 @@ base
 ;
 property
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetTextPathProperty
 (
 targetURI
 aTextPathFrame
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsTextPathProperty

@@ -2108,7 +2108,7 @@ NS_FRAME_DESCENDANT_NEEDS_PAINT
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

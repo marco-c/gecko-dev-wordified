@@ -462,7 +462,7 @@ this
 hint
 results
 in
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects
@@ -470,10 +470,10 @@ being
 called
 on
 the
+*
 element
 '
 s
-*
 frame
 .
 *

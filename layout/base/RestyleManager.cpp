@@ -11040,7 +11040,7 @@ cont
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects
@@ -11093,7 +11093,7 @@ NS_STATE_IS_OUTER_SVG
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateRenderingObservers

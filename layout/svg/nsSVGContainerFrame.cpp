@@ -1346,7 +1346,7 @@ nsIFrame
 aOldFrame
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateRenderingObservers
@@ -2776,7 +2776,7 @@ off
 nsChangeHint_UpdateEffects
 )
 :
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects

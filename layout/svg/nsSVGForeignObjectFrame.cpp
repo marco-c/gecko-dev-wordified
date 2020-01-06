@@ -2503,7 +2503,7 @@ off
 nsChangeHint_UpdateEffects
 )
 :
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects

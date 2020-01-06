@@ -1117,7 +1117,7 @@ nsSVGPaintingProperty
 *
 property
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintingPropertyForURI
@@ -1129,7 +1129,7 @@ mForFrame
 FirstContinuation
 (
 )
-nsSVGEffects
+SVGObserverUtils
 :
 :
 BackgroundImageProperty

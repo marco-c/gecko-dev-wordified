@@ -2157,7 +2157,7 @@ UPDATE_IS_ASYNC
 ;
 }
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
