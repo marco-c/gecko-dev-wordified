@@ -5060,7 +5060,7 @@ tier
 +
 func
 .
-entryOffset
+interpEntryOffset
 (
 )
 )

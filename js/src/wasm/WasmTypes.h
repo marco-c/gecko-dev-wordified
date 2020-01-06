@@ -6229,7 +6229,7 @@ Function
 /
 function
 definition
-Entry
+InterpEntry
 /
 /
 calls
@@ -6819,7 +6819,7 @@ kind
 )
 =
 =
-Entry
+InterpEntry
 ;
 }
 uint32_t

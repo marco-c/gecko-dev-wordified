@@ -1016,7 +1016,7 @@ uint32_t
 codeRangeIndex_
 ;
 uint32_t
-entryOffset_
+interpEntryOffset_
 ;
 /
 /
@@ -1067,13 +1067,13 @@ UINT32_MAX
 ;
 pod
 .
-entryOffset_
+interpEntryOffset_
 =
 UINT32_MAX
 ;
 }
 void
-initEntryOffset
+initInterpEntryOffset
 (
 uint32_t
 entryOffset
@@ -1083,7 +1083,7 @@ MOZ_ASSERT
 (
 pod
 .
-entryOffset_
+interpEntryOffset_
 =
 =
 UINT32_MAX
@@ -1091,7 +1091,7 @@ UINT32_MAX
 ;
 pod
 .
-entryOffset_
+interpEntryOffset_
 =
 entryOffset
 ;
@@ -1167,7 +1167,7 @@ codeRangeIndex_
 ;
 }
 uint32_t
-entryOffset
+interpEntryOffset
 (
 )
 const
@@ -1176,7 +1176,7 @@ MOZ_ASSERT
 (
 pod
 .
-entryOffset_
+interpEntryOffset_
 !
 =
 UINT32_MAX
@@ -1185,7 +1185,7 @@ UINT32_MAX
 return
 pod
 .
-entryOffset_
+interpEntryOffset_
 ;
 }
 WASM_DECLARE_SERIALIZABLE

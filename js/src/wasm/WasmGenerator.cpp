@@ -3368,7 +3368,7 @@ case
 CodeRange
 :
 :
-Entry
+InterpEntry
 :
 metadataTier_
 -
@@ -3382,7 +3382,7 @@ funcIndex
 )
 )
 .
-initEntryOffset
+initInterpEntryOffset
 (
 codeRange
 .

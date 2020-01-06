@@ -1850,7 +1850,7 @@ ABI
 .
 static
 bool
-GenerateEntry
+GenerateInterpEntry
 (
 MacroAssembler
 &
@@ -10559,7 +10559,7 @@ offsets
 if
 (
 !
-GenerateEntry
+GenerateInterpEntry
 (
 masm
 fe
@@ -10583,7 +10583,7 @@ emplaceBack
 CodeRange
 :
 :
-Entry
+InterpEntry
 fe
 .
 funcIndex
