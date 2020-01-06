@@ -148,7 +148,7 @@ ChannelMediaDecoder
 MP3Decoder
 :
 :
-Clone
+CloneImpl
 (
 MediaDecoderInit
 &

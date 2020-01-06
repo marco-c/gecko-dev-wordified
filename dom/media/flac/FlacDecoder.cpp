@@ -150,7 +150,7 @@ ChannelMediaDecoder
 FlacDecoder
 :
 :
-Clone
+CloneImpl
 (
 MediaDecoderInit
 &
