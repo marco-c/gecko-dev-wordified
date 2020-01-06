@@ -672,7 +672,7 @@ aSize
 {
 if
 (
-madvise
+posix_madvise
 (
 reinterpret_cast
 <
@@ -683,7 +683,7 @@ void
 aRegion
 )
 aSize
-MADV_NORMAL
+POSIX_MADV_NORMAL
 )
 )
 {
