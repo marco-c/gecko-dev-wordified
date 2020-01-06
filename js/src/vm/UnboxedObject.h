@@ -117,13 +117,6 @@ vm_UnboxedObject_h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

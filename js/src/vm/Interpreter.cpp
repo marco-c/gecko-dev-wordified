@@ -220,13 +220,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsiter
 .
 h

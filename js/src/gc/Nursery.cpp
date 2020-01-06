@@ -170,13 +170,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h

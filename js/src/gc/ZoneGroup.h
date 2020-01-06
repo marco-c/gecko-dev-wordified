@@ -117,13 +117,6 @@ gc_ZoneGroup_h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 gc
 /
 Statistics

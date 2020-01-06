@@ -120,13 +120,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 gc
 /
 Policy

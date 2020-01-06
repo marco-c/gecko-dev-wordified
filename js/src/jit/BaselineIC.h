@@ -140,13 +140,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsopcode
 .
 h
