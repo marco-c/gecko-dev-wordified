@@ -1117,6 +1117,7 @@ files
 grcov_command
 =
 [
+                
 os
 .
 path
@@ -1130,6 +1131,7 @@ grcov_dir
 grcov
 '
 )
+                
 '
 -
 t
@@ -1137,12 +1139,11 @@ t
 '
 lcov
 '
+                
 '
 -
 p
 '
-\
-                             
 '
 /
 home
@@ -1156,8 +1157,18 @@ build
 src
 /
 '
-\
-                             
+                
+'
+-
+-
+ignore
+-
+dir
+'
+'
+gcc
+'
+                
 os
 .
 path
@@ -1180,6 +1191,7 @@ zip
 '
 )
 file_path_gcda
+            
 ]
             
 #
