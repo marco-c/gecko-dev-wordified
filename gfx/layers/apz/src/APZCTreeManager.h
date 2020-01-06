@@ -4004,8 +4004,10 @@ aPoint
 HitTestResult
 *
 aOutHitResult
+RefPtr
+<
 HitTestingTreeNode
-*
+>
 *
 aOutScrollbarNode
 =
