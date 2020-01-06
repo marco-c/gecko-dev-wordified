@@ -351,7 +351,7 @@ invalidLength
 aOther
 -
 >
-mBufSize
+mDataSize
 )
 ;
 memcpy
@@ -383,7 +383,7 @@ invalidOffset
 aOther
 -
 >
-mBufSize
+mDataSize
 )
 {
 invalidLength
@@ -391,7 +391,7 @@ invalidLength
 aOther
 -
 >
-mBufSize
+mDataSize
 -
 invalidOffset
 ;
