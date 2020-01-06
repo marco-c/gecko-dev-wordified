@@ -9419,6 +9419,7 @@ WebRenderBridgeParent
 :
 CreateDestroyed
 (
+aPipelineId
 )
 ;
 mWrBridge
