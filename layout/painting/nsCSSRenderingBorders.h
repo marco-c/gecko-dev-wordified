@@ -949,6 +949,9 @@ bool
 mAllBordersSameStyle
 ;
 bool
+mAllBordersSameWidth
+;
+bool
 mOneUnitBorder
 ;
 bool

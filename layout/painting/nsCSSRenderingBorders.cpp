@@ -1358,6 +1358,12 @@ AreBorderSideFinalStylesSame
 eSideBitsAll
 )
 ;
+mAllBordersSameWidth
+=
+AllBordersSameWidth
+(
+)
+;
 mAvoidStroke
 =
 false
@@ -26615,16 +26621,9 @@ silly
 return
 ;
 }
-bool
-allBordersSameWidth
-=
-AllBordersSameWidth
-(
-)
-;
 if
 (
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mBorderWidths
@@ -26643,7 +26642,7 @@ mBorderWidths
 Some
 of
 the
-allBordersSameWidth
+mAllBordersSameWidth
 codepaths
 depend
 on
@@ -26994,7 +26993,7 @@ mCompositeColors
 nullptr
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mBorderStyles
@@ -27354,7 +27353,7 @@ if
 allBordersSolid
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mCompositeColors
@@ -27414,7 +27413,7 @@ if
 allBordersSolid
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mNoBorderRadius
@@ -28715,7 +28714,7 @@ this
 optimization
 if
 |
-allBordersSameWidth
+mAllBordersSameWidth
 |
 is
 true
