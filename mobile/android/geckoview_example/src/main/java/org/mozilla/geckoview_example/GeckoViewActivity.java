@@ -191,7 +191,7 @@ mozilla
 .
 gecko
 .
-GeckoView
+GeckoSessionSettings
 ;
 import
 org
@@ -200,7 +200,7 @@ mozilla
 .
 gecko
 .
-GeckoViewSettings
+GeckoView
 ;
 import
 org
@@ -561,7 +561,7 @@ getSettings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_MULTIPROCESS
 useMultiprocess
@@ -683,7 +683,7 @@ getSettings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_REMOTE_DEBUGGER
 intent

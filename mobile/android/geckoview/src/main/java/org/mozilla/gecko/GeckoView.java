@@ -497,7 +497,7 @@ getEventDispatcher
 ;
 }
 public
-GeckoViewSettings
+GeckoSessionSettings
 getSettings
 (
 )

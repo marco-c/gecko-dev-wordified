@@ -156,7 +156,7 @@ Collection
 public
 final
 class
-GeckoViewSettings
+GeckoSessionSettings
 implements
 Parcelable
 {
@@ -167,7 +167,7 @@ String
 LOGTAG
 =
 "
-GeckoViewSettings
+GeckoSessionSettings
 "
 ;
 private
@@ -712,7 +712,7 @@ GeckoBundle
 mBundle
 ;
 public
-GeckoViewSettings
+GeckoSessionSettings
 (
 )
 {
@@ -727,7 +727,7 @@ null
 package
 *
 /
-GeckoViewSettings
+GeckoSessionSettings
 (
 final
 GeckoSession
@@ -831,10 +831,10 @@ null
 package
 *
 /
-GeckoViewSettings
+GeckoSessionSettings
 (
 final
-GeckoViewSettings
+GeckoSessionSettings
 settings
 final
 GeckoSession
@@ -1327,7 +1327,7 @@ Parcelable
 .
 Creator
 <
-GeckoViewSettings
+GeckoSessionSettings
 >
 CREATOR
 =
@@ -1336,14 +1336,14 @@ Parcelable
 .
 Creator
 <
-GeckoViewSettings
+GeckoSessionSettings
 >
 (
 )
 {
 Override
 public
-GeckoViewSettings
+GeckoSessionSettings
 createFromParcel
 (
 final
@@ -1352,11 +1352,11 @@ in
 )
 {
 final
-GeckoViewSettings
+GeckoSessionSettings
 settings
 =
 new
-GeckoViewSettings
+GeckoSessionSettings
 (
 )
 ;
@@ -1373,7 +1373,7 @@ settings
 }
 Override
 public
-GeckoViewSettings
+GeckoSessionSettings
 [
 ]
 newArray
@@ -1385,7 +1385,7 @@ size
 {
 return
 new
-GeckoViewSettings
+GeckoSessionSettings
 [
 size
 ]
