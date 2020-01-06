@@ -414,8 +414,10 @@ StreamReadyRunnable
 IPCBlobInputStream
 *
 aDestinationStream
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aCreatedStream
 )
 :
@@ -434,7 +436,10 @@ aDestinationStream
 )
 mCreatedStream
 (
+Move
+(
 aCreatedStream
+)
 )
 {
 MOZ_ASSERT
@@ -462,6 +467,10 @@ mDestinationStream
 StreamReady
 (
 mCreatedStream
+.
+forget
+(
+)
 )
 ;
 return
@@ -1448,6 +1457,10 @@ StreamReadyRunnable
 (
 pendingStream
 stream
+.
+forget
+(
+)
 )
 ;
 /
