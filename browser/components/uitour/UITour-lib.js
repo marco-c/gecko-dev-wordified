@@ -756,6 +756,11 @@ urlBar
 <
 li
 >
+screenshots
+*
+<
+li
+>
 search
 *
 <
