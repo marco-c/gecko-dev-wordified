@@ -1360,18 +1360,6 @@ PDMWMFVP9DecoderEnabled
 {
 if
 (
-(
-VPXDecoder
-:
-:
-IsVP8
-(
-aTrackInfo
-.
-mMimeType
-)
-|
-|
 VPXDecoder
 :
 :
@@ -1380,7 +1368,6 @@ IsVP9
 aTrackInfo
 .
 mMimeType
-)
 )
 &
 &
