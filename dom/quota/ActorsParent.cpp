@@ -3821,6 +3821,9 @@ mActorDestroyed
 )
 ;
 }
+#
+ifdef
+DEBUG
 State
 GetState
 (
@@ -3831,6 +3834,8 @@ return
 mState
 ;
 }
+#
+endif
 void
 SetState
 (
