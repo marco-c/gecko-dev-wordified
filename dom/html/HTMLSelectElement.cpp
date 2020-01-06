@@ -1156,14 +1156,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLSelectElement
 )
-/
-/
-nsIConstraintValidation
-NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
-(
-HTMLSelectElement
-)
-NS_IMETHODIMP
+void
 HTMLSelectElement
 :
 :
@@ -1187,9 +1180,6 @@ UpdateState
 (
 true
 )
-;
-return
-NS_OK
 ;
 }
 void

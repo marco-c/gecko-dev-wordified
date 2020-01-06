@@ -567,13 +567,6 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLObjectElement
 )
-/
-/
-nsIConstraintValidation
-NS_IMPL_NSICONSTRAINTVALIDATION
-(
-HTMLObjectElement
-)
 #
 ifdef
 XP_MACOSX
