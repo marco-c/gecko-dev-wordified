@@ -373,7 +373,7 @@ display_list_builder
 :
 {
 DisplayListBuildState
-EstablishContainingBlock
+StackingContextCollectionFlags
 }
 ;
 use
@@ -16630,10 +16630,12 @@ self
 collect_stacking_contexts_for_block
 (
 state
-EstablishContainingBlock
+StackingContextCollectionFlags
 :
 :
-Yes
+empty
+(
+)
 )
 ;
 }

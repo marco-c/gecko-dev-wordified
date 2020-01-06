@@ -107,7 +107,7 @@ display_list_builder
 :
 :
 {
-EstablishContainingBlock
+NEVER_CREATES_CONTAINING_BLOCK
 StackingContextCollectionState
 }
 ;
@@ -1198,10 +1198,7 @@ block_flow
 collect_stacking_contexts_for_block
 (
 state
-EstablishContainingBlock
-:
-:
-No
+NEVER_CREATES_CONTAINING_BLOCK
 )
 ;
 }
