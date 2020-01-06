@@ -9325,15 +9325,12 @@ aInputBlockId
 )
 ;
 }
-nsEventStatus
-unused
-;
 InputAPZContext
 context
 (
 aGuid
 aInputBlockId
-unused
+nsEventStatus_eIgnore
 )
 ;
 if
