@@ -117,7 +117,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -150,7 +150,7 @@ DIRECTORY
 DIRECTORY
 ]
 '
-        
+                     
 help
 =
 '
@@ -180,7 +180,7 @@ default
 '
 html
 '
-        
+                     
 help
 =
 '
@@ -207,7 +207,7 @@ metavar
 '
 DESTINATION
 '
-        
+                     
 help
 =
 '
@@ -236,12 +236,13 @@ auto_open
 default
 =
 True
+                     
 action
 =
 '
 store_false
 '
-        
+                     
 help
 =
 "
@@ -282,7 +283,7 @@ nargs
 '
 ?
 '
-        
+                     
 help
 =
 '
@@ -292,6 +293,9 @@ on
 an
 HTTP
 server
+'
+                          
+'
 e
 .
 g
