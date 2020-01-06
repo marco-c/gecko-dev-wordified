@@ -218,7 +218,7 @@ public
 MediaDataDemuxer
 {
 class
-HlsDemuxerCallbacksSupport
+HLSDemuxerCallbacksSupport
 ;
 public
 :
@@ -411,7 +411,7 @@ mInitPromise
 ;
 RefPtr
 <
-HlsDemuxerCallbacksSupport
+HLSDemuxerCallbacksSupport
 >
 mCallbackSupport
 ;
@@ -436,10 +436,10 @@ mInfo
 java
 :
 :
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 GlobalRef
@@ -448,11 +448,11 @@ mJavaCallbacks
 java
 :
 :
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GlobalRef
-mHlsDemuxerWrapper
+mHLSDemuxerWrapper
 ;
 }
 ;
@@ -679,7 +679,7 @@ ConvertToMediaRawData
 java
 :
 :
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 LocalRef
