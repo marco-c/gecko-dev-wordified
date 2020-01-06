@@ -1565,7 +1565,8 @@ void
 Suspend
 (
 )
-;
+{
+}
 /
 /
 Resume
@@ -1637,7 +1638,8 @@ void
 Resume
 (
 )
-;
+{
+}
 /
 /
 Moves
@@ -1710,13 +1712,15 @@ SetLoadInBackground
 on
 mResource
 .
+virtual
 void
 SetLoadInBackground
 (
 bool
 aLoadInBackground
 )
-;
+{
+}
 MediaDecoderStateMachine
 *
 GetStateMachine

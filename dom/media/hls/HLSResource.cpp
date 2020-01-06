@@ -451,8 +451,6 @@ HLSResource
 :
 Suspend
 (
-bool
-aCloseImmediately
 )
 {
 MOZ_ASSERT
