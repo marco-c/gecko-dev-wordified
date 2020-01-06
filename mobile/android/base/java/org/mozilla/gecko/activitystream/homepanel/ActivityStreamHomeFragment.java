@@ -362,12 +362,10 @@ reload
 getLoaderManager
 (
 )
-sharedPreferences
-this
-.
-getResources
+getContext
 (
 )
+sharedPreferences
 )
 ;
 }
