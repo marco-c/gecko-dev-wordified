@@ -158,8 +158,6 @@ main
 process
 "
 toString
-:
-function
 (
 )
 {

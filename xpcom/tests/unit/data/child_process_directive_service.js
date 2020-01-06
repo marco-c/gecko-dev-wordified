@@ -158,8 +158,6 @@ child
 process
 "
 toString
-:
-function
 (
 )
 {
