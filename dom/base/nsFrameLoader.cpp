@@ -761,6 +761,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLBodyElement
+.
+h
+"
+#
+include
+"
 ContentPrincipal
 .
 h
