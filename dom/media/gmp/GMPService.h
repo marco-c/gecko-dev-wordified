@@ -324,7 +324,7 @@ GMPContentParent
 :
 CloseBlocker
 >
-nsresult
+MediaResult
 /
 *
 IsExclusive
