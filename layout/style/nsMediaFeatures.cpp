@@ -3411,7 +3411,7 @@ GetSystemMetric
 nsGkAtoms
 :
 :
-_moz_windows_accent_color_in_titlebar
+_moz_windows_accent_color_applies
 nsMediaFeature
 :
 :
@@ -3429,7 +3429,7 @@ eNoRequirements
 nsGkAtoms
 :
 :
-windows_accent_color_in_titlebar
+windows_accent_color_applies
 }
 GetSystemMetric
 }

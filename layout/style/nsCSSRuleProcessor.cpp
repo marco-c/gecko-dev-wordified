@@ -6781,7 +6781,7 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_WindowsAccentColorInTitlebar
+eIntID_WindowsAccentColorApplies
 &
 metricResult
 )
@@ -6805,7 +6805,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_accent_color_in_titlebar
+windows_accent_color_applies
 )
 ;
 }

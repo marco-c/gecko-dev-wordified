@@ -16675,7 +16675,7 @@ scrollbars
 )
 GK_ATOM
 (
-windows_accent_color_in_titlebar
+windows_accent_color_applies
 "
 windows
 -
@@ -16683,9 +16683,7 @@ accent
 -
 color
 -
-in
--
-titlebar
+applies
 "
 )
 GK_ATOM
@@ -16999,7 +16997,7 @@ scrollbars
 )
 GK_ATOM
 (
-_moz_windows_accent_color_in_titlebar
+_moz_windows_accent_color_applies
 "
 -
 moz
@@ -17010,9 +17008,7 @@ accent
 -
 color
 -
-in
--
-titlebar
+applies
 "
 )
 GK_ATOM

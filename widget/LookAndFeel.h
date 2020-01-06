@@ -1019,7 +1019,7 @@ metric
 .
 *
 /
-eIntID_WindowsAccentColorInTitlebar
+eIntID_WindowsAccentColorApplies
 /
 *
 *
