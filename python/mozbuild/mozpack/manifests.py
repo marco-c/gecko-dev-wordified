@@ -1902,9 +1902,8 @@ mozpath
 .
 join
 (
-base
-pattern
 dest
+pattern
 )
             
 (
@@ -1960,9 +1959,8 @@ mozpath
 .
 join
 (
-base
-pattern
 dest
+pattern
 )
             
 (
