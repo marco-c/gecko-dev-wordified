@@ -1457,10 +1457,10 @@ lib
 GetNativeDebugPath
 (
 )
-=
-=
-"
-"
+.
+empty
+(
+)
 )
 {
 lib
