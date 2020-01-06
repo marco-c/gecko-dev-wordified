@@ -1706,7 +1706,7 @@ public
 nsCSSKeyframesRule
 (
 const
-nsSubstring
+nsAString
 &
 aName
 uint32_t

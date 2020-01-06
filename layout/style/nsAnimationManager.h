@@ -251,7 +251,7 @@ aPseudoType
 EventMessage
 aMessage
 const
-nsSubstring
+nsAString
 &
 aAnimationName
 const
@@ -431,7 +431,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-nsSubstring
+nsAString
 &
 aAnimationName
 )

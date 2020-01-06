@@ -4320,7 +4320,7 @@ _
 for
 (
 const
-nsCSubstring
+nsACString
 &
 part
 :

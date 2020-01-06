@@ -1465,7 +1465,7 @@ nsIMIMEInfo
 *
 aMIMEInfo
 const
-nsCSubstring
+nsACString
 &
 aFileExtension
 nsIInterfaceRequestor

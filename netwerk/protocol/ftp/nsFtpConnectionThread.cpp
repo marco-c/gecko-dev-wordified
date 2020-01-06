@@ -10391,7 +10391,7 @@ nsFtpState
 SendFTPCommand
 (
 const
-nsCSubstring
+nsACString
 &
 command
 )

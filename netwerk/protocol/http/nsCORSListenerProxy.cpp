@@ -6538,7 +6538,7 @@ age
 =
 0
 ;
-nsCSubstring
+nsACString
 :
 :
 const_char_iterator

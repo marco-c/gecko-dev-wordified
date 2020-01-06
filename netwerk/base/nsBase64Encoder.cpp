@@ -208,7 +208,7 @@ nsBase64Encoder
 :
 Finish
 (
-nsCSubstring
+nsACString
 &
 result
 )

@@ -131,7 +131,7 @@ public
 Entry
 (
 const
-nsCSubstring
+nsACString
 &
 aURI
 nsIAtom
@@ -215,7 +215,7 @@ nsresult
 Put
 (
 const
-nsCSubstring
+nsACString
 &
 aURI
 nsIAtom
@@ -454,7 +454,7 @@ const_iterator
 GetNameSpaceOf
 (
 const
-nsCSubstring
+nsACString
 &
 aURI
 )

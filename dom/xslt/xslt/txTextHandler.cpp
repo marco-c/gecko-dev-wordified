@@ -163,7 +163,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -186,7 +186,7 @@ txTextHandler
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -335,7 +335,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const

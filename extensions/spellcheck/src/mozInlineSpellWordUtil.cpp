@@ -1661,7 +1661,7 @@ void
 NormalizeWord
 (
 const
-nsSubstring
+nsAString
 &
 aInput
 int32_t
@@ -4754,7 +4754,7 @@ mozInlineSpellWordUtil
 :
 NormalizeWord
 (
-nsSubstring
+nsAString
 &
 aWord
 )

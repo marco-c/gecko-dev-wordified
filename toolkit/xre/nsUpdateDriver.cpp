@@ -1256,7 +1256,7 @@ nsIFile
 *
 dir
 const
-nsCSubstring
+nsACString
 &
 name
 nsCOMPtr

@@ -320,7 +320,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aName
 const
@@ -343,7 +343,7 @@ txMozillaTextOutput
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -1276,7 +1276,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aName
 const

@@ -1096,7 +1096,7 @@ acquire_ownership_of_buffer_list
 ;
 }
 const
-nsSubstring
+nsAString
 &
 nsScannerSubstring
 :

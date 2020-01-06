@@ -15550,7 +15550,7 @@ void
 SetName
 (
 const
-nsSubstring
+nsAString
 &
 aName
 )

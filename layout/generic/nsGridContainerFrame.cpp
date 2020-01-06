@@ -15299,7 +15299,7 @@ GridNamedArea
 FindNamedArea
 (
 const
-nsSubstring
+nsAString
 &
 aName
 const

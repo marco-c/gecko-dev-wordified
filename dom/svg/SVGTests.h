@@ -350,7 +350,7 @@ int32_t
 GetBestLanguagePreferenceRank
 (
 const
-nsSubstring
+nsAString
 &
 aAcceptLangs
 )

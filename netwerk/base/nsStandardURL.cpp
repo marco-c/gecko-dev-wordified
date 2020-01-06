@@ -3213,7 +3213,7 @@ int32_t
 ValidateIPv4Number
 (
 const
-nsCSubstring
+nsACString
 &
 host
 int32_t
@@ -3834,7 +3834,7 @@ nsresult
 ParseIPv4Number10
 (
 const
-nsCSubstring
+nsACString
 &
 input
 uint32_t
@@ -3956,7 +3956,7 @@ nsresult
 ParseIPv4Number
 (
 const
-nsCSubstring
+nsACString
 &
 input
 int32_t
@@ -4258,7 +4258,7 @@ nsStandardURL
 NormalizeIPv4
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString
@@ -4672,7 +4672,7 @@ nsStandardURL
 NormalizeIDN
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString
@@ -25475,7 +25475,7 @@ nsresult
 Test_NormalizeIPv4
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString

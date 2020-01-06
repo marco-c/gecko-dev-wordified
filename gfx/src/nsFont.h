@@ -191,7 +191,7 @@ h
 /
 /
 for
-nsSubstring
+nsAString
 #
 include
 "

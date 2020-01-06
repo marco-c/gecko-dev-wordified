@@ -4399,7 +4399,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 allowedHost
 =

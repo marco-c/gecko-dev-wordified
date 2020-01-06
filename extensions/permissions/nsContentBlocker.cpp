@@ -2018,7 +2018,7 @@ co
 .
 uk
 const
-nsCSubstring
+nsACString
 &
 tail
 =
@@ -2111,7 +2111,7 @@ as
 tail
 |
 const
-nsCSubstring
+nsACString
 &
 firstTail
 =

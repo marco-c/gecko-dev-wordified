@@ -385,7 +385,7 @@ void
 SetEntityID
 (
 const
-nsCSubstring
+nsACString
 &
 entityID
 )

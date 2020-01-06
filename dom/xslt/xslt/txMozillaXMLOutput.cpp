@@ -699,7 +699,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -922,7 +922,7 @@ txMozillaXMLOutput
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -2307,7 +2307,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -4121,7 +4121,7 @@ txMozillaXMLOutput
 createResultDocument
 (
 const
-nsSubstring
+nsAString
 &
 aName
 int32_t

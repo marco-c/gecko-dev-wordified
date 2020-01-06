@@ -471,7 +471,7 @@ port
 out
 *
 /
-nsCSubstring
+nsACString
 &
 key
 )
@@ -9300,7 +9300,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 host
 =
@@ -9486,7 +9486,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 host
 =

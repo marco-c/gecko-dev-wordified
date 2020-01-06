@@ -910,13 +910,13 @@ nsILoadContextInfo
 ParseKey
 (
 const
-nsCSubstring
+nsACString
 &
 aKey
-nsCSubstring
+nsACString
 *
 aIdEnhance
-nsCSubstring
+nsACString
 *
 aURISpec
 )
@@ -1129,8 +1129,8 @@ aTarget
 char
 const
 aTag
-nsCSubstring
 const
+nsACString
 &
 aValue
 )

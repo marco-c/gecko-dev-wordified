@@ -1736,7 +1736,7 @@ nsCounterManager
 CounterListFor
 (
 const
-nsSubstring
+nsAString
 &
 aCounterName
 )

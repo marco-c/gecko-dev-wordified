@@ -139,7 +139,7 @@ NS_DECL_NSIOUTPUTSTREAM
 nsresult
 Finish
 (
-nsCSubstring
+nsACString
 &
 _result
 )

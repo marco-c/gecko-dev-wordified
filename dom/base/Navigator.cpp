@@ -2378,7 +2378,7 @@ hasMoreTokens
 )
 {
 const
-nsSubstring
+nsAString
 &
 code
 =

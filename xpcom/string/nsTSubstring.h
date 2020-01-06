@@ -5701,7 +5701,7 @@ if
 (
 mFlags
 &
-nsSubstring
+nsAString
 :
 :
 F_SHARED

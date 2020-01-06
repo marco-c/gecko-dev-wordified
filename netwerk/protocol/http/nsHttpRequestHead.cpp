@@ -466,7 +466,7 @@ nsHttpRequestHead
 SetRequestURI
 (
 const
-nsCSubstring
+nsACString
 &
 s
 )
@@ -489,7 +489,7 @@ nsHttpRequestHead
 SetPath
 (
 const
-nsCSubstring
+nsACString
 &
 s
 )

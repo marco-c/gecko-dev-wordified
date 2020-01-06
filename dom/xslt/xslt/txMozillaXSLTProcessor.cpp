@@ -650,7 +650,7 @@ txOutputFormat
 *
 aFormat
 const
-nsSubstring
+nsAString
 &
 aName
 int32_t
@@ -1006,7 +1006,7 @@ txOutputFormat
 *
 aFormat
 const
-nsSubstring
+nsAString
 &
 aName
 int32_t

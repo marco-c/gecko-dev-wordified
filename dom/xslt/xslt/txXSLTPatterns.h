@@ -869,7 +869,7 @@ explicit
 txIdPattern
 (
 const
-nsSubstring
+nsAString
 &
 aString
 )

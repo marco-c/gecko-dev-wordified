@@ -6492,7 +6492,7 @@ begin
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 magic
 =
@@ -6614,7 +6614,7 @@ return
 NS_OK
 ;
 const
-nsCSubstring
+nsACString
 &
 line
 =
@@ -12957,7 +12957,7 @@ nsOfflineCacheUpdate
 IsForGroupID
 (
 const
-nsCSubstring
+nsACString
 &
 groupID
 )

@@ -7201,7 +7201,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7250,7 +7250,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7334,7 +7334,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7442,7 +7442,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7484,7 +7484,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7567,7 +7567,7 @@ counter
 for
 (
 const
-nsCSubstring
+nsACString
 &
 token
 :
@@ -7650,7 +7650,7 @@ counter
 for
 (
 const
-nsSubstring
+nsAString
 &
 token
 :

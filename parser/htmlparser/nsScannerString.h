@@ -1240,7 +1240,7 @@ nsAString
 )
 ;
 const
-nsSubstring
+nsAString
 &
 AsString
 (
@@ -1708,7 +1708,7 @@ reference
 to
 this
 string
-nsSubstring
+nsAString
 &
 writable
 (
@@ -1736,7 +1736,7 @@ to
 this
 string
 const
-nsSubstring
+nsAString
 &
 str
 (

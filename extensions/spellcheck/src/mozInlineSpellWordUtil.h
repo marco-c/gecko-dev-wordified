@@ -757,7 +757,7 @@ static
 void
 NormalizeWord
 (
-nsSubstring
+nsAString
 &
 aWord
 )

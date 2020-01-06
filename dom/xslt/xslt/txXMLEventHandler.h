@@ -321,7 +321,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -368,7 +368,7 @@ nsresult
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -673,7 +673,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -722,7 +722,7 @@ nsIAtom
 aPrefix
 \
 const
-nsSubstring
+nsAString
 &
 aLocalName
 \
@@ -742,7 +742,7 @@ nsresult
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -832,7 +832,7 @@ nsIAtom
 aPrefix
 \
 const
-nsSubstring
+nsAString
 &
 aName
 \
@@ -1033,7 +1033,7 @@ txOutputFormat
 *
 aFormat
 const
-nsSubstring
+nsAString
 &
 aName
 int32_t
@@ -1074,7 +1074,7 @@ txOutputFormat
 aFormat
 \
 const
-nsSubstring
+nsAString
 &
 aName
 \

@@ -2547,7 +2547,7 @@ hasMoreTokens
 )
 {
 const
-nsSubstring
+nsAString
 &
 policy
 =

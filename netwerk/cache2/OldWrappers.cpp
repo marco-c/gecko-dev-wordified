@@ -2441,8 +2441,8 @@ namespace
 nsresult
 GetCacheSessionNameForStoragePolicy
 (
-nsCSubstring
 const
+nsACString
 &
 scheme
 nsCacheStoragePolicy
@@ -2822,8 +2822,8 @@ NS_OK
 nsresult
 GetCacheSession
 (
-nsCSubstring
 const
+nsACString
 &
 aScheme
 bool
@@ -3122,12 +3122,12 @@ _OldCacheLoad
 :
 _OldCacheLoad
 (
-nsCSubstring
 const
+nsACString
 &
 aScheme
-nsCSubstring
 const
+nsACString
 &
 aCacheKey
 nsICacheEntryOpenCallback
@@ -5556,8 +5556,8 @@ _OldStorage
 :
 ChooseApplicationCache
 (
-nsCSubstring
 const
+nsACString
 &
 cacheKey
 nsIApplicationCache

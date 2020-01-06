@@ -419,7 +419,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 int32_t
@@ -491,7 +491,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 int32_t
@@ -782,7 +782,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -852,7 +852,7 @@ txBufferingHandler
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -1246,7 +1246,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const

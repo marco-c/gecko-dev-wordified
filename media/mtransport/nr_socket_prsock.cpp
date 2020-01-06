@@ -1266,7 +1266,7 @@ explicit
 SingletonThreadHolder
 (
 const
-nsCSubstring
+nsACString
 &
 aName
 )

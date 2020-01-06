@@ -1590,7 +1590,7 @@ txIdPattern
 txIdPattern
 (
 const
-nsSubstring
+nsAString
 &
 aString
 )

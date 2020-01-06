@@ -1110,7 +1110,7 @@ nsIOutputStream
 *
 stream
 const
-nsCSubstring
+nsACString
 &
 s
 )

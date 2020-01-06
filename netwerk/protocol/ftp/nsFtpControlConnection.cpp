@@ -433,7 +433,7 @@ nsFtpControlConnection
 nsFtpControlConnection
 (
 const
-nsCSubstring
+nsACString
 &
 host
 uint32_t
@@ -1003,7 +1003,7 @@ nsFtpControlConnection
 Write
 (
 const
-nsCSubstring
+nsACString
 &
 command
 )

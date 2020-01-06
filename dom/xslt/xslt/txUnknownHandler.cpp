@@ -248,7 +248,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -296,7 +296,7 @@ txUnknownHandler
 characters
 (
 const
-nsSubstring
+nsAString
 &
 aData
 bool
@@ -810,7 +810,7 @@ nsIAtom
 *
 aPrefix
 const
-nsSubstring
+nsAString
 &
 aLocalName
 const
@@ -943,7 +943,7 @@ createHandlerAndFlush
 bool
 aHTMLRoot
 const
-nsSubstring
+nsAString
 &
 aName
 const

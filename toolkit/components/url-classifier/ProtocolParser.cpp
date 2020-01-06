@@ -1416,7 +1416,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 list
 =
@@ -2004,7 +2004,7 @@ aLine
 )
 {
 const
-nsCSubstring
+nsACString
 &
 forward
 =
@@ -3348,7 +3348,7 @@ Length
 Read
 ADDCHUNKNUM
 const
-nsCSubstring
+nsACString
 &
 addChunkStr
 =
@@ -3737,7 +3737,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 addChunkStr
 =
@@ -3885,7 +3885,7 @@ i
 )
 {
 const
-nsCSubstring
+nsACString
 &
 addChunkStr
 =
@@ -4352,7 +4352,7 @@ aStart
 COMPLETE_SIZE
 ;
 const
-nsCSubstring
+nsACString
 &
 addChunkStr
 =

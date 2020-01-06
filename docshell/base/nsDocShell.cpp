@@ -67077,7 +67077,7 @@ NS_OK
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 oneHeader
 =

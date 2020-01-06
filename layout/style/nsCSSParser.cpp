@@ -1276,7 +1276,7 @@ void
 ParseMediaList
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -1375,7 +1375,7 @@ bool
 ParseFontFamilyListString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -1402,7 +1402,7 @@ bool
 ParseColorString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -1436,7 +1436,7 @@ bool
 ParseMarginString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -1470,7 +1470,7 @@ nsresult
 ParseSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -1501,7 +1501,7 @@ nsCSSKeyframeRule
 ParseKeyframeRule
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -1515,7 +1515,7 @@ bool
 ParseKeyframeSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -2986,7 +2986,7 @@ CheckEndProperty
 (
 )
 ;
-nsSubstring
+nsAString
 *
 NextIdent
 (
@@ -11893,7 +11893,7 @@ CSSParserImpl
 ParseMediaList
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -12616,7 +12616,7 @@ CSSParserImpl
 ParseColorString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -12750,7 +12750,7 @@ CSSParserImpl
 ParseMarginString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -12880,7 +12880,7 @@ CSSParserImpl
 ParseFontFamilyListString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -12983,7 +12983,7 @@ CSSParserImpl
 ParseSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -13229,7 +13229,7 @@ CSSParserImpl
 ParseKeyframeRule
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -13320,7 +13320,7 @@ CSSParserImpl
 ParseKeyframeSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -18125,7 +18125,7 @@ return
 ePriority_Important
 ;
 }
-nsSubstring
+nsAString
 *
 CSSParserImpl
 :
@@ -41847,7 +41847,7 @@ aKeywordTable
 ]
 )
 {
-nsSubstring
+nsAString
 *
 ident
 =
@@ -41961,7 +41961,7 @@ instead
 "
 )
 ;
-nsSubstring
+nsAString
 *
 ident
 =
@@ -54161,7 +54161,7 @@ return
 true
 ;
 }
-nsSubstring
+nsAString
 *
 ident
 =
@@ -55404,7 +55404,7 @@ template
 columns
 '
 >
-nsSubstring
+nsAString
 *
 ident
 =
@@ -107436,7 +107436,7 @@ nsCSSParser
 ParseMediaList
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -107528,7 +107528,7 @@ nsCSSParser
 ParseFontFamilyListString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -107568,7 +107568,7 @@ nsCSSParser
 ParseColorString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -107616,7 +107616,7 @@ nsCSSParser
 ParseMarginString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -107664,7 +107664,7 @@ nsCSSParser
 ParseSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -107708,7 +107708,7 @@ nsCSSParser
 ParseKeyframeRule
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -107744,7 +107744,7 @@ nsCSSParser
 ParseKeyframeSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI

@@ -684,11 +684,11 @@ nsresult
 ActivateCache
 (
 const
-nsCSubstring
+nsACString
 &
 group
 const
-nsCSubstring
+nsACString
 &
 clientID
 )
@@ -697,11 +697,11 @@ bool
 IsActiveCache
 (
 const
-nsCSubstring
+nsACString
 &
 group
 const
-nsCSubstring
+nsACString
 &
 clientID
 )

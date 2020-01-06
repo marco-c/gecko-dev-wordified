@@ -479,7 +479,7 @@ SVGTests
 GetBestLanguagePreferenceRank
 (
 const
-nsSubstring
+nsAString
 &
 aAcceptLangs
 )
@@ -559,7 +559,7 @@ hasMoreTokens
 )
 {
 const
-nsSubstring
+nsAString
 &
 languageToken
 =

@@ -198,7 +198,7 @@ nsNameSpaceMap
 Put
 (
 const
-nsCSubstring
+nsACString
 &
 aURI
 nsIAtom
@@ -305,7 +305,7 @@ nsNameSpaceMap
 GetNameSpaceOf
 (
 const
-nsCSubstring
+nsACString
 &
 aURI
 )

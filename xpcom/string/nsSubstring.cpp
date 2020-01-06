@@ -959,7 +959,7 @@ if
 (
 aFlags
 &
-nsSubstring
+nsAString
 :
 :
 F_SHARED
@@ -984,7 +984,7 @@ if
 (
 aFlags
 &
-nsSubstring
+nsAString
 :
 :
 F_OWNED
@@ -2083,7 +2083,7 @@ flags
 (
 )
 &
-nsSubstring
+nsAString
 :
 :
 F_SHARED
@@ -2146,7 +2146,7 @@ flags
 (
 )
 &
-nsCSubstring
+nsACString
 :
 :
 F_SHARED
@@ -2257,12 +2257,12 @@ flags
 0xFFFF0000
 )
 |
-nsSubstring
+nsAString
 :
 :
 F_SHARED
 |
-nsSubstring
+nsAString
 :
 :
 F_TERMINATED
@@ -2377,12 +2377,12 @@ flags
 0xFFFF0000
 )
 |
-nsCSubstring
+nsACString
 :
 :
 F_SHARED
 |
-nsCSubstring
+nsACString
 :
 :
 F_TERMINATED
@@ -2537,7 +2537,7 @@ this
 /
 /
 define
-nsSubstring
+nsAString
 #
 include
 "
@@ -2572,7 +2572,7 @@ h
 /
 /
 define
-nsCSubstring
+nsACString
 #
 include
 "

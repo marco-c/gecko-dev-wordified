@@ -296,7 +296,7 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 nsFtpControlConnection
 (
 const
-nsCSubstring
+nsACString
 &
 host
 uint32_t
@@ -325,7 +325,7 @@ nsresult
 Write
 (
 const
-nsCSubstring
+nsACString
 &
 command
 )

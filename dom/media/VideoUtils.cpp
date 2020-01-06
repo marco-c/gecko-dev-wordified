@@ -2742,7 +2742,7 @@ hasMoreTokens
 )
 {
 const
-nsSubstring
+nsAString
 &
 token
 =

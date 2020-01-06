@@ -510,7 +510,7 @@ explicit
 nsWhitespaceTokenizerTemplate
 (
 const
-nsSubstring
+nsAString
 &
 aSource
 )
@@ -559,7 +559,7 @@ explicit
 nsCWhitespaceTokenizerTemplate
 (
 const
-nsCSubstring
+nsACString
 &
 aSource
 )
