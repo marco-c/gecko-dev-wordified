@@ -209,9 +209,6 @@ MediaFormatReader
 (
 this
 new
-mp3
-:
-:
 MP3Demuxer
 (
 GetResource

@@ -272,9 +272,6 @@ ByteReader
 namespace
 mozilla
 {
-namespace
-mp3
-{
 /
 /
 MP3Demuxer
@@ -5146,11 +5143,6 @@ return
 0
 ;
 }
-}
-/
-/
-namespace
-mp3
 }
 /
 /

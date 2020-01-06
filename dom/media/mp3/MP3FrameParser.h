@@ -88,9 +88,6 @@ h
 namespace
 mozilla
 {
-namespace
-mp3
-{
 /
 /
 ID3
@@ -2392,11 +2389,6 @@ mPrevFrame
 ;
 }
 ;
-}
-/
-/
-namespace
-mp3
 }
 /
 /

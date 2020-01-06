@@ -235,9 +235,6 @@ ByteReader
 namespace
 mozilla
 {
-namespace
-mp3
-{
 /
 /
 FrameParser
@@ -4191,11 +4188,6 @@ mPos
 )
 ;
 }
-}
-/
-/
-namespace
-mp3
 }
 /
 /

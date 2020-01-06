@@ -2103,9 +2103,6 @@ MediaFormatReader
 (
 aDecoder
 new
-mp3
-:
-:
 MP3Demuxer
 (
 aDecoder
