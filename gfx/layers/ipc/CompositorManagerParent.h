@@ -321,6 +321,11 @@ DeallocPCompositorManagerParent
 )
 override
 ;
+void
+DeferredDestroy
+(
+)
+;
 RefPtr
 <
 CompositorThreadHolder
