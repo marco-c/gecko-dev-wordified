@@ -4935,10 +4935,6 @@ nsIPrefBranch
 branch
 )
 :
-mHardwareH264Enabled
-(
-false
-)
 mHardwareH264Supported
 (
 false
@@ -5756,9 +5752,6 @@ these
 }
 private
 :
-bool
-mHardwareH264Enabled
-;
 bool
 mHardwareH264Supported
 ;
