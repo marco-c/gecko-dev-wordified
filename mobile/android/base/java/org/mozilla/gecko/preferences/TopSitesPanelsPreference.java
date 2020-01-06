@@ -176,17 +176,6 @@ builder
 .
 setView
 (
-R
-.
-layout
-.
-preference_topsites_panel_dialog
-)
-;
-builder
-.
-setView
-(
 inflater
 .
 inflate
