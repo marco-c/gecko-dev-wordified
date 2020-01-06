@@ -812,35 +812,6 @@ build_type
 )
 )
         
-#
-TODO
-:
-Make
-non
--
-nightly
-(
-i
-.
-e
-.
-windows
-CI
-builds
-)
-Tier
-1
-once
-green
-on
-        
-#
-central
-inbound
-autoland
-and
-try
-        
 treeherder
 .
 setdefault
@@ -849,10 +820,6 @@ setdefault
 tier
 '
 1
-if
-is_nightly
-else
-3
 )
         
 treeherder
