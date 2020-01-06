@@ -3278,15 +3278,12 @@ static
 PrefSaveData
 pref_savePrefs
 (
-PLDHashTable
-*
-aTable
 )
 {
 PrefSaveData
 savedPrefs
 (
-aTable
+gHashTable
 -
 >
 EntryCount
@@ -3299,7 +3296,7 @@ for
 auto
 iter
 =
-aTable
+gHashTable
 -
 >
 Iter
@@ -25835,7 +25832,6 @@ PrefSaveData
 (
 pref_savePrefs
 (
-gHashTable
 )
 )
 ;
@@ -26110,7 +26106,6 @@ prefsData
 =
 pref_savePrefs
 (
-gHashTable
 )
 ;
 return
