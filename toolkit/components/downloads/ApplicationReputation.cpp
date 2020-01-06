@@ -1240,7 +1240,7 @@ DownloadType
 GetDownloadType
 (
 const
-nsAString
+nsACString
 &
 aFilename
 )
@@ -2740,7 +2740,7 @@ this
 }
 static
 const
-char16_t
+char
 *
 const
 kBinaryFileExtensions
@@ -2762,28 +2762,24 @@ Chrome
 extension
 /
 /
-u
 "
 .
 001
 "
 /
 /
-u
 "
 .
 7z
 "
 /
 /
-u
 "
 .
 ace
 "
 /
 /
-u
 "
 .
 action
@@ -2794,7 +2790,6 @@ Mac
 script
 /
 /
-u
 "
 .
 ad
@@ -2802,7 +2797,6 @@ ad
 /
 /
 Windows
-u
 "
 .
 ade
@@ -2811,7 +2805,6 @@ ade
 /
 MS
 Access
-u
 "
 .
 adp
@@ -2820,7 +2813,6 @@ adp
 /
 MS
 Access
-u
 "
 .
 apk
@@ -2829,7 +2821,6 @@ apk
 /
 Android
 package
-u
 "
 .
 app
@@ -2838,7 +2829,6 @@ app
 /
 Executable
 application
-u
 "
 .
 application
@@ -2847,7 +2837,6 @@ application
 /
 MS
 ClickOnce
-u
 "
 .
 appref
@@ -2860,19 +2849,16 @@ MS
 ClickOnce
 /
 /
-u
 "
 .
 arc
 "
 /
 /
-u
 "
 .
 arj
 "
-u
 "
 .
 as
@@ -2881,7 +2867,6 @@ as
 /
 Mac
 archive
-u
 "
 .
 asp
@@ -2891,7 +2876,6 @@ asp
 Windows
 Server
 script
-u
 "
 .
 asx
@@ -2903,19 +2887,16 @@ Media
 Player
 /
 /
-u
 "
 .
 b64
 "
 /
 /
-u
 "
 .
 balz
 "
-u
 "
 .
 bas
@@ -2924,7 +2905,6 @@ bas
 /
 Basic
 script
-u
 "
 .
 bash
@@ -2933,7 +2913,6 @@ bash
 /
 Linux
 shell
-u
 "
 .
 bat
@@ -2944,19 +2923,16 @@ Windows
 shell
 /
 /
-u
 "
 .
 bhx
 "
 /
 /
-u
 "
 .
 bin
 "
-u
 "
 .
 bz
@@ -2968,7 +2944,6 @@ archive
 (
 bzip
 )
-u
 "
 .
 bz2
@@ -2980,7 +2955,6 @@ archive
 (
 bzip2
 )
-u
 "
 .
 bzip2
@@ -2992,7 +2966,6 @@ archive
 (
 bzip2
 )
-u
 "
 .
 cab
@@ -3001,7 +2974,6 @@ cab
 /
 Windows
 archive
-u
 "
 .
 cdr
@@ -3011,7 +2983,6 @@ cdr
 Mac
 disk
 image
-u
 "
 .
 cfg
@@ -3019,7 +2990,6 @@ cfg
 /
 /
 Windows
-u
 "
 .
 chi
@@ -3028,7 +2998,6 @@ chi
 /
 Windows
 Help
-u
 "
 .
 chm
@@ -3037,7 +3006,6 @@ chm
 /
 Windows
 Help
-u
 "
 .
 class
@@ -3045,7 +3013,6 @@ class
 /
 /
 Java
-u
 "
 .
 cmd
@@ -3054,7 +3021,6 @@ cmd
 /
 Windows
 executable
-u
 "
 .
 com
@@ -3063,7 +3029,6 @@ com
 /
 Windows
 executable
-u
 "
 .
 command
@@ -3072,7 +3037,6 @@ command
 /
 Mac
 script
-u
 "
 .
 cpgz
@@ -3083,12 +3047,10 @@ Mac
 archive
 /
 /
-u
 "
 .
 cpio
 "
-u
 "
 .
 cpl
@@ -3097,7 +3059,6 @@ cpl
 /
 Windows
 executable
-u
 "
 .
 crt
@@ -3107,7 +3068,6 @@ crt
 Windows
 signed
 certificate
-u
 "
 .
 crx
@@ -3116,7 +3076,6 @@ crx
 /
 Chrome
 extensions
-u
 "
 .
 csh
@@ -3125,7 +3084,6 @@ csh
 /
 Linux
 shell
-u
 "
 .
 dart
@@ -3135,7 +3093,6 @@ dart
 Mac
 disk
 image
-u
 "
 .
 dc42
@@ -3145,7 +3102,6 @@ dc42
 Apple
 DiskCopy
 Image
-u
 "
 .
 deb
@@ -3154,7 +3110,6 @@ deb
 /
 Linux
 package
-u
 "
 .
 dex
@@ -3162,7 +3117,6 @@ dex
 /
 /
 Android
-u
 "
 .
 diskcopy42
@@ -3172,7 +3126,6 @@ diskcopy42
 Apple
 DiskCopy
 Image
-u
 "
 .
 dll
@@ -3181,7 +3134,6 @@ dll
 /
 Windows
 executable
-u
 "
 .
 dmg
@@ -3191,7 +3143,6 @@ dmg
 Mac
 disk
 image
-u
 "
 .
 dmgpart
@@ -3203,7 +3154,6 @@ disk
 image
 /
 /
-u
 "
 .
 docb
@@ -3214,7 +3164,6 @@ MS
 Office
 /
 /
-u
 "
 .
 docm
@@ -3225,7 +3174,6 @@ MS
 Word
 /
 /
-u
 "
 .
 docx
@@ -3236,7 +3184,6 @@ MS
 Word
 /
 /
-u
 "
 .
 dotm
@@ -3247,7 +3194,6 @@ MS
 Word
 /
 /
-u
 "
 .
 dott
@@ -3256,7 +3202,6 @@ dott
 /
 MS
 Office
-u
 "
 .
 drv
@@ -3265,7 +3210,6 @@ drv
 /
 Windows
 driver
-u
 "
 .
 dvdr
@@ -3275,7 +3219,6 @@ dvdr
 Mac
 Disk
 image
-u
 "
 .
 efi
@@ -3283,7 +3226,6 @@ efi
 /
 /
 Firmware
-u
 "
 .
 eml
@@ -3292,7 +3234,6 @@ eml
 /
 MS
 Outlook
-u
 "
 .
 exe
@@ -3303,12 +3244,10 @@ Windows
 executable
 /
 /
-u
 "
 .
 fat
 "
-u
 "
 .
 fon
@@ -3317,7 +3256,6 @@ fon
 /
 Windows
 font
-u
 "
 .
 fxp
@@ -3326,7 +3264,6 @@ fxp
 /
 MS
 FoxPro
-u
 "
 .
 gadget
@@ -3334,7 +3271,6 @@ gadget
 /
 /
 Windows
-u
 "
 .
 grp
@@ -3342,7 +3278,6 @@ grp
 /
 /
 Windows
-u
 "
 .
 gz
@@ -3354,7 +3289,6 @@ archive
 (
 gzip
 )
-u
 "
 .
 gzip
@@ -3366,7 +3300,6 @@ archive
 (
 gzip
 )
-u
 "
 .
 hfs
@@ -3376,7 +3309,6 @@ hfs
 Mac
 disk
 image
-u
 "
 .
 hlp
@@ -3385,7 +3317,6 @@ hlp
 /
 Windows
 Help
-u
 "
 .
 hqx
@@ -3394,7 +3325,6 @@ hqx
 /
 Mac
 archive
-u
 "
 .
 hta
@@ -3404,17 +3334,14 @@ hta
 HTML
 trusted
 application
-u
 "
 .
 htm
 "
-u
 "
 .
 html
 "
-u
 "
 .
 htt
@@ -3424,7 +3351,6 @@ htt
 MS
 HTML
 template
-u
 "
 .
 img
@@ -3434,7 +3360,6 @@ img
 Mac
 disk
 image
-u
 "
 .
 imgpart
@@ -3444,7 +3369,6 @@ imgpart
 Mac
 disk
 image
-u
 "
 .
 inf
@@ -3453,7 +3377,6 @@ inf
 /
 Windows
 installer
-u
 "
 .
 ini
@@ -3463,7 +3386,6 @@ ini
 Generic
 config
 file
-u
 "
 .
 ins
@@ -3474,7 +3396,6 @@ IIS
 config
 /
 /
-u
 "
 .
 inx
@@ -3482,7 +3403,6 @@ inx
 /
 /
 InstallShield
-u
 "
 .
 iso
@@ -3491,7 +3411,6 @@ iso
 /
 CD
 image
-u
 "
 .
 isp
@@ -3502,7 +3421,6 @@ IIS
 config
 /
 /
-u
 "
 .
 isu
@@ -3510,7 +3428,6 @@ isu
 /
 /
 InstallShield
-u
 "
 .
 jar
@@ -3518,7 +3435,6 @@ jar
 /
 /
 Java
-u
 "
 .
 jnlp
@@ -3528,7 +3444,6 @@ jnlp
 Java
 /
 /
-u
 "
 .
 job
@@ -3536,7 +3451,6 @@ job
 /
 /
 Windows
-u
 "
 .
 js
@@ -3545,7 +3459,6 @@ js
 /
 JavaScript
 script
-u
 "
 .
 jse
@@ -3553,7 +3466,6 @@ jse
 /
 /
 JScript
-u
 "
 .
 ksh
@@ -3564,12 +3476,10 @@ Linux
 shell
 /
 /
-u
 "
 .
 lha
 "
-u
 "
 .
 lnk
@@ -3577,7 +3487,6 @@ lnk
 /
 /
 Windows
-u
 "
 .
 local
@@ -3587,40 +3496,34 @@ local
 Windows
 /
 /
-u
 "
 .
 lpaq1
 "
 /
 /
-u
 "
 .
 lpaq5
 "
 /
 /
-u
 "
 .
 lpaq8
 "
 /
 /
-u
 "
 .
 lzh
 "
 /
 /
-u
 "
 .
 lzma
 "
-u
 "
 .
 mad
@@ -3629,7 +3532,6 @@ mad
 /
 MS
 Access
-u
 "
 .
 maf
@@ -3638,7 +3540,6 @@ maf
 /
 MS
 Access
-u
 "
 .
 mag
@@ -3647,7 +3548,6 @@ mag
 /
 MS
 Access
-u
 "
 .
 mam
@@ -3656,7 +3556,6 @@ mam
 /
 MS
 Access
-u
 "
 .
 manifest
@@ -3664,7 +3563,6 @@ manifest
 /
 /
 Windows
-u
 "
 .
 maq
@@ -3673,7 +3571,6 @@ maq
 /
 MS
 Access
-u
 "
 .
 mar
@@ -3682,7 +3579,6 @@ mar
 /
 MS
 Access
-u
 "
 .
 mas
@@ -3691,7 +3587,6 @@ mas
 /
 MS
 Access
-u
 "
 .
 mat
@@ -3700,7 +3595,6 @@ mat
 /
 MS
 Access
-u
 "
 .
 mau
@@ -3709,7 +3603,6 @@ mau
 /
 Media
 attachment
-u
 "
 .
 mav
@@ -3718,7 +3611,6 @@ mav
 /
 MS
 Access
-u
 "
 .
 maw
@@ -3727,7 +3619,6 @@ maw
 /
 MS
 Access
-u
 "
 .
 mda
@@ -3736,7 +3627,6 @@ mda
 /
 MS
 Access
-u
 "
 .
 mdb
@@ -3745,7 +3635,6 @@ mdb
 /
 MS
 Access
-u
 "
 .
 mde
@@ -3754,7 +3643,6 @@ mde
 /
 MS
 Access
-u
 "
 .
 mdt
@@ -3763,7 +3651,6 @@ mdt
 /
 MS
 Access
-u
 "
 .
 mdw
@@ -3772,7 +3659,6 @@ mdw
 /
 MS
 Access
-u
 "
 .
 mdz
@@ -3781,7 +3667,6 @@ mdz
 /
 MS
 Access
-u
 "
 .
 mht
@@ -3790,7 +3675,6 @@ mht
 /
 MS
 HTML
-u
 "
 .
 mhtml
@@ -3799,7 +3683,6 @@ mhtml
 /
 MS
 HTML
-u
 "
 .
 mim
@@ -3808,7 +3691,6 @@ mim
 /
 MS
 Mail
-u
 "
 .
 mmc
@@ -3817,7 +3699,6 @@ mmc
 /
 MS
 Office
-u
 "
 .
 mof
@@ -3825,7 +3706,6 @@ mof
 /
 /
 Windows
-u
 "
 .
 mpkg
@@ -3834,7 +3714,6 @@ mpkg
 /
 Mac
 installer
-u
 "
 .
 msc
@@ -3843,7 +3722,6 @@ msc
 /
 Windows
 executable
-u
 "
 .
 msg
@@ -3852,7 +3730,6 @@ msg
 /
 MS
 Outlook
-u
 "
 .
 msh
@@ -3861,7 +3738,6 @@ msh
 /
 Windows
 shell
-u
 "
 .
 msh1
@@ -3870,7 +3746,6 @@ msh1
 /
 Windows
 shell
-u
 "
 .
 msh1xml
@@ -3879,7 +3754,6 @@ msh1xml
 /
 Windows
 shell
-u
 "
 .
 msh2
@@ -3888,7 +3762,6 @@ msh2
 /
 Windows
 shell
-u
 "
 .
 msh2xml
@@ -3897,7 +3770,6 @@ msh2xml
 /
 Windows
 shell
-u
 "
 .
 mshxml
@@ -3905,7 +3777,6 @@ mshxml
 /
 /
 Windows
-u
 "
 .
 msi
@@ -3914,7 +3785,6 @@ msi
 /
 Windows
 installer
-u
 "
 .
 msp
@@ -3923,7 +3793,6 @@ msp
 /
 Windows
 installer
-u
 "
 .
 mst
@@ -3932,7 +3801,6 @@ mst
 /
 Windows
 installer
-u
 "
 .
 ndif
@@ -3944,7 +3812,6 @@ disk
 image
 /
 /
-u
 "
 .
 ntfs
@@ -3952,7 +3819,6 @@ ntfs
 /
 /
 7z
-u
 "
 .
 ocx
@@ -3960,7 +3826,6 @@ ocx
 /
 /
 ActiveX
-u
 "
 .
 ops
@@ -3971,7 +3836,6 @@ MS
 Office
 /
 /
-u
 "
 .
 out
@@ -3982,7 +3846,6 @@ Linux
 binary
 /
 /
-u
 "
 .
 paf
@@ -3993,33 +3856,28 @@ PortableApps
 package
 /
 /
-u
 "
 .
 paq8f
 "
 /
 /
-u
 "
 .
 paq8jd
 "
 /
 /
-u
 "
 .
 paq8l
 "
 /
 /
-u
 "
 .
 paq8o
 "
-u
 "
 .
 partial
@@ -4027,7 +3885,6 @@ partial
 /
 /
 Downloads
-u
 "
 .
 pax
@@ -4036,7 +3893,6 @@ pax
 /
 Mac
 archive
-u
 "
 .
 pcd
@@ -4046,7 +3902,6 @@ pcd
 Microsoft
 Visual
 Test
-u
 "
 .
 pdf
@@ -4057,12 +3912,10 @@ Adobe
 Acrobat
 /
 /
-u
 "
 .
 pea
 "
-u
 "
 .
 pet
@@ -4071,7 +3924,6 @@ pet
 /
 Linux
 package
-u
 "
 .
 pif
@@ -4079,7 +3931,6 @@ pif
 /
 /
 Windows
-u
 "
 .
 pkg
@@ -4088,7 +3939,6 @@ pkg
 /
 Mac
 installer
-u
 "
 .
 pl
@@ -4097,7 +3947,6 @@ pl
 /
 Perl
 script
-u
 "
 .
 plg
@@ -4109,7 +3958,6 @@ Visual
 Studio
 /
 /
-u
 "
 .
 potx
@@ -4120,7 +3968,6 @@ MS
 PowerPoint
 /
 /
-u
 "
 .
 ppam
@@ -4131,7 +3978,6 @@ MS
 PowerPoint
 /
 /
-u
 "
 .
 ppsx
@@ -4142,7 +3988,6 @@ MS
 PowerPoint
 /
 /
-u
 "
 .
 pptm
@@ -4153,7 +3998,6 @@ MS
 PowerPoint
 /
 /
-u
 "
 .
 pptx
@@ -4162,7 +4006,6 @@ pptx
 /
 MS
 PowerPoint
-u
 "
 .
 prf
@@ -4171,7 +4014,6 @@ prf
 /
 MS
 Outlook
-u
 "
 .
 prg
@@ -4179,7 +4021,6 @@ prg
 /
 /
 Windows
-u
 "
 .
 ps1
@@ -4188,7 +4029,6 @@ ps1
 /
 Windows
 shell
-u
 "
 .
 ps1xml
@@ -4197,7 +4037,6 @@ ps1xml
 /
 Windows
 shell
-u
 "
 .
 ps2
@@ -4206,7 +4045,6 @@ ps2
 /
 Windows
 shell
-u
 "
 .
 ps2xml
@@ -4215,7 +4053,6 @@ ps2xml
 /
 Windows
 shell
-u
 "
 .
 psc1
@@ -4224,7 +4061,6 @@ psc1
 /
 Windows
 shell
-u
 "
 .
 psc2
@@ -4233,7 +4069,6 @@ psc2
 /
 Windows
 shell
-u
 "
 .
 pst
@@ -4242,7 +4077,6 @@ pst
 /
 MS
 Outlook
-u
 "
 .
 pup
@@ -4251,7 +4085,6 @@ pup
 /
 Linux
 package
-u
 "
 .
 py
@@ -4260,7 +4093,6 @@ py
 /
 Python
 script
-u
 "
 .
 pyc
@@ -4269,7 +4101,6 @@ pyc
 /
 Python
 binary
-u
 "
 .
 pyw
@@ -4280,229 +4111,196 @@ Python
 GUI
 /
 /
-u
 "
 .
 quad
 "
 /
 /
-u
 "
 .
 r00
 "
 /
 /
-u
 "
 .
 r01
 "
 /
 /
-u
 "
 .
 r02
 "
 /
 /
-u
 "
 .
 r03
 "
 /
 /
-u
 "
 .
 r04
 "
 /
 /
-u
 "
 .
 r05
 "
 /
 /
-u
 "
 .
 r06
 "
 /
 /
-u
 "
 .
 r07
 "
 /
 /
-u
 "
 .
 r08
 "
 /
 /
-u
 "
 .
 r09
 "
 /
 /
-u
 "
 .
 r10
 "
 /
 /
-u
 "
 .
 r11
 "
 /
 /
-u
 "
 .
 r12
 "
 /
 /
-u
 "
 .
 r13
 "
 /
 /
-u
 "
 .
 r14
 "
 /
 /
-u
 "
 .
 r15
 "
 /
 /
-u
 "
 .
 r16
 "
 /
 /
-u
 "
 .
 r17
 "
 /
 /
-u
 "
 .
 r18
 "
 /
 /
-u
 "
 .
 r19
 "
 /
 /
-u
 "
 .
 r20
 "
 /
 /
-u
 "
 .
 r21
 "
 /
 /
-u
 "
 .
 r22
 "
 /
 /
-u
 "
 .
 r23
 "
 /
 /
-u
 "
 .
 r24
 "
 /
 /
-u
 "
 .
 r25
 "
 /
 /
-u
 "
 .
 r26
 "
 /
 /
-u
 "
 .
 r27
 "
 /
 /
-u
 "
 .
 r28
 "
 /
 /
-u
 "
 .
 r29
 "
 /
 /
-u
 "
 .
 rar
 "
-u
 "
 .
 rb
@@ -4511,7 +4309,6 @@ rb
 /
 Ruby
 script
-u
 "
 .
 reg
@@ -4520,7 +4317,6 @@ reg
 /
 Windows
 Registry
-u
 "
 .
 rels
@@ -4531,7 +4327,6 @@ MS
 Office
 /
 /
-u
 "
 .
 rgs
@@ -4540,7 +4335,6 @@ rgs
 /
 Windows
 Registry
-u
 "
 .
 rpm
@@ -4551,7 +4345,6 @@ Linux
 package
 /
 /
-u
 "
 .
 rtf
@@ -4562,7 +4355,6 @@ MS
 Office
 /
 /
-u
 "
 .
 run
@@ -4571,7 +4363,6 @@ run
 /
 Linux
 shell
-u
 "
 .
 scf
@@ -4580,7 +4371,6 @@ scf
 /
 Windows
 shell
-u
 "
 .
 scr
@@ -4588,7 +4378,6 @@ scr
 /
 /
 Windows
-u
 "
 .
 sct
@@ -4597,7 +4386,6 @@ sct
 /
 Windows
 shell
-u
 "
 .
 search
@@ -4607,7 +4395,6 @@ ms
 /
 /
 Windows
-u
 "
 .
 sh
@@ -4616,7 +4403,6 @@ sh
 /
 Linux
 shell
-u
 "
 .
 shar
@@ -4625,7 +4411,6 @@ shar
 /
 Linux
 shell
-u
 "
 .
 shb
@@ -4633,7 +4418,6 @@ shb
 /
 /
 Windows
-u
 "
 .
 shs
@@ -4644,7 +4428,6 @@ Windows
 shell
 /
 /
-u
 "
 .
 sldm
@@ -4655,7 +4438,6 @@ MS
 PowerPoint
 /
 /
-u
 "
 .
 sldx
@@ -4664,7 +4446,6 @@ sldx
 /
 MS
 PowerPoint
-u
 "
 .
 slp
@@ -4673,7 +4454,6 @@ slp
 /
 Linux
 package
-u
 "
 .
 smi
@@ -4683,7 +4463,6 @@ smi
 Mac
 disk
 image
-u
 "
 .
 sparsebundle
@@ -4693,7 +4472,6 @@ sparsebundle
 Mac
 disk
 image
-u
 "
 .
 sparseimage
@@ -4703,7 +4481,6 @@ sparseimage
 Mac
 disk
 image
-u
 "
 .
 spl
@@ -4714,17 +4491,14 @@ Adobe
 Flash
 /
 /
-u
 "
 .
 squashfs
 "
-u
 "
 .
 svg
 "
-u
 "
 .
 swf
@@ -4733,7 +4507,6 @@ swf
 /
 Adobe
 Flash
-u
 "
 .
 swm
@@ -4742,7 +4515,6 @@ swm
 /
 Windows
 Imaging
-u
 "
 .
 sys
@@ -4750,7 +4522,6 @@ sys
 /
 /
 Windows
-u
 "
 .
 tar
@@ -4759,7 +4530,6 @@ tar
 /
 Linux
 archive
-u
 "
 .
 taz
@@ -4771,7 +4541,6 @@ archive
 (
 bzip2
 )
-u
 "
 .
 tbz
@@ -4783,7 +4552,6 @@ archive
 (
 bzip2
 )
-u
 "
 .
 tbz2
@@ -4795,7 +4563,6 @@ archive
 (
 bzip2
 )
-u
 "
 .
 tcsh
@@ -4804,7 +4571,6 @@ tcsh
 /
 Linux
 shell
-u
 "
 .
 tgz
@@ -4818,7 +4584,6 @@ gzip
 )
 /
 /
-u
 "
 .
 toast
@@ -4830,7 +4595,6 @@ disk
 image
 /
 /
-u
 "
 .
 torrent
@@ -4838,7 +4602,6 @@ torrent
 /
 /
 Bittorrent
-u
 "
 .
 tpz
@@ -4850,7 +4613,6 @@ archive
 (
 gzip
 )
-u
 "
 .
 txz
@@ -4862,7 +4624,6 @@ archive
 (
 xz
 )
-u
 "
 .
 tz
@@ -4876,7 +4637,6 @@ gzip
 )
 /
 /
-u
 "
 .
 u3p
@@ -4886,7 +4646,6 @@ u3p
 U3
 Smart
 Apps
-u
 "
 .
 udf
@@ -4895,7 +4654,6 @@ udf
 /
 MS
 Excel
-u
 "
 .
 udif
@@ -4905,7 +4663,6 @@ udif
 Mac
 disk
 image
-u
 "
 .
 url
@@ -4915,19 +4672,16 @@ url
 Windows
 /
 /
-u
 "
 .
 uu
 "
 /
 /
-u
 "
 .
 uue
 "
-u
 "
 .
 vb
@@ -4937,7 +4691,6 @@ vb
 Visual
 Basic
 script
-u
 "
 .
 vbe
@@ -4947,7 +4700,6 @@ vbe
 Visual
 Basic
 script
-u
 "
 .
 vbs
@@ -4959,7 +4711,6 @@ Basic
 script
 /
 /
-u
 "
 .
 vbscript
@@ -4969,7 +4720,6 @@ vbscript
 Visual
 Basic
 script
-u
 "
 .
 vhd
@@ -4980,7 +4730,6 @@ Windows
 virtual
 hard
 drive
-u
 "
 .
 vhdx
@@ -4991,7 +4740,6 @@ Windows
 virtual
 hard
 drive
-u
 "
 .
 vmdk
@@ -5001,7 +4749,6 @@ vmdk
 VMware
 virtual
 disk
-u
 "
 .
 vsd
@@ -5010,7 +4757,6 @@ vsd
 /
 MS
 Visio
-u
 "
 .
 vsmacros
@@ -5020,7 +4766,6 @@ vsmacros
 MS
 Visual
 Studio
-u
 "
 .
 vss
@@ -5029,7 +4774,6 @@ vss
 /
 MS
 Visio
-u
 "
 .
 vst
@@ -5038,7 +4782,6 @@ vst
 /
 MS
 Visio
-u
 "
 .
 vsw
@@ -5047,7 +4790,6 @@ vsw
 /
 MS
 Visio
-u
 "
 .
 website
@@ -5055,7 +4797,6 @@ website
 /
 /
 Windows
-u
 "
 .
 wim
@@ -5066,7 +4807,6 @@ Windows
 Imaging
 /
 /
-u
 "
 .
 workflow
@@ -5077,7 +4817,6 @@ Mac
 Automator
 /
 /
-u
 "
 .
 wrc
@@ -5086,7 +4825,6 @@ wrc
 /
 FreeArc
 archive
-u
 "
 .
 ws
@@ -5095,7 +4833,6 @@ ws
 /
 Windows
 script
-u
 "
 .
 wsc
@@ -5104,7 +4841,6 @@ wsc
 /
 Windows
 script
-u
 "
 .
 wsf
@@ -5113,7 +4849,6 @@ wsf
 /
 Windows
 script
-u
 "
 .
 wsh
@@ -5122,7 +4857,6 @@ wsh
 /
 Windows
 script
-u
 "
 .
 xar
@@ -5131,7 +4865,6 @@ xar
 /
 MS
 Excel
-u
 "
 .
 xbap
@@ -5141,22 +4874,18 @@ xbap
 XAML
 Browser
 Application
-u
 "
 .
 xhtml
 "
-u
 "
 .
 xhtm
 "
-u
 "
 .
 xht
 "
-u
 "
 .
 xip
@@ -5167,7 +4896,6 @@ Mac
 archive
 /
 /
-u
 "
 .
 xlsm
@@ -5178,7 +4906,6 @@ MS
 Excel
 /
 /
-u
 "
 .
 xlsx
@@ -5189,7 +4916,6 @@ MS
 Excel
 /
 /
-u
 "
 .
 xltm
@@ -5200,7 +4926,6 @@ MS
 Excel
 /
 /
-u
 "
 .
 xltx
@@ -5209,12 +4934,10 @@ xltx
 /
 MS
 Excel
-u
 "
 .
 xml
 "
-u
 "
 .
 xnk
@@ -5223,7 +4946,6 @@ xnk
 /
 MS
 Exchange
-u
 "
 .
 xrm
@@ -5233,7 +4955,6 @@ ms
 /
 /
 Windows
-u
 "
 .
 xsl
@@ -5244,12 +4965,10 @@ XML
 Stylesheet
 /
 /
-u
 "
 .
 xxe
 "
-u
 "
 .
 xz
@@ -5261,7 +4980,6 @@ archive
 (
 xz
 )
-u
 "
 .
 z
@@ -5281,7 +4999,6 @@ Mac
 Linux
 see
 1167493
-u
 "
 .
 zip
@@ -5292,7 +5009,6 @@ Generic
 archive
 #
 endif
-u
 "
 .
 zipx
@@ -5302,7 +5018,6 @@ zipx
 WinZip
 /
 /
-u
 "
 .
 zpaq
@@ -5317,7 +5032,7 @@ IsBinaryFile
 (
 )
 {
-nsString
+nsCString
 fileName
 ;
 nsresult
@@ -5377,10 +5092,7 @@ this
 p
 ]
 "
-NS_ConvertUTF16toUTF8
-(
 fileName
-)
 .
 get
 (
@@ -5413,7 +5125,7 @@ if
 StringEndsWith
 (
 fileName
-nsDependentString
+nsDependentCString
 (
 kBinaryFileExtensions
 [
@@ -5442,7 +5154,7 @@ PendingLookup
 GetDownloadType
 (
 const
-nsAString
+nsACString
 &
 aFilename
 )
@@ -5489,7 +5201,7 @@ if
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5512,7 +5224,7 @@ if
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5535,7 +5247,7 @@ if
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5548,7 +5260,7 @@ app
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5561,7 +5273,7 @@ cdr
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5574,7 +5286,7 @@ dart
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5587,7 +5299,7 @@ dc42
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5600,7 +5312,7 @@ diskcopy42
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5613,7 +5325,7 @@ dmg
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5626,7 +5338,7 @@ dmgpart
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5639,7 +5351,7 @@ dvdr
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5652,7 +5364,7 @@ img
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5665,7 +5377,7 @@ imgpart
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5678,7 +5390,7 @@ iso
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5691,7 +5403,7 @@ mpkg
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5704,7 +5416,7 @@ ndif
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5717,7 +5429,7 @@ pkg
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5730,7 +5442,7 @@ smi
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5743,7 +5455,7 @@ sparsebundle
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5756,7 +5468,7 @@ sparseimage
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -5769,7 +5481,7 @@ toast
 StringEndsWith
 (
 aFilename
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 .
@@ -9692,7 +9404,7 @@ Data
 )
 )
 ;
-nsString
+nsCString
 fileName
 ;
 rv
@@ -9715,10 +9427,7 @@ mRequest
 .
 set_file_basename
 (
-NS_ConvertUTF16toUTF8
-(
 fileName
-)
 .
 get
 (
