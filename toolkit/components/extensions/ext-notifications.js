@@ -806,6 +806,10 @@ Support
 the
 byUser
 argument
+(
+bug
+1413188
+)
 .
 fire
 .
