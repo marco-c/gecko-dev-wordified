@@ -882,15 +882,6 @@ element
 uint64_t
 state
 )
-SERVO_BINDING_FUNC
-(
-Servo_StyleSet_HasDocumentStateDependency
-bool
-RawServoStyleSetBorrowed
-set
-uint64_t
-state
-)
 /
 /
 CSSRuleList
