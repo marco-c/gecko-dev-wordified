@@ -189,6 +189,16 @@ max
 {
 Number
 }
+step
+*
+{
+Number
+}
+stepBase
+*
+{
+Number
+}
 firstDayOfWeek
 *
 {
@@ -285,6 +295,8 @@ month
 day
 min
 max
+step
+stepBase
 firstDayOfWeek
 weekends
 monthStrings
@@ -309,6 +321,8 @@ month
 day
 min
 max
+step
+stepBase
 firstDayOfWeek
 weekends
 calViewSize
