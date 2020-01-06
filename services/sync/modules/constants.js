@@ -1090,6 +1090,14 @@ for
 first
 sync
 "
+kSyncNotConfigured
+:
+"
+Sync
+is
+not
+configured
+"
 DEVICE_TYPE_DESKTOP
 :
 "
