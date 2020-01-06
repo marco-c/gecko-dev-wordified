@@ -1460,6 +1460,7 @@ nsAtom
 &
 aChildTag
 )
+const
 override
 ;
 /

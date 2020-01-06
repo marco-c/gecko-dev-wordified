@@ -19542,6 +19542,7 @@ nsIContent
 &
 aChild
 )
+const
 {
 switch
 (
@@ -19599,6 +19600,7 @@ nsAtom
 &
 aChildTag
 )
+const
 {
 switch
 (
@@ -19656,6 +19658,7 @@ nsIContent
 &
 aChild
 )
+const
 {
 switch
 (
@@ -19719,6 +19722,7 @@ nsAtom
 &
 aChildTag
 )
+const
 {
 return
 true

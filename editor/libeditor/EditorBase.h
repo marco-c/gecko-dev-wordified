@@ -4280,6 +4280,7 @@ nsIContent
 &
 aChild
 )
+const
 ;
 bool
 CanContainTag
@@ -4291,6 +4292,7 @@ nsAtom
 &
 aTag
 )
+const
 ;
 bool
 TagCanContain
@@ -4302,6 +4304,7 @@ nsIContent
 &
 aChild
 )
+const
 ;
 virtual
 bool
@@ -4314,6 +4317,7 @@ nsAtom
 &
 aChildTag
 )
+const
 ;
 /
 *
