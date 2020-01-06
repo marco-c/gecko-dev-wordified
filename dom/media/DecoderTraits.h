@@ -156,7 +156,7 @@ class
 MediaDecoderOwner
 ;
 class
-MediaDecoderReader
+MediaFormatReader
 ;
 class
 MediaResource
@@ -337,7 +337,7 @@ the
 reader
 .
 static
-MediaDecoderReader
+MediaFormatReader
 *
 CreateReader
 (

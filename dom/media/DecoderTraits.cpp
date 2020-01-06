@@ -1713,7 +1713,7 @@ aDiagnostics
 static
 *
 /
-MediaDecoderReader
+MediaFormatReader
 *
 DecoderTraits
 :
@@ -1736,7 +1736,7 @@ NS_IsMainThread
 )
 )
 ;
-MediaDecoderReader
+MediaFormatReader
 *
 decoderReader
 =

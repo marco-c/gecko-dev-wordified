@@ -178,7 +178,7 @@ mozilla
 A
 wrapper
 around
-MediaDecoderReader
+MediaFormatReader
 to
 offset
 the
@@ -287,7 +287,7 @@ MediaDecoderReaderWrapper
 AbstractThread
 *
 aOwnerThread
-MediaDecoderReader
+MediaFormatReader
 *
 aReader
 )
@@ -606,7 +606,7 @@ mOwnerThread
 const
 RefPtr
 <
-MediaDecoderReader
+MediaFormatReader
 >
 mReader
 ;

@@ -16534,7 +16534,7 @@ MediaDecoderStateMachine
 MediaDecoder
 *
 aDecoder
-MediaDecoderReader
+MediaFormatReader
 *
 aReader
 )

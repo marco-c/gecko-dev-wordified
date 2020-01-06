@@ -321,14 +321,14 @@ aTarget
 )
 override
 ;
-protected
-:
 void
 NotifyDataArrived
 (
 )
 override
 ;
+protected
+:
 void
 UpdateBuffered
 (

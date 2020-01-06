@@ -205,7 +205,7 @@ h
 #
 include
 "
-MediaDecoderReader
+MediaFormatReader
 .
 h
 "
@@ -567,7 +567,7 @@ CreateReader
 (
 )
 ;
-MediaDecoderReader
+MediaFormatReader
 *
 Reader
 (
@@ -756,7 +756,7 @@ NS_IsMainThread
 ;
 /
 /
-MediaDecoderReader
+MediaFormatReader
 expects
 that
 BufferDecoder
@@ -766,7 +766,7 @@ alive
 /
 /
 Destruct
-MediaDecoderReader
+MediaFormatReader
 first
 .
 mDecoderReader
@@ -811,7 +811,7 @@ mBufferDecoder
 ;
 RefPtr
 <
-MediaDecoderReader
+MediaFormatReader
 >
 mDecoderReader
 ;
