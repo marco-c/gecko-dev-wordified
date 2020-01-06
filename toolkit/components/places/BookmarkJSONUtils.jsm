@@ -2291,6 +2291,11 @@ bookmarks
 insertTree
 (
 node
+{
+fixupOrSkipInvalidEntries
+:
+true
+}
 )
 ;
 /
