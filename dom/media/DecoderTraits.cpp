@@ -1724,7 +1724,7 @@ const
 MediaContainerType
 &
 aType
-MediaDecoderReaderInit
+MediaFormatReaderInit
 &
 aInit
 )

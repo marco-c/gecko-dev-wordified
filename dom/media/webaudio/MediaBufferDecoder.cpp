@@ -1041,7 +1041,7 @@ CreateDecoder
 as
 well
 .
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 mBufferDecoder

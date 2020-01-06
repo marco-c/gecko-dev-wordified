@@ -328,9 +328,6 @@ MediaDecoderReader
 :
 MediaDecoderReader
 (
-MediaDecoderReaderInit
-&
-aInit
 )
 {
 MOZ_COUNT_CTOR

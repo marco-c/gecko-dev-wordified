@@ -6288,7 +6288,7 @@ MediaFormatReader
 :
 MediaFormatReader
 (
-MediaDecoderReaderInit
+MediaFormatReaderInit
 &
 aInit
 MediaDataDemuxer
@@ -6296,10 +6296,6 @@ MediaDataDemuxer
 aDemuxer
 )
 :
-MediaDecoderReader
-(
-aInit
-)
 mTaskQueue
 (
 new

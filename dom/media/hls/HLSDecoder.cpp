@@ -250,7 +250,7 @@ MOZ_ASSERT
 resourceWrapper
 )
 ;
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 this

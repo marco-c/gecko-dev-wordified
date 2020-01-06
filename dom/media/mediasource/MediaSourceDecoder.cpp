@@ -371,7 +371,7 @@ AbstractMainThread
 )
 )
 ;
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 this
