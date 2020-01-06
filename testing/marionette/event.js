@@ -72,6 +72,13 @@ use
 strict
 "
 ;
+/
+*
+global
+content
+is
+*
+/
 const
 {
 interfaces

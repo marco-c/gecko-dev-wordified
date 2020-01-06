@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+global
+frame
+*
+/
 const
 {
 utils

@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+global
+XPCNativeWrapper
+*
+/
 var
 {
 classes

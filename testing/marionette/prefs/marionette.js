@@ -57,6 +57,12 @@ MPL
 *
 /
 /
+*
+global
+pref
+*
+/
+/
 /
 Marionette
 is
