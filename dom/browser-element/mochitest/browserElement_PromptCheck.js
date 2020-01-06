@@ -129,6 +129,12 @@ addPermission
 (
 )
 ;
+browserElementTestHelpers
+.
+allowTopLevelDataURINavigation
+(
+)
+;
 function
 runTest
 (
