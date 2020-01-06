@@ -3070,6 +3070,11 @@ ReleaseMainThreadOnlyReferences
 (
 )
 ;
+bool
+IsCrossOriginWithReferrer
+(
+)
+;
 protected
 :
 /
