@@ -684,6 +684,15 @@ nsACString
 aName
 )
 ;
+static
+void
+UpdateCookieStatus
+(
+nsIChannel
+*
+aChannel
+)
+;
 mozilla
 :
 :

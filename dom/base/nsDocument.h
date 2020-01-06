@@ -3822,6 +3822,11 @@ ResolveScheduledSVGPresAttrs
 )
 override
 ;
+bool
+IsSynthesized
+(
+)
+;
 private
 :
 void
