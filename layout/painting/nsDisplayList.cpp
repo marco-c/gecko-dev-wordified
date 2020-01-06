@@ -23302,7 +23302,10 @@ mRepeat
 mXRepeat
 !
 =
-NS_STYLE_IMAGELAYER_REPEAT_SPACE
+StyleImageLayerRepeat
+:
+:
+Space
 &
 &
 layer
@@ -23312,7 +23315,10 @@ mRepeat
 mYRepeat
 !
 =
-NS_STYLE_IMAGELAYER_REPEAT_SPACE
+StyleImageLayerRepeat
+:
+:
+Space
 &
 &
 layer
