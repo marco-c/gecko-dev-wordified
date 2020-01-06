@@ -1259,6 +1259,12 @@ removeAllSearchTooltips
 (
 )
 ;
+gSearchResultsPane
+.
+removeAllSearchMenuitemIndicators
+(
+)
+;
 }
 else
 if
