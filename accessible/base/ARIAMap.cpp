@@ -371,7 +371,7 @@ article
 roles
 :
 :
-DOCUMENT
+ARTICLE
 kUseMapRole
 eNoValue
 eNoAction
