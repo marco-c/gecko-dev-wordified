@@ -1627,7 +1627,10 @@ toConstant
 toJSValue
 (
 )
+ValueOperand
+(
 ScratchRegister
+)
 )
 ;
 else
@@ -1767,7 +1770,10 @@ toConstant
 toJSValue
 (
 )
+ValueOperand
+(
 ScratchRegister
+)
 )
 ;
 else
