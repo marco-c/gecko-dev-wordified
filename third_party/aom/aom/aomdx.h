@@ -249,6 +249,9 @@ member
 group
 *
 /
+#
+ifndef
+AOM_ACCOUNTING_H_
 /
 *
 *
@@ -267,6 +270,11 @@ struct
 Accounting
 Accounting
 ;
+#
+endif
+#
+ifndef
+AOM_INSPECTION_H_
 /
 *
 *
@@ -294,6 +302,8 @@ void
 ctx
 )
 ;
+#
+endif
 /
 *
 !

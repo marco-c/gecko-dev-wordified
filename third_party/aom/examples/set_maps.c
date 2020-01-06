@@ -1000,7 +1000,7 @@ const
 int
 limit
 =
-30
+15
 ;
 aom_image_t
 raw
@@ -1525,7 +1525,7 @@ if
 frame_count
 =
 =
-11
+5
 )
 {
 set_active_map
@@ -1543,7 +1543,7 @@ if
 frame_count
 =
 =
-22
+11
 )
 {
 unset_active_map

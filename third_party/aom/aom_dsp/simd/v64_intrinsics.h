@@ -441,6 +441,8 @@ v64
 a
 v64
 b
+unsigned
+int
 c
 )
 {

@@ -414,7 +414,7 @@ max_bit
 TEST
 (
 av1_fwd_txfm1d
-cospi_arr
+cospi_arr_data
 )
 {
 for
@@ -451,7 +451,7 @@ j
 {
 EXPECT_EQ
 (
-cospi_arr
+cospi_arr_data
 [
 i
 ]

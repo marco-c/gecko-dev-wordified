@@ -607,9 +607,6 @@ MV_CLASSES
 1
 ]
 ;
-#
-if
-CONFIG_EC_MULTISYMBOL
 aom_cdf_prob
 class_cdf
 [
@@ -619,8 +616,6 @@ MV_CLASSES
 )
 ]
 ;
-#
-endif
 aom_prob
 class0
 [
@@ -654,9 +649,6 @@ MV_FP_SIZE
 1
 ]
 ;
-#
-if
-CONFIG_EC_MULTISYMBOL
 aom_cdf_prob
 class0_fp_cdf
 [
@@ -678,8 +670,6 @@ MV_FP_SIZE
 )
 ]
 ;
-#
-endif
 aom_prob
 class0_hp
 ;
@@ -700,9 +690,6 @@ MV_JOINTS
 1
 ]
 ;
-#
-if
-CONFIG_EC_MULTISYMBOL
 aom_cdf_prob
 joint_cdf
 [
@@ -712,8 +699,6 @@ MV_JOINTS
 )
 ]
 ;
-#
-endif
 nmv_component
 comps
 [
@@ -909,7 +894,8 @@ endif
 CONFIG_GLOBAL_MOTION
 #
 if
-CONFIG_EC_MULTISYMBOL
+!
+CONFIG_EC_ADAPT
 void
 av1_set_mv_cdfs
 (

@@ -221,9 +221,11 @@ void
 warp_affine_func
 )
 (
+const
 int32_t
 *
 mat
+const
 uint8_t
 *
 ref
@@ -274,6 +276,7 @@ tuple
 int
 int
 int
+warp_affine_func
 >
 WarpTestParam
 ;
@@ -289,8 +292,10 @@ ParamGenerator
 <
 WarpTestParam
 >
-GetDefaultParams
+BuildParams
 (
+warp_affine_func
+filter
 )
 ;
 class
@@ -389,9 +394,11 @@ void
 highbd_warp_affine_func
 )
 (
+const
 int32_t
 *
 mat
+const
 uint16_t
 *
 ref

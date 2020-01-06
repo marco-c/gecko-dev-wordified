@@ -178,7 +178,7 @@ h
 "
 #
 if
-CONFIG_ENCODERS
+CONFIG_AV1_ENCODER
 #
 include
 "
@@ -552,7 +552,7 @@ framerate
 ;
 #
 if
-CONFIG_ENCODERS
+CONFIG_AV1_ENCODER
 y4m_input
 y4m
 ;

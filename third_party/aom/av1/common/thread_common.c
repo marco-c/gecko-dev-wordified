@@ -742,6 +742,7 @@ plane
 mi
 mi_row
 mi_col
+plane
 )
 ;
 break
@@ -857,6 +858,7 @@ plane
 mi
 mi_row
 mi_col
+plane
 )
 ;
 break
@@ -1102,6 +1104,7 @@ mi
 mi_col
 mi_row
 mi_col
+plane
 )
 ;
 #
@@ -1461,6 +1464,7 @@ mi
 mi_col
 mi_row
 mi_col
+plane
 )
 ;
 #
@@ -1829,6 +1833,7 @@ mi
 mi_col
 mi_row
 mi_col
+plane
 )
 ;
 av1_filter_block_plane_non420_hor
@@ -1850,6 +1855,7 @@ mi
 mi_col
 mi_row
 mi_col
+plane
 )
 ;
 }

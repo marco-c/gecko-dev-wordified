@@ -3227,7 +3227,7 @@ change
 the
 resolution
 (
-resize_pending
+av1_resize_pending
 !
 =
 0
@@ -3235,13 +3235,10 @@ resize_pending
 .
 if
 (
+av1_resize_pending
+(
 cpi
--
->
-resize_pending
-!
-=
-0
+)
 |
 |
 (

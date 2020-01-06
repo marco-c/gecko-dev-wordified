@@ -1133,6 +1133,9 @@ raw_frame_buffer
 #
 if
 CONFIG_EXT_REFS
+|
+|
+CONFIG_TEMPMV_SIGNALING
 static
 INLINE
 int

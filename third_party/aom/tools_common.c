@@ -826,7 +826,7 @@ shortread
 }
 #
 if
-CONFIG_ENCODERS
+CONFIG_AV1_ENCODER
 static
 const
 AvxInterface
@@ -835,9 +835,6 @@ aom_encoders
 ]
 =
 {
-#
-if
-CONFIG_AV1_ENCODER
 {
 "
 av1
@@ -846,8 +843,6 @@ AV1_FOURCC
 &
 aom_codec_av1_cx
 }
-#
-endif
 }
 ;
 int
@@ -955,10 +950,10 @@ NULL
 endif
 /
 /
-CONFIG_ENCODERS
+CONFIG_AV1_ENCODER
 #
 if
-CONFIG_DECODERS
+CONFIG_AV1_DECODER
 static
 const
 AvxInterface
@@ -967,9 +962,6 @@ aom_decoders
 ]
 =
 {
-#
-if
-CONFIG_AV1_DECODER
 {
 "
 av1
@@ -978,8 +970,6 @@ AV1_FOURCC
 &
 aom_codec_av1_dx
 }
-#
-endif
 }
 ;
 int
@@ -1146,7 +1136,7 @@ NULL
 endif
 /
 /
-CONFIG_DECODERS
+CONFIG_AV1_DECODER
 /
 /
 TODO

@@ -718,6 +718,8 @@ int
 mi_row
 int
 mi_col
+int
+pl
 )
 ;
 void
@@ -740,6 +742,8 @@ int
 mi_row
 int
 mi_col
+int
+pl
 )
 ;
 void

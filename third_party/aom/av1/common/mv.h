@@ -355,6 +355,10 @@ taps
 define
 WARPEDPIXEL_FILTER_BITS
 7
+#
+define
+WARP_PARAM_REDUCE_BITS
+6
 /
 /
 Precision
@@ -2108,9 +2112,6 @@ endif
 /
 /
 CONFIG_GLOBAL_MOTION
-#
-if
-CONFIG_REF_MV
 typedef
 struct
 candidate_mv
@@ -2133,8 +2134,6 @@ weight
 }
 CANDIDATE_MV
 ;
-#
-endif
 static
 INLINE
 int

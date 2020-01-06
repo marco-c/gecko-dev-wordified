@@ -387,6 +387,9 @@ endif
 CONFIG_HIGHBITDEPTH
 #
 if
+HAVE_SSE2
+|
+|
 HAVE_AVX2
 void
 dummy_inv_txfm
