@@ -3787,15 +3787,6 @@ N
 nsTAutoStringN
 /
 /
-nsTFixedString
-<
-T
->
-:
-:
-nsTFixedString
-/
-/
 /
 Similar
 for
