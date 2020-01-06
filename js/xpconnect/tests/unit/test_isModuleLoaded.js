@@ -17,7 +17,6 @@ module
 .
 do_check_true
 (
-!
 Cu
 .
 isModuleLoaded
