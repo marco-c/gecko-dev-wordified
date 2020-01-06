@@ -1804,6 +1804,13 @@ ImageValue
 (
 )
 ;
+private
+:
+bool
+mLoadedImage
+=
+false
+;
 public
 :
 /
@@ -1821,13 +1828,6 @@ nsIDocument
 imgRequestProxy
 >
 mRequests
-;
-private
-:
-bool
-mLoadedImage
-=
-false
 ;
 }
 ;
