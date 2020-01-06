@@ -642,6 +642,11 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
+MediaResource
+*
+aResource
+=
+nullptr
 )
 ;
 /
@@ -2071,6 +2076,12 @@ TrackInfo
 TrackType
 >
 mOnTrackWaitingForKey
+;
+RefPtr
+<
+MediaResource
+>
+mResource
 ;
 private
 :

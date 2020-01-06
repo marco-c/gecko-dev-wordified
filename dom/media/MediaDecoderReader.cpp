@@ -471,6 +471,9 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
+MediaResource
+*
+aResource
 )
 :
 mAudioCompactor
@@ -556,6 +559,10 @@ false
 mShutdown
 (
 false
+)
+mResource
+(
+aResource
 )
 {
 MOZ_COUNT_CTOR
@@ -1200,12 +1207,7 @@ MediaResource
 >
 stream
 (
-mDecoder
--
->
-GetResource
-(
-)
+mResource
 )
 ;
 if

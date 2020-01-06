@@ -179,6 +179,7 @@ AndroidMediaReader
 (
 this
 mType
+mResource
 )
 )
 ;

@@ -2235,6 +2235,7 @@ AndroidMediaReader
 (
 aDecoder
 aType
+aResource
 )
 ;
 }
