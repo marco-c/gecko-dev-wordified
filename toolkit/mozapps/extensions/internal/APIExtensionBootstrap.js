@@ -68,6 +68,7 @@ startup
 shutdown
 install
 uninstall
+ExtensionAPIs
 *
 /
 Components
@@ -85,7 +86,7 @@ gre
 /
 modules
 /
-ExtensionManagement
+ExtensionAPI
 .
 jsm
 "
@@ -194,9 +195,9 @@ data
 resourceURI
 )
 ;
-ExtensionManagement
+ExtensionAPIs
 .
-registerAPI
+register
 (
 namespace
 resource
@@ -239,9 +240,9 @@ resource
 null
 )
 ;
-ExtensionManagement
+ExtensionAPIs
 .
-unregisterAPI
+unregister
 (
 namespace
 )
