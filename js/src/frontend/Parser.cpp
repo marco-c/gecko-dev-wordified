@@ -14156,11 +14156,12 @@ null
 (
 )
 ;
-JS_ReportErrorNumberLatin1
+errorAt
 (
-context
-GetErrorMessage
-nullptr
+TokenStream
+:
+:
+NoOffset
 JSMSG_MISSING_EXPORT
 str
 .
