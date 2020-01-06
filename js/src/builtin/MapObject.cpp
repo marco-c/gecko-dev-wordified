@@ -765,10 +765,16 @@ codes
 )
 ;
 return
+mozilla
+:
+:
+HashGeneric
+(
 v
 .
 asRawBits
 (
+)
 )
 ;
 }

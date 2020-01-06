@@ -1177,7 +1177,10 @@ objectKey
 )
 ;
 return
-HashNumber
+mozilla
+:
+:
+HashGeneric
 (
 ty
 .

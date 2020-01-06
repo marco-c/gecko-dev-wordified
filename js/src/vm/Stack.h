@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+HashFunctions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -7189,7 +7198,10 @@ key
 )
 {
 return
-size_t
+mozilla
+:
+:
+HashGeneric
 (
 key
 .
