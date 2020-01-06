@@ -2278,6 +2278,7 @@ if
 (
 aIndex
 >
+=
 mRuleList
 -
 >
