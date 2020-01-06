@@ -853,7 +853,7 @@ SQRT1_2
 M_SQRT1_2
 }
 {
-0
+nullptr
 0
 }
 }
