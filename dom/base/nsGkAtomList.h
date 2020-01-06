@@ -6165,6 +6165,13 @@ onchecking
 )
 GK_ATOM
 (
+onCheckboxStateChange
+"
+onCheckboxStateChange
+"
+)
+GK_ATOM
+(
 onclick
 "
 onclick
@@ -7345,6 +7352,13 @@ GK_ATOM
 onradiostatechange
 "
 onradiostatechange
+"
+)
+GK_ATOM
+(
+onRadioStateChange
+"
+onRadioStateChange
 "
 )
 GK_ATOM

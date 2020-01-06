@@ -735,6 +735,14 @@ NS_EVENT_MESSAGE
 (
 eFormInvalid
 )
+NS_EVENT_MESSAGE
+(
+eFormCheckboxStateChange
+)
+NS_EVENT_MESSAGE
+(
+eFormRadioStateChange
+)
 /
 /
 Need
