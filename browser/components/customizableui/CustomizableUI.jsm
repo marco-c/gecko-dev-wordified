@@ -10866,6 +10866,7 @@ aWidget
 viewId
 anchor
 area
+aEvent
 )
 ;
 }

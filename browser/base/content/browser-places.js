@@ -12315,12 +12315,14 @@ this
 .
 _showSubView
 (
+null
 anchor
 )
 ;
 }
 _showSubView
 (
+event
 anchor
 =
 document
@@ -12392,6 +12394,7 @@ anchor
 CustomizableUI
 .
 AREA_PANEL
+event
 )
 ;
 }
@@ -12456,6 +12459,7 @@ this
 .
 _showSubView
 (
+aEvent
 )
 ;
 return
