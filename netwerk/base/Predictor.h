@@ -580,6 +580,8 @@ nsCString
 method
 bool
 isTracking
+bool
+couldVary
 Predictor
 *
 predictor
@@ -600,6 +602,10 @@ method
 mIsTracking
 (
 isTracking
+)
+mCouldVary
+(
+couldVary
 )
 mPredictor
 (
@@ -630,6 +636,9 @@ mMethod
 ;
 bool
 mIsTracking
+;
+bool
+mCouldVary
 ;
 RefPtr
 <
@@ -2706,6 +2715,8 @@ OriginAttributes
 originAttributes
 bool
 isTracking
+bool
+couldVary
 )
 ;
 /
