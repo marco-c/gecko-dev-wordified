@@ -2674,12 +2674,16 @@ MOZ_ASSERT
 mContent
 -
 >
-IsSVGElement
+IsAnyOfSVGElements
 (
 nsGkAtoms
 :
 :
 svg
+nsGkAtoms
+:
+:
+symbol
 )
 |
 |
