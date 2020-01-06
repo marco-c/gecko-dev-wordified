@@ -109,6 +109,12 @@ from
 taskgraph
 .
 util
+import
+taskcluster
+from
+taskgraph
+.
+util
 .
 docker
 import
@@ -2319,6 +2325,10 @@ level
 }
 -
 checkouts
+-
+sparse
+-
+v1
 '
 .
 format
@@ -2414,6 +2424,22 @@ worker
 checkouts
 /
 gecko
+'
+                        
+'
+-
+-
+sparse
+-
+profile
+=
+build
+/
+sparse
+-
+profiles
+/
+taskgraph
 '
                         
 '
@@ -2985,6 +3011,12 @@ test
 :
         
 create
+.
+testing
+=
+True
+        
+taskcluster
 .
 testing
 =
