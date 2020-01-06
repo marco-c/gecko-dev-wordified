@@ -149,6 +149,9 @@ undef
 nsTFixedString_CharT
 #
 undef
+nsTAutoStringN_CharT
+#
+undef
 nsTAutoString_CharT
 #
 undef
