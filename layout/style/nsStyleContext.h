@@ -1569,9 +1569,9 @@ RuleNode
 ;
 inline
 const
-ServoComputedValues
+ServoComputedData
 *
-ComputedValues
+ComputedData
 (
 )
 ;

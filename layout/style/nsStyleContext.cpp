@@ -835,7 +835,7 @@ MOZ_ASSERT
 servo
 -
 >
-ComputedValues
+ComputedData
 (
 )
 )
@@ -1608,13 +1608,13 @@ AsServo
 )
 -
 >
-ComputedValues
+ComputedData
 (
 )
 aNewContext
 -
 >
-ComputedValues
+ComputedData
 (
 )
 )
@@ -1815,7 +1815,7 @@ AsServo
 )
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
@@ -1913,7 +1913,7 @@ AsServo
 )
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
@@ -3558,7 +3558,7 @@ out
 %
 s
 {
-ServoComputedValues
+ServoComputedData
 }
 \
 n

@@ -169,7 +169,7 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 aComputedValues
 )
 :
@@ -219,7 +219,7 @@ when
 /
 producing
 the
-ServoComputedValues
+ServoComputedData
 .
 }
 void

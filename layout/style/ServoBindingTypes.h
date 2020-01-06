@@ -768,10 +768,10 @@ const
 ServoStyleContextBorrowedOrNull
 ;
 typedef
-ServoComputedValues
+ServoComputedData
 const
 *
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 ;
 struct
 MOZ_MUST_USE_TYPE

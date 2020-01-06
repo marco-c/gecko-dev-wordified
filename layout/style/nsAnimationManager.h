@@ -165,7 +165,7 @@ class
 nsStyleContext
 ;
 class
-ServoComputedValues
+ServoComputedData
 ;
 struct
 nsStyleDisplay

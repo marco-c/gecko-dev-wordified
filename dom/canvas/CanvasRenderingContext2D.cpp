@@ -16721,7 +16721,7 @@ effects
 computedValues
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
@@ -21932,7 +21932,7 @@ fontStyle
 computedValues
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -

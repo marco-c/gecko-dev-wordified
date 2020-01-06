@@ -246,12 +246,12 @@ RuleNode
 ;
 }
 const
-ServoComputedValues
+ServoComputedData
 *
 nsStyleContext
 :
 :
-ComputedValues
+ComputedData
 (
 )
 {
@@ -268,7 +268,7 @@ AsServo
 )
 -
 >
-ComputedValues
+ComputedData
 (
 )
 ;
@@ -381,7 +381,7 @@ AsServo
 )
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
@@ -1030,7 +1030,7 @@ data
 servo
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
@@ -1337,7 +1337,7 @@ data
 servo
 -
 >
-ComputedValues
+ComputedData
 (
 )
 -
