@@ -587,6 +587,9 @@ scan
 -
 build
 "
+"
+hacl
+"
 ]
 ;
 let
