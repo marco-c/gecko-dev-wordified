@@ -1814,7 +1814,7 @@ overlap
 it
 by
 the
-lesser
+greater
 of
 the
 titlebar
@@ -1826,11 +1826,11 @@ tabstrip
 menu
 .
 let
-minTitlebarOrTabsHeight
+maxTitlebarOrTabsHeight
 =
 Math
 .
-min
+max
 (
 titlebarContentHeight
 tabAndMenuHeight
@@ -1846,7 +1846,7 @@ marginBottom
 -
 "
 +
-minTitlebarOrTabsHeight
+maxTitlebarOrTabsHeight
 +
 "
 px
