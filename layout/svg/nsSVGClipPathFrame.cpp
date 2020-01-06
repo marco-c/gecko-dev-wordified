@@ -492,7 +492,7 @@ newMatrix
 =
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -517,7 +517,7 @@ IsSingular
 {
 aContext
 .
-SetMatrix
+SetMatrixDouble
 (
 newMatrix
 )
@@ -729,10 +729,6 @@ ComposeExtraMask
 DrawTarget
 *
 aTarget
-const
-gfxMatrix
-&
-aMaskTransfrom
 SourceSurface
 *
 aExtraMask
@@ -1226,7 +1222,7 @@ opposite
 direction
 to
 Thebes
-gfxMatrix
+Matrix
 maskTransfrom
 =
 aMaskContext
@@ -1249,7 +1245,6 @@ aExtraMask
 ComposeExtraMask
 (
 maskDT
-maskTransfrom
 aExtraMask
 aExtraMasksTransform
 )
@@ -1258,10 +1253,7 @@ aExtraMasksTransform
 *
 aMaskTransform
 =
-ToMatrix
-(
 maskTransfrom
-)
 ;
 }
 void
@@ -1746,7 +1738,7 @@ CurrentMatrix
 (
 )
 *
-gfxMatrix
+Matrix
 :
 :
 Translation

@@ -6396,7 +6396,7 @@ matrix
 ctx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -6425,7 +6425,7 @@ coords
 ctx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 matrix
 )

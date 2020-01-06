@@ -15138,12 +15138,12 @@ aContext
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

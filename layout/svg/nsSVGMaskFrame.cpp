@@ -650,7 +650,7 @@ return
 nullptr
 ;
 }
-gfxMatrix
+Matrix
 maskSurfaceMatrix
 =
 context
@@ -660,6 +660,8 @@ CurrentMatrix
 (
 )
 *
+ToMatrix
+(
 gfxMatrix
 :
 :
@@ -670,6 +672,7 @@ maskSurfaceRect
 .
 TopLeft
 (
+)
 )
 )
 ;
@@ -1030,10 +1033,7 @@ aParams
 .
 maskTransform
 =
-ToMatrix
-(
 maskSurfaceMatrix
-)
 ;
 return
 surface

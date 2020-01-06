@@ -3345,7 +3345,7 @@ CurrentMatrix
 (
 )
 *
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -3426,7 +3426,7 @@ mSourceCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )
@@ -5163,7 +5163,7 @@ Invert
 target
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 reverseScaleMatrix
 *
@@ -5172,7 +5172,7 @@ aTransform
 target
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 )
@@ -9415,7 +9415,7 @@ dt
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 &
@@ -9497,7 +9497,7 @@ fillOpacity
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 aImgParams
@@ -9520,7 +9520,7 @@ fillOpacity
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 aImgParams
@@ -9865,7 +9865,7 @@ dt
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 &
@@ -9947,7 +9947,7 @@ strokeOpacity
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 aImgParams
@@ -9970,7 +9970,7 @@ strokeOpacity
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 aImgParams

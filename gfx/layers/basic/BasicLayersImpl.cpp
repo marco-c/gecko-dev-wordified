@@ -475,13 +475,10 @@ aContext
 >
 SetMatrix
 (
-ThebesMatrix
-(
 mask
 .
 GetTransform
 (
-)
 )
 )
 ;

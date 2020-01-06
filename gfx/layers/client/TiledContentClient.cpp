@@ -6605,11 +6605,8 @@ mResolution
 .
 PreTranslate
 (
-ThebesPoint
-(
 -
 mTilingOrigin
-)
 )
 )
 ;

@@ -4659,7 +4659,7 @@ GetDrawTarget
 )
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 nsSVGIntegrationUtils

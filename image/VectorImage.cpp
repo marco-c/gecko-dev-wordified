@@ -1609,12 +1609,12 @@ false
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

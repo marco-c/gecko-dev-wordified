@@ -500,7 +500,7 @@ scaleFactors
 aCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -601,14 +601,14 @@ scaleMatrixInDevUnits
 aCtx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 reverseScaleMatrix
 *
 aCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 )
@@ -2283,7 +2283,7 @@ ctx
 ctx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 mPaintTransform
 *
@@ -2759,7 +2759,7 @@ invertible
 ctx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 devPxToCssPxTM
 *

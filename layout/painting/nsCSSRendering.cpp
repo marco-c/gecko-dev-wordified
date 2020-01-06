@@ -10760,12 +10760,12 @@ AppUnitsPerDevPixel
 shadowContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 shadowContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -29497,7 +29497,7 @@ transform
 aDestinationCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -29674,7 +29674,7 @@ mDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )
@@ -29947,7 +29947,7 @@ transform
 aDestinationCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -30016,7 +30016,7 @@ aDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )
@@ -30517,7 +30517,10 @@ the
 destination
 surface
 .
-gfxSize
+gfx
+:
+:
+Size
 scale
 =
 aDestinationCtx
@@ -30535,14 +30538,11 @@ true
 Matrix
 transform
 =
-ToMatrix
-(
 aDestinationCtx
 -
 >
 CurrentMatrix
 (
-)
 )
 ;
 /
@@ -30618,7 +30618,7 @@ aDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )

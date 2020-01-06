@@ -2927,7 +2927,7 @@ Visual
 visual
 )
 {
-gfxMatrix
+Matrix
 matrix
 =
 ctx

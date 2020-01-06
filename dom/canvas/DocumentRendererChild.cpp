@@ -609,16 +609,7 @@ ctx
 >
 SetMatrix
 (
-mozilla
-:
-:
-gfx
-:
-:
-ThebesMatrix
-(
 transform
-)
 )
 ;
 nsCOMPtr

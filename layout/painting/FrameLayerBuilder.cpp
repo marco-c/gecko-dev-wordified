@@ -23175,7 +23175,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -24604,7 +24604,7 @@ maskCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -39131,7 +39131,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -41165,12 +41165,12 @@ OK
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -41308,12 +41308,12 @@ OK
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

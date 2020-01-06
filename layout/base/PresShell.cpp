@@ -27793,7 +27793,7 @@ newTM
 aThebesContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -27815,7 +27815,7 @@ NudgeToIntegers
 aThebesContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 newTM
 )
@@ -30879,7 +30879,7 @@ initialTM
 ctx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -31093,12 +31093,9 @@ AppUnitsPerDevPixel
 ctx
 -
 >
-SetMatrix
-(
-gfxMatrix
+SetMatrixDouble
 (
 initialTM
-)
 .
 PreTranslate
 (
@@ -64706,12 +64703,12 @@ appUnitsPerDevPixel
 aRenderingContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aRenderingContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

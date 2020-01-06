@@ -401,7 +401,7 @@ m
 mContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
