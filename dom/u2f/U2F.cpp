@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CallbackFunction

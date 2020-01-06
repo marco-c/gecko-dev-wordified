@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h

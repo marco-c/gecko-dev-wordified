@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
