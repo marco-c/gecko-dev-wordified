@@ -4173,12 +4173,12 @@ gPageSizeMask
 DECLARE_GLOBAL
 (
 size_t
-chunk_npages
+gChunkNumPages
 )
 DECLARE_GLOBAL
 (
 size_t
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 DECLARE_GLOBAL
 (
@@ -4283,7 +4283,7 @@ DEFINE_GLOBAL
 (
 size_t
 )
-chunk_npages
+gChunkNumPages
 =
 kChunkSize
 >
@@ -4305,7 +4305,7 @@ DEFINE_GLOBAL
 (
 size_t
 )
-arena_chunk_header_npages
+gChunkHeaderNumPages
 =
 (
 (
@@ -4320,7 +4320,7 @@ arena_chunk_map_t
 )
 *
 (
-chunk_npages
+gChunkNumPages
 -
 1
 )
@@ -4352,7 +4352,7 @@ gMaxLargeClass
 kChunkSize
 -
 (
-arena_chunk_header_npages
+gChunkHeaderNumPages
 <
 <
 gPageSize2Pow
@@ -17716,7 +17716,7 @@ aChunk
 )
 +
 (
-arena_chunk_header_npages
+gChunkHeaderNumPages
 <
 <
 gPageSize2Pow
@@ -17733,7 +17733,7 @@ i
 ;
 i
 <
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ;
 i
 +
@@ -17775,7 +17775,7 @@ i
 ;
 i
 <
-chunk_npages
+gChunkNumPages
 -
 1
 ;
@@ -17802,7 +17802,7 @@ aChunk
 >
 map
 [
-chunk_npages
+gChunkNumPages
 -
 1
 ]
@@ -17851,7 +17851,7 @@ mStats
 committed
 +
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ;
 /
 /
@@ -17875,7 +17875,7 @@ aChunk
 >
 map
 [
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ]
 )
 ;
@@ -18004,7 +18004,7 @@ mStats
 committed
 -
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ;
 }
 /
@@ -18065,7 +18065,7 @@ aChunk
 >
 map
 [
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ]
 )
 ;
@@ -18248,7 +18248,7 @@ chunk
 )
 +
 (
-arena_chunk_header_npages
+gChunkHeaderNumPages
 <
 <
 gPageSize2Pow
@@ -18277,7 +18277,7 @@ chunk
 >
 map
 [
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ]
 )
 ;
@@ -18352,7 +18352,7 @@ chunk
 )
 +
 (
-arena_chunk_header_npages
+gChunkHeaderNumPages
 <
 <
 gPageSize2Pow
@@ -18552,7 +18552,7 @@ for
 (
 i
 =
-chunk_npages
+gChunkNumPages
 -
 1
 ;
@@ -18573,7 +18573,7 @@ MOZ_DIAGNOSTIC_ASSERT
 i
 >
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 ;
 if
@@ -18663,7 +18663,7 @@ npages
 ;
 i
 >
-arena_chunk_header_npages
+gChunkHeaderNumPages
 &
 &
 (
@@ -18975,14 +18975,14 @@ MOZ_DIAGNOSTIC_ASSERT
 run_ind
 >
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
 run_ind
 <
-chunk_npages
+gChunkNumPages
 )
 ;
 if
@@ -19262,7 +19262,7 @@ run_ind
 +
 run_pages
 <
-chunk_npages
+gChunkNumPages
 &
 &
 (
@@ -19447,7 +19447,7 @@ if
 (
 run_ind
 >
-arena_chunk_header_npages
+gChunkHeaderNumPages
 &
 &
 (
@@ -19670,7 +19670,7 @@ chunk
 >
 map
 [
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ]
 .
 bits
@@ -23374,7 +23374,7 @@ if
 (
 pageind
 <
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 {
 /
@@ -23617,14 +23617,14 @@ MOZ_DIAGNOSTIC_ASSERT
 pageind
 >
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 ;
 if
 (
 pageind
 <
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 {
 *
@@ -25052,7 +25052,7 @@ pageind
 +
 npages
 <
-chunk_npages
+gChunkNumPages
 &
 &
 (
@@ -30233,7 +30233,7 @@ aStats
 chunksize
 )
 *
-arena_chunk_header_npages
+gChunkHeaderNumPages
 )
 <
 <
@@ -30340,11 +30340,11 @@ for
 size_t
 i
 =
-arena_chunk_header_npages
+gChunkHeaderNumPages
 ;
 i
 <
-chunk_npages
+gChunkNumPages
 ;
 i
 +
@@ -30389,7 +30389,7 @@ i
 +
 npages
 <
-chunk_npages
+gChunkNumPages
 ;
 npages
 +
