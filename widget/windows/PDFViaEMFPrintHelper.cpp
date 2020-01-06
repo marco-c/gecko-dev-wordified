@@ -914,7 +914,6 @@ emf
 Playback
 (
 aPrinterDC
-&
 printRect
 )
 ;

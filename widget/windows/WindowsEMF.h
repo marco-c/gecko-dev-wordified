@@ -509,7 +509,7 @@ HDC
 aDeviceContext
 const
 RECT
-*
+&
 aRect
 )
 ;
