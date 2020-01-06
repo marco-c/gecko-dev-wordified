@@ -1207,6 +1207,16 @@ load
 (
 )
 {
+if
+(
+this
+.
+dataReady
+)
+{
+return
+;
+}
 let
 data
 =
