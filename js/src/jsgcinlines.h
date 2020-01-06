@@ -2884,7 +2884,7 @@ group
 *
 /
 class
-GCSweepGroupIter
+SweepGroupZonesIter
 {
 JS
 :
@@ -2896,7 +2896,7 @@ current
 public
 :
 explicit
-GCSweepGroupIter
+SweepGroupZonesIter
 (
 JSRuntime
 *
@@ -3017,9 +3017,9 @@ get
 typedef
 CompartmentsIterT
 <
-GCSweepGroupIter
+SweepGroupZonesIter
 >
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 ;
 inline
 void

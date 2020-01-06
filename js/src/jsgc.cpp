@@ -27086,7 +27086,7 @@ phase
 {
 markWeakReferences
 <
-GCSweepGroupIter
+SweepGroupZonesIter
 >
 (
 phase
@@ -27225,8 +27225,8 @@ phase
 {
 markGrayReferences
 <
-GCSweepGroupIter
-GCCompartmentGroupIter
+SweepGroupZonesIter
+SweepGroupCompartmentsIter
 >
 (
 phase
@@ -30576,7 +30576,7 @@ isIncremental
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -30642,7 +30642,7 @@ clearAndFree
 }
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 comp
 (
 rt
@@ -31455,7 +31455,7 @@ Gray
 ;
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 rt
@@ -32289,7 +32289,7 @@ MarkCrossCompartmentXXX
 /
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -32399,7 +32399,7 @@ state
 /
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -32745,7 +32745,7 @@ runtime
 {
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 runtime
@@ -32783,7 +32783,7 @@ runtime
 {
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 runtime
@@ -32829,7 +32829,7 @@ runtime
 {
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 runtime
@@ -32867,7 +32867,7 @@ runtime
 {
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 runtime
@@ -33124,7 +33124,7 @@ runtime
 {
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 runtime
@@ -33292,7 +33292,7 @@ nullptr
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 runtime
@@ -33557,7 +33557,7 @@ SWEEP_MISC
 ;
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 rt
@@ -33635,7 +33635,7 @@ SWEEP_BREAKPOINT
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -33722,7 +33722,7 @@ Sweep
 ;
 for
 (
-GCCompartmentGroupIter
+SweepGroupCompartmentsIter
 c
 (
 rt
@@ -33751,7 +33751,7 @@ fop
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -33881,7 +33881,7 @@ SWEEP_DISCARD_CODE
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -33948,7 +33948,7 @@ SWEEP_TYPES_BEGIN
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -34048,7 +34048,7 @@ f
 {
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -34438,7 +34438,7 @@ false
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -34592,7 +34592,7 @@ WEAK_COMPARTMENT_CALLBACK
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -34879,7 +34879,7 @@ thread
 .
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -35044,7 +35044,7 @@ swept
 /
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -35125,7 +35125,7 @@ zones
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 rt
@@ -38889,7 +38889,7 @@ RemoveLastTemplateParameter
 <
 SweepActionForEach
 <
-GCSweepGroupIter
+SweepGroupZonesIter
 JSRuntime
 *
 Args
