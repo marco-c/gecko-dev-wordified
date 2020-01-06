@@ -4406,7 +4406,7 @@ void
 nsIPresShell
 :
 :
-AddAutoWeakFrameInternal
+AddAutoWeakFrame
 (
 AutoWeakFrame
 *
@@ -4454,7 +4454,7 @@ void
 nsIPresShell
 :
 :
-AddWeakFrameInternal
+AddWeakFrame
 (
 WeakFrame
 *
@@ -4508,7 +4508,7 @@ void
 nsIPresShell
 :
 :
-RemoveAutoWeakFrameInternal
+RemoveAutoWeakFrame
 (
 AutoWeakFrame
 *
@@ -4591,7 +4591,7 @@ void
 nsIPresShell
 :
 :
-RemoveWeakFrameInternal
+RemoveWeakFrame
 (
 WeakFrame
 *
@@ -60643,7 +60643,7 @@ bool
 nsIPresShell
 :
 :
-AddRefreshObserverInternal
+AddRefreshObserver
 (
 nsARefreshObserver
 *
@@ -60683,7 +60683,7 @@ bool
 nsIPresShell
 :
 :
-RemoveRefreshObserverInternal
+RemoveRefreshObserver
 (
 nsARefreshObserver
 *
