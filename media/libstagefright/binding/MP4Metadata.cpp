@@ -4954,11 +4954,6 @@ true
 )
 ;
 }
-mp4parse_fallible_allocation
-(
-true
-)
-;
 mp4parse_status
 rv
 =
@@ -5018,7 +5013,7 @@ mp4parse_status_OK
 rv
 !
 =
-mp4parse_status_TABLE_TOO_LARGE
+mp4parse_status_OOM
 )
 {
 MOZ_LOG
