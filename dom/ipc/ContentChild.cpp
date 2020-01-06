@@ -19971,6 +19971,7 @@ aMsg
 {
 if
 (
+(
 aMsg
 .
 type
@@ -20008,6 +20009,15 @@ PContent
 :
 :
 Msg_NotifyVisited__ID
+)
+&
+&
+SystemGroup
+:
+:
+Initialized
+(
+)
 )
 {
 return
