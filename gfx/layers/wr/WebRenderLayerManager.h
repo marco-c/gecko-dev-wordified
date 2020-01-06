@@ -1015,6 +1015,16 @@ WrUpdated
 (
 )
 ;
+void
+WindowOverlayChanged
+(
+)
+{
+mWindowOverlayChanged
+=
+true
+;
+}
 private
 :
 /
@@ -1250,6 +1260,9 @@ s
 job
 WebRenderScrollData
 mScrollData
+;
+bool
+mWindowOverlayChanged
 ;
 bool
 mNeedsComposite
