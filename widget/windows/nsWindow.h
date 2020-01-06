@@ -1889,6 +1889,13 @@ IsPopup
 (
 )
 ;
+virtual
+bool
+ShouldUseOffMainThreadCompositing
+(
+)
+override
+;
 const
 IMEContext
 &
