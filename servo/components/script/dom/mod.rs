@@ -2650,6 +2650,10 @@ cssviewportrule
 ;
 pub
 mod
+customelementregistry
+;
+pub
+mod
 customevent
 ;
 pub
