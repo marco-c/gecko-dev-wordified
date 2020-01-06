@@ -1565,9 +1565,9 @@ resource
 :
 /
 /
-gre
-/
-res
+content
+-
+accessible
 /
 ImageDocument
 .
@@ -1597,9 +1597,9 @@ resource
 :
 /
 /
-gre
-/
-res
+content
+-
+accessible
 /
 TopLevelImageDocument
 .
