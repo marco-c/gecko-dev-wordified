@@ -1381,7 +1381,6 @@ hide
 ;
 }
 }
-;
 this
 .
 pageAction

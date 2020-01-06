@@ -2495,7 +2495,6 @@ formatArgs
 length
 )
 ;
-else
 return
 this
 .

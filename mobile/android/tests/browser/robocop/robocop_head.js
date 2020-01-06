@@ -2264,7 +2264,6 @@ n
 }
 }
 else
-{
 if
 (
 !
@@ -2322,7 +2321,6 @@ text
 stack
 )
 ;
-}
 }
 }
 function
@@ -2458,7 +2456,6 @@ n
 }
 }
 else
-{
 if
 (
 todo
@@ -2517,7 +2514,6 @@ text
 stack
 )
 ;
-}
 }
 }
 /
@@ -4262,8 +4258,6 @@ true
 }
 ;
 }
-else
-{
 return
 function
 (
@@ -4314,7 +4308,6 @@ true
 ;
 }
 ;
-}
 }
 /
 /
@@ -5776,7 +5769,6 @@ loaded
 )
 ;
 }
-;
 JavaBridge
 .
 prototype

@@ -1224,8 +1224,6 @@ data
 )
 ;
 }
-else
-{
 EventDispatcher
 .
 instance
@@ -1253,7 +1251,6 @@ data
 }
 )
 ;
-}
 }
 launchUri
 :

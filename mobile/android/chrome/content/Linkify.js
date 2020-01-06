@@ -761,7 +761,6 @@ NodeFilter
 .
 FILTER_ACCEPT
 ;
-else
 return
 NodeFilter
 .

@@ -804,7 +804,6 @@ resolve
 )
 ;
 }
-;
 var
 wrapper
 =
