@@ -1233,6 +1233,13 @@ throbber
 progress
 ]
 :
+not
+(
+[
+notselectedsinceload
+]
+)
+:
 :
 before
 {
