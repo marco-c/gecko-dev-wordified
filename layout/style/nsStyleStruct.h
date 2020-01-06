@@ -24042,16 +24042,6 @@ template
 <
 typename
 T
-typename
-Deleter
-=
-mozilla
-:
-:
-DefaultDelete
-<
-T
->
 >
 struct
 UniquePtr_Simple
