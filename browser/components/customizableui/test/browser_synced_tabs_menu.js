@@ -483,7 +483,7 @@ signup
 uri
 "
 "
-http
+https
 :
 /
 /
