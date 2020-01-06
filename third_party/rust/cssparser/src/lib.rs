@@ -664,6 +664,7 @@ tokenizer
 :
 {
 Token
+SourcePosition
 SourceLocation
 }
 ;
@@ -695,6 +696,7 @@ rules_and_declarations
 {
 RuleListParser
 parse_one_rule
+PreciseParseError
 }
 ;
 pub
@@ -758,7 +760,7 @@ parser
 Parser
 Delimiter
 Delimiters
-SourcePosition
+ParserState
 ParseError
 BasicParseError
 ParserInput
