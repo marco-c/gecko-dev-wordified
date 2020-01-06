@@ -7191,6 +7191,19 @@ NO_DIST_INSTALL
 =
 True
         
+computed_flags
+=
+ComputedFlags
+(
+context
+context
+[
+'
+COMPILE_FLAGS
+'
+]
+)
+        
 #
 Ideally
 this
@@ -7374,6 +7387,18 @@ RTL_FLAGS
 [
 rtl_flag
 ]
+            
+computed_flags
+.
+resolve_flags
+(
+'
+RTL
+'
+[
+rtl_flag
+]
+)
         
 generated_files
 =
@@ -7447,19 +7472,6 @@ relpath
             
 yield
 sub
-        
-computed_flags
-=
-ComputedFlags
-(
-context
-context
-[
-'
-COMPILE_FLAGS
-'
-]
-)
         
 for
 defines_var
