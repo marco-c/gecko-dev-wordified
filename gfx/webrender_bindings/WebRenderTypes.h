@@ -2075,8 +2075,8 @@ inline
 wr
 :
 :
-WrBorderStyle
-ToWrBorderStyle
+BorderStyle
+ToBorderStyle
 (
 const
 uint8_t
@@ -2096,7 +2096,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 None
@@ -2108,7 +2108,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Solid
@@ -2120,7 +2120,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Double
@@ -2132,7 +2132,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Dotted
@@ -2144,7 +2144,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Dashed
@@ -2156,7 +2156,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Hidden
@@ -2168,7 +2168,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Groove
@@ -2180,7 +2180,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Ridge
@@ -2192,7 +2192,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Inset
@@ -2204,7 +2204,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 Outset
@@ -2221,7 +2221,7 @@ return
 wr
 :
 :
-WrBorderStyle
+BorderStyle
 :
 :
 None
@@ -2232,8 +2232,8 @@ inline
 wr
 :
 :
-WrBorderSide
-ToWrBorderSide
+BorderSide
+ToBorderSide
 (
 const
 gfx
@@ -2251,7 +2251,7 @@ style
 wr
 :
 :
-WrBorderSide
+BorderSide
 bs
 ;
 bs
@@ -2267,7 +2267,7 @@ bs
 .
 style
 =
-ToWrBorderStyle
+ToBorderStyle
 (
 style
 )
@@ -2281,8 +2281,8 @@ inline
 wr
 :
 :
-WrBorderRadius
-ToWrUniformBorderRadius
+BorderRadius
+ToUniformBorderRadius
 (
 const
 LayerSize
@@ -2293,7 +2293,7 @@ aSize
 wr
 :
 :
-WrBorderRadius
+BorderRadius
 br
 ;
 br
@@ -2341,8 +2341,8 @@ inline
 wr
 :
 :
-WrBorderRadius
-ToWrBorderRadius
+BorderRadius
+ToBorderRadius
 (
 const
 LayerSize
@@ -2365,7 +2365,7 @@ bottomRight
 wr
 :
 :
-WrBorderRadius
+BorderRadius
 br
 ;
 br
@@ -2413,8 +2413,8 @@ inline
 wr
 :
 :
-WrBorderWidths
-ToWrBorderWidths
+BorderWidths
+ToBorderWidths
 (
 float
 top
@@ -2429,7 +2429,7 @@ left
 wr
 :
 :
-WrBorderWidths
+BorderWidths
 bw
 ;
 bw
@@ -2465,8 +2465,8 @@ inline
 wr
 :
 :
-WrNinePatchDescriptor
-ToWrNinePatchDescriptor
+NinePatchDescriptor
+ToNinePatchDescriptor
 (
 uint32_t
 width
@@ -2481,7 +2481,7 @@ SideOffsets2D_u32
 slice
 )
 {
-WrNinePatchDescriptor
+NinePatchDescriptor
 patch
 ;
 patch
@@ -2609,8 +2609,8 @@ inline
 wr
 :
 :
-WrRepeatMode
-ToWrRepeatMode
+RepeatMode
+ToRepeatMode
 (
 uint8_t
 repeatMode
@@ -2628,7 +2628,7 @@ return
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 :
 :
 Stretch
@@ -2640,7 +2640,7 @@ return
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 :
 :
 Repeat
@@ -2652,7 +2652,7 @@ return
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 :
 :
 Round
@@ -2664,7 +2664,7 @@ return
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 :
 :
 Space
@@ -2681,7 +2681,7 @@ return
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 :
 :
 Stretch
@@ -2819,7 +2819,7 @@ radii
 wr
 :
 :
-ToWrUniformBorderRadius
+ToUniformBorderRadius
 (
 size
 )

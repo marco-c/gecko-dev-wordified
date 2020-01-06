@@ -31475,7 +31475,7 @@ clip
 wr
 :
 :
-ToWrBorderWidths
+ToBorderWidths
 (
 widths
 [
@@ -31502,7 +31502,7 @@ value
 wr
 :
 :
-ToWrNinePatchDescriptor
+ToNinePatchDescriptor
 (
 (
 float
@@ -31578,7 +31578,7 @@ outset
 wr
 :
 :
-ToWrRepeatMode
+ToRepeatMode
 (
 mBorderImageRenderer
 -
@@ -31588,7 +31588,7 @@ mRepeatModeHorizontal
 wr
 :
 :
-ToWrRepeatMode
+ToRepeatMode
 (
 mBorderImageRenderer
 -
@@ -31764,7 +31764,7 @@ clip
 wr
 :
 :
-ToWrBorderWidths
+ToBorderWidths
 (
 widths
 [
@@ -31835,7 +31835,7 @@ clip
 wr
 :
 :
-ToWrBorderWidths
+ToBorderWidths
 (
 widths
 [

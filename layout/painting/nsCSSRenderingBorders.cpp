@@ -29035,7 +29035,7 @@ outerRect
 wr
 :
 :
-WrBorderSide
+BorderSide
 side
 [
 4
@@ -29054,7 +29054,7 @@ i
 wr
 :
 :
-ToWrBorderSide
+ToBorderSide
 (
 ToDeviceColor
 (
@@ -29073,13 +29073,13 @@ i
 wr
 :
 :
-WrBorderRadius
+BorderRadius
 borderRadius
 =
 wr
 :
 :
-ToWrBorderRadius
+ToBorderRadius
 (
 LayerSize
 (
@@ -29149,7 +29149,7 @@ const
 wr
 :
 :
-WrBorderSide
+BorderSide
 >
 wrsides
 (
@@ -29166,7 +29166,7 @@ transformedRect
 wr
 :
 :
-ToWrBorderWidths
+ToBorderWidths
 (
 mBorderWidths
 [

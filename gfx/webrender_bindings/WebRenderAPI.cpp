@@ -3838,7 +3838,7 @@ const
 wr
 :
 :
-WrBorderWidths
+BorderWidths
 &
 aWidths
 const
@@ -3848,7 +3848,7 @@ const
 wr
 :
 :
-WrBorderSide
+BorderSide
 >
 &
 aSides
@@ -3856,7 +3856,7 @@ const
 wr
 :
 :
-WrBorderRadius
+BorderRadius
 &
 aRadius
 )
@@ -3938,7 +3938,7 @@ const
 wr
 :
 :
-WrBorderWidths
+BorderWidths
 &
 aWidths
 wr
@@ -3950,7 +3950,7 @@ const
 wr
 :
 :
-WrNinePatchDescriptor
+NinePatchDescriptor
 &
 aPatch
 const
@@ -3964,14 +3964,14 @@ const
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 &
 aRepeatHorizontal
 const
 wr
 :
 :
-WrRepeatMode
+RepeatMode
 &
 aRepeatVertical
 )
@@ -4014,7 +4014,7 @@ const
 wr
 :
 :
-WrBorderWidths
+BorderWidths
 &
 aWidths
 const
@@ -4102,7 +4102,7 @@ const
 wr
 :
 :
-WrBorderWidths
+BorderWidths
 &
 aWidths
 const
