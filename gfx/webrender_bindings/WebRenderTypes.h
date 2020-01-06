@@ -2003,6 +2003,7 @@ ToLayoutRect
 (
 const
 gfxRect
+&
 rect
 )
 {
