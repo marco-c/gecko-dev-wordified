@@ -248,24 +248,12 @@ static
 const
 char
 *
-acLogTag
+logTag
 =
 "
 WebrtcAudioSessionConduit
 "
 ;
-#
-ifdef
-LOGTAG
-#
-undef
-LOGTAG
-#
-endif
-#
-define
-LOGTAG
-acLogTag
 /
 /
 32
@@ -308,7 +296,7 @@ Create
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -354,7 +342,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -374,7 +362,7 @@ nullptr
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -426,7 +414,7 @@ thread
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1397,7 +1385,7 @@ freq
 {
 CSFLogInfo
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1438,7 +1426,7 @@ result
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1562,7 +1550,7 @@ Init
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1622,7 +1610,7 @@ context
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1673,7 +1661,7 @@ Create
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1708,7 +1696,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1750,7 +1738,7 @@ Init
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1784,7 +1772,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1818,7 +1806,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1852,7 +1840,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1886,7 +1874,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1920,7 +1908,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1954,7 +1942,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1991,7 +1979,7 @@ mVoiceEngine
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2031,7 +2019,7 @@ CreateChannel
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2103,7 +2091,7 @@ mChannelProxy
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2135,7 +2123,7 @@ this
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2168,7 +2156,7 @@ true
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2207,7 +2195,7 @@ true
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2231,7 +2219,7 @@ kMediaConduitExternalRecordingError
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2270,7 +2258,7 @@ aTransport
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2312,7 +2300,7 @@ aTransport
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2353,7 +2341,7 @@ codecConfig
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2439,7 +2427,7 @@ cinst
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2483,7 +2471,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2514,7 +2502,7 @@ VE_CODEC_ERROR
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2531,7 +2519,7 @@ kMediaConduitInvalidSendCodec
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2582,7 +2570,7 @@ mFECEnabled
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2651,7 +2639,7 @@ mMaxPlaybackRate
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2847,7 +2835,7 @@ codecConfigList
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2934,7 +2922,7 @@ empty
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3039,7 +3027,7 @@ cinst
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3082,7 +3070,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3100,7 +3088,7 @@ continue
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3139,7 +3127,7 @@ codec
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3173,7 +3161,7 @@ success
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3242,7 +3230,7 @@ id
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3275,7 +3263,7 @@ id
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3385,7 +3373,7 @@ capture_delay
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3539,7 +3527,7 @@ samplingFreqHz
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3572,7 +3560,7 @@ capture_delay
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3613,7 +3601,7 @@ mEngineTransmitting
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3734,7 +3722,7 @@ lengthSamples
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3760,7 +3748,7 @@ speechData
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3803,7 +3791,7 @@ samplingFreqHz
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3837,7 +3825,7 @@ capture_delay
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3880,7 +3868,7 @@ mEngineReceiving
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3933,7 +3921,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4061,7 +4049,7 @@ avsync_offset_ms
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 A
 /
@@ -4093,7 +4081,7 @@ else
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 A
 /
@@ -4312,7 +4300,7 @@ RemoveElementAt
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4356,7 +4344,7 @@ ssrc
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4480,7 +4468,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4515,7 +4503,7 @@ else
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 Error
 :
@@ -4552,7 +4540,7 @@ len
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4594,7 +4582,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4643,7 +4631,7 @@ mEngineTransmitting
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4675,7 +4663,7 @@ mChannel
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4762,7 +4750,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4803,7 +4791,7 @@ mEngineReceiving
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4859,7 +4847,7 @@ mChannel
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4901,7 +4889,7 @@ VE_CANNOT_STOP_PLAYOUT
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4976,7 +4964,7 @@ LastError
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5022,7 +5010,7 @@ mChannel
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5085,7 +5073,7 @@ options
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5295,7 +5283,7 @@ NS_OK
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5312,7 +5300,7 @@ true
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5354,7 +5342,7 @@ len
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5463,7 +5451,7 @@ know
 .
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5500,7 +5488,7 @@ NS_OK
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5521,7 +5509,7 @@ true
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5613,7 +5601,7 @@ plNameLength
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6183,7 +6171,7 @@ codecInfo
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6228,7 +6216,7 @@ CODEC_PLNAME_SIZE
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6278,7 +6266,7 @@ mChannels
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6340,7 +6328,7 @@ codecAppliedAlready
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6386,7 +6374,7 @@ mRecvCodecList
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Name
@@ -6406,7 +6394,7 @@ c_str
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Type
@@ -6422,7 +6410,7 @@ mType
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Frequency
@@ -6438,7 +6426,7 @@ mFreq
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 PacketSize
@@ -6454,7 +6442,7 @@ mPacSize
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Channels
@@ -6470,7 +6458,7 @@ mChannels
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Sampling

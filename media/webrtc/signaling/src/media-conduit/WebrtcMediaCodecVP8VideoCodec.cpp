@@ -308,24 +308,12 @@ static
 const
 char
 *
-wmcLogTag
+logTag
 =
 "
 WebrtcMediaCodecVP8VideoCodec
 "
 ;
-#
-ifdef
-LOGTAG
-#
-undef
-LOGTAG
-#
-endif
-#
-define
-LOGTAG
-wmcLogTag
 class
 CallbacksSupport
 final
@@ -368,7 +356,7 @@ mPictureId
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -398,7 +386,7 @@ CallbacksSupport
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -447,7 +435,7 @@ minimumSize
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -523,7 +511,7 @@ override
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -548,7 +536,7 @@ override
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -572,7 +560,7 @@ aSample
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -923,7 +911,7 @@ override
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1649,7 +1637,7 @@ false
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1680,7 +1668,7 @@ encoder
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1740,7 +1728,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -1787,7 +1775,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -1904,7 +1892,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -1953,7 +1941,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -1985,7 +1973,7 @@ Start
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2029,7 +2017,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -2074,7 +2062,7 @@ Stop
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2146,7 +2134,7 @@ color_format
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2345,7 +2333,7 @@ PR_IntervalNow
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2374,7 +2362,7 @@ inputIndex
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2395,7 +2383,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2488,7 +2476,7 @@ inputIndex
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2668,7 +2656,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -2731,7 +2719,7 @@ later
 .
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2768,7 +2756,7 @@ format
 change
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2800,7 +2788,7 @@ INFO_OUTPUT_BUFFERS_CHANGED
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2831,7 +2819,7 @@ outputIndex
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2868,7 +2856,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3001,7 +2989,7 @@ color_format
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3112,7 +3100,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -3191,7 +3179,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -3258,7 +3246,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -3389,7 +3377,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -3495,7 +3483,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcAndroidMediaCodec
 :
@@ -3886,7 +3874,7 @@ nullptr
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4087,7 +4075,7 @@ maxPayloadSize
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4152,7 +4140,7 @@ frame_types
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4288,7 +4276,7 @@ NS_OK
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4337,7 +4325,7 @@ false
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4375,7 +4363,7 @@ retBool
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4404,7 +4392,7 @@ retBool
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4528,7 +4516,7 @@ inputIndex
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4549,7 +4537,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4667,7 +4655,7 @@ converted
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4711,7 +4699,7 @@ PR_IntervalNow
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4759,7 +4747,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4860,7 +4848,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 WebrtcMediaCodecVP8VideoEncoder
 :
@@ -4927,7 +4915,7 @@ later
 .
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4964,7 +4952,7 @@ format
 change
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4996,7 +4984,7 @@ INFO_OUTPUT_BUFFERS_CHANGED
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5030,7 +5018,7 @@ outputIndex
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5055,7 +5043,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5229,7 +5217,7 @@ ifdef
 WEBRTC_MEDIACODEC_DEBUG
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5279,7 +5267,7 @@ size
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5521,7 +5509,7 @@ callback
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5547,7 +5535,7 @@ Release
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5595,7 +5583,7 @@ WebrtcMediaCodecVP8VideoEncoder
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5622,7 +5610,7 @@ rtt
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5648,7 +5636,7 @@ frameRate
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5719,7 +5707,7 @@ WebrtcMediaCodecVP8VideoRemoteEncoder
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5772,7 +5760,7 @@ frameRate
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5849,7 +5837,7 @@ frame_types
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5986,7 +5974,7 @@ res
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6256,7 +6244,7 @@ converted
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6436,7 +6424,7 @@ Release
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6544,7 +6532,7 @@ nullptr
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6681,7 +6669,7 @@ renderTimeMs
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6712,7 +6700,7 @@ _buffer
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6750,7 +6738,7 @@ kVideoFrameKey
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6841,7 +6829,7 @@ NS_OK
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6890,7 +6878,7 @@ false
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6928,7 +6916,7 @@ retBool
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6957,7 +6945,7 @@ retBool
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6992,7 +6980,7 @@ PR_IntervalNow
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7055,7 +7043,7 @@ ret
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7086,7 +7074,7 @@ frame
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7111,7 +7099,7 @@ callback
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7137,7 +7125,7 @@ Release
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7166,7 +7154,7 @@ WebrtcMediaCodecVP8VideoDecoder
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
