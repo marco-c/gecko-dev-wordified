@@ -1501,6 +1501,16 @@ UpdateClientOffset
 (
 )
 ;
+void
+DispatchContextMenuEventFromMouseEvent
+(
+uint16_t
+domButton
+GdkEventButton
+*
+aEvent
+)
+;
 public
 :
 void
