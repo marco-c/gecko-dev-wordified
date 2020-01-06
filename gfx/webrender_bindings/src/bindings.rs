@@ -6251,6 +6251,11 @@ opacity
 }
 else
 {
+if
+animation_id
+>
+0
+{
 filters
 .
 push
@@ -6276,6 +6281,7 @@ animation_id
 )
 )
 ;
+}
 }
 let
 transform
