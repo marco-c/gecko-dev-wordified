@@ -1593,6 +1593,25 @@ parameters
 )
 :
     
+#
+NOTE
+:
+when
+deleting
+this
+function
+delete
+taskcluster
+/
+taskgraph
+/
+util
+/
+templates
+.
+py
+too
+    
 templates
 =
 Templates
