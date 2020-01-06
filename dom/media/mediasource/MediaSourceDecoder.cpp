@@ -1926,7 +1926,7 @@ mediasource
 s
 duration
 or
-30s
+10s
 ahead
 we
 can
@@ -1975,7 +1975,7 @@ TimeUnit
 :
 FromSeconds
 (
-30
+10
 )
 )
 ;
