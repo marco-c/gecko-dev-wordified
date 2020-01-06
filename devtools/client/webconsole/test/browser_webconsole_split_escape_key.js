@@ -483,8 +483,6 @@ testHideAutoCompletePopupAfterEscape
 let
 deferred
 =
-promise
-.
 defer
 (
 )

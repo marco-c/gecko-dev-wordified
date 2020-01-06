@@ -2990,8 +2990,6 @@ type
 let
 deferred
 =
-promise
-.
 defer
 (
 )

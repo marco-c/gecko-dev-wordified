@@ -5414,8 +5414,6 @@ this
 .
 _deferredUpdate
 =
-promise
-.
 defer
 (
 )
@@ -6013,8 +6011,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

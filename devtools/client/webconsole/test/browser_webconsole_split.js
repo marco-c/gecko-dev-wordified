@@ -1454,8 +1454,6 @@ toolId
 let
 deferred
 =
-promise
-.
 defer
 (
 )

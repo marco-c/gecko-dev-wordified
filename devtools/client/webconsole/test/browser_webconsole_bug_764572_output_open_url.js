@@ -548,8 +548,6 @@ results
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -777,8 +775,6 @@ msg
 let
 deferred
 =
-promise
-.
 defer
 (
 )

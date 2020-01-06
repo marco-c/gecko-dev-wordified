@@ -303,8 +303,6 @@ returns
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -423,8 +421,6 @@ returns
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -875,8 +871,6 @@ certainty
 let
 deferAfterRejection
 =
-promise
-.
 defer
 (
 )

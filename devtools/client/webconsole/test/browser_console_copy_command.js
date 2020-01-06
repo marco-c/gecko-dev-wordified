@@ -458,8 +458,6 @@ samples
 let
 deferredResult
 =
-promise
-.
 defer
 (
 )

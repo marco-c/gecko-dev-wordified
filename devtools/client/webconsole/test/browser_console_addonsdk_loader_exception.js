@@ -479,8 +479,6 @@ null
 let
 clickPromise
 =
-promise
-.
 defer
 (
 )

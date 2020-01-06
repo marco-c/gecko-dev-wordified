@@ -258,8 +258,6 @@ _opening
 let
 deferred
 =
-promise
-.
 defer
 (
 )

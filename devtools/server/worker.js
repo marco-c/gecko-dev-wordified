@@ -193,8 +193,6 @@ id
 let
 deferred
 =
-Promise
-.
 defer
 (
 )

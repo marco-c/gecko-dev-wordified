@@ -2829,8 +2829,6 @@ callback
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3461,8 +3459,6 @@ options
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4091,8 +4087,6 @@ targetElement
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4362,8 +4356,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

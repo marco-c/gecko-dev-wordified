@@ -275,8 +275,6 @@ _variablesView
 let
 deferred
 =
-promise
-.
 defer
 (
 )

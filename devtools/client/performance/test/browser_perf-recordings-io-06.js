@@ -739,8 +739,6 @@ file
 let
 deferred
 =
-Promise
-.
 defer
 (
 )

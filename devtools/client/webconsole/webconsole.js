@@ -2662,8 +2662,6 @@ null
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2821,8 +2819,6 @@ null
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3260,8 +3256,6 @@ this
 .
 _initDefer
 =
-promise
-.
 defer
 (
 )
@@ -17544,8 +17538,6 @@ this
 .
 _destroyer
 =
-promise
-.
 defer
 (
 )

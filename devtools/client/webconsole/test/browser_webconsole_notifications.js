@@ -123,8 +123,6 @@ TEST_URI
 let
 consoleOpened
 =
-promise
-.
 defer
 (
 )
@@ -175,8 +173,6 @@ onConsoleOpened
 let
 deferred
 =
-promise
-.
 defer
 (
 )

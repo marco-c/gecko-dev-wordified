@@ -623,8 +623,6 @@ panel
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -176,8 +176,6 @@ hud
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -568,8 +566,6 @@ testContextMenuCopy
 let
 deferred
 =
-promise
-.
 defer
 (
 )

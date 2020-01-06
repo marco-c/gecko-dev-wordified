@@ -207,8 +207,6 @@ promise
 p
 }
 =
-promise
-.
 defer
 (
 )

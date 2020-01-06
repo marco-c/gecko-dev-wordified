@@ -296,8 +296,6 @@ this
 .
 _deferred
 =
-promise
-.
 defer
 (
 )

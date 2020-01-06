@@ -3337,8 +3337,6 @@ webConsoleClient
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3557,8 +3555,6 @@ SP_run
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3714,8 +3710,6 @@ SP_inspect
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3885,8 +3879,6 @@ SP_reloadAndRun
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4075,8 +4067,6 @@ SP_display
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -5505,8 +5495,6 @@ aValue
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -5922,8 +5910,6 @@ aError
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -13093,8 +13079,6 @@ _connector
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -13856,8 +13840,6 @@ show
 let
 deferred
 =
-promise
-.
 defer
 (
 )

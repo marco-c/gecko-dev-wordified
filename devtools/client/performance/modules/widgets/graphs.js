@@ -1481,8 +1481,6 @@ this
 .
 _rendering
 =
-promise
-.
 defer
 (
 )

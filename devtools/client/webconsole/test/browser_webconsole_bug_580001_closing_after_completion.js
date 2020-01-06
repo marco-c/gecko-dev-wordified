@@ -182,8 +182,6 @@ browser
 let
 deferred
 =
-promise
-.
 defer
 (
 )

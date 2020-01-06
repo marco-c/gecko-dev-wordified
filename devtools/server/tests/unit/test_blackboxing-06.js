@@ -446,8 +446,6 @@ black_box_code
 const
 d
 =
-promise
-.
 defer
 (
 )
@@ -594,8 +592,6 @@ run_code
 const
 d
 =
-promise
-.
 defer
 (
 )

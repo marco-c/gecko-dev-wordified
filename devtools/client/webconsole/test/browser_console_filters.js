@@ -354,8 +354,6 @@ finish
 let
 deferred
 =
-promise
-.
 defer
 (
 )

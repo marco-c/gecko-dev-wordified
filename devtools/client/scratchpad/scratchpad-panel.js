@@ -208,8 +208,6 @@ hideMenu
 let
 deferred
 =
-promise
-.
 defer
 (
 )

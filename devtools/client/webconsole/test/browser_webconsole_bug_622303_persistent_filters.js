@@ -317,8 +317,6 @@ hud
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -554,8 +552,6 @@ once
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -241,8 +241,6 @@ aHud
 let
 deferred
 =
-promise
-.
 defer
 (
 )

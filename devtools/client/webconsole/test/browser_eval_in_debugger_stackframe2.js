@@ -298,8 +298,6 @@ DebuggerController
 let
 firstCall
 =
-promise
-.
 defer
 (
 )
@@ -307,8 +305,6 @@ defer
 let
 frameAdded
 =
-promise
-.
 defer
 (
 )

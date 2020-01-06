@@ -3983,8 +3983,6 @@ expectedState
 let
 deferred
 =
-promise
-.
 defer
 (
 )

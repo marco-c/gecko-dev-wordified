@@ -1945,8 +1945,6 @@ _cssRules
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3341,8 +3339,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

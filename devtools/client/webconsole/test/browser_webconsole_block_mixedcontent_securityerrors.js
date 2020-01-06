@@ -439,8 +439,6 @@ pushPrefEnv
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -523,8 +521,6 @@ browser
 let
 deferred
 =
-promise
-.
 defer
 (
 )

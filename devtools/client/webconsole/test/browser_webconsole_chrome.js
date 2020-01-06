@@ -234,8 +234,6 @@ setSelectionRange
 let
 deferred
 =
-promise
-.
 defer
 (
 )

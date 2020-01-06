@@ -585,8 +585,6 @@ s
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -828,8 +828,6 @@ hello
 let
 expectReply
 =
-promise
-.
 defer
 (
 )

@@ -2331,8 +2331,6 @@ aEvent
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -371,8 +371,6 @@ ready
 let
 deferredIframe
 =
-promise
-.
 defer
 (
 )

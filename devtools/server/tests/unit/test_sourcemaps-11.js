@@ -497,8 +497,6 @@ run_code
 const
 d
 =
-promise
-.
 defer
 (
 )

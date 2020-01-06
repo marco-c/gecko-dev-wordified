@@ -175,8 +175,6 @@ testViewSource
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -443,8 +441,6 @@ panel
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -826,8 +822,6 @@ line
 let
 deferred
 =
-promise
-.
 defer
 (
 )

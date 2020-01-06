@@ -332,8 +332,6 @@ panelWin
 let
 deferred
 =
-promise
-.
 defer
 (
 )

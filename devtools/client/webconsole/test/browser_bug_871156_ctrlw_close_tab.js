@@ -225,8 +225,6 @@ opened
 let
 tabClosed
 =
-promise
-.
 defer
 (
 )
@@ -234,8 +232,6 @@ defer
 let
 toolboxDestroyed
 =
-promise
-.
 defer
 (
 )
@@ -243,8 +239,6 @@ defer
 let
 tabSelected
 =
-promise
-.
 defer
 (
 )
@@ -474,8 +468,6 @@ opened
 let
 deferred
 =
-promise
-.
 defer
 (
 )

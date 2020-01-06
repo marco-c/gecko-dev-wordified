@@ -331,8 +331,6 @@ str
 let
 deferred
 =
-promise
-.
 defer
 (
 )

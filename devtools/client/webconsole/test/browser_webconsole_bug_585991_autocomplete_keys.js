@@ -254,8 +254,6 @@ hud
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1026,8 +1024,6 @@ popupHideAfterTab
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1402,8 +1398,6 @@ testReturnKey
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1796,8 +1790,6 @@ dontShowArrayNumbers
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2040,8 +2032,6 @@ testReturnWithNoSelection
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2339,8 +2329,6 @@ bug
 let
 deferred
 =
-promise
-.
 defer
 (
 )

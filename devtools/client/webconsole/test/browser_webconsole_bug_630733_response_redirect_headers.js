@@ -210,8 +210,6 @@ hud
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -301,8 +299,6 @@ getHeaders
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -440,8 +436,6 @@ getContent
 let
 deferred
 =
-promise
-.
 defer
 (
 )

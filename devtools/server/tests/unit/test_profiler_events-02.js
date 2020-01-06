@@ -182,8 +182,6 @@ eventsCalled
 let
 handledThreeTimes
 =
-promise
-.
 defer
 (
 )
@@ -520,8 +518,6 @@ getChromeActors
 let
 deferred
 =
-promise
-.
 defer
 (
 )
