@@ -1286,6 +1286,13 @@ bind
 (
 this
 )
+(
+)
+=
+>
+this
+.
+curBrowser
 )
 ;
 /
