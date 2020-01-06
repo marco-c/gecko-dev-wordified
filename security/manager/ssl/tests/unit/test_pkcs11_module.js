@@ -1243,7 +1243,7 @@ module
 list
 .
 let
-pkcs11
+pkcs11ModuleDB
 =
 Cc
 [
@@ -1254,7 +1254,7 @@ org
 /
 security
 /
-pkcs11
+pkcs11moduledb
 ;
 1
 "
@@ -1264,10 +1264,10 @@ getService
 (
 Ci
 .
-nsIPKCS11
+nsIPKCS11ModuleDB
 )
 ;
-pkcs11
+pkcs11ModuleDB
 .
 deleteModule
 (

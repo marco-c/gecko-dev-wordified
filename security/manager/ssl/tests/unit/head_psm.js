@@ -6701,7 +6701,7 @@ exist
 )
 ;
 let
-pkcs11
+pkcs11ModuleDB
 =
 Cc
 [
@@ -6712,7 +6712,7 @@ org
 /
 security
 /
-pkcs11
+pkcs11moduledb
 ;
 1
 "
@@ -6722,7 +6722,7 @@ getService
 (
 Ci
 .
-nsIPKCS11
+nsIPKCS11ModuleDB
 )
 ;
 do_register_cleanup
@@ -6734,7 +6734,7 @@ do_register_cleanup
 {
 try
 {
-pkcs11
+pkcs11ModuleDB
 .
 deleteModule
 (
@@ -6773,7 +6773,7 @@ e
 }
 )
 ;
-pkcs11
+pkcs11ModuleDB
 .
 addModule
 (
