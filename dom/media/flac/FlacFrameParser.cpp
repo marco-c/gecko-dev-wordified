@@ -433,16 +433,6 @@ return
 false
 ;
 }
-aPacket
-+
-=
-4
-;
-aLength
--
-=
-4
-;
 }
 uint8_t
 blockHeader
