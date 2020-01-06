@@ -3433,7 +3433,7 @@ sf
 presShell
 -
 >
-GetRootScrollFrameAsScrollableExternal
+GetRootScrollFrameAsScrollable
 (
 )
 ;

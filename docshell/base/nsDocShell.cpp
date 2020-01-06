@@ -52472,7 +52472,7 @@ rootScrollFrame
 shell
 -
 >
-GetRootScrollFrameAsScrollableExternal
+GetRootScrollFrameAsScrollable
 (
 )
 ;
@@ -80406,7 +80406,7 @@ return
 shell
 -
 >
-GetRootScrollFrameAsScrollableExternal
+GetRootScrollFrameAsScrollable
 (
 )
 ;
