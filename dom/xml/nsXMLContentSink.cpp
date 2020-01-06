@@ -8123,7 +8123,7 @@ aType
 FlushType
 :
 :
-InterruptibleLayout
+EnsurePresShellInitAndFrames
 )
 {
 /
