@@ -650,6 +650,13 @@ SignExtend
 void
 ma_load_unaligned
 (
+const
+wasm
+:
+:
+MemoryAccessDesc
+&
+access
 Register
 dest
 const
@@ -708,6 +715,13 @@ SignExtend
 void
 ma_store_unaligned
 (
+const
+wasm
+:
+:
+MemoryAccessDesc
+&
+access
 Register
 data
 const
