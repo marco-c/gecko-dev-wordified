@@ -1082,6 +1082,7 @@ mSize
 struct
 PushedLayer
 {
+explicit
 PushedLayer
 (
 bool
