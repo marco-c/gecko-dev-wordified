@@ -266,6 +266,7 @@ get
 (
 )
 mThreadId
+*
 mBuffer
 .
 get

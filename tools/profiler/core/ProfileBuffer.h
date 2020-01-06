@@ -408,6 +408,7 @@ UniqueStacks
 &
 aUniqueStacks
 )
+const
 ;
 void
 StreamMarkersToJSON
@@ -430,6 +431,7 @@ UniqueStacks
 &
 aUniqueStacks
 )
+const
 ;
 /
 /
@@ -538,6 +540,7 @@ LastSample
 &
 aLS
 )
+const
 ;
 public
 :

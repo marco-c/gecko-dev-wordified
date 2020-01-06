@@ -1544,8 +1544,9 @@ public
 void
 StreamJSON
 (
+const
 ProfileBuffer
-*
+&
 aBuffer
 SpliceableJSONWriter
 &
@@ -1592,9 +1593,6 @@ shutdown
 void
 FlushSamplesAndMarkers
 (
-ProfileBuffer
-*
-aBuffer
 const
 mozilla
 :
@@ -1602,6 +1600,9 @@ mozilla
 TimeStamp
 &
 aProcessStartTime
+ProfileBuffer
+&
+aBuffer
 )
 ;
 /
@@ -2677,8 +2678,9 @@ char
 aName
 int
 aThreadId
+const
 ProfileBuffer
-*
+&
 aBuffer
 SpliceableJSONWriter
 &
