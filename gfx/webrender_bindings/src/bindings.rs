@@ -3095,6 +3095,9 @@ pull
 issuecomment
 -
 304318800
+enable_render_on_scroll
+:
+false
 .
 .
 Default
