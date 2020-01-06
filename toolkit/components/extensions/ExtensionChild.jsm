@@ -3243,7 +3243,7 @@ scripts
 return
 data
 .
-content_scripts
+contentScripts
 .
 map
 (
