@@ -1013,9 +1013,6 @@ uint32_t
 selectorFlags
 =
 container
-?
-(
-container
 -
 >
 GetFlags
@@ -1023,9 +1020,6 @@ GetFlags
 )
 &
 NODE_ALL_SELECTOR_FLAGS
-)
-:
-0
 ;
 if
 (
@@ -1601,9 +1595,6 @@ uint32_t
 selectorFlags
 =
 container
-?
-(
-container
 -
 >
 GetFlags
@@ -1611,9 +1602,6 @@ GetFlags
 )
 &
 NODE_ALL_SELECTOR_FLAGS
-)
-:
-0
 ;
 if
 (
