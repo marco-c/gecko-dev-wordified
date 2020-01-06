@@ -45594,6 +45594,11 @@ ScreenIntSize
 aDisplaySize
 )
 {
+MOZ_ASSERT
+(
+mPresShell
+)
+;
 /
 /
 Compute
