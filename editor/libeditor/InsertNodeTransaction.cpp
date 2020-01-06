@@ -425,6 +425,12 @@ ref
 rv
 )
 ;
+rv
+.
+WouldReportJSException
+(
+)
+;
 NS_ENSURE_TRUE
 (
 !
