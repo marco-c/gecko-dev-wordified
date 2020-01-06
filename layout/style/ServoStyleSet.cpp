@@ -2241,6 +2241,9 @@ TraversalRestyleBehavior
 :
 ForAnimationOnly
 ;
+#
+ifdef
+DEBUG
 bool
 forNewlyBoundElement
 =
@@ -2252,6 +2255,8 @@ TraversalRestyleBehavior
 :
 ForNewlyBoundElement
 ;
+#
+endif
 bool
 postTraversalRequired
 =
