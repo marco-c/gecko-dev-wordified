@@ -11593,6 +11593,9 @@ Servo_StyleSet_MightHaveAttributeDependency
 set
 :
 RawServoStyleSetBorrowed
+element
+:
+RawGeckoElementBorrowed
 local_name
 :
 *
@@ -11616,6 +11619,9 @@ Servo_StyleSet_HasStateDependency
 set
 :
 RawServoStyleSetBorrowed
+element
+:
+RawGeckoElementBorrowed
 state
 :
 u64
