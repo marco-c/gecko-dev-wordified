@@ -180,10 +180,6 @@ mPushedClipAndScroll
 (
 false
 )
-mCache
-(
-aCache
-)
 {
 int32_t
 auPerDevPixel
@@ -392,6 +388,7 @@ GetClipChain
 )
 auPerDevPixel
 aStackingContext
+aCache
 )
 ;
 /
@@ -928,6 +925,12 @@ const
 StackingContextHelper
 &
 aStackingContext
+WebRenderCommandBuilder
+:
+:
+ClipIdMap
+&
+aCache
 )
 {
 /
@@ -1028,6 +1031,20 @@ don
 '
 t
 change
+(
+although
+|
+aCache
+|
+/
+/
+might
+be
+updated
+with
+new
+things
+)
 .
 /
 /
@@ -1303,6 +1320,7 @@ aAsr
 aChain
 aAppUnitsPerDevPixel
 aStackingContext
+aCache
 )
 ;
 }
@@ -1319,6 +1337,7 @@ aAsr
 aChain
 aAppUnitsPerDevPixel
 aStackingContext
+aCache
 )
 ;
 }
@@ -1389,6 +1408,12 @@ const
 StackingContextHelper
 &
 aSc
+WebRenderCommandBuilder
+:
+:
+ClipIdMap
+&
+aCache
 )
 {
 MOZ_ASSERT
@@ -1443,7 +1468,7 @@ can
 '
 t
 use
-mCache
+aCache
 directly
 .
 However
@@ -1523,7 +1548,7 @@ else
 auto
 it
 =
-mCache
+aCache
 .
 find
 (
@@ -1535,7 +1560,7 @@ if
 it
 !
 =
-mCache
+aCache
 .
 end
 (
@@ -1650,6 +1675,7 @@ aChain
 mParent
 aAppUnitsPerDevPixel
 aSc
+aCache
 )
 ;
 ids
@@ -2355,7 +2381,7 @@ HasExtraClip
 )
 )
 {
-mCache
+aCache
 [
 aChain
 ]
@@ -2418,6 +2444,12 @@ const
 StackingContextHelper
 &
 aSc
+WebRenderCommandBuilder
+:
+:
+ClipIdMap
+&
+aCache
 )
 {
 MOZ_ASSERT
@@ -2539,7 +2571,7 @@ else
 auto
 it
 =
-mCache
+aCache
 .
 find
 (
@@ -2551,7 +2583,7 @@ if
 it
 =
 =
-mCache
+aCache
 .
 end
 (
@@ -2644,7 +2676,7 @@ for
 (
 it
 =
-mCache
+aCache
 .
 begin
 (
@@ -2653,7 +2685,7 @@ begin
 it
 !
 =
-mCache
+aCache
 .
 end
 (
@@ -2691,7 +2723,7 @@ If
 it
 =
 =
-mCache
+aCache
 .
 end
 (
@@ -2847,7 +2879,7 @@ if
 it
 !
 =
-mCache
+aCache
 .
 end
 (
@@ -2898,6 +2930,7 @@ mParent
 aChain
 aAppUnitsPerDevPixel
 aSc
+aCache
 )
 ;
 ids
