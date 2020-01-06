@@ -23671,14 +23671,6 @@ FindObjectData
 )
 SIMPLE_TAG_CHAIN
 (
-applet
-nsCSSFrameConstructor
-:
-:
-FindObjectData
-)
-SIMPLE_TAG_CHAIN
-(
 embed
 nsCSSFrameConstructor
 :
@@ -24480,7 +24472,6 @@ NS_ASSERTION
 (
 objContent
 "
-applet
 embed
 and
 object

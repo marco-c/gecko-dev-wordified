@@ -7834,13 +7834,6 @@ this
 target
 instanceof
 HTMLObjectElement
-|
-|
-this
-.
-target
-instanceof
-HTMLAppletElement
 )
 &
 &

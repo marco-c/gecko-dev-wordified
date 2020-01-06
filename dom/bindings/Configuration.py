@@ -6271,10 +6271,6 @@ HTMLObjectElement
 "
 HTMLEmbedElement
 "
-                                                       
-"
-HTMLAppletElement
-"
 ]
 )
     

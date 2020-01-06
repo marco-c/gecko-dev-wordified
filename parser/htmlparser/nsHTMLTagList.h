@@ -379,8 +379,8 @@ address
 HTML_TAG
 (
 applet
-SharedObject
-Applet
+Unknown
+Unknown
 )
 HTML_TAG
 (
