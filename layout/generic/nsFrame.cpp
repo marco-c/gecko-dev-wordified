@@ -69474,6 +69474,13 @@ aNewStyleContext
 equalStructs
 &
 samePointerStructs
+/
+*
+aIgnoreVariables
+=
+*
+/
+true
 )
 ;
 /

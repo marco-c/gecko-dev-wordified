@@ -54299,6 +54299,13 @@ newContext
 equalStructs
 &
 samePointerStructs
+/
+*
+aIgnoreVariables
+=
+*
+/
+true
 )
 ;
 /
