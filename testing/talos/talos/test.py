@@ -1080,18 +1080,6 @@ sessionrestore
 profile
 '
     
-url
-=
-'
-startup_test
-/
-sessionrestore
-/
-index
-.
-html
-'
-    
 shutdown
 =
 False
@@ -1115,6 +1103,31 @@ json
 Restore
 the
 session
+.
+We
+have
+to
+provide
+a
+URL
+otherwise
+Talos
+    
+#
+asks
+for
+a
+manifest
+URL
+.
+    
+url
+=
+'
+about
+:
+home
+'
     
 preferences
 =
@@ -1205,12 +1218,6 @@ sessionRestored
 "
 "
 "
-    
-#
-Restore
-about
-:
-home
     
 preferences
 =
