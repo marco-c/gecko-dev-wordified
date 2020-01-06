@@ -358,13 +358,7 @@ vendor
 Mozilla
 "
 name
-:
-name
 ID
-:
-ID
-version
-:
 version
 appBuildID
 :
@@ -374,8 +368,6 @@ appBuildID
 /
 /
 nsIPlatformInfo
-platformVersion
-:
 platformVersion
 platformBuildID
 :
@@ -391,8 +383,6 @@ false
 logConsoleErrors
 :
 true
-OS
-:
 OS
 XPCOMABI
 :
@@ -750,8 +740,6 @@ factory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid

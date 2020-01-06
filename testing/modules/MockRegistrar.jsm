@@ -544,13 +544,7 @@ set
 originalCID
 {
 contractID
-:
-contractID
 factory
-:
-factory
-originalFactory
-:
 originalFactory
 }
 )

@@ -305,8 +305,6 @@ functions
 -
 -
 open
-:
-function
 (
 root
 path
@@ -359,8 +357,6 @@ path
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -399,8 +395,6 @@ size
 ;
 }
 hasValue
-:
-function
 (
 name
 )
@@ -429,8 +423,6 @@ name
 ;
 }
 getValueType
-:
-function
 (
 name
 )
@@ -444,8 +436,6 @@ TYPE_STRING
 ;
 }
 getValueName
-:
-function
 (
 index
 )
@@ -498,8 +488,6 @@ index
 ;
 }
 readStringValue
-:
-function
 (
 name
 )
@@ -704,4 +692,3 @@ value
 }
 }
 }
-;
