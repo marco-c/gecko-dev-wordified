@@ -151,6 +151,15 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+mozilla
+/
+BackgroundHangMonitor
+.
+h
+"
 namespace
 mozilla
 {
