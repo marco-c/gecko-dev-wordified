@@ -1094,7 +1094,7 @@ nsTArray
 wr
 :
 :
-WrGlyphInstance
+GlyphInstance
 >
 wr_glyph_instances
 ;
@@ -1201,7 +1201,7 @@ const
 wr
 :
 :
-WrGlyphInstance
+GlyphInstance
 >
 (
 wr_glyph_instances
