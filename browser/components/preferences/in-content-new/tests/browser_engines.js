@@ -17,6 +17,8 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
+general
+-
 search
 "
 {
@@ -32,10 +34,10 @@ prefs
 .
 selectedPane
 "
-paneSearch
+paneGeneral
 "
 "
-Search
+General
 pane
 is
 selected
