@@ -593,6 +593,9 @@ props
 cropLimit
 :
 50
+noGrip
+:
+true
 }
 )
 )
