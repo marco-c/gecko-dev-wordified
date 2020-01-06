@@ -1544,13 +1544,6 @@ Get
 (
 )
 ;
-vm
--
->
-RefreshVRDisplays
-(
-)
-;
 /
 /
 Get

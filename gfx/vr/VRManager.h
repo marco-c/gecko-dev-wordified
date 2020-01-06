@@ -424,6 +424,13 @@ DispatchVRDisplayInfoUpdate
 )
 ;
 void
+RefreshVRDisplaysInternal
+(
+bool
+aMustDispatch
+)
+;
+void
 NotifyGamepadChangeEventsToContent
 (
 const
