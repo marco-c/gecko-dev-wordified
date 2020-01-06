@@ -19035,7 +19035,7 @@ lazy
 if
 (
 !
-JS_SetProperty
+JS_DefineProperty
 (
 cx
 obj
@@ -19043,6 +19043,9 @@ obj
 lazy
 "
 value
+JSPROP_PERMANENT
+|
+JSPROP_READONLY
 )
 )
 return
