@@ -867,7 +867,7 @@ res
 )
 ;
 }
-bool
+void
 js
 :
 :
@@ -922,7 +922,6 @@ thisValue
 )
 ;
 return
-true
 ;
 }
 if
@@ -989,7 +988,6 @@ env
 )
 ;
 return
-true
 ;
 }
 env
@@ -1002,9 +1000,6 @@ enclosingEnvironment
 )
 ;
 }
-return
-true
-;
 }
 bool
 js
@@ -17787,9 +17782,6 @@ PUSH_NULL
 (
 )
 ;
-if
-(
-!
 GetNonSyntacticGlobalThis
 (
 cx
@@ -17811,9 +17803,6 @@ stackHandleAt
 1
 )
 )
-)
-goto
-error
 ;
 }
 else

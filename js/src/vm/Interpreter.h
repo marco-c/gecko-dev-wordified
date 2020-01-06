@@ -208,7 +208,7 @@ res
 )
 ;
 extern
-bool
+void
 GetNonSyntacticGlobalThis
 (
 JSContext
