@@ -985,7 +985,7 @@ cleanup
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 mContent
 -
@@ -1061,7 +1061,7 @@ mIsShadowRootBinding
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 tmp
 -
@@ -1242,7 +1242,7 @@ void
 nsXBLBinding
 :
 :
-InstallAnonymousContent
+BindAnonymousContent
 (
 nsIContent
 *
@@ -1588,7 +1588,7 @@ void
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 nsIDocument
 *
@@ -2250,7 +2250,7 @@ GetNextNode
 call
 above
 fail
-InstallAnonymousContent
+BindAnonymousContent
 (
 mContent
 mBoundElement
@@ -2540,8 +2540,8 @@ maintain
 /
 /
 Undo
-InstallAnonymousContent
-UninstallAnonymousContent
+BindAnonymousContent
+UnbindAnonymousContent
 (
 doc
 mContent
@@ -5179,7 +5179,7 @@ mIsShadowRootBinding
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 aOldDocument
 mContent

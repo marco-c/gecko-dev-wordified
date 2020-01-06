@@ -732,7 +732,7 @@ GenerateAnonymousContent
 )
 ;
 void
-InstallAnonymousContent
+BindAnonymousContent
 (
 nsIContent
 *
@@ -746,7 +746,7 @@ aNativeAnon
 ;
 static
 void
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 nsIDocument
 *
