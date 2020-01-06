@@ -548,6 +548,14 @@ aLookAndFeelIntCache
 )
 {
 }
+virtual
+void
+NativeInit
+(
+)
+=
+0
+;
 protected
 :
 nsXPLookAndFeel

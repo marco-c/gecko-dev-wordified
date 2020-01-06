@@ -138,6 +138,15 @@ aResult
 )
 ;
 virtual
+void
+NativeInit
+(
+)
+final
+{
+}
+;
+virtual
 nsresult
 GetIntImpl
 (
