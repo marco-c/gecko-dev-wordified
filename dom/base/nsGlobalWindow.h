@@ -8813,6 +8813,11 @@ GetPerformance
 (
 )
 ;
+void
+UpdateTopInnerWindow
+(
+)
+;
 protected
 :
 /
