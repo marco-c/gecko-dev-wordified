@@ -370,7 +370,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 >
 &
 aAccumulations
@@ -396,7 +396,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 &
 aAccumulations

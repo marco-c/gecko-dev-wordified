@@ -262,7 +262,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 ;
 using
 mozilla
@@ -280,7 +280,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 ;
 using
 mozilla
@@ -604,7 +604,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-Accumulation
+HistogramAccumulation
 >
 >
 gHistogramAccumulations
@@ -613,7 +613,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 >
 gKeyedHistogramAccumulations
@@ -1148,7 +1148,7 @@ gHistogramAccumulations
 new
 nsTArray
 <
-Accumulation
+HistogramAccumulation
 >
 (
 )
@@ -1201,7 +1201,7 @@ gHistogramAccumulations
 >
 AppendElement
 (
-Accumulation
+HistogramAccumulation
 {
 aId
 aSample
@@ -1253,7 +1253,7 @@ gKeyedHistogramAccumulations
 new
 nsTArray
 <
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 (
 )
@@ -1306,7 +1306,7 @@ gKeyedHistogramAccumulations
 >
 AppendElement
 (
-KeyedAccumulation
+KeyedHistogramAccumulation
 {
 aId
 aSample
@@ -1810,15 +1810,15 @@ buffers
 .
 nsTArray
 <
-Accumulation
+HistogramAccumulation
 >
-accumulationsToSend
+histogramsToSend
 ;
 nsTArray
 <
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
-keyedAccumulationsToSend
+keyedHistogramsToSend
 ;
 nsTArray
 <
@@ -1853,7 +1853,7 @@ if
 gHistogramAccumulations
 )
 {
-accumulationsToSend
+histogramsToSend
 .
 SwapElements
 (
@@ -1867,7 +1867,7 @@ if
 gKeyedHistogramAccumulations
 )
 {
-keyedAccumulationsToSend
+keyedHistogramsToSend
 .
 SwapElements
 (
@@ -1954,7 +1954,7 @@ ipcActor
 ;
 if
 (
-accumulationsToSend
+histogramsToSend
 .
 Length
 (
@@ -1975,14 +1975,14 @@ ipcActor
 >
 SendAccumulateChildHistograms
 (
-accumulationsToSend
+histogramsToSend
 )
 )
 ;
 }
 if
 (
-keyedAccumulationsToSend
+keyedHistogramsToSend
 .
 Length
 (
@@ -2003,7 +2003,7 @@ ipcActor
 >
 SendAccumulateChildKeyedHistograms
 (
-keyedAccumulationsToSend
+keyedHistogramsToSend
 )
 )
 ;

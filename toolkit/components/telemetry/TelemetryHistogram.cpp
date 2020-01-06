@@ -337,7 +337,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 ;
 using
 mozilla
@@ -346,7 +346,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 ;
 using
 mozilla
@@ -12974,7 +12974,7 @@ aProcessType
 const
 nsTArray
 <
-Accumulation
+HistogramAccumulation
 >
 &
 aAccumulations
@@ -13086,7 +13086,7 @@ aProcessType
 const
 nsTArray
 <
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 &
 aAccumulations

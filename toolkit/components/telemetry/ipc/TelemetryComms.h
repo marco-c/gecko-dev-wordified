@@ -128,7 +128,7 @@ HistogramID
 uint32_t
 ;
 struct
-Accumulation
+HistogramAccumulation
 {
 mozilla
 :
@@ -145,7 +145,7 @@ mSample
 }
 ;
 struct
-KeyedAccumulation
+KeyedHistogramAccumulation
 {
 mozilla
 :
@@ -379,7 +379,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 >
 {
 typedef
@@ -389,7 +389,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 paramType
 ;
 static
@@ -503,7 +503,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 {
 typedef
@@ -513,7 +513,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 paramType
 ;
 static
