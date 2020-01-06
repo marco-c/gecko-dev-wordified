@@ -2151,6 +2151,14 @@ event
 void
 NotifyLoadError
 (
+const
+nsACString
+&
+aErrorDetails
+=
+nsCString
+(
+)
 )
 ;
 /
