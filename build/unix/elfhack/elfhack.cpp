@@ -6690,6 +6690,7 @@ segment
 {
 if
 (
+(
 segment
 -
 >
@@ -6698,6 +6699,7 @@ getFlags
 )
 &
 PF_W
+)
 =
 =
 0
