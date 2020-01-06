@@ -3924,6 +3924,8 @@ webextensions
 dummy
 /
 dummy
+-
+signed
 .
 xpi
 '
