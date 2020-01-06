@@ -347,7 +347,7 @@ call
 do_GetCurrentThread
 (
 )
-is
+if
 this
 is
 called
