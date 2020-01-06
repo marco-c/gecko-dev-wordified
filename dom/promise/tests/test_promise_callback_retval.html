@@ -148,6 +148,9 @@ waitForExplicitFinish
 (
 )
 ;
+var
+globalWrapper
+;
 function
 verifyPromiseGlobal
 (
@@ -182,7 +185,6 @@ the
 underlying
 object
 .
-var
 globalWrapper
 =
 SpecialPowers
@@ -222,6 +224,9 @@ isXrayArgumentTest
 =
 false
 ;
+var
+func
+;
 function
 getPromise
 (
@@ -229,7 +234,6 @@ global
 arg
 )
 {
-var
 func
 =
 new
