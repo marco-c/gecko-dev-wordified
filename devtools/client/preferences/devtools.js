@@ -3407,7 +3407,7 @@ hud
 .
 loglimit
 "
-1000
+10000
 )
 ;
 /
@@ -3421,6 +3421,7 @@ are
 displayed
 in
 the
+old
 web
 console
 for
@@ -3448,6 +3449,7 @@ with
 DEFAULT_LOG_LIMIT
 in
 the
+old
 webconsole
 frontend
 .
