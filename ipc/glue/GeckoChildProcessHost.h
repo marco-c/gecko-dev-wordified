@@ -1335,6 +1335,9 @@ mRestoreOrigNSPRLogName
 nsCString
 mRestoreOrigMozLogName
 ;
+nsCString
+mRestoreOrigRustLog
+;
 static
 uint32_t
 sNextUniqueID
