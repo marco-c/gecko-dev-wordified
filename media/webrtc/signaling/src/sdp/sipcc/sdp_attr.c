@@ -8457,6 +8457,17 @@ iter
 ;
 }
 }
+else
+{
+SDP_FREE
+(
+temp_ptr
+)
+;
+return
+SDP_INVALID_PARAMETER
+;
+}
 fmtp_p
 -
 >
