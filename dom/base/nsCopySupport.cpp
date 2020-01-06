@@ -3698,7 +3698,7 @@ rv
 aImgRequest
 -
 >
-GetCurrentURI
+GetFinalURI
 (
 getter_AddRefs
 (

@@ -343,7 +343,7 @@ nsIURI
 aURI
 nsIURI
 *
-aCurrentURI
+aFinalURI
 bool
 aHadInsecureRedirect
 nsIRequest
@@ -678,7 +678,7 @@ does
 not
 consider
 the
-current
+final
 URI
 .
 bool
@@ -938,7 +938,7 @@ aURI
 )
 ;
 nsresult
-GetCurrentURI
+GetFinalURI
 (
 nsIURI
 *
@@ -1537,7 +1537,7 @@ nsCOMPtr
 <
 nsIURI
 >
-mCurrentURI
+mFinalURI
 ;
 /
 /
