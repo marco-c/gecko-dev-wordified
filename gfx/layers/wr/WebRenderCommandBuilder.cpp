@@ -1731,6 +1731,15 @@ sublist
 .
 if
 (
+itemType
+!
+=
+DisplayItemType
+:
+:
+TYPE_LAYER_EVENT_REGIONS
+&
+&
 !
 item
 -
