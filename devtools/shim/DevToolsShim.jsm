@@ -1845,6 +1845,9 @@ getTargetForTab
 "
 getTheme
 "
+"
+createWebExtensionInspectedWindowFront
+"
 ]
 ;
 for
