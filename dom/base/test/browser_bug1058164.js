@@ -524,7 +524,7 @@ waitForEvent
 (
 newWindow
 "
-load
+DOMContentLoaded
 "
 )
 ;
