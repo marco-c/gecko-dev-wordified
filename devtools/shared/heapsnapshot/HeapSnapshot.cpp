@@ -1190,12 +1190,11 @@ data
 )
 )
 ;
-UniquePtr
+UniqueFreePtr
 <
 CharT
 [
 ]
-NSFreePolicy
 >
 owned
 (
