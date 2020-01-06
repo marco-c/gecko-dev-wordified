@@ -2484,6 +2484,15 @@ gfxPrefs
 LayoutUseContainersForRootFrames
 (
 )
+|
+|
+!
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
 )
 {
 haveDisplayPort
