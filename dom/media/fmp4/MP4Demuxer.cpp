@@ -3529,6 +3529,9 @@ H264
 HasSPS
 (
 sample
+-
+>
+mExtraData
 )
 )
 {
