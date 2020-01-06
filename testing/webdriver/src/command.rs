@@ -2495,6 +2495,7 @@ pub
 struct
 GetParameters
 {
+pub
 url
 :
 String
