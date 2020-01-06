@@ -631,6 +631,15 @@ sCSPEnabled
 aDocument
 &
 &
+!
+aDocument
+-
+>
+IsLoadedAsData
+(
+)
+&
+&
 AttrValueIs
 (
 kNameSpaceID_None
