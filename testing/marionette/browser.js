@@ -2779,8 +2779,7 @@ string
 }
 *
 /
-this
-.
+const
 WindowState
 =
 {
