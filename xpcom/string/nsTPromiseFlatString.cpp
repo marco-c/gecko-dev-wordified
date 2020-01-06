@@ -114,8 +114,16 @@ MPL
 .
 *
 /
+template
+<
+typename
+T
+>
 void
-nsTPromiseFlatString_CharT
+nsTPromiseFlatString
+<
+T
+>
 :
 :
 Init
@@ -199,6 +207,9 @@ DataFlags
 :
 :
 VOIDED
+this
+-
+>
 SetData
 (
 newData
@@ -209,6 +220,9 @@ newDataFlags
 }
 else
 {
+this
+-
+>
 Assign
 (
 str
