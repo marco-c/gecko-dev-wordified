@@ -2196,9 +2196,10 @@ unregisterCallback
 {
 unregisterSucceeded
 :
-function
 (
 )
+=
+>
 {
 resolve
 (
@@ -2218,9 +2219,10 @@ failures
 .
 unregisterFailed
 :
-function
 (
 )
+=
+>
 {
 resolve
 (
