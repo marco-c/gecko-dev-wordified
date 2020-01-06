@@ -629,6 +629,11 @@ nsSubDocumentFrame
 frame
 )
 ;
+void
+MaybeShowFrame
+(
+)
+;
 /
 *
 *
