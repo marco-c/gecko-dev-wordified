@@ -68,8 +68,11 @@ here
 catch
 (
 e
+)
+{
 if
 (
+!
 (
 e
 instanceof
@@ -78,10 +81,8 @@ Components
 interfaces
 .
 nsIException
-)
 &
 &
-(
 e
 .
 result
@@ -94,8 +95,11 @@ results
 NS_ERROR_INVALID_POINTER
 )
 )
-)
 {
+throw
+e
+;
+}
 /
 /
 do

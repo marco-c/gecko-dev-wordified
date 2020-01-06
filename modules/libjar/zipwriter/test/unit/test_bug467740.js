@@ -233,7 +233,11 @@ invalidArchive
 catch
 (
 e
+)
+{
 if
+(
+!
 (
 e
 instanceof
@@ -255,6 +259,10 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 {
+throw
+e
+;
+}
 /
 /
 do
