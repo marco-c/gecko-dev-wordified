@@ -6201,6 +6201,8 @@ StyleSet
 >
 HasStateDependency
 (
+*
+aElement
 aChangedBits
 )
 )
@@ -6461,6 +6463,8 @@ StyleSet
 >
 MightHaveAttributeDependency
 (
+*
+aElement
 aAttribute
 )
 )

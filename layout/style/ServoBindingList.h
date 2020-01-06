@@ -527,6 +527,8 @@ Servo_StyleSet_MightHaveAttributeDependency
 bool
 RawServoStyleSetBorrowed
 set
+RawGeckoElementBorrowed
+element
 nsIAtom
 *
 local_name
@@ -537,6 +539,8 @@ Servo_StyleSet_HasStateDependency
 bool
 RawServoStyleSetBorrowed
 set
+RawGeckoElementBorrowed
+element
 uint64_t
 state
 )

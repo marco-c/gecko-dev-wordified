@@ -2891,6 +2891,13 @@ sheet
 bool
 MightHaveAttributeDependency
 (
+const
+dom
+:
+:
+Element
+&
+aElement
 nsIAtom
 *
 aAttribute
@@ -2959,6 +2966,13 @@ sheet
 bool
 HasStateDependency
 (
+const
+dom
+:
+:
+Element
+&
+aElement
 EventStates
 aState
 )
