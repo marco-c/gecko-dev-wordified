@@ -2311,6 +2311,18 @@ enabled
 :
 False
         
+"
+browser
+.
+safebrowsing
+.
+passwords
+.
+enabled
+"
+:
+False
+        
 #
 Do
 not
@@ -3362,6 +3374,18 @@ browser
 safebrowsing
 .
 downloads
+.
+enabled
+"
+:
+False
+        
+"
+browser
+.
+safebrowsing
+.
+passwords
 .
 enabled
 "
