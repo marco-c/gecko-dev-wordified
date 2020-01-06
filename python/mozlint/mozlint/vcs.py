@@ -292,6 +292,12 @@ as
 e
 :
             
+if
+e
+.
+output
+:
+                
 print
 (
 '
@@ -302,7 +308,7 @@ join
 cmd
 )
 )
-            
+                
 print
 (
 e
