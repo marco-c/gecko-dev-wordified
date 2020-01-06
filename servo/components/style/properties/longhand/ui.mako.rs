@@ -288,9 +288,6 @@ gecko_enum_prefix
 "
 StyleUserSelect
 "
-gecko_inexhaustive
-=
-True
 gecko_strip_moz_prefix
 =
 False
@@ -372,9 +369,6 @@ gecko_enum_prefix
 "
 StyleWindowDragging
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
@@ -429,9 +423,6 @@ gecko_constant_prefix
 "
 NS_STYLE_WINDOW_SHADOW
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "

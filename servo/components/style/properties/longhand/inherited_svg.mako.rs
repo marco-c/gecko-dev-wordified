@@ -437,9 +437,6 @@ gecko_enum_prefix
 "
 StyleFillRule
 "
-gecko_inexhaustive
-=
-True
 products
 =
 "
@@ -1049,9 +1046,6 @@ gecko_enum_prefix
 "
 StyleFillRule
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "

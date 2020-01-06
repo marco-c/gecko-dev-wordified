@@ -1550,9 +1550,6 @@ gecko_enum_prefix
 "
 StyleBoxDecorationBreak
 "
-gecko_inexhaustive
-=
-True
 spec
 =
 "
@@ -1622,9 +1619,6 @@ gecko_enum_prefix
 "
 StyleFloatEdge
 "
-gecko_inexhaustive
-=
-True
 products
 =
 "

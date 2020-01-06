@@ -2235,9 +2235,6 @@ box
 Border
 "
 }
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "

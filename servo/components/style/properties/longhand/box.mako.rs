@@ -14861,11 +14861,6 @@ moz
 orient
 )
 "
-gecko_inexhaustive
-=
-"
-True
-"
 animation_value_type
 =
 "
