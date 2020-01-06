@@ -2691,9 +2691,6 @@ CustomElementRegistry
 :
 UpgradeCandidates
 (
-JSContext
-*
-aCx
 nsIAtom
 *
 aKey
@@ -4722,7 +4719,6 @@ upgrade
 algorithm
 UpgradeCandidates
 (
-cx
 nameAtom
 definition
 aRv
