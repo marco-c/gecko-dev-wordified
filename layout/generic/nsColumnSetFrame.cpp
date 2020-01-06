@@ -480,6 +480,10 @@ GetPlatform
 ScreenReferenceDrawTarget
 (
 )
+.
+get
+(
+)
 )
 ;
 static_cast
@@ -659,6 +663,10 @@ GetPlatform
 -
 >
 ScreenReferenceDrawTarget
+(
+)
+.
+get
 (
 )
 )

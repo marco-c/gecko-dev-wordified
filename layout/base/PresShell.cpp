@@ -17500,6 +17500,10 @@ GetPlatform
 ScreenReferenceDrawTarget
 (
 )
+.
+get
+(
+)
 )
 ;
 }

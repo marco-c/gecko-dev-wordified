@@ -3278,6 +3278,10 @@ GetPlatform
 ScreenReferenceDrawTarget
 (
 )
+.
+get
+(
+)
 )
 ;
 Maybe
