@@ -20067,7 +20067,7 @@ node
 .
 currentURI
 .
-spec
+displaySpec
 ;
 }
 else
@@ -21594,7 +21594,7 @@ base
 )
 )
 .
-spec
+displaySpec
 ;
 }
 makeURI
@@ -21800,9 +21800,18 @@ if
 (
 href
 )
+{
 return
+this
+.
+makeURI
+(
 href
+)
+.
+displaySpec
 ;
+}
 href
 =
 aLink
