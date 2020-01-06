@@ -1812,12 +1812,6 @@ nsINode
 >
 newnode
 ;
-nsCOMArray
-<
-nsINode
->
-unused
-;
 nsNodeInfoManager
 *
 nodeInfoManager
@@ -1853,7 +1847,7 @@ Clone
 targetContent
 true
 nodeInfoManager
-unused
+nullptr
 getter_AddRefs
 (
 newnode
