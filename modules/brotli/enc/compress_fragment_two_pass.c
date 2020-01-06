@@ -338,7 +338,7 @@ uint64_t
 h
 =
 (
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 p
 )
@@ -2985,7 +2985,7 @@ copy
 uint64_t
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -
@@ -3073,7 +3073,7 @@ base_ip
 ;
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -
@@ -3344,7 +3344,7 @@ copy
 uint64_t
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -
@@ -3432,7 +3432,7 @@ base_ip
 ;
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -
