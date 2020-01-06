@@ -299,14 +299,6 @@ aDeviceId
 const
 override
 ;
-void
-Shutdown
-(
-)
-override
-{
-}
-;
 protected
 :
 struct
