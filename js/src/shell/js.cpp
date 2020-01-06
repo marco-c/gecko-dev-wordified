@@ -49859,6 +49859,8 @@ mprotect
 (
 memory
 serializedSize
+PROT_READ
+|
 PROT_WRITE
 )
 )
