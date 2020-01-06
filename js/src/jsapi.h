@@ -326,6 +326,15 @@ include
 "
 js
 /
+Stream
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h
