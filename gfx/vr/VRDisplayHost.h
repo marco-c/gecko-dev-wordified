@@ -337,6 +337,11 @@ uint32_t
 aGroupMask
 )
 ;
+bool
+GetIsConnected
+(
+)
+;
 protected
 :
 explicit
