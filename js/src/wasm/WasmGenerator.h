@@ -1307,6 +1307,10 @@ currentTask_
 uint32_t
 batchedBytecode_
 ;
+HelperThread
+*
+maybeHelperThread_
+;
 /
 /
 Assertions
