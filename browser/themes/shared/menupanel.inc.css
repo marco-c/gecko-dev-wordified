@@ -7,6 +7,9 @@ palette
 styles
 *
 /
+%
+ifndef
+MOZ_PHOTON_THEME
 toolbaritem
 [
 sdkstylewidget
@@ -259,9 +262,6 @@ rect
 )
 ;
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 #
 bookmarks
 -
@@ -311,8 +311,6 @@ rect
 )
 ;
 }
-%
-endif
 #
 history
 -
@@ -1713,6 +1711,8 @@ rect
 )
 ;
 }
+%
+endif
 #
 add
 -
