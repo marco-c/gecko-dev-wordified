@@ -378,6 +378,9 @@ mBlocking
 bool
 mStartHidden
 ;
+bool
+mNoShell
+;
 nsCOMPtr
 <
 nsIFile
