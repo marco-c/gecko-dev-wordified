@@ -113,12 +113,6 @@ TokenSerializationType
 }
 ;
 use
-parser
-:
-:
-ParserContext
-;
-use
 precomputed_hash
 :
 :
@@ -1757,10 +1751,6 @@ i
 t
 >
 (
-_context
-:
-&
-ParserContext
 input
 :
 &
@@ -1801,9 +1791,9 @@ default
 ;
 let
 (
-first
+first_token_type
 css
-last
+last_token_type
 )
 =
 parse_self_contained_declaration_value
@@ -1835,11 +1825,7 @@ into_owned
 (
 )
 first_token_type
-:
-first
 last_token_type
-:
-last
 references
 }
 )
