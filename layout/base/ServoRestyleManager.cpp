@@ -3507,6 +3507,9 @@ newContext
 >
 ResolveSameStructsAs
 (
+PresContext
+(
+)
 oldStyleContext
 )
 ;

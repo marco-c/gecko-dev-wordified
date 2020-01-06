@@ -152,6 +152,9 @@ ServoStyleContext
 :
 ResolveSameStructsAs
 (
+nsPresContext
+*
+aPresContext
 const
 ServoStyleContext
 *
@@ -263,7 +266,7 @@ data
 >
 FinishStyle
 (
-mPresContext
+aPresContext
 )
 ;
 \
