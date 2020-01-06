@@ -15403,12 +15403,6 @@ aCell
 cell
 ;
 }
-NS_ENSURE_TRUE
-(
-mDocWeak
-NS_ERROR_NOT_INITIALIZED
-)
-;
 nsCOMPtr
 <
 nsIPresShell
