@@ -1113,6 +1113,10 @@ GetFormat
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
@@ -1249,6 +1253,10 @@ R8G8B8X8
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
@@ -1378,6 +1386,10 @@ R8G8
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
@@ -1399,6 +1411,10 @@ TextureRectHandle
 aAPI
 -
 >
+Resources
+(
+)
+.
 AddExternalImage
 (
 aImageKeys
