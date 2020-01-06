@@ -273,9 +273,6 @@ search_web_placeholder
 "
 :
 "
-Search
-the
-Web
 "
 "
 search_settings
