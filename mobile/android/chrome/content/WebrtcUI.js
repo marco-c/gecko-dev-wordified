@@ -2207,6 +2207,8 @@ manifest
 '
 "
 +
+chromeWin
+.
 BrowserApp
 .
 manifest
