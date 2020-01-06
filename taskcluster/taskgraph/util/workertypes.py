@@ -833,11 +833,9 @@ None
 )
     
 '
-tc
+releng
 -
-worker
--
-provisioner
+hardware
 /
 gecko
 -
@@ -845,16 +843,14 @@ t
 -
 osx
 -
-10
--
-10
+1010
 '
 :
 (
 '
-native
+generic
 -
-engine
+worker
 '
 '
 macosx
