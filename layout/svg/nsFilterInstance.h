@@ -1720,6 +1720,9 @@ mSourceSurface
 void
 BuildSourceImage
 (
+DrawTarget
+*
+aDest
 imgDrawingParams
 &
 aImgParams
