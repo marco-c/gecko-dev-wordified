@@ -1454,12 +1454,6 @@ WebRenderParentCommand
 >
 &
 aCommands
-wr
-:
-:
-ResourceUpdateQueue
-&
-aResources
 )
 ;
 void
