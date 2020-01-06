@@ -9362,7 +9362,7 @@ wheelEvent
 =
 mCoalescedWheelData
 .
-GetCoalescedWheelEvent
+GetCoalescedEvent
 (
 )
 ;

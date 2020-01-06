@@ -130,13 +130,6 @@ CoalescedWheelData
 .
 h
 "
-#
-include
-"
-FrameMetrics
-.
-h
-"
 using
 namespace
 mozilla
@@ -175,7 +168,7 @@ IsEmpty
 )
 )
 {
-mCoalescedWheelEvent
+mCoalescedInputEvent
 =
 MakeUnique
 <
@@ -214,7 +207,7 @@ aInputBlockId
 ;
 MOZ_ASSERT
 (
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mModifiers
@@ -227,7 +220,7 @@ mModifiers
 ;
 MOZ_ASSERT
 (
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mDeltaMode
@@ -240,7 +233,7 @@ mDeltaMode
 ;
 MOZ_ASSERT
 (
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mCanTriggerSwipe
@@ -251,7 +244,7 @@ aEvent
 mCanTriggerSwipe
 )
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mDeltaX
@@ -261,7 +254,7 @@ aEvent
 .
 mDeltaX
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mDeltaY
@@ -271,7 +264,7 @@ aEvent
 .
 mDeltaY
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mDeltaZ
@@ -281,7 +274,7 @@ aEvent
 .
 mDeltaZ
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mLineOrPageDeltaX
@@ -291,7 +284,7 @@ aEvent
 .
 mLineOrPageDeltaX
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mLineOrPageDeltaY
@@ -301,7 +294,7 @@ aEvent
 .
 mLineOrPageDeltaY
 ;
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mTimeStamp
@@ -342,11 +335,11 @@ IsEmpty
 ;
 return
 !
-mCoalescedWheelEvent
+mCoalescedInputEvent
 |
 |
 (
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mRefPoint
@@ -357,7 +350,7 @@ aEvent
 mRefPoint
 &
 &
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mModifiers
@@ -368,7 +361,7 @@ aEvent
 mModifiers
 &
 &
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mDeltaMode
@@ -379,7 +372,7 @@ aEvent
 mDeltaMode
 &
 &
-mCoalescedWheelEvent
+mCoalescedInputEvent
 -
 >
 mCanTriggerSwipe
