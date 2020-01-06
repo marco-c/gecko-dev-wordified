@@ -1064,6 +1064,15 @@ nsIContentPolicy
 TYPE_OBJECT_SUBREQUEST
 mURL
 principal
+/
+/
+loading
+principal
+principal
+/
+/
+triggering
+principal
 element
 contentType
 nullptr

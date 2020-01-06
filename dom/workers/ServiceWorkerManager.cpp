@@ -4651,6 +4651,15 @@ nsIContentPolicy
 TYPE_INTERNAL_SERVICE_WORKER
 aScriptURI
 documentPrincipal
+/
+/
+loading
+principal
+documentPrincipal
+/
+/
+triggering
+principal
 doc
 EmptyCString
 (

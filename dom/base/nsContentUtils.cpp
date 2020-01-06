@@ -20063,6 +20063,11 @@ NS_CheckContentLoadPolicy
 aContentType
 aURI
 aLoadingPrincipal
+aLoadingPrincipal
+/
+/
+triggering
+principal
 aContext
 EmptyCString
 (

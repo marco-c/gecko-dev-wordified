@@ -8549,6 +8549,15 @@ nsIContentPolicy
 TYPE_WEBSOCKET
 uri
 aPrincipal
+/
+/
+loading
+principal
+aPrincipal
+/
+/
+triggering
+principal
 originDoc
 EmptyCString
 (
