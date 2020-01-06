@@ -1951,7 +1951,6 @@ eClickAction
 eNoLiveAttr
 kGenericAccType
 kNoReqStates
-eARIACheckedMixed
 }
 {
 /
@@ -1973,6 +1972,7 @@ eNoLiveAttr
 kGenericAccType
 kNoReqStates
 eARIACheckableMixed
+eARIAReadonly
 }
 {
 /
@@ -1994,6 +1994,7 @@ eNoLiveAttr
 kGenericAccType
 kNoReqStates
 eARIACheckableBool
+eARIAReadonly
 }
 {
 /
@@ -2162,6 +2163,7 @@ eNoLiveAttr
 kGenericAccType
 kNoReqStates
 eARIAOrientation
+eARIAReadonly
 }
 {
 /
@@ -2424,6 +2426,7 @@ eNoLiveAttr
 kGenericAccType
 kNoReqStates
 eARIACheckableBool
+eARIAReadonly
 }
 {
 /
