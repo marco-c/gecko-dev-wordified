@@ -1027,6 +1027,7 @@ track
 derive
 (
 Clone
+Debug
 )
 ]
 #
@@ -1192,6 +1193,13 @@ attribute
 affecting
 selectors
 .
+#
+[
+derive
+(
+Debug
+)
+]
 #
 [
 cfg_attr

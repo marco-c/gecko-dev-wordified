@@ -3815,11 +3815,7 @@ context
 .
 stylist
 .
-animations
-(
-)
-.
-get
+get_animation
 (
 name
 )
@@ -4499,11 +4495,7 @@ context
 .
 stylist
 .
-animations
-(
-)
-.
-get
+get_animation
 (
 name
 )
