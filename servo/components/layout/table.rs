@@ -269,7 +269,7 @@ computed
 :
 {
 LengthOrPercentageOrAuto
-NonNegativeAu
+NonNegativeLength
 }
 ;
 use
@@ -1421,7 +1421,7 @@ T
 {
 horizontal
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
 zero
@@ -1429,7 +1429,7 @@ zero
 )
 vertical
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
 zero
@@ -1474,6 +1474,11 @@ Au
 )
 ;
 }
+Au
+:
+:
+from
+(
 self
 .
 spacing
@@ -1481,8 +1486,7 @@ spacing
 )
 .
 horizontal
-.
-0
+)
 *
 (
 num_columns
@@ -1779,7 +1783,13 @@ length
 )
 =
 >
+Au
+:
+:
+from
+(
 length
+)
 }
 percentage
 :
@@ -3107,7 +3117,13 @@ block_flow
 .
 assign_block_size_for_table_like_flow
 (
+Au
+:
+:
+from
+(
 vertical_spacing
+)
 )
 }
 fn

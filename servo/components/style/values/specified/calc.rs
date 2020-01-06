@@ -146,7 +146,7 @@ values
 specified
 :
 :
-AllowedLengthType
+AllowedNumericType
 ;
 use
 values
@@ -531,7 +531,7 @@ CalcLengthOrPercentage
 pub
 clamping_mode
 :
-AllowedLengthType
+AllowedNumericType
 pub
 absolute
 :
@@ -2238,7 +2238,7 @@ to_length_or_percentage
 self
 clamping_mode
 :
-AllowedLengthType
+AllowedNumericType
 )
 -
 >
@@ -4376,7 +4376,7 @@ t
 >
 clamping_mode
 :
-AllowedLengthType
+AllowedNumericType
 )
 -
 >
@@ -4544,7 +4544,7 @@ t
 >
 clamping_mode
 :
-AllowedLengthType
+AllowedNumericType
 )
 -
 >

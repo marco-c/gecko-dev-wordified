@@ -91,7 +91,7 @@ computed
 :
 :
 {
-NonNegativeAu
+NonNegativeLength
 NonNegativeNumber
 }
 ;
@@ -237,7 +237,7 @@ LineHeight
 GenericLineHeight
 <
 NonNegativeNumber
-NonNegativeAu
+NonNegativeLength
 >
 ;
 impl

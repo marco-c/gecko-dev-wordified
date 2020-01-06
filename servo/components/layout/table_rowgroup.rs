@@ -214,7 +214,7 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 ;
 use
 table
@@ -460,7 +460,7 @@ T
 {
 horizontal
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
 zero
@@ -468,7 +468,7 @@ zero
 )
 vertical
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
 zero
@@ -1092,13 +1092,17 @@ block_flow
 .
 assign_block_size_for_table_like_flow
 (
+Au
+:
+:
+from
+(
 self
 .
 spacing
 .
 vertical
-.
-0
+)
 )
 }
 fn

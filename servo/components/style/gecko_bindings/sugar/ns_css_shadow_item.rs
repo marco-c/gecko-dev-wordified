@@ -166,7 +166,9 @@ shadow
 .
 spread
 .
-0
+to_i32_au
+(
+)
 ;
 self
 .
@@ -220,6 +222,10 @@ self
 .
 mSpread
 )
+.
+into
+(
+)
 inset
 :
 self
@@ -263,7 +269,9 @@ shadow
 .
 horizontal
 .
-0
+to_i32_au
+(
+)
 ;
 self
 .
@@ -273,7 +281,9 @@ shadow
 .
 vertical
 .
-0
+to_i32_au
+(
+)
 ;
 self
 .
@@ -283,7 +293,9 @@ shadow
 .
 blur
 .
-value
+0
+.
+to_i32_au
 (
 )
 ;
@@ -446,6 +458,10 @@ self
 .
 mXOffset
 )
+.
+into
+(
+)
 vertical
 :
 Au
@@ -453,6 +469,10 @@ Au
 self
 .
 mYOffset
+)
+.
+into
+(
 )
 blur
 :

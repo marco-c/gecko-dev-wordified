@@ -352,7 +352,7 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 ;
 #
 [
@@ -389,11 +389,11 @@ T
 pub
 horizontal
 :
-NonNegativeAu
+NonNegativeLength
 pub
 vertical
 :
-NonNegativeAu
+NonNegativeLength
 }
 impl
 ToAnimatedZero
@@ -561,7 +561,9 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
+as
+ComputedNonNegativeLength
 ;
 computed_value
 :
@@ -570,7 +572,7 @@ T
 {
 horizontal
 :
-NonNegativeAu
+ComputedNonNegativeLength
 :
 :
 zero
@@ -578,7 +580,7 @@ zero
 )
 vertical
 :
-NonNegativeAu
+ComputedNonNegativeLength
 :
 :
 zero
