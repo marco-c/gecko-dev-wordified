@@ -1718,11 +1718,9 @@ the
 /
 implementation
 of
-wr_push_scroll_layer
+PushScrollLayer
 in
-bindings
-.
-rs
+DisplayListBuilder
 makes
 sure
 the
