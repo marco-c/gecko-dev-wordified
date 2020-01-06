@@ -377,6 +377,7 @@ font
 :
 :
 {
+FontSize
 FontWeight
 MozScriptLevel
 MozScriptMinSize
