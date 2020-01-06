@@ -153,6 +153,15 @@ ICFallbackStub
 class
 ICStub
 ;
+enum
+class
+BaselineCacheIRStubKind
+{
+Regular
+Monitored
+Updated
+}
+;
 ICStub
 *
 AttachBaselineCacheIRStub
@@ -166,6 +175,8 @@ CacheIRWriter
 writer
 CacheKind
 kind
+BaselineCacheIRStubKind
+stubKind
 ICStubEngine
 engine
 JSScript
