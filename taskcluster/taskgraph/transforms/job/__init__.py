@@ -825,21 +825,11 @@ r
 format
 (
 job
-.
-get
-(
+[
 '
 name
 '
-job
-.
-get
-(
-'
-label
-'
-)
-)
+]
 )
 )
 transforms
@@ -1167,13 +1157,11 @@ name
         
 if
 job
-.
-get
-(
+[
 '
 name
 '
-)
+]
 :
             
 del

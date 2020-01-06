@@ -402,7 +402,7 @@ format
 '
 :
 '
-macapp
+dmg
 '
                 
 }
