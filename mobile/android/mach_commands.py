@@ -2917,19 +2917,19 @@ dependencies
 .
         
 See
-https
+http
 :
 /
 /
-gecko
+firefox
+-
+source
+-
+docs
 .
-readthedocs
+mozilla
 .
-io
-/
-en
-/
-latest
+org
 /
 build
 /
