@@ -1905,6 +1905,8 @@ Metadata
 public
 MetadataCacheablePod
 {
+protected
+:
 UniqueMetadataTier
 metadata1_
 ;
