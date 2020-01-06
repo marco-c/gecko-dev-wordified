@@ -4464,10 +4464,6 @@ The
 current
 play
 state
-and
-next
-play
-state
 mirrored
 from
 the
@@ -4482,15 +4478,6 @@ MediaDecoder
 PlayState
 >
 mPlayState
-;
-Mirror
-<
-MediaDecoder
-:
-:
-PlayState
->
-mNextPlayState
 ;
 /
 /
