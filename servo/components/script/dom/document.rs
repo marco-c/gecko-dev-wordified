@@ -1680,7 +1680,7 @@ Over
 =
 >
 "
-mouseout
+mouseover
 "
 &
 FireMouseEventType
@@ -1690,7 +1690,7 @@ Out
 =
 >
 "
-mouseover
+mouseout
 "
 }
 }
