@@ -113,6 +113,7 @@ loop
 body
 .
 function
+*
 g
 (
 )

@@ -13,11 +13,9 @@ a
 generator
 -
 iterator
-does
-not
-close
+closes
 the
-iterator
+generator
 .
 load
 (
@@ -31,6 +29,7 @@ js
 )
 ;
 function
+*
 range
 (
 n
@@ -117,7 +116,6 @@ s
 '
 01234
 /
-56789
 '
 )
 ;

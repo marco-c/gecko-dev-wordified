@@ -992,6 +992,7 @@ N
 )
 ;
 function
+*
 range
 (
 start

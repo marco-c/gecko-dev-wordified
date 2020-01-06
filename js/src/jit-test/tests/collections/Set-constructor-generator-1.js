@@ -10,6 +10,7 @@ a
 generator
 .
 function
+*
 hexData
 (
 n

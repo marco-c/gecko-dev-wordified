@@ -27,6 +27,7 @@ RangeError
 )
 ;
 function
+*
 eval
 (
 )

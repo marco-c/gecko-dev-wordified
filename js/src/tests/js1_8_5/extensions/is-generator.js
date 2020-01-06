@@ -165,6 +165,7 @@ reportCompare
 true
 (
 function
+*
 (
 )
 {
@@ -187,6 +188,7 @@ reportCompare
 true
 (
 function
+*
 (
 )
 {
@@ -215,6 +217,7 @@ reportCompare
 true
 (
 function
+*
 (
 )
 {

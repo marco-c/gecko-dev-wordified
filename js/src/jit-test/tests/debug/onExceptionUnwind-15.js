@@ -63,6 +63,7 @@ function
 )
 ;
 function
+*
 throwInNext
 (
 )
@@ -90,8 +91,9 @@ for
 var
 o
 of
-new
 throwInNext
+(
+)
 )
 ;
 }

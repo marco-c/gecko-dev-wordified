@@ -370,6 +370,7 @@ eval
 (
 '
 function
+*
 m
 (
 )

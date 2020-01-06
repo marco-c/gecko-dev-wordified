@@ -382,6 +382,7 @@ Global
 "
 ;
 function
+*
 gen
 (
 )

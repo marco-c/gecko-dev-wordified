@@ -14,6 +14,7 @@ generator
 iterator
 .
 function
+*
 range
 (
 n

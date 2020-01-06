@@ -188,6 +188,12 @@ log
 c
 .
 return
+.
+unsafeDereference
+(
+)
+.
+value
 ;
 assertEq
 (
@@ -234,6 +240,7 @@ eval
 (
 "
 function
+*
 g
 (
 )
@@ -284,7 +291,7 @@ t
 for
 (
 j
-in
+of
 g
 (
 )

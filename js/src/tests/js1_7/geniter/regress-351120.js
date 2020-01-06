@@ -396,6 +396,7 @@ try
 {
 (
 function
+*
 (
 )
 {

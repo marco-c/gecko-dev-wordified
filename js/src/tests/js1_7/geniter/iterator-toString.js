@@ -226,6 +226,7 @@ failed
 false
 ;
 function
+*
 gen
 (
 )

@@ -42,6 +42,7 @@ eval
 (
 "
 function
+*
 gen
 (
 a
@@ -161,6 +162,8 @@ it
 next
 (
 )
+.
+value
 42
 )
 ;

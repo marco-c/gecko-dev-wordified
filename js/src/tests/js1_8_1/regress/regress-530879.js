@@ -31,6 +31,7 @@ Orendorff
 *
 /
 function
+*
 f
 (
 a
@@ -55,6 +56,8 @@ f
 next
 (
 )
+.
+value
 "
 bug
 530879

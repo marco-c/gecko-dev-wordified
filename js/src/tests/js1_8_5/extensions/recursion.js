@@ -214,6 +214,7 @@ var
 r
 ;
 function
+*
 f
 (
 )
@@ -246,7 +247,7 @@ for
 (
 var
 i
-in
+of
 f
 (
 )

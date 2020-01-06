@@ -195,6 +195,7 @@ summary
 )
 ;
 function
+*
 fib
 (
 )
@@ -291,6 +292,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -302,6 +305,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -313,6 +318,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -324,6 +331,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -335,6 +344,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -346,6 +357,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -357,6 +370,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 actual
@@ -368,6 +383,8 @@ g
 next
 (
 )
+.
+value
 )
 ;
 reportCompare

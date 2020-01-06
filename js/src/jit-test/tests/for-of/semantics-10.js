@@ -35,6 +35,7 @@ obj
 Test
 1
 function
+*
 g
 (
 )
@@ -116,6 +117,7 @@ n
 Test
 2
 function
+*
 h
 (
 )

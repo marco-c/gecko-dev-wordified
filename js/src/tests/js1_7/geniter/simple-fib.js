@@ -229,6 +229,7 @@ TEST
 *
 /
 function
+*
 fib
 (
 )
@@ -286,6 +287,8 @@ g
 next
 (
 )
+.
+value
 !
 =
 0
@@ -304,6 +307,8 @@ g
 next
 (
 )
+.
+value
 !
 =
 1
@@ -322,6 +327,8 @@ g
 next
 (
 )
+.
+value
 !
 =
 1
@@ -340,6 +347,8 @@ g
 next
 (
 )
+.
+value
 !
 =
 2

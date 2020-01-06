@@ -656,6 +656,7 @@ test
 "
 (
 function
+*
 (
 )
 {
@@ -671,6 +672,7 @@ i
 >
 (
 function
+*
 (
 )
 {

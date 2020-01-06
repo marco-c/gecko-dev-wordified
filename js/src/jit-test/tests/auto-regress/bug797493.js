@@ -80,6 +80,7 @@ eval
 (
 "
 function
+*
 g
 (
 )
@@ -125,7 +126,7 @@ t
 for
 (
 j
-in
+of
 g
 (
 )

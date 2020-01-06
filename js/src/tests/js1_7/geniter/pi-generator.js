@@ -217,6 +217,7 @@ TEST
 *
 /
 function
+*
 pi
 (
 )
@@ -349,6 +350,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 vals

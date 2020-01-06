@@ -26,6 +26,7 @@ js
 )
 ;
 function
+*
 data2
 (
 )

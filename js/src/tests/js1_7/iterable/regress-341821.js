@@ -402,6 +402,7 @@ summary
 )
 ;
 function
+*
 generator
 (
 )

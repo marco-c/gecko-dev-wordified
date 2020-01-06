@@ -29,6 +29,7 @@ var
 args
 ;
 function
+*
 upToTen
 (
 )
@@ -83,7 +84,7 @@ for
 (
 var
 v
-in
+of
 gen
 )
 {
