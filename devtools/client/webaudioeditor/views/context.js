@@ -84,11 +84,11 @@ debounce
 require
 (
 "
-sdk
+devtools
 /
-lang
+shared
 /
-functional
+debounce
 "
 )
 ;
