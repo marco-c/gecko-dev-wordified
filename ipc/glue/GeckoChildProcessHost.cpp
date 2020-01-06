@@ -2956,6 +2956,9 @@ ProcessArchitecture
 arch
 )
 {
+AutoSetProfilerEnvVarsForChildProcess
+profilerEnvironment
+;
 /
 /
 If
