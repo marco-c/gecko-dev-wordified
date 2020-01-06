@@ -75,7 +75,6 @@ example
 com
 /
 "
-triggeringPrincipal_base64
 title
 :
 "

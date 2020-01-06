@@ -304,7 +304,6 @@ entries
 url
 :
 REMOTE_URL
-triggeringPrincipal_base64
 }
 ]
 }
@@ -316,7 +315,6 @@ entries
 url
 :
 ABOUT_ROBOTS_URI
-triggeringPrincipal_base64
 }
 ]
 }
@@ -328,7 +326,6 @@ entries
 url
 :
 REMOTE_URL
-triggeringPrincipal_base64
 }
 ]
 }
@@ -340,7 +337,6 @@ entries
 url
 :
 NO_TITLE_URL
-triggeringPrincipal_base64
 }
 ]
 }
