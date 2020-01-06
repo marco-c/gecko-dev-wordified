@@ -2252,7 +2252,7 @@ bytecode_cache
 .
 enabled
 "
-false
+true
 )
 ;
 /
