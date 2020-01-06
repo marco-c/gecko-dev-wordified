@@ -436,6 +436,20 @@ slice
 0
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+nested
+-
+ternary
 var
 sorted
 =
@@ -897,6 +911,8 @@ median
 values
 )
 ;
+/
+/
 var
 overallStd
 =
@@ -992,6 +1008,8 @@ i
 winWidth
 )
 ;
+/
+/
 var
 currWindow
 =
@@ -1477,6 +1495,7 @@ detected
 +
 warmup
 ;
+var
 warmedUp
 =
 collection

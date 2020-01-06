@@ -1,3 +1,15 @@
+/
+*
+import
+-
+globals
+-
+from
+pageloader
+.
+js
+*
+/
 var
 gChildProcess
 =

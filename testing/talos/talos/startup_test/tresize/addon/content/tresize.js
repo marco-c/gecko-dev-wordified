@@ -70,10 +70,8 @@ logfile
 var
 dataSet
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 windowSize

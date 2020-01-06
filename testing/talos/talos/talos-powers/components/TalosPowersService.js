@@ -1205,13 +1205,6 @@ Dump
 the
 profile
 .
-let
-profileFile
-=
-data
-.
-profileFile
-;
 this
 .
 profilerFinish

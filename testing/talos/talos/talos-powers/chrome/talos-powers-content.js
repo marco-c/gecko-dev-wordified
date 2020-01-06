@@ -65,6 +65,12 @@ loaded
 as
 a
 framescript
+/
+*
+globals
+docShell
+*
+/
 var
 {
 interfaces

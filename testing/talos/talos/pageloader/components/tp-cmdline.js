@@ -1527,6 +1527,7 @@ TP_CMDLINE_CLSID
 fileSpec
 )
 ;
+var
 catman
 =
 Components

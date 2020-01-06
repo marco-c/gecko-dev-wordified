@@ -309,10 +309,8 @@ function
 var
 retval
 =
-new
-Array
-(
-)
+[
+]
 ;
 for
 (
@@ -1197,10 +1195,8 @@ timeVals
 pageName
 ]
 =
-new
-Array
-(
-)
+[
+]
 ;
 }
 this

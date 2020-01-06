@@ -59,6 +59,12 @@ avoids
 this
 issue
 .
+/
+*
+globals
+user_pref
+*
+/
 user_pref
 (
 "
