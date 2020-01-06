@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -1472,10 +1465,6 @@ nsINativeTreeSelection
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-TreeSelection
 )
 NS_INTERFACE_MAP_END
 NS_IMETHODIMP

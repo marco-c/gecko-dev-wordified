@@ -271,13 +271,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasicEvents
@@ -448,10 +441,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 nsIDOMXULCommandDispatcher
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-XULCommandDispatcher
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
