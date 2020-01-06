@@ -4152,7 +4152,6 @@ JSOP_LAMBDA
 /
 /
 lambda
-genexpr
 isOp
 (
 JSOP_LAMBDA_ARROW

@@ -235,8 +235,6 @@ for
 .
 .
 in
-array
-comprehensions
 etc
 )
 can

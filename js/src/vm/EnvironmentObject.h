@@ -6177,10 +6177,6 @@ functions
 except
 arrow
 functions
-and
-generator
-expression
-lambdas
 )
 .
 bool

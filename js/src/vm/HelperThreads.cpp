@@ -4661,9 +4661,6 @@ function
 )
 {
 }
-and
-generator
-comprehensions
 if
 (
 kind

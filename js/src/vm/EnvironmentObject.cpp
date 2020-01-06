@@ -13909,13 +13909,7 @@ All
 functions
 except
 arrows
-and
-generator
-expression
-lambdas
 should
-/
-/
 have
 their
 own

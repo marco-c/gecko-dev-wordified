@@ -68,9 +68,8 @@ VAL
 /
 /
 let
-catch
 and
-comprehension
+catch
 bindings
 "
 let

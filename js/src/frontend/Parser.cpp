@@ -3272,16 +3272,10 @@ function
 /
 Arrow
 functions
-and
-generator
-expression
-lambdas
 don
 '
 t
 have
-/
-/
 their
 own
 this
