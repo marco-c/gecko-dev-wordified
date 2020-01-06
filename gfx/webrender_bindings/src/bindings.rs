@@ -7600,7 +7600,7 @@ frame_builder
 .
 dl_builder
 .
-pop_clip_node
+pop_clip_id
 (
 )
 ;
@@ -7792,7 +7792,7 @@ frame_builder
 .
 dl_builder
 .
-define_clip
+define_scroll_frame
 (
 Some
 (
