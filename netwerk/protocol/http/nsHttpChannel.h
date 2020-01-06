@@ -4280,6 +4280,9 @@ bool
 >
 mRaceCacheWithNetwork
 ;
+uint32_t
+mRaceDelay
+;
 bool
 mCacheAsyncOpenCalled
 ;
