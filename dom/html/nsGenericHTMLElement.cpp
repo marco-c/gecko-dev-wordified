@@ -14047,6 +14047,16 @@ nsGkAtoms
 :
 form
 )
+&
+&
+nsContentUtils
+:
+:
+IsInSameAnonymousTree
+(
+this
+element
+)
 )
 {
 SetForm
