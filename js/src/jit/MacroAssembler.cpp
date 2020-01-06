@@ -11476,7 +11476,10 @@ enterFakeExitFrame
 (
 scratch
 scratch
-ExitFrameLayoutBareToken
+ExitFrameToken
+:
+:
+Bare
 )
 ;
 /

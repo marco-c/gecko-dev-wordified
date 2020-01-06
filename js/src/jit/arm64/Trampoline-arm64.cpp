@@ -1611,7 +1611,10 @@ enterFakeExitFrame
 (
 r19
 r19
-ExitFrameLayoutBareToken
+ExitFrameToken
+:
+:
+Bare
 )
 ;
 masm

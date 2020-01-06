@@ -28306,7 +28306,10 @@ enterFakeExitFrame
 (
 argJSContext
 argJSContext
-IonDOMMethodExitFrameLayoutToken
+ExitFrameToken
+:
+:
+IonDOMMethod
 )
 ;
 markSafepointAt
@@ -55950,7 +55953,10 @@ enterFakeExitFrame
 (
 temp0
 temp0
-LazyLinkExitFrameLayoutToken
+ExitFrameToken
+:
+:
+LazyLink
 )
 ;
 masm
@@ -84589,7 +84595,10 @@ enterFakeExitFrame
 (
 JSContextReg
 JSContextReg
-IonDOMExitFrameLayoutGetterToken
+ExitFrameToken
+:
+:
+IonDOMGetter
 )
 ;
 markSafepointAt
@@ -85371,7 +85380,10 @@ enterFakeExitFrame
 (
 JSContextReg
 JSContextReg
-IonDOMExitFrameLayoutSetterToken
+ExitFrameToken
+:
+:
+IonDOMSetter
 )
 ;
 markSafepointAt
