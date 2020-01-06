@@ -176,6 +176,9 @@ button
 {
 padding
 :
+10px
+0
+0
 0
 ;
 position
@@ -188,7 +191,7 @@ pointer
 ;
 top
 :
-34px
+4px
 ;
 offset
 -
@@ -196,7 +199,7 @@ inline
 -
 start
 :
-34px
+12px
 ;
 border
 :

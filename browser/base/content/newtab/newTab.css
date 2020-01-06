@@ -206,6 +206,16 @@ pack
 :
 center
 ;
+position
+:
+relative
+;
+left
+:
+-
+50
+%
+;
 }
 #
 newtab
@@ -342,7 +352,8 @@ box
 ;
 left
 :
-6px
+50
+%
 ;
 position
 :
