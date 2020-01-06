@@ -4725,7 +4725,7 @@ float
 gfxPlatformGtk
 :
 :
-GetDPI
+GetFontScaleDPI
 (
 )
 )
