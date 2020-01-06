@@ -12772,6 +12772,16 @@ ClearCachedResources
 )
 {
 }
+virtual
+bool
+SupportsAsyncUpdate
+(
+)
+{
+return
+false
+;
+}
 private
 :
 void
