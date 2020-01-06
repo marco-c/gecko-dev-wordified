@@ -264,9 +264,3 @@ declarationInstantiation
 (
 )
 ;
-d
-.
-evaluation
-(
-)
-;
