@@ -261,17 +261,6 @@ LayoutDeviceIntSize
 aDisplaySize
 )
 ;
-private
-:
-void
-SetRestoreResolution
-(
-float
-aResolution
-)
-;
-public
-:
 /
 *
 Notify
