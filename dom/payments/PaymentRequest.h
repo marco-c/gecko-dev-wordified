@@ -373,6 +373,9 @@ const
 PaymentDetailsInit
 &
 aDetails
+const
+bool
+aRequestShipping
 nsAString
 &
 aErrorMsg
@@ -386,6 +389,9 @@ const
 PaymentDetailsUpdate
 &
 aDetails
+const
+bool
+aRequestShipping
 )
 ;
 static
@@ -396,6 +402,9 @@ const
 PaymentDetailsBase
 &
 aDetails
+const
+bool
+aRequestShipping
 nsAString
 &
 aErrorMsg
