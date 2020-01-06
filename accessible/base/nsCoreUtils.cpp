@@ -2686,7 +2686,7 @@ path
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

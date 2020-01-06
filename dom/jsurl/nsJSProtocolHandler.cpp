@@ -571,7 +571,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 mScript
 )

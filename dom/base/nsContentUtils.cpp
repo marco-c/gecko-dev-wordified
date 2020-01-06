@@ -35867,7 +35867,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

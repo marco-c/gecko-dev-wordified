@@ -5704,7 +5704,7 @@ path
 =
 uri
 .
-path
+pathQueryRef
 ;
 if
 (
@@ -5799,7 +5799,7 @@ path
 =
 uri
 .
-path
+pathQueryRef
 ;
 if
 (

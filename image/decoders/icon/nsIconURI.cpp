@@ -1978,7 +1978,7 @@ NS_IMETHODIMP
 nsMozIconURI
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -1999,7 +1999,7 @@ NS_IMETHODIMP
 nsMozIconURI
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString

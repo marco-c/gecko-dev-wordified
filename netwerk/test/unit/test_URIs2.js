@@ -277,7 +277,7 @@ view
 source
 :
 "
-path
+pathQueryRef
 :
 "
 about
@@ -332,7 +332,7 @@ view
 source
 :
 "
-path
+pathQueryRef
 :
 "
 http
@@ -384,7 +384,7 @@ x
 external
 :
 "
-path
+pathQueryRef
 :
 "
 "
@@ -424,7 +424,7 @@ x
 external
 :
 "
-path
+pathQueryRef
 :
 "
 abc
@@ -484,7 +484,7 @@ example
 .
 com
 "
-path
+pathQueryRef
 :
 "
 /
@@ -574,7 +574,7 @@ prePath
 g
 :
 "
-path
+pathQueryRef
 :
 "
 h
@@ -629,7 +629,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -691,7 +691,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -752,7 +752,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -814,7 +814,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -871,7 +871,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -940,7 +940,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1026,7 +1026,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1120,7 +1120,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1187,7 +1187,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1269,7 +1269,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1335,7 +1335,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1403,7 +1403,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1486,7 +1486,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1548,7 +1548,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1608,7 +1608,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1668,7 +1668,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1727,7 +1727,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1787,7 +1787,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1849,7 +1849,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1909,7 +1909,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1970,7 +1970,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2039,7 +2039,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2107,7 +2107,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2169,7 +2169,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2229,7 +2229,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2286,7 +2286,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2348,7 +2348,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2411,7 +2411,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2475,7 +2475,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2537,7 +2537,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2601,7 +2601,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2663,7 +2663,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2728,7 +2728,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2795,7 +2795,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2866,7 +2866,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2941,7 +2941,7 @@ http
 /
 a
 "
-path
+pathQueryRef
 :
 "
 /
@@ -3032,7 +3032,7 @@ example2
 .
 com
 "
-path
+pathQueryRef
 :
 "
 /
@@ -3095,7 +3095,7 @@ example2
 .
 com
 "
-path
+pathQueryRef
 :
 "
 /
@@ -3989,13 +3989,13 @@ do_info
 "
 relURI
 .
-path
+pathQueryRef
 =
 "
 +
 relURI
 .
-path
+pathQueryRef
 +
 "
 was
@@ -4003,7 +4003,7 @@ was
 +
 URI
 .
-path
+pathQueryRef
 )
 ;
 URI
@@ -4015,14 +4015,14 @@ do_info
 "
 URI
 .
-path
+pathQueryRef
 now
 =
 "
 +
 URI
 .
-path
+pathQueryRef
 )
 ;
 }
@@ -4250,7 +4250,16 @@ do_check_property
 aTest
 URI
 "
-path
+pathQueryRef
+"
+)
+;
+do_check_property
+(
+aTest
+URI
+"
+query
 "
 )
 ;
@@ -4809,7 +4818,7 @@ do_check_property
 aTest
 testURI
 "
-path
+pathQueryRef
 "
 function
 (
@@ -5288,7 +5297,7 @@ Now
 try
 setting
 .
-path
+pathQueryRef
 directly
 (
 including
@@ -5310,7 +5319,7 @@ with
 now
 with
 .
-path
+pathQueryRef
 instead
 of
 .
@@ -5332,7 +5341,7 @@ pathWithSuffix
 =
 aTest
 .
-path
+pathQueryRef
 +
 aSuffix
 ;
@@ -5362,7 +5371,7 @@ expect
 ;
 testURI
 .
-path
+pathQueryRef
 =
 pathWithSuffix
 ;
@@ -5394,14 +5403,14 @@ sure
 that
 clearing
 .
-path
+pathQueryRef
 also
 clears
 .
 ref
 testURI
 .
-path
+pathQueryRef
 =
 pathWithSuffix
 ;
@@ -5427,7 +5436,7 @@ ref
 ;
 testURI
 .
-path
+pathQueryRef
 =
 "
 "
@@ -5536,7 +5545,10 @@ host
 port
 "
 "
-path
+pathQueryRef
+"
+"
+query
 "
 "
 ref

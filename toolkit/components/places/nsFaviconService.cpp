@@ -2528,7 +2528,7 @@ rv
 aFaviconURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -3004,7 +3004,7 @@ rv
 aFaviconURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

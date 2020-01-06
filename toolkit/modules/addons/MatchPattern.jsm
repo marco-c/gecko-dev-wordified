@@ -946,7 +946,7 @@ cloneIgnoringRef
 (
 )
 .
-path
+pathQueryRef
 )
 )
 )

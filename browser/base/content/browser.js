@@ -45978,7 +45978,7 @@ browser
 .
 currentURI
 .
-path
+pathQueryRef
 ;
 var
 message
@@ -53689,7 +53689,7 @@ test
 (
 uri
 .
-path
+pathQueryRef
 )
 ;
 this
@@ -53838,7 +53838,7 @@ newURI
 (
 resolvedURI
 .
-path
+pathQueryRef
 )
 ;
 }

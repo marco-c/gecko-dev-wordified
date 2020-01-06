@@ -472,7 +472,7 @@ rv
 aScriptURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

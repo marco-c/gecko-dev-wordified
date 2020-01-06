@@ -2514,7 +2514,7 @@ n
 +
 uri
 .
-path
+pathQueryRef
 +
 "
 \
@@ -3621,7 +3621,7 @@ resource
 :
 uri
 .
-path
+pathQueryRef
 /
 /
 This

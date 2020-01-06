@@ -12915,7 +12915,7 @@ newURI
 (
 aURI
 .
-path
+pathQueryRef
 )
 ;
 return

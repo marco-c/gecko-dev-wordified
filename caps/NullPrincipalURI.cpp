@@ -867,7 +867,7 @@ NS_IMETHODIMP
 NullPrincipalURI
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -886,7 +886,7 @@ NS_IMETHODIMP
 NullPrincipalURI
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString

@@ -7753,7 +7753,7 @@ host
 +
 uri
 .
-path
+pathQueryRef
 ;
 }
 else
@@ -7788,7 +7788,7 @@ fileName
 :
 uri
 .
-path
+pathQueryRef
 )
 ;
 }

@@ -1858,7 +1858,7 @@ and
 mRef
 .
 return
-SetPath
+SetPathQueryRef
 (
 Substring
 (
@@ -2314,7 +2314,7 @@ NS_IMETHODIMP
 nsSimpleURI
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -2369,7 +2369,7 @@ NS_IMETHODIMP
 nsSimpleURI
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString

@@ -927,7 +927,7 @@ rv
 clone
 -
 >
-SetPath
+SetPathQueryRef
 (
 EmptyCString
 (

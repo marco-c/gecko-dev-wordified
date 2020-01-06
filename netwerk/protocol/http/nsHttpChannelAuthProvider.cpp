@@ -10464,7 +10464,7 @@ rv
 mURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

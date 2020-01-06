@@ -674,7 +674,7 @@ pathname
 :
 uri
 .
-path
+pathQueryRef
 .
 replace
 (
@@ -694,7 +694,7 @@ search
 :
 uri
 .
-path
+pathQueryRef
 .
 replace
 (
@@ -1251,7 +1251,7 @@ if
 (
 uri
 .
-path
+pathQueryRef
 .
 indexOf
 (

@@ -3716,7 +3716,7 @@ if
 (
 uri
 .
-path
+pathQueryRef
 !
 =
 "
@@ -3727,7 +3727,7 @@ pathname
 =
 uri
 .
-path
+pathQueryRef
 ;
 var
 formattedHostname

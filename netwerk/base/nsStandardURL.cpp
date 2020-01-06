@@ -10801,7 +10801,7 @@ NS_IMETHODIMP
 nsStandardURL
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -10817,7 +10817,7 @@ Path
 CALL_RUST_GETTER_STR
 (
 result
-GetPath
+GetPathQueryRef
 result
 )
 ;
@@ -15320,7 +15320,7 @@ NS_IMETHODIMP
 nsStandardURL
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString
@@ -15349,7 +15349,7 @@ LOG
 nsStandardURL
 :
 :
-SetPath
+SetPathQueryRef
 [
 path
 =
@@ -15526,7 +15526,7 @@ mLen
 }
 CALL_RUST_SETTER
 (
-SetPath
+SetPathQueryRef
 input
 )
 ;
@@ -19556,7 +19556,7 @@ mLen
 0
 )
 return
-SetPath
+SetPathQueryRef
 (
 flat
 )
@@ -20013,7 +20013,7 @@ mLen
 0
 )
 return
-SetPath
+SetPathQueryRef
 (
 flat
 )
@@ -20441,7 +20441,7 @@ mLen
 0
 )
 return
-SetPath
+SetPathQueryRef
 (
 flat
 )
@@ -20863,7 +20863,7 @@ mLen
 0
 )
 return
-SetPath
+SetPathQueryRef
 (
 flat
 )

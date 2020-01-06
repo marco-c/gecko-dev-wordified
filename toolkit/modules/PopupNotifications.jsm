@@ -5687,7 +5687,7 @@ options
 .
 displayURI
 .
-path
+pathQueryRef
 ;
 }
 else

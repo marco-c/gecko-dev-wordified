@@ -9431,7 +9431,7 @@ rv
 referrer
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -11429,7 +11429,7 @@ rv
 clone
 -
 >
-SetPath
+SetPathQueryRef
 (
 EmptyCString
 (

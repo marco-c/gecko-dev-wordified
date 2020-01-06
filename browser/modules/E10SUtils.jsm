@@ -247,7 +247,7 @@ moduleName
 =
 aURL
 .
-path
+pathQueryRef
 .
 replace
 (

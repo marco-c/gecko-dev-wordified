@@ -1122,7 +1122,7 @@ rv2
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

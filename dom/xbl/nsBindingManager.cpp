@@ -3037,7 +3037,7 @@ DocURI
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

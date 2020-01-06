@@ -180,7 +180,7 @@ hostPort
 host
 "
 "
-path
+pathQueryRef
 "
 "
 filePath
@@ -599,14 +599,14 @@ hostPort
 ;
 provided
 .
-path
+pathQueryRef
 =
 "
 "
 ;
 target
 .
-path
+pathQueryRef
 =
 "
 "
@@ -3931,7 +3931,7 @@ hostPort
 host
 "
 "
-path
+pathQueryRef
 "
 "
 ref
@@ -4571,7 +4571,7 @@ do_check_eq
 (
 url
 .
-path
+pathQueryRef
 "
 /
 example

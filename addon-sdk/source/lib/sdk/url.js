@@ -876,10 +876,10 @@ uriData
 [
 uri
 .
-path
+pathQueryRef
 uri
 .
-path
+pathQueryRef
 .
 length
 {
@@ -970,7 +970,7 @@ pathname
 =
 uri
 .
-path
+pathQueryRef
 .
 substr
 (
@@ -983,7 +983,7 @@ search
 =
 uri
 .
-path
+pathQueryRef
 .
 substr
 (
@@ -1103,7 +1103,7 @@ path
 >
 uri
 .
-path
+pathQueryRef
 )
 ;
 this

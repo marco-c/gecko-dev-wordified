@@ -7668,7 +7668,7 @@ path
 =
 aURI
 .
-path
+pathQueryRef
 .
 match
 (

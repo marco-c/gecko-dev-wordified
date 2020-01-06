@@ -559,7 +559,7 @@ moduleName
 =
 aURI
 .
-path
+pathQueryRef
 .
 replace
 (

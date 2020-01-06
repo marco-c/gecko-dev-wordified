@@ -163,7 +163,7 @@ chrome
 +
 aURI
 .
-path
+pathQueryRef
 )
 ;
 let

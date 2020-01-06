@@ -1290,7 +1290,7 @@ principal
 .
 URI
 .
-path
+pathQueryRef
 .
 split
 (

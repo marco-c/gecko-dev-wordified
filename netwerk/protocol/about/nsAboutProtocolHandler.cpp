@@ -1043,7 +1043,7 @@ rv
 url
 -
 >
-GetPath
+GetPathQueryRef
 (
 spec
 )

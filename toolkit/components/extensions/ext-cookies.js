@@ -1619,7 +1619,7 @@ pathMatches
 (
 uri
 .
-path
+pathQueryRef
 )
 )
 {

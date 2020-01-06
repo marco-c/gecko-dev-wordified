@@ -282,7 +282,7 @@ prePath
 about
 :
 "
-path
+pathQueryRef
 :
 "
 blank
@@ -320,7 +320,7 @@ prePath
 about
 :
 "
-path
+pathQueryRef
 :
 "
 foobar
@@ -369,7 +369,7 @@ chrome
 /
 foobar
 "
-path
+pathQueryRef
 :
 "
 /
@@ -427,7 +427,7 @@ prePath
 data
 :
 "
-path
+pathQueryRef
 :
 "
 text
@@ -498,7 +498,7 @@ prePath
 data
 :
 "
-path
+pathQueryRef
 :
 "
 text
@@ -552,7 +552,7 @@ prePath
 data
 :
 "
-path
+pathQueryRef
 :
 "
 text
@@ -597,7 +597,7 @@ prePath
 data
 :
 "
-path
+pathQueryRef
 :
 "
 text
@@ -650,7 +650,7 @@ file
 /
 /
 "
-path
+pathQueryRef
 :
 "
 /
@@ -689,7 +689,7 @@ file
 /
 /
 "
-path
+pathQueryRef
 :
 "
 /
@@ -731,7 +731,7 @@ file
 /
 /
 "
-path
+pathQueryRef
 :
 "
 /
@@ -776,7 +776,7 @@ file
 /
 /
 "
-path
+pathQueryRef
 :
 "
 /
@@ -837,7 +837,7 @@ file
 /
 /
 "
-path
+pathQueryRef
 :
 "
 /
@@ -913,7 +913,7 @@ mozilla
 .
 org
 "
-path
+pathQueryRef
 :
 "
 /
@@ -999,7 +999,7 @@ password
 "
 bar
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1081,7 +1081,7 @@ password
 :
 "
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1132,7 +1132,7 @@ prePath
 gopher
 :
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1186,7 +1186,7 @@ example
 .
 com
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1237,7 +1237,7 @@ example
 .
 com
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1301,7 +1301,7 @@ host
 .
 239
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1368,7 +1368,7 @@ c009
 :
 505
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1471,7 +1471,7 @@ ba98
 port
 :
 8888
-path
+pathQueryRef
 :
 "
 /
@@ -1564,7 +1564,7 @@ mozilla
 .
 org
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1613,7 +1613,7 @@ prePath
 jar
 :
 "
-path
+pathQueryRef
 :
 "
 resource
@@ -1666,7 +1666,7 @@ prePath
 jar
 :
 "
-path
+pathQueryRef
 :
 "
 resource
@@ -1716,7 +1716,7 @@ prePath
 mailto
 :
 "
-path
+pathQueryRef
 :
 "
 webmaster
@@ -1757,7 +1757,7 @@ prePath
 javascript
 :
 "
-path
+pathQueryRef
 :
 "
 new
@@ -1796,7 +1796,7 @@ prePath
 blob
 :
 "
-path
+pathQueryRef
 :
 "
 123456
@@ -1840,7 +1840,7 @@ prePath
 place
 :
 "
-path
+pathQueryRef
 :
 "
 sort
@@ -1887,7 +1887,7 @@ resource
 /
 gre
 "
-path
+pathQueryRef
 :
 "
 /
@@ -1930,7 +1930,7 @@ resource
 /
 gre
 "
-path
+pathQueryRef
 :
 "
 /
@@ -2871,13 +2871,13 @@ do_info
 "
 relURI
 .
-path
+pathQueryRef
 =
 "
 +
 relURI
 .
-path
+pathQueryRef
 +
 "
 was
@@ -2885,7 +2885,7 @@ was
 +
 URI
 .
-path
+pathQueryRef
 )
 ;
 URI
@@ -2897,14 +2897,14 @@ do_info
 "
 URI
 .
-path
+pathQueryRef
 now
 =
 "
 +
 URI
 .
-path
+pathQueryRef
 )
 ;
 }
@@ -3132,7 +3132,16 @@ do_check_property
 aTest
 URI
 "
-path
+pathQueryRef
+"
+)
+;
+do_check_property
+(
+aTest
+URI
+"
+query
 "
 )
 ;
@@ -3816,7 +3825,7 @@ do_check_property
 aTest
 testURI
 "
-path
+pathQueryRef
 "
 function
 (
@@ -4295,7 +4304,7 @@ Now
 try
 setting
 .
-path
+pathQueryRef
 directly
 (
 including
@@ -4317,7 +4326,7 @@ with
 now
 with
 .
-path
+pathQueryRef
 instead
 of
 .
@@ -4339,7 +4348,7 @@ pathWithSuffix
 =
 aTest
 .
-path
+pathQueryRef
 +
 aSuffix
 ;
@@ -4369,7 +4378,7 @@ expect
 ;
 testURI
 .
-path
+pathQueryRef
 =
 pathWithSuffix
 ;
@@ -4401,14 +4410,14 @@ sure
 that
 clearing
 .
-path
+pathQueryRef
 also
 clears
 .
 ref
 testURI
 .
-path
+pathQueryRef
 =
 pathWithSuffix
 ;
@@ -4434,7 +4443,7 @@ ref
 ;
 testURI
 .
-path
+pathQueryRef
 =
 "
 "
@@ -4543,7 +4552,10 @@ host
 port
 "
 "
-path
+pathQueryRef
+"
+"
+query
 "
 "
 ref

@@ -696,7 +696,7 @@ newURI
 (
 uri
 .
-path
+pathQueryRef
 .
 replace
 (

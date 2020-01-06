@@ -10043,7 +10043,7 @@ noUrlParams
 =
 uri
 .
-path
+pathQueryRef
 .
 split
 (

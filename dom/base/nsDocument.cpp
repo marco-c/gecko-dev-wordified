@@ -53817,7 +53817,7 @@ CORS_ANONYMOUS
 uri
 -
 >
-SetPath
+SetPathQueryRef
 (
 NS_LITERAL_CSTRING
 (
@@ -53834,7 +53834,7 @@ else
 uri
 -
 >
-SetPath
+SetPathQueryRef
 (
 NS_LITERAL_CSTRING
 (

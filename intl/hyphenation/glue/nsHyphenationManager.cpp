@@ -1271,7 +1271,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 locale
 )

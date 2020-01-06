@@ -3107,7 +3107,7 @@ rv
 url
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
