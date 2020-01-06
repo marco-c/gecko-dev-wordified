@@ -8451,7 +8451,7 @@ cx
 RevokeProxy
 0
 0
-AtomToId
+NameToId
 (
 cx
 -
