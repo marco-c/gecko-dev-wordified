@@ -5881,6 +5881,13 @@ _testMode
 TELEMETRY_TEST_DELAY
 :
 TELEMETRY_DELAY
+this
+.
+_testMode
+?
+0
+:
+undefined
 )
 ;
 AsyncShutdown

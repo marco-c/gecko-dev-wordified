@@ -31260,6 +31260,7 @@ bind
 this
 )
 LAZY_RESIZE_INTERVAL_MS
+0
 )
 ;
 }
