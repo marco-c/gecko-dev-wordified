@@ -5124,6 +5124,7 @@ textEditor
 >
 SetTextImpl
 (
+aSelection
 tString
 *
 curNode
