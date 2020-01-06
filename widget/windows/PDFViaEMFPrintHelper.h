@@ -272,6 +272,7 @@ int
 GetPageCount
 (
 )
+const
 {
 return
 mPDFiumEngine
