@@ -530,6 +530,10 @@ mIsCurrentlyDecoded
 =
 false
 ;
+mHasRequestedDecode
+=
+true
+;
 }
 else
 {
@@ -551,6 +555,10 @@ EXACT
 mDiscarded
 =
 false
+;
+mHasRequestedDecode
+=
+true
 ;
 /
 /
@@ -912,7 +920,7 @@ PENDING
 {
 if
 (
-mHasBeenDecoded
+mHasRequestedDecode
 )
 {
 MOZ_ASSERT
@@ -1520,7 +1528,7 @@ MOZ_ASSERT
 (
 aState
 .
-GetHasBeenDecoded
+GetHasRequestedDecode
 (
 )
 &
@@ -3167,7 +3175,7 @@ MOZ_ASSERT
 (
 aState
 .
-GetHasBeenDecoded
+GetHasRequestedDecode
 (
 )
 &
@@ -3489,7 +3497,7 @@ MOZ_ASSERT
 (
 aState
 .
-GetHasBeenDecoded
+GetHasRequestedDecode
 (
 )
 )
@@ -3800,7 +3808,7 @@ MOZ_ASSERT
 (
 aState
 .
-mHasBeenDecoded
+mHasRequestedDecode
 &
 &
 !
