@@ -378,7 +378,7 @@ class
 nsAttrAndChildArray
 ;
 class
-nsChildContentList
+nsAttrChildContentList
 ;
 struct
 nsCSSSelectorList
@@ -7407,7 +7407,7 @@ GetChildNodes
 /
 RefPtr
 <
-nsChildContentList
+nsAttrChildContentList
 >
 mChildNodes
 ;
