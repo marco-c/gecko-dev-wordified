@@ -1125,10 +1125,10 @@ new
 mozilla
 :
 :
-gfx
+layout
 :
 :
-DrawEventRecorderFile
+DrawEventRecorderPRFileDesc
 (
 recordingPath
 .
