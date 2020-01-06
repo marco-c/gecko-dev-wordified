@@ -189,6 +189,10 @@ U2FTransactionChild
 :
 RecvConfirmRegister
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -221,6 +225,7 @@ mgr
 >
 FinishRegister
 (
+aTransactionId
 aRegBuffer
 )
 ;
@@ -242,6 +247,10 @@ U2FTransactionChild
 :
 RecvConfirmSign
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -281,6 +290,7 @@ mgr
 >
 FinishSign
 (
+aTransactionId
 aCredentialId
 aBuffer
 )
@@ -303,6 +313,10 @@ U2FTransactionChild
 :
 RecvAbort
 (
+const
+uint64_t
+&
+aTransactionId
 const
 nsresult
 &
@@ -332,6 +346,7 @@ mgr
 >
 RequestAborted
 (
+aTransactionId
 aError
 )
 ;

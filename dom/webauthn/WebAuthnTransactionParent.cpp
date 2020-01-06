@@ -164,6 +164,10 @@ WebAuthnTransactionParent
 RecvRequestRegister
 (
 const
+uint64_t
+&
+aTransactionId
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -190,6 +194,7 @@ mgr
 Register
 (
 this
+aTransactionId
 aTransactionInfo
 )
 ;
@@ -211,6 +216,10 @@ WebAuthnTransactionParent
 :
 RecvRequestSign
 (
+const
+uint64_t
+&
+aTransactionId
 const
 WebAuthnTransactionInfo
 &
@@ -238,6 +247,7 @@ mgr
 Sign
 (
 this
+aTransactionId
 aTransactionInfo
 )
 ;
@@ -259,6 +269,10 @@ WebAuthnTransactionParent
 :
 RecvRequestCancel
 (
+const
+uint64_t
+&
+aTransactionId
 )
 {
 AssertIsOnBackgroundThread
@@ -282,6 +296,7 @@ mgr
 Cancel
 (
 this
+aTransactionId
 )
 ;
 return

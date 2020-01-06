@@ -205,6 +205,10 @@ ipc
 IPCResult
 RecvConfirmRegister
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -224,6 +228,10 @@ ipc
 IPCResult
 RecvConfirmSign
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -250,6 +258,10 @@ ipc
 IPCResult
 RecvAbort
 (
+const
+uint64_t
+&
+aTransactionId
 const
 nsresult
 &

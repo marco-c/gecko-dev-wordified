@@ -123,17 +123,6 @@ WebAuthnTransactionChild
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WebAuthnManager
-.
-h
-"
 namespace
 mozilla
 {
@@ -204,6 +193,10 @@ WebAuthnTransactionChild
 :
 RecvConfirmRegister
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -236,6 +229,7 @@ mgr
 >
 FinishMakeCredential
 (
+aTransactionId
 aRegBuffer
 )
 ;
@@ -257,6 +251,10 @@ WebAuthnTransactionChild
 :
 RecvConfirmSign
 (
+const
+uint64_t
+&
+aTransactionId
 nsTArray
 <
 uint8_t
@@ -296,6 +294,7 @@ mgr
 >
 FinishGetAssertion
 (
+aTransactionId
 aCredentialId
 aBuffer
 )
@@ -318,6 +317,10 @@ WebAuthnTransactionChild
 :
 RecvAbort
 (
+const
+uint64_t
+&
+aTransactionId
 const
 nsresult
 &
@@ -347,6 +350,7 @@ mgr
 >
 RequestAborted
 (
+aTransactionId
 aError
 )
 ;
