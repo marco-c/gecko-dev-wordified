@@ -226,6 +226,9 @@ av1_warp_affine_sse2
 )
 )
 ;
+#
+if
+HAVE_SSSE3
 INSTANTIATE_TEST_CASE_P
 (
 SSSE3
@@ -242,6 +245,8 @@ av1_warp_affine_ssse3
 )
 )
 ;
+#
+endif
 #
 if
 CONFIG_HIGHBITDEPTH

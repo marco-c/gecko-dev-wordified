@@ -152,9 +152,6 @@ mem
 .
 h
 "
-#
-if
-CONFIG_HIGHBITDEPTH
 void
 aom_highbd_quantize_b_sse2
 (
@@ -1423,5 +1420,3 @@ eob
 1
 ;
 }
-#
-endif

@@ -216,8 +216,9 @@ uint8_t
 dest
 int
 dest_stride
-int
-tx_type
+TxfmParam
+*
+txfm_param
 )
 {
 int
@@ -258,6 +259,14 @@ uint32_t
 pos
 =
 45
+;
+int
+tx_type
+=
+txfm_param
+-
+>
+tx_type
 ;
 /
 *

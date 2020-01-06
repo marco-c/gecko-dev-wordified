@@ -150,9 +150,8 @@ bit_depth
 __m128i
 shift_a
 =
-_mm_set_epi64x
+_mm_cvtsi32_si128
 (
-0
 2
 *
 (
@@ -165,9 +164,8 @@ bit_depth
 __m128i
 shift_b
 =
-_mm_set_epi64x
+_mm_cvtsi32_si128
 (
-0
 bit_depth
 -
 8

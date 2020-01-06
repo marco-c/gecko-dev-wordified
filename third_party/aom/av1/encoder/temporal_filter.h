@@ -140,6 +140,17 @@ av1_temporal_filter
 AV1_COMP
 *
 cpi
+#
+if
+CONFIG_BGSPRITE
+YV12_BUFFER_CONFIG
+*
+bg
+#
+endif
+/
+/
+CONFIG_BGSPRITE
 int
 distance
 )

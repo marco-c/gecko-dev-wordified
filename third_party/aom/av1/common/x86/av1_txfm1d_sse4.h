@@ -575,7 +575,7 @@ block
 internally
 /
 /
-than
+then
 transpose
 the
 grid

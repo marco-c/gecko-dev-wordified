@@ -3865,6 +3865,7 @@ cfg
 0
 0
 0
+CONFIG_LOWBITDEPTH
 }
 ;
 #

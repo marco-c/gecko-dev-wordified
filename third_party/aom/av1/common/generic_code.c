@@ -194,9 +194,6 @@ CDF_PROB_TOP
 nsyms
 )
 ;
-#
-if
-CONFIG_EC_ADAPT
 cdf
 [
 cdf_size
@@ -206,8 +203,6 @@ cdf_size
 =
 0
 ;
-#
-endif
 }
 /
 *

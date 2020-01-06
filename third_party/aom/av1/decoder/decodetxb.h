@@ -190,6 +190,10 @@ aom_reader
 *
 r
 int
+blk_row
+int
+blk_col
+int
 block
 int
 plane
@@ -199,6 +203,8 @@ tcoeffs
 TXB_CTX
 *
 txb_ctx
+TX_SIZE
+tx_size
 int16_t
 *
 max_scan_line
@@ -230,6 +236,8 @@ plane
 tran_low_t
 *
 tcoeffs
+TX_SIZE
+tx_size
 int16_t
 *
 max_scan_line

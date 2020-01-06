@@ -123,15 +123,6 @@ include
 "
 .
 /
-clpf
-.
-h
-"
-#
-include
-"
-.
-/
 av1_rtcd
 .
 h
@@ -163,8 +154,9 @@ aom_dsp_common
 .
 h
 "
+static
 int
-av1_clpf_sample
+clpf_sample
 (
 int
 X
@@ -299,8 +291,9 @@ delta
 4
 ;
 }
+static
 int
-av1_clpf_hsample
+clpf_hsample
 (
 int
 X
@@ -588,7 +581,7 @@ const
 int
 delta
 =
-av1_clpf_sample
+clpf_sample
 (
 X
 A
@@ -837,7 +830,7 @@ const
 int
 delta
 =
-av1_clpf_sample
+clpf_sample
 (
 X
 A
@@ -1010,7 +1003,7 @@ const
 int
 delta
 =
-av1_clpf_hsample
+clpf_hsample
 (
 X
 A
@@ -1174,7 +1167,7 @@ const
 int
 delta
 =
-av1_clpf_hsample
+clpf_hsample
 (
 X
 A

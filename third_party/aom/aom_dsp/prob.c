@@ -1520,9 +1520,6 @@ end
 of
 the
 CDF
-#
-if
-CONFIG_EC_ADAPT
 cdf
 [
 nsymbs
@@ -1530,8 +1527,6 @@ nsymbs
 =
 0
 ;
-#
-endif
 return
 nsymbs
 ;

@@ -1025,9 +1025,6 @@ aom_tree_index
 tree
 )
 ;
-#
-if
-CONFIG_EC_ADAPT
 static
 INLINE
 void
@@ -1347,8 +1344,6 @@ nsymbs
 )
 ;
 }
-#
-endif
 #
 ifdef
 __cplusplus

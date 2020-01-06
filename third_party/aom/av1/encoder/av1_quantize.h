@@ -923,9 +923,6 @@ endif
 /
 /
 CONFIG_NEW_QUANT
-#
-if
-CONFIG_HIGHBITDEPTH
 void
 av1_highbd_quantize_fp_facade
 (
@@ -1150,11 +1147,6 @@ endif
 /
 /
 CONFIG_NEW_QUANT
-#
-endif
-/
-/
-CONFIG_HIGHBITDEPTH
 #
 ifdef
 __cplusplus

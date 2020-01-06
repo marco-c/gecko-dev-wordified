@@ -273,6 +273,8 @@ int
 d_stride
 int
 n_refinements
+int64_t
+best_frame_error
 )
 ;
 /

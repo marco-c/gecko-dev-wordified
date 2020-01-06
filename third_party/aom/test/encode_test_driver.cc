@@ -698,12 +698,6 @@ cfg_
 0
 )
 ;
-dec_cfg_
-=
-aom_codec_dec_cfg_t
-(
-)
-;
 ASSERT_EQ
 (
 AOM_CODEC_OK
@@ -1491,6 +1485,12 @@ dec_cfg
 aom_codec_dec_cfg_t
 (
 )
+;
+dec_cfg
+.
+allow_lowbitdepth
+=
+1
 ;
 stats_
 .

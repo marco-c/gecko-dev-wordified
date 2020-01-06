@@ -1502,9 +1502,6 @@ abort_
 aom_codec_enc_cfg_t
 cfg_
 ;
-aom_codec_dec_cfg_t
-dec_cfg_
-;
 unsigned
 int
 passes_

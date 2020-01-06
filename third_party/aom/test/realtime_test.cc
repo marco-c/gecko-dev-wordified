@@ -202,13 +202,6 @@ public
 libaom_test
 :
 :
-EncoderTest
-public
-:
-:
-libaom_test
-:
-:
 CodecTestWithParam
 <
 libaom_test
@@ -216,6 +209,13 @@ libaom_test
 :
 TestMode
 >
+public
+:
+:
+libaom_test
+:
+:
+EncoderTest
 {
 protected
 :
