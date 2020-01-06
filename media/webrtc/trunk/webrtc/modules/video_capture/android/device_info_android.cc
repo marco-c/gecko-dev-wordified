@@ -1585,6 +1585,10 @@ NumberOfDevices
 (
 )
 {
+Refresh
+(
+)
+;
 return
 g_camera_info
 -
