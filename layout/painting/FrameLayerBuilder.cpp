@@ -26143,6 +26143,12 @@ tighter
 visible
 rect
 .
+if
+(
+!
+prerenderedTransform
+)
+{
 itemVisibleRect
 =
 itemVisibleRect
@@ -26161,6 +26167,7 @@ false
 )
 )
 ;
+}
 if
 (
 maxLayers
