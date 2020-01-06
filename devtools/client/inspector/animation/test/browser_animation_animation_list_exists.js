@@ -32,11 +32,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-2
-)
-;
 /
 /
 Test
@@ -343,12 +338,6 @@ test
 browser_animation_timeline_ui
 .
 js
-/
-/
-*
-header
-existance
-.
 /
 /
 *
