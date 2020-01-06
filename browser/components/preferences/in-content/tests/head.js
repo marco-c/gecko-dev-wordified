@@ -1877,13 +1877,6 @@ onUsageResult
 (
 {
 result
-resultCode
-:
-Components
-.
-results
-.
-NS_OK
 }
 )
 ;

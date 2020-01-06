@@ -1,7 +1,0 @@
-/
-/
-empty
-worker
-always
-succeed
-!
