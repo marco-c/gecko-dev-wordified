@@ -2702,6 +2702,14 @@ MFinishBoundFunctionInit
 ins
 )
 ;
+void
+visitIsPackedArray
+(
+MIsPackedArray
+*
+ins
+)
+;
 }
 ;
 }

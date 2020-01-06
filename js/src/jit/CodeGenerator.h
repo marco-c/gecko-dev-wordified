@@ -3166,6 +3166,14 @@ lir
 )
 ;
 void
+visitIsPackedArray
+(
+LIsPackedArray
+*
+lir
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed

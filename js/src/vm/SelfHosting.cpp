@@ -16166,7 +16166,7 @@ intrinsic_UnsafeGetBooleanFromReservedSlot
 0
 IntrinsicUnsafeGetBooleanFromReservedSlot
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 IsPackedArray
@@ -16174,6 +16174,7 @@ IsPackedArray
 intrinsic_IsPackedArray
 1
 0
+IntrinsicIsPackedArray
 )
 JS_FN
 (

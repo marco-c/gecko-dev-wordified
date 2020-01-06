@@ -5974,6 +5974,14 @@ CallInfo
 callInfo
 )
 ;
+InliningResult
+inlineIsPackedArray
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Testing

@@ -894,6 +894,12 @@ MDefinition
 :
 Op_CopyLexicalEnvironmentObject
 :
+case
+MDefinition
+:
+:
+Op_IsPackedArray
+:
 object
 =
 ins
