@@ -3498,7 +3498,7 @@ void
 BufferTextureHost
 :
 :
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -3525,9 +3525,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :

@@ -1859,7 +1859,7 @@ override
 ;
 virtual
 void
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -1886,9 +1886,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
@@ -2160,7 +2160,7 @@ override
 ;
 virtual
 void
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -2187,9 +2187,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
