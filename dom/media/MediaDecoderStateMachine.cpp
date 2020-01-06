@@ -21664,14 +21664,6 @@ OnTaskQueue
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-IsShutdown
-(
-)
-)
-;
 LOGW
 (
 "
