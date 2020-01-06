@@ -31242,7 +31242,7 @@ during
 the
 /
 /
-ModuleDeclarationInstantiation
+ModuleInstantiate
 step
 .
 RootedPropertyName

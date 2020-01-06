@@ -52433,7 +52433,7 @@ binding
 /
 /
 during
-ModuleDeclarationInstantiation
+ModuleInstantiate
 (
 )
 before
