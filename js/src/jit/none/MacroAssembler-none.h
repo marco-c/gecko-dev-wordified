@@ -282,17 +282,6 @@ invalid_reg
 static
 constexpr
 Register
-ArgumentsRectifierReg
-{
-Registers
-:
-:
-invalid_reg
-}
-;
-static
-constexpr
-Register
 PreBarrierReg
 {
 Registers

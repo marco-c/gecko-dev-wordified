@@ -372,17 +372,6 @@ x3
 static
 constexpr
 Register
-ArgumentsRectifierReg
-{
-Registers
-:
-:
-x8
-}
-;
-static
-constexpr
-Register
 CallTempReg0
 {
 Registers

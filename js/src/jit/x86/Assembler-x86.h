@@ -594,13 +594,6 @@ modes
 static
 constexpr
 Register
-ArgumentsRectifierReg
-=
-esi
-;
-static
-constexpr
-Register
 CallTempReg0
 =
 edi
