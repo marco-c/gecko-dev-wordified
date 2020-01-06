@@ -339,10 +339,6 @@ MOZ_LEANPLUM_SDK_CLIENTID
 '
                 
 '
-MOZ_ANDROID_SEARCH_ACTIVITY
-'
-                
-'
 MOZ_CRASHREPORTER
 '
                 
@@ -455,10 +451,6 @@ MOZ_ANDROID_APPLICATION_CLASS
                 
 '
 MOZ_ANDROID_BROWSER_INTENT_CLASS
-'
-                
-'
-MOZ_ANDROID_SEARCH_INTENT_CLASS
 '
                 
 '
