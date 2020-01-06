@@ -533,6 +533,10 @@ JS
 Value
 >
 ret
+bool
+subsession
+bool
+clearSubsession
 )
 ;
 size_t
