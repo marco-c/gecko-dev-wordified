@@ -1483,7 +1483,10 @@ CharT
 chars
 )
 ;
+JS_PUBLIC_API
+(
 uint32_t
+)
 Utf8ToOneUcs4Char
 (
 const
@@ -1548,7 +1551,10 @@ null
 *
 /
 extern
+JS_PUBLIC_API
+(
 TwoByteCharsZ
+)
 UTF8CharsToNewTwoByteCharsZ
 (
 JSContext
@@ -1574,7 +1580,10 @@ ConstUTF8CharsZ
 *
 /
 extern
+JS_PUBLIC_API
+(
 TwoByteCharsZ
+)
 UTF8CharsToNewTwoByteCharsZ
 (
 JSContext
@@ -1630,7 +1639,10 @@ input
 *
 /
 extern
+JS_PUBLIC_API
+(
 TwoByteCharsZ
+)
 LossyUTF8CharsToNewTwoByteCharsZ
 (
 JSContext
@@ -1645,7 +1657,10 @@ outlen
 )
 ;
 extern
+JS_PUBLIC_API
+(
 TwoByteCharsZ
+)
 LossyUTF8CharsToNewTwoByteCharsZ
 (
 JSContext
@@ -2003,7 +2018,10 @@ failure
 *
 /
 extern
+JS_PUBLIC_API
+(
 Latin1CharsZ
+)
 UTF8CharsToNewLatin1CharsZ
 (
 JSContext
@@ -2073,7 +2091,10 @@ failure
 *
 /
 extern
+JS_PUBLIC_API
+(
 Latin1CharsZ
+)
 LossyUTF8CharsToNewLatin1CharsZ
 (
 JSContext
@@ -2117,7 +2138,10 @@ otherwise
 *
 /
 extern
+JS_PUBLIC_API
+(
 bool
+)
 StringIsASCII
 (
 const
