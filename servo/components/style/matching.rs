@@ -6083,6 +6083,19 @@ take
 (
 )
 ;
+let
+dom_depth
+=
+context
+.
+thread_local
+.
+bloom_filter
+.
+matching_depth
+(
+)
+;
 context
 .
 thread_local
@@ -6107,6 +6120,7 @@ primary_results
 .
 relations
 validation_data
+dom_depth
 )
 ;
 }
