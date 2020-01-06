@@ -239,7 +239,7 @@ Components
 )
 ;
 let
-thread
+tm
 =
 comp
 .
@@ -266,12 +266,10 @@ interfaces
 .
 nsIThreadManager
 )
-.
-mainThread
 ;
-thread
+tm
 .
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -284,13 +282,6 @@ aFun
 ;
 }
 }
-Components
-.
-interfaces
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }
