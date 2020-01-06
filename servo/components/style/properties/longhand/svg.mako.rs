@@ -267,7 +267,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateRGBA
+AnimatedRGBA
 "
 spec
 =
@@ -391,7 +391,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateRGBA
+AnimatedRGBA
 "
 spec
 =
@@ -504,7 +504,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateRGBA
+AnimatedRGBA
 "
 spec
 =

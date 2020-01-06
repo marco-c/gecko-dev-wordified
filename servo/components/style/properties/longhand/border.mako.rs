@@ -314,7 +314,7 @@ color
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 logical
 =

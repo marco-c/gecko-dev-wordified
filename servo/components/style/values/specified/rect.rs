@@ -59,7 +59,7 @@ MPL
 /
 /
 !
-Computed
+Specified
 types
 for
 CSS

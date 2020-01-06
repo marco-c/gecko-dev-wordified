@@ -6298,9 +6298,7 @@ Self
 if
 pc
 .
-calc_clamping_mode
-.
-is_some
+is_calc
 (
 )
 {

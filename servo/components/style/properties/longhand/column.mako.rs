@@ -525,7 +525,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 extra_prefixes
 =

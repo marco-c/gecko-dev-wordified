@@ -160,7 +160,7 @@ currentcolor
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 need_clone
 =
