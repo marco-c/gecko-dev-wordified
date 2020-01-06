@@ -75,6 +75,10 @@ os
 import
 subprocess
 from
+datetime
+import
+datetime
+from
 functools
 import
 partial
@@ -91,6 +95,25 @@ import
 urlsplit
 urlunsplit
 urljoin
+DATE
+=
+datetime
+.
+now
+(
+)
+.
+strftime
+(
+"
+%
+Y
+%
+m
+%
+d
+"
+)
 def
 load_manifest
 (
@@ -1314,6 +1337,15 @@ testcase
 =
 testcase
         
+timing
+[
+'
+date
+'
+]
+=
+DATE
+        
 return
 timing
     
@@ -1861,6 +1893,10 @@ base
 fieldnames
 =
 [
+        
+'
+date
+'
         
 '
 testcase
