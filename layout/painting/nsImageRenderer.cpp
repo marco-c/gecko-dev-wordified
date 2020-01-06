@@ -4296,12 +4296,7 @@ aBuilder
 PushImage
 (
 fill
-aBuilder
-.
-PushClipRegion
-(
 clip
-)
 wr
 :
 :

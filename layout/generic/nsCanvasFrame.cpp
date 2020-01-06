@@ -1977,12 +1977,7 @@ aBuilder
 PushRect
 (
 transformedRect
-aBuilder
-.
-PushClipRegion
-(
 transformedRect
-)
 wr
 :
 :

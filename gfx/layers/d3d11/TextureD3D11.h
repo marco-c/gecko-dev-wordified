@@ -1822,7 +1822,8 @@ WrRect
 &
 aBounds
 const
-WrClipRegionToken
+WrRect
+&
 aClip
 wr
 :
@@ -2131,7 +2132,8 @@ WrRect
 &
 aBounds
 const
-WrClipRegionToken
+WrRect
+&
 aClip
 wr
 :
