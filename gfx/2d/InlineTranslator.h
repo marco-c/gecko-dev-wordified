@@ -644,6 +644,13 @@ aUnscaledFont
 )
 final
 {
+mUnscaledFontTable
+.
+push_back
+(
+aUnscaledFont
+)
+;
 mUnscaledFonts
 .
 Put
