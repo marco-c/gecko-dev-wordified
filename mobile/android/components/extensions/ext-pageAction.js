@@ -168,8 +168,10 @@ WeakMap
 (
 )
 ;
-function
+class
 PageAction
+{
+constructor
 (
 options
 extension
@@ -325,11 +327,6 @@ this
 )
 ;
 }
-PageAction
-.
-prototype
-=
-{
 show
 (
 tabId
