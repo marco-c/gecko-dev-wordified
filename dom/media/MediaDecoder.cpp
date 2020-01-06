@@ -2262,6 +2262,10 @@ IsShutdown
 )
 )
 ;
+UnpinForSeek
+(
+)
+;
 /
 /
 Unwatch
@@ -2699,10 +2703,6 @@ MediaMemoryTracker
 RemoveMediaDecoder
 (
 this
-)
-;
-UnpinForSeek
-(
 )
 ;
 }
@@ -8239,6 +8239,14 @@ UnpinForSeek
 MOZ_ASSERT
 (
 NS_IsMainThread
+(
+)
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+IsShutdown
 (
 )
 )
