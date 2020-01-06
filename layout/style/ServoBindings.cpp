@@ -12471,11 +12471,11 @@ loaded
 ;
 MOZ_ASSERT
 (
-aBaseURLData
+aURLExtraData
 "
 Need
-base
 URL
+extra
 data
 "
 )
