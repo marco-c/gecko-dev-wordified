@@ -1358,7 +1358,7 @@ uint16_t
 ServoCSSRuleList
 :
 :
-GetRuleType
+GetDOMCSSRuleType
 (
 uint32_t
 aIndex

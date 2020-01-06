@@ -382,7 +382,7 @@ aIndex
 )
 ;
 uint16_t
-GetRuleType
+GetDOMCSSRuleType
 (
 uint32_t
 aIndex
