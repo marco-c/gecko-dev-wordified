@@ -122,6 +122,13 @@ WebMDecoder_h_
 #
 define
 WebMDecoder_h_
+#
+include
+"
+ChannelMediaDecoder
+.
+h
+"
 namespace
 mozilla
 {

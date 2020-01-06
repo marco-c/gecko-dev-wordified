@@ -122,6 +122,13 @@ OggDecoder_h_
 #
 define
 OggDecoder_h_
+#
+include
+"
+ChannelMediaDecoder
+.
+h
+"
 namespace
 mozilla
 {

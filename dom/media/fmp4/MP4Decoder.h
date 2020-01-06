@@ -122,9 +122,13 @@ MP4Decoder_h_
 #
 define
 MP4Decoder_h_
-class
-nsACString
-;
+#
+include
+"
+ChannelMediaDecoder
+.
+h
+"
 #
 include
 "
@@ -152,9 +156,6 @@ mozilla
 {
 class
 MediaContainerType
-;
-class
-DecoderDoctorDiagnostics
 ;
 /
 /

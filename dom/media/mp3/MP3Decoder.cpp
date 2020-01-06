@@ -129,6 +129,13 @@ h
 #
 include
 "
+MP3Demuxer
+.
+h
+"
+#
+include
+"
 PDMFactory
 .
 h
