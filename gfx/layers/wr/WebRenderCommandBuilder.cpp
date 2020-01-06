@@ -1644,6 +1644,7 @@ asr
 ;
 }
 }
+{
 /
 /
 ensure
@@ -1716,6 +1717,7 @@ aSc
 aDisplayListBuilder
 )
 ;
+}
 }
 if
 (
