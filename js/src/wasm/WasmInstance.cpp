@@ -6171,6 +6171,10 @@ GlobalSegment
 (
 )
 {
+if
+(
+tlsData_
+)
 js_free
 (
 tlsData_
