@@ -76898,11 +76898,8 @@ nsPIDOMWindowInner
 >
 window
 =
-do_QueryInterface
+GetInnerWindow
 (
-GetScopeObject
-(
-)
 )
 ;
 if
