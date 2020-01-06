@@ -807,6 +807,9 @@ templates
 '
 artifact
 '
+'
+env
+'
 ]
 def
 run
