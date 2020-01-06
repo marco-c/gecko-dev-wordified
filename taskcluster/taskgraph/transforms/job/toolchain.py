@@ -868,6 +868,9 @@ support_vcs_checkout
 config
 job
 taskdesc
+sparse
+=
+True
 )
     
 env
@@ -1006,6 +1009,25 @@ workspace
 build
 /
 src
+'
+        
+'
+-
+-
+sparse
+-
+profile
+'
+'
+build
+/
+sparse
+-
+profiles
+/
+toolchain
+-
+build
 '
         
 '
