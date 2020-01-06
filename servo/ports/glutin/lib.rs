@@ -183,7 +183,7 @@ style_traits
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 #
 [

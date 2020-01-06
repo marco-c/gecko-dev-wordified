@@ -82,7 +82,7 @@ std
 fmt
 ;
 use
-webrender_traits
+webrender_api
 ;
 #
 [
@@ -186,7 +186,7 @@ ignore_heap_size_of
 "
 Defined
 in
-webrender_traits
+webrender_api
 "
 ]
 pub
@@ -194,7 +194,7 @@ id
 :
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 ImageKey

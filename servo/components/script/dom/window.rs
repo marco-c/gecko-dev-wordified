@@ -1363,7 +1363,7 @@ webdriver_handlers
 jsval_to_webdriver
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ClipId

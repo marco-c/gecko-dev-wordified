@@ -424,7 +424,7 @@ use
 user32
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ScrollLocation

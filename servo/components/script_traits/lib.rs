@@ -220,7 +220,7 @@ time
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 extern
 crate
@@ -500,7 +500,7 @@ WebDriverScriptCommand
 }
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ClipId

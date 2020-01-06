@@ -1406,7 +1406,7 @@ timer_scheduler
 TimerScheduler
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
 webvr_traits
@@ -2221,7 +2221,7 @@ thread
 .
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -2956,7 +2956,7 @@ API
 pub
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

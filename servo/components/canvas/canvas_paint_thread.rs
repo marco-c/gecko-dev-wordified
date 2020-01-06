@@ -206,7 +206,7 @@ std
 thread
 ;
 use
-webrender_traits
+webrender_api
 ;
 impl
 <
@@ -563,7 +563,7 @@ a
 >
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -571,7 +571,7 @@ image_key
 :
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 ImageKey
@@ -819,7 +819,7 @@ i32
 >
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -926,7 +926,7 @@ i32
 >
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -4695,7 +4695,7 @@ get_size
 let
 descriptor
 =
-webrender_traits
+webrender_api
 :
 :
 ImageDescriptor
@@ -4719,7 +4719,7 @@ stride
 None
 format
 :
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -4737,7 +4737,7 @@ false
 let
 data
 =
-webrender_traits
+webrender_api
 :
 :
 ImageData

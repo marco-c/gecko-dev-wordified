@@ -197,7 +197,7 @@ use
 webrender
 ;
 use
-webrender_traits
+webrender_api
 ;
 /
 /
@@ -597,7 +597,7 @@ a
 window
 ScrollFragmentPoint
 (
-webrender_traits
+webrender_api
 :
 :
 ClipId
@@ -1767,7 +1767,7 @@ Renderer
 pub
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

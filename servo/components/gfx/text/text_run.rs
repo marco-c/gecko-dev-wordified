@@ -164,7 +164,7 @@ as
 bidi
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
 xi_unicode
@@ -269,7 +269,7 @@ FontMetrics
 pub
 font_key
 :
-webrender_traits
+webrender_api
 :
 :
 FontKey

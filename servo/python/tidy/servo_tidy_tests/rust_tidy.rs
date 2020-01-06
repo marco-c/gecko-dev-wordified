@@ -135,7 +135,7 @@ test
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 extern
 crate

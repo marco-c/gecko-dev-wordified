@@ -381,7 +381,7 @@ cursor
 Cursor
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ClipId

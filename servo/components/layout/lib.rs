@@ -262,7 +262,7 @@ unicode_script
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 #
 [

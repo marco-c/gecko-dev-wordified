@@ -166,7 +166,7 @@ uuid
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 use
 cookie_rs

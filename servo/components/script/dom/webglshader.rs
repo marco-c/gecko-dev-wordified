@@ -220,10 +220,10 @@ Once
 }
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {
@@ -526,7 +526,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -1260,7 +1260,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel

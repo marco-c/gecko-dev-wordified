@@ -236,7 +236,7 @@ as
 StyleArc
 ;
 use
-webrender_traits
+webrender_api
 ;
 static
 SMALL_CAPS_SCALE_FACTOR
@@ -561,7 +561,7 @@ font_variant_caps
 T
 font_key
 :
-webrender_traits
+webrender_api
 :
 :
 FontKey

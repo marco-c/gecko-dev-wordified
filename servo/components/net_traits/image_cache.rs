@@ -96,7 +96,7 @@ sync
 Arc
 ;
 use
-webrender_traits
+webrender_api
 ;
 /
 /
@@ -918,7 +918,7 @@ new
 (
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi

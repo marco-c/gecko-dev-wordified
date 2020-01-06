@@ -164,7 +164,7 @@ std
 thread
 ;
 use
-webrender_traits
+webrender_api
 ;
 enum
 GLContextWrapper
@@ -584,7 +584,7 @@ apply_command
 self
 cmd
 :
-webrender_traits
+webrender_api
 :
 :
 WebGLCommand
@@ -640,11 +640,11 @@ WebGLPaintTaskData
 {
 WebRender
 (
-webrender_traits
+webrender_api
 :
 :
 RenderApi
-webrender_traits
+webrender_api
 :
 :
 WebGLContextId
@@ -652,13 +652,13 @@ WebGLContextId
 Readback
 (
 GLContextWrapper
-webrender_traits
+webrender_api
 :
 :
 RenderApi
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 ImageKey
@@ -693,7 +693,7 @@ attrs
 GLContextAttributes
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -784,7 +784,7 @@ attrs
 GLContextAttributes
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -818,7 +818,7 @@ create_api
 let
 device_size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceIntSize
@@ -921,7 +921,7 @@ handle_webgl_message
 self
 message
 :
-webrender_traits
+webrender_api
 :
 :
 WebGLCommand
@@ -998,7 +998,7 @@ handle_webvr_message
 self
 message
 :
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -1091,7 +1091,7 @@ attrs
 GLContextAttributes
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -1696,7 +1696,7 @@ pixels
 let
 descriptor
 =
-webrender_traits
+webrender_api
 :
 :
 ImageDescriptor
@@ -1716,7 +1716,7 @@ stride
 None
 format
 :
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -1734,7 +1734,7 @@ false
 let
 data
 =
-webrender_traits
+webrender_api
 :
 :
 ImageData
@@ -2039,7 +2039,7 @@ id
 let
 device_size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceIntSize

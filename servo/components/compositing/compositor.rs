@@ -359,7 +359,7 @@ use
 webrender
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {
@@ -456,7 +456,7 @@ PipelineId
 impl
 ConvertPipelineIdFromWebRender
 for
-webrender_traits
+webrender_api
 :
 :
 PipelineId
@@ -1153,7 +1153,7 @@ enabled
 .
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -1832,7 +1832,7 @@ compositor_proxy
 }
 }
 impl
-webrender_traits
+webrender_api
 :
 :
 RenderNotifier
@@ -1913,7 +1913,7 @@ compositor_proxy
 CompositorProxy
 }
 impl
-webrender_traits
+webrender_api
 :
 :
 RenderDispatcher
@@ -4399,7 +4399,7 @@ window_rect
 let
 offset
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceUintPoint
@@ -4426,7 +4426,7 @@ y
 let
 size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceUintSize
@@ -4450,7 +4450,7 @@ size
 height
 )
 ;
-webrender_traits
+webrender_api
 :
 :
 DeviceUintRect
@@ -4466,7 +4466,7 @@ size
 let
 frame_size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceUintSize
@@ -6321,7 +6321,7 @@ ScrollLocation
 :
 Delta
 (
-webrender_traits
+webrender_api
 :
 :
 LayoutVector2D
@@ -7273,7 +7273,7 @@ to_untyped
 let
 location
 =
-webrender_traits
+webrender_api
 :
 :
 ScrollLocation
@@ -7287,7 +7287,7 @@ delta
 let
 cursor
 =
-webrender_traits
+webrender_api
 :
 :
 WorldPoint
@@ -7356,7 +7356,7 @@ ScrollLocation
 :
 Delta
 (
-webrender_traits
+webrender_api
 :
 :
 LayoutVector2D
@@ -7655,7 +7655,7 @@ to_untyped
 let
 calculated_delta
 =
-webrender_traits
+webrender_api
 :
 :
 LayoutVector2D
@@ -7728,7 +7728,7 @@ to_untyped
 let
 cursor
 =
-webrender_traits
+webrender_api
 :
 :
 WorldPoint
@@ -8387,7 +8387,7 @@ self
 let
 page_zoom
 =
-webrender_traits
+webrender_api
 :
 :
 ZoomFactor
@@ -9111,7 +9111,7 @@ if
 let
 Some
 (
-webrender_traits
+webrender_api
 :
 :
 Epoch
@@ -9878,7 +9878,7 @@ scene
 let
 size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceUintSize

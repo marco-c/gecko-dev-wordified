@@ -116,7 +116,7 @@ serde
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 use
 cssparser
@@ -164,7 +164,7 @@ str
 FromStr
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {
@@ -287,7 +287,7 @@ CanvasImageData
 pub
 image_key
 :
-webrender_traits
+webrender_api
 :
 :
 ImageKey
