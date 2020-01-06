@@ -82,15 +82,15 @@ get_state_dir
 from
 .
 .
-tasks
+cli
 import
-generate_tasks
+BaseTryParser
 from
 .
 .
-templates
+tasks
 import
-TemplateParser
+generate_tasks
 from
 .
 .
@@ -562,9 +562,15 @@ c
 class
 FuzzyParser
 (
-TemplateParser
+BaseTryParser
 )
 :
+    
+name
+=
+'
+fuzzy
+'
     
 arguments
 =
