@@ -2564,7 +2564,7 @@ margin
 ;
 padding
 :
-1px
+2px
 4px
 ;
 -
@@ -2598,6 +2598,11 @@ margin
 :
 0
 1px
+;
+padding
+:
+1px
+4px
 ;
 }
 :
