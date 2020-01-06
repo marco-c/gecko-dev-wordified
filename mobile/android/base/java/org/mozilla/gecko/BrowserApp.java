@@ -7008,6 +7008,10 @@ true
 )
 )
 {
+showSplashScreen
+=
+false
+;
 if
 (
 !
