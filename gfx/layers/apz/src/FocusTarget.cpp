@@ -743,6 +743,10 @@ seq
 "
 PRIu64
 "
+kl
+=
+%
+d
 lt
 =
 %
@@ -753,6 +757,7 @@ PRIu64
 n
 "
 aFocusSequenceNumber
+mFocusHasKeyEventListeners
 rfp
 -
 >
@@ -795,6 +800,10 @@ seq
 "
 PRIu64
 "
+kl
+=
+%
+d
 (
 remote
 browser
@@ -806,6 +815,7 @@ id
 n
 "
 aFocusSequenceNumber
+mFocusHasKeyEventListeners
 )
 ;
 mType
@@ -867,6 +877,10 @@ seq
 "
 PRIu64
 "
+kl
+=
+%
+d
 (
 disabling
 for
@@ -877,6 +891,7 @@ node
 n
 "
 aFocusSequenceNumber
+mFocusHasKeyEventListeners
 )
 ;
 mType
@@ -1024,6 +1039,10 @@ seq
 "
 PRIu64
 "
+kl
+=
+%
+d
 h
 =
 %
@@ -1040,6 +1059,7 @@ PRIu64
 n
 "
 aFocusSequenceNumber
+mFocusHasKeyEventListeners
 mData
 .
 mScrollTargets
