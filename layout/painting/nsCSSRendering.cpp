@@ -20311,9 +20311,15 @@ aSpace
 int32_t
 count
 =
+aImageDimension
+?
+(
 aAvailableSpace
 /
 aImageDimension
+)
+:
+0
 ;
 aSpace
 =
