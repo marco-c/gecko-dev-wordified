@@ -638,6 +638,11 @@ Finish
 (
 )
 ;
+AddToValidRegion
+(
+regionToPaint
+)
+;
 wr
 :
 :
