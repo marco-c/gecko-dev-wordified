@@ -239,22 +239,6 @@ py
 '
 )
             
-whitelist_path
-=
-path
-.
-join
-(
-browser_dir
-'
-config
-/
-mozconfigs
-/
-whitelist
-'
-)
-            
 beta_mozconfig_path
 =
 path
@@ -331,13 +315,7 @@ call
 [
 python_exe
 script_path
-'
--
--
-whitelist
-'
-                                        
-whitelist_path
+topsrcdir
                                         
 platform
 +
@@ -384,13 +362,7 @@ call
 [
 python_exe
 script_path
-'
--
--
-whitelist
-'
-                                        
-whitelist_path
+topsrcdir
                                         
 platform
 +
