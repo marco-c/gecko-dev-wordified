@@ -764,8 +764,9 @@ SH_GLSL_450_CORE_OUTPUT
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSERT
 (
+false
 "
 GFX
 :
