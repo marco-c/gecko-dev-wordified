@@ -180,6 +180,7 @@ dom
 {
 class
 RadioNodeList
+final
 :
 public
 nsSimpleContentList
