@@ -58,9 +58,6 @@ MPL
 /
 %
 ifdef
-MOZ_PHOTON_THEME
-%
-ifdef
 CAN_DRAW_IN_TITLEBAR
 /
 *
@@ -410,5 +407,3 @@ rect
 ;
 }
 }
-%
-endif

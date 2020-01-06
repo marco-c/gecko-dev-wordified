@@ -56,9 +56,6 @@ MPL
 .
 *
 /
-%
-ifdef
-MOZ_PHOTON_THEME
 #
 urlbar
 .
@@ -292,8 +289,6 @@ color
 white
 ;
 }
-%
-endif
 :
 root
 [
@@ -438,9 +433,6 @@ appearance
 none
 ;
 }
-%
-ifdef
-MOZ_PHOTON_THEME
 /
 *
 Page
@@ -1531,13 +1523,6 @@ animation
 rtl
 ;
 }
-%
-endif
-/
-*
-MOZ_PHOTON_THEME
-*
-/
 /
 *
 Zoom
