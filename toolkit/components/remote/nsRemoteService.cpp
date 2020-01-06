@@ -117,12 +117,17 @@ nsGTKRemoteService
 h
 "
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 "
 nsDBusRemoteService
 .
 h
 "
+#
+endif
 #
 include
 "
