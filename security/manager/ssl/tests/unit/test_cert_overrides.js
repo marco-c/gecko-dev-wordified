@@ -2304,7 +2304,7 @@ hasMatchingOverride
 (
 uri
 .
-host
+displayHost
 8443
 cert
 {
