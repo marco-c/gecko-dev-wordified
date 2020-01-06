@@ -5298,6 +5298,9 @@ void
 onFileCallbackResult
 (
 final
+Context
+context
+final
 int
 resultCode
 final
@@ -5397,6 +5400,7 @@ callback
 .
 confirm
 (
+context
 uri
 )
 ;
@@ -5501,6 +5505,7 @@ callback
 .
 confirm
 (
+context
 uris
 .
 toArray

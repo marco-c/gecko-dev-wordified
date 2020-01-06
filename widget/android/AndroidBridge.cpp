@@ -2041,6 +2041,12 @@ Clipboard
 :
 GetText
 (
+GeckoAppShell
+:
+:
+GetApplicationContext
+(
+)
 )
 ;
 if

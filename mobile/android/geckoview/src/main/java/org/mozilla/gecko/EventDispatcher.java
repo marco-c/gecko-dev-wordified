@@ -148,15 +148,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 mozglue
 .
 JNIObject

@@ -709,6 +709,7 @@ prompt
 .
 onFileCallbackResult
 (
+this
 resultCode
 data
 )
