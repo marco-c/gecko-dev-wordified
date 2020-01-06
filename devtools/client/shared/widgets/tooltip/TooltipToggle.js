@@ -1170,6 +1170,7 @@ this
 _baseNode
 &
 &
+!
 this
 .
 _baseNode
