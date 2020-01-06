@@ -161,18 +161,6 @@ example
 org
 "
 }
-/
-*
-This
-part
-is
-perma
--
-crashing
-see
-:
-Bug
-1315092
 {
 name
 :
@@ -201,8 +189,6 @@ effectiveHost
 :
 null
 }
-*
-/
 {
 name
 :
