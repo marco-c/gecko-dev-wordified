@@ -6206,6 +6206,13 @@ ErrorResult
 aError
 )
 ;
+ShadowRoot
+*
+GetShadowRootByMode
+(
+)
+const
+;
 void
 SetSlot
 (
