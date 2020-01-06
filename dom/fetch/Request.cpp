@@ -2758,7 +2758,6 @@ WasPassed
 {
 signal
 =
-&
 aInit
 .
 mSignal
