@@ -248,7 +248,7 @@ used
 for
 testing
 nsresult
-LaunchUIAction
+CallTestingUIAction
 (
 const
 nsAString

@@ -2047,7 +2047,13 @@ undef
 DecodeBasicCardProperty
 #
 undef
+DecodeBasicCardCardNumber
+#
+undef
 DecodeAddressProperty
+#
+undef
+DecodeAddressLine
 #
 undef
 AMEX
