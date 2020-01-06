@@ -541,6 +541,7 @@ function
 (
 aTitle
 aMenu
+aWindow
 )
 {
 debug
@@ -557,6 +558,9 @@ new
 Prompt
 (
 {
+window
+:
+aWindow
 title
 :
 aTitle
@@ -829,6 +833,16 @@ this
 .
 _devices
 )
+aRequest
+.
+chromeEventHandler
+&
+&
+aRequest
+.
+chromeEventHandler
+.
+ownerGlobal
 )
 ;
 this

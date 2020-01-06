@@ -627,6 +627,7 @@ function
 aTitle
 aText
 aButtons
+aWindow
 )
 {
 return
@@ -634,6 +635,9 @@ new
 Prompt
 (
 {
+window
+:
+aWindow
 title
 :
 aTitle
@@ -785,6 +789,7 @@ label
 "
 )
 ]
+aCtx
 )
 ;
 prompt
@@ -1117,6 +1122,7 @@ label
 "
 )
 ]
+aCtx
 )
 .
 addPassword
@@ -1328,6 +1334,7 @@ label
 "
 )
 ]
+aCtx
 )
 ;
 p
@@ -1780,6 +1787,7 @@ viewCertDetails
 function
 (
 details
+window
 )
 {
 let
@@ -1815,6 +1823,7 @@ label
 "
 )
 ]
+window
 )
 ;
 p
@@ -2086,6 +2095,7 @@ message1
 "
 )
 buttons
+ctx
 )
 .
 addLabel
@@ -2207,6 +2217,7 @@ selectedIndex
 .
 value
 ]
+ctx
 )
 ;
 continue

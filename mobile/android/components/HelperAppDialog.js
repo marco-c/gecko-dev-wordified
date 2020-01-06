@@ -1741,6 +1741,9 @@ prompt
 (
 apps
 {
+window
+:
+aContext
 title
 :
 bundle
