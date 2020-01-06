@@ -257,6 +257,9 @@ Symbol
 class
 Value
 ;
+class
+Realm
+;
 template
 <
 typename
