@@ -4255,7 +4255,7 @@ and
 nsContextMenu
 .
 initMediaPlayerItems
-fullscreenElement
+fullscreen
 :
 context
 .
@@ -4263,7 +4263,7 @@ target
 .
 ownerDocument
 .
-fullscreenElement
+fullscreen
 /
 /
 used
