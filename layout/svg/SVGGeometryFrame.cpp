@@ -4806,6 +4806,7 @@ i
 +
 )
 {
+const
 nsSVGMark
 &
 mark
@@ -4842,11 +4843,7 @@ GetMarkBBoxContribution
 aToBBoxUserspace
 aFlags
 this
-&
-marks
-[
-i
-]
+mark
 strokeWidth
 )
 ;
@@ -6271,6 +6268,7 @@ i
 +
 )
 {
+const
 nsSVGMark
 &
 mark
@@ -6304,7 +6302,6 @@ PaintMark
 aContext
 aTransform
 this
-&
 mark
 strokeWidth
 aImgParams
