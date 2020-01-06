@@ -440,8 +440,10 @@ to
 the
 opener
 .
-auto
-*
+nsCOMPtr
+<
+nsPIDOMWindowOuter
+>
 pParentWindow
 =
 nsPIDOMWindowOuter
@@ -450,6 +452,11 @@ nsPIDOMWindowOuter
 From
 (
 parent
+)
+;
+NS_ENSURE_STATE
+(
+pParentWindow
 )
 ;
 nsCOMPtr
