@@ -907,7 +907,7 @@ aNode
 static
 nsINode
 *
-GetParentAndOffsetAfter
+GetContainerAndOffsetAfter
 (
 nsINode
 *

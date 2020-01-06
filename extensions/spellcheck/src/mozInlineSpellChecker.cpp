@@ -6949,7 +6949,7 @@ endNode
 nsRange
 :
 :
-GetParentAndOffsetAfter
+GetContainerAndOffsetAfter
 (
 endNode
 &
