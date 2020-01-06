@@ -6957,9 +6957,14 @@ Element
 to
 test
 if
-|
+<
+var
+>
 attr
-|
+<
+/
+var
+>
 is
 a
 boolean
