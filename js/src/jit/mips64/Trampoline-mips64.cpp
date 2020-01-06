@@ -2325,7 +2325,7 @@ enterFakeExitFrame
 (
 scratch
 scratch
-ExitFrameToken
+ExitFrameType
 :
 :
 Bare

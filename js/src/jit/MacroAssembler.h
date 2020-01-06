@@ -1300,7 +1300,7 @@ JitFrames
 h
 enum
 class
-ExitFrameToken
+ExitFrameType
 :
 uint8_t
 ;
@@ -5322,8 +5322,6 @@ const
 VMFunction
 *
 f
-=
-nullptr
 )
 ;
 /
@@ -5354,8 +5352,8 @@ Register
 cxreg
 Register
 scratch
-ExitFrameToken
-token
+ExitFrameType
+type
 )
 ;
 /

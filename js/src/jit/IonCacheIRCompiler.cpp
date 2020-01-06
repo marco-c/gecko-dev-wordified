@@ -7472,7 +7472,7 @@ enterFakeExitFrame
 (
 argJSContext
 scratch
-ExitFrameToken
+ExitFrameType
 :
 :
 IonOOLNative
@@ -7850,7 +7850,7 @@ enterFakeExitFrame
 (
 argJSContext
 scratch
-ExitFrameToken
+ExitFrameType
 :
 :
 IonOOLProxy
@@ -13235,7 +13235,7 @@ enterFakeExitFrame
 (
 argJSContext
 scratch
-ExitFrameToken
+ExitFrameType
 :
 :
 IonOOLNative

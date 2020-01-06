@@ -1606,7 +1606,7 @@ enterFakeExitFrame
 (
 r19
 r19
-ExitFrameToken
+ExitFrameType
 :
 :
 Bare

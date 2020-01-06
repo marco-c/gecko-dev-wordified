@@ -28700,7 +28700,7 @@ enterFakeExitFrame
 (
 argJSContext
 argJSContext
-ExitFrameToken
+ExitFrameType
 :
 :
 IonDOMMethod
@@ -56267,7 +56267,7 @@ enterFakeExitFrame
 (
 temp0
 temp0
-ExitFrameToken
+ExitFrameType
 :
 :
 LazyLink
@@ -83363,7 +83363,7 @@ enterFakeExitFrame
 (
 JSContextReg
 JSContextReg
-ExitFrameToken
+ExitFrameType
 :
 :
 IonDOMGetter
@@ -84156,7 +84156,7 @@ enterFakeExitFrame
 (
 JSContextReg
 JSContextReg
-ExitFrameToken
+ExitFrameType
 :
 :
 IonDOMSetter
