@@ -660,14 +660,8 @@ badName
 )
 ;
 }
-PlacesUIUtils
-.
-__defineGetter__
+restoreLeftPaneGetters
 (
-"
-leftPaneFolderId
-"
-cachedLeftPaneFolderIdGetter
 )
 ;
 /
