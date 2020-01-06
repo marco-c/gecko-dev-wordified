@@ -152,6 +152,10 @@ nsTFixedString_CharT
 nsFixedCString
 #
 define
+nsTAutoStringN_CharT
+nsAutoCStringN
+#
+define
 nsTAutoString_CharT
 nsAutoCString
 #

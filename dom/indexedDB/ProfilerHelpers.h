@@ -421,7 +421,7 @@ static_assert
 NSID_LENGTH
 <
 =
-kDefaultStorageSize
+kStorageSize
 "
 nID
 string
