@@ -140,7 +140,7 @@ the
 highlight
 to
 the
-bookmark
+copyURL
 button
 on
 the
@@ -175,9 +175,7 @@ showHighlight
 "
 pageAction
 -
-panel
--
-bookmark
+copyURL
 "
 )
 ;
@@ -207,9 +205,7 @@ highlighting
 the
 pageAction
 -
-panel
--
-bookmark
+copyURL
 "
 )
 ;
@@ -221,9 +217,7 @@ getShowHighlightTargetName
 "
 pageAction
 -
-panel
--
-bookmark
+copyURL
 "
 "
 Should
@@ -231,9 +225,7 @@ highlight
 the
 pageAction
 -
-panel
--
-bookmark
+copyURL
 "
 )
 ;
@@ -511,8 +503,6 @@ showHighlight
 "
 pageAction
 -
-panel
--
 copyURL
 "
 )
@@ -581,8 +571,6 @@ getShowHighlightTargetName
 )
 "
 pageAction
--
-panel
 -
 copyURL
 "
@@ -776,8 +764,6 @@ showInfoPromise
 "
 pageAction
 -
-panel
--
 emailLink
 "
 "
@@ -845,8 +831,6 @@ getShowInfoTargetName
 )
 "
 pageAction
--
-panel
 -
 emailLink
 "
@@ -1209,8 +1193,6 @@ showHighlight
 "
 pageAction
 -
-panel
--
 sendToDevice
 "
 )
@@ -1270,8 +1252,6 @@ getShowHighlightTargetName
 )
 "
 pageAction
--
-panel
 -
 sendToDevice
 "
@@ -1764,8 +1744,6 @@ showHighlight
 "
 pageAction
 -
-panel
--
 sendToDevice
 "
 )
@@ -1829,8 +1807,6 @@ getShowHighlightTargetName
 )
 "
 pageAction
--
-panel
 -
 sendToDevice
 "
@@ -2068,8 +2044,6 @@ showHighlight
 "
 pageAction
 -
-panel
--
 sendToDevice
 "
 )
@@ -2138,8 +2112,6 @@ getShowHighlightTargetName
 )
 "
 pageAction
--
-panel
 -
 sendToDevice
 "
@@ -2252,8 +2224,6 @@ getShowHighlightTargetName
 )
 "
 pageAction
--
-panel
 -
 sendToDevice
 "
