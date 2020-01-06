@@ -1119,15 +1119,6 @@ if
 this
 .
 noProxy
-&
-&
-this
-.
-noProxy
-.
-length
->
-0
 )
 {
 Preferences
