@@ -283,6 +283,10 @@ bool
 aBackfaceVisible
 =
 true
+bool
+aIsPreserve3D
+=
+false
 )
 ;
 /
