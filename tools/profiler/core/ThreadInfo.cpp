@@ -1306,7 +1306,7 @@ crash
 aBuffer
 -
 >
-reset
+Reset
 (
 )
 ;

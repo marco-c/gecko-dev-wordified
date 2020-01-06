@@ -4463,7 +4463,7 @@ JS_NORMAL
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -4597,7 +4597,7 @@ entries
 aBuffer
 -
 >
-addDynamicStringEntry
+AddDynamicStringEntry
 (
 dynamicString
 )
@@ -4767,7 +4767,7 @@ lineno
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -4782,7 +4782,7 @@ lineno
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -6232,7 +6232,7 @@ Frame_Wasm
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -6247,7 +6247,7 @@ Label
 aBuffer
 -
 >
-addDynamicStringEntry
+AddDynamicStringEntry
 (
 jsFrame
 .
@@ -6290,7 +6290,7 @@ Frame_Baseline
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -6368,7 +6368,7 @@ nativeIndex
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -8804,7 +8804,7 @@ aLock
 aBuffer
 -
 >
-addThreadIdEntry
+AddThreadIdEntry
 (
 aThreadInfo
 .
@@ -8829,7 +8829,7 @@ ProcessStartTime
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -8911,7 +8911,7 @@ aLock
 aBuffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -9139,7 +9139,7 @@ popHead
 buffer
 -
 >
-addStoredMarker
+AddStoredMarker
 (
 marker
 )
@@ -9147,7 +9147,7 @@ marker
 buffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -9196,7 +9196,7 @@ aNow
 buffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -9234,7 +9234,7 @@ aRSSMemory
 buffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -9268,7 +9268,7 @@ aUSSMemory
 buffer
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -13061,7 +13061,7 @@ lock
 )
 -
 >
-deleteExpiredStoredMarkers
+DeleteExpiredStoredMarkers
 (
 )
 ;

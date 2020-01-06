@@ -5836,7 +5836,7 @@ mInt
 aThreadId
 )
 ;
-addThreadIdEntry
+AddThreadIdEntry
 (
 aThreadId
 &
@@ -5935,7 +5935,7 @@ Copy
 with
 new
 time
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -5993,7 +5993,7 @@ t
 know
 about
 .
-addEntry
+AddEntry
 (
 mEntries
 [

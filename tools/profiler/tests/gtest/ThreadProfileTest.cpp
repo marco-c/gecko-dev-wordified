@@ -209,7 +209,7 @@ ProfileBuffer
 pb
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -344,7 +344,7 @@ i
 pb
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -535,7 +535,7 @@ i
 pb
 -
 >
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :

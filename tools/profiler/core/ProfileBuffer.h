@@ -280,7 +280,7 @@ it
 is
 .
 void
-addEntry
+AddEntry
 (
 const
 ProfileBufferEntry
@@ -326,7 +326,7 @@ non
 null
 .
 void
-addThreadIdEntry
+AddThreadIdEntry
 (
 int
 aThreadId
@@ -362,7 +362,7 @@ DynamicStringFragment
 entries
 .
 void
-addDynamicStringEntry
+AddDynamicStringEntry
 (
 const
 char
@@ -483,7 +483,7 @@ aLS
 )
 ;
 void
-addStoredMarker
+AddStoredMarker
 (
 ProfilerMarker
 *
@@ -506,12 +506,12 @@ delete
 markers
 .
 void
-deleteExpiredStoredMarkers
+DeleteExpiredStoredMarkers
 (
 )
 ;
 void
-reset
+Reset
 (
 )
 ;
