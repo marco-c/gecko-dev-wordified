@@ -444,6 +444,9 @@ run_interval_seconds
 /
 24
 hours
+first_run
+:
+true
 }
 ;
 const
