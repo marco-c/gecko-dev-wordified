@@ -2091,7 +2091,7 @@ which
 is
 SECONDS
 return
-AsyncResource
+Resource
 .
 serverTime
 ;

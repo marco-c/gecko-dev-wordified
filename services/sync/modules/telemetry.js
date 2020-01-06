@@ -4306,7 +4306,7 @@ if
 extra
 &
 &
-AsyncResource
+Resource
 .
 serverTime
 &
@@ -4323,7 +4323,7 @@ serverTime
 =
 String
 (
-AsyncResource
+Resource
 .
 serverTime
 )

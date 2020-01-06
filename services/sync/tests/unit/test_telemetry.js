@@ -4900,7 +4900,7 @@ try
 let
 serverTime
 =
-AsyncResource
+Resource
 .
 serverTime
 ;
