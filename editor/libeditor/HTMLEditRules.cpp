@@ -8435,6 +8435,23 @@ GetStartContainer
 (
 )
 ;
+nsIContent
+*
+selChild
+=
+aSelection
+-
+>
+GetRangeAt
+(
+0
+)
+-
+>
+GetChildAtStartOffset
+(
+)
+;
 int32_t
 selOffset
 =
@@ -8627,6 +8644,7 @@ address_of
 (
 selNode
 )
+selChild
 &
 selOffset
 doc
@@ -8670,6 +8688,7 @@ address_of
 (
 selNode
 )
+selChild
 &
 selOffset
 doc
@@ -9139,6 +9158,7 @@ address_of
 (
 curNode
 )
+selChild
 &
 curOffset
 doc
@@ -9339,6 +9359,7 @@ address_of
 (
 curNode
 )
+selChild
 &
 curOffset
 doc
@@ -9419,6 +9440,7 @@ address_of
 (
 curNode
 )
+selChild
 &
 curOffset
 doc
