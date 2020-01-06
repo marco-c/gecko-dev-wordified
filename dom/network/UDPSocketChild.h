@@ -255,11 +255,6 @@ UDPSocketChild
 (
 )
 ;
-nsresult
-CreatePBackgroundSpinUntilDone
-(
-)
-;
 virtual
 mozilla
 :
