@@ -8604,11 +8604,10 @@ mState
 NS_STATE_IS_HORIZONTAL
 ;
 else
-mState
-&
-=
-~
+RemoveStateBits
+(
 NS_STATE_IS_HORIZONTAL
+)
 ;
 }
 void

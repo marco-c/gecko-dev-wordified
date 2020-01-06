@@ -32404,11 +32404,10 @@ insertion
 textFrame
 -
 >
-mState
-&
-=
-~
+RemoveStateBits
+(
 TEXT_WHITESPACE_FLAGS
+)
 ;
 textFrame
 -

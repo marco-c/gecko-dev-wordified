@@ -8123,11 +8123,10 @@ LazyMarkLinesDirty
 (
 )
 ;
-mState
-&
-=
-~
+RemoveStateBits
+(
 NS_FRAME_FIRST_REFLOW
+)
 ;
 /
 /

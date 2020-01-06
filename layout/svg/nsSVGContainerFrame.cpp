@@ -2304,11 +2304,10 @@ if
 outerSVGHasHadFirstReflow
 )
 {
-mState
-&
-=
-~
+RemoveStateBits
+(
 NS_FRAME_FIRST_REFLOW
+)
 ;
 /
 /
@@ -2816,10 +2815,7 @@ on
 first
 reflow
 :
-mState
-&
-=
-~
+RemoveStateBits
 (
 NS_FRAME_FIRST_REFLOW
 |
