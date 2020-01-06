@@ -4540,10 +4540,11 @@ pCallback
 ;
 mObservers
 .
-RemoveAndForget
+Remove
 (
 &
 key
+&
 pCallback
 )
 ;

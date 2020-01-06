@@ -1155,9 +1155,10 @@ requestSet
 ;
 mFrameToRequestMap
 .
-RemoveAndForget
+Remove
 (
 aFrame
+&
 requestSet
 )
 ;

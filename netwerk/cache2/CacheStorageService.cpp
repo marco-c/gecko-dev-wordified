@@ -10219,9 +10219,10 @@ memoryEntries
 sGlobalEntryTables
 -
 >
-RemoveAndForget
+Remove
 (
 memoryStorageID
+&
 memoryEntries
 )
 ;

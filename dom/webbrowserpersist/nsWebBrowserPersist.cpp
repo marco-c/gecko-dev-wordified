@@ -13845,9 +13845,10 @@ outputData
 ;
 mOutputMap
 .
-RemoveAndForget
+Remove
 (
 matchingKey
+&
 outputData
 )
 ;

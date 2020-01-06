@@ -11900,13 +11900,14 @@ sPluginInstanceList
 sPluginInstanceList
 -
 >
-RemoveAndForget
+Remove
 (
 (
 void
 *
 )
 mPluginHWND
+&
 tmp
 )
 ;

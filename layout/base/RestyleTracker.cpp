@@ -2913,9 +2913,10 @@ false
 }
 mPendingRestyles
 .
-RemoveAndForget
+Remove
 (
 aElement
+&
 aData
 )
 ;

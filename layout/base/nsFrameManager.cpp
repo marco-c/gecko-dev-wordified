@@ -4570,12 +4570,13 @@ UndisplayedNode
 >
 list
 ;
-RemoveAndForget
+Remove
 (
 GetApplicableParent
 (
 aParentContent
 )
+&
 list
 )
 ;

@@ -19521,9 +19521,10 @@ callback
 ;
 mPendingAnonymousTemporaryFiles
 .
-RemoveAndForget
+Remove
 (
 aID
+&
 callback
 )
 ;
