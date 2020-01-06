@@ -119,13 +119,6 @@ define
 mozilla_layers_AxisPhysicsModel_h
 #
 include
-"
-AxisPhysicsModel
-.
-h
-"
-#
-include
 <
 sys
 /
