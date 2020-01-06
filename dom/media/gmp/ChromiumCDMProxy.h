@@ -155,9 +155,6 @@ class
 DecryptJob
 ;
 class
-ChromiumCDMCallbackProxy
-;
-class
 ChromiumCDMProxy
 :
 public
@@ -367,7 +364,6 @@ dom
 :
 MediaKeyMessageType
 aMessageType
-const
 nsTArray
 <
 uint8_t
@@ -618,12 +614,6 @@ RefPtr
 AbstractThread
 >
 mGMPThread
-;
-UniquePtr
-<
-ChromiumCDMCallbackProxy
->
-mCallback
 ;
 }
 ;
