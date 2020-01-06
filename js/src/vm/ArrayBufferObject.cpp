@@ -4883,11 +4883,6 @@ OwnsData
 cx
 -
 >
-zone
-(
-)
--
->
 updateMallocCounter
 (
 wasmBuf
@@ -5259,11 +5254,6 @@ dataPointer
 )
 ;
 cx
--
->
-zone
-(
-)
 -
 >
 updateMallocCounter
@@ -6797,11 +6787,6 @@ allocatedBytes
 )
 ;
 cx
--
->
-zone
-(
-)
 -
 >
 updateMallocCounter

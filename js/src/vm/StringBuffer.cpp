@@ -604,12 +604,7 @@ zone
 .
 *
 /
-str
--
->
-zone
-(
-)
+cx
 -
 >
 updateMallocCounter
