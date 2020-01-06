@@ -547,7 +547,7 @@ inline
 void
 EmitBaselineTailCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler
@@ -790,7 +790,7 @@ inline
 void
 EmitIonTailCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler
@@ -996,7 +996,7 @@ inline
 void
 EmitBaselineCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler

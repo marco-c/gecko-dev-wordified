@@ -4691,6 +4691,14 @@ JitCode
 code
 )
 ;
+inline
+uint32_t
+callJit
+(
+ImmPtr
+code
+)
+;
 /
 /
 The
