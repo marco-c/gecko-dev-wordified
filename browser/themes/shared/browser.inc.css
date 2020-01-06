@@ -58,6 +58,9 @@ MPL
 /
 %
 ifdef
+MOZ_PHOTON_THEME
+%
+ifdef
 CAN_DRAW_IN_TITLEBAR
 /
 *
@@ -139,6 +142,8 @@ start
 40px
 ;
 }
+%
+endif
 /
 *
 Go
