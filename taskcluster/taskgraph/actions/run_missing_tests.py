@@ -492,6 +492,12 @@ slugid
 (
 )
 task_def
+parameters
+[
+'
+level
+'
+]
 )
     
 logger
