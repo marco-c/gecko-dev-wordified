@@ -147,17 +147,6 @@ include
 "
 mozilla
 /
-dom
-/
-AudioChannelBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

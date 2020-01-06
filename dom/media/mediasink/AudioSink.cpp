@@ -317,11 +317,6 @@ const
 AudioInfo
 &
 aInfo
-dom
-:
-:
-AudioChannel
-aChannel
 )
 :
 mStartTime
@@ -331,10 +326,6 @@ aStartTime
 mInfo
 (
 aInfo
-)
-mChannel
-(
-aChannel
 )
 mPlaying
 (
@@ -1280,7 +1271,6 @@ Init
 mOutputChannels
 channelMap
 mOutputRate
-mChannel
 )
 ;
 if
