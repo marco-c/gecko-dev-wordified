@@ -140,6 +140,9 @@ trait
 HasFFI
 :
 Sized
++
+'
+static
 {
 /
 /
