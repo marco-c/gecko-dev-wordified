@@ -84,7 +84,11 @@ wrap
 wrap
 ;
 }
+form
+>
 label
+form
+>
 p
 {
 margin
@@ -94,6 +98,8 @@ margin
 0
 .
 5em
+!
+important
 ;
 }
 label
