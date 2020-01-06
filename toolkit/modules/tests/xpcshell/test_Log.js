@@ -5293,8 +5293,8 @@ includes
 "
 SyntaxError
 :
-missing
-;
+unexpected
+token
 "
 )
 )
