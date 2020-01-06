@@ -25,10 +25,10 @@ inline
 import
 inline
 def
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 :
     
@@ -44,8 +44,8 @@ is
 a
 successful
 WebDriver
-response
     
+response
 describing
 an
 element
@@ -54,33 +54,34 @@ and
 that
 the
 referenced
+    
 element
 matches
 the
-    
 element
 returned
 by
 the
 activeElement
+    
 attribute
 of
 the
 current
 browsing
-    
 context
 '
 s
 active
 document
 .
+    
 "
 "
 "
     
 assert
-result
+response
 .
 status
 =
@@ -98,12 +99,11 @@ return
 document
 .
 activeElement
-;
 "
 )
     
 if
-result
+response
 .
 body
 [
@@ -126,7 +126,7 @@ else
 assert_same_element
 (
 session
-result
+response
 .
 body
 [
@@ -186,7 +186,7 @@ close
 (
 )
     
-result
+response
 =
 session
 .
@@ -216,7 +216,7 @@ session_id
     
 assert_error
 (
-result
+response
 "
 no
 such
@@ -395,7 +395,7 @@ dismiss1
 "
 )
     
-result
+response
 =
 session
 .
@@ -406,7 +406,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -423,10 +422,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -474,7 +473,7 @@ dismiss2
 "
 )
     
-result
+response
 =
 session
 .
@@ -485,7 +484,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -502,10 +500,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -551,7 +549,7 @@ dismiss3
 "
 )
     
-result
+response
 =
 session
 .
@@ -562,7 +560,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -579,10 +576,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -777,7 +774,7 @@ accept1
 "
 )
     
-result
+response
 =
 session
 .
@@ -788,7 +785,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -805,10 +801,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -854,7 +850,7 @@ accept2
 "
 )
     
-result
+response
 =
 session
 .
@@ -865,7 +861,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -882,10 +877,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -930,7 +925,7 @@ accept3
 "
 )
     
-result
+response
 =
 session
 .
@@ -941,7 +936,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -958,10 +952,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 assert_dialog_handled
@@ -1144,7 +1138,7 @@ dismiss1
 "
 )
     
-result
+response
 =
 session
 .
@@ -1155,7 +1149,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -1174,7 +1167,7 @@ session_id
     
 assert_error
 (
-result
+response
 "
 unexpected
 alert
@@ -1224,7 +1217,7 @@ dismiss2
 "
 )
     
-result
+response
 =
 session
 .
@@ -1235,7 +1228,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -1254,7 +1246,7 @@ session_id
     
 assert_error
 (
-result
+response
 "
 unexpected
 alert
@@ -1306,7 +1298,7 @@ dismiss3
 "
 )
     
-result
+response
 =
 session
 .
@@ -1317,7 +1309,6 @@ send
 "
 GET
 "
-                                    
 "
 session
 /
@@ -1336,7 +1327,7 @@ session_id
     
 assert_error
 (
-result
+response
 "
 unexpected
 alert
@@ -1496,7 +1487,7 @@ body
 "
 )
     
-result
+response
 =
 session
 .
@@ -1523,10 +1514,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 def
 test_sucess_input
@@ -1596,7 +1587,7 @@ body
 "
 )
     
-result
+response
 =
 session
 .
@@ -1623,10 +1614,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 def
 test_sucess_input_non_interactable
@@ -1696,7 +1687,7 @@ body
 "
 )
     
-result
+response
 =
 session
 .
@@ -1723,10 +1714,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 def
 test_success_explicit_focus
@@ -1806,7 +1797,7 @@ focus
 "
 )
     
-result
+response
 =
 session
 .
@@ -1833,10 +1824,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 session
@@ -1865,7 +1856,7 @@ focus
 "
 )
     
-result
+response
 =
 session
 .
@@ -1892,10 +1883,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 session
@@ -1924,7 +1915,7 @@ focus
 "
 )
     
-result
+response
 =
 session
 .
@@ -1951,10 +1942,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 session
@@ -2009,7 +2000,7 @@ remove
 "
 )
     
-result
+response
 =
 session
 .
@@ -2036,10 +2027,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
     
 session
@@ -2066,7 +2057,7 @@ textarea
 "
 )
     
-result
+response
 =
 session
 .
@@ -2093,10 +2084,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 def
 test_success_iframe_content
@@ -2191,7 +2182,7 @@ focus
 "
 )
     
-result
+response
 =
 session
 .
@@ -2218,10 +2209,10 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
 def
 test_sucess_without_body
@@ -2263,7 +2254,7 @@ remove
 "
 )
     
-result
+response
 =
 session
 .
@@ -2290,8 +2281,8 @@ session
 session_id
 )
     
-assert_result_is_active_element
+assert_is_active_element
 (
 session
-result
+response
 )
