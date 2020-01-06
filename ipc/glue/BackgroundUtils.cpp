@@ -2110,6 +2110,12 @@ GetParentOuterWindowID
 aLoadInfo
 -
 >
+GetTopOuterWindowID
+(
+)
+aLoadInfo
+-
+>
 GetFrameOuterWindowID
 (
 )
@@ -2610,6 +2616,11 @@ outerWindowID
 loadInfoArgs
 .
 parentOuterWindowID
+(
+)
+loadInfoArgs
+.
+topOuterWindowID
 (
 )
 loadInfoArgs
