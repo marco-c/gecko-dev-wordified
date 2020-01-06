@@ -3244,14 +3244,8 @@ filter
 T
 :
 :
-new
+none
 (
-Vec
-:
-:
-new
-(
-)
 )
 MixBlendMode
 :

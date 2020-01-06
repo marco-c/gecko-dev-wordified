@@ -5824,7 +5824,9 @@ servo
 "
 derive
 (
+Deserialize
 HeapSizeOf
+Serialize
 )
 )
 ]
