@@ -1373,6 +1373,7 @@ nsHttpTransaction
 EligibleForThrottling
 (
 )
+const
 {
 return
 (
@@ -1469,7 +1470,7 @@ flag
 .
 Call
 to
-MoveActiveTransaction
+UpdateActiveTransaction
 /
 /
 would
@@ -1490,10 +1491,9 @@ ConnMgr
 )
 -
 >
-MoveActiveTransaction
+UpdateActiveTransaction
 (
 this
-isThrottling
 )
 ;
 if
@@ -3439,12 +3439,6 @@ ConnMgr
 AddActiveTransaction
 (
 this
-mClassOfService
-&
-nsIClassOfService
-:
-:
-Throttleable
 )
 ;
 }
@@ -5291,9 +5285,6 @@ ConnMgr
 ShouldStopReading
 (
 this
-EligibleForThrottling
-(
-)
 )
 )
 {
@@ -5894,12 +5885,6 @@ ConnMgr
 RemoveActiveTransaction
 (
 this
-mClassOfService
-&
-nsIClassOfService
-:
-:
-Throttleable
 )
 ;
 mActivated
