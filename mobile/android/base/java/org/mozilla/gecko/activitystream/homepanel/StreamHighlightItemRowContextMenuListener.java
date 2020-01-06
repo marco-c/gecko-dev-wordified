@@ -77,6 +77,13 @@ annotation
 NonNull
 ;
 import
+android
+.
+view
+.
+View
+;
+import
 org
 .
 mozilla
@@ -151,6 +158,8 @@ WebpageItemRow
 highlightItem
 int
 position
+View
+snackbarAnchor
 NonNull
 final
 String
