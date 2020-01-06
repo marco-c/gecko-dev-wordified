@@ -114,12 +114,6 @@ properties
 ComputedValues
 ;
 use
-servo_arc
-:
-:
-Arc
-;
-use
 std
 :
 :
@@ -406,10 +400,7 @@ ComputedValues
 new_style
 :
 &
-Arc
-<
 ComputedValues
->
 )
 -
 >

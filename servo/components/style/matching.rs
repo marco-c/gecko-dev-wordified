@@ -2281,10 +2281,7 @@ ComputedValues
 new_values
 :
 &
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option
@@ -2432,9 +2429,7 @@ self
 .
 compute_style_difference
 (
-&
 old_values
-&
 new_values
 pseudo
 )
@@ -2625,10 +2620,7 @@ ComputedValues
 new_values
 :
 &
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option
@@ -2648,9 +2640,7 @@ self
 .
 compute_style_difference
 (
-&
 old_values
-&
 new_values
 pseudo
 )
@@ -4457,10 +4447,7 @@ ComputedValues
 new_values
 :
 &
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option
@@ -5302,10 +5289,7 @@ ComputedValues
 new_values
 :
 &
-Arc
-<
 ComputedValues
->
 pseudo
 :
 Option
