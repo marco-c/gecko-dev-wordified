@@ -240,6 +240,9 @@ down
 never
 up
 .
+minTimes
+:
+12
 }
 {
 stack
