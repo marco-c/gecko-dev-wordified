@@ -857,6 +857,15 @@ Saio
 >
 mSaios
 ;
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+mPsshes
+;
 private
 :
 /
