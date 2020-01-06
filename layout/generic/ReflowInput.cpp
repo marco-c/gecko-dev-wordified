@@ -2641,6 +2641,17 @@ CurrentList
 )
 )
 {
+if
+(
+!
+childFrame
+-
+>
+IsTableColGroupFrame
+(
+)
+)
+{
 childFrame
 -
 >
@@ -2649,6 +2660,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
+}
 }
 }
 }
