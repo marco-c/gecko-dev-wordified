@@ -71,7 +71,7 @@ globals
 from
 ext
 -
-utils
+browser
 .
 js
 *
@@ -582,15 +582,6 @@ contextData
 extension
 )
 ;
-if
-(
-!
-root
-)
-{
-return
-;
-}
 const
 children
 =

@@ -85,7 +85,7 @@ globals
 from
 ext
 -
-utils
+browser
 .
 js
 *
