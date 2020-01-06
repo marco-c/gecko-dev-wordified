@@ -863,6 +863,13 @@ memoryBase
 )
 const
 ;
+WasmMemoryObject
+*
+memory
+(
+)
+const
+;
 size_t
 memoryLength
 (

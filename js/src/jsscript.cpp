@@ -5335,6 +5335,12 @@ ScopeKind
 :
 Module
 :
+case
+ScopeKind
+:
+:
+WasmInstance
+:
 MOZ_CRASH
 (
 "
