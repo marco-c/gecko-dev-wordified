@@ -10081,16 +10081,6 @@ enabled
 false
 )
 ;
-pref
-(
-"
-apz
-.
-highlight_checkerboarded_areas
-"
-false
-)
-;
 #
 if
 defined
