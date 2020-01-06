@@ -2147,9 +2147,6 @@ shared_context
 :
 &
 SharedStyleContext
-skip_applying_damage
-:
-bool
 damage
 :
 &
@@ -2218,10 +2215,6 @@ new_values
 pseudo
 )
 ;
-if
-!
-skip_applying_damage
-{
 *
 damage
 |
@@ -2230,7 +2223,6 @@ difference
 .
 damage
 ;
-}
 debug
 !
 (
@@ -3891,11 +3883,6 @@ accumulate_damage_for
 context
 .
 shared
-data
-.
-skip_applying_damage
-(
-)
 &
 mut
 data
@@ -4024,11 +4011,6 @@ accumulate_damage_for
 context
 .
 shared
-data
-.
-skip_applying_damage
-(
-)
 &
 mut
 data
