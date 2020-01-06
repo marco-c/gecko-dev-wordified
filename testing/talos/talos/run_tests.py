@@ -1048,17 +1048,21 @@ develop
 '
 ]
 or
+'
+try
+'
+in
+str
+.
+lower
+(
 browser_config
 [
 '
 branch_name
 '
 ]
-=
-=
-'
-Try
-'
+)
 :
         
 browser_config
