@@ -613,7 +613,7 @@ self
 )
 :
         
-rect
+maximize_resp
 =
 self
 .
@@ -627,30 +627,30 @@ self
 .
 assert_window_rect
 (
-rect
+maximize_resp
 )
         
-size
+window_rect_resp
 =
 self
 .
 marionette
 .
-window_size
+window_rect
         
 self
 .
 assertEqual
 (
-size
-rect
+maximize_resp
+window_rect_resp
 )
         
 self
 .
 assert_window_maximized
 (
-size
+maximize_resp
 )
     
 def
