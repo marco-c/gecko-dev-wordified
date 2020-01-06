@@ -3400,7 +3400,7 @@ OutputAbsoluteLinks
 nsIDocumentEncoder
 :
 :
-OutputEncodeW3CEntities
+OutputEncodeBasicEntities
 )
 ;
 NS_ENSURE_SUCCESS
