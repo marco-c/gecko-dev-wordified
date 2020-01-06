@@ -16396,7 +16396,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =

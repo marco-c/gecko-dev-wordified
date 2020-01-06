@@ -1270,7 +1270,7 @@ isJit
 )
 )
 {
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 iter

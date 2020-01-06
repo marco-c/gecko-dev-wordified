@@ -13312,7 +13312,7 @@ script
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 jitIter
 (
 cx

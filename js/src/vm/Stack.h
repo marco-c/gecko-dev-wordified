@@ -199,15 +199,6 @@ Rooting
 h
 "
 #
-include
-"
-jit
-/
-JitFrameIterator
-.
-h
-"
-#
 ifdef
 CHECK_OSIPOINT_REGISTERS
 #
@@ -225,6 +216,15 @@ for
 RegisterDump
 #
 endif
+#
+include
+"
+jit
+/
+JSJitFrameIter
+.
+h
+"
 #
 include
 "
@@ -9983,7 +9983,7 @@ for
 all
 newly
 constructed
-JitFrameIterators
+JSJitFrameIters
 to
 /
 /
@@ -10441,7 +10441,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 size_t
@@ -11450,7 +11450,7 @@ them
 /
 JitFrameIter
 uses
-JitFrameIterator
+JSJitFrameIter
 to
 iterate
 over
@@ -11638,7 +11638,7 @@ MaybeOneOf
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 wasm
 :
 :
@@ -11738,7 +11738,7 @@ constructed
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -11747,7 +11747,7 @@ JitFrameIterator
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 asJSJit
 (
@@ -11761,7 +11761,7 @@ ref
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -11771,7 +11771,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 asJSJit
 (
@@ -11786,7 +11786,7 @@ ref
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -12012,7 +12012,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 (
@@ -13786,7 +13786,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 jsJitFrame
 (
@@ -13827,7 +13827,7 @@ asWasm
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 jsJitFrame
 (

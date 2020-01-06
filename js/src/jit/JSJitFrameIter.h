@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_JitFrameIterator_h
+jit_JSJitFrameIter_h
 #
 define
-jit_JitFrameIterator_h
+jit_JSJitFrameIter_h
 #
 include
 "
@@ -545,7 +545,7 @@ cx
 /
 /
 A
-JitFrameIterator
+JSJitFrameIter
 can
 iterate
 over
@@ -624,7 +624,7 @@ use
 OnlyJSJitFrameIter
 .
 class
-JitFrameIterator
+JSJitFrameIter
 {
 protected
 :
@@ -672,7 +672,7 @@ the
 class
 .
 explicit
-JitFrameIterator
+JSJitFrameIter
 (
 const
 JitActivation
@@ -681,7 +681,7 @@ activation
 )
 ;
 explicit
-JitFrameIterator
+JSJitFrameIter
 (
 JSContext
 *
@@ -693,7 +693,7 @@ cx
 Used
 only
 by
-DebugModeOSRVolatileJSJitFrameIter
+DebugModeOSRVolatileJitFrameIter
 .
 void
 exchangeReturnAddressIfMatch
@@ -1984,7 +1984,7 @@ JitActivation
 activation
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame
 ;
@@ -2043,7 +2043,7 @@ JitActivation
 *
 activation
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame
 FallbackConsequence
@@ -2976,7 +2976,7 @@ frames
 SnapshotIterator
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 const
@@ -3439,7 +3439,7 @@ class
 InlineFrameIterator
 {
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame_
 ;
@@ -3681,7 +3681,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
@@ -4828,13 +4828,13 @@ void
 resetOn
 (
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 (
@@ -4928,6 +4928,6 @@ js
 endif
 /
 *
-jit_JitFrameIterator_h
+jit_JSJitFrameIter_h
 *
 /

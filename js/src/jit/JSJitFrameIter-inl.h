@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-jit_JitFrameIterator_inl_h
+jit_JSJitFrameIter_inl_h
 #
 define
-jit_JitFrameIterator_inl_h
+jit_JSJitFrameIter_inl_h
 #
 include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 .
 h
 "
@@ -159,7 +159,7 @@ jit
 inline
 uint8_t
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 returnAddress
@@ -188,7 +188,7 @@ returnAddress
 }
 inline
 FrameType
-JitFrameIterator
+JSJitFrameIter
 :
 :
 prevType
@@ -218,7 +218,7 @@ prevType
 inline
 ExitFrameLayout
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 exitFrame
@@ -245,7 +245,7 @@ fp
 }
 inline
 size_t
-JitFrameIterator
+JSJitFrameIter
 :
 :
 prevFrameLocalSize
@@ -325,7 +325,7 @@ calleeToken
 inline
 BaselineFrame
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 baselineFrame
@@ -370,7 +370,7 @@ typename
 T
 >
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 isExitFrameLayout
@@ -416,6 +416,6 @@ js
 endif
 /
 *
-jit_JitFrameIterator_inl_h
+jit_JSJitFrameIter_inl_h
 *
 /

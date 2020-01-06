@@ -3575,7 +3575,7 @@ JitActivation
 *
 activation
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 bool

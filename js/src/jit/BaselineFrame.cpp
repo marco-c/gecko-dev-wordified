@@ -257,7 +257,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frameIterator
 )
@@ -1022,7 +1022,7 @@ epilogue
 calls
 )
 .
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx

@@ -591,7 +591,7 @@ JSContext
 cx
 )
 {
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx

@@ -131,7 +131,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitFrames
 .
 h
 "
@@ -140,7 +140,7 @@ include
 "
 jit
 /
-JitFrames
+JSJitFrameIter
 .
 h
 "

@@ -7945,7 +7945,7 @@ iter
 )
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =

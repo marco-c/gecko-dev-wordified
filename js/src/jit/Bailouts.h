@@ -126,7 +126,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitFrames
 .
 h
 "
@@ -135,7 +135,7 @@ include
 "
 jit
 /
-JitFrames
+JSJitFrameIter
 .
 h
 "
@@ -1084,7 +1084,7 @@ are
 needed
 for
 the
-JitFrameIterator
+JSJitFrameIter
 .
 class
 BailoutFrameInfo
@@ -1150,7 +1150,7 @@ JitActivationIterator
 &
 activations
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )

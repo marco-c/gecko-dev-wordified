@@ -4139,7 +4139,7 @@ actIter
 cx
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 it
 (
 actIter

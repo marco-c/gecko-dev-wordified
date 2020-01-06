@@ -359,7 +359,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 -
 inl
 .
@@ -1821,7 +1821,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 jsbytecode
@@ -1909,7 +1909,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 jsbytecode
@@ -1939,7 +1939,7 @@ JSTryNote
 *
 tn
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 uint8_t
@@ -2025,7 +2025,7 @@ JSTryNote
 *
 tn
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 EnvironmentIter
@@ -2356,7 +2356,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 jsbytecode
@@ -2466,7 +2466,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 EnvironmentIter
@@ -3081,7 +3081,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 ResumeFromException
@@ -3956,7 +3956,7 @@ stack
 Since
 /
 /
-JitFrameIterators
+JSJitFrameIter
 cache
 the
 previous
@@ -4029,7 +4029,7 @@ isJSJit
 iter
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =
@@ -4980,7 +4980,7 @@ return
 #
 ifdef
 DEBUG
-JitFrameIterator
+JSJitFrameIter
 iter
 (
 cx
@@ -5309,7 +5309,7 @@ uintptr_t
 ReadAllocation
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 const
@@ -5384,7 +5384,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -5740,7 +5740,7 @@ void
 WriteAllocation
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 const
@@ -5821,7 +5821,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -6324,7 +6324,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -6574,7 +6574,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -6914,7 +6914,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -7019,7 +7019,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -7348,7 +7348,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -8868,7 +8868,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -9029,7 +9029,7 @@ trc
 ;
 for
 (
-JitFrameIterator
+JSJitFrameIter
 frames
 (
 activation
@@ -10535,7 +10535,7 @@ SnapshotIterator
 SnapshotIterator
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 const
@@ -12963,7 +12963,7 @@ the
 beginning
 of
 the
-JitFrameIterator
+JSJitFrameIter
 .
 This
 /
@@ -13599,7 +13599,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
@@ -13748,7 +13748,7 @@ InlineFrameIterator
 resetOn
 (
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
@@ -18032,7 +18032,7 @@ iter
 )
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frames
 =

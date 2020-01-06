@@ -2332,7 +2332,7 @@ invalidated
 the
 IonScript
 .
-JitFrameIterator
+JSJitFrameIter
 :
 :
 ionScript
@@ -2350,7 +2350,7 @@ use
 that
 instead
 .
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx
@@ -7710,7 +7710,7 @@ activations
 cx
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 activations

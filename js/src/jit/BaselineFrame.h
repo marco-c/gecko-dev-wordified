@@ -2169,7 +2169,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )

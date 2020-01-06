@@ -726,7 +726,7 @@ struct
 BaselineStackBuilder
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter_
 ;
@@ -778,7 +778,7 @@ framePushed_
 BaselineStackBuilder
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 size_t
@@ -2984,7 +2984,7 @@ JitActivation
 activation_
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter_
 ;
@@ -2996,7 +2996,7 @@ JitActivation
 *
 activation
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 )
@@ -12467,7 +12467,7 @@ JitActivation
 *
 activation
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 bool
@@ -15332,7 +15332,7 @@ currentlyRunningInJit
 )
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 iter
 (
 cx
@@ -15798,7 +15798,7 @@ outerFp
 )
 )
 {
-JitFrameIterator
+JSJitFrameIter
 iter
 (
 cx

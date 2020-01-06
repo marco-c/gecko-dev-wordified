@@ -146,7 +146,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 .
 h
 "
@@ -718,7 +718,7 @@ JitFrameIter
 that
 updates
 internal
-JitFrameIterator
+JSJitFrameIter
 in
 case
 of
