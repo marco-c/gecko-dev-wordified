@@ -641,6 +641,12 @@ IsDataURIUniqueOpaqueOrigin
 (
 )
 ;
+static
+bool
+BlockToplevelDataUriNavigations
+(
+)
+;
 /
 /
 Used
@@ -1128,6 +1134,10 @@ mNetworkNotifyChanged
 static
 bool
 sIsDataURIUniqueOpaqueOrigin
+;
+static
+bool
+sBlockToplevelDataUriNavigations
 ;
 uint32_t
 mTotalRequests
