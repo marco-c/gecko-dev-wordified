@@ -7874,6 +7874,9 @@ disallowInheritPrincipal
 :
 true
 referrerURI
+forceAllowDataURI
+:
+true
 }
 )
 ;

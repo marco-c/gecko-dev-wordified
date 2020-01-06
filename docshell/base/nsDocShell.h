@@ -2601,6 +2601,8 @@ bool
 aLoadReplace
 bool
 aLoadFromExternal
+bool
+aForceAllowDataURI
 nsIURI
 *
 aReferrer

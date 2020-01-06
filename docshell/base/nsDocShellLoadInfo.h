@@ -222,6 +222,9 @@ bool
 mPrincipalIsExplicit
 ;
 bool
+mForceAllowDataURI
+;
+bool
 mSendReferrer
 ;
 nsDocShellInfoReferrerPolicy
