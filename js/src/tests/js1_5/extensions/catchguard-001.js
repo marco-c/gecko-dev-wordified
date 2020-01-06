@@ -93,13 +93,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 EXCEPTION_DATA
 =
@@ -306,13 +299,6 @@ PASS
 '
 '
 '
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

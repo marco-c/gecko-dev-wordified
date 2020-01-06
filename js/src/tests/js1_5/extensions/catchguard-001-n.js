@@ -108,13 +108,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 EXCEPTION_DATA
 =
@@ -200,13 +193,6 @@ thrown
 an
 exception
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

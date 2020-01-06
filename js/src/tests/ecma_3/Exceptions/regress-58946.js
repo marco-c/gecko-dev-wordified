@@ -210,13 +210,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -267,13 +260,6 @@ reportCompare
 expect
 actual
 stat
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

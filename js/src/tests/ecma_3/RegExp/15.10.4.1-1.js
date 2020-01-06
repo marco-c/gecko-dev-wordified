@@ -835,13 +835,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -903,13 +896,6 @@ status
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }
 function
 getStatus

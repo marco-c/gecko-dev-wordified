@@ -365,13 +365,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -454,13 +447,6 @@ summary
 return
 value
 10
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

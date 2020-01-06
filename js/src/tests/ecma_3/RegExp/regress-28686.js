@@ -93,13 +93,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printBugNumber
 (
 28686
@@ -156,13 +149,6 @@ str
 replace
 failed
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

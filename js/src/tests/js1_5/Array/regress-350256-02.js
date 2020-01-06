@@ -383,13 +383,6 @@ test
 length
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 var
 a
 =
@@ -540,13 +533,6 @@ reportCompare
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

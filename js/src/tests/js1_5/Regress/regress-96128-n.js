@@ -523,13 +523,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -563,13 +556,6 @@ obj
 new
 objRecurse
 (
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

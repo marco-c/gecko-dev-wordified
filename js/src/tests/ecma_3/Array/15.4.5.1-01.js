@@ -357,13 +357,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printStatus
 (
 summary
@@ -488,13 +481,6 @@ reportCompare
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

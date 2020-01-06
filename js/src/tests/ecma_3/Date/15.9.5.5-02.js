@@ -359,13 +359,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -673,13 +666,6 @@ summary
 :
 check
 toLocaleString
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

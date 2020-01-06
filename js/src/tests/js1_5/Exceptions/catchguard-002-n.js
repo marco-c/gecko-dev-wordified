@@ -108,13 +108,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 EXCEPTION_DATA
 =
@@ -163,13 +156,6 @@ reportCompare
 expect
 actual
 DESCRIPTION
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

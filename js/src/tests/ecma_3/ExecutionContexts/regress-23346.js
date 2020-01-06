@@ -131,13 +131,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -179,13 +172,6 @@ see
 Function
 .
 prototype
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

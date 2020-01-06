@@ -525,13 +525,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -1934,13 +1927,6 @@ checkInvalid
 .
 500Z
 "
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

@@ -109,13 +109,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -140,13 +133,6 @@ functions
 were
 defined
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

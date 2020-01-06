@@ -837,13 +837,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -870,13 +863,6 @@ testIllegalRegExps
 (
 illegalpatterns
 illegalflags
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

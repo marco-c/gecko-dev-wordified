@@ -198,13 +198,6 @@ No
 Crash
 '
 ;
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER

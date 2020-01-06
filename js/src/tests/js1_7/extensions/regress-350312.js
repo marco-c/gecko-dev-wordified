@@ -359,13 +359,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -627,13 +620,6 @@ reportCompare
 expectexcp
 actualexcp
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

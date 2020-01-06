@@ -87,13 +87,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printBugNumber
 (
 24712
@@ -174,13 +167,6 @@ exec
 returned
 null
 '
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

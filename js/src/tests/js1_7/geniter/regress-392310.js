@@ -354,13 +354,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -488,13 +481,6 @@ undefined
 to
 newborn
 generator
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

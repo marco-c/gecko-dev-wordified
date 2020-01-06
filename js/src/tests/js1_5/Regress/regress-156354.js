@@ -689,13 +689,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -739,11 +732,4 @@ i
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }

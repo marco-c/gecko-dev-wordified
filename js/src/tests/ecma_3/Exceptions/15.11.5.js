@@ -375,13 +375,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printStatus
 (
 summary
@@ -462,13 +455,6 @@ not
 a
 constructor
 "
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

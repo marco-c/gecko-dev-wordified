@@ -384,13 +384,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -495,13 +488,6 @@ start
 +
 '
 seconds
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

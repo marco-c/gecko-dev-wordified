@@ -202,13 +202,6 @@ expect
 '
 '
 ;
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER

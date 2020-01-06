@@ -352,13 +352,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -411,13 +404,6 @@ compareSource
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

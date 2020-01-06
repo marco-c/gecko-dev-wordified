@@ -399,13 +399,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -522,13 +515,6 @@ checkTest
 )
 '
 10000
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

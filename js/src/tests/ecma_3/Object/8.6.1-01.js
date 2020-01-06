@@ -194,14 +194,6 @@ printStatus
 summary
 )
 ;
-enterFunc
-(
-String
-(
-BUGNUMBER
-)
-)
-;
 /
 /
 should

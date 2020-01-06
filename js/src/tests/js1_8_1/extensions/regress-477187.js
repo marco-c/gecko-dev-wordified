@@ -375,13 +375,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -502,11 +495,4 @@ while
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }

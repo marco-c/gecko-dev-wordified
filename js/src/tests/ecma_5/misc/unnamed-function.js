@@ -346,13 +346,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -477,11 +470,4 @@ SyntaxError
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }

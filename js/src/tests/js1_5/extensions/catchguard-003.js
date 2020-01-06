@@ -93,13 +93,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 EXCEPTION_DATA
 =
@@ -376,13 +369,6 @@ Common
 Scope
 test
 '
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

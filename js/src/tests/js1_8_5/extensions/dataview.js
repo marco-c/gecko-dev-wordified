@@ -499,13 +499,6 @@ v
 buffer
 ;
 }
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -18460,13 +18453,6 @@ reportCompare
 '
 done
 .
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

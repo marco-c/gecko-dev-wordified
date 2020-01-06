@@ -367,13 +367,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -541,11 +534,4 @@ prop
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }

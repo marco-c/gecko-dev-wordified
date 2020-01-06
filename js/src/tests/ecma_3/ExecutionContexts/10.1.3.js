@@ -140,13 +140,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -181,13 +174,6 @@ f
 "
 Declaration
 precedence
-test
-"
-)
-;
-exitFunc
-(
-"
 test
 "
 )

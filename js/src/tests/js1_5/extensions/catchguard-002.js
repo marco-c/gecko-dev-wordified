@@ -93,13 +93,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 EXCEPTION_DATA
 =
@@ -240,13 +233,6 @@ Basic
 catchguard
 test
 '
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

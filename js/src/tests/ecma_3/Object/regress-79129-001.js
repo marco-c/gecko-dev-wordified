@@ -394,13 +394,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -429,13 +422,6 @@ Crash
 Should
 not
 crash
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;
