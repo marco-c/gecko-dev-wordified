@@ -15009,6 +15009,16 @@ pref
 "
 dom
 .
+disable_window_showModalDialog
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 allow_scripts_to_close_windows
 "
 false
@@ -67048,7 +67058,7 @@ HTTPS
 .
 #
 ifdef
-RELEASE_OR_BETA
+RELEASE
 /
 /
 Don
@@ -67180,7 +67190,7 @@ channel
 to
 timeout
 in
-3
+2
 seconds
 if
 we
@@ -67203,7 +67213,7 @@ mixed_content
 .
 hsts_priming_request_timeout
 "
-3000
+2000
 )
 ;
 /
