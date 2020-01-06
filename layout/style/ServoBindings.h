@@ -2472,14 +2472,9 @@ Gecko_CalcStyleDifference
 (
 nsStyleContext
 *
-old_style_from_frame
-const
-mozilla
-:
-:
-ServoStyleContext
-*
-new_style
+oldstyle
+ServoComputedValuesBorrowed
+newstyle
 bool
 *
 any_style_changed
