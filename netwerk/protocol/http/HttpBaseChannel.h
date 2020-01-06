@@ -1811,6 +1811,15 @@ aTopWindowURI
 override
 ;
 NS_IMETHOD
+SetTopWindowURIIfUnknown
+(
+nsIURI
+*
+aTopWindowURI
+)
+override
+;
+NS_IMETHOD
 GetProxyURI
 (
 nsIURI
