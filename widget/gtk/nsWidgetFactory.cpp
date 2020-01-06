@@ -457,10 +457,6 @@ nsWindow
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsChildWindow
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
 nsTransferable
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -1106,7 +1102,7 @@ nsWindowConstructor
 kNS_CHILD_CID
 false
 nullptr
-nsChildWindowConstructor
+nsWindowConstructor
 }
 {
 &

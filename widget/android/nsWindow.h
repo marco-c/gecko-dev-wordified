@@ -253,6 +253,7 @@ ipc
 }
 class
 nsWindow
+final
 :
 public
 nsBaseWidget
