@@ -2883,7 +2883,7 @@ Step
 .
 2
 .
-basic_fetch
+scheme_fetch
 (
 &
 url
@@ -3128,11 +3128,11 @@ org
 #
 concept
 -
-basic
+scheme
 -
 fetch
 fn
-basic_fetch
+scheme_fetch
 (
 url
 :

@@ -2002,6 +2002,7 @@ AccessControlRequestMethod
 assert
 !
 (
+!
 request
 .
 headers
@@ -2433,6 +2434,7 @@ AccessControlRequestMethod
 assert
 !
 (
+!
 request
 .
 headers
@@ -2947,6 +2949,7 @@ AccessControlRequestMethod
 assert
 !
 (
+!
 request
 .
 headers

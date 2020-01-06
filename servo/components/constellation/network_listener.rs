@@ -746,6 +746,15 @@ final_url
 clone
 (
 )
+location_url
+:
+metadata
+.
+location_url
+.
+clone
+(
+)
 headers
 :
 headers
