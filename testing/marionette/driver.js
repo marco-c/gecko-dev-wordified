@@ -14366,8 +14366,8 @@ prototype
 .
 clickElement
 =
-async
 function
+*
 (
 cmd
 resp
@@ -14436,7 +14436,7 @@ win
 }
 )
 ;
-await
+yield
 interaction
 .
 clickElement
@@ -14661,7 +14661,7 @@ parameters
 }
 )
 ;
-await
+yield
 click
 ;
 break
