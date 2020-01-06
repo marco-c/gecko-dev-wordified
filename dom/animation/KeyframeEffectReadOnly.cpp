@@ -2844,7 +2844,6 @@ mTarget
 >
 mElement
 aPresContext
-nullptr
 aPseudoType
 aComputedStyle
 )

@@ -4189,7 +4189,6 @@ GetBaseContextForElement
 (
 aElement
 presContext
-aPseudo
 pseudoType
 result
 -
@@ -4378,7 +4377,6 @@ GetBaseContextForElement
 (
 aElement
 presContext
-aPseudo
 pseudoType
 result
 )

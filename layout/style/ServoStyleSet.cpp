@@ -7033,9 +7033,6 @@ aElement
 nsPresContext
 *
 aPresContext
-nsAtom
-*
-aPseudoTag
 CSSPseudoElementType
 aPseudoType
 const
