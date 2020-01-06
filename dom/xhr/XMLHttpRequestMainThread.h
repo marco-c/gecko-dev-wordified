@@ -1157,6 +1157,7 @@ eRequest
 eUnreachable
 eChannelOpen
 eRedirect
+eTerminated
 ENUM_MAX
 }
 ;
@@ -3644,6 +3645,11 @@ channels
 /
 void
 CloseRequest
+(
+)
+;
+void
+TerminateOngoingFetch
 (
 )
 ;
