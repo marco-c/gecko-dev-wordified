@@ -402,7 +402,7 @@ mTwoBytesString
 size_t
 mLength
 ;
-uint32_t
+PLDHashNumber
 mHash
 ;
 }
