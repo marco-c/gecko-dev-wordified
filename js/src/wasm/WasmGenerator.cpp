@@ -6802,6 +6802,9 @@ codeRangeIndices
 elems
 .
 elemCodeRangeIndices
+(
+tier_
+)
 ;
 MOZ_ASSERT
 (
@@ -7129,6 +7132,9 @@ back
 )
 .
 elemCodeRangeIndices
+(
+tier_
+)
 =
 Move
 (
