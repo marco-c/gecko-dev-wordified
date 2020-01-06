@@ -775,9 +775,6 @@ getMmaSenderId
 )
 {
 return
-"
-"
-+
 MmaConstants
 .
 MOZ_MMA_SENDER_ID
