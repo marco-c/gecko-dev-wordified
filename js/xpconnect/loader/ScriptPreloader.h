@@ -573,6 +573,13 @@ nsresult
 >
 InitCacheInternal
 (
+JS
+:
+:
+HandleObject
+scope
+=
+nullptr
 )
 ;
 public
@@ -2601,6 +2608,13 @@ DecodeNextBatch
 (
 size_t
 chunkSize
+JS
+:
+:
+HandleObject
+scope
+=
+nullptr
 )
 ;
 static
