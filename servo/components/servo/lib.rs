@@ -1682,6 +1682,11 @@ mut
 webrender
 webrender_document
 webrender_api_sender
+window
+.
+gl
+(
+)
 )
 ;
 /
@@ -3475,6 +3480,15 @@ webrender_api
 :
 :
 RenderApiSender
+window_gl
+:
+Rc
+<
+gl
+:
+:
+Gl
+>
 )
 -
 >
@@ -3704,6 +3718,7 @@ WebGLThreads
 new
 (
 gl_factory
+window_gl
 webrender_api_sender
 .
 clone
