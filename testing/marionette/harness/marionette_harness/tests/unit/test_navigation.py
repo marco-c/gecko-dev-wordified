@@ -3468,27 +3468,6 @@ run_bfcache_test
 test_pages
 )
     
-skip
-(
-"
-Causes
-crashes
-for
-JS
-GC
-(
-bug
-1344863
-)
-and
-a11y
-(
-bug
-1344868
-)
-"
-)
-    
 def
 test_frameset
 (
