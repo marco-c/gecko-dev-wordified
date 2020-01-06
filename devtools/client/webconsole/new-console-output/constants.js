@@ -201,6 +201,11 @@ SELECT_NETWORK_MESSAGE_TAB
 "
 SELECT_NETWORK_MESSAGE_TAB
 "
+PERSIST_TOGGLE
+:
+"
+PERSIST_TOGGLE
+"
 }
 ;
 const
@@ -315,6 +320,15 @@ webconsole
 ui
 .
 filterbar
+"
+PERSIST
+:
+"
+devtools
+.
+webconsole
+.
+persistlog
 "
 }
 }
