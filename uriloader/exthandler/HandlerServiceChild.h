@@ -15,6 +15,9 @@ PHandlerServiceChild
 .
 h
 "
+namespace
+mozilla
+{
 class
 HandlerServiceChild
 final
@@ -50,5 +53,10 @@ HandlerServiceChild
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
