@@ -141,15 +141,6 @@ include
 "
 mozilla
 /
-LinkedList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Queue
 .
 h
