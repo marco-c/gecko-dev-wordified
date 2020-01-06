@@ -124,6 +124,12 @@ NotLeaf
 )
 FRAME_ID
 (
+nsCheckboxRadioFrame
+CheckboxRadio
+Leaf
+)
+FRAME_ID
+(
 nsColorControlFrame
 ColorControl
 Leaf
@@ -199,12 +205,6 @@ FRAME_ID
 nsFlexContainerFrame
 FlexContainer
 NotLeaf
-)
-FRAME_ID
-(
-nsFormControlFrame
-FormControl
-Leaf
 )
 FRAME_ID
 (

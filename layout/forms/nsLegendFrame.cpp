@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 .
 h
 "
@@ -249,7 +249,7 @@ nsIFrame
 aDestructRoot
 )
 {
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey
@@ -349,7 +349,7 @@ mState
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey

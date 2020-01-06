@@ -24105,12 +24105,12 @@ sInputData
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_CHECKBOX
-NS_NewFormControlFrame
+NS_NewCheckboxRadioFrame
 )
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_RADIO
-NS_NewFormControlFrame
+NS_NewCheckboxRadioFrame
 )
 SIMPLE_INT_CREATE
 (

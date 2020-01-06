@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 .
 h
 "
@@ -4027,7 +4027,7 @@ aAfter
 nsRect
 screen
 =
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 GetUsableScreenRect
@@ -9544,7 +9544,7 @@ Revoke
 (
 )
 ;
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey
