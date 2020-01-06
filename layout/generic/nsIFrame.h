@@ -365,6 +365,13 @@ nsChangeHint
 h
 "
 #
+include
+"
+nsStyleContextInlines
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
