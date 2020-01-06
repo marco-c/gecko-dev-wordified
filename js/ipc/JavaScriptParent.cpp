@@ -823,10 +823,17 @@ GetIncumbentGlobal
 (
 )
 ;
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 jsGlobal
-=
+(
+cx
 global
 ?
 global
@@ -837,6 +844,7 @@ GetGlobalJSObject
 )
 :
 nullptr
+)
 ;
 if
 (

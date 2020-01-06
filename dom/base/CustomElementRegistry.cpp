@@ -7448,8 +7448,14 @@ nsAtom
 &
 &
 aObservedAttributes
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aPrototype
 LifecycleCallbacks
 *
