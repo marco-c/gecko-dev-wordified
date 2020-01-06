@@ -2701,6 +2701,14 @@ if
 mProdTex
 )
 {
+const
+ScopedBindFramebuffer
+bindFB
+(
+mGL
+mInteropFB
+)
+;
 mGL
 -
 >
@@ -2712,7 +2720,6 @@ BlitHelper
 DrawBlitTextureToFramebuffer
 (
 mProdTex
-mInteropFB
 mSize
 mSize
 )

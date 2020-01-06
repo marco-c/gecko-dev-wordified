@@ -207,6 +207,7 @@ N
 MOZ_IMPLICIT
 HeapCopyOfStackArray
 (
+const
 ElemType
 (
 &

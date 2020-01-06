@@ -4137,11 +4137,6 @@ BlitImageToFramebuffer
 (
 mImage
 destSize
-scopedFB
-.
-FB
-(
-)
 dstOrigin
 )
 )
