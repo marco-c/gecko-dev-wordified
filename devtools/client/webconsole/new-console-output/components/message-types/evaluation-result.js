@@ -215,13 +215,6 @@ PropTypes
 object
 .
 isRequired
-indent
-:
-PropTypes
-.
-number
-.
-isRequired
 timestampsVisible
 :
 PropTypes
@@ -241,16 +234,6 @@ PropTypes
 object
 }
 ;
-EvaluationResult
-.
-defaultProps
-=
-{
-indent
-:
-0
-}
-;
 function
 EvaluationResult
 (
@@ -262,7 +245,6 @@ const
 dispatch
 message
 serviceContainer
-indent
 timestampsVisible
 loadedObjectProperties
 }
@@ -278,6 +260,7 @@ level
 id
 :
 messageId
+indent
 exceptionDocURL
 frame
 timeStamp

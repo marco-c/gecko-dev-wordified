@@ -180,13 +180,6 @@ PropTypes
 object
 .
 isRequired
-indent
-:
-PropTypes
-.
-number
-.
-isRequired
 timestampsVisible
 :
 PropTypes
@@ -199,16 +192,6 @@ serviceContainer
 PropTypes
 .
 object
-}
-;
-ConsoleCommand
-.
-defaultProps
-=
-{
-indent
-:
-0
 }
 ;
 /
@@ -231,7 +214,6 @@ props
 {
 const
 {
-indent
 message
 timestampsVisible
 serviceContainer
@@ -241,6 +223,7 @@ props
 ;
 const
 {
+indent
 source
 type
 level

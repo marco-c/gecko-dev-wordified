@@ -517,11 +517,6 @@ assign
 (
 {
 message
-indent
-:
-message
-.
-indent
 }
 this
 .
