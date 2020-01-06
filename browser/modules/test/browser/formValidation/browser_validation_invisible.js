@@ -117,6 +117,7 @@ add_task
 (
 async
 function
+test_display_none
 (
 )
 {
@@ -153,6 +154,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 "
 +
 '
@@ -288,6 +295,7 @@ add_task
 (
 async
 function
+test_visibility_hidden
 (
 )
 {
@@ -304,6 +312,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 "
 +
 '
