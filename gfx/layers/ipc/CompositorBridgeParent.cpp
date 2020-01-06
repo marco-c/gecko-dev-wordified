@@ -2186,6 +2186,7 @@ mApzcTreeManager
 new
 APZCTreeManager
 (
+mRootLayerTreeID
 )
 ;
 }
@@ -6280,6 +6281,7 @@ mApzcTreeManager
 new
 APZCTreeManager
 (
+mRootLayerTreeID
 )
 ;
 MonitorAutoLock
