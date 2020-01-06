@@ -249,7 +249,7 @@ ImageValue
 *
 mImage
 ;
-nsAttrValue
+mozilla
 :
 :
 AtomArray
@@ -778,7 +778,7 @@ mPercent
 ;
 }
 inline
-nsAttrValue
+mozilla
 :
 :
 AtomArray

@@ -99,6 +99,15 @@ nsTreeUtils_h__
 #
 include
 "
+mozilla
+/
+AtomArray
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -156,6 +165,9 @@ const
 nsAString
 &
 aProperties
+mozilla
+:
+:
 AtomArray
 &
 aPropertiesArray

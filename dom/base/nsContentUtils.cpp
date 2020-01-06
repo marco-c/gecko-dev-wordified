@@ -37101,9 +37101,6 @@ start
 struct
 ClassMatchingInfo
 {
-nsAttrValue
-:
-:
 AtomArray
 mClasses
 ;

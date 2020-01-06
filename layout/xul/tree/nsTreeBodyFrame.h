@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+AtomArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -3647,6 +3656,9 @@ cached
 style
 contexts
 .
+mozilla
+:
+:
 AtomArray
 mScratchArray
 ;

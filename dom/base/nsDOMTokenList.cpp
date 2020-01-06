@@ -388,9 +388,6 @@ nsAtom
 >
 filter
 ;
-nsAttrValue
-:
-:
 AtomArray
 *
 array
@@ -479,9 +476,6 @@ nsDOMTokenList
 :
 RemoveDuplicatesInternal
 (
-nsAttrValue
-:
-:
 AtomArray
 *
 aArray
