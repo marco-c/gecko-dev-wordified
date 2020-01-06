@@ -1539,7 +1539,7 @@ target
 captureState
 -
 >
-mTarget
+mTargetDual
 ;
 if
 (

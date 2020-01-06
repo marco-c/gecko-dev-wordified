@@ -276,7 +276,7 @@ mTarget
 aState
 -
 >
-mTarget
+mTargetDual
 )
 mRestorePermitsSubpixelAA
 (
@@ -982,7 +982,7 @@ target
 aState
 -
 >
-mTarget
+mTargetDual
 ;
 DrawTargetCapture
 *
