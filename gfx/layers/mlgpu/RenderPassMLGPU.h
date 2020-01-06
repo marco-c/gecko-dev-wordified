@@ -1648,6 +1648,9 @@ Size
 >
 scale
 ;
+bool
+decomposeIntoNoRepeatRects
+;
 }
 ;
 /
@@ -2279,11 +2282,8 @@ TextureSource
 >
 mTexture
 ;
-gfx
-:
-:
-SamplingFilter
-mFilter
+SamplerMode
+mSamplerMode
 ;
 float
 mOpacity
@@ -2472,11 +2472,8 @@ TextureSource
 >
 mTexture
 ;
-gfx
-:
-:
-SamplingFilter
-mFilter
+SamplerMode
+mSamplerMode
 ;
 float
 mOpacity
