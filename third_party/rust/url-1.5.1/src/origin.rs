@@ -502,7 +502,6 @@ For
 more
 information
 see
-<
 https
 :
 /
@@ -517,7 +516,6 @@ org
 /
 #
 origin
->
 #
 [
 derive
@@ -740,7 +738,6 @@ Tuple
 /
 /
 /
-<
 https
 :
 /
@@ -765,7 +762,6 @@ of
 an
 -
 origin
->
 pub
 fn
 ascii_serialization
@@ -867,7 +863,6 @@ port
 /
 /
 /
-<
 https
 :
 /
@@ -892,7 +887,6 @@ of
 an
 -
 origin
->
 pub
 fn
 unicode_serialization
