@@ -344,11 +344,6 @@ process
 shutdown
 "
 )
-#
-define
-NO_REMOTE_TYPE
-"
-"
 /
 /
 These
@@ -931,11 +926,6 @@ const
 nsAString
 &
 aRemoteType
-=
-NS_LITERAL_STRING
-(
-NO_REMOTE_TYPE
-)
 hal
 :
 :
