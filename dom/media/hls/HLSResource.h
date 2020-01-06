@@ -142,6 +142,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
