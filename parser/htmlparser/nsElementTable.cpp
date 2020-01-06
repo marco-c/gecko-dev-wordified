@@ -319,6 +319,12 @@ gHTMLElements
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 ELEM
 (
 unknown
@@ -1195,6 +1201,12 @@ userdefined
 ____
 true
 )
+/
+/
+clang
+-
+format
+on
 }
 ;
 #
