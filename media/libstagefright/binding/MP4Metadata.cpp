@@ -5019,6 +5019,12 @@ rv
 !
 =
 mp4parse_status_OK
+&
+&
+rv
+!
+=
+mp4parse_status_TABLE_TOO_LARGE
 )
 {
 MOZ_LOG
