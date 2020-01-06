@@ -7583,7 +7583,7 @@ to_json
 Some
 (
 "
-quitApplication
+quit
 "
 )
 Some
@@ -7767,7 +7767,7 @@ x
 Some
 (
 "
-timeouts
+setTimeouts
 "
 )
 Some
