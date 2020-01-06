@@ -1304,8 +1304,6 @@ rect
 titlebar
 -
 buttonbox
--
-container
 "
 )
 )
