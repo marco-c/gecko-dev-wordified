@@ -2301,7 +2301,7 @@ aURI
 AssignLiteral
 (
 "
-rd
+rdf
 :
 local
 -
