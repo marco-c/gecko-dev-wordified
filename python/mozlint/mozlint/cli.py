@@ -61,8 +61,6 @@ unicode_literals
 import
 os
 import
-subprocess
-import
 sys
 from
 argparse
@@ -1232,6 +1230,13 @@ import
 LintRoller
 formatters
     
+from
+mozlint
+.
+editor
+import
+edit_results
+    
 if
 list_linters
 :
@@ -1328,33 +1333,13 @@ workdir
     
 if
 edit
-:
-        
-editor
-=
-os
-.
-environ
-[
-'
-EDITOR
-'
-]
-        
-for
-path
-in
+and
 results
 :
-            
-subprocess
-.
-call
+        
+edit_results
 (
-[
-editor
-path
-]
+results
 )
         
 results

@@ -100,6 +100,22 @@ formatter
 "
 "
     
+#
+If
+modifying
+this
+format
+please
+also
+update
+the
+vim
+errorformats
+in
+editor
+.
+py
+    
 fmt
 =
 "

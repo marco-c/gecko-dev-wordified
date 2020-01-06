@@ -348,8 +348,6 @@ editor
     
 assert
 "
-files
-/
 foobar
 .
 js
@@ -368,8 +366,6 @@ out
     
 assert
 "
-files
-/
 foobar
 .
 js
