@@ -1170,7 +1170,7 @@ name
 /
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

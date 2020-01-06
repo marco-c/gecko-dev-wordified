@@ -3398,7 +3398,7 @@ bool
 SVGSVGElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

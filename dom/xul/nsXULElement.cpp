@@ -12708,7 +12708,7 @@ bool
 nsXULElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

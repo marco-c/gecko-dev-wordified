@@ -17194,7 +17194,7 @@ bool
 nsGenericHTMLElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

@@ -478,7 +478,7 @@ aError
 }
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

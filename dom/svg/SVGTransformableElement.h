@@ -357,7 +357,7 @@ nsSVGElement
 overrides
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

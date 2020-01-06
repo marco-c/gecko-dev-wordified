@@ -431,7 +431,7 @@ AnimationFunction
 ;
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

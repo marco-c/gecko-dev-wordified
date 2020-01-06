@@ -39794,7 +39794,7 @@ bool
 HTMLMediaElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *
@@ -39814,7 +39814,7 @@ onencrypted
 nsGenericHTMLElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 aName
 )

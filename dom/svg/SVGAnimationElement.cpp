@@ -2855,7 +2855,7 @@ bool
 SVGAnimationElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *
