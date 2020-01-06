@@ -2628,7 +2628,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-guidToSyncId
+guidToRecordId
 (
 treeNode
 .
@@ -3757,7 +3757,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-guidToSyncId
+guidToRecordId
 (
 childID
 )

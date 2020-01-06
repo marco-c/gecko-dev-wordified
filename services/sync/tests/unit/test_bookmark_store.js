@@ -272,7 +272,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 "
 toolbar
@@ -318,7 +318,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 "
 toolbar
@@ -382,7 +382,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 "
 toolbar
@@ -618,7 +618,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 fxrecord
 .
@@ -963,7 +963,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 tbrecord
 .
@@ -1671,7 +1671,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 folder
 .
@@ -3884,7 +3884,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 folder
 .
@@ -3904,7 +3904,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 fxRecord
 .
@@ -3924,7 +3924,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 tbRecord
 .

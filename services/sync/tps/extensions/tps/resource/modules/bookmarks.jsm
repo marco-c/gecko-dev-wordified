@@ -6265,16 +6265,10 @@ last_item_pos
 Note
 these
 are
-syncIDs
+IDs
 instead
 of
 GUIDs
-but
-that
-'
-s
-ok
-here
 .
 let
 children
@@ -6284,7 +6278,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-fetchChildSyncIds
+fetchChildRecordIds
 (
 this
 .

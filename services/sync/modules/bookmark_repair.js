@@ -5232,14 +5232,14 @@ an
 array
 of
 {
-syncId
+recordId
 syncable
 }
 into
 a
 map
 of
-syncId
+recordId
 -
 >
 syncable
@@ -5252,7 +5252,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-fetchSyncIdsForRepair
+fetchRecordIdsForRepair
 (
 request
 .
@@ -5337,7 +5337,7 @@ item
 >
 item
 .
-syncId
+recordId
 )
 ;
 log
@@ -5611,7 +5611,7 @@ for
 (
 let
 {
-syncId
+recordId
 :
 id
 syncable
