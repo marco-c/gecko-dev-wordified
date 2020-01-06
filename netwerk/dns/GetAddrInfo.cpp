@@ -1503,6 +1503,10 @@ unsigned
 int
 ttl
 =
+(
+unsigned
+int
+)
 -
 1
 ;
@@ -1588,6 +1592,10 @@ if
 ttl
 =
 =
+(
+unsigned
+int
+)
 -
 1
 )
