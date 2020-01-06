@@ -3271,10 +3271,6 @@ empty
 )
 &
 ServoMetricsProvider
-(
-)
-(
-)
 )
 .
 clone
@@ -3329,10 +3325,6 @@ is_probe
 false
 &
 ServoMetricsProvider
-(
-)
-(
-)
 )
 .
 unwrap

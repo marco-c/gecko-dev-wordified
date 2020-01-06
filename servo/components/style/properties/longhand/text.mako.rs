@@ -1909,7 +1909,7 @@ PropertyDeclaration
 _inherited_style
 :
 &
-ComputedValuesInner
+ComputedValues
 context
 :
 &

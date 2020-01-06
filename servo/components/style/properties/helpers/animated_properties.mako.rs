@@ -411,7 +411,7 @@ use
 super
 :
 :
-ComputedValuesInner
+ComputedValues
 ;
 #
 [
@@ -3008,7 +3008,7 @@ style
 :
 &
 mut
-ComputedValuesInner
+ComputedValues
 progress
 :
 f64
@@ -3284,11 +3284,11 @@ AnimatableLonghand
 old_style
 :
 &
-ComputedValuesInner
+ComputedValues
 new_style
 :
 &
-ComputedValuesInner
+ComputedValues
 )
 -
 >
@@ -3934,7 +3934,7 @@ Context
 initial
 :
 &
-ComputedValuesInner
+ComputedValues
 )
 -
 >
@@ -4405,7 +4405,7 @@ AnimatableLonghand
 computed_values
 :
 &
-ComputedValuesInner
+ComputedValues
 )
 -
 >
