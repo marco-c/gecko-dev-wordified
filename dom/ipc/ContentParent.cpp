@@ -8050,6 +8050,11 @@ Unused
 <
 SendActivateA11y
 (
+:
+:
+GetCurrentThreadId
+(
+)
 a11y
 :
 :
@@ -8071,6 +8076,7 @@ Unused
 <
 SendActivateA11y
 (
+0
 0
 )
 ;
@@ -16799,6 +16805,11 @@ Unused
 <
 SendActivateA11y
 (
+:
+:
+GetCurrentThreadId
+(
+)
 a11y
 :
 :
@@ -16820,6 +16831,7 @@ Unused
 <
 SendActivateA11y
 (
+0
 0
 )
 ;
