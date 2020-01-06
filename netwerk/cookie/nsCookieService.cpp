@@ -19311,6 +19311,14 @@ main
 -
 thread
 .
+if
+(
+mDefaultDBState
+-
+>
+syncConn
+)
+{
 mDefaultDBState
 -
 >
@@ -19329,6 +19337,7 @@ syncConn
 =
 nullptr
 ;
+}
 mDefaultDBState
 -
 >
