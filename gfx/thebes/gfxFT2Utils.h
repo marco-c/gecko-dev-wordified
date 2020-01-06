@@ -302,6 +302,7 @@ deadlock
 *
 /
 class
+MOZ_STACK_CLASS
 gfxFT2LockedFace
 {
 public
@@ -463,12 +464,16 @@ FindCharVariantFunction
 (
 )
 ;
-RefPtr
-<
 gfxFT2FontBase
->
+*
+MOZ_NON_OWNING_REF
 mGfxFont
 ;
+/
+/
+owned
+by
+caller
 FT_Face
 mFace
 ;
