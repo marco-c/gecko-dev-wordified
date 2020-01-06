@@ -698,6 +698,8 @@ aForcePreflight
 bool
 aIsPreflight
 bool
+aLoadTriggeredFromExternal
+bool
 aForceHSTSPriming
 bool
 aMixedContentWouldBlock
@@ -962,6 +964,9 @@ mForcePreflight
 ;
 bool
 mIsPreflight
+;
+bool
+mLoadTriggeredFromExternal
 ;
 bool
 mForceHSTSPriming

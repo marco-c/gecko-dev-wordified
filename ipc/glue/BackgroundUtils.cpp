@@ -2217,6 +2217,12 @@ GetIsPreflight
 aLoadInfo
 -
 >
+GetLoadTriggeredFromExternal
+(
+)
+aLoadInfo
+-
+>
 GetForceHSTSPriming
 (
 )
@@ -2792,6 +2798,11 @@ forcePreflight
 loadInfoArgs
 .
 isPreflight
+(
+)
+loadInfoArgs
+.
+loadTriggeredFromExternal
 (
 )
 loadInfoArgs
