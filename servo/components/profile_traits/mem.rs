@@ -437,7 +437,11 @@ reporter_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -486,6 +490,7 @@ reports_channel
 )
 ;
 }
+)
 )
 ;
 self

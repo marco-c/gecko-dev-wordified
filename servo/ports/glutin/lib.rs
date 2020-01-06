@@ -76,14 +76,6 @@ display
 in
 .
 #
-!
-[
-feature
-(
-box_syntax
-)
-]
-#
 [
 macro_use
 ]

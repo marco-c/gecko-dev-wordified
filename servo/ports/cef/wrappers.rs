@@ -1508,7 +1508,11 @@ Box
 :
 into_raw
 (
-box
+Box
+:
+:
+new
+(
 cef_string_utf16
 {
 str
@@ -1539,6 +1543,7 @@ c_ushort
 )
 )
 }
+)
 )
 as
 *

@@ -5759,7 +5759,11 @@ None
 let
 info
 =
-box
+Box
+:
+:
+new
+(
 ScannedTextFragmentInfo
 :
 :
@@ -5772,6 +5776,7 @@ range
 size
 insertion_point
 flags
+)
 )
 ;
 self
@@ -5851,7 +5856,11 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
-box
+Box
+:
+:
+new
+(
 UnscannedTextFragmentInfo
 :
 :
@@ -5859,6 +5868,7 @@ new
 (
 text_overflow_string
 None
+)
 )
 )
 )
@@ -12977,7 +12987,11 @@ SpecificFragmentInfo
 :
 TruncatedFragment
 (
-box
+Box
+:
+:
+new
+(
 TruncatedFragmentInfo
 {
 text_info
@@ -12987,6 +13001,7 @@ full
 :
 self
 }
+)
 )
 ;
 result

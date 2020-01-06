@@ -2895,7 +2895,11 @@ let
 mut
 new_text_fragment_info
 =
-box
+Box
+:
+:
+new
+(
 ScannedTextFragmentInfo
 :
 :
@@ -2908,6 +2912,7 @@ byte_range
 text_size
 insertion_point
 flags
+)
 )
 ;
 let
@@ -3743,7 +3748,11 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
-box
+Box
+:
+:
+new
+(
 UnscannedTextFragmentInfo
 :
 :
@@ -3751,6 +3760,7 @@ new
 (
 string_before
 selection_before
+)
 )
 )
 )

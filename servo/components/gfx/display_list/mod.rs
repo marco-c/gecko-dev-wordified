@@ -3840,7 +3840,11 @@ DisplayItem
 :
 DefineClipScrollNode
 (
-box
+Box
+:
+:
+new
+(
 DefineClipScrollNodeItem
 {
 base
@@ -3860,6 +3864,7 @@ clone
 (
 )
 }
+)
 )
 }
 }

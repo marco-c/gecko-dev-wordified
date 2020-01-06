@@ -203,7 +203,7 @@ path
 join
 (
 '
-components
+ports
 '
 '
 servo

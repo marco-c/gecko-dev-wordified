@@ -462,7 +462,11 @@ ipc_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -535,6 +539,7 @@ e
 }
 ;
 }
+)
 )
 ;
 if

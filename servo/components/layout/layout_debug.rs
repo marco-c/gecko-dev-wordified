@@ -440,7 +440,11 @@ unwrap
 let
 data
 =
-box
+Box
+:
+:
+new
+(
 ScopeData
 :
 :
@@ -452,6 +456,7 @@ clone
 (
 )
 flow_trace
+)
 )
 ;
 state
@@ -744,7 +749,11 @@ scope_stack
 vec
 !
 [
-box
+Box
+:
+:
+new
+(
 ScopeData
 :
 :
@@ -758,6 +767,7 @@ to_owned
 (
 )
 flow_trace
+)
 )
 ]
 flow_root

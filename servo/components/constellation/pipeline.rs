@@ -1723,7 +1723,11 @@ script_to_devtools_port
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -1807,6 +1811,7 @@ e
 }
 }
 }
+)
 )
 ;
 script_to_devtools_chan

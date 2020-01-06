@@ -86,14 +86,6 @@ painted
 [
 feature
 (
-box_syntax
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]
@@ -4715,7 +4707,11 @@ response_chan
 .
 send
 (
-box
+Box
+:
+:
+new
+(
 LayoutRPCImpl
 (
 self
@@ -4724,6 +4720,7 @@ rw_data
 .
 clone
 (
+)
 )
 )
 as

@@ -1481,11 +1481,16 @@ ListStyleTypeContent
 :
 GeneratedContent
 (
-box
+Box
+:
+:
+new
+(
 GeneratedContentInfo
 :
 :
 ListItem
+)
 )
 }
 }
