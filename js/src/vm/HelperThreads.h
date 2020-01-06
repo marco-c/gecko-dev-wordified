@@ -4317,7 +4317,7 @@ a
 PromiseTask
 .
 void
-executeAndResolve
+executeAndResolveAndDestroy
 (
 JSContext
 *

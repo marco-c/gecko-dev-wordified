@@ -22478,7 +22478,7 @@ MOZ_ASSERT
 runtime_
 =
 =
-promise
+promise_
 -
 >
 zone
@@ -22827,7 +22827,7 @@ void
 OffThreadPromiseTask
 :
 :
-dispatchResolve
+dispatchResolveAndDestroy
 (
 )
 {
