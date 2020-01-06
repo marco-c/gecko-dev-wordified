@@ -4661,6 +4661,16 @@ current
 (
 )
 .
+expect
+(
+"
+No
+current
+global
+object
+"
+)
+.
 as_window
 (
 )
