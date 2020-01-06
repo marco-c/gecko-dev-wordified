@@ -1133,9 +1133,6 @@ Components
 utils
 .
 Sandbox
-const
-Sandbox
-=
 function
 Sandbox
 (
@@ -1391,9 +1388,6 @@ associated
 with
 it
 .
-const
-load
-=
 function
 load
 (
@@ -2312,9 +2306,6 @@ a
 trailing
 /
 .
-const
-resolve
-=
 function
 resolve
 (
@@ -2868,9 +2859,6 @@ m1
 }
 ;
 }
-const
-resolveURI
-=
 function
 resolveURI
 (
@@ -3342,9 +3330,6 @@ during
 link
 time
 .
-const
-Require
-=
 function
 Require
 (
@@ -4197,9 +4182,6 @@ exports
 and
 require
 .
-const
-Module
-=
 function
 Module
 (
@@ -4279,9 +4261,6 @@ them
 -
 self
 .
-const
-unload
-=
 function
 unload
 (
