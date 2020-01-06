@@ -3216,6 +3216,14 @@ mut
 self
 )
 {
+/
+*
+FIXME
+:
+samplers
+crash
+on
+MacOS
 debug_assert
 !
 (
@@ -3255,6 +3263,8 @@ pending
 0
 ;
 }
+*
+/
 }
 fn
 add_sampler
@@ -3262,7 +3272,7 @@ add_sampler
 &
 mut
 self
-tag
+_tag
 :
 T
 )
@@ -3271,6 +3281,14 @@ T
 :
 NamedTag
 {
+/
+*
+FIXME
+:
+samplers
+crash
+on
+MacOS
 self
 .
 done_sampler
@@ -3313,6 +3331,8 @@ query
 )
 ;
 }
+*
+/
 }
 fn
 is_valid
