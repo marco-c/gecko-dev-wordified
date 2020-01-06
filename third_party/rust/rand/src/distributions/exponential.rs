@@ -353,6 +353,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
@@ -652,6 +653,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub

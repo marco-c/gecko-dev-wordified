@@ -316,6 +316,13 @@ u32
 /
 /
 /
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ReadRng

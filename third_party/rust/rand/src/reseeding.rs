@@ -219,6 +219,13 @@ of
 random
 bytes
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ReseedingRng
@@ -1044,6 +1051,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
