@@ -2307,7 +2307,12 @@ IsServo
 MOZ_ASSERT
 (
 !
-aOldDocument
+thisContent
+-
+>
+OwnerDoc
+(
+)
 -
 >
 IsScopedStyleEnabled
