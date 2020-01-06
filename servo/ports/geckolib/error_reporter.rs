@@ -734,8 +734,13 @@ escaped
 String
 :
 :
-new
+with_capacity
 (
+ident
+.
+len
+(
+)
 )
 ;
 /
