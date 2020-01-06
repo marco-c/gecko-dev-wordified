@@ -8279,7 +8279,7 @@ self
 _send_message
 (
 "
-quit
+quitApplication
 "
 body
 )
