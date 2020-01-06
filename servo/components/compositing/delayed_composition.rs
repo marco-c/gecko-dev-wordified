@@ -216,10 +216,7 @@ DelayedCompositionTimer
 {
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 receiver
 :
 Receiver
@@ -245,12 +242,7 @@ new
 (
 compositor_proxy
 :
-Box
-<
 CompositorProxy
-+
-Send
->
 )
 -
 >

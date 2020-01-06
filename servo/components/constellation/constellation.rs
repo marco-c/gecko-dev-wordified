@@ -1796,10 +1796,7 @@ thread
 .
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 /
 /
 /
@@ -2813,12 +2810,7 @@ compositor
 pub
 compositor_proxy
 :
-Box
-<
 CompositorProxy
-+
-Send
->
 /
 /
 /

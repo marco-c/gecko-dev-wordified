@@ -713,10 +713,7 @@ messages
 .
 port
 :
-Box
-<
 CompositorReceiver
->
 /
 /
 /
@@ -903,12 +900,7 @@ DevicePixel
 >
 channel_to_self
 :
-Box
-<
 CompositorProxy
-+
-Send
->
 /
 /
 /
@@ -1863,10 +1855,7 @@ RenderNotifier
 {
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 }
 impl
 RenderNotifier
@@ -1876,10 +1865,7 @@ new
 (
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 _
 :
 Sender
@@ -1978,10 +1964,7 @@ CompositorThreadDispatcher
 {
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 }
 impl
 webrender_traits
