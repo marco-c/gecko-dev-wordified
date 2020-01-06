@@ -1106,6 +1106,23 @@ self
 .
 dll_suffix
         
+self
+.
+bin_suffix
+=
+self
+.
+substs
+.
+get
+(
+'
+BIN_SUFFIX
+'
+'
+'
+)
+        
 global_defines
 =
 [
