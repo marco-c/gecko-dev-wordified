@@ -1791,6 +1791,12 @@ http
 https
 "
 "
+ws
+"
+"
+wss
+"
+"
 file
 "
 "
@@ -1815,6 +1821,12 @@ http
 "
 "
 https
+"
+"
+ws
+"
+"
+wss
 "
 nullptr
 }
