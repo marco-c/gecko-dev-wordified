@@ -461,6 +461,7 @@ CreateRecordingDrawTarget
 (
 recorder
 dummyDt
+imageSize
 )
 ;
 dt

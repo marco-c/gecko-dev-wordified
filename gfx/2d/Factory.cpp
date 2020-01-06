@@ -2213,6 +2213,8 @@ aRecorder
 DrawTarget
 *
 aDT
+IntSize
+aSize
 )
 {
 return
@@ -2223,6 +2225,7 @@ DrawTargetRecording
 (
 aRecorder
 aDT
+aSize
 )
 ;
 }
