@@ -1115,11 +1115,7 @@ marionette
 .
 client
 .
-sock
-.
-gettimeout
-(
-)
+socket_timeout
         
 except
 AttributeError
