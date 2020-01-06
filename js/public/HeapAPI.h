@@ -902,6 +902,7 @@ bool
 isGCMarkingBlack
 (
 )
+const
 {
 return
 gcState_
@@ -914,6 +915,7 @@ bool
 isGCMarkingGray
 (
 )
+const
 {
 return
 gcState_
@@ -926,6 +928,7 @@ bool
 isGCSweeping
 (
 )
+const
 {
 return
 gcState_
@@ -938,6 +941,7 @@ bool
 isGCFinished
 (
 )
+const
 {
 return
 gcState_
@@ -950,6 +954,7 @@ bool
 isGCCompacting
 (
 )
+const
 {
 return
 gcState_
@@ -962,6 +967,7 @@ bool
 isGCSweepingOrCompacting
 (
 )
+const
 {
 return
 gcState_
