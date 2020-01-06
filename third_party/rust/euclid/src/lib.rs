@@ -122,6 +122,7 @@ feature
 asm
 repr_simd
 test
+fn_must_use
 )
 )
 ]
@@ -797,6 +798,18 @@ rect
 ;
 pub
 use
+rotation
+:
+:
+{
+TypedRotation2D
+Rotation2D
+TypedRotation3D
+Rotation3D
+}
+;
+pub
+use
 side_offsets
 :
 :
@@ -870,6 +883,9 @@ point
 ;
 mod
 rect
+;
+mod
+rotation
 ;
 mod
 scale_factor
