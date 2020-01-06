@@ -30934,6 +30934,7 @@ aEvent
 }
 show
 (
+aEvent
 )
 {
 if
@@ -31159,6 +31160,11 @@ anchor
 this
 .
 _chevron
+{
+triggerEvent
+:
+aEvent
+}
 )
 ;
 this
@@ -31178,7 +31184,8 @@ addEventListener
 "
 popupshown
 "
-aEvent
+(
+)
 =
 >
 {
@@ -31280,6 +31287,7 @@ this
 .
 show
 (
+aEvent
 )
 ;
 }

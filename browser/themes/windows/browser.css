@@ -7923,6 +7923,17 @@ touch
 .
 *
 /
+#
+widget
+-
+overflow
+[
+touchmode
+]
+.
+toolbarbutton
+-
+1
 panel
 [
 touchmode
