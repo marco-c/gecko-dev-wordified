@@ -14095,12 +14095,12 @@ str
 if
 (
 !
-str
-.
-encodeLatin1
+AtomToPrintableString
 (
 context
 name
+&
+str
 )
 )
 return
