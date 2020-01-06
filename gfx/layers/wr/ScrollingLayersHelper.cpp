@@ -1398,6 +1398,12 @@ aBuilder
 .
 DefineClip
 (
+Nothing
+(
+)
+Nothing
+(
+)
 aStackingContext
 .
 ToRelativeLayoutRect
@@ -1692,6 +1698,12 @@ DefineScrollLayer
 aMetrics
 .
 GetScrollId
+(
+)
+Nothing
+(
+)
+Nothing
 (
 )
 aStackingContext
