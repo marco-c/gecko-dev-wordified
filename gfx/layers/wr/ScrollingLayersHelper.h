@@ -188,6 +188,8 @@ WebRenderLayerManager
 ClipIdMap
 &
 aCache
+bool
+aApzEnabled
 )
 ;
 ~

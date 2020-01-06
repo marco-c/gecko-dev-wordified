@@ -2116,6 +2116,9 @@ item
 aBuilder
 aSc
 mClipIdCache
+AsyncPanZoomEnabled
+(
+)
 )
 ;
 /
