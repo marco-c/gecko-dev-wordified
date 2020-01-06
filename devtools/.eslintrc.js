@@ -441,10 +441,10 @@ class
 :
 [
 "
-error
+off
 "
 "
-never
+always
 "
 ]
 "
