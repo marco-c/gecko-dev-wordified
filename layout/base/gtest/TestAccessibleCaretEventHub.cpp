@@ -786,6 +786,7 @@ AddRef
 AccessibleCaretEventHubTester
 (
 )
+override
 {
 /
 /

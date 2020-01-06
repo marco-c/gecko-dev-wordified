@@ -583,6 +583,7 @@ nsIFrame
 *
 aEndFrame
 )
+override
 {
 if
 (
