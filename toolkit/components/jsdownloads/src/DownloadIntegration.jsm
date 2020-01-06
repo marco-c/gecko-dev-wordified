@@ -4751,7 +4751,7 @@ handler
 .
 gExternalProtocolService
 .
-loadUrl
+loadURI
 (
 NetUtil
 .
@@ -5174,7 +5174,7 @@ parent
 .
 gExternalProtocolService
 .
-loadUrl
+loadURI
 (
 NetUtil
 .

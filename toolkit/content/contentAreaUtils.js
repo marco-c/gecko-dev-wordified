@@ -9015,7 +9015,7 @@ URI
 .
 protocolSvc
 .
-loadUrl
+loadURI
 (
 uri
 )

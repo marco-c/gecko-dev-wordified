@@ -47309,7 +47309,7 @@ extProtocolSvc
 )
 extProtocolSvc
 .
-loadUrl
+loadURI
 (
 aURL
 )
