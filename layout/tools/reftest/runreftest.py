@@ -2459,15 +2459,28 @@ AttributeError
             
 pass
         
-try
+if
+platform
+.
+system
+(
+)
+=
+=
+"
+Linux
+"
 :
             
+try
+:
+                
 if
 options
 .
 objPath
 :
-                
+                    
 sandbox_whitelist_paths
 .
 append
@@ -2476,11 +2489,11 @@ options
 .
 objPath
 )
-        
+            
 except
 AttributeError
 :
-            
+                
 pass
         
 if
