@@ -427,6 +427,10 @@ const
 TimeStamp
 &
 aNow
+const
+TimeDuration
+&
+aMinDelay
 )
 ;
 nsresult
@@ -436,6 +440,10 @@ const
 TimeStamp
 &
 aDeadline
+const
+TimeDuration
+&
+aMinDelay
 )
 ;
 nsresult
@@ -445,6 +453,10 @@ const
 TimeStamp
 &
 aDeadline
+const
+TimeDuration
+&
+aMinDelay
 )
 ;
 void
@@ -474,6 +486,14 @@ const
 TimeStamp
 &
 aDeadline
+const
+TimeDuration
+&
+aMinDelay
+=
+TimeDuration
+(
+)
 )
 ;
 void
