@@ -1770,7 +1770,6 @@ get
 more
 data
 .
-virtual
 already_AddRefed
 <
 MediaByteBuffer
@@ -4537,19 +4536,6 @@ return
 true
 ;
 }
-already_AddRefed
-<
-MediaByteBuffer
->
-MediaReadAt
-(
-int64_t
-aOffset
-uint32_t
-aCount
-)
-override
-;
 int64_t
 Tell
 (
