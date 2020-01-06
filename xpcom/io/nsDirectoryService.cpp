@@ -2690,7 +2690,7 @@ GetNext
 entry
 )
 ;
-nsXPIDLCString
+nsCString
 contractID
 ;
 catman
@@ -2712,7 +2712,12 @@ contractID
 ;
 if
 (
+!
 contractID
+.
+IsVoid
+(
+)
 )
 {
 nsCOMPtr

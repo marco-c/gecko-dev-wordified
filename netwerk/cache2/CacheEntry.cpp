@@ -7763,7 +7763,7 @@ mFileStatus
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsXPIDLCString
+nsCString
 info
 ;
 nsCOMPtr
@@ -7801,7 +7801,12 @@ rv
 ;
 if
 (
+!
 info
+.
+IsVoid
+(
+)
 )
 {
 rv

@@ -7898,7 +7898,7 @@ bool
 remove
 )
 {
-nsXPIDLCString
+nsCString
 portList
 ;
 /
@@ -7931,7 +7931,12 @@ portList
 ;
 if
 (
+!
 portList
+.
+IsVoid
+(
+)
 )
 {
 nsTArray
