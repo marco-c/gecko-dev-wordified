@@ -170,6 +170,15 @@ nsIPresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GeckoStyleContext
+.
+h
+"
 using
 namespace
 mozilla
@@ -1949,6 +1958,12 @@ system
 .
 if
 (
+static_cast
+<
+nsStyleContext
+*
+>
+(
 colFrame
 -
 >
@@ -1959,6 +1974,7 @@ StyleContext
 >
 GetParent
 (
+)
 )
 =
 =

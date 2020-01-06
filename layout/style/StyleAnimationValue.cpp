@@ -24117,6 +24117,11 @@ aProperty
 tmpStyleContext
 -
 >
+AsGecko
+(
+)
+-
+>
 StyleData
 (
 sid
@@ -26590,6 +26595,11 @@ SpecifiedCalcToComputedCalc
 (
 aInput
 aStyleContext
+-
+>
+AsGecko
+(
+)
 aStyleContext
 -
 >
@@ -26783,6 +26793,11 @@ CalcLength
 (
 aInput
 aStyleContext
+-
+>
+AsGecko
+(
+)
 aStyleContext
 -
 >
@@ -28488,6 +28503,11 @@ void
 styleStruct
 =
 aStyleContext
+-
+>
+AsGecko
+(
+)
 -
 >
 StyleData

@@ -131,7 +131,9 @@ h
 #
 include
 "
-nsStyleContext
+mozilla
+/
+GeckoStyleContext
 .
 h
 "
@@ -154,7 +156,7 @@ nsRuleData
 aRuleData
 )
 {
-nsStyleContext
+GeckoStyleContext
 *
 contextParent
 =

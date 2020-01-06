@@ -253,6 +253,15 @@ include
 "
 mozilla
 /
+GeckoStyleContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSetHandle
 .
 h
@@ -1464,7 +1473,7 @@ vertical
 false
 )
 ;
-nsStyleContext
+GeckoStyleContext
 *
 parentStyleContext
 =
