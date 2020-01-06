@@ -659,6 +659,12 @@ STATE_SUCCEEDED
 bool
 nominated
 ;
+bool
+writable
+;
+bool
+readable
+;
 /
 /
 Set
