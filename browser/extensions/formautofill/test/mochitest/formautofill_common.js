@@ -1166,6 +1166,7 @@ SimpleTest
 .
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -1177,6 +1178,18 @@ sendAsyncMessage
 (
 "
 cleanup
+"
+)
+;
+await
+formFillChromeScript
+.
+promiseOneMessage
+(
+"
+cleanup
+-
+finished
 "
 )
 ;
