@@ -483,11 +483,6 @@ MutateProto
 \
 _
 (
-InitProp
-)
-\
-_
-(
 InitPropGetterSetter
 )
 \
