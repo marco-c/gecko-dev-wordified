@@ -535,14 +535,6 @@ Set
 (
 )
 ;
-if
-(
-!
-AppConstants
-.
-RELEASE_OR_BETA
-)
-{
 schemaURLs
 .
 add
@@ -564,7 +556,6 @@ json
 "
 )
 ;
-}
 let
 GlobalManager
 ;
