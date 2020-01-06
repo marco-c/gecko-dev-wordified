@@ -130,7 +130,7 @@ HeadlessCompositorWidget
 HeadlessCompositorWidget
 (
 const
-CompositorWidgetInitData
+HeadlessCompositorWidgetInitData
 &
 aInitData
 const

@@ -1284,6 +1284,16 @@ aHeight
 ;
 virtual
 void
+SetCompositorWidgetDelegate
+(
+CompositorWidgetDelegate
+*
+delegate
+)
+{
+}
+virtual
+void
 PrepareWindowEffects
 (
 )
@@ -4106,10 +4116,6 @@ mSizeConstraints
 ;
 bool
 mHasRemoteContent
-;
-CompositorWidgetDelegate
-*
-mCompositorWidgetDelegate
 ;
 bool
 mUpdateCursor

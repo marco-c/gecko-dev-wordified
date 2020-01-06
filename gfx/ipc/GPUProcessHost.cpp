@@ -256,6 +256,17 @@ MOZ_ASSERT
 mGPUChild
 )
 ;
+MOZ_ASSERT
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+;
 #
 if
 defined

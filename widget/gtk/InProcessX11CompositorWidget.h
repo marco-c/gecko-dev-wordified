@@ -127,7 +127,7 @@ public
 InProcessX11CompositorWidget
 (
 const
-CompositorWidgetInitData
+X11CompositorWidgetInitData
 &
 aInitData
 const
