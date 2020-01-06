@@ -119,6 +119,8 @@ contextlib
 import
 closing
 import
+copy
+import
 ctypes
 import
 glob
@@ -7555,12 +7557,6 @@ test_paths
 =
 1
 and
-options
-.
-repeat
->
-0
-and
 os
 .
 path
@@ -8365,12 +8361,6 @@ test_paths
 :
             
 if
-options
-.
-repeat
->
-0
-and
 os
 .
 path
@@ -18263,7 +18253,12 @@ step1
             
 stepOptions
 =
+copy
+.
+deepcopy
+(
 options
+)
             
 stepOptions
 .
@@ -18305,7 +18300,12 @@ step2
             
 stepOptions
 =
+copy
+.
+deepcopy
+(
 options
+)
             
 stepOptions
 .
@@ -18365,7 +18365,12 @@ step3
             
 stepOptions
 =
+copy
+.
+deepcopy
+(
 options
+)
             
 stepOptions
 .
@@ -18419,7 +18424,12 @@ step4
             
 stepOptions
 =
+copy
+.
+deepcopy
+(
 options
+)
             
 stepOptions
 .
