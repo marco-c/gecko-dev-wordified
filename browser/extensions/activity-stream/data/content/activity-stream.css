@@ -1415,14 +1415,13 @@ opacity
 transition
 :
 opacity
-0
-.
-1s
+75ms
 ease
 -
 in
 -
 out
+125ms
 ;
 }
 .
