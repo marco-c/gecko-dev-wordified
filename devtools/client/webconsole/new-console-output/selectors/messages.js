@@ -169,6 +169,20 @@ messagesTableDataById
 ;
 }
 function
+getAllMessagesObjectPropertiesById
+(
+state
+)
+{
+return
+state
+.
+messages
+.
+messagesObjectPropertiesById
+;
+}
+function
 getAllGroupsById
 (
 state
@@ -252,5 +266,6 @@ getCurrentGroup
 getVisibleMessages
 getAllRepeatById
 getAllNetworkMessagesUpdateById
+getAllMessagesObjectPropertiesById
 }
 ;
