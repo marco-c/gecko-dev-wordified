@@ -433,11 +433,6 @@ Load
 nsIChannel
 *
 aChannel
-bool
-aIsPrivateBrowsing
-nsIStreamListener
-*
-*
 )
 {
 MOZ_ASSERT
