@@ -128,10 +128,6 @@ autoconf213
 '
             
 '
-cargo
-'
-            
-'
 gmake
 '
             
