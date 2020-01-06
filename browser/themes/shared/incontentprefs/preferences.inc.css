@@ -1477,6 +1477,17 @@ cursor
 pointer
 ;
 }
+description
+>
+checkbox
+{
+vertical
+-
+align
+:
+middle
+;
+}
 #
 weavePrefsDeck
 >
