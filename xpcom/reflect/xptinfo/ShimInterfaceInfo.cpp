@@ -849,6 +849,13 @@ h
 #
 include
 "
+nsIWebBrowserPersistable
+.
+h
+"
+#
+include
+"
 nsIXMLHttpRequest
 .
 h
@@ -2923,6 +2930,11 @@ UIEvent
 DEFINE_SHIM
 (
 ValidityState
+)
+DEFINE_SHIM_WITH_CUSTOM_INTERFACE
+(
+nsIWebBrowserPersistable
+FrameLoader
 )
 DEFINE_SHIM
 (
