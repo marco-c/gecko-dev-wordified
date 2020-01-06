@@ -413,7 +413,7 @@ side
 0
 ]
 "
-BorderWidth
+BorderSideWidth
 "
 "
 Au
@@ -2341,7 +2341,7 @@ initial_value
 computed
 :
 :
-BorderImageWidthSide
+BorderImageSideWidth
 :
 :
 one
@@ -2358,7 +2358,7 @@ initial_specified_value
 specified
 :
 :
-BorderImageWidthSide
+BorderImageSideWidth
 :
 :
 one

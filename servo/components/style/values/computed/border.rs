@@ -116,9 +116,9 @@ generics
 border
 :
 :
-BorderImageSlice
+BorderImageSideWidth
 as
-GenericBorderImageSlice
+GenericBorderImageSideWidth
 ;
 use
 values
@@ -130,9 +130,9 @@ generics
 border
 :
 :
-BorderImageWidthSide
+BorderImageSlice
 as
-GenericBorderImageWidthSide
+GenericBorderImageSlice
 ;
 use
 values
@@ -181,7 +181,7 @@ BorderImageWidth
 =
 Rect
 <
-BorderImageWidthSide
+BorderImageSideWidth
 >
 ;
 /
@@ -205,9 +205,9 @@ property
 .
 pub
 type
-BorderImageWidthSide
+BorderImageSideWidth
 =
-GenericBorderImageWidthSide
+GenericBorderImageSideWidth
 <
 LengthOrPercentage
 Number
@@ -285,7 +285,7 @@ LengthOrPercentage
 >
 ;
 impl
-BorderImageWidthSide
+BorderImageSideWidth
 {
 /
 /
@@ -306,7 +306,7 @@ one
 >
 Self
 {
-GenericBorderImageWidthSide
+GenericBorderImageSideWidth
 :
 :
 Number

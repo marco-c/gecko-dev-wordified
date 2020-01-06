@@ -146,7 +146,7 @@ ToComputedValue
 ]
 pub
 enum
-BorderImageWidthSide
+BorderImageSideWidth
 <
 LengthOrPercentage
 Number
@@ -461,7 +461,7 @@ N
 >
 ToCss
 for
-BorderImageWidthSide
+BorderImageSideWidth
 <
 L
 N
@@ -506,7 +506,7 @@ match
 *
 self
 {
-BorderImageWidthSide
+BorderImageSideWidth
 :
 :
 Length
@@ -522,7 +522,7 @@ to_css
 (
 dest
 )
-BorderImageWidthSide
+BorderImageSideWidth
 :
 :
 Number
@@ -538,7 +538,7 @@ to_css
 (
 dest
 )
-BorderImageWidthSide
+BorderImageSideWidth
 :
 :
 Auto

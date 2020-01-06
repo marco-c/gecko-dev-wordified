@@ -5308,10 +5308,10 @@ width_value
 specified
 :
 :
-BorderWidth
+BorderSideWidth
 :
 :
-from_length
+Length
 (
 specified
 :

@@ -274,7 +274,7 @@ specified
 :
 {
 AllowQuirks
-BorderWidth
+BorderSideWidth
 }
 ;
 pub
@@ -315,7 +315,7 @@ _
 i
 |
 {
-BorderWidth
+BorderSideWidth
 :
 :
 parse_quirky
@@ -476,7 +476,7 @@ BorderStyle
 specified
 :
 :
-BorderWidth
+BorderSideWidth
 )
 (
 )
@@ -492,7 +492,7 @@ specified
 {
 CSSColor
 BorderStyle
-BorderWidth
+BorderSideWidth
 }
 ;
 let
@@ -637,7 +637,7 @@ try
 |
 i
 |
-BorderWidth
+BorderSideWidth
 :
 :
 parse
@@ -695,7 +695,7 @@ width
 .
 unwrap_or
 (
-BorderWidth
+BorderSideWidth
 :
 :
 Medium
