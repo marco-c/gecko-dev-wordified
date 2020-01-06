@@ -7915,6 +7915,7 @@ const
 {
 return
 !
+!
 entry_
 ;
 }
@@ -7926,6 +7927,7 @@ const
 {
 if
 (
+!
 isValid
 (
 )
@@ -12946,7 +12948,6 @@ table
 ;
 MOZ_ASSERT_IF
 (
-!
 p
 .
 isValid
@@ -12995,6 +12996,7 @@ here
 .
 if
 (
+!
 p
 .
 isValid
@@ -13504,6 +13506,7 @@ here
 .
 if
 (
+!
 p
 .
 isValid
