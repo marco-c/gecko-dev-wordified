@@ -1153,6 +1153,7 @@ NativeObject
 public
 :
 enum
+ModuleSlot
 {
 ScriptSlot
 =
@@ -1334,7 +1335,7 @@ ifdef
 DEBUG
 static
 bool
-IsFrozen
+AssertFrozen
 (
 JSContext
 *
