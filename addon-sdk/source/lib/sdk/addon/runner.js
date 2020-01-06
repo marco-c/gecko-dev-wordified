@@ -339,7 +339,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 const
