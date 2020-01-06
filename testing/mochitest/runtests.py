@@ -3035,24 +3035,6 @@ XPCOM_DEBUG_BREAK
 warn
 "
         
-if
-"
-LD_LIBRARY_PATH
-"
-not
-in
-env
-or
-env
-[
-"
-LD_LIBRARY_PATH
-"
-]
-is
-None
-:
-            
 env
 [
 "
@@ -3063,35 +3045,6 @@ LD_LIBRARY_PATH
 self
 .
 _xrePath
-        
-else
-:
-            
-env
-[
-"
-LD_LIBRARY_PATH
-"
-]
-=
-"
-:
-"
-.
-join
-(
-[
-self
-.
-_xrePath
-env
-[
-"
-LD_LIBRARY_PATH
-"
-]
-]
-)
         
 #
 When
@@ -13438,7 +13391,7 @@ return
 browserEnv
     
 def
-killNamedOrphans
+killNamedProc
 (
 self
 pname
@@ -13449,7 +13402,6 @@ pname
 "
 "
 Kill
-orphan
 processes
 matching
 the
@@ -13469,7 +13421,6 @@ info
 "
 Checking
 for
-orphan
 %
 s
 processes
@@ -13588,16 +13539,6 @@ parts
 =
 =
 pname
-and
-parts
-[
-1
-]
-=
-=
-'
-1
-'
 :
                     
 self
@@ -13610,7 +13551,6 @@ info
 killing
 %
 s
-orphan
 with
 pid
 %
@@ -19186,7 +19126,6 @@ checking
 for
 and
 killing
-orphan
 servers
 before
         
@@ -19200,7 +19139,7 @@ ones
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 ssltunnel
@@ -19209,7 +19148,7 @@ ssltunnel
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 xpcshell

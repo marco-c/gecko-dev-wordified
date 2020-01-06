@@ -663,7 +663,6 @@ checking
 for
 and
 killing
-orphan
 servers
 before
         
@@ -677,7 +676,7 @@ ones
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 ssltunnel
@@ -686,7 +685,7 @@ ssltunnel
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 xpcshell
