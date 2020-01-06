@@ -886,12 +886,6 @@ mLayoutServoStyleSetsStylistRuleTree
 macro
 (
 Style
-mLayoutServoStyleSetsStylistPrecomputedPseudos
-)
-\
-macro
-(
-Style
 mLayoutServoStyleSetsStylistElementAndPseudosMaps
 )
 \
