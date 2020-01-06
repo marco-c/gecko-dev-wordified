@@ -3668,6 +3668,12 @@ stylo
 :
 False
                 
+'
+stylothreads
+'
+:
+0
+                
 }
     
 browser_config
