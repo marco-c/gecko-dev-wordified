@@ -20623,6 +20623,10 @@ static
 void
 CooperativeYield
 (
+bool
+terminating
+=
+false
 )
 {
 LockGuard
@@ -20686,6 +20690,10 @@ so
 .
 if
 (
+!
+terminating
+&
+&
 cooperationState
 -
 >
@@ -21587,6 +21595,13 @@ numThreads
 ;
 CooperativeYield
 (
+/
+*
+terminating
+=
+*
+/
+true
 )
 ;
 }
