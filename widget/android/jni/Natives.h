@@ -2901,6 +2901,8 @@ Indices
 )
 const
 {
+if
+(
 Impl
 *
 const
@@ -2916,7 +2918,8 @@ Get
 (
 inst
 )
-;
+)
+{
 MOZ_CATCH_JNI_EXCEPTION
 (
 inst
@@ -2950,6 +2953,7 @@ mArgs
 .
 )
 ;
+}
 }
 template
 <
@@ -3003,6 +3007,8 @@ Indices
 )
 const
 {
+if
+(
 Impl
 *
 const
@@ -3018,7 +3024,8 @@ Get
 (
 inst
 )
-;
+)
+{
 MOZ_CATCH_JNI_EXCEPTION
 (
 inst
@@ -3051,6 +3058,7 @@ mArgs
 .
 )
 ;
+}
 }
 template
 <
