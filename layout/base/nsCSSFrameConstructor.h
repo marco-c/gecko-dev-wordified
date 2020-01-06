@@ -380,7 +380,7 @@ object
 '
 s
 tag
-nsXPIDLString
+nsAString
 &
 aAltText
 )

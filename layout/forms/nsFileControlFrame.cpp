@@ -569,7 +569,7 @@ the
 current
 locale
 .
-nsXPIDLString
+nsAutoString
 buttonTxt
 ;
 nsContentUtils

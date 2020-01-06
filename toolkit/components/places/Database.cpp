@@ -1624,7 +1624,7 @@ nsCString
 &
 aGuid
 const
-nsXPIDLString
+nsAString
 &
 titleString
 )
@@ -7662,7 +7662,7 @@ rv
 return
 rv
 ;
-nsXPIDLString
+nsAutoString
 rootTitle
 ;
 /
@@ -7730,10 +7730,7 @@ GetStringFromName
 "
 BookmarksMenuFolderTitle
 "
-getter_Copies
-(
 rootTitle
-)
 )
 ;
 if
@@ -7786,10 +7783,7 @@ GetStringFromName
 "
 BookmarksToolbarFolderTitle
 "
-getter_Copies
-(
 rootTitle
-)
 )
 ;
 if
@@ -7842,10 +7836,7 @@ GetStringFromName
 "
 TagsFolderTitle
 "
-getter_Copies
-(
 rootTitle
-)
 )
 ;
 if
@@ -7898,10 +7889,7 @@ GetStringFromName
 "
 OtherBookmarksFolderTitle
 "
-getter_Copies
-(
 rootTitle
-)
 )
 ;
 if
@@ -8817,7 +8805,7 @@ rootGuids
 i
 )
 {
-nsXPIDLString
+nsAutoString
 title
 ;
 rv
@@ -8831,10 +8819,7 @@ titleStringIDs
 [
 i
 ]
-getter_Copies
-(
 title
-)
 )
 ;
 if

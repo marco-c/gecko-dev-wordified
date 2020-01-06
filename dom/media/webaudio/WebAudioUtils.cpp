@@ -865,7 +865,7 @@ console
 return
 ;
 }
-nsXPIDLString
+nsAutoString
 result
 ;
 rv

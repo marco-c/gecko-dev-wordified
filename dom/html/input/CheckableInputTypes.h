@@ -222,7 +222,7 @@ override
 nsresult
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -299,7 +299,7 @@ aInputElement
 nsresult
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

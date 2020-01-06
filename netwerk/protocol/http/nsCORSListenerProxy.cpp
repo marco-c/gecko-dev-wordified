@@ -511,7 +511,7 @@ Generate
 the
 error
 message
-nsXPIDLString
+nsAutoString
 blockedMessage
 ;
 NS_ConvertUTF8toUTF16

@@ -410,7 +410,7 @@ IsEmpty
 )
 )
 ;
-nsXPIDLString
+nsAutoString
 localizedMessage
 ;
 if

@@ -11816,7 +11816,7 @@ forget
 )
 ;
 }
-nsXPIDLString
+nsAutoString
 temp
 ;
 nsContentUtils
@@ -60579,7 +60579,7 @@ aContent
 nsIAtom
 *
 aTag
-nsXPIDLString
+nsAString
 &
 aAltText
 )

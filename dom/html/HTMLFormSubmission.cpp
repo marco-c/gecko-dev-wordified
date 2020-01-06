@@ -1373,7 +1373,7 @@ Get
 the
 default
 subject
-nsXPIDLString
+nsAutoString
 brandName
 ;
 nsresult
@@ -1418,7 +1418,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 subjectStr
 ;
 rv

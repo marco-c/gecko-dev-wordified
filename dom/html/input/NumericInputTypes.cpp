@@ -422,7 +422,7 @@ NumericInputTypeBase
 :
 GetRangeOverflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -555,7 +555,7 @@ NumericInputTypeBase
 :
 GetRangeUnderflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -983,7 +983,7 @@ NumberInputType
 :
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -1011,7 +1011,7 @@ NumberInputType
 :
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

@@ -7320,7 +7320,7 @@ bundle
 NS_ERROR_FAILURE
 )
 ;
-nsXPIDLString
+nsAutoString
 msgText
 ;
 const
@@ -7352,10 +7352,7 @@ FormatStringFromName
 msgId
 strings
 1
-getter_Copies
-(
 msgText
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7373,6 +7370,10 @@ nullptr
 aRequest
 aResult
 msgText
+.
+get
+(
+)
 )
 ;
 return

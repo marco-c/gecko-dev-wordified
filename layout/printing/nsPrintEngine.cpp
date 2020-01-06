@@ -12280,10 +12280,15 @@ aURLStr
 else
 if
 (
+!
 mPrt
 -
 >
 mBrandName
+.
+IsEmpty
+(
+)
 )
 {
 aTitle

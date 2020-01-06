@@ -5580,7 +5580,7 @@ true
 nsresult
 rv
 ;
-nsXPIDLString
+nsAutoString
 message
 ;
 if

@@ -588,10 +588,7 @@ pipnssBundle
 GetStringFromName
 (
 stringName
-getter_Copies
-(
 result
-)
 )
 ;
 }
@@ -683,10 +680,7 @@ FormatStringFromName
 stringName
 params
 numParams
-getter_Copies
-(
 result
-)
 )
 ;
 }

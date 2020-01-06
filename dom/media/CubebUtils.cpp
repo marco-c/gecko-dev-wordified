@@ -2125,7 +2125,7 @@ sBrandName
 return
 ;
 }
-nsXPIDLString
+nsAutoString
 brandName
 ;
 nsCOMPtr
@@ -2188,10 +2188,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 brandName
-)
 )
 ;
 NS_WARNING_ASSERTION

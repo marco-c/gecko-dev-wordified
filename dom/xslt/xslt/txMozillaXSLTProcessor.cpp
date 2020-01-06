@@ -4756,7 +4756,7 @@ if
 sbs
 )
 {
-nsXPIDLString
+nsAutoString
 errorText
 ;
 sbs
@@ -4772,13 +4772,10 @@ EmptyString
 get
 (
 )
-getter_Copies
-(
 errorText
 )
-)
 ;
-nsXPIDLString
+nsAutoString
 errorMessage
 ;
 nsCOMPtr
@@ -4834,10 +4831,7 @@ TransformError
 "
 error
 1
-getter_Copies
-(
 errorMessage
-)
 )
 ;
 }
@@ -4853,10 +4847,7 @@ LoadingError
 "
 error
 1
-getter_Copies
-(
 errorMessage
-)
 )
 ;
 }

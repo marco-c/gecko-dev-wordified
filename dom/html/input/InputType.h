@@ -439,7 +439,7 @@ virtual
 nsresult
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -448,7 +448,7 @@ virtual
 nsresult
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -457,7 +457,7 @@ virtual
 nsresult
 GetRangeOverflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -466,7 +466,7 @@ virtual
 nsresult
 GetRangeUnderflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -475,7 +475,7 @@ virtual
 nsresult
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

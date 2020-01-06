@@ -669,7 +669,7 @@ URLInputType
 :
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -884,7 +884,7 @@ EmailInputType
 :
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -912,7 +912,7 @@ EmailInputType
 :
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

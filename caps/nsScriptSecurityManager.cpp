@@ -6394,7 +6394,7 @@ hasFlags
 hasSubsumersFlag
 )
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 NS_ConvertASCIItoUTF16
@@ -6433,10 +6433,7 @@ ArrayLength
 (
 formatStrings
 )
-getter_Copies
-(
 message
-)
 )
 ;
 if
@@ -6582,7 +6579,7 @@ Localize
 the
 error
 message
-nsXPIDLString
+nsAutoString
 message
 ;
 NS_ConvertASCIItoUTF16
@@ -6630,10 +6627,7 @@ ArrayLength
 (
 formatStrings
 )
-getter_Copies
-(
 message
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7848,7 +7842,7 @@ GetName
 nsresult
 rv
 ;
-nsXPIDLString
+nsAutoString
 errorMsg
 ;
 if
@@ -7887,10 +7881,7 @@ CreateWrapperDenied
 "
 formatStrings
 1
-getter_Copies
-(
 errorMsg
-)
 )
 ;
 }
@@ -7928,10 +7919,7 @@ CreateWrapperDeniedForOrigin
 "
 formatStrings
 2
-getter_Copies
-(
 errorMsg
-)
 )
 ;
 }

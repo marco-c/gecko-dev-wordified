@@ -5016,10 +5016,7 @@ EnterLoginForRealm3
 "
 strings
 2
-getter_Copies
-(
 nsmessage
-)
 )
 ;
 }
@@ -5050,10 +5047,7 @@ EnterUserPasswordFor2
 "
 strings
 1
-getter_Copies
-(
 nsmessage
-)
 )
 ;
 }
@@ -5096,10 +5090,7 @@ EnterPasswordFor
 "
 strings
 2
-getter_Copies
-(
 nsmessage
-)
 )
 ;
 }

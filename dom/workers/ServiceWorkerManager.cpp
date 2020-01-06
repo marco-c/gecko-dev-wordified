@@ -9556,7 +9556,7 @@ return
 nsresult
 rv
 ;
-nsXPIDLString
+nsAutoString
 message
 ;
 rv

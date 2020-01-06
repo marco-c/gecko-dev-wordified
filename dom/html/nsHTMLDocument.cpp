@@ -4903,7 +4903,7 @@ loaded
 "
 )
 ;
-nsXPIDLString
+nsAutoString
 title
 ;
 if
@@ -4921,10 +4921,7 @@ plainText
 .
 wordWrap
 "
-getter_Copies
-(
 title
-)
 )
 ;
 }

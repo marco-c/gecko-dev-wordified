@@ -2956,7 +2956,7 @@ get
 these
 formats
 once
-nsXPIDLString
+nsAutoString
 pageNumberFormat
 ;
 /

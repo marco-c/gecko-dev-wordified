@@ -7158,7 +7158,7 @@ sbs
 return
 NS_ERROR_FAILURE
 ;
-nsXPIDLString
+nsAutoString
 msg
 ;
 nsresult
@@ -7171,10 +7171,7 @@ FormatStatusMessage
 (
 aStatus
 aStatusArg
-getter_Copies
-(
 msg
-)
 )
 ;
 if
@@ -7354,6 +7351,10 @@ this
 aRequest
 aStatus
 msg
+.
+get
+(
+)
 )
 ;
 }

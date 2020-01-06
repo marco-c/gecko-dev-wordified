@@ -263,7 +263,7 @@ rv
 bundle
 )
 {
-nsXPIDLString
+nsAutoString
 valUni
 ;
 rv
@@ -274,10 +274,7 @@ bundle
 GetStringFromName
 (
 aKey
-getter_Copies
-(
 valUni
-)
 )
 ;
 if
@@ -286,9 +283,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-valUni
 )
 {
 oVal
@@ -356,7 +350,7 @@ rv
 bundle
 )
 {
-nsXPIDLString
+nsAutoString
 valUni
 ;
 rv
@@ -367,10 +361,7 @@ bundle
 GetStringFromID
 (
 aID
-getter_Copies
-(
 valUni
-)
 )
 ;
 if
@@ -379,9 +370,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-valUni
 )
 {
 oVal

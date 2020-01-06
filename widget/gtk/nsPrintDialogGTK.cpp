@@ -413,7 +413,7 @@ printBundle
 )
 )
 ;
-nsXPIDLString
+nsAutoString
 intlString
 ;
 printBundle
@@ -424,10 +424,7 @@ GetStringFromName
 "
 headerFooterCustom
 "
-getter_Copies
-(
 intlString
-)
 )
 ;
 GtkWidget
@@ -507,10 +504,7 @@ GetStringFromName
 "
 customHeaderFooterPrompt
 "
-getter_Copies
-(
 intlString
-)
 )
 ;
 GtkWidget
@@ -2623,7 +2617,7 @@ char
 aKey
 )
 {
-nsXPIDLString
+nsAutoString
 intlString
 ;
 printBundle
@@ -2632,10 +2626,7 @@ printBundle
 GetStringFromName
 (
 aKey
-getter_Copies
-(
 intlString
-)
 )
 ;
 return

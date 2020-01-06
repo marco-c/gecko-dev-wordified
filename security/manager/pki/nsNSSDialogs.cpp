@@ -1648,10 +1648,7 @@ GetStringFromName
 "
 getPKCS12FilePasswordMessage
 "
-getter_Copies
-(
 msg
-)
 )
 ;
 if

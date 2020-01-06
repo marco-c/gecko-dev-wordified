@@ -616,7 +616,7 @@ HTMLSummaryElement
 nodeInfo
 )
 ;
-nsXPIDLString
+nsAutoString
 defaultSummaryText
 ;
 nsContentUtils

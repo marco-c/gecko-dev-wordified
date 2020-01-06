@@ -2470,7 +2470,7 @@ GenericFileName
 "
 ;
 }
-nsXPIDLString
+nsAutoString
 fileName
 ;
 nsresult

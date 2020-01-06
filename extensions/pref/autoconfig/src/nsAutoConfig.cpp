@@ -3103,7 +3103,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsAutoString
 title
 ;
 rv
@@ -3116,10 +3116,7 @@ GetStringFromName
 "
 emailPromptTitle
 "
-getter_Copies
-(
 title
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3128,7 +3125,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsAutoString
 err
 ;
 rv
@@ -3141,10 +3138,7 @@ GetStringFromName
 "
 emailPromptMsg
 "
-getter_Copies
-(
 err
-)
 )
 ;
 NS_ENSURE_SUCCESS

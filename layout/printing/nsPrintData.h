@@ -692,8 +692,7 @@ nsPrintPreviewListener
 *
 mPPEventListeners
 ;
-char16_t
-*
+nsString
 mBrandName
 ;
 /

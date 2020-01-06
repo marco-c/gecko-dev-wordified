@@ -967,10 +967,7 @@ theBundle
 GetStringFromName
 (
 id_str
-getter_Copies
-(
 msg
-)
 )
 ;
 if

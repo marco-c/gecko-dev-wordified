@@ -8392,7 +8392,7 @@ const
 char
 *
 aName
-nsXPIDLString
+nsAString
 &
 aString
 )
@@ -8460,10 +8460,7 @@ stringBundle
 GetStringFromName
 (
 aName
-getter_Copies
-(
 aString
-)
 )
 ;
 return
@@ -8659,7 +8656,7 @@ NS_MAX_FILEDESCRIPTOR
 )
 )
 {
-nsXPIDLString
+nsAutoString
 untitled
 ;
 if
@@ -8923,7 +8920,7 @@ NS_MAX_FILEDESCRIPTOR
 )
 )
 {
-nsXPIDLString
+nsAutoString
 untitled
 ;
 if

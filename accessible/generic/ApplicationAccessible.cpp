@@ -435,7 +435,7 @@ rv
 return
 eNameOK
 ;
-nsXPIDLString
+nsAutoString
 appName
 ;
 rv
@@ -448,10 +448,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 appName
-)
 )
 ;
 if

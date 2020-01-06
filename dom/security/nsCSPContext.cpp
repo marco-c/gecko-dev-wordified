@@ -4800,7 +4800,7 @@ if
 mQueueUpMessages
 )
 {
-nsXPIDLString
+nsAutoString
 msg
 ;
 CSP_GetLocalizedStr
@@ -4808,10 +4808,7 @@ CSP_GetLocalizedStr
 aName
 aParams
 aParamsLength
-getter_Copies
-(
 msg
-)
 )
 ;
 ConsoleMsgQueueElem

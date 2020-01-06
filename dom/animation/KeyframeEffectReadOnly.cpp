@@ -6009,7 +6009,7 @@ property
 .
 mIsRunningOnCompositor
 ;
-nsXPIDLString
+nsAutoString
 localizedString
 ;
 if
@@ -9095,7 +9095,7 @@ Some
 aWarning
 )
 ;
-nsXPIDLString
+nsAutoString
 localizedString
 ;
 if

@@ -650,7 +650,7 @@ DateTimeInputTypeBase
 :
 GetRangeOverflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -710,7 +710,7 @@ DateTimeInputTypeBase
 :
 GetRangeUnderflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -911,7 +911,7 @@ DateInputType
 :
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

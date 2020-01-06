@@ -1508,7 +1508,7 @@ mPIPNSSBundle
 name
 )
 {
-nsXPIDLString
+nsAutoString
 result
 ;
 rv
@@ -1521,10 +1521,7 @@ FormatStringFromName
 name
 params
 numParams
-getter_Copies
-(
 result
-)
 )
 ;
 if
@@ -1586,7 +1583,7 @@ mPIPNSSBundle
 name
 )
 {
-nsXPIDLString
+nsAutoString
 result
 ;
 rv
@@ -1597,10 +1594,7 @@ mPIPNSSBundle
 GetStringFromName
 (
 name
-getter_Copies
-(
 result
-)
 )
 ;
 if
@@ -1666,7 +1660,7 @@ mNSSErrorsBundle
 name
 )
 {
-nsXPIDLString
+nsAutoString
 result
 ;
 rv
@@ -1677,10 +1671,7 @@ mNSSErrorsBundle
 GetStringFromName
 (
 name
-getter_Copies
-(
 result
-)
 )
 ;
 if

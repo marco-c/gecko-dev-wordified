@@ -142,7 +142,7 @@ nsTArray
 h
 "
 class
-nsXPIDLString
+nsAString
 ;
 namespace
 mozilla
@@ -401,7 +401,7 @@ mParams
 bool
 ToLocalizedString
 (
-nsXPIDLString
+nsAString
 &
 aLocalizedString
 )
@@ -419,7 +419,7 @@ const
 char
 *
 aKey
-nsXPIDLString
+nsAString
 &
 aLocalizedString
 )

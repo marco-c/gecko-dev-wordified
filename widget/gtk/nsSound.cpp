@@ -817,10 +817,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 wbrand
-)
 )
 ;
 NS_ConvertUTF16toUTF8

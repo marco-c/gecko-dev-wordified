@@ -649,9 +649,8 @@ char16_t
 aParams
 uint32_t
 aLength
-char16_t
-*
-*
+nsAString
+&
 outResult
 )
 {
@@ -1174,7 +1173,7 @@ uint64_t
 aInnerWindowID
 )
 {
-nsXPIDLString
+nsAutoString
 logMsg
 ;
 CSP_GetLocalizedStr
@@ -1182,10 +1181,7 @@ CSP_GetLocalizedStr
 aName
 aParams
 aLength
-getter_Copies
-(
 logMsg
-)
 )
 ;
 CSP_LogMessage
