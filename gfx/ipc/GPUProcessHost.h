@@ -260,6 +260,9 @@ GPUProcessHost
 final
 :
 public
+mozilla
+:
+:
 ipc
 :
 :
@@ -817,6 +820,9 @@ Listener
 *
 mListener
 ;
+mozilla
+:
+:
 ipc
 :
 :

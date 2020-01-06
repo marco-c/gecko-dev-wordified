@@ -3871,6 +3871,7 @@ NotifyIME
 (
 aMessage
 mPresContext
+mTabParent
 )
 ;
 }

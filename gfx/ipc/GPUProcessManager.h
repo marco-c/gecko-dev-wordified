@@ -609,6 +609,9 @@ base
 :
 ProcessId
 aOtherProcess
+mozilla
+:
+:
 ipc
 :
 :
@@ -618,6 +621,9 @@ PCompositorManagerChild
 >
 *
 aOutCompositor
+mozilla
+:
+:
 ipc
 :
 :
@@ -627,6 +633,9 @@ PImageBridgeChild
 >
 *
 aOutImageBridge
+mozilla
+:
+:
 ipc
 :
 :
@@ -636,6 +645,9 @@ PVRManagerChild
 >
 *
 aOutVRBridge
+mozilla
+:
+:
 ipc
 :
 :
@@ -1213,6 +1225,9 @@ base
 :
 ProcessId
 aOtherProcess
+mozilla
+:
+:
 ipc
 :
 :
@@ -1232,6 +1247,9 @@ base
 :
 ProcessId
 aOtherProcess
+mozilla
+:
+:
 ipc
 :
 :
@@ -1251,6 +1269,9 @@ base
 :
 ProcessId
 aOtherProcess
+mozilla
+:
+:
 ipc
 :
 :
@@ -1270,6 +1291,9 @@ base
 :
 ProcessId
 aOtherProcess
+mozilla
+:
+:
 ipc
 :
 :
@@ -1574,6 +1598,9 @@ Observer
 >
 mObserver
 ;
+mozilla
+:
+:
 ipc
 :
 :
