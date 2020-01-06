@@ -1696,7 +1696,7 @@ window_creation_scale_factor
 )
 )
 .
-to_uint
+to_usize
 (
 )
 .
