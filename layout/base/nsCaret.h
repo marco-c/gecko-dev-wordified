@@ -574,6 +574,11 @@ content
 bool
 IsVisible
 (
+nsISelection
+*
+aSelection
+=
+nullptr
 )
 ;
 /
