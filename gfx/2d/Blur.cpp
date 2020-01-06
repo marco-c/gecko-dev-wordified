@@ -4034,6 +4034,7 @@ AlphaBoxBlur
 GetSize
 (
 )
+const
 {
 IntSize
 size
@@ -4061,6 +4062,7 @@ AlphaBoxBlur
 GetStride
 (
 )
+const
 {
 return
 mStride
@@ -4073,6 +4075,7 @@ AlphaBoxBlur
 GetRect
 (
 )
+const
 {
 return
 mRect
@@ -4124,6 +4127,7 @@ uint8_t
 *
 aData
 )
+const
 {
 if
 (
@@ -5766,6 +5770,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 {
 IntSize
 size

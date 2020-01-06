@@ -629,6 +629,7 @@ IntSize
 GetSize
 (
 )
+const
 ;
 /
 *
@@ -657,6 +658,7 @@ int32_t
 GetStride
 (
 )
+const
 ;
 /
 *
@@ -682,6 +684,7 @@ IntRect
 GetRect
 (
 )
+const
 ;
 /
 *
@@ -895,6 +898,7 @@ uint8_t
 *
 aData
 )
+const
 ;
 /
 *
@@ -984,6 +988,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 ;
 void
 BoxBlur_SSE2
@@ -1005,6 +1010,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 ;
 #
 ifdef
@@ -1029,6 +1035,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 ;
 #
 endif
@@ -1055,6 +1062,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 ;
 #
 endif

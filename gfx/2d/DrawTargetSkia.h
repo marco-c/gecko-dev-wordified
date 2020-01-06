@@ -790,6 +790,17 @@ PopLayer
 override
 ;
 virtual
+void
+Blur
+(
+const
+AlphaBoxBlur
+&
+aBlur
+)
+override
+;
+virtual
 already_AddRefed
 <
 SourceSurface
