@@ -122,7 +122,7 @@ at
 /
 /
 all
-show
+should
 throw
 .
 dbg

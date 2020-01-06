@@ -2096,8 +2096,8 @@ SprintfLiteral
 linenoStr
 "
 %
-zu
 "
+PRIuSIZE
 script
 -
 >
@@ -57403,7 +57403,7 @@ callee
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 callee
 -
@@ -57412,7 +57412,7 @@ isInterpreted
 (
 )
 )
-{
+;
 RootedScript
 script
 (
@@ -57444,7 +57444,6 @@ scriptObject
 return
 false
 ;
-}
 }
 else
 if
@@ -57544,14 +57543,20 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+scriptObject
+)
+;
 args
 .
 rval
 (
 )
 .
-setObjectOrNull
+setObject
 (
+*
 scriptObject
 )
 ;
