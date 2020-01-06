@@ -1787,9 +1787,6 @@ connectDebuggerServer
 createDebuggerClient
 "
 "
-getTargetForTab
-"
-"
 getToolbox
 "
 "
@@ -1842,6 +1839,9 @@ let
 webExtensionsMethods
 =
 [
+"
+getTargetForTab
+"
 "
 getTheme
 "
