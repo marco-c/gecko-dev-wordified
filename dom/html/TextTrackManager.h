@@ -1001,6 +1001,12 @@ ReportTelemetryForCue
 (
 )
 ;
+bool
+IsShutdown
+(
+)
+const
+;
 /
 /
 If
