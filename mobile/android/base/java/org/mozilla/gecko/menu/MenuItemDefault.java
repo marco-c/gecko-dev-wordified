@@ -223,9 +223,13 @@ attr
 state_checkable
 }
 ;
-private
+protected
 Drawable
 mIcon
+;
+protected
+boolean
+mShowIcon
 ;
 private
 final
@@ -248,10 +252,6 @@ mChecked
 private
 boolean
 mHasSubMenu
-;
-private
-boolean
-mShowIcon
 ;
 public
 MenuItemDefault
@@ -589,7 +589,7 @@ hasSubMenu
 )
 ;
 }
-private
+protected
 void
 refreshIcon
 (

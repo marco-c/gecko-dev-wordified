@@ -233,6 +233,14 @@ ITEM_TYPE_DEFAULT
 =
 0x00
 ;
+public
+static
+final
+int
+ITEM_TYPE_ICON
+=
+0x01
+;
 /
 /
 A
