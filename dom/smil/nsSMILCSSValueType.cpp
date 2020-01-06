@@ -1847,7 +1847,6 @@ value
 nsCSSPropertyID
 property
 =
-(
 valueToAddWrapper
 ?
 valueToAddWrapper
@@ -1859,7 +1858,6 @@ destWrapper
 -
 >
 mPropID
-)
 ;
 /
 /
