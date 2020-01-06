@@ -1916,6 +1916,10 @@ to
 "
 "
     
+appDir
+=
+None
+    
 try
 :
         
@@ -2133,6 +2137,10 @@ False
 finally
 :
         
+if
+appDir
+:
+            
 subprocess
 .
 call
@@ -2147,7 +2155,7 @@ quiet
 '
 %
 appDir
-                        
+                            
 shell
 =
 True
