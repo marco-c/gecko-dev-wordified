@@ -2847,7 +2847,7 @@ nsTArray
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 >
 &
