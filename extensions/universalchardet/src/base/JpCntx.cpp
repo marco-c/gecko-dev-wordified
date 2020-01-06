@@ -7429,8 +7429,6 @@ order
 ;
 }
 }
-return
-;
 }
 void
 JapaneseContextAnalysis

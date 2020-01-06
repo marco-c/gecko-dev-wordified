@@ -363,8 +363,6 @@ type
 "
 )
 ;
-return
-;
 }
 static
 uint16_t

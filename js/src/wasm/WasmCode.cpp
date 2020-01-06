@@ -1201,8 +1201,6 @@ size
 #
 endif
 }
-return
-;
 }
 /
 *

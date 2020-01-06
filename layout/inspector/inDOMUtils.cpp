@@ -1828,6 +1828,11 @@ rawRuleList
 Servo_ComputedValues_GetStyleRuleList
 (
 servo
+-
+>
+ComputedValues
+(
+)
 &
 rawRuleList
 )
@@ -3474,8 +3479,6 @@ currentColor
 )
 ;
 }
-return
-;
 }
 static
 void

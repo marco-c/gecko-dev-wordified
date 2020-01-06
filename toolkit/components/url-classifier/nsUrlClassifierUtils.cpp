@@ -4584,8 +4584,6 @@ canonical
 ;
 }
 }
-return
-;
 }
 void
 nsUrlClassifierUtils

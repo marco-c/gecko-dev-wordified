@@ -2297,8 +2297,6 @@ errStrayDoctype
 (
 )
 ;
-return
-;
 }
 void
 nsHtml5TreeBuilder
@@ -2405,8 +2403,6 @@ buf
 start
 length
 )
-;
-return
 ;
 }
 void
@@ -15820,8 +15816,6 @@ clearTheListOfActiveFormattingElementsUpToTheLastMarker
 mode
 =
 IN_ROW
-;
-return
 ;
 }
 int32_t

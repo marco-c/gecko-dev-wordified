@@ -11953,8 +11953,6 @@ mDeleted
 true
 ;
 }
-return
-;
 }
 void
 PluginModuleChild

@@ -380,8 +380,6 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
-return
-;
 }
 void
 SpeechGrammarList
@@ -430,8 +428,6 @@ AppendElement
 (
 speechGrammar
 )
-;
-return
 ;
 }
 already_AddRefed

@@ -8024,8 +8024,6 @@ mDivertListener
 )
 ;
 }
-return
-;
 }
 void
 HttpChannelParent
@@ -12555,8 +12553,6 @@ HttpChannelParent
 StartDiversion
 )
 )
-;
-return
 ;
 }
 void

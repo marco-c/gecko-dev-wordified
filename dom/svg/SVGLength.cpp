@@ -1417,8 +1417,6 @@ an
 invalid
 unit
 ?
-return
-;
 }
 static
 uint16_t

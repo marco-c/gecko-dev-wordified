@@ -494,8 +494,6 @@ called
 "
 )
 ;
-return
-;
 }
 bool
 WebRenderTextureHost

@@ -3530,8 +3530,6 @@ supported
 "
 )
 ;
-return
-;
 }
 static
 void

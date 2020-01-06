@@ -2412,8 +2412,6 @@ add
 lir
 )
 ;
-return
-;
 }
 /
 /

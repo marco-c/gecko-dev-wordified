@@ -878,8 +878,6 @@ mCurrentState
 )
 )
 ;
-return
-;
 }
 JSObject
 *
@@ -1859,8 +1857,6 @@ STATE_COUNT
 )
 ;
 }
-return
-;
 }
 /
 *
@@ -2845,8 +2841,6 @@ mError
 defaultActionEnabled
 )
 ;
-return
-;
 }
 /
 *
@@ -3384,8 +3378,6 @@ handle
 the
 request
 }
-return
-;
 }
 already_AddRefed
 <
@@ -3509,8 +3501,6 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
-return
-;
 }
 bool
 SpeechRecognition
@@ -3538,8 +3528,6 @@ aArg
 mInterimResults
 =
 aArg
-;
-return
 ;
 }
 uint32_t
@@ -3569,8 +3557,6 @@ mMaxAlternatives
 =
 aArg
 ;
-return
-;
 }
 void
 SpeechRecognition
@@ -3594,8 +3580,6 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
-return
-;
 }
 void
 SpeechRecognition
@@ -3618,8 +3602,6 @@ Throw
 (
 NS_ERROR_NOT_IMPLEMENTED
 )
-;
-return
 ;
 }
 void
@@ -5017,8 +4999,6 @@ NS_DispatchToMainThread
 (
 event
 )
-;
-return
 ;
 }
 const

@@ -4911,8 +4911,6 @@ StartDiversion
 )
 )
 ;
-return
-;
 }
 void
 FTPChannelParent

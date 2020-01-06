@@ -315,8 +315,6 @@ Device
 "
 )
 ;
-return
-;
 }
 void
 MediaEngineDefaultVideoSource
@@ -346,8 +344,6 @@ AssignLiteral
 1EC556DD5676
 "
 )
-;
-return
 ;
 }
 uint32_t
@@ -1988,8 +1984,6 @@ Device
 "
 )
 ;
-return
-;
 }
 void
 MediaEngineDefaultAudioSource
@@ -2019,8 +2013,6 @@ B7CBD7C1
 73F61C70C092
 "
 )
-;
-return
 ;
 }
 uint32_t
@@ -2733,8 +2725,6 @@ AppendElement
 newSource
 )
 ;
-return
-;
 }
 void
 MediaEngineDefault
@@ -2888,8 +2878,6 @@ newSource
 )
 ;
 }
-return
-;
 }
 }
 /

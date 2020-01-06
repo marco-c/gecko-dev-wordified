@@ -6417,8 +6417,6 @@ SetMiscAtomOrString
 aValue
 )
 ;
-return
-;
 }
 void
 nsAttrValue

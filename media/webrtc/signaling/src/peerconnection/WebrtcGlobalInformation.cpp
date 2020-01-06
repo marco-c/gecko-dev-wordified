@@ -2780,8 +2780,6 @@ aRv
 =
 rv
 ;
-return
-;
 }
 static
 nsresult
@@ -3298,8 +3296,6 @@ mRequestId
 aRv
 =
 rv
-;
-return
 ;
 }
 static
@@ -3994,8 +3990,6 @@ aWhy
 mShutdown
 =
 true
-;
-return
 ;
 }
 mozilla

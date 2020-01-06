@@ -292,8 +292,6 @@ aRetVal
 =
 mSrc
 ;
-return
-;
 }
 void
 SpeechGrammar
@@ -313,8 +311,6 @@ aRv
 mSrc
 =
 aArg
-;
-return
 ;
 }
 float
@@ -359,8 +355,6 @@ Throw
 (
 NS_ERROR_NOT_IMPLEMENTED
 )
-;
-return
 ;
 }
 }

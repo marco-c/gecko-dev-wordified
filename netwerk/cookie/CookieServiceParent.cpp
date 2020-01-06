@@ -427,8 +427,6 @@ forget
 aChannel
 )
 ;
-return
-;
 }
 }
 namespace

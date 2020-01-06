@@ -1332,6 +1332,4 @@ default
 :
 ;
 }
-return
-;
 }

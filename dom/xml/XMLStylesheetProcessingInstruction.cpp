@@ -855,8 +855,6 @@ css
 "
 )
 ;
-return
-;
 }
 nsGenericDOMDataNode
 *

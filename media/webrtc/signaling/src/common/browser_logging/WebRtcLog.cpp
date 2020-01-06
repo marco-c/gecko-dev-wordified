@@ -1376,8 +1376,6 @@ aLogFile
 )
 ;
 }
-return
-;
 }
 void
 StartWebRtcLog
@@ -1501,8 +1499,6 @@ aec_log_dir
 multi_log
 )
 ;
-return
-;
 }
 void
 EnableWebRtcLog
@@ -1569,8 +1565,6 @@ log_file
 aec_log_dir
 multi_log
 )
-;
-return
 ;
 }
 /

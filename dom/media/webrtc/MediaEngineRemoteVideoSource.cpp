@@ -433,8 +433,6 @@ mInitDone
 =
 true
 ;
-return
-;
 }
 void
 MediaEngineRemoteVideoSource
@@ -595,8 +593,6 @@ kReleased
 mInitDone
 =
 false
-;
-return
 ;
 }
 nsresult

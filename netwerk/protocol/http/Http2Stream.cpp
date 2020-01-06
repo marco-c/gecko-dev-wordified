@@ -7592,8 +7592,6 @@ ClearTransactionsBlockedOnTunnel
 )
 ;
 }
-return
-;
 }
 bool
 Http2Stream

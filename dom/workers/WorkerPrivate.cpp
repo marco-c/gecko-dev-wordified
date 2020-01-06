@@ -4687,8 +4687,6 @@ ModifyBusyCountFromWorker
 false
 )
 ;
-return
-;
 }
 virtual
 bool

@@ -403,8 +403,6 @@ test_void_t_cdecl
 /
 do
 nothing
-return
-;
 }
 /
 /

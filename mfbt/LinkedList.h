@@ -3303,8 +3303,6 @@ popFirst
 )
 )
 {
-continue
-;
 }
 }
 /

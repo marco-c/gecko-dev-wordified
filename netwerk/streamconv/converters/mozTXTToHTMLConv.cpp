@@ -400,8 +400,6 @@ aStringToAppendTo
 ch
 ;
 }
-return
-;
 }
 /
 /
@@ -2870,8 +2868,6 @@ temp2
 Length
 (
 )
-;
-return
 ;
 }
 bool

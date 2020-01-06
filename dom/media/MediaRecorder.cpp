@@ -8557,11 +8557,7 @@ event
 "
 )
 ;
-return
-;
 }
-return
-;
 }
 void
 MediaRecorder

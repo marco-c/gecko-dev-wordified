@@ -486,8 +486,6 @@ cmp
 aValue
 )
 ;
-return
-;
 }
 T
 *

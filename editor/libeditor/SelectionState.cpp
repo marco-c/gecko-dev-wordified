@@ -2814,8 +2814,6 @@ len
 ;
 }
 }
-return
-;
 }
 nsresult
 RangeUpdater

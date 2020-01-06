@@ -2642,8 +2642,6 @@ css
 "
 )
 ;
-return
-;
 }
 CORSMode
 HTMLLinkElement

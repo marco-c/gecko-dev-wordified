@@ -555,8 +555,6 @@ userData
 RecordingSourceSurfaceUserDataFunc
 )
 ;
-return
-;
 }
 class
 SourceSurfaceRecording

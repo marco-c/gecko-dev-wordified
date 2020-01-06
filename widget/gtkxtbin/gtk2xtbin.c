@@ -4345,6 +4345,4 @@ void
 children
 )
 ;
-return
-;
 }

@@ -1595,8 +1595,6 @@ AddStates
 NS_EVENT_STATE_UNRESOLVED
 )
 ;
-return
-;
 }
 void
 CustomElementRegistry
@@ -4902,8 +4900,6 @@ data
 >
 mConstructor
 )
-;
-return
 ;
 }
 already_AddRefed

@@ -1021,8 +1021,6 @@ this
 )
 ;
 }
-return
-;
 }
 void
 SpeechSynthesis

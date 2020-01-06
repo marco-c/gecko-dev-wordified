@@ -2472,8 +2472,6 @@ zero
 =
 0
 ;
-continue
-;
 }
 #
 endif

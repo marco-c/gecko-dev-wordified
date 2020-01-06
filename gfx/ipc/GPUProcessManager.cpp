@@ -5163,8 +5163,6 @@ Move
 childPipe
 )
 ;
-return
-;
 }
 already_AddRefed
 <

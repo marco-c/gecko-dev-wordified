@@ -1794,12 +1794,8 @@ requestCharset
 )
 ;
 }
-return
-;
 }
 }
-return
-;
 }
 void
 nsHTMLDocument
@@ -5045,8 +5041,6 @@ UnblockOnload
 (
 false
 )
-;
-return
 ;
 }
 void

@@ -9645,8 +9645,6 @@ DumpState
 (
 )
 ;
-return
-;
 }
 void
 Http2Compressor

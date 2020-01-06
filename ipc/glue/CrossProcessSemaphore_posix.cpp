@@ -804,8 +804,6 @@ errno
 EINTR
 )
 {
-continue
-;
 }
 }
 else
@@ -832,8 +830,6 @@ errno
 EINTR
 )
 {
-continue
-;
 }
 }
 return

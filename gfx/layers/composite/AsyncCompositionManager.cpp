@@ -4091,8 +4091,6 @@ aClipPartsCache
 ;
 }
 }
-return
-;
 }
 static
 void

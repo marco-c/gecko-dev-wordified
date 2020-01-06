@@ -576,8 +576,6 @@ tree
 "
 )
 ;
-return
-;
 }
 virtual
 Element

@@ -555,8 +555,6 @@ userData
 WrapAndRecordSourceSurfaceUserDataFunc
 )
 ;
-return
-;
 }
 class
 SourceSurfaceWrapAndRecord

@@ -3556,8 +3556,6 @@ return
 ;
 }
 }
-return
-;
 }
 nsresult
 nsXULTooltipListener

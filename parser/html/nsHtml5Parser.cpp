@@ -4540,8 +4540,6 @@ NS_OK
 ;
 }
 }
-continue
-;
 }
 }
 nsresult

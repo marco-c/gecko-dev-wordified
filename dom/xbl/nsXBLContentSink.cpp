@@ -461,8 +461,6 @@ bool
 aIgnorePendingSheets
 )
 {
-return
-;
 }
 nsresult
 nsXBLContentSink

@@ -1267,8 +1267,6 @@ bool
 aIgnorePendingSheets
 )
 {
-return
-;
 }
 /
 /

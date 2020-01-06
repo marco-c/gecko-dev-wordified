@@ -5745,8 +5745,6 @@ AppendElement
 )
 ;
 }
-return
-;
 }
 /
 *

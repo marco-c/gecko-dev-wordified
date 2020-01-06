@@ -750,8 +750,6 @@ protocols
 need
 to
 overload
-return
-;
 }
 /
 /
@@ -802,8 +800,6 @@ protocols
 need
 to
 overload
-return
-;
 }
 /
 /

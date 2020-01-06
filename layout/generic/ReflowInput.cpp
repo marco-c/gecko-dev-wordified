@@ -9297,8 +9297,6 @@ aOutsideBoxSizing
 =
 outside
 ;
-return
-;
 }
 /
 *

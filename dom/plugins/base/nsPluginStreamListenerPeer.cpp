@@ -3404,8 +3404,6 @@ numRequests
 =
 requestCnt
 ;
-return
-;
 }
 /
 /

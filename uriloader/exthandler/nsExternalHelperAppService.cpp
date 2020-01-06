@@ -10820,8 +10820,6 @@ SetApplyConversion
 applyConversion
 )
 ;
-return
-;
 }
 NS_IMETHODIMP
 nsExternalAppHandler
