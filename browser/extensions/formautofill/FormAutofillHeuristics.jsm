@@ -1621,7 +1621,7 @@ label
 of
 doc
 .
-querySelectorAll
+getElementsByTagName
 (
 "
 label
