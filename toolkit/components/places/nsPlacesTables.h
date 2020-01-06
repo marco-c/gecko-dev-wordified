@@ -217,6 +217,16 @@ NULL
 "
 \
 "
+description
+TEXT
+"
+\
+"
+preview_image_url
+TEXT
+"
+\
+"
 )
 "
 \
