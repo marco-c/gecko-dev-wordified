@@ -53921,10 +53921,6 @@ aLoadGroup
 aContentType
 this
 nullptr
-nsIDocumentLoaderFactory
-:
-:
-STYLE_BACKEND_TYPE_NONE
 aContentHandler
 aViewer
 )

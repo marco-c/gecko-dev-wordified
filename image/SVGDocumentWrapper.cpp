@@ -1813,10 +1813,6 @@ IMAGE_SVG_XML
 )
 nullptr
 nullptr
-nsIDocumentLoaderFactory
-:
-:
-STYLE_BACKEND_TYPE_NONE
 getter_AddRefs
 (
 listener
