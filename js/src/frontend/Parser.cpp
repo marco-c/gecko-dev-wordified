@@ -2989,10 +2989,6 @@ useAsm
 (
 false
 )
-insideUseAsm
-(
-false
-)
 isAnnexB
 (
 false
