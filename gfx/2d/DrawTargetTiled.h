@@ -658,12 +658,6 @@ aOptions
 DrawOptions
 (
 )
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
-=
-nullptr
 )
 override
 ;

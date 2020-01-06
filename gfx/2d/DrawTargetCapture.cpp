@@ -1107,10 +1107,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 AppendCommand
@@ -1122,7 +1118,6 @@ aFont
 aBuffer
 aPattern
 aOptions
-aRenderingOptions
 )
 ;
 }
@@ -1151,10 +1146,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 AppendCommand
@@ -1167,7 +1158,6 @@ aBuffer
 aPattern
 aStrokeOptions
 aOptions
-aRenderingOptions
 )
 ;
 }
@@ -1862,9 +1852,6 @@ AA
 on
 the
 DrawOptions
-and
-the
-GlyphRenderingOptions
 aGlyphs
 .
 insert

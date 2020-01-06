@@ -1331,10 +1331,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 RefPtr

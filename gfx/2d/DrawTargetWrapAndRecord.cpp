@@ -2176,10 +2176,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 EnsurePatternDependenciesStored
@@ -2499,7 +2495,6 @@ AdjustedPattern
 aPattern
 )
 aOptions
-aRenderingOptions
 )
 ;
 }
