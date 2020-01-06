@@ -13266,15 +13266,6 @@ lang_arg
 NonTSPseudoClass
 :
 :
-MozSystemMetric
-(
-ref
-s
-)
-|
-NonTSPseudoClass
-:
-:
 MozLocaleDir
 (
 ref
