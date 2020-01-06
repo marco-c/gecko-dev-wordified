@@ -1184,6 +1184,12 @@ endif
 DEBUG
 }
 ;
+enum
+class
+ServoPostTraversalFlags
+:
+uint32_t
+;
 /
 *
 *
@@ -1794,8 +1800,8 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
-bool
-aParentWasRestyled
+ServoPostTraversalFlags
+aFlags
 )
 ;
 struct
@@ -1813,8 +1819,8 @@ aState
 ServoRestyleState
 &
 aRestyleState
-bool
-aParentWasRestyled
+ServoPostTraversalFlags
+aFlags
 )
 ;
 inline
