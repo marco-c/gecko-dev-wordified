@@ -984,6 +984,7 @@ NS_DECL_ISUPPORTS_INHERITED
 #
 ifdef
 DEBUG
+virtual
 void
 List
 (
@@ -998,10 +999,11 @@ aIndent
 0
 )
 const
-final
+override
 ;
 #
 endif
+virtual
 already_AddRefed
 <
 mozilla
@@ -1016,7 +1018,7 @@ Clone
 (
 )
 const
-final
+override
 ;
 /
 /
@@ -1096,6 +1098,7 @@ return
 mFeatureValues
 ;
 }
+virtual
 size_t
 SizeOfIncludingThis
 (
@@ -1106,7 +1109,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-final
+override
 ;
 protected
 :

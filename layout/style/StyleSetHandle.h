@@ -250,9 +250,6 @@ nsStyleSet
 class
 nsPresContext
 ;
-class
-gfxFontFeatureValueSet
-;
 struct
 TreeMatchContext
 ;
@@ -1144,15 +1141,6 @@ CounterStyleRuleForName
 nsIAtom
 *
 aName
-)
-;
-inline
-already_AddRefed
-<
-gfxFontFeatureValueSet
->
-BuildFontFeatureValueSet
-(
 )
 ;
 inline
