@@ -2990,6 +2990,14 @@ lir
 )
 ;
 void
+visitIsTypedArray
+(
+LIsTypedArray
+*
+lir
+)
+;
+void
 visitIsObject
 (
 LIsObject
