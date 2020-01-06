@@ -8106,13 +8106,6 @@ elements
 it
 contains
 .
-if
-(
-!
-this
-.
-panelViews
-)
 this
 .
 descriptionHeightWorkaround
