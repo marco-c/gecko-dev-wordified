@@ -17637,13 +17637,6 @@ guid
 val
 oldVal
 )
-.
-catch
-(
-Cu
-.
-reportError
-)
 ;
 }
 else
@@ -17675,7 +17668,6 @@ reportError
 ;
 }
 }
-async
 _onKeywordChanged
 (
 guid

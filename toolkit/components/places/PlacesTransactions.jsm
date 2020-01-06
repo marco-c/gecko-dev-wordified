@@ -4820,7 +4820,6 @@ _mainEnqueuer
 .
 enqueue
 (
-async
 (
 )
 =
@@ -7404,7 +7403,6 @@ this
 with
 insertTree
 .
-async
 function
 createItemsFromBookmarksTree
 (
@@ -11902,7 +11900,6 @@ Untag
 prototype
 =
 {
-async
 execute
 (
 {

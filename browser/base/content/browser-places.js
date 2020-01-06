@@ -1654,7 +1654,6 @@ aPosition
 )
 ;
 }
-async
 _doShowEditBookmarkPanel
 (
 aNode

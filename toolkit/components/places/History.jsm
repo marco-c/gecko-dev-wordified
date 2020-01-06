@@ -8466,7 +8466,6 @@ execute
 (
 query
 null
-async
 function
 (
 row
@@ -8976,7 +8975,6 @@ insert
 var
 insert
 =
-async
 function
 (
 db
@@ -9070,7 +9068,6 @@ insertMany
 var
 insertMany
 =
-async
 function
 (
 db
