@@ -51848,12 +51848,12 @@ checks
 jit
 :
 :
-Simulator
+SimulatorProcess
 :
 :
-ICacheCheckingEnabled
+ICacheCheckingDisableCount
 =
-true
+0
 ;
 int32_t
 stopAt

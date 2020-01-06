@@ -427,6 +427,8 @@ int32_t
 )
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 MoveOp
 :
@@ -791,6 +793,8 @@ sizeof
 int32_t
 )
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 MoveOp
