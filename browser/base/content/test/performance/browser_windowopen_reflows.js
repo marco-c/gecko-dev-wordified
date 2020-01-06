@@ -406,7 +406,7 @@ tabsintitlebar
 js
 "
 "
-updateAppearance
+init
 chrome
 :
 /
@@ -591,7 +591,7 @@ tabsintitlebar
 js
 "
 "
-updateAppearance
+init
 chrome
 :
 /
@@ -675,7 +675,7 @@ tabsintitlebar
 js
 "
 "
-updateAppearance
+init
 chrome
 :
 /
