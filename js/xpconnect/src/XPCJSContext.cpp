@@ -3736,6 +3736,7 @@ win
 >
 ShowSlowScriptDialog
 (
+addonId
 )
 ;
 if
