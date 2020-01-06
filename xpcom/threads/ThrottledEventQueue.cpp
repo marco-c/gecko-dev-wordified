@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
