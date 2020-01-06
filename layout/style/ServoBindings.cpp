@@ -4339,13 +4339,11 @@ uint32_t
 aMaxLen
 )
 {
-nsRuleNode
-:
-:
-FillAllImageLayers
-(
-*
 aLayers
+-
+>
+FillAllLayers
+(
 aMaxLen
 )
 ;
