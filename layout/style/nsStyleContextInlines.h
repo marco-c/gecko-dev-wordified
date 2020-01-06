@@ -158,10 +158,10 @@ mode
 /
 #
 ifndef
-mozilla_nsStyleContextInlines_h
+nsStyleContextInlines_h
 #
 define
-mozilla_nsStyleContextInlines_h
+nsStyleContextInlines_h
 #
 include
 "
@@ -211,4 +211,4 @@ ServoStyleContext
 endif
 /
 /
-mozilla_nsStyleContextInlines_h
+nsStyleContextInlines_h
