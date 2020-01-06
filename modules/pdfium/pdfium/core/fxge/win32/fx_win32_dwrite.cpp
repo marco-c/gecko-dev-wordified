@@ -106,11 +106,8 @@ __stdcall
 FuncType_DWriteCreateFactory
 )
 (
-__in
 DWRITE_FACTORY_TYPE
-__in
 REFIID
-__out
 IUnknown
 *
 *
@@ -531,7 +528,6 @@ FLOAT
 baselineOriginY
 DWRITE_MEASURING_MODE
 measuringMode
-__in
 DWRITE_GLYPH_RUN
 const
 *
@@ -2036,7 +2032,6 @@ FLOAT
 baselineOriginY
 DWRITE_MEASURING_MODE
 measuringMode
-__in
 DWRITE_GLYPH_RUN
 const
 *
