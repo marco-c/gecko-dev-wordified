@@ -2264,5 +2264,14 @@ this
 EXPORTED_SYMBOLS
 =
 [
+'
+L10nRegistry
+'
+'
+FileSource
+'
+'
+IndexedFileSource
+'
 ]
 ;
