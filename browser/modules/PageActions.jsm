@@ -3794,7 +3794,7 @@ shown
 .
 *
 param
-onIframeShown
+onIframeShowing
 (
 function
 optional
@@ -3808,13 +3808,13 @@ action
 s
 iframe
 is
-shown
+showing
 to
 the
 user
 :
 *
-onIframeShown
+onIframeShowing
 (
 iframeNode
 parentPanelNode
@@ -4270,7 +4270,7 @@ false
 onIframeHidden
 :
 false
-onIframeShown
+onIframeShowing
 :
 false
 onLocationChange
@@ -6111,7 +6111,7 @@ action
 s
 iframe
 is
-shown
+showing
 .
 *
 *
@@ -6151,7 +6151,7 @@ shown
 .
 *
 /
-onIframeShown
+onIframeShowing
 (
 iframeNode
 parentPanelNode
@@ -6161,12 +6161,12 @@ if
 (
 this
 .
-_onIframeShown
+_onIframeShowing
 )
 {
 this
 .
-_onIframeShown
+_onIframeShowing
 (
 iframeNode
 parentPanelNode

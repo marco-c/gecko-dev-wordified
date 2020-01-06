@@ -1170,7 +1170,7 @@ ownerGlobal
 )
 ;
 }
-onIframeShown
+onIframeShowing
 (
 iframe
 panel
