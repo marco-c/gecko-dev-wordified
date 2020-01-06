@@ -2153,10 +2153,6 @@ parent
 if
 (
 !
-isAbsolutelyPositioned
-&
-&
-!
 isOffsetParent
 )
 {
