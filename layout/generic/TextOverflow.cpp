@@ -1720,7 +1720,10 @@ LTR
 "
 )
 ;
-gfxPoint
+gfx
+:
+:
+Point
 gfxPt
 (
 pt
