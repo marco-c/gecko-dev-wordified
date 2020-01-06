@@ -621,6 +621,13 @@ null
 )
 ;
 }
+builder
+.
+setCancelable
+(
+false
+)
+;
 final
 AlertDialog
 dialog
