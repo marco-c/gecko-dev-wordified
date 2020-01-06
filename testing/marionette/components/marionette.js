@@ -1805,7 +1805,9 @@ Services
 .
 tm
 .
-idleDispatchToMainThread
+mainThread
+.
+idleDispatch
 (
 (
 )
@@ -1826,7 +1828,9 @@ Services
 .
 tm
 .
-idleDispatchToMainThread
+mainThread
+.
+idleDispatch
 (
 (
 )
