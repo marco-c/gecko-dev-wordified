@@ -183,6 +183,20 @@ messagesObjectPropertiesById
 ;
 }
 function
+getAllMessagesObjectEntriesById
+(
+state
+)
+{
+return
+state
+.
+messages
+.
+messagesObjectEntriesById
+;
+}
+function
 getAllGroupsById
 (
 state
@@ -267,5 +281,6 @@ getVisibleMessages
 getAllRepeatById
 getAllNetworkMessagesUpdateById
 getAllMessagesObjectPropertiesById
+getAllMessagesObjectEntriesById
 }
 ;

@@ -114,6 +114,7 @@ getAllMessagesById
 getAllMessagesUiById
 getAllMessagesTableDataById
 getAllMessagesObjectPropertiesById
+getAllMessagesObjectEntriesById
 getAllNetworkMessagesUpdateById
 getVisibleMessages
 getAllRepeatById
@@ -247,6 +248,13 @@ object
 .
 isRequired
 messagesObjectProperties
+:
+PropTypes
+.
+object
+.
+isRequired
+messagesObjectEntries
 :
 PropTypes
 .
@@ -504,6 +512,7 @@ messages
 messagesUi
 messagesTableData
 messagesObjectProperties
+messagesObjectEntries
 messagesRepeat
 networkMessagesUpdate
 serviceContainer
@@ -579,6 +588,14 @@ messageId
 loadedObjectProperties
 :
 messagesObjectProperties
+.
+get
+(
+messageId
+)
+loadedObjectEntries
+:
+messagesObjectEntries
 .
 get
 (
@@ -721,6 +738,12 @@ state
 messagesObjectProperties
 :
 getAllMessagesObjectPropertiesById
+(
+state
+)
+messagesObjectEntries
+:
+getAllMessagesObjectEntriesById
 (
 state
 )
