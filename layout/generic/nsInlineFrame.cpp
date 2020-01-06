@@ -5621,6 +5621,12 @@ GetFirstLetterStyleOK
 bool
 pushedFrame
 ;
+aStatus
+.
+Reset
+(
+)
+;
 lineLayout
 -
 >
