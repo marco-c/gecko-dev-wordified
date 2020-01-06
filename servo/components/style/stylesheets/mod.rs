@@ -322,7 +322,6 @@ origin
 Origin
 OriginSet
 PerOrigin
-PerOriginClear
 }
 ;
 pub
