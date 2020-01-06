@@ -2122,6 +2122,20 @@ dirs
 dirs
 [
 '
+abs_work_dir
+'
+]
+=
+abs_dirs
+[
+'
+abs_work_dir
+'
+]
+        
+dirs
+[
+'
 abs_app_install_dir
 '
 ]
@@ -3371,6 +3385,17 @@ _query_symbols_url
 )
                 
 '
+abs_work_dir
+'
+:
+dirs
+[
+'
+abs_work_dir
+'
+]
+                
+'
 abs_app_dir
 '
 :
@@ -3415,17 +3440,6 @@ abs_test_install_dir
 gtest
 '
 )
-                
-'
-abs_work_dir
-'
-:
-dirs
-[
-'
-abs_work_dir
-'
-]
             
 }
             
