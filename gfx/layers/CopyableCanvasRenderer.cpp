@@ -396,10 +396,6 @@ OriginPos
 :
 TopLeft
 )
-mIsMirror
-(
-false
-)
 mOpaque
 (
 true
@@ -481,12 +477,6 @@ OriginPos
 :
 :
 BottomLeft
-;
-mIsMirror
-=
-aData
-.
-mIsMirror
 ;
 MOZ_ASSERT
 (

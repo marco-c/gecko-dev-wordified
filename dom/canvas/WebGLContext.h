@@ -8942,9 +8942,6 @@ bool
 mResetLayer
 ;
 bool
-mLayerIsMirror
-;
-bool
 mOptionsFrozen
 ;
 bool
