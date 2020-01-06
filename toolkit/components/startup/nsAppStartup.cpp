@@ -5454,8 +5454,12 @@ rv
 Preferences
 :
 :
-GetDefaultRootBranch
+GetRootBranch
 (
+PrefValueKind
+:
+:
+Default
 )
 -
 >
