@@ -201,6 +201,7 @@ cloneSelectedRequest
 request
 selectTab
 sourceMapService
+openLink
 }
 )
 {
@@ -238,10 +239,11 @@ TabboxPanel
 (
 {
 activeTabId
+cloneSelectedRequest
 request
 selectTab
 sourceMapService
-cloneSelectedRequest
+openLink
 }
 )
 :
@@ -312,6 +314,11 @@ sourceMapService
 PropTypes
 .
 object
+openLink
+:
+PropTypes
+.
+func
 }
 ;
 module

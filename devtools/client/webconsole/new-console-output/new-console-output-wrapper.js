@@ -692,6 +692,7 @@ openLink
 url
 =
 >
+{
 this
 .
 jsterm
@@ -704,6 +705,8 @@ openLink
 (
 url
 )
+;
+}
 createElement
 :
 nodename

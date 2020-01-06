@@ -450,6 +450,7 @@ cloneSelectedRequest
 request
 selectTab
 sourceMapService
+openLink
 }
 )
 {
@@ -503,6 +504,7 @@ HeadersPanel
 {
 request
 cloneSelectedRequest
+openLink
 }
 )
 )
@@ -522,6 +524,7 @@ CookiesPanel
 (
 {
 request
+openLink
 }
 )
 )
@@ -541,6 +544,7 @@ ParamsPanel
 (
 {
 request
+openLink
 }
 )
 )
@@ -560,6 +564,7 @@ ResponsePanel
 (
 {
 request
+openLink
 }
 )
 )
@@ -622,6 +627,7 @@ StackTracePanel
 {
 request
 sourceMapService
+openLink
 }
 )
 )
@@ -657,6 +663,7 @@ SecurityPanel
 (
 {
 request
+openLink
 }
 )
 )
@@ -714,6 +721,11 @@ sourceMapService
 PropTypes
 .
 object
+openLink
+:
+PropTypes
+.
+func
 }
 ;
 module
