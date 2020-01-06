@@ -72,8 +72,6 @@ mozunit
 import
 subprocess
 import
-sys
-import
 unittest
 from
 os
