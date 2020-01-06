@@ -700,7 +700,6 @@ networking_task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -878,7 +877,6 @@ networking_task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -1066,7 +1064,6 @@ networking_task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -1825,7 +1822,6 @@ networking_task_source
 .
 queue
 (
-box
 task
 !
 (

@@ -1416,7 +1416,6 @@ task_source
 .
 queue_with_canceller
 (
-box
 task
 !
 (
@@ -3487,7 +3486,6 @@ task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -3701,7 +3699,6 @@ task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -3878,7 +3875,6 @@ task_source
 .
 queue
 (
-box
 task
 !
 (
@@ -4509,7 +4505,6 @@ dom_manipulation_task_source
 .
 queue
 (
-box
 task
 !
 (

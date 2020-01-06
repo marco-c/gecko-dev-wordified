@@ -16001,7 +16001,6 @@ self
 let
 task
 =
-box
 task
 !
 (
@@ -16246,6 +16245,7 @@ ScriptThreadEventCategory
 :
 :
 DomEvent
+box
 self
 .
 task_canceller
