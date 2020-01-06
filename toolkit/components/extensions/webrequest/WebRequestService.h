@@ -394,8 +394,8 @@ ChannelEntry
 {
 public
 :
-~
-ChannelEntry
+void
+DetachAll
 (
 )
 ;
