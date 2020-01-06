@@ -939,6 +939,17 @@ build_core_environment
 env
 )
         
+env
+[
+"
+PERFHERDER_ALERTING_ENABLED
+"
+]
+=
+"
+1
+"
+        
 pathvar
 =
 "
@@ -960,6 +971,25 @@ pathvar
 "
 LD_LIBRARY_PATH
 "
+            
+#
+disable
+alerts
+for
+unstable
+tests
+(
+Bug
+1369807
+)
+            
+del
+env
+[
+"
+PERFHERDER_ALERTING_ENABLED
+"
+]
         
 elif
 mozinfo
