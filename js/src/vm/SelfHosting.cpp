@@ -18145,7 +18145,7 @@ options
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 options
