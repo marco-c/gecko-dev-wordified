@@ -973,6 +973,11 @@ etc
 void
 SchedulePaint
 (
+nsISelection
+*
+aSelection
+=
+nullptr
 )
 ;
 /
