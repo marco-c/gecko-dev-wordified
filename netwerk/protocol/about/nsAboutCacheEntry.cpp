@@ -614,6 +614,7 @@ Channel
 nsICacheEntryOpenCallback
 nsICacheEntryMetaDataVisitor
 nsIStreamListener
+nsIRequest
 nsIChannel
 )
 /
