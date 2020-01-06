@@ -1649,6 +1649,11 @@ private
 nsresult
 SetupPACThread
 (
+nsIEventTarget
+*
+mainThreadEventTarget
+=
+nullptr
 )
 ;
 nsresult
@@ -2166,6 +2171,9 @@ nsICancelable
 result
 bool
 isSyncOK
+nsIEventTarget
+*
+mainThreadEventTarget
 )
 ;
 bool

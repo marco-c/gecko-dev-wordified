@@ -9674,6 +9674,7 @@ mChannel
 )
 0
 this
+nullptr
 getter_AddRefs
 (
 mProxyRequest

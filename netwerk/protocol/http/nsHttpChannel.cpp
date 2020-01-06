@@ -18776,6 +18776,7 @@ AsyncResolve2
 this
 mProxyResolveFlags
 this
+nullptr
 getter_AddRefs
 (
 mProxyRequest
@@ -18802,6 +18803,7 @@ this
 )
 mProxyResolveFlags
 this
+nullptr
 getter_AddRefs
 (
 mProxyRequest

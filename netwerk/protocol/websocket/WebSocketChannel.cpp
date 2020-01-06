@@ -18782,6 +18782,7 @@ nsIProtocolProxyService
 :
 RESOLVE_ALWAYS_TUNNEL
 this
+nullptr
 getter_AddRefs
 (
 mCancelable
