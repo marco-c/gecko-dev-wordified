@@ -2425,16 +2425,13 @@ if
 !
 topic
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 BrowserChrome
 :
 Ready
 "
-)
 )
 )
 {

@@ -6577,14 +6577,11 @@ mHost
 !
 mHost
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 *
 "
-)
 )
 )
 {

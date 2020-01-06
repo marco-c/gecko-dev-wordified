@@ -16576,16 +16576,13 @@ nextToken
 (
 )
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 permessage
 -
 deflate
 "
-)
 )
 )
 {
