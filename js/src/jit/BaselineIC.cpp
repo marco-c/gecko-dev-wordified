@@ -11380,7 +11380,7 @@ InitPropertyOperation
 cx
 op
 obj
-id
+name
 rhs
 )
 )
