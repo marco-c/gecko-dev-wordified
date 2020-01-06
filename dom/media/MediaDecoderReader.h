@@ -1377,12 +1377,16 @@ size_t
 SizeOfVideoQueueInFrames
 (
 )
+=
+0
 ;
 virtual
 size_t
 SizeOfAudioQueueInFrames
 (
 )
+=
+0
 ;
 /
 /
