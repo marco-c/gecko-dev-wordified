@@ -2914,7 +2914,7 @@ names
 (
 )
 .
-StarGeneratorNext
+GeneratorNext
 :
 completionKind
 =
@@ -2931,7 +2931,7 @@ names
 (
 )
 .
-StarGeneratorThrow
+GeneratorThrow
 :
 cx
 -
@@ -2940,7 +2940,7 @@ names
 (
 )
 .
-StarGeneratorReturn
+GeneratorReturn
 ;
 FixedInvokeArgs
 <

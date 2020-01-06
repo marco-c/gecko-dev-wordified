@@ -1279,7 +1279,7 @@ names
 (
 )
 .
-StarGeneratorNext
+GeneratorNext
 :
 cx
 -
@@ -1288,7 +1288,7 @@ names
 (
 )
 .
-StarGeneratorThrow
+GeneratorThrow
 ;
 FixedInvokeArgs
 <

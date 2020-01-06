@@ -5712,7 +5712,7 @@ templateObject_
 }
 ;
 class
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 :
 public
 ICStub
@@ -5724,7 +5724,7 @@ ICStubSpace
 protected
 :
 explicit
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 (
 JitCode
 *
@@ -5736,7 +5736,7 @@ ICStub
 ICStub
 :
 :
-Call_IsSuspendedStarGenerator
+Call_IsSuspendedGenerator
 stubCode
 )
 {
@@ -5776,7 +5776,7 @@ cx
 ICStub
 :
 :
-Call_IsSuspendedStarGenerator
+Call_IsSuspendedGenerator
 Engine
 :
 :
@@ -5796,7 +5796,7 @@ space
 return
 newStub
 <
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 >
 (
 space

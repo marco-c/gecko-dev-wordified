@@ -1506,7 +1506,7 @@ JS_SELF_HOSTED_FN
 next
 "
 "
-StarGeneratorNext
+GeneratorNext
 "
 1
 0
@@ -1517,7 +1517,7 @@ JS_SELF_HOSTED_FN
 throw
 "
 "
-StarGeneratorThrow
+GeneratorThrow
 "
 1
 0
@@ -1528,7 +1528,7 @@ JS_SELF_HOSTED_FN
 return
 "
 "
-StarGeneratorReturn
+GeneratorReturn
 "
 1
 0

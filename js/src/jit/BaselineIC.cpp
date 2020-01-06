@@ -16046,7 +16046,7 @@ native
 )
 =
 =
-intrinsic_IsSuspendedStarGenerator
+intrinsic_IsSuspendedGenerator
 )
 {
 /
@@ -16082,12 +16082,12 @@ JitSpew
 JitSpew_BaselineIC
 "
 Generating
-Call_IsSuspendedStarGenerator
+Call_IsSuspendedGenerator
 stub
 "
 )
 ;
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 :
 :
 Compiler
@@ -24105,7 +24105,7 @@ true
 ;
 }
 bool
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 :
 :
 Compiler
@@ -24132,7 +24132,7 @@ Baseline
 /
 /
 The
-IsSuspendedStarGenerator
+IsSuspendedGenerator
 intrinsic
 is
 only
@@ -24141,9 +24141,9 @@ in
 self
 -
 hosted
-/
-/
 code
+/
+/
 so
 it
 '
@@ -24159,10 +24159,10 @@ argument
 and
 the
 callee
-/
-/
 is
 our
+/
+/
 intrinsic
 .
 AllocatableGeneralRegisterSet
