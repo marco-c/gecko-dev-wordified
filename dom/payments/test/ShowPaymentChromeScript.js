@@ -1780,6 +1780,7 @@ nsIPaymentUIService
 ;
 }
 )
+;
 addMessageListener
 (
 "
