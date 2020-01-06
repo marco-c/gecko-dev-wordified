@@ -2454,7 +2454,6 @@ ThreadStackHelper
 AppendJSEntry
 (
 const
-volatile
 js
 :
 :
@@ -3067,7 +3066,6 @@ front
 to
 back
 const
-volatile
 js
 :
 :
@@ -3081,7 +3079,6 @@ mPseudoStack
 entries
 ;
 const
-volatile
 js
 :
 :

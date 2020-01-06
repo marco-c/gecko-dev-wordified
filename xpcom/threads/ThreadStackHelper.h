@@ -526,7 +526,6 @@ char
 AppendJSEntry
 (
 const
-volatile
 js
 :
 :

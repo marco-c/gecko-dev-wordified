@@ -1333,7 +1333,6 @@ pseudoStack_
 stackPointer
 ;
 }
-volatile
 ProfileEntry
 *
 stack
@@ -1685,7 +1684,6 @@ JSTracer
 *
 trc
 )
-volatile
 ;
 void
 fixupStringsMapAfterMovingGC
