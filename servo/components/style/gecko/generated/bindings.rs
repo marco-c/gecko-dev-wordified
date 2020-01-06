@@ -11921,7 +11921,10 @@ data
 :
 *
 const
-nsACString
+u8
+data_len
+:
+usize
 parsing_mode
 :
 SheetParsingMode
