@@ -432,7 +432,11 @@ MediaQueryList
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 MediaQueryList
 :
 :
@@ -440,6 +444,7 @@ new_inherited
 (
 document
 media_query_list
+)
 )
 document
 .

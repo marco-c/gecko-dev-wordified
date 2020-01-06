@@ -586,7 +586,11 @@ Self
 let
 iterator
 =
-box
+Box
+:
+:
+new
+(
 IterableIterator
 {
 reflector
@@ -619,6 +623,7 @@ new
 0
 )
 }
+)
 ;
 reflect_dom_object
 (

@@ -1593,7 +1593,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLAreaElement
 :
 :
@@ -1602,6 +1606,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLAreaElementBinding

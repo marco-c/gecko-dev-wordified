@@ -396,7 +396,11 @@ ServiceWorker
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ServiceWorker
 :
 :
@@ -409,6 +413,7 @@ as_str
 )
 skip_waiting
 scope_url
+)
 )
 global
 Wrap

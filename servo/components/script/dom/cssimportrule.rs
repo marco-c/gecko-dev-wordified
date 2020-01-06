@@ -277,7 +277,11 @@ Self
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Self
 :
 :
@@ -285,6 +289,7 @@ new_inherited
 (
 parent_stylesheet
 import_rule
+)
 )
 window
 CSSImportRuleBinding

@@ -575,7 +575,11 @@ Box
 :
 into_raw
 (
-box
+Box
+:
+:
+new
+(
 WeakBox
 {
 count
@@ -606,6 +610,7 @@ self
 )
 )
 }
+)
 )
 ;
 JS_SetReservedSlot

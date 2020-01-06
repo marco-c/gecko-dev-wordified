@@ -1018,7 +1018,11 @@ Performance
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Performance
 :
 :
@@ -1027,6 +1031,7 @@ new_inherited
 global
 navigation_start
 navigation_start_precise
+)
 )
 global
 PerformanceBinding

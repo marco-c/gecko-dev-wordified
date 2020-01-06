@@ -1497,7 +1497,11 @@ responder_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -1644,6 +1648,7 @@ task_canceller
 )
 ;
 }
+)
 )
 ;
 image_cache
@@ -1960,7 +1965,11 @@ action_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -1982,6 +1991,7 @@ unwrap
 )
 ;
 }
+)
 )
 ;
 let
@@ -5012,7 +5022,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLImageElement
 :
 :
@@ -5021,6 +5035,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLImageElementBinding

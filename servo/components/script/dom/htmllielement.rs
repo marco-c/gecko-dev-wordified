@@ -273,7 +273,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLLIElement
 :
 :
@@ -282,6 +286,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLLIElementBinding

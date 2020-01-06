@@ -503,7 +503,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLTableRowElement
 :
 :
@@ -512,6 +516,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLTableRowElementBinding
@@ -724,8 +729,13 @@ self
 let
 filter
 =
-box
+Box
+:
+:
+new
+(
 CellsFilter
+)
 ;
 HTMLCollection
 :

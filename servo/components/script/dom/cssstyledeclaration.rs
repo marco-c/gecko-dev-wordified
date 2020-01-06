@@ -1429,7 +1429,11 @@ CSSStyleDeclaration
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSStyleDeclaration
 :
 :
@@ -1438,6 +1442,7 @@ new_inherited
 owner
 pseudo
 modification_access
+)
 )
 global
 CSSStyleDeclarationBinding

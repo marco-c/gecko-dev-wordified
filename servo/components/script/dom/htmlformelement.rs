@@ -826,7 +826,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLFormElement
 :
 :
@@ -835,6 +839,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLFormElementBinding
@@ -1985,7 +1990,11 @@ init_once
 let
 filter
 =
-box
+Box
+:
+:
+new
+(
 ElementsFilter
 {
 form
@@ -1998,6 +2007,7 @@ from_ref
 self
 )
 }
+)
 ;
 let
 window

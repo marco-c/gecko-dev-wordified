@@ -774,7 +774,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLScriptElement
 :
 :
@@ -784,6 +788,7 @@ local_name
 prefix
 document
 creator
+)
 )
 document
 HTMLScriptElementBinding
@@ -2141,7 +2146,11 @@ action_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -2163,6 +2172,7 @@ unwrap
 )
 ;
 }
+)
 )
 ;
 doc

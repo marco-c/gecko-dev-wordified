@@ -295,7 +295,11 @@ element
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMTokenList
 :
 :
@@ -306,6 +310,7 @@ local_name
 .
 clone
 (
+)
 )
 )
 &

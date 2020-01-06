@@ -556,7 +556,11 @@ BluetoothRemoteGATTCharacteristic
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothRemoteGATTCharacteristic
 :
 :
@@ -566,6 +570,7 @@ service
 uuid
 properties
 instanceID
+)
 )
 global
 BluetoothRemoteGATTCharacteristicBinding

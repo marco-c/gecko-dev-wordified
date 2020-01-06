@@ -611,7 +611,11 @@ WebGLTexture
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLTexture
 :
 :
@@ -619,6 +623,7 @@ new_inherited
 (
 renderer
 id
+)
 )
 window
 WebGLTextureBinding

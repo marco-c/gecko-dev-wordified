@@ -289,7 +289,11 @@ HashChangeEvent
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 HashChangeEvent
 :
 :
@@ -306,6 +310,7 @@ String
 :
 new
 (
+)
 )
 )
 window
@@ -351,7 +356,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 HashChangeEvent
 :
 :
@@ -359,6 +368,7 @@ new_inherited
 (
 old_url
 new_url
+)
 )
 window
 HashChangeEventBinding

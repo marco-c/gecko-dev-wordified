@@ -240,7 +240,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLMeterElement
 :
 :
@@ -249,6 +253,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLMeterElementBinding

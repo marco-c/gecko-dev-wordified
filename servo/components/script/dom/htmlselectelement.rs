@@ -708,7 +708,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLSelectElement
 :
 :
@@ -717,6 +721,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLSelectElementBinding
@@ -1998,8 +2003,13 @@ new
 &
 window
 self
-box
+Box
+:
+:
+new
+(
 OptionsFilter
+)
 )
 }
 )

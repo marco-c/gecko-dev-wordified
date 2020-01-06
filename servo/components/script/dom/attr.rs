@@ -456,7 +456,11 @@ Attr
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Attr
 :
 :
@@ -468,6 +472,7 @@ name
 namespace
 prefix
 owner
+)
 )
 window
 AttrBinding

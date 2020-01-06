@@ -304,7 +304,11 @@ MediaQueryListEvent
 let
 ev
 =
-box
+Box
+:
+:
+new
+(
 MediaQueryListEvent
 {
 event
@@ -328,6 +332,7 @@ new
 matches
 )
 }
+)
 ;
 reflect_dom_object
 (

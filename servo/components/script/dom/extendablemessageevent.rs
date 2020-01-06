@@ -304,7 +304,11 @@ ExtendableMessageEvent
 let
 ev
 =
-box
+Box
+:
+:
+new
+(
 ExtendableMessageEvent
 {
 event
@@ -330,6 +334,7 @@ lastEventId
 :
 lastEventId
 }
+)
 ;
 let
 ev

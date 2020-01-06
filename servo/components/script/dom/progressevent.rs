@@ -281,7 +281,11 @@ ProgressEvent
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ProgressEvent
 :
 :
@@ -290,6 +294,7 @@ new_inherited
 false
 0
 0
+)
 )
 global
 ProgressEventBinding
@@ -337,7 +342,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ProgressEvent
 :
 :
@@ -346,6 +355,7 @@ new_inherited
 length_computable
 loaded
 total
+)
 )
 global
 ProgressEventBinding

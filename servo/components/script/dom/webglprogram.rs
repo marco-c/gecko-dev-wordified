@@ -491,7 +491,11 @@ WebGLProgram
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLProgram
 :
 :
@@ -499,6 +503,7 @@ new_inherited
 (
 renderer
 id
+)
 )
 window
 WebGLProgramBinding

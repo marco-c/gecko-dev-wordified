@@ -207,7 +207,11 @@ TestBindingIterable
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 TestBindingIterable
 {
 reflector
@@ -231,6 +235,7 @@ vec
 ]
 )
 }
+)
 global
 TestBindingIterableBinding
 :

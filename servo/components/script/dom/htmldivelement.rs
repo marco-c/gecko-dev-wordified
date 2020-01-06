@@ -231,7 +231,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLDivElement
 :
 :
@@ -240,6 +244,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLDivElementBinding

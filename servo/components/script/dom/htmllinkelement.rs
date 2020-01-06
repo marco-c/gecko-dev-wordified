@@ -774,7 +774,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLLinkElement
 :
 :
@@ -784,6 +788,7 @@ local_name
 prefix
 document
 creator
+)
 )
 document
 HTMLLinkElementBinding

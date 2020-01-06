@@ -357,7 +357,11 @@ Touch
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Touch
 :
 :
@@ -371,6 +375,7 @@ client_x
 client_y
 page_x
 page_y
+)
 )
 window
 TouchBinding

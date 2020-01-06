@@ -291,7 +291,11 @@ Client
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Client
 :
 :
@@ -301,6 +305,7 @@ window
 .
 get_url
 (
+)
 )
 )
 window

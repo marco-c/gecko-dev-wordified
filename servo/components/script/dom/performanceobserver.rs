@@ -470,8 +470,13 @@ entries
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 observer
+)
 global
 PerformanceObserverBinding
 :

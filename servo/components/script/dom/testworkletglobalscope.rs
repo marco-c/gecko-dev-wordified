@@ -311,7 +311,11 @@ pipeline_id
 let
 global
 =
-box
+Box
+:
+:
+new
+(
 TestWorkletGlobalScope
 {
 worklet_global
@@ -335,6 +339,7 @@ default
 (
 )
 }
+)
 ;
 unsafe
 {

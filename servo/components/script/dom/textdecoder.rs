@@ -329,7 +329,11 @@ TextDecoder
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 TextDecoder
 :
 :
@@ -337,6 +341,7 @@ new_inherited
 (
 encoding
 fatal
+)
 )
 global
 TextDecoderBinding

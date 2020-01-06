@@ -335,7 +335,11 @@ CanvasPattern
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CanvasPattern
 :
 :
@@ -345,6 +349,7 @@ surface_data
 surface_size
 repeat
 origin_clean
+)
 )
 global
 CanvasPatternBinding

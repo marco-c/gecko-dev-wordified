@@ -276,7 +276,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLDataListElement
 :
 :
@@ -285,6 +289,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLDataListElementBinding
@@ -383,8 +388,13 @@ HTMLOptionElement
 let
 filter
 =
-box
+Box
+:
+:
+new
+(
 HTMLDataListOptionsFilter
+)
 ;
 let
 window

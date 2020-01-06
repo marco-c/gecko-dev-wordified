@@ -359,7 +359,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLFieldSetElement
 :
 :
@@ -368,6 +372,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLFieldSetElementBinding
@@ -483,8 +488,13 @@ is_listed_element
 let
 filter
 =
-box
+Box
+:
+:
+new
+(
 ElementsFilter
+)
 ;
 let
 window

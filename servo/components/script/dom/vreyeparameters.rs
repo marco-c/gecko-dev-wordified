@@ -425,7 +425,11 @@ eye_parameters
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 VREyeParameters
 :
 :
@@ -434,6 +438,7 @@ new_inherited
 parameters
 &
 fov
+)
 )
 global
 VREyeParametersBinding

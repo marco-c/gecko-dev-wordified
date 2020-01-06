@@ -285,7 +285,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLHRElement
 :
 :
@@ -294,6 +298,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLHRElementBinding

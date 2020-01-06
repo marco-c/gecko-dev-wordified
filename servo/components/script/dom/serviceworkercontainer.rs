@@ -365,8 +365,13 @@ client
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 container
+)
 global
 Wrap
 )

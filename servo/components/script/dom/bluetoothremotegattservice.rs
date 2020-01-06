@@ -374,7 +374,11 @@ BluetoothRemoteGATTService
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothRemoteGATTService
 :
 :
@@ -384,6 +388,7 @@ device
 uuid
 isPrimary
 instanceID
+)
 )
 global
 BluetoothRemoteGATTServiceBinding

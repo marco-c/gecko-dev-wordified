@@ -5186,8 +5186,13 @@ Box
 :
 into_raw
 (
-box
+Box
+:
+:
+new
+(
 traceable
+)
 )
 ;
 unsafe

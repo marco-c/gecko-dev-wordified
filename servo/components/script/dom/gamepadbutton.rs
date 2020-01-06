@@ -265,7 +265,11 @@ GamepadButton
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 GamepadButton
 :
 :
@@ -273,6 +277,7 @@ new_inherited
 (
 pressed
 touched
+)
 )
 global
 GamepadButtonBinding

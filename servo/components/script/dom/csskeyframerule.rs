@@ -332,7 +332,11 @@ CSSKeyframeRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSKeyframeRule
 :
 :
@@ -340,6 +344,7 @@ new_inherited
 (
 parent_stylesheet
 keyframerule
+)
 )
 window
 CSSKeyframeRuleBinding

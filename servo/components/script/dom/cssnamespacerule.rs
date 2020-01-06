@@ -295,7 +295,11 @@ CSSNamespaceRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSNamespaceRule
 :
 :
@@ -303,6 +307,7 @@ new_inherited
 (
 parent_stylesheet
 namespacerule
+)
 )
 window
 CSSNamespaceRuleBinding

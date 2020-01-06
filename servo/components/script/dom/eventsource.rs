@@ -2990,7 +2990,11 @@ EventSource
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 EventSource
 :
 :
@@ -2998,6 +3002,7 @@ new_inherited
 (
 url
 with_credentials
+)
 )
 global
 Wrap
@@ -3510,7 +3515,11 @@ action_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -3532,6 +3541,7 @@ unwrap
 )
 ;
 }
+)
 )
 ;
 global

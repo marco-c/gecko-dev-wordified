@@ -571,7 +571,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLStyleElement
 :
 :
@@ -581,6 +585,7 @@ local_name
 prefix
 document
 creator
+)
 )
 document
 HTMLStyleElementBinding

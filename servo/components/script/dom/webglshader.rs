@@ -613,7 +613,11 @@ WebGLShader
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLShader
 :
 :
@@ -622,6 +626,7 @@ new_inherited
 renderer
 id
 shader_type
+)
 )
 window
 WebGLShaderBinding

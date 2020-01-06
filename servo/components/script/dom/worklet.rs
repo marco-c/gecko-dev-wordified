@@ -857,7 +857,11 @@ global_type
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Worklet
 :
 :
@@ -865,6 +869,7 @@ new_inherited
 (
 window
 global_type
+)
 )
 window
 Wrap
@@ -4871,8 +4876,13 @@ ScriptThreadEventCategory
 :
 :
 WorkletEvent
-box
+Box
+:
+:
+new
+(
 task
+)
 )
 ;
 let

@@ -226,7 +226,11 @@ WebGLUniformLocation
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLUniformLocation
 :
 :
@@ -234,6 +238,7 @@ new_inherited
 (
 id
 program_id
+)
 )
 window
 WebGLUniformLocationBinding

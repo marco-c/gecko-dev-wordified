@@ -319,7 +319,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 GamepadEvent
 :
 :
@@ -327,6 +331,7 @@ new_inherited
 (
 &
 gamepad
+)
 )
 global
 GamepadEventBinding

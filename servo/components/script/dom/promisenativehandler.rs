@@ -236,7 +236,11 @@ PromiseNativeHandler
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 PromiseNativeHandler
 {
 reflector
@@ -254,6 +258,7 @@ reject
 :
 reject
 }
+)
 global
 PromiseNativeHandlerBinding
 :

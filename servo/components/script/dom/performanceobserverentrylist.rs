@@ -265,8 +265,13 @@ entries
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 observer_entry_list
+)
 global
 PerformanceObserverEntryListBinding
 :

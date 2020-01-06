@@ -294,7 +294,11 @@ PermissionStatus
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 PermissionStatus
 :
 :
@@ -303,6 +307,7 @@ new_inherited
 query
 .
 name
+)
 )
 global
 PermissionStatusBinding

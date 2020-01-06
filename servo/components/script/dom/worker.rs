@@ -565,7 +565,11 @@ Worker
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Worker
 :
 :
@@ -573,6 +577,7 @@ new_inherited
 (
 sender
 closing
+)
 )
 global
 WorkerBinding

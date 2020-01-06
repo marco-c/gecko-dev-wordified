@@ -341,7 +341,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLLabelElement
 :
 :
@@ -350,6 +354,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLLabelElementBinding

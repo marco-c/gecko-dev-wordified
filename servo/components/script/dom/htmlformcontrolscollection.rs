@@ -302,7 +302,11 @@ HTMLFormControlsCollection
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 HTMLFormControlsCollection
 :
 :
@@ -310,6 +314,7 @@ new_inherited
 (
 root
 filter
+)
 )
 window
 HTMLFormControlsCollectionBinding

@@ -213,7 +213,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLTableColElement
 :
 :
@@ -222,6 +226,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLTableColElementBinding

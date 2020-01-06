@@ -399,7 +399,11 @@ HTMLOptionsCollection
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 HTMLOptionsCollection
 :
 :
@@ -407,6 +411,7 @@ new_inherited
 (
 select
 filter
+)
 )
 window
 HTMLOptionsCollectionBinding

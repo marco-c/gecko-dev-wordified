@@ -360,7 +360,11 @@ Test
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 TestWorklet
 :
 :
@@ -369,6 +373,7 @@ new_inherited
 &
 *
 worklet
+)
 )
 window
 Wrap

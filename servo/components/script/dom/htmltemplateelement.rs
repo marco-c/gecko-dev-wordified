@@ -340,7 +340,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLTemplateElement
 :
 :
@@ -349,6 +353,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLTemplateElementBinding

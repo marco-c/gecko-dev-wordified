@@ -255,7 +255,11 @@ WebGLShaderPrecisionFormat
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLShaderPrecisionFormat
 :
 :
@@ -264,6 +268,7 @@ new_inherited
 range_min
 range_max
 precision
+)
 )
 window
 WebGLShaderPrecisionFormatBinding

@@ -340,7 +340,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLTableSectionElement
 :
 :
@@ -349,6 +353,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLTableSectionElementBinding
@@ -484,8 +489,13 @@ self
 upcast
 (
 )
-box
+Box
+:
+:
+new
+(
 RowsFilter
+)
 )
 }
 /

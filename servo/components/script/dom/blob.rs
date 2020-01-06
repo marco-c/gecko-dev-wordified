@@ -623,7 +623,11 @@ Blob
 let
 boxed_blob
 =
-box
+Box
+:
+:
+new
+(
 Blob
 :
 :
@@ -631,6 +635,7 @@ new_inherited
 (
 blob_impl
 typeString
+)
 )
 ;
 reflect_dom_object

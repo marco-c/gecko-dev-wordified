@@ -2169,7 +2169,11 @@ Box
 ProtoOrIfaceArray
 >
 =
-box
+Box
+:
+:
+new
+(
 [
 0
 as
@@ -2182,6 +2186,7 @@ PrototypeList
 :
 PROTO_OR_IFACE_LENGTH
 ]
+)
 ;
 JS_SetReservedSlot
 (

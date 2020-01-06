@@ -445,7 +445,11 @@ BluetoothRemoteGATTDescriptor
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothRemoteGATTDescriptor
 :
 :
@@ -454,6 +458,7 @@ new_inherited
 characteristic
 uuid
 instanceID
+)
 )
 global
 BluetoothRemoteGATTDescriptorBinding

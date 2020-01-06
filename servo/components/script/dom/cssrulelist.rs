@@ -568,7 +568,11 @@ CSSRuleList
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSRuleList
 :
 :
@@ -576,6 +580,7 @@ new_inherited
 (
 parent_stylesheet
 rules
+)
 )
 window
 CSSRuleListBinding

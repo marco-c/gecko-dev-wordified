@@ -292,7 +292,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLOptGroupElement
 :
 :
@@ -301,6 +305,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLOptGroupElementBinding

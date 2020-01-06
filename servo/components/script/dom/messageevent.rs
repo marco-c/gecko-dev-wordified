@@ -337,7 +337,11 @@ MessageEvent
 let
 ev
 =
-box
+Box
+:
+:
+new
+(
 MessageEvent
 {
 event
@@ -363,6 +367,7 @@ lastEventId
 :
 lastEventId
 }
+)
 ;
 let
 ev

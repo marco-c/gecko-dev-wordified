@@ -2050,8 +2050,13 @@ Some
 (
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ctx
+)
 window
 WebGLRenderingContextBinding
 :

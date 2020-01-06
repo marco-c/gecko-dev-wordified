@@ -2415,7 +2415,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 Element
 :
 :
@@ -2425,6 +2429,7 @@ local_name
 namespace
 prefix
 document
+)
 )
 document
 ElementBinding
@@ -23651,7 +23656,11 @@ Box
 ElementPerformFullscreenEnter
 >
 {
-box
+Box
+:
+:
+new
+(
 ElementPerformFullscreenEnter
 {
 element
@@ -23664,6 +23673,7 @@ error
 :
 error
 }
+)
 }
 }
 impl
@@ -23919,7 +23929,11 @@ Box
 ElementPerformFullscreenExit
 >
 {
-box
+Box
+:
+:
+new
+(
 ElementPerformFullscreenExit
 {
 element
@@ -23929,6 +23943,7 @@ promise
 :
 promise
 }
+)
 }
 }
 impl

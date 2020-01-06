@@ -423,7 +423,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothAdvertisingEvent
 :
 :
@@ -434,6 +438,7 @@ name
 appearance
 txPower
 rssi
+)
 )
 global
 BluetoothAdvertisingEventBinding

@@ -889,7 +889,11 @@ action_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -911,6 +915,7 @@ unwrap
 )
 ;
 }
+)
 )
 ;
 core_resource_thread

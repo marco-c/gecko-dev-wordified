@@ -1206,7 +1206,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLInputElement
 :
 :
@@ -1215,6 +1219,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLInputElementBinding

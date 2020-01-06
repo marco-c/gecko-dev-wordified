@@ -581,7 +581,11 @@ BluetoothDevice
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothDevice
 :
 :
@@ -590,6 +594,7 @@ new_inherited
 id
 name
 context
+)
 )
 global
 BluetoothDeviceBinding

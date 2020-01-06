@@ -729,7 +729,11 @@ Request
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Request
 :
 :
@@ -737,6 +741,7 @@ new_inherited
 (
 global
 url
+)
 )
 global
 RequestBinding

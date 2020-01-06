@@ -278,7 +278,11 @@ DOMRectReadOnly
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMRectReadOnly
 :
 :
@@ -288,6 +292,7 @@ x
 y
 width
 height
+)
 )
 global
 Wrap

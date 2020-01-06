@@ -252,7 +252,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLFrameSetElement
 :
 :
@@ -261,6 +265,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLFrameSetElementBinding

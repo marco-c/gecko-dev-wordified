@@ -1197,7 +1197,11 @@ VRDisplay
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 VRDisplay
 :
 :
@@ -1206,6 +1210,7 @@ new_inherited
 &
 global
 display
+)
 )
 global
 VRDisplayBinding
@@ -4476,7 +4481,11 @@ clone
 let
 task
 =
-box
+Box
+:
+:
+new
+(
 task
 !
 (
@@ -4499,6 +4508,7 @@ sender
 )
 ;
 }
+)
 )
 ;
 js_sender

@@ -383,7 +383,11 @@ TreeWalker
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 TreeWalker
 :
 :
@@ -392,6 +396,7 @@ new_inherited
 root_node
 what_to_show
 filter
+)
 )
 document
 .

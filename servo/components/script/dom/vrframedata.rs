@@ -486,7 +486,11 @@ root
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 VRFrameData
 :
 :
@@ -494,6 +498,7 @@ new_inherited
 (
 &
 pose
+)
 )
 global
 VRFrameDataBinding

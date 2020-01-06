@@ -2720,7 +2720,11 @@ Self
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ServoParser
 :
 :
@@ -2730,6 +2734,7 @@ document
 tokenizer
 last_chunk_state
 kind
+)
 )
 document
 .

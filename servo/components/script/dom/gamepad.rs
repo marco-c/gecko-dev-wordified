@@ -557,7 +557,11 @@ gamepad
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Gamepad
 :
 :
@@ -603,6 +607,7 @@ clone
 data
 .
 display_id
+)
 )
 global
 GamepadBinding

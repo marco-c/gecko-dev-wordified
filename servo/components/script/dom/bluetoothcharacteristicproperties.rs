@@ -311,7 +311,11 @@ BluetoothCharacteristicProperties
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 BluetoothCharacteristicProperties
 :
 :
@@ -326,6 +330,7 @@ indicate
 authenticatedSignedWrites
 reliableWrite
 writableAuxiliaries
+)
 )
 global
 BluetoothCharacteristicPropertiesBinding

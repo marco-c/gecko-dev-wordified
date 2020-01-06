@@ -719,7 +719,11 @@ IndexSize
 let
 imagedata
 =
-box
+Box
+:
+:
+new
+(
 ImageData
 {
 reflector_
@@ -745,6 +749,7 @@ default
 (
 )
 }
+)
 ;
 if
 let

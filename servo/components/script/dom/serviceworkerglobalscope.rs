@@ -538,7 +538,11 @@ ScriptChan
 Send
 >
 {
-box
+Box
+:
+:
+new
+(
 ServiceWorkerChan
 {
 sender
@@ -551,6 +555,7 @@ clone
 (
 )
 }
+)
 }
 }
 #
@@ -806,7 +811,11 @@ cx
 let
 scope
 =
-box
+Box
+:
+:
+new
+(
 ServiceWorkerGlobalScope
 :
 :
@@ -822,6 +831,7 @@ timer_event_chan
 timer_event_port
 swmanager_sender
 scope_url
+)
 )
 ;
 unsafe
@@ -2218,7 +2228,11 @@ ScriptChan
 Send
 >
 {
-box
+Box
+:
+:
+new
+(
 ServiceWorkerChan
 {
 sender
@@ -2231,6 +2245,7 @@ clone
 (
 )
 }
+)
 }
 fn
 dispatch_activate

@@ -391,7 +391,11 @@ File
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 File
 :
 :
@@ -401,6 +405,7 @@ blob_impl
 name
 modified
 typeString
+)
 )
 global
 FileBinding

@@ -277,7 +277,11 @@ CSSViewportRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSViewportRule
 :
 :
@@ -285,6 +289,7 @@ new_inherited
 (
 parent_stylesheet
 viewportrule
+)
 )
 window
 CSSViewportRuleBinding

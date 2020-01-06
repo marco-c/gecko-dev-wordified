@@ -625,7 +625,11 @@ WebGLFramebuffer
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLFramebuffer
 :
 :
@@ -633,6 +637,7 @@ new_inherited
 (
 renderer
 id
+)
 )
 window
 WebGLFramebufferBinding

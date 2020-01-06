@@ -242,7 +242,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 Comment
 :
 :
@@ -250,6 +254,7 @@ new_inherited
 (
 text
 document
+)
 )
 document
 CommentBinding

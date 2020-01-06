@@ -270,8 +270,13 @@ duration
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 entry
+)
 global
 PerformanceEntryBinding
 :

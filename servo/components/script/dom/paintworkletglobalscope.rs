@@ -948,7 +948,11 @@ pipeline_id
 let
 global
 =
-box
+Box
+:
+:
+new
+(
 PaintWorkletGlobalScope
 {
 worklet_global
@@ -1086,6 +1090,7 @@ new
 }
 )
 }
+)
 ;
 unsafe
 {
