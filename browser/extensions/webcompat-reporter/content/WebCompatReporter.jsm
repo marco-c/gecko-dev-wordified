@@ -275,6 +275,11 @@ lightbulb
 .
 svg
 "
+labelForHistogram
+:
+"
+webcompat
+"
 onCommand
 :
 (
