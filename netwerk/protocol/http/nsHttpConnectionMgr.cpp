@@ -28460,6 +28460,11 @@ SetupBackupTimer
 ;
 }
 }
+if
+(
+mEnt
+)
+{
 mEnt
 -
 >
@@ -28467,6 +28472,7 @@ mDoNotDestroy
 =
 false
 ;
+}
 return
 rv
 ;
