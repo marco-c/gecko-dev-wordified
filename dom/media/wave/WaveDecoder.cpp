@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-WaveDemuxer
+WaveDecoder
 .
 h
 "
@@ -129,14 +129,7 @@ h
 #
 include
 "
-WaveDecoder
-.
-h
-"
-#
-include
-"
-PDMFactory
+MediaDecoder
 .
 h
 "
