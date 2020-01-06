@@ -104,6 +104,7 @@ taskgraph
 import
 TaskGraph
 from
+.
 actions
 import
 render_actions_json
@@ -189,7 +190,7 @@ target_tasks_method
 '
 :
 '
-try_tasks
+try_option_syntax
 '
         
 #
