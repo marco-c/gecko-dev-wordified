@@ -127,7 +127,7 @@ textcolor
 rgb
 (
 {
-TAB_TEXT_COLOR
+BACKGROUND_TAB_TEXT_COLOR
 .
 join
 (
@@ -566,10 +566,10 @@ frame
 :
 FRAME_COLOR
 "
-tab_text
+background_tab_text
 "
 :
-TAB_TEXT_COLOR
+BACKGROUND_TAB_TEXT_COLOR
 }
 "
 properties
@@ -966,10 +966,10 @@ frame
 :
 FRAME_COLOR
 "
-tab_text
+background_tab_text
 "
 :
-TAB_TEXT_COLOR
+BACKGROUND_TAB_TEXT_COLOR
 }
 "
 properties
