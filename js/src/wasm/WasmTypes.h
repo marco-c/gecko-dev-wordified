@@ -8771,6 +8771,17 @@ BuiltinInstanceMethod
 ;
 private
 :
+/
+/
+which_
+shall
+be
+initialized
+in
+the
+static
+constructors
+MOZ_INIT_OUTSIDE_CTOR
 Which
 which_
 ;
