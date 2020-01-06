@@ -2141,6 +2141,12 @@ mAsyncWaitCallback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+nsStringInputStream
+:
+:
+AsyncWait
+"
 aCallback
 aEventTarget
 )

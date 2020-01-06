@@ -990,6 +990,12 @@ callbackEvent
 =
 NS_NewInputStreamReadyEvent
 (
+"
+ThrottleInputStream
+:
+:
+AllowInput
+"
 mCallback
 mEventTarget
 )

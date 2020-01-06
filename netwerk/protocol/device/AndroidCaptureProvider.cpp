@@ -1210,6 +1210,12 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+AndroidCameraInputStream
+:
+:
+NotifyListeners
+"
 mCallback
 mCallbackTarget
 )
