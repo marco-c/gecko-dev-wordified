@@ -288,6 +288,13 @@ the
 current
 thread
 :
+if
+(
+XRE_UseNativeEventProcessing
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIThreadInternal
@@ -314,6 +321,7 @@ SetObserver
 this
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService

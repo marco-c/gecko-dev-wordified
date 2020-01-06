@@ -626,6 +626,15 @@ backgroundPerceivableGracePeriodMS
 "
 dom
 .
+ipc
+.
+useNativeEventProcessing
+.
+content
+"
+"
+dom
+.
 max_chrome_script_run_time
 "
 "

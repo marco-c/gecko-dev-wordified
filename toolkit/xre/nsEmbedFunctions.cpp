@@ -4736,6 +4736,12 @@ defined
 (
 XP_MACOSX
 )
+if
+(
+XRE_UseNativeEventProcessing
+(
+)
+)
 {
 /
 /
