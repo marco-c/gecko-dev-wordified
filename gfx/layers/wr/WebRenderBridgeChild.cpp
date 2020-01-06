@@ -1288,6 +1288,9 @@ FONTCONFIG
 ;
 RefPtr
 <
+gfx
+:
+:
 UnscaledFont
 >
 unscaled
@@ -1410,6 +1413,9 @@ RemoveExpiredFontKeys
 uint32_t
 counter
 =
+gfx
+:
+:
 UnscaledFont
 :
 :

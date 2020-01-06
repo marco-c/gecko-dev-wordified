@@ -1057,7 +1057,6 @@ Nothing
 )
 ;
 }
-static
 void
 TransformLayerGeometry
 (
