@@ -276,7 +276,6 @@ JSObject
 >
 aRetVal
 )
-const
 ;
 nsresult
 SetClientDataJSON
@@ -296,6 +295,16 @@ mParent
 ;
 CryptoBuffer
 mClientDataJSON
+;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mClientDataJSONCachedObj
 ;
 }
 ;
