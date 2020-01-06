@@ -3839,7 +3839,7 @@ RefPtr
 layers
 :
 :
-SyncObject
+SyncObjectClient
 >
 mSyncObject
 ;
@@ -4285,10 +4285,10 @@ mSyncObject
 layers
 :
 :
-SyncObject
+SyncObjectClient
 :
 :
-CreateSyncObject
+CreateSyncObjectClient
 (
 layers
 :
@@ -4379,10 +4379,10 @@ mSyncObject
 layers
 :
 :
-SyncObject
+SyncObjectClient
 :
 :
-CreateSyncObject
+CreateSyncObjectClient
 (
 aKnowsCompositor
 -
@@ -5856,7 +5856,7 @@ mSyncObject
 mSyncObject
 -
 >
-FinalizeFrame
+Synchronize
 (
 )
 ;

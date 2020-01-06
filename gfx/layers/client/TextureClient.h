@@ -514,6 +514,9 @@ TextureForwarder
 class
 KeepAlive
 ;
+class
+SyncObjectClient
+;
 /
 *
 *
@@ -1736,9 +1739,9 @@ virtual
 void
 SyncWithObject
 (
-SyncObject
+SyncObjectClient
 *
-aFence
+aSyncObject
 )
 {
 }
@@ -3702,9 +3705,9 @@ aReadbackSink
 void
 SyncWithObject
 (
-SyncObject
+SyncObjectClient
 *
-aFence
+aSyncObject
 )
 {
 mData
@@ -3712,7 +3715,7 @@ mData
 >
 SyncWithObject
 (
-aFence
+aSyncObject
 )
 ;
 }

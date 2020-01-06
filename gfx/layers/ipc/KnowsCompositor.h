@@ -153,7 +153,7 @@ namespace
 layers
 {
 class
-SyncObject
+SyncObjectClient
 ;
 class
 TextureForwarder
@@ -214,7 +214,7 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
-SyncObject
+SyncObjectClient
 *
 GetSyncObject
 (
@@ -426,7 +426,7 @@ mTextureFactoryIdentifier
 ;
 RefPtr
 <
-SyncObject
+SyncObjectClient
 >
 mSyncObject
 ;

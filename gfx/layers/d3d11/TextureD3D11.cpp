@@ -1840,7 +1840,7 @@ D3D11TextureData
 :
 SyncWithObject
 (
-SyncObject
+SyncObjectClient
 *
 aSyncObject
 )
@@ -1882,7 +1882,7 @@ GetSyncType
 )
 =
 =
-SyncObject
+SyncObjectClient
 :
 :
 SyncType
@@ -1891,13 +1891,13 @@ SyncType
 D3D11
 )
 ;
-SyncObjectD3D11
+SyncObjectD3D11Client
 *
 sync
 =
 static_cast
 <
-SyncObjectD3D11
+SyncObjectD3D11Client
 *
 >
 (
