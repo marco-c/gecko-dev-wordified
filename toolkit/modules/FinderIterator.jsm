@@ -4432,13 +4432,7 @@ _fastFind
 isRangeVisible
 (
 range
-this
-.
-_getDocShell
-(
-range
-)
-true
+false
 )
 )
 continue
