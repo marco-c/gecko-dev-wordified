@@ -10072,11 +10072,8 @@ length
 )
 {
 l10nRegistrySources
-[
-"
+.
 toolkit
-"
-]
 =
 "
 "
@@ -10569,3 +10566,4 @@ chromeEntries
 ;
 }
 }
+;
