@@ -3522,7 +3522,7 @@ S
 "
 :
 "
-findNext
+findPersistentNext
 "
 "
 Ctrl
@@ -3531,7 +3531,7 @@ R
 "
 :
 "
-findPrev
+findPersistentPrev
 "
 "
 Ctrl

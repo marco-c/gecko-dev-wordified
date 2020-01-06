@@ -33,6 +33,10 @@ color
 :
 black
 ;
+direction
+:
+ltr
+;
 }
 /
 *
@@ -2158,11 +2162,15 @@ cm
 searching
 {
 background
+-
+color
 :
 #
 ffa
 ;
 background
+-
+color
 :
 rgba
 (
