@@ -142,7 +142,11 @@ eventSource
 require
 (
 "
-.
+devtools
+/
+shared
+/
+client
 /
 event
 -

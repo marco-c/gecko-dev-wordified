@@ -69,7 +69,11 @@ DebuggerClient
 require
 (
 "
-.
+devtools
+/
+shared
+/
+client
 /
 debugger
 -

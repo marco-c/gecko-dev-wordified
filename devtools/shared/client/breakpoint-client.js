@@ -109,7 +109,11 @@ eventSource
 require
 (
 "
-.
+devtools
+/
+shared
+/
+client
 /
 event
 -
@@ -125,7 +129,11 @@ DebuggerClient
 require
 (
 "
-.
+devtools
+/
+shared
+/
+client
 /
 debugger
 -
