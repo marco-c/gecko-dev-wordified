@@ -921,6 +921,7 @@ GetRequestingPrincipal
 (
 const
 OptionalLoadInfoArgs
+&
 aOptionalLoadInfoArgs
 )
 {
