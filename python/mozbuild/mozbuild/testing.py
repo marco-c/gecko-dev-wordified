@@ -2459,6 +2459,21 @@ python
 False
 )
     
+CRAMTEST
+=
+(
+'
+cram
+'
+'
+cram
+'
+'
+.
+'
+False
+)
+    
 #
 marionette
 tests
