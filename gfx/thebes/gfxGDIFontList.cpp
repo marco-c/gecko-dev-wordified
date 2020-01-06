@@ -5631,6 +5631,8 @@ gfxFontFamily
 >
 *
 aOutput
+bool
+aDeferOtherFamilyNamesLoading
 gfxFontStyle
 *
 aStyle
@@ -5699,6 +5701,7 @@ FindAndAddFamilies
 (
 aFamily
 aOutput
+aDeferOtherFamilyNamesLoading
 aStyle
 aDevToCssSize
 )
