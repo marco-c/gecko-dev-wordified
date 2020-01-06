@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2017b
+2017c
 const
 tzMapper
 =
@@ -296,17 +296,6 @@ Harare
 Africa
 /
 Harare
-"
-"
-Africa
-/
-Juba
-"
-:
-"
-Africa
-/
-Juba
 "
 "
 Africa

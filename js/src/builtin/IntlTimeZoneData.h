@@ -15,7 +15,7 @@ EDIT
 tzdata
 version
 =
-2017b
+2017c
 #
 ifndef
 builtin_IntlTimeZoneData_h
@@ -1291,6 +1291,13 @@ CST
 "
 "
 CTT
+"
+"
+Canada
+/
+East
+-
+Saskatchewan
 "
 "
 EAT
