@@ -239,6 +239,7 @@ MOZ_MTLOG_MODULE
 mediapipeline
 "
 )
+static
 MtransportTestUtils
 *
 test_utils
