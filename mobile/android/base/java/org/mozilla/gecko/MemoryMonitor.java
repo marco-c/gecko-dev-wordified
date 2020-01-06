@@ -985,7 +985,7 @@ break
 case
 ComponentCallbacks2
 .
-TRIM_MEMORY_RUNNING_MODERATE
+TRIM_MEMORY_RUNNING_LOW
 :
 increaseMemoryPressure
 (
@@ -997,7 +997,7 @@ break
 case
 ComponentCallbacks2
 .
-TRIM_MEMORY_RUNNING_LOW
+TRIM_MEMORY_RUNNING_MODERATE
 :
 increaseMemoryPressure
 (
