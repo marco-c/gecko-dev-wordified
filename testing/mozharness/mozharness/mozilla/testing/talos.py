@@ -229,6 +229,21 @@ mozilla
 tooltool
 import
 TooltoolMixin
+from
+mozharness
+.
+mozilla
+.
+testing
+.
+codecoverage
+import
+(
+    
+CodeCoverageMixin
+    
+code_coverage_config_options
+)
 scripts_path
 =
 os
@@ -893,6 +908,7 @@ BlobUploadMixin
 TooltoolMixin
             
 Python3Virtualenv
+CodeCoverageMixin
 )
 :
     
@@ -1312,6 +1328,15 @@ copy
 deepcopy
 (
 blobupload_config_options
+)
+\
+                               
++
+copy
+.
+deepcopy
+(
+code_coverage_config_options
 )
     
 def
@@ -5629,7 +5654,19 @@ log_level
 tbpl_level
 )
         
-else
+elif
+'
+-
+-
+no
+-
+upload
+-
+results
+'
+not
+in
+options
 :
             
 if

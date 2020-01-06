@@ -2508,6 +2508,14 @@ results
     
 if
 results_urls
+and
+not
+browser_config
+[
+'
+no_upload_results
+'
+]
 :
         
 talos_results
