@@ -306,13 +306,13 @@ this
 false
 )
 ;
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mColorContent
+.
+forget
+(
+)
 )
 ;
 nsHTMLButtonControlFrame

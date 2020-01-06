@@ -1008,13 +1008,13 @@ AsElement
 ;
 }
 }
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mCustomContentContainer
+.
+forget
+(
+)
 )
 ;
 nsContainerFrame

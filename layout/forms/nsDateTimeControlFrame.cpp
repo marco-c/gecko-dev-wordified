@@ -316,13 +316,13 @@ nsIFrame
 aDestructRoot
 )
 {
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mInputAreaContent
+.
+forget
+(
+)
 )
 ;
 nsContainerFrame

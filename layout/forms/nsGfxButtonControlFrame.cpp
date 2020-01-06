@@ -236,13 +236,13 @@ nsIFrame
 aDestructRoot
 )
 {
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mTextContent
+.
+forget
+(
+)
 )
 ;
 nsHTMLButtonControlFrame

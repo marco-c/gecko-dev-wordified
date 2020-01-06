@@ -376,13 +376,13 @@ this
 false
 )
 ;
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mBarDiv
+.
+forget
+(
+)
 )
 ;
 nsContainerFrame

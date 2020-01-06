@@ -422,13 +422,13 @@ this
 false
 )
 ;
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mOuterWrapper
+.
+forget
+(
+)
 )
 ;
 nsContainerFrame
