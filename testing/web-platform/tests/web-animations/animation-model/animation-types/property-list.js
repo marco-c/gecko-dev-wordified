@@ -4559,6 +4559,9 @@ opacity
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
@@ -10675,6 +10678,9 @@ StopOpacityProperty
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
