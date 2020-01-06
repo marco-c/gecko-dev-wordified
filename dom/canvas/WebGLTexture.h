@@ -1652,6 +1652,13 @@ const
 TexImageSource
 &
 src
+const
+Maybe
+<
+GLsizei
+>
+&
+expectedImageSize
 )
 ;
 void
@@ -1683,6 +1690,13 @@ const
 TexImageSource
 &
 src
+const
+Maybe
+<
+GLsizei
+>
+&
+expectedImageSize
 )
 ;
 void
