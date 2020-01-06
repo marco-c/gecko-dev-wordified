@@ -141,6 +141,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+NotNull
+.
+h
+"
+#
+include
 <
 oleacc
 .
@@ -186,8 +195,11 @@ Accessible
 IAccessibleHolder
 CreateHolderFromAccessible
 (
+NotNull
+<
 Accessible
 *
+>
 aAccToWrap
 )
 ;

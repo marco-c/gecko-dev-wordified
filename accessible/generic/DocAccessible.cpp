@@ -9825,7 +9825,10 @@ holder
 (
 CreateHolderFromAccessible
 (
+WrapNotNull
+(
 this
+)
 )
 )
 ;
