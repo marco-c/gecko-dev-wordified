@@ -14641,16 +14641,6 @@ pref
 "
 dom
 .
-disable_window_showModalDialog
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 allow_scripts_to_close_windows
 "
 false
