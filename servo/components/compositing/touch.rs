@@ -76,7 +76,6 @@ script_traits
 :
 :
 {
-DevicePixel
 EventResult
 TouchId
 }
@@ -89,6 +88,12 @@ TouchState
 :
 :
 *
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 /
 /

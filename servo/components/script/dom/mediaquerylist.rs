@@ -585,6 +585,13 @@ window_size
 initial_viewport
 ;
 let
+device_pixel_ratio
+=
+window_size
+.
+device_pixel_ratio
+;
+let
 device
 =
 Device
@@ -597,6 +604,7 @@ MediaType
 :
 Screen
 viewport_size
+device_pixel_ratio
 )
 ;
 self

@@ -269,7 +269,6 @@ script_traits
 :
 :
 {
-DevicePixel
 LoadData
 TouchEventType
 TouchpadPressurePhase
@@ -411,6 +410,12 @@ rc
 :
 :
 Rc
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 use
 style_traits

@@ -237,10 +237,7 @@ use
 script_traits
 :
 :
-{
-DevicePixel
 LoadData
-}
 ;
 use
 servo
@@ -337,6 +334,12 @@ cursor
 :
 :
 Cursor
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 #
 [
