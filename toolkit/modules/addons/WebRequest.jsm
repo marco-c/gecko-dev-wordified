@@ -980,6 +980,9 @@ Set
 onResponseStarted
 "
 "
+onHeadersReceived
+"
+"
 onBeforeRedirect
 "
 "
