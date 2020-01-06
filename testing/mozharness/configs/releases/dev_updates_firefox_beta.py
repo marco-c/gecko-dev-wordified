@@ -293,6 +293,8 @@ balrog_username
 "
 :
 "
+balrog
+-
 stage
 -
 ffxbld
