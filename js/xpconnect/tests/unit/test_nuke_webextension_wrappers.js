@@ -420,7 +420,7 @@ close
 /
 Wrappers
 are
-destroyed
+nuked
 asynchronously
 so
 wait
@@ -439,7 +439,7 @@ inner
 -
 window
 -
-destroyed
+nuked
 "
 )
 ;
