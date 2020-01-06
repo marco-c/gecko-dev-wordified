@@ -5144,10 +5144,6 @@ dom
 manifest
 '
     
-tpdisable_e10s
-=
-True
-    
 unit
 =
 '
