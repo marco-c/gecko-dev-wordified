@@ -237,6 +237,7 @@ finish
 -
 -
 -
+async
 function
 verifyUInotDegraded
 (
@@ -256,6 +257,7 @@ and
 also
 not
 blocked
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

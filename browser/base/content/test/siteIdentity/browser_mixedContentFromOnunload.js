@@ -358,6 +358,7 @@ secure
 "
 )
 ;
+await
 assertMixedContentBlockingState
 (
 browser
@@ -463,6 +464,7 @@ broken
 "
 )
 ;
+await
 assertMixedContentBlockingState
 (
 browser
