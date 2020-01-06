@@ -16101,9 +16101,6 @@ JSOP_GENERATOR
 /
 Misc
 case
-JSOP_ARRAYPUSH
-:
-case
 JSOP_DELNAME
 :
 case
@@ -16178,6 +16175,9 @@ break
 ;
 case
 JSOP_UNUSED126
+:
+case
+JSOP_UNUSED206
 :
 case
 JSOP_UNUSED223
