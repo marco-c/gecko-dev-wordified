@@ -1285,6 +1285,17 @@ Route
 :
 ExecuteScript
 )
+(
+Get
+"
+/
+status
+"
+Route
+:
+:
+Status
+)
 ]
 }
 #
@@ -1366,6 +1377,7 @@ AcceptAlert
 GetAlertText
 SendAlertText
 TakeScreenshot
+Status
 Extension
 (
 U
