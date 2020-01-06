@@ -918,7 +918,7 @@ the
 binding
 object
 .
-uint64_t
+size_t
 BindingJSObjectMallocBytes
 (
 Blob

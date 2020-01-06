@@ -6798,6 +6798,14 @@ CanvasDrawObserver
 ;
 }
 ;
+size_t
+BindingJSObjectMallocBytes
+(
+CanvasRenderingContext2D
+*
+aContext
+)
+;
 }
 /
 /
