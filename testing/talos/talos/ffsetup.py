@@ -873,6 +873,31 @@ None
 )
 :
             
+#
+bug
+1272255
+-
+marionette
+doesn
+'
+t
+work
+with
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+            
+self
+.
+env
+[
+'
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+0
+'
+            
 args
 =
 [
@@ -914,6 +939,12 @@ browser_path
 cmdargs
 =
 args
+                                
+env
+=
+self
+.
+env
                                 
 process_class
 =
@@ -1219,6 +1250,12 @@ browser_path
 cmdargs
 =
 args
+                                
+env
+=
+self
+.
+env
                                 
 process_class
 =
