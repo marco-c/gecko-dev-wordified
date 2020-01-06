@@ -36685,10 +36685,7 @@ Ci
 nsIScriptSecurityManager
 .
 DEFAULT_USER_CONTEXT_ID
-aOpenerWindow
-=
-null
-aOpenerBrowser
+aOpener
 =
 null
 aTriggeringPrincipal
@@ -36900,10 +36897,7 @@ forceNotRemote
 aForceNotRemote
 opener
 :
-aOpenerWindow
-openerBrowser
-:
-aOpenerBrowser
+aOpener
 nextTabParentId
 :
 aNextTabParentId
@@ -37631,7 +37625,6 @@ isExternal
 forceNotRemote
 userContextId
 openerWindow
-null
 aTriggeringPrincipal
 )
 ;
@@ -37854,9 +37847,6 @@ isExternal
 false
 userContextId
 null
-aParams
-.
-openerBrowser
 aParams
 .
 triggeringPrincipal
@@ -46680,9 +46670,14 @@ this
 .
 sendMessage
 (
+gURLBar
+.
+makeURIReadable
+(
 aBrowser
 .
 currentURI
+)
 .
 displaySpec
 aBrowser
