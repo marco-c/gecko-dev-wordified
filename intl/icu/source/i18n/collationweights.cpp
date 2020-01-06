@@ -4236,6 +4236,11 @@ i
 =
 0
 ;
+i
+<
+rangeCount
+&
+&
 ranges
 [
 i

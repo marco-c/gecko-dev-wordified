@@ -102,6 +102,10 @@ utypes
 h
 "
 #
+if
+!
+UCONFIG_NO_BREAK_ITERATION
+#
 include
 "
 unicode
@@ -1869,5 +1873,15 @@ arg
 #
 endif
 U_NAMESPACE_END
+#
+endif
+/
+*
+#
+if
+!
+UCONFIG_NO_BREAK_ITERATION
+*
+/
 #
 endif

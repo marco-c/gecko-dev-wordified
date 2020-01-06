@@ -607,7 +607,7 @@ endif
 *
 *
 Determines
-wheter
+whether
 to
 enable
 auto
@@ -1810,8 +1810,15 @@ will
 not
 completely
 build
+(
+compiling
+the
+tools
+fails
+)
 with
 this
+*
 switch
 turned
 on
@@ -2114,7 +2121,9 @@ define
 UCONFIG_NO_NORMALIZATION
 0
 #
-elif
+endif
+#
+if
 UCONFIG_NO_NORMALIZATION
 /
 *

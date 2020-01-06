@@ -1889,7 +1889,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_normalize
@@ -2083,7 +2083,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 UNormalizationCheckResult
 U_EXPORT2
 unorm_quickCheck
@@ -2231,7 +2231,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 UNormalizationCheckResult
 U_EXPORT2
 unorm_quickCheckWithOptions
@@ -2442,7 +2442,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 UBool
 U_EXPORT2
 unorm_isNormalized
@@ -2609,7 +2609,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 UBool
 U_EXPORT2
 unorm_isNormalizedWithOptions
@@ -3308,7 +3308,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_next
@@ -3567,7 +3567,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_previous
@@ -3908,7 +3908,7 @@ instead
 .
 *
 /
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_concatenate

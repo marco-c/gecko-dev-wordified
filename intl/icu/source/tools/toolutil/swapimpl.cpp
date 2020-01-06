@@ -545,6 +545,13 @@ h
 #
 include
 "
+utrie
+.
+h
+"
+#
+include
+"
 utrie2
 .
 h

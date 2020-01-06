@@ -4885,11 +4885,12 @@ an
 SRBRoot
 *
 /
-struct
+LocalPointer
+<
 SRBRoot
-*
+>
 data
-=
+(
 parse
 (
 ucbuf
@@ -4908,6 +4909,7 @@ FALSE
 FALSE
 &
 errorCode
+)
 )
 ;
 if

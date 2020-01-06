@@ -3475,6 +3475,8 @@ RelDateTimeFmtDataSink
 /
 /
 namespace
+static
+const
 DateFormatSymbols
 :
 :

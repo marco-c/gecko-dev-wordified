@@ -532,7 +532,7 @@ t
 }
 char16_t
 *
-p
+p_
 ;
 #
 else
@@ -551,7 +551,7 @@ wchar_t
 wp
 ;
 }
-u
+u_
 ;
 #
 endif
@@ -570,7 +570,7 @@ char16_t
 p
 )
 :
-p
+p_
 (
 p
 )
@@ -590,7 +590,7 @@ uint16_t
 p
 )
 :
-p
+p_
 (
 cast
 (
@@ -617,7 +617,7 @@ wchar_t
 p
 )
 :
-p
+p_
 (
 cast
 (
@@ -640,7 +640,7 @@ nullptr_t
 p
 )
 :
-p
+p_
 (
 p
 )
@@ -656,7 +656,7 @@ Char16Ptr
 {
 U_ALIASING_BARRIER
 (
-p
+p_
 )
 ;
 }
@@ -671,7 +671,7 @@ get
 const
 {
 return
-p
+p_
 ;
 }
 #
@@ -686,7 +686,7 @@ char16_t
 p
 )
 {
-u
+u_
 .
 cp
 =
@@ -707,7 +707,7 @@ uint16_t
 p
 )
 {
-u
+u_
 .
 up
 =
@@ -732,7 +732,7 @@ wchar_t
 p
 )
 {
-u
+u_
 .
 wp
 =
@@ -753,7 +753,7 @@ nullptr_t
 p
 )
 {
-u
+u_
 .
 cp
 =
@@ -780,7 +780,7 @@ get
 const
 {
 return
-u
+u_
 .
 cp
 ;
@@ -1140,7 +1140,7 @@ t
 const
 char16_t
 *
-p
+p_
 ;
 #
 else
@@ -1162,7 +1162,7 @@ wchar_t
 wp
 ;
 }
-u
+u_
 ;
 #
 endif
@@ -1182,7 +1182,7 @@ char16_t
 p
 )
 :
-p
+p_
 (
 p
 )
@@ -1203,7 +1203,7 @@ uint16_t
 p
 )
 :
-p
+p_
 (
 cast
 (
@@ -1231,7 +1231,7 @@ wchar_t
 p
 )
 :
-p
+p_
 (
 cast
 (
@@ -1255,7 +1255,7 @@ nullptr_t
 p
 )
 :
-p
+p_
 (
 p
 )
@@ -1271,7 +1271,7 @@ ConstChar16Ptr
 {
 U_ALIASING_BARRIER
 (
-p
+p_
 )
 ;
 }
@@ -1287,7 +1287,7 @@ get
 const
 {
 return
-p
+p_
 ;
 }
 #
@@ -1303,7 +1303,7 @@ char16_t
 p
 )
 {
-u
+u_
 .
 cp
 =
@@ -1325,7 +1325,7 @@ uint16_t
 p
 )
 {
-u
+u_
 .
 up
 =
@@ -1351,7 +1351,7 @@ wchar_t
 p
 )
 {
-u
+u_
 .
 wp
 =
@@ -1373,7 +1373,7 @@ nullptr_t
 p
 )
 {
-u
+u_
 .
 cp
 =
@@ -1401,7 +1401,7 @@ get
 const
 {
 return
-u
+u_
 .
 cp
 ;

@@ -16713,6 +16713,7 @@ status
 else
 {
 static
+const
 UChar
 emptyString
 [

@@ -274,6 +274,15 @@ __USPOOF_BUILDCONF_H__
 define
 __USPOOF_BUILDCONF_H__
 #
+include
+"
+unicode
+/
+utypes
+.
+h
+"
+#
 if
 !
 UCONFIG_NO_NORMALIZATION

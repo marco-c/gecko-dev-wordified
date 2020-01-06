@@ -405,6 +405,13 @@ pkg_genc
 h
 "
 #
+include
+"
+filetools
+.
+h
+"
+#
 define
 MAX_COLUMN
 (
@@ -2274,7 +2281,7 @@ to
 fix
 the
 file
-seperator
+separator
 character
 when
 using

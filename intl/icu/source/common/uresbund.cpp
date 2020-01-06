@@ -7860,6 +7860,11 @@ status
 =
 U_MEMORY_ALLOCATION_ERROR
 ;
+ures_close
+(
+mainRes
+)
+;
 return
 NULL
 ;

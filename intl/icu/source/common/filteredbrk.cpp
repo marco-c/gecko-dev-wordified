@@ -5721,7 +5721,7 @@ FilteredBreakIteratorBuilder
 FilteredBreakIteratorBuilder
 :
 :
-createInstance
+createEmptyInstance
 (
 UErrorCode
 &

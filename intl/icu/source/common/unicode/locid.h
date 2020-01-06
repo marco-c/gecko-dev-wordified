@@ -1007,7 +1007,7 @@ use
 REVISED
 for
 a
-langauge
+language
 '
 s
 revised

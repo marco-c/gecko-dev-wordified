@@ -1588,9 +1588,15 @@ NULL
 *
 resultLength
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 s
+)
 )
 ;
 }

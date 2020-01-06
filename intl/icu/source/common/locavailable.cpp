@@ -447,7 +447,7 @@ icu
 :
 :
 UInitOnce
-gInitOnce
+gInitOnceLocale
 =
 U_INITONCE_INITIALIZER
 ;
@@ -481,7 +481,7 @@ availableLocaleListCount
 =
 0
 ;
-gInitOnce
+gInitOnceLocale
 .
 reset
 (
@@ -644,7 +644,7 @@ count
 {
 umtx_initOnce
 (
-gInitOnce
+gInitOnceLocale
 &
 locale_available_init
 )

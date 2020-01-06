@@ -663,7 +663,7 @@ file
 char
 line
 [
-300
+10000
 ]
 ;
 char
@@ -1191,11 +1191,9 @@ break
 }
 /
 *
-error
-in
-a
-field
-function
+too
+few
+fields
 ?
 *
 /

@@ -15573,7 +15573,7 @@ time
 internal
 *
 /
-int32_t
+double
 computeMillisInDay
 (
 )
@@ -15642,7 +15642,7 @@ computeZoneOffset
 (
 double
 millis
-int32_t
+double
 millisInDay
 UErrorCode
 &

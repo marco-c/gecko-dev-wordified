@@ -5862,7 +5862,7 @@ Locale
 in
 the
 desired
-langauge
+language
 *
 param
 objectLocale
@@ -5951,7 +5951,7 @@ desired
 Locale
 in
 the
-langauge
+language
 of
 the
 *

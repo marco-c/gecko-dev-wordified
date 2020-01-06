@@ -389,12 +389,6 @@ h
 console
 IO
 #
-if
-U_IOSTREAM_SOURCE
->
-=
-199711
-#
 define
 STD_NAMESPACE
 std
@@ -1183,7 +1177,5 @@ stream
 ;
 }
 U_NAMESPACE_END
-#
-endif
 #
 endif

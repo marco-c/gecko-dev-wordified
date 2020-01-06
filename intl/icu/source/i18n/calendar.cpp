@@ -735,8 +735,6 @@ gServiceInitOnce
 =
 U_INITONCE_INITIALIZER
 ;
-#
-endif
 /
 /
 INTERNAL
@@ -781,6 +779,8 @@ TRUE
 ;
 }
 U_CDECL_END
+#
+endif
 /
 /
 -
@@ -1636,6 +1636,18 @@ return
 CALTYPE_UNKNOWN
 ;
 }
+#
+if
+!
+UCONFIG_NO_SERVICE
+/
+/
+Only
+used
+with
+service
+registration
+.
 static
 UBool
 isStandardSupportedKeyword
@@ -1678,6 +1690,14 @@ CALTYPE_UNKNOWN
 )
 ;
 }
+/
+/
+only
+used
+with
+service
+registration
+.
 static
 void
 getCalendarKeyword
@@ -1800,6 +1820,8 @@ keyLen
 0
 ;
 }
+#
+endif
 static
 ECalType
 getCalendarTypeForLocale
@@ -21441,7 +21463,7 @@ julianInsanityCheck
 }
 #
 endif
-int32_t
+double
 millisInDay
 ;
 /
@@ -22547,7 +22569,7 @@ ICU
 0
 *
 /
-int32_t
+double
 Calendar
 :
 :
@@ -22565,7 +22587,7 @@ of
 the
 conversion
 .
-int32_t
+double
 millisInDay
 =
 0
@@ -22896,7 +22918,7 @@ computeZoneOffset
 (
 double
 millis
-int32_t
+double
 millisInDay
 UErrorCode
 &

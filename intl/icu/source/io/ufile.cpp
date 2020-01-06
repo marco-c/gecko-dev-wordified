@@ -1144,6 +1144,10 @@ mbstowcs_s
 &
 retVal
 wperm
+UPRV_LENGTHOF
+(
+wperm
+)
 perm
 _TRUNCATE
 )

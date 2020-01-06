@@ -565,7 +565,7 @@ formatVersion
 ]
 =
 =
-2
+3
 )
 {
 /
@@ -704,7 +704,7 @@ if
 indexesLength
 <
 =
-IX_MIN_MAYBE_YES
+IX_MIN_LCCC_CP
 )
 {
 errorCode

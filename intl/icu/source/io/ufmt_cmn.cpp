@@ -1215,6 +1215,12 @@ end
 /
 while
 (
+count
+<
+*
+len
+&
+&
 ufmt_isdigit
 (
 buffer
@@ -1223,12 +1229,6 @@ count
 ]
 16
 )
-&
-&
-count
-<
-*
-len
 )
 {
 /

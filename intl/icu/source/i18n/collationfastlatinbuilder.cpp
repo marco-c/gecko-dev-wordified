@@ -4822,11 +4822,17 @@ index
 int32_t
 x
 =
+static_cast
+<
+int32_t
+>
+(
 contractionCEs
 .
 elementAti
 (
 index
+)
 )
 ;
 if

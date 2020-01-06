@@ -3829,7 +3829,7 @@ sav
 UChar
 tmpNameBuf
 [
-64
+ZONE_NAME_U16_MAX
 ]
 ;
 tz
@@ -4318,7 +4318,7 @@ below
 UChar
 genNameBuf
 [
-64
+ZONE_NAME_U16_MAX
 ]
 ;
 UnicodeString
@@ -5456,6 +5456,9 @@ snext
 status
 )
 )
+!
+=
+NULL
 )
 {
 if
@@ -6669,6 +6672,9 @@ snext
 status
 )
 )
+!
+=
+NULL
 )
 {
 if
@@ -7237,6 +7243,9 @@ gTZGNCoreCache
 pos
 )
 )
+!
+=
+NULL
 )
 {
 TZGNCoreRef

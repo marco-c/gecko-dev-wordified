@@ -2776,6 +2776,9 @@ year
 =
 1
 +
+(
+int32_t
+)
 ClockMath
 :
 :
@@ -2783,9 +2786,15 @@ floorDivide
 (
 33
 *
+(
+int64_t
+)
 daysSinceEpoch
 +
 3
+(
+int64_t
+)
 12053
 )
 ;

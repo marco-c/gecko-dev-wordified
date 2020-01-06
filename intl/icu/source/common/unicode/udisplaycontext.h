@@ -397,9 +397,6 @@ ICU
 UDISPCTX_TYPE_DISPLAY_LENGTH
 =
 2
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -420,7 +417,7 @@ UDISPCTX_SUBSTITUTE
 UDISPCTX_NO_SUBSTITUTE
 .
 *
-draft
+stable
 ICU
 58
 *
@@ -428,13 +425,6 @@ ICU
 UDISPCTX_TYPE_SUBSTITUTE_HANDLING
 =
 3
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 }
 ;
 /
@@ -1093,9 +1083,6 @@ UDISPCTX_TYPE_DISPLAY_LENGTH
 )
 +
 1
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1194,7 +1181,7 @@ default
 value
 .
 *
-draft
+stable
 ICU
 58
 *
@@ -1231,7 +1218,7 @@ is
 available
 .
 *
-draft
+stable
 ICU
 58
 *
@@ -1246,13 +1233,6 @@ UDISPCTX_TYPE_SUBSTITUTE_HANDLING
 )
 +
 1
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 }
 ;
 /

@@ -1308,7 +1308,13 @@ n
 &
 initVisibleDigits
 (
+static_cast
+<
+int64_t
+>
+(
 scaled
+)
 -
 n
 digits
@@ -1348,7 +1354,7 @@ Adjust
 for
 negative
 0
-becuase
+because
 when
 we
 cast

@@ -1005,7 +1005,11 @@ umtx_condSignal
 (
 UConditionVar
 *
+/
+*
 condition
+*
+/
 )
 {
 /

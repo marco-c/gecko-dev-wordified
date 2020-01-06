@@ -3315,6 +3315,13 @@ ts
 reorderCodesLength
 &
 &
+(
+reorderCodesLength
+=
+=
+0
+|
+|
 uprv_memcmp
 (
 reorderCodes
@@ -3328,6 +3335,7 @@ reorderCodesLength
 =
 =
 0
+)
 &
 &
 fastLatinOptions

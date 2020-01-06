@@ -1191,9 +1191,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1274,7 +1271,7 @@ unit
 .
 *
 *
-draft
+stable
 ICU
 58
 *
@@ -1292,13 +1289,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

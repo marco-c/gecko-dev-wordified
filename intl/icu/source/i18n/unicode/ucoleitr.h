@@ -1395,7 +1395,7 @@ elements
 ordering
 otherwise
 returns
-NULLORDER
+UCOL_NULLORDER
 *
 if
 an
@@ -1523,7 +1523,7 @@ ordering
 otherwise
 returns
 *
-NULLORDER
+UCOL_NULLORDER
 if
 an
 error

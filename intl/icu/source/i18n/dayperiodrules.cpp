@@ -2432,7 +2432,7 @@ localeCode
 =
 locale
 .
-getName
+getBaseName
 (
 )
 ;

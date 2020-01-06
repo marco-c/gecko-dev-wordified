@@ -7325,6 +7325,11 @@ DOT
 ABOVE
 *
 /
+*
+pString
+=
+nullptr
+;
 return
 0
 ;
@@ -8005,6 +8010,11 @@ DOT
 ABOVE
 *
 /
+*
+pString
+=
+nullptr
+;
 return
 0
 ;

@@ -2252,9 +2252,6 @@ that
 )
 ;
 }
-#
-if
-U_HAVE_RVALUE_REFERENCES
 UnicodeString
 :
 :
@@ -2281,8 +2278,6 @@ src
 )
 ;
 }
-#
-endif
 UnicodeString
 :
 :

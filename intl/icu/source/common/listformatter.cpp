@@ -494,8 +494,9 @@ U_MUTEX_INITIALIZER
 static
 const
 char
-*
 STANDARD_STYLE
+[
+]
 =
 "
 standard
