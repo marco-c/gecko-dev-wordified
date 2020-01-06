@@ -179,13 +179,13 @@ tests
 (
 )
 {
-try
-{
 var
 testnum
 =
 0
 ;
+try
+{
 /
 /
 =

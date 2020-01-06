@@ -155,6 +155,17 @@ requireReturnDescription
 false
 }
 ]
+"
+block
+-
+scoped
+-
+var
+"
+:
+"
+error
+"
 }
 }
 ;

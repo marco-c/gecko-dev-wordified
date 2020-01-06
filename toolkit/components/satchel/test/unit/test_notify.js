@@ -204,8 +204,6 @@ run_test_steps
 (
 )
 {
-try
-{
 var
 testnum
 =
@@ -223,6 +221,8 @@ history
 entries
 "
 ;
+try
+{
 var
 entry1
 =
