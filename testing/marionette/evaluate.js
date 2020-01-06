@@ -1983,7 +1983,7 @@ null
 ;
 /
 /
-literals
+primitives
 }
 else
 if
@@ -2087,8 +2087,14 @@ obj
 /
 /
 Element
+(
+HTMLElement
 SVGElement
 XULElement
+&
+c
+.
+)
 }
 else
 if
