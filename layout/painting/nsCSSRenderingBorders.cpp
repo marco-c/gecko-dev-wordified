@@ -29019,6 +29019,9 @@ FromUnknownRect
 mOuterRect
 )
 ;
+wr
+:
+:
 WrRect
 transformedRect
 =
@@ -29029,6 +29032,9 @@ ToRelativeWrRect
 outerRect
 )
 ;
+wr
+:
+:
 WrBorderSide
 side
 [
@@ -29064,6 +29070,9 @@ i
 )
 ;
 }
+wr
+:
+:
 WrBorderRadius
 borderRadius
 =
@@ -29137,6 +29146,9 @@ height
 Range
 <
 const
+wr
+:
+:
 WrBorderSide
 >
 wrsides

@@ -555,6 +555,12 @@ bool
 wr_moz2d_render_cb
 (
 const
+mozilla
+:
+:
+wr
+:
+:
 WrByteSlice
 blob
 uint32_t
@@ -569,6 +575,12 @@ wr
 :
 ImageFormat
 aFormat
+mozilla
+:
+:
+wr
+:
+:
 MutByteSlice
 output
 )

@@ -238,6 +238,12 @@ h
 for
 nsACString
 etc
+namespace
+mozilla
+{
+namespace
+wr
+{
 struct
 WrColor
 ;
@@ -247,9 +253,11 @@ WrRect
 struct
 WrSize
 ;
+}
+/
+/
 namespace
-mozilla
-{
+wr
 namespace
 gfx
 {
@@ -738,6 +746,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrColor
 &
 c
@@ -767,6 +778,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrRect
 &
 r
@@ -796,6 +810,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrSize
 &
 s

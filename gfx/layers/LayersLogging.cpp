@@ -550,6 +550,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrColor
 &
 c
@@ -641,6 +644,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrRect
 &
 r
@@ -718,6 +724,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrSize
 &
 s

@@ -2711,6 +2711,9 @@ GetKey
 )
 )
 ;
+wr
+:
+:
 WrRect
 dest
 =
@@ -2915,6 +2918,9 @@ DiscardCompositorAnimations
 (
 )
 ;
+wr
+:
+:
 WrSize
 contentSize
 {

@@ -49916,6 +49916,9 @@ mAppUnitsPerDevPixel
 )
 )
 ;
+wr
+:
+:
 WrRect
 transformedRect
 =
@@ -49926,6 +49929,9 @@ ToRelativeWrRect
 borderRect
 )
 ;
+wr
+:
+:
 WrBorderSide
 wrSide
 [
@@ -49981,6 +49987,9 @@ param
 mBorderStyle
 )
 ;
+wr
+:
+:
 WrBorderRadius
 borderRadii
 =
@@ -50036,6 +50045,9 @@ rect
 is
 fine
 .
+wr
+:
+:
 WrBorderWidths
 borderWidths
 =
@@ -50070,6 +50082,9 @@ width
 Range
 <
 const
+wr
+:
+:
 WrBorderSide
 >
 wrsides
@@ -51657,6 +51672,9 @@ mAppUnitsPerDevPixel
 )
 )
 ;
+wr
+:
+:
 WrRect
 transformedRect
 =
@@ -51667,6 +51685,9 @@ ToRelativeWrRect
 borderRect
 )
 ;
+wr
+:
+:
 WrBorderSide
 wrSide
 [
@@ -51722,6 +51743,9 @@ param
 mBorderStyle
 )
 ;
+wr
+:
+:
 WrBorderRadius
 borderRadii
 =
@@ -51777,6 +51801,9 @@ rect
 is
 fine
 .
+wr
+:
+:
 WrBorderWidths
 borderWidths
 =
@@ -51811,6 +51838,9 @@ height
 Range
 <
 const
+wr
+:
+:
 WrBorderSide
 >
 wrsides

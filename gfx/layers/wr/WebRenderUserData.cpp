@@ -422,6 +422,9 @@ value
 )
 ;
 }
+wr
+:
+:
 WrImageKey
 key
 =
@@ -532,10 +535,16 @@ MaybeIntSize
 &
 aScaleToSize
 const
+wr
+:
+:
 WrImageRendering
 &
 aFilter
 const
+wr
+:
+:
 WrMixBlendMode
 &
 aMixBlendMode
@@ -715,6 +724,9 @@ happens
 in
 WebRenderCompositableHolder
 .
+wr
+:
+:
 WrRect
 r
 =

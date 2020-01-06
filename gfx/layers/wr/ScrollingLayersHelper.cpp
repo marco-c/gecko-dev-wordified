@@ -1230,6 +1230,9 @@ clip
 {
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 mask
@@ -1326,6 +1329,9 @@ MovingDownToChildren
 ;
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 mask

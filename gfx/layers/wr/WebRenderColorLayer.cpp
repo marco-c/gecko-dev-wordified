@@ -228,6 +228,9 @@ ColorLayer
 rect
 )
 ;
+wr
+:
+:
 WrRect
 r
 =

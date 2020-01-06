@@ -189,6 +189,9 @@ aSc
 virtual
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 RenderMaskLayer
@@ -304,6 +307,9 @@ WrBridge
 (
 )
 ;
+wr
+:
+:
 WrImageKey
 GetImageKey
 (
@@ -399,6 +405,9 @@ tree
 .
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 BuildWrMaskLayer

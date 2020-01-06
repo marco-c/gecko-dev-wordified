@@ -215,6 +215,9 @@ WrBridge
 )
 ;
 }
+wr
+:
+:
 WrImageKey
 WebRenderLayer
 :
@@ -223,6 +226,9 @@ GetImageKey
 (
 )
 {
+wr
+:
+:
 WrImageKey
 key
 ;
@@ -258,6 +264,9 @@ key
 }
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 WebRenderLayer
@@ -686,6 +695,9 @@ value
 )
 ;
 }
+wr
+:
+:
 WrImageKey
 key
 =
@@ -769,6 +781,9 @@ Bounds
 (
 )
 ;
+wr
+:
+:
 WrMixBlendMode
 mixBlendMode
 =

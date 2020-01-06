@@ -436,11 +436,17 @@ BuildWebRenderParameters
 (
 float
 aOpacity
+wr
+:
+:
 WrGradientExtendMode
 &
 aMode
 nsTArray
 <
+wr
+:
+:
 WrGradientStop
 >
 &

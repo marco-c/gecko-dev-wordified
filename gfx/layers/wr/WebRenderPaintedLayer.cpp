@@ -644,6 +644,9 @@ PaintedLayer
 rect
 )
 ;
+wr
+:
+:
 WrImageKey
 key
 =
@@ -679,6 +682,9 @@ AddImageKeyForDiscard
 key
 )
 ;
+wr
+:
+:
 WrRect
 r
 =

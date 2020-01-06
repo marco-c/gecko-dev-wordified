@@ -275,6 +275,9 @@ Nothing
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -282,6 +285,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -332,6 +338,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -339,6 +348,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -385,6 +397,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -392,6 +407,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -591,6 +609,9 @@ explicit
 somehow
 )
 .
+wr
+:
+:
 WrRect
 ToRelativeWrRect
 (
@@ -601,6 +622,9 @@ aRect
 )
 const
 ;
+wr
+:
+:
 WrRect
 ToRelativeWrRect
 (
@@ -617,6 +641,9 @@ Same
 but
 for
 points
+wr
+:
+:
 WrPoint
 ToRelativeWrPoint
 (
@@ -639,6 +666,9 @@ ints
 after
 transforming
 .
+wr
+:
+:
 WrRect
 ToRelativeWrRectRounded
 (

@@ -1996,6 +1996,9 @@ bgClipRect
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 transformedRect
 =

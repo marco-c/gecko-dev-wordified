@@ -247,6 +247,9 @@ if
 mItem
 )
 {
+wr
+:
+:
 WrSize
 contentSize
 ;

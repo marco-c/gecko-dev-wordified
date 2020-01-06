@@ -377,6 +377,9 @@ private
 :
 Maybe
 <
+wr
+:
+:
 WrImageKey
 >
 mImageKey

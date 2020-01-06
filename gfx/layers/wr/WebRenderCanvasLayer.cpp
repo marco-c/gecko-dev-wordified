@@ -577,6 +577,9 @@ c_str
 )
 ;
 }
+wr
+:
+:
 WrImageKey
 key
 =
@@ -612,6 +615,9 @@ AddImageKeyForDiscard
 key
 )
 ;
+wr
+:
+:
 WrRect
 r
 =

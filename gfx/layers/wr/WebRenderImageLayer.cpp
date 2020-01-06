@@ -1024,6 +1024,9 @@ async
 rect
 )
 ;
+wr
+:
+:
 WrRect
 r
 =
@@ -1455,6 +1458,9 @@ c_str
 )
 ;
 }
+wr
+:
+:
 WrRect
 r
 =
@@ -1482,6 +1488,9 @@ value
 }
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 WebRenderImageLayer
@@ -1726,6 +1735,9 @@ GetSize
 (
 )
 ;
+wr
+:
+:
 WrImageMask
 imageMask
 ;
