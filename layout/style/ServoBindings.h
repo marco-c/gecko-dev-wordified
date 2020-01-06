@@ -2480,6 +2480,13 @@ element
 )
 ;
 void
+Gecko_NoteDirtySubtreeForInvalidation
+(
+RawGeckoElementBorrowed
+element
+)
+;
+void
 Gecko_NoteAnimationOnlyDirtyElement
 (
 RawGeckoElementBorrowed
