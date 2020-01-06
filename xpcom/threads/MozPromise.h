@@ -5329,9 +5329,6 @@ public
 void
 ThenInternal
 (
-AbstractThread
-*
-aResponseThread
 already_AddRefed
 <
 ThenValueBase
@@ -5368,11 +5365,6 @@ mMagic4
 =
 &
 mMutex
-)
-;
-MOZ_ASSERT
-(
-aResponseThread
 )
 ;
 RefPtr
@@ -5624,9 +5616,6 @@ Private
 ;
 ThenCommand
 (
-AbstractThread
-*
-aResponseThread
 const
 char
 *
@@ -5641,10 +5630,6 @@ MozPromise
 aReceiver
 )
 :
-mResponseThread
-(
-aResponseThread
-)
 mCallSite
 (
 aCallSite
@@ -5658,11 +5643,6 @@ mReceiver
 aReceiver
 )
 {
-MOZ_ASSERT
-(
-aResponseThread
-)
-;
 }
 ThenCommand
 (
@@ -5709,7 +5689,6 @@ mReceiver
 >
 ThenInternal
 (
-mResponseThread
 mThenValue
 .
 forget
@@ -5878,7 +5857,6 @@ mReceiver
 >
 ThenInternal
 (
-mResponseThread
 mThenValue
 .
 forget
@@ -5991,7 +5969,6 @@ mReceiver
 >
 ThenInternal
 (
-mResponseThread
 mThenValue
 .
 forget
@@ -6048,10 +6025,6 @@ this
 }
 private
 :
-AbstractThread
-*
-mResponseThread
-;
 const
 char
 *
@@ -6141,7 +6114,6 @@ aCallSite
 return
 ReturnType
 (
-aResponseThread
 aCallSite
 thenValue
 .
@@ -6219,7 +6191,6 @@ aCallSite
 return
 ReturnType
 (
-aResponseThread
 aCallSite
 thenValue
 .
