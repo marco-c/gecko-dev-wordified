@@ -148,6 +148,7 @@ let
 {
 getLongString
 getTabTarget
+requestData
 }
 =
 connector
@@ -237,6 +238,7 @@ RequestListContextMenu
 {
 getTabTarget
 getLongString
+requestData
 }
 )
 ;

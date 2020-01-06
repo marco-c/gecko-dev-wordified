@@ -292,6 +292,9 @@ undefined
 responseContent
 :
 undefined
+responseContentAvailable
+:
+false
 responseContentDataUri
 :
 undefined

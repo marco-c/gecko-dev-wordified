@@ -512,9 +512,6 @@ eventTimings
 securityState
 "
 "
-responseContentDataUri
-"
-"
 status
 "
 "
