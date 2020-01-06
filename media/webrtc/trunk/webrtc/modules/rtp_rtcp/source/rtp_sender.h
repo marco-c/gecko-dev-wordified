@@ -1486,8 +1486,16 @@ send_critsect_
 )
 ;
 char
-*
 rid_
+[
+kRIDSize
++
+1
+]
+GUARDED_BY
+(
+send_critsect_
+)
 ;
 /
 /
