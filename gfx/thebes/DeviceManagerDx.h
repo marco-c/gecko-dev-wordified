@@ -392,6 +392,11 @@ IsWARP
 (
 )
 ;
+bool
+CanUseNV12
+(
+)
+;
 /
 /
 Returns
