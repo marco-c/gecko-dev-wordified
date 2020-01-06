@@ -82568,10 +82568,6 @@ aParentFrame
 do_AddRef
 (
 mTempFrameTreeState
-.
-get
-(
-)
 )
 )
 ;

@@ -19573,10 +19573,6 @@ Other
 do_AddRef
 (
 mWillPaintFallbackEvent
-.
-get
-(
-)
 )
 )
 ;

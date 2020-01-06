@@ -1840,10 +1840,6 @@ return
 do_AddRef
 (
 sSingleton
-.
-get
-(
-)
 )
 ;
 }

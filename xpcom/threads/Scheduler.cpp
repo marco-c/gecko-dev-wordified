@@ -1610,10 +1610,6 @@ return
 do_AddRef
 (
 mObserver
-.
-get
-(
-)
 )
 ;
 }
@@ -1639,10 +1635,6 @@ return
 do_AddRef
 (
 mObserver
-.
-get
-(
-)
 )
 ;
 }

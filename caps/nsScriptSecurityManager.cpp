@@ -8875,10 +8875,6 @@ gScriptSecMan
 -
 >
 mSystemPrincipal
-.
-get
-(
-)
 )
 .
 downcast
