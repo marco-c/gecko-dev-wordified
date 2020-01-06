@@ -238,10 +238,6 @@ aCallback
 aChannel
 aURI
 )
-mReopenOnError
-(
-false
-)
 mCacheStream
 (
 this
@@ -279,10 +275,6 @@ BaseMediaResource
 aCallback
 aChannel
 aURI
-)
-mReopenOnError
-(
-false
 )
 mCacheStream
 (
@@ -502,6 +494,7 @@ OnStopRequest
 (
 aRequest
 aStatus
+mReopenOnError
 )
 ;
 }
@@ -1873,10 +1866,6 @@ Start
 (
 )
 ;
-mReopenOnError
-=
-false
-;
 mSuspendAgent
 .
 UpdateSuspendedStatusIfNeeded
@@ -2366,6 +2355,8 @@ nsIRequest
 aRequest
 nsresult
 aStatus
+bool
+aReopenOnError
 )
 {
 NS_ASSERTION
@@ -2537,7 +2528,7 @@ bad
 .
 if
 (
-mReopenOnError
+aReopenOnError
 &
 &
 aStatus
@@ -4565,9 +4556,12 @@ should
 reopen
 it
 .
-mReopenOnError
-=
-true
+mListener
+-
+>
+SetReopenOnError
+(
+)
 ;
 element
 -
