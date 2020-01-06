@@ -72,7 +72,6 @@ api
 :
 :
 {
-FontInstance
 FontVariation
 NativeFontHandle
 }
@@ -267,6 +266,7 @@ glyph_rasterizer
 :
 :
 {
+FontInstance
 GlyphFormat
 RasterizedGlyph
 }

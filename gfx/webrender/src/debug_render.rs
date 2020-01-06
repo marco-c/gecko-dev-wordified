@@ -1680,7 +1680,7 @@ true
 ;
 device
 .
-set_blend_mode_alpha
+set_blend_mode_premultiplied_alpha
 (
 )
 ;

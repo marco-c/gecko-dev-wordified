@@ -125,12 +125,6 @@ TexelRect
 }
 ;
 use
-tiling
-:
-:
-PrimitiveFlags
-;
-use
 util
 :
 :
@@ -2405,9 +2399,6 @@ top
 .
 color
 )
-PrimitiveFlags
-:
-:
 None
 )
 ;
@@ -2485,9 +2476,6 @@ left
 .
 color
 )
-PrimitiveFlags
-:
-:
 None
 )
 ;
@@ -2567,9 +2555,6 @@ right
 .
 color
 )
-PrimitiveFlags
-:
-:
 None
 )
 ;
@@ -2643,9 +2628,6 @@ bottom
 .
 color
 )
-PrimitiveFlags
-:
-:
 None
 )
 ;

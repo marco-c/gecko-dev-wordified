@@ -63,7 +63,6 @@ api
 {
 DevicePoint
 DeviceUintSize
-FontInstance
 GlyphKey
 }
 ;
@@ -71,7 +70,10 @@ use
 glyph_rasterizer
 :
 :
+{
+FontInstance
 GlyphFormat
+}
 ;
 use
 internal_types
