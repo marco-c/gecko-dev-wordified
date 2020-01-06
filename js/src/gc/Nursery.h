@@ -2453,7 +2453,6 @@ PointerHasher
 <
 void
 *
-3
 >
 SystemAllocPolicy
 >
@@ -2561,7 +2560,6 @@ PointerHasher
 <
 void
 *
-1
 >
 SystemAllocPolicy
 >

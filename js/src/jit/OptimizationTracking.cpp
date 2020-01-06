@@ -1164,7 +1164,6 @@ TypeSet
 :
 ObjectKey
 *
-3
 >
 :
 :
