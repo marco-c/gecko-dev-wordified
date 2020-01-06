@@ -6113,6 +6113,8 @@ extension
 !
 aAddon
 .
+_installLocation
+.
 isSystem
 &
 &
