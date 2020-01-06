@@ -8658,6 +8658,10 @@ getter_AddRefs
 bufferedInputStream
 )
 fileInputStream
+.
+forget
+(
+)
 BUFFERED_OUTPUT_SIZE
 )
 ;

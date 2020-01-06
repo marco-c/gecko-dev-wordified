@@ -9019,6 +9019,10 @@ ImageOps
 DecodeToSurface
 (
 stream
+.
+forget
+(
+)
 aMimeType
 imgIContainer
 :

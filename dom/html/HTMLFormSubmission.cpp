@@ -2991,6 +2991,10 @@ getter_AddRefs
 bufferedStream
 )
 fileStream
+.
+forget
+(
+)
 8192
 )
 ;
