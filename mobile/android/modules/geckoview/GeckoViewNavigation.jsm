@@ -1008,6 +1008,7 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
+aNextTabParentId
 )
 {
 let
@@ -1145,6 +1146,7 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
+null
 )
 ;
 return
@@ -1178,10 +1180,11 @@ this
 handleOpenUri
 (
 aUri
-aOpener
+null
 aWhere
 aFlags
-aTriggeringPrincipal
+null
+aNextTabParentId
 )
 ;
 return
