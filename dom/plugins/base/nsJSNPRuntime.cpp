@@ -11200,8 +11200,7 @@ mJSObj
 /
 /
 Found
-a
-live
+an
 NPObject
 wrapper
 null
@@ -11210,8 +11209,6 @@ its
 JSObjects
 '
 private
-/
-/
 data
 .
 js
@@ -11223,6 +11220,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 JS
 :
 :
@@ -11526,6 +11527,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 ;
 if
 (
@@ -12293,6 +12298,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 JS
 :
 :
