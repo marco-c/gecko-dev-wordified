@@ -5973,11 +5973,6 @@ SetScrollbarData
 (
 aLayer
 .
-GetScrollbarTargetContainerId
-(
-)
-aLayer
-.
 GetScrollbarAnimationId
 (
 )
@@ -8169,11 +8164,6 @@ node
 >
 SetScrollbarData
 (
-aLayer
-.
-GetScrollbarTargetContainerId
-(
-)
 aLayer
 .
 GetScrollbarAnimationId
