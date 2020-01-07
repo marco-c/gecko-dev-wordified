@@ -317,11 +317,6 @@ _
 GetIntrinsic_Fallback
 )
 \
-_
-(
-GetIntrinsic_Constant
-)
-\
 \
 _
 (
