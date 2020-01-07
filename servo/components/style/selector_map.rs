@@ -142,7 +142,10 @@ use
 rule_tree
 :
 :
+{
 CascadeLevel
+ShadowCascadeOrder
+}
 ;
 use
 selector_parser
@@ -1322,6 +1325,9 @@ F
 cascade_level
 :
 CascadeLevel
+shadow_cascade_order
+:
+ShadowCascadeOrder
 )
 where
 E
@@ -1429,6 +1435,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+shadow_cascade_order
 )
 }
 }
@@ -1469,6 +1476,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+shadow_cascade_order
 )
 }
 }
@@ -1505,6 +1513,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+shadow_cascade_order
 )
 }
 SelectorMap
@@ -1521,6 +1530,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+shadow_cascade_order
 )
 ;
 /
@@ -1613,6 +1623,9 @@ F
 cascade_level
 :
 CascadeLevel
+shadow_cascade_order
+:
+ShadowCascadeOrder
 )
 where
 E
@@ -1662,6 +1675,7 @@ rule
 to_applicable_declaration_block
 (
 cascade_level
+shadow_cascade_order
 )
 )
 ;
