@@ -4774,6 +4774,22 @@ directoryName
 =
 directoryName
             
+elif
+'
+'
+in
+name
+:
+                
+generalName
+[
+'
+rfc822Name
+'
+]
+=
+name
+            
 else
 :
                 
