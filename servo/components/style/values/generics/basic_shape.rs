@@ -277,14 +277,14 @@ type
 FloatAreaShape
 <
 BasicShape
-Url
+Image
 >
 =
 ShapeSource
 <
 BasicShape
 ShapeBox
-Url
+Image
 >
 ;
 /
@@ -393,7 +393,7 @@ ShapeSource
 <
 BasicShape
 ReferenceBox
-Url
+ImageOrUrl
 >
 {
 #
@@ -403,9 +403,9 @@ animation
 error
 )
 ]
-Url
+ImageOrUrl
 (
-Url
+ImageOrUrl
 )
 Shape
 (
