@@ -2675,16 +2675,10 @@ aComposeResult
 .
 *
 /
-template
-<
-typename
-ComposeAnimationResult
->
 void
 ComposeStyle
 (
-ComposeAnimationResult
-&
+RawServoAnimationValueMap
 &
 aComposeResult
 const
