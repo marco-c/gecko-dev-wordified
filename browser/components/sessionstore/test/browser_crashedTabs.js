@@ -2766,7 +2766,9 @@ browser
 let
 promise
 =
-promiseEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 gBrowser
 .
