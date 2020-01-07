@@ -5410,6 +5410,14 @@ mWorkerPrivate
 =
 nullptr
 ;
+CycleCollectedJSRuntime
+:
+:
+Shutdown
+(
+cx
+)
+;
 }
 ~
 WorkerJSRuntime

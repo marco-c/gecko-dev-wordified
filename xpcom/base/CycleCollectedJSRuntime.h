@@ -2006,6 +2006,14 @@ override
 EnvironmentPreparer
 mEnvironmentPreparer
 ;
+#
+ifdef
+DEBUG
+bool
+mShutdownCalled
+;
+#
+endif
 }
 ;
 void
