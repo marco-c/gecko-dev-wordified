@@ -62,7 +62,7 @@ MPL
 Generic
 values
 for
-pointing
+UI
 properties
 .
 use
