@@ -31948,17 +31948,6 @@ false
 )
 )
 {
-KillHard
-(
-"
-FileCreationRequest
-is
-not
-supported
-.
-"
-)
-;
 return
 IPC_FAIL_NO_REASON
 (
