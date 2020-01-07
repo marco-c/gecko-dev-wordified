@@ -366,6 +366,7 @@ session_
 ;
 public
 :
+explicit
 AutoPrepareForTracing
 (
 JSContext
