@@ -2890,13 +2890,11 @@ build_platform
 in
 (
 '
-linux64
+firefox
 -
 source
 '
 '
-linux64
--
 fennec
 -
 source
