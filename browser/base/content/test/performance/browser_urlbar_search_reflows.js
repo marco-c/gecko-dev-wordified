@@ -1167,16 +1167,8 @@ let
 win
 =
 await
-BrowserTestUtils
-.
-openNewBrowserWindow
+prepareSettledWindow
 (
-)
-;
-await
-ensureNoPreloadedBrowser
-(
-win
 )
 ;
 let
