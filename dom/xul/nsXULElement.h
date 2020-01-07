@@ -2108,11 +2108,6 @@ ErrorResult
 aRv
 )
 ;
-nsresult
-SetIsPrerendered
-(
-)
-;
 virtual
 void
 RecompileScriptEventListeners

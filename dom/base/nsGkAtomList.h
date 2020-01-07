@@ -8496,13 +8496,6 @@ preload
 )
 GK_ATOM
 (
-prerendered
-"
-prerendered
-"
-)
-GK_ATOM
-(
 mozpresentation
 "
 mozpresentation

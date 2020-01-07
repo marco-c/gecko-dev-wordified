@@ -7806,11 +7806,6 @@ FireOfflineStatusEventIfChanged
 (
 )
 ;
-bool
-GetIsPrerendered
-(
-)
-;
 public
 :
 /

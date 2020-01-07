@@ -12950,14 +12950,6 @@ identifier
 =
 =
 "
-UnsafeInPrerendering
-"
-or
-                  
-identifier
-=
-=
-"
 LegacyEventInit
 "
 or
@@ -32954,14 +32946,6 @@ identifier
 =
 =
 "
-UnsafeInPrerendering
-"
-or
-              
-identifier
-=
-=
-"
 NeedsSubjectPrincipal
 "
 or
@@ -38529,14 +38513,6 @@ identifier
 =
 "
 ChromeOnly
-"
-or
-              
-identifier
-=
-=
-"
-UnsafeInPrerendering
 "
 or
               

@@ -142,6 +142,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocGroup
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h

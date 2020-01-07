@@ -5333,11 +5333,6 @@ nsAString
 aPopupWindowFeatures
 )
 ;
-bool
-GetIsPrerendered
-(
-)
-;
 private
 :
 void

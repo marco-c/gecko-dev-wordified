@@ -461,7 +461,7 @@ rv
 sHistory
 -
 >
-GetGlobalCount
+GetCount
 (
 &
 len
@@ -1197,7 +1197,7 @@ len
 session_history
 -
 >
-GetGlobalIndex
+GetIndex
 (
 &
 curIndex
@@ -1206,7 +1206,7 @@ curIndex
 session_history
 -
 >
-GetGlobalCount
+GetCount
 (
 &
 len
