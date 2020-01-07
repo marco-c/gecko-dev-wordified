@@ -785,8 +785,6 @@ aVerifySignedContent
 bool
 aEnforceSRI
 bool
-aAllowDocumentToBeAgnosticToCSP
-bool
 aForceAllowDataURI
 bool
 aAllowInsecureRedirectToDataURI
@@ -1143,9 +1141,6 @@ mVerifySignedContent
 ;
 bool
 mEnforceSRI
-;
-bool
-mAllowDocumentToBeAgnosticToCSP
 ;
 bool
 mForceAllowDataURI
