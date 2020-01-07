@@ -2639,6 +2639,16 @@ options
 marionette
 :
             
+#
+options
+.
+marionette
+can
+specify
+host
+:
+port
+            
 port
 =
 options
@@ -2668,7 +2678,7 @@ int
 (
 port
 )
-            
+        
 #
 Enable
 tracing
@@ -2679,7 +2689,7 @@ failures
 in
 case
 of
-            
+        
 #
 failing
 connection
@@ -2690,7 +2700,7 @@ hangs
 bug
 1397201
 )
-            
+        
 prefs
 [
 "
