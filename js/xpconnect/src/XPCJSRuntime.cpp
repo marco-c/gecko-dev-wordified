@@ -850,6 +850,12 @@ then
 /
 /
 IDX_THEN
+"
+isInstance
+"
+/
+/
+IDX_ISINSTANCE
 }
 ;
 /
