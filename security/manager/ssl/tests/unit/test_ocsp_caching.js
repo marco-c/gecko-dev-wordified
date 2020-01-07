@@ -2027,6 +2027,7 @@ applyFilter
 aProxyService
 aChannel
 aProxy
+aCallback
 )
 {
 /
@@ -2092,8 +2093,12 @@ on
 aProxy
 unmodified
 .
-return
+aCallback
+.
+onProxyFilterResult
+(
 aProxy
+)
 ;
 }
 }
