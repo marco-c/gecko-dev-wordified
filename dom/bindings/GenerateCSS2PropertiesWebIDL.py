@@ -249,6 +249,9 @@ extendedAttrs
 =
 [
 "
+CEReactions
+"
+"
 Throws
 "
 "
