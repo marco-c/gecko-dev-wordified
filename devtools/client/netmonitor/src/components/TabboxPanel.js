@@ -509,8 +509,9 @@ COOKIES_TITLE
 CookiesPanel
 (
 {
-request
+connector
 openLink
+request
 }
 )
 )
