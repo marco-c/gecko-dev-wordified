@@ -808,13 +808,10 @@ offset
 )
 {
 return
-mozilla
-:
-:
-BitwiseCast
-<
 jsid
->
+:
+:
+fromRawBits
 (
 readStubWord
 (
