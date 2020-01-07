@@ -153,6 +153,13 @@ Xlib
 h
 >
 #
+include
+"
+X11UndefineNone
+.
+h
+"
+#
 endif
 namespace
 mozilla
