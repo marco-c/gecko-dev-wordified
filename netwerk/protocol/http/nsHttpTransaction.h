@@ -2542,10 +2542,6 @@ nsHttp
 GetLock
 (
 )
-nsHttpResponseHead
-*
-mForTakeResponseHead
-;
 bool
 mResponseHeadTaken
 ;
