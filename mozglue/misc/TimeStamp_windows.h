@@ -155,6 +155,14 @@ friend
 class
 TimeStamp
 ;
+friend
+void
+StartupTimelineRecordExternal
+(
+int
+uint64_t
+)
+;
 /
 /
 Both
