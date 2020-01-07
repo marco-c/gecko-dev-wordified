@@ -399,6 +399,9 @@ CreateForWorker
 WorkerPrivate
 *
 aWorkerPrivate
+nsIGlobalObject
+*
+aGlobal
 const
 ServiceWorkerRegistrationDescriptor
 &

@@ -2923,6 +2923,7 @@ ServiceWorkerRegistration
 CreateForWorker
 (
 mWorkerPrivate
+this
 aDescriptor
 )
 ;
@@ -3462,6 +3463,7 @@ ServiceWorkerRegistration
 CreateForWorker
 (
 aWorkerPrivate
+this
 aRegistrationDescriptor
 )
 )
