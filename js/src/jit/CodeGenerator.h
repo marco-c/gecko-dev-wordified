@@ -1033,6 +1033,8 @@ Register
 elementsTemp
 Register
 length
+Register
+spectreTemp
 )
 ;
 void
