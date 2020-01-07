@@ -1986,6 +1986,11 @@ error
 key
 :
 LOAD_ERROR
+level
+:
+"
+warning
+"
 }
 )
 ;
@@ -3069,6 +3074,11 @@ error
 key
 :
 LOAD_ERROR
+level
+:
+"
+warning
+"
 }
 )
 ;
