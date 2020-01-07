@@ -2250,6 +2250,11 @@ stdout
 subprocess
 .
 PIPE
+stderr
+=
+subprocess
+.
+PIPE
 )
         
 out
@@ -2317,6 +2322,7 @@ strip
         
 return
 out
+err
     
 def
 _verify_adb
@@ -2366,6 +2372,7 @@ self
 :
         
 out
+_
 =
 self
 .
@@ -2451,6 +2458,7 @@ boot_completed
 ]
         
 out
+_
 =
 self
 .
@@ -2832,6 +2840,7 @@ installer_path
 ]
         
 out
+err
 =
 self
 .
@@ -2848,6 +2857,12 @@ Success
 '
 in
 out
+or
+'
+Success
+'
+in
+err
 :
             
 install_ok
@@ -2950,6 +2965,7 @@ robocop_path
 ]
         
 out
+err
 =
 self
 .
@@ -2966,6 +2982,12 @@ Success
 '
 in
 out
+or
+'
+Success
+'
+in
+err
 :
             
 install_ok
@@ -5636,6 +5658,7 @@ n
 )
             
 out
+_
 =
 self
 .
@@ -5684,6 +5707,7 @@ n
 )
             
 out
+_
 =
 self
 .
@@ -5730,6 +5754,7 @@ n
 )
             
 out
+_
 =
 self
 .
@@ -5809,6 +5834,7 @@ cpuinfo
 ]
             
 out
+_
 =
 self
 .
@@ -5881,6 +5907,7 @@ meminfo
 ]
             
 out
+_
 =
 self
 .
@@ -5945,6 +5972,7 @@ ps
 ]
             
 out
+_
 =
 self
 .
@@ -6692,15 +6720,8 @@ path
 .
 "
         
-self
-.
-sdk_level
+cmd
 =
-self
-.
-_run_with_timeout
-(
-30
 [
 self
 .
@@ -6709,7 +6730,6 @@ adb_path
 -
 s
 '
-                                                     
 self
 .
 emulator
@@ -6718,10 +6738,10 @@ emulator
 device_id
 '
 ]
-                                                
 '
 shell
 '
+               
 '
 getprop
 '
@@ -6735,6 +6755,18 @@ version
 sdk
 '
 ]
+        
+self
+.
+sdk_level
+_
+=
+self
+.
+_run_with_timeout
+(
+30
+cmd
 )
         
 #
