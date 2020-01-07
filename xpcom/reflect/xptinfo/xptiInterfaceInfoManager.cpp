@@ -478,11 +478,6 @@ xptiTypelibGuts
 :
 Create
 (
-&
-XPTHeader
-:
-:
-kHeader
 )
 ;
 ReentrantMonitorAutoEnter
@@ -505,9 +500,7 @@ k
 XPTHeader
 :
 :
-kHeader
-.
-mNumInterfaces
+kNumInterfaces
 ;
 k
 +
@@ -519,9 +512,7 @@ VerifyAndAddEntryIfNew
 XPTHeader
 :
 :
-kHeader
-.
-mInterfaceDirectory
+kInterfaceDirectory
 +
 k
 k
