@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-builtin_Boolean_h
+jsbool_h
 #
 define
-builtin_Boolean_h
+jsbool_h
 /
 *
 *
@@ -169,6 +169,6 @@ js
 endif
 /
 *
-builtin_Boolean_h
+jsbool_h
 *
 /

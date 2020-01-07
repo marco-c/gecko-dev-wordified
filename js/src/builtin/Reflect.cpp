@@ -120,9 +120,7 @@ h
 #
 include
 "
-builtin
-/
-Array
+jsarray
 .
 h
 "

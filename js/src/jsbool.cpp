@@ -120,11 +120,7 @@ implementation
 #
 include
 "
-builtin
-/
-Boolean
--
-inl
+jsboolinlines
 .
 h
 "

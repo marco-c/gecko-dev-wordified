@@ -110,16 +110,14 @@ MPL
 /
 #
 ifndef
-builtin_Array_inl_h
+vm_jsarrayinlines_h
 #
 define
-builtin_Array_inl_h
+vm_jsarrayinlines_h
 #
 include
 "
-builtin
-/
-Array
+jsarray
 .
 h
 "
@@ -297,4 +295,4 @@ js
 endif
 /
 /
-builtin_Array_inl_h
+vm_jsarrayinlines_h
