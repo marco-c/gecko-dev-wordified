@@ -4984,7 +4984,7 @@ offset
 tc
 -
 >
-GetChromeDisplacement
+GetChromeOffset
 (
 )
 ;

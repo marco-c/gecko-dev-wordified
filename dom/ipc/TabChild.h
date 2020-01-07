@@ -3535,13 +3535,13 @@ mClientOffset
 ;
 }
 LayoutDeviceIntPoint
-GetChromeDisplacement
+GetChromeOffset
 (
 )
 const
 {
 return
-mChromeDisp
+mChromeOffset
 ;
 }
 ;
@@ -4909,7 +4909,7 @@ the
 window
 )
 LayoutDeviceIntPoint
-mChromeDisp
+mChromeOffset
 ;
 TabId
 mUniqueId

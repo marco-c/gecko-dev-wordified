@@ -7236,11 +7236,11 @@ clientOffset
 (
 )
 ;
-mChromeDisp
+mChromeOffset
 =
 aDimensionInfo
 .
-chromeDisp
+chromeOffset
 (
 )
 ;
@@ -7397,7 +7397,7 @@ mClientOffset
 .
 x
 +
-mChromeDisp
+mChromeOffset
 .
 x
 screenRect
@@ -7408,7 +7408,7 @@ mClientOffset
 .
 y
 +
-mChromeDisp
+mChromeOffset
 .
 y
 screenSize
@@ -18876,7 +18876,7 @@ mClientOffset
 .
 x
 +
-mChromeDisp
+mChromeOffset
 .
 x
 screenRect
@@ -18887,7 +18887,7 @@ mClientOffset
 .
 y
 +
-mChromeDisp
+mChromeOffset
 .
 y
 screenSize
