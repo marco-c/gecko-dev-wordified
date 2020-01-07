@@ -223,7 +223,7 @@ h
 #
 include
 <
-Tlhelp32
+tlhelp32
 .
 h
 >
