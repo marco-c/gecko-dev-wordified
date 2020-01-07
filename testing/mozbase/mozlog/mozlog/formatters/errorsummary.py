@@ -315,6 +315,8 @@ test_groups
 groups
 "
 :
+list
+(
 item
 [
 "
@@ -324,6 +326,7 @@ tests
 .
 keys
 (
+)
 )
 }
 )
