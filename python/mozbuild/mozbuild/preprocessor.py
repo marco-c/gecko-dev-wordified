@@ -2609,6 +2609,7 @@ z
 :
 \
 s
++
 (
 ?
 P
@@ -2617,9 +2618,13 @@ args
 >
 .
 *
+?
 )
 )
 ?
+\
+s
+*
 '
                                           
 .
@@ -4797,7 +4802,7 @@ return
 if
 re
 .
-match
+search
 (
 '
 \
@@ -4915,7 +4920,7 @@ return
 if
 re
 .
-match
+search
 (
 '
 \
