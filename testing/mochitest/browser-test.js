@@ -5721,16 +5721,7 @@ entry
 =
 entries
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 if
 (

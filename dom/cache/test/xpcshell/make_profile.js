@@ -196,16 +196,7 @@ dirFile
 =
 dirList
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 entryList
 .

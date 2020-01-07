@@ -753,16 +753,7 @@ f
 =
 en
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 if
 (

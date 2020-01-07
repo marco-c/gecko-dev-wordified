@@ -348,16 +348,7 @@ entry
 =
 entries
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 ok
 (

@@ -752,14 +752,7 @@ file
 =
 dirEntries
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-nsIFile
-)
+nextFile
 ;
 const
 name
