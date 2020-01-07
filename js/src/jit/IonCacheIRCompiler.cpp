@@ -4999,7 +4999,7 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 Address
 (
 str
@@ -5015,7 +5015,7 @@ Imm32
 JSString
 :
 :
-ATOM_BIT
+NON_ATOM_BIT
 )
 failure
 -

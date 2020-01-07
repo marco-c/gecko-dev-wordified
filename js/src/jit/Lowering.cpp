@@ -13775,6 +13775,13 @@ useRegister
 (
 idx
 )
+temp
+(
+LDefinition
+:
+:
+INT32
+)
 )
 ;
 define

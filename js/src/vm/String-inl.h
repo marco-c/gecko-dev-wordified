@@ -1442,7 +1442,7 @@ u1
 .
 flags
 =
-FLAT_BIT
+FLAT_FLAGS
 ;
 d
 .
@@ -1487,7 +1487,7 @@ u1
 .
 flags
 =
-FLAT_BIT
+FLAT_FLAGS
 |
 LATIN1_CHARS_BIT
 ;
