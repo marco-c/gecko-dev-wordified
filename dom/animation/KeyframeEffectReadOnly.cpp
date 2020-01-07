@@ -3848,11 +3848,6 @@ forget
 )
 ;
 }
-template
-<
-typename
-StyleType
->
 nsTArray
 <
 AnimationProperty
@@ -3862,7 +3857,8 @@ KeyframeEffectReadOnly
 :
 BuildProperties
 (
-StyleType
+const
+ComputedStyle
 *
 aStyle
 )
