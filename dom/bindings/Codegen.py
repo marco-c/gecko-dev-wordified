@@ -23043,6 +23043,40 @@ chromeProperties
 nullptr
 "
         
+toStringTag
+=
+self
+.
+descriptor
+.
+interface
+.
+toStringTag
+        
+if
+toStringTag
+:
+            
+toStringTag
+=
+'
+"
+%
+s
+"
+'
+%
+toStringTag
+        
+else
+:
+            
+toStringTag
+=
+"
+nullptr
+"
+        
 call
 =
 fill
@@ -23101,6 +23135,10 @@ protoClass
 protoCache
                                         
 {
+toStringTag
+}
+                                        
+{
 constructorProto
 }
 {
@@ -23153,6 +23191,10 @@ parentProto
 protoCache
 =
 protoCache
+            
+toStringTag
+=
+toStringTag
             
 constructorProto
 =
