@@ -5311,6 +5311,9 @@ NS_LITERAL_STRING
 character
 "
 )
+IgnoreErrors
+(
+)
 )
 ;
 if
