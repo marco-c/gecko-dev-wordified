@@ -293,17 +293,11 @@ re
 import
 io
 import
-codecs
-import
 sys
 import
 tarfile
 import
 tempfile
-import
-urllib2
-import
-urlparse
 from
 contextlib
 import
@@ -312,20 +306,78 @@ from
 functools
 import
 partial
+total_ordering
 from
 itertools
 import
 chain
 groupby
-ifilter
-ifilterfalse
-imap
 tee
 from
 operator
 import
 attrgetter
 itemgetter
+if
+sys
+.
+version_info
+.
+major
+=
+=
+2
+:
+    
+from
+itertools
+import
+ifilter
+as
+filter
+ifilterfalse
+as
+filterfalse
+imap
+as
+map
+    
+from
+urllib2
+import
+urlopen
+Request
+as
+UrlRequest
+    
+from
+urlparse
+import
+urlsplit
+else
+:
+    
+from
+itertools
+import
+filterfalse
+    
+from
+urllib
+.
+request
+import
+urlopen
+Request
+as
+UrlRequest
+    
+from
+urllib
+.
+parse
+import
+urlsplit
 def
 readRegistryRecord
 (
@@ -1625,7 +1677,7 @@ lang
 in
 redundantMappings
 .
-iterkeys
+keys
 (
 )
 )
@@ -1869,13 +1921,14 @@ mapping
 :
         
 if
+not
 isinstance
 (
 mapping
 [
 key
 ]
-basestring
+dict
 )
 :
             
@@ -2071,6 +2124,9 @@ URL
     
 class
 Subtag
+(
+object
+)
 :
         
 Language
@@ -4541,8 +4597,7 @@ lang
 in
 sorted
 (
-set
-(
+{
 language
 (
 tag
@@ -4551,7 +4606,7 @@ for
 tag
 in
 langTagMappings
-)
+}
 )
 :
         
@@ -5049,7 +5104,7 @@ txt
         
 registry
 =
-codecs
+io
 .
 open
 (
@@ -5086,8 +5141,6 @@ Registry
 with
 closing
 (
-urllib2
-.
 urlopen
 (
 url
@@ -5116,7 +5169,7 @@ utf
         
 registry
 =
-codecs
+io
 .
 open
 (
@@ -5316,8 +5369,12 @@ f
             
 yield
 line
+total_ordering
 class
 Zone
+(
+object
+)
 :
     
 "
@@ -5385,28 +5442,14 @@ other
 name
     
 def
-__cmp__
+__lt__
 (
 self
 other
 )
 :
         
-if
-self
-.
-name
-=
-=
-other
-.
-name
-:
-            
 return
-0
-        
-if
 self
 .
 name
@@ -5414,14 +5457,6 @@ name
 other
 .
 name
-:
-            
-return
--
-1
-        
-return
-1
     
 def
 __hash__
@@ -5463,6 +5498,9 @@ self
 name
 class
 TzDataDir
+(
+object
+)
 :
     
 "
@@ -5553,6 +5591,9 @@ readlines
 flines
 class
 TzDataFile
+(
+object
+)
 :
     
 "
@@ -5691,21 +5732,20 @@ f
 for
 line
 in
-codecs
-.
-EncodedFile
-(
 f
+:
+                
+yield
+line
+.
+decode
+(
 "
 utf
 -
 8
 "
 )
-:
-                
-yield
-line
 def
 validateTimeZones
 (
@@ -5734,7 +5774,7 @@ set
 (
 links
 .
-viewkeys
+keys
 (
 )
 )
@@ -5771,8 +5811,7 @@ intersect
     
 zoneNames
 =
-set
-(
+{
 z
 .
 name
@@ -5780,7 +5819,7 @@ for
 z
 in
 zones
-)
+}
     
 linkTargets
 =
@@ -5788,7 +5827,7 @@ set
 (
 links
 .
-viewvalues
+values
 (
 )
 )
@@ -5850,12 +5889,12 @@ it
         
 return
 (
-ifilter
+filter
 (
 pred
 it1
 )
-ifilterfalse
+filterfalse
 (
 pred
 it2
@@ -5961,7 +6000,7 @@ f
 )
     
 return
-ifilter
+filter
 (
 partial
 (
@@ -6423,7 +6462,7 @@ target
 in
 links
 .
-iteritems
+items
 (
 )
 if
@@ -7633,9 +7672,7 @@ value
     
 links
 =
-dict
-(
-(
+{
 Zone
 (
 tzNames
@@ -7643,11 +7680,11 @@ tzNames
 zone
 ]
 )
+:
 tzNames
 [
 target
 ]
-)
 for
 (
 zone
@@ -7656,16 +7693,14 @@ target
 in
 tzLinks
 .
-iteritems
+items
 (
 )
-)
+}
     
 zones
 =
-set
-(
-[
+{
 Zone
 (
 v
@@ -7682,8 +7717,7 @@ v
 not
 in
 links
-]
-)
+}
     
 #
 Remove
@@ -7957,8 +7991,7 @@ icuDir
     
 zoneinfoZones
 =
-set
-(
+{
 zone
 for
 zone
@@ -7969,16 +8002,14 @@ zone
 not
 in
 legacyZones
-)
+}
     
 zoneinfoLinks
 =
-dict
-(
-(
+{
 zone
+:
 target
-)
 for
 (
 zone
@@ -7987,7 +8018,7 @@ target
 in
 zoneinfoLinks
 .
-iteritems
+items
 (
 )
 if
@@ -7995,7 +8026,7 @@ zone
 not
 in
 legacyLinks
-)
+}
     
 notFoundInZoneInfo64
 =
@@ -8045,7 +8076,7 @@ zone
 in
 typesLinks
 .
-iterkeys
+keys
 (
 )
 if
@@ -8170,7 +8201,7 @@ target
 in
 zoneinfoLinks
 .
-iteritems
+items
 (
 )
 if
@@ -8193,7 +8224,7 @@ target
 in
 typesLinks
 .
-iteritems
+items
 (
 )
 )
@@ -8883,20 +8914,25 @@ GMT
     
 result
 =
-ifilterfalse
 (
-lambda
 (
 zone
 target
 )
-:
+for
+(
+zone
+target
+)
+in
+result
+if
 zone
 .
 name
+not
 in
 utcnames
-result
 )
     
 return
@@ -8996,7 +9032,7 @@ zone
 in
 ianaLinks
 .
-iterkeys
+keys
 (
 )
 if
@@ -9064,7 +9100,7 @@ zone
 in
 icuLinks
 .
-iterkeys
+keys
 (
 )
 if
@@ -9145,7 +9181,7 @@ target
 in
 ianaLinks
 .
-iteritems
+items
 (
 )
 if
@@ -9189,7 +9225,7 @@ target
 in
 ianaLinks
 .
-iteritems
+items
 (
 )
 if
@@ -9230,23 +9266,32 @@ GMT
     
 result
 =
-ifilterfalse
 (
-lambda
 (
 zone
 target
 icuTarget
 )
-:
+              
+for
+(
+zone
 target
-in
-utcnames
-and
 icuTarget
+)
+in
+result
+              
+if
+target
+not
 in
 utcnames
-result
+or
+icuTarget
+not
+in
+utcnames
 )
     
 return
@@ -10108,6 +10153,22 @@ links
 )
 :
     
+withZone
+=
+lambda
+fn
+:
+lambda
+zone_target
+:
+fn
+(
+zone_target
+[
+0
+]
+)
+    
 (
 backzoneZones
 backzoneLinks
@@ -10134,7 +10195,7 @@ partition
         
 links
 .
-iteritems
+items
 (
 )
         
@@ -10146,11 +10207,10 @@ in
 backzone
 .
         
-lambda
+withZone
 (
+lambda
 zone
-target
-)
 :
 zone
 not
@@ -10161,6 +10221,7 @@ zone
 not
 in
 backzoneZones
+)
         
 #
 Link
@@ -10170,15 +10231,15 @@ new
 target
 .
         
-lambda
+withZone
 (
+lambda
 zone
-target
-)
 :
 zone
 in
 backzoneLinks
+)
     
 )
     
@@ -10201,13 +10262,12 @@ chain
                 
 stableZones
                 
-imap
+map
+(
+withZone
 (
 lambda
-(
 zone
-target
-)
 :
 (
 zone
@@ -10215,6 +10275,7 @@ backzoneLinks
 [
 zone
 ]
+)
 )
 updatedLinks
 )
@@ -10655,7 +10716,7 @@ file
         
 links
 .
-iteritems
+items
 (
 )
     
@@ -10672,7 +10733,7 @@ testDir
     
 tzfiles
 =
-ifilterfalse
+filterfalse
 (
 {
 "
@@ -10746,7 +10807,7 @@ file
         
 links
 .
-iteritems
+items
 (
 )
     
@@ -11215,7 +11276,7 @@ target
 in
 backlinks
 .
-iteritems
+items
 (
 )
 )
@@ -11797,8 +11858,6 @@ file
 with
 closing
 (
-urllib2
-.
 urlopen
 (
 url
@@ -11810,8 +11869,6 @@ tzfile
             
 fname
 =
-urlparse
-.
 urlsplit
 (
 tzfile
@@ -12543,36 +12600,10 @@ list
         
 request
 =
-urllib2
-.
-Request
+UrlRequest
 (
 url
 )
-        
-#
-Fake
-a
-random
-user
-agent
-string
-to
-circumvent
-the
-bot
-detection
-from
-        
-#
-currency
--
-iso
-.
-org
-.
-.
-.
         
 request
 .
@@ -12629,8 +12660,6 @@ randint
 with
 closing
 (
-urllib2
-.
 urlopen
 (
 request
@@ -12642,8 +12671,6 @@ currencyFile
             
 fname
 =
-urlparse
-.
 urlsplit
 (
 currencyFile
