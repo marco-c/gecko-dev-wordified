@@ -3408,12 +3408,6 @@ reason
 gc
 :
 :
-AutoTraceSession
-&
-sesssion
-gc
-:
-:
 TenureCountCache
 &
 tenureCounts
