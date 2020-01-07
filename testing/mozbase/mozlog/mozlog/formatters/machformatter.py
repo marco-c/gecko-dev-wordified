@@ -160,6 +160,10 @@ False
 summary_on_shutdown
 =
 False
+                 
+verbose
+=
+False
 *
 *
 kwargs
@@ -255,7 +259,7 @@ self
 .
 verbose
 =
-False
+verbose
         
 self
 .
