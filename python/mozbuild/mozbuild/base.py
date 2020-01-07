@@ -1445,7 +1445,10 @@ self
 .
 topobjdir
 '
-_virtualenv
+_virtualenvs
+'
+'
+init
 '
 )
                 
