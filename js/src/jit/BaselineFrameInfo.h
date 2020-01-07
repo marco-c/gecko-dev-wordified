@@ -475,6 +475,9 @@ LocalSlot
 ArgSlot
 ThisSlot
 EvalNewTargetSlot
+#
+ifdef
+DEBUG
 /
 /
 In
@@ -486,6 +489,8 @@ is
 initialized
 .
 Uninitialized
+#
+endif
 }
 ;
 private
@@ -634,6 +639,9 @@ reset
 (
 )
 {
+#
+ifdef
+DEBUG
 kind_
 =
 Uninitialized
@@ -642,6 +650,8 @@ knownType_
 =
 JSVAL_TYPE_UNKNOWN
 ;
+#
+endif
 }
 Value
 constant

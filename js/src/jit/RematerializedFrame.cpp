@@ -265,10 +265,6 @@ isDebuggee
 (
 )
 )
-hasInitialEnv_
-{
-false
-}
 isConstructing_
 (
 iter
@@ -313,14 +309,6 @@ script
 (
 )
 )
-envChain_
-{
-nullptr
-}
-argsObj_
-{
-nullptr
-}
 {
 if
 (

@@ -230,10 +230,6 @@ lirGraph_
 (
 lirGraph
 )
-current
-{
-nullptr
-}
 lastResumePoint_
 (
 nullptr

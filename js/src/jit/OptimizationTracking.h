@@ -3860,13 +3860,6 @@ hasAddendum
 (
 HasNothing
 )
-script
-{
-nullptr
-}
-offset
-{
-}
 {
 }
 IonTrackedTypeWithAddendum

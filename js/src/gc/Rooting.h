@@ -968,11 +968,6 @@ private
 FakeMutableHandle
 (
 )
-:
-ptr
-{
-nullptr
-}
 {
 }
 DELETE_ASSIGNMENT_OPS

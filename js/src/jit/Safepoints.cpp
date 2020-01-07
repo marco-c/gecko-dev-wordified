@@ -2592,12 +2592,6 @@ sizeof
 intptr_t
 )
 )
-nunboxSlotsRemaining_
-{
-}
-slotsOrElementsSlotsRemaining_
-{
-}
 {
 osiCallPointOffset_
 =

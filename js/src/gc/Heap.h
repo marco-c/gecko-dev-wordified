@@ -3511,9 +3511,6 @@ ChunkLocation
 :
 Nursery
 )
-padding
-{
-}
 storeBuffer
 (
 sb
@@ -3547,9 +3544,6 @@ ChunkLocation
 :
 TenuredHeap
 )
-padding
-{
-}
 storeBuffer
 (
 nullptr

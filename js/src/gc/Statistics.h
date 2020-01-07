@@ -1477,9 +1477,6 @@ startFaults
 (
 startFaults
 )
-endFaults
-{
-}
 {
 }
 SliceBudget

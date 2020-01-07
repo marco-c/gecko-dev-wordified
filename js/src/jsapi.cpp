@@ -38996,10 +38996,6 @@ JSContext
 cx
 )
 :
-throwing
-{
-false
-}
 exception
 (
 cx

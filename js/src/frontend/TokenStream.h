@@ -1851,13 +1851,6 @@ char
 TokenPos
 (
 )
-:
-begin
-{
-}
-end
-{
-}
 {
 }
 TokenPos

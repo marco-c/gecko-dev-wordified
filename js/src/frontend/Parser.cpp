@@ -4898,10 +4898,6 @@ cx
 alloc
 lazyOuterFunction
 )
-internalSyntaxParser_
-{
-nullptr
-}
 {
 }
 template

@@ -2545,10 +2545,6 @@ lineno
 (
 lineno
 )
-lineHeader
-{
-false
-}
 {
 }
 /

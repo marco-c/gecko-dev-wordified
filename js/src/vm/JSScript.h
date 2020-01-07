@@ -12692,10 +12692,6 @@ cx_
 (
 cx
 )
-oldDoNotRelazify_
-{
-false
-}
 {
 holdScript
 (

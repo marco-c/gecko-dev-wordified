@@ -843,15 +843,6 @@ dataLength
 (
 0
 )
-dataCapacity
-{
-}
-liveCount
-{
-}
-hashShift
-{
-}
 ranges
 (
 nullptr

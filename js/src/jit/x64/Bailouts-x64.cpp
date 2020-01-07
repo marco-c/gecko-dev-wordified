@@ -276,10 +276,6 @@ machineState
 (
 )
 )
-activation_
-{
-nullptr
-}
 {
 uint8_t
 *
@@ -376,10 +372,6 @@ machine
 (
 )
 )
-activation_
-{
-nullptr
-}
 {
 framePointer_
 =

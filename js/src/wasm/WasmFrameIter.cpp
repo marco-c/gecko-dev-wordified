@@ -384,10 +384,6 @@ Unwind
 :
 False
 )
-unwoundAddressOfReturnAddress_
-{
-nullptr
-}
 {
 MOZ_ASSERT
 (
