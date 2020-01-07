@@ -4527,6 +4527,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+PR_SetFDInheritable
+(
+mFD
+false
+)
+;
 /
 /
 get

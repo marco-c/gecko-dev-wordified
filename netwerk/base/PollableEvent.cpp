@@ -669,6 +669,12 @@ failed
 ;
 }
 }
+PR_SetFDInheritable
+(
+writer
+false
+)
+;
 reader
 =
 PR_Accept
@@ -692,6 +698,12 @@ goto
 failed
 ;
 }
+PR_SetFDInheritable
+(
+reader
+false
+)
+;
 if
 (
 aSetRecvBuff
