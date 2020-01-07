@@ -361,6 +361,7 @@ PRFileDesc
 *
 PRFileDesc
 *
+int
 )
 ;
 static
@@ -3918,6 +3919,9 @@ PRFileDesc
 *
 model_sock
 ;
+int
+requestCert
+;
 }
 JOB
 ;
@@ -4077,6 +4081,8 @@ a
 PRFileDesc
 *
 b
+int
+c
 )
 ;
 typedef
@@ -4105,6 +4111,9 @@ a
 PRFileDesc
 *
 b
+;
+int
+c
 ;
 int
 rv
@@ -4167,6 +4176,10 @@ slot
 -
 >
 b
+slot
+-
+>
+c
 )
 ;
 /
@@ -4215,6 +4228,8 @@ a
 PRFileDesc
 *
 b
+int
+c
 )
 {
 PRCList
@@ -4328,6 +4343,10 @@ myJob
 -
 >
 model_sock
+myJob
+-
+>
+requestCert
 )
 ;
 PZ_Lock
@@ -4369,6 +4388,8 @@ a
 PRFileDesc
 *
 b
+int
+c
 PRBool
 local
 )
@@ -4592,6 +4613,13 @@ slot
 b
 =
 b
+;
+slot
+-
+>
+c
+=
+c
 ;
 slot
 -
@@ -6047,6 +6075,8 @@ ssl_sock
 PRFileDesc
 *
 model_sock
+int
+requestCert
 )
 {
 int
@@ -6236,6 +6266,8 @@ tcp_sock
 PRFileDesc
 *
 model_sock
+int
+requestCert
 )
 {
 PRFileDesc
@@ -6412,6 +6444,7 @@ PRFileDesc
 )
 &
 lv
+requestCert
 )
 ;
 if
@@ -7019,6 +7052,8 @@ makeSignedOCSPResponse
 PLArenaPool
 *
 arena
+ocspStaplingModeType
+osm
 CERTCertificate
 *
 cert
@@ -7148,7 +7183,7 @@ day
 /
 switch
 (
-ocspStaplingMode
+osm
 )
 {
 case
@@ -7307,7 +7342,7 @@ CERT_CreateEncodedOCSPSuccessResponse
 (
 arena
 (
-ocspStaplingMode
+osm
 =
 =
 osm_badsig
@@ -7418,6 +7453,9 @@ setupCertStatus
 PLArenaPool
 *
 arena
+enum
+ocspStaplingModeEnum
+ocspStaplingMode
 CERTCertificate
 *
 cert
@@ -7558,6 +7596,7 @@ multiOcspResponses
 makeSignedOCSPResponse
 (
 arena
+ocspStaplingMode
 cert
 pwdata
 )
@@ -7639,6 +7678,8 @@ tcp_sock
 PRFileDesc
 *
 model_sock
+int
+requestCert
 )
 {
 PRFileDesc
@@ -7838,6 +7879,9 @@ useModelSocket
 model_sock
 )
 {
+SECStatus
+rv
+;
 ssl_sock
 =
 SSL_ImportFD
@@ -9786,6 +9830,8 @@ listen_sock
 PRFileDesc
 *
 model_sock
+int
+requestCert
 )
 {
 PRNetAddr
@@ -10151,6 +10197,13 @@ myJob
 model_sock
 =
 model_sock
+;
+myJob
+-
+>
+requestCert
+=
+requestCert
 ;
 }
 PR_APPEND_LINK
@@ -10970,6 +11023,8 @@ server_main
 PRFileDesc
 *
 listen_sock
+int
+requestCert
 SECKEYPrivateKey
 *
 *
@@ -12098,6 +12153,7 @@ do_accepts
 (
 listen_sock
 model_sock
+requestCert
 )
 ;
 terminateWorkerThreads
@@ -15597,7 +15653,10 @@ cipher
 0
 )
 {
-rv
+SECStatus
+status
+;
+status
 =
 SSL_CipherPrefSetDefault
 (
@@ -15607,7 +15666,7 @@ SSL_ALLOWED
 ;
 if
 (
-rv
+status
 !
 =
 SECSuccess
@@ -15819,6 +15878,7 @@ ecKey
 setupCertStatus
 (
 certStatusArena
+ocspStaplingMode
 cert
 [
 i
@@ -15914,6 +15974,7 @@ launch_threads
 jobLoop
 0
 0
+requestCert
 useLocalThreads
 )
 ;
@@ -15987,6 +16048,7 @@ SECSuccess
 server_main
 (
 listen_sock
+requestCert
 privKey
 cert
 expectedHostNameVal
@@ -16081,6 +16143,9 @@ exit
 ;
 }
 {
+int
+i
+;
 for
 (
 i

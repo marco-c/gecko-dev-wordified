@@ -602,7 +602,7 @@ TlsCipherSpec
 Init
 (
 uint16_t
-epoc
+epoch
 SSLCipherAlgorithm
 cipher
 PK11SymKey
@@ -616,7 +616,7 @@ iv
 {
 epoch_
 =
-epoc
+epoch
 ;
 switch
 (

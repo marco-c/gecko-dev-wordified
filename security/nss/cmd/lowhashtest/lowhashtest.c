@@ -2694,6 +2694,9 @@ static
 void
 Usage
 (
+char
+*
+progName
 )
 {
 fprintf
@@ -3110,6 +3113,7 @@ argv
 ;
 Usage
 (
+progName
 )
 ;
 }

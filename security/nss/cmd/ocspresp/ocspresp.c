@@ -1103,6 +1103,7 @@ caCert
 ifdef
 DEBUG
 {
+SECStatus
 rv
 =
 CERT_GetOCSPStatusForCertID
@@ -1178,6 +1179,7 @@ encodedFail
 ifdef
 DEBUG
 {
+SECStatus
 rv
 =
 CERT_GetOCSPResponseStatus

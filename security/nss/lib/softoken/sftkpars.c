@@ -1292,7 +1292,7 @@ isFIPS
 2
 ;
 int
-i
+index
 =
 count
 -
@@ -1348,7 +1348,7 @@ count
 ;
 tokens
 [
-i
+index
 ]
 .
 slotID
@@ -1361,7 +1361,7 @@ PRIVATE_KEY_SLOT_ID
 ;
 tokens
 [
-i
+index
 ]
 .
 certPrefix
@@ -1370,7 +1370,7 @@ certPrefix
 ;
 tokens
 [
-i
+index
 ]
 .
 keyPrefix
@@ -1379,7 +1379,7 @@ keyPrefix
 ;
 tokens
 [
-i
+index
 ]
 .
 minPW
@@ -1395,7 +1395,7 @@ minPW
 ;
 tokens
 [
-i
+index
 ]
 .
 readOnly
@@ -1407,7 +1407,7 @@ readOnly
 ;
 tokens
 [
-i
+index
 ]
 .
 noCertDB
@@ -1419,7 +1419,7 @@ noCertDB
 ;
 tokens
 [
-i
+index
 ]
 .
 noKeyDB
@@ -1431,7 +1431,7 @@ noCertDB
 ;
 tokens
 [
-i
+index
 ]
 .
 forceOpen
@@ -1443,7 +1443,7 @@ forceOpen
 ;
 tokens
 [
-i
+index
 ]
 .
 pwRequired
@@ -1455,7 +1455,7 @@ pwRequired
 ;
 tokens
 [
-i
+index
 ]
 .
 optimizeSpace
@@ -1492,7 +1492,7 @@ isFIPS
 {
 tokens
 [
-i
+index
 ]
 .
 tokdes
@@ -1501,7 +1501,7 @@ ftokdes
 ;
 tokens
 [
-i
+index
 ]
 .
 updtokdes
@@ -1510,7 +1510,7 @@ pupdtokdes
 ;
 tokens
 [
-i
+index
 ]
 .
 slotdes
@@ -1534,7 +1534,7 @@ else
 {
 tokens
 [
-i
+index
 ]
 .
 tokdes
@@ -1543,7 +1543,7 @@ ptokdes
 ;
 tokens
 [
-i
+index
 ]
 .
 updtokdes
@@ -1552,7 +1552,7 @@ pupdtokdes
 ;
 tokens
 [
-i
+index
 ]
 .
 slotdes

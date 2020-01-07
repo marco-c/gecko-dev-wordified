@@ -883,7 +883,7 @@ ZIPfile
 *
 zipfile
 int
-lvl
+compression_level
 )
 {
 ZIPentry
@@ -2044,7 +2044,7 @@ deflateInit2
 (
 &
 zstream
-lvl
+compression_level
 Z_DEFLATED
 -
 MAX_WBITS

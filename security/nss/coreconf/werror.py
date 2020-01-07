@@ -464,12 +464,16 @@ arguments
 '
 )
     
+#
 set_warning
 (
 '
 shadow
 '
 )
+#
+Bug
+1309068
 if
 __name__
 =

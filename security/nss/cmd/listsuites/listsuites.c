@@ -448,8 +448,14 @@ cipherSuites
 i
 ]
 ;
+SECStatus
+rv
+;
 PRBool
 enabled
+;
+PRErrorCode
+err
 ;
 SSLCipherSuiteInfo
 info
