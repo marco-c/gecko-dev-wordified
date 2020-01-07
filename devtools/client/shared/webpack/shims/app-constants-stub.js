@@ -97,11 +97,9 @@ module
 exports
 =
 {
-constants
+AppConstants
 :
 {
-platform
-:
 platform
 }
 }
