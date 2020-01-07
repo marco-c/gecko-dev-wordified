@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+AnimationEventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -278,9 +287,6 @@ nsIRunnable
 namespace
 mozilla
 {
-class
-AnimationEventDispatcher
-;
 class
 RefreshDriverTimer
 ;
