@@ -232,10 +232,6 @@ basic
 shared
 codebook
 operations
-last
-mod
-:
-Id
 *
 *
 *

@@ -237,10 +237,6 @@ backends
 and
 channel
 mappings
-last
-mod
-:
-Id
 *
 *
 *

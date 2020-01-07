@@ -234,10 +234,6 @@ templates
 8
 /
 11kHz
-last
-mod
-:
-Id
 *
 *
 *

@@ -241,10 +241,6 @@ for
 1
 surround
 modes
-last
-mod
-:
-Id
 *
 *
 *

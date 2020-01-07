@@ -233,10 +233,6 @@ curve
 data
 for
 psychoacoustics
-last
-mod
-:
-Id
 *
 *
 *

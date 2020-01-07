@@ -230,10 +230,6 @@ function
 :
 11kHz
 settings
-last
-mod
-:
-Id
 *
 *
 *

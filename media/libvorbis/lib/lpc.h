@@ -232,10 +232,6 @@ LPC
 low
 level
 routines
-last
-mod
-:
-Id
 *
 *
 *

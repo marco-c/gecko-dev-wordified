@@ -247,10 +247,6 @@ the
 UNIX
 ideal
 .
-last
-mod
-:
-Id
 *
 *
 *
@@ -371,7 +367,10 @@ static
 __inline__
 #
 elif
+defined
+(
 _WIN32
+)
 #
 define
 STIN

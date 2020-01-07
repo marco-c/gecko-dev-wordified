@@ -230,10 +230,6 @@ function
 :
 miscellaneous
 prototypes
-last
-mod
-:
-Id
 *
 *
 *

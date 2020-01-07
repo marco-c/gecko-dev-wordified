@@ -230,10 +230,6 @@ function
 :
 fft
 transform
-last
-mod
-:
-Id
 *
 *
 *

@@ -239,10 +239,6 @@ for
 static
 mode
 headers
-last
-mod
-:
-Id
 *
 *
 *

@@ -237,10 +237,6 @@ out
 for
 vorbisenc
 clarity
-last
-mod
-:
-Id
 *
 *
 *

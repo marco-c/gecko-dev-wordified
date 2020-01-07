@@ -239,10 +239,6 @@ pl
 ;
 edit
 there
-last
-mod
-:
-Id
 *
 *
 *

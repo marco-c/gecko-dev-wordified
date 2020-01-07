@@ -238,10 +238,6 @@ code
 /
 decode
 operations
-last
-mod
-:
-Id
 *
 *
 *

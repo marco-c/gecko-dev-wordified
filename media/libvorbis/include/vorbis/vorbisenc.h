@@ -233,10 +233,6 @@ encode
 -
 engine
 setup
-last
-mod
-:
-Id
 *
 *
 *

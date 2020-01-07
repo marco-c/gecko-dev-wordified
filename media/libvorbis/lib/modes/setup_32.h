@@ -232,10 +232,6 @@ toplevel
 settings
 for
 32kHz
-last
-mod
-:
-Id
 *
 *
 *

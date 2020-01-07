@@ -237,10 +237,6 @@ Bark
 and
 Mel
 scales
-last
-mod
-:
-Id
 *
 *
 *

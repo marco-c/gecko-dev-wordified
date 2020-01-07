@@ -235,10 +235,6 @@ PCM
 analysis
 mode
 dispatch
-last
-mod
-:
-Id
 *
 *
 *

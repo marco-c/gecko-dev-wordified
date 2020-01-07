@@ -235,10 +235,6 @@ not
 including
 preecho
 )
-last
-mod
-:
-Id
 *
 *
 *

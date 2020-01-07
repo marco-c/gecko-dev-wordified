@@ -245,10 +245,6 @@ only
 =
 n
 ]
-last
-mod
-:
-Id
 Original
 algorithm
 adapted

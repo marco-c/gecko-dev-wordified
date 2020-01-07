@@ -235,10 +235,6 @@ for
 encoder
 mode
 setup
-last
-mod
-:
-Id
 *
 *
 *

@@ -231,10 +231,6 @@ function
 libvorbis
 codec
 headers
-last
-mod
-:
-Id
 *
 *
 *

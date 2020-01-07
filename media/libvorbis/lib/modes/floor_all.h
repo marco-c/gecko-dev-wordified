@@ -231,10 +231,6 @@ function
 key
 floor
 settings
-last
-mod
-:
-Id
 *
 *
 *

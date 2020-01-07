@@ -233,10 +233,6 @@ unnormalized
 *
 fft
 transform
-last
-mod
-:
-Id
 *
 *
 *

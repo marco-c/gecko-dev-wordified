@@ -232,10 +232,6 @@ PCM
 data
 envelope
 analysis
-last
-mod
-:
-Id
 *
 *
 *

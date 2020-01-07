@@ -233,10 +233,6 @@ single
 block
 PCM
 synthesis
-last
-mod
-:
-Id
 *
 *
 *

@@ -237,10 +237,6 @@ for
 q
 modes
 only
-last
-mod
-:
-Id
 *
 *
 *

@@ -230,10 +230,6 @@ function
 :
 window
 functions
-last
-mod
-:
-Id
 *
 *
 *

@@ -231,10 +231,6 @@ function
 lookup
 based
 functions
-last
-mod
-:
-Id
 *
 *
 *

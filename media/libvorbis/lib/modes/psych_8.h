@@ -231,10 +231,6 @@ function
 8kHz
 psychoacoustic
 settings
-last
-mod
-:
-Id
 *
 *
 *

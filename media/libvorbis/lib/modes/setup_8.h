@@ -230,10 +230,6 @@ function
 :
 8kHz
 settings
-last
-mod
-:
-Id
 *
 *
 *

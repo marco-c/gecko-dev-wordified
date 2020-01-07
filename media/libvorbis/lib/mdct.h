@@ -233,10 +233,6 @@ discrete
 cosine
 transform
 prototypes
-last
-mod
-:
-Id
 *
 *
 *

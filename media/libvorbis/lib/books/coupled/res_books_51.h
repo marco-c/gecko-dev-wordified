@@ -238,11 +238,6 @@ for
 1
 surround
 *
-last
-modified
-:
-Id
-*
 *
 *
 *

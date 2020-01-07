@@ -230,10 +230,6 @@ function
 :
 16kHz
 settings
-last
-mod
-:
-Id
 *
 *
 *
