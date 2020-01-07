@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMRect
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -171,7 +164,7 @@ nsDOMCSSRect
 final
 :
 public
-nsIDOMRect
+nsISupports
 public
 nsWrapperCache
 {
@@ -194,7 +187,6 @@ aLeft
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMRECT
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMCSSRect
