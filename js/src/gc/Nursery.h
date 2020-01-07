@@ -272,9 +272,9 @@ mkDbgr
 \
 _
 (
-ClearNewObjectCache
+SweepCaches
 "
-clrNOC
+swpCch
 "
 )
 \
