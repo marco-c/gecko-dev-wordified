@@ -783,9 +783,6 @@ Navigator
 (
 )
 ;
-IgnoredErrorResult
-rv
-;
 nsPluginArray
 *
 pluginArray
@@ -795,7 +792,9 @@ navigator
 >
 GetPlugins
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 if

@@ -4151,9 +4151,6 @@ break
 ;
 }
 }
-IgnoredErrorResult
-rv
-;
 nsINode
 :
 :
@@ -4162,7 +4159,9 @@ InsertBefore
 *
 head
 refNode
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -4453,9 +4452,6 @@ return
 nullptr
 ;
 }
-IgnoredErrorResult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -4477,7 +4473,9 @@ InsertBefore
 *
 caption
 firsChild
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -4667,9 +4665,6 @@ break
 ;
 }
 }
-IgnoredErrorResult
-rv
-;
 nsINode
 :
 :
@@ -4678,7 +4673,9 @@ InsertBefore
 *
 newBody
 referenceNode
-rv
+IgnoreErrors
+(
+)
 )
 ;
 return

@@ -2505,13 +2505,12 @@ GetDisabled
 )
 )
 {
-IgnoredErrorResult
-rv
-;
 SetDisabled
 (
 false
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

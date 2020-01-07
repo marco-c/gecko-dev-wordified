@@ -15402,10 +15402,6 @@ it
 '
 s
 collapsed
-{
-IgnoredErrorResult
-ignored
-;
 newRange
 -
 >
@@ -15413,10 +15409,11 @@ SelectNodeContents
 (
 *
 aContent
-ignored
+IgnoreErrors
+(
+)
 )
 ;
-}
 if
 (
 !
@@ -15475,10 +15472,6 @@ appearing
 as
 selected
 .
-IgnoredErrorResult
-err1
-err2
-;
 newRange
 -
 >
@@ -15486,7 +15479,9 @@ SetStartBefore
 (
 *
 aContent
-err1
+IgnoreErrors
+(
+)
 )
 ;
 newRange
@@ -15496,7 +15491,9 @@ SetEndBefore
 (
 *
 aContent
-err2
+IgnoreErrors
+(
+)
 )
 ;
 }

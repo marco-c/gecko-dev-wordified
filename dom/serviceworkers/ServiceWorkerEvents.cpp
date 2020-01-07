@@ -4072,7 +4072,7 @@ if
 body
 )
 {
-IgnoredErrorResult
+ErrorResult
 error
 ;
 response

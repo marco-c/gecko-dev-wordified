@@ -5919,9 +5919,6 @@ Current
 item
 going
 away
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -5933,7 +5930,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 listBox
@@ -6597,9 +6596,6 @@ Current
 item
 going
 away
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -6611,7 +6607,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 listBox

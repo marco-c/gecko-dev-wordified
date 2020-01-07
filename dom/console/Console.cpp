@@ -14974,16 +14974,12 @@ if
 mDumpFunction
 )
 {
-IgnoredErrorResult
-rv
-;
 mDumpFunction
 -
 >
 Call
 (
 aMessage
-rv
 )
 ;
 return

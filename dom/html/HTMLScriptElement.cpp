@@ -1028,13 +1028,12 @@ nsAString
 text
 )
 {
-IgnoredErrorResult
-rv
-;
 GetText
 (
 text
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

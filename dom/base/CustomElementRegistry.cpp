@@ -534,9 +534,6 @@ Call
 (
 )
 {
-IgnoredErrorResult
-rv
-;
 switch
 (
 mType
@@ -565,7 +562,6 @@ get
 Call
 (
 mThisObject
-rv
 )
 ;
 break
@@ -593,7 +589,6 @@ get
 Call
 (
 mThisObject
-rv
 )
 ;
 break
@@ -627,7 +622,6 @@ mOldDocument
 mAdoptedCallbackArgs
 .
 mNewDocument
-rv
 )
 ;
 break
@@ -667,7 +661,6 @@ newValue
 mArgs
 .
 namespaceURI
-rv
 )
 ;
 break

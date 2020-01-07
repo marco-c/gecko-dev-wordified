@@ -2531,12 +2531,11 @@ here
 }
 else
 {
-IgnoredErrorResult
-rv
-;
 BeginElement
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

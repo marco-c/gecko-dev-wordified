@@ -2084,9 +2084,6 @@ OwnerDoc
 (
 )
 ;
-IgnoredErrorResult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -2107,7 +2104,9 @@ NodeInfoManager
 (
 )
 nullptr
-rv
+IgnoreErrors
+(
+)
 )
 ;
 /

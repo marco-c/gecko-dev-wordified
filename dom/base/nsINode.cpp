@@ -9989,9 +9989,6 @@ parent
 return
 ;
 }
-IgnoredErrorResult
-err
-;
 parent
 -
 >
@@ -9999,7 +9996,9 @@ RemoveChild
 (
 *
 this
-err
+IgnoreErrors
+(
+)
 )
 ;
 }

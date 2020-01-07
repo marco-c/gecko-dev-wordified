@@ -3981,12 +3981,6 @@ GetContent
 (
 )
 {
-mozilla
-:
-:
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -3995,7 +3989,12 @@ win
 =
 GetContentInternal
 (
-ignored
+mozilla
+:
+:
+IgnoreErrors
+(
+)
 mozilla
 :
 :
