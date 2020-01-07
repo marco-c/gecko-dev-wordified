@@ -586,6 +586,11 @@ StopVibrateHaptic
 (
 )
 ;
+void
+ShutdownVibrateHapticThread
+(
+)
+;
 protected
 :
 virtual
