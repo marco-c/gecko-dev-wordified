@@ -665,13 +665,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

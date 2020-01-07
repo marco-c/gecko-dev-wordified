@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
