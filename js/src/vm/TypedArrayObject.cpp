@@ -166,15 +166,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
 <
 string
 .
@@ -466,12 +457,6 @@ mozilla
 :
 :
 AssertedCast
-;
-using
-mozilla
-:
-:
-IsAsciiDigit
 ;
 using
 JS
@@ -14392,7 +14377,7 @@ false
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 s
@@ -14463,7 +14448,7 @@ s
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 s

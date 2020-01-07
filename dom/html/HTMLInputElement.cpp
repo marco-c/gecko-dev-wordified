@@ -830,15 +830,6 @@ h
 #
 include
 "
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
-"
 nsIIDNService
 .
 h
@@ -29268,6 +29259,9 @@ i
 if
 (
 !
+nsCRT
+:
+:
 IsAsciiDigit
 (
 aValue
@@ -31142,7 +31136,7 @@ offset
 if
 (
 !
-IsAsciiDigit
+NS_IsAsciiDigit
 (
 aStr
 [

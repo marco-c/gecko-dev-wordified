@@ -325,12 +325,6 @@ using
 mozilla
 :
 :
-IsAsciiDigit
-;
-using
-mozilla
-:
-:
 MakeScopeExit
 ;
 using
@@ -9835,7 +9829,7 @@ false
 ;
 while
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -9873,7 +9867,7 @@ getCharIgnoreEOL
 }
 while
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -9934,7 +9928,7 @@ getCharIgnoreEOL
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -9965,7 +9959,7 @@ getCharIgnoreEOL
 }
 while
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -10659,7 +10653,7 @@ getCharIgnoreEOL
 else
 if
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -10689,7 +10683,7 @@ the
 '
 while
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -11041,7 +11035,7 @@ getCharIgnoreEOL
 ;
 if
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
@@ -14206,7 +14200,7 @@ val
 0
 |
 |
-IsAsciiDigit
+JS7_ISDEC
 (
 c
 )
