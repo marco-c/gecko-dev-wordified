@@ -7500,6 +7500,15 @@ if
 (
 !
 elementData
+|
+|
+!
+element
+-
+>
+GetOwnerGlobal
+(
+)
 )
 {
 /
