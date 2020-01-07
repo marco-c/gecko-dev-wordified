@@ -24334,12 +24334,7 @@ aBuilder
 mScrolledFrame
 info
 1
-)
-;
-hitInfo
--
->
-SetArea
+Some
 (
 mScrollPort
 +
@@ -24349,6 +24344,7 @@ aBuilder
 ToReferenceFrame
 (
 mOuter
+)
 )
 )
 ;
