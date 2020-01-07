@@ -1096,7 +1096,7 @@ isIncrementalGCInProgress
 ;
 CHECK
 (
-checkMultipleGroups
+checkSingleGroup
 (
 )
 )
