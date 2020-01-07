@@ -1726,7 +1726,7 @@ int32_t
 aIndex
 int32_t
 aOrientation
-nsISupports
+DataTransfer
 *
 aDataTransfer
 bool
@@ -1824,7 +1824,7 @@ int32_t
 aRow
 int32_t
 aOrientation
-nsISupports
+DataTransfer
 *
 aDataTransfer
 )
