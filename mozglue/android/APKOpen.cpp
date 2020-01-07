@@ -2623,6 +2623,8 @@ int
 crashFd
 int
 ipcFd
+int
+crashAnnotationFd
 )
 {
 int
@@ -2709,6 +2711,7 @@ XRE_SetAndroidChildFds
 jenv
 crashFd
 ipcFd
+crashAnnotationFd
 )
 ;
 gBootstrap

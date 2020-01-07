@@ -698,6 +698,8 @@ int
 aCrashFd
 int
 aIPCFd
+int
+aCrashAnnotationFd
 )
 =
 0
