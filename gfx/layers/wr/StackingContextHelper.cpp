@@ -396,8 +396,6 @@ auto
 rect
 =
 aRect
--
-mOrigin
 ;
 rect
 .
