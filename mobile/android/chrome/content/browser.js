@@ -31185,6 +31185,11 @@ fixedURI
 )
 )
 {
+if
+(
+aRequest
+)
+{
 aRequest
 .
 cancel
@@ -31194,6 +31199,7 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
+}
 this
 .
 browser
@@ -31828,6 +31834,11 @@ fixedURI
 }
 if
 (
+(
+!
+aRequest
+|
+|
 Components
 .
 isSuccessCode
@@ -31835,6 +31846,7 @@ isSuccessCode
 aRequest
 .
 status
+)
 )
 &
 &
