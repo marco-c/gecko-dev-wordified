@@ -387,17 +387,6 @@ DecodePromise
 >
 mDecodeRequest
 ;
-Monitor
-mMonitor
-;
-/
-/
-Members
-below
-are
-accessed
-via
-mMonitor
 MediaResult
 mError
 =
