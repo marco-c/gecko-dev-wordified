@@ -70,6 +70,13 @@ middleware
 import
 java
 .
+io
+.
+UnsupportedEncodingException
+;
+import
+java
+.
 util
 .
 concurrent
@@ -1089,6 +1096,8 @@ encrypt
 }
 catch
 (
+UnsupportedEncodingException
+|
 CryptoException
 e
 )
