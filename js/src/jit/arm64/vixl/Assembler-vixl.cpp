@@ -359,7 +359,7 @@ list_
 VIXL_ASSERT
 (
 (
-1
+1ULL
 <
 <
 index
@@ -427,7 +427,7 @@ index
 VIXL_ASSERT
 (
 (
-1
+1ULL
 <
 <
 index

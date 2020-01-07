@@ -4210,7 +4210,7 @@ around
 a
 pool
 .
-bool
+uint32_t
 isNatural
 :
 1
@@ -4260,7 +4260,7 @@ data
 data
 )
 {
-JS_STATIC_ASSERT
+VIXL_STATIC_ASSERT
 (
 sizeof
 (
@@ -4289,7 +4289,7 @@ raw
 )
 const
 {
-JS_STATIC_ASSERT
+VIXL_STATIC_ASSERT
 (
 sizeof
 (

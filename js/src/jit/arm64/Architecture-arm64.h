@@ -2576,6 +2576,8 @@ d
 ;
 enum
 Kind
+:
+uint8_t
 {
 Double
 Single
@@ -3641,16 +3643,12 @@ public
 :
 Code
 code_
-:
-8
 ;
 FloatRegisters
 :
 :
 Kind
 k_
-:
-1
 ;
 }
 ;
