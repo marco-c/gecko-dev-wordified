@@ -283,8 +283,6 @@ input
 "
 auto
 none
-enabled
-disabled
 "
 products
 =
