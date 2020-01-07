@@ -7020,9 +7020,11 @@ CompileMode
 :
 :
 Once
-moduleSegment
+codeTier
+-
+>
+segment
 (
-tier
 )
 metadata
 (
