@@ -108,6 +108,15 @@ UPDATE_ELEMENT_PICKER_ENABLED
 /
 /
 Update
+selected
+animation
+.
+"
+UPDATE_SELECTED_ANIMATION
+"
+/
+/
+Update
 sidebar
 size
 .
