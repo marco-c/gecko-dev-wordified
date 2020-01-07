@@ -1113,6 +1113,7 @@ typename
 U
 >
 friend
+constexpr
 NotNull
 <
 U
@@ -1134,6 +1135,7 @@ typename
 Args
 >
 friend
+constexpr
 NotNull
 <
 U
@@ -1176,6 +1178,7 @@ template
 typename
 U
 >
+constexpr
 explicit
 NotNull
 (
@@ -1223,6 +1226,7 @@ template
 typename
 U
 >
+constexpr
 MOZ_IMPLICIT
 NotNull
 (
@@ -1408,6 +1412,7 @@ a
 castable
 pointer
 .
+constexpr
 const
 T
 &
@@ -1435,6 +1440,7 @@ get
 (
 )
 .
+constexpr
 operator
 const
 T
@@ -1454,6 +1460,7 @@ get
 Dereference
 operators
 .
+constexpr
 const
 T
 &
@@ -1470,6 +1477,7 @@ get
 )
 ;
 }
+constexpr
 decltype
 (
 *
@@ -1493,6 +1501,7 @@ template
 typename
 T
 >
+constexpr
 NotNull
 <
 T
@@ -1794,6 +1803,7 @@ typename
 .
 Args
 >
+constexpr
 NotNull
 <
 T
@@ -1879,7 +1889,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 =
@@ -1923,7 +1933,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 !
@@ -1977,7 +1987,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 =
@@ -2014,7 +2024,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 !
@@ -2061,7 +2071,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 =
@@ -2098,7 +2108,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 !
