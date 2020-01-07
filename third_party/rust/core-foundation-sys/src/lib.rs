@@ -152,10 +152,6 @@ compat
 requires
 weak
 linkage
-extern
-crate
-libc
-;
 pub
 mod
 array
