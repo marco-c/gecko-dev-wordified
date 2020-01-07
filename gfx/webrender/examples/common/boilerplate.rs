@@ -994,6 +994,15 @@ new
 scatter_gpu_cache_updates
 :
 false
+debug_flags
+:
+webrender
+:
+:
+DebugFlags
+:
+:
+ECHO_DRIVER_MESSAGES
 .
 .
 options
