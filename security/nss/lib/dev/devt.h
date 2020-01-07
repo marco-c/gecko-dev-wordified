@@ -425,8 +425,9 @@ PRCondVar
 *
 isPresentCondition
 ;
-PRBool
-inIsPresent
+PRThread
+*
+isPresentThread
 ;
 }
 ;
