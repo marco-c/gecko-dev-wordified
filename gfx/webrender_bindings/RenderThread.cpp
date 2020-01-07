@@ -1102,13 +1102,6 @@ it
 >
 second
 ;
-renderer
--
->
-Update
-(
-)
-;
 TimeStamp
 start
 =
@@ -1125,7 +1118,7 @@ ret
 renderer
 -
 >
-Render
+UpdateAndRender
 (
 )
 ;
