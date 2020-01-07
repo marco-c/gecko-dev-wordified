@@ -1336,16 +1336,6 @@ Instance
 >
 UniqueInstance
 ;
-bool
-InitSignatureSet
-(
-)
-;
-void
-ReleaseSignatureSet
-(
-)
-;
 }
 /
 /
