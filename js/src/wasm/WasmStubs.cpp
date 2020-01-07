@@ -13107,6 +13107,12 @@ case
 Trap
 :
 :
+InvalidConversionToInteger
+:
+case
+Trap
+:
+:
 IntegerDivideByZero
 :
 case
@@ -13132,12 +13138,6 @@ convert
 to
 new
 traps
-:
-case
-Trap
-:
-:
-InvalidConversionToInteger
 :
 case
 Trap

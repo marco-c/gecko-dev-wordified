@@ -11495,11 +11495,8 @@ inputIsNaN
 ;
 masm
 .
-jump
+wasmTrap
 (
-oldTrap
-(
-ool
 wasm
 :
 :
@@ -11507,6 +11504,11 @@ Trap
 :
 :
 InvalidConversionToInteger
+ool
+-
+>
+bytecodeOffset
+(
 )
 )
 ;
