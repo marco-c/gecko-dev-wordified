@@ -503,6 +503,10 @@ mPendingNotificationObserversTask
 (
 false
 )
+mSystemPrincipal
+{
+false
+}
 {
 MOZ_ASSERT
 (
@@ -535,6 +539,10 @@ mPendingNotificationObserversTask
 (
 false
 )
+mSystemPrincipal
+{
+false
+}
 {
 MOZ_ASSERT
 (

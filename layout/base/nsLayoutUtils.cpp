@@ -58669,6 +58669,11 @@ nsIFrame
 *
 aFrame
 )
+:
+mOldValue
+{
+false
+}
 {
 /
 /

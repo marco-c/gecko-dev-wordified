@@ -17663,6 +17663,9 @@ mutexid
 WasmStreamStatus
 Env
 )
+codeSection_
+{
+}
 codeStreamEnd_
 (
 nullptr

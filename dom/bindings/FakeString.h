@@ -197,6 +197,13 @@ FakeString
 (
 )
 :
+mData
+{
+nullptr
+}
+mLength
+{
+}
 mDataFlags
 (
 nsString

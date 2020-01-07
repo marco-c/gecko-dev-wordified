@@ -389,6 +389,13 @@ mStatus
 (
 NO_PARAMS
 )
+mFBOTextureTarget
+{
+}
+mInit
+{
+INIT_MODE_NONE
+}
 {
 }
 InitParams

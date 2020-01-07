@@ -2004,6 +2004,12 @@ mAdjustForPixelSnapping
 (
 false
 )
+mIStart
+{
+}
+mIEnd
+{
+}
 {
 #
 ifdef

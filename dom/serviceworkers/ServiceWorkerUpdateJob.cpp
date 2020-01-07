@@ -935,6 +935,14 @@ mUpdateViaCache
 (
 aUpdateViaCache
 )
+/
+*
+FIXME
+:
+initialize
+mOnFailure
+*
+/
 {
 }
 ServiceWorkerUpdateJob

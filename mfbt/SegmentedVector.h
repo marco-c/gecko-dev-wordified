@@ -547,6 +547,16 @@ mLength
 0
 )
 {
+this
+-
+>
+mStorage
+.
+mAlign
+=
+{
+}
+;
 }
 ~
 SegmentImpl

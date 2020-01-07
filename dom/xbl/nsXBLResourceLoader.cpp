@@ -419,6 +419,10 @@ mPendingSheets
 (
 0
 )
+mBoundDocument
+{
+nullptr
+}
 {
 }
 nsXBLResourceLoader

@@ -301,6 +301,10 @@ mSdpHelper
 &
 mLastError
 )
+mRunRustParser
+{
+false
+}
 {
 }
 /

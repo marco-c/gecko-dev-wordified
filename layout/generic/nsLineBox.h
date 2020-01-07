@@ -4393,6 +4393,11 @@ DEBUG
 nsLineList_iterator
 (
 )
+:
+mListLink
+{
+nullptr
+}
 {
 memset
 (
@@ -5102,6 +5107,11 @@ DEBUG
 nsLineList_reverse_iterator
 (
 )
+:
+mListLink
+{
+nullptr
+}
 {
 memset
 (
@@ -5743,6 +5753,11 @@ DEBUG
 nsLineList_const_iterator
 (
 )
+:
+mListLink
+{
+nullptr
+}
 {
 memset
 (
@@ -6363,6 +6378,11 @@ DEBUG
 nsLineList_const_reverse_iterator
 (
 )
+:
+mListLink
+{
+nullptr
+}
 {
 memset
 (

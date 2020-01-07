@@ -241,6 +241,10 @@ Context
 Context
 (
 )
+:
+mId
+{
+}
 {
 MOZ_COUNT_CTOR
 (

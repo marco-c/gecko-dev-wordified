@@ -163,6 +163,9 @@ prefix
 (
 aPrefix
 )
+nameSpaceID
+{
+}
 {
 }
 RefPtr

@@ -387,6 +387,12 @@ m_azimuthIndex1
 (
 UninitializedAzimuth
 )
+m_elevation1
+{
+0
+.
+0
+}
 m_azimuthIndex2
 (
 UninitializedAzimuth
@@ -402,6 +408,12 @@ in
 pan
 (
 )
+m_elevation2
+{
+0
+.
+0
+}
 m_crossfadeX
 (
 0

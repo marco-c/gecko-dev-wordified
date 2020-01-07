@@ -5432,6 +5432,13 @@ mPermitSubpixelAA
 (
 false
 )
+mFormat
+{
+SurfaceFormat
+:
+:
+UNKNOWN
+}
 {
 }
 virtual

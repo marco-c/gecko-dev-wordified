@@ -1340,6 +1340,11 @@ protected
 WidgetPluginEvent
 (
 )
+:
+mRetargetToFocusedDocument
+{
+false
+}
 {
 }
 }

@@ -1629,6 +1629,9 @@ Config
 aConfig
 )
 :
+mId
+{
+}
 mCaptureDevInfo
 (
 aConfig

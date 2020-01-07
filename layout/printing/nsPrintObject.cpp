@@ -343,6 +343,10 @@ mInvisible
 (
 false
 )
+mPrintPreview
+{
+false
+}
 mDidCreateDocShell
 (
 false

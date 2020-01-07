@@ -2984,6 +2984,9 @@ nsURIHashKey
 (
 aURI
 )
+visitTime
+{
+}
 {
 }
 VisitHashKey

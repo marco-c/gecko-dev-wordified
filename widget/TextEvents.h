@@ -4364,6 +4364,11 @@ PBrowserChild
 WidgetCompositionEvent
 (
 )
+:
+mOriginalMessage
+{
+eVoidEvent
+}
 {
 }
 public
@@ -6540,6 +6545,9 @@ mUseNativeLineBreak
 (
 true
 )
+mReason
+{
+}
 {
 }
 public

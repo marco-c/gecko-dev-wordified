@@ -5103,6 +5103,10 @@ mFontSizeInflationEnabled
 (
 false
 )
+mFontSizeInflationEnabledIsDirty
+{
+false
+}
 mPaintingIsFrozen
 (
 false
@@ -5237,6 +5241,10 @@ mHasReceivedPaintMessage
 (
 false
 )
+mIsLastKeyDownCanceled
+{
+false
+}
 mHasHandledUserInput
 (
 false

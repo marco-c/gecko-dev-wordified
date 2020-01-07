@@ -744,6 +744,14 @@ mGetRootValue
 (
 aGetRootValue
 )
+mIsDefined
+{
+false
+}
+mIsRootDefined
+{
+false
+}
 {
 }
 /

@@ -848,6 +848,10 @@ mResult
 (
 NS_OK
 )
+mMessage
+{
+nullptr
+}
 #
 ifdef
 DEBUG

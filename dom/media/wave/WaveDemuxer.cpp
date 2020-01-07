@@ -434,6 +434,9 @@ mChunkIndex
 (
 0
 )
+mDataLength
+{
+}
 mTotalChunkLen
 (
 0
@@ -450,6 +453,9 @@ mChannels
 (
 0
 )
+mSampleFormat
+{
+}
 {
 DDLINKCHILD
 (

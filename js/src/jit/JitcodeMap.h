@@ -2938,6 +2938,9 @@ tower_
 (
 nullptr
 )
+base_
+{
+}
 {
 base_
 .

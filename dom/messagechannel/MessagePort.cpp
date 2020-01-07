@@ -1072,6 +1072,16 @@ mInnerID
 (
 0
 )
+mState
+{
+static_cast
+<
+State
+>
+(
+0
+)
+}
 mMessageQueueEnabled
 (
 false

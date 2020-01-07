@@ -5036,6 +5036,10 @@ fp
 (
 nullptr
 )
+gckind
+{
+GC_NORMAL
+}
 nonincrementalReason_
 (
 gc
@@ -5066,6 +5070,15 @@ triggerThreshold
 .
 0
 )
+startingMinorGCNumber
+{
+}
+startingMajorGCNumber
+{
+}
+startingSliceNumber
+{
+}
 maxPauseInInterval
 (
 0

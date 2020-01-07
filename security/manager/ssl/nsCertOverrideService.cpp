@@ -535,6 +535,10 @@ nsCertOverrideService
 mutex
 "
 )
+mOidTagForStoringNewHashes
+{
+SEC_OID_UNKNOWN
+}
 {
 }
 nsCertOverrideService

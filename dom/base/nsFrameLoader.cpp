@@ -1310,6 +1310,10 @@ mObservingOwnerContent
 (
 false
 )
+mFreshProcess
+{
+false
+}
 {
 mRemoteFrame
 =

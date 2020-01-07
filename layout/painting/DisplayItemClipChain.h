@@ -549,10 +549,14 @@ endif
 DisplayItemClipChain
 (
 )
+:
+mASR
+{
+nullptr
+}
 #
 ifdef
 DEBUG
-:
 mOnStack
 (
 true

@@ -637,6 +637,9 @@ end_
 (
 end
 )
+u
+{
+}
 {
 MOZ_ASSERT
 (
@@ -1155,6 +1158,9 @@ end_
 (
 begin
 )
+u
+{
+}
 {
 }
 Kind

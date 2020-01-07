@@ -18410,6 +18410,9 @@ mIsRegisteredFolderObserver
 (
 false
 )
+mAsyncBookmarkIndex
+{
+}
 {
 mItemId
 =

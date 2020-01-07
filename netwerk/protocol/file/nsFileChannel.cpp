@@ -1644,6 +1644,9 @@ nsIURI
 uri
 )
 :
+mUploadLength
+{
+}
 mFileURI
 (
 uri

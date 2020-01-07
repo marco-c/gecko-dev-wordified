@@ -390,6 +390,14 @@ SourceKind
 :
 Binary
 )
+/
+*
+FIXME
+:
+initialize
+variableDeclarationKind_
+*
+/
 {
 cx_
 -

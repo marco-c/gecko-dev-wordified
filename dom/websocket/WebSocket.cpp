@@ -703,6 +703,9 @@ nsIWebSocketChannel
 :
 CLOSE_ABNORMAL
 )
+mPort
+{
+}
 mScriptLine
 (
 0

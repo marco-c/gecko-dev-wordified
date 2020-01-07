@@ -2745,6 +2745,10 @@ mEmbedStatus
 (
 eNoEmbed
 )
+mIsTopCompiler
+{
+false
+}
 mDoneWithThisStylesheet
 (
 false
@@ -2757,6 +2761,16 @@ mToplevelIterator
 (
 nullptr
 )
+mReferrerPolicy
+{
+mozilla
+:
+:
+net
+:
+:
+RP_Unset
+}
 {
 /
 /

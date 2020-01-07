@@ -145,6 +145,10 @@ public
 nsPluginManifestLineReader
 (
 )
+:
+mLength
+{
+}
 {
 mBase
 =

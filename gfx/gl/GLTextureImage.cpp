@@ -1331,6 +1331,9 @@ mIterationCallbackData
 (
 nullptr
 )
+mTileSize
+{
+}
 mRows
 (
 0

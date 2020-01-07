@@ -3755,6 +3755,11 @@ aDT
 bool
 aDisable
 )
+:
+mSubpixelAntialiasingEnabled
+{
+false
+}
 {
 if
 (

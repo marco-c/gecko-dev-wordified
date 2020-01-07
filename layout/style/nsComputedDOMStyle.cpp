@@ -1922,6 +1922,15 @@ mResolvedComputedStyle
 (
 false
 )
+#
+ifdef
+DEBUG
+mFlushedPendingReflows
+{
+false
+}
+#
+endif
 {
 MOZ_ASSERT
 (

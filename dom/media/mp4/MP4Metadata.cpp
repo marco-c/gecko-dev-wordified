@@ -208,6 +208,17 @@ Mp4parseByteData
 aIndice
 )
 {
+this
+-
+>
+mIndice
+.
+data
+=
+{
+nullptr
+}
+;
 mIndice
 .
 length

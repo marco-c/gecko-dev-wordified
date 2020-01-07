@@ -1897,6 +1897,9 @@ mSuspendTotalTime
 (
 0
 )
+mRedirectType
+{
+}
 mCacheOpenWithPriority
 (
 false
@@ -2013,6 +2016,10 @@ mPushedStream
 (
 nullptr
 )
+mLocalBlocklist
+{
+false
+}
 mOnTailUnblock
 (
 nullptr

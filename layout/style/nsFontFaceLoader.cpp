@@ -411,6 +411,10 @@ mChannel
 (
 aChannel
 )
+mStreamLoader
+{
+nullptr
+}
 {
 MOZ_ASSERT
 (

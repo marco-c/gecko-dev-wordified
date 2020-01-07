@@ -806,6 +806,10 @@ repeatedly
 TypedObjectPrediction
 (
 )
+:
+data_
+{
+}
 {
 kind_
 =

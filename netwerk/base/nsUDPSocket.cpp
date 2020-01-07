@@ -1742,6 +1742,16 @@ mByteWriteCount
 0
 )
 {
+this
+-
+>
+mAddr
+.
+inet
+=
+{
+}
+;
 mAddr
 .
 raw

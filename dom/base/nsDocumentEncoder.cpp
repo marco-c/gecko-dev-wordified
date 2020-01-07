@@ -1195,6 +1195,10 @@ mEncoding
 (
 nullptr
 )
+mIsCopying
+{
+false
+}
 mCachedBuffer
 (
 nullptr

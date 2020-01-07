@@ -1016,6 +1016,10 @@ bytecodeTypeMap
 (
 nullptr
 )
+current
+{
+nullptr
+}
 loopDepth_
 (
 loopDepth

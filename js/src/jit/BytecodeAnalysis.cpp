@@ -193,6 +193,10 @@ usesEnvironmentChain_
 (
 false
 )
+hasTryFinally_
+{
+false
+}
 {
 }
 /

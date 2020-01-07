@@ -4452,6 +4452,10 @@ mValue
 (
 aValue
 )
+mRv
+{
+NS_ERROR_NOT_INITIALIZED
+}
 {
 }
 LoadRunnable

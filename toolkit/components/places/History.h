@@ -1408,6 +1408,9 @@ nsURIHashKey
 (
 aURI
 )
+time
+{
+}
 {
 }
 RecentURIKey

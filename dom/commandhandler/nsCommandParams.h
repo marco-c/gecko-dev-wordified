@@ -228,6 +228,9 @@ mEntryType
 (
 aType
 )
+mData
+{
+}
 {
 Reset
 (

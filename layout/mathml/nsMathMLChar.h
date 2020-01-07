@@ -673,6 +673,11 @@ destructor
 nsMathMLChar
 (
 )
+:
+mDirection
+{
+NS_STRETCH_DIRECTION_DEFAULT
+}
 {
 MOZ_COUNT_CTOR
 (

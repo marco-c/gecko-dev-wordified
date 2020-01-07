@@ -327,6 +327,9 @@ AutoMemMap
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
+fileInfo
+{
+}
 fd
 (
 nullptr

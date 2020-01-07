@@ -334,6 +334,17 @@ mBrotliStateIsStreamEnd
 (
 false
 )
+mRequest
+{
+nullptr
+}
+mContext
+{
+nullptr
+}
+mSourceOffset
+{
+}
 {
 BrotliDecoderStateInit
 (

@@ -1391,6 +1391,13 @@ mOriginProcessID
 NativeIMEContext
 (
 )
+:
+mRawNativeIMEContext
+{
+}
+mOriginProcessID
+{
+}
 {
 Init
 (
@@ -1405,6 +1412,13 @@ nsIWidget
 *
 aWidget
 )
+:
+mRawNativeIMEContext
+{
+}
+mOriginProcessID
+{
+}
 {
 Init
 (
@@ -2917,6 +2931,9 @@ mMessage
 (
 NOTIFY_IME_OF_NOTHING
 )
+mSelectionChangeData
+{
+}
 {
 }
 IMENotification
@@ -2959,6 +2976,9 @@ mMessage
 (
 aMessage
 )
+mSelectionChangeData
+{
+}
 {
 switch
 (

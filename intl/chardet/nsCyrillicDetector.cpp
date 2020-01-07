@@ -1325,6 +1325,10 @@ aItems
 aCyrillicClass
 aCharsets
 )
+mResult
+{
+nullptr
+}
 {
 }
 /

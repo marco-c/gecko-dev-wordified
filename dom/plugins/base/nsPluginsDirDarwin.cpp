@@ -1830,6 +1830,10 @@ nsIFile
 spec
 )
 :
+pLibrary
+{
+nullptr
+}
 mPlugin
 (
 spec

@@ -352,6 +352,13 @@ aOptions
 .
 mCharset
 )
+mToken
+{
+nullptr
+}
+mScriptLength
+{
+}
 {
 mOptions
 .

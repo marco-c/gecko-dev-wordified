@@ -1244,6 +1244,10 @@ mValidated
 (
 false
 )
+mHttps
+{
+false
+}
 mMixedScheme
 (
 false

@@ -496,6 +496,10 @@ callerScript
 (
 cx
 )
+pc
+{
+nullptr
+}
 {
 }
 RootedLinearString

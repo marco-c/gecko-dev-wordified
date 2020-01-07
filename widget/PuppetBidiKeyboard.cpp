@@ -133,6 +133,14 @@ PuppetBidiKeyboard
 nsIBidiKeyboard
 (
 )
+mIsLangRTL
+{
+false
+}
+mHaveBidiKeyboards
+{
+false
+}
 {
 }
 PuppetBidiKeyboard

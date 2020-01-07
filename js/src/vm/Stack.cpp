@@ -9371,6 +9371,14 @@ lastProfilingCallSite_
 (
 nullptr
 )
+#
+ifdef
+CHECK_OSIPOINT_REGISTERS
+checkRegs_
+{
+}
+#
+endif
 {
 cx
 -

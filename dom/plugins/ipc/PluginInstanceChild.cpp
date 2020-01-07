@@ -922,6 +922,12 @@ mContentsScaleFactor
 )
 #
 endif
+mCSSZoomFactor
+{
+0
+.
+0
+}
 mPostingKeyEvents
 (
 0
@@ -1028,6 +1034,9 @@ mCGLayer
 (
 nullptr
 )
+mCARefreshTimer
+{
+}
 mCurrentEvent
 (
 nullptr

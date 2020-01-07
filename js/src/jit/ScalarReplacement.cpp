@@ -2642,6 +2642,10 @@ alloc_
 (
 alloc
 )
+undefinedVal_
+{
+nullptr
+}
 obj_
 (
 obj

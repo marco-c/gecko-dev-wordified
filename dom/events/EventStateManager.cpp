@@ -2252,6 +2252,12 @@ mGestureDownPoint
 0
 0
 )
+mGestureModifiers
+{
+}
+mGestureDownButtons
+{
+}
 mPresContext
 (
 nullptr

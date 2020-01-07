@@ -748,6 +748,10 @@ nsRDFXMLSerializer
 nsRDFXMLSerializer
 (
 )
+:
+mPrefixID
+{
+}
 {
 }
 nsRDFXMLSerializer

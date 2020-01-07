@@ -438,6 +438,10 @@ Time
 (
 Uninitialized
 )
+:
+elapsedSecondsAD
+{
+}
 {
 }
 bool

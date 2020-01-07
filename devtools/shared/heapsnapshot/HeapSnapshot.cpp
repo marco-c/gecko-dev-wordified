@@ -9032,6 +9032,12 @@ compartments
 (
 compartments
 )
+nodeCount
+{
+}
+edgeCount
+{
+}
 {
 }
 /

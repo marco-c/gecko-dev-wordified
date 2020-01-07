@@ -246,6 +246,12 @@ mStatus
 (
 NS_OK
 )
+mLoadFlags
+{
+}
+mContentDisposition
+{
+}
 mContentLength
 (
 UINT64_MAX
@@ -3833,6 +3839,10 @@ mInOnDataAvailable
 (
 false
 )
+mResponseHeader
+{
+HEADER_UNKNOWN
+}
 /
 /
 XXX
@@ -3931,6 +3941,9 @@ placeholders
 _1
 )
 )
+mRawDataLength
+{
+}
 {
 mContentLength
 =

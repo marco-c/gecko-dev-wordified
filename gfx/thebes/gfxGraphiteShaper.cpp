@@ -337,6 +337,17 @@ mFallbackToSmallCaps
 false
 )
 {
+this
+-
+>
+mCallbackData
+.
+mDrawTarget
+=
+{
+nullptr
+}
+;
 mCallbackData
 .
 mFont

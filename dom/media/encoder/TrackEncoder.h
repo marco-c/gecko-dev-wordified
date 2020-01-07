@@ -1181,6 +1181,10 @@ mAudioBitrate
 (
 0
 )
+mDirectConnected
+{
+false
+}
 {
 }
 /

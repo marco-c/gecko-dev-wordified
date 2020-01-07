@@ -672,6 +672,10 @@ mPitch
 (
 aPitch
 )
+mIsLocal
+{
+false
+}
 {
 }
 NS_INLINE_DECL_REFCOUNTING

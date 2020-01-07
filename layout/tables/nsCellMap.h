@@ -2997,6 +2997,12 @@ mFoundCells
 (
 0
 )
+mCurMapContentRowCount
+{
+}
+mCurMapRelevantRowCount
+{
+}
 {
 NS_PRECONDITION
 (

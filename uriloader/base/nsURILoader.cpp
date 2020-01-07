@@ -1127,6 +1127,13 @@ nsDocumentOpenInfo
 nsDocumentOpenInfo
 (
 )
+:
+mFlags
+{
+}
+mDataConversionDepthLimit
+{
+}
 {
 NS_NOTREACHED
 (

@@ -220,6 +220,12 @@ SMModel
 sm
 )
 :
+mCurrentCharLen
+{
+}
+mCurrentBytePos
+{
+}
 mModel
 (
 sm

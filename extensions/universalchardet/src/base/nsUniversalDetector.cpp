@@ -134,6 +134,10 @@ nsUniversalDetector
 nsUniversalDetector
 (
 )
+:
+mLanguageFilter
+{
+}
 {
 mDone
 =

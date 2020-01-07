@@ -1204,6 +1204,16 @@ mShowPunycode
 (
 false
 )
+mRestrictionProfile
+{
+static_cast
+<
+restrictionProfile
+>
+(
+0
+)
+}
 mIDNUseWhitelist
 (
 false

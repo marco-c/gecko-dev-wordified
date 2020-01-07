@@ -3410,6 +3410,13 @@ protected
 LineRange
 (
 )
+:
+mStart
+{
+}
+mEnd
+{
+}
 {
 }
 }
@@ -7402,6 +7409,12 @@ LogicalAxis
 aAxis
 )
 :
+mContentBoxSize
+{
+}
+mGridGap
+{
+}
 mStateUnion
 (
 TrackSize

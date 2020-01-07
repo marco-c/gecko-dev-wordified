@@ -212,6 +212,9 @@ mNode
 (
 aOwner
 )
+mNumberOfInputChannels
+{
+}
 {
 }
 AudioProcessingEvent
