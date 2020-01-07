@@ -1098,6 +1098,10 @@ mIsKeptAlive
 (
 false
 )
+mHasBeenTransferredOrClosed
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -2697,6 +2701,10 @@ Close
 (
 )
 {
+mHasBeenTransferredOrClosed
+=
+true
+;
 CloseInternal
 (
 true
@@ -3776,7 +3784,7 @@ UpdateMustKeepAlive
 )
 ;
 }
-bool
+void
 MessagePort
 :
 :
@@ -3791,6 +3799,16 @@ MOZ_ASSERT
 (
 mIdentifier
 )
+;
+MOZ_ASSERT
+(
+!
+mHasBeenTransferredOrClosed
+)
+;
+mHasBeenTransferredOrClosed
+=
+true
 ;
 /
 /
@@ -3854,7 +3872,6 @@ eStateEntangled
 )
 {
 return
-false
 ;
 }
 /
@@ -3899,7 +3916,6 @@ eStateEntanglingForClose
 )
 {
 return
-false
 ;
 }
 aIdentifier
@@ -4017,7 +4033,6 @@ cannot
 proceed
 .
 return
-false
 ;
 }
 mUnshippedEntangledPort
@@ -4073,7 +4088,6 @@ UpdateMustKeepAlive
 )
 ;
 return
-true
 ;
 }
 /
@@ -4105,7 +4119,6 @@ cannot
 proceed
 .
 return
-false
 ;
 }
 mState
@@ -4113,7 +4126,6 @@ mState
 eStateEntanglingForDisentangle
 ;
 return
-true
 ;
 }
 /
@@ -4139,7 +4151,6 @@ mState
 eStateEntanglingForDisentangle
 ;
 return
-true
 ;
 }
 MOZ_ASSERT
@@ -4153,9 +4164,6 @@ eStateEntangled
 StartDisentangling
 (
 )
-;
-return
-true
 ;
 }
 void
