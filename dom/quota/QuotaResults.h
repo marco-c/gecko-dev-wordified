@@ -151,6 +151,9 @@ mUsage
 bool
 mPersisted
 ;
+uint64_t
+mLastAccessed
+;
 public
 :
 UsageResult
@@ -163,6 +166,8 @@ bool
 aPersisted
 uint64_t
 aUsage
+uint64_t
+aLastAccessed
 )
 ;
 private
