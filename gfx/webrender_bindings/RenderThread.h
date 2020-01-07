@@ -1208,7 +1208,7 @@ any
 thread
 .
 void
-DecPendingFrameCount
+FrameRenderingComplete
 (
 wr
 :
