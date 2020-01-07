@@ -2048,6 +2048,10 @@ run_test
 (
 )
 {
+throwOnUpdateErrors
+(
+)
+;
 gHttpServV4
 =
 new

@@ -1422,6 +1422,10 @@ run_test
 (
 )
 {
+throwOnUpdateErrors
+(
+)
+;
 /
 /
 Setup
