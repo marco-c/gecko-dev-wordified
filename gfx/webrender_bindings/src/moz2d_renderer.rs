@@ -31,7 +31,10 @@ an
 extern
 function
 use
-webrender_api
+webrender
+:
+:
+api
 :
 :
 *
