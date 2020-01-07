@@ -1221,9 +1221,6 @@ options
 invisibleToDebugger
 :
 false
-waiveInterposition
-:
-false
 }
 ;
 let
