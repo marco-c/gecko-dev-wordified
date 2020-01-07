@@ -137,7 +137,7 @@ use
 strict
 "
 ;
-let
+var
 EXPORTED_SYMBOLS
 =
 [
