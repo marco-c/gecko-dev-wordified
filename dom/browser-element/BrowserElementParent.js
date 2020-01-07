@@ -606,13 +606,6 @@ _frameElement
 =
 frameLoader
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
-.
 ownerElement
 ;
 if

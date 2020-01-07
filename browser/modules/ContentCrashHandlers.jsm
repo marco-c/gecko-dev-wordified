@@ -1277,15 +1277,6 @@ crashed
 "
 :
 {
-aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
-;
 let
 browser
 =

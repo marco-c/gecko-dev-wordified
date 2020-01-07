@@ -1737,9 +1737,9 @@ implemented
 *
 property
 {
-nsIFrameLoader
+FrameLoader
 }
-browser
+frameLoader
 *
 Returns
 the

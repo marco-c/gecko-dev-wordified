@@ -2204,13 +2204,6 @@ let
 frameLoader
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
 ;
 if
 (

@@ -2981,7 +2981,7 @@ xul
 browser
 -
 >
-nsIFrameLoader
+FrameLoader
 )
 that
 maps

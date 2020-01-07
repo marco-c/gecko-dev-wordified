@@ -1396,15 +1396,6 @@ app
 <
 iframe
 >
-frameLoader
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
-;
 let
 frame
 =

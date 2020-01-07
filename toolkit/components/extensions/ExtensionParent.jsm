@@ -6363,7 +6363,7 @@ element
 *
 param
 {
-nsIFrameLoader
+FrameLoader
 }
 [
 groupFrameLoader
