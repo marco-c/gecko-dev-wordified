@@ -248,6 +248,10 @@ AppCache
 )
 DEPRECATED_OPERATION
 (
+AppCacheInsecure
+)
+DEPRECATED_OPERATION
+(
 PrefixedImageSmoothingEnabled
 )
 DEPRECATED_OPERATION
