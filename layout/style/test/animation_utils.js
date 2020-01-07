@@ -2052,15 +2052,6 @@ animationName
 10s
 "
 ;
-/
-/
-Trigger
-style
-flush
-div
-.
-clientTop
-;
 return
 waitForPaintsFlushed
 (
