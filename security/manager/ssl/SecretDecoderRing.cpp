@@ -909,7 +909,7 @@ plaintexts
 JSContext
 *
 aCx
-nsISupports
+Promise
 *
 *
 aPromise
