@@ -4990,6 +4990,13 @@ Size2D
 <
 Au
 >
+pub
+tile_spacing
+:
+Size2D
+<
+Au
+>
 }
 /
 /
@@ -5189,6 +5196,13 @@ background
 .
 pub
 tile
+:
+Size2D
+<
+Au
+>
+pub
+tile_spacing
 :
 Size2D
 <
