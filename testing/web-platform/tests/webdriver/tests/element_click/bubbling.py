@@ -15,7 +15,7 @@ inline
 import
 inline
 def
-click
+element_click
 (
 session
 element
@@ -1034,7 +1034,7 @@ out
     
 response
 =
-click
+element_click
 (
 session
 over

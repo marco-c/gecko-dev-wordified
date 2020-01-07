@@ -17,7 +17,7 @@ import
 iframe
 inline
 def
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -36,7 +36,6 @@ send
 "
 POST
 "
-        
 "
 /
 session
@@ -182,7 +181,7 @@ element
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -338,7 +337,7 @@ body
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -480,7 +479,7 @@ body
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 frame
@@ -607,7 +606,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -674,7 +673,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -774,7 +773,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -845,7 +844,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -912,7 +911,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -979,7 +978,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -1040,7 +1039,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element

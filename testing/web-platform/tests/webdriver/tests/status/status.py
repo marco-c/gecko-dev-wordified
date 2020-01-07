@@ -1,7 +1,35 @@
 import
-pytest
-import
 json
+from
+tests
+.
+support
+.
+asserts
+import
+assert_success
+def
+get_status
+(
+session
+)
+:
+    
+return
+session
+.
+transport
+.
+send
+(
+"
+GET
+"
+"
+/
+status
+"
+)
 def
 test_get_status_no_session
 (
@@ -251,18 +279,18 @@ add_browser_capabilites
 }
 )
     
+response
+=
+get_status
+(
+session
+)
+    
 value
 =
-session
-.
-send_command
+assert_success
 (
-"
-GET
-"
-"
-status
-"
+response
 )
     
 assert
@@ -272,8 +300,7 @@ value
 ready
 "
 ]
-=
-=
+is
 False
     
 assert
@@ -318,18 +345,18 @@ step
 .
 Again
     
+response
+=
+get_status
+(
+session
+)
+    
 value
 =
-session
-.
-send_command
+assert_success
 (
-"
-GET
-"
-"
-status
-"
+response
 )
     
 assert
@@ -339,8 +366,7 @@ value
 ready
 "
 ]
-=
-=
+is
 True
     
 assert
