@@ -417,7 +417,13 @@ aElement
 ServoElementSnapshot
 (
 )
+{
+MOZ_COUNT_DTOR
+(
+ServoElementSnapshot
+)
 ;
+}
 bool
 HasAttrs
 (
@@ -830,7 +836,7 @@ nullptr
 const
 nsAttrValue
 *
-DoGetClasses
+GetClasses
 (
 )
 const
