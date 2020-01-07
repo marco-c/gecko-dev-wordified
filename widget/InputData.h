@@ -208,10 +208,10 @@ namespace
 layers
 {
 class
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 class
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 }
 namespace
@@ -1554,7 +1554,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -1563,7 +1563,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 MouseInput
 (
@@ -1754,7 +1754,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -1763,7 +1763,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 PanGestureInput
 (
@@ -2528,7 +2528,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -2537,7 +2537,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 PinchGestureInput
 (
@@ -2919,7 +2919,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -2928,7 +2928,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 TapGestureInput
 (
@@ -3182,7 +3182,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -3191,7 +3191,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 ScrollWheelInput
 (
@@ -3729,7 +3729,7 @@ mozilla
 layers
 :
 :
-PAPZCTreeManagerParent
+APZInputBridgeChild
 ;
 friend
 mozilla
@@ -3738,7 +3738,7 @@ mozilla
 layers
 :
 :
-APZCTreeManagerChild
+PAPZInputBridgeParent
 ;
 KeyboardInput
 (
