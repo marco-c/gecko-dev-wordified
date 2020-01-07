@@ -1079,7 +1079,6 @@ GetErrorMessage
 nullptr
 static_cast
 <
-const
 unsigned
 >
 (
@@ -1645,7 +1644,6 @@ GetErrorMessage
 nullptr
 static_cast
 <
-const
 unsigned
 >
 (
