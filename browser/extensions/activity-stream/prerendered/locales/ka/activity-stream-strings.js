@@ -77,7 +77,7 @@ header_stories_from
 "
 :
 "
--
+:
 "
 "
 type_label_visited

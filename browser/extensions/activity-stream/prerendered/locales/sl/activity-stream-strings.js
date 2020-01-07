@@ -882,7 +882,8 @@ topsites_form_url_validation
 "
 Vnesite
 veljaven
-URL
+spletni
+naslov
 "
 "
 pocket_read_more

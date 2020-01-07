@@ -451,9 +451,9 @@ deos
 e
 p
 ginas
-mais
-relevantes
-visitados
+que
+voc
+visitou
 recentemente
 assim
 voc
@@ -912,10 +912,10 @@ topsites_form_url_validation
 "
 necess
 rio
-uma
+um
 URL
 v
-lida
+lido
 "
 "
 pocket_read_more
