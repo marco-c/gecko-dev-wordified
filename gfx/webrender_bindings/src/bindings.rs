@@ -13064,7 +13064,7 @@ error_msg
 gfx_critical_note
 warn_msg
 :
-gfx_critical_note
+gecko_printf_stderr_output
 info_msg
 :
 gecko_printf_stderr_output
