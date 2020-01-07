@@ -129,7 +129,9 @@ include
 "
 builtin
 /
-Intl
+intl
+/
+IntlObject
 .
 h
 "
