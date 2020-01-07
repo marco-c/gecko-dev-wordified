@@ -312,11 +312,15 @@ return
 Number
 (
 zoom
+?
+zoom
 .
 toFixed
 (
 2
 )
+:
+1
 )
 ;
 }
