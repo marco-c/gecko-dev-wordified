@@ -2347,8 +2347,11 @@ PropagateReferenceIfNeeded
 nsIURI
 *
 aURI
+nsCOMPtr
+<
 nsIURI
-*
+>
+&
 aRedirectURI
 )
 ;
