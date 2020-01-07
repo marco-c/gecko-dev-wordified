@@ -1629,7 +1629,13 @@ BuiltDisplayList
 aOutDisplayList
 )
 ;
-void
+Maybe
+<
+wr
+:
+:
+WrClipId
+>
 PushStackingContext
 (
 const

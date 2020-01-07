@@ -5530,6 +5530,12 @@ bool
 aIsBackfaceVisible
 GlyphRasterSpace
 aGlyphRasterSpace
+bool
+*
+aOutIsReferenceFrame
+uintptr_t
+*
+aOutReferenceFrameId
 )
 WR_FUNC
 ;
