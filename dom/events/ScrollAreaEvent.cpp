@@ -306,10 +306,7 @@ aHeight
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 ScrollAreaEvent
 :
 :
@@ -399,10 +396,7 @@ Height
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 ScrollAreaEvent
 :
 :

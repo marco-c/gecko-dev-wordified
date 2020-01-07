@@ -5441,7 +5441,6 @@ what
 is
 desired
 .
-return
 aDragEvent
 -
 >

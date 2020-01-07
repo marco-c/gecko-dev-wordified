@@ -1475,7 +1475,7 @@ MOZ_ASSERT
 aDefault
 )
 ;
-nsString
+nsAutoString
 eventType
 ;
 if
@@ -1483,15 +1483,12 @@ if
 aEvent
 )
 {
-MOZ_ALWAYS_SUCCEEDS
-(
 aEvent
 -
 >
 GetType
 (
 eventType
-)
 )
 ;
 }
