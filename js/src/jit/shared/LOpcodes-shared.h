@@ -608,11 +608,6 @@ ComputeThis
 \
 _
 (
-ImplicitThis
-)
-\
-_
-(
 BitNotI
 )
 \
@@ -1464,6 +1459,11 @@ BoundsCheckRange
 _
 (
 BoundsCheckLower
+)
+\
+_
+(
+SpectreMaskIndex
 )
 \
 _
