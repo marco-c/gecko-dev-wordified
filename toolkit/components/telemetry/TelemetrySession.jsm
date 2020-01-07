@@ -5399,16 +5399,6 @@ startup
 interrupted
 )
 ;
-ret
-.
-js
-=
-Cu
-.
-getJSEngineTelemetryValue
-(
-)
-;
 let
 maximalNumberOfConcurrentThreads
 =
