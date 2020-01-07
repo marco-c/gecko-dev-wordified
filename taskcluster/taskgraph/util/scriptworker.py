@@ -1977,7 +1977,7 @@ invalid
 invalid
 '
 }
-PUSH_APK_DRY_RUN_OPTION
+PUSH_APK_COMMIT_OPTION
 =
 {
     
@@ -1985,31 +1985,31 @@ PUSH_APK_DRY_RUN_OPTION
 central
 '
 :
-False
+True
     
 '
 beta
 '
 :
-False
+True
     
 '
 maple
 '
 :
-True
+False
     
 '
 release
 '
 :
-False
+True
     
 '
 default
 '
 :
-True
+False
 }
 PUSH_APK_ROLLOUT_PERCENTAGE
 =
@@ -2705,7 +2705,7 @@ PUSH_APK_SCOPE_ALIAS_TO_PROJECT
     
 PUSH_APK_BREAKPOINT_WORKER_TYPE
 )
-get_push_apk_dry_run_option
+get_push_apk_commit_option
 =
 functools
 .
@@ -2716,7 +2716,7 @@ get_scope_from_project
     
 PUSH_APK_SCOPE_ALIAS_TO_PROJECT
     
-PUSH_APK_DRY_RUN_OPTION
+PUSH_APK_COMMIT_OPTION
 )
 get_push_apk_rollout_percentage
 =
