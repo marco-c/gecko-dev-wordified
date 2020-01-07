@@ -310,10 +310,6 @@ use
 create
 (
 )
-and
-createSession
-(
-)
 instead
 .
 *
