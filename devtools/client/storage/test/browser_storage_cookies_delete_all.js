@@ -217,7 +217,7 @@ store
 -
 objects
 -
-updated
+edit
 "
 )
 ;
