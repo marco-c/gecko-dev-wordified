@@ -4285,7 +4285,7 @@ A
 channel
 to
 the
-webgl
+WebGL
 thread
 used
 in
@@ -4295,7 +4295,10 @@ pipeline
 pub
 webgl_chan
 :
+Option
+<
 WebGLPipeline
+>
 /
 /
 /

@@ -2086,7 +2086,7 @@ communicating
 messages
 to
 the
-webvr
+WebGL
 thread
 if
 available
@@ -2103,7 +2103,10 @@ hard
 ]
 webgl_chan
 :
+Option
+<
 WebGLChan
+>
 /
 /
 /
@@ -3079,7 +3082,10 @@ self
 )
 -
 >
+Option
+<
 WebGLChan
+>
 {
 self
 .
@@ -14342,7 +14348,10 @@ navigation_start_precise
 u64
 webgl_chan
 :
+Option
+<
 WebGLChan
+>
 webvr_chan
 :
 Option
