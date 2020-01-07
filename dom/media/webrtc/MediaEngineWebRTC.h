@@ -2896,6 +2896,11 @@ const
 MediaEnginePrefs
 &
 aPrefs
+RefPtr
+<
+MediaStreamGraphImpl
+>
+aGraph
 )
 ;
 bool
