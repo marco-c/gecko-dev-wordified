@@ -749,7 +749,7 @@ interface
 OnCardLongClickListener
 {
 boolean
-onClick
+onLongClick
 (
 TopSite
 topSite

@@ -1081,7 +1081,7 @@ OnCardLongClickListener
 Override
 public
 boolean
-onClick
+onLongClick
 (
 final
 TopSite
