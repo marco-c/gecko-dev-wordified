@@ -4166,13 +4166,6 @@ is_executable_method
 =
 None
         
-pywebsocket
-.
-_configure_logging
-(
-opts
-)
-        
 self
 .
 server
@@ -4474,7 +4467,7 @@ ws_doc_root
 ]
                            
 "
-warning
+debug
 "
                            
 bind_address
@@ -4551,7 +4544,7 @@ ws_doc_root
 ]
                            
 "
-warning
+debug
 "
                            
 bind_address
