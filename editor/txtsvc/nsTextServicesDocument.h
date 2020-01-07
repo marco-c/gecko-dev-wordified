@@ -578,9 +578,7 @@ nsIDOMNode
 aNode
 nsIDOMNode
 *
-aParent
-int32_t
-aPosition
+aNextSiblingOfNewNode
 )
 override
 ;
@@ -590,11 +588,6 @@ DidInsertNode
 nsIDOMNode
 *
 aNode
-nsIDOMNode
-*
-aParent
-int32_t
-aPosition
 nsresult
 aResult
 )
