@@ -5619,26 +5619,6 @@ Fennec
 "
 )
             
-#
-TODO
-:
-don
-'
-t
-hardcode
-            
-self
-.
-set_buildbot_property
-(
-"
-hashType
-"
-"
-sha512
-"
-)
-            
 self
 .
 set_buildbot_property

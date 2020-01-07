@@ -7628,15 +7628,6 @@ platform
 "
 ]
         
-hashType
-=
-config
-[
-'
-hashType
-'
-]
-        
 appName
 =
 config
@@ -7691,16 +7682,6 @@ in
 balrog
 .
 py
-        
-self
-.
-set_buildbot_property
-(
-"
-hashType
-"
-hashType
-)
         
 self
 .
