@@ -51,7 +51,7 @@ policies
 :
 {
 "
-display_menu_bar
+DisplayMenuBar
 "
 :
 true

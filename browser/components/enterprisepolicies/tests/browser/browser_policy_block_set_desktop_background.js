@@ -51,7 +51,7 @@ policies
 :
 {
 "
-block_set_desktop_background
+BlockSetDesktopBackground
 "
 :
 true
