@@ -258,6 +258,16 @@ scrollbars
 gint32
 maxpos
 ;
+gint32
+scale
+;
+/
+*
+actual
+widget
+scale
+*
+/
 }
 GtkWidgetState
 ;
