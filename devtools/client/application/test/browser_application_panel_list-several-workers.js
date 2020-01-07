@@ -191,6 +191,8 @@ querySelector
 (
 "
 .
+js
+-
 unregister
 -
 button
@@ -307,6 +309,8 @@ querySelector
 (
 "
 .
+js
+-
 unregister
 -
 button

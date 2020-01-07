@@ -319,9 +319,9 @@ querySelectorAll
 (
 "
 .
-service
+js
 -
-worker
+sw
 -
 container
 "

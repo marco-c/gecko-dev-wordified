@@ -192,9 +192,9 @@ querySelector
 (
 "
 .
-service
+js
 -
-worker
+sw
 -
 scope
 "

@@ -226,6 +226,8 @@ querySelector
 (
 "
 .
+js
+-
 unregister
 -
 button
@@ -242,9 +244,9 @@ querySelector
 (
 "
 .
-service
+js
 -
-worker
+sw
 -
 scope
 "

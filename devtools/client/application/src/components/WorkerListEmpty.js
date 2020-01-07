@@ -106,7 +106,8 @@ react
 const
 {
 a
-div
+article
+p
 li
 ul
 }
@@ -295,7 +296,7 @@ render
 )
 {
 return
-div
+article
 (
 {
 className
@@ -308,7 +309,7 @@ list
 empty
 "
 }
-div
+p
 (
 {
 }
@@ -354,7 +355,7 @@ More
 "
 )
 )
-div
+p
 (
 {
 }
@@ -375,10 +376,20 @@ things
 you
 can
 try
+:
 )
 ul
 (
 {
+className
+:
+"
+worker
+-
+list
+-
+empty__list
+"
 }
 li
 (
