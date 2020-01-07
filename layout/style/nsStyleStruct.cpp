@@ -23905,6 +23905,8 @@ new
 nsStyleContentAttr
 (
 *
+aOther
+.
 mContent
 .
 mAttr
