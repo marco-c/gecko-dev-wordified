@@ -351,6 +351,9 @@ MOZ_DIAGNOSTIC_ASSERT
 nonBlocking
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -368,6 +371,11 @@ MOZ_DIAGNOSTIC_ASSERT
 asyncInputStream
 )
 ;
+#
+endif
+/
+/
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 RefPtr
 <
 NonBlockingAsyncInputStream
