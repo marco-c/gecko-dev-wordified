@@ -213,7 +213,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsXMLElement
 Element
 nsIDOMNode
-nsIDOMElement
 )
 JSObject
 *

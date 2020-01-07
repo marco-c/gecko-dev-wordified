@@ -1535,7 +1535,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsSVGElement
 nsSVGElementBase
 nsIDOMNode
-nsIDOMElement
 )
 /
 /
@@ -6630,7 +6629,7 @@ nullptr
 -
 /
 /
-nsIDOMElement
+Element
 methods
 /
 /
@@ -13834,7 +13833,7 @@ do_QueryInterface
 (
 static_cast
 <
-nsIDOMElement
+nsIDOMNode
 *
 >
 (

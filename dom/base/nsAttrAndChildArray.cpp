@@ -365,7 +365,7 @@ Element
 4
 bytes
 for
-nsIDOMElement
+nsIDOMNode
 vtable
 pointer
 .

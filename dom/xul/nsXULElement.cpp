@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h
@@ -1866,7 +1859,6 @@ NS_INTERFACE_TABLE_INHERITED
 (
 nsXULElement
 nsIDOMNode
-nsIDOMElement
 )
 NS_ELEMENT_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_INTERFACE_MAP_ENTRY_TEAROFF

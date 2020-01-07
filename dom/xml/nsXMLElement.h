@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "
@@ -170,7 +170,7 @@ dom
 :
 Element
 public
-nsIDOMElement
+nsIDOMNode
 {
 public
 :

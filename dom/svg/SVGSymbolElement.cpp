@@ -260,7 +260,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 SVGSymbolElement
 SVGSymbolElementBase
 nsIDOMNode
-nsIDOMElement
 mozilla
 :
 :

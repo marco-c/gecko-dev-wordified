@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "
@@ -1679,7 +1679,7 @@ final
 public
 nsStyledElement
 public
-nsIDOMElement
+nsIDOMNode
 {
 public
 :

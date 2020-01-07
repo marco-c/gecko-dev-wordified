@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "
@@ -366,7 +366,7 @@ nsSVGElementBase
 /
 nsIContent
 public
-nsIDOMElement
+nsIDOMNode
 {
 protected
 :
@@ -703,7 +703,6 @@ sMaskMap
 [
 ]
 ;
-NS_DECL_NSIDOMELEMENT
 NS_IMPL_FROMNODE
 (
 nsSVGElement

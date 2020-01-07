@@ -463,7 +463,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 SVGImageElement
 SVGImageElementBase
 nsIDOMNode
-nsIDOMElement
 imgINotificationObserver
 nsIImageLoadingContent
 )
