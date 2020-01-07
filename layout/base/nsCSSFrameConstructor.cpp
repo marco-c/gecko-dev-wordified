@@ -44093,6 +44093,7 @@ nsCSSFrameConstructor
 FindSiblingInternal
 (
 FlattenedChildIterator
+&
 aIter
 nsIContent
 *
@@ -44708,6 +44709,11 @@ Get
 (
 )
 ;
+FlattenedChildIterator
+siblingIter
+=
+aIter
+;
 nsIFrame
 *
 sibling
@@ -44717,7 +44723,7 @@ FindSiblingInternal
 aDirection
 >
 (
-aIter
+siblingIter
 targetContent
 aTargetContentDisplay
 )

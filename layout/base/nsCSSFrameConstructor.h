@@ -14214,6 +14214,19 @@ implementation
 of
 FindSibling
 .
+/
+/
+/
+/
+Beware
+that
+this
+function
+does
+mutate
+the
+iterator
+.
 template
 <
 SiblingDirection
@@ -14229,6 +14242,7 @@ dom
 :
 :
 FlattenedChildIterator
+&
 nsIContent
 *
 aTargetContent
