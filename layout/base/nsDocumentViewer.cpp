@@ -10956,7 +10956,7 @@ nsDocumentViewer
 :
 GetDOMDocument
 (
-nsIDOMDocument
+nsISupports
 *
 *
 aResult
