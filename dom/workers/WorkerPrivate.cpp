@@ -9263,9 +9263,10 @@ principal
 should
 be
 set
-MOZ_DIAGNOSTIC_ASSERT
+NS_ENSURE_TRUE
 (
 mLoadingPrincipal
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 nsIScriptSecurityManager
