@@ -6126,7 +6126,7 @@ WaitResponse
 status
 =
 =
-CVStaus
+CVStatus
 :
 :
 Timeout
