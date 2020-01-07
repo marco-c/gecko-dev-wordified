@@ -275,10 +275,13 @@ TEST_DATA
 const
 animationItemEl
 =
-findAnimationItemElementsByTargetClassName
+findAnimationItemElementsByTargetSelector
 (
 panel
+.
+{
 targetClass
+}
 )
 ;
 info
