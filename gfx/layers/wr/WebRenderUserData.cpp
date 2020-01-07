@@ -488,6 +488,16 @@ reset
 )
 ;
 }
+if
+(
+mImageClient
+)
+{
+mImageClient
+=
+nullptr
+;
+}
 }
 Maybe
 <
