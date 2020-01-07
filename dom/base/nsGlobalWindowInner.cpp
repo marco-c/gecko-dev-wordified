@@ -41946,12 +41946,11 @@ aRv
 if
 (
 !
-ImageBitmap
+DOMPrefs
 :
 :
-ExtensionsEnabled
+ImageBitmapExtensionsEnabled
 (
-aCx
 )
 )
 {
