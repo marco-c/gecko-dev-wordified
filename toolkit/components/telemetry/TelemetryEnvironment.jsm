@@ -9389,6 +9389,14 @@ vendor
 |
 |
 null
+displayVersion
+:
+AppConstants
+.
+MOZ_APP_VERSION_DISPLAY
+|
+|
+null
 platformVersion
 :
 Services
