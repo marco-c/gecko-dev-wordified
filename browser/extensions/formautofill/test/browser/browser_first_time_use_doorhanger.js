@@ -731,6 +731,10 @@ about
 preferences
 #
 privacy
+-
+address
+-
+autofill
 "
 )
 ;
