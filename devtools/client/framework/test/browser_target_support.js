@@ -602,12 +602,7 @@ options
 .
 then
 (
-Task
-.
-async
-(
 testTarget
-)
 .
 bind
 (

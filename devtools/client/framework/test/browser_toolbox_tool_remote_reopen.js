@@ -702,9 +702,6 @@ test
 (
 )
 {
-Task
-.
-spawn
 (
 async
 function
@@ -943,9 +940,8 @@ finish
 )
 ;
 }
-console
-.
-error
+)
+(
 )
 ;
 }
