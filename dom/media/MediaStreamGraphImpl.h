@@ -223,6 +223,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+AsyncLogger
+.
+h
+"
 namespace
 mozilla
 {
