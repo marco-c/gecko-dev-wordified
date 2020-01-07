@@ -4646,8 +4646,6 @@ Ok
 >
 jsop_iter
 (
-uint8_t
-flags
 )
 ;
 AbortReasonOr

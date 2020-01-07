@@ -1782,7 +1782,6 @@ EnumeratedIdVectorToIterator
 (
 cx
 proxy
-0
 props
 )
 ;
