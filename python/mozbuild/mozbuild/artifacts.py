@@ -3443,6 +3443,14 @@ interfaces
 .
 xpt
 '
+        
+'
+firefox
+/
+*
+.
+tlb
+'
     
 }
     
