@@ -1995,7 +1995,7 @@ score
 classmethod
     
 def
-benchmark_score
+ares6_score
 (
 cls
 val_list
@@ -2006,12 +2006,8 @@ val_list
 "
 "
         
-benchmark_score
+ares6_score
 :
-ares6
-/
-jetstream
-self
 reported
 as
 '
@@ -2295,26 +2291,7 @@ ares6
 return
 self
 .
-benchmark_score
-(
-vals
-)
-        
-elif
-testname
-.
-startswith
-(
-'
-jetstream
-'
-)
-:
-            
-return
-self
-.
-benchmark_score
+ares6_score
 (
 vals
 )
