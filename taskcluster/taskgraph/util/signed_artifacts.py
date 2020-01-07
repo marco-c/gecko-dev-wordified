@@ -118,7 +118,11 @@ public
 /
 build
 /
-SOURCE
+source
+.
+tar
+.
+xz
 '
             
 ]

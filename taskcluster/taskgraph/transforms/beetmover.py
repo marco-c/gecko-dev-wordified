@@ -2036,11 +2036,19 @@ source
 [
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 "
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 .
 asc
 "
@@ -2058,11 +2066,19 @@ source
 [
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 "
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 .
 asc
 "
@@ -2080,11 +2096,19 @@ source
 [
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 "
         
 "
-SOURCE
+source
+.
+tar
+.
+xz
 .
 asc
 "
