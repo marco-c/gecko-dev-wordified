@@ -5083,7 +5083,7 @@ containerNode
 textNode
 -
 >
-GetParentNode
+GetFlattenedTreeParentNode
 (
 )
 ;
@@ -5096,7 +5096,7 @@ containerNode
 textNode
 -
 >
-GetOwnerDocument
+OwnerDoc
 (
 )
 !
