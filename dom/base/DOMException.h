@@ -296,10 +296,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 MOZILLA_EXCEPTION_IID
 )
-NS_DEFINE_STATIC_CID_ACCESSOR
-(
-NS_XPCEXCEPTION_CID
-)
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Exception
@@ -561,16 +557,6 @@ aCx
 nsString
 &
 retval
-)
-;
-/
-/
-XPCOM
-factory
-ctor
-.
-Exception
-(
 )
 ;
 Exception
