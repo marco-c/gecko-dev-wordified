@@ -2107,8 +2107,11 @@ bidi
 =
 HasRTLChars
 (
+MakeSpan
+(
 aBuffer
 aLength
+)
 )
 ;
 }
