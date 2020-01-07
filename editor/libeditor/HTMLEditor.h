@@ -318,9 +318,6 @@ class
 nsIClipboard
 ;
 class
-nsIDOMDocument
-;
-class
 nsILinkHandler
 ;
 class

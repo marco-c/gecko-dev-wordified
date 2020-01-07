@@ -465,9 +465,6 @@ class
 nsIContent
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 class
@@ -1514,14 +1511,6 @@ return
 mDocument
 ;
 }
-already_AddRefed
-<
-nsIDOMDocument
->
-GetDOMDocument
-(
-)
-;
 nsIDocument
 *
 GetDocument

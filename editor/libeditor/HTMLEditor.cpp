@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDocumentInlines
 .
 h
