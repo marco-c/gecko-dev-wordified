@@ -106,6 +106,13 @@ data
 JSScript
 *
 script
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 {
 unsigned
