@@ -1937,16 +1937,15 @@ TrustedEventsAtSystemGroupBubble
 )
 ;
 }
-already_AddRefed
-<
 nsIPresShell
->
+*
 EditorEventListener
 :
 :
 GetPresShell
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1973,6 +1972,7 @@ EditorEventListener
 GetPresContext
 (
 )
+const
 {
 nsCOMPtr
 <
