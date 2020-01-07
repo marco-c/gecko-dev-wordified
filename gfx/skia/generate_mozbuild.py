@@ -2373,10 +2373,6 @@ SkInterpolator
 '
     
 '
-SkMD5
-'
-    
-'
 SkMultiPictureDocument
 '
     
@@ -2772,21 +2768,9 @@ set
 pdf
 '
 :
-{
-      
-'
-skia
-/
-src
-/
-core
-/
-SkMD5
-.
-cpp
-'
-    
-}
+set
+(
+)
     
 '
 gpu
