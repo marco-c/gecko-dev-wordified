@@ -3606,6 +3606,7 @@ MarginsMayNotCollapse
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -11288,7 +11289,7 @@ Au
 >
 )
 {
-debug_assert
+debug_assert_ne
 !
 (
 self
@@ -11296,8 +11297,6 @@ self
 formatting_context_type
 (
 )
-!
-=
 FormattingContextType
 :
 :

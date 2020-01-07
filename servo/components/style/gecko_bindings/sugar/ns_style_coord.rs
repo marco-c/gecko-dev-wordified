@@ -2266,7 +2266,7 @@ self
 mut
 nsStyleCoord_Calc
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -2274,8 +2274,6 @@ self
 unit
 (
 )
-=
-=
 nsStyleUnit
 :
 :
@@ -2883,7 +2881,7 @@ self
 >
 nsStyleCoord_CalcValue
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -2891,8 +2889,6 @@ self
 unit
 (
 )
-=
-=
 nsStyleUnit
 :
 :
@@ -2941,7 +2937,7 @@ self
 &
 nsStyleCoord_Calc
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -2949,8 +2945,6 @@ self
 unit
 (
 )
-=
-=
 nsStyleUnit
 :
 :

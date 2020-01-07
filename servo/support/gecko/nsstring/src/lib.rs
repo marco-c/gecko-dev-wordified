@@ -3723,14 +3723,12 @@ is_null
 (
 )
 {
-debug_assert
+debug_assert_eq
 !
 (
 this
 .
 length
-=
-=
 0
 )
 ;

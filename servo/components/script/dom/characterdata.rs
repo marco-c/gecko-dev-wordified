@@ -2631,7 +2631,7 @@ get
 .
 replace_surrogates
 {
-debug_assert
+debug_assert_eq
 !
 (
 c
@@ -2639,8 +2639,6 @@ c
 len_utf8
 (
 )
-=
-=
 4
 )
 ;

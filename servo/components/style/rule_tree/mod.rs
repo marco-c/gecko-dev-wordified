@@ -602,7 +602,7 @@ should
 be
 empty
 .
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -622,8 +622,6 @@ Ordering
 :
 Relaxed
 )
-=
-=
 FREE_LIST_SENTINEL
 )
 ;
@@ -6531,7 +6529,7 @@ RuleNode
 >
 Self
 {
-debug_assert
+debug_assert_eq
 !
 (
 n
@@ -6541,8 +6539,6 @@ parent
 is_none
 (
 )
-=
-=
 !
 n
 .
@@ -8192,7 +8188,7 @@ Ordering
 Relaxed
 )
 ;
-debug_assert
+debug_assert_eq
 !
 (
 me
@@ -8206,8 +8202,6 @@ Ordering
 :
 Relaxed
 )
-=
-=
 FREE_LIST_SENTINEL
 )
 ;

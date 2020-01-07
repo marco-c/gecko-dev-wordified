@@ -5597,7 +5597,7 @@ unscanned_ellipsis_fragments
 }
 )
 ;
-debug_assert
+debug_assert_eq
 !
 (
 ellipsis_fragments
@@ -5605,8 +5605,6 @@ ellipsis_fragments
 len
 (
 )
-=
-=
 1
 )
 ;

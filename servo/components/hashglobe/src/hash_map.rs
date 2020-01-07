@@ -5165,7 +5165,7 @@ next
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 probe
@@ -5173,8 +5173,6 @@ probe
 index
 (
 )
-!
-=
 idx_end
 )
 ;
@@ -5756,7 +5754,7 @@ next
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 buckets
@@ -5764,8 +5762,6 @@ buckets
 index
 (
 )
-!
-=
 start_index
 )
 ;

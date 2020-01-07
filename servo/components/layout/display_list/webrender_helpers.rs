@@ -1728,14 +1728,12 @@ item
 .
 stacking_context
 ;
-debug_assert
+debug_assert_eq
 !
 (
 stacking_context
 .
 context_type
-=
-=
 StackingContextType
 :
 :

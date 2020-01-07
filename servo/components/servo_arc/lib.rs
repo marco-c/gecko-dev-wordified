@@ -5388,7 +5388,7 @@ the
 buffer
 exactly
 .
-debug_assert
+debug_assert_eq
 !
 (
 current
@@ -5396,8 +5396,6 @@ as
 *
 mut
 u8
-=
-=
 buffer
 .
 offset

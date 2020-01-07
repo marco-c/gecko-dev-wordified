@@ -6774,12 +6774,10 @@ rev
 (
 )
 {
-debug_assert
+debug_assert_eq
 !
 (
 fragment_index
-=
-=
 (
 self
 .
