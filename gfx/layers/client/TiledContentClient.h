@@ -943,6 +943,10 @@ const
 nsIntRegion
 &
 aDirtyRegion
+const
+nsIntRegion
+&
+aVisibleRegion
 gfxContentType
 aContent
 SurfaceMode
@@ -1213,6 +1217,10 @@ const
 nsIntRegion
 &
 aDirtyRegion
+const
+nsIntRegion
+&
+aVisibleRegion
 nsIntRegion
 &
 aAddPaintedRegion
