@@ -3941,9 +3941,6 @@ the
 id
 |
 |
-ref
-|
-|
 persist
 |
 |
@@ -3975,17 +3972,6 @@ nsGkAtoms
 :
 :
 id
-)
-|
-|
-(
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-ref
 )
 |
 |
