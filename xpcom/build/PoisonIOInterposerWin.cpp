@@ -2236,8 +2236,8 @@ sIOPoisoned
 false
 ;
 sNtDllInterceptor
-=
-WindowsDllInterceptor
+.
+Clear
 (
 )
 ;
