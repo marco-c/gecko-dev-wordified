@@ -285,7 +285,7 @@ identifier
 or
 return
 an
-UnexpectedIndent
+UnexpectedIdent
 error
 /
 /
