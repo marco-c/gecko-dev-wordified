@@ -3517,10 +3517,6 @@ OpaqueNode
 pseudo
 :
 PseudoElementType
-<
-(
-)
->
 style
 :
 :
@@ -3884,10 +3880,6 @@ OpaqueNode
 pseudo
 :
 PseudoElementType
-<
-(
-)
->
 style
 :
 :

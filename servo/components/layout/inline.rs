@@ -13628,10 +13628,6 @@ pub
 pseudo
 :
 PseudoElementType
-<
-(
-)
->
 pub
 flags
 :

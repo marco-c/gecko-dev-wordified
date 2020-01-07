@@ -1390,10 +1390,6 @@ pub
 pseudo
 :
 PseudoElementType
-<
-(
-)
->
 /
 /
 /
@@ -4660,10 +4656,6 @@ node
 get_pseudo_element_type
 (
 )
-.
-strip
-(
-)
 flags
 :
 FragmentFlags
@@ -4713,10 +4705,6 @@ OpaqueNode
 pseudo
 :
 PseudoElementType
-<
-(
-)
->
 style
 :
 ServoArc
