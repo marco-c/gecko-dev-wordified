@@ -2399,7 +2399,10 @@ Typedefs
 typedef
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsSMILTimeValueSpec
 >
