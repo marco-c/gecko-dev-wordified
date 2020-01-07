@@ -680,7 +680,7 @@ return
 mHeader
 -
 >
-num_interfaces
+mNumInterfaces
 ;
 }
 void
