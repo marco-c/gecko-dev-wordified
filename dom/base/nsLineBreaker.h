@@ -123,6 +123,17 @@ NSLINEBREAKER_H_
 #
 include
 "
+mozilla
+/
+intl
+/
+LineBreaker
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
