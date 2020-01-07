@@ -206,10 +206,6 @@ macro_export
 ]
 #
 [
-allow_internal_unstable
-]
-#
-[
 doc
 (
 hidden
