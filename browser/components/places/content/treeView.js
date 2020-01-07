@@ -12281,7 +12281,7 @@ PlacesUtils
 .
 isQueryGeneratedFolder
 (
-itemGuid
+node
 )
 )
 return
