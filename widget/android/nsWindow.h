@@ -845,7 +845,7 @@ GeckoBundle
 :
 :
 GlobalRef
-mSettings
+mInitData
 ;
 }
 ;

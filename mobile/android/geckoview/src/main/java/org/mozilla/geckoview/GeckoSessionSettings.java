@@ -1086,12 +1086,16 @@ package
 *
 /
 GeckoBundle
-asBundle
+toBundle
 (
 )
 {
 return
+new
+GeckoBundle
+(
 mBundle
+)
 ;
 }
 Override
