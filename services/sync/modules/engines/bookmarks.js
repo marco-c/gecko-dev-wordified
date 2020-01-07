@@ -4970,8 +4970,6 @@ _processIncoming
 newitems
 )
 {
-try
-{
 await
 super
 .
@@ -4980,9 +4978,6 @@ _processIncoming
 newitems
 )
 ;
-}
-finally
-{
 let
 buf
 =
@@ -5021,7 +5016,6 @@ replace
 recordsToUpload
 )
 ;
-}
 }
 async
 _reconcile
