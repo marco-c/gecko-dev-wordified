@@ -708,7 +708,7 @@ IntrinsicGuardToStringIterator
 \
 _
 (
-IntrinsicIsMapObject
+IntrinsicGuardToMapObject
 )
 \
 _
