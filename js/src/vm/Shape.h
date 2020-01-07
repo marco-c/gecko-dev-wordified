@@ -6515,17 +6515,6 @@ flags
 OVERWRITTEN
 ;
 }
-void
-update
-(
-GetterOp
-getter
-SetterOp
-setter
-uint8_t
-attrs
-)
-;
 bool
 matches
 (
