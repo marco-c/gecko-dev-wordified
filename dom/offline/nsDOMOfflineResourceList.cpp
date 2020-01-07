@@ -2447,16 +2447,6 @@ return
 NS_OK
 ;
 }
-/
-/
-/
-/
-nsDOMOfflineResourceList
-:
-:
-nsIDOMEventTarget
-/
-/
 void
 nsDOMOfflineResourceList
 :

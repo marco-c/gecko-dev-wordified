@@ -7911,11 +7911,7 @@ aTracingNeeded
 |
 HasNothingToTrace
 (
-static_cast
-<
-nsIDOMEventTarget
-*
->
+ToSupports
 (
 this
 )

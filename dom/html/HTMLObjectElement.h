@@ -214,7 +214,7 @@ ifdef
 XP_MACOSX
 /
 /
-nsIDOMEventTarget
+EventTarget
 NS_IMETHOD
 PostHandleEvent
 (

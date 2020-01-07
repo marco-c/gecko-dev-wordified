@@ -574,11 +574,7 @@ mInputStream
 >
 AddConsumerToKeepAlive
 (
-static_cast
-<
-nsIDOMEventTarget
-*
->
+ToSupports
 (
 this
 )

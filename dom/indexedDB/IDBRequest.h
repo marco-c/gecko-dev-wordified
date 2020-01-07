@@ -902,7 +902,7 @@ NoteComplete
 ;
 /
 /
-nsIDOMEventTarget
+EventTarget
 virtual
 nsresult
 PostHandleEvent

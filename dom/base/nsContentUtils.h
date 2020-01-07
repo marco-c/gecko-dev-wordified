@@ -8697,7 +8697,7 @@ be
 QIable
 to
 *
-nsIDOMEventTarget
+EventTarget
 .
 *
 param
@@ -8739,7 +8739,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent
@@ -8855,7 +8855,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent
@@ -8996,7 +8996,7 @@ be
 QIable
 to
 *
-nsIDOMEventTarget
+EventTarget
 .
 *
 param
@@ -9038,7 +9038,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent
@@ -9154,7 +9154,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent
@@ -9408,7 +9408,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent
@@ -9620,7 +9620,7 @@ be
 QIable
 to
 *
-nsIDOMEventTarget
+EventTarget
 .
 *
 param
@@ -9662,7 +9662,7 @@ be
 taken
 *
 see
-nsIDOMEventTarget
+EventTarget
 :
 :
 DispatchEvent

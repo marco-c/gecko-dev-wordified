@@ -236,9 +236,6 @@ class
 nsIContent
 ;
 class
-nsIDOMEventTarget
-;
-class
 nsPresContext
 ;
 namespace
