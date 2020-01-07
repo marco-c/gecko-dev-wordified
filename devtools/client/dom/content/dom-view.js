@@ -210,9 +210,7 @@ require
 /
 components
 /
-main
--
-frame
+MainFrame
 "
 )
 )

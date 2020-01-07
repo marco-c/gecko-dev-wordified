@@ -219,9 +219,7 @@ require
 "
 .
 /
-dom
--
-tree
+DomTree
 "
 )
 )
@@ -236,9 +234,7 @@ require
 "
 .
 /
-main
--
-toolbar
+MainToolbar
 "
 )
 )
