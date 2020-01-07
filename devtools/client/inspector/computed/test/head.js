@@ -1157,7 +1157,7 @@ text
 ;
 view
 .
-_contextmenu
+contextMenu
 .
 _onSelectAll
 (

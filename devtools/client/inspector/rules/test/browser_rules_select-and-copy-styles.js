@@ -813,7 +813,7 @@ value
 ;
 view
 .
-_contextmenu
+contextMenu
 .
 _onSelectAll
 (
