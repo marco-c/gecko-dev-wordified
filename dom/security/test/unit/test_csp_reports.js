@@ -887,7 +887,6 @@ uri
 "
 :
 "
-self
 "
 }
 false
@@ -978,7 +977,6 @@ uri
 "
 :
 "
-self
 "
 /
 /
@@ -1278,7 +1276,6 @@ uri
 "
 :
 "
-self
 "
 }
 true
@@ -1403,7 +1400,6 @@ uri
 "
 :
 "
-self
 "
 }
 true
