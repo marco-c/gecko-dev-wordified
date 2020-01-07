@@ -3873,9 +3873,6 @@ aCompleted
 nsresult
 DoParseSheetServo
 (
-StyleSheet
-*
-aSheet
 const
 nsACString
 &
