@@ -395,7 +395,7 @@ mApzc
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 )
 {
@@ -430,7 +430,7 @@ mApzc
 ScrollDirection
 :
 :
-VERTICAL
+eVertical
 )
 )
 {

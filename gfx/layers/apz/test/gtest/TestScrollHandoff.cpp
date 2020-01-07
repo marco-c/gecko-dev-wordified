@@ -1424,7 +1424,7 @@ AssertAxisLocked
 ScrollDirection
 :
 :
-VERTICAL
+eVertical
 )
 ;
 }

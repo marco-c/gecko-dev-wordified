@@ -508,7 +508,7 @@ layers
 ScrollDirection
 :
 :
-NONE
+eVertical
 mozilla
 :
 :
