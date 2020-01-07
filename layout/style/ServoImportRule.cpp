@@ -630,7 +630,7 @@ return
 mChildSheet
 ;
 }
-NS_IMETHODIMP
+void
 ServoImportRule
 :
 :
@@ -640,6 +640,7 @@ nsAString
 &
 aHref
 )
+const
 {
 Servo_ImportRule_GetHref
 (
@@ -647,9 +648,6 @@ mRawRule
 &
 aHref
 )
-;
-return
-NS_OK
 ;
 }
 /

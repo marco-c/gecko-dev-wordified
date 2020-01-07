@@ -9035,15 +9035,6 @@ while
 parentStyleSheet
 .
 ownerRule
-&
-&
-parentStyleSheet
-.
-ownerRule
-instanceof
-Ci
-.
-nsIDOMCSSImportRule
 )
 {
 parentStyleSheet
