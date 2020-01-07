@@ -1609,6 +1609,13 @@ mPCHandle
 aPCHandle
 ;
 }
+virtual
+void
+DeleteStreams
+(
+)
+override
+;
 unsigned
 int
 SendingMaxFs
@@ -1735,12 +1742,6 @@ InitMain
 virtual
 MediaConduitErrorCode
 Init
-(
-)
-;
-virtual
-void
-Destroy
 (
 )
 ;
