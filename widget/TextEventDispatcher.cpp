@@ -444,7 +444,7 @@ keypress
 "
 dispatch_non_printable_keys_only_system_group_in_content
 "
-true
+false
 )
 ;
 sInitialized
