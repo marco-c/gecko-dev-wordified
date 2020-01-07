@@ -258,9 +258,6 @@ in
 synchronous
 samples
 .
-double
-firstSampleTimeIgnored
-;
 StreamSamplesAndMarkers
 (
 mName
@@ -299,8 +296,6 @@ aSinceTime
 *
 /
 0
-&
-firstSampleTimeIgnored
 /
 *
 aContext
@@ -313,14 +308,6 @@ aSavedStreamedSamples
 *
 /
 nullptr
-/
-*
-aFirstSavedStreamedSampleTime
-*
-/
-0
-.
-0
 /
 *
 aSavedStreamedMarkers
