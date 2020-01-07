@@ -5502,7 +5502,7 @@ test
 "
 WebRenderHitTest
 bool
-false
+true
 )
 ;
 /
