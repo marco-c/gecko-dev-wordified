@@ -7079,15 +7079,6 @@ GetRootNodeOptions
 aOptions
 )
 ;
-/
-*
-*
-*
-See
-nsIDOMEventTarget
-*
-/
-NS_DECL_NSIDOMEVENTTARGET
 virtual
 mozilla
 :

@@ -474,10 +474,6 @@ nsISupports
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMEventTarget
-)
-NS_INTERFACE_MAP_ENTRY
-(
 dom
 :
 :

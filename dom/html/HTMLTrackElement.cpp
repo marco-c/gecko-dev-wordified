@@ -286,13 +286,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

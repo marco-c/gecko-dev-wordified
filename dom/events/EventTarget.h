@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsISupports
 .
 h
 "
@@ -168,6 +168,9 @@ nsPIDOMWindowOuter
 ;
 class
 nsIGlobalObject
+;
+class
+nsIDOMEventListener
 ;
 namespace
 mozilla
@@ -245,7 +248,7 @@ class
 EventTarget
 :
 public
-nsIDOMEventTarget
+nsISupports
 public
 nsWrapperCache
 {

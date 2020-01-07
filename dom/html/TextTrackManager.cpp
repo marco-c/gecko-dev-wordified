@@ -1782,7 +1782,7 @@ VTYPE_INTERFACE
 &
 NS_GET_IID
 (
-nsIDOMEventTarget
+EventTarget
 )
 showingCues
 .
