@@ -1087,6 +1087,12 @@ nsIChannelEventSink
 REDIRECT_PERMANENT
 ;
 }
+PropagateReferenceIfNeeded
+(
+mURI
+redirectURI
+)
+;
 bool
 rewriteToGET
 =
