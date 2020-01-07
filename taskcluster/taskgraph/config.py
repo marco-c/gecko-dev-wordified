@@ -293,6 +293,26 @@ scriptworker
 {
         
 #
+Prefix
+to
+add
+to
+scopes
+controlling
+scriptworkers
+        
+Required
+(
+'
+scope
+-
+prefix
+'
+)
+:
+basestring
+        
+#
 Mapping
 of
 scriptworker
