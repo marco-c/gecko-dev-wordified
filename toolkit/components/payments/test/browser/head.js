@@ -1113,8 +1113,6 @@ initialize
 (
 )
 ;
-SimpleTest
-.
 registerCleanupFunction
 (
 function
