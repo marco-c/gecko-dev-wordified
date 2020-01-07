@@ -392,6 +392,7 @@ font
 {
 FontSize
 FontSizeAdjust
+FontStretch
 FontSynthesis
 FontVariantAlternates
 FontWeight
