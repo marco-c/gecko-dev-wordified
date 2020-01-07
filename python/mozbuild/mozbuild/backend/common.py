@@ -128,6 +128,8 @@ GeneratedSources
     
 GeneratedWebIDLFile
     
+GnProjectData
+    
 PreprocessedIPDLFile
     
 PreprocessedTestWebIDLFile
@@ -2066,6 +2068,34 @@ objdir_files
             
 return
 False
+        
+elif
+isinstance
+(
+obj
+GnProjectData
+)
+:
+            
+#
+These
+are
+only
+handled
+by
+special
+purpose
+build
+backends
+            
+#
+ignore
+them
+here
+.
+            
+return
+True
         
 else
 :
