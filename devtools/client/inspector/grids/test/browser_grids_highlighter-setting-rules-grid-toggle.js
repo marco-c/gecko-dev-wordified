@@ -379,7 +379,6 @@ highlighter
 shown
 "
 (
-event
 nodeFront
 options
 )
