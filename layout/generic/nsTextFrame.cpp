@@ -37078,7 +37078,7 @@ nsRect
 }
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 Style
 (
@@ -37087,7 +37087,7 @@ Style
 bool
 isTextCombined
 =
-computedStyle
+styleContext
 -
 >
 IsTextCombined
@@ -37099,7 +37099,7 @@ if
 isTextCombined
 )
 {
-computedStyle
+styleContext
 =
 GetParent
 (
@@ -37122,7 +37122,7 @@ nsLayoutUtils
 :
 GetFontMetricsOfEmphasisMarks
 (
-computedStyle
+styleContext
 GetFontSizeInflation
 (
 )
@@ -37144,7 +37144,7 @@ GenerateTextRunForEmphasisMarks
 (
 this
 fm
-computedStyle
+styleContext
 styleText
 )
 ;

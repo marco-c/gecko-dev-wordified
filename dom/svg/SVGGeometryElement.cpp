@@ -849,7 +849,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 nsComputedDOMStyle
 :
@@ -862,12 +862,12 @@ nullptr
 ;
 if
 (
-computedStyle
+styleContext
 )
 {
 MOZ_ASSERT
 (
-computedStyle
+styleContext
 -
 >
 StyleSVG
@@ -884,7 +884,7 @@ StyleFillRule
 Nonzero
 |
 |
-computedStyle
+styleContext
 -
 >
 StyleSVG
@@ -903,7 +903,7 @@ Evenodd
 ;
 if
 (
-computedStyle
+styleContext
 -
 >
 StyleSVG

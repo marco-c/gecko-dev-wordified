@@ -994,6 +994,15 @@ include
 "
 mozilla
 /
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -30020,7 +30029,7 @@ aInflation
 {
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 aFrame
 -
@@ -30036,7 +30045,7 @@ NS_FONT_VARIANT_WIDTH_NORMAL
 ;
 if
 (
-computedStyle
+styleContext
 -
 >
 IsTextCombined
@@ -30122,7 +30131,7 @@ NS_FONT_VARIANT_WIDTH_QUARTER
 return
 GetFontMetricsForComputedStyle
 (
-computedStyle
+styleContext
 aInflation
 variantWidth
 )

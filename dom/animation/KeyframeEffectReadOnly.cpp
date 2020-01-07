@@ -5928,7 +5928,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 ;
 if
 (
@@ -6048,7 +6048,7 @@ bug
 is
 fixed
 .
-computedStyle
+styleContext
 =
 GetTargetComputedStyle
 (
@@ -6417,9 +6417,9 @@ ComputedStyle
 *
 servoComputedStyle
 =
-computedStyle
+styleContext
 ?
-computedStyle
+styleContext
 -
 >
 AsServo

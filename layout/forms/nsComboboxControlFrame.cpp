@@ -9480,7 +9480,8 @@ StyleSet
 /
 create
 the
-ComputedStyle
+style
+contexts
 for
 the
 anonymous
@@ -9493,9 +9494,9 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 ;
-computedStyle
+styleContext
 =
 styleSet
 -
@@ -9543,7 +9544,7 @@ shell
 )
 nsComboboxDisplayFrame
 (
-computedStyle
+styleContext
 this
 )
 ;

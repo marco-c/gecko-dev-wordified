@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -1130,7 +1139,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 nsComputedDOMStyle
 :
@@ -1143,7 +1152,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-computedStyle
+styleContext
 )
 ;
 RefPtr
@@ -1199,7 +1208,7 @@ ComputeAnimationValue
 (
 aElement
 declarations
-computedStyle
+styleContext
 )
 ;
 return

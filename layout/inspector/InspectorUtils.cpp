@@ -1167,7 +1167,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 GetCleanComputedStyleForElement
 (
@@ -1179,7 +1179,7 @@ pseudoElt
 if
 (
 !
-computedStyle
+styleContext
 )
 {
 /
@@ -1252,7 +1252,7 @@ ComputedStyle
 *
 servo
 =
-computedStyle
+styleContext
 -
 >
 AsServo
@@ -5515,7 +5515,12 @@ EnsureSafeToHandOutCSSRules
 (
 )
 ;
-return
+RefPtr
+<
+ComputedStyle
+>
+styleContext
+=
 nsComputedDOMStyle
 :
 :
@@ -5523,6 +5528,13 @@ GetComputedStyle
 (
 aElement
 aPseudo
+)
+;
+return
+styleContext
+.
+forget
+(
 )
 ;
 }
