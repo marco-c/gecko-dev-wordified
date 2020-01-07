@@ -561,6 +561,16 @@ Command
 #
 #
 aName
+#
+define
+NS_DEFINE_COMMAND_NO_EXEC_COMMAND
+(
+aName
+)
+Command
+#
+#
+aName
 typedef
 int8_t
 CommandInt
@@ -585,6 +595,9 @@ h
 #
 undef
 NS_DEFINE_COMMAND
+#
+undef
+NS_DEFINE_COMMAND_NO_EXEC_COMMAND
 const
 char
 *
