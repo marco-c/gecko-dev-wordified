@@ -798,9 +798,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )

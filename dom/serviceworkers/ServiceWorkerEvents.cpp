@@ -478,16 +478,6 @@ mozilla
 :
 dom
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 namespace
 {
 void

@@ -246,10 +246,6 @@ ipc
 namespace
 dom
 {
-using
-namespace
-workers
-;
 BroadcastChannelChild
 :
 :

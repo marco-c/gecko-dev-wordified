@@ -554,16 +554,6 @@ dom
 :
 exceptions
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 namespace
 mozilla
 {

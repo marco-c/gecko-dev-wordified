@@ -1259,9 +1259,6 @@ nsISupports
 aContext
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1699,9 +1696,6 @@ nsresult
 aStatusCode
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2234,9 +2228,6 @@ FetchDriverObserver
 aObserver
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -5096,9 +5087,6 @@ nsresult
 rv
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -5174,9 +5162,6 @@ nsISupports
 aContext
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -7538,9 +7523,6 @@ nsresult
 aStatusCode
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -7909,9 +7891,6 @@ AlternativeDataStreamListener
 aAltDataListener
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

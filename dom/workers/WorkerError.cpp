@@ -757,7 +757,7 @@ if
 globalScope
 |
 |
-IsDebuggerSandbox
+IsWorkerDebuggerSandbox
 (
 global
 )
@@ -2306,7 +2306,7 @@ if
 globalScope
 |
 |
-IsDebuggerSandbox
+IsWorkerDebuggerSandbox
 (
 global
 )

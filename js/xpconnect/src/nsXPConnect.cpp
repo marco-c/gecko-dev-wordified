@@ -7302,16 +7302,12 @@ realm
 )
 ;
 }
-namespace
-workers
-{
 extern
 bool
 IsCurrentThreadRunningChromeWorker
 (
 )
 ;
-}
 bool
 ThreadSafeIsChromeOrXBL
 (
@@ -7339,9 +7335,6 @@ obj
 ;
 }
 return
-workers
-:
-:
 IsCurrentThreadRunningChromeWorker
 (
 )

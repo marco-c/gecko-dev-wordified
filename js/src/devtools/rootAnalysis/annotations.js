@@ -1873,9 +1873,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 :
 :

@@ -235,10 +235,6 @@ namespace
 dom
 {
 using
-namespace
-workers
-;
-using
 mozilla
 :
 :

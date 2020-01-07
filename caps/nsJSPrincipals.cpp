@@ -183,7 +183,7 @@ mozilla
 dom
 :
 :
-workers
+workerinternals
 :
 :
 kJSPrincipalsDebugToken

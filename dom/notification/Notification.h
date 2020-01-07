@@ -2032,9 +2032,6 @@ nsAString
 aRetval
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

@@ -403,16 +403,6 @@ undef
 PostMessage
 #
 endif
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 namespace
 mozilla
 {

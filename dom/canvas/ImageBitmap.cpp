@@ -277,10 +277,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ImageBitmap

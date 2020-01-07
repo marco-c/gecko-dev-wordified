@@ -609,16 +609,6 @@ mozilla
 :
 net
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 namespace
 mozilla
 {

@@ -5337,15 +5337,6 @@ LegacyIsCallerChromeOrNativeCode
 (
 )
 :
-mozilla
-:
-:
-dom
-:
-:
-workers
-:
-:
 IsCurrentThreadRunningChromeWorker
 (
 )

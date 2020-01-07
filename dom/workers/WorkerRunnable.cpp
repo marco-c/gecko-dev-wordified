@@ -1270,7 +1270,7 @@ JSContext
 *
 cx
 =
-GetCurrentThreadJSContext
+GetCurrentWorkerThreadJSContext
 (
 )
 ;
@@ -2667,9 +2667,6 @@ mResult
 aResult
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3282,9 +3279,6 @@ Run
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3696,9 +3690,6 @@ Run
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

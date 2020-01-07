@@ -2810,9 +2810,6 @@ aPromise
 )
 )
 :
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )
@@ -4173,9 +4170,6 @@ WorkerPrivate
 *
 worker
 =
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )
@@ -4416,9 +4410,6 @@ WorkerPrivate
 *
 worker
 =
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )
