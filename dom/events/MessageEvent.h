@@ -251,13 +251,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 MessageEvent
 Event
 )
-/
-/
-Forward
-to
-base
-class
-NS_FORWARD_TO_EVENT
 virtual
 JSObject
 *

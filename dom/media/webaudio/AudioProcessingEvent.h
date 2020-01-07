@@ -172,7 +172,6 @@ aEvent
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_FORWARD_TO_EVENT
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AudioProcessingEvent
@@ -196,6 +195,12 @@ JSObject
 aGivenProto
 )
 override
+;
+using
+Event
+:
+:
+InitEvent
 ;
 void
 InitEvent
