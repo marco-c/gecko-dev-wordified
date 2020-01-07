@@ -7769,7 +7769,7 @@ nsAString
 &
 aInnerHTML
 nsIPrincipal
-*
+&
 aSubjectPrincipal
 ErrorResult
 &
@@ -9189,7 +9189,7 @@ nsAString
 &
 aValue
 nsIPrincipal
-*
+&
 aTriggeringPrincipal
 ErrorResult
 &
@@ -9203,6 +9203,7 @@ SetAttr
 kNameSpaceID_None
 aAttr
 aValue
+&
 aTriggeringPrincipal
 true
 )

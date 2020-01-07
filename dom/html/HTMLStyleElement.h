@@ -225,7 +225,7 @@ nsAString
 &
 aInnerHTML
 nsIPrincipal
-*
+&
 aSubjectPrincipal
 mozilla
 :

@@ -8766,7 +8766,7 @@ nsAString
 &
 aTextContent
 nsIPrincipal
-*
+&
 aSubjectPrincipal
 mozilla
 :
@@ -8779,6 +8779,7 @@ aError
 SetTextContentInternal
 (
 aTextContent
+&
 aSubjectPrincipal
 aError
 )

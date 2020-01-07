@@ -4000,7 +4000,7 @@ nsAString
 &
 aValue
 nsIPrincipal
-*
+&
 aTriggeringPrincipal
 ErrorResult
 &
