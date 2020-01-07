@@ -27335,7 +27335,7 @@ true
 }
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 ContainsEMEContent
@@ -27443,7 +27443,7 @@ true
 }
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 ContainsMSEContent
@@ -45960,7 +45960,7 @@ DEBUG_PAGE_CACHE
 #
 endif
 bool
-nsDocument
+nsIDocument
 :
 :
 CanSavePresentation

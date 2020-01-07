@@ -12746,8 +12746,6 @@ nsIRequest
 *
 aNewRequest
 )
-=
-0
 ;
 /
 *
@@ -20646,6 +20644,16 @@ const
 ;
 protected
 :
+bool
+ContainsEMEContent
+(
+)
+;
+bool
+ContainsMSEContent
+(
+)
+;
 void
 MaybeInitializeFinalizeFrameLoaders
 (
