@@ -1072,6 +1072,15 @@ IDBWrapperCache
 )
 /
 /
+DOMEventTargetHelper
+void
+DisconnectFromOwner
+(
+)
+override
+;
+/
+/
 nsIDOMEventTarget
 virtual
 void
