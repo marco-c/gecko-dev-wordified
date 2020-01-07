@@ -6706,7 +6706,7 @@ append
 (
 mpf
 .
-chunk_by_slice
+chunk_by_manifest
 (
 options
 .
