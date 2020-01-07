@@ -1140,9 +1140,14 @@ throw
 new
 Error
 (
-"
 Missing
-"
+implementation
+for
+{
+action
+.
+name
+}
 )
 ;
 }
