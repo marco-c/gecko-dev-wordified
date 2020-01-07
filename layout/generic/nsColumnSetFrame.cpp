@@ -1856,10 +1856,6 @@ GetColumnGap
 nsColumnSetFrame
 *
 aFrame
-const
-nsStyleColumn
-*
-aColStyle
 nscoord
 aPercentageBasis
 )
@@ -1869,7 +1865,12 @@ auto
 &
 columnGap
 =
-aColStyle
+aFrame
+-
+>
+StylePosition
+(
+)
 -
 >
 mColumnGap
@@ -2116,7 +2117,6 @@ colGap
 GetColumnGap
 (
 this
-colStyle
 aReflowInput
 .
 ComputedISize
@@ -3461,7 +3461,6 @@ colGap
 GetColumnGap
 (
 this
-colStyle
 NS_UNCONSTRAINEDSIZE
 )
 ;
@@ -3635,7 +3634,6 @@ colGap
 GetColumnGap
 (
 this
-colStyle
 NS_UNCONSTRAINEDSIZE
 )
 ;
