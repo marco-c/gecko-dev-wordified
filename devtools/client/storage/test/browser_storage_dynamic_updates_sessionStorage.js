@@ -491,7 +491,7 @@ finishTests
 }
 )
 ;
-asyn
+async
 function
 setSessionStorageItem
 (
