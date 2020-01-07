@@ -751,7 +751,7 @@ initial_value
 computed
 :
 :
-NonNegativePercentage
+FontStretch
 :
 :
 hundred
@@ -2845,6 +2845,7 @@ font
 :
 {
 FontSize
+FontStretch
 FontStyle
 FontFamilyList
 }
@@ -2987,6 +2988,8 @@ weight
 let
 font_stretch
 =
+FontStretch
+(
 NonNegative
 (
 Percentage
@@ -3003,6 +3006,7 @@ system
 stretch
 )
 }
+)
 )
 )
 ;
