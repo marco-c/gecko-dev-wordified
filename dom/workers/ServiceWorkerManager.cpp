@@ -12682,11 +12682,6 @@ Other
 )
 )
 ;
-if
-(
-clientHandle
-)
-{
 ref
 =
 Move
@@ -12705,7 +12700,6 @@ Descriptor
 )
 )
 ;
-}
 }
 }
 Telemetry
@@ -14659,11 +14653,6 @@ Other
 )
 )
 ;
-if
-(
-clientHandle
-)
-{
 clientHandle
 -
 >
@@ -14677,7 +14666,6 @@ Descriptor
 )
 )
 ;
-}
 }
 /
 /
