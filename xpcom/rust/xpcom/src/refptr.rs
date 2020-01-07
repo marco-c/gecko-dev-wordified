@@ -607,7 +607,6 @@ outparameter
 inline
 ]
 pub
-unsafe
 fn
 forget
 (
@@ -627,10 +626,6 @@ into
 &
 *
 self
-as
-*
-const
-T
 ;
 mem
 :
