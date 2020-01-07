@@ -1803,7 +1803,7 @@ final
 boolean
 pocketEnabled
 =
-ActivityStreamPanel
+ActivityStreamConfiguration
 .
 isPocketRecommendingTopSites
 (
