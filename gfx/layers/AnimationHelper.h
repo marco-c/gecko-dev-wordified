@@ -162,6 +162,15 @@ h
 /
 for
 TimeStamp
+#
+include
+"
+mozilla
+/
+TimingParams
+.
+h
+"
 namespace
 mozilla
 {
@@ -216,6 +225,9 @@ ComputedTimingFunction
 >
 >
 mFunctions
+;
+TimingParams
+mTiming
 ;
 }
 ;
