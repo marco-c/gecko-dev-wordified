@@ -3286,6 +3286,7 @@ MacBook
 ;
 if
 (
+!
 strncmp
 (
 model
@@ -3298,9 +3299,7 @@ offset
 "
 Air
 "
-len
--
-offset
+3
 )
 |
 |
