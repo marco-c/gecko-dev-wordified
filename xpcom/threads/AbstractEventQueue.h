@@ -152,6 +152,7 @@ High
 Input
 Normal
 Idle
+Count
 }
 ;
 /
