@@ -238,7 +238,7 @@ MAX_KEY_BITS
 should
 agree
 with
-MAX_RSA_MODULUS
+RSA_MAX_MODULUS_BITS
 in
 freebl
 *

@@ -4437,6 +4437,14 @@ safeContentsCtx
 safeContentsA1Dcx
 )
 {
+SEC_ASN1DecoderClearFilterProc
+(
+p12dcx
+-
+>
+aSafeA1Dcx
+)
+;
 SEC_ASN1DecoderFinish
 (
 safeContentsCtx
