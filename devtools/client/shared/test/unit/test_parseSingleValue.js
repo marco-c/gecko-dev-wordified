@@ -331,6 +331,7 @@ value
 :
 "
 blue
+!
 "
 priority
 :
