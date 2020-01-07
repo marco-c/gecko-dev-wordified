@@ -8855,6 +8855,10 @@ mEncodingMenuDisabled
 (
 false
 )
+mIsSVGGlyphsDocument
+(
+false
+)
 mIsScopedStyleEnabled
 (
 eScopedStyle_Unknown
