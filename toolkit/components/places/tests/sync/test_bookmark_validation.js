@@ -416,10 +416,9 @@ mirror
 )
 ;
 await
-buf
-.
-store
+storeRecords
 (
+buf
 [
 {
 id
@@ -602,10 +601,9 @@ false
 )
 ;
 await
-buf
-.
-store
+storeRecords
 (
+buf
 [
 {
 id
