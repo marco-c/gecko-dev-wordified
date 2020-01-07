@@ -28031,7 +28031,7 @@ mDocumentContainer
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetScriptGlobalObject

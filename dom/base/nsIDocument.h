@@ -9527,8 +9527,6 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
-=
-0
 ;
 /
 *
