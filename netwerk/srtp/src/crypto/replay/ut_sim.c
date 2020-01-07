@@ -42,7 +42,7 @@ c
 )
 2001
 -
-2006
+2017
 Cisco
 Systems
 Inc
@@ -315,6 +315,18 @@ DAMAGE
 *
 *
 /
+#
+ifdef
+HAVE_CONFIG_H
+#
+include
+<
+config
+.
+h
+>
+#
+endif
 #
 include
 "
