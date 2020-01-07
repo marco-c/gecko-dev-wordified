@@ -60,11 +60,7 @@ print_function
 import
 os
 import
-re
-import
 string
-import
-sys
 from
 mozbuild
 .

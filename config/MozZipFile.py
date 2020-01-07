@@ -510,16 +510,13 @@ after
 overwriting
         
 if
-self
-.
-NameToInfo
-.
-has_key
-(
 zinfo
 .
 filename
-)
+in
+self
+.
+NameToInfo
 :
             
 #

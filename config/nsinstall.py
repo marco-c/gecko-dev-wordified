@@ -154,8 +154,6 @@ import
 sys
 import
 shutil
-import
-stat
 def
 _nsinstall_internal
 (
@@ -572,6 +570,7 @@ m
 )
         
 except
+Exception
 :
             
 sys
@@ -817,10 +816,10 @@ path
 .
 abspath
 (
-p
+path
 )
 for
-p
+path
 in
 options
 .

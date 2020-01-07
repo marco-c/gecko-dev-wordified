@@ -417,6 +417,7 @@ expected_encoding
 )
         
 except
+Exception
 :
             
 log_fail

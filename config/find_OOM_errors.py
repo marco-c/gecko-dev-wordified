@@ -169,8 +169,6 @@ invocation
 "
 "
 import
-hashlib
-import
 re
 import
 shlex
@@ -180,8 +178,6 @@ import
 sys
 import
 threading
-import
-time
 from
 optparse
 import
@@ -568,8 +564,6 @@ join
     
 except
 KeyboardInterrupt
-as
-e
 :
         
 sys
@@ -1533,6 +1527,10 @@ free
 d
 )
 "
+#
+NOQA
+:
+E501
                  
 r
 "
@@ -1803,7 +1801,7 @@ n
 *
 set
 a
-breakppoint
+breakpoint
 in
 malloc_error_break
 to
@@ -1811,6 +1809,10 @@ debug
 \
 n
 "
+#
+NOQA
+:
+E501
                  
 "
 pointer
@@ -2413,8 +2415,8 @@ if
 OPTIONS
 .
 regression
-!
-=
+is
+not
 None
 :
     
@@ -2540,8 +2542,7 @@ if
 OPTIONS
 .
 regression
-=
-=
+is
 None
 :
     
@@ -2696,8 +2697,7 @@ if
 OPTIONS
 .
 regression
-=
-=
+is
 None
 :
             
@@ -2830,8 +2830,8 @@ if
 OPTIONS
 .
 regression
-!
-=
+is
+not
 None
 :
                 
@@ -3650,8 +3650,7 @@ if
 OPTIONS
 .
 regression
-=
-=
+is
 None
 :
         
@@ -3671,8 +3670,8 @@ if
 OPTIONS
 .
 regression
-!
-=
+is
+not
 None
 :
     

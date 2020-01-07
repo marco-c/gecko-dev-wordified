@@ -78,8 +78,6 @@ precomplete
 file
 .
 import
-sys
-import
 os
 def
 get_build_entries

@@ -135,7 +135,9 @@ t
 :
         
 print
+(
 target
+)
         
 return
     
@@ -198,6 +200,7 @@ removed
 :
         
 print
+(
 '
 Rebuilding
 %
@@ -231,12 +234,14 @@ join
 removed
 )
 )
+)
     
 elif
 newer
 :
         
 print
+(
 '
 Rebuilding
 %
@@ -257,12 +262,14 @@ join
 newer
 )
 )
+)
     
 elif
 removed
 :
         
 print
+(
 '
 Rebuilding
 %
@@ -285,11 +292,13 @@ join
 removed
 )
 )
+)
     
 else
 :
         
 print
+(
 '
 Rebuilding
 %
@@ -301,6 +310,7 @@ reason
 '
 %
 target
+)
 if
 __name__
 =

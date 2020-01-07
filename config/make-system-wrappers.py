@@ -59,8 +59,6 @@ import
 print_function
 import
 os
-import
-sys
 from
 mozbuild
 .

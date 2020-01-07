@@ -3347,6 +3347,10 @@ cpp
 '
 '
 )
+#
+NOQA
+:
+E501
 def
 is_module_header
 (
@@ -6783,12 +6787,14 @@ py
 |
 unexpected
 command
+"
+              
+"
 line
 options
 :
 "
 +
-              
 repr
 (
 sys
