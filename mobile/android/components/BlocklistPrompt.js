@@ -249,6 +249,12 @@ BlocklistPrompt
 (
 )
 {
+this
+.
+wrappedJSObject
+=
+this
+;
 }
 BlocklistPrompt
 .
@@ -583,9 +589,6 @@ XPCOMUtils
 generateQI
 (
 [
-Ci
-.
-nsIBlocklistPrompt
 ]
 )
 }

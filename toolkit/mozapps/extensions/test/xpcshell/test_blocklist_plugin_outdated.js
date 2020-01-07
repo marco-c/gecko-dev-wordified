@@ -310,6 +310,15 @@ var
 BlocklistPrompt
 =
 {
+get
+wrappedJSObject
+(
+)
+{
+return
+this
+;
+}
 prompt
 (
 list
@@ -387,9 +396,6 @@ XPCOMUtils
 generateQI
 (
 [
-"
-nsIBlocklistPrompt
-"
 ]
 )
 }

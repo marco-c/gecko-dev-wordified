@@ -166,16 +166,6 @@ nsIXULRuntime
 checkService
 (
 "
-blocklist
-"
-Ci
-.
-nsIBlocklistService
-)
-;
-checkService
-(
-"
 cache2
 "
 Ci
