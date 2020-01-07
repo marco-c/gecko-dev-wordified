@@ -677,7 +677,10 @@ self
 length
 :
 :
+{
 NonNegativeLengthOrPercentage
+NonNegativeLengthOrPercentageOrAuto
+}
 ;
 pub
 use
