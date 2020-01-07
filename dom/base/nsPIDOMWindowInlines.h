@@ -420,7 +420,7 @@ Element
 nsPIDOMWindowOuter
 :
 :
-GetFocusedNode
+GetFocusedElement
 (
 )
 const
@@ -431,7 +431,7 @@ mInnerWindow
 mInnerWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 :
@@ -449,12 +449,12 @@ Element
 nsPIDOMWindowInner
 :
 :
-GetFocusedNode
+GetFocusedElement
 (
 )
 const
 {
 return
-mFocusedNode
+mFocusedElement
 ;
 }

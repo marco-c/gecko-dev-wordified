@@ -15218,7 +15218,7 @@ window
 window
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 )
