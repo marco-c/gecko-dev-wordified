@@ -830,6 +830,15 @@ a
 given
 stylesheet
 .
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+)
+]
 pub
 enum
 SheetRebuildKind
