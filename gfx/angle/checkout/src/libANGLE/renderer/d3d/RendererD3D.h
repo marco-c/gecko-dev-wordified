@@ -430,7 +430,7 @@ gl
 VertexBinding
 &
 binding
-GLsizei
+size_t
 count
 GLsizei
 instances
@@ -812,7 +812,10 @@ destOffset
 TextureStorage
 *
 storage
-GLenum
+gl
+:
+:
+TextureTarget
 target
 GLint
 level
@@ -956,7 +959,10 @@ destOffset
 TextureStorage
 *
 storage
-GLenum
+gl
+:
+:
+TextureTarget
 destTarget
 GLint
 destLevel
@@ -1755,7 +1761,10 @@ gl
 Context
 *
 context
-GLenum
+gl
+:
+:
+TextureType
 type
 gl
 :

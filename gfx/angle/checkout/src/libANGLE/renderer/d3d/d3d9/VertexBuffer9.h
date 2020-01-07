@@ -157,7 +157,7 @@ GLenum
 currentValueType
 GLint
 start
-GLsizei
+size_t
 count
 GLsizei
 instances

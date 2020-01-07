@@ -271,7 +271,13 @@ getShaderType
 )
 =
 =
-GL_VERTEX_SHADER
+gl
+:
+:
+ShaderType
+:
+:
+Vertex
 )
 {
 mAdditionalOptions
@@ -1266,7 +1272,7 @@ if
 (
 interfaceBlock
 .
-staticUse
+active
 )
 {
 unsigned

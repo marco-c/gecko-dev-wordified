@@ -890,16 +890,9 @@ InitState
 :
 MayNeedInit
 ;
-onStateChange
+onStorageChange
 (
 context
-angle
-:
-:
-SubjectMessage
-:
-:
-STATE_CHANGE
 )
 ;
 }

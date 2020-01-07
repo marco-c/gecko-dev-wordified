@@ -167,7 +167,10 @@ ProgramImpl
 {
 }
 virtual
-void
+gl
+:
+:
+Error
 destroy
 (
 const
@@ -179,6 +182,14 @@ Context
 context
 )
 {
+return
+gl
+:
+:
+NoError
+(
+)
+;
 }
 virtual
 gl

@@ -156,7 +156,7 @@ changes
 #
 define
 ANGLE_SH_VERSION
-196
+197
 enum
 ShShaderSpec
 {
