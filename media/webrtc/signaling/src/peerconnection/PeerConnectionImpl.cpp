@@ -19888,13 +19888,16 @@ switch
 (
 mp
 .
-direction
+Direction
 (
 )
 )
 {
 case
 MediaPipeline
+:
+:
+DirectionType
 :
 :
 TRANSMIT
@@ -20307,7 +20310,7 @@ Construct
 (
 mp
 .
-rtp_packets_sent
+RtpPacketsSent
 (
 )
 )
@@ -20320,7 +20323,7 @@ Construct
 (
 mp
 .
-rtp_bytes_sent
+RtpBytesSent
 (
 )
 )
@@ -20546,6 +20549,9 @@ break
 }
 case
 MediaPipeline
+:
+:
+DirectionType
 :
 :
 RECEIVE
@@ -20928,7 +20934,7 @@ Construct
 (
 mp
 .
-rtp_packets_received
+RtpPacketsReceived
 (
 )
 )
@@ -20941,7 +20947,7 @@ Construct
 (
 mp
 .
-rtp_bytes_received
+RtpBytesReceived
 (
 )
 )
