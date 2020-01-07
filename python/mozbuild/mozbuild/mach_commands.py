@@ -10557,6 +10557,13 @@ Kind
 from
 taskgraph
 .
+parameters
+import
+Parameters
+        
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -11523,7 +11530,12 @@ kind_name
 .
 load_tasks
 (
+Parameters
+(
+*
+*
 params
+)
 {
 }
 )
