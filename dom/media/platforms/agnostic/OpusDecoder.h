@@ -473,6 +473,15 @@ Channel
 mapping
 table
 .
+AudioConfig
+:
+:
+ChannelLayout
+:
+:
+ChannelMap
+mChannelMap
+;
 }
 ;
 }
