@@ -375,7 +375,7 @@ dom
 ContentPrefs
 :
 :
-gInitPrefs
+gEarlyPrefs
 [
 ]
 =
@@ -2098,7 +2098,7 @@ dom
 ContentPrefs
 :
 :
-GetContentPrefs
+GetEarlyPrefs
 (
 size_t
 *
@@ -2113,11 +2113,11 @@ ArrayLength
 ContentPrefs
 :
 :
-gInitPrefs
+gEarlyPrefs
 )
 ;
 return
-gInitPrefs
+gEarlyPrefs
 ;
 }
 const
@@ -2132,7 +2132,7 @@ dom
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 size_t
 aIndex
@@ -2147,12 +2147,12 @@ ArrayLength
 ContentPrefs
 :
 :
-gInitPrefs
+gEarlyPrefs
 )
 )
 ;
 return
-gInitPrefs
+gEarlyPrefs
 [
 aIndex
 ]

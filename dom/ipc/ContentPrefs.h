@@ -149,7 +149,7 @@ const
 char
 *
 *
-GetContentPrefs
+GetEarlyPrefs
 (
 size_t
 *
@@ -160,7 +160,7 @@ static
 const
 char
 *
-GetContentPref
+GetEarlyPref
 (
 size_t
 aIndex
@@ -172,7 +172,7 @@ static
 const
 char
 *
-gInitPrefs
+gEarlyPrefs
 [
 ]
 ;
