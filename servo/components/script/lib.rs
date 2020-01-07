@@ -433,10 +433,6 @@ offscreen_gl_context
 ;
 extern
 crate
-open
-;
-extern
-crate
 parking_lot
 ;
 extern
