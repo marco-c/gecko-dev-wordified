@@ -7373,9 +7373,6 @@ element
 rule_hash_target
 applicable_declarations
 context
-self
-.
-quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -7569,9 +7566,6 @@ element
 rule_hash_target
 applicable_declarations
 context
-self
-.
-quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -7790,9 +7784,6 @@ element
 rule_hash_target
 applicable_declarations
 context
-self
-.
-quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -7955,6 +7946,8 @@ new
 context
 .
 matching_mode
+(
+)
 context
 .
 bloom_filter
@@ -8000,9 +7993,6 @@ applicable_declarations
 &
 mut
 matching_context
-stylist
-.
-quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -8060,9 +8050,6 @@ element
 rule_hash_target
 applicable_declarations
 context
-self
-.
-quirks_mode
 flags_setter
 CascadeLevel
 :

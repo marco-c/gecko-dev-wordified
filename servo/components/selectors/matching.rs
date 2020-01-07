@@ -2085,6 +2085,8 @@ if
 context
 .
 matching_mode
+(
+)
 =
 =
 MatchingMode
@@ -2425,6 +2427,8 @@ Yes
 context
 .
 matching_mode
+(
+)
 =
 =
 MatchingMode

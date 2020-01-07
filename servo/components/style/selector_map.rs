@@ -1313,9 +1313,6 @@ E
 :
 Impl
 >
-quirks_mode
-:
-QuirksMode
 flags_setter
 :
 &
@@ -1347,6 +1344,15 @@ is_empty
 {
 return
 }
+let
+quirks_mode
+=
+context
+.
+quirks_mode
+(
+)
+;
 /
 /
 At
@@ -1365,6 +1371,8 @@ we
 added
 so
 remember
+/
+/
 where
 we
 began
