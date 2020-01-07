@@ -627,6 +627,7 @@ to
 case
 FHR_UPLOAD_ENABLED_PREF
 :
+{
 prefValue
 =
 Services
@@ -650,6 +651,7 @@ prefValue
 ;
 break
 ;
+}
 /
 /
 If
@@ -670,6 +672,7 @@ studies
 case
 OPT_OUT_STUDIES_ENABLED_PREF
 :
+{
 prefValue
 =
 Services
@@ -715,6 +718,13 @@ stop
 study
 .
 recipeId
+"
+general
+-
+opt
+-
+out
+"
 )
 ;
 }
@@ -722,6 +732,7 @@ recipeId
 }
 break
 ;
+}
 }
 }
 /

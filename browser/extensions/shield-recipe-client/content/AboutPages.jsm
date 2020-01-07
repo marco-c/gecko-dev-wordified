@@ -1180,6 +1180,13 @@ removeStudy
 message
 .
 data
+.
+recipeId
+message
+.
+data
+.
+reason
 )
 ;
 break
@@ -1343,6 +1350,7 @@ async
 removeStudy
 (
 recipeId
+reason
 )
 {
 await
@@ -1351,6 +1359,7 @@ AddonStudies
 stop
 (
 recipeId
+reason
 )
 ;
 /
