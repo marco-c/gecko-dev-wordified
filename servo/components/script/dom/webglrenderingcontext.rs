@@ -577,7 +577,6 @@ jsapi
 JSContext
 JSObject
 Type
-Rooted
 }
 ;
 use
@@ -9478,17 +9477,6 @@ generic
 types
 .
 let
-mut
-typed_array_root
-=
-Rooted
-:
-:
-new_unrooted
-(
-)
-;
-let
 typed_array
 :
 Option
@@ -9496,6 +9484,9 @@ Option
 TypedArray
 <
 T
+*
+mut
+JSObject
 >
 >
 =
@@ -9504,10 +9495,6 @@ TypedArray
 :
 from
 (
-cx
-&
-mut
-typed_array_root
 sequence_or_abv
 )
 .
