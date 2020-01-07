@@ -147,6 +147,15 @@ h
 #
 include
 "
+gc
+/
+FreeOp
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineCompiler

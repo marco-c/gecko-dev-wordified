@@ -120,6 +120,15 @@ h
 #
 include
 "
+gc
+/
+FreeOp
+.
+h
+"
+#
+include
+"
 vm
 /
 RegExpStaticsObject

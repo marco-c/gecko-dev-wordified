@@ -232,6 +232,15 @@ endif
 #
 include
 "
+gc
+/
+FreeOp
+.
+h
+"
+#
+include
+"
 vm
 /
 JSONPrinter
