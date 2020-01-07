@@ -188,7 +188,11 @@ gecko
 .
 GeckoAppShell
 ;
-public
+/
+*
+package
+*
+/
 final
 class
 SurfaceAllocator

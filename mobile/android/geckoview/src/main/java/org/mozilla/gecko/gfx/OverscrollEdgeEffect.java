@@ -182,6 +182,7 @@ reflect
 Field
 ;
 public
+final
 class
 OverscrollEdgeEffect
 {

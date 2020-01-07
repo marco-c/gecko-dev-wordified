@@ -145,6 +145,7 @@ util
 Set
 ;
 public
+final
 class
 DynamicToolbarAnimator
 {

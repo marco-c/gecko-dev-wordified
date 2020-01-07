@@ -155,7 +155,11 @@ annotation
 .
 WrapForJNI
 ;
-public
+/
+*
+package
+*
+/
 final
 class
 GeckoSurfaceTexture

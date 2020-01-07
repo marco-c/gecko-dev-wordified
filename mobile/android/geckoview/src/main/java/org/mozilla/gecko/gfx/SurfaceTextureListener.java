@@ -125,6 +125,11 @@ graphics
 .
 SurfaceTexture
 ;
+/
+*
+package
+*
+/
 final
 class
 SurfaceTextureListener

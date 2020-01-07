@@ -158,6 +158,7 @@ util
 List
 ;
 public
+final
 class
 CompositorController
 {

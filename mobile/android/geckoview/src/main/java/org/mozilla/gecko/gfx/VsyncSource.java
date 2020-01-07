@@ -188,7 +188,11 @@ Choreographer
 .
 *
 /
-public
+/
+*
+package
+*
+/
 final
 class
 VsyncSource

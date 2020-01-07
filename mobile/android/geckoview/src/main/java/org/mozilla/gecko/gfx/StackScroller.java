@@ -128,7 +128,12 @@ exceptionMode
 nsresult
 "
 )
-public
+/
+*
+package
+*
+/
+final
 class
 StackScroller
 {
