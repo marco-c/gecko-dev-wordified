@@ -319,7 +319,7 @@ componentDidMount
 )
 {
 const
-parentEl
+el
 =
 ReactDOM
 .
@@ -327,10 +327,8 @@ findDOMNode
 (
 this
 )
-.
-parentElement
 ;
-parentEl
+el
 .
 addEventListener
 (
@@ -838,9 +836,6 @@ time
 scrubber
 -
 controller
-devtools
--
-toolbar
 "
 }
 CurrentTimeScrubber
