@@ -22564,6 +22564,7 @@ GetLocalizedString
 (
 aPrefName
 result
+aKind
 )
 ;
 if
