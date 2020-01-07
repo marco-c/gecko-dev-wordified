@@ -1671,6 +1671,7 @@ onMarkupMutations
 :
 function
 (
+e
 mutations
 )
 {
