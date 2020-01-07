@@ -1546,6 +1546,11 @@ ScrollSnapTypeY
 )
 COMPUTED_STYLE_PROP
 (
+shape_image_threshold
+ShapeImageThreshold
+)
+COMPUTED_STYLE_PROP
+(
 shape_outside
 ShapeOutside
 )
