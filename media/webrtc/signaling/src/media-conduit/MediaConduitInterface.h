@@ -2262,6 +2262,14 @@ DetachRenderer
 =
 0
 ;
+virtual
+void
+DisableSsrcChanges
+(
+)
+=
+0
+;
 bool
 SetRemoteSSRC
 (
