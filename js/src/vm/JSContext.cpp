@@ -6097,8 +6097,6 @@ UseInternalJobQueues
 JSContext
 *
 cx
-bool
-cooperative
 )
 {
 /
@@ -6132,9 +6130,6 @@ any
 .
 MOZ_RELEASE_ASSERT
 (
-cooperative
-|
-|
 !
 cx
 -
@@ -6208,11 +6203,6 @@ jobQueue
 =
 queue
 ;
-if
-(
-!
-cooperative
-)
 cx
 -
 >

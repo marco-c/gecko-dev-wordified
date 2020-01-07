@@ -4952,10 +4952,10 @@ n
 n
 "
 "
-EnableActiveThread
+EnableMainThread
 Start
 logging
-cooperating
+main
 threads
 immediately
 .
@@ -5026,11 +5026,11 @@ strstr
 (
 options
 "
-EnableActiveThread
+EnableMainThread
 "
 )
 )
-cooperatingThreadEnabled
+mainThreadEnabled
 =
 true
 ;
@@ -5545,7 +5545,7 @@ CurrentHelperThread
 ?
 helperThreadEnabled
 :
-cooperatingThreadEnabled
+mainThreadEnabled
 )
 logger
 -

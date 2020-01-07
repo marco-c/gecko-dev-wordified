@@ -3040,8 +3040,7 @@ activeThreadHasScriptDataAccess
 #
 endif
 /
-*
-*
+/
 Number
 of
 zones
@@ -3051,15 +3050,9 @@ be
 operated
 on
 by
-non
--
-cooperating
 helper
-*
 threads
 .
-*
-/
 mozilla
 :
 :

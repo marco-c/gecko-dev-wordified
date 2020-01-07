@@ -2328,7 +2328,7 @@ TraceLogger_Last
 ]
 ;
 bool
-cooperatingThreadEnabled
+mainThreadEnabled
 ;
 bool
 helperThreadEnabled
@@ -2410,7 +2410,7 @@ false
 )
 #
 endif
-cooperatingThreadEnabled
+mainThreadEnabled
 (
 false
 )
