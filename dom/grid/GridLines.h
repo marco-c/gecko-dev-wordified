@@ -279,6 +279,8 @@ uint32_t
 aRepeatIndex
 uint32_t
 aNumRepeatTracks
+uint32_t
+aNumLeadingTracks
 nsTArray
 <
 nsString

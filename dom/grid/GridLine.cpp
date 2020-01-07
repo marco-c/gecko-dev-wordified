@@ -346,7 +346,7 @@ NegativeNumber
 const
 {
 return
-0
+mNegativeNumber
 ;
 }
 void
@@ -368,6 +368,8 @@ double
 aBreadth
 uint32_t
 aNumber
+int32_t
+aNegativeNumber
 GridDeclaration
 aType
 )
@@ -387,6 +389,10 @@ aBreadth
 mNumber
 =
 aNumber
+;
+mNegativeNumber
+=
+aNegativeNumber
 ;
 mType
 =

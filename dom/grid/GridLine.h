@@ -282,6 +282,8 @@ double
 aBreadth
 uint32_t
 aNumber
+int32_t
+aNegativeNumber
 GridDeclaration
 aType
 )
@@ -311,6 +313,9 @@ mType
 ;
 uint32_t
 mNumber
+;
+int32_t
+mNegativeNumber
 ;
 }
 ;
