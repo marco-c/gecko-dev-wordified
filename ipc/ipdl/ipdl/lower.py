@@ -39612,7 +39612,7 @@ fun
 .
 decl
 .
-inline
+force_inline
     
 return
 StmtDecl
