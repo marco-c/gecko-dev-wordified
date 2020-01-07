@@ -311,6 +311,10 @@ MOZ_ANDROID_GCM
 '
                 
 '
+MOZ_ANDROID_GOOGLE_PLAY_SERVICES
+'
+                
+'
 MOZ_ANDROID_MLS_STUMBLER
 '
                 
