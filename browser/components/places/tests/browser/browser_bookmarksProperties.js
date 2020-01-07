@@ -1756,7 +1756,7 @@ result
 .
 Assert
 .
-ok
+equal
 (
 richlistbox
 .
@@ -1781,7 +1781,7 @@ selectedIndex
 ;
 Assert
 .
-ok
+equal
 (
 richlistbox
 .

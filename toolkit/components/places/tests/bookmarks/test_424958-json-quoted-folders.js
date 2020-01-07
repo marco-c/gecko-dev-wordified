@@ -288,7 +288,7 @@ quoted
 folder
 Assert
 .
-ok
+equal
 (
 toolbar
 .
