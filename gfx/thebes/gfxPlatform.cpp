@@ -14870,6 +14870,16 @@ Feature
 OMTP
 )
 ;
+int32_t
+paintWorkerCount
+=
+PaintThread
+:
+:
+CalculatePaintWorkerCount
+(
+)
+;
 if
 (
 !
@@ -14932,6 +14942,7 @@ reporter
 .
 SetSuccessful
 (
+paintWorkerCount
 )
 ;
 }
@@ -15107,6 +15118,7 @@ reporter
 .
 SetSuccessful
 (
+paintWorkerCount
 )
 ;
 }
