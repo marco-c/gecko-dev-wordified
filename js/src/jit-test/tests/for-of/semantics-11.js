@@ -215,7 +215,7 @@ assertEq
 (
 s
 '
-IiNn0Nn1Nn2Nn
+IiNn0n1n2n
 '
 )
 ;
