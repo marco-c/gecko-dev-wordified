@@ -1451,9 +1451,6 @@ click
 )
     
 assert
-None
-=
-=
 session
 .
 execute_script
@@ -1472,13 +1469,14 @@ checked
 '
 )
 "
-                                          
 args
 =
-[
+(
 element
-]
 )
+)
+is
+False
     
 result
 =
@@ -1506,7 +1504,7 @@ element_id
 /
 property
 /
-id
+checked
 "
                                     
 .
