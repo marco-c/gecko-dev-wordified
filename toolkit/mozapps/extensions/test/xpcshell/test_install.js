@@ -3060,7 +3060,7 @@ if
 (
 AppConstants
 .
-OS
+platform
 !
 =
 =
