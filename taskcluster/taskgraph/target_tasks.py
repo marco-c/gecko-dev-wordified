@@ -2771,15 +2771,7 @@ in
 '
 release
 -
-buildbot
--
-update
--
-verify
-'
-                             
-'
-release
+secondary
 -
 update
 -
@@ -2798,16 +2790,6 @@ verify
 )
 :
                 
-if
-'
-secondary
-'
-in
-task
-.
-label
-:
-                    
 return
 False
         
