@@ -1658,8 +1658,6 @@ PrincipalToInherit
 nsIURI
 *
 aRequestedURI
-bool
-aAllowIfInheritsPrincipal
 )
 {
 if
@@ -1684,7 +1682,6 @@ ExpandedPrincipal
 PrincipalToInherit
 (
 aRequestedURI
-aAllowIfInheritsPrincipal
 )
 ;
 }
