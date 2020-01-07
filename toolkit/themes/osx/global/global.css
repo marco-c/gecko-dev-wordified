@@ -1242,7 +1242,9 @@ radius
 ;
 border
 :
-roundButtonBorder
+roundButtonBorderWidth
+roundButtonBorderStyle
+roundButtonBorderColor
 ;
 text
 -
