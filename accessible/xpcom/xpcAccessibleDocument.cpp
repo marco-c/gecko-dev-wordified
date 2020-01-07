@@ -159,13 +159,6 @@ inl
 .
 h
 "
-#
-include
-"
-nsIDOMDocument
-.
-h
-"
 using
 namespace
 mozilla
@@ -635,7 +628,7 @@ xpcAccessibleDocument
 :
 GetDOMDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDOMDocument
@@ -672,8 +665,11 @@ DocumentNode
 (
 )
 )
-CallQueryInterface
+NS_ADDREF
 (
+*
+aDOMDocument
+=
 Intl
 (
 )
@@ -682,7 +678,6 @@ Intl
 DocumentNode
 (
 )
-aDOMDocument
 )
 ;
 return

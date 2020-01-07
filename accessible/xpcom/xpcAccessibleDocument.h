@@ -269,7 +269,7 @@ final
 NS_IMETHOD
 GetDOMDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDOMDocument
