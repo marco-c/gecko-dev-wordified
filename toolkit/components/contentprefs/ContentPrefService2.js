@@ -7249,6 +7249,8 @@ function
 )
 {
 throw
+new
+Error
 (
 "
 no
@@ -7823,6 +7825,8 @@ if
 group
 )
 throw
+new
+Error
 (
 "
 can
