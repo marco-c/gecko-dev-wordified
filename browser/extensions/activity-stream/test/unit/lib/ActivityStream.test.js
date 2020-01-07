@@ -268,13 +268,13 @@ Fake
 "
 lib
 /
-MessageCenterFeed
+ASRouterFeed
 .
 jsm
 "
 :
 {
-MessageCenterFeed
+ASRouterFeed
 :
 Fake
 }
@@ -1587,7 +1587,7 @@ it
 should
 create
 a
-MessageCenter
+ASRouter
 feed
 "
 (
@@ -1607,7 +1607,7 @@ get
 "
 feeds
 .
-messagecenterfeed
+asrouterfeed
 "
 )
 (

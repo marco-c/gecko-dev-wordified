@@ -481,6 +481,11 @@ insert
 )
 {
 }
+markPageAsTyped
+(
+)
+{
+}
 removeObserver
 (
 )
@@ -722,11 +727,6 @@ appShell
 hiddenDOMWindow
 :
 {
-openNewTabWith
-(
-)
-{
-}
 performance
 :
 new
