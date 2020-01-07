@@ -774,7 +774,6 @@ the
 seek
 target
 .
-virtual
 void
 Seek
 (
