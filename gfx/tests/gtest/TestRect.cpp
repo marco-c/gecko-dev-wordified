@@ -5664,14 +5664,6 @@ Gfx
 Logical
 )
 {
-PR_Sleep
-(
-PR_SecondsToInterval
-(
-30
-)
-)
-;
 TestIntersectionLogical
 (
 578

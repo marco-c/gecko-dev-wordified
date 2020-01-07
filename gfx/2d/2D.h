@@ -9567,12 +9567,6 @@ HasSSE2
 (
 )
 ;
-static
-bool
-HasSSE4
-(
-)
-;
 /
 *
 *
