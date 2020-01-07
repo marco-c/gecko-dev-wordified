@@ -27756,8 +27756,10 @@ mimeUTF16
 mimeType
 )
 ;
+RefPtr
+<
 HTMLMediaElement
-*
+>
 self
 =
 this
@@ -27767,6 +27769,7 @@ reportCanPlay
 =
 [
 &
+self
 ]
 (
 bool
