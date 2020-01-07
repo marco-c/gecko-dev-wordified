@@ -401,6 +401,13 @@ memMgr
 .
 residentUnique
 ;
+let
+ghosts
+=
+memMgr
+.
+ghostWindows
+;
 Services
 .
 cpmm
@@ -419,6 +426,7 @@ summary
 {
 uss
 rss
+ghosts
 }
 }
 )

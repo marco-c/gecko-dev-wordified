@@ -193,6 +193,12 @@ rss
 int
 >
 *
+ghosts
+:
+<
+int
+>
+*
 }
 *
 <
@@ -208,6 +214,12 @@ int
 >
 *
 rss
+:
+<
+int
+>
+*
+ghosts
 :
 <
 int
@@ -543,6 +555,13 @@ memMgr
 .
 residentUnique
 ;
+let
+ghosts
+=
+memMgr
+.
+ghostWindows
+;
 this
 .
 _summaries
@@ -552,6 +571,7 @@ Parent
 {
 uss
 rss
+ghosts
 }
 ;
 this
