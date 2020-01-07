@@ -232,6 +232,12 @@ if
 input
 .
 value
+&
+&
+!
+input
+.
+disabled
 )
 {
 obj
