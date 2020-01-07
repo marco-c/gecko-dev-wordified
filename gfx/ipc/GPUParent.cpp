@@ -389,6 +389,15 @@ h
 #
 include
 "
+mozilla
+/
+HangDetails
+.
+h
+"
+#
+include
+"
 nsDebugImpl
 .
 h
