@@ -77,7 +77,6 @@ mozlint
 errors
 import
 LintersNotConfigured
-LintException
 here
 =
 os
@@ -153,6 +152,13 @@ read
 linters
 )
     
+assert
+lint
+.
+results
+is
+None
+    
 result
 =
 lint
@@ -170,6 +176,14 @@ result
 =
 =
 1
+    
+assert
+lint
+.
+results
+=
+=
+result
     
 assert
 lint
@@ -265,6 +279,7 @@ test_roll_catch_exception
 lint
 lintdir
 files
+capfd
 )
 :
     
@@ -287,55 +302,32 @@ yml
 )
 )
     
-#
-suppress
-printed
-traceback
-from
-test
-output
-    
-old_stderr
-=
-sys
-.
-stderr
-    
-sys
-.
-stderr
-=
-open
-(
-os
-.
-devnull
-'
-w
-'
-)
-    
-with
-pytest
-.
-raises
-(
-LintException
-)
-:
-        
 lint
 .
 roll
 (
 files
 )
+#
+assert
+not
+raises
     
-sys
-.
-stderr
+out
+err
 =
-old_stderr
+capfd
+.
+readouterr
+(
+)
+    
+assert
+'
+LintException
+'
+in
+err
 def
 test_roll_with_excluded_path
 (
@@ -506,13 +498,8 @@ assert
 lint
 .
 failed
-=
-=
-set
-(
-[
-]
-)
+is
+None
     
 result
 =
@@ -550,7 +537,7 @@ BadReturnCodeLinter
 ]
 )
 def
-fake_run_linters
+fake_run_worker
 (
 config
 paths
@@ -640,9 +627,9 @@ lint
 __module__
 ]
 '
-_run_linters
+_run_worker
 '
-fake_run_linters
+fake_run_worker
 )
     
 lint
@@ -787,9 +774,9 @@ lint
 __module__
 ]
 '
-_run_linters
+_run_worker
 '
-fake_run_linters
+fake_run_worker
 )
     
 files
@@ -970,7 +957,7 @@ out
 assert
 lint
 .
-failed
+failed_setup
 =
 =
 set

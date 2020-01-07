@@ -1478,6 +1478,10 @@ failed
 lint
 .
 failed
+|
+lint
+.
+failed_setup
 )
 .
 encode
