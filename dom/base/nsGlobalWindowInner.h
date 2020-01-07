@@ -7745,6 +7745,14 @@ bool
 aResultOut
 )
 ;
+void
+MigrateStateForDocumentOpen
+(
+nsGlobalWindowInner
+*
+aOldInner
+)
+;
 public
 :
 /
