@@ -350,18 +350,6 @@ py
 '
     
 '
-services
-/
-common
-/
-tests
-/
-mach_commands
-.
-py
-'
-    
-'
 taskcluster
 /
 mach_commands
