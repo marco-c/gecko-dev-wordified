@@ -352,6 +352,14 @@ jsval
 '
 TD_JSVAL
 '
+    
+'
+promise
+'
+:
+'
+TD_PROMISE
+'
 }
 def
 flags
