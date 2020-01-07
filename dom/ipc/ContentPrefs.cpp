@@ -2813,13 +2813,6 @@ log
 stackTraceDepth
 "
 "
-signed
-.
-applets
-.
-codebase_principal_support
-"
-"
 svg
 .
 disabled
