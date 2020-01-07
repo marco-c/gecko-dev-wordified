@@ -18283,6 +18283,12 @@ char
 aTypeName
 )
 :
+mLock
+(
+"
+FilterNodeLightingSoftware
+"
+)
 mSurfaceScale
 (
 0
@@ -19844,6 +19850,12 @@ targetMap
 .
 GetStride
 (
+)
+;
+MutexAutoLock
+lock
+(
+mLock
 )
 ;
 uint32_t
