@@ -1394,7 +1394,6 @@ ancestor
 .
 *
 /
-virtual
 nsIContent
 *
 FindFirstNonChromeOnlyAccessContent
@@ -1872,7 +1871,6 @@ chrome
 document
 *
 /
-virtual
 bool
 IsInChromeDocument
 (
