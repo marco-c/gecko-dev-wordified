@@ -2491,9 +2491,10 @@ wr
 LayoutRect
 fill
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 fillRect
 )

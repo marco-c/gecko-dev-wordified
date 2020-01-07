@@ -2830,9 +2830,10 @@ region
 >
 rect
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :

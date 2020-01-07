@@ -2821,9 +2821,10 @@ wr
 LayoutRect
 dest
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 destRect
 )
@@ -2914,9 +2915,10 @@ wr
 LayoutRect
 dest
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 mPathRect
 )

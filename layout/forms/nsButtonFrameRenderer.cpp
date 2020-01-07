@@ -841,9 +841,10 @@ wr
 LayoutRect
 deviceBoxRect
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 deviceBox
 )
@@ -866,9 +867,10 @@ wr
 LayoutRect
 deviceClipRect
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 clipRect
 )

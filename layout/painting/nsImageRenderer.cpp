@@ -4126,9 +4126,10 @@ wr
 LayoutRect
 fill
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 fillRect
 )
@@ -4139,9 +4140,10 @@ wr
 LayoutRect
 clip
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :
