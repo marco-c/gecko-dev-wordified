@@ -235,12 +235,6 @@ DATASET_RELEASE_CHANNEL_OPTIN
 false
 /
 *
-subsession
-*
-/
-false
-/
-*
 clear
 *
 /
@@ -474,12 +468,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
-/
-*
-subsession
-*
-/
 false
 /
 *
