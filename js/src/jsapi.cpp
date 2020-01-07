@@ -10461,7 +10461,13 @@ compartment
 )
 {
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
+)
 -
 >
 creationOptions
@@ -10489,7 +10495,7 @@ return
 obj
 -
 >
-compartment
+realm
 (
 )
 -
@@ -10519,7 +10525,7 @@ return
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -10608,7 +10614,13 @@ compartment
 )
 {
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
+)
 -
 >
 behaviors
@@ -10635,7 +10647,7 @@ return
 obj
 -
 >
-compartment
+realm
 (
 )
 -
@@ -10664,7 +10676,7 @@ return
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -10954,7 +10966,7 @@ trace
 global
 -
 >
-compartment
+realm
 (
 )
 -
@@ -22898,7 +22910,7 @@ extraWarningsOption
 cx
 -
 >
-compartment
+realm
 (
 )
 -

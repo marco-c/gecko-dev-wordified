@@ -1347,8 +1347,14 @@ setSingletonsAsValues
 (
 )
 {
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
 (
+)
 )
 -
 >
@@ -1397,7 +1403,7 @@ cloneSingletons_
 cx
 -
 >
-compartment
+realm
 (
 )
 -

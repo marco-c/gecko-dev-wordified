@@ -2932,7 +2932,7 @@ JSOP_GETBOUNDNAME
 cx
 -
 >
-compartment
+realm
 (
 )
 -

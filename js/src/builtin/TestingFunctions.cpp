@@ -20534,7 +20534,7 @@ setBoolean
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -26237,7 +26237,7 @@ args
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -26311,7 +26311,7 @@ args
 cx
 -
 >
-compartment
+realm
 (
 )
 -

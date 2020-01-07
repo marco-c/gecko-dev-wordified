@@ -1562,7 +1562,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -2158,7 +2158,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -2744,7 +2744,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -

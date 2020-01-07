@@ -1123,7 +1123,7 @@ MOZ_ASSERT
 k
 -
 >
-compartment
+realm
 (
 )
 -
@@ -1145,7 +1145,7 @@ InvisibleKeysOk
 k
 -
 >
-compartment
+realm
 (
 )
 -
@@ -12851,7 +12851,7 @@ MOZ_ASSERT_IF
 script
 -
 >
-compartment
+realm
 (
 )
 -

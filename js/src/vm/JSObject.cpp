@@ -8874,7 +8874,7 @@ isSingleton
 cx
 -
 >
-compartment
+realm
 (
 )
 -
