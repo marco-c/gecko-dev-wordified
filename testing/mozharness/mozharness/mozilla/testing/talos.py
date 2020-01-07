@@ -169,15 +169,6 @@ mozharness
 .
 mozilla
 .
-blob_upload
-import
-BlobUploadMixin
-blobupload_config_options
-from
-mozharness
-.
-mozilla
-.
 testing
 .
 testbase
@@ -906,7 +897,6 @@ Talos
 (
 TestingMixin
 MercurialScript
-BlobUploadMixin
 TooltoolMixin
             
 Python3Virtualenv
@@ -1439,15 +1429,6 @@ compositor
 ]
 +
 testing_config_options
-+
-copy
-.
-deepcopy
-(
-blobupload_config_options
-)
-\
-                               
 +
 copy
 .

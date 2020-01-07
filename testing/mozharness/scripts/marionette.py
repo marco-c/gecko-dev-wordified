@@ -171,15 +171,6 @@ mozharness
 .
 mozilla
 .
-blob_upload
-import
-BlobUploadMixin
-blobupload_config_options
-from
-mozharness
-.
-mozilla
-.
 testing
 .
 errors
@@ -266,7 +257,6 @@ MarionetteTest
 (
 TestingMixin
 MercurialScript
-BlobUploadMixin
 TransferMixin
                      
 CodeCoverageMixin
@@ -890,15 +880,6 @@ copy
 deepcopy
 (
 testing_config_options
-)
-\
-        
-+
-copy
-.
-deepcopy
-(
-blobupload_config_options
 )
 \
         

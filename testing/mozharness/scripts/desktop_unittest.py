@@ -204,15 +204,6 @@ mozharness
 .
 mozilla
 .
-blob_upload
-import
-BlobUploadMixin
-blobupload_config_options
-from
-mozharness
-.
-mozilla
-.
 buildbot
 import
 TBPL_EXCEPTION
@@ -335,7 +326,6 @@ DesktopUnittest
 (
 TestingMixin
 MercurialScript
-BlobUploadMixin
 MozbaseMixin
                       
 CodeCoverageMixin
@@ -1521,15 +1511,6 @@ copy
 deepcopy
 (
 testing_config_options
-)
-+
-\
-        
-copy
-.
-deepcopy
-(
-blobupload_config_options
 )
 +
 \
@@ -4715,12 +4696,6 @@ is
 in
 TestingMixin
 .
-    
-#
-upload_blobber_files
-is
-in
-BlobUploadMixin
     
 PreScriptAction
 (
