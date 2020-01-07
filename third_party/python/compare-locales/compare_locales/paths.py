@@ -1198,7 +1198,16 @@ entity
 )
             
 except
+BaseException
 :
+#
+we
+really
+want
+to
+handle
+EVERYTHING
+here
                 
 return
 '
@@ -3641,6 +3650,12 @@ fin
 )
         
 except
+(
+toml
+.
+TomlError
+IOError
+)
 :
             
 raise
@@ -4468,6 +4483,10 @@ depth
 )
         
 except
+(
+NoSectionError
+NoOptionError
+)
 :
             
 depth
@@ -4546,7 +4565,7 @@ py
 try
 :
             
-l
+local
 =
 {
 }
@@ -4556,7 +4575,7 @@ execfile
 filter_path
 {
 }
-l
+local
 )
             
 if
@@ -4564,11 +4583,11 @@ if
 test
 '
 in
-l
+local
 and
 callable
 (
-l
+local
 [
 '
 test
@@ -4580,7 +4599,7 @@ test
 filters
 =
 [
-l
+local
 [
 '
 test
@@ -4597,7 +4616,16 @@ filters
 ]
         
 except
+BaseException
 :
+#
+we
+really
+want
+to
+handle
+EVERYTHING
+here
             
 filters
 =
