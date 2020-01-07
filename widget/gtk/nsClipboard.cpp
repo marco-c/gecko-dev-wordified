@@ -1593,9 +1593,6 @@ kUnicodeMime
 )
 )
 {
-uint32_t
-clipboardDataLength
-;
 const
 char
 *
@@ -1604,12 +1601,9 @@ clipboardData
 mContext
 -
 >
-GetClipboardData
+GetClipboardText
 (
-GTK_DEFAULT_MIME_TEXT
 aWhichClipboard
-&
-clipboardDataLength
 )
 ;
 if
@@ -1665,7 +1659,6 @@ NS_ConvertUTF8toUTF16
 ucs2string
 (
 clipboardData
-clipboardDataLength
 )
 ;
 const
