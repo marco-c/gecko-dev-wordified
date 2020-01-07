@@ -1797,6 +1797,11 @@ ErrorResult
 aErr
 )
 ;
+void
+Detach
+(
+)
+;
 /
 /
 *
