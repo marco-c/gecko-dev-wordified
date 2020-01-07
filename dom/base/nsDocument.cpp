@@ -48092,7 +48092,7 @@ nullptr
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 DispatchPageTransition
@@ -48249,7 +48249,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 OnPageShow
@@ -48485,7 +48485,7 @@ nsIPrincipal
 *
 principal
 =
-GetPrincipal
+NodePrincipal
 (
 )
 ;
@@ -48494,14 +48494,7 @@ os
 >
 NotifyObservers
 (
-static_cast
-<
-nsIDocument
-*
->
-(
 this
-)
 nsContentUtils
 :
 :
@@ -48754,7 +48747,7 @@ aDoc
 )
 ;
 void
-nsDocument
+nsIDocument
 :
 :
 OnPageHide
@@ -49031,7 +49024,7 @@ nsIPrincipal
 *
 principal
 =
-GetPrincipal
+NodePrincipal
 (
 )
 ;
@@ -49040,14 +49033,7 @@ os
 >
 NotifyObservers
 (
-static_cast
-<
-nsIDocument
-*
->
-(
 this
-)
 nsContentUtils
 :
 :
