@@ -911,18 +911,6 @@ add_impls_for_keyword_enum
 OverscrollBehavior
 )
 ;
-/
-/
-FIXME
-(
-emilio
-)
-:
-Make
-all
-keywords
-CamelCase
-.
 define_css_keyword_enum
 !
 {
@@ -935,7 +923,7 @@ box
 "
 =
 >
-padding_box
+PaddingBox
 "
 content
 -
@@ -943,7 +931,7 @@ box
 "
 =
 >
-content_box
+ContentBox
 }
 add_impls_for_keyword_enum
 !

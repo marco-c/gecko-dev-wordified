@@ -248,6 +248,19 @@ parser
 :
 Parse
 ;
+/
+/
+FIXME
+(
+emilio
+)
+:
+Should
+be
+the
+same
+type
+!
 impl
 From
 <
@@ -303,7 +316,7 @@ single_value
 SpecifiedValue
 :
 :
-content_box
+ContentBox
 =
 >
 background_clip
@@ -315,7 +328,7 @@ single_value
 SpecifiedValue
 :
 :
-content_box
+ContentBox
 background_origin
 :
 :
@@ -325,7 +338,7 @@ single_value
 SpecifiedValue
 :
 :
-padding_box
+PaddingBox
 =
 >
 background_clip
@@ -337,7 +350,7 @@ single_value
 SpecifiedValue
 :
 :
-padding_box
+PaddingBox
 background_origin
 :
 :
@@ -347,7 +360,7 @@ single_value
 SpecifiedValue
 :
 :
-border_box
+BorderBox
 =
 >
 background_clip
@@ -359,7 +372,7 @@ single_value
 SpecifiedValue
 :
 :
-border_box
+BorderBox
 }
 }
 }
@@ -1464,7 +1477,7 @@ origin
 Origin
 :
 :
-padding_box
+PaddingBox
 |
 |
 *
@@ -1474,7 +1487,7 @@ clip
 Clip
 :
 :
-border_box
+BorderBox
 {
 dest
 .

@@ -201,6 +201,22 @@ parser
 :
 Parse
 ;
+/
+/
+FIXME
+(
+emilio
+)
+:
+These
+two
+mask
+types
+should
+be
+the
+same
+!
 impl
 From
 <
@@ -256,7 +272,7 @@ single_value
 SpecifiedValue
 :
 :
-content_box
+ContentBox
 =
 >
 mask_clip
@@ -268,7 +284,7 @@ single_value
 SpecifiedValue
 :
 :
-content_box
+ContentBox
 mask_origin
 :
 :
@@ -278,7 +294,7 @@ single_value
 SpecifiedValue
 :
 :
-padding_box
+PaddingBox
 =
 >
 mask_clip
@@ -290,7 +306,7 @@ single_value
 SpecifiedValue
 :
 :
-padding_box
+PaddingBox
 mask_origin
 :
 :
@@ -300,7 +316,7 @@ single_value
 SpecifiedValue
 :
 :
-border_box
+BorderBox
 =
 >
 mask_clip
@@ -312,7 +328,7 @@ single_value
 SpecifiedValue
 :
 :
-border_box
+BorderBox
 %
 if
 product
@@ -331,7 +347,7 @@ single_value
 SpecifiedValue
 :
 :
-fill_box
+FillBox
 =
 >
 mask_clip
@@ -343,7 +359,7 @@ single_value
 SpecifiedValue
 :
 :
-fill_box
+FillBox
 mask_origin
 :
 :
@@ -353,7 +369,7 @@ single_value
 SpecifiedValue
 :
 :
-stroke_box
+StrokeBox
 =
 >
 mask_clip
@@ -365,7 +381,7 @@ single_value
 SpecifiedValue
 :
 :
-stroke_box
+StrokeBox
 mask_origin
 :
 :
@@ -375,7 +391,7 @@ single_value
 SpecifiedValue
 :
 :
-view_box
+ViewBox
 =
 >
 mask_clip
@@ -387,7 +403,7 @@ single_value
 SpecifiedValue
 :
 :
-view_box
+ViewBox
 %
 endif
 }
@@ -1391,7 +1407,7 @@ origin
 Origin
 :
 :
-border_box
+BorderBox
 |
 |
 *
@@ -1401,7 +1417,7 @@ clip
 Clip
 :
 :
-border_box
+BorderBox
 {
 dest
 .

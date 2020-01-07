@@ -2050,7 +2050,7 @@ font_variant_caps
 T
 :
 :
-small_caps
+SmallCaps
 =
 >
 codepoint
@@ -2078,7 +2078,7 @@ font_variant_caps
 T
 :
 :
-normal
+Normal
 =
 >
 codepoint

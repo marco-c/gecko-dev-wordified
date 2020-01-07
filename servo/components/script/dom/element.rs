@@ -3179,7 +3179,7 @@ computed_value
 T
 :
 :
-visible
+Visible
 }
 /
 /
@@ -3248,7 +3248,7 @@ computed_value
 T
 :
 :
-visible
+Visible
 }
 /
 /
@@ -3317,7 +3317,7 @@ computed_value
 T
 :
 :
-hidden
+Hidden
 }
 /
 /
@@ -3386,7 +3386,7 @@ computed_value
 T
 :
 :
-hidden
+Hidden
 }
 }
 #

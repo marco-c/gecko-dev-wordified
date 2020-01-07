@@ -522,7 +522,7 @@ list_style_type
 SpecifiedValue
 :
 :
-none
+None
 %
 else
 :

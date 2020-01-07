@@ -74,6 +74,11 @@ computed_values
 :
 :
 float
+:
+:
+T
+as
+Float
 ;
 use
 style
@@ -473,13 +478,10 @@ float_kind
 )
 !
 =
-float
+Float
 :
 :
-T
-:
-:
-none
+None
 &
 &
 self_base
