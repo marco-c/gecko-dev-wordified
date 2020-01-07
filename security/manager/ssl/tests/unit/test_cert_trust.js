@@ -180,12 +180,6 @@ Ci
 nsIX509CertDB
 .
 TRUSTED_EMAIL
-|
-Ci
-.
-nsIX509CertDB
-.
-TRUSTED_OBJSIGN
 )
 ;
 certdb
