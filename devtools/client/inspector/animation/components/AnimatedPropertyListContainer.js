@@ -176,6 +176,13 @@ PropTypes
 object
 .
 isRequired
+emitEventForTest
+:
+PropTypes
+.
+func
+.
+isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -193,6 +200,7 @@ render
 const
 {
 animation
+emitEventForTest
 getAnimatedPropertyMap
 }
 =
@@ -225,6 +233,7 @@ AnimatedPropertyList
 (
 {
 animation
+emitEventForTest
 getAnimatedPropertyMap
 }
 )
