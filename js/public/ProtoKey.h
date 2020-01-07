@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsprototypes_h
+js_ProtoKey_h
 #
 define
-jsprototypes_h
+js_ProtoKey_h
 /
 *
 A
@@ -1234,6 +1234,6 @@ macro
 endif
 /
 *
-jsprototypes_h
+js_ProtoKey_h
 *
 /

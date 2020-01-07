@@ -133,7 +133,9 @@ vm_CommonPropertyNames_h
 #
 include
 "
-jsprototypes
+js
+/
+ProtoKey
 .
 h
 "

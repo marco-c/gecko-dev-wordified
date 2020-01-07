@@ -135,13 +135,6 @@ h
 #
 include
 "
-jsbytecode
-.
-h
-"
-#
-include
-"
 js
 /
 GCAPI

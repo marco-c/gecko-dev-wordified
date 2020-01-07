@@ -222,6 +222,10 @@ config
 .
 h
 "
+typedef
+uint8_t
+jsbytecode
+;
 class
 JSAtom
 ;

@@ -117,7 +117,9 @@ vm_WrapperObject_h
 #
 include
 "
-jswrapper
+js
+/
+Wrapper
 .
 h
 "

@@ -123,7 +123,9 @@ _xpc_WRAPPERFACTORY_H
 #
 include
 "
-jswrapper
+js
+/
+Wrapper
 .
 h
 "

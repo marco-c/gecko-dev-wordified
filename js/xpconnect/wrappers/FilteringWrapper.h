@@ -139,7 +139,9 @@ h
 #
 include
 "
-jswrapper
+js
+/
+CallNonGenericMethod
 .
 h
 "
@@ -148,7 +150,7 @@ include
 "
 js
 /
-CallNonGenericMethod
+Wrapper
 .
 h
 "

@@ -152,10 +152,10 @@ h
 /
 #
 ifndef
-jsalloc_h
+js_AllocPolicy_h
 #
 define
-jsalloc_h
+js_AllocPolicy_h
 #
 include
 "
@@ -1204,6 +1204,6 @@ js
 endif
 /
 *
-jsalloc_h
+js_AllocPolicy_h
 *
 /

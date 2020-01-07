@@ -233,9 +233,9 @@ thing
 See
 js
 /
-src
+public
 /
-jsalloc
+AllocPolicy
 .
 h
 .

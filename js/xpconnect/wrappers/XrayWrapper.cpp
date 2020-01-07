@@ -195,13 +195,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h
@@ -363,7 +356,9 @@ JSProto_URIError
 We
 depend
 on
-jsprototypes
+js
+/
+ProtoKey
 .
 h
 ordering
@@ -426,7 +421,9 @@ JSProto_Uint8ClampedArray
 We
 depend
 on
-jsprototypes
+js
+/
+ProtoKey
 .
 h
 ordering

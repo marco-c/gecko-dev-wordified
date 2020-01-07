@@ -594,7 +594,7 @@ AllocPolicy
 /
 -
 see
-jsalloc
+AllocPolicy
 .
 h
 /
@@ -3042,7 +3042,7 @@ AllocPolicy
 /
 -
 see
-jsalloc
+AllocPolicy
 .
 h
 /
