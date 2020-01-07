@@ -138,7 +138,6 @@ endif
 namespace
 {
 struct
-MOZ_RAII
 AutoLockPerfMap
 ;
 }
