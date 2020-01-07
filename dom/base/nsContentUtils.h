@@ -18602,6 +18602,16 @@ return
 sCookiesBehavior
 ;
 }
+static
+uint32_t
+CookiesLifetimePolicy
+(
+)
+{
+return
+sCookiesLifetimePolicy
+;
+}
 /
 /
 The
