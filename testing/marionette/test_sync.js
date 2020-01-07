@@ -58,15 +58,6 @@ MPL
 /
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 PollPromise
 }
 =

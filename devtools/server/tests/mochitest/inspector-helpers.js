@@ -25,13 +25,6 @@ use
 strict
 "
 ;
-var
-Cu
-=
-Components
-.
-utils
-;
 const
 {
 require

@@ -88,15 +88,6 @@ all
 content
 processes
 .
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

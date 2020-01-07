@@ -233,13 +233,6 @@ subsession
 .
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

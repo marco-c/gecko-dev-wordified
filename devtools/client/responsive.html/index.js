@@ -71,15 +71,6 @@ strict
 ;
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 BrowserLoader
 }
 =

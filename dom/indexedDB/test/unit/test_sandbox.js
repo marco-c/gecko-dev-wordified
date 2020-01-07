@@ -442,13 +442,6 @@ do_get_profile
 )
 ;
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 sb
 =
 new

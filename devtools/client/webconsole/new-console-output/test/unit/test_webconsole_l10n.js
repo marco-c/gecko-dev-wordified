@@ -34,15 +34,6 @@ strict
 ;
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 require
 }
 =

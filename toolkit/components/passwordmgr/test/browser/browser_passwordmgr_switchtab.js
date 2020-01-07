@@ -73,15 +73,6 @@ commonDialog
 xul
 "
 ;
-var
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
 add_task
 (
 async

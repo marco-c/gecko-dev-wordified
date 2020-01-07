@@ -139,13 +139,6 @@ NS_ASSERT
 "
 ]
 ;
-var
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

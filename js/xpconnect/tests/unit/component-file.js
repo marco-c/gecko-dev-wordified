@@ -89,13 +89,6 @@ File
 )
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 Assert
 =
 {

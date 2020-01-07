@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-let
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

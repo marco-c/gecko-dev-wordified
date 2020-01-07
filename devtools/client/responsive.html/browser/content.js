@@ -105,13 +105,6 @@ return
 ;
 }
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 gDeviceSizeWasPageSize
 =
 docShell

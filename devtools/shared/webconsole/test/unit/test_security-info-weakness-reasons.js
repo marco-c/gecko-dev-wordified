@@ -139,13 +139,6 @@ true
 }
 )
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 const
 wpl
 =

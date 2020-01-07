@@ -58,15 +58,6 @@ MPL
 /
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 ChromeWebElement
 ContentWebElement
 ContentWebFrame

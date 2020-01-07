@@ -818,13 +818,6 @@ registerCleanupFunction
 }
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 Task
 }

@@ -44,13 +44,6 @@ run_test
 (
 )
 {
-let
-Cu
-=
-Components
-.
-utils
-;
 const
 {
 require

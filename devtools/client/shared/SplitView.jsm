@@ -80,13 +80,6 @@ strict
 "
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 require
 }

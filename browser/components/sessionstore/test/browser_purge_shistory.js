@@ -97,13 +97,6 @@ function
 )
 {
 let
-Ci
-=
-Components
-.
-interfaces
-;
-let
 webNavigation
 =
 docShell

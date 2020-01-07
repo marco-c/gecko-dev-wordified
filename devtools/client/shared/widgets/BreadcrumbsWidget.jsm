@@ -108,13 +108,6 @@ strict
 "
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 ENSURE_SELECTION_VISIBLE_DELAY
 =
 50

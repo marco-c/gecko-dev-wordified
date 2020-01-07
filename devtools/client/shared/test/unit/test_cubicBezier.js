@@ -96,13 +96,6 @@ the
 CubicBezierWidget
 module
 var
-Cu
-=
-Components
-.
-utils
-;
-var
 {
 require
 }

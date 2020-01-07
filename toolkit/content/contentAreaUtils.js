@@ -1629,13 +1629,6 @@ aDocument
 aSkipPrompt
 )
 {
-const
-Ci
-=
-Components
-.
-interfaces
-;
 if
 (
 !
@@ -6690,13 +6683,6 @@ getPostData
 aDocument
 )
 {
-const
-Ci
-=
-Components
-.
-interfaces
-;
 if
 (
 aDocument

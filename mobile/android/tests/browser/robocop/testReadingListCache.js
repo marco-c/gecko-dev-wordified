@@ -99,15 +99,6 @@ chromeutils
 import
 *
 /
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 Cu
 .
 import

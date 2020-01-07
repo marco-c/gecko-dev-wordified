@@ -156,15 +156,6 @@ removeMessageListener
 sendAsyncMessage
 *
 /
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

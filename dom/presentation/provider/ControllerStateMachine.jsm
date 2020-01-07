@@ -150,15 +150,6 @@ jshint
 ignore
 :
 line
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 /
 *
 globals

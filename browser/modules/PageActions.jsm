@@ -101,15 +101,6 @@ PageActions
 ACTION_ID_BUILT_IN_SEPARATOR
 ]
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

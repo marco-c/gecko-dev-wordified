@@ -62,13 +62,6 @@ strict
 "
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 Services
 }

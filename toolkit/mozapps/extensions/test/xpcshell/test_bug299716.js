@@ -733,13 +733,6 @@ over
 HTTP
 .
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 xhr
 =
 Components

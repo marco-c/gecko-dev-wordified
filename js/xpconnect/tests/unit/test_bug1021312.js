@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 run_test
 (

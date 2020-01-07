@@ -79,13 +79,6 @@ id
 *
 /
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 TypedArrays
 =
 [

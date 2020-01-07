@@ -114,13 +114,6 @@ init
 loadHomepage
 *
 /
-var
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

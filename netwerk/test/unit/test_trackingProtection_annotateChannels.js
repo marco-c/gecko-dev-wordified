@@ -340,13 +340,6 @@ org
 "
 )
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 function
 listener
 (

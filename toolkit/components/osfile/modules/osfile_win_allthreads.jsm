@@ -196,13 +196,6 @@ undefined
 "
 )
 {
-let
-Cu
-=
-Components
-.
-utils
-;
 /
 /
 Module

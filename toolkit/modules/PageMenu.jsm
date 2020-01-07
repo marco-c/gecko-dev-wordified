@@ -69,15 +69,6 @@ PageMenuChild
 "
 ]
 ;
-var
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
 this
 .
 PageMenu

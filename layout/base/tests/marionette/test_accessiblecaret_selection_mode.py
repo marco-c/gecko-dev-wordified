@@ -1095,14 +1095,6 @@ execute_script
 '
             
 let
-Ci
-=
-Components
-.
-interfaces
-;
-            
-let
 utils
 =
 window

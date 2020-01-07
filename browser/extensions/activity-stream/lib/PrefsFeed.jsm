@@ -63,15 +63,6 @@ strict
 ;
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 actionCreators
 :
 ac

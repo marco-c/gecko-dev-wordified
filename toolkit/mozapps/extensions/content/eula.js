@@ -90,13 +90,6 @@ exported
 Startup
 *
 /
-var
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

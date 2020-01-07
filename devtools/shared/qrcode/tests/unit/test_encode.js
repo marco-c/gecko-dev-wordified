@@ -44,15 +44,6 @@ message
 .
 *
 /
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 const
 {
 require

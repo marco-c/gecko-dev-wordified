@@ -15,15 +15,6 @@ frame
 script
 *
 /
-var
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
 ChromeUtils
 .
 import

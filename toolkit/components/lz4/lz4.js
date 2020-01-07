@@ -78,13 +78,6 @@ undefined
 "
 )
 {
-let
-Cu
-=
-Components
-.
-utils
-;
 SharedAll
 =
 {

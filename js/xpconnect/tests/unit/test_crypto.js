@@ -34,13 +34,6 @@ run_test
 )
 {
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 sb
 =
 new

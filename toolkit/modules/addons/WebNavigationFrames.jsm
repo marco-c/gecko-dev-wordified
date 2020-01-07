@@ -70,13 +70,6 @@ WebNavigationFrames
 "
 ]
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 /
 *
 exported

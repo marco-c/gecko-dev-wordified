@@ -181,14 +181,6 @@ execute_async_script
 "
 "
             
-const
-Ci
-=
-Components
-.
-interfaces
-;
-            
 let
 result
 =

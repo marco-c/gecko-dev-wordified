@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 Cu
 .
 importGlobalProperties

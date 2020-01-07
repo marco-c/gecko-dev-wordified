@@ -64,13 +64,6 @@ env
 browser
 *
 /
-var
-Cu
-=
-Components
-.
-utils
-;
 const
 {
 require

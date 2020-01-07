@@ -116,15 +116,6 @@ syncTestLogging
 "
 ]
 ;
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

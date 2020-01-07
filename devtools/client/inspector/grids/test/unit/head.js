@@ -57,15 +57,6 @@ local
 /
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 require
 }
 =

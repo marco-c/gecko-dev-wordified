@@ -352,13 +352,6 @@ frame_script
 =
 >
 {
-const
-Ci
-=
-Components
-.
-interfaces
-;
 let
 utils
 =

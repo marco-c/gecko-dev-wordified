@@ -80,15 +80,6 @@ fakeSHA256HMAC
 "
 ]
 ;
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

@@ -95,13 +95,6 @@ jsm
 )
 ;
 var
-Ci
-=
-Components
-.
-interfaces
-;
-var
 gSetBackground
 =
 {

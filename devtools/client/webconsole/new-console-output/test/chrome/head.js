@@ -41,15 +41,6 @@ strict
 ;
 var
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-var
-{
 require
 }
 =

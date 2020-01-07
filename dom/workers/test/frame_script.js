@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-const
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
 let
 workers
 =

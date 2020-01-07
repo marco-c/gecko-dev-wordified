@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

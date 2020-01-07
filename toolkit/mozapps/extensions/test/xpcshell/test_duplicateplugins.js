@@ -47,13 +47,6 @@ jsm
 "
 )
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 /
 /
 This

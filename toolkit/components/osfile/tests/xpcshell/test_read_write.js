@@ -34,15 +34,6 @@ strict
 "
 ;
 var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
-var
 SHARED_PATH
 ;
 var

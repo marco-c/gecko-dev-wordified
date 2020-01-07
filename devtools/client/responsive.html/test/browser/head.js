@@ -2314,15 +2314,6 @@ no
 undef
 *
 /
-let
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 const
 {
 SessionHistory

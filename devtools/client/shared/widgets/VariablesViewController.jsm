@@ -107,15 +107,6 @@ use
 strict
 "
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 var
 {
 require

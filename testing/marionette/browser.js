@@ -69,15 +69,6 @@ frame
 /
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 WebElementEventTarget
 }
 =
