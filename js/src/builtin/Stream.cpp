@@ -25545,7 +25545,11 @@ return
 false
 ;
 }
-RootedArrayBufferObject
+Rooted
+<
+ArrayBufferViewObject
+*
+>
 view
 (
 cx
@@ -25558,7 +25562,7 @@ toObject
 .
 as
 <
-ArrayBufferObject
+ArrayBufferViewObject
 >
 (
 )
