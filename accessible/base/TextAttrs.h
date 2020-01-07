@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
