@@ -218,9 +218,6 @@ TextEditRules
 :
 CheckBidiLevelForDeletion
 (
-Selection
-*
-aSelection
 const
 EditorRawDOMPoint
 &
@@ -495,9 +492,6 @@ TextEditRules
 :
 UndefineCaretBidiLevel
 (
-Selection
-*
-aSelection
 )
 {
 MOZ_ASSERT

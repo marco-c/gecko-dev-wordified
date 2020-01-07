@@ -819,9 +819,6 @@ WillInsertText
 (
 EditAction
 aAction
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -842,9 +839,6 @@ aMaxLength
 nsresult
 DidInsertText
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -852,9 +846,6 @@ aResult
 nsresult
 WillInsertBreak
 (
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -868,9 +859,6 @@ aMaxLength
 nsresult
 DidInsertBreak
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -878,9 +866,6 @@ aResult
 nsresult
 WillSetText
 (
-Selection
-&
-aSelection
 bool
 *
 aCancel
@@ -898,9 +883,6 @@ aMaxLength
 nsresult
 DidSetText
 (
-Selection
-&
-aSelection
 nsresult
 aResult
 )
@@ -908,9 +890,6 @@ aResult
 void
 WillInsert
 (
-Selection
-&
-aSelection
 bool
 *
 aCancel
@@ -919,9 +898,6 @@ aCancel
 nsresult
 DidInsert
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -929,9 +905,6 @@ aResult
 nsresult
 WillDeleteSelection
 (
-Selection
-*
-aSelection
 nsIEditor
 :
 :
@@ -948,9 +921,6 @@ aHandled
 nsresult
 DidDeleteSelection
 (
-Selection
-*
-aSelection
 nsIEditor
 :
 :
@@ -963,9 +933,6 @@ aResult
 nsresult
 WillSetTextProperty
 (
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -977,9 +944,6 @@ aHandled
 nsresult
 DidSetTextProperty
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -987,9 +951,6 @@ aResult
 nsresult
 WillRemoveTextProperty
 (
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -1001,9 +962,6 @@ aHandled
 nsresult
 DidRemoveTextProperty
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -1011,9 +969,6 @@ aResult
 nsresult
 WillUndo
 (
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -1025,9 +980,6 @@ aHandled
 nsresult
 DidUndo
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -1035,9 +987,6 @@ aResult
 nsresult
 WillRedo
 (
-Selection
-*
-aSelection
 bool
 *
 aCancel
@@ -1049,9 +998,6 @@ aHandled
 nsresult
 DidRedo
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -1069,8 +1015,6 @@ nsIEditor
 OutputToString
 .
 *
-param
-aSelection
 *
 param
 aInFormat
@@ -1126,9 +1070,6 @@ result
 nsresult
 WillOutputText
 (
-Selection
-*
-aSelection
 const
 nsAString
 *
@@ -1149,9 +1090,6 @@ aHandled
 nsresult
 DidOutputText
 (
-Selection
-*
-aSelection
 nsresult
 aResult
 )
@@ -1224,9 +1162,6 @@ content
 nsresult
 CreateBogusNodeIfNeeded
 (
-Selection
-*
-aSelection
 )
 ;
 /
@@ -1251,9 +1186,6 @@ aMaxLength
 nsresult
 TruncateInsertionIfNeeded
 (
-Selection
-*
-aSelection
 const
 nsAString
 *
@@ -1546,17 +1478,11 @@ aCreateMozBR
 void
 UndefineCaretBidiLevel
 (
-Selection
-*
-aSelection
 )
 ;
 nsresult
 CheckBidiLevelForDeletion
 (
-Selection
-*
-aSelection
 const
 EditorRawDOMPoint
 &
@@ -1579,9 +1505,6 @@ HideLastPWInput
 nsresult
 CollapseSelectionToTrailingBRIfNeeded
 (
-Selection
-*
-aSelection
 )
 ;
 bool
