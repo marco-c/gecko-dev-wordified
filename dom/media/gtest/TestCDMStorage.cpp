@@ -2561,6 +2561,9 @@ self
 )
 )
 ;
+nsCString
+failureReason
+;
 self
 -
 >
@@ -2582,6 +2585,7 @@ true
 GetMainThreadEventTarget
 (
 )
+failureReason
 )
 ;
 for

@@ -249,6 +249,9 @@ aAllowPersistentState
 nsIEventTarget
 *
 aMainThread
+nsCString
+&
+aOutFailureReason
 )
 ;
 void
@@ -1057,6 +1060,11 @@ false
 ;
 bool
 mActorDestroyed
+=
+false
+;
+bool
+mAbnormalShutdown
 =
 false
 ;
