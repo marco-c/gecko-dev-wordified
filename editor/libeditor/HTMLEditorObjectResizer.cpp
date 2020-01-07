@@ -2274,6 +2274,10 @@ mResizedObject
 aResizedElement
 )
 ;
+mHasShownResizers
+=
+true
+;
 return
 NS_OK
 ;
@@ -3224,6 +3228,10 @@ PreventDefault
 (
 )
 ;
+mResizerUsedCount
++
++
+;
 mOriginalX
 =
 aClientX
@@ -3275,6 +3283,10 @@ moving
 the
 element
 !
+mGrabberUsedCount
++
++
+;
 mOriginalX
 =
 aClientX

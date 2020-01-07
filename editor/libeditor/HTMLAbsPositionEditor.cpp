@@ -1624,6 +1624,10 @@ mGrabber
 NS_ERROR_FAILURE
 )
 ;
+mHasShownGrabber
+=
+true
+;
 /
 /
 and
