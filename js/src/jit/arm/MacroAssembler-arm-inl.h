@@ -1786,10 +1786,8 @@ CodeOffset
 MacroAssembler
 :
 :
-add32ToPtrWithPatch
+sub32FromStackPtrWithPatch
 (
-Register
-src
 Register
 dest
 )
@@ -1821,9 +1819,11 @@ scratch
 Always
 )
 ;
-ma_add
+ma_sub
 (
-src
+getStackPointer
+(
+)
 scratch
 dest
 )
@@ -1836,7 +1836,7 @@ void
 MacroAssembler
 :
 :
-patchAdd32ToPtr
+patchSub32FromStackPtr
 (
 CodeOffset
 offset

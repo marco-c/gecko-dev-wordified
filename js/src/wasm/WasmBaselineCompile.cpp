@@ -7547,9 +7547,8 @@ stackAddOffset_
 =
 masm
 .
-add32ToPtrWithPatch
+sub32FromStackPtrWithPatch
 (
-sp_
 tmp0
 )
 ;
@@ -7570,12 +7569,11 @@ patchAllocStack
 {
 masm
 .
-patchAdd32ToPtr
+patchSub32FromStackPtr
 (
 stackAddOffset_
 Imm32
 (
--
 int32_t
 (
 maxStackHeight_
