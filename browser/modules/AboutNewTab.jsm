@@ -222,6 +222,11 @@ about
 :
 newtab
 "
+"
+about
+:
+welcome
+"
 ]
 )
 ;

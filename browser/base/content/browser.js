@@ -2770,6 +2770,11 @@ about
 :
 sessionrestore
 "
+"
+about
+:
+welcome
+"
 ]
 ;
 function
