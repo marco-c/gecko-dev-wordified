@@ -49,7 +49,7 @@ by
 the
 /
 /
-DisableSysAddonUpdate
+DisableSystemAddonUpdate
 enterprise
 policy
 .
@@ -460,7 +460,7 @@ policies
 :
 {
 "
-DisableSysAddonUpdate
+DisableSystemAddonUpdate
 "
 :
 true
