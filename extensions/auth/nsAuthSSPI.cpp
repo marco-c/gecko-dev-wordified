@@ -206,6 +206,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
