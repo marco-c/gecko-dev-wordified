@@ -201,8 +201,9 @@ APZSampler
 APZSampler
 (
 )
-{
-}
+=
+default
+;
 void
 APZSampler
 :

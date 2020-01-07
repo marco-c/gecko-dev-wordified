@@ -1166,8 +1166,9 @@ virtual
 CheckerboardFlushObserver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr
@@ -1757,8 +1758,9 @@ APZCTreeManager
 APZCTreeManager
 (
 )
-{
-}
+=
+default
+;
 void
 APZCTreeManager
 :
@@ -23064,7 +23066,9 @@ ToUnknownMatrix
 (
 )
 ;
+const
 Matrix4x4
+&
 contentTransform
 =
 aScrollableContentTransform

@@ -525,8 +525,9 @@ virtual
 OverscrollEffectBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 ConsumeOverscroll

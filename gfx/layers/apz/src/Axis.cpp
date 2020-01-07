@@ -2676,8 +2676,6 @@ return
 false
 ;
 }
-else
-{
 mVelocity
 *
 =
@@ -2698,7 +2696,6 @@ ToMilliseconds
 )
 )
 ;
-}
 AXIS_LOG
 (
 "

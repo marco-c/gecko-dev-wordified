@@ -183,7 +183,9 @@ UpdateDelta
 (
 TimeStamp
 aTime
+const
 nsPoint
+&
 aDelta
 const
 nsSize
@@ -196,7 +198,9 @@ UpdateDestination
 (
 TimeStamp
 aTime
+const
 nsPoint
+&
 aDestination
 const
 nsSize

@@ -203,8 +203,9 @@ explicit
 AsyncPanZoomAnimation
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 DoSample
@@ -431,8 +432,9 @@ virtual
 AsyncPanZoomAnimation
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

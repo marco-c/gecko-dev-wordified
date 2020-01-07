@@ -212,8 +212,9 @@ InputQueue
 InputQueue
 (
 )
-{
-}
+=
+default
+;
 InputQueue
 :
 :
