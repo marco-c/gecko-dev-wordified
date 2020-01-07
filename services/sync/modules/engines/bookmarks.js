@@ -985,10 +985,8 @@ modified
 if
 (
 dateAdded
-!
-=
-=
-undefined
+>
+0
 )
 {
 result
