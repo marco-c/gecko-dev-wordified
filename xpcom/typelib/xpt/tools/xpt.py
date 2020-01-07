@@ -4013,6 +4013,13 @@ self
 data_pool_offset
 =
 data_pool_offset
+        
+self
+.
+names
+=
+{
+}
     
 def
 write
@@ -4025,6 +4032,22 @@ s
 if
 s
 :
+            
+if
+s
+in
+self
+.
+names
+:
+                
+return
+self
+.
+names
+[
+s
+]
             
 offset
 =
@@ -4041,6 +4064,15 @@ self
 data_pool_offset
 +
 1
+            
+self
+.
+names
+[
+s
+]
+=
+offset
             
 self
 .
