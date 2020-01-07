@@ -162,9 +162,7 @@ ok
 (
 f1
 instanceof
-Ci
-.
-nsIDOMBlob
+Blob
 "
 Should
 be

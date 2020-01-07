@@ -804,7 +804,7 @@ list
 param
 aFile
 (
-nsIDOMBlob
+Blob
 /
 nsIFile
 )

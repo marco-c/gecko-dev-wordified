@@ -149,9 +149,6 @@ Transport
 .
 h
 "
-class
-nsIDOMBlob
-;
 namespace
 mozilla
 {

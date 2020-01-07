@@ -270,7 +270,7 @@ aData
 nsresult
 SendBlob
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 )
