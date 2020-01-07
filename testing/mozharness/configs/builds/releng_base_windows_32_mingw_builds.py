@@ -143,6 +143,16 @@ releng_base_linux_64_builds
 .
 py
     
+"
+buildbot_json_path
+"
+:
+"
+buildprops
+.
+json
+"
+    
 '
 app_ini_path
 '

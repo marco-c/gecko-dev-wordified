@@ -58,6 +58,16 @@ vcs_share_base
 HG_SHARE_BASE_DIR
     
 "
+buildbot_json_path
+"
+:
+"
+buildprops
+.
+json
+"
+    
+"
 default_actions
 "
 :
@@ -65,6 +75,14 @@ default_actions
         
 '
 clobber
+'
+        
+'
+read
+-
+buildbot
+-
+config
 '
         
 '

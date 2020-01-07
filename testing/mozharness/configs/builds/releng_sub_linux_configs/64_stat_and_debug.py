@@ -30,6 +30,16 @@ build
     
 ]
     
+"
+buildbot_json_path
+"
+:
+"
+buildprops
+.
+json
+"
+    
 '
 app_ini_path
 '
