@@ -123,6 +123,16 @@ svg
 as
 generic
 ;
+pub
+use
+values
+:
+:
+specified
+:
+:
+SVGPaintOrder
+;
 /
 /
 /
