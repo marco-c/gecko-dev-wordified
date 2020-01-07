@@ -5584,9 +5584,15 @@ jsPathPrefix
 js
 :
 :
-IsAtomsCompartment
+IsAtomsRealm
+(
+JS
+:
+:
+GetRealmForCompartment
 (
 aCompartment
+)
 )
 ?
 NS_LITERAL_CSTRING

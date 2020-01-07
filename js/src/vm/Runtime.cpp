@@ -935,7 +935,7 @@ atomsAddedWhileSweeping_
 (
 nullptr
 )
-atomsCompartment_
+atomsRealm_
 (
 nullptr
 )
@@ -1242,7 +1242,7 @@ ScopedJSDeletePtr
 <
 Realm
 >
-atomsCompartment
+atomsRealm
 (
 js_new
 <
@@ -1261,11 +1261,11 @@ options
 if
 (
 !
-atomsCompartment
+atomsRealm
 |
 |
 !
-atomsCompartment
+atomsRealm
 -
 >
 init
@@ -1298,7 +1298,7 @@ compartments
 .
 append
 (
-atomsCompartment
+atomsRealm
 .
 get
 (
@@ -1308,7 +1308,7 @@ get
 return
 false
 ;
-atomsCompartment
+atomsRealm
 -
 >
 setIsSystem
@@ -1316,10 +1316,10 @@ setIsSystem
 true
 )
 ;
-atomsCompartment
+atomsRealm
 -
 >
-setIsAtomsCompartment
+setIsAtomsRealm
 (
 )
 ;
@@ -1332,9 +1332,9 @@ forget
 this
 -
 >
-atomsCompartment_
+atomsRealm_
 =
-atomsCompartment
+atomsRealm
 .
 forget
 (
@@ -1830,7 +1830,7 @@ finish
 (
 )
 ;
-atomsCompartment_
+atomsRealm_
 =
 nullptr
 ;
@@ -2492,12 +2492,12 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
 >
-isAtomsCompartment
+isAtomsRealm
 (
 )
 )
@@ -4317,7 +4317,7 @@ Zone
 *
 zone
 =
-atomsCompartment_
+atomsRealm_
 -
 >
 zone

@@ -7650,11 +7650,13 @@ unwrappedException
 ;
 if
 (
-IsAtomsCompartment
-(
-compartment
+realm
 (
 )
+-
+>
+isAtomsRealm
+(
 )
 )
 return

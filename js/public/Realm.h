@@ -794,10 +794,9 @@ realm
 is
 /
 /
-in
 the
 atoms
-compartment
+realm
 .
 extern
 JS_PUBLIC_API

@@ -3051,11 +3051,14 @@ JS_FRIEND_API
 (
 bool
 )
-IsAtomsCompartment
+IsAtomsRealm
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
-comp
+realm
 )
 ;
 extern

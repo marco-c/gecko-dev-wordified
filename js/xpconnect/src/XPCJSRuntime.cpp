@@ -6596,9 +6596,15 @@ if
 js
 :
 :
-IsAtomsCompartment
+IsAtomsRealm
+(
+JS
+:
+:
+GetRealmForCompartment
 (
 c
+)
 )
 )
 {

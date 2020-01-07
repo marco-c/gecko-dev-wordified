@@ -257,7 +257,7 @@ runtime
 )
 -
 >
-atomsCompartment
+atomsRealm
 (
 lock
 )

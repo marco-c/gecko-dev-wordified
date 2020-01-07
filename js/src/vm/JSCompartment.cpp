@@ -402,10 +402,6 @@ isSystem_
 (
 false
 )
-isAtomsCompartment_
-(
-false
-)
 isSelfHosting
 (
 false
@@ -998,7 +994,7 @@ created
 in
 the
 atoms
-compartment
+zone
 which
 may
 be
@@ -4112,7 +4108,16 @@ name
 MOZ_ASSERT
 (
 !
-isAtomsCompartment
+JS
+:
+:
+GetRealmForCompartment
+(
+this
+)
+-
+>
+isAtomsRealm
 (
 )
 )

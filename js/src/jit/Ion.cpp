@@ -2126,7 +2126,7 @@ allocated
 in
 the
 atoms
-compartment
+zone
 .
 AutoLockForExclusiveAccess
 lock
@@ -3538,7 +3538,7 @@ allocated
 in
 the
 atoms
-compartment
+zone
 so
 do
 not
@@ -3586,7 +3586,7 @@ runtime
 )
 -
 >
-atomsCompartment
+atomsRealm
 (
 lock
 )

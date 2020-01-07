@@ -795,7 +795,7 @@ atomsZone
 runtime
 -
 >
-unsafeAtomsCompartment
+unsafeAtomsRealm
 (
 )
 -
@@ -1062,7 +1062,7 @@ atomsZone
 runtime
 -
 >
-unsafeAtomsCompartment
+unsafeAtomsRealm
 (
 )
 -
