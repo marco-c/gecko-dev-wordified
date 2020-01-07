@@ -189,9 +189,6 @@ NS_WEB_BROWSER_FIND_CID
 }
 }
 class
-nsISelection
-;
-class
 nsIDOMWindow
 ;
 class
@@ -531,7 +528,13 @@ aEndPt
 nsIDOMDocument
 *
 aDoc
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSel
 bool

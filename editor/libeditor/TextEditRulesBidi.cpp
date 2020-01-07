@@ -325,11 +325,6 @@ frameSelection
 aSelection
 -
 >
-AsSelection
-(
-)
--
->
 GetFrameSelection
 (
 )

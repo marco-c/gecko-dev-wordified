@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -2644,7 +2637,7 @@ aEndPt
 nsIDOMDocument
 *
 aDoc
-nsISelection
+Selection
 *
 aSel
 bool
@@ -2654,17 +2647,6 @@ aWrap
 NS_ENSURE_ARG_POINTER
 (
 aSel
-)
-;
-Selection
-*
-sel
-=
-aSel
--
->
-AsSelection
-(
 )
 ;
 /
@@ -2677,7 +2659,7 @@ selection
 uint32_t
 count
 =
-sel
+aSel
 -
 >
 RangeCount
@@ -2848,7 +2830,7 @@ be
 .
 range
 =
-sel
+aSel
 -
 >
 GetRangeAt
@@ -2996,7 +2978,7 @@ aWrap
 {
 range
 =
-sel
+aSel
 -
 >
 GetRangeAt
@@ -3141,7 +3123,7 @@ aWrap
 {
 range
 =
-sel
+aSel
 -
 >
 GetRangeAt
@@ -3287,7 +3269,7 @@ aWrap
 {
 range
 =
-sel
+aSel
 -
 >
 GetRangeAt

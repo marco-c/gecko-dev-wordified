@@ -2151,11 +2151,6 @@ StealNSResult
 selection
 -
 >
-AsSelection
-(
-)
--
->
 AddRangeInternal
 (
 *

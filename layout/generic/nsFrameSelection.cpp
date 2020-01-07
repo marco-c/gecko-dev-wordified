@@ -10094,7 +10094,7 @@ windows
 applications
 yet
 .
-nsISelection
+Selection
 *
 domSel
 =

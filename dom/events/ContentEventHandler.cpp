@@ -23110,9 +23110,9 @@ fine
 without
 ISM
 .
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 sel
 ;
@@ -23137,15 +23137,6 @@ mRootContent
 mSelection
 =
 sel
-?
-sel
--
->
-AsSelection
-(
-)
-:
-nullptr
 ;
 if
 (

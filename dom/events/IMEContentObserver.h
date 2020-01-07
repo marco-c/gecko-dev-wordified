@@ -890,7 +890,10 @@ const
 nsresult
 GetSelectionAndRoot
 (
-nsISelection
+dom
+:
+:
+Selection
 *
 *
 aSelection
