@@ -557,7 +557,6 @@ NETXHR
 )
 ui
 :
-new
 UiState
 (
 {

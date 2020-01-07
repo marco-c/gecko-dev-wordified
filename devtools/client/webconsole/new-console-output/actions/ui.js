@@ -219,12 +219,7 @@ UI
 FILTER_BAR
 uiState
 .
-get
-(
-"
 filterBarVisible
-"
-)
 )
 ;
 }
@@ -276,12 +271,7 @@ UI
 PERSIST
 uiState
 .
-get
-(
-"
 persistLogs
-"
-)
 )
 ;
 }
