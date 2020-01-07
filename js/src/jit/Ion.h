@@ -537,6 +537,14 @@ JSScript
 script
 )
 ;
+bool
+CanIonInlineScript
+(
+JSScript
+*
+script
+)
+;
 MOZ_MUST_USE
 bool
 IonCompileScriptForBaseline
