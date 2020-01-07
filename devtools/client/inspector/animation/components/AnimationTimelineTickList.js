@@ -599,7 +599,9 @@ sidebarWidth
 :
 state
 .
-animationSidebar
+animations
+.
+sidebarSize
 .
 width
 }
