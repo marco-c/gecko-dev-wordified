@@ -1586,6 +1586,14 @@ warningFlag
 chrome
 javascript
 "
+false
+/
+*
+from
+private
+window
+*
+/
 )
 ;
 console

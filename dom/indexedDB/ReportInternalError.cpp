@@ -247,6 +247,16 @@ aLine
 "
 indexedDB
 "
+false
+/
+*
+no
+IDB
+in
+private
+window
+*
+/
 )
 ;
 }

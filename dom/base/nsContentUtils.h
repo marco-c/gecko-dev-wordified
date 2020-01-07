@@ -6556,6 +6556,8 @@ const
 char
 *
 classification
+bool
+aFromPrivateWindow
 )
 ;
 /

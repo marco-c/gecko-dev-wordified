@@ -277,6 +277,8 @@ char
 aCategory
 uint64_t
 aInnerWindowID
+bool
+aFromPrivateWindow
 )
 ;
 void
@@ -334,6 +336,8 @@ char
 aCategory
 uint64_t
 aInnerWindowID
+bool
+aFromPrivateWindow
 )
 ;
 /

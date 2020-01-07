@@ -730,6 +730,14 @@ aLogLevel
 chrome
 javascript
 "
+false
+/
+*
+from
+private
+window
+*
+/
 )
 ;
 console

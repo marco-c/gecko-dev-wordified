@@ -366,6 +366,8 @@ LogBlockedCORSRequest
 (
 uint64_t
 aInnerWindowID
+bool
+aPrivateBrowsing
 const
 nsAString
 &

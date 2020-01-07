@@ -1052,6 +1052,14 @@ warningFlag
 chrome
 registration
 "
+false
+/
+*
+from
+private
+window
+*
+/
 )
 ;
 if

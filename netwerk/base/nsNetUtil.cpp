@@ -15106,6 +15106,16 @@ warningFlag
 CSP
 "
 innerWindowId
+!
+!
+aLoadInfo
+-
+>
+GetOriginAttributes
+(
+)
+.
+mPrivateBrowsingId
 )
 ;
 Telemetry

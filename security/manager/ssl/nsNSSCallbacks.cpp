@@ -8373,6 +8373,16 @@ msg
 "
 SSL
 "
+!
+!
+infoObject
+-
+>
+GetOriginAttributes
+(
+)
+.
+mPrivateBrowsingId
 )
 ;
 }

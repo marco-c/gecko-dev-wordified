@@ -3640,6 +3640,16 @@ errorString
 "
 SSL
 "
+!
+!
+socketInfo
+-
+>
+GetOriginAttributes
+(
+)
+.
+mPrivateBrowsingId
 )
 ;
 }
