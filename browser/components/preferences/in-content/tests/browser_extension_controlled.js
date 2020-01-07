@@ -840,7 +840,8 @@ textContent
 An
 extension
 set_homepage
-controls
+is
+controlling
 your
 home
 page
@@ -2720,7 +2721,8 @@ textContent
 An
 extension
 set_newtab
-controls
+is
+controlling
 your
 New
 Tab
