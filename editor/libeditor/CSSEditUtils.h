@@ -386,6 +386,7 @@ equiv
 .
 *
 /
+static
 bool
 IsCSSEditableProperty
 (
@@ -619,6 +620,7 @@ property
 .
 *
 /
+static
 nsresult
 GetSpecifiedProperty
 (
@@ -633,6 +635,7 @@ nsAString
 aValue
 )
 ;
+static
 nsresult
 GetComputedProperty
 (
@@ -829,6 +832,7 @@ value
 .
 *
 /
+static
 bool
 IsCSSInvertible
 (
@@ -879,6 +883,7 @@ prefs
 .
 *
 /
+static
 void
 GetDefaultBackgroundColor
 (
@@ -924,6 +929,7 @@ prefs
 .
 *
 /
+static
 void
 GetDefaultLengthUnit
 (
@@ -1021,6 +1027,7 @@ eComputed
 .
 *
 /
+static
 nsresult
 GetCSSEquivalentToHTMLInlineStyleSet
 (
@@ -1172,6 +1179,7 @@ value
 .
 *
 /
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -1191,6 +1199,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -1211,6 +1220,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -1368,6 +1378,7 @@ set
 .
 *
 /
+static
 bool
 HaveCSSEquivalentStyles
 (
@@ -1715,6 +1726,7 @@ part
 .
 *
 /
+static
 void
 ParseLength
 (
@@ -1819,6 +1831,7 @@ bool
 IsCSSPrefChecked
 (
 )
+const
 ;
 /
 *
@@ -1902,6 +1915,7 @@ styles
 .
 *
 /
+static
 bool
 ElementsSameStyle
 (
@@ -1919,6 +1933,7 @@ Element
 aSecondNode
 )
 ;
+static
 bool
 ElementsSameStyle
 (
@@ -1989,6 +2004,7 @@ aCssDecl
 .
 *
 /
+static
 nsresult
 GetInlineStyles
 (
@@ -2067,6 +2083,7 @@ itself
 )
 *
 /
+static
 dom
 :
 :
@@ -2098,6 +2115,7 @@ null
 .
 *
 /
+static
 already_AddRefed
 <
 nsComputedDOMStyle
@@ -2153,6 +2171,7 @@ atom
 .
 *
 /
+static
 void
 GetCSSPropertyAtom
 (
@@ -2270,6 +2289,7 @@ RemoveCSSEquivalentToHTMLInlineStyleSet
 .
 *
 /
+static
 void
 BuildCSSDeclarations
 (
@@ -2436,6 +2456,7 @@ RemoveCSSEquivalentToHTMLInlineStyleSet
 .
 *
 /
+static
 void
 GenerateCSSDeclarationsFromHTMLStyle
 (
@@ -2530,6 +2551,7 @@ eComputed
 .
 *
 /
+static
 nsresult
 GetCSSInlinePropertyBase
 (

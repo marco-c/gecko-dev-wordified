@@ -1891,6 +1891,9 @@ for
 the
 node
 aNode
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -2934,6 +2937,9 @@ transaction
 )
 ;
 }
+/
+/
+static
 nsresult
 CSSEditUtils
 :
@@ -2963,6 +2969,9 @@ eSpecified
 )
 ;
 }
+/
+/
+static
 nsresult
 CSSEditUtils
 :
@@ -2992,6 +3001,9 @@ eComputed
 )
 ;
 }
+/
+/
+static
 nsresult
 CSSEditUtils
 :
@@ -3183,6 +3195,9 @@ return
 NS_OK
 ;
 }
+/
+/
+static
 already_AddRefed
 <
 nsComputedDOMStyle
@@ -3413,6 +3428,9 @@ value
 on
 a
 node
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -3452,6 +3470,9 @@ need
 it
 for
 GetCSSBackgroundColorState
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -3651,6 +3672,9 @@ CSS
 Indent
 /
 Outdent
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -3756,6 +3780,9 @@ query
 .
 .
 .
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -4163,6 +4190,9 @@ take
 )
 ;
 }
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -4468,6 +4498,9 @@ the
 equivalence
 table
 aEquivTable
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -4728,6 +4761,9 @@ for
 the
 node
 aNode
+/
+/
+static
 void
 CSSEditUtils
 :
@@ -5685,6 +5721,9 @@ or
 /
 computed
 .
+/
+/
+static
 nsresult
 CSSEditUtils
 :
@@ -6000,6 +6039,9 @@ not
 modify
 aValue
 .
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -6053,6 +6095,9 @@ aStyleType
 )
 ;
 }
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -6111,6 +6156,9 @@ aStyleType
 )
 ;
 }
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -7306,6 +7354,7 @@ CSSEditUtils
 IsCSSPrefChecked
 (
 )
+const
 {
 return
 mIsCSSPrefChecked
@@ -7352,6 +7401,9 @@ ID
 or
 a
 class
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -7427,6 +7479,9 @@ secondElement
 )
 ;
 }
+/
+/
+static
 bool
 CSSEditUtils
 :
@@ -7940,6 +7995,9 @@ return
 true
 ;
 }
+/
+/
+static
 nsresult
 CSSEditUtils
 :
@@ -8031,6 +8089,9 @@ return
 NS_OK
 ;
 }
+/
+/
+static
 Element
 *
 CSSEditUtils
