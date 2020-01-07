@@ -1187,10 +1187,9 @@ path
 )
     
 def
-setup
+install_requirements
 (
 self
-kwargs
 )
 :
         
@@ -1220,6 +1219,14 @@ browser
 requirements
 )
 )
+    
+def
+setup
+(
+self
+kwargs
+)
+:
         
 self
 .
@@ -2839,6 +2846,12 @@ product
 venv
 prompt
 sub_product
+)
+    
+setup_cls
+.
+install_requirements
+(
 )
     
 if
