@@ -678,6 +678,16 @@ ErrorResult
 aRv
 )
 ;
+nsresult
+LoadURI
+(
+nsIURI
+*
+aURI
+bool
+aOriginalSrc
+)
+;
 /
 *
 *
