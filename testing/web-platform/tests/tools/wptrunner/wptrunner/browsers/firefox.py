@@ -1836,7 +1836,7 @@ self
 .
 prefs_root
 "
-prefs_general
+user
 .
 js
 "
