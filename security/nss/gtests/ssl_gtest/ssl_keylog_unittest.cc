@@ -187,8 +187,9 @@ void
 SetUp
 (
 )
+override
 {
-TlsConnectTestBase
+TlsConnectGeneric
 :
 :
 SetUp

@@ -2583,4 +2583,4 @@ kSecStatusTestValuesArr
 /
 /
 namespace
-nspr_test
+nss_test

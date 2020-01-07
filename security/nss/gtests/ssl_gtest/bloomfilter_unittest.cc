@@ -726,4 +726,4 @@ kBloomFilterConfigurations
 /
 /
 namespace
-nspr_test
+nss_test

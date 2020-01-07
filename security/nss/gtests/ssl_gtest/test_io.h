@@ -547,6 +547,7 @@ peer
 void
 SetPacketFilter
 (
+const
 std
 :
 :
@@ -554,9 +555,15 @@ shared_ptr
 <
 PacketFilter
 >
+&
 filter
 )
+{
+filter_
+=
+filter
 ;
+}
 /
 /
 Drops
@@ -1192,8 +1199,7 @@ timers_
 }
 /
 /
-end
-of
 namespace
+nss_test
 #
 endif

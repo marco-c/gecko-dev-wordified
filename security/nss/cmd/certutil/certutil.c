@@ -10313,6 +10313,9 @@ FPS
 Delete
 a
 key
+and
+associated
+certificate
 from
 the
 database

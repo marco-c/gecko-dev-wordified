@@ -408,11 +408,13 @@ TlsConnectTestBase
 (
 )
 ;
+virtual
 void
 SetUp
 (
 )
 ;
+virtual
 void
 TearDown
 (
@@ -1966,7 +1968,7 @@ std
 :
 shared_ptr
 <
-TlsInspectorRecordHandshakeMessage
+TlsHandshakeRecorder
 >
 capture_hrr_
 ;

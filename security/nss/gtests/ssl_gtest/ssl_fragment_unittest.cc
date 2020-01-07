@@ -878,7 +878,7 @@ FragmentClientPackets
 client_
 -
 >
-SetPacketFilter
+SetFilter
 (
 std
 :
@@ -909,7 +909,7 @@ FragmentServerPackets
 server_
 -
 >
-SetPacketFilter
+SetFilter
 (
 std
 :
