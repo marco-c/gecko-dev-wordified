@@ -4021,7 +4021,9 @@ win
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
