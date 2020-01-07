@@ -1545,7 +1545,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 case
