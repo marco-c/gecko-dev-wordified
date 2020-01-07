@@ -5144,15 +5144,7 @@ application
         
 cmd
 =
-self
-.
-query_exe
-(
-"
-mozinstall
-"
-default
-=
+[
 self
 .
 query_python_path
@@ -5161,12 +5153,7 @@ query_python_path
 mozinstall
 "
 )
-return_type
-=
-"
-list
-"
-)
+]
         
 if
 app
