@@ -4235,6 +4235,10 @@ mComputedStyle
 aImageURLs
 )
 ;
+ClearCurrentStyleSources
+(
+)
+;
 }
 /
 /
