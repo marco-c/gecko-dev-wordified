@@ -9540,6 +9540,10 @@ function
 (
 node
 reason
+=
+"
+nodeselected
+"
 )
 {
 let
@@ -9664,12 +9668,9 @@ selection
 setNodeFront
 (
 node
+{
 reason
-|
-|
-"
-nodeselected
-"
+}
 )
 ;
 }

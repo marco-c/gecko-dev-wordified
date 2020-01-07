@@ -677,11 +677,15 @@ props
 setSelectedNode
 (
 nodeFront
+{
+reason
+:
 "
 layout
 -
 panel
 "
+}
 )
 .
 catch

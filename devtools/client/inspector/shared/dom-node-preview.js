@@ -1483,6 +1483,9 @@ setNodeFront
 this
 .
 nodeFront
+{
+reason
+:
 "
 dom
 -
@@ -1490,6 +1493,7 @@ node
 -
 preview
 "
+}
 )
 ;
 }

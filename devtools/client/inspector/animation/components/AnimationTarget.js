@@ -586,11 +586,15 @@ onInspectIconClick
 setSelectedNode
 (
 nodeFront
+{
+reason
+:
 "
 animation
 -
 panel
 "
+}
 )
 }
 )
