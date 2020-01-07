@@ -1579,6 +1579,12 @@ true
 ;
 SET_DEFAULT
 (
+spectreObjectMitigationsMisc
+false
+)
+;
+SET_DEFAULT
+(
 spectreStringMitigations
 true
 )
