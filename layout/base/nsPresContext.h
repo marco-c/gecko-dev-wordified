@@ -1372,6 +1372,10 @@ mRestyleManager
 ;
 return
 mRestyleManager
+.
+get
+(
+)
 ;
 }
 mozilla
@@ -7507,7 +7511,10 @@ nsAnimationManager
 >
 mAnimationManager
 ;
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :
