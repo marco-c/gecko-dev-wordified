@@ -951,11 +951,6 @@ test_locale
 js
 "
 "
-test_manifest
-.
-js
-"
-"
 test_onPropertyChanged_appDisabled
 .
 js

@@ -91,6 +91,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 aboutURL
 :
 "
@@ -482,6 +485,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -581,6 +587,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -680,6 +689,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -784,6 +796,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -860,6 +875,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -936,6 +954,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1012,6 +1033,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1090,6 +1114,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1172,6 +1199,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1256,6 +1286,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1336,6 +1369,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1418,6 +1454,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1522,6 +1561,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1624,6 +1666,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateKey
 :
 "
@@ -1708,6 +1753,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateKey
 :
 "
@@ -1805,6 +1853,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsURL
 :
 "
@@ -1903,6 +1954,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1997,6 +2051,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2065,6 +2122,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsURL
 :
 "
@@ -2187,6 +2247,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2303,6 +2366,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2386,6 +2452,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2481,6 +2550,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -2563,6 +2635,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2638,6 +2713,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 optionsType
 :
 "
@@ -2737,6 +2815,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -2816,6 +2897,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -2910,6 +2994,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -3002,6 +3089,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -3111,6 +3201,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 name
 :
 "
