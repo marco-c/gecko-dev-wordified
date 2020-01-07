@@ -105,9 +105,9 @@ common
 import
 (
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
     
-generic_worker_add_public_artifacts
+generic_worker_add_artifacts
     
 docker_worker_add_gecko_vcs_env_vars
     
@@ -366,7 +366,7 @@ True
 }
 )
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
 (
 config
 job
@@ -710,7 +710,7 @@ worker
 '
 ]
     
-generic_worker_add_public_artifacts
+generic_worker_add_artifacts
 (
 config
 job

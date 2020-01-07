@@ -93,6 +93,14 @@ import
 absolute_import
 print_function
 unicode_literals
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
 SECRET_SCOPE
 =
 '
@@ -351,7 +359,7 @@ extra
         
 )
 def
-add_public_artifacts
+add_artifacts
 (
 config
 job
@@ -384,11 +392,10 @@ append
 name
 '
 :
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+taskdesc
+)
         
 '
 path
@@ -407,7 +414,7 @@ directory
 }
 )
 def
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
 (
 config
 job
@@ -419,8 +426,7 @@ taskdesc
 "
 "
 Adds
-a
-public
+an
 artifact
 directory
 to
@@ -430,7 +436,7 @@ task
 "
 "
     
-add_public_artifacts
+add_artifacts
 (
 config
 job
@@ -448,7 +454,7 @@ artifacts
 '
 )
 def
-generic_worker_add_public_artifacts
+generic_worker_add_artifacts
 (
 config
 job
@@ -460,8 +466,7 @@ taskdesc
 "
 "
 Adds
-a
-public
+an
 artifact
 directory
 to
@@ -471,7 +476,43 @@ task
 "
 "
     
-add_public_artifacts
+#
+This
+public
+/
+build
+is
+the
+location
+on
+disk
+;
+it
+doesn
+'
+t
+necessarily
+    
+#
+mean
+the
+artifacts
+will
+be
+public
+;
+that
+is
+set
+via
+the
+artifact_prefix
+    
+#
+attribute
+.
+    
+add_artifacts
 (
 config
 job

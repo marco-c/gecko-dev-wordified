@@ -110,7 +110,7 @@ docker_worker_add_workspace_cache
     
 docker_worker_setup_secrets
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
     
 docker_worker_add_tooltool
     
@@ -330,7 +330,7 @@ artifacts
 [
 ]
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
 (
 config
 job

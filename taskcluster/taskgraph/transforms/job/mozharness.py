@@ -134,11 +134,11 @@ docker_worker_add_gecko_vcs_env_vars
     
 docker_worker_setup_secrets
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
     
 docker_worker_add_tooltool
     
-generic_worker_add_public_artifacts
+generic_worker_add_artifacts
     
 support_vcs_checkout
 )
@@ -1115,7 +1115,7 @@ proxy
 '
 )
     
-docker_worker_add_public_artifacts
+docker_worker_add_artifacts
 (
 config
 job
@@ -1981,7 +1981,7 @@ worker
 '
 ]
     
-generic_worker_add_public_artifacts
+generic_worker_add_artifacts
 (
 config
 job
