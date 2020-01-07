@@ -283,6 +283,8 @@ n
 "
 )
 ;
+TalosPowersContent
+.
 goQuitApplication
 (
 )
