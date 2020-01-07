@@ -20349,14 +20349,9 @@ aPtr
 )
 {
 return
-aPtr
-.
-template
-downcast
-<
-T
->
+Move
 (
+aPtr
 )
 ;
 }

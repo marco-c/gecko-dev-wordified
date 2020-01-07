@@ -1729,7 +1729,7 @@ enabled
 static
 already_AddRefed
 <
-Event
+TouchEvent
 >
 TouchEvent
 :

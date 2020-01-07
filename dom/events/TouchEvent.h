@@ -601,7 +601,7 @@ aDocShell
 static
 already_AddRefed
 <
-Event
+TouchEvent
 >
 Constructor
 (
