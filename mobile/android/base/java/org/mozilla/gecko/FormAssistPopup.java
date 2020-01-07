@@ -1688,6 +1688,10 @@ positionAndShowPopup
 (
 mGeckoView
 .
+getSession
+(
+)
+.
 getViewportMetrics
 (
 )
@@ -1953,6 +1957,10 @@ getTop
 )
 +
 mGeckoView
+.
+getDynamicToolbarAnimator
+(
+)
 .
 getCurrentToolbarHeight
 (

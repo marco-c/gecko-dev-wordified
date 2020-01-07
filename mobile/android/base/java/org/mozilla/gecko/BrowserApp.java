@@ -10845,6 +10845,10 @@ height
 ;
 mLayerView
 .
+getDynamicToolbarAnimator
+(
+)
+.
 setMaxToolbarHeight
 (
 height
