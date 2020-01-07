@@ -4455,8 +4455,8 @@ workerRef
 outer
 ]
 (
-ErrorResult
-&
+const
+CopyableErrorResult
 &
 aRv
 )
@@ -4466,10 +4466,7 @@ outer
 >
 Reject
 (
-Move
-(
 aRv
-)
 __func__
 )
 ;
