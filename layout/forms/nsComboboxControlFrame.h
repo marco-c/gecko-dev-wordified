@@ -1562,9 +1562,9 @@ display
 the
 current
 selection
-RefPtr
+nsCOMPtr
 <
-Element
+nsIContent
 >
 mButtonContent
 ;

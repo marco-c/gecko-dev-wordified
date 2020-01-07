@@ -7695,11 +7695,6 @@ mozBR
 lastChild
 -
 >
-AsElement
-(
-)
--
->
 UnsetAttr
 (
 kNameSpaceID_None
@@ -7708,11 +7703,6 @@ false
 )
 ;
 lastChild
--
->
-AsElement
-(
-)
 -
 >
 SetAttr

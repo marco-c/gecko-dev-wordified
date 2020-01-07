@@ -868,7 +868,7 @@ aNameSpaceID
 nsAtom
 *
 aTag
-Element
+nsIContent
 *
 *
 aResult
@@ -904,14 +904,6 @@ if
 child
 -
 >
-IsElement
-(
-)
-&
-&
-child
--
->
 NodeInfo
 (
 )
@@ -930,11 +922,6 @@ NS_ADDREF
 aResult
 =
 child
--
->
-AsElement
-(
-)
 )
 ;
 return

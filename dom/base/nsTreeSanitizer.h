@@ -1120,13 +1120,7 @@ node
 void
 RemoveAllAttributes
 (
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 aElement
 )

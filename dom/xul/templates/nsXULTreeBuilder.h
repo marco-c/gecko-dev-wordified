@@ -950,13 +950,7 @@ GetTemplateActionRowFor
 (
 int32_t
 aRow
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 *
 aResult
@@ -1339,7 +1333,7 @@ nsIXULTemplateResult
 aResult
 nsCOMArray
 <
-Element
+nsIContent
 >
 *
 *
@@ -1369,7 +1363,7 @@ aNewMatch
 nsTemplateRule
 *
 aNewMatchRule
-Element
+void
 *
 aContext
 )

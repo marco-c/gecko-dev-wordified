@@ -891,10 +891,10 @@ nsXHTMLContentSerializer
 :
 SerializeAttributes
 (
-Element
+nsIContent
 *
-aElement
-Element
+aContent
+nsIContent
 *
 aOriginalElement
 nsAString
@@ -941,7 +941,7 @@ kXMLNS
 int32_t
 contentNamespaceID
 =
-aElement
+aContent
 -
 >
 GetNameSpaceID
@@ -1049,7 +1049,7 @@ startAttrVal
 =
 0
 ;
-aElement
+aContent
 -
 >
 GetAttr
@@ -1210,7 +1210,7 @@ NS_ENSURE_TRUE
 (
 SerializeLIValueAttribute
 (
-aElement
+aContent
 aStr
 )
 false
@@ -1315,7 +1315,7 @@ _moz
 ;
 count
 =
-aElement
+aContent
 -
 >
 GetAttrCount
@@ -1381,7 +1381,7 @@ dom
 BorrowedAttrInfo
 info
 =
-aElement
+aContent
 -
 >
 GetAttrInfoAt
@@ -1690,7 +1690,7 @@ isJS
 =
 IsJavaScript
 (
-aElement
+aContent
 attrName
 namespaceID
 valueStr
@@ -1796,7 +1796,7 @@ nsIURI
 >
 uri
 =
-aElement
+aContent
 -
 >
 GetBaseURI
@@ -1897,7 +1897,7 @@ document
 nsAutoString
 header
 ;
-aElement
+aContent
 -
 >
 GetAttr
@@ -1985,7 +1985,7 @@ isJS
 =
 IsJavaScript
 (
-aElement
+aContent
 attrName
 namespaceID
 valueStr
@@ -2484,9 +2484,9 @@ nsXHTMLContentSerializer
 :
 CheckElementStart
 (
-Element
+nsIContent
 *
-aElement
+aContent
 bool
 &
 aForceFormat
@@ -2548,7 +2548,7 @@ OutputIgnoreMozDirty
 )
 &
 &
-aElement
+aContent
 -
 >
 HasAttr
@@ -2562,7 +2562,7 @@ mozdirty
 ;
 if
 (
-aElement
+aContent
 -
 >
 IsHTMLElement
@@ -2608,7 +2608,7 @@ false
 }
 if
 (
-aElement
+aContent
 -
 >
 IsHTMLElement

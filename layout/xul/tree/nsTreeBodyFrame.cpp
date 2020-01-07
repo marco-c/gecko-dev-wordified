@@ -4427,11 +4427,6 @@ f
 GetContent
 (
 )
--
->
-AsElement
-(
-)
 ;
 }
 if
@@ -4472,11 +4467,6 @@ f
 -
 >
 GetContent
-(
-)
--
->
-AsElement
 (
 )
 ;

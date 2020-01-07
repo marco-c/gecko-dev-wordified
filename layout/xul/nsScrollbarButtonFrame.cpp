@@ -710,11 +710,6 @@ index
 mContent
 -
 >
-AsElement
-(
-)
--
->
 FindAttrValueIn
 (
 kNameSpaceID_None
@@ -783,11 +778,6 @@ this
 )
 ;
 mContent
--
->
-AsElement
-(
-)
 -
 >
 SetAttr
@@ -1106,11 +1096,6 @@ not
 active
 anymore
 mContent
--
->
-AsElement
-(
-)
 -
 >
 UnsetAttr

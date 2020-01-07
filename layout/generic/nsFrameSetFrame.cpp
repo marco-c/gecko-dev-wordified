@@ -8492,11 +8492,6 @@ reflow
 mContent
 -
 >
-AsElement
-(
-)
--
->
 SetAttr
 (
 kNameSpaceID_None
@@ -8698,11 +8693,6 @@ trigger
 a
 reflow
 mContent
--
->
-AsElement
-(
-)
 -
 >
 SetAttr

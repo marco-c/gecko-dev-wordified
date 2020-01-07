@@ -309,7 +309,7 @@ true
 override
 ;
 using
-Element
+nsIContent
 :
 :
 SetAttr

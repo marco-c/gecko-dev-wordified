@@ -3530,9 +3530,9 @@ peek
 TABLE
 )
 {
-RefPtr
+nsCOMPtr
 <
-Element
+nsIContent
 >
 tbody
 ;
@@ -3673,9 +3673,9 @@ EUC
 JP
 "
 >
-RefPtr
+nsCOMPtr
 <
-Element
+nsIContent
 >
 meta
 ;
@@ -4922,7 +4922,7 @@ createHTMLElement
 nsAtom
 *
 aName
-Element
+nsIContent
 *
 *
 aResult

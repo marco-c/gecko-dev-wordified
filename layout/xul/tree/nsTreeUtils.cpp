@@ -532,7 +532,7 @@ nsTreeUtils
 :
 UpdateSortIndicators
 (
-Element
+nsIContent
 *
 aColumn
 const
@@ -694,11 +694,6 @@ kNameSpaceID_XUL
 childContent
 -
 >
-AsElement
-(
-)
--
->
 UnsetAttr
 (
 kNameSpaceID_None
@@ -710,11 +705,6 @@ true
 )
 ;
 childContent
--
->
-AsElement
-(
-)
 -
 >
 UnsetAttr
@@ -740,7 +730,7 @@ nsTreeUtils
 :
 GetColumnIndex
 (
-Element
+nsIContent
 *
 aColumn
 int32_t

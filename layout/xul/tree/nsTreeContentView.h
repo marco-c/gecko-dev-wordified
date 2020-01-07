@@ -1055,13 +1055,7 @@ aCount
 Content
 helpers
 .
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 GetCell
 (

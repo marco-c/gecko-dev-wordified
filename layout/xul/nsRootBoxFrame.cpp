@@ -345,7 +345,7 @@ aPopupSet
 override
 ;
 virtual
-Element
+nsIContent
 *
 GetDefaultTooltip
 (
@@ -356,7 +356,7 @@ virtual
 void
 SetDefaultTooltip
 (
-Element
+nsIContent
 *
 aTooltip
 )
@@ -540,7 +540,7 @@ mPopupSetFrame
 ;
 protected
 :
-Element
+nsIContent
 *
 mDefaultTooltip
 ;
@@ -1334,7 +1334,7 @@ allowed
 ;
 }
 }
-Element
+nsIContent
 *
 nsRootBoxFrame
 :
@@ -1353,7 +1353,7 @@ nsRootBoxFrame
 :
 SetDefaultTooltip
 (
-Element
+nsIContent
 *
 aTooltip
 )
