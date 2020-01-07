@@ -27790,10 +27790,9 @@ JS_BIT
 )
 )
 {
-parser
-.
 reportError
 (
+pn
 JSMSG_TOO_MANY_CASES
 )
 ;
@@ -59796,10 +59795,9 @@ argc
 ARGC_LIMIT
 )
 {
-parser
-.
 reportError
 (
+pn
 callop
 ?
 JSMSG_TOO_MANY_FUN_ARGS
@@ -70843,10 +70841,9 @@ offset
 )
 )
 {
-parser
-.
 reportError
 (
+nullptr
 JSMSG_NEED_DIET
 js_script_str
 )
