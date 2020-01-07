@@ -1525,9 +1525,9 @@ getTotalBookmarksCount
 (
 action
 .
-_target
+meta
 .
-browser
+fromTarget
 )
 ;
 break
