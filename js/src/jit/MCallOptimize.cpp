@@ -2251,10 +2251,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsSetIterator
+IntrinsicGuardToSetIterator
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &

@@ -697,7 +697,7 @@ IntrinsicGuardToMapIterator
 \
 _
 (
-IntrinsicIsSetIterator
+IntrinsicGuardToSetIterator
 )
 \
 _
