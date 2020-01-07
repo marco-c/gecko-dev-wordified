@@ -1334,10 +1334,8 @@ WebRenderFallbackData
 )
 {
 }
-nsAutoPtr
-<
 nsDisplayItemGeometry
->
+*
 WebRenderFallbackData
 :
 :
@@ -1347,6 +1345,10 @@ GetGeometry
 {
 return
 mGeometry
+.
+get
+(
+)
 ;
 }
 void
