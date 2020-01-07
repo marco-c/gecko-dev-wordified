@@ -651,14 +651,12 @@ anonymousChildren
 {
 uint32_t
 length
-;
+=
 anonymousChildren
 -
 >
-GetLength
+Length
 (
-&
-length
 )
 ;
 for

@@ -791,6 +791,7 @@ namespace
 mozilla
 class
 nsAnonymousContentList
+final
 :
 public
 nsINodeList
@@ -816,11 +817,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsAnonymousContentList
 )
-/
-/
-nsIDOMNodeList
-interface
-NS_DECL_NSIDOMNODELIST
 /
 /
 nsINodeList
@@ -854,6 +850,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;

@@ -168,7 +168,7 @@ Class
 that
 implements
 the
-nsIDOMNodeList
+nsINodeList
 interface
 (
 a
@@ -189,7 +189,7 @@ the
 content
 and
 delegating
-GetLength
+Length
 *
 and
 Item
@@ -201,7 +201,7 @@ list
 .
 *
 see
-nsIDOMNodeList
+nsINodeList
 *
 /
 class
@@ -256,11 +256,6 @@ override
 ;
 /
 /
-nsIDOMNodeList
-interface
-NS_DECL_NSIDOMNODELIST
-/
-/
 nsINodeList
 interface
 virtual
@@ -280,6 +275,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;
@@ -400,11 +401,6 @@ ValidateCache
 }
 /
 /
-nsIDOMNodeList
-interface
-NS_DECL_NSIDOMNODELIST
-/
-/
 nsINodeList
 interface
 virtual
@@ -424,6 +420,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;
