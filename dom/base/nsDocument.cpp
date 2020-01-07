@@ -32776,7 +32776,7 @@ already_AddRefed
 <
 Element
 >
-nsDocument
+nsIDocument
 :
 :
 CreateElement
@@ -33075,7 +33075,7 @@ already_AddRefed
 <
 Element
 >
-nsDocument
+nsIDocument
 :
 :
 CreateElementNS
@@ -45197,7 +45197,7 @@ XML
 and
 /
 /
-nsDocument
+nsIDocument
 :
 :
 CreateElement

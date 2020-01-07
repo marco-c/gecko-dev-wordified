@@ -17172,7 +17172,6 @@ GetTopLevelContentDocument
 (
 )
 ;
-virtual
 already_AddRefed
 <
 Element
@@ -17200,10 +17199,7 @@ ErrorResult
 &
 rv
 )
-=
-0
 ;
-virtual
 already_AddRefed
 <
 Element
@@ -17235,8 +17231,6 @@ ErrorResult
 &
 rv
 )
-=
-0
 ;
 already_AddRefed
 <
