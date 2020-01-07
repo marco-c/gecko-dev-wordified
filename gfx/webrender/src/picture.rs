@@ -2859,9 +2859,10 @@ write_gpu_blocks
 (
 &
 self
-mut
 _request
 :
+&
+mut
 GpuDataRequest
 )
 {

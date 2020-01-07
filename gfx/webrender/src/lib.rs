@@ -933,6 +933,10 @@ serde_json
 ;
 extern
 crate
+smallvec
+;
+extern
+crate
 time
 ;
 #
@@ -1000,6 +1004,8 @@ device
 {
 build_shader_strings
 ProgramCache
+UploadMethod
+VertexUsageHint
 }
 ;
 pub
