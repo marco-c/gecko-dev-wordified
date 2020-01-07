@@ -872,6 +872,11 @@ NS_IsMainThread
 )
 )
 {
+if
+(
+mIsMainThread
+)
+{
 CycleCollectedJSContext
 *
 ccjs
@@ -895,6 +900,7 @@ EnterMicroTask
 (
 )
 ;
+}
 }
 /
 /
@@ -2493,6 +2499,11 @@ entry
 incumbent
 script
 changes
+if
+(
+mIsMainThread
+)
+{
 CycleCollectedJSContext
 *
 ccjs
@@ -2516,6 +2527,7 @@ LeaveMicroTask
 (
 )
 ;
+}
 }
 }
 already_AddRefed
