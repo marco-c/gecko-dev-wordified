@@ -2355,7 +2355,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2402,7 +2402,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2433,7 +2433,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2464,7 +2464,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2495,27 +2495,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
 SetHostPort
-(
-const
-nsACString
-&
-aHostPort
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
-NS_IMETHODIMP
-nsJARURI
-:
-:
-SetHostAndPort
 (
 const
 nsACString
@@ -2542,7 +2526,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2573,7 +2557,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2587,7 +2571,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -2618,7 +2602,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -3342,7 +3326,7 @@ filePath
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -3392,7 +3376,7 @@ query
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -3421,7 +3405,7 @@ mJAREntry
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
@@ -3476,7 +3460,7 @@ ref
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :

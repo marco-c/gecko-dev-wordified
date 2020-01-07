@@ -614,6 +614,12 @@ nsSimpleNestedURI
 ;
 }
 ;
+friend
+BaseURIMutator
+<
+nsSimpleNestedURI
+>
+;
 }
 ;
 }

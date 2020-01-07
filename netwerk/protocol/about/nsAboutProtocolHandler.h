@@ -580,6 +580,12 @@ nsNestedAboutURI
 ;
 }
 ;
+friend
+BaseURIMutator
+<
+nsNestedAboutURI
+>
+;
 }
 ;
 }

@@ -562,6 +562,12 @@ nsJSURI
 ;
 }
 ;
+friend
+BaseURIMutator
+<
+nsJSURI
+>
+;
 }
 ;
 #
