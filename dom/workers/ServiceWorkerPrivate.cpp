@@ -6147,6 +6147,9 @@ nsIInputStream
 >
 mUploadStream
 ;
+int64_t
+mUploadStreamContentLength
+;
 nsCString
 mReferrer
 ;
@@ -6296,6 +6299,11 @@ nsIContentPolicy
 :
 :
 TYPE_INVALID
+)
+mUploadStreamContentLength
+(
+-
+1
 )
 mReferrer
 (
@@ -7082,6 +7090,8 @@ uploadChannel
 >
 CloneUploadStream
 (
+&
+mUploadStreamContentLength
 getter_AddRefs
 (
 uploadStream
@@ -7651,8 +7661,7 @@ internalReq
 SetBody
 (
 mUploadStream
--
-1
+mUploadStreamContentLength
 )
 ;
 /
