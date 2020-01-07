@@ -165,7 +165,7 @@ server
 /
 actors
 /
-script
+thread
 "
 )
 ;

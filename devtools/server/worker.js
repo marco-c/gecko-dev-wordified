@@ -282,7 +282,7 @@ server
 /
 actors
 /
-script
+thread
 "
 )
 ;

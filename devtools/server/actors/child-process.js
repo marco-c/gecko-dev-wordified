@@ -99,7 +99,7 @@ server
 /
 actors
 /
-script
+thread
 "
 )
 ;

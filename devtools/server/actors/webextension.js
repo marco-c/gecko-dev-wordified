@@ -159,7 +159,7 @@ server
 /
 actors
 /
-script
+thread
 "
 true
 )

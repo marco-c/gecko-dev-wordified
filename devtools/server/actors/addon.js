@@ -191,7 +191,7 @@ server
 /
 actors
 /
-script
+thread
 "
 true
 )
@@ -211,7 +211,7 @@ server
 /
 actors
 /
-script
+thread
 "
 true
 )
