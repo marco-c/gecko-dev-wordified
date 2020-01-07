@@ -4306,7 +4306,7 @@ focusedContent
 fm
 -
 >
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;

@@ -1867,7 +1867,7 @@ focusedContent
 fm
 -
 >
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;
@@ -2075,7 +2075,7 @@ focusedContent
 fm
 -
 >
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;
