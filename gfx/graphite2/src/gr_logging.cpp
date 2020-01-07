@@ -325,7 +325,7 @@ json
 *
 global_log
 =
-NULL
+0
 ;
 #
 endif
@@ -759,6 +759,10 @@ stream
 ;
 delete
 global_log
+;
+global_log
+=
+0
 ;
 fclose
 (

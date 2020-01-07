@@ -751,10 +751,7 @@ NEXT
 }
 {
 {
-do_
-(
-next_n
-)
+NILOP
 NILOP
 }
 1
