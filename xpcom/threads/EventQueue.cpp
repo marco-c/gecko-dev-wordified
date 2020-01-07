@@ -139,6 +139,8 @@ EventQueue
 :
 EventQueue
 (
+EventPriority
+aPriority
 )
 {
 }
