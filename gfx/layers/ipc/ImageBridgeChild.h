@@ -1273,6 +1273,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+ReadLockDescriptor
+&
+aReadLock
+const
 LayersBackend
 &
 aLayersBackend
@@ -2065,6 +2069,10 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
+ReadLockDescriptor
+&
+aReadLock
 LayersBackend
 aLayersBackend
 TextureFlags

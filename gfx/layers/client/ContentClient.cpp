@@ -4874,6 +4874,11 @@ aFlags
 ExtraTextureFlags
 (
 )
+|
+TextureFlags
+:
+:
+BLOCKING_READ_LOCK
 textureAllocFlags
 )
 ;
@@ -4894,13 +4899,6 @@ return
 nullptr
 ;
 }
-textureClient
--
->
-EnableBlockingReadLock
-(
-)
-;
 RefPtr
 <
 TextureClient

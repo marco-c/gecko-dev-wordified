@@ -12381,6 +12381,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+ReadLockDescriptor
+&
+aReadLock
+const
 LayersBackend
 &
 aLayersBackend
@@ -12413,6 +12417,7 @@ CreateIPDLActor
 (
 this
 aSharedData
+aReadLock
 aLayersBackend
 aFlags
 aSerial

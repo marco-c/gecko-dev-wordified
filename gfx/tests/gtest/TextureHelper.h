@@ -926,6 +926,13 @@ serialization
 SurfaceDescriptor
 descriptor
 ;
+ReadLockDescriptor
+readLock
+=
+null_t
+(
+)
+;
 RefPtr
 <
 TextureHost
@@ -957,6 +964,7 @@ TextureHost
 Create
 (
 descriptor
+readLock
 aDeallocator
 aLayersBackend
 aClient

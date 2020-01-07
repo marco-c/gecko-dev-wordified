@@ -5144,6 +5144,9 @@ const
 SurfaceDescriptor
 &
 const
+ReadLockDescriptor
+&
+const
 LayersBackend
 &
 const
@@ -5922,6 +5925,10 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
+ReadLockDescriptor
+&
+aReadLock
 LayersBackend
 aLayersBackend
 TextureFlags
@@ -5946,6 +5953,7 @@ textureChild
 AllocPTextureChild
 (
 aSharedData
+aReadLock
 aLayersBackend
 aFlags
 0
@@ -5982,6 +5990,7 @@ SendPTextureConstructor
 (
 textureChild
 aSharedData
+aReadLock
 aLayersBackend
 aFlags
 0

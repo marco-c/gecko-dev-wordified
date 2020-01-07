@@ -2648,6 +2648,10 @@ const
 SurfaceDescriptor
 &
 aDesc
+const
+ReadLockDescriptor
+&
+aReadLock
 ISurfaceAllocator
 *
 aDeallocator
@@ -3556,6 +3560,10 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
+ReadLockDescriptor
+&
+aDescriptor
 LayersBackend
 aLayersBackend
 TextureFlags
@@ -3911,11 +3919,8 @@ aAllocator
 )
 ;
 void
-SetReadLock
+SetReadLocked
 (
-TextureReadLock
-*
-aReadLock
 )
 ;
 TextureReadLock
@@ -4295,6 +4300,9 @@ mCompositableCount
 ;
 uint64_t
 mFwdTransactionId
+;
+bool
+mReadLocked
 ;
 friend
 class
