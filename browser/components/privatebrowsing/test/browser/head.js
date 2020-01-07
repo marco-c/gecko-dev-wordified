@@ -33,7 +33,7 @@ var
 PromiseUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -54,7 +54,7 @@ jsm
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -73,9 +73,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -96,9 +96,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -119,9 +119,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -294,7 +294,7 @@ newDirectory
 let
 FileUtils
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -377,7 +377,7 @@ aDir
 let
 FileUtils
 =
-Cu
+ChromeUtils
 .
 import
 (

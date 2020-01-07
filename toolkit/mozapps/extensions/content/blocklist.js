@@ -91,9 +91,7 @@ init
 finish
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

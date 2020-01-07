@@ -44,9 +44,7 @@ XPIProvider
 var
 scope
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

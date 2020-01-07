@@ -25,9 +25,7 @@ js
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

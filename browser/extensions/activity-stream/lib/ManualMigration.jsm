@@ -80,7 +80,7 @@ actionTypes
 at
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ const
 Prefs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -145,7 +145,7 @@ MS_PER_DAY
 =
 86400000
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -164,7 +164,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -183,9 +183,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -205,9 +205,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

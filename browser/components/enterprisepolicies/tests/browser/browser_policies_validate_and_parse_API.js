@@ -85,7 +85,7 @@ const
 PoliciesValidator
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

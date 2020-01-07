@@ -173,7 +173,7 @@ XMLHttpRequest
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -192,7 +192,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -211,7 +211,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -230,7 +230,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -256,7 +256,7 @@ checkCert
 BadCertHandler
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -275,7 +275,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -294,7 +294,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -319,9 +319,9 @@ globals
 GMPPrefs
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -348,9 +348,9 @@ globals
 OS
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -371,9 +371,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

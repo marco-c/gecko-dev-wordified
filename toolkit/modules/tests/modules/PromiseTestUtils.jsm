@@ -90,7 +90,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -110,7 +110,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -150,7 +150,7 @@ Promises
 let
 JSMPromise
 =
-Cu
+ChromeUtils
 .
 import
 (

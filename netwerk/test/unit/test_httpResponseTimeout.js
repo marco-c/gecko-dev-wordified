@@ -117,7 +117,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -136,7 +136,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

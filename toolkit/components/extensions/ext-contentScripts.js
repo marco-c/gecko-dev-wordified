@@ -62,7 +62,7 @@ registerContentScript
 unregisterContentScript
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

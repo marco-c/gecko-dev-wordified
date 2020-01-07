@@ -61,9 +61,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -3690,9 +3688,7 @@ null
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

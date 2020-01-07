@@ -257,7 +257,7 @@ jar
 .
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -276,7 +276,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -295,7 +295,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -345,9 +345,9 @@ primaryPort
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

@@ -82,7 +82,7 @@ Components
 let
 log
 =
-Cu
+ChromeUtils
 .
 import
 (

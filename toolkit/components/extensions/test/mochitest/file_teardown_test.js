@@ -20,9 +20,7 @@ let
 Management
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -9,9 +9,7 @@ on
 upgrades
 work
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

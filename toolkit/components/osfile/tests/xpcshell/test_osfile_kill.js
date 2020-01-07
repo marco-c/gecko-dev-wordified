@@ -3,9 +3,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -47,9 +45,7 @@ exported
 var
 AsyncFrontGlobal
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

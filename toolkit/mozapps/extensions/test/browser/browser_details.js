@@ -37,9 +37,7 @@ of
 the
 details
 view
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

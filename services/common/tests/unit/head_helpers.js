@@ -68,7 +68,7 @@ head_global
 js
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -87,7 +87,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -106,7 +106,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -125,7 +125,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -148,7 +148,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1075,7 +1075,7 @@ getUptakeTelemetrySnapshot
 key
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

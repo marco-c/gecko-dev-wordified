@@ -9,7 +9,7 @@ globals
 browser
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -28,7 +28,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -52,7 +52,7 @@ const
 LegacyExtensionContext
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

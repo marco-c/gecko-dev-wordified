@@ -89,9 +89,7 @@ checkAttributes
 false
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

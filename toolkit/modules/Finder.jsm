@@ -102,7 +102,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -121,7 +121,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -140,7 +140,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -159,9 +159,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -427,7 +427,7 @@ this
 .
 _iterator
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -1105,7 +1105,7 @@ const
 FinderHighlighter
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

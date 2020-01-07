@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,9 +117,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -258,7 +258,7 @@ appinfo
 PROCESS_TYPE_DEFAULT
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

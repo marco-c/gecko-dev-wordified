@@ -24,7 +24,7 @@ const
 Manifests
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -124,9 +124,9 @@ devtools_page
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -149,7 +149,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

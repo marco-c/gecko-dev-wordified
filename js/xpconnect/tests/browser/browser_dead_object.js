@@ -165,9 +165,7 @@ let
 TestUtils
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

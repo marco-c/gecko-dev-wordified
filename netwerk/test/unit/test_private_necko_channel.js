@@ -7,7 +7,7 @@ channel
 test
 /
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -26,7 +26,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

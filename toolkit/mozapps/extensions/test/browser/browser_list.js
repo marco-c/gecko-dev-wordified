@@ -40,9 +40,7 @@ tempScope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -69,9 +67,7 @@ tempScope
 .
 LightweightThemeManager
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

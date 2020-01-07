@@ -427,7 +427,7 @@ Ci
 nsIServiceManager
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

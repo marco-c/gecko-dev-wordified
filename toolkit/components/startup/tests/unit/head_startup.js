@@ -63,9 +63,7 @@ a544
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -110,9 +108,7 @@ tmp
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

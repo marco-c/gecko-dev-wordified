@@ -85,9 +85,7 @@ bar
 =
 {
 }
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

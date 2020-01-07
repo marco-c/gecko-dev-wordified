@@ -72,9 +72,7 @@ HTML
 contextmenu
 attribute
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

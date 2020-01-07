@@ -405,9 +405,7 @@ kFromUserInput
 /
 /
 General
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

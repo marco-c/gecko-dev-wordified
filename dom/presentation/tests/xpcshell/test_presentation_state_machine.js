@@ -106,7 +106,7 @@ globals
 ControllerStateMachine
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -133,7 +133,7 @@ globals
 ReceiverStateMachine
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -160,7 +160,7 @@ globals
 State
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

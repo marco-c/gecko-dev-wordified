@@ -101,7 +101,7 @@ SharedAll
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

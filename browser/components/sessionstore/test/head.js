@@ -61,7 +61,7 @@ const
 Utils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -232,7 +232,7 @@ const
 SessionStore
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -259,7 +259,7 @@ const
 SessionSaver
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -286,7 +286,7 @@ const
 SessionFile
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -313,7 +313,7 @@ const
 TabState
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -340,7 +340,7 @@ const
 TabStateFlusher
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

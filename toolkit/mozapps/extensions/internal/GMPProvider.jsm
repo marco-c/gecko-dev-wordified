@@ -89,7 +89,7 @@ EXPORTED_SYMBOLS
 [
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -133,7 +133,7 @@ globals
 AddonManagerPrivate
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -152,7 +152,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -177,7 +177,7 @@ globals
 OS
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -196,7 +196,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -225,7 +225,7 @@ OPEN_H264_ID
 WIDEVINE_ID
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -244,7 +244,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -263,9 +263,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -286,9 +286,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

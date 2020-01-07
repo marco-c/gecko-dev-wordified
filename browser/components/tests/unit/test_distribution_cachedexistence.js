@@ -101,7 +101,7 @@ do_get_cwd
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -169,7 +169,7 @@ let
 DistributionCustomizer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

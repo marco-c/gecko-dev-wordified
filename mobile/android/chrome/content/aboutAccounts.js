@@ -271,7 +271,7 @@ global
 Components
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -296,7 +296,7 @@ global
 Accounts
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -321,7 +321,7 @@ global
 PromiseUtils
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -346,7 +346,7 @@ global
 Services
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -390,7 +390,7 @@ loaded
 const
 log
 =
-Cu
+ChromeUtils
 .
 import
 (

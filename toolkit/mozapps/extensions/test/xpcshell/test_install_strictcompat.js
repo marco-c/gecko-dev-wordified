@@ -85,7 +85,7 @@ ADDON1_SIZE
 +
 16
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -104,7 +104,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -123,7 +123,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

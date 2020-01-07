@@ -67,9 +67,7 @@ scope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

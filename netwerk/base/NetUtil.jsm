@@ -230,9 +230,7 @@ PR_UINT32_MAX
 =
 0xffffffff
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -251,9 +249,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

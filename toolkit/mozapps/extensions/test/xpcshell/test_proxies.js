@@ -39,9 +39,7 @@ proxy
 files
 and
 symlinks
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -60,9 +58,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

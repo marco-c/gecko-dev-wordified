@@ -193,7 +193,7 @@ pinned
 *
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -232,7 +232,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (

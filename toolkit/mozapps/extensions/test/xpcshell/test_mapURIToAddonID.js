@@ -47,9 +47,7 @@ on
 IDs
 /
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -505,9 +503,7 @@ XPIProvider
 let
 s
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

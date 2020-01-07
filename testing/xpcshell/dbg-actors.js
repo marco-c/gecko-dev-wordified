@@ -95,7 +95,7 @@ const
 Promise
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -121,7 +121,7 @@ var
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -147,7 +147,7 @@ const
 devtools
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

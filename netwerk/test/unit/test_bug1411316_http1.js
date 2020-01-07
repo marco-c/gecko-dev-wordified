@@ -123,7 +123,7 @@ status
 /
 NS_ERROR_ABORT
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -142,7 +142,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -161,7 +161,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -248,7 +248,7 @@ processes
 ;
 }
 }
-Cu
+ChromeUtils
 .
 import
 (
@@ -715,7 +715,7 @@ xpinstallConfirm
 xul
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -734,7 +734,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -753,7 +753,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -861,9 +861,7 @@ certUtils
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -1061,7 +1059,7 @@ jsm
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -5519,9 +5517,7 @@ scope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -5793,9 +5789,7 @@ entry
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -6058,7 +6052,7 @@ let
 RemotePages
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -9024,9 +9018,7 @@ scope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -9458,9 +9450,7 @@ false
 url
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -23386,7 +23376,7 @@ timestamps
 module
 into
 AddonManagerInternal
-Cu
+ChromeUtils
 .
 import
 (

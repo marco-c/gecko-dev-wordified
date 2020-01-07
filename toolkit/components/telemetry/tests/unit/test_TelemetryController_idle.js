@@ -39,7 +39,7 @@ idle
 -
 daily
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -59,7 +59,7 @@ js
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -79,7 +79,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -99,7 +99,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -119,7 +119,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -139,7 +139,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -159,7 +159,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -505,7 +505,7 @@ ns
 let
 module
 =
-Cu
+ChromeUtils
 .
 import
 (

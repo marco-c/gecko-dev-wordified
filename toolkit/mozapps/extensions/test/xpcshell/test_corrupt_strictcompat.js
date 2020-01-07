@@ -40,9 +40,7 @@ from
 a
 corrupt
 database
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

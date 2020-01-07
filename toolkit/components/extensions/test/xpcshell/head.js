@@ -31,9 +31,7 @@ clearCache
 testEnv
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -52,9 +50,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -73,9 +69,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -94,9 +88,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -115,9 +107,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

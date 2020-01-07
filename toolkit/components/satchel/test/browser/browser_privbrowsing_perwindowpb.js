@@ -62,9 +62,7 @@ FormHistory
 }
 =
 (
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

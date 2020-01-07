@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -52,7 +52,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -77,7 +77,7 @@ TELEMETRY_LOG
 Experiments
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

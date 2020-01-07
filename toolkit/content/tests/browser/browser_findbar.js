@@ -12,9 +12,7 @@ arbitrary
 setTimeout
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

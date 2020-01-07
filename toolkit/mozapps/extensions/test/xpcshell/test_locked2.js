@@ -46,9 +46,7 @@ changes
 /
 in
 progress
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

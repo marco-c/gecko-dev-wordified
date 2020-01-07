@@ -72,7 +72,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ global
 CommonUtils
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -136,7 +136,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -214,9 +214,9 @@ nsIDOMChromeWindow
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -237,9 +237,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -260,9 +260,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -286,7 +286,7 @@ jsm
 var
 debug
 =
-Cu
+ChromeUtils
 .
 import
 (

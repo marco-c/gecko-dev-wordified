@@ -53,7 +53,7 @@ head_helpers
 js
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -198,7 +198,7 @@ OS
 Linux
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -431,7 +431,7 @@ addResourceAlias
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

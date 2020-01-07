@@ -255,7 +255,7 @@ id
 +
 2
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -274,7 +274,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

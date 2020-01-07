@@ -86,7 +86,7 @@ SelectHelper
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

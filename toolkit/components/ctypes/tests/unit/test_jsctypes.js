@@ -124,9 +124,7 @@ ctypes
 '
 object
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

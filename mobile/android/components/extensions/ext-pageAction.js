@@ -76,9 +76,9 @@ utils
 js
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -107,9 +107,9 @@ android
 PageActions
 module
 .
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

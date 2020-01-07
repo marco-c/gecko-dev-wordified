@@ -88,7 +88,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -112,7 +112,7 @@ const
 element
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -140,7 +140,7 @@ MoveTargetOutOfBoundsError
 UnsupportedOperationError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -161,7 +161,7 @@ js
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -185,7 +185,7 @@ const
 pprint
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -53,7 +53,7 @@ let
 Management
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

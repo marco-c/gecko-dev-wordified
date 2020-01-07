@@ -54,9 +54,7 @@ call
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

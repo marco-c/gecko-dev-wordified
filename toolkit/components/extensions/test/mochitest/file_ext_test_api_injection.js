@@ -24,9 +24,7 @@ Ci
 =
 Components
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

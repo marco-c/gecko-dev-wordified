@@ -76,7 +76,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -372,7 +372,7 @@ module
 {
 ret
 =
-Cu
+ChromeUtils
 .
 import
 (
