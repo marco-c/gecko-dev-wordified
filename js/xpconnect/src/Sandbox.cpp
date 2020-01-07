@@ -7472,6 +7472,19 @@ NS_ERROR_FAILURE
 else
 if
 (
+principal
+=
+=
+nsXPConnect
+:
+:
+SystemPrincipal
+(
+)
+)
+{
+if
+(
 JSObject
 *
 obj
@@ -7503,6 +7516,7 @@ addonId
 =
 id
 ;
+}
 }
 creationOptions
 .
