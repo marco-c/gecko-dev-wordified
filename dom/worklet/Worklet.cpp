@@ -1953,7 +1953,6 @@ mScope
 new
 AudioWorkletGlobalScope
 (
-mWindow
 )
 ;
 break
@@ -1966,7 +1965,6 @@ mScope
 new
 PaintWorkletGlobalScope
 (
-mWindow
 )
 ;
 break

@@ -149,12 +149,8 @@ WorkletGlobalScope
 {
 public
 :
-explicit
 PaintWorkletGlobalScope
 (
-nsPIDOMWindowInner
-*
-aWindow
 )
 ;
 bool
@@ -196,6 +192,8 @@ private
 PaintWorkletGlobalScope
 (
 )
+=
+default
 ;
 }
 ;
