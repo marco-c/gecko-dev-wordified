@@ -420,6 +420,14 @@ toolbox
 ;
 this
 .
+telemetry
+=
+toolbox
+.
+telemetry
+;
+this
+.
 isReady
 =
 false
@@ -1694,7 +1702,7 @@ registered
 and
 unregistered
 .
-Services
+this
 .
 telemetry
 .

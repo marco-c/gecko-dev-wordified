@@ -360,6 +360,14 @@ inspector
 .
 store
 ;
+this
+.
+telemetry
+=
+inspector
+.
+telemetry
+;
 /
 /
 NodeFront
@@ -2542,7 +2550,7 @@ grid
 "
 )
 {
-Services
+this
 .
 telemetry
 .
@@ -2572,7 +2580,7 @@ rule
 "
 )
 {
-Services
+this
 .
 telemetry
 .
