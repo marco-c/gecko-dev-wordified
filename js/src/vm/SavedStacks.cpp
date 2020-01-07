@@ -8412,7 +8412,7 @@ true
 ;
 }
 AutoGeckoProfilerEntry
-pseudoFrame
+labelFrame
 (
 cx
 "
