@@ -107,10 +107,6 @@ res
 .
 push
 (
-JSON
-.
-stringify
-(
 {
 id
 :
@@ -127,7 +123,6 @@ test
 +
 i
 }
-)
 )
 ;
 }
