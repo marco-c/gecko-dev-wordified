@@ -8059,6 +8059,9 @@ imageData
 details
 .
 path
+!
+=
+null
 )
 {
 /
@@ -8293,6 +8296,9 @@ baseURI
 if
 (
 path
+!
+=
+null
 )
 {
 if
