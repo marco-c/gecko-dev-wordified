@@ -94,6 +94,8 @@ client
 preferences
 /
 devtools
+-
+client
 .
 js
 .
