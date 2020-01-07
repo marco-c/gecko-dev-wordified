@@ -1487,6 +1487,8 @@ DLLVM_TARGETS_TO_BUILD
 X86
 ;
 ARM
+;
+AArch64
 "
                   
 "
