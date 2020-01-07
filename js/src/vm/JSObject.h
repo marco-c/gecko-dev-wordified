@@ -1465,13 +1465,6 @@ isBoundFunction
 )
 const
 ;
-inline
-bool
-hasSpecialEquality
-(
-)
-const
-;
 /
 /
 A

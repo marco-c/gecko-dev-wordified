@@ -949,16 +949,6 @@ getter
 ;
 const
 char
-js_send_str
-[
-]
-=
-"
-send
-"
-;
-const
-char
 js_setter_str
 [
 ]
