@@ -7038,6 +7038,16 @@ aColumnNumber
 ;
 static
 void
+ReportEmptyGetElementByIdArg
+(
+const
+nsIDocument
+*
+aDoc
+)
+;
+static
+void
 LogMessageToConsole
 (
 const
