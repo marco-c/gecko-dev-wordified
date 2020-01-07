@@ -1476,7 +1476,7 @@ return
 WEBEXT_PERMISSION_PROMPTS
 ;
 }
-eventListenerWasAdded
+eventListenerAdded
 (
 type
 )
@@ -1537,7 +1537,7 @@ listenerCount
 +
 ;
 }
-eventListenerWasRemoved
+eventListenerRemoved
 (
 type
 )
