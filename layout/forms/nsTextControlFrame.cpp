@@ -967,6 +967,9 @@ GetContent
 Style
 (
 )
+PresContext
+(
+)
 NS_AUTOHEIGHT
 aFontSizeInflation
 )
@@ -3822,6 +3825,9 @@ GetContent
 (
 )
 Style
+(
+)
+PresContext
 (
 )
 NS_AUTOHEIGHT

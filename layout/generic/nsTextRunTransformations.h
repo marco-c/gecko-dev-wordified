@@ -163,6 +163,13 @@ ComputedStyle
 .
 h
 "
+#
+include
+"
+nsPresContext
+.
+h
+"
 class
 nsTransformedTextRun
 ;
@@ -183,6 +190,9 @@ mozilla
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 mFont
@@ -211,12 +221,7 @@ mLanguage
 )
 mPresContext
 (
-aStyle
--
->
-PresContext
-(
-)
+aPresContext
 )
 mScriptSizeMultiplier
 (

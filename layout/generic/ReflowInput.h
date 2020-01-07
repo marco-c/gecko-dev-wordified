@@ -5605,6 +5605,9 @@ aContent
 ComputedStyle
 *
 aComputedStyle
+nsPresContext
+*
+aPresContext
 nscoord
 aBlockBSize
 float
