@@ -130,8 +130,8 @@ app_units
 :
 :
 {
-AU_PER_PX
 Au
+AU_PER_PX
 }
 ;
 use
@@ -235,10 +235,10 @@ display_list
 :
 :
 {
-BLUR_INFLATION_FACTOR
 BaseDisplayItem
 BorderDetails
 BorderDisplayItem
+BLUR_INFLATION_FACTOR
 }
 ;
 use
@@ -373,8 +373,8 @@ inline
 :
 :
 {
-InlineFragmentNodeFlags
 InlineFlow
+InlineFragmentNodeFlags
 }
 ;
 use
@@ -1027,7 +1027,6 @@ p
 )
 =
 >
-{
 (
 p
 .
@@ -1043,7 +1042,6 @@ round
 )
 as
 u32
-}
 NumberOrPercentage
 :
 :
@@ -1053,7 +1051,6 @@ n
 )
 =
 >
-{
 n
 .
 round
@@ -1061,7 +1058,6 @@ round
 )
 as
 u32
-}
 }
 }
 }
@@ -3353,6 +3349,7 @@ false
 |
 child
 |
+{
 child
 .
 section
@@ -3364,6 +3361,7 @@ DisplayListSection
 :
 :
 BackgroundAndBorders
+}
 )
 {
 list
@@ -3474,6 +3472,7 @@ false
 |
 child
 |
+{
 child
 .
 section
@@ -3485,6 +3484,7 @@ DisplayListSection
 :
 :
 BlockBackgroundsAndBorders
+}
 )
 {
 list
@@ -3523,6 +3523,7 @@ false
 |
 child
 |
+{
 child
 .
 context_type
@@ -3532,6 +3533,7 @@ StackingContextType
 :
 :
 PseudoFloat
+}
 )
 {
 let
@@ -3584,6 +3586,7 @@ false
 |
 child
 |
+{
 child
 .
 section
@@ -3595,6 +3598,7 @@ DisplayListSection
 :
 :
 Content
+}
 )
 {
 list
@@ -5479,7 +5483,6 @@ filter_map
 |
 item
 |
-{
 match
 *
 item
@@ -5503,7 +5506,6 @@ _
 =
 >
 None
-}
 }
 )
 .
@@ -6213,7 +6215,6 @@ x
 )
 =
 >
-{
 match
 x
 {
@@ -6254,7 +6255,6 @@ radians
 (
 )
 }
-}
 LineDirection
 :
 :
@@ -6264,7 +6264,6 @@ y
 )
 =
 >
-{
 match
 y
 {
@@ -6304,7 +6303,6 @@ Deg
 radians
 (
 )
-}
 }
 LineDirection
 :
@@ -7852,7 +7850,6 @@ ShapeExtent
 ClosestCorner
 =
 >
-{
 get_distance_to_corner
 (
 size
@@ -7867,7 +7864,6 @@ cmp
 :
 min
 )
-}
 ShapeExtent
 :
 :
@@ -8011,7 +8007,6 @@ ShapeExtent
 FarthestSide
 =
 >
-{
 get_distance_to_sides
 (
 size
@@ -8026,14 +8021,12 @@ cmp
 :
 max
 )
-}
 ShapeExtent
 :
 :
 ClosestCorner
 =
 >
-{
 get_ellipse_radius
 (
 size
@@ -8048,7 +8041,6 @@ cmp
 :
 min
 )
-}
 ShapeExtent
 :
 :
@@ -8495,7 +8487,6 @@ intrinsic_size
 None
 =
 >
-{
 match
 bg_size
 {
@@ -8521,7 +8512,6 @@ height
 }
 =
 >
-{
 Size2D
 :
 :
@@ -8562,8 +8552,6 @@ bounds_size
 height
 )
 )
-}
-}
 }
 Some
 (
@@ -8653,7 +8641,6 @@ true
 )
 =
 >
-{
 Size2D
 :
 :
@@ -8675,7 +8662,6 @@ recip
 )
 )
 )
-}
 (
 BackgroundSize
 :
@@ -8693,7 +8679,6 @@ false
 )
 =
 >
-{
 Size2D
 :
 :
@@ -8711,7 +8696,6 @@ bounds_size
 .
 height
 )
-}
 (
 BackgroundSize
 :
@@ -8837,7 +8821,6 @@ _
 )
 =
 >
-{
 Size2D
 :
 :
@@ -8878,7 +8861,6 @@ own_size
 height
 )
 )
-}
 }
 }
 }
@@ -9362,6 +9344,7 @@ Au
 )
 {
 return
+;
 }
 let
 delta_pixels
@@ -9823,7 +9806,6 @@ info
 )
 =
 >
-{
 info
 .
 full
@@ -9832,7 +9814,6 @@ collect_stacking_contexts_for_blocklike_fragment
 (
 state
 )
-}
 _
 =
 >
@@ -10559,7 +10540,6 @@ height
 }
 =
 >
-{
 Size2D
 :
 :
@@ -10600,7 +10580,6 @@ bounding_box_size
 height
 )
 )
-}
 _
 =
 >
@@ -12413,6 +12392,7 @@ outset
 is
 zero
 return
+;
 }
 let
 border_style_struct
@@ -13561,6 +13541,7 @@ Au
 )
 {
 return
+;
 }
 let
 outline_style
@@ -14901,6 +14882,7 @@ Visibility
 Visible
 {
 return
+;
 }
 /
 /
@@ -15344,6 +15326,7 @@ if
 empty_rect
 {
 return
+;
 }
 debug
 !
@@ -16251,7 +16234,6 @@ image_key
 )
 =
 >
-{
 (
 image_key
 PixelFormat
@@ -16259,7 +16241,6 @@ PixelFormat
 :
 BGRA8
 )
-}
 CanvasFragmentSource
 :
 :
@@ -16270,7 +16251,6 @@ ipc_renderer
 )
 =
 >
-{
 match
 *
 ipc_renderer
@@ -16358,7 +16338,6 @@ None
 =
 >
 return
-}
 }
 }
 ;
@@ -19710,6 +19689,7 @@ StylePosition
 Fixed
 =
 >
+{
 state
 .
 containing_block_clipping_and_scrolling
@@ -19717,6 +19697,7 @@ containing_block_clipping_and_scrolling
 state
 .
 current_clipping_and_scrolling
+}
 _
 =
 >
@@ -21652,6 +21633,7 @@ BlockStackingContextType
 :
 :
 StackingContext
+;
 }
 if
 self
@@ -21673,6 +21655,7 @@ BlockStackingContextType
 :
 :
 PseudoStackingContext
+;
 }
 if
 self
@@ -21698,6 +21681,7 @@ BlockStackingContextType
 :
 :
 PseudoStackingContext
+;
 }
 if
 self
@@ -21715,6 +21699,7 @@ BlockStackingContextType
 :
 :
 PseudoStackingContext
+;
 }
 BlockStackingContextType
 :
@@ -22537,6 +22522,7 @@ get
 show_debug_parallel_layout
 {
 return
+;
 }
 let
 thread_id
@@ -22956,6 +22942,7 @@ return
 0
 .
 0
+;
 }
 match
 position
