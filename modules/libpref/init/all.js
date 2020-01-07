@@ -29322,9 +29322,7 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
-credits
 home
-logo
 newtab
 printpreview
 srcdoc
