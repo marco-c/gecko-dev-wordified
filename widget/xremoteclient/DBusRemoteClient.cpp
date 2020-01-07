@@ -581,7 +581,7 @@ Base64Encode
 (
 nsAutoCString
 (
-aProfileName
+aProfile
 )
 profileName
 )
