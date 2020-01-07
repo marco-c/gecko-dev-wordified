@@ -595,8 +595,6 @@ import
 subprocess
 import
 sys
-import
-buildconfig
 #
 The
 obvious
@@ -891,26 +889,12 @@ each
 undefined
 symbol
     
-nm
-=
-buildconfig
-.
-substs
-.
-get
-(
-'
-NM
-'
-'
-nm
-'
-)
-    
 cmd
 =
 [
+'
 nm
+'
 '
 -
 u
