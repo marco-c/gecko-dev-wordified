@@ -465,20 +465,6 @@ win64
 pgo
 '
             
-#
-MinGW
-build
-is
-broken
-on
-beta
-            
-'
-win32
--
-mingw32
-'
-            
 )
 :
         
