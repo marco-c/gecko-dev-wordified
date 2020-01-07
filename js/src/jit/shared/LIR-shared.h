@@ -37750,7 +37750,7 @@ LWasmBoundsCheck
 public
 LInstructionHelper
 <
-0
+1
 2
 0
 >
