@@ -13139,9 +13139,8 @@ reg
 return
 Operand
 (
-MacroAssembler
-:
-:
+masm
+.
 getStackPointer
 (
 )

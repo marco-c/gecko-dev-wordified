@@ -18292,9 +18292,8 @@ file
 ;
 rv
 =
-nsXREDirProvider
-:
-:
+mDirProvider
+.
 GetUserAppDataDirectory
 (
 getter_AddRefs

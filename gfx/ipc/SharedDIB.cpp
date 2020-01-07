@@ -220,12 +220,9 @@ return
 false
 ;
 return
-base
-:
-:
-SharedMemory
-:
-:
+mShMem
+-
+>
 IsHandleValid
 (
 mShMem

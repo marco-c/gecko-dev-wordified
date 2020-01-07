@@ -1676,9 +1676,9 @@ rv
 ;
 rv
 =
-nsXREDirProvider
-:
-:
+gDirServiceProvider
+-
+>
 GetUserAppDataDirectory
 (
 getter_AddRefs
@@ -1695,9 +1695,9 @@ rv
 ;
 rv
 =
-nsXREDirProvider
-:
-:
+gDirServiceProvider
+-
+>
 GetUserLocalDataDirectory
 (
 getter_AddRefs

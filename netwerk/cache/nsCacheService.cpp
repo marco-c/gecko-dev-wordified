@@ -8536,9 +8536,9 @@ NSCACHESERVICE_ISSTORAGEENABLEDFORPOLICY
 *
 result
 =
-nsCacheService
-:
-:
+gService
+-
+>
 IsStorageEnabledForPolicy_Locked
 (
 storagePolicy

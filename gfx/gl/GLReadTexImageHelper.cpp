@@ -1021,9 +1021,9 @@ s
 \
 n
 "
-GLContext
-:
-:
+mGL
+-
+>
 GLErrorToString
 (
 error

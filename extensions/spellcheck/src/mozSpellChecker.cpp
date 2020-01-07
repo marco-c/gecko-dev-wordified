@@ -310,9 +310,9 @@ XRE_IsContentProcess
 )
 )
 ;
-RemoteSpellcheckEngineChild
-:
-:
+mEngine
+-
+>
 Send__delete__
 (
 mEngine

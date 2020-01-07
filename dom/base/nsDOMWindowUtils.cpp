@@ -1910,9 +1910,9 @@ NS_ERROR_NOT_AVAILABLE
 *
 aPhysicalMillimeter
 =
-nsPresContext
-:
-:
+presContext
+-
+>
 AppUnitsToFloatCSSPixels
 (
 presContext

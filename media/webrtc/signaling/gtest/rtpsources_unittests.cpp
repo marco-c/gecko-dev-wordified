@@ -712,9 +712,8 @@ constexpr
 int64_t
 jitterWindow
 =
-RtpSourceHistory
-:
-:
+history
+.
 kMinJitterWindow
 ;
 constexpr
@@ -1422,9 +1421,8 @@ constexpr
 int64_t
 jitter
 =
-RtpSourceHistory
-:
-:
+history
+.
 kMinJitterWindow
 /
 2
