@@ -2059,9 +2059,6 @@ removeMessageListener
 (
 path
 l
-[
-1
-]
 )
 ;
 return
