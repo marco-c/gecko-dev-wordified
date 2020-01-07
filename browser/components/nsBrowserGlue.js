@@ -17849,7 +17849,7 @@ Services
 .
 prefs
 .
-setIntPref
+setCharPref
 (
 "
 browser
