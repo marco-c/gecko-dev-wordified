@@ -6440,7 +6440,7 @@ ptr
 const
 CharT
 *
-rawCharPtrAt
+codeUnitPtrAt
 (
 size_t
 offset
@@ -6495,7 +6495,7 @@ limit_
 ;
 }
 CharT
-getRawChar
+getCodeUnit
 (
 )
 {
@@ -6620,7 +6620,7 @@ false
 ;
 }
 void
-ungetRawChar
+ungetCodeUnit
 (
 )
 {
@@ -9229,7 +9229,7 @@ cur
 =
 sourceUnits
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 anyChars
 .
@@ -9289,7 +9289,7 @@ end
 =
 sourceUnits
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 anyChars
 .
@@ -9330,7 +9330,7 @@ end
 =
 sourceUnits
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 anyChars
 .
@@ -10715,7 +10715,7 @@ other
 const
 CharT
 *
-rawCharPtrAt
+codeUnitPtrAt
 (
 size_t
 offset
@@ -10725,7 +10725,7 @@ const
 return
 sourceUnits
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 offset
 )

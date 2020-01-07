@@ -55903,7 +55903,7 @@ parser
 .
 tokenStream
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 beginOffset
 (
@@ -56487,7 +56487,7 @@ parser
 .
 tokenStream
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 beginOffset
 (
@@ -57068,7 +57068,7 @@ parser
 .
 tokenStream
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 ModuleChars
 :
@@ -57088,7 +57088,7 @@ parser
 .
 tokenStream
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 ModuleChars
 :
@@ -57319,7 +57319,7 @@ parser
 .
 tokenStream
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 ModuleChars
 :
