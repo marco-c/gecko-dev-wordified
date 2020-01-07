@@ -8460,12 +8460,12 @@ methods
 nsresult
 CreateRange
 (
-nsIDOMNode
+nsINode
 *
 aStartContainer
 int32_t
 aStartOffset
-nsIDOMNode
+nsINode
 *
 aEndContainer
 int32_t
@@ -8501,7 +8501,7 @@ selection
 nsresult
 AppendNodeToSelectionAsRange
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )

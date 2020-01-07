@@ -14374,9 +14374,9 @@ to
 table
 editor
 .
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 cell
 ;
