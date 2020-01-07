@@ -118,7 +118,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -137,7 +137,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

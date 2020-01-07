@@ -37,7 +37,9 @@ the
 Vacuum
 Manager
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -56,7 +58,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

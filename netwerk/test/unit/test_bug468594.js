@@ -131,7 +131,7 @@ being
 used
 here
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -150,7 +150,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -82,7 +82,9 @@ functionality
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

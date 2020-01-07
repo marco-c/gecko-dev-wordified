@@ -27,9 +27,9 @@ zero
 /
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

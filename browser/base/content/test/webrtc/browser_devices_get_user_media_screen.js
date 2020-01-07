@@ -136,7 +136,7 @@ flag
 individual
 failures
 .
-ChromeUtils
+Cu
 .
 import
 (

@@ -27,7 +27,7 @@ zero
 /
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -46,7 +46,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -65,7 +65,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -84,7 +84,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -103,7 +103,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -122,7 +122,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -143,7 +143,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -164,7 +164,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -183,7 +183,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -202,7 +202,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -221,7 +221,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

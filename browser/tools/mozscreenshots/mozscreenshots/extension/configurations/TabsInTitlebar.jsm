@@ -97,7 +97,7 @@ tabs
 drawInTitlebar
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

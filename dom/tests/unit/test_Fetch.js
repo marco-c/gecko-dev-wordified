@@ -50,7 +50,7 @@ fetch
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

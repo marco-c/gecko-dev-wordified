@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,10 +50,9 @@ Promise
 .
 jsm
 "
-this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -75,7 +74,7 @@ jsm
 var
 GMPScope
 =
-ChromeUtils
+Cu
 .
 import
 (

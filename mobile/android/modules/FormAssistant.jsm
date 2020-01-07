@@ -86,7 +86,7 @@ FormAssistant
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (

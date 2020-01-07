@@ -94,6 +94,9 @@ const
 interfaces
 :
 Ci
+utils
+:
+Cu
 classes
 :
 Cc
@@ -101,7 +104,7 @@ Cc
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (

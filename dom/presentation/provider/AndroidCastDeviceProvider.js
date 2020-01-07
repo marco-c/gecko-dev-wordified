@@ -168,7 +168,7 @@ Components
 /
 globals
 XPCOMUtils
-ChromeUtils
+Cu
 .
 import
 (
@@ -191,7 +191,7 @@ jsm
 /
 globals
 Services
-ChromeUtils
+Cu
 .
 import
 (
@@ -214,7 +214,7 @@ jsm
 /
 globals
 EventDispatcher
-ChromeUtils
+Cu
 .
 import
 (

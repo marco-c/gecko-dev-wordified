@@ -153,7 +153,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -172,7 +172,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -191,7 +191,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -221,7 +221,7 @@ AutofillRecord
 AddressesEngine
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

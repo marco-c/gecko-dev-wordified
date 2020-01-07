@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -27,7 +27,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -95,7 +95,7 @@ using
 that
 instead
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -159,7 +159,7 @@ const
 Bootstrap
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

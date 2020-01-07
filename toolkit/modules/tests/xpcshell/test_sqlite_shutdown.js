@@ -52,7 +52,7 @@ do_get_profile
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -86,7 +86,7 @@ first
 imported
 during
 shutdown
-ChromeUtils
+Cu
 .
 import
 (
@@ -105,7 +105,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -124,7 +124,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

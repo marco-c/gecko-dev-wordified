@@ -122,7 +122,7 @@ global
 Service
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -141,7 +141,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -160,7 +160,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -134,7 +134,7 @@ flag
 individual
 failures
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -205,7 +205,7 @@ const
 Translation
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -402,7 +402,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -422,7 +422,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

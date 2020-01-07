@@ -132,7 +132,7 @@ var
 Sanitizer
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

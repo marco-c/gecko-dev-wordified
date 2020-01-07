@@ -70,7 +70,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -89,7 +89,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -108,7 +108,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -127,7 +127,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -154,7 +154,7 @@ InvalidArgumentError
 InvalidElementStateError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -175,7 +175,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -199,7 +199,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -225,7 +225,7 @@ const
 TimedPromise
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

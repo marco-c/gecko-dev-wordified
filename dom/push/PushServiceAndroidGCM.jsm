@@ -105,7 +105,7 @@ const
 PushDB
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -129,7 +129,7 @@ const
 PushRecord
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -153,7 +153,7 @@ const
 PushCrypto
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -172,7 +172,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -198,7 +198,7 @@ global
 EventDispatcher
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -224,7 +224,7 @@ global
 Services
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -250,7 +250,7 @@ global
 Preferences
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -279,7 +279,7 @@ XPCOMUtils
 const
 Log
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -337,7 +337,7 @@ let
 ConsoleAPI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

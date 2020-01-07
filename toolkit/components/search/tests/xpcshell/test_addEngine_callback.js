@@ -44,7 +44,9 @@ callback
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -89,7 +89,7 @@ FRECENCY_DEFAULT
 =
 10000
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -108,7 +108,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

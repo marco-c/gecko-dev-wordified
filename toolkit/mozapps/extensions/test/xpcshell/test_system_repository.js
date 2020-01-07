@@ -32,7 +32,9 @@ init
 (
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

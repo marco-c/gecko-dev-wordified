@@ -92,7 +92,7 @@ PluginContent
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -111,7 +111,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -221,9 +221,9 @@ url
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -104,7 +104,7 @@ const
 UrlClassifierTestUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

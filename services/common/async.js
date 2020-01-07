@@ -118,7 +118,7 @@ mozIStorageStatementCallback
 .
 REASON_ERROR
 ;
-ChromeUtils
+Cu
 .
 import
 (

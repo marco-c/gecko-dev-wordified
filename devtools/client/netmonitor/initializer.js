@@ -92,7 +92,9 @@ const
 BrowserLoader
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

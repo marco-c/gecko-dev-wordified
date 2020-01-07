@@ -283,9 +283,9 @@ nsIResProtocolHandler
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

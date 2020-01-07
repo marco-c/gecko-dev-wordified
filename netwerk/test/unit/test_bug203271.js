@@ -50,7 +50,7 @@ age
 /
 take
 precedence
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

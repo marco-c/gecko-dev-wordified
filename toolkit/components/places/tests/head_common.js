@@ -231,7 +231,7 @@ URL
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -481,7 +481,7 @@ addition
 to
 PlacesUtils
 .
-ChromeUtils
+Cu
 .
 import
 (

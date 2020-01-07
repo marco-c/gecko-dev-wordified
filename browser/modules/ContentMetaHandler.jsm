@@ -87,7 +87,7 @@ URL
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

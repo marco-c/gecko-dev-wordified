@@ -165,7 +165,9 @@ callExec
 args
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -259,7 +261,9 @@ callFork
 args
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -346,7 +350,9 @@ callSysctl
 args
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -460,7 +466,9 @@ callOpen
 args
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

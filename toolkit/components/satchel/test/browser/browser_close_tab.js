@@ -61,7 +61,7 @@ const
 FormHistory
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

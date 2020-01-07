@@ -24,7 +24,7 @@ const
 ManifestFinder
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

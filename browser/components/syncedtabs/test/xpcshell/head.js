@@ -16,7 +16,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -67,7 +67,9 @@ function
 )
 {
 return
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -183,7 +185,7 @@ v2
 .
 2
 /
-ChromeUtils
+Cu
 .
 import
 (

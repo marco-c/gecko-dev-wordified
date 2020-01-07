@@ -96,7 +96,7 @@ globals
 Services
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

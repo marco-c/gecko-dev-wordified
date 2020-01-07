@@ -51,7 +51,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -249,7 +249,7 @@ const
 NetUtil
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -275,7 +275,7 @@ const
 DownloadUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -301,7 +301,7 @@ const
 SiteDataManager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -326,7 +326,7 @@ const
 OfflineAppCacheHelper
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

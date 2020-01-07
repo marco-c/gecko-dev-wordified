@@ -61,7 +61,16 @@ use
 strict
 "
 ;
-ChromeUtils
+const
+{
+utils
+:
+Cu
+}
+=
+Components
+;
+Cu
 .
 import
 (

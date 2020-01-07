@@ -13,7 +13,7 @@ Ci
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -52,7 +52,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -72,7 +72,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2001,7 +2001,9 @@ js
 -
 ctypes
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -2018,7 +2020,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

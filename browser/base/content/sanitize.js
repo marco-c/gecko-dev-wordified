@@ -91,7 +91,9 @@ sanitizeDialog
 js
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -110,7 +112,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -2021,7 +2025,9 @@ range
 /
 /
 AppCache
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

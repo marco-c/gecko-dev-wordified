@@ -70,7 +70,9 @@ scope1
 var
 global1
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -99,7 +101,9 @@ scope2
 var
 global2
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -175,7 +179,9 @@ scope3
 var
 global3
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

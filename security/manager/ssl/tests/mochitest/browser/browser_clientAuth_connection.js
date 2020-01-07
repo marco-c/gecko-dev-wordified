@@ -97,7 +97,7 @@ const
 MockRegistrar
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -86,7 +86,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -107,7 +107,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -126,7 +126,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -150,7 +150,7 @@ let
 devtools
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

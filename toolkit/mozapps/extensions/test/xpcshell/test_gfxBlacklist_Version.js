@@ -70,7 +70,7 @@ Uses
 test_gfxBlacklist_AllOS
 .
 xml
-ChromeUtils
+Cu
 .
 import
 (

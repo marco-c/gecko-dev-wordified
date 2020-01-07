@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -29,7 +29,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -207,7 +207,7 @@ startNotificationDB
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

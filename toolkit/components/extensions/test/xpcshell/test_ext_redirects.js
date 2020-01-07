@@ -18,9 +18,9 @@ extension
 :
 url
 .
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -17,9 +17,9 @@ strict
 /
 /
 Globals
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

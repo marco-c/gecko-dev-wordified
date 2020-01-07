@@ -187,7 +187,7 @@ Ci
 nsIX509CertDB
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -206,7 +206,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -225,7 +225,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -249,7 +249,7 @@ const
 CommonUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

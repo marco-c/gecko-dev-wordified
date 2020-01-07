@@ -320,7 +320,7 @@ installed
 ;
 TestRunner
 =
-ChromeUtils
+Cu
 .
 import
 (

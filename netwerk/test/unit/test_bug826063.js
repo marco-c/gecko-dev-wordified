@@ -54,7 +54,7 @@ and
 nsILoadContexts
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -73,7 +73,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

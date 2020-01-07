@@ -27,7 +27,7 @@ zero
 /
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -46,7 +46,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -582,7 +582,7 @@ run_next_test
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -33,7 +33,7 @@ Doctor
 REPAIR_ADVANCE_PERIOD
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -54,7 +54,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

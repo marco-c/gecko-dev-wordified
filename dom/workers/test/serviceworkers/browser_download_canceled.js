@@ -236,7 +236,7 @@ to
 produce
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -260,7 +260,7 @@ const
 Downloads
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

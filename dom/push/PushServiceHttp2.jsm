@@ -105,7 +105,7 @@ const
 PushDB
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -129,7 +129,7 @@ const
 PushRecord
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -148,7 +148,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -167,7 +167,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -186,7 +186,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -205,7 +205,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -224,7 +224,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -249,7 +249,7 @@ PushCrypto
 concatArray
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -296,7 +296,7 @@ let
 ConsoleAPI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

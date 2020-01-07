@@ -19,7 +19,7 @@ default
 )
 /
 /
-ChromeUtils
+Cu
 .
 import
 (

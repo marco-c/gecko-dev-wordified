@@ -4,7 +4,9 @@ global
 ChromeUtils
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -54,7 +56,9 @@ ctypes
 '
 object
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

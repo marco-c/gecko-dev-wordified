@@ -209,7 +209,7 @@ only
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -228,7 +228,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -247,7 +247,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

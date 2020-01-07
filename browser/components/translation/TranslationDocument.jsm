@@ -113,7 +113,7 @@ nsIDOMNode
 .
 TEXT_NODE
 ;
-ChromeUtils
+Cu
 .
 import
 (

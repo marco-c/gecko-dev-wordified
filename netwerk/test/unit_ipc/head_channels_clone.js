@@ -14,7 +14,9 @@ child
 process
 /
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

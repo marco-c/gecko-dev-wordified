@@ -106,7 +106,7 @@ Components
 var
 SharedAll
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -144,7 +144,7 @@ Constants
 Win
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -177,7 +177,7 @@ Constants
 libc
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -226,7 +226,7 @@ var
 XPCOMUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

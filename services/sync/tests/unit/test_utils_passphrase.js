@@ -10,7 +10,7 @@ off
 "
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

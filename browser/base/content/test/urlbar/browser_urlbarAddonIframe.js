@@ -439,7 +439,7 @@ let
 Panel
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

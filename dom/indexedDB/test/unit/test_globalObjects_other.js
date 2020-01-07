@@ -99,7 +99,7 @@ GlobalObjectsModule
 jsm
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

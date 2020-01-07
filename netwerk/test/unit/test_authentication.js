@@ -24,7 +24,7 @@ eq
 actual
 expected
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -43,7 +43,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

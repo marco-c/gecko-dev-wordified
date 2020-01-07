@@ -172,7 +172,7 @@ response
 /
 globals
 Services
-ChromeUtils
+Cu
 .
 import
 (

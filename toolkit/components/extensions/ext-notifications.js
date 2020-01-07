@@ -37,9 +37,9 @@ ToolkitModules
 {
 }
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 ToolkitModules
 "

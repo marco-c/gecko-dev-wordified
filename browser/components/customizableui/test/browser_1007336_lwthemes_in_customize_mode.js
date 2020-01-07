@@ -111,7 +111,9 @@ const
 LightweightThemeManager
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

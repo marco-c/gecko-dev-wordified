@@ -61,7 +61,7 @@ executing
 var
 OS
 =
-ChromeUtils
+Cu
 .
 import
 (

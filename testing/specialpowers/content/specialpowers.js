@@ -105,7 +105,9 @@ sendSyncMessage
 sendAsyncMessage
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

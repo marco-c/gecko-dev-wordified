@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -260,7 +262,9 @@ test
 curDirURI
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

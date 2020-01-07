@@ -63,9 +63,9 @@ setupHosts
 waitForSubprocessExit
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -86,9 +86,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -109,9 +109,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -138,7 +138,7 @@ Subprocess
 SubprocessImpl
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

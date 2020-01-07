@@ -244,7 +244,7 @@ Content
 js
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -263,7 +263,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -292,7 +292,7 @@ amManager
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

@@ -49,7 +49,7 @@ gSaveInstrumentationData
 =
 null
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -68,7 +68,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -87,7 +87,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -106,7 +106,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -125,9 +125,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -1018,7 +1018,9 @@ the
 parent
 process
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3002,7 +3004,9 @@ this
 .
 ContentTask
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3028,7 +3032,9 @@ this
 .
 BrowserTestUtils
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3054,7 +3060,9 @@ this
 .
 TestUtils
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3090,7 +3098,9 @@ this
 .
 Promise
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3116,7 +3126,9 @@ this
 .
 PromiseTestUtils
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3142,7 +3154,9 @@ this
 .
 Assert
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3213,7 +3227,9 @@ null
 const
 XPCOMUtilsMod
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3572,7 +3588,7 @@ let
 CoverageCollector
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -6645,7 +6661,7 @@ let
 BackgroundPageThumbs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -6850,7 +6866,7 @@ let
 AsyncShutdown
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

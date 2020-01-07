@@ -19,7 +19,9 @@ Components
 .
 interfaces
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -43,7 +45,7 @@ const
 OS
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -161,7 +163,9 @@ run
 /
 successfully
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

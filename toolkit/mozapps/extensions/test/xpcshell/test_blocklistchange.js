@@ -285,7 +285,7 @@ blocklist
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -304,7 +304,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

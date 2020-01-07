@@ -97,7 +97,7 @@ var
 DER
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -137,7 +137,7 @@ mozscreenshots
 html
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -156,7 +156,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -175,7 +175,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -194,7 +194,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -213,7 +213,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -232,7 +232,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -251,7 +251,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -270,9 +270,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -308,9 +308,9 @@ xpcshell
 tests
 to
 work
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -1609,7 +1609,7 @@ imported
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

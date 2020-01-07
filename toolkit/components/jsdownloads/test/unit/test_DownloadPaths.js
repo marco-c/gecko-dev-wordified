@@ -45,7 +45,7 @@ module
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

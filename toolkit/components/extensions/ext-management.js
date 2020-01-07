@@ -113,9 +113,9 @@ properties
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -180,7 +180,7 @@ const
 GlobalManager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -8,7 +8,7 @@ or
 -
 binary
 sniffer
-ChromeUtils
+Cu
 .
 import
 (
@@ -27,7 +27,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -93,7 +93,7 @@ behavior
 /
 Test
 infrastructure
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,7 +112,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

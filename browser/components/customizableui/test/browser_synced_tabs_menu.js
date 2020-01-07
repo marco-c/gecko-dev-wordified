@@ -71,7 +71,7 @@ let
 SyncedTabs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -97,7 +97,7 @@ let
 UIState
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -118,9 +118,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

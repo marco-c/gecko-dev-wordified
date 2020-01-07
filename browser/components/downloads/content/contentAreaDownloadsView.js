@@ -68,7 +68,9 @@ allDownloadsViewOverlay
 js
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

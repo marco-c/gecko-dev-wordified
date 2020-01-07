@@ -239,7 +239,7 @@ var
 NetUtil
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -265,7 +265,7 @@ var
 FileUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -291,7 +291,7 @@ var
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

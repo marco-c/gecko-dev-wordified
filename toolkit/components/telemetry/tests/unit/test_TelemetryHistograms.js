@@ -32,7 +32,7 @@ INT_MAX
 =
 0x7FFFFFFF
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -52,7 +52,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

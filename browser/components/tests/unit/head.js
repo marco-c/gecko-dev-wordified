@@ -74,7 +74,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -177,7 +177,7 @@ exported
 sinon
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

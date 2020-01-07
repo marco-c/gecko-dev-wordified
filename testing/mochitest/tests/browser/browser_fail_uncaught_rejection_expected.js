@@ -19,7 +19,7 @@ two
 expected
 rejections
 .
-ChromeUtils
+Cu
 .
 import
 (

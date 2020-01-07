@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -92,7 +92,7 @@ object
 let
 AutoMigrateBackstage
 =
-ChromeUtils
+Cu
 .
 import
 (

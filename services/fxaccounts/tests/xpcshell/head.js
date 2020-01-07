@@ -105,7 +105,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -124,7 +124,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -159,7 +159,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -278,7 +278,7 @@ v2
 .
 2
 /
-ChromeUtils
+Cu
 .
 import
 (

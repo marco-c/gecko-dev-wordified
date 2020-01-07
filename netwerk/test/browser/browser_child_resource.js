@@ -80,7 +80,9 @@ true
 "
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -133,7 +135,9 @@ frameScript
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

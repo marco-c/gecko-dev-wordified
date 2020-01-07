@@ -120,7 +120,7 @@ the
 parent
 process
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -139,7 +139,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

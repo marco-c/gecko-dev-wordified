@@ -88,7 +88,9 @@ module
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

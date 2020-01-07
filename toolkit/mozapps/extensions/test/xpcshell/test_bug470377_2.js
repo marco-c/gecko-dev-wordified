@@ -104,7 +104,9 @@ test_bug470377_5
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

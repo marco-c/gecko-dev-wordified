@@ -315,7 +315,7 @@ exports
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -337,7 +337,7 @@ this
 ;
 Meta
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -632,7 +632,7 @@ global
 OS
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

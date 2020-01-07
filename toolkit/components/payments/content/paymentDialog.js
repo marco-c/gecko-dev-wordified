@@ -134,7 +134,7 @@ Ci
 nsIPaymentRequestService
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -153,7 +153,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -192,7 +192,7 @@ try
 {
 profileStorage
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -127,7 +127,7 @@ const
 PerformanceStats
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -153,7 +153,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -179,7 +179,7 @@ const
 ObjectUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -205,7 +205,7 @@ const
 Memory
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -231,7 +231,7 @@ const
 DownloadUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

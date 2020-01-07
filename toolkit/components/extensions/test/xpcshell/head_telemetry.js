@@ -58,9 +58,9 @@ getSnapshots
 promiseTelemetryRecorded
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -77,7 +77,7 @@ const
 XPCOMUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

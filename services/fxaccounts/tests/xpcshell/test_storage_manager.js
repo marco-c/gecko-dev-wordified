@@ -42,7 +42,7 @@ FxA
 storage
 manager
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -61,7 +61,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -80,7 +80,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

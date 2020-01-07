@@ -76,7 +76,7 @@ browser
 js
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -102,7 +102,7 @@ ExtensionError
 =
 ExtensionUtils
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -35,9 +35,9 @@ tests
 false
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
