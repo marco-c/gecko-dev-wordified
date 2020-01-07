@@ -1916,8 +1916,6 @@ aMessageManager
 ;
 }
 onEvent
-:
-function
 (
 event
 data
@@ -2669,8 +2667,6 @@ pixels
 *
 /
 adjustContentBounds
-:
-function
 (
 aJsonBounds
 aBrowser
@@ -5568,8 +5564,6 @@ AccessFu
 Activate
 "
 {
-offset
-:
 offset
 activateIfKey
 :

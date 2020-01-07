@@ -1675,8 +1675,6 @@ AriaHidden
 "
 {
 hidden
-:
-hidden
 }
 )
 ;

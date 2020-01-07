@@ -2257,8 +2257,6 @@ type
 :
 aType
 touches
-:
-touches
 deltaX
 :
 maxDeltaX
