@@ -4874,13 +4874,6 @@ ErrorResult
 aError
 )
 ;
-nsIDOMScreen
-*
-GetScreen
-(
-)
-override
-;
 void
 MoveTo
 (

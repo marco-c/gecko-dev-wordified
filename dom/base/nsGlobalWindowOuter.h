@@ -3511,12 +3511,11 @@ CallerType
 aCallerType
 )
 ;
-nsIDOMScreen
+nsScreen
 *
 GetScreen
 (
 )
-override
 ;
 void
 MoveToOuter
