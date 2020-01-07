@@ -392,7 +392,7 @@ const
 void
 GetName
 (
-nsString
+nsAString
 &
 retval
 )
@@ -866,7 +866,7 @@ mCode
 Intentionally
 shadow
 the
-nsXPCException
+Exception
 version
 .
 void
