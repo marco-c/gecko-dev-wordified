@@ -1621,6 +1621,13 @@ write
 to
 finish
 .
+await
+this
+.
+stop
+(
+)
+;
 this
 .
 _saveChangedIDs
