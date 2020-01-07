@@ -833,7 +833,7 @@ Set
 Bug
 1391495
 -
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 is
@@ -850,7 +850,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -1178,7 +1178,7 @@ e10s
 disabled
 Places
 and
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 (

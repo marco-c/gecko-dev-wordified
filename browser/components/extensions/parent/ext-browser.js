@@ -125,7 +125,7 @@ defineModuleGetter
 (
 this
 "
-RecentWindow
+BrowserWindowTracker
 "
 "
 resource
@@ -135,7 +135,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -1247,7 +1247,7 @@ topNormalWindow
 )
 {
 return
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

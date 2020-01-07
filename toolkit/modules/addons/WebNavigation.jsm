@@ -114,7 +114,7 @@ defineModuleGetter
 (
 this
 "
-RecentWindow
+BrowserWindowTracker
 "
 "
 resource
@@ -124,7 +124,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -1567,7 +1567,7 @@ tabTransitionData
 let
 window
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

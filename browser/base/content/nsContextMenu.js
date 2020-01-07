@@ -7560,7 +7560,7 @@ default
 let
 browserWindow
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

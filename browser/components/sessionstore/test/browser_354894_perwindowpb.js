@@ -307,7 +307,7 @@ t
 The
 rejection
 "
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

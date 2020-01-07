@@ -869,7 +869,7 @@ return
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -1050,7 +1050,7 @@ return
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

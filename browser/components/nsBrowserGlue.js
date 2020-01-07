@@ -945,6 +945,20 @@ BrowserUsageTelemetry
 .
 jsm
 "
+BrowserWindowTracker
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+BrowserWindowTracker
+.
+jsm
+"
 ContentClick
 :
 "
@@ -1395,20 +1409,6 @@ resource
 modules
 /
 ReaderParent
-.
-jsm
-"
-RecentWindow
-:
-"
-resource
-:
-/
-/
-/
-modules
-/
-RecentWindow
 .
 jsm
 "
@@ -4298,7 +4298,7 @@ data
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -4514,7 +4514,7 @@ ex
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -7105,7 +7105,7 @@ return
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -7379,7 +7379,7 @@ reason
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -7649,7 +7649,7 @@ _notifyUnsignedAddonsDisabled
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -11812,7 +11812,7 @@ accesskey
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -12009,7 +12009,7 @@ return
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -13991,7 +13991,7 @@ helpTopic
 var
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -18042,7 +18042,7 @@ DefaultBrowserCheck
 .
 prompt
 (
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -19818,7 +19818,7 @@ return
 let
 chromeWindow
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -20031,7 +20031,7 @@ openTab
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -20731,7 +20731,7 @@ png
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -20991,7 +20991,7 @@ notification
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -21365,7 +21365,7 @@ true
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
@@ -23755,7 +23755,7 @@ return
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
