@@ -644,6 +644,16 @@ OnBackgroundParentDestroyed
 (
 )
 ;
+base
+:
+:
+ProcessId
+OtherPid
+(
+)
+const
+override
+;
 protected
 :
 /
