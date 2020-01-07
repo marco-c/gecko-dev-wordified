@@ -143,6 +143,9 @@ X11Util
 .
 h
 "
+class
+gfxXlibSurface
+;
 namespace
 mozilla
 {
