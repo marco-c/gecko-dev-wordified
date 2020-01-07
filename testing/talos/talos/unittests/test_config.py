@@ -1006,10 +1006,6 @@ no_upload_results
 '
                 
 '
-disable_stylo
-'
-                
-'
 stylothreads
 '
                 
