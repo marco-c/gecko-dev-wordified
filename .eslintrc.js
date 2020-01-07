@@ -295,14 +295,6 @@ indexedDB
 *
 "
 "
-dom
-/
-media
-/
-*
-*
-"
-"
 extensions
 /
 pref
