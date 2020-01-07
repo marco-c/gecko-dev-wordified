@@ -260,6 +260,7 @@ flags
 =
 "
 APPLIES_TO_FIRST_LETTER
+GETCS_NEEDS_LAYOUT_FLUSH
 "
 allowed_in_page_rule
 =

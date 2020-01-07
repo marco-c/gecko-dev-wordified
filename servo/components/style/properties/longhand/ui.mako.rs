@@ -576,6 +576,11 @@ gecko_ffi_name
 "
 mSpecifiedWindowTransform
 "
+flags
+=
+"
+GETCS_NEEDS_LAYOUT_FLUSH
+"
 animation_value_type
 =
 "
@@ -654,6 +659,11 @@ gecko
 boxed
 =
 True
+flags
+=
+"
+GETCS_NEEDS_LAYOUT_FLUSH
+"
 spec
 =
 "

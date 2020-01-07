@@ -1388,6 +1388,8 @@ CSS_PROPERTY_ENABLED_MASK
 CSS_PROPERTY_INTERNAL
 |
 CSS_PROPERTY_PARSE_INACCESSIBLE
+|
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 ;
 bool
 mismatch
@@ -1518,8 +1520,7 @@ mFlags
 printf_stderr
 (
 "
-Enabled
-flags
+Flags
 of
 %
 s
