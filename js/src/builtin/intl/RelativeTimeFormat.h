@@ -413,6 +413,18 @@ year
 "
 .
 *
+type
+should
+be
+"
+text
+"
+or
+"
+numeric
+"
+.
+*
 *
 Usage
 :
@@ -423,6 +435,7 @@ intl_FormatRelativeTime
 relativeTimeFormat
 t
 unit
+type
 )
 *
 /
