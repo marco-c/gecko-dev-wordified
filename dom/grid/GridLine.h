@@ -260,6 +260,12 @@ Number
 )
 const
 ;
+int32_t
+NegativeNumber
+(
+)
+const
+;
 void
 SetLineValues
 (
