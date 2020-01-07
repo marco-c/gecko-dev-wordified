@@ -439,6 +439,7 @@ box_
 {
 AnimationIterationCount
 AnimationName
+OverscrollBehavior
 ScrollSnapType
 VerticalAlign
 }
