@@ -1682,6 +1682,7 @@ non
 accelerated
 canvas
 .
+virtual
 bool
 AllowOpenGLCanvas
 (

@@ -840,6 +840,12 @@ CheckForContentOnlyDeviceReset
 (
 )
 ;
+bool
+AllowOpenGLCanvas
+(
+)
+override
+;
 mozilla
 :
 :
