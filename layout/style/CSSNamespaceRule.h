@@ -278,7 +278,7 @@ GetPrefix
 DOMString
 :
 :
-eNullNotExpected
+eTreatNullAsEmpty
 )
 ;
 }
