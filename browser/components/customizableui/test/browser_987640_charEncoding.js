@@ -280,6 +280,14 @@ querySelectorAll
 (
 "
 toolbarbutton
+:
+not
+(
+.
+subviewbutton
+-
+back
+)
 "
 )
 ;
