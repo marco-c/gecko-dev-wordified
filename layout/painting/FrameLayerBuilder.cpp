@@ -33062,9 +33062,6 @@ AbortTransaction
 (
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 if
 (
 gfxUtils
@@ -33170,8 +33167,6 @@ LayersLogging
 .
 h
 }
-#
-endif
 nsIntPoint
 offset
 =
