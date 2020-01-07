@@ -432,7 +432,7 @@ self
 ;
         
 def
-next
+__next__
 (
 self
 )
@@ -527,7 +527,7 @@ entryType
 return
 self
 .
-next
+__next__
 (
 )
 ptr_pretty_printer
