@@ -6109,7 +6109,6 @@ mutations
 .
 *
 /
-virtual
 already_AddRefed
 <
 nsIPresShell
@@ -6128,16 +6127,11 @@ mozilla
 StyleSetHandle
 aStyleSet
 )
-=
-0
 ;
-virtual
 void
 DeleteShell
 (
 )
-=
-0
 ;
 nsIPresShell
 *

@@ -22659,7 +22659,7 @@ already_AddRefed
 <
 nsIPresShell
 >
-nsDocument
+nsIDocument
 :
 :
 CreateShell
@@ -23405,7 +23405,7 @@ false
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 DeleteShell
