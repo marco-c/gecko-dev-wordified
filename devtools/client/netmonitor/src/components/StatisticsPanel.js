@@ -1441,7 +1441,6 @@ on
 click
 "
 (
-_
 {
 label
 }

@@ -5034,7 +5034,6 @@ on
 fetched
 "
 (
-event
 type
 variableObject
 )

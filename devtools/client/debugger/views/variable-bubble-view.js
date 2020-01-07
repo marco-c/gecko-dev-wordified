@@ -1545,10 +1545,7 @@ evalPrefix
 {
 fetched
 :
-(
-aEvent
 aType
-)
 =
 >
 {

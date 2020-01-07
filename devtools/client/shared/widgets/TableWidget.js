@@ -71,8 +71,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -942,10 +940,7 @@ this
 .
 bindSelectedRow
 =
-(
-event
 id
-)
 =
 >
 {
@@ -1671,7 +1666,6 @@ onChange
 :
 function
 (
-type
 data
 )
 {
@@ -2147,10 +2141,7 @@ once
 EVENTS
 .
 ROW_EDIT
-(
-e
 uniqueId
-)
 =
 >
 {
@@ -3093,7 +3084,6 @@ onRowRemoved
 :
 function
 (
-event
 row
 )
 {
@@ -7816,7 +7806,6 @@ onColumnSorted
 :
 function
 (
-event
 column
 )
 {
@@ -7885,7 +7874,6 @@ onTableFiltered
 :
 function
 (
-event
 itemsToHide
 )
 {
@@ -8053,7 +8041,6 @@ onRowUpdated
 :
 function
 (
-event
 id
 )
 {
@@ -9188,7 +9175,6 @@ toggleColumn
 :
 function
 (
-event
 id
 checked
 )

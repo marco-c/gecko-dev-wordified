@@ -71,8 +71,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -168,7 +166,6 @@ on
 changed
 "
 (
-event
 rgba
 color
 )

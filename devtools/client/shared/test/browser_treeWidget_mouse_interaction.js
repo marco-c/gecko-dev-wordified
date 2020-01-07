@@ -672,7 +672,6 @@ let
 pass
 =
 (
-e
 d
 a
 )
@@ -683,7 +682,6 @@ event
 resolve
 (
 [
-e
 d
 a
 ]

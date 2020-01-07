@@ -81,8 +81,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -259,7 +257,6 @@ pref
 changed
 "
 (
-prefName
 prefValue
 )
 =

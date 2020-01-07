@@ -253,8 +253,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -3003,7 +3001,6 @@ _onNewCoordinates
 :
 function
 (
-event
 coordinates
 )
 {

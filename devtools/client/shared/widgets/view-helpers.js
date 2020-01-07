@@ -9247,7 +9247,6 @@ _onWidgetKeyDown
 :
 function
 (
-name
 event
 )
 {
@@ -9420,7 +9419,6 @@ _onWidgetMousePress
 :
 function
 (
-name
 event
 )
 {

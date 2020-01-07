@@ -362,10 +362,7 @@ this
 props
 .
 keyShortcut
-(
-name
 event
-)
 =
 >
 {

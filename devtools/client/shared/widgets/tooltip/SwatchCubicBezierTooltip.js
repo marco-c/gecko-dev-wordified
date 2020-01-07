@@ -609,7 +609,6 @@ ready
 }
 _onUpdate
 (
-event
 bezier
 )
 {

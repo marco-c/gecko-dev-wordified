@@ -4316,10 +4316,7 @@ find
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {

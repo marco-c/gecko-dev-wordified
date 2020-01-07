@@ -71,8 +71,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -400,10 +398,7 @@ on
 "
 Escape
 "
-(
-name
 event
-)
 =
 >
 {
@@ -458,10 +453,7 @@ on
 "
 Return
 "
-(
-name
 event
-)
 =
 >
 {

@@ -1495,7 +1495,6 @@ updated
 function
 onUpdate
 (
-event
 )
 {
 if
@@ -1509,7 +1508,13 @@ toolbar
 .
 off
 (
-event
+"
+errors
+-
+counter
+-
+updated
+"
 onUpdate
 )
 ;

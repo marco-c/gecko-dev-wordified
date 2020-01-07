@@ -145,8 +145,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -851,7 +849,6 @@ on
 click
 "
 (
-event
 item
 )
 =
@@ -861,7 +858,9 @@ proxy
 .
 emit
 (
-event
+"
+click
+"
 item
 )
 ;
@@ -876,7 +875,6 @@ on
 click
 "
 (
-event
 item
 )
 =
@@ -886,7 +884,9 @@ proxy
 .
 emit
 (
-event
+"
+click
+"
 item
 )
 ;
@@ -901,7 +901,6 @@ on
 mouseover
 "
 (
-event
 item
 )
 =
@@ -911,7 +910,9 @@ proxy
 .
 emit
 (
-event
+"
+mouseover
+"
 item
 )
 ;
@@ -957,7 +958,6 @@ on
 mouseout
 "
 (
-event
 item
 )
 =
@@ -967,7 +967,9 @@ proxy
 .
 emit
 (
-event
+"
+mouseout
+"
 item
 )
 ;
@@ -1011,7 +1013,6 @@ on
 mouseover
 "
 (
-event
 item
 )
 =
@@ -1021,7 +1022,9 @@ proxy
 .
 emit
 (
-event
+"
+mouseover
+"
 item
 )
 ;
@@ -1067,7 +1070,6 @@ on
 mouseout
 "
 (
-event
 item
 )
 =
@@ -1077,7 +1079,9 @@ proxy
 .
 emit
 (
-event
+"
+mouseout
+"
 item
 )
 ;

@@ -910,7 +910,6 @@ _onObservedPrefChange
 :
 function
 (
-_
 prefName
 )
 {

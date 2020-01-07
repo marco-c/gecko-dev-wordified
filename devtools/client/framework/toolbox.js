@@ -5909,10 +5909,7 @@ function
 let
 selectOptions
 =
-(
-name
 event
-)
 =
 >
 {
@@ -6218,10 +6215,7 @@ shortcuts
 on
 (
 key
-(
-name
 event
-)
 =
 >
 {
@@ -6329,10 +6323,7 @@ shortcuts
 on
 (
 key
-(
-name
 event
-)
 =
 >
 {
@@ -6389,10 +6380,7 @@ nextTool
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {
@@ -6429,10 +6417,7 @@ previousTool
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {
@@ -6469,10 +6454,7 @@ minimize
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {
@@ -6509,10 +6491,7 @@ toggleHost
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {
@@ -15406,7 +15385,6 @@ showFramesMenuOnKeyDown
 :
 function
 (
-name
 event
 )
 {

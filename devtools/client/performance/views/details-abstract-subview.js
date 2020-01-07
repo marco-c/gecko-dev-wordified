@@ -1042,6 +1042,7 @@ function
 (
 _
 prefName
+prefValue
 )
 {
 if
@@ -1066,7 +1067,6 @@ this
 .
 _onObservedPrefChange
 (
-_
 prefName
 )
 ;
@@ -1154,7 +1154,6 @@ this
 .
 _onRerenderPrefChanged
 (
-_
 prefName
 )
 ;
