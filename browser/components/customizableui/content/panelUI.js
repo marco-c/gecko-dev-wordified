@@ -3521,6 +3521,9 @@ numItems
 withFavicons
 :
 true
+excludePocket
+:
+true
 }
 )
 .
