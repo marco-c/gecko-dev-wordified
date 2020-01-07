@@ -3211,10 +3211,6 @@ zone
 str
 -
 >
-asTenured
-(
-)
-.
 zone
 (
 )
