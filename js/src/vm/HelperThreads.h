@@ -3292,10 +3292,7 @@ alloc
 ;
 /
 /
-Rooted
-pointer
-to
-the
+The
 global
 object
 to
