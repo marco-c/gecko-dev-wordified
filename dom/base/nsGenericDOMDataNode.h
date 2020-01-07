@@ -1165,10 +1165,6 @@ nsIContent
 *
 *
 aReturn
-bool
-aCloneAfterOriginal
-=
-true
 )
 ;
 /
