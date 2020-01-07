@@ -827,6 +827,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager
