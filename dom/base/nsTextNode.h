@@ -465,7 +465,7 @@ Windows
 .
 static
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 JSContext
 *

@@ -19734,12 +19734,12 @@ aValue
 ;
 static
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 )
 {
 return
-sIsWebComponentsEnabled
+sIsShadowDOMEnabled
 ;
 }
 /
@@ -21503,7 +21503,7 @@ sIsFormAutofillAutocompleteEnabled
 ;
 static
 bool
-sIsWebComponentsEnabled
+sIsShadowDOMEnabled
 ;
 static
 bool

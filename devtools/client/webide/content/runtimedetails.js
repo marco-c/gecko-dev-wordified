@@ -1229,6 +1229,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 \
 "

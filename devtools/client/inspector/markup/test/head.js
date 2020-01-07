@@ -417,6 +417,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 )

@@ -70,6 +70,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 pref
 to
@@ -79,8 +81,8 @@ loads
 an
 iframe
 to
-ensure
 *
+ensure
 that
 the
 Element
@@ -113,7 +115,7 @@ loaded
 *
 /
 function
-setWebComponentsPrefAndCreateIframe
+setShadowDOMPrefAndCreateIframe
 (
 aSrcDoc
 )
@@ -141,6 +143,8 @@ set
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 "

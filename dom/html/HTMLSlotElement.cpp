@@ -230,7 +230,7 @@ if
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 nodeInfo
 -
