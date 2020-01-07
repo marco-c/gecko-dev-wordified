@@ -484,17 +484,6 @@ api
 BRANCH
     
 "
-ssh_key_dir
-"
-:
-"
-~
-/
-.
-ssh
-"
-    
-"
 signature_verification_script
 "
 :
@@ -512,14 +501,6 @@ android
 signature
 .
 sh
-"
-    
-"
-stage_product
-"
-:
-"
-mobile
 "
     
 "

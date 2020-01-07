@@ -46,14 +46,6 @@ branch
 BRANCH
     
 "
-stage_product
-"
-:
-"
-mobile
-"
-    
-"
 log_name
 "
 :
@@ -509,17 +501,6 @@ api
 "
 %
 BRANCH
-    
-"
-ssh_key_dir
-"
-:
-"
-~
-/
-.
-ssh
-"
     
 "
 signature_verification_script
