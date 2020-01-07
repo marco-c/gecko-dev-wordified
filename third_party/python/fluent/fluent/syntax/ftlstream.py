@@ -583,6 +583,15 @@ ch
 )
 :
         
+if
+ch
+is
+None
+:
+            
+return
+False
+        
 return
 ch
 not
