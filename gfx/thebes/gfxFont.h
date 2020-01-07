@@ -1335,7 +1335,7 @@ size
 1000
 )
 +
-uint32_t
+int32_t
 (
 sizeAdjust
 *
