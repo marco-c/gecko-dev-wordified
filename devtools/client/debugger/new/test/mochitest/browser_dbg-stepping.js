@@ -41,7 +41,7 @@ debug
 platforms
 requestLongerTimeout
 (
-3
+5
 )
 ;
 add_task
