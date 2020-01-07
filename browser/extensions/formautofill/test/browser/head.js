@@ -805,16 +805,7 @@ exp
 year
 "
 :
-(
-new
-Date
-(
-)
-)
-.
-getFullYear
-(
-)
+2017
 }
 ;
 const
