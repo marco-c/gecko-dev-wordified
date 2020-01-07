@@ -473,9 +473,6 @@ forcedRegisterAllocator
 bool
 spectreIndexMasking
 ;
-bool
-spectreStringMitigations
-;
 /
 /
 The
