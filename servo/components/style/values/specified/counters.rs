@@ -699,6 +699,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToCss
 )
 ]
 pub
@@ -749,6 +750,13 @@ MozAltContent
 Content
 items
 .
+#
+[
+css
+(
+iterable
+)
+]
 Items
 (
 Box
