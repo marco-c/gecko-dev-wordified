@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMCSSPageRule
-.
-h
-"
-#
-include
-"
 nsIDOMCSSStyleDeclaration
 .
 h
@@ -166,8 +159,6 @@ css
 :
 :
 Rule
-public
-nsIDOMCSSPageRule
 {
 protected
 :
@@ -187,12 +178,6 @@ CSSPageRule
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMCSSPageRule
-interface
-NS_DECL_NSIDOMCSSPAGERULE
 virtual
 bool
 IsCCLeaf
