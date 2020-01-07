@@ -4838,9 +4838,16 @@ return
 }
 video
 .
-srcObject
+src
 =
+chromeWin
+.
+URL
+.
+createObjectURL
+(
 stream
+)
 ;
 video
 .
