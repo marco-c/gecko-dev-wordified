@@ -413,15 +413,15 @@ year
 "
 .
 *
-type
+numeric
 should
 be
 "
-text
+always
 "
 or
 "
-numeric
+auto
 "
 .
 *
@@ -435,7 +435,7 @@ intl_FormatRelativeTime
 relativeTimeFormat
 t
 unit
-type
+numeric
 )
 *
 /
