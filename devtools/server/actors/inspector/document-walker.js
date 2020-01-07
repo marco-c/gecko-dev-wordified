@@ -206,6 +206,11 @@ rootWin
 *
 param
 {
+Object
+}
+*
+-
+{
 Number
 }
 whatToShow
@@ -218,7 +223,7 @@ for
 options
 .
 *
-param
+-
 {
 Function
 }
@@ -247,7 +252,7 @@ an
 example
 .
 *
-param
+-
 {
 String
 }
@@ -264,8 +269,8 @@ provided
 node
 is
 not
-compatible
 *
+compatible
 with
 the
 filter
@@ -278,9 +283,9 @@ to
 find
 a
 compatible
+*
 one
 either
-*
 in
 the
 parents
@@ -299,6 +304,7 @@ DocumentWalker
 (
 node
 rootWin
+{
 whatToShow
 =
 nodeFilterConstants
@@ -310,6 +316,10 @@ standardTreeWalkerFilter
 skipTo
 =
 SKIP_TO_PARENT
+}
+=
+{
+}
 )
 {
 if

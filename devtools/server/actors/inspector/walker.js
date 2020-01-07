@@ -1609,7 +1609,7 @@ if
 preffed
 on
 let
-nodeFilter
+filter
 =
 this
 .
@@ -1627,9 +1627,11 @@ node
 this
 .
 rootWin
+{
 whatToShow
-nodeFilter
+filter
 skipTo
+}
 )
 ;
 }
