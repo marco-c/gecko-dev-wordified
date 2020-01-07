@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -218,6 +211,9 @@ nsIContent
 ;
 class
 nsIDOMNode
+;
+class
+nsIDocument
 ;
 class
 nsPresContext
@@ -900,7 +896,7 @@ mTriggeringPrincipalURISpec
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 mSourceDocument
 ;
