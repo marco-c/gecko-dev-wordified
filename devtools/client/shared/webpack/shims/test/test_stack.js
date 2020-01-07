@@ -92,7 +92,7 @@ const
 {
 callFunctionWithAsyncStack
 getStack
-describeNthCaller
+getNthPathExcluding
 }
 =
 require
@@ -122,7 +122,7 @@ f3
 )
 {
 return
-describeNthCaller
+getNthPathExcluding
 (
 2
 )
