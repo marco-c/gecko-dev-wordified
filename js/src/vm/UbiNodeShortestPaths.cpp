@@ -144,6 +144,15 @@ String
 .
 h
 "
+#
+include
+"
+util
+/
+Text
+.
+h
+"
 namespace
 JS
 {

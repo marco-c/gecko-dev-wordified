@@ -291,6 +291,15 @@ include
 "
 vm
 /
+StringType
+.
+h
+"
+#
+include
+"
+vm
+/
 ErrorObject
 -
 inl
