@@ -1937,10 +1937,14 @@ nsPoint
 (
 rect
 .
-x
+X
+(
+)
 rect
 .
-y
+Y
+(
+)
 )
 .
 ToNearestPixels
