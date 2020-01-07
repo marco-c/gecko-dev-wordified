@@ -196,6 +196,17 @@ else
 false
 #
 endif
+EARLY_BETA_OR_EARLIER
+:
+#
+ifdef
+EARLY_BETA_OR_EARLIER
+true
+#
+else
+false
+#
+endif
 ACCESSIBILITY
 :
 #
