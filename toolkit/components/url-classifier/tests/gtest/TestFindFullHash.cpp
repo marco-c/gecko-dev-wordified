@@ -269,7 +269,7 @@ namespace
 .
 TEST
 (
-FindFullHash
+UrlClassifierFindFullHash
 Request
 )
 {
@@ -1251,7 +1251,7 @@ namespace
 .
 TEST
 (
-FindFullHash
+UrlClassifierFindFullHash
 ParseRequest
 )
 {

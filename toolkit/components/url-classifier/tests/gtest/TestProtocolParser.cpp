@@ -110,7 +110,7 @@ aBinary
 ;
 TEST
 (
-ProtocolParser
+UrlClassifierProtocolParser
 UpdateWait
 )
 {
@@ -304,7 +304,7 @@ p
 }
 TEST
 (
-ProtocolParser
+UrlClassifierProtocolParser
 SingleValueEncoding
 )
 {

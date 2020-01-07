@@ -101,7 +101,7 @@ aData
 ;
 TEST
 (
-RiceDeltaDecoder
+UrlClassifierRiceDeltaDecoder
 SingleEncodedValue
 )
 {
@@ -164,7 +164,7 @@ detail
 .
 TEST
 (
-RiceDeltaDecoder
+UrlClassifierRiceDeltaDecoder
 Empty
 )
 {

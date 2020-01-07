@@ -284,7 +284,7 @@ get
 }
 TEST
 (
-FailUpdate
+UrlClassifierFailUpdate
 CheckTableReset
 )
 {

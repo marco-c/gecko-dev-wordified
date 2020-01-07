@@ -1239,7 +1239,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 FixedLengthSet
 )
 {
@@ -1425,7 +1425,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 VariableLengthSet
 )
 {
@@ -1668,7 +1668,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 MixedPrefixSet
 )
 {
@@ -1918,7 +1918,7 @@ prefix
 set
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 ResetPrefix
 )
 {
@@ -2248,7 +2248,7 @@ length
 prefix
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 TinyPrefixSet
 )
 {
@@ -2340,7 +2340,7 @@ IsEmpty
 function
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 EmptyPrefixSet
 )
 {
@@ -2531,7 +2531,7 @@ between
 bytes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 MinMaxPrefixSet
 )
 {
@@ -2728,7 +2728,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSaveFixedLengthPrefixSet
 )
 {
@@ -2918,7 +2918,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSaveVariableLengthPrefixSet
 )
 {
@@ -3111,7 +3111,7 @@ bytes
 prefixes
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSavePrefixSet
 )
 {

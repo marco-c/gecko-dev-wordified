@@ -320,7 +320,7 @@ expectedPrivateStorePath
 }
 TEST
 (
-PerProviderDirectory
+UrlClassifierPerProviderDirectory
 LookupCache
 )
 {
@@ -461,7 +461,7 @@ true
 }
 TEST
 (
-PerProviderDirectory
+UrlClassifierPerProviderDirectory
 HashStore
 )
 {

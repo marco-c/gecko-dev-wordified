@@ -252,7 +252,7 @@ ClearAll
 }
 TEST
 (
-LookupCacheV4
+UrlClassifierLookupCacheV4
 HasComplete
 )
 {
@@ -274,7 +274,7 @@ true
 }
 TEST
 (
-LookupCacheV4
+UrlClassifierLookupCacheV4
 HasPrefix
 )
 {
@@ -296,7 +296,7 @@ false
 }
 TEST
 (
-LookupCacheV4
+UrlClassifierLookupCacheV4
 Nomatch
 )
 {
