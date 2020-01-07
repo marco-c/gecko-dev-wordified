@@ -949,6 +949,9 @@ clearTimeout
 (
 id
 )
+gzipCompressString
+:
+gzipCompressString
 }
 ;
 /
@@ -8622,6 +8625,8 @@ payloadStream
 .
 data
 =
+Policy
+.
 gzipCompressString
 (
 utf8Payload
