@@ -105,7 +105,7 @@ Set
 (
 [
 /
-browser
+toolkit
 \
 /
 res
@@ -130,7 +130,7 @@ mixins
 js
 /
 /
-browser
+toolkit
 \
 /
 res
@@ -145,7 +145,7 @@ paymentRequest
 js
 /
 /
-browser
+toolkit
 \
 /
 res
