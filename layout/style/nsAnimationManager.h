@@ -2271,7 +2271,8 @@ this
 )
 ;
 mEventDispatcher
-.
+-
+>
 DispatchEvents
 (
 mPresContext
