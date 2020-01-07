@@ -1453,6 +1453,9 @@ output_format
 '
 lcov
 '
+filter_covered
+=
+False
 )
 :
         
@@ -1848,6 +1851,24 @@ llvm
 '
 ]
         
+if
+filter_covered
+:
+            
+grcov_command
++
+=
+[
+'
+-
+-
+filter
+'
+'
+covered
+'
+]
+        
 #
 '
 grcov_output
@@ -1981,6 +2002,10 @@ output_format
 '
 coveralls
 '
+            
+filter_covered
+=
+True
         
 )
         
