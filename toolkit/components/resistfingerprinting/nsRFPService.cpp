@@ -363,7 +363,7 @@ microseconds
 #
 define
 RFP_TIMER_VALUE_DEFAULT
-100
+1000
 #
 define
 RFP_JITTER_VALUE_PREF
