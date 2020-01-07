@@ -1011,7 +1011,7 @@ false
 Strip
 off
 any
-preceeding
+preceding
 whitespace
 only
 lines
@@ -1337,7 +1337,7 @@ startLine
 /
 Find
 the
-preceeding
+preceding
 whitespace
 for
 all

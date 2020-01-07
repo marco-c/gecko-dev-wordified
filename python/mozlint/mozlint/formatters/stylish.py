@@ -842,7 +842,7 @@ c
 }
 A
 failure
-occured
+occurred
 in
 the
 {
