@@ -17043,7 +17043,7 @@ rv
 asyncFileMetadata
 -
 >
-AsyncWait
+AsyncFileMetadataWait
 (
 this
 mTaskQueueEventTarget
