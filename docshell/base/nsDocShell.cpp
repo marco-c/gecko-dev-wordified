@@ -3117,10 +3117,6 @@ nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIContentViewerContainer
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIWebPageDescriptor
 )
 NS_INTERFACE_MAP_ENTRY

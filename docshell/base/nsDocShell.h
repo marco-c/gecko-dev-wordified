@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsIContentViewerContainer
-.
-h
-"
-#
-include
-"
 nsIDeprecationWarner
 .
 h
@@ -655,8 +648,6 @@ nsITextScroll
 public
 nsIDocCharset
 public
-nsIContentViewerContainer
-public
 nsIRefreshURI
 public
 nsIWebProgressListener
@@ -810,7 +801,6 @@ NS_DECL_NSIDOCCHARSET
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIREFRESHURI
-NS_DECL_NSICONTENTVIEWERCONTAINER
 NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSICLIPBOARDCOMMANDS
