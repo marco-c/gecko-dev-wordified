@@ -70917,6 +70917,12 @@ GetRootSessionHistory
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+rootSH
+NS_ERROR_UNEXPECTED
+)
+;
 if
 (
 !
