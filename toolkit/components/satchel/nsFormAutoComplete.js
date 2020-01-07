@@ -1701,7 +1701,7 @@ input
 aField
 -
 -
-nsIDOMHTMLInputElement
+HTMLInputElement
 being
 autocompleted
 (

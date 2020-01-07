@@ -3504,7 +3504,7 @@ aElement
 is
 /
 /
-nsIDOMHTMLInputElement
+HTMLInputElement
 let
 form
 =
