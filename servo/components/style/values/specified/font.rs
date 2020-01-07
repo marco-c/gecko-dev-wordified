@@ -13637,7 +13637,7 @@ family
 .
 #
 [
-value_info
+css
 (
 represents_keyword
 )
@@ -13685,7 +13685,7 @@ family
 .
 #
 [
-value_info
+css
 (
 represents_keyword
 )
