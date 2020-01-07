@@ -141,7 +141,7 @@ of
 signatures
 const
 {
-XPIProvider
+XPIDatabase
 }
 =
 ChromeUtils
@@ -159,7 +159,7 @@ modules
 /
 addons
 /
-XPIProvider
+XPIDatabase
 .
 jsm
 "
@@ -168,7 +168,7 @@ jsm
 )
 ;
 await
-XPIProvider
+XPIDatabase
 .
 verifySignatures
 (
