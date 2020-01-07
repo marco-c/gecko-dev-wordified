@@ -317,9 +317,6 @@ static
 int
 SetAndroidObjects
 (
-JavaVM
-*
-javaVM
 )
 ;
 #
