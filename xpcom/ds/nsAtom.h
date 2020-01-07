@@ -421,7 +421,14 @@ nsStringBuffer
 :
 FromData
 (
+const_cast
+<
+char16_t
+*
+>
+(
 mString
+)
 )
 ;
 }
@@ -694,6 +701,7 @@ static
 /
 atoms
 .
+const
 char16_t
 *
 const
