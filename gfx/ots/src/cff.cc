@@ -2524,13 +2524,6 @@ case
 FamilyOtherBlues
 if
 (
-operands
-.
-empty
-(
-)
-|
-|
 (
 operands
 .
