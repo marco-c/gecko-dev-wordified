@@ -312,7 +312,9 @@ y
 =
 aDestRect
 .
-y
+Y
+(
+)
 ;
 y
 <
@@ -332,7 +334,9 @@ startX
 =
 aDestRect
 .
-x
+X
+(
+)
 -
 aRadius
 ;
@@ -341,7 +345,9 @@ endX
 =
 aDestRect
 .
-x
+X
+(
+)
 +
 aRadius
 ;
@@ -352,7 +358,9 @@ x
 =
 aDestRect
 .
-x
+X
+(
+)
 ;
 x
 <
@@ -680,7 +688,9 @@ startY
 =
 aDestRect
 .
-y
+Y
+(
+)
 -
 aRadius
 ;
@@ -689,7 +699,9 @@ endY
 =
 aDestRect
 .
-y
+Y
+(
+)
 +
 aRadius
 ;
@@ -700,7 +712,9 @@ y
 =
 aDestRect
 .
-y
+Y
+(
+)
 ;
 y
 <
@@ -728,7 +742,9 @@ x
 =
 aDestRect
 .
-x
+X
+(
+)
 ;
 x
 <

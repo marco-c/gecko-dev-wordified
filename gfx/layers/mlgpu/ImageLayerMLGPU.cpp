@@ -576,10 +576,14 @@ LayerIntRect
 0
 mPictureRect
 .
-width
+Width
+(
+)
 mPictureRect
 .
-height
+Height
+(
+)
 )
 )
 ;

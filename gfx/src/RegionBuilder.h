@@ -167,10 +167,14 @@ box
 {
 aRect
 .
-x
+X
+(
+)
 aRect
 .
-y
+Y
+(
+)
 aRect
 .
 XMost

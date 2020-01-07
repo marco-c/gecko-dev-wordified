@@ -2823,10 +2823,14 @@ aTextureTarget
 0
 rect
 .
-x
+X
+(
+)
 rect
 .
-y
+Y
+(
+)
 rect
 .
 Width

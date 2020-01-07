@@ -1821,7 +1821,9 @@ set_x
 (
 aRect
 .
-x
+X
+(
+)
 )
 ;
 aPacketRect
@@ -1831,7 +1833,9 @@ set_y
 (
 aRect
 .
-y
+Y
+(
+)
 )
 ;
 aPacketRect

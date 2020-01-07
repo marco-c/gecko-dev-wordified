@@ -659,7 +659,9 @@ aProperty
 <
 aRect
 .
-x
+X
+(
+)
 <
 <
 "
@@ -668,7 +670,9 @@ x
 <
 aRect
 .
-y
+Y
+(
+)
 <
 <
 "

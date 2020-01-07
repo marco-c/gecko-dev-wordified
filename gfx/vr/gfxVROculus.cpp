@@ -7263,7 +7263,9 @@ width
 *
 aLeftEyeRect
 .
-x
+X
+(
+)
 ;
 layer
 .
@@ -7282,7 +7284,9 @@ height
 *
 aLeftEyeRect
 .
-y
+Y
+(
+)
 ;
 layer
 .
@@ -7343,7 +7347,9 @@ width
 *
 aRightEyeRect
 .
-x
+X
+(
+)
 ;
 layer
 .
@@ -7362,7 +7368,9 @@ height
 *
 aRightEyeRect
 .
-y
+Y
+(
+)
 ;
 layer
 .

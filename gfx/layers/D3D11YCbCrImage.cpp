@@ -1457,7 +1457,9 @@ mPicX
 =
 mPictureRect
 .
-x
+X
+(
+)
 ;
 data
 .
@@ -1465,7 +1467,9 @@ mPicY
 =
 mPictureRect
 .
-y
+Y
+(
+)
 ;
 data
 .

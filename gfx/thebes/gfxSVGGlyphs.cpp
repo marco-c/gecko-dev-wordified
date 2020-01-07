@@ -1154,10 +1154,14 @@ Initialize
 (
 rect
 .
-width
+Width
+(
+)
 rect
 .
-height
+Height
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1462,7 +1462,9 @@ int32_t
 (
 aTileRect
 .
-x
+X
+(
+)
 *
 mBaseFrequency
 .
@@ -1481,7 +1483,9 @@ int32_t
 (
 aTileRect
 .
-y
+Y
+(
+)
 *
 mBaseFrequency
 .
