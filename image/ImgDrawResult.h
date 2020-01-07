@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_image_DrawResult_h
+mozilla_image_ImgDrawResult_h
 #
 define
-mozilla_image_DrawResult_h
+mozilla_image_ImgDrawResult_h
 #
 include
 <
@@ -151,7 +151,7 @@ operation
 Most
 users
 of
-DrawResult
+ImgDrawResult
 will
 only
 be
@@ -434,7 +434,7 @@ draw
 enum
 class
 MOZ_MUST_USE_TYPE
-DrawResult
+ImgDrawResult
 :
 uint8_t
 {
@@ -454,7 +454,7 @@ BAD_ARGS
 You
 can
 combine
-DrawResults
+ImgDrawResults
 with
 &
 .
@@ -468,7 +468,7 @@ the
 result
 is
 *
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -477,7 +477,7 @@ if
 both
 operands
 are
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -486,7 +486,7 @@ Otherwise
 *
 a
 failing
-DrawResult
+ImgDrawResult
 is
 returned
 ;
@@ -519,7 +519,7 @@ kind
 of
 failure
 over
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -543,15 +543,15 @@ occurred
 *
 /
 inline
-DrawResult
+ImgDrawResult
 operator
 &
 (
 const
-DrawResult
+ImgDrawResult
 aLeft
 const
-DrawResult
+ImgDrawResult
 aRight
 )
 {
@@ -562,7 +562,7 @@ MOZ_LIKELY
 aLeft
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -578,7 +578,7 @@ if
 aLeft
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -587,7 +587,7 @@ BAD_IMAGE
 aRight
 !
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -602,17 +602,17 @@ aLeft
 ;
 }
 inline
-DrawResult
+ImgDrawResult
 &
 operator
 &
 =
 (
-DrawResult
+ImgDrawResult
 &
 aLeft
 const
-DrawResult
+ImgDrawResult
 aRight
 )
 {
@@ -651,7 +651,7 @@ behave
 and
 an
 output
-DrawResult
+ImgDrawResult
 to
 return
 *
@@ -690,7 +690,7 @@ aImageFlags
 )
 result
 (
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -720,7 +720,7 @@ lib
 draw
 calls
 .
-DrawResult
+ImgDrawResult
 result
 ;
 /
@@ -749,4 +749,4 @@ mozilla
 endif
 /
 /
-mozilla_image_DrawResult_h
+mozilla_image_ImgDrawResult_h

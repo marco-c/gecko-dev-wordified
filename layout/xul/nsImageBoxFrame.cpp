@@ -1879,7 +1879,7 @@ const
 nsPoint
 &
 aPt
-DrawResult
+ImgDrawResult
 &
 aDrawResult
 Maybe
@@ -1915,7 +1915,7 @@ theme
 .
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -1973,7 +1973,7 @@ STATUS_SIZE_AVAILABLE
 {
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -2007,7 +2007,7 @@ imgCon
 {
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -2026,7 +2026,7 @@ aAnchorPoint
 ;
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -2039,7 +2039,7 @@ forget
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsImageBoxFrame
 :
 :
@@ -2058,7 +2058,7 @@ uint32_t
 aFlags
 )
 {
-DrawResult
+ImgDrawResult
 result
 ;
 Maybe
@@ -2135,7 +2135,7 @@ dest
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2216,7 +2216,7 @@ nullptr
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsImageBoxFrame
 :
 :
@@ -2262,7 +2262,7 @@ uint32_t
 aFlags
 )
 {
-DrawResult
+ImgDrawResult
 result
 ;
 Maybe
@@ -2437,7 +2437,7 @@ container
 )
 ;
 return
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -2488,7 +2488,7 @@ isNothing
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -2573,7 +2573,7 @@ value
 )
 ;
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -3036,7 +3036,7 @@ imgIContainer
 :
 FLAG_HIGH_QUALITY_SCALING
 ;
-DrawResult
+ImgDrawResult
 result
 =
 static_cast
@@ -3274,7 +3274,7 @@ imgIContainer
 FLAG_HIGH_QUALITY_SCALING
 ;
 }
-DrawResult
+ImgDrawResult
 result
 =
 imageFrame

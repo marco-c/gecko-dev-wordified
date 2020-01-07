@@ -4431,7 +4431,7 @@ eCornerBottomLeftY
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -5131,7 +5131,7 @@ FLAG_SYNC_DECODE_IMAGES
 image
 :
 :
-DrawResult
+ImgDrawResult
 result
 ;
 Maybe
@@ -5896,7 +5896,7 @@ Nothing
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -6053,7 +6053,7 @@ mAppearance
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -6080,10 +6080,10 @@ IsEmpty
 )
 )
 {
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -6182,7 +6182,7 @@ MOZ_ASSERT
 result
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -6202,10 +6202,10 @@ aDirtyRect
 ;
 }
 }
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -6231,7 +6231,7 @@ should
 return
 /
 /
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -6271,7 +6271,7 @@ eStyleImageType_Null
 {
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -12724,7 +12724,7 @@ return
 result
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -12880,7 +12880,7 @@ mAppearance
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -12914,7 +12914,7 @@ GetParent
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -13221,7 +13221,7 @@ return
 false
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -13403,7 +13403,7 @@ mAppearance
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -13437,7 +13437,7 @@ GetParent
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -16739,7 +16739,7 @@ mBlendMode
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -16983,7 +16983,7 @@ drawing
 )
 ;
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -17252,7 +17252,7 @@ drawBackgroundImage
 drawBackgroundColor
 )
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -17537,7 +17537,7 @@ appUnitsPerPixel
 ;
 }
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -17575,7 +17575,7 @@ on
 these
 .
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -17847,10 +17847,10 @@ skipSides
 aBorder
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -18421,7 +18421,7 @@ return
 result
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSRendering
 :
 :
@@ -18676,16 +18676,16 @@ IsEmpty
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
 ;
 }
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

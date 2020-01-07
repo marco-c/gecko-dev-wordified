@@ -577,7 +577,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -718,7 +718,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 aResult
 )
 {
@@ -863,7 +863,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -878,7 +878,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -900,7 +900,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 mLastDrawResult
 ;
 bool

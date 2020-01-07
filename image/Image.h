@@ -2167,7 +2167,7 @@ handling
 virtual
 Tuple
 <
-DrawResult
+ImgDrawResult
 gfx
 :
 :
@@ -2205,7 +2205,7 @@ aFlags
 return
 MakeTuple
 (
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -2423,7 +2423,7 @@ aContainer
 )
 mLastDrawResult
 (
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -2489,7 +2489,7 @@ null
 this
 contains
 the
-DrawResult
+ImgDrawResult
 we
 obtained
 /
@@ -2501,7 +2501,7 @@ we
 updated
 it
 .
-DrawResult
+ImgDrawResult
 mLastDrawResult
 ;
 /

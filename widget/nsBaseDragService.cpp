@@ -5003,7 +5003,7 @@ ctx
 return
 NS_ERROR_FAILURE
 ;
-DrawResult
+ImgDrawResult
 res
 =
 imgContainer
@@ -5051,7 +5051,7 @@ if
 res
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -5060,7 +5060,7 @@ BAD_IMAGE
 res
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 BAD_ARGS

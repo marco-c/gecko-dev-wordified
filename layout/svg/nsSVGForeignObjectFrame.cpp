@@ -142,7 +142,7 @@ order
 #
 include
 "
-DrawResult
+ImgDrawResult
 .
 h
 "

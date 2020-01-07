@@ -156,7 +156,7 @@ h
 #
 include
 "
-DrawResult
+ImgDrawResult
 .
 h
 "

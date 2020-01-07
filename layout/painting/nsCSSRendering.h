@@ -649,8 +649,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 typedef
 nsIFrame
@@ -938,7 +938,7 @@ none
 *
 /
 static
-DrawResult
+ImgDrawResult
 PaintBorder
 (
 nsPresContext
@@ -1012,7 +1012,7 @@ none
 *
 /
 static
-DrawResult
+ImgDrawResult
 PaintBorderWithStyleBorder
 (
 nsPresContext
@@ -2694,7 +2694,7 @@ aOpacity
 }
 ;
 static
-DrawResult
+ImgDrawResult
 PaintStyleImageLayer
 (
 const
@@ -2865,7 +2865,7 @@ used
 *
 /
 static
-DrawResult
+ImgDrawResult
 PaintStyleImageLayerWithSC
 (
 const
@@ -2906,7 +2906,7 @@ aLayer
 )
 ;
 static
-DrawResult
+ImgDrawResult
 BuildWebRenderDisplayItemsForStyleImageLayer
 (
 const
@@ -2956,7 +2956,7 @@ aItem
 )
 ;
 static
-DrawResult
+ImgDrawResult
 BuildWebRenderDisplayItemsForStyleImageLayerWithSC
 (
 const

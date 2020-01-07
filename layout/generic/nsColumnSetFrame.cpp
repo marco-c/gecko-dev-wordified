@@ -1791,7 +1791,7 @@ couldn
 t
 ignore
 the
-DrawResult
+ImgDrawResult
 that
 PaintBorderWithStyleBorder
 returns
