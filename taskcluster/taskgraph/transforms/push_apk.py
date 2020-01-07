@@ -752,6 +752,11 @@ play
 -
 strings
 '
+'
+beetmover
+-
+checksums
+'
 )
     
 ]
