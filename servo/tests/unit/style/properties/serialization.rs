@@ -110,7 +110,6 @@ values
 {
 CustomIdent
 RGBA
-Auto
 }
 ;
 use
