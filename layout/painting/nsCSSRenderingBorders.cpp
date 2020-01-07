@@ -222,6 +222,13 @@ h
 #
 include
 "
+nsCSSRendering
+.
+h
+"
+#
+include
+"
 nsCSSRenderingGradients
 .
 h
@@ -31393,6 +31400,7 @@ GetImageOutset
 ;
 if
 (
+nsCSSRendering
 :
 :
 IsBoxDecorationSlice
@@ -31411,6 +31419,7 @@ IsEmpty
 {
 mArea
 =
+nsCSSRendering
 :
 :
 BoxDecorationRectForBorder
