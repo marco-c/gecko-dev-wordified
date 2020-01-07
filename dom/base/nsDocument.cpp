@@ -498,13 +498,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

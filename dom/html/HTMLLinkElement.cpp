@@ -242,13 +242,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h

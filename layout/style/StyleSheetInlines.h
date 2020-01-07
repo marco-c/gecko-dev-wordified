@@ -436,14 +436,6 @@ dom
 :
 ParentObject
 (
-static_cast
-<
-nsIDOMStyleSheet
-*
->
-(
-mParent
-)
 mParent
 )
 ;

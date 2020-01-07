@@ -541,13 +541,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDOMSVGElement
 .
 h
@@ -2500,10 +2493,6 @@ XMLSerializer
 DEFINE_SHIM
 (
 SimpleGestureEvent
-)
-DEFINE_SHIM
-(
-StyleSheet
 )
 DEFINE_SHIM
 (

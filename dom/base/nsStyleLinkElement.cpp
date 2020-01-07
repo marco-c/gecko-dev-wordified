@@ -283,13 +283,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
