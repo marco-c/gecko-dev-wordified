@@ -2122,6 +2122,13 @@ ErrorResult
 aErr
 )
 ;
+void
+Collapse
+(
+bool
+aToStart
+)
+;
 static
 void
 GetInnerTextNoFlush
