@@ -8910,15 +8910,10 @@ mAllowXULXBL
 (
 eTriUnset
 )
-#
-ifdef
-DEBUG
 mIsLinkUpdateRegistrationsForbidden
 (
 false
 )
-#
-endif
 mBidiOptions
 (
 IBMBIDI_DEFAULT_BIDI_OPTIONS
@@ -56613,7 +56608,7 @@ Link
 aLink
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsLinkUpdateRegistrationsForbidden
@@ -56776,7 +56771,7 @@ FlushPendingLinkUpdates
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsLinkUpdateRegistrationsForbidden
@@ -56789,9 +56784,6 @@ mHasLinksToUpdate
 )
 return
 ;
-#
-ifdef
-DEBUG
 AutoRestore
 <
 bool
@@ -56805,8 +56797,6 @@ mIsLinkUpdateRegistrationsForbidden
 =
 true
 ;
-#
-endif
 for
 (
 auto
