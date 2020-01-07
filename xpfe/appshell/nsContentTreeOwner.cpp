@@ -3434,7 +3434,10 @@ STATUS_LINK
 {
 nsCOMPtr
 <
-nsIDOMElement
+dom
+:
+:
+Element
 >
 element
 =

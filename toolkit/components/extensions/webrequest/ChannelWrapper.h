@@ -317,9 +317,6 @@ NS_CHANNELWRAPPER_IID
 }
 }
 class
-nsIDOMElement
-;
-class
 nsILoadContext
 ;
 class
@@ -334,7 +331,14 @@ dom
 class
 nsIContentParent
 ;
+class
+Element
+;
 }
+/
+/
+namespace
+dom
 namespace
 extensions
 {
@@ -1088,7 +1092,10 @@ const
 ;
 already_AddRefed
 <
-nsIDOMElement
+dom
+:
+:
+Element
 >
 GetBrowserElement
 (
