@@ -303,6 +303,8 @@ connectionURL
 let
 dialogClosingPromise
 =
+BrowserTestUtils
+.
 waitForEvent
 (
 dialog
