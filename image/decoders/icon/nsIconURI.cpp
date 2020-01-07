@@ -1204,11 +1204,11 @@ attribute
 name
 values
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString

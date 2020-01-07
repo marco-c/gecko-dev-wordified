@@ -1724,11 +1724,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSimpleURI
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString

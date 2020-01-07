@@ -1479,11 +1479,11 @@ result
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsJARURI
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString
