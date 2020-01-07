@@ -569,6 +569,7 @@ const
 ;
 private
 :
+static
 void
 DecodeString
 (
@@ -581,6 +582,7 @@ nsAString
 aOutput
 )
 ;
+static
 void
 ConvertString
 (
