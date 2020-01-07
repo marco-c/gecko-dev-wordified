@@ -1347,7 +1347,7 @@ OffsetToDOMPoint
 (
 uint32_t
 aOffset
-nsIDOMNode
+nsINode
 *
 *
 aResult
@@ -1620,12 +1620,12 @@ methods
 nsresult
 SetSelectionInternal
 (
-nsIDOMNode
+nsINode
 *
 aStartNode
 uint32_t
 aStartOffset
-nsIDOMNode
+nsINode
 *
 aEndNode
 uint32_t
