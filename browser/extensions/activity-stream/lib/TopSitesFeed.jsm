@@ -1315,6 +1315,11 @@ only
 update
 the
 state
+and
+update
+the
+preloaded
+tab
 .
 this
 .
@@ -1324,7 +1329,7 @@ dispatch
 (
 ac
 .
-SendToMain
+SendToPreloaded
 (
 newAction
 )

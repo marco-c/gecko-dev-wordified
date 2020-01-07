@@ -1673,7 +1673,7 @@ Services
 .
 locale
 "
-getRequestedLocale
+getAppLocaleAsLangTag
 "
 )
 .
@@ -1782,7 +1782,7 @@ Services
 .
 locale
 "
-getRequestedLocale
+getAppLocaleAsLangTag
 "
 )
 .
@@ -1908,7 +1908,7 @@ Services
 .
 locale
 "
-getRequestedLocale
+getAppLocaleAsLangTag
 "
 )
 .
@@ -2216,7 +2216,7 @@ Services
 .
 locale
 "
-getRequestedLocale
+getAppLocaleAsLangTag
 "
 )
 .

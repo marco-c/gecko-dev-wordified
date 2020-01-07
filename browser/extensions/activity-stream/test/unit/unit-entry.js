@@ -387,12 +387,7 @@ Services
 locale
 :
 {
-getAppLocalesAsLangTags
-(
-)
-{
-}
-getRequestedLocale
+getAppLocaleAsLangTag
 (
 )
 {
@@ -403,6 +398,11 @@ en
 US
 "
 ;
+}
+getAppLocalesAsLangTags
+(
+)
+{
 }
 negotiateLanguages
 (
