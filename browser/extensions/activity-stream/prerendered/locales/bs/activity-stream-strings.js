@@ -34,7 +34,8 @@ header_top_sites
 "
 :
 "
-Najbolje
+Najposje
+enije
 stranice
 "
 "
@@ -42,7 +43,8 @@ header_stories
 "
 :
 "
-Najbolje
+Najposje
+enije
 pri
 e
 "
@@ -187,11 +189,8 @@ menu_action_email_link
 "
 Po
 alji
-vezu
-e
--
-po
-tom
+link
+emailom
 "
 "
 menu_action_open_new_window
@@ -575,7 +574,8 @@ settings_pane_topsites_header
 "
 :
 "
-Najbolje
+Najposje
+enije
 stranice
 "
 "
