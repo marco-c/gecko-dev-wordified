@@ -18,6 +18,11 @@ use
 strict
 "
 ;
+let
+{
+FormAutofillParent
+}
+=
 Cu
 .
 import
@@ -33,6 +38,8 @@ FormAutofillParent
 .
 jsm
 "
+{
+}
 )
 ;
 Cu
