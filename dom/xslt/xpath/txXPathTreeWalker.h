@@ -1304,12 +1304,8 @@ Content
 )
 -
 >
-IsNodeOfType
+IsProcessingInstruction
 (
-nsINode
-:
-:
-ePROCESSING_INSTRUCTION
 )
 ;
 }
