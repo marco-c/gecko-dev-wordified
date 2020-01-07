@@ -47807,7 +47807,7 @@ funbox
 initWithEnclosingParseContext
 (
 outerpc
-frontend
+FunctionSyntaxKind
 :
 :
 Statement
@@ -47859,6 +47859,9 @@ InAllowed
 YieldIsName
 &
 fn
+FunctionSyntaxKind
+:
+:
 Statement
 )
 )
