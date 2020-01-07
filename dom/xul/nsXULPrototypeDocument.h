@@ -661,7 +661,7 @@ performed
 by
 calling
 *
-nsIXULDocument
+XULDocument
 :
 :
 OnPrototypeLoadDone

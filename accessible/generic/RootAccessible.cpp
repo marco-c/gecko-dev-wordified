@@ -329,13 +329,6 @@ MOZ_XUL
 #
 include
 "
-nsIXULDocument
-.
-h
-"
-#
-include
-"
 nsIXULWindow
 .
 h
