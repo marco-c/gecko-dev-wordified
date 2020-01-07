@@ -786,6 +786,10 @@ void
 *
 activation
 ;
+void
+*
+endStackAddress
+;
 const
 char
 *
