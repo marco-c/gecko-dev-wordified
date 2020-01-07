@@ -321,7 +321,7 @@ DOMAttrValue
 }
 ;
 struct
-MarkupMapInfo
+HTMLMarkupMapInfo
 {
 nsStaticAtom
 *
@@ -1196,11 +1196,11 @@ mozilla
 a11y
 :
 :
-MarkupMapInfo
+HTMLMarkupMapInfo
 *
 markupMap
 =
-mMarkupMaps
+mHTMLMarkupMap
 .
 Get
 (
@@ -1697,10 +1697,10 @@ mozilla
 a11y
 :
 :
-MarkupMapInfo
+HTMLMarkupMapInfo
 *
 >
-mMarkupMaps
+mHTMLMarkupMap
 ;
 #
 ifdef
@@ -1722,7 +1722,7 @@ a11y
 XULMarkupMapInfo
 *
 >
-mXULMarkupMaps
+mXULMarkupMap
 ;
 #
 endif
