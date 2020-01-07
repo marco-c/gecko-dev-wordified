@@ -3445,7 +3445,7 @@ plugin
 =
 aEvent
 .
-target
+composedTarget
 .
 QueryInterface
 (
@@ -3511,7 +3511,7 @@ doc
 =
 aEvent
 .
-target
+composedTarget
 .
 ownerDocument
 ;
@@ -3560,7 +3560,7 @@ getFieldContext
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 /
@@ -3613,7 +3613,7 @@ parseAttributePolicyString
 (
 aEvent
 .
-target
+composedTarget
 .
 getAttribute
 (
@@ -3670,7 +3670,7 @@ if
 (
 aEvent
 .
-target
+composedTarget
 .
 nodeType
 =
@@ -3684,7 +3684,7 @@ ELEMENT_NODE
 &
 aEvent
 .
-target
+composedTarget
 instanceof
 Ci
 .
@@ -3693,7 +3693,7 @@ nsIImageLoadingContent
 &
 aEvent
 .
-target
+composedTarget
 .
 currentURI
 )
@@ -3706,7 +3706,7 @@ _disableSetDesktopBackground
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 try
@@ -3775,7 +3775,7 @@ findEntryProperties
 (
 aEvent
 .
-target
+composedTarget
 .
 currentURI
 doc
@@ -3887,7 +3887,7 @@ _getNodeSelectors
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 this
@@ -3980,7 +3980,7 @@ isEditable
 (
 aEvent
 .
-target
+composedTarget
 this
 .
 content
@@ -4067,12 +4067,12 @@ setCommandNode
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 aEvent
 .
-target
+composedTarget
 .
 ownerGlobal
 .
@@ -4091,7 +4091,7 @@ build
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 principal
@@ -4562,7 +4562,7 @@ node
 =
 aEvent
 .
-target
+composedTarget
 ;
 const
 XUL_NS
