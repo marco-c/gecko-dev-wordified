@@ -1680,15 +1680,6 @@ null
 ]
 [
 "
-Gecko_MatchStringArgPseudo
-"
-"
-aSetSlowSelectorFlag
-"
-null
-]
-[
-"
 Gecko_ClearWillChange
 "
 "
