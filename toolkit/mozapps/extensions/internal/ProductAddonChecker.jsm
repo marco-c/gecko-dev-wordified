@@ -2723,8 +2723,6 @@ The
 properties
 to
 check
-size
-and
 hashFunction
 with
 hashValue

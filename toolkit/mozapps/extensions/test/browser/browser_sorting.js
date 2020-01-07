@@ -158,9 +158,6 @@ Date
 0
 0
 )
-size
-:
-1
 pendingOperations
 :
 AddonManager
@@ -204,9 +201,6 @@ Date
 59
 59
 )
-size
-:
-265
 pendingOperations
 :
 AddonManager
@@ -263,9 +257,6 @@ Date
 0
 1
 )
-size
-:
-12
 pendingOperations
 :
 AddonManager
@@ -347,9 +338,6 @@ Date
 0
 0
 )
-size
-:
-5
 pendingOperations
 :
 AddonManager
@@ -406,9 +394,6 @@ Date
 0
 0
 )
-size
-:
-142
 isCompatible
 :
 false
@@ -457,9 +442,6 @@ Date
 59
 59
 )
-size
-:
-65
 isActive
 :
 true
@@ -505,9 +487,6 @@ Date
 0
 1
 )
-size
-:
-125
 pendingOperations
 :
 AddonManager
@@ -595,9 +574,6 @@ Date
 0
 0
 )
-size
-:
-56
 isCompatible
 :
 false
@@ -654,9 +630,6 @@ Date
 0
 0
 )
-size
-:
-142
 isActive
 :
 false
@@ -708,9 +681,6 @@ Date
 59
 59
 )
-size
-:
-65
 isActive
 :
 true
@@ -756,9 +726,6 @@ Date
 0
 1
 )
-size
-:
-125
 isActive
 :
 false
@@ -855,9 +822,6 @@ Date
 0
 0
 )
-size
-:
-56
 isActive
 :
 false
@@ -922,9 +886,6 @@ Date
 0
 0
 )
-size
-:
-142
 isActive
 :
 false
@@ -968,9 +929,6 @@ Date
 59
 59
 )
-size
-:
-65
 isActive
 :
 false
@@ -1014,9 +972,6 @@ Date
 0
 1
 )
-size
-:
-125
 isActive
 :
 false
@@ -1120,9 +1075,6 @@ Date
 0
 0
 )
-size
-:
-56
 isActive
 :
 false
