@@ -575,7 +575,7 @@ enumerators
 (
 nullptr
 )
-compartmentStats_
+realmStats_
 (
 nullptr
 )
