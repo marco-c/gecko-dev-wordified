@@ -1804,10 +1804,8 @@ null
 .
 *
 /
-already_AddRefed
-<
-nsIDOMHTMLInputElement
->
+HTMLInputElement
+*
 GetSelectedRadioButton
 (
 )
