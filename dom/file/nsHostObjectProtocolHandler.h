@@ -165,6 +165,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsWeakReference
+.
+h
+"
+#
 define
 BLOBURI_SCHEME
 "
@@ -228,6 +235,8 @@ public
 nsIProtocolHandler
 public
 nsIProtocolHandlerWithDynamicFlags
+public
+nsSupportsWeakReference
 {
 public
 :
