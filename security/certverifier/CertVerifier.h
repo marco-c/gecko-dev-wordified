@@ -492,10 +492,6 @@ DistrustSymantecRootsRegardlessOfDate
 0b0010
 }
 ;
-MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
-(
-DistrustedCAPolicy
-)
 /
 /
 Bitmask
