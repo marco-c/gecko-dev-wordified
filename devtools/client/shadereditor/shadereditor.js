@@ -4046,8 +4046,6 @@ text
 ]
 ;
 }
-else
-{
 previous
 .
 messages
@@ -4062,7 +4060,6 @@ text
 return
 accumulator
 ;
-}
 }
 function
 displayErrors
