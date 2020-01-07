@@ -368,6 +368,15 @@ mozilla
 .
 gecko
 .
+GeckoApplication
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoSharedPrefs
 ;
 import
@@ -983,9 +992,9 @@ mGeckoView
 setSession
 (
 mGeckoSession
-GeckoRuntime
+GeckoApplication
 .
-getDefault
+ensureRuntime
 (
 this
 )

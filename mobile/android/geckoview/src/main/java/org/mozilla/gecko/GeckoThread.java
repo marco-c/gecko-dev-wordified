@@ -893,7 +893,11 @@ Enable
 java
 crash
 reporting
-private
+/
+*
+package
+*
+/
 static
 final
 String
