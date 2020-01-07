@@ -404,7 +404,11 @@ GetMaxTextureSize
 )
 const
 override
+{
+return
+INT32_MAX
 ;
+}
 virtual
 bool
 BeginTransactionWithTarget
