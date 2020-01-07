@@ -4445,10 +4445,12 @@ try_options
 )
         
 if
+not
 self
 .
 verify_enabled
-or
+and
+not
 self
 .
 per_test_coverage
