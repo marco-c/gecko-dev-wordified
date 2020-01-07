@@ -890,6 +890,10 @@ mContext
 (
 nullptr
 )
+mParent
+(
+nullptr
+)
 {
 }
 Box
