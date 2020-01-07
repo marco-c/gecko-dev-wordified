@@ -17928,6 +17928,8 @@ Gecko_NewGridTemplateAreasValue
 (
 v
 .
+0
+.
 areas
 .
 len
@@ -17937,6 +17939,8 @@ as
 u32
 v
 .
+0
+.
 strings
 .
 len
@@ -17945,6 +17949,8 @@ len
 as
 u32
 v
+.
+0
 .
 width
 )
@@ -17958,6 +17964,8 @@ gecko
 )
 in
 v
+.
+0
 .
 areas
 .
@@ -18037,6 +18045,8 @@ gecko
 )
 in
 v
+.
+0
 .
 strings
 .
@@ -18180,6 +18190,7 @@ position
 {
 NamedArea
 TemplateAreas
+TemplateAreasArc
 }
 ;
 if
@@ -18389,12 +18400,21 @@ Either
 :
 First
 (
+TemplateAreasArc
+(
+Arc
+:
+:
+new
+(
 TemplateAreas
 {
 areas
 strings
 width
 }
+)
+)
 )
 }
 <

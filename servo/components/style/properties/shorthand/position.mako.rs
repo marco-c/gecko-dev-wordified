@@ -2185,6 +2185,12 @@ parser
 Parse
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 values
 :
 :
@@ -2259,7 +2265,10 @@ specified
 position
 :
 :
+{
 TemplateAreas
+TemplateAreasArc
+}
 ;
 /
 /
@@ -2315,7 +2324,7 @@ GridTemplateComponent
 GridTemplateComponent
 Either
 <
-TemplateAreas
+TemplateAreasArc
 None_
 >
 )
@@ -2985,7 +2994,16 @@ Either
 :
 First
 (
+TemplateAreasArc
+(
+Arc
+:
+:
+new
+(
 template_areas
+)
+)
 )
 )
 )
@@ -3245,7 +3263,7 @@ template_areas
 &
 Either
 <
-TemplateAreas
+TemplateAreasArc
 None_
 >
 dest
@@ -3337,6 +3355,8 @@ equal
 .
 if
 areas
+.
+0
 .
 strings
 .
@@ -3706,6 +3726,8 @@ value
 )
 in
 areas
+.
+0
 .
 strings
 .
