@@ -2752,11 +2752,6 @@ mComputedStyle
 ;
 }
 ;
-template
-<
-class
-BuilderType
->
 static
 void
 UpdateOldAnimationPropertiesWithNew
@@ -2776,7 +2771,7 @@ Keyframe
 aNewKeyframes
 bool
 aNewIsStylePaused
-BuilderType
+ServoCSSAnimationBuilder
 &
 aBuilder
 )
@@ -3150,11 +3145,6 @@ the
 new
 StyleAnimation
 .
-template
-<
-class
-BuilderType
->
 static
 already_AddRefed
 <
@@ -3175,7 +3165,7 @@ nsStyleDisplay
 aStyleDisplay
 uint32_t
 animIdx
-BuilderType
+ServoCSSAnimationBuilder
 &
 aBuilder
 nsAnimationManager
@@ -3635,11 +3625,6 @@ forget
 )
 ;
 }
-template
-<
-class
-BuilderType
->
 static
 nsAnimationManager
 :
@@ -3658,7 +3643,7 @@ const
 nsStyleDisplay
 &
 aStyleDisplay
-BuilderType
+ServoCSSAnimationBuilder
 &
 aBuilder
 nsAnimationManager
@@ -4069,11 +4054,6 @@ builder
 )
 ;
 }
-template
-<
-class
-BuilderType
->
 void
 nsAnimationManager
 :
@@ -4088,7 +4068,7 @@ const
 nsStyleDisplay
 &
 aStyleDisplay
-BuilderType
+ServoCSSAnimationBuilder
 &
 aBuilder
 )

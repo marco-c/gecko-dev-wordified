@@ -208,6 +208,9 @@ ServoComputedData
 struct
 nsStyleDisplay
 ;
+class
+ServoCSSAnimationBuilder
+;
 namespace
 mozilla
 {
@@ -2498,11 +2501,6 @@ nsAtom
 >
 mMaybeReferencedAnimations
 ;
-template
-<
-class
-BuilderType
->
 void
 DoUpdateAnimations
 (
@@ -2517,7 +2515,7 @@ const
 nsStyleDisplay
 &
 aStyleDisplay
-BuilderType
+ServoCSSAnimationBuilder
 &
 aBuilder
 )
