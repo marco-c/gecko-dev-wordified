@@ -1111,6 +1111,15 @@ friend
 class
 SourceSurfaceD2D1
 ;
+void
+FlushInternal
+(
+bool
+aHasDependencyMutex
+=
+false
+)
+;
 typedef
 std
 :

@@ -1294,6 +1294,12 @@ Factory
 :
 mDeviceLock
 ;
+StaticMutex
+Factory
+:
+:
+mDTDependencyLock
+;
 #
 endif
 DrawEventRecorder
