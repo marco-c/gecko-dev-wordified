@@ -1395,7 +1395,7 @@ is
 done
 on
 the
-compositor
+sampler
 thread
 after
 being
@@ -1603,7 +1603,7 @@ be
 called
 on
 the
-compositor
+sampler
 thread
 .
 /
@@ -5270,7 +5270,7 @@ be
 cleared
 on
 the
-compositor
+sampler
 thread
 .
 *

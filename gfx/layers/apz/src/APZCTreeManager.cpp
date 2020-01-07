@@ -309,7 +309,7 @@ h
 /
 /
 for
-AssertOnCompositorThread
+AssertOnControllerThread
 etc
 #
 include
@@ -1842,7 +1842,7 @@ aOldApzcTreeManager
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -2021,7 +2021,7 @@ aLayersId
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -2162,7 +2162,7 @@ aPaintSequenceNumber
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -3556,7 +3556,7 @@ aTransformArray
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -21539,7 +21539,7 @@ aOutData
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

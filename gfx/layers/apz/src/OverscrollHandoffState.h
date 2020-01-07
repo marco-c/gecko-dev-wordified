@@ -300,7 +300,7 @@ that
 the
 controller
 and
-compositor
+sampler
 threads
 can
 both

@@ -293,11 +293,11 @@ thread
 is
 the
 *
-compositor
+sampler
 thread
 (
 which
-applies
+samples
 the
 async
 transform
@@ -317,7 +317,7 @@ disabled
 /
 static
 void
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

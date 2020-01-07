@@ -179,7 +179,7 @@ h
 /
 /
 for
-AssertOnCompositorThread
+AssertOnSamplerThread
 #
 include
 "
@@ -440,7 +440,7 @@ Destroy
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

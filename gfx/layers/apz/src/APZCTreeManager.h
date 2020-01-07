@@ -725,7 +725,7 @@ generally
 lives
 on
 the
-compositor
+sampler
 thread
 although
 some
@@ -1157,7 +1157,7 @@ be
 called
 on
 the
-compositor
+sampler
 thread
 .
 *
@@ -1230,7 +1230,7 @@ be
 called
 on
 the
-compositor
+sampler
 thread
 .
 *
@@ -1365,7 +1365,7 @@ be
 called
 on
 the
-compositor
+sampler
 thread
 as
 it
@@ -1598,7 +1598,7 @@ is
 enabled
 from
 the
-compositor
+sampler
 thread
 .
 This
@@ -2214,7 +2214,7 @@ is
 done
 on
 the
-compositor
+sampler
 thread
 after
 being

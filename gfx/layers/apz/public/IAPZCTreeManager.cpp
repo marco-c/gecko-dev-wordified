@@ -175,7 +175,7 @@ h
 /
 /
 for
-AssertOnCompositorThread
+AssertOnControllerThread
 etc
 #
 include

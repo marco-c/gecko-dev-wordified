@@ -132,7 +132,7 @@ mozilla
 /
 layers
 /
-Compositor
+CompositorThread
 .
 h
 "
@@ -299,7 +299,7 @@ void
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 {
@@ -310,11 +310,14 @@ GetThreadAssertionsEnabled
 )
 )
 {
-Compositor
-:
-:
-AssertOnCompositorThread
+MOZ_ASSERT
 (
+CompositorThreadHolder
+:
+:
+IsInCompositorThread
+(
+)
 )
 ;
 }
