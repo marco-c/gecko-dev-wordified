@@ -13101,6 +13101,12 @@ case
 Trap
 :
 :
+IntegerOverflow
+:
+case
+Trap
+:
+:
 StackOverflow
 :
 break
@@ -13120,12 +13126,6 @@ convert
 to
 new
 traps
-:
-case
-Trap
-:
-:
-IntegerOverflow
 :
 case
 Trap

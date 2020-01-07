@@ -1622,6 +1622,12 @@ X86Encoding
 :
 :
 ConditionO
+NoOverflow
+=
+X86Encoding
+:
+:
+ConditionNO
 CarrySet
 =
 X86Encoding

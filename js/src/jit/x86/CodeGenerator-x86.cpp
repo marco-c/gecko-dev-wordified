@@ -7664,7 +7664,7 @@ canBeNegativeOverflow
 )
 {
 Label
-notmin
+notOverflow
 ;
 masm
 .
@@ -7680,7 +7680,7 @@ Imm64
 INT64_MIN
 )
 &
-notmin
+notOverflow
 )
 ;
 masm
@@ -7698,7 +7698,7 @@ Imm64
 1
 )
 &
-notmin
+notOverflow
 )
 ;
 if
@@ -7721,11 +7721,8 @@ output
 else
 masm
 .
-jump
+wasmTrap
 (
-oldTrap
-(
-lir
 wasm
 :
 :
@@ -7733,6 +7730,11 @@ Trap
 :
 :
 IntegerOverflow
+lir
+-
+>
+bytecodeOffset
+(
 )
 )
 ;
@@ -7749,7 +7751,7 @@ masm
 bind
 (
 &
-notmin
+notOverflow
 )
 ;
 }
