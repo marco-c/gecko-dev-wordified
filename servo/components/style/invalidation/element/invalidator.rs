@@ -123,7 +123,7 @@ selectors
 matching
 :
 :
-matches_compound_selector
+matches_compound_selector_from
 ;
 use
 selectors
@@ -3879,7 +3879,7 @@ invalidation_kind
 let
 matching_result
 =
-matches_compound_selector
+matches_compound_selector_from
 (
 &
 invalidation
