@@ -174,6 +174,10 @@ there
 .
 *
 /
+extern
+"
+C
+"
 MFBT_API
 #
 if
