@@ -416,6 +416,9 @@ mRootConnectionList
 int32_t
 mIdleTimeout
 ;
+bool
+mEnabled
+;
 /
 /
 When
