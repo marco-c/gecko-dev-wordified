@@ -1575,6 +1575,12 @@ spectreStringMitigations
 true
 )
 ;
+SET_DEFAULT
+(
+spectreValueMasking
+true
+)
+;
 /
 /
 Toggles
