@@ -740,12 +740,6 @@ fcp
 )
 ;
 }
-static
-void
-shutdown
-(
-)
-;
 RefPtr
 <
 txStylesheet
