@@ -205,6 +205,14 @@ IsTiledDrawTarget
 dt
 -
 >
+IsCaptureDT
+(
+)
+|
+|
+dt
+-
+>
 GetBackendType
 (
 )

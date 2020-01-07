@@ -14983,7 +14983,7 @@ if
 gfxPrefs
 :
 :
-LayersTilesEnabled
+TileEdgePaddingEnabled
 (
 )
 )
@@ -15003,6 +15003,9 @@ not
 yet
 support
 tiling
+with
+edge
+padding
 "
 NS_LITERAL_CSTRING
 (

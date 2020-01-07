@@ -282,10 +282,13 @@ aCallback
 void
 *
 aCallbackData
-bool
-aIsProgressive
+TilePaintFlags
+aFlags
 =
-false
+TilePaintFlags
+:
+:
+None
 )
 override
 ;

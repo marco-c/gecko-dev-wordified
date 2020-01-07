@@ -12218,6 +12218,14 @@ aDT
 IsTiledDrawTarget
 (
 )
+|
+|
+aDT
+-
+>
+IsCaptureDT
+(
+)
 )
 {
 return
