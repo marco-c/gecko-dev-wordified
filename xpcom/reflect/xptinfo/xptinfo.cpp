@@ -413,7 +413,7 @@ static_assert
 kPHFSize
 =
 =
-256
+512
 "
 wrong
 phf

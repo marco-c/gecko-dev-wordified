@@ -127,7 +127,7 @@ perfect
 #
 hashes
 to
-256
+512
 .
 This
 number
@@ -156,7 +156,7 @@ of
 .
 PHFSIZE
 =
-256
+512
 def
 indented
 (
