@@ -1364,7 +1364,8 @@ if
 possible
 or
 configure
-Firefox
+your
+device
 to
 trust
 its
