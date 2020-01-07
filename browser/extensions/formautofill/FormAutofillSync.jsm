@@ -233,7 +233,7 @@ defineModuleGetter
 (
 this
 "
-formAutofillStorage
+profileStorage
 "
 "
 resource
@@ -488,7 +488,7 @@ of
 space
 .
 The
-formAutofillStorage
+profileStorage
 clones
 profiles
 /
@@ -641,7 +641,7 @@ this
 .
 _storage
 =
-formAutofillStorage
+profileStorage
 [
 this
 .
@@ -741,7 +741,7 @@ local
 tombstone
 -
 and
-formAutofillStorage
+profileStorage
 .
 get
 (
@@ -2004,7 +2004,7 @@ _syncStartup
 )
 {
 await
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -2188,7 +2188,7 @@ _resetClient
 )
 {
 await
-formAutofillStorage
+profileStorage
 .
 initialize
 (

@@ -915,7 +915,7 @@ com
 return
 global
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -932,7 +932,7 @@ then
 return
 global
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2299,7 +2299,7 @@ runAsyncCode
 return
 global
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -2316,7 +2316,7 @@ then
 return
 global
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -3652,7 +3652,7 @@ try
             
 global
 .
-formAutofillStorage
+profileStorage
 =
 Cu
 .
@@ -3673,7 +3673,7 @@ jsm
 }
 )
 .
-formAutofillStorage
+profileStorage
 ;
           
 }

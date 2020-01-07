@@ -163,7 +163,7 @@ defineModuleGetter
 (
 this
 "
-formAutofillStorage
+profileStorage
 "
 "
 resource
@@ -213,7 +213,7 @@ this
 .
 _storageInitPromise
 =
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -515,7 +515,7 @@ this
 _storageInitPromise
 ;
 return
-formAutofillStorage
+profileStorage
 [
 this
 .

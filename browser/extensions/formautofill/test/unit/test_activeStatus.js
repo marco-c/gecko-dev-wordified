@@ -179,7 +179,7 @@ storage
 await
 formAutofillParent
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -645,9 +645,7 @@ sinon
 .
 stub
 (
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 "
@@ -655,9 +653,7 @@ getAll
 "
 )
 ;
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -785,9 +781,7 @@ _computeStatus
 false
 )
 ;
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 .

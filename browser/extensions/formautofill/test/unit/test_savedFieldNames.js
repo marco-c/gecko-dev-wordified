@@ -95,7 +95,7 @@ init
 await
 formAutofillParent
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -324,9 +324,7 @@ sinon
 .
 stub
 (
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 "
@@ -334,9 +332,7 @@ getAll
 "
 )
 ;
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -514,9 +510,7 @@ timesUsed
 }
 ]
 ;
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 .

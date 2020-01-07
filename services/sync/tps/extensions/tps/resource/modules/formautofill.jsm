@@ -263,7 +263,7 @@ storage
 )
 {
 return
-formAutofillStorage
+profileStorage
 [
 this
 .
@@ -408,7 +408,7 @@ true
 const
 entries
 =
-formAutofillStorage
+profileStorage
 [
 subStorageName
 ]
