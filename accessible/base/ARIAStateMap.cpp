@@ -216,7 +216,7 @@ Used
 as
 /
 /
-Element
+nsIContent
 :
 :
 AttrValuesArray

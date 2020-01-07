@@ -8696,7 +8696,7 @@ aTagName
 )
 {
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray

@@ -748,11 +748,6 @@ msup_
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -884,11 +879,6 @@ msub_
 )
 {
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

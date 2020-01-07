@@ -1350,13 +1350,7 @@ static
 bool
 CSPAllowsInlineStyle
 (
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 aContent
 nsIPrincipal

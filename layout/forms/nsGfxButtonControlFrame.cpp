@@ -708,10 +708,7 @@ mContent
 ;
 if
 (
-elt
-&
-&
-elt
+mContent
 -
 >
 HasAttr
@@ -722,6 +719,9 @@ nsGkAtoms
 :
 value
 )
+&
+&
+elt
 )
 {
 elt

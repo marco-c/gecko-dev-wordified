@@ -1221,7 +1221,7 @@ much
 sense
 .
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray

@@ -318,11 +318,6 @@ mWidth
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -432,11 +427,6 @@ mHeight
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -541,11 +531,6 @@ mDepth
 0
 ;
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

@@ -13296,7 +13296,7 @@ while
 true
 )
 {
-Element
+nsIContent
 *
 child
 =
@@ -38343,7 +38343,7 @@ QueueLoadFromSourceTask
 ;
 }
 }
-Element
+nsIContent
 *
 HTMLMediaElement
 :
@@ -38456,11 +38456,6 @@ child
 ;
 return
 child
--
->
-AsElement
-(
-)
 ;
 }
 }

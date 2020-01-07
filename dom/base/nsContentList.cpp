@@ -2721,11 +2721,6 @@ IsHTMLElement
 content
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -2740,11 +2735,6 @@ eCaseMatters
 |
 |
 content
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs

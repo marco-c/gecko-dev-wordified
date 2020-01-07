@@ -359,11 +359,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -465,11 +460,6 @@ kNameSpaceID_XUL
 &
 !
 mContent
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs
@@ -1083,11 +1073,6 @@ IsAutoComplete
 |
 |
 mContent
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs

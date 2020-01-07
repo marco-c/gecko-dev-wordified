@@ -1614,7 +1614,7 @@ NS_ERROR_INVALID_ARG
 return
 ;
 }
-Element
+nsIContent
 *
 cell
 =
@@ -2857,7 +2857,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -3022,7 +3022,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -3228,7 +3228,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -3394,7 +3394,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -4453,7 +4453,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -4628,7 +4628,7 @@ column
 we
 want
 .
-Element
+nsIContent
 *
 cell
 =
@@ -6727,11 +6727,6 @@ if
 child
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -6751,11 +6746,6 @@ nsAutoString
 sort
 ;
 child
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -6786,7 +6776,7 @@ sort
 )
 ;
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -6811,11 +6801,6 @@ nullptr
 switch
 (
 child
--
->
-AsElement
-(
-)
 -
 >
 FindAttrValueIn
@@ -7346,7 +7331,7 @@ return
 NS_OK
 ;
 }
-Element
+nsIContent
 *
 nsXULTreeBuilder
 :
@@ -7408,7 +7393,7 @@ GetIndex
 )
 )
 ;
-Element
+nsIContent
 *
 result
 =
@@ -7472,11 +7457,6 @@ colAtom
 child
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -7491,11 +7471,6 @@ eCaseMatters
 {
 return
 child
--
->
-AsElement
-(
-)
 ;
 }
 if
@@ -7512,11 +7487,6 @@ colIndex
 result
 =
 child
--
->
-AsElement
-(
-)
 ;
 }
 +

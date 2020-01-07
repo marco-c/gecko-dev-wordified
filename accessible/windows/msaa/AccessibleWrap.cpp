@@ -3101,11 +3101,6 @@ attribute
 content
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None

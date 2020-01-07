@@ -1511,11 +1511,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -1666,11 +1661,6 @@ said
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -4194,11 +4184,6 @@ center
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

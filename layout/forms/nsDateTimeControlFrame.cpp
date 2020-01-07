@@ -1848,11 +1848,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -1892,11 +1887,6 @@ readonly
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -2357,7 +2347,7 @@ aAttribute
 nsAutoString
 value
 ;
-contentAsInputElem
+mContent
 -
 >
 GetAttr

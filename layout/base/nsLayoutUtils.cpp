@@ -51603,7 +51603,7 @@ aTarget
 static
 *
 /
-Element
+nsIContent
 *
 nsLayoutUtils
 :
@@ -51794,7 +51794,7 @@ body
 ;
 nsCOMPtr
 <
-Element
+nsIContent
 >
 content
 =

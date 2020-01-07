@@ -1500,11 +1500,6 @@ return
 mContent
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None

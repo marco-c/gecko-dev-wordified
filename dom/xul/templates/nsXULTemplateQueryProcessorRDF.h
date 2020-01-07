@@ -788,7 +788,7 @@ CompileTripleCondition
 nsRDFQuery
 *
 aQuery
-Element
+nsIContent
 *
 aCondition
 TestNode
@@ -848,7 +848,7 @@ CompileMemberCondition
 nsRDFQuery
 *
 aQuery
-Element
+nsIContent
 *
 aCondition
 TestNode

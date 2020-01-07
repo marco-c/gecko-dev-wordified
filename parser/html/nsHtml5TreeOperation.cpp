@@ -4021,11 +4021,6 @@ formControl
 aNode
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None

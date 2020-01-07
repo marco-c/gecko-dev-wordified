@@ -1703,7 +1703,7 @@ return
 false
 .
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -1726,7 +1726,7 @@ nullptr
 }
 ;
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -1754,7 +1754,7 @@ nullptr
 }
 ;
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -1828,7 +1828,7 @@ eCaseMatters
 )
 !
 =
-Element
+nsIContent
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1846,7 +1846,7 @@ eCaseMatters
 )
 !
 =
-Element
+nsIContent
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1864,7 +1864,7 @@ eCaseMatters
 )
 !
 =
-Element
+nsIContent
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1984,7 +1984,7 @@ IsEmpty
 )
 {
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray

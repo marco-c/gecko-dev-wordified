@@ -1238,11 +1238,6 @@ src
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -1629,7 +1624,7 @@ UpdateLoadFlags
 )
 {
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -1654,11 +1649,6 @@ nullptr
 switch
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 FindAttrValueIn

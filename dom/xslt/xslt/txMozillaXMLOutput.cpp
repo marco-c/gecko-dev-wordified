@@ -3976,11 +3976,6 @@ httpEquiv
 aElement
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -4005,11 +4000,6 @@ nsAutoString
 value
 ;
 aElement
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

@@ -999,13 +999,7 @@ action
 .
 *
 /
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 GetTemplateActionCellFor
 (
