@@ -425,9 +425,12 @@ Class
 clasp
 TaggedProto
 proto
-JSCompartment
+JS
+:
+:
+Realm
 *
-comp
+realm
 ObjectGroupFlags
 initialFlags
 )
@@ -498,9 +501,9 @@ proto
 this
 -
 >
-compartment_
+realm_
 =
-comp
+realm
 ;
 this
 -
@@ -12193,7 +12196,7 @@ proto
 cx
 -
 >
-compartment
+realm
 (
 )
 initialFlags
