@@ -73,10 +73,7 @@ state
 .
 timingMarkers
 .
-get
-(
 marker
-)
 -
 state
 .
