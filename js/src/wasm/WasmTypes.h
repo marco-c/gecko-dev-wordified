@@ -11223,6 +11223,16 @@ frame_
 ;
 public
 :
+static
+DebugFrame
+*
+from
+(
+Frame
+*
+fp
+)
+;
 Frame
 &
 frame

@@ -602,14 +602,6 @@ debugFrame
 )
 const
 ;
-const
-CallSite
-*
-debugTrapCallsite
-(
-)
-const
-;
 }
 ;
 enum
