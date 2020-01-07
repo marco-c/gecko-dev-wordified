@@ -197,6 +197,12 @@ std
 fmt
 ;
 use
+str
+:
+:
+CssStringWriter
+;
+use
 style_traits
 :
 :
@@ -2649,9 +2655,6 @@ css
 rule
 fn
 to_css
-<
-W
->
 (
 &
 self
@@ -2663,7 +2666,7 @@ dest
 :
 &
 mut
-W
+CssStringWriter
 )
 -
 >
@@ -2671,13 +2674,6 @@ fmt
 :
 :
 Result
-where
-W
-:
-fmt
-:
-:
-Write
 {
 match
 *
