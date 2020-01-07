@@ -1070,9 +1070,6 @@ mod
 effects
 ;
 mod
-font
-;
-mod
 image
 ;
 mod
