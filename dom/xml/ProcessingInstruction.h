@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIDOMProcessingInstruction
+nsIDOMCharacterData
 .
 h
 "
@@ -162,7 +162,7 @@ ProcessingInstruction
 public
 nsGenericDOMDataNode
 public
-nsIDOMProcessingInstruction
+nsIDOMCharacterData
 {
 public
 :
@@ -214,10 +214,6 @@ overloaded
 virtual
 function
 .
-/
-/
-nsIDOMProcessingInstruction
-NS_DECL_NSIDOMPROCESSINGINSTRUCTION
 /
 /
 nsINode
@@ -303,7 +299,7 @@ API
 void
 GetTarget
 (
-nsString
+nsAString
 &
 aTarget
 )

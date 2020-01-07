@@ -130,7 +130,7 @@ Text
 *
 CDATASection
 and
-nsIDOMProcessingInstruction
+ProcessingInstruction
 nodes
 .
 *
