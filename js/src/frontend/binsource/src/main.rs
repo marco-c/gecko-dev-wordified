@@ -8462,7 +8462,10 @@ format
 !
 (
 "
-uint32_t
+BinTokenReaderBase
+:
+:
+SkippableSubTree
 {
 var_name
 }
@@ -8487,7 +8490,7 @@ var_name
 tokenizer_
 -
 >
-readOffset
+readSkippableSubTree
 (
 )
 )
@@ -8518,7 +8521,7 @@ var_name
 tokenizer_
 -
 >
-readOffset
+readSkippableSubTree
 (
 )
 )
