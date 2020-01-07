@@ -1494,11 +1494,16 @@ bool
 aIsParent
 )
 {
+#
+ifndef
+FUZZING
 ProtocolErrorBreakpoint
 (
 aMsg
 )
 ;
+#
+endif
 nsAutoCString
 formattedMessage
 (
@@ -1611,6 +1616,9 @@ AnnotateSystemError
 (
 )
 ;
+#
+ifndef
+FUZZING
 MOZ_CRASH
 (
 "
@@ -1624,6 +1632,8 @@ process
 "
 )
 ;
+#
+endif
 }
 else
 {
@@ -1646,6 +1656,9 @@ result
 "
 )
 ;
+#
+ifndef
+FUZZING
 MOZ_CRASH_UNSAFE_OOL
 (
 formattedMessage
@@ -1655,6 +1668,8 @@ get
 )
 )
 ;
+#
+endif
 }
 }
 void
