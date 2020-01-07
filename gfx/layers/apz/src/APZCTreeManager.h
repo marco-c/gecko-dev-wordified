@@ -6323,10 +6323,6 @@ LayersId
 :
 :
 HashFn
-LayersId
-:
-:
-EqualFn
 >
 mTestData
 ;

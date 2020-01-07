@@ -1170,10 +1170,6 @@ LayersId
 :
 :
 HashFn
-LayersId
-:
-:
-EqualFn
 >
 mFocusTree
 ;
