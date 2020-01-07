@@ -162,6 +162,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h
@@ -230,7 +241,7 @@ nsGkAtoms
 x
 -
 10
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -247,7 +258,7 @@ nsGkAtoms
 y
 -
 10
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -263,7 +274,7 @@ nsGkAtoms
 :
 width
 120
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -279,7 +290,7 @@ nsGkAtoms
 :
 height
 120
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

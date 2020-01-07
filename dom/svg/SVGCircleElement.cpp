@@ -154,6 +154,17 @@ SVGCircleElementBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGLengthBinding
+.
+h
+"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 Circle
@@ -224,7 +235,7 @@ nsGkAtoms
 :
 cx
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -240,7 +251,7 @@ nsGkAtoms
 :
 cy
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -256,7 +267,7 @@ nsGkAtoms
 :
 r
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

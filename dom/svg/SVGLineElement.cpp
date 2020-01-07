@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGLineElementBinding
 .
 h
@@ -217,7 +228,7 @@ nsGkAtoms
 :
 x1
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -233,7 +244,7 @@ nsGkAtoms
 :
 y1
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -249,7 +260,7 @@ nsGkAtoms
 :
 x2
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -265,7 +276,7 @@ nsGkAtoms
 :
 y2
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

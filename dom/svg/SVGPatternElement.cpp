@@ -155,6 +155,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGPatternElement
 .
 h
@@ -281,7 +292,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -297,7 +308,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -313,7 +324,7 @@ nsGkAtoms
 :
 width
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -329,7 +340,7 @@ nsGkAtoms
 :
 height
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

@@ -189,6 +189,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGFilterElement
 .
 h
@@ -1170,7 +1181,7 @@ Init
 aCtxType
 0xff
 aValue
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1306,7 +1317,7 @@ X
 aPoint
 .
 x
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1327,7 +1338,7 @@ Y
 aPoint
 .
 y
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1353,7 +1364,7 @@ SVGContentUtils
 X
 0xff
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1372,7 +1383,7 @@ SVGContentUtils
 Y
 0xff
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

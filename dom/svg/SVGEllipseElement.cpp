@@ -141,6 +141,17 @@ include
 "
 mozilla
 /
+dom
+/
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -237,7 +248,7 @@ nsGkAtoms
 :
 cx
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -253,7 +264,7 @@ nsGkAtoms
 :
 cy
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -269,7 +280,7 @@ nsGkAtoms
 :
 rx
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -285,7 +296,7 @@ nsGkAtoms
 :
 ry
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

@@ -163,6 +163,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGLinearGradientElementBinding
 .
 h
@@ -944,7 +955,7 @@ nsGkAtoms
 :
 x1
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -960,7 +971,7 @@ nsGkAtoms
 :
 y1
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -976,7 +987,7 @@ nsGkAtoms
 :
 x2
 100
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -992,7 +1003,7 @@ nsGkAtoms
 :
 y2
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1593,7 +1604,7 @@ nsGkAtoms
 :
 cx
 50
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1609,7 +1620,7 @@ nsGkAtoms
 :
 cy
 50
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1625,7 +1636,7 @@ nsGkAtoms
 :
 r
 50
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1641,7 +1652,7 @@ nsGkAtoms
 :
 fx
 50
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1657,7 +1668,7 @@ nsGkAtoms
 :
 fy
 50
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1673,7 +1684,7 @@ nsGkAtoms
 :
 fr
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

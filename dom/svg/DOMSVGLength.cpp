@@ -225,6 +225,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 static
 nsSVGAttrTearoffTable
 <
@@ -658,7 +662,7 @@ aIsAnimValItem
 )
 mUnit
 (
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -755,7 +759,7 @@ false
 )
 mUnit
 (
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -805,7 +809,7 @@ aAnimVal
 )
 mUnit
 (
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1381,7 +1385,7 @@ if
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1390,7 +1394,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -1642,7 +1646,7 @@ if
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1651,7 +1655,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -2474,9 +2478,6 @@ aGivenProto
 )
 {
 return
-dom
-:
-:
 SVGLengthBinding
 :
 :

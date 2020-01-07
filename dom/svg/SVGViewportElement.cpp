@@ -164,6 +164,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGMatrix
 .
 h
@@ -343,7 +354,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -359,7 +370,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -375,7 +386,7 @@ nsGkAtoms
 :
 width
 100
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -391,7 +402,7 @@ nsGkAtoms
 :
 height
 100
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

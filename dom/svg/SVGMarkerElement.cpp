@@ -169,6 +169,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGMarkerElement
 .
 h
@@ -290,7 +301,7 @@ nsGkAtoms
 :
 refX
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -306,7 +317,7 @@ nsGkAtoms
 :
 refY
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -322,7 +333,7 @@ nsGkAtoms
 :
 markerWidth
 3
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -338,7 +349,7 @@ nsGkAtoms
 :
 markerHeight
 3
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

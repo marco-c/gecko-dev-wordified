@@ -205,6 +205,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -279,7 +290,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -295,7 +306,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -311,7 +322,7 @@ nsGkAtoms
 :
 width
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -327,7 +338,7 @@ nsGkAtoms
 :
 height
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

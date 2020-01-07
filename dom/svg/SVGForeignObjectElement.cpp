@@ -163,6 +163,17 @@ SVGForeignObjectElementBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGLengthBinding
+.
+h
+"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 ForeignObject
@@ -226,7 +237,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -242,7 +253,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -258,7 +269,7 @@ nsGkAtoms
 :
 width
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -274,7 +285,7 @@ nsGkAtoms
 :
 height
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
