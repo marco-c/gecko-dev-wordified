@@ -314,7 +314,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 style_traits
@@ -4845,7 +4845,7 @@ Some
 cursor
 )
 =
-Cursor
+CursorKind
 :
 :
 from_u8

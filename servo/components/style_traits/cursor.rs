@@ -195,7 +195,7 @@ missing_docs
 ]
 pub
 enum
-Cursor
+CursorKind
 {
 (
 c_variant
@@ -222,7 +222,7 @@ g_value
 +
 }
 impl
-Cursor
+CursorKind
 {
 /
 /
@@ -250,7 +250,7 @@ str
 >
 Result
 <
-Cursor
+Self
 (
 )
 >
@@ -266,7 +266,7 @@ c_css
 >
 Ok
 (
-Cursor
+CursorKind
 :
 :
 c_variant
@@ -290,7 +290,7 @@ g_css
 >
 Ok
 (
-Cursor
+CursorKind
 :
 :
 g_variant
@@ -333,7 +333,7 @@ u8
 >
 Result
 <
-Cursor
+Self
 (
 )
 >
@@ -347,7 +347,7 @@ c_value
 >
 Ok
 (
-Cursor
+CursorKind
 :
 :
 c_variant
@@ -371,7 +371,7 @@ g_value
 >
 Ok
 (
-Cursor
+CursorKind
 :
 :
 g_variant
@@ -392,7 +392,7 @@ Err
 impl
 ToCss
 for
-Cursor
+CursorKind
 {
 fn
 to_css
@@ -437,7 +437,7 @@ match
 self
 {
 (
-Cursor
+CursorKind
 :
 :
 c_variant
@@ -463,7 +463,7 @@ gecko
 "
 )
 ]
-Cursor
+CursorKind
 :
 :
 g_variant
@@ -811,6 +811,14 @@ out
 ZoomOut
 =
 34
+"
+auto
+"
+=
+>
+Auto
+=
+35
 ]
 /
 /
@@ -831,7 +839,7 @@ grab
 >
 MozGrab
 =
-35
+36
 "
 -
 moz
@@ -842,7 +850,7 @@ grabbing
 >
 MozGrabbing
 =
-36
+37
 "
 -
 moz
@@ -855,7 +863,7 @@ in
 >
 MozZoomIn
 =
-37
+38
 "
 -
 moz
@@ -868,6 +876,6 @@ out
 >
 MozZoomOut
 =
-38
+39
 ]
 }

@@ -435,7 +435,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 #
 [
@@ -9752,9 +9752,9 @@ set_cursor
 (
 &
 self
-c
+cursor
 :
-Cursor
+CursorKind
 )
 {
 match
@@ -9783,9 +9783,19 @@ let
 glutin_cursor
 =
 match
-c
+cursor
 {
-Cursor
+CursorKind
+:
+:
+Auto
+=
+>
+MouseCursor
+:
+:
+Default
+CursorKind
 :
 :
 None
@@ -9795,7 +9805,7 @@ MouseCursor
 :
 :
 NoneCursor
-Cursor
+CursorKind
 :
 :
 Default
@@ -9805,7 +9815,7 @@ MouseCursor
 :
 :
 Default
-Cursor
+CursorKind
 :
 :
 Pointer
@@ -9815,7 +9825,7 @@ MouseCursor
 :
 :
 Hand
-Cursor
+CursorKind
 :
 :
 ContextMenu
@@ -9825,7 +9835,7 @@ MouseCursor
 :
 :
 ContextMenu
-Cursor
+CursorKind
 :
 :
 Help
@@ -9835,7 +9845,7 @@ MouseCursor
 :
 :
 Help
-Cursor
+CursorKind
 :
 :
 Progress
@@ -9845,7 +9855,7 @@ MouseCursor
 :
 :
 Progress
-Cursor
+CursorKind
 :
 :
 Wait
@@ -9855,7 +9865,7 @@ MouseCursor
 :
 :
 Wait
-Cursor
+CursorKind
 :
 :
 Cell
@@ -9865,7 +9875,7 @@ MouseCursor
 :
 :
 Cell
-Cursor
+CursorKind
 :
 :
 Crosshair
@@ -9875,7 +9885,7 @@ MouseCursor
 :
 :
 Crosshair
-Cursor
+CursorKind
 :
 :
 Text
@@ -9885,7 +9895,7 @@ MouseCursor
 :
 :
 Text
-Cursor
+CursorKind
 :
 :
 VerticalText
@@ -9895,7 +9905,7 @@ MouseCursor
 :
 :
 VerticalText
-Cursor
+CursorKind
 :
 :
 Alias
@@ -9905,7 +9915,7 @@ MouseCursor
 :
 :
 Alias
-Cursor
+CursorKind
 :
 :
 Copy
@@ -9915,7 +9925,7 @@ MouseCursor
 :
 :
 Copy
-Cursor
+CursorKind
 :
 :
 Move
@@ -9925,7 +9935,7 @@ MouseCursor
 :
 :
 Move
-Cursor
+CursorKind
 :
 :
 NoDrop
@@ -9935,7 +9945,7 @@ MouseCursor
 :
 :
 NoDrop
-Cursor
+CursorKind
 :
 :
 NotAllowed
@@ -9945,7 +9955,7 @@ MouseCursor
 :
 :
 NotAllowed
-Cursor
+CursorKind
 :
 :
 Grab
@@ -9955,7 +9965,7 @@ MouseCursor
 :
 :
 Grab
-Cursor
+CursorKind
 :
 :
 Grabbing
@@ -9965,7 +9975,7 @@ MouseCursor
 :
 :
 Grabbing
-Cursor
+CursorKind
 :
 :
 EResize
@@ -9975,7 +9985,7 @@ MouseCursor
 :
 :
 EResize
-Cursor
+CursorKind
 :
 :
 NResize
@@ -9985,7 +9995,7 @@ MouseCursor
 :
 :
 NResize
-Cursor
+CursorKind
 :
 :
 NeResize
@@ -9995,7 +10005,7 @@ MouseCursor
 :
 :
 NeResize
-Cursor
+CursorKind
 :
 :
 NwResize
@@ -10005,7 +10015,7 @@ MouseCursor
 :
 :
 NwResize
-Cursor
+CursorKind
 :
 :
 SResize
@@ -10015,7 +10025,7 @@ MouseCursor
 :
 :
 SResize
-Cursor
+CursorKind
 :
 :
 SeResize
@@ -10025,7 +10035,7 @@ MouseCursor
 :
 :
 SeResize
-Cursor
+CursorKind
 :
 :
 SwResize
@@ -10035,7 +10045,7 @@ MouseCursor
 :
 :
 SwResize
-Cursor
+CursorKind
 :
 :
 WResize
@@ -10045,7 +10055,7 @@ MouseCursor
 :
 :
 WResize
-Cursor
+CursorKind
 :
 :
 EwResize
@@ -10055,7 +10065,7 @@ MouseCursor
 :
 :
 EwResize
-Cursor
+CursorKind
 :
 :
 NsResize
@@ -10065,7 +10075,7 @@ MouseCursor
 :
 :
 NsResize
-Cursor
+CursorKind
 :
 :
 NeswResize
@@ -10075,7 +10085,7 @@ MouseCursor
 :
 :
 NeswResize
-Cursor
+CursorKind
 :
 :
 NwseResize
@@ -10085,7 +10095,7 @@ MouseCursor
 :
 :
 NwseResize
-Cursor
+CursorKind
 :
 :
 ColResize
@@ -10095,7 +10105,7 @@ MouseCursor
 :
 :
 ColResize
-Cursor
+CursorKind
 :
 :
 RowResize
@@ -10105,7 +10115,7 @@ MouseCursor
 :
 :
 RowResize
-Cursor
+CursorKind
 :
 :
 AllScroll
@@ -10115,7 +10125,7 @@ MouseCursor
 :
 :
 AllScroll
-Cursor
+CursorKind
 :
 :
 ZoomIn
@@ -10125,7 +10135,7 @@ MouseCursor
 :
 :
 ZoomIn
-Cursor
+CursorKind
 :
 :
 ZoomOut

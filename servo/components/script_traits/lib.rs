@@ -512,7 +512,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 webdriver_msg
@@ -6562,7 +6562,7 @@ cursor
 .
 SetCursor
 (
-Cursor
+CursorKind
 )
 }
 /

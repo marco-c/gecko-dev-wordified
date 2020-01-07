@@ -198,7 +198,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 webrender_api
@@ -1776,7 +1776,7 @@ set_cursor
 self
 cursor
 :
-Cursor
+CursorKind
 )
 ;
 /

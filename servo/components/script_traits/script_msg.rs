@@ -208,7 +208,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 style_traits
@@ -345,7 +345,7 @@ change
 .
 SetCursor
 (
-Cursor
+CursorKind
 )
 /
 /
