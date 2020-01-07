@@ -564,11 +564,7 @@ getNativeQueue
 )
 ;
 }
-/
-*
-package
-*
-/
+public
 EventDispatcher
 (
 final

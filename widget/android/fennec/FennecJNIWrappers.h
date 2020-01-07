@@ -3921,7 +3921,7 @@ Lorg
 /
 mozilla
 /
-gecko
+geckoview
 /
 GeckoSession
 ;
@@ -4071,7 +4071,7 @@ Lorg
 /
 mozilla
 /
-gecko
+geckoview
 /
 GeckoSession
 ;

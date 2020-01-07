@@ -105,7 +105,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 ;
 import
 org

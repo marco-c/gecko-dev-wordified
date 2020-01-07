@@ -1744,6 +1744,15 @@ widget
 SplashScreen
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoSession
+;
+import
 java
 .
 io
