@@ -4819,7 +4819,7 @@ aOutPipelineId
 uint64_t
 *
 aOutScrollId
-uint8_t
+uint16_t
 *
 aOutHitInfo
 )
@@ -6139,7 +6139,7 @@ WrState
 aState
 uint64_t
 aScrollId
-uint8_t
+uint16_t
 aHitInfo
 )
 WR_FUNC
