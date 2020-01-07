@@ -407,7 +407,11 @@ for
 pollChanges
 (
 )
-return
+const
+{
+RemoteSettings
+}
+=
 ChromeUtils
 .
 import
@@ -430,6 +434,9 @@ js
 {
 }
 )
+;
+return
+RemoteSettings
 ;
 }
 )
