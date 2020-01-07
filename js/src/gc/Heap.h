@@ -310,6 +310,9 @@ class
 SortedArenaList
 ;
 class
+StoreBuffer
+;
+class
 TenuredCell
 ;
 struct

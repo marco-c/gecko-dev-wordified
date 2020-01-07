@@ -276,6 +276,9 @@ struct
 Chunk
 ;
 class
+StoreBuffer
+;
+class
 TenuredCell
 ;
 /
