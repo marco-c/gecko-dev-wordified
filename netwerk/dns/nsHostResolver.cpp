@@ -3466,6 +3466,12 @@ Cancel
 (
 )
 ;
+MutexAutoLock
+lock
+(
+addr_info_lock
+)
+;
 if
 (
 addr_info
