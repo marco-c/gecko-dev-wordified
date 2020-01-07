@@ -16251,7 +16251,7 @@ reduceTimerPrecision
 .
 jitter
 "
-false
+true
 )
 ;
 /
