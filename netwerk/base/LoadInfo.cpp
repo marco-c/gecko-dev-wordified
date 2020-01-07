@@ -2524,6 +2524,13 @@ aSandboxedLoadingPrincipal
 nsIURI
 *
 aResultPrincipalURI
+const
+Maybe
+<
+ServiceWorkerDescriptor
+>
+&
+aController
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
@@ -2617,6 +2624,10 @@ aPrincipalToInherit
 mResultPrincipalURI
 (
 aResultPrincipalURI
+)
+mController
+(
+aController
 )
 mSecurityFlags
 (
