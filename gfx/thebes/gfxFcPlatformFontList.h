@@ -129,6 +129,15 @@ include
 "
 mozilla
 /
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -582,7 +591,7 @@ const
 nsAString
 &
 aFaceName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -621,7 +630,7 @@ aFaceName
 FcPattern
 *
 aFontPattern
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1457,7 +1466,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1474,7 +1483,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

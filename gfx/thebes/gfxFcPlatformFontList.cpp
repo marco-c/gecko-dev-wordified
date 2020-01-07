@@ -1010,7 +1010,7 @@ style
 }
 }
 static
-uint16_t
+FontWeight
 MapFcWeight
 (
 int
@@ -1032,7 +1032,10 @@ FC_WEIGHT_EXTRALIGHT
 )
 {
 return
+FontWeight
+(
 100
+)
 ;
 }
 if
@@ -1050,7 +1053,10 @@ FC_WEIGHT_LIGHT
 )
 {
 return
+FontWeight
+(
 200
+)
 ;
 }
 if
@@ -1068,7 +1074,10 @@ FC_WEIGHT_BOOK
 )
 {
 return
+FontWeight
+(
 300
+)
 ;
 }
 if
@@ -1091,7 +1100,10 @@ This
 includes
 FC_WEIGHT_BOOK
 return
+FontWeight
+(
 400
+)
 ;
 }
 if
@@ -1109,7 +1121,10 @@ FC_WEIGHT_DEMIBOLD
 )
 {
 return
+FontWeight
+(
 500
+)
 ;
 }
 if
@@ -1127,7 +1142,10 @@ FC_WEIGHT_BOLD
 )
 {
 return
+FontWeight
+(
 600
+)
 ;
 }
 if
@@ -1145,7 +1163,10 @@ FC_WEIGHT_EXTRABOLD
 )
 {
 return
+FontWeight
+(
 700
+)
 ;
 }
 if
@@ -1163,7 +1184,10 @@ FC_WEIGHT_BLACK
 )
 {
 return
+FontWeight
+(
 800
+)
 ;
 }
 if
@@ -1175,7 +1199,10 @@ FC_WEIGHT_BLACK
 )
 {
 return
+FontWeight
+(
 900
+)
 ;
 }
 /
@@ -1183,7 +1210,10 @@ return
 including
 FC_WEIGHT_EXTRABLACK
 return
+FontWeight
+(
 901
+)
 ;
 }
 static
@@ -1863,7 +1893,7 @@ const
 nsAString
 &
 aFaceName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1955,7 +1985,7 @@ aFaceName
 FcPattern
 *
 aFontPattern
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -7101,7 +7131,7 @@ s
 weight
 :
 %
-d
+g
 stretch
 :
 %
@@ -7173,6 +7203,10 @@ fontEntry
 -
 >
 Weight
+(
+)
+.
+ToFloat
 (
 )
 fontEntry
@@ -11220,7 +11254,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -11294,7 +11328,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

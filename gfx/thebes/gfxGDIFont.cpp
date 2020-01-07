@@ -3183,7 +3183,7 @@ GetFontEntry
 )
 )
 ;
-uint16_t
+FontWeight
 weight
 ;
 if
@@ -3245,7 +3245,10 @@ bug
 )
 weight
 =
+FontWeight
+(
 0
+)
 ;
 }
 else
@@ -3275,9 +3278,15 @@ weight
 =
 mNeedsBold
 ?
+FontWeight
+(
 700
+)
 :
+FontWeight
+(
 200
+)
 ;
 }
 }
@@ -3287,7 +3296,10 @@ weight
 =
 mNeedsBold
 ?
+FontWeight
+(
 700
+)
 :
 fe
 -

@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -562,6 +571,13 @@ gfxFontEntry
 {
 public
 :
+typedef
+mozilla
+:
+:
+FontWeight
+FontWeight
+;
 LPLOGFONTW
 GetLogFont
 (
@@ -589,7 +605,7 @@ FillLogFont
 LOGFONTW
 *
 aLogFont
-uint16_t
+FontWeight
 aWeight
 gfxFloat
 aSize
@@ -830,7 +846,7 @@ gfxWindowsFontType
 aFontType
 uint8_t
 aStyle
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -861,7 +877,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -894,7 +910,7 @@ gfxWindowsFontType
 aFontType
 uint8_t
 aStyle
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1596,6 +1612,13 @@ gfxPlatformFontList
 {
 public
 :
+typedef
+mozilla
+:
+:
+FontWeight
+FontWeight
+;
 static
 gfxGDIFontList
 *
@@ -1677,7 +1700,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1694,7 +1717,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

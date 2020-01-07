@@ -180,6 +180,15 @@ include
 "
 mozilla
 /
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -640,6 +649,13 @@ InitOtherFamilyNamesRunnable
 ;
 public
 :
+typedef
+mozilla
+:
+:
+FontWeight
+FontWeight
+;
 typedef
 mozilla
 :
@@ -1176,7 +1192,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1225,7 +1241,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

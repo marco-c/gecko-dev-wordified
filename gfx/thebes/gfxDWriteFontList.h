@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -370,6 +379,13 @@ gfxFontFamily
 {
 public
 :
+typedef
+mozilla
+:
+:
+FontWeight
+FontWeight
+;
 /
 *
 *
@@ -775,7 +791,10 @@ weight
 ;
 mWeight
 =
+FontWeight
+(
 weight
+)
 ;
 mIsCJK
 =
@@ -875,7 +894,7 @@ aFaceName
 IDWriteFont
 *
 aFont
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1013,7 +1032,7 @@ aFontFile
 IDWriteFontFileStream
 *
 aFontFileStream
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1949,7 +1968,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -1966,7 +1985,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
