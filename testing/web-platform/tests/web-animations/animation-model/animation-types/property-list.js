@@ -4663,7 +4663,7 @@ css
 -
 fonts
 -
-3
+4
 /
 #
 propdef
@@ -4675,7 +4675,7 @@ types
 :
 [
 '
-fontStretch
+percentage
 '
 ]
 }
