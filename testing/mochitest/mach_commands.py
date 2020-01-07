@@ -1931,6 +1931,13 @@ commandline
 import
 setup_logging
         
+from
+mozlog
+.
+handlers
+import
+StreamHandler
+        
 buildapp
 =
 None
@@ -2121,6 +2128,9 @@ default_level
 }
 )
             
+for
+handler
+in
 kwargs
 [
 '
@@ -2129,9 +2139,17 @@ log
 ]
 .
 handlers
-[
-0
-]
+:
+                
+if
+isinstance
+(
+handler
+StreamHandler
+)
+:
+                    
+handler
 .
 formatter
 .
