@@ -345,7 +345,9 @@ mPDFDoc
 /
 *
 *
+*
 Convert
+the
 specified
 PDF
 page
@@ -357,6 +359,7 @@ the
 EMF
 onto
 the
+*
 given
 DC
 .
@@ -380,7 +383,7 @@ aPageHeight
 *
 *
 Convert
-a
+the
 specified
 PDF
 page
