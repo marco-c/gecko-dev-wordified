@@ -344,6 +344,19 @@ serialized
 document
 .
 *
+param
+{
+object
+}
+options
+Options
+object
+to
+pass
+to
+Readability
+.
+*
 *
 return
 {
@@ -361,6 +374,7 @@ parseDocument
 (
 uri
 serializedDoc
+options
 )
 {
 let
@@ -382,6 +396,7 @@ Readability
 (
 uri
 doc
+options
 )
 .
 parse
