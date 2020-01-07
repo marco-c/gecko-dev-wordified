@@ -7704,6 +7704,11 @@ ResetSetMediaKeysTempVariables
 (
 )
 ;
+void
+PauseIfShouldNotBePlaying
+(
+)
+;
 /
 /
 The
