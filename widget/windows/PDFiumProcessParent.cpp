@@ -216,6 +216,9 @@ PDFiumProcessParent
 :
 Launch
 (
+PrintTargetEMF
+*
+aTarget
 )
 {
 mLaunchThread
@@ -258,6 +261,7 @@ mPDFiumParentActor
 new
 PDFiumParent
 (
+aTarget
 )
 ;
 return
