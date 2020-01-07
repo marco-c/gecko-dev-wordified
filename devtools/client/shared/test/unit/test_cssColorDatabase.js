@@ -156,6 +156,16 @@ db
 "
 )
 ;
+const
+InspectorUtils
+=
+require
+(
+"
+InspectorUtils
+"
+)
+;
 function
 isValid
 (
@@ -384,7 +394,7 @@ looking
 let
 names
 =
-DOMUtils
+InspectorUtils
 .
 getCSSValuesForProperty
 (

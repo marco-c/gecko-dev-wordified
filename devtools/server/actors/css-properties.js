@@ -462,7 +462,7 @@ front
 let
 values
 =
-DOMUtils
+InspectorUtils
 .
 getCSSValuesForProperty
 (
