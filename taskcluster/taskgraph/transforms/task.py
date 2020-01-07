@@ -1086,44 +1086,6 @@ platform
 '
 :
 basestring
-        
-#
-treeherder
-environments
-(
-defaults
-to
-both
-staging
-and
-production
-)
-        
-Required
-(
-'
-environments
-'
-default
-=
-[
-'
-production
-'
-'
-staging
-'
-]
-)
-:
-[
-'
-production
-'
-'
-staging
-'
-]
     
 }
     
@@ -5649,36 +5611,13 @@ of
 the
 treeherder
 routes
-keyed
-by
-treeherder
-environment
-TREEHERDER_ROUTE_ROOTS
+TREEHERDER_ROUTE_ROOT
 =
-{
-    
-'
-production
-'
-:
 '
 tc
 -
 treeherder
 '
-    
-'
-staging
-'
-:
-'
-tc
--
-treeherder
--
-stage
-'
-}
 #
 Which
 repository
@@ -9619,21 +9558,6 @@ treeherder
 None
 )
     
-task
-[
-'
-extra
-'
-]
-.
-pop
-(
-'
-treeherderEnv
-'
-None
-)
-    
 worker
 =
 task
@@ -11813,20 +11737,6 @@ if
 task_th
 :
             
-extra
-[
-'
-treeherderEnv
-'
-]
-=
-task_th
-[
-'
-environments
-'
-]
-            
 treeherder
 =
 extra
@@ -12089,9 +11999,8 @@ DEFAULT_BRANCH_REV_PARAM
             
 routes
 .
-extend
+append
 (
-[
                 
 '
 {
@@ -12111,10 +12020,7 @@ v2
 .
 format
 (
-TREEHERDER_ROUTE_ROOTS
-[
-env
-]
+TREEHERDER_ROUTE_ROOT
                                         
 config
 .
@@ -12136,18 +12042,7 @@ pushlog_id
 '
 ]
 )
-                
-for
-env
-in
-task_th
-[
-'
-environments
-'
-]
             
-]
 )
         
 if
