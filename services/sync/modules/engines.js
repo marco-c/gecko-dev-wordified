@@ -5428,7 +5428,8 @@ array
 for
 consistency
 .
-return
+json
+=
 {
 ids
 :
