@@ -1586,6 +1586,13 @@ thisArgument
 const
 ;
 inline
+bool
+isConstructing
+(
+)
+const
+;
+inline
 Value
 newTarget
 (
@@ -5867,8 +5874,6 @@ InterpreterRegs
 regs
 HandleFunction
 callee
-HandleValue
-newTarget
 HandleObject
 envChain
 )
@@ -11227,8 +11232,6 @@ resumeGeneratorFrame
 (
 HandleFunction
 callee
-HandleValue
-newTarget
 HandleObject
 envChain
 )
