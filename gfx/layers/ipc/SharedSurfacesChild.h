@@ -235,8 +235,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-uint32_t
-aGenerationId
 wr
 :
 :
