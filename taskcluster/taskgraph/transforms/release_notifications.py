@@ -511,6 +511,35 @@ format
 format_kwargs
 )
             
+#
+we
+only
+send
+these
+on
+succces
+to
+avoid
+messages
+like
+'
+blah
+is
+in
+the
+            
+#
+candidates
+dir
+'
+when
+cancelling
+graphs
+dummy
+job
+failure
+etc
+            
 routes
 =
 [
@@ -525,7 +554,7 @@ email_dest
 .
 on
 -
-any
+success
 '
 ]
             
@@ -763,7 +792,7 @@ email
 ]
 [
 '
-message
+content
 '
 ]
 =
