@@ -198,9 +198,10 @@ initialized
 let
 findBar
 =
+await
 newwindow
 .
-gFindBar
+gFindBarPromise
 ;
 await
 ContentTask

@@ -174,6 +174,9 @@ formdata
 ]
 )
 ;
+await
+gFindBarPromise
+;
 ok
 (
 !
