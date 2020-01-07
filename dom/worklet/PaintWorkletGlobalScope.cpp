@@ -162,8 +162,9 @@ PaintWorkletGlobalScope
 PaintWorkletGlobalScope
 (
 )
-{
-}
+=
+default
+;
 bool
 PaintWorkletGlobalScope
 :
