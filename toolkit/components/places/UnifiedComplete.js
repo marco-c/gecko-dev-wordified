@@ -382,10 +382,10 @@ expire_days
 matchBuckets
 "
 "
-suggestion
-:
-4
 general
+:
+5
+suggestion
 :
 Infinity
 "
