@@ -1387,7 +1387,7 @@ current_build_number
 update_folder
 =
 '
-updates
+update
 /
 '
 if
