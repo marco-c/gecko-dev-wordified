@@ -1783,8 +1783,6 @@ nsCString
 aServerTime
 bool
 aFromHttp
-bool
-aFromChild
 const
 OriginAttributes
 &
@@ -1815,8 +1813,6 @@ int64_t
 aServerTime
 bool
 aFromHttp
-bool
-aFromChild
 nsIChannel
 *
 aChannel
@@ -1843,10 +1839,6 @@ char
 aCookieHeader
 bool
 aFromHttp
-bool
-aFromChild
-=
-false
 )
 ;
 void
@@ -2116,14 +2108,6 @@ char16_t
 aData
 bool
 aOldCookieIsSession
-=
-false
-bool
-aFromHttp
-=
-false
-bool
-aFromChild
 =
 false
 )

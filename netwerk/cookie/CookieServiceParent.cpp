@@ -1779,7 +1779,6 @@ aIsForeign
 cookieString
 aServerTime
 aFromHttp
-true
 aAttrs
 dummyChannel
 )
