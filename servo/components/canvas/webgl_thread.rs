@@ -3608,9 +3608,6 @@ stride
 None
 format
 :
-if
-alpha
-{
 webrender_api
 :
 :
@@ -3618,17 +3615,6 @@ ImageFormat
 :
 :
 BGRA8
-}
-else
-{
-webrender_api
-:
-:
-ImageFormat
-:
-:
-RGB8
-}
 offset
 :
 0
