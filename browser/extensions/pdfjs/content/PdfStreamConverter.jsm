@@ -178,15 +178,6 @@ message
 "
 ;
 const
-PDF_CONTENT_TYPE
-=
-"
-application
-/
-pdf
-"
-;
-const
 PREF_PREFIX
 =
 "
