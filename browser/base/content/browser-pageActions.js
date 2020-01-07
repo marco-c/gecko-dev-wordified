@@ -150,7 +150,7 @@ pageActionPanel
 *
 *
 The
-photonmultiview
+panelmultiview
 node
 in
 the
@@ -1633,7 +1633,7 @@ document
 createElement
 (
 "
-photonpanelmultiview
+panelmultiview
 "
 )
 ;

@@ -2642,7 +2642,6 @@ closest
 (
 "
 panelmultiview
-photonpanelmultiview
 "
 )
 ;
@@ -2955,7 +2954,7 @@ document
 createElement
 (
 "
-photonpanelmultiview
+panelmultiview
 "
 )
 ;

@@ -325,7 +325,6 @@ kOverflowPanel
 querySelector
 (
 "
-photonpanelmultiview
 panelmultiview
 "
 )
