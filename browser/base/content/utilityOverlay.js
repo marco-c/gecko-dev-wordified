@@ -3360,6 +3360,12 @@ isBlankPageURL
 (
 url
 )
+&
+&
+!
+aboutNewTabService
+.
+willNotifyUser
 ;
 let
 tabUsedForLoad
