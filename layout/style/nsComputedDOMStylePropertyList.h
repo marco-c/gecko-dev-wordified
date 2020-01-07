@@ -1403,6 +1403,16 @@ COMPUTED_STYLE_PROP
 overflow_y
 OverflowY
 )
+COMPUTED_STYLE_PROP
+(
+overscroll_behavior_x
+OverscrollBehaviorX
+)
+COMPUTED_STYLE_PROP
+(
+overscroll_behavior_y
+OverscrollBehaviorY
+)
 /
 /
 /
