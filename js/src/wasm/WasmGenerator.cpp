@@ -1386,7 +1386,7 @@ false
 ;
 const
 size_t
-CallSitesPerByteCode
+ByteCodesPerCallSite
 =
 10
 ;
@@ -1402,7 +1402,7 @@ reserve
 (
 codeSectionSize
 /
-CallSitesPerByteCode
+ByteCodesPerCallSite
 )
 )
 return
