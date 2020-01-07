@@ -5763,6 +5763,11 @@ lock
 )
 ;
 void
+purgeRuntimeForMinorGC
+(
+)
+;
+void
 shrinkBuffers
 (
 )
