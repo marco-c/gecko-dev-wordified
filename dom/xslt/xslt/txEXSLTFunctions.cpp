@@ -3917,6 +3917,9 @@ case
 "
 )
 ;
+return
+NS_ERROR_UNEXPECTED
+;
 }
 Expr
 :
@@ -4499,6 +4502,9 @@ case
 .
 "
 )
+;
+return
+NS_ERROR_UNEXPECTED
 ;
 }
 Expr
