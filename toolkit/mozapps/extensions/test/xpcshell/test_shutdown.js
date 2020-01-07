@@ -189,6 +189,9 @@ getUpgradeListener
 isDBLoaded
 "
 "
+recordTiming
+"
+"
 BOOTSTRAP_REASONS
 "
 ]
