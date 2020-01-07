@@ -240,6 +240,9 @@ class
 PerformanceStorage
 ;
 class
+SharedWorker
+;
+class
 WorkerDebuggerGlobalScope
 ;
 class
@@ -262,9 +265,6 @@ namespace
 mozilla
 namespace
 BEGIN_WORKERS_NAMESPACE
-class
-SharedWorker
-;
 class
 WorkerControlRunnable
 ;
