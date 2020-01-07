@@ -98,7 +98,7 @@ log_enabled
 log
 :
 :
-LogLevel
+Level
 :
 :
 Trace
