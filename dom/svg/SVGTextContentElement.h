@@ -181,6 +181,12 @@ SVGTextContentElement
 public
 SVGTextContentElementBase
 {
+friend
+class
+:
+:
+SVGTextFrame
+;
 public
 :
 using
