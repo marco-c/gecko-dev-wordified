@@ -16,10 +16,22 @@ hasOwnProperty
 Atomics
 '
 )
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
+SharedArrayBuffer
+'
+)
 )
 -
 -
 Atomics
+SharedArrayBuffer
 is
 not
 enabled
@@ -90,6 +102,8 @@ features
 :
 [
 Atomics
+SharedArrayBuffer
+TypedArray
 ]
 -
 -
@@ -400,6 +414,7 @@ i
 +
 +
 )
+{
 rs
 .
 push
@@ -409,6 +424,7 @@ getReport
 )
 )
 ;
+}
 rs
 .
 sort
@@ -430,6 +446,7 @@ i
 +
 +
 )
+{
 assert
 .
 sameValue
@@ -443,6 +460,7 @@ ok
 "
 )
 ;
+}
 for
 (
 var
@@ -458,6 +476,7 @@ i
 +
 +
 )
+{
 assert
 .
 sameValue
@@ -473,6 +492,7 @@ out
 "
 )
 ;
+}
 function
 getReport
 (
@@ -498,6 +518,7 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
@@ -507,6 +528,7 @@ sleep
 100
 )
 ;
+}
 return
 r
 ;

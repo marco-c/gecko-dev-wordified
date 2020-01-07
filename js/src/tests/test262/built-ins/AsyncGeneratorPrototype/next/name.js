@@ -155,7 +155,9 @@ js
 features
 :
 [
-generators
+async
+-
+iteration
 ]
 -
 -

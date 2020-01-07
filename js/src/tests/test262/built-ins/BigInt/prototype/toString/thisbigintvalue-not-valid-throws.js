@@ -166,6 +166,7 @@ features
 [
 BigInt
 Symbol
+Symbol
 .
 toPrimitive
 ]

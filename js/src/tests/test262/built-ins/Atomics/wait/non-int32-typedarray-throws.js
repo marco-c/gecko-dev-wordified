@@ -129,7 +129,13 @@ features
 :
 [
 Atomics
+Float32Array
+Float64Array
+Int8Array
 TypedArray
+Uint16Array
+Uint8Array
+Uint8ClampedArray
 ]
 -
 -

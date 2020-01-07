@@ -175,6 +175,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 null
@@ -199,6 +200,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 undefined
@@ -223,6 +225,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 true
@@ -247,6 +250,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 false
@@ -279,6 +283,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 String
@@ -305,6 +310,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 -
@@ -341,6 +347,7 @@ poisoned
 poisoned
 poisoned
 )
+;
 }
 '
 Symbol

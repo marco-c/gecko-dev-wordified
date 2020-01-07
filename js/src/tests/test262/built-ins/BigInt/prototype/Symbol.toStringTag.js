@@ -133,11 +133,11 @@ js
 features
 :
 [
+BigInt
+Symbol
 Symbol
 .
 toStringTag
-BigInt
-Symbol
 ]
 -
 -

@@ -91,7 +91,6 @@ assert
 .
 sameValue
 (
-false
 Atomics
 .
 isLockFree
@@ -104,13 +103,13 @@ Number
 NaN
 )
 )
+false
 )
 ;
 assert
 .
 sameValue
 (
-false
 Atomics
 .
 isLockFree
@@ -122,13 +121,13 @@ hide
 1
 )
 )
+false
 )
 ;
 assert
 .
 sameValue
 (
-false
 Atomics
 .
 isLockFree
@@ -141,13 +140,13 @@ hide
 14
 )
 )
+false
 )
 ;
 assert
 .
 sameValue
 (
-false
 Atomics
 .
 isLockFree
@@ -158,6 +157,7 @@ hide
 0
 )
 )
+false
 )
 ;
 assert
@@ -337,6 +337,7 @@ if
 (
 k
 )
+{
 return
 hide
 (
@@ -348,6 +349,7 @@ x
 +
 x
 ;
+}
 return
 0
 ;

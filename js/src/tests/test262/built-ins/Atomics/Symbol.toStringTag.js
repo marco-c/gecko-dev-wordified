@@ -135,6 +135,7 @@ features
 [
 Atomics
 Symbol
+Symbol
 .
 toStringTag
 ]

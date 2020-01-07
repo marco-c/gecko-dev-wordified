@@ -176,6 +176,7 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
@@ -185,6 +186,7 @@ sleep
 100
 )
 ;
+}
 return
 r
 ;
@@ -290,20 +292,6 @@ sleep
 /
 Ample
 time
-assert
-.
-sameValue
-(
-262
-.
-agent
-.
-getReport
-(
-)
-null
-)
-;
 assert
 .
 sameValue

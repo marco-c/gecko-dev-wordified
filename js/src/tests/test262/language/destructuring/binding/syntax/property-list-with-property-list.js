@@ -101,6 +101,13 @@ BindingProperty
 ?
 Yield
 ]
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

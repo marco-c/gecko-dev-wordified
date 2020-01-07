@@ -88,6 +88,13 @@ ReturnIfAbrupt
 valid
 )
 .
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

@@ -107,6 +107,13 @@ BindingIdentifier
 ?
 Yield
 ]
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

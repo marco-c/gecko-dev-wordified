@@ -158,7 +158,7 @@ function
 1
 ;
 }
-"
+'
 1n
 >
 >
@@ -166,7 +166,7 @@ function
 1
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -185,7 +185,7 @@ function
 1n
 ;
 }
-"
+'
 1
 >
 >
@@ -193,7 +193,7 @@ function
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -215,7 +215,7 @@ Object
 1
 ;
 }
-"
+'
 Object
 (
 1n
@@ -226,7 +226,7 @@ Object
 1
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -248,7 +248,7 @@ Object
 )
 ;
 }
-"
+'
 1
 >
 >
@@ -259,7 +259,7 @@ Object
 )
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -281,7 +281,7 @@ Object
 )
 ;
 }
-"
+'
 1n
 >
 >
@@ -292,7 +292,7 @@ Object
 )
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -314,7 +314,7 @@ Object
 1n
 ;
 }
-"
+'
 Object
 (
 1
@@ -325,7 +325,7 @@ Object
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -350,7 +350,7 @@ Object
 )
 ;
 }
-"
+'
 Object
 (
 1n
@@ -364,7 +364,7 @@ Object
 )
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -389,7 +389,7 @@ Object
 )
 ;
 }
-"
+'
 Object
 (
 1
@@ -403,7 +403,7 @@ Object
 )
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -422,7 +422,7 @@ function
 NaN
 ;
 }
-"
+'
 1n
 >
 >
@@ -430,7 +430,7 @@ NaN
 NaN
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -449,7 +449,7 @@ NaN
 1n
 ;
 }
-"
+'
 NaN
 >
 >
@@ -457,7 +457,7 @@ NaN
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -476,7 +476,7 @@ function
 Infinity
 ;
 }
-"
+'
 1n
 >
 >
@@ -484,7 +484,7 @@ Infinity
 Infinity
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -503,7 +503,7 @@ Infinity
 1n
 ;
 }
-"
+'
 Infinity
 >
 >
@@ -511,7 +511,7 @@ Infinity
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -530,7 +530,7 @@ function
 true
 ;
 }
-"
+'
 1n
 >
 >
@@ -538,7 +538,7 @@ true
 true
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -557,7 +557,7 @@ true
 1n
 ;
 }
-"
+'
 true
 >
 >
@@ -565,7 +565,7 @@ true
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -581,9 +581,9 @@ function
 >
 >
 >
-"
+'
 1
-"
+'
 ;
 }
 '
@@ -608,9 +608,9 @@ function
 (
 )
 {
-"
+'
 1
-"
+'
 >
 >
 >
@@ -646,7 +646,7 @@ function
 null
 ;
 }
-"
+'
 1n
 >
 >
@@ -654,7 +654,7 @@ null
 null
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -673,7 +673,7 @@ null
 1n
 ;
 }
-"
+'
 null
 >
 >
@@ -681,7 +681,7 @@ null
 1n
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -700,7 +700,7 @@ function
 undefined
 ;
 }
-"
+'
 1n
 >
 >
@@ -708,7 +708,7 @@ undefined
 undefined
 throws
 TypeError
-"
+'
 )
 ;
 assert
@@ -727,7 +727,7 @@ undefined
 1n
 ;
 }
-"
+'
 undefined
 >
 >
@@ -735,7 +735,7 @@ undefined
 1n
 throws
 TypeError
-"
+'
 )
 ;
 reportCompare

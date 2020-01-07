@@ -169,10 +169,10 @@ assert
 throws
 (
 TypeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -183,6 +183,8 @@ wait
 0
 0
 )
+;
+}
 )
 ;
 assert
@@ -190,10 +192,10 @@ assert
 throws
 (
 TypeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -204,6 +206,8 @@ poisoned
 poisoned
 poisoned
 )
+;
+}
 )
 ;
 reportCompare

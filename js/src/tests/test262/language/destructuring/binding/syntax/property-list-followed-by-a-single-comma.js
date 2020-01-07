@@ -87,6 +87,13 @@ BindingPropertyList
 Yield
 ]
 }
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

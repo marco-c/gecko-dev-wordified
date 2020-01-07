@@ -140,8 +140,8 @@ js
 features
 :
 [
-Atomics
 ArrayBuffer
+Atomics
 TypedArray
 ]
 -
@@ -218,10 +218,10 @@ assert
 throws
 (
 TypeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -231,6 +231,8 @@ poisoned
 poisoned
 poisoned
 )
+;
+}
 )
 ;
 reportCompare

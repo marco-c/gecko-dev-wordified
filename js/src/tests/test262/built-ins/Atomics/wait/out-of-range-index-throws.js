@@ -200,10 +200,10 @@ assert
 throws
 (
 RangeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -213,6 +213,8 @@ Infinity
 poisoned
 poisoned
 )
+;
+}
 )
 ;
 assert
@@ -220,10 +222,10 @@ assert
 throws
 (
 RangeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -233,6 +235,8 @@ int32Array
 poisoned
 poisoned
 )
+;
+}
 )
 ;
 assert
@@ -240,10 +244,10 @@ assert
 throws
 (
 RangeError
+function
 (
 )
-=
->
+{
 Atomics
 .
 wait
@@ -253,6 +257,8 @@ int32Array
 poisoned
 poisoned
 )
+;
+}
 )
 ;
 reportCompare

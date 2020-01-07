@@ -103,6 +103,13 @@ NormalCompletion
 empty
 )
 .
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

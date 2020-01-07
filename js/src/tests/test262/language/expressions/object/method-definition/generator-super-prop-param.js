@@ -30,7 +30,8 @@ can
 reference
 SuperProperty
 in
-arg
+default
+parameters
 es6id
 :
 14
@@ -55,7 +56,7 @@ features
 [
 default
 -
-arg
+parameters
 generators
 super
 ]

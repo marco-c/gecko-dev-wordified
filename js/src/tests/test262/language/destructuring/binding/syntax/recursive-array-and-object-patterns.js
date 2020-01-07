@@ -74,6 +74,13 @@ ArrayBindingPattern
 ?
 Yield
 ]
+features
+:
+[
+destructuring
+-
+binding
+]
 -
 -
 -

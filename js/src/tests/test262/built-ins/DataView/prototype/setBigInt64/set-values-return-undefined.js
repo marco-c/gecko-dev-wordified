@@ -30,7 +30,7 @@ Copyright
 (
 C
 )
-2017
+2018
 Igalia
 S
 .
@@ -186,11 +186,6 @@ isInteger
 (
 value
 )
-|
-|
-value
->
-9007199254740991
 )
 {
 assert
