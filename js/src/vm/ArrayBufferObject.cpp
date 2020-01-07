@@ -234,13 +234,6 @@ h
 #
 include
 "
-jscpucfg
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
