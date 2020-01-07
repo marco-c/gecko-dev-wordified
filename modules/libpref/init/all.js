@@ -14321,16 +14321,6 @@ pref
 "
 dom
 .
-disable_window_status_change
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_open_feature
 .
 titlebar
