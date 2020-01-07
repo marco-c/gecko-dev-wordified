@@ -720,17 +720,6 @@ nsIURI
 aURI
 )
 ;
-bool
-IsControlled
-(
-nsIDocument
-*
-aDocument
-ErrorResult
-&
-aRv
-)
-;
 /
 /
 Return
