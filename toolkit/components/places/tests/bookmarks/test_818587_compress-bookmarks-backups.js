@@ -517,15 +517,13 @@ containerOpen
 =
 false
 ;
+await
 PlacesUtils
 .
 bookmarks
 .
-removeFolderChildren
+eraseEverything
 (
-PlacesUtils
-.
-unfiledBookmarksFolderId
 )
 ;
 /

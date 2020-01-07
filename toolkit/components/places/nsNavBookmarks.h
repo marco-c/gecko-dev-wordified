@@ -1584,6 +1584,15 @@ PRTime
 aValue
 )
 ;
+nsresult
+RemoveFolderChildren
+(
+int64_t
+aFolderId
+uint16_t
+aSource
+)
+;
 /
 /
 Recursive
