@@ -1152,6 +1152,9 @@ ChromeMigrationUtils
 .
 getLocalState
 (
+this
+.
+_chromeUserDataPathSuffix
 )
 ;
 let

@@ -34,7 +34,7 @@ platforms
 .
 ChromeMigrationUtils
 .
-getChromeUserDataPath
+getDataPath
 =
 (
 )
