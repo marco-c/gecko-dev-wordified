@@ -405,7 +405,7 @@ EventUtils
 synthesizeMouse
 (
 elt
-2
+50
 2
 {
 type
