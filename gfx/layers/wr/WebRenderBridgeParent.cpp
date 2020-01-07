@@ -1005,6 +1005,10 @@ mForceRendering
 (
 false
 )
+mReceivedDisplayList
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -1093,6 +1097,10 @@ mDestroyed
 true
 )
 mForceRendering
+(
+false
+)
+mReceivedDisplayList
 (
 false
 )
@@ -3496,6 +3504,10 @@ updates
 )
 ;
 }
+mReceivedDisplayList
+=
+true
+;
 wr
 :
 :
@@ -6889,6 +6901,10 @@ CompositeToTraget
 if
 (
 mPaused
+|
+|
+!
+mReceivedDisplayList
 )
 {
 return
@@ -7805,6 +7821,10 @@ wrEpoch
 )
 mPipelineId
 )
+;
+mReceivedDisplayList
+=
+false
 ;
 /
 /

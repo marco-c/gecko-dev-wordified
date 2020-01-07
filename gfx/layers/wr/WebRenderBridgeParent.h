@@ -1874,6 +1874,9 @@ mDestroyed
 bool
 mForceRendering
 ;
+bool
+mReceivedDisplayList
+;
 /
 /
 Can
