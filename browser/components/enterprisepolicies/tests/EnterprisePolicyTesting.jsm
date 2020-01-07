@@ -1039,6 +1039,10 @@ if
 stored
 .
 originalDefaultValue
+!
+=
+=
+undefined
 )
 {
 defaults
@@ -1057,6 +1061,10 @@ if
 stored
 .
 originalUserValue
+!
+=
+=
+undefined
 )
 {
 Preferences
