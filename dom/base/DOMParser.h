@@ -198,6 +198,9 @@ h
 class
 nsIDocument
 ;
+class
+nsIGlobalObject
+;
 namespace
 mozilla
 {
@@ -375,7 +378,7 @@ mForceEnableXULXBL
 true
 ;
 }
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -428,7 +431,7 @@ private
 :
 DOMParser
 (
-nsISupports
+nsIGlobalObject
 *
 aOwner
 nsIPrincipal
@@ -667,7 +670,7 @@ mAttemptedInit
 ;
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
 mOwner
 ;
@@ -688,9 +691,6 @@ nsCOMPtr
 nsIURI
 >
 mBaseURI
-;
-nsWeakPtr
-mScriptHandlingObject
 ;
 bool
 mAttemptedInit
