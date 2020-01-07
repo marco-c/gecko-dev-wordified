@@ -101,8 +101,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -140,7 +140,7 @@ clear
 html
 "
 ;
-yield
+await
 loadTab
 (
 TEST_URI
@@ -149,7 +149,7 @@ TEST_URI
 let
 hud
 =
-yield
+await
 openConsole
 (
 )
@@ -185,7 +185,7 @@ processed
 "
 )
 ;
-yield
+await
 waitForLog
 (
 "
@@ -322,7 +322,7 @@ log4
 }
 )
 ;
-yield
+await
 waitForLog
 (
 "
@@ -331,7 +331,7 @@ log3
 hud
 )
 ;
-yield
+await
 waitForLog
 (
 "
@@ -426,7 +426,7 @@ objFromPage
 "
 )
 ;
-yield
+await
 openSidebar
 (
 "
@@ -518,7 +518,7 @@ already
 present
 and
 would
-yield
+resolve
 immediately
 .
 info
@@ -541,7 +541,7 @@ clear
 "
 )
 ;
-yield
+await
 sidebarClosed
 ;
 ok
@@ -690,7 +690,7 @@ log5
 }
 )
 ;
-yield
+await
 waitForLog
 (
 "
@@ -711,7 +711,7 @@ webconsole
 "
 )
 ;
-yield
+await
 closeConsole
 (
 gBrowser
@@ -721,12 +721,12 @@ selectedTab
 ;
 hud
 =
-yield
+await
 openConsole
 (
 )
 ;
-yield
+await
 waitForLog
 (
 "
@@ -937,7 +937,6 @@ logged
 *
 /
 function
-*
 waitForLog
 (
 message
@@ -945,7 +944,7 @@ webconsole
 options
 )
 {
-yield
+return
 waitForMessages
 (
 {
@@ -1059,8 +1058,8 @@ logged
 *
 *
 /
+async
 function
-*
 openSidebar
 (
 objName
@@ -1071,7 +1070,7 @@ webconsole
 let
 msg
 =
-yield
+await
 webconsole
 .
 jsterm
@@ -1136,7 +1135,7 @@ body
 "
 )
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouse
@@ -1154,7 +1153,7 @@ iframeWindow
 let
 vviewVar
 =
-yield
+await
 webconsole
 .
 jsterm
@@ -1186,7 +1185,7 @@ exists
 "
 )
 ;
-yield
+await
 findVariableViewProperties
 (
 vviewVar
