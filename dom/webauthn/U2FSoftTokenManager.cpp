@@ -4704,7 +4704,7 @@ AppendSECItem
 signatureItem
 )
 ;
-U2FRegisterResult
+WebAuthnMakeCredentialResult
 result
 (
 (
@@ -5763,13 +5763,10 @@ AppendSECItem
 signatureItem
 )
 ;
-U2FSignResult
+WebAuthnGetAssertionResult
 result
 (
-Move
-(
 keyHandle
-)
 nsTArray
 <
 uint8_t
