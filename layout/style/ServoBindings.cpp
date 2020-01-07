@@ -12873,13 +12873,6 @@ uint32_t
 aLength
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsDependentCSubstring
 keyword
 (
