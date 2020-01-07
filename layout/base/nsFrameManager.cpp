@@ -759,15 +759,6 @@ nsIFrame
 aOldFrame
 )
 {
-bool
-wasDestroyingFrames
-=
-mIsDestroyingFrames
-;
-mIsDestroyingFrames
-=
-true
-;
 /
 /
 In
@@ -990,10 +981,6 @@ aOldFrame
 )
 ;
 }
-mIsDestroyingFrames
-=
-wasDestroyingFrames
-;
 }
 /
 /
