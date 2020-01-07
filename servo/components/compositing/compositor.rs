@@ -4166,13 +4166,7 @@ self
 .
 frame_size
 =
-self
-.
-window
-.
-framebuffer_size
-(
-)
+new_frame_size
 ;
 self
 .
