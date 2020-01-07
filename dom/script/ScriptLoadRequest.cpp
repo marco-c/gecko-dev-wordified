@@ -348,8 +348,6 @@ aURI
 nsIScriptElement
 *
 aElement
-ValidJSVersion
-aValidJSVersion
 mozilla
 :
 :
@@ -454,10 +452,6 @@ mScriptBytecode
 mBytecodeOffset
 (
 0
-)
-mValidJSVersion
-(
-aValidJSVersion
 )
 mURI
 (
