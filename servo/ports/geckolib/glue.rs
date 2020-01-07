@@ -19432,6 +19432,9 @@ property
 const
 nsACString
 )
+-
+>
+bool
 {
 remove_property
 (
@@ -19440,11 +19443,9 @@ get_property_id_from_property
 !
 (
 property
-(
+false
 )
 )
-)
-;
 }
 #
 [

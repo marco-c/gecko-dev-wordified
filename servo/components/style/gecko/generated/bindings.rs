@@ -15632,6 +15632,9 @@ property
 const
 nsACString
 )
+-
+>
+bool
 ;
 }
 extern
