@@ -3901,6 +3901,17 @@ basestring
 Optional
 (
 '
+release
+-
+eta
+'
+)
+:
+basestring
+        
+Optional
+(
+'
 channel
 -
 names
@@ -9178,6 +9189,15 @@ rules
 release_eta
 '
 :
+worker
+.
+get
+(
+'
+release
+-
+eta
+'
 config
 .
 params
@@ -9187,10 +9207,10 @@ get
 '
 release_eta
 '
+'
+'
 )
-or
-'
-'
+)
             
 }
 )
