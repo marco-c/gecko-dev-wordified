@@ -17740,6 +17740,15 @@ void
 aTextPtr
 )
 {
+using
+mozilla
+:
+:
+intl
+:
+:
+LineBreaker
+;
 /
 /
 for
@@ -17767,7 +17776,7 @@ mLineBreaker
 .
 SetWordBreak
 (
-nsILineBreaker
+LineBreaker
 :
 :
 kWordBreak_BreakAll
@@ -17782,7 +17791,7 @@ mLineBreaker
 .
 SetWordBreak
 (
-nsILineBreaker
+LineBreaker
 :
 :
 kWordBreak_KeepAll
@@ -17796,7 +17805,7 @@ mLineBreaker
 .
 SetWordBreak
 (
-nsILineBreaker
+LineBreaker
 :
 :
 kWordBreak_Normal
