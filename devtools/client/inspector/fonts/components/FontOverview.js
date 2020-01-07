@@ -238,6 +238,13 @@ PropTypes
 func
 .
 isRequired
+onToggleFontHighlight
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -250,6 +257,7 @@ let
 fontData
 fontOptions
 onPreviewFonts
+onToggleFontHighlight
 }
 =
 this
@@ -273,7 +281,11 @@ FontList
 {
 fonts
 fontOptions
+isCurrentElementFonts
+:
+true
 onPreviewFonts
+onToggleFontHighlight
 }
 )
 :
@@ -312,8 +324,9 @@ renderOtherFonts
 let
 {
 fontData
-onPreviewFonts
 fontOptions
+onPreviewFonts
+onToggleFontHighlight
 }
 =
 this
@@ -367,7 +380,11 @@ fontOptions
 fonts
 :
 otherFonts
+isCurrentElementFonts
+:
+false
 onPreviewFonts
+onToggleFontHighlight
 }
 opened
 :

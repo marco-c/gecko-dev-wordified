@@ -383,6 +383,9 @@ function
 url
 )
 {
+let
+tab
+=
 await
 addTab
 (
@@ -450,6 +453,7 @@ inspector
 ;
 return
 {
+tab
 toolbox
 inspector
 view

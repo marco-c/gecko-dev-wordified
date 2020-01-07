@@ -261,6 +261,13 @@ PropTypes
 func
 .
 isRequired
+onToggleFontHighlight
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -276,6 +283,7 @@ fontOptions
 onAxisUpdate
 onInstanceChange
 onPreviewFonts
+onToggleFontHighlight
 }
 =
 this
@@ -327,6 +335,7 @@ FontOverview
 fontData
 fontOptions
 onPreviewFonts
+onToggleFontHighlight
 }
 )
 )
