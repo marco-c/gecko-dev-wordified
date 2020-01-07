@@ -1209,6 +1209,7 @@ message
 {
 Msg
 NodesFromPointQueryType
+QueryMsg
 ReflowGoal
 }
 ;
@@ -15377,9 +15378,9 @@ self
 .
 window
 .
-reflow
+layout_reflow
 (
-ReflowGoal
+QueryMsg
 :
 :
 NodesFromPointQuery
@@ -15388,10 +15389,6 @@ NodesFromPointQuery
 client_point
 reflow_goal
 )
-ReflowReason
-:
-:
-Query
 )
 {
 return
