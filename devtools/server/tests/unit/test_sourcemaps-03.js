@@ -176,7 +176,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -269,7 +271,9 @@ breakpoints
 for
 sourcemapped
 sources
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -351,7 +355,9 @@ name
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -369,7 +375,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -413,7 +421,9 @@ still
 /
 undefined
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -451,7 +461,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -463,7 +475,9 @@ clientEvaluated
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

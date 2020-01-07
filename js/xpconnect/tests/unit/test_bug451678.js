@@ -167,7 +167,9 @@ spec
 srvScope
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 makeTags

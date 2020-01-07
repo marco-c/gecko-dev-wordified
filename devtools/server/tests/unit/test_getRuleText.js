@@ -782,7 +782,9 @@ thrown
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -824,7 +826,9 @@ expected
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -844,7 +848,9 @@ n
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )

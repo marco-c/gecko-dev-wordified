@@ -196,7 +196,9 @@ nonce
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 btoa
 (
@@ -210,7 +212,9 @@ jzh5chjQc2zFEvLbyHnPdX11Yck
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 .
@@ -276,7 +280,9 @@ ext
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 btoa
 (
@@ -290,7 +296,9 @@ bNf4Fnt5k6DnhmyipLPkuZroH68
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 .
@@ -423,7 +431,9 @@ get_mac
 12
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 12
 atob
@@ -443,7 +453,9 @@ get_mac
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 2
 atob
@@ -463,7 +475,9 @@ get_mac
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 8
 atob
@@ -484,7 +498,9 @@ get_mac
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 8
 atob

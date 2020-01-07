@@ -142,7 +142,9 @@ ALLOW_ACTION
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -193,7 +195,9 @@ foo
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -271,7 +275,9 @@ ALLOW_ACTION
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -347,7 +353,9 @@ ALLOW_ACTION
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -407,7 +415,9 @@ txt
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -466,7 +476,9 @@ files
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -486,7 +498,9 @@ pm
 UNKNOWN_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -506,7 +520,9 @@ pm
 UNKNOWN_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .

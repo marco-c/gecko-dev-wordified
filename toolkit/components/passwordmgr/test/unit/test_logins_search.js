@@ -280,7 +280,9 @@ buildExpectedLogins
 aQuery
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expectedLogins
 .
@@ -310,7 +312,9 @@ aQuery
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 outCount
 .
@@ -473,7 +477,9 @@ buildExpectedLogins
 aQuery
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expectedLogins
 .
@@ -589,7 +595,9 @@ formSubmitURL
 httpRealm
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 outCount
 .
@@ -626,7 +634,9 @@ formSubmitURL
 httpRealm
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 count
 expectedLogins

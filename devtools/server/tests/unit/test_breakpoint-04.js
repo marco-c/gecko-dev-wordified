@@ -259,7 +259,9 @@ t
 skip
 forward
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -287,7 +289,9 @@ the
 return
 value
 .
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -297,7 +301,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -313,7 +319,9 @@ source
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -327,7 +335,9 @@ location
 line
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -339,7 +349,9 @@ breakpoint
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -362,7 +374,9 @@ the
 breakpoint
 worked
 .
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .
@@ -370,7 +384,9 @@ a
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .

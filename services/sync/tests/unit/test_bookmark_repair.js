@@ -2594,8 +2594,11 @@ is
 not
 there
 anymore
-do_check_false
+Assert
+.
+equal
 (
+false
 await
 PlacesUtils
 .
@@ -2736,7 +2739,9 @@ got
 our
 bookmark
 back
-do_check_true
+Assert
+.
+ok
 (
 await
 PlacesUtils
@@ -3173,7 +3178,9 @@ got
 our
 bookmark
 back
-do_check_true
+Assert
+.
+ok
 (
 user
 .
@@ -3671,7 +3678,9 @@ client
 deleted
 our
 bookmark
-do_check_true
+Assert
+.
+ok
 (
 !
 (

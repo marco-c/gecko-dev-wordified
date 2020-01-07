@@ -80,7 +80,9 @@ on
 the
 link
 status
-do_check_neq
+Assert
+.
+notEqual
 (
 ioService
 .
@@ -106,7 +108,9 @@ might
 not
 be
 available
-do_check_eq
+Assert
+.
+equal
 (
 ioService
 .

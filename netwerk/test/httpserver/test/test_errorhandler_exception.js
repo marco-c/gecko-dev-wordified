@@ -317,7 +317,9 @@ httpCode
 statusText
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 channel
 .
@@ -325,7 +327,9 @@ responseStatus
 httpCode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 channel
 .
@@ -351,7 +355,9 @@ respMaj
 respMin
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 respMaj
 .
@@ -359,7 +365,9 @@ value
 httpMaxVer
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 respMin
 .
@@ -439,7 +447,9 @@ status
 data
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .

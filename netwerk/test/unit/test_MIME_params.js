@@ -4800,7 +4800,9 @@ true
 unused
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 expectedDt
@@ -4849,7 +4851,9 @@ do_check_eq
 )
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -4971,7 +4975,9 @@ true
 unused
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 expectedFn
@@ -5020,7 +5026,9 @@ do_check_eq
 )
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -5160,7 +5168,9 @@ Cr
 NS_OK
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 rfc5987paramtests
 [
@@ -5172,7 +5182,9 @@ i
 decoded
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rfc5987paramtests
 [
@@ -5189,7 +5201,9 @@ value
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 rfc5987paramtests
 [
@@ -5214,7 +5228,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 rfc5987paramtests
 [

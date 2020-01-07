@@ -164,7 +164,9 @@ catch
 x
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -193,7 +195,9 @@ an
 exception
 to
 catch
-do_check_true
+Assert
+.
+ok
 (
 false
 )

@@ -260,7 +260,9 @@ blocked
 sanity
 check
 )
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -289,7 +291,9 @@ STATE_BLOCKED
 /
 /
 outdated
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -318,7 +322,9 @@ STATE_OUTDATED
 /
 /
 outdated
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -348,7 +354,9 @@ STATE_OUTDATED
 /
 not
 blocked
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .

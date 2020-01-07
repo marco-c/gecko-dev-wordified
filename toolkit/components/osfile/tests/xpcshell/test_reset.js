@@ -234,7 +234,9 @@ decode
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 string
 CONTENT
@@ -373,7 +375,9 @@ ex
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 thrown
 )
@@ -524,7 +528,9 @@ ex
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 thrown
 )

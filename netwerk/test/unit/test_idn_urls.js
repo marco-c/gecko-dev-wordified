@@ -2559,7 +2559,9 @@ if
 we
 have
 one
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (
@@ -2588,7 +2590,9 @@ punycodeURL
 isASCII
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (
@@ -2656,7 +2660,9 @@ is
 equal
 to
 punycodeURL
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (

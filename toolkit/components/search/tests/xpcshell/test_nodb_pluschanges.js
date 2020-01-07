@@ -339,7 +339,9 @@ promiseEngineMetadata
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 metadata
 [
@@ -356,7 +358,9 @@ order
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 metadata
 [

@@ -96,7 +96,9 @@ nsIFileURL
 .
 file
 ;
-do_check_true
+Assert
+.
+ok
 (
 file
 .

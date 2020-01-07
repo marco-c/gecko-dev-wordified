@@ -155,7 +155,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -186,7 +188,9 @@ to
 be
 wrong
 !
-do_check_eq
+Assert
+.
+equal
 (
 data
 .

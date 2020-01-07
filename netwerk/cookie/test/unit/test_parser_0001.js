@@ -221,7 +221,9 @@ null
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 actual
 expected

@@ -197,7 +197,9 @@ data
 ctx
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 data
 .

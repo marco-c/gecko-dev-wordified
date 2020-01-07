@@ -186,7 +186,9 @@ e10s
 disable
 for
 now
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -202,7 +204,9 @@ localAddress
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -212,7 +216,9 @@ localPort
 true
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 request
 .
@@ -220,7 +226,9 @@ localPort
 PORT
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -236,7 +244,9 @@ remoteAddress
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -360,7 +370,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gotOnStartRequest
 true
@@ -413,7 +425,9 @@ init
 input
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sin
 .
@@ -437,7 +451,9 @@ originalBody
 length
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 originalBody

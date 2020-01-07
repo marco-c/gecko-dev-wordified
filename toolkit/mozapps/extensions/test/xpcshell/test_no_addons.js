@@ -140,8 +140,11 @@ checkPending
 {
 try
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 prefs
@@ -184,7 +187,9 @@ check_empty_state
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -336,7 +341,9 @@ resolve
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 addonList
 .
@@ -456,7 +463,9 @@ startupManager
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

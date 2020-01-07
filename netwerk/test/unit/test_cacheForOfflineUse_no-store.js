@@ -365,7 +365,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 responseBody
@@ -511,7 +513,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 "

@@ -74,8 +74,11 @@ test_addEngineWithDetails
 (
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -164,7 +167,9 @@ getEngineByName
 kSearchEngineID
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 .
@@ -250,7 +255,9 @@ searchbar
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 submission
 .

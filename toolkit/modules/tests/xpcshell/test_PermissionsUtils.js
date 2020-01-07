@@ -726,7 +726,9 @@ newURI
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -793,7 +795,9 @@ of
 preferences
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -838,7 +842,9 @@ newURI
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -877,7 +883,9 @@ newURI
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -916,7 +924,9 @@ newURI
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

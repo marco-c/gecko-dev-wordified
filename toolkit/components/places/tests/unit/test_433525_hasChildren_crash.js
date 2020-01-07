@@ -254,7 +254,9 @@ the
 container
 is
 closed
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -378,7 +380,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 queryNode
 .
@@ -398,7 +402,9 @@ Ci
 nsINavHistoryContainerResultNode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 queryNode
 .

@@ -164,7 +164,9 @@ expiry
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cm
 .
@@ -181,7 +183,9 @@ com
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cs
 .

@@ -279,7 +279,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 event
 "
@@ -287,7 +289,9 @@ newSource
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -297,7 +301,9 @@ newSource
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -306,7 +312,9 @@ packet
 source
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 expectedSources
 .

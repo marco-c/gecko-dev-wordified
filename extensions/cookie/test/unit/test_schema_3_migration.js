@@ -687,7 +687,9 @@ unique
 cookies
 exist
 .
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -714,7 +716,9 @@ unique
 cookies
 exist
 .
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -753,7 +757,9 @@ expiration
 /
 time
 .
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -804,7 +810,9 @@ Ci
 nsICookie2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .
@@ -962,7 +970,9 @@ set
 of
 cookies
 .
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -1011,7 +1021,9 @@ Ci
 nsICookie2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .

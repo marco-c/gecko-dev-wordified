@@ -349,7 +349,9 @@ c
 /
 /
 Check
-do_check_true
+Assert
+.
+ok
 (
 '
 name
@@ -370,7 +372,9 @@ B
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 someInteger
@@ -446,7 +450,9 @@ nsIXPCTestInterfaceB
 /
 /
 Check
-do_check_true
+Assert
+.
+ok
 (
 '
 name
@@ -465,7 +471,9 @@ A
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 (
@@ -753,7 +761,9 @@ null
 /
 Check
 .
-do_check_true
+Assert
+.
+ok
 (
 !
 (
@@ -776,7 +786,9 @@ A
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 someInteger
@@ -845,7 +857,9 @@ back
 :
 -
 )
-do_check_true
+Assert
+.
+ok
 (
 true
 "

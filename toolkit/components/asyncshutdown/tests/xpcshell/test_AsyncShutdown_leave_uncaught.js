@@ -341,8 +341,11 @@ resolution
 state
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 outParam
 .
 isFinished
@@ -355,7 +358,9 @@ wait
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 outParam
 .
@@ -599,7 +604,9 @@ outParam
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 outParams
 .
@@ -624,7 +631,9 @@ wait
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 outParams
 .

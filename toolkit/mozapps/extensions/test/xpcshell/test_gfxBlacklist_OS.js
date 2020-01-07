@@ -520,7 +520,9 @@ nsIGfxInfo
 FEATURE_DIRECT2D
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Ci
@@ -543,7 +545,9 @@ nsIGfxInfo
 FEATURE_DIRECT3D_9_LAYERS
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Ci

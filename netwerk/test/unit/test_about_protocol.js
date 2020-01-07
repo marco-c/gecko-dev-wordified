@@ -376,8 +376,11 @@ true
 }
 )
 ;
-do_check_null
+Assert
+.
+equal
 (
+null
 aboutUnsafeChan
 .
 owner

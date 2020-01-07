@@ -90,9 +90,10 @@ JSONPacket
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
-!
 !
 json
 .
@@ -107,9 +108,10 @@ BulkPacket
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
-!
 !
 bulk
 .

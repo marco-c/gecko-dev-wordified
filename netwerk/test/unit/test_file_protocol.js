@@ -1561,7 +1561,9 @@ from
 the
 URI
 path
-do_check_neq
+Assert
+.
+notEqual
 (
 chan
 .
@@ -1617,7 +1619,9 @@ Ci
 nsIIOService
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chan
 .

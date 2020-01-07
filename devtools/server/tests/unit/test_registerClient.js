@@ -374,7 +374,9 @@ type
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 type
 "
@@ -382,7 +384,9 @@ foo
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -437,7 +441,9 @@ call
 on
 client
 destruction
-do_check_true
+Assert
+.
+ok
 (
 gTestClient
 .

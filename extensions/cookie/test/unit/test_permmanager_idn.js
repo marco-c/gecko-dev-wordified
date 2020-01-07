@@ -249,7 +249,9 @@ there
 now
 .
 .
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -263,7 +265,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -277,7 +281,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -389,7 +395,9 @@ permission
 granted
 too
 .
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -403,7 +411,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -417,7 +427,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -470,7 +482,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -497,7 +511,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .

@@ -111,7 +111,9 @@ created
 a
 zip
 file
-do_check_true
+Assert
+.
+ok
 (
 tmpFile
 .
@@ -138,7 +140,9 @@ marker
 /
 and
 comment
-do_check_eq
+Assert
+.
+equal
 (
 tmpFile
 .
@@ -165,7 +169,9 @@ have
 the
 set
 comment
-do_check_eq
+Assert
+.
+equal
 (
 zipW
 .
@@ -233,7 +239,9 @@ should
 now
 be
 shorter
-do_check_eq
+Assert
+.
+equal
 (
 tmpFile
 .

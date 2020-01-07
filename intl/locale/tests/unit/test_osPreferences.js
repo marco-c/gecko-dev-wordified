@@ -97,7 +97,9 @@ osprefs
 .
 systemLocale
 ;
-do_check_true
+Assert
+.
+ok
 (
 systemLocale
 !
@@ -122,7 +124,9 @@ getSystemLocales
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Array
 .
@@ -138,7 +142,9 @@ array
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 systemLocale
 =
@@ -166,7 +172,9 @@ getRegionalPrefsLocales
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Array
 .
@@ -295,7 +303,9 @@ osprefs
 dateTImeFormatStyleNone
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 pattern
 .
@@ -313,7 +323,9 @@ empty
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 1
 "

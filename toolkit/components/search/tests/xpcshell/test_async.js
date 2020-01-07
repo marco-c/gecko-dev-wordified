@@ -51,8 +51,11 @@ configureToLoadJarEngines
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -72,7 +75,9 @@ search_initialized
 aStatus
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -82,7 +87,9 @@ aStatus
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -112,7 +119,9 @@ getEngines
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -143,7 +152,9 @@ bug645970
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engine
 null
@@ -172,7 +183,9 @@ hidden
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 null

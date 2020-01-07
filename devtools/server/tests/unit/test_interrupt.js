@@ -144,7 +144,9 @@ response
 threadClient
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 threadClient
 .
@@ -178,7 +180,9 @@ test_interrupt
 threadClient
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 threadClient
 .
@@ -195,7 +199,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 threadClient
 .
@@ -211,7 +217,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 threadClient
 .

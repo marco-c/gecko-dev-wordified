@@ -253,7 +253,9 @@ status
 data
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -263,7 +265,9 @@ status
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -298,7 +302,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .

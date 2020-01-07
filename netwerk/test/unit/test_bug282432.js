@@ -122,7 +122,9 @@ error
 NS_ERROR_FILE_NOT_FOUND
 here
 .
-do_check_eq
+Assert
+.
+equal
 (
 aStatusCode
 Components
@@ -226,8 +228,11 @@ txt
 true
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

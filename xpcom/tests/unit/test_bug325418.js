@@ -91,7 +91,9 @@ seconds
 and
 round
 .
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .
@@ -136,7 +138,9 @@ happened
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -209,7 +213,9 @@ seconds
 and
 round
 .
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .

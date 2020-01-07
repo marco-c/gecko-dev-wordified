@@ -477,7 +477,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -521,7 +523,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -564,7 +568,9 @@ source
 mapped
 line
 .
-do_check_eq
+Assert
+.
+equal
 (
 source
 .
@@ -584,7 +590,9 @@ js
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 line
 3
@@ -612,7 +620,9 @@ should
 be
 calculated
 .
-do_check_eq
+Assert
+.
+equal
 (
 environment
 .

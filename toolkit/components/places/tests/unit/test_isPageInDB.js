@@ -93,7 +93,9 @@ good_uri
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 await
 PlacesTestUtils
@@ -104,8 +106,11 @@ good_uri
 )
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 await
 PlacesTestUtils
 .

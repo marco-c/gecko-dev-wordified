@@ -284,7 +284,9 @@ ch
 cx
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 ch
 .

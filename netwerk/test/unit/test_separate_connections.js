@@ -350,7 +350,9 @@ Ci
 nsIHttpChannelInternal
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -430,7 +432,9 @@ this
 userContextId
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 hashKey
 previousHashKeys
@@ -442,7 +446,9 @@ userContextId
 }
 else
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 hashKey
 previousHashKeys

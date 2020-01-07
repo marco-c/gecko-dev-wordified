@@ -166,8 +166,11 @@ registerAppManifest
 manifest
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 {
 f18fb09b
@@ -210,7 +213,9 @@ unregisterListener
 kConsoleListener
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 gFound
 )

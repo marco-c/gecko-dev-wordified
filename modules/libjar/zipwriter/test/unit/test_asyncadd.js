@@ -159,7 +159,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components
@@ -180,7 +182,9 @@ size
 =
 ZIP_EOCDR_HEADER_SIZE
 ;
-do_check_eq
+Assert
+.
+equal
 (
 size
 tmpFile
@@ -263,7 +267,9 @@ i
 .
 name
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipR
 .
@@ -283,7 +289,9 @@ getEntry
 entryName
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -296,7 +304,9 @@ i
 size
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -309,7 +319,9 @@ i
 size
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -322,7 +334,9 @@ i
 crc
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .
@@ -618,7 +632,9 @@ observer
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .

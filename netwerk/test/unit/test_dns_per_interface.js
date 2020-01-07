@@ -271,7 +271,9 @@ not
 be
 canceled
 .
-do_check_neq
+Assert
+.
+notEqual
 (
 inStatus
 Cr

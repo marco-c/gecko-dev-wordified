@@ -112,7 +112,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 DownloadUtils
 .
@@ -137,7 +139,9 @@ getDownloadStatus
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 DownloadUtils
 .
@@ -162,7 +166,9 @@ null
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 DownloadUtils
 .
@@ -185,7 +191,9 @@ getTransferTotal
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 DownloadUtils
 .

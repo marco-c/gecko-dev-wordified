@@ -384,7 +384,9 @@ the
 newly
 blocklisted
 items
-do_check_eq
+Assert
+.
+equal
 (
 url
 URI_EXTENSION_BLOCKLIST_DIALOG
@@ -397,7 +399,9 @@ only
 include
 one
 item
-do_check_eq
+Assert
+.
+equal
 (
 args
 .
@@ -435,7 +439,9 @@ list
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 item
 .
@@ -446,7 +452,9 @@ Ci
 nsIPluginTag
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 item
 .
@@ -736,7 +744,9 @@ outdated
 by
 the
 blocklist
-do_check_true
+Assert
+.
+ok
 (
 gBlocklist
 .
@@ -803,7 +813,9 @@ be
 marked
 as
 outdated
-do_check_true
+Assert
+.
+ok
 (
 gBlocklist
 .
@@ -866,7 +878,9 @@ be
 marked
 as
 outdated
-do_check_true
+Assert
+.
+ok
 (
 gBlocklist
 .

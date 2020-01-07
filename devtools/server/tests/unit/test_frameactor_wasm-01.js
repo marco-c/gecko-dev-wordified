@@ -171,7 +171,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 !
 !
@@ -228,7 +230,9 @@ function
 frameResponse
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 frameResponse
 .
@@ -248,7 +252,9 @@ frames
 1
 ]
 ;
-do_check_eq
+Assert
+.
+equal
 (
 wasmFrame
 .
@@ -258,7 +264,9 @@ wasmcall
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 wasmFrame
 .
@@ -273,7 +281,9 @@ wasmFrame
 .
 where
 ;
-do_check_eq
+Assert
+.
+equal
 (
 location
 .
@@ -283,7 +293,9 @@ line
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 location
 .
@@ -293,7 +305,9 @@ column
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 /
 ^

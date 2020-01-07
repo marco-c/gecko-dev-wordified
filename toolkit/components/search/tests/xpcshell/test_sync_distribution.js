@@ -51,8 +51,11 @@ installDistributionEngine
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -84,7 +87,9 @@ getEngines
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -92,7 +97,9 @@ length
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -115,7 +122,9 @@ bug645970
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engine
 null
@@ -135,7 +144,9 @@ one
 from
 the
 distribution
-do_check_eq
+Assert
+.
+equal
 (
 engine
 .

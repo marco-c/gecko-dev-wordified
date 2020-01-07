@@ -87,7 +87,9 @@ created
 a
 zip
 file
-do_check_true
+Assert
+.
+ok
 (
 tmpFile
 .
@@ -110,7 +112,9 @@ of
 central
 directory
 marker
-do_check_eq
+Assert
+.
+equal
 (
 tmpFile
 .

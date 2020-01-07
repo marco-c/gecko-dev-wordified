@@ -87,7 +87,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components
@@ -103,7 +105,9 @@ close
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ZIP_EOCDR_HEADER_SIZE
 tmpFile
@@ -190,8 +194,11 @@ would
 have
 completed
 immediately
-do_check_false
+Assert
+.
+ok
 (
+!
 zipW
 .
 inQueue

@@ -243,7 +243,9 @@ de
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chromeReg
 .
@@ -260,7 +262,9 @@ US
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chromeReg
 .
@@ -275,7 +279,9 @@ de
 "
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 enum_to_array
 (
@@ -322,7 +328,9 @@ overpack
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chromeReg
 .
@@ -337,7 +345,9 @@ de
 "
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 enum_to_array
 (

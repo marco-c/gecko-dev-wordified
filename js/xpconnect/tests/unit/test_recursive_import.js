@@ -92,7 +92,9 @@ scope
 A
 imported
 correctly
-do_check_true
+Assert
+.
+ok
 (
 scope
 .
@@ -115,7 +117,9 @@ are
 visible
 through
 A
-do_check_true
+Assert
+.
+ok
 (
 scope
 .
@@ -143,7 +147,9 @@ A
 B
 A
 .
-do_check_true
+Assert
+.
+ok
 (
 scope
 .

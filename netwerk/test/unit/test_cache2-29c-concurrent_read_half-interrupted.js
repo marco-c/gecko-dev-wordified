@@ -502,7 +502,9 @@ run_test
 /
 Static
 check
-do_check_true
+Assert
+.
+ok
 (
 responseBody
 .
@@ -639,7 +641,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 responseBody
@@ -653,7 +657,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 responseBody

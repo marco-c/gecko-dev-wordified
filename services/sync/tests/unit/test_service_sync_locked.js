@@ -325,7 +325,9 @@ _locked
 =
 false
 ;
-do_check_true
+Assert
+.
+ok
 (
 debug
 [
@@ -364,7 +366,9 @@ login
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 info
 [

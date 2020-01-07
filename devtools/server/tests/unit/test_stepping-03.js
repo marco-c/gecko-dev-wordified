@@ -213,7 +213,9 @@ the
 return
 value
 .
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -223,7 +225,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -239,7 +243,9 @@ line0
 5
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -258,7 +264,9 @@ that
 stepping
 worked
 .
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .
@@ -266,7 +274,9 @@ a
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .

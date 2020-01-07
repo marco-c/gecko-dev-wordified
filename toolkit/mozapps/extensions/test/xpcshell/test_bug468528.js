@@ -268,7 +268,9 @@ blocked
 sanity
 check
 )
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -307,7 +309,9 @@ due
 to
 invalid
 regexp
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -350,7 +354,9 @@ t
 affect
 this
 one
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -392,7 +398,9 @@ act
 as
 a
 wildcard
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .

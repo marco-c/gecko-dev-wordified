@@ -205,7 +205,9 @@ aTransitionType
 aAdded
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aURI
 .
@@ -220,7 +222,9 @@ _visitCount
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aTransitionType
 gVisits

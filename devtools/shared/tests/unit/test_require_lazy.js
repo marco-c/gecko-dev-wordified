@@ -134,7 +134,9 @@ an
 equality
 expression
 .
-do_check_true
+Assert
+.
+ok
 (
 o
 .
@@ -228,7 +230,9 @@ name
 path
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 o2
 .
@@ -298,7 +302,9 @@ name
 path
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 o3
 .

@@ -64,7 +64,9 @@ aExpectedClicktoplay
 aExpectedDisabled
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aTag
 .
@@ -72,7 +74,9 @@ clicktoplay
 aExpectedClicktoplay
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aTag
 .

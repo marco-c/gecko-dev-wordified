@@ -63,7 +63,9 @@ we
 '
 re
 testing
-do_check_neq
+Assert
+.
+notEqual
 (
 pluginDefaultState
 Ci
@@ -141,7 +143,9 @@ have
 the
 default
 enabledState
-do_check_eq
+Assert
+.
+equal
 (
 testPlugin
 .
@@ -224,7 +228,9 @@ individual
 pref
 yet
 )
-do_check_eq
+Assert
+.
+equal
 (
 testPlugin
 .
@@ -243,7 +249,9 @@ retain
 its
 preferred
 state
-do_check_eq
+Assert
+.
+equal
 (
 secondTestPlugin
 .

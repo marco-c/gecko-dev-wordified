@@ -339,7 +339,9 @@ same
 time
 in
 prompt
-do_check_eq
+Assert
+.
+equal
 (
 (
 authInfo
@@ -497,7 +499,9 @@ checked
 using
 realm
 )
-do_check_eq
+Assert
+.
+equal
 (
 cred
 .
@@ -514,7 +518,9 @@ properly
 set
 by
 necko
-do_check_eq
+Assert
+.
+equal
 (
 (
 cred
@@ -1160,7 +1166,9 @@ channel
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -1181,7 +1189,9 @@ request
 should
 have
 succeeded
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -1220,7 +1230,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 "
@@ -1281,7 +1293,9 @@ ctx
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

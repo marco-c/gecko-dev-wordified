@@ -184,7 +184,9 @@ name
 of
 EXPECTED_GLOBALS
 )
-do_check_true
+Assert
+.
+ok
 (
 seenGlobals
 .
@@ -222,7 +224,9 @@ function
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 sawGlobals
 )

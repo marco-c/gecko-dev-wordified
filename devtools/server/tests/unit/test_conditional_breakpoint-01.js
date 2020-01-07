@@ -231,7 +231,9 @@ the
 return
 value
 .
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -243,7 +245,9 @@ breakpoint
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

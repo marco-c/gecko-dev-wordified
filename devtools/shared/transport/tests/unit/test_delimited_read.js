@@ -194,7 +194,9 @@ input
 10
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 expected

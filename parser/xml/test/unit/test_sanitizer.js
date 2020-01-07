@@ -190,7 +190,9 @@ evil
 sanitizeFlags
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sanitized
 out

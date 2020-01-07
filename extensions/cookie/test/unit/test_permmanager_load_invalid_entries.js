@@ -126,7 +126,9 @@ should
 now
 exist
 .
-do_check_true
+Assert
+.
+ok
 (
 file
 .
@@ -1097,7 +1099,9 @@ value
 of
 0
 .
-do_check_eq
+Assert
+.
+equal
 (
 connection
 .
@@ -1143,7 +1147,9 @@ getInt64
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 thisModTime
 =
@@ -1177,7 +1183,9 @@ that
 was
 migrated
 .
-do_check_true
+Assert
+.
+ok
 (
 numMigrated
 >
@@ -1257,7 +1265,9 @@ uri
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .

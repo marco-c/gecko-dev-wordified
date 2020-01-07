@@ -196,7 +196,9 @@ sqlite
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 3
 getDBVersion
@@ -260,7 +262,9 @@ for
 upgraded
 schema
 .
-do_check_eq
+Assert
+.
+equal
 (
 CURRENT_SCHEMA
 FormHistory
@@ -276,7 +280,9 @@ the
 index
 was
 added
-do_check_true
+Assert
+.
+ok
 (
 dbConnection
 .
@@ -301,7 +307,9 @@ for
 upgraded
 schema
 .
-do_check_eq
+Assert
+.
+equal
 (
 CURRENT_SCHEMA
 FormHistory
@@ -335,7 +343,9 @@ function
 num
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 num
 >

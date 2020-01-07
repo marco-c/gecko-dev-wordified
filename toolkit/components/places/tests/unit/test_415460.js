@@ -306,7 +306,9 @@ TEST_URL
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 search_has_result
 (

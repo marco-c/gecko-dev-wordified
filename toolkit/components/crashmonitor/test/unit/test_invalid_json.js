@@ -155,7 +155,9 @@ CrashMonitor
 .
 previousCheckpoints
 ;
-do_check_eq
+Assert
+.
+equal
 (
 checkpoints
 null

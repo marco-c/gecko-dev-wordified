@@ -147,7 +147,9 @@ defaultEngine
 =
 engine1
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .
@@ -161,7 +163,9 @@ defaultEngine
 =
 engine2
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .
@@ -175,7 +179,9 @@ defaultEngine
 =
 engine1
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .
@@ -215,7 +221,9 @@ hidden
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .
@@ -263,7 +271,9 @@ hidden
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .
@@ -303,7 +313,9 @@ defaultEngine
 =
 engine1
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search
 .

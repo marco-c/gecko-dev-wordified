@@ -65,7 +65,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 0
 await
@@ -89,7 +91,9 @@ TEST_URI
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 1
 await
@@ -113,7 +117,9 @@ TEST_URI
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 2
 await

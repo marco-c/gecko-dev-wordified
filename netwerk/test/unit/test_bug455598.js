@@ -228,8 +228,11 @@ interfaces
 nsICookieManager
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 cm
 .
 cookieExists

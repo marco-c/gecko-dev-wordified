@@ -483,7 +483,9 @@ sync_and_validate_telem
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 fresh
 1
@@ -514,7 +516,9 @@ sync
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 fresh
 0
@@ -543,7 +547,9 @@ sync_and_validate_telem
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 fresh
 1
@@ -572,7 +578,9 @@ sync_and_validate_telem
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 fresh
 0

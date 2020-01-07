@@ -408,7 +408,9 @@ get_test_plugintag
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 plugin
 =
@@ -742,7 +744,9 @@ be
 0
 .
 0
-do_check_eq
+Assert
+.
+equal
 (
 plugin
 .

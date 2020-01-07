@@ -114,7 +114,9 @@ service
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -155,7 +157,9 @@ bug645970
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 profileEngine
 instanceof
@@ -164,7 +168,9 @@ Ci
 nsISearchEngine
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 jarEngine
 instanceof
@@ -199,7 +205,9 @@ built
 -
 in
 .
-do_check_eq
+Assert
+.
+equal
 (
 profileEngine
 .
@@ -243,7 +251,9 @@ the
 name
 .
 )
-do_check_eq
+Assert
+.
+equal
 (
 jarEngine
 .

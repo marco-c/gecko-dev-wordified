@@ -181,7 +181,9 @@ text
 plain
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 badMimeType
 .
@@ -281,7 +283,9 @@ crashing
 is
 good
 enough
-do_check_eq
+Assert
+.
+equal
 (
 true
 true

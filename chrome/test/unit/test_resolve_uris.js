@@ -607,7 +607,9 @@ sourceURI
 spec
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 expectedURI
 uri

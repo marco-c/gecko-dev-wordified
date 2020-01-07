@@ -839,7 +839,9 @@ nsIUrlClassifierStreamUpdater
 on
 success
 .
-do_check_eq
+Assert
+.
+equal
 (
 "
 1000
@@ -971,7 +973,9 @@ on
 any
 lists
 .
-do_check_eq
+Assert
+.
+equal
 (
 "
 "
@@ -1066,7 +1070,9 @@ handleEvent
 aEvent
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 "
 goog

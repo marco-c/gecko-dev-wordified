@@ -718,7 +718,9 @@ expected
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -738,7 +740,9 @@ n
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -770,7 +774,9 @@ priority
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 .
@@ -780,7 +786,9 @@ actual
 value
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 .

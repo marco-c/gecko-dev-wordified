@@ -196,7 +196,9 @@ split
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .
@@ -207,7 +209,9 @@ kPrefName
 value
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .
@@ -351,7 +355,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .
@@ -419,7 +425,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .

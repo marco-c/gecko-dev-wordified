@@ -468,7 +468,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components

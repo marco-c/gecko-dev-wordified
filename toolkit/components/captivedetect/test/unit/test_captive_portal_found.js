@@ -270,7 +270,9 @@ loginFinished
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -320,7 +322,9 @@ success
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -381,7 +385,9 @@ prepare
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -441,7 +447,9 @@ js
 :
 :
 executeCallback
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -449,7 +457,9 @@ step
 3
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 success
 )

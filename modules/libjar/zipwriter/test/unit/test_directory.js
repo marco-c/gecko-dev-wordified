@@ -116,8 +116,11 @@ PR_USEC_PER_MSEC
 false
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 zipW
 .
 hasEntry
@@ -126,7 +129,9 @@ DIRNAME1
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .
@@ -146,7 +151,9 @@ getEntry
 DIRNAME1_CORRECT
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entry
 .
@@ -164,7 +171,9 @@ PR_USEC_PER_MSEC
 false
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .
@@ -183,7 +192,9 @@ getEntry
 DIRNAME2
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entry
 .

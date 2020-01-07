@@ -306,7 +306,9 @@ readyState
 return
 false
 ;
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .
@@ -332,7 +334,9 @@ for
 echoed
 method
 name
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .

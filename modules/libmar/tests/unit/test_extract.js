@@ -133,8 +133,11 @@ out
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 outDir
 .
 exists
@@ -217,8 +220,11 @@ i
 ]
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 outFile
 .
 exists
@@ -302,7 +308,9 @@ i
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 outFiles
 [
@@ -716,7 +724,9 @@ Run
 all
 the
 tests
-do_check_eq
+Assert
+.
+equal
 (
 run_tests
 (

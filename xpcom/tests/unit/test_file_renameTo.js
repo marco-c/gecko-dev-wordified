@@ -284,7 +284,9 @@ txt
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 (
@@ -331,7 +333,9 @@ base
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 (
@@ -387,7 +391,9 @@ txt
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 (
@@ -416,7 +422,9 @@ renamed
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 (
@@ -445,7 +453,9 @@ renamed
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 (

@@ -98,7 +98,9 @@ function
 aController
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .
@@ -110,7 +112,9 @@ moz
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .
@@ -157,7 +161,9 @@ handleEnter
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .

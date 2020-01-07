@@ -202,7 +202,9 @@ function
 packet
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 packet
@@ -210,7 +212,9 @@ packet
 error
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -219,7 +223,9 @@ packet
 sources
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -229,7 +235,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 gNumTimesSourcesSent
 <

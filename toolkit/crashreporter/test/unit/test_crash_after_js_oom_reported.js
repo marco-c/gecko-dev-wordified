@@ -132,7 +132,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -250,7 +252,9 @@ accept
 Reported
 "
 .
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .

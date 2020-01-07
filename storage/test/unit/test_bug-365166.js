@@ -114,7 +114,9 @@ shouldn
 t
 crash
 :
-do_check_eq
+Assert
+.
+equal
 (
 statement
 .

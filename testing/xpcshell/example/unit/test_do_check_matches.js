@@ -33,7 +33,9 @@ run_test
 (
 )
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -54,7 +56,9 @@ order
 is
 irrelevant
 .
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -90,7 +94,9 @@ pass
 Patterns
 nest
 .
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 a
@@ -124,7 +130,9 @@ d
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3

@@ -308,7 +308,9 @@ stat
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 1100
 stat
@@ -546,7 +548,9 @@ stat
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 1000
 stat

@@ -550,7 +550,9 @@ addresses
 guid
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 changeCounter
 2
@@ -605,7 +607,9 @@ mid
 -
 sync
 change
-do_check_eq
+Assert
+.
+equal
 (
 changeCounter
 1
@@ -681,7 +685,9 @@ addresses
 guid
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 changeCounter
 0

@@ -146,7 +146,9 @@ catch
 e
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 /
 ^

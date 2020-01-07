@@ -225,7 +225,9 @@ return
 an
 error
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -257,7 +259,9 @@ is
 returned
 again
 .
-do_check_eq
+Assert
+.
+equal
 (
 pauseGrip
 .
@@ -313,7 +317,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

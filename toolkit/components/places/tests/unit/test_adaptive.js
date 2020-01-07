@@ -467,7 +467,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -479,7 +481,9 @@ nsIAutoCompleteController
 STATUS_COMPLETE_MATCH
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -542,7 +546,9 @@ i
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -560,7 +566,9 @@ uri
 spec
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .

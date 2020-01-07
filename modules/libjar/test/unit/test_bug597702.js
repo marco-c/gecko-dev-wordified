@@ -311,7 +311,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 e
 .

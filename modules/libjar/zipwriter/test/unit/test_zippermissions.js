@@ -463,7 +463,9 @@ file
 false
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 zipW
 .
@@ -557,7 +559,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 zipW
 .
@@ -639,7 +643,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 zipR
 .
@@ -700,7 +706,9 @@ name
 file
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -715,8 +723,11 @@ i
 permission
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 isDirectory

@@ -108,7 +108,9 @@ FileReader
 ]
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 new

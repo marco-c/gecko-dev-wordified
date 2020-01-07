@@ -281,7 +281,9 @@ successCallback
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -296,7 +298,9 @@ errorCallback
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -591,7 +595,9 @@ accuracy
 during
 the
 test
-do_check_true
+Assert
+.
+ok
 (
 provider
 .
@@ -610,8 +616,11 @@ set
 to
 high
 accuracy
-do_check_false
+Assert
+.
+ok
 (
+!
 provider
 .
 _isHigh

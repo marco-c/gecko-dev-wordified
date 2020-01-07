@@ -488,7 +488,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -529,7 +531,9 @@ in
 the
 result
 .
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -567,7 +571,9 @@ item
 has
 been
 replaced
-do_check_neq
+Assert
+.
+notEqual
 (
 theTag
 root
@@ -594,7 +600,9 @@ Ci
 nsINavHistoryContainerResultNode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -619,7 +627,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -637,7 +647,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -811,7 +823,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -828,7 +842,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .

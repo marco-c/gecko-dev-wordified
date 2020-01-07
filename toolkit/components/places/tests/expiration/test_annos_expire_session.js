@@ -445,7 +445,9 @@ test1
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -464,7 +466,9 @@ test2
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -484,7 +488,9 @@ test1
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .
@@ -503,7 +509,9 @@ test2
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .
@@ -639,7 +647,9 @@ handleCompletion
 aReason
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aReason
 Ci

@@ -148,7 +148,9 @@ checkJSON
 json
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 contents
 .
@@ -158,7 +160,9 @@ json
 a
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 contents
 .
@@ -172,7 +176,9 @@ b
 c
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 contents
 .
@@ -182,7 +188,9 @@ json
 d
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 contents
 .

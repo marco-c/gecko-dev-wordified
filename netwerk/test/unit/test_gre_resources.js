@@ -163,7 +163,9 @@ open2
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 instr
 .

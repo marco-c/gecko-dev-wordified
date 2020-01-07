@@ -289,7 +289,9 @@ GetStringFromName
 name_file
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_file
 value_file
@@ -305,7 +307,9 @@ GetStringFromName
 name_loyal
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_loyal
 value_loyal
@@ -321,7 +325,9 @@ GetStringFromName
 name_trout
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_trout
 value_trout
@@ -337,7 +343,9 @@ GetStringFromName
 name_edit
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_edit
 value_edit
@@ -353,7 +361,9 @@ GetStringFromName
 name_view
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_view
 value_view
@@ -369,7 +379,9 @@ GetStringFromName
 name_go
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_go
 value_go
@@ -385,7 +397,9 @@ GetStringFromName
 name_message
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_message
 value_message
@@ -405,7 +419,9 @@ var_hello
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bundle_hello
 value_hello

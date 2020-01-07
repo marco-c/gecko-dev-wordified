@@ -70,7 +70,9 @@ via
 test_location
 .
 js
-do_check_eq
+Assert
+.
+equal
 (
 __LOCATION__
 .

@@ -129,7 +129,9 @@ xml
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 file
 .
@@ -285,7 +287,9 @@ bug645970
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engine
 null
@@ -314,8 +318,11 @@ removeEngine
 engine
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

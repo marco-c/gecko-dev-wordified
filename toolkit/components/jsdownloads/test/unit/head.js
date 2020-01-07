@@ -1768,7 +1768,9 @@ aOptions
 launcherPath
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 mimeInfo
 !
@@ -1846,7 +1848,9 @@ aOptions
 launchWhenSucceeded
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 mimeInfo
 !
@@ -3252,7 +3256,9 @@ aInputStream
 aStatus
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -3321,7 +3327,9 @@ the
 test
 log
 .
-do_check_eq
+Assert
+.
+equal
 (
 contents
 .
@@ -3331,7 +3339,9 @@ aExpectedContents
 length
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 contents
 =
@@ -3357,7 +3367,9 @@ of
 printable
 characters
 .
-do_check_eq
+Assert
+.
+equal
 (
 contents
 aExpectedContents

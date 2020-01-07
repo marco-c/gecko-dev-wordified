@@ -134,7 +134,9 @@ use
 strict
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 3
 PluralForm
@@ -144,7 +146,9 @@ numForms
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 one

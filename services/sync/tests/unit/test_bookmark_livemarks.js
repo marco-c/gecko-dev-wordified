@@ -958,7 +958,9 @@ lateParentRec
 id
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 recInfo
 .
@@ -1037,8 +1039,11 @@ noFeedURIRec
 id
 )
 ;
-do_check_null
+Assert
+.
+equal
 (
+null
 noFeedURIItem
 )
 ;
@@ -1108,8 +1113,11 @@ lmParentRec
 id
 )
 ;
-do_check_null
+Assert
+.
+equal
 (
+null
 lmParentItem
 )
 ;

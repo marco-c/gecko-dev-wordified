@@ -309,7 +309,9 @@ error
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -356,7 +358,9 @@ why
 }
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 why
 .
@@ -401,7 +405,9 @@ the
 debugger
 statement
 .
-do_check_eq
+Assert
+.
+equal
 (
 why
 .
@@ -436,7 +442,9 @@ to
 the
 line
 )
-do_check_neq
+Assert
+.
+notEqual
 (
 why
 .

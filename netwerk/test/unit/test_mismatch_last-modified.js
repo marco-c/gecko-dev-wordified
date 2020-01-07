@@ -311,7 +311,9 @@ readByteArray
 count
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 [
@@ -506,7 +508,9 @@ last
 modified
 response
 headers
-do_check_eq
+Assert
+.
+equal
 (
 data
 [
@@ -725,7 +729,9 @@ readByteArray
 count
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 [

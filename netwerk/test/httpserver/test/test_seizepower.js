@@ -923,7 +923,9 @@ checkRawData
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 "
@@ -969,7 +971,9 @@ checkTooLate
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 LineIterator
 (
@@ -1021,7 +1025,9 @@ checkExceptions
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 "
 exceptions
@@ -1065,7 +1071,9 @@ checkAsyncSeizure
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 "
@@ -1111,7 +1119,9 @@ checkSeizeAfterAsync
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 LineIterator
 (

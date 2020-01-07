@@ -231,7 +231,9 @@ n
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 path
 "
@@ -298,7 +300,9 @@ pathForAppWithIdentifier
 sig
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 path
 "

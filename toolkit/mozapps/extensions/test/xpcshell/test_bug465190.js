@@ -212,8 +212,11 @@ log
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 log
 .
 exists
@@ -248,8 +251,11 @@ startupManager
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 log
 .
 exists

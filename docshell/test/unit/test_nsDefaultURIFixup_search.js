@@ -162,7 +162,9 @@ defaultEngine
 .
 name
 ;
-do_check_eq
+Assert
+.
+equal
 (
 selectedName
 kSearchEngineID
@@ -1108,7 +1110,9 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 .
 spec
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 item

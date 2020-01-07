@@ -131,7 +131,9 @@ yet
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -163,7 +165,9 @@ id
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -196,7 +200,9 @@ id
 10
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -230,7 +236,9 @@ id
 5
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -261,7 +269,9 @@ addChangedID
 id
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tracker
 .
@@ -381,7 +391,9 @@ saved
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 5
 tracker
@@ -408,7 +420,9 @@ tracker
 tracker
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 5
 json

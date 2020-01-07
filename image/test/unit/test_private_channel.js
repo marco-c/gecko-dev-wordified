@@ -765,7 +765,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gHits
 2
@@ -1041,7 +1043,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gHits
 2

@@ -339,7 +339,9 @@ Ci
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 req
 .
@@ -627,7 +629,9 @@ Ci
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 req
 .
@@ -637,7 +641,9 @@ responseStatus
 ;
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 req
 .

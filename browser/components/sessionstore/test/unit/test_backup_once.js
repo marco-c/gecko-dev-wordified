@@ -1021,8 +1021,11 @@ true
 ]
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 (
 await
 File
@@ -1036,8 +1039,11 @@ recovery
 )
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 (
 await
 File

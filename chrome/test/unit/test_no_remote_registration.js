@@ -1578,7 +1578,9 @@ protocol
 shouldRegister
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expectedURI
 uri
@@ -1620,7 +1622,9 @@ in
 this
 situation
 .
-do_check_neq
+Assert
+.
+notEqual
 (
 expectedURI
 uri

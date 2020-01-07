@@ -220,7 +220,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -254,7 +256,9 @@ been
 evaluated
 in
 frame0
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -264,7 +268,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -276,7 +282,9 @@ clientEvaluated
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -338,7 +346,9 @@ been
 evaluated
 in
 frame1
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -348,7 +358,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

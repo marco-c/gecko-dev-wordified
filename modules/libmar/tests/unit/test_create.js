@@ -150,8 +150,11 @@ if
 checkNoMAR
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 outMAR
 .
 exists
@@ -789,7 +792,9 @@ Run
 all
 the
 tests
-do_check_eq
+Assert
+.
+equal
 (
 run_tests
 (

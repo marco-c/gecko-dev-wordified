@@ -384,7 +384,9 @@ interfaces
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -392,7 +394,9 @@ responseStatus
 304
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

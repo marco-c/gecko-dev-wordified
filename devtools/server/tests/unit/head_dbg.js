@@ -2303,7 +2303,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -2329,7 +2331,9 @@ toString
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -3809,7 +3813,9 @@ checkIndex
 +
 ]
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -3854,7 +3860,9 @@ checkIndex
 +
 ]
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

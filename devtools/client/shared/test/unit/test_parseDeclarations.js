@@ -3388,7 +3388,9 @@ expected
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -3408,7 +3410,9 @@ n
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -3760,7 +3764,9 @@ i
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -3791,7 +3797,9 @@ priority
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 [
@@ -3807,7 +3815,9 @@ i
 name
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 [
@@ -3823,7 +3833,9 @@ i
 value
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 [
@@ -3936,7 +3948,9 @@ priority
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 actual
 .

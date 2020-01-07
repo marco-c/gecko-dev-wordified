@@ -232,7 +232,9 @@ Referer
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 currentReferrer
 "
@@ -357,7 +359,9 @@ request
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -402,7 +406,9 @@ Referer
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 currentReferrer
 "

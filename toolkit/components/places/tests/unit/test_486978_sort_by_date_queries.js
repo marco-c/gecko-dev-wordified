@@ -496,7 +496,9 @@ dayContainer
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 pages
@@ -530,7 +532,9 @@ getChild
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 [
@@ -677,7 +681,9 @@ dayContainer
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 pages
@@ -711,7 +717,9 @@ getChild
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 [
@@ -878,7 +886,9 @@ Ci
 nsINavHistoryContainerResultNode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 siteContainer
 .
@@ -905,7 +915,9 @@ siteContainer
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 pages
@@ -943,7 +955,9 @@ getChild
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 [

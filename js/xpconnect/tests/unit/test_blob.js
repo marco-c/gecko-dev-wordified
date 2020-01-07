@@ -89,7 +89,9 @@ blob
 1
 "
 ;
-do_check_true
+Assert
+.
+ok
 (
 contractID
 in
@@ -117,7 +119,9 @@ interfaces
 nsIClassInfo
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -125,7 +129,9 @@ foo
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 foo
 .
@@ -135,7 +141,9 @@ contractID
 contractID
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -144,7 +152,9 @@ foo
 wrappedJSObject
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 foo
 .

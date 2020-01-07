@@ -329,7 +329,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -603,7 +605,9 @@ check_idx
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -635,7 +639,9 @@ close
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 read
 entries
@@ -657,7 +663,9 @@ cont
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -877,7 +885,9 @@ function
 count
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 count
 1

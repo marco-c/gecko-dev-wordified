@@ -462,7 +462,9 @@ initialStop
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -494,7 +496,9 @@ done
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 srv
 .
@@ -621,7 +625,9 @@ intermediateStart
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 srv
 .
@@ -706,7 +712,9 @@ intermediateStop
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -738,7 +746,9 @@ intermediate
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 srv
 .
@@ -964,7 +974,9 @@ triggerStop
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -1164,7 +1176,9 @@ true
 ;
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 srv
 .

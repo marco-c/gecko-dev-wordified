@@ -1182,7 +1182,9 @@ completionFinished
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -1352,7 +1354,9 @@ cookies
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookiesSeen
 expectedCookie
@@ -1605,7 +1609,9 @@ cookies
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookiesSeen
 expectedCookies

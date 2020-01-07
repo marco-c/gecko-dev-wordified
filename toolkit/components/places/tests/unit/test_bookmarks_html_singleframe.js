@@ -181,7 +181,9 @@ bookmarksMenuFolderId
 .
 root
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -210,7 +212,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folder
 .
@@ -220,7 +224,9 @@ Subtitle
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folder
 .
@@ -238,7 +244,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bookmark
 .
@@ -257,7 +265,9 @@ org
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bookmark
 .

@@ -230,7 +230,9 @@ function
 res
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 res
 .
@@ -266,7 +268,9 @@ function
 res
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 res
 .

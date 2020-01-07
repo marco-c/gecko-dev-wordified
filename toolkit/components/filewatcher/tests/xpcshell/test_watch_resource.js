@@ -203,7 +203,9 @@ error
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 error
 Components

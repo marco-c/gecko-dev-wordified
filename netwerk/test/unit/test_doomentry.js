@@ -251,7 +251,9 @@ check_doom1
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -279,7 +281,9 @@ check_doom2
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -397,7 +401,9 @@ check_doom3
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -472,7 +478,9 @@ check_doom4
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

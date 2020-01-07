@@ -459,7 +459,9 @@ contain
 a
 string
 .
-do_check_true
+Assert
+.
+ok
 (
 a_contents
 =
@@ -632,7 +634,9 @@ was
 really
 moved
 .
-do_check_eq
+Assert
+.
+equal
 (
 (
 await

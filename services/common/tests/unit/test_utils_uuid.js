@@ -47,7 +47,9 @@ generateUUID
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uuid
 .
@@ -55,7 +57,9 @@ length
 36
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uuid
 [

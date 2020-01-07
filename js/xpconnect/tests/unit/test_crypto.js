@@ -271,7 +271,9 @@ then
 h
 =
 >
-do_check_eq
+Assert
+.
+equal
 (
 new
 Uint16Array

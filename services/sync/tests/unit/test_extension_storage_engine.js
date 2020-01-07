@@ -489,7 +489,9 @@ syncAll
 oldSync
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 syncMock
 .

@@ -266,7 +266,9 @@ offset
 count
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Date
 .
@@ -340,7 +342,9 @@ ctx
 status
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 this
 .

@@ -162,7 +162,9 @@ nukeSandbox
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -180,7 +182,9 @@ dead
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -198,7 +202,9 @@ dead
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -226,7 +232,9 @@ resolveFun
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -242,7 +250,9 @@ exception
 e
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 exception
 .
@@ -282,7 +292,9 @@ rejectFun
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -298,7 +310,9 @@ exception
 e
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 exception
 .

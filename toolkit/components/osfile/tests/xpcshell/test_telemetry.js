@@ -257,7 +257,9 @@ histograms
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 getCount
 (
@@ -277,7 +279,9 @@ LAUNCH
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 getCount
 (
@@ -309,7 +313,9 @@ ready
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 after
 [
@@ -441,7 +447,9 @@ false
 .
 parent
 ;
-do_check_eq
+Assert
+.
+equal
 (
 getCount
 (

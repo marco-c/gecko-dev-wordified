@@ -1463,7 +1463,9 @@ comparing
 for
 better
 readability
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (

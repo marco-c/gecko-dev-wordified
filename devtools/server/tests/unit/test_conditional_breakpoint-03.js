@@ -233,7 +233,9 @@ the
 return
 value
 .
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -245,7 +247,9 @@ breakpointConditionThrown
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

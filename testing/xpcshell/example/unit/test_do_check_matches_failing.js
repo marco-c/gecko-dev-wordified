@@ -33,7 +33,9 @@ run_test
 (
 )
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -52,7 +54,9 @@ all
 pattern
 props
 required
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -73,7 +77,9 @@ fail
 values
 must
 match
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -97,7 +103,9 @@ non
 -
 enumerable
 .
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3
@@ -120,7 +128,9 @@ doesn
 '
 t
 match
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3

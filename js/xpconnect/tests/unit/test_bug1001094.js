@@ -11,7 +11,9 @@ nsJSID
 implements
 classinfo
 .
-do_check_eq
+Assert
+.
+equal
 (
 Components
 .

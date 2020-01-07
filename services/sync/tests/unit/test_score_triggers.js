@@ -528,7 +528,9 @@ onScoreUpdated
 ;
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 engine
 .
@@ -543,7 +545,9 @@ score
 =
 SCORE_INCREMENT_SMALL
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 .
@@ -551,7 +555,9 @@ score
 SCORE_INCREMENT_SMALL
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 scoreUpdated
 1
@@ -645,7 +651,9 @@ syncThreshold
 =
 MULTI_DEVICE_THRESHOLD
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .
@@ -810,7 +818,9 @@ syncThreshold
 =
 MULTI_DEVICE_THRESHOLD
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .
@@ -1103,7 +1113,9 @@ start
 onSyncStart
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .

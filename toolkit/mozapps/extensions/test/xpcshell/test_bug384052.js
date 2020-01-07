@@ -678,7 +678,9 @@ addon
 error
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 error
 AddonManager
@@ -686,7 +688,9 @@ AddonManager
 UPDATE_STATUS_DOWNLOAD_ERROR
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 gSeenExpectedURL
 )

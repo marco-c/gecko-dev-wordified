@@ -86,7 +86,9 @@ getNext
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 perm
 !
@@ -94,7 +96,9 @@ perm
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 perm
 .
@@ -108,7 +112,9 @@ uri
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm
 .
@@ -116,7 +122,9 @@ type
 type
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm
 .
@@ -124,7 +132,9 @@ capability
 capability
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm
 .
@@ -135,8 +145,11 @@ EXPIRE_NEVER
 )
 ;
 }
-do_check_false
+Assert
+.
+ok
 (
+!
 enumerator
 .
 hasMoreElements

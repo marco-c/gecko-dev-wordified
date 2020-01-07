@@ -259,7 +259,9 @@ if
 doRangeResponse
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 metadata
 .
@@ -619,7 +621,9 @@ request
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 17
 data
@@ -682,7 +686,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -690,7 +696,9 @@ status
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -718,7 +726,9 @@ length
 i
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 .

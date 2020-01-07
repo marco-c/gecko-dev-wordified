@@ -244,7 +244,9 @@ escaped
 _
 and
 %
-do_check_eq
+Assert
+.
+equal
 (
 paramForLike
 "
@@ -293,7 +295,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 foo
@@ -378,7 +382,9 @@ escaped
 _
 and
 %
-do_check_eq
+Assert
+.
+equal
 (
 paramForLike
 "
@@ -431,7 +437,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 foo

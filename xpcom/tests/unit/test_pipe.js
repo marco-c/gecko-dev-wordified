@@ -274,7 +274,9 @@ Ci
 nsIClassInfo
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -290,7 +292,9 @@ THREADSAFE
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -344,7 +348,9 @@ Ci
 nsIClassInfo
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -360,7 +366,9 @@ THREADSAFE
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -414,7 +422,9 @@ Ci
 nsIClassInfo
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -430,7 +440,9 @@ THREADSAFE
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -484,7 +496,9 @@ Ci
 nsIClassInfo
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (
@@ -500,7 +514,9 @@ THREADSAFE
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Boolean
 (

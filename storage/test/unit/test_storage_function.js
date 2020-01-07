@@ -269,7 +269,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Cr
 .
@@ -380,7 +382,9 @@ Do
 nothing
 .
 }
-do_check_eq
+Assert
+.
+equal
 (
 testNums
 .
@@ -430,7 +434,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 42
 *

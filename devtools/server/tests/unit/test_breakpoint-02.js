@@ -240,7 +240,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -250,7 +252,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -323,7 +327,9 @@ from
 the
 actor
 .
-do_check_neq
+Assert
+.
+notEqual
 (
 response
 .

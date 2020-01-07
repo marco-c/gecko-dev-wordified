@@ -227,7 +227,9 @@ on
 the
 first
 step
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -246,7 +248,9 @@ event
 loop
 from
 unsfeSynchronize
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .
@@ -264,7 +268,9 @@ true
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .
@@ -283,7 +289,9 @@ on
 the
 second
 step
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -303,7 +311,9 @@ nested
 event
 loops
 anymore
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .

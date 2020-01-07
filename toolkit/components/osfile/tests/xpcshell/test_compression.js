@@ -248,7 +248,9 @@ bytes
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 arrayAsString
 Array
@@ -397,7 +399,9 @@ exn
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -419,7 +423,9 @@ the
 file
 name
 )
-do_check_true
+Assert
+.
+ok
 (
 exn
 .
@@ -569,7 +575,9 @@ exn
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -591,7 +599,9 @@ the
 file
 name
 )
-do_check_true
+Assert
+.
+ok
 (
 exn
 .
@@ -794,7 +804,9 @@ exn
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -816,7 +828,9 @@ the
 file
 name
 )
-do_check_true
+Assert
+.
+ok
 (
 exn
 .

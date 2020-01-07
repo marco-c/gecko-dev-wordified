@@ -148,7 +148,9 @@ has
 5
 plural
 forms
-do_check_eq
+Assert
+.
+equal
 (
 5
 numForms
@@ -224,7 +226,9 @@ num
 +
 +
 )
-do_check_eq
+Assert
+.
+equal
 (
 text
 get

@@ -251,7 +251,9 @@ hierarchy
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 unfiledNode
 .
@@ -375,7 +377,9 @@ node
 title
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

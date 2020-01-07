@@ -379,7 +379,9 @@ sources
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -399,7 +401,9 @@ source
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sources
 .
@@ -407,7 +411,9 @@ length
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sources
 [
@@ -563,7 +569,9 @@ sources
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -593,7 +601,9 @@ as
 a
 source
 .
-do_check_eq
+Assert
+.
+equal
 (
 sources
 .
@@ -627,7 +637,9 @@ true
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !

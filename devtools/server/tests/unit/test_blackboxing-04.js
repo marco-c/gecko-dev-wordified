@@ -293,7 +293,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -491,7 +493,9 @@ sources
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -545,7 +549,9 @@ pausedInSource
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -561,7 +567,9 @@ error
 error
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 pausedInSource
 "

@@ -368,7 +368,9 @@ if
 aExpectConversion
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 compareArrays
 (
@@ -377,7 +379,9 @@ fileData
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aMimeType
 aFileMimeType
@@ -414,7 +418,9 @@ png
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 compareArrays
 (
@@ -427,7 +433,9 @@ expectedFile
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 aMimeType
 "

@@ -160,7 +160,9 @@ bytes
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -230,7 +232,9 @@ Uint8Array
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await

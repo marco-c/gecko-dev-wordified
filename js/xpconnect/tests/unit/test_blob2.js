@@ -165,7 +165,9 @@ xml
 do
 some
 tests
-do_check_true
+Assert
+.
+ok
 (
 f1
 instanceof
@@ -181,7 +183,9 @@ Blob
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 (
@@ -199,7 +203,9 @@ File
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 f1
 .
@@ -217,7 +223,9 @@ type
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 f1
 .
@@ -242,7 +250,9 @@ Blob
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 f2
 .
@@ -256,7 +266,9 @@ size
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 f2
 .
@@ -308,7 +320,9 @@ threw
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 threw
 "

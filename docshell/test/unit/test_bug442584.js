@@ -159,7 +159,9 @@ it
 .
 .
 .
-do_check_true
+Assert
+.
+ok
 (
 prefetch
 .
@@ -197,8 +199,11 @@ next
 false
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 prefetch
 .
 hasMoreElements
@@ -280,7 +285,9 @@ true
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 prefetch
 .

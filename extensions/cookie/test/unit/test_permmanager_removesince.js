@@ -459,7 +459,9 @@ one
 should
 remain
 .
-do_check_eq
+Assert
+.
+equal
 (
 1
 pm
@@ -487,7 +489,9 @@ have
 been
 removed
 .
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm
@@ -517,7 +521,9 @@ have
 been
 removed
 .
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm
@@ -535,7 +541,9 @@ since
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm

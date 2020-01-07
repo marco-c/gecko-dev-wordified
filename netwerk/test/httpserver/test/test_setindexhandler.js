@@ -262,7 +262,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -296,7 +298,9 @@ status
 data
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -306,7 +310,9 @@ status
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 String
 .
@@ -331,7 +337,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -349,7 +357,9 @@ status
 data
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -383,7 +393,9 @@ directory
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dir
 !
@@ -391,7 +403,9 @@ dir
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dir
 instanceof
@@ -400,7 +414,9 @@ Ci
 nsIFile
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dir
 .

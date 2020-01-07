@@ -128,7 +128,9 @@ exists
 engine
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 exists
 Services

@@ -717,8 +717,11 @@ false
 )
 ;
 }
-do_check_false
+Assert
+.
+ok
 (
+!
 bookmarksBackupDir
 .
 directoryEntries

@@ -330,7 +330,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -354,7 +356,9 @@ so
 they
 are
 reversed
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -368,7 +372,9 @@ title
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

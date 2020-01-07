@@ -156,8 +156,11 @@ traits
 =
 >
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 traits
 .
 bulk
@@ -199,7 +202,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )

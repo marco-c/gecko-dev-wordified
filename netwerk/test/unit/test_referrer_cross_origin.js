@@ -316,7 +316,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 chan
 .
@@ -339,7 +341,9 @@ Referer
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 header
 test
@@ -347,7 +351,9 @@ test
 expectedReferrerSpec
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chan
 .

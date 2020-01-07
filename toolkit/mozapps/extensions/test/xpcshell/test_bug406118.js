@@ -274,7 +274,9 @@ the
 newly
 blocklisted
 items
-do_check_eq
+Assert
+.
+equal
 (
 url
 URI_EXTENSION_BLOCKLIST_DIALOG
@@ -808,7 +810,9 @@ of
 addons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 addon
 .
@@ -875,8 +879,11 @@ shouldn
 t
 be
 blocked
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 blocklist
@@ -901,7 +908,9 @@ the
 current
 app
 .
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -915,7 +924,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -929,7 +940,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

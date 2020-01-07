@@ -342,7 +342,9 @@ frame
 .
 arguments
 ;
-do_check_eq
+Assert
+.
+equal
 (
 args
 .
@@ -360,7 +362,9 @@ args
 ;
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 grip
 .
@@ -370,7 +374,9 @@ longString
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 grip
 .
@@ -380,7 +386,9 @@ longString
 length
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 grip
 .
@@ -419,7 +427,9 @@ response
 {
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

@@ -408,7 +408,9 @@ existingAddon
 id
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aInstall
 .
@@ -603,7 +605,9 @@ function
 a11
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 a11
 null

@@ -293,7 +293,9 @@ waitForPause
 gClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -303,7 +305,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -315,7 +319,9 @@ breakpoint
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -330,7 +336,9 @@ bpClient
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -346,7 +354,9 @@ source
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

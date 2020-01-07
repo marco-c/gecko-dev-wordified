@@ -1133,7 +1133,9 @@ exn
 constructor
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 exn
 null
@@ -1149,7 +1151,9 @@ name
 constructor
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 exn
 .
@@ -1187,7 +1191,9 @@ exn
 stack
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )

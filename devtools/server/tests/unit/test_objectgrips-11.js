@@ -207,7 +207,9 @@ response
 .
 ownPropertyNames
 ;
-do_check_eq
+Assert
+.
+equal
 (
 opn
 .
@@ -221,7 +223,9 @@ sort
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 opn
 [
@@ -232,7 +236,9 @@ columnNumber
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 opn
 [
@@ -243,7 +249,9 @@ fileName
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 opn
 [
@@ -254,7 +262,9 @@ lineNumber
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 opn
 [

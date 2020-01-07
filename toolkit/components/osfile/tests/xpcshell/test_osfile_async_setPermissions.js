@@ -501,7 +501,9 @@ stat
 path
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 format_mode
 (
@@ -664,7 +666,9 @@ stat
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 format_mode
 (

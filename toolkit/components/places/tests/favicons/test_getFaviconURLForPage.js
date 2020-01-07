@@ -123,7 +123,9 @@ aData
 aMimeType
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aURI
 .
@@ -142,7 +144,9 @@ expected
 data
 types
 .
-do_check_true
+Assert
+.
+ok
 (
 aDataLen
 =
@@ -151,7 +155,9 @@ aDataLen
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aData
 .
@@ -162,7 +168,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aMimeType
 =
@@ -255,7 +263,9 @@ expected
 data
 types
 .
-do_check_true
+Assert
+.
+ok
 (
 aURI
 =
@@ -264,7 +274,9 @@ aURI
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aDataLen
 =
@@ -273,7 +285,9 @@ aDataLen
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aData
 .
@@ -284,7 +298,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aMimeType
 =

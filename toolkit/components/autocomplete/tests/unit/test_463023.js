@@ -132,7 +132,9 @@ Ci
 nsIAutoCompleteController
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 .

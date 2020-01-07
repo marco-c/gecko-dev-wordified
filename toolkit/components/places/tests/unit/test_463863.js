@@ -201,7 +201,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 transitions
@@ -251,7 +253,9 @@ FRAMED
 appear
 in
 results
-do_check_neq
+Assert
+.
+notEqual
 (
 node
 .
@@ -265,7 +269,9 @@ substr
 TRANSITION_EMBED
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 node
 .

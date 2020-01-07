@@ -59,7 +59,9 @@ callback
 result
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 result
 Ci
@@ -83,7 +85,9 @@ do_test_pending
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 runtime
 .
@@ -219,7 +223,9 @@ function
 result
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 cmp
 result

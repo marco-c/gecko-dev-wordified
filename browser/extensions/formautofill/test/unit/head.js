@@ -782,7 +782,9 @@ of
 records
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 profileStorage
 [

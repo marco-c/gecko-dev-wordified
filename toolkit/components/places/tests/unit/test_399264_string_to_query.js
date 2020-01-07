@@ -257,7 +257,9 @@ containerOpen
 =
 true
 ;
-do_check_true
+Assert
+.
+ok
 (
 root
 .
@@ -615,7 +617,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 FOLDER_IDS
 [

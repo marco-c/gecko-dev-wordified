@@ -113,7 +113,9 @@ metadata
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 "

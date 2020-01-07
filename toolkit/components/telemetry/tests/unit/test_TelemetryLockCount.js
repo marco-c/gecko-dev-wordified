@@ -252,7 +252,9 @@ do_get_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Telemetry
 .
@@ -293,7 +295,9 @@ the
 file
 exists
 .
-do_check_eq
+Assert
+.
+equal
 (
 Telemetry
 .
@@ -318,7 +322,9 @@ actual_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Telemetry
 .
@@ -326,8 +332,11 @@ failedProfileLockCount
 N_FAILED_LOCKS
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 construct_file
 (
 )

@@ -735,7 +735,9 @@ should
 have
 crashed
 )
-do_check_neq
+Assert
+.
+notEqual
 (
 process
 .
@@ -1169,7 +1171,9 @@ false
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 extrafile
 .

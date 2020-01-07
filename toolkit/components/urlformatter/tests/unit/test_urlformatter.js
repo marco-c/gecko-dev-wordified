@@ -819,7 +819,9 @@ pref
 upperUrlRaw
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .
@@ -830,7 +832,9 @@ upperUrlRaw
 ulUrlRef
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .
@@ -847,7 +851,9 @@ Keys
 must
 be
 uppercase
-do_check_neq
+Assert
+.
+notEqual
 (
 formatter
 .
@@ -858,7 +864,9 @@ lowerUrlRaw
 ulUrlRef
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .
@@ -882,7 +890,9 @@ is
 Bug
 427304
 )
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .
@@ -893,7 +903,9 @@ encodedUrl
 encodedUrlRef
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .
@@ -951,7 +963,9 @@ val
 %
 "
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 formatter
 .
@@ -989,7 +1003,9 @@ GOOGLE_API_KEY
 %
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 formatter
 .

@@ -440,7 +440,9 @@ encoding
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -481,7 +483,9 @@ UTF
 -
 16be
 .
-do_check_true
+Assert
+.
+ok
 (
 enc
 =
@@ -594,7 +598,9 @@ results
 aExpected
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aActual
 .
@@ -621,7 +627,9 @@ i
 +
 +
 )
-do_check_eq
+Assert
+.
+equal
 (
 aActual
 [

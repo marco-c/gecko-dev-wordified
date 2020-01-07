@@ -476,7 +476,9 @@ nsICookieManager
 .
 sessionEnumerator
 ;
-do_check_true
+Assert
+.
+ok
 (
 conn
 .
@@ -519,7 +521,9 @@ moz_cookies
 ;
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -538,7 +542,9 @@ getString
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sql
 .
@@ -677,7 +683,9 @@ isHttpOnly
 ;
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .

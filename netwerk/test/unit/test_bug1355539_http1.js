@@ -780,7 +780,9 @@ ID
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 id
 transactionQueue

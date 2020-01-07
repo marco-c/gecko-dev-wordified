@@ -68,7 +68,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 SearchStaticData
 .
@@ -99,7 +101,9 @@ fr
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 SearchStaticData
 .
@@ -130,7 +134,9 @@ com
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 SearchStaticData
 .
@@ -164,7 +170,9 @@ google
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 SearchStaticData
 .
@@ -225,7 +233,9 @@ fr
 "
 ]
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 SearchStaticData
 .

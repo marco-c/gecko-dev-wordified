@@ -4962,7 +4962,9 @@ their
 lengths
 differ
 .
-do_check_eq
+Assert
+.
+equal
 (
 aQueryArr
 .
@@ -5139,7 +5141,9 @@ j
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 queryArr2
 .
@@ -5156,7 +5160,9 @@ query
 options
 objects
 .
-do_check_true
+Assert
+.
+ok
 (
 queryObjsEqual
 (

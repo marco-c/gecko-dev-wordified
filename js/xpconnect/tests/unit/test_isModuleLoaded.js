@@ -15,7 +15,9 @@ run_test
 Existing
 module
 .
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -67,7 +69,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -117,7 +121,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -155,7 +161,9 @@ Non
 -
 existing
 module
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -218,7 +226,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -243,7 +253,9 @@ ex
 )
 {
 }
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu

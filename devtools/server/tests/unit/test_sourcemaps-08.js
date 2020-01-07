@@ -184,7 +184,9 @@ source
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -199,7 +201,9 @@ source
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 source
 "

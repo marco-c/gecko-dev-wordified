@@ -62,7 +62,9 @@ Ci
 nsIPermissionManager
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -245,7 +247,9 @@ one
 permission
 each
 time
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -260,7 +264,9 @@ apple
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -275,7 +281,9 @@ apple
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -290,7 +298,9 @@ pear
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -305,7 +315,9 @@ cucumber
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -320,7 +332,9 @@ pear
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (

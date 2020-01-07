@@ -394,7 +394,9 @@ topic
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -682,7 +684,9 @@ null
 channel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -777,7 +781,9 @@ suffix
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -817,7 +823,9 @@ suffix
 channel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -861,7 +869,9 @@ null
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -905,7 +915,9 @@ null
 channel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

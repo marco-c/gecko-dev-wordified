@@ -199,7 +199,9 @@ channel
 shouldBePrivate
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 channel
 .

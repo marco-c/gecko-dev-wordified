@@ -1494,7 +1494,9 @@ html
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 isInResult
 (
@@ -1563,7 +1565,9 @@ title
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 isInResult
 (
@@ -1785,7 +1789,9 @@ timerange
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 isInResult
 (
@@ -1942,7 +1948,9 @@ title
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 isInResult
 (

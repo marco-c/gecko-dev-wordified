@@ -128,7 +128,9 @@ beforeReading
 +
 order
 ;
-do_check_eq
+Assert
+.
+equal
 (
 order
 3
@@ -194,7 +196,9 @@ beforeReading
 +
 order
 ;
-do_check_eq
+Assert
+.
+equal
 (
 order
 1
@@ -260,7 +264,9 @@ beforeReading
 +
 order
 ;
-do_check_eq
+Assert
+.
+equal
 (
 order
 2

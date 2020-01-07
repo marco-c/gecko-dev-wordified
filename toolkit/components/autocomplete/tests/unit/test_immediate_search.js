@@ -394,7 +394,9 @@ should
 have
 finished
 .
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -428,7 +430,9 @@ function
 Sanity
 check
 .
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -678,7 +682,9 @@ startSearch
 inputStr
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 complete
 )
@@ -696,7 +702,9 @@ should
 have
 finished
 .
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -914,7 +922,9 @@ startSearch
 inputStr
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 complete
 )
@@ -932,7 +942,9 @@ should
 have
 finished
 .
-do_check_eq
+Assert
+.
+equal
 (
 input
 .

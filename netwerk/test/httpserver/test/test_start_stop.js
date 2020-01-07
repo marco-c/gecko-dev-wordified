@@ -681,8 +681,11 @@ function
 (
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 stopped
 )
 ;
@@ -693,8 +696,11 @@ function
 (
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 stopped
 )
 ;

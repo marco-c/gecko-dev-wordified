@@ -118,7 +118,9 @@ didThrow
 true
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 didThrow
 shouldThrow
@@ -128,7 +130,9 @@ if
 (
 didThrow
 )
-do_check_eq
+Assert
+.
+equal
 (
 exceptionName
 expectedName
@@ -241,7 +245,9 @@ ill
 -
 formed
 :
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 (
@@ -270,7 +276,9 @@ object
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 (

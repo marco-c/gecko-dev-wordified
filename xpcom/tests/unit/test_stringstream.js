@@ -135,7 +135,9 @@ body
 length
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 s
 .
@@ -177,7 +179,9 @@ init
 s
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sis
 .

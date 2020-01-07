@@ -337,7 +337,9 @@ n
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 -
 1

@@ -326,7 +326,9 @@ no
 longer
 be
 installed
-do_check_eq
+Assert
+.
+equal
 (
 a1_2
 null
@@ -339,7 +341,9 @@ should
 have
 been
 detected
-do_check_neq
+Assert
+.
+notEqual
 (
 a2_2
 null

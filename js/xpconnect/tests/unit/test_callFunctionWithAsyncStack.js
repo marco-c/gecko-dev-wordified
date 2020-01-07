@@ -114,7 +114,9 @@ Components
 .
 stack
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -124,7 +126,9 @@ asyncCallback
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -132,7 +136,9 @@ caller
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -140,7 +146,9 @@ asyncCause
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -152,7 +160,9 @@ getAsyncStack
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -162,7 +172,9 @@ asyncCause
 testAsyncCause
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -172,7 +184,9 @@ asyncCaller
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .
@@ -186,7 +200,9 @@ run_test
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stack
 .

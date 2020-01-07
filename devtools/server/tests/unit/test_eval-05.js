@@ -186,7 +186,9 @@ a
 debuggerStatement
 pause
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -209,7 +211,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -249,7 +253,9 @@ function
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -272,7 +278,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

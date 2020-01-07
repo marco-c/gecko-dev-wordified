@@ -210,7 +210,9 @@ an
 empty
 string
 .
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -248,7 +250,9 @@ an
 empty
 string
 .
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -311,7 +315,9 @@ an
 empty
 string
 .
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -351,7 +357,9 @@ an
 empty
 string
 .
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .

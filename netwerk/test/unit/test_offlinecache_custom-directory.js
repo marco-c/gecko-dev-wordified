@@ -440,7 +440,9 @@ sqlite
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 indexSqlFile
 .
@@ -488,7 +490,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file1
 .
@@ -536,7 +540,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file2
 .
@@ -642,7 +648,9 @@ remove
 false
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -1073,7 +1081,9 @@ update
 state
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 state
 expectedStates

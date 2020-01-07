@@ -295,7 +295,9 @@ outdated
 by
 the
 blocklist
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .

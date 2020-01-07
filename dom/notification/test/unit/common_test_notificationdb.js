@@ -356,7 +356,9 @@ notif1
 compare
 each
 property
-do_check_eq
+Assert
+.
+equal
 (
 notif1
 [

@@ -149,7 +149,9 @@ function
 aController
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .
@@ -172,7 +174,9 @@ nsIDOMKeyEvent
 DOM_VK_RIGHT
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .
@@ -210,7 +214,9 @@ function
 aController
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .
@@ -229,7 +235,9 @@ handleEnter
 false
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aController
 .

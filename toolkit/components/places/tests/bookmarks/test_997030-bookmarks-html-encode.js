@@ -285,7 +285,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .

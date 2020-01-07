@@ -273,7 +273,9 @@ loginFinished
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -341,7 +343,9 @@ abort
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -349,7 +353,9 @@ step
 3
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 JSON
 .
@@ -415,7 +421,9 @@ prepare
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 +
 +

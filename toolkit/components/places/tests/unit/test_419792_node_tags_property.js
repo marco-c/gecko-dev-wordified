@@ -298,7 +298,9 @@ childCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -321,7 +323,9 @@ the
 .
 tags
 property
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -346,7 +350,9 @@ foo
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -378,7 +384,9 @@ bar
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -407,7 +415,9 @@ bookmarkURI
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .

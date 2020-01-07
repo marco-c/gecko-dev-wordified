@@ -121,7 +121,9 @@ has
 2
 plural
 forms
-do_check_eq
+Assert
+.
+equal
 (
 2
 PluralForm
@@ -158,7 +160,9 @@ num
 +
 +
 )
-do_check_eq
+Assert
+.
+equal
 (
 num
 =
@@ -197,7 +201,9 @@ to
 the
 first
 form
-do_check_eq
+Assert
+.
+equal
 (
 "
 word
@@ -222,7 +228,9 @@ to
 the
 first
 form
-do_check_eq
+Assert
+.
+equal
 (
 "
 word

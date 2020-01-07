@@ -281,7 +281,9 @@ created
 a
 page
 annotation
-do_check_eq
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -304,7 +306,9 @@ not
 -
 bookmarked
 page
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -325,7 +329,9 @@ charset
 from
 bookmarked
 page
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -358,7 +364,9 @@ not
 -
 bookmarked
 page
-do_check_neq
+Assert
+.
+notEqual
 (
 (
 await
@@ -424,7 +432,9 @@ exists
 for
 bookmarked
 page
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -459,7 +469,9 @@ TEST_BOOKMARKED_URI
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 (
 await

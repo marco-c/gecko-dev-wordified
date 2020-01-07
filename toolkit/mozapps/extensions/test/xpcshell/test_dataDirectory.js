@@ -142,8 +142,11 @@ do_test_pending
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 expectedDir
 .
 exists
@@ -227,7 +230,9 @@ promise_callback
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 arguments
 .
@@ -264,7 +269,9 @@ ADDON
 id
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 arguments
 [
@@ -275,7 +282,9 @@ expectedDir
 path
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 expectedDir
 .
@@ -284,7 +293,9 @@ exists
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 expectedDir
 .
@@ -293,7 +304,9 @@ isDirectory
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 arguments
 [

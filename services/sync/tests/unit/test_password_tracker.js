@@ -378,7 +378,9 @@ tracker
 changedIDs
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -429,7 +431,9 @@ changedIDs
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -481,7 +485,9 @@ changedIDs
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -544,7 +550,9 @@ tracker
 changedIDs
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -595,7 +603,9 @@ tracker
 changedIDs
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -688,7 +698,9 @@ tracker
 changedIDs
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -735,7 +747,9 @@ wipe
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .

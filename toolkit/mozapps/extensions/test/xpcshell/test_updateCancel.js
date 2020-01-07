@@ -539,7 +539,9 @@ org
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a1
 null
@@ -599,7 +601,9 @@ update
 check
 in
 progress
-do_check_true
+Assert
+.
+ok
 (
 a1
 .
@@ -616,7 +620,9 @@ listener
 .
 promise
 ;
-do_check_eq
+Assert
+.
+equal
 (
 AddonManager
 .
@@ -695,8 +701,11 @@ e
 nothing
 to
 cancel
-do_check_false
+Assert
+.
+ok
 (
+!
 a1
 .
 cancelUpdate
@@ -771,7 +780,9 @@ org
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a1
 null
@@ -830,7 +841,9 @@ listener
 .
 promise
 ;
-do_check_eq
+Assert
+.
+equal
 (
 AddonManager
 .

@@ -245,7 +245,9 @@ return
 an
 error
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -287,7 +289,9 @@ actor
 i
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 actor
 packet
@@ -341,7 +345,9 @@ return
 an
 error
 .
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -368,7 +374,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

@@ -38,8 +38,11 @@ if
 isChild
 )
 {
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 mozilla
 .
@@ -60,7 +63,9 @@ Cc
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 "
 mozilla

@@ -82,7 +82,9 @@ streams
 /
 anyway
 .
-do_check_eq
+Assert
+.
+equal
 (
 stream
 .
@@ -101,7 +103,9 @@ stream
 is
 not
 buffered
-do_check_eq
+Assert
+.
+equal
 (
 Components
 .
@@ -204,7 +208,9 @@ for
 ;
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 stream
 .
@@ -227,7 +233,9 @@ available
 (
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 avail
 -
@@ -255,7 +263,9 @@ that
 /
 large
 .
-do_check_neq
+Assert
+.
+notEqual
 (
 avail
 Math
@@ -269,7 +279,9 @@ pow
 1
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 avail
 Math
@@ -595,7 +607,9 @@ file
 .
 fileSize
 ;
-do_check_eq
+Assert
+.
+equal
 (
 test_stream
 (
@@ -607,7 +621,9 @@ file
 len
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 test_stream
 (

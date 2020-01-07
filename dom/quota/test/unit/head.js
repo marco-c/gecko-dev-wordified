@@ -77,7 +77,9 @@ b
 msg
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a
 b
@@ -96,7 +98,9 @@ cond
 msg
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !

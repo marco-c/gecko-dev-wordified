@@ -220,7 +220,9 @@ ctypes
 .
 errno
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 i
@@ -232,7 +234,9 @@ get_errno
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 0
@@ -244,7 +248,9 @@ ctypes
 .
 errno
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 0
@@ -309,7 +315,9 @@ catch
 x
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ctypes
 .
@@ -323,7 +331,9 @@ if
 set_last_error
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 ctypes
 .
@@ -359,7 +369,9 @@ ctypes
 .
 winLastError
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 i
@@ -371,7 +383,9 @@ get_last_error
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 0
@@ -383,7 +397,9 @@ ctypes
 .
 winLastError
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 0

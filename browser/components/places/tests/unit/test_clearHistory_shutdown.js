@@ -753,8 +753,11 @@ page_url
 =
 aUrl
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 stmt
 .
 executeStep
@@ -998,7 +1001,9 @@ appcache
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -1186,7 +1191,9 @@ appcache
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

@@ -124,7 +124,9 @@ toString
 sb
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 result
 '
@@ -132,7 +134,9 @@ nothrow
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -148,7 +152,9 @@ result
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 result
 .
@@ -251,7 +257,9 @@ chromeSB
 .
 chromeArr
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -282,7 +290,9 @@ chromeArr
 contentSB
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -293,7 +303,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 /
 denied

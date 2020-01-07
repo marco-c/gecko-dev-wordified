@@ -352,7 +352,9 @@ bindByIndex
 visitId
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -377,7 +379,9 @@ finalize
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 placeId
 >
@@ -522,7 +526,9 @@ Children
 without
 hidden
 ones
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -584,7 +590,9 @@ Children
 with
 hidden
 ones
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -705,7 +713,9 @@ a
 correct
 visit_count
 .
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -734,7 +744,9 @@ should
 not
 increase
 visit_count
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -763,7 +775,9 @@ should
 not
 increase
 visit_count
-do_check_eq
+Assert
+.
+equal
 (
 (
 await

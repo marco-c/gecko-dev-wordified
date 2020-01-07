@@ -231,7 +231,9 @@ source
 wholeLineLocation
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 firstBpClient
 .
@@ -291,7 +293,9 @@ source
 columnLocation
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 secondBpClient
 .

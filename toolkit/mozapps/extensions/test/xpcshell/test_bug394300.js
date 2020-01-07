@@ -127,7 +127,9 @@ aAddon
 aInstall
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aInstall
 .
@@ -280,7 +282,9 @@ function
 updates
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 updates
 [
@@ -289,7 +293,9 @@ updates
 null
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 updates
 [

@@ -118,7 +118,9 @@ init
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -129,7 +131,9 @@ catch
 ex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )

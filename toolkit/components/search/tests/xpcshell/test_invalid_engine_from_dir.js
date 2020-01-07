@@ -59,8 +59,11 @@ do_test_pending
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -193,7 +196,9 @@ caused
 an
 exception
 .
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -203,7 +208,9 @@ aStatus
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

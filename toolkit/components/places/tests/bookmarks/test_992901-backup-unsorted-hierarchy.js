@@ -315,7 +315,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 level1
 .
@@ -355,7 +357,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 level2
 .
@@ -393,7 +397,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bookmark
 .

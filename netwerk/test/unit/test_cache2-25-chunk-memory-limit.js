@@ -189,7 +189,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -213,7 +215,9 @@ gen_200k
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -254,7 +258,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

@@ -317,7 +317,9 @@ onResponse
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -362,7 +364,9 @@ onResponse
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -407,7 +411,9 @@ onResponse
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -452,7 +458,9 @@ onResponse
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -575,7 +583,9 @@ onListTabs
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 postInitGlobalActor
 getActorInstance
@@ -587,7 +597,9 @@ postInitGlobalActor
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 preInitGlobalActor
 getActorInstance

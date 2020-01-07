@@ -414,7 +414,9 @@ response
 return
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -545,7 +547,9 @@ Ci
 nsICacheInfoChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -553,7 +557,9 @@ buffer
 content
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 .
@@ -561,7 +567,9 @@ alternativeDataType
 preferredDataType
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -569,7 +577,9 @@ isFromCache
 isFromCache
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 cacheEntryIdChecker
@@ -1062,7 +1072,9 @@ catch
 e
 =
 >
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -1080,7 +1092,9 @@ then
 _
 =
 >
-do_check_eq
+Assert
+.
+equal
 (
 handlers
 .

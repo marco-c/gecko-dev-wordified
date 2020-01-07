@@ -6430,7 +6430,9 @@ this
 expect
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 maxExpect
 numForms
@@ -6552,7 +6554,9 @@ join
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 get
 (

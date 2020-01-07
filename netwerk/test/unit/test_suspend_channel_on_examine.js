@@ -399,7 +399,9 @@ context
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -434,7 +436,9 @@ Ci
 nsICookieManager
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cm
 .

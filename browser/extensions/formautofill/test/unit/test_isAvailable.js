@@ -73,7 +73,9 @@ test_defaultTestEnvironment
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 sandbox
 .
@@ -154,8 +156,11 @@ region
 }
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 sandbox
 .
 isAvailable
@@ -235,7 +240,9 @@ region
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 sandbox
 .

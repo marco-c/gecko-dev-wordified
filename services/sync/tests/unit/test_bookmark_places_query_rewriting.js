@@ -410,7 +410,9 @@ bookmarks
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 insertedRecord
 .
@@ -496,7 +498,9 @@ bookmarks
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 insertedRecord
 .

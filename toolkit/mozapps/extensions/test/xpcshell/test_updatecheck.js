@@ -1162,8 +1162,11 @@ length
 1
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 updateURL
 "

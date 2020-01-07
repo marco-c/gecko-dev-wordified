@@ -403,7 +403,9 @@ a4
 ]
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 a1
 null
@@ -419,7 +421,9 @@ addon1
 version
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a2
 null
@@ -435,7 +439,9 @@ addon2
 version
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a3
 null
@@ -451,7 +457,9 @@ addon3
 version
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a4
 null

@@ -390,7 +390,9 @@ correct
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 .
@@ -431,7 +433,9 @@ token
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 [
@@ -457,7 +461,9 @@ i
 type
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 [

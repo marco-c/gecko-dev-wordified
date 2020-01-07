@@ -223,7 +223,9 @@ arguments
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 obj1
 .
@@ -240,7 +242,9 @@ pauseGrip
 obj1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 obj1Client
 .
@@ -259,8 +263,11 @@ arguments
 1
 ]
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 obj2
 .
 frozen
@@ -276,8 +283,11 @@ pauseGrip
 obj2
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 obj2Client
 .
 isFrozen

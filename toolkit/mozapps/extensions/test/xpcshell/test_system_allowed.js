@@ -290,7 +290,9 @@ org
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 addon
 null

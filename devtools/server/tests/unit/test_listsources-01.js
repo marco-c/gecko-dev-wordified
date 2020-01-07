@@ -217,7 +217,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 response
 .
@@ -255,7 +257,9 @@ js
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 gNumTimesSourcesSent
 <

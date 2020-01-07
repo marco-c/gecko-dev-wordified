@@ -228,7 +228,9 @@ function
 addon
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -424,7 +426,9 @@ function
 addon
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 addon
 null

@@ -125,7 +125,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -191,7 +193,9 @@ error
 reporting
 machinery
 .
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .

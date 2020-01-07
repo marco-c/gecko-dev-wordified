@@ -369,7 +369,9 @@ testcase
 fullName
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 testcase

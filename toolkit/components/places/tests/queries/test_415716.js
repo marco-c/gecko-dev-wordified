@@ -695,7 +695,9 @@ n
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 cc
 0

@@ -156,7 +156,9 @@ event
 packet
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -165,7 +167,9 @@ packet
 frame
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -176,7 +180,9 @@ frame
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

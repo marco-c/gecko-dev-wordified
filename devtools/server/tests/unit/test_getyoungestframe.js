@@ -100,7 +100,9 @@ function
 frame
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 frame
 =
@@ -143,7 +145,9 @@ function
 {
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 frame
 =

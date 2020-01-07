@@ -557,7 +557,9 @@ png
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 dataURL
 input
@@ -1141,7 +1143,9 @@ base64
 +
 base64String
 ;
-do_check_eq
+Assert
+.
+equal
 (
 dataURL
 expected

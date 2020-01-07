@@ -314,7 +314,9 @@ Ci
 nsINamed
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 named
 .

@@ -126,7 +126,9 @@ the
 idle
 time
 .
-do_check_eq
+Assert
+.
+equal
 (
 fakeIdleService
 .

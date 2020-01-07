@@ -158,7 +158,9 @@ channel
 .
 contentDisposition
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -204,7 +206,9 @@ disposition
 header
 is
 available
-do_check_true
+Assert
+.
+ok
 (
 true
 "

@@ -504,7 +504,9 @@ error
 NS_ERROR_NET_PARTIAL_TRANSFER
 here
 .
-do_check_eq
+Assert
+.
+equal
 (
 aStatusCode
 Components
@@ -870,7 +872,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -1104,7 +1108,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -1336,7 +1342,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -1614,7 +1622,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -2413,7 +2423,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

@@ -167,7 +167,9 @@ modules
 libjar
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -286,7 +288,9 @@ spec
 /
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .

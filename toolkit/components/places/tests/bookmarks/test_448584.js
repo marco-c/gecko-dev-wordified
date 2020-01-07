@@ -261,7 +261,9 @@ test
 for
 our
 bookmark
-do_check_eq
+Assert
+.
+equal
 (
 toolbar
 .
@@ -297,7 +299,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folderNode
 .
@@ -307,7 +311,9 @@ folderNode
 RESULT_TYPE_URI
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folderNode
 .

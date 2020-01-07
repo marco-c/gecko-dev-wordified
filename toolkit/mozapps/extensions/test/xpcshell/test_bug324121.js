@@ -982,7 +982,9 @@ function
 firstAddon
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 firstAddon
 )
@@ -1153,7 +1155,9 @@ test_complete
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gItemsNotChecked
 .

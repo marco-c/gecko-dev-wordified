@@ -222,7 +222,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -249,7 +251,9 @@ timesCalled
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 timesCalled
 3
@@ -561,7 +565,9 @@ response
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -606,7 +612,9 @@ replace
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

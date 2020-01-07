@@ -110,7 +110,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 __LOCATION__
 .

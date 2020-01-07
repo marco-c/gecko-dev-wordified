@@ -209,7 +209,9 @@ search
 string
 back
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -227,7 +229,9 @@ the
 search
 succeeded
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -246,7 +250,9 @@ got
 two
 results
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -267,7 +273,9 @@ directory
 we
 created
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -291,7 +299,9 @@ has
 directory
 style
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -317,7 +327,9 @@ file
 we
 created
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -341,7 +353,9 @@ has
 file
 style
 .
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .

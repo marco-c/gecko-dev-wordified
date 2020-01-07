@@ -265,7 +265,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 queryNode
 .
@@ -309,7 +311,9 @@ the
 node
 was
 updated
-do_check_eq
+Assert
+.
+equal
 (
 queryNode
 .

@@ -209,7 +209,9 @@ getInstallForFile
 xpi1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 install1
 .
@@ -219,7 +221,9 @@ AddonManager
 STATE_DOWNLOAD_FAILED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 install1
 .
@@ -267,7 +271,9 @@ getInstallForFile
 xpi2
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 install2
 .

@@ -1953,7 +1953,9 @@ request
 cx
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 request
 =
@@ -3138,7 +3140,9 @@ function
 stream
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 stream
 =

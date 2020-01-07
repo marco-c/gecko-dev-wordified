@@ -112,8 +112,11 @@ inRecord
 inStatus
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 Components
 .
 isSuccessCode
@@ -203,7 +206,9 @@ getNextAddrAsString
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 answer
 =
@@ -370,7 +375,9 @@ test
 to
 fail
 fast
-do_check_true
+Assert
+.
+ok
 (
 true
 )

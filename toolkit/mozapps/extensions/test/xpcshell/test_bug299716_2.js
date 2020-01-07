@@ -272,7 +272,9 @@ function
 item
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 item
 .
@@ -282,8 +284,11 @@ version
 1
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 item
 .
 isCompatible
@@ -299,8 +304,11 @@ onUpdateFinished
 addon
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 item
 .
 isCompatible

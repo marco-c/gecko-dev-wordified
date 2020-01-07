@@ -303,7 +303,9 @@ valueOf
 .
 0
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aActualVal
 aReturnedVal
@@ -436,7 +438,9 @@ test
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -445,7 +449,9 @@ step
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aNumRows
 stmt
@@ -596,7 +602,9 @@ id
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -771,7 +779,9 @@ id
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .

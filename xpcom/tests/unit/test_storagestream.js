@@ -235,7 +235,9 @@ newInputStream
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 inp2
 .
@@ -245,7 +247,9 @@ available
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 inp2
 .
@@ -328,7 +332,9 @@ ex
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 threw
 )
@@ -588,7 +594,9 @@ e
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 inp
 .
@@ -663,7 +671,9 @@ threw
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 threw
 "
@@ -862,7 +872,9 @@ read8
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 bytes

@@ -190,7 +190,9 @@ args
 .
 actor
 ;
-do_check_eq
+Assert
+.
+equal
 (
 args
 [
@@ -203,7 +205,9 @@ Object
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -259,7 +263,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -318,7 +324,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

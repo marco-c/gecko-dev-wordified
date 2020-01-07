@@ -391,7 +391,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 2
@@ -421,7 +423,9 @@ node1
 bookmarkGuid
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node1
 .
@@ -457,7 +461,9 @@ node2
 bookmarkGuid
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node2
 .

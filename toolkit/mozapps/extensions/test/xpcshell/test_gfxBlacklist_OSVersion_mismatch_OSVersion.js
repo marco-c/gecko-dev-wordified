@@ -530,7 +530,9 @@ nsIGfxInfo
 FEATURE_DIRECT2D
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Ci
@@ -569,7 +571,9 @@ nsIGfxInfo
 FEATURE_OPENGL_LAYERS
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Ci

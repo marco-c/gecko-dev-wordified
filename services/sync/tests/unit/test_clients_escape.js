@@ -227,7 +227,9 @@ ascii
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .
@@ -237,7 +239,9 @@ ascii
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .
@@ -338,7 +342,9 @@ ch
 code
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 code
 <
@@ -368,7 +374,9 @@ serialized
 length
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 checkCount
 serialized
@@ -400,7 +408,9 @@ decrypt
 keyBundle
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .
@@ -410,7 +420,9 @@ ascii
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .
@@ -449,7 +461,9 @@ ascii
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .
@@ -459,7 +473,9 @@ ascii
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 record
 .

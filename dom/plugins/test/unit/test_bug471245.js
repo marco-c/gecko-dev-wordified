@@ -97,7 +97,9 @@ get_test_plugintag
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 plugin
 =
@@ -122,8 +124,11 @@ get_test_plugintag
 (
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 plugin
 =
 =

@@ -112,7 +112,9 @@ lockPref
 PREF_NAME
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 test0
@@ -125,7 +127,9 @@ PREF_NAME
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 false
 userprefs
@@ -185,7 +189,9 @@ readUserPrefsFromFile
 file
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 test1
@@ -198,7 +204,9 @@ PREF_NAME
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 false
 userprefs

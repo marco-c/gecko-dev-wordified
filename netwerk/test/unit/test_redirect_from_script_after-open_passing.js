@@ -1326,7 +1326,9 @@ Ci
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 httpChannel
 .
@@ -1337,7 +1339,9 @@ testHeaderName
 headerValue
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 redirectedText
@@ -1544,7 +1548,9 @@ send
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 req
 .
@@ -1555,7 +1561,9 @@ testHeaderName
 headerValue
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 req
 .

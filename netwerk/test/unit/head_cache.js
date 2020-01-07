@@ -623,7 +623,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components
@@ -780,7 +782,9 @@ exists
 where
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -788,7 +792,9 @@ Cr
 NS_OK
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -822,7 +828,9 @@ exist
 where
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -830,8 +838,11 @@ Cr
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )
 ;
-do_check_null
+Assert
+.
+equal
 (
+null
 entry
 )
 ;

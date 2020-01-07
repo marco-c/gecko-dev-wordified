@@ -646,7 +646,9 @@ function
 addon
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -698,7 +700,9 @@ unused
 install
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 install
 .
@@ -783,7 +787,9 @@ function
 addon
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -835,7 +841,9 @@ unused
 install
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 install
 .
@@ -928,7 +936,9 @@ function
 addon
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -1042,7 +1052,9 @@ function
 addon
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -1094,7 +1106,9 @@ unused
 install
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 install
 .

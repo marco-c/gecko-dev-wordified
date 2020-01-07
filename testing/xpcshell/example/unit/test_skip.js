@@ -69,7 +69,9 @@ expects
 to
 fail
 .
-do_check_true
+Assert
+.
+ok
 (
 false
 )

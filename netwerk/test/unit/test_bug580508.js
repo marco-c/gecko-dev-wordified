@@ -172,7 +172,9 @@ modules
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aliasURI
 .
@@ -246,7 +248,9 @@ jsm
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 resProt
 .

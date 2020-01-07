@@ -538,7 +538,9 @@ macutils
 architecturesInBinary
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 metadata
 .
@@ -826,7 +828,9 @@ change
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 timerService
 .

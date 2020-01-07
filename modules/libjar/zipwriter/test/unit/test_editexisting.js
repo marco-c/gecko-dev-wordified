@@ -185,7 +185,9 @@ tmpFile
 leafName
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmpFile
 .
@@ -220,7 +222,9 @@ i
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .
@@ -250,7 +254,9 @@ i
 name
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entry
 !
@@ -258,7 +264,9 @@ entry
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -271,7 +279,9 @@ i
 size
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -284,7 +294,9 @@ i
 crc
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -336,7 +348,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -425,7 +439,9 @@ of
 central
 directory
 marker
-do_check_eq
+Assert
+.
+equal
 (
 tmpFile
 .

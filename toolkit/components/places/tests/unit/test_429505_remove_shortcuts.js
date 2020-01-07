@@ -260,7 +260,9 @@ query
 guid
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

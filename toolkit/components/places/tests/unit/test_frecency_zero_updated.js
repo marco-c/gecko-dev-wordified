@@ -105,7 +105,9 @@ promiseAsyncUpdates
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 frecencyForUrl
 (
@@ -160,7 +162,9 @@ promiseAsyncUpdates
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 frecencyForUrl
 (
@@ -195,7 +199,9 @@ TEST_URI
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 frecencyForUrl
 (

@@ -76,7 +76,9 @@ Xrays
 to
 sb
 .
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -91,7 +93,9 @@ prop
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -116,7 +120,9 @@ works
 as
 expected
 .
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -133,7 +139,9 @@ wrappedJSObject
 allowed
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -224,7 +232,9 @@ wrappedJSObject
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 friend
 .
@@ -260,7 +270,9 @@ waived
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .

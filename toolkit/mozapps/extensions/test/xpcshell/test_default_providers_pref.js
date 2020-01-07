@@ -100,8 +100,11 @@ promiseStartupManager
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 AddonManager
 .
 isInstallEnabled

@@ -550,7 +550,9 @@ user
 pw
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 this
 .
@@ -976,7 +978,9 @@ channel
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -997,7 +1001,9 @@ iff
 we
 expect
 200
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -1069,7 +1075,9 @@ ctx
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components

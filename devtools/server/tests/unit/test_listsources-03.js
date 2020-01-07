@@ -162,7 +162,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -185,7 +187,9 @@ sources
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 response
 .

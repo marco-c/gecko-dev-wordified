@@ -530,7 +530,9 @@ status
 status
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 this
 .

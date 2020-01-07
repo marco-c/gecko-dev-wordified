@@ -215,7 +215,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 bundle_ascii
 value_ascii
@@ -239,7 +241,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 bundle_utf8
 value_utf8
@@ -263,7 +267,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 bundle_latin1
 value_latin1

@@ -349,7 +349,9 @@ buildExpectedLogins
 aQuery
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expectedLogins
 .
@@ -379,7 +381,9 @@ aQuery
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 outCount
 .

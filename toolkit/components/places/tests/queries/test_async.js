@@ -843,7 +843,9 @@ root
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -906,7 +908,9 @@ is
 also
 defined
 .
-do_check_true
+Assert
+.
+ok
 (
 aOldState
 =
@@ -1240,7 +1244,9 @@ cnt
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 cnt
 >
@@ -1355,7 +1361,9 @@ state
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newState
 container

@@ -100,7 +100,9 @@ DNXPzPpiwn
 16
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 symmKey16
 .
@@ -108,7 +110,9 @@ length
 16
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 btoa
 (
@@ -121,7 +125,9 @@ d2zG0d2cBfXnRwMUGyMwyg
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 CommonUtils
 .
@@ -157,7 +163,9 @@ salt
 32
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 symmKey32
 .
@@ -702,7 +710,9 @@ of
 vectors
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 v
 .
@@ -1240,7 +1250,9 @@ of
 vectors
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 v
 .

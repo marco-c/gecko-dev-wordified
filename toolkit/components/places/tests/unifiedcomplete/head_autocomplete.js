@@ -1927,7 +1927,9 @@ we
 got
 matches
 .
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .

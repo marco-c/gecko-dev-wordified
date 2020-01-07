@@ -389,7 +389,9 @@ add
 record
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 storage
 .
@@ -545,7 +547,9 @@ add
 record
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 storage
 .

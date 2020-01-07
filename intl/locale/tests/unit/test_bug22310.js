@@ -743,7 +743,9 @@ i
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 all_passed
 )

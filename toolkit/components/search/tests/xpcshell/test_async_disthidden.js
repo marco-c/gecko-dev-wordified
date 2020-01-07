@@ -175,8 +175,11 @@ url
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -202,7 +205,9 @@ asyncInit
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -242,7 +247,9 @@ since
 one
 is
 hidden
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -277,7 +284,9 @@ engine
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 null

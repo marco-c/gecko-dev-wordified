@@ -94,7 +94,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components
@@ -133,7 +135,9 @@ clone
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newTmpFile
 .
@@ -192,7 +196,9 @@ tmpFile
 leafName
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmpFile
 .
@@ -227,7 +233,9 @@ i
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .
@@ -264,7 +272,9 @@ observer
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .

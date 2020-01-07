@@ -56,7 +56,9 @@ for
 read
 and
 check
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -111,7 +113,9 @@ different
 meta
 and
 data
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -162,7 +166,9 @@ for
 read
 and
 check
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -204,7 +210,9 @@ function
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
