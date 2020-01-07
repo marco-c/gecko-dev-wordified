@@ -184,7 +184,7 @@ use
 euclid
 :
 :
-Radians
+Angle
 ;
 use
 webrender
@@ -748,10 +748,10 @@ pre_rotate
 1
 .
 0
-Radians
+Angle
 :
 :
-new
+radians
 (
 angle
 )
