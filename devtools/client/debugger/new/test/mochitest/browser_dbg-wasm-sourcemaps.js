@@ -208,6 +208,11 @@ assertPausedLocation
 dbg
 )
 ;
+toggleCallStack
+(
+dbg
+)
+;
 const
 frames
 =

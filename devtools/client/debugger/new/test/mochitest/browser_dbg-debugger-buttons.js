@@ -245,6 +245,7 @@ clickResume
 (
 dbg
 )
+;
 await
 waitForPaused
 (

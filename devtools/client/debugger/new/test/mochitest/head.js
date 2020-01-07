@@ -3291,6 +3291,7 @@ valueSeq
 toJS
 (
 )
+;
 return
 !
 sources
@@ -3309,6 +3310,7 @@ loadedState
 loading
 "
 )
+;
 }
 "
 loaded
@@ -5122,7 +5124,6 @@ getBoundingClientRect
 const
 verticallyVisible
 =
-(
 innerRect
 .
 top
@@ -5141,7 +5142,6 @@ bottom
 outerRect
 .
 bottom
-)
 |
 |
 (
@@ -5166,7 +5166,6 @@ bottom
 const
 horizontallyVisible
 =
-(
 innerRect
 .
 left
@@ -5185,7 +5184,6 @@ right
 outerRect
 .
 right
-)
 |
 |
 (
@@ -5578,7 +5576,23 @@ prettyPrintButton
 :
 "
 .
+source
+-
+footer
+.
 prettyPrint
+"
+sourceMapLink
+:
+"
+.
+source
+-
+footer
+.
+mapped
+-
+source
 "
 sourcesFooter
 :

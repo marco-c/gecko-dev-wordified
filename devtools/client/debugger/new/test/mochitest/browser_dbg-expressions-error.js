@@ -282,6 +282,7 @@ dbg
 EVALUATE_EXPRESSION
 "
 )
+;
 pressKey
 (
 dbg
@@ -353,6 +354,7 @@ dbg
 EVALUATE_EXPRESSION
 "
 )
+;
 findElementWithSelector
 (
 dbg
