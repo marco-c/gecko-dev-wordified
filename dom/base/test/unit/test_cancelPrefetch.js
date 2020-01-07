@@ -219,12 +219,6 @@ next
 true
 )
 ;
-parser
-.
-init
-(
-)
-;
 doc
 =
 parser
