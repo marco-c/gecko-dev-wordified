@@ -3028,12 +3028,6 @@ ident
         
 self
 .
-original
-=
-original
-        
-self
-.
 enabled_in
 =
 original
@@ -3177,7 +3171,7 @@ s
 %
 self
 .
-ident
+camel_case
 class
 Method
 (
