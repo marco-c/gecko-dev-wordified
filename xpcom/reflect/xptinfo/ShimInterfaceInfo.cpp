@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsIDOMCSSValueList
-.
-h
-"
-#
-include
-"
 nsIDOMCustomEvent
 .
 h
@@ -2275,10 +2268,6 @@ CSSStyleDeclaration
 DEFINE_SHIM
 (
 CSSValue
-)
-DEFINE_SHIM
-(
-CSSValueList
 )
 DEFINE_SHIM
 (

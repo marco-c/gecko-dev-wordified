@@ -137,13 +137,6 @@ nsDOMCSSValueList_h___
 #
 include
 "
-nsIDOMCSSValueList
-.
-h
-"
-#
-include
-"
 CSSValue
 .
 h
@@ -168,7 +161,7 @@ dom
 :
 CSSValue
 public
-nsIDOMCSSValueList
+nsIDOMCSSValue
 {
 public
 :
