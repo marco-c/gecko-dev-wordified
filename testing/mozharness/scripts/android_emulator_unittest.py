@@ -6256,6 +6256,22 @@ TBPL_RETRY
 ]
 )
                 
+self
+.
+info
+(
+"
+Found
+Android
+bogomips
+:
+%
+d
+"
+%
+bogomips
+)
+                
 break
     
 def
