@@ -348,7 +348,7 @@ it
 s
 split
 .
-RangeBoundary
+EditorDOMPoint
 mStartOfRightNode
 ;
 /

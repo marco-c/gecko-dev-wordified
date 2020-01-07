@@ -387,7 +387,7 @@ will
 insert
 mNewNode
 .
-RangeBoundary
+EditorDOMPoint
 mPointToInsert
 ;
 /
