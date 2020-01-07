@@ -3062,12 +3062,11 @@ cd
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
-0
-0
-}
+)
 "
 %
 self
@@ -3539,14 +3538,15 @@ hi
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
 %
 d
 %
 d
-}
+)
 "
 %
 (
@@ -3978,13 +3978,13 @@ cd
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
 %
 d
-0
-}
+)
 "
 %
 (
@@ -3993,7 +3993,7 @@ self
 typeDescriptorPrefixString
 (
 )
-                                
+                                              
 self
 .
 param_index
@@ -4461,14 +4461,15 @@ cd
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
 %
 d
 %
 d
-}
+)
 "
 %
 (
@@ -4477,11 +4478,11 @@ self
 typeDescriptorPrefixString
 (
 )
-                                 
+                                                  
 self
 .
 size_is_arg_num
-                                 
+                                                  
 element_type_index
 )
     
@@ -4896,13 +4897,13 @@ cd
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
 %
 d
-0
-}
+)
 "
 %
 (
@@ -4911,7 +4912,7 @@ self
 typeDescriptorPrefixString
 (
 )
-                                
+                                              
 self
 .
 size_is_arg_num
@@ -5318,13 +5319,13 @@ cd
         
 return
 "
-{
+XPTTypeDescriptor
+(
 %
 s
 %
 d
-0
-}
+)
 "
 %
 (
@@ -5333,7 +5334,7 @@ self
 typeDescriptorPrefixString
 (
 )
-                                
+                                              
 self
 .
 size_is_arg_num
@@ -6252,13 +6253,14 @@ cd
         
 return
 "
-{
+XPTParamDescriptor
+(
 0x
 %
 x
 %
 s
-}
+)
 "
 %
 (
@@ -7671,7 +7673,8 @@ params
         
 return
 "
-{
+XPTMethodDescriptor
+(
 %
 d
 %
@@ -7681,20 +7684,20 @@ d
 x
 %
 d
-}
+)
 "
 %
 (
 string_index
-                                       
+                                                          
 param_index
-                                       
+                                                          
 self
 .
 encodeflags
 (
 )
-                                       
+                                                          
 num_params
 )
 class
@@ -8316,7 +8319,8 @@ disambiguation
         
 return
 "
-{
+XPTConstDescriptor
+(
 %
 d
 %
@@ -8333,12 +8337,12 @@ s
 d
 )
 )
-}
+)
 "
 %
 (
 string_index
-                                                                 
+                                                                                   
 self
 .
 type
@@ -8348,7 +8352,7 @@ code_gen
 typelib
 cd
 )
-                                                                 
+                                                                                   
 Constant
 .
 memberTypeMap
@@ -8359,7 +8363,7 @@ type
 .
 tag
 ]
-                                                                 
+                                                                                   
 self
 .
 value
@@ -10067,7 +10071,8 @@ encodeflags
         
 return
 "
-{
+XPTInterfaceDescriptor
+(
 %
 s
 %
@@ -10085,7 +10090,7 @@ d
 0x
 %
 x
-}
+)
 /
 *
 %
