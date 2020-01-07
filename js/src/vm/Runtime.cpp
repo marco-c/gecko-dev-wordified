@@ -1024,6 +1024,9 @@ WasmRuntimeInstances
 moduleResolveHook
 (
 )
+moduleMetadataHook
+(
+)
 {
 JS_COUNT_CTOR
 (
