@@ -35,9 +35,13 @@ Components
 .
 manager
 ;
-var
-gSyncProfile
-=
+/
+/
+Required
+to
+avoid
+failures
+.
 do_get_profile
 (
 )
