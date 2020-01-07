@@ -2026,6 +2026,14 @@ CalcWidgetBounds
 type
 )
 ;
+invisiblePopup
+=
+newBounds
+.
+IsEmpty
+(
+)
+;
 }
 bool
 curVisibility
