@@ -1809,6 +1809,7 @@ return
 mContentBackend
 ;
 }
+virtual
 mozilla
 :
 :
