@@ -1482,12 +1482,8 @@ mParent
 mParent
 -
 >
-IsNodeOfType
+IsCharacterData
 (
-nsINode
-:
-:
-eDATA_NODE
 )
 ;
 }

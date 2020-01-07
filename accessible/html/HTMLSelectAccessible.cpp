@@ -2500,12 +2500,8 @@ return
 aEl
 -
 >
-IsNodeOfType
+IsCharacterData
 (
-nsINode
-:
-:
-eDATA_NODE
 )
 |
 |

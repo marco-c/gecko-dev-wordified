@@ -3172,9 +3172,8 @@ aError
 {
 if
 (
-IsNodeOfType
+IsCharacterData
 (
-eDATA_NODE
 )
 )
 {

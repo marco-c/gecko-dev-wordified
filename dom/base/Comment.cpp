@@ -212,11 +212,7 @@ return
 aFlags
 &
 ~
-(
 eCOMMENT
-|
-eDATA_NODE
-)
 )
 ;
 }
