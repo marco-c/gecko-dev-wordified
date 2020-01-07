@@ -425,6 +425,17 @@ MOZ_ASSERT
 mWorkerRef
 )
 ;
+if
+(
+aStatus
+<
+Canceling
+)
+{
+return
+true
+;
+}
 /
 /
 Let
@@ -825,7 +836,7 @@ holder
 HoldWorker
 (
 aWorkerPrivate
-Closing
+Canceling
 )
 )
 )
@@ -1120,7 +1131,7 @@ holder
 HoldWorker
 (
 aWorkerPrivate
-Closing
+Canceling
 )
 )
 )
