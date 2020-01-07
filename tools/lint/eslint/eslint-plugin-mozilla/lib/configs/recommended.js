@@ -202,11 +202,6 @@ only
 )
 .
 "
-MozSelfSupport
-"
-:
-false
-"
 SharedArrayBuffer
 "
 :
