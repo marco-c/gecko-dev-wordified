@@ -86,8 +86,8 @@ TOP_CONTAINER_LEVEL
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -96,7 +96,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 data
@@ -180,7 +180,7 @@ elt
 let
 bodyContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -192,7 +192,7 @@ inspector
 let
 spanContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -204,7 +204,7 @@ inspector
 let
 headerContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -216,7 +216,7 @@ inspector
 let
 listContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -684,7 +684,7 @@ container
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -705,7 +705,7 @@ VK_RIGHT
 win
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -780,7 +780,7 @@ set
 let
 listItemContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -876,7 +876,7 @@ VK_LEFT
 win
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
