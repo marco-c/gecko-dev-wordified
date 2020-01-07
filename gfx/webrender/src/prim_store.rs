@@ -113,7 +113,6 @@ api
 :
 {
 ClipAndScrollInfo
-EdgeAaSegmentMask
 PremultipliedColorF
 TileOffset
 }
@@ -173,7 +172,10 @@ use
 internal_types
 :
 :
+{
+EdgeAaSegmentMask
 FastHashMap
+}
 ;
 use
 gpu_cache

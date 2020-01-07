@@ -636,7 +636,7 @@ new
 )
 -
 >
-ClipScrollTree
+Self
 {
 let
 dummy_pipeline

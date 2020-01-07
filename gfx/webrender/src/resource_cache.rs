@@ -2079,7 +2079,7 @@ FontInstanceOptions
 {
 render_mode
 subpx_dir
-synthetic_italics
+flags
 bg_color
 .
 .
@@ -2135,9 +2135,9 @@ new
 bg_color
 render_mode
 subpx_dir
+flags
 platform_options
 variations
-synthetic_italics
 )
 ;
 if
