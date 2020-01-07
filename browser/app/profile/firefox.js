@@ -20732,12 +20732,12 @@ normandy
 .
 run_interval_seconds
 "
-86400
+21600
 )
 ;
 /
 /
-24
+6
 hours
 pref
 (
