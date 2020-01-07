@@ -53,20 +53,15 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-import
-posixpath
-import
-os
-import
-re
 '
 '
 '
 Like
+:
+py
+:
+mod
+:
 os
 .
 path
@@ -97,6 +92,11 @@ utilities
 not
 found
 in
+:
+py
+:
+mod
+:
 os
 .
 path
@@ -104,6 +104,16 @@ path
 '
 '
 '
+from
+__future__
+import
+absolute_import
+import
+posixpath
+import
+os
+import
+re
 def
 normsep
 (
@@ -126,6 +136,11 @@ instead
 of
 whatever
     
+:
+py
+:
+const
+:
 os
 .
 sep
@@ -649,23 +664,15 @@ the
 path
 :
         
-'
 foo
-'
 matches
-'
 *
-'
-'
 f
 *
-'
 or
-'
 fo
 *
 o
-'
     
 However
 an
@@ -681,23 +688,19 @@ null
 string
 :
         
-'
 foo
 /
 bar
-'
 does
 *
 not
 *
 match
-'
 foo
 /
 *
 /
 bar
-'
     
 If
 the
@@ -719,15 +722,11 @@ considered
 matching
 :
         
-'
 foo
 /
 bar
-'
 matches
-'
 foo
-'
     
 Two
 adjacent
@@ -748,27 +747,21 @@ and
 subdirectories
 .
         
-'
 foo
 /
 bar
-'
 matches
-'
 foo
 /
 *
 *
 /
 bar
-'
 or
-'
 *
 *
 /
 bar
-'
     
 '
 '
