@@ -8596,14 +8596,6 @@ of
 aChild
 .
 *
-param
-aOwnerDoc
-The
-ownerDocument
-of
-aChild
-.
-*
 /
 static
 void
@@ -8615,9 +8607,6 @@ aChild
 nsINode
 *
 aParent
-nsIDocument
-*
-aOwnerDoc
 )
 ;
 /
