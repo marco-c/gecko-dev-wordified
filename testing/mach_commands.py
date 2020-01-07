@@ -2294,22 +2294,9 @@ call
 check_style_cmd
 cwd
 =
-os
-.
-path
-.
-join
-(
 self
 .
 topsrcdir
-'
-js
-'
-'
-src
-'
-)
 )
         
 print
@@ -2357,22 +2344,9 @@ call
 check_masm_cmd
 cwd
 =
-os
-.
-path
-.
-join
-(
 self
 .
 topsrcdir
-'
-js
-'
-'
-src
-'
-)
 )
         
 print
