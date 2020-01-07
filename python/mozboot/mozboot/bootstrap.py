@@ -2254,6 +2254,16 @@ instance
 .
 check_output
                                      
+env
+=
+self
+.
+instance
+.
+_hgplain_env
+(
+)
+                                     
 hg
 =
 self
@@ -3686,6 +3696,7 @@ def
 current_firefox_checkout
 (
 check_output
+env
 hg
 =
 None
@@ -3840,9 +3851,14 @@ node
 }
 '
 ]
+                                    
 cwd
 =
 path
+                                    
+env
+=
+env
 )
                 
 if
