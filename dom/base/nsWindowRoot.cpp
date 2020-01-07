@@ -1852,8 +1852,10 @@ GetPrivateParent
 ;
 }
 }
-nsIDOMNode
-*
+already_AddRefed
+<
+nsINode
+>
 nsWindowRoot
 :
 :
@@ -1863,7 +1865,7 @@ GetPopupNode
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 popupNode
 =
@@ -1874,6 +1876,10 @@ mPopupNode
 ;
 return
 popupNode
+.
+forget
+(
+)
 ;
 }
 void
@@ -1882,7 +1888,7 @@ nsWindowRoot
 :
 SetPopupNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
