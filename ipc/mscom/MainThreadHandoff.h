@@ -452,6 +452,12 @@ aIid
 )
 override
 ;
+STDMETHODIMP
+DisconnectHandlerRemotes
+(
+)
+override
+;
 /
 /
 ICallFrameWalker
