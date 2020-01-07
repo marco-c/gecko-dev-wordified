@@ -44886,6 +44886,10 @@ if
 !
 parser
 .
+astGenerator
+(
+)
+.
 isDeclarationList
 (
 target
@@ -45000,6 +45004,10 @@ isForLoopDeclaration
 target
 =
 parser
+.
+astGenerator
+(
+)
 .
 singleBindingFromDeclaration
 (
@@ -46704,6 +46712,10 @@ if
 (
 parser
 .
+astGenerator
+(
+)
+.
 isDeclarationList
 (
 forInTarget
@@ -46715,6 +46727,10 @@ ParseNode
 decl
 =
 parser
+.
+astGenerator
+(
+)
 .
 singleBindingFromDeclaration
 (
@@ -58989,6 +59005,10 @@ SuperCall
 MOZ_ASSERT
 (
 parser
+.
+astGenerator
+(
+)
 .
 isSuperBase
 (
