@@ -1275,8 +1275,11 @@ const
 void
 FlushRendering
 (
-bool
-aIsSync
+)
+;
+void
+FlushRenderingAsync
+(
 )
 ;
 /
