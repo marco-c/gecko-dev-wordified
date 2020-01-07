@@ -375,7 +375,7 @@ Get
 {
 nsCOMPtr
 <
-nsISyncMessageSender
+nsIMessageSender
 >
 service
 =
@@ -537,7 +537,7 @@ NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsISyncMessageSender
+nsIMessageSender
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -546,10 +546,6 @@ nsIMessageListenerManager
 NS_INTERFACE_MAP_ENTRY
 (
 nsIMessageSender
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsISyncMessageSender
 )
 NS_INTERFACE_MAP_ENTRY
 (
