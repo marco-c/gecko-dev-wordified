@@ -3457,13 +3457,8 @@ these
 .
 mRegistration
 (
-ServiceWorkerRegistration
-:
-:
-CreateForWorker
+GetOrCreateServiceWorkerRegistration
 (
-aWorkerPrivate
-this
 aRegistrationDescriptor
 )
 )
