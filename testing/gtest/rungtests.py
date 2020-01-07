@@ -402,6 +402,14 @@ prog
 -
 unittest
 "
+                                         
+"
+-
+-
+gtest_death_test_style
+=
+threadsafe
+"
 ]
                                          
 cwd

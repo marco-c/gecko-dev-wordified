@@ -4801,6 +4801,13 @@ app_path
 -
 unittest
 '
+'
+-
+-
+gtest_death_test_style
+=
+threadsafe
+'
 ]
 ;
         
