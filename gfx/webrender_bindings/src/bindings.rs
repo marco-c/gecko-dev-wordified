@@ -9137,6 +9137,10 @@ transform_style
 perspective
 mix_blend_mode
 filters
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 }
