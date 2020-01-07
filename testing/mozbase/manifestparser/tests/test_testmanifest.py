@@ -264,7 +264,7 @@ False
 toolkit
 =
 '
-gtk2
+gtk3
 '
 )
 [

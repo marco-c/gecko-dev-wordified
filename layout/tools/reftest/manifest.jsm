@@ -4241,16 +4241,6 @@ widgetToolkit
 =
 =
 "
-gtk2
-"
-|
-|
-xr
-.
-widgetToolkit
-=
-=
-"
 gtk3
 "
 ;
