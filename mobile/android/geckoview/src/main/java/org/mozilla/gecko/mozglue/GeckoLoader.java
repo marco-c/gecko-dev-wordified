@@ -3458,6 +3458,16 @@ String
 map
 )
 ;
+public
+static
+native
+boolean
+verifyCRCs
+(
+String
+apkName
+)
+;
 /
 /
 These
