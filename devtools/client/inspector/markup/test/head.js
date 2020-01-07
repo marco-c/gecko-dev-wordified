@@ -4320,8 +4320,8 @@ frames
 .
 *
 /
+async
 function
-*
 waitForScrollStop
 (
 doc
@@ -4367,7 +4367,7 @@ for
 a
 frame
 .
-yield
+await
 new
 Promise
 (
