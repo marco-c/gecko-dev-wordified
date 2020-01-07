@@ -1281,7 +1281,7 @@ getCookiesFromHost
 (
 url
 .
-host
+hostname
 originAttributes
 )
 ;
@@ -1533,7 +1533,7 @@ domainMatches
 (
 url
 .
-host
+hostname
 )
 )
 {
