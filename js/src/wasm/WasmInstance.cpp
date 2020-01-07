@@ -637,7 +637,7 @@ js
 wasm
 :
 :
-InitInstanceStaticData
+InitSignatureSet
 (
 )
 {
@@ -677,7 +677,7 @@ js
 wasm
 :
 :
-ShutDownInstanceStaticData
+ReleaseSignatureSet
 (
 )
 {
