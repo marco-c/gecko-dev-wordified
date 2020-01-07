@@ -790,9 +790,6 @@ end
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -800,6 +797,8 @@ moz
 windows
 -
 classic
+:
+0
 )
 {
 #

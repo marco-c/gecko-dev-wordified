@@ -703,9 +703,6 @@ underline
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -713,6 +710,8 @@ moz
 touch
 -
 enabled
+:
+0
 )
 {
 :
