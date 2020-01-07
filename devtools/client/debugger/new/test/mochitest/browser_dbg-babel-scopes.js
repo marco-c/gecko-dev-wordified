@@ -46,7 +46,7 @@ split
 .
 requestLongerTimeout
 (
-4
+6
 )
 ;
 /
