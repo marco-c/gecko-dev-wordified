@@ -326,9 +326,6 @@ Tree
 autoExpandDepth
 :
 0
-preventNavigationOnArrowRight
-:
-false
 focused
 :
 census

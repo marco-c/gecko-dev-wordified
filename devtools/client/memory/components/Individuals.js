@@ -253,9 +253,6 @@ tree
 autoExpandDepth
 :
 0
-preventNavigationOnArrowRight
-:
-false
 focused
 :
 individuals
