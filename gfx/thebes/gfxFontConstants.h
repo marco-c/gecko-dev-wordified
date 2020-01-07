@@ -940,6 +940,14 @@ code
 for
 CJK
 set
+eFontPrefLang_Emoji
+/
+/
+special
+code
+for
+emoji
+presentation
 eFontPrefLang_First
 =
 eFontPrefLang_Western
