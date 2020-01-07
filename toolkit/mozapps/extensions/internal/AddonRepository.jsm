@@ -2258,7 +2258,7 @@ XPIProvider
 jsm
 *
 and
-XPIProviderUtils
+XPIDatabase
 .
 jsm
 that
