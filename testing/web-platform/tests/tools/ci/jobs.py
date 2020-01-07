@@ -236,11 +236,6 @@ update_built
 "
                      
 "
-assumptions
-/
-"
-                     
-"
 html
 /
 "
@@ -269,6 +264,10 @@ wptrunner_infrastructure
 "
 :
 [
+"
+infrastructure
+/
+"
 "
 tools
 /
