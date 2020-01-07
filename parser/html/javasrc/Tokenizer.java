@@ -6216,7 +6216,6 @@ Portability
 newLocalNameFromBuffer
 (
 strBuf
-0
 strBufLen
 interner
 )
