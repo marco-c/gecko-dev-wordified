@@ -2383,7 +2383,7 @@ aErrorCode
 uint32_t
 aRadix
 =
-kRadix10
+10
 )
 const
 ;
@@ -2453,7 +2453,7 @@ aErrorCode
 uint32_t
 aRadix
 =
-kRadix10
+10
 )
 const
 ;
