@@ -815,12 +815,9 @@ mir
 void
 AttachFinishedCompilations
 (
-ZoneGroup
-*
-group
 JSContext
 *
-maybecx
+cx
 )
 ;
 void
