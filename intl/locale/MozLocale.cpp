@@ -574,11 +574,15 @@ position
 6
 )
 {
+ToLowerCase
+(
+*
 mPrivateUse
 .
 AppendElement
 (
 subTag
+)
 )
 ;
 }
