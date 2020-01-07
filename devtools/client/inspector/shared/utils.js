@@ -1085,6 +1085,16 @@ attributesLength
 attributes
 .
 length
+isAfterPseudoElement
+:
+nodeFront
+.
+isAfterPseudoElement
+isBeforePseudoElement
+:
+nodeFront
+.
+isBeforePseudoElement
 /
 /
 All
