@@ -514,7 +514,7 @@ FakeDecryptor
 cdm
 :
 :
-Host_8
+Host_9
 *
 aHost
 )
@@ -607,8 +607,6 @@ aMessage
 size
 (
 )
-nullptr
-0
 )
 ;
 }

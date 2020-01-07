@@ -412,7 +412,7 @@ cdm_interface_version
 cdm
 :
 :
-ContentDecryptionModule_8
+ContentDecryptionModule_9
 :
 :
 kVersion
@@ -424,7 +424,7 @@ Only
 support
 CDM
 version
-8
+9
 currently
 .
 return
@@ -434,7 +434,7 @@ nullptr
 cdm
 :
 :
-Host_8
+Host_9
 *
 host
 =
@@ -443,7 +443,7 @@ static_cast
 cdm
 :
 :
-Host_8
+Host_9
 *
 >
 (
