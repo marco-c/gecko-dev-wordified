@@ -313,7 +313,7 @@ aTexture
 )
 ;
 void
-Update
+PipelineRendered
 (
 const
 wr
@@ -329,6 +329,18 @@ wr
 Epoch
 &
 aEpoch
+)
+;
+void
+PipelineRemoved
+(
+const
+wr
+:
+:
+PipelineId
+&
+aPipelineId
 )
 ;
 TimeStamp

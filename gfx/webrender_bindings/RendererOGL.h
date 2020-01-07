@@ -524,9 +524,9 @@ mBridge
 wr
 :
 :
-WrRenderedEpochs
+WrPipelineInfo
 *
-FlushRenderedEpochs
+FlushPipelineInfo
 (
 )
 ;
