@@ -1506,11 +1506,6 @@ Right
 )
 COMPUTED_STYLE_PROP
 (
-rotate
-Rotate
-)
-COMPUTED_STYLE_PROP
-(
 ruby_align
 RubyAlign
 )
@@ -1518,11 +1513,6 @@ COMPUTED_STYLE_PROP
 (
 ruby_position
 RubyPosition
-)
-COMPUTED_STYLE_PROP
-(
-scale
-Scale
 )
 COMPUTED_STYLE_PROP
 (
@@ -1730,11 +1720,6 @@ COMPUTED_STYLE_PROP
 (
 transition_timing_function
 TransitionTimingFunction
-)
-COMPUTED_STYLE_PROP
-(
-translate
-Translate
 )
 COMPUTED_STYLE_PROP
 (
