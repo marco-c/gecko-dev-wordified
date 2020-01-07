@@ -69187,11 +69187,15 @@ mPrefSize
 )
 )
 {
-return
+size
+=
 metrics
 -
 >
 mPrefSize
+;
+return
+size
 ;
 }
 if
