@@ -339,6 +339,16 @@ const
 ActiveScrolledRoot
 *
 aStopAtAsr
+const
+Maybe
+<
+gfx
+:
+:
+Matrix4x4
+>
+&
+aTransform
 )
 ;
 int32_t

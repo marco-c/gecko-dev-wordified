@@ -628,10 +628,15 @@ return
 mInheritedTransform
 ;
 }
+const
+Maybe
+<
 gfx
 :
 :
 Matrix4x4
+>
+&
 GetTransformForScrollData
 (
 )
