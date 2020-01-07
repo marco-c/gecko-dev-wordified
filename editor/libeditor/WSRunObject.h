@@ -1750,7 +1750,7 @@ aSelect
 *
 *
 *
-InsertTextImpl
+InsertText
 (
 )
 inserts
@@ -1791,15 +1791,15 @@ calls
 EditorBase
 :
 :
-InsertTextImpl
+InsertTextWithTransaction
 (
 )
 after
 adjusting
 white
+*
 spaces
 .
-*
 So
 please
 refer
@@ -1812,9 +1812,9 @@ to
 know
 what
 this
+*
 method
 exactly
-*
 does
 .
 *

@@ -19867,7 +19867,7 @@ nsresult
 HTMLEditor
 :
 :
-InsertTextImpl
+InsertTextWithTransaction
 (
 nsIDocument
 &
@@ -19934,7 +19934,7 @@ return
 EditorBase
 :
 :
-InsertTextImpl
+InsertTextWithTransaction
 (
 aDocument
 aStringToInsert

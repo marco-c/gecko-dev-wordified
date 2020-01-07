@@ -14670,12 +14670,12 @@ call
 this
 before
 calling
-InsertTextImpl
+InsertTextWithTransaction
 (
 )
+/
+/
 in
-/
-/
 HTMLEditRules
 .
 return
@@ -15220,7 +15220,7 @@ nsresult
 EditorBase
 :
 :
-InsertTextImpl
+InsertTextWithTransaction
 (
 nsIDocument
 &
@@ -15659,7 +15659,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 aStringToInsert
 *
@@ -15756,7 +15756,7 @@ node
 nsresult
 rv
 =
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 aStringToInsert
 *
@@ -15913,7 +15913,7 @@ nsresult
 EditorBase
 :
 :
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 const
 nsAString

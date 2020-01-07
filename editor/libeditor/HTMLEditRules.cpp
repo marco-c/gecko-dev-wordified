@@ -8502,7 +8502,7 @@ needs
 /
 /
 the
-InsertTextImpl
+InsertTextWithTransaction
 (
 )
 call
@@ -8512,6 +8512,8 @@ happen
 since
 empty
 strings
+/
+/
 are
 meaningful
 there
@@ -8588,7 +8590,7 @@ rv
 htmlEditor
 -
 >
-InsertTextImpl
+InsertTextWithTransaction
 (
 *
 doc
@@ -9198,7 +9200,7 @@ rv
 htmlEditor
 -
 >
-InsertTextImpl
+InsertTextWithTransaction
 (
 *
 doc

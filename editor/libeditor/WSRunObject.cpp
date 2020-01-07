@@ -2722,7 +2722,7 @@ rv
 mHTMLEditor
 -
 >
-InsertTextImpl
+InsertTextWithTransaction
 (
 aDocument
 theString
@@ -10413,7 +10413,7 @@ rv
 mHTMLEditor
 -
 >
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 nsDependentSubstring
 (
@@ -12941,7 +12941,7 @@ rv
 htmlEditor
 -
 >
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 spaceStr
 *
@@ -13226,7 +13226,7 @@ rv
 htmlEditor
 -
 >
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 nsDependentSubstring
 (
@@ -13612,7 +13612,7 @@ rv
 mHTMLEditor
 -
 >
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 spaceStr
 *
@@ -13938,7 +13938,7 @@ rv
 mHTMLEditor
 -
 >
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 spaceStr
 *

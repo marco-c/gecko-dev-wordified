@@ -5911,7 +5911,7 @@ pointAfterInsertedLineBreak
 ;
 rv
 =
-InsertTextImpl
+InsertTextWithTransaction
 (
 *
 doc
