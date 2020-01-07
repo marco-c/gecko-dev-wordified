@@ -3379,6 +3379,13 @@ PC32
 case
 REL
 (
+X86_64
+PLT32
+)
+:
+case
+REL
+(
 386
 PC32
 )
