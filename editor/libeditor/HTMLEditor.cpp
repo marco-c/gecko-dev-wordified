@@ -107,6 +107,15 @@ include
 "
 mozilla
 /
+ComposerCommandsUpdater
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -1050,6 +1059,10 @@ mTypeInState
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
+mComposerCommandsUpdater
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
 mStyleSheets
 )
 tmp
@@ -1072,6 +1085,10 @@ TextEditor
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mTypeInState
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mComposerCommandsUpdater
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (

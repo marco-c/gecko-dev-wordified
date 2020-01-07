@@ -617,7 +617,7 @@ mozilla
 :
 ComposerCommandsUpdater
 >
-mStateMaintainer
+mComposerCommandsUpdater
 ;
 /
 /
