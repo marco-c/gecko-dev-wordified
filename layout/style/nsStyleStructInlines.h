@@ -964,7 +964,8 @@ function
 should
 have
 the
-CSS_PROPERTY_FIXPOS_CB
+FIXPOS_CB
+flag
 set
 on
 them
@@ -1063,7 +1064,8 @@ function
 should
 have
 the
-CSS_PROPERTY_FIXPOS_CB
+FIXPOS_CB
+flag
 set
 on
 them
@@ -1112,7 +1114,8 @@ function
 should
 have
 the
-CSS_PROPERTY_FIXPOS_CB
+FIXPOS_CB
+flag
 set
 on
 them
@@ -1189,7 +1192,7 @@ function
 should
 have
 the
-CSS_PROPERTY_ABSPOS_CB
+ABSPOS_CB
 set
 on
 them
@@ -1265,7 +1268,7 @@ function
 should
 have
 the
-CSS_PROPERTY_ABSPOS_CB
+ABSPOS_CB
 set
 on
 them
@@ -1315,7 +1318,7 @@ function
 should
 have
 the
-CSS_PROPERTY_ABSPOS_CB
+ABSPOS_CB
 set
 on
 them
