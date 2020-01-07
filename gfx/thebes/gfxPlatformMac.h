@@ -179,6 +179,13 @@ GetPlatform
 )
 ;
 }
+bool
+UsesTiling
+(
+)
+const
+override
+;
 virtual
 already_AddRefed
 <
