@@ -1690,6 +1690,13 @@ return
 audio
 ;
 }
+typedef
+AudioConfig
+:
+:
+ChannelLayout
+ChannelLayout
+;
 MediaResult
 FFmpegAudioDecoder
 <
@@ -2127,6 +2134,10 @@ audio
 )
 numChannels
 samplingRate
+mCodecContext
+-
+>
+channel_layout
 )
 )
 ;
