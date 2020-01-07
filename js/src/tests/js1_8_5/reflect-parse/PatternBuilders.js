@@ -910,6 +910,7 @@ function
 catchClause
 (
 id
+guard
 body
 )
 {
@@ -925,6 +926,9 @@ CatchClause
 param
 :
 id
+guard
+:
+guard
 body
 :
 body
@@ -936,7 +940,8 @@ function
 tryStmt
 (
 body
-handler
+guarded
+unguarded
 fin
 )
 {
@@ -952,9 +957,12 @@ TryStatement
 block
 :
 body
+guardedHandlers
+:
+guarded
 handler
 :
-handler
+unguarded
 finalizer
 :
 fin
