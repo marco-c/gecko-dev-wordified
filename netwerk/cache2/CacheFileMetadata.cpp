@@ -1614,6 +1614,11 @@ p
 +
 +
 ;
+if
+(
+mElementsSize
+)
+{
 memcpy
 (
 p
@@ -1626,6 +1631,7 @@ p
 =
 mElementsSize
 ;
+}
 CacheHash
 :
 :
