@@ -251,13 +251,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

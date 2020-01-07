@@ -255,13 +255,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 Link
 .
 h
