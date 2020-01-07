@@ -398,6 +398,11 @@ BLOCK_SIZE
 <
 static_cast
 <
+std
+:
+:
+remove_const
+<
 decltype
 (
 MediaCacheStream
@@ -405,6 +410,10 @@ MediaCacheStream
 :
 BLOCK_SIZE
 )
+>
+:
+:
+type
 >
 (
 INT32_MAX
