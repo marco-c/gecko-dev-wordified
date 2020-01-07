@@ -346,6 +346,17 @@ mozilla
 /
 layers
 /
+MultiTiledContentClient
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 SingleTiledContentClient
 .
 h
