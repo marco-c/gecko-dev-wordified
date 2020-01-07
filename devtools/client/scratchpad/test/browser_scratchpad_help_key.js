@@ -201,6 +201,7 @@ keycode
 "
 )
 )
+{
 key
 =
 keyid
@@ -212,6 +213,7 @@ keycode
 "
 )
 ;
+}
 else
 if
 (
@@ -224,6 +226,7 @@ key
 "
 )
 )
+{
 key
 =
 keyid
@@ -235,6 +238,7 @@ key
 "
 )
 ;
+}
 isnot
 (
 key

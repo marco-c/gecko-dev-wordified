@@ -2438,6 +2438,7 @@ this
 .
 editor
 )
+{
 this
 .
 editor
@@ -2446,6 +2447,7 @@ setClean
 (
 )
 ;
+}
 this
 .
 _updateTitle
@@ -2798,6 +2800,7 @@ this
 .
 dirty
 )
+{
 title
 =
 "
@@ -2806,6 +2809,7 @@ title
 +
 title
 ;
+}
 document
 .
 title
@@ -2946,6 +2950,7 @@ aState
 .
 filename
 )
+{
 this
 .
 setFilename
@@ -2955,6 +2960,7 @@ aState
 filename
 )
 ;
+}
 this
 .
 dirty
@@ -2973,19 +2979,23 @@ executionContext
 =
 SCRATCHPAD_CONTEXT_BROWSER
 )
+{
 this
 .
 setBrowserContext
 (
 )
 ;
+}
 else
+{
 this
 .
 setContentContext
 (
 )
 ;
+}
 }
 /
 *
@@ -11039,6 +11049,7 @@ if
 (
 state
 )
+{
 this
 .
 dirty
@@ -11048,6 +11059,7 @@ state
 .
 saved
 ;
+}
 this
 .
 initialized
@@ -11266,6 +11278,7 @@ Scratchpad
 .
 dirty
 )
+{
 document
 .
 getElementById
@@ -11286,7 +11299,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 document
 .
 getElementById
@@ -11308,6 +11323,7 @@ disabled
 true
 )
 ;
+}
 }
 }
 /
