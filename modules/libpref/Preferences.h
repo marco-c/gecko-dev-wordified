@@ -2471,6 +2471,10 @@ void
 aClosure
 MatchKind
 aMatchKind
+bool
+aIsPriority
+=
+false
 )
 ;
 static
