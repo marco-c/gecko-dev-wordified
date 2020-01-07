@@ -19345,9 +19345,11 @@ HandlePropertyName
 MutableHandleValue
 )
 ;
-static
 const
 VMFunction
+jit
+:
+:
 ImplicitThisInfo
 =
 FunctionInfo

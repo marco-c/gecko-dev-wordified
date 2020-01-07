@@ -608,6 +608,11 @@ ComputeThis
 \
 _
 (
+ImplicitThis
+)
+\
+_
+(
 BitNotI
 )
 \
