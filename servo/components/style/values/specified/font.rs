@@ -224,6 +224,7 @@ font
 {
 FamilyName
 FontFamilyList
+FontStyleAngle
 SingleFontFamily
 }
 ;
@@ -1800,12 +1801,15 @@ FontStyle
 :
 Oblique
 (
+FontStyleAngle
+(
 Self
 :
 :
 compute_angle
 (
 angle
+)
 )
 )
 }
@@ -1889,7 +1893,10 @@ Angle
 :
 from_computed_value
 (
+&
 angle
+.
+0
 )
 )
 }
