@@ -5909,6 +5909,7 @@ this
 )
 ;
 }
+return
 mFirstSource
 -
 >
@@ -5917,9 +5918,6 @@ Update
 surf
 aRegion
 )
-;
-return
-true
 ;
 }
 RefPtr
