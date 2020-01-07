@@ -381,6 +381,12 @@ sandboxFlags
 =
 SANDBOXED_AUXILIARY_NAVIGATION
 ;
+docShell
+.
+useTrackingProtection
+=
+true
+;
 addMessageListener
 (
 "
