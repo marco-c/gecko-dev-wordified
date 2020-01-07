@@ -95,7 +95,7 @@ euclid
 :
 :
 {
-ScaleFactor
+TypedScale
 TypedPoint2D
 TypedSize2D
 }
@@ -1654,7 +1654,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel

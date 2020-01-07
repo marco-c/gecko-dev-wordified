@@ -66,7 +66,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 use
 euclid
@@ -1646,7 +1646,7 @@ new
 0f32
 0f32
 )
-ScaleFactor
+TypedScale
 :
 :
 new

@@ -111,7 +111,7 @@ Point2D
 Size2D
 TypedPoint2D
 TypedVector2D
-ScaleFactor
+TypedScale
 TypedSize2D
 }
 ;
@@ -1583,14 +1583,14 @@ window_creation_scale_factor
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
 DevicePixel
 >
 {
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -1617,7 +1617,7 @@ window_creation_scale_factor
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -1669,7 +1669,7 @@ LOGPIXELSY
 )
 }
 ;
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -9295,7 +9295,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -9318,7 +9318,7 @@ window
 =
 >
 {
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -9341,7 +9341,7 @@ Headless
 =
 >
 {
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -9372,7 +9372,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -9424,7 +9424,7 @@ LOGPIXELSY
 )
 }
 ;
-ScaleFactor
+TypedScale
 :
 :
 new

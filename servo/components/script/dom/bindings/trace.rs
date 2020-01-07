@@ -627,7 +627,7 @@ Point2D
 Vector2D
 Rect
 TypedSize2D
-ScaleFactor
+TypedScale
 }
 ;
 use
@@ -3893,7 +3893,7 @@ U
 >
 JSTraceable
 for
-ScaleFactor
+TypedScale
 <
 f32
 T

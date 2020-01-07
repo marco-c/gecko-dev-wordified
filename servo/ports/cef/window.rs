@@ -203,7 +203,7 @@ Point2D
 TypedPoint2D
 Size2D
 TypedSize2D
-ScaleFactor
+TypedScale
 }
 ;
 use
@@ -2227,7 +2227,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -2263,7 +2263,7 @@ browser
 None
 =
 >
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -2434,7 +2434,7 @@ backing_rect
 )
 ;
 }
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -2480,7 +2480,7 @@ instead
 of
 this
 nonsense
-ScaleFactor
+TypedScale
 :
 :
 new

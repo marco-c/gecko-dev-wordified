@@ -264,7 +264,7 @@ Length
 Point2D
 Vector2D
 Rect
-ScaleFactor
+TypedScale
 TypedSize2D
 }
 ;
@@ -5914,7 +5914,7 @@ factor
 pub
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -6916,7 +6916,7 @@ CSSPixel
 >
 zoom
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
