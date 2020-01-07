@@ -133,11 +133,19 @@ https
 :
 /
 /
-mixed
-.
-badssl
+mozqa
 .
 com
+/
+data
+/
+firefox
+/
+security
+/
+mixedcontent
+.
+html
 '
     
 def
@@ -149,21 +157,6 @@ self
         
 try
 :
-            
-self
-.
-marionette
-.
-clear_pref
-(
-'
-security
-.
-mixed_content
-.
-upgrade_display_content
-'
-)
             
 self
 .

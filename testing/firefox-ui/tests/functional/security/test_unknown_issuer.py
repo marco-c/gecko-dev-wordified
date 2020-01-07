@@ -102,14 +102,13 @@ https
 :
 /
 /
-untrusted
+ssl
 -
-root
+unknownissuer
 .
-badssl
+mozqa
 .
 com
-/
 '
     
 def

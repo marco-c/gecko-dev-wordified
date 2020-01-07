@@ -108,11 +108,11 @@ https
 :
 /
 /
-self
+ssl
 -
-signed
+selfsigned
 .
-badssl
+mozqa
 .
 com
 '
