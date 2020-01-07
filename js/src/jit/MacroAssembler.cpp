@@ -3877,6 +3877,7 @@ width
 *
 /
 1
+type
 )
 ;
 }
@@ -4034,6 +4035,7 @@ width
 *
 /
 4
+type
 )
 ;
 }
@@ -4491,6 +4493,7 @@ sizeof
 (
 uintptr_t
 )
+type
 )
 ;
 }
@@ -4651,6 +4654,7 @@ sizeof
 (
 uintptr_t
 )
+type
 )
 ;
 }
@@ -20755,7 +20759,7 @@ MIRType
 Value
 )
 {
-unboxNonDouble
+unboxGCThingForPreBarrierTrampoline
 (
 Address
 (

@@ -5200,6 +5200,8 @@ ValueOperand
 src
 AnyRegister
 dest
+JSValueType
+type
 )
 {
 if
@@ -5283,6 +5285,7 @@ dest
 gpr
 (
 )
+type
 )
 ;
 }
