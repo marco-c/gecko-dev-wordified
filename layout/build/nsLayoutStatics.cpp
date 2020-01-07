@@ -1091,13 +1091,6 @@ AddRefAtoms
 (
 )
 ;
-nsHTMLTags
-:
-:
-RegisterAtoms
-(
-)
-;
 nsRDFAtoms
 :
 :
