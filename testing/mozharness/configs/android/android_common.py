@@ -2460,11 +2460,7 @@ gecko
 -
 log
 =
-%
-(
-gecko_log
-)
-s
+-
 "
                 
 "
