@@ -990,7 +990,7 @@ creator
 *
 param
 {
-string
+number
 }
 portId
 A
