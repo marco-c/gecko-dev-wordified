@@ -5444,9 +5444,16 @@ maxSize
 value
 (
 )
+>
 =
-=
+(
 UINT32_MAX
+-
+wasm
+:
+:
+PageSize
+)
 )
 {
 /
