@@ -7565,6 +7565,7 @@ ExtensionAPI
 ExtensionCommon
 MatchPattern
 MatchPatternSet
+MatchGlob
 StructuredCloneHolder
 extensions
 :
