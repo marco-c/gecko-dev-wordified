@@ -2277,6 +2277,19 @@ defined
 (
 JS_CODEGEN_ARM
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_MIPS32
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS64
+)
 masm
 .
 pushReturnAddress
@@ -2322,7 +2335,6 @@ lr
 ;
 #
 else
-#
 MOZ_CRASH
 (
 "
