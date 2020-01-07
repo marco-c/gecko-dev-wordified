@@ -330,7 +330,7 @@ key
 ;
 Assert
 .
-ok
+equal
 (
 scalars
 [

@@ -1379,7 +1379,6 @@ Assert
 ok
 (
 wasCalled
-true
 )
 ;
 }

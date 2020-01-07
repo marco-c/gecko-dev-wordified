@@ -227,7 +227,7 @@ wrappedJSObject
 ;
 Assert
 .
-ok
+equal
 (
 friend
 .
