@@ -6169,6 +6169,10 @@ TYPE_BEACON
 nullptr
 /
 /
+aPerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /

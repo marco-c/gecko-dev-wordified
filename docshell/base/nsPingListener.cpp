@@ -808,6 +808,10 @@ TYPE_PING
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /

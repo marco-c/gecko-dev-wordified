@@ -1781,6 +1781,10 @@ TYPE_OTHER
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 loadGroup
 nullptr
 /

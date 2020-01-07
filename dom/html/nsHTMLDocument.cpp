@@ -9783,6 +9783,10 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
+/
+/
+PerformanceStorage
 group
 )
 ;

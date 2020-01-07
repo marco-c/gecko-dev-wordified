@@ -3792,6 +3792,12 @@ mWorkerPrivate
 GetLoadGroup
 (
 )
+mWorkerPrivate
+-
+>
+GetPerformanceStorage
+(
+)
 )
 ;
 mXHR

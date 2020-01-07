@@ -1157,6 +1157,10 @@ redirectLoadInfo
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /
@@ -3463,6 +3467,10 @@ newChannel
 )
 mURI
 redirectLoadInfo
+nullptr
+/
+/
+PerformanceStorage
 nullptr
 /
 /

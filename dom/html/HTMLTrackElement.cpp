@@ -1922,6 +1922,10 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_TRACK
+nullptr
+/
+/
+PerformanceStorage
 loadGroup
 nullptr
 /

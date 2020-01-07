@@ -2935,6 +2935,10 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
+nullptr
+/
+/
+aPerformanceStorage
 loadGroup
 req
 nsIRequest

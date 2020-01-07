@@ -1479,6 +1479,10 @@ aURI
 aLoaderPrincipal
 aSecurityFlags
 aContentPolicyType
+nullptr
+/
+/
+PerformanceStorage
 aLoadGroup
 )
 ;

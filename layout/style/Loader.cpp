@@ -9601,6 +9601,10 @@ aLoadData
 mLoaderPrincipal
 securityFlags
 contentPolicyType
+nullptr
+/
+/
+Performancestorage
 loadGroup
 nullptr
 /
@@ -9687,6 +9691,10 @@ GetSystemPrincipal
 )
 securityFlags
 contentPolicyType
+nullptr
+/
+/
+aPerformanceStorage
 loadGroup
 nullptr
 /
