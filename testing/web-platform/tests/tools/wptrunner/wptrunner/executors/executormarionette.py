@@ -4476,14 +4476,12 @@ def
 _screenshot
 (
 self
-protocol
+marionette
 url
 timeout
 )
 :
         
-protocol
-.
 marionette
 .
 navigate
@@ -4491,24 +4489,17 @@ navigate
 url
 )
         
-protocol
+marionette
 .
-base
-.
-execute_script
+execute_async_script
 (
 self
 .
 wait_script
-async
-=
-True
 )
         
 screenshot
 =
-protocol
-.
 marionette
 .
 screenshot
