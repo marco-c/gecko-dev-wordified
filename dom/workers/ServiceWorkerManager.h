@@ -1665,9 +1665,10 @@ aListener
 void
 MaybeCheckNavigationUpdate
 (
-nsIDocument
-*
-aDoc
+const
+ClientInfo
+&
+aClientInfo
 )
 ;
 nsresult
