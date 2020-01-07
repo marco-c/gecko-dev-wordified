@@ -2289,6 +2289,13 @@ innerHTML
 ;
 event
 .
+change
+(
+el
+)
+;
+event
+.
 blur
 (
 el
@@ -2401,6 +2408,13 @@ value
 =
 "
 "
+;
+event
+.
+change
+(
+el
+)
 ;
 event
 .
