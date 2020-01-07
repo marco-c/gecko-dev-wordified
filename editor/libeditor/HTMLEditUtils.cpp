@@ -2288,6 +2288,10 @@ output
 nsGkAtoms
 :
 :
+keygen
+nsGkAtoms
+:
+:
 progress
 nsGkAtoms
 :
@@ -3645,6 +3649,14 @@ true
 true
 GROUP_PHRASE
 GROUP_INLINE_ELEMENT
+)
+ELEM
+(
+keygen
+false
+false
+GROUP_FORMCONTROL
+GROUP_NONE
 )
 ELEM
 (
