@@ -10047,35 +10047,6 @@ frontend
 '
 )
         
-here
-=
-os
-.
-path
-.
-abspath
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-)
-        
-build_obj
-=
-MozbuildObject
-.
-from_environment
-(
-cwd
-=
-here
-)
-        
 hg
 =
 None
@@ -10085,13 +10056,13 @@ conditions
 .
 is_hg
 (
-build_obj
+self
 )
 :
             
 hg
 =
-build_obj
+self
 .
 substs
 [
@@ -10109,13 +10080,13 @@ conditions
 .
 is_git
 (
-build_obj
+self
 )
 :
             
 git
 =
-build_obj
+self
 .
 substs
 [
