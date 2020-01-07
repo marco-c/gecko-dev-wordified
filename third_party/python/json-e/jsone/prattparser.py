@@ -67,6 +67,8 @@ expected
 format
 (
 got
+.
+value
 exp
 )
 )
@@ -634,8 +636,6 @@ SyntaxError
 unexpected
 (
 token
-.
-kind
 self
 .
 infix_rules
@@ -698,8 +698,6 @@ SyntaxError
 unexpected
 (
 token
-.
-kind
 [
 terminator
 ]
@@ -1171,8 +1169,6 @@ SyntaxError
 unexpected
 (
 token
-.
-kind
 kinds
 )
         
@@ -1240,8 +1236,6 @@ SyntaxError
 unexpected
 (
 token
-.
-kind
 parser
 .
 prefix_rules
