@@ -39296,12 +39296,6 @@ operation
 isSetter
 (
 )
-or
-operation
-.
-isCreator
-(
-)
 :
             
 #
