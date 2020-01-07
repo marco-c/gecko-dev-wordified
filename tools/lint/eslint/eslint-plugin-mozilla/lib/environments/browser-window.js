@@ -377,6 +377,15 @@ contentAreaUtils
 js
 "
 "
+toolkit
+/
+content
+/
+customElements
+.
+js
+"
+"
 browser
 /
 components

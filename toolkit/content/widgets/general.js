@@ -65,7 +65,7 @@ strict
 class
 MozDeck
 extends
-XULElement
+MozXULElement
 {
 set
 selectedIndex
@@ -224,7 +224,7 @@ MozDeck
 class
 MozDropmarker
 extends
-XULElement
+MozXULElement
 {
 connectedCallback
 (

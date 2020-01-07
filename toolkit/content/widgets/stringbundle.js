@@ -107,7 +107,7 @@ jsm
 class
 MozStringbundle
 extends
-XULElement
+MozXULElement
 {
 get
 stringBundle
