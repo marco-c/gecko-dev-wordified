@@ -1560,11 +1560,10 @@ mIconView
 .
 setImageLevel
 (
-SecurityModeUtil
+icon
 .
 getImageLevel
 (
-icon
 )
 )
 ;
