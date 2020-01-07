@@ -103,15 +103,6 @@ h
 #
 include
 "
-angle
-/
-ShaderLang
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h
@@ -2602,7 +2593,9 @@ accum
 itr
 -
 >
-arraySize
+getArraySizeProduct
+(
+)
 ;
 }
 }

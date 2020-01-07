@@ -189,7 +189,7 @@ LOCAL_EGL_DXGI_KEYED_MUTEX_ANGLE
 0x33A2
 /
 /
-EGL_ANGLE_stream_producer_d3d_texture_nv12
+EGL_ANGLE_stream_producer_d3d_texture
 #
 define
 LOCAL_EGL_D3D_TEXTURE_SUBRESOURCE_ID_ANGLE
