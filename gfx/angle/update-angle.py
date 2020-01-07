@@ -1,8 +1,11 @@
 #
 !
 /
+usr
+/
 bin
 /
+env
 python3
 assert
 __name__
