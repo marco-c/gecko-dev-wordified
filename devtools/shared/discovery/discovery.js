@@ -315,8 +315,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -2227,7 +2225,6 @@ _onRemoteUpdate
 :
 function
 (
-e
 update
 )
 {
