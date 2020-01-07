@@ -183,8 +183,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 public
 :
@@ -224,7 +224,7 @@ nsDisplayList
 aForeground
 )
 ;
-ImgDrawResult
+DrawResult
 PaintInnerFocusBorder
 (
 nsDisplayListBuilder
@@ -277,7 +277,7 @@ bool
 aBorderIsEmpty
 )
 ;
-ImgDrawResult
+DrawResult
 PaintBorder
 (
 nsDisplayListBuilder

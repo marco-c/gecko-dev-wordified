@@ -5060,7 +5060,7 @@ forget
 }
 Tuple
 <
-ImgDrawResult
+DrawResult
 IntSize
 RefPtr
 <
@@ -5114,7 +5114,7 @@ FRAME_MAX_VALUE
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -5136,7 +5136,7 @@ mError
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -5159,7 +5159,7 @@ mIsFullyLoaded
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -5194,7 +5194,7 @@ sourceSurface
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -5232,7 +5232,7 @@ Draw
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -5422,7 +5422,7 @@ didCache
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -5447,7 +5447,7 @@ flags
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6398,7 +6398,7 @@ blockContextPaint
 *
 NS_IMETHODIMP_
 (
-ImgDrawResult
+DrawResult
 )
 VectorImage
 :
@@ -6441,7 +6441,7 @@ FRAME_MAX_VALUE
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -6454,7 +6454,7 @@ aContext
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -6466,7 +6466,7 @@ mError
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -6479,7 +6479,7 @@ mIsFullyLoaded
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -6719,7 +6719,7 @@ params
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6759,7 +6759,7 @@ Draw
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -6826,7 +6826,7 @@ params
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6887,7 +6887,7 @@ sourceSurface
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

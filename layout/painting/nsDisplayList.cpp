@@ -25833,7 +25833,7 @@ bgClipRect
 &
 mBounds
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsCSSRendering
@@ -26734,7 +26734,7 @@ bgClipRect
 =
 aClipRect
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsCSSRendering
@@ -28411,7 +28411,7 @@ nsDisplayBackgroundGeometry
 UpdateDrawResult
 (
 this
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -35600,7 +35600,7 @@ PaintBorderFlags
 (
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsCSSRendering
@@ -59757,7 +59757,7 @@ mozilla
 image
 :
 :
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

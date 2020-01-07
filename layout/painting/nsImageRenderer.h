@@ -613,8 +613,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 typedef
 mozilla
@@ -1289,7 +1289,7 @@ parameters
 .
 *
 /
-ImgDrawResult
+DrawResult
 DrawLayer
 (
 nsPresContext
@@ -1356,7 +1356,7 @@ parameters
 .
 *
 /
-ImgDrawResult
+DrawResult
 BuildWebRenderDisplayItemsForLayer
 (
 nsPresContext
@@ -1611,7 +1611,7 @@ ratio
 .
 *
 /
-ImgDrawResult
+DrawResult
 DrawBorderImageComponent
 (
 nsPresContext
@@ -1716,13 +1716,13 @@ return
 mPrepareResult
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
 ;
 }
-ImgDrawResult
+DrawResult
 PrepareResult
 (
 )
@@ -1854,7 +1854,7 @@ parameters
 .
 *
 /
-ImgDrawResult
+DrawResult
 Draw
 (
 nsPresContext
@@ -1950,7 +1950,7 @@ parameters
 .
 *
 /
-ImgDrawResult
+DrawResult
 BuildWebRenderDisplayItems
 (
 nsPresContext
@@ -2114,7 +2114,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 mImageElementSurface
 ;
-ImgDrawResult
+DrawResult
 mPrepareResult
 ;
 nsSize

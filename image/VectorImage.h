@@ -430,7 +430,7 @@ private
 :
 Tuple
 <
-ImgDrawResult
+DrawResult
 IntSize
 RefPtr
 <

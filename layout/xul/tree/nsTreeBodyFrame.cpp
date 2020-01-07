@@ -16900,7 +16900,7 @@ GetDrawTarget
 mDisableSubpixelAA
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 static_cast
@@ -17514,7 +17514,7 @@ AppUnitsPerDevPixel
 #
 endif
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -17685,10 +17685,10 @@ unexpectedly
 ;
 #
 endif
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -18098,7 +18098,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -18287,7 +18287,7 @@ aDirtyRect
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -18375,7 +18375,7 @@ mView
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -18534,10 +18534,10 @@ Deflate
 rowMargin
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -19277,7 +19277,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -19384,10 +19384,10 @@ useTheme
 true
 ;
 }
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -19618,7 +19618,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -19852,7 +19852,7 @@ our
 row
 rect
 .
-ImgDrawResult
+DrawResult
 result
 =
 PaintBackgroundLayer
@@ -20967,7 +20967,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -21269,10 +21269,10 @@ copyRect
 .
 width
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -21601,7 +21601,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -21840,7 +21840,7 @@ height
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -22147,10 +22147,10 @@ width
 ;
 }
 }
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -23073,7 +23073,7 @@ off
 )
 #
 endif
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -23215,10 +23215,10 @@ CheckTextForBidi
 text
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -23933,7 +23933,7 @@ on
 )
 #
 endif
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -24148,7 +24148,7 @@ our
 image
 rect
 .
-ImgDrawResult
+DrawResult
 result
 =
 PaintBackgroundLayer
@@ -24342,7 +24342,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -24505,7 +24505,7 @@ progress
 meter
 rect
 .
-ImgDrawResult
+DrawResult
 result
 =
 PaintBackgroundLayer
@@ -25040,7 +25040,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -25186,10 +25186,10 @@ nsCSSAnonBoxes
 mozTreeDropFeedback
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -25656,7 +25656,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -25718,7 +25718,7 @@ nsCSSRendering
 PAINTBG_SYNC_DECODE_IMAGES
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsCSSRendering

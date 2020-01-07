@@ -873,8 +873,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 public
 :
@@ -12381,7 +12381,7 @@ rect
 *
 /
 static
-ImgDrawResult
+DrawResult
 DrawBackgroundImage
 (
 gfxContext
@@ -12583,7 +12583,7 @@ variety
 *
 /
 static
-ImgDrawResult
+DrawResult
 DrawImage
 (
 gfxContext
@@ -12757,7 +12757,7 @@ pixels
 *
 /
 static
-ImgDrawResult
+DrawResult
 DrawSingleUnscaledImage
 (
 gfxContext
@@ -13002,7 +13002,7 @@ pixels
 *
 /
 static
-ImgDrawResult
+DrawResult
 DrawSingleImage
 (
 gfxContext

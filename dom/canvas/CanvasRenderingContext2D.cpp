@@ -31213,7 +31213,7 @@ if
 result
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

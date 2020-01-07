@@ -298,8 +298,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 friend
 nsTableCellFrame
@@ -1487,7 +1487,7 @@ aWM
 const
 ;
 virtual
-ImgDrawResult
+DrawResult
 PaintBackground
 (
 gfxContext
@@ -1954,8 +1954,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 public
 :
@@ -2080,7 +2080,7 @@ override
 #
 endif
 virtual
-ImgDrawResult
+DrawResult
 PaintBackground
 (
 gfxContext

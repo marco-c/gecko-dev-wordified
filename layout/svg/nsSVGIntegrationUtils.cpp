@@ -3695,7 +3695,7 @@ imgParams
 result
 &
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -4133,7 +4133,7 @@ imgParams
 result
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

@@ -1884,7 +1884,7 @@ focus
 and
 outline
 borders
-ImgDrawResult
+DrawResult
 result
 =
 mBFR
@@ -2330,7 +2330,7 @@ focus
 -
 inner
 border
-ImgDrawResult
+DrawResult
 result
 =
 mBFR
@@ -2804,7 +2804,7 @@ innerFocusPadding
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsButtonFrameRenderer
 :
 :
@@ -2880,10 +2880,10 @@ PaintBorderFlags
 (
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -3006,7 +3006,7 @@ Nothing
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsButtonFrameRenderer
 :
 :
@@ -3091,7 +3091,7 @@ mFrame
 buttonRect
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsCSSRendering

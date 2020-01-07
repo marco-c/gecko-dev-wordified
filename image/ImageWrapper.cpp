@@ -941,7 +941,7 @@ aFlags
 }
 NS_IMETHODIMP_
 (
-ImgDrawResult
+DrawResult
 )
 ImageWrapper
 :

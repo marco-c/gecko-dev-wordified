@@ -403,7 +403,7 @@ override
 ;
 NS_IMETHOD_
 (
-ImgDrawResult
+DrawResult
 )
 Draw
 (

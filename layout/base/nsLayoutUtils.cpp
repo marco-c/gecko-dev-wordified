@@ -45401,7 +45401,7 @@ height
 ;
 }
 static
-ImgDrawResult
+DrawResult
 DrawImageInternal
 (
 gfxContext
@@ -45456,10 +45456,10 @@ aOpacity
 0
 )
 {
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -45664,7 +45664,7 @@ result
 static
 *
 /
-ImgDrawResult
+DrawResult
 nsLayoutUtils
 :
 :
@@ -45754,7 +45754,7 @@ positive
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -45908,7 +45908,7 @@ aImageFlags
 static
 *
 /
-ImgDrawResult
+DrawResult
 nsLayoutUtils
 :
 :
@@ -46020,7 +46020,7 @@ negative
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -47374,7 +47374,7 @@ aDest
 static
 *
 /
-ImgDrawResult
+DrawResult
 nsLayoutUtils
 :
 :
@@ -47600,7 +47600,7 @@ aDest
 height
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 DrawImageInternal
@@ -47627,7 +47627,7 @@ if
 result
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -47640,7 +47640,7 @@ result
 }
 }
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -47651,7 +47651,7 @@ SUCCESS
 static
 *
 /
-ImgDrawResult
+DrawResult
 nsLayoutUtils
 :
 :
