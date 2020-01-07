@@ -424,6 +424,10 @@ warnedAboutExprClosure
 (
 false
 )
+warnedAboutForEach
+(
+false
+)
 warnedAboutStringGenericsMethods
 (
 0
