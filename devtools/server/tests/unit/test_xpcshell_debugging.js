@@ -109,6 +109,12 @@ s
 head
 .
 js
+/
+*
+global
+_setupDebuggerServer
+*
+/
 let
 testResumed
 =

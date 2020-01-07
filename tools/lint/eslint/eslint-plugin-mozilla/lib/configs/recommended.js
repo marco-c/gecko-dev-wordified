@@ -111,7 +111,17 @@ DOMRequest
 :
 false
 "
+Debugger
+"
+:
+false
+"
 DedicatedWorkerGlobalScope
+"
+:
+false
+"
+HeapSnapshot
 "
 :
 false

@@ -123,6 +123,7 @@ debugger
 "
 )
 ;
+let
 g2
 =
 testGlobal

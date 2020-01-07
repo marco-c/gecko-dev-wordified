@@ -239,6 +239,9 @@ no
 multi
 -
 spaces
+no
+-
+undef
 *
 /
 let
@@ -397,6 +400,9 @@ no
 multi
 -
 spaces
+no
+-
+undef
 *
 /
 code
