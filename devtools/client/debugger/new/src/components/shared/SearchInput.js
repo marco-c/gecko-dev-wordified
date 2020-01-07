@@ -718,6 +718,7 @@ selectedItemId
 showErrorEmoji
 size
 summaryMsg
+showClose
 }
 =
 this
@@ -963,6 +964,9 @@ this
 renderNav
 (
 )
+showClose
+&
+&
 _react2
 .
 default
@@ -1005,6 +1009,9 @@ size
 :
 "
 "
+showClose
+:
+true
 }
 ;
 exports

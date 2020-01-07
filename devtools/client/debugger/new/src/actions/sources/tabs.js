@@ -175,7 +175,7 @@ sources
 function
 addTab
 (
-source
+url
 tabIndex
 )
 {
@@ -186,7 +186,7 @@ type
 "
 ADD_TAB
 "
-source
+url
 tabIndex
 }
 ;
