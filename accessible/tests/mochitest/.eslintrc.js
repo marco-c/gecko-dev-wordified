@@ -108,17 +108,6 @@ off
 "
 no
 -
-new
--
-object
-"
-:
-"
-off
-"
-"
-no
--
 redeclare
 "
 :
