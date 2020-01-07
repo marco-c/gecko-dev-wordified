@@ -196,7 +196,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectReadOnly
+KeyframeEffect
 .
 h
 "
@@ -4861,7 +4861,7 @@ continue
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =

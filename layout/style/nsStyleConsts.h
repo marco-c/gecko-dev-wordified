@@ -1099,7 +1099,7 @@ NS_STYLE_WILL_CHANGE_ABSPOS_CB
 /
 /
 See
-AnimationEffectReadOnly
+AnimationEffect
 .
 webidl
 /
@@ -1109,7 +1109,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnlyBinding
+AnimationEffectBinding
 .
 h
 namespace
