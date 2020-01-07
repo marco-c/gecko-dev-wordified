@@ -8090,7 +8090,7 @@ creationOptions
 (
 )
 .
-setNewZoneInSystemZoneGroup
+setNewZone
 (
 )
 ;

@@ -30494,14 +30494,8 @@ creationOptions
 (
 )
 .
-setNewZoneInExistingZoneGroup
+setNewZone
 (
-cx
--
->
-global
-(
-)
 )
 ;
 CallArgs
