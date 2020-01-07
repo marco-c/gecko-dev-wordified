@@ -138,6 +138,11 @@ highlights
 "
 :
 true
+"
+enableWideLayout
+"
+:
+true
 }
 }
 "

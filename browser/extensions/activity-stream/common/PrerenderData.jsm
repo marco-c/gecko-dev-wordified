@@ -278,7 +278,8 @@ true
 ;
 }
 }
-var
+this
+.
 PrerenderData
 =
 new
@@ -346,6 +347,11 @@ feeds
 section
 .
 highlights
+"
+:
+true
+"
+enableWideLayout
 "
 :
 true
@@ -461,6 +467,9 @@ section
 topstories
 .
 collapsed
+"
+"
+enableWideLayout
 "
 /
 /
@@ -580,7 +589,8 @@ _PrerenderData
 =
 _PrerenderData
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
