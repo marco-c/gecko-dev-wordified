@@ -172,6 +172,15 @@ include
 "
 frontend
 /
+ParseNode
+.
+h
+"
+#
+include
+"
+frontend
+/
 TokenStream
 .
 h
@@ -191,6 +200,9 @@ js
 namespace
 frontend
 {
+class
+ParseContext
+;
 class
 ParseNode
 ;
