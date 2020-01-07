@@ -417,14 +417,6 @@ patchAtOffset
 uint32_t
 targetOffset
 ;
-#
-ifdef
-JS_CODELABEL_LINKMODE
-uint32_t
-mode
-;
-#
-endif
 }
 ;
 typedef
