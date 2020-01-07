@@ -381,6 +381,16 @@ return
 false
 ;
 }
+void
+ChannelIsBroken
+(
+)
+{
+mChannelBroken
+=
+true
+;
+}
 private
 :
 PrintTargetEMF
@@ -429,6 +439,9 @@ mPrinterDC
 ;
 bool
 mWaitingForEMFConversion
+;
+bool
+mChannelBroken
 ;
 }
 ;
