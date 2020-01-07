@@ -7842,9 +7842,16 @@ a
 DOM
 peer
 !
+{
+name
+:
 "
 SecurityPolicyViolationEvent
 "
+release
+:
+false
+}
 /
 /
 IMPORTANT
