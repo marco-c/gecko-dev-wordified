@@ -181,11 +181,11 @@ resource
 :
 /
 /
-gre
+devtools
 /
-modules
+shared
 /
-Services
+Loader
 .
 jsm
 "
@@ -218,6 +218,7 @@ const
 {
 console
 HeapSnapshot
+StructuredCloneHolder
 }
 =
 Cu
@@ -1766,6 +1767,7 @@ reportError
 Cu
 .
 reportError
+StructuredCloneHolder
 TextDecoder
 TextEncoder
 URL
