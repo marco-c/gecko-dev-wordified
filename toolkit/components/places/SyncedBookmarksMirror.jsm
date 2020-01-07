@@ -3812,11 +3812,6 @@ return
 changeRecords
 ;
 }
-this
-.
-db
-.
-TRANSACTION_IMMEDIATE
 )
 ;
 MirrorLog
