@@ -899,7 +899,7 @@ currentValue
 "
 )
 ;
-do_print
+info
 (
 "
 Create

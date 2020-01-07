@@ -1667,7 +1667,7 @@ addon
 a2
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_3
 )
@@ -2189,7 +2189,7 @@ this
 sawUpdate
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_5
 )
@@ -3821,7 +3821,7 @@ count
 =
 0
 )
-do_execute_soon
+executeSoon
 (
 next_test
 )
@@ -3868,7 +3868,7 @@ count
 =
 0
 )
-do_execute_soon
+executeSoon
 (
 next_test
 )
@@ -4656,7 +4656,7 @@ addon
 isCompatible
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_13
 )
@@ -5225,7 +5225,7 @@ install
 aInstall
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_14
 )
@@ -5847,7 +5847,7 @@ org
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_15
 )

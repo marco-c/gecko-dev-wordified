@@ -700,7 +700,7 @@ getChild
 i
 )
 ;
-do_print
+info
 (
 "
 validating

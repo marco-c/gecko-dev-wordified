@@ -824,7 +824,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -1188,7 +1188,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

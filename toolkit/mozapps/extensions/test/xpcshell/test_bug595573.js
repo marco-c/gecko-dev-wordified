@@ -171,7 +171,7 @@ id
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -235,7 +235,7 @@ id
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

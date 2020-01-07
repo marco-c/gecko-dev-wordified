@@ -330,7 +330,7 @@ do_finish_generator_test
 generator
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

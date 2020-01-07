@@ -3548,7 +3548,7 @@ histograms
 )
 )
 {
-do_print
+info
 (
 "
 Nothing

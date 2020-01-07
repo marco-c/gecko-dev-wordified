@@ -2831,7 +2831,7 @@ global
 TelemetrySend
 *
 /
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

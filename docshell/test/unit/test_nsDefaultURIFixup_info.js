@@ -194,7 +194,7 @@ fixup
 dns_first_for_single_words
 "
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -3752,7 +3752,7 @@ single
 word
 hosts
 :
-do_print
+info
 (
 "
 Check
@@ -3808,7 +3808,7 @@ of
 affectedTests
 )
 {
-do_print
+info
 (
 "
 Affected
@@ -3989,7 +3989,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Caught
@@ -4040,7 +4040,7 @@ the
 same
 cases
 .
-do_print
+info
 (
 "
 Caught
@@ -4070,7 +4070,7 @@ null
 continue
 ;
 }
-do_print
+info
 (
 "
 Checking

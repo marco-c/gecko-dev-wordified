@@ -652,7 +652,7 @@ path
 }
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -754,7 +754,7 @@ new
 mobile
 root
 .
-do_print
+info
 (
 "
 Create

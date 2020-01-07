@@ -382,7 +382,7 @@ args
 }
 try
 {
-do_print
+info
 (
 "
 AddonManager
@@ -493,7 +493,7 @@ continue
 ;
 try
 {
-do_print
+info
 (
 "
 AddonManagerPrivate

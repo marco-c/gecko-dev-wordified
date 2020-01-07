@@ -344,7 +344,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Starting

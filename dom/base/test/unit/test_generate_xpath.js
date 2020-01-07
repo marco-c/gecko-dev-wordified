@@ -168,7 +168,7 @@ xpath
 for
 body
 .
-do_print
+info
 (
 "
 Test
@@ -240,7 +240,7 @@ input
 with
 id
 .
-do_print
+info
 (
 "
 Test
@@ -319,7 +319,7 @@ has
 single
 quote
 .
-do_print
+info
 (
 "
 Test
@@ -406,7 +406,7 @@ has
 double
 quote
 .
-do_print
+info
 (
 "
 Test
@@ -498,7 +498,7 @@ and
 double
 quote
 .
-do_print
+info
 (
 "
 Test
@@ -611,7 +611,7 @@ input
 without
 id
 .
-do_print
+info
 (
 "
 Test

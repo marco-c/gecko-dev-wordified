@@ -104,7 +104,7 @@ of
 tags
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1240,7 +1240,7 @@ Flash
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -1316,7 +1316,7 @@ click_to_play
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

@@ -1760,7 +1760,7 @@ shutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Locking
@@ -3386,7 +3386,7 @@ error
 here
 .
 }
-do_print
+info
 (
 "
 Unlocking

@@ -402,7 +402,7 @@ remove
 uri6
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -579,7 +579,7 @@ isn
 t
 specified
 .
-do_print
+info
 (
 "
 Match
@@ -627,7 +627,7 @@ title
 }
 )
 ;
-do_print
+info
 (
 "
 Drop
@@ -677,7 +677,7 @@ title
 }
 )
 ;
-do_print
+info
 (
 "
 Drop
@@ -810,7 +810,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Drop

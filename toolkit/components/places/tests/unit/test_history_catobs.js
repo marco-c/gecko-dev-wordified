@@ -158,7 +158,7 @@ uri
 =
 >
 {
-do_print
+info
 (
 "
 Got
@@ -314,7 +314,7 @@ observer
 )
 )
 ;
-do_print
+info
 (
 "
 Add

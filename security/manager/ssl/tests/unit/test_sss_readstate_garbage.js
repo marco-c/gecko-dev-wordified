@@ -1692,7 +1692,7 @@ enforcement_level
 2
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -8173,7 +8173,7 @@ exist
 "
 )
 ;
-do_print
+info
 (
 '
 Add
@@ -8322,7 +8322,7 @@ exist
 "
 )
 ;
-do_print
+info
 (
 '
 Add
@@ -9933,7 +9933,7 @@ countGet2
 2
 )
 ;
-do_print
+info
 (
 JSON
 .

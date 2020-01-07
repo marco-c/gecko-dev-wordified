@@ -272,7 +272,7 @@ finish
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

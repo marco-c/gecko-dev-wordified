@@ -2980,7 +2980,7 @@ for
 the
 clean
 up
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

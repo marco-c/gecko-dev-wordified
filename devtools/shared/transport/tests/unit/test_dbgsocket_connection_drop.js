@@ -91,7 +91,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Starting

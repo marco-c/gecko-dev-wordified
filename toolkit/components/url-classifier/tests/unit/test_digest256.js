@@ -360,7 +360,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 Mock
@@ -534,7 +534,7 @@ n
 ;
 }
 }
-do_print
+info
 (
 "
 Returning
@@ -849,7 +849,7 @@ equal
 aEvent
 )
 ;
-do_print
+info
 (
 "
 All

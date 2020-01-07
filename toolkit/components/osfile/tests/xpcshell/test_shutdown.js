@@ -242,7 +242,7 @@ aMessage
 {
 try
 {
-do_print
+info
 (
 "
 Got
@@ -277,7 +277,7 @@ aMessage
 .
 message
 ;
-do_print
+info
 (
 "
 Got
@@ -308,7 +308,7 @@ WARNING
 return
 ;
 }
-do_print
+info
 (
 "
 Got
@@ -342,7 +342,7 @@ resource
 return
 ;
 }
-do_print
+info
 (
 "
 Resource
@@ -356,7 +356,7 @@ found
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 deferred
 .
@@ -369,7 +369,7 @@ catch
 ex
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -414,7 +414,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Timeout
@@ -593,7 +593,7 @@ getCurrentDirectory
 "
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -620,7 +620,7 @@ DirectoryIterator
 TEST_DIR
 )
 ;
-do_print
+info
 (
 "
 At
@@ -662,7 +662,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 At
@@ -723,7 +723,7 @@ test
 "
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -756,7 +756,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 At
@@ -798,7 +798,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 At

@@ -170,7 +170,7 @@ onItemVisited
 notifications
 ran
 .
-do_execute_soon
+executeSoon
 (
 resolve
 )
@@ -454,7 +454,7 @@ c
 /
 natural
 order
-do_print
+info
 (
 "
 Natural
@@ -487,7 +487,7 @@ URI
 -
 based
 sorting
-do_print
+info
 (
 "
 Sort
@@ -516,7 +516,7 @@ guid1
 /
 In
 reverse
-do_print
+info
 (
 "
 Sort
@@ -558,7 +558,7 @@ back
 to
 natural
 order
-do_print
+info
 (
 "
 Sort
@@ -588,7 +588,7 @@ guid2
 test
 live
 update
-do_print
+info
 (
 "
 Change
@@ -650,7 +650,7 @@ guid2
 /
 keyword
 sort
-do_print
+info
 (
 "
 Sort
@@ -771,7 +771,7 @@ non
 -
 bookmark
 nodes
-do_print
+info
 (
 "
 Sort
@@ -891,7 +891,7 @@ sort
 test
 live
 update
-do_print
+info
 (
 "
 Annotation
@@ -996,7 +996,7 @@ TRANSITION_TYPED
 await
 waitForVisited
 ;
-do_print
+info
 (
 "
 Sort
@@ -1088,7 +1088,7 @@ guid3
 guid1
 )
 ;
-do_print
+info
 (
 "
 Sort

@@ -545,7 +545,7 @@ the
 gfxItems
 event
 .
-do_execute_soon
+executeSoon
 (
 ensureBlacklistSet
 )
@@ -717,7 +717,7 @@ the
 gfxItems
 event
 .
-do_execute_soon
+executeSoon
 (
 ensureBlacklistUnset
 )

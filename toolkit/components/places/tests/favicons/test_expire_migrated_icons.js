@@ -105,7 +105,7 @@ change
 the
 payload
 .
-do_print
+info
 (
 "
 Set
@@ -207,7 +207,7 @@ charCodeAt
 )
 )
 ;
-do_print
+info
 (
 "
 Refresh

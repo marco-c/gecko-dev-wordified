@@ -215,7 +215,7 @@ test_background_incognito
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -241,7 +241,7 @@ false
 }
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -271,7 +271,7 @@ autostart
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

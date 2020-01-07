@@ -89,7 +89,7 @@ messageCount
 =
 0
 ;
-do_print
+info
 (
 "
 Test
@@ -161,13 +161,13 @@ causes
 an
 exception
 .
-do_execute_soon
+executeSoon
 (
 function
 (
 )
 {
-do_print
+info
 (
 "
 Observing
@@ -297,7 +297,7 @@ toggleConsoleListener
 pref
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -425,7 +425,7 @@ CustomToString
 (
 )
 ;
-do_print
+info
 (
 OS
 .
@@ -438,7 +438,7 @@ toSource
 )
 )
 ;
-do_print
+info
 (
 "
 Logging
@@ -455,7 +455,7 @@ LOG
 objectDefault
 )
 ;
-do_print
+info
 (
 "
 Logging

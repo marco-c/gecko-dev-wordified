@@ -4030,7 +4030,7 @@ run_next_test
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

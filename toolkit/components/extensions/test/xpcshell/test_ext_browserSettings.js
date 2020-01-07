@@ -427,7 +427,7 @@ pref
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

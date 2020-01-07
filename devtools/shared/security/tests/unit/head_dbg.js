@@ -605,7 +605,7 @@ strictFlag
 )
 )
 {
-do_print
+info
 (
 "
 head_dbg

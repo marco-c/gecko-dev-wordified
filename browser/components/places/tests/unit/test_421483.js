@@ -216,7 +216,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 check
@@ -306,7 +306,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 check
@@ -371,7 +371,7 @@ smartBookmarkItemIds
 .
 length
 ;
-do_print
+info
 (
 "
 remove
@@ -449,7 +449,7 @@ length
 smartBookmarksCount
 )
 ;
-do_print
+info
 (
 "
 check
@@ -514,7 +514,7 @@ smartBookmarkItemIds
 .
 length
 ;
-do_print
+info
 (
 "
 smart
@@ -739,7 +739,7 @@ title
 oldTitle
 )
 ;
-do_print
+info
 (
 "
 check

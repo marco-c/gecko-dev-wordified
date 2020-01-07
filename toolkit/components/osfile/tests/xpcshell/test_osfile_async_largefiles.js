@@ -197,7 +197,7 @@ seek
 forward
 from
 start
-do_print
+info
 (
 "
 Moving
@@ -250,7 +250,7 @@ forward
 from
 current
 position
-do_print
+info
 (
 "
 Moving
@@ -303,7 +303,7 @@ backward
 from
 current
 position
-do_print
+info
 (
 "
 Moving
@@ -759,7 +759,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 ex
 .

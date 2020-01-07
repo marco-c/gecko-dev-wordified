@@ -2750,7 +2750,7 @@ metaData
 =
 >
 {
-do_print
+info
 (
 "
 metadata
@@ -2912,7 +2912,7 @@ expectedChecksum
 )
 )
 {
-do_print
+info
 (
 "
 State
@@ -3054,7 +3054,7 @@ cleanUp
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

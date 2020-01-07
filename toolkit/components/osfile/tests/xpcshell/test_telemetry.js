@@ -243,7 +243,7 @@ false
 .
 parent
 ;
-do_print
+info
 (
 "
 Ensuring
@@ -301,7 +301,7 @@ READY
 1
 )
 ;
-do_print
+info
 (
 "
 Ensuring

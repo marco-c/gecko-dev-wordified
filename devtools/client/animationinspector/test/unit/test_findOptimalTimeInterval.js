@@ -494,7 +494,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 Testing
 minTimeInterval

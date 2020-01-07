@@ -9925,7 +9925,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting

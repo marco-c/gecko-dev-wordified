@@ -234,7 +234,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 Exception
 :

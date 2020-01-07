@@ -252,7 +252,7 @@ file
 true
 )
 ;
-do_print
+info
 (
 "
 Checking

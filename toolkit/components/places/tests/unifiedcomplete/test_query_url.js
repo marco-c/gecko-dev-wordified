@@ -64,7 +64,7 @@ test_no_slash
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -179,7 +179,7 @@ test_w_slash
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -298,7 +298,7 @@ test_middle
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -426,7 +426,7 @@ test_nonhost
 (
 )
 {
-do_print
+info
 (
 "
 Searching

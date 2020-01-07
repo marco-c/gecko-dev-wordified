@@ -118,7 +118,7 @@ all
 tests
 run
 .
-do_register_cleanup
+registerCleanupFunction
 (
 promiseShutdownManager
 )
@@ -571,7 +571,7 @@ lastTimestamp
 =
 10000
 ;
-do_print
+info
 (
 "
 Touching
@@ -784,7 +784,7 @@ org
 ]
 )
 ;
-do_print
+info
 (
 "
 Disable

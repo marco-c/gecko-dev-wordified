@@ -243,7 +243,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
-do_print
+info
 (
 Using
 download
@@ -290,7 +290,7 @@ nsIFile
 downloadDir
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1005,7 +1005,7 @@ ready
 "
 )
 ;
-do_print
+info
 (
 "
 extension

@@ -695,7 +695,7 @@ difference
 MAX_TIME_DIFFERENCE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -804,7 +804,7 @@ AddonManager
 SCOPE_PROFILE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -906,7 +906,7 @@ a1
 foreignInstall
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -1010,7 +1010,7 @@ AddonManager
 SCOPE_PROFILE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -1094,7 +1094,7 @@ a1_2
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -1163,7 +1163,7 @@ a1
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_7
 )
@@ -1307,7 +1307,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -1447,7 +1447,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_9
 )
@@ -1818,7 +1818,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

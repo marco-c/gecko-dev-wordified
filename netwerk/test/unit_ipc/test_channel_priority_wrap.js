@@ -322,7 +322,7 @@ jshint
 ignore
 :
 line
-do_register_cleanup
+registerCleanupFunction
 (
 stopHttpServer
 )

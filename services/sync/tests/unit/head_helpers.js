@@ -2286,7 +2286,7 @@ so
 be
 helpful
 .
-do_print
+info
 (
 "
 telemetry
@@ -2296,7 +2296,7 @@ failed
 "
 )
 ;
-do_print
+info
 (
 "
 the
@@ -2316,7 +2316,7 @@ undefined
 )
 )
 ;
-do_print
+info
 (
 "
 the

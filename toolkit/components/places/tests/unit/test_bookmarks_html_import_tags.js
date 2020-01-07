@@ -394,7 +394,7 @@ of
 bookmarkData
 )
 {
-do_print
+info
 (
 "
 Test

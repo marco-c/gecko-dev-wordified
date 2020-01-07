@@ -431,7 +431,7 @@ recurse
 callback
 )
 {
-do_print
+info
 (
 "
 Iterate

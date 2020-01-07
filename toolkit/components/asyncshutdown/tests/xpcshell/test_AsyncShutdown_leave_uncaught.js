@@ -103,7 +103,7 @@ test_phase_simple_async
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -268,7 +268,7 @@ BOOM
 /
 Asynchronous
 phase
-do_print
+info
 (
 "
 Asynchronous
@@ -385,7 +385,7 @@ t
 throw
 /
 freeze
-do_print
+info
 (
 "
 Synchronous
@@ -446,7 +446,7 @@ test_phase_many
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -535,7 +535,7 @@ false
 ]
 )
 {
-do_print
+info
 (
 "
 Testing

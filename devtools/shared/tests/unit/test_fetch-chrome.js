@@ -145,7 +145,7 @@ result
 =
 >
 {
-do_print
+info
 (
 result
 )

@@ -244,7 +244,7 @@ MockRegistry
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -512,7 +512,7 @@ registerProvider
 dirProvider
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2351,7 +2351,7 @@ _cleanup
 (
 )
 ;
-do_print
+info
 (
 "
 waiting

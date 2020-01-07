@@ -3318,7 +3318,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Test
@@ -3355,7 +3355,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 "
 parseDeclarations
@@ -3380,7 +3380,7 @@ test
 throws
 )
 {
-do_print
+info
 (
 "
 Exception
@@ -3398,7 +3398,7 @@ true
 }
 else
 {
-do_print
+info
 (
 "
 Exception
@@ -3531,7 +3531,7 @@ of
 COMMENT_DATA
 )
 {
-do_print
+info
 (
 "
 Test
@@ -3681,7 +3681,7 @@ of
 NAMED_DATA
 )
 {
-do_print
+info
 (
 "
 Test
@@ -3706,7 +3706,7 @@ input
 true
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -3776,7 +3776,7 @@ i
 ]
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -3908,7 +3908,7 @@ of
 actual
 )
 {
-do_print
+info
 (
 "
 Actual

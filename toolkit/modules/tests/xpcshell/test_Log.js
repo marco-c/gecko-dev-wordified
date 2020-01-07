@@ -3884,7 +3884,7 @@ err
 }
 )
 ;
-do_print
+info
 (
 str
 )
@@ -4997,7 +4997,7 @@ length
 2
 )
 ;
-do_print
+info
 (
 appender
 .

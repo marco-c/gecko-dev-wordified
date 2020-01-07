@@ -250,7 +250,7 @@ function
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

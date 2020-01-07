@@ -569,7 +569,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Comparing
@@ -579,7 +579,7 @@ profiles
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -591,7 +591,7 @@ undefined
 )
 )
 ;
-do_print
+info
 (
 "
 against
@@ -601,7 +601,7 @@ profiles
 "
 )
 ;
-do_print
+info
 (
 JSON
 .

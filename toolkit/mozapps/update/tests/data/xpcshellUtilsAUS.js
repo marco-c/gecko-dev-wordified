@@ -6581,7 +6581,7 @@ PREF_APP_UPDATE_LOG
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 testFinishWaitForUpdateXMLFiles
 )
@@ -13275,7 +13275,7 @@ string
 ;
 }
 }
-do_execute_soon
+executeSoon
 (
 runUpdateFinished
 )
@@ -14113,7 +14113,7 @@ the
 update
 service
 .
-do_execute_soon
+executeSoon
 (
 checkUpdateStagedState
 .
@@ -14753,7 +14753,7 @@ string
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 stageUpdateFinished
 )
@@ -15542,7 +15542,7 @@ e
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 setupAppFilesAsync
 )
@@ -15550,7 +15550,7 @@ setupAppFilesAsync
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 setupUpdaterTestFinished
 )
@@ -18330,7 +18330,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -18557,7 +18557,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -18801,7 +18801,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -19321,7 +19321,7 @@ and
 output
 files
 .
-do_execute_soon
+executeSoon
 (
 waitForHelperFinishFileUnlock
 )
@@ -19329,7 +19329,7 @@ waitForHelperFinishFileUnlock
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 waitForHelperExitFinished
 )
@@ -24789,7 +24789,7 @@ path
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLog
 )
@@ -24932,7 +24932,7 @@ path
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLog
 )
@@ -24957,7 +24957,7 @@ MSG_SHOULD_EQUAL
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLogFinished
 )
@@ -26031,7 +26031,7 @@ the
 XHR
 to
 complete
-do_execute_soon
+executeSoon
 (
 gCheckFunc
 )
@@ -26143,7 +26143,7 @@ the
 XHR
 to
 complete
-do_execute_soon
+executeSoon
 (
 gCheckFunc
 .
@@ -26242,7 +26242,7 @@ the
 request
 to
 complete
-do_execute_soon
+executeSoon
 (
 downloadListenerStop
 )
@@ -27863,7 +27863,7 @@ registerProvider
 dirProvider
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 AGP_cleanup
@@ -28479,7 +28479,7 @@ false
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 afterAppExits
 )
@@ -28756,7 +28756,7 @@ return
 ;
 }
 }
-do_execute_soon
+executeSoon
 (
 runUpdateFinished
 )

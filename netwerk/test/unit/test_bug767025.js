@@ -316,7 +316,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 manifest
@@ -358,7 +358,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 datafile_handler
@@ -441,7 +441,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 app_handler
@@ -570,7 +570,7 @@ do_get_profile
 )
 )
 ;
-do_print
+info
 (
 "
 profile
@@ -916,7 +916,7 @@ start_cache_nonpinned_app
 (
 )
 {
-do_print
+info
 (
 "
 Start
@@ -985,7 +985,7 @@ function
 appcache
 )
 {
-do_print
+info
 (
 "
 app

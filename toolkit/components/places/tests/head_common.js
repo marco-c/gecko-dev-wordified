@@ -718,7 +718,7 @@ enabled
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2601,7 +2601,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 shutdownPlaces
@@ -2668,7 +2668,7 @@ teardown
 null
 )
 ;
-do_print
+info
 (
 "
 shutdownPlaces
@@ -2699,7 +2699,7 @@ shutdown
 null
 )
 ;
-do_print
+info
 (
 "
 shutdownPlaces
@@ -2725,7 +2725,7 @@ then
 =
 >
 {
-do_print
+info
 (
 "
 shutdownPlaces

@@ -1165,7 +1165,7 @@ root
 live
 update
 .
-do_print
+info
 (
 "
 change
@@ -1352,7 +1352,7 @@ task_populateDB
 change3
 )
 ;
-do_print
+info
 (
 "
 LiveUpdate

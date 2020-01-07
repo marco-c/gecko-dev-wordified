@@ -128,7 +128,7 @@ message
 stack
 )
 {
-do_print
+info
 (
 "
 error
@@ -138,7 +138,7 @@ error
 message
 )
 ;
-do_print
+info
 (
 "
 stack

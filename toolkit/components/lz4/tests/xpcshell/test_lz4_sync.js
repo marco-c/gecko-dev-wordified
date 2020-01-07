@@ -246,7 +246,7 @@ compressFileContent
 array
 )
 ;
-do_print
+info
 (
 "
 Compressed
@@ -276,7 +276,7 @@ decompressFileContent
 compressed
 )
 ;
-do_print
+info
 (
 "
 Decompressed

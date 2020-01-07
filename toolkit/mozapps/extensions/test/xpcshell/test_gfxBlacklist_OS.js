@@ -603,7 +603,7 @@ the
 gfxItems
 event
 .
-do_execute_soon
+executeSoon
 (
 checkBlacklist
 )

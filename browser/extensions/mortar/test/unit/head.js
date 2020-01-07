@@ -473,7 +473,7 @@ Mock_MessageManager
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

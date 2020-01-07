@@ -1503,7 +1503,7 @@ pauseGrip
 grip
 )
 ;
-do_print
+info
 (
 Check
 enumProperties
@@ -1694,7 +1694,7 @@ value
 "
 )
 ;
-do_print
+info
 (
 "
 Check

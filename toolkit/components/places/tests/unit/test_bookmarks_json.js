@@ -1145,7 +1145,7 @@ in
 test_bookmarks
 )
 {
-do_print
+info
 (
 "
 [

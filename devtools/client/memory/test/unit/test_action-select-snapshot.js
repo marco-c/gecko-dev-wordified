@@ -189,7 +189,7 @@ i
 +
 )
 {
-do_print
+info
 (
 Selecting
 snapshot

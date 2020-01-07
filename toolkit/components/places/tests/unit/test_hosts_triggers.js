@@ -2828,7 +2828,7 @@ of
 hostsUpdateTests
 )
 {
-do_print
+info
 (
 section
 .
@@ -2845,7 +2845,7 @@ section
 tests
 )
 {
-do_print
+info
 (
 test
 .

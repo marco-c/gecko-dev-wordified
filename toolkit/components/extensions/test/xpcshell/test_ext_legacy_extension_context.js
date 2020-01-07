@@ -1170,7 +1170,7 @@ disconnect
 await
 waitForDisconnect
 ;
-do_print
+info
 (
 "
 Got

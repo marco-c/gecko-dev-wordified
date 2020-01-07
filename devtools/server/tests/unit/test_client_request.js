@@ -285,7 +285,7 @@ asyncstack
 )
 )
 {
-do_print
+info
 (
 "
 Async
@@ -311,7 +311,7 @@ while
 stack
 )
 {
-do_print
+info
 (
 stack
 .

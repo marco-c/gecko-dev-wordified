@@ -88,7 +88,7 @@ name
 transportFactory
 )
 {
-do_print
+info
 (
 Started
 testing
@@ -175,7 +175,7 @@ packet
 =
 >
 {
-do_print
+info
 (
 Packet
 event
@@ -244,7 +244,7 @@ packet
 =
 >
 {
-do_print
+info
 (
 Send
 event
@@ -316,7 +316,7 @@ packet
 =
 >
 {
-do_print
+info
 (
 Packet
 event
@@ -411,7 +411,7 @@ event
 =
 >
 {
-do_print
+info
 (
 Close
 event
@@ -451,7 +451,7 @@ type
 =
 >
 {
-do_print
+info
 (
 Server
 closed
@@ -492,7 +492,7 @@ clientClosed
 yield
 serverClosed
 ;
-do_print
+info
 (
 Finished
 testing

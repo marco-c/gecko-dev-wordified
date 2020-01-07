@@ -670,7 +670,7 @@ this
 _newFactory
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -7661,7 +7661,7 @@ INFO_CONTRACT_ID
 MockDNSServiceInfo
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

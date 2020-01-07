@@ -3952,7 +3952,7 @@ includeSize
 wantInstallReject
 )
 {
-do_print
+info
 (
 "
 Running
@@ -4062,7 +4062,7 @@ testserverPort
 +
 zipFileName
 ;
-do_print
+info
 (
 "
 zipURL
@@ -4383,7 +4383,7 @@ extractedPaths
 0
 ]
 ;
-do_print
+info
 (
 "
 Extracted
@@ -5523,7 +5523,7 @@ exists
 )
 )
 {
-do_print
+info
 (
 "
 readStringFromFile
@@ -5874,7 +5874,7 @@ send
 aBody
 )
 {
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -6280,7 +6280,7 @@ k
 ]
 )
 {
-do_print
+info
 (
 "
 Notifying
@@ -6312,7 +6312,7 @@ e
 }
 else
 {
-do_print
+info
 (
 "
 Notifying
@@ -6844,7 +6844,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 zip

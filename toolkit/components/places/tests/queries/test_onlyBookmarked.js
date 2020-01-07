@@ -545,7 +545,7 @@ result
 /
 set
 .
-do_print
+info
 (
 "
 begin
@@ -560,7 +560,7 @@ testData
 root
 )
 ;
-do_print
+info
 (
 "
 end
@@ -724,7 +724,7 @@ re
 query
 and
 test
-do_print
+info
 (
 "
 begin
@@ -741,7 +741,7 @@ testData
 root
 )
 ;
-do_print
+info
 (
 "
 end

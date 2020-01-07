@@ -356,7 +356,7 @@ sequence
 toWait
 )
 {
-do_execute_soon
+executeSoon
 (
 check
 )
@@ -373,7 +373,7 @@ sequence
 ;
 }
 ;
-do_execute_soon
+executeSoon
 (
 check
 )

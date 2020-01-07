@@ -2545,7 +2545,7 @@ length
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 callback
 )
@@ -2854,7 +2854,7 @@ correctly
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 function
 checkstate1

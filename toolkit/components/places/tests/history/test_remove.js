@@ -159,12 +159,12 @@ filter
 options
 )
 {
-do_print
+info
 (
 name
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -174,7 +174,7 @@ options
 )
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -575,7 +575,7 @@ addObserver
 observer
 )
 ;
-do_print
+info
 (
 "
 Performing

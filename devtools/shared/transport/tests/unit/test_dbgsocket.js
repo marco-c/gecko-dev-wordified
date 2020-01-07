@@ -43,7 +43,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -199,7 +199,7 @@ _listeners
 .
 port
 ;
-do_print
+info
 (
 "
 Debugger
@@ -255,7 +255,7 @@ listeningSockets
 2
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -577,7 +577,7 @@ listeningSockets
 0
 )
 ;
-do_print
+info
 (
 "
 Connecting

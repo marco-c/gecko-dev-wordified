@@ -1080,7 +1080,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 correctly
@@ -1335,7 +1335,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 correctly
@@ -1583,7 +1583,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 correctly

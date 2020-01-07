@@ -606,7 +606,7 @@ containerOpen
 =
 true
 ;
-do_print
+info
 (
 "
 Number
@@ -641,7 +641,7 @@ childCount
 i
 )
 {
-do_print
+info
 (
 "
 result
@@ -691,7 +691,7 @@ root
 live
 update
 .
-do_print
+info
 (
 "
 change

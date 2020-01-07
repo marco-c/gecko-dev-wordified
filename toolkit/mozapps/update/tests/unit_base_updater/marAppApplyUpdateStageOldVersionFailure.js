@@ -379,7 +379,7 @@ IS_MACOSX
 false
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

@@ -154,7 +154,7 @@ watcher
 WindowWatcher
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -369,7 +369,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

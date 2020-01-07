@@ -2602,7 +2602,7 @@ testItem
 .
 lastModified
 ;
-do_print
+info
 (
 "
 verify
@@ -2618,7 +2618,7 @@ date
 "
 )
 ;
-do_print
+info
 (
 "
 lastModified3
@@ -2628,7 +2628,7 @@ lastModified3
 lastModified3
 )
 ;
-do_print
+info
 (
 "
 lastModified4

@@ -744,7 +744,7 @@ readStartupData
 (
 )
 ;
-do_print
+info
 (
 readStartupData
 (
@@ -784,7 +784,7 @@ doesn
 t
 crash
 .
-do_print
+info
 (
 readStartupData
 (

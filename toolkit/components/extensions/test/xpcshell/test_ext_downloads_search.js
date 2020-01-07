@@ -653,7 +653,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
-do_print
+info
 (
 downloadDir
 {
@@ -724,7 +724,7 @@ nsIFile
 downloadDir
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 async
 (
@@ -787,7 +787,7 @@ downloads
 =
 >
 {
-do_print
+info
 (
 removed
 {
@@ -877,7 +877,7 @@ success
 "
 )
 {
-do_print
+info
 (
 wait
 for

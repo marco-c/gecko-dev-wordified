@@ -180,7 +180,7 @@ log
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -211,7 +211,7 @@ log
 msg
 )
 {
-do_print
+info
 (
 "
 DISCOVERY

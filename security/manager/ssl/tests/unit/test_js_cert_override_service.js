@@ -302,7 +302,7 @@ certoverride
 gCertOverrideService
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

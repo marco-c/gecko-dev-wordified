@@ -293,7 +293,7 @@ init
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 cleanup

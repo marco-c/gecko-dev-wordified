@@ -967,7 +967,7 @@ nextToken
 Nothing
 .
 }
-do_print
+info
 (
 "
 EOF

@@ -153,7 +153,7 @@ call
 array
 )
 ;
-do_print
+info
 (
 "
 Writing
@@ -185,7 +185,7 @@ lz4
 }
 )
 ;
-do_print
+info
 (
 "
 Compressed
@@ -201,7 +201,7 @@ into
 bytes
 )
 ;
-do_print
+info
 (
 "
 Reading
@@ -232,7 +232,7 @@ lz4
 }
 )
 ;
-do_print
+info
 (
 "
 Decompressed
@@ -276,7 +276,7 @@ test_uncompressed
 (
 )
 {
-do_print
+info
 (
 "
 Writing
@@ -509,7 +509,7 @@ array
 with
 no
 header
-do_print
+info
 (
 "
 Writing
@@ -729,7 +729,7 @@ arr1
 length
 )
 ;
-do_print
+info
 (
 "
 Writing

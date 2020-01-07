@@ -366,7 +366,7 @@ test_to_string
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -486,7 +486,7 @@ test_to_source
 (
 )
 {
-do_print
+info
 (
 "
 Starting

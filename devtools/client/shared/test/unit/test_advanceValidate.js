@@ -188,7 +188,7 @@ result
 testName
 )
 {
-do_print
+info
 (
 testName
 )

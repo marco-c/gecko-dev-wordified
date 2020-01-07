@@ -1169,7 +1169,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -1290,7 +1290,7 @@ exists
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -1447,7 +1447,7 @@ exists
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -1677,7 +1677,7 @@ exists
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -1842,7 +1842,7 @@ a1_2
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_7
 )
@@ -2006,7 +2006,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -2145,7 +2145,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_9
 )
@@ -2302,7 +2302,7 @@ exists
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_10
 )

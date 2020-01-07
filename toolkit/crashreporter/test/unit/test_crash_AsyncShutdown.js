@@ -279,7 +279,7 @@ mdump
 extra
 )
 {
-do_print
+info
 (
 "
 after
@@ -589,7 +589,7 @@ mdump
 extra
 )
 {
-do_print
+info
 (
 "
 after
@@ -629,7 +629,7 @@ conditions
 .
 state
 ;
-do_print
+info
 (
 "
 Keys
@@ -927,7 +927,7 @@ mdump
 extra
 )
 {
-do_print
+info
 (
 "
 after
@@ -967,7 +967,7 @@ conditions
 .
 state
 ;
-do_print
+info
 (
 "
 Keys

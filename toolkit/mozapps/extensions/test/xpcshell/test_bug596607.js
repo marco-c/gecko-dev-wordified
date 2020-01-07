@@ -307,7 +307,7 @@ MockRegistry
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -593,7 +593,7 @@ a3
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -798,7 +798,7 @@ a3
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -1004,7 +1004,7 @@ a3
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

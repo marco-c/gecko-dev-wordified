@@ -416,7 +416,7 @@ two
 "
 )
 ;
-do_print
+info
 (
 "
 check
@@ -634,7 +634,7 @@ subscribe
 subscriber
 )
 ;
-do_print
+info
 (
 "
 subscribe
@@ -776,7 +776,7 @@ state
 "
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -918,7 +918,7 @@ setState
 "
 )
 ;
-do_print
+info
 (
 "
 test

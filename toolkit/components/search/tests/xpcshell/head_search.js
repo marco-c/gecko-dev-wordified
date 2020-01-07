@@ -2100,7 +2100,7 @@ actualObj
 prop
 ]
 )
-do_print
+info
 (
 "
 comparing
@@ -2455,7 +2455,7 @@ data
 /
 "
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 async
 function
@@ -2627,7 +2627,7 @@ of
 aItems
 )
 {
-do_print
+info
 (
 "
 Adding
@@ -2679,7 +2679,7 @@ Ci
 nsISearchEngine
 )
 ;
-do_print
+info
 (
 "
 Observed

@@ -159,7 +159,7 @@ title
 ]
 )
 ;
-do_print
+info
 (
 "
 Unescaped
@@ -200,7 +200,7 @@ title
 }
 )
 ;
-do_print
+info
 (
 "
 Escaped

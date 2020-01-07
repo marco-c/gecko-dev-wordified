@@ -391,7 +391,7 @@ shutdown
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

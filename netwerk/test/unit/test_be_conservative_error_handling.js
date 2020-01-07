@@ -314,7 +314,7 @@ onInputStreamReady
 stream
 )
 {
-do_print
+info
 (
 "
 input
@@ -330,7 +330,7 @@ this
 stopped
 )
 {
-do_print
+info
 (
 "
 input
@@ -548,7 +548,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 done
@@ -621,7 +621,7 @@ socket
 status
 )
 {
-do_print
+info
 (
 "
 TLS
@@ -630,7 +630,7 @@ done
 "
 )
 ;
-do_print
+info
 (
 TLS
 version
@@ -650,7 +650,7 @@ this
 stopped
 )
 {
-do_print
+info
 (
 "
 handshake
@@ -772,7 +772,7 @@ socket
 transport
 )
 {
-do_print
+info
 (
 "
 accepted
@@ -879,7 +879,7 @@ onStopListening
 (
 )
 {
-do_print
+info
 (
 "
 onStopListening
@@ -1468,7 +1468,7 @@ close
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

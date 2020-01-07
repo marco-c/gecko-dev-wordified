@@ -522,7 +522,7 @@ checkCookie
 }
 else
 {
-do_print
+info
 (
 "
 setNextCookie
@@ -811,7 +811,7 @@ we
 re
 good
 .
-do_print
+info
 (
 "
 Saw

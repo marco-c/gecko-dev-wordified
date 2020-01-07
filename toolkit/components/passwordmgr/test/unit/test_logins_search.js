@@ -256,7 +256,7 @@ aQuery
 aExpectedCount
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -451,7 +451,7 @@ aQuery
 aExpectedCount
 )
 {
-do_print
+info
 (
 "
 Testing

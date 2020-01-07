@@ -1766,7 +1766,7 @@ Cc
 )
 )
 {
-do_print
+info
 (
 "
 Skipping
@@ -1992,7 +1992,7 @@ Cc
 )
 )
 {
-do_print
+info
 (
 "
 Skipping
@@ -3741,7 +3741,7 @@ defaultHandlersVersion
 )
 )
 {
-do_print
+info
 (
 "
 This
@@ -3842,7 +3842,7 @@ defaultHandlersVersion
 )
 )
 {
-do_print
+info
 (
 "
 This

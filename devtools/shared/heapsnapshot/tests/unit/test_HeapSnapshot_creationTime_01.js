@@ -93,7 +93,7 @@ now
 *
 1000
 ;
-do_print
+info
 (
 "
 start
@@ -181,7 +181,7 @@ now
 *
 1000
 ;
-do_print
+info
 (
 "
 end
@@ -201,7 +201,7 @@ readHeapSnapshot
 path
 )
 ;
-do_print
+info
 (
 "
 snapshot

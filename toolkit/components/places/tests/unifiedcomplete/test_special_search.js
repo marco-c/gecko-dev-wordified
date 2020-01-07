@@ -673,7 +673,7 @@ bar
 Test
 restricting
 searches
-do_print
+info
 (
 "
 History
@@ -779,7 +779,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Star
@@ -991,7 +991,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Tag
@@ -1131,7 +1131,7 @@ as
 any
 word
 position
-do_print
+info
 (
 "
 Special
@@ -1231,7 +1231,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Special
@@ -1331,7 +1331,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Special
@@ -1441,7 +1441,7 @@ searches
 with
 a
 term
-do_print
+info
 (
 "
 foo
@@ -1541,7 +1541,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -1741,7 +1741,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -1940,7 +1940,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2079,7 +2079,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2216,7 +2216,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2291,7 +2291,7 @@ pairs
 of
 special
 searches
-do_print
+info
 (
 "
 foo
@@ -2370,7 +2370,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2464,7 +2464,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2542,7 +2542,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2600,7 +2600,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2670,7 +2670,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2857,7 +2857,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -2982,7 +2982,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3130,7 +3130,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3191,7 +3191,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3307,7 +3307,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3448,7 +3448,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3519,7 +3519,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3604,7 +3604,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3673,7 +3673,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -3782,7 +3782,7 @@ suggest
 .
 *
 prefs
-do_print
+info
 (
 "
 foo
@@ -3903,7 +3903,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -4177,7 +4177,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -4308,7 +4308,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo
@@ -4546,7 +4546,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 foo

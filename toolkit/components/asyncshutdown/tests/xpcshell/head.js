@@ -1166,7 +1166,7 @@ constructor
 return
 ;
 }
-do_print
+info
 (
 "
 Wrong
@@ -1175,7 +1175,7 @@ constructor
 "
 )
 ;
-do_print
+info
 (
 exn
 .
@@ -1184,7 +1184,7 @@ constructor
 name
 )
 ;
-do_print
+info
 (
 exn
 .

@@ -234,7 +234,7 @@ xml
 ]
 )
 ;
-do_print
+info
 (
 "
 Engine
@@ -259,7 +259,7 @@ promiseAfterCache
 (
 )
 ;
-do_print
+info
 (
 "
 Searching

@@ -430,7 +430,7 @@ NS_ERROR_SIGNED_JAR_NOT_SIGNED
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

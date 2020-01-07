@@ -140,7 +140,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -231,7 +231,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Checking

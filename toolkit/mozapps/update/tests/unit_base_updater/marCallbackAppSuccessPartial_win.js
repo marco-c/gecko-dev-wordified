@@ -171,7 +171,7 @@ checkUpdateLogContents
 LOG_PARTIAL_SUCCESS
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

@@ -316,7 +316,7 @@ prefs
 on
 cleanup
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

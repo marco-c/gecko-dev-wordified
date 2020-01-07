@@ -60,7 +60,7 @@ reset_before_launching
 (
 )
 {
-do_print
+info
 (
 "
 Reset
@@ -113,7 +113,7 @@ i
 i
 )
 {
-do_print
+info
 (
 "
 Do
@@ -278,7 +278,7 @@ random
 )
 )
 ;
-do_print
+info
 (
 "
 Leaking
@@ -382,7 +382,7 @@ ok
 thrown
 )
 ;
-do_print
+info
 (
 "
 Closing
@@ -437,7 +437,7 @@ getCurrentDirectory
 (
 )
 ;
-do_print
+info
 (
 "
 Leaking
@@ -535,7 +535,7 @@ ok
 thrown
 )
 ;
-do_print
+info
 (
 "
 Closing
@@ -578,7 +578,7 @@ race_against_itself
 (
 )
 {
-do_print
+info
 (
 "
 Attempt
@@ -681,7 +681,7 @@ finish_with_a_reset
 (
 )
 {
-do_print
+info
 (
 "
 Reset

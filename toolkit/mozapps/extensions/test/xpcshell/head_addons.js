@@ -5493,7 +5493,7 @@ aAddon
 aProperties
 )
 {
-do_print
+info
 (
 Got
 onPropertyChanged
@@ -5614,7 +5614,7 @@ aAddon
 aRequiresRestart
 )
 {
-do_print
+info
 (
 Got
 onEnabling
@@ -5705,7 +5705,7 @@ onEnabled
 aAddon
 )
 {
-do_print
+info
 (
 Got
 onEnabled
@@ -5769,7 +5769,7 @@ aAddon
 aRequiresRestart
 )
 {
-do_print
+info
 (
 Got
 onDisabling
@@ -5860,7 +5860,7 @@ onDisabled
 aAddon
 )
 {
-do_print
+info
 (
 Got
 onDisabled
@@ -5924,7 +5924,7 @@ aAddon
 aRequiresRestart
 )
 {
-do_print
+info
 (
 Got
 onInstalling
@@ -5999,7 +5999,7 @@ onInstalled
 aAddon
 )
 {
-do_print
+info
 (
 Got
 onInstalled
@@ -6047,7 +6047,7 @@ aAddon
 aRequiresRestart
 )
 {
-do_print
+info
 (
 Got
 onUninstalling
@@ -6122,7 +6122,7 @@ onUninstalled
 aAddon
 )
 {
-do_print
+info
 (
 Got
 onUninstalled
@@ -6169,7 +6169,7 @@ onOperationCancelled
 aAddon
 )
 {
-do_print
+info
 (
 Got
 onOperationCancelled
@@ -7602,7 +7602,7 @@ not
 ;
 }
 }
-do_register_cleanup
+registerCleanupFunction
 (
 function
 addon_cleanup
@@ -7710,7 +7710,7 @@ start
 port
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -8498,7 +8498,7 @@ loadFile
 aFile
 )
 ;
-do_print
+info
 (
 "
 Loaded
@@ -8543,7 +8543,7 @@ aData
 aFile
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -8667,7 +8667,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 Done
@@ -8896,7 +8896,7 @@ xml
 testserver
 )
 {
-do_print
+info
 (
 "
 Triggering
@@ -8998,7 +8998,7 @@ xml
 testserver
 )
 {
-do_print
+info
 (
 "
 Triggering
@@ -10082,7 +10082,7 @@ if
 version
 )
 {
-do_print
+info
 (
 Checking
 state
@@ -10292,7 +10292,7 @@ version
 }
 else
 {
-do_print
+info
 (
 Checking
 state
@@ -10562,7 +10562,7 @@ setup
 distroDir
 )
 {
-do_print
+info
 (
 "
 Clearing
@@ -10619,7 +10619,7 @@ promiseShutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -10743,7 +10743,7 @@ initial
 state
 is
 correct
-do_print
+info
 (
 "
 Checking
@@ -11007,7 +11007,7 @@ expectedDirs
 +
 ;
 }
-do_print
+info
 (
 "
 Checking

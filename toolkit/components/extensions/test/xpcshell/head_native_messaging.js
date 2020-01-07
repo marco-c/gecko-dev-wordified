@@ -267,7 +267,7 @@ TYPE_SLUG
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -564,7 +564,7 @@ registerProvider
 dirProvider
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -641,7 +641,7 @@ MockRegistry
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

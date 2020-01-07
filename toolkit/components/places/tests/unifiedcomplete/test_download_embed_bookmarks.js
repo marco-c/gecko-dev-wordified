@@ -375,7 +375,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Searching
@@ -424,7 +424,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Searching
@@ -473,7 +473,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Searching
@@ -522,7 +522,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Searching
@@ -551,7 +551,7 @@ matches
 }
 )
 ;
-do_print
+info
 (
 "
 Searching
@@ -580,7 +580,7 @@ matches
 }
 )
 ;
-do_print
+info
 (
 "
 Searching

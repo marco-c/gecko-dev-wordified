@@ -262,7 +262,7 @@ nsITaggingService
 ]
 ]
 ;
-do_print
+info
 (
 testServices
 .
@@ -292,7 +292,7 @@ of
 testServices
 )
 {
-do_print
+info
 (
 Running
 test
@@ -363,7 +363,7 @@ function
 name
 )
 {
-do_print
+info
 (
 Checking
 if
@@ -453,7 +453,7 @@ if
 mesg
 )
 {
-do_print
+info
 (
 {
 mesg
@@ -474,7 +474,7 @@ true
 ;
 }
 ;
-do_print
+info
 (
 Generating
 an
@@ -518,7 +518,7 @@ sort
 )
 )
 {
-do_print
+info
 (
 \
 nTesting
@@ -556,7 +556,7 @@ func
 .
 length
 ;
-do_print
+info
 (
 Generating
 array
@@ -599,7 +599,7 @@ true
 {
 try
 {
-do_print
+info
 (
 Calling
 with
@@ -623,7 +623,7 @@ s
 args
 )
 ;
-do_print
+info
 (
 The
 function
@@ -657,7 +657,7 @@ n
 1
 )
 ;
-do_print
+info
 (
 "
 Must
@@ -697,7 +697,7 @@ Cr
 NS_ERROR_ILLEGAL_VALUE
 )
 {
-do_print
+info
 (
 Caught
 an
@@ -711,7 +711,7 @@ name
 }
 )
 ;
-do_print
+info
 (
 "
 Moving
@@ -769,7 +769,7 @@ d
 ]
 )
 ;
-do_print
+info
 (
 Function
 call
@@ -805,7 +805,7 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 {
-do_print
+info
 (
 Method
 not
@@ -819,7 +819,7 @@ name
 }
 )
 ;
-do_print
+info
 (
 "
 Moving

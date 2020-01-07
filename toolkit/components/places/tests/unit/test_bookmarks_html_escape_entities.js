@@ -514,7 +514,7 @@ current
 attributes
 )
 {
-do_print
+info
 (
 "
 Found

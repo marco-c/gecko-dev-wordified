@@ -225,7 +225,7 @@ test_reload
 (
 )
 {
-do_print
+info
 (
 "
 Forging
@@ -378,7 +378,7 @@ observer
 (
 )
 {
-do_print
+info
 (
 "
 Telemetry
@@ -407,7 +407,7 @@ TOPIC
 )
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -460,7 +460,7 @@ change
 "
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -532,7 +532,7 @@ HISTOGRAMS
 k
 ]
 ;
-do_print
+info
 (
 "
 Testing

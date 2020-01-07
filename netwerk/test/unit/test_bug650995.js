@@ -569,7 +569,7 @@ do_test_finished
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -917,7 +917,7 @@ bug650995
 secondRequest
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -960,7 +960,7 @@ secondExpectedReply
 data
 )
 ;
-do_execute_soon
+executeSoon
 (
 nextTest
 )

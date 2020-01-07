@@ -510,7 +510,7 @@ test_support_country
 (
 )
 {
-do_print
+info
 (
 "
 Starting

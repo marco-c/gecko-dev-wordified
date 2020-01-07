@@ -400,7 +400,7 @@ address
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -623,7 +623,7 @@ cookie
 "
 )
 ;
-do_print
+info
 (
 "
 Found

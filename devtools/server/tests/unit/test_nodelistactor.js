@@ -126,7 +126,7 @@ check_actor_for_list
 nodelist
 )
 {
-do_print
+info
 (
 "
 Checking

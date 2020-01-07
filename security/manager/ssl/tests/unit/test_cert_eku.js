@@ -966,7 +966,7 @@ netscape_step_up_policy
 0
 )
 ;
-do_print
+info
 (
 "
 Netscape
@@ -1042,7 +1042,7 @@ before
 August
 2016
 "
-do_print
+info
 (
 "
 Netscape
@@ -1137,7 +1137,7 @@ before
 August
 2015
 "
-do_print
+info
 (
 "
 Netscape
@@ -1229,7 +1229,7 @@ never
 accept
 nsSGC
 "
-do_print
+info
 (
 "
 Netscape

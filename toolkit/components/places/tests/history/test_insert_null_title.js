@@ -140,7 +140,7 @@ title
 Mozilla
 "
 ;
-do_print
+info
 (
 "
 Insert
@@ -249,7 +249,7 @@ history
 "
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -378,7 +378,7 @@ notified
 "
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -503,7 +503,7 @@ notified
 "
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -554,7 +554,7 @@ LINK
 }
 )
 ;
-do_print
+info
 (
 "
 Waiting

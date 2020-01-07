@@ -253,7 +253,7 @@ i
 ]
 )
 {
-do_print
+info
 (
 "
 Data

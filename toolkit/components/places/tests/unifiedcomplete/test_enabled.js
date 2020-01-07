@@ -71,7 +71,7 @@ title
 ]
 )
 ;
-do_print
+info
 (
 "
 plain
@@ -103,7 +103,7 @@ title
 }
 )
 ;
-do_print
+info
 (
 "
 search
@@ -145,7 +145,7 @@ matches
 }
 )
 ;
-do_print
+info
 (
 "
 resume

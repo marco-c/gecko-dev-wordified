@@ -130,7 +130,7 @@ tags_getter_setter
 (
 )
 {
-do_print
+info
 (
 "
 Tags
@@ -143,7 +143,7 @@ correctly
 "
 )
 ;
-do_print
+info
 (
 "
 Without
@@ -179,7 +179,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -222,7 +222,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -271,7 +271,7 @@ tags
 true
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -344,7 +344,7 @@ invalid_setter_calls
 (
 )
 {
-do_print
+info
 (
 "
 Invalid
@@ -743,7 +743,7 @@ not_setting_tags
 (
 )
 {
-do_print
+info
 (
 "
 Not
@@ -774,7 +774,7 @@ empty_array_tags
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -808,7 +808,7 @@ set_tags
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -887,7 +887,7 @@ no_tags_tagsAreNot
 (
 )
 {
-do_print
+info
 (
 "
 Not
@@ -925,7 +925,7 @@ empty_array_tags_tagsAreNot
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -964,7 +964,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -1050,7 +1050,7 @@ tag_to_uri
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -1180,7 +1180,7 @@ tags_to_uri
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -1351,7 +1351,7 @@ repeated_tag
 (
 )
 {
-do_print
+info
 (
 "
 Specifying
@@ -1475,7 +1475,7 @@ many_tags_no_uri
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -1623,7 +1623,7 @@ nonexistent_tags
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -1719,7 +1719,7 @@ tag_to_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -1873,7 +1873,7 @@ many_tags_to_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -2076,7 +2076,7 @@ repeated_tag_to_bookmarks
 (
 )
 {
-do_print
+info
 (
 "
 Specifying
@@ -2216,7 +2216,7 @@ many_tags_no_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -2388,7 +2388,7 @@ nonexistent_tags_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -2500,7 +2500,7 @@ tagsAreNot_history
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -2572,7 +2572,7 @@ com
 null
 }
 ;
-do_print
+info
 (
 "
 Add
@@ -2631,7 +2631,7 @@ tags
 )
 ;
 }
-do_print
+info
 (
 '
 Querying
@@ -2705,7 +2705,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -2785,7 +2785,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -2865,7 +2865,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -2931,7 +2931,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -3070,7 +3070,7 @@ tagsAreNot_bookmarks
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -3142,7 +3142,7 @@ com
 null
 }
 ;
-do_print
+info
 (
 "
 Add
@@ -3199,7 +3199,7 @@ tags
 )
 ;
 }
-do_print
+info
 (
 '
 Querying
@@ -3281,7 +3281,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -3369,7 +3369,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -3457,7 +3457,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -3531,7 +3531,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 '
 Querying
@@ -3678,7 +3678,7 @@ duplicate_tags
 (
 )
 {
-do_print
+info
 (
 "
 Duplicate
@@ -3715,7 +3715,7 @@ tagName
 foo
 "
 ;
-do_print
+info
 (
 "
 Add
@@ -3745,7 +3745,7 @@ tagName
 ]
 )
 ;
-do_print
+info
 (
 "
 Manually
@@ -3821,7 +3821,7 @@ TEST_URI
 }
 )
 ;
-do_print
+info
 (
 "
 Querying
@@ -3902,7 +3902,7 @@ folder_named_as_tag
 (
 )
 {
-do_print
+info
 (
 "
 Regular
@@ -3932,7 +3932,7 @@ tagName
 foo
 "
 ;
-do_print
+info
 (
 "
 Add
@@ -3961,7 +3961,7 @@ tagName
 ]
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -4002,7 +4002,7 @@ tagName
 }
 )
 ;
-do_print
+info
 (
 "
 Querying
@@ -4083,7 +4083,7 @@ ORed_queries
 (
 )
 {
-do_print
+info
 (
 "
 Multiple
@@ -4224,7 +4224,7 @@ i
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -4283,7 +4283,7 @@ tags
 )
 ;
 }
-do_print
+info
 (
 "
 Query
@@ -4401,7 +4401,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -4493,7 +4493,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -4594,7 +4594,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -4718,7 +4718,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -4825,7 +4825,7 @@ com
 ]
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -5002,7 +5002,7 @@ tag_casing_uri
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -5159,7 +5159,7 @@ tag_casing_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -5356,7 +5356,7 @@ tag_special_char_uri
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -5486,7 +5486,7 @@ tag_special_char_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 Querying
@@ -5954,7 +5954,7 @@ query
 opts
 )
 ;
-do_print
+info
 (
 "
 Query
@@ -6560,7 +6560,7 @@ aTagsAreNot
 !
 aTagsAreNot
 ;
-do_print
+info
 (
 "
 Making
@@ -6686,7 +6686,7 @@ sort
 )
 ;
 }
-do_print
+info
 (
 "
 Made

@@ -325,7 +325,7 @@ aQuery
 aExpectedCount
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -834,7 +834,7 @@ HTTP_ORIGIN
 1
 )
 ;
-do_print
+info
 (
 "
 The

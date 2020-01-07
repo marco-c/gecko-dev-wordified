@@ -199,7 +199,7 @@ err
 becauseNoSuchFile
 )
 {
-do_print
+info
 (
 "
 File
@@ -246,7 +246,7 @@ the
 appropriate
 error
 .
-do_print
+info
 (
 "
 Attempting
@@ -303,7 +303,7 @@ catch
 err
 )
 {
-do_print
+info
 (
 "
 File
@@ -375,7 +375,7 @@ open
 a
 file
 correctly
-do_print
+info
 (
 "
 Attempting
@@ -416,7 +416,7 @@ js
 )
 )
 ;
-do_print
+info
 (
 "
 File
@@ -425,7 +425,7 @@ correctly
 "
 )
 ;
-do_print
+info
 (
 "
 Attempting
@@ -444,7 +444,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 Attempting

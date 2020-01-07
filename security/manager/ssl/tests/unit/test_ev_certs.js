@@ -448,7 +448,7 @@ Ci
 nsIX509CertDB
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1937,7 +1937,7 @@ clearOCSPCache
 (
 )
 ;
-do_print
+info
 (
 "
 untrusting
@@ -1975,7 +1975,7 @@ path
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
-do_print
+info
 (
 "
 re

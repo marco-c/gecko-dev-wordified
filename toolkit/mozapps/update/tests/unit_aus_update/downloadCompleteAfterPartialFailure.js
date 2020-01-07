@@ -172,7 +172,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )
@@ -308,7 +308,7 @@ watcher
 WindowWatcher
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -450,7 +450,7 @@ waitForUpdateXMLFilesFinished
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 doTestFinish
 )

@@ -694,7 +694,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -828,7 +828,7 @@ NORMAL
 )
 )
 ;
-do_print
+info
 (
 "
 Make
@@ -870,7 +870,7 @@ unsyncedFolder
 }
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -3027,7 +3027,7 @@ test_order
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -3119,7 +3119,7 @@ siblingSep
 }
 )
 ;
-do_print
+info
 (
 "
 Reorder
@@ -3196,7 +3196,7 @@ array
 )
 ;
 }
-do_print
+info
 (
 "
 Same
@@ -3276,7 +3276,7 @@ possible
 )
 ;
 }
-do_print
+info
 (
 "
 New
@@ -3364,7 +3364,7 @@ respected
 )
 ;
 }
-do_print
+info
 (
 "
 Reorder
@@ -3736,7 +3736,7 @@ roots
 "
 )
 ;
-do_print
+info
 (
 "
 De
@@ -4009,7 +4009,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 De
@@ -4247,7 +4247,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 De
@@ -4567,7 +4567,7 @@ test_update_tags
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -4617,7 +4617,7 @@ menu
 }
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -4706,7 +4706,7 @@ URL
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -4813,7 +4813,7 @@ tag
 )
 ;
 }
-do_print
+info
 (
 "
 Tags
@@ -4915,7 +4915,7 @@ tags
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -5020,7 +5020,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -5192,7 +5192,7 @@ org
 }
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -5251,7 +5251,7 @@ promiseItemGuid
 tagFolderId
 )
 ;
-do_print
+info
 (
 "
 Tagged
@@ -5317,7 +5317,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -5494,7 +5494,7 @@ them
 /
 correctly
 .
-do_print
+info
 (
 "
 Rename
@@ -5599,7 +5599,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Rename
@@ -5712,7 +5712,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -5858,7 +5858,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -6008,7 +6008,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -6151,7 +6151,7 @@ test_update_keyword
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -6201,7 +6201,7 @@ makeGuid
 }
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -6338,7 +6338,7 @@ keyword
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -6457,7 +6457,7 @@ keyword
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -6546,7 +6546,7 @@ URL
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -6624,7 +6624,7 @@ succeed
 let
 item2
 ;
-do_print
+info
 (
 "
 Insert
@@ -6873,7 +6873,7 @@ url
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -7026,7 +7026,7 @@ keyword
 )
 ;
 }
-do_print
+info
 (
 "
 Update
@@ -7251,7 +7251,7 @@ url
 )
 ;
 }
-do_print
+info
 (
 "
 Update
@@ -7468,7 +7468,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -7642,7 +7642,7 @@ entry
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -7877,7 +7877,7 @@ changes
 )
 ;
 }
-do_print
+info
 (
 "
 Update
@@ -8176,7 +8176,7 @@ com
 }
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -8263,7 +8263,7 @@ anno
 )
 ;
 }
-do_print
+info
 (
 "
 Clear
@@ -8342,7 +8342,7 @@ anno
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -8422,7 +8422,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Clear
@@ -8535,7 +8535,7 @@ test_update_move_root
 (
 )
 {
-do_print
+info
 (
 "
 Move
@@ -8619,7 +8619,7 @@ change
 )
 ;
 }
-do_print
+info
 (
 "
 Try
@@ -8683,7 +8683,7 @@ test_insert
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -8771,7 +8771,7 @@ type
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -8872,7 +8872,7 @@ bookmarks
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -8955,7 +8955,7 @@ type
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -9073,7 +9073,7 @@ makeLivemarkServer
 ;
 try
 {
-do_print
+info
 (
 "
 Insert
@@ -9175,7 +9175,7 @@ folders
 let
 livemarkRecordId
 ;
-do_print
+info
 (
 "
 Insert
@@ -9236,7 +9236,7 @@ livemark
 recordId
 ;
 }
-do_print
+info
 (
 "
 Try
@@ -9384,7 +9384,7 @@ are
 the
 same
 .
-do_print
+info
 (
 "
 Update
@@ -9611,7 +9611,7 @@ replaced
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -9813,7 +9813,7 @@ URI
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -10035,7 +10035,7 @@ URI
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -10205,7 +10205,7 @@ URI
 )
 ;
 }
-do_print
+info
 (
 "
 Change
@@ -10435,7 +10435,7 @@ in
 -
 place
 .
-do_print
+info
 (
 "
 Replace
@@ -10890,7 +10890,7 @@ test_insert_tags_whitespace
 (
 )
 {
-do_print
+info
 (
 "
 Untrimmed
@@ -11005,7 +11005,7 @@ dupes
 "
 )
 ;
-do_print
+info
 (
 "
 Dupe
@@ -11260,7 +11260,7 @@ test_insert_keyword
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -11356,7 +11356,7 @@ item
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -11482,7 +11482,7 @@ test_insert_annos
 (
 )
 {
-do_print
+info
 (
 "
 Bookmark
@@ -11592,7 +11592,7 @@ description
 )
 ;
 }
-do_print
+info
 (
 "
 Folder
@@ -11691,7 +11691,7 @@ description
 )
 ;
 }
-do_print
+info
 (
 "
 Bookmark
@@ -11795,7 +11795,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Bookmark
@@ -11938,7 +11938,7 @@ tagFolder
 -
 1
 ;
-do_print
+info
 (
 "
 Insert
@@ -12117,7 +12117,7 @@ exist
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -12307,7 +12307,7 @@ tags
 )
 ;
 }
-do_print
+info
 (
 "
 Use
@@ -12419,7 +12419,7 @@ API
 "
 )
 ;
-do_print
+info
 (
 "
 Removing
@@ -12535,7 +12535,7 @@ makeGuid
 let
 childId
 ;
-do_print
+info
 (
 "
 Insert
@@ -12649,7 +12649,7 @@ GUID
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -12704,7 +12704,7 @@ anno
 "
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -12942,7 +12942,7 @@ com
 }
 )
 ;
-do_print
+info
 (
 "
 Verify
@@ -12998,7 +12998,7 @@ moving
 )
 ;
 }
-do_print
+info
 (
 "
 Move
@@ -13075,7 +13075,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Move
@@ -13297,7 +13297,7 @@ org
 }
 )
 ;
-do_print
+info
 (
 "
 Verify
@@ -13356,7 +13356,7 @@ reordering
 )
 ;
 }
-do_print
+info
 (
 "
 Reorder
@@ -13535,7 +13535,7 @@ com
 }
 )
 ;
-do_print
+info
 (
 "
 Verify
@@ -13592,7 +13592,7 @@ indices
 )
 ;
 }
-do_print
+info
 (
 "
 Set
@@ -13848,7 +13848,7 @@ UNKNOWN
 }
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -13929,7 +13929,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Reorder
@@ -14314,7 +14314,7 @@ query
 }
 )
 ;
-do_print
+info
 (
 "
 Fetch
@@ -14407,7 +14407,7 @@ folder
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -14633,7 +14633,7 @@ title
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -14807,7 +14807,7 @@ empty
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -14846,7 +14846,7 @@ position
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -14971,7 +14971,7 @@ queries
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -15110,7 +15110,7 @@ makeLivemarkServer
 ;
 try
 {
-do_print
+info
 (
 "
 Create
@@ -15187,7 +15187,7 @@ annotations
 EXPIRE_NEVER
 )
 ;
-do_print
+info
 (
 "
 Fetch
@@ -15396,7 +15396,7 @@ moveSyncedBookmarksToUnsyncedParent
 (
 )
 ;
-do_print
+info
 (
 "
 Unsynced
@@ -15514,7 +15514,7 @@ moveSyncedBookmarksToUnsyncedParent
 (
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -15536,7 +15536,7 @@ unsyncedFolder
 guid
 )
 ;
-do_print
+info
 (
 "
 Deleted
@@ -15727,7 +15727,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -15821,7 +15821,7 @@ match
 )
 ;
 }
-do_print
+info
 (
 "
 Import
@@ -16071,7 +16071,7 @@ imports
 "
 )
 ;
-do_print
+info
 (
 "
 Fetch
@@ -16196,7 +16196,7 @@ syncing
 "
 )
 ;
-do_print
+info
 (
 "
 Mark
@@ -16310,7 +16310,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -16375,7 +16375,7 @@ NORMAL
 }
 )
 ;
-do_print
+info
 (
 "
 Import
@@ -16479,7 +16479,7 @@ imports
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -16614,7 +16614,7 @@ syncing
 "
 )
 ;
-do_print
+info
 (
 "
 Mark
@@ -16764,7 +16764,7 @@ com
 }
 )
 ;
-do_print
+info
 (
 Unsynced
 bookmark
@@ -16810,7 +16810,7 @@ syncedFolder
 }
 )
 ;
-do_print
+info
 (
 Synced
 folder
@@ -16905,7 +16905,7 @@ JSON
 )
 ;
 }
-do_print
+info
 (
 "
 Restore
@@ -16995,7 +16995,7 @@ JSON
 )
 ;
 }
-do_print
+info
 (
 "
 Fetch
@@ -17364,7 +17364,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Append
@@ -17489,7 +17489,7 @@ net
 }
 )
 ;
-do_print
+info
 (
 "
 Append
@@ -17608,7 +17608,7 @@ newChanges
 )
 ;
 }
-do_print
+info
 (
 "
 Append
@@ -17681,7 +17681,7 @@ guid
 )
 ;
 }
-do_print
+info
 (
 "
 Clear
@@ -17747,7 +17747,7 @@ children
 )
 ;
 }
-do_print
+info
 (
 "
 Remove
@@ -17798,7 +17798,7 @@ tombstone
 )
 ;
 }
-do_print
+info
 (
 "
 Append
@@ -17930,7 +17930,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -18011,7 +18011,7 @@ B
 }
 )
 ;
-do_print
+info
 (
 "
 Manually
@@ -18221,7 +18221,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Populate
@@ -18358,7 +18358,7 @@ systems
 }
 )
 ;
-do_print
+info
 (
 "
 Update
@@ -18441,7 +18441,7 @@ syncChangeCounter
 }
 )
 ;
-do_print
+info
 (
 "
 Change
@@ -18482,7 +18482,7 @@ ninja
 }
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -18546,7 +18546,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Pull
@@ -18690,7 +18690,7 @@ bookmarks
 )
 ;
 }
-do_print
+info
 (
 "
 Modify
@@ -18730,7 +18730,7 @@ club
 }
 )
 ;
-do_print
+info
 (
 "
 Mark
@@ -19743,7 +19743,7 @@ recordIdToGuid
 separatorRecordId
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -19812,7 +19812,7 @@ setChangesSynced
 changes
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -19877,7 +19877,7 @@ setChangesSynced
 changes
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -19978,7 +19978,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -20126,7 +20126,7 @@ edu
 }
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -20427,7 +20427,7 @@ ignoreChangedRoots
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -20847,7 +20847,7 @@ info
 }
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -21625,7 +21625,7 @@ test_ensureMobileQuery
 (
 )
 {
-do_print
+info
 (
 "
 Ensure
@@ -21679,7 +21679,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Can
@@ -21798,7 +21798,7 @@ PlacesUIUtils
 .
 leftPaneFolderId
 ;
-do_print
+info
 (
 Left
 pane
@@ -21855,7 +21855,7 @@ allBookmarksGuids
 0
 ]
 ;
-do_print
+info
 (
 "
 Try
@@ -21994,7 +21994,7 @@ queries
 "
 )
 ;
-do_print
+info
 (
 "
 Rename
@@ -22122,7 +22122,7 @@ title
 "
 )
 ;
-do_print
+info
 (
 "
 Point
@@ -22202,7 +22202,7 @@ root
 "
 )
 ;
-do_print
+info
 (
 "
 We
@@ -22348,7 +22348,7 @@ test_remove_stale_tombstones
 (
 )
 {
-do_print
+info
 (
 "
 Insert
@@ -22464,7 +22464,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Reinsert
@@ -22557,7 +22557,7 @@ bookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Insert
@@ -22707,7 +22707,7 @@ everything
 )
 ;
 }
-do_print
+info
 (
 "
 Reinsert

@@ -577,7 +577,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 testnamespace
 .
@@ -635,7 +635,7 @@ false
 ]
 )
 {
-do_print
+info
 (
 Testing
 API
@@ -1157,7 +1157,7 @@ runWithCallback
 func
 )
 {
-do_print
+info
 (
 Calling
 testnamespace
@@ -1261,7 +1261,7 @@ runFailCallback
 func
 )
 {
-do_print
+info
 (
 Calling
 testnamespace
@@ -1336,7 +1336,7 @@ false
 ]
 )
 {
-do_print
+info
 (
 Testing
 API
@@ -1418,7 +1418,7 @@ promises
 for
 chrome
 .
-do_print
+info
 (
 "
 testnamespace
@@ -1462,7 +1462,7 @@ promise
 1
 )
 ;
-do_print
+info
 (
 "
 testnamespace
@@ -1635,7 +1635,7 @@ of
 errorFactories
 )
 {
-do_print
+info
 (
 Testing
 callback

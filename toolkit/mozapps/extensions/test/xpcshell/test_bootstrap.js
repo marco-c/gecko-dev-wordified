@@ -755,7 +755,7 @@ length
 0
 )
 ;
-do_execute_soon
+executeSoon
 (
 aCallback
 )
@@ -1417,7 +1417,7 @@ length
 0
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -3395,7 +3395,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Waiting
@@ -4282,7 +4282,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 test_12_restart
 )
@@ -4634,7 +4634,7 @@ ID1
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 test_13_restart
 )
@@ -4776,7 +4776,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_14
 )
@@ -5798,7 +5798,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_17
 )
@@ -6660,7 +6660,7 @@ getStartupOldVersion
 undefined
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_21
 )
@@ -7707,7 +7707,7 @@ function
 b1
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 test_23_after_startup
@@ -8000,7 +8000,7 @@ run_test_24
 (
 )
 {
-do_print
+info
 (
 "
 starting
@@ -8047,7 +8047,7 @@ test_24_pref
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -8371,7 +8371,7 @@ test_25_after_pref
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -8660,7 +8660,7 @@ test_25_installed
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -9302,7 +9302,7 @@ function
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 bootstrap_disabled_downgrade_check

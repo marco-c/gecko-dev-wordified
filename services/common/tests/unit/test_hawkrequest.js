@@ -481,7 +481,7 @@ and
 move
 on
 .
-do_print
+info
 (
 "
 Checked

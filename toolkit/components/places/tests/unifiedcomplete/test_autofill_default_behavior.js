@@ -418,7 +418,7 @@ bookmark
 false
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -467,7 +467,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -544,7 +544,7 @@ typed
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -649,7 +649,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 Restrict
@@ -704,7 +704,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 Restrict
@@ -827,7 +827,7 @@ are
 very
 weak
 .
-do_print
+info
 (
 "
 Restrict
@@ -910,7 +910,7 @@ bookmarked
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1032,7 +1032,7 @@ filters
 on
 typed
 .
-do_print
+info
 (
 "
 Restrict
@@ -1076,7 +1076,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1158,7 +1158,7 @@ typed
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1201,7 +1201,7 @@ bo
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1325,7 +1325,7 @@ typed
 true
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1364,7 +1364,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1418,7 +1418,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 Restrict
@@ -1509,7 +1509,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 Restrict
@@ -1587,7 +1587,7 @@ typed
 false
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1683,7 +1683,7 @@ s
 a
 title
 .
-do_print
+info
 (
 "
 Restrict
@@ -1742,7 +1742,7 @@ s
 a
 tag
 .
-do_print
+info
 (
 "
 Restrict
@@ -2121,7 +2121,7 @@ searchEngines
 false
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2178,7 +2178,7 @@ v
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2285,7 +2285,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 URL
@@ -2348,7 +2348,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 URL
@@ -2464,7 +2464,7 @@ bookmark
 true
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2511,7 +2511,7 @@ v
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2573,7 +2573,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 URL
@@ -2672,7 +2672,7 @@ s
 not
 typed
 .
-do_print
+info
 (
 "
 URL
@@ -2765,7 +2765,7 @@ typed
 false
 )
 ;
-do_print
+info
 (
 "
 URL

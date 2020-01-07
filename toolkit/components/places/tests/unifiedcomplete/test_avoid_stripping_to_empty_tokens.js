@@ -287,7 +287,7 @@ of
 inputs
 )
 {
-do_print
+info
 (
 "
 Searching

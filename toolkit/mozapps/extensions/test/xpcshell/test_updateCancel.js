@@ -285,7 +285,7 @@ aAddon
 aError
 )
 {
-do_print
+info
 (
 "
 onUpdateCheckFinished

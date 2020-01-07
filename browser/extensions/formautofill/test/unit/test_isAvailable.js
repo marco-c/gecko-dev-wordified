@@ -55,7 +55,7 @@ utf
 "
 )
 ;
-do_print
+info
 (
 "
 bootstrapURI
@@ -131,7 +131,7 @@ ZZ
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 cleanupRegion
@@ -215,7 +215,7 @@ US
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 cleanupRegion

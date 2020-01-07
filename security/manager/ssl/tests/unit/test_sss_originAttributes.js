@@ -104,7 +104,7 @@ respects
 origin
 attributes
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

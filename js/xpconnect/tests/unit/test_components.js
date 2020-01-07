@@ -301,7 +301,7 @@ in
 Components
 )
 {
-do_print
+info
 (
 "
 Checking

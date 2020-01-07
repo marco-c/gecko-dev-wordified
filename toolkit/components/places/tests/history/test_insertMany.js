@@ -457,12 +457,12 @@ obs
 )
 ;
 }
-do_print
+info
 (
 name
 )
 ;
-do_print
+info
 (
 filter
 :
@@ -471,7 +471,7 @@ filter
 }
 )
 ;
-do_print
+info
 (
 useCallbacks
 :

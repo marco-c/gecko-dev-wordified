@@ -280,7 +280,7 @@ addon1
 version
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1
 )
@@ -298,7 +298,7 @@ end_test
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )
@@ -455,7 +455,7 @@ org
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_1
 )
@@ -574,7 +574,7 @@ addon1
 profileDir
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -754,7 +754,7 @@ ensure_test_completed
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_2
 )
@@ -1055,7 +1055,7 @@ pendingOperations
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )

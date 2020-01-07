@@ -1447,7 +1447,7 @@ output
 "
 )
 ;
-do_print
+info
 (
 text
 )

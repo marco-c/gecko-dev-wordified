@@ -962,7 +962,7 @@ a5
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1
 )
@@ -1180,7 +1180,7 @@ ok
 gCachePurged
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -2095,7 +2095,7 @@ length
 3
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -2732,7 +2732,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -3346,7 +3346,7 @@ exists
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -3700,7 +3700,7 @@ AddonManager
 SCOPE_SYSTEM
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -4125,7 +4125,7 @@ AddonManager
 SCOPE_USER
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -4534,7 +4534,7 @@ AddonManager
 SCOPE_USER
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_7
 )
@@ -5078,7 +5078,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -5426,7 +5426,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_9
 )
@@ -5978,7 +5978,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_10
 )
@@ -6504,7 +6504,7 @@ org
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_11
 )
@@ -7071,7 +7071,7 @@ addon2
 version
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_12
 )
@@ -7917,7 +7917,7 @@ a3_3
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 end_test
 )

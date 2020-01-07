@@ -57,7 +57,7 @@ File
 .
 queue
 ;
-do_print
+info
 (
 "
 Function
@@ -100,7 +100,7 @@ check_success
 (
 )
 {
-do_print
+info
 (
 "
 Attempting
@@ -138,7 +138,7 @@ js
 )
 )
 ;
-do_print
+info
 (
 "
 File
@@ -154,7 +154,7 @@ File
 .
 queue
 ;
-do_print
+info
 (
 "
 Function
@@ -201,7 +201,7 @@ exception
 ;
 try
 {
-do_print
+info
 (
 "
 Attempting
@@ -264,7 +264,7 @@ exception
 null
 )
 ;
-do_print
+info
 (
 "
 Function

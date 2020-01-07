@@ -102,7 +102,7 @@ no_such_key
 }
 )
 ;
-do_print
+info
 (
 "
 Fd
@@ -123,7 +123,7 @@ exn
 ex
 ;
 }
-do_print
+info
 (
 "
 Exception
@@ -167,7 +167,7 @@ test_bad_encoding
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -228,7 +228,7 @@ ex
 becauseInvalidArgument
 )
 {
-do_print
+info
 (
 "
 Wrong
@@ -307,7 +307,7 @@ t
 carry
 across
 compartments
-do_print
+info
 (
 "
 Non
@@ -340,7 +340,7 @@ test_bad_compression
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -401,7 +401,7 @@ ex
 becauseInvalidArgument
 )
 {
-do_print
+info
 (
 "
 Wrong
@@ -421,7 +421,7 @@ ex
 ;
 }
 }
-do_print
+info
 (
 "
 Testing
@@ -494,7 +494,7 @@ t
 carry
 across
 compartments
-do_print
+info
 (
 "
 Non
@@ -527,7 +527,7 @@ test_bad_bytes
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -602,7 +602,7 @@ t
 carry
 across
 compartments
-do_print
+info
 (
 "
 Non
@@ -635,7 +635,7 @@ read_non_existent
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -695,7 +695,7 @@ ex
 becauseNoSuchFile
 )
 {
-do_print
+info
 (
 "
 Correct

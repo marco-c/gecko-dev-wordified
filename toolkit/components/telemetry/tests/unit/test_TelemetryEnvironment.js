@@ -6176,7 +6176,7 @@ do_get_cwd
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -6281,7 +6281,7 @@ spoofAttributionData
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 cleanupAttributionData
 )
@@ -11127,7 +11127,7 @@ Ci
 nsISearchEngine
 )
 ;
-do_print
+info
 (
 "
 Observed

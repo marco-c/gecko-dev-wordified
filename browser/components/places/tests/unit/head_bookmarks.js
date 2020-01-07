@@ -745,7 +745,7 @@ registerListener
 consoleListener
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

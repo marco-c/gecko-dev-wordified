@@ -64,7 +64,7 @@ test_casing_1
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -150,7 +150,7 @@ test_casing_2
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -242,7 +242,7 @@ test_casing_3
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -340,7 +340,7 @@ test_casing_4
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -432,7 +432,7 @@ test_casing_5
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -530,7 +530,7 @@ test_untrimmed_casing
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -628,7 +628,7 @@ test_untrimmed_www_casing
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -736,7 +736,7 @@ test_untrimmed_path_casing
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -842,7 +842,7 @@ test_untrimmed_path_casing_2
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -951,7 +951,7 @@ test_untrimmed_path_www_casing
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -1067,7 +1067,7 @@ test_untrimmed_path_www_casing_2
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -1353,7 +1353,7 @@ k
 ]
 )
 ;
-do_print
+info
 (
 "
 Search
@@ -1406,7 +1406,7 @@ u03BB
 }
 )
 ;
-do_print
+info
 (
 "
 Search
@@ -1459,7 +1459,7 @@ u03BB
 }
 )
 ;
-do_print
+info
 (
 "
 Search
@@ -1520,7 +1520,7 @@ k
 }
 )
 ;
-do_print
+info
 (
 "
 Search
@@ -1580,7 +1580,7 @@ k
 }
 )
 ;
-do_print
+info
 (
 "
 Search

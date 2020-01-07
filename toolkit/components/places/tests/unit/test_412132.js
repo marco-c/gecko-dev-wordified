@@ -185,7 +185,7 @@ changeuri_unvisited_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -360,7 +360,7 @@ changeuri_visited_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -547,7 +547,7 @@ changeuri_bookmark_still_bookmarked
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -698,7 +698,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI

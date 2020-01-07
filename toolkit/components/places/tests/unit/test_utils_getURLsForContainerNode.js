@@ -148,7 +148,7 @@ test_getURLsForContainerNode_folder
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -302,7 +302,7 @@ getNewQueryOptions
 (
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -320,7 +320,7 @@ options
 0
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -407,7 +407,7 @@ test_getURLsForContainerNode_folder_excludeItems
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -571,7 +571,7 @@ excludeItems
 =
 true
 ;
-do_print
+info
 (
 "
 Check
@@ -589,7 +589,7 @@ options
 0
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -676,7 +676,7 @@ test_getURLsForContainerNode_query
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -846,7 +846,7 @@ getNewQueryOptions
 (
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -864,7 +864,7 @@ options
 0
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -950,7 +950,7 @@ test_getURLsForContainerNode_query_excludeItems
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -1127,7 +1127,7 @@ excludeItems
 =
 true
 ;
-do_print
+info
 (
 "
 Check
@@ -1145,7 +1145,7 @@ options
 0
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -1231,7 +1231,7 @@ test_getURLsForContainerNode_query_excludeQueries
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -1409,7 +1409,7 @@ expandQueries
 =
 false
 ;
-do_print
+info
 (
 "
 Check
@@ -1427,7 +1427,7 @@ options
 0
 )
 ;
-do_print
+info
 (
 "
 Check

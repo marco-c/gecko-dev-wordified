@@ -380,7 +380,7 @@ parseInt
 )
 )
 ;
-do_print
+info
 (
 "
 Creating

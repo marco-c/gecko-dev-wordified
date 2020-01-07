@@ -808,7 +808,7 @@ defaultHandlersVersion
 )
 )
 {
-do_print
+info
 (
 "
 This

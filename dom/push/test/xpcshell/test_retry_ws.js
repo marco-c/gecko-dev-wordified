@@ -102,7 +102,7 @@ newPushDB
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

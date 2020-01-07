@@ -3999,7 +3999,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -4185,7 +4185,7 @@ throw
 e
 ;
 }
-do_print
+info
 (
 "
 User

@@ -558,7 +558,7 @@ spec
 rootURI
 )
 {
-do_print
+info
 (
 Testing
 URL
@@ -825,7 +825,7 @@ inexistent
 inexistentURI
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

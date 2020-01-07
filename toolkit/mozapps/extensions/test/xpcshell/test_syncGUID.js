@@ -287,7 +287,7 @@ an
 onInstallEnded
 handler
 !
-do_execute_soon
+executeSoon
 (
 function
 getter_setter_install_ended
@@ -579,7 +579,7 @@ removeInstallListener
 listener
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 duplicate_syncguid_install_ended

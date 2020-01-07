@@ -266,7 +266,7 @@ start
 1
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1629,7 +1629,7 @@ request
 s
 results
 .
-do_print
+info
 (
 "
 waiting

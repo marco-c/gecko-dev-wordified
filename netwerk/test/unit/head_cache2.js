@@ -1382,7 +1382,7 @@ self
 =
 this
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -1483,7 +1483,7 @@ entry
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -1935,7 +1935,7 @@ self
 =
 this
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -2430,7 +2430,7 @@ goon
 =
 null
 ;
-do_execute_soon
+executeSoon
 (
 goon
 )
@@ -2665,7 +2665,7 @@ this
 .
 delayed
 )
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -157,7 +157,7 @@ removed_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -246,7 +246,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Bookmarked
@@ -291,7 +291,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Unvisited
@@ -346,7 +346,7 @@ removed_but_visited_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -432,7 +432,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Bookmarked
@@ -485,7 +485,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 *
@@ -543,7 +543,7 @@ remove_bookmark_still_bookmarked
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -659,7 +659,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Bookmarked
@@ -704,7 +704,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -758,7 +758,7 @@ cleared_parent_of_visited_bookmark
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -847,7 +847,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Bookmarked
@@ -899,7 +899,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 *
@@ -957,7 +957,7 @@ cleared_parent_of_bookmark_still_bookmarked
 (
 )
 {
-do_print
+info
 (
 "
 After
@@ -1112,7 +1112,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Bookmarked

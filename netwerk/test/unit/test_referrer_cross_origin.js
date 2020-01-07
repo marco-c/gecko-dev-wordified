@@ -72,7 +72,7 @@ test_policy
 test
 )
 {
-do_print
+info
 (
 "
 Running

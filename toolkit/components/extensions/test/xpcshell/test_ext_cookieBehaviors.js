@@ -348,7 +348,7 @@ test_ext_page_allowed_storage_on_cookieBehaviors
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -381,7 +381,7 @@ test_bg_page_allowed_storage
 (
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -414,7 +414,7 @@ test_bg_page_allowed_storage
 (
 )
 ;
-do_print
+info
 (
 "
 Test

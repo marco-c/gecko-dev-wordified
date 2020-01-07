@@ -556,7 +556,7 @@ removeInstallListener
 listener3
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

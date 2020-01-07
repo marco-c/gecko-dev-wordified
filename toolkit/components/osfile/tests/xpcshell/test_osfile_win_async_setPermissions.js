@@ -342,7 +342,7 @@ options
 null
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -383,7 +383,7 @@ stat
 path
 )
 ;
-do_print
+info
 (
 "
 Got
@@ -558,7 +558,7 @@ options
 null
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -593,7 +593,7 @@ stat
 (
 )
 ;
-do_print
+info
 (
 "
 Got

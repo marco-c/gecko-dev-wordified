@@ -4874,7 +4874,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Verify
@@ -4978,7 +4978,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Verify
@@ -5082,7 +5082,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Verify
@@ -5186,7 +5186,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Verify

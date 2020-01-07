@@ -192,7 +192,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 Got
@@ -284,7 +284,7 @@ length
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -377,7 +377,7 @@ initialContent
 =
 null
 ;
-do_print
+info
 (
 "
 Performing
@@ -406,7 +406,7 @@ content
 =
 >
 {
-do_print
+info
 (
 "
 Got
@@ -426,7 +426,7 @@ content
 }
 )
 ;
-do_print
+info
 (
 "
 Performing
@@ -477,7 +477,7 @@ cache
 }
 )
 ;
-do_print
+info
 (
 "
 Performing

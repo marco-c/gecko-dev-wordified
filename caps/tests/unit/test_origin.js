@@ -400,7 +400,7 @@ name
 attrs
 )
 {
-do_print
+info
 (
 name
 +

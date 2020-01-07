@@ -424,7 +424,7 @@ cpd
 cache
 "
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -702,7 +702,7 @@ startup
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

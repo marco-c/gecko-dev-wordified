@@ -1309,7 +1309,7 @@ cacheDuration
 8
 )
 ;
-do_print
+info
 (
 "
 completion
@@ -1452,7 +1452,7 @@ cacheDuration
 7
 )
 ;
-do_print
+info
 (
 "
 completion
@@ -1734,7 +1734,7 @@ cacheDuration
 7
 )
 ;
-do_print
+info
 (
 "
 completion

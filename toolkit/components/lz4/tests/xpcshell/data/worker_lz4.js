@@ -404,7 +404,7 @@ maxCompressedSize
 {
 try
 {
-do_print
+info
 (
 "
 Checking
@@ -433,7 +433,7 @@ k
 ]
 )
 ;
-do_print
+info
 (
 k
 +
@@ -452,7 +452,7 @@ ex
 /
 Ignore
 errors
-do_print
+info
 (
 k
 +
@@ -473,7 +473,7 @@ test_reference_file
 (
 )
 {
-do_print
+info
 (
 "
 Decompress
@@ -589,7 +589,7 @@ name
 array
 )
 {
-do_print
+info
 (
 "
 Raw
@@ -645,7 +645,7 @@ buffer
 compressedBytes
 )
 ;
-do_print
+info
 (
 "
 Raw
@@ -699,7 +699,7 @@ address
 )
 )
 ;
-do_print
+info
 (
 "
 Raw
@@ -711,7 +711,7 @@ success
 success
 )
 ;
-do_print
+info
 (
 "
 Raw
@@ -744,7 +744,7 @@ name
 array
 )
 {
-do_print
+info
 (
 "
 File
@@ -765,7 +765,7 @@ compressFileContent
 array
 )
 ;
-do_print
+info
 (
 "
 Compressed
@@ -795,7 +795,7 @@ decompressFileContent
 compressed
 )
 ;
-do_print
+info
 (
 "
 Decompressed
@@ -834,7 +834,7 @@ name
 array
 )
 {
-do_print
+info
 (
 "
 invalid

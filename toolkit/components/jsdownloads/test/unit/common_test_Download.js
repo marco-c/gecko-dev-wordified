@@ -750,7 +750,7 @@ with
 the
 platform
 .
-do_print
+info
 (
 "
 Expected
@@ -1862,7 +1862,7 @@ WINNT
 "
 )
 {
-do_print
+info
 (
 "
 Skipping
@@ -1921,7 +1921,7 @@ true
 ]
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -2317,7 +2317,7 @@ WINNT
 "
 )
 {
-do_print
+info
 (
 "
 Skipping
@@ -2694,7 +2694,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -3132,7 +3132,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -4547,7 +4547,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -7975,7 +7975,7 @@ the
 download
 finished
 .
-do_print
+info
 (
 "
 The
@@ -10106,7 +10106,7 @@ enforcePref
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -11297,7 +11297,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -11753,7 +11753,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -11971,7 +11971,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -12446,7 +12446,7 @@ blockFn
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -12928,7 +12928,7 @@ blockFn
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -13380,7 +13380,7 @@ blockFn
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -13943,7 +13943,7 @@ blockFn
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )

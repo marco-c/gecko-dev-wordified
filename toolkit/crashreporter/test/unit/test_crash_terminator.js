@@ -257,7 +257,7 @@ mdump
 extra
 )
 {
-do_print
+info
 (
 "
 Crash

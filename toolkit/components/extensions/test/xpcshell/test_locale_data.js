@@ -119,7 +119,7 @@ generateXPI
 data
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -277,7 +277,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -387,7 +387,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -456,7 +456,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -548,7 +548,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -619,7 +619,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -745,7 +745,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error
@@ -818,7 +818,7 @@ reported
 "
 )
 ;
-do_print
+info
 (
 Got
 error

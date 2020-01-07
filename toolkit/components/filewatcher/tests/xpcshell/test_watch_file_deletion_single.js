@@ -338,7 +338,7 @@ a
 notification
 )
 .
-do_print
+info
 (
 "
 Removing

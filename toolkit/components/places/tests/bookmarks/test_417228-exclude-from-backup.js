@@ -814,7 +814,7 @@ jsonFile
 restore
 json
 file
-do_print
+info
 (
 "
 Restoring
@@ -848,7 +848,7 @@ remove
 backup
 exclude
 entries
-do_print
+info
 (
 "
 Validating

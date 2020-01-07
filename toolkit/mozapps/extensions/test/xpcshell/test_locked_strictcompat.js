@@ -1758,7 +1758,7 @@ shutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Locking
@@ -3363,7 +3363,7 @@ shutdownError
 e
 ;
 }
-do_print
+info
 (
 "
 Unlocking
@@ -3708,7 +3708,7 @@ if
 shutdownError
 )
 {
-do_print
+info
 (
 "
 XPI
@@ -3752,7 +3752,7 @@ id
 }
 else
 {
-do_print
+info
 (
 "
 XPI

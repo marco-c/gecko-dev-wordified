@@ -632,7 +632,7 @@ between
 the
 values
 .
-do_print
+info
 (
 "
 Testing
@@ -720,7 +720,7 @@ canRecordExtended
 =
 true
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -1161,7 +1161,7 @@ rememberSignons
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

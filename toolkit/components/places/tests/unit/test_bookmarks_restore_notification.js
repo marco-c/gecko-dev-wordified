@@ -575,7 +575,7 @@ profileDir
 aBasename
 )
 ;
-do_print
+info
 (
 "
 opening
@@ -1022,7 +1022,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 JSON
@@ -1147,7 +1147,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 JSON
@@ -1250,7 +1250,7 @@ registerObservers
 false
 )
 ;
-do_print
+info
 (
 "
 JSON
@@ -1371,7 +1371,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 HTML
@@ -1498,7 +1498,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 HTML
@@ -1605,7 +1605,7 @@ registerObservers
 false
 )
 ;
-do_print
+info
 (
 "
 HTML
@@ -1725,7 +1725,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 HTML
@@ -1855,7 +1855,7 @@ registerObservers
 true
 )
 ;
-do_print
+info
 (
 "
 HTML
@@ -1963,7 +1963,7 @@ registerObservers
 false
 )
 ;
-do_print
+info
 (
 "
 HTML

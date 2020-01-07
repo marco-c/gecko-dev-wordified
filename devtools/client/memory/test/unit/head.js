@@ -394,7 +394,7 @@ EXPECTED_DTU_ASSERT_FAILURE_COUNT
 =
 0
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -687,7 +687,7 @@ getState
 .
 snapshots
 ;
-do_print
+info
 (
 snapshots
 .
@@ -747,7 +747,7 @@ state
 ;
 }
 ;
-do_print
+info
 (
 Waiting
 for
@@ -874,7 +874,7 @@ getState
 .
 snapshots
 ;
-do_print
+info
 (
 "
 Current
@@ -980,7 +980,7 @@ state
 ;
 }
 ;
-do_print
+info
 (
 Waiting
 for

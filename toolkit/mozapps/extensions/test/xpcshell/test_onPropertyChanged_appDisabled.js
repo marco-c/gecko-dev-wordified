@@ -180,7 +180,7 @@ userDisabled
 =
 true
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1
 )

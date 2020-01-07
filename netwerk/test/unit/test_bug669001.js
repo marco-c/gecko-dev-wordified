@@ -665,7 +665,7 @@ bug
 .
 .
 .
-do_execute_soon
+executeSoon
 (
 function
 (

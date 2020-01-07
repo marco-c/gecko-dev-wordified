@@ -19402,7 +19402,7 @@ j
 8
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -19452,7 +19452,7 @@ TypeError
 }
 else
 {
-do_print
+info
 (
 "
 Checking
@@ -19827,7 +19827,7 @@ j
 1
 ]
 ;
-do_print
+info
 (
 "
 Checking

@@ -418,7 +418,7 @@ idleservice
 idleService
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

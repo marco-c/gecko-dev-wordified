@@ -1111,7 +1111,7 @@ these
 files
 linger
 .
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -1652,7 +1652,7 @@ g
 )
 =
 >
-do_execute_soon
+executeSoon
 (
 handleCrash
 )
@@ -1980,7 +1980,7 @@ trigger
 )
 =
 >
-do_execute_soon
+executeSoon
 (
 handleCrash
 )

@@ -538,7 +538,7 @@ gNextTest
 =
 test_is_not_clicktoplay
 ;
-do_execute_soon
+executeSoon
 (
 gNextTest
 )
@@ -1306,7 +1306,7 @@ if
 (
 gNextTest
 )
-do_execute_soon
+executeSoon
 (
 gNextTest
 )
@@ -1462,7 +1462,7 @@ updated
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

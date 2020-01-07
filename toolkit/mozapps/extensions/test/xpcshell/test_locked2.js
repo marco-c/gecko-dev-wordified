@@ -1015,7 +1015,7 @@ shutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Locking
@@ -1650,7 +1650,7 @@ if
 shutdownError
 )
 {
-do_print
+info
 (
 "
 Previous
@@ -1697,7 +1697,7 @@ org
 }
 else
 {
-do_print
+info
 (
 "
 Previous

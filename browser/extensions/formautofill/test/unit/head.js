@@ -856,7 +856,7 @@ expectedResults
 sectionIndex
 ]
 ;
-do_print
+info
 (
 "
 FieldName
@@ -878,7 +878,7 @@ fieldName
 )
 )
 ;
-do_print
+info
 (
 "
 FieldName
@@ -1018,7 +1018,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1590,7 +1590,7 @@ after
 every
 test
 .
-do_register_cleanup
+registerCleanupFunction
 (
 function
 head_cleanup

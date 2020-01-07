@@ -449,7 +449,7 @@ __cleanup_per_test
 }
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup_per_test
 )
@@ -881,7 +881,7 @@ concat
 files
 )
 ;
-do_print
+info
 (
 '
 Running
@@ -1119,7 +1119,7 @@ mar
 path
 ]
 ;
-do_print
+info
 (
 '
 Running

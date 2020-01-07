@@ -1777,7 +1777,7 @@ now
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -1878,7 +1878,7 @@ now
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -2154,7 +2154,7 @@ init
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test0thru7
 )
@@ -3051,7 +3051,7 @@ TESTS
 notified
 )
 {
-do_execute_soon
+executeSoon
 (
 gNextFunc
 )
@@ -3515,7 +3515,7 @@ registered
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test8thru10
 )

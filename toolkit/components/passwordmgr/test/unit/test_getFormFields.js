@@ -937,7 +937,7 @@ of
 TESTCASES
 )
 {
-do_print
+info
 (
 "
 Sanity
@@ -969,7 +969,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting

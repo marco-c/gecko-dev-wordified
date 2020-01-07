@@ -360,7 +360,7 @@ startupManager
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 promiseShutdownManager
 )

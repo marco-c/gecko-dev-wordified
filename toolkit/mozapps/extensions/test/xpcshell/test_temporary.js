@@ -267,7 +267,7 @@ event
 }
 else
 {
-do_print
+info
 (
 Ignoring
 bootstrap

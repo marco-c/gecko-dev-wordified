@@ -72,7 +72,7 @@ dateString
 expectedTime
 )
 {
-do_print
+info
 (
 {
 attributeName

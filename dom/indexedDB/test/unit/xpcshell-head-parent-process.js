@@ -173,7 +173,7 @@ executeSoon
 fun
 )
 {
-do_execute_soon
+executeSoon
 (
 fun
 )
@@ -205,7 +205,7 @@ name
 message
 )
 {
-do_print
+info
 (
 name
 )
@@ -349,7 +349,7 @@ removeFiles
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -382,7 +382,7 @@ continueToNextStep
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

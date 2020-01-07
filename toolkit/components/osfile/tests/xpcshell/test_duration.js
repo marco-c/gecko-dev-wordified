@@ -204,7 +204,7 @@ of
 durations
 )
 {
-do_print
+info
 (
 Checking
 {
@@ -218,7 +218,7 @@ name
 }
 )
 ;
-do_print
+info
 (
 {
 name
@@ -295,7 +295,7 @@ of
 durations
 )
 {
-do_print
+info
 (
 Checking
 {
@@ -310,7 +310,7 @@ name
 }
 )
 ;
-do_print
+info
 (
 {
 name
@@ -330,7 +330,7 @@ duration
 ms
 )
 ;
-do_print
+info
 (
 {
 name
@@ -636,7 +636,7 @@ remove
 pathDest
 )
 ;
-do_print
+info
 (
 Ensuring
 that

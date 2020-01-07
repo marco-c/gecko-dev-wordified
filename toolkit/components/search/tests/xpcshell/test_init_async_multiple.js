@@ -144,7 +144,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -157,7 +157,7 @@ do_test_pending
 (
 )
 ;
-do_print
+info
 (
 "
 Test

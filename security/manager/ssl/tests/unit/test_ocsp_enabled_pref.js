@@ -244,7 +244,7 @@ enabled
 0
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -430,7 +430,7 @@ enabled
 1
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -683,7 +683,7 @@ enabled
 2
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -871,7 +871,7 @@ run_test
 (
 )
 {
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

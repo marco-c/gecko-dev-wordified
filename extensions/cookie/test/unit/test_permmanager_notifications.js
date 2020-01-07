@@ -255,7 +255,7 @@ we
 left
 off
 .
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -296,7 +296,7 @@ changed
 '
 notification
 .
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -337,7 +337,7 @@ deleted
 '
 notification
 .
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -368,7 +368,7 @@ cleared
 '
 notification
 .
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -338,7 +338,7 @@ false
 true
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )
@@ -407,7 +407,7 @@ createSymlink
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 removeSymlink
 )

@@ -397,7 +397,7 @@ test_replaceFaviconData_validHistoryURI
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -578,7 +578,7 @@ test_replaceFaviconData_overrideDefaultFavicon
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -767,7 +767,7 @@ test_replaceFaviconData_replaceExisting
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -989,7 +989,7 @@ test_replaceFaviconData_unrelatedReplace
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -1178,7 +1178,7 @@ test_replaceFaviconData_badInputs
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -1353,7 +1353,7 @@ test_replaceFaviconData_twiceReplace
 (
 )
 {
-do_print
+info
 (
 "
 test

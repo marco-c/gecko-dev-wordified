@@ -239,7 +239,7 @@ readFileData
 file
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -281,7 +281,7 @@ data
 data
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -324,7 +324,7 @@ size
 )
 )
 ;
-do_print
+info
 (
 "
 Check

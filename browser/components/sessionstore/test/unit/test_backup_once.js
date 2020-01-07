@@ -307,7 +307,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -398,7 +398,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -588,7 +588,7 @@ test_1
 "
 )
 ;
-do_print
+info
 (
 "
 Before
@@ -661,7 +661,7 @@ write
 new_content
 )
 ;
-do_print
+info
 (
 "
 After

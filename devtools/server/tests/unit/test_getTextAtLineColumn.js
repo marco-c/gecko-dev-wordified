@@ -198,7 +198,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -211,7 +211,7 @@ test
 desc
 )
 ;
-do_print
+info
 (
 "
 Input

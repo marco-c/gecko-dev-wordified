@@ -854,7 +854,7 @@ function
 outstream
 )
 {
-do_print
+info
 (
 "
 outputstream
@@ -912,7 +912,7 @@ next
 return
 ;
 }
-do_print
+info
 (
 "
 no
@@ -935,7 +935,7 @@ function
 instream
 )
 {
-do_print
+info
 (
 "
 inputstream
@@ -1272,7 +1272,7 @@ host
 next
 )
 {
-do_print
+info
 (
 host
 )
@@ -1822,7 +1822,7 @@ proxyHost
 next
 )
 {
-do_print
+info
 (
 "
 Proxy
@@ -2455,7 +2455,7 @@ do_test_finished
 return
 ;
 }
-do_print
+info
 (
 "
 SpeculativeConnect

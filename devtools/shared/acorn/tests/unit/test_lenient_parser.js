@@ -78,7 +78,7 @@ x
 }
 )
 ;
-do_print
+info
 (
 "
 Actual
@@ -87,7 +87,7 @@ AST
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -99,7 +99,7 @@ null
 )
 )
 ;
-do_print
+info
 (
 "
 Expected
@@ -108,7 +108,7 @@ AST
 "
 )
 ;
-do_print
+info
 (
 JSON
 .

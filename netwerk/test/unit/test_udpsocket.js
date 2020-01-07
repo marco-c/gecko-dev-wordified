@@ -130,7 +130,7 @@ test_udp_message_raw_data
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -184,7 +184,7 @@ getSystemPrincipal
 )
 )
 ;
-do_print
+info
 (
 "
 Port
@@ -365,7 +365,7 @@ test_udp_send_stream
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -558,7 +558,7 @@ test_udp_message_zero_length
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -613,7 +613,7 @@ getSystemPrincipal
 )
 )
 ;
-do_print
+info
 (
 "
 Port

@@ -656,7 +656,7 @@ bugzilla
 ]
 }
 ;
-do_print
+info
 (
 "
 Adding
@@ -674,7 +674,7 @@ change1
 ]
 )
 ;
-do_print
+info
 (
 "
 These
@@ -722,7 +722,7 @@ removing
 search
 term
 .
-do_print
+info
 (
 "
 Updating
@@ -866,7 +866,7 @@ tag
 updates
 us
 .
-do_print
+info
 (
 "
 Deleting

@@ -279,7 +279,7 @@ userDisabled
 =
 true
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -350,7 +350,7 @@ Name
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -562,7 +562,7 @@ Contributor
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -652,7 +652,7 @@ description
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -753,7 +753,7 @@ userDisabled
 =
 false
 ;
-do_execute_soon
+executeSoon
 (
 run_test_7
 )
@@ -821,7 +821,7 @@ prefs
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -951,7 +951,7 @@ Contributor
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

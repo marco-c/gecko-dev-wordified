@@ -339,7 +339,7 @@ testLet
 sandbox
 )
 ;
-do_print
+info
 (
 "
 Running
@@ -355,7 +355,7 @@ dbgObject
 null
 )
 ;
-do_print
+info
 (
 "
 Running
@@ -379,7 +379,7 @@ dbgObject
 dbgEnv
 )
 {
-do_print
+info
 (
 "
 Test
@@ -422,7 +422,7 @@ dbgObject
 null
 )
 {
-do_print
+info
 (
 "
 Test
@@ -458,7 +458,7 @@ testObject
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -495,7 +495,7 @@ results
 )
 ;
 }
-do_print
+info
 (
 "
 Testing
@@ -587,7 +587,7 @@ a
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -634,7 +634,7 @@ propA
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -675,7 +675,7 @@ propE
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -718,7 +718,7 @@ indexOf
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -757,7 +757,7 @@ indexOf
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -802,7 +802,7 @@ indexOf
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -907,7 +907,7 @@ charAt
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1015,7 +1015,7 @@ null
 results
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1095,7 +1095,7 @@ test_has_no_results
 results
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1131,7 +1131,7 @@ null
 results
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1175,7 +1175,7 @@ null
 results
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1313,7 +1313,7 @@ null
 results
 )
 ;
-do_print
+info
 (
 "
 Test

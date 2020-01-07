@@ -602,7 +602,7 @@ of
 this
 test
 .
-do_print
+info
 (
 "
 Could

@@ -180,7 +180,7 @@ a
 ]
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -235,7 +235,7 @@ b
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -274,7 +274,7 @@ a
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -313,7 +313,7 @@ b
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -352,7 +352,7 @@ a
 }
 )
 ;
-do_print
+info
 (
 "
 Sanity

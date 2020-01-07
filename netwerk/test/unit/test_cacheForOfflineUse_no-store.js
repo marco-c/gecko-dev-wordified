@@ -322,7 +322,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 normalHandler
@@ -454,7 +454,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 noStoreHandler

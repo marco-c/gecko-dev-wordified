@@ -1511,7 +1511,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 "
 Failed
@@ -1639,7 +1639,7 @@ exists
 )
 )
 {
-do_print
+info
 (
 "
 Staged
@@ -1656,7 +1656,7 @@ do_test_finished
 )
 ;
 }
-do_print
+info
 (
 "
 Waiting

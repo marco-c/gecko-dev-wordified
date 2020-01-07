@@ -810,7 +810,7 @@ rememberSignons
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -183,7 +183,7 @@ lag
 gotLagEvent
 )
 ;
-do_execute_soon
+executeSoon
 (
 lag
 )
@@ -279,7 +279,7 @@ gotLagEvent
 time
 )
 {
-do_print
+info
 (
 "
 lag

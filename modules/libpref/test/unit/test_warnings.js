@@ -232,7 +232,7 @@ complete
 =
 true
 ;
-do_print
+info
 (
 "
 Warning
@@ -277,7 +277,7 @@ complete
 =
 true
 ;
-do_print
+info
 (
 "
 No
@@ -350,7 +350,7 @@ t
 cause
 a
 warning
-do_print
+info
 (
 "
 Checking
@@ -405,7 +405,7 @@ should
 cause
 a
 warning
-do_print
+info
 (
 "
 Checking

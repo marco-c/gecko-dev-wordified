@@ -540,7 +540,7 @@ after
 every
 test
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

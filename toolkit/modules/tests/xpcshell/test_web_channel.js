@@ -490,7 +490,7 @@ perms
 ALLOW_ACTION
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

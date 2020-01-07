@@ -130,7 +130,7 @@ DIRECTORY_TYPE
 0o755
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -826,7 +826,7 @@ startupManager
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 promiseShutdownManager
 )

@@ -330,7 +330,7 @@ return
 true
 ;
 }
-do_print
+info
 (
 a
 +
@@ -720,7 +720,7 @@ expected
 i
 ]
 ;
-do_print
+info
 (
 "
 Checking
@@ -1000,7 +1000,7 @@ clear
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )

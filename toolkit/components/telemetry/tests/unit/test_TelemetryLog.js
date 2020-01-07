@@ -101,7 +101,7 @@ id
 data
 )
 {
-do_print
+info
 (
 "
 Checking

@@ -116,7 +116,7 @@ deprecated
 1
 )
 {
-do_print
+info
 (
 "
 Deprecation

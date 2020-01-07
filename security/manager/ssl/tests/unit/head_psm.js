@@ -1471,7 +1471,7 @@ optional
 hostname
 )
 {
-do_print
+info
 (
 cert
 cn
@@ -1483,7 +1483,7 @@ commonName
 }
 )
 ;
-do_print
+info
 (
 cert
 issuer
@@ -1581,7 +1581,7 @@ optional
 hostname
 )
 {
-do_print
+info
 (
 cert
 cn
@@ -1593,7 +1593,7 @@ commonName
 }
 )
 ;
-do_print
+info
 (
 cert
 issuer
@@ -3498,7 +3498,7 @@ function
 conn
 )
 {
-do_print
+info
 (
 "
 handling
@@ -4114,7 +4114,7 @@ responseBody
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -4264,7 +4264,7 @@ path
 1
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -4517,7 +4517,7 @@ push
 filename
 )
 ;
-do_print
+info
 (
 "
 argArray
@@ -5118,7 +5118,7 @@ aRequest
 aResponse
 )
 {
-do_print
+info
 (
 "
 got
@@ -5585,7 +5585,7 @@ if
 aExpectedErrorRegexp
 )
 {
-do_print
+info
 (
 aSecurityInfo
 .
@@ -6771,7 +6771,7 @@ Ci
 nsIPKCS11ModuleDB
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

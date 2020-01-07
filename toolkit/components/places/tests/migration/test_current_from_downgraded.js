@@ -108,7 +108,7 @@ dbFile
 )
 )
 {
-do_print
+info
 (
 "
 Using

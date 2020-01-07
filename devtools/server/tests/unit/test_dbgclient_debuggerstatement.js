@@ -143,7 +143,7 @@ test_threadAttach
 threadActorID
 )
 {
-do_print
+info
 (
 "
 Trying

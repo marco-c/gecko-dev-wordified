@@ -1157,7 +1157,7 @@ testcase
 fullName
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1215,7 +1215,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 "
 Starting

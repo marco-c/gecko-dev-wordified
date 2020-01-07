@@ -1013,7 +1013,7 @@ of
 TESTCASES
 )
 {
-do_print
+info
 (
 "
 Sanity
@@ -1045,7 +1045,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1162,7 +1162,7 @@ are
 the
 same
 .
-do_print
+info
 (
 "
 Checking
@@ -1280,7 +1280,7 @@ formLikeFromInput
 rootElement
 )
 ;
-do_print
+info
 (
 "
 Checking

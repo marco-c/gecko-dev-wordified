@@ -201,7 +201,7 @@ f
 (
 )
 ;
-do_print
+info
 (
 "
 Failed
@@ -239,7 +239,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -248,7 +248,7 @@ paths
 "
 )
 ;
-do_print
+info
 (
 "
 Backslash
@@ -817,7 +817,7 @@ winGetDrive
 null
 )
 ;
-do_print
+info
 (
 "
 Backslash
@@ -1888,7 +1888,7 @@ c
 "
 )
 ;
-do_print
+info
 (
 "
 Forwardslash
@@ -2082,7 +2082,7 @@ f
 "
 )
 ;
-do_print
+info
 (
 "
 Forwardslash
@@ -2358,7 +2358,7 @@ f
 "
 )
 ;
-do_print
+info
 (
 "
 Backslash
@@ -2985,7 +2985,7 @@ c
 "
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -3439,7 +3439,7 @@ bar
 "
 )
 ;
-do_print
+info
 (
 "
 Testing

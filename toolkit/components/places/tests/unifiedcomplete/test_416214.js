@@ -151,7 +151,7 @@ test_tag_match_url
 (
 )
 {
-do_print
+info
 (
 "
 Make

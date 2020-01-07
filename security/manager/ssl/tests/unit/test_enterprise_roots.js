@@ -366,7 +366,7 @@ cert
 .
 dbKey
 ;
-do_print
+info
 (
 "
 saving

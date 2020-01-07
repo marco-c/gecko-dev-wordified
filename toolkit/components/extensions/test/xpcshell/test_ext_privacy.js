@@ -547,7 +547,7 @@ pref
 ;
 }
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2093,7 +2093,7 @@ pref
 ;
 }
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

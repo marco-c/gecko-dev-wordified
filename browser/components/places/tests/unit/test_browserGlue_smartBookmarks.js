@@ -185,7 +185,7 @@ run_next_test
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -472,7 +472,7 @@ test_version_0
 (
 )
 {
-do_print
+info
 (
 "
 All
@@ -642,7 +642,7 @@ test_version_change
 (
 )
 {
-do_print
+info
 (
 "
 An
@@ -946,7 +946,7 @@ test_version_change_pos
 (
 )
 {
-do_print
+info
 (
 "
 bookmarks
@@ -1178,7 +1178,7 @@ test_version_change_pos_moved
 (
 )
 {
-do_print
+info
 (
 "
 moved
@@ -1526,7 +1526,7 @@ test_recreation
 (
 )
 {
-do_print
+info
 (
 "
 An
@@ -1720,7 +1720,7 @@ test_recreation_version_0
 (
 )
 {
-do_print
+info
 (
 "
 Even

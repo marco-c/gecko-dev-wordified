@@ -355,7 +355,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Splitting
@@ -375,7 +375,7 @@ value
 splitChar
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -420,7 +420,7 @@ i
 +
 )
 {
-do_print
+info
 (
 "
 Checking

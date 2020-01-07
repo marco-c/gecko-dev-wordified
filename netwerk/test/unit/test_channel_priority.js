@@ -612,7 +612,7 @@ startHttpServer
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 stopHttpServer
 )

@@ -1020,7 +1020,7 @@ getAllAddons
 (
 )
 ;
-do_print
+info
 (
 Found
 these

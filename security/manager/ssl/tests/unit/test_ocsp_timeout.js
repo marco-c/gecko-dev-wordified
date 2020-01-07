@@ -584,7 +584,7 @@ endTime
 -
 startTime
 ;
-do_print
+info
 (
 useHardFail
 =
@@ -593,7 +593,7 @@ useHardFail
 }
 )
 ;
-do_print
+info
 (
 startTime
 =
@@ -611,7 +611,7 @@ startTime
 )
 )
 ;
-do_print
+info
 (
 endTime
 =
@@ -629,7 +629,7 @@ endTime
 )
 )
 ;
-do_print
+info
 (
 timeDifference
 =

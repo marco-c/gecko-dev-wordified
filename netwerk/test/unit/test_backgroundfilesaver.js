@@ -1978,7 +1978,7 @@ currentFile
 =
 null
 ;
-do_print
+info
 (
 "
 Target
@@ -2100,7 +2100,7 @@ now
 (
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -2629,7 +2629,7 @@ false
 ;
 }
 }
-do_print
+info
 (
 "
 Test

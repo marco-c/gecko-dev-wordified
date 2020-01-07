@@ -179,7 +179,7 @@ DoubleLexer
 input
 )
 {
-do_print
+info
 (
 "
 DoubleLexer
@@ -1436,7 +1436,7 @@ nextToken
 Nothing
 .
 }
-do_print
+info
 (
 "
 EOF

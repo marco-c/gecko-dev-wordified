@@ -660,7 +660,7 @@ nsCertificateDialogs
 gCertificateDialogs
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

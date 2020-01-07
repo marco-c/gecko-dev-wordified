@@ -177,7 +177,7 @@ checkFilesAfterUpdateFailure
 getApplyDirFile
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

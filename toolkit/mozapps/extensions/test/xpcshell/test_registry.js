@@ -274,7 +274,7 @@ MockRegistry
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -504,7 +504,7 @@ AddonManager
 SCOPE_USER
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -641,7 +641,7 @@ a2
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -789,7 +789,7 @@ a2
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -1068,7 +1068,7 @@ a2
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

@@ -283,7 +283,7 @@ serializeBasicCardResponseData
 expected
 )
 ;
-do_print
+info
 (
 actual
 .

@@ -121,7 +121,7 @@ Ci
 nsIX509CertDB
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

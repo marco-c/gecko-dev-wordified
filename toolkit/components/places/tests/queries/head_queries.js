@@ -1219,7 +1219,7 @@ instantiation
 of
 qdata
 failed
-do_print
+info
 (
 "
 Problem
@@ -1970,7 +1970,7 @@ aArray
 aRoot
 )
 {
-do_print
+info
 (
 "
 Comparing
@@ -2060,7 +2060,7 @@ moz_historyvisits
 "
 )
 ;
-do_print
+info
 (
 "
 Found
@@ -2087,7 +2087,7 @@ i
 +
 )
 {
-do_print
+info
 (
 aRoot
 .
@@ -2100,7 +2100,7 @@ uri
 )
 ;
 }
-do_print
+info
 (
 "
 Expected
@@ -2135,7 +2135,7 @@ i
 .
 isInQuery
 )
-do_print
+info
 (
 aArray
 [
@@ -2246,7 +2246,7 @@ i
 isSeparator
 )
 {
-do_print
+info
 (
 "
 testing
@@ -2498,7 +2498,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 Comparing
@@ -2835,7 +2835,7 @@ Empty
 result
 set
 ?
-do_print
+info
 (
 "
 Result
@@ -2865,7 +2865,7 @@ childCount
 i
 )
 {
-do_print
+info
 (
 "
 Result

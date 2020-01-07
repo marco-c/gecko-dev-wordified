@@ -233,7 +233,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

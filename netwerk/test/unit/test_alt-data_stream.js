@@ -613,7 +613,7 @@ alternativeDataType
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -647,7 +647,7 @@ altContent
 firstChunkSize
 )
 ;
-do_execute_soon
+executeSoon
 (
 openAltChannel
 )

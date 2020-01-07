@@ -83,7 +83,7 @@ afterSessionStartupInitialization
 cb
 )
 {
-do_print
+info
 (
 "
 Waiting
@@ -103,7 +103,7 @@ function
 {
 try
 {
-do_print
+info
 (
 "
 Session

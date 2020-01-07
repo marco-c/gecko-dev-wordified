@@ -1302,7 +1302,7 @@ run_next_test
 /
 Teardown
 .
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

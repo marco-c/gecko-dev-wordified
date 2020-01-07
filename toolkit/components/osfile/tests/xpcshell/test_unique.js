@@ -114,7 +114,7 @@ openUnique
 path
 )
 ;
-do_print
+info
 (
 "
 \
@@ -233,7 +233,7 @@ openUnique
 path
 )
 ;
-do_print
+info
 (
 "
 \
@@ -428,7 +428,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 \
@@ -644,7 +644,7 @@ exn
 ex
 ;
 }
-do_print
+info
 (
 "
 Ensure

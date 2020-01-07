@@ -117,7 +117,7 @@ eraseEverything
 (
 )
 ;
-do_print
+info
 (
 "
 Adding
@@ -179,7 +179,7 @@ added
 "
 )
 ;
-do_print
+info
 (
 "
 Generating
@@ -341,7 +341,7 @@ onDeleteURICalled
 false
 }
 ;
-do_print
+info
 (
 "
 Pushing
@@ -421,7 +421,7 @@ added
 )
 ;
 }
-do_print
+info
 (
 "
 Mixing
@@ -986,7 +986,7 @@ addObserver
 observer
 )
 ;
-do_print
+info
 (
 "
 Removing
@@ -1139,7 +1139,7 @@ removeObserver
 observer
 )
 ;
-do_print
+info
 (
 "
 Checking

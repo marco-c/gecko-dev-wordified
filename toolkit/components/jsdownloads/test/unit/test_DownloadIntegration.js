@@ -317,7 +317,7 @@ allowDirectories
 false
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -864,7 +864,7 @@ dirPrefName
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanupPrefs
 )
@@ -1481,7 +1481,7 @@ allowObservers
 =
 true
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

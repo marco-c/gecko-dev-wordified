@@ -284,7 +284,7 @@ in
 SCHEMES
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -306,7 +306,7 @@ history
 TRANSITIONS
 )
 {
-do_print
+info
 (
 "
 With
@@ -394,7 +394,7 @@ handleCompletion
 (
 )
 {
-do_print
+info
 (
 "
 Added

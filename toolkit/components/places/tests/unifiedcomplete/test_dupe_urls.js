@@ -49,7 +49,7 @@ test_dupe_urls
 (
 )
 {
-do_print
+info
 (
 "
 Searching

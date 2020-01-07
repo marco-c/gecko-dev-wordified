@@ -1015,7 +1015,7 @@ onUpdateFinished
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 run_test_1
 )
@@ -1597,7 +1597,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1_modified_db
 )
@@ -2201,7 +2201,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1_after_rebuild
 )

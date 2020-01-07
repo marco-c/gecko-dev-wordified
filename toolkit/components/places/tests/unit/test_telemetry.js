@@ -1236,7 +1236,7 @@ in
 histograms
 )
 {
-do_print
+info
 (
 "
 checking

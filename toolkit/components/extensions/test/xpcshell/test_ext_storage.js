@@ -1338,7 +1338,7 @@ STORAGE_SYNC_PREF
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

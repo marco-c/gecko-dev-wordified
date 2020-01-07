@@ -1831,7 +1831,7 @@ addon
 a2
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_3
 )
@@ -2353,7 +2353,7 @@ this
 sawUpdate
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_5
 )
@@ -3984,7 +3984,7 @@ count
 =
 0
 )
-do_execute_soon
+executeSoon
 (
 next_test
 )
@@ -4031,7 +4031,7 @@ count
 =
 0
 )
-do_execute_soon
+executeSoon
 (
 next_test
 )
@@ -4813,7 +4813,7 @@ addon
 isCompatible
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_13
 )
@@ -5382,7 +5382,7 @@ install
 aInstall
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_14
 )
@@ -6004,7 +6004,7 @@ org
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_15
 )
@@ -6206,7 +6206,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install_2_1_ended
@@ -6293,7 +6293,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install_2_2_ended
@@ -7395,7 +7395,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -8949,7 +8949,7 @@ v
 "
 )
 ;
-do_print
+info
 (
 JSON
 .

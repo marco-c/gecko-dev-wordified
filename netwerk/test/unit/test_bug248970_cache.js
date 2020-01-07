@@ -265,7 +265,7 @@ entries
 length
 )
 {
-do_execute_soon
+executeSoon
 (
 store_cb
 )
@@ -456,7 +456,7 @@ store_idx
 +
 +
 ;
-do_execute_soon
+executeSoon
 (
 store_entries
 )
@@ -509,7 +509,7 @@ entries
 length
 )
 {
-do_execute_soon
+executeSoon
 (
 check_cb
 )
@@ -584,7 +584,7 @@ check_idx
 +
 +
 ;
-do_execute_soon
+executeSoon
 (
 check_entries
 )

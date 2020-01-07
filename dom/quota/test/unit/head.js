@@ -120,7 +120,7 @@ name
 message
 )
 {
-do_print
+info
 (
 name
 )
@@ -202,7 +202,7 @@ resetTesting
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -234,7 +234,7 @@ continueToNextStep
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -250,7 +250,7 @@ changed
 "
 )
 ;
-do_print
+info
 (
 "
 Verifying
@@ -349,7 +349,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 A
@@ -664,7 +664,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 A
@@ -807,7 +807,7 @@ AddonManager
 OP_NEEDS_RESTART_ENABLE
 )
 ;
-do_print
+info
 (
 needsRestart
 )
@@ -1061,7 +1061,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 A

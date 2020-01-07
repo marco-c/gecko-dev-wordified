@@ -839,7 +839,7 @@ of
 TESTS_SPACE_INDENT
 )
 {
-do_print
+info
 (
 test
 .
@@ -922,7 +922,7 @@ of
 TESTS_TAB_INDENT
 )
 {
-do_print
+info
 (
 test
 .

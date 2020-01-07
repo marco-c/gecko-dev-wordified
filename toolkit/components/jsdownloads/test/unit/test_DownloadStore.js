@@ -1816,7 +1816,7 @@ throw
 ex
 ;
 }
-do_print
+info
 (
 "
 The

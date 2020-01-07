@@ -410,7 +410,7 @@ noparam
 }
 )
 ;
-do_print
+info
 (
 "
 Plain
@@ -493,7 +493,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Plain
@@ -555,7 +555,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Multi
@@ -644,7 +644,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -732,7 +732,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Unescaped
@@ -858,7 +858,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -945,7 +945,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -1029,7 +1029,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -1113,7 +1113,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 POST
@@ -1202,7 +1202,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Bug
@@ -1290,7 +1290,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 escaping
@@ -1385,7 +1385,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 escaping
@@ -1480,7 +1480,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Bug
@@ -1585,7 +1585,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Bug

@@ -86,7 +86,7 @@ finish_test
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

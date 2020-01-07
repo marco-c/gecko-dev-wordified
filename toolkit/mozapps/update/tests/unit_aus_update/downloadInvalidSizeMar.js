@@ -146,7 +146,7 @@ standardInit
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_pt1
 )
@@ -383,7 +383,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )
