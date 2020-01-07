@@ -173,6 +173,8 @@ TimeScale
 (
 animationInspector
 .
+state
+.
 animations
 )
 ;

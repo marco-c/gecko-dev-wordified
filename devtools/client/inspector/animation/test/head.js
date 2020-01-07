@@ -1346,6 +1346,8 @@ if
 (
 animationInspector
 .
+state
+.
 animations
 .
 length
@@ -1424,6 +1426,8 @@ i
 <
 animationInspector
 .
+state
+.
 animations
 .
 length
@@ -1491,6 +1495,8 @@ i
 i
 <
 animationInspector
+.
+state
 .
 animations
 .
