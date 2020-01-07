@@ -212,6 +212,7 @@ guide
 *
 /
 static
+const
 Accessible
 *
 sInitiatorAcc
@@ -310,6 +311,7 @@ nsTextEquivUtils
 :
 GetNameFromSubtree
 (
+const
 Accessible
 *
 aAccessible
@@ -424,6 +426,7 @@ nsTextEquivUtils
 :
 GetTextEquivFromIDRefs
 (
+const
 Accessible
 *
 aAccessible
@@ -535,6 +538,7 @@ nsTextEquivUtils
 :
 AppendTextEquivFromContent
 (
+const
 Accessible
 *
 aInitiatorAcc
@@ -1151,6 +1155,7 @@ nsTextEquivUtils
 :
 AppendFromAccessibleChildren
 (
+const
 Accessible
 *
 aAccessible
