@@ -1586,7 +1586,7 @@ mozInnerScreenY
 ;
 menu
 .
-popup
+popupWithZoom
 (
 rect
 .
