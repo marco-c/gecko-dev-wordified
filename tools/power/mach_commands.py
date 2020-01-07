@@ -1052,6 +1052,10 @@ kernel
 line
 )
 :
+#
+NOQA
+:
+E501
                 
 print
 (

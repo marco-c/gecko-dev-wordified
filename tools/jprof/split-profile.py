@@ -365,6 +365,7 @@ RuleProcessorData
 :
 :
 RuleProcessorData
+#
 (
 nsPresContext
 *
@@ -375,6 +376,7 @@ nsRuleWalker
 nsCompatibility
 *
 )
+#
 #
 #
 From
