@@ -1572,7 +1572,7 @@ true
 SET_DEFAULT
 (
 spectreStringMitigations
-false
+true
 )
 ;
 /
