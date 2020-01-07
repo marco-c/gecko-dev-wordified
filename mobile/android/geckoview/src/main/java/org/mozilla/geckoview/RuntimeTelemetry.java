@@ -548,8 +548,6 @@ of
 {
 link
 #
-RuntimeTelemetry
-.
 DATASET_BASE
 DATASET_
 *
@@ -635,8 +633,6 @@ of
 {
 link
 #
-RuntimeTelemetry
-.
 SNAPSHOT_HISTOGRAMS
 SNAPSHOT_
 *
@@ -658,8 +654,6 @@ of
 {
 link
 #
-RuntimeTelemetry
-.
 DATASET_BASE
 DATASET_
 *
