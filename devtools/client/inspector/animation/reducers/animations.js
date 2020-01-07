@@ -89,6 +89,9 @@ animations
 :
 [
 ]
+detailVisibility
+:
+false
 elementPickerEnabled
 :
 false
@@ -169,6 +172,13 @@ selectedAnimation
 }
 )
 {
+const
+detailVisibility
+=
+!
+!
+selectedAnimation
+;
 return
 Object
 .
@@ -178,6 +188,7 @@ assign
 }
 state
 {
+detailVisibility
 selectedAnimation
 }
 )
