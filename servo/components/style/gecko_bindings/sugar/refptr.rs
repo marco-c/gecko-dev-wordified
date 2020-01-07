@@ -1832,7 +1832,7 @@ ident
 )
 =
 >
-(
+{
 unsafe
 impl
 RefCounted
@@ -1900,7 +1900,7 @@ _
 )
 }
 }
-)
+}
 ;
 }
 /
@@ -1940,7 +1940,7 @@ ident
 )
 =
 >
-(
+{
 impl_refcount
 !
 (
@@ -1956,7 +1956,7 @@ for
 t
 {
 }
-)
+}
 ;
 }
 impl_threadsafe_refcount

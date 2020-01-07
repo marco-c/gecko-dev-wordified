@@ -472,6 +472,7 @@ write_str
 auto
 "
 )
+;
 }
 if
 self
@@ -663,6 +664,7 @@ Ok
 (
 grid_line
 )
+;
 }
 /
 /
@@ -831,6 +833,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 if
 grid_line
@@ -947,6 +950,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 grid_line
 .
@@ -1032,6 +1036,7 @@ name
 else
 {
 break
+;
 }
 }
 if
@@ -1054,6 +1059,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 if
 grid_line
@@ -1102,6 +1108,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 else
@@ -1133,6 +1140,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 Ok
@@ -1175,12 +1183,6 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -1852,6 +1854,7 @@ is_fixed
 {
 return
 true
+;
 /
 /
 the
@@ -2422,7 +2425,6 @@ b
 )
 =
 >
-{
 TrackSize
 :
 :
@@ -2435,7 +2437,6 @@ to_computed_value
 context
 )
 )
-}
 TrackSize
 :
 :
@@ -2478,7 +2479,6 @@ lop
 )
 =
 >
-{
 TrackSize
 :
 :
@@ -2491,7 +2491,6 @@ to_computed_value
 context
 )
 )
-}
 }
 }
 #
@@ -2554,7 +2553,6 @@ b2
 )
 =
 >
-{
 TrackSize
 :
 :
@@ -2575,7 +2573,6 @@ from_computed_value
 b2
 )
 )
-}
 TrackSize
 :
 :
@@ -5259,6 +5256,7 @@ names
 else
 {
 break
+;
 }
 }
 Ok

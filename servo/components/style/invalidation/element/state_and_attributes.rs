@@ -1927,6 +1927,7 @@ self
 .
 data
 )
+;
 }
 match
 element

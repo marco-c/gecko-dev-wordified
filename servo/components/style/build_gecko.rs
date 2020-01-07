@@ -322,8 +322,8 @@ collections
 :
 :
 {
-HashSet
 HashMap
+HashSet
 }
 ;
 use
@@ -376,8 +376,8 @@ process
 :
 :
 {
-Command
 exit
+Command
 }
 ;
 use
@@ -1824,7 +1824,6 @@ and_then
 |
 _
 |
-{
 env
 :
 :
@@ -1849,7 +1848,6 @@ MOZ_SRC
 "
 )
 )
-}
 )
 .
 map
@@ -1871,7 +1869,6 @@ path
 )
 =
 >
-{
 builder
 .
 with_rustfmt
@@ -1899,11 +1896,9 @@ rustfmt
 "
 )
 )
-}
 None
 =
 >
-{
 builder
 .
 rustfmt_bindings
@@ -1922,7 +1917,6 @@ is_some
 (
 )
 )
-}
 }
 ;
 for
@@ -3001,6 +2995,7 @@ map
 |
 line
 |
+{
 re
 .
 captures
@@ -3048,6 +3043,7 @@ as_str
 to_string
 (
 )
+}
 )
 .
 collect
@@ -3721,6 +3717,7 @@ and_then
 |
 regex
 |
+{
 if
 regex
 .
@@ -3740,6 +3737,7 @@ Constify
 else
 {
 None
+}
 }
 )
 }

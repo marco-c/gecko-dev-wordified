@@ -1251,6 +1251,7 @@ self
 .
 results
 )
+;
 }
 true
 }
@@ -2122,7 +2123,6 @@ lower_name
 )
 =
 >
-{
 collect_all_elements
 :
 :
@@ -2175,7 +2175,6 @@ borrow
 }
 }
 )
-}
 /
 /
 TODO
@@ -2190,14 +2189,12 @@ paths
 _
 =
 >
-{
 return
 Err
 (
 (
 )
 )
-}
 }
 Ok
 (

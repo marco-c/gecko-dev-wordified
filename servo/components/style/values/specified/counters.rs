@@ -92,8 +92,8 @@ cssparser
 :
 :
 {
-Token
 Parser
+Token
 }
 ;
 use

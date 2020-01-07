@@ -134,6 +134,9 @@ T
 =
 unsafe
 extern
+"
+C
+"
 fn
 (
 T
@@ -204,6 +207,9 @@ T
 =
 unsafe
 extern
+"
+C
+"
 fn
 (
 T

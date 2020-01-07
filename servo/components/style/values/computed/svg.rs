@@ -97,8 +97,8 @@ computed
 :
 :
 {
-NonNegativeNumber
 NonNegativeLengthOrPercentage
+NonNegativeNumber
 Number
 }
 ;

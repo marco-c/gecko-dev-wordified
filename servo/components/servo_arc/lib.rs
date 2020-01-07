@@ -4569,8 +4569,6 @@ T
 ExactSizeIterator
 {
 use
-:
-:
 std
 :
 :
@@ -6589,7 +6587,6 @@ self
 |
 a
 |
-{
 ThinArc
 :
 :
@@ -6599,16 +6596,13 @@ other
 |
 b
 |
-{
 *
 a
 =
 =
 *
 b
-}
 )
-}
 )
 }
 }

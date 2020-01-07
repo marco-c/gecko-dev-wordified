@@ -82,8 +82,8 @@ atomic_refcell
 :
 :
 {
-AtomicRefCell
 AtomicRef
+AtomicRefCell
 AtomicRefMut
 }
 ;

@@ -96,8 +96,8 @@ font_metrics
 :
 :
 {
-FontMetricsProvider
 get_metrics_provider_for_product
+FontMetricsProvider
 }
 ;
 use
@@ -247,12 +247,12 @@ grid
 :
 :
 {
-TrackSize
-as
-GenericTrackSize
 TrackList
 as
 GenericTrackList
+TrackSize
+as
+GenericTrackSize
 }
 ;
 use
@@ -312,11 +312,11 @@ align
 :
 :
 {
-AlignItems
 AlignContent
+AlignItems
 JustifyContent
-SelfAlignment
 JustifyItems
+SelfAlignment
 }
 ;
 #
@@ -362,8 +362,8 @@ background
 :
 :
 {
-BackgroundSize
 BackgroundRepeat
+BackgroundSize
 }
 ;
 pub
@@ -376,9 +376,9 @@ border
 :
 {
 BorderImageRepeat
+BorderImageSideWidth
 BorderImageSlice
 BorderImageWidth
-BorderImageSideWidth
 }
 ;
 pub
@@ -390,8 +390,8 @@ border
 :
 :
 {
-BorderRadius
 BorderCornerRadius
+BorderRadius
 BorderSpacing
 }
 ;
@@ -407,8 +407,8 @@ font
 FontSize
 FontSizeAdjust
 FontSynthesis
-FontWeight
 FontVariantAlternates
+FontWeight
 }
 ;
 pub
@@ -422,8 +422,8 @@ font
 {
 FontFamily
 FontLanguageOverride
-FontVariationSettings
 FontVariantEastAsian
+FontVariationSettings
 }
 ;
 pub
@@ -435,9 +435,9 @@ font
 :
 :
 {
+FontFeatureSettings
 FontVariantLigatures
 FontVariantNumeric
-FontFeatureSettings
 }
 ;
 pub
@@ -452,8 +452,8 @@ font
 MozScriptLevel
 MozScriptMinSize
 MozScriptSizeMultiplier
-XTextZoom
 XLang
+XTextZoom
 }
 ;
 pub
@@ -589,8 +589,8 @@ inherited_box
 :
 :
 {
-Orientation
 ImageOrientation
+Orientation
 }
 ;
 #
@@ -1004,14 +1004,6 @@ pub
 mod
 font
 ;
-pub
-mod
-image
-;
-pub
-mod
-inherited_box
-;
 #
 [
 cfg
@@ -1026,6 +1018,14 @@ gecko
 pub
 mod
 gecko
+;
+pub
+mod
+image
+;
+pub
+mod
+inherited_box
 ;
 pub
 mod
@@ -3724,6 +3724,7 @@ percentage
 )
 =
 >
+{
 NumberOrPercentage
 :
 :
@@ -3736,6 +3737,7 @@ to_computed_value
 context
 )
 )
+}
 specified
 :
 :
@@ -3748,6 +3750,7 @@ number
 )
 =
 >
+{
 NumberOrPercentage
 :
 :
@@ -3760,6 +3763,7 @@ to_computed_value
 context
 )
 )
+}
 }
 }
 #
@@ -3791,6 +3795,7 @@ percentage
 )
 =
 >
+{
 specified
 :
 :
@@ -3808,6 +3813,7 @@ from_computed_value
 percentage
 )
 )
+}
 NumberOrPercentage
 :
 :
@@ -3817,6 +3823,7 @@ number
 )
 =
 >
+{
 specified
 :
 :
@@ -3834,6 +3841,7 @@ from_computed_value
 number
 )
 )
+}
 }
 }
 }

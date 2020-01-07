@@ -98,12 +98,6 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -347,12 +341,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

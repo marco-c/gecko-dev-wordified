@@ -99,9 +99,9 @@ attr
 use
 {
 Atom
-Prefix
-Namespace
 LocalName
+Namespace
+Prefix
 }
 ;
 use
@@ -182,9 +182,9 @@ str
 :
 :
 {
-HTML_SPACE_CHARACTERS
 read_exponent
 read_fraction
+HTML_SPACE_CHARACTERS
 }
 ;
 use
@@ -682,7 +682,6 @@ skip_while
 |
 c
 |
-{
 HTML_SPACE_CHARACTERS
 .
 iter
@@ -699,7 +698,6 @@ s
 =
 c
 )
-}
 )
 .
 peekable
@@ -876,7 +874,6 @@ and_then
 |
 result
 |
-{
 result
 .
 to_i32
@@ -888,7 +885,6 @@ ok_or
 (
 )
 )
-}
 )
 }
 /
@@ -967,7 +963,6 @@ and_then
 |
 result
 |
-{
 result
 .
 to_u32
@@ -979,7 +974,6 @@ ok_or
 (
 )
 )
-}
 )
 }
 /
@@ -3264,6 +3258,7 @@ Err
 (
 )
 )
+;
 }
 /
 /
@@ -3300,6 +3295,7 @@ Err
 (
 )
 )
+;
 }
 /
 /
@@ -3440,6 +3436,7 @@ b
 255
 )
 )
+;
 }
 }
 /
@@ -3542,6 +3539,7 @@ index
 ]
 ;
 break
+;
 }
 }
 /
@@ -4223,6 +4221,7 @@ LengthOrPercentageOrAuto
 :
 :
 Auto
+;
 }
 /
 /
@@ -4461,6 +4460,7 @@ end_index
 i
 ;
 break
+;
 }
 '
 .
@@ -4476,6 +4476,7 @@ found_full_stop
 true
 ;
 continue
+;
 }
 _
 =
@@ -4486,6 +4487,7 @@ end_index
 i
 ;
 break
+;
 }
 }
 }

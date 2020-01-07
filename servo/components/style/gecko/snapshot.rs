@@ -112,8 +112,8 @@ wrapper
 :
 :
 {
-NamespaceConstraintHelpers
 GeckoElement
+NamespaceConstraintHelpers
 }
 ;
 use
@@ -173,6 +173,16 @@ attr
 {
 AttrSelectorOperation
 AttrSelectorOperator
+}
+;
+use
+selectors
+:
+:
+attr
+:
+:
+{
 CaseSensitivity
 NamespaceConstraint
 }
@@ -910,6 +920,7 @@ AttrSelectorOperator
 Substring
 =
 >
+{
 bindings
 :
 :
@@ -933,6 +944,7 @@ as_ptr
 )
 ignore_case
 )
+}
 }
 }
 }
@@ -1042,6 +1054,7 @@ Id
 {
 return
 None
+;
 }
 let
 ptr

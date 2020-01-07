@@ -97,6 +97,10 @@ extern
 crate
 cssparser
 ;
+extern
+crate
+fnv
+;
 #
 [
 macro_use
@@ -112,10 +116,6 @@ macro_use
 extern
 crate
 matches
-;
-extern
-crate
-fnv
 ;
 extern
 crate
@@ -183,8 +183,8 @@ parser
 :
 :
 {
-SelectorImpl
 Parser
+SelectorImpl
 SelectorList
 }
 ;

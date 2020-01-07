@@ -1302,6 +1302,7 @@ Combinator
 PseudoElement
 =
 >
+{
 InvalidationKind
 :
 :
@@ -1312,12 +1313,14 @@ DescendantInvalidationKind
 :
 Dom
 )
+}
 Combinator
 :
 :
 SlotAssignment
 =
 >
+{
 InvalidationKind
 :
 :
@@ -1328,6 +1331,7 @@ DescendantInvalidationKind
 :
 Slotted
 )
+}
 Combinator
 :
 :
@@ -4262,7 +4266,6 @@ pseudo
 _
 =
 >
-{
 unreachable
 !
 (
@@ -4297,7 +4300,6 @@ selector
 next_combinator_offset
 pseudo_selector
 )
-}
 }
 ;
 /

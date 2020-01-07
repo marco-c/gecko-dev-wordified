@@ -83,8 +83,8 @@ dom
 :
 :
 {
-TNode
 TElement
+TNode
 }
 ;
 use
@@ -104,9 +104,9 @@ traversal
 :
 :
 {
+recalc_style_at
 DomTraversal
 PerLevelTraversalData
-recalc_style_at
 }
 ;
 /

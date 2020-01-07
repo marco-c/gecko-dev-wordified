@@ -113,12 +113,6 @@ Debug
 Eq
 MallocSizeOf
 Ord
-)
-]
-#
-[
-derive
-(
 PartialEq
 PartialOrd
 ToComputedValue

@@ -120,10 +120,10 @@ cssparser
 :
 :
 {
-Parser
-Token
 CowRcStr
+Parser
 SourceLocation
+Token
 }
 ;
 use
@@ -140,9 +140,9 @@ parser
 :
 :
 {
+Parse
 ParserContext
 ParserErrorContext
-Parse
 }
 ;
 use
@@ -3203,7 +3203,6 @@ s
 )
 =
 >
-{
 Ok
 (
 Symbol
@@ -3225,7 +3224,6 @@ s
 ?
 )
 )
-}
 ref
 t
 =
@@ -3684,6 +3682,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 Ok
@@ -4393,6 +4392,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 else
 {
@@ -4404,6 +4404,7 @@ Symbols
 symbols
 )
 )
+;
 }
 }
 }
@@ -4584,6 +4585,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 Ok
 (
@@ -5060,6 +5062,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 result
 .
@@ -5068,7 +5071,6 @@ or_else
 |
 _
 |
-{
 Ok
 (
 SpeakAs
@@ -5083,7 +5085,6 @@ input
 ?
 )
 )
-}
 )
 }
 }

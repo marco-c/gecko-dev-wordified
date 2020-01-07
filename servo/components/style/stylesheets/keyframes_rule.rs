@@ -83,11 +83,11 @@ cssparser
 :
 {
 AtRuleParser
+CowRcStr
 Parser
+ParserInput
 QualifiedRuleParser
 RuleListParser
-ParserInput
-CowRcStr
 }
 ;
 use
@@ -95,9 +95,9 @@ cssparser
 :
 :
 {
+parse_one_rule
 DeclarationListParser
 DeclarationParser
-parse_one_rule
 SourceLocation
 Token
 }
@@ -107,8 +107,8 @@ error_reporting
 :
 :
 {
-NullReporter
 ContextualParseError
+NullReporter
 ParseErrorReporter
 }
 ;
@@ -129,6 +129,14 @@ properties
 DeclarationSource
 Importance
 PropertyDeclaration
+}
+;
+use
+properties
+:
+:
+{
+LonghandId
 PropertyDeclarationBlock
 PropertyId
 }
@@ -139,7 +147,6 @@ properties
 :
 {
 PropertyDeclarationId
-LonghandId
 SourcePropertyDeclaration
 }
 ;
@@ -181,6 +188,13 @@ DeepCloneParams
 DeepCloneWithLock
 SharedRwLock
 SharedRwLockReadGuard
+}
+;
+use
+shared_lock
+:
+:
+{
 Locked
 ToCssWithGuard
 }
@@ -238,8 +252,8 @@ values
 :
 :
 {
-KeyframesName
 serialize_percentage
+KeyframesName
 }
 ;
 /
@@ -1172,7 +1186,6 @@ percentage
 _
 =
 >
-{
 Err
 (
 input
@@ -1182,7 +1195,6 @@ new_unexpected_token_error
 token
 )
 )
-}
 }
 }
 }
@@ -2187,7 +2199,6 @@ block
 }
 =
 >
-{
 block
 .
 read_with
@@ -2208,7 +2219,6 @@ any
 |
 prop_decl
 |
-{
 match
 *
 prop_decl
@@ -2229,9 +2239,7 @@ _
 >
 false
 }
-}
 )
-}
 _
 =
 >
@@ -3592,7 +3600,6 @@ sel
 )
 =
 >
-{
 Ok
 (
 KeyframeSelectorParserPrelude
@@ -3605,7 +3612,6 @@ source_location
 start_location
 }
 )
-}
 Err
 (
 e

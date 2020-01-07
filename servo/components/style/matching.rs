@@ -2807,13 +2807,11 @@ StyleChange
 Unchanged
 =
 >
-{
 return
 ChildCascadeRequirement
 :
 :
 CanSkipCascade
-}
 StyleChange
 :
 :
@@ -2851,6 +2849,7 @@ ChildCascadeRequirement
 :
 :
 MustCascadeChildren
+;
 }
 }
 }
@@ -2974,6 +2973,7 @@ ChildCascadeRequirement
 :
 :
 MustCascadeChildren
+;
 }
 /
 /
@@ -3032,6 +3032,7 @@ ChildCascadeRequirement
 :
 :
 MustCascadeChildren
+;
 }
 /
 /
@@ -3087,6 +3088,7 @@ ChildCascadeRequirement
 :
 :
 MustCascadeChildren
+;
 }
 }
 /

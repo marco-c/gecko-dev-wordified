@@ -2081,6 +2081,7 @@ animated
 }
 }
 }
+;
 }
 trivial_to_animated_value
 !

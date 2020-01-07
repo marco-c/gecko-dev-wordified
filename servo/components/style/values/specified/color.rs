@@ -73,8 +73,8 @@ Color
 as
 CSSParserColor
 Parser
-RGBA
 Token
+RGBA
 }
 ;
 use
@@ -115,8 +115,8 @@ parser
 :
 :
 {
-ParserContext
 Parse
+ParserContext
 }
 ;
 #
@@ -658,7 +658,6 @@ value
 }
 =
 >
-{
 Ok
 (
 AngleOrNumber
@@ -669,7 +668,6 @@ Number
 value
 }
 )
-}
 Token
 :
 :
@@ -1133,7 +1131,6 @@ value
 )
 =
 >
-{
 Ok
 (
 match
@@ -1188,7 +1185,6 @@ into_boxed_str
 }
 }
 )
-}
 Err
 (
 e
@@ -1615,7 +1611,6 @@ map
 |
 color
 |
-{
 match
 color
 {
@@ -1646,7 +1641,6 @@ return
 currentcolor
 "
 )
-}
 }
 )
 }
@@ -2031,12 +2025,10 @@ integer
 }
 =
 >
-{
 (
 integer
 None
 )
-}
 Token
 :
 :
@@ -2055,7 +2047,6 @@ unit
 }
 =
 >
-{
 (
 integer
 Some
@@ -2063,7 +2054,6 @@ Some
 unit
 )
 )
-}
 Token
 :
 :
@@ -2252,6 +2242,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 ;
 let
@@ -2403,7 +2394,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -2413,7 +2403,6 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
 }
 /
@@ -2589,7 +2578,6 @@ Color
 CurrentColor
 =
 >
-{
 Some
 (
 ComputedColor
@@ -2599,7 +2587,6 @@ currentcolor
 (
 )
 )
-}
 Color
 :
 :
@@ -2612,7 +2599,6 @@ parsed
 }
 =
 >
-{
 Some
 (
 ComputedColor
@@ -2624,7 +2610,6 @@ rgba
 parsed
 )
 )
-}
 Color
 :
 :
@@ -2635,13 +2620,11 @@ complex
 )
 =
 >
-{
 Some
 (
 *
 complex
 )
-}
 #
 [
 cfg
@@ -2662,7 +2645,6 @@ system
 )
 =
 >
-{
 _context
 .
 map
@@ -2670,7 +2652,6 @@ map
 |
 context
 |
-{
 convert_nscolor_to_computedcolor
 (
 system
@@ -2680,9 +2661,7 @@ to_computed_value
 context
 )
 )
-}
 )
-}
 #
 [
 cfg
@@ -2816,7 +2795,6 @@ map
 |
 context
 |
-{
 ComputedColor
 :
 :
@@ -2832,7 +2810,6 @@ body_text_color
 (
 )
 )
-}
 )
 }
 }

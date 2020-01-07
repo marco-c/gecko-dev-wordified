@@ -129,6 +129,14 @@ cssparser
 AtRuleParser
 AtRuleType
 BasicParseErrorKind
+CowRcStr
+}
+;
+use
+cssparser
+:
+:
+{
 DeclarationListParser
 DeclarationParser
 Parser
@@ -139,10 +147,9 @@ cssparser
 :
 :
 {
-CowRcStr
+QualifiedRuleParser
 RuleListParser
 SourceLocation
-QualifiedRuleParser
 Token
 }
 ;
@@ -204,9 +211,9 @@ parser
 :
 :
 {
+Parse
 ParserContext
 ParserErrorContext
-Parse
 }
 ;
 use
@@ -661,6 +668,7 @@ v
 0
 =
 >
+{
 Ok
 (
 SingleValue
@@ -670,6 +678,7 @@ as
 u32
 )
 )
+}
 ref
 t
 =
@@ -870,9 +879,11 @@ a
 0
 =
 >
+{
 a
 as
 u32
+}
 ref
 t
 =

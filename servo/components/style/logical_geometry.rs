@@ -73,8 +73,8 @@ euclid
 {
 Point2D
 Rect
-Size2D
 SideOffsets2D
+Size2D
 }
 ;
 use

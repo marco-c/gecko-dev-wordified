@@ -110,8 +110,8 @@ dom
 :
 :
 {
-TElement
 SendElement
+TElement
 }
 ;
 #
@@ -238,8 +238,8 @@ selector_parser
 :
 :
 {
-EAGER_PSEUDO_COUNT
 SnapshotMap
+EAGER_PSEUDO_COUNT
 }
 ;
 use
@@ -1757,6 +1757,7 @@ EagerPseudoCascadeInputs
 (
 None
 )
+;
 }
 let
 self_inputs

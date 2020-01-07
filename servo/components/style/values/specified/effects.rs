@@ -74,9 +74,9 @@ cssparser
 :
 {
 self
+BasicParseErrorKind
 Parser
 Token
-BasicParseErrorKind
 }
 ;
 use
@@ -969,6 +969,7 @@ ParseError
 |
 i
 |
+{
 Length
 :
 :
@@ -977,6 +978,7 @@ parse_non_negative
 context
 i
 )
+}
 )
 {
 Ok
@@ -1444,7 +1446,6 @@ location
 )
 =
 >
-{
 return
 Err
 (
@@ -1461,7 +1462,6 @@ t
 )
 )
 )
-}
 Err
 (
 e

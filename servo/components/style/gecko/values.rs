@@ -622,7 +622,6 @@ FlexBasis
 Content
 =
 >
-{
 coord
 .
 set_value
@@ -638,7 +637,6 @@ structs
 NS_STYLE_FLEX_BASIS_CONTENT
 )
 )
-}
 FlexBasis
 :
 :
@@ -703,6 +701,7 @@ Width
 width
 )
 )
+;
 }
 if
 let
@@ -731,6 +730,7 @@ FlexBasis
 :
 Content
 )
+;
 }
 None
 }
@@ -1022,7 +1022,6 @@ p
 )
 =
 >
-{
 Some
 (
 NumberOrPercentage
@@ -1036,7 +1035,6 @@ p
 )
 )
 )
-}
 _
 =
 >
@@ -1696,6 +1694,7 @@ coord
 )
 =
 >
+{
 Some
 (
 LengthOrPercentageOrAuto
@@ -1713,6 +1712,7 @@ into
 )
 )
 )
+}
 CoordDataValue
 :
 :
@@ -1921,6 +1921,7 @@ coord
 )
 =
 >
+{
 Some
 (
 LengthOrPercentageOrNone
@@ -1938,6 +1939,7 @@ into
 )
 )
 )
+}
 CoordDataValue
 :
 :
@@ -2195,7 +2197,6 @@ or_else
 (
 |
 |
-{
 match
 coord
 .
@@ -2325,7 +2326,6 @@ TrackBreadth
 :
 Breadth
 )
-}
 }
 )
 }
@@ -3142,6 +3142,7 @@ NS_STYLE_WIDTH_MAX_CONTENT
 )
 =
 >
+{
 Some
 (
 ExtremumLength
@@ -3149,6 +3150,7 @@ ExtremumLength
 :
 MozMaxContent
 )
+}
 CoordDataValue
 :
 :
@@ -3158,6 +3160,7 @@ NS_STYLE_WIDTH_MIN_CONTENT
 )
 =
 >
+{
 Some
 (
 ExtremumLength
@@ -3165,6 +3168,7 @@ ExtremumLength
 :
 MozMinContent
 )
+}
 CoordDataValue
 :
 :
@@ -3174,6 +3178,7 @@ NS_STYLE_WIDTH_FIT_CONTENT
 )
 =
 >
+{
 Some
 (
 ExtremumLength
@@ -3181,6 +3186,7 @@ ExtremumLength
 :
 MozFitContent
 )
+}
 CoordDataValue
 :
 :
@@ -3190,6 +3196,7 @@ NS_STYLE_WIDTH_AVAILABLE
 )
 =
 >
+{
 Some
 (
 ExtremumLength
@@ -3197,6 +3204,7 @@ ExtremumLength
 :
 MozAvailable
 )
+}
 _
 =
 >
@@ -3304,6 +3312,7 @@ or_else
 (
 |
 |
+{
 ExtremumLength
 :
 :
@@ -3319,6 +3328,7 @@ MozLength
 :
 ExtremumLength
 )
+}
 )
 }
 }
@@ -3422,6 +3432,7 @@ or_else
 (
 |
 |
+{
 ExtremumLength
 :
 :
@@ -3437,6 +3448,7 @@ MaxLength
 :
 ExtremumLength
 )
+}
 )
 }
 }
@@ -4467,7 +4479,6 @@ map
 |
 gecko_symbol
 |
-{
 Symbol
 :
 :
@@ -4479,7 +4490,6 @@ to_string
 (
 )
 )
-}
 )
 .
 collect

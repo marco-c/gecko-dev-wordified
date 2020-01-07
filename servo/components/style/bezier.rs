@@ -558,6 +558,7 @@ epsilon
 {
 return
 t
+;
 }
 let
 dx
@@ -583,6 +584,7 @@ approx_eq
 )
 {
 break
+;
 }
 t
 -
@@ -631,6 +633,7 @@ lo
 {
 return
 lo
+;
 }
 if
 t
@@ -639,6 +642,7 @@ hi
 {
 return
 hi
+;
 }
 while
 lo
@@ -666,6 +670,7 @@ epsilon
 {
 return
 t
+;
 }
 if
 x

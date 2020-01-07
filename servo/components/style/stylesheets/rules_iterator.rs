@@ -499,6 +499,7 @@ nested_iter_finished
 true
 ;
 continue
+;
 }
 }
 ;
@@ -571,13 +572,11 @@ _
 )
 =
 >
-{
 return
 Some
 (
 rule
 )
-}
 CssRule
 :
 :

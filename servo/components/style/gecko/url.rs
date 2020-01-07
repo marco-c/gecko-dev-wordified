@@ -121,8 +121,8 @@ root
 :
 :
 {
-nsStyleImageRequest
 RustString
+nsStyleImageRequest
 }
 ;
 use

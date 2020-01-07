@@ -84,8 +84,8 @@ structs
 :
 :
 {
-nsCSSValue
 nsCSSUnit
+nsCSSValue
 }
 ;
 use
@@ -96,8 +96,8 @@ structs
 :
 :
 {
-nsCSSValue_Array
 nsCSSValueList
+nsCSSValue_Array
 }
 ;
 use
@@ -578,7 +578,6 @@ px
 )
 =
 >
-{
 self
 .
 set_px
@@ -589,7 +588,6 @@ px
 (
 )
 )
-}
 LengthOrPercentage
 :
 :
@@ -599,7 +597,6 @@ pc
 )
 =
 >
-{
 self
 .
 set_percentage
@@ -608,7 +605,6 @@ pc
 .
 0
 )
-}
 LengthOrPercentage
 :
 :
@@ -618,7 +614,6 @@ calc
 )
 =
 >
-{
 bindings
 :
 :
@@ -631,7 +626,6 @@ into
 (
 )
 )
-}
 }
 }
 /
@@ -757,7 +751,6 @@ nsCSSUnit
 eCSSUnit_Percent
 =
 >
-{
 LengthOrPercentage
 :
 :
@@ -774,7 +767,6 @@ self
 )
 )
 )
-}
 nsCSSUnit
 :
 :
@@ -843,7 +835,6 @@ nsCSSUnit
 eCSSUnit_Pixel
 =
 >
-{
 Length
 :
 :
@@ -857,7 +848,6 @@ Gecko_CSSValue_GetNumber
 self
 )
 )
-}
 _
 =
 >

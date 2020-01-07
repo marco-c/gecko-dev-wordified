@@ -96,8 +96,8 @@ euclid
 :
 :
 {
-TypedScale
 Size2D
+TypedScale
 TypedSize2D
 }
 ;
@@ -164,8 +164,8 @@ style_traits
 CSSPixel
 CssWriter
 DevicePixel
-ToCss
 ParseError
+ToCss
 }
 ;
 use
@@ -1809,13 +1809,11 @@ width
 )
 =
 >
-{
 value
 >
 =
 *
 width
-}
 Range
 :
 :
@@ -1826,13 +1824,11 @@ width
 )
 =
 >
-{
 value
 <
 =
 *
 width
-}
 Range
 :
 :
@@ -1843,13 +1839,11 @@ width
 )
 =
 >
-{
 value
 =
 =
 *
 width
-}
 }
 }
 }
@@ -2150,7 +2144,6 @@ quirks_mode
 |
 context
 |
-{
 match
 *
 self
@@ -2242,7 +2235,6 @@ context
 )
 )
 )
-}
 }
 )
 }

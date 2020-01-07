@@ -93,11 +93,11 @@ cssparser
 :
 :
 {
-Parser
-Token
 ParseError
 as
 CssParseError
+Parser
+Token
 }
 ;
 use
@@ -160,8 +160,6 @@ grid
 GridTemplateComponent
 RepeatCount
 TrackBreadth
-TrackKeyword
-TrackRepeat
 }
 ;
 use
@@ -176,7 +174,22 @@ grid
 :
 {
 LineNameList
+TrackKeyword
+TrackRepeat
 TrackSize
+}
+;
+use
+values
+:
+:
+generics
+:
+:
+grid
+:
+:
+{
 TrackList
 TrackListType
 TrackListValue
@@ -190,8 +203,8 @@ specified
 :
 :
 {
-LengthOrPercentage
 Integer
+LengthOrPercentage
 }
 ;
 /
@@ -284,10 +297,12 @@ is_sign_positive
 )
 =
 >
+{
 Ok
 (
 value
 )
+}
 ref
 t
 =
@@ -387,6 +402,7 @@ Breadth
 lop
 )
 )
+;
 }
 if
 let
@@ -413,6 +429,7 @@ Fr
 f
 )
 )
+;
 }
 TrackKeyword
 :
@@ -511,6 +528,7 @@ Breadth
 b
 )
 )
+;
 }
 if
 input
@@ -1326,6 +1344,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 if
 repeat_type
@@ -1499,6 +1518,7 @@ into_boxed_slice
 )
 ;
 break
+;
 }
 }
 else
@@ -1534,6 +1554,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 names
 .
@@ -1551,6 +1572,7 @@ line
 names
 >
 break
+;
 /
 /
 no
@@ -1669,15 +1691,6 @@ vec
 [
 ]
 ;
-let
-mut
-list_type
-=
-TrackListType
-:
-:
-Explicit
-;
 /
 /
 assume
@@ -1687,6 +1700,16 @@ s
 the
 simplest
 case
+.
+let
+mut
+list_type
+=
+TrackListType
+:
+:
+Explicit
+;
 /
 /
 holds
@@ -1945,6 +1968,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 let
@@ -2092,6 +2116,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 RepeatType
@@ -2148,6 +2173,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 list_type
 =
@@ -2315,6 +2341,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 names
 .
@@ -2328,6 +2355,7 @@ into_boxed_slice
 )
 ;
 break
+;
 }
 }
 Ok
@@ -3240,6 +3268,7 @@ GridTemplateComponent
 :
 None
 )
+;
 }
 Self
 :
@@ -3349,6 +3378,7 @@ Subgrid
 t
 )
 )
+;
 }
 }
 TrackList

@@ -82,8 +82,8 @@ values
 :
 :
 {
-CSSFloat
 serialize_percentage
+CSSFloat
 }
 ;
 /
@@ -120,12 +120,6 @@ Copy
 Debug
 Default
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 PartialOrd
 ToAnimatedZero

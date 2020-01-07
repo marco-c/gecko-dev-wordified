@@ -74,8 +74,8 @@ context
 :
 {
 ElementCascadeInputs
-StyleContext
 SharedStyleContext
+StyleContext
 }
 ;
 use
@@ -962,6 +962,7 @@ been
 processed
 .
 break
+;
 }
 node
 =
@@ -2461,7 +2462,6 @@ map
 |
 a
 |
-{
 a
 .
 borrow_data
@@ -2481,7 +2481,6 @@ primary
 clone
 (
 )
-}
 )
 ;
 }
@@ -4687,6 +4686,7 @@ worklet
 )
 =
 >
+{
 (
 &
 worklet
@@ -4697,6 +4697,7 @@ worklet
 .
 arguments
 )
+}
 _
 =
 >

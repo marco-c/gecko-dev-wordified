@@ -181,6 +181,13 @@ shared_lock
 DeepCloneParams
 DeepCloneWithLock
 Locked
+}
+;
+use
+shared_lock
+:
+:
+{
 SharedRwLock
 SharedRwLockReadGuard
 ToCssWithGuard
@@ -964,6 +971,7 @@ to_string
 }
 )
 }
+;
 }
 impl
 UrlMatchingFunction
@@ -1056,6 +1064,7 @@ UrlMatchingFunction
 :
 UrlPrefix
 )
+;
 }
 if
 input
@@ -1089,6 +1098,7 @@ UrlMatchingFunction
 :
 Domain
 )
+;
 }
 if
 input
@@ -1592,7 +1602,6 @@ parse_comma_separated
 |
 input
 |
-{
 UrlMatchingFunction
 :
 :
@@ -1601,7 +1610,6 @@ parse
 context
 input
 )
-}
 )
 ?
 ;
@@ -1647,6 +1655,7 @@ into
 )
 )
 )
+;
 }
 Ok
 (
@@ -1689,14 +1698,12 @@ any
 |
 url_matching_function
 |
-{
 url_matching_function
 .
 evaluate
 (
 device
 )
-}
 )
 }
 #

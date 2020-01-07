@@ -175,8 +175,8 @@ super
 {
 AllowQuirks
 Number
-ToComputedValue
 Percentage
+ToComputedValue
 }
 ;
 use
@@ -827,6 +827,7 @@ FontBaseSize
 InheritedStyle
 =
 >
+{
 context
 .
 style
@@ -844,6 +845,7 @@ clone_font_size
 size
 (
 )
+}
 }
 }
 }
@@ -1209,11 +1211,9 @@ metrics
 )
 =
 >
-{
 metrics
 .
 x_height
-}
 /
 /
 https
@@ -1273,7 +1273,6 @@ FontMetricsQueryResult
 NotAvailable
 =
 >
-{
 reference_font_size
 .
 scale_by
@@ -1282,7 +1281,6 @@ scale_by
 .
 5
 )
-}
 }
 ;
 (
@@ -1341,11 +1339,9 @@ metrics
 )
 =
 >
-{
 metrics
 .
 zero_advance_measure
-}
 /
 /
 https
@@ -1871,6 +1867,7 @@ length
 )
 =
 >
+{
 (
 length
 cmp
@@ -1886,6 +1883,7 @@ viewport_size
 height
 )
 )
+}
 ViewportPercentageLength
 :
 :
@@ -1895,6 +1893,7 @@ length
 )
 =
 >
+{
 (
 length
 cmp
@@ -1910,6 +1909,7 @@ viewport_size
 height
 )
 )
+}
 }
 ;
 /
@@ -4706,6 +4706,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -4730,6 +4731,7 @@ value
 )
 )
 )
+;
 }
 Token
 :
@@ -5930,6 +5932,7 @@ clone
 )
 )
 )
+;
 }
 else
 {
@@ -5950,6 +5953,7 @@ value
 )
 )
 )
+;
 }
 }
 Token
@@ -6002,7 +6006,6 @@ parse_nested_block
 |
 i
 |
-{
 CalcNode
 :
 :
@@ -6012,7 +6015,6 @@ context
 i
 num_context
 )
-}
 )
 ?
 ;
@@ -6709,6 +6711,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -6733,6 +6736,7 @@ value
 )
 )
 )
+;
 }
 Token
 :
@@ -6813,7 +6817,6 @@ parse_nested_block
 |
 i
 |
-{
 CalcNode
 :
 :
@@ -6823,7 +6826,6 @@ context
 i
 num_context
 )
-}
 )
 ?
 ;
@@ -7682,6 +7684,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -7706,6 +7709,7 @@ value
 )
 )
 )
+;
 }
 Token
 :
@@ -7786,7 +7790,6 @@ parse_nested_block
 |
 i
 |
-{
 CalcNode
 :
 :
@@ -7796,7 +7799,6 @@ context
 i
 num_context
 )
-}
 )
 ?
 ;
@@ -8539,6 +8541,7 @@ Second
 v
 )
 )
+;
 }
 Length
 :

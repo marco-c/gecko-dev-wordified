@@ -91,7 +91,6 @@ cssparser
 :
 {
 Delimiter
-parse_important
 Parser
 SourceLocation
 Token
@@ -107,6 +106,12 @@ as
 CssParseError
 ParserInput
 }
+;
+use
+cssparser
+:
+:
+parse_important
 ;
 #
 [
@@ -139,8 +144,8 @@ properties
 :
 :
 {
-PropertyId
 PropertyDeclaration
+PropertyId
 SourcePropertyDeclaration
 }
 ;
@@ -167,6 +172,13 @@ shared_lock
 DeepCloneParams
 DeepCloneWithLock
 Locked
+}
+;
+use
+shared_lock
+:
+:
+{
 SharedRwLock
 SharedRwLockReadGuard
 ToCssWithGuard
@@ -949,6 +961,7 @@ Ok
 (
 in_parens
 )
+;
 }
 Ok
 (
@@ -1157,6 +1170,7 @@ wrapper
 conditions
 )
 )
+;
 }
 }
 }
@@ -1325,7 +1339,6 @@ try
 |
 input
 |
-{
 input
 .
 parse_nested_block
@@ -1338,7 +1351,6 @@ parse_condition_or_declaration
 i
 )
 )
-}
 )
 ;
 if

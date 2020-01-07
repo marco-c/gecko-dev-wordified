@@ -175,15 +175,9 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
-ToCss
-)
-]
-#
-[
-derive
-(
 PartialOrd
 ToAnimatedZero
+ToCss
 )
 ]
 pub

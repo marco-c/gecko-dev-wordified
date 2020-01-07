@@ -108,8 +108,8 @@ values
 :
 :
 {
-CSSInteger
 CSSFloat
+CSSInteger
 }
 ;
 use
@@ -206,6 +206,19 @@ text
 {
 TextDecorationLine
 TextEmphasisFillMode
+}
+;
+use
+values
+:
+:
+specified
+:
+:
+text
+:
+:
+{
 TextEmphasisShapeKeyword
 TextOverflowSide
 }
@@ -705,6 +718,7 @@ true
 ;
 }
 }
+;
 }
 write_value
 !

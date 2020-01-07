@@ -112,12 +112,6 @@ Clone
 ComputeSquaredDistance
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

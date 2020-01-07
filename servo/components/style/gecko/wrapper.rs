@@ -199,9 +199,9 @@ context
 :
 :
 {
+PostAnimationTasks
 QuirksMode
 SharedStyleContext
-PostAnimationTasks
 UpdateAnimationsTasks
 }
 ;
@@ -219,8 +219,8 @@ dom
 LayoutIterator
 NodeInfo
 OpaqueNode
-TElement
 TDocument
+TElement
 TNode
 TShadowRoot
 }
@@ -230,8 +230,8 @@ element_state
 :
 :
 {
-ElementState
 DocumentState
+ElementState
 }
 ;
 use
@@ -270,9 +270,9 @@ selector_parser
 :
 :
 {
-SelectorImpl
 NonTSPseudoClass
 PseudoElement
+SelectorImpl
 }
 ;
 use
@@ -286,18 +286,6 @@ gecko_bindings
 :
 :
 bindings
-;
-use
-gecko_bindings
-:
-:
-bindings
-:
-:
-{
-Gecko_ConstructStyleChildrenIterator
-Gecko_DestroyStyleChildrenIterator
-}
 ;
 use
 gecko_bindings
@@ -715,6 +703,16 @@ attr
 {
 AttrSelectorOperation
 AttrSelectorOperator
+}
+;
+use
+selectors
+:
+:
+attr
+:
+:
+{
 CaseSensitivity
 NamespaceConstraint
 }
@@ -1675,6 +1673,7 @@ fmt
 (
 f
 )
+;
 }
 if
 self
@@ -1709,6 +1708,7 @@ opaque
 .
 0
 )
+;
 }
 if
 self
@@ -1742,6 +1742,7 @@ opaque
 .
 0
 )
+;
 }
 if
 self
@@ -1777,6 +1778,7 @@ opaque
 .
 0
 )
+;
 }
 write
 !
@@ -3422,6 +3424,9 @@ self
 {
 unsafe
 {
+bindings
+:
+:
 Gecko_DestroyStyleChildrenIterator
 (
 it
@@ -5792,6 +5797,7 @@ u32
 !
 =
 0
+;
 }
 /
 /
@@ -5948,6 +5954,7 @@ is_root_of_anonymous_subtree
 {
 return
 false
+;
 }
 match
 self
@@ -6295,6 +6302,7 @@ existing
 !
 =
 after_value
+;
 }
 let
 from
@@ -7370,6 +7378,9 @@ zeroed
 (
 )
 ;
+bindings
+:
+:
 Gecko_ConstructStyleChildrenIterator
 (
 self
@@ -7849,7 +7860,6 @@ b
 )
 =
 >
-{
 a
 .
 0
@@ -7862,7 +7872,6 @@ b
 0
 .
 mPrototypeBinding
-}
 _
 =
 >
@@ -11069,7 +11078,6 @@ any
 |
 property
 |
-{
 !
 transitions_to_keep
 .
@@ -11078,7 +11086,6 @@ contains
 *
 property
 )
-}
 )
 }
 #
@@ -12972,6 +12979,7 @@ Some
 (
 el
 )
+;
 }
 child
 =
@@ -13042,6 +13050,7 @@ Some
 (
 el
 )
+;
 }
 child
 =
@@ -13112,6 +13121,7 @@ Some
 (
 el
 )
+;
 }
 sibling
 =
@@ -13182,6 +13192,7 @@ Some
 (
 el
 )
+;
 }
 sibling
 =
@@ -14108,6 +14119,7 @@ contains_non_whitespace_content
 {
 return
 false
+;
 }
 elem
 =
@@ -14164,6 +14176,7 @@ contains_non_whitespace_content
 {
 return
 false
+;
 }
 elem
 =
@@ -14213,6 +14226,7 @@ contains_non_whitespace_content
 {
 return
 false
+;
 }
 true
 }
@@ -14222,26 +14236,22 @@ NonTSPseudoClass
 MozNativeAnonymous
 =
 >
-{
 self
 .
 is_in_native_anonymous_subtree
 (
 )
-}
 NonTSPseudoClass
 :
 :
 MozUseShadowTreeRoot
 =
 >
-{
 self
 .
 is_root_of_use_element_shadow_tree
 (
 )
-}
 NonTSPseudoClass
 :
 :
@@ -14284,20 +14294,17 @@ NonTSPseudoClass
 MozIsHTML
 =
 >
-{
 self
 .
 is_html_element_in_html_document
 (
 )
-}
 NonTSPseudoClass
 :
 :
 MozLWTheme
 =
 >
-{
 self
 .
 document_theme
@@ -14309,7 +14316,6 @@ DocumentTheme
 :
 :
 Doc_Theme_None
-}
 NonTSPseudoClass
 :
 :
@@ -14412,7 +14418,6 @@ sels
 )
 =
 >
-{
 context
 .
 nest
@@ -14432,7 +14437,6 @@ any
 |
 s
 |
-{
 matches_complex_selector
 (
 s
@@ -14444,11 +14448,9 @@ self
 context
 flags_setter
 )
-}
 )
 }
 )
-}
 NonTSPseudoClass
 :
 :
@@ -14459,7 +14461,6 @@ lang_arg
 )
 =
 >
-{
 self
 .
 match_element_lang
@@ -14467,7 +14468,6 @@ match_element_lang
 None
 lang_arg
 )
-}
 NonTSPseudoClass
 :
 :
@@ -14595,7 +14595,6 @@ dir
 )
 =
 >
-{
 match
 *
 *
@@ -14650,7 +14649,6 @@ Other
 =
 >
 false
-}
 }
 }
 }
@@ -14811,6 +14809,7 @@ has_id
 {
 return
 false
+;
 }
 unsafe
 {

@@ -104,8 +104,8 @@ fmt
 :
 :
 {
-Debug
 self
+Debug
 }
 ;
 use

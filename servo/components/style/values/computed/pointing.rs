@@ -783,6 +783,7 @@ map_err
 |
 _
 |
+{
 location
 .
 new_custom_error
@@ -799,6 +800,7 @@ clone
 )
 )
 )
+}
 )
 }
 }

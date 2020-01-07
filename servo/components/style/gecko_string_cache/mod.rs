@@ -164,8 +164,8 @@ borrow
 :
 :
 {
-Cow
 Borrow
+Cow
 }
 ;
 use
@@ -303,6 +303,7 @@ atom
 s
 )
 }
+;
 }
 /
 /

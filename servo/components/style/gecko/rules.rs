@@ -103,9 +103,9 @@ font_face
 :
 :
 {
-Source
 FontDisplay
 FontWeight
+Source
 }
 ;
 use
@@ -182,8 +182,8 @@ font
 :
 :
 {
-SpecifiedFontVariationSettings
 SpecifiedFontFeatureSettings
+SpecifiedFontVariationSettings
 }
 ;
 impl
@@ -659,6 +659,7 @@ lang
 )
 =
 >
+{
 nscssvalue
 .
 set_string
@@ -667,6 +668,7 @@ set_string
 *
 lang
 )
+}
 /
 /
 This
@@ -993,6 +995,7 @@ enough
 "
 )
 }
+;
 }
 for
 src

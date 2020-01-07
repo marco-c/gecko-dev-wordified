@@ -144,9 +144,9 @@ box_
 :
 {
 AnimationName
+Contain
 Display
 OverflowClipBox
-Contain
 }
 ;
 pub

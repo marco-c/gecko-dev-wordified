@@ -901,10 +901,12 @@ Descendant
 )
 =
 >
+{
 DependencyInvalidationKind
 :
 :
 Descendants
+}
 Some
 (
 Combinator
@@ -922,10 +924,12 @@ NextSibling
 )
 =
 >
+{
 DependencyInvalidationKind
 :
 :
 Siblings
+}
 /
 /
 TODO
@@ -1713,7 +1717,6 @@ ref
 v
 )
 |
-{
 accum
 +
 v
@@ -1721,7 +1724,6 @@ v
 len
 (
 )
-}
 )
 +
 self
@@ -1743,7 +1745,6 @@ ref
 v
 )
 |
-{
 accum
 +
 v
@@ -1751,7 +1752,6 @@ v
 len
 (
 )
-}
 )
 }
 /
@@ -2798,12 +2798,10 @@ dir
 )
 =
 >
-{
 dir_selector_to_state
 (
 dir
 )
-}
 _
 =
 >

@@ -96,8 +96,8 @@ context
 :
 :
 {
-StyleContext
 PerThreadTraversalStatistics
+StyleContext
 }
 ;
 use
@@ -1286,7 +1286,6 @@ aggregate
 acc
 t
 |
-{
 match
 *
 t
@@ -1313,7 +1312,6 @@ statistics
 +
 &
 acc
-}
 }
 )
 ;

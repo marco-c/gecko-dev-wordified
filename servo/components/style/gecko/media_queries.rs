@@ -93,10 +93,10 @@ cssparser
 :
 :
 {
-Parser
-RGBA
-Token
 BasicParseErrorKind
+Parser
+Token
+RGBA
 }
 ;
 use
@@ -145,8 +145,8 @@ structs
 {
 nsCSSKeyword
 nsCSSProps_KTableEntry
-nsCSSValue
 nsCSSUnit
+nsCSSValue
 }
 ;
 use
@@ -158,7 +158,6 @@ structs
 :
 {
 nsMediaFeature
-nsMediaFeature_ValueType
 nsMediaFeature_RangeType
 }
 ;
@@ -170,9 +169,18 @@ structs
 :
 :
 {
+nsMediaFeature_ValueType
 nsPresContext
-RawGeckoPresContextOwned
 }
+;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
+RawGeckoPresContextOwned
 ;
 use
 media_queries
@@ -257,9 +265,9 @@ style_traits
 :
 :
 {
-ToCss
 ParseError
 StyleParseErrorKind
+ToCss
 }
 ;
 use
@@ -282,10 +290,10 @@ values
 :
 :
 {
+serialize_atom_identifier
 CSSFloat
 CustomIdent
 KeyframesName
-serialize_atom_identifier
 }
 ;
 use
@@ -2443,12 +2451,10 @@ unit
 }
 =
 >
-{
 (
 value
 unit
 )
-}
 ref
 t
 =
@@ -2489,6 +2495,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 (
 match_ignore_ascii_case
@@ -2558,6 +2565,7 @@ map_err
 (
 )
 |
+{
 location
 .
 new_custom_error
@@ -2574,6 +2582,7 @@ clone
 )
 )
 )
+}
 )
 }
 }
@@ -3367,7 +3376,6 @@ v
 )
 =
 >
-{
 dest
 .
 write_str
@@ -3386,7 +3394,6 @@ else
 "
 }
 )
-}
 MediaExpressionValue
 :
 :
@@ -3449,13 +3456,11 @@ ident
 )
 =
 >
-{
 serialize_atom_identifier
 (
 ident
 dest
 )
-}
 MediaExpressionValue
 :
 :
@@ -3973,6 +3978,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 MediaExpressionValue
 :
@@ -4212,6 +4218,7 @@ value
 None
 =
 >
+{
 return
 Err
 (
@@ -4225,6 +4232,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 ;
 MediaExpressionValue
@@ -4395,6 +4403,7 @@ map_err
 |
 err
 |
+{
 err
 .
 location
@@ -4415,6 +4424,7 @@ t
 )
 =
 >
+{
 StyleParseErrorKind
 :
 :
@@ -4422,6 +4432,7 @@ ExpectedIdentifier
 (
 t
 )
+}
 _
 =
 >
@@ -4431,6 +4442,7 @@ StyleParseErrorKind
 UnspecifiedError
 }
 )
+}
 )
 ?
 ;
@@ -4486,6 +4498,7 @@ map_err
 |
 err
 |
+{
 err
 .
 location
@@ -4506,6 +4519,7 @@ t
 )
 =
 >
+{
 StyleParseErrorKind
 :
 :
@@ -4513,6 +4527,7 @@ ExpectedIdentifier
 (
 t
 )
+}
 _
 =
 >
@@ -4522,6 +4537,7 @@ StyleParseErrorKind
 UnspecifiedError
 }
 )
+}
 )
 ?
 ;
@@ -4836,6 +4852,7 @@ clone
 )
 )
 )
+;
 }
 if
 range
@@ -4877,6 +4894,7 @@ clone
 )
 )
 )
+;
 }
 }
 /
@@ -4977,6 +4995,7 @@ StyleParseErrorKind
 RangedExpressionWithNoValue
 )
 )
+;
 }
 return
 Ok
@@ -5011,6 +5030,7 @@ map_err
 |
 err
 |
+{
 err
 .
 location
@@ -5022,6 +5042,7 @@ StyleParseErrorKind
 :
 MediaQueryExpectedFeatureValue
 )
+}
 )
 ?
 ;
@@ -5345,7 +5366,6 @@ l
 )
 =
 >
-{
 computed
 :
 :
@@ -5375,12 +5395,12 @@ px
 0
 .
 )
-}
 _
 =
 >
 true
 }
+;
 }
 }
 ;

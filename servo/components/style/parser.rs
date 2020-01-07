@@ -89,8 +89,8 @@ error_reporting
 :
 :
 {
-ParseErrorReporter
 ContextualParseError
+ParseErrorReporter
 }
 ;
 use
@@ -110,9 +110,9 @@ stylesheets
 :
 {
 CssRuleType
+Namespaces
 Origin
 UrlExtraData
-Namespaces
 }
 ;
 /

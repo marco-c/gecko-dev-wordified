@@ -98,8 +98,6 @@ servo
 ]
 pub
 use
-:
-:
 servo
 :
 :
@@ -107,8 +105,8 @@ url
 :
 :
 {
-ComputedUrl
 ComputedImageUrl
+ComputedUrl
 }
 ;
 #
@@ -124,8 +122,6 @@ gecko
 ]
 pub
 use
-:
-:
 gecko
 :
 :
@@ -133,8 +129,8 @@ url
 :
 :
 {
-ComputedUrl
 ComputedImageUrl
+ComputedUrl
 }
 ;
 /

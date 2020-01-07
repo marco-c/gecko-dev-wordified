@@ -141,9 +141,9 @@ selector_parser
 :
 :
 {
-EAGER_PSEUDO_COUNT
 PseudoElement
 RestyleDamage
+EAGER_PSEUDO_COUNT
 }
 ;
 use

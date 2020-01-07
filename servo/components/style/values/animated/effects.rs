@@ -795,7 +795,6 @@ other
 )
 =
 >
-{
 shadow
 .
 animate
@@ -804,7 +803,6 @@ other
 procedure
 )
 ?
-}
 (
 Some
 (
@@ -814,7 +812,6 @@ None
 )
 =
 >
-{
 shadow
 .
 animate
@@ -829,7 +826,6 @@ to_animated_zero
 procedure
 )
 ?
-}
 (
 None
 Some
@@ -839,7 +835,6 @@ shadow
 )
 =
 >
-{
 shadow
 .
 to_animated_zero
@@ -853,7 +848,6 @@ shadow
 procedure
 )
 ?
-}
 (
 None
 None
@@ -950,7 +944,6 @@ map
 |
 it
 |
-{
 match
 it
 {
@@ -964,14 +957,12 @@ to
 )
 =
 >
-{
 from
 .
 compute_squared_distance
 (
 to
 )
-}
 EitherOrBoth
 :
 :
@@ -1002,7 +993,6 @@ to_animated_zero
 )
 ?
 )
-}
 }
 }
 )

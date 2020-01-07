@@ -144,6 +144,13 @@ shared_lock
 DeepCloneParams
 DeepCloneWithLock
 Locked
+}
+;
+use
+shared_lock
+:
+:
+{
 SharedRwLock
 SharedRwLockReadGuard
 ToCssWithGuard

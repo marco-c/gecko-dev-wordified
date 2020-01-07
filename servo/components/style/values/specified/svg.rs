@@ -888,6 +888,7 @@ try
 |
 i
 |
+{
 CommaWithSpace
 :
 :
@@ -908,6 +909,7 @@ i
 )
 }
 )
+}
 )
 {
 Ok
@@ -1563,6 +1565,7 @@ normal
 (
 )
 )
+;
 }
 let
 mut
@@ -1720,6 +1723,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 value
 |
@@ -1791,6 +1795,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 /
 /
@@ -1924,6 +1929,7 @@ write_str
 normal
 "
 )
+;
 }
 let
 mut

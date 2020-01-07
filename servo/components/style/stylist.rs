@@ -263,10 +263,10 @@ selector_parser
 :
 :
 {
-SelectorImpl
-SnapshotMap
 PerPseudoElementMap
 PseudoElement
+SelectorImpl
+SnapshotMap
 }
 ;
 use
@@ -307,8 +307,8 @@ matching
 :
 :
 {
-ElementSelectorFlags
 matches_selector
+ElementSelectorFlags
 MatchingContext
 MatchingMode
 }
@@ -418,8 +418,8 @@ stylesheet_set
 :
 {
 DataValidity
-SheetRebuildKind
 DocumentStylesheetSet
+SheetRebuildKind
 }
 ;
 use
@@ -4301,7 +4301,6 @@ declarations
 )
 =
 >
-{
 match
 extra_declarations
 {
@@ -4344,7 +4343,6 @@ Some
 declarations
 )
 }
-}
 None
 =
 >
@@ -4364,7 +4362,6 @@ decls
 )
 =
 >
-{
 self
 .
 rule_tree
@@ -4399,7 +4396,6 @@ level
 )
 guards
 )
-}
 None
 =
 >
@@ -5474,7 +5470,6 @@ map
 |
 parent_style
 |
-{
 parent_style
 .
 visited_style
@@ -5485,7 +5480,6 @@ unwrap_or
 (
 parent_style
 )
-}
 )
 ;
 inherited_style_ignoring_first_line
@@ -5497,7 +5491,6 @@ map
 |
 parent_style
 |
-{
 parent_style
 .
 visited_style
@@ -5508,7 +5501,6 @@ unwrap_or
 (
 parent_style
 )
-}
 )
 ;
 layout_parent_style_for_visited
@@ -5520,7 +5512,6 @@ map
 |
 parent_style
 |
-{
 parent_style
 .
 visited_style
@@ -5531,7 +5522,6 @@ unwrap_or
 (
 parent_style
 )
-}
 )
 ;
 }
@@ -8437,7 +8427,6 @@ element
 |
 data
 |
-{
 data
 .
 mapped_ids
@@ -8446,7 +8435,6 @@ might_contain_hash
 (
 hash
 )
-}
 )
 }
 /
@@ -10772,9 +10760,7 @@ Component
 OnlyOfType
 =
 >
-{
 true
-}
 Component
 :
 :
@@ -10785,19 +10771,15 @@ p
 )
 =
 >
-{
 p
 .
 needs_cache_revalidation
 (
 )
-}
 _
 =
 >
-{
 false
-}
 }
 }
 impl
@@ -11462,7 +11444,6 @@ pseudo
 )
 =
 >
-{
 self
 .
 pseudos_map
@@ -11490,7 +11471,6 @@ new
 )
 )
 )
-}
 }
 ;
 map
@@ -12911,6 +12891,7 @@ return
 self
 .
 style_attribute_dependency
+;
 }
 self
 .
@@ -13765,7 +13746,6 @@ get_or_insert_with
 (
 |
 |
-{
 Box
 :
 :
@@ -13778,7 +13758,6 @@ default
 (
 )
 )
-}
 )
 ;
 host_rules
@@ -13811,7 +13790,6 @@ get_or_insert_with
 (
 |
 |
-{
 Box
 :
 :
@@ -13824,7 +13802,6 @@ default
 (
 )
 )
-}
 )
 }
 else

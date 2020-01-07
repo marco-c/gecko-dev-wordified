@@ -99,12 +99,14 @@ Err
 (
 )
 )
+;
 }
 else
 {
 ident
 }
 }
+;
 }
 #
 [
@@ -269,6 +271,7 @@ clone
 }
 }
 }
+;
 }
 /
 /
@@ -434,12 +437,6 @@ Clone
 ComputeSquaredDistance
 Copy
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

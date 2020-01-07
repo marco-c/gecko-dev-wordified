@@ -554,6 +554,7 @@ write_str
 none
 "
 )
+;
 }
 let
 mut
