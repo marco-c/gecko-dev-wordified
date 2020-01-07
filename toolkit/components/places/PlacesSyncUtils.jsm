@@ -884,7 +884,7 @@ newSyncId
 {
 HistorySyncLog
 .
-debug
+trace
 (
 "
 History
@@ -906,7 +906,7 @@ return
 }
 HistorySyncLog
 .
-debug
+info
 (
 "
 History
@@ -3171,7 +3171,7 @@ existingSyncId
 {
 BookmarkSyncLog
 .
-debug
+info
 (
 "
 Taking
@@ -3226,7 +3226,7 @@ newSyncId
 {
 BookmarkSyncLog
 .
-debug
+trace
 (
 "
 Bookmarks
@@ -3294,7 +3294,7 @@ merge
 .
 BookmarkSyncLog
 .
-debug
+info
 (
 "
 Bookmarks
