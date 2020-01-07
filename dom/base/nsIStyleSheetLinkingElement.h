@@ -213,7 +213,8 @@ element
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 SetStyleSheet
 (
 mozilla
@@ -255,14 +256,12 @@ element
 .
 *
 /
-NS_IMETHOD_
-(
+virtual
 mozilla
 :
 :
 StyleSheet
 *
-)
 GetStyleSheet
 (
 )
@@ -317,7 +316,8 @@ ignored
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 InitStyleLinkElement
 (
 bool
@@ -521,7 +521,8 @@ not
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 SetEnableUpdates
 (
 bool
