@@ -823,7 +823,7 @@ required_executables
 [
 py_exe_no_version
 py_exe_version_major
-                                     
+                                    
 py_exe_version_major_minor
 ]
         
@@ -850,14 +850,13 @@ bin_dir
 pth
 )
 )
+\
+                   
 (
 "
 %
 s
 should
-"
-                            
-"
 exist
 in
 bin_dir
