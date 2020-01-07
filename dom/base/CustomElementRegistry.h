@@ -2876,6 +2876,9 @@ override
 void
 Define
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
