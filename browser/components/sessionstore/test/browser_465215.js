@@ -88,7 +88,7 @@ linkedBrowser
 ;
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab1
 uniqueName
@@ -124,7 +124,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab2
 uniqueName
@@ -140,7 +140,7 @@ duplicated
 ;
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab2
 uniqueName
@@ -151,7 +151,7 @@ isnot
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab1
 uniqueName
@@ -197,7 +197,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab1
 uniqueName

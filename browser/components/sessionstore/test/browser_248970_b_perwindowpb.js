@@ -1283,7 +1283,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab_C
 key1

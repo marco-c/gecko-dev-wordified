@@ -189,7 +189,7 @@ duplicated
 tab
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab
 "
@@ -234,7 +234,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 newTab
 "
@@ -248,7 +248,7 @@ bar
 ;
 ss
 .
-setCustomTabValue
+setTabValue
 (
 newTab
 "
@@ -292,7 +292,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 newTab
 "

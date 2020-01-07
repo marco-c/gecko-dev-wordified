@@ -121,7 +121,7 @@ then
 {
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab
 "
@@ -168,7 +168,7 @@ encoded
 ;
 ss
 .
-deleteCustomTabValue
+deleteTabValue
 (
 tab
 "
@@ -193,7 +193,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab
 "
