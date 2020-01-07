@@ -688,7 +688,6 @@ _onNodeSet
 :
 function
 (
-_
 id
 )
 {

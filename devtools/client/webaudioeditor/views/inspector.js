@@ -974,7 +974,6 @@ _onNodeSelect
 :
 function
 (
-_
 id
 )
 {
