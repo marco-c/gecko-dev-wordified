@@ -1041,7 +1041,7 @@ push
 -
 to
 -
-staging
+nightly
 '
 }
 "
