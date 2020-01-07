@@ -376,11 +376,6 @@ F
 \
 F
 (
-Nop
-)
-\
-F
-(
 EmptyStatement
 )
 \
