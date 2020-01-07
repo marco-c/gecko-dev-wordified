@@ -3002,10 +3002,14 @@ min
 innerWidth
 +
 scrollX
+-
+1
 Math
 .
 max
 (
+0
++
 scrollX
 x
 )
@@ -3024,6 +3028,8 @@ Math
 .
 max
 (
+1
++
 scrollY
 y
 )
