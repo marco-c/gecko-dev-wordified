@@ -561,6 +561,11 @@ Clear
 }
 else
 {
+MOZ_ASSERT
+(
+aArray
+)
+;
 rv
 =
 MakePrefixSet
