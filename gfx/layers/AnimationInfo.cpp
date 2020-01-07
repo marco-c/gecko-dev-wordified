@@ -961,16 +961,11 @@ aDisplayItemKey
 {
 MOZ_ASSERT
 (
-!
-(
 aFrame
 -
 >
-GetStateBits
+IsPrimaryFrame
 (
-)
-&
-NS_FRAME_PART_OF_IBSPLIT
 )
 |
 |
