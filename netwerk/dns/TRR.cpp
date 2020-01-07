@@ -488,10 +488,7 @@ id
 aBody
 +
 =
-'
-\
-0
-'
+0x01
 ;
 /
 /
@@ -506,6 +503,10 @@ TC
 |
 RD
 |
+Set
+the
+RD
+bit
 aBody
 +
 =
