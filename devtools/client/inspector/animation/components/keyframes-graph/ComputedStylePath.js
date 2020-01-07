@@ -764,6 +764,12 @@ Array
 }
 segments
 *
+param
+{
+Object
+}
+style
+*
 return
 {
 Element
@@ -773,6 +779,7 @@ Element
 renderPathSegments
 (
 segments
+style
 )
 {
 const
@@ -848,6 +855,7 @@ path
 (
 {
 d
+style
 }
 )
 ;
