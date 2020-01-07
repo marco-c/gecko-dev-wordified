@@ -2346,12 +2346,6 @@ ResetPaintedAndValidState
 )
 override
 {
-mPaintedRegion
-.
-SetEmpty
-(
-)
-;
 mValidRegion
 .
 SetEmpty
