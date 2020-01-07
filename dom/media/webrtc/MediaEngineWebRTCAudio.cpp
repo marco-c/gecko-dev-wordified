@@ -1112,6 +1112,13 @@ Create
 (
 )
 )
+mAudioOutputObserver
+(
+new
+AudioOutputObserver
+(
+)
+)
 mMonitor
 (
 "
