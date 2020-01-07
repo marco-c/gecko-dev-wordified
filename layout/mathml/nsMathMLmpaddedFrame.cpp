@@ -141,6 +141,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1065,9 +1074,6 @@ else
 if
 (
 !
-nsCRT
-:
-:
 IsAsciiDigit
 (
 c
