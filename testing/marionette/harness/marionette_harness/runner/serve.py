@@ -390,6 +390,9 @@ self
 )
 :
         
+try
+:
+            
 server
 =
 self
@@ -406,7 +409,7 @@ self
 .
 init_kwargs
 )
-        
+            
 server
 .
 start
@@ -415,9 +418,19 @@ block
 =
 False
 )
-        
-try
-:
+            
+self
+.
+send
+(
+(
+"
+ok
+"
+(
+)
+)
+)
             
 while
 True
@@ -523,6 +536,24 @@ stop
 return
         
 except
+Exception
+as
+e
+:
+            
+self
+.
+send
+(
+(
+"
+stop
+"
+e
+)
+)
+        
+except
 KeyboardInterrupt
 :
             
@@ -624,6 +655,27 @@ proc
 start
 (
 )
+        
+res
+exc
+=
+self
+.
+recv
+(
+)
+        
+if
+res
+=
+=
+"
+stop
+"
+:
+            
+raise
+exc
     
 def
 get_url
