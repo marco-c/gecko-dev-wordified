@@ -254,13 +254,6 @@ h
 #
 include
 "
-nsIDOMDOMImplementation
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
