@@ -110,14 +110,8 @@ class
 JSONArray
 extends
 ArrayList
-<
-Object
->
 implements
 List
-<
-Object
->
 JSONAware
 JSONStreamAware
 {

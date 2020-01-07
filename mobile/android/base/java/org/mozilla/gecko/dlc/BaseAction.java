@@ -713,13 +713,12 @@ kind
 :
 "
 +
+(
+String
+)
 content
 .
 getKind
-(
-)
-.
-toString
 (
 )
 )

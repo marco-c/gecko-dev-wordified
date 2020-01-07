@@ -230,8 +230,6 @@ mActivityRule
 =
 new
 ActivityTestRule
-<
->
 (
 GeckoViewActivity
 .

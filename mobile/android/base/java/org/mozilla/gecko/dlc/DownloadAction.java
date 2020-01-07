@@ -797,13 +797,12 @@ archive
 :
 "
 +
+(
+String
+)
 content
 .
 getType
-(
-)
-.
-toString
 (
 )
 )
