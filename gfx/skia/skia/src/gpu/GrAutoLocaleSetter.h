@@ -126,6 +126,12 @@ defined
 (
 _NEWLIB_VERSION
 )
+|
+|
+defined
+(
+__NetBSD__
+)
 #
 define
 HAVE_LOCALE_T
