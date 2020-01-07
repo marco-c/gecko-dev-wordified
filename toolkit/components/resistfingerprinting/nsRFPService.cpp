@@ -705,8 +705,15 @@ return
 sRFPService
 ;
 }
-inline
+/
+*
+static
+*
+/
 double
+nsRFPService
+:
+:
 TimerResolution
 (
 )
