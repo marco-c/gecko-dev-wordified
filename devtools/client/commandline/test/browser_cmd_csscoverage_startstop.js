@@ -250,15 +250,15 @@ the
 test
 *
 /
+async
 function
-*
 navigate
 (
 usage
 options
 )
 {
-yield
+await
 usage
 .
 start
@@ -321,7 +321,7 @@ are
 both
 loaded
 .
-yield
+await
 Promise
 .
 all
@@ -382,7 +382,7 @@ after
 a
 timeout
 .
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -425,7 +425,7 @@ ready
 "
 )
 ;
-yield
+await
 usage
 .
 stop
@@ -448,7 +448,7 @@ running
 "
 )
 ;
-yield
+await
 toolboxReady
 ;
 }
@@ -465,8 +465,8 @@ been
 visited
 *
 /
+async
 function
-*
 checkPages
 (
 usage
@@ -501,7 +501,7 @@ PAGE_3
 let
 actualVisited
 =
-yield
+await
 usage
 .
 _testOnlyVisitedPages
@@ -531,8 +531,8 @@ expected
 JSON
 *
 /
+async
 function
-*
 checkEditorReport
 (
 usage
@@ -574,7 +574,7 @@ column
 let
 actualPage1
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -637,7 +637,7 @@ column
 let
 actualPage2
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -700,7 +700,7 @@ column
 let
 actualPage3a
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -763,7 +763,7 @@ column
 let
 actualPage3b
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -826,7 +826,7 @@ column
 let
 actualSheetA
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -879,7 +879,7 @@ column
 let
 actualSheetB
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -932,7 +932,7 @@ column
 let
 actualSheetC
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -985,7 +985,7 @@ column
 let
 actualSheetD
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -1016,8 +1016,8 @@ expected
 JSON
 *
 /
+async
 function
-*
 checkPageReport
 (
 usage
@@ -1026,7 +1026,7 @@ usage
 let
 actualReport
 =
-yield
+await
 usage
 .
 createPageReport

@@ -307,8 +307,8 @@ current
 page
 *
 /
+async
 function
-*
 navigate
 (
 usage
@@ -331,7 +331,7 @@ running
 "
 )
 ;
-yield
+await
 usage
 .
 oneshot
@@ -369,8 +369,8 @@ been
 visited
 *
 /
+async
 function
-*
 checkPages
 (
 usage
@@ -386,7 +386,7 @@ PAGE_3
 let
 actualVisited
 =
-yield
+await
 usage
 .
 _testOnlyVisitedPages
@@ -416,8 +416,8 @@ expected
 JSON
 *
 /
+async
 function
-*
 checkEditorReport
 (
 usage
@@ -439,7 +439,7 @@ reports
 let
 actualPage1
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -482,7 +482,7 @@ reports
 let
 actualPage2
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -545,7 +545,7 @@ column
 let
 actualPage3a
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -608,7 +608,7 @@ column
 let
 actualPage3b
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -711,7 +711,7 @@ column
 let
 actualSheetA
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -804,7 +804,7 @@ column
 let
 actualSheetB
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -897,7 +897,7 @@ column
 let
 actualSheetC
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -990,7 +990,7 @@ column
 let
 actualSheetD
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -1021,8 +1021,8 @@ expected
 JSON
 *
 /
+async
 function
-*
 checkPageReport
 (
 usage
@@ -1031,7 +1031,7 @@ usage
 let
 actualReport
 =
-yield
+await
 usage
 .
 createPageReport

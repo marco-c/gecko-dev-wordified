@@ -8858,8 +8858,8 @@ s
 )
 ;
 }
+async
 function
-*
 initWorkerDebugger
 (
 TAB_URL
@@ -8891,7 +8891,7 @@ connectPipe
 )
 )
 ;
-yield
+await
 connect
 (
 client
@@ -8900,7 +8900,7 @@ client
 let
 tab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -8911,7 +8911,7 @@ let
 tabs
 }
 =
-yield
+await
 listTabs
 (
 client
@@ -8922,7 +8922,7 @@ let
 tabClient
 ]
 =
-yield
+await
 attachTab
 (
 client
@@ -8933,7 +8933,7 @@ TAB_URL
 )
 )
 ;
-yield
+await
 createWorkerInTab
 (
 tab
@@ -8945,7 +8945,7 @@ let
 workers
 }
 =
-yield
+await
 listWorkers
 (
 tabClient
@@ -8956,7 +8956,7 @@ let
 workerClient
 ]
 =
-yield
+await
 attachWorker
 (
 tabClient
@@ -8970,7 +8970,7 @@ WORKER_URL
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
