@@ -8304,7 +8304,7 @@ cx
 js
 :
 :
-HandleScriptSource
+HandleScriptSourceObject
 source
 )
 ;

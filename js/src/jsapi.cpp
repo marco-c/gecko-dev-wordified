@@ -26523,7 +26523,7 @@ runtime
 )
 )
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sso
 (
 cx

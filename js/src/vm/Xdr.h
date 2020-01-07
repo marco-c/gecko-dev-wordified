@@ -2968,7 +2968,7 @@ JS
 :
 MutableHandleFunction
 objp
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 =
 nullptr

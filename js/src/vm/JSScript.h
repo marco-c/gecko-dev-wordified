@@ -4202,7 +4202,7 @@ JSContext
 cx
 HandleFunction
 fun
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 ;
@@ -4516,7 +4516,7 @@ initFromOptions
 JSContext
 *
 cx
-HandleScriptSource
+HandleScriptSourceObject
 source
 const
 ReadOnlyCompileOptions
@@ -4531,7 +4531,7 @@ initElementProperties
 JSContext
 *
 cx
-HandleScriptSource
+HandleScriptSourceObject
 source
 HandleObject
 element
@@ -4761,7 +4761,7 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 HandleFunction
 fun
@@ -4785,7 +4785,7 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 HandleFunction
 fun
@@ -5436,7 +5436,7 @@ enclosingScope
 js
 :
 :
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 js
 :
@@ -13558,7 +13558,7 @@ HandleScript
 script
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 uint64_t
 packedData

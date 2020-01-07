@@ -311,7 +311,7 @@ Handle
 ScriptSourceObject
 *
 >
-HandleScriptSource
+HandleScriptSourceObject
 ;
 typedef
 JS
@@ -597,7 +597,7 @@ Rooted
 ScriptSourceObject
 *
 >
-RootedScriptSource
+RootedScriptSourceObject
 ;
 typedef
 JS

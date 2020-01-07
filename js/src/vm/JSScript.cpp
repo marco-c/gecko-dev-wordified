@@ -1811,7 +1811,7 @@ mode
 XDR_DECODE
 )
 {
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
@@ -2079,7 +2079,7 @@ mode
 xdr
 HandleScope
 scriptEnclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObjectArg
 HandleFunction
 fun
@@ -3294,7 +3294,7 @@ OwnSource
 sourceObjectArg
 )
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
@@ -6399,7 +6399,7 @@ XDR_ENCODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 HandleFunction
 MutableHandleScript
 )
@@ -6417,7 +6417,7 @@ XDR_DECODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 HandleFunction
 MutableHandleScript
 )
@@ -6441,7 +6441,7 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 HandleFunction
 fun
@@ -6889,7 +6889,7 @@ XDR_ENCODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 HandleFunction
 MutableHandle
 <
@@ -6911,7 +6911,7 @@ XDR_DECODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 HandleFunction
 MutableHandle
 <
@@ -9256,7 +9256,7 @@ ScriptSource
 source
 )
 {
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
@@ -9386,7 +9386,7 @@ initFromOptions
 JSContext
 *
 cx
-HandleScriptSource
+HandleScriptSourceObject
 source
 const
 ReadOnlyCompileOptions
@@ -9619,7 +9619,7 @@ initElementProperties
 JSContext
 *
 cx
-HandleScriptSource
+HandleScriptSourceObject
 source
 HandleObject
 element
@@ -13548,7 +13548,7 @@ JSContext
 cx
 HandleFunction
 fun
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -29096,7 +29096,7 @@ HandleScript
 script
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 uint64_t
 packedFields

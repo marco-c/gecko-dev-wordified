@@ -6779,7 +6779,7 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 MutableHandleFunction
 objp

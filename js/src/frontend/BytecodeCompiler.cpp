@@ -599,7 +599,7 @@ sourceBuffer
 RootedScope
 enclosingScope
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 ;
 ScriptSource
@@ -3028,7 +3028,7 @@ parameterListEnd
 return
 nullptr
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sso
 (
 cx
@@ -4686,7 +4686,7 @@ pn
 return
 false
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
