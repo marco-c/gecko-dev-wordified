@@ -625,7 +625,10 @@ GetGuid
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+#
+ifdef
+NIGHTLY_BUILD
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -643,6 +646,8 @@ targets
 "
 )
 ;
+#
+endif
 UpdateTargetApzc
 (
 aTargetApzc
