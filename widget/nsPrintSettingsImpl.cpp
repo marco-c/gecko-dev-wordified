@@ -3588,7 +3588,7 @@ NS_OK
 See
 documentation
 in
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 *
@@ -3836,7 +3836,7 @@ NS_OK
 See
 documentation
 in
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 *
@@ -4044,7 +4044,7 @@ NS_OK
 See
 documentation
 in
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 *
