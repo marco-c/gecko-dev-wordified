@@ -33,17 +33,4 @@ stage_product
 '
 devedition
 '
-    
-#
-Enable
-sendchanges
-for
-bug
-1372412
-    
-'
-enable_unittest_sendchange
-'
-:
-False
 }

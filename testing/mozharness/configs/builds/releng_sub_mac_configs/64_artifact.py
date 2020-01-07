@@ -104,23 +104,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-upload
--
-files
-'
-        
-'
-sendchange
 '
     
 ]
@@ -207,12 +191,6 @@ is
 detected
 on
 buildbot
-    
-'
-enable_unittest_sendchange
-'
-:
-False
     
 '
 perfherder_extra_options

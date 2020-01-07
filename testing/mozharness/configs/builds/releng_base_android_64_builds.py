@@ -114,23 +114,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-upload
--
-files
-'
-        
-'
-sendchange
 '
         
 '
@@ -937,12 +921,6 @@ enable_count_ctors
 '
 :
 False
-    
-'
-enable_unittest_sendchange
-'
-:
-True
     
 '
 multi_locale

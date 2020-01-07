@@ -247,29 +247,7 @@ clobber
 '
                 
 '
-checkout
--
-sources
-'
-                
-'
 build
-'
-                
-'
-upload
--
-files
-'
-#
-upload
-from
-BB
-to
-TC
-                
-'
-sendchange
 '
                 
 '
@@ -282,22 +260,6 @@ test
 valgrind
 -
 test
-'
-                
-'
-package
--
-source
-'
-                
-'
-generate
--
-source
--
-signing
--
-manifest
 '
                 
 '

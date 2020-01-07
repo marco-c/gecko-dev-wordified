@@ -15,25 +15,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-#
-'
-upload
--
-files
-'
-        
-#
-'
-sendchange
 '
         
 '

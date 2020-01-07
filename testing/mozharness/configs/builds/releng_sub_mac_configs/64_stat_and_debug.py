@@ -15,23 +15,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-upload
--
-files
-'
-        
-'
-sendchange
 '
         
 '
@@ -107,12 +91,6 @@ False
     
 '
 enable_signing
-'
-:
-False
-    
-'
-enable_unittest_sendchange
 '
 :
 False
