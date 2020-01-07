@@ -6876,12 +6876,6 @@ shell
 nsWeakPtr
 mFullscreenPresShell
 ;
-nsCOMPtr
-<
-mozIDOMWindowProxy
->
-mOpenerForInitialContentBrowser
-;
 }
 mChromeFields
 ;
