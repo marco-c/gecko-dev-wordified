@@ -5400,7 +5400,6 @@ texture_cache
 request
 (
 &
-mut
 texture_cache_handle
 gpu_cache
 )
@@ -5770,9 +5769,9 @@ FontTemplate
 )
 {
 match
+*
 template
 {
-&
 FontTemplate
 :
 :
@@ -5789,7 +5788,6 @@ self
 .
 add_raw_font
 (
-&
 font_key
 bytes
 .
@@ -5800,7 +5798,6 @@ index
 )
 ;
 }
-&
 FontTemplate
 :
 :
@@ -5816,7 +5813,6 @@ self
 .
 add_native_font
 (
-&
 font_key
 (
 *
@@ -5865,9 +5861,9 @@ FontTemplate
 )
 {
 match
+*
 template
 {
-&
 FontTemplate
 :
 :
@@ -5886,7 +5882,6 @@ self
 .
 add_font_from_memory
 (
-&
 font_key
 bytes
 .
@@ -5898,7 +5893,6 @@ index
 )
 ;
 }
-&
 FontTemplate
 :
 :
@@ -5916,7 +5910,6 @@ self
 .
 add_native_font
 (
-&
 font_key
 (
 *

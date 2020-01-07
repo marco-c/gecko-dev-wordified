@@ -2495,6 +2495,13 @@ Option
 <
 ClipId
 >
+pub
+clip_node_id
+:
+Option
+<
+ClipId
+>
 }
 /
 /

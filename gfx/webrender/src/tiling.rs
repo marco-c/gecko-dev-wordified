@@ -3719,7 +3719,6 @@ clips
 task_info
 .
 coordinate_system_id
-&
 ctx
 .
 resource_cache

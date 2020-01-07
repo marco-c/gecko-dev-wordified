@@ -3726,10 +3726,9 @@ texture_cache
 request
 (
 &
-mut
 entry
 .
-as_mut
+as_ref
 (
 )
 .
@@ -5136,7 +5135,6 @@ cached_glyphs
 begin_frame
 (
 &
-mut
 self
 .
 texture_cache

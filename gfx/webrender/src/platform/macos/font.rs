@@ -1239,9 +1239,6 @@ top
 -
 bottom
 ;
-let
-metrics
-=
 GlyphMetrics
 {
 rasterized_left
@@ -1272,8 +1269,6 @@ width
 as
 f32
 }
-;
-metrics
 }
 #
 [
@@ -3211,8 +3206,6 @@ a
 println
 !
 (
-"
-"
 )
 ;
 }

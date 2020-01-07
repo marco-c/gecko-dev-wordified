@@ -687,9 +687,6 @@ mod
 shade
 ;
 mod
-spring
-;
-mod
 texture_allocator
 ;
 mod
@@ -1238,6 +1235,7 @@ renderer
 {
 GraphicsApi
 GraphicsApiInfo
+PipelineInfo
 Renderer
 RendererOptions
 }
@@ -1249,6 +1247,7 @@ renderer
 :
 {
 RendererStats
+SceneBuilderHooks
 ThreadListener
 }
 ;
