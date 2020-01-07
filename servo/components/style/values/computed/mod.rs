@@ -870,6 +870,7 @@ text
 :
 {
 TextAlign
+TextEmphasisPosition
 TextEmphasisStyle
 TextOverflow
 WordSpacing
