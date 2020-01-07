@@ -5872,6 +5872,11 @@ if
 (
 this
 .
+_popup
+&
+&
+this
+.
 popup
 .
 isOpen
