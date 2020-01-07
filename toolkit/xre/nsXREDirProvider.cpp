@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIAddonInterposition
-.
-h
-"
-#
-include
-"
 nsIAppStartup
 .
 h
