@@ -10882,6 +10882,17 @@ ARM
 ;
 /
 /
+AARCH64
+.
+static
+unsigned
+int
+ARM64
+(
+)
+;
+/
+/
 MIPS
 .
 static
