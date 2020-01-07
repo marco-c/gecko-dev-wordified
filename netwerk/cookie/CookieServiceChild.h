@@ -290,6 +290,10 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsSafeTopLevelNav
+bool
+aIsTopLevelForeign
 const
 OriginAttributes
 &
@@ -307,6 +311,10 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsSafeTopLevelNav
+bool
+aIsTopLevelForeign
 const
 OriginAttributes
 &

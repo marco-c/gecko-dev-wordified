@@ -1551,6 +1551,10 @@ aHostURI
 bool
 aIsForeign
 bool
+aIsSafeTopLevelNav
+bool
+aIsTopLevelForeign
+bool
 aHttpBound
 const
 OriginAttributes
@@ -1734,6 +1738,10 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsSafeTopLevelNav
+bool
+aIsTopLevelForeign
 bool
 aHttpBound
 const
