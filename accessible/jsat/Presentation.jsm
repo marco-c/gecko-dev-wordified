@@ -1068,6 +1068,7 @@ aObject
 )
 {
 return
+[
 "
 todo
 .
@@ -1075,6 +1076,7 @@ selection
 -
 changed
 "
+]
 ;
 }
 /
@@ -1113,6 +1115,7 @@ aAccessible
 )
 {
 return
+[
 "
 todo
 .
@@ -1120,6 +1123,7 @@ name
 -
 changed
 "
+]
 ;
 }
 /
@@ -1158,6 +1162,7 @@ aAccessible
 )
 {
 return
+[
 "
 todo
 .
@@ -1165,6 +1170,7 @@ value
 -
 changed
 "
+]
 ;
 }
 /
