@@ -3461,7 +3461,7 @@ get_url
 (
 )
 )
-        
+            
 if
 "
 is_remote
@@ -3469,7 +3469,7 @@ is_remote
 in
 page
 :
-            
+                
 self
 .
 assertEqual
@@ -3483,7 +3483,7 @@ is_remote
 self
 .
 is_remote_tab
-                             
+                                 
 "
 '
 {
@@ -3503,7 +3503,7 @@ state
 .
 format
 (
-                                 
+                                     
 page
 [
 "
@@ -3602,7 +3602,7 @@ get_url
 (
 )
 )
-        
+            
 if
 "
 is_remote
@@ -3610,7 +3610,7 @@ is_remote
 in
 page
 :
-            
+                
 self
 .
 assertEqual
@@ -3624,7 +3624,7 @@ is_remote
 self
 .
 is_remote_tab
-                             
+                                 
 "
 '
 {
@@ -3644,7 +3644,7 @@ state
 .
 format
 (
-                                 
+                                     
 page
 [
 "
