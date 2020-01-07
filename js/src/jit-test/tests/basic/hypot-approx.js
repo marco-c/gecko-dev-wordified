@@ -12,7 +12,7 @@ loadRelativeToScript
 /
 tests
 /
-non262
+ecma_6
 /
 Math
 /
