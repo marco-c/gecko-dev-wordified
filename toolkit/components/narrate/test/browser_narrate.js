@@ -114,8 +114,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 teresa
 "
