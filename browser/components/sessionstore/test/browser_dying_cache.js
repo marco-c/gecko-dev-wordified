@@ -98,16 +98,14 @@ gBrowser
 .
 selectedBrowser
 .
-loadURI
+loadURIWithFlags
 (
 "
 about
 :
 robots
 "
-{
 flags
-}
 )
 ;
 await

@@ -2150,7 +2150,7 @@ STYLESHEETS
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 (
 popupURL
 {

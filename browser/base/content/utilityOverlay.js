@@ -3225,7 +3225,7 @@ aPrincipal
 }
 targetBrowser
 .
-loadURI
+loadURIWithFlags
 (
 url
 {

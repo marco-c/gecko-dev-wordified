@@ -209,11 +209,11 @@ original
 =
 browser
 .
-loadURI
+loadURIWithFlags
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 =
 function
 (
@@ -230,7 +230,7 @@ expectedURL
 {
 browser
 .
-loadURI
+loadURIWithFlags
 =
 original
 ;
