@@ -4099,11 +4099,14 @@ instruction
 {
 lirOpcode
 =
+uint32_t
+(
 ins
 -
 >
 op
 (
+)
 )
 ;
 lirId
