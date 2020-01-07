@@ -176,6 +176,13 @@ GeckoViewTelemetryController
 ;
 /
 *
+global
+debug
+warn
+*
+/
+/
+*
 *
 *
 Telemetry
