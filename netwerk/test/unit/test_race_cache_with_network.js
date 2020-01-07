@@ -948,7 +948,7 @@ null
 yield
 undefined
 ;
-greater
+greaterOrEqual
 (
 Date
 .
