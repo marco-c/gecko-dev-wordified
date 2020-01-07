@@ -4034,6 +4034,16 @@ aXHR
 )
 {
 }
+void
+SetIsStale
+(
+)
+{
+mXHR
+=
+nullptr
+;
+}
 private
 :
 virtual
