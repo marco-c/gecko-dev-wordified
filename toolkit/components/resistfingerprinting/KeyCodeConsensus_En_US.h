@@ -200,9 +200,9 @@ key
 .
 *
 See
-nsIDOMKeyEvent
+KeyEvent
 .
-idl
+webidl
 for
 details
 .
@@ -276,9 +276,9 @@ key
 .
 *
 See
-nsIDOMKeyEvent
+KeyEvent
 .
-idl
+webidl
 for
 details
 .

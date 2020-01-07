@@ -5300,7 +5300,7 @@ it
 takes
 *
 a
-nsIDOMKeyEvent
+WidgetKeyboardEvent
 *
 parameter
 .

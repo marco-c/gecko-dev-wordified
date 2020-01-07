@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsIDOMKeyEvent
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

@@ -165,9 +165,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMKeyEvent
-;
-class
 nsIDOMMouseEvent
 ;
 class
