@@ -429,7 +429,6 @@ kwargs
 )
         
 except
-Exception
 :
             
 return
@@ -956,7 +955,6 @@ kwargs
 )
         
 except
-Exception
 :
             
 return
@@ -2140,7 +2138,7 @@ self
 root
 path
 )
-                                    
+                                     
 for
 path
 in

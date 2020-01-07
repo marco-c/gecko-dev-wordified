@@ -14,7 +14,6 @@ import
 iteritems
 itervalues
 viewkeys
-string_types
 from
 .
 item
@@ -59,6 +58,38 @@ ManifestError
 :
     
 pass
+def
+sourcefile_items
+(
+args
+)
+:
+    
+tests_root
+url_base
+rel_path
+status
+=
+args
+    
+source_file
+=
+SourceFile
+(
+tests_root
+                             
+rel_path
+                             
+url_base
+)
+    
+return
+rel_path
+source_file
+.
+manifest_items
+(
+)
 class
 Manifest
 (
@@ -1343,7 +1374,7 @@ if
 isinstance
 (
 manifest
-string_types
+basestring
 )
 :
         

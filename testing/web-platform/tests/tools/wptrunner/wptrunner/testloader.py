@@ -589,8 +589,8 @@ sep
 )
             
 if
-test_dir
 not
+test_dir
 in
 by_dir
 :
@@ -1965,10 +1965,6 @@ badness
 self_
 )
 :
-#
-noqa
-:
-N805
                 
 "
 "
@@ -4191,11 +4187,6 @@ current_metadata
 None
     
 abstractmethod
-    
-#
-noqa
-:
-N805
     
 #
 classmethod
