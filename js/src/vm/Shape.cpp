@@ -13930,6 +13930,7 @@ shape
 StackBaseShape
 base
 (
+cx
 clasp
 objectFlags
 )

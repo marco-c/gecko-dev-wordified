@@ -341,6 +341,9 @@ InterpreterFrame
 :
 initCallFrame
 (
+JSContext
+*
+cx
 InterpreterFrame
 *
 prev
@@ -1909,6 +1912,7 @@ fp
 >
 initCallFrame
 (
+cx
 prev
 prevpc
 prevsp
@@ -2203,6 +2207,7 @@ fp
 >
 initCallFrame
 (
+cx
 prev
 prevpc
 prevsp

@@ -802,6 +802,9 @@ static
 int32_t
 CreateRegExpSearchResult
 (
+JSContext
+*
+cx
 const
 MatchPairs
 &
@@ -7098,6 +7101,7 @@ result
 =
 CreateRegExpSearchResult
 (
+cx
 matches
 )
 ;
@@ -7427,6 +7431,7 @@ result
 =
 CreateRegExpSearchResult
 (
+cx
 *
 maybeMatches
 )

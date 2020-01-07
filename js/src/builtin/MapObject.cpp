@@ -3893,6 +3893,9 @@ MapObject
 :
 getKeysAndValuesInterleaved
 (
+JSContext
+*
+cx
 HandleObject
 obj
 JS
@@ -8767,6 +8770,9 @@ isBuiltinAdd
 (
 HandleValue
 add
+JSContext
+*
+cx
 )
 {
 return

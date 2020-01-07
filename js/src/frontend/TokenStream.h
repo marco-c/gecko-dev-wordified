@@ -6791,6 +6791,9 @@ public
 :
 TokenBuf
 (
+JSContext
+*
+cx
 const
 CharT
 *
