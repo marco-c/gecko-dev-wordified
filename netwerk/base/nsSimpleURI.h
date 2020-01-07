@@ -225,6 +225,10 @@ nsIIPCSerializableURI
 {
 protected
 :
+nsSimpleURI
+(
+)
+;
 virtual
 ~
 nsSimpleURI
@@ -256,10 +260,6 @@ aURI
 nsSimpleURI
 methods
 :
-nsSimpleURI
-(
-)
-;
 bool
 Equals
 (

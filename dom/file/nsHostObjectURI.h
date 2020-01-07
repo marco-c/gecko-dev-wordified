@@ -257,7 +257,7 @@ nsIURIWithBlobImpl
 public
 nsSupportsWeakReference
 {
-public
+private
 :
 nsHostObjectURI
 (
@@ -316,6 +316,8 @@ nsSimpleURI
 )
 {
 }
+public
+:
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIURIWITHBLOBIMPL
 NS_DECL_NSIURIWITHPRINCIPAL
