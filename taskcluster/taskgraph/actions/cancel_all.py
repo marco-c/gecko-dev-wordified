@@ -347,6 +347,7 @@ def
 cancel_all_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
