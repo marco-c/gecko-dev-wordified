@@ -18978,6 +18978,12 @@ Applets
 (
 )
 ;
+nsIHTMLCollection
+*
+Anchors
+(
+)
+;
 mozilla
 :
 :
@@ -22288,6 +22294,12 @@ nsCOMPtr
 nsIHTMLCollection
 >
 mApplets
+;
+RefPtr
+<
+nsContentList
+>
+mAnchors
 ;
 /
 /
