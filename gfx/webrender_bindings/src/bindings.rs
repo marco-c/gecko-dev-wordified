@@ -9095,6 +9095,9 @@ anim
 .
 id
 )
+1
+.
+0
 )
 1
 .
@@ -9124,6 +9127,12 @@ new
 anim
 .
 id
+)
+LayoutTransform
+:
+:
+identity
+(
 )
 )
 )
