@@ -123,7 +123,7 @@ nsDependentSubstring_h___
 #
 include
 "
-nsSubstring
+nsAString
 .
 h
 "

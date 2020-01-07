@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsSubstring
+nsAString
 .
 h
 "
