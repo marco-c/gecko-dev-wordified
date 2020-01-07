@@ -825,10 +825,14 @@ return
 Promise
 *
 Resolves
-when
+with
+the
+return
+value
+of
+the
 condition
-is
-true
+function
 .
 *
 Rejects
@@ -971,6 +975,7 @@ intervalID
 ;
 resolve
 (
+conditionPassed
 )
 ;
 }

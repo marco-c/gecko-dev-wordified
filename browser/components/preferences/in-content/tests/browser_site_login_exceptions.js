@@ -312,6 +312,8 @@ click
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -469,6 +471,8 @@ VK_DELETE
 ;
 }
 await
+TestUtils
+.
 waitForCondition
 (
 (
