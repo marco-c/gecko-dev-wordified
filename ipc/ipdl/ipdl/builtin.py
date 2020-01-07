@@ -233,6 +233,16 @@ mozilla
 ipc
 :
 :
+ByteBuf
+'
+    
+'
+mozilla
+:
+:
+ipc
+:
+:
 FileDescriptor
 '
 )

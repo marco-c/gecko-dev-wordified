@@ -188,6 +188,17 @@ mozilla
 /
 ipc
 /
+ByteBuf
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 FileDescriptor
 .
 h
