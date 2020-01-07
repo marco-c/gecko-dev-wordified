@@ -447,12 +447,6 @@ pub
 ]
     
 '
-pip_index
-'
-:
-False
-    
-'
 virtualenv_path
 '
 :
