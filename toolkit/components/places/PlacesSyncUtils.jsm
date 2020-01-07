@@ -2549,13 +2549,6 @@ sync
 /
 parent
 "
-SYNC_MOBILE_ROOT_ANNO
-:
-"
-mobile
-/
-bookmarksRoot
-"
 SYNC_ID_META_KEY
 :
 "
