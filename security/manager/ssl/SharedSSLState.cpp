@@ -746,6 +746,10 @@ mOCSPMustStapleEnabled
 (
 false
 )
+mSignedCertTimestampsEnabled
+(
+false
+)
 {
 mIOLayerHelpers
 .

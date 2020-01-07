@@ -807,6 +807,10 @@ public
 Digest
 (
 )
+:
+mItemBuf
+(
+)
 {
 mItem
 .

@@ -105,6 +105,11 @@ NS_DECL_NSIAUTHMODULE
 nsNTLMAuthModule
 (
 )
+:
+mNTLMNegotiateSent
+(
+false
+)
 {
 }
 nsresult

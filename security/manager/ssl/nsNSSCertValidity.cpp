@@ -119,6 +119,14 @@ UniqueCERTCertificate
 cert
 )
 :
+mNotBefore
+(
+0
+)
+mNotAfter
+(
+0
+)
 mTimesInitialized
 (
 false
