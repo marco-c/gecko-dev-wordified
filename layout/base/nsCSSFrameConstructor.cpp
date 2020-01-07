@@ -25184,12 +25184,11 @@ IsEmpty
 parent
 &
 &
-nsContentUtils
-:
-:
-IsContentInsertionPoint
-(
 parent
+-
+>
+IsActiveChildrenElement
+(
 )
 )
 {
