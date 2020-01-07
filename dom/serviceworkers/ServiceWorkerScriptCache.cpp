@@ -4799,7 +4799,9 @@ LocalizeAndReportToAllClients
 mRegistration
 -
 >
-mScope
+Scope
+(
+)
 "
 ServiceWorkerRegisterNetworkError
 "
@@ -4813,7 +4815,9 @@ NS_ConvertUTF8toUTF16
 mRegistration
 -
 >
-mScope
+Scope
+(
+)
 )
 statusAsText
 mURL
@@ -5072,7 +5076,9 @@ LocalizeAndReportToAllClients
 mRegistration
 -
 >
-mScope
+Scope
+(
+)
 "
 ServiceWorkerRegisterMimeTypeError
 "
@@ -5086,7 +5092,9 @@ NS_ConvertUTF8toUTF16
 mRegistration
 -
 >
-mScope
+Scope
+(
+)
 )
 NS_ConvertUTF8toUTF16
 (

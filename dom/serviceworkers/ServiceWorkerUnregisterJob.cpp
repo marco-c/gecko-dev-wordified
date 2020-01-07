@@ -659,7 +659,8 @@ may
 only
 set
 the
-mPendingUninstall
+pending
+uninstall
 flag
 below
 .
@@ -697,7 +698,8 @@ is
 resurrected
 by
 clearing
-mPendingUninstall
+pending
+uninstall
 then
 it
 should
@@ -718,7 +720,9 @@ mSendToParent
 registration
 -
 >
-mPendingUninstall
+IsPendingUninstall
+(
+)
 )
 {
 swm
@@ -745,9 +749,9 @@ flag
 registration
 -
 >
-mPendingUninstall
-=
-true
+SetPendingUninstall
+(
+)
 ;
 /
 /
