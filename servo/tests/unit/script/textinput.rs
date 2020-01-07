@@ -263,7 +263,6 @@ mozilla
 rocks
 "
 )
-true
 )
 ;
 assert_eq
@@ -4083,7 +4082,6 @@ abc
 nf
 "
 )
-true
 )
 ;
 assert_eq
@@ -4177,7 +4175,6 @@ from
 de
 "
 )
-true
 )
 ;
 assert_eq
