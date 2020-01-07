@@ -228,13 +228,6 @@ h
 #
 include
 "
-nsCSSPseudoClasses
-.
-h
-"
-#
-include
-"
 nsCSSPseudoElements
 .
 h
@@ -1037,13 +1030,6 @@ NS_InitAtomTable
 instead
 .
 nsCSSAnonBoxes
-:
-:
-RegisterStaticAtoms
-(
-)
-;
-nsCSSPseudoClasses
 :
 :
 RegisterStaticAtoms
