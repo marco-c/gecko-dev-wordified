@@ -276,8 +276,6 @@ default
 let
 checkboxChanged
 =
-BrowserTestUtils
-.
 waitForEvent
 (
 checkbox
@@ -314,8 +312,6 @@ checked
 ;
 checkboxChanged
 =
-BrowserTestUtils
-.
 waitForEvent
 (
 checkbox

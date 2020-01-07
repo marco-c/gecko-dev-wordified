@@ -433,8 +433,6 @@ connectionURL
 ;
 dialogClosingPromise
 =
-BrowserTestUtils
-.
 waitForEvent
 (
 dialog
