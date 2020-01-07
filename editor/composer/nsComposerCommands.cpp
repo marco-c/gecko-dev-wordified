@@ -289,17 +289,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-/
-/
-for
-nsIDOMElement
-#
-include
-"
 nsIEditor
 .
 h

@@ -929,17 +929,6 @@ nsIDOMDocument
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-/
-/
-for
-nsIDOMElement
-#
-include
-"
 nsIDOMEventListener
 .
 h
