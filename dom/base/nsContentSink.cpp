@@ -1410,12 +1410,12 @@ StyleSheet
 *
 aSheet
 bool
-aWasAlternate
+aWasDeferred
 nsresult
 aStatus
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mRunsToCompletion
@@ -1434,10 +1434,10 @@ sheets
 if
 (
 !
-aWasAlternate
+aWasDeferred
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingSheetCount
 >

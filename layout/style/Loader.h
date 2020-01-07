@@ -1189,6 +1189,13 @@ typedef
 nsIStyleSheetLinkingElement
 :
 :
+MediaMatched
+MediaMatched
+;
+typedef
+nsIStyleSheetLinkingElement
+:
+:
 Completed
 Completed
 ;
@@ -3484,7 +3491,7 @@ state
 based
 on
 aIsAlternate
-void
+MediaMatched
 PrepareSheet
 (
 StyleSheet
@@ -3698,6 +3705,8 @@ nsICSSLoaderObserver
 aObserver
 IsAlternate
 aWasAlternate
+MediaMatched
+aMediaMatched
 nsIStyleSheetLinkingElement
 *
 aElement
@@ -3715,7 +3724,7 @@ sheets
 in
 mPendingDatas
 void
-StartAlternateLoads
+StartDeferredLoads
 (
 )
 ;

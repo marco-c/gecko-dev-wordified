@@ -5110,7 +5110,7 @@ StyleSheet
 *
 aSheet
 bool
-aWasAlternate
+aWasDeferred
 nsresult
 aStatus
 )
@@ -5187,7 +5187,7 @@ stylesheets
 if
 (
 !
-aWasAlternate
+aWasDeferred
 )
 {
 -

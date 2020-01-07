@@ -17818,7 +17818,7 @@ StyleSheet
 *
 aSheet
 bool
-aWasAlternate
+aWasDeferred
 nsresult
 aStatus
 )
@@ -17826,7 +17826,7 @@ aStatus
 if
 (
 !
-aWasAlternate
+aWasDeferred
 )
 {
 /
@@ -17841,7 +17841,7 @@ alternate
 sheets
 finish
 loading
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingSheets
 >
