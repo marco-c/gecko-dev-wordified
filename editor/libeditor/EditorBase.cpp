@@ -18111,6 +18111,9 @@ Offset
 (
 )
 leftText
+IgnoreErrors
+(
+)
 )
 ;
 rightAsText
