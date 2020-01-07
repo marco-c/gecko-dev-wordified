@@ -1263,7 +1263,7 @@ WriteParam
 aMsg
 aParam
 .
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 )
 ;
 }
@@ -1506,7 +1506,7 @@ aIter
 aResult
 -
 >
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 )
 ;
 aResult
