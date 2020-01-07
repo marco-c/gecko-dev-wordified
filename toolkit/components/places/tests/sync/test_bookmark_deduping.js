@@ -869,10 +869,7 @@ index
 0
 title
 :
-"
-Bookmarks
-Menu
-"
+BookmarksMenuTitle
 children
 :
 [
@@ -1278,10 +1275,7 @@ index
 1
 title
 :
-"
-Bookmarks
-Toolbar
-"
+BookmarksToolbarTitle
 }
 {
 guid
@@ -1303,10 +1297,7 @@ index
 3
 title
 :
-"
-Other
-Bookmarks
-"
+UnfiledBookmarksTitle
 }
 {
 guid
@@ -1328,9 +1319,7 @@ index
 4
 title
 :
-"
-mobile
-"
+MobileBookmarksTitle
 }
 ]
 }
