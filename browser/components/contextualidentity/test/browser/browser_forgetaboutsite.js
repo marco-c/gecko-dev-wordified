@@ -1583,17 +1583,6 @@ removeDataFromDomain
 (
 "
 localhost
-:
-"
-+
-gHttpServer
-.
-identity
-.
-primaryPort
-+
-"
-/
 "
 )
 ;
