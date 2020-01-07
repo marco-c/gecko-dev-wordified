@@ -1168,7 +1168,7 @@ PT
 typename
 CT
 >
-explicit
+MOZ_IMPLICIT
 EditorDOMPointBase
 (
 const
