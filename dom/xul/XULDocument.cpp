@@ -13365,10 +13365,14 @@ aURI
 bool
 documentIsChrome
 =
+mDocumentURI
+?
 IsChromeURI
 (
 mDocumentURI
 )
+:
+false
 ;
 mCurrentPrototype
 =
