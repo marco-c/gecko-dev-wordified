@@ -637,10 +637,10 @@ short_file
 =
 file
                 
-print
->
->
 output
+.
+write
+(
 '
 %
 s
@@ -650,12 +650,14 @@ s
 s
 %
 s
+\
+n
 '
 %
 (
+                    
 hash
 digest
-                                                 
 os
 .
 path
@@ -664,8 +666,8 @@ getsize
 (
 file
 )
-                                                 
 short_file
+)
 )
 def
 setup_logging
