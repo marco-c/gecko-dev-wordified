@@ -10781,6 +10781,10 @@ FlushType
 Style
 case
 .
+DispatchScrollEvents
+(
+)
+;
 DispatchAnimationEvents
 (
 )
@@ -10792,10 +10796,6 @@ DispatchPendingEvents
 RunFrameRequestCallbacks
 (
 aNowTime
-)
-;
-DispatchScrollEvents
-(
 )
 ;
 if
