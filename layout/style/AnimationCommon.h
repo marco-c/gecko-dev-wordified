@@ -211,11 +211,6 @@ CSSPseudoElementType
 :
 uint8_t
 ;
-template
-<
-class
-EventInfo
->
 class
 AnimationEventDispatcher
 ;
@@ -230,8 +225,6 @@ template
 <
 class
 AnimationType
-class
-AnimationEventType
 >
 class
 CommonAnimationManager
@@ -438,7 +431,7 @@ QueueEvents
 (
 nsTArray
 <
-AnimationEventType
+AnimationEventInfo
 >
 &
 &
@@ -449,16 +442,7 @@ mEventDispatcher
 .
 QueueEvents
 (
-mozilla
-:
-:
-Forward
-<
-nsTArray
-<
-AnimationEventType
->
->
+Move
 (
 aEvents
 )
@@ -601,9 +585,6 @@ mozilla
 :
 :
 AnimationEventDispatcher
-<
-AnimationEventType
->
 mEventDispatcher
 ;
 }
