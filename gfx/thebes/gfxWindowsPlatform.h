@@ -1192,6 +1192,12 @@ aOut
 )
 override
 ;
+BackendPrefsData
+GetBackendPrefs
+(
+)
+override
+;
 protected
 :
 RenderMode
