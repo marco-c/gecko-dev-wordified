@@ -2243,17 +2243,6 @@ if
 policy
 )
 {
-nsCOMPtr
-<
-nsIDOMDocument
->
-doc
-=
-do_QueryInterface
-(
-aDocument
-)
-;
 ProcessScript
 (
 )
@@ -2261,7 +2250,7 @@ ProcessScript
 InitExtensionDocument
 (
 policy
-doc
+aDocument
 )
 ;
 }
