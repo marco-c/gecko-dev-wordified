@@ -300,7 +300,7 @@ i
 .
 auto_close
 )
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -844,7 +844,7 @@ i
 >
 auto_close
 )
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

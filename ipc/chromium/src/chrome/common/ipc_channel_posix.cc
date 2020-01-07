@@ -2146,7 +2146,7 @@ IpcCreatePipeFcntlErrno
 errno
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -2157,7 +2157,7 @@ pipe_fds
 )
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -2208,7 +2208,7 @@ IpcCreatePipeCloExecErrno
 errno
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -2219,7 +2219,7 @@ pipe_fds
 )
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -2752,7 +2752,7 @@ Remove
 pipe_name_
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -3101,7 +3101,7 @@ num_wire_fds
 +
 i
 )
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -3915,7 +3915,7 @@ num_fds
 +
 i
 )
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -5841,7 +5841,7 @@ Remove
 pipe_name_
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -6208,7 +6208,7 @@ server_listen_pipe_
 1
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -6254,7 +6254,7 @@ pipe_
 1
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -6290,7 +6290,7 @@ Remove
 pipe_name_
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -6374,7 +6374,7 @@ end
 i
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

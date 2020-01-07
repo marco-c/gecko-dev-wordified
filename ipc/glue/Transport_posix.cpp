@@ -353,7 +353,7 @@ fd2
 0
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -361,7 +361,7 @@ fd1
 )
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

@@ -869,7 +869,7 @@ else
 /
 /
 XP_WIN
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

@@ -1131,7 +1131,7 @@ close
 (
 )
 .
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -1414,7 +1414,7 @@ max_fds
 int
 ret
 =
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
