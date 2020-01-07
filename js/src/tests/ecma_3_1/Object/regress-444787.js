@@ -506,7 +506,10 @@ name
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 TypeError
@@ -522,10 +525,7 @@ ex
 )
 ;
 }
-catch
-(
-ex
-)
+else
 {
 actual
 =
@@ -550,6 +550,7 @@ type
 name
 )
 ;
+}
 }
 }
 types
