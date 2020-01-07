@@ -18935,7 +18935,7 @@ Set
 the
 Private
 Browsing
-Defaul
+Default
 Referrer
 Policy
 ;

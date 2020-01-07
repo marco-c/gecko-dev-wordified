@@ -665,6 +665,8 @@ for
 referer
 .
 defaultPolicy
+.
+pbmode
 prefs
 .
 setIntPref
