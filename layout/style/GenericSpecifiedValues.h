@@ -181,6 +181,13 @@ nsCSSValue
 .
 h
 "
+#
+include
+"
+nsColor
+.
+h
+"
 class
 nsAttrValue
 ;
