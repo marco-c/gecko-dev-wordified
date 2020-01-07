@@ -458,7 +458,7 @@ CascadeData
 QuirksMode
 )
 ]
-cut_off_inheritance
+matches_document_author_rules
 :
 bool
 element
@@ -541,7 +541,7 @@ CascadeData
 QuirksMode
 )
 ]
-cut_off_inheritance
+matches_document_author_rules
 :
 bool
 element
@@ -598,7 +598,7 @@ Self
 {
 shared_context
 shadow_rule_datas
-cut_off_inheritance
+matches_document_author_rules
 element
 data
 matching_context
@@ -1610,9 +1610,10 @@ let
 document_origins
 =
 if
+!
 self
 .
-cut_off_inheritance
+matches_document_author_rules
 {
 Origin
 :
