@@ -212,12 +212,6 @@ Initialize
 )
 ;
 bool
-Destroy
-(
-)
-override
-;
-bool
 BeginFrame
 (
 )

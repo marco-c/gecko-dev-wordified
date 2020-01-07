@@ -195,12 +195,6 @@ RenderCompositorOGL
 )
 ;
 bool
-Destroy
-(
-)
-override
-;
-bool
 BeginFrame
 (
 )
