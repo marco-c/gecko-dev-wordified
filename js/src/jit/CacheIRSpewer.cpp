@@ -414,6 +414,11 @@ CacheIRSpewer
 :
 beginCache
 (
+LockGuard
+<
+Mutex
+>
+&
 const
 IRGenerator
 &
@@ -810,6 +815,11 @@ CacheIRSpewer
 :
 valueProperty
 (
+LockGuard
+<
+Mutex
+>
+&
 const
 char
 *
@@ -1072,6 +1082,11 @@ CacheIRSpewer
 :
 attached
 (
+LockGuard
+<
+Mutex
+>
+&
 const
 char
 *
@@ -1106,6 +1121,11 @@ CacheIRSpewer
 :
 endCache
 (
+LockGuard
+<
+Mutex
+>
+&
 )
 {
 MOZ_ASSERT
