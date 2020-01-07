@@ -23357,6 +23357,9 @@ const
 nsAString
 &
 aInnerHTML
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aError
