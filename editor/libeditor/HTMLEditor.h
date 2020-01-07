@@ -2724,13 +2724,10 @@ NotifyRootChanged
 (
 )
 ;
-nsresult
+Element
+*
 GetBodyElement
 (
-nsIDOMHTMLElement
-*
-*
-aBody
 )
 ;
 /

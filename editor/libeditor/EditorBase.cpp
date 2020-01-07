@@ -928,17 +928,6 @@ nsIDOMEventTarget
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-/
-/
-for
-nsIDOMHTMLElement
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

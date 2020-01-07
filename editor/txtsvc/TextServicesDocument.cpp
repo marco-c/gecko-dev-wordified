@@ -296,17 +296,6 @@ nsIDOMElement
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-/
-/
-for
-nsIDOMHTMLElement
-#
-include
-"
 nsIDOMNode
 .
 h
