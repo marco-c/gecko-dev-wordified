@@ -147,7 +147,7 @@ tests
 /
 SimpleTest
 /
-SpawnTask
+AddTask
 .
 js
 "
@@ -313,8 +313,8 @@ factory
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -431,7 +431,7 @@ document
 body
 )
 ;
-yield
+await
 forceRender
 (
 trace

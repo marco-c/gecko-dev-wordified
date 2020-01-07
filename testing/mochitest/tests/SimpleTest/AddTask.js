@@ -328,7 +328,7 @@ logger
 info
 (
 "
-SpawnTask
+AddTask
 .
 js
 |
@@ -368,7 +368,7 @@ logger
 warning
 (
 "
-SpawnTask
+AddTask
 .
 js
 |
@@ -464,7 +464,7 @@ continue
 info
 (
 "
-SpawnTask
+AddTask
 .
 js
 |
@@ -506,7 +506,7 @@ generator
 info
 (
 "
-SpawnTask
+AddTask
 .
 js
 |
