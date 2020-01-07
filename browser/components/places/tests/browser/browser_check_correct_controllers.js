@@ -487,9 +487,16 @@ function
 (
 )
 {
+executeSoon
+(
+(
+)
+=
+>
 resolve
 (
 sidebar
+)
 )
 ;
 }
