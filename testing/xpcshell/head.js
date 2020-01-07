@@ -10059,9 +10059,13 @@ prefs
 setCharPref
 (
 "
-app
+extensions
 .
-normandy
+shield
+-
+recipe
+-
+client
 .
 api_url
 "
