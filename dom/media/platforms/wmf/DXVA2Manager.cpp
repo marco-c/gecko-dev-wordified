@@ -7677,6 +7677,15 @@ can
 handle
 .
 return
+!
+gfxPrefs
+:
+:
+PDMWMFAMDHighResEnabled
+(
+)
+&
+&
 mIsAMDPreUVD4
 &
 &
