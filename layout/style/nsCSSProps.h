@@ -6420,13 +6420,6 @@ kScrollBehaviorKTable
 static
 const
 KTableEntry
-kOverscrollBehaviorKTable
-[
-]
-;
-static
-const
-KTableEntry
 kScrollSnapTypeKTable
 [
 ]
