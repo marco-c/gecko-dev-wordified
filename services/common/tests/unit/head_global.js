@@ -35,13 +35,6 @@ Components
 .
 manager
 ;
-var
-gSyncProfile
-=
-do_get_profile
-(
-)
-;
 ChromeUtils
 .
 import
