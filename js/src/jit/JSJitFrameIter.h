@@ -732,14 +732,6 @@ JitActivation
 activation
 )
 ;
-explicit
-JSJitFrameIter
-(
-JSContext
-*
-cx
-)
-;
 /
 /
 Used
