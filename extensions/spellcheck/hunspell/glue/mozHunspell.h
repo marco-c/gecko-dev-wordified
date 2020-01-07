@@ -736,6 +736,13 @@ mozHunspell
 (
 )
 ;
+void
+DictionariesChanged
+(
+bool
+aNotifyChildProcesses
+)
+;
 nsCOMPtr
 <
 mozIPersonalDictionary
@@ -806,6 +813,13 @@ nsCOMArray
 nsIFile
 >
 mDynamicDirectories
+;
+nsInterfaceHashtable
+<
+nsStringHashKey
+nsIFile
+>
+mDynamicDictionaries
 ;
 Hunspell
 *
