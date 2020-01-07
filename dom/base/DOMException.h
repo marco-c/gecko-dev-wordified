@@ -514,10 +514,8 @@ GetLocation
 )
 const
 ;
-already_AddRefed
-<
 nsISupports
->
+*
 GetData
 (
 )
