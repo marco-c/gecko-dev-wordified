@@ -4205,6 +4205,14 @@ handle
 )
 ;
 extern
+CK_SLOT_ID
+sftk_SlotIDFromSessionHandle
+(
+CK_SESSION_HANDLE
+handle
+)
+;
+extern
 SFTKSession
 *
 sftk_SessionFromHandle
