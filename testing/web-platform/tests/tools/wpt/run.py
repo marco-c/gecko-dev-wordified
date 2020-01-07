@@ -3081,6 +3081,9 @@ inconsistent
 else
 :
         
+try
+:
+            
 rv
 =
 run_single
@@ -3092,6 +3095,30 @@ kwargs
 )
 >
 0
+        
+except
+Exception
+as
+e
+:
+            
+logger
+.
+error
+(
+e
+)
+            
+raise
+        
+finally
+:
+            
+logger
+.
+shutdown
+(
+)
     
 return
 rv
