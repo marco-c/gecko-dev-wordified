@@ -20084,9 +20084,6 @@ Assembler
 RelocStyle
 rs
 ;
-#
-ifdef
-DEBUG
 {
 InstructionIterator
 iter
@@ -20094,9 +20091,12 @@ iter
 ptr
 )
 ;
+DebugOnly
+<
 const
 uint32_t
 *
+>
 val
 =
 GetPtr32Target
@@ -20130,8 +20130,6 @@ value
 )
 ;
 }
-#
-endif
 /
 /
 Patch
