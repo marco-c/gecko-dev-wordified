@@ -240,13 +240,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULLabelElement
 .
 h

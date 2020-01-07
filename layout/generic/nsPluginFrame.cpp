@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 npapi
 .
 h

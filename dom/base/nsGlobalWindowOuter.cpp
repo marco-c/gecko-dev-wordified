@@ -36540,10 +36540,8 @@ GetRealFrameElement
 .
 *
 /
-already_AddRefed
-<
-nsIDOMElement
->
+Element
+*
 nsGlobalWindowOuter
 :
 :

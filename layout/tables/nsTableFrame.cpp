@@ -306,13 +306,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

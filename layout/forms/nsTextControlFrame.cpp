@@ -243,13 +243,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
