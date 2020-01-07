@@ -267,7 +267,7 @@ Latin1Char
 class
 Symbol
 ;
-class
+union
 Value
 ;
 class

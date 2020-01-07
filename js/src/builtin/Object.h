@@ -136,7 +136,7 @@ JS
 class
 CallArgs
 ;
-class
+union
 Value
 ;
 }

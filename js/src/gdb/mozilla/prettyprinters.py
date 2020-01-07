@@ -1669,14 +1669,10 @@ yield
 t2
         
 elif
+is_struct_or_union
+(
 t
-.
-code
-=
-=
-gdb
-.
-TYPE_CODE_STRUCT
+)
 :
             
 base_classes
@@ -1761,6 +1757,26 @@ w_
 )
 <
 "
+)
+def
+is_struct_or_union
+(
+t
+)
+:
+    
+return
+t
+.
+code
+in
+(
+gdb
+.
+TYPE_CODE_STRUCT
+gdb
+.
+TYPE_CODE_UNION
 )
 #
 Construct
@@ -2023,14 +2039,10 @@ t
 )
             
 elif
+is_struct_or_union
+(
 t
-.
-code
-=
-=
-gdb
-.
-TYPE_CODE_STRUCT
+)
 and
 t
 .
@@ -2157,14 +2169,10 @@ return
 p
                 
 if
+is_struct_or_union
+(
 t
-.
-code
-=
-=
-gdb
-.
-TYPE_CODE_STRUCT
+)
 and
 t
 .
