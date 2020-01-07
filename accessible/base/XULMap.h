@@ -61,3 +61,8 @@ XULMAP
 image
 New_MaybeImageOrToolbarButtonAccessible
 )
+XULMAP
+(
+menuseparator
+New_MenuSeparator
+)
