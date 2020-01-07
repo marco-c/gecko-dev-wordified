@@ -62322,6 +62322,9 @@ d
 env
 .
 kind
+env
+.
+gcTypesEnabled
 &
 locals
 )

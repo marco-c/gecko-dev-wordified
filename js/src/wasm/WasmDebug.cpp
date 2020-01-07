@@ -3621,6 +3621,11 @@ metadata
 )
 .
 kind
+metadata
+(
+)
+.
+temporaryHasGcTypes
 locals
 )
 ;

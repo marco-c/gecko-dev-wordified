@@ -11578,6 +11578,13 @@ ModuleKind
 :
 :
 Wasm
+c
+.
+env
+(
+)
+.
+gcTypesEnabled
 &
 locals
 )

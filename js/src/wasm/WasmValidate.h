@@ -4439,6 +4439,8 @@ Decoder
 d
 ModuleKind
 kind
+HasGcTypes
+gcTypesEnabled
 ValTypeVector
 *
 locals
