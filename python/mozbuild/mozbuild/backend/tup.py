@@ -5125,6 +5125,10 @@ outputs
 extra_outputs
 =
 extra_outputs
+                
+check_unchanged
+=
+True
             
 )
     
@@ -6557,6 +6561,10 @@ self
 .
 _installed_files
 ]
+                
+check_unchanged
+=
+True
             
 )
         
@@ -6654,6 +6662,10 @@ xptdata
 cpp
 '
 ]
+            
+check_unchanged
+=
+True
         
 )
     
@@ -6883,6 +6895,10 @@ outputs
 [
 output
 ]
+            
+check_unchanged
+=
+True
         
 )
     
