@@ -193,6 +193,11 @@ if
 val
 .
 succeeded
+&
+&
+val
+.
+logs
 )
 {
 successfulTasks
