@@ -118,10 +118,10 @@ descriptor
 /
 #
 ifndef
-jsscript_h
+vm_JSScript_h
 #
 define
-jsscript_h
+vm_JSScript_h
 #
 include
 "
@@ -1412,16 +1412,6 @@ getThrowCounts
 (
 size_t
 offset
-)
-;
-size_t
-sizeOfIncludingThis
-(
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 ;
 private
@@ -15002,6 +14992,6 @@ JS
 endif
 /
 *
-jsscript_h
+vm_JSScript_h
 *
 /

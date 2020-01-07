@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jsscriptinlines_h
+vm_JSScript_inl_h
 #
 define
-jsscriptinlines_h
+vm_JSScript_inl_h
 #
 include
 "
-jsscript
+vm
+/
+JSScript
 .
 h
 "
@@ -1238,6 +1240,6 @@ hasDebugScript_
 endif
 /
 *
-jsscriptinlines_h
+vm_JSScript_inl_h
 *
 /

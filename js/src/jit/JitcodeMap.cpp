@@ -217,7 +217,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+GeckoProfiler
+-
+inl
 .
 h
 "
@@ -226,7 +230,7 @@ include
 "
 vm
 /
-GeckoProfiler
+JSScript
 -
 inl
 .

@@ -26,7 +26,7 @@ include
 "
 vm
 /
-Interpreter
+JSScript
 -
 inl
 .
@@ -35,7 +35,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+Interpreter
+-
+inl
 .
 h
 "
@@ -162,7 +166,7 @@ endif
 #
 include
 "
-jsscript
+jstypes
 .
 h
 "
@@ -171,7 +175,7 @@ include
 "
 vm
 /
-JSObject
+JSScript
 .
 h
 "
@@ -183,7 +187,9 @@ order
 #
 include
 "
-jstypes
+vm
+/
+JSFunction
 .
 h
 "
@@ -192,7 +198,7 @@ include
 "
 vm
 /
-JSFunction
+JSObject
 .
 h
 "

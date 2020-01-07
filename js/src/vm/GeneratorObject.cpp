@@ -129,7 +129,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+ArrayObject
+-
+inl
 .
 h
 "
@@ -138,7 +142,7 @@ include
 "
 vm
 /
-ArrayObject
+JSScript
 -
 inl
 .

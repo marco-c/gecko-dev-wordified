@@ -374,7 +374,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+JSObject
+-
+inl
 .
 h
 "
@@ -383,7 +387,7 @@ include
 "
 vm
 /
-JSObject
+JSScript
 -
 inl
 .

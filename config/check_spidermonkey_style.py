@@ -1629,7 +1629,7 @@ error
 "
 vm
 /
-Interpreter
+JSScript
 -
 inl
 .
@@ -1640,7 +1640,11 @@ be
 included
 after
 "
-jsscriptinlines
+vm
+/
+Interpreter
+-
+inl
 .
 h
 "
@@ -1666,7 +1670,11 @@ error
 :
     
 "
-jsscriptinlines
+vm
+/
+Interpreter
+-
+inl
 .
 h
 "
@@ -1853,7 +1861,7 @@ error
 "
 vm
 /
-JSObject
+JSScript
 .
 h
 "
@@ -1862,7 +1870,9 @@ be
 included
 after
 "
-jstypes
+vm
+/
+JSFunction
 .
 h
 "

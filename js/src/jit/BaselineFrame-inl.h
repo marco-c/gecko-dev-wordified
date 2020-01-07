@@ -149,7 +149,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+EnvironmentObject
+-
+inl
 .
 h
 "
@@ -158,7 +162,7 @@ include
 "
 vm
 /
-EnvironmentObject
+JSScript
 -
 inl
 .
