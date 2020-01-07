@@ -237,7 +237,6 @@ posix_memalign
 replace_memalign
 replace_posix_memalign
 moz_xmemalign
-moz_xposix_memalign
 vpx_memalign
 malloc_zone_memalign
 .
