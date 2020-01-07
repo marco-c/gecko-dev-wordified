@@ -447,12 +447,9 @@ paths
 '
 )
 :
-_by_platform
-(
 [
 basestring
 ]
-)
         
 #
 Options
