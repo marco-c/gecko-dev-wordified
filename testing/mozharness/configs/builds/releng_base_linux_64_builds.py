@@ -866,13 +866,6 @@ sbin
 /
 sbin
 :
-/
-tools
-/
-git
-/
-bin
-:
 '
                 
 '

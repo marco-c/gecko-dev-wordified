@@ -681,16 +681,6 @@ sbin
                 
 '
 /
-tools
-/
-git
-/
-bin
-:
-'
-                
-'
-/
 home
 /
 cltbld
