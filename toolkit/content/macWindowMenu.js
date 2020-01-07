@@ -228,12 +228,6 @@ restore
 }
 win
 .
-document
-.
-commandDispatcher
-.
-focusedWindow
-.
 focus
 (
 )
