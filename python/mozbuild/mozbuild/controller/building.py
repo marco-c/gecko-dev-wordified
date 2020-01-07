@@ -480,7 +480,7 @@ warning
 state_changed
 '
 '
-for_display
+message
 '
 )
 )
@@ -1415,6 +1415,14 @@ build_objects
 =
 [
 ]
+        
+self
+.
+build_dirs
+=
+set
+(
+)
     
 def
 start
@@ -1601,34 +1609,20 @@ UI
 etc
 .
         
-for_display
+message
 is
+either
+None
+or
+the
+content
+of
 a
-boolean
-indicating
-whether
-the
-line
-is
-relevant
+message
 to
-the
-        
-user
-.
-This
-is
-typically
-used
-to
-filter
-whether
-the
-line
-should
 be
         
-presented
+displayed
 to
 the
 user
@@ -1637,6 +1631,10 @@ user
 "
 "
 "
+        
+message
+=
+None
         
 if
 line
@@ -1768,6 +1766,48 @@ update_needed
 =
 False
             
+elif
+action
+=
+=
+'
+BUILD_VERBOSE
+'
+:
+                
+build_dir
+=
+args
+[
+0
+]
+                
+if
+build_dir
+not
+in
+self
+.
+build_dirs
+:
+                    
+self
+.
+build_dirs
+.
+add
+(
+build_dir
+)
+                    
+message
+=
+build_dir
+                
+update_needed
+=
+False
+            
 else
 :
                 
@@ -1791,7 +1831,7 @@ BuildOutputResult
 (
 None
 update_needed
-False
+message
 )
         
 warning
@@ -1811,6 +1851,10 @@ process_line
 (
 line
 )
+            
+message
+=
+line
         
 except
 :
@@ -1822,7 +1866,7 @@ BuildOutputResult
 (
 warning
 False
-True
+message
 )
     
 def
@@ -4277,7 +4321,7 @@ line
         
 warning
 state_changed
-relevant
+message
 =
 self
 .
@@ -4289,7 +4333,7 @@ line
 )
         
 if
-relevant
+message
 :
             
 self
@@ -4307,7 +4351,7 @@ build_output
 line
 '
 :
-line
+message
 }
 '
 {
