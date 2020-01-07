@@ -238,7 +238,7 @@ InputConnection
 *
 *
 *
-TextInputController
+SessionTextInput
 handles
 text
 input
@@ -280,14 +280,14 @@ corresponding
 methods
 in
 *
-TextInputController
+SessionTextInput
 .
 *
 /
 public
 final
 class
-TextInputController
+SessionTextInput
 {
 /
 /
@@ -736,7 +736,7 @@ mInputConnection
 package
 *
 /
-TextInputController
+SessionTextInput
 (
 final
 NonNull
@@ -931,7 +931,7 @@ getSession
 (
 )
 .
-getTextInputController
+getTextInput
 (
 )
 .

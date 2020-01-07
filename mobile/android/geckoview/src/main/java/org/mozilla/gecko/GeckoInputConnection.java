@@ -172,7 +172,7 @@ mozilla
 .
 geckoview
 .
-TextInputController
+SessionTextInput
 ;
 import
 android
@@ -410,10 +410,10 @@ GeckoInputConnection
 extends
 BaseInputConnection
 implements
-TextInputController
+SessionTextInput
 .
 Delegate
-TextInputController
+SessionTextInput
 .
 EditableListener
 {
@@ -550,7 +550,7 @@ mView
 ;
 private
 final
-TextInputController
+SessionTextInput
 .
 EditableClient
 mEditableClient
@@ -605,7 +605,7 @@ mSoftInputReentrancyGuard
 ;
 public
 static
-TextInputController
+SessionTextInput
 .
 Delegate
 create
@@ -617,13 +617,13 @@ final
 View
 targetView
 final
-TextInputController
+SessionTextInput
 .
 EditableClient
 editable
 )
 {
-TextInputController
+SessionTextInput
 .
 Delegate
 ic
@@ -655,13 +655,13 @@ ic
 }
 private
 static
-TextInputController
+SessionTextInput
 .
 Delegate
 wrapForDebug
 (
 final
-TextInputController
+SessionTextInput
 .
 Delegate
 ic
@@ -814,7 +814,7 @@ GeckoEditable
 .
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -858,7 +858,7 @@ GeckoEditable
 .
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -1069,7 +1069,7 @@ ret
 ;
 return
 (
-TextInputController
+SessionTextInput
 .
 Delegate
 )
@@ -1095,12 +1095,12 @@ Class
 InputConnection
 .
 class
-TextInputController
+SessionTextInput
 .
 Delegate
 .
 class
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -1120,7 +1120,7 @@ final
 View
 targetView
 final
-TextInputController
+SessionTextInput
 .
 EditableClient
 editable
@@ -1754,7 +1754,7 @@ extract
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -2338,7 +2338,7 @@ restartInput
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public
@@ -2513,7 +2513,7 @@ mUpdateExtract
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public
@@ -2646,7 +2646,7 @@ TargetApi
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public
@@ -3000,7 +3000,7 @@ mEditableClient
 .
 requestCursorUpdates
 (
-TextInputController
+SessionTextInput
 .
 EditableClient
 .
@@ -3026,7 +3026,7 @@ mEditableClient
 .
 requestCursorUpdates
 (
-TextInputController
+SessionTextInput
 .
 EditableClient
 .
@@ -3040,7 +3040,7 @@ mEditableClient
 .
 requestCursorUpdates
 (
-TextInputController
+SessionTextInput
 .
 EditableClient
 .
@@ -3055,7 +3055,7 @@ true
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public
@@ -3703,7 +3703,7 @@ handler
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -3765,7 +3765,7 @@ moment
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -5257,7 +5257,7 @@ false
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -5851,7 +5851,7 @@ true
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -5878,7 +5878,7 @@ event
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -5986,7 +5986,7 @@ c
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -6154,7 +6154,7 @@ true
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -6221,7 +6221,7 @@ false
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 Delegate
 public
@@ -6253,7 +6253,7 @@ IME_STATE_DISABLED
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public
@@ -6529,7 +6529,7 @@ break
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 public

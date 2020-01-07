@@ -379,7 +379,7 @@ Stub
 implements
 InvocationHandler
 Editable
-TextInputController
+SessionTextInput
 .
 EditableClient
 {
@@ -568,7 +568,7 @@ thread
 package
 *
 /
-TextInputController
+SessionTextInput
 .
 EditableListener
 mListener
@@ -2214,7 +2214,7 @@ void
 syncShadowText
 (
 final
-TextInputController
+SessionTextInput
 .
 EditableListener
 listener
@@ -4325,7 +4325,7 @@ DEBUG
 /
 Called
 by
-TextInputController
+SessionTextInput
 .
 ThreadUtils
 .
@@ -4415,7 +4415,7 @@ DEBUG
 /
 Called
 by
-TextInputController
+SessionTextInput
 .
 ThreadUtils
 .
@@ -4446,7 +4446,7 @@ void
 setListener
 (
 final
-TextInputController
+SessionTextInput
 .
 EditableListener
 newListener
@@ -4461,7 +4461,7 @@ DEBUG
 /
 Called
 by
-TextInputController
+SessionTextInput
 .
 ThreadUtils
 .
@@ -5837,7 +5837,7 @@ composingEnd
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6087,7 +6087,7 @@ e
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6176,7 +6176,7 @@ mProxy
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6317,7 +6317,7 @@ mListener
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6364,7 +6364,7 @@ suppress
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6678,7 +6678,7 @@ handler
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -6701,7 +6701,7 @@ runnable
 Override
 /
 /
-TextInputController
+SessionTextInput
 .
 EditableClient
 public
@@ -7192,7 +7192,7 @@ if
 type
 !
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7211,7 +7211,7 @@ notifyIME
 +
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7244,7 +7244,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7315,7 +7315,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7360,7 +7360,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7401,7 +7401,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7466,7 +7466,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7491,7 +7491,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7531,7 +7531,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -7614,7 +7614,7 @@ notifyIMEContext
 +
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
