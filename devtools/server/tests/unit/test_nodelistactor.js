@@ -93,8 +93,6 @@ actors
 inspector
 /
 node
--
-actor
 "
 )
 ;

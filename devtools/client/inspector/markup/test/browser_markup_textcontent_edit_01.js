@@ -88,8 +88,6 @@ actors
 inspector
 /
 walker
--
-actor
 "
 )
 ;

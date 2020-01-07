@@ -130,8 +130,6 @@ actors
 inspector
 /
 node
--
-actor
 "
 )
 ;
