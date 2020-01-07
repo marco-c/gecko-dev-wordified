@@ -1653,9 +1653,10 @@ InvalidArg
 {
 diag
 (
-CallRange
-.
-getBegin
+InvalidArg
+-
+>
+getExprLoc
 (
 )
 ErrorInvalidArg
