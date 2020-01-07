@@ -1587,6 +1587,7 @@ addEventListener
 "
 CategoryBadgeUpdated
 "
+async
 function
 (
 )
@@ -1672,6 +1673,10 @@ true
 }
 )
 ;
+let
+aAddon
+=
+await
 AddonManager
 .
 getAddonByID
@@ -1684,11 +1689,8 @@ mozilla
 .
 org
 "
-function
-(
-aAddon
 )
-{
+;
 aAddon
 .
 applyBackgroundUpdates
@@ -1696,9 +1698,6 @@ applyBackgroundUpdates
 AddonManager
 .
 AUTOUPDATE_ENABLE
-;
-}
-)
 ;
 }
 {

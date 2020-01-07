@@ -166,6 +166,7 @@ listener
 {
 onUninstalled
 :
+async
 (
 addon
 )
@@ -190,6 +191,10 @@ uninstalled
 "
 )
 ;
+let
+checkedAddon
+=
+await
 AddonManager
 .
 getAddonByID
@@ -197,10 +202,8 @@ getAddonByID
 addon
 .
 id
-checkedAddon
-=
->
-{
+)
+;
 equal
 (
 checkedAddon
@@ -224,9 +227,6 @@ listener
 ;
 resolve
 (
-)
-;
-}
 )
 ;
 }
