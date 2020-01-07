@@ -16850,9 +16850,6 @@ ServoElementSnapshotTable
 set
 :
 RawServoStyleSetBorrowed
-ignore_existing_styles
-:
-bool
 )
 -
 >
