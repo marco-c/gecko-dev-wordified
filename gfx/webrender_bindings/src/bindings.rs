@@ -6562,17 +6562,6 @@ new_scroll_origin
 LayoutPoint
 )
 {
-assert
-!
-(
-unsafe
-{
-is_in_compositor_thread
-(
-)
-}
-)
-;
 let
 scroll_id
 =
