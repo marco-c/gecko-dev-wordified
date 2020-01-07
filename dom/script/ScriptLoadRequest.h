@@ -770,7 +770,7 @@ map
 url
 ?
 bool
-mIsDefer
+mInDeferList
 ;
 /
 /
@@ -782,7 +782,7 @@ in
 mDeferRequests
 .
 bool
-mIsAsync
+mInAsyncList
 ;
 /
 /

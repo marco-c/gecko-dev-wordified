@@ -9431,7 +9431,7 @@ GetScriptAsync
 request
 -
 >
-mIsAsync
+mInAsyncList
 =
 true
 ;
@@ -10431,7 +10431,7 @@ GetDocBaseURI
 modReq
 -
 >
-mIsAsync
+mInAsyncList
 =
 aElement
 -
@@ -10458,7 +10458,7 @@ if
 modReq
 -
 >
-mIsAsync
+mInAsyncList
 )
 {
 mLoadingAsyncRequests
@@ -19088,7 +19088,7 @@ if
 aRequest
 -
 >
-mIsDefer
+mInDeferList
 )
 {
 MOZ_ASSERT_IF
@@ -19149,7 +19149,7 @@ if
 aRequest
 -
 >
-mIsAsync
+mInAsyncList
 )
 {
 MOZ_ASSERT_IF
@@ -19581,7 +19581,7 @@ list
 aRequest
 -
 >
-mIsAsync
+mInAsyncList
 really
 /
 /
@@ -19622,7 +19622,7 @@ if
 aRequest
 -
 >
-mIsAsync
+mInAsyncList
 )
 {
 MOZ_ASSERT
@@ -20997,7 +20997,7 @@ aRequest
 aRequest
 -
 >
-mIsDefer
+mInDeferList
 =
 true
 ;
