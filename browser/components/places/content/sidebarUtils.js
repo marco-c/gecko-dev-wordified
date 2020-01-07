@@ -413,7 +413,7 @@ PlacesUtils
 .
 hasChildURIs
 (
-tbo
+aTree
 .
 view
 .
