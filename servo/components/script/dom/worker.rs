@@ -275,7 +275,6 @@ jsapi
 :
 :
 {
-HandleValue
 JSAutoCompartment
 JSContext
 }
@@ -288,6 +287,15 @@ jsval
 :
 :
 UndefinedValue
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 script_traits

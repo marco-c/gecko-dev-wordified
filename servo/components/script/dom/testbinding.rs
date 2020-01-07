@@ -523,8 +523,6 @@ jsapi
 :
 :
 {
-HandleObject
-HandleValue
 Heap
 JSContext
 JSObject
@@ -552,6 +550,18 @@ jsval
 {
 JSVal
 NullValue
+}
+;
+use
+js
+:
+:
+rust
+:
+:
+{
+HandleObject
+HandleValue
 }
 ;
 use

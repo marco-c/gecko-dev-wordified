@@ -228,7 +228,6 @@ jsapi
 :
 {
 Heap
-HandleValue
 JSContext
 }
 ;
@@ -240,6 +239,15 @@ jsval
 :
 :
 JSVal
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 servo_atoms

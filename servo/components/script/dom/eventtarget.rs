@@ -510,7 +510,6 @@ jsapi
 :
 :
 {
-CompileFunction
 JS_GetFunctionObject
 JSAutoCompartment
 JSFunction
@@ -527,6 +526,18 @@ rust
 AutoObjectVectorWrapper
 CompileOptionsWrapper
 }
+;
+use
+js
+:
+:
+rust
+:
+:
+wrappers
+:
+:
+CompileFunction
 ;
 use
 libc
@@ -3434,6 +3445,10 @@ size_t
 handler
 .
 handle_mut
+(
+)
+.
+into
 (
 )
 )

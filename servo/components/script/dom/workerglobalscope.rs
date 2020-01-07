@@ -336,7 +336,6 @@ jsapi
 :
 :
 {
-HandleValue
 JSAutoCompartment
 JSContext
 JSRuntime
@@ -359,6 +358,15 @@ panic
 :
 :
 maybe_resume_unwind
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 msg

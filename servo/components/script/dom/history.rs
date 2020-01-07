@@ -246,7 +246,6 @@ jsapi
 :
 :
 {
-HandleValue
 Heap
 JSContext
 }
@@ -263,6 +262,15 @@ JSVal
 NullValue
 UndefinedValue
 }
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 msg
