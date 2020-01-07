@@ -45873,6 +45873,10 @@ const
 ActiveScrolledRoot
 *
 aActiveScrolledRoot
+const
+ActiveScrolledRoot
+*
+aContainerASR
 )
 :
 nsDisplayOwnLayer
@@ -45881,6 +45885,10 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+)
+mContainerASR
+(
+aContainerASR
 )
 {
 MOZ_COUNT_CTOR
@@ -48056,9 +48064,7 @@ CommandBuilder
 .
 PushOverrideForASR
 (
-GetActiveScrolledRoot
-(
-)
+mContainerASR
 Some
 (
 id
@@ -48092,9 +48098,7 @@ CommandBuilder
 .
 PopOverrideForASR
 (
-GetActiveScrolledRoot
-(
-)
+mContainerASR
 )
 ;
 aBuilder
