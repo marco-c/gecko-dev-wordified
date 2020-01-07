@@ -28451,12 +28451,8 @@ have
 painted
 successfully
 .
-nsDisplayBackgroundGeometry
-:
-:
 UpdateDrawResult
 (
-this
 ImgDrawResult
 :
 :
