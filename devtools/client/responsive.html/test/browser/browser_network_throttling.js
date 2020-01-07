@@ -44,10 +44,10 @@ client
 /
 shared
 /
-network
--
+components
+/
 throttling
--
+/
 profiles
 "
 )
