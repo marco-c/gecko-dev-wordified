@@ -1138,7 +1138,7 @@ null
 _triggeredSync
 :
 false
-_usSinceEpoch
+_msSinceEpoch
 :
 0
 _requestedQuit
@@ -2758,7 +2758,7 @@ FormData
 datum
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 )
 ;
 switch
@@ -2950,7 +2950,7 @@ Add
 entry
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 )
 ;
 break
@@ -2966,7 +2966,7 @@ Delete
 entry
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 )
 ;
 break
@@ -2987,7 +2987,7 @@ Find
 entry
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 )
 )
 "
@@ -3023,7 +3023,7 @@ Find
 entry
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 )
 )
 "
@@ -5837,7 +5837,7 @@ pref
 .
 this
 .
-_usSinceEpoch
+_msSinceEpoch
 =
 (
 this
@@ -5846,8 +5846,6 @@ seconds_since_epoch
 -
 60
 )
-*
-1000
 *
 1000
 ;

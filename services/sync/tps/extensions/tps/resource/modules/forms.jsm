@@ -725,7 +725,7 @@ function
 FormData
 (
 props
-usSinceEpoch
+msSinceEpoch
 )
 {
 this
@@ -756,7 +756,9 @@ this
 .
 usSinceEpoch
 =
-usSinceEpoch
+msSinceEpoch
+*
+1000
 ;
 for
 (
