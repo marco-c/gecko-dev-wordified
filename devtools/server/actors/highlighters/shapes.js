@@ -3682,9 +3682,7 @@ this
 .
 _handleMarkerHover
 (
-this
-.
-hoveredPoint
+null
 )
 ;
 }
@@ -4408,6 +4406,15 @@ this
 .
 transformedBoundingBox
 }
+;
+this
+.
+_handleMarkerHover
+(
+this
+.
+hoveredPoint
+)
 ;
 }
 /
@@ -11972,9 +11979,7 @@ rotatePoint
 ]
 cursor
 :
-"
-grab
-"
+hoverCursor
 }
 ]
 ;
