@@ -173,12 +173,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -4487,7 +4482,7 @@ nsFormFillController
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

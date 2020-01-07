@@ -221,12 +221,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -2309,7 +2304,7 @@ DocManager
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

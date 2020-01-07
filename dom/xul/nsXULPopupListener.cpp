@@ -261,12 +261,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -683,7 +678,7 @@ nsXULPopupListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

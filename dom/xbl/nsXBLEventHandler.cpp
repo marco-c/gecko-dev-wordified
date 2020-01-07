@@ -163,12 +163,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -247,7 +242,7 @@ nsXBLEventHandler
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -734,7 +729,7 @@ nsXBLKeyEventHandler
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

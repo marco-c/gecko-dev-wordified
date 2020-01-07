@@ -274,12 +274,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -1526,7 +1521,7 @@ nsXULTooltipListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

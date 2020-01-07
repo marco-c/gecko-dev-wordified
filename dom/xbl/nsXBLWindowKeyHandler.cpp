@@ -2661,7 +2661,7 @@ nsXBLWindowKeyHandler
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

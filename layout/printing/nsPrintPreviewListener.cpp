@@ -155,12 +155,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -1159,7 +1154,7 @@ nsPrintPreviewListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

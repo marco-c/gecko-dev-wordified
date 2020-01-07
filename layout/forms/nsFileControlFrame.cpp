@@ -226,6 +226,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileList
 .
 h
@@ -1434,7 +1445,7 @@ DnDListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

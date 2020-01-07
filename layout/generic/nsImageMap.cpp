@@ -158,12 +158,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -5797,7 +5792,7 @@ nsImageMap
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

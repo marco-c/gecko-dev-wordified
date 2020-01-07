@@ -146,12 +146,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -188,13 +183,6 @@ h
 include
 "
 nsIDOMWindow
-.
-h
-"
-#
-include
-"
-nsIDOMEvent
 .
 h
 "
@@ -1211,7 +1199,7 @@ WakeLock
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

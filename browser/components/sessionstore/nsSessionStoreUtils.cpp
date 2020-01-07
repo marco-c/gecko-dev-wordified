@@ -161,7 +161,7 @@ aListener
 NS_IMETHODIMP
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

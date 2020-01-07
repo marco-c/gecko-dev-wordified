@@ -441,17 +441,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-/
-/
-for
-nsIDOMEvent
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -2189,7 +2178,7 @@ EditorEventListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

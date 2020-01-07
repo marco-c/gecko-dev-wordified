@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h
@@ -342,12 +335,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -7093,7 +7081,7 @@ aDeselectMenu
 NS_IMETHOD
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -17015,7 +17003,7 @@ nsXULPopupManager
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

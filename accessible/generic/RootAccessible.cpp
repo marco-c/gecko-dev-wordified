@@ -1685,7 +1685,7 @@ RootAccessible
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aDOMEvent
 )

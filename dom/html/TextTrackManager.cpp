@@ -2806,7 +2806,7 @@ TextTrackManager
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

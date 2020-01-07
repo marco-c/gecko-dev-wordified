@@ -748,7 +748,7 @@ JSEventHandler
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

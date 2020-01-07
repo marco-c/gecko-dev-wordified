@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h
@@ -503,12 +496,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -4670,7 +4658,7 @@ nsDocShellTreeOwner
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -5786,7 +5774,7 @@ ChromeTooltipListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

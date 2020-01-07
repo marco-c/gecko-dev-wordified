@@ -551,12 +551,7 @@ h
 /
 /
 for
-nsIDOMEvent
-:
-:
-InternalDOMEvent
-(
-)
+Event
 #
 include
 "
@@ -3635,7 +3630,7 @@ VibrateWindowListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
