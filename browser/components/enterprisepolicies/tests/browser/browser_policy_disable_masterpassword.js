@@ -415,10 +415,10 @@ policies
 :
 {
 "
-DisableMasterPasswordCreation
+CreateMasterPassword
 "
 :
-true
+false
 }
 }
 )
@@ -427,9 +427,9 @@ true
 /
 With
 the
-DisableMasterPasswordCreation
+CreateMasterPassword
 :
-true
+false
 policy
 active
 the

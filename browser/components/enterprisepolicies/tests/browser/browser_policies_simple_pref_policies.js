@@ -205,7 +205,7 @@ policies
 :
 {
 "
-OfferToSaveLogins
+RememberPasswords
 "
 :
 false
@@ -227,7 +227,7 @@ policies
 :
 {
 "
-OfferToSaveLogins
+RememberPasswords
 "
 :
 true
@@ -646,7 +646,7 @@ policies
 :
 {
 "
-InstallAddonsPermission
+InstallAddons
 "
 :
 {
