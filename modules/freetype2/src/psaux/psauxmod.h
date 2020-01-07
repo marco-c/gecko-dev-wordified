@@ -112,7 +112,7 @@ specification
 Copyright
 2000
 -
-2017
+2018
 by
 *
 /
@@ -301,6 +301,9 @@ h
 #
 include
 FT_MODULE_H
+#
+include
+FT_INTERNAL_POSTSCRIPT_AUX_H
 FT_BEGIN_HEADER
 #
 ifdef
@@ -318,6 +321,16 @@ yet
 "
 #
 endif
+FT_CALLBACK_TABLE
+const
+CFF_Builder_FuncsRec
+cff_builder_funcs
+;
+FT_CALLBACK_TABLE
+const
+PS_Builder_FuncsRec
+ps_builder_funcs
+;
 FT_EXPORT_VAR
 (
 const

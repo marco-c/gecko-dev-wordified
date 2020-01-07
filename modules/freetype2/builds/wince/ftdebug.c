@@ -113,7 +113,7 @@ body
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -743,8 +743,9 @@ ap
 fmt
 )
 ;
-vprintf
+vfprintf
 (
+stderr
 fmt
 ap
 )

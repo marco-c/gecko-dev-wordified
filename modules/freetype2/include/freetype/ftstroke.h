@@ -110,7 +110,7 @@ specification
 Copyright
 2002
 -
-2017
+2018
 by
 *
 /
@@ -3012,8 +3012,7 @@ Draw
 a
 single
 quadratic
-B
-zier
+Bezier
 in
 the
 stroker
@@ -3053,8 +3052,7 @@ A
 pointer
 to
 a
-B
-zier
+Bezier
 control
 point
 .
@@ -3198,8 +3196,7 @@ Draw
 a
 single
 cubic
-B
-zier
+Bezier
 in
 the
 stroker
@@ -3240,8 +3237,7 @@ pointer
 to
 the
 first
-B
-zier
+Bezier
 control
 point
 .
@@ -3255,8 +3251,7 @@ A
 pointer
 to
 second
-B
-zier
+Bezier
 control
 point
 .

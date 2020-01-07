@@ -24,7 +24,7 @@ HTML
 Copyright
 2002
 -
-2017
+2018
 by
 #
 David
@@ -158,7 +158,7 @@ Transitional
 EN
 "
 "
-http
+https
 :
 /
 /

@@ -109,7 +109,7 @@ support
 Copyright
 2002
 -
-2017
+2018
 by
 *
 /
@@ -1174,6 +1174,16 @@ with
 zlib
 support
 .
+*
+*
+since
+:
+*
+2
+.
+5
+.
+1
 *
 /
 FT_EXPORT

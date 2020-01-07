@@ -111,7 +111,7 @@ body
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -1185,7 +1185,7 @@ char
 *
 ft2_debug
 =
-getenv
+ft_getenv
 (
 "
 FT2_DEBUG

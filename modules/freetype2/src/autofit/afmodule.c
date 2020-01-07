@@ -112,7 +112,7 @@ body
 Copyright
 2003
 -
-2017
+2018
 by
 *
 /
@@ -421,7 +421,7 @@ include
 FT_INTERNAL_DEBUG_H
 #
 include
-FT_AUTOHINTER_H
+FT_DRIVER_H
 #
 include
 FT_SERVICE_PROPERTIES_H

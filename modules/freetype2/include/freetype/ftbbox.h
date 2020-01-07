@@ -111,7 +111,7 @@ specification
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -888,8 +888,7 @@ coincide
 Otherwise
 the
 outline
-B
-zier
+Bezier
 arcs
 are
 traversed

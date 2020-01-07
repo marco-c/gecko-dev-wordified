@@ -112,7 +112,7 @@ specification
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -645,7 +645,7 @@ FT_Renderer
 renderer
 FT_GlyphSlot
 slot
-FT_UInt
+FT_Render_Mode
 mode
 const
 FT_Vector

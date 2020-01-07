@@ -113,7 +113,7 @@ specification
 Copyright
 2005
 -
-2017
+2018
 by
 *
 /
@@ -310,6 +310,9 @@ h
 include
 FT_BDF_H
 FT_BEGIN_HEADER
+#
+ifdef
+TT_CONFIG_OPTION_BDF
 FT_LOCAL
 (
 void
@@ -337,6 +340,13 @@ BDF_PropertyRec
 aprop
 )
 ;
+#
+endif
+/
+*
+TT_CONFIG_OPTION_BDF
+*
+/
 FT_END_HEADER
 #
 endif

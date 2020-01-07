@@ -113,7 +113,7 @@ specification
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -3584,8 +3584,7 @@ outline
 s
 points
 including
-B
-zier
+Bezier
 control
 points
 .
@@ -3628,8 +3627,7 @@ outline
 *
 that
 contains
-B
-zier
+Bezier
 outside
 arcs
 )

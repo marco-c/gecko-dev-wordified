@@ -111,7 +111,7 @@ specification
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -536,6 +536,18 @@ num_coords
 FT_Long
 *
 coords
+)
+;
+FT_LOCAL
+(
+FT_Error
+)
+T1_Reset_MM_Blend
+(
+T1_Face
+face
+FT_UInt
+instance_index
 )
 ;
 FT_LOCAL

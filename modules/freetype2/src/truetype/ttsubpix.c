@@ -107,7 +107,7 @@ Hinting
 Copyright
 2010
 -
-2017
+2018
 by
 *
 /
@@ -307,7 +307,7 @@ include
 FT_OUTLINE_H
 #
 include
-FT_TRUETYPE_DRIVER_H
+FT_DRIVER_H
 #
 include
 "
@@ -5144,7 +5144,7 @@ family
 /
 if
 (
-strcmp
+ft_strcmp
 (
 detected_font_name
 rule_font_name
@@ -5170,7 +5170,7 @@ wildcard
 /
 if
 (
-strcmp
+ft_strcmp
 (
 rule_font_name
 "
@@ -5213,7 +5213,7 @@ i
 {
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -5245,7 +5245,7 @@ j
 {
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -5267,7 +5267,7 @@ continue
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -5325,7 +5325,7 @@ style
 /
 if
 (
-strcmp
+ft_strcmp
 (
 detected_font_style
 rule_font_style
@@ -5351,7 +5351,7 @@ wildcard
 /
 if
 (
-strcmp
+ft_strcmp
 (
 rule_font_style
 "
@@ -5394,7 +5394,7 @@ i
 {
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [
@@ -5426,7 +5426,7 @@ j
 {
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [
@@ -5448,7 +5448,7 @@ continue
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [

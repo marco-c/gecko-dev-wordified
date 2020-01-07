@@ -110,7 +110,7 @@ specification
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -298,11 +298,7 @@ h
 >
 #
 include
-"
-cfftypes
-.
-h
-"
+FT_INTERNAL_CFF_TYPES_H
 #
 include
 FT_INTERNAL_OBJECTS_H

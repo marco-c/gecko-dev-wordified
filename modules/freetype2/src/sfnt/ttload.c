@@ -130,7 +130,7 @@ body
 Copyright
 1996
 -
-2017
+2018
 by
 *
 /
@@ -2347,6 +2347,8 @@ memory
 FT_UShort
 nn
 valid_entries
+=
+0
 ;
 static
 const

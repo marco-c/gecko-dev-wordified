@@ -113,7 +113,7 @@ data
 Copyright
 2003
 -
-2017
+2018
 by
 *
 /
@@ -856,8 +856,7 @@ FT_WinFNT_ID_OEM
 *
 From
 Michael
-P
-ttgen
+Poettgen
 <
 michael
 poettgen

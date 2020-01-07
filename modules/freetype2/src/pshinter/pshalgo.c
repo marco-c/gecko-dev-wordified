@@ -110,7 +110,7 @@ body
 Copyright
 2001
 -
-2017
+2018
 by
 *
 /
@@ -319,7 +319,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_pshalgo2
+trace_pshalgo
 #
 ifdef
 DEBUG_HINTER

@@ -128,7 +128,7 @@ gxlayout
 Copyright
 2004
 -
-2017
+2018
 by
 *
 /
@@ -404,7 +404,7 @@ Inc
 /
 /
 *
-http
+https
 :
 /
 /
@@ -416,8 +416,17 @@ com
 /
 fonts
 /
-Registry
+TrueType
+-
+Reference
+-
+Manual
 /
+RM09
+/
+AppendixF
+.
+html
 *
 /
 /

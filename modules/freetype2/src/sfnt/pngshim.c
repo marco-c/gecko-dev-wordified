@@ -108,7 +108,7 @@ support
 Copyright
 2013
 -
-2017
+2018
 by
 *
 /
@@ -883,7 +883,7 @@ m0
 6
 }
 ;
-memcpy
+ft_memcpy
 (
 &
 s
@@ -1056,7 +1056,7 @@ s1
 n8
 )
 ;
-memcpy
+ft_memcpy
 (
 base
 &
@@ -1584,7 +1584,7 @@ NULL
 return
 ;
 }
-memcpy
+ft_memcpy
 (
 data
 stream
