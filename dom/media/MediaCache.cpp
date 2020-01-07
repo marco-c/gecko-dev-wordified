@@ -3788,10 +3788,6 @@ mPinCount
 (
 0
 )
-mCurrentMode
-(
-MODE_PLAYBACK
-)
 mMetadataInPartialBlockBuffer
 (
 false

@@ -527,7 +527,7 @@ The
 mode
 is
 initially
-MODE_PLAYBACK
+MODE_METADATA
 .
 virtual
 void

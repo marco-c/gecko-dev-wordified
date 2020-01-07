@@ -4932,6 +4932,8 @@ read
 mode
 ReadMode
 mCurrentMode
+=
+MODE_METADATA
 ;
 /
 /
