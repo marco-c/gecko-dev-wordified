@@ -597,6 +597,8 @@ appearance
 names
 eColorID__moz_mac_vibrancy_light
 eColorID__moz_mac_vibrancy_dark
+eColorID__moz_mac_vibrant_titlebar_light
+eColorID__moz_mac_vibrant_titlebar_dark
 eColorID__moz_mac_menupopup
 eColorID__moz_mac_menuitem
 eColorID__moz_mac_active_menuitem
