@@ -96,6 +96,13 @@ h
 #
 include
 "
+nspr
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -187,7 +194,7 @@ Shutdown
 (
 )
 ;
-free
+PR_Free
 (
 mInitialMessage
 )
@@ -1493,7 +1500,7 @@ Append
 encoded
 )
 ;
-free
+PR_Free
 (
 encoded
 )
@@ -1610,7 +1617,7 @@ buf
 outTokenLen
 )
 ;
-free
+PR_Free
 (
 buf
 )
