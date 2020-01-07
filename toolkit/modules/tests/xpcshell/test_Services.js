@@ -266,16 +266,6 @@ nsIDOMStorageManager
 checkService
 (
 "
-downloads
-"
-Ci
-.
-nsIDownloadManager
-)
-;
-checkService
-(
-"
 droppedLinkHandler
 "
 Ci
