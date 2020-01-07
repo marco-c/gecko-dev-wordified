@@ -10587,7 +10587,7 @@ window
 ;
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 decl
 ;

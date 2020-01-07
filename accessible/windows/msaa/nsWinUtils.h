@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 .
 h
 "
@@ -231,7 +231,7 @@ on
 static
 already_AddRefed
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 GetComputedStyleDeclaration
 (

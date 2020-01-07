@@ -8206,7 +8206,7 @@ nsAString
 aPseudoElt
 bool
 aDefaultStylesOnly
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 *
 aReturn

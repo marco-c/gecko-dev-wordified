@@ -164,7 +164,7 @@ class
 nsIContent
 ;
 class
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 ;
 class
 nsIDOMNode
@@ -1998,7 +1998,7 @@ dom
 Element
 *
 aElement
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 *
 aCssDecl

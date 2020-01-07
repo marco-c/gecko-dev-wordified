@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

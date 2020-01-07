@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsCSSParser
 .
 h
@@ -9696,7 +9689,6 @@ frameLoader
 >
 LoadFrame
 (
-false
 )
 ;
 }
