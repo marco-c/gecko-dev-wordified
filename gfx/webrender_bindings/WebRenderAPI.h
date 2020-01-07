@@ -995,6 +995,11 @@ Resume
 (
 )
 ;
+void
+WakeSceneBuilder
+(
+)
+;
 wr
 :
 :
