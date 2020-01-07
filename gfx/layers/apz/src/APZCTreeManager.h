@@ -1677,7 +1677,9 @@ appended
 to
 the
 provided
-aTransformArray
+transaction
+as
+well
 .
 *
 Returns
@@ -1712,15 +1714,6 @@ const
 TimeStamp
 &
 aSampleTime
-nsTArray
-<
-wr
-:
-:
-WrTransformProperty
->
-&
-aTransformArray
 )
 ;
 /

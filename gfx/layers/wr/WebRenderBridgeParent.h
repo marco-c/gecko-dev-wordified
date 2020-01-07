@@ -1555,8 +1555,8 @@ their
 transforms
 updated
 the
-provided
-aTransformArray
+transaction
+builder
 /
 /
 is
@@ -1566,7 +1566,8 @@ the
 property
 update
 details
-.
+via
+AppendTransformProperties
 bool
 PushAPZStateToWR
 (
@@ -1576,15 +1577,6 @@ wr
 TransactionBuilder
 &
 aTxn
-nsTArray
-<
-wr
-:
-:
-WrTransformProperty
->
-&
-aTransformArray
 )
 ;
 wr
