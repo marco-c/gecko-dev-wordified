@@ -505,6 +505,13 @@ into
 }
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 enum
 Action
 {
@@ -2813,6 +2820,8 @@ InvalidColor
 b
 "
 PEColorNotColor
+\
+0
 "
 Action
 :
@@ -2880,6 +2889,8 @@ message
 b
 "
 PEDeclDropped
+\
+0
 "
 Action
 :

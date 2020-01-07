@@ -118,6 +118,13 @@ while
 parsing
 CSS
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 ContextualParseError
