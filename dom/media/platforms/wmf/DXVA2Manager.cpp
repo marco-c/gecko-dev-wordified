@@ -1250,11 +1250,6 @@ mResetToken
 =
 0
 ;
-bool
-mFirstFrame
-=
-true
-;
 }
 ;
 void
