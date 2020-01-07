@@ -7126,7 +7126,7 @@ values
 aec
 agc
 and
-noise
+noice
 )
 are
 from
@@ -7294,12 +7294,9 @@ getusermedia
 .
 agc
 "
-3
+1
 )
 ;
-/
-/
-kAgcAdaptiveDigital
 /
 /
 capture_delay
@@ -24866,7 +24863,7 @@ auth
 -
 allow
 "
-false
+true
 )
 ;
 /
@@ -59976,7 +59973,7 @@ network
 .
 activity
 .
-blipIntervalMilliseconds
+intervalMilliseconds
 "
 0
 )
