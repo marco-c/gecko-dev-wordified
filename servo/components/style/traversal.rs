@@ -1867,17 +1867,6 @@ bool
 debug_assert
 !
 (
-cfg
-!
-(
-feature
-=
-"
-gecko
-"
-)
-|
-|
 parent
 .
 has_current_styles_for_traversal
