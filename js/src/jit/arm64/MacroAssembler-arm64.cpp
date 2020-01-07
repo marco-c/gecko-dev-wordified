@@ -529,7 +529,7 @@ instruction
 /
 /
 /
-allocEntry
+allocLiteralLoadEntry
 (
 )
 will
@@ -661,7 +661,7 @@ the
 buffer
 .
 return
-allocEntry
+allocLiteralLoadEntry
 (
 numInst
 numPoolEntries
@@ -744,7 +744,7 @@ instruction
 /
 /
 /
-allocEntry
+allocLiteralLoadEntry
 (
 )
 will
@@ -876,7 +876,7 @@ the
 buffer
 .
 return
-allocEntry
+allocLiteralLoadEntry
 (
 numInst
 numPoolEntries
