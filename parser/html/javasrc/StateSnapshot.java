@@ -469,6 +469,7 @@ getStack
 )
 *
 /
+Override
 public
 StackNode
 <
@@ -504,6 +505,7 @@ getTemplateModeStack
 )
 *
 /
+Override
 public
 int
 [
@@ -536,6 +538,7 @@ getListOfActiveFormattingElements
 )
 *
 /
+Override
 public
 StackNode
 <
@@ -571,6 +574,7 @@ getFormPointer
 )
 *
 /
+Override
 public
 T
 getFormPointer
@@ -596,6 +600,7 @@ the
 headPointer
 *
 /
+Override
 public
 T
 getHeadPointer
@@ -621,6 +626,7 @@ the
 deepTreeSurrogateParent
 *
 /
+Override
 public
 T
 getDeepTreeSurrogateParent
@@ -646,6 +652,7 @@ the
 mode
 *
 /
+Override
 public
 int
 getMode
@@ -671,6 +678,7 @@ the
 originalMode
 *
 /
+Override
 public
 int
 getOriginalMode
@@ -696,6 +704,7 @@ the
 framesetOk
 *
 /
+Override
 public
 boolean
 isFramesetOk
@@ -721,6 +730,7 @@ the
 needToDropLF
 *
 /
+Override
 public
 boolean
 isNeedToDropLF
@@ -746,6 +756,7 @@ the
 quirks
 *
 /
+Override
 public
 boolean
 isQuirks
@@ -776,6 +787,7 @@ getListOfActiveFormattingElementsLength
 )
 *
 /
+Override
 public
 int
 getListOfActiveFormattingElementsLength
@@ -808,6 +820,7 @@ getStackLength
 )
 *
 /
+Override
 public
 int
 getStackLength
@@ -840,6 +853,7 @@ getTemplateModeStackLength
 )
 *
 /
+Override
 public
 int
 getTemplateModeStackLength
