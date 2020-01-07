@@ -769,6 +769,16 @@ Clear
 (
 )
 ;
+bool
+UseSceneBuilderThread
+(
+)
+const
+{
+return
+mUseSceneBuilderThread
+;
+}
 Transaction
 *
 Raw
@@ -794,6 +804,9 @@ mResourceUpdates
 }
 protected
 :
+bool
+mUseSceneBuilderThread
+;
 Transaction
 *
 mTxn

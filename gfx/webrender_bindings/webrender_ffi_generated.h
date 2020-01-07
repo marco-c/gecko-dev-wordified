@@ -4893,6 +4893,8 @@ aDh
 Transaction
 *
 aTransaction
+bool
+aIsAsync
 )
 WR_FUNC
 ;
