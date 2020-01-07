@@ -1190,6 +1190,11 @@ testPage2
 )
 )
 ;
+if
+(
+gMultiProcessBrowser
+)
+{
 var
 childFocusScript
 =
@@ -1235,6 +1240,7 @@ childFocusScript
 true
 )
 ;
+}
 gURLBar
 .
 focus
