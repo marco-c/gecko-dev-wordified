@@ -2244,7 +2244,7 @@ resultNode
 mNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aChildIndex
 )
