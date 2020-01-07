@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsIDOMCSSValue
-.
-h
-"
-#
-include
-"
 nsIDOMCustomEvent
 .
 h
@@ -2253,10 +2246,6 @@ ContainerBoxObject
 DEFINE_SHIM
 (
 CSSStyleDeclaration
-)
-DEFINE_SHIM
-(
-CSSValue
 )
 DEFINE_SHIM
 (
