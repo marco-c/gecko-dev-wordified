@@ -3108,6 +3108,11 @@ ifdef
 MOZ_CUBEB_REMOTING
 if
 (
+sCubebSandbox
+)
+{
+if
+(
 XRE_IsParentProcess
 (
 )
@@ -3157,6 +3162,7 @@ IsValid
 )
 )
 ;
+}
 }
 MOZ_LOG
 (
@@ -3753,6 +3759,9 @@ ifdef
 MOZ_CUBEB_REMOTING
 if
 (
+sCubebSandbox
+&
+&
 XRE_IsContentProcess
 (
 )
