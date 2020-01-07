@@ -171,10 +171,6 @@ ipc_channel
 ;
 extern
 crate
-itertools
-;
-extern
-crate
 layout_traits
 ;
 #
@@ -287,6 +283,9 @@ ios
 ]
 mod
 sandboxing
+;
+mod
+session_history
 ;
 mod
 timer_scheduler
