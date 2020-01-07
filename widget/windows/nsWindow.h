@@ -360,13 +360,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsIIdleServiceInternal
 .
 h

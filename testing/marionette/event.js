@@ -436,7 +436,7 @@ target
 *
 param
 {
-nsIDOMMouseEvent
+MouseEvent
 }
 mouseEvent
 *

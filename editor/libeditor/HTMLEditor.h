@@ -321,9 +321,6 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMMouseEvent
-;
-class
 nsILinkHandler
 ;
 class

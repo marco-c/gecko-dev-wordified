@@ -252,13 +252,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

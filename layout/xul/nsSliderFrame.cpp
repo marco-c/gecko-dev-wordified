@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsScrollbarButtonFrame
 .
 h

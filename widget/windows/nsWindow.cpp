@@ -768,13 +768,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsIKeyEventInPluginCallback
 .
 h

@@ -201,7 +201,10 @@ virtual
 nsresult
 MouseClick
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )

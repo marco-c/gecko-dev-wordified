@@ -1096,7 +1096,7 @@ Possible
 values
 are
 from
-nsIDOMMouseEvent
+MouseEvent
 .
 uint16_t
 mInputSource

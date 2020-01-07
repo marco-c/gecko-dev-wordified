@@ -932,17 +932,6 @@ nsIDOMEventTarget
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-/
-/
-for
-nsIDOMMouseEvent
-#
-include
-"
 nsIDOMNode
 .
 h

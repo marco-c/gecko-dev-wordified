@@ -174,13 +174,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 MouseScrollEvent
 MouseEvent
 )
-/
-/
-Forward
-to
-base
-class
-NS_FORWARD_TO_MOUSEEVENT
 virtual
 JSObject
 *

@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils
