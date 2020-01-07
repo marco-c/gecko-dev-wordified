@@ -1836,6 +1836,16 @@ ImageKey
 >
 mKey
 ;
+DIGroup
+(
+)
+:
+mAppUnitsPerDevPixel
+(
+0
+)
+{
+}
 void
 InvalidateRect
 (
@@ -9019,7 +9029,7 @@ mAppUnitsPerDevPixel
 appUnitsPerDevPixel
 )
 {
-printf
+GP
 (
 "
 app
