@@ -147,6 +147,9 @@ namespace
 dom
 {
 class
+ServiceWorkerRegistrationData
+;
+class
 ServiceWorkerRegistrationDescriptor
 ;
 typedef
@@ -161,6 +164,15 @@ ServiceWorkerRegistrationPromise
 bool
 ServiceWorkerParentInterceptEnabled
 (
+)
+;
+bool
+ServiceWorkerRegistrationDataIsValid
+(
+const
+ServiceWorkerRegistrationData
+&
+aData
 )
 ;
 }
