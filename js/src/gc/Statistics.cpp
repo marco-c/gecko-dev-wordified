@@ -655,7 +655,7 @@ Phase
 nextSibling
 ;
 Phase
-nextInPhase
+nextWithPhaseKind
 ;
 PhaseKind
 phaseKind
@@ -973,7 +973,7 @@ phases
 phase
 ]
 .
-nextInPhase
+nextWithPhaseKind
 )
 {
 if
@@ -5532,18 +5532,18 @@ depth
 ;
 }
 auto
-nextInPhase
+nextWithPhaseKind
 =
 phases
 [
 i
 ]
 .
-nextInPhase
+nextWithPhaseKind
 ;
 if
 (
-nextInPhase
+nextWithPhaseKind
 !
 =
 Phase
@@ -5564,7 +5564,7 @@ phaseKind
 =
 phases
 [
-nextInPhase
+nextWithPhaseKind
 ]
 .
 phaseKind
@@ -5577,7 +5577,7 @@ parent
 =
 phases
 [
-nextInPhase
+nextWithPhaseKind
 ]
 .
 parent
@@ -5814,7 +5814,7 @@ phases
 phase
 ]
 .
-nextInPhase
+nextWithPhaseKind
 )
 {
 sum
