@@ -69,6 +69,8 @@ expectedResult
 }
 )
 {
+BrowserTestUtils
+.
 promiseAlertDialogOpen
 (
 buttonToClick
