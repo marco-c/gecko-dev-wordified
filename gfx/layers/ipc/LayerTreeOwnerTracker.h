@@ -139,6 +139,17 @@ ProcessId
 #
 include
 "
+LayersTypes
+.
+h
+"
+/
+/
+for
+LayersId
+#
+include
+"
 mozilla
 /
 Mutex
