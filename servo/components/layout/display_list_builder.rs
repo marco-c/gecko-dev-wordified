@@ -10907,7 +10907,6 @@ collect
 )
 ;
 let
-mut
 draw_result
 =
 match
@@ -11062,6 +11061,15 @@ None
 }
 }
 ;
+if
+let
+Ok
+(
+draw_result
+)
+=
+draw_result
+{
 let
 webrender_image
 =
@@ -11096,10 +11104,8 @@ draw_result
 .
 missing_image_urls
 .
-drain
+into_iter
 (
-.
-.
 )
 {
 debug
@@ -11138,6 +11144,11 @@ Some
 (
 webrender_image
 )
+}
+else
+{
+None
+}
 }
 fn
 build_display_list_for_background_gradient
