@@ -6932,6 +6932,14 @@ WindowType
 eWindowType_child
 |
 |
+WindowType
+(
+)
+=
+=
+eWindowType_dialog
+|
+|
 (
 WindowType
 (
