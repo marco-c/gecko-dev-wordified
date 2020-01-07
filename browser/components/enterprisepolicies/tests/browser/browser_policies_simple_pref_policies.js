@@ -259,6 +259,11 @@ DisableSecurityBypass
 :
 {
 "
+InvalidCertificate
+"
+:
+true
+"
 SafeBrowsing
 "
 :
@@ -268,6 +273,15 @@ true
 lockedPrefs
 :
 {
+"
+security
+.
+certerror
+.
+hideAddException
+"
+:
+true
 "
 browser
 .
