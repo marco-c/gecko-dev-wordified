@@ -258,6 +258,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

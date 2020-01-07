@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -917,6 +924,8 @@ params_
 \
 }
 \
+if
+(
 ShadowRoot
 *
 shadow
@@ -928,11 +937,6 @@ FromNode
 (
 node
 )
-;
-\
-if
-(
-shadow
 )
 {
 \
