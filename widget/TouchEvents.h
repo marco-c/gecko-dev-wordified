@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDOMSimpleGestureEvent
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -976,7 +969,9 @@ result
 /
 /
 See
-nsIDOMSimpleGestureEvent
+SimpleGestureEvent
+.
+webidl
 for
 values
 uint32_t
@@ -985,7 +980,9 @@ mAllowedDirections
 /
 /
 See
-nsIDOMSimpleGestureEvent
+SimpleGestureEvent
+.
+webidl
 for
 values
 uint32_t
