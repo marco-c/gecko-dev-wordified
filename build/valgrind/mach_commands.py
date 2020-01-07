@@ -445,7 +445,10 @@ testing
 profiles
 '
 '
-prefs_general
+common
+'
+'
+user
 .
 js
 '
