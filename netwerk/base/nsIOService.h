@@ -354,9 +354,6 @@ class
 nsIProxyInfo
 ;
 class
-nsPIDNSService
-;
-class
 nsPISocketTransportService
 ;
 namespace
@@ -1125,12 +1122,6 @@ nsCOMPtr
 nsPISocketTransportService
 >
 mSocketTransportService
-;
-nsCOMPtr
-<
-nsPIDNSService
->
-mDNSService
 ;
 nsCOMPtr
 <
