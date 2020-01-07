@@ -129,6 +129,12 @@ nsTableCellFrame
 namespace
 mozilla
 {
+enum
+class
+TableSelection
+:
+uint32_t
+;
 namespace
 a11y
 {
@@ -1061,7 +1067,7 @@ AddRowOrColumnToSelection
 (
 int32_t
 aIndex
-uint32_t
+TableSelection
 aTarget
 )
 ;
@@ -1143,7 +1149,7 @@ RemoveRowsOrColumnsFromSelection
 (
 int32_t
 aIndex
-uint32_t
+TableSelection
 aTarget
 bool
 aIsOuter
