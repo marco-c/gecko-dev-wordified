@@ -13608,12 +13608,15 @@ object
 \
 n
 "
+size_t
+(
 end
 -
 (
 vp
 -
 1
+)
 )
 )
 ;
