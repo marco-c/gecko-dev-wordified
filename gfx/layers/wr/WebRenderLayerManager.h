@@ -721,6 +721,13 @@ aAllocator
 override
 ;
 virtual
+TransactionId
+GetLastTransactionId
+(
+)
+override
+;
+virtual
 void
 AddDidCompositeObserver
 (
