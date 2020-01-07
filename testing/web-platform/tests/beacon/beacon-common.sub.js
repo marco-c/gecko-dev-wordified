@@ -828,6 +828,16 @@ largeFormDataTest
 ]
 ;
 var
+contentTypeTests
+=
+[
+smallSafeContentTypeEncodedTest
+smallSafeContentTypeFormTest
+smallSafeContentTypeTextTest
+smallCORSContentTypeTextTest
+]
+;
+var
 allTests
 =
 [
@@ -843,6 +853,7 @@ bufferSourceTests
 bufferSourceMaxTest
 formDataTests
 formDataMaxTest
+contentTypeTests
 )
 ;
 /
