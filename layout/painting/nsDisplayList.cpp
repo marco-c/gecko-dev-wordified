@@ -20169,10 +20169,6 @@ mReusedItem
 (
 false
 )
-mMergedItem
-(
-false
-)
 mBackfaceHidden
 (
 mFrame
