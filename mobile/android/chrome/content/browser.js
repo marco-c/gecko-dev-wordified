@@ -20206,7 +20206,7 @@ _highlightElement
 |
 event
 .
-target
+composedTarget
 ;
 if
 (
@@ -33822,7 +33822,7 @@ target
 =
 aEvent
 .
-target
+composedTarget
 ;
 if
 (
