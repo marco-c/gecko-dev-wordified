@@ -3401,12 +3401,12 @@ WasmGlobalObjectVector
 globalObjs
 )
 :
-compartment_
+realm_
 (
 cx
 -
 >
-compartment
+realm
 (
 )
 )
@@ -4518,7 +4518,7 @@ Instance
 (
 )
 {
-compartment_
+realm_
 -
 >
 wasm
