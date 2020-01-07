@@ -1370,6 +1370,27 @@ filename
             
 continue
         
+#
+Ignore
+the
+fuzzing
+code
+imported
+from
+m
+-
+c
+        
+if
+"
+Fuzzer
+"
+in
+filename
+:
+            
+continue
+        
 fn
 =
 m
