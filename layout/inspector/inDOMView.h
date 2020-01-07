@@ -482,7 +482,7 @@ aResult
 nsresult
 AppendKidsToArray
 (
-nsIDOMNodeList
+nsINodeList
 *
 aKids
 nsCOMArray
