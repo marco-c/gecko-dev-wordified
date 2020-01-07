@@ -1170,10 +1170,13 @@ AudioConfig
 :
 :
 ChannelLayout
+:
+:
+SMPTEDefault
 (
 mIn
 .
-Channels
+Layout
 (
 )
 )
