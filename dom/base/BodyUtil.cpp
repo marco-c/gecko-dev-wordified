@@ -377,7 +377,7 @@ FillFormIterator
 final
 :
 public
-URLSearchParams
+URLParams
 :
 :
 ForEachIterator
