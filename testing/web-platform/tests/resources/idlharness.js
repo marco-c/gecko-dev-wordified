@@ -4796,7 +4796,7 @@ A
 B
 for
 (
-const
+var
 member
 of
 Object
