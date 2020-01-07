@@ -1696,7 +1696,7 @@ URI2
 )
 fc
 +
-2
+1
 )
 ;
 /
@@ -1704,6 +1704,9 @@ fc
 +
 1
 bookmark
+-
+1
+keyword
 +
 1
 keyword
@@ -2222,8 +2225,6 @@ URI2
 )
 )
 fc
--
-1
 )
 ;
 /
@@ -2232,7 +2233,7 @@ fc
 1
 bookmark
 -
-2
+1
 keyword
 await
 PlacesTestUtils
