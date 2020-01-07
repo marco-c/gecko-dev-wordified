@@ -120,8 +120,6 @@ test
 .
 0
 nonexistent
--
-origin
 .
 web
 -
