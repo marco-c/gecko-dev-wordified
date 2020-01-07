@@ -935,9 +935,6 @@ mCallbacks
 /
 image
 buffers
-mozilla
-:
-:
 ShmemPool
 mShmemPool
 ;
@@ -1010,9 +1007,6 @@ cross
 -
 thread
 .
-mozilla
-:
-:
 Atomic
 <
 bool
