@@ -1278,14 +1278,13 @@ RESTRequest
 url
 )
 ;
+await
 request
 .
 get
 (
-function
-(
 )
-{
+;
 Assert
 .
 equal
@@ -1303,9 +1302,6 @@ CommonUtils
 nextTick
 (
 onwards
-)
-;
-}
 )
 ;
 }

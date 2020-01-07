@@ -279,9 +279,9 @@ setHeader
 )
 {
 }
+async
 get
 (
-callback
 )
 {
 this
@@ -290,12 +290,8 @@ response
 =
 response
 ;
-callback
-.
-call
-(
-this
-)
+return
+response
 ;
 }
 }
