@@ -220,6 +220,13 @@ RearmTimer
 (
 )
 ;
+void
+NotifyConnectivityAvailable
+(
+bool
+aCaptive
+)
+;
 nsCOMPtr
 <
 nsICaptivePortalDetector
