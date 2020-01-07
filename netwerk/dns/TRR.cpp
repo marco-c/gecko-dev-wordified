@@ -801,7 +801,7 @@ dot
 }
 while
 (
-1
+true
 )
 ;
 aBody

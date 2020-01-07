@@ -127,15 +127,6 @@ mLastModified
 )
 {
 }
-nsDirIndex
-:
-:
-~
-nsDirIndex
-(
-)
-{
-}
 NS_IMETHODIMP
 nsDirIndex
 :

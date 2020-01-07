@@ -254,8 +254,9 @@ SimpleBuffer
 SimpleBuffer
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Write
 (

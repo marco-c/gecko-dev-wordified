@@ -2084,6 +2084,8 @@ private
 BackgroundFileSaverOutputStream
 (
 )
+=
+default
 ;
 /
 *
@@ -2248,6 +2250,8 @@ private
 BackgroundFileSaverStreamListener
 (
 )
+=
+default
 ;
 /
 *
@@ -2466,8 +2470,9 @@ virtual
 DigestOutputStream
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Calls
@@ -2519,6 +2524,8 @@ DigestOutputStream
 &
 d
 )
+=
+delete
 ;
 }
 ;

@@ -146,6 +146,8 @@ private
 nsDirIndex
 (
 )
+=
+default
 ;
 public
 :

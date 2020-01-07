@@ -141,8 +141,9 @@ NS_DECL_NSISIMPLESTREAMLISTENER
 nsSimpleStreamListener
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -150,8 +151,9 @@ virtual
 nsSimpleStreamListener
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIOutputStream

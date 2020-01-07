@@ -850,8 +850,6 @@ return
 rv
 ;
 }
-else
-{
 secret
 -
 >
@@ -918,7 +916,6 @@ for
 the
 new
 data
-}
 }
 SOCKET_LOG
 (
@@ -1389,8 +1386,6 @@ return
 rv
 ;
 }
-else
-{
 secret
 -
 >
@@ -1425,7 +1420,6 @@ secret
 mFirstPacketBufLen
 )
 ;
-}
 }
 }
 rv
@@ -3381,8 +3375,6 @@ return
 true
 ;
 }
-else
-{
 /
 /
 There
@@ -3416,7 +3408,6 @@ SOCKET_ERROR_STATE
 return
 false
 ;
-}
 }
 secret
 -

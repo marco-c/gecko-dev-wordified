@@ -173,6 +173,8 @@ protected
 nsFileChannel
 (
 )
+=
+default
 ;
 /
 /

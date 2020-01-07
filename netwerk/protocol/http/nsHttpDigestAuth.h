@@ -343,6 +343,8 @@ NS_DECL_NSIHTTPAUTHENTICATOR
 nsHttpDigestAuth
 (
 )
+=
+default
 ;
 protected
 :
@@ -350,6 +352,8 @@ protected
 nsHttpDigestAuth
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 nsresult

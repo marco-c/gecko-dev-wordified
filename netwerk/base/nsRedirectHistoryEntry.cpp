@@ -182,15 +182,6 @@ aRemoteAddress
 )
 {
 }
-nsRedirectHistoryEntry
-:
-:
-~
-nsRedirectHistoryEntry
-(
-)
-{
-}
 NS_IMETHODIMP
 nsRedirectHistoryEntry
 :

@@ -242,8 +242,9 @@ virtual
 Http2PushedStream
 (
 )
-{
-}
+=
+default
+;
 bool
 GetPushComplete
 (

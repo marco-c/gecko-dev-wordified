@@ -4119,7 +4119,7 @@ this
 ;
 mReqContentLengthDetermined
 =
-1
+true
 ;
 nsresult
 rv
@@ -4215,7 +4215,7 @@ mReqContentLength
 ;
 mReqContentLengthDetermined
 =
-1
+true
 ;
 return
 ;
@@ -4306,7 +4306,7 @@ this
 ;
 mReqContentLengthDetermined
 =
-1
+true
 ;
 return
 ;
@@ -4668,7 +4668,6 @@ return
 rv
 ;
 }
-else
 if
 (
 mLoadFlags
@@ -13930,9 +13929,9 @@ quic
 )
 )
 ?
-1
+true
 :
-0
+false
 ;
 Telemetry
 :
@@ -24883,7 +24882,7 @@ buf
 .
 Adopt
 (
-0
+nullptr
 )
 ;
 /
@@ -48358,8 +48357,6 @@ return
 NS_OK
 ;
 }
-else
-{
 LOG
 (
 (
@@ -48388,7 +48385,6 @@ status
 =
 NS_ERROR_NET_INTERRUPT
 ;
-}
 }
 else
 {

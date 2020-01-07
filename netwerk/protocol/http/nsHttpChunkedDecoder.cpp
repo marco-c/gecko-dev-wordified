@@ -1102,7 +1102,7 @@ nsHttpAtom
 hdr
 =
 {
-0
+nullptr
 }
 ;
 nsAutoCString

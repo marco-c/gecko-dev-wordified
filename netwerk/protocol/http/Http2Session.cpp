@@ -7039,7 +7039,7 @@ true
 }
 while
 (
-0
+false
 )
 ;
 LOG3
@@ -21614,7 +21614,7 @@ else
 {
 mInputFrameFinal
 =
-0
+false
 ;
 }
 mPaddingLength
@@ -30467,7 +30467,7 @@ setup
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint32_t

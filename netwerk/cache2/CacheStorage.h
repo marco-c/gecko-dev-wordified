@@ -260,6 +260,8 @@ virtual
 CacheStorage
 (
 )
+=
+default
 ;
 nsresult
 ChooseApplicationCache

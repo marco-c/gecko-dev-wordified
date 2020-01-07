@@ -390,14 +390,6 @@ contents
 NeckoChild
 :
 :
-NeckoChild
-(
-)
-{
-}
-NeckoChild
-:
-:
 ~
 NeckoChild
 (

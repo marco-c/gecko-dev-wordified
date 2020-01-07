@@ -156,15 +156,6 @@ DataChannelParent
 nsIParentChannel
 nsIStreamListener
 )
-DataChannelParent
-:
-:
-~
-DataChannelParent
-(
-)
-{
-}
 bool
 DataChannelParent
 :

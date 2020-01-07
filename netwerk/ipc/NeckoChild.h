@@ -161,6 +161,8 @@ public
 NeckoChild
 (
 )
+=
+default
 ;
 virtual
 ~

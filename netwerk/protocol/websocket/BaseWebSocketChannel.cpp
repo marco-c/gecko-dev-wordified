@@ -334,11 +334,11 @@ mClientSetPingTimeout
 )
 mEncrypted
 (
-0
+false
 )
 mPingForced
 (
-0
+false
 )
 mIsServerSide
 (

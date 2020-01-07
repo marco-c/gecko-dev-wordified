@@ -726,8 +726,6 @@ variety
 )
 ;
 }
-else
-{
 entry
 -
 >
@@ -742,7 +740,6 @@ variety
 =
 variety
 ;
-}
 }
 return
 NS_OK
@@ -1384,8 +1381,6 @@ eVarietyResponseNetOriginal
 )
 ;
 }
-else
-{
 nsTArray
 <
 nsEntry
@@ -1535,7 +1530,6 @@ value
 eVarietyResponse
 )
 ;
-}
 }
 void
 nsHttpHeaderArray

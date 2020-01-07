@@ -502,8 +502,8 @@ virtual
 Http2Decompressor
 (
 )
-{
-}
+=
+default
 ;
 /
 /
@@ -849,8 +849,9 @@ virtual
 Http2Compressor
 (
 )
-{
-}
+=
+default
+;
 /
 /
 HTTP

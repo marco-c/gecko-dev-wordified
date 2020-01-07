@@ -8670,7 +8670,7 @@ still
 incomplete
 .
 return
-0
+nullptr
 ;
 }
 /
@@ -8767,7 +8767,7 @@ len
 )
 ;
 return
-0
+nullptr
 ;
 }
 /
@@ -9026,7 +9026,7 @@ len
 ;
 }
 return
-0
+nullptr
 ;
 }
 nsresult

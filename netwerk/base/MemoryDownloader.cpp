@@ -138,15 +138,6 @@ aObserver
 )
 {
 }
-MemoryDownloader
-:
-:
-~
-MemoryDownloader
-(
-)
-{
-}
 NS_IMETHODIMP
 MemoryDownloader
 :

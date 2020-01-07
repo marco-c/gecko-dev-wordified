@@ -1884,8 +1884,9 @@ virtual
 PurgeFromMemoryRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -2023,8 +2024,9 @@ virtual
 IOThreadSuspender
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (

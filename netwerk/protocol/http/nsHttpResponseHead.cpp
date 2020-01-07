@@ -1612,7 +1612,7 @@ false
 }
 while
 (
-1
+true
 )
 ;
 return
@@ -1701,7 +1701,7 @@ nsHttpAtom
 hdr
 =
 {
-0
+nullptr
 }
 ;
 nsAutoCString
@@ -1821,7 +1821,7 @@ p
 }
 while
 (
-1
+true
 )
 ;
 return
@@ -2987,7 +2987,7 @@ nsHttpAtom
 hdr
 =
 {
-0
+nullptr
 }
 ;
 nsAutoCString

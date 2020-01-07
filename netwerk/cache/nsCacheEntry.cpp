@@ -2128,7 +2128,7 @@ hashEntry
 cacheEntry
 =
 =
-0
+nullptr
 "
 #
 #
@@ -2483,6 +2483,6 @@ hashEntry
 >
 cacheEntry
 =
-0
+nullptr
 ;
 }

@@ -223,8 +223,9 @@ nsNetworkInfoService
 nsNetworkInfoService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsNetworkInfoService
 :

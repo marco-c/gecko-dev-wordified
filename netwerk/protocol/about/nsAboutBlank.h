@@ -119,8 +119,9 @@ NS_DECL_NSIABOUTMODULE
 nsAboutBlank
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 Create
@@ -143,8 +144,9 @@ virtual
 nsAboutBlank
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

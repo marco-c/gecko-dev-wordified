@@ -255,8 +255,9 @@ virtual
 nsHttpActivityEvent
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports
@@ -303,15 +304,6 @@ nsHttpActivityDistributor
 .
 mLock
 "
-)
-{
-}
-nsHttpActivityDistributor
-:
-:
-~
-nsHttpActivityDistributor
-(
 )
 {
 }

@@ -321,6 +321,8 @@ methods
 nsStreamConverterService
 (
 )
+=
+default
 ;
 private
 :
@@ -329,6 +331,8 @@ virtual
 nsStreamConverterService
 (
 )
+=
+default
 ;
 /
 /

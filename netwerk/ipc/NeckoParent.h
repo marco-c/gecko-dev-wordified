@@ -219,6 +219,8 @@ virtual
 NeckoParent
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 static

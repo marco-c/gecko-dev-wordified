@@ -2105,13 +2105,10 @@ chunkIdx
 return
 ;
 }
-else
-{
 ReleaseChunk
 (
 )
 ;
-}
 }
 if
 (

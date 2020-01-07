@@ -331,15 +331,6 @@ ServiceWorkerInterceptController
 ;
 }
 }
-HttpChannelParentListener
-:
-:
-~
-HttpChannelParentListener
-(
-)
-{
-}
 /
 /
 -
@@ -2654,8 +2645,9 @@ mChannel
 HeaderVisitor
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

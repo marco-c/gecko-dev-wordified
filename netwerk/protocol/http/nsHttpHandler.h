@@ -4017,8 +4017,9 @@ virtual
 nsHttpsHandler
 (
 )
-{
-}
+=
+default
+;
 public
 :
 /
@@ -4071,8 +4072,9 @@ gHttpHandler
 nsHttpsHandler
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 nsresult
 Init

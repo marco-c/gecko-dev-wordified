@@ -136,6 +136,8 @@ nsIWifiAccessPoint
 nsWifiAccessPoint
 (
 )
+=
+default
 ;
 public
 :

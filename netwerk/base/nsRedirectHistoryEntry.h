@@ -112,6 +112,8 @@ private
 nsRedirectHistoryEntry
 (
 )
+=
+default
 ;
 nsCOMPtr
 <

@@ -333,15 +333,6 @@ GlobalInstance
 )
 ;
 }
-nsApplicationCacheService
-:
-:
-~
-nsApplicationCacheService
-(
-)
-{
-}
 NS_IMETHODIMP
 nsApplicationCacheService
 :
@@ -1428,8 +1419,9 @@ private
 AppCacheClearDataObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

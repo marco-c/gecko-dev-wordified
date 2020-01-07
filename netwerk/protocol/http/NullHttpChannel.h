@@ -221,8 +221,9 @@ private
 NullHttpChannel
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsCOMPtr

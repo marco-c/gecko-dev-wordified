@@ -116,15 +116,6 @@ aInfo
 )
 {
 }
-CacheIndexContextIterator
-:
-:
-~
-CacheIndexContextIterator
-(
-)
-{
-}
 void
 CacheIndexContextIterator
 :

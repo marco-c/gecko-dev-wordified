@@ -3194,8 +3194,9 @@ private
 PACResolver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

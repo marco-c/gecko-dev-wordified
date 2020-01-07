@@ -595,8 +595,9 @@ virtual
 nsOnStartRequestEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -974,8 +975,9 @@ virtual
 nsOnStopRequestEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -1061,7 +1063,7 @@ mProxy
 >
 mObserver
 =
-0
+nullptr
 ;
 nsresult
 status

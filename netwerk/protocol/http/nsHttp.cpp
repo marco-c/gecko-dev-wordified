@@ -2514,8 +2514,6 @@ return
 true
 ;
 }
-else
-{
 LOG
 (
 (
@@ -2536,7 +2534,6 @@ n
 return
 false
 ;
-}
 }
 /
 /
@@ -3405,7 +3402,7 @@ buf
 .
 Adopt
 (
-0
+nullptr
 )
 ;
 /
@@ -3547,7 +3544,7 @@ buf
 .
 Adopt
 (
-0
+nullptr
 )
 ;
 return

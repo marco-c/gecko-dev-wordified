@@ -691,8 +691,9 @@ SetupEventTarget
 ExtensionStreamGetter
 (
 )
-{
-}
+=
+default
+;
 void
 SetupEventTarget
 (
@@ -1088,8 +1089,9 @@ virtual
 ExtensionJARFileOpener
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIFile

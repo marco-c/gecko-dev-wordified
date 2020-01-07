@@ -103,6 +103,8 @@ virtual
 CacheIndexContextIterator
 (
 )
+=
+default
 ;
 private
 :

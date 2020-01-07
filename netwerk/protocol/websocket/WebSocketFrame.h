@@ -333,6 +333,8 @@ private
 WebSocketFrame
 (
 )
+=
+default
 ;
 WebSocketFrameData
 mData

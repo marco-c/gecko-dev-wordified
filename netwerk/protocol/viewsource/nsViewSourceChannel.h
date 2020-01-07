@@ -355,8 +355,9 @@ protected
 nsViewSourceChannel
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Clones

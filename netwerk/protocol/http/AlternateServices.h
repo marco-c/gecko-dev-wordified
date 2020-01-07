@@ -644,8 +644,8 @@ virtual
 AltSvcMapping
 (
 )
-{
-}
+=
+default
 ;
 void
 SyncString
@@ -793,8 +793,9 @@ virtual
 AltSvcOverride
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIInterfaceRequestor
@@ -844,8 +845,9 @@ virtual
 TransactionObserver
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports
@@ -912,8 +914,8 @@ virtual
 AltSvcCache
 (
 )
-{
-}
+=
+default
 ;
 void
 UpdateAltServiceMapping

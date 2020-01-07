@@ -197,6 +197,8 @@ private
 DataChannelChild
 (
 )
+=
+default
 ;
 void
 AddIPDLReference

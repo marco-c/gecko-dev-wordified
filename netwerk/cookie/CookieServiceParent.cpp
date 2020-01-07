@@ -495,15 +495,6 @@ mProcessingCookie
 false
 ;
 }
-CookieServiceParent
-:
-:
-~
-CookieServiceParent
-(
-)
-{
-}
 void
 GetInfoFromCookie
 (

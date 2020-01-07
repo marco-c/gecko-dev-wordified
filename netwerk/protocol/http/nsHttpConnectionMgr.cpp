@@ -1348,8 +1348,9 @@ virtual
 BoolWrapper
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 nsresult
@@ -1592,8 +1593,9 @@ virtual
 ConnEvent
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsHttpConnectionMgr
@@ -2839,8 +2841,9 @@ virtual
 SpeculativeConnectArgs
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_OWNINGTHREAD
 }
 ;
@@ -3356,8 +3359,9 @@ virtual
 nsCompleteUpgradeData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 nsresult
@@ -4398,8 +4402,6 @@ get
 )
 ;
 }
-else
-{
 LOG
 (
 (
@@ -4468,7 +4470,6 @@ get
 )
 )
 ;
-}
 +
 +
 j
@@ -7604,7 +7605,9 @@ queue
 ;
 for
 (
+const
 auto
+&
 info
 :
 ent
@@ -7685,7 +7688,9 @@ Key
 ;
 for
 (
+const
 auto
+&
 info
 :
 *
@@ -24717,7 +24722,9 @@ transactions
 ;
 for
 (
+const
 auto
+&
 trans
 :
 *
@@ -24807,7 +24814,9 @@ return
 }
 for
 (
+const
 auto
+&
 t
 :
 *
@@ -24948,7 +24957,9 @@ transactions
 ;
 for
 (
+const
 auto
+&
 conn
 :
 connections

@@ -290,8 +290,9 @@ NS_DECL_NSIURLPARSER
 nsBaseURLParser
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 /
@@ -607,8 +608,9 @@ nsBaseURLParser
 nsNoAuthURLParser
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -949,8 +951,9 @@ virtual
 nsAuthURLParser
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -1363,8 +1366,9 @@ virtual
 nsStdURLParser
 (
 )
-{
-}
+=
+default
+;
 public
 :
 void

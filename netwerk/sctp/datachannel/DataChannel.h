@@ -368,8 +368,9 @@ length
 OutgoingMsg
 (
 )
-{
-}
+=
+default
+;
 ;
 void
 Advance
@@ -439,8 +440,9 @@ protected
 OutgoingMsg
 (
 )
-{
-}
+=
+default
+;
 ;
 /
 /
@@ -721,8 +723,9 @@ virtual
 DataConnectionListener
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Called
@@ -3367,8 +3370,9 @@ private
 DataChannelOnMessageAvailable
 (
 )
-{
-}
+=
+default
+;
 int32_t
 mType
 ;

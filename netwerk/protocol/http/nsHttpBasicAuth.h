@@ -314,6 +314,8 @@ NS_DECL_NSIHTTPAUTHENTICATOR
 nsHttpBasicAuth
 (
 )
+=
+default
 ;
 private
 :
@@ -322,6 +324,8 @@ virtual
 nsHttpBasicAuth
 (
 )
+=
+default
 ;
 }
 ;

@@ -184,15 +184,6 @@ false
 )
 {
 }
-DataChannelChild
-:
-:
-~
-DataChannelChild
-(
-)
-{
-}
 NS_IMETHODIMP
 DataChannelChild
 :

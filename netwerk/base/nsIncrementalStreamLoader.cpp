@@ -149,15 +149,6 @@ mBytesConsumed
 )
 {
 }
-nsIncrementalStreamLoader
-:
-:
-~
-nsIncrementalStreamLoader
-(
-)
-{
-}
 NS_IMETHODIMP
 nsIncrementalStreamLoader
 :

@@ -1505,8 +1505,9 @@ virtual
 WebSocketSSLChannel
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

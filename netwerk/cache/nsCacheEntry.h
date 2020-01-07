@@ -1837,8 +1837,9 @@ virtual
 nsCacheEntryInfo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

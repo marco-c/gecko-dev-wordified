@@ -156,6 +156,8 @@ virtual
 WyciwygChannelParent
 (
 )
+=
+default
 ;
 virtual
 mozilla

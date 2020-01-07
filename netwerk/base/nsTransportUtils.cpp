@@ -371,8 +371,9 @@ progressMax
 nsTransportStatusEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (

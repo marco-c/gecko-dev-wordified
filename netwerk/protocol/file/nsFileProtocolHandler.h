@@ -129,8 +129,9 @@ virtual
 nsFileProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -139,6 +140,8 @@ NS_DECL_NSIFILEPROTOCOLHANDLER
 nsFileProtocolHandler
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 nsresult

@@ -192,6 +192,8 @@ virtual
 TLSServerSocket
 (
 )
+=
+default
 ;
 static
 SECStatus

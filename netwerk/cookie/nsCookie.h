@@ -959,8 +959,9 @@ virtual
 nsCookie
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

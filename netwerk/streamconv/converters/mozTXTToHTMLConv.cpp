@@ -1357,7 +1357,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -1452,7 +1451,6 @@ start
 pos
 ;
 }
-else
 return
 false
 ;
@@ -1590,7 +1588,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -1910,7 +1907,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -3332,7 +3328,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -6806,23 +6801,6 @@ Interface
 *
 *
 /
-mozTXTToHTMLConv
-:
-:
-mozTXTToHTMLConv
-(
-)
-{
-}
-mozTXTToHTMLConv
-:
-:
-~
-mozTXTToHTMLConv
-(
-)
-{
-}
 NS_IMPL_ISUPPORTS
 (
 mozTXTToHTMLConv

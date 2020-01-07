@@ -583,7 +583,7 @@ mCaptiveIsPassed
 }
 ReadPrefs
 (
-NULL
+nullptr
 )
 ;
 gTRRService
@@ -2887,8 +2887,6 @@ return
 true
 ;
 }
-else
-{
 /
 /
 the
@@ -2962,7 +2960,6 @@ Run
 (
 )
 ;
-}
 }
 }
 return

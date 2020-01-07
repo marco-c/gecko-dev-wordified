@@ -360,6 +360,8 @@ virtual
 Dashboard
 (
 )
+=
+default
 ;
 nsresult
 GetSocketsDispatch

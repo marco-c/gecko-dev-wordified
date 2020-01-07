@@ -237,6 +237,8 @@ virtual
 nsDNSServiceDiscovery
 (
 )
+=
+default
 ;
 nsRefPtrHashtable
 <

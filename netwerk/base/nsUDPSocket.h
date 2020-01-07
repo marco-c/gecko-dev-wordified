@@ -690,6 +690,8 @@ virtual
 nsUDPOutputStream
 (
 )
+=
+default
 ;
 RefPtr
 <

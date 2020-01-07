@@ -399,6 +399,8 @@ protected
 nsPartChannel
 (
 )
+=
+default
 ;
 protected
 :
@@ -934,6 +936,8 @@ virtual
 nsMultiMixedConv
 (
 )
+=
+default
 ;
 nsresult
 SendStart

@@ -184,8 +184,9 @@ private
 nsStreamListenerWrapper
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIStreamListener

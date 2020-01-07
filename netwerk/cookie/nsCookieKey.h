@@ -142,8 +142,9 @@ KeyTypePointer
 nsCookieKey
 (
 )
-{
-}
+=
+default
+;
 nsCookieKey
 (
 const
@@ -206,12 +207,6 @@ mOriginAttributes
 other
 .
 mOriginAttributes
-)
-{
-}
-~
-nsCookieKey
-(
 )
 {
 }

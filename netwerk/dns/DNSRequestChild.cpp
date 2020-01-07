@@ -428,6 +428,8 @@ virtual
 ChildDNSRecord
 (
 )
+=
+default
 ;
 nsCString
 mCanonicalName
@@ -562,15 +564,6 @@ i
 )
 ;
 }
-}
-ChildDNSRecord
-:
-:
-~
-ChildDNSRecord
-(
-)
-{
 }
 /
 /

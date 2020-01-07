@@ -3239,7 +3239,7 @@ pollTimeout
 *
 pollDuration
 =
-0
+nullptr
 ;
 /
 /
@@ -5538,7 +5538,7 @@ NowLoRes
 }
 pollDuration
 =
-0
+nullptr
 ;
 do
 {
@@ -5886,7 +5886,7 @@ numberOfPendingEvents
 ;
 pollDuration
 =
-0
+nullptr
 ;
 }
 }
@@ -6777,7 +6777,7 @@ n
 *
 pollDuration
 =
-0
+nullptr
 ;
 if
 (

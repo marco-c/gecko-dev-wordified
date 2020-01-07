@@ -216,6 +216,8 @@ private
 FileChannelParent
 (
 )
+=
+default
 ;
 virtual
 void

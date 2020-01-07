@@ -148,12 +148,16 @@ public
 ChannelDiverterChild
 (
 )
+=
+default
 ;
 virtual
 ~
 ChannelDiverterChild
 (
 )
+=
+default
 ;
 }
 ;

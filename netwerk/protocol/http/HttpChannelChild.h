@@ -2883,8 +2883,9 @@ virtual
 InterceptStreamListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 InterceptStreamListener

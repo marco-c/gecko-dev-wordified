@@ -288,8 +288,9 @@ virtual
 SimpleChannelCallbacks
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
@@ -344,8 +345,9 @@ virtual
 SimpleChannelCallbacksImpl
 (
 )
-{
-}
+=
+default
+;
 virtual
 InputStreamOrReason
 OpenContentStream

@@ -371,7 +371,7 @@ nsresult
 *
 error
 =
-0
+nullptr
 )
 ;
 already_AddRefed
@@ -384,7 +384,7 @@ nsresult
 *
 error
 =
-0
+nullptr
 )
 ;
 /

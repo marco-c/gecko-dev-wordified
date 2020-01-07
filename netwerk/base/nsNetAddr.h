@@ -116,8 +116,9 @@ nsINetAddr
 nsNetAddr
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

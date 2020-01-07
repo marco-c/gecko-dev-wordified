@@ -272,6 +272,8 @@ virtual
 DNSRequestParent
 (
 )
+=
+default
 ;
 uint32_t
 mFlags

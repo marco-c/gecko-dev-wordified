@@ -1847,7 +1847,7 @@ if
 uninitialized
 while
 (
-1
+true
 )
 {
 if
@@ -2207,8 +2207,6 @@ HashNumber
 return
 ;
 }
-else
-{
 /
 /
 promote
@@ -2234,7 +2232,6 @@ PR_NEXT_LINK
 binding
 )
 ;
-}
 }
 PR_REMOVE_AND_INIT_LINK
 (

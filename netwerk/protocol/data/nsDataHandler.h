@@ -126,6 +126,8 @@ virtual
 nsDataHandler
 (
 )
+=
+default
 ;
 public
 :
@@ -144,6 +146,8 @@ methods
 nsDataHandler
 (
 )
+=
+default
 ;
 /
 /

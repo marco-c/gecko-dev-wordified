@@ -197,8 +197,9 @@ private
 FileChannelChild
 (
 )
-{
-}
+=
+default
+;
 ;
 void
 AddIPDLReference

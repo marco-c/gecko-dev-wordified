@@ -814,7 +814,7 @@ off
 )
 mReadBuffer
 (
-0
+nullptr
 )
 mReadBufferLen
 (
@@ -1254,7 +1254,7 @@ off
 )
 mWriteBuffer
 (
-0
+nullptr
 )
 mWriteBufferLen
 (

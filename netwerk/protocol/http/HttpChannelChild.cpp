@@ -3977,8 +3977,9 @@ mChannel
 SyntheticDiversionListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

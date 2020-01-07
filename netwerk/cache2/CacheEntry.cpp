@@ -10866,15 +10866,6 @@ aEntry
 )
 {
 }
-CacheOutputCloseListener
-:
-:
-~
-CacheOutputCloseListener
-(
-)
-{
-}
 void
 CacheOutputCloseListener
 :

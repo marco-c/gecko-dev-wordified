@@ -235,8 +235,9 @@ NS_DECL_THREADSAFE_ISUPPORTS
 HpackStaticTableReporter
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 CollectReports
 (
@@ -298,8 +299,9 @@ MallocSizeOf
 HpackStaticTableReporter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -399,8 +401,9 @@ MallocSizeOf
 HpackDynamicTableReporter
 (
 )
-{
-}
+=
+default
+;
 Http2BaseCompressor
 *
 mCompressor

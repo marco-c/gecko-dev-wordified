@@ -7235,7 +7235,7 @@ MarkAsForeign
 ;
 mOfflineForeignMarker
 =
-0
+nullptr
 ;
 }
 return

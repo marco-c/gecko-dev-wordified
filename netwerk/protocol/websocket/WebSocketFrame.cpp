@@ -262,15 +262,6 @@ PR_Now
 )
 ;
 }
-WebSocketFrame
-:
-:
-~
-WebSocketFrame
-(
-)
-{
-}
 #
 define
 WSF_GETTER

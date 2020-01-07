@@ -583,8 +583,9 @@ virtual
 nsBufferedInputStream
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Fill
 (

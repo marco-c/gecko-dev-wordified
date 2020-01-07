@@ -182,6 +182,8 @@ protected
 nsIncrementalStreamLoader
 (
 )
+=
+default
 ;
 static
 nsresult

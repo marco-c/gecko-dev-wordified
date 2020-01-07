@@ -232,15 +232,6 @@ aThread
 )
 {
 }
-nsShutdownThread
-:
-:
-~
-nsShutdownThread
-(
-)
-{
-}
 nsresult
 nsShutdownThread
 :

@@ -412,6 +412,8 @@ virtual
 nsSecCheckWrapChannelBase
 (
 )
+=
+default
 ;
 nsCOMPtr
 <
@@ -588,6 +590,8 @@ virtual
 nsSecCheckWrapChannel
 (
 )
+=
+default
 ;
 nsCOMPtr
 <

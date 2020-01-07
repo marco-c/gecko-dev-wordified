@@ -213,15 +213,6 @@ only
 )
 ;
 }
-AltDataOutputStreamChild
-:
-:
-~
-AltDataOutputStreamChild
-(
-)
-{
-}
 void
 AltDataOutputStreamChild
 :

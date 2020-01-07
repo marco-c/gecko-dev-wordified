@@ -331,6 +331,8 @@ virtual
 InterceptedChannelBase
 (
 )
+=
+default
 ;
 public
 :

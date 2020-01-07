@@ -1282,8 +1282,9 @@ virtual
 nsDiskCacheDeviceInfo
 (
 )
-{
-}
+=
+default
+;
 nsDiskCacheDevice
 *
 mDevice
@@ -3408,8 +3409,10 @@ hashNumber
 if
 (
 binding
-&
-&
+)
+{
+if
+(
 !
 binding
 -
@@ -3438,12 +3441,8 @@ return
 nullptr
 ;
 }
-else
 if
 (
-binding
-&
-&
 binding
 -
 >
@@ -3551,6 +3550,7 @@ bindings
 to
 doomed
 entries
+}
 }
 binding
 =
@@ -6406,7 +6406,6 @@ mCacheCapacity
 8
 )
 ;
-else
 return
 entrySize
 >

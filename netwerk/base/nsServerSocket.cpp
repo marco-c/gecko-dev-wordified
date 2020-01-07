@@ -2885,8 +2885,9 @@ nsIServerSocketListener
 ServerSocketListenerProxy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

@@ -234,6 +234,8 @@ virtual
 nsSimpleURI
 (
 )
+=
+default
 ;
 public
 :
@@ -867,8 +869,9 @@ explicit
 Mutator
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -876,8 +879,9 @@ virtual
 Mutator
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 nsSimpleURI

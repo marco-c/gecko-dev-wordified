@@ -95,6 +95,8 @@ private
 nsUDPSocketProvider
 (
 )
+=
+default
 ;
 }
 ;

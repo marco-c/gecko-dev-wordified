@@ -404,6 +404,8 @@ aContext
 ResolveReplyRunnable
 (
 )
+=
+default
 ;
 NS_IMETHOD
 Run
@@ -530,6 +532,8 @@ aContext
 GetAddrInfoReplyRunnable
 (
 )
+=
+default
 ;
 NS_IMETHOD
 Run

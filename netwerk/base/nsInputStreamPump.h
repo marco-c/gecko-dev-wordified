@@ -169,6 +169,8 @@ nsIThreadRetargetableRequest
 nsInputStreamPump
 (
 )
+=
+default
 ;
 public
 :

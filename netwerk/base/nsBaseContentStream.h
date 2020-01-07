@@ -670,8 +670,9 @@ virtual
 nsBaseContentStream
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

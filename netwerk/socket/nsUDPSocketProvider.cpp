@@ -81,15 +81,6 @@ NS_IMPL_ISUPPORTS
 nsUDPSocketProvider
 nsISocketProvider
 )
-nsUDPSocketProvider
-:
-:
-~
-nsUDPSocketProvider
-(
-)
-{
-}
 NS_IMETHODIMP
 nsUDPSocketProvider
 :

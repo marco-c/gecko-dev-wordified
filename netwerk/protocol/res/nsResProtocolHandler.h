@@ -375,8 +375,9 @@ virtual
 nsResProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 bool
 ResolveSpecialCases

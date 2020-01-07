@@ -168,8 +168,9 @@ nsISerializationHelper
 nsSerializationHelper
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISERIALIZATIONHELPER
 }

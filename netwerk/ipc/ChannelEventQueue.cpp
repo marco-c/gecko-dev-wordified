@@ -876,8 +876,9 @@ virtual
 CompleteResumeRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ChannelEventQueue

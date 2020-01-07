@@ -156,15 +156,6 @@ FileChannelParent
 nsIParentChannel
 nsIStreamListener
 )
-FileChannelParent
-:
-:
-~
-FileChannelParent
-(
-)
-{
-}
 bool
 FileChannelParent
 :

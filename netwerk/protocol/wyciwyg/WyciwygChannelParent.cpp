@@ -197,15 +197,6 @@ false
 )
 {
 }
-WyciwygChannelParent
-:
-:
-~
-WyciwygChannelParent
-(
-)
-{
-}
 void
 WyciwygChannelParent
 :

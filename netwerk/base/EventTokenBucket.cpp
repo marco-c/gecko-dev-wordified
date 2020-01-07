@@ -320,8 +320,9 @@ virtual
 TokenBucketCancelable
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 EventTokenBucket

@@ -89,8 +89,9 @@ virtual
 nsAuthInformationHolder
 (
 )
-{
-}
+=
+default
+;
 public
 :
 /
