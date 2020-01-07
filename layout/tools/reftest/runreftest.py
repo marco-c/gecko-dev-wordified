@@ -5818,6 +5818,25 @@ runner
 .
 process_handler
         
+outputHandler
+.
+proc_name
+=
+'
+GECKO
+(
+{
+}
+)
+'
+.
+format
+(
+proc
+.
+pid
+)
+        
 #
 Used
 to
@@ -6051,6 +6070,12 @@ wait
 runner
 .
 process_handler
+=
+None
+        
+outputHandler
+.
+proc_name
 =
 None
         
