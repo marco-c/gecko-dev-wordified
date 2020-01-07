@@ -561,12 +561,6 @@ mAxisMoveState
 3
 ]
 ;
-float
-mAxisMove
-[
-3
-]
-;
 dom
 :
 :

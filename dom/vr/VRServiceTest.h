@@ -266,6 +266,8 @@ aIsMounted
 {
 mDisplayInfo
 .
+mDisplayState
+.
 mIsMounted
 =
 aIsMounted
