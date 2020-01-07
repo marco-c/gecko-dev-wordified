@@ -8,7 +8,9 @@ skip
 if
 (
 !
-release_or_beta
+xulRuntime
+.
+shell
 )
 /
 *
@@ -80,6 +82,12 @@ fencepost
 test
 "
 ;
+enableExpressionClosures
+(
+)
+;
+eval
+(
 function
 f
 (
@@ -131,6 +139,8 @@ f
 1
 )
 (
+)
+;
 )
 ;
 reportCompare

@@ -10124,15 +10124,10 @@ Legacy
 /
 Expression
 closures
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 test
 (
 "
@@ -10180,7 +10175,6 @@ function
 "
 )
 ;
-}
 /
 /
 =

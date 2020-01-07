@@ -8,7 +8,9 @@ skip
 if
 (
 !
-release_or_beta
+xulRuntime
+.
+shell
 )
 /
 *
@@ -380,6 +382,10 @@ BUGNUMBER
 printStatus
 (
 summary
+)
+;
+enableExpressionClosures
+(
 )
 ;
 expect
