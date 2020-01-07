@@ -50564,7 +50564,9 @@ StyleDisplay
 )
 -
 >
-mSpecifiedTransform
+GetCombinedTransform
+(
+)
 )
 mToTransformOrigin
 (
