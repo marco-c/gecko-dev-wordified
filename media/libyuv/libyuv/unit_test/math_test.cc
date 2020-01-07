@@ -699,7 +699,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -719,7 +719,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -926,7 +926,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -946,7 +946,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1219,7 +1219,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1239,7 +1239,7 @@ MemRandomize
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
