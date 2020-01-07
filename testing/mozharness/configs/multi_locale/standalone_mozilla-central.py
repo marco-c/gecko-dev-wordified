@@ -138,23 +138,6 @@ objdir
 droid
 "
 #
-Set
-this
-to
-mobile
-/
-xul
-for
-XUL
-Fennec
-ANDROID_DIR
-=
-"
-mobile
-/
-android
-"
-#
 Absolute
 path
 to
@@ -251,13 +234,12 @@ locales_dir
 "
 :
 "
-%
-s
+mobile
+/
+android
 /
 locales
 "
-%
-ANDROID_DIR
     
 "
 ignore_locales
@@ -430,6 +412,14 @@ objdir
 add
 -
 locales
+"
+        
+"
+android
+-
+assemble
+-
+app
 "
         
 "
