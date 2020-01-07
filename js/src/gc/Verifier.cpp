@@ -170,6 +170,15 @@ include
 "
 gc
 /
+Iteration
+.
+h
+"
+#
+include
+"
+gc
+/
 Zone
 .
 h
@@ -1302,7 +1311,6 @@ AutoPrepareForTracing
 prep
 (
 cx
-WithAtoms
 )
 ;
 {
@@ -2280,7 +2288,6 @@ rt
 activeContextFromOwnThread
 (
 )
-SkipAtoms
 )
 ;
 bool

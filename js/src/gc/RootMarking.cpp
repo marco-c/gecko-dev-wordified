@@ -229,16 +229,9 @@ h
 #
 include
 "
-jsgcinlines
-.
-h
-"
-#
-include
-"
 gc
 /
-Iteration
+GCIteration
 -
 inl
 .
@@ -2277,7 +2270,6 @@ TlsContext
 get
 (
 )
-WithAtoms
 )
 ;
 gcstats
@@ -3225,7 +3217,6 @@ TlsContext
 get
 (
 )
-WithAtoms
 )
 ;
 gcstats

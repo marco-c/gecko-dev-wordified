@@ -193,14 +193,6 @@ js
 namespace
 gc
 {
-void
-FinishGC
-(
-JSContext
-*
-cx
-)
-;
 /
 *
 *
@@ -379,8 +371,6 @@ AutoPrepareForTracing
 JSContext
 *
 cx
-ZoneSelector
-selector
 )
 ;
 AutoTraceSession

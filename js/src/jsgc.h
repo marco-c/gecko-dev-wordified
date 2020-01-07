@@ -728,6 +728,14 @@ options
 namespace
 gc
 {
+void
+FinishGC
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *

@@ -124,10 +124,19 @@ structures
 /
 #
 ifndef
-gc_Iteration_inl_h
+gc_GCIteration_h
 #
 define
-gc_Iteration_inl_h
+gc_GCIteration_h
+#
+include
+"
+gc
+/
+Iteration
+.
+h
+"
 #
 include
 "
@@ -698,4 +707,4 @@ js
 endif
 /
 /
-gc_Iteration_h
+gc_GCIteration_h
