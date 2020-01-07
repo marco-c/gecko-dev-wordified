@@ -7210,12 +7210,8 @@ IsDocument
 aRoot
 -
 >
-IsNodeOfType
+IsAttr
 (
-nsINode
-:
-:
-eATTRIBUTE
 )
 |
 |

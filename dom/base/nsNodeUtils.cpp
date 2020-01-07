@@ -3998,12 +3998,8 @@ aClone
 aNode
 -
 >
-IsNodeOfType
+IsAttr
 (
-nsINode
-:
-:
-eATTRIBUTE
 )
 )
 )

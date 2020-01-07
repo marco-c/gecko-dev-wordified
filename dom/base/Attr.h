@@ -271,6 +271,13 @@ aValue
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_IMPL_FROMNODE_HELPER
+(
+Attr
+IsAttr
+(
+)
+)
 /
 /
 nsINode
