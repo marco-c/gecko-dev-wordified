@@ -570,11 +570,6 @@ mGenericTypes
 eHyperText
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HyperTextAccessible
-Accessible
-)
 role
 HyperTextAccessible
 :

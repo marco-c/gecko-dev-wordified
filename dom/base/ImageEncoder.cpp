@@ -857,7 +857,11 @@ EncodingRunnable
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+EncodingRunnable
+Runnable
+)
 EncodingRunnable
 (
 const
@@ -1250,12 +1254,6 @@ bool
 mUsingCustomOptions
 ;
 }
-;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-EncodingRunnable
-Runnable
-)
 ;
 StaticRefPtr
 <

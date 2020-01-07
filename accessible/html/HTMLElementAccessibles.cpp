@@ -755,11 +755,6 @@ HTMLLabelAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLLabelAccessible
-HyperTextAccessible
-)
 ENameValueFlag
 HTMLLabelAccessible
 :
@@ -1115,11 +1110,6 @@ nsHTMLOuputAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLOutputAccessible
-HyperTextAccessible
-)
 Relation
 HTMLOutputAccessible
 :
@@ -1871,11 +1861,6 @@ HTMLHeaderOrFooterAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLHeaderOrFooterAccessible
-HyperTextAccessible
-)
 role
 HTMLHeaderOrFooterAccessible
 :

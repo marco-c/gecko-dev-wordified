@@ -146,11 +146,6 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-AppCacheStorage
-CacheStorage
-)
 AppCacheStorage
 :
 :

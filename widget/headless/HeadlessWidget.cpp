@@ -435,11 +435,6 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HeadlessWidget
-nsBaseWidget
-)
 StaticAutoPtr
 <
 nsTArray

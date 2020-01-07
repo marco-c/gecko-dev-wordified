@@ -122,11 +122,6 @@ LayerManager
 namespace
 image
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-FrozenImage
-ImageWrapper
-)
 void
 FrozenImage
 :

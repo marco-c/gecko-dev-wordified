@@ -346,11 +346,6 @@ HTMLOptionElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLOptionElement
-nsGenericHTMLElement
-)
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLOptionElement

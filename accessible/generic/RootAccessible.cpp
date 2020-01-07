@@ -436,10 +436,11 @@ dom
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED0
+NS_IMPL_ISUPPORTS_INHERITED
 (
 RootAccessible
 DocAccessible
+nsIDOMEventListener
 )
 /
 /

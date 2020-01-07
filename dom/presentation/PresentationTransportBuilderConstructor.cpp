@@ -190,11 +190,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-PresentationTransportBuilderConstructor
-DummyPresentationTransportBuilderConstructor
-)
 /
 *
 static

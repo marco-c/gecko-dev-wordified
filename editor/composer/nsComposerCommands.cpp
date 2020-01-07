@@ -546,11 +546,6 @@ nsBaseStateUpdatingCommand
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsBaseStateUpdatingCommand
-nsBaseComposerCommand
-)
 NS_IMETHODIMP
 nsBaseStateUpdatingCommand
 :
@@ -3033,11 +3028,6 @@ nsMultiStateCommand
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsMultiStateCommand
-nsBaseComposerCommand
-)
 NS_IMETHODIMP
 nsMultiStateCommand
 :
@@ -6828,11 +6818,6 @@ outCmdEnabled
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsInsertTagCommand
-nsBaseComposerCommand
-)
 nsInsertTagCommand
 :
 :

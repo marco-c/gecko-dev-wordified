@@ -353,11 +353,6 @@ mStateFlags
 eNoKidsFromDOM
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-LeafAccessible
-Accessible
-)
 /
 /
 /
@@ -716,11 +711,6 @@ LinkableAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-LinkableAccessible
-AccessibleWrap
-)
 /
 /
 /

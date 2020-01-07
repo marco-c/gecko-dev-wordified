@@ -154,11 +154,6 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ChannelMergerNode
-AudioNode
-)
 class
 ChannelMergerNodeEngine
 final

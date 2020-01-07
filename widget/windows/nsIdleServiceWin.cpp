@@ -123,11 +123,6 @@ windows
 .
 h
 >
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsIdleServiceWin
-nsIdleService
-)
 bool
 nsIdleServiceWin
 :

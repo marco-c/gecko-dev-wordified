@@ -198,11 +198,6 @@ mozilla
 :
 Maybe
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsDragServiceProxy
-nsBaseDragService
-)
 nsDragServiceProxy
 :
 :

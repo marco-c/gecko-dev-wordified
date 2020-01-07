@@ -200,11 +200,6 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-FileBlobImpl
-BlobImpl
-)
 FileBlobImpl
 :
 :

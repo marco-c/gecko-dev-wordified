@@ -187,7 +187,11 @@ iframe
 /
 /
 nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLIFrameElement
+nsGenericHTMLFrameElement
+)
 /
 /
 Element

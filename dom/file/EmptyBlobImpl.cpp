@@ -134,11 +134,6 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-EmptyBlobImpl
-BlobImpl
-)
 already_AddRefed
 <
 BlobImpl

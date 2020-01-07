@@ -427,11 +427,6 @@ of
 PresentationRequesterCallback
 *
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-PresentationReconnectCallback
-PresentationRequesterCallback
-)
 PresentationReconnectCallback
 :
 :

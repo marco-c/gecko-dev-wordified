@@ -349,11 +349,6 @@ aDoc
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLLinkAccessible
-HyperTextAccessible
-)
 /
 /
 /

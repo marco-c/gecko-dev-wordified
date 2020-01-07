@@ -261,14 +261,6 @@ aGivenProto
 }
 /
 /
-nsISupports
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLLabelElement
-nsGenericHTMLElement
-)
-/
-/
 nsIDOMHTMLLabelElement
 NS_IMPL_ELEMENT_CLONE
 (

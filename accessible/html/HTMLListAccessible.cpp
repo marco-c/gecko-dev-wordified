@@ -334,11 +334,6 @@ HTMLListAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLListAccessible
-HyperTextAccessible
-)
 role
 HTMLListAccessible
 :
@@ -643,11 +638,6 @@ mBullet
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLLIAccessible
-HyperTextAccessible
-)
 void
 HTMLLIAccessible
 :

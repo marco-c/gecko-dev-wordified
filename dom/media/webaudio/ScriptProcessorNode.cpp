@@ -246,11 +246,6 @@ MAX_LATENCY_S
 .
 5
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ScriptProcessorNode
-AudioNode
-)
 /
 /
 This

@@ -876,11 +876,6 @@ HTMLMenuItemElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLMenuItemElement
-nsGenericHTMLElement
-)
 /
 /
 NS_IMPL_ELEMENT_CLONE

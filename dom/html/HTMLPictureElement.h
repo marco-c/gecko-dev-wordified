@@ -171,7 +171,11 @@ aNodeInfo
 /
 /
 nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLPictureElement
+nsGenericHTMLElement
+)
 virtual
 nsresult
 Clone

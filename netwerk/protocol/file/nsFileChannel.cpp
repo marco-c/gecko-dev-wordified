@@ -1154,7 +1154,11 @@ nsBaseContentStream
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+nsFileUploadContentStream
+nsBaseContentStream
+)
 nsFileUploadContentStream
 (
 bool
@@ -1264,11 +1268,6 @@ mSink
 ;
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsFileUploadContentStream
-nsBaseContentStream
-)
 NS_IMETHODIMP
 nsFileUploadContentStream
 :

@@ -1260,11 +1260,6 @@ return
 mShouldClip
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ClippedImage
-ImageWrapper
-)
 NS_IMETHODIMP
 ClippedImage
 :
