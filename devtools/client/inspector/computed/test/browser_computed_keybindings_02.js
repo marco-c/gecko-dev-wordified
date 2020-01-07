@@ -406,10 +406,6 @@ styleDocument
 querySelector
 (
 "
-#
-computed
--
-container
 .
 computed
 -
