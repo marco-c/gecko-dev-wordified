@@ -157,6 +157,7 @@ def
 find_decision_task
 (
 parameters
+graph_config
 )
 :
     
@@ -185,7 +186,8 @@ return
 find_task_id
 (
 '
-gecko
+{
+}
 .
 v2
 .
@@ -204,6 +206,15 @@ decision
 .
 format
 (
+        
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
         
 parameters
 [
@@ -224,6 +235,7 @@ def
 find_hg_revision_pushlog_id
 (
 parameters
+graph_config
 revision
 )
 :
@@ -252,6 +264,30 @@ revision
 "
 "
     
+repo_param
+=
+'
+{
+}
+head_repository
+'
+.
+format
+(
+graph_config
+[
+'
+project
+-
+repo
+-
+param
+-
+prefix
+'
+]
+)
+    
 pushlog_url
 =
 PUSHLOG_TMPL
@@ -260,9 +296,7 @@ format
 (
 parameters
 [
-'
-head_repository
-'
+repo_param
 ]
 revision
 )
@@ -501,6 +535,7 @@ def
 fetch_graph_and_labels
 (
 parameters
+graph_config
 )
 :
     
@@ -509,6 +544,7 @@ decision_task_id
 find_decision_task
 (
 parameters
+graph_config
 )
     
 #
@@ -594,7 +630,8 @@ ones
 namespace
 =
 '
-gecko
+{
+}
 .
 v2
 .
@@ -613,6 +650,15 @@ actions
 .
 format
 (
+        
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
         
 parameters
 [
