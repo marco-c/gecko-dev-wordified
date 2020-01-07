@@ -324,7 +324,7 @@ nsTArray
 nsIFrame
 *
 >
-*
+&
 aOutFramesWithProps
 )
 ;
