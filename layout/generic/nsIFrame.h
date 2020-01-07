@@ -15173,9 +15173,9 @@ constants
 are
 defined
 in
-nsIDOMMutationEvent
+MutationEvent
 .
-h
+webidl
 .
 *
 /

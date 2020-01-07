@@ -549,13 +549,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ContentEvents

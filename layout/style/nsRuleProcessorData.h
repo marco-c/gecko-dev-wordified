@@ -3777,7 +3777,9 @@ of
 modification
 (
 see
-nsIDOMMutationEvent
+MutationEvent
+.
+webidl
 )
 .
 bool

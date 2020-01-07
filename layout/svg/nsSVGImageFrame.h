@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 nsIImageLoadingContent
 .
 h

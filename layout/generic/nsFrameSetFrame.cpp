@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

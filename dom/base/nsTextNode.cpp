@@ -174,13 +174,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

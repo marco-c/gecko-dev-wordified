@@ -1090,9 +1090,9 @@ are
 defined
 in
 *
-nsIDOMMutationEvent
+MutationEvent
 .
-h
+webidl
 .
 *
 param
@@ -1279,9 +1279,9 @@ are
 defined
 in
 *
-nsIDOMMutationEvent
+MutationEvent
 .
-h
+webidl
 .
 *
 param
