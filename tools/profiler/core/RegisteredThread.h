@@ -1438,8 +1438,6 @@ set
 void
 StartJSSampling
 (
-bool
-aTrackOptimizations
 )
 {
 /
@@ -1472,10 +1470,6 @@ INACTIVE_REQUESTED
 mJSSampling
 =
 ACTIVE_REQUESTED
-;
-mJSTrackOptimizations
-=
-aTrackOptimizations
 ;
 }
 /
@@ -1678,13 +1672,6 @@ EnableContextProfilingStack
 (
 mContext
 true
-)
-;
-JS_SetGlobalJitCompilerOption
-(
-mContext
-JSJITCOMPILER_TRACK_OPTIMIZATIONS
-mJSTrackOptimizations
 )
 ;
 js
@@ -2185,9 +2172,6 @@ INACTIVE_REQUESTED
 3
 }
 mJSSampling
-;
-bool
-mJSTrackOptimizations
 ;
 }
 ;
