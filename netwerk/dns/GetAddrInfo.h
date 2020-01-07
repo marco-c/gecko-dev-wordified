@@ -333,9 +333,11 @@ const
 char
 *
 aNetworkInterface
+UniquePtr
+<
 AddrInfo
-*
-*
+>
+&
 aAddrInfo
 bool
 aGetTtl
