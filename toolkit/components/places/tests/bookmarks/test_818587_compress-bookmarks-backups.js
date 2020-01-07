@@ -474,7 +474,11 @@ BookmarkJSONUtils
 importFromFile
 (
 recentBackup
+{
+replace
+:
 true
+}
 )
 ;
 let

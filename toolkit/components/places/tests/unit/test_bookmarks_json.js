@@ -930,7 +930,11 @@ BookmarkJSONUtils
 importFromFile
 (
 bookmarksFile
+{
+replace
+:
 true
+}
 )
 ;
 await
@@ -1021,7 +1025,11 @@ BookmarkJSONUtils
 importFromFile
 (
 bookmarksExportedFile
+{
+replace
+:
 true
+}
 )
 ;
 await
@@ -1062,7 +1070,11 @@ BookmarkJSONUtils
 importFromFile
 (
 bookmarksExportedFile
+{
+replace
+:
 true
+}
 )
 ;
 await
@@ -1093,7 +1105,11 @@ BookmarkJSONUtils
 importFromFile
 (
 bookmarksExportedFile
+{
+replace
+:
 true
+}
 )
 ;
 await

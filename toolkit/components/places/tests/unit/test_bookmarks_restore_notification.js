@@ -1080,7 +1080,11 @@ BookmarkJSONUtils
 importFromFile
 (
 file
+{
+replace
+:
 true
+}
 )
 ;
 }
@@ -1183,7 +1187,11 @@ BookmarkJSONUtils
 importFromFile
 (
 file
+{
+replace
+:
 true
+}
 )
 ;
 }
@@ -1310,7 +1318,11 @@ importFromFile
 file
 .
 path
+{
+replace
+:
 true
+}
 )
 /
 Cannot
@@ -1435,7 +1447,6 @@ BookmarkHTMLUtils
 importFromFile
 (
 file
-false
 )
 .
 catch
@@ -1542,7 +1553,6 @@ BookmarkHTMLUtils
 importFromFile
 (
 file
-false
 )
 .
 catch
@@ -1672,7 +1682,6 @@ importFromFile
 file
 .
 path
-false
 )
 /
 Cannot
@@ -1800,7 +1809,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 file
+{
+replace
+:
 true
+}
 )
 .
 catch
@@ -1908,7 +1921,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 file
+{
+replace
+:
 true
+}
 )
 .
 catch
@@ -2039,7 +2056,11 @@ importFromFile
 file
 .
 path
+{
+replace
+:
 true
+}
 )
 /
 Cannot

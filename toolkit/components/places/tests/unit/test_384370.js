@@ -337,7 +337,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 htmlFile
+{
+replace
+:
 true
+}
 )
 ;
 /
@@ -505,7 +509,11 @@ BookmarkJSONUtils
 importFromFile
 (
 jsonFile
+{
+replace
+:
 true
+}
 )
 ;
 info

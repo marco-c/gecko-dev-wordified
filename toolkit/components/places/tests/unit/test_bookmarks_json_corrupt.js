@@ -120,7 +120,11 @@ BookmarkJSONUtils
 importFromFile
 (
 bookmarksFile
+{
+replace
+:
 true
+}
 )
 ;
 await

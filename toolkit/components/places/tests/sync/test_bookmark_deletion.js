@@ -3687,7 +3687,7 @@ bookmarks
 .
 SOURCES
 .
-IMPORT_REPLACE
+RESTORE
 }
 )
 ;

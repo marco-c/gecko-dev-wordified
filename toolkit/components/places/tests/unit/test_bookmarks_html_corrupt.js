@@ -147,7 +147,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 corruptHtml
+{
+replace
+:
 true
+}
 )
 ;
 /
@@ -362,7 +366,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 bookmarksFile
+{
+replace
+:
 true
+}
 )
 ;
 await

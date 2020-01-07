@@ -164,7 +164,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 bookmarksFile
+{
+replace
+:
 true
+}
 )
 ;
 let
