@@ -1631,6 +1631,7 @@ rc
 SQLITE_BUSY
 )
 {
+{
 /
 /
 Don
@@ -1666,6 +1667,14 @@ void
 PR_Sleep
 (
 PR_INTERVAL_NO_WAIT
+)
+;
+}
+:
+:
+sqlite3_reset
+(
+aStatement
 )
 ;
 continue
