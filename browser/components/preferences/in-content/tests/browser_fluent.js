@@ -257,7 +257,7 @@ msg
 value
 :
 null
-attributes
+attrs
 :
 [
 {
