@@ -116,8 +116,16 @@ class
 JSONObject
 extends
 HashMap
+<
+String
+Object
+>
 implements
 Map
+<
+String
+Object
+>
 JSONAware
 JSONStreamAware
 {

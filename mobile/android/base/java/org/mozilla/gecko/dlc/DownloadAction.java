@@ -802,6 +802,10 @@ content
 getType
 (
 )
+.
+toString
+(
+)
 )
 ;
 temporaryFile

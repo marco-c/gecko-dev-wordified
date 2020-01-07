@@ -1357,9 +1357,6 @@ get
 (
 key
 )
-(
-Integer
-)
 actual
 .
 getIntegerSafely

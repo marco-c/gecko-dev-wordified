@@ -718,6 +718,10 @@ content
 getKind
 (
 )
+.
+toString
+(
+)
 )
 ;
 }
