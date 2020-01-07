@@ -163,3 +163,9 @@ VIEW_NODE_VARIABLE_TYPE
 =
 7
 ;
+exports
+.
+VIEW_NODE_FONT_TYPE
+=
+8
+;
