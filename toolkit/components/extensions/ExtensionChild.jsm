@@ -2620,13 +2620,7 @@ Promise
 .
 reject
 (
-{
-message
-:
 error
-.
-message
-}
 )
 ;
 }

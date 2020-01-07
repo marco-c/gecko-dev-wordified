@@ -6190,6 +6190,9 @@ stack
 "
 result
 "
+"
+mozWebExtLocation
+"
 ]
 )
 {
