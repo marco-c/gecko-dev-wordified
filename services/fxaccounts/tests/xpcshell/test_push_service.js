@@ -42,6 +42,16 @@ FxA
 push
 service
 .
+/
+*
+eslint
+-
+disable
+no
+-
+shadow
+*
+/
 ChromeUtils
 .
 import

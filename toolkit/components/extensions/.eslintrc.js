@@ -720,6 +720,14 @@ vars
 "
 all
 "
+"
+varsIgnorePattern
+"
+:
+"
+^
+console
+"
 }
 ]
 /
