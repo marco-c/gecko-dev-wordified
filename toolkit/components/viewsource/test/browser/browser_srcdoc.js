@@ -145,6 +145,12 @@ sourceTab
 }
 )
 ;
+await
+waitForSourceLoaded
+(
+sourceTab
+)
+;
 let
 browser
 =

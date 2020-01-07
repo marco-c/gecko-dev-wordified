@@ -216,7 +216,6 @@ waitForNewTab
 (
 gBrowser
 openedUriString
-true
 )
 ;
 await
@@ -275,6 +274,14 @@ openedBrowser
 openedTab
 .
 linkedBrowser
+;
+await
+BrowserTestUtils
+.
+browserLoaded
+(
+openedBrowser
+)
 ;
 /
 /
