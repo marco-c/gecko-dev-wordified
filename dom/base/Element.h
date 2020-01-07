@@ -476,7 +476,7 @@ class
 nsGlobalWindowOuter
 ;
 class
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 ;
 class
 nsISMILAttr
@@ -2314,7 +2314,7 @@ nsStyledElement
 .
 *
 /
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 GetSMILOverrideStyle
 (

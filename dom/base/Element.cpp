@@ -13004,7 +13004,7 @@ ClearServoRestyleRoot
 ;
 }
 }
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 Element
 :

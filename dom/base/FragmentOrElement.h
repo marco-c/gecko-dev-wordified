@@ -283,6 +283,9 @@ class
 nsICSSDeclaration
 ;
 class
+nsDOMCSSAttributeDeclaration
+;
+class
 nsIDocument
 ;
 class
@@ -1333,9 +1336,9 @@ Element
 GetSMILOverrideStyle
 *
 /
-nsCOMPtr
+RefPtr
 <
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 >
 mSMILOverrideStyle
 ;

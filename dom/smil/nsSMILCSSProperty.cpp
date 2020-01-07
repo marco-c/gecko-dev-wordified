@@ -177,7 +177,7 @@ h
 #
 include
 "
-nsICSSDeclaration
+nsDOMCSSAttrDeclaration
 .
 h
 "
@@ -834,7 +834,7 @@ style
 the
 target
 element
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 overrideDecl
 =
@@ -883,6 +883,7 @@ SetPropertyValue
 (
 mPropID
 valStr
+nullptr
 )
 ;
 }
@@ -909,7 +910,7 @@ style
 for
 our
 property
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 overrideDecl
 =
@@ -934,6 +935,7 @@ mPropID
 EmptyString
 (
 )
+nullptr
 )
 ;
 }
