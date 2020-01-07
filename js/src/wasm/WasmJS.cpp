@@ -8071,7 +8071,7 @@ code
 (
 )
 .
-lookupFuncIndex
+getFuncIndex
 (
 fun
 )
