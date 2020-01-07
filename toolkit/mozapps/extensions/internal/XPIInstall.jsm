@@ -1332,6 +1332,11 @@ file
 8
 =
 locale
+/
+/
+256
+=
+apiextension
 const
 TYPES
 =
@@ -1348,9 +1353,6 @@ dictionary
 experiment
 :
 128
-apiextension
-:
-256
 }
 ;
 const
@@ -1372,9 +1374,6 @@ new
 Set
 (
 [
-"
-apiextension
-"
 "
 dictionary
 "
