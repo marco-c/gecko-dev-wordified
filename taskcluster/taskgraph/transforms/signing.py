@@ -894,6 +894,16 @@ setdefault
 tier
 '
 1
+if
+'
+-
+ccov
+'
+not
+in
+build_platform
+else
+2
 )
         
 treeherder
@@ -1229,11 +1239,6 @@ build_type
 )
 :
     
-actual_build_type
-=
-'
-pgo
-'
 if
 '
 -
@@ -1241,7 +1246,34 @@ pgo
 '
 in
 build_platform
+:
+        
+actual_build_type
+=
+'
+pgo
+'
+    
+elif
+'
+-
+ccov
+'
+in
+build_platform
+:
+        
+actual_build_type
+=
+'
+ccov
+'
+    
 else
+:
+        
+actual_build_type
+=
 build_type
     
 return

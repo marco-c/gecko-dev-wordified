@@ -169,6 +169,16 @@ opt
 '
     
 '
+build
+-
+win64
+-
+ccov
+/
+debug
+'
+    
+'
 release
 -
 source
