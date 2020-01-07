@@ -13646,6 +13646,7 @@ as_ptr
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -13685,8 +13686,6 @@ Ident
 (
 CustomIdent
 (
-unsafe
-{
 Atom
 :
 :
@@ -13694,7 +13693,6 @@ from_addrefed
 (
 name
 )
-}
 )
 )
 ;
@@ -14681,6 +14679,7 @@ unwrap
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -14755,7 +14754,7 @@ atom
 Atom
 :
 :
-from
+from_raw
 (
 pseudo_tag
 )
@@ -16676,6 +16675,7 @@ build
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -16740,7 +16740,7 @@ atom
 Atom
 :
 :
-from
+from_raw
 (
 pseudo_tag
 )
@@ -21108,6 +21108,7 @@ property
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -21184,7 +21185,7 @@ Lang
 Atom
 :
 :
-from
+from_raw
 (
 value
 )
@@ -27359,6 +27360,7 @@ to_nscsspropertyid
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -27426,7 +27428,7 @@ name
 Atom
 :
 :
-from
+from_raw
 (
 name
 )
@@ -27681,8 +27683,6 @@ array
 let
 keyframe
 =
-unsafe
-{
 Gecko_GetOrCreateKeyframeAtStart
 (
 keyframes
@@ -27696,7 +27696,6 @@ f32
 &
 timing_function
 )
-}
 ;
 match
 step
@@ -27778,8 +27777,6 @@ iter
 (
 )
 {
-unsafe
-{
 Gecko_AppendPropertyValuePair
 (
 &
@@ -27797,7 +27794,6 @@ to_nscsspropertyid
 )
 )
 ;
-}
 }
 if
 current_offset
@@ -28012,8 +28008,6 @@ continue
 let
 pair
 =
-unsafe
-{
 Gecko_AppendPropertyValuePair
 (
 &
@@ -28030,10 +28024,7 @@ to_nscsspropertyid
 (
 )
 )
-}
 ;
-unsafe
-{
 (
 *
 pair
@@ -28073,7 +28064,6 @@ Normal
 )
 )
 ;
-}
 if
 current_offset
 =
@@ -28125,8 +28115,6 @@ any_normal
 let
 pair
 =
-unsafe
-{
 Gecko_AppendPropertyValuePair
 (
 &
@@ -28142,10 +28130,7 @@ nsCSSPropertyID
 :
 eCSSPropertyExtra_variable
 )
-}
 ;
-unsafe
-{
 (
 *
 pair
@@ -28171,7 +28156,6 @@ custom_properties
 )
 )
 ;
-}
 }
 }
 }
@@ -29291,6 +29275,7 @@ state
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -29343,8 +29328,6 @@ false
 let
 name
 =
-unsafe
-{
 Atom
 :
 :
@@ -29354,7 +29337,6 @@ from
 *
 name
 )
-}
 ;
 let
 computed_value
@@ -29393,18 +29375,10 @@ CssWriter
 :
 new
 (
-unsafe
-{
+&
+mut
+*
 value
-.
-as_mut
-(
-)
-.
-unwrap
-(
-)
-}
 )
 )
 .
