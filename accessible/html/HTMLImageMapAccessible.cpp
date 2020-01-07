@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

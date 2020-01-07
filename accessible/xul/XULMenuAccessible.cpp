@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

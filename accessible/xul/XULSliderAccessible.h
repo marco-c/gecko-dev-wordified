@@ -106,13 +106,6 @@ AccessibleWrap
 .
 h
 "
-#
-include
-"
-nsIDOMElement
-.
-h
-"
 namespace
 mozilla
 {
