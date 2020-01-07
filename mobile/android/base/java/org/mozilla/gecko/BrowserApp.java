@@ -22731,7 +22731,7 @@ Override
 /
 GeckoView
 .
-ContentDelegate
+ContentListener
 public
 void
 onFullScreen

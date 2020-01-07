@@ -655,7 +655,7 @@ builder
 }
 public
 void
-onAlert
+alert
 (
 final
 GeckoSession
@@ -758,7 +758,7 @@ show
 }
 public
 void
-onButtonPrompt
+promptForButton
 (
 final
 GeckoSession
@@ -1274,7 +1274,7 @@ dialog
 }
 public
 void
-onTextPrompt
+promptForText
 (
 final
 GeckoSession
@@ -1454,7 +1454,7 @@ show
 }
 public
 void
-onAuthPrompt
+promptForAuth
 (
 final
 GeckoSession
@@ -1466,7 +1466,7 @@ final
 String
 msg
 final
-AuthOptions
+AuthenticationOptions
 options
 final
 AuthCallback
@@ -1546,7 +1546,7 @@ if
 (
 flags
 &
-AuthOptions
+AuthenticationOptions
 .
 AUTH_FLAG_ONLY_PASSWORD
 )
@@ -1661,7 +1661,7 @@ if
 level
 !
 =
-AuthOptions
+AuthenticationOptions
 .
 AUTH_LEVEL_NONE
 )
@@ -1754,7 +1754,7 @@ if
 (
 flags
 &
-AuthOptions
+AuthenticationOptions
 .
 AUTH_FLAG_ONLY_PASSWORD
 )
@@ -1992,7 +1992,7 @@ newIndent
 }
 public
 void
-onChoicePrompt
+promptForChoice
 (
 final
 GeckoSession
@@ -3192,7 +3192,7 @@ def
 }
 public
 void
-onColorPrompt
+promptForColor
 (
 final
 GeckoSession
@@ -3907,7 +3907,7 @@ getCurrentMinute
 }
 public
 void
-onDateTimePrompt
+promptForDateTime
 (
 final
 GeckoSession
@@ -4783,7 +4783,7 @@ TargetApi
 )
 public
 void
-onFilePrompt
+promptForFile
 (
 GeckoSession
 session
@@ -5404,7 +5404,7 @@ size
 }
 public
 void
-onPermissionPrompt
+promptForPermission
 (
 final
 GeckoSession
@@ -5777,7 +5777,7 @@ spinner
 }
 public
 void
-onMediaPrompt
+promptForMedia
 (
 final
 GeckoSession

@@ -442,12 +442,12 @@ getPath
 ;
 mSession
 .
-setProgressDelegate
+setProgressListener
 (
 new
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 (
 )
 {
@@ -505,7 +505,7 @@ success
 ;
 mSession
 .
-setProgressDelegate
+setProgressListener
 (
 null
 )
