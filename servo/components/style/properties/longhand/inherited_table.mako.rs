@@ -289,9 +289,7 @@ BorderSpacing
 "
 boxed
 =
-"
 True
-"
 spec
 =
 "

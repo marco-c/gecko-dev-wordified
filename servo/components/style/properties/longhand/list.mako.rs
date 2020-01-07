@@ -462,9 +462,7 @@ discrete
 "
 boxed
 =
-"
 True
-"
 spec
 =
 "
@@ -667,9 +665,7 @@ gecko
 "
 boxed
 =
-"
 True
-"
 spec
 =
 "

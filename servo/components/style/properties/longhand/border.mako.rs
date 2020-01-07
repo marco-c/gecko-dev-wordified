@@ -1699,9 +1699,7 @@ APPLIES_TO_FIRST_LETTER
 "
 boxed
 =
-"
 True
-"
 )
 }
 {
