@@ -448,6 +448,12 @@ GetBackendPrefs
 )
 override
 ;
+bool
+CheckVariationFontSupport
+(
+)
+override
+;
 private
 :
 virtual

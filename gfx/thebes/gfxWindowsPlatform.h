@@ -1204,6 +1204,12 @@ GetBackendPrefs
 )
 override
 ;
+bool
+CheckVariationFontSupport
+(
+)
+override
+;
 protected
 :
 RenderMode
@@ -1333,6 +1339,9 @@ nsTArray
 D3D_FEATURE_LEVEL
 >
 mFeatureLevels
+;
+bool
+mUsingDirectWrite
 ;
 }
 ;
