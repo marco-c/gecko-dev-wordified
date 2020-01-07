@@ -3085,6 +3085,15 @@ source_dir
 extra
 "
     
+lld_source_dir
+=
+source_dir
++
+"
+/
+lld
+"
+    
 compiler_rt_source_dir
 =
 source_dir
@@ -3339,6 +3348,17 @@ get
 (
 "
 extra_repo
+"
+)
+    
+lld_repo
+=
+config
+.
+get
+(
+"
+lld_repo
 "
 )
     
@@ -3994,6 +4014,16 @@ libcxx_source_dir
 )
     
 if
+lld_repo
+:
+        
+checkout_or_update
+(
+lld_repo
+lld_source_dir
+)
+    
+if
 libcxxabi_repo
 :
         
@@ -4064,6 +4094,19 @@ clang
 tools
 /
 extra
+"
+)
+                
+(
+lld_source_dir
+                 
+llvm_source_dir
++
+"
+/
+tools
+/
+lld
 "
 )
                 
