@@ -521,14 +521,6 @@ aBroadcastToOTherProcesses
 true
 )
 ;
-/
-/
-This
-is
-for
-IPC
-only
-.
 static
 void
 RemoveDataEntries

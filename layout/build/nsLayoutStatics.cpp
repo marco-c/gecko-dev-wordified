@@ -957,6 +957,13 @@ PointerEventHandler
 .
 h
 "
+#
+include
+"
+nsHostObjectProtocolHandler
+.
+h
+"
 using
 namespace
 mozilla
@@ -2440,6 +2447,13 @@ PromiseDebugging
 :
 :
 Shutdown
+(
+)
+;
+nsHostObjectProtocolHandler
+:
+:
+RemoveDataEntries
 (
 )
 ;
