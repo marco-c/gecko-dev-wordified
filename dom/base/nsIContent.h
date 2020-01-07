@@ -1871,6 +1871,7 @@ chrome
 document
 *
 /
+inline
 bool
 IsInChromeDocument
 (
