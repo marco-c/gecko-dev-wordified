@@ -132,6 +132,17 @@ nsEscape
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Performance
+.
+h
+"
 namespace
 mozilla
 {

@@ -20663,10 +20663,6 @@ bool
 &
 aActive
 const
-bool
-&
-aHSTSPriming
-const
 OriginAttributes
 &
 aOriginAttributes
@@ -20703,7 +20699,6 @@ AccumulateMixedContentHSTS
 (
 ourURI
 aActive
-aHSTSPriming
 aOriginAttributes
 )
 ;

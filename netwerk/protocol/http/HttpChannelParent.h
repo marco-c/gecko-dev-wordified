@@ -1008,14 +1008,6 @@ aCorsPreflightArgs
 const
 bool
 &
-aForceHSTSPriming
-const
-bool
-&
-aMixedContentWouldBlock
-const
-bool
-&
 aChooseAppcache
 )
 override
