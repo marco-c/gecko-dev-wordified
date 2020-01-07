@@ -296,9 +296,7 @@ system
 )
 ;
 const
-{
 ZoomKeys
-}
 =
 require
 (
