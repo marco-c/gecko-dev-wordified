@@ -751,7 +751,7 @@ GetAuthorStyleDisabled
 const
 ;
 inline
-nsresult
+void
 SetAuthorStyleDisabled
 (
 bool

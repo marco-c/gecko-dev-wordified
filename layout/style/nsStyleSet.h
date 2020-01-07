@@ -3063,8 +3063,12 @@ GetAuthorStyleDisabled
 (
 )
 const
+{
+return
+mAuthorStyleDisabled
 ;
-nsresult
+}
+void
 SetAuthorStyleDisabled
 (
 bool
@@ -3735,7 +3739,7 @@ style
 sheet
 list
 .
-nsresult
+void
 GatherRuleProcessors
 (
 mozilla

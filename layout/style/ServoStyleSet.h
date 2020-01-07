@@ -1019,8 +1019,12 @@ GetAuthorStyleDisabled
 (
 )
 const
+{
+return
+mAuthorStyleDisabled
 ;
-nsresult
+}
+void
 SetAuthorStyleDisabled
 (
 bool
