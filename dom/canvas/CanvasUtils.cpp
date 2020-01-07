@@ -297,8 +297,6 @@ define
 PERMISSION_CANVAS_EXTRACT_DATA
 "
 canvas
-/
-extractData
 "
 using
 namespace

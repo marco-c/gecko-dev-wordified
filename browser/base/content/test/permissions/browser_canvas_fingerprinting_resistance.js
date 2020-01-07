@@ -85,8 +85,6 @@ kPermission
 =
 "
 canvas
-/
-extractData
 "
 ;
 function
