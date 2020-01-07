@@ -514,6 +514,7 @@ Clone
 Copy
 Debug
 PartialEq
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
