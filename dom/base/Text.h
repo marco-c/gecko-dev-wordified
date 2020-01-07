@@ -123,7 +123,11 @@ mozilla_dom_Text_h
 #
 include
 "
-nsGenericDOMDataNode
+mozilla
+/
+dom
+/
+CharacterData
 .
 h
 "
