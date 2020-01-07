@@ -379,7 +379,13 @@ this
 )
 ;
 return
-NS_OK
+mFixedPrefixSet
+-
+>
+Init
+(
+aName
+)
 ;
 }
 VariableLengthPrefixSet

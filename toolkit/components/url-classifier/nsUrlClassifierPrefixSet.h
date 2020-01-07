@@ -400,6 +400,11 @@ PREFIXSET_VERSION_MAGIC
 =
 1
 ;
+void
+Clear
+(
+)
+;
 nsresult
 MakePrefixSet
 (
@@ -619,6 +624,9 @@ have
 .
 uint32_t
 mTotalPrefixes
+;
+nsCString
+mName
 ;
 nsCString
 mMemoryReportPath
