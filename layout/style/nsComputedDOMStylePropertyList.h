@@ -1566,11 +1566,6 @@ ShapeImageThreshold
 )
 COMPUTED_STYLE_PROP
 (
-shape_margin
-ShapeMargin
-)
-COMPUTED_STYLE_PROP
-(
 shape_outside
 ShapeOutside
 )
