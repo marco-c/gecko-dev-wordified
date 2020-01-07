@@ -879,6 +879,7 @@ Expected
 to
 be
 overridden
+async
 syncedByClient
 (
 item
@@ -1299,6 +1300,7 @@ record
 .
 shouldSync
 =
+await
 this
 .
 syncedByClient

@@ -458,6 +458,8 @@ clusterURL
 &
 &
 !
+(
+await
 this
 .
 service
@@ -466,6 +468,7 @@ _clusterManager
 .
 setCluster
 (
+)
 )
 )
 {
