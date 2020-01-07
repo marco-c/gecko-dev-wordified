@@ -301,9 +301,9 @@ updated
 from
 upstream
 .
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 FINAL_LIBRARY
 =
 '
@@ -320,6 +320,14 @@ skia
 include
 /
 c
+'
+    
+'
+skia
+/
+include
+/
+codec
 '
     
 '
@@ -344,6 +352,14 @@ skia
 include
 /
 effects
+'
+    
+'
+skia
+/
+include
+/
+encode
 '
     
 '
@@ -487,6 +503,14 @@ skia
 /
 src
 /
+shaders
+'
+    
+'
+skia
+/
+src
+/
 sksl
 '
     
@@ -553,7 +577,7 @@ SK_JUMPER_USE_ASSEMBLY
 '
 ]
 =
-False
+0
     
 elif
 CONFIG
@@ -642,6 +666,40 @@ cpp
 '
     
 ]
+elif
+CONFIG
+[
+'
+MOZ_WIDGET_TOOLKIT
+'
+]
+in
+(
+'
+cocoa
+'
+'
+uikit
+'
+)
+:
+    
+#
+Workaround
+for
+buggy
+macOS
+drivers
+.
+    
+DEFINES
+[
+'
+SK_DISABLE_EXPLICIT_GPU_RESOURCE_ALLOCATION
+'
+]
+=
+1
 #
 We
 should
@@ -1898,11 +1956,53 @@ sources
 {
 }
   
+platform_args
+=
+{
+    
+'
+win
+'
+:
+'
+win_vc
+=
+"
+C
+:
+/
+"
+win_sdk_version
+=
+"
+00
+.
+0
+.
+00000
+.
+0
+"
+'
+  
+}
+  
 for
 plat
 in
 platforms
 :
+    
+args
+=
+platform_args
+.
+get
+(
+plat
+'
+'
+)
     
 output
 =
@@ -1937,6 +2037,9 @@ target_os
 0
 }
 "
+{
+1
+}
 \
 '
 >
@@ -1963,6 +2066,7 @@ sources
 format
 (
 plat
+args
 )
 shell
 =
@@ -2098,7 +2202,7 @@ blacklist
 [
     
 '
-GrGLCreateNativeInterface
+GrGLMakeNativeInterface
 '
     
 '
@@ -2114,7 +2218,21 @@ GrGLTestInterface
 '
     
 '
-ImageEncoder
+skia
+/
+src
+/
+android
+/
+'
+    
+'
+skia
+/
+src
+/
+atlastext
+/
 '
     
 '
@@ -2160,8 +2278,11 @@ skia
 /
 src
 /
-images
+jumper
 /
+SkJumper_generated_win
+.
+S
 '
     
 '
@@ -2169,11 +2290,9 @@ skia
 /
 src
 /
-jumper
+ports
 /
-SkJumper_generated_win
-.
-S
+SkImageEncoder
 '
     
 '
@@ -2199,22 +2318,6 @@ vk
     
 '
 SkBitmapRegion
-'
-    
-'
-SkLight
-'
-    
-'
-SkRadialShadow
-'
-    
-'
-SkShadow
-'
-    
-'
-SkNormal
 '
     
 '
@@ -2390,6 +2493,42 @@ src
 /
 effects
 /
+GrCircleBlurFragmentProcessor
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+effects
+/
+SkBlurMask
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+effects
+/
+SkBlurMaskFilter
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+effects
+/
 SkDashPathEffect
 .
 cpp
@@ -2412,23 +2551,11 @@ skia
 /
 src
 /
-effects
-/
-SkLayerRasterizer
-.
-cpp
-'
-      
-'
-skia
-/
-src
-/
 gpu
 /
 gl
 /
-GrGLCreateNativeInterface_none
+GrGLMakeNativeInterface_none
 .
 cpp
 '
@@ -2453,18 +2580,6 @@ src
 ports
 /
 SkMemory_mozalloc
-.
-cpp
-'
-      
-'
-skia
-/
-src
-/
-ports
-/
-SkImageEncoder_none
 .
 cpp
 '
@@ -3006,6 +3121,10 @@ SkBlitter
 '
   
 '
+SkJumper
+'
+  
+'
 SkSpriteBlitter
 '
   
@@ -3093,6 +3212,12 @@ cpp
 '
   
 '
+SkScan_DAAPath
+.
+cpp
+'
+  
+'
 SkParse
 .
 cpp
@@ -3111,6 +3236,17 @@ cpp
 '
   
 '
+skia
+/
+src
+/
+gpu
+/
+effects
+/
+'
+  
+'
 GrResourceCache
 '
   
@@ -3124,6 +3260,10 @@ GrAA
   
 '
 GrGL
+'
+  
+'
+GrCCPathProcessor
 '
   
 '
@@ -3205,9 +3345,19 @@ SkJumper
 '
   
 '
-lex
+SkSLLexer
 .
-layout
+cpp
+'
+  
+'
+SkSLLayoutLexer
+.
+cpp
+'
+  
+'
+SkThreadedBMPDevice
 .
 cpp
 '
