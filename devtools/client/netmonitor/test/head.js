@@ -150,6 +150,7 @@ utils
 const
 {
 getUnicodeUrl
+getUnicodeHostname
 }
 =
 require
@@ -3428,9 +3429,12 @@ url
 let
 host
 =
+getUnicodeHostname
+(
 getUrlHost
 (
 url
+)
 )
 ;
 let
