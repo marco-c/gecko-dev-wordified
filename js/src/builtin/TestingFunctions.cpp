@@ -27289,9 +27289,12 @@ if
 module
 -
 >
-hadEvaluationError
+status
 (
 )
+=
+=
+MODULE_STATUS_ERRORED
 )
 {
 JS_ReportErrorASCII
@@ -27586,9 +27589,12 @@ if
 module
 -
 >
-hadEvaluationError
+status
 (
 )
+=
+=
+MODULE_STATUS_ERRORED
 )
 {
 JS_ReportErrorASCII

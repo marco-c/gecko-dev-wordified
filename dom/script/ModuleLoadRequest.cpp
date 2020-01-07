@@ -525,7 +525,7 @@ mModuleScript
 mModuleScript
 -
 >
-HasParseError
+IsErrored
 (
 )
 )
@@ -588,7 +588,7 @@ mModuleScript
 mModuleScript
 -
 >
-HasParseError
+IsErrored
 (
 )
 )
