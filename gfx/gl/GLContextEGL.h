@@ -540,10 +540,6 @@ protected
 EGLSurface
 mSurface
 ;
-const
-EGLSurface
-mFallbackSurface
-;
 public
 :
 const

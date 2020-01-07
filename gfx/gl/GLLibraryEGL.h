@@ -406,7 +406,7 @@ string
 names
 *
 in
-GLLibraryEGL
+GLContext
 .
 cpp
 .
@@ -436,7 +436,6 @@ NV_stream_consumer_gltexture_yuv
 ANGLE_stream_producer_d3d_texture
 ANGLE_device_creation
 ANGLE_device_creation_d3d11
-KHR_surfaceless_context
 Extensions_Max
 }
 ;
