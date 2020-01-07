@@ -95,15 +95,6 @@ some
 stage
 .
 "
-comma
--
-spacing
-"
-:
-"
-off
-"
-"
 no
 -
 cond
