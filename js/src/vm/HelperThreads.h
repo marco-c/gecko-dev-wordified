@@ -3432,9 +3432,6 @@ kind
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 const
 char16_t
 *
@@ -3458,9 +3455,6 @@ kind
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 const
 JS
 :
@@ -3485,9 +3479,6 @@ kind
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 JS
 :
 :
@@ -3514,6 +3505,9 @@ const
 ReadOnlyCompileOptions
 &
 options
+JSObject
+*
+global
 )
 ;
 void
@@ -3590,9 +3584,6 @@ ScriptParseTask
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 const
 char16_t
 *
@@ -3631,9 +3622,6 @@ ModuleParseTask
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 const
 char16_t
 *
@@ -3672,9 +3660,6 @@ ScriptDecodeTask
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 const
 JS
 :
@@ -3714,9 +3699,6 @@ MultiScriptsDecodeTask
 JSContext
 *
 cx
-JSObject
-*
-parseGlobal
 JS
 :
 :
