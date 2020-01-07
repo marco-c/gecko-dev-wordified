@@ -886,13 +886,6 @@ SetTlsRecordFilter
 replacer
 )
 ;
-replacer
--
->
-EnableDecryption
-(
-)
-;
 Connect
 (
 )
@@ -976,13 +969,6 @@ client_
 SetTlsRecordFilter
 (
 replacer
-)
-;
-replacer
--
->
-EnableDecryption
-(
 )
 ;
 Connect

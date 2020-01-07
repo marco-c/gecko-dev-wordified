@@ -154,6 +154,13 @@ function
 calls
 *
 /
+#
+include
+"
+sslimpl
+.
+h
+"
 /
 *
 *
@@ -391,7 +398,7 @@ if
 CERT_CheckCertValidTimes
 (
 cert
-PR_Now
+ssl_TimeUsec
 (
 )
 PR_TRUE

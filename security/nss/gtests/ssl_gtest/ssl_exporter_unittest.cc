@@ -742,12 +742,6 @@ SetupForZeroRtt
 (
 )
 ;
-ExpectAlert
-(
-client_
-kTlsAlertEndOfEarlyData
-)
-;
 client_
 -
 >

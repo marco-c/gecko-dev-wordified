@@ -322,6 +322,7 @@ PR_FAILURE
 SECStatus
 ssl_SetupCAList
 (
+const
 sslSocket
 *
 ss
@@ -369,6 +370,7 @@ SECSuccess
 SECStatus
 ssl_GetCertificateRequestCAs
 (
+const
 sslSocket
 *
 ss
@@ -376,6 +378,7 @@ unsigned
 int
 *
 calen
+const
 SECItem
 *
 *
@@ -386,10 +389,12 @@ int
 nnames
 )
 {
+const
 SECItem
 *
 name
 ;
+const
 CERTDistNames
 *
 ca_list

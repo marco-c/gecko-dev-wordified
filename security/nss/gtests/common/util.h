@@ -127,6 +127,8 @@ include
 <
 vector
 >
+static
+inline
 std
 :
 :
