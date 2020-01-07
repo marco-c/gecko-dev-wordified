@@ -894,7 +894,7 @@ requestFilterTypes
 :
 PropTypes
 .
-string
+object
 .
 isRequired
 waterfallWidth

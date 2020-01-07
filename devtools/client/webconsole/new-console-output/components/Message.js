@@ -497,11 +497,6 @@ exceptionDocURL
 PropTypes
 .
 string
-parameters
-:
-PropTypes
-.
-object
 request
 :
 PropTypes
@@ -1616,11 +1611,12 @@ body
 onClick
 :
 collapsible
-&
-&
+?
 this
 .
 toggleMessage
+:
+undefined
 }
 /
 /

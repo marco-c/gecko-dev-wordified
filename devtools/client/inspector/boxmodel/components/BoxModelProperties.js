@@ -470,6 +470,7 @@ return
 }
 onToggleExpander
 (
+event
 )
 {
 this
@@ -486,6 +487,12 @@ state
 .
 isOpen
 }
+)
+;
+event
+.
+stopPropagation
+(
 )
 ;
 }

@@ -301,8 +301,6 @@ onClick
 PropTypes
 .
 func
-.
-isRequired
 /
 /
 Option

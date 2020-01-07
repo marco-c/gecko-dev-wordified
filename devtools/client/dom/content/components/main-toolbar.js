@@ -420,6 +420,11 @@ Toolbar
 ToolbarButton
 (
 {
+key
+:
+"
+refresh
+"
 className
 :
 "
@@ -459,6 +464,11 @@ onRefresh
 SearchBox
 (
 {
+key
+:
+"
+filter
+"
 delay
 :
 250
