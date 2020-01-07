@@ -741,6 +741,7 @@ XPTInterfaceInfoManager
 :
 VerifyAndAddEntryIfNew
 (
+const
 XPTInterfaceDirectoryEntry
 *
 iface

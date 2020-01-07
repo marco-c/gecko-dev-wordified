@@ -373,6 +373,7 @@ num_interfaces
 uint32_t
 file_length
 ;
+const
 XPTInterfaceDirectoryEntry
 *
 interface_directory

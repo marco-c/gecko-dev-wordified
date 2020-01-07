@@ -325,6 +325,7 @@ XPTHeader
 void
 VerifyAndAddEntryIfNew
 (
+const
 XPTInterfaceDirectoryEntry
 *
 iface

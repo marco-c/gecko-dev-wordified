@@ -307,6 +307,7 @@ r
 return
 r
 ;
+const
 XPTInterfaceDirectoryEntry
 *
 iface
@@ -434,6 +435,7 @@ index
 "
 )
 ;
+const
 XPTInterfaceDirectoryEntry
 *
 iface

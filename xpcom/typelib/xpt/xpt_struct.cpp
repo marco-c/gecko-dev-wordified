@@ -1102,6 +1102,12 @@ state
 data_pool
 )
 ;
+XPTInterfaceDirectoryEntry
+*
+interface_directory
+=
+nullptr
+;
 if
 (
 header
@@ -1123,9 +1129,6 @@ sizeof
 XPTInterfaceDirectoryEntry
 )
 ;
-header
--
->
 interface_directory
 =
 static_cast
@@ -1144,9 +1147,6 @@ n
 if
 (
 !
-header
--
->
 interface_directory
 )
 return
@@ -1260,9 +1260,6 @@ DoInterfaceDirectoryEntry
 arena
 cursor
 &
-header
--
->
 interface_directory
 [
 i
@@ -1273,6 +1270,13 @@ return
 false
 ;
 }
+header
+-
+>
+interface_directory
+=
+interface_directory
+;
 return
 true
 ;
