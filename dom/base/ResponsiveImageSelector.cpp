@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -394,9 +403,6 @@ false
 }
 if
 (
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
@@ -413,9 +419,6 @@ iter
 end
 &
 &
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
@@ -488,9 +491,6 @@ end
 |
 |
 !
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
@@ -531,9 +531,6 @@ iter
 end
 &
 &
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
@@ -624,9 +621,6 @@ end
 |
 |
 !
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
@@ -656,9 +650,6 @@ iter
 end
 &
 &
-nsCRT
-:
-:
 IsAsciiDigit
 (
 *
