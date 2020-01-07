@@ -9658,7 +9658,7 @@ GetThreadType
 js
 :
 :
-THREAD_TYPE_COOPERATING
+THREAD_TYPE_MAIN
 )
 {
 JS_ReportErrorASCII
@@ -9835,7 +9835,7 @@ targetThread
 js
 :
 :
-THREAD_TYPE_COOPERATING
+THREAD_TYPE_MAIN
 ;
 if
 (

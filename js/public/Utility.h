@@ -438,7 +438,7 @@ THREAD_TYPE_NONE
 /
 /
 0
-THREAD_TYPE_COOPERATING
+THREAD_TYPE_MAIN
 /
 /
 1
@@ -623,7 +623,7 @@ const
 ThreadType
 FirstThreadTypeToTest
 =
-THREAD_TYPE_COOPERATING
+THREAD_TYPE_MAIN
 ;
 const
 ThreadType
