@@ -442,12 +442,10 @@ factories
 "
 )
 ;
-var
+let
 TestUtils
 =
-React
-.
-addons
+ReactDOM
 .
 TestUtils
 ;

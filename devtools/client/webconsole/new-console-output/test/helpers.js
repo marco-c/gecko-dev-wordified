@@ -99,12 +99,10 @@ createElement
 =
 React
 ;
-var
+const
 TestUtils
 =
-React
-.
-addons
+ReactDOM
 .
 TestUtils
 ;
