@@ -4037,11 +4037,11 @@ GetFrame
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 subDocFrame
 )
-;
+{
 nsSubDocumentFrame
 *
 subdocumentFrame
@@ -4110,6 +4110,7 @@ modifiedFrames
 rootFrame
 )
 ;
+}
 }
 }
 aDocument
