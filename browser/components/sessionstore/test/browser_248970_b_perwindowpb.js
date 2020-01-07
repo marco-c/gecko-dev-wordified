@@ -411,9 +411,11 @@ contentDocument
 let
 xptype
 =
-Ci
+doc
 .
-nsIDOMXPathResult
+defaultView
+.
+XPathResult
 .
 FIRST_ORDERED_NODE_TYPE
 ;
