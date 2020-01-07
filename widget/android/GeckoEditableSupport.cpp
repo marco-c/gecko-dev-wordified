@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 mozilla
 /
 IMEStateManager

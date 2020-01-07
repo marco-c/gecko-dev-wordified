@@ -4569,7 +4569,7 @@ current
 selection
 into
 view
-nsISelection
+Selection
 *
 caretSelection
 =

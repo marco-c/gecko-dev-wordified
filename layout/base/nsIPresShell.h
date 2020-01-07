@@ -457,9 +457,6 @@ nsIDOMNode
 class
 nsCSSFrameConstructor
 ;
-class
-nsISelection
-;
 template
 <
 class

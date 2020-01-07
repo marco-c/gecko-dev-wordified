@@ -165,9 +165,6 @@ nsINode
 class
 nsPresContext
 ;
-class
-nsISelection
-;
 namespace
 mozilla
 {

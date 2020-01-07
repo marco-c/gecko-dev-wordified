@@ -980,13 +980,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsIPrompt
 .
 h
@@ -36750,7 +36743,7 @@ const
 nsAString
 &
 anAction
-nsISelection
+Selection
 *
 aSel
 int16_t

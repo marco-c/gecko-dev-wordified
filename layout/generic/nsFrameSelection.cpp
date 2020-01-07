@@ -16822,7 +16822,7 @@ put
 the
 new
 *
-nsISelection
+Selection
 in
 the
 transferable

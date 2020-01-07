@@ -253,9 +253,6 @@ class
 nsIPrincipal
 ;
 class
-nsISelection
-;
-class
 nsIScriptTimeoutHandler
 ;
 class
@@ -6504,7 +6501,13 @@ const
 nsAString
 &
 anAction
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSel
 int16_t

@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

@@ -4802,7 +4802,7 @@ toString
 *
 Provides
 the
-nsISelection
+Selection
 for
 either
 an

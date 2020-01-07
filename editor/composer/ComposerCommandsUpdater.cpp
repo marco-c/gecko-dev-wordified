@@ -240,17 +240,6 @@ do_GetInterface
 #
 include
 "
-nsISelection
-.
-h
-"
-/
-/
-for
-nsISelection
-#
-include
-"
 nsITransactionManager
 .
 h

@@ -5999,7 +5999,13 @@ const
 nsAString
 &
 anAction
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSel
 int16_t

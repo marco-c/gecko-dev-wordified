@@ -459,17 +459,6 @@ nsIRequest
 #
 include
 "
-nsISelection
-.
-h
-"
-/
-/
-for
-nsISelection
-#
-include
-"
 nsITimer
 .
 h

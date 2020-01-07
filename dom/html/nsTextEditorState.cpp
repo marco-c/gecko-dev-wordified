@@ -5028,7 +5028,7 @@ const
 nsAString
 &
 aCommandsToUpdate
-nsISelection
+Selection
 *
 aSelection
 int16_t

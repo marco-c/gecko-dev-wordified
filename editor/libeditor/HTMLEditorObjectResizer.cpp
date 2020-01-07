@@ -327,9 +327,6 @@ include
 <
 algorithm
 >
-class
-nsISelection
-;
 namespace
 mozilla
 {

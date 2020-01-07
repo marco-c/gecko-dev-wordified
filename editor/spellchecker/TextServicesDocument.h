@@ -164,9 +164,6 @@ class
 nsINode
 ;
 class
-nsISelection
-;
-class
 nsISelectionController
 ;
 class
