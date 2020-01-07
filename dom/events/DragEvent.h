@@ -225,6 +225,17 @@ aGivenProto
 )
 ;
 }
+DragEvent
+*
+AsDragEvent
+(
+)
+override
+{
+return
+this
+;
+}
 DataTransfer
 *
 GetDataTransfer
