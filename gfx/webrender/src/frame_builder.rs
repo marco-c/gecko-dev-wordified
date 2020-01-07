@@ -10611,7 +10611,7 @@ is_empty
 }
 }
 let
-gpu_cache_updates
+gpu_cache_frame_id
 =
 gpu_cache
 .
@@ -10657,12 +10657,7 @@ node_data
 clip_chain_local_clip_rects
 render_tasks
 deferred_resolves
-gpu_cache_updates
-:
-Some
-(
-gpu_cache_updates
-)
+gpu_cache_frame_id
 has_been_rendered
 :
 false
