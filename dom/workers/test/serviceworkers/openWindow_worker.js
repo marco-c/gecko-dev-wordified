@@ -422,6 +422,10 @@ results
 )
 )
 ;
+event
+.
+waitUntil
+(
 Promise
 .
 all
@@ -444,6 +448,7 @@ results
 )
 ;
 }
+)
 )
 ;
 }
@@ -490,6 +495,10 @@ CHECK_NUMBER_OF_WINDOWS
 "
 )
 {
+event
+.
+waitUntil
+(
 got_all_windows
 .
 then
@@ -575,6 +584,7 @@ CLOSE
 ;
 }
 }
+)
 )
 ;
 }
@@ -868,6 +878,10 @@ results
 )
 )
 ;
+e
+.
+waitUntil
+(
 Promise
 .
 all
@@ -890,6 +904,7 @@ results
 )
 ;
 }
+)
 )
 ;
 }
