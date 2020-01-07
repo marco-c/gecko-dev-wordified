@@ -1647,7 +1647,7 @@ INDEX_VALUE_BIT
 )
 out
 .
-put
+printf
 (
 "
 INDEX_VALUE
