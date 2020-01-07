@@ -142,6 +142,9 @@ version
 .
 1
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -378,6 +381,9 @@ version
 .
 2
 "
+bootstrap
+:
+true
 name
 :
 "
@@ -446,6 +452,9 @@ version
 .
 3
 "
+bootstrap
+:
+true
 name
 :
 "
