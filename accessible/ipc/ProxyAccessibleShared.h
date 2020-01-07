@@ -1318,6 +1318,11 @@ Bounds
 (
 )
 ;
+nsIntRect
+BoundsInCSSPixels
+(
+)
+;
 void
 Language
 (
