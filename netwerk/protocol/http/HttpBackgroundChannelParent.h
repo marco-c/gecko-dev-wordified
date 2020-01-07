@@ -327,6 +327,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 ;
 /

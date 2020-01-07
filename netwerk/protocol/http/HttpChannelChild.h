@@ -1419,6 +1419,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 ;
 void
@@ -2428,6 +2432,10 @@ const
 ResourceTimingStruct
 &
 timing
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 ;
 void

@@ -955,6 +955,10 @@ const
 TimeStamp
 &
 aLastActiveTabOptHit
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 {
 LOG
@@ -1106,6 +1110,8 @@ const
 ResourceTimingStruct
 const
 TimeStamp
+const
+nsHttpHeaderArray
 >
 (
 "
@@ -1123,6 +1129,7 @@ RecvOnStopRequest
 aChannelStatus
 aTiming
 aLastActiveTabOptHit
+aResponseTrailers
 )
 )
 ;
@@ -1139,6 +1146,7 @@ ProcessOnStopRequest
 (
 aChannelStatus
 aTiming
+aResponseTrailers
 )
 ;
 return
