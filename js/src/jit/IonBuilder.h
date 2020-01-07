@@ -3913,8 +3913,6 @@ Ok
 >
 jsop_deffun
 (
-uint32_t
-index
 )
 ;
 AbortReasonOr

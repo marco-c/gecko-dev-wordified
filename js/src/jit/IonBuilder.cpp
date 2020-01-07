@@ -13413,10 +13413,6 @@ JSOP_DEFFUN
 return
 jsop_deffun
 (
-GET_UINT32_INDEX
-(
-pc
-)
 )
 ;
 case
@@ -85862,8 +85858,6 @@ IonBuilder
 :
 jsop_deffun
 (
-uint32_t
-index
 )
 {
 MOZ_ASSERT
