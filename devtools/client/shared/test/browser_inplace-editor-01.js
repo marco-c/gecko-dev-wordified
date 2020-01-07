@@ -678,11 +678,7 @@ charCode
 !
 =
 =
-Components
-.
-interfaces
-.
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_COLON
 )

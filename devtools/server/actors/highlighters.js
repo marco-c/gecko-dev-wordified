@@ -2129,9 +2129,7 @@ keyCode
 Wider
 .
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_LEFT
 :
@@ -2159,9 +2157,7 @@ break
 Narrower
 .
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_RIGHT
 :
@@ -2262,9 +2258,7 @@ the
 element
 .
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_RETURN
 :
@@ -2284,9 +2278,7 @@ pick
 mode
 .
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_ESCAPE
 :
@@ -2314,9 +2306,7 @@ canceled
 return
 ;
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_C
 :

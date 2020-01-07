@@ -1,12 +1,3 @@
-const
-nsIDOMKeyEvent
-=
-Components
-.
-interfaces
-.
-nsIDOMKeyEvent
-;
 /
 *
 *
@@ -405,7 +396,7 @@ if
 (
 aEvent
 instanceof
-nsIDOMKeyEvent
+KeyboardEvent
 )
 this
 .
@@ -464,7 +455,7 @@ keyCode
 )
 {
 case
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_UP
 :
@@ -545,7 +536,7 @@ break
 ;
 }
 case
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_DOWN
 :
@@ -630,7 +621,7 @@ break
 ;
 }
 case
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_LEFT
 :
@@ -696,7 +687,7 @@ break
 ;
 }
 case
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_RIGHT
 :

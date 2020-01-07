@@ -9072,9 +9072,7 @@ event
 charCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_SPACE
 |
@@ -9084,9 +9082,7 @@ event
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_RETURN
 )

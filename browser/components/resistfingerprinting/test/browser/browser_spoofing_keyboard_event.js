@@ -51,13 +51,6 @@ dispatch_non_printable_keys_only_system_group_in_content
 )
 ;
 const
-nsIDOMKeyEvent
-=
-Ci
-.
-nsIDOMKeyEvent
-;
-const
 SHOULD_DELIVER_KEYDOWN
 =
 0x1
@@ -167,7 +160,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_DOWN
 location
@@ -220,7 +213,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_LEFT
 location
@@ -273,7 +266,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_RIGHT
 location
@@ -326,7 +319,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_UP
 location
@@ -379,7 +372,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_CAPS_LOCK
 location
@@ -432,7 +425,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_END
 location
@@ -485,7 +478,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_RETURN
 location
@@ -538,7 +531,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_ESCAPE
 location
@@ -591,7 +584,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_HOME
 location
@@ -652,7 +645,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_WIN
 location
@@ -713,7 +706,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_WIN
 location
@@ -774,7 +767,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_WIN
 location
@@ -835,7 +828,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_WIN
 location
@@ -888,7 +881,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_PAGE_DOWN
 location
@@ -941,7 +934,7 @@ charCode
 0
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_PAGE_UP
 location
@@ -992,7 +985,7 @@ charCode
 32
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_SPACE
 location
@@ -1043,7 +1036,7 @@ charCode
 44
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_COMMA
 location
@@ -1099,7 +1092,7 @@ charCode
 60
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_COMMA
 location
@@ -1152,7 +1145,7 @@ charCode
 91
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_OPEN_BRACKET
 location
@@ -1208,7 +1201,7 @@ charCode
 123
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_OPEN_BRACKET
 location
@@ -1261,7 +1254,7 @@ charCode
 93
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_CLOSE_BRACKET
 location
@@ -1317,7 +1310,7 @@ charCode
 125
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_CLOSE_BRACKET
 location
@@ -1372,7 +1365,7 @@ charCode
 92
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_BACK_SLASH
 location
@@ -1428,7 +1421,7 @@ charCode
 124
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_BACK_SLASH
 location
@@ -1481,7 +1474,7 @@ charCode
 59
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_SEMICOLON
 location
@@ -1537,7 +1530,7 @@ charCode
 58
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_SEMICOLON
 location
@@ -1590,7 +1583,7 @@ charCode
 46
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_PERIOD
 location
@@ -1646,7 +1639,7 @@ charCode
 62
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_PERIOD
 location
@@ -1699,7 +1692,7 @@ charCode
 47
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_SLASH
 location
@@ -1755,7 +1748,7 @@ charCode
 63
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_SLASH
 location
@@ -1808,7 +1801,7 @@ charCode
 39
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_QUOTE
 location
@@ -1866,7 +1859,7 @@ charCode
 34
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_QUOTE
 location
@@ -1919,7 +1912,7 @@ charCode
 45
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_HYPHEN_MINUS
 location
@@ -1975,7 +1968,7 @@ charCode
 95
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_HYPHEN_MINUS
 location
@@ -2028,7 +2021,7 @@ charCode
 61
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_EQUALS
 location
@@ -2084,7 +2077,7 @@ charCode
 43
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_EQUALS
 location
@@ -2137,7 +2130,7 @@ charCode
 97
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_A
 location
@@ -2193,7 +2186,7 @@ charCode
 65
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_A
 location
@@ -2246,7 +2239,7 @@ charCode
 98
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_B
 location
@@ -2302,7 +2295,7 @@ charCode
 66
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_B
 location
@@ -2355,7 +2348,7 @@ charCode
 99
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_C
 location
@@ -2411,7 +2404,7 @@ charCode
 67
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_C
 location
@@ -2464,7 +2457,7 @@ charCode
 100
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_D
 location
@@ -2520,7 +2513,7 @@ charCode
 68
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_D
 location
@@ -2573,7 +2566,7 @@ charCode
 101
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_E
 location
@@ -2629,7 +2622,7 @@ charCode
 69
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_E
 location
@@ -2682,7 +2675,7 @@ charCode
 102
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F
 location
@@ -2738,7 +2731,7 @@ charCode
 70
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F
 location
@@ -2791,7 +2784,7 @@ charCode
 103
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_G
 location
@@ -2847,7 +2840,7 @@ charCode
 71
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_G
 location
@@ -2900,7 +2893,7 @@ charCode
 104
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_H
 location
@@ -2956,7 +2949,7 @@ charCode
 72
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_H
 location
@@ -3009,7 +3002,7 @@ charCode
 105
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_I
 location
@@ -3065,7 +3058,7 @@ charCode
 73
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_I
 location
@@ -3118,7 +3111,7 @@ charCode
 106
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_J
 location
@@ -3174,7 +3167,7 @@ charCode
 74
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_J
 location
@@ -3227,7 +3220,7 @@ charCode
 107
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_K
 location
@@ -3283,7 +3276,7 @@ charCode
 75
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_K
 location
@@ -3336,7 +3329,7 @@ charCode
 108
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_L
 location
@@ -3392,7 +3385,7 @@ charCode
 76
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_L
 location
@@ -3445,7 +3438,7 @@ charCode
 109
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_M
 location
@@ -3501,7 +3494,7 @@ charCode
 77
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_M
 location
@@ -3554,7 +3547,7 @@ charCode
 110
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_N
 location
@@ -3610,7 +3603,7 @@ charCode
 78
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_N
 location
@@ -3663,7 +3656,7 @@ charCode
 111
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_O
 location
@@ -3719,7 +3712,7 @@ charCode
 79
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_O
 location
@@ -3772,7 +3765,7 @@ charCode
 112
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_P
 location
@@ -3828,7 +3821,7 @@ charCode
 80
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_P
 location
@@ -3881,7 +3874,7 @@ charCode
 113
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Q
 location
@@ -3937,7 +3930,7 @@ charCode
 81
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Q
 location
@@ -3990,7 +3983,7 @@ charCode
 114
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_R
 location
@@ -4046,7 +4039,7 @@ charCode
 82
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_R
 location
@@ -4099,7 +4092,7 @@ charCode
 115
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_S
 location
@@ -4155,7 +4148,7 @@ charCode
 83
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_S
 location
@@ -4208,7 +4201,7 @@ charCode
 116
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_T
 location
@@ -4264,7 +4257,7 @@ charCode
 84
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_T
 location
@@ -4317,7 +4310,7 @@ charCode
 117
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_U
 location
@@ -4373,7 +4366,7 @@ charCode
 85
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_U
 location
@@ -4426,7 +4419,7 @@ charCode
 118
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_V
 location
@@ -4482,7 +4475,7 @@ charCode
 86
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_V
 location
@@ -4535,7 +4528,7 @@ charCode
 119
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_W
 location
@@ -4591,7 +4584,7 @@ charCode
 87
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_W
 location
@@ -4644,7 +4637,7 @@ charCode
 120
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_X
 location
@@ -4700,7 +4693,7 @@ charCode
 88
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_X
 location
@@ -4753,7 +4746,7 @@ charCode
 121
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Y
 location
@@ -4809,7 +4802,7 @@ charCode
 89
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Y
 location
@@ -4862,7 +4855,7 @@ charCode
 122
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Z
 location
@@ -4918,7 +4911,7 @@ charCode
 90
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_Z
 location
@@ -4971,7 +4964,7 @@ charCode
 48
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_0
 location
@@ -5024,7 +5017,7 @@ charCode
 49
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_1
 location
@@ -5077,7 +5070,7 @@ charCode
 50
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_2
 location
@@ -5130,7 +5123,7 @@ charCode
 51
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_3
 location
@@ -5183,7 +5176,7 @@ charCode
 52
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_4
 location
@@ -5236,7 +5229,7 @@ charCode
 53
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_5
 location
@@ -5289,7 +5282,7 @@ charCode
 54
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_6
 location
@@ -5342,7 +5335,7 @@ charCode
 55
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_7
 location
@@ -5395,7 +5388,7 @@ charCode
 56
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_8
 location
@@ -5448,7 +5441,7 @@ charCode
 57
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_9
 location
@@ -5504,7 +5497,7 @@ charCode
 41
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_0
 location
@@ -5560,7 +5553,7 @@ charCode
 33
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_1
 location
@@ -5614,7 +5607,7 @@ charCode
 64
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_2
 location
@@ -5670,7 +5663,7 @@ charCode
 35
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_3
 location
@@ -5724,7 +5717,7 @@ charCode
 36
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_4
 location
@@ -5780,7 +5773,7 @@ charCode
 37
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_5
 location
@@ -5836,7 +5829,7 @@ charCode
 94
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_6
 location
@@ -5892,7 +5885,7 @@ charCode
 38
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_7
 location
@@ -5948,7 +5941,7 @@ charCode
 42
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_8
 location
@@ -6004,7 +5997,7 @@ charCode
 40
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_9
 location
@@ -6057,7 +6050,7 @@ charCode
 112
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F1
 location
@@ -6110,7 +6103,7 @@ charCode
 113
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F2
 location
@@ -6163,7 +6156,7 @@ charCode
 114
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F3
 location
@@ -6216,7 +6209,7 @@ charCode
 115
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F4
 location
@@ -6269,7 +6262,7 @@ charCode
 116
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F5
 location
@@ -6322,7 +6315,7 @@ charCode
 118
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F7
 location
@@ -6375,7 +6368,7 @@ charCode
 119
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F8
 location
@@ -6428,7 +6421,7 @@ charCode
 120
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F9
 location
@@ -6481,7 +6474,7 @@ charCode
 121
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F10
 location
@@ -6534,7 +6527,7 @@ charCode
 122
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F11
 location
@@ -6587,7 +6580,7 @@ charCode
 123
 keyCode
 :
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_F12
 location
