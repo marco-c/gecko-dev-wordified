@@ -855,7 +855,7 @@ platform
 '
 darwin
 '
-or
+and
 os
 .
 environ
