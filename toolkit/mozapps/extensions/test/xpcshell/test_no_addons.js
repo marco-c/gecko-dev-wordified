@@ -317,13 +317,6 @@ let
 addonList
 =
 await
-new
-Promise
-(
-resolve
-=
->
-{
 AddonManager
 .
 getAddonsByTypes
@@ -333,10 +326,6 @@ getAddonsByTypes
 extension
 "
 ]
-resolve
-)
-;
-}
 )
 ;
 Assert

@@ -613,6 +613,7 @@ run_next_test
 ;
 add_test
 (
+async
 function
 (
 )
@@ -725,11 +726,15 @@ be
 called
 later
 .
+await
 AddonManager
 .
 getAllInstalls
 (
+)
+;
 run_next_test
+(
 )
 ;
 }
