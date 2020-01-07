@@ -669,13 +669,9 @@ const
 STARTUP_EXPERIMENT_PREFS_BRANCH
 =
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 startupExperimentPrefs
 .
