@@ -1211,9 +1211,6 @@ div
 span
 >
 I
-<
-span
->
 like
 truffles
 <
@@ -11401,7 +11398,7 @@ in
 -
 order
 traversal
-becase
+because
 the
 children
 /
