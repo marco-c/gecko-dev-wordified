@@ -1421,14 +1421,14 @@ XP_WIN
 #
 include
 "
-SandboxBroker
+sandboxBroker
 .
 h
 "
 #
 include
 "
-SandboxPermissions
+sandboxPermissions
 .
 h
 "
