@@ -223,13 +223,6 @@ nsDirectoryServiceUtils
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
 using
 namespace
 mozilla

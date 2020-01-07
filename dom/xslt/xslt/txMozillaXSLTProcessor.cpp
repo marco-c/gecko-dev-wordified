@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 XPathResult
 .
 h
