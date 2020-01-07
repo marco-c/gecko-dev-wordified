@@ -164,11 +164,11 @@ TEST_URI
 let
 {
 inspector
-view
+boxmodel
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -185,13 +185,13 @@ inspector
 yield
 testClickingOutsideEditor
 (
-view
+boxmodel
 )
 ;
 yield
 testClickingBelowContainer
 (
-view
+boxmodel
 )
 ;
 }
@@ -201,7 +201,7 @@ function
 *
 testClickingOutsideEditor
 (
-view
+boxmodel
 )
 {
 info
@@ -221,7 +221,7 @@ it
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -268,7 +268,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -278,7 +278,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -356,7 +356,7 @@ height
 2
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -368,7 +368,7 @@ onBlur
 ;
 is
 (
-view
+boxmodel
 .
 document
 .
@@ -397,7 +397,7 @@ function
 *
 testClickingBelowContainer
 (
-view
+boxmodel
 )
 {
 info
@@ -420,7 +420,7 @@ it
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -485,7 +485,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -495,7 +495,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -536,7 +536,7 @@ blur
 let
 container
 =
-view
+boxmodel
 .
 document
 .
@@ -587,9 +587,9 @@ getBoxQuads
 {
 relativeTo
 :
-view
+boxmodel
 .
-doc
+document
 }
 )
 [
@@ -618,7 +618,7 @@ height
 10
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -630,7 +630,7 @@ onBlur
 ;
 is
 (
-view
+boxmodel
 .
 document
 .

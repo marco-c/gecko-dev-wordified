@@ -213,12 +213,12 @@ TEST_URI
 let
 {
 inspector
-view
+boxmodel
 testActor
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -226,7 +226,7 @@ yield
 testUnits
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -234,7 +234,7 @@ yield
 testValueComesFromStyleRule
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -242,7 +242,7 @@ yield
 testShorthandsAreParsed
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -254,7 +254,7 @@ function
 testUnits
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -311,7 +311,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -358,7 +358,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -368,7 +368,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -425,7 +425,7 @@ synthesizeKey
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -447,7 +447,7 @@ e
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -499,7 +499,7 @@ m
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -573,7 +573,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -637,7 +637,7 @@ function
 testValueComesFromStyleRule
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -707,7 +707,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -754,7 +754,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -764,7 +764,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -821,7 +821,7 @@ synthesizeKey
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -897,7 +897,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -967,7 +967,7 @@ function
 testShorthandsAreParsed
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -1026,7 +1026,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -1073,7 +1073,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1083,7 +1083,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -1140,7 +1140,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
