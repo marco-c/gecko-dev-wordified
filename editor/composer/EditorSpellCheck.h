@@ -266,6 +266,12 @@ interface
 *
 /
 NS_DECL_NSIEDITORSPELLCHECK
+mozSpellChecker
+*
+GetSpellChecker
+(
+)
+;
 protected
 :
 virtual
