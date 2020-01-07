@@ -137,6 +137,16 @@ objdir
 -
 droid
 "
+#
+Set
+this
+to
+mobile
+/
+xul
+for
+XUL
+Fennec
 ANDROID_DIR
 =
 "
