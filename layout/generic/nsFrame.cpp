@@ -37251,6 +37251,8 @@ property
 .
 bool
 usingFlexBasisForISize
+=
+false
 ;
 if
 (
