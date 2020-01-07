@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h

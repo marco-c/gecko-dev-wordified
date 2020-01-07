@@ -1939,7 +1939,7 @@ querySelectorAll
 .
 *
 return
-nsIDOMNodeList
+NodeList
 *
 Returns
 the

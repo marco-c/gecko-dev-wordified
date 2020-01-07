@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

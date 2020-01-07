@@ -255,13 +255,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

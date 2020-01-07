@@ -2973,7 +2973,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsIDOMNodeList
+nsINodeList
 *
 >
 (
@@ -20522,7 +20522,7 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-nsIDOMNodeList
+nsINodeList
 *
 *
 aReturn

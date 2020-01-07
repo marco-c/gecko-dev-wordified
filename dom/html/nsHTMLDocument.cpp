@@ -253,13 +253,6 @@ Find
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

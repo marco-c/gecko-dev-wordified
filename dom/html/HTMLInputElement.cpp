@@ -492,13 +492,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsLinebreakConverter
 .
 h

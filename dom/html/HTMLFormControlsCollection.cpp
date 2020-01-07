@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

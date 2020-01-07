@@ -560,13 +560,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h

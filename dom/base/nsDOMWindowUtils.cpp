@@ -6493,7 +6493,7 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-nsIDOMNodeList
+nsINodeList
 *
 *
 aReturn

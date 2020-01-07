@@ -1198,13 +1198,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMWindowUtils
 .
 h

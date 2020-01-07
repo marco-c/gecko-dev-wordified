@@ -158,13 +158,6 @@ I
 .
 nsIDOMNode
 ;
-const
-nsIDOMNodeList
-=
-I
-.
-nsIDOMNodeList
-;
 Cu
 .
 importGlobalProperties

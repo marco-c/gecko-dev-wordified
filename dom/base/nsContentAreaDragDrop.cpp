@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

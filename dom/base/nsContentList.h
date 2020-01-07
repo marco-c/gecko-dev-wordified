@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h

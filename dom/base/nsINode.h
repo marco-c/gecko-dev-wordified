@@ -403,9 +403,6 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMNodeList
-;
-class
 nsIFrame
 ;
 class
@@ -7809,7 +7806,7 @@ mMutationObservers
 An
 object
 implementing
-nsIDOMNodeList
+NodeList
 for
 this
 content
@@ -7818,7 +7815,7 @@ childNodes
 )
 *
 see
-nsIDOMNodeList
+NodeList
 *
 see
 nsGenericHTMLElement
