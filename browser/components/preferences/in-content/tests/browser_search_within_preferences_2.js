@@ -618,7 +618,7 @@ The
 test
 uses
 element
-browserContainersSettings
+showUpdateHistory
 and
 *
 l10n
@@ -729,7 +729,7 @@ searchInput
 )
 ;
 let
-bcsElem
+suhElem
 =
 gBrowser
 .
@@ -738,7 +738,7 @@ contentDocument
 getElementById
 (
 "
-browserContainersSettings
+showUpdateHistory
 "
 )
 ;
@@ -773,7 +773,7 @@ preferences
 ok
 (
 !
-bcsElem
+suhElem
 .
 getAttribute
 (
@@ -791,7 +791,7 @@ includes
 l10nId
 )
 "
-browserContainersSettings
+showUpdateHistory
 element
 should
 not
@@ -847,9 +847,9 @@ searchCompletedPromise
 ;
 is_element_hidden
 (
-bcsElem
+suhElem
 "
-browserContainersSettings
+showUpdateHistory
 should
 not
 be
@@ -947,7 +947,7 @@ preferences
 )
 ;
 let
-bcsElem
+suhElem
 =
 gBrowser
 .
@@ -956,11 +956,11 @@ contentDocument
 getElementById
 (
 "
-browserContainersSettings
+showUpdateHistory
 "
 )
 ;
-bcsElem
+suhElem
 .
 setAttribute
 (
@@ -1017,9 +1017,9 @@ searchCompletedPromise
 ;
 is_element_visible
 (
-bcsElem
+suhElem
 "
-browserContainersSettings
+showUpdateHistory
 should
 be
 in
