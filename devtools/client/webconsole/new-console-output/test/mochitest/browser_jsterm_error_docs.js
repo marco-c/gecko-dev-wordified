@@ -227,6 +227,7 @@ RangeError
 :
 "
 )
+;
 jsterm
 .
 execute

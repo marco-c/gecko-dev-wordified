@@ -75,6 +75,18 @@ zero
 *
 /
 /
+*
+import
+-
+globals
+-
+from
+head
+.
+js
+*
+/
+/
 /
 Test
 that
@@ -187,7 +199,7 @@ null
 {
 for
 (
-var
+let
 i
 =
 0

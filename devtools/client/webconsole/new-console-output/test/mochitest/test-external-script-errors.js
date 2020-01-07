@@ -74,6 +74,13 @@ zero
 /
 *
 /
+/
+*
+eslint
+-
+disable
+*
+/
 function
 f
 (

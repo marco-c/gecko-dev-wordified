@@ -161,8 +161,6 @@ const
 autocompletePopup
 :
 popup
-completeNode
-inputNode
 }
 =
 jsterm

@@ -75,6 +75,18 @@ zero
 *
 /
 /
+*
+import
+-
+globals
+-
+from
+head
+.
+js
+*
+/
+/
 /
 Tests
 that
@@ -193,6 +205,7 @@ was
 inserted
 "
 )
+;
 }
 }
 )

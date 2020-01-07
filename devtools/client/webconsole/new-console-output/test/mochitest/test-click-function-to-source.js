@@ -1,5 +1,12 @@
 /
 *
+eslint
+-
+disable
+*
+/
+/
+*
 *
 *
 this

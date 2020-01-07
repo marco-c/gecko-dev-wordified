@@ -74,6 +74,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 window
 .
 addEventListener

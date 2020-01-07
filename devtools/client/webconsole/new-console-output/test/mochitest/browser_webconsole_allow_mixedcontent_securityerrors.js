@@ -75,6 +75,18 @@ zero
 *
 /
 /
+*
+import
+-
+globals
+-
+from
+head
+.
+js
+*
+/
+/
 /
 The
 test
@@ -199,6 +211,9 @@ test
 /
 mochitest
 /
+"
++
+"
 test
 -
 mixedcontent
@@ -228,6 +243,9 @@ Web
 /
 Security
 /
+"
++
+"
 Mixed_content
 "
 +
@@ -487,6 +505,7 @@ tab
 )
 ;
 }
+;
 info
 (
 "

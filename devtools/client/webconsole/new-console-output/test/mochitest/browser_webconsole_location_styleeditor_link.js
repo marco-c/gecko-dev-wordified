@@ -99,6 +99,9 @@ client
 /
 webconsole
 /
+"
++
+"
 new
 -
 console
@@ -109,6 +112,9 @@ test
 /
 mochitest
 /
+"
++
+"
 test
 -
 location
