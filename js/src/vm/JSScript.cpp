@@ -14752,9 +14752,11 @@ foo
 .
 js
 .
-static
 char
 *
+js
+:
+:
 FormatIntroducedFilename
 (
 JSContext

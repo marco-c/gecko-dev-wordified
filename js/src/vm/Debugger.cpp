@@ -47082,7 +47082,7 @@ metadata
 (
 )
 .
-baseURL
+filenameIsURL
 )
 {
 JSString
@@ -47106,7 +47106,7 @@ metadata
 (
 )
 .
-baseURL
+filename
 .
 get
 (
