@@ -6266,6 +6266,10 @@ CUBEB_STATE_ERROR
 mShouldFallbackIfError
 )
 {
+mShouldFallbackIfError
+=
+false
+;
 MonitorAutoLock
 lock
 (
