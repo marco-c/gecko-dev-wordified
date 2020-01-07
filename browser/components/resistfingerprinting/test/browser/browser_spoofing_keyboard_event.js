@@ -44,6 +44,24 @@ Cu
 Components
 ;
 const
+kStrictKeyPressEvents
+=
+SpecialPowers
+.
+getBoolPref
+(
+"
+dom
+.
+keyboardevent
+.
+keypress
+.
+dispatch_non_printable_keys_only_system_group_in_content
+"
+)
+;
+const
 nsIDOMKeyEvent
 =
 Ci
@@ -66,13 +84,26 @@ SHOULD_DELIVER_KEYUP
 0x4
 ;
 const
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 =
 SHOULD_DELIVER_KEYDOWN
 |
 SHOULD_DELIVER_KEYPRESS
 |
 SHOULD_DELIVER_KEYUP
+;
+const
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
+=
+kStrictKeyPressEvents
+?
+(
+SHOULD_DELIVER_KEYDOWN
+|
+SHOULD_DELIVER_KEYUP
+)
+:
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 ;
 const
 TEST_PATH
@@ -128,7 +159,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -181,7 +212,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -234,7 +265,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -287,7 +318,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -393,7 +424,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -446,7 +477,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -499,7 +530,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -552,7 +583,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -849,7 +880,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -902,7 +933,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -954,7 +985,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1005,7 +1036,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1060,7 +1091,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1113,7 +1144,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1169,7 +1200,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1222,7 +1253,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1278,7 +1309,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1332,7 +1363,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1389,7 +1420,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1442,7 +1473,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1498,7 +1529,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1551,7 +1582,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1607,7 +1638,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1660,7 +1691,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1716,7 +1747,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1769,7 +1800,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1826,7 +1857,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1880,7 +1911,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1936,7 +1967,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -1989,7 +2020,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2045,7 +2076,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2098,7 +2129,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2154,7 +2185,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2207,7 +2238,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2263,7 +2294,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2316,7 +2347,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2372,7 +2403,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2425,7 +2456,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2481,7 +2512,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2534,7 +2565,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2590,7 +2621,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2643,7 +2674,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2699,7 +2730,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2752,7 +2783,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2808,7 +2839,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2861,7 +2892,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2917,7 +2948,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -2970,7 +3001,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3026,7 +3057,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3079,7 +3110,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3135,7 +3166,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3188,7 +3219,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3244,7 +3275,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3297,7 +3328,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3353,7 +3384,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3406,7 +3437,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3462,7 +3493,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3515,7 +3546,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3571,7 +3602,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3624,7 +3655,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3680,7 +3711,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3733,7 +3764,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3789,7 +3820,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3842,7 +3873,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3898,7 +3929,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -3951,7 +3982,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4007,7 +4038,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4060,7 +4091,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4116,7 +4147,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4169,7 +4200,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4225,7 +4256,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4278,7 +4309,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4334,7 +4365,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4387,7 +4418,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4443,7 +4474,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4496,7 +4527,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4552,7 +4583,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4605,7 +4636,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4661,7 +4692,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4714,7 +4745,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4770,7 +4801,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4823,7 +4854,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4879,7 +4910,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4932,7 +4963,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -4985,7 +5016,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5038,7 +5069,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5091,7 +5122,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5144,7 +5175,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5197,7 +5228,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5250,7 +5281,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5303,7 +5334,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5356,7 +5387,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5409,7 +5440,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5465,7 +5496,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5521,7 +5552,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5576,7 +5607,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5631,7 +5662,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5686,7 +5717,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5741,7 +5772,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5797,7 +5828,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5853,7 +5884,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5909,7 +5940,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -5965,7 +5996,7 @@ true
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
@@ -6018,7 +6049,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6071,7 +6102,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6124,7 +6155,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6177,7 +6208,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6230,7 +6261,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6283,7 +6314,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6336,7 +6367,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6389,7 +6420,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6442,7 +6473,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6495,7 +6526,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -6548,7 +6579,7 @@ modifiers
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 result
 :
 {
@@ -7519,7 +7550,7 @@ keyCode
 }
 expectedKeyEvent
 :
-SHOULD_DELIVER_ALL
+SHOULD_DELIVER_ALL_FOR_PRINTABLE
 result
 :
 {
