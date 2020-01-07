@@ -385,6 +385,9 @@ aDocument
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aPrincipal
 )
 ;
 /

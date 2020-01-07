@@ -3500,6 +3500,9 @@ aParams
 nsAString
 &
 aDataURL
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -3553,6 +3556,7 @@ aRv
 ToDataURLImpl
 (
 aCx
+aSubjectPrincipal
 aType
 aParams
 aDataURL
@@ -3756,6 +3760,9 @@ double
 >
 &
 aFrameRate
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -3990,6 +3997,7 @@ nsContentUtils
 GetCurrentJSContext
 (
 )
+aSubjectPrincipal
 )
 ;
 rv
@@ -4041,6 +4049,9 @@ ExtractData
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aSubjectPrincipal
 nsAString
 &
 aType
@@ -4093,6 +4104,7 @@ OwnerDoc
 (
 )
 aCx
+aSubjectPrincipal
 )
 ;
 return
@@ -4122,6 +4134,9 @@ ToDataURLImpl
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aSubjectPrincipal
 const
 nsAString
 &
@@ -4231,6 +4246,7 @@ rv
 ExtractData
 (
 aCx
+aSubjectPrincipal
 type
 params
 getter_AddRefs
@@ -4283,6 +4299,7 @@ rv
 ExtractData
 (
 aCx
+aSubjectPrincipal
 type
 EmptyString
 (
@@ -4399,6 +4416,9 @@ JS
 Value
 >
 aParams
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -4646,6 +4666,7 @@ OwnerDoc
 (
 )
 aCx
+aSubjectPrincipal
 )
 ;
 CanvasRenderingContextHelper
@@ -4847,8 +4868,9 @@ const
 nsAString
 &
 aType
-CallerType
-aCallerType
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -4886,13 +4908,15 @@ if
 mWriteOnly
 &
 &
-aCallerType
 !
-=
-CallerType
+nsContentUtils
 :
 :
-System
+IsSystemPrincipal
+(
+&
+aSubjectPrincipal
+)
 )
 {
 aRv
@@ -4918,6 +4942,7 @@ MozGetAsFileImpl
 (
 aName
 aType
+aSubjectPrincipal
 getter_AddRefs
 (
 file
@@ -4962,6 +4987,9 @@ const
 nsAString
 &
 aType
+nsIPrincipal
+&
+aSubjectPrincipal
 File
 *
 *
@@ -4991,6 +5019,7 @@ nsContentUtils
 GetCurrentJSContext
 (
 )
+aSubjectPrincipal
 type
 EmptyString
 (

@@ -26336,6 +26336,9 @@ const
 CanvasWindingRule
 &
 aWinding
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 {
 if
@@ -26395,6 +26398,7 @@ IsImageExtractionAllowed
 (
 ownerDoc
 aCx
+aSubjectPrincipal
 )
 )
 {
@@ -26479,6 +26483,8 @@ const
 CanvasWindingRule
 &
 aWinding
+nsIPrincipal
+&
 )
 {
 if
@@ -26561,6 +26567,9 @@ double
 aX
 double
 aY
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 {
 if
@@ -26620,6 +26629,7 @@ IsImageExtractionAllowed
 (
 ownerDoc
 aCx
+aSubjectPrincipal
 )
 )
 {
@@ -26744,6 +26754,8 @@ double
 aX
 double
 aY
+nsIPrincipal
+&
 )
 {
 if
@@ -31458,6 +31470,9 @@ double
 aSw
 double
 aSh
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -31895,6 +31910,7 @@ x
 y
 w
 h
+aSubjectPrincipal
 array
 .
 address
@@ -31960,6 +31976,9 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+nsIPrincipal
+&
+aSubjectPrincipal
 JSObject
 *
 *
@@ -32384,6 +32403,7 @@ IsImageExtractionAllowed
 (
 ownerDoc
 aCx
+aSubjectPrincipal
 )
 ;
 }

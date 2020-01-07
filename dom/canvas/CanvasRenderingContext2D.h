@@ -1162,6 +1162,9 @@ const
 CanvasWindingRule
 &
 aWinding
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 ;
 bool
@@ -1182,6 +1185,8 @@ const
 CanvasWindingRule
 &
 aWinding
+nsIPrincipal
+&
 )
 ;
 bool
@@ -1194,6 +1199,9 @@ double
 aX
 double
 aY
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 ;
 bool
@@ -1210,6 +1218,8 @@ double
 aX
 double
 aY
+nsIPrincipal
+&
 )
 ;
 void
@@ -1511,6 +1521,9 @@ double
 aSw
 double
 aSh
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :
@@ -3287,6 +3300,9 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+nsIPrincipal
+&
+aSubjectPrincipal
 JSObject
 *
 *
