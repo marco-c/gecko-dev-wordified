@@ -209,8 +209,6 @@ aTarget
 void
 Delete
 (
-bool
-aWaitingForEMFConversion
 )
 ;
 bool

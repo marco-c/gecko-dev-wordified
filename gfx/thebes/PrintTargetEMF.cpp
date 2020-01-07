@@ -221,10 +221,6 @@ mPrinterDC
 (
 aDC
 )
-mWaitingForEMFConversion
-(
-false
-)
 mChannelBroken
 (
 false
@@ -249,7 +245,6 @@ mPDFiumProcess
 >
 Delete
 (
-mWaitingForEMFConversion
 )
 ;
 }
@@ -826,10 +821,6 @@ PR_Close
 prfile
 )
 ;
-mWaitingForEMFConversion
-=
-true
-;
 return
 NS_OK
 ;
@@ -1003,10 +994,6 @@ broken
 .
 "
 )
-;
-mWaitingForEMFConversion
-=
-false
 ;
 if
 (

@@ -438,9 +438,6 @@ HDC
 mPrinterDC
 ;
 bool
-mWaitingForEMFConversion
-;
-bool
 mChannelBroken
 ;
 }
