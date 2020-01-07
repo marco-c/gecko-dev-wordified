@@ -7391,7 +7391,6 @@ c
 =
 static_cast
 <
-const
 unsigned
 char
 >

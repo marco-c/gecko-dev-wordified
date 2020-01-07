@@ -513,7 +513,6 @@ c
 =
 static_cast
 <
-const
 char
 >
 (
