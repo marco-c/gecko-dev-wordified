@@ -3423,24 +3423,16 @@ device
 "
 "
         
-processInfo
-=
+return
 self
 .
 processInfo
 (
 processName
 )
-        
-if
-processInfo
-:
-            
-return
-processInfo
-[
-0
-]
+is
+not
+None
     
 abstractmethod
     
