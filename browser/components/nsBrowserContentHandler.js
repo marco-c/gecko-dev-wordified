@@ -3155,6 +3155,8 @@ cmdLine
 state
 =
 =
+Ci
+.
 nsICommandLine
 .
 STATE_INITIAL_LAUNCH
