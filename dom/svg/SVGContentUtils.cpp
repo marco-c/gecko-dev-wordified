@@ -594,7 +594,7 @@ StrokeDasharrayFromObject
 const
 FallibleTArray
 <
-gfxFloat
+Float
 >
 &
 dashSrc
