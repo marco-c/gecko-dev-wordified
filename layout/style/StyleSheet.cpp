@@ -3194,6 +3194,11 @@ DidDirty
 (
 )
 ;
+mDirtyFlags
+|
+=
+MODIFIED_RULES
+;
 NOTIFY_STYLE_SETS
 (
 RuleAdded
@@ -3239,6 +3244,11 @@ DidDirty
 (
 )
 ;
+mDirtyFlags
+|
+=
+MODIFIED_RULES
+;
 NOTIFY_STYLE_SETS
 (
 RuleRemoved
@@ -3283,6 +3293,11 @@ aRule
 DidDirty
 (
 )
+;
+mDirtyFlags
+|
+=
+MODIFIED_RULES
 ;
 NOTIFY_STYLE_SETS
 (
