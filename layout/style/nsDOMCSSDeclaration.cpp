@@ -308,7 +308,7 @@ NS_IMPL_QUERY_INTERFACE
 nsDOMCSSDeclaration
 nsICSSDeclaration
 )
-NS_IMETHODIMP
+nsresult
 nsDOMCSSDeclaration
 :
 :
