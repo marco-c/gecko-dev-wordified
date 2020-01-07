@@ -5037,14 +5037,6 @@ remotetabs
 instruction
 -
 label
-#
-PanelUI
--
-remotetabs
--
-mobile
--
-promo
 {
 /
 *
@@ -5235,8 +5227,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 {
 -
@@ -5380,8 +5370,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 :
 hover
@@ -5398,8 +5386,6 @@ color
 PanelUI
 -
 remotetabs
--
-prefs
 -
 button
 :
@@ -5594,8 +5580,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 >
 .
@@ -5781,8 +5765,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 *
 /
@@ -5796,8 +5778,6 @@ of
 PanelUI
 -
 remotetabs
--
-prefs
 -
 button
 *
