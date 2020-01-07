@@ -256,6 +256,9 @@ use
 in
 a
 profiling
+or
+async
+interrupt
 context
 .
 const

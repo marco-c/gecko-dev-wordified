@@ -1778,15 +1778,6 @@ ins
 override
 ;
 void
-visitWasmInterruptCheck
-(
-MWasmInterruptCheck
-*
-ins
-)
-override
-;
-void
 visitWasmTrap
 (
 MWasmTrap

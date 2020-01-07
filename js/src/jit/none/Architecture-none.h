@@ -204,13 +204,6 @@ WasmStackAlignment
 =
 8
 ;
-static
-const
-uint32_t
-WasmTrapInstructionLength
-=
-0
-;
 /
 /
 Does

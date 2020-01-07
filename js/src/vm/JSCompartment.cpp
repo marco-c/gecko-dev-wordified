@@ -532,11 +532,6 @@ nullptr
 wasm
 (
 zone
--
->
-runtimeFromActiveCooperatingThread
-(
-)
 )
 nonSyntacticLexicalEnvironments_
 (
@@ -1099,10 +1094,7 @@ being
 observed
 (
 by
-jit
-:
-:
-InterruptRunningCode
+InterruptRunningJitCode
 )
 /
 /
