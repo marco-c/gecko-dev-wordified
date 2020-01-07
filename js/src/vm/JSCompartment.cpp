@@ -5669,6 +5669,12 @@ sweepAfterMinorGC
 trc
 )
 ;
+dtoaCache
+.
+purge
+(
+)
+;
 sweepMapAndSetObjectsAfterMinorGC
 (
 )

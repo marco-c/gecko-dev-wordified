@@ -5101,6 +5101,13 @@ js
 :
 AutoStableStringChars
 ;
+friend
+class
+js
+:
+:
+TenuringTracer
+;
 /
 *
 Vacuous
