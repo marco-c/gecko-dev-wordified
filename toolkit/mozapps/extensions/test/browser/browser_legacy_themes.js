@@ -70,14 +70,6 @@ mozilla
 .
 org
 "
-"
-worker
--
-test
-mozilla
-.
-org
-"
 ]
 ;
 let
