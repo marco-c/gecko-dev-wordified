@@ -2601,7 +2601,7 @@ buffer
 .
 iter
 .
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
