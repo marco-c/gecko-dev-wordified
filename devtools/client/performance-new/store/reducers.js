@@ -502,9 +502,6 @@ js
 "
 stackwalk
 "
-"
-responsiveness
-"
 ]
 action
 )

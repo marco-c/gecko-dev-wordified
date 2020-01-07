@@ -484,9 +484,6 @@ js
 stackwalk
 "
 "
-responsiveness
-"
-"
 threads
 "
 "
