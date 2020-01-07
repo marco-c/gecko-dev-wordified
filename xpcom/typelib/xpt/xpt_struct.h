@@ -772,6 +772,7 @@ XPTMethodDescriptor
 *
 method_descriptors
 ;
+const
 XPTConstDescriptor
 *
 const_descriptors

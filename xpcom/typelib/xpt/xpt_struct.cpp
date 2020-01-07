@@ -1840,6 +1840,12 @@ return
 false
 ;
 }
+XPTConstDescriptor
+*
+const_descriptors
+=
+nullptr
+;
 if
 (
 id
@@ -1861,9 +1867,6 @@ sizeof
 XPTConstDescriptor
 )
 ;
-id
--
->
 const_descriptors
 =
 static_cast
@@ -1882,9 +1885,6 @@ n
 if
 (
 !
-id
--
->
 const_descriptors
 )
 return
@@ -1917,9 +1917,6 @@ DoConstDescriptor
 arena
 cursor
 &
-id
--
->
 const_descriptors
 [
 i
@@ -1933,6 +1930,13 @@ false
 ;
 }
 }
+id
+-
+>
+const_descriptors
+=
+const_descriptors
+;
 if
 (
 !
