@@ -2420,6 +2420,11 @@ nhdr
 (
 record_header
 .
+variant
+(
+)
+record_header
+.
 version
 (
 )

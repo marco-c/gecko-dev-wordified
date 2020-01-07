@@ -1132,6 +1132,14 @@ ulValueLen
 if
 (
 bytesWritten
+<
+0
+|
+|
+(
+CK_ULONG
+)
+bytesWritten
 !
 =
 ulValueLen

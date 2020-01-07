@@ -161,6 +161,9 @@ cText
 sslBuffer
 *
 plaintext
+SSL3ContentType
+*
+innerType
 SSL3AlertDescription
 *
 alert
@@ -644,6 +647,14 @@ tls13_EncodeDraftVersion
 (
 SSL3ProtocolVersion
 version
+)
+;
+SECStatus
+tls13_ClientReadSupportedVersion
+(
+sslSocket
+*
+ss
 )
 ;
 SECStatus

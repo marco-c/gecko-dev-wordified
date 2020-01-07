@@ -1433,7 +1433,6 @@ if
 (
 to
 >
-=
 RECORD_SEQ_MAX
 )
 {
@@ -1463,7 +1462,7 @@ crSpec
 spec
 -
 >
-seqNum
+nextSeqNum
 =
 to
 ;
@@ -1516,7 +1515,7 @@ if
 spec
 -
 >
-seqNum
+nextSeqNum
 <
 =
 spec
@@ -1548,7 +1547,9 @@ recvdRecords
 spec
 -
 >
-seqNum
+nextSeqNum
+-
+1
 )
 ;
 ssl_ReleaseSpecWriteLock
@@ -1621,7 +1622,7 @@ ssl3
 cwSpec
 -
 >
-seqNum
+nextSeqNum
 =
 to
 ;
@@ -1683,7 +1684,7 @@ ssl3
 cwSpec
 -
 >
-seqNum
+nextSeqNum
 +
 DTLS_RECVD_RECORDS_WINDOW
 +
