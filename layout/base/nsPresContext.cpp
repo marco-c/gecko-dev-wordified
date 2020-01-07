@@ -17610,10 +17610,6 @@ nsPresContext
 aDocument
 aType
 )
-mDOMGeneration
-(
-0
-)
 {
 }
 nsRootPresContext
