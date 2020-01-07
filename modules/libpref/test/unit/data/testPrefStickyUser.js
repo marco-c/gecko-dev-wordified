@@ -7,10 +7,7 @@ defined
 this
 pref
 as
-a
-sticky_pref
-(
-)
+sticky
 .
 Once
 a

@@ -15795,7 +15795,7 @@ preferences
 #
 ifdef
 MOZ_DEV_EDITION
-sticky_pref
+pref
 (
 "
 lightweightThemes
@@ -15812,11 +15812,12 @@ mozilla
 .
 org
 "
+sticky
 )
 ;
 #
 else
-sticky_pref
+pref
 (
 "
 lightweightThemes
@@ -15825,6 +15826,7 @@ selectedThemeID
 "
 "
 "
+sticky
 )
 ;
 #
@@ -16019,7 +16021,7 @@ about
 newtab
 '
 .
-sticky_pref
+pref
 (
 "
 browser
@@ -16029,6 +16031,7 @@ newtabpage
 enhanced
 "
 true
+sticky
 )
 ;
 /

@@ -509,7 +509,8 @@ run_next_test
 /
 Loading
 a
-sticky_pref
+sticky
+pref
 then
 a
 user_pref

@@ -178,7 +178,7 @@ light
 #
 ifdef
 MOZ_DEV_EDITION
-sticky_pref
+pref
 (
 "
 devtools
@@ -188,11 +188,12 @@ theme
 "
 dark
 "
+sticky
 )
 ;
 #
 else
-sticky_pref
+pref
 (
 "
 devtools
@@ -202,6 +203,7 @@ theme
 "
 light
 "
+sticky
 )
 ;
 #
