@@ -695,9 +695,9 @@ JNIEnv
 *
 aEnv
 int
-aCrashFd
-int
 aIPCFd
+int
+aCrashFd
 int
 aCrashAnnotationFd
 )
