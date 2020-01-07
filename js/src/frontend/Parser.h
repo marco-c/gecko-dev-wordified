@@ -1697,7 +1697,7 @@ sc
 prs
 -
 >
-anyChars
+tokenStream
 prs
 -
 >
