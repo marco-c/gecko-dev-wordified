@@ -1228,13 +1228,6 @@ mJSPluginID
 (
 aJSPluginID
 )
-mEventMode
-(
-FrameLoaderBinding
-:
-:
-EVENT_MODE_NORMAL_DISPATCH
-)
 mBrowserChangingProcessBlockers
 (
 nullptr
