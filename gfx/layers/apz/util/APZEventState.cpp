@@ -2248,6 +2248,10 @@ if
 sentContentResponse
 &
 &
+!
+isTouchPrevented
+&
+&
 aApzResponse
 =
 =
