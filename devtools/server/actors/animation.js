@@ -181,11 +181,11 @@ http
 :
 /
 /
-w3c
+drafts
 .
-github
+csswg
 .
-io
+org
 /
 web
 -
