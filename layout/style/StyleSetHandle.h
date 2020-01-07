@@ -690,9 +690,6 @@ Init
 nsPresContext
 *
 aPresContext
-nsBindingManager
-*
-aBindingManager
 )
 ;
 inline
