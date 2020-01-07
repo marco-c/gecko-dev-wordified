@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsPrintEngine
+nsPrintJob
 .
 h
 "
@@ -1337,14 +1337,14 @@ public
 explicit
 nsScriptSuppressor
 (
-nsPrintEngine
+nsPrintJob
 *
-aPrintEngine
+aPrintJob
 )
 :
-mPrintEngine
+mPrintJob
 (
-aPrintEngine
+aPrintJob
 )
 mSuppressed
 (
@@ -1369,14 +1369,14 @@ Suppress
 {
 if
 (
-mPrintEngine
+mPrintJob
 )
 {
 mSuppressed
 =
 true
 ;
-mPrintEngine
+mPrintJob
 -
 >
 TurnScriptingOn
@@ -1393,13 +1393,13 @@ Unsuppress
 {
 if
 (
-mPrintEngine
+mPrintJob
 &
 &
 mSuppressed
 )
 {
-mPrintEngine
+mPrintJob
 -
 >
 TurnScriptingOn
@@ -1418,7 +1418,7 @@ Disconnect
 (
 )
 {
-mPrintEngine
+mPrintJob
 =
 nullptr
 ;
@@ -1427,9 +1427,9 @@ protected
 :
 RefPtr
 <
-nsPrintEngine
+nsPrintJob
 >
-mPrintEngine
+mPrintJob
 ;
 bool
 mSuppressed
@@ -1438,7 +1438,7 @@ mSuppressed
 ;
 NS_IMPL_ISUPPORTS
 (
-nsPrintEngine
+nsPrintJob
 nsIWebProgressListener
 nsISupportsWeakReference
 nsIObserver
@@ -1500,7 +1500,7 @@ nsIObserver
 /
 -
 -
-nsPrintEngine
+nsPrintJob
 Class
 Impl
 /
@@ -1556,10 +1556,10 @@ Impl
 -
 -
 -
-nsPrintEngine
+nsPrintJob
 :
 :
-nsPrintEngine
+nsPrintJob
 (
 )
 :
@@ -1664,11 +1664,11 @@ false
 -
 -
 -
-nsPrintEngine
+nsPrintJob
 :
 :
 ~
-nsPrintEngine
+nsPrintJob
 (
 )
 {
@@ -1743,7 +1743,7 @@ DisconnectPagePrintTimer
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 Destroy
@@ -1842,7 +1842,7 @@ nullptr
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 DestroyPrintingData
@@ -2090,7 +2090,7 @@ DocViewer
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 Initialize
@@ -2204,7 +2204,7 @@ NS_OK
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 CheckBeforeDestroy
@@ -2295,7 +2295,7 @@ false
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 Cancelled
@@ -2428,7 +2428,7 @@ we
 can
 do
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 InstallPrintPreviewListener
@@ -2588,7 +2588,7 @@ AddListeners
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 GetSeqFrameAndCountPagesInternal
@@ -2816,7 +2816,7 @@ NS_OK
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 GetSeqFrameAndCountPages
@@ -3431,7 +3431,7 @@ endif
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 CommonPrint
@@ -3591,7 +3591,7 @@ rv
 ;
 }
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 DoCommonPrint
@@ -5528,7 +5528,7 @@ IsSyncPagePrinting
 {
 RefPtr
 <
-nsPrintEngine
+nsPrintJob
 >
 self
 (
@@ -6275,7 +6275,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 Print
@@ -6364,7 +6364,7 @@ doc
 ;
 }
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 PrintPreview
@@ -6631,7 +6631,7 @@ domDoc
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetIsFramesetDocument
@@ -6750,7 +6750,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetIsIFrameSelected
@@ -6941,7 +6941,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetIsRangeSelection
@@ -7065,7 +7065,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetIsFramesetFrameSelected
@@ -7189,7 +7189,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetPrintPreviewNumPages
@@ -7389,7 +7389,7 @@ for
 their
 titles
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 EnumerateDocumentNames
@@ -7667,7 +7667,7 @@ NS_OK
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 GetGlobalPrintSettings
@@ -7809,7 +7809,7 @@ rv
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetDoingPrint
@@ -7918,7 +7918,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetDoingPrintPreview
@@ -8027,7 +8027,7 @@ NS_OK
 -
 -
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 GetCurrentPrintSettings
@@ -8350,7 +8350,7 @@ for
 Printer
 Preview
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 CheckForPrinters
@@ -8649,7 +8649,7 @@ Print
 Progress
 Dialog
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 ShowPrintProgress
@@ -9225,7 +9225,7 @@ mPrintProgressParams
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 IsThereARangeSelection
@@ -9463,7 +9463,7 @@ IsCollapsed
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 IsParentAFrameSet
@@ -9811,7 +9811,7 @@ the
 document
 tree
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 BuildDocTree
@@ -10141,7 +10141,7 @@ LastElement
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 GetDocumentTitleAndURL
@@ -10451,7 +10451,7 @@ contained
 it
 .
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 MapContentToWebShells
@@ -10888,7 +10888,7 @@ as
 an
 eFrame
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 CheckForChildFrameSets
@@ -11219,7 +11219,7 @@ PO
 we
 have
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 MapContentForPO
@@ -11610,7 +11610,7 @@ child
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 IsThereAnIFrameSelected
@@ -11891,7 +11891,7 @@ into
 the
 tree
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 SetPrintPO
@@ -12083,7 +12083,7 @@ the
 situation
 .
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 GetDisplayTitleAndURL
@@ -12373,7 +12373,7 @@ mBrandName
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 DocumentReadyForPrinting
@@ -12562,7 +12562,7 @@ occurred
 *
 /
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 CleanupOnFailure
@@ -12801,7 +12801,7 @@ aResult
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 FirePrintingErrorEvent
@@ -13185,7 +13185,7 @@ Methods
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 ReconstructAndReflow
@@ -13846,7 +13846,7 @@ NS_OK
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 SetupToPrintContent
@@ -15771,7 +15771,7 @@ sub
 -
 docs
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 ReflowDocList
@@ -15957,7 +15957,7 @@ NS_OK
 ;
 }
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 FirePrintPreviewUpdateEvent
@@ -16043,7 +16043,7 @@ RunDOMEventWhenSafe
 }
 }
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 InitPrintDocConstruction
@@ -16137,7 +16137,7 @@ rv
 ;
 }
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 AfterNetworkPrint
@@ -16358,7 +16358,7 @@ rv
 NS_WARNING
 (
 "
-nsPrintEngine
+nsPrintJob
 :
 :
 AfterNetworkPrint
@@ -16462,7 +16462,7 @@ rv
 /
 nsIWebProgressListener
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 OnStateChange
@@ -16586,7 +16586,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 OnProgressChange
@@ -16627,7 +16627,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 OnLocationChange
@@ -16665,7 +16665,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 OnStatusChange
@@ -16704,7 +16704,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 OnSecurityChange
@@ -16796,7 +16796,7 @@ NS_OK
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 UpdateZoomRatio
@@ -16954,7 +16954,7 @@ scaling
 }
 }
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 UpdateSelectionAndShrinkPrintObject
@@ -17388,7 +17388,7 @@ NS_OK
 ;
 }
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 DoSetPixelScale
@@ -17509,7 +17509,7 @@ doSetPixelScale
 }
 nsView
 *
-nsPrintEngine
+nsPrintJob
 :
 :
 GetParentViewForRoot
@@ -17552,7 +17552,7 @@ nullptr
 ;
 }
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 SetRootView
@@ -18009,7 +18009,7 @@ Reflow
 a
 nsPrintObject
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 ReflowPrintObject
@@ -19450,7 +19450,7 @@ we
 are
 printing
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 CalcNumPrintablePages
@@ -19999,7 +19999,7 @@ to
 be
 printed
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 PrintDocContent
@@ -21004,7 +21004,7 @@ NS_OK
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 DoPrint
@@ -21588,7 +21588,7 @@ NS_OK
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 SetDocAndURLIntoProgress
@@ -21788,7 +21788,7 @@ docURLStr
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 EllipseLongString
@@ -22156,7 +22156,7 @@ Properties
 *
 /
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 HasPrintCallbackCanvas
@@ -22275,7 +22275,7 @@ mDocument
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 PrePrintPage
@@ -22599,7 +22599,7 @@ done
 ;
 }
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 PrintPage
@@ -23336,7 +23336,7 @@ donePrinting
 ;
 }
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 PageDone
@@ -23745,7 +23745,7 @@ Methods
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 SetIsPrinting
@@ -23890,7 +23890,7 @@ true
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 SetIsPrintPreview
@@ -23990,7 +23990,7 @@ aIsPrintPreview
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 CleanupDocTitleArray
@@ -24122,7 +24122,7 @@ aCount
 /
 static
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 HasFramesetChild
@@ -24267,7 +24267,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-nsPrintEngine
+nsPrintJob
 :
 :
 FindFocusedDOMWindow
@@ -24447,7 +24447,7 @@ nullptr
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 IsWindowsInOurSubTree
@@ -24652,7 +24652,7 @@ found
 -
 -
 bool
-nsPrintEngine
+nsPrintJob
 :
 :
 DonePrintingPages
@@ -25107,7 +25107,7 @@ into
 the
 tree
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 SetPrintAsIs
@@ -25237,7 +25237,7 @@ that
 matches
 nsPrintObject
 *
-nsPrintEngine
+nsPrintJob
 :
 :
 FindPrintObjectByDOMWin
@@ -25434,7 +25434,7 @@ nullptr
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 EnablePOsForPrinting
@@ -25592,7 +25592,7 @@ PR_PL
 *
 *
 *
-nsPrintEngine
+nsPrintJob
 :
 :
 EnablePOsForPrinting
@@ -27224,7 +27224,7 @@ layout
 frame
 nsPrintObject
 *
-nsPrintEngine
+nsPrintJob
 :
 :
 FindSmallestSTF
@@ -27440,7 +27440,7 @@ smallestPO
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 TurnScriptingOn
@@ -28281,7 +28281,7 @@ up
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 CloseProgressDialog
@@ -28385,7 +28385,7 @@ NS_OK
 -
 -
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 FinishPrintPreview
@@ -28916,7 +28916,7 @@ Code
 *
 /
 nsresult
-nsPrintEngine
+nsPrintJob
 :
 :
 StartPagePrintTimer
@@ -29115,7 +29115,7 @@ mPagePrintTimer
 remotePrintJob
 -
 >
-SetPrintEngine
+SetPrintJob
 (
 this
 )
@@ -29181,7 +29181,7 @@ Interface
 *
 /
 NS_IMETHODIMP
-nsPrintEngine
+nsPrintJob
 :
 :
 Observe
@@ -29511,7 +29511,7 @@ mDocViewerPrint
 -
 -
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 FirePrintCompletionEvent
@@ -29592,7 +29592,7 @@ forget
 ;
 }
 void
-nsPrintEngine
+nsPrintJob
 :
 :
 DisconnectPagePrintTimer
@@ -30832,7 +30832,7 @@ nsIPresShell
 *
 shell
 =
-nsPrintEngine
+nsPrintJob
 :
 :
 GetPresShellFor
@@ -32537,7 +32537,7 @@ docTitleStr
 nsAutoString
 docURLStr
 ;
-nsPrintEngine
+nsPrintJob
 :
 :
 GetDisplayTitleAndURL
@@ -32545,7 +32545,7 @@ GetDisplayTitleAndURL
 aPO
 docTitleStr
 docURLStr
-nsPrintEngine
+nsPrintJob
 :
 :
 eDocTitleDefURLDoc

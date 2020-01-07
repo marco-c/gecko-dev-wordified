@@ -3242,7 +3242,7 @@ Printing
 Bug
 1088061
 :
-nsPrintEngine
+nsPrintJob
 '
 s
 DoCommonPrint

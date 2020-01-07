@@ -210,7 +210,7 @@ RecvDialogOpened
 {
 /
 /
-nsPrintEngine
+nsPrintJob
 '
 s
 observer

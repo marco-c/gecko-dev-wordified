@@ -162,7 +162,7 @@ nsThreadUtils
 h
 "
 class
-nsPrintEngine
+nsPrintJob
 ;
 class
 nsIDocument
@@ -297,9 +297,9 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 nsPagePrintTimer
 (
-nsPrintEngine
+nsPrintJob
 *
-aPrintEngine
+aPrintJob
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
@@ -316,9 +316,9 @@ Runnable
 nsPagePrintTimer
 "
 )
-mPrintEngine
+mPrintJob
 (
-aPrintEngine
+aPrintJob
 )
 mDocViewerPrint
 (
@@ -397,7 +397,7 @@ Disconnect
 (
 )
 {
-mPrintEngine
+mPrintJob
 =
 nullptr
 ;
@@ -435,9 +435,9 @@ Fail
 (
 )
 ;
-nsPrintEngine
+nsPrintJob
 *
-mPrintEngine
+mPrintJob
 ;
 nsCOMPtr
 <

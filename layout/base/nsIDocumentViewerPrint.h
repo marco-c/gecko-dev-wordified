@@ -201,8 +201,8 @@ between
 the
 DocumentViewer
 and
-the
-PrintEngine
+nsPrintJob
+.
 *
 /
 class
