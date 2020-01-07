@@ -1992,9 +1992,6 @@ true
 "
 ]
 )
-%
-endif
-windowdragbox
 {
 -
 moz
@@ -2006,6 +2003,8 @@ dragging
 drag
 ;
 }
+%
+endif
 /
 *
 The
