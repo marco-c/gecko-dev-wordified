@@ -938,18 +938,6 @@ gecko_bindings
 bindings
 :
 :
-RawGeckoServoAnimationValueListBorrowed
-;
-use
-style
-:
-:
-gecko_bindings
-:
-:
-bindings
-:
-:
 RawGeckoServoAnimationValueListBorrowedMut
 ;
 use
@@ -1652,7 +1640,6 @@ properties
 {
 LonghandId
 LonghandIdSet
-PropertyDeclaration
 PropertyDeclarationBlock
 PropertyId
 }
