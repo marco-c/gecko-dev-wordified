@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsITextControlElement
 .
 h
@@ -758,8 +751,6 @@ nsGenericHTMLFormElementWithState
 public
 nsImageLoadingContent
 public
-nsIDOMHTMLInputElement
-public
 nsITextControlElement
 public
 nsIDOMNSEditableElement
@@ -934,10 +925,6 @@ aEvent
 )
 override
 ;
-/
-/
-nsIDOMHTMLInputElement
-NS_DECL_NSIDOMHTMLINPUTELEMENT
 /
 /
 nsIDOMNSEditableElement
