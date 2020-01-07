@@ -112,7 +112,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -138,7 +138,7 @@ const
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -78,7 +78,7 @@ let
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -126,7 +126,7 @@ let
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

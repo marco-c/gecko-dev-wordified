@@ -208,7 +208,7 @@ var
 BrowserToolboxProcess
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -290,7 +290,7 @@ var
 AddonManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

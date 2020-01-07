@@ -91,7 +91,7 @@ const
 clearTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

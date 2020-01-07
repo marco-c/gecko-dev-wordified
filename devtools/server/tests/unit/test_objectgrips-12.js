@@ -49,7 +49,7 @@ strict
 Test
 getDisplayString
 .
-Cu
+ChromeUtils
 .
 import
 (

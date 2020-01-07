@@ -127,7 +127,7 @@ const
 VariablesView
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

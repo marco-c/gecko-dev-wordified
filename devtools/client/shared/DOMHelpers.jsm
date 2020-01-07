@@ -66,7 +66,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -92,7 +92,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

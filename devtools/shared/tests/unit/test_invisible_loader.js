@@ -37,7 +37,7 @@ const
 addDebuggerToGlobal
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -215,7 +215,7 @@ mochitests
 const
 promise
 =
-Cu
+ChromeUtils
 .
 import
 (

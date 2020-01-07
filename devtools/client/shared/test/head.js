@@ -167,7 +167,7 @@ const
 DOMHelpers
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

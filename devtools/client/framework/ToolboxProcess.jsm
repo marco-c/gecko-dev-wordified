@@ -142,7 +142,7 @@ const
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -169,7 +169,7 @@ require
 DevToolsLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

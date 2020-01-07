@@ -743,15 +743,11 @@ try
 {
 globalObj
 =
-Cu
-.
-import
+require
 (
 args
 .
 source
-{
-}
 )
 ;
 }

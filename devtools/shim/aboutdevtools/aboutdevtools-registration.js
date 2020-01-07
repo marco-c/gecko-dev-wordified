@@ -91,7 +91,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,7 +117,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

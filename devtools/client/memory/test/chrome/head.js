@@ -37,7 +37,7 @@ var
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

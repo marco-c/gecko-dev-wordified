@@ -113,7 +113,7 @@ var
 DevToolsLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -89,7 +89,7 @@ const
 setTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

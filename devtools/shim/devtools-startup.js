@@ -271,7 +271,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2552,7 +2552,7 @@ clearSubview
 fillSubviewFromMenuItems
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -4268,7 +4268,7 @@ let
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -4755,7 +4755,7 @@ let
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -4966,7 +4966,7 @@ let
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -5043,7 +5043,7 @@ let
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -5216,7 +5216,7 @@ const
 BrowserToolboxProcess
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -5635,7 +5635,7 @@ let
 DevToolsLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

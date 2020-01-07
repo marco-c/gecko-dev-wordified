@@ -62,7 +62,7 @@ var
 FileUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

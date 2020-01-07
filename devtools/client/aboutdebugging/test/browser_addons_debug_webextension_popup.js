@@ -105,7 +105,7 @@ const
 BrowserToolboxProcess
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

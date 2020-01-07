@@ -64,7 +64,7 @@ strict
 const
 loaders
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -92,7 +92,7 @@ const
 devtools
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

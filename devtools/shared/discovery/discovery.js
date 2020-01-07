@@ -392,9 +392,7 @@ const
 XPCOMUtils
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -409,8 +407,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 XPCOMUtils

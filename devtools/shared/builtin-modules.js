@@ -152,9 +152,7 @@ chrome
 const
 promise
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -169,8 +167,6 @@ Promise
 .
 jsm
 "
-{
-}
 )
 .
 Promise
@@ -178,9 +174,7 @@ Promise
 const
 jsmScope
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -195,8 +189,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -912,7 +904,7 @@ temp
 ;
 try
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -1425,9 +1417,7 @@ setTimeout
 clearTimeout
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -1442,8 +1432,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 /
@@ -1955,9 +1943,7 @@ console
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -1972,8 +1958,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 .
 console
@@ -1992,9 +1976,7 @@ clearTimeout
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -2009,8 +1991,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 .
 clearTimeout
@@ -2029,9 +2009,7 @@ setTimeout
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -2046,8 +2024,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 .
 setTimeout
@@ -2066,9 +2042,7 @@ clearInterval
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -2083,8 +2057,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 .
 clearInterval
@@ -2103,9 +2075,7 @@ setInterval
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -2120,8 +2090,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 .
 setInterval

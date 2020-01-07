@@ -171,9 +171,7 @@ Ci
 var
 OS
 =
-Cu
-.
-import
+require
 (
 '
 resource
@@ -188,8 +186,6 @@ osfile
 .
 jsm
 '
-{
-}
 )
 .
 OS

@@ -44,7 +44,7 @@ var
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -70,7 +70,7 @@ var
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

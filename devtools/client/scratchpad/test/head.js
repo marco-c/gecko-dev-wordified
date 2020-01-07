@@ -55,7 +55,7 @@ const
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -81,7 +81,7 @@ const
 FileUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -107,7 +107,7 @@ const
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -133,7 +133,7 @@ const
 ScratchpadManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -163,7 +163,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

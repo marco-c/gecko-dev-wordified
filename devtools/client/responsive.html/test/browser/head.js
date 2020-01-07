@@ -2319,7 +2319,7 @@ const
 SessionHistory
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -91,7 +91,7 @@ var
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -120,7 +120,7 @@ resolveURI
 unload
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -148,7 +148,7 @@ var
 requireRawId
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -224,9 +224,7 @@ const
 setTimeout
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -241,8 +239,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 /

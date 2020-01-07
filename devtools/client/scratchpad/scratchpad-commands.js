@@ -148,9 +148,7 @@ const
 ScratchpadManager
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -169,8 +167,6 @@ manager
 .
 jsm
 "
-{
-}
 )
 ;
 ScratchpadManager

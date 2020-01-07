@@ -102,7 +102,7 @@ ParserHelpers
 SyntaxTreeVisitor
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

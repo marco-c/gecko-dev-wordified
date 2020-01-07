@@ -113,7 +113,7 @@ require
 loader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

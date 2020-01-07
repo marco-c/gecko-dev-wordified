@@ -76,7 +76,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -136,7 +136,7 @@ Load
 a
 JS
 module
-Cu
+ChromeUtils
 .
 import
 (

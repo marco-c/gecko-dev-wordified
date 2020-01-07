@@ -177,9 +177,7 @@ Cu
 var
 XPCOMUtils
 =
-Cu
-.
-import
+require
 (
 '
 resource
@@ -194,8 +192,6 @@ XPCOMUtils
 .
 jsm
 '
-{
-}
 )
 .
 XPCOMUtils

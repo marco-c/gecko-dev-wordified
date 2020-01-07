@@ -66,7 +66,7 @@ const
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

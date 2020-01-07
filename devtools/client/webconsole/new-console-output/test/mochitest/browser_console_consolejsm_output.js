@@ -211,7 +211,7 @@ let
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -947,7 +947,7 @@ let
 ConsoleAPI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -1166,7 +1166,7 @@ let
 ConsoleAPI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -1430,7 +1430,7 @@ let
 ConsoleAPI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -1915,7 +1915,7 @@ let
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

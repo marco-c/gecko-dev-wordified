@@ -89,7 +89,7 @@ BrowserLoaderModule
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

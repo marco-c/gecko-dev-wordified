@@ -494,7 +494,7 @@ the
 list
 of
 sources
-Cu
+ChromeUtils
 .
 import
 (

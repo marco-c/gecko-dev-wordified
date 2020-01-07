@@ -81,7 +81,7 @@ const
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -224,7 +224,7 @@ var
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -250,7 +250,7 @@ var
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -276,7 +276,7 @@ var
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

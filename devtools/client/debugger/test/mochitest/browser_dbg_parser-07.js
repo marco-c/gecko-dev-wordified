@@ -108,7 +108,7 @@ let
 ParserHelpers
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

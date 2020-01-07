@@ -105,7 +105,7 @@ issue
 is
 fixed
 .
-Cu
+ChromeUtils
 .
 import
 (

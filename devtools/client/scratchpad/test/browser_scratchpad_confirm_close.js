@@ -57,7 +57,7 @@ tempScope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -77,7 +77,7 @@ jsm
 tempScope
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
