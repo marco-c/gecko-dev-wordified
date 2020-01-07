@@ -89,7 +89,7 @@ nsHangDetails
 :
 GetDuration
 (
-double
+uint32_t
 *
 aDuration
 )
@@ -100,10 +100,6 @@ aDuration
 mDetails
 .
 duration
-(
-)
-.
-ToMilliseconds
 (
 )
 ;

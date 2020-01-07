@@ -600,10 +600,7 @@ mon
 .
 Wait
 (
-TimeDuration
-:
-:
-FromSeconds
+PR_SecondsToInterval
 (
 300
 )

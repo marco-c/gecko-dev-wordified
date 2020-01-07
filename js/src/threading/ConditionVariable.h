@@ -743,6 +743,9 @@ rel_time
 mozilla
 :
 :
+detail
+:
+:
 CVStatus
 :
 :

@@ -4404,13 +4404,7 @@ mal
 .
 Wait
 (
-TimeDuration
-:
-:
-FromSeconds
-(
-10
-)
+10000
 )
 ;
 }

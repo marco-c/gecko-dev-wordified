@@ -2240,7 +2240,7 @@ NowLoRes
 (
 )
 ;
-TimeDuration
+PRIntervalTime
 wait_interval
 ;
 bool
@@ -2344,10 +2344,7 @@ events
 quickly
 wait_interval
 =
-TimeDuration
-:
-:
-FromMicroseconds
+PR_MicrosecondsToInterval
 (
 50
 )
@@ -2379,10 +2376,7 @@ variable
 .
 wait_interval
 =
-TimeDuration
-:
-:
-FromMilliseconds
+PR_MillisecondsToInterval
 (
 250
 )

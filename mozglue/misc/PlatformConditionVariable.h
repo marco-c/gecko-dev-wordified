@@ -178,6 +178,9 @@ endif
 namespace
 mozilla
 {
+namespace
+detail
+{
 enum
 class
 CVStatus
@@ -186,9 +189,6 @@ NoTimeout
 Timeout
 }
 ;
-namespace
-detail
-{
 class
 ConditionVariableImpl
 {
