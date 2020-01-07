@@ -2106,7 +2106,9 @@ nullptr
 {
 if
 (
-mDirty
+HasForcedUniqueInner
+(
+)
 )
 {
 /
@@ -3539,7 +3541,9 @@ mInner
 mComplete
 |
 |
-mDirty
+HasForcedUniqueInner
+(
+)
 "
 caller
 must

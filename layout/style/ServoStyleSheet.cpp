@@ -868,7 +868,9 @@ aOwningNodeToUse
 {
 if
 (
-mDirty
+HasForcedUniqueInner
+(
+)
 )
 {
 /
