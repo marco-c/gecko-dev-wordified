@@ -211,7 +211,7 @@ dbg
 )
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "
@@ -252,7 +252,7 @@ dbg
 )
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "
@@ -362,7 +362,7 @@ dbg
 )
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "
