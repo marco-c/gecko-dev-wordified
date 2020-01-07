@@ -2545,9 +2545,10 @@ spec
 get
 (
 )
-Move
-(
 buf
+.
+get
+(
 )
 len
 )
@@ -3444,9 +3445,10 @@ startupCache
 PutBuffer
 (
 kXULCacheInfoKey
-Move
-(
 buf
+.
+get
+(
 )
 len
 )
