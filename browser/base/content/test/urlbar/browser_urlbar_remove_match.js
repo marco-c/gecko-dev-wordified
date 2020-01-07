@@ -121,10 +121,6 @@ await
 promiseAutocompleteResultPopup
 (
 "
-remove
-.
-me
-/
 from_urlbar
 "
 )
