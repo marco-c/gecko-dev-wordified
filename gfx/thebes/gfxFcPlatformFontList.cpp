@@ -8873,11 +8873,18 @@ ifdef
 MOZ_CONTENT_SANDBOX
 /
 /
-Create
+If
+read
+sandboxing
+is
+enabled
+create
 a
 temporary
 SandboxPolicy
 to
+/
+/
 check
 font
 paths
@@ -8886,8 +8893,6 @@ use
 a
 fake
 PID
-/
-/
 to
 avoid
 picking
@@ -8896,6 +8901,8 @@ any
 PID
 -
 specific
+/
+/
 rules
 by
 accident
@@ -8909,7 +8916,7 @@ GetEffectiveContentSandboxLevel
 (
 )
 >
-0
+2
 &
 &
 !
