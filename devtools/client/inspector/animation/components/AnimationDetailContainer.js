@@ -219,6 +219,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -232,6 +239,7 @@ animation
 emitEventForTest
 getAnimatedPropertyMap
 setDetailVisibility
+simulateAnimation
 }
 =
 this
@@ -273,6 +281,7 @@ AnimatedPropertyListContainer
 animation
 emitEventForTest
 getAnimatedPropertyMap
+simulateAnimation
 }
 )
 :

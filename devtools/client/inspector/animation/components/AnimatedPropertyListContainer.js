@@ -190,6 +190,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -202,6 +209,7 @@ const
 animation
 emitEventForTest
 getAnimatedPropertyMap
+simulateAnimation
 }
 =
 this
@@ -240,6 +248,7 @@ AnimatedPropertyList
 animation
 emitEventForTest
 getAnimatedPropertyMap
+simulateAnimation
 }
 )
 )

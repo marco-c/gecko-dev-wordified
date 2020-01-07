@@ -180,6 +180,13 @@ PropTypes
 string
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 state
 :
 PropTypes
@@ -204,7 +211,9 @@ render
 const
 {
 property
+simulateAnimation
 state
+values
 }
 =
 this
@@ -236,6 +245,10 @@ state
 )
 KeyframesGraph
 (
+{
+simulateAnimation
+values
+}
 )
 )
 ;

@@ -175,6 +175,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -328,6 +335,15 @@ render
 {
 const
 {
+simulateAnimation
+}
+=
+this
+.
+props
+;
+const
+{
 animatedPropertyMap
 }
 =
@@ -398,6 +414,7 @@ AnimatedPropertyItem
 (
 {
 property
+simulateAnimation
 state
 values
 }

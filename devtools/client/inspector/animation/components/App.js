@@ -428,6 +428,7 @@ AnimationDetailContainer
 emitEventForTest
 getAnimatedPropertyMap
 setDetailVisibility
+simulateAnimation
 }
 )
 endPanelControl
