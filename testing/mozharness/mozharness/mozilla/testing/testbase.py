@@ -165,14 +165,6 @@ mozharness
 .
 mozilla
 .
-taskcluster_helper
-import
-TaskClusterArtifactFinderMixin
-from
-mozharness
-.
-mozilla
-.
 testing
 .
 unittest
@@ -839,10 +831,8 @@ VirtualenvMixin
 BuildbotMixin
 ResourceMonitoringMixin
                    
-TaskClusterArtifactFinderMixin
 TooltoolMixin
 TryToolsMixin
-                   
 VerifyToolsMixin
 )
 :
