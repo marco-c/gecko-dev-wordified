@@ -669,7 +669,7 @@ script
 utils
 .
 js
-getFrameScript
+loadFrameScriptUtils
 (
 )
 ;

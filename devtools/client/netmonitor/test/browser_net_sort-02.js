@@ -223,7 +223,7 @@ some
 requests
 later
 .
-loadCommonFrameScript
+loadFrameScriptUtils
 (
 )
 ;

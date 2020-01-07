@@ -108,7 +108,7 @@ context
 )
 ;
 yield
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;

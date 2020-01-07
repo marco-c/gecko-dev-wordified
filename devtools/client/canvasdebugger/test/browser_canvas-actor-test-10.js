@@ -71,7 +71,7 @@ initCanvasDebuggerBackend
 WEBGL_BINDINGS_URL
 )
 ;
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;
