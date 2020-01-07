@@ -3014,6 +3014,7 @@ map
 ]
 =
 {
+sColorMap
 sLightingEffectsMap
 }
 ;

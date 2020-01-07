@@ -916,6 +916,7 @@ map
 ]
 =
 {
+sColorMap
 sFEFloodMap
 sFiltersMap
 sFontSpecificationMap
