@@ -5011,11 +5011,7 @@ aState
 const
 uintptr_t
 *
-aAncestorScrollId
-const
-uintptr_t
-*
-aAncestorClipId
+aParentId
 LayoutRect
 aClipRect
 const
@@ -5043,11 +5039,7 @@ aScrollId
 const
 uintptr_t
 *
-aAncestorScrollId
-const
-uintptr_t
-*
-aAncestorClipId
+aParentId
 LayoutRect
 aContentRect
 LayoutRect
