@@ -1036,7 +1036,7 @@ XPIScope
 .
 XPIStates
 .
-bootstrappedAddons
+enabledAddons
 (
 )
 )
@@ -2645,18 +2645,6 @@ ok
 b1
 .
 isSystem
-)
-;
-ok
-(
-!
-isExtensionInAddonsList
-(
-profileDir
-b1
-.
-id
-)
 )
 ;
 await
