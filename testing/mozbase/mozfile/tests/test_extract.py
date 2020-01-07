@@ -899,6 +899,7 @@ path
 )
         
 except
+BaseException
 :
             
 os
@@ -1024,6 +1025,7 @@ path
 )
         
 except
+BaseException
 :
             
 os

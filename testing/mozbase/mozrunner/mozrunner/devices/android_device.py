@@ -2806,6 +2806,7 @@ git_pull_complete
 True
                         
 except
+Exception
 :
                             
 if
@@ -5270,6 +5271,7 @@ wait
 )
         
 except
+Exception
 :
             
 if
@@ -5821,6 +5823,7 @@ port
 )
             
 except
+Exception
 :
                 
 _log_warning
@@ -6472,6 +6475,7 @@ creation_time
 )
         
 except
+Exception
 :
             
 _log_warning
@@ -7043,6 +7047,7 @@ wait
 )
     
 except
+Exception
 :
         
 if
@@ -7258,6 +7263,7 @@ output
 )
     
 except
+Exception
 :
         
 _log_warning

@@ -211,6 +211,7 @@ stderr
 )
     
 except
+Exception
 :
         
 return

@@ -3006,6 +3006,7 @@ profileDir
 )
             
 except
+Exception
 :
                 
 pass
@@ -13096,6 +13097,7 @@ directory
 )
             
 except
+Exception
 :
                 
 self

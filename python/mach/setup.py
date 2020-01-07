@@ -61,6 +61,7 @@ setuptools
 import
 setup
 except
+ImportError
 :
     
 from

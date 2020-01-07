@@ -114,6 +114,7 @@ read
 (
 )
 except
+Exception
 :
     
 description

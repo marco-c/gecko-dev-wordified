@@ -1381,6 +1381,7 @@ expandedPath
 )
                 
 except
+Exception
 :
                     
 continue

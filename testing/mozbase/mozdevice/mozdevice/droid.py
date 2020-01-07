@@ -1355,6 +1355,7 @@ timeout
 )
         
 except
+Exception
 :
             
 #

@@ -4586,6 +4586,7 @@ parallel
 )
             
 except
+Exception
 :
                 
 pass

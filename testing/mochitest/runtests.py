@@ -3973,6 +3973,7 @@ terminate
 )
         
 except
+Exception
 :
             
 self
@@ -9307,6 +9308,7 @@ close
 break
             
 except
+Exception
 :
                 
 time
@@ -15983,6 +15985,7 @@ pid
 )
             
 except
+Exception
 :
                 
 self
@@ -16820,6 +16823,7 @@ attrs
 )
                 
 except
+Exception
 :
                     
 #
@@ -22259,6 +22263,7 @@ status
 1
         
 except
+Exception
 :
             
 traceback
@@ -22630,6 +22635,7 @@ browser_pid
 ]
             
 except
+Exception
 :
                 
 self
@@ -22676,6 +22682,7 @@ child_pids
 ]
             
 except
+Exception
 :
                 
 self

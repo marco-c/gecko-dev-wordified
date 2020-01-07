@@ -720,6 +720,7 @@ return
 path
         
 except
+Exception
 :
             
 #

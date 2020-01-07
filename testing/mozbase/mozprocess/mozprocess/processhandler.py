@@ -1111,6 +1111,7 @@ ERROR_CONTROL_C_EXIT
 )
                     
 except
+Exception
 :
                         
 traceback
@@ -2586,6 +2587,7 @@ _procmgr
 )
                     
 except
+Exception
 :
                         
 print
@@ -4093,6 +4095,7 @@ task_done
 )
                     
 except
+Exception
 :
                         
 traceback

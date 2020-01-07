@@ -493,6 +493,7 @@ config
 )
         
 except
+Exception
 :
             
 self
@@ -655,6 +656,7 @@ config
 )
             
 except
+Exception
 :
                 
 self
@@ -1733,6 +1735,7 @@ ADB
 ]
             
 except
+Exception
 :
                 
 if
@@ -2018,6 +2021,7 @@ serial
 )
             
 except
+Exception
 :
                 
 self
@@ -2991,6 +2995,7 @@ xre_path
 )
         
 except
+Exception
 :
             
 self
@@ -4275,6 +4280,7 @@ return
 True
         
 except
+Exception
 :
             
 self
@@ -6057,6 +6063,7 @@ proc_complete
 True
         
 except
+Exception
 :
             
 if

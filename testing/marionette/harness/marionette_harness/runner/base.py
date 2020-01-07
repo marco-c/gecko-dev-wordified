@@ -7017,6 +7017,7 @@ exc_info
 )
         
 except
+Exception
 :
             
 #
@@ -7120,6 +7121,7 @@ suite_end
 )
         
 except
+Exception
 :
             
 #

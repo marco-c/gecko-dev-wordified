@@ -279,6 +279,7 @@ strip
 )
         
 except
+BaseException
 :
             
 raise

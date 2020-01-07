@@ -1175,6 +1175,7 @@ message
 )
         
 except
+Exception
 :
             
 logger

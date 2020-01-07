@@ -175,6 +175,7 @@ readlines
 )
     
 except
+Exception
 :
         
 print

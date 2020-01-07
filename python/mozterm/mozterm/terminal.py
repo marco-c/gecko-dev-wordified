@@ -144,6 +144,7 @@ fileno
 )
         
 except
+Exception
 :
             
 self

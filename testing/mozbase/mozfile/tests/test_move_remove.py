@@ -237,6 +237,7 @@ path
 )
             
 except
+Exception
 :
                 
 pass

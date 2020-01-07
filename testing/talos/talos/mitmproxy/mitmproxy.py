@@ -177,6 +177,7 @@ cer
 '
 )
 except
+Exception
 :
     
 DEFAULT_CERT_PATH
@@ -737,6 +738,7 @@ return
 False
     
 except
+Exception
 :
         
 LOG

@@ -4282,6 +4282,7 @@ True
 )
         
 except
+Exception
 :
             
 self
@@ -5022,6 +5023,7 @@ runResult
 1
     
 except
+Exception
 :
         
 traceback

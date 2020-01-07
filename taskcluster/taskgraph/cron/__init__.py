@@ -891,6 +891,7 @@ message
 )
             
 except
+Exception
 :
                 
 logger

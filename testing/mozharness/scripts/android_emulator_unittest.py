@@ -824,6 +824,7 @@ testsdir
 ]
         
 except
+Exception
 :
             
 test_dir
@@ -1568,6 +1569,7 @@ AUTH_FILE
 )
             
 except
+Exception
 :
                 
 self
@@ -7434,6 +7436,7 @@ _query_tests_dir
 )
             
 except
+Exception
 :
                 
 self

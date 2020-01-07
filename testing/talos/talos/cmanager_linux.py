@@ -1152,6 +1152,7 @@ pidList
 )
         
 except
+Exception
 :
             
 return
@@ -1211,6 +1212,7 @@ children
 ]
         
 except
+Exception
 :
             
 print

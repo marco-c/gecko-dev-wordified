@@ -369,6 +369,7 @@ files
 )
         
 except
+BaseException
 :
             
 raise

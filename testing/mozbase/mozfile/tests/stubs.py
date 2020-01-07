@@ -216,6 +216,7 @@ tempdir
 )
         
 except
+Exception
 :
             
 pass

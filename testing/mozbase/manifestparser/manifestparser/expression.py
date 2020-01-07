@@ -2025,6 +2025,7 @@ expression
 )
         
 except
+Exception
 :
             
 extype

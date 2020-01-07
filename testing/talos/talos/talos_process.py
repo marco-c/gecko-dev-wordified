@@ -1140,6 +1140,7 @@ wait
 )
         
 except
+Exception
 :
             
 #

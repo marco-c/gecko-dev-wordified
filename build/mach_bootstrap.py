@@ -960,6 +960,7 @@ yield
 path
             
 except
+Exception
 :
                 
 pass

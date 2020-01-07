@@ -517,6 +517,7 @@ stub
 )
         
 except
+BaseException
 :
             
 raise
@@ -738,6 +739,7 @@ subfile
 )
         
 except
+BaseException
 :
             
 raise
@@ -895,6 +897,7 @@ ini
 )
         
 except
+BaseException
 :
             
 raise
@@ -1054,6 +1057,7 @@ subfile
 )
         
 except
+BaseException
 :
             
 raise
