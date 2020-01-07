@@ -793,6 +793,11 @@ return
 contentWindow
 :
 content
+contentDocument
+:
+content
+.
+document
 /
 /
 DOMWindow
