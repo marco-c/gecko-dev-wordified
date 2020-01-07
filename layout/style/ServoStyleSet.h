@@ -825,16 +825,6 @@ bool
 aStyleDisabled
 )
 ;
-void
-BeginUpdate
-(
-)
-;
-nsresult
-EndUpdate
-(
-)
-;
 already_AddRefed
 <
 ComputedStyle
