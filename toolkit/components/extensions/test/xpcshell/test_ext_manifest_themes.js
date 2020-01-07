@@ -84,6 +84,11 @@ unrecognized_value
 }
 }
 }
+"
+manifest
+.
+ThemeManifest
+"
 )
 ;
 let
