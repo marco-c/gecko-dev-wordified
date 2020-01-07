@@ -523,6 +523,16 @@ ClearCode
 )
 const
 {
+MOZ_ASSERT
+(
+mGIFStruct
+.
+datasize
+<
+=
+MAX_LZW_BITS
+)
+;
 return
 1
 <
