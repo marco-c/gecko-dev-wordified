@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+exported
+ProjectPanel
+*
+/
 var
 ProjectPanel
 =

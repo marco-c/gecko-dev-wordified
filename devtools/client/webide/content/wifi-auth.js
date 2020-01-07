@@ -88,16 +88,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 QR
 =
 require

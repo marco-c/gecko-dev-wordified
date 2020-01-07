@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+exported
+RuntimePanel
+*
+/
 var
 RuntimePanel
 =

@@ -60,7 +60,6 @@ const
 {
 Cc
 Ci
-Cu
 Cr
 }
 =
@@ -783,7 +782,7 @@ reject
 =
 >
 {
-var
+let
 transaction
 =
 IDB
@@ -802,7 +801,7 @@ readwrite
 "
 )
 ;
-var
+let
 objectStore
 =
 transaction
@@ -814,7 +813,7 @@ projects
 "
 )
 ;
-var
+let
 request
 =
 objectStore

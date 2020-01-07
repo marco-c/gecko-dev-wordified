@@ -664,6 +664,8 @@ null
 )
 ;
 }
+else
+{
 /
 /
 Otherwise
@@ -677,8 +679,6 @@ hide
 the
 empty
 placeholder
-else
-{
 (
 "
 #

@@ -264,6 +264,7 @@ waitForInspectorRender
 panelWin
 EVENTS
 )
+;
 checkVariableView
 (
 gVars
@@ -301,6 +302,7 @@ waitForInspectorRender
 panelWin
 EVENTS
 )
+;
 await
 setAndCheck
 (
@@ -341,6 +343,7 @@ waitForInspectorRender
 panelWin
 EVENTS
 )
+;
 await
 setAndCheck
 (

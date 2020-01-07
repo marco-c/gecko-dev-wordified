@@ -64,7 +64,6 @@ strict
 var
 {
 Ci
-Cu
 }
 =
 require

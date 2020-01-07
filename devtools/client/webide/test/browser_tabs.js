@@ -68,6 +68,8 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
 requestCompleteLog
 (
 )

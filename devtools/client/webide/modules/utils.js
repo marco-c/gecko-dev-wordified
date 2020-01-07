@@ -59,7 +59,6 @@ MPL
 const
 {
 Cc
-Cu
 Ci
 }
 =
