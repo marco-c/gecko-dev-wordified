@@ -3574,7 +3574,6 @@ rtl
 )
 &
 &
-(
 anim
 .
 playState
@@ -3584,18 +3583,6 @@ playState
 "
 running
 "
-|
-|
-anim
-.
-playState
-=
-=
-=
-"
-pending
-"
-)
 )
 ;
 /
