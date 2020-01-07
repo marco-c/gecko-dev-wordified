@@ -5456,7 +5456,7 @@ is
 expected
 to
 call
-waitForAsyncUpdates
+promiseAsyncUpdates
 at
 some
 point
@@ -5466,7 +5466,7 @@ false
 is
 *
 returned
-waitForAsyncUpdates
+promiseAsyncUpdates
 is
 called
 automatically

@@ -232,7 +232,7 @@ a
 promise
 to
 *
-nsPIPlacesDatabase
+nsINavHistoryService
 :
 :
 shutdownClient
@@ -312,7 +312,7 @@ clients
 registered
 *
 through
-nsPIPlacesDatabase
+nsINavHistoryService
 :
 :
 shutdownClient

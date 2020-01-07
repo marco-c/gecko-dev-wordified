@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsPIPlacesDatabase
-.
-h
-"
-#
-include
-"
 nsINavBookmarksService
 .
 h
@@ -493,8 +486,6 @@ nsINavHistoryService
 public
 nsIObserver
 public
-nsPIPlacesDatabase
-public
 mozIStorageVacuumParticipant
 {
 friend
@@ -510,7 +501,6 @@ nsNavHistory
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSINAVHISTORYSERVICE
 NS_DECL_NSIOBSERVER
-NS_DECL_NSPIPLACESDATABASE
 NS_DECL_MOZISTORAGEVACUUMPARTICIPANT
 /
 *

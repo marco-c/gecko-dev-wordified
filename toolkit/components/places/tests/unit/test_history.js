@@ -1293,13 +1293,6 @@ db
 =
 histsvc
 .
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
-.
 DBConnection
 ;
 var

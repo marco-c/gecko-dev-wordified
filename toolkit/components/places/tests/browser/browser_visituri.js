@@ -75,13 +75,6 @@ PlacesUtils
 .
 history
 .
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
-.
 DBConnection
 ;
 /

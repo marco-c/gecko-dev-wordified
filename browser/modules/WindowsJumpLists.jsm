@@ -2493,13 +2493,6 @@ PlacesUtils
 .
 history
 .
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
-.
 asyncExecuteLegacyQuery
 (
 query
