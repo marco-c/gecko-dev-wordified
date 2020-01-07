@@ -40292,12 +40292,11 @@ aRv
 if
 (
 !
-ImageBitmap
+DOMPreferences
 :
 :
-ExtensionsEnabled
+ImageBitmapExtensionsEnabled
 (
-aCx
 )
 )
 {
