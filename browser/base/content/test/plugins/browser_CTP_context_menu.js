@@ -215,9 +215,7 @@ in
 let
 bindingPromise
 =
-BrowserTestUtils
-.
-waitForContentEvent
+waitForEvent
 (
 gBrowser
 .
@@ -225,8 +223,8 @@ selectedBrowser
 "
 PluginBindingAttached
 "
-true
 null
+true
 true
 )
 ;

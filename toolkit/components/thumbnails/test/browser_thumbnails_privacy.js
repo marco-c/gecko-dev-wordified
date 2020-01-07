@@ -505,15 +505,9 @@ gBrowser
 .
 selectedBrowser
 ;
-BrowserTestUtils
-.
-browserLoaded
+whenLoaded
 (
 browser
-)
-.
-then
-(
 (
 )
 =

@@ -159,9 +159,7 @@ hud
 let
 doc
 =
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 wrappedJSObject
 .
@@ -228,9 +226,7 @@ view
 let
 doc
 =
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 wrappedJSObject
 .
