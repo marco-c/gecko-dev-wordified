@@ -109,6 +109,9 @@ name
 Test
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -195,6 +198,9 @@ name
 Test
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -271,6 +277,9 @@ name
 Test
 3
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -334,6 +343,9 @@ name
 Test
 4
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -392,6 +404,9 @@ name
 Test
 5
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -458,6 +473,9 @@ name
 Test
 6
 "
+bootstrap
+:
+true
 type
 :
 5
@@ -535,6 +553,9 @@ name
 Test
 3
 "
+bootstrap
+:
+true
 type
 :
 "
@@ -1358,7 +1379,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -1537,7 +1558,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -1716,7 +1737,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a3
@@ -1828,7 +1849,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -1892,7 +1913,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -1956,7 +1977,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -2020,7 +2041,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -2416,7 +2437,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -2430,7 +2451,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -2543,7 +2564,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -2557,7 +2578,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -2571,7 +2592,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -2654,7 +2675,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -2691,7 +2712,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -2718,7 +2739,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -3018,7 +3039,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -3031,7 +3052,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -3138,7 +3159,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -3151,7 +3172,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -3165,7 +3186,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -3241,7 +3262,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -3268,7 +3289,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -3295,7 +3316,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -3533,7 +3554,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -3552,7 +3573,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -3610,7 +3631,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -3624,7 +3645,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -3637,7 +3658,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -3915,7 +3936,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -3928,7 +3949,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -4035,7 +4056,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -4048,7 +4069,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -4062,7 +4083,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -4324,7 +4345,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -4337,7 +4358,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -4444,7 +4465,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -4457,7 +4478,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -4471,7 +4492,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -4788,7 +4809,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -4802,7 +4823,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -4907,7 +4928,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -4921,7 +4942,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -4934,7 +4955,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -5010,7 +5031,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5037,7 +5058,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5064,7 +5085,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5286,7 +5307,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -5300,7 +5321,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -5374,7 +5395,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5393,7 +5414,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -5412,7 +5433,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
@@ -5710,7 +5731,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -5724,7 +5745,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -5818,7 +5839,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -5832,7 +5853,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -5846,7 +5867,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -5910,7 +5931,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5937,7 +5958,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -5964,7 +5985,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6235,7 +6256,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -6248,7 +6269,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a1
@@ -6344,7 +6365,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -6358,7 +6379,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 a2
@@ -6372,7 +6393,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a2
@@ -6436,7 +6457,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6463,7 +6484,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6490,7 +6511,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6771,7 +6792,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6790,7 +6811,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6809,7 +6830,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6828,7 +6849,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6847,7 +6868,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 "
@@ -6866,7 +6887,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -6885,7 +6906,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -6904,7 +6925,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -6923,7 +6944,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -6942,7 +6963,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 userDir
 "
@@ -6961,7 +6982,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
@@ -6980,7 +7001,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
@@ -6999,7 +7020,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
@@ -7018,7 +7039,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
@@ -7037,7 +7058,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 "
