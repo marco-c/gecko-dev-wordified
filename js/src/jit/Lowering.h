@@ -2273,15 +2273,6 @@ ins
 override
 ;
 void
-visitGuardClass
-(
-MGuardClass
-*
-ins
-)
-override
-;
-void
 visitGuardObject
 (
 MGuardObject

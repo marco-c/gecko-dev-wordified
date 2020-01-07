@@ -23791,12 +23791,13 @@ Assembler
 :
 NotEqual
 proto
-scratch
 &
 JSFunction
 :
 :
 class_
+scratch
+proto
 &
 needVMCall
 )

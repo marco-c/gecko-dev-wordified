@@ -1064,11 +1064,6 @@ GuardObjectIdentity
 \
 _
 (
-GuardClass
-)
-\
-_
-(
 GuardUnboxedExpando
 )
 \
