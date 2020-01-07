@@ -225,6 +225,17 @@ aRequestTables
 nsresult
 Begin
 (
+const
+nsACString
+&
+aTable
+const
+nsTArray
+<
+nsCString
+>
+&
+aUpdateTables
 )
 ;
 virtual
