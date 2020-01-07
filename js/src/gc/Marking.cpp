@@ -24075,7 +24075,7 @@ typename
 S
 >
 struct
-IsAboutToBeFinalizedFunctor
+IsAboutToBeFinalizedInternalFunctor
 :
 public
 IdentityDefaultAdaptor
@@ -24156,7 +24156,7 @@ thingp
 =
 DispatchTyped
 (
-IsAboutToBeFinalizedFunctor
+IsAboutToBeFinalizedInternalFunctor
 <
 T
 >
