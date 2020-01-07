@@ -146,6 +146,14 @@ maple
 '
 try
 '
+    
+'
+try
+-
+comm
+-
+central
+'
 }
 |
 RELEASE_PROJECTS
