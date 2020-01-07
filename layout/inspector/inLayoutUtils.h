@@ -172,7 +172,7 @@ aNode
 )
 ;
 static
-nsIDOMNode
+nsINode
 *
 GetContainerFor
 (
