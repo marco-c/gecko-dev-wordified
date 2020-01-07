@@ -175,6 +175,11 @@ Property
 Event
 API
 Log
+MozLogError
+MozLogWarning
+MozLogInfo
+MozLogDebug
+MozLogVerbose
 )
 )
 ;
