@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

@@ -314,13 +314,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h

@@ -537,13 +537,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

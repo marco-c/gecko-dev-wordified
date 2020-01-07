@@ -295,13 +295,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -1209,10 +1202,6 @@ nsGenericHTMLElementBase
 NS_INTERFACE_MAP_BEGIN
 (
 nsGenericHTMLElement
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMHTMLElement
 )
 NS_INTERFACE_MAP_ENTRY
 (

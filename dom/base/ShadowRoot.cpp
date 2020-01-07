@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h

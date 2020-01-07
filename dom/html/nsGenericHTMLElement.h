@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsIDOMHTMLElement
+nsIDOMElement
 .
 h
 "
@@ -320,7 +320,7 @@ nsGenericHTMLElement
 public
 nsGenericHTMLElementBase
 public
-nsIDOMHTMLElement
+nsIDOMElement
 {
 public
 :

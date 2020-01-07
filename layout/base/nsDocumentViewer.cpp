@@ -326,13 +326,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
