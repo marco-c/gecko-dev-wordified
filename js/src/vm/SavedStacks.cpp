@@ -1144,7 +1144,7 @@ early
 above
 .
 )
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 !
 frames
