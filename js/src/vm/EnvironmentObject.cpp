@@ -7614,7 +7614,10 @@ isExtensible
 const
 {
 return
-nonProxyIsExtensible
+NativeObject
+:
+:
+isExtensible
 (
 )
 ;
@@ -23903,7 +23906,7 @@ if
 global
 -
 >
-nonProxyIsExtensible
+isExtensible
 (
 )
 )

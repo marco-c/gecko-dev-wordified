@@ -859,12 +859,14 @@ this
 represents
 may
 have
-frozen
+non
+-
+extensible
 elements
 .
 *
 /
-OBJECT_FLAG_FROZEN_ELEMENTS
+OBJECT_FLAG_NON_EXTENSIBLE_ELEMENTS
 =
 0x00100000
 /

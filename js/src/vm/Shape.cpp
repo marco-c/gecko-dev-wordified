@@ -5783,7 +5783,7 @@ MOZ_ASSERT
 obj
 -
 >
-nonProxyIsExtensible
+isExtensible
 (
 )
 "
@@ -6526,7 +6526,7 @@ MOZ_ASSERT
 obj
 -
 >
-nonProxyIsExtensible
+isExtensible
 (
 )
 "
