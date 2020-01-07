@@ -727,11 +727,10 @@ topsites_form_image_url_label
 "
 :
 "
-Adres
-web
+URL
 pentru
 imagine
-proprie
+personalizat
 "
 "
 topsites_form_url_placeholder
@@ -754,7 +753,7 @@ Folose
 te
 o
 imagine
-proprie
+personalizat
 "
 "
 topsites_form_preview_button
