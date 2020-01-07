@@ -5279,6 +5279,9 @@ Assert
 rejects
 (
 responsePromise
+/
+NS_BINDING_ABORTED
+/
 )
 ;
 await
