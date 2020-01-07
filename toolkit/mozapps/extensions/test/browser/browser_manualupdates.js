@@ -239,6 +239,9 @@ version
 isCompatible
 :
 false
+operationsRequiringRestart
+:
+0
 blocklistState
 :
 Ci
@@ -1344,6 +1347,10 @@ visible
 }
 onInstallEnded
 (
+.
+.
+.
+args
 )
 {
 install
