@@ -5472,7 +5472,7 @@ hasScript
 &
 &
 !
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 )

@@ -25016,7 +25016,7 @@ hasScript
 fun
 -
 >
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 )
@@ -29343,7 +29343,10 @@ script
 .
 /
 /
-AddLazyFunctionsForCompartment
+LazyScript
+:
+:
+isEnclosingScriptLazy
 relies
 on
 the
@@ -29482,7 +29485,7 @@ bool
 LazyScript
 :
 :
-hasUncompiledEnclosingScript
+hasUncompletedEnclosingScript
 (
 )
 const
@@ -29627,7 +29630,7 @@ hasScript
 fun
 -
 >
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 |
