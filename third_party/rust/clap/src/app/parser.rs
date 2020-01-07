@@ -148,14 +148,14 @@ args
 :
 {
 AnyArg
-ArgMatcher
-Base
-Switched
 Arg
 ArgGroup
+ArgMatcher
+Base
 FlagBuilder
 OptBuilder
 PosBuilder
+Switched
 }
 ;
 use
@@ -556,6 +556,14 @@ with_name
 (
 n
 )
+g_settings
+:
+AppFlags
+:
+:
+zeroed
+(
+)
 .
 .
 Default
@@ -841,8 +849,6 @@ format
 }
 .
 bash
--
-completion
 "
 name
 )
@@ -4771,6 +4777,7 @@ filter
 |
 p
 |
+{
 p
 .
 b
@@ -4795,6 +4802,7 @@ num_vals
 is_none
 (
 )
+}
 )
 .
 count
@@ -6170,6 +6178,7 @@ find
 |
 s
 |
+{
 if
 let
 Some
@@ -6216,6 +6225,7 @@ to_string_lossy
 else
 {
 false
+}
 }
 )
 .
@@ -7717,7 +7727,9 @@ ParseResult
 ValuesDone
 =
 >
+{
 continue
+}
 _
 =
 >
@@ -7940,7 +7952,9 @@ ParseResult
 ValuesDone
 =
 >
+{
 continue
+}
 _
 =
 >

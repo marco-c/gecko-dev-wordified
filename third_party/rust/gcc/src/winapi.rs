@@ -462,7 +462,7 @@ link
 name
 =
 "
-Ole32
+ole32
 "
 )
 ]
@@ -473,7 +473,7 @@ link
 name
 =
 "
-OleAut32
+oleaut32
 "
 )
 ]

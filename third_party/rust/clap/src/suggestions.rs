@@ -512,11 +512,11 @@ Some
 candidate
 )
 )
+;
 }
 None
 =
 >
-{
 for
 subcommand
 in
@@ -654,7 +654,6 @@ candidate
 )
 )
 ;
-}
 }
 }
 }

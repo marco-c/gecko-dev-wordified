@@ -10,6 +10,13 @@ io
 :
 Write
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :
@@ -42,8 +49,8 @@ args
 :
 :
 {
-ArgSettings
 AnyArg
+ArgSettings
 }
 ;
 use

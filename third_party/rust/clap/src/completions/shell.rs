@@ -1,3 +1,10 @@
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :
@@ -69,8 +76,6 @@ Generates
 a
 .
 bash
--
-completion
 completion
 file
 for
