@@ -3685,7 +3685,11 @@ selection
 >
 AddRange
 (
+*
 returnRange
+IgnoreErrors
+(
+)
 )
 ;
 }
