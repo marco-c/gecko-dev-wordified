@@ -510,7 +510,9 @@ ECMAScript
 402
 API
 PluralRules
-1
+13
+.
+2
 .
 1
 *
