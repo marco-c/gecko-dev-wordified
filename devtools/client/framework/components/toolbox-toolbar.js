@@ -136,7 +136,7 @@ dom
 ;
 const
 {
-openTrustedLink
+openWebLink
 }
 =
 require
@@ -2662,7 +2662,7 @@ meatball
 -
 menu
 -
-gettingstarted
+documentation
 "
 label
 :
@@ -2675,7 +2675,7 @@ toolbox
 .
 meatballMenu
 .
-gettingStarted
+documentation
 .
 label
 "
@@ -2687,7 +2687,7 @@ click
 =
 >
 {
-openTrustedLink
+openWebLink
 (
 "
 https
@@ -2733,7 +2733,7 @@ meatball
 -
 menu
 -
-feedback
+community
 "
 label
 :
@@ -2746,7 +2746,7 @@ toolbox
 .
 meatballMenu
 .
-giveFeedback
+community
 .
 label
 "
@@ -2758,7 +2758,7 @@ click
 =
 >
 {
-openTrustedLink
+openWebLink
 (
 "
 https
