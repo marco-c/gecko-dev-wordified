@@ -5733,7 +5733,8 @@ setIdentityProvider
 function
 (
 provider
-options
+protocol
+identity
 )
 {
 this
@@ -5743,7 +5744,8 @@ _pc
 setIdentityProvider
 (
 provider
-options
+protocol
+identity
 )
 ;
 }
