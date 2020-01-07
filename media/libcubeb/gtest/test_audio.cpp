@@ -797,6 +797,12 @@ layout
 .
 layout
 ;
+params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 synth_state
 synth
 (
@@ -1061,6 +1067,12 @@ params
 layout
 =
 CUBEB_LAYOUT_STEREO
+;
+params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
 ;
 synth_state
 synth

@@ -533,6 +533,12 @@ layout
 =
 CUBEB_LAYOUT_UNDEFINED
 ;
+params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 r
 =
 cubeb_stream_init

@@ -1090,6 +1090,7 @@ in_layout
 .
 channels
 in_layout
+CUBEB_STREAM_PREF_NONE
 }
 ;
 cubeb_stream_params
@@ -1144,6 +1145,7 @@ out_layout
 .
 channels
 out_layout
+CUBEB_STREAM_PREF_NONE
 }
 ;
 if

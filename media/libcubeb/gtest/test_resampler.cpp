@@ -2391,6 +2391,16 @@ target_rate
 =
 target_rate
 ;
+input_params
+.
+prefs
+=
+output_params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 long
 got
 ;
