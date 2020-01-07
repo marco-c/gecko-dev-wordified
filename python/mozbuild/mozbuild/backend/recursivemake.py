@@ -10498,21 +10498,19 @@ def
 pretty_relpath
 (
 lib
-name
 )
 :
             
 return
-os
-.
-path
-.
-normpath
+'
 (
-mozpath
-.
-join
-(
+DEPTH
+)
+/
+%
+s
+'
+%
 mozpath
 .
 relpath
@@ -10520,13 +10518,7 @@ relpath
 lib
 .
 objdir
-obj
-.
-objdir
-)
-                                                 
-name
-)
+topobjdir
 )
         
 topobjdir
@@ -11277,14 +11269,19 @@ SHARED_LIBS
 =
 %
 s
+/
+%
+s
 \
 n
 '
 %
                                     
+(
 pretty_relpath
 (
 lib
+)
 lib
 .
 import_name
@@ -11307,14 +11304,19 @@ STATIC_LIBS
 =
 %
 s
+/
+%
+s
 \
 n
 '
 %
                                     
+(
 pretty_relpath
 (
 lib
+)
 lib
 .
 import_name
@@ -11431,14 +11433,19 @@ HOST_LIBS
 =
 %
 s
+/
+%
+s
 \
 n
 '
 %
                                         
+(
 pretty_relpath
 (
 lib
+)
 lib
 .
 import_name
@@ -11635,14 +11642,19 @@ RUST_STATIC_LIB_FOR_SHARED_LIB
 =
 %
 s
+/
+%
+s
 \
 n
 '
 %
                            
+(
 pretty_relpath
 (
 direct_linked
+)
 direct_linked
 .
 import_name
