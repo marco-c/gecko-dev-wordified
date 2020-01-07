@@ -333,6 +333,11 @@ LoadDenseElementHoleExistsResult
 \
 _
 (
+LoadTypedElementExistsResult
+)
+\
+_
+(
 LoadTypedElementResult
 )
 \
