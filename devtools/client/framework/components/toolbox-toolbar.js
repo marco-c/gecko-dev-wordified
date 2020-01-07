@@ -854,6 +854,7 @@ const
 {
 id
 description
+disabled
 onClick
 isChecked
 className
@@ -872,6 +873,7 @@ id
 title
 :
 description
+disabled
 className
 :
 (
