@@ -10692,7 +10692,7 @@ in
 nsDocument
 :
 :
-RemoveChildAt_Deprecated
+RemoveChildNode
 (
 )
 .
