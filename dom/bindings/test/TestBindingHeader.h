@@ -242,6 +242,9 @@ namespace
 dom
 {
 class
+DocGroup
+;
+class
 TestExternalInterface
 ;
 class
@@ -618,6 +621,8 @@ We
 need
 a
 GetParentObject
+and
+GetDocGroup
 to
 make
 binding
@@ -629,6 +634,13 @@ nsISupports
 GetParentObject
 (
 )
+;
+DocGroup
+*
+GetDocGroup
+(
+)
+const
 ;
 /
 /
@@ -11167,6 +11179,8 @@ We
 need
 a
 GetParentObject
+and
+GetDocGroup
 to
 make
 binding
@@ -11178,6 +11192,13 @@ nsISupports
 GetParentObject
 (
 )
+;
+DocGroup
+*
+GetDocGroup
+(
+)
+const
 ;
 int32_t
 Item

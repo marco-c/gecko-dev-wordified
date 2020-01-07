@@ -198,6 +198,9 @@ namespace
 dom
 {
 class
+DocGroup
+;
+class
 HTMLElementOrLong
 ;
 class
@@ -369,6 +372,13 @@ GetParentObject
 (
 )
 override
+;
+DocGroup
+*
+GetDocGroup
+(
+)
+const
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (

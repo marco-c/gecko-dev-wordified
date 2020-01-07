@@ -279,6 +279,15 @@ GetParentObject
 )
 override
 ;
+virtual
+DocGroup
+*
+GetDocGroup
+(
+)
+const
+override
+;
 NS_IMETHOD
 SetPropertyValue
 (
