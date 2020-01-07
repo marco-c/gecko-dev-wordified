@@ -1355,6 +1355,7 @@ public
 :
 XULTreeItemIterator
 (
+const
 XULTreeAccessible
 *
 aXULTree
@@ -1409,6 +1410,7 @@ XULTreeItemIterator
 =
 delete
 ;
+const
 XULTreeAccessible
 *
 mXULTree
