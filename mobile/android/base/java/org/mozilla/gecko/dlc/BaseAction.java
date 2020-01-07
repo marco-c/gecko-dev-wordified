@@ -713,6 +713,9 @@ kind
 :
 "
 +
+(
+String
+)
 content
 .
 getKind
