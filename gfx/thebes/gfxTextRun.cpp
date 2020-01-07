@@ -22761,12 +22761,10 @@ wantBold
 =
 mStyle
 .
-ComputeWeight
-(
-)
+weight
 >
 =
-6
+600
 ;
 return
 fe
