@@ -208,9 +208,6 @@ AbstractThread
 namespace
 dom
 {
-class
-PerformanceInfo
-;
 /
 /
 Two
@@ -519,11 +516,6 @@ return
 mPerformanceCounter
 ;
 }
-PerformanceInfo
-ReportPerformanceInfo
-(
-)
-;
 #
 endif
 TabGroup
