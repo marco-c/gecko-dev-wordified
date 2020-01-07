@@ -135,7 +135,7 @@ mAtom
 }
 private
 :
-nsAtom
+nsDynamicAtom
 *
 mAtom
 ;
