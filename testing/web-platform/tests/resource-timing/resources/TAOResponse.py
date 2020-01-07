@@ -219,7 +219,7 @@ TAO
 values
 seperated
 by
-common
+comma
 pass
         
 response
@@ -273,7 +273,7 @@ of
 origin
 seperated
 by
-common
+comma
 pass
         
 response
@@ -325,7 +325,7 @@ a
 wildcard
 seperated
 by
-common
+comma
 pass
         
 response
