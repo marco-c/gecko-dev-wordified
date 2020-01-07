@@ -4120,8 +4120,6 @@ float
 aXScale
 float
 aYScale
-int32_t
-aCommonClipCount
 )
 ;
 /
