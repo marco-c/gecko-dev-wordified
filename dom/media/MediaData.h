@@ -127,6 +127,13 @@ MediaData_h
 #
 include
 "
+AudioConfig
+.
+h
+"
+#
+include
+"
 AudioSampleFormat
 .
 h
