@@ -540,6 +540,9 @@ BOOKMARK_ADD
 PIN
 "
 "
+PREVIEW_REQUEST
+"
+"
 UNPIN
 "
 "
@@ -550,6 +553,9 @@ SECTION_MENU_MOVE_UP
 "
 "
 SECTION_MENU_MOVE_DOWN
+"
+"
+SCREENSHOT_REQUEST
 "
 "
 SECTION_MENU_REMOVE
@@ -1411,6 +1417,13 @@ object
 keys
 (
 {
+custom_screenshot
+:
+Joi
+.
+number
+(
+)
 rich_icon
 :
 Joi
