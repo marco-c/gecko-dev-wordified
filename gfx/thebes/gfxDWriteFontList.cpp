@@ -2449,7 +2449,10 @@ UseGDIFontTableAccess
 &
 !
 (
-mStyle
+!
+IsUpright
+(
+)
 &
 &
 UsingArabicOrHebrewScriptSystemLocale
