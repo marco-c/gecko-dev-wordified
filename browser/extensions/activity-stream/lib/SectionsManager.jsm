@@ -269,7 +269,7 @@ provider_description
 |
 |
 "
-pocket_description
+prefs_topstories_description
 "
 }
 nestedPrefs
@@ -291,8 +291,17 @@ titleString
 id
 :
 "
-settings_pane_topstories_options_sponsored
+prefs_topstories_show_sponsored_label
 "
+values
+:
+{
+provider
+:
+options
+.
+provider_name
+}
 }
 icon
 :
@@ -560,7 +569,7 @@ descString
 id
 :
 "
-settings_pane_highlights_body2
+prefs_highlights_description
 "
 }
 }

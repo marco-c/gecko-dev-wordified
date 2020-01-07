@@ -419,6 +419,15 @@ a
 function
 /
 constructor
+PluralForm
+:
+{
+get
+(
+)
+{
+}
+}
 Preferences
 :
 FakePrefs
