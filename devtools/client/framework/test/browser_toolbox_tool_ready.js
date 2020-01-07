@@ -91,12 +91,9 @@ target
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -180,7 +177,7 @@ toolId
 ;
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -241,7 +238,7 @@ ready
 )
 ;
 }
-yield
+await
 toolbox
 .
 destroy
@@ -249,6 +246,8 @@ destroy
 )
 ;
 }
+)
+(
 )
 ;
 }
@@ -261,8 +260,8 @@ Task
 .
 spawn
 (
+async
 function
-*
 (
 )
 {
@@ -274,7 +273,7 @@ true
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -294,14 +293,14 @@ forTab
 tab
 )
 ;
-yield
+await
 target
 .
 makeRemote
 (
 )
 ;
-yield
+await
 performChecks
 (
 target

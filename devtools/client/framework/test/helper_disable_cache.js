@@ -195,8 +195,8 @@ false
 }
 ]
 ;
+async
 function
-*
 initTab
 (
 tabX
@@ -207,7 +207,7 @@ tabX
 .
 tab
 =
-yield
+await
 addTab
 (
 TEST_URI
@@ -235,7 +235,7 @@ tabX
 .
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -250,8 +250,8 @@ options
 ;
 }
 }
+async
 function
-*
 checkCacheStateForAllTabs
 (
 states
@@ -283,7 +283,7 @@ tabs
 i
 ]
 ;
-yield
+await
 checkCacheEnabled
 (
 tab
@@ -295,8 +295,8 @@ i
 ;
 }
 }
+async
 function
-*
 checkCacheEnabled
 (
 tabX
@@ -311,7 +311,7 @@ tabX
 .
 tab
 ;
-yield
+await
 reloadTab
 (
 tabX
@@ -320,7 +320,7 @@ tabX
 let
 oldGuid
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -361,7 +361,7 @@ textContent
 }
 )
 ;
-yield
+await
 reloadTab
 (
 tabX
@@ -370,7 +370,7 @@ tabX
 let
 guid
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -452,8 +452,8 @@ enabled
 ;
 }
 }
+async
 function
-*
 setDisableCacheCheckboxChecked
 (
 tabX
@@ -559,7 +559,7 @@ new
 cache
 settings
 .
-yield
+await
 waitForTick
 (
 )
@@ -658,8 +658,8 @@ def
 promise
 ;
 }
+async
 function
-*
 destroyTab
 (
 tabX
@@ -749,12 +749,12 @@ destroyed
 "
 )
 ;
-yield
+await
 onceDestroyed
 ;
 }
+async
 function
-*
 finishUp
 (
 )
@@ -767,7 +767,7 @@ of
 tabs
 )
 {
-yield
+await
 destroyTab
 (
 tab

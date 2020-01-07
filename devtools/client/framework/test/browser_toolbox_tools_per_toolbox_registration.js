@@ -884,7 +884,6 @@ then
 =
 >
 {
-;
 toolbox
 =
 null

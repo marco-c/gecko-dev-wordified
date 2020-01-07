@@ -139,15 +139,15 @@ properties
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -167,7 +167,7 @@ forTab
 tab
 )
 ;
-yield
+await
 target
 .
 makeRemote
@@ -209,7 +209,7 @@ id
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -293,7 +293,7 @@ i
 +
 )
 {
-yield
+await
 testShortcuts
 (
 toolbox
@@ -344,7 +344,7 @@ i
 +
 )
 {
-yield
+await
 testShortcuts
 (
 toolbox
@@ -392,7 +392,7 @@ i
 -
 )
 {
-yield
+await
 testShortcuts
 (
 toolbox
@@ -448,7 +448,7 @@ i
 -
 )
 {
-yield
+await
 testShortcuts
 (
 toolbox
@@ -458,7 +458,7 @@ toolIDs
 )
 ;
 }
-yield
+await
 toolbox
 .
 destroy
@@ -474,8 +474,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 testShortcuts
 (
 toolbox
@@ -534,7 +534,7 @@ shortcut
 let
 id
 =
-yield
+await
 onToolSelected
 ;
 info

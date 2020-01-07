@@ -238,11 +238,9 @@ unregister
 {
 success
 :
+!
+!
 result
-?
-true
-:
-false
 }
 )
 ;

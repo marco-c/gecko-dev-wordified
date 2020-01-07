@@ -809,8 +809,6 @@ name
 )
 ;
 }
-else
-{
 return
 promise
 .
@@ -818,7 +816,6 @@ resolve
 (
 )
 ;
-}
 }
 /
 *

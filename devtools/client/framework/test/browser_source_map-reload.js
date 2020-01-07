@@ -121,12 +121,12 @@ ORIGINAL_LINE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -168,7 +168,7 @@ arriving
 const
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 INITIAL_URL
@@ -211,7 +211,7 @@ loadURI
 PAGE_URL
 )
 ;
-yield
+await
 sourceSeen
 ;
 info
@@ -232,7 +232,7 @@ GENERATED_LINE
 let
 newLoc
 =
-yield
+await
 service
 .
 originalPositionFor
@@ -296,12 +296,12 @@ toolbox
 JS_URL
 )
 ;
-yield
+await
 refreshTab
 (
 )
 ;
-yield
+await
 sourceSeen
 ;
 info
@@ -324,7 +324,7 @@ GENERATED_LINE
 ;
 newLoc
 =
-yield
+await
 service
 .
 originalPositionFor
@@ -366,7 +366,7 @@ number
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
