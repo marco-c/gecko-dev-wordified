@@ -4571,6 +4571,7 @@ GlobalFontMatch
 data
 (
 aCh
+*
 aMatchStyle
 )
 ;
@@ -4710,6 +4711,7 @@ GlobalFontMatch
 data
 (
 aCh
+*
 aMatchStyle
 )
 ;

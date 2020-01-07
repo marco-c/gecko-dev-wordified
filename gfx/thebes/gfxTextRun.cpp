@@ -18417,7 +18417,6 @@ GlobalFontMatch
 data
 (
 aCh
-&
 mStyle
 )
 ;
