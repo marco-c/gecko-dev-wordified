@@ -141,7 +141,7 @@ class
 txOutputFormat
 ;
 class
-nsIDOMDocument
+nsIDocument
 ;
 /
 *
@@ -882,7 +882,7 @@ virtual
 void
 getOutputDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument
@@ -900,7 +900,7 @@ virtual
 void
 getOutputDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument
