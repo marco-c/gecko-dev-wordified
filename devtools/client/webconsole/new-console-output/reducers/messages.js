@@ -2145,7 +2145,7 @@ state
 function
 getNewCurrentGroup
 (
-currentGoup
+currentGroup
 groupsById
 )
 {
@@ -2156,7 +2156,7 @@ null
 ;
 if
 (
-currentGoup
+currentGroup
 )
 {
 /
@@ -2177,7 +2177,7 @@ groupsById
 .
 get
 (
-currentGoup
+currentGroup
 )
 ;
 if
