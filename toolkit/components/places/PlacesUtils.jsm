@@ -5768,7 +5768,7 @@ false
 Direct
 child
 of
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 .
 let
 parent
@@ -5798,7 +5798,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 return
 true
@@ -5849,7 +5849,7 @@ a
 direct
 child
 of
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 .
 if
 (

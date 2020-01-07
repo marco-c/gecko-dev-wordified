@@ -178,7 +178,7 @@ add_task
 (
 async
 function
-test_results_as_tag_query
+test_results_as_tags_root
 (
 )
 {
@@ -250,7 +250,7 @@ resultType
 =
 options
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 ;
 const
 query
