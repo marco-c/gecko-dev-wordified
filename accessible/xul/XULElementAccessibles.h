@@ -189,6 +189,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 void

@@ -1118,6 +1118,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 protected
@@ -1187,6 +1188,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 }
@@ -1231,6 +1233,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 protected
@@ -1300,6 +1303,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 }

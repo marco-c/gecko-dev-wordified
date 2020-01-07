@@ -10850,6 +10850,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 if
 (
@@ -17499,6 +17500,7 @@ Accessible
 GetGroupInfo
 (
 )
+const
 {
 if
 (

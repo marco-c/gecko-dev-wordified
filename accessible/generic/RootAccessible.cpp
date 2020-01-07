@@ -3337,6 +3337,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 if
 (

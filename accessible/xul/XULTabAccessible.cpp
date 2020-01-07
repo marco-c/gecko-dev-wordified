@@ -854,6 +854,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 Relation
 rel
@@ -1616,6 +1617,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 Relation
 rel

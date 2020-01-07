@@ -1911,6 +1911,7 @@ RelationByType
 RelationType
 aType
 )
+const
 ;
 /
 /
@@ -7278,6 +7279,7 @@ AccGroupInfo
 GetGroupInfo
 (
 )
+const
 ;
 /
 /
@@ -7377,6 +7379,7 @@ AccTypes
 .
 *
 /
+mutable
 uint32_t
 mStateFlags
 :
@@ -7501,6 +7504,7 @@ ProxyAccessible
 proxy
 ;
 }
+mutable
 mBits
 ;
 friend

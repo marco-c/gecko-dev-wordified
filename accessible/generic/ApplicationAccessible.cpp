@@ -655,6 +655,7 @@ RelationByType
 RelationType
 aRelationType
 )
+const
 {
 return
 Relation

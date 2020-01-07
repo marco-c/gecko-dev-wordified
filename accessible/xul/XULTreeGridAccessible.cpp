@@ -4543,6 +4543,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 return
 Relation
