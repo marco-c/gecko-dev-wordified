@@ -2279,7 +2279,7 @@ valid
 presContext
 and
 *
-styleContext
+ComputedStyle
 to
 resolve
 absolute
