@@ -855,7 +855,7 @@ aLinkData
 )
 ;
 nsresult
-ProcessLink
+ProcessLinkFromHeader
 (
 const
 nsAString
@@ -897,11 +897,8 @@ aAs
 ;
 virtual
 nsresult
-ProcessStyleLink
+ProcessStyleLinkFromHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &

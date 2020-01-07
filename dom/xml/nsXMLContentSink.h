@@ -224,6 +224,9 @@ dom
 class
 NodeInfo
 ;
+class
+ProcessingInstruction
+;
 }
 /
 /
@@ -795,11 +798,8 @@ nsContentSink
 override
 virtual
 nsresult
-ProcessStyleLink
+ProcessStyleLinkFromHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &
@@ -902,7 +902,13 @@ virtual
 nsresult
 MaybeProcessXSLTLink
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+ProcessingInstruction
 *
 aProcessingInstruction
 const
