@@ -1220,17 +1220,6 @@ addMessageManagerListeners
 mm
 )
 ;
-mm
-.
-sendAsyncMessage
-(
-"
-Marionette
-:
-restart
-"
-)
-;
 return
 oopFrame
 .
