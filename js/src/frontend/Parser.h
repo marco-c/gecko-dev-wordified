@@ -2142,6 +2142,11 @@ PropertyName
 name
 )
 ;
+Node
+noSubstitutionTaggedTemplate
+(
+)
+;
 inline
 bool
 processExport
@@ -3091,6 +3096,12 @@ Base
 :
 :
 nextTokenContinuesLetDeclaration
+;
+using
+Base
+:
+:
+noSubstitutionTaggedTemplate
 ;
 using
 Base
@@ -4623,11 +4634,6 @@ return
 this
 ;
 }
-Node
-noSubstitutionTaggedTemplate
-(
-)
-;
 Node
 noSubstitutionUntaggedTemplate
 (
