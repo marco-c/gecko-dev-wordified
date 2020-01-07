@@ -1,3 +1,13 @@
+/
+*
+eslint
+-
+disable
+no
+-
+shadow
+*
+/
 "
 use
 strict
@@ -592,7 +602,6 @@ cancel
 "
 )
 ;
-await
 spawnPaymentDialogTask
 (
 frame
@@ -1149,7 +1158,6 @@ cancel
 "
 )
 ;
-await
 spawnPaymentDialogTask
 (
 frame
