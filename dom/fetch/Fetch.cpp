@@ -1364,10 +1364,6 @@ Shutdown
 (
 )
 ;
-mSignalProxy
-=
-nullptr
-;
 }
 mWorkerHolder
 =
