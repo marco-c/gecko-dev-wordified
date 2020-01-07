@@ -490,7 +490,7 @@ add
 entry
 [
 '
-root
+source
 '
 ]
 )
