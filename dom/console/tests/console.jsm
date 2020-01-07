@@ -66,6 +66,13 @@ console
 .
 createInstance
 (
+{
+consoleID
+:
+"
+wow
+"
+}
 )
 .
 log

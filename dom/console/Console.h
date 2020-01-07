@@ -2597,6 +2597,9 @@ mOuterID
 uint64_t
 mInnerID
 ;
+nsString
+mConsoleID
+;
 enum
 {
 eUnknown
