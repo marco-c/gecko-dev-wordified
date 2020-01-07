@@ -658,7 +658,7 @@ manager
 disallowFeature
 (
 "
-set_desktop_background
+setDesktopBackground
 "
 true
 )

@@ -3496,7 +3496,7 @@ policies
 isAllowed
 (
 "
-set_desktop_background
+setDesktopBackground
 "
 )
 )
@@ -8312,7 +8312,7 @@ policies
 isAllowed
 (
 "
-set_desktop_background
+setDesktopBackground
 "
 )
 )
