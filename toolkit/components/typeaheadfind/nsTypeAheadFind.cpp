@@ -4381,7 +4381,7 @@ nsTypeAheadFind
 :
 GetFoundEditable
 (
-nsIDOMElement
+Element
 *
 *
 aFoundEditable
