@@ -20142,10 +20142,6 @@ StyleGeometryBox
 :
 BorderBox
 )
-mSpecifiedTransform
-(
-nullptr
-)
 mTransformOrigin
 {
 {
