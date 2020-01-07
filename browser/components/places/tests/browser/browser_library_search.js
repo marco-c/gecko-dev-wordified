@@ -300,7 +300,9 @@ getDefaultScope
 (
 PlacesUIUtils
 .
-allBookmarksFolderId
+leftPaneQueries
+.
+AllBookmarks
 )
 ;
 search
