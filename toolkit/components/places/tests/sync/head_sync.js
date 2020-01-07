@@ -1839,6 +1839,7 @@ guid
 oldParentGuid
 newParentGuid
 source
+uri
 )
 {
 this
@@ -1866,6 +1867,7 @@ guid
 oldParentGuid
 newParentGuid
 source
+uri
 }
 }
 )
