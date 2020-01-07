@@ -34474,7 +34474,7 @@ if
 fun
 -
 >
-hasCompileTimeName
+hasInferredName
 (
 )
 )
@@ -34516,7 +34516,7 @@ funName
 rootedFun
 -
 >
-compileTimeName
+inferredName
 (
 )
 )
@@ -34530,7 +34530,7 @@ true
 fun
 -
 >
-setCompileTimeName
+setInferredName
 (
 name
 )

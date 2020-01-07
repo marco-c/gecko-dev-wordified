@@ -3316,8 +3316,8 @@ this
 we
 give
 them
-a
-guessed
+an
+inferred
 atom
 .
 Since
@@ -3342,7 +3342,7 @@ that
 ctor
 -
 >
-clearGuessedAtom
+clearInferredName
 (
 )
 ;
