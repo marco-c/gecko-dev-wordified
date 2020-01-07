@@ -1918,12 +1918,8 @@ waitBackgroundSweepEnd
 ;
 allocTask
 .
-cancel
+cancelAndWait
 (
-GCParallelTask
-:
-:
-CancelAndWait
 )
 ;
 }
