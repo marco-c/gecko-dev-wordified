@@ -14677,6 +14677,16 @@ shell
 ;
 if
 (
+!
+styleContext
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
+if
+(
 styleContext
 -
 >
