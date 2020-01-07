@@ -2515,6 +2515,7 @@ PT
 typename
 CT
 >
+MOZ_MUST_USE
 nsresult
 SplitParagraph
 (
