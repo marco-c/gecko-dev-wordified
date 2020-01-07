@@ -239,7 +239,9 @@ include
 "
 builtin
 /
-Intl
+intl
+/
+SharedIntlData
 .
 h
 "
@@ -5776,6 +5778,9 @@ js
 ActiveThreadData
 <
 js
+:
+:
+intl
 :
 :
 SharedIntlData
