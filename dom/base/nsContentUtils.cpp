@@ -28813,6 +28813,11 @@ SanitizerAllowComments
 nsIParserUtils
 :
 :
+SanitizerDropForms
+|
+nsIParserUtils
+:
+:
 SanitizerLogRemovals
 )
 ;
@@ -29330,6 +29335,11 @@ SanitizerAllowComments
 nsIParserUtils
 :
 :
+SanitizerDropForms
+|
+nsIParserUtils
+:
+:
 SanitizerLogRemovals
 )
 ;
@@ -29429,6 +29439,10 @@ principal
 true
 nullptr
 DocumentFlavorHTML
+StyleBackendType
+:
+:
+None
 )
 ;
 NS_ENSURE_SUCCESS
