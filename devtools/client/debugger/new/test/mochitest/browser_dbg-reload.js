@@ -131,15 +131,6 @@ sjs_code_reload
 )
 ;
 await
-waitForSelectedSource
-(
-dbg
-"
-sjs_code_reload
-"
-)
-;
-await
 addBreakpoint
 (
 dbg

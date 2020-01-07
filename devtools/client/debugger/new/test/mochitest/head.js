@@ -1167,8 +1167,9 @@ subscribe
 =
 >
 {
-if
-(
+const
+result
+=
 predicate
 (
 dbg
@@ -1179,6 +1180,9 @@ getState
 (
 )
 )
+if
+(
+result
 )
 {
 info
@@ -1204,6 +1208,7 @@ unsubscribe
 ;
 resolve
 (
+result
 )
 ;
 }
@@ -1492,6 +1497,8 @@ url
 )
 ;
 }
+source
+exists
 )
 ;
 }
@@ -3474,6 +3481,7 @@ Promise
 static
 *
 /
+async
 function
 selectSource
 (
@@ -3491,7 +3499,7 @@ dbg
 url
 )
 ;
-return
+await
 dbg
 .
 actions
@@ -3506,6 +3514,13 @@ source
 id
 line
 }
+)
+;
+return
+waitForSelectedSource
+(
+dbg
+url
 )
 ;
 }
