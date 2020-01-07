@@ -213,7 +213,7 @@ dispatch
 (
 ac
 .
-SendToContent
+AlsoToOneContent
 (
 action
 target

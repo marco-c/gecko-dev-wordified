@@ -108,8 +108,7 @@ context_menu_button_sr
 "
 Abrir
 men
-de
-contexto
+contextual
 para
 {
 title
@@ -866,8 +865,7 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-A
-adir
+Agregar
 sitio
 popular
 "

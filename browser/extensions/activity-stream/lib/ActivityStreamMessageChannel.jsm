@@ -260,9 +260,9 @@ should
 use
 the
 BroadcastToContent
-SendToContent
+AlsoToOneContent
 and
-SendToMain
+AlsoToMain
 action
 creators
 *
@@ -490,7 +490,7 @@ middleware
 that
 looks
 for
-SendToContent
+AlsoToOneContent
 and
 BroadcastToContent
 type
@@ -571,7 +571,7 @@ if
 (
 au
 .
-isSendToContent
+isSendToOneContent
 (
 action
 )
@@ -690,7 +690,7 @@ dispatch
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 action
 targetId

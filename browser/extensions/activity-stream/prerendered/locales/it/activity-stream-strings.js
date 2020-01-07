@@ -104,10 +104,10 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
+Apri
 menu
-for
+contestuale
+per
 {
 title
 }
@@ -825,9 +825,9 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-Add
-Top
-Site
+Aggiungi
+sito
+principale
 "
 "
 topsites_form_add_header

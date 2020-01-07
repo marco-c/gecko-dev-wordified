@@ -2447,7 +2447,7 @@ action
 =
 ac
 .
-SendToMain
+AlsoToMain
 (
 ac
 .
@@ -2671,7 +2671,7 @@ action
 =
 ac
 .
-SendToMain
+AlsoToMain
 (
 ac
 .
@@ -4701,7 +4701,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -4795,7 +4795,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -4885,7 +4885,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -4968,7 +4968,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 action
 "
@@ -5383,7 +5383,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -5530,7 +5530,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -5637,7 +5637,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -5747,7 +5747,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type

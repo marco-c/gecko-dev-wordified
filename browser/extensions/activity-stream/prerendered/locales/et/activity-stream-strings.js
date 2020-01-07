@@ -105,13 +105,11 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
-menu
-for
+Ava
 {
 title
 }
+kontekstimen
 "
 "
 type_label_visited
@@ -833,9 +831,9 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-Add
 Top
-Site
+saidi
+lisamine
 "
 "
 topsites_form_add_header

@@ -1707,13 +1707,15 @@ false
 ]
 [
 "
-topSitesCount
+topSitesRows
 "
 {
 title
 :
 "
 Number
+of
+rows
 of
 Top
 Sites
@@ -1722,7 +1724,7 @@ display
 "
 value
 :
-12
+2
 }
 ]
 [

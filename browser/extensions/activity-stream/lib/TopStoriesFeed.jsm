@@ -2577,13 +2577,6 @@ type
 at
 .
 SECTION_UPDATE
-meta
-:
-{
-skipMain
-:
-true
-}
 data
 :
 Object
@@ -2609,7 +2602,7 @@ dispatch
 (
 ac
 .
-SendToContent
+OnlyToOneContent
 (
 action
 target
