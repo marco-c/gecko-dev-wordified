@@ -791,11 +791,6 @@ test_blocklistchange
 js
 "
 "
-test_bug335238
-.
-js
-"
-"
 test_bug397778
 .
 js
