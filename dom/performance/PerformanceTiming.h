@@ -485,7 +485,7 @@ value
 /
 inline
 DOMHighResTimeStamp
-TimeStampToDOMHighResOrFetchStart
+TimeStampToReducedDOMHighResOrFetchStart
 (
 TimeStamp
 aStamp
@@ -501,9 +501,15 @@ IsNull
 )
 )
 ?
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 TimeStampToDOMHighRes
 (
 aStamp
+)
 )
 :
 FetchStartHighRes
@@ -820,11 +826,6 @@ GetNavigationStartTimeStamp
 )
 ;
 return
-nsRFPService
-:
-:
-ReduceTimePrecisionAsMSecs
-(
 duration
 .
 ToMilliseconds
@@ -832,7 +833,6 @@ ToMilliseconds
 )
 +
 mZeroTime
-)
 ;
 }
 virtual
