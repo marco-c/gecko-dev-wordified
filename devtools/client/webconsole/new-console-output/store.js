@@ -1386,6 +1386,9 @@ id
 ;
 if
 (
+message
+&
+&
 !
 message
 .

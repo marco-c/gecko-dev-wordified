@@ -264,6 +264,8 @@ networkMessageUpdate
 updatePacket
 .
 networkInfo
+null
+updatePacket
 )
 )
 ;
