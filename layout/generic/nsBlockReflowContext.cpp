@@ -3422,10 +3422,6 @@ DidReflow
 mPresContext
 &
 aReflowInput
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 return

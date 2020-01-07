@@ -3449,10 +3449,6 @@ DidReflow
 aPresContext
 &
 state
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 /
@@ -4080,10 +4076,6 @@ DidReflow
 aPresContext
 &
 state
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 /

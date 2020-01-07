@@ -7660,10 +7660,6 @@ DidReflow
 (
 aPresContext
 aReflowInput
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 }
@@ -7921,10 +7917,6 @@ DidReflow
 (
 aPresContext
 aReflowInput
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 }

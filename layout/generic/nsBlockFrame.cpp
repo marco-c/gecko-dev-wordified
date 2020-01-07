@@ -46367,10 +46367,6 @@ aState
 mPresContext
 &
 floatRS
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 #
@@ -52785,10 +52781,6 @@ mPresContext
 aState
 .
 mReflowInput
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 }

@@ -7488,10 +7488,6 @@ reflowInputHolder
 ptr
 (
 )
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 if
