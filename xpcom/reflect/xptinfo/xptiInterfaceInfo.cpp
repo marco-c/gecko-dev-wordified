@@ -1455,7 +1455,7 @@ td
 param
 -
 >
-type
+mType
 ;
 while
 (
@@ -2105,7 +2105,7 @@ td
 param
 -
 >
-type
+mType
 ;
 const
 XPTTypeDescriptor
@@ -2294,7 +2294,7 @@ td
 param
 -
 >
-type
+mType
 ;
 *
 type
@@ -2422,7 +2422,7 @@ td
 param
 -
 >
-type
+mType
 ;
 /
 /
@@ -2579,7 +2579,7 @@ td
 param
 -
 >
-type
+mType
 ;
 while
 (
