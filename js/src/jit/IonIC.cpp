@@ -491,12 +491,6 @@ CacheKind
 :
 ToBool
 :
-case
-CacheKind
-:
-:
-GetIntrinsic
-:
 MOZ_CRASH
 (
 "
