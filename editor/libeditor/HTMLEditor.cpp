@@ -16889,7 +16889,7 @@ nsresult
 HTMLEditor
 :
 :
-SetHTMLBackgroundColor
+SetHTMLBackgroundColorWithTransaction
 (
 const
 nsAString
@@ -25741,7 +25741,7 @@ nsresult
 HTMLEditor
 :
 :
-SetCSSBackgroundColor
+SetCSSBackgroundColorWithTransaction
 (
 const
 nsAString
@@ -26898,7 +26898,7 @@ the
 document
 )
 return
-SetCSSBackgroundColor
+SetCSSBackgroundColorWithTransaction
 (
 aColor
 )
@@ -26921,7 +26921,7 @@ s
 background
 color
 return
-SetHTMLBackgroundColor
+SetHTMLBackgroundColorWithTransaction
 (
 aColor
 )
