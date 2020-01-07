@@ -258,7 +258,7 @@ include
 "
 mozilla
 /
-StylePrefs
+StaticPrefs
 .
 h
 "
@@ -2405,10 +2405,12 @@ eCSSFontDesc_Display
 &
 &
 !
-StylePrefs
+StaticPrefs
 :
 :
-sFontDisplayEnabled
+layout_css_font_display_enabled
+(
+)
 )
 {
 which
