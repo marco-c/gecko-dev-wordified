@@ -1426,6 +1426,8 @@ cache_name
 '
 imagebuilder
 -
+sparse
+-
 {
 }
 '
