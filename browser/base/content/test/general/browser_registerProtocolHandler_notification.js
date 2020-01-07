@@ -79,7 +79,7 @@ let
 testURI
 =
 "
-https
+http
 :
 /
 /

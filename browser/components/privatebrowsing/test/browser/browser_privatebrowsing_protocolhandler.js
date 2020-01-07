@@ -116,7 +116,7 @@ let
 testURI
 =
 "
-https
+http
 :
 /
 /

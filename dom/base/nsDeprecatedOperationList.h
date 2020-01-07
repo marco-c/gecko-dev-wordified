@@ -282,7 +282,3 @@ DEPRECATED_OPERATION
 (
 WindowContentUntrusted
 )
-DEPRECATED_OPERATION
-(
-RegisterProtocolHandlerInsecure
-)
