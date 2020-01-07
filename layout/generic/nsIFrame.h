@@ -14449,8 +14449,6 @@ aImage
 nsPresContext
 *
 aPresContext
-uint32_t
-aImageLoaderFlags
 )
 ;
 /
