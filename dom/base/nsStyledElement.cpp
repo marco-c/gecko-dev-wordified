@@ -418,6 +418,7 @@ kNameSpaceID_None
 ParseStyleAttribute
 (
 aValue
+aMaybeScriptedPrincipal
 aResult
 false
 )
@@ -1003,6 +1004,7 @@ stringValue
 ParseStyleAttribute
 (
 stringValue
+nullptr
 attrValue
 aForceInDataDoc
 )
@@ -1162,6 +1164,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 nsAttrValue
 &
 aResult
@@ -1333,6 +1338,7 @@ aResult
 ParseStyleAttribute
 (
 aValue
+aMaybeScriptedPrincipal
 this
 )
 )

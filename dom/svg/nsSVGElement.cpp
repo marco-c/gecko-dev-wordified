@@ -2028,6 +2028,7 @@ rule
 ParseStyleAttribute
 (
 stringValue
+nullptr
 attrValue
 true
 )
