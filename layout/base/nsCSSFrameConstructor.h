@@ -188,15 +188,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
