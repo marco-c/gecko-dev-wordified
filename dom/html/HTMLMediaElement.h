@@ -7950,6 +7950,8 @@ known
 .
 bool
 mSrcStreamTracksAvailable
+=
+false
 ;
 /
 /
@@ -7972,6 +7974,9 @@ mSrcStream
 .
 double
 mSrcStreamPausedCurrentTime
+=
+-
+1
 ;
 /
 /
@@ -8404,9 +8409,19 @@ video
 )
 nsMediaNetworkState
 mNetworkState
+=
+HTMLMediaElementBinding
+:
+:
+NETWORK_EMPTY
 ;
 nsMediaReadyState
 mReadyState
+=
+HTMLMediaElementBinding
+:
+:
+HAVE_NOTHING
 ;
 enum
 LoadAlgorithmState
@@ -8549,6 +8564,8 @@ fire
 .
 uint32_t
 mCurrentLoadID
+=
+0
 ;
 /
 /
@@ -8593,6 +8610,8 @@ NOT_WAITING
 .
 LoadAlgorithmState
 mLoadWaitStatus
+=
+NOT_WAITING
 ;
 /
 /
@@ -8601,6 +8620,10 @@ audio
 volume
 double
 mVolume
+=
+1
+.
+0
 ;
 /
 /
@@ -8615,6 +8638,8 @@ silent
 .
 bool
 mIsAudioTrackAudible
+=
+false
 ;
 enum
 MutedReasons
@@ -8635,6 +8660,8 @@ MUTED_BY_AUDIO_TRACK
 ;
 uint32_t
 mMuted
+=
+0
 ;
 UniquePtr
 <
@@ -8757,6 +8784,8 @@ UpdatePreloadAction
 .
 PreloadAction
 mPreloadAction
+=
+PRELOAD_UNDEFINED
 ;
 /
 /
@@ -8888,6 +8917,10 @@ only
 .
 double
 mLastCurrentTime
+=
+0
+.
+0
 ;
 /
 /
@@ -8934,6 +8967,11 @@ only
 .
 double
 mFragmentStart
+=
+-
+1
+.
+0
 ;
 /
 /
@@ -8980,6 +9018,11 @@ only
 .
 double
 mFragmentEnd
+=
+-
+1
+.
+0
 ;
 /
 /
@@ -9010,6 +9053,10 @@ speed
 .
 double
 mDefaultPlaybackRate
+=
+1
+.
+0
 ;
 /
 /
@@ -9069,6 +9116,10 @@ playback
 .
 double
 mPlaybackRate
+=
+1
+.
+0
 ;
 /
 /
@@ -9093,6 +9144,8 @@ value
 .
 bool
 mPreservesPitch
+=
+true
 ;
 /
 /
@@ -9233,6 +9286,8 @@ not
 .
 bool
 mAttachingMediaKey
+=
+false
 ;
 MozPromiseRequestHolder
 <
@@ -9258,6 +9313,10 @@ range
 .
 double
 mCurrentPlayRangeStart
+=
+1
+.
+0
 ;
 /
 /
@@ -9270,6 +9329,8 @@ fired
 .
 bool
 mLoadedDataFired
+=
+false
 ;
 /
 /
@@ -9386,6 +9447,8 @@ attribute
 .
 bool
 mAutoplaying
+=
+true
 ;
 /
 /
@@ -9436,6 +9499,8 @@ video
 controls
 bool
 mStatsShowing
+=
+false
 ;
 /
 /
@@ -9485,6 +9550,8 @@ currently
 allowed
 bool
 mAllowCasting
+=
+false
 ;
 /
 /
@@ -9496,6 +9563,8 @@ this
 video
 bool
 mIsCasting
+=
+false
 ;
 /
 /
@@ -9509,6 +9578,8 @@ captured
 .
 bool
 mAudioCaptured
+=
+false
 ;
 /
 /
@@ -9581,6 +9652,8 @@ specification
 .
 bool
 mPlayingBeforeSeek
+=
+false
 ;
 /
 /
@@ -9609,6 +9682,8 @@ service
 .
 bool
 mPausedForInactiveDocumentOrChannel
+=
+false
 ;
 /
 /
@@ -9628,6 +9703,8 @@ true
 .
 bool
 mEventDeliveryPaused
+=
+false
 ;
 /
 /
@@ -9647,6 +9724,8 @@ method
 .
 bool
 mIsRunningLoadMethod
+=
+false
 ;
 /
 /
@@ -9678,6 +9757,8 @@ load
 .
 bool
 mIsDoingExplicitLoad
+=
+false
 ;
 /
 /
@@ -9697,6 +9778,8 @@ elements
 .
 bool
 mIsLoadingFromSourceChildren
+=
+false
 ;
 /
 /
@@ -9731,6 +9814,8 @@ loaded
 .
 bool
 mDelayingLoadEvent
+=
+false
 ;
 /
 /
@@ -9762,6 +9847,8 @@ SelectResource
 .
 bool
 mIsRunningSelectResource
+=
+false
 ;
 /
 /
@@ -9776,6 +9863,8 @@ call
 queued
 bool
 mHaveQueuedSelectResource
+=
+false
 ;
 /
 /
@@ -9810,6 +9899,8 @@ frame
 .
 bool
 mSuspendedAfterFirstFrame
+=
+false
 ;
 /
 /
@@ -9847,6 +9938,8 @@ frame
 .
 bool
 mAllowSuspendAfterFirstFrame
+=
+true
 ;
 /
 /
@@ -9878,6 +9971,8 @@ shown
 .
 bool
 mHasPlayedOrSeeked
+=
+false
 ;
 /
 /
@@ -9921,6 +10016,8 @@ accord
 .
 bool
 mHasSelfReference
+=
+false
 ;
 /
 /
@@ -9943,6 +10040,8 @@ down
 .
 bool
 mShuttingDown
+=
+false
 ;
 /
 /
@@ -9999,6 +10098,8 @@ mPreloadURI
 .
 bool
 mSuspendedForPreloadNone
+=
+false
 ;
 /
 /
@@ -10017,6 +10118,8 @@ output
 .
 bool
 mSrcStreamIsPlaying
+=
+false
 ;
 /
 /
@@ -10039,6 +10142,8 @@ resource
 .
 bool
 mMediaSecurityVerified
+=
+false
 ;
 /
 /
@@ -10083,6 +10188,8 @@ media
 element
 CORSMode
 mCORSMode
+=
+CORS_NONE
 ;
 /
 /
@@ -10107,6 +10214,8 @@ information
 .
 bool
 mIsEncrypted
+=
+false
 ;
 enum
 WaitingForKeyState
@@ -10163,6 +10272,8 @@ rendered
 .
 WaitingForKeyState
 mWaitingForKey
+=
+NOT_WAITING_FOR_KEY
 ;
 /
 /
@@ -10257,6 +10368,8 @@ playback
 .
 bool
 mDisableVideo
+=
+false
 ;
 RefPtr
 <
@@ -10740,6 +10853,8 @@ loaded
 .
 bool
 mFirstFrameLoaded
+=
+false
 ;
 /
 /
@@ -10785,6 +10900,10 @@ loaded
 .
 double
 mDefaultPlaybackStartPosition
+=
+0
+.
+0
 ;
 /
 /
@@ -10813,6 +10932,8 @@ suspending
 .
 bool
 mHasSuspendTaint
+=
+false
 ;
 /
 /
@@ -10850,6 +10971,8 @@ suspend
 "
 bool
 mForcedHidden
+=
+false
 ;
 /
 /
@@ -10883,9 +11006,16 @@ list
 .
 bool
 mMediaTracksConstructed
+=
+false
 ;
 Visibility
 mVisibilityState
+=
+Visibility
+:
+:
+UNTRACKED
 ;
 UniquePtr
 <
