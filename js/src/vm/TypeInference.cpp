@@ -27719,6 +27719,10 @@ oldArray
 0
 ]
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 }
@@ -28244,6 +28248,10 @@ oldArray
 0
 ]
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 }
@@ -28496,6 +28504,10 @@ sizeof
 (
 TypeConstraint
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 constraint
@@ -29130,6 +29142,10 @@ sizeof
 (
 Property
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 continue
@@ -29158,6 +29174,10 @@ sizeof
 (
 Property
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 if
@@ -29324,6 +29344,10 @@ sizeof
 (
 Property
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 clearProperties
@@ -29356,6 +29380,10 @@ sizeof
 (
 Property
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 if

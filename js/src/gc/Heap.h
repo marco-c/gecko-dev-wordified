@@ -1200,6 +1200,10 @@ thing
 )
 JS_ALLOCATED_TENURED_PATTERN
 thingSize
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 return

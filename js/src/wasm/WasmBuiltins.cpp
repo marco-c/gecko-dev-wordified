@@ -6575,6 +6575,10 @@ ProtectionSetting
 :
 :
 Writable
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 if

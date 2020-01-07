@@ -449,6 +449,10 @@ ProtectionSetting
 :
 :
 Writable
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 /
@@ -519,6 +523,10 @@ ProtectionSetting
 :
 :
 Writable
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 }
