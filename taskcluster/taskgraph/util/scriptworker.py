@@ -415,6 +415,12 @@ mozilla
 -
 central
 '
+        
+'
+comm
+-
+central
+'
     
 ]
 )
@@ -442,6 +448,12 @@ beta
 mozilla
 -
 release
+'
+        
+'
+comm
+-
+beta
 '
     
 ]
