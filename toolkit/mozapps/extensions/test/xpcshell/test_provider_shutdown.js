@@ -381,7 +381,8 @@ provider
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

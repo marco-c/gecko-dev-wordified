@@ -179,6 +179,7 @@ Performs
 the
 initial
 setup
+async
 function
 run_test
 (
@@ -430,6 +431,10 @@ do_test_finished
 return
 ;
 }
+do_test_pending
+(
+)
+;
 createAppInfo
 (
 "
@@ -451,11 +456,8 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
-do_test_pending
+await
+promiseStartupManager
 (
 )
 ;

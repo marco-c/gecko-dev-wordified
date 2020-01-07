@@ -99,8 +99,11 @@ extensions
 "
 )
 ;
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -163,7 +166,8 @@ data
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -176,6 +180,8 @@ run_test_1
 )
 ;
 }
+)
+;
 function
 end_test
 (
@@ -333,12 +339,14 @@ updates
 attempted
 to
 start
+async
 function
 run_test_2
 (
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -415,7 +423,8 @@ Addon
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -492,7 +501,8 @@ Addon
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -622,7 +632,8 @@ json
 "
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

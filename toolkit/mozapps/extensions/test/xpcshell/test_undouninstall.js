@@ -271,8 +271,11 @@ add
 -
 on
 .
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -301,7 +304,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -310,11 +314,9 @@ registerCleanupFunction
 promiseShutdownManager
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 /
 /
 Tests
@@ -1044,7 +1046,8 @@ a1
 userDisabled
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -1070,7 +1073,8 @@ ID
 undefined
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1580,7 +1584,8 @@ a1
 userDisabled
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -1595,7 +1600,8 @@ ID
 APP_SHUTDOWN
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

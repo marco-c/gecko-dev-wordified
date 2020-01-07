@@ -121,7 +121,8 @@ do_test_pending
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -229,7 +230,8 @@ ok
 sawGlobals
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

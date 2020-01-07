@@ -359,8 +359,11 @@ resolve
 }
 }
 ;
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -389,7 +392,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -478,11 +482,9 @@ true
 )
 ;
 }
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 async

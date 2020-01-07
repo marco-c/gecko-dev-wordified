@@ -2511,7 +2511,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -3132,7 +3133,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -3220,7 +3222,8 @@ as
 an
 upgrade
 .
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -3521,7 +3524,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -3608,7 +3612,8 @@ as
 a
 downgrade
 .
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -3884,7 +3889,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -4388,7 +4394,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id

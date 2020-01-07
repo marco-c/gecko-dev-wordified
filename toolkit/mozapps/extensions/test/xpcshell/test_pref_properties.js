@@ -266,8 +266,11 @@ seenEvents
 }
 }
 ;
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -356,7 +359,8 @@ checkUpdatesecurity
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1602,3 +1606,5 @@ checkExpected
 )
 ;
 }
+)
+;

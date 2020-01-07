@@ -188,6 +188,7 @@ Performs
 the
 initial
 setup
+async
 function
 run_test
 (
@@ -421,6 +422,10 @@ spoofDriverVersion
 break
 ;
 }
+do_test_pending
+(
+)
+;
 createAppInfo
 (
 "
@@ -442,11 +447,8 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
-do_test_pending
+await
+promiseStartupManager
 (
 )
 ;

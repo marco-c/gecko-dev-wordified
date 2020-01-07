@@ -509,7 +509,8 @@ now
 var
 dir
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 userDir
@@ -521,6 +522,7 @@ dir
 time
 )
 ;
+await
 manuallyInstall
 (
 XPIS

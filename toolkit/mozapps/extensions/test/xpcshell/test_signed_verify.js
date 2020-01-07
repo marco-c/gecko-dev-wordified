@@ -348,6 +348,7 @@ first
 add
 -
 on
+await
 manuallyInstall
 (
 do_get_file
@@ -360,7 +361,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -440,6 +442,7 @@ profileDir
 ID
 )
 ;
+await
 manuallyInstall
 (
 do_get_file
@@ -665,6 +668,7 @@ first
 add
 -
 on
+await
 manuallyInstall
 (
 do_get_file
@@ -677,7 +681,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -748,6 +753,7 @@ profileDir
 ID
 )
 ;
+await
 manuallyInstall
 (
 do_get_file
@@ -1062,6 +1068,7 @@ first
 add
 -
 on
+await
 manuallyInstall
 (
 do_get_file
@@ -1074,7 +1081,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1157,6 +1165,7 @@ profileDir
 ID
 )
 ;
+await
 manuallyInstall
 (
 do_get_file

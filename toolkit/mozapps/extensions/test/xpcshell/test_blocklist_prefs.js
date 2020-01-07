@@ -501,7 +501,8 @@ XPCShell
 Add
 2
 extensions
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -571,7 +572,8 @@ maxVersion
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -719,7 +721,8 @@ pref4
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -895,7 +898,8 @@ function
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

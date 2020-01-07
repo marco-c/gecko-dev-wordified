@@ -1069,7 +1069,8 @@ clone
 const
 unpackedAddon
 =
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -1136,7 +1137,8 @@ Bootstrap
 "
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -1255,7 +1257,8 @@ clone
 const
 unpackedAddon
 =
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -1321,7 +1324,8 @@ an
 empty
 manifest
 .
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 }

@@ -103,8 +103,11 @@ uri
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -253,7 +256,8 @@ nsIPermissionManager
 ALLOW_ACTION
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -778,7 +782,8 @@ are
 still
 not
 there
-restartManager
+await
+promiseRestartManager
 (
 "
 2
@@ -917,3 +922,5 @@ com
 )
 ;
 }
+)
+;

@@ -279,7 +279,8 @@ first_run
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -368,7 +369,8 @@ restart_and_recheck
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -423,12 +425,14 @@ a
 database
 add_task
 (
+async
 function
 upgrade_schema_version
 (
 )
 {
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -446,7 +450,8 @@ databaseSchema
 1
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

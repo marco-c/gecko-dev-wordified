@@ -4080,7 +4080,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -146,6 +146,7 @@ extensions
 "
 )
 ;
+async
 function
 run_test
 (
@@ -180,7 +181,8 @@ XPCShell
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -263,7 +265,8 @@ normal
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -346,7 +349,8 @@ strict
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -437,7 +441,8 @@ true
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -520,7 +525,8 @@ ignore
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

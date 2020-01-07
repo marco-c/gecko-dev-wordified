@@ -351,7 +351,8 @@ org
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -1063,7 +1063,8 @@ system
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

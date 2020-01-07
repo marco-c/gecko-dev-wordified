@@ -173,7 +173,8 @@ auto
 installed
 at
 startup
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 profileDir

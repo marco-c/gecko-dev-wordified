@@ -1246,7 +1246,8 @@ system
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

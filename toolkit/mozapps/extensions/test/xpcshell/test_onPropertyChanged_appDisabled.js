@@ -80,7 +80,8 @@ XPCShell
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -143,7 +144,8 @@ maxVersion
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -197,7 +199,8 @@ run_test_1
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

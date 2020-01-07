@@ -512,7 +512,8 @@ function
 (
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -573,7 +574,8 @@ maxVersion
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

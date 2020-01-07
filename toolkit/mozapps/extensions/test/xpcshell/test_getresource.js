@@ -123,7 +123,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -359,7 +360,8 @@ aInstall
 ]
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -744,7 +746,8 @@ png
 )
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

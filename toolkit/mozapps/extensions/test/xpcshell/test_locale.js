@@ -28,6 +28,7 @@ zero
 /
 *
 /
+async
 function
 run_test
 (
@@ -82,7 +83,8 @@ FR
 ]
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -223,7 +225,8 @@ run_test_2
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -314,7 +317,8 @@ run_test_3
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -463,7 +467,8 @@ Contributor
 "
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -604,7 +609,8 @@ DE
 ]
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -695,7 +701,8 @@ NL
 ]
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -779,7 +786,8 @@ run_test_7
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -863,7 +871,8 @@ FR
 ]
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

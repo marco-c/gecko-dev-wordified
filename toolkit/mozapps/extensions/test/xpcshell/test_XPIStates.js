@@ -160,7 +160,16 @@ extension
 to
 be
 enabled
-writeInstallRDFToXPI
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -227,7 +236,8 @@ Packed
 will
 be
 disabled
-writeInstallRDFToXPI
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -292,7 +302,8 @@ profileDir
 /
 Unpacked
 enabled
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -366,7 +377,8 @@ js
 /
 Unpacked
 disabled
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -434,6 +446,9 @@ extraFile
 .
 js
 "
+)
+;
+}
 )
 ;
 /
@@ -715,7 +730,8 @@ detect_touches
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

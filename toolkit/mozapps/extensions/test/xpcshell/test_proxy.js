@@ -105,7 +105,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -240,7 +241,8 @@ extensions
 let
 proxyFile
 =
-writeProxyFileToDir
+await
+promiseWriteProxyFileToDir
 (
 extensionsDir
 unpackedAddon
@@ -474,7 +476,8 @@ install
 .
 rdf
 invalid
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -618,7 +621,8 @@ extensions
 let
 proxyFile
 =
-writeProxyFileToDir
+await
+promiseWriteProxyFileToDir
 (
 extensionsDir
 unpackedAddon

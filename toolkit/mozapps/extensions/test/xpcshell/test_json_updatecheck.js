@@ -462,7 +462,8 @@ for
 omitted
 values
 .
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

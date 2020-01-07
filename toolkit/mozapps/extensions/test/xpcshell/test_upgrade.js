@@ -148,11 +148,16 @@ now
 (
 )
 ;
+async
 function
 run_test
 (
 )
 {
+do_test_pending
+(
+)
+;
 createAppInfo
 (
 "
@@ -192,7 +197,8 @@ incompatible
 in
 subsequent
 versions
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -269,7 +275,8 @@ in
 all
 tested
 versions
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -353,7 +360,8 @@ in
 the
 second
 .
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -430,7 +438,8 @@ between
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -494,10 +503,6 @@ setExtensionModifiedTime
 (
 dest
 gInstallTime
-)
-;
-do_test_pending
-(
 )
 ;
 run_test_1
@@ -762,7 +767,8 @@ extension
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -1016,7 +1022,8 @@ extension
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -1111,7 +1118,8 @@ remove
 true
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1262,7 +1270,8 @@ version
 "
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

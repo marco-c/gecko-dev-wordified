@@ -466,6 +466,7 @@ null
 null
 ]
 ;
+async
 function
 run_test
 (
@@ -518,7 +519,8 @@ enabled
 false
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -930,7 +932,8 @@ run_test_3
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1014,7 +1017,8 @@ PLUGINS
 ]
 ]
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

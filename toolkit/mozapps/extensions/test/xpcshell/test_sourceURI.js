@@ -492,13 +492,15 @@ XPCShell
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -545,7 +547,8 @@ function
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

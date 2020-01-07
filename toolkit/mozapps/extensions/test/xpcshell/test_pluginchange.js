@@ -158,6 +158,7 @@ manager
 /
 correctly
 updates
+async
 function
 run_test
 (
@@ -210,7 +211,8 @@ enabled
 false
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

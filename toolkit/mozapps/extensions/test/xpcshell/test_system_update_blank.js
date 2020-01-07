@@ -727,7 +727,8 @@ system
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

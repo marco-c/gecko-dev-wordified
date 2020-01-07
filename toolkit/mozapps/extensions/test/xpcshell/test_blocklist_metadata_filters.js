@@ -492,7 +492,8 @@ get
 blocked
 by
 name
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -562,7 +563,8 @@ all
 the
 attributes
 .
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -676,7 +678,8 @@ a
 blocklist
 entry
 .
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -767,7 +770,8 @@ maxVersion
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -875,7 +879,8 @@ function
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

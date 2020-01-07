@@ -569,7 +569,8 @@ incrementAppVersion
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -630,7 +631,8 @@ newAddon
 )
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -676,7 +678,8 @@ incrementAppVersion
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -737,7 +740,8 @@ newAddon
 )
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -785,7 +789,8 @@ incrementAppVersion
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -846,7 +851,8 @@ newAddon
 )
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -896,7 +902,8 @@ incrementAppVersion
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -957,7 +964,8 @@ newAddon
 )
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -1011,11 +1019,13 @@ incrementAppVersion
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -1039,7 +1049,8 @@ remove
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1100,7 +1111,8 @@ newAddon
 )
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
