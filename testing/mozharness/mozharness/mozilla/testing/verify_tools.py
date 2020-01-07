@@ -882,6 +882,25 @@ gpu
                     
 (
 '
+browser
+-
+chrome
+'
+'
+screenshots
+'
+)
+:
+'
+browser
+-
+chrome
+-
+screenshots
+'
+                    
+(
+'
 chrome
 '
 '
