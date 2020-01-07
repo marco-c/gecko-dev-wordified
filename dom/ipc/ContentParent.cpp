@@ -30491,11 +30491,13 @@ void
 ContentParent
 :
 :
-ForceTabPaint
+PaintTabWhileInterruptingJS
 (
 TabParent
 *
 aTabParent
+bool
+aForceRepaint
 uint64_t
 aLayerObserverEpoch
 )
@@ -30512,10 +30514,11 @@ return
 ProcessHangMonitor
 :
 :
-ForcePaint
+PaintWhileInterruptingJS
 (
 mHangMonitorActor
 aTabParent
+aForceRepaint
 aLayerObserverEpoch
 )
 ;

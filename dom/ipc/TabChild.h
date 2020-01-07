@@ -3523,10 +3523,12 @@ as
 active
 .
 void
-ForcePaint
+PaintWhileInterruptingJS
 (
 uint64_t
 aLayerObserverEpoch
+bool
+aForceRepaint
 )
 ;
 #
@@ -3942,6 +3944,10 @@ const
 bool
 &
 aEnabled
+const
+bool
+&
+aForce
 const
 uint64_t
 &
