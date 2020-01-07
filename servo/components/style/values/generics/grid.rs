@@ -3230,13 +3230,6 @@ track
 size
 >
 .
-#
-[
-compute
-(
-clone
-)
-]
 pub
 line_names
 :
@@ -5578,6 +5571,13 @@ list
 >
 TrackList
 (
+#
+[
+compute
+(
+field_bound
+)
+]
 TrackList
 <
 L

@@ -129,6 +129,7 @@ derive
 PartialEq
 PartialOrd
 ToAnimatedZero
+ToComputedValue
 )
 ]
 pub

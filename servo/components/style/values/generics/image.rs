@@ -446,13 +446,6 @@ a
 repeating
 gradient
 .
-#
-[
-compute
-(
-clone
-)
-]
 pub
 repeating
 :
@@ -463,13 +456,6 @@ bool
 Compatibility
 mode
 .
-#
-[
-compute
-(
-clone
-)
-]
 pub
 compat_mode
 :
