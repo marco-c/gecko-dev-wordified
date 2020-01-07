@@ -9056,9 +9056,10 @@ JSContext
 *
 cx
 =
-TlsContext
-.
-get
+rt
+-
+>
+mainContextFromOwnThread
 (
 )
 ;

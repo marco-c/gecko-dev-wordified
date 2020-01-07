@@ -1569,9 +1569,7 @@ JSContext
 *
 cx
 =
-TlsContext
-.
-get
+mainContextFromOwnThread
 (
 )
 ;
@@ -4478,9 +4476,7 @@ JSContext
 *
 cx
 =
-TlsContext
-.
-get
+mainContextFromOwnThread
 (
 )
 ;
