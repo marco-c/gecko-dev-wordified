@@ -991,16 +991,6 @@ override
 {
 if
 (
-ShouldUseAdvancedLayer
-(
-aManager
-gfxPrefs
-:
-:
-LayersAllowCanvasBackgroundColorLayers
-)
-|
-|
 ForceActiveLayers
 (
 )

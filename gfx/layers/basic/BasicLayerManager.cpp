@@ -4661,10 +4661,6 @@ complete
 "
 )
 ;
-ClearDisplayItemLayers
-(
-)
-;
 /
 /
 XXX
