@@ -49,7 +49,9 @@ get_cache_service
 .
 diskCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 false

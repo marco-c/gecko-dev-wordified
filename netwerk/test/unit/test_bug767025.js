@@ -685,7 +685,9 @@ cache_service
 .
 appCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 null
@@ -1052,7 +1054,9 @@ get_cache_service
 .
 appCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 appcache
@@ -1315,7 +1319,9 @@ get_cache_service
 .
 appCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 appcache
