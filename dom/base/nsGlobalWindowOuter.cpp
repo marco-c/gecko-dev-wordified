@@ -16855,7 +16855,7 @@ GetNavigator
 {
 FORWARD_TO_INNER
 (
-GetNavigator
+Navigator
 (
 )
 nullptr
