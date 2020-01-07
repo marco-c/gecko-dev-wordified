@@ -440,6 +440,11 @@ return
 this
 ;
 }
+void
+NoteTerminating
+(
+)
+;
 already_AddRefed
 <
 Console
