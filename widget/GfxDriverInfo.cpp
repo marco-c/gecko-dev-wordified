@@ -2178,6 +2178,14 @@ VendorMicrosoft
 "
 )
 ;
+DECLARE_VENDOR_ID
+(
+VendorParallels
+"
+0x1ab8
+"
+)
+;
 /
 /
 Suppress
