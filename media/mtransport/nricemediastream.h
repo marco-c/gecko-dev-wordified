@@ -738,6 +738,9 @@ std
 string
 codeword
 ;
+uint64_t
+component_id
+;
 /
 /
 for
