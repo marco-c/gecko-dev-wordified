@@ -604,16 +604,6 @@ fxaccounts
 only
 exports
 .
-ON_FXA_UPDATE_NOTIFICATION
-=
-"
-fxaccounts
-:
-update
-"
-;
-exports
-.
 ON_DEVICE_CONNECTED_NOTIFICATION
 =
 "
