@@ -453,6 +453,8 @@ Identifier
 /
 Only
 Cu
+and
+ChromeUtils
 not
 Components
 .
@@ -462,6 +464,7 @@ see
 bug
 1230369
 .
+(
 memexp
 .
 object
@@ -473,6 +476,20 @@ name
 "
 Cu
 "
+|
+|
+memexp
+.
+object
+.
+name
+=
+=
+=
+"
+ChromeUtils
+"
+)
 &
 &
 memexp

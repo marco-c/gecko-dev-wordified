@@ -436,6 +436,8 @@ Components
 \
 .
 utils
+|
+ChromeUtils
 )
 \
 .
