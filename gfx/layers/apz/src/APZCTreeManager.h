@@ -399,6 +399,9 @@ HitTestingTreeNode
 class
 WebRenderScrollData
 ;
+struct
+AncestorTransform
+;
 /
 *
 *
@@ -4818,10 +4821,7 @@ aMetrics
 uint64_t
 aLayersId
 const
-gfx
-:
-:
-Matrix4x4
+AncestorTransform
 &
 aAncestorTransform
 HitTestingTreeNode
