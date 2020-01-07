@@ -514,6 +514,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -540,6 +543,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -562,6 +568,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -582,6 +591,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -602,6 +614,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -622,6 +637,9 @@ nsIURI
 aURI
 int64_t
 aItemId
+BookmarkData
+*
+aBookmark
 const
 nsACString
 &
@@ -674,6 +692,13 @@ nsCString
 >
 *
 _result
+)
+;
+nsresult
+RemoveItemAnnotationsWithoutNotifying
+(
+int64_t
+aItemId
 )
 ;
 }
