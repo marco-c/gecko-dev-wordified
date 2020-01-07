@@ -616,9 +616,6 @@ debugger
 =
 False
                      
-dmdPath
-=
-None
 lsanPath
 =
 None
@@ -738,14 +735,6 @@ envVar
 =
 None
     
-dmdLibrary
-=
-None
-    
-preloadEnvVar
-=
-None
-    
 if
 mozinfo
 .
@@ -756,20 +745,6 @@ envVar
 =
 "
 LD_LIBRARY_PATH
-"
-        
-dmdLibrary
-=
-"
-libdmd
-.
-so
-"
-        
-preloadEnvVar
-=
-"
-LD_PRELOAD
 "
     
 elif
@@ -783,20 +758,6 @@ envVar
 "
 DYLD_LIBRARY_PATH
 "
-        
-dmdLibrary
-=
-"
-libdmd
-.
-dylib
-"
-        
-preloadEnvVar
-=
-"
-DYLD_INSERT_LIBRARIES
-"
     
 elif
 mozinfo
@@ -808,20 +769,6 @@ envVar
 =
 "
 PATH
-"
-        
-dmdLibrary
-=
-"
-dmd
-.
-dll
-"
-        
-preloadEnvVar
-=
-"
-MOZ_REPLACE_MALLOC_LIB
 "
     
 if
@@ -852,7 +799,6 @@ isWin
 else
 (
 ldLibraryPath
-dmdPath
 env
 .
 get
@@ -884,29 +830,6 @@ envValue
 if
 path
 ]
-)
-    
-if
-dmdPath
-and
-dmdLibrary
-and
-preloadEnvVar
-:
-        
-env
-[
-preloadEnvVar
-]
-=
-os
-.
-path
-.
-join
-(
-dmdPath
-dmdLibrary
 )
     
 #
