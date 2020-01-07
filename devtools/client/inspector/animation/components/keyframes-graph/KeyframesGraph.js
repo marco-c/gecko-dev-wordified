@@ -217,11 +217,12 @@ div
 {
 className
 :
-"
 keyframes
 -
 graph
-"
+{
+property
+}
 }
 KeyframesGraphPath
 (
