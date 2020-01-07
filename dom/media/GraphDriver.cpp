@@ -1429,15 +1429,6 @@ void
 ThreadedDriver
 :
 :
-RemoveCallback
-(
-)
-{
-}
-void
-ThreadedDriver
-:
-:
 Shutdown
 (
 )
@@ -1934,10 +1925,6 @@ to
 AudioCallbackDriver
 "
 )
-)
-;
-RemoveCallback
-(
 )
 ;
 NextDriver
