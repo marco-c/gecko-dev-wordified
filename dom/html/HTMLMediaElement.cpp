@@ -45122,3 +45122,9 @@ dom
 /
 namespace
 mozilla
+#
+undef
+LOG
+#
+undef
+LOG_EVENT
