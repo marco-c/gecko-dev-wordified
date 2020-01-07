@@ -70,7 +70,7 @@ InvalidSelectorError
 InvalidSessionIDError
 JavaScriptError
 MoveTargetOutOfBoundsError
-NoSuchAlertError
+NoAlertOpenError
 NoSuchElementError
 NoSuchFrameError
 NoSuchWindowError
@@ -2610,7 +2610,7 @@ run_next_test
 add_test
 (
 function
-test_NoSuchAlertError
+test_NoAlertOpenError
 (
 )
 {
@@ -2618,7 +2618,7 @@ let
 err
 =
 new
-NoSuchAlertError
+NoAlertOpenError
 (
 "
 foo
@@ -2628,7 +2628,7 @@ foo
 equal
 (
 "
-NoSuchAlertError
+NoAlertOpenError
 "
 err
 .
