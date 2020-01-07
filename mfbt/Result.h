@@ -1498,7 +1498,7 @@ bool
 value
 =
 (
-MOZ_ALIGNOF
+alignof
 (
 T
 )
