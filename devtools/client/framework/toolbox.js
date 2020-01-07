@@ -4515,7 +4515,7 @@ this
 .
 target
 .
-logErrorInPage
+logWarningInPage
 (
 message
 "
@@ -4605,7 +4605,7 @@ this
 .
 target
 .
-logErrorInPage
+logWarningInPage
 (
 message
 "
@@ -21097,7 +21097,7 @@ this
 .
 target
 .
-logErrorInPage
+logWarningInPage
 (
 message
 "

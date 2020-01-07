@@ -1033,7 +1033,7 @@ owner
 .
 target
 .
-logErrorInPage
+logWarningInPage
 (
 l10n
 .
