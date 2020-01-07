@@ -613,6 +613,7 @@ char
 *
 name_space
 ;
+const
 XPTInterfaceDescriptor
 *
 interface_descriptor

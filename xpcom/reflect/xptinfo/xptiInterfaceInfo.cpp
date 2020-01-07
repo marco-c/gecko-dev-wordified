@@ -186,6 +186,7 @@ const
 nsID
 &
 aIID
+const
 XPTInterfaceDescriptor
 *
 aDescriptor
@@ -244,6 +245,7 @@ const
 nsID
 &
 aIID
+const
 XPTInterfaceDescriptor
 *
 aDescriptor

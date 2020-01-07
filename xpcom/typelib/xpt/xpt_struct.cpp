@@ -577,6 +577,7 @@ XPTCursor
 *
 >
 outer
+const
 XPTInterfaceDescriptor
 *
 *
@@ -1591,6 +1592,7 @@ XPTCursor
 *
 >
 outer
+const
 XPTInterfaceDescriptor
 *
 *
