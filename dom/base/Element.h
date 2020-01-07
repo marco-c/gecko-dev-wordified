@@ -5564,7 +5564,6 @@ attribute
 change
 *
 /
-virtual
 nsresult
 UnsetAttr
 (
