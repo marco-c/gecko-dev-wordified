@@ -347,6 +347,12 @@ ID3D11Device
 >
 mDevice
 ;
+RefPtr
+<
+VRThread
+>
+mSubmitThread
+;
 /
 /
 The
