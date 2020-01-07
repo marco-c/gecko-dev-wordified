@@ -1901,6 +1901,14 @@ dom
 SRIMetadata
 &
 aIntegrity
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 )
 ;
 /
