@@ -1842,6 +1842,15 @@ SourceSurfaceD2D1
 >
 mSnapshot
 ;
+std
+:
+:
+shared_ptr
+<
+Mutex
+>
+mSnapshotLock
+;
 /
 /
 A
