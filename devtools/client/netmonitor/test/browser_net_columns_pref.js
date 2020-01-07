@@ -47,8 +47,8 @@ saved
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -85,7 +85,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -164,7 +164,7 @@ shown
 "
 )
 ;
-yield
+await
 hideColumn
 (
 monitor
@@ -173,7 +173,7 @@ status
 "
 )
 ;
-yield
+await
 hideColumn
 (
 monitor
@@ -247,7 +247,7 @@ contentSize
 "
 )
 ;
-yield
+await
 showColumn
 (
 monitor
