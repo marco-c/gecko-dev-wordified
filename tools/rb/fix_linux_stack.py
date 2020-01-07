@@ -121,10 +121,6 @@ import
 re
 import
 os
-import
-pty
-import
-termios
 from
 StringIO
 import
@@ -2162,8 +2158,8 @@ address
 :
     
 if
-not
 file
+not
 in
 file_stuff
 :
