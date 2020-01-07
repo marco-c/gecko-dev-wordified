@@ -577,6 +577,7 @@ transform
 :
 :
 {
+self
 Transform
 TransformOperation
 }
@@ -8542,7 +8543,7 @@ fz
 fa
 )
 =
-ComputedTransform
+transform
 :
 :
 get_normalized_vector_and_angle
@@ -8561,7 +8562,7 @@ tz
 ta
 )
 =
-ComputedTransform
+transform
 :
 :
 get_normalized_vector_and_angle
@@ -20294,7 +20295,7 @@ fz
 angle1
 )
 =
-ComputedTransform
+transform
 :
 :
 get_normalized_vector_and_angle
@@ -20313,7 +20314,7 @@ tz
 angle2
 )
 =
-ComputedTransform
+transform
 :
 :
 get_normalized_vector_and_angle
@@ -20982,13 +20983,9 @@ to_transform_3d_matrix
 (
 None
 )
-.
-ok_or
-(
-(
-)
-)
 ?
+.
+0
 .
 into
 (
@@ -21005,13 +21002,9 @@ to_transform_3d_matrix
 (
 None
 )
-.
-ok_or
-(
-(
-)
-)
 ?
+.
+0
 .
 into
 (
