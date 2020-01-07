@@ -191,13 +191,6 @@ h
 #
 include
 "
-TexturePoolOGL
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
