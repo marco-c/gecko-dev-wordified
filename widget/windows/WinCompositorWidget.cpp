@@ -242,16 +242,10 @@ nullptr
 )
 mTransparencyMode
 (
-static_cast
-<
-nsTransparencyMode
->
-(
 aInitData
 .
 transparencyMode
 (
-)
 )
 )
 mMemoryDC
