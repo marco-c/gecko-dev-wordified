@@ -5285,7 +5285,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 for
 regular
 mode
@@ -5296,7 +5296,9 @@ http
 .
 referer
 .
-userControlPrivatePolicy
+defaultPolicy
+.
+pbmode
 for
 private
 mode
