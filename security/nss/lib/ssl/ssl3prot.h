@@ -197,7 +197,7 @@ published
 #
 define
 TLS_1_3_DRAFT_VERSION
-26
+28
 typedef
 PRUint16
 ssl3CipherSuite
