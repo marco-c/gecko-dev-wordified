@@ -5717,12 +5717,11 @@ t
 enabled
 .
 return
-nsContentUtils
+DOMPrefs
 :
 :
 DevToolsEnabled
 (
-aCx
 )
 ;
 }
