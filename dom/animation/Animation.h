@@ -2616,7 +2616,7 @@ See
 the
 comment
 of
-KeyframeEffectReadOnly
+KeyframeEffect
 :
 :
 WillComposeStyle

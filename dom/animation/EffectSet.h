@@ -425,7 +425,7 @@ AddEffect
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -436,7 +436,7 @@ RemoveEffect
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -491,7 +491,7 @@ nsRefPtrHashKey
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 >
 >
 OwningEffectSet
@@ -795,7 +795,7 @@ this
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 operator
 *

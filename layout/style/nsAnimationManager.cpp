@@ -368,7 +368,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 ;
 using
 mozilla
@@ -2381,7 +2381,7 @@ aKeyframes
 void
 SetKeyframes
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 nsTArray
@@ -2713,7 +2713,7 @@ effect
 return
 ;
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -2856,7 +2856,7 @@ SetSpecifiedTiming
 aNewTiming
 )
 ;
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 oldKeyframeEffect
 =
@@ -3497,12 +3497,12 @@ effectOptions
 ;
 RefPtr
 <
-KeyframeEffectReadOnly
+KeyframeEffect
 >
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 aPresContext
 -

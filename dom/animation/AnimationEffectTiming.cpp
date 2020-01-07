@@ -218,7 +218,7 @@ inline
 void
 PostSpecifiedTimingUpdated
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 aEffect
 )

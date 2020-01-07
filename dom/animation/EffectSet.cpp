@@ -837,7 +837,7 @@ AddEffect
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -878,7 +878,7 @@ RemoveEffect
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )

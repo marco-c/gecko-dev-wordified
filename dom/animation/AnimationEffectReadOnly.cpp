@@ -525,7 +525,7 @@ eventually
 cause
 /
 /
-KeyframeEffectReadOnly
+KeyframeEffect
 :
 :
 NotifyAnimationTimingUpdated
