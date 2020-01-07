@@ -68,6 +68,18 @@ jsm
 "
 )
 ;
+const
+DEFAULT_THEME_ID
+=
+"
+default
+-
+theme
+mozilla
+.
+org
+"
+;
 function
 dummy
 (
@@ -299,7 +311,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -309,7 +321,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -333,7 +347,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -343,7 +357,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -367,7 +383,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -377,7 +393,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -406,7 +424,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -480,7 +498,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -512,7 +530,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -549,7 +567,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -603,7 +621,7 @@ ltm
 usedThemes
 .
 length
-3
+4
 )
 ;
 Assert
@@ -718,7 +736,7 @@ ltm
 usedThemes
 .
 length
-8
+9
 )
 ;
 Assert
@@ -789,7 +807,7 @@ ltm
 usedThemes
 .
 length
-8
+9
 )
 ;
 Assert
@@ -873,7 +891,7 @@ ltm
 usedThemes
 .
 length
-8
+9
 )
 ;
 Assert
@@ -883,7 +901,9 @@ notEqual
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -904,7 +924,7 @@ ltm
 usedThemes
 .
 length
-7
+8
 )
 ;
 Assert
@@ -914,7 +934,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Assert
@@ -1005,7 +1027,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -1015,7 +1037,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Assert
@@ -1072,7 +1096,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -1143,7 +1167,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -1216,7 +1240,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -1294,7 +1318,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -1304,7 +1328,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 /
@@ -1362,7 +1388,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -1520,7 +1546,9 @@ notEqual
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Assert
@@ -1532,7 +1560,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -1649,7 +1677,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -1659,7 +1687,9 @@ notEqual
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -1680,7 +1710,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -1690,7 +1720,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Assert
@@ -2820,7 +2852,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -2830,7 +2862,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 data
@@ -2914,7 +2948,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -2949,7 +2983,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 /
@@ -3004,7 +3038,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3039,7 +3073,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 /
@@ -3091,7 +3125,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3126,7 +3160,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 data
@@ -3166,7 +3200,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3201,7 +3235,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 data
@@ -3241,7 +3275,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3285,7 +3319,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 data
@@ -3328,7 +3362,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3363,7 +3397,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 data
@@ -3419,7 +3453,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -3429,7 +3463,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 /
@@ -3476,7 +3512,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 /
@@ -3506,7 +3542,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 ltm
@@ -3529,7 +3565,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -3539,7 +3575,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 /
@@ -3597,7 +3635,7 @@ ltm
 usedThemes
 .
 length
-3
+4
 )
 ;
 /
@@ -3635,7 +3673,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 ltm
@@ -3665,7 +3703,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -3675,7 +3713,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Services
@@ -3706,7 +3746,7 @@ ltm
 usedThemes
 .
 length
-3
+4
 )
 ;
 /
@@ -3739,7 +3779,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 ltm
@@ -3760,7 +3800,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -3770,7 +3810,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 /
@@ -3839,7 +3881,7 @@ ltm
 usedThemes
 .
 length
-2
+4
 )
 ;
 Assert
@@ -3908,7 +3950,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -3918,7 +3960,9 @@ notEqual
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 ltm
@@ -3939,7 +3983,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 Assert
@@ -3949,7 +3993,9 @@ equal
 ltm
 .
 currentTheme
-null
+.
+id
+DEFAULT_THEME_ID
 )
 ;
 Services
@@ -4304,7 +4350,7 @@ ltm
 usedThemes
 .
 length
-30
+31
 )
 ;
 ltm
@@ -4327,7 +4373,7 @@ ltm
 usedThemes
 .
 length
-30
+31
 )
 ;
 Assert
@@ -4368,7 +4414,7 @@ ltm
 usedThemes
 .
 length
-15
+16
 )
 ;
 Services
@@ -4581,7 +4627,7 @@ ltm
 usedThemes
 .
 length
-32
+33
 )
 ;
 ltm
@@ -4604,7 +4650,7 @@ ltm
 usedThemes
 .
 length
-32
+33
 )
 ;
 Services
@@ -4629,7 +4675,7 @@ ltm
 usedThemes
 .
 length
-30
+31
 )
 ;
 let
@@ -4702,7 +4748,7 @@ entries
 ]
 .
 length
-0
+1
 )
 ;
 Assert
@@ -4714,7 +4760,7 @@ ltm
 usedThemes
 .
 length
-0
+1
 )
 ;
 ltm
@@ -4743,7 +4789,7 @@ _builtInThemes
 ]
 .
 length
-1
+2
 )
 ;
 Assert
@@ -4755,7 +4801,7 @@ ltm
 usedThemes
 .
 length
-1
+2
 )
 ;
 Assert
@@ -4766,7 +4812,7 @@ ltm
 .
 usedThemes
 [
-0
+1
 ]
 .
 id
@@ -4801,7 +4847,7 @@ _builtInThemes
 ]
 .
 length
-2
+3
 )
 ;
 Assert
@@ -4813,7 +4859,7 @@ ltm
 usedThemes
 .
 length
-2
+3
 )
 ;
 Assert
@@ -4824,7 +4870,7 @@ ltm
 .
 usedThemes
 [
-1
+2
 ]
 .
 id
