@@ -491,7 +491,9 @@ data
 >
 FinishStyle
 (
-mPresContext
+PresContext
+(
+)
 nullptr
 )
 ;
@@ -639,7 +641,9 @@ data
 >
 FinishStyle
 (
-mPresContext
+PresContext
+(
+)
 nullptr
 )
 ;

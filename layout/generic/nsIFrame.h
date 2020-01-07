@@ -4558,7 +4558,7 @@ Style
 )
 -
 >
-PresContextForFrame
+PresContext
 (
 )
 ;

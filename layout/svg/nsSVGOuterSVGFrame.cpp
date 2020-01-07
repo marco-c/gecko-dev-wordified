@@ -582,6 +582,9 @@ false
 )
 mFullZoom
 (
+aStyle
+-
+>
 PresContext
 (
 )

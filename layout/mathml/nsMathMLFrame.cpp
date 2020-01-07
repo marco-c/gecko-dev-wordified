@@ -1444,7 +1444,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 aComputedStyle
-aPresContext
 aFontSizeInflation
 )
 ;

@@ -3927,7 +3927,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 computedStyle
-presContext
 )
 ;
 nscoord

@@ -21732,9 +21732,6 @@ ComputeLineHeight
 ComputedStyle
 *
 aComputedStyle
-nsPresContext
-*
-aPresContext
 nscoord
 aBlockBSize
 float
@@ -21964,7 +21961,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 aComputedStyle
-aPresContext
 aFontSizeInflation
 )
 ;
@@ -22027,12 +22023,6 @@ mFrame
 Style
 (
 )
-mFrame
--
->
-PresContext
-(
-)
 blockBSize
 nsLayoutUtils
 :
@@ -22061,9 +22051,6 @@ aContent
 ComputedStyle
 *
 aComputedStyle
-nsPresContext
-*
-aPresContext
 nscoord
 aBlockBSize
 float
@@ -22087,7 +22074,6 @@ lineHeight
 ComputeLineHeight
 (
 aComputedStyle
-aPresContext
 aBlockBSize
 aFontSizeInflation
 )

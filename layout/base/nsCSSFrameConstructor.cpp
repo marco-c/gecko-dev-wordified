@@ -27938,10 +27938,10 @@ nsIDocShell
 >
 treeItem
 =
-mPresShell
+aComputedStyle
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
