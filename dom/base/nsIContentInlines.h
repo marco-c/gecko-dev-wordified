@@ -269,7 +269,12 @@ badly
 "
 )
 ;
-NS_PRECONDITION
+/
+/
+FIXME
+bug
+749326
+NS_ASSERTION
 (
 !
 aFrame

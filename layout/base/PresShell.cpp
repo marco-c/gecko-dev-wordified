@@ -15727,7 +15727,12 @@ added
 "
 )
 ;
-NS_PRECONDITION
+/
+/
+FIXME
+bug
+478135
+NS_ASSERTION
 (
 !
 (
@@ -15755,6 +15760,11 @@ reason
 "
 )
 ;
+/
+/
+FIXME
+bug
+457400
 NS_ASSERTION
 (
 !
