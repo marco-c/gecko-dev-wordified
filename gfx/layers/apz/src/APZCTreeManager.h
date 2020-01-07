@@ -4283,6 +4283,10 @@ aHitTestPoint
 HitTestResult
 *
 aOutHitResult
+HitTestingTreeNode
+*
+*
+aOutScrollbarNode
 )
 ;
 AsyncPanZoomController
