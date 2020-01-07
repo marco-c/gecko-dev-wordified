@@ -10457,13 +10457,6 @@ node
 icon
 ;
 }
-getProgressMode
-(
-aRow
-aColumn
-)
-{
-}
 getCellValue
 (
 aRow

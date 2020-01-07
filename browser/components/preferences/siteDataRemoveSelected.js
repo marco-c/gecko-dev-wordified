@@ -1040,11 +1040,6 @@ getImageSrc
 )
 {
 }
-getProgressMode
-(
-)
-{
-}
 getCellValue
 (
 )

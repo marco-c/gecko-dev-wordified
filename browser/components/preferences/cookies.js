@@ -2970,13 +2970,6 @@ aColumn
 )
 {
 }
-getProgressMode
-(
-aIndex
-aColumn
-)
-{
-}
 getCellValue
 (
 aIndex

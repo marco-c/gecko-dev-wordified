@@ -437,13 +437,6 @@ aColumn
 )
 {
 }
-getProgressMode
-(
-aRow
-aColumn
-)
-{
-}
 getCellValue
 (
 aRow

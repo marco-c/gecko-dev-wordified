@@ -162,8 +162,6 @@ cycler
 columns
 checkbox
 cells
-progressmeter
-cells
 /
 /
 this
@@ -8942,18 +8940,6 @@ return
 cell
 .
 image
-;
-}
-getProgressMode
-(
-row
-cell
-)
-{
-return
-cell
-.
-mode
 ;
 }
 }
