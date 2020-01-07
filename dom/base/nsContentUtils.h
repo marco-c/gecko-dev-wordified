@@ -19222,10 +19222,9 @@ dom
 :
 FromParser
 aFromParser
-const
-nsAString
+nsAtom
 *
-aIs
+aIsAtom
 mozilla
 :
 :

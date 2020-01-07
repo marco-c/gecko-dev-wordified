@@ -1325,10 +1325,9 @@ NodeInfo
 aNodeInfo
 FromParser
 aFromParser
-const
-nsAString
+nsAtom
 *
-aIs
+aIsAtom
 mozilla
 :
 :
@@ -1389,7 +1388,7 @@ NewXULOrHTMLElement
 aResult
 nodeInfo
 aFromParser
-aIs
+aIsAtom
 aDefinition
 )
 ;
