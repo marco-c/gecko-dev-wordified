@@ -614,10 +614,10 @@ inside
 some
 text
 .
+/
+/
+/
 The
-/
-/
-/
 reference
 is
 either
@@ -1082,10 +1082,6 @@ i
 .
 cap_end
 ]
-)
-.
-ok
-(
 )
 .
 expect

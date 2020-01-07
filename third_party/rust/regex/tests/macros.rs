@@ -110,12 +110,10 @@ regex
 re
 )
 ;
-assert
+assert_eq
 !
 (
 ismatch
-=
-=
 re
 .
 is_match
