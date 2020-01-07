@@ -80,6 +80,18 @@ use
 std
 :
 :
+os
+:
+:
+raw
+:
+:
+c_char
+;
+use
+std
+:
+:
 ptr
 ;
 use
@@ -204,7 +216,7 @@ topic
 :
 *
 const
-i8
+c_char
 _data
 :
 *
