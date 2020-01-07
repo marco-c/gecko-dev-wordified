@@ -138,6 +138,9 @@ ServoBindings
 .
 h
 "
+namespace
+mozilla
+{
 nscoord
 ServoStyleSet
 :
@@ -196,6 +199,11 @@ Consume
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
