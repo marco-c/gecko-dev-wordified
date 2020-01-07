@@ -1108,6 +1108,18 @@ event
 )
 )
 {
+if
+(
+message
+.
+getBoolean
+(
+"
+isTopLevel
+"
+)
+)
+{
 delegate
 .
 onLocationChange
@@ -1125,6 +1137,7 @@ uri
 )
 )
 ;
+}
 delegate
 .
 onCanGoBack
