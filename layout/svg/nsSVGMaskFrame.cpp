@@ -511,7 +511,7 @@ Return
 value
 other
 then
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

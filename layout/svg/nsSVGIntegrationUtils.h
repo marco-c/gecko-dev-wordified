@@ -123,7 +123,7 @@ NSSVGINTEGRATIONUTILS_H_
 #
 include
 "
-DrawResult
+ImgDrawResult
 .
 h
 "

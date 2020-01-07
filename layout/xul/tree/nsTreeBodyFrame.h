@@ -359,8 +359,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 public
 :
@@ -1202,7 +1202,7 @@ mColumnsScrollFrame
 ;
 }
 ;
-DrawResult
+ImgDrawResult
 PaintTreeBody
 (
 gfxContext
@@ -1288,7 +1288,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintColumn
 (
 nsTreeColumn
@@ -1322,7 +1322,7 @@ in
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintRow
 (
 int32_t
@@ -1360,7 +1360,7 @@ in
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintSeparator
 (
 int32_t
@@ -1397,7 +1397,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintCell
 (
 int32_t
@@ -1447,7 +1447,7 @@ of
 an
 tree
 .
-DrawResult
+ImgDrawResult
 PaintTwisty
 (
 int32_t
@@ -1491,7 +1491,7 @@ of
 an
 tree
 .
-DrawResult
+ImgDrawResult
 PaintImage
 (
 int32_t
@@ -1540,7 +1540,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintText
 (
 int32_t
@@ -1582,7 +1582,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintCheckbox
 (
 int32_t
@@ -1622,7 +1622,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintProgressMeter
 (
 int32_t
@@ -1661,7 +1661,7 @@ of
 the
 tree
 .
-DrawResult
+ImgDrawResult
 PaintDropFeedback
 (
 const
@@ -1712,7 +1712,7 @@ full
 blown
 frame
 .
-DrawResult
+ImgDrawResult
 PaintBackgroundLayer
 (
 nsStyleContext

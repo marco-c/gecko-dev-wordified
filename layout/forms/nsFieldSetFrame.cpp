@@ -734,7 +734,7 @@ aCtx
 image
 :
 :
-DrawResult
+ImgDrawResult
 result
 =
 static_cast
@@ -1591,7 +1591,7 @@ aLists
 image
 :
 :
-DrawResult
+ImgDrawResult
 nsFieldSetFrame
 :
 :
@@ -1706,10 +1706,10 @@ PaintBorderFlags
 (
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

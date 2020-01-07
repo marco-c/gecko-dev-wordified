@@ -861,7 +861,7 @@ return
 result
 =
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -994,7 +994,7 @@ nullptr
 }
 NS_IMETHODIMP_
 (
-DrawResult
+ImgDrawResult
 )
 DynamicImage
 :
@@ -1084,7 +1084,7 @@ aOpacity
 )
 ;
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -1187,7 +1187,7 @@ aOpacity
 )
 ;
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

@@ -30227,7 +30227,7 @@ Sides
 aSkipSides
 uint32_t
 aFlags
-DrawResult
+ImgDrawResult
 *
 aDrawResult
 )
@@ -30249,7 +30249,7 @@ IsEmpty
 *
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -30401,7 +30401,7 @@ imgRenderer
 *
 aDrawResult
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -30413,7 +30413,7 @@ renderer
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsCSSBorderImageRenderer
 :
 :
@@ -30923,10 +30923,10 @@ mSlice
 bottom
 }
 ;
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
