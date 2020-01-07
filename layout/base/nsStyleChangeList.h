@@ -154,6 +154,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleBackendType
+.
+h
+"
+#
+include
+"
 nsChangeHint
 .
 h

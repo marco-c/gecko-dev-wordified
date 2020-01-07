@@ -309,6 +309,8 @@ RestyleManager
 :
 RestyleManager
 (
+StyleBackendType
+aType
 nsPresContext
 *
 aPresContext
@@ -329,6 +331,10 @@ mUndisplayedRestyleGeneration
 mHoverGeneration
 (
 0
+)
+mType
+(
+aType
 )
 mInStyleRefresh
 (
