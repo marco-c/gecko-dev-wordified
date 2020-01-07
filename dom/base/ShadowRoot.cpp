@@ -882,6 +882,7 @@ to
 new
 slot
 .
+const
 nsTArray
 <
 RefPtr
@@ -1177,6 +1178,7 @@ if
 doReplaceSlot
 )
 {
+const
 nsTArray
 <
 RefPtr
@@ -1902,6 +1904,7 @@ newly
 assigned
 content
 .
+const
 nsTArray
 <
 RefPtr

@@ -355,6 +355,7 @@ aNodes
 /
 Helper
 methods
+const
 nsTArray
 <
 RefPtr
@@ -366,6 +367,7 @@ nsINode
 AssignedNodes
 (
 )
+const
 ;
 void
 InsertAssignedNode
