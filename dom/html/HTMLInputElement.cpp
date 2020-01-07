@@ -221,6 +221,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WheelEventBinding
+.
+h
+"
+#
+include
+"
 nsAttrValueInlines
 .
 h
@@ -26038,7 +26049,7 @@ wheelEvent
 mDeltaMode
 !
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL

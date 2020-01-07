@@ -256,7 +256,7 @@ aWheelEvent
 mDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL

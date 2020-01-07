@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMWheelEvent
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

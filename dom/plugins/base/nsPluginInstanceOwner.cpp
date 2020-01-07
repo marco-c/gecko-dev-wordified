@@ -474,6 +474,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WheelEventBinding
+.
+h
+"
+#
+include
+"
 nsFrameSelection
 .
 h
@@ -11915,7 +11926,7 @@ mDeltaMode
 )
 {
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -11939,7 +11950,7 @@ mLineOrPageDeltaY
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -12024,7 +12035,7 @@ break
 ;
 }
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -12073,7 +12084,7 @@ mDeltaMode
 )
 {
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -12097,7 +12108,7 @@ mLineOrPageDeltaX
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -12189,7 +12200,7 @@ break
 ;
 }
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
