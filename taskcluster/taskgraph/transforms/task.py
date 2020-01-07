@@ -5036,9 +5036,14 @@ name
 add
 it
 to
+taskcluster
+/
+ci
+/
+config
+.
+yml
 "
-+
-__file__
 V2_ROUTE_TEMPLATES
 =
 [
