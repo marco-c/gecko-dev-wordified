@@ -586,7 +586,7 @@ cssLogic
 new
 CssLogic
 (
-DOMUtils
+InspectorUtils
 .
 isInheritedProperty
 )
@@ -3285,7 +3285,7 @@ prop
 >
 {
 return
-DOMUtils
+InspectorUtils
 .
 isInheritedProperty
 (
@@ -4020,7 +4020,7 @@ some
 prop
 =
 >
-DOMUtils
+InspectorUtils
 .
 isInheritedProperty
 (

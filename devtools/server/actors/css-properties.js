@@ -171,6 +171,16 @@ db
 "
 )
 ;
+const
+InspectorUtils
+=
+require
+(
+"
+InspectorUtils
+"
+)
+;
 exports
 .
 CssPropertiesActor
@@ -515,7 +525,7 @@ name
 {
 isInherited
 :
-DOMUtils
+InspectorUtils
 .
 isInheritedProperty
 (
