@@ -4789,6 +4789,7 @@ urlFlagIdx
 firefoxurl
 :
 /
+i
 .
 test
 (
