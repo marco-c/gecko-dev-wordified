@@ -185,12 +185,8 @@ window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -223,7 +219,7 @@ FETCHING
 ]
 )
 {
-yield
+await
 renderComponent
 (
 Heap
@@ -327,7 +323,7 @@ INCREMENTAL_FETCHING
 ]
 )
 {
-yield
+await
 renderComponent
 (
 Heap
@@ -415,7 +411,7 @@ state
 )
 ;
 }
-yield
+await
 renderComponent
 (
 Heap
@@ -529,7 +525,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

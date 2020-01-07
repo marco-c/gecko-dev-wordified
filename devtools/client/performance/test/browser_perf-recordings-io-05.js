@@ -66,12 +66,8 @@ error
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -82,7 +78,7 @@ panel
 toolbox
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -99,13 +95,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -164,7 +160,7 @@ EVENTS
 RECORDING_EXPORTED
 )
 ;
-yield
+await
 PerformanceController
 .
 exportRecording
@@ -179,7 +175,7 @@ getCurrentRecording
 file
 )
 ;
-yield
+await
 exported
 ;
 ok
@@ -207,7 +203,7 @@ re
 -
 import
 .
-yield
+await
 PerformanceController
 .
 clearRecordings
@@ -236,7 +232,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-yield
+await
 PerformanceController
 .
 importRecording
@@ -246,10 +242,10 @@ importRecording
 file
 )
 ;
-yield
+await
 imported
 ;
-yield
+await
 rendered
 ;
 ok
@@ -264,7 +260,7 @@ thrown
 "
 )
 ;
-yield
+await
 teardown
 (
 panel
@@ -275,7 +271,6 @@ finish
 )
 ;
 }
-)
 ;
 /
 *

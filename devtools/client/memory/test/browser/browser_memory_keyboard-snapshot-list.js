@@ -144,8 +144,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 panel
@@ -274,7 +274,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -333,7 +333,7 @@ state
 "
 )
 ;
-yield
+await
 waitUntilSnapshotSelected
 (
 store
@@ -388,7 +388,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilSnapshotSelected
 (
 store
@@ -443,7 +443,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilSnapshotSelected
 (
 store
@@ -563,7 +563,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilSnapshotSelected
 (
 store
@@ -629,7 +629,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -708,7 +708,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -804,7 +804,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -905,7 +905,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilSnapshotSelected
 (
 store

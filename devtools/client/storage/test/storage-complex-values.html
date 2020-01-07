@@ -490,8 +490,8 @@ page
 let
 idbGenerator
 =
+async
 function
-*
 (
 )
 {
@@ -533,7 +533,7 @@ connection
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -654,7 +654,7 @@ db
 /
 Prevents
 AbortError
-yield
+await
 new
 Promise
 (
@@ -837,7 +837,7 @@ idb2
 let
 db2
 =
-yield
+await
 new
 Promise
 (
@@ -929,7 +929,7 @@ during
 close
 (
 )
-yield
+await
 new
 Promise
 (
@@ -1025,12 +1025,12 @@ window
 .
 setup
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 idbGenerator
 (
 )
@@ -1041,12 +1041,12 @@ window
 .
 clear
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 deleteDB
 (
 "
@@ -1054,7 +1054,7 @@ idb1
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "

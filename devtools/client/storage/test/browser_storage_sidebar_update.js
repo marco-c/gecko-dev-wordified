@@ -103,8 +103,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -120,7 +120,7 @@ UPDATE_COUNT
 =
 3
 ;
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -150,7 +150,7 @@ updated
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -171,13 +171,13 @@ org
 ]
 )
 ;
-yield
+await
 selectTableItem
 (
 ITEM_NAME
 )
 ;
-yield
+await
 updated
 ;
 is
@@ -264,7 +264,7 @@ updateObjectSidebar
 )
 ;
 }
-yield
+await
 promise
 .
 all
@@ -338,7 +338,7 @@ ITEM_NAME
 '
 )
 ;
-yield
+await
 finishTests
 (
 )

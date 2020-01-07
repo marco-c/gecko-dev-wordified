@@ -52,8 +52,8 @@ frame
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -64,7 +64,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -82,7 +82,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 reload
 (
 target
@@ -183,10 +183,10 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 finished
 ;
-yield
+await
 teardown
 (
 panel

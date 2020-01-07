@@ -77,8 +77,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -88,7 +88,7 @@ panel
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -107,7 +107,7 @@ load
 "
 )
 ;
-yield
+await
 ui
 .
 editors
@@ -177,7 +177,7 @@ navigation
 "
 )
 ;
-yield
+await
 selected
 ;
 ok

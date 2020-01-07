@@ -94,12 +94,12 @@ storage
 items
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -401,7 +401,7 @@ js
 ]
 ]
 ;
-yield
+await
 checkState
 (
 beforeState
@@ -564,7 +564,7 @@ join
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -597,7 +597,7 @@ rowName
 cellToClick
 ]
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -633,7 +633,7 @@ click
 }
 )
 ;
-yield
+await
 eventWait
 ;
 }
@@ -886,13 +886,13 @@ plop
 ]
 ]
 ;
-yield
+await
 checkState
 (
 afterState
 )
 ;
-yield
+await
 finishTests
 (
 )

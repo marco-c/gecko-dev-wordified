@@ -102,15 +102,15 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 fileContent
 =
-yield
+await
 generateNetworkEventStubs
 (
 )
@@ -135,7 +135,7 @@ networkEvent
 js
 )
 ;
-yield
+await
 OS
 .
 File

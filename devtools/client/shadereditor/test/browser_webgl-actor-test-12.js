@@ -57,8 +57,8 @@ attached
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -69,7 +69,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SHADER_ORDER_URL
@@ -89,7 +89,7 @@ true
 let
 programActor
 =
-yield
+await
 once
 (
 front
@@ -103,7 +103,7 @@ linked
 let
 vertexShader
 =
-yield
+await
 programActor
 .
 getVertexShader
@@ -113,7 +113,7 @@ getVertexShader
 let
 fragmentShader
 =
-yield
+await
 programActor
 .
 getFragmentShader
@@ -123,7 +123,7 @@ getFragmentShader
 let
 vertSource
 =
-yield
+await
 vertexShader
 .
 getText
@@ -133,7 +133,7 @@ getText
 let
 fragSource
 =
-yield
+await
 fragmentShader
 .
 getText
@@ -196,7 +196,7 @@ retrieved
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

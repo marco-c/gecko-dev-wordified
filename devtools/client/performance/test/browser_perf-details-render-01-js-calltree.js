@@ -146,8 +146,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -180,13 +180,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -203,7 +203,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -215,7 +215,7 @@ calltree
 "
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -232,13 +232,13 @@ stopped
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -273,7 +273,7 @@ time
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

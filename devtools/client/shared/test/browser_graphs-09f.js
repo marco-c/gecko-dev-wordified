@@ -96,12 +96,12 @@ LineGraphWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -111,7 +111,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -125,8 +125,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
@@ -137,12 +137,12 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
 ;
-yield
+await
 testGraph
 (
 doc
@@ -155,7 +155,7 @@ false
 }
 )
 ;
-yield
+await
 testGraph
 (
 doc
@@ -168,7 +168,7 @@ false
 }
 )
 ;
-yield
+await
 testGraph
 (
 doc
@@ -181,7 +181,7 @@ false
 }
 )
 ;
-yield
+await
 testGraph
 (
 doc
@@ -200,7 +200,7 @@ false
 }
 )
 ;
-yield
+await
 testGraph
 (
 doc
@@ -217,8 +217,8 @@ destroy
 )
 ;
 }
+async
 function
-*
 testGraph
 (
 parent
@@ -243,7 +243,7 @@ parent
 options
 )
 ;
-yield
+await
 graph
 .
 setDataWhenReady
@@ -524,7 +524,7 @@ be
 shown
 )
 ;
-yield
+await
 graph
 .
 destroy

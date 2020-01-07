@@ -123,8 +123,8 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -134,7 +134,7 @@ target
 console
 }
 =
-yield
+await
 initConsoleInNewTab
 (
 {
@@ -152,7 +152,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInTab
 (
 {
@@ -230,7 +230,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profile
@@ -240,7 +240,7 @@ rust
 "
 )
 ;
-yield
+await
 started
 ;
 let
@@ -263,7 +263,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profileEnd
@@ -273,7 +273,7 @@ rust
 "
 )
 ;
-yield
+await
 stopped
 ;
 is
@@ -371,7 +371,7 @@ FEATURES
 .
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

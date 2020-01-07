@@ -86,8 +86,8 @@ constants
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -107,7 +107,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -151,7 +151,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilSnapshotState
 (
 store
@@ -175,7 +175,7 @@ state
 "
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -252,7 +252,7 @@ _
 }
 )
 ;
-yield
+await
 waitUntilSnapshotState
 (
 store
@@ -318,7 +318,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 deleteEvents
 ;
 ok
@@ -355,7 +355,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

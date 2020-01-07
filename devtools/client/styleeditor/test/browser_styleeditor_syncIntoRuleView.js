@@ -121,12 +121,12 @@ chartreuse
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -155,12 +155,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -176,7 +176,7 @@ panel
 ui
 }
 =
-yield
+await
 openStyleEditor
 (
 )
@@ -184,7 +184,7 @@ openStyleEditor
 let
 editor
 =
-yield
+await
 ui
 .
 editors
@@ -210,7 +210,7 @@ refreshed
 "
 )
 ;
-yield
+await
 typeInEditor
 (
 editor
@@ -219,7 +219,7 @@ panel
 panelWindow
 )
 ;
-yield
+await
 waitForRuleView
 ;
 let

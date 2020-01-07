@@ -84,8 +84,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -95,7 +95,7 @@ panel
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -104,7 +104,7 @@ TESTCASE_URI
 let
 editor
 =
-yield
+await
 ui
 .
 editors
@@ -205,7 +205,7 @@ stylesheet
 "
 )
 ;
-yield
+await
 toggleEnabled
 (
 editor
@@ -270,7 +270,7 @@ again
 "
 )
 ;
-yield
+await
 toggleEnabled
 (
 editor
@@ -330,8 +330,8 @@ class
 }
 )
 ;
+async
 function
-*
 toggleEnabled
 (
 editor
@@ -363,7 +363,7 @@ focus
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -408,7 +408,7 @@ disabled
 let
 property
 =
-yield
+await
 changed
 ;
 while
@@ -443,7 +443,7 @@ property
 ;
 property
 =
-yield
+await
 editor
 .
 once

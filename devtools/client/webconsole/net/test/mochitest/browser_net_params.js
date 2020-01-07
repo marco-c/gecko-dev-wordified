@@ -135,8 +135,8 @@ there
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ let
 hud
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -165,7 +165,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-yield
+await
 executeAndInspectXhr
 (
 hud
@@ -196,7 +196,7 @@ headers
 let
 tabBody
 =
-yield
+await
 selectNetInfoTab
 (
 hud
@@ -330,8 +330,8 @@ name
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -351,7 +351,7 @@ let
 hud
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -360,7 +360,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-yield
+await
 executeAndInspectXhr
 (
 hud
@@ -399,7 +399,7 @@ headers
 let
 tabBody
 =
-yield
+await
 selectNetInfoTab
 (
 hud

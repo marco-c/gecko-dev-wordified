@@ -135,8 +135,8 @@ view
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -253,7 +253,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -312,7 +312,7 @@ invertedAllocationStack
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -368,7 +368,7 @@ inverted
 "
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -466,7 +466,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -505,7 +505,7 @@ recompute
 "
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -591,7 +591,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

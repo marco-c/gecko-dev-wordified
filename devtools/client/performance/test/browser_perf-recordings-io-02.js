@@ -59,12 +59,8 @@ files
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -75,7 +71,7 @@ panel
 toolbox
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -130,7 +126,7 @@ parseInt
 ;
 try
 {
-yield
+await
 PerformanceController
 .
 importRecording
@@ -193,7 +189,7 @@ cancelled
 )
 ;
 }
-yield
+await
 teardown
 (
 panel
@@ -204,5 +200,4 @@ finish
 )
 ;
 }
-)
 ;

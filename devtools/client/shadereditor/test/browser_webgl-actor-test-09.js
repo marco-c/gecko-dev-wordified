@@ -49,8 +49,8 @@ source
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -61,7 +61,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -81,7 +81,7 @@ true
 let
 programActor
 =
-yield
+await
 once
 (
 front
@@ -95,7 +95,7 @@ linked
 let
 vertexShader
 =
-yield
+await
 programActor
 .
 getVertexShader
@@ -105,7 +105,7 @@ getVertexShader
 let
 fragmentShader
 =
-yield
+await
 programActor
 .
 getFragmentShader
@@ -115,7 +115,7 @@ getFragmentShader
 let
 oldVertSource
 =
-yield
+await
 vertexShader
 .
 getText
@@ -139,7 +139,7 @@ vec3
 ;
 try
 {
-yield
+await
 vertexShader
 .
 compile
@@ -372,7 +372,7 @@ log
 )
 ;
 }
-yield
+await
 ensurePixelIs
 (
 front
@@ -401,7 +401,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -449,7 +449,7 @@ source
 let
 vertSource
 =
-yield
+await
 vertexShader
 .
 getText
@@ -489,7 +489,7 @@ preserved
 let
 oldFragSource
 =
-yield
+await
 fragmentShader
 .
 getText
@@ -513,7 +513,7 @@ vec4
 ;
 try
 {
-yield
+await
 fragmentShader
 .
 compile
@@ -681,7 +681,7 @@ log
 )
 ;
 }
-yield
+await
 ensurePixelIs
 (
 front
@@ -710,7 +710,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -758,7 +758,7 @@ source
 let
 fragSource
 =
-yield
+await
 fragmentShader
 .
 getText
@@ -790,7 +790,7 @@ preserved
 "
 )
 ;
-yield
+await
 programActor
 .
 highlight
@@ -803,7 +803,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -832,7 +832,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -877,14 +877,14 @@ source
 "
 )
 ;
-yield
+await
 programActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -913,7 +913,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -958,7 +958,7 @@ source
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

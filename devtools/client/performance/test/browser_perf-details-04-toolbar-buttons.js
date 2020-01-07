@@ -181,8 +181,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -191,7 +191,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -416,7 +416,7 @@ starts
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -525,7 +525,7 @@ starts
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -634,7 +634,7 @@ ends
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -776,10 +776,10 @@ panel
 0
 )
 ;
-yield
+await
 selected
 ;
-yield
+await
 rendered
 ;
 let
@@ -929,7 +929,7 @@ panel
 1
 )
 ;
-yield
+await
 selected
 ;
 selectedIndex
@@ -1077,13 +1077,13 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-yield
+await
 stopRecording
 (
 panel
 )
 ;
-yield
+await
 rendered
 ;
 selectedIndex
@@ -1216,7 +1216,7 @@ finished
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

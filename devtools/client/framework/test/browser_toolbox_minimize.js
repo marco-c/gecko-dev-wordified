@@ -193,8 +193,8 @@ toolbox
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -215,7 +215,7 @@ toolbox
 let
 tab
 =
-yield
+await
 addTab
 (
 URL
@@ -234,7 +234,7 @@ tab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -293,7 +293,7 @@ toolbox
 "
 )
 ;
-yield
+await
 minimize
 (
 toolbox
@@ -344,7 +344,7 @@ toolbox
 "
 )
 ;
-yield
+await
 maximize
 (
 toolbox
@@ -392,7 +392,7 @@ shortcut
 "
 )
 ;
-yield
+await
 minimizeWithShortcut
 (
 toolbox
@@ -445,7 +445,7 @@ shortcut
 "
 )
 ;
-yield
+await
 maximizeWithShortcut
 (
 toolbox
@@ -492,7 +492,7 @@ tool
 "
 )
 ;
-yield
+await
 minimize
 (
 toolbox
@@ -512,7 +512,7 @@ maximized
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -522,7 +522,7 @@ inspector
 "
 )
 ;
-yield
+await
 onMaximized
 ;
 info
@@ -542,7 +542,7 @@ tool
 "
 )
 ;
-yield
+await
 minimize
 (
 toolbox
@@ -592,7 +592,7 @@ toolbox
 win
 )
 ;
-yield
+await
 onMaximized
 ;
 info
@@ -609,7 +609,7 @@ tab
 "
 )
 ;
-yield
+await
 minimize
 (
 toolbox
@@ -659,7 +659,7 @@ toolbox
 win
 )
 ;
-yield
+await
 onMaximized
 ;
 info
@@ -673,7 +673,7 @@ host
 "
 )
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -739,7 +739,7 @@ host
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -755,8 +755,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 minimize
 (
 toolbox
@@ -809,12 +809,12 @@ toolbox
 win
 )
 ;
-yield
+await
 onMinimized
 ;
 }
+async
 function
-*
 minimizeWithShortcut
 (
 toolbox
@@ -877,12 +877,12 @@ toolbox
 win
 )
 ;
-yield
+await
 onMinimized
 ;
 }
+async
 function
-*
 maximize
 (
 toolbox
@@ -935,12 +935,12 @@ toolbox
 win
 )
 ;
-yield
+await
 onMaximized
 ;
 }
+async
 function
-*
 maximizeWithShortcut
 (
 toolbox
@@ -1003,7 +1003,7 @@ toolbox
 win
 )
 ;
-yield
+await
 onMaximized
 ;
 }

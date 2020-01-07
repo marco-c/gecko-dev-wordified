@@ -52,8 +52,8 @@ bfcache
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -64,7 +64,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -119,7 +119,7 @@ target
 let
 firstProgram
 =
-yield
+await
 once
 (
 front
@@ -133,7 +133,7 @@ linked
 let
 programs
 =
-yield
+await
 front
 .
 getPrograms
@@ -188,7 +188,7 @@ cache
 let
 allPrograms
 =
-yield
+await
 front
 .
 _getAllPrograms
@@ -234,7 +234,7 @@ secondProgram
 thirdProgram
 ]
 =
-yield
+await
 getPrograms
 (
 front
@@ -243,7 +243,7 @@ front
 ;
 programs
 =
-yield
+await
 front
 .
 getPrograms
@@ -320,7 +320,7 @@ cache
 ;
 allPrograms
 =
-yield
+await
 front
 .
 _getAllPrograms
@@ -353,7 +353,7 @@ a
 bfcache
 navigation
 .
-yield
+await
 navigateInHistory
 (
 target
@@ -406,7 +406,7 @@ reload
 target
 )
 ;
-yield
+await
 promise
 .
 all
@@ -420,7 +420,7 @@ globalCreated
 ;
 allPrograms
 =
-yield
+await
 front
 .
 _getAllPrograms
@@ -447,7 +447,7 @@ cache
 ;
 programs
 =
-yield
+await
 front
 .
 getPrograms
@@ -473,7 +473,7 @@ now
 "
 )
 ;
-yield
+await
 checkHighlightingInTheFirstPage
 (
 programs
@@ -513,7 +513,7 @@ a
 page
 reload
 .
-yield
+await
 navigateInHistory
 (
 target
@@ -559,7 +559,7 @@ reload
 target
 )
 ;
-yield
+await
 promise
 .
 all
@@ -573,7 +573,7 @@ globalCreated
 ;
 allPrograms
 =
-yield
+await
 front
 .
 _getAllPrograms
@@ -600,7 +600,7 @@ cache
 ;
 programs
 =
-yield
+await
 front
 .
 getPrograms
@@ -626,7 +626,7 @@ now
 "
 )
 ;
-yield
+await
 checkHighlightingInTheSecondPage
 (
 programs
@@ -657,7 +657,7 @@ reloading
 "
 )
 ;
-yield
+await
 removeTab
 (
 target
@@ -676,16 +676,13 @@ programActor
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 ensurePixelIs
 (
 front
@@ -714,7 +711,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -759,7 +756,7 @@ highlighting
 "
 )
 ;
-yield
+await
 programActor
 .
 highlight
@@ -772,7 +769,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -801,7 +798,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -846,14 +843,14 @@ highlighting
 "
 )
 ;
-yield
+await
 programActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -882,7 +879,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -929,6 +926,8 @@ unhighlighting
 ;
 }
 )
+(
+)
 ;
 }
 function
@@ -939,16 +938,13 @@ secondProgramActor
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 ensurePixelIs
 (
 front
@@ -981,7 +977,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1014,7 +1010,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1047,7 +1043,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1096,7 +1092,7 @@ highlighting
 "
 )
 ;
-yield
+await
 firstProgramActor
 .
 highlight
@@ -1109,7 +1105,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1142,7 +1138,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1175,7 +1171,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1208,7 +1204,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1257,7 +1253,7 @@ highlighting
 "
 )
 ;
-yield
+await
 secondProgramActor
 .
 highlight
@@ -1270,7 +1266,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1303,7 +1299,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1336,7 +1332,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1369,7 +1365,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1418,21 +1414,21 @@ highlighting
 "
 )
 ;
-yield
+await
 firstProgramActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 secondProgramActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1465,7 +1461,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1498,7 +1494,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1531,7 +1527,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -1581,6 +1577,8 @@ unhighlighting
 )
 ;
 }
+)
+(
 )
 ;
 }

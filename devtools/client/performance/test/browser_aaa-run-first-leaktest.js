@@ -114,8 +114,8 @@ urls
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -126,7 +126,7 @@ toolbox
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -241,7 +241,7 @@ window
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

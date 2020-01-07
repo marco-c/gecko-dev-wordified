@@ -331,14 +331,8 @@ node
 .
 *
 /
-build
-:
-Task
-.
 async
-(
-function
-*
+build
 (
 )
 {
@@ -352,7 +346,7 @@ _currentNode
 let
 props
 =
-yield
+await
 node
 .
 getParams
@@ -413,7 +407,6 @@ render
 )
 ;
 }
-)
 /
 *
 *
@@ -450,14 +443,8 @@ param
 .
 *
 /
-render
-:
-Task
-.
 async
-(
-function
-*
+render
 (
 )
 {
@@ -528,7 +515,7 @@ values
 events
 }
 =
-yield
+await
 node
 .
 getAutomationData
@@ -555,7 +542,7 @@ events
 "
 )
 ;
-yield
+await
 this
 .
 graph
@@ -578,7 +565,6 @@ id
 )
 ;
 }
-)
 /
 *
 *

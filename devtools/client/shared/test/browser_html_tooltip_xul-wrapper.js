@@ -187,8 +187,8 @@ TOOLTIP_WIDTH
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -202,7 +202,7 @@ be
 200px
 high
 ;
-yield
+await
 pushPref
 (
 "
@@ -223,7 +223,7 @@ win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -460,7 +460,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -483,7 +483,7 @@ top
 TOOLTIP_HEIGHT
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -518,7 +518,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -541,7 +541,7 @@ bottom
 TOOLTIP_HEIGHT
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip

@@ -50,8 +50,8 @@ shader
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -62,7 +62,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -82,7 +82,7 @@ true
 let
 programActor
 =
-yield
+await
 once
 (
 front
@@ -96,7 +96,7 @@ linked
 let
 vertexShader
 =
-yield
+await
 programActor
 .
 getVertexShader
@@ -106,7 +106,7 @@ getVertexShader
 let
 fragmentShader
 =
-yield
+await
 programActor
 .
 getFragmentShader
@@ -116,7 +116,7 @@ getFragmentShader
 let
 oldVertSource
 =
-yield
+await
 vertexShader
 .
 getText
@@ -148,7 +148,7 @@ vec3
 let
 status
 =
-yield
+await
 vertexShader
 .
 compile
@@ -174,14 +174,14 @@ errors
 "
 )
 ;
-yield
+await
 front
 .
 waitForFrame
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -210,7 +210,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -239,7 +239,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -271,7 +271,7 @@ true
 let
 vertSource
 =
-yield
+await
 vertexShader
 .
 getText
@@ -281,7 +281,7 @@ getText
 let
 fragSource
 =
-yield
+await
 fragmentShader
 .
 getText
@@ -355,7 +355,7 @@ shader
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

@@ -173,8 +173,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -183,7 +183,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -217,13 +217,13 @@ UI_SHOW_PLATFORM_DATA_PREF
 true
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -240,7 +240,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -252,7 +252,7 @@ calltree
 "
 )
 ;
-yield
+await
 rendered
 ;
 rendered
@@ -275,7 +275,7 @@ UI_SHOW_PLATFORM_DATA_PREF
 false
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -315,7 +315,7 @@ UI_SHOW_PLATFORM_DATA_PREF
 true
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -336,7 +336,7 @@ blocks
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

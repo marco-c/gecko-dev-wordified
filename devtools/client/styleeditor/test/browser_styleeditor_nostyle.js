@@ -87,8 +87,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -97,7 +97,7 @@ let
 panel
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI

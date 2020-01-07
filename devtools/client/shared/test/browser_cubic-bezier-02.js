@@ -144,8 +144,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -306,7 +306,7 @@ rect
 .
 graphTop
 ;
-yield
+await
 pointsCanBeDragged
 (
 w
@@ -315,7 +315,7 @@ doc
 rect
 )
 ;
-yield
+await
 curveCanBeClicked
 (
 w
@@ -324,7 +324,7 @@ doc
 rect
 )
 ;
-yield
+await
 pointsCanBeMovedWithKeyboard
 (
 w
@@ -348,8 +348,8 @@ destroy
 }
 )
 ;
+async
 function
-*
 pointsCanBeDragged
 (
 widget
@@ -453,7 +453,7 @@ onmouseup
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -599,7 +599,7 @@ onmouseup
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -643,8 +643,8 @@ correct
 )
 ;
 }
+async
 function
-*
 curveCanBeClicked
 (
 widget
@@ -754,7 +754,7 @@ y
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -926,7 +926,7 @@ y
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1014,8 +1014,8 @@ unchanged
 )
 ;
 }
+async
 function
-*
 pointsCanBeMovedWithKeyboard
 (
 widget
@@ -1126,7 +1126,7 @@ p1
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1248,7 +1248,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1370,7 +1370,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1491,7 +1491,7 @@ p1
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1611,7 +1611,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1731,7 +1731,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1863,7 +1863,7 @@ p2
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is

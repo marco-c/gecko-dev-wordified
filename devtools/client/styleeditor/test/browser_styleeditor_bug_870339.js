@@ -153,8 +153,8 @@ n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -163,7 +163,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 DOCUMENT_WITH_ONE_STYLESHEET
@@ -237,7 +237,7 @@ newDocument
 /
 message
 .
-yield
+await
 new
 Promise
 (

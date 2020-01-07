@@ -141,8 +141,8 @@ EXPECTED_DTU_ASSERT_FAILURE_COUNT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -162,7 +162,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -200,7 +200,7 @@ front
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -303,7 +303,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -400,7 +400,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -443,7 +443,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -460,7 +460,7 @@ SAVING
 ]
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store

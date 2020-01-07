@@ -221,12 +221,12 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -277,7 +277,7 @@ tests
 let
 HTMLFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_HTML
@@ -293,7 +293,7 @@ html
 let
 CSSFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_CSS
@@ -311,7 +311,7 @@ css
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_SCSS
@@ -329,7 +329,7 @@ scss
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_MAP
@@ -349,7 +349,7 @@ map
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_REG_CSS
@@ -390,7 +390,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 testcaseURI
@@ -455,7 +455,7 @@ click
 (
 )
 ;
-yield
+await
 editor
 .
 getSourceEditor
@@ -465,7 +465,7 @@ getSourceEditor
 let
 color
 =
-yield
+await
 getComputedStyleProperty
 (
 {
@@ -526,7 +526,7 @@ applied
 "
 )
 ;
-yield
+await
 pauseForTimeChange
 (
 )
@@ -560,7 +560,7 @@ file
 to
 change
 .
-yield
+await
 editSCSS
 (
 editor
@@ -591,7 +591,7 @@ the
 CSS
 file
 .
-yield
+await
 editCSSFile
 (
 CSSFile
@@ -613,12 +613,12 @@ event
 "
 )
 ;
-yield
+await
 styleApplied
 ;
 color
 =
-yield
+await
 getComputedStyleProperty
 (
 {

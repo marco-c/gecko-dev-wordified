@@ -111,12 +111,12 @@ warning
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -172,7 +172,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -212,7 +212,7 @@ rendered
 "
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab
@@ -223,12 +223,12 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -287,7 +287,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -327,7 +327,7 @@ rendered
 "
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab
@@ -338,8 +338,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -366,7 +366,7 @@ true
 }
 )
 ;
-yield
+await
 waitForDelayedStartupFinished
 (
 win
@@ -378,7 +378,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -419,7 +419,7 @@ rendered
 "
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

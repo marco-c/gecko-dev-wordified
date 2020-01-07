@@ -50,8 +50,8 @@ graph
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -61,7 +61,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -112,7 +112,7 @@ reload
 target
 )
 ;
-yield
+await
 events
 ;
 let
@@ -184,7 +184,7 @@ reload
 target
 )
 ;
-yield
+await
 events
 ;
 (
@@ -231,7 +231,7 @@ edges
 "
 )
 ;
-yield
+await
 teardown
 (
 target

@@ -51,8 +51,8 @@ actors
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -62,7 +62,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_NODES_URL
@@ -74,7 +74,7 @@ _
 nodes
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -103,7 +103,7 @@ node
 ]
 )
 ;
-yield
+await
 loadFrameScriptUtils
 (
 )
@@ -111,7 +111,7 @@ loadFrameScriptUtils
 let
 allParams
 =
-yield
+await
 Promise
 .
 all
@@ -185,7 +185,7 @@ StereoPannerNode
 let
 defaults
 =
-yield
+await
 Promise
 .
 all
@@ -241,7 +241,7 @@ i
 }
 )
 ;
-yield
+await
 removeTab
 (
 target

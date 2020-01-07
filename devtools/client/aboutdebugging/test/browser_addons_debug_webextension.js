@@ -244,8 +244,8 @@ target
 /
 add_task
 (
+async
 function
-*
 testWebExtensionsToolboxWebConsole
 (
 )
@@ -257,7 +257,7 @@ document
 debugBtn
 }
 =
-yield
+await
 setupTestAboutDebuggingWebExtension
 (
 ADDON_NAME
@@ -605,7 +605,7 @@ click
 (
 )
 ;
-yield
+await
 onToolboxClose
 ;
 ok
@@ -618,7 +618,7 @@ closed
 "
 )
 ;
-yield
+await
 uninstallAddon
 (
 {
@@ -632,7 +632,7 @@ ADDON_NAME
 }
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

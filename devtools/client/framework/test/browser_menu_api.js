@@ -143,8 +143,8 @@ item
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -165,7 +165,7 @@ toolbox
 let
 tab
 =
-yield
+await
 addTab
 (
 URL
@@ -184,7 +184,7 @@ tab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -195,18 +195,18 @@ webconsole
 "
 )
 ;
-yield
+await
 testMenuItems
 (
 )
 ;
-yield
+await
 testMenuPopup
 (
 toolbox
 )
 ;
-yield
+await
 testSubmenu
 (
 toolbox
@@ -216,7 +216,6 @@ toolbox
 )
 ;
 function
-*
 testMenuItems
 (
 )
@@ -312,8 +311,8 @@ MenuItem
 )
 ;
 }
+async
 function
-*
 testMenuPopup
 (
 toolbox
@@ -855,7 +854,7 @@ menuitem
 "
 )
 ;
-yield
+await
 once
 (
 menu
@@ -890,7 +889,7 @@ toolbox
 win
 )
 ;
-yield
+await
 closed
 ;
 ok
@@ -929,8 +928,8 @@ DOM
 )
 ;
 }
+async
 function
-*
 testSubmenu
 (
 toolbox
@@ -1339,7 +1338,7 @@ label
 "
 )
 ;
-yield
+await
 once
 (
 menu
@@ -1407,7 +1406,7 @@ KEY_ArrowRight
 "
 )
 ;
-yield
+await
 shown
 ;
 let
@@ -1433,7 +1432,7 @@ KEY_ArrowLeft
 "
 )
 ;
-yield
+await
 hidden
 ;
 shown
@@ -1458,7 +1457,7 @@ KEY_ArrowRight
 "
 )
 ;
-yield
+await
 shown
 ;
 info
@@ -1486,7 +1485,7 @@ toolbox
 win
 )
 ;
-yield
+await
 closed
 ;
 ok

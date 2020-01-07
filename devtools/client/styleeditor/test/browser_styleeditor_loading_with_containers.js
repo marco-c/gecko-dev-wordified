@@ -127,8 +127,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -149,8 +149,7 @@ let
 tab
 }
 =
-yield
-*
+await
 openTabInUserContext
 (
 TESTCASE_URI
@@ -162,7 +161,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditor
 (
 tab
@@ -218,8 +217,8 @@ EXPECTED_SHEETS
 }
 )
 ;
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -288,7 +287,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

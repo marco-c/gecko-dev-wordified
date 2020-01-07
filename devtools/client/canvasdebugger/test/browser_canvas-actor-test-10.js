@@ -53,8 +53,8 @@ actor
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -65,7 +65,7 @@ target
 front
 }
 =
-yield
+await
 initCanvasDebuggerBackend
 (
 WEBGL_BINDINGS_URL
@@ -86,7 +86,7 @@ navigate
 "
 )
 ;
-yield
+await
 front
 .
 setup
@@ -112,7 +112,7 @@ successfully
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -135,7 +135,7 @@ up
 let
 snapshotActor
 =
-yield
+await
 front
 .
 recordAnimationFrame
@@ -145,7 +145,7 @@ recordAnimationFrame
 let
 animationOverview
 =
-yield
+await
 snapshotActor
 .
 getOverview
@@ -162,7 +162,7 @@ calls
 let
 firstScreenshot
 =
-yield
+await
 snapshotActor
 .
 generateScreenshotFor
@@ -298,7 +298,7 @@ empty
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -337,7 +337,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -376,7 +376,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -416,7 +416,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -459,7 +459,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -502,7 +502,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -545,7 +545,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -588,7 +588,7 @@ changed
 let
 secondScreenshot
 =
-yield
+await
 snapshotActor
 .
 generateScreenshotFor
@@ -819,7 +819,7 @@ component
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -859,7 +859,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -899,7 +899,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -940,7 +940,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -984,7 +984,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -1028,7 +1028,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -1072,7 +1072,7 @@ changed
 is
 (
 (
-yield
+await
 evalInDebuggee
 (
 "
@@ -1113,7 +1113,7 @@ changed
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

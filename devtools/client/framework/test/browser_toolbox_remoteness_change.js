@@ -97,8 +97,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -123,7 +123,7 @@ process
 let
 tab
 =
-yield
+await
 addTab
 (
 URL_1
@@ -176,7 +176,7 @@ process
 let
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -240,7 +240,7 @@ loadURI
 URL_2
 )
 ;
-yield
+await
 onLoaded
 ;
 is
@@ -285,7 +285,7 @@ destroyed
 "
 )
 ;
-yield
+await
 onToolboxDestroyed
 ;
 info
@@ -304,7 +304,7 @@ created
 ;
 toolbox
 =
-yield
+await
 onToolboxCreated
 ;
 info
@@ -321,7 +321,7 @@ ready
 "
 )
 ;
-yield
+await
 toolbox
 .
 once
@@ -347,7 +347,7 @@ document
 let
 console
 =
-yield
+await
 toolbox
 .
 selectTool
@@ -369,7 +369,7 @@ hud
 let
 url
 =
-yield
+await
 jsterm
 .
 execute

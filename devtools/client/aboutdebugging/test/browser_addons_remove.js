@@ -102,8 +102,8 @@ button
 }
 add_task
 (
+async
 function
-*
 removeLegacyExtension
 (
 )
@@ -135,7 +135,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -143,7 +143,7 @@ addons
 "
 )
 ;
-yield
+await
 waitForInitialAddonList
 (
 document
@@ -167,7 +167,7 @@ about
 :
 debugging
 UI
-yield
+await
 installAddon
 (
 {
@@ -234,7 +234,7 @@ click
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -262,7 +262,7 @@ shown
 "
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab
@@ -273,8 +273,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 removeWebextension
 (
 )
@@ -310,7 +310,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -318,7 +318,7 @@ addons
 "
 )
 ;
-yield
+await
 waitForInitialAddonList
 (
 document
@@ -342,7 +342,7 @@ about
 :
 debugging
 UI
-yield
+await
 installAddon
 (
 {
@@ -416,7 +416,7 @@ click
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -444,7 +444,7 @@ shown
 "
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab
@@ -455,8 +455,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 onlyTempInstalledAddonsCanBeRemoved
 (
 )
@@ -467,7 +467,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -475,13 +475,13 @@ addons
 "
 )
 ;
-yield
+await
 waitForInitialAddonList
 (
 document
 )
 ;
-yield
+await
 installAddonWithManager
 (
 getSupportsFile
@@ -501,7 +501,7 @@ file
 const
 addon
 =
-yield
+await
 getAddonByID
 (
 "
@@ -526,7 +526,7 @@ addons
 "
 )
 ;
-yield
+await
 waitUntilAddonContainer
 (
 PACKAGED_ADDON_NAME
@@ -557,13 +557,13 @@ shown
 "
 )
 ;
-yield
+await
 tearDownAddon
 (
 addon
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

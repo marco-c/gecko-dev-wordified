@@ -155,7 +155,6 @@ false
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -181,8 +180,8 @@ frontend
 }
 )
 ;
+async
 function
-*
 viewSource
 (
 )
@@ -190,13 +189,13 @@ viewSource
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 URL
 )
 ;
-yield
+await
 toolbox
 .
 viewSourceInDebugger
@@ -318,7 +317,7 @@ editor
 "
 )
 ;
-yield
+await
 closeToolboxAndTab
 (
 toolbox
@@ -334,11 +333,8 @@ test
 (
 )
 {
-Task
-.
-spawn
-(
 viewSource
+(
 )
 .
 then

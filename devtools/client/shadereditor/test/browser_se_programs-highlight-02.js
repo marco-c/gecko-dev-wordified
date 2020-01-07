@@ -48,8 +48,8 @@ geometry
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -61,7 +61,7 @@ debuggee
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 BLENDED_GEOMETRY_CANVAS_URL
@@ -92,7 +92,7 @@ secondProgramActor
 ]
 ]
 =
-yield
+await
 promise
 .
 all
@@ -115,7 +115,7 @@ SOURCES_SHOWN
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -144,7 +144,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -201,7 +201,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -230,7 +230,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -303,7 +303,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -332,7 +332,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -390,7 +390,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -419,7 +419,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -462,7 +462,7 @@ unhighlighted
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

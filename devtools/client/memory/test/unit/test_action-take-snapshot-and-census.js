@@ -101,8 +101,8 @@ snapshot
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -122,7 +122,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -338,7 +338,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
