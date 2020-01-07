@@ -2230,8 +2230,8 @@ PropertyDeclaration
 :
 CSSWideKeyword
 (
-id
-value
+ref
+declaration
 )
 =
 >
@@ -2239,6 +2239,8 @@ value
 debug_assert
 !
 (
+declaration
+.
 id
 =
 =
@@ -2257,7 +2259,9 @@ DeclaredValue
 :
 CSSWideKeyword
 (
-value
+declaration
+.
+keyword
 )
 }
 PropertyDeclaration
@@ -6518,6 +6522,9 @@ length_type
 logical
 =
 logical
+is_gecko_size_type_hack
+=
+True
 *
 *
 kwargs
