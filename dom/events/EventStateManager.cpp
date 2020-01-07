@@ -25523,6 +25523,22 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
+nsIContent
+>
+targetContent
+=
+aTargetContent
+;
+nsCOMPtr
+<
+nsIContent
+>
+relatedContent
+=
+aRelatedContent
+;
 nsAutoPtr
 <
 WidgetMouseEvent
@@ -25533,7 +25549,7 @@ CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
 aMessage
-aRelatedContent
+relatedContent
 dispatchEvent
 )
 ;
@@ -25544,7 +25560,7 @@ mCurrentTarget
 ;
 mCurrentTargetContent
 =
-aTargetContent
+targetContent
 ;
 nsIFrame
 *
@@ -25560,7 +25576,7 @@ nsEventStatus_eIgnore
 ESMEventCB
 callback
 (
-aTargetContent
+targetContent
 )
 ;
 EventDispatcher
@@ -25568,7 +25584,7 @@ EventDispatcher
 :
 Dispatch
 (
-aTargetContent
+targetContent
 mPresContext
 dispatchEvent
 nullptr
@@ -25619,7 +25635,7 @@ mPresContext
 >
 GetPrimaryFrameFor
 (
-aTargetContent
+targetContent
 )
 ;
 /
@@ -25650,7 +25666,7 @@ if
 (
 IsRemoteTarget
 (
-aTargetContent
+targetContent
 )
 )
 {
@@ -25689,7 +25705,7 @@ CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
 eMouseExitFromWidget
-aRelatedContent
+relatedContent
 remoteEvent
 )
 ;
@@ -25790,7 +25806,7 @@ CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
 eMouseEnterIntoWidget
-aRelatedContent
+relatedContent
 remoteEvent
 )
 ;
