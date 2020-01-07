@@ -15393,6 +15393,10 @@ IsSafeMethod
 )
 &
 &
+!
+mDoNotTryEarlyData
+&
+&
 (
 !
 mConnection
