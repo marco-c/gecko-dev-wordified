@@ -1158,10 +1158,7 @@ on
 main
 thread
 .
-nsCOMPtr
-<
-nsISupports
->
+uint32_t
 mCacheKey
 ;
 nsCOMPtr

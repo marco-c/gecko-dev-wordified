@@ -6499,8 +6499,7 @@ InterceptedHttpChannel
 :
 GetCacheKey
 (
-nsISupports
-*
+uint32_t
 *
 key
 )
@@ -6530,8 +6529,7 @@ InterceptedHttpChannel
 :
 SetCacheKey
 (
-nsISupports
-*
+uint32_t
 key
 )
 {

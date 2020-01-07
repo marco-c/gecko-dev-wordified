@@ -5455,8 +5455,7 @@ SaveURI
 nsIURI
 *
 aURI
-nsISupports
-*
+uint32_t
 aCacheKey
 nsIURI
 *
@@ -5509,8 +5508,7 @@ SavePrivacyAwareURI
 nsIURI
 *
 aURI
-nsISupports
-*
+uint32_t
 aCacheKey
 nsIURI
 *

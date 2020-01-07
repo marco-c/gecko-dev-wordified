@@ -292,8 +292,7 @@ SaveURIInternal
 nsIURI
 *
 aURI
-nsISupports
-*
+uint32_t
 aCacheKey
 nsIURI
 *
