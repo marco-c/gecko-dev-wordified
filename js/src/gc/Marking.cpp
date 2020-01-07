@@ -16890,7 +16890,16 @@ count
 end_
 )
 return
-true
+!
+js
+:
+:
+oom
+:
+:
+ShouldFailWithOOM
+(
+)
 ;
 return
 enlarge
