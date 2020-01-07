@@ -57,7 +57,6 @@ checkSitePermissions
 const
 {
 Services
-Cu
 }
 =
 SpecialPowers
@@ -67,7 +66,9 @@ const
 NetUtil
 }
 =
-ChromeUtils
+SpecialPowers
+.
+Cu
 .
 import
 (
