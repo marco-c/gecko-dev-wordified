@@ -468,13 +468,6 @@ identify
 ExtensionSettingsStore
 overrides
 const
-PREF_SETTING_TYPE
-=
-"
-prefs
-"
-;
-const
 CONTAINERS_KEY
 =
 "
