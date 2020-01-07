@@ -915,7 +915,7 @@ entry
 /
 /
 If
-successfull
+successful
 write
 the
 enty
@@ -962,7 +962,7 @@ lines
 /
 were
 parsed
-succesfully
+successfully
 .
 bool
 ParseDictionaryFile
@@ -974,10 +974,7 @@ std
 string
 &
 Text
-std
-:
-:
-vector
+Vector
 <
 Unit
 >
