@@ -15720,7 +15720,7 @@ aContent
 )
 )
 {
-nsISelection
+Selection
 *
 domSelection
 =
