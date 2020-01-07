@@ -327,6 +327,7 @@ public
 :
 class
 Mutator
+final
 :
 public
 nsIURIMutator
