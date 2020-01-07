@@ -1494,6 +1494,11 @@ name
 )
 ;
 bool
+checkAndMarkSuperScope
+(
+)
+;
+bool
 declareDotGeneratorName
 (
 )
@@ -2993,6 +2998,12 @@ usedNames
 ;
 private
 :
+using
+Base
+:
+:
+checkAndMarkSuperScope
+;
 using
 Base
 :
@@ -5913,11 +5924,6 @@ tryNewTarget
 Node
 &
 newTarget
-)
-;
-bool
-checkAndMarkSuperScope
-(
 )
 ;
 Node
