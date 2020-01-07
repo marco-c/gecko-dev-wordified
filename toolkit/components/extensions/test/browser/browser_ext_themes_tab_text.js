@@ -19,10 +19,12 @@ change
 /
 /
 the
-background
+text
 color
 of
-toolbars
+the
+selected
+tab
 are
 applied
 properly
