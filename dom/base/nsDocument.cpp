@@ -15475,7 +15475,7 @@ iframeUri
 }
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsSynthesized
@@ -69834,7 +69834,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 ReportUseCounters
