@@ -128,9 +128,6 @@ txOutputFormat
 h
 "
 class
-nsIDOMDocumentFragment
-;
-class
 nsITransformObserver
 ;
 class
@@ -145,6 +142,9 @@ mozilla
 namespace
 dom
 {
+class
+DocumentFragment
+;
 class
 Element
 ;
@@ -169,7 +169,13 @@ aObserver
 explicit
 txMozillaTextOutput
 (
-nsIDOMDocumentFragment
+mozilla
+:
+:
+dom
+:
+:
+DocumentFragment
 *
 aDest
 )
