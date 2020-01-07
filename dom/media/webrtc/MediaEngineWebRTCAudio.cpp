@@ -3464,7 +3464,6 @@ AllocationHandle
 (
 aConstraints
 aPrincipalInfo
-aPrefs
 aDeviceId
 )
 ;
