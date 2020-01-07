@@ -421,6 +421,7 @@ nsAccUtils
 :
 GetDefaultLevel
 (
+const
 Accessible
 *
 aAccessible
@@ -533,6 +534,7 @@ nsAccUtils
 :
 GetARIAOrDefaultLevel
 (
+const
 Accessible
 *
 aAccessible

@@ -355,6 +355,7 @@ static
 int32_t
 GetDefaultLevel
 (
+const
 Accessible
 *
 aAcc
@@ -388,6 +389,7 @@ static
 int32_t
 GetARIAOrDefaultLevel
 (
+const
 Accessible
 *
 aAccessible

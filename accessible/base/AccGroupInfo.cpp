@@ -96,6 +96,7 @@ AccGroupInfo
 :
 AccGroupInfo
 (
+const
 Accessible
 *
 aItem
