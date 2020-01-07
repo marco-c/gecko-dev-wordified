@@ -271,6 +271,8 @@ public
 :
 ServiceWorkerRegistrationDescriptor
 (
+uint64_t
+aId
 nsIPrincipal
 *
 aPrincipal
@@ -284,6 +286,8 @@ aUpdateViaCache
 ;
 ServiceWorkerRegistrationDescriptor
 (
+uint64_t
+aId
 const
 mozilla
 :
@@ -363,6 +367,12 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aRight
+)
+const
+;
+uint64_t
+Id
+(
 )
 const
 ;
