@@ -231,6 +231,16 @@ interfaces
 ;
 /
 /
+XPCOM
+service
+getters
+.
+pub
+mod
+services
+;
+/
+/
 Implementation
 details
 of
