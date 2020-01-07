@@ -280,13 +280,16 @@ resourceIds
 ;
 /
 /
-trigger
+Trigger
+the
 first
-context
+two
+contexts
 to
 be
-fetched
+loaded
 eagerly
+.
 document
 .
 l10n
@@ -295,6 +298,7 @@ ctxs
 .
 touchNext
 (
+2
 )
 ;
 document
