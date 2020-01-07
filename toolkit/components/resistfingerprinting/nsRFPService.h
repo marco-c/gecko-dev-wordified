@@ -1434,7 +1434,7 @@ static
 Atomic
 <
 bool
-ReleaseAcquire
+Relaxed
 >
 sPrivacyResistFingerprinting
 ;
@@ -1442,7 +1442,7 @@ static
 Atomic
 <
 bool
-ReleaseAcquire
+Relaxed
 >
 sPrivacyTimerPrecisionReduction
 ;
