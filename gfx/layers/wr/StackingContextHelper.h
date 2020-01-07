@@ -252,6 +252,14 @@ WrFilterOp
 (
 )
 const
+LayoutDeviceRect
+&
+aBounds
+=
+LayoutDeviceRect
+(
+)
+const
 gfx
 :
 :
