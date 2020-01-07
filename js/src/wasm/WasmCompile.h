@@ -263,6 +263,9 @@ bool
 ionEnabled
 ;
 bool
+sharedMemoryEnabled
+;
+bool
 testTiering
 ;
 CompileArgs
@@ -300,6 +303,10 @@ debugEnabled
 false
 )
 ionEnabled
+(
+false
+)
+sharedMemoryEnabled
 (
 false
 )
