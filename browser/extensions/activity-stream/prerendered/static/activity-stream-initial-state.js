@@ -40,10 +40,11 @@ visible
 :
 false
 "
-site
+index
 "
 :
-null
+-
+1
 }
 }
 "
@@ -107,7 +108,7 @@ true
 topSitesCount
 "
 :
-6
+12
 "
 collapseTopSites
 "

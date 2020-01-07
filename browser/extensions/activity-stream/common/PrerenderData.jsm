@@ -308,7 +308,7 @@ true
 topSitesCount
 "
 :
-6
+12
 "
 collapseTopSites
 "
@@ -442,6 +442,9 @@ showTopSites
 "
 "
 showSearch
+"
+"
+topSitesCount
 "
 "
 collapseTopSites
