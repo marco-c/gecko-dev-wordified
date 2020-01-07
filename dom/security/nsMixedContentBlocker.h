@@ -327,6 +327,15 @@ nsIURI
 aURL
 )
 ;
+static
+bool
+IsPotentiallyTrustworthyOnion
+(
+nsIURI
+*
+aURL
+)
+;
 /
 *
 Static
