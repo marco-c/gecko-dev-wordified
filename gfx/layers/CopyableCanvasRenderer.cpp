@@ -669,6 +669,10 @@ ClearCachedResources
 (
 )
 {
+SetDirty
+(
+)
+;
 if
 (
 mBufferProvider
