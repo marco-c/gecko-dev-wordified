@@ -4242,6 +4242,7 @@ htmlEditRules
 >
 WillDeleteSelection
 (
+*
 selection
 )
 ;
@@ -4271,6 +4272,9 @@ htmlEditRules
 >
 WillDeleteNode
 (
+*
+selection
+*
 deleteNode
 )
 ;
@@ -4393,6 +4397,11 @@ AsHTMLEditRules
 deleteCharData
 )
 {
+MOZ_ASSERT
+(
+deleteNode
+)
+;
 RefPtr
 <
 HTMLEditRules
@@ -4411,6 +4420,9 @@ htmlEditRules
 >
 DidDeleteText
 (
+*
+selection
+*
 deleteNode
 deleteCharOffset
 1
