@@ -123,7 +123,7 @@ nsDOMSerializer_h_
 #
 include
 "
-nsIDOMSerializer
+nsISupports
 .
 h
 "
@@ -158,11 +158,14 @@ class
 nsINode
 ;
 class
+nsIOutputStream
+;
+class
 nsDOMSerializer
 final
 :
 public
-nsIDOMSerializer
+nsISupports
 public
 nsWrapperCache
 {
@@ -177,10 +180,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMSerializer
 )
-/
-/
-nsIDOMSerializer
-NS_DECL_NSIDOMSERIALIZER
 /
 /
 WebIDL
