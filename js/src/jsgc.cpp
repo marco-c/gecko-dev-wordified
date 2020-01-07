@@ -40108,7 +40108,6 @@ bug
 SweepScriptData
 (
 rt
-lock
 )
 ;
 /

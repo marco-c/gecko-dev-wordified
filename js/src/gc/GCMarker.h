@@ -1638,6 +1638,10 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+const
+AutoLockForExclusiveAccess
+&
+lock
 )
 const
 ;
