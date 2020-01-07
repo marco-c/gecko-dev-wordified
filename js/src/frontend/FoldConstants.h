@@ -140,7 +140,7 @@ typename
 CharT
 >
 class
-Parser
+GeneralParser
 ;
 /
 /
@@ -291,7 +291,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 CharT
@@ -320,7 +320,7 @@ SyntaxParseHandler
 Node
 *
 pnp
-Parser
+GeneralParser
 <
 SyntaxParseHandler
 CharT

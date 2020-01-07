@@ -2853,7 +2853,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -2873,7 +2873,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -3093,7 +3093,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -3357,7 +3357,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -3488,7 +3488,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -3690,7 +3690,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -3808,7 +3808,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -4035,7 +4035,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -4278,7 +4278,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -4353,13 +4353,6 @@ parser
 isValidSimpleAssignmentTarget
 (
 target
-Parser
-<
-FullParseHandler
-char16_t
->
-:
-:
 PermitAssignmentToFunctionCalls
 )
 )
@@ -4385,13 +4378,6 @@ parser
 isValidSimpleAssignmentTarget
 (
 target
-Parser
-<
-FullParseHandler
-char16_t
->
-:
-:
 PermitAssignmentToFunctionCalls
 )
 )
@@ -4411,7 +4397,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -5008,7 +4994,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -5482,7 +5468,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -6174,7 +6160,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -6566,7 +6552,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -6632,7 +6618,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7154,7 +7140,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7503,7 +7489,7 @@ cx
 ParseNode
 *
 list
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7610,7 +7596,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7683,7 +7669,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7808,7 +7794,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -7909,7 +7895,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -8027,7 +8013,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -8600,7 +8586,7 @@ ParseNode
 *
 *
 nodePtr
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -9573,7 +9559,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -9876,7 +9862,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -9960,7 +9946,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -10112,7 +10098,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -10241,7 +10227,7 @@ cx
 ParseNode
 *
 node
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -10306,7 +10292,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
@@ -11670,7 +11656,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 CharT
@@ -11763,7 +11749,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 char16_t
