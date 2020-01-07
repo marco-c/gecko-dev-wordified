@@ -209,8 +209,6 @@ prefs_home_header
 :
 "
 Firefox
-Home
-Content
 "
 "
 prefs_home_description
@@ -243,12 +241,6 @@ prefs_section_rows_option
 {
 num
 }
-row
-;
-{
-num
-}
-rows
 "
 "
 prefs_search_header
@@ -261,11 +253,6 @@ prefs_topsites_description
 "
 :
 "
-The
-sites
-you
-visit
-most
 "
 "
 prefs_topstories_description
@@ -289,8 +276,6 @@ prefs_topstories_show_sponsored_label
 {
 provider
 }
-Sponsored
-Stories
 "
 "
 prefs_topstories_sponsored_learn_more

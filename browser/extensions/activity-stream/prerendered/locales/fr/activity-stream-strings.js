@@ -366,7 +366,6 @@ pour
 votre
 cran
 d
-'
 accueil
 de
 Firefox
@@ -403,7 +402,7 @@ prefs_search_header
 :
 "
 Recherche
-Web
+web
 "
 "
 prefs_topsites_description
@@ -478,8 +477,7 @@ prefs_snippets_description
 "
 :
 "
-Mises
-jour
+Actualit
 de
 Mozilla
 et
