@@ -8136,9 +8136,11 @@ private
 struct
 Entry
 {
+const
 FramePtr
 framePtr
 ;
+const
 jsbytecode
 *
 pc
@@ -8152,9 +8154,11 @@ savedFrame
 ;
 Entry
 (
+const
 FramePtr
 &
 framePtr
+const
 jsbytecode
 *
 pc
@@ -8380,6 +8384,7 @@ cx
 FramePtr
 &
 framePtr
+const
 jsbytecode
 *
 pc

@@ -583,6 +583,7 @@ cx
 FramePtr
 &
 framePtr
+const
 jsbytecode
 *
 pc
@@ -765,6 +766,7 @@ framePtr
 maybeFramePtr
 )
 ;
+const
 jsbytecode
 *
 pc
