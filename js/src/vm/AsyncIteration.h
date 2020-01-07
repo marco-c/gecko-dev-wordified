@@ -371,9 +371,12 @@ init
 (
 CompletionKind
 completionKind
-HandleValue
+const
+Value
+&
 completionValue
-HandleObject
+JSObject
+*
 promise
 )
 {

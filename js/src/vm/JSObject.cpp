@@ -6741,13 +6741,11 @@ proto
 ;
 return
 NewObjectWithGivenTaggedProto
+<
+PlainObject
+>
 (
 cx
-&
-PlainObject
-:
-:
-class_
 protoRoot
 allocKind
 newKind
