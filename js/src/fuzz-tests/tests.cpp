@@ -467,7 +467,10 @@ global
 return
 false
 ;
-JS_EnterCompartment
+JS
+:
+:
+EnterRealm
 (
 *
 cx
@@ -496,7 +499,10 @@ if
 oldCompartment
 )
 {
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 (
 cx
 oldCompartment

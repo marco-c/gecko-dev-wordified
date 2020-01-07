@@ -4240,7 +4240,10 @@ self
 {
 unsafe
 {
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 (
 self
 .
