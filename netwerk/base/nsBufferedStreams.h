@@ -162,6 +162,13 @@ nsIAsyncInputStream
 .
 h
 "
+#
+include
+"
+nsICloneableInputStream
+.
+h
+"
 /
 /
 /
@@ -513,6 +520,8 @@ public
 nsIAsyncInputStream
 public
 nsIInputStreamCallback
+public
+nsICloneableInputStream
 {
 public
 :
@@ -523,6 +532,7 @@ NS_DECL_NSISTREAMBUFFERACCESS
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
+NS_DECL_NSICLONEABLEINPUTSTREAM
 nsBufferedInputStream
 (
 )
@@ -578,6 +588,12 @@ const
 ;
 bool
 IsAsyncInputStream
+(
+)
+const
+;
+bool
+IsCloneableInputStream
 (
 )
 const
