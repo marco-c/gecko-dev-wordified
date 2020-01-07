@@ -299,7 +299,7 @@ store
 -
 objects
 -
-updated
+edit
 "
 )
 ;
@@ -352,7 +352,7 @@ info
 waiting
 for
 store
-update
+edit
 events
 "
 )
