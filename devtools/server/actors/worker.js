@@ -1293,7 +1293,7 @@ service
 -
 worker
 -
-child
+process
 .
 js
 process
@@ -1940,11 +1940,15 @@ devtools
 /
 server
 /
+actors
+/
+worker
+/
 service
 -
 worker
 -
-child
+process
 .
 js
 "
