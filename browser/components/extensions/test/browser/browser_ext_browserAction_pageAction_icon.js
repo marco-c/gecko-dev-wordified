@@ -2547,6 +2547,11 @@ ready
 "
 )
 ;
+await
+promiseAnimationFrame
+(
+)
+;
 /
 /
 The
