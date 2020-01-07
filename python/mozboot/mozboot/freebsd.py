@@ -146,7 +146,7 @@ mercurial
 '
             
 '
-node
+npm
 '
             
 '
