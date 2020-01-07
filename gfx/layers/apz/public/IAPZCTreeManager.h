@@ -165,7 +165,7 @@ mozilla
 /
 layers
 /
-LayersTypes
+APZUtils
 .
 h
 "
@@ -173,6 +173,7 @@ h
 /
 for
 TouchBehaviorFlags
+etc
 #
 include
 "
