@@ -53,6 +53,11 @@ changes
 .
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 var
 gDefaultHostType
 =
@@ -94,11 +99,6 @@ number
 of
 test
 cases
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

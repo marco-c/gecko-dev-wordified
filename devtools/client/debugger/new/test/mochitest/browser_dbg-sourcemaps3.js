@@ -43,6 +43,11 @@ inspecting
 restored
 scopes
 .
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 This
@@ -79,11 +84,6 @@ test
 run
 times
 inconsistent
-requestLongerTimeout
-(
-2
-)
-;
 await
 pushPref
 (

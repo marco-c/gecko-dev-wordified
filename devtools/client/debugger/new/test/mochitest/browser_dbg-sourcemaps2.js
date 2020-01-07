@@ -28,6 +28,11 @@ zero
 /
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 function
 assertBpInGutter
 (
@@ -133,11 +138,6 @@ test
 run
 times
 inconsistent
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

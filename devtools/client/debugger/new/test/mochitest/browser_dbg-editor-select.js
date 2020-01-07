@@ -44,6 +44,11 @@ the
 /
 debugger
 pauses
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 async
@@ -96,11 +101,6 @@ a
 longer
 timeout
 .
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

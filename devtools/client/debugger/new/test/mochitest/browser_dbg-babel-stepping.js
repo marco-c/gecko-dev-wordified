@@ -40,6 +40,11 @@ s
 compile
 output
 .
+requestLongerTimeout
+(
+4
+)
+;
 async
 function
 breakpointSteps
@@ -1177,11 +1182,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-4
-)
-;
 const
 dbg
 =

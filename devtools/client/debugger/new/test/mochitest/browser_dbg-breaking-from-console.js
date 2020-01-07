@@ -235,11 +235,10 @@ dbg
 ;
 is
 (
+getCM
+(
 dbg
-.
-win
-.
-cm
+)
 .
 getValue
 (

@@ -158,6 +158,11 @@ NS_ERROR_FAILURE
 /
 )
 ;
+requestLongerTimeout
+(
+5
+)
+;
 const
 {
 BrowserToolboxProcess
@@ -221,7 +226,10 @@ BrowserToolboxProcess
 init
 (
 onClose
+(
+event
 _process
+)
 =
 >
 {
@@ -362,11 +370,6 @@ at
 this
 test
 .
-requestLongerTimeout
-(
-5
-)
-;
 await
 pushPref
 (

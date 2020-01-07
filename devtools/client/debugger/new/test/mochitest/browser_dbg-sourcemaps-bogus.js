@@ -45,6 +45,11 @@ break
 /
 debugging
 .
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 async
@@ -65,11 +70,6 @@ test
 run
 times
 inconsistent
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

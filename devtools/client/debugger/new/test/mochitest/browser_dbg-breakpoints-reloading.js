@@ -35,6 +35,11 @@ pending
 breakpoints
 when
 reloading
+requestLongerTimeout
+(
+3
+)
+;
 /
 /
 Utilities
@@ -168,11 +173,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-3
-)
-;
 const
 dbg
 =
