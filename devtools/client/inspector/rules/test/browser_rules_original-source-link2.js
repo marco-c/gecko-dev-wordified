@@ -410,10 +410,7 @@ editor
 -
 selected
 "
-(
-event
 editor
-)
 =
 >
 {

@@ -4167,10 +4167,7 @@ correct
 let
 gotEditor
 =
-(
-event
 editor
-)
 =
 >
 {
@@ -4323,11 +4320,6 @@ if
 !
 gotEditor
 (
-"
-styleeditor
--
-selected
-"
 panel
 .
 UI
