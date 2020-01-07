@@ -3809,8 +3809,8 @@ updates
 are
 done
 .
+async
 function
-*
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -3855,14 +3855,13 @@ _queuedChildUpdates
 size
 )
 {
-yield
+await
 waitForChildrenUpdated
 (
 inspector
 )
 ;
 return
-yield
 waitForMultipleChildrenUpdates
 (
 inspector
