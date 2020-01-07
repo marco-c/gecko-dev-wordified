@@ -15054,6 +15054,20 @@ constin
 )
 :
         
+#
+IPDLParamTraits
+impls
+are
+selected
+ignoring
+constness
+references
+        
+#
+and
+pointers
+.
+        
 pt
 =
 Class
@@ -15064,7 +15078,24 @@ IPDLParamTraits
                    
 specializes
 =
+Type
+(
 fortype
+.
+name
+                                    
+T
+=
+fortype
+.
+T
+                                    
+inner
+=
+fortype
+.
+inner
+)
                    
 struct
 =

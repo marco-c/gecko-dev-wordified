@@ -847,7 +847,7 @@ holder
 ]
 (
 const
-nsCOMPtr
+RefPtr
 <
 nsIInputStream
 >

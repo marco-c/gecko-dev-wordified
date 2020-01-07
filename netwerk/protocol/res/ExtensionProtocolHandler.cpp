@@ -1345,7 +1345,7 @@ self
 ]
 (
 const
-nsCOMPtr
+RefPtr
 <
 nsIInputStream
 >
