@@ -791,6 +791,8 @@ aForceAllowDataURI
 bool
 aAllowInsecureRedirectToDataURI
 bool
+aSkipContentPolicyCheckForWebRequest
+bool
 aForceInheritPrincipalDropped
 uint64_t
 aInnerWindowID
@@ -1148,6 +1150,9 @@ mForceAllowDataURI
 ;
 bool
 mAllowInsecureRedirectToDataURI
+;
+bool
+mSkipContentPolicyCheckForWebRequest
 ;
 bool
 mOriginalFrameSrcLoad

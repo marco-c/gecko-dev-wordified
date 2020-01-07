@@ -2285,6 +2285,12 @@ GetAllowInsecureRedirectToDataURI
 aLoadInfo
 -
 >
+GetSkipContentPolicyCheckForWebRequest
+(
+)
+aLoadInfo
+-
+>
 GetForceInheritPrincipalDropped
 (
 )
@@ -3125,6 +3131,11 @@ forceAllowDataURI
 loadInfoArgs
 .
 allowInsecureRedirectToDataURI
+(
+)
+loadInfoArgs
+.
+skipContentPolicyCheckForWebRequest
 (
 )
 loadInfoArgs
