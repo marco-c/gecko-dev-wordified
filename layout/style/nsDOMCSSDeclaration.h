@@ -416,7 +416,7 @@ GetParentRule
 /
 /
 NS_DECL_NSIDOMCSSSTYLEDECLARATION
-NS_IMETHOD
+void
 GetCssText
 (
 nsAString
@@ -425,7 +425,7 @@ aCssText
 )
 override
 ;
-NS_IMETHOD
+void
 SetCssText
 (
 const
@@ -435,6 +435,12 @@ aCssText
 nsIPrincipal
 *
 aSubjectPrincipal
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 override
 ;
