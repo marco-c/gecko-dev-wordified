@@ -599,9 +599,11 @@ class
 TlsScope
 final
 {
-GLContext
-*
 const
+WeakPtr
+<
+GLContext
+>
 mGL
 ;
 const
@@ -644,6 +646,11 @@ TlsScope
 (
 )
 {
+if
+(
+mGL
+)
+{
 mGL
 -
 >
@@ -651,6 +658,7 @@ mUseTLSIsCurrent
 =
 mWasTlsOk
 ;
+}
 }
 }
 ;
