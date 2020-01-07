@@ -1731,7 +1731,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -1741,7 +1741,7 @@ get
 )
 =
 >
-0
+true
 )
 ;
 sandbox
@@ -2075,7 +2075,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -2085,7 +2085,7 @@ get
 )
 =
 >
-0
+true
 )
 ;
 sandbox
@@ -2914,7 +2914,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -2924,11 +2924,7 @@ get
 )
 =
 >
-Date
-.
-now
-(
-)
+false
 )
 ;
 sandbox
@@ -3300,7 +3296,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -3310,11 +3306,7 @@ get
 )
 =
 >
-Date
-.
-now
-(
-)
+false
 )
 ;
 sandbox
@@ -3696,7 +3688,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -3706,11 +3698,7 @@ get
 )
 =
 >
-Date
-.
-now
-(
-)
+false
 )
 ;
 sandbox
