@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsmath_h
+builtin_Math_h
 #
 define
-jsmath_h
+builtin_Math_h
 #
 include
 "
@@ -2084,6 +2084,6 @@ js
 endif
 /
 *
-jsmath_h
+builtin_Math_h
 *
 /
