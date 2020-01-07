@@ -692,7 +692,10 @@ aYVal
 {
 nsCharSeparatedTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (

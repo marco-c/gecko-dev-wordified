@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsWhitespaceTokenizer
 .
 h
@@ -371,7 +378,10 @@ aValue
 {
 nsWhitespaceTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (

@@ -311,7 +311,10 @@ mIsCommaSeparated
 {
 nsCharSeparatedTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (
@@ -371,7 +374,10 @@ else
 {
 nsWhitespaceTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (

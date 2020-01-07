@@ -206,7 +206,10 @@ aValues
 {
 nsCharSeparatedTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (
