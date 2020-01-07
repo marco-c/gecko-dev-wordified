@@ -7334,7 +7334,7 @@ keyframeDict
 .
 mComposite
 .
-Construct
+SetValue
 (
 keyframe
 .
