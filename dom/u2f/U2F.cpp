@@ -743,7 +743,7 @@ RegisteredKey
 aKeys
 nsTArray
 <
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 >
 &
 aList
@@ -885,7 +885,7 @@ rv
 continue
 ;
 }
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 c
 ;
 c
@@ -2635,7 +2635,7 @@ if
 any
 nsTArray
 <
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 >
 excludeList
 ;
@@ -3383,7 +3383,7 @@ if
 any
 nsTArray
 <
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 >
 permittedList
 ;
@@ -3519,6 +3519,12 @@ rpIdHash
 clientDataHash
 adjustedTimeoutMillis
 permittedList
+false
+/
+*
+requireUserVerification
+*
+/
 extensions
 )
 ;

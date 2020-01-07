@@ -1940,6 +1940,11 @@ ClientDataHash
 )
 aTransactionInfo
 .
+RequireUserVerification
+(
+)
+aTransactionInfo
+.
 TimeoutMS
 (
 )
