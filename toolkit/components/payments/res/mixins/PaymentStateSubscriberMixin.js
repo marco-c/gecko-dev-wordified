@@ -157,7 +157,7 @@ currency
 null
 value
 :
-null
+0
 }
 }
 displayItems
