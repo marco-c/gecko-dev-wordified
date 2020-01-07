@@ -101,7 +101,7 @@ changes
 in
 single_dep
 .
-LABELS_WHICH_SHOULD_SIGN_CI_BUILDS
+NON_NIGHTLY_LABELS_WHICH_SHOULD_SIGN_BUILDS
 =
 (
     
@@ -217,6 +217,32 @@ source
 /
 opt
 '
+    
+'
+release
+-
+eme
+-
+free
+-
+repack
+-
+macosx64
+-
+nightly
+'
+    
+'
+release
+-
+partner
+-
+repack
+-
+macosx64
+-
+nightly
+'
 )
 def
 loader
@@ -275,7 +301,7 @@ dependent_task
 .
 label
 in
-LABELS_WHICH_SHOULD_SIGN_CI_BUILDS
+NON_NIGHTLY_LABELS_WHICH_SHOULD_SIGN_BUILDS
 :
             
 yield

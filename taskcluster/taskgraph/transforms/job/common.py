@@ -477,10 +477,8 @@ task
 "
     
 #
-This
-public
-/
-build
+The
+path
 is
 the
 location
@@ -500,16 +498,20 @@ artifacts
 will
 be
 public
+or
+private
 ;
 that
 is
 set
 via
 the
-artifact_prefix
+name
     
 #
 attribute
+in
+add_artifacts
 .
     
 add_artifacts
@@ -519,12 +521,10 @@ job
 taskdesc
 path
 =
-r
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+taskdesc
+)
 )
 def
 docker_worker_add_gecko_vcs_env_vars
