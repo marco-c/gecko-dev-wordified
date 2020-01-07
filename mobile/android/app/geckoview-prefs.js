@@ -78,3 +78,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+ipc
+.
+processCount
+"
+1
+)
+;
