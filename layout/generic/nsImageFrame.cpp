@@ -10927,6 +10927,15 @@ if
 (
 !
 container
+|
+|
+!
+container
+-
+>
+HasCurrentImage
+(
+)
 )
 {
 return
