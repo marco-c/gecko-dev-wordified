@@ -788,6 +788,7 @@ assertAllSitesNotListed
 win
 )
 ;
+await
 mockSiteDataManager
 .
 unregister
@@ -1509,6 +1510,7 @@ slice
 )
 )
 ;
+await
 mockSiteDataManager
 .
 unregister
@@ -2046,6 +2048,7 @@ xyz
 )
 )
 ;
+await
 mockSiteDataManager
 .
 unregister
@@ -2402,6 +2405,7 @@ assertAllSitesNotListed
 win
 )
 ;
+await
 mockSiteDataManager
 .
 unregister
