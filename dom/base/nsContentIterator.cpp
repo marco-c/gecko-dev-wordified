@@ -4486,7 +4486,7 @@ child
 node
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 -
 -
@@ -4759,7 +4759,7 @@ sib
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 indx
 )
@@ -4824,7 +4824,7 @@ sib
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 +
 +
@@ -5187,7 +5187,7 @@ sib
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 indx
 )
@@ -5257,7 +5257,7 @@ sib
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 -
 -
@@ -5716,7 +5716,7 @@ sibling
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 indx
 )
@@ -5779,7 +5779,7 @@ sibling
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 +
 +
@@ -6211,7 +6211,7 @@ sibling
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 indx
 )
@@ -6220,7 +6220,7 @@ NS_WARNING_ASSERTION
 (
 sibling
 "
-GetChildAt
+GetChildAt_Deprecated
 returned
 null
 "
@@ -6290,7 +6290,7 @@ sibling
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 -
 -
@@ -9579,7 +9579,7 @@ child
 startContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 offset
 )
@@ -9834,7 +9834,7 @@ lastCandidate
 endContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 -
 -

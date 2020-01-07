@@ -46926,7 +46926,7 @@ child
 aContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )
@@ -49996,7 +49996,7 @@ some
 virtual
 /
 /
-GetChildAt
+GetChildAt_Deprecated
 calls
 instead
 and
@@ -50005,9 +50005,9 @@ this
 during
 construction
 of
+/
+/
 our
-/
-/
 FrameConstructionItemList
 ?
 InvalidateCanvasIfNeeded

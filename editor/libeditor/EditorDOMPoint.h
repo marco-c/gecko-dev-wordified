@@ -1087,7 +1087,7 @@ MOZ_ASSERT
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 mOffset
 .
@@ -3682,7 +3682,7 @@ isSome
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 mOffset
 .
@@ -3881,7 +3881,7 @@ isSome
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 mOffset
 .
@@ -4823,7 +4823,7 @@ MOZ_ASSERT
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 mOffset
 .
@@ -5025,7 +5025,7 @@ mChild
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 mOffset
 .

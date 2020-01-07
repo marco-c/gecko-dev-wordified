@@ -3904,7 +3904,7 @@ text
 child
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 j
 )
@@ -6047,7 +6047,7 @@ startContent
 topParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 contentIndex
 -
@@ -6468,7 +6468,7 @@ nextContent
 parentContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 +

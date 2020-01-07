@@ -1080,7 +1080,7 @@ Then
 again
 so
 does
-GetChildAt
+GetChildAt_Deprecated
 (
 0
 )
@@ -3688,7 +3688,7 @@ return
 mNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -7296,7 +7296,7 @@ NS_ASSERTION
 oldKid
 =
 =
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -13265,7 +13265,7 @@ nsIContent
 FragmentOrElement
 :
 :
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex

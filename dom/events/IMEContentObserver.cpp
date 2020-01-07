@@ -7278,7 +7278,7 @@ return
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 )

@@ -20316,7 +20316,7 @@ correspondingNode
 correspondingNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 indexArray
 [

@@ -29224,7 +29224,7 @@ child
 aContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 removeIndex
 )

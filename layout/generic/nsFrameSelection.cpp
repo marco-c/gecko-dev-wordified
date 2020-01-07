@@ -9467,7 +9467,7 @@ childNode
 theNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 childIndex
 )
@@ -9718,7 +9718,7 @@ newChildNode
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 newChildIndex
 )
@@ -11717,7 +11717,7 @@ GetStartContainer
 )
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aRange
 -
@@ -11831,7 +11831,7 @@ childContent
 aParentContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aContentOffset
 )
@@ -13474,7 +13474,7 @@ child
 container
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 offset
 )
@@ -15490,7 +15490,7 @@ childContent
 startContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 offset
 )

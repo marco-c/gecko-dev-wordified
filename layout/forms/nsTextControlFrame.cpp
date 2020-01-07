@@ -5775,7 +5775,7 @@ child
 rootContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 numChildren
 -
@@ -5819,7 +5819,7 @@ child
 rootContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 numChildren
 -
@@ -7599,7 +7599,7 @@ textContent
 mRootNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 0
 )

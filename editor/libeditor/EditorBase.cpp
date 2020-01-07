@@ -14472,7 +14472,7 @@ slow
 path
 that
 uses
-GetChildAt
+GetChildAt_Deprecated
 (
 )
 for
@@ -14566,7 +14566,7 @@ avoids
 /
 /
 calling
-GetChildAt
+GetChildAt_Deprecated
 (
 )
 which
@@ -23803,7 +23803,7 @@ rightNodeToJoin
 parentNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 length
 )

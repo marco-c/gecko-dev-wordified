@@ -1603,7 +1603,7 @@ return
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 )

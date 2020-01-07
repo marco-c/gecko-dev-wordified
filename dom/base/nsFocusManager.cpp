@@ -16085,7 +16085,7 @@ childContent
 startContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 startOffset
 )
@@ -16140,7 +16140,7 @@ childContent
 endContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 endOffset
 )
@@ -22026,7 +22026,7 @@ count
 }
 /
 /
-GetChildAt
+GetChildAt_Deprecated
 will
 return
 nullptr
@@ -22039,6 +22039,8 @@ or
 index
 >
 =
+/
+/
 count
 nsCOMPtr
 <
@@ -22054,7 +22056,7 @@ areaContent
 mapContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aForward
 ?

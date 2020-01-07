@@ -3561,7 +3561,7 @@ child
 content
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aRange
 -
@@ -4224,7 +4224,7 @@ child
 startNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 startOffset
 )

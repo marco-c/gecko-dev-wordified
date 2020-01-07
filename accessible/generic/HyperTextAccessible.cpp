@@ -1739,7 +1739,7 @@ findNode
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aNodeOffset
 )

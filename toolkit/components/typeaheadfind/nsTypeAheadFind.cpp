@@ -5149,7 +5149,7 @@ childContent
 startContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 startOffset
 )

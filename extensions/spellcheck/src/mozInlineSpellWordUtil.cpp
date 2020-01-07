@@ -832,7 +832,7 @@ child
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 )

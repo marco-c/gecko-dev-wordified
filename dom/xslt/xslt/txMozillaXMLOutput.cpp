@@ -3191,7 +3191,7 @@ childContent
 mDocument
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 j
 )

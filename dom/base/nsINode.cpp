@@ -10713,7 +10713,7 @@ this
 aKid
 =
 =
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -12964,7 +12964,7 @@ SetPrevSibling
 oldParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 removeIndex
 -
@@ -12979,7 +12979,7 @@ SetNextSibling
 oldParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 removeIndex
 )
@@ -14440,7 +14440,7 @@ mutationBatch
 >
 SetPrevSibling
 (
-GetChildAt
+GetChildAt_Deprecated
 (
 insPos
 -
@@ -14453,7 +14453,7 @@ mutationBatch
 >
 SetNextSibling
 (
-GetChildAt
+GetChildAt_Deprecated
 (
 insPos
 )
@@ -14843,7 +14843,7 @@ mb
 .
 SetPrevSibling
 (
-GetChildAt
+GetChildAt_Deprecated
 (
 insPos
 -
@@ -14855,7 +14855,7 @@ mb
 .
 SetNextSibling
 (
-GetChildAt
+GetChildAt_Deprecated
 (
 insPos
 )

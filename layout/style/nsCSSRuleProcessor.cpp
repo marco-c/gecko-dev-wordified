@@ -8138,7 +8138,7 @@ child
 aElement
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 +
 +
@@ -9704,7 +9704,7 @@ firstNode
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 +
 +
@@ -9839,7 +9839,7 @@ lastNode
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 -
 -
