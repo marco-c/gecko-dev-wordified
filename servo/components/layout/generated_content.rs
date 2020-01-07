@@ -2339,8 +2339,9 @@ get
 (
 &
 *
-*
 counter_name
+.
+0
 )
 .
 unwrap_or
@@ -2427,8 +2428,9 @@ get
 (
 &
 *
-*
 counter_name
+.
+0
 )
 .
 unwrap_or
