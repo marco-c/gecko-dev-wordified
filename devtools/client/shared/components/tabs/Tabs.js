@@ -2018,6 +2018,7 @@ isTabSelected
 :
 -
 1
+title
 "
 aria
 -
