@@ -39708,8 +39708,9 @@ border
 }
 TabsInTitlebar
 .
-update
+updateAppearance
 (
+true
 )
 ;
 gBrowser
@@ -58191,8 +58192,9 @@ this
 ;
 TabsInTitlebar
 .
-update
+updateAppearance
 (
+true
 )
 ;
 }
@@ -58269,8 +58271,9 @@ this
 ;
 TabsInTitlebar
 .
-update
+updateAppearance
 (
+true
 )
 ;
 }

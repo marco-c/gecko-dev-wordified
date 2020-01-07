@@ -184,7 +184,7 @@ tabsintitlebar
 js
 "
 "
-update
+_update
 chrome
 :
 /
@@ -301,7 +301,7 @@ tabsintitlebar
 js
 "
 "
-update
+_update
 chrome
 :
 /
