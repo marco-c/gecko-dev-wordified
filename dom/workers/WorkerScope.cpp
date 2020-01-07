@@ -1388,7 +1388,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-scriptloader
+workerinternals
 :
 :
 Load
@@ -4743,7 +4743,7 @@ AppendElement
 aURL
 )
 ;
-scriptloader
+workerinternals
 :
 :
 Load
