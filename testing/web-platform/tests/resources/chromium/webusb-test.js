@@ -111,9 +111,7 @@ instance
 of
 /
 /
-mojo
-.
-common
+mojo_base
 .
 mojom
 .
@@ -145,9 +143,7 @@ Converts
 an
 instance
 of
-mojo
-.
-common
+mojo_base
 .
 mojom
 .

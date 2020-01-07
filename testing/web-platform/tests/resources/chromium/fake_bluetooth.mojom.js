@@ -56,7 +56,7 @@ bluetooth
 /
 public
 /
-interfaces
+mojom
 /
 test
 /
@@ -185,7 +185,7 @@ bluetooth
 /
 public
 /
-interfaces
+mojom
 /
 uuid
 .
@@ -7474,7 +7474,7 @@ function
 {
 this
 .
-identifier
+serviceId
 =
 null
 ;
@@ -7611,7 +7611,7 @@ err
 validate
 FakeCentral_RemoveFakeService_Params
 .
-identifier
+serviceId
 err
 =
 messageValidator
@@ -7737,7 +7737,7 @@ readUint32
 ;
 val
 .
-identifier
+serviceId
 =
 decoder
 .
@@ -7804,7 +7804,7 @@ codec
 String
 val
 .
-identifier
+serviceId
 )
 ;
 encoder
@@ -18412,7 +18412,7 @@ removeFakeService
 =
 function
 (
-identifier
+serviceId
 peripheralAddress
 )
 {
@@ -18426,9 +18426,9 @@ FakeCentral_RemoveFakeService_Params
 ;
 params
 .
-identifier
+serviceId
 =
-identifier
+serviceId
 ;
 params
 .
@@ -20455,7 +20455,7 @@ removeFakeService
 =
 function
 (
-identifier
+serviceId
 peripheralAddress
 )
 {
@@ -20478,7 +20478,7 @@ delegate_
 .
 removeFakeService
 (
-identifier
+serviceId
 peripheralAddress
 )
 ;
@@ -21498,7 +21498,7 @@ removeFakeService
 (
 params
 .
-identifier
+serviceId
 params
 .
 peripheralAddress
