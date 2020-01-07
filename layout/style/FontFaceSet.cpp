@@ -899,17 +899,6 @@ caller
 "
 )
 ;
-nsCOMPtr
-<
-nsIGlobalObject
->
-global
-=
-do_QueryInterface
-(
-aWindow
-)
-;
 /
 /
 If
@@ -956,7 +945,7 @@ created
 .
 if
 (
-global
+aWindow
 &
 &
 PrefEnabled
