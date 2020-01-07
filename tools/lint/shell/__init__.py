@@ -1026,10 +1026,6 @@ base_command
 binary
 '
 -
-x
-'
-'
--
 f
 '
 '
