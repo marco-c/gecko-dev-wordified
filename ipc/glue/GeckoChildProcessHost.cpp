@@ -3226,10 +3226,15 @@ Notify
 (
 )
 ;
+#
+ifdef
+ASYNC_CONTENTPROC_LAUNCH
 OnProcessLaunchError
 (
 )
 ;
+#
+endif
 CHROMIUM_LOG
 (
 ERROR
@@ -3271,6 +3276,9 @@ mProcessType
 )
 )
 ;
+#
+ifdef
+ASYNC_CONTENTPROC_LAUNCH
 }
 else
 {
@@ -3279,6 +3287,8 @@ OnProcessHandleReady
 mChildProcessHandle
 )
 ;
+#
+endif
 }
 return
 ok
