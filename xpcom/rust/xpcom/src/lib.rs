@@ -219,6 +219,16 @@ refptr
 :
 *
 ;
+mod
+statics
+;
+pub
+use
+statics
+:
+:
+*
+;
 /
 /
 XPCOM
