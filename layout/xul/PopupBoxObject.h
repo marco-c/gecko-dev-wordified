@@ -189,6 +189,9 @@ class
 Event
 ;
 class
+StringOrOpenPopupOptions
+;
+class
 PopupBoxObject
 final
 :
@@ -252,9 +255,15 @@ Element
 *
 aAnchorElement
 const
-nsAString
+mozilla
+:
+:
+dom
+:
+:
+StringOrOpenPopupOptions
 &
-aPosition
+aOptions
 int32_t
 aXPos
 int32_t
