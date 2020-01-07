@@ -5732,6 +5732,12 @@ sBlocklistInitAttempted
 =
 true
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 gStartAddressesToBlock
 =
 new
@@ -5745,6 +5751,8 @@ void
 4
 >
 ;
+#
+endif
 /
 /
 In
