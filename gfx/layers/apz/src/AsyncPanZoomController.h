@@ -5100,6 +5100,12 @@ GetApzcTreeManager
 )
 const
 ;
+void
+AssertOnSamplerThread
+(
+)
+const
+;
 /
 *
 *
