@@ -999,17 +999,17 @@ changed
 )
         
 #
+implicitly
 add
-some
-common
-files
+config
+directories
+affecting
+task
         
 files_changed
 .
-extend
+append
 (
-[
-            
 '
 {
 }
@@ -1024,17 +1024,6 @@ config
 .
 path
 )
-            
-'
-taskcluster
-/
-taskgraph
-/
-*
-*
-'
-        
-]
 )
         
 if
