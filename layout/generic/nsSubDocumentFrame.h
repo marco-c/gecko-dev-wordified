@@ -703,13 +703,10 @@ override
 ;
 #
 endif
-nsresult
-GetDocShell
-(
 nsIDocShell
 *
-*
-aDocShell
+GetDocShell
+(
 )
 ;
 nsresult

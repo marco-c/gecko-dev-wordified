@@ -540,10 +540,8 @@ aIFrame
 /
 WebIDL
 methods
-already_AddRefed
-<
 nsIDocShell
->
+*
 GetDocShell
 (
 mozilla
