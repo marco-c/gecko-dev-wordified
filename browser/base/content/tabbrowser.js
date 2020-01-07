@@ -10868,12 +10868,6 @@ false
 ;
 browser
 .
-renderLayers
-=
-true
-;
-browser
-.
 _urlbarFocused
 =
 true
