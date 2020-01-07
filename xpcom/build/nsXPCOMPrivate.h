@@ -635,14 +635,6 @@ MAXPATHLEN
 endif
 #
 endif
-extern
-bool
-gXPCOMShuttingDown
-;
-extern
-bool
-gXPCOMThreadsShutDown
-;
 /
 /
 Needed
