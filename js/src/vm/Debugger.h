@@ -12875,7 +12875,7 @@ selfHosted
 script
 -
 >
-compartment
+realm
 (
 )
 -
@@ -12958,7 +12958,7 @@ MOZ_ASSERT
 global
 -
 >
-compartment
+realm
 (
 )
 -
@@ -12972,7 +12972,7 @@ DEBUG
 global
 -
 >
-compartment
+realm
 (
 )
 -
