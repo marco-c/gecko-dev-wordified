@@ -106,7 +106,7 @@ kind
 {
 case
 "
-do_check_true
+assert_ok
 "
 :
 try
