@@ -1433,16 +1433,6 @@ NS_IMETHOD_
 Element
 *
 )
-GetRootEditorNode
-(
-)
-override
-;
-NS_IMETHOD_
-(
-Element
-*
-)
 GetPlaceholderNode
 (
 )
