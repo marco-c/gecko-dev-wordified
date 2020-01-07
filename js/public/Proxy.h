@@ -2935,10 +2935,8 @@ js
 :
 :
 Class
-*
-const
 )
-ProxyClassPtr
+ProxyClass
 ;
 inline
 bool
@@ -4092,7 +4090,8 @@ lazyProtoArg
 )
 clasp_
 (
-ProxyClassPtr
+&
+ProxyClass
 )
 {
 }
@@ -4112,7 +4111,8 @@ false
 )
 clasp_
 (
-ProxyClassPtr
+&
+ProxyClass
 )
 {
 }
