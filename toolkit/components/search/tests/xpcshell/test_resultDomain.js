@@ -264,6 +264,8 @@ getResultDomain
 (
 )
 "
+www
+.
 bacon
 .
 moz

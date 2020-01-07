@@ -104,9 +104,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 {
 uri
@@ -129,9 +126,6 @@ test
 html
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -155,6 +149,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 file
 .
 org
@@ -190,8 +188,8 @@ at
 the
 end
 should
-do
-nothing
+match
+host
 "
 )
 ;
@@ -220,9 +218,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 {
 uri
@@ -245,9 +240,6 @@ test
 html
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -274,6 +266,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 file
 .
 org
@@ -339,9 +335,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 {
 uri
@@ -364,9 +357,6 @@ test
 html
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -470,9 +460,6 @@ test
 html
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;

@@ -362,6 +362,7 @@ autofilled
 cake
 .
 search
+/
 "
 completed
 :
@@ -373,6 +374,7 @@ http
 cake
 .
 search
+/
 "
 }
 )
@@ -1153,6 +1155,7 @@ www
 bean
 .
 search
+/
 "
 completed
 :
@@ -1166,6 +1169,7 @@ www
 bean
 .
 search
+/
 "
 }
 )
@@ -1206,6 +1210,7 @@ www
 bean
 .
 search
+/
 "
 completed
 :
@@ -1219,6 +1224,7 @@ www
 bean
 .
 search
+/
 "
 }
 )
@@ -1263,6 +1269,7 @@ http
 bean
 .
 search
+/
 "
 completed
 :
@@ -1276,6 +1283,7 @@ www
 bean
 .
 search
+/
 "
 }
 )
@@ -1321,9 +1329,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -1352,9 +1357,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -1405,6 +1407,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 mozilla
 .
 org
