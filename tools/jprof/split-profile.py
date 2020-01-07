@@ -1027,7 +1027,6 @@ n
 .
 format
 (
-            
 process
 .
 returncode

@@ -427,8 +427,8 @@ file
 :
     
 if
-file
 not
+file
 in
 address_adjustments
 :
@@ -595,8 +595,8 @@ converter
 None
     
 if
-file
 not
+file
 in
 atoses
 :
@@ -614,7 +614,6 @@ converter
 =
 unbufferedLineConverter
 (
-            
 '
 /
 usr

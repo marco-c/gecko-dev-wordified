@@ -137,7 +137,6 @@ patch_info
 =
 PatchInfo
 (
-            
 self
 .
 work_dir
@@ -329,7 +328,6 @@ self
 .
 assertEquals
 (
-            
 [
 '
 add
@@ -366,7 +364,6 @@ self
 .
 assertEquals
 (
-            
 [
 '
 add
@@ -546,7 +543,6 @@ patch_info
 .
 append_patch_instruction
 (
-            
 '
 distribution
 /
@@ -567,7 +563,6 @@ self
 .
 assertEquals
 (
-            
 [
 '
 patch
@@ -607,7 +602,6 @@ self
 .
 assertEquals
 (
-            
 [
 '
 patch
@@ -878,7 +872,6 @@ set
 ]
 )
 )
-                          
 self
 .
 patch_info
@@ -1112,7 +1105,6 @@ patch_info
 =
 PatchInfo
 (
-            
 work_dir
 [
 '
@@ -1434,7 +1426,6 @@ platform
 '
 platform
 '
-                    
 '
 product
 '
