@@ -79,6 +79,10 @@ Encoding
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsHtml5SpeculativeLoad
 :
 :

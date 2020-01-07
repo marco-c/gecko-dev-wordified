@@ -73,6 +73,9 @@ Encoding
 h
 "
 const
+mozilla
+:
+:
 Encoding
 *
 nsHtml5MetaScanner
@@ -180,6 +183,9 @@ label
 )
 ;
 const
+mozilla
+:
+:
 Encoding
 *
 encoding

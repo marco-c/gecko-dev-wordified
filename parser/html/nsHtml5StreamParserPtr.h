@@ -102,6 +102,13 @@ nsHtml5StreamParserPtr_h
 #
 include
 "
+nsHtml5StreamParser
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
