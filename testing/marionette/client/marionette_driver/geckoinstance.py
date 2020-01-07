@@ -517,14 +517,6 @@ api_url
 "
 "
         
-"
-extensions
-.
-showMismatchUI
-"
-:
-False
-        
 #
 Turn
 off
