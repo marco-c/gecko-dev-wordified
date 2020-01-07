@@ -534,9 +534,8 @@ D
 Printf
 (
 "
-No
-such
-directory
+%
+s
 :
 %
 s
@@ -545,6 +544,10 @@ exiting
 \
 n
 "
+strerror
+(
+errno
+)
 Dir
 .
 c_str
