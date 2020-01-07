@@ -384,7 +384,7 @@ response
 assert_same_element
 (
 session
-element
+body
 session
 .
 active_element
@@ -541,7 +541,7 @@ response
 assert_same_element
 (
 session
-frame
+body
 session
 .
 active_element
