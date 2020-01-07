@@ -117,6 +117,14 @@ this
 }
 else
 {
+/
+*
+eslint
+-
+env
+worker
+*
+/
 importScripts
 (
 "
