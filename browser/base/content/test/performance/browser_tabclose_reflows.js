@@ -187,7 +187,7 @@ new
 tab
 .
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -249,7 +249,11 @@ await
 switchDone
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 )
 ;
 is

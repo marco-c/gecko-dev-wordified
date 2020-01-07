@@ -1056,7 +1056,7 @@ value
 "
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -1292,7 +1292,11 @@ await
 hiddenPromise
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS_FIRST_OPEN
+}
 win
 )
 ;

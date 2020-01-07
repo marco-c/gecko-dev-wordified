@@ -259,7 +259,7 @@ TAB_COUNT_FOR_SQUEEZE
 )
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -315,7 +315,11 @@ await
 switchDone
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 )
 ;
 await

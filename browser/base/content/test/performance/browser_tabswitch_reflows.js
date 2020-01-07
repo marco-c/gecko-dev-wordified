@@ -285,7 +285,7 @@ await
 firstSwitchDone
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -315,7 +315,11 @@ await
 switchDone
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 )
 ;
 BrowserTestUtils

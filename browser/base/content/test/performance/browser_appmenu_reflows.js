@@ -331,7 +331,7 @@ the
 appmenu
 .
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -364,7 +364,11 @@ await
 popupShown
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_APPMENU_OPEN_REFLOWS
+}
 )
 ;
 /
@@ -393,7 +397,7 @@ of
 this
 .
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -715,8 +719,12 @@ await
 hidden
 ;
 }
+{
+expectedReflows
+:
 [
 ]
+}
 )
 ;
 }

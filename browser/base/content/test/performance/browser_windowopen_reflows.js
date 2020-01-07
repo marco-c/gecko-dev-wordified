@@ -496,7 +496,7 @@ OpenBrowserWindow
 )
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -527,7 +527,11 @@ win
 )
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 win
 )
 ;
