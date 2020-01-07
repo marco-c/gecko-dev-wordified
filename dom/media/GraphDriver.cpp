@@ -3656,7 +3656,12 @@ output
 .
 prefs
 =
-CUBEB_STREAM_PREF_NONE
+CubebUtils
+:
+:
+GetDefaultStreamPrefs
+(
+)
 ;
 uint32_t
 latency_frames

@@ -327,6 +327,11 @@ Side
 aSide
 )
 ;
+cubeb_stream_prefs
+GetDefaultStreamPrefs
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID

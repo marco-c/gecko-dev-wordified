@@ -2355,7 +2355,12 @@ params
 .
 prefs
 =
-CUBEB_STREAM_PREF_NONE
+CubebUtils
+:
+:
+GetDefaultStreamPrefs
+(
+)
 ;
 mAudioClock
 .
