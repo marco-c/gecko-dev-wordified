@@ -6215,6 +6215,17 @@ iterResultTemplate_
 =
 nullptr
 }
+if
+(
+!
+group
+-
+>
+unknownProperties
+(
+)
+)
+{
 /
 /
 Update
@@ -6270,6 +6281,7 @@ makeUnknown
 cx
 )
 ;
+}
 }
 /
 /
