@@ -186,7 +186,7 @@ gBrowser
 addEventListener
 (
 "
-DOMUpdatePageReport
+DOMUpdateBlockedPopups
 "
 function
 (

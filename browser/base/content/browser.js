@@ -9898,7 +9898,7 @@ gBrowser
 addEventListener
 (
 "
-DOMUpdatePageReport
+DOMUpdateBlockedPopups
 "
 gPopupBlockerObserver
 )
