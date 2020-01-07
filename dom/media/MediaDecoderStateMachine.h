@@ -1051,6 +1051,11 @@ Normal
 Suspend
 }
 ;
+DDLoggedTypeDeclName
+(
+MediaDecoderStateMachine
+)
+;
 /
 *
 The
@@ -1134,6 +1139,12 @@ details
 /
 class
 MediaDecoderStateMachine
+:
+public
+DecoderDoctorLifeLogger
+<
+MediaDecoderStateMachine
+>
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

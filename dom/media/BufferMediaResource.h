@@ -107,6 +107,12 @@ algorithm
 namespace
 mozilla
 {
+DDLoggedTypeDeclNameAndBase
+(
+BufferMediaResource
+MediaResource
+)
+;
 /
 /
 A
@@ -169,6 +175,11 @@ BufferMediaResource
 :
 public
 MediaResource
+public
+DecoderDoctorLifeLogger
+<
+BufferMediaResource
+>
 {
 public
 :

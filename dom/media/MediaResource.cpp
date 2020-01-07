@@ -401,6 +401,14 @@ mCacheBlockSize
 )
 )
 {
+DDLINKCHILD
+(
+"
+resource
+"
+aResource
+)
+;
 }
 nsresult
 MediaResourceIndex

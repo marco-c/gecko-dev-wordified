@@ -132,6 +132,11 @@ h
 namespace
 mozilla
 {
+DDLoggedTypeDeclName
+(
+MP4Metadata
+)
+;
 /
 /
 The
@@ -289,6 +294,12 @@ mOffset
 ;
 class
 MP4Metadata
+:
+public
+DecoderDoctorLifeLogger
+<
+MP4Metadata
+>
 {
 public
 :

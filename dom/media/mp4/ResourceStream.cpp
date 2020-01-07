@@ -149,6 +149,15 @@ MOZ_ASSERT
 aResource
 )
 ;
+DDLINKCHILD
+(
+"
+resource
+"
+&
+mResource
+)
+;
 }
 ResourceStream
 :

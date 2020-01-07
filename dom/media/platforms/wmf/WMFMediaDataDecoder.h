@@ -504,6 +504,12 @@ mSeekTargetThreshold
 ;
 }
 ;
+DDLoggedTypeDeclNameAndBase
+(
+WMFMediaDataDecoder
+MediaDataDecoder
+)
+;
 /
 /
 Decodes
@@ -576,6 +582,11 @@ WMFMediaDataDecoder
 :
 public
 MediaDataDecoder
+public
+DecoderDoctorLifeLogger
+<
+WMFMediaDataDecoder
+>
 {
 public
 :

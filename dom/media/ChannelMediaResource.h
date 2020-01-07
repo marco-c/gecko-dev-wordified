@@ -328,6 +328,12 @@ false
 ;
 }
 ;
+DDLoggedTypeDeclNameAndBase
+(
+ChannelMediaResource
+BaseMediaResource
+)
+;
 /
 *
 *
@@ -389,6 +395,11 @@ ChannelMediaResource
 :
 public
 BaseMediaResource
+public
+DecoderDoctorLifeLogger
+<
+ChannelMediaResource
+>
 {
 public
 :

@@ -199,6 +199,12 @@ SourceBuffer
 /
 namespace
 dom
+DDLoggedTypeDeclNameAndBase
+(
+SourceBufferResource
+MediaResource
+)
+;
 /
 /
 SourceBufferResource
@@ -213,6 +219,11 @@ final
 :
 public
 MediaResource
+public
+DecoderDoctorLifeLogger
+<
+SourceBufferResource
+>
 {
 public
 :

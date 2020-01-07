@@ -1303,6 +1303,14 @@ mMediaSource
 =
 aMediaSource
 ;
+DDLINKCHILD
+(
+"
+mediasource
+"
+aMediaSource
+)
+;
 }
 void
 MediaSourceDecoder
@@ -1320,6 +1328,11 @@ mMediaSource
 NS_IsMainThread
 (
 )
+)
+;
+DDUNLINKCHILD
+(
+mMediaSource
 )
 ;
 mMediaSource

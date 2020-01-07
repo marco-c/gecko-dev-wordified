@@ -303,6 +303,14 @@ T
 class
 AsyncEventRunner
 ;
+DDLoggedTypeName
+(
+dom
+:
+:
+SourceBuffer
+)
+;
 namespace
 dom
 {
@@ -315,6 +323,11 @@ final
 :
 public
 DOMEventTargetHelper
+public
+DecoderDoctorLifeLogger
+<
+SourceBuffer
+>
 {
 public
 :

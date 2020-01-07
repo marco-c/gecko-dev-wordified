@@ -140,6 +140,12 @@ mozilla
 class
 DecoderDoctorDiagnostics
 ;
+DDLoggedTypeDeclNameAndBase
+(
+H264Converter
+MediaDataDecoder
+)
+;
 /
 /
 H264Converter
@@ -228,6 +234,11 @@ H264Converter
 :
 public
 MediaDataDecoder
+public
+DecoderDoctorLifeLogger
+<
+H264Converter
+>
 {
 public
 :

@@ -185,6 +185,12 @@ aSample
 ;
 }
 ;
+DDLoggedTypeDeclNameAndBase
+(
+DummyMediaDataDecoder
+MediaDataDecoder
+)
+;
 /
 /
 Decoder
@@ -211,6 +217,11 @@ DummyMediaDataDecoder
 :
 public
 MediaDataDecoder
+public
+DecoderDoctorLifeLogger
+<
+DummyMediaDataDecoder
+>
 {
 public
 :

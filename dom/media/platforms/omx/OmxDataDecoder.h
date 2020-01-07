@@ -230,6 +230,12 @@ OmxPromiseLayer
 BUFFERLIST
 BUFFERLIST
 ;
+DDLoggedTypeDeclNameAndBase
+(
+OmxDataDecoder
+MediaDataDecoder
+)
+;
 /
 *
 OmxDataDecoder
@@ -423,6 +429,11 @@ OmxDataDecoder
 :
 public
 MediaDataDecoder
+public
+DecoderDoctorLifeLogger
+<
+OmxDataDecoder
+>
 {
 protected
 :
