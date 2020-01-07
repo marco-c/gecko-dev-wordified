@@ -129,6 +129,15 @@ ServiceWorkerScriptCache
 h
 "
 BEGIN_WORKERS_NAMESPACE
+using
+mozilla
+:
+:
+ipc
+:
+:
+PrincipalInfo
+;
 static_assert
 (
 nsIServiceWorkerInfo

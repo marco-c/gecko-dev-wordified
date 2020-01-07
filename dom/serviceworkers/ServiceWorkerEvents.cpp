@@ -279,6 +279,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -462,6 +471,10 @@ xpcpublic
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla

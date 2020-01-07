@@ -166,6 +166,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+workers
+/
 ServiceWorkerManager
 .
 h

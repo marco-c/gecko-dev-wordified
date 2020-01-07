@@ -959,6 +959,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 ServiceWorkerEvents
 .
 h
@@ -966,6 +970,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+workers
+/
 ServiceWorkerManager
 .
 h
