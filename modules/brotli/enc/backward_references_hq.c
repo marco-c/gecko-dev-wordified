@@ -391,7 +391,7 @@ self
 >
 distance
 &
-0x1ffffff
+0x7ffffff
 ;
 }
 static
@@ -415,7 +415,7 @@ self
 distance
 >
 >
-25
+27
 ;
 return
 short_code
@@ -1506,7 +1506,7 @@ dist
 short_code
 <
 <
-25
+27
 )
 )
 ;
@@ -4391,7 +4391,13 @@ queue
 BackwardMatch
 matches
 [
+2
+*
+(
 MAX_NUM_MATCHES_H10
++
+64
+)
 ]
 ;
 const
@@ -4422,6 +4428,11 @@ i
 ;
 size_t
 gap
+=
+0
+;
+size_t
+lz_matches_offset
 =
 0
 ;
@@ -4534,7 +4545,11 @@ i
 max_distance
 gap
 params
+&
 matches
+[
+lz_matches_offset
+]
 )
 ;
 size_t
@@ -5026,6 +5041,11 @@ gap
 =
 0
 ;
+size_t
+shadow_matches
+=
+0
+;
 if
 (
 BROTLI_IS_OOM
@@ -5111,6 +5131,8 @@ matches_size
 cur_match_pos
 +
 MAX_NUM_MATCHES_H10
++
+shadow_matches
 )
 ;
 if
@@ -5139,6 +5161,8 @@ params
 matches
 [
 cur_match_pos
++
+shadow_matches
 ]
 )
 ;

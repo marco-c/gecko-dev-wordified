@@ -184,7 +184,6 @@ addressed
 .
 *
 /
-const
 uint8_t
 size_bits_by_length
 [
@@ -229,7 +228,6 @@ i
 )
 *
 /
-const
 uint32_t
 offsets_by_length
 [
@@ -250,7 +248,6 @@ offsets_by_length
 )
 *
 /
-const
 size_t
 data_size
 ;
