@@ -468,9 +468,6 @@ internalName
 updateURL
 "
 "
-updateKey
-"
-"
 optionsURL
 "
 "

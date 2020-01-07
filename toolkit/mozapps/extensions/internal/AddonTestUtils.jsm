@@ -5439,9 +5439,6 @@ internalName
 updateURL
 "
 "
-updateKey
-"
-"
 optionsURL
 "
 "
