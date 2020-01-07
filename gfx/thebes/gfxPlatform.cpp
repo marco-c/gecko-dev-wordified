@@ -15371,14 +15371,6 @@ FEATURE_FAILURE_COMP_SAFEMODE
 else
 if
 (
-gfxPlatform
-:
-:
-UsesTiling
-(
-)
-&
-&
 gfxPrefs
 :
 :
