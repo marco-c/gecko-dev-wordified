@@ -1379,6 +1379,16 @@ SRICheckDataVerifier
 aSRIDataVerifier
 )
 ;
+void
+HandleLoadError
+(
+ScriptLoadRequest
+*
+aRequest
+nsresult
+aResult
+)
+;
 /
 *
 *
