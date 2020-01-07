@@ -7184,7 +7184,7 @@ JSOP_BITOR
 {
 masm
 .
-orPtr
+or32
 (
 rhsReg
 lhsReg
@@ -7213,7 +7213,7 @@ JSOP_BITXOR
 {
 masm
 .
-xorPtr
+xor32
 (
 rhsReg
 lhsReg
@@ -7242,7 +7242,7 @@ JSOP_BITAND
 {
 masm
 .
-andPtr
+and32
 (
 rhsReg
 lhsReg
@@ -7565,7 +7565,7 @@ DontCheckOther
 ;
 masm
 .
-storeCallWordResult
+storeCallInt32Result
 (
 scratchReg
 )
@@ -7615,7 +7615,7 @@ JSOP_BITOR
 :
 masm
 .
-orPtr
+or32
 (
 intReg
 intReg2
@@ -7628,7 +7628,7 @@ JSOP_BITXOR
 :
 masm
 .
-xorPtr
+xor32
 (
 intReg
 intReg2
@@ -7641,7 +7641,7 @@ JSOP_BITAND
 :
 masm
 .
-andPtr
+and32
 (
 intReg
 intReg2
@@ -8470,7 +8470,7 @@ DontCheckOther
 ;
 masm
 .
-storeCallWordResult
+storeCallInt32Result
 (
 scratchReg
 )

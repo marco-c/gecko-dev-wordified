@@ -13960,7 +13960,7 @@ dest
 ;
 }
 void
-storeCallWordResult
+storeCallPointerResult
 (
 Register
 reg
@@ -13983,6 +13983,14 @@ reg
 inline
 void
 storeCallBoolResult
+(
+Register
+reg
+)
+;
+inline
+void
+storeCallInt32Result
 (
 Register
 reg

@@ -415,7 +415,7 @@ reset
 )
 ;
 }
-int
+bool
 irregexp
 :
 :

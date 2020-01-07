@@ -14220,7 +14220,7 @@ DontCheckOther
 )
 ;
 }
-storeCallWordResult
+storeCallInt32Result
 (
 dest
 )

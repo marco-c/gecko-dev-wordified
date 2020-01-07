@@ -11537,7 +11537,7 @@ AllocateString
 ;
 masm
 .
-storeCallWordResult
+storeCallPointerResult
 (
 string_
 )
@@ -11794,7 +11794,7 @@ CreateMatchResultFallbackFunc
 ;
 masm
 .
-storeCallWordResult
+storeCallPointerResult
 (
 object
 )
@@ -55802,7 +55802,7 @@ MallocWrapper
 ;
 masm
 .
-storeCallWordResult
+storeCallPointerResult
 (
 regReturn
 )
@@ -66760,7 +66760,7 @@ if
 saveAndRestore
 )
 {
-storeResultTo
+storePointerResultTo
 (
 resultreg
 )
@@ -75763,13 +75763,16 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
+jit
+:
+:
 TypeOfObject
 )
 )
 ;
 masm
 .
-storeCallWordResult
+storeCallPointerResult
 (
 output
 )
