@@ -15678,9 +15678,6 @@ mFillRule
 aFillRule
 ;
 }
-mozilla
-:
-:
 Position
 &
 GetPosition
@@ -15718,9 +15715,6 @@ mPosition
 ;
 }
 const
-mozilla
-:
-:
 Position
 &
 GetPosition
@@ -16037,9 +16031,6 @@ for
 ellipse
 or
 circle
-mozilla
-:
-:
 Position
 mPosition
 ;
