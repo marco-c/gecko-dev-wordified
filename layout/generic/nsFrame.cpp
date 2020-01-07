@@ -6263,6 +6263,12 @@ AreRetainedDisplayListsEnabled
 IsFrameModified
 (
 )
+|
+|
+HasAnyStateBits
+(
+NS_FRAME_IN_POPUP
+)
 )
 {
 /
