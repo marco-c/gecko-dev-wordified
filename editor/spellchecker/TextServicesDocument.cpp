@@ -6242,7 +6242,7 @@ rv
 textEditor
 -
 >
-InsertText
+InsertTextAsAction
 (
 *
 aText
