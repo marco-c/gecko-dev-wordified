@@ -7079,6 +7079,12 @@ mMessage
 eLoadError
 ;
 }
+bool
+IsUserAction
+(
+)
+const
+;
 }
 ;
 /
