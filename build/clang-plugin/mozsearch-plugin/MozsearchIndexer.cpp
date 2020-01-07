@@ -3870,7 +3870,7 @@ D
 ;
 }
 bool
-TraverseCxxRecordDecl
+TraverseCXXRecordDecl
 (
 CXXRecordDecl
 *
@@ -4021,7 +4021,7 @@ D
 ;
 }
 bool
-TraverseCxxMethodDecl
+TraverseCXXMethodDecl
 (
 CXXMethodDecl
 *
@@ -4092,7 +4092,7 @@ D
 ;
 }
 bool
-TraverseCxxConstructorDecl
+TraverseCXXConstructorDecl
 (
 CXXConstructorDecl
 *
@@ -4163,7 +4163,7 @@ D
 ;
 }
 bool
-TraverseCxxConversionDecl
+TraverseCXXConversionDecl
 (
 CXXConversionDecl
 *
@@ -4234,7 +4234,7 @@ D
 ;
 }
 bool
-TraverseCxxDestructorDecl
+TraverseCXXDestructorDecl
 (
 CXXDestructorDecl
 *
@@ -8308,7 +8308,7 @@ true
 ;
 }
 bool
-VisitCxxConstructExpr
+VisitCXXConstructExpr
 (
 CXXConstructExpr
 *
@@ -9384,7 +9384,7 @@ true
 ;
 }
 bool
-VisitCxxConstructorDecl
+VisitCXXConstructorDecl
 (
 CXXConstructorDecl
 *
@@ -9647,7 +9647,7 @@ true
 ;
 }
 bool
-VisitCxxDependentScopeMemberExpr
+VisitCXXDependentScopeMemberExpr
 (
 CXXDependentScopeMemberExpr
 *
