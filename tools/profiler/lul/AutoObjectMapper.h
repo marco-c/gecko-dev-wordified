@@ -820,6 +820,7 @@ AutoObjectMapperPOSIX
 {
 public
 :
+explicit
 AutoObjectMapperFaultyLib
 (
 void

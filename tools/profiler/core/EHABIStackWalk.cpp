@@ -699,6 +699,7 @@ i
 ]
 ;
 }
+explicit
 EHState
 (
 const
