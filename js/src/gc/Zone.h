@@ -1932,7 +1932,7 @@ address
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -2124,7 +2124,7 @@ zone
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 mozilla
 :
@@ -2253,7 +2253,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 GrayRootVector
 >
@@ -2328,7 +2328,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 WeakEdges
 >
@@ -2369,7 +2369,7 @@ beginSweepingSweepGroup
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 mozilla
 :
@@ -2464,7 +2464,7 @@ map
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -3198,7 +3198,7 @@ zone
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -3225,7 +3225,7 @@ GC
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -3249,7 +3249,7 @@ GC
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -3275,7 +3275,7 @@ GC
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :

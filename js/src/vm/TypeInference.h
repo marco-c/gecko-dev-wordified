@@ -8421,7 +8421,7 @@ generation
 for
 sweeping
 .
-ZoneGroupOrGCTaskOrIonCompileData
+ZoneOrGCTaskOrIonCompileData
 <
 uint32_t
 >

@@ -4898,7 +4898,6 @@ global
 '
 s
 zone
-group
 as
 created
 for
@@ -4907,10 +4906,10 @@ helper
 thread
 .
 This
-/
-/
 prevents
 it
+/
+/
 from
 being
 collected
@@ -4919,10 +4918,10 @@ clearUsedByHelperThread
 (
 )
 is
-/
-/
 called
 after
+/
+/
 parsing
 is
 complete
@@ -4934,11 +4933,11 @@ exits
 due
 to
 error
-/
-/
 this
 state
 is
+/
+/
 cleared
 automatically
 .
