@@ -3095,6 +3095,11 @@ mIsEmpty
 1
 ;
 bool
+mIsPlaceholder
+:
+1
+;
+bool
 mIsLinkedToBase
 :
 1
