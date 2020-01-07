@@ -53,6 +53,12 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+from
+.
 import
 errors
 DEFAULT_SCRIPT_TIMEOUT

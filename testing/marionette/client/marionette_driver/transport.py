@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 json
 import
@@ -61,6 +65,10 @@ import
 sys
 import
 time
+from
+six
+import
+reraise
 class
 SocketTimeout
 (
@@ -1359,7 +1367,8 @@ exc_info
 (
 )
             
-raise
+reraise
+(
 exc
 msg
 .
@@ -1368,6 +1377,7 @@ format
 val
 )
 tb
+)
         
 hello
 =

@@ -52,6 +52,10 @@ MPL
 .
 0
 /
+from
+__future__
+import
+absolute_import
 import
 os
 import
@@ -81,6 +85,10 @@ mozrunner
 import
 Runner
 FennecEmulatorRunner
+from
+six
+import
+reraise
 class
 GeckoInstance
 (
@@ -1748,7 +1756,8 @@ of
 )
 '
             
-raise
+reraise
+(
 NotImplementedError
 msg
 .
@@ -1762,6 +1771,7 @@ keys
 )
 )
 tb
+)
         
 return
 instance_class
@@ -2736,7 +2746,8 @@ args
 }
 "
             
-raise
+reraise
+(
 exc
 message
 .
@@ -2747,6 +2758,7 @@ e
 message
 )
 tb
+)
         
 #
 gecko_log

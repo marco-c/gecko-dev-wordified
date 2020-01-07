@@ -54,6 +54,11 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+from
+.
 decorators
 import
 use_class_as_property

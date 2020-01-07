@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+print_function
 unicode_literals
 import
 argparse
@@ -445,11 +446,6 @@ kwargs
 :
         
 print
->
->
-sys
-.
-stderr
 (
 "
 warning
@@ -464,7 +460,7 @@ is
 deprecated
 ;
 "
-                             
+              
 "
 please
 use
@@ -474,6 +470,11 @@ mach
 marionette
 test
 "
+file
+=
+sys
+.
+stderr
 )
         
 if
@@ -1062,6 +1063,7 @@ handler
 )
             
 print
+(
 "
 serving
 at
@@ -1075,6 +1077,7 @@ s
 (
 host
 port
+)
 )
             
 os
