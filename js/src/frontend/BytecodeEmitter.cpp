@@ -22095,6 +22095,10 @@ errorNumber
 ;
 parser
 .
+errorReporter
+(
+)
+.
 errorAtVA
 (
 offset
@@ -22165,6 +22169,10 @@ bool
 result
 =
 parser
+.
+errorReporter
+(
+)
 .
 reportExtraWarningErrorNumberVA
 (
