@@ -4351,7 +4351,6 @@ SheetType
 :
 Doc
 ]
-*
 aSheet
 )
 ;

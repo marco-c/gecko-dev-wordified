@@ -956,7 +956,7 @@ sheets
 .
 for
 (
-size_t
+int32_t
 i
 =
 0
@@ -966,7 +966,7 @@ i
 document
 -
 >
-SheetCount
+GetNumberOfStyleSheets
 (
 )
 ;
@@ -982,7 +982,7 @@ AppendElement
 document
 -
 >
-SheetAt
+GetStyleSheetAt
 (
 i
 )
