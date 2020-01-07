@@ -5071,7 +5071,7 @@ document
 *
 (
 if
-GetCurrentDoc
+GetComposedDoc
 returns
 nullptr
 )
