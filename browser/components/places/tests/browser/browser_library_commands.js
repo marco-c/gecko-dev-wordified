@@ -237,7 +237,9 @@ History
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -277,6 +279,8 @@ left
 pane
 folder
 .
+Assert
+.
 ok
 (
 PO
@@ -299,6 +303,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -322,6 +328,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -382,7 +390,9 @@ Today
 "
 container
 .
-is
+Assert
+.
+equal
 (
 historyNode
 .
@@ -425,7 +435,9 @@ is
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 todayNode
 .
@@ -458,7 +470,9 @@ selectNode
 todayNode
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -497,6 +511,8 @@ an
 history
 item
 .
+Assert
+.
 ok
 (
 PO
@@ -519,6 +535,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -542,6 +560,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -628,7 +648,9 @@ History
 "
 query
 .
-is
+Assert
+.
+equal
 (
 historyNode
 .
@@ -650,6 +672,8 @@ containerOpen
 =
 false
 ;
+Assert
+.
 ok
 (
 !
@@ -740,7 +764,9 @@ BookmarksToolbar
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -757,7 +783,9 @@ selection
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -809,6 +837,8 @@ Bookmarks
 special
 query
 .
+Assert
+.
 ok
 (
 PO
@@ -831,6 +861,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -854,6 +886,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -966,6 +1000,8 @@ just
 inserted
 query
 .
+Assert
+.
 ok
 (
 toolbarNode
@@ -991,7 +1027,9 @@ getChild
 0
 )
 ;
-is
+Assert
+.
+equal
 (
 queryNode
 .
@@ -1023,7 +1061,9 @@ selectNode
 queryNode
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -1052,6 +1092,8 @@ commands
 are
 enabled
 .
+Assert
+.
 ok
 (
 PO
@@ -1074,6 +1116,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1096,6 +1140,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1176,7 +1222,9 @@ cmd_delete
 await
 promiseItemRemoved
 ;
-is
+Assert
+.
+equal
 (
 (
 await
@@ -1324,7 +1372,9 @@ BookmarksToolbar
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -1341,7 +1391,9 @@ selection
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -1412,7 +1464,9 @@ view
 .
 selectedNode
 ;
-is
+Assert
+.
+equal
 (
 bookmarkNode
 .
@@ -1447,6 +1501,8 @@ commands
 are
 enabled
 .
+Assert
+.
 ok
 (
 library
@@ -1471,6 +1527,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1495,6 +1553,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1671,7 +1731,9 @@ _places
 .
 selectedNode
 ;
-isnot
+Assert
+.
+notEqual
 (
 tagsNode
 null
@@ -1696,7 +1758,9 @@ TagsFolderTitle
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 tagsNode
 .
@@ -1723,6 +1787,8 @@ commands
 are
 disabled
 .
+Assert
+.
 ok
 (
 PO
@@ -1745,6 +1811,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1768,6 +1836,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1828,7 +1898,9 @@ selectNode
 tag
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -1863,6 +1935,8 @@ delete
 is
 enabled
 .
+Assert
+.
 ok
 (
 PO
@@ -1885,6 +1959,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1908,6 +1984,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1941,7 +2019,9 @@ view
 .
 selectedNode
 ;
-is
+Assert
+.
+equal
 (
 bookmarkNode
 .
@@ -1976,6 +2056,8 @@ commands
 are
 enabled
 .
+Assert
+.
 ok
 (
 library
@@ -2000,6 +2082,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2025,6 +2109,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
