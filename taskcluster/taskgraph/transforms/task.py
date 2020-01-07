@@ -14255,6 +14255,20 @@ volumes
 %
 s
 '
+                    
+'
+Have
+you
+added
+them
+as
+VOLUMEs
+in
+the
+Dockerfile
+?
+'
+                    
 %
 (
 task
@@ -14263,7 +14277,6 @@ task
 label
 '
 ]
-                                            
 task
 [
 '
@@ -14277,7 +14290,7 @@ docker
 image
 '
 ]
-                                            
+                       
 '
 '
 .
