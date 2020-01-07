@@ -727,6 +727,12 @@ DocumentOrShadowRoot
 :
 GetElementById
 ;
+Element
+*
+GetActiveElement
+(
+)
+;
 void
 GetInnerHTML
 (
