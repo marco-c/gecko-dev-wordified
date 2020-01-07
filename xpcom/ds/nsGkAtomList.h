@@ -648,13 +648,6 @@ active
 )
 GK_ATOM
 (
-activetitlebarcolor
-"
-activetitlebarcolor
-"
-)
-GK_ATOM
-(
 activateontab
 "
 activateontab
@@ -4457,13 +4450,6 @@ GK_ATOM
 import
 "
 import
-"
-)
-GK_ATOM
-(
-inactivetitlebarcolor
-"
-inactivetitlebarcolor
 "
 )
 GK_ATOM
