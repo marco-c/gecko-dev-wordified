@@ -2227,14 +2227,6 @@ sInstance
 =
 nullptr
 ;
-bool
-EventStateManager
-:
-:
-sIsInputEventsSuppressed
-=
-false
-;
 EventStateManager
 :
 :
