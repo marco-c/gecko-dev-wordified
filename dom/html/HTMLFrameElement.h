@@ -542,8 +542,6 @@ GetSrc
 nsString
 &
 aSrc
-nsIPrincipal
-&
 )
 {
 GetURIAttr

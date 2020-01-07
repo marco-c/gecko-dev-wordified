@@ -258,7 +258,7 @@ EmptyString
 "
                          
 "
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 "
 ]
         

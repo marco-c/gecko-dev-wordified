@@ -3979,8 +3979,6 @@ GetSrc
 nsAString
 &
 aValue
-nsIPrincipal
-&
 )
 {
 GetURIAttr

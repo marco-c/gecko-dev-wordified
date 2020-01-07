@@ -753,9 +753,6 @@ GetCssText
 nsString
 &
 aString
-nsIPrincipal
-&
-aSubjectPrincipal
 )
 {
 /

@@ -2445,9 +2445,6 @@ const
 nsAString
 &
 aHref
-nsIPrincipal
-&
-aSubjectPrincipal
 ErrorResult
 &
 aRv
