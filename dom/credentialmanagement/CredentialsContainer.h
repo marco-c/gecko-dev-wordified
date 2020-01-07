@@ -240,6 +240,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+Promise
+>
+PreventSilentAccess
+(
+ErrorResult
+&
+aRv
+)
+;
 private
 :
 ~
