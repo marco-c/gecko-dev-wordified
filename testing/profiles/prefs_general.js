@@ -4465,9 +4465,13 @@ network
 user_pref
 (
 "
-app
+extensions
 .
-normandy
+shield
+-
+recipe
+-
+client
 .
 api_url
 "
