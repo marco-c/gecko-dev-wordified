@@ -434,6 +434,7 @@ expected
 let
 install
 =
+await
 getAddonInstall
 (
 "
@@ -540,6 +541,7 @@ _refreshReconcilerState
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -627,6 +629,7 @@ null
 dupe
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -844,6 +847,7 @@ populated
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -967,6 +971,7 @@ addon
 .
 syncGUID
 ;
+await
 uninstallAddon
 (
 addon
