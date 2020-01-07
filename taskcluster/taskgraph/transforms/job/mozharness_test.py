@@ -1518,18 +1518,13 @@ actions
 )
     
 if
-'
-try
-'
-in
 config
 .
 params
-[
-'
-project
-'
-]
+.
+is_try
+(
+)
 :
         
 env
@@ -3337,18 +3332,13 @@ i
 suffix
     
 if
-'
-try
-'
-in
 config
 .
 params
-[
-'
-project
-'
-]
+.
+is_try
+(
+)
 :
         
 env
