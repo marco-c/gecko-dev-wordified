@@ -2158,6 +2158,16 @@ sync
 -
 status
 "
+onmouseover
+=
+"
+gSync
+.
+refreshSyncButtonsTooltip
+(
+)
+;
+"
 /
 >
 <

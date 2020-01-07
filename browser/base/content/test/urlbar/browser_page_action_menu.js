@@ -2497,9 +2497,13 @@ gSync
 .
 formatLastSyncDate
 (
+new
+Date
+(
 lastModifiedFixture
 *
 1000
+)
 )
 }
 }
