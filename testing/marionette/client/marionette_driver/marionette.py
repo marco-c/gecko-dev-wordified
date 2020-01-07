@@ -7684,7 +7684,7 @@ removed
 and
         
 "
-eAttemptQuit
+eForceQuit
 "
 is
 added
@@ -7756,7 +7756,7 @@ are
 removed
 and
 "
-eAttemptQuit
+eForceQuit
 "
 is
 added
@@ -7852,7 +7852,7 @@ shutdown_flags
         
 #
 add
-eAttemptQuit
+eForceQuit
 if
 there
 are
@@ -7887,7 +7887,7 @@ set
 (
 (
 "
-eAttemptQuit
+eForceQuit
 "
 )
 )
