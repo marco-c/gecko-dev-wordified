@@ -1692,9 +1692,6 @@ CFStringEncoding
 isExternalRepresentation
 :
 Boolean
-contentsDeallocator
-:
-CFAllocatorRef
 )
 -
 >

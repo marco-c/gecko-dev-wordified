@@ -220,6 +220,12 @@ CFDataRef
 CFDataGetTypeID
 )
 ;
+impl_CFTypeDescription
+!
+(
+CFData
+)
+;
 impl
 CFData
 {

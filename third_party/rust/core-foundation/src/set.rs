@@ -212,6 +212,12 @@ CFSetRef
 CFSetGetTypeID
 )
 ;
+impl_CFTypeDescription
+!
+(
+CFSet
+)
+;
 impl
 CFSet
 {
