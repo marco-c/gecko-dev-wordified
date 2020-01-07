@@ -278,10 +278,6 @@ fullScreen
 )
 {
 return
-Promise
-.
-reject
-(
 "
 The
 bookmark
@@ -295,7 +291,6 @@ in
 fullscreen
 .
 "
-)
 ;
 }
 return

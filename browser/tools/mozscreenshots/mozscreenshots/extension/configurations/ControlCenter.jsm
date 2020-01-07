@@ -565,10 +565,9 @@ verifyConfig
 )
 {
 return
-Promise
-.
-reject
-(
+{
+todo
+:
 "
 Bug
 1373563
@@ -578,7 +577,7 @@ controlCenter_localFile
 on
 Taskcluster
 "
-)
+}
 ;
 }
 }
