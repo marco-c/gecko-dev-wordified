@@ -573,6 +573,7 @@ ARIAGridAccessible
 ColCount
 (
 )
+const
 {
 AccIterator
 rowIter

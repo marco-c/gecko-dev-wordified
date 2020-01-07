@@ -366,6 +366,7 @@ uint32_t
 ColCount
 (
 )
+const
 override
 ;
 virtual
@@ -611,6 +612,7 @@ bool
 IsMulticolumn
 (
 )
+const
 {
 return
 ColCount
