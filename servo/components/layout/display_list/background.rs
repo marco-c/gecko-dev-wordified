@@ -103,7 +103,7 @@ use
 display_list
 :
 :
-ToGfxColor
+ToLayout
 ;
 use
 euclid
@@ -2795,7 +2795,7 @@ stop
 .
 color
 .
-to_gfx_color
+to_layout
 (
 )
 }
