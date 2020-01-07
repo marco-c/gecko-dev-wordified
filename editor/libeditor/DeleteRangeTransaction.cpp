@@ -217,14 +217,6 @@ using
 namespace
 dom
 ;
-/
-/
-note
-that
-aEditorBase
-is
-not
-refcounted
 DeleteRangeTransaction
 :
 :
@@ -236,9 +228,6 @@ aEditorBase
 nsRange
 &
 aRangeToDelete
-RangeUpdater
-*
-aRangeUpdater
 )
 :
 mEditorBase
@@ -253,10 +242,6 @@ aRangeToDelete
 CloneRange
 (
 )
-)
-mRangeUpdater
-(
-aRangeUpdater
 )
 {
 }
