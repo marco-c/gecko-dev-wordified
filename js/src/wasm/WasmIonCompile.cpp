@@ -5263,6 +5263,8 @@ isAtomic
 &
 &
 !
+env_
+.
 isAsmJS
 (
 )
