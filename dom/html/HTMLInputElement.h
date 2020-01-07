@@ -1666,7 +1666,7 @@ aSetValueChanged
 void
 SetFiles
 (
-nsIDOMFileList
+FileList
 *
 aFiles
 bool

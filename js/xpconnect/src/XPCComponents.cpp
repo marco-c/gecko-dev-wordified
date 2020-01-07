@@ -345,13 +345,6 @@ h
 #
 include
 "
-nsIDOMFileList
-.
-h
-"
-#
-include
-"
 nsWindowMemoryReporter
 .
 h
