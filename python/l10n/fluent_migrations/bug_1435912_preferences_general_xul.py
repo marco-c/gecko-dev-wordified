@@ -4375,7 +4375,7 @@ callee
 =
 FTL
 .
-Identifier
+Function
 (
 '
 PLATFORM
@@ -4544,7 +4544,7 @@ callee
 =
 FTL
 .
-Identifier
+Function
 (
 '
 PLATFORM
