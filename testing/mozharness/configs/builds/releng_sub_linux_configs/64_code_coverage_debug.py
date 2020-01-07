@@ -218,6 +218,8 @@ mozconfig_variant
 code
 -
 coverage
+-
+debug
 '
     
 #
