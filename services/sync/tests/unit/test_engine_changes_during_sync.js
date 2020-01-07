@@ -1505,7 +1505,7 @@ payloads
 =
 collection
 .
-cleartextPayloads
+payloads
 (
 )
 ;
@@ -1587,7 +1587,7 @@ payloads
 =
 collection
 .
-cleartextPayloads
+payloads
 (
 )
 ;

@@ -1779,7 +1779,7 @@ payload
 =
 collection
 .
-cleartextPayloads
+payloads
 (
 )
 [
