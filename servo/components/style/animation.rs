@@ -2182,10 +2182,6 @@ longhands
 (
 )
 .
-iter
-(
-)
-.
 filter_map
 (
 |
@@ -2197,7 +2193,6 @@ PropertyAnimation
 :
 from_longhand
 (
-&
 longhand
 timing_function
 duration
@@ -2216,7 +2211,6 @@ TransitionProperty
 :
 Longhand
 (
-ref
 longhand_id
 )
 =
@@ -2263,7 +2257,6 @@ from_longhand
 (
 longhand
 :
-&
 LonghandId
 timing_function
 :
@@ -5222,7 +5215,6 @@ PropertyAnimation
 :
 from_longhand
 (
-&
 property
 timing_function
 Time

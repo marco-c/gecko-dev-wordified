@@ -6833,7 +6833,6 @@ AnimationValue
 :
 from_computed_values
 (
-&
 property
 &
 computed_values

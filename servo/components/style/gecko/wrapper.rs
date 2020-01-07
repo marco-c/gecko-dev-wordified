@@ -5628,7 +5628,6 @@ needs_transitions_update_per_property
 self
 longhand_id
 :
-&
 LonghandId
 combined_duration
 :
@@ -5736,6 +5735,7 @@ existing_transitions
 .
 get
 (
+&
 longhand_id
 )
 {
@@ -5772,7 +5772,6 @@ AnimationValue
 :
 from_computed_values
 (
-&
 longhand_id
 before_change_style
 )
@@ -5785,7 +5784,6 @@ AnimationValue
 :
 from_computed_values
 (
-&
 longhand_id
 after_change_style
 )
@@ -10575,7 +10573,6 @@ property_check_helper
 |
 property
 :
-&
 LonghandId
 |
 -
@@ -10586,7 +10583,6 @@ transitions_to_keep
 .
 insert
 (
-*
 property
 )
 ;
@@ -10636,10 +10632,6 @@ longhands
 (
 )
 .
-iter
-(
-)
-.
 any
 (
 property_check_helper
@@ -10655,7 +10647,6 @@ TransitionProperty
 :
 Longhand
 (
-ref
 longhand_id
 )
 =

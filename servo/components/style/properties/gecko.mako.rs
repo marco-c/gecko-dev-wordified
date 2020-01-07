@@ -29029,7 +29029,6 @@ will_change_bitfield_from_prop_flags
 (
 prop
 :
-&
 LonghandId
 )
 -
@@ -29374,7 +29373,6 @@ mWillChangeBitField
 =
 will_change_bitfield_from_prop_flags
 (
-&
 longhand
 )
 ;
