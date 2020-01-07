@@ -3246,6 +3246,23 @@ config
     
 elif
 is_nightly
+or
+build_platform
+in
+(
+'
+linux64
+-
+source
+'
+'
+linux64
+-
+fennec
+-
+source
+'
+)
 :
         
 return
