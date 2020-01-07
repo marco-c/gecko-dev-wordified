@@ -288,13 +288,6 @@ let
 win
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMEventTarget
-)
 ;
 switch
 (
