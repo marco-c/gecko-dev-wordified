@@ -931,7 +931,7 @@ eHTMLTableType
 {
 return
 new
-ARIAGridAccessible
+ARIAGridAccessibleWrap
 (
 aElement
 aContext
@@ -1079,7 +1079,7 @@ IsHTMLTableRow
 {
 return
 new
-ARIAGridCellAccessible
+ARIAGridCellAccessibleWrap
 (
 aElement
 aContext
@@ -1184,7 +1184,7 @@ IsHTMLTableRow
 {
 return
 new
-ARIAGridCellAccessible
+ARIAGridCellAccessibleWrap
 (
 aElement
 aContext
