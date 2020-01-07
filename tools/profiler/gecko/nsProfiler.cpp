@@ -2648,7 +2648,12 @@ aCurrentPosition
 info
 -
 >
-mWritePosition
+mRangeEnd
+%
+info
+-
+>
+mEntryCount
 ;
 *
 aTotalSize
@@ -2664,7 +2669,12 @@ aGeneration
 info
 -
 >
-mGeneration
+mRangeEnd
+/
+info
+-
+>
+mEntryCount
 ;
 }
 else
