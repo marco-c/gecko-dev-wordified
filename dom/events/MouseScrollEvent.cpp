@@ -130,6 +130,17 @@ include
 "
 mozilla
 /
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -228,7 +239,7 @@ mEvent
 >
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

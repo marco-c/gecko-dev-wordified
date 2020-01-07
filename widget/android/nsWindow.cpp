@@ -216,6 +216,17 @@ include
 "
 mozilla
 /
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -3555,7 +3566,7 @@ input
 (
 mouseType
 buttonType
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -11180,7 +11191,7 @@ hittest
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

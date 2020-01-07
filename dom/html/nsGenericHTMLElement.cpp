@@ -758,6 +758,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TouchEvent
 .
 h
@@ -14885,7 +14896,7 @@ event
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -15504,7 +15515,7 @@ event
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_KEYBOARD

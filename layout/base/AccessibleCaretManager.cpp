@@ -169,6 +169,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NodeFilterBinding
 .
 h
@@ -1246,7 +1257,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1294,7 +1305,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -3982,7 +3993,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE

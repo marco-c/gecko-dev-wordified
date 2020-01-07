@@ -724,6 +724,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MutationEventBinding
 .
 h
@@ -4002,7 +4013,7 @@ elm
 >
 ClickWithInputSource
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -9022,7 +9033,7 @@ mDOMEvent
 uint16_t
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -10880,7 +10891,7 @@ aCallerType
 {
 ClickWithInputSource
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

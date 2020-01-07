@@ -300,6 +300,17 @@ MouseEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
 /
 /
 for
@@ -1371,7 +1382,7 @@ isTouch
 inputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

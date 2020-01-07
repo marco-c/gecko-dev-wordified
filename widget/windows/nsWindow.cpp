@@ -1063,6 +1063,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Touch
 .
 h
@@ -30269,7 +30280,7 @@ hittest
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -30882,7 +30893,7 @@ found
 .
 if
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_PEN
@@ -38306,7 +38317,7 @@ WidgetMouseEvent
 :
 :
 eLeftButton
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_PEN
@@ -38391,7 +38402,7 @@ MOUSE_INPUT_SOURCE
 )
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -46445,7 +46456,7 @@ wheelEvent
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -46626,7 +46637,7 @@ event
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -52921,7 +52932,7 @@ MOUSE_INPUT_SOURCE
 )
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -56415,7 +56426,7 @@ aWParam
 newLParam
 false
 button
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_PEN

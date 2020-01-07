@@ -107,6 +107,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Touch
 .
 h
@@ -1423,7 +1434,7 @@ event
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

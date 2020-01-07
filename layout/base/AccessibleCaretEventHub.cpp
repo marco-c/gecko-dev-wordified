@@ -197,6 +197,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
 nsCanvasFrame
 .
 h
@@ -3217,7 +3228,7 @@ mManager
 >
 SetLastInputSource
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -3465,7 +3476,7 @@ mManager
 >
 SetLastInputSource
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_KEYBOARD

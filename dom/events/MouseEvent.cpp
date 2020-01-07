@@ -289,7 +289,7 @@ mouseEvent
 >
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

@@ -121,6 +121,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SimpleGestureEvent
 .
 h
@@ -244,7 +255,7 @@ mEvent
 >
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

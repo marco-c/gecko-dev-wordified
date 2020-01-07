@@ -1084,7 +1084,7 @@ one
 of
 /
 /
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_

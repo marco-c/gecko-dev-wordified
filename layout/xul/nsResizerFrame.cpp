@@ -263,6 +263,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -3647,7 +3658,7 @@ false
 uint16_t
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

@@ -160,6 +160,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -4432,7 +4443,7 @@ AsMouseEvent
 inputSource
 !
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

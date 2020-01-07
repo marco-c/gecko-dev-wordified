@@ -296,6 +296,17 @@ include
 "
 mozilla
 /
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStateManager
 .
 h
@@ -12245,7 +12256,7 @@ isSourceTouchEvent
 inputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

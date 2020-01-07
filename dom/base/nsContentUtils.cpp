@@ -530,6 +530,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyboardEventBinding
 .
 h
@@ -48176,7 +48187,7 @@ if
 aInputSourceArg
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -48184,7 +48195,7 @@ MOZ_SOURCE_UNKNOWN
 {
 aInputSourceArg
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE

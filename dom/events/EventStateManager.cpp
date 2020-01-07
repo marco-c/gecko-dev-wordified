@@ -253,6 +253,17 @@ mozilla
 /
 dom
 /
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TabChild
 .
 h
@@ -11630,7 +11641,7 @@ startEvent
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -20256,7 +20267,7 @@ mouseEvent
 inputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -20828,7 +20839,7 @@ pointerEvent
 inputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
