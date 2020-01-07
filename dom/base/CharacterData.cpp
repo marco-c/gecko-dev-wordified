@@ -1381,7 +1381,7 @@ InsertData
 (
 mText
 .
-Length
+GetLength
 (
 )
 aData
