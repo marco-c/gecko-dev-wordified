@@ -1048,6 +1048,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 NS_ASSERTION
@@ -1107,11 +1110,17 @@ aCSSParseEnv
 .
 mPrincipal
 =
+(
+aSubjectPrincipal
+?
+aSubjectPrincipal
+:
 mElement
 -
 >
 NodePrincipal
 (
+)
 )
 ;
 aCSSParseEnv
@@ -1135,6 +1144,9 @@ nsDOMCSSAttributeDeclaration
 :
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 {
@@ -1145,6 +1157,7 @@ mElement
 >
 GetURLDataForStyleAttr
 (
+aSubjectPrincipal
 )
 mElement
 -

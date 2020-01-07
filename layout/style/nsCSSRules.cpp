@@ -7499,6 +7499,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 GetCSSParsingEnvironmentForRule
@@ -7517,6 +7520,9 @@ nsCSSKeyframeStyleDeclaration
 :
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 {
@@ -9792,6 +9798,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 GetCSSParsingEnvironmentForRule
@@ -9810,6 +9819,9 @@ nsCSSPageStyleDeclaration
 :
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 {

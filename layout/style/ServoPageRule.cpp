@@ -534,6 +534,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -572,6 +575,9 @@ ServoPageRuleDeclaration
 :
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 {
