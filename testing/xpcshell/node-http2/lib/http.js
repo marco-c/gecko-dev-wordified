@@ -3720,7 +3720,7 @@ this
 .
 stream
 .
-headers
+trailers
 (
 this
 .
@@ -3828,10 +3828,15 @@ if
 (
 deprecatedHeaders
 .
-includes
+indexOf
 (
 name
 )
+!
+=
+=
+-
+1
 )
 {
 return
