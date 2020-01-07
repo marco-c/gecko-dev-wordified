@@ -1944,6 +1944,13 @@ tab
 =
 =
 null
+|
+|
+tab
+.
+isPrivate
+(
+)
 )
 {
 return
