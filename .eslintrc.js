@@ -350,12 +350,6 @@ profiler
 *
 *
 "
-"
-xpcom
-/
-*
-*
-"
 ]
 "
 rules
