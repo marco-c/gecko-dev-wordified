@@ -312,6 +312,9 @@ true
 multilineTagIndentPastTag
 :
 false
+allowMissingTagName
+:
+true
 }
 )
 var
