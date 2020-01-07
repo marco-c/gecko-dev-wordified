@@ -1281,10 +1281,7 @@ HandleInlineSpellCheck
 (
 action
 selection
-GetAsDOMNode
-(
 mCachedSelectionNode
-)
 mCachedSelectionOffset
 nullptr
 0

@@ -1735,7 +1735,7 @@ Cached
 selected
 offset
 .
-int32_t
+uint32_t
 mCachedSelectionOffset
 ;
 uint32_t
