@@ -336,7 +336,13 @@ override
 NS_IMETHOD
 AppendDoctype
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+DocumentType
 *
 aDoctype
 nsAString

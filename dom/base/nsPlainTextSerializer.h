@@ -240,6 +240,9 @@ namespace
 dom
 {
 class
+DocumentType
+;
+class
 Element
 ;
 }
@@ -372,7 +375,13 @@ NS_OK
 NS_IMETHOD
 AppendDoctype
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+DocumentType
 *
 aDoctype
 nsAString
