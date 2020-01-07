@@ -58,11 +58,11 @@ MPL
 /
 extern
 crate
-log
+libc
 ;
 extern
 crate
-libc
+log
 ;
 use
 core_foundation_sys

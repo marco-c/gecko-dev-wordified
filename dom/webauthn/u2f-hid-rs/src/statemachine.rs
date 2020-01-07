@@ -744,7 +744,6 @@ transaction
 |
 _
 |
-{
 cbc
 .
 call
@@ -763,7 +762,6 @@ transaction
 )
 )
 )
-}
 )
 )
 ;
@@ -1112,11 +1110,13 @@ empty
 t
 k
 |
+{
 t
 |
 k
 .
 transports
+}
 )
 ;
 /
@@ -1341,7 +1341,6 @@ transaction
 |
 _
 |
-{
 cbc
 .
 call
@@ -1360,7 +1359,6 @@ transaction
 )
 )
 )
-}
 )
 )
 ;
