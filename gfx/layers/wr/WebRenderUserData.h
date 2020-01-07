@@ -544,7 +544,6 @@ WebRenderUserData
 {
 public
 :
-explicit
 WebRenderImageData
 (
 WebRenderLayerManager
@@ -797,7 +796,6 @@ WebRenderImageData
 {
 public
 :
-explicit
 WebRenderFallbackData
 (
 WebRenderLayerManager
@@ -992,7 +990,6 @@ WebRenderUserData
 {
 public
 :
-explicit
 WebRenderAnimationData
 (
 WebRenderLayerManager
@@ -1061,7 +1058,6 @@ WebRenderUserData
 {
 public
 :
-explicit
 WebRenderCanvasData
 (
 WebRenderLayerManager
