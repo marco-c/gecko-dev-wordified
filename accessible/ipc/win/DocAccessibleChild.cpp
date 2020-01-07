@@ -1260,7 +1260,10 @@ DocAccessibleChild
 SendRoleChangedEvent
 (
 const
-uint32_t
+a11y
+:
+:
+role
 &
 aRole
 )

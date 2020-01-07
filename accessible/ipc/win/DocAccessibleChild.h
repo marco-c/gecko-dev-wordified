@@ -453,7 +453,10 @@ bool
 SendRoleChangedEvent
 (
 const
-uint32_t
+a11y
+:
+:
+role
 &
 aRole
 )
@@ -1288,7 +1291,10 @@ SerializedRoleChanged
 DocAccessibleChild
 *
 aTarget
-uint32_t
+a11y
+:
+:
+role
 aRole
 )
 :
@@ -1323,7 +1329,10 @@ mRole
 )
 ;
 }
-uint32_t
+a11y
+:
+:
+role
 mRole
 ;
 }
