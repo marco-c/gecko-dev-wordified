@@ -782,6 +782,13 @@ startIndent
 =
 =
 nextIndent
+&
+&
+!
+isNaN
+(
+nextNumber
+)
 )
 {
 if
