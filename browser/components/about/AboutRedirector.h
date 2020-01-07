@@ -158,10 +158,6 @@ bool
 sActivityStreamEnabled
 ;
 static
-bool
-sActivityStreamAboutHomeEnabled
-;
-static
 void
 LoadActivityStreamPrefs
 (
