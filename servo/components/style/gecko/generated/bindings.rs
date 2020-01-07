@@ -17033,11 +17033,6 @@ result_color
 *
 mut
 nscolor
-was_current_color
-:
-*
-mut
-bool
 )
 -
 >
