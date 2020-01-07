@@ -41516,8 +41516,28 @@ else
             
 getPromiseGlobal
 =
+dedent
+(
+                
 "
 "
+"
+                
+globalObj
+=
+JS
+:
+:
+CurrentGlobalOrNull
+(
+cx
+)
+;
+                
+"
+"
+"
+)
         
 templateBody
 =
@@ -41554,13 +41574,6 @@ JSObject
 globalObj
 (
 cx
-JS
-:
-:
-CurrentGlobalOrNull
-(
-cx
-)
 )
 ;
               
