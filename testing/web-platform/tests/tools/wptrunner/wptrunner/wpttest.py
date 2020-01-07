@@ -540,9 +540,12 @@ False
 rev
         
 except
+(
+OSError
 subprocess
 .
 CalledProcessError
+)
 :
             
 rev
