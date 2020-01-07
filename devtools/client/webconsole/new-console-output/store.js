@@ -437,7 +437,6 @@ sidebarToggle
 )
 filters
 :
-new
 FilterState
 (
 {
