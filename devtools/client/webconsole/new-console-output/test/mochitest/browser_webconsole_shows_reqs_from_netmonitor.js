@@ -160,7 +160,15 @@ webconsole
 "
 +
 "
+new
+-
+console
+-
+output
+/
 test
+/
+mochitest
 /
 "
 +
