@@ -483,6 +483,7 @@ startSynthesizedResponse
 (
 synthesized
 null
+null
 '
 '
 false
@@ -1014,6 +1015,7 @@ startSynthesizedResponse
 (
 synthesized
 null
+null
 '
 '
 false
@@ -1230,6 +1232,7 @@ intercepted
 startSynthesizedResponse
 (
 synthesized
+null
 null
 '
 '
@@ -1513,6 +1516,7 @@ startSynthesizedResponse
 (
 synthesized
 null
+null
 '
 '
 false
@@ -1661,6 +1665,7 @@ intercepted
 startSynthesizedResponse
 (
 synthesized
+null
 null
 '
 '
