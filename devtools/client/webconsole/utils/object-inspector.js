@@ -365,9 +365,9 @@ fixed
 in
 OI
 .
-disabledFocus
+focusable
 :
-true
+false
 roots
 :
 [
