@@ -137,6 +137,8 @@ subprocess
 import
 sys
 import
+time
+import
 mozcrash
 import
 mozfile
@@ -1057,6 +1059,15 @@ cycles
 ]
 )
 :
+            
+time
+.
+sleep
+(
+0
+.
+1
+)
             
 LOG
 .
