@@ -345,9 +345,6 @@ mozilla
 UniquePK11SlotInfo
 &
 aSlot
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 uint32_t

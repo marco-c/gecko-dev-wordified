@@ -214,9 +214,6 @@ MOZ_ASSERT
 slot
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -247,7 +244,6 @@ Unused
 <
 refreshTokenInfo
 (
-locker
 )
 ;
 }
@@ -257,14 +253,6 @@ nsPK11Token
 :
 refreshTokenInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
-/
-*
-proofOfLock
-*
-/
 )
 {
 mTokenName
@@ -573,9 +561,6 @@ nsPK11Token
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -645,9 +630,6 @@ nsACString
 xpcomOutParam
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -686,7 +668,6 @@ rv
 =
 refreshTokenInfo
 (
-locker
 )
 ;
 if
@@ -870,9 +851,6 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -909,9 +887,6 @@ bool
 force
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -986,7 +961,6 @@ get
 (
 )
 mUIContext
-locker
 )
 ;
 if
@@ -1023,9 +997,6 @@ LogoutSimple
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1160,9 +1131,6 @@ Reset
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1202,9 +1170,6 @@ NS_ENSURE_ARG_POINTER
 (
 aNeedsUserInit
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1250,9 +1215,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1361,9 +1323,6 @@ nsACString
 initialPassword
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1537,9 +1496,6 @@ nsACString
 newPassword
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1666,9 +1622,6 @@ NS_ENSURE_ARG_POINTER
 hasPassword
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1759,9 +1712,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1870,9 +1820,6 @@ nsPK11TokenDB
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1908,9 +1855,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1993,9 +1937,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (

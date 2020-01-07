@@ -333,9 +333,6 @@ void
 a_wincx
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 MutexAutoLock
 lock
 (
@@ -850,9 +847,6 @@ Run
 void
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 bool
 canGenerate
 =

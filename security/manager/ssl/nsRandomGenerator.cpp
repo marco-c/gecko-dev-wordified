@@ -127,9 +127,6 @@ aBuffer
 =
 nullptr
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -235,9 +232,6 @@ nsRandomGenerator
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

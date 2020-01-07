@@ -146,9 +146,6 @@ cert
 return
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -192,9 +189,6 @@ nsX509CertValidity
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

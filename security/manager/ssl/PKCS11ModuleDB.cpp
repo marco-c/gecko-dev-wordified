@@ -206,9 +206,6 @@ PKCS11ModuleDB
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -253,9 +250,6 @@ nsAString
 aModuleName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -612,9 +606,6 @@ int32_t
 aCipherFlags
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1056,9 +1047,6 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1158,9 +1146,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1385,9 +1370,6 @@ NS_ENSURE_ARG_POINTER
 aCanToggleFIPS
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1418,9 +1400,6 @@ ToggleFIPSMode
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1599,9 +1578,6 @@ NS_ENSURE_ARG_POINTER
 (
 aIsFIPSEnabled
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (

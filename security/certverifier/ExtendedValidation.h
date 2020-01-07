@@ -137,10 +137,6 @@ psm
 nsresult
 LoadExtendedValidationInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 /

@@ -9061,14 +9061,6 @@ false
 nsresult
 LoadExtendedValidationInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
-/
-*
-proofOfLock
-*
-/
 )
 {
 static

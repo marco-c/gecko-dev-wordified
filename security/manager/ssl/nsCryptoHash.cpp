@@ -312,9 +312,6 @@ nsCryptoHash
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -379,9 +376,6 @@ uint32_t
 algorithm
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -737,9 +731,6 @@ uint32_t
 len
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -789,9 +780,6 @@ uint32_t
 aLen
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1069,9 +1057,6 @@ nsACString
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1292,9 +1277,6 @@ nsCryptoHMAC
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1357,9 +1339,6 @@ nsIKeyObject
 aKeyObject
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1597,9 +1576,6 @@ uint32_t
 aLen
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1665,9 +1641,6 @@ uint32_t
 aLen
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1955,9 +1928,6 @@ nsACString
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2071,9 +2041,6 @@ Reset
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

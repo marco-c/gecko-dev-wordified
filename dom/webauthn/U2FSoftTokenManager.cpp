@@ -543,9 +543,6 @@ U2FSoftTokenManager
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -680,9 +677,6 @@ const
 nsCString
 &
 aNickname
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 MOZ_ASSERT
@@ -919,9 +913,6 @@ out
 UniqueSECKEYPublicKey
 &
 aPubKey
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 MOZ_ASSERT
@@ -1136,10 +1127,6 @@ const
 UniquePK11SlotInfo
 &
 aSlot
-const
-nsNSSShutDownPreventionLock
-&
-locker
 )
 {
 MOZ_ASSERT
@@ -1190,7 +1177,6 @@ GetSymKeyByNickname
 (
 aSlot
 mSecretNickname
-locker
 )
 ;
 if
@@ -1522,10 +1508,6 @@ out
 UniqueCERTCertificate
 &
 aAttestCert
-const
-nsNSSShutDownPreventionLock
-&
-locker
 )
 {
 MOZ_ASSERT
@@ -1567,7 +1549,6 @@ GenEcKeypair
 aSlot
 aAttestPrivKey
 pubKey
-locker
 )
 ;
 if
@@ -2331,9 +2312,6 @@ return
 NS_OK
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 NS_WARN_IF
@@ -2383,7 +2361,6 @@ rv
 GetOrCreateWrappingKey
 (
 slot
-locker
 )
 ;
 if
@@ -2498,9 +2475,6 @@ const
 UniqueSECKEYPrivateKey
 &
 aPrivKey
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 MOZ_ASSERT
@@ -3227,9 +3201,6 @@ uint8_t
 aAppParam
 uint32_t
 aAppParamLen
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 MOZ_ASSERT
@@ -3769,9 +3740,6 @@ bool
 aResult
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 NS_WARN_IF
@@ -3879,7 +3847,6 @@ aAppParam
 Length
 (
 )
-locker
 )
 ;
 aResult
@@ -4085,9 +4052,6 @@ uint32_t
 aTimeoutMS
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 NS_WARN_IF
@@ -4325,7 +4289,6 @@ GetAttestationCertificate
 slot
 attestPrivKey
 attestCert
-locker
 )
 ;
 if
@@ -4389,7 +4352,6 @@ GenEcKeypair
 slot
 privKey
 pubKey
-locker
 )
 ;
 if
@@ -4456,7 +4418,6 @@ Length
 (
 )
 privKey
-locker
 )
 ;
 if
@@ -5016,9 +4977,6 @@ uint32_t
 aTimeoutMS
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 NS_WARN_IF
@@ -5316,7 +5274,6 @@ aApplication
 Length
 (
 )
-locker
 )
 ;
 if

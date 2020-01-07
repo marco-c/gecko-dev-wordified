@@ -332,10 +332,6 @@ mTLSVersionRange
 PRStatus
 CloseSocketAndDestroy
 (
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 void

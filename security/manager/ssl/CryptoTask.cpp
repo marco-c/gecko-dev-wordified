@@ -141,9 +141,6 @@ MOZ_ASSERT
 mReleasedNSSResources
 )
 ;
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 !
@@ -302,9 +299,6 @@ NS_IsMainThread
 )
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

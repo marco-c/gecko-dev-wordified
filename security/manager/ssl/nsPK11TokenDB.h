@@ -197,10 +197,6 @@ nsPK11TokenDB
 nsresult
 refreshTokenInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 nsCString

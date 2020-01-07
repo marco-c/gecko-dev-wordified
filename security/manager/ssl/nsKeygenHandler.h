@@ -179,13 +179,6 @@ PK11SlotInfo
 *
 *
 retSlot
-nsNSSShutDownPreventionLock
-&
-/
-*
-proofOfLock
-*
-/
 )
 ;
 #
