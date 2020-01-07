@@ -341,17 +341,14 @@ None
 ;
 textinput
 .
-edit_point
-=
-TextPoint
-{
-line
-:
-0
-index
-:
+adjust_horizontal
+(
 1
-}
+Selection
+:
+:
+NotSelected
+)
 ;
 textinput
 .
@@ -491,17 +488,14 @@ None
 ;
 textinput
 .
-edit_point
-=
-TextPoint
-{
-line
-:
+adjust_vertical
+(
 1
-index
+Selection
 :
-0
-}
+:
+NotSelected
+)
 ;
 textinput
 .
@@ -738,17 +732,14 @@ None
 ;
 textinput
 .
-edit_point
-=
-TextPoint
-{
-line
-:
-0
-index
-:
+adjust_horizontal
+(
 1
-}
+Selection
+:
+:
+NotSelected
+)
 ;
 textinput
 .
@@ -1433,32 +1424,14 @@ abcdefg
 ;
 textinput
 .
-adjust_horizontal
+set_selection_range
 (
 2
-Selection
+2
+SelectionDirection
 :
 :
-NotSelected
-)
-;
-/
-/
-Set
-an
-empty
-selection
-range
-.
-textinput
-.
-selection_origin
-=
-Some
-(
-textinput
-.
-edit_point
+None
 )
 ;
 textinput
@@ -2064,6 +2037,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2075,6 +2050,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -2098,6 +2075,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2109,6 +2088,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -2131,6 +2112,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 2
@@ -2142,6 +2125,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 1
@@ -2193,6 +2178,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2204,6 +2191,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -2226,6 +2215,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2237,6 +2228,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 1
@@ -2288,6 +2281,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2299,6 +2294,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -2321,6 +2318,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2332,6 +2331,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 1
@@ -2354,6 +2355,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 2
@@ -2365,6 +2368,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -2388,6 +2393,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2399,6 +2406,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -2480,6 +2489,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2491,6 +2502,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 7
@@ -2516,6 +2529,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2527,6 +2542,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 4
@@ -2552,6 +2569,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2563,6 +2582,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -2636,6 +2657,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2647,6 +2670,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 3
@@ -2672,6 +2697,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 1
@@ -2683,6 +2710,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 0
@@ -2708,6 +2737,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2719,6 +2750,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 0
@@ -2781,6 +2814,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2792,6 +2827,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 5
@@ -2817,6 +2854,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2828,6 +2867,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 7
@@ -2853,6 +2894,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2864,6 +2907,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 13
@@ -2889,6 +2934,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2900,6 +2947,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 11
@@ -2925,6 +2974,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -2936,6 +2987,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 6
@@ -3002,6 +3055,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3013,6 +3068,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 7
@@ -3071,6 +3128,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3082,6 +3141,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 3
@@ -3107,6 +3168,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3118,6 +3181,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 3
@@ -3143,6 +3208,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3154,6 +3221,8 @@ assert_eq
 textinput_2
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3215,6 +3284,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3226,6 +3297,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 13
@@ -3251,6 +3324,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3262,6 +3337,8 @@ assert_eq
 textinput_3
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3341,6 +3418,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 11
@@ -3383,6 +3462,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3433,6 +3514,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 11
@@ -3483,6 +3566,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3524,6 +3609,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 5
@@ -3573,6 +3660,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 11
@@ -3614,6 +3703,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 6
@@ -3663,6 +3754,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3805,6 +3898,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -3816,6 +3911,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -3833,6 +3930,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 2
@@ -3844,6 +3943,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 1
@@ -4006,6 +4107,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4017,6 +4120,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4039,6 +4144,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4050,6 +4157,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 3
@@ -4090,6 +4199,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4101,6 +4212,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -4219,6 +4332,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4313,6 +4428,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 3
@@ -4361,6 +4478,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 3
@@ -4413,6 +4532,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4461,6 +4582,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4518,6 +4641,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4529,6 +4654,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -4577,6 +4704,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4588,6 +4717,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -4639,6 +4770,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4650,6 +4783,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4698,6 +4833,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4709,6 +4846,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4757,6 +4896,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4768,6 +4909,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 6
@@ -4779,6 +4922,8 @@ assert_eq
 textinput
 .
 selection_direction
+(
+)
 SelectionDirection
 :
 :
@@ -4791,6 +4936,8 @@ assert
 textinput
 .
 selection_origin
+(
+)
 .
 is_some
 (
@@ -4803,6 +4950,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -4818,6 +4967,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -4845,6 +4996,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 0
@@ -4856,6 +5009,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -4867,6 +5022,8 @@ assert_eq
 textinput
 .
 selection_direction
+(
+)
 SelectionDirection
 :
 :
@@ -4879,6 +5036,8 @@ assert
 textinput
 .
 selection_origin
+(
+)
 .
 is_some
 (
@@ -4891,6 +5050,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -4906,6 +5067,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -4949,6 +5112,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -4960,6 +5125,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -4971,6 +5138,8 @@ assert_eq
 textinput
 .
 selection_direction
+(
+)
 SelectionDirection
 :
 :
@@ -4983,6 +5152,8 @@ assert
 textinput
 .
 selection_origin
+(
+)
 .
 is_some
 (
@@ -4995,6 +5166,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -5010,6 +5183,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -5051,6 +5226,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 line
 1
@@ -5062,6 +5239,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -5073,6 +5252,8 @@ assert_eq
 textinput
 .
 selection_direction
+(
+)
 SelectionDirection
 :
 :
@@ -5085,6 +5266,8 @@ assert
 textinput
 .
 selection_origin
+(
+)
 .
 is_some
 (
@@ -5097,6 +5280,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -5112,6 +5297,8 @@ assert_eq
 textinput
 .
 selection_origin
+(
+)
 .
 unwrap
 (
@@ -5151,6 +5338,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 0
@@ -5169,6 +5358,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 2
@@ -5187,6 +5378,8 @@ assert_eq
 textinput
 .
 edit_point
+(
+)
 .
 index
 8
