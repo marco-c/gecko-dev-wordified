@@ -2818,14 +2818,8 @@ return
 aElement
 -
 >
-HasServoData
+IsDisplayContents
 (
-)
-&
-&
-Servo_Element_IsDisplayContents
-(
-aElement
 )
 ;
 }
