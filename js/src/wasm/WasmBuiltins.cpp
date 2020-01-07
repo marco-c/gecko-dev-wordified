@@ -4058,7 +4058,7 @@ Wake
 *
 abiType
 =
-Args_General2
+Args_General3
 ;
 return
 FuncCast
