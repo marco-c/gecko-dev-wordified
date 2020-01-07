@@ -391,7 +391,7 @@ Rule
 )
 -
 >
-GetDocument
+GetParentObject
 (
 )
 ;
