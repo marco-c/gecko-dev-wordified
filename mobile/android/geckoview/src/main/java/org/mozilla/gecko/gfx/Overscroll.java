@@ -133,9 +133,6 @@ draw
 final
 Canvas
 canvas
-final
-ImmutableViewportMetrics
-metrics
 )
 ;
 public

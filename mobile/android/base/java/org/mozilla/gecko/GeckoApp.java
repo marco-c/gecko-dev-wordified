@@ -6887,11 +6887,6 @@ registerGeckoThreadListener
 (
 this
 "
-Accessibility
-:
-Event
-"
-"
 Locale
 :
 Set
@@ -6906,6 +6901,11 @@ getAppEventDispatcher
 registerUiThreadListener
 (
 this
+"
+Accessibility
+:
+Event
+"
 "
 Contact
 :
@@ -13394,11 +13394,6 @@ unregisterGeckoThreadListener
 (
 this
 "
-Accessibility
-:
-Event
-"
-"
 Locale
 :
 Set
@@ -13413,6 +13408,11 @@ getAppEventDispatcher
 unregisterUiThreadListener
 (
 this
+"
+Accessibility
+:
+Event
+"
 "
 Contact
 :
