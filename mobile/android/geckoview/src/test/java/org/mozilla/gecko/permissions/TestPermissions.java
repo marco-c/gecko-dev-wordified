@@ -152,15 +152,11 @@ Matchers
 import
 org
 .
-mozilla
+mockito
 .
-gecko
+runners
 .
-background
-.
-testhelpers
-.
-TestRunner
+MockitoJUnitRunner
 ;
 import
 static
@@ -174,7 +170,7 @@ Mockito
 ;
 RunWith
 (
-TestRunner
+MockitoJUnitRunner
 .
 class
 )
