@@ -1113,7 +1113,7 @@ mOriginalTargetIsInAnon
 Whether
 or
 not
-nsIDOMEventTarget
+EventTarget
 :
 :
 WillHandleEvent
@@ -1172,7 +1172,7 @@ mMayHaveListenerManager
 Whether
 or
 not
-nsIDOMEventTarget
+EventTarget
 :
 :
 PreHandleEvent
