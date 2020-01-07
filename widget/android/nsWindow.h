@@ -1008,6 +1008,9 @@ GeckoViewSupport
 >
 mGeckoViewSupport
 ;
+#
+ifdef
+MOZ_NATIVE_DEVICES
 /
 /
 Class
@@ -1020,6 +1023,8 @@ calls
 class
 PMPMSupport
 ;
+#
+endif
 mozilla
 :
 :
