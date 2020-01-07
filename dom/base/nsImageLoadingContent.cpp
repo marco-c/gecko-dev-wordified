@@ -5759,7 +5759,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -5784,9 +5784,6 @@ EventStates
 (
 aState
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
