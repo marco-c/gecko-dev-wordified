@@ -568,7 +568,7 @@ t
 be
 deleted
 .
-nsIContent
+Element
 *
 mGrandparent
 ;
@@ -1477,6 +1477,11 @@ aParent
 -
 >
 GetParent
+(
+)
+-
+>
+AsElement
 (
 )
 ;

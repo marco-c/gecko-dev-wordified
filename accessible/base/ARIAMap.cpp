@@ -3815,6 +3815,11 @@ aria_hidden
 aContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None

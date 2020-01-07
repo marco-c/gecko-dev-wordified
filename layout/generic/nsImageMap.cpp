@@ -4801,7 +4801,7 @@ aArea
 )
 {
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -4872,13 +4872,13 @@ eIgnoreCase
 )
 {
 case
-nsIContent
+Element
 :
 :
 ATTR_VALUE_NO_MATCH
 :
 case
-nsIContent
+Element
 :
 :
 ATTR_MISSING

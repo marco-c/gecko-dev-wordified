@@ -15499,7 +15499,13 @@ editable
 *
 /
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetEditableRootContentByContentEditable
 (

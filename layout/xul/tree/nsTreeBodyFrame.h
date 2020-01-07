@@ -1243,7 +1243,13 @@ or
 <
 select
 >
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetBaseElement
 (

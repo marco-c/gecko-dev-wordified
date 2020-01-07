@@ -299,6 +299,11 @@ if
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None

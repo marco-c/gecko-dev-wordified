@@ -1606,7 +1606,7 @@ SetCommandUpdater
 nsIDocument
 *
 aDocument
-nsIContent
+Element
 *
 aElement
 )

@@ -631,6 +631,11 @@ undetermined
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
@@ -782,6 +787,11 @@ maxValue
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -793,6 +803,11 @@ value
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

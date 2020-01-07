@@ -1057,6 +1057,11 @@ if
 child
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -1071,6 +1076,11 @@ nsAutoString
 label
 ;
 child
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

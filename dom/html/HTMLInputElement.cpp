@@ -22855,7 +22855,7 @@ false
 }
 nsCOMPtr
 <
-nsIContent
+Element
 >
 target
 =

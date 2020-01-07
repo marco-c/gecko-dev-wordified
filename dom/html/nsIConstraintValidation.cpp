@@ -380,9 +380,9 @@ IsValid
 {
 nsCOMPtr
 <
-nsIContent
+Element
 >
-content
+element
 =
 do_QueryInterface
 (
@@ -391,7 +391,7 @@ this
 ;
 NS_ASSERTION
 (
-content
+element
 "
 This
 class
@@ -409,7 +409,7 @@ only
 nsAutoString
 authorMessage
 ;
-content
+element
 -
 >
 GetAttr
@@ -1091,7 +1091,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromContent
 (
 content
 )

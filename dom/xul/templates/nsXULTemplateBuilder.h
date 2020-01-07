@@ -1399,7 +1399,7 @@ CompileConditions
 nsTemplateRule
 *
 aRule
-nsIContent
+Element
 *
 aConditions
 )
@@ -1487,7 +1487,7 @@ CompileWhereCondition
 nsTemplateRule
 *
 aRule
-nsIContent
+Element
 *
 aCondition
 nsTemplateCondition
@@ -1548,7 +1548,7 @@ CompileBinding
 nsTemplateRule
 *
 aRule
-nsIContent
+Element
 *
 aBinding
 )

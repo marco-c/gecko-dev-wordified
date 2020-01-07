@@ -739,7 +739,13 @@ SetCommandUpdater
 nsIDocument
 *
 aDocument
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aElement
 )
