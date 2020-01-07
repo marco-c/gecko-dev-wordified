@@ -1869,11 +1869,6 @@ aAncestorOuterWindowIDs
 )
 ;
 }
-bool
-CanSetOriginAttributes
-(
-)
-;
 /
 /
 Determine
