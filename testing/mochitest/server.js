@@ -1123,6 +1123,9 @@ _SERVER_ADDR
 ;
 else
 throw
+new
+Error
+(
 "
 invalid
 _SERVER_ADDR
@@ -1133,6 +1136,7 @@ valid
 IP
 Address
 "
+)
 ;
 }
 }
@@ -1140,9 +1144,12 @@ Address
 else
 {
 throw
+new
+Error
+(
 "
 please
-defined
+define
 _SERVER_ADDR
 (
 as
@@ -1156,6 +1163,7 @@ server
 .
 js
 "
+)
 ;
 }
 if
@@ -1196,6 +1204,9 @@ _SERVER_PORT
 else
 {
 throw
+new
+Error
+(
 "
 please
 define
@@ -1212,6 +1223,7 @@ server
 .
 js
 "
+)
 ;
 }
 /
@@ -2347,6 +2359,9 @@ if
 match
 )
 throw
+new
+Error
+(
 "
 Syntax
 error
@@ -2360,6 +2375,7 @@ line
 "
 +
 lineno
+)
 ;
 var
 [
@@ -2400,6 +2416,9 @@ seenPrimary
 )
 {
 throw
+new
+Error
+(
 "
 Multiple
 primary
@@ -2417,6 +2436,7 @@ line
 "
 +
 lineno
+)
 ;
 }
 server
