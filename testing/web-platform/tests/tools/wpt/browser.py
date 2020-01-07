@@ -60,54 +60,6 @@ platform
 uname
 (
 )
-def
-path
-(
-path
-exe
-)
-:
-    
-path
-=
-path
-.
-replace
-(
-"
-/
-"
-os
-.
-path
-.
-sep
-)
-    
-if
-exe
-and
-uname
-[
-0
-]
-=
-=
-"
-Windows
-"
-:
-        
-path
-+
-=
-"
-.
-exe
-"
-    
-return
-path
 class
 Browser
 (
@@ -131,6 +83,17 @@ None
 )
 :
         
+"
+"
+"
+Install
+the
+browser
+.
+"
+"
+"
+        
 return
 NotImplemented
     
@@ -140,8 +103,118 @@ def
 install_webdriver
 (
 self
+dest
+=
+None
 )
 :
+        
+"
+"
+"
+Install
+the
+WebDriver
+implementation
+for
+this
+browser
+.
+"
+"
+"
+        
+return
+NotImplemented
+    
+abstractmethod
+    
+def
+find_binary
+(
+self
+)
+:
+        
+"
+"
+"
+Find
+the
+binary
+of
+the
+browser
+.
+        
+If
+the
+WebDriver
+for
+the
+browser
+is
+able
+to
+find
+the
+binary
+itself
+this
+        
+method
+doesn
+'
+t
+need
+to
+be
+implemented
+in
+which
+case
+NotImplementedError
+        
+is
+suggested
+to
+be
+raised
+to
+prevent
+accidental
+use
+.
+        
+"
+"
+"
+        
+return
+NotImplemented
+    
+abstractmethod
+    
+def
+find_webdriver
+(
+self
+)
+:
+        
+"
+"
+"
+Find
+the
+binary
+of
+the
+WebDriver
+.
+"
+"
+"
         
 return
 NotImplemented
@@ -152,8 +225,25 @@ def
 version
 (
 self
+root
 )
 :
+        
+"
+"
+"
+Retrieve
+the
+release
+version
+of
+the
+installed
+browser
+.
+"
+"
+"
         
 return
 NotImplemented
@@ -837,9 +927,6 @@ def
 find_binary
 (
 self
-path
-=
-None
 )
 :
         
@@ -849,7 +936,6 @@ find_executable
 "
 firefox
 "
-path
 )
     
 def
@@ -1815,6 +1901,16 @@ bits
 )
     
 def
+find_binary
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+    
+def
 find_webdriver
 (
 self
@@ -1838,17 +1934,6 @@ dest
 None
 )
 :
-        
-"
-"
-"
-Install
-latest
-Webdriver
-.
-"
-"
-"
         
 if
 dest
@@ -1979,22 +2064,6 @@ root
 )
 :
         
-"
-"
-"
-Retrieve
-the
-release
-version
-of
-the
-installed
-browser
-.
-"
-"
-"
-        
 output
 =
 call
@@ -2093,6 +2162,16 @@ self
 dest
 =
 None
+)
+:
+        
+raise
+NotImplementedError
+    
+def
+find_binary
+(
+self
 )
 :
         
@@ -2357,6 +2436,16 @@ bits
 )
     
 def
+find_binary
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+    
+def
 find_webdriver
 (
 self
@@ -2380,17 +2469,6 @@ dest
 None
 )
 :
-        
-"
-"
-"
-Install
-latest
-Webdriver
-.
-"
-"
-"
         
 if
 dest
@@ -2693,6 +2771,16 @@ raise
 NotImplementedError
     
 def
+find_binary
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+    
+def
 find_webdriver
 (
 self
@@ -2717,17 +2805,6 @@ None
 )
 :
         
-"
-"
-"
-Install
-latest
-Webdriver
-.
-"
-"
-"
-        
 raise
 NotImplementedError
     
@@ -2735,6 +2812,7 @@ def
 version
 (
 self
+root
 )
 :
         
@@ -2788,6 +2866,16 @@ raise
 NotImplementedError
     
 def
+find_binary
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+    
+def
 find_webdriver
 (
 self
@@ -2814,17 +2902,6 @@ None
 )
 :
         
-"
-"
-"
-Install
-latest
-Webdriver
-.
-"
-"
-"
-        
 raise
 NotImplementedError
     
@@ -2832,6 +2909,7 @@ def
 version
 (
 self
+root
 )
 :
         
@@ -2887,9 +2965,6 @@ def
 find_binary
 (
 self
-path
-=
-None
 )
 :
         
@@ -2915,6 +2990,9 @@ def
 install_webdriver
 (
 self
+dest
+=
+None
 )
 :
         
@@ -2981,14 +3059,11 @@ def
 find_binary
 (
 self
-path
-=
-None
 )
 :
         
-return
-None
+raise
+NotImplementedError
     
 def
 find_webdriver
@@ -2997,13 +3072,16 @@ self
 )
 :
         
-return
-None
+raise
+NotImplementedError
     
 def
 install_webdriver
 (
 self
+dest
+=
+None
 )
 :
         
