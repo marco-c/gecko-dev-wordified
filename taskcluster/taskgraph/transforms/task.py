@@ -5279,7 +5279,7 @@ project
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5338,7 +5338,7 @@ trunk
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5410,7 +5410,7 @@ build_date
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5483,7 +5483,7 @@ nightly
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5561,7 +5561,7 @@ build_date
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5651,7 +5651,7 @@ nightly
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5698,7 +5698,7 @@ project
 revision
 .
 {
-head_rev
+branch_rev
 }
 .
 {
@@ -5893,6 +5893,38 @@ central
 comm_head_rev
 '
 }
+def
+get_branch_rev
+(
+config
+)
+:
+    
+return
+config
+.
+params
+[
+        
+BRANCH_REV_PARAM
+.
+get
+(
+            
+config
+.
+params
+[
+'
+project
+'
+]
+            
+DEFAULT_BRANCH_REV_PARAM
+        
+)
+    
+]
 COALESCE_KEY
 =
 '
@@ -11546,6 +11578,18 @@ domain
 '
 ]
     
+subs
+[
+'
+branch_rev
+'
+]
+=
+get_branch_rev
+(
+config
+)
+    
 project
 =
 config
@@ -11820,6 +11864,18 @@ domain
 '
 ]
     
+subs
+[
+'
+branch_rev
+'
+]
+=
+get_branch_rev
+(
+config
+)
+    
 for
 tpl
 in
@@ -12001,6 +12057,18 @@ trust
 domain
 '
 ]
+    
+subs
+[
+'
+branch_rev
+'
+]
+=
+get_branch_rev
+(
+config
+)
     
 subs
 [
@@ -12307,6 +12375,18 @@ trust
 domain
 '
 ]
+    
+subs
+[
+'
+branch_rev
+'
+]
+=
+get_branch_rev
+(
+config
+)
     
 locales
 =
@@ -12660,6 +12740,18 @@ trust
 domain
 '
 ]
+    
+subs
+[
+'
+branch_rev
+'
+]
+=
+get_branch_rev
+(
+config
+)
     
 locales
 =
@@ -13515,30 +13607,12 @@ tier
 '
 ]
             
-treeherder_rev
+branch_rev
 =
-config
-.
-params
-[
-                
-BRANCH_REV_PARAM
-.
-get
+get_branch_rev
 (
-                    
 config
-.
-params
-[
-'
-project
-'
-]
-                    
-DEFAULT_BRANCH_REV_PARAM
 )
-]
             
 routes
 .
@@ -13574,7 +13648,7 @@ project
 '
 ]
                                         
-treeherder_rev
+branch_rev
                                         
 config
 .
@@ -14021,7 +14095,7 @@ params
 project
 '
 ]
-treeherder_rev
+branch_rev
 )
             
 task_def
