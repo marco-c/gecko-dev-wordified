@@ -237,7 +237,7 @@ jsm
 }
 )
 .
-storage
+formAutofillStorage
 ;
 storage
 .
