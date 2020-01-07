@@ -434,15 +434,6 @@ msg
 .
 target
 ;
-mm
-.
-QueryInterface
-(
-Ci
-.
-nsISyncMessageSender
-)
-;
 let
 prefix
 =
