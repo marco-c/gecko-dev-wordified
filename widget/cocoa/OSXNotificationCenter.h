@@ -145,9 +145,6 @@ RefPtr
 .
 h
 "
-class
-mozNotificationCenterDelegate
-;
 #
 if
 !
@@ -239,10 +236,6 @@ OSXNotificationCenter
 ;
 private
 :
-mozNotificationCenterDelegate
-*
-mDelegate
-;
 nsTArray
 <
 RefPtr
