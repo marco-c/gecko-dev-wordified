@@ -744,9 +744,6 @@ NS_OK
 /
 /
 /
-/
-/
-nsIDOMTreeWalker
 NS_IMETHODIMP
 inDeepTreeWalker
 :

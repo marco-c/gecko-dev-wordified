@@ -287,13 +287,6 @@ h
 #
 include
 "
-nsIDOMTreeWalker
-.
-h
-"
-#
-include
-"
 nsIDOMXULButtonElement
 .
 h

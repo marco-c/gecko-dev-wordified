@@ -120,7 +120,7 @@ DOM
 Traversal
 '
 s
-nsIDOMTreeWalker
+TreeWalker
 *
 /
 #
@@ -268,12 +268,7 @@ TreeWalker
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMTreeWalker
-)
-NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
-(
 nsISupports
-nsIDOMTreeWalker
 )
 NS_INTERFACE_MAP_END
 /

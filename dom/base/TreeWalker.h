@@ -120,7 +120,7 @@ DOM
 Traversal
 '
 s
-nsIDOMTreeWalker
+TreeWalker
 *
 /
 #
@@ -132,7 +132,7 @@ mozilla_dom_TreeWalker_h
 #
 include
 "
-nsIDOMTreeWalker
+nsISupports
 .
 h
 "
@@ -181,7 +181,7 @@ TreeWalker
 final
 :
 public
-nsIDOMTreeWalker
+nsISupports
 public
 nsTraversal
 {
@@ -194,7 +194,6 @@ TreeWalker
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMTREEWALKER
 TreeWalker
 (
 nsINode
