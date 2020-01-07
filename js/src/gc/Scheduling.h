@@ -4324,13 +4324,6 @@ AutoLockGC
 lock
 )
 ;
-private
-:
-void
-reset
-(
-)
-;
 }
 ;
 /
