@@ -1317,12 +1317,11 @@ obj
 {
 MOZ_ASSERT
 (
-js
-:
-:
-GetObjectClass
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =
