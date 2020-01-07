@@ -2297,6 +2297,10 @@ ruleview
 -
 ruleclose
 {
+clear
+:
+both
+;
 cursor
 :
 text
@@ -3394,7 +3398,7 @@ transparent
 ;
 clear
 :
-right
+both
 ;
 padding
 -
