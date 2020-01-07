@@ -9509,6 +9509,13 @@ nsBrowserAccess
 (
 )
 ;
+BrowserWindowTracker
+.
+track
+(
+window
+)
+;
 let
 initBrowser
 =
@@ -11454,13 +11461,6 @@ false
 )
 SetClickAndHoldHandlers
 (
-)
-;
-BrowserWindowTracker
-.
-track
-(
-window
 )
 ;
 PlacesToolbarHelper
