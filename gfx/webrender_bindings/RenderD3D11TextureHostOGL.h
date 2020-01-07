@@ -339,6 +339,11 @@ gfx
 :
 IntSize
 aSize
+gfx
+:
+:
+IntSize
+aSizeCbCr
 )
 ;
 wr
@@ -472,6 +477,12 @@ gfx
 :
 IntSize
 mSize
+;
+gfx
+:
+:
+IntSize
+mSizeCbCr
 ;
 bool
 mLocked
