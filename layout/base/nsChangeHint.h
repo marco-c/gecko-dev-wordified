@@ -1274,7 +1274,6 @@ that
 manipulate
 the
 style
-context
 tree
 are
 *
@@ -3460,8 +3459,7 @@ leaving
 *
 the
 old
-style
-context
+ComputedStyle
 on
 the
 frame
@@ -3483,8 +3481,7 @@ to
 force
 its
 new
-style
-context
+ComputedStyle
 to
 be
 used
@@ -3510,8 +3507,7 @@ and
 for
 the
 new
-style
-contexts
+ComputedStyles
 that
 are
 created
@@ -3562,15 +3558,13 @@ element
 If
 a
 new
-style
-context
+ComputedStyle
 /
 /
 results
 update
 the
-style
-contexts
+ComputedStyles
 of
 descendants
 .
@@ -3722,8 +3716,7 @@ data
 If
 a
 new
-style
-context
+ComputedStyle
 results
 update
 style
@@ -3785,8 +3778,7 @@ data
 If
 a
 new
-style
-context
+ComputedStyle
 results
 update
 style
@@ -3848,8 +3840,7 @@ data
 If
 a
 new
-style
-context
+ComputedStyle
 results
 update
 style
@@ -3887,8 +3878,7 @@ Supported
 only
 for
 element
-style
-contexts
+ComputedStyles
 and
 not
 for

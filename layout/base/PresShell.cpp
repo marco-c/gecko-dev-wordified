@@ -25461,7 +25461,6 @@ s
 not
 then
 style
-context
 reparenting
 which
 can
@@ -60762,8 +60761,7 @@ s
 frame
 '
 s
-style
-context
+ComputedStyle
 is
 the
 root

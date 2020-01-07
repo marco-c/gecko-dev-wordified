@@ -347,8 +347,7 @@ need
 to
 track
 the
-style
-contexts
+ComputedStyle
 given
 to
 our
@@ -4055,10 +4054,11 @@ to
 pass
 the
 proper
-style
-context
+ComputedStyle
 to
 our
+/
+/
 MathMLChar
 ComputedStyle
 *

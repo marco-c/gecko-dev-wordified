@@ -3304,8 +3304,7 @@ binding
 directly
 from
 the
-style
-context
+ComputedStyle
 RefPtr
 <
 ComputedStyle
@@ -3548,8 +3547,7 @@ obj
 Make
 sure
 the
-style
-context
+ComputedStyle
 goes
 away
 _before_

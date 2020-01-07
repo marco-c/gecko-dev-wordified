@@ -474,8 +474,7 @@ table
 to
 locate
 the
-style
-context
+ComputedStyle
 .
 nsAutoPtr
 <
@@ -490,8 +489,7 @@ cache
 of
 all
 active
-style
-contexts
+ComputedStyles
 .
 This
 is
@@ -510,8 +508,7 @@ Sf
 to
 the
 resultant
-style
-context
+ComputedStyle
 .
 typedef
 nsRefPtrHashtable

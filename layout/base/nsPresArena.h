@@ -649,8 +649,7 @@ rule
 tree
 so
 that
-style
-contexts
+ComputedStyles
 *
 pointing
 into

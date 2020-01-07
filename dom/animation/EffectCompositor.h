@@ -1872,8 +1872,7 @@ automatically
 look
 up
 the
-style
-context
+ComputedStyle
 of
 primary
 frame

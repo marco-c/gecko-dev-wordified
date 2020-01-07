@@ -284,8 +284,7 @@ animated
 param
 aBaseComputedStyle
 The
-style
-context
+ComputedStyle
 to
 use
 when
@@ -606,8 +605,7 @@ to
 /
 the
 base
-style
-context
+ComputedStyle
 we
 can
 use

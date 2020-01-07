@@ -3548,8 +3548,7 @@ DidSetComputedStyle
 /
 When
 the
-style
-context
+ComputedStyle
 changes
 make
 sure
@@ -3561,6 +3560,8 @@ image
 is
 up
 to
+/
+/
 date
 .
 /

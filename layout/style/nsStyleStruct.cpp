@@ -22949,8 +22949,7 @@ notified
 /
 of
 any
-style
-context
+ComputedStyle
 change
 anyway
 .
@@ -22973,8 +22972,7 @@ notified
 about
 every
 new
-style
-context
+ComputedStyle
 constructed
 and
 it

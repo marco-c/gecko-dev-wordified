@@ -1760,8 +1760,7 @@ Couldn
 '
 t
 get
-style
-context
+ComputedStyle
 for
 content
 in
@@ -1832,8 +1831,7 @@ MOZ_ASSERT
 aComputedStyle
 "
 NULL
-style
-context
+ComputedStyle
 in
 GetFontSize
 "
@@ -1944,8 +1942,7 @@ Couldn
 '
 t
 get
-style
-context
+ComputedStyle
 for
 content
 in
@@ -2016,8 +2013,7 @@ MOZ_ASSERT
 aComputedStyle
 "
 NULL
-style
-context
+ComputedStyle
 in
 GetFontXHeight
 "

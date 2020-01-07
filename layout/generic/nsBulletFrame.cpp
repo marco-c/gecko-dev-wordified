@@ -847,8 +847,7 @@ request
 on
 the
 new
-style
-context
+ComputedStyle
 .
 DeregisterAndCancelImageRequest
 (

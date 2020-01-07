@@ -4822,8 +4822,7 @@ Strong
 reference
 to
 the
-style
-context
+ComputedStyle
 we
 access
 data
@@ -4835,15 +4834,13 @@ be
 *
 either
 a
-style
-context
+ComputedStyle
 we
 resolved
 ourselves
 or
 a
-style
-context
+ComputedStyle
 we
 got
 *
@@ -4857,8 +4854,7 @@ If
 we
 got
 the
-style
-context
+ComputedStyle
 from
 the
 frame
@@ -4903,8 +4899,7 @@ will
 check
 that
 the
-style
-context
+ComputedStyle
 is
 still
 valid
@@ -4936,8 +4931,7 @@ used
 to
 hold
 the
-style
-context
+ComputedStyle
 it
 will
 be
@@ -5139,8 +5133,7 @@ Whether
 we
 resolved
 a
-style
-context
+ComputedStyle
 last
 time
 we

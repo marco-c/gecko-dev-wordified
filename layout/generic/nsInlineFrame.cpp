@@ -2522,8 +2522,7 @@ need
 to
 reparent
 the
-style
-contexts
+ComputedStyles
 to
 remove
 the
@@ -2545,8 +2544,7 @@ case
 we
 reparent
 the
-style
-contexts
+ComputedStyles
 when
 we
 set
@@ -6814,8 +6812,7 @@ our
 new
 /
 /
-style
-context
+ComputedStyle
 .
 RefPtr
 <
@@ -6851,8 +6848,7 @@ differs
 from
 the
 old
-style
-context
+ComputedStyle
 on
 /
 /
@@ -6953,8 +6949,7 @@ mozBlockInsideInlineWrapper
 Unexpected
 kind
 of
-style
-context
+ComputedStyle
 "
 )
 ;
@@ -6980,8 +6975,7 @@ want
 to
 set
 updated
-style
-contexts
+ComputedStyles
 on
 both
 our
@@ -7302,8 +7296,8 @@ continuation
 -
 fixup
 the
+computed
 style
-context
 if
 aPrevInFlow
 /
@@ -7365,8 +7359,7 @@ aPrevInFlow
 Create
 a
 new
-style
-context
+ComputedStyle
 that
 is
 a
@@ -7376,8 +7369,7 @@ the
 parent
 /
 /
-style
-context
+ComputedStyle
 thus
 removing
 the
@@ -7752,8 +7744,7 @@ new
 frames
 and
 their
-style
-contexts
+ComputedStyles
 .
 const
 nsFrameList

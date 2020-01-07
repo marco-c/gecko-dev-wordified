@@ -11924,8 +11924,7 @@ done
 by
 examining
 the
-style
-context
+ComputedStyle
 for
 /
 /
@@ -12307,8 +12306,7 @@ the
 URL
 from
 the
-style
-context
+ComputedStyle
 .
 aAllowImageRegions
 =
@@ -13006,8 +13004,7 @@ It
 first
 checks
 the
-style
-context
+ComputedStyle
 for
 a
 width

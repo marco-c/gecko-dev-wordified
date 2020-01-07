@@ -4032,8 +4032,7 @@ scope
 so
 that
 the
-style
-context
+ComputedStyle
 gets
 destroyed
 before

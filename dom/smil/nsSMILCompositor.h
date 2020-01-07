@@ -633,8 +633,7 @@ param
 aBaseComputedStyle
 An
 optional
-style
-context
+ComputedStyle
 which
 if
 set

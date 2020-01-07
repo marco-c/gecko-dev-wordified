@@ -6239,8 +6239,7 @@ RemovePushedFloats
 /
 Resolve
 a
-style
-context
+ComputedStyle
 for
 our
 bullet

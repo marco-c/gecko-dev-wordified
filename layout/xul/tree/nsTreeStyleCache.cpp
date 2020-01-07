@@ -287,8 +287,7 @@ lb
 /
 /
 The
-style
-context
+ComputedStyle
 cache
 impl
 ComputedStyle
@@ -537,8 +536,7 @@ state
 Look
 up
 our
-style
-context
+ComputedStyle
 for
 this
 state
@@ -615,8 +613,7 @@ aInputWord
 /
 Put
 the
-style
-context
+ComputedStyle
 in
 our
 table

@@ -424,8 +424,7 @@ helper
 to
 give
 a
-style
-context
+ComputedStyle
 suitable
 for
 doing
@@ -446,8 +445,7 @@ should
 make
 the
 extra
-style
-contexts
+ComputedStyle
 /
 /
 accessible

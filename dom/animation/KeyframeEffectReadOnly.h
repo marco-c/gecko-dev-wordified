@@ -2099,8 +2099,7 @@ MaybeUpdateFrameForCompositor
 Looks
 up
 the
-style
-context
+ComputedStyle
 associated
 with
 the
@@ -2149,8 +2148,7 @@ process
 of
 building
 a
-style
-context
+ComputedStyle
 may
 trigger
 various

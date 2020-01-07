@@ -633,8 +633,7 @@ NS_STYLE_IS_TEXT_COMBINED
 /
 Whether
 a
-style
-context
+ComputedStyle
 is
 a
 Gecko
@@ -9086,8 +9085,7 @@ value
 with
 a
 parent
-style
-context
+ComputedStyle
 .
 *
 /
@@ -10955,8 +10953,7 @@ or
 to
 the
 parent
-style
-context
+ComputedStyle
 '
 s
 /
@@ -18124,8 +18121,7 @@ frame
 rather
 than
 the
-style
-context
+ComputedStyle
 (
 thus
 *
@@ -18286,8 +18282,7 @@ frame
 rather
 than
 the
-style
-context
+ComputedStyle
 (
 thus
 *

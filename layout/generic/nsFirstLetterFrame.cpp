@@ -364,8 +364,7 @@ aPrevInFlow
 /
 Get
 proper
-style
-context
+ComputedStyle
 for
 ourselves
 .
@@ -392,8 +391,7 @@ create
 /
 /
 a
-style
-context
+ComputedStyle
 that
 inherits
 from
@@ -2195,8 +2193,7 @@ need
 to
 repair
 the
-style
-context
+ComputedStyle
 so
 it
 /
@@ -2221,8 +2218,7 @@ parent
 frame
 '
 s
-style
-context
+ComputedStyle
 is
 different
 from
@@ -2233,8 +2229,7 @@ this
 frame
 '
 s
-style
-context
+ComputedStyle
 '
 s
 parent
@@ -2576,8 +2571,7 @@ repair
 our
 first
 frames
-style
-context
+ComputedStyle
 (
 since
 we
@@ -2820,8 +2814,7 @@ since
 they
 have
 separate
-style
-contexts
+ComputedStyles
 with
 initial
 values

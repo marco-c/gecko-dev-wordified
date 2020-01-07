@@ -14776,8 +14776,7 @@ to
 get
 a
 parent
-style
-context
+ComputedStyle
 for
 inherit
 -
@@ -20446,8 +20445,7 @@ and
 the
 parent
 *
-style
-context
+ComputedStyle
 changes
 in
 between
@@ -24413,8 +24411,7 @@ don
 t
 have
 a
-style
-context
+ComputedStyle
 we
 can
 '

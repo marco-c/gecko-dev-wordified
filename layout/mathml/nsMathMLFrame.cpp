@@ -584,8 +584,7 @@ Helper
 to
 give
 a
-style
-context
+ComputedStyle
 suitable
 for
 doing
@@ -610,8 +609,7 @@ the
 /
 extra
 leaf
-style
-contexts
+ComputedStyle
 given
 to
 the

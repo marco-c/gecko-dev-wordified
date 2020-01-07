@@ -2237,8 +2237,7 @@ the
 non
 -
 pseudoelement
-style
-context
+ComputedStyle
 for
 *
 the
@@ -2324,8 +2323,7 @@ the
 non
 -
 pseudoelement
-style
-context
+ComputedStyle
 for
 *
 the
@@ -4355,8 +4353,7 @@ aComputedStyle
 aContent
 '
 s
-style
-context
+ComputedStyle
 *
 param
 aPseudoElement
@@ -12526,8 +12523,7 @@ units
 param
 aComputedStyle
 The
-style
-context
+ComputedStyle
 of
 the
 nsIFrame

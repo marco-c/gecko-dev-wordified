@@ -376,8 +376,7 @@ EndUpdate
 /
 resolve
 a
-style
-context
+ComputedStyle
 already_AddRefed
 <
 ComputedStyle

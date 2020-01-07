@@ -399,8 +399,7 @@ styles
 grab
 a
 suitable
-style
-context
+ComputedStyle
 /
 /
 for

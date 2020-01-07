@@ -365,8 +365,7 @@ c
 )
 No
 base
-style
-context
+ComputedStyle
 if
 (
 nsCSSProps
@@ -484,8 +483,7 @@ yet
 have
 a
 base
-style
-context
+ComputedStyle
 we
 obviously
 /

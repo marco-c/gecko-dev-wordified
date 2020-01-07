@@ -2995,8 +2995,7 @@ mComputedStyles
 Memory
 used
 by
-style
-contexts
+ComputedStyles
 within
 a
 window

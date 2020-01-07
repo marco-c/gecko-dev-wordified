@@ -318,8 +318,7 @@ cached
 either
 on
 the
-style
-context
+ComputedStyle
 or
 in
 the
@@ -404,8 +403,7 @@ Restyle
 creates
 a
 new
-style
-context
+ComputedStyle
 .
 *
 *
@@ -432,8 +430,7 @@ that
 are
 using
 the
-style
-context
+ComputedStyle
 and
 *
 2
@@ -442,8 +439,7 @@ any
 *
 child
 *
-style
-contexts
+ComputedStyle
 (
 this
 might
@@ -594,8 +590,7 @@ this
 /
 Return
 the
-style
-context
+ComputedStyle
 whose
 style
 data
@@ -642,8 +637,7 @@ GetPseudoType
 )
 on
 this
-style
-context
+ComputedStyle
 return
 the
 /
@@ -1004,8 +998,7 @@ IsAnonBox
 /
 Does
 this
-style
-context
+ComputedStyle
 or
 any
 of
@@ -1167,8 +1160,7 @@ NS_STYLE_SUPPRESS_LINEBREAK
 /
 Does
 this
-style
-context
+ComputedStyle
 or
 any
 of
@@ -1222,8 +1214,7 @@ is
 only
 set
 on
-style
-contexts
+ComputedStyles
 whose
 pseudo
 is
@@ -1252,8 +1243,7 @@ NS_STYLE_IS_TEXT_COMBINED
 /
 Does
 this
-style
-context
+ComputedStyle
 represent
 the
 style
@@ -1270,8 +1260,7 @@ data
 from
 such
 a
-style
-context
+ComputedStyle
 ?
 Whether
 this
@@ -1348,8 +1337,7 @@ of
 the
 node
 this
-style
-context
+ComputedStyle
 is
 for
 (
@@ -1391,8 +1379,7 @@ NS_STYLE_RELEVANT_LINK_VISITED
 Is
 this
 a
-style
-context
+ComputedStyle
 for
 a
 link
@@ -1408,8 +1395,7 @@ const
 /
 Is
 this
-style
-context
+ComputedStyle
 the
 GetStyleIfVisited
 (
@@ -1442,8 +1428,7 @@ NS_STYLE_IS_STYLE_IF_VISITED
 /
 Tells
 this
-style
-context
+ComputedStyle
 that
 it
 should
@@ -1472,8 +1457,7 @@ any
 descendant
 of
 this
-style
-context
+ComputedStyle
 have
 any
 style
@@ -1486,8 +1470,7 @@ computed
 based
 on
 this
-style
-context
+ComputedStyle
 '
 s
 ancestors
@@ -1512,8 +1495,7 @@ NS_STYLE_CHILD_USES_GRANDANCESTOR_STYLE
 /
 Is
 this
-style
-context
+ComputedStyle
 shared
 with
 a
@@ -1554,8 +1536,7 @@ NS_STYLE_IS_SHARED
 Returns
 whether
 this
-style
-context
+ComputedStyle
 has
 cached
 style
@@ -1585,8 +1566,7 @@ inherited
 from
 the
 parent
-style
-context
+ComputedStyle
 or
 *
 because
@@ -2112,8 +2092,7 @@ cached
 on
 either
 the
-style
-context
+ComputedStyle
 *
 or
 the
@@ -2502,8 +2481,7 @@ image
 loads
 for
 this
-style
-context
+ComputedStyle
 .
 *
 /
@@ -2943,8 +2921,7 @@ STYLE_STRUCT_INHERITED
 /
 If
 this
-style
-context
+ComputedStyle
 is
 for
 a
@@ -3014,8 +2991,7 @@ not
 owned
 by
 the
-style
-context
+ComputedStyle
 )
 .
 /

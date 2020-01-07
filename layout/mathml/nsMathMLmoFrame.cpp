@@ -181,8 +181,7 @@ implementation
 /
 /
 additional
-style
-context
+ComputedStyle
 to
 be
 used
@@ -7072,8 +7071,7 @@ that
 depend
 on
 our
-style
-context
+ComputedStyle
 so
 /
 /
@@ -7982,8 +7980,7 @@ need
 to
 track
 the
-style
-context
+ComputedStyle
 given
 to
 our
@@ -8002,8 +7999,7 @@ to
 pass
 the
 proper
-style
-context
+ComputedStyle
 to
 our
 MathMLChar

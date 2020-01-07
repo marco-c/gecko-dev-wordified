@@ -255,8 +255,7 @@ changes
 gets
 a
 new
-style
-context
+ComputedStyle
 or
 has
 a

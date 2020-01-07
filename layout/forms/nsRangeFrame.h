@@ -1089,8 +1089,7 @@ mThumbDiv
 *
 *
 Cached
-style
-context
+ComputedStyle
 for
 -
 moz

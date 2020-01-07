@@ -1415,8 +1415,7 @@ the
 table
 frame
 the
-style
-context
+ComputedStyle
 associated
 with
 /
@@ -1428,8 +1427,7 @@ node
 and
 creating
 a
-style
-context
+ComputedStyle
 for
 the
 wrapper
@@ -1448,8 +1446,7 @@ table
 frame
 '
 s
-style
-context
+ComputedStyle
 /
 /
 matching
@@ -1522,8 +1519,7 @@ table
 wrapper
 '
 s
-style
-context
+ComputedStyle
 is
 a
 leaf

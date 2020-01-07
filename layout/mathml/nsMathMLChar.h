@@ -1048,8 +1048,7 @@ chars
 have
 their
 own
-style
-contexts
+ComputedStyles
 and
 may
 be
@@ -1116,8 +1115,7 @@ access
 the
 extra
 leaf
-style
-contexts
+ComputedStyles
 given
 to
 the

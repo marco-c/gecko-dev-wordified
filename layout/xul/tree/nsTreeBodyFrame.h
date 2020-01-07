@@ -1654,8 +1654,7 @@ called
 with
 a
 specific
-style
-context
+ComputedStyle
 and
 rect
 to
@@ -2094,8 +2093,7 @@ aParts
 Looks
 up
 a
-style
-context
+ComputedStyle
 in
 the
 style
@@ -3474,8 +3472,7 @@ cache
 of
 all
 the
-style
-contexts
+ComputedStyles
 we
 have
 seen
@@ -3501,8 +3498,7 @@ atoms
 to
 a
 corresponding
-style
-context
+ComputedStyle
 .
 This
 cache
@@ -3572,12 +3568,10 @@ view
 or
 by
 the
-style
-context
+ComputedStyle
 .
 The
-style
-context
+ComputedStyle
 /
 /
 represents
@@ -3626,8 +3620,7 @@ when
 looking
 up
 cached
-style
-contexts
+ComputedStyles
 .
 mozilla
 :

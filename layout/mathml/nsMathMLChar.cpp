@@ -5351,8 +5351,8 @@ chars
 should
 always
 have
-style
-context
+a
+ComputedStyle
 "
 )
 ;
@@ -5790,8 +5790,7 @@ Hence
 there
 are
 two
-style
-contexts
+ComputedStyles
 in
 use
 throughout
@@ -5818,8 +5817,7 @@ char
 .
 The
 parent
-style
-context
+ComputedStyle
 of
 the
 char
@@ -5949,8 +5947,7 @@ held
 by
 the
 leaf
-style
-context
+ComputedStyle
 (
 from
 -
@@ -7810,8 +7807,7 @@ aFamilyList
 Use
 our
 stretchy
-style
-context
+ComputedStyle
 now
 that
 stretching
@@ -8827,8 +8823,7 @@ aFamilyList
 Use
 our
 stretchy
-style
-context
+ComputedStyle
 now
 that
 stretching

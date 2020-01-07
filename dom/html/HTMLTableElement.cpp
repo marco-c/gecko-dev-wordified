@@ -5867,8 +5867,7 @@ display
 type
 of
 the
-style
-context
+ComputedStyle
 rather
 than
 checking

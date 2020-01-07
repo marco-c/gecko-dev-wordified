@@ -1503,8 +1503,7 @@ if
 we
 had
 no
-style
-context
+ComputedStyle
 before
 /
 /
@@ -13653,8 +13652,7 @@ image
 as
 the
 parent
-style
-context
+ComputedStyle
 isn
 '
 t

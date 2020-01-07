@@ -5290,8 +5290,7 @@ GetComputedBorder
 /
 Get
 our
-style
-context
+ComputedStyle
 '
 s
 color
@@ -6026,12 +6025,11 @@ from
 aForFrame
 since
 the
+/
+/
 passed
 in
-style
-context
-/
-/
+ComputedStyle
 may
 be
 different
@@ -6762,8 +6760,7 @@ twipsRadii
 /
 Get
 our
-style
-context
+ComputedStyle
 '
 s
 color
@@ -7715,8 +7712,7 @@ access
 /
 to
 a
-style
-context
+ComputedStyle
 and
 can
 use
@@ -8994,8 +8990,7 @@ and
 *
 the
 resulting
-style
-context
+ComputedStyle
 to
 use
 for

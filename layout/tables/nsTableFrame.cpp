@@ -1283,8 +1283,7 @@ root
 We
 have
 no
-style
-context
+ComputedStyle
 parent
 .
 *
@@ -5188,8 +5187,7 @@ here
 use
 a
 pseudo
-style
-context
+ComputedStyle
 of
 the
 /
@@ -34732,8 +34730,7 @@ Attention
 :
 the
 old
-style
-context
+ComputedStyle
 is
 the
 one
@@ -55212,8 +55209,7 @@ structs
 on
 the
 new
-style
-context
+ComputedStyle
 /
 /
 but
