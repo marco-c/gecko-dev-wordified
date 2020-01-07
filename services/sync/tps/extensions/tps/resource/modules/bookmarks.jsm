@@ -608,6 +608,15 @@ PlacesUtils
 bookmarks
 .
 toolbarGuid
+"
+mobile
+"
+:
+PlacesUtils
+.
+bookmarks
+.
+mobileGuid
 }
 _typeMap
 :
