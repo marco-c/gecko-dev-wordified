@@ -1114,7 +1114,7 @@ onFetchCompleted
 }
 }
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (
@@ -1326,7 +1326,7 @@ fetch
 "
 )
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (

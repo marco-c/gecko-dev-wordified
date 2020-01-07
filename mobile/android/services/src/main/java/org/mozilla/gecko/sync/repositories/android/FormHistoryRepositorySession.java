@@ -1405,7 +1405,7 @@ onFetchCompleted
 }
 }
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (
