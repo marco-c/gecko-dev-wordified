@@ -682,6 +682,16 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
+Dismiss
+(
+)
+override
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
+NS_IMETHOD
 AsyncDoom
 (
 nsICacheEntryDoomCallback
