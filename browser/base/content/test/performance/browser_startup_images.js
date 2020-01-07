@@ -507,9 +507,6 @@ intermittentShown
 "
 win
 "
-"
-linux
-"
 ]
 }
 {

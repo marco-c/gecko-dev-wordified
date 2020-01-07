@@ -844,17 +844,6 @@ chrome
 has
 loaded
 bool
-mSizingShellFromXUL
-;
-/
-/
-true
-when
-in
-SizeShell
-(
-)
-bool
 mShowAfterLoad
 ;
 bool
