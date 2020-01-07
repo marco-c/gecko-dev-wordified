@@ -5487,7 +5487,6 @@ change
 .
 *
 /
-virtual
 nsresult
 SetAttr
 (
