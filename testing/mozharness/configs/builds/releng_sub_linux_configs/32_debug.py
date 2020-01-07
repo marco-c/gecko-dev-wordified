@@ -167,13 +167,6 @@ local
 bin
 :
 /
-usr
-/
-lib
-/
-ccache
-:
-/
 bin
 :
 \
