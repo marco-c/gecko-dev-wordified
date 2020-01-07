@@ -366,7 +366,7 @@ this
 "
 GeckoView
 :
-EnableModule
+UpdateModuleState
 "
 "
 GeckoView
@@ -551,7 +551,7 @@ case
 "
 GeckoView
 :
-EnableModule
+UpdateModuleState
 "
 :
 {
