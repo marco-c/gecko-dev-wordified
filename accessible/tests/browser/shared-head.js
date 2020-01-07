@@ -973,10 +973,13 @@ editor
 |
 |
 elm
-instanceof
-Ci
 .
-nsIDOMXULTextBoxElement
+localName
+=
+=
+"
+textbox
+"
 )
 {
 elm
