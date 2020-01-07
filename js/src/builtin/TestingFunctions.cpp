@@ -8931,6 +8931,10 @@ res
 return
 false
 ;
+if
+(
+allocatedExternal
+)
 mozilla
 :
 :
