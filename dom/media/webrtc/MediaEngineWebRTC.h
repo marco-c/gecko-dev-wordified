@@ -2605,7 +2605,7 @@ nsAutoPtr
 AudioPacketizer
 <
 AudioDataValue
-AudioDataValue
+float
 >
 >
 mPacketizer
@@ -2792,6 +2792,9 @@ AlignedFloatBuffer
 mInputBuffer
 ;
 AlignedFloatBuffer
+mDeinterleavedBuffer
+;
+AlignedAudioBuffer
 mInputDownmixBuffer
 ;
 }
