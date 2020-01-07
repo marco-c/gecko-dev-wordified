@@ -1195,8 +1195,8 @@ msgid
 44
 ]
 ;
-int
-len2
+size_t
+unused
 ;
 if
 (
@@ -1291,7 +1291,7 @@ sizeof
 reqid
 )
 &
-len2
+unused
 )
 ;
 nr_nbin2hex
@@ -1316,7 +1316,7 @@ sizeof
 msgid
 )
 &
-len2
+unused
 )
 ;
 r_log

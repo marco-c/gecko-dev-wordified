@@ -727,7 +727,7 @@ action
 int
 _status
 ;
-int
+size_t
 i
 ;
 for
@@ -2373,7 +2373,7 @@ int
 r
 _status
 ;
-int
+size_t
 i
 ;
 for
@@ -2488,7 +2488,7 @@ int
 r
 _status
 ;
-int
+size_t
 i
 ;
 for

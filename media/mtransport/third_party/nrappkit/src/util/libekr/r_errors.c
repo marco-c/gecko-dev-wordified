@@ -781,7 +781,7 @@ unknown_error
 256
 ]
 ;
-int
+size_t
 i
 ;
 char
