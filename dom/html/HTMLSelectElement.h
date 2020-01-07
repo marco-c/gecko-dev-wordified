@@ -1526,7 +1526,7 @@ override
 ;
 virtual
 void
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex

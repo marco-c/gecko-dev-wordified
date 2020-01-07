@@ -18190,7 +18190,7 @@ childCount
 i
 )
 {
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 true

@@ -1590,7 +1590,7 @@ void
 Attr
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex

@@ -1413,7 +1413,7 @@ parent
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 pos
 true
@@ -1501,7 +1501,7 @@ GetFirstChild
 aNode
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 true

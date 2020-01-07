@@ -714,7 +714,7 @@ void
 SVGSwitchElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -725,7 +725,7 @@ aNotify
 SVGSwitchElementBase
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

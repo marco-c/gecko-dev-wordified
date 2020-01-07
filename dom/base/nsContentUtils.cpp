@@ -29280,7 +29280,7 @@ else
 aContent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 removeIndex
 true
@@ -29331,7 +29331,7 @@ i
 aContent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 true

@@ -5881,7 +5881,7 @@ NS_OK
 /
 Note
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 sets
 |
 child
@@ -5892,9 +5892,9 @@ document
 to
 null
 so
+/
+/
 that
-/
-/
 it
 '
 ll
@@ -5912,14 +5912,12 @@ resource
 to
 -
 element
-/
-/
 map
 .
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 pos
 true
@@ -8076,7 +8074,7 @@ bye
 element
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 i
 true

@@ -842,7 +842,7 @@ void
 HTMLFieldSetElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -947,7 +947,7 @@ break
 nsGenericHTMLFormElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

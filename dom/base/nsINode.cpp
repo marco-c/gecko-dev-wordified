@@ -3498,7 +3498,7 @@ return
 nullptr
 ;
 }
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 index
 true
@@ -4207,7 +4207,7 @@ parent
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 parent
 -
@@ -10687,10 +10687,12 @@ element
 per
 note
 in
+/
+/
 nsDocument
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 )
 .
@@ -12931,7 +12933,7 @@ true
 oldParent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 removeIndex
 true
@@ -13517,7 +13519,7 @@ i
 newContent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 -
 -
@@ -14176,7 +14178,7 @@ small
 "
 )
 ;
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 insPos
 -

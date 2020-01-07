@@ -7821,7 +7821,7 @@ IsEmpty
 mRootNode
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 true

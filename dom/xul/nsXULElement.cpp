@@ -5812,7 +5812,7 @@ void
 nsXULElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -6333,7 +6333,7 @@ newCurrentIndex
 nsStyledElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

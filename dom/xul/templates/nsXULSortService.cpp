@@ -1877,7 +1877,7 @@ child
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 index
 true

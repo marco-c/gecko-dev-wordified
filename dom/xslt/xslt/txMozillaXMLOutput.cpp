@@ -3296,7 +3296,7 @@ else
 mDocument
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 j
 true

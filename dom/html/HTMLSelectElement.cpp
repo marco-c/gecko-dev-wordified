@@ -1294,7 +1294,7 @@ void
 HTMLSelectElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -1315,7 +1315,7 @@ aNotify
 nsGenericHTMLFormElementWithState
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

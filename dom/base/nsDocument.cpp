@@ -25705,7 +25705,7 @@ void
 nsDocument
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -41754,7 +41754,7 @@ GetFirstChild
 aNode
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 false
@@ -42904,7 +42904,7 @@ idx
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 idx
 true
