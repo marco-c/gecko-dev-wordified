@@ -25957,7 +25957,7 @@ new
 ServiceWorkerGlobalScope
 (
 this
-ServiceWorkerScope
+GetServiceWorkerRegistrationDescriptor
 (
 )
 )

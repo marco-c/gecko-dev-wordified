@@ -1265,9 +1265,9 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsACString
+ServiceWorkerRegistrationDescriptor
 &
-aScope
+aRegistrationDescriptor
 )
 ;
 virtual
