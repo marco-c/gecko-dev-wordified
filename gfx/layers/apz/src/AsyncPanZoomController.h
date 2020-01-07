@@ -3640,7 +3640,7 @@ ParentLayerPoint
 &
 aScrollbarPoint
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 )

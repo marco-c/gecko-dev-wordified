@@ -179,7 +179,7 @@ class
 LayerMetricsWrapper
 ;
 struct
-ScrollThumbData
+ScrollbarData
 ;
 /
 *
@@ -391,7 +391,7 @@ LayerMetricsWrapper
 &
 aContent
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 bool

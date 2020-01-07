@@ -33057,8 +33057,8 @@ mozilla
 layers
 :
 :
-ScrollThumbData
-ScrollThumbData
+ScrollbarData
+ScrollbarData
 ;
 /
 *
@@ -33182,11 +33182,11 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 =
-ScrollThumbData
+ScrollbarData
 {
 }
 bool
@@ -33510,7 +33510,7 @@ can
 be
 ignored
 .
-ScrollThumbData
+ScrollbarData
 mThumbData
 ;
 bool

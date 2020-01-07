@@ -438,7 +438,7 @@ LayerMetricsWrapper
 &
 aContent
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 bool

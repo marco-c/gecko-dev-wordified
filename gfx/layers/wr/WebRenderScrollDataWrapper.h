@@ -1686,9 +1686,9 @@ GetEventRegionsOverride
 ;
 }
 const
-ScrollThumbData
+ScrollbarData
 &
-GetScrollThumbData
+GetScrollbarData
 (
 )
 const
@@ -1704,7 +1704,7 @@ return
 mLayer
 -
 >
-GetScrollThumbData
+GetScrollbarData
 (
 )
 ;

@@ -2343,9 +2343,9 @@ NoOverride
 ;
 }
 const
-ScrollThumbData
+ScrollbarData
 &
-GetScrollThumbData
+GetScrollbarData
 (
 )
 const
@@ -2361,7 +2361,7 @@ return
 mLayer
 -
 >
-GetScrollThumbData
+GetScrollbarData
 (
 )
 ;
@@ -2434,7 +2434,7 @@ return
 mLayer
 -
 >
-GetScrollbarTargetContainerId
+GetScrollbarTargetViewId
 (
 )
 ;
