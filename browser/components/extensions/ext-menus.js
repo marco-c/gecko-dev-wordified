@@ -2955,7 +2955,7 @@ onAudio
 "
 audio
 "
-onEditable
+onEditableArea
 :
 "
 editable
@@ -3239,7 +3239,12 @@ editable
 =
 contextData
 .
-onEditable
+onEditableArea
+|
+|
+contextData
+.
+onPassword
 |
 |
 false
