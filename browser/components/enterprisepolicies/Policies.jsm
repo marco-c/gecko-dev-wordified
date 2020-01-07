@@ -289,7 +289,7 @@ Policies
 =
 {
 "
-block_about_config
+BlockAboutConfig
 "
 :
 {
