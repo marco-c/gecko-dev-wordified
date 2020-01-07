@@ -1725,7 +1725,7 @@ this
 )
 *
 /
-bool
+void
 NegotiateLanguages
 (
 const
