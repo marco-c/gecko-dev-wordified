@@ -5056,7 +5056,7 @@ class
 SimdObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

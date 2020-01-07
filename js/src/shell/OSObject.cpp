@@ -2576,7 +2576,7 @@ class
 FileObject
 :
 public
-JSObject
+NativeObject
 {
 enum
 :

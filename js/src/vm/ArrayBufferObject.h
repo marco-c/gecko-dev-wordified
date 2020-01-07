@@ -2884,7 +2884,7 @@ class
 ArrayBufferViewObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

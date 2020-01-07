@@ -157,6 +157,15 @@ MutexIDs
 .
 h
 "
+#
+include
+"
+vm
+/
+NativeObject
+.
+h
+"
 namespace
 js
 {
@@ -164,7 +173,7 @@ class
 AtomicsObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

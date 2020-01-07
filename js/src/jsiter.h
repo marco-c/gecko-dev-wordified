@@ -679,7 +679,7 @@ class
 ArrayIteratorObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :
@@ -707,7 +707,7 @@ class
 StringIteratorObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :
