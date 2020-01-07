@@ -151,7 +151,6 @@ status
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
@@ -300,7 +299,6 @@ StringIO
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
@@ -504,7 +502,6 @@ status
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
@@ -648,7 +645,6 @@ status
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
@@ -757,7 +753,6 @@ status
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
@@ -1002,7 +997,6 @@ status
     
 tbpl_status
 log_level
-summary
 =
 get_mozharness_status
 (
