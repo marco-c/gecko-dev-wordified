@@ -68,10 +68,6 @@ attr
 import
 yaml
 from
-mozpack
-import
-path
-from
 .
 util
 .
