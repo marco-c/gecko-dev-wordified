@@ -2330,6 +2330,11 @@ new
 APZUpdater
 (
 mApzcTreeManager
+mOptions
+.
+UseWebRender
+(
+)
 )
 ;
 }
