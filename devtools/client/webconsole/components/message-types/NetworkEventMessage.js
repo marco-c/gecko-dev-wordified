@@ -1034,6 +1034,9 @@ tabId
 )
 ;
 }
+hideToggleButton
+:
+true
 }
 )
 )
