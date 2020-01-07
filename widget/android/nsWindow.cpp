@@ -6579,9 +6579,6 @@ sName
 LayerViewSupport
 "
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 /
 *
 PresentationMediaPlayerManager
@@ -7001,8 +6998,6 @@ PMPMSupport
 :
 sSurface
 ;
-#
-endif
 nsWindow
 :
 :
@@ -8048,9 +8043,6 @@ Init
 (
 )
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 if
 (
 jni
@@ -8072,8 +8064,6 @@ Init
 )
 ;
 }
-#
-endif
 GeckoEditableSupport
 :
 :
@@ -11383,9 +11373,6 @@ Get
 return
 nullptr
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 case
 NS_PRESENTATION_WINDOW
 :
@@ -11404,8 +11391,6 @@ PMPMSupport
 :
 sSurface
 ;
-#
-endif
 }
 return
 nullptr
@@ -11428,9 +11413,6 @@ switch
 aDataType
 )
 {
-#
-ifdef
-MOZ_NATIVE_DEVICES
 case
 NS_PRESENTATION_SURFACE
 :
@@ -11449,8 +11431,6 @@ aVal
 ;
 break
 ;
-#
-endif
 }
 }
 void
