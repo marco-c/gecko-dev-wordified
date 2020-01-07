@@ -277,13 +277,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h

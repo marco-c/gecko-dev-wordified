@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

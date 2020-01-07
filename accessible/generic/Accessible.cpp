@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULLabelElement
 .
 h

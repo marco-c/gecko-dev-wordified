@@ -536,13 +536,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

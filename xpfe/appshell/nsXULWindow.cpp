@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
