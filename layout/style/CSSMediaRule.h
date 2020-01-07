@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIDOMCSSMediaRule
+nsIDOMCSSConditionRule
 .
 h
 "
@@ -153,7 +153,7 @@ css
 :
 ConditionRule
 public
-nsIDOMCSSMediaRule
+nsIDOMCSSConditionRule
 {
 protected
 :
@@ -221,11 +221,6 @@ override
 =
 0
 ;
-/
-/
-nsIDOMCSSMediaRule
-interface
-NS_DECL_NSIDOMCSSMEDIARULE
 /
 /
 WebIDL

@@ -1845,10 +1845,6 @@ Append
 )
 ;
 }
-/
-/
-nsIDOMCSSMediaRule
-methods
 nsresult
 GroupRule
 :

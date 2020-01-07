@@ -1119,7 +1119,7 @@ to
 implement
 methods
 on
-nsIDOMCSSMediaRule
+nsIDOMCSSGroupingRule
 nsresult
 GetCssRules
 (
