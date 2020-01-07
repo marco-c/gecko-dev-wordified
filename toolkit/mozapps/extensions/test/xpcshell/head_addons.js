@@ -845,11 +845,6 @@ test_syncGUID
 .
 js
 "
-"
-test_upgrade
-.
-js
-"
 ]
 )
 ;
