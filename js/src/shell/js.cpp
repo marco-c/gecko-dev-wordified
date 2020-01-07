@@ -5033,6 +5033,9 @@ JS
 :
 HandleObject
 promise
+JS
+:
+:
 PromiseRejectionHandlingState
 state
 void

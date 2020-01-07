@@ -582,6 +582,9 @@ JS
 :
 HandleObject
 aPromise
+JS
+:
+:
 PromiseRejectionHandlingState
 state
 void

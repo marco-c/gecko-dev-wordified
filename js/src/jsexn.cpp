@@ -2320,6 +2320,9 @@ JS_PUBLIC_API
 JSObject
 *
 )
+JS
+:
+:
 ExceptionStackOrNull
 (
 HandleObject

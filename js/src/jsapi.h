@@ -3422,6 +3422,9 @@ void
 data
 )
 ;
+namespace
+JS
+{
 enum
 class
 PromiseRejectionHandlingState
@@ -3430,6 +3433,13 @@ Unhandled
 Handled
 }
 ;
+}
+/
+*
+namespace
+JS
+*
+/
 typedef
 void
 (
@@ -3445,6 +3455,9 @@ JS
 :
 HandleObject
 promise
+JS
+:
+:
 PromiseRejectionHandlingState
 state
 void
@@ -38903,6 +38916,9 @@ HandleObject
 obj
 )
 ;
+namespace
+JS
+{
 /
 *
 *
@@ -38994,6 +39010,13 @@ HandleObject
 obj
 )
 ;
+}
+/
+*
+namespace
+JS
+*
+/
 /
 *
 *
