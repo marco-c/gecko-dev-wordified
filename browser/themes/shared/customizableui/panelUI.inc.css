@@ -10955,6 +10955,10 @@ center
 ;
 }
 .
+PanelUI
+-
+subView
+.
 panel
 -
 header
@@ -11013,6 +11017,11 @@ padding
 ;
 }
 .
+panel
+-
+header
+>
+.
 subviewbutton
 -
 back
@@ -11036,6 +11045,11 @@ scaleX
 )
 ;
 }
+.
+panel
+-
+header
+>
 .
 subviewbutton
 -
