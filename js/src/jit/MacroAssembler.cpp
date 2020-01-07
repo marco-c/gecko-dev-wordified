@@ -19166,7 +19166,7 @@ wasm
 :
 TrapSite
 (
-illegalInstruction
+wasmTrapInstruction
 (
 )
 .

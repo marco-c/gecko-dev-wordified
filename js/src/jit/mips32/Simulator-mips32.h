@@ -722,6 +722,12 @@ kMaxStopCode
 =
 127
 ;
+const
+uint32_t
+kWasmTrapCode
+=
+6
+;
 /
 /
 -
@@ -2014,6 +2020,11 @@ int32_t
 addr
 unsigned
 numBytes
+)
+;
+bool
+handleWasmTrapFault
+(
 )
 ;
 /

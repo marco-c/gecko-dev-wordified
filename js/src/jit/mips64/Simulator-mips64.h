@@ -786,6 +786,12 @@ kMaxStopCode
 =
 127
 ;
+const
+uint32_t
+kWasmTrapCode
+=
+6
+;
 /
 /
 -
@@ -2109,6 +2115,11 @@ startInterrupt
 JitActivation
 *
 act
+)
+;
+bool
+handleWasmTrapFault
+(
 )
 ;
 /

@@ -4026,7 +4026,7 @@ CodeOffset
 MacroAssembler
 :
 :
-illegalInstruction
+wasmTrapInstruction
 (
 )
 {
