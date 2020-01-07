@@ -773,6 +773,12 @@ activation
 asJit
 (
 )
+/
+*
+mustUnwindActivation
+*
+/
+true
 )
 {
 stack

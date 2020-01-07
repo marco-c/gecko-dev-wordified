@@ -11555,6 +11555,9 @@ WasmFrameIter
 >
 iter_
 ;
+bool
+mustUnwindActivation_
+;
 void
 settle
 (
@@ -11573,6 +11576,10 @@ nullptr
 iter_
 (
 )
+mustUnwindActivation_
+(
+false
+)
 {
 }
 explicit
@@ -11584,6 +11591,10 @@ jit
 JitActivation
 *
 activation
+bool
+mustUnwindActivation
+=
+false
 )
 ;
 explicit
