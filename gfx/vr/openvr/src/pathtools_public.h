@@ -369,10 +369,6 @@ std
 string
 &
 sBasePath
-char
-slash
-=
-0
 )
 ;
 /
