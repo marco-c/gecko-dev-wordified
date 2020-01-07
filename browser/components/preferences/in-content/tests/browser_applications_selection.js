@@ -252,6 +252,8 @@ let
 list
 =
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -396,6 +398,8 @@ result
 list
 =
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -573,6 +577,8 @@ race
 conditions
 .
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -633,6 +639,8 @@ let
 list
 =
 await
+TestUtils
+.
 waitForCondition
 (
 (
