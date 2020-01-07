@@ -210,7 +210,11 @@ h
 #
 include
 "
-jscompartmentinlines
+vm
+/
+GeckoProfiler
+-
+inl
 .
 h
 "
@@ -219,7 +223,7 @@ include
 "
 vm
 /
-GeckoProfiler
+JSCompartment
 -
 inl
 .

@@ -133,7 +133,9 @@ h
 #
 include
 "
-jscompartment
+vm
+/
+EnvironmentObject
 .
 h
 "
@@ -142,7 +144,7 @@ include
 "
 vm
 /
-EnvironmentObject
+JSCompartment
 .
 h
 "

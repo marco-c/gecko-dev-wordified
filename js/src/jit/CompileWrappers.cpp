@@ -136,7 +136,11 @@ h
 #
 include
 "
-jscompartmentinlines
+vm
+/
+JSCompartment
+-
+inl
 .
 h
 "

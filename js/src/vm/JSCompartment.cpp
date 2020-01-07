@@ -111,7 +111,11 @@ MPL
 #
 include
 "
-jscompartmentinlines
+vm
+/
+JSCompartment
+-
+inl
 .
 h
 "

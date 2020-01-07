@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jscompartmentinlines_h
+vm_JSCompartment_inl_h
 #
 define
-jscompartmentinlines_h
+vm_JSCompartment_inl_h
 #
 include
 "
-jscompartment
+vm
+/
+JSCompartment
 .
 h
 "
@@ -1214,6 +1216,6 @@ true
 endif
 /
 *
-jscompartmentinlines_h
+vm_JSCompartment_inl_h
 *
 /
