@@ -2740,6 +2740,9 @@ break
 case
 kStarted
 :
+case
+kStopped
+:
 if
 (
 prefs
