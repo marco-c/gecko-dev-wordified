@@ -13828,7 +13828,7 @@ SetAttrAndNotify
 /
 will
 call
-nsNodeUtills
+nsNodeUtils
 :
 :
 AttributeChanged
@@ -13889,7 +13889,7 @@ events
 that
 /
 /
-nsNodeUtills
+nsNodeUtils
 :
 :
 AttributeChanged
