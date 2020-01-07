@@ -4029,6 +4029,17 @@ HandleObject
 templateObject
 )
 ;
+#
+ifdef
+DEBUG
+static
+void
+enableShapeConsistencyChecks
+(
+)
+;
+#
+endif
 protected
 :
 #
