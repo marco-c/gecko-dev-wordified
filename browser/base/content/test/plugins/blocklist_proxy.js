@@ -255,17 +255,6 @@ aData
 )
 {
 }
-isAddonBlocklisted
-(
-aAddon
-aAppVersion
-aToolkitVersion
-)
-{
-return
-false
-;
-}
 getAddonBlocklistState
 (
 aAddon
