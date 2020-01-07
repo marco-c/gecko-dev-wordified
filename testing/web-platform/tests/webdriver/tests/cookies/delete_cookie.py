@@ -5,8 +5,8 @@ support
 .
 asserts
 import
-assert_error
 assert_dialog_handled
+assert_error
 assert_success
 from
 tests
@@ -363,13 +363,10 @@ foo
 "
 )
     
-assert
+assert_success
+(
 response
-.
-status
-=
-=
-200
+)
     
 assert_dialog_handled
 (
@@ -413,13 +410,10 @@ foo
 "
 )
     
-assert
+assert_success
+(
 response
-.
-status
-=
-=
-200
+)
     
 assert_dialog_handled
 (
@@ -463,13 +457,10 @@ foo
 "
 )
     
-assert
+assert_success
+(
 response
-.
-status
-=
-=
-200
+)
     
 assert_dialog_handled
 (
@@ -778,31 +769,7 @@ stilton
 "
 )
     
-assert
+assert_success
+(
 response
-.
-status
-=
-=
-200
-    
-assert
-"
-value
-"
-in
-response
-.
-body
-    
-assert
-response
-.
-body
-[
-"
-value
-"
-]
-is
-None
+)
