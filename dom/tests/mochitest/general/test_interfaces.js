@@ -3543,9 +3543,9 @@ DeviceLightEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 /
 /
@@ -3624,9 +3624,9 @@ DeviceProximityEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 /
 /
@@ -14992,9 +14992,9 @@ UserProximityEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 /
 /
