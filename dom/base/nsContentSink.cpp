@@ -9028,6 +9028,16 @@ nsIDocument
 aDoc
 )
 {
+MOZ_ASSERT
+(
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIObserverService
