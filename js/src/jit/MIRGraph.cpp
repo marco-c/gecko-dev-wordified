@@ -7323,9 +7323,6 @@ successorWithPhis
 )
 )
 ;
-AutoEnterOOMUnsafeRegion
-oomUnsafe
-;
 if
 (
 !
