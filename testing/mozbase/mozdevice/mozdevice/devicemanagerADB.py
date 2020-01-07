@@ -3820,13 +3820,8 @@ i
 +
 "
 /
-org
 .
-mozilla
-.
-gecko
-.
-BrowserApp
+App
 "
 )
         

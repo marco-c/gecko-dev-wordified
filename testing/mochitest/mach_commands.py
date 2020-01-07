@@ -2828,6 +2828,33 @@ android_device
 import
 verify_android_device
             
+app
+=
+kwargs
+.
+get
+(
+'
+app
+'
+)
+            
+if
+not
+app
+:
+                
+app
+=
+self
+.
+substs
+[
+"
+ANDROID_PACKAGE_NAME
+"
+]
+            
 #
 verify
 installation
@@ -2843,17 +2870,13 @@ xre
 False
 app
 =
-kwargs
-[
-'
 app
-'
-]
 )
             
 grant_runtime_permissions
 (
 self
+app
 )
             
 run_mochitest
