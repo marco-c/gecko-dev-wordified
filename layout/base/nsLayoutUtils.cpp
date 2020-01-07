@@ -19101,12 +19101,10 @@ nsDisplayTransform
 *
 item
 =
-new
-(
-&
-builder
-)
+MakeDisplayItem
+<
 nsDisplayTransform
+>
 (
 &
 builder
