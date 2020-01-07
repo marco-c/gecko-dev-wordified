@@ -2390,7 +2390,7 @@ pwField
 =
 event
 .
-target
+originalTarget
 ;
 if
 (

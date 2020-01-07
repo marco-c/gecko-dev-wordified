@@ -509,6 +509,11 @@ ownerGlobal
 if
 (
 gBrowser
+&
+&
+gBrowser
+.
+getTabForBrowser
 )
 {
 let
