@@ -11246,7 +11246,6 @@ label
 DEFINED_ON
 (
 arm64
-mips64
 x64
 )
 ;
