@@ -2272,7 +2272,7 @@ error
 *
 /
 class
-ErrorEvent
+OSFileErrorEvent
 final
 :
 public
@@ -2411,7 +2411,7 @@ thread
 .
 *
 /
-ErrorEvent
+OSFileErrorEvent
 (
 nsMainThreadPtrHandle
 <
@@ -2442,7 +2442,7 @@ aOSError
 Runnable
 (
 "
-ErrorEvent
+OSFileErrorEvent
 "
 )
 mOnSuccess
@@ -3025,12 +3025,12 @@ Resolve
 ;
 RefPtr
 <
-ErrorEvent
+OSFileErrorEvent
 >
 event
 =
 new
-ErrorEvent
+OSFileErrorEvent
 (
 mOnSuccess
 mOnError
@@ -3101,7 +3101,7 @@ NS_ReleaseOnMainThreadSystemGroup
 AbstractDoEvent
 :
 :
-ErrorEvent
+OSFileErrorEvent
 "
 event
 .
