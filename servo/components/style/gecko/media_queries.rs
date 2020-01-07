@@ -4577,7 +4577,7 @@ unsafe
 structs
 :
 :
-StylePrefs_sWebkitPrefixedAliasesEnabled
+StaticPrefs_sVarCache_layout_css_prefixes_webkit
 }
 &
 &
@@ -4615,7 +4615,7 @@ unsafe
 structs
 :
 :
-StylePrefs_sWebkitDevicePixelRatioEnabled
+StaticPrefs_sVarCache_layout_css_prefixes_device_pixel_ratio_webkit
 }
 {
 flags

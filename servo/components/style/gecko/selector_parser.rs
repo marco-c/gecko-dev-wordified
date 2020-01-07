@@ -1503,7 +1503,7 @@ unsafe
 mozilla
 :
 :
-StylePrefs_sUnprefixedFullscreenApiEnabled
+StaticPrefs_sVarCache_full_screen_api_unprefix_enabled
 }
 /
 /

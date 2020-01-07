@@ -3052,7 +3052,7 @@ unsafe
 mozilla
 :
 :
-StylePrefs_sFramesTimingFunctionEnabled
+StaticPrefs_sVarCache_layout_css_frames_timing_enabled
 }
 }
 #

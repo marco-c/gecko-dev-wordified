@@ -3125,7 +3125,7 @@ unsafe
 mozilla
 :
 :
-StylePrefs_sGridTemplateSubgridValueEnabled
+StaticPrefs_sVarCache_layout_css_grid_template_subgrid_value_enabled
 }
 }
 #

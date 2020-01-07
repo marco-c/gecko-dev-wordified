@@ -1825,7 +1825,7 @@ mozilla
 mozilla
 :
 :
-StylePrefs_sFontDisplayEnabled
+StaticPrefs_sVarCache_layout_css_font_display_enabled
 }
 }
 ;
@@ -1855,7 +1855,7 @@ mozilla
 mozilla
 :
 :
-StylePrefs_sFontVariationsEnabled
+StaticPrefs_sVarCache_layout_css_font_variations_enabled
 }
 }
 ;
