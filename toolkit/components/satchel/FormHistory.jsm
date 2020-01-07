@@ -9321,17 +9321,6 @@ return
 pending
 ;
 }
-get
-schemaVersion
-(
-)
-{
-return
-dbConnection
-.
-schemaVersion
-;
-}
 /
 /
 This
