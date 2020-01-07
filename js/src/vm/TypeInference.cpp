@@ -175,6 +175,11 @@ h
 "
 #
 include
+<
+new
+>
+#
+include
 "
 jsapi
 .
@@ -5683,7 +5688,7 @@ bool
 TypeSet
 :
 :
-clone
+cloneIntoUninitialized
 (
 LifoAlloc
 *
@@ -5694,16 +5699,6 @@ result
 )
 const
 {
-MOZ_ASSERT
-(
-result
--
->
-empty
-(
-)
-)
-;
 unsigned
 objectCount
 =
@@ -5847,7 +5842,7 @@ res
 alloc
 -
 >
-new_
+pod_malloc
 <
 TemporaryTypeSet
 >
@@ -5861,7 +5856,7 @@ res
 |
 |
 !
-clone
+cloneIntoUninitialized
 (
 alloc
 res
@@ -7662,12 +7657,6 @@ types
 return
 false
 ;
-PodZero
-(
-types
-count
-)
-;
 for
 (
 size_t
@@ -7692,7 +7681,7 @@ existing
 i
 ]
 .
-clone
+cloneIntoUninitialized
 (
 alloc
 &
