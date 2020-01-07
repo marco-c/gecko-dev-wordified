@@ -446,6 +446,16 @@ slot
 namespace
 frontend
 {
+enum
+class
+ParseGoal
+:
+uint8_t
+{
+Script
+Module
+}
+;
 /
 /
 A

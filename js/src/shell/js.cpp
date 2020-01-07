@@ -27292,6 +27292,10 @@ usedNames
 nullptr
 nullptr
 sourceObject
+ParseGoal
+:
+:
+Script
 )
 ;
 if
@@ -27646,6 +27650,13 @@ usedNames
 nullptr
 nullptr
 sourceObject
+frontend
+:
+:
+ParseGoal
+:
+:
+Script
 )
 ;
 if

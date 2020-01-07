@@ -660,6 +660,16 @@ Let
 \
 macro
 (
+meta
+meta
+TokenKind
+:
+:
+Meta
+)
+\
+macro
+(
 of
 of
 TokenKind

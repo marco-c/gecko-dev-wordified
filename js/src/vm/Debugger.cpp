@@ -33563,6 +33563,13 @@ usedNames
 nullptr
 nullptr
 sourceObject
+frontend
+:
+:
+ParseGoal
+:
+:
+Script
 )
 ;
 JS

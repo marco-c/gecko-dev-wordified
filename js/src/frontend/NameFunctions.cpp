@@ -3123,6 +3123,12 @@ ParseNodeKind
 :
 NewTarget
 :
+case
+ParseNodeKind
+:
+:
+ImportMeta
+:
 MOZ_ASSERT
 (
 cur
