@@ -155,6 +155,17 @@ mozilla
 /
 dom
 /
+DOMPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PerformanceEntryBinding
 .
 h

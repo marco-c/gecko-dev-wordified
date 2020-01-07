@@ -464,6 +464,15 @@ devtools
 enabled
 "
 )
+DOM_PREF
+(
+PerformanceObserverEnabled
+"
+dom
+.
+enable_performance_observer
+"
+)
 DOM_WEBIDL_PREF
 (
 ImageBitmapExtensionsEnabled
@@ -519,4 +528,8 @@ NetworkInformationEnabled
 DOM_WEBIDL_PREF
 (
 FetchObserverEnabled
+)
+DOM_WEBIDL_PREF
+(
+PerformanceObserverEnabled
 )
