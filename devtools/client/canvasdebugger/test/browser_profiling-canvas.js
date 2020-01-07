@@ -326,6 +326,7 @@ i
 .
 timestamp
 >
+=
 functionCalls
 [
 i
