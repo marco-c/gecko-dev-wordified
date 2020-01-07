@@ -1673,6 +1673,11 @@ usize
 type
 LockExternalImageCallback
 =
+unsafe
+extern
+"
+C
+"
 fn
 (
 *
@@ -1688,6 +1693,11 @@ WrExternalImage
 type
 UnlockExternalImageCallback
 =
+unsafe
+extern
+"
+C
+"
 fn
 (
 *
@@ -1745,6 +1755,8 @@ ExternalImage
 let
 image
 =
+unsafe
+{
 (
 self
 .
@@ -1761,6 +1773,7 @@ into
 )
 channel_index
 )
+}
 ;
 ExternalImage
 {
@@ -1854,6 +1867,8 @@ channel_index
 u8
 )
 {
+unsafe
+{
 (
 self
 .
@@ -1871,6 +1886,7 @@ into
 channel_index
 )
 ;
+}
 }
 }
 #
