@@ -528,7 +528,7 @@ webrender_api
 :
 :
 {
-ClipId
+ExternalScrollId
 DevicePixel
 DocumentId
 ImageKey
@@ -5798,9 +5798,9 @@ scroll
 root
 .
 pub
-scroll_root_id
+scroll_id
 :
-ClipId
+ExternalScrollId
 /
 /
 /

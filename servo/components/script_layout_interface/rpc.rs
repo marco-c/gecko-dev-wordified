@@ -108,7 +108,7 @@ use
 webrender_api
 :
 :
-ClipId
+ExternalScrollId
 ;
 /
 /
@@ -308,7 +308,6 @@ NodeGeometryResponse
 Requests
 the
 scroll
-root
 id
 of
 this
@@ -321,14 +320,14 @@ such
 as
 scrollTop
 fn
-node_scroll_root_id
+node_scroll_id
 (
 &
 self
 )
 -
 >
-NodeScrollRootIdResponse
+NodeScrollIdResponse
 ;
 /
 /
@@ -501,10 +500,10 @@ T
 ;
 pub
 struct
-NodeScrollRootIdResponse
+NodeScrollIdResponse
 (
 pub
-ClipId
+ExternalScrollId
 )
 ;
 pub

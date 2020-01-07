@@ -234,7 +234,7 @@ use
 webrender_api
 :
 :
-ClipId
+ExternalScrollId
 ;
 #
 [
@@ -2043,7 +2043,7 @@ fragment_type
 )
 }
 fn
-generate_scroll_root_id
+generate_scroll_id
 (
 &
 self
@@ -2053,7 +2053,7 @@ PipelineId
 )
 -
 >
-ClipId
+ExternalScrollId
 {
 let
 id
@@ -2076,10 +2076,7 @@ fragment_type
 )
 )
 ;
-ClipId
-:
-:
-new
+ExternalScrollId
 (
 id
 as
