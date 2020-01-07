@@ -202,6 +202,13 @@ nsIAccessibleRole
 ROLE_COLUMNHEADER
 ;
 const
+ROLE_DATE_EDITOR
+=
+nsIAccessibleRole
+.
+ROLE_DATE_EDITOR
+;
+const
 ROLE_DEFINITION
 =
 nsIAccessibleRole

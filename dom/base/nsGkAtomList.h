@@ -2472,6 +2472,13 @@ datasources
 )
 GK_ATOM
 (
+date
+"
+date
+"
+)
+GK_ATOM
+(
 datetime
 "
 datetime
