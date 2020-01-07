@@ -957,15 +957,6 @@ count
 log
 )
 {
-log
-.
-trace
-(
-"
-limitProperties
-"
-)
-;
 /
 /
 If
