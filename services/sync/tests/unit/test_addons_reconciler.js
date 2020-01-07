@@ -442,6 +442,7 @@ Date
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -710,6 +711,7 @@ change
 ]
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -783,6 +785,7 @@ _changes
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -804,6 +807,7 @@ _changes
 [
 ]
 ;
+await
 uninstallAddon
 (
 addon
