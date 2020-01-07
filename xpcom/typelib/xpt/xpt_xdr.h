@@ -153,7 +153,6 @@ struct
 XPTCursor
 XPTCursor
 ;
-extern
 bool
 XPT_SkipStringInline
 (
@@ -165,7 +164,6 @@ XPTCursor
 cursor
 )
 ;
-extern
 bool
 XPT_DoCString
 (
@@ -188,7 +186,6 @@ ignore
 false
 )
 ;
-extern
 bool
 XPT_DoIID
 (
@@ -203,7 +200,6 @@ nsID
 iidp
 )
 ;
-extern
 bool
 XPT_Do64
 (
@@ -218,7 +214,6 @@ int64_t
 u64p
 )
 ;
-extern
 bool
 XPT_Do32
 (
@@ -233,7 +228,6 @@ uint32_t
 u32p
 )
 ;
-extern
 bool
 XPT_Do16
 (
@@ -248,7 +242,6 @@ uint16_t
 u16p
 )
 ;
-extern
 bool
 XPT_Do8
 (
@@ -263,7 +256,6 @@ uint8_t
 u8p
 )
 ;
-extern
 bool
 XPT_DoHeader
 (
@@ -333,7 +325,6 @@ bits
 ;
 }
 ;
-extern
 void
 XPT_InitXDRState
 (
@@ -347,7 +338,6 @@ uint32_t
 len
 )
 ;
-extern
 bool
 XPT_MakeCursor
 (
@@ -366,7 +356,6 @@ XPTCursor
 cursor
 )
 ;
-extern
 bool
 XPT_SeekTo
 (
@@ -380,7 +369,6 @@ uint32_t
 offset
 )
 ;
-extern
 void
 XPT_SetDataOffset
 (
