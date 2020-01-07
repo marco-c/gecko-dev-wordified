@@ -15288,11 +15288,13 @@ locker
 gTelemetryHistogramMutex
 )
 ;
-/
-/
-TODO
 return
-0
+gNameToHistogramIDMap
+.
+ShallowSizeOfExcludingThis
+(
+aMallocSizeOf
+)
 ;
 }
 size_t
