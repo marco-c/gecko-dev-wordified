@@ -712,7 +712,7 @@ mSource
 nsresult
 TransformToDoc
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aResult
