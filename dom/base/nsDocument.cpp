@@ -8891,6 +8891,10 @@ mChangeScrollPosWhenScrollingToRef
 (
 false
 )
+mHasWarnedAboutBoxObjects
+(
+false
+)
 mIsScopedStyleEnabled
 (
 eScopedStyle_Unknown
@@ -9060,6 +9064,10 @@ FlashClassification
 :
 Unclassified
 )
+mBoxObjectTable
+(
+nullptr
+)
 mServoRestyleRootDirtyBits
 (
 0
@@ -9106,10 +9114,6 @@ aContentType
 nsIDocument
 (
 )
-mHasWarnedAboutBoxObjects
-(
-false
-)
 mDelayFrameLoaderInitialization
 (
 false
@@ -9140,10 +9144,6 @@ false
 mXMLDeclarationBits
 (
 0
-)
-mBoxObjectTable
-(
-nullptr
 )
 mOnloadBlockCount
 (
@@ -36777,7 +36777,7 @@ already_AddRefed
 <
 BoxObject
 >
-nsDocument
+nsIDocument
 :
 :
 GetBoxObjectFor
@@ -37198,7 +37198,7 @@ forget
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 ClearBoxObjectFor
