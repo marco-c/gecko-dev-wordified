@@ -5415,7 +5415,6 @@ domWindow
 NS_ERROR_FAILURE
 )
 ;
-return
 domWindow
 -
 >
@@ -5425,6 +5424,9 @@ commandsToUpdate
 sel
 reason
 )
+;
+return
+NS_OK
 ;
 }
 /

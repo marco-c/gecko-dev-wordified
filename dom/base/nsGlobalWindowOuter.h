@@ -3905,7 +3905,7 @@ _retval
 )
 override
 ;
-nsresult
+void
 UpdateCommands
 (
 const

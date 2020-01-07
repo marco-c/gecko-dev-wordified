@@ -22817,7 +22817,7 @@ break
 }
 }
 }
-nsresult
+void
 nsGlobalWindowInner
 :
 :
@@ -22841,7 +22841,6 @@ GetOuterWindowInternal
 )
 )
 {
-return
 GetOuterWindowInternal
 (
 )
@@ -22855,9 +22854,6 @@ aReason
 )
 ;
 }
-return
-NS_OK
-;
 }
 Selection
 *
