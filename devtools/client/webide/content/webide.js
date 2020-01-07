@@ -923,14 +923,6 @@ webide
 "
 )
 ;
-this
-.
-_telemetry
-.
-destroy
-(
-)
-;
 }
 onfocus
 :

@@ -590,16 +590,6 @@ aboutdebugging
 "
 )
 ;
-this
-.
-props
-.
-telemetry
-.
-destroy
-(
-)
-;
 }
 onHashChange
 (
