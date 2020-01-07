@@ -58,6 +58,8 @@ re
 import
 yaml
 import
+atexit
+import
 shared_telemetry_utils
 as
 utils
@@ -65,6 +67,14 @@ from
 shared_telemetry_utils
 import
 ParserError
+atexit
+.
+register
+(
+ParserError
+.
+exit_func
+)
 #
 The
 map
@@ -451,7 +461,6 @@ n
 MAX_NAME_LENGTH
 :
                 
-raise
 ParserError
 (
 (
@@ -473,7 +482,7 @@ characters
 \
 n
 "
-                                   
+                             
 "
 See
 :
@@ -489,7 +498,7 @@ definition
 file
 "
 )
-                                  
+                            
 .
 format
 (
@@ -497,6 +506,10 @@ n
 MAX_NAME_LENGTH
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 def
@@ -553,7 +566,6 @@ name
 )
 :
                 
-raise
 ParserError
 (
 (
@@ -577,7 +589,7 @@ Got
 \
 n
 "
-                                  
+                             
 "
 See
 :
@@ -593,12 +605,17 @@ definition
 file
 "
 )
+                            
 .
 format
 (
 name
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
             
 #
@@ -651,7 +668,6 @@ name
 )
 :
                 
-raise
 ParserError
 (
 (
@@ -667,7 +683,7 @@ leading
 /
 trailing
 "
-                                   
+                             
 "
 digit
 a
@@ -685,7 +701,7 @@ Got
 \
 n
 "
-                                   
+                             
 "
 See
 :
@@ -701,12 +717,17 @@ definition
 file
 "
 )
+                            
 .
 format
 (
 name
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 check_name
@@ -1036,7 +1057,6 @@ missing_fields
 0
 :
             
-raise
 ParserError
 (
 self
@@ -1051,7 +1071,7 @@ fields
 :
 '
 +
-                              
+                        
 '
 '
 .
@@ -1060,7 +1080,7 @@ join
 missing_fields
 )
 +
-                              
+                        
 '
 .
 \
@@ -1078,6 +1098,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1117,7 +1141,6 @@ unknown_fields
 0
 :
             
-raise
 ParserError
 (
 self
@@ -1139,7 +1162,7 @@ join
 unknown_fields
 )
 +
-                              
+                        
 '
 .
 \
@@ -1157,6 +1180,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1225,7 +1252,6 @@ wrong_type_names
 0
 :
             
-raise
 ParserError
 (
 self
@@ -1244,7 +1270,7 @@ join
 wrong_type_names
 )
 +
-                              
+                        
 '
 .
 \
@@ -1262,6 +1288,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1331,7 +1361,6 @@ field
 0
 :
                 
-raise
 ParserError
 (
 (
@@ -1353,7 +1382,7 @@ be
 empty
 "
 +
-                                   
+                             
 "
 .
 \
@@ -1368,7 +1397,7 @@ fields
 )
 "
 )
-                                  
+                            
 .
 format
 (
@@ -1378,6 +1407,10 @@ self
 _name
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
             
 #
@@ -1420,7 +1453,6 @@ broken_types
 )
 :
                 
-raise
 ParserError
 (
 (
@@ -1445,7 +1477,7 @@ type
 {
 }
 "
-                                   
+                             
 "
 .
 \
@@ -1464,7 +1496,7 @@ file
 )
 "
 )
-                                  
+                            
 .
 format
 (
@@ -1478,9 +1510,13 @@ field
 ]
 .
 __name__
-                                          
+                                    
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -1575,7 +1611,6 @@ keys
 )
 :
             
-raise
 ParserError
 (
 self
@@ -1592,7 +1627,7 @@ kind
 +
 scalar_kind
 +
-                              
+                        
 '
 .
 \
@@ -1606,6 +1641,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1647,7 +1686,6 @@ out
 ]
 :
             
-raise
 ParserError
 (
 self
@@ -1664,7 +1702,7 @@ policy
 +
 collection_policy
 +
-                              
+                        
 '
 .
 \
@@ -1682,6 +1720,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1717,7 +1759,6 @@ cpp_guard
 )
 :
             
-raise
 ParserError
 (
 self
@@ -1733,7 +1774,7 @@ cpp_guard
 +
 cpp_guard
 +
-                              
+                        
 '
 .
 \
@@ -1751,6 +1792,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1787,7 +1832,6 @@ proc
 )
 :
                 
-raise
 ParserError
 (
 self
@@ -1805,7 +1849,7 @@ record_in_processes
 +
 proc
 +
-                                  
+                            
 '
 .
 \
@@ -1819,6 +1863,10 @@ format
 (
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 #
@@ -1888,7 +1936,6 @@ self
 _strict_type_checks
 :
             
-raise
 ParserError
 (
 '
@@ -1911,7 +1958,7 @@ required
 -
 fields
 '
-                              
+                        
 .
 format
 (
@@ -1921,6 +1968,10 @@ _name
 expires
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
     
 property
@@ -2707,7 +2758,6 @@ IOError
 e
 :
         
-raise
 ParserError
 (
 '
@@ -2725,13 +2775,16 @@ e
 .
 message
 )
+.
+handle_now
+(
+)
     
 except
 ValueError
 e
 :
         
-raise
 ParserError
 (
 '
@@ -2745,7 +2798,7 @@ in
 {
 }
 '
-                          
+                    
 '
 .
 \
@@ -2763,6 +2816,10 @@ e
 message
 BASE_DOC_URL
 )
+)
+.
+handle_now
+(
 )
     
 scalar_list
@@ -2865,7 +2922,6 @@ category
 0
 :
             
-raise
 ParserError
 (
 '
@@ -2883,8 +2939,7 @@ probe
 in
 it
 '
-+
-                              
+                        
 '
 .
 \
@@ -2899,6 +2954,10 @@ format
 category_name
 BASE_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 for
