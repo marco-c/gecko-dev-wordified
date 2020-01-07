@@ -413,6 +413,13 @@ h
 #
 include
 "
+nsIRandomGenerator
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
@@ -449,6 +456,13 @@ h
 include
 "
 nsQueryObject
+.
+h
+"
+#
+include
+"
+nsRFPService
 .
 h
 "

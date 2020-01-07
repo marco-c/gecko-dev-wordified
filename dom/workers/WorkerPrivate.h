@@ -152,6 +152,15 @@ h
 #
 include
 "
+mozilla
+/
+RelativeTimeline
+.
+h
+"
+#
+include
+"
 nsIContentSecurityPolicy
 .
 h
@@ -496,6 +505,9 @@ AssertCurrentThreadOwns
 ;
 class
 WorkerPrivate
+:
+public
+RelativeTimeline
 {
 public
 :

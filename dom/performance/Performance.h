@@ -551,6 +551,14 @@ return
 mSystemPrincipal
 ;
 }
+virtual
+uint64_t
+GetRandomTimelineSeed
+(
+)
+=
+0
+;
 void
 MemoryPressure
 (
