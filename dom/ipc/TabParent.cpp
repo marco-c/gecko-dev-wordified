@@ -1185,7 +1185,7 @@ mActiveSupressDisplayportCount
 endif
 mLayerTreeEpoch
 (
-0
+1
 )
 mPreserveLayers
 (
@@ -1193,7 +1193,7 @@ false
 )
 mRenderLayers
 (
-false
+true
 )
 mHasLayers
 (
