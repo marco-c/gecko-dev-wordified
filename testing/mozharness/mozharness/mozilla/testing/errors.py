@@ -1199,6 +1199,8 @@ device
 |
 ADBError
 |
+ADBProcessError
+|
 ADBTimeoutError
 |
 DMError
