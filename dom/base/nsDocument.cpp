@@ -45544,7 +45544,7 @@ already_AddRefed
 <
 Element
 >
-nsDocument
+nsIDocument
 :
 :
 CreateElem

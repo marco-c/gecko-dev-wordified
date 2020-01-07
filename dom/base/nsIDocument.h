@@ -12101,7 +12101,6 @@ failed
 .
 *
 /
-virtual
 already_AddRefed
 <
 Element
@@ -12124,8 +12123,6 @@ aIs
 =
 nullptr
 )
-=
-0
 ;
 /
 *
