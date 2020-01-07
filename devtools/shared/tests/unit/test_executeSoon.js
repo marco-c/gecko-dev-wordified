@@ -115,16 +115,6 @@ defer
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 asyncStackEnabled
 =
 Services

@@ -387,12 +387,6 @@ files
 :
 [
 "
-devtools
-/
-*
-*
-"
-"
 extensions
 /
 pref
