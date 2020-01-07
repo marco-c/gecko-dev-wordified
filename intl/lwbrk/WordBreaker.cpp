@@ -664,6 +664,14 @@ ASCII_IS_DIGIT
 (
 c
 )
+|
+|
+c
+=
+=
+'
+_
+'
 )
 {
 return
