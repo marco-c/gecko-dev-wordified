@@ -890,6 +890,15 @@ mDefaultFantasySize
 DOM
 Traversal
 .
+void
+Gecko_RecordTraversalStatistics
+(
+uint32_t
+total
+uint32_t
+parallel
+)
+;
 bool
 Gecko_IsInDocument
 (
