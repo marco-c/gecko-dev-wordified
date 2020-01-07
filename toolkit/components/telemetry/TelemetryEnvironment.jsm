@@ -4730,10 +4730,6 @@ _getActiveGMPlugins
 (
 atStartup
 )
-activeExperiment
-:
-{
-}
 persona
 :
 personaId
