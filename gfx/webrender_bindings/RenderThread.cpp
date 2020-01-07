@@ -575,6 +575,12 @@ ShutDown
 #
 endif
 }
+extern
+void
+ClearAllBlobImageResources
+(
+)
+;
 void
 RenderThread
 :
@@ -636,6 +642,10 @@ SharedSurfacesParent
 :
 :
 Shutdown
+(
+)
+;
+ClearAllBlobImageResources
 (
 )
 ;
