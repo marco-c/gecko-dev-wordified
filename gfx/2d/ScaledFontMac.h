@@ -220,6 +220,10 @@ bool
 aApplySyntheticBold
 =
 false
+bool
+aNeedsOblique
+=
+false
 )
 ;
 ~
@@ -375,6 +379,9 @@ mUseFontSmoothing
 ;
 bool
 mApplySyntheticBold
+;
+bool
+mNeedsOblique
 ;
 typedef
 void

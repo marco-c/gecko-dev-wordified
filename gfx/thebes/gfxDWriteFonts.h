@@ -543,9 +543,6 @@ uint32_t
 mSpaceGlyph
 ;
 bool
-mNeedsOblique
-;
-bool
 mNeedsBold
 ;
 bool

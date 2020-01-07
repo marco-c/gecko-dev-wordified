@@ -7708,6 +7708,9 @@ GetUnscaledFont
 GetAdjustedSize
 (
 )
+IsSyntheticOblique
+(
+)
 )
 ;
 }

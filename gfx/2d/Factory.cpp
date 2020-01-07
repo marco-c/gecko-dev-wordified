@@ -3491,6 +3491,8 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
+bool
+aNeedsOblique
 )
 {
 return
@@ -3503,6 +3505,7 @@ aScaledFont
 aPattern
 aUnscaledFont
 aSize
+aNeedsOblique
 )
 ;
 }
@@ -3539,6 +3542,8 @@ bool
 aUseFontSmoothing
 bool
 aApplySyntheticBold
+bool
+aNeedsOblique
 )
 {
 return
@@ -3554,6 +3559,7 @@ false
 aFontSmoothingBackgroundColor
 aUseFontSmoothing
 aApplySyntheticBold
+aNeedsOblique
 )
 ;
 }
@@ -4628,6 +4634,8 @@ bool
 aUseEmbeddedBitmap
 bool
 aForceGDIMode
+bool
+aNeedsOblique
 IDWriteRenderingParams
 *
 aParams
@@ -4648,6 +4656,7 @@ aUnscaledFont
 aSize
 aUseEmbeddedBitmap
 aForceGDIMode
+aNeedsOblique
 aParams
 aGamma
 aContrast
