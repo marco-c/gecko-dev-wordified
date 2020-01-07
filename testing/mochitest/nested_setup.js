@@ -1,3 +1,9 @@
+/
+*
+global
+SpecialPowers
+*
+/
 var
 gTestURL
 =
