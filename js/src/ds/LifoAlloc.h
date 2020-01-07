@@ -750,6 +750,7 @@ operator
 !
 =
 (
+const
 Iterator
 &
 other
@@ -770,6 +771,7 @@ operator
 =
 =
 (
+const
 Iterator
 &
 other
