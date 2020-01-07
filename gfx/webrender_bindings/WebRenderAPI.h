@@ -457,9 +457,6 @@ ImageDescriptor
 aDescriptor
 ExternalImageId
 aExtID
-wr
-:
-:
 WrExternalImageBufferType
 aBufferType
 uint8_t
@@ -1123,11 +1120,6 @@ return
 mSyncHandle
 ;
 }
-void
-Capture
-(
-)
-;
 protected
 :
 WebRenderAPI
