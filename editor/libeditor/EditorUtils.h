@@ -1099,10 +1099,11 @@ a
 simple
 class
 for
+*
 EditorBase
 :
 :
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 )
 .

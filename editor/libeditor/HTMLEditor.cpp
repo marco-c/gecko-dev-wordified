@@ -10213,7 +10213,7 @@ GetChild
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsert
@@ -12462,7 +12462,7 @@ parent
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertList
@@ -13358,7 +13358,7 @@ block
 SplitNodeResult
 splitBlockResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertBlock
@@ -13881,7 +13881,7 @@ parent
 SplitNodeResult
 splitBlockquoteResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertBlockquote

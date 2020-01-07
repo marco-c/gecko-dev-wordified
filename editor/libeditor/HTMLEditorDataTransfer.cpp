@@ -2432,7 +2432,7 @@ IsInTextNode
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsert
@@ -4611,7 +4611,7 @@ link
 SplitNodeResult
 splitLinkResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 linkContent

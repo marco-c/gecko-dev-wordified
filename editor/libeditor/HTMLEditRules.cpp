@@ -12130,7 +12130,7 @@ splitLinkNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 linkNode
@@ -13182,7 +13182,7 @@ splitCiteNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 citeNode
@@ -23741,7 +23741,7 @@ NS_OK
 SplitNodeResult
 splitAtSelectionStartResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 listType
 atStartOfSelection
@@ -24533,7 +24533,7 @@ newLeftNode
 htmlEditor
 -
 >
-SplitNode
+SplitNodeWithTransaction
 (
 atCurNode
 error
@@ -25004,7 +25004,7 @@ curList
 SplitNodeResult
 splitCurNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 listType
 atCurNode
@@ -26211,7 +26211,7 @@ splitNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 curBlock
@@ -26442,7 +26442,7 @@ here
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 blockType
 pointToInsertBlock
@@ -27340,7 +27340,7 @@ here
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -28112,7 +28112,7 @@ type
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 containerName
@@ -28329,7 +28329,7 @@ cancelled
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -28781,7 +28781,7 @@ here
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -29544,7 +29544,7 @@ type
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 containerName
@@ -29927,7 +29927,7 @@ type
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 containerName
@@ -30141,7 +30141,7 @@ cancelled
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -32182,7 +32182,7 @@ splitAtStartResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 aBlock
 EditorRawDOMPoint
@@ -32260,7 +32260,7 @@ splitAtEndResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 aBlock
 atAfterEnd
@@ -33116,7 +33116,7 @@ splitTextNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 text
@@ -34122,7 +34122,7 @@ NS_ERROR_FAILURE
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -35186,7 +35186,7 @@ NS_OK
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -41790,6 +41790,38 @@ acted
 on
 .
 *
+*
+XXX
+This
+name
+stats
+with
+"
+Get
+"
+but
+actually
+this
+modifies
+the
+DOM
+tree
+with
+*
+transaction
+.
+We
+should
+rename
+this
+to
+making
+clearer
+what
+this
+does
+.
+*
 /
 nsresult
 HTMLEditRules
@@ -41971,7 +42003,7 @@ newLeftNode
 htmlEditor
 -
 >
-SplitNode
+SplitNodeWithTransaction
 (
 atEnd
 error
@@ -44433,7 +44465,7 @@ splitEndInlineResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 endInline
@@ -44563,7 +44595,7 @@ splitStartInlineResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 startInline
@@ -44826,7 +44858,7 @@ splitNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 nextNode
@@ -44902,14 +44934,17 @@ container
 in
 which
 case
-SplitNodeDeep
+/
+/
+SplitNodeDeepWithTransaction
+(
+)
 would
 not
-/
-/
 actually
 split
 anything
+.
 aOutArrayOfNodes
 .
 AppendElement
@@ -46089,7 +46124,7 @@ splitHeaderResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 aHeader
 EditorRawDOMPoint
@@ -47760,7 +47795,7 @@ newLeftDivOrP
 htmlEditor
 -
 >
-SplitNode
+SplitNodeWithTransaction
 (
 pointToSplitParentDivOrP
 error
@@ -48317,7 +48352,7 @@ splitDivOrPResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 aParentDivOrP
 EditorRawDOMPoint
@@ -48946,7 +48981,7 @@ leftListNode
 htmlEditor
 -
 >
-SplitNode
+SplitNodeWithTransaction
 (
 atListItem
 error
@@ -49366,7 +49401,7 @@ splitListItemResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 aListItem
 EditorRawDOMPoint
@@ -50344,7 +50379,7 @@ curNode
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -51562,7 +51597,7 @@ here
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 aBlockTag
 atCurNode
@@ -51737,7 +51772,7 @@ it
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 aBlockTag
 atCurNode
@@ -51996,7 +52031,7 @@ atCurNode
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 aBlockTag
 atCurNode
@@ -52194,7 +52229,7 @@ SplitNodeResult
 HTMLEditRules
 :
 :
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 nsAtom
 &
@@ -52538,7 +52573,7 @@ splitNodeResult
 htmlEditor
 -
 >
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsert
@@ -58485,7 +58520,7 @@ leftListNode
 mHTMLEditor
 -
 >
-SplitNode
+SplitNodeWithTransaction
 (
 atListItem
 error
@@ -62364,7 +62399,7 @@ here
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms
@@ -62790,7 +62825,7 @@ type
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 containerName
@@ -63212,7 +63247,7 @@ type
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 containerName
@@ -63418,7 +63453,7 @@ continue
 SplitNodeResult
 splitNodeResult
 =
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 *
 nsGkAtoms

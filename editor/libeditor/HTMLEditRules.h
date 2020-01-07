@@ -2791,7 +2791,7 @@ aNodeArray
 *
 *
 *
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 )
 does
@@ -2927,7 +2927,7 @@ typename
 CT
 >
 SplitNodeResult
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 nsAtom
 &

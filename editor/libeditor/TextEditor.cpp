@@ -2568,7 +2568,7 @@ nsIContent
 >
 newLeftNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 aPointToInsert
 error
