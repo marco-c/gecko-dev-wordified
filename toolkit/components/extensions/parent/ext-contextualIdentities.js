@@ -942,6 +942,13 @@ color
 null
 )
 {
+getContainerColor
+(
+details
+.
+color
+)
+;
 identity
 .
 color
@@ -962,6 +969,13 @@ icon
 null
 )
 {
+getContainerIcon
+(
+details
+.
+icon
+)
+;
 identity
 .
 icon
