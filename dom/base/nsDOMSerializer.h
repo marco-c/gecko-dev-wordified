@@ -269,7 +269,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 nsISupports
