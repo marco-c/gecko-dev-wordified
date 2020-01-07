@@ -30495,6 +30495,10 @@ get
 inUnsafeCallWithABI
 )
 ;
+/
+/
+Bug
+1454398
 MOZ_ASSERT
 (
 !
