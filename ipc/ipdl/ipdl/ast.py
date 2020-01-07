@@ -1067,6 +1067,9 @@ None
 kind
 =
 None
+refcounted
+=
+False
 )
 :
         
@@ -1134,6 +1137,12 @@ self
 kind
 =
 kind
+        
+self
+.
+refcounted
+=
+refcounted
     
 def
 canBeForwardDeclared
@@ -1188,6 +1197,18 @@ kind
 '
 struct
 '
+    
+def
+isRefcounted
+(
+self
+)
+:
+        
+return
+self
+.
+refcounted
 #
 "
 singletons
