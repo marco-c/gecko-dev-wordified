@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDOMOfflineResourceList
 .
 h
@@ -1316,11 +1309,6 @@ NodeList
 DEFINE_SHIM
 (
 Node
-)
-DEFINE_SHIM_WITH_CUSTOM_INTERFACE
-(
-nsIDOMNSEvent
-Event
 )
 DEFINE_SHIM
 (
