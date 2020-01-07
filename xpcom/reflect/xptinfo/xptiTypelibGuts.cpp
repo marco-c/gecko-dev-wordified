@@ -170,6 +170,7 @@ xptiTypelibGuts
 :
 Create
 (
+const
 XPTHeader
 *
 aHeader
