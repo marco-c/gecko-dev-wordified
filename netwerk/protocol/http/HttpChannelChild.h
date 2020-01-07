@@ -805,6 +805,10 @@ const
 OptionalIPCServiceWorkerDescriptor
 &
 aController
+const
+bool
+&
+aApplyConversion
 )
 override
 ;
@@ -2409,6 +2413,10 @@ ServiceWorkerDescriptor
 >
 &
 aController
+const
+bool
+&
+aApplyConversion
 )
 ;
 void
