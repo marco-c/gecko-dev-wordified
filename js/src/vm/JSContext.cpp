@@ -5134,7 +5134,7 @@ printable
 if
 (
 !
-ValueToPrintable
+ValueToPrintableLatin1
 (
 cx
 IdToValue
