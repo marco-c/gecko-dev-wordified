@@ -785,6 +785,7 @@ newURI
 (
 "
 resource
+/
 "
 null
 data
