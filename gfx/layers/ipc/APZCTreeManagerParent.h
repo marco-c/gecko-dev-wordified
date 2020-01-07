@@ -141,6 +141,9 @@ class
 APZCTreeManager
 ;
 class
+APZSampler
+;
+class
 APZCTreeManagerParent
 :
 public
@@ -148,7 +151,6 @@ PAPZCTreeManagerParent
 {
 public
 :
-explicit
 APZCTreeManagerParent
 (
 LayersId
@@ -158,6 +160,11 @@ RefPtr
 APZCTreeManager
 >
 aAPZCTreeManager
+RefPtr
+<
+APZSampler
+>
+mAPZSampler
 )
 ;
 virtual
@@ -214,6 +221,11 @@ RefPtr
 APZCTreeManager
 >
 aAPZCTreeManager
+RefPtr
+<
+APZSampler
+>
+aAPZSampler
 )
 ;
 mozilla
@@ -449,6 +461,12 @@ RefPtr
 APZCTreeManager
 >
 mTreeManager
+;
+RefPtr
+<
+APZSampler
+>
+mSampler
 ;
 }
 ;

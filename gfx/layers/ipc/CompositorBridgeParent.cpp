@@ -6125,6 +6125,8 @@ UseAPZ
 /
 The
 mApzcTreeManager
+and
+mApzSampler
 should
 have
 been
@@ -6136,6 +6138,11 @@ RecvInitialize
 MOZ_ASSERT
 (
 mApzcTreeManager
+)
+;
+MOZ_ASSERT
+(
+mApzSampler
 )
 ;
 /
@@ -6211,6 +6218,7 @@ APZCTreeManagerParent
 (
 mRootLayerTreeID
 mApzcTreeManager
+mApzSampler
 )
 ;
 return
@@ -6273,6 +6281,11 @@ mApzcTreeManager
 ;
 MOZ_ASSERT
 (
+mApzSampler
+)
+;
+MOZ_ASSERT
+(
 !
 aState
 .
@@ -6288,6 +6301,7 @@ APZCTreeManagerParent
 (
 aLayersId
 mApzcTreeManager
+mApzSampler
 )
 ;
 }
@@ -9628,6 +9642,7 @@ parent
 ChildAdopted
 (
 mApzcTreeManager
+mApzSampler
 )
 ;
 }
