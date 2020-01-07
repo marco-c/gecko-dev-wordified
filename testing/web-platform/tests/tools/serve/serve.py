@@ -5936,12 +5936,21 @@ config
 ports
 )
         
-host
+browser_host
 =
 config
 [
 "
 browser_host
+"
+]
+        
+server_host
+=
+config
+[
+"
+server_host
 "
 ]
         
@@ -5980,7 +5989,7 @@ ssl_env
             
 check_subdomains
 (
-host
+browser_host
 paths
 bind_address
 ssl_config
@@ -6003,7 +6012,7 @@ bind_address
 stash_address
 =
 (
-host
+server_host
 get_port
 (
 )
