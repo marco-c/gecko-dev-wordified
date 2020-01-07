@@ -160,8 +160,8 @@ asyncStackEnabled
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -181,7 +181,7 @@ asyncstack
 true
 )
 ;
-yield
+await
 waitForTick
 (
 )

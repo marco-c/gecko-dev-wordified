@@ -48,8 +48,8 @@ no
 snapshot
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -68,7 +68,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 deleteHeapSnapshot

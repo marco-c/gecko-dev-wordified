@@ -116,8 +116,8 @@ true
 }
 }
 ;
+async
 function
-*
 createSnapshotAndDominatorTree
 (
 client
@@ -130,7 +130,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -141,7 +141,7 @@ snapshotFilePath
 let
 dominatorTreeId
 =
-yield
+await
 client
 .
 computeDominatorTree
@@ -158,8 +158,8 @@ snapshotFilePath
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -175,17 +175,17 @@ let
 savedSnapshots
 =
 [
-yield
+await
 createSnapshotAndDominatorTree
 (
 client
 )
-yield
+await
 createSnapshotAndDominatorTree
 (
 client
 )
-yield
+await
 createSnapshotAndDominatorTree
 (
 client
@@ -205,7 +205,7 @@ trees
 "
 )
 ;
-yield
+await
 client
 .
 deleteHeapSnapshot
@@ -230,7 +230,7 @@ deleted
 let
 tree
 =
-yield
+await
 client
 .
 getDominatorTree
@@ -270,7 +270,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 getDominatorTree
@@ -317,7 +317,7 @@ error
 ;
 tree
 =
-yield
+await
 client
 .
 getDominatorTree

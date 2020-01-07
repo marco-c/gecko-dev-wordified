@@ -48,8 +48,8 @@ request
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -68,7 +68,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -92,7 +92,7 @@ snapshot
 const
 dominatorTreeId
 =
-yield
+await
 client
 .
 computeDominatorTree

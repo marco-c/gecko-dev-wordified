@@ -114,8 +114,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -211,7 +211,7 @@ now
 *
 1000
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -239,7 +239,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 getCreationTime
@@ -290,7 +290,7 @@ exist
 let
 time
 =
-yield
+await
 client
 .
 getCreationTime

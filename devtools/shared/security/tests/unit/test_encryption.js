@@ -121,8 +121,8 @@ listTabs
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -148,8 +148,8 @@ w
 encryption
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -246,7 +246,7 @@ encryption
 =
 true
 ;
-yield
+await
 listener
 .
 open
@@ -269,7 +269,7 @@ socket
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -344,7 +344,7 @@ closed
 onUnexpectedClose
 )
 ;
-yield
+await
 connectClient
 (
 client
@@ -370,7 +370,7 @@ secrets
 let
 reply
 =
-yield
+await
 client
 .
 request
@@ -458,8 +458,8 @@ w
 encryption
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -556,7 +556,7 @@ encryption
 =
 true
 ;
-yield
+await
 listener
 .
 open
@@ -578,7 +578,7 @@ socket
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -666,8 +666,8 @@ succeeded
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

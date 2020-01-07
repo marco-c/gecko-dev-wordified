@@ -116,8 +116,8 @@ storage
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -222,12 +222,12 @@ exists
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 asyncStorage
 .
 setItem
@@ -243,7 +243,7 @@ bar
 let
 value
 =
-yield
+await
 asyncStorage
 .
 getItem
@@ -266,7 +266,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 setItem
@@ -281,7 +281,7 @@ overwritten
 ;
 value
 =
-yield
+await
 asyncStorage
 .
 getItem
@@ -304,7 +304,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 removeItem
@@ -316,7 +316,7 @@ foo
 ;
 value
 =
-yield
+await
 asyncStorage
 .
 getItem
@@ -342,8 +342,8 @@ correct
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -364,7 +364,7 @@ z
 true
 }
 ;
-yield
+await
 asyncStorage
 .
 setItem
@@ -378,7 +378,7 @@ object
 let
 value
 =
-yield
+await
 asyncStorage
 .
 getItem
@@ -433,7 +433,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 removeItem
@@ -445,7 +445,7 @@ myobj
 ;
 value
 =
-yield
+await
 asyncStorage
 .
 getItem
@@ -471,12 +471,12 @@ correct
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 asyncStorage
 .
 clear
@@ -486,7 +486,7 @@ clear
 let
 len
 =
-yield
+await
 asyncStorage
 .
 length
@@ -504,7 +504,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 setItem
@@ -519,7 +519,7 @@ value1
 ;
 len
 =
-yield
+await
 asyncStorage
 .
 length
@@ -537,7 +537,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 setItem
@@ -552,7 +552,7 @@ value2
 ;
 len
 =
-yield
+await
 asyncStorage
 .
 length
@@ -570,7 +570,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 setItem
@@ -585,7 +585,7 @@ value3
 ;
 len
 =
-yield
+await
 asyncStorage
 .
 length
@@ -606,7 +606,7 @@ correct
 let
 key
 =
-yield
+await
 asyncStorage
 .
 key
@@ -629,7 +629,7 @@ correct
 ;
 key
 =
-yield
+await
 asyncStorage
 .
 key
@@ -652,7 +652,7 @@ correct
 ;
 key
 =
-yield
+await
 asyncStorage
 .
 key
@@ -675,7 +675,7 @@ correct
 ;
 key
 =
-yield
+await
 asyncStorage
 .
 key
@@ -694,7 +694,7 @@ correct
 "
 )
 ;
-yield
+await
 asyncStorage
 .
 clear
@@ -703,7 +703,7 @@ clear
 ;
 key
 =
-yield
+await
 asyncStorage
 .
 key
@@ -724,7 +724,7 @@ correct
 ;
 len
 =
-yield
+await
 asyncStorage
 .
 length

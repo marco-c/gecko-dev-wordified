@@ -85,12 +85,12 @@ run_test
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_delimited_read
 (
 "
@@ -103,7 +103,7 @@ test_delimited_read
 "
 )
 ;
-yield
+await
 test_delimited_read
 (
 "
@@ -118,7 +118,7 @@ test_delimited_read
 "
 )
 ;
-yield
+await
 test_delimited_read
 (
 "
@@ -130,7 +130,7 @@ test_delimited_read
 "
 )
 ;
-yield
+await
 test_delimited_read
 (
 "

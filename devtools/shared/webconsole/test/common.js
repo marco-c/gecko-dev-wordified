@@ -188,22 +188,6 @@ jsm
 ;
 const
 {
-Task
-}
-=
-require
-(
-"
-devtools
-/
-shared
-/
-task
-"
-)
-;
-const
-{
 DebuggerServer
 }
 =
@@ -434,12 +418,8 @@ true
 var
 _attachConsole
 =
-Task
-.
 async
-(
 function
-*
 (
 listeners
 callback
@@ -537,7 +517,7 @@ state
 response
 ]
 =
-yield
+await
 connectToDebugger
 (
 )
@@ -592,7 +572,7 @@ attachToTab
 {
 response
 =
-yield
+await
 state
 .
 dbgClient
@@ -601,7 +581,7 @@ getProcess
 (
 )
 ;
-yield
+await
 state
 .
 dbgClient
@@ -652,7 +632,7 @@ return
 }
 response
 =
-yield
+await
 state
 .
 dbgClient
@@ -716,7 +696,7 @@ let
 tabClient
 ]
 =
-yield
+await
 state
 .
 dbgClient
@@ -805,7 +785,7 @@ _worker_ref
 =
 worker
 ;
-yield
+await
 waitForMessage
 (
 worker
@@ -816,7 +796,7 @@ let
 workers
 }
 =
-yield
+await
 tabClient
 .
 listWorkers
@@ -883,7 +863,7 @@ workerResponse
 workerClient
 ]
 =
-yield
+await
 tabClient
 .
 attachWorker
@@ -929,7 +909,7 @@ error
 return
 ;
 }
-yield
+await
 workerClient
 .
 attachThread
@@ -997,7 +977,6 @@ state
 ;
 }
 }
-)
 ;
 function
 closeDebugger

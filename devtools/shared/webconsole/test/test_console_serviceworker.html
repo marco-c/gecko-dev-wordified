@@ -649,12 +649,8 @@ consoleCalls
 let
 startTest
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -666,7 +662,7 @@ load
 startTest
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -725,7 +721,6 @@ onAttach
 )
 ;
 }
-)
 ;
 addEventListener
 (
@@ -738,12 +733,8 @@ startTest
 let
 onAttach
 =
-Task
-.
 async
-(
 function
-*
 (
 state
 response
@@ -822,7 +813,7 @@ worker
 ;
 currentFrame
 =
-yield
+await
 withFrame
 (
 NONSCOPE_FRAME_URL
@@ -905,7 +896,7 @@ worker
 "
 )
 ;
-yield
+await
 withActiveServiceWorker
 (
 currentFrame
@@ -978,7 +969,7 @@ frame
 "
 )
 ;
-yield
+await
 navigateFrame
 (
 currentFrame
@@ -1049,7 +1040,7 @@ fetch
 "
 )
 ;
-yield
+await
 currentFrame
 .
 contentWindow
@@ -1173,7 +1164,7 @@ frame
 "
 )
 ;
-yield
+await
 forceReloadFrame
 (
 currentFrame
@@ -1321,7 +1312,7 @@ worker
 "
 )
 ;
-yield
+await
 messageServiceWorker
 (
 currentFrame
@@ -1346,7 +1337,7 @@ worker
 "
 )
 ;
-yield
+await
 unregisterServiceWorker
 (
 currentFrame
@@ -1446,7 +1437,6 @@ finish
 ;
 }
 }
-)
 ;
 function
 onConsoleAPICall

@@ -126,8 +126,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -146,7 +146,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 getDominatorTree

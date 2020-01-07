@@ -163,8 +163,8 @@ Nope
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,7 +179,7 @@ square
 is
 (
 (
-yield
+await
 fn
 (
 5
@@ -209,7 +209,7 @@ squarePromise
 is
 (
 (
-yield
+await
 fn
 (
 5
@@ -238,7 +238,7 @@ squareError
 ;
 try
 {
-yield
+await
 fn
 (
 5
@@ -288,7 +288,7 @@ squarePromiseReject
 ;
 try
 {
-yield
+await
 fn
 (
 5

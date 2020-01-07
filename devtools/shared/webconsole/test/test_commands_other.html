@@ -292,12 +292,8 @@ testEnd
 tests
 =
 [
-Task
-.
 async
-(
 function
-*
 keys
 (
 )
@@ -305,7 +301,7 @@ keys
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -359,13 +355,8 @@ nextTest
 )
 ;
 }
-)
-Task
-.
 async
-(
 function
-*
 values
 (
 )
@@ -373,7 +364,7 @@ values
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -427,7 +418,6 @@ nextTest
 )
 ;
 }
-)
 ]
 ;
 function
@@ -469,12 +459,8 @@ finish
 let
 load
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -486,7 +472,7 @@ load
 load
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -571,7 +557,6 @@ onload
 startTest
 ;
 }
-)
 ;
 addEventListener
 (

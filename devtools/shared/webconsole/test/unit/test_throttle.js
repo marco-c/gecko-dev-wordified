@@ -387,8 +387,8 @@ testListener
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -750,7 +750,7 @@ yet
 let
 newState
 =
-yield
+await
 testListener
 .
 onStateChanged
@@ -819,7 +819,7 @@ null
 ;
 newState
 =
-yield
+await
 onChange
 ;
 equal

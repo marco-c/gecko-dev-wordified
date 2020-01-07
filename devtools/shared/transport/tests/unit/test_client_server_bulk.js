@@ -95,12 +95,12 @@ add_test_bulk_actor
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_bulk_request_cs
 (
 socket_transport
@@ -112,7 +112,7 @@ json
 "
 )
 ;
-yield
+await
 test_bulk_request_cs
 (
 local_transport
@@ -124,7 +124,7 @@ json
 "
 )
 ;
-yield
+await
 test_bulk_request_cs
 (
 socket_transport
@@ -136,7 +136,7 @@ bulk
 "
 )
 ;
-yield
+await
 test_bulk_request_cs
 (
 local_transport
@@ -148,7 +148,7 @@ bulk
 "
 )
 ;
-yield
+await
 test_json_request_cs
 (
 socket_transport
@@ -160,7 +160,7 @@ bulk
 "
 )
 ;
-yield
+await
 test_json_request_cs
 (
 local_transport
@@ -832,12 +832,8 @@ Tests
 var
 test_bulk_request_cs
 =
-Task
-.
 async
-(
 function
-*
 (
 transportFactory
 actorType
@@ -896,7 +892,7 @@ defer
 let
 transport
 =
-yield
+await
 transportFactory
 (
 )
@@ -1178,17 +1174,12 @@ promise
 )
 ;
 }
-)
 ;
 var
 test_json_request_cs
 =
-Task
-.
 async
-(
 function
-*
 (
 transportFactory
 actorType
@@ -1240,7 +1231,7 @@ defer
 let
 transport
 =
-yield
+await
 transportFactory
 (
 )
@@ -1418,7 +1409,6 @@ promise
 )
 ;
 }
-)
 ;
 /
 *

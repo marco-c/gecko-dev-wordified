@@ -123,8 +123,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -351,7 +351,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -377,7 +377,7 @@ const
 report
 }
 =
-yield
+await
 client
 .
 takeCensus
@@ -397,7 +397,7 @@ report
 treeNode
 }
 =
-yield
+await
 client
 .
 takeCensus

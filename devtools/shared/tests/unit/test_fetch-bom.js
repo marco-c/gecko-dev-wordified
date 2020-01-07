@@ -430,12 +430,12 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_one
 (
 serverURL
@@ -451,7 +451,7 @@ UTF
 "
 )
 ;
-yield
+await
 test_one
 (
 serverURL
@@ -467,7 +467,7 @@ UTF
 "
 )
 ;
-yield
+await
 test_one
 (
 serverURL
@@ -486,8 +486,8 @@ UTF
 }
 )
 ;
+async
 function
-*
 test_one
 (
 url
@@ -519,7 +519,7 @@ is
 not
 done
 .
-yield
+await
 DevToolsUtils
 .
 fetch

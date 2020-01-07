@@ -148,8 +148,8 @@ listTabs
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -177,8 +177,8 @@ OOB_CERT
 auth
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -210,7 +210,7 @@ advertisement
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -324,7 +324,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -392,7 +392,7 @@ oob
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -479,7 +479,7 @@ closed
 onUnexpectedClose
 )
 ;
-yield
+await
 connectClient
 (
 client
@@ -505,7 +505,7 @@ secrets
 let
 reply
 =
-yield
+await
 client
 .
 request
@@ -595,8 +595,8 @@ OOB_CERT
 auth
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -718,7 +718,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -761,7 +761,7 @@ accessible
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -893,7 +893,7 @@ connect
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -919,7 +919,7 @@ secrets
 ;
 try
 {
-yield
+await
 client
 .
 request
@@ -1009,8 +1009,8 @@ to
 connect
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1042,7 +1042,7 @@ advertisement
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -1225,7 +1225,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -1247,7 +1247,7 @@ socket
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -1353,8 +1353,8 @@ to
 connect
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1386,7 +1386,7 @@ advertisement
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -1569,7 +1569,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -1591,7 +1591,7 @@ socket
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -1686,8 +1686,8 @@ succeeded
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
