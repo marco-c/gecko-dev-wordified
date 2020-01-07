@@ -8393,7 +8393,7 @@ note
 /
 /
 how
-nsStyleContext
+ComputedStyle
 :
 :
 Arena
@@ -8451,7 +8451,7 @@ that
 /
 /
 the
-nsStyleContexts
+ComputedStyles
 don
 '
 t
@@ -32725,7 +32725,7 @@ if
 rootStyleFrame
 )
 {
-nsStyleContext
+ComputedStyle
 *
 bgStyle
 =
@@ -56263,7 +56263,7 @@ stuff
 to
 the
 |
-DidSetStyleContext
+DidSetComputedStyle
 |
 method
 of
@@ -60726,7 +60726,7 @@ void
 PresShell
 :
 :
-ListStyleContexts
+ListComputedStyles
 (
 FILE
 *
@@ -60751,7 +60751,7 @@ rootFrame
 rootFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -60818,7 +60818,7 @@ rootElementFrame
 rootElementFrame
 -
 >
-StyleContext
+Style
 (
 )
 -

@@ -334,9 +334,9 @@ nsSubDocumentFrame
 explicit
 nsSubDocumentFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 #

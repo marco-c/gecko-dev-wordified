@@ -721,9 +721,9 @@ Put
 nsIContent
 *
 aContent
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 {
 MOZ_ASSERT
@@ -734,7 +734,7 @@ aContent
 CSSPseudoElementType
 pseudoType
 =
-aStyleContext
+aComputedStyle
 -
 >
 GetPseudoType
@@ -1327,7 +1327,7 @@ aOldValue
 ;
 inline
 nsresult
-ReparentStyleContext
+ReparentComputedStyle
 (
 nsIFrame
 *

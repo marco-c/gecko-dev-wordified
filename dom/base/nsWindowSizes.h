@@ -545,7 +545,7 @@ mRuleNodes
 macro
 (
 Style
-mStyleContexts
+mComputedStyles
 )
 nsArenaSizes
 (

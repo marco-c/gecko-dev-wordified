@@ -8930,9 +8930,9 @@ nsSVGUtils
 :
 GetFallbackOrPaintColor
 (
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 nsStyleSVGPaint
 nsStyleSVG
 :
@@ -8946,7 +8946,7 @@ nsStyleSVGPaint
 &
 paint
 =
-aStyleContext
+aComputedStyle
 -
 >
 StyleSVG
@@ -8957,11 +8957,11 @@ StyleSVG
 *
 aFillOrStroke
 ;
-nsStyleContext
+ComputedStyle
 *
 styleIfVisited
 =
-aStyleContext
+aComputedStyle
 -
 >
 GetStyleIfVisited
@@ -9203,13 +9203,13 @@ GetColor
 }
 ;
 return
-nsStyleContext
+ComputedStyle
 :
 :
 CombineVisitedColors
 (
 colors
-aStyleContext
+aComputedStyle
 -
 >
 RelevantLinkVisited
@@ -9642,7 +9642,7 @@ GetFallbackOrPaintColor
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 &
@@ -10092,7 +10092,7 @@ GetFallbackOrPaintColor
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 &
@@ -10471,7 +10471,7 @@ GetContent
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 aContextPaint

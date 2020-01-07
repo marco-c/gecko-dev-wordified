@@ -369,9 +369,9 @@ public
 explicit
 nsTextFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 ClassID
 aID
 =
@@ -380,7 +380,7 @@ kClassID
 :
 nsFrame
 (
-aContext
+aStyle
 aID
 )
 mNextContinuation
@@ -1040,7 +1040,7 @@ true
 ;
 }
 return
-StyleContext
+Style
 (
 )
 -

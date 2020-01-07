@@ -279,9 +279,9 @@ NS_NewMathMLmfracFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -291,7 +291,7 @@ aPresShell
 )
 nsMathMLmfracFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -567,9 +567,9 @@ CalcLineThickness
 nsPresContext
 *
 aPresContext
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 nsString
 &
 aThicknessAttribute
@@ -848,7 +848,7 @@ nsMathMLElement
 :
 PARSE_ALLOW_UNITLESS
 aPresContext
-aStyleContext
+aComputedStyle
 aFontSizeInflation
 )
 ;
@@ -1488,7 +1488,7 @@ mLineThickness
 CalcLineThickness
 (
 presContext
-mStyleContext
+mComputedStyle
 value
 onePixel
 defaultRuleThickness

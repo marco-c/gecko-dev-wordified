@@ -184,12 +184,12 @@ endif
 virtual
 *
 /
-nsStyleContext
+ComputedStyle
 *
 nsBackdropFrame
 :
 :
-GetParentStyleContext
+GetParentComputedStyle
 (
 nsIFrame
 *

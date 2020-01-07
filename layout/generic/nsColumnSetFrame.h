@@ -218,9 +218,9 @@ nsColumnSetFrame
 explicit
 nsColumnSetFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

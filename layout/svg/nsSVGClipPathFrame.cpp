@@ -313,9 +313,9 @@ NS_NewSVGClipPathFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -325,7 +325,7 @@ aPresShell
 )
 nsSVGClipPathFrame
 (
-aContext
+aStyle
 )
 ;
 }

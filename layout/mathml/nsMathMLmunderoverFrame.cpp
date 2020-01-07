@@ -220,9 +220,9 @@ NS_NewMathMLmunderoverFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -232,7 +232,7 @@ aPresShell
 )
 nsMathMLmunderoverFrame
 (
-aContext
+aStyle
 )
 ;
 }

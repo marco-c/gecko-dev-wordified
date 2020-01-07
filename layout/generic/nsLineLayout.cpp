@@ -142,6 +142,15 @@ h
 #
 include
 "
+mozilla
+/
+ComputedStyle
+.
+h
+"
+#
+include
+"
 LayoutLogging
 .
 h
@@ -185,13 +194,6 @@ h
 include
 "
 nsFloatManager
-.
-h
-"
-#
-include
-"
-nsStyleContext
 .
 h
 "
@@ -3044,7 +3046,7 @@ mSuppressLineWrap
 frame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -12482,7 +12484,7 @@ GetFontMetricsOfEmphasisMarks
 aSpanFrame
 -
 >
-StyleContext
+Style
 (
 )
 aInflation
@@ -14469,7 +14471,7 @@ GetContent
 spanFrame
 -
 >
-StyleContext
+Style
 (
 )
 mBlockReflowInput
@@ -16446,7 +16448,7 @@ GetContent
 frame
 -
 >
-StyleContext
+Style
 (
 )
 mBlockReflowInput
@@ -22206,7 +22208,7 @@ MOZ_ASSERT
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -23624,7 +23626,7 @@ firstFrame
 mFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -23699,7 +23701,7 @@ lastFrame
 mFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -25084,7 +25086,7 @@ mRecomputeOverflow
 frame
 -
 >
-StyleContext
+Style
 (
 )
 -

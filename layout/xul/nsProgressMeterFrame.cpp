@@ -361,9 +361,9 @@ NS_NewProgressMeterFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -373,7 +373,7 @@ aPresShell
 )
 nsProgressMeterFrame
 (
-aContext
+aStyle
 )
 ;
 }

@@ -238,7 +238,9 @@ h
 #
 include
 "
-nsStyleContext
+mozilla
+/
+ComputedStyle
 .
 h
 "
@@ -935,9 +937,9 @@ nsListBoxBodyFrame
 :
 nsListBoxBodyFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 nsBoxLayout
 *
 aLayoutManager
@@ -945,7 +947,7 @@ aLayoutManager
 :
 nsBoxFrame
 (
-aContext
+aStyle
 kClassID
 false
 aLayoutManager
@@ -3693,7 +3695,7 @@ PresContext
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 styleContext
 =
@@ -3920,7 +3922,7 @@ fm
 nsLayoutUtils
 :
 :
-GetFontMetricsForStyleContext
+GetFontMetricsForComputedStyle
 (
 styleContext
 )
@@ -8103,9 +8105,9 @@ NS_NewListBoxBodyFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 nsCOMPtr
@@ -8125,7 +8127,7 @@ aPresShell
 )
 nsListBoxBodyFrame
 (
-aContext
+aStyle
 layout
 )
 ;

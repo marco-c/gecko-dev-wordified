@@ -8120,7 +8120,7 @@ hint
 to
 it
 .
-nsStyleContext
+ComputedStyle
 *
 bgSC
 ;
@@ -12754,13 +12754,12 @@ nsChangeHint_UpdateContainingBlock
 when
 we
 compare
-style
-contexts
-/
-/
+styles
 so
 we
 can
+/
+/
 skip
 adding
 any

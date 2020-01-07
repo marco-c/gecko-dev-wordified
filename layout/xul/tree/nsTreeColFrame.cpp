@@ -145,7 +145,9 @@ h
 #
 include
 "
-nsStyleContext
+mozilla
+/
+ComputedStyle
 .
 h
 "
@@ -248,9 +250,9 @@ NS_NewTreeColFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -260,7 +262,7 @@ aPresShell
 )
 nsTreeColFrame
 (
-aContext
+aStyle
 )
 ;
 }

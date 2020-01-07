@@ -3463,7 +3463,7 @@ confuses
 it
 ?
 /
-nsStyleContext
+ComputedStyle
 :
 :
 PeekStyle

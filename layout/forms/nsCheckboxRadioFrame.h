@@ -205,9 +205,9 @@ nsCheckboxRadioFrame
 explicit
 nsCheckboxRadioFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 /

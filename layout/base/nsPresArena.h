@@ -669,7 +669,7 @@ an
 assertion
 in
 ~
-nsStyleContext
+ComputedStyle
 .
 *
 /

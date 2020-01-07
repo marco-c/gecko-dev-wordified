@@ -424,7 +424,7 @@ GetTextRunOrientFlagsForStyle
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 )
@@ -674,7 +674,7 @@ f
 f
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -2024,7 +2024,7 @@ pseudoType
 aBlockFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
