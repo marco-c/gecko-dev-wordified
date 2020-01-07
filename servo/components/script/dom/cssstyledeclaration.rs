@@ -2959,6 +2959,9 @@ with_block
 pdb
 |
 {
+let
+declaration
+=
 pdb
 .
 declarations
@@ -2971,13 +2974,8 @@ index
 as
 usize
 )
-.
-map
-(
-|
-declaration
-|
-{
+?
+;
 let
 important
 =
@@ -2990,7 +2988,10 @@ declarations_importance
 get
 (
 index
+as
+usize
 )
+?
 ;
 let
 mut
@@ -3028,6 +3029,8 @@ important
 "
 ;
 }
+Some
+(
 DOMString
 :
 :
@@ -3035,7 +3038,6 @@ from
 (
 css
 )
-}
 )
 }
 )
