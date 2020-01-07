@@ -4525,7 +4525,6 @@ MediaList
 :
 Create
 (
-mType
 nsString
 (
 )
