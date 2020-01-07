@@ -1277,6 +1277,13 @@ memory
 pressure
 "
 "
+memory
+-
+pressure
+-
+stop
+"
+"
 Memory
 :
 Dump
