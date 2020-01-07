@@ -173,7 +173,7 @@ class
 IPCBlobInputStream
 ;
 class
-WorkerHolder
+ThreadSafeWorkerRef
 ;
 class
 IPCBlobInputStreamChild
@@ -497,11 +497,11 @@ nsISerialEventTarget
 >
 mOwningEventTarget
 ;
-UniquePtr
+RefPtr
 <
-WorkerHolder
+ThreadSafeWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 }
 ;
