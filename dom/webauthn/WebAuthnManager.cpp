@@ -1832,7 +1832,7 @@ forget
 /
 /
 Enforce
-4
+5
 .
 4
 .
@@ -1843,19 +1843,6 @@ Parameters
 for
 Credential
 Generation
-if
-(
-aOptions
-.
-mUser
-.
-mId
-.
-WasPassed
-(
-)
-)
-{
 /
 /
 When
@@ -1885,6 +1872,7 @@ verify
 its
 correctness
 .
+{
 CryptoBuffer
 userId
 ;
@@ -1897,10 +1885,6 @@ aOptions
 mUser
 .
 mId
-.
-Value
-(
-)
 )
 ;
 if
