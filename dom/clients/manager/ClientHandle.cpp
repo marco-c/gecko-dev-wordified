@@ -332,6 +332,11 @@ ClientHandleChild
 aActor
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aActor
+)
+;
 ClientHandleOpChild
 *
 actor
@@ -384,6 +389,11 @@ return
 aRejectCallback
 ]
 {
+MOZ_RELEASE_ASSERT
+(
+aRejectCallback
+)
+;
 aRejectCallback
 (
 NS_ERROR_DOM_INVALID_STATE_ERR
