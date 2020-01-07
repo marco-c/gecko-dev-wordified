@@ -29322,7 +29322,9 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
+credits
 home
+logo
 newtab
 printpreview
 srcdoc
@@ -58385,7 +58387,7 @@ true
 ;
 /
 /
-Disable
+Enable
 tab
 hiding
 API
@@ -58403,7 +58405,7 @@ tabhide
 .
 enabled
 "
-false
+true
 )
 ;
 pref
