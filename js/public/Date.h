@@ -354,9 +354,6 @@ Value
 .
 h
 "
-struct
-JSContext
-;
 namespace
 JS
 {

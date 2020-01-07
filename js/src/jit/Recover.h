@@ -148,9 +148,6 @@ Snapshots
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {

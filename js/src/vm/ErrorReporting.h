@@ -168,9 +168,6 @@ h
 /
 for
 UniqueTwoByteChars
-struct
-JSContext
-;
 namespace
 js
 {

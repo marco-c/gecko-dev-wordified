@@ -1903,9 +1903,6 @@ even
 more
 bizarre
 .
-class
-JSAtom
-;
 namespace
 JS
 {

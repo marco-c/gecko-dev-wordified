@@ -1026,9 +1026,6 @@ Result
 .
 h
 "
-struct
-JSContext
-;
 /
 *
 *

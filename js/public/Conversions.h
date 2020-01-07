@@ -190,9 +190,6 @@ Value
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {

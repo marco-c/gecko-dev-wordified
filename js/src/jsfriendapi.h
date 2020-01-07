@@ -278,9 +278,6 @@ limit
 )
 #
 endif
-class
-JSAtom
-;
 struct
 JSErrorFormatString
 ;

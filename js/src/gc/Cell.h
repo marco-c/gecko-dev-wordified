@@ -150,6 +150,15 @@ TraceKind
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 namespace
 JS
 {
@@ -169,9 +178,6 @@ shadow
 enum
 class
 TraceKind
-;
-struct
-Zone
 ;
 }
 /

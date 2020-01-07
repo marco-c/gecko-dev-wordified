@@ -192,9 +192,6 @@ Vector
 h
 "
 struct
-JSRuntime
-;
-struct
 JSStructuredCloneReader
 ;
 struct

@@ -137,6 +137,15 @@ gc_Marking_h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 vm
 /
 TaggedProto
@@ -148,9 +157,6 @@ JSLinearString
 ;
 class
 JSRope
-;
-struct
-JSRuntime
 ;
 class
 JSTracer
