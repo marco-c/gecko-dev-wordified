@@ -31768,7 +31768,7 @@ aBounds
 {
 aList
 .
-AppendNewToBottom
+AppendToBottom
 (
 new
 (
@@ -32460,7 +32460,7 @@ forceUnscrolledItem
 {
 aList
 .
-AppendNewToBottom
+AppendToBottom
 (
 new
 (

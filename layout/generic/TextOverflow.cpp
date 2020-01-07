@@ -5557,7 +5557,7 @@ aLineNumber
 ;
 mMarkerList
 .
-AppendNewToTop
+AppendToTop
 (
 marker
 )
@@ -5671,7 +5671,7 @@ aLineNumber
 ;
 mMarkerList
 .
-AppendNewToTop
+AppendToTop
 (
 marker
 )

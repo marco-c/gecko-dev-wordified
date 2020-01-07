@@ -14278,7 +14278,7 @@ return
 aList
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -14331,7 +14331,7 @@ Outlines
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -14404,7 +14404,7 @@ return
 aList
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -14639,7 +14639,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -14684,7 +14684,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -14747,7 +14747,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -15825,7 +15825,7 @@ Outlines
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -15890,7 +15890,7 @@ Outlines
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -19635,7 +19635,7 @@ BorderBackground
 )
 -
 >
-AppendNewToBottom
+AppendToBottom
 (
 new
 (
@@ -19781,7 +19781,7 @@ PositionedDescendants
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 color
 )
@@ -20360,7 +20360,7 @@ aBuilder
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 nsDisplayBlendContainer
 :
@@ -20607,7 +20607,7 @@ top
 /
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -20812,7 +20812,7 @@ top
 /
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -20972,7 +20972,7 @@ aBuilder
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -21479,7 +21479,7 @@ allowAsyncAnimation
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 transformItem
 )
@@ -21509,7 +21509,7 @@ Restore
 }
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -21571,7 +21571,7 @@ Restore
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -21755,7 +21755,7 @@ CurrentActiveScrolledRoot
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -21928,7 +21928,7 @@ CurrentActiveScrolledRoot
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -22018,7 +22018,7 @@ aBuilder
 ;
 resultList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -22978,7 +22978,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -24807,7 +24807,7 @@ isPositioned
 {
 list
 .
-AppendNewToTop
+AppendToTop
 (
 item
 )
@@ -24822,7 +24822,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 item
 )
@@ -24942,7 +24942,7 @@ normal
 elements
 list
 .
-AppendNewToTop
+AppendToTop
 (
 eventRegions
 )
@@ -24957,7 +24957,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 eventRegions
 )
@@ -25391,7 +25391,7 @@ Content
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 item
 )
@@ -25406,7 +25406,7 @@ PositionedDescendants
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 item
 )
@@ -25447,7 +25447,7 @@ Floats
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 WrapInWrapList
 (
@@ -74016,7 +74016,7 @@ layer
 aList
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
