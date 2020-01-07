@@ -9043,14 +9043,6 @@ this
 .
 ctx
 .
-beginPath
-(
-)
-;
-this
-.
-ctx
-.
 translate
 (
 offset
