@@ -1153,8 +1153,10 @@ CompositorOGL
 >
 mCompositor
 ;
+RefPtr
+<
 GLContext
-*
+>
 mGL
 ;
 GLuint
