@@ -60,7 +60,10 @@ use
 style_traits
 :
 :
+{
+CssWriter
 ToCss
+}
 ;
 use
 values
@@ -79,6 +82,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 fn
 serialize_directional_border
@@ -91,7 +100,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 width
 :
 &
@@ -113,9 +125,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 I

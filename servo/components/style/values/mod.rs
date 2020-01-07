@@ -163,6 +163,7 @@ fmt
 {
 self
 Debug
+Write
 }
 ;
 use
@@ -176,9 +177,10 @@ style_traits
 :
 :
 {
-ToCss
+CssWriter
 ParseError
 StyleParseErrorKind
+ToCss
 }
 ;
 pub
@@ -280,7 +282,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -290,9 +295,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
@@ -908,7 +910,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -918,9 +923,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
@@ -1504,7 +1506,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1514,9 +1519,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {

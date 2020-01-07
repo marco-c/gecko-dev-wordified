@@ -119,6 +119,7 @@ style_traits
 :
 :
 {
+CssWriter
 ParseError
 ToCss
 }
@@ -1609,7 +1610,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >

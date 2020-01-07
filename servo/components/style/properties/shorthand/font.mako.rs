@@ -1220,7 +1220,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1230,9 +1233,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
@@ -1708,7 +1708,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1775,7 +1778,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -2422,7 +2428,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >

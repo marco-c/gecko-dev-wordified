@@ -171,7 +171,10 @@ use
 style_traits
 :
 :
+{
+CssWriter
 ToCss
+}
 ;
 use
 stylesheets
@@ -452,7 +455,15 @@ guard
 .
 to_css
 (
+&
+mut
+CssWriter
+:
+:
+new
+(
 dest
+)
 )
 ?
 ;

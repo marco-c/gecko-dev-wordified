@@ -344,6 +344,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 #
 [
@@ -367,6 +373,7 @@ style_traits
 :
 :
 {
+CssWriter
 ParseError
 ToCss
 }
@@ -1020,7 +1027,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1030,9 +1040,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {

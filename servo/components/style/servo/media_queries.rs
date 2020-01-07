@@ -133,6 +133,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 use
 std
@@ -156,6 +162,7 @@ style_traits
 :
 {
 CSSPixel
+CssWriter
 DevicePixel
 ToCss
 ParseError
@@ -1810,7 +1817,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1820,9 +1830,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {

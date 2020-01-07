@@ -69,8 +69,9 @@ rule
 use
 {
 CSSPixel
-PinchZoomFactor
+CssWriter
 ParseError
+PinchZoomFactor
 ToCss
 }
 ;
@@ -107,6 +108,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 define_css_keyword_enum
 !
@@ -461,7 +468,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -471,9 +481,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
@@ -791,7 +798,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >

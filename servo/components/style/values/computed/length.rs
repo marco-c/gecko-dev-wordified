@@ -85,6 +85,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 use
 std
@@ -102,7 +108,10 @@ use
 style_traits
 :
 :
+{
+CssWriter
 ToCss
+}
 ;
 use
 style_traits
@@ -1467,7 +1476,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1477,9 +1489,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
@@ -5045,7 +5054,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -5055,9 +5067,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {

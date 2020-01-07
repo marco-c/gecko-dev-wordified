@@ -249,6 +249,7 @@ style_traits
 :
 {
 CSSPixel
+CssWriter
 DevicePixel
 }
 ;
@@ -1940,7 +1941,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -3280,7 +3284,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 for_expr
 :
 &

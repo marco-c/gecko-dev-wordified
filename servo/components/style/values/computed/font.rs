@@ -212,8 +212,9 @@ style_traits
 :
 :
 {
-ToCss
+CssWriter
 ParseError
+ToCss
 }
 ;
 use
@@ -1505,7 +1506,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -1850,7 +1854,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -2009,7 +2016,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -3918,7 +3928,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -5423,7 +5436,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
