@@ -10545,9 +10545,6 @@ device
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -10564,5 +10561,3 @@ orientation
 true
 )
 ;
-#
-endif
