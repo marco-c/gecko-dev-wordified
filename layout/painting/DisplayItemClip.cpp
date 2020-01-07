@@ -2519,6 +2519,7 @@ DisplayItemClip
 :
 ComputeRegionInClips
 (
+const
 DisplayItemClip
 *
 aOldClip
