@@ -1618,7 +1618,7 @@ IsEmpty
 IntRect
 clearRect
 =
-aRect
+aClearRect
 .
 ToUnknownRect
 (
