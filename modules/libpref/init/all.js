@@ -60318,12 +60318,6 @@ XP_WIN
 )
 |
 |
-defined
-(
-XP_MACOSX
-)
-|
-|
 !
 defined
 (
