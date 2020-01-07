@@ -1107,11 +1107,14 @@ CreateTrailingBRIfNeeded
 Creates
 a
 bogus
-text
+<
+br
+>
 node
 if
 the
-document
+root
+element
 has
 no
 editable
@@ -1119,6 +1122,7 @@ content
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 CreateBogusNodeIfNeeded
 (
