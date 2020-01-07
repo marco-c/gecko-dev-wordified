@@ -2062,7 +2062,7 @@ div
 clientTop
 ;
 return
-waitForPaints
+waitForPaintsFlushed
 (
 )
 ;
