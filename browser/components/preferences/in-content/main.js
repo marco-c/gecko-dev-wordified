@@ -5786,7 +5786,7 @@ same
 tab
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about

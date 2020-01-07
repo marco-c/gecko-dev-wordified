@@ -2859,7 +2859,7 @@ setAttribute
 "
 onclick
 "
-openUILinkIn
+openTrustedLinkIn
 (
 {
 JSON

@@ -5458,7 +5458,7 @@ doc
 .
 defaultView
 .
-openUILink
+openWebLinkIn
 (
 tabInfo
 .

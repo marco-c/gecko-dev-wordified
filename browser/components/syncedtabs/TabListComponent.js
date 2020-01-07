@@ -841,7 +841,7 @@ this
 .
 _window
 .
-openUILinkIn
+openTrustedLinkIn
 (
 url
 where

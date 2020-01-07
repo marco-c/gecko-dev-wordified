@@ -4757,6 +4757,15 @@ aEvent
 ignoreAlt
 :
 true
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

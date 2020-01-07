@@ -5005,7 +5005,7 @@ migrationBrowser
 ;
 chromeWindow
 .
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "

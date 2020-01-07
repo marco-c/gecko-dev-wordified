@@ -5341,7 +5341,7 @@ return
 }
 aWindow
 .
-openUILinkIn
+openTrustedLinkIn
 (
 aNode
 .

@@ -1506,7 +1506,7 @@ this
 .
 window
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about
@@ -8514,7 +8514,7 @@ this
 .
 window
 .
-openUILinkIn
+openTrustedLinkIn
 (
 getMoreURL
 "

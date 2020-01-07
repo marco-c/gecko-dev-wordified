@@ -273,7 +273,7 @@ tab
 }
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 this
 .

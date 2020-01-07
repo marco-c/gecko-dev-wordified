@@ -5630,7 +5630,7 @@ callback
 {
 chromeWin
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about

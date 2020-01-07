@@ -7372,7 +7372,7 @@ true
 )
 ;
 }
-openUILinkIn
+openTrustedLinkIn
 (
 alternativeURI
 .
@@ -15979,7 +15979,7 @@ tab
 ;
 /
 /
-openUILinkIn
+openTrustedLinkIn
 in
 utilityOverlay
 .
@@ -16790,7 +16790,7 @@ break
 ;
 }
 }
-openUILinkIn
+openTrustedLinkIn
 (
 BROWSER_NEW_TAB_URL
 where
@@ -17082,7 +17082,7 @@ ex
 )
 {
 }
-openUILinkIn
+openTrustedLinkIn
 (
 fp
 .
@@ -22858,7 +22858,7 @@ callback
 (
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -22978,7 +22978,7 @@ callback
 (
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -28226,7 +28226,7 @@ tab
 window
 "
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 this
 .
@@ -29639,7 +29639,7 @@ window
 )
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about
@@ -31028,7 +31028,7 @@ openNewUserContextTab
 event
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 BROWSER_NEW_TAB_URL
 "
@@ -42990,6 +42990,13 @@ disallowInheritPrincipal
 data
 .
 mayInheritPrincipal
+triggeringPrincipal
+:
+gBrowser
+.
+selectedBrowser
+.
+contentPrincipal
 }
 )
 ;
@@ -48664,7 +48671,7 @@ current
 tab
 "
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about
@@ -49905,7 +49912,7 @@ if
 reportUrl
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -59506,7 +59513,7 @@ that
 gets
 passed
 to
-openUILinkIn
+openTrustedLinkIn
 .
 Please
 *
@@ -59514,7 +59521,7 @@ see
 the
 documentation
 for
-openUILinkIn
+openTrustedLinkIn
 to
 see
 what
@@ -60459,7 +60466,7 @@ gBrowser
 selectedTab
 )
 )
-openUILinkIn
+openTrustedLinkIn
 (
 aURI
 .
@@ -60471,7 +60478,7 @@ aOpenParams
 )
 ;
 else
-openUILinkIn
+openTrustedLinkIn
 (
 aURI
 .
