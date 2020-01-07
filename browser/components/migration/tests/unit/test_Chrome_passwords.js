@@ -966,6 +966,7 @@ login
 let
 migrator
 =
+await
 MigrationUtils
 .
 getMigrator
@@ -979,9 +980,12 @@ Assert
 .
 ok
 (
+await
 migrator
 .
-sourceExists
+isSourceAvailable
+(
+)
 "
 Sanity
 check
@@ -1159,6 +1163,7 @@ test_importExistingLogins
 let
 migrator
 =
+await
 MigrationUtils
 .
 getMigrator
@@ -1172,9 +1177,12 @@ Assert
 .
 ok
 (
+await
 migrator
 .
-sourceExists
+isSourceAvailable
+(
+)
 "
 Sanity
 check

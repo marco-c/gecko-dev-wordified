@@ -454,6 +454,7 @@ test_getLastUsedProfileId_function
 let
 profileId
 =
+await
 ChromeMigrationUtils
 .
 getLastUsedProfileId

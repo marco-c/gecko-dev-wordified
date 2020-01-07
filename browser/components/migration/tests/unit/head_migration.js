@@ -329,6 +329,7 @@ complete
 .
 *
 /
+async
 function
 promiseMigration
 (
@@ -350,6 +351,7 @@ available
 let
 availableSources
 =
+await
 migrator
 .
 getMigrateData
