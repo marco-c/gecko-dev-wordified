@@ -1539,6 +1539,8 @@ SetTimeResolutionUsec
 (
 uint32_t
 resolution
+bool
+jitter
 )
 ;
 }
