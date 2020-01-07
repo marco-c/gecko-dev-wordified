@@ -427,6 +427,16 @@ nsIDocShell
 aDocShell
 )
 ;
+void
+Freeze
+(
+)
+;
+void
+Thaw
+(
+)
+;
 const
 ClientInfo
 &
