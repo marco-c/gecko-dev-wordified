@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+8
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -45,11 +45,11 @@ ts
 8
 sts
 =
-4
+2
 et
 sw
 =
-4
+2
 tw
 =
 80
@@ -97,7 +97,7 @@ can
 obtain
 one
 at
-http
+https
 :
 /
 /
@@ -148,10 +148,10 @@ html
 /
 #
 ifndef
-__xpt_struct_h__
+xpt_struct_h
 #
 define
-__xpt_struct_h__
+xpt_struct_h
 #
 include
 "
@@ -439,6 +439,7 @@ XPT_MINOR_VERSION
 0x02
 /
 *
+*
 Any
 file
 with
@@ -692,6 +693,7 @@ XPTInterfaceDescriptor
 {
 /
 *
+*
 This
 field
 ordering
@@ -747,6 +749,7 @@ uint8_t
 flags
 ;
 /
+*
 *
 additional_types
 are
@@ -2050,6 +2053,10 @@ XPT_ANN_LAST
 0x80
 #
 define
+XPT_ANN_PRIVATE
+0x40
+#
+define
 XPT_ANN_IS_LAST
 (
 flags
@@ -2059,10 +2066,6 @@ flags
 &
 XPT_ANN_LAST
 )
-#
-define
-XPT_ANN_PRIVATE
-0x40
 #
 define
 XPT_ANN_IS_PRIVATE
@@ -2078,6 +2081,6 @@ XPT_ANN_PRIVATE
 endif
 /
 *
-__xpt_struct_h__
+xpt_struct_h
 *
 /
