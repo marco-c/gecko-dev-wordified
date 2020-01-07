@@ -48,11 +48,6 @@ is
 selected
 animation
 .
-requestLongerTimeout
-(
-2
-)
-;
 add_task
 (
 async
