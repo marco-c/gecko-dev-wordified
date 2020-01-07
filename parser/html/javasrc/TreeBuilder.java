@@ -7910,14 +7910,6 @@ node
 continue
 ;
 }
-/
-/
-CPPONLY
-:
-MOZ_FALLTHROUGH_ASSERT
-(
-)
-;
 default
 :
 /
