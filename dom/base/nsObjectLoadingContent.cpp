@@ -3493,7 +3493,6 @@ if
 aDocument
 )
 {
-return
 aDocument
 -
 >
