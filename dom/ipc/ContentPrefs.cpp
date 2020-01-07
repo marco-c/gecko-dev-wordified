@@ -1042,6 +1042,13 @@ javascript
 .
 options
 .
+array_prototype_values
+"
+"
+javascript
+.
+options
+.
 asmjs
 "
 "
