@@ -1797,7 +1797,7 @@ Element
 aResult
 )
 ;
-NS_IMPL_FROMCONTENT
+NS_IMPL_FROMNODE
 (
 nsXULElement
 kNameSpaceID_XUL
