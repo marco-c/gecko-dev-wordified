@@ -1414,11 +1414,6 @@ BlockingReadNextMoof
 (
 )
 ;
-bool
-HasMetadata
-(
-)
-;
 already_AddRefed
 <
 mozilla
@@ -1503,12 +1498,6 @@ private
 void
 ScanForMetadata
 (
-mozilla
-:
-:
-MediaByteRange
-&
-aFtyp
 mozilla
 :
 :
