@@ -222,7 +222,7 @@ IntRect
 {
 }
 void
-DetatchResources
+DetachResources
 (
 )
 {

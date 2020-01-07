@@ -423,7 +423,7 @@ IsEmpty
 ;
 /
 /
-Detatching
+Detaching
 our
 existing
 resources
@@ -447,7 +447,7 @@ that
 /
 first
 .
-DetatchResources
+DetachResources
 (
 )
 ;
