@@ -1421,7 +1421,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 element
 =
@@ -1430,6 +1430,19 @@ do_QueryInterface
 target
 )
 ;
+if
+(
+NS_WARN_IF
+(
+!
+element
+)
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 RefPtr
 <
 HTMLEditor
@@ -1453,6 +1466,7 @@ htmlEditor
 >
 DoInlineTableEditingAction
 (
+*
 element
 )
 ;
