@@ -4725,6 +4725,9 @@ const
 nsAString
 &
 aCssText
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return
@@ -4959,6 +4962,9 @@ const
 nsAString
 &
 priority
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 /
@@ -5290,6 +5296,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return
@@ -5309,6 +5318,7 @@ aValue
 EmptyString
 (
 )
+aSubjectPrincipal
 )
 ;
 }

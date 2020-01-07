@@ -2346,6 +2346,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return
@@ -2383,6 +2386,9 @@ const
 nsAString
 &
 aCssText
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return
@@ -7174,6 +7180,9 @@ const
 nsAString
 &
 aPriority
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return

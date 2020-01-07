@@ -1228,6 +1228,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 /
@@ -1379,6 +1382,7 @@ SetPropertyValue
 (
 aPropID
 aValue
+aSubjectPrincipal
 )
 ;
 }

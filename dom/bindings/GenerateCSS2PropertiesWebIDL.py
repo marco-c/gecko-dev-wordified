@@ -256,6 +256,10 @@ TreatNullAs
 =
 EmptyString
 "
+                         
+"
+NeedsSubjectPrincipal
+"
 ]
         
 if
