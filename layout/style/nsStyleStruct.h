@@ -18513,9 +18513,6 @@ const
 {
 return
 mSpecifiedTransform
-!
-=
-nullptr
 |
 |
 mTransformStyle
