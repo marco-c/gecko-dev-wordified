@@ -356,6 +356,10 @@ extern
 crate
 webrender_api
 ;
+extern
+crate
+winit
+;
 #
 [
 cfg
