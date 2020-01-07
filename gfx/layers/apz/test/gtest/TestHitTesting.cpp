@@ -5007,6 +5007,10 @@ origin
 0
 10
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 EXPECT_EQ
@@ -5198,6 +5202,10 @@ origin
 0
 10
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 EXPECT_EQ
@@ -5435,6 +5443,10 @@ origin
 0
 0
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 EXPECT_EQ

@@ -1724,6 +1724,10 @@ aDelta
 .
 y
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 return
@@ -1795,6 +1799,10 @@ aDelta
 .
 y
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 return

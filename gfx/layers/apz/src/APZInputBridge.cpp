@@ -1064,6 +1064,7 @@ mDeltaY
 wheelEvent
 .
 mAllowToOverrideSystemScrollSpeed
+strategy
 )
 ;
 /
