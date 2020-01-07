@@ -76,6 +76,8 @@ api
 {
 LayerPoint
 LayerRect
+LayerPrimitiveInfo
+LayerSize
 }
 ;
 use
@@ -83,10 +85,9 @@ api
 :
 :
 {
-LayerPrimitiveInfo
-LayerSize
 NormalBorder
 RepeatMode
+TexelRect
 }
 ;
 use
@@ -131,7 +132,6 @@ prim_store
 BrushClipMaskKind
 EdgeAaSegmentMask
 PrimitiveContainer
-TexelRect
 }
 ;
 use
