@@ -5070,7 +5070,10 @@ styleBorder
 mBorderImageRepeatH
 =
 =
-NS_STYLE_BORDER_IMAGE_REPEAT_ROUND
+StyleBorderImageRepeat
+:
+:
+Round
 |
 |
 styleBorder
@@ -5079,7 +5082,10 @@ styleBorder
 mBorderImageRepeatH
 =
 =
-NS_STYLE_BORDER_IMAGE_REPEAT_SPACE
+StyleBorderImageRepeat
+:
+:
+Space
 |
 |
 styleBorder
@@ -5088,7 +5094,10 @@ styleBorder
 mBorderImageRepeatV
 =
 =
-NS_STYLE_BORDER_IMAGE_REPEAT_ROUND
+StyleBorderImageRepeat
+:
+:
+Round
 |
 |
 styleBorder
@@ -5097,7 +5106,10 @@ styleBorder
 mBorderImageRepeatV
 =
 =
-NS_STYLE_BORDER_IMAGE_REPEAT_SPACE
+StyleBorderImageRepeat
+:
+:
+Space
 )
 {
 return
