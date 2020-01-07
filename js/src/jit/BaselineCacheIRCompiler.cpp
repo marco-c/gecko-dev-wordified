@@ -13119,6 +13119,12 @@ CacheKind
 :
 GetIterator
 :
+case
+CacheKind
+:
+:
+ToBool
+:
 MOZ_ASSERT
 (
 numInputs
