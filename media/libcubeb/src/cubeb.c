@@ -969,12 +969,6 @@ init_oneshot
 if
 defined
 (
-NIGHTLY_BUILD
-)
-&
-&
-defined
-(
 USE_PULSE_RUST
 )
 pulse_rust_init
