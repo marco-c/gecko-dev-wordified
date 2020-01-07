@@ -1372,7 +1372,7 @@ uint64_t
 &
 aTransactionId
 const
-WebAuthnTransactionInfo
+WebAuthnMakeCredentialInfo
 &
 aTransactionInfo
 )
@@ -1530,7 +1530,12 @@ Register
 (
 aTransactionInfo
 .
-Descriptors
+ExcludeList
+(
+)
+aTransactionInfo
+.
+AuthenticatorSelection
 (
 )
 aTransactionInfo
@@ -1799,7 +1804,7 @@ uint64_t
 &
 aTransactionId
 const
-WebAuthnTransactionInfo
+WebAuthnGetAssertionInfo
 &
 aTransactionInfo
 )
@@ -1920,7 +1925,7 @@ Sign
 (
 aTransactionInfo
 .
-Descriptors
+AllowList
 (
 )
 aTransactionInfo

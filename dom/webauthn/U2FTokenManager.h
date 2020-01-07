@@ -253,7 +253,7 @@ uint64_t
 &
 aTransactionId
 const
-WebAuthnTransactionInfo
+WebAuthnMakeCredentialInfo
 &
 aTransactionInfo
 )
@@ -269,7 +269,7 @@ uint64_t
 &
 aTransactionId
 const
-WebAuthnTransactionInfo
+WebAuthnGetAssertionInfo
 &
 aTransactionInfo
 )

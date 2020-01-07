@@ -108,7 +108,10 @@ use
 u2fhid
 :
 :
+{
+RegisterFlags
 U2FManager
+}
 ;
 extern
 crate
@@ -443,6 +446,16 @@ unwrap
 )
 ;
 let
+flags
+=
+RegisterFlags
+:
+:
+empty
+(
+)
+;
+let
 (
 tx
 rx
@@ -456,6 +469,7 @@ manager
 .
 register
 (
+flags
 15_000
 chall_bytes
 .

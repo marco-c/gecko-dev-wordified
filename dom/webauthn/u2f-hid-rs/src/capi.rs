@@ -651,6 +651,9 @@ mgr
 *
 mut
 U2FManager
+flags
+:
+u64
 timeout
 :
 u64
@@ -718,6 +721,19 @@ return
 ;
 }
 let
+flags
+=
+:
+:
+RegisterFlags
+:
+:
+from_bits_truncate
+(
+flags
+)
+;
+let
 challenge
 =
 from_raw
@@ -764,6 +780,7 @@ mgr
 .
 register
 (
+flags
 timeout
 challenge
 application
