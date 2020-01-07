@@ -5644,9 +5644,6 @@ cache
 GetStyleSheet
 (
 aURI
-GetStyleBackendType
-(
-)
 )
 ;
 LOG
@@ -11920,9 +11917,6 @@ aLoadData
 -
 >
 mURI
-GetStyleBackendType
-(
-)
 )
 )
 {
@@ -11964,9 +11958,6 @@ cache
 PutStyleSheet
 (
 sheet
-GetStyleBackendType
-(
-)
 )
 ;
 }
