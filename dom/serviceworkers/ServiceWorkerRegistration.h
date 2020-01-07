@@ -219,6 +219,9 @@ class
 PushManager
 ;
 class
+ServiceWorkerRegistrationDescriptor
+;
+class
 WorkerListener
 ;
 /
@@ -319,9 +322,9 @@ nsPIDOMWindowInner
 *
 aWindow
 const
-nsAString
+ServiceWorkerRegistrationDescriptor
 &
-aScope
+aDescriptor
 )
 ;
 static
