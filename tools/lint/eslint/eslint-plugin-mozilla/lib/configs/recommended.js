@@ -478,8 +478,6 @@ used
 "
 error
 "
-/
-/
 "
 no
 -
@@ -493,8 +491,6 @@ vars
 error
 "
 {
-/
-/
 "
 args
 "
@@ -502,8 +498,6 @@ args
 "
 none
 "
-/
-/
 "
 vars
 "
@@ -511,8 +505,6 @@ vars
 "
 all
 "
-/
-/
 "
 varsIgnorePattern
 "
@@ -529,8 +521,6 @@ Cr
 |
 EXPORTED_SYMBOLS
 "
-/
-/
 }
 ]
 }
