@@ -143,6 +143,15 @@ h
 #
 include
 "
+mozilla
+/
+fallible
+.
+h
+"
+#
+include
+"
 nsStringFlags
 .
 h
