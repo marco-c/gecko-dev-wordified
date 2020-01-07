@@ -409,15 +409,6 @@ case
 "
 runtime
 -
-apps
--
-icons
-"
-:
-case
-"
-runtime
--
 targets
 "
 :
