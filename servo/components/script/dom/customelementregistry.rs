@@ -425,6 +425,7 @@ JS_GetProperty
 JS_SameValue
 JSAutoCompartment
 JSContext
+JSObject
 }
 ;
 use
@@ -3395,6 +3396,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )
@@ -4294,6 +4300,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

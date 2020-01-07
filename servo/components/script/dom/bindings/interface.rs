@@ -1378,6 +1378,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )
@@ -1682,6 +1687,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

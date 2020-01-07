@@ -177,7 +177,10 @@ js
 jsapi
 :
 :
+{
 JSContext
+JSObject
+}
 ;
 use
 js
@@ -437,6 +440,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )
