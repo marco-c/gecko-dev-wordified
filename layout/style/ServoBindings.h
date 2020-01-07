@@ -1157,14 +1157,6 @@ RawGeckoElementBorrowed
 element
 )
 ;
-nsAtom
-*
-Gecko_Namespace
-(
-RawGeckoElementBorrowed
-element
-)
-;
 bool
 Gecko_MatchLang
 (
