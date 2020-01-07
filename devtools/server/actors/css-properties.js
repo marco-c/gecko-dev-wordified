@@ -417,7 +417,7 @@ if
 safeCssPropertySupportsType
 (
 name
-DOMUtils
+InspectorUtils
 [
 "
 TYPE_
@@ -662,7 +662,7 @@ isCssPropertyKnown
 A
 wrapper
 for
-DOMUtils
+InspectorUtils
 .
 cssPropertySupportsType
 that
@@ -728,7 +728,7 @@ type
 try
 {
 return
-DOMUtils
+InspectorUtils
 .
 cssPropertySupportsType
 (
