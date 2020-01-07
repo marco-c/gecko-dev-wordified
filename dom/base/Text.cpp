@@ -159,16 +159,11 @@ nsCOMPtr
 nsIContent
 >
 newChild
-;
-rv
 =
 SplitData
 (
 aOffset
-getter_AddRefs
-(
-newChild
-)
+rv
 )
 ;
 if
