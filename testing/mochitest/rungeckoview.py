@@ -854,7 +854,7 @@ self
 .
 device
 .
-launch_geckoview_example
+launch_activity
 (
 "
 org
@@ -863,7 +863,11 @@ mozilla
 .
 geckoview_example
 "
-                                                 
+                                        
+"
+GeckoViewActivity
+"
+                                        
 extra_args
 =
 args

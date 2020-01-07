@@ -3684,10 +3684,14 @@ timeout
 )
     
 def
-launch_geckoview_example
+launch_activity
 (
 self
 app_name
+activity_name
+=
+None
+                        
 intent
 =
 "
@@ -3699,7 +3703,7 @@ action
 .
 Main
 "
-                                 
+                        
 moz_env
 =
 None
@@ -3712,7 +3716,7 @@ None
 e10s
 =
 False
-                                 
+                        
 wait
 =
 True
@@ -3732,7 +3736,8 @@ Convenience
 method
 to
 launch
-geckoview_example
+an
+application
 on
 Android
 with
@@ -3740,6 +3745,12 @@ various
         
 debugging
 arguments
+;
+convenient
+for
+geckoview
+apps
+.
         
 :
 param
@@ -3760,7 +3771,29 @@ org
 mozilla
 .
 geckoview_example
+or
+org
+.
+mozilla
+.
+geckoview
+.
+test
 )
+        
+:
+param
+str
+activity_name
+:
+Activity
+name
+like
+GeckoViewActivity
+or
+            
+TestRunnerActivity
+.
         
 :
 param
@@ -3791,7 +3824,8 @@ to
 be
 parsed
 by
-fennec
+the
+app
 .
         
 :
@@ -4021,7 +4055,8 @@ command
 line
 arguments
 that
-geckoview_example
+the
+app
 will
 read
 and
@@ -4077,10 +4112,14 @@ app_name
 %
 s
 .
-GeckoViewActivity
+%
+s
 "
 %
+(
 app_name
+activity_name
+)
                                 
 intent
 url
