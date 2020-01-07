@@ -875,9 +875,9 @@ SaferMultDiv
 (
 int64_t
 aValue
-uint32_t
+uint64_t
 aMul
-uint32_t
+uint64_t
 aDiv
 )
 ;
