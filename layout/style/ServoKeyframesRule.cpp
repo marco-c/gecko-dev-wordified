@@ -1244,15 +1244,6 @@ Func
 aCallback
 )
 {
-MOZ_AUTO_DOC_UPDATE
-(
-GetComposedDoc
-(
-)
-UPDATE_STYLE
-true
-)
-;
 aCallback
 (
 )

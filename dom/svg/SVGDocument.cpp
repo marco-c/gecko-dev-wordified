@@ -859,11 +859,6 @@ mHasLoadedNonSVGUserAgentStyleSheets
 =
 true
 ;
-BeginUpdate
-(
-UPDATE_STYLE
-)
-;
 if
 (
 IsBeingUsedAsImage
@@ -1362,11 +1357,6 @@ cache
 UASheet
 (
 )
-)
-;
-EndUpdate
-(
-UPDATE_STYLE
 )
 ;
 }

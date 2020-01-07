@@ -13474,7 +13474,7 @@ agentSheets
 presShell
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;
@@ -14383,7 +14383,7 @@ rv
 presShell
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;

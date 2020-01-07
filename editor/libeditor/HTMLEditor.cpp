@@ -18090,7 +18090,7 @@ sheet
 ps
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;
@@ -18345,7 +18345,7 @@ sheet
 ps
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;
