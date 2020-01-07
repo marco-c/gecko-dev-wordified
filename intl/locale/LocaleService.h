@@ -1737,11 +1737,11 @@ bool
 LanguagesMatch
 (
 const
-nsCString
+nsACString
 &
 aRequested
 const
-nsCString
+nsACString
 &
 aAvailable
 )
