@@ -414,7 +414,7 @@ stack
 indexOf
 (
 "
-FFI
+exit
 trampoline
 "
 )
