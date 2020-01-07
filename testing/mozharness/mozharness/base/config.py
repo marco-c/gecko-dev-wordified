@@ -2418,6 +2418,52 @@ hierarchy
         
 )
         
+self
+.
+config_parser
+.
+add_option
+(
+            
+"
+-
+-
+append
+-
+env
+-
+variables
+-
+from
+-
+configs
+"
+action
+=
+"
+store_true
+"
+            
+dest
+=
+"
+append_env_variables_from_configs
+"
+            
+help
+=
+"
+Merge
+environment
+variables
+from
+config
+files
+.
+"
+        
+)
+        
 #
 Logging
         
@@ -3933,9 +3979,16 @@ config
 }
             
 if
+(
 self
 .
 append_env_variables_from_configs
+                    
+or
+options
+.
+append_env_variables_from_configs
+)
 :
                 
 #
