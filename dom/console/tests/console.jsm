@@ -141,7 +141,7 @@ LEVEL
 maxLogLevel
 :
 "
-off
+Off
 "
 }
 )
@@ -167,7 +167,7 @@ LEVEL
 maxLogLevel
 :
 "
-all
+All
 "
 }
 )

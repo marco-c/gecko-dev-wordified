@@ -61225,7 +61225,7 @@ push
 loglevel
 "
 "
-error
+Error
 "
 )
 ;
