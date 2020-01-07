@@ -242,8 +242,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 InputData
 &
@@ -286,7 +286,7 @@ return
 ReceiveTouchInput
 (
 aTarget
-aTargetConfirmed
+aFlags
 event
 aOutInputBlockId
 )
@@ -311,7 +311,7 @@ return
 ReceiveScrollWheelInput
 (
 aTarget
-aTargetConfirmed
+aFlags
 event
 aOutInputBlockId
 )
@@ -336,7 +336,7 @@ return
 ReceivePanGestureInput
 (
 aTarget
-aTargetConfirmed
+aFlags
 event
 aOutInputBlockId
 )
@@ -361,7 +361,7 @@ return
 ReceiveMouseInput
 (
 aTarget
-aTargetConfirmed
+aFlags
 event
 aOutInputBlockId
 )
@@ -386,7 +386,9 @@ MOZ_ASSERT
 aTarget
 &
 &
-aTargetConfirmed
+aFlags
+.
+mTargetConfirmed
 )
 ;
 const
@@ -502,8 +504,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 MultiTouchInput
 &
@@ -646,7 +648,7 @@ block
 StartNewTouchBlock
 (
 aTarget
-aTargetConfirmed
+aFlags
 false
 )
 ;
@@ -1319,8 +1321,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 MouseInput
 &
@@ -1560,7 +1562,7 @@ new
 DragBlockState
 (
 aTarget
-aTargetConfirmed
+aFlags
 aEvent
 )
 ;
@@ -1717,8 +1719,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 ScrollWheelInput
 &
@@ -1823,7 +1825,7 @@ new
 WheelBlockState
 (
 aTarget
-aTargetConfirmed
+aFlags
 aEvent
 )
 ;
@@ -2383,8 +2385,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 PanGestureInput
 &
@@ -2570,7 +2572,7 @@ new
 PanGestureBlockState
 (
 aTarget
-aTargetConfirmed
+aFlags
 event
 )
 ;
@@ -2612,7 +2614,9 @@ get
 ;
 if
 (
-aTargetConfirmed
+aFlags
+.
+mTargetConfirmed
 &
 &
 event
@@ -3291,13 +3295,10 @@ block
 StartNewTouchBlock
 (
 aTarget
-/
-*
-aTargetConfirmed
-=
-*
-/
+TargetConfirmationFlags
+{
 true
+}
 /
 *
 aCopyPropertiesFromCurrent
@@ -3368,8 +3369,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 bool
 aCopyPropertiesFromCurrent
 )
@@ -3382,7 +3383,7 @@ new
 TouchBlockState
 (
 aTarget
-aTargetConfirmed
+aFlags
 mTouchCounter
 )
 ;

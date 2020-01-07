@@ -346,8 +346,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 )
 ;
 virtual
@@ -923,8 +923,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 )
 ;
 CancelableBlockState
@@ -1300,8 +1300,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 ScrollWheelInput
 &
@@ -1716,8 +1716,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 MouseInput
 &
@@ -1830,8 +1830,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 PanGestureInput
 &
@@ -2242,8 +2242,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 TouchCounter
 &
 aTouchCounter

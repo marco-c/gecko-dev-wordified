@@ -335,8 +335,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 InputData
 &
@@ -1068,8 +1068,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 bool
 aCopyPropertiesFromCurrent
 )
@@ -1154,8 +1154,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 MultiTouchInput
 &
@@ -1175,8 +1175,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 MouseInput
 &
@@ -1196,8 +1196,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 ScrollWheelInput
 &
@@ -1217,8 +1217,8 @@ AsyncPanZoomController
 >
 &
 aTarget
-bool
-aTargetConfirmed
+TargetConfirmationFlags
+aFlags
 const
 PanGestureInput
 &
