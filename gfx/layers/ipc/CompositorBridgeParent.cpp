@@ -10392,7 +10392,7 @@ static
 /
 already_AddRefed
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 CompositorBridgeParent
 :
@@ -10455,7 +10455,7 @@ second
 ;
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzctm
 =

@@ -149,6 +149,17 @@ mozilla
 /
 layers
 /
+CompositorManagerParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ImageBridgeParent
 .
 h
