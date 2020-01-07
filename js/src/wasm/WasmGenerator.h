@@ -364,9 +364,6 @@ callSites
 CallSiteTargetVector
 callSiteTargets
 ;
-TrapSiteVectorArray
-trapSites
-;
 OldTrapSiteVector
 oldTrapSites
 ;
@@ -424,12 +421,6 @@ clear
 )
 ;
 callSiteTargets
-.
-clear
-(
-)
-;
-trapSites
 .
 clear
 (
@@ -507,13 +498,6 @@ empty
 &
 &
 callSiteTargets
-.
-empty
-(
-)
-&
-&
-trapSites
 .
 empty
 (

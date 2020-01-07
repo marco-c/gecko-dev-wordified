@@ -344,9 +344,6 @@ outOfBoundsOffset
 uint32_t
 unalignedAccessOffset
 ;
-uint32_t
-trapOffset
-;
 LinkDataTierCacheablePod
 (
 )
