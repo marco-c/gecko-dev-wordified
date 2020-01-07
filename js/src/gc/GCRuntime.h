@@ -986,7 +986,7 @@ GC
 /
 UnprotectedData
 <
-float
+double
 >
 allocThresholdFactor_
 ;
@@ -1013,7 +1013,7 @@ GC
 /
 UnprotectedData
 <
-float
+double
 >
 allocThresholdFactorAvoidInterrupt_
 ;
@@ -1329,7 +1329,7 @@ return
 gcZoneAllocThresholdBase_
 ;
 }
-float
+double
 allocThresholdFactor
 (
 )
@@ -1339,7 +1339,7 @@ return
 allocThresholdFactor_
 ;
 }
-float
+double
 allocThresholdFactorAvoidInterrupt
 (
 )

@@ -322,7 +322,7 @@ gcTriggerBytes_
 ;
 }
 double
-allocTrigger
+eagerAllocTrigger
 (
 bool
 highFrequencyGC
