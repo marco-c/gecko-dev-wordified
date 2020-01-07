@@ -19880,6 +19880,15 @@ cx
 PreserveWrapper
 )
 ;
+JS_InitReadPrincipalsCallback
+(
+cx
+nsJSPrincipals
+:
+:
+ReadPrincipals
+)
+;
 JS_SetAccumulateTelemetryCallback
 (
 cx
