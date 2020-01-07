@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsCSSFontFaceRule
-.
-h
-"
-#
-include
-"
 nsICSSLoaderObserver
 .
 h
@@ -189,6 +182,9 @@ nsIPrincipal
 ;
 class
 nsPIDOMWindowInner
+;
+struct
+RawServoFontFaceRule
 ;
 namespace
 mozilla
@@ -705,7 +701,7 @@ a
 platform
 font
 entry
-nsCSSFontFaceRule
+RawServoFontFaceRule
 *
 FindRuleForEntry
 (
@@ -1550,7 +1546,7 @@ a
 userfont
 font
 entry
-nsCSSFontFaceRule
+RawServoFontFaceRule
 *
 FindRuleForUserFontEntry
 (
