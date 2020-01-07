@@ -3344,38 +3344,6 @@ id
 }
 ;
 }
-function
-addMessageListenerId
-(
-messageName
-handler
-)
-{
-addMessageListener
-(
-messageName
-+
-outerWindowID
-handler
-)
-;
-}
-function
-removeMessageListenerId
-(
-messageName
-handler
-)
-{
-removeMessageListener
-(
-messageName
-+
-outerWindowID
-handler
-)
-;
-}
 let
 getPageSourceFn
 =
@@ -3591,7 +3559,7 @@ startListeners
 (
 )
 {
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3601,7 +3569,7 @@ newSession
 newSession
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3611,7 +3579,7 @@ execute
 executeFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3621,7 +3589,7 @@ executeInSandbox
 executeInSandboxFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3631,7 +3599,7 @@ singleTap
 singleTapFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3641,7 +3609,7 @@ performActions
 performActionsFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3651,7 +3619,7 @@ releaseActions
 releaseActionsFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3661,7 +3629,7 @@ actionChain
 actionChainFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3671,7 +3639,7 @@ multiAction
 multiActionFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3681,7 +3649,7 @@ get
 get
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3691,7 +3659,7 @@ waitForPageLoaded
 waitForPageLoaded
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3701,7 +3669,7 @@ cancelRequest
 cancelRequest
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3711,7 +3679,7 @@ getPageSource
 getPageSourceFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3721,7 +3689,7 @@ goBack
 goBack
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3731,7 +3699,7 @@ goForward
 goForward
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3741,7 +3709,7 @@ refresh
 refresh
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3751,7 +3719,7 @@ findElementContent
 findElementContentFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3761,7 +3729,7 @@ findElementsContent
 findElementsContentFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3771,7 +3739,7 @@ getActiveElement
 getActiveElementFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3781,7 +3749,7 @@ clickElement
 clickElement
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3791,7 +3759,7 @@ getElementAttribute
 getElementAttributeFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3801,7 +3769,7 @@ getElementProperty
 getElementPropertyFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3811,7 +3779,7 @@ getElementText
 getElementTextFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3821,7 +3789,7 @@ getElementTagName
 getElementTagNameFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3831,7 +3799,7 @@ isElementDisplayed
 isElementDisplayedFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3841,7 +3809,7 @@ getElementValueOfCssProperty
 getElementValueOfCssPropertyFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3851,7 +3819,7 @@ getElementRect
 getElementRectFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3861,7 +3829,7 @@ isElementEnabled
 isElementEnabledFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3871,7 +3839,7 @@ isElementSelected
 isElementSelectedFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3881,7 +3849,7 @@ sendKeysToElement
 sendKeysToElementFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3891,7 +3859,7 @@ clearElement
 clearElementFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3901,7 +3869,7 @@ switchToFrame
 switchToFrame
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3911,7 +3879,7 @@ switchToParentFrame
 switchToParentFrame
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3921,7 +3889,7 @@ switchToShadowRoot
 switchToShadowRootFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3931,7 +3899,7 @@ deleteSession
 deleteSession
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -3941,7 +3909,7 @@ takeScreenshot
 takeScreenshotFn
 )
 ;
-addMessageListenerId
+addMessageListener
 (
 "
 Marionette
@@ -4059,7 +4027,7 @@ deleteSession
 (
 )
 {
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4069,7 +4037,7 @@ newSession
 newSession
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4079,7 +4047,7 @@ execute
 executeFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4089,7 +4057,7 @@ executeInSandbox
 executeInSandboxFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4099,7 +4067,7 @@ singleTap
 singleTapFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4109,7 +4077,7 @@ performActions
 performActionsFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4119,7 +4087,7 @@ releaseActions
 releaseActionsFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4129,7 +4097,7 @@ actionChain
 actionChainFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4139,7 +4107,7 @@ multiAction
 multiActionFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4149,7 +4117,7 @@ get
 get
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4159,7 +4127,7 @@ waitForPageLoaded
 waitForPageLoaded
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4169,7 +4137,7 @@ cancelRequest
 cancelRequest
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4179,7 +4147,7 @@ getPageSource
 getPageSourceFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4189,7 +4157,7 @@ goBack
 goBack
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4199,7 +4167,7 @@ goForward
 goForward
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4209,7 +4177,7 @@ refresh
 refresh
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4219,7 +4187,7 @@ findElementContent
 findElementContentFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4229,7 +4197,7 @@ findElementsContent
 findElementsContentFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4239,7 +4207,7 @@ getActiveElement
 getActiveElementFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4249,7 +4217,7 @@ clickElement
 clickElement
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4259,7 +4227,7 @@ getElementAttribute
 getElementAttributeFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4269,7 +4237,7 @@ getElementProperty
 getElementPropertyFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4279,7 +4247,7 @@ getElementText
 getElementTextFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4289,7 +4257,7 @@ getElementTagName
 getElementTagNameFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4299,7 +4267,7 @@ isElementDisplayed
 isElementDisplayedFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4309,7 +4277,7 @@ getElementValueOfCssProperty
 getElementValueOfCssPropertyFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4319,7 +4287,7 @@ getElementRect
 getElementRectFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4329,7 +4297,7 @@ isElementEnabled
 isElementEnabledFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4339,7 +4307,7 @@ isElementSelected
 isElementSelectedFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4349,7 +4317,7 @@ sendKeysToElement
 sendKeysToElementFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4359,7 +4327,7 @@ clearElement
 clearElementFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4369,7 +4337,7 @@ switchToFrame
 switchToFrame
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4379,7 +4347,7 @@ switchToParentFrame
 switchToParentFrame
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4389,7 +4357,7 @@ switchToShadowRoot
 switchToShadowRootFn
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
@@ -4399,7 +4367,7 @@ deleteSession
 deleteSession
 )
 ;
-removeMessageListenerId
+removeMessageListener
 (
 "
 Marionette
