@@ -4904,7 +4904,7 @@ mCallbackProxy
 *
 *
 Call
-openWindow
+open
 (
 )
 on
@@ -5003,7 +5003,7 @@ timeout
 }
 session
 .
-openWindow
+open
 (
 mInstrumentation
 .
@@ -5286,7 +5286,7 @@ isOpen
 {
 session
 .
-closeWindow
+close
 (
 )
 ;
