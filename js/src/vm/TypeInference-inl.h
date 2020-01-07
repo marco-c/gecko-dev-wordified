@@ -6749,20 +6749,6 @@ constraints
 .
 *
 /
-AutoAssertNoTISweeping
-nosweeping
-(
-cx
--
->
-zone
-(
-)
--
->
-types
-)
-;
 if
 (
 !
@@ -6780,7 +6766,6 @@ constraint
 =
 constraintList
 (
-nosweeping
 )
 ;
 while
@@ -6815,7 +6800,6 @@ MOZ_ASSERT
 !
 constraintList
 (
-nosweeping
 )
 )
 ;
