@@ -124,12 +124,12 @@ thing
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -147,7 +147,7 @@ panel
 inspector
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -203,7 +203,7 @@ complete
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -215,7 +215,7 @@ delay
 inspector
 )
 ;
-yield
+await
 reloadTab
 (
 inspector
@@ -236,7 +236,7 @@ paused
 )
 )
 {
-yield
+await
 waitForButtonPaused
 (
 btn
@@ -270,7 +270,7 @@ done
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel
@@ -296,7 +296,7 @@ again
 "
 )
 ;
-yield
+await
 clickTimelinePlayPauseButton
 (
 panel
@@ -330,7 +330,7 @@ them
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel

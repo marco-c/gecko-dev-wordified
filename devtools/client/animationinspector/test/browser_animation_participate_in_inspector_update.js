@@ -102,12 +102,12 @@ ready
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -126,7 +126,7 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -249,7 +249,7 @@ node
 let
 node
 =
-yield
+await
 getNodeFront
 (
 "
@@ -259,7 +259,7 @@ animated
 inspector
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 node

@@ -118,12 +118,12 @@ handle
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -140,7 +140,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -211,7 +211,7 @@ scrubber
 "
 )
 ;
-yield
+await
 synthesizeInHeaderAndWaitForChange
 (
 timeline
@@ -273,7 +273,7 @@ it
 "
 )
 ;
-yield
+await
 synthesizeInHeaderAndWaitForChange
 (
 timeline
@@ -462,7 +462,7 @@ mouseup
 win
 )
 ;
-yield
+await
 onDataChanged
 ;
 checkScrubberIsAt
@@ -491,7 +491,7 @@ panel
 setCurrentTimeAllPromise
 )
 {
-yield
+await
 panel
 .
 setCurrentTimeAllPromise
@@ -500,8 +500,8 @@ setCurrentTimeAllPromise
 }
 )
 ;
+async
 function
-*
 synthesizeInHeaderAndWaitForChange
 (
 timeline
@@ -543,7 +543,7 @@ timeline
 win
 )
 ;
-yield
+await
 onDataChanged
 ;
 }

@@ -108,12 +108,12 @@ displayed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -131,7 +131,7 @@ inspector
 window
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -255,7 +255,7 @@ animations
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "

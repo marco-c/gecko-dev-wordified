@@ -68,12 +68,12 @@ target
 nodes
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -91,7 +91,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -107,7 +107,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -170,7 +170,7 @@ previewer
 nodeFront
 )
 {
-yield
+await
 targetNodeComponent
 .
 once

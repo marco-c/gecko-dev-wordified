@@ -110,12 +110,12 @@ browser_animation_toggle_button_toggles_animation
 js
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -135,7 +135,7 @@ window
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -154,7 +154,7 @@ a
 node
 without
 animations
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -231,7 +231,7 @@ SPACE
 window
 )
 ;
-yield
+await
 onToggled
 ;
 ok
@@ -309,7 +309,7 @@ SPACE
 window
 )
 ;
-yield
+await
 onToggled
 ;
 ok

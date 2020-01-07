@@ -143,8 +143,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -153,7 +153,7 @@ requestLongerTimeout
 2
 )
 ;
-yield
+await
 addTab
 (
 URL_ROOT
@@ -171,7 +171,7 @@ panel
 window
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -240,7 +240,7 @@ SPACE
 window
 )
 ;
-yield
+await
 waitForAnimationTimelineRendering
 (
 panel
@@ -313,7 +313,7 @@ SPACE
 window
 )
 ;
-yield
+await
 waitForAnimationTimelineRendering
 (
 panel

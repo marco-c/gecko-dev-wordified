@@ -120,12 +120,12 @@ width
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -142,7 +142,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -214,7 +214,7 @@ keyframes
 let
 data
 =
-yield
+await
 getExpectedKeyframesData
 (
 timeline
@@ -440,8 +440,8 @@ value
 }
 )
 ;
+async
 function
-*
 getExpectedKeyframesData
 (
 animation
@@ -479,7 +479,7 @@ actor
 let
 properties
 =
-yield
+await
 animation
 .
 getProperties

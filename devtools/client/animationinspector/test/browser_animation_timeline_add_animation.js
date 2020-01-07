@@ -75,12 +75,12 @@ performance
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -98,7 +98,7 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -121,7 +121,7 @@ delay
 and
 endDelay
 .
-yield
+await
 startNewAnimation
 (
 controller
@@ -230,7 +230,7 @@ Add
 another
 animation
 .
-yield
+await
 startNewAnimation
 (
 controller
@@ -500,8 +500,8 @@ shorter
 }
 )
 ;
+async
 function
-*
 startNewAnimation
 (
 controller
@@ -547,7 +547,7 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-yield
+await
 executeInContent
 (
 "
@@ -574,13 +574,13 @@ animation
 }
 )
 ;
-yield
+await
 onPlayerAdded
 ;
-yield
+await
 onRendered
 ;
-yield
+await
 waitForAllAnimationTargets
 (
 panel

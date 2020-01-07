@@ -73,12 +73,12 @@ AnimationController
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -96,7 +96,7 @@ controller
 inspector
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -143,7 +143,7 @@ players
 are
 ready
 .
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -182,7 +182,7 @@ animations
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -221,7 +221,7 @@ animations
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "

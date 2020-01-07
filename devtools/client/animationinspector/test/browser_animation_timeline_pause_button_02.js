@@ -127,8 +127,8 @@ playing
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ timerPrecision
 }
 )
 ;
-yield
+await
 addTab
 (
 URL_ROOT
@@ -216,7 +216,7 @@ panel
 inspector
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -254,7 +254,7 @@ end
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -264,7 +264,7 @@ multi
 inspector
 )
 ;
-yield
+await
 waitForOutOfBoundScrubber
 (
 timeline
@@ -299,7 +299,7 @@ infinite
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel
@@ -324,7 +324,7 @@ bounds
 "
 )
 ;
-yield
+await
 clickTimelinePlayPauseButton
 (
 panel
@@ -359,7 +359,7 @@ bounds
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel

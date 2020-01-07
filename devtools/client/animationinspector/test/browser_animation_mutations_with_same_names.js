@@ -104,12 +104,12 @@ nodes
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -127,7 +127,7 @@ controller
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -213,7 +213,7 @@ areTracksReady
 )
 )
 {
-yield
+await
 waitForAnimationTimelineRendering
 (
 panel
@@ -232,7 +232,7 @@ re
 retrieved
 asynchronously
 .
-yield
+await
 waitForAllAnimationTargets
 (
 panel

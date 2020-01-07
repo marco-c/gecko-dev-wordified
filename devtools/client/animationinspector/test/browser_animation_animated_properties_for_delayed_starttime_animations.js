@@ -92,12 +92,12 @@ display
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -114,12 +114,12 @@ const
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -137,7 +137,7 @@ target2
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -155,7 +155,7 @@ target3
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -173,7 +173,7 @@ target4
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -249,7 +249,7 @@ panel
 Check
 indicator
 .
-yield
+await
 clickOnAnimation
 (
 panel

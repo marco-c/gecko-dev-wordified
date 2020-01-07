@@ -171,12 +171,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -194,7 +194,7 @@ panel
 inspector
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -331,7 +331,7 @@ on
 an
 animation
 .
-yield
+await
 clickOnAnimation
 (
 panel
@@ -383,7 +383,7 @@ is
 only
 one
 .
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -441,7 +441,7 @@ animationDetailEl
 .
 offsetHeight
 ;
-yield
+await
 clickCloseButtonForDetailPanel
 (
 timelineComponent
@@ -478,7 +478,7 @@ Select
 another
 animation
 .
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -544,7 +544,7 @@ refresh
 all
 UI
 .
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -554,7 +554,7 @@ target1
 inspector
 )
 ;
-yield
+await
 clickTimelineRewindButton
 (
 panel
@@ -603,14 +603,14 @@ selected
 animation
 again
 .
-yield
+await
 clickCloseButtonForDetailPanel
 (
 timelineComponent
 animationDetailEl
 )
 ;
-yield
+await
 clickOnAnimation
 (
 panel
@@ -688,8 +688,8 @@ detail
 pane
 *
 /
+async
 function
-*
 clickCloseButtonForDetailPanel
 (
 timeline
@@ -750,7 +750,6 @@ defaultView
 )
 ;
 return
-yield
 onclosed
 ;
 }

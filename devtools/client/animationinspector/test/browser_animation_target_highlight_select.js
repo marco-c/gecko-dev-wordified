@@ -88,12 +88,12 @@ inspector
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -112,7 +112,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -128,7 +128,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -243,7 +243,7 @@ defaultView
 let
 nodeFront
 =
-yield
+await
 onHighlight
 ;
 /
@@ -420,7 +420,7 @@ animations
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -520,7 +520,7 @@ ownerDocument
 defaultView
 )
 ;
-yield
+await
 onSelection
 ;
 is
@@ -550,7 +550,7 @@ widget
 "
 )
 ;
-yield
+await
 onRendered
 ;
 }

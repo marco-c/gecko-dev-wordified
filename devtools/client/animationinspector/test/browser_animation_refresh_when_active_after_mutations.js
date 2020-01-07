@@ -122,8 +122,8 @@ y
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -143,7 +143,7 @@ listener
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -179,7 +179,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -197,7 +197,7 @@ inspector
 "
 )
 ;
-yield
+await
 inspector
 .
 sidebar
@@ -258,7 +258,7 @@ content
 "
 )
 ;
-yield
+await
 evalInDebuggee
 (
 document
@@ -311,7 +311,7 @@ event
 "
 )
 ;
-yield
+await
 controller
 .
 animationsFront
@@ -366,7 +366,7 @@ UI
 "
 )
 ;
-yield
+await
 inspector
 .
 sidebar
@@ -378,7 +378,7 @@ animationinspector
 "
 )
 ;
-yield
+await
 waitForAnimationTimelineRendering
 (
 panel
