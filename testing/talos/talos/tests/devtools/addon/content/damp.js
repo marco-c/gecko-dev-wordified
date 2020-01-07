@@ -5199,7 +5199,7 @@ false
 ;
 }
 function
-onTimings
+onPayloadReady
 (
 _
 id
@@ -5290,8 +5290,8 @@ off
 (
 EVENTS
 .
-RECEIVED_EVENT_TIMINGS
-onTimings
+PAYLOAD_READY
+onPayloadReady
 )
 ;
 resolve
@@ -5315,8 +5315,8 @@ on
 (
 EVENTS
 .
-RECEIVED_EVENT_TIMINGS
-onTimings
+PAYLOAD_READY
+onPayloadReady
 )
 ;
 }
