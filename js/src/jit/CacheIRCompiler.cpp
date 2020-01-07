@@ -4569,14 +4569,6 @@ continue
 ;
 MOZ_ASSERT
 (
-loc1
-!
-=
-loc2
-)
-;
-MOZ_ASSERT
-(
 !
 loc1
 .
