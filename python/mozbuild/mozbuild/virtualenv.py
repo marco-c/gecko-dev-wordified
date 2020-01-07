@@ -3940,6 +3940,9 @@ path
 require_hashes
 =
 True
+quiet
+=
+False
 )
 :
         
@@ -4076,6 +4079,21 @@ append
 require
 -
 hashes
+'
+)
+        
+if
+quiet
+:
+            
+args
+.
+append
+(
+'
+-
+-
+quiet
 '
 )
         

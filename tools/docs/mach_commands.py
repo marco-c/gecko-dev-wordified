@@ -452,6 +452,7 @@ virtualenv_manager
 .
 install_pip_requirements
 (
+            
 os
 .
 path
@@ -465,6 +466,9 @@ requirements
 txt
 '
 )
+quiet
+=
+True
 )
         
 import
