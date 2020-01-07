@@ -65,19 +65,8 @@ BorderRadius
 BorderSide
 BorderStyle
 BorderWidths
-ClipAndScrollInfo
 ColorF
-}
-;
-use
-api
-:
-:
-{
 LayerPoint
-LayerRect
-LayerPrimitiveInfo
-LayerSize
 }
 ;
 use
@@ -85,6 +74,9 @@ api
 :
 :
 {
+LayerPrimitiveInfo
+LayerRect
+LayerSize
 NormalBorder
 RepeatMode
 TexelRect
@@ -120,6 +112,7 @@ prim_store
 :
 {
 BorderPrimitiveCpu
+BrushClipMaskKind
 BrushSegment
 BrushSegmentDescriptor
 }
@@ -129,9 +122,9 @@ prim_store
 :
 :
 {
-BrushClipMaskKind
 EdgeAaSegmentMask
 PrimitiveContainer
+ScrollNodeAndClipChain
 }
 ;
 use
@@ -1736,7 +1729,7 @@ widths
 BorderWidths
 clip_and_scroll
 :
-ClipAndScrollInfo
+ScrollNodeAndClipChain
 corner_instances
 :
 [
@@ -2185,7 +2178,7 @@ widths
 BorderWidths
 clip_and_scroll
 :
-ClipAndScrollInfo
+ScrollNodeAndClipChain
 )
 {
 /

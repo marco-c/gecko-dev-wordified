@@ -4264,7 +4264,7 @@ use
 rayon
 :
 :
-Configuration
+ThreadPoolBuilder
 ;
 use
 std
@@ -4285,9 +4285,9 @@ io
 Read
 ;
 let
-worker_config
+worker
 =
-Configuration
+ThreadPoolBuilder
 :
 :
 new
@@ -4338,6 +4338,10 @@ idx
 ;
 }
 )
+.
+build
+(
+)
 ;
 let
 workers
@@ -4347,13 +4351,7 @@ Arc
 :
 new
 (
-ThreadPool
-:
-:
-new
-(
-worker_config
-)
+worker
 .
 unwrap
 (
