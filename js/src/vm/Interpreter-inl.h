@@ -1169,12 +1169,14 @@ GetNameMode
 :
 Normal
 :
-return
 ReportIsNotDefined
 (
 cx
 name
 )
+;
+return
+false
 ;
 case
 GetNameMode
