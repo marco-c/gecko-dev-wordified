@@ -20577,9 +20577,12 @@ Str
 (
 "
 AND
+lower
+(
 tags
 .
 title
+)
 IN
 (
 "
@@ -21856,6 +21859,11 @@ tags
 [
 i
 ]
+)
+;
+ToLowerCase
+(
+tag
 )
 ;
 rv
