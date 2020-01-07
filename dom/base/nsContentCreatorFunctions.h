@@ -173,6 +173,9 @@ layout
 *
 /
 class
+nsAtom
+;
+class
 nsIContent
 ;
 class
