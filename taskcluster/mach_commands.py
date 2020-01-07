@@ -2124,27 +2124,6 @@ null
 )
 )
             
-task
-=
-json
-.
-loads
-(
-os
-.
-environ
-.
-get
-(
-'
-ACTION_TASK
-'
-'
-null
-'
-)
-)
-            
 input
 =
 json
@@ -2226,10 +2205,6 @@ task_group_id
 task_id
 =
 task_id
-                    
-task
-=
-task
                     
 input
 =
