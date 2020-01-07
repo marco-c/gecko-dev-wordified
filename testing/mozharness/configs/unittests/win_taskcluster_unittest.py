@@ -2060,6 +2060,14 @@ user
 .
 js
 "
+                       
+"
+-
+-
+suite
+=
+jstestbrowser
+"
 ]
             
 '

@@ -1955,6 +1955,14 @@ user
 .
 js
 "
+                       
+"
+-
+-
+suite
+=
+jstestbrowser
+"
 ]
             
 '
