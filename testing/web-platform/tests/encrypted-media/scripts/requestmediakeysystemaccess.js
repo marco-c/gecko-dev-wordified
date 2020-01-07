@@ -1196,6 +1196,11 @@ config
 videoType
 }
 ]
+label
+:
+'
+abcd
+'
 }
 ]
 {
@@ -1228,6 +1233,11 @@ config
 videoType
 }
 ]
+label
+:
+'
+abcd
+'
 }
 '
 Basic
