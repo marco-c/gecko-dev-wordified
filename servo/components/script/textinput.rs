@@ -183,6 +183,7 @@ derive
 (
 Clone
 Copy
+Debug
 JSTraceable
 MallocSizeOf
 PartialEq
@@ -6133,6 +6134,9 @@ u32
 end
 :
 u32
+direction
+:
+SelectionDirection
 )
 {
 let
@@ -6184,10 +6188,14 @@ start
 end
 ;
 }
-match
 self
 .
 selection_direction
+=
+direction
+;
+match
+direction
 {
 SelectionDirection
 :
