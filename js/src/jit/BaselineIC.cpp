@@ -6611,7 +6611,10 @@ gen
 .
 trackAttached
 (
-nullptr
+IRGenerator
+:
+:
+NotAttached
 )
 ;
 }
@@ -10943,7 +10946,10 @@ gen
 .
 trackAttached
 (
-nullptr
+IRGenerator
+:
+:
+NotAttached
 )
 ;
 }
