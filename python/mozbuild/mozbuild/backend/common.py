@@ -395,6 +395,22 @@ basename
 =
 entry
         
+#
+First
+element
+is
+a
+set
+of
+interface
+file
+basenames
+(
+no
+extension
+)
+.
+        
 t
 =
 self
@@ -410,9 +426,6 @@ module
 '
 ]
 (
-idl
-.
-install_target
 set
 (
 )
@@ -421,7 +434,7 @@ set
         
 t
 [
-1
+0
 ]
 .
 add
