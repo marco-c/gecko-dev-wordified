@@ -394,12 +394,6 @@ DurationChanged
 override
 ;
 void
-DownloadProgressed
-(
-)
-override
-;
-void
 MetadataLoaded
 (
 UniquePtr
@@ -594,6 +588,11 @@ override
 ;
 private
 :
+void
+DownloadProgressed
+(
+)
+;
 void
 PinForSeek
 (
