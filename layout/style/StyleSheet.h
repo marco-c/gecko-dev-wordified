@@ -1563,16 +1563,6 @@ aTitle
 )
 final
 ;
-NS_IMETHOD
-GetMedia
-(
-nsIDOMMediaList
-*
-*
-aMedia
-)
-final
-;
 /
 /
 Changes

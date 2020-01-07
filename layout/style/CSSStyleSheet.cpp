@@ -277,13 +277,6 @@ h
 #
 include
 "
-nsIDOMMediaList
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
