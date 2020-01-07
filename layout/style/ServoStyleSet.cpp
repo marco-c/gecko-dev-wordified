@@ -7225,6 +7225,10 @@ get
 )
 )
 ;
+SetStylistStyleSheetsDirty
+(
+)
+;
 }
 already_AddRefed
 <
