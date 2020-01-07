@@ -291,11 +291,6 @@ window
 )
 ;
 }
-onWindowTitleChange
-(
-)
-{
-}
 onOpenWindow
 (
 window

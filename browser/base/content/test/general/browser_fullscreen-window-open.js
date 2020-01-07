@@ -1837,13 +1837,6 @@ aXULWindow
 )
 {
 }
-onWindowTitleChange
-(
-aXULWindow
-aNewTitle
-)
-{
-}
 QueryInterface
 :
 XPCOMUtils

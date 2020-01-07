@@ -325,13 +325,6 @@ resetNewTabURL
 )
 ;
 }
-onWindowTitleChange
-(
-aWindow
-aTitle
-)
-{
-}
 }
 ;
 function

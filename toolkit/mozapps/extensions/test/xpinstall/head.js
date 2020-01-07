@@ -2086,13 +2086,6 @@ endTest
 /
 /
 nsIWindowMediatorListener
-onWindowTitleChange
-(
-window
-title
-)
-{
-}
 onOpenWindow
 (
 window

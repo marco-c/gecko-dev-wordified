@@ -1214,13 +1214,6 @@ aXULWindow
 )
 {
 }
-onWindowTitleChange
-(
-aXULWindow
-aNewTitle
-)
-{
-}
 }
 )
 ;
