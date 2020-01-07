@@ -4400,6 +4400,11 @@ DeleteSingletonScopes
 (
 )
 ;
+void
+SystemIsBeingShutDown
+(
+)
+;
 private
 :
 explicit
@@ -19915,6 +19920,11 @@ mWrappedJSMap
 }
 void
 UpdateWeakPointersAfterGC
+(
+)
+;
+void
+SystemIsBeingShutDown
 (
 )
 ;
