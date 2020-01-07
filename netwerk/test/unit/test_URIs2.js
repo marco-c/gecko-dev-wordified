@@ -5608,9 +5608,6 @@ propertiesToCheck
 "
 scheme
 "
-"
-host
-"
 ]
 ;
 propertiesToCheck

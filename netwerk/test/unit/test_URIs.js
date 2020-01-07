@@ -4623,9 +4623,6 @@ spec
 "
 scheme
 "
-"
-host
-"
 ]
 ;
 propertiesToCheck
