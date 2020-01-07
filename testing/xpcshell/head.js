@@ -744,9 +744,7 @@ runningInParent
 mozIAsyncHistory
 "
 in
-Components
-.
-interfaces
+Ci
 )
 {
 /
@@ -861,9 +859,7 @@ key
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 {
 _Services
@@ -966,9 +962,7 @@ reporter
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 {
 let
@@ -6285,9 +6279,7 @@ for
 let
 name
 in
-Components
-.
-results
+Cr
 )
 {
 if
@@ -7622,9 +7614,7 @@ reporter
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 {
 let

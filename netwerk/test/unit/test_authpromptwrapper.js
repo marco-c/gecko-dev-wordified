@@ -99,9 +99,7 @@ if
 (
 contractID
 in
-Components
-.
-classes
+Cc
 )
 )
 {

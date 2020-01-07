@@ -1870,9 +1870,7 @@ isOSX
 nsILocalFileMac
 "
 in
-Components
-.
-interfaces
+Ci
 )
 ;
 if

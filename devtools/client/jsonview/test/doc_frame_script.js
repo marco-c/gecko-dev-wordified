@@ -165,9 +165,7 @@ EventUtils
 .
 _EU_Ci
 =
-Components
-.
-interfaces
+Ci
 ;
 /
 /
@@ -180,9 +178,7 @@ EventUtils
 .
 _EU_Cc
 =
-Components
-.
-classes
+Cc
 ;
 /
 /
