@@ -6110,9 +6110,8 @@ true
 ;
 popup
 .
-showPopup
+openPopup
 (
-popup
 )
 ;
 }

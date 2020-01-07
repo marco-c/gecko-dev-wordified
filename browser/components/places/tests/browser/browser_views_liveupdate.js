@@ -1908,9 +1908,8 @@ lastChild
 ;
 popup
 .
-showPopup
+openPopup
 (
-popup
 )
 ;
 var

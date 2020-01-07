@@ -530,8 +530,6 @@ is
 (
 popup
 .
-popupBoxObject
-.
 alignmentPosition
 "
 end_before

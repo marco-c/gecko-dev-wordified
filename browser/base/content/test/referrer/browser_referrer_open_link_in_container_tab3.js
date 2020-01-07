@@ -308,7 +308,7 @@ true
 ;
 menupopup
 .
-showPopup
+openPopup
 (
 )
 ;

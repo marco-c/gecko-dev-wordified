@@ -2214,8 +2214,6 @@ is
 (
 popup
 .
-popupBoxObject
-.
 anchorNode
 document
 .
@@ -2485,8 +2483,6 @@ is
 (
 popup
 .
-popupBoxObject
-.
 anchorNode
 document
 .
@@ -2633,8 +2629,6 @@ text
 is
 (
 popup
-.
-popupBoxObject
 .
 anchorNode
 document

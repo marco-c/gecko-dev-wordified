@@ -2123,7 +2123,7 @@ popupshown
 ;
 menuPopup
 .
-showPopup
+openPopup
 (
 )
 ;
