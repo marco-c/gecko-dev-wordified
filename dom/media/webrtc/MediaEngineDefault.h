@@ -868,12 +868,6 @@ from
 MSG
 thread
 )
-TrackRate
-mRate
-;
-/
-/
-ditto
 uint32_t
 mFreq
 ;
