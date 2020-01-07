@@ -10650,10 +10650,12 @@ Unsuppress
 }
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 GetParentTarget
 (
+)
+true
 )
 ;
 /

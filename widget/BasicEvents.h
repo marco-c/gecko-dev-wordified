@@ -213,6 +213,9 @@ IPC
 namespace
 mozilla
 {
+class
+EventTargetChainItem
+;
 /
 *
 *
@@ -3936,6 +3939,10 @@ mSpecifiedEventType
 (
 nullptr
 )
+mPath
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -3973,6 +3980,10 @@ WidgetEvent
 :
 WidgetEventTime
 (
+)
+mPath
+(
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -4363,6 +4374,13 @@ dom
 EventTarget
 >
 mOriginalTarget
+;
+nsTArray
+<
+EventTargetChainItem
+>
+*
+mPath
 ;
 dom
 :

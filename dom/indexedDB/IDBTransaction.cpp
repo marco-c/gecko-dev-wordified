@@ -5214,9 +5214,11 @@ true
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 mDatabase
+false
+)
 ;
 return
 NS_OK
