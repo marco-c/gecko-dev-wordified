@@ -172,6 +172,11 @@ column
 -
 width
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -252,6 +257,11 @@ column
 -
 count
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -323,6 +333,11 @@ propdef
 column
 -
 gap
+"
+servo_restyle_damage
+=
+"
+reflow
 "
 )
 }

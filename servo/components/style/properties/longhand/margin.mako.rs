@@ -264,6 +264,11 @@ APPLIES_TO_FIRST_LETTER
 allowed_in_page_rule
 =
 True
+servo_restyle_damage
+=
+"
+reflow
+"
 )
 }
 %

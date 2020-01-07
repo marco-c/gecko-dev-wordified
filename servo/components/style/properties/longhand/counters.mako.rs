@@ -158,6 +158,11 @@ propdef
 -
 content
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -211,6 +216,11 @@ propdef
 counter
 -
 increment
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 )
 }
@@ -267,6 +277,11 @@ propdef
 counter
 -
 reset
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 )
 }

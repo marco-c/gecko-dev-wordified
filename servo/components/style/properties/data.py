@@ -1304,6 +1304,11 @@ False
 need_animatable
 =
 False
+servo_restyle_damage
+=
+"
+repaint
+"
 )
 :
         
@@ -1856,6 +1861,23 @@ self
 animation_type
 =
 None
+        
+#
+See
+compute_damage
+for
+the
+various
+values
+this
+can
+take
+        
+self
+.
+servo_restyle_damage
+=
+servo_restyle_damage
     
 def
 experimental

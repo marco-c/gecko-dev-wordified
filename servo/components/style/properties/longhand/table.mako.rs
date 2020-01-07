@@ -139,6 +139,11 @@ table
 -
 layout
 "
+servo_restyle_damage
+=
+"
+reflow
+"
 )
 }
 {
