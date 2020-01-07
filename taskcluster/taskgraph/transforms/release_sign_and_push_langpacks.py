@@ -239,8 +239,15 @@ channel
 :
 optionally_keyed_by
 (
+            
 '
 project
+'
+            
+optionally_keyed_by
+(
+'
+platform
 '
 Any
 (
@@ -250,6 +257,7 @@ listed
 '
 unlisted
 '
+)
 )
 )
         
@@ -548,6 +556,7 @@ job
 label
 '
 ]
+            
 project
 =
 config
@@ -556,6 +565,24 @@ params
 [
 '
 project
+'
+]
+            
+platform
+=
+job
+[
+'
+dependent
+-
+task
+'
+]
+.
+attributes
+[
+'
+build_platform
 '
 ]
         
