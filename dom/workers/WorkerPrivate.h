@@ -254,6 +254,9 @@ WorkerGlobalScope
 struct
 WorkerOptions
 ;
+class
+WorkerThread
+;
 }
 /
 /
@@ -276,9 +279,6 @@ WorkerEventTarget
 ;
 class
 WorkerRunnable
-;
-class
-WorkerThread
 ;
 /
 /
@@ -3134,6 +3134,12 @@ MemoryReporter
 ;
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
 WorkerThread
 ;
 enum

@@ -196,9 +196,10 @@ mozilla
 namespace
 dom
 {
+using
 namespace
 workers
-{
+;
 using
 namespace
 mozilla
@@ -1694,11 +1695,6 @@ return
 NS_OK
 ;
 }
-}
-/
-/
-namespace
-workers
 }
 /
 /

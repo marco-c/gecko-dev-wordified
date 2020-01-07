@@ -181,14 +181,14 @@ dom
 class
 SharedWorker
 ;
+class
+WorkerThread
+;
 }
 }
 BEGIN_WORKERS_NAMESPACE
 struct
 WorkerLoadInfo
-;
-class
-WorkerThread
 ;
 class
 RuntimeService
