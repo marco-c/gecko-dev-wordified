@@ -385,6 +385,7 @@ ToLayoutRect
 (
 aBounds
 )
+nullptr
 aAnimation
 aOpacityPtr
 aTransformPtr

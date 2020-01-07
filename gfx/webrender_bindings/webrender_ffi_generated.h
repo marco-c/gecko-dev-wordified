@@ -5568,6 +5568,10 @@ aState
 LayoutRect
 aBounds
 const
+uintptr_t
+*
+aClipNodeId
+const
 WrAnimationProperty
 *
 aAnimation
