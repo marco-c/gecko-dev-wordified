@@ -8068,7 +8068,13 @@ stateIndex
 &
 stateIndex
 <
+static_cast
+<
+int32_t
+>
+(
 gAtkStateMapLen
+)
 "
 No
 ATK
