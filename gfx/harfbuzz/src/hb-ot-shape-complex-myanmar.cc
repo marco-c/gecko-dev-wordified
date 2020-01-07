@@ -3065,9 +3065,6 @@ hb_ot_complex_shaper_t
 _hb_ot_complex_shaper_myanmar_old
 =
 {
-"
-default
-"
 nullptr
 /
 *
@@ -3149,9 +3146,6 @@ hb_ot_complex_shaper_t
 _hb_ot_complex_shaper_myanmar
 =
 {
-"
-myanmar
-"
 collect_features_myanmar
 override_features_myanmar
 nullptr

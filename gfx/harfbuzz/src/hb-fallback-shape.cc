@@ -667,6 +667,13 @@ hb_buffer_reverse
 buffer
 )
 ;
+buffer
+-
+>
+safe_to_break_all
+(
+)
+;
 return
 true
 ;
