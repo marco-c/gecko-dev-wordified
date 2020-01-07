@@ -2359,10 +2359,7 @@ must
 be
 called
 from
-jit
-:
-:
-InterruptRunningCode
+InterruptRunningJitCode
 or
 a
 signal

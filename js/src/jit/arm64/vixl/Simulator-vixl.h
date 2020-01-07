@@ -5936,6 +5936,16 @@ pc_modified_
 true
 ;
 }
+void
+trigger_wasm_interrupt
+(
+)
+;
+void
+handle_wasm_interrupt
+(
+)
+;
 bool
 handle_wasm_ill_fault
 (
@@ -14646,6 +14656,9 @@ const
 Instruction
 *
 pc_
+;
+bool
+wasm_interrupt_
 ;
 static
 const
