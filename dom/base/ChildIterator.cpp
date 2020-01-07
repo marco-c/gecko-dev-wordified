@@ -416,6 +416,13 @@ mIndexInInserted
 {
 mParentAsSlot
 =
+nsContentUtils
+:
+:
+IsWebComponentsEnabled
+(
+)
+?
 HTMLSlotElement
 :
 :
@@ -423,6 +430,8 @@ FromContent
 (
 mParent
 )
+:
+nullptr
 ;
 }
 nsIContent
