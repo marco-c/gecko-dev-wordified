@@ -8011,6 +8011,12 @@ ClearSnapshots
 ;
 nsStyleChangeList
 currentChanges
+(
+StyleBackendType
+:
+:
+Servo
+)
 ;
 bool
 anyStyleChanged

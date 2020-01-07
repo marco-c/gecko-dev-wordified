@@ -1177,6 +1177,15 @@ earlier
 if
 (
 colorIsSet
+&
+&
+!
+aData
+-
+>
+ShouldIgnoreColors
+(
+)
 )
 {
 aData

@@ -6984,6 +6984,16 @@ StyleSet
 (
 )
 ;
+if
+(
+styleSet
+-
+>
+IsServo
+(
+)
+)
+{
 styleSet
 -
 >
@@ -6996,6 +7006,7 @@ CompatibilityModeChanged
 (
 )
 ;
+}
 if
 (
 doc
