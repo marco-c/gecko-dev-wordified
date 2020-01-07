@@ -164,12 +164,15 @@ NS_DECL_NSIURI
 NS_DECL_NSIMOZICONURI
 NS_DECL_NSIIPCSERIALIZABLEURI
 NS_DECL_NSINESTEDURI
-protected
-:
+/
+/
+nsMozIconURI
 nsMozIconURI
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsMozIconURI
