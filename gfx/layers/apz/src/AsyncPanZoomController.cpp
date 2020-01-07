@@ -257,6 +257,17 @@ Compositor
 #
 include
 "
+DesktopFlingPhysics
+.
+h
+"
+/
+/
+for
+DesktopFlingPhysics
+#
+include
+"
 FrameMetrics
 .
 h
@@ -5113,6 +5124,9 @@ aHandoffState
 return
 new
 GenericFlingAnimation
+<
+DesktopFlingPhysics
+>
 (
 aApzc
 aHandoffState
