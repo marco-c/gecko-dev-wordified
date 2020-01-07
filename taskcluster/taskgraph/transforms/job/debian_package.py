@@ -149,7 +149,7 @@ package
 Debian
 distribution
     
-Required
+Optional
 (
 '
 dist
@@ -202,7 +202,7 @@ part
 )
 .
     
-Required
+Optional
 (
 '
 snapshot
