@@ -9442,6 +9442,9 @@ WorkerPrivate
 OverrideLoadInfoLoadGroup
 (
 info
+info
+.
+mPrincipal
 )
 ;
 rv

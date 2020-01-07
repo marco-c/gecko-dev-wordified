@@ -12943,12 +12943,18 @@ rv
 rv
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aLoadInfo
 -
 >
 mPrincipal
+&
+&
+aLoadInfo
+-
+>
+mLoadingPrincipal
 )
 ;
 WorkerDomainInfo
@@ -13026,6 +13032,7 @@ the
 SharedWorker
 '
 s
+loading
 principal
 and
 vice
@@ -13034,7 +13041,7 @@ versa
 aLoadInfo
 -
 >
-mPrincipal
+mLoadingPrincipal
 -
 >
 Subsumes
@@ -13045,7 +13052,7 @@ data
 mWorkerPrivate
 -
 >
-GetPrincipal
+GetLoadingPrincipal
 (
 )
 )
@@ -13057,7 +13064,7 @@ data
 mWorkerPrivate
 -
 >
-GetPrincipal
+GetLoadingPrincipal
 (
 )
 -
@@ -13067,7 +13074,7 @@ Subsumes
 aLoadInfo
 -
 >
-mPrincipal
+mLoadingPrincipal
 )
 )
 {
