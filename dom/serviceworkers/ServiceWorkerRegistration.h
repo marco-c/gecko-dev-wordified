@@ -158,17 +158,6 @@ mozilla
 /
 dom
 /
-ServiceWorkerCommon
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ServiceWorkerRegistrationBinding
 .
 h

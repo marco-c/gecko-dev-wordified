@@ -310,7 +310,7 @@ Scope
 ;
 RefPtr
 <
-ServiceWorkerRegistration
+ServiceWorkerRegistrationMainThread
 >
 registration
 =
@@ -319,6 +319,14 @@ ServiceWorkerRegistrationMainThread
 (
 aWindow
 scope
+)
+;
+registration
+-
+>
+UpdateState
+(
+aDescriptor
 )
 ;
 return
@@ -376,7 +384,7 @@ Scope
 ;
 RefPtr
 <
-ServiceWorkerRegistration
+ServiceWorkerRegistrationWorkerThread
 >
 registration
 =
