@@ -654,10 +654,6 @@ virtual
 nsresult
 Initialize
 (
-nscoord
-aWidth
-nscoord
-aHeight
 )
 override
 ;
