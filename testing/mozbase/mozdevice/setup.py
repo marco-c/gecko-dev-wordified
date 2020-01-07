@@ -301,18 +301,6 @@ points
 *
 -
       
-[
-console_scripts
-]
-      
-dm
-=
-mozdevice
-.
-dmcli
-:
-cli
-      
 "
 "
 "

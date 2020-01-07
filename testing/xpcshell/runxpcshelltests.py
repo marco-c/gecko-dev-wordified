@@ -1978,11 +1978,8 @@ extend
 the
         
 #
-devicemanager
-.
-shell
-(
-)
+remote
+device
 timeout
 .
 It
