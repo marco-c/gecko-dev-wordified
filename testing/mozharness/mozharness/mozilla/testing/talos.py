@@ -5767,7 +5767,7 @@ config
 '
                 
 '
-mozbase_requirements
+mozbase_source_requirements
 .
 txt
 '
