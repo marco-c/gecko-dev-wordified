@@ -13125,6 +13125,12 @@ case
 Trap
 :
 :
+IndirectCallBadSig
+:
+case
+Trap
+:
+:
 ImpreciseSimdConversion
 :
 case
@@ -13168,12 +13174,6 @@ Trap
 :
 :
 UnalignedAccess
-:
-case
-Trap
-:
-:
-IndirectCallBadSig
 :
 {
 CallableOffsets
