@@ -50,6 +50,7 @@ Promise
 .
 jsm
 "
+this
 )
 ;
 ChromeUtils
