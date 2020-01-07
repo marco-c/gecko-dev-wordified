@@ -868,7 +868,7 @@ JSScript
 always
 marks
 its
-compartment
+realm
 '
 s
 global
@@ -878,8 +878,8 @@ bindings
 )
 so
 we
-*
 can
+*
 assert
 that
 maybeGlobal
@@ -893,7 +893,7 @@ here
 /
 return
 *
-compartment
+realm
 (
 )
 -

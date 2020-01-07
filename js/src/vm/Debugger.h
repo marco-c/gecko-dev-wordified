@@ -2359,7 +2359,7 @@ true
 if
 the
 given
-compartment
+realm
 is
 a
 debuggee
@@ -2375,9 +2375,9 @@ bool
 isDebuggeeUnbarriered
 (
 const
-JSCompartment
+Realm
 *
-compartment
+realm
 )
 const
 ;

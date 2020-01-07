@@ -2724,7 +2724,7 @@ access
 through
 *
 the
-JSCompartment
+Realm
 .
 When
 accessed
@@ -2734,11 +2734,10 @@ JSObject
 however
 the
 global
-*
 will
 be
+*
 already
-be
 kept
 live
 by
@@ -2747,12 +2746,12 @@ black
 JSObject
 '
 s
-parent
+group
 pointer
 so
-*
 does
 not
+*
 need
 to
 be
@@ -2764,7 +2763,7 @@ barriered
 /
 return
 *
-compartment
+realm
 (
 )
 -
@@ -2791,7 +2790,7 @@ JSTracer
 const
 {
 return
-compartment
+realm
 (
 )
 -

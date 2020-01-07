@@ -1204,8 +1204,14 @@ we
 GC
 .
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
 (
+)
 )
 -
 >

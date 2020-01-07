@@ -11715,7 +11715,7 @@ JSObject
 *
 global
 =
-compartment
+realm
 (
 )
 -
@@ -12015,7 +12015,7 @@ global
 group
 -
 >
-compartment
+realm
 (
 )
 -

@@ -23426,7 +23426,7 @@ If
 /
 /
 the
-compartment
+realm
 '
 s
 global
@@ -23440,11 +23440,11 @@ do
 anything
 as
 the
-/
-/
 group
 '
 s
+/
+/
 Class
 is
 not
@@ -23469,7 +23469,7 @@ global
 obj
 -
 >
-compartment
+realm
 (
 )
 -

@@ -3475,7 +3475,7 @@ emptyGlobalScope
 cx
 -
 >
-compartment
+realm
 (
 )
 -
