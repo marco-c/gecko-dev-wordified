@@ -6204,6 +6204,7 @@ for
 module
 (
 idls
+directories
 )
 in
 sorted
@@ -6303,13 +6304,40 @@ Bindings
 .
 conf
 '
+            
+]
+            
+for
+d
+in
+directories
+:
                 
+cmd
+.
+extend
+(
+[
 '
 -
 -
 input
 -
 dir
+'
+d
+]
+)
+            
+cmd
+.
+extend
+(
+[
+                
+'
+-
+I
 '
 '
 (
@@ -6342,6 +6370,7 @@ xpcrs
 module
             
 ]
+)
             
 cmd
 .
