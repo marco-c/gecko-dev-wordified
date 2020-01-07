@@ -402,7 +402,7 @@ parent_index
 mDescriptor
 -
 >
-parent_interface
+mParentInterface
 ;
 if
 (
@@ -480,7 +480,7 @@ idx
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 ;
 +
 +
@@ -502,7 +502,7 @@ nsXPTMethodInfo
 mDescriptor
 -
 >
-method_descriptors
+mMethodDescriptors
 +
 idx
 )
@@ -539,7 +539,7 @@ parent
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 ;
 mConstantBaseIndex
 =
@@ -554,7 +554,7 @@ parent
 mDescriptor
 -
 >
-num_constants
+mNumConstants
 ;
 }
 SetResolvedState
@@ -814,7 +814,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 ;
 return
 NS_OK
@@ -857,7 +857,7 @@ mConstantBaseIndex
 mDescriptor
 -
 >
-num_constants
+mNumConstants
 ;
 return
 NS_OK
@@ -914,7 +914,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 )
 {
 NS_ERROR
@@ -954,7 +954,7 @@ nsXPTMethodInfo
 mDescriptor
 -
 >
-method_descriptors
+mMethodDescriptors
 [
 index
 -
@@ -1025,7 +1025,7 @@ i
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 ;
 +
 +
@@ -1050,7 +1050,7 @@ nsXPTMethodInfo
 mDescriptor
 -
 >
-method_descriptors
+mMethodDescriptors
 [
 i
 ]
@@ -1178,7 +1178,7 @@ mConstantBaseIndex
 mDescriptor
 -
 >
-num_constants
+mNumConstants
 )
 {
 NS_PRECONDITION
@@ -1202,7 +1202,7 @@ c
 mDescriptor
 -
 >
-const_descriptors
+mConstDescriptors
 [
 index
 -
@@ -1431,7 +1431,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 )
 {
 NS_ERROR
@@ -1476,7 +1476,7 @@ td
 mDescriptor
 -
 >
-additional_types
+mAdditionalTypes
 [
 td
 -
@@ -2115,7 +2115,7 @@ additional_types
 mDescriptor
 -
 >
-additional_types
+mAdditionalTypes
 ;
 for
 (
@@ -2240,7 +2240,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 )
 {
 NS_ERROR
@@ -2368,7 +2368,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 )
 {
 NS_ERROR
@@ -2555,7 +2555,7 @@ mMethodBaseIndex
 mDescriptor
 -
 >
-num_methods
+mNumMethods
 )
 {
 NS_ERROR
@@ -2600,7 +2600,7 @@ td
 mDescriptor
 -
 >
-additional_types
+mAdditionalTypes
 [
 td
 -

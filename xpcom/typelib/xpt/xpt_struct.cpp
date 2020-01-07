@@ -1474,7 +1474,7 @@ old
 id
 -
 >
-additional_types
+mAdditionalTypes
 ;
 XPTTypeDescriptor
 *
@@ -1486,7 +1486,7 @@ old_size
 id
 -
 >
-num_additional_types
+mNumAdditionalTypes
 *
 sizeof
 (
@@ -1557,7 +1557,7 @@ new_
 id
 -
 >
-num_additional_types
+mNumAdditionalTypes
 ]
 =
 *
@@ -1566,7 +1566,7 @@ td
 id
 -
 >
-additional_types
+mAdditionalTypes
 =
 new_
 ;
@@ -1575,7 +1575,7 @@ if
 id
 -
 >
-num_additional_types
+mNumAdditionalTypes
 =
 =
 UINT8_MAX
@@ -1586,7 +1586,7 @@ false
 id
 -
 >
-num_additional_types
+mNumAdditionalTypes
 +
 =
 1
@@ -1722,7 +1722,7 @@ cursor
 id
 -
 >
-parent_interface
+mParentInterface
 )
 |
 |
@@ -1734,7 +1734,7 @@ cursor
 id
 -
 >
-num_methods
+mNumMethods
 )
 )
 {
@@ -1753,7 +1753,7 @@ if
 id
 -
 >
-num_methods
+mNumMethods
 )
 {
 size_t
@@ -1762,7 +1762,7 @@ n
 id
 -
 >
-num_methods
+mNumMethods
 *
 sizeof
 (
@@ -1804,7 +1804,7 @@ i
 id
 -
 >
-num_methods
+mNumMethods
 ;
 i
 +
@@ -1833,7 +1833,7 @@ false
 id
 -
 >
-method_descriptors
+mMethodDescriptors
 =
 method_descriptors
 ;
@@ -1847,7 +1847,7 @@ cursor
 id
 -
 >
-num_constants
+mNumConstants
 )
 )
 {
@@ -1866,7 +1866,7 @@ if
 id
 -
 >
-num_constants
+mNumConstants
 )
 {
 size_t
@@ -1875,7 +1875,7 @@ n
 id
 -
 >
-num_constants
+mNumConstants
 *
 sizeof
 (
@@ -1917,7 +1917,7 @@ i
 id
 -
 >
-num_constants
+mNumConstants
 ;
 i
 +
@@ -1948,7 +1948,7 @@ false
 id
 -
 >
-const_descriptors
+mConstDescriptors
 =
 const_descriptors
 ;
@@ -1962,7 +1962,7 @@ cursor
 id
 -
 >
-flags
+mFlags
 )
 )
 {
@@ -2689,7 +2689,7 @@ additional_type
 id
 -
 >
-num_additional_types
+mNumAdditionalTypes
 -
 1
 ;
