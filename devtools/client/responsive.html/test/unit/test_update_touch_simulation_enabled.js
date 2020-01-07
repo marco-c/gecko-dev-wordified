@@ -67,8 +67,8 @@ simulation
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

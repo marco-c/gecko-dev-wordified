@@ -960,8 +960,8 @@ events
 on
 resize
 to
-yield
-on
+wait
+for
 various
 size
 changes

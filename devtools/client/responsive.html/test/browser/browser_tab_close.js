@@ -125,8 +125,8 @@ true
 /
 /
 without
-yielding
-on
+waiting
+for
 closeRDM
 above
 then
@@ -225,8 +225,8 @@ true
 without
 /
 /
-yielding
-on
+waiting
+for
 closeRDM
 itself
 and
