@@ -128,6 +128,15 @@ nscore
 h
 "
 #
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
+#
 define
 NS_URI_REF_OBJECT_CID
 \
@@ -165,7 +174,7 @@ c3d63a58f1d2
 \
 }
 class
-nsIDOMMozNamedAttrMap
+nsDOMAttributeMap
 ;
 class
 nsIDOMNode
@@ -211,9 +220,9 @@ nsIDOMNode
 >
 mNode
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMMozNamedAttrMap
+nsDOMAttributeMap
 >
 mAttributes
 ;

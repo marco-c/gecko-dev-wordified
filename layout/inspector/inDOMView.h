@@ -187,7 +187,7 @@ class
 inDOMViewNode
 ;
 class
-nsIDOMMozNamedAttrMap
+nsDOMAttributeMap
 ;
 class
 inDOMView
@@ -466,7 +466,7 @@ nsIDOMNode
 aResult
 )
 ;
-nsresult
+void
 AppendKidsToArray
 (
 nsINodeList
@@ -483,7 +483,7 @@ aArray
 nsresult
 AppendAttrsToArray
 (
-nsIDOMMozNamedAttrMap
+nsDOMAttributeMap
 *
 aKids
 nsCOMArray
