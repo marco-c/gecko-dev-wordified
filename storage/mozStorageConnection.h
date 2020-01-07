@@ -1698,6 +1698,11 @@ initializeInternal
 (
 )
 ;
+void
+initializeFailed
+(
+)
+;
 /
 *
 *
