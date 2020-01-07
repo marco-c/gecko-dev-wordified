@@ -508,7 +508,6 @@ aMshlFlags
 }
 if
 (
-!
 IsCallerExternalProcess
 (
 )
