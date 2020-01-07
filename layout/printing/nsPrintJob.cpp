@@ -20891,6 +20891,9 @@ selection
 >
 DeleteFromDocument
 (
+IgnoreErrors
+(
+)
 )
 ;
 return
