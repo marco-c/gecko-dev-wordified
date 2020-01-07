@@ -2167,7 +2167,6 @@ mGeckoBackChannel
 {
 if
 (
-&
 mCachedData
 .
 mDynamicData
