@@ -2595,13 +2595,12 @@ doc
 shell
 *
 /
-virtual
 nsIPresShell
 *
 GetPresShell
 (
 )
-override
+final
 {
 if
 (
