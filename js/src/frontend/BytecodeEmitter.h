@@ -5579,6 +5579,15 @@ pn
 ;
 MOZ_MUST_USE
 bool
+emitSelfHostedGetPropertySuper
+(
+ParseNode
+*
+pn
+)
+;
+MOZ_MUST_USE
+bool
 emitSelfHostedHasOwn
 (
 ParseNode

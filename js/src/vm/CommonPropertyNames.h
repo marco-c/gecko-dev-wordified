@@ -1518,6 +1518,15 @@ getPropertyDescriptor
 \
 macro
 (
+getPropertySuper
+getPropertySuper
+"
+getPropertySuper
+"
+)
+\
+macro
+(
 getPrototypeOf
 getPrototypeOf
 "
