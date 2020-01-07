@@ -171,6 +171,9 @@ nsIPresShell
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -179,6 +182,8 @@ GeckoStyleContext
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla

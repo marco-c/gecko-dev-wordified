@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoDeclarationBlock
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h

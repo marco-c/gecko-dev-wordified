@@ -180,12 +180,17 @@ nsCSSParser
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsMediaList
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {

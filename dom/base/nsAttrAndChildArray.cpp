@@ -197,12 +197,17 @@ nsHTMLStyleSheet
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleWalker
 .
 h
 "
+#
+endif
 #
 include
 "

@@ -196,6 +196,13 @@ nsIMozBrowserFrame
 .
 h
 "
+#
+include
+"
+nsStyleUtil
+.
+h
+"
 using
 namespace
 mozilla

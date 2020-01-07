@@ -162,12 +162,17 @@ nsMappedAttributeElement
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRule
 .
 h
 "
+#
+endif
 #
 include
 "

@@ -191,6 +191,9 @@ nsStyleConsts
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleWalker
@@ -205,12 +208,17 @@ nsRuleData
 h
 "
 #
+endif
+#
 include
 "
 nsError
 .
 h
 "
+#
+ifdef
+MOZ_OLD_STYLE
 #
 include
 "
@@ -225,6 +233,8 @@ nsCSSRuleProcessor
 .
 h
 "
+#
+endif
 #
 include
 "

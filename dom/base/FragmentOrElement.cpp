@@ -766,6 +766,9 @@ ChildIterator
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -789,6 +792,8 @@ nsRuleProcessorData
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -945,6 +950,15 @@ h
 include
 "
 nsChildContentList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+BloomFilter
 .
 h
 "

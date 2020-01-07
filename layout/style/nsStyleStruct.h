@@ -163,6 +163,9 @@ Attributes
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -171,6 +174,8 @@ CSSVariableValues
 .
 h
 "
+#
+endif
 #
 include
 "

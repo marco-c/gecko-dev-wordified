@@ -156,6 +156,9 @@ nsHTMLStyleSheet
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleData
@@ -169,6 +172,8 @@ nsRuleWalker
 .
 h
 "
+#
+endif
 #
 include
 "

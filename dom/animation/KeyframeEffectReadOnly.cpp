@@ -182,6 +182,9 @@ KeyframeEffectBinding
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -190,6 +193,8 @@ AnimValuesStyleRule
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -231,6 +236,9 @@ h
 For
 IsFinite
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -239,6 +247,8 @@ GeckoStyleContext
 .
 h
 "
+#
+endif
 #
 include
 "

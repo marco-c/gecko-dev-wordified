@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+BindingStyleRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DeclarationBlock
 .
 h
@@ -158,6 +167,9 @@ StyleSheetInlines
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -179,6 +191,8 @@ StyleRule
 .
 h
 "
+#
+endif
 #
 include
 "

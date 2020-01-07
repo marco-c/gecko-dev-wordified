@@ -379,6 +379,9 @@ LayoutLogging
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -396,6 +399,8 @@ GeckoRestyleManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -786,6 +791,15 @@ include
 mozilla
 /
 MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
+RuleNodeCacheConditions
 .
 h
 "

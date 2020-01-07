@@ -121,6 +121,9 @@ mozilla_EffectSet_h
 define
 mozilla_EffectSet_h
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -129,6 +132,8 @@ AnimValuesStyleRule
 .
 h
 "
+#
+endif
 #
 include
 "

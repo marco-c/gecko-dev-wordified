@@ -243,6 +243,9 @@ nsGkAtoms
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleWalker
@@ -260,6 +263,8 @@ Declaration
 .
 h
 "
+#
+endif
 #
 include
 "

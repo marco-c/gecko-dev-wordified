@@ -171,6 +171,15 @@ h
 #
 include
 "
+mozilla
+/
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h

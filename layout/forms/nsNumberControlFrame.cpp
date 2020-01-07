@@ -231,12 +231,17 @@ nsCSSPseudoElements
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsStyleSet
 .
 h
 "
+#
+endif
 #
 include
 "

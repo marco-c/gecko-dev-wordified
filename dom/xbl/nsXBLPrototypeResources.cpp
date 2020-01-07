@@ -115,12 +115,17 @@ MPL
 *
 /
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRuleProcessor
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -196,6 +201,9 @@ nsLayoutCID
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsCSSRuleProcessor
@@ -209,6 +217,8 @@ nsStyleSet
 .
 h
 "
+#
+endif
 #
 include
 "
