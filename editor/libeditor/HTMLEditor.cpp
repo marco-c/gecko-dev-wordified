@@ -245,13 +245,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h
@@ -2411,9 +2404,9 @@ IsInitialized
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

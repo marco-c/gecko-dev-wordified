@@ -147,6 +147,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+EventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h
