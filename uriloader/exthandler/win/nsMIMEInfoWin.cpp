@@ -1331,8 +1331,6 @@ sinfo
 fMask
 =
 SEE_MASK_FLAG_DDEWAIT
-|
-SEE_MASK_FLAG_NO_UI
 ;
 sinfo
 .
