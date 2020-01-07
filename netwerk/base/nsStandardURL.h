@@ -1190,14 +1190,6 @@ aNewDefaultPort
 )
 ;
 nsresult
-SetFile
-(
-nsIFile
-*
-file
-)
-;
-nsresult
 SetFileNameInternal
 (
 const
