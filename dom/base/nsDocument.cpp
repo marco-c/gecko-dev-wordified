@@ -37300,7 +37300,7 @@ forget
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 FlushSkinBindings

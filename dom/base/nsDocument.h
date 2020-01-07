@@ -1806,13 +1806,6 @@ aFireSync
 override
 ;
 virtual
-void
-FlushSkinBindings
-(
-)
-override
-;
-virtual
 nsresult
 InitializeFrameLoader
 (

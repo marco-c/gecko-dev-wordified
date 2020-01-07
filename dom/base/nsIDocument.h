@@ -13892,13 +13892,10 @@ on
 nsBindingManager
 *
 /
-virtual
 void
 FlushSkinBindings
 (
 )
-=
-0
 ;
 /
 *
