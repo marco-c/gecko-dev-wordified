@@ -926,16 +926,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-Persist
-(
-aId
-aAttr
-)
 ;
-}
 using
 nsDocument
 :
