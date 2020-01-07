@@ -862,16 +862,7 @@ aRv
 )
 ;
 }
-/
-/
-Requires
-nsresult
-return
-for
-nsStyleLinkElement
-override
-.
-NS_IMETHODIMP
+void
 GetCharset
 (
 nsAString
@@ -888,9 +879,6 @@ nsGkAtoms
 charset
 aValue
 )
-;
-return
-NS_OK
 ;
 }
 void

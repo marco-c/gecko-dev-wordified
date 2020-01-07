@@ -356,7 +356,7 @@ aEnableUpdates
 )
 override
 ;
-NS_IMETHOD
+void
 GetCharset
 (
 nsAString

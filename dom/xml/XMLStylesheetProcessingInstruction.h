@@ -340,7 +340,7 @@ override
 /
 /
 nsStyleLinkElement
-NS_IMETHOD
+void
 GetCharset
 (
 nsAString
