@@ -846,6 +846,9 @@ json
 render_actions_json
 (
 parameters
+tgg
+.
+graph_config
 )
 )
     

@@ -86,12 +86,6 @@ nice
 as
 slugid
 from
-mozbuild
-.
-util
-import
-memoize
-from
 types
 import
 FunctionType
@@ -104,6 +98,12 @@ taskgraph
 import
 create
 GECKO
+from
+taskgraph
+.
+generator
+import
+load_graph_config
 from
 taskgraph
 .
@@ -1548,6 +1548,7 @@ def
 build_callback_action_task
 (
 parameters
+graph_config
 )
 :
             
@@ -1965,6 +1966,7 @@ def
 render_actions_json
 (
 parameters
+graph_config
 )
 :
     
@@ -2063,8 +2065,9 @@ action
 in
 sorted
 (
-get_actions
+_get_actions
 (
+graph_config
 )
 key
 =
@@ -2084,6 +2087,7 @@ action
 task_template_builder
 (
 parameters
+graph_config
 )
         
 if
@@ -2278,11 +2282,27 @@ tasks
 "
 "
     
+graph_config
+=
+load_graph_config
+(
+"
+taskcluster
+/
+ci
+"
+)
+    
+callbacks
+=
+_get_callbacks
+(
+graph_config
+)
+    
 cb
 =
-get_callbacks
-(
-)
+callbacks
 .
 get
 (
@@ -2316,13 +2336,7 @@ format
 (
             
 callback
-get_callbacks
-(
-)
-.
-keys
-(
-)
+callbacks
 )
 )
     
@@ -2355,10 +2369,10 @@ task_group_id
 task_id
 task
 )
-memoize
 def
 _load
 (
+graph_config
 )
 :
     
@@ -2509,7 +2523,8 @@ frontmatter
 )
 (
 lambda
-_
+_p
+_g
 :
 template
 )
@@ -2518,27 +2533,31 @@ return
 callbacks
 actions
 def
-get_callbacks
+_get_callbacks
 (
+graph_config
 )
 :
     
 return
 _load
 (
+graph_config
 )
 [
 0
 ]
 def
-get_actions
+_get_actions
 (
+graph_config
 )
 :
     
 return
 _load
 (
+graph_config
 )
 [
 1
