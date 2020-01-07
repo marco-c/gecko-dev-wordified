@@ -129,7 +129,7 @@ DOM
 Core
 '
 s
-nsIDOMText
+Text
 node
 .
 *
@@ -157,7 +157,7 @@ h
 #
 include
 "
-nsIDOMText
+nsIDOMCharacterData
 .
 h
 "
@@ -196,7 +196,7 @@ dom
 :
 Text
 public
-nsIDOMText
+nsIDOMCharacterData
 {
 private
 :
@@ -316,15 +316,6 @@ overloaded
 virtual
 function
 .
-/
-/
-nsIDOMText
-NS_FORWARD_NSIDOMTEXT
-(
-nsGenericDOMDataNode
-:
-:
-)
 /
 /
 nsINode

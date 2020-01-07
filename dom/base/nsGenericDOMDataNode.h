@@ -126,7 +126,7 @@ Core
 s
 nsIDOMComment
 DocumentType
-nsIDOMText
+Text
 *
 CDATASection
 and
@@ -209,9 +209,6 @@ h
 "
 class
 nsIDocument
-;
-class
-nsIDOMText
 ;
 namespace
 mozilla

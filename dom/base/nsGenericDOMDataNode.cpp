@@ -126,7 +126,7 @@ Core
 s
 nsIDOMComment
 DocumentType
-nsIDOMText
+Text
 *
 CDATASection
 and
@@ -243,13 +243,6 @@ h
 include
 "
 nsIDOMEvent
-.
-h
-"
-#
-include
-"
-nsIDOMText
 .
 h
 "

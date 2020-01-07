@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h
