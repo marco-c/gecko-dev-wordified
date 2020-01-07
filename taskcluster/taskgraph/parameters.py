@@ -1358,6 +1358,7 @@ gecko
 v2
 .
 {
+project
 }
 .
 latest
@@ -1369,6 +1370,9 @@ decision
 .
 format
 (
+                
+project
+=
 filename
 .
 split
@@ -1380,6 +1384,7 @@ split
 [
 1
 ]
+            
 )
             
 task_id
