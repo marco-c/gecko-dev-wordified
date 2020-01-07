@@ -184,6 +184,11 @@ max
 #
 include
 <
+cmath
+>
+#
+include
+<
 fcntl
 .
 h
@@ -4767,7 +4772,10 @@ GetBiggestNumberLessThan
 5
 ;
 return
-js_copysign
+std
+:
+:
+copysign
 (
 fdlibm
 :
@@ -4874,7 +4882,10 @@ GetBiggestNumberLessThan
 5f
 ;
 return
-js_copysign
+std
+:
+:
+copysign
 (
 fdlibm
 :
