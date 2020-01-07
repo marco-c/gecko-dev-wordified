@@ -813,7 +813,7 @@ _prefStrBundle
 getFormattedString
 (
 "
-siteDataSettings2
+siteDataSettings3
 .
 description
 "

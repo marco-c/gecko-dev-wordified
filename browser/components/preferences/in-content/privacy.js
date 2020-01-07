@@ -3094,7 +3094,7 @@ bundlePrefs
 getString
 (
 "
-cookiepermissionstext
+cookiepermissionstext1
 "
 )
 ]
@@ -3392,7 +3392,7 @@ bundlePrefs
 getString
 (
 "
-siteDataSettings2
+siteDataSettings3
 .
 description
 "
@@ -6195,7 +6195,7 @@ bundlePreferences
 getString
 (
 "
-cookiepermissionstitle
+cookiepermissionstitle1
 "
 )
 introText
@@ -6205,7 +6205,7 @@ bundlePreferences
 getString
 (
 "
-cookiepermissionstext
+cookiepermissionstext1
 "
 )
 }
@@ -9758,7 +9758,7 @@ prefStrBundle
 getFormattedString
 (
 "
-totalSiteDataSize1
+totalSiteDataSize2
 "
 size
 )
