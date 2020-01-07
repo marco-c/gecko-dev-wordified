@@ -334,6 +334,17 @@ nsAString
 aMetadata
 )
 ;
+void
+GetVariationAxes
+(
+nsTArray
+<
+InspectorVariationAxis
+>
+&
+aResult
+)
+;
 bool
 WrapObject
 (
