@@ -5132,6 +5132,12 @@ IsDXInterop2Blocked
 (
 )
 ;
+static
+bool
+IsDXNV12Blocked
+(
+)
+;
 RefPtr
 <
 gfxASurface
