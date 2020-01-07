@@ -1983,8 +1983,9 @@ the
 value
 is
 a
+1
+or
 2
--
 element
 array
 *
@@ -1993,12 +1994,13 @@ the
 contract
 ID
 and
+optionally
 the
 interface
+*
 name
 of
 the
-*
 service
 as
 passed
@@ -2083,6 +2085,9 @@ service
 [
 1
 ]
+|
+|
+null
 )
 ;
 }
