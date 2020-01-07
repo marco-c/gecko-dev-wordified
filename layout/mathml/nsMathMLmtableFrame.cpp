@@ -1940,12 +1940,11 @@ nsRect
 bounds
 =
 CalculateBounds
+<
+nsRect
+>
 (
 styleBorder
-)
-.
-GetBounds
-(
 )
 ;
 nsMargin
