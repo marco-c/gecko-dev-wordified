@@ -3069,6 +3069,12 @@ aActor
 )
 override
 ;
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 RefPtr
 <
 APZCTreeManager
@@ -3077,6 +3083,8 @@ GetAPZCTreeManager
 (
 )
 ;
+#
+endif
 RefPtr
 <
 APZSampler

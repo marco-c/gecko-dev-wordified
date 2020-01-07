@@ -6555,6 +6555,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 RefPtr
 <
 APZCTreeManager
@@ -6570,6 +6576,8 @@ return
 mApzcTreeManager
 ;
 }
+#
+endif
 RefPtr
 <
 APZSampler
