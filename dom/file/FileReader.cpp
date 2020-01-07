@@ -1933,6 +1933,7 @@ aCharset
 mCharset
 )
 ;
+{
 nsCOMPtr
 <
 nsIInputStream
@@ -1971,6 +1972,10 @@ aRv
 NS_MakeAsyncNonBlockingInputStream
 (
 stream
+.
+forget
+(
+)
 getter_AddRefs
 (
 mAsyncStream
@@ -1991,6 +1996,7 @@ Failed
 {
 return
 ;
+}
 }
 MOZ_ASSERT
 (

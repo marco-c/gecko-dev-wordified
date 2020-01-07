@@ -2876,6 +2876,10 @@ NonBlockingAsyncInputStream
 Create
 (
 mRemoteStream
+.
+forget
+(
+)
 getter_AddRefs
 (
 asyncStream
@@ -2897,6 +2901,11 @@ return
 rv
 ;
 }
+MOZ_ASSERT
+(
+asyncStream
+)
+;
 }
 if
 (
