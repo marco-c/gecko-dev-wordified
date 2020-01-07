@@ -851,6 +851,12 @@ lastIndex
 /
 /
 IDX_LASTINDEX
+"
+then
+"
+/
+/
+IDX_THEN
 }
 ;
 /
