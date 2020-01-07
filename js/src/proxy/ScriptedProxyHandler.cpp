@@ -169,12 +169,6 @@ JS
 :
 IsArrayAnswer
 ;
-using
-mozilla
-:
-:
-ArrayLength
-;
 /
 /
 ES8

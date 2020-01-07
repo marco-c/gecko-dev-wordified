@@ -248,12 +248,6 @@ using
 mozilla
 :
 :
-ArrayLength
-;
-using
-mozilla
-:
-:
 IsNaN
 ;
 using
@@ -267,12 +261,6 @@ JS
 :
 :
 DoubleNaNValue
-;
-using
-JS
-:
-:
-ForOfIterator
 ;
 /
 *

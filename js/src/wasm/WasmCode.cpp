@@ -310,12 +310,6 @@ mozilla
 :
 PodAssign
 ;
-using
-JS
-:
-:
-GenericNaN
-;
 bool
 CodeSegment
 :

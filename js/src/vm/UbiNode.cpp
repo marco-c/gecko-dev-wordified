@@ -339,12 +339,6 @@ using
 mozilla
 :
 :
-Some
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 using

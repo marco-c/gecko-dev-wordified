@@ -275,12 +275,6 @@ using
 mozilla
 :
 :
-IsNegative
-;
-using
-mozilla
-:
-:
 IsNegativeZero
 ;
 using

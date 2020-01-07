@@ -356,12 +356,6 @@ mozilla
 :
 PositiveInfinity
 ;
-using
-mozilla
-:
-:
-SpecificNaN
-;
 /
 *
 *

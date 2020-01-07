@@ -198,12 +198,6 @@ js
 :
 jit
 ;
-using
-mozilla
-:
-:
-Array
-;
 namespace
 js
 {

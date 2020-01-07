@@ -498,12 +498,6 @@ mozilla
 :
 PodArrayZero
 ;
-using
-mozilla
-:
-:
-PointerRangeSize
-;
 bool
 js
 :

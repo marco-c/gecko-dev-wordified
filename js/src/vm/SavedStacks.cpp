@@ -388,12 +388,6 @@ using
 mozilla
 :
 :
-HashString
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
