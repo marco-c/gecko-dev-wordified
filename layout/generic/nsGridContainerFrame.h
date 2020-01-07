@@ -422,6 +422,13 @@ nsString
 >
 &
 aNamesAfter
+nsTArray
+<
+nsString
+>
+&
+&
+aNamesFollowingRepeat
 )
 :
 mNames
@@ -435,6 +442,10 @@ aNamesBefore
 mNamesAfter
 (
 aNamesAfter
+)
+mNamesFollowingRepeat
+(
+aNamesFollowingRepeat
 )
 {
 }
@@ -458,6 +469,12 @@ nsTArray
 nsString
 >
 mNamesAfter
+;
+nsTArray
+<
+nsString
+>
+mNamesFollowingRepeat
 ;
 }
 ;
