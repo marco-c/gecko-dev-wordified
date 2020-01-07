@@ -2265,6 +2265,7 @@ mV2
 mV3
 ;
 }
+MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
 void
 sipRound
 (
