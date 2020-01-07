@@ -489,12 +489,6 @@ true
 )
 ELEM
 (
-content
-____
-true
-)
-ELEM
-(
 data
 ____
 true
