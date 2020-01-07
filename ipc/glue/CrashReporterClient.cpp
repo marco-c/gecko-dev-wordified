@@ -135,9 +135,6 @@ nsISupportsImpl
 .
 h
 "
-#
-ifdef
-MOZ_CRASHREPORTER
 namespace
 mozilla
 {
@@ -356,8 +353,3 @@ ipc
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_CRASHREPORTER
