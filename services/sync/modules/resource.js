@@ -449,19 +449,6 @@ authentication
 details
 .
 *
-If
-the
-callback
-returns
-a
-promise
-it
-will
-be
-awaited
-upon
-.
-*
 *
 By
 default
@@ -710,7 +697,6 @@ Headers
 }
 *
 /
-async
 _buildHeaders
 (
 method
@@ -759,7 +745,6 @@ authenticator
 const
 result
 =
-await
 this
 .
 authenticator
@@ -1012,7 +997,6 @@ Request
 }
 *
 /
-async
 _createRequest
 (
 method
@@ -1023,7 +1007,6 @@ signal
 const
 headers
 =
-await
 this
 .
 _buildHeaders
@@ -1208,7 +1191,6 @@ AbortController
 const
 request
 =
-await
 this
 .
 _createRequest

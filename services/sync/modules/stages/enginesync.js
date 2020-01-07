@@ -458,8 +458,6 @@ clusterURL
 &
 &
 !
-(
-await
 this
 .
 service
@@ -468,7 +466,6 @@ _clusterManager
 .
 setCluster
 (
-)
 )
 )
 {
@@ -2086,6 +2083,14 @@ status
 return
 ;
 }
+this
+.
+service
+.
+_ignorePrefObserver
+=
+true
+;
 let
 enabled
 =
@@ -2752,6 +2757,14 @@ engineStatusChanged
 .
 "
 )
+;
+this
+.
+service
+.
+_ignorePrefObserver
+=
+false
 ;
 }
 async
