@@ -617,6 +617,16 @@ use
 self
 :
 :
+outline
+:
+:
+OutlineStyle
+;
+pub
+use
+self
+:
+:
 percentage
 :
 :
@@ -797,6 +807,10 @@ gecko
 pub
 mod
 length
+;
+pub
+mod
+outline
 ;
 pub
 mod
