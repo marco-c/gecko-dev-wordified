@@ -127,6 +127,7 @@ box_
 :
 {
 AnimationName
+OverflowClipBox
 OverscrollBehavior
 ScrollSnapType
 }
