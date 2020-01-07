@@ -2160,9 +2160,12 @@ PRIu64
 "
 }
 "
+uint64_t
+(
 s
 .
 mLayersId
+)
 s
 .
 mPresShellId

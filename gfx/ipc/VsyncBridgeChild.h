@@ -228,7 +228,10 @@ NotifyVsync
 TimeStamp
 aTimeStamp
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aLayersId
 )
@@ -286,7 +289,10 @@ NotifyVsyncImpl
 TimeStamp
 aTimeStamp
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aLayersId
 )

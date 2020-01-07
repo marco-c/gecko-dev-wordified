@@ -3023,7 +3023,10 @@ GetRenderFrameInfo
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-uint64_t
+layers
+:
+:
+LayersId
 *
 aLayersId
 )
@@ -4185,7 +4188,10 @@ static
 void
 AddTabParentToTable
 (
-uint64_t
+layers
+:
+:
+LayersId
 aLayersId
 TabParent
 *
@@ -4196,7 +4202,10 @@ static
 void
 RemoveTabParentFromTable
 (
-uint64_t
+layers
+:
+:
+LayersId
 aLayersId
 )
 ;
@@ -4414,7 +4423,10 @@ TabParent
 *
 GetTabParentFromLayersId
 (
-uint64_t
+layers
+:
+:
+LayersId
 aLayersId
 )
 ;

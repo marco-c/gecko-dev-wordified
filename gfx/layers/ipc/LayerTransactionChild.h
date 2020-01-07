@@ -313,7 +313,7 @@ mForwarder
 aForwarder
 ;
 }
-uint64_t
+LayersId
 GetId
 (
 )
@@ -339,7 +339,7 @@ explicit
 LayerTransactionChild
 (
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -441,7 +441,7 @@ mIPCOpen
 bool
 mDestroyed
 ;
-uint64_t
+LayersId
 mId
 ;
 }

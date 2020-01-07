@@ -151,7 +151,7 @@ public
 explicit
 APZCTreeManagerParent
 (
-uint64_t
+LayersId
 aLayersId
 RefPtr
 <
@@ -166,8 +166,8 @@ APZCTreeManagerParent
 (
 )
 ;
-uint64_t
 LayersId
+GetLayersId
 (
 )
 const
@@ -441,7 +441,7 @@ override
 }
 private
 :
-uint64_t
+LayersId
 mLayersId
 ;
 RefPtr

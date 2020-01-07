@@ -1130,7 +1130,7 @@ GPUParent
 AllocPAPZInputBridgeParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -1949,7 +1949,7 @@ GPUParent
 RecvInitUiCompositorController
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 Endpoint

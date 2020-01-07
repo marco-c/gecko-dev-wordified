@@ -207,7 +207,7 @@ CompositorBridgeChild
 *
 aChild
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )

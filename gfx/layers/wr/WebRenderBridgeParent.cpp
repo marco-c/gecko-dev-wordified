@@ -2978,7 +2978,7 @@ cbp
 return
 ;
 }
-uint64_t
+LayersId
 rootLayersId
 =
 cbp
@@ -3742,12 +3742,8 @@ mCompositorBridge
 >
 DidComposite
 (
-wr
-:
-:
-AsUint64
+GetLayersId
 (
-mPipelineId
 )
 now
 now
@@ -4077,12 +4073,8 @@ mCompositorBridge
 >
 DidComposite
 (
-wr
-:
-:
-AsUint64
+GetLayersId
 (
-mPipelineId
 )
 now
 now
@@ -7555,7 +7547,7 @@ return
 id
 ;
 }
-uint64_t
+LayersId
 WebRenderBridgeParent
 :
 :
@@ -7568,7 +7560,7 @@ return
 wr
 :
 :
-AsUint64
+AsLayersId
 (
 mPipelineId
 )

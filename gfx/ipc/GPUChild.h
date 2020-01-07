@@ -240,7 +240,7 @@ PAPZInputBridgeChild
 AllocPAPZInputBridgeChild
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )

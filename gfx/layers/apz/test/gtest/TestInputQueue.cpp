@@ -181,7 +181,10 @@ ScopedLayerTreeRegistration
 registration
 (
 manager
+LayersId
+{
 0
+}
 root
 mcc
 )
@@ -191,10 +194,16 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
 0
+}
 root
 false
+LayersId
+{
 0
+}
 0
 )
 ;

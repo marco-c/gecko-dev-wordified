@@ -7655,7 +7655,7 @@ ref
 return
 ;
 }
-uint64_t
+LayersId
 layersId
 =
 mCompositorSession
@@ -9823,7 +9823,10 @@ mCompositorBridgeChild
 SendPLayerTransactionConstructor
 (
 backendHints
+LayersId
+{
 0
+}
 )
 ;
 if
@@ -12597,7 +12600,7 @@ mAPZC
 return
 ;
 }
-uint64_t
+LayersId
 layerId
 =
 mCompositorSession
@@ -12830,7 +12833,7 @@ XRE_IsParentProcess
 mCompositorSession
 )
 ;
-uint64_t
+LayersId
 layersId
 =
 mCompositorSession

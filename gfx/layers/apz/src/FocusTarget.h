@@ -292,10 +292,6 @@ mVertical
 }
 }
 ;
-typedef
-uint64_t
-RefLayerId
-;
 /
 /
 We
@@ -444,7 +440,7 @@ mozilla
 :
 Variant
 <
-RefLayerId
+LayersId
 ScrollTargets
 NoFocusTarget
 >

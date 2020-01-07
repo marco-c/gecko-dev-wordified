@@ -290,9 +290,9 @@ ClearTree
 void
 UpdateFocusState
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -303,14 +303,14 @@ aFocusTarget
 void
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 Layer
 *
 aRoot
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -319,7 +319,7 @@ aPaintSequenceNumber
 void
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 const
 WebRenderScrollData
@@ -327,7 +327,7 @@ WebRenderScrollData
 aScrollData
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -336,7 +336,7 @@ aPaintSequenceNumber
 void
 NotifyLayerTreeAdopted
 (
-uint64_t
+LayersId
 aLayersId
 const
 RefPtr
@@ -350,7 +350,7 @@ aOldSampler
 void
 NotifyLayerTreeRemoved
 (
-uint64_t
+LayersId
 aLayersId
 )
 ;
@@ -381,7 +381,7 @@ aTransformArray
 bool
 GetAPZTestData
 (
-uint64_t
+LayersId
 aLayersId
 APZTestData
 *
@@ -391,7 +391,7 @@ aOutData
 void
 SetTestAsyncScrollOffset
 (
-uint64_t
+LayersId
 aLayersId
 const
 FrameMetrics
@@ -409,7 +409,7 @@ aOffset
 void
 SetTestAsyncZoom
 (
-uint64_t
+LayersId
 aLayersId
 const
 FrameMetrics

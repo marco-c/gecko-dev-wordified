@@ -1117,7 +1117,7 @@ mData
 =
 AsVariant
 <
-RefLayerId
+LayersId
 >
 (
 rfp
@@ -1509,7 +1509,7 @@ mData
 .
 is
 <
-RefLayerId
+LayersId
 >
 (
 )
@@ -1517,7 +1517,7 @@ RefLayerId
 {
 return
 "
-RefLayerId
+LayersId
 "
 ;
 }

@@ -331,7 +331,7 @@ tree
 void
 Map
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -354,7 +354,7 @@ mapping
 void
 Unmap
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -383,7 +383,7 @@ aLayersId
 bool
 IsMapped
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -403,7 +403,7 @@ function
 <
 void
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -433,7 +433,7 @@ std
 :
 map
 <
-uint64_t
+LayersId
 base
 :
 :

@@ -602,7 +602,7 @@ Iterate
 &
 ]
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -761,7 +761,7 @@ GPUChild
 AllocPAPZInputBridgeChild
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )

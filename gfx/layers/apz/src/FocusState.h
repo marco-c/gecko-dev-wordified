@@ -843,9 +843,9 @@ to
 void
 Update
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -872,7 +872,7 @@ ID
 void
 RemoveFocusTarget
 (
-uint64_t
+LayersId
 aLayersId
 )
 ;
@@ -1164,8 +1164,16 @@ std
 :
 unordered_map
 <
-uint64_t
+LayersId
 FocusTarget
+LayersId
+:
+:
+HashFn
+LayersId
+:
+:
+EqualFn
 >
 mFocusTree
 ;
@@ -1337,7 +1345,7 @@ of
 the
 focused
 element
-uint64_t
+LayersId
 mFocusLayersId
 ;
 /

@@ -319,7 +319,7 @@ UiCompositorControllerChild
 CreateForSameProcess
 (
 const
-int64_t
+LayersId
 &
 aRootLayerTreeId
 )

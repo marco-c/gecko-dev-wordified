@@ -2733,7 +2733,10 @@ AllocateLayerTreeId
 TabParent
 *
 aTabParent
-uint64_t
+layers
+:
+:
+LayersId
 *
 aId
 )
@@ -4235,7 +4238,10 @@ const
 TabId
 &
 aTabId
-uint64_t
+layers
+:
+:
+LayersId
 *
 aId
 )
@@ -5807,7 +5813,10 @@ const
 TabId
 &
 aTabId
-uint64_t
+layers
+:
+:
+LayersId
 *
 aId
 )
@@ -5828,7 +5837,10 @@ ContentParentId
 &
 aCpId
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aId
 )

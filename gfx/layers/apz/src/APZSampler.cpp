@@ -235,9 +235,9 @@ APZSampler
 :
 UpdateFocusState
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -272,14 +272,14 @@ APZSampler
 :
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 Layer
 *
 aRoot
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -314,7 +314,7 @@ APZSampler
 :
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 const
 WebRenderScrollData
@@ -322,7 +322,7 @@ WebRenderScrollData
 aScrollData
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -357,7 +357,7 @@ APZSampler
 :
 NotifyLayerTreeAdopted
 (
-uint64_t
+LayersId
 aLayersId
 const
 RefPtr
@@ -401,7 +401,7 @@ APZSampler
 :
 NotifyLayerTreeRemoved
 (
-uint64_t
+LayersId
 aLayersId
 )
 {
@@ -492,7 +492,7 @@ APZSampler
 :
 GetAPZTestData
 (
-uint64_t
+LayersId
 aLayersId
 APZTestData
 *
@@ -526,7 +526,7 @@ APZSampler
 :
 SetTestAsyncScrollOffset
 (
-uint64_t
+LayersId
 aLayersId
 const
 FrameMetrics
@@ -602,7 +602,7 @@ APZSampler
 :
 SetTestAsyncZoom
 (
-uint64_t
+LayersId
 aLayersId
 const
 FrameMetrics

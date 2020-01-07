@@ -196,7 +196,7 @@ LayerManager
 *
 aLayerManager
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 CSSToLayoutDeviceScale

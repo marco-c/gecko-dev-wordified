@@ -438,7 +438,7 @@ root
 layer
 tree
 .
-uint64_t
+LayersId
 RootLayerTreeId
 (
 )
@@ -524,7 +524,7 @@ CompositorBridgeChild
 *
 aChild
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -547,7 +547,7 @@ CompositorBridgeChild
 >
 mCompositorBridgeChild
 ;
-uint64_t
+LayersId
 mRootLayerTreeId
 ;
 #

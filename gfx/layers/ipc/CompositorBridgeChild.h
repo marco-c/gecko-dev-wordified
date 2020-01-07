@@ -541,7 +541,7 @@ IPCResult
 RecvDidComposite
 (
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -570,7 +570,7 @@ IPCResult
 RecvInvalidateLayers
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -660,7 +660,7 @@ TextureFlags
 &
 aFlags
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -921,7 +921,7 @@ bool
 SendNotifyChildCreated
 (
 const
-uint64_t
+LayersId
 &
 id
 CompositorOptions
@@ -933,7 +933,7 @@ bool
 SendAdoptChild
 (
 const
-uint64_t
+LayersId
 &
 id
 )
@@ -1316,7 +1316,7 @@ PAPZCTreeManagerChild
 AllocPAPZCTreeManagerChild
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -1336,7 +1336,7 @@ PAPZChild
 AllocPAPZChild
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -1988,7 +1988,7 @@ LayersBackend
 &
 aBackendHints
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -2041,7 +2041,7 @@ CrossProcessMutexHandle
 &
 handle
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -2095,7 +2095,7 @@ IPCResult
 RecvObserveLayerUpdate
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -2172,7 +2172,7 @@ CrossProcessMutexHandle
 &
 handle
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -2202,7 +2202,7 @@ GetViewID
 (
 )
 ;
-uint64_t
+LayersId
 GetLayersId
 (
 )
@@ -2251,7 +2251,7 @@ CrossProcessMutex
 *
 mMutex
 ;
-uint64_t
+LayersId
 mLayersId
 ;
 /

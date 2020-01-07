@@ -194,9 +194,9 @@ mReceivedUpdate
 false
 )
 mFocusLayersId
-(
+{
 0
-)
+}
 mFocusHorizontalTarget
 (
 FrameMetrics
@@ -432,9 +432,9 @@ FocusState
 :
 Update
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -870,10 +870,8 @@ bool
 match
 (
 const
-FocusTarget
-:
-:
-RefLayerId
+LayersId
+&
 aRefLayerId
 )
 {
@@ -1175,7 +1173,7 @@ FocusState
 :
 RemoveFocusTarget
 (
-uint64_t
+LayersId
 aLayersId
 )
 {

@@ -158,7 +158,7 @@ APZCTreeManagerParent
 :
 APZCTreeManagerParent
 (
-uint64_t
+LayersId
 aLayersId
 RefPtr
 <

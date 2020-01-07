@@ -156,7 +156,7 @@ explicit
 APZInputBridgeParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )

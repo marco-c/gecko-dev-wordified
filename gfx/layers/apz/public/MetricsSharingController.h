@@ -212,7 +212,7 @@ Handle
 aHandle
 CrossProcessMutexHandle
 aMutexHandle
-uint64_t
+LayersId
 aLayersId
 uint32_t
 aApzcId

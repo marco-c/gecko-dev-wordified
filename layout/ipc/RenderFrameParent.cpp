@@ -753,9 +753,9 @@ aFrameLoader
 )
 :
 mLayersId
-(
+{
 0
-)
+}
 mLayersConnected
 (
 false
@@ -1269,6 +1269,10 @@ if
 (
 !
 mLayersId
+.
+IsValid
+(
+)
 )
 {
 return
@@ -1661,9 +1665,10 @@ why
 if
 (
 mLayersId
-!
-=
-0
+.
+IsValid
+(
+)
 )
 {
 if
@@ -2626,7 +2631,7 @@ return
 true
 ;
 }
-uint64_t
+LayersId
 nsDisplayRemote
 :
 :

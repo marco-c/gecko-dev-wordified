@@ -6031,7 +6031,7 @@ scrollable
 struct
 ScrollableLayerGuid
 {
-uint64_t
+LayersId
 mLayersId
 ;
 uint32_t
@@ -6048,9 +6048,9 @@ ScrollableLayerGuid
 )
 :
 mLayersId
-(
+{
 0
-)
+}
 mPresShellId
 (
 0
@@ -6063,7 +6063,7 @@ mScrollId
 }
 ScrollableLayerGuid
 (
-uint64_t
+LayersId
 aLayersId
 uint32_t
 aPresShellId
@@ -6090,7 +6090,7 @@ aScrollId
 }
 ScrollableLayerGuid
 (
-uint64_t
+LayersId
 aLayersId
 const
 FrameMetrics
@@ -6293,7 +6293,10 @@ const
 return
 HashGeneric
 (
+uint64_t
+(
 mLayersId
+)
 mPresShellId
 mScrollId
 )
@@ -6342,9 +6345,12 @@ log
 '
 <
 <
+uint64_t
+(
 aGuid
 .
 mLayersId
+)
 <
 <
 '

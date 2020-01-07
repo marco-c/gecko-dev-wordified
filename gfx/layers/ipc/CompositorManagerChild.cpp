@@ -1419,7 +1419,7 @@ PCompositorBridge
 Msg_DidComposite__ID
 )
 {
-uint64_t
+LayersId
 layersId
 ;
 PickleIterator

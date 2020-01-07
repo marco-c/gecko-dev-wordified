@@ -149,7 +149,10 @@ VsyncBridgeChild
 >
 aVsyncBridge
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aRootLayerTreeId
 )

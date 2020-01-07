@@ -309,7 +309,7 @@ aBridge
 CompositorAnimationStorage
 *
 aAnimStorage
-uint64_t
+LayersId
 aId
 )
 ;
@@ -338,7 +338,7 @@ CompositorAnimationStorage
 aAnimStorage
 )
 ;
-uint64_t
+LayersId
 GetId
 (
 )
@@ -1171,7 +1171,7 @@ Layer
 >
 mLayerMap
 ;
-uint64_t
+LayersId
 mId
 ;
 /

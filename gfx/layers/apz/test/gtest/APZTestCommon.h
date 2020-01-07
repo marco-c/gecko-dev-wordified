@@ -1255,7 +1255,10 @@ aMcc
 :
 APZCTreeManager
 (
+LayersId
+{
 0
+}
 )
 mcc
 (
@@ -1292,7 +1295,7 @@ AsyncPanZoomController
 *
 NewAPZCInstance
 (
-uint64_t
+LayersId
 aLayersId
 GeckoContentController
 *
@@ -1335,7 +1338,7 @@ public
 :
 TestAsyncPanZoomController
 (
-uint64_t
+LayersId
 aLayersId
 MockContentControllerDelayed
 *
@@ -3844,7 +3847,7 @@ TestAPZCTreeManager
 :
 NewAPZCInstance
 (
-uint64_t
+LayersId
 aLayersId
 GeckoContentController
 *
