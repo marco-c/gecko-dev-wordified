@@ -580,6 +580,12 @@ removeSearchSettings
 id
 )
 {
+return
+Promise
+.
+all
+(
+[
 this
 .
 processDefaultSearchSetting
@@ -589,12 +595,13 @@ removeSetting
 "
 id
 )
-;
 this
 .
 removeEngine
 (
 id
+)
+]
 )
 ;
 }
@@ -627,6 +634,7 @@ by
 the
 ExtensionPreferencesManager
 .
+return
 this
 .
 removeSearchSettings
