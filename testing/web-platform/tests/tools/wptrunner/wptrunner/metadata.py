@@ -380,6 +380,13 @@ new_disabled
 :
                             
 print
+"
+disabled
+:
+%
+s
+"
+%
 os
 .
 path
@@ -408,6 +415,13 @@ new_disabled
 :
                         
 print
+"
+disabled
+:
+%
+s
+"
+%
 test
 .
 root
