@@ -627,11 +627,7 @@ AccelerateLayersByDefault
 (
 )
 override
-{
-return
-false
 ;
-}
 #
 ifdef
 GL_PROVIDER_GLX
