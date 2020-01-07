@@ -178,7 +178,7 @@ background
 *
 /
 function
-connectWrapper
+visibilityHandlerConnect
 (
 )
 {
@@ -237,6 +237,6 @@ exports
 {
 connect
 :
-connectWrapper
+visibilityHandlerConnect
 }
 ;
