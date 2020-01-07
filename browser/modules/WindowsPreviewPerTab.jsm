@@ -1004,7 +1004,7 @@ getService
 ;
 imgTools
 .
-decodeImage
+decodeImageAsync
 (
 inputStream
 channel
