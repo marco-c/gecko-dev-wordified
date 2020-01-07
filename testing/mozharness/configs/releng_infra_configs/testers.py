@@ -161,21 +161,6 @@ gittool
 py
 '
 )
-            
-'
-virtualenv
-'
-:
-'
-/
-tools
-/
-virtualenv
-/
-bin
-/
-virtualenv
-'
         
 }
         
@@ -244,21 +229,6 @@ gittool
 py
 '
 )
-            
-'
-virtualenv
-'
-:
-'
-/
-tools
-/
-virtualenv
-/
-bin
-/
-virtualenv
-'
         
 }
         
@@ -327,21 +297,6 @@ gittool
 py
 '
 )
-            
-'
-virtualenv
-'
-:
-'
-/
-tools
-/
-virtualenv
-/
-bin
-/
-virtualenv
-'
         
 }
         
@@ -425,28 +380,6 @@ python
 '
 :
 PYTHON_WIN32
-            
-'
-virtualenv
-'
-:
-[
-PYTHON_WIN32
-'
-c
-:
-/
-mozilla
--
-build
-/
-buildbotve
-/
-virtualenv
-.
-py
-'
-]
         
 }
     
