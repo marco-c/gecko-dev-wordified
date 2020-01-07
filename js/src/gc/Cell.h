@@ -517,6 +517,9 @@ as
 {
 MOZ_ASSERT
 (
+this
+-
+>
 is
 <
 T
@@ -552,6 +555,9 @@ const
 {
 MOZ_ASSERT
 (
+this
+-
+>
 is
 <
 T
