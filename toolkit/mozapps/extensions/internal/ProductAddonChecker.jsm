@@ -233,13 +233,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-checkCert
-BadCertHandler
-*
-/
 ChromeUtils
 .
 import
@@ -782,6 +775,8 @@ channel
 notificationCallbacks
 =
 new
+CertUtils
+.
 BadCertHandler
 (
 allowNonBuiltIn
@@ -1089,6 +1084,8 @@ target
 ;
 try
 {
+CertUtils
+.
 checkCert
 (
 request

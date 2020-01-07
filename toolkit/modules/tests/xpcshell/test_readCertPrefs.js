@@ -354,6 +354,8 @@ bar
 var
 certs
 =
+CertUtils
+.
 readCertPrefs
 (
 PREF_PREFIX
@@ -473,6 +475,8 @@ cert
 var
 certs
 =
+CertUtils
+.
 readCertPrefs
 (
 PREF_PREFIX
@@ -645,6 +649,8 @@ cert
 var
 certs
 =
+CertUtils
+.
 readCertPrefs
 (
 PREF_PREFIX
