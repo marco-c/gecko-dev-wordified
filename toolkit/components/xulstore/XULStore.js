@@ -699,7 +699,7 @@ parse
 (
 Cu
 .
-readFile
+readUTF8File
 (
 this
 .
