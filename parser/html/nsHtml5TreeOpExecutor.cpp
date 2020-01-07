@@ -5669,6 +5669,8 @@ bool
 aAsync
 bool
 aDefer
+bool
+aNoModule
 )
 {
 nsCOMPtr
@@ -5709,6 +5711,7 @@ aIntegrity
 aScriptFromHead
 aAsync
 aDefer
+aNoModule
 mSpeculationReferrerPolicy
 )
 ;

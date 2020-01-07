@@ -2655,6 +2655,11 @@ ATTR_NUMOCTAVES
 static
 nsHtml5AttributeName
 *
+ATTR_NOMODULE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_ONLOAD
 ;
 static

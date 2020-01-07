@@ -951,6 +951,8 @@ bool
 aAsync
 bool
 aDefer
+bool
+aNoModule
 )
 ;
 void

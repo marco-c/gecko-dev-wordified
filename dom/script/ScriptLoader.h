@@ -1683,6 +1683,8 @@ bool
 aAsync
 bool
 aDefer
+bool
+aNoModule
 const
 mozilla
 :
