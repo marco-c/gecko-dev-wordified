@@ -117,6 +117,11 @@ expectedPermissions
 =
 [
 "
+autoplay
+-
+media
+"
+"
 camera
 "
 "
@@ -1005,6 +1010,11 @@ exactHostMatched
 =
 [
 "
+autoplay
+-
+media
+"
+"
 desktop
 -
 notification
@@ -1221,7 +1231,10 @@ permission
 state
 SitePermissions
 .
-UNKNOWN
+getDefault
+(
+permission
+)
 {
 permission
 }
