@@ -2100,6 +2100,9 @@ uri
 final
 int
 target
+final
+int
+flags
 GeckoResponse
 <
 Boolean
@@ -2125,6 +2128,13 @@ where
 "
 +
 target
++
+"
+flags
+=
+"
++
+flags
 )
 ;
 response

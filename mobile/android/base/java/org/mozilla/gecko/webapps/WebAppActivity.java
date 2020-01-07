@@ -2156,6 +2156,9 @@ final
 int
 target
 final
+int
+flags
+final
 GeckoResponse
 <
 Boolean
