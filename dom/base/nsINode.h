@@ -3183,8 +3183,12 @@ IsElement
 )
 |
 |
-!
-IsCharacterData
+IsDocument
+(
+)
+|
+|
+IsDocumentFragment
 (
 )
 ;
