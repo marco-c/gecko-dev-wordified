@@ -9042,6 +9042,10 @@ prim_info
 stretch_size
 tile_spacing
 image_rendering
+AlphaType
+:
+:
+PremultipliedAlpha
 key
 )
 ;
