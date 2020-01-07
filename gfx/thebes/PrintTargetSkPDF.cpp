@@ -411,15 +411,7 @@ mOStream
 get
 (
 )
-SK_ScalarDefaultRasterDPI
 metadata
-/
-*
-jpegEncoder
-*
-/
-nullptr
-true
 )
 ;
 return
@@ -699,10 +691,7 @@ MakePDF
 (
 &
 mRefOStream
-SK_ScalarDefaultRasterDPI
 metadata
-nullptr
-true
 )
 ;
 if
