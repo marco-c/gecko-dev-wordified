@@ -1937,7 +1937,7 @@ alternatives
 [
 (
 "
-san
+sans
 -
 serif
 "
