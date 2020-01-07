@@ -548,16 +548,6 @@ LastModTime
 (
 )
 ;
-#
-ifdef
-XP_UNIX
-bool
-IsSymlink
-(
-)
-;
-#
-endif
 nsZipItem
 *
 next
