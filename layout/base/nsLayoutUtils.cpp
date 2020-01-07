@@ -414,7 +414,7 @@ h
 #
 include
 "
-nsFrameManager
+nsCSSFrameConstructor
 .
 h
 "

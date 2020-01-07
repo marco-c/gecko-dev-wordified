@@ -1471,17 +1471,6 @@ return
 mFrameConstructor
 ;
 }
-nsFrameManager
-*
-FrameManager
-(
-)
-const
-{
-return
-mFrameManager
-;
-}
 /
 *
 Enable

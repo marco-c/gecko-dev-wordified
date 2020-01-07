@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -257,13 +264,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsFrameManager
 .
 h
 "
@@ -1599,7 +1599,7 @@ sc
 shell
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 -
@@ -1620,7 +1620,7 @@ sc
 shell
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 -

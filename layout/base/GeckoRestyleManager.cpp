@@ -25655,7 +25655,7 @@ fm
 mPresContext
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 ;

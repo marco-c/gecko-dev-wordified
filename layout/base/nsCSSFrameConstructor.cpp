@@ -6997,7 +6997,7 @@ mFrameManager
 aPresShell
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 )

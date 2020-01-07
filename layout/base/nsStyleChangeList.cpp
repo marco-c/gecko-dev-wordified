@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -154,13 +161,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsFrameManager
 .
 h
 "
@@ -312,7 +312,7 @@ PresContext
 )
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 -

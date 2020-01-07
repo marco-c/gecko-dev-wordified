@@ -308,6 +308,13 @@ h
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -9277,7 +9284,7 @@ GetPrimaryFrame
 mShell
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 -

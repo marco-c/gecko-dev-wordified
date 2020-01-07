@@ -381,13 +381,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
@@ -67112,7 +67105,7 @@ nsCSSAnonBoxes
 tableWrapper
 )
 {
-nsFrameManager
+nsCSSFrameConstructor
 *
 fm
 =
@@ -67121,7 +67114,7 @@ PresContext
 )
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 ;
