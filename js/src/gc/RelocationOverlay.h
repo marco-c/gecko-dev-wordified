@@ -258,9 +258,6 @@ gc
 :
 Relocated
 ;
-#
-if
-MOZ_LITTLE_ENDIAN
 /
 *
 *
@@ -301,16 +298,6 @@ moved
 uint32_t
 magic_
 ;
-#
-else
-uint32_t
-magic_
-;
-uint32_t
-preserve_
-;
-#
-endif
 /
 *
 The
