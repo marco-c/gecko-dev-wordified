@@ -3017,7 +3017,8 @@ mClipboardRequestNumber
 aClipboardRequestNumber
 )
 {
-mClipboardDataLength
+int
+dataLength
 =
 gtk_selection_data_get_length
 (
@@ -3026,11 +3027,15 @@ aSelectionData
 ;
 if
 (
-mClipboardDataLength
+dataLength
 >
 0
 )
 {
+mClipboardDataLength
+=
+dataLength
+;
 mClipboardData
 =
 reinterpret_cast
