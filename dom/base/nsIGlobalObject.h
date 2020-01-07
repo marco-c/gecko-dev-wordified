@@ -780,6 +780,9 @@ mozilla
 :
 DOMEventTargetHelper
 *
+bool
+*
+aDoneOut
 )
 >
 &
