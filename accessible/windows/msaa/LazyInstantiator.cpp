@@ -1363,7 +1363,7 @@ gBlockedRemoteClients
 =
 {
 "
-tbnnotifier
+tbnotifier
 .
 exe
 "
@@ -1374,7 +1374,7 @@ Ask
 com
 Toolbar
 bug
-1421018
+1453876
 }
 ;
 /
