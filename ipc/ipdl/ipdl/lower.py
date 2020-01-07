@@ -21763,9 +21763,12 @@ ipc
 IPCResult
 '
 )
-virtual
+                    
+methodspec
 =
-1
+MethodSpec
+.
+VIRTUAL
 )
                 
 if
@@ -21813,9 +21816,11 @@ else
                     
 recvDecl
 .
-pure
+methodspec
 =
-1
+MethodSpec
+.
+PURE
                     
 self
 .
@@ -21937,13 +21942,11 @@ implicit
 ret
 =
 actortype
-                
-virtual
+methodspec
 =
-1
-pure
-=
-1
+MethodSpec
+.
+PURE
 )
 )
 )
@@ -21986,13 +21989,11 @@ ret
 Type
 .
 BOOL
-                
-virtual
+methodspec
 =
-1
-pure
-=
-1
+MethodSpec
+.
+PURE
 )
 )
 )
@@ -22008,6 +22009,32 @@ is
 no
 -
 op
+        
+if
+self
+.
+side
+=
+=
+'
+parent
+'
+:
+            
+methodspec
+=
+MethodSpec
+.
+PURE
+        
+else
+:
+            
+methodspec
+=
+MethodSpec
+.
+VIRTUAL
         
 self
 .
@@ -22053,22 +22080,9 @@ ret
 Type
 .
 VOID
-                
-virtual
+methodspec
 =
-1
-pure
-=
-(
-self
-.
-side
-=
-=
-'
-parent
-'
-)
+methodspec
 )
 )
             
@@ -22150,12 +22164,11 @@ aReason
 )
 ]
                            
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22191,12 +22204,11 @@ ret
 Type
 .
 BOOL
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22241,12 +22253,11 @@ enteredCxxStackVar
 )
 .
 name
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22264,12 +22275,11 @@ exitedCxxStackVar
 )
 .
 name
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22287,12 +22297,11 @@ enteredCallVar
 )
 .
 name
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22310,12 +22319,11 @@ exitedCallVar
 )
 .
 name
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -22630,9 +22638,11 @@ DestructorDecl
 self
 .
 clsname
-virtual
+methodspec
 =
-True
+MethodSpec
+.
+VIRTUAL
 )
 )
         
@@ -23590,12 +23600,11 @@ MethodDefn
 MethodDecl
 (
 name
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
                                            
 params
 =
@@ -24278,12 +24287,12 @@ ret
 _actorTypeTagType
 (
 )
-virtual
+                       
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
         
@@ -24336,12 +24345,12 @@ MethodDecl
 '
 OnChannelClose
 '
-virtual
+                                            
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -24422,12 +24431,12 @@ MethodDecl
 '
 OnChannelError
 '
-virtual
+                                            
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -24662,12 +24671,11 @@ params
 const
 =
 1
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 ret
 =
 Type
@@ -25596,9 +25604,11 @@ MethodDecl
 deallocselfvar
 .
 name
-virtual
+methodspec
 =
-1
+MethodSpec
+.
+VIRTUAL
 )
 )
             
@@ -25898,12 +25908,11 @@ ptr
 1
 )
                 
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
             
@@ -25954,12 +25963,11 @@ const
 1
 )
                 
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 const
 =
 1
@@ -26330,12 +26338,11 @@ name
 )
 ]
             
-virtual
+methodspec
 =
-1
-override
-=
-1
+MethodSpec
+.
+OVERRIDE
 )
 )
         
@@ -38332,9 +38339,11 @@ md
         
 decl
 .
-static
+methodspec
 =
-1
+MethodSpec
+.
+STATIC
         
 return
 decl
@@ -39541,25 +39550,11 @@ md
 .
 decl
 .
-virtual
+methodspec
 =
-0
-    
-md
+MethodSpec
 .
-decl
-.
-override
-=
-0
-    
-md
-.
-decl
-.
-static
-=
-0
+NONE
     
 md
 .
@@ -39934,10 +39929,14 @@ md
 :
         
 if
-not
 md
 .
-pure
+methodspec
+!
+=
+MethodSpec
+.
+PURE
 :
             
 return
@@ -39951,9 +39950,11 @@ md
         
 decl
 .
-pure
+methodspec
 =
-0
+MethodSpec
+.
+OVERRIDE
         
 impl
 =
@@ -40152,9 +40153,11 @@ DestructorDecl
 self
 .
 name
-virtual
+methodspec
 =
-1
+MethodSpec
+.
+VIRTUAL
 )
 )
 )
