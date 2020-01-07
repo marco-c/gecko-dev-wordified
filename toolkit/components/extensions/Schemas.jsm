@@ -2152,6 +2152,9 @@ this
 params
 .
 cloneScope
+|
+|
+undefined
 ;
 }
 get
