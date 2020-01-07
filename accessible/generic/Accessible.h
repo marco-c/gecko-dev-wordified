@@ -7029,6 +7029,7 @@ aActionIndex
 =
 0
 )
+const
 ;
 /
 *
@@ -7050,6 +7051,7 @@ aContent
 uint32_t
 aActionIndex
 )
+const
 ;
 /
 /

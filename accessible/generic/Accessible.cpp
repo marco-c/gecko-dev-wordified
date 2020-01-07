@@ -12281,6 +12281,7 @@ aContent
 uint32_t
 aActionIndex
 )
+const
 {
 class
 Runnable
@@ -12296,6 +12297,7 @@ public
 :
 Runnable
 (
+const
 Accessible
 *
 aAcc
@@ -12370,6 +12372,7 @@ private
 :
 RefPtr
 <
+const
 Accessible
 >
 mAcc
@@ -12431,6 +12434,7 @@ aContent
 uint32_t
 aActionIndex
 )
+const
 {
 if
 (
