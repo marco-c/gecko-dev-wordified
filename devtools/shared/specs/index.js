@@ -794,6 +794,9 @@ types
 :
 [
 "
+flexbox
+"
+"
 grid
 "
 "
