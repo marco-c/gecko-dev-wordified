@@ -114,6 +114,9 @@ nsWeakReference
 h
 "
 class
+nsIURIMutator
+;
+class
 nsFileProtocolHandler
 :
 public

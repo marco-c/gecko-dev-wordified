@@ -4629,9 +4629,6 @@ host
 "
 port
 "
-"
-query
-"
 ]
 ;
 propertiesToCheck

@@ -5614,9 +5614,6 @@ host
 "
 port
 "
-"
-query
-"
 ]
 ;
 propertiesToCheck
