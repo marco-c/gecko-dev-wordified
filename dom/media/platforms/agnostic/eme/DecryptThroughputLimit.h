@@ -288,9 +288,9 @@ TimeDuration
 :
 FromSeconds
 (
-1
-.
 0
+.
+1
 )
 ;
 const
@@ -302,9 +302,9 @@ TimeDuration
 :
 FromSeconds
 (
-2
-.
 0
+.
+2
 )
 ;
 /
