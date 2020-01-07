@@ -3232,7 +3232,9 @@ BUG_COMPONENT
 .
 product
 '
-Core
+Firefox
+Build
+System
 '
 )
         
@@ -3249,8 +3251,7 @@ BUG_COMPONENT
 .
 component
 '
-Build
-Config
+General
 '
 )
     
@@ -3573,11 +3574,12 @@ BUG_COMPONENT
 BugzillaComponent
 (
 '
-Core
-'
-'
+Firefox
 Build
-Config
+System
+'
+'
+General
 '
 )
 )
@@ -3609,11 +3611,12 @@ BUG_COMPONENT
 BugzillaComponent
 (
 '
-Core
-'
-'
+Firefox
 Build
-Config
+System
+'
+'
+General
 '
 )
 )
