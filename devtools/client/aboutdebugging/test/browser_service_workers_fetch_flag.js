@@ -134,6 +134,11 @@ yield
 addTab
 (
 url
+{
+background
+:
+true
+}
 )
 ;
 let
