@@ -722,6 +722,9 @@ aBody
 nsIInterceptedBodyCallback
 *
 aBodyCallback
+nsICacheInfoChannel
+*
+aChannel
 const
 nsACString
 &

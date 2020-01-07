@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsICacheInfoChannel
+.
+h
+"
+#
+include
+"
 nsIChannelWithDivertableParentListener
 .
 h
@@ -559,6 +566,8 @@ InterceptedHttpChannel
 public
 nsIInterceptedChannel
 public
+nsICacheInfoChannel
+public
 nsIAsyncVerifyRedirectCallback
 public
 nsIStreamListener
@@ -571,6 +580,7 @@ nsIThreadRetargetableStreamListener
 {
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINTERCEPTEDCHANNEL
+NS_DECL_NSICACHEINFOCHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
@@ -621,6 +631,12 @@ nsCOMPtr
 nsIInterceptedBodyCallback
 >
 mBodyCallback
+;
+nsCOMPtr
+<
+nsICacheInfoChannel
+>
+mSynthesizedCacheInfo
 ;
 RefPtr
 <
