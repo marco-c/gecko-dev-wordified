@@ -1012,7 +1012,7 @@ n
 /
 14
 :
-Macedonian
+Unused
 [
 3
 (
@@ -1045,6 +1045,7 @@ n
 15
 :
 Icelandic
+Macedonian
 [
 2
 (

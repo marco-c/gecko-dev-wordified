@@ -4977,7 +4977,7 @@ Maltese
 /
 14
 :
-Macedonian
+Unused
 0
 -
 9
@@ -5325,6 +5325,7 @@ Macedonian
 15
 :
 Icelandic
+Macedonian
 0
 -
 9
