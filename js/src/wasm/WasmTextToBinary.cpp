@@ -13868,6 +13868,14 @@ AstPop
 )
 ;
 }
+if
+(
+!
+index
+)
+return
+nullptr
+;
 return
 new
 (
