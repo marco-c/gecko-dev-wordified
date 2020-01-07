@@ -189,6 +189,11 @@ JSContext
 aCx
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+ArrayBufferInputStream
+)
+;
 if
 (
 !
