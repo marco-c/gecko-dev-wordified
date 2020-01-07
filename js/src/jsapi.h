@@ -40197,7 +40197,7 @@ TranscodeResult_Failure_AsmJSNotSupported
 TranscodeResult_Failure
 |
 0x3
-TranscodeResult_Failure_UnknownClassKind
+TranscodeResult_Failure_BadDecode
 =
 TranscodeResult_Failure
 |
