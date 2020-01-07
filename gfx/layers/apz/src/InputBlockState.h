@@ -484,6 +484,13 @@ HasReceivedRealConfirmedTarget
 )
 const
 ;
+virtual
+bool
+ShouldDropEvents
+(
+)
+const
+;
 void
 SetScrolledApzc
 (
@@ -1255,6 +1262,13 @@ Type
 )
 =
 0
+;
+bool
+ShouldDropEvents
+(
+)
+const
+override
 ;
 private
 :
