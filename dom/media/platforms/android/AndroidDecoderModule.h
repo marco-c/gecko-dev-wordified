@@ -115,6 +115,7 @@ aParams
 )
 override
 ;
+explicit
 AndroidDecoderModule
 (
 CDMProxy

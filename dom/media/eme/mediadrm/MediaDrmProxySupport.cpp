@@ -229,6 +229,7 @@ MediaDrmProxyNativeCallbacks
 :
 AttachNative
 ;
+explicit
 MediaDrmJavaCallbacksSupport
 (
 DecryptorProxyCallback

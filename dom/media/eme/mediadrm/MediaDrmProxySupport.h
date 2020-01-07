@@ -225,6 +225,7 @@ final
 {
 public
 :
+explicit
 MediaDrmProxySupport
 (
 const

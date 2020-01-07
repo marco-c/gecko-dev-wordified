@@ -472,6 +472,7 @@ NativeCallbacks
 :
 AttachNative
 ;
+explicit
 HLSDemuxerCallbacksSupport
 (
 HLSDemuxer

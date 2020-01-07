@@ -464,6 +464,7 @@ JavaCallbacksSupport
 {
 public
 :
+explicit
 CallbacksSupport
 (
 RemoteVideoDecoder
@@ -1629,6 +1630,7 @@ JavaCallbacksSupport
 {
 public
 :
+explicit
 CallbacksSupport
 (
 RemoteAudioDecoder

@@ -323,6 +323,7 @@ JavaCallbacksSupport
 {
 public
 :
+explicit
 CallbacksSupport
 (
 webrtc
@@ -3580,6 +3581,7 @@ MediaCodecOutputDrain
 {
 public
 :
+explicit
 OutputDrain
 (
 WebrtcAndroidMediaCodec

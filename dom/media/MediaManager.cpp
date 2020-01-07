@@ -10669,6 +10669,7 @@ take
 ownership
 of
 task
+explicit
 GetUserMediaRunnableWrapper
 (
 GetUserMediaTask
