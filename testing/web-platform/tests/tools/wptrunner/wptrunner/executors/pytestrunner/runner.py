@@ -432,6 +432,20 @@ preservation
 across
 invocations
                          
+"
+-
+o
+=
+console_output_style
+=
+classic
+"
+#
+disable
+test
+progress
+bar
+                         
 path
 ]
                         
