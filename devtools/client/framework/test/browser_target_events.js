@@ -68,6 +68,13 @@ gBrowser
 selectedTab
 )
 ;
+await
+target
+.
+makeRemote
+(
+)
+;
 is
 (
 target
