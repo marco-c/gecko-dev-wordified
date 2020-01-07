@@ -335,6 +335,15 @@ mozilla
 ServoStyleSheet
 *
 gecko_stylesheet
+mozilla
+:
+:
+css
+:
+:
+SheetLoadData
+*
+load_data
 const
 uint8_t
 *
