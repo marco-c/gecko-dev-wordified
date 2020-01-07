@@ -755,7 +755,10 @@ monitor
 .
 Wait
 (
-PR_SecondsToInterval
+TimeDuration
+:
+:
+FromSeconds
 (
 60
 )
