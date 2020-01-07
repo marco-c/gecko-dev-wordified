@@ -661,12 +661,14 @@ attributes
 =
 {
 {
+&
 nsGkAtoms
 :
 :
 width
 }
 {
+&
 nsGkAtoms
 :
 :

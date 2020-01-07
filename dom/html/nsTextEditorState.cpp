@@ -1202,10 +1202,12 @@ strings
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 HARD
+&
 nsGkAtoms
 :
 :

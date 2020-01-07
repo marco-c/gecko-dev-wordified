@@ -438,10 +438,12 @@ strings
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 never
+&
 nsGkAtoms
 :
 :

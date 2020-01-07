@@ -380,6 +380,7 @@ attributes
 =
 {
 {
+&
 nsGkAtoms
 :
 :

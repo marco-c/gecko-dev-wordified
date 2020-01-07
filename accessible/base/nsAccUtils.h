@@ -569,7 +569,7 @@ type
 *
 /
 static
-nsStaticAtom
+nsAtom
 *
 GetARIAToken
 (

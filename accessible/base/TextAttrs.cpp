@@ -2224,14 +2224,17 @@ tokens
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 _false
+&
 nsGkAtoms
 :
 :
 grammar
+&
 nsGkAtoms
 :
 :

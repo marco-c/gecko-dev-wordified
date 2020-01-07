@@ -1240,6 +1240,7 @@ aARIARole
 const
 {
 return
+*
 roleAtom
 =
 =
@@ -1303,6 +1304,7 @@ const
 return
 nsDependentAtomString
 (
+*
 roleAtom
 )
 ;
@@ -1321,7 +1323,7 @@ button
 "
 nsStaticAtom
 *
-const
+*
 roleAtom
 ;
 /

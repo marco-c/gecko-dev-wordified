@@ -382,7 +382,7 @@ LandmarkRole
 )
 const
 ;
-nsStaticAtom
+nsAtom
 *
 ARIARoleAtom
 (
