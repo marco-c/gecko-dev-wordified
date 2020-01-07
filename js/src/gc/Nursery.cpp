@@ -1921,7 +1921,9 @@ initSlots
 slots
 )
 ;
-TraceNurseryAlloc
+gcTracer
+.
+traceNurseryAlloc
 (
 obj
 size
@@ -2041,7 +2043,9 @@ header
 cell
 )
 ;
-TraceNurseryAlloc
+gcTracer
+.
+traceNurseryAlloc
 (
 cell
 kind
@@ -4402,7 +4406,9 @@ beginNurseryCollection
 reason
 )
 ;
-TraceMinorGCStart
+gcTracer
+.
+traceMinorGCStart
 (
 )
 ;
@@ -5155,7 +5161,9 @@ endNurseryCollection
 reason
 )
 ;
-TraceMinorGCEnd
+gcTracer
+.
+traceMinorGCEnd
 (
 )
 ;

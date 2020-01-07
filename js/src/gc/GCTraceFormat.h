@@ -317,7 +317,7 @@ TraceEventThingSize
 TraceEventNurseryAlloc
 TraceEventTenuredAlloc
 TraceEventClassInfo
-TraceEventTypeInfo
+TraceEventGroupInfo
 TraceEventTypeNewScript
 TraceEventCreateObject
 TraceEventMinorGCStart
@@ -382,15 +382,15 @@ TraceEventBits
 ;
 const
 unsigned
-AllocKinds
+NumAllocKinds
 =
-22
+29
 ;
 const
 unsigned
 LastObjectAllocKind
 =
-11
+13
 ;
 #
 endif

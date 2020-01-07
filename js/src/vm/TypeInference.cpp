@@ -24550,7 +24550,9 @@ forget
 gc
 :
 :
-TraceTypeNewScript
+gcTracer
+.
+traceTypeNewScript
 (
 group
 )

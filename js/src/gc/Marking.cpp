@@ -22077,7 +22077,9 @@ insertIntoObjectFixupList
 overlay
 )
 ;
-TracePromoteToTenured
+gcTracer
+.
+tracePromoteToTenured
 (
 src
 dst
@@ -22280,7 +22282,9 @@ insertIntoObjectFixupList
 overlay
 )
 ;
-TracePromoteToTenured
+gcTracer
+.
+tracePromoteToTenured
 (
 src
 dst
@@ -23072,7 +23076,9 @@ insertIntoStringFixupList
 overlay
 )
 ;
-TracePromoteToTenured
+gcTracer
+.
+tracePromoteToTenured
 (
 src
 dst

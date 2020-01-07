@@ -2201,7 +2201,9 @@ cx
 t
 )
 ;
-TraceTenuredAlloc
+gcTracer
+.
+traceTenuredAlloc
 (
 t
 kind

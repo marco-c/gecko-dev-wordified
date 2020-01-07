@@ -3583,7 +3583,9 @@ js
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 nobj
 )
