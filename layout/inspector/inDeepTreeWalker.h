@@ -152,9 +152,6 @@ class
 nsINodeList
 ;
 class
-inIDOMUtils
-;
-class
 inDeepTreeWalker
 final
 :
@@ -244,12 +241,6 @@ nsCOMPtr
 nsIDOMNode
 >
 mCurrentNode
-;
-nsCOMPtr
-<
-inIDOMUtils
->
-mDOMUtils
 ;
 /
 /

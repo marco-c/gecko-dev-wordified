@@ -226,13 +226,6 @@ h
 #
 include
 "
-inIDOMUtils
-.
-h
-"
-#
-include
-"
 nsIPermissionManager
 .
 h
