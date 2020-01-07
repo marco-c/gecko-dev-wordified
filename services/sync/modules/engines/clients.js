@@ -1635,6 +1635,7 @@ return
 "
 tablet
 "
+;
 }
 return
 "
