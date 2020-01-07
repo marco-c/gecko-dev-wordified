@@ -1771,7 +1771,10 @@ GetIsOpaque
 override
 {
 return
-false
+!
+mOptions
+.
+alpha
 ;
 }
 NS_IMETHOD
