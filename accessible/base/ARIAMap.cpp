@@ -1797,7 +1797,7 @@ list
 nsGkAtoms
 :
 :
-list
+list_
 roles
 :
 :
@@ -2508,7 +2508,7 @@ switch
 nsGkAtoms
 :
 :
-_switch
+svgSwitch
 roles
 :
 :

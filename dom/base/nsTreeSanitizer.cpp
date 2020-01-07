@@ -1180,7 +1180,7 @@ lang
 nsGkAtoms
 :
 :
-list
+list_
 &
 nsGkAtoms
 :
@@ -4390,7 +4390,7 @@ domainofapplication
 nsGkAtoms
 :
 :
-el_
+el
 /
 /
 el
@@ -6240,7 +6240,7 @@ order
 nsGkAtoms
 :
 :
-other_
+other
 /
 /
 other

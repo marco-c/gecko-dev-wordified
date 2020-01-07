@@ -10117,7 +10117,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-list
+list_
 dataListId
 )
 ;

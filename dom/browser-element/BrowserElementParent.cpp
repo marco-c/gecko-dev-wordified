@@ -451,7 +451,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-Remote
+remote
 aRemote
 ?
 NS_LITERAL_STRING

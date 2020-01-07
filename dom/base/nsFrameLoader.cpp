@@ -12443,7 +12443,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-Remote
+remote
 )
 )
 {
@@ -12524,7 +12524,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-Remote
+remote
 nsGkAtoms
 :
 :
