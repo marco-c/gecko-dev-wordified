@@ -679,6 +679,9 @@ window
 .
 RefPtr
 <
+dom
+:
+:
 EventTarget
 >
 topWindowEventTarget

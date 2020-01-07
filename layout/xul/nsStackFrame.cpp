@@ -208,6 +208,10 @@ nsDisplayList
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewStackFrame
