@@ -136,7 +136,7 @@ plugins
 /
 pluginGeneric
 .
-png
+svg
 "
 disable
 :
@@ -757,7 +757,7 @@ plugins
 /
 pluginGeneric
 .
-png
+svg
 "
 disable
 :
@@ -817,7 +817,7 @@ plugins
 /
 pluginGeneric
 .
-png
+svg
 "
 disable
 :
