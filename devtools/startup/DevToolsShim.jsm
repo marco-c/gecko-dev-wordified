@@ -994,6 +994,9 @@ this
 .
 initDevTools
 (
+"
+SessionRestore
+"
 )
 ;
 this
