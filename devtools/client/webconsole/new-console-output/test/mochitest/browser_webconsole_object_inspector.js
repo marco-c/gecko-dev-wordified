@@ -423,7 +423,9 @@ length
 /
 /
 |
-__proto__
+<
+prototype
+>
 is
 (
 arrayOiNodes
@@ -600,7 +602,9 @@ b
 /
 |
 |
-__proto__
+<
+prototype
+>
 /
 /
 |
@@ -610,7 +614,9 @@ length
 /
 /
 |
-__proto__
+<
+prototype
+>
 is
 (
 arrayOiNodes
@@ -1000,7 +1006,9 @@ length
 /
 /
 |
-__proto__
+<
+prototype
+>
 is
 (
 objectOiNodes

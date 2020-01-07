@@ -338,7 +338,9 @@ world
 /
 /
 |
-__proto__
+<
+prototype
+>
 :
 Object
 {
@@ -503,7 +505,9 @@ Object
 /
 /
 |
-__proto__
+<
+prototype
+>
 :
 function
 (

@@ -521,7 +521,9 @@ testValue2
 /
 /
 |
-__proto__
+<
+prototype
+>
 :
 Object
 {
@@ -610,7 +612,9 @@ textContent
 .
 includes
 (
-__proto__
+<
+prototype
+>
 :
 Object
 {
@@ -694,8 +698,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
