@@ -193,6 +193,7 @@ MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
 MESSAGE_TABLE_RECEIVE
+PRIVATE_MESSAGES_CLEAR
 }
 =
 require
@@ -355,6 +356,19 @@ return
 type
 :
 MESSAGES_CLEAR
+}
+;
+}
+function
+privateMessagesClear
+(
+)
+{
+return
+{
+type
+:
+PRIVATE_MESSAGES_CLEAR
 }
 ;
 }
@@ -610,6 +624,7 @@ messageClose
 messageTableDataGet
 networkMessageUpdate
 networkUpdateRequest
+privateMessagesClear
 /
 /
 for
