@@ -8387,6 +8387,15 @@ true
 }
 if
 (
+!
+frame
+-
+>
+IsVisibleOrMayHaveVisibleDescendants
+(
+)
+|
+|
 frame
 -
 >
