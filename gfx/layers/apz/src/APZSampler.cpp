@@ -353,11 +353,6 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
-(
-aOldSampler
-)
-;
 mApz
 -
 >
@@ -365,9 +360,13 @@ NotifyLayerTreeAdopted
 (
 aLayersId
 aOldSampler
+?
+aOldSampler
 -
 >
 mApz
+:
+nullptr
 )
 ;
 }
