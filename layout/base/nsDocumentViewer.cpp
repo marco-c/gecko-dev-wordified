@@ -13541,18 +13541,6 @@ StyleBackendType
 Gecko
 )
 {
-#
-ifdef
-MOZ_OLD_STYLE
-styleSet
-=
-new
-nsStyleSet
-(
-)
-;
-#
-else
 MOZ_CRASH
 (
 "
@@ -13563,8 +13551,6 @@ disabled
 "
 )
 ;
-#
-endif
 }
 else
 {
