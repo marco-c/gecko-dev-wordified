@@ -6308,6 +6308,13 @@ ready
 )
 ;
 }
+await
+Weave
+.
+Service
+.
+promiseInitialized
+;
 /
 /
 We
