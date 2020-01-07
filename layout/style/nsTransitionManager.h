@@ -2215,9 +2215,7 @@ EventMessage
 aMessage
 nsCSSPropertyID
 aProperty
-const
-StickyTimeDuration
-&
+double
 aElapsedTime
 const
 TimeStamp
@@ -2282,10 +2280,6 @@ mEvent
 mElapsedTime
 =
 aElapsedTime
-.
-ToSeconds
-(
-)
 ;
 mEvent
 .
