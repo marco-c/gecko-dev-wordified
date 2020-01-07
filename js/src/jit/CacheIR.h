@@ -10287,6 +10287,15 @@ ValOperandId
 rhsId
 )
 ;
+bool
+tryAttachStrictDifferentTypes
+(
+ValOperandId
+lhsId
+ValOperandId
+rhsId
+)
+;
 void
 trackAttached
 (
