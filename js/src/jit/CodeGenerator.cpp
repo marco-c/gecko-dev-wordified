@@ -57073,6 +57073,19 @@ output
 )
 )
 ;
+Register
+temp
+=
+ToRegister
+(
+lir
+-
+>
+temp
+(
+)
+)
+;
 OutOfLineCode
 *
 ool
@@ -57099,6 +57112,7 @@ loadStringChar
 str
 index
 output
+temp
 ool
 -
 >

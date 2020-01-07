@@ -15759,6 +15759,8 @@ Register
 index
 Register
 output
+Register
+scratch
 Label
 *
 fail
