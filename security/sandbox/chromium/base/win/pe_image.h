@@ -162,7 +162,7 @@ endif
 #
 include
 <
-DelayIMP
+delayimp
 .
 h
 >
