@@ -5696,12 +5696,12 @@ nsWindow
 GetCSDSupportLevel
 (
 )
-!
+=
 =
 nsWindow
 :
 :
-CSD_SUPPORT_NONE
+CSD_SUPPORT_FULL
 )
 ;
 /
