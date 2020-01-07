@@ -668,6 +668,7 @@ a
 /
 /
 Constructor
+.
 pub
 fn
 new
@@ -736,6 +737,10 @@ PropertyDeclaration
 Importance
 )
 ;
+#
+[
+inline
+]
 fn
 next
 (
@@ -789,6 +794,10 @@ Normal
 )
 )
 }
+#
+[
+inline
+]
 fn
 size_hint
 (
@@ -827,6 +836,13 @@ DeclarationImportanceIterator
 a
 >
 {
+#
+[
+inline
+(
+always
+)
+]
 fn
 next_back
 (
@@ -923,6 +939,11 @@ a
 /
 /
 Constructor
+.
+#
+[
+inline
+]
 pub
 fn
 new
