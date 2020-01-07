@@ -473,9 +473,11 @@ box
 *
 /
 .
-prefWindow
+dialog
 -
-dlgbuttons
+button
+-
+box
 {
 margin
 -

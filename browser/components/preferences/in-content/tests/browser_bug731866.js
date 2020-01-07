@@ -141,8 +141,6 @@ gElements
 /
 /
 keyset
-and
-preferences
 elements
 fail
 is_element_visible
@@ -179,16 +177,6 @@ nodeName
 =
 "
 keyset
-"
-|
-|
-element
-.
-nodeName
-=
-=
-"
-preferences
 "
 |
 |
