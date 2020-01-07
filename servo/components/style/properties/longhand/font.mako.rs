@@ -1326,9 +1326,6 @@ extra_prefixes
 "
 moz
 "
-boxed
-=
-True
 animation_value_type
 =
 "
@@ -1444,7 +1441,7 @@ variation
 settings
 "
 "
-FontVariantSettings
+FontVariationSettings
 "
 products
 =
@@ -1467,10 +1464,10 @@ enabled
 initial_value
 =
 "
-specified
+computed
 :
 :
-FontVariantSettings
+FontVariationSettings
 :
 :
 normal
