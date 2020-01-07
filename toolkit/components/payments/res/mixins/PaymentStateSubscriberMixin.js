@@ -198,6 +198,9 @@ shipping
 "
 }
 }
+selectedShippingOption
+:
+null
 selectedPaymentCard
 :
 null
