@@ -10777,14 +10777,9 @@ tabbrowser
 =
 browser
 .
-document
+ownerGlobal
 .
-getElementById
-(
-"
-content
-"
-)
+gBrowser
 ;
 if
 (

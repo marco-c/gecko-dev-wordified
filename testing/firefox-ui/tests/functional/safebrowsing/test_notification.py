@@ -1072,9 +1072,9 @@ find_element
 (
 By
 .
-ID
+TAG_NAME
 '
-content
+tabbrowser
 '
 )
                       
@@ -1248,9 +1248,9 @@ find_element
 (
 By
 .
-ID
+TAG_NAME
 '
-content
+tabbrowser
 '
 )
                       
@@ -1373,9 +1373,9 @@ find_element
 (
 By
 .
-ID
+TAG_NAME
 '
-content
+tabbrowser
 '
 )
                       
