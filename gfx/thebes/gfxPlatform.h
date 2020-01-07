@@ -1806,6 +1806,7 @@ BackendType
 GetDefaultContentBackend
 (
 )
+const
 {
 return
 mContentBackend
