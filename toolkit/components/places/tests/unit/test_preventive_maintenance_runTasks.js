@@ -112,7 +112,7 @@ runTasks
 [
 PlacesDBUtils
 .
-reindex
+invalidateCaches
 ]
 )
 ;
