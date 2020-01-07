@@ -5960,6 +5960,9 @@ cache
 "
 downloads
 "
+"
+offlineApps
+"
 ]
 ;
 let
