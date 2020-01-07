@@ -142,6 +142,9 @@ class
 PDMFactory
 ;
 class
+SharedThreadPool
+;
+class
 TaskQueue
 ;
 class
@@ -324,6 +327,13 @@ OnTaskQueue
 (
 )
 const
+;
+const
+RefPtr
+<
+SharedThreadPool
+>
+mThreadPool
 ;
 const
 RefPtr

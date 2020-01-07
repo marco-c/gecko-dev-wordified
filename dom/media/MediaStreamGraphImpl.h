@@ -5107,6 +5107,12 @@ AbstractThread
 >
 mAbstractMainThread
 ;
+RefPtr
+<
+SharedThreadPool
+>
+mThreadPool
+;
 #
 ifdef
 MOZ_WEBRTC
