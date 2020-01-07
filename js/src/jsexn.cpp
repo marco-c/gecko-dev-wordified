@@ -3471,12 +3471,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-cx
--
->
-global
-(
-)
 &
 ErrorObject
 :

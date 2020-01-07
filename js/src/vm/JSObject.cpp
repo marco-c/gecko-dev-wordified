@@ -13095,8 +13095,6 @@ NativeObject
 *
 *
 ctorp
-AllocKind
-ctorKind
 )
 {
 /
@@ -13537,7 +13535,6 @@ cx
 constructor
 nargs
 atom
-ctorKind
 )
 )
 ;
@@ -13931,8 +13928,6 @@ NativeObject
 *
 *
 ctorp
-AllocKind
-ctorKind
 )
 {
 RootedObject
@@ -14103,7 +14098,6 @@ fs
 static_ps
 static_fs
 ctorp
-ctorKind
 )
 ;
 }

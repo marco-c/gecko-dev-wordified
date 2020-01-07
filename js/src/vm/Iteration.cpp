@@ -8941,7 +8941,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-global
 cls
 iteratorProto
 )
@@ -9079,7 +9078,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-global
 cls
 iteratorProto
 )

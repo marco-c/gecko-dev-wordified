@@ -3415,7 +3415,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-global
 &
 PlainObject
 :
@@ -3489,7 +3488,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-global
 &
 PlainObject
 :
