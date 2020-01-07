@@ -15969,7 +15969,7 @@ reduceTimerPrecision
 .
 microseconds
 "
-20
+2000
 )
 ;
 /
