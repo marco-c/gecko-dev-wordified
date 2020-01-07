@@ -167,6 +167,15 @@ h
 #
 include
 "
+mozilla
+/
+RelativeTimeline
+.
+h
+"
+#
+include
+"
 PrincipalChangeObserver
 .
 h
@@ -1488,6 +1497,8 @@ dom
 :
 MediaStreamTrack
 >
+public
+RelativeTimeline
 {
 friend
 class

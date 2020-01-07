@@ -179,6 +179,15 @@ include
 "
 mozilla
 /
+RelativeTimeline
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -638,6 +647,8 @@ public
 DOMEventTargetHelper
 public
 nsIMemoryReporter
+public
+RelativeTimeline
 {
 AudioContext
 (
@@ -859,7 +870,6 @@ double
 CurrentTime
 (
 )
-const
 ;
 AudioListener
 *
