@@ -1546,10 +1546,9 @@ IsSet
 )
 {
 return
-mGivenSplitPoint
-.
-AsRaw
+EditorRawDOMPoint
 (
+mGivenSplitPoint
 )
 ;
 }
