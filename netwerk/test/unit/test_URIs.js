@@ -4568,9 +4568,6 @@ username
 password
 "
 "
-hostPort
-"
-"
 host
 "
 "

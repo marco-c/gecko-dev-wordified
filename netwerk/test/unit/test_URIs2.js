@@ -5553,9 +5553,6 @@ username
 password
 "
 "
-hostPort
-"
-"
 host
 "
 "
