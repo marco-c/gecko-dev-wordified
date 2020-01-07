@@ -2705,12 +2705,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mWindow
 .
-AsInner
-(
-)
--
->
-InnerObjectsFreed
+IsDying
 (
 )
 )
@@ -8295,12 +8290,7 @@ gTimeoutThrottlingDelay
 |
 mWindow
 .
-AsInner
-(
-)
--
->
-InnerObjectsFreed
+IsDying
 (
 )
 |
