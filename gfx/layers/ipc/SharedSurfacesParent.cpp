@@ -463,6 +463,8 @@ ExternalImageId
 aId
 )
 {
+/
+/
 MOZ_ASSERT
 (
 CompositorThreadHolder
@@ -1268,6 +1270,8 @@ ExternalImageId
 aId
 )
 {
+/
+/
 MOZ_ASSERT
 (
 CompositorThreadHolder
