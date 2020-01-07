@@ -853,6 +853,10 @@ T
 v
 )
 {
+if
+(
+v
+)
 Type
 :
 :
@@ -875,6 +879,11 @@ T
 next
 )
 {
+if
+(
+*
+vp
+)
 Type
 :
 :
@@ -894,6 +903,10 @@ T
 v
 )
 {
+if
+(
+v
+)
 Type
 :
 :
@@ -919,6 +932,11 @@ char
 name
 )
 {
+if
+(
+*
+vp
+)
 TraceManuallyBarrieredEdge
 (
 trc
