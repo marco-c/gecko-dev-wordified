@@ -372,6 +372,13 @@ CleanupResources
 override
 ;
 virtual
+bool
+IsOpaque
+(
+)
+override
+;
+virtual
 void
 GenEffectChain
 (
