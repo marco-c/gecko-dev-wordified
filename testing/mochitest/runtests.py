@@ -5916,16 +5916,16 @@ the
 PulseAudio
 module
 -
-sine
+null
 -
-source
+sink
 module
 is
 loaded
 .
     
 def
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -5967,9 +5967,9 @@ x
 '
 module
 -
-sine
+null
 -
-source
+sink
 '
 in
 x
@@ -5982,7 +5982,7 @@ splitlines
     
 if
 not
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -5991,9 +5991,9 @@ sine_source_loaded
 Load
 module
 -
-sine
+null
 -
-source
+sink
         
 subprocess
 .
@@ -6017,16 +6017,16 @@ module
 '
 module
 -
-sine
+null
 -
-source
+sink
 '
 ]
 )
     
 if
 not
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -6043,14 +6043,53 @@ t
 load
 module
 -
-sine
+null
 -
-source
+sink
 '
 )
         
 return
 None
+    
+#
+Whether
+it
+was
+loaded
+or
+not
+make
+it
+the
+default
+output
+    
+subprocess
+.
+check_call
+(
+[
+'
+/
+usr
+/
+bin
+/
+pacmd
+'
+'
+set
+-
+default
+-
+sink
+'
+'
+null
+'
+]
+)
     
 #
 Hardcode
@@ -6073,11 +6112,10 @@ audio
 ]
 =
 '
-Sine
-source
-at
-440
-Hz
+Monitor
+of
+Null
+Output
 '
     
 return
