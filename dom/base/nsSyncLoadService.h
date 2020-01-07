@@ -173,7 +173,7 @@ class
 nsIPrincipal
 ;
 class
-nsIDOMDocument
+nsIDocument
 ;
 class
 nsIChannel
@@ -319,7 +319,7 @@ net
 :
 ReferrerPolicy
 aReferrerPolicy
-nsIDOMDocument
+nsIDocument
 *
 *
 aResult

@@ -281,7 +281,7 @@ to
 the
 document
 .
-nsIDOMDocument
+nsIDocument
 *
 theDocument
 =
@@ -374,6 +374,17 @@ rv
 NS_ERROR_FAILURE
 ;
 }
+nsCOMPtr
+<
+nsIDOMDocument
+>
+domDocument
+=
+do_QueryInterface
+(
+theDocument
+)
+;
 *
 aResult
 =
@@ -382,7 +393,7 @@ txXPathNativeNode
 :
 createXPathNode
 (
-theDocument
+domDocument
 )
 ;
 if
