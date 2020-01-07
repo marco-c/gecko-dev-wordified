@@ -1728,11 +1728,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayXULTextBox
+>
 (
 aBuilder
 this

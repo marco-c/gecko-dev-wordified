@@ -3199,11 +3199,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayCanvas
+>
 (
 aBuilder
 this

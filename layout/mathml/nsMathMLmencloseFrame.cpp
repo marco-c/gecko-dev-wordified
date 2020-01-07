@@ -5425,11 +5425,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayNotation
+>
 (
 aBuilder
 aFrame

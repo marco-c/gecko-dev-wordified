@@ -1952,11 +1952,10 @@ Outlines
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayEventReceiver
+>
 (
 aBuilder
 this
