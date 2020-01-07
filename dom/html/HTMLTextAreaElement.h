@@ -232,9 +232,6 @@ nsIDocument
 class
 nsPresContext
 ;
-class
-nsPresState
-;
 namespace
 mozilla
 {
@@ -246,6 +243,9 @@ EventChainPreVisitor
 ;
 class
 EventStates
+;
+class
+PresState
 ;
 namespace
 dom
@@ -402,7 +402,7 @@ virtual
 bool
 RestoreState
 (
-nsPresState
+PresState
 *
 aState
 )

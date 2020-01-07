@@ -260,7 +260,7 @@ override
 bool
 RestoreState
 (
-nsPresState
+PresState
 *
 aState
 )
