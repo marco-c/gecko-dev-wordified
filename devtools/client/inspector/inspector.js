@@ -5548,7 +5548,7 @@ getStr
 "
 inspector
 .
-hideSplitRulesView
+hideThreePaneMode
 "
 )
 expandPaneTitle
@@ -5560,7 +5560,7 @@ getStr
 "
 inspector
 .
-showSplitRulesView
+showThreePaneMode
 "
 )
 onClick
