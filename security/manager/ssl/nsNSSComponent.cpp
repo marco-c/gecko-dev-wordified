@@ -10660,6 +10660,12 @@ DistrustedCAPolicy
 :
 DistrustSymantecRoots
 :
+case
+DistrustedCAPolicy
+:
+:
+DistrustSymantecRootsRegardlessOfDate
+:
 break
 ;
 default
