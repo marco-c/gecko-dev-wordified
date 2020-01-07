@@ -680,18 +680,6 @@ settle
             
 self
 .
-settle
-(
-)
-            
-self
-.
-settle
-(
-)
-            
-self
-.
 assertTrue
 (
 self
