@@ -54,6 +54,17 @@ os
 Parcel
 ;
 import
+android
+.
+test
+.
+suitebuilder
+.
+annotation
+.
+SmallTest
+;
+import
 org
 .
 json
@@ -110,6 +121,7 @@ RobolectricTestRunner
 .
 class
 )
+SmallTest
 public
 class
 GeckoBundleTest
