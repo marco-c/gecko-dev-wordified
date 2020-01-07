@@ -378,17 +378,6 @@ to_owned
 )
 )
 }
-#
-[
-cfg
-(
-target_os
-=
-"
-macos
-"
-)
-]
 pub
 static
 SANS_SERIF_FONT_FAMILY
