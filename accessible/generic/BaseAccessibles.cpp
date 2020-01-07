@@ -906,6 +906,7 @@ nsString
 &
 aValue
 )
+const
 {
 aValue
 .
@@ -937,6 +938,7 @@ return
 bool
 isLink
 ;
+const
 Accessible
 *
 actionAcc
@@ -1001,6 +1003,7 @@ isLabelWithControl
 0
 ;
 }
+const
 Accessible
 *
 LinkableAccessible
@@ -1018,6 +1021,7 @@ bool
 *
 aIsLabelWithControl
 )
+const
 {
 if
 (
@@ -1114,6 +1118,7 @@ tree
 is
 traversed
 .
+const
 Accessible
 *
 walkUpAcc

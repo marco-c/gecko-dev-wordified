@@ -604,6 +604,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual
@@ -891,6 +892,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual
@@ -993,6 +995,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual

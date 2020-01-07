@@ -312,6 +312,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual

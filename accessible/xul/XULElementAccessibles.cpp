@@ -1623,6 +1623,7 @@ nsString
 &
 aValue
 )
+const
 {
 aValue
 .

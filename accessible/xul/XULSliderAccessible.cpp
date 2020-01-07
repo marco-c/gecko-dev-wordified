@@ -477,6 +477,7 @@ nsString
 &
 aValue
 )
+const
 {
 GetSliderAttr
 (

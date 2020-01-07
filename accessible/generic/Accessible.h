@@ -1029,6 +1029,7 @@ nsString
 &
 aValue
 )
+const
 ;
 /
 *

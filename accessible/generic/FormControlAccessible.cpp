@@ -733,6 +733,7 @@ nsString
 &
 aValue
 )
+const
 {
 LeafAccessible
 :

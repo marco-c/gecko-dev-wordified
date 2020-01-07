@@ -3216,6 +3216,7 @@ nsString
 &
 aValue
 )
+const
 {
 /
 /

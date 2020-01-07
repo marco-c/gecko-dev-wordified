@@ -9293,6 +9293,7 @@ nsString
 &
 aValue
 )
+const
 {
 const
 nsRoleMapEntry

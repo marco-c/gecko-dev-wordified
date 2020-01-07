@@ -365,6 +365,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual
@@ -425,6 +426,7 @@ override
 /
 ActionAccessible
 helpers
+const
 Accessible
 *
 ActionWalk
@@ -445,6 +447,7 @@ aIsLabelWithControl
 =
 nullptr
 )
+const
 ;
 /
 /
