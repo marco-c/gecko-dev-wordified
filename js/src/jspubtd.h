@@ -498,9 +498,6 @@ StoreBuffer
 /
 namespace
 gc
-class
-CooperatingContext
-;
 inline
 JSCompartment
 *

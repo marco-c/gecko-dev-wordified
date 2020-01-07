@@ -1312,9 +1312,6 @@ alloc
 )
 LCheckOverRecursed
 (
-temp
-(
-)
 )
 ;
 add
@@ -18746,9 +18743,6 @@ alloc
 )
 LInterruptCheck
 (
-temp
-(
-)
 )
 ;
 add
