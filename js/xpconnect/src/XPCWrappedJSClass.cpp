@@ -6883,14 +6883,14 @@ Get
 line
 number
 .
+lineNumber
+=
 location
 -
 >
 GetLineNumber
 (
 cx
-&
-lineNumber
 )
 ;
 /
