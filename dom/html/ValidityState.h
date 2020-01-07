@@ -123,13 +123,6 @@ mozilla_dom_ValidityState_h
 #
 include
 "
-nsIDOMValidityState
-.
-h
-"
-#
-include
-"
 nsIConstraintValidation
 .
 h
@@ -161,7 +154,7 @@ ValidityState
 final
 :
 public
-nsIDOMValidityState
+nsISupports
 public
 nsWrapperCache
 {
@@ -178,7 +171,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 ValidityState
 )
-NS_DECL_NSIDOMVALIDITYSTATE
 friend
 class
 :

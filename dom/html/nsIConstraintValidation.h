@@ -134,9 +134,6 @@ nsString
 .
 h
 "
-class
-nsIDOMValidityState
-;
 namespace
 mozilla
 {
@@ -447,15 +444,6 @@ class
 .
 nsIConstraintValidation
 (
-)
-;
-nsresult
-GetValidity
-(
-nsIDOMValidityState
-*
-*
-aValidity
 )
 ;
 nsresult
