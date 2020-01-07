@@ -521,15 +521,6 @@ obj
 ;
 protected
 :
-friend
-nsIClassInfo
-*
-NS_GetDOMClassInfoInstance
-(
-nsDOMClassInfoID
-aID
-)
-;
 const
 nsDOMClassInfoData
 *
