@@ -4114,8 +4114,8 @@ RawGeckoElementBorrowed
 aElement
 )
 ;
-RawServoStyleSetBorrowedOrNull
-Gecko_XBLBinding_GetRawServoStyleSet
+RawServoAuthorStylesBorrowedOrNull
+Gecko_XBLBinding_GetRawServoStyles
 (
 RawGeckoXBLBindingBorrowed
 aXBLBinding

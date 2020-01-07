@@ -688,7 +688,7 @@ override
 /
 Internal
 GetCssRules
-method
+methods
 which
 do
 not
@@ -698,7 +698,7 @@ check
 and
 /
 /
-completelness
+completeness
 check
 .
 ServoCSSRuleList
