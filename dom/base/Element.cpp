@@ -17706,9 +17706,13 @@ aName
 /
 /
 Clear
-binding
-to
-nsIDOMMozNamedAttrMap
+the
+attribute
+out
+from
+attribute
+map
+.
 nsDOMSlots
 *
 slots

@@ -848,17 +848,6 @@ nsIDOMHTMLElement
 #
 include
 "
-nsIDOMMozNamedAttrMap
-.
-h
-"
-/
-/
-for
-nsIDOMMozNamedAttrMap
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

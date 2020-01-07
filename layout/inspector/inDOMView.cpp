@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsIDOMMozNamedAttrMap
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h
