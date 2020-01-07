@@ -269,26 +269,6 @@ chunk_locales
 :
                     
 continue
-                
-#
-Skip
-old
--
-id
-                
-if
-'
-old
--
-id
-'
-in
-dep_task
-.
-label
-:
-                    
-continue
             
 #
 We
