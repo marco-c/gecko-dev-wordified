@@ -164,13 +164,6 @@ h
 #
 include
 "
-rdf
-.
-h
-"
-#
-include
-"
 nsTypeAheadFind
 .
 h
