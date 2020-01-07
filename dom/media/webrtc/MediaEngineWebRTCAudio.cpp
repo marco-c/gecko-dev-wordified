@@ -2881,16 +2881,6 @@ mChannels
 ;
 if
 (
-mLastPrefs
-.
-mChannels
-!
-=
-prefs
-.
-mChannels
-&
-&
 !
 stream
 -
