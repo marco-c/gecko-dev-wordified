@@ -409,6 +409,7 @@ font
 {
 FontFamily
 FontLanguageOverride
+FontStyle
 FontVariantEastAsian
 FontVariationSettings
 }
