@@ -17703,6 +17703,8 @@ ChromeHangs
 render
 (
 payload
+.
+chromeHangs
 )
 ;
 /
