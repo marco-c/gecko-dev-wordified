@@ -118,6 +118,13 @@ if
 !
 defined
 (
+__MINGW32__
+)
+&
+&
+!
+defined
+(
 __clang__
 )
 &
