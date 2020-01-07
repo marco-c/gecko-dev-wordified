@@ -263,7 +263,7 @@ js
 assertDebugLine
 (
 dbg
-42309
+42264
 )
 ;
 assertPausedLocation

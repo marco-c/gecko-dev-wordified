@@ -246,6 +246,12 @@ right
 place
 .
 await
+stepOver
+(
+dbg
+)
+;
+await
 stepIn
 (
 dbg
