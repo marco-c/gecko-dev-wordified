@@ -266,6 +266,9 @@ dom
 class
 DOMStringList
 ;
+class
+Event
+;
 }
 /
 /
@@ -824,7 +827,13 @@ mCachedKeysCount
 ;
 nsCOMArray
 <
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 >
 mPendingEvents
 ;

@@ -6903,14 +6903,10 @@ SetTrusted
 true
 )
 ;
-bool
-defaultPrevented
-;
 DispatchEvent
 (
+*
 event
-&
-defaultPrevented
 )
 ;
 }
