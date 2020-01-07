@@ -11187,6 +11187,12 @@ group
 return
 InliningStatus_NotInlined
 ;
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 if
 (
 group
@@ -11194,6 +11200,7 @@ group
 >
 maybePreliminaryObjects
 (
+sweep
 )
 )
 return

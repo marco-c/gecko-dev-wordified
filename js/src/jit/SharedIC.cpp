@@ -15574,6 +15574,12 @@ unknownObject
 =
 false
 ;
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 if
 (
 group
@@ -15581,6 +15587,7 @@ group
 >
 unknownProperties
 (
+sweep
 )
 )
 {
@@ -15604,6 +15611,7 @@ group
 >
 maybeGetProperty
 (
+sweep
 id
 )
 )
@@ -16513,9 +16521,6 @@ false
 ;
 if
 (
-obj
-&
-&
 !
 obj
 -
@@ -16534,7 +16539,7 @@ group
 )
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )
@@ -16950,7 +16955,7 @@ group
 )
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )
@@ -17017,7 +17022,7 @@ group
 )
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )

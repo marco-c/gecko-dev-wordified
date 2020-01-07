@@ -9626,6 +9626,12 @@ group
 (
 )
 ;
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 if
 (
 group
@@ -9633,6 +9639,7 @@ group
 >
 unknownProperties
 (
+sweep
 )
 )
 return
@@ -9656,6 +9663,7 @@ group
 >
 maybeGetProperty
 (
+sweep
 id
 )
 ;

@@ -425,6 +425,13 @@ hasUnanalyzedPreliminaryObjects
 )
 )
 ;
+{
+AutoSweepObjectGroup
+sweepGroup
+(
+group
+)
+;
 if
 (
 group
@@ -432,6 +439,7 @@ group
 >
 shouldPreTenure
 (
+sweepGroup
 )
 )
 heap
@@ -441,6 +449,7 @@ gc
 :
 TenuredHeap
 ;
+}
 if
 (
 cx

@@ -12682,7 +12682,7 @@ if
 group
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )
@@ -12883,7 +12883,7 @@ group
 )
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )
@@ -12985,7 +12985,7 @@ if
 group
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )
@@ -14715,6 +14715,12 @@ group
 return
 false
 ;
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 if
 (
 group
@@ -14722,6 +14728,7 @@ group
 >
 newScript
 (
+sweep
 )
 &
 &
@@ -14731,6 +14738,7 @@ group
 >
 newScript
 (
+sweep
 )
 -
 >
@@ -15419,7 +15427,7 @@ group
 )
 -
 >
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 )

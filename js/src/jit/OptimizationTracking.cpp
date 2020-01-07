@@ -5356,6 +5356,12 @@ group
 (
 )
 ;
+AutoSweepObjectGroup
+sweep
+(
+obj
+)
+;
 TypeNewScript
 *
 newScript
@@ -5365,6 +5371,7 @@ obj
 >
 newScript
 (
+sweep
 )
 ;
 if
@@ -5378,6 +5385,7 @@ obj
 >
 maybeUnboxedLayout
 (
+sweep
 )
 )
 newScript
@@ -5387,6 +5395,7 @@ obj
 >
 unboxedLayout
 (
+sweep
 )
 .
 newScript
