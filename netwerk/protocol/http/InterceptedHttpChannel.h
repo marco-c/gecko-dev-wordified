@@ -693,6 +693,9 @@ bool
 >
 mCallingStatusAndProgress
 ;
+bool
+mDiverting
+;
 InterceptedHttpChannel
 (
 PRTime
