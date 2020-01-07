@@ -115,11 +115,9 @@ https
 :
 /
 /
-ssl
--
 expired
 .
-mozqa
+badssl
 .
 com
 '
@@ -140,7 +138,6 @@ ev
 mozqa
 .
 com
-/
 '
             
 #
@@ -152,11 +149,9 @@ http
 :
 /
 /
-no
--
-ssl
+http
 .
-mozqa
+badssl
 .
 com
 '
