@@ -3114,17 +3114,6 @@ Size
 void
 clear
 (
-const
-JSStructuredCloneCallbacks
-*
-optionalCallbacks
-=
-nullptr
-void
-*
-closure
-=
-nullptr
 )
 ;
 /
