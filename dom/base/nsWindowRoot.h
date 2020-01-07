@@ -350,10 +350,8 @@ aDisabledCommands
 override
 ;
 virtual
-already_AddRefed
-<
-nsINode
->
+nsIDOMNode
+*
 GetPopupNode
 (
 )
@@ -363,7 +361,7 @@ virtual
 void
 SetPopupNode
 (
-nsINode
+nsIDOMNode
 *
 aNode
 )

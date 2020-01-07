@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsIDOMXULDocument
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
