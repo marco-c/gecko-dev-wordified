@@ -279,7 +279,7 @@ MOZ_ASSERT
 nslots
 =
 =
-numFixedSlots
+numFixedSlotsMaybeForwarded
 (
 )
 +
