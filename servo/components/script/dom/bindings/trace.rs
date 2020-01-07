@@ -1897,7 +1897,7 @@ JSTracer
 self
 )
 .
-borrow_for_gc_trace
+borrow
 (
 )
 .
