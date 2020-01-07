@@ -2173,7 +2173,7 @@ as
 well
 as
 any
-ither
+other
 /
 /
 consumers
