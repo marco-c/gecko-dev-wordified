@@ -8300,7 +8300,7 @@ snapshot
 ;
 Assert
 .
-ok
+equal
 (
 Object
 .
