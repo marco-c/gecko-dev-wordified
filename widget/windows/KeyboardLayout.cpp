@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h

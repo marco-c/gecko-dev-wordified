@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ComputedStyle
 .
 h
