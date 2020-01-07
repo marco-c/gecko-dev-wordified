@@ -3944,7 +3944,7 @@ Reset
 change
 counters
 and
-Sync
+sync
 statuses
 for
 roots
@@ -4006,15 +4006,16 @@ GUID
 to
 a
 Sync
+record
 ID
 .
-Sync
+Record
 IDs
 are
 identical
 to
-Places
 *
+Places
 GUIDs
 for
 all
@@ -4076,7 +4077,7 @@ recordId
 *
 Fetches
 the
-sync
+record
 IDs
 for
 a
@@ -5544,7 +5545,7 @@ keyed
 by
 *
 the
-sync
+record
 ID
 .
 *
@@ -6712,7 +6713,7 @@ param
 recordId
 *
 The
-sync
+record
 ID
 to
 revive
@@ -6984,7 +6985,7 @@ bookmarkItem
 Returns
 true
 for
-sync
+record
 IDs
 that
 are
@@ -7183,7 +7184,7 @@ item
 by
 changing
 its
-sync
+record
 ID
 to
 match
@@ -8357,7 +8358,7 @@ bookmark
 object
 to
 a
-Record
+Sync
 bookmark
 and
 add
@@ -8523,7 +8524,7 @@ kind
 }
 /
 /
-Record
+Sync
 uses
 the
 parent
@@ -8534,7 +8535,7 @@ de
 duping
 .
 All
-Record
+Sync
 bookmark
 objects
 /
@@ -8596,7 +8597,7 @@ item
 *
 Returns
 the
-record
+sync
 change
 counter
 increment
@@ -8627,12 +8628,12 @@ applying
 changes
 made
 by
-Record
+Sync
 to
 /
 /
 avoid
-record
+sync
 loops
 .
 return
@@ -8658,7 +8659,7 @@ SYNC
 *
 Returns
 the
-record
+sync
 status
 for
 a
@@ -8752,7 +8753,7 @@ corrupt
 database
 all
 prior
-record
+sync
 tracking
 is
 lost
@@ -8767,7 +8768,7 @@ to
 UNKNOWN
 "
 allows
-Record
+Sync
 to
 reconcile
 restored
@@ -8818,7 +8819,7 @@ NORMAL
 after
 the
 first
-record
+sync
 .
 return
 PlacesUtils
@@ -9111,7 +9112,7 @@ if
 *
 necessary
 .
-Record
+Sync
 calls
 this
 method
@@ -9121,7 +9122,7 @@ end
 of
 each
 bookmark
-record
+sync
 .
 This
 *
@@ -9421,7 +9422,7 @@ behavior
 /
 Validates
 a
-record
+sync
 change
 record
 as
@@ -10575,7 +10576,7 @@ ignore
 it
 )
 .
-Record
+Sync
 associates
 keywords
 with
@@ -10748,12 +10749,12 @@ this
 record
 for
 this
-record
+sync
 but
+/
+/
 without
 it
-/
-/
 we
 will
 risk
@@ -10854,7 +10855,7 @@ bookmark
 .
 Returns
 a
-Record
+Sync
 /
 /
 bookmark
@@ -11105,7 +11106,7 @@ newItem
 /
 Determines
 the
-Record
+Sync
 record
 kind
 for
@@ -11228,7 +11229,7 @@ type
 constant
 for
 a
-Record
+Sync
 /
 /
 record
@@ -11558,7 +11559,7 @@ Error
 (
 Bookmark
 with
-sync
+record
 ID
 {
 updateInfo
@@ -12306,7 +12307,7 @@ with
 its
 real
 parent
-sync
+record
 ID
 .
 if
@@ -13719,7 +13720,7 @@ maps
 Places
 GUIDs
 to
-sync
+record
 IDs
 and
 filters
@@ -13766,7 +13767,7 @@ prop
 {
 /
 /
-Sync
+Record
 IDs
 are
 identical
@@ -14001,7 +14002,7 @@ object
 This
 function
 maps
-sync
+record
 IDs
 to
 Places
@@ -14096,7 +14097,7 @@ break
 /
 /
 Convert
-sync
+record
 IDs
 to
 Places
@@ -15317,7 +15318,7 @@ keyed
 by
 *
 the
-sync
+record
 ID
 .
 *
@@ -16017,7 +16018,7 @@ change
 if
 the
 current
-record
+sync
 is
 /
 /
@@ -16135,7 +16136,7 @@ future
 (
 either
 this
-Record
+Sync
 or
 a
 later
@@ -17069,7 +17070,7 @@ true
 *
 Updates
 the
-record
+sync
 status
 on
 all
@@ -17114,7 +17115,7 @@ deleted
 after
 an
 interrupted
-record
+sync
 .
 (
 For
@@ -17137,7 +17138,7 @@ is
 closed
 *
 before
-Record
+Sync
 calls
 pushChanges
 )
