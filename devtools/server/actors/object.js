@@ -10670,13 +10670,6 @@ rawObj
 instanceof
 Ci
 .
-nsIDOMFontFaceList
-|
-|
-rawObj
-instanceof
-Ci
-.
 nsIDOMMediaList
 |
 |

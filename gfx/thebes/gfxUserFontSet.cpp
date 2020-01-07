@@ -4541,7 +4541,7 @@ be
 reported
 via
 the
-nsIDOMFontFace
+InspectorUtils
 API
 .
 nsAutoString
@@ -5013,7 +5013,7 @@ if
 present
 )
 for
-nsIDOMFontFace
+InspectorUtils
 /
 /
 to
