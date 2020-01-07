@@ -1061,7 +1061,6 @@ withReflowObserver
 async
 function
 (
-dirtyFrameFn
 )
 {
 let
@@ -1146,8 +1145,9 @@ reason
 =
 >
 {
-dirtyFrameFn
+dirtyFrame
 (
+win
 )
 ;
 oldInvalidate
@@ -1166,8 +1166,9 @@ onResultsAdded
 =
 >
 {
-dirtyFrameFn
+dirtyFrame
 (
+win
 )
 ;
 oldResultsAdded
