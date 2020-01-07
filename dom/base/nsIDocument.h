@@ -21398,7 +21398,6 @@ class
 .
 *
 /
-virtual
 void
 WillDispatchMutationEvent
 (
@@ -21406,10 +21405,7 @@ nsINode
 *
 aTarget
 )
-=
-0
 ;
-virtual
 void
 MutationEventDispatched
 (
@@ -21417,8 +21413,6 @@ nsINode
 *
 aTarget
 )
-=
-0
 ;
 friend
 class

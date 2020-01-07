@@ -49415,7 +49415,7 @@ this
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 WillDispatchMutationEvent
@@ -49519,7 +49519,7 @@ aTarget
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 MutationEventDispatched
