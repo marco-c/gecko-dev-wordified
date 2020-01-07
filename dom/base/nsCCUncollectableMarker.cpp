@@ -2647,6 +2647,14 @@ return
 }
 if
 (
+ProcessGlobal
+:
+:
+WasCreated
+(
+)
+&
+&
 nsFrameMessageManager
 :
 :
