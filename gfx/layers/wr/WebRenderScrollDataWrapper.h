@@ -1756,8 +1756,11 @@ GetScrollbarTargetContainerId
 )
 ;
 }
-bool
-IsScrollbarContainer
+Maybe
+<
+ScrollDirection
+>
+GetScrollbarContainerDirection
 (
 )
 const
@@ -1773,7 +1776,7 @@ return
 mLayer
 -
 >
-IsScrollbarContainer
+GetScrollbarContainerDirection
 (
 )
 ;

@@ -220,10 +220,6 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 )
-mIsScrollbarContainer
-(
-false
-)
 mFixedPosScrollContainerId
 (
 FrameMetrics
@@ -822,7 +818,11 @@ PRIu64
 \
 n
 "
-mIsScrollbarContainer
+mScrollbarContainerDirection
+.
+isSome
+(
+)
 mScrollbarTargetContainerId
 )
 ;
