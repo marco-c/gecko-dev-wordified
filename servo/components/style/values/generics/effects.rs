@@ -138,6 +138,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 )
@@ -238,6 +239,7 @@ ComputeSquaredDistance
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
@@ -545,6 +547,7 @@ ComputeSquaredDistance
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToCss

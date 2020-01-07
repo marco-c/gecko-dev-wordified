@@ -222,6 +222,12 @@ ops
 :
 Deref
 ;
+use
+style_traits
+:
+:
+SpecifiedValueInfo
+;
 #
 [
 macro_use
@@ -2908,3 +2914,9 @@ malloc_size_of_is_0
 Atom
 )
 ;
+impl
+SpecifiedValueInfo
+for
+Atom
+{
+}

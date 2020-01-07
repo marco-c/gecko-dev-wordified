@@ -772,6 +772,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -859,6 +860,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

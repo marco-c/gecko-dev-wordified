@@ -116,6 +116,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

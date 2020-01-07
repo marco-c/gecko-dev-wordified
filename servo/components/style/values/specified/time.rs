@@ -100,6 +100,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
 }
@@ -1117,4 +1118,10 @@ Ok
 )
 )
 }
+}
+impl
+SpecifiedValueInfo
+for
+Time
+{
 }

@@ -314,7 +314,10 @@ use
 style_traits
 :
 :
+{
 ParseError
+SpecifiedValueInfo
+}
 ;
 use
 super
@@ -1506,6 +1509,12 @@ nsCSSPropertyID
 }
 }
 }
+}
+impl
+SpecifiedValueInfo
+for
+TransitionProperty
+{
 }
 /
 /

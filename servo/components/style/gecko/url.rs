@@ -195,7 +195,10 @@ use
 style_traits
 :
 :
+{
 ParseError
+SpecifiedValueInfo
+}
 ;
 /
 /
@@ -941,6 +944,12 @@ common
 0
 }
 }
+impl
+SpecifiedValueInfo
+for
+CssUrl
+{
+}
 /
 /
 /
@@ -960,6 +969,7 @@ derive
 (
 Clone
 Debug
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1356,6 +1366,7 @@ derive
 (
 Clone
 Debug
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

@@ -405,6 +405,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]

@@ -2560,6 +2560,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]

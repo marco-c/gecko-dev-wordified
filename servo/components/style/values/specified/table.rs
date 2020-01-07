@@ -98,6 +98,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

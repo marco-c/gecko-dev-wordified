@@ -177,7 +177,7 @@ variant_attrs
 cg
 :
 :
-parse_variant_attrs
+parse_variant_attrs_from_ast
 :
 :
 <

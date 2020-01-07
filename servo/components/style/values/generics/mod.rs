@@ -584,6 +584,7 @@ Clone
 Debug
 Eq
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1054,6 +1055,7 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
@@ -1117,6 +1119,7 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss

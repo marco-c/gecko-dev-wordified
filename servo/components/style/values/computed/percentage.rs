@@ -140,6 +140,7 @@ Default
 MallocSizeOf
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 )

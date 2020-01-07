@@ -438,6 +438,7 @@ ComputeSquaredDistance
 Copy
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue

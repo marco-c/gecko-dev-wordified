@@ -6135,6 +6135,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
