@@ -8161,6 +8161,12 @@ Makefile
 (
 )
         
+all_directories
+=
+set
+(
+)
+        
 for
 module
 in
@@ -8174,6 +8180,11 @@ modules
 [
 module
 ]
+            
+all_directories
+|
+=
+directories
             
 deps
 =
@@ -8403,6 +8414,29 @@ xpt
 '
 %
 module
+)
+        
+mk
+.
+add_statement
+(
+'
+all_idl_dirs
+=
+%
+s
+'
+%
+'
+'
+.
+join
+(
+sorted
+(
+all_directories
+)
+)
 )
         
 rules
