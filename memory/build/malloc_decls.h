@@ -254,7 +254,6 @@ MALLOC_DECL
 (
 init
 void
-const
 malloc_table_t
 *
 )
