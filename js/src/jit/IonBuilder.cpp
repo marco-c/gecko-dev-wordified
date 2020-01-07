@@ -37436,6 +37436,8 @@ pc
 )
 )
 ;
+MOZ_TRY
+(
 callInfo
 .
 savePriorCallStack
@@ -37443,6 +37445,7 @@ savePriorCallStack
 this
 current
 4
+)
 )
 ;
 /

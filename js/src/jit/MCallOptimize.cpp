@@ -5604,12 +5604,15 @@ before
 the
 call
 .
+MOZ_TRY
+(
 callInfo
 .
 pushPriorCallStack
 (
 this
 current
+)
 )
 ;
 }
