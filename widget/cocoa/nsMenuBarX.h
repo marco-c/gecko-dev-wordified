@@ -164,6 +164,9 @@ nsIWidget
 class
 nsIContent
 ;
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -853,7 +856,7 @@ aIndex
 void
 HideItem
 (
-nsIDOMDocument
+nsIDocument
 *
 inDoc
 const
