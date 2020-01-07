@@ -2988,7 +2988,7 @@ performed
 in
 EmulatesUndefined
 .
-loadObjClass
+loadObjClassUnsafe
 (
 objReg
 scratch
@@ -3518,7 +3518,7 @@ Label
 label
 )
 {
-loadObjClass
+loadObjClassUnsafe
 (
 object
 scratch
