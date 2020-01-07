@@ -244,7 +244,7 @@ font
 :
 :
 {
-FontVariationSettings
+SpecifiedFontVariationSettings
 SpecifiedFontFeatureSettings
 }
 ;
@@ -564,7 +564,7 @@ index
 impl
 ToNsCssValue
 for
-FontVariationSettings
+SpecifiedFontVariationSettings
 {
 fn
 convert
