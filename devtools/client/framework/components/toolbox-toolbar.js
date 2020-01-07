@@ -2887,7 +2887,6 @@ tabbar
 -
 menu
 "
-toolbox
 )
 ;
 }
@@ -2968,7 +2967,6 @@ tabbar
 -
 menu
 "
-toolbox
 )
 ;
 }
