@@ -94,12 +94,6 @@ import
 filters
 as
 mpf
-import
-mozpack
-.
-path
-as
-mozpath
 from
 mozbuild
 .
