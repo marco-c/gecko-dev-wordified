@@ -422,17 +422,6 @@ NS_ADDREF
 #
 include
 "
-nsITextServicesDocument
-.
-h
-"
-/
-/
-for
-nsITextServicesDocument
-#
-include
-"
 nsITextServicesFilter
 .
 h

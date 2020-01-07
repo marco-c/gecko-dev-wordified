@@ -651,16 +651,12 @@ TextServicesDocument
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITextServicesDocument
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIEditActionListener
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsITextServicesDocument
+nsIEditActionListener
 )
 NS_INTERFACE_MAP_ENTRIES_CYCLE_COLLECTION
 (
@@ -679,7 +675,7 @@ mNextTextBlock
 mExtent
 mTxtSvcFilter
 )
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -987,7 +983,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -1036,7 +1032,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -1178,7 +1174,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -1943,7 +1939,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -1979,7 +1975,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -2037,7 +2033,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -2177,13 +2173,13 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
 LastSelectedBlock
 (
-TSDBlockSelectionStatus
+BlockSelectionStatus
 *
 aSelStatus
 int32_t
@@ -2221,7 +2217,7 @@ eDone
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockNotFound
@@ -2590,7 +2586,7 @@ if
 aSelStatus
 =
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockContains
@@ -3860,7 +3856,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -4123,7 +4119,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -4431,7 +4427,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -4484,7 +4480,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -4591,7 +4587,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -4669,7 +4665,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -6141,7 +6137,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextServicesDocument
 :
 :
@@ -11057,7 +11053,7 @@ TextServicesDocument
 :
 GetSelection
 (
-TSDBlockSelectionStatus
+BlockSelectionStatus
 *
 aSelStatus
 int32_t
@@ -11083,7 +11079,7 @@ NS_ERROR_NULL_POINTER
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockNotFound
@@ -11241,7 +11237,7 @@ TextServicesDocument
 :
 GetCollapsedSelection
 (
-TSDBlockSelectionStatus
+BlockSelectionStatus
 *
 aSelStatus
 int32_t
@@ -11328,7 +11324,7 @@ collapsed
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockOutside
@@ -11688,7 +11684,7 @@ mLength
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockContains
@@ -12438,7 +12434,7 @@ mLength
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockContains
@@ -12537,7 +12533,7 @@ TextServicesDocument
 :
 GetUncollapsedSelection
 (
-TSDBlockSelectionStatus
+BlockSelectionStatus
 *
 aSelStatus
 int32_t
@@ -12942,7 +12938,7 @@ e2s1
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockOutside
@@ -13048,7 +13044,7 @@ partial
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockPartial
@@ -13088,7 +13084,7 @@ block
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockInside
@@ -13125,7 +13121,7 @@ range
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockContains
@@ -13145,7 +13141,7 @@ block
 *
 aSelStatus
 =
-nsITextServicesDocument
+BlockSelectionStatus
 :
 :
 eBlockPartial
