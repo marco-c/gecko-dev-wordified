@@ -12572,11 +12572,6 @@ return
 Servo_HasAuthorSpecifiedRules
 (
 computedStyle
--
->
-AsServo
-(
-)
 elem
 pseudoType
 aRuleTypeMask

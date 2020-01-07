@@ -7046,12 +7046,6 @@ IsStyledByServo
 )
 const
 ;
-inline
-void
-UnsetRestyleFlagsIfGecko
-(
-)
-;
 /
 *
 *

@@ -208,9 +208,6 @@ nsIDocument
 namespace
 mozilla
 {
-class
-RestyleTracker
-;
 namespace
 dom
 {
@@ -768,17 +765,6 @@ Count
 0
 ;
 }
-void
-AddStyleUpdatesTo
-(
-mozilla
-:
-:
-RestyleTracker
-&
-aTracker
-)
-;
 bool
 MightHavePendingStyleUpdates
 (
