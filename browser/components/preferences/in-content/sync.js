@@ -2499,6 +2499,7 @@ l10n
 .
 setAttributes
 (
+label
 l10nAttrs
 .
 id
