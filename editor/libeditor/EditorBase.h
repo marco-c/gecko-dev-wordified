@@ -432,6 +432,9 @@ nsAString
 etc
 .
 class
+mozInlineSpellChecker
+;
+class
 nsAtom
 ;
 class
@@ -460,9 +463,6 @@ nsIEditActionListener
 ;
 class
 nsIEditorObserver
-;
-class
-nsIInlineSpellChecker
 ;
 class
 nsINode
@@ -7922,9 +7922,9 @@ editing
 nsCString
 mContentMIMEType
 ;
-nsCOMPtr
+RefPtr
 <
-nsIInlineSpellChecker
+mozInlineSpellChecker
 >
 mInlineSpellChecker
 ;

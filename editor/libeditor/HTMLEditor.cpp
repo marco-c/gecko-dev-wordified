@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+mozInlineSpellChecker
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h
