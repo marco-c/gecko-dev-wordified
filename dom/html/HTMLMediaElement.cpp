@@ -40141,6 +40141,11 @@ the
 media
 element
 .
+if
+(
+mMediaKeys
+)
+{
 mMediaKeys
 -
 >
@@ -40148,6 +40153,7 @@ Unbind
 (
 )
 ;
+}
 mMediaKeys
 =
 nullptr
