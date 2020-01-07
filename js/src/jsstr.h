@@ -2192,7 +2192,7 @@ vp
 ;
 extern
 bool
-str_trimLeft
+str_trimStart
 (
 JSContext
 *
@@ -2206,7 +2206,7 @@ vp
 ;
 extern
 bool
-str_trimRight
+str_trimEnd
 (
 JSContext
 *
