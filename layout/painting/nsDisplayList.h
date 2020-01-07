@@ -28925,7 +28925,7 @@ this
 }
 }
 friend
-void
+bool
 MergeLayerEventRegions
 (
 nsDisplayItem
