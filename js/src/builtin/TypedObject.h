@@ -4161,7 +4161,9 @@ addressOfShapeFromGC
 )
 {
 return
-shape_
+shapeRef
+(
+)
 .
 unsafeUnbarrieredForTracing
 (

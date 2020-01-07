@@ -2941,7 +2941,7 @@ use
 ShapedObject
 :
 :
-shape_
+shape
 to
 record
 property
@@ -3502,11 +3502,15 @@ const
 {
 MOZ_ASSERT
 (
-shape_
+shape
+(
+)
 )
 ;
 return
-shape_
+shape
+(
+)
 ;
 }
 uint32_t
@@ -5179,7 +5183,9 @@ flags
 )
 ;
 return
-shape_
+shape
+(
+)
 -
 >
 hasAllObjectFlags
