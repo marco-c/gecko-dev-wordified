@@ -540,11 +540,7 @@ ss
 sslBuffer
 buf
 =
-{
-NULL
-0
-0
-}
+SSL_BUFFER_EMPTY
 ;
 SECStatus
 rv

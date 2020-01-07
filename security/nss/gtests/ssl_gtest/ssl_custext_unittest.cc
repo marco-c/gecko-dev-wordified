@@ -431,6 +431,8 @@ i
 {
 SSLExtensionSupport
 support
+=
+ssl_ext_none
 ;
 SECStatus
 rv

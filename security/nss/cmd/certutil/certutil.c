@@ -3702,6 +3702,9 @@ handle
 char
 *
 name
+void
+*
+pwdata
 )
 {
 SECStatus
@@ -3713,10 +3716,11 @@ cert
 ;
 cert
 =
-CERT_FindCertByNicknameOrEmailAddr
+CERT_FindCertByNicknameOrEmailAddrCX
 (
 handle
 name
+pwdata
 )
 ;
 if
@@ -3794,6 +3798,9 @@ name
 char
 *
 newName
+void
+*
+pwdata
 )
 {
 SECStatus
@@ -3805,10 +3812,11 @@ cert
 ;
 cert
 =
-CERT_FindCertByNicknameOrEmailAddr
+CERT_FindCertByNicknameOrEmailAddrCX
 (
 handle
 name
+pwdata
 )
 ;
 if
@@ -24599,6 +24607,8 @@ DeleteCert
 (
 certHandle
 name
+&
+pwdata
 )
 ;
 goto
@@ -24635,6 +24645,8 @@ RenameCert
 certHandle
 name
 newName
+&
+pwdata
 )
 ;
 goto

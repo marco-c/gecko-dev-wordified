@@ -439,6 +439,9 @@ features
 dind
 "
 ]
+maxRunTime
+:
+7200
 kind
 :
 "

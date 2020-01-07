@@ -768,6 +768,11 @@ CKR_BUFFER_TOO_SMALL
 }
 if
 (
+len
+>
+0
+&
+&
 value
 !
 =
