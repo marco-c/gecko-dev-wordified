@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

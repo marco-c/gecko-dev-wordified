@@ -8785,7 +8785,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode

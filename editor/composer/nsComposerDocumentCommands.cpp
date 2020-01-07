@@ -193,17 +193,6 @@ nsICommandParams
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-/
-/
-for
-nsIDOMDocument
-#
-include
-"
 nsIDocShell
 .
 h

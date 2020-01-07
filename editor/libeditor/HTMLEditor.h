@@ -309,6 +309,9 @@ class
 nsDocumentFragment
 ;
 class
+nsHTMLDocument
+;
+class
 nsITransferable
 ;
 class
@@ -3073,6 +3076,13 @@ bool
 aIgnoreIfSelectionInEditingHost
 )
 ;
+nsHTMLDocument
+*
+GetHTMLDocument
+(
+)
+const
+;
 protected
 :
 class
@@ -3097,7 +3107,7 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -3139,7 +3149,7 @@ mIsSafe
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 mSourceDoc
 ;
@@ -4268,7 +4278,7 @@ nsISupports
 aObject
 bool
 aIsSafe
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -4325,7 +4335,7 @@ InsertFromTransferable
 nsITransferable
 *
 transferable
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 const
@@ -4354,7 +4364,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -6187,7 +6197,7 @@ const
 nsAString
 &
 aFlavor
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode

@@ -181,9 +181,6 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMEvent
 ;
 class

@@ -391,13 +391,6 @@ h
 #
 include
 "
-nsIDOMDocumentFragment
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -1271,6 +1264,17 @@ aDeleteSelection
 {
 nsCOMPtr
 <
+nsIDocument
+>
+sourceDoc
+=
+do_QueryInterface
+(
+aSourceDoc
+)
+;
+nsCOMPtr
+<
 nsINode
 >
 destNode
@@ -1287,7 +1291,7 @@ aInputString
 aContextStr
 aInfoStr
 aFlavor
-aSourceDoc
+sourceDoc
 destNode
 aDestOffset
 aDeleteSelection
@@ -1330,7 +1334,7 @@ const
 nsAString
 &
 aFlavor
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -6480,7 +6484,7 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -6712,7 +6716,7 @@ nsISupports
 aObject
 bool
 aIsSafe
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -7118,7 +7122,7 @@ InsertFromTransferable
 nsITransferable
 *
 transferable
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 const
@@ -7849,7 +7853,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode

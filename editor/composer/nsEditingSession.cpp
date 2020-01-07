@@ -329,17 +329,6 @@ etc
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-/
-/
-for
-nsIDOMDocument
-#
-include
-"
 nsHTMLDocument
 .
 h
