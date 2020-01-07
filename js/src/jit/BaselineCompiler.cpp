@@ -2452,7 +2452,7 @@ For
 eval
 scripts
 the
-scope
+env
 chain
 /
 /
@@ -4304,7 +4304,7 @@ callee
 >
 environment
 as
-scope
+env
 chain
 .
 Note
@@ -4321,7 +4321,7 @@ functions
 so
 that
 the
-scope
+env
 chain
 /
 /
@@ -14002,8 +14002,7 @@ have
 to
 use
 the
-dynamic
-scope
+environment
 chain
 .
 }
@@ -20932,7 +20931,7 @@ the
 object
 onto
 the
-scope
+environment
 chain
 .
 prepareVMCall
@@ -21033,7 +21032,7 @@ with
 object
 from
 the
-scope
+environment
 chain
 .
 prepareVMCall
