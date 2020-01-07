@@ -17769,6 +17769,7 @@ mImage
 aParams
 .
 presCtx
+0
 )
 ;
 }
