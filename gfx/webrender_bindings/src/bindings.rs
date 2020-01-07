@@ -2450,22 +2450,6 @@ as_ptr
 )
 }
 ;
-/
-/
-For
-now
-panic
-not
-sure
-we
-should
-be
-though
-or
-if
-we
-can
-recover
 if
 symbol
 .
@@ -2482,7 +2466,7 @@ Make
 whitelist
 for
 extensions
-println
+warn
 !
 (
 "
@@ -3061,7 +3045,7 @@ e
 in
 errors
 {
-println
+warn
 !
 (
 "
@@ -4746,7 +4730,7 @@ gl
 VERSION
 )
 ;
-println
+info
 !
 (
 "
@@ -5026,7 +5010,7 @@ e
 =
 >
 {
-println
+warn
 !
 (
 "
@@ -7172,7 +7156,7 @@ e
 =
 >
 {
-println
+warn
 !
 (
 "
