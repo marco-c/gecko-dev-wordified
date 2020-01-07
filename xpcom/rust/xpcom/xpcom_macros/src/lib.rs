@@ -1751,7 +1751,7 @@ quote
 xpcom
 :
 :
-RefCnt
+Refcnt
 )
 .
 to_tokens
