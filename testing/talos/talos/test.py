@@ -2075,6 +2075,22 @@ preferences
 =
 {
         
+'
+addon
+.
+test
+.
+cpstartup
+.
+webserver
+'
+:
+'
+{
+webserver
+}
+'
+        
 #
 By
 default
