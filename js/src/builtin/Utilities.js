@@ -1719,11 +1719,6 @@ keys
 OwnPropertyKeys
 (
 source
-JSITER_OWNONLY
-|
-JSITER_HIDDEN
-|
-JSITER_SYMBOLS
 )
 ;
 /
@@ -1919,11 +1914,6 @@ keys
 OwnPropertyKeys
 (
 source
-JSITER_OWNONLY
-|
-JSITER_HIDDEN
-|
-JSITER_SYMBOLS
 )
 ;
 /
