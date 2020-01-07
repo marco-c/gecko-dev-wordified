@@ -498,6 +498,7 @@ void
 AssertOnSamplerThread
 (
 )
+const
 ;
 /
 *
@@ -523,6 +524,7 @@ bool
 IsSamplerThread
 (
 )
+const
 ;
 protected
 :

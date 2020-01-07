@@ -821,6 +821,7 @@ APZSampler
 AssertOnSamplerThread
 (
 )
+const
 {
 if
 (
@@ -848,6 +849,7 @@ APZSampler
 IsSamplerThread
 (
 )
+const
 {
 return
 CompositorThreadHolder
