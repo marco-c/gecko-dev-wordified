@@ -1593,7 +1593,7 @@ getTraceKind
 ;
 if
 (
-js
+JS
 :
 :
 shadow
