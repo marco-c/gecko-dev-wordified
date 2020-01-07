@@ -10749,6 +10749,9 @@ aFrame
 NS_ASSERTION
 (
 outOfFlowFrame
+&
+&
+outOfFlowFrame
 -
 >
 IsFloating
