@@ -957,7 +957,7 @@ tables
 const
 ;
 bool
-instantiateGlobalExports
+instantiateGlobals
 (
 JSContext
 *
