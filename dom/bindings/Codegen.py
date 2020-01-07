@@ -21765,7 +21765,7 @@ m
 .
 type
 .
-isSerializable
+isJSONType
 (
 )
 :
