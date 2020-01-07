@@ -17273,7 +17273,7 @@ void
 EditorBase
 :
 :
-SplitNodeImpl
+DoSplitNode
 (
 const
 EditorDOMPoint

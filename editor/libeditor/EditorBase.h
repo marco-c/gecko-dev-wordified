@@ -4701,7 +4701,7 @@ StopPreservingSelection
 *
 *
 *
-SplitNodeImpl
+DoSplitNode
 (
 )
 creates
@@ -4853,7 +4853,7 @@ error
 *
 /
 void
-SplitNodeImpl
+DoSplitNode
 (
 const
 EditorDOMPoint

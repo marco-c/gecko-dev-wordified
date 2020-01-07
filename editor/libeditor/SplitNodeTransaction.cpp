@@ -561,7 +561,7 @@ node
 mEditorBase
 -
 >
-SplitNodeImpl
+DoSplitNode
 (
 EditorDOMPoint
 (
@@ -581,7 +581,7 @@ odd
 The
 result
 of
-SplitNodeImpl
+DoSplitNode
 (
 )
 is
