@@ -3853,6 +3853,12 @@ nsIRunnable
 >
 mLoadFailedRunnable
 ;
+RefPtr
+<
+PerformanceStorage
+>
+mPerformanceStorage
+;
 JS
 :
 :
