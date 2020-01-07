@@ -14,7 +14,7 @@ EDIT
 /
 Version
 :
-2017
+2018
 -
 01
 -
@@ -138,7 +138,7 @@ DJF
 0
 /
 /
-Guinea
+Guinean
 Franc
 (
 GUINEA
@@ -187,7 +187,7 @@ JPY
 0
 /
 /
-Comoro
+Comorian
 Franc
 (
 COMOROS
