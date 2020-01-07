@@ -5669,8 +5669,8 @@ while
 0
 )
 #
-ifndef
-RELEASE_OR_BETA
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 static
 bool
 GetLabeledRunnableName
@@ -6390,8 +6390,8 @@ NotifyActivity
 ;
 }
 #
-ifndef
-RELEASE_OR_BETA
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 bool
 schedulerLoggingEnabled
 =

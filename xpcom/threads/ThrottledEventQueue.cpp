@@ -657,6 +657,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHODIMP
 GetName
 (
@@ -676,6 +679,8 @@ aName
 )
 ;
 }
+#
+endif
 }
 ;
 mutable

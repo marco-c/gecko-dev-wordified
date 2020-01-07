@@ -1025,6 +1025,9 @@ return
 rv
 ;
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHOD
 GetName
 (
@@ -1103,6 +1106,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 private
 :
 RefPtr

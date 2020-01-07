@@ -790,6 +790,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHOD
 GetName
 (
@@ -799,6 +802,8 @@ aName
 )
 override
 ;
+#
+endif
 nsTimerEvent
 (
 )
@@ -1253,6 +1258,9 @@ nullptr
 ;
 }
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHODIMP
 nsTimerEvent
 :
@@ -1300,6 +1308,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsTimerEvent
 :
