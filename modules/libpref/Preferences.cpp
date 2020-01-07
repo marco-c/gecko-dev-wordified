@@ -21203,7 +21203,7 @@ SetCapacity
 gHashTable
 -
 >
-Capacity
+EntryCount
 (
 )
 )
