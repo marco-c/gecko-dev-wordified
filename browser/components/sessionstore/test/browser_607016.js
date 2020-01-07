@@ -574,7 +574,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .
@@ -709,7 +709,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .
@@ -783,7 +783,7 @@ closed
 data
 ss
 .
-deleteTabValue
+deleteCustomTabValue
 (
 gBrowser
 .
@@ -934,7 +934,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .

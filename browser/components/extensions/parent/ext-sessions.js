@@ -1051,7 +1051,7 @@ tabId
 ;
 SessionStore
 .
-setTabValue
+setCustomTabValue
 (
 tab
 encodedKey
@@ -1091,7 +1091,7 @@ value
 =
 SessionStore
 .
-getTabValue
+getCustomTabValue
 (
 tab
 encodedKey
@@ -1138,7 +1138,7 @@ tabId
 ;
 SessionStore
 .
-deleteTabValue
+deleteCustomTabValue
 (
 tab
 encodedKey

@@ -581,7 +581,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 "
