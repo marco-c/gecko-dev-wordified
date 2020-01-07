@@ -96,7 +96,9 @@ MPL
 #
 include
 "
-nsTransactionStack
+mozilla
+/
+TransactionStack
 .
 h
 "
@@ -135,12 +137,11 @@ TransactionItem
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 class
-nsTransactionStackDeallocator
+TransactionStackDeallocator
 final
 :
 public
@@ -179,10 +180,10 @@ aObject
 }
 }
 ;
-nsTransactionStack
+TransactionStack
 :
 :
-nsTransactionStack
+TransactionStack
 (
 Type
 aType
@@ -191,7 +192,7 @@ aType
 nsDeque
 (
 new
-nsTransactionStackDeallocator
+TransactionStackDeallocator
 (
 )
 )
@@ -201,11 +202,11 @@ aType
 )
 {
 }
-nsTransactionStack
+TransactionStack
 :
 :
 ~
-nsTransactionStack
+TransactionStack
 (
 )
 {
@@ -215,7 +216,7 @@ Clear
 ;
 }
 void
-nsTransactionStack
+TransactionStack
 :
 :
 Push
@@ -254,7 +255,7 @@ forget
 ;
 }
 void
-nsTransactionStack
+TransactionStack
 :
 :
 Push
@@ -305,7 +306,7 @@ already_AddRefed
 <
 TransactionItem
 >
-nsTransactionStack
+TransactionStack
 :
 :
 Pop
@@ -347,7 +348,7 @@ already_AddRefed
 <
 TransactionItem
 >
-nsTransactionStack
+TransactionStack
 :
 :
 PopBottom
@@ -389,7 +390,7 @@ already_AddRefed
 <
 TransactionItem
 >
-nsTransactionStack
+TransactionStack
 :
 :
 Peek
@@ -428,7 +429,7 @@ already_AddRefed
 <
 TransactionItem
 >
-nsTransactionStack
+TransactionStack
 :
 :
 GetItem
@@ -495,7 +496,7 @@ forget
 ;
 }
 void
-nsTransactionStack
+TransactionStack
 :
 :
 Clear
@@ -534,7 +535,7 @@ PopBottom
 }
 }
 void
-nsTransactionStack
+TransactionStack
 :
 :
 DoTraverse
@@ -618,3 +619,8 @@ TransactionItem
 }
 }
 }
+}
+/
+/
+namespace
+mozilla
