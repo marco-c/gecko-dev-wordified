@@ -7785,17 +7785,7 @@ AlphaBoxBlur
 &
 aBlur
 )
-{
-MOZ_CRASH
-(
-"
-GFX
-:
-DoBlur
-"
-)
 ;
-}
 /
 *
 *
