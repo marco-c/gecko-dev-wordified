@@ -253,9 +253,6 @@ OutOfLineCallVM
 class
 OutOfLineTruncateSlow
 ;
-class
-OutOfLineWasmTruncateCheck
-;
 struct
 PatchableBackedgeInfo
 {
@@ -2029,7 +2026,6 @@ LWasmCall
 *
 ins
 )
-override
 {
 emitWasmCallBase
 (
@@ -2055,7 +2051,6 @@ LWasmCallVoid
 *
 ins
 )
-override
 {
 emitWasmCallBase
 (
@@ -2081,7 +2076,6 @@ LWasmCallI64
 *
 ins
 )
-override
 {
 emitWasmCallBase
 (
@@ -2107,7 +2101,6 @@ LWasmLoadGlobalVar
 *
 ins
 )
-override
 ;
 void
 visitWasmStoreGlobalVar
@@ -2116,7 +2109,6 @@ LWasmStoreGlobalVar
 *
 ins
 )
-override
 ;
 void
 visitWasmLoadGlobalVarI64
@@ -2125,7 +2117,6 @@ LWasmLoadGlobalVarI64
 *
 ins
 )
-override
 ;
 void
 visitWasmStoreGlobalVarI64
@@ -2134,7 +2125,6 @@ LWasmStoreGlobalVarI64
 *
 ins
 )
-override
 ;
 void
 emitPreBarrier
@@ -3347,23 +3337,6 @@ OutOfLineTruncateSlow
 ool
 )
 ;
-virtual
-void
-visitOutOfLineWasmTruncateCheck
-(
-OutOfLineWasmTruncateCheck
-*
-ool
-)
-{
-MOZ_CRASH
-(
-"
-NYI
-"
-)
-;
-}
 bool
 omitOverRecursedCheck
 (
@@ -5066,13 +5039,18 @@ rejoin
 )
 ;
 }
+template
+<
 class
-OutOfLineWasmTruncateCheck
+CodeGen
+>
+class
+OutOfLineWasmTruncateCheckBase
 :
 public
 OutOfLineCodeBase
 <
-CodeGeneratorShared
+CodeGen
 >
 {
 MIRType
@@ -5101,7 +5079,7 @@ bytecodeOffset_
 ;
 public
 :
-OutOfLineWasmTruncateCheck
+OutOfLineWasmTruncateCheckBase
 (
 MWasmTruncateToInt32
 *
@@ -5170,7 +5148,7 @@ bytecodeOffset
 )
 {
 }
-OutOfLineWasmTruncateCheck
+OutOfLineWasmTruncateCheckBase
 (
 MWasmTruncateToInt64
 *
@@ -5242,7 +5220,7 @@ bytecodeOffset
 void
 accept
 (
-CodeGeneratorShared
+CodeGen
 *
 codegen
 )

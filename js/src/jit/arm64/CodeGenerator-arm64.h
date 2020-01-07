@@ -675,7 +675,6 @@ public
 Instruction
 visitors
 .
-virtual
 void
 visitMinMaxD
 (
@@ -683,9 +682,7 @@ LMinMaxD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitMinMaxF
 (
@@ -693,9 +690,7 @@ LMinMaxF
 *
 math
 )
-override
 ;
-virtual
 void
 visitAbsD
 (
@@ -703,9 +698,7 @@ LAbsD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitAbsF
 (
@@ -713,9 +706,7 @@ LAbsF
 *
 ins
 )
-override
 ;
-virtual
 void
 visitSqrtD
 (
@@ -723,9 +714,7 @@ LSqrtD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitSqrtF
 (
@@ -733,9 +722,7 @@ LSqrtF
 *
 ins
 )
-override
 ;
-virtual
 void
 visitAddI
 (
@@ -743,9 +730,7 @@ LAddI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitSubI
 (
@@ -753,9 +738,7 @@ LSubI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitBitNotI
 (
@@ -763,9 +746,7 @@ LBitNotI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitBitOpI
 (
@@ -773,9 +754,7 @@ LBitOpI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitMulI
 (
@@ -783,9 +762,7 @@ LMulI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitDivI
 (
@@ -793,9 +770,7 @@ LDivI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitDivPowTwoI
 (
@@ -803,9 +778,7 @@ LDivPowTwoI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitModI
 (
@@ -813,9 +786,7 @@ LModI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitModPowTwoI
 (
@@ -823,9 +794,7 @@ LModPowTwoI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitModMaskI
 (
@@ -833,9 +802,7 @@ LModMaskI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitPowHalfD
 (
@@ -843,9 +810,7 @@ LPowHalfD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitShiftI
 (
@@ -853,9 +818,7 @@ LShiftI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitUrshD
 (
@@ -863,9 +826,7 @@ LUrshD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitTestIAndBranch
 (
@@ -873,9 +834,7 @@ LTestIAndBranch
 *
 test
 )
-override
 ;
-virtual
 void
 visitCompare
 (
@@ -883,9 +842,7 @@ LCompare
 *
 comp
 )
-override
 ;
-virtual
 void
 visitCompareAndBranch
 (
@@ -893,9 +850,7 @@ LCompareAndBranch
 *
 comp
 )
-override
 ;
-virtual
 void
 visitTestDAndBranch
 (
@@ -903,9 +858,7 @@ LTestDAndBranch
 *
 test
 )
-override
 ;
-virtual
 void
 visitTestFAndBranch
 (
@@ -913,9 +866,7 @@ LTestFAndBranch
 *
 test
 )
-override
 ;
-virtual
 void
 visitCompareD
 (
@@ -923,9 +874,7 @@ LCompareD
 *
 comp
 )
-override
 ;
-virtual
 void
 visitCompareF
 (
@@ -933,9 +882,7 @@ LCompareF
 *
 comp
 )
-override
 ;
-virtual
 void
 visitCompareDAndBranch
 (
@@ -943,9 +890,7 @@ LCompareDAndBranch
 *
 comp
 )
-override
 ;
-virtual
 void
 visitCompareFAndBranch
 (
@@ -953,9 +898,7 @@ LCompareFAndBranch
 *
 comp
 )
-override
 ;
-virtual
 void
 visitCompareB
 (
@@ -963,9 +906,7 @@ LCompareB
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCompareBAndBranch
 (
@@ -973,9 +914,7 @@ LCompareBAndBranch
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCompareBitwise
 (
@@ -983,9 +922,7 @@ LCompareBitwise
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCompareBitwiseAndBranch
 (
@@ -993,9 +930,7 @@ LCompareBitwiseAndBranch
 *
 lir
 )
-override
 ;
-virtual
 void
 visitBitAndAndBranch
 (
@@ -1003,9 +938,7 @@ LBitAndAndBranch
 *
 baab
 )
-override
 ;
-virtual
 void
 visitWasmUint32ToDouble
 (
@@ -1013,9 +946,7 @@ LWasmUint32ToDouble
 *
 lir
 )
-override
 ;
-virtual
 void
 visitWasmUint32ToFloat32
 (
@@ -1023,9 +954,7 @@ LWasmUint32ToFloat32
 *
 lir
 )
-override
 ;
-virtual
 void
 visitNotI
 (
@@ -1033,9 +962,7 @@ LNotI
 *
 ins
 )
-override
 ;
-virtual
 void
 visitNotD
 (
@@ -1043,9 +970,7 @@ LNotD
 *
 ins
 )
-override
 ;
-virtual
 void
 visitNotF
 (
@@ -1053,9 +978,7 @@ LNotF
 *
 ins
 )
-override
 ;
-virtual
 void
 visitMathD
 (
@@ -1063,9 +986,7 @@ LMathD
 *
 math
 )
-override
 ;
-virtual
 void
 visitMathF
 (
@@ -1073,9 +994,7 @@ LMathF
 *
 math
 )
-override
 ;
-virtual
 void
 visitFloor
 (
@@ -1083,9 +1002,7 @@ LFloor
 *
 lir
 )
-override
 ;
-virtual
 void
 visitFloorF
 (
@@ -1093,9 +1010,7 @@ LFloorF
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCeil
 (
@@ -1103,9 +1018,7 @@ LCeil
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCeilF
 (
@@ -1113,9 +1026,7 @@ LCeilF
 *
 lir
 )
-override
 ;
-virtual
 void
 visitRound
 (
@@ -1123,9 +1034,7 @@ LRound
 *
 lir
 )
-override
 ;
-virtual
 void
 visitRoundF
 (
@@ -1133,9 +1042,7 @@ LRoundF
 *
 lir
 )
-override
 ;
-virtual
 void
 visitTruncateDToInt32
 (
@@ -1143,9 +1050,7 @@ LTruncateDToInt32
 *
 ins
 )
-override
 ;
-virtual
 void
 visitTruncateFToInt32
 (
@@ -1153,9 +1058,7 @@ LTruncateFToInt32
 *
 ins
 )
-override
 ;
-virtual
 void
 visitClzI
 (
@@ -1163,9 +1066,7 @@ LClzI
 *
 lir
 )
-override
 ;
-virtual
 void
 visitCtzI
 (
@@ -1173,7 +1074,6 @@ LCtzI
 *
 lir
 )
-override
 ;
 /
 /
@@ -1311,7 +1211,6 @@ LBox
 *
 box
 )
-override
 ;
 void
 visitUnbox
@@ -1320,7 +1219,6 @@ LUnbox
 *
 unbox
 )
-override
 ;
 void
 visitValue
@@ -1329,7 +1227,6 @@ LValue
 *
 value
 )
-override
 ;
 void
 visitDouble
@@ -1338,7 +1235,6 @@ LDouble
 *
 ins
 )
-override
 ;
 void
 visitFloat32
@@ -1347,7 +1243,6 @@ LFloat32
 *
 ins
 )
-override
 ;
 void
 visitLoadSlotV
@@ -1356,7 +1251,6 @@ LLoadSlotV
 *
 load
 )
-override
 ;
 void
 visitLoadSlotT
@@ -1365,7 +1259,6 @@ LLoadSlotT
 *
 load
 )
-override
 ;
 void
 visitStoreSlotT
@@ -1374,7 +1267,6 @@ LStoreSlotT
 *
 load
 )
-override
 ;
 void
 visitLoadElementT
@@ -1383,7 +1275,6 @@ LLoadElementT
 *
 load
 )
-override
 ;
 void
 visitGuardShape
@@ -1392,7 +1283,6 @@ LGuardShape
 *
 guard
 )
-override
 ;
 void
 visitGuardObjectGroup
@@ -1401,7 +1291,6 @@ LGuardObjectGroup
 *
 guard
 )
-override
 ;
 void
 visitGuardClass
@@ -1410,7 +1299,6 @@ LGuardClass
 *
 guard
 )
-override
 ;
 void
 visitInterruptCheck
@@ -1419,7 +1307,6 @@ LInterruptCheck
 *
 lir
 )
-override
 ;
 void
 visitNegI
@@ -1428,7 +1315,6 @@ LNegI
 *
 lir
 )
-override
 ;
 void
 visitNegD
@@ -1437,7 +1323,6 @@ LNegD
 *
 lir
 )
-override
 ;
 void
 visitNegF
@@ -1446,7 +1331,6 @@ LNegF
 *
 lir
 )
-override
 ;
 void
 visitLoadTypedArrayElementStatic
@@ -1455,7 +1339,6 @@ LLoadTypedArrayElementStatic
 *
 ins
 )
-override
 ;
 void
 visitStoreTypedArrayElementStatic
@@ -1464,7 +1347,6 @@ LStoreTypedArrayElementStatic
 *
 ins
 )
-override
 ;
 void
 visitCompareExchangeTypedArrayElement
@@ -1473,7 +1355,6 @@ LCompareExchangeTypedArrayElement
 *
 lir
 )
-override
 ;
 void
 visitAtomicExchangeTypedArrayElement
@@ -1482,7 +1363,6 @@ LAtomicExchangeTypedArrayElement
 *
 lir
 )
-override
 ;
 void
 visitAsmJSLoadHeap
@@ -1491,7 +1371,6 @@ LAsmJSLoadHeap
 *
 ins
 )
-override
 ;
 void
 visitAsmJSStoreHeap
@@ -1500,7 +1379,6 @@ LAsmJSStoreHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmCompareExchangeHeap
@@ -1509,7 +1387,6 @@ LWasmCompareExchangeHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmAtomicBinopHeap
@@ -1518,7 +1395,6 @@ LWasmAtomicBinopHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmStackArg
@@ -1527,7 +1403,6 @@ LWasmStackArg
 *
 ins
 )
-override
 ;
 void
 generateInvalidateEpilogue
@@ -1567,7 +1442,6 @@ LEffectiveAddress
 *
 ins
 )
-override
 ;
 void
 visitUDiv
@@ -1576,7 +1450,6 @@ LUDiv
 *
 ins
 )
-override
 ;
 void
 visitUMod
@@ -1585,7 +1458,6 @@ LUMod
 *
 ins
 )
-override
 ;
 public
 :
@@ -1602,7 +1474,6 @@ LSimdSplatX4
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
@@ -1619,7 +1490,6 @@ LSimd128Int
 *
 ins
 )
-override
 {
 MOZ_CRASH
 (
@@ -1636,7 +1506,6 @@ LSimd128Float
 *
 ins
 )
-override
 {
 MOZ_CRASH
 (
@@ -1653,7 +1522,6 @@ LSimdExtractElementI
 *
 ins
 )
-override
 {
 MOZ_CRASH
 (
@@ -1670,7 +1538,6 @@ LSimdExtractElementF
 *
 ins
 )
-override
 {
 MOZ_CRASH
 (
@@ -1687,7 +1554,6 @@ LSimdBinaryCompIx4
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
@@ -1704,7 +1570,6 @@ LSimdBinaryCompFx4
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
@@ -1721,7 +1586,6 @@ LSimdBinaryArithIx4
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
@@ -1738,7 +1602,6 @@ LSimdBinaryArithFx4
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
@@ -1755,7 +1618,6 @@ LSimdBinaryBitwise
 *
 lir
 )
-override
 {
 MOZ_CRASH
 (
