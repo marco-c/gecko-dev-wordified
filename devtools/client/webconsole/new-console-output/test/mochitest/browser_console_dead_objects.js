@@ -483,10 +483,7 @@ textContent
 indexOf
 (
 "
-[
-object
 DeadObject
-]
 "
 )
 -
@@ -610,10 +607,7 @@ textContent
 indexOf
 (
 "
-[
-object
 DeadObject
-]
 "
 )
 -
