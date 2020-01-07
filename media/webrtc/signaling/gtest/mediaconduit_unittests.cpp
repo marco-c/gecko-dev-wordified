@@ -4565,6 +4565,13 @@ mozilla
 kMediaConduitNoError
 )
 ;
+videoSession
+-
+>
+DeleteStreams
+(
+)
+;
 }
 private
 :
