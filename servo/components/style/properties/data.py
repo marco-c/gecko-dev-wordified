@@ -2499,27 +2499,6 @@ self
 )
 :
         
-ident
-=
-self
-.
-ident
-        
-if
-ident
-=
-=
-"
-float
-"
-:
-            
-ident
-=
-"
-float_
-"
-        
 return
 "
 nsCSSPropertyID
@@ -2530,6 +2509,8 @@ eCSSProperty_
 s
 "
 %
+self
+.
 ident
 class
 Shorthand
