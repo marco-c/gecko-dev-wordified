@@ -2505,7 +2505,7 @@ options
 .
 runByManifest
 =
-False
+True
     
 #
 roboextender
