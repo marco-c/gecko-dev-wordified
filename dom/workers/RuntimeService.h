@@ -257,10 +257,12 @@ WorkerPrivate
 >
 mQueuedWorkers
 ;
-nsClassHashtable
+nsTArray
 <
-nsCStringHashKey
+UniquePtr
+<
 SharedWorkerInfo
+>
 >
 mSharedWorkerInfos
 ;
