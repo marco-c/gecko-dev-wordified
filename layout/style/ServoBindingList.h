@@ -3657,6 +3657,15 @@ bool
 found
 )
 ;
+SERVO_BINDING_FUNC
+(
+Servo_PseudoClass_GetStates
+uint64_t
+const
+nsACString
+*
+name
+)
 /
 /
 AddRef
