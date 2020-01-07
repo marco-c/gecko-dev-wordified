@@ -48,7 +48,7 @@ Math
 acosh
 info
 :
->
+|
 Math
 .
 acosh

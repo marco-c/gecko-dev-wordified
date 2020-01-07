@@ -66,7 +66,7 @@ invalid
 digit
 info
 :
->
+|
 BinaryIntegerLiteral
 :
 :
@@ -91,7 +91,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

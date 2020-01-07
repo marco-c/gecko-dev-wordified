@@ -65,7 +65,7 @@ internal
 slot
 info
 :
->
+|
 1
 .
 Let

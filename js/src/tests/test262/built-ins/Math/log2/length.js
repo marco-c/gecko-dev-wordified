@@ -48,7 +48,7 @@ Math
 log2
 info
 :
->
+|
 Math
 .
 log2

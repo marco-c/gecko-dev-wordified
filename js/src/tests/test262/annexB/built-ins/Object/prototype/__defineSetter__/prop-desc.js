@@ -64,7 +64,7 @@ prototype
 __defineSetter__
 info
 :
->
+|
 Every
 other
 data

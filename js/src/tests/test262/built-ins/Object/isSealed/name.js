@@ -57,7 +57,7 @@ isSealed
 .
 info
 :
->
+|
 Object
 .
 isSealed

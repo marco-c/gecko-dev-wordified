@@ -59,7 +59,7 @@ from
 byteOffset
 info
 :
->
+|
 22
 .
 2

@@ -57,7 +57,7 @@ imul
 .
 info
 :
->
+|
 Math
 .
 imul

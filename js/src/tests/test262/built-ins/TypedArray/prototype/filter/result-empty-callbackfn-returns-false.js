@@ -59,7 +59,7 @@ boolean
 false
 info
 :
->
+|
 22
 .
 2

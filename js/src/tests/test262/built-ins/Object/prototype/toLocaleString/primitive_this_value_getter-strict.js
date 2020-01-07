@@ -53,7 +53,7 @@ in
 getter
 info
 :
->
+|
 19
 .
 1

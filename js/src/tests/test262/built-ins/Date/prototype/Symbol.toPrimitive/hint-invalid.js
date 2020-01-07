@@ -65,7 +65,7 @@ is
 specified
 info
 :
->
+|
 1
 .
 Let

@@ -54,7 +54,7 @@ initialize
 internals
 info
 :
->
+|
 24
 .
 2

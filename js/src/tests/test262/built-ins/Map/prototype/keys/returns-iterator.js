@@ -53,7 +53,7 @@ iterator
 .
 info
 :
->
+|
 Map
 .
 prototype

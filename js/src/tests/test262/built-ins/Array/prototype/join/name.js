@@ -68,7 +68,7 @@ join
 .
 info
 :
->
+|
 Array
 .
 prototype

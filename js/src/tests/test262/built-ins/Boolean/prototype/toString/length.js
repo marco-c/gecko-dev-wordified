@@ -66,7 +66,7 @@ is
 .
 info
 :
->
+|
 Boolean
 .
 prototype

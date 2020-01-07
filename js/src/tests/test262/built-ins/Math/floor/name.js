@@ -57,7 +57,7 @@ floor
 .
 info
 :
->
+|
 Math
 .
 floor

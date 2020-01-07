@@ -59,7 +59,7 @@ test
 .
 info
 :
->
+|
 RegExp
 .
 prototype

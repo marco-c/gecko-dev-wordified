@@ -75,7 +75,7 @@ slot
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

@@ -67,7 +67,7 @@ Vowel
 Separator
 info
 :
->
+|
 The
 result
 must

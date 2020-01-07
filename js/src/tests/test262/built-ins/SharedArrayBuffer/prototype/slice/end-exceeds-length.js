@@ -64,7 +64,7 @@ ArrayBufferByteLength
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

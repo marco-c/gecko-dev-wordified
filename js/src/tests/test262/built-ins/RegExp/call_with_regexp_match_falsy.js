@@ -49,7 +49,7 @@ same
 value
 info
 :
->
+|
 21
 .
 2

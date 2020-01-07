@@ -66,7 +66,7 @@ Number
 prototype
 info
 :
->
+|
 17
 ECMAScript
 Standard

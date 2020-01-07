@@ -64,7 +64,7 @@ object
 .
 info
 :
->
+|
 [
 [
 DefineOwnProperty

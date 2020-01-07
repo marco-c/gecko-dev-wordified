@@ -54,7 +54,7 @@ prototype
 property
 info
 :
->
+|
 25
 .
 2

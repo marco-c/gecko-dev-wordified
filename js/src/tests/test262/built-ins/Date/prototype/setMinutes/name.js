@@ -68,7 +68,7 @@ setMinutes
 .
 info
 :
->
+|
 Date
 .
 prototype

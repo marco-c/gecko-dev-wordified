@@ -68,7 +68,7 @@ toTimeString
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -57,7 +57,7 @@ sqrt
 .
 info
 :
->
+|
 Math
 .
 sqrt

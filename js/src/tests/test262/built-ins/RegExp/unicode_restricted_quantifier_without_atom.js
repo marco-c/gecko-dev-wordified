@@ -53,7 +53,7 @@ matching
 Atom
 info
 :
->
+|
 The
 compatibility
 extensions

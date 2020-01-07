@@ -68,7 +68,7 @@ setMonth
 .
 info
 :
->
+|
 Date
 .
 prototype

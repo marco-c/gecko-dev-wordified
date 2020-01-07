@@ -61,7 +61,7 @@ new
 instance
 info
 :
->
+|
 22
 .
 2

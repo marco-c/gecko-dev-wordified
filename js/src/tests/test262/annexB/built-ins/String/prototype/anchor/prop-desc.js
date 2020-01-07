@@ -65,7 +65,7 @@ prototype
 anchor
 info
 :
->
+|
 Every
 other
 data

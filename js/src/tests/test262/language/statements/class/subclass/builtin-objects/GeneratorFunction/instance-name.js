@@ -53,7 +53,7 @@ name
 property
 info
 :
->
+|
 25
 .
 2

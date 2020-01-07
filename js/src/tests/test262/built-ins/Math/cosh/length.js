@@ -50,7 +50,7 @@ is
 1
 info
 :
->
+|
 Math
 .
 cosh

@@ -63,7 +63,7 @@ primitive
 .
 info
 :
->
+|
 12
 .
 9

@@ -61,7 +61,7 @@ nextIndex
 .
 info
 :
->
+|
 21
 .
 1

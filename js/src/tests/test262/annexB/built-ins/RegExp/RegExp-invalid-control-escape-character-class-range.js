@@ -59,7 +59,7 @@ _
 ]
 info
 :
->
+|
 ClassAtomNoDash
 :
 :

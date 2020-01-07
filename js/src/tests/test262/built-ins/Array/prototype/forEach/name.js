@@ -68,7 +68,7 @@ forEach
 .
 info
 :
->
+|
 Array
 .
 prototype

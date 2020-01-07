@@ -68,7 +68,7 @@ a
 Symbol
 info
 :
->
+|
 22
 .
 2

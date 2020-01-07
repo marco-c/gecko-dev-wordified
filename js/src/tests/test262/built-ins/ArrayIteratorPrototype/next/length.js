@@ -68,7 +68,7 @@ is
 .
 info
 :
->
+|
 %
 ArrayIteratorPrototype
 %

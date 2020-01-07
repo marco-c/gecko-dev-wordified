@@ -55,7 +55,7 @@ is
 .
 info
 :
->
+|
 Object
 .
 getOwnPropertySymbols

@@ -57,7 +57,7 @@ CoverParenthesizedExpression
 )
 info
 :
->
+|
 VariableDeclaration
 :
 BindingIdentifier

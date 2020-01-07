@@ -64,7 +64,7 @@ property
 .
 info
 :
->
+|
 Array
 .
 of

@@ -52,7 +52,7 @@ u
 flag
 info
 :
->
+|
 DecimalEscape
 is
 not
@@ -92,7 +92,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

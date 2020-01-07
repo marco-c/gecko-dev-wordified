@@ -59,7 +59,7 @@ hasOwnProperty
 .
 info
 :
->
+|
 Object
 .
 prototype

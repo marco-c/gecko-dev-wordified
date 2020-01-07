@@ -65,7 +65,7 @@ final
 succeeds
 info
 :
->
+|
 final
 was
 removed

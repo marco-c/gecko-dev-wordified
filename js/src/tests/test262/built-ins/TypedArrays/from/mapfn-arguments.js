@@ -52,7 +52,7 @@ mapfn
 arguments
 info
 :
->
+|
 22
 .
 2

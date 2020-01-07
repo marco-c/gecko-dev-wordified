@@ -68,7 +68,7 @@ setUTCFullYear
 .
 info
 :
->
+|
 Date
 .
 prototype

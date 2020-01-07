@@ -58,7 +58,7 @@ name
 method
 info
 :
->
+|
 ClassDeclaration
 :
 class

@@ -65,7 +65,7 @@ compare
 .
 info
 :
->
+|
 10
 .
 3

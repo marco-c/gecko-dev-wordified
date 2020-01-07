@@ -68,7 +68,7 @@ index
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

@@ -64,7 +64,7 @@ UTC
 .
 info
 :
->
+|
 Date
 .
 UTC

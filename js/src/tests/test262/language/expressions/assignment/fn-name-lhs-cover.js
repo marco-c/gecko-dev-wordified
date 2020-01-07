@@ -53,7 +53,7 @@ a
 CoverParenthesizedExpression
 info
 :
->
+|
 AssignmentExpression
 [
 In

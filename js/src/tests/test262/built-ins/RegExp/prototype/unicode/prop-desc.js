@@ -52,7 +52,7 @@ property
 descriptor
 info
 :
->
+|
 RegExp
 .
 prototype

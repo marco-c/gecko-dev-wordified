@@ -64,7 +64,7 @@ extensible
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

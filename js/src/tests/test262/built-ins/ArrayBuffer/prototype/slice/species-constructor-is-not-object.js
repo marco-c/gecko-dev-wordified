@@ -66,7 +66,7 @@ object
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

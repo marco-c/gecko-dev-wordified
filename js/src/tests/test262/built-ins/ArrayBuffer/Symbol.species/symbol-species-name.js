@@ -68,7 +68,7 @@ get
 name
 info
 :
->
+|
 24
 .
 1

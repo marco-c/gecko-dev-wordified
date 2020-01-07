@@ -59,7 +59,7 @@ Objects
 .
 info
 :
->
+|
 Map
 (
 [

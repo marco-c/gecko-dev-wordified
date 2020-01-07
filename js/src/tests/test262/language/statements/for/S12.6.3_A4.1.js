@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 "
 in
 "
@@ -100,7 +100,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

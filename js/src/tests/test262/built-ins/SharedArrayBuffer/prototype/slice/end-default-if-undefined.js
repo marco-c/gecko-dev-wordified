@@ -65,7 +65,7 @@ undefined
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

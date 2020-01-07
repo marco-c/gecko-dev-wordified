@@ -55,7 +55,7 @@ literal
 )
 info
 :
->
+|
 It
 is
 a
@@ -128,7 +128,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

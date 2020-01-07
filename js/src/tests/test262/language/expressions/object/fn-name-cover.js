@@ -57,7 +57,7 @@ CoverParenthesizedExpression
 )
 info
 :
->
+|
 6
 .
 If

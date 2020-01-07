@@ -58,7 +58,7 @@ set
 .
 info
 :
->
+|
 get
 Map
 .

@@ -66,7 +66,7 @@ P
 ;
 info
 :
->
+|
 [
 [
 HasProperty

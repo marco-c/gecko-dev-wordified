@@ -70,7 +70,7 @@ Instance
 .
 info
 :
->
+|
 %
 SetIteratorPrototype
 %

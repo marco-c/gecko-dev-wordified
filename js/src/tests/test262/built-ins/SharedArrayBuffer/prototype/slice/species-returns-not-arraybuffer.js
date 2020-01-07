@@ -64,7 +64,7 @@ instance
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

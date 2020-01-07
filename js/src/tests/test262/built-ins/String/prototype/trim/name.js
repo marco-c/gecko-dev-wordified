@@ -59,7 +59,7 @@ trim
 .
 info
 :
->
+|
 String
 .
 prototype

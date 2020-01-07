@@ -56,7 +56,7 @@ Lithuanian
 )
 info
 :
->
+|
 The
 result
 must

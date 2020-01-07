@@ -56,7 +56,7 @@ AssignmentExpression
 position
 info
 :
->
+|
 IterationStatement
 :
 for
@@ -75,7 +75,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

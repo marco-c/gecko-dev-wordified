@@ -65,7 +65,7 @@ prototype
 sub
 info
 :
->
+|
 Every
 other
 data

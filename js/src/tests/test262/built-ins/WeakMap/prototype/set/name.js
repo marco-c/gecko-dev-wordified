@@ -65,7 +65,7 @@ name
 descriptor
 info
 :
->
+|
 WeakMap
 .
 prototype

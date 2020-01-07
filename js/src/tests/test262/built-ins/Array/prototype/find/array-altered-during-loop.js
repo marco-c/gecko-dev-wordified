@@ -72,7 +72,7 @@ predicate
 .
 info
 :
->
+|
 22
 .
 1

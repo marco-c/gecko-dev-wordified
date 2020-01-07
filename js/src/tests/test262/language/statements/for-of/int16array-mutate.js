@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Int16Array
 instances
 should

@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Map
 has
 a

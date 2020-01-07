@@ -55,7 +55,7 @@ parse
 .
 info
 :
->
+|
 JSON
 .
 parse

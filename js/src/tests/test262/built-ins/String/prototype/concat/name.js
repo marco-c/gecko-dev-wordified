@@ -59,7 +59,7 @@ concat
 .
 info
 :
->
+|
 String
 .
 prototype

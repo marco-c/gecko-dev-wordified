@@ -58,7 +58,7 @@ name
 binding
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

@@ -55,7 +55,7 @@ Reject
 functions
 info
 :
->
+|
 A
 promise
 reject

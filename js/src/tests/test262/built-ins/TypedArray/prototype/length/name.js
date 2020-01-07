@@ -63,7 +63,7 @@ length
 .
 info
 :
->
+|
 get
 %
 TypedArray

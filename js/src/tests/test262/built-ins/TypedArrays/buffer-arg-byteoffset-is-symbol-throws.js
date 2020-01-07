@@ -62,7 +62,7 @@ a
 symbol
 info
 :
->
+|
 22
 .
 2

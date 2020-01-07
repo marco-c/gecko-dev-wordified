@@ -68,7 +68,7 @@ concat
 .
 info
 :
->
+|
 Array
 .
 prototype

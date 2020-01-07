@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Int8Array
 instances
 should

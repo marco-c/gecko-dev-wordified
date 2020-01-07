@@ -51,7 +51,7 @@ in
 SpecialCasings
 info
 :
->
+|
 The
 result
 must

@@ -60,7 +60,7 @@ empty
 .
 info
 :
->
+|
 AsyncFunctionDeclaration
 :
 async

@@ -52,7 +52,7 @@ undefined
 .
 info
 :
->
+|
 Map
 .
 prototype

@@ -52,7 +52,7 @@ getproperty
 p
 description
 :
-|
+>
 Does
 not
 throw
@@ -71,7 +71,7 @@ a
 CanonicalNumericIndexString
 info
 :
->
+|
 9
 .
 4

@@ -59,7 +59,7 @@ toLowerCase
 .
 info
 :
->
+|
 String
 .
 prototype

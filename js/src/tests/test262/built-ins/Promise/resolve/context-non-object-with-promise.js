@@ -57,7 +57,7 @@ Object
 .
 info
 :
->
+|
 Promise
 .
 resolve

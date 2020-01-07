@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Int32Array
 instances
 should

@@ -69,7 +69,7 @@ block
 )
 info
 :
->
+|
 TryStatement
 :
 try

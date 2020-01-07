@@ -63,7 +63,7 @@ ReferenceError
 .
 info
 :
->
+|
 The
 initial
 value

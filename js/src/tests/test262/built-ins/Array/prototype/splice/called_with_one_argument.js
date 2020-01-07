@@ -52,7 +52,7 @@ one
 argument
 info
 :
->
+|
 22
 .
 1

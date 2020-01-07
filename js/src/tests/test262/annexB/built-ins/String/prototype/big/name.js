@@ -59,7 +59,7 @@ big
 .
 info
 :
->
+|
 String
 .
 prototype

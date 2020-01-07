@@ -64,7 +64,7 @@ static
 string
 info
 :
->
+|
 7
 .
 1

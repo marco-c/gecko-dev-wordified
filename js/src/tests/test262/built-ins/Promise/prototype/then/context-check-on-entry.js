@@ -58,7 +58,7 @@ object
 .
 info
 :
->
+|
 Promise
 .
 prototype

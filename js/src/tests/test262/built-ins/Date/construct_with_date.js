@@ -50,7 +50,7 @@ Date
 object
 info
 :
->
+|
 20
 .
 3

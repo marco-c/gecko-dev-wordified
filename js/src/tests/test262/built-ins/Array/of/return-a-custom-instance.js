@@ -64,7 +64,7 @@ constructor
 .
 info
 :
->
+|
 Array
 .
 of

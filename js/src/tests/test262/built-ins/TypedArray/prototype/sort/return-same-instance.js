@@ -54,7 +54,7 @@ same
 instance
 info
 :
->
+|
 22
 .
 2

@@ -57,7 +57,7 @@ sinh
 .
 info
 :
->
+|
 Math
 .
 sinh

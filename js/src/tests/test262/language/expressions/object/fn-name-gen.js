@@ -57,7 +57,7 @@ GeneratorExpression
 )
 info
 :
->
+|
 6
 .
 If

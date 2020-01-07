@@ -55,7 +55,7 @@ of
 TemplateLiteral
 info
 :
->
+|
 TemplateLiteral
 :
 TemplateHead

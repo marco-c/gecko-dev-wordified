@@ -68,7 +68,7 @@ setHours
 .
 info
 :
->
+|
 Date
 .
 prototype

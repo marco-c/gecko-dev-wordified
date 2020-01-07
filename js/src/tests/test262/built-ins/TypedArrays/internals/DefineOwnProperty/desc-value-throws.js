@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Return
 abrupt
 from
@@ -69,7 +69,7 @@ value
 )
 info
 :
->
+|
 9
 .
 4

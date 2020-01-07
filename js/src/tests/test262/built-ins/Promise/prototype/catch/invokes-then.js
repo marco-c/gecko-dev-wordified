@@ -56,7 +56,7 @@ then
 method
 info
 :
->
+|
 1
 .
 Let

@@ -55,7 +55,7 @@ attributes
 .
 info
 :
->
+|
 26
 .
 1

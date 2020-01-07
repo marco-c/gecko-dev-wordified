@@ -57,7 +57,7 @@ freeze
 .
 info
 :
->
+|
 Object
 .
 freeze

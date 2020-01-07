@@ -48,7 +48,7 @@ es6id
 7
 info
 :
->
+|
 Math
 .
 atanh

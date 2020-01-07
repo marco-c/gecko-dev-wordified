@@ -59,7 +59,7 @@ nor
 Undefined
 info
 :
->
+|
 [
 [
 GetOwnProperty

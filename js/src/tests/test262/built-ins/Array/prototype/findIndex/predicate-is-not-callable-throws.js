@@ -68,7 +68,7 @@ callable
 .
 info
 :
->
+|
 22
 .
 1

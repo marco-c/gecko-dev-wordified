@@ -63,7 +63,7 @@ TypeError
 .
 info
 :
->
+|
 The
 initial
 value

@@ -67,7 +67,7 @@ escape
 sequence
 info
 :
->
+|
 BinaryIntegerLiteral
 :
 :
@@ -92,7 +92,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

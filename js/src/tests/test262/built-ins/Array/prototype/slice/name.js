@@ -68,7 +68,7 @@ slice
 .
 info
 :
->
+|
 Array
 .
 prototype

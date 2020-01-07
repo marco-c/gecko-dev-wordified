@@ -60,7 +60,7 @@ isFinite
 .
 info
 :
->
+|
 isFinite
 (
 number

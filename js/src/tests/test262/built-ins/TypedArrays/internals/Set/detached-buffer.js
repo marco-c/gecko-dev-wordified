@@ -74,7 +74,7 @@ detached
 buffer
 info
 :
->
+|
 9
 .
 4

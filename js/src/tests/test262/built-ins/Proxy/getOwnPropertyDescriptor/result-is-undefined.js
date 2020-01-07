@@ -66,7 +66,7 @@ configurable
 .
 info
 :
->
+|
 [
 [
 GetOwnProperty

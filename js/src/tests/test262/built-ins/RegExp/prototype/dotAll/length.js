@@ -74,7 +74,7 @@ is
 .
 info
 :
->
+|
 get
 RegExp
 .

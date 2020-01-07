@@ -55,7 +55,7 @@ global
 name
 info
 :
->
+|
 17
 ECMAScript
 Standard

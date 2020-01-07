@@ -58,7 +58,7 @@ c
 ]
 info
 :
->
+|
 ClassAtomNoDash
 :
 :

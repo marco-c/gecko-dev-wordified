@@ -63,7 +63,7 @@ element
 type
 info
 :
->
+|
 22
 .
 2

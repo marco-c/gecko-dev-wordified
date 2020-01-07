@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Returns
 false
 if
@@ -70,7 +70,7 @@ an
 AccessorDescriptor
 info
 :
->
+|
 9
 .
 4

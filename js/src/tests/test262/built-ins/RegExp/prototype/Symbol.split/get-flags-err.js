@@ -56,7 +56,7 @@ flags
 property
 info
 :
->
+|
 [
 .
 .

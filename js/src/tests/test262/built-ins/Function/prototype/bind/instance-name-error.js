@@ -57,7 +57,7 @@ name
 property
 info
 :
->
+|
 12
 .
 Let

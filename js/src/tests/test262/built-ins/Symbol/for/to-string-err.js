@@ -63,7 +63,7 @@ first
 argument
 info
 :
->
+|
 1
 .
 Let

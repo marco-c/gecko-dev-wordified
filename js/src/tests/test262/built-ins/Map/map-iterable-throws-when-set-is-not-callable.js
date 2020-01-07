@@ -65,7 +65,7 @@ argument
 .
 info
 :
->
+|
 Map
 (
 [

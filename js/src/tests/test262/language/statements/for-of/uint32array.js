@@ -53,7 +53,7 @@ for
 of
 info
 :
->
+|
 Uint32Array
 instances
 should

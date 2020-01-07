@@ -53,7 +53,7 @@ of
 ArrayBuffer
 info
 :
->
+|
 ES6
 section
 17

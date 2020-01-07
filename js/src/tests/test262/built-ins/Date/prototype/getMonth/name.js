@@ -68,7 +68,7 @@ getMonth
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -57,7 +57,7 @@ hypot
 .
 info
 :
->
+|
 Math
 .
 hypot

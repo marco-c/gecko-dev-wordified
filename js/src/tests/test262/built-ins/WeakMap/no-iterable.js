@@ -67,7 +67,7 @@ object
 .
 info
 :
->
+|
 WeakMap
 (
 [

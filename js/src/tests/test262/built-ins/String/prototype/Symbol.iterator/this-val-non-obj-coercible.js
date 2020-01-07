@@ -57,7 +57,7 @@ an
 object
 info
 :
->
+|
 1
 .
 Let

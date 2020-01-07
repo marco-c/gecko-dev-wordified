@@ -61,7 +61,7 @@ indexOf
 .
 info
 :
->
+|
 %
 TypedArray
 %

@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Promise
 is
 the

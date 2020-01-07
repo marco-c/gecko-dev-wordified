@@ -65,7 +65,7 @@ other
 targetType
 info
 :
->
+|
 22
 .
 2

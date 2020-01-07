@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Labelled
 statements
 are

@@ -56,7 +56,7 @@ is
 Symbol
 info
 :
->
+|
 21
 .
 1

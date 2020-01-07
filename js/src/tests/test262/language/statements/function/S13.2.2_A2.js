@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Since
 a
 function

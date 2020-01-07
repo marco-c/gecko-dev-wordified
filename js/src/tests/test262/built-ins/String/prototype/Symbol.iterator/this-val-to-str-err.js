@@ -56,7 +56,7 @@ a
 string
 info
 :
->
+|
 1
 .
 Let

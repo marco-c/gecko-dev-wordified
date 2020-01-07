@@ -69,7 +69,7 @@ list
 .
 info
 :
->
+|
 String
 .
 fromCodePoint

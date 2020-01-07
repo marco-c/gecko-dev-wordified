@@ -54,7 +54,7 @@ attributes
 .
 info
 :
->
+|
 This
 property
 has

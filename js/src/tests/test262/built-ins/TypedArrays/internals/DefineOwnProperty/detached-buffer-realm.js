@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Throws
 a
 TypeError
@@ -80,7 +80,7 @@ context
 )
 info
 :
->
+|
 9
 .
 4

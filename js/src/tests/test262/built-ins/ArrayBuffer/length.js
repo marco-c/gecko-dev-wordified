@@ -51,7 +51,7 @@ is
 .
 info
 :
->
+|
 ArrayBuffer
 (
 length

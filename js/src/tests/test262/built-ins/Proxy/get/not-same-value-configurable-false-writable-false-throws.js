@@ -65,7 +65,7 @@ configurable
 property
 info
 :
->
+|
 [
 [
 Get

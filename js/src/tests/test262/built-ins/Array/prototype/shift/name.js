@@ -68,7 +68,7 @@ shift
 .
 info
 :
->
+|
 Array
 .
 prototype

@@ -63,7 +63,7 @@ resolvedOptions
 .
 info
 :
->
+|
 12
 .
 4

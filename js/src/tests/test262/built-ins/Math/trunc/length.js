@@ -48,7 +48,7 @@ es6id
 35
 info
 :
->
+|
 Math
 .
 trunc

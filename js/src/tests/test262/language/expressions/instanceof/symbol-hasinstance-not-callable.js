@@ -60,7 +60,7 @@ not
 callable
 info
 :
->
+|
 1
 .
 If

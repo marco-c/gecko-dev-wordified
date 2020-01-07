@@ -50,7 +50,7 @@ Property
 descriptor
 info
 :
->
+|
 This
 property
 has

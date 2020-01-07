@@ -67,7 +67,7 @@ empty
 instances
 info
 :
->
+|
 22
 .
 2

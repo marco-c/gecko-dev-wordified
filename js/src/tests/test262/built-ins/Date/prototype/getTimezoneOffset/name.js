@@ -68,7 +68,7 @@ getTimezoneOffset
 .
 info
 :
->
+|
 Date
 .
 prototype

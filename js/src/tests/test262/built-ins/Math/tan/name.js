@@ -57,7 +57,7 @@ tan
 .
 info
 :
->
+|
 Math
 .
 tan

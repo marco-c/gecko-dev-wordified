@@ -73,7 +73,7 @@ object
 .
 info
 :
->
+|
 ArrayBuffer
 (
 length

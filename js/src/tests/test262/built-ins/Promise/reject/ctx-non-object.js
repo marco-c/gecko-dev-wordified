@@ -59,7 +59,7 @@ es6id
 4
 info
 :
->
+|
 1
 .
 Let

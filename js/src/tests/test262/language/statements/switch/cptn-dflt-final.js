@@ -56,7 +56,7 @@ is
 final
 info
 :
->
+|
 SwitchStatement
 :
 switch

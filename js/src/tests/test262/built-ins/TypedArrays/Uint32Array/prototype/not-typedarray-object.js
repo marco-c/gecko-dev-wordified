@@ -68,7 +68,7 @@ object
 .
 info
 :
->
+|
 A
 TypedArray
 prototype

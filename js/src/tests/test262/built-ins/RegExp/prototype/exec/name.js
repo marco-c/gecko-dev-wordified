@@ -59,7 +59,7 @@ exec
 .
 info
 :
->
+|
 RegExp
 .
 prototype

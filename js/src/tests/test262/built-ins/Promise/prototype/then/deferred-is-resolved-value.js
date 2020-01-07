@@ -57,7 +57,7 @@ resolutions
 .
 info
 :
->
+|
 Promise
 .
 prototype

@@ -46,7 +46,7 @@ for
 of
 info
 :
->
+|
 String
 literals
 should

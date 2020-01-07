@@ -61,7 +61,7 @@ setting
 .
 info
 :
->
+|
 26
 .
 1

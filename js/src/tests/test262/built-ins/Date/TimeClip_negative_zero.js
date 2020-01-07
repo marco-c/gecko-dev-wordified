@@ -49,7 +49,7 @@ positive
 zero
 info
 :
->
+|
 20
 .
 3

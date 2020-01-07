@@ -59,7 +59,7 @@ supportedLocalesOf
 .
 info
 :
->
+|
 11
 .
 3

@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 When
 the
 propertyIsEnumerable

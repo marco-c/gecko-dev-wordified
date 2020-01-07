@@ -56,7 +56,7 @@ semantics
 .
 info
 :
->
+|
 14
 .
 5

@@ -65,7 +65,7 @@ throws
 succeeds
 info
 :
->
+|
 throws
 was
 removed

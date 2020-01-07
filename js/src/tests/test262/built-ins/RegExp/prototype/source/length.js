@@ -69,7 +69,7 @@ is
 .
 info
 :
->
+|
 get
 RegExp
 .

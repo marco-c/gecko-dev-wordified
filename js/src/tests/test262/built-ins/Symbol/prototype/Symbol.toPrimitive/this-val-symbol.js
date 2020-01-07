@@ -55,7 +55,7 @@ a
 Symbol
 info
 :
->
+|
 1
 .
 Let

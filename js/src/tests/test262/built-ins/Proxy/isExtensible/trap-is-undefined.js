@@ -62,7 +62,7 @@ undefined
 .
 info
 :
->
+|
 [
 [
 IsExtensible

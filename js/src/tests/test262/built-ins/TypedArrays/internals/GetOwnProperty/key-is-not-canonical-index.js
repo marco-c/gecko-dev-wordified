@@ -52,7 +52,7 @@ getownproperty
 p
 description
 :
-|
+>
 Returns
 an
 ordinary
@@ -67,7 +67,7 @@ a
 CanonicalNumericIndex
 info
 :
->
+|
 9
 .
 4

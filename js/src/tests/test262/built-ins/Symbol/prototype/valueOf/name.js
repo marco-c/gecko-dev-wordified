@@ -59,7 +59,7 @@ valueOf
 .
 info
 :
->
+|
 Symbol
 .
 prototype

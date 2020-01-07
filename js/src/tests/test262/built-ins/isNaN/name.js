@@ -60,7 +60,7 @@ isNaN
 .
 info
 :
->
+|
 isNaN
 (
 number

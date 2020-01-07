@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 When
 "
 continue
@@ -84,7 +84,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

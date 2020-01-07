@@ -70,7 +70,7 @@ list
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

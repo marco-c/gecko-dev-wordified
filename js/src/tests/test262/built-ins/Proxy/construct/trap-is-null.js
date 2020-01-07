@@ -85,7 +85,7 @@ object
 .
 info
 :
->
+|
 [
 [
 Construct

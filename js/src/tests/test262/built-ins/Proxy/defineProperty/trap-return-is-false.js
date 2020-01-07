@@ -57,7 +57,7 @@ values
 .
 info
 :
->
+|
 [
 [
 DefineOwnProperty

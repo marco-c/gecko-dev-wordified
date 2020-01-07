@@ -60,7 +60,7 @@ descriptor
 .
 info
 :
->
+|
 Map
 .
 prototype

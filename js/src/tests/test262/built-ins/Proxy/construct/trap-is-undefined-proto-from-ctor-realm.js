@@ -88,7 +88,7 @@ newTarget
 value
 info
 :
->
+|
 [
 [
 Construct

@@ -62,7 +62,7 @@ delete
 UnaryExpression
 info
 :
->
+|
 ExponentiationExpression
 :
 UnaryExpression
@@ -83,7 +83,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

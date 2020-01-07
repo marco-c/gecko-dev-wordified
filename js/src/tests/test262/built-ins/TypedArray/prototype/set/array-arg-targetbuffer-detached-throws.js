@@ -62,7 +62,7 @@ is
 detached
 info
 :
->
+|
 22
 .
 2

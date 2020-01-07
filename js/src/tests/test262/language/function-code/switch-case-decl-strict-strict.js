@@ -65,7 +65,7 @@ onlyStrict
 ]
 info
 :
->
+|
 Function
 declaration
 in

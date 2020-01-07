@@ -78,7 +78,7 @@ object
 .
 info
 :
->
+|
 SharedArrayBuffer
 (
 length

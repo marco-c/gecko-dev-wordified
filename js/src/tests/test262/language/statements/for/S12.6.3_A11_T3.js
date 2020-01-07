@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 If
 (
 Evaluate
@@ -91,7 +91,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

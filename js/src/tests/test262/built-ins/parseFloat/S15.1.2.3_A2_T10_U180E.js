@@ -61,7 +61,7 @@ as
 whitespace
 info
 :
->
+|
 18
 .
 2

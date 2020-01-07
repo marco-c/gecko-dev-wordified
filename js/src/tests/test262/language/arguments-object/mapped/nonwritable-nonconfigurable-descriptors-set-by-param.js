@@ -50,7 +50,7 @@ non
 configurable
 info
 :
->
+|
 Mapping
 just
 stop

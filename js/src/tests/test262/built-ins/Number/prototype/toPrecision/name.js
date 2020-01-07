@@ -59,7 +59,7 @@ toPrecision
 .
 info
 :
->
+|
 Number
 .
 prototype

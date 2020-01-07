@@ -61,7 +61,7 @@ lower
 scope
 info
 :
->
+|
 Annex
 B
 extensions

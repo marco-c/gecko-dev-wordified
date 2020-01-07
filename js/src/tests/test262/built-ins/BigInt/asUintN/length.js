@@ -58,7 +58,7 @@ length
 descriptor
 info
 :
->
+|
 BigInt
 .
 asUintN

@@ -56,7 +56,7 @@ property
 descriptor
 info
 :
->
+|
 26
 .
 1

@@ -54,7 +54,7 @@ GetCapabilitiesExecutor
 functions
 info
 :
->
+|
 A
 GetCapabilitiesExecutor
 function

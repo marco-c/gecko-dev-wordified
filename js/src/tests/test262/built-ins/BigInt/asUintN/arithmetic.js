@@ -58,7 +58,7 @@ test
 cases
 info
 :
->
+|
 BigInt
 .
 asUintN

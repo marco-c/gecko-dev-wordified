@@ -72,7 +72,7 @@ property
 descriptor
 info
 :
->
+|
 Array
 .
 prototype

@@ -61,7 +61,7 @@ Array
 .
 info
 :
->
+|
 Array
 .
 of

@@ -55,7 +55,7 @@ latin
 letters
 info
 :
->
+|
 The
 compatibility
 extensions

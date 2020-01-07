@@ -48,7 +48,7 @@ Subclassing
 Function
 info
 :
->
+|
 19
 .
 3

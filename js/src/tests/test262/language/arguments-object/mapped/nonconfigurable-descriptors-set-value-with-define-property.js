@@ -47,7 +47,7 @@ configurable
 property
 info
 :
->
+|
 Mapping
 keep
 working

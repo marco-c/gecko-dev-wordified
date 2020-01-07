@@ -61,7 +61,7 @@ toLocaleString
 .
 info
 :
->
+|
 %
 TypedArray
 %

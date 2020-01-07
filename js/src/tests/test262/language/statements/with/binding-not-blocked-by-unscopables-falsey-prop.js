@@ -61,7 +61,7 @@ environment
 record
 info
 :
->
+|
 [
 .
 .

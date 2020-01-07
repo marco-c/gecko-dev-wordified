@@ -65,7 +65,7 @@ the
 buffer
 info
 :
->
+|
 22
 .
 2

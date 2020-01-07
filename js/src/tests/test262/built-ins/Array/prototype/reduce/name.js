@@ -68,7 +68,7 @@ reduce
 .
 info
 :
->
+|
 Array
 .
 prototype

@@ -53,7 +53,7 @@ Rest
 Element
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

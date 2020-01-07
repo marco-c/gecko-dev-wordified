@@ -66,7 +66,7 @@ zero
 .
 info
 :
->
+|
 SharedArrayBuffer
 (
 length

@@ -60,7 +60,7 @@ valid
 syntax
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

@@ -66,7 +66,7 @@ Uint16Array
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

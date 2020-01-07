@@ -58,7 +58,7 @@ during
 loop
 info
 :
->
+|
 22
 .
 2

@@ -61,7 +61,7 @@ values
 .
 info
 :
->
+|
 %
 TypedArray
 %

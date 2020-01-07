@@ -69,7 +69,7 @@ TypedArrayPrototype
 .
 info
 :
->
+|
 The
 value
 of

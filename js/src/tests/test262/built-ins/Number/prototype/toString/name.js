@@ -59,7 +59,7 @@ toString
 .
 info
 :
->
+|
 Number
 .
 prototype

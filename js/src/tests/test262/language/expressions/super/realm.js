@@ -68,7 +68,7 @@ newTarget
 value
 info
 :
->
+|
 1
 .
 Let

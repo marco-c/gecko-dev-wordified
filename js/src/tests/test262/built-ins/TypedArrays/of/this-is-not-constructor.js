@@ -59,7 +59,7 @@ a
 constructor
 info
 :
->
+|
 22
 .
 2

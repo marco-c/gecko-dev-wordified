@@ -64,7 +64,7 @@ dynamic
 string
 info
 :
->
+|
 7
 .
 1

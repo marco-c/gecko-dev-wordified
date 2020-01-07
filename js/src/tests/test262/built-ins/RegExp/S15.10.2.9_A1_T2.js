@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 An
 escape
 sequence

@@ -35,7 +35,7 @@ file
 -
 info
 :
->
+|
 local
 vars
 must

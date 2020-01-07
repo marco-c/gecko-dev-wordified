@@ -53,7 +53,7 @@ species
 property
 info
 :
->
+|
 Promise
 [
 species

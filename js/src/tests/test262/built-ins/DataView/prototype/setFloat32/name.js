@@ -68,7 +68,7 @@ setFloat32
 .
 info
 :
->
+|
 DataView
 .
 prototype

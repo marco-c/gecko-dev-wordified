@@ -73,7 +73,7 @@ slot
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

@@ -65,7 +65,7 @@ double
 succeeds
 info
 :
->
+|
 double
 was
 removed

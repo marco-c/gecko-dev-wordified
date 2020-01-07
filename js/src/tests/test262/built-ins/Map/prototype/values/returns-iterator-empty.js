@@ -58,7 +58,7 @@ object
 .
 info
 :
->
+|
 Map
 .
 prototype

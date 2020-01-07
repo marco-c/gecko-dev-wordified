@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Single
 line
 comments
@@ -81,7 +81,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

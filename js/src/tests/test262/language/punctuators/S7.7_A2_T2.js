@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Punctuator
 cannot
 be
@@ -84,7 +84,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

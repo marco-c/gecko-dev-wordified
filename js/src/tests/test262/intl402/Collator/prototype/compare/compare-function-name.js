@@ -59,7 +59,7 @@ function
 .
 info
 :
->
+|
 10
 .
 3

@@ -59,7 +59,7 @@ compile
 .
 info
 :
->
+|
 RegExp
 .
 prototype

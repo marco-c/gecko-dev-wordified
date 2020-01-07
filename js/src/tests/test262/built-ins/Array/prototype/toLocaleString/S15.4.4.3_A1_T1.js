@@ -42,7 +42,7 @@ prototype
 tolocalestring
 info
 :
->
+|
 The
 elements
 of

@@ -59,7 +59,7 @@ fontsize
 .
 info
 :
->
+|
 String
 .
 prototype

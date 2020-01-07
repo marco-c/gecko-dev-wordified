@@ -68,7 +68,7 @@ push
 .
 info
 :
->
+|
 Array
 .
 prototype

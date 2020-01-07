@@ -53,7 +53,7 @@ abrupt
 .
 info
 :
->
+|
 [
 [
 DefineOwnProperty

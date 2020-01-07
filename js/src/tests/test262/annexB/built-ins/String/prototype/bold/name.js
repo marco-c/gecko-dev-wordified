@@ -59,7 +59,7 @@ bold
 .
 info
 :
->
+|
 String
 .
 prototype

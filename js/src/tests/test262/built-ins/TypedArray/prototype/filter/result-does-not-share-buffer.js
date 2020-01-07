@@ -56,7 +56,7 @@ share
 buffer
 info
 :
->
+|
 22
 .
 2

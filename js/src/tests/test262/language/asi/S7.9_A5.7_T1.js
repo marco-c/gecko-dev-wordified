@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Since
 LineTerminator
 (
@@ -123,7 +123,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 ReferenceError

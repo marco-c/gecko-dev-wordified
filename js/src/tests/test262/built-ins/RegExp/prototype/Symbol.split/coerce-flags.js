@@ -53,7 +53,7 @@ flags
 property
 info
 :
->
+|
 [
 .
 .

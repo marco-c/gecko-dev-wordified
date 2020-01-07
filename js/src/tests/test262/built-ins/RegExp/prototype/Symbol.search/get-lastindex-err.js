@@ -56,7 +56,7 @@ lastIndex
 property
 info
 :
->
+|
 [
 .
 .

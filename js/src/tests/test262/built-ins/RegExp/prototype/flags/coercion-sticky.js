@@ -54,7 +54,7 @@ sticky
 property
 info
 :
->
+|
 get
 RegExp
 .

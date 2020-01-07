@@ -56,7 +56,7 @@ ArrowFunction
 )
 info
 :
->
+|
 6
 .
 If

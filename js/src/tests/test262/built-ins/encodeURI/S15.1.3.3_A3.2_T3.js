@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 unescapedURISet
 containing
 one

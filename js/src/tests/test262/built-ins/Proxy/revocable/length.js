@@ -55,7 +55,7 @@ is
 .
 info
 :
->
+|
 Proxy
 .
 revocable

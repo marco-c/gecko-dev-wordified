@@ -65,7 +65,7 @@ abstract
 succeeds
 info
 :
->
+|
 abstract
 was
 removed

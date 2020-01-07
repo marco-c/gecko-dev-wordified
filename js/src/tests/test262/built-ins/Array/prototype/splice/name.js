@@ -68,7 +68,7 @@ splice
 .
 info
 :
->
+|
 Array
 .
 prototype

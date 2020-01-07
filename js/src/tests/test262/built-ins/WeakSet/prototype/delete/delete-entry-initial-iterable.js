@@ -65,7 +65,7 @@ iterable
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

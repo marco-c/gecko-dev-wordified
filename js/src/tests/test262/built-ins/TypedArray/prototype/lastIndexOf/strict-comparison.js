@@ -62,7 +62,7 @@ comparing
 )
 info
 :
->
+|
 22
 .
 2

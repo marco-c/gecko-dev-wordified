@@ -59,7 +59,7 @@ next
 .
 info
 :
->
+|
 Generator
 .
 prototype

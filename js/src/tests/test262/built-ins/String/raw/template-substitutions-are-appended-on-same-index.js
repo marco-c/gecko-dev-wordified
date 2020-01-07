@@ -68,7 +68,7 @@ function
 .
 info
 :
->
+|
 21
 .
 1

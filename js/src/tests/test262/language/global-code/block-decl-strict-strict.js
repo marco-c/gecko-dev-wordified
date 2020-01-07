@@ -77,7 +77,7 @@ onlyStrict
 ]
 info
 :
->
+|
 B
 .
 3

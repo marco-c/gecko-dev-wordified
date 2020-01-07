@@ -55,7 +55,7 @@ of
 TypedArray
 info
 :
->
+|
 ES6
 section
 17

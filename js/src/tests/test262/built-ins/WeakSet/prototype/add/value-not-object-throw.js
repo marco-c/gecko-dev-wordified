@@ -65,7 +65,7 @@ Object
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

@@ -61,7 +61,7 @@ reverse
 .
 info
 :
->
+|
 %
 TypedArray
 %

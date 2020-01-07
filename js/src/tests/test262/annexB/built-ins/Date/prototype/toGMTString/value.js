@@ -71,7 +71,7 @@ prototype
 toGMTString
 info
 :
->
+|
 The
 function
 object

@@ -47,7 +47,7 @@ iterator
 property
 info
 :
->
+|
 The
 initial
 value

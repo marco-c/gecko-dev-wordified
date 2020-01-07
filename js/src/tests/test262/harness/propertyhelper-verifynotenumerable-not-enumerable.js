@@ -37,7 +37,7 @@ file
 -
 description
 :
-|
+>
 Objects
 whose
 specified

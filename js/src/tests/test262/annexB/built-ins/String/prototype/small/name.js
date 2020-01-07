@@ -59,7 +59,7 @@ small
 .
 info
 :
->
+|
 String
 .
 prototype

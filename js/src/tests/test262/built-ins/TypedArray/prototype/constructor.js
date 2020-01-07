@@ -53,7 +53,7 @@ constructor
 property
 info
 :
->
+|
 The
 initial
 value

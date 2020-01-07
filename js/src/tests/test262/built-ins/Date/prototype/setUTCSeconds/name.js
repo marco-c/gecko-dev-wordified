@@ -68,7 +68,7 @@ setUTCSeconds
 .
 info
 :
->
+|
 Date
 .
 prototype

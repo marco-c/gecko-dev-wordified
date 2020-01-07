@@ -57,7 +57,7 @@ accessor
 function
 info
 :
->
+|
 The
 value
 of

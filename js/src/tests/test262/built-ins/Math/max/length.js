@@ -55,7 +55,7 @@ Math
 max
 info
 :
->
+|
 Math
 .
 max

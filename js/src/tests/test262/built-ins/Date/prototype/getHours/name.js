@@ -68,7 +68,7 @@ getHours
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -32,7 +32,7 @@ file
 -
 info
 :
->
+|
 Detects
 whether
 the

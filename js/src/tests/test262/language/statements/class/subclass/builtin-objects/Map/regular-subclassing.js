@@ -50,7 +50,7 @@ Map
 object
 info
 :
->
+|
 23
 .
 1

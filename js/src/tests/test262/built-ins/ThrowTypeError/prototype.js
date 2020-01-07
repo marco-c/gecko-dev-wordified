@@ -68,7 +68,7 @@ FunctionPrototype
 .
 info
 :
->
+|
 8
 .
 2

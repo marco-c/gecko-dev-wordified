@@ -59,7 +59,7 @@ call
 .
 info
 :
->
+|
 Function
 .
 prototype

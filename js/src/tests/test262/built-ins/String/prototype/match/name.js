@@ -59,7 +59,7 @@ match
 .
 info
 :
->
+|
 String
 .
 prototype

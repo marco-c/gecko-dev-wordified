@@ -66,7 +66,7 @@ instance
 .
 info
 :
->
+|
 22
 .
 1

@@ -53,7 +53,7 @@ case
 matches
 info
 :
->
+|
 SwitchStatement
 :
 switch

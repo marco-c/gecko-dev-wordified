@@ -54,7 +54,7 @@ unicode
 property
 info
 :
->
+|
 get
 RegExp
 .

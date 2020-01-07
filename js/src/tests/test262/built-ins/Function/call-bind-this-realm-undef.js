@@ -73,7 +73,7 @@ This
 value
 info
 :
->
+|
 [
 .
 .

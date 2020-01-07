@@ -75,7 +75,7 @@ prototype
 .
 info
 :
->
+|
 [
 [
 SetPrototypeOf

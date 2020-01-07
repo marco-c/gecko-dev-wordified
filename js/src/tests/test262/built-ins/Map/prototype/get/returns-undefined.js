@@ -59,7 +59,7 @@ map
 .
 info
 :
->
+|
 Map
 .
 prototype

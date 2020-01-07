@@ -55,7 +55,7 @@ integer
 literals
 info
 :
->
+|
 20
 .
 1

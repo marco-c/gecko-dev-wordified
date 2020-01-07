@@ -64,7 +64,7 @@ prototype
 __lookupSetter__
 info
 :
->
+|
 Every
 other
 data

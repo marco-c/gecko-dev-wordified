@@ -55,7 +55,7 @@ of
 TemplateMiddleList
 info
 :
->
+|
 TemplateMiddleList
 :
 TemplateMiddleList

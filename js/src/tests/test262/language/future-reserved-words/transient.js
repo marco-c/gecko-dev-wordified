@@ -65,7 +65,7 @@ transient
 succeeds
 info
 :
->
+|
 transient
 was
 removed

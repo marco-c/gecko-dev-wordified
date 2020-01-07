@@ -57,7 +57,7 @@ frozen
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

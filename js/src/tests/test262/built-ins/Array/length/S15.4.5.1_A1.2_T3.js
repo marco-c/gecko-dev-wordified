@@ -48,7 +48,7 @@ p
 desc
 info
 :
->
+|
 For
 every
 integer

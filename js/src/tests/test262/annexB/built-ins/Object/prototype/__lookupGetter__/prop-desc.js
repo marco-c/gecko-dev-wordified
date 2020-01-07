@@ -64,7 +64,7 @@ prototype
 __lookupGetter__
 info
 :
->
+|
 Every
 other
 data

@@ -75,7 +75,7 @@ prototype
 __proto__
 info
 :
->
+|
 Object
 .
 prototype

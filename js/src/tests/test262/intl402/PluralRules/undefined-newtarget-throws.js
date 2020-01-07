@@ -187,9 +187,6 @@ value
 "
 )
 ;
-return
-true
-;
 }
 )
 ;

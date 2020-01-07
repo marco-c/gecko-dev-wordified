@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Using
 arguments
 object

@@ -55,7 +55,7 @@ of
 TypedArrayPrototype
 info
 :
->
+|
 %
 TypedArray
 %

@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Object
 Modification
 Resulting

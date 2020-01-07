@@ -70,7 +70,7 @@ function
 .
 info
 :
->
+|
 SharedArrayBuffer
 (
 length

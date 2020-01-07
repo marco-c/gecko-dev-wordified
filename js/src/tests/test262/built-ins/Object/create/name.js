@@ -57,7 +57,7 @@ create
 .
 info
 :
->
+|
 Object
 .
 create

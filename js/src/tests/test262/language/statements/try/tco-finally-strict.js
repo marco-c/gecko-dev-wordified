@@ -72,11 +72,13 @@ optimization
 .
 esid
 :
+sec
+-
 static
 -
 semantics
 -
-hasproductionintailposition
+hascallintailposition
 flags
 :
 [

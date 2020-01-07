@@ -59,7 +59,7 @@ split
 .
 info
 :
->
+|
 String
 .
 prototype

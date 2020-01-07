@@ -58,7 +58,7 @@ finally
 statement
 info
 :
->
+|
 TryStatement
 :
 try

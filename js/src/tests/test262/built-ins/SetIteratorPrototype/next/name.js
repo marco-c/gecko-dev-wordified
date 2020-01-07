@@ -61,7 +61,7 @@ next
 .
 info
 :
->
+|
 %
 SetIteratorPrototype
 %

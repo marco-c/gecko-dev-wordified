@@ -59,7 +59,7 @@ lastIndexOf
 .
 info
 :
->
+|
 String
 .
 prototype

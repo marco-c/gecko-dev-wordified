@@ -56,7 +56,7 @@ empty
 ObjectBindingPattern
 info
 :
->
+|
 13
 .
 3

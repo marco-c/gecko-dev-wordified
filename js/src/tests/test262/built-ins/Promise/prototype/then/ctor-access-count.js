@@ -58,7 +58,7 @@ exactly
 once
 info
 :
->
+|
 1
 .
 Let

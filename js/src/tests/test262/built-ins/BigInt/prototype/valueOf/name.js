@@ -67,7 +67,7 @@ property
 descriptor
 info
 :
->
+|
 BigInt
 .
 prototype

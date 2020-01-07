@@ -47,7 +47,7 @@ property
 key
 info
 :
->
+|
 19
 .
 1

@@ -60,7 +60,7 @@ smaller
 length
 info
 :
->
+|
 22
 .
 2

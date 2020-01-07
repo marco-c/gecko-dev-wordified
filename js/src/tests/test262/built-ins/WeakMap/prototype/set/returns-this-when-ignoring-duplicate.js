@@ -65,7 +65,7 @@ duplicate
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

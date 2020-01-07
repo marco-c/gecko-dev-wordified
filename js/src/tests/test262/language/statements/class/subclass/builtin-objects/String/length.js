@@ -52,7 +52,7 @@ property
 length
 info
 :
->
+|
 21
 .
 1

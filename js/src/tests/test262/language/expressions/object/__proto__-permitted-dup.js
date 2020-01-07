@@ -57,7 +57,7 @@ __proto__
 property
 info
 :
->
+|
 Annex
 B
 defines

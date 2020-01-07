@@ -61,7 +61,7 @@ constructor
 .
 info
 :
->
+|
 Proxy
 (
 target

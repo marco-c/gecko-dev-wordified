@@ -62,7 +62,7 @@ compatible
 .
 info
 :
->
+|
 [
 [
 GetOwnProperty

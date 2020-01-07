@@ -59,7 +59,7 @@ new
 typedarray
 info
 :
->
+|
 22
 .
 2

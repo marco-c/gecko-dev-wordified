@@ -42,7 +42,7 @@ prototype
 concat
 info
 :
->
+|
 The
 concat
 function

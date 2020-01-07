@@ -55,7 +55,7 @@ GeneratorMethod
 )
 info
 :
->
+|
 GeneratorMethod
 :
 *

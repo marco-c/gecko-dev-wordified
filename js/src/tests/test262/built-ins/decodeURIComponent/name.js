@@ -62,7 +62,7 @@ decodeURIComponent
 .
 info
 :
->
+|
 decodeURIComponent
 (
 encodedURIComponent

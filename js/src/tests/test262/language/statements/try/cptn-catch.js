@@ -58,7 +58,7 @@ catch
 statement
 info
 :
->
+|
 TryStatement
 :
 try

@@ -56,7 +56,7 @@ map
 .
 info
 :
->
+|
 Map
 .
 prototype

@@ -60,7 +60,7 @@ new
 clone
 info
 :
->
+|
 22
 .
 2

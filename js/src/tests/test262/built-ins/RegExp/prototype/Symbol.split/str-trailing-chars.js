@@ -58,7 +58,7 @@ the
 result
 info
 :
->
+|
 [
 .
 .

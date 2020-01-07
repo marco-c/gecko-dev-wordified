@@ -58,7 +58,7 @@ property
 descriptor
 info
 :
->
+|
 This
 property
 has

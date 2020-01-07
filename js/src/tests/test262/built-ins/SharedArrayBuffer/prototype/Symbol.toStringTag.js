@@ -59,7 +59,7 @@ property
 descriptor
 info
 :
->
+|
 The
 initial
 value

@@ -56,7 +56,7 @@ ClassExpression
 )
 info
 :
->
+|
 LexicalBinding
 :
 BindingIdentifier

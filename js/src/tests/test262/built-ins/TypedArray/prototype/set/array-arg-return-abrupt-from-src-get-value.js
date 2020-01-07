@@ -62,7 +62,7 @@ property
 value
 info
 :
->
+|
 22
 .
 2

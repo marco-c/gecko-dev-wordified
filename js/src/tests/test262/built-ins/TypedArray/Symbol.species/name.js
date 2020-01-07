@@ -66,7 +66,7 @@ species
 .
 info
 :
->
+|
 get
 %
 TypedArray

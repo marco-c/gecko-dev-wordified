@@ -68,7 +68,7 @@ not
 Object
 info
 :
->
+|
 24
 .
 1

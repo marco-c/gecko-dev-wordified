@@ -50,7 +50,7 @@ DataView
 object
 info
 :
->
+|
 24
 .
 2

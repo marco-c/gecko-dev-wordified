@@ -66,7 +66,7 @@ position
 .
 info
 :
->
+|
 21
 .
 1

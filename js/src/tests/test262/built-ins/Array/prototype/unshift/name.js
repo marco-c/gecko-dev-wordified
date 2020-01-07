@@ -68,7 +68,7 @@ unshift
 .
 info
 :
->
+|
 Array
 .
 prototype

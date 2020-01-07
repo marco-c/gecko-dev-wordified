@@ -56,7 +56,7 @@ Turkish
 )
 info
 :
->
+|
 The
 result
 must

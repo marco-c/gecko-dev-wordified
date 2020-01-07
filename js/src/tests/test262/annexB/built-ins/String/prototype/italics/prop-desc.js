@@ -65,7 +65,7 @@ prototype
 italics
 info
 :
->
+|
 Every
 other
 data

@@ -68,7 +68,7 @@ getUint8
 .
 info
 :
->
+|
 DataView
 .
 prototype

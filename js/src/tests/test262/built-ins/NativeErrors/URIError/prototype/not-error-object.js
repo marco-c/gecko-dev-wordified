@@ -57,7 +57,7 @@ instance
 .
 info
 :
->
+|
 Each
 NativeError
 prototype

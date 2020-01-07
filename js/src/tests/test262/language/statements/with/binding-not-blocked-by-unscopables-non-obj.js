@@ -56,7 +56,7 @@ are
 ignored
 info
 :
->
+|
 [
 .
 .

@@ -54,7 +54,7 @@ fromCodePoint
 name
 info
 :
->
+|
 String
 .
 fromCodePoint

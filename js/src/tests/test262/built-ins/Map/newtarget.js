@@ -60,7 +60,7 @@ Map
 prototype
 info
 :
->
+|
 Map
 (
 [

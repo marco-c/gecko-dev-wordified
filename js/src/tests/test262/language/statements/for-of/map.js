@@ -46,7 +46,7 @@ for
 of
 info
 :
->
+|
 Map
 instances
 should

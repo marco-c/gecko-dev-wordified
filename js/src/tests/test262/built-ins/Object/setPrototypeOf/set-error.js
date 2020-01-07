@@ -61,7 +61,7 @@ be
 set
 info
 :
->
+|
 1
 .
 Let

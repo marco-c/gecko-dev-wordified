@@ -56,7 +56,7 @@ sequences
 .
 info
 :
->
+|
 Terminal
 symbols
 of

@@ -61,7 +61,7 @@ subarray
 .
 info
 :
->
+|
 %
 TypedArray
 %

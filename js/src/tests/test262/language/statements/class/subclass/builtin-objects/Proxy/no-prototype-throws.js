@@ -55,7 +55,7 @@ a
 prototype
 info
 :
->
+|
 14
 .
 5

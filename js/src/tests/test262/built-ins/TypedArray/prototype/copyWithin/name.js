@@ -61,7 +61,7 @@ copyWithin
 .
 info
 :
->
+|
 %
 TypedArray
 %

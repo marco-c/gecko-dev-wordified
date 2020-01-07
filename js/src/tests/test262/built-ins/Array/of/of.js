@@ -61,7 +61,7 @@ property
 descriptor
 info
 :
->
+|
 Array
 .
 of

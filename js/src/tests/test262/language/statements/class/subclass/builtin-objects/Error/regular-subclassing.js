@@ -50,7 +50,7 @@ Error
 object
 info
 :
->
+|
 19
 .
 5

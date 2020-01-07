@@ -73,7 +73,7 @@ RegExp
 instance
 info
 :
->
+|
 21
 .
 2

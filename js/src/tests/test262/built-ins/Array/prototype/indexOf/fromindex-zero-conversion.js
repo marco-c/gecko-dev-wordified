@@ -61,7 +61,7 @@ first
 position
 info
 :
->
+|
 22
 .
 1

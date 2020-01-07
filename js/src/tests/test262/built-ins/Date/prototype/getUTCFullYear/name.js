@@ -68,7 +68,7 @@ getUTCFullYear
 .
 info
 :
->
+|
 Date
 .
 prototype

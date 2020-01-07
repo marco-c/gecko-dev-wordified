@@ -62,7 +62,7 @@ symbol
 argument
 info
 :
->
+|
 1
 .
 If

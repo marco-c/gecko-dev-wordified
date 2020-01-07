@@ -68,7 +68,7 @@ setFloat64
 .
 info
 :
->
+|
 DataView
 .
 prototype

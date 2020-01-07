@@ -55,7 +55,7 @@ es6id
 6
 info
 :
->
+|
 1
 .
 Let

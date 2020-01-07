@@ -59,7 +59,7 @@ function
 .
 info
 :
->
+|
 12
 .
 4

@@ -57,7 +57,7 @@ isFinite
 .
 info
 :
->
+|
 Number
 .
 isFinite

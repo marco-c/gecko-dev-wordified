@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Result
 of
 boolean

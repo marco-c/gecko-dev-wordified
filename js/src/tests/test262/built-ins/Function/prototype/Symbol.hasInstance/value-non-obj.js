@@ -52,7 +52,7 @@ object
 argument
 info
 :
->
+|
 1
 .
 Let

@@ -77,7 +77,7 @@ insertion
 .
 info
 :
->
+|
 |
 let
 |
@@ -274,7 +274,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

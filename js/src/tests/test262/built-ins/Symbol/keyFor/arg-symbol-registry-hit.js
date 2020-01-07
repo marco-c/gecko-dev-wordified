@@ -66,7 +66,7 @@ symbol
 registry
 info
 :
->
+|
 1
 .
 If

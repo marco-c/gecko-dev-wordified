@@ -67,7 +67,7 @@ Object
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

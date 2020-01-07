@@ -75,7 +75,7 @@ primitive
 value
 info
 :
->
+|
 [
 .
 .

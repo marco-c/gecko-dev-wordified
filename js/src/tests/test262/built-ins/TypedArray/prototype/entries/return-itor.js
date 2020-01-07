@@ -66,7 +66,7 @@ entries
 .
 info
 :
->
+|
 22
 .
 2

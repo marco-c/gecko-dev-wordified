@@ -61,7 +61,7 @@ entries
 .
 info
 :
->
+|
 %
 TypedArray
 %

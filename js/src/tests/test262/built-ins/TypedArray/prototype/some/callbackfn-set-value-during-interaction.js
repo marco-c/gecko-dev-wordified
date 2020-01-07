@@ -57,7 +57,7 @@ during
 iteration
 info
 :
->
+|
 22
 .
 2

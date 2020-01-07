@@ -68,7 +68,7 @@ getUTCMilliseconds
 .
 info
 :
->
+|
 Date
 .
 prototype

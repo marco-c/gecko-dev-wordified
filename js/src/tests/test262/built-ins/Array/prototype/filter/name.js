@@ -68,7 +68,7 @@ filter
 .
 info
 :
->
+|
 Array
 .
 prototype

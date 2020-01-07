@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Let
 O
 be

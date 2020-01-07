@@ -68,7 +68,7 @@ getSeconds
 .
 info
 :
->
+|
 Date
 .
 prototype

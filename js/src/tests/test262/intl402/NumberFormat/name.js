@@ -55,7 +55,7 @@ NumberFormat
 .
 info
 :
->
+|
 11
 .
 2

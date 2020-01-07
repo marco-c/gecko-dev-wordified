@@ -57,7 +57,7 @@ forEach
 .
 info
 :
->
+|
 Map
 .
 prototype

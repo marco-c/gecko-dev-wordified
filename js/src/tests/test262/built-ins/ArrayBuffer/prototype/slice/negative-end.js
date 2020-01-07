@@ -68,7 +68,7 @@ ArrayBufferByteLength
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

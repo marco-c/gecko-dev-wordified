@@ -57,7 +57,7 @@ sin
 .
 info
 :
->
+|
 Math
 .
 sin

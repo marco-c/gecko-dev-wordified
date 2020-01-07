@@ -79,7 +79,7 @@ target
 .
 info
 :
->
+|
 [
 [
 Construct

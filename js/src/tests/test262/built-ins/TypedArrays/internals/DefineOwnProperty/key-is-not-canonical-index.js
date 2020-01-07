@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Sets
 an
 ordinary
@@ -69,7 +69,7 @@ a
 CanonicalNumericIndex
 info
 :
->
+|
 9
 .
 4

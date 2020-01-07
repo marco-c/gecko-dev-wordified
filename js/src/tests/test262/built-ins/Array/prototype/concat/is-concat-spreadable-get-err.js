@@ -65,7 +65,7 @@ isConcatSpreadable
 property
 info
 :
->
+|
 1
 .
 Let

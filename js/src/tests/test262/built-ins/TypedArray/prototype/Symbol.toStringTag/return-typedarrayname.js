@@ -50,7 +50,7 @@ prototype
 tostringtag
 description
 :
-|
+>
 Return
 value
 from
@@ -64,7 +64,7 @@ internal
 slot
 info
 :
->
+|
 22
 .
 2

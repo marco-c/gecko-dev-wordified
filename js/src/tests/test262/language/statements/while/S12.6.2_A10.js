@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 FunctionExpression
 within
 a

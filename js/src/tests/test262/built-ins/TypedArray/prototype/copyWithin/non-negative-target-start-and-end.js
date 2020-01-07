@@ -72,7 +72,7 @@ positions
 .
 info
 :
->
+|
 22
 .
 2

@@ -60,7 +60,7 @@ constructor
 species
 info
 :
->
+|
 22
 .
 2

@@ -57,7 +57,7 @@ prototype
 value
 info
 :
->
+|
 1
 .
 Let

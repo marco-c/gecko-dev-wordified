@@ -65,7 +65,7 @@ default
 case
 info
 :
->
+|
 SwitchStatement
 :
 switch

@@ -55,7 +55,7 @@ ReferenceError
 .
 info
 :
->
+|
 17
 ECMAScript
 Standard

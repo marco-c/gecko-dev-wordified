@@ -72,7 +72,7 @@ NewTarget
 .
 info
 :
->
+|
 SharedArrayBuffer
 (
 length

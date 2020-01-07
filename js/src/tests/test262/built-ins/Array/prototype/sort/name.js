@@ -68,7 +68,7 @@ sort
 .
 info
 :
->
+|
 Array
 .
 prototype

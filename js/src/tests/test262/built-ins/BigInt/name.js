@@ -65,7 +65,7 @@ property
 descriptor
 info
 :
->
+|
 BigInt
 (
 value

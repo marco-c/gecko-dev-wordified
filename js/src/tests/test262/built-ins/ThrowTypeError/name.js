@@ -53,7 +53,7 @@ function
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

@@ -55,7 +55,7 @@ escape
 .
 info
 :
->
+|
 escape
 (
 string

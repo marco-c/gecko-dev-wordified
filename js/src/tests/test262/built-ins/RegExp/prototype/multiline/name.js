@@ -55,7 +55,7 @@ multiline
 name
 info
 :
->
+|
 17
 ECMAScript
 Standard

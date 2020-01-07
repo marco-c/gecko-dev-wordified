@@ -59,7 +59,7 @@ is
 .
 info
 :
->
+|
 %
 MapIteratorPrototype
 %

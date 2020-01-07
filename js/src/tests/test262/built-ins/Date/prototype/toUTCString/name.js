@@ -68,7 +68,7 @@ toUTCString
 .
 info
 :
->
+|
 Date
 .
 prototype

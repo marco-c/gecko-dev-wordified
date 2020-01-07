@@ -59,7 +59,7 @@ indexOf
 .
 info
 :
->
+|
 String
 .
 prototype

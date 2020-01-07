@@ -68,7 +68,7 @@ toLocaleString
 .
 info
 :
->
+|
 Date
 .
 prototype

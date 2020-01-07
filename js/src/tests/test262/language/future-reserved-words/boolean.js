@@ -65,7 +65,7 @@ boolean
 succeeds
 info
 :
->
+|
 boolean
 was
 removed

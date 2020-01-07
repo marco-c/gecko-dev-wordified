@@ -68,7 +68,7 @@ setUint16
 .
 info
 :
->
+|
 DataView
 .
 prototype

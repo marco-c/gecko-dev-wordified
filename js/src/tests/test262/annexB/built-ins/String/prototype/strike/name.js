@@ -59,7 +59,7 @@ strike
 .
 info
 :
->
+|
 String
 .
 prototype

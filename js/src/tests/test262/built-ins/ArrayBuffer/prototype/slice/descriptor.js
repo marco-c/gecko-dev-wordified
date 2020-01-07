@@ -67,7 +67,7 @@ attributes
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

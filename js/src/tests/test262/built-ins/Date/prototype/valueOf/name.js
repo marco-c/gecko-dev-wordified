@@ -68,7 +68,7 @@ valueOf
 .
 info
 :
->
+|
 Date
 .
 prototype

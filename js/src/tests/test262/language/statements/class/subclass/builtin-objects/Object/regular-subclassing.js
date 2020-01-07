@@ -48,7 +48,7 @@ Subclassing
 Object
 info
 :
->
+|
 19
 .
 1

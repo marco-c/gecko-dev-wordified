@@ -54,7 +54,7 @@ GeneratorExpression
 )
 info
 :
->
+|
 AssignmentExpression
 [
 In

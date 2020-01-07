@@ -52,7 +52,7 @@ is
 .
 info
 :
->
+|
 Properties
 of
 the

@@ -51,7 +51,7 @@ name
 attribute
 info
 :
->
+|
 FunctionDeclaration
 :
 function

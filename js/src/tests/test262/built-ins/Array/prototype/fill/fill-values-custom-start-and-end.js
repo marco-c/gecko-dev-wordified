@@ -72,7 +72,7 @@ indexes
 .
 info
 :
->
+|
 22
 .
 1

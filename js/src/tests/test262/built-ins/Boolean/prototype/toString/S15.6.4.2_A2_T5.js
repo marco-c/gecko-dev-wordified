@@ -42,7 +42,7 @@ prototype
 tostring
 info
 :
->
+|
 The
 toString
 function

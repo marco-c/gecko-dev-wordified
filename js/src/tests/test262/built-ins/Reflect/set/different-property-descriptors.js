@@ -65,7 +65,7 @@ descriptor
 .
 info
 :
->
+|
 26
 .
 1

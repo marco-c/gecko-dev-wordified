@@ -74,7 +74,7 @@ Symbol
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

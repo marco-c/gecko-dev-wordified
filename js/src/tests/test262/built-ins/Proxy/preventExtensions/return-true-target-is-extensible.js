@@ -62,7 +62,7 @@ extensible
 .
 info
 :
->
+|
 [
 [
 PreventExtensions

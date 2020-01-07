@@ -57,7 +57,7 @@ RegExp
 constructor
 info
 :
->
+|
 [
 .
 .

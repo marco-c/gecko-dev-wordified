@@ -68,7 +68,7 @@ getMinutes
 .
 info
 :
->
+|
 Date
 .
 prototype

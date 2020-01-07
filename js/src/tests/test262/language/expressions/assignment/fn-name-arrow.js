@@ -54,7 +54,7 @@ ArrowFunction
 )
 info
 :
->
+|
 AssignmentExpression
 [
 In

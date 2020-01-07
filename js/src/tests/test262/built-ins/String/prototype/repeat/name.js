@@ -60,7 +60,7 @@ descriptor
 .
 info
 :
->
+|
 21
 .
 1

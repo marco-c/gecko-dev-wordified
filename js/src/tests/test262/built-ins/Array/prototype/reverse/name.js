@@ -68,7 +68,7 @@ reverse
 .
 info
 :
->
+|
 Array
 .
 prototype

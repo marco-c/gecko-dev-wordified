@@ -55,7 +55,7 @@ CoverParenthesizedExpression
 )
 info
 :
->
+|
 AssignmentExpression
 [
 In

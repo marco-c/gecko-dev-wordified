@@ -57,7 +57,7 @@ next
 .
 info
 :
->
+|
 String
 .
 fromCodePoint

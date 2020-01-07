@@ -62,7 +62,7 @@ Property
 creation
 info
 :
->
+|
 Array
 .
 of

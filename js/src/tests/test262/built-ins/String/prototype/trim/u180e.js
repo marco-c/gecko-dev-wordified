@@ -64,7 +64,7 @@ v6
 .
 info
 :
->
+|
 String
 .
 prototype

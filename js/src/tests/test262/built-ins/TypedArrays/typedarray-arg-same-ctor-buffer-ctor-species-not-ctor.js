@@ -57,7 +57,7 @@ species
 prototype
 info
 :
->
+|
 22
 .
 2

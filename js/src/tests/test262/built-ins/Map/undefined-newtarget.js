@@ -60,7 +60,7 @@ newTarget
 .
 info
 :
->
+|
 Map
 (
 [

@@ -50,7 +50,7 @@ ArrayBuffer
 object
 info
 :
->
+|
 24
 .
 1

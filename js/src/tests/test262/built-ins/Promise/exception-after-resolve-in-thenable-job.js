@@ -62,7 +62,7 @@ exception
 .
 info
 :
->
+|
 PromiseResolveThenableJob
 (
 promiseToResolve

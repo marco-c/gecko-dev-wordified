@@ -56,7 +56,7 @@ FunctionExpression
 )
 info
 :
->
+|
 6
 .
 If

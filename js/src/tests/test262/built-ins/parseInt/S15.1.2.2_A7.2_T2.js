@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Compute
 the
 mathematical

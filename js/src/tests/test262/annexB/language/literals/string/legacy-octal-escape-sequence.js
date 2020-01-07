@@ -48,7 +48,9 @@ string
 literals
 es6id
 :
-B1
+B
+.
+1
 .
 2
 description
@@ -59,7 +61,7 @@ for
 LegacyOctalEscapeSequence
 info
 :
->
+|
 EscapeSequence
 :
 :

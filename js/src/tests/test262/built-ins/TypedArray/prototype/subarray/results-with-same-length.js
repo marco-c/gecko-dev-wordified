@@ -60,7 +60,7 @@ same
 length
 info
 :
->
+|
 22
 .
 2

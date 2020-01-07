@@ -57,7 +57,7 @@ isNaN
 .
 info
 :
->
+|
 Number
 .
 isNaN

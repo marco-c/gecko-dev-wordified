@@ -56,7 +56,7 @@ TypedArray
 from
 info
 :
->
+|
 22
 .
 2

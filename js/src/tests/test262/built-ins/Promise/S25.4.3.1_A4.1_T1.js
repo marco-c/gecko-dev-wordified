@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Promise
 catches
 exceptions

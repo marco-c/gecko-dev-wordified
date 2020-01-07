@@ -66,7 +66,7 @@ a
 CanonicalNumericIndex
 info
 :
->
+|
 9
 .
 4

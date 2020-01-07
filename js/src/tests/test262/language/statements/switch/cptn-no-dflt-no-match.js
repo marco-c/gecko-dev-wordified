@@ -52,7 +52,7 @@ cases
 match
 info
 :
->
+|
 SwitchStatement
 :
 switch

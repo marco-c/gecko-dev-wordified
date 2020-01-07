@@ -64,7 +64,7 @@ property
 descriptor
 info
 :
->
+|
 WeakMap
 .
 prototype

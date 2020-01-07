@@ -62,7 +62,7 @@ bigint
 prototype
 info
 :
->
+|
 This
 property
 has

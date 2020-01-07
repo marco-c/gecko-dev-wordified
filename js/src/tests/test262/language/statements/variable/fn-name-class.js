@@ -56,7 +56,7 @@ ClassExpression
 )
 info
 :
->
+|
 VariableDeclaration
 :
 BindingIdentifier

@@ -75,7 +75,7 @@ result
 .
 info
 :
->
+|
 [
 [
 GetPrototypeOf

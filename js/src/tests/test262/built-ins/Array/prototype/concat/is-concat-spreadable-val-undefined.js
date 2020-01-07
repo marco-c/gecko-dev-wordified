@@ -69,7 +69,7 @@ value
 undefined
 info
 :
->
+|
 1
 .
 Let

@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 if
 argArray
 is

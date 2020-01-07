@@ -71,7 +71,7 @@ dotAll
 name
 info
 :
->
+|
 17
 ECMAScript
 Standard

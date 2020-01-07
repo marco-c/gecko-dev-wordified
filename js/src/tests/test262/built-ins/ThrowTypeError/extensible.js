@@ -52,7 +52,7 @@ extensible
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

@@ -68,7 +68,7 @@ setUTCMonth
 .
 info
 :
->
+|
 Date
 .
 prototype

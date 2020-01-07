@@ -57,7 +57,7 @@ endPosition
 .
 info
 :
->
+|
 21
 .
 1

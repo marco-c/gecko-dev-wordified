@@ -50,7 +50,7 @@ Number
 object
 info
 :
->
+|
 20
 .
 1

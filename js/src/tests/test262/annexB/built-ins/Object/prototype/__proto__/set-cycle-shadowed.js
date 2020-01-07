@@ -72,7 +72,7 @@ prototype
 chain
 info
 :
->
+|
 [
 .
 .

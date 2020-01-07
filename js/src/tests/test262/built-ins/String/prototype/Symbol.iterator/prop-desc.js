@@ -50,7 +50,7 @@ Property
 descriptor
 info
 :
->
+|
 ES6
 Section
 17

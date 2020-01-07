@@ -55,7 +55,7 @@ B
 3
 info
 :
->
+|
 Function
 declaration
 in

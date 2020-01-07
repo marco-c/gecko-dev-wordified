@@ -55,7 +55,7 @@ URIError
 .
 info
 :
->
+|
 17
 ECMAScript
 Standard

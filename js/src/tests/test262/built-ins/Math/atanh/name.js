@@ -57,7 +57,7 @@ atanh
 .
 info
 :
->
+|
 Math
 .
 atanh

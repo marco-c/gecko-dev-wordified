@@ -44,7 +44,7 @@ in
 head
 info
 :
->
+|
 IterationStatement
 :
 for

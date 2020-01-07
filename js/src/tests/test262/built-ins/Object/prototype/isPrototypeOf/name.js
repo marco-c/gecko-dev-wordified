@@ -59,7 +59,7 @@ isPrototypeOf
 .
 info
 :
->
+|
 Object
 .
 prototype

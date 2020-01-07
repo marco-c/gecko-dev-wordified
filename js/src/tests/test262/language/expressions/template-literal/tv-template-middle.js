@@ -55,7 +55,7 @@ middle
 pattern
 info
 :
->
+|
 The
 TV
 and

@@ -62,7 +62,7 @@ function
 .
 info
 :
->
+|
 Runtime
 Semantics
 :

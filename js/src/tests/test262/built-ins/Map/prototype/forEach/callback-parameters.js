@@ -58,7 +58,7 @@ callback
 .
 info
 :
->
+|
 Map
 .
 prototype

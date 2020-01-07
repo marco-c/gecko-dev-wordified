@@ -56,7 +56,7 @@ custom
 accumulator
 info
 :
->
+|
 22
 .
 2

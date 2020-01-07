@@ -74,7 +74,7 @@ done
 .
 info
 :
->
+|
 The
 method
 should

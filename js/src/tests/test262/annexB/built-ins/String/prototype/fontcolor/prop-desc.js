@@ -65,7 +65,7 @@ prototype
 fontcolor
 info
 :
->
+|
 Every
 other
 data

@@ -54,7 +54,7 @@ numeric
 properties
 info
 :
->
+|
 22
 .
 2

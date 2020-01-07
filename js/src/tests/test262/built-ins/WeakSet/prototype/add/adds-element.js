@@ -67,7 +67,7 @@ entries
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

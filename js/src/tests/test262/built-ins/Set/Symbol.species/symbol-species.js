@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Set
 has
 a

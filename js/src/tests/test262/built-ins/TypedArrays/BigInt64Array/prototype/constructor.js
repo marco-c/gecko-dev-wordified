@@ -67,7 +67,7 @@ property
 descriptor
 info
 :
->
+|
 22
 .
 2

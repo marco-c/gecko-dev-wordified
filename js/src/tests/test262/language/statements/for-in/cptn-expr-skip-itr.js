@@ -60,7 +60,7 @@ is
 skipped
 info
 :
->
+|
 IterationStatement
 :
 for

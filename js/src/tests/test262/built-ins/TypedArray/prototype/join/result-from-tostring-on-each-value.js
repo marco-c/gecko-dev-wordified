@@ -58,7 +58,7 @@ each
 value
 info
 :
->
+|
 22
 .
 2

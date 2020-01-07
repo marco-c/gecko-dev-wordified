@@ -69,7 +69,7 @@ WeakSet
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

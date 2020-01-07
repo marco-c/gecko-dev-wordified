@@ -53,7 +53,7 @@ object
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

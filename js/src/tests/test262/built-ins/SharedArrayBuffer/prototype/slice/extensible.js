@@ -60,7 +60,7 @@ extensible
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

@@ -61,7 +61,7 @@ Object
 extensibility
 info
 :
->
+|
 The
 value
 of

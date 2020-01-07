@@ -68,7 +68,7 @@ reduceRight
 .
 info
 :
->
+|
 Array
 .
 prototype

@@ -53,7 +53,7 @@ rejected
 promise
 info
 :
->
+|
 7
 .
 Return

@@ -55,7 +55,7 @@ method
 .
 info
 :
->
+|
 [
 [
 Construct

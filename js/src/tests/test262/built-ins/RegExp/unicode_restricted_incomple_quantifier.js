@@ -51,7 +51,7 @@ Incomplete
 quantifiers
 info
 :
->
+|
 The
 compatibility
 extensions

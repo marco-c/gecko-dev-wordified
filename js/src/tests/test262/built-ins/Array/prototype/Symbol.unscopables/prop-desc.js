@@ -66,7 +66,7 @@ unscopables
 property
 info
 :
->
+|
 This
 property
 has

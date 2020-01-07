@@ -60,7 +60,7 @@ types
 .
 info
 :
->
+|
 Map
 .
 prototype

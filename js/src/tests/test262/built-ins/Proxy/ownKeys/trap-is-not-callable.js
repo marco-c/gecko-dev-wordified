@@ -64,7 +64,7 @@ callable
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 TryStatement
 :
 "
@@ -95,7 +95,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

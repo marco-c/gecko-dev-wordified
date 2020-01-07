@@ -60,7 +60,7 @@ type
 coercion
 info
 :
->
+|
 BigInt
 .
 asIntN

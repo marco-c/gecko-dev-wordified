@@ -55,7 +55,7 @@ TypedArray
 constructor
 info
 :
->
+|
 24
 .
 1

@@ -65,7 +65,7 @@ explicit
 transformation
 info
 :
->
+|
 7
 .
 1

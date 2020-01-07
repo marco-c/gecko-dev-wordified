@@ -59,7 +59,7 @@ getYear
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -62,7 +62,7 @@ object
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

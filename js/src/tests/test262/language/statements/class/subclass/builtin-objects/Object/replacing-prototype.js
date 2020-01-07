@@ -52,7 +52,7 @@ prototype
 method
 info
 :
->
+|
 19
 .
 1

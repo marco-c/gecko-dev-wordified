@@ -64,7 +64,7 @@ SpeciesConstructor
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

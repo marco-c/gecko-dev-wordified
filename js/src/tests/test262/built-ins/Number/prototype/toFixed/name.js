@@ -59,7 +59,7 @@ toFixed
 .
 info
 :
->
+|
 Number
 .
 prototype

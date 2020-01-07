@@ -62,7 +62,7 @@ of
 Number
 info
 :
->
+|
 Number
 .
 NEGATIVE_INFINITY

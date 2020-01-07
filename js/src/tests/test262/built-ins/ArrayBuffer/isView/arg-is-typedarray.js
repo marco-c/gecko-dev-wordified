@@ -56,7 +56,7 @@ of
 TypedArray
 info
 :
->
+|
 24
 .
 1

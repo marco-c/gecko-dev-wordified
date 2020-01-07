@@ -57,7 +57,7 @@ callable
 .
 info
 :
->
+|
 [
 [
 HasProperty

@@ -55,7 +55,7 @@ name
 property
 info
 :
->
+|
 ES6
 Section
 17

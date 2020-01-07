@@ -52,7 +52,7 @@ array
 argument
 info
 :
->
+|
 22
 .
 2

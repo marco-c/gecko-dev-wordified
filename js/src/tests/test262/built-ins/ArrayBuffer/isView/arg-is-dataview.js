@@ -55,7 +55,7 @@ of
 DataView
 info
 :
->
+|
 24
 .
 1

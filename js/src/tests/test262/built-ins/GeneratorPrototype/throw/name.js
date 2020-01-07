@@ -59,7 +59,7 @@ throw
 .
 info
 :
->
+|
 Generator
 .
 prototype

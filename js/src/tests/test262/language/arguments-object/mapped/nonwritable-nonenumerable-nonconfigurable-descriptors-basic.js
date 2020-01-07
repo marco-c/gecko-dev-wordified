@@ -50,7 +50,7 @@ non
 configurable
 info
 :
->
+|
 Change
 the
 descriptor

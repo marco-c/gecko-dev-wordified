@@ -60,7 +60,7 @@ rejected
 .
 info
 :
->
+|
 This
 is
 different

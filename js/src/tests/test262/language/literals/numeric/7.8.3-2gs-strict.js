@@ -83,7 +83,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

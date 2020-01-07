@@ -70,7 +70,7 @@ entries
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

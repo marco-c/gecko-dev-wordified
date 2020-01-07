@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Uint8Array
 instances
 should

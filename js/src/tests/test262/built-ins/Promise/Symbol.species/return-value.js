@@ -56,7 +56,7 @@ return
 value
 info
 :
->
+|
 1
 .
 Return

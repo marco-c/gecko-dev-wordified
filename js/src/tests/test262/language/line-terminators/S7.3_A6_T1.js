@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Line
 Terminator
 cannot
@@ -85,7 +85,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

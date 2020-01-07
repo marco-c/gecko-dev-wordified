@@ -61,7 +61,7 @@ not
 extensible
 info
 :
->
+|
 [
 [
 GetOwnProperty

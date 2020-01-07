@@ -58,7 +58,7 @@ is
 .
 info
 :
->
+|
 get
 RegExp
 .

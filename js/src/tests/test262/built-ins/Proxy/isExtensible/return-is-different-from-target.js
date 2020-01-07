@@ -70,7 +70,7 @@ IsExtensible
 result
 info
 :
->
+|
 [
 [
 IsExtensible

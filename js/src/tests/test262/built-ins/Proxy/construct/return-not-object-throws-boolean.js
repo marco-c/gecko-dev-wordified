@@ -59,7 +59,7 @@ Object
 Boolean
 info
 :
->
+|
 [
 [
 Construct

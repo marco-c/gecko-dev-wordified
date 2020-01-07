@@ -63,7 +63,7 @@ types
 .
 info
 :
->
+|
 String
 .
 fromCodePoint

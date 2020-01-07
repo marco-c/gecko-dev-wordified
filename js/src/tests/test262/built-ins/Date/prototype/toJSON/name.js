@@ -68,7 +68,7 @@ toJSON
 .
 info
 :
->
+|
 Date
 .
 prototype

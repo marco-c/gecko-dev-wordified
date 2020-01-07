@@ -57,7 +57,7 @@ fromCharCode
 .
 info
 :
->
+|
 String
 .
 fromCharCode

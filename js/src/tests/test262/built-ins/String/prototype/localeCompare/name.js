@@ -59,7 +59,7 @@ localeCompare
 .
 info
 :
->
+|
 String
 .
 prototype

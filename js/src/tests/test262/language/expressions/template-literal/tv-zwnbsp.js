@@ -61,7 +61,7 @@ space
 character
 info
 :
->
+|
 The
 zero
 width

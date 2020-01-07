@@ -91,7 +91,7 @@ Block
 .
 info
 :
->
+|
 Annex
 B
 extensions
@@ -141,7 +141,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

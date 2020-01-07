@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 White
 Space
 and

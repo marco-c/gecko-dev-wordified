@@ -63,7 +63,7 @@ property
 .
 info
 :
->
+|
 [
 [
 Get

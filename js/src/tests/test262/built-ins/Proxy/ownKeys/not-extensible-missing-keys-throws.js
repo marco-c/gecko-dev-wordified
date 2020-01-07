@@ -80,7 +80,7 @@ object
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

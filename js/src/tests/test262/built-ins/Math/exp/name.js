@@ -57,7 +57,7 @@ exp
 .
 info
 :
->
+|
 Math
 .
 exp

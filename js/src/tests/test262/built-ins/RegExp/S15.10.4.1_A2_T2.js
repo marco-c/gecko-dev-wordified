@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 pattern
 is
 an

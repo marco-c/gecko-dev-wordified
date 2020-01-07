@@ -63,7 +63,7 @@ space
 .
 info
 :
->
+|
 11
 .
 2
@@ -119,7 +119,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

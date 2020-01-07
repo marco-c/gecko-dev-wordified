@@ -66,7 +66,7 @@ used
 .
 info
 :
->
+|
 InitializePluralRules
 (
 collator

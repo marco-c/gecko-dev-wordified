@@ -51,7 +51,7 @@ of
 NoSubstitutionTemplate
 info
 :
->
+|
 12
 .
 2

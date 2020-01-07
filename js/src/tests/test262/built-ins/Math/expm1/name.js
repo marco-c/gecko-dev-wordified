@@ -57,7 +57,7 @@ expm1
 .
 info
 :
->
+|
 Math
 .
 expm1

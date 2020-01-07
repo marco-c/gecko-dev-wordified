@@ -63,7 +63,7 @@ not
 configurable
 info
 :
->
+|
 [
 [
 GetOwnProperty

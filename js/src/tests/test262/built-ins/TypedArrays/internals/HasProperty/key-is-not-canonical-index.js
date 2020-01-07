@@ -65,7 +65,7 @@ a
 CanonicalNumericIndexString
 info
 :
->
+|
 9
 .
 4

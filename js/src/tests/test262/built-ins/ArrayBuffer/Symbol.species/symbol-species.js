@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 ArrayBuffer
 has
 a

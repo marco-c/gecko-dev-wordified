@@ -53,7 +53,7 @@ object
 argument
 info
 :
->
+|
 22
 .
 2

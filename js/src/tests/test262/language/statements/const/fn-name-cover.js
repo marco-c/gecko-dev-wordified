@@ -57,7 +57,7 @@ CoverParenthesizedExpression
 )
 info
 :
->
+|
 LexicalBinding
 :
 BindingIdentifier

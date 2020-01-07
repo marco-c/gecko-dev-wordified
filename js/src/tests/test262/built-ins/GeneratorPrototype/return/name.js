@@ -59,7 +59,7 @@ return
 .
 info
 :
->
+|
 Generator
 .
 prototype

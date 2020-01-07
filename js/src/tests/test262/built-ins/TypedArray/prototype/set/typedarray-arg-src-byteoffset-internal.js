@@ -65,7 +65,7 @@ ByteOffset
 ]
 info
 :
->
+|
 22
 .
 2

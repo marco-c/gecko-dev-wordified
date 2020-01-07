@@ -60,7 +60,7 @@ callable
 .
 info
 :
->
+|
 Promise
 .
 race

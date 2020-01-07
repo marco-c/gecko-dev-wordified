@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Two
 regular
 expression

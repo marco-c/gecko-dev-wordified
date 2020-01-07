@@ -53,7 +53,7 @@ is
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

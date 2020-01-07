@@ -62,7 +62,7 @@ abrupt
 completion
 info
 :
->
+|
 SwitchStatement
 :
 switch

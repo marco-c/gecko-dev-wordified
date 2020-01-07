@@ -63,7 +63,7 @@ byteOffset
 .
 info
 :
->
+|
 get
 %
 TypedArray

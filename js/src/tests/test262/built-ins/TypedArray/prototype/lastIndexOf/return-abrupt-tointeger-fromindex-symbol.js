@@ -60,7 +60,7 @@ using
 symbol
 info
 :
->
+|
 22
 .
 2

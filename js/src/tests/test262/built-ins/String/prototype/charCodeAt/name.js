@@ -59,7 +59,7 @@ charCodeAt
 .
 info
 :
->
+|
 String
 .
 prototype

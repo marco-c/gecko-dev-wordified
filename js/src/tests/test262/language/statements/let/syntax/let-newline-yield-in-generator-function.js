@@ -82,7 +82,7 @@ a
 BindingIdentifier
 info
 :
->
+|
 yield
 is
 a
@@ -136,7 +136,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

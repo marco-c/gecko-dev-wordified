@@ -35,7 +35,7 @@ file
 -
 info
 :
->
+|
 Step
 4
 of

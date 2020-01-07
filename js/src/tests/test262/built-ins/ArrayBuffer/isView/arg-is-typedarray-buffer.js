@@ -56,7 +56,7 @@ instance
 buffer
 info
 :
->
+|
 24
 .
 1

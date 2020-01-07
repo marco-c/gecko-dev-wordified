@@ -62,7 +62,7 @@ TypedArray
 %
 info
 :
->
+|
 22
 .
 2

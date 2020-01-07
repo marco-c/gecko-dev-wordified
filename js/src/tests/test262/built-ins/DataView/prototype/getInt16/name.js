@@ -68,7 +68,7 @@ getInt16
 .
 info
 :
->
+|
 DataView
 .
 prototype

@@ -48,7 +48,7 @@ es6id
 5
 info
 :
->
+|
 Math
 .
 asinh

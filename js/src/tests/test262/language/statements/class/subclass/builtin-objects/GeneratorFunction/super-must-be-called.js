@@ -56,7 +56,7 @@ internal
 slots
 info
 :
->
+|
 25
 .
 2

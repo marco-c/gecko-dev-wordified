@@ -56,7 +56,7 @@ element
 list
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

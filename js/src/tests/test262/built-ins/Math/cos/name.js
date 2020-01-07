@@ -57,7 +57,7 @@ cos
 .
 info
 :
->
+|
 Math
 .
 cos

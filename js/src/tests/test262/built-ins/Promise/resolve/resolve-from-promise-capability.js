@@ -56,7 +56,7 @@ returns
 .
 info
 :
->
+|
 Promise
 .
 resolve

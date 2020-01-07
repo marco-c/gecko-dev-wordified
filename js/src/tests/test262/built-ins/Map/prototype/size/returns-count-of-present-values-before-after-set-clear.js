@@ -62,7 +62,7 @@ clear
 .
 info
 :
->
+|
 get
 Map
 .

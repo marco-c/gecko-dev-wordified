@@ -57,7 +57,7 @@ prototype
 match
 info
 :
->
+|
 [
 .
 .

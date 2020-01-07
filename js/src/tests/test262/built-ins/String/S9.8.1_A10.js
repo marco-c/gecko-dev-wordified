@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Return
 the
 string

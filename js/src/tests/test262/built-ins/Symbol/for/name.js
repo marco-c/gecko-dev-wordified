@@ -57,7 +57,7 @@ for
 .
 info
 :
->
+|
 Symbol
 .
 for

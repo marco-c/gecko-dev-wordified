@@ -60,7 +60,7 @@ a
 function
 info
 :
->
+|
 Proxy
 .
 revocable

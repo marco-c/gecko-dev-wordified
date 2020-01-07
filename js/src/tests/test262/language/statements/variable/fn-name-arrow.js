@@ -56,7 +56,7 @@ ArrowFunction
 )
 info
 :
->
+|
 VariableDeclaration
 :
 BindingIdentifier

@@ -53,7 +53,7 @@ string
 argument
 info
 :
->
+|
 [
 .
 .

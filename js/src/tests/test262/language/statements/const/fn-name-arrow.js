@@ -56,7 +56,7 @@ ArrowFunction
 )
 info
 :
->
+|
 LexicalBinding
 :
 BindingIdentifier

@@ -66,7 +66,7 @@ hand
 side
 info
 :
->
+|
 The
 syntactic
 context

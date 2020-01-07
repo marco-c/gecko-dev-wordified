@@ -62,7 +62,7 @@ of
 Number
 info
 :
->
+|
 17
 ECMAScript
 Standard

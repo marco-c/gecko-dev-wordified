@@ -57,7 +57,7 @@ tanh
 .
 info
 :
->
+|
 Math
 .
 tanh

@@ -68,7 +68,7 @@ strict
 mode
 info
 :
->
+|
 22
 .
 2

@@ -59,7 +59,7 @@ literals
 .
 info
 :
->
+|
 11
 .
 1

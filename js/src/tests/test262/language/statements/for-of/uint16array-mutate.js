@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Uint16Array
 instances
 should

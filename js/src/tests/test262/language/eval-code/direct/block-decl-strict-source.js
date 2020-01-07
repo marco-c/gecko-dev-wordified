@@ -55,7 +55,7 @@ B
 2
 info
 :
->
+|
 Block
 statement
 in

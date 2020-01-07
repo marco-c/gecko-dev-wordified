@@ -59,7 +59,7 @@ a
 Symbol
 info
 :
->
+|
 21
 .
 1

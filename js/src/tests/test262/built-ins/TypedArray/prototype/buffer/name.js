@@ -63,7 +63,7 @@ buffer
 .
 info
 :
->
+|
 get
 %
 TypedArray

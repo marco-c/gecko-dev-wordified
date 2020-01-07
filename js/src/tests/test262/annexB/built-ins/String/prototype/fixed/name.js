@@ -59,7 +59,7 @@ fixed
 .
 info
 :
->
+|
 String
 .
 prototype

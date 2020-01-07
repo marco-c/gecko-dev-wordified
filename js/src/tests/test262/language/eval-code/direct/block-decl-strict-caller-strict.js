@@ -65,7 +65,7 @@ onlyStrict
 ]
 info
 :
->
+|
 Block
 statement
 in

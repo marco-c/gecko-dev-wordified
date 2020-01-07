@@ -122,7 +122,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 ReferenceError

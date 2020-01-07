@@ -66,7 +66,7 @@ a
 BigInt
 info
 :
->
+|
 BigInt
 .
 prototype

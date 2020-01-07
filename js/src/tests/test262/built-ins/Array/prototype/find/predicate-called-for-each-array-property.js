@@ -66,7 +66,7 @@ property
 .
 info
 :
->
+|
 22
 .
 1

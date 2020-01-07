@@ -59,7 +59,7 @@ Property
 descriptor
 info
 :
->
+|
 Every
 other
 data

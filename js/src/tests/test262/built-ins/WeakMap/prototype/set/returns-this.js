@@ -65,7 +65,7 @@ value
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

@@ -62,7 +62,7 @@ entry
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

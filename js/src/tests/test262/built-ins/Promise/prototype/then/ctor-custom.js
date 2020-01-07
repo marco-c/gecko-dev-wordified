@@ -57,7 +57,7 @@ takes
 precedence
 info
 :
->
+|
 1
 .
 Let

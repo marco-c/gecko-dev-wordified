@@ -54,7 +54,7 @@ with
 .
 info
 :
->
+|
 [
 [
 HasProperty

@@ -55,7 +55,7 @@ stringify
 .
 info
 :
->
+|
 JSON
 .
 stringify

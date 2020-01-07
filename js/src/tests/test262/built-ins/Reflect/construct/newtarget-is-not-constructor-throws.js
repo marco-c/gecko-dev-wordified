@@ -57,7 +57,7 @@ constructor
 .
 info
 :
->
+|
 26
 .
 1

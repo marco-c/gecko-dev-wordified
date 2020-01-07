@@ -70,7 +70,7 @@ next
 .
 info
 :
->
+|
 %
 ArrayIteratorPrototype
 %

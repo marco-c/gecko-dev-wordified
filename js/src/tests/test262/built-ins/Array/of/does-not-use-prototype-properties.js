@@ -76,7 +76,7 @@ arguments
 .
 info
 :
->
+|
 It
 defines
 elements

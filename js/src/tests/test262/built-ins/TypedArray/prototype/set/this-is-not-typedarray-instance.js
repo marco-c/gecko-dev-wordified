@@ -52,7 +52,7 @@ overloaded
 offset
 description
 :
-|
+>
 Throws
 a
 TypeError
@@ -66,7 +66,7 @@ TypedArray
 instance
 info
 :
->
+|
 22
 .
 2

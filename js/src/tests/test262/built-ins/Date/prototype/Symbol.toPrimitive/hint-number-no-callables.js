@@ -74,7 +74,7 @@ callable
 .
 info
 :
->
+|
 1
 .
 Let

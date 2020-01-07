@@ -57,7 +57,7 @@ enumerable
 .
 info
 :
->
+|
 26
 .
 1

@@ -54,7 +54,7 @@ global
 property
 info
 :
->
+|
 get
 RegExp
 .

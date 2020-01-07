@@ -58,7 +58,7 @@ property
 descriptor
 info
 :
->
+|
 String
 .
 raw

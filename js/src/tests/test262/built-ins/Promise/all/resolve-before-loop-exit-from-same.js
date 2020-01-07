@@ -66,7 +66,7 @@ row
 .
 info
 :
->
+|
 Runtime
 Semantics
 :

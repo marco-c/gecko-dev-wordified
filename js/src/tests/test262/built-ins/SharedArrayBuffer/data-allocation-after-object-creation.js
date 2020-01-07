@@ -72,7 +72,7 @@ Block
 .
 info
 :
->
+|
 SharedArrayBuffer
 (
 length

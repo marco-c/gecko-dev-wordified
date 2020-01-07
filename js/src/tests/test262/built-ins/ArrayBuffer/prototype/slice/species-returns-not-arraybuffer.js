@@ -68,7 +68,7 @@ instance
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

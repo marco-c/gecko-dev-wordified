@@ -68,7 +68,7 @@ parameter
 .
 info
 :
->
+|
 WeakSet
 (
 [

@@ -57,7 +57,7 @@ trunc
 .
 info
 :
->
+|
 Math
 .
 trunc

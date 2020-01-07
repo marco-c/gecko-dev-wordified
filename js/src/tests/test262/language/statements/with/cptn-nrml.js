@@ -55,7 +55,7 @@ normal
 completion
 info
 :
->
+|
 WithStatement
 :
 with

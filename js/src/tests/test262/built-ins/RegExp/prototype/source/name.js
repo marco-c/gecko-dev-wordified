@@ -74,7 +74,7 @@ source
 .
 info
 :
->
+|
 get
 RegExp
 .

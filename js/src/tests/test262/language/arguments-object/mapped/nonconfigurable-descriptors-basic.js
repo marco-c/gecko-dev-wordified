@@ -48,7 +48,7 @@ descriptor
 behavior
 info
 :
->
+|
 Descriptor
 of
 a

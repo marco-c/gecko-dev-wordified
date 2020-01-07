@@ -68,7 +68,7 @@ getUTCMonth
 .
 info
 :
->
+|
 Date
 .
 prototype

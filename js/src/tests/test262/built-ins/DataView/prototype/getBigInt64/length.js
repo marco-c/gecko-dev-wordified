@@ -69,7 +69,7 @@ property
 descriptor
 info
 :
->
+|
 DataView
 .
 prototype

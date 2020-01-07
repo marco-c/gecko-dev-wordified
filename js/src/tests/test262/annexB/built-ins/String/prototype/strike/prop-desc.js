@@ -65,7 +65,7 @@ prototype
 strike
 info
 :
->
+|
 Every
 other
 data

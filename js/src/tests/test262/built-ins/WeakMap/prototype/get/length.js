@@ -69,7 +69,7 @@ descriptor
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

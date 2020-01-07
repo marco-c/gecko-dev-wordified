@@ -61,7 +61,7 @@ splitter
 object
 info
 :
->
+|
 [
 .
 .

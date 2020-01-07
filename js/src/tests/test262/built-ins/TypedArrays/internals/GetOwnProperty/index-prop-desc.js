@@ -63,7 +63,7 @@ index
 property
 info
 :
->
+|
 9
 .
 4

@@ -52,7 +52,7 @@ no
 elements
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

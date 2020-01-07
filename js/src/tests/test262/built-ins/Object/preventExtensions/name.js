@@ -57,7 +57,7 @@ preventExtensions
 .
 info
 :
->
+|
 Object
 .
 preventExtensions

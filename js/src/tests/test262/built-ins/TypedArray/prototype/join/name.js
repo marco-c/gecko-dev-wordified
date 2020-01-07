@@ -61,7 +61,7 @@ join
 .
 info
 :
->
+|
 %
 TypedArray
 %

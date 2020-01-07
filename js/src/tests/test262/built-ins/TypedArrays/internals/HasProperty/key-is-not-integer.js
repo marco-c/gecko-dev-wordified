@@ -65,7 +65,7 @@ an
 integer
 info
 :
->
+|
 9
 .
 4

@@ -66,7 +66,7 @@ Uint32Array
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Misc
 sequencing
 tests

@@ -68,7 +68,7 @@ or
 null
 info
 :
->
+|
 [
 .
 .

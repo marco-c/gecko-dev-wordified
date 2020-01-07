@@ -65,7 +65,7 @@ length
 descriptor
 info
 :
->
+|
 WeakSet
 .
 prototype

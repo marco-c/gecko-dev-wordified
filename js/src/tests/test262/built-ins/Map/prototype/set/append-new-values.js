@@ -60,7 +60,7 @@ entries
 .
 info
 :
->
+|
 Map
 .
 prototype

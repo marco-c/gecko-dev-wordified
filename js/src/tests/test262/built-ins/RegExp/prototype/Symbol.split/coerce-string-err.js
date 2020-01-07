@@ -56,7 +56,7 @@ string
 argument
 info
 :
->
+|
 [
 .
 .

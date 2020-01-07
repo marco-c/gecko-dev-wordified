@@ -29,7 +29,7 @@ details
 -
 info
 :
->
+|
 Promise
 executor
 has

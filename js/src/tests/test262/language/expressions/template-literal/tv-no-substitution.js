@@ -55,7 +55,7 @@ substitution
 patterns
 info
 :
->
+|
 The
 TV
 and

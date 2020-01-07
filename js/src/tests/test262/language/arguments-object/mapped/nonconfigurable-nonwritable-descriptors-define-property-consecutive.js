@@ -51,7 +51,7 @@ writable
 property
 info
 :
->
+|
 Mapping
 stop
 working

@@ -53,7 +53,7 @@ species
 constructor
 info
 :
->
+|
 [
 .
 .

@@ -60,7 +60,7 @@ function
 )
 info
 :
->
+|
 12
 .
 Let

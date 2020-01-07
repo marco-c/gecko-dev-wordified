@@ -57,7 +57,7 @@ strict
 mode
 info
 :
->
+|
 22
 .
 1

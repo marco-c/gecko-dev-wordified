@@ -59,7 +59,7 @@ get
 name
 info
 :
->
+|
 21
 .
 2

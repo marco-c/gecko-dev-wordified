@@ -55,7 +55,7 @@ DateTimeFormat
 .
 info
 :
->
+|
 12
 .
 2

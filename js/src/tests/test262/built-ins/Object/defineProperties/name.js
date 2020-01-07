@@ -57,7 +57,7 @@ defineProperties
 .
 info
 :
->
+|
 Object
 .
 defineProperties

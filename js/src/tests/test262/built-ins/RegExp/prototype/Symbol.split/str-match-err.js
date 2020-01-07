@@ -61,7 +61,7 @@ empty
 string
 info
 :
->
+|
 [
 .
 .

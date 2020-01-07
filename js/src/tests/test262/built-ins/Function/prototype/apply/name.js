@@ -59,7 +59,7 @@ apply
 .
 info
 :
->
+|
 Function
 .
 prototype

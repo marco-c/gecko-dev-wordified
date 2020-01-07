@@ -48,7 +48,7 @@ Subclassing
 Array
 info
 :
->
+|
 22
 .
 1

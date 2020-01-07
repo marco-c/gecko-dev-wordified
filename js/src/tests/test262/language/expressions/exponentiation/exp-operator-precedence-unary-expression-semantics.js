@@ -55,7 +55,7 @@ unary
 operators
 info
 :
->
+|
 ExponentiationExpression
 :
 UnaryExpression

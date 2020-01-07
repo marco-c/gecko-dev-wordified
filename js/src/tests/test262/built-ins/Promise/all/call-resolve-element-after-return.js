@@ -67,7 +67,7 @@ returned
 .
 info
 :
->
+|
 Promise
 .
 all

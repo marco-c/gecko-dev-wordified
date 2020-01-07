@@ -65,7 +65,7 @@ value
 set
 info
 :
->
+|
 22
 .
 2

@@ -68,7 +68,7 @@ internal
 slot
 info
 :
->
+|
 22
 .
 2

@@ -61,7 +61,7 @@ from
 ToObject
 info
 :
->
+|
 1
 .
 Let

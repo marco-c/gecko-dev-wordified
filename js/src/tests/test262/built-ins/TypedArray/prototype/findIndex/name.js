@@ -61,7 +61,7 @@ findIndex
 .
 info
 :
->
+|
 %
 TypedArray
 %

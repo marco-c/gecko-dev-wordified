@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 EscapeSequence
 :
 :
@@ -76,7 +76,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

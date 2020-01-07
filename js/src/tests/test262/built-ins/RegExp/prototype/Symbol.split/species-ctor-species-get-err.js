@@ -61,7 +61,7 @@ of
 constructor
 info
 :
->
+|
 [
 .
 .

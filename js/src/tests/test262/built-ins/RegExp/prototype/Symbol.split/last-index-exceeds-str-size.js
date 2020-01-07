@@ -56,7 +56,7 @@ size
 .
 info
 :
->
+|
 RegExp
 .
 prototype

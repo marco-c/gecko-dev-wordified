@@ -59,7 +59,7 @@ invalid
 radix
 info
 :
->
+|
 BigInt
 .
 prototype

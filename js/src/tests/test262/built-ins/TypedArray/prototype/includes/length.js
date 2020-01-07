@@ -63,7 +63,7 @@ is
 .
 info
 :
->
+|
 %
 TypedArray
 %

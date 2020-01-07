@@ -62,7 +62,7 @@ own
 property
 info
 :
->
+|
 [
 .
 .

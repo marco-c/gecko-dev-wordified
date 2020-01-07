@@ -59,7 +59,7 @@ replace
 .
 info
 :
->
+|
 String
 .
 prototype

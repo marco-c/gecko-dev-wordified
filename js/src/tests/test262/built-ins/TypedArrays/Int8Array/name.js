@@ -66,7 +66,7 @@ Int8Array
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

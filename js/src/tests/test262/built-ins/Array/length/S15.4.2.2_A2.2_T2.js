@@ -40,7 +40,7 @@ array
 len
 info
 :
->
+|
 If
 the
 argument

@@ -41,7 +41,7 @@ Unicode
 RegExp
 info
 :
->
+|
 IdentityEscape
 for
 Unicode

@@ -63,7 +63,7 @@ attributes
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

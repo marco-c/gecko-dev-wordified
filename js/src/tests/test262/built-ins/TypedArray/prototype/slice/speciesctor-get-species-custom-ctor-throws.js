@@ -63,7 +63,7 @@ compatible
 object
 info
 :
->
+|
 22
 .
 2

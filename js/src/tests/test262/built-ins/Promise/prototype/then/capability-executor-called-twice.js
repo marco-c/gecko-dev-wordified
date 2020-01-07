@@ -61,7 +61,7 @@ values
 .
 info
 :
->
+|
 Promise
 .
 prototype

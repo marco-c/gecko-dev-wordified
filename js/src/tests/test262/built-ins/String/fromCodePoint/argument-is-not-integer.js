@@ -63,7 +63,7 @@ representation
 .
 info
 :
->
+|
 String
 .
 fromCodePoint

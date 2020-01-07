@@ -34,7 +34,7 @@ file
 -
 info
 :
->
+|
 RegExp
 .
 prototype

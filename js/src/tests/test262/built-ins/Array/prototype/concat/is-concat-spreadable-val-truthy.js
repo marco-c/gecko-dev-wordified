@@ -69,7 +69,7 @@ to
 true
 info
 :
->
+|
 1
 .
 Let

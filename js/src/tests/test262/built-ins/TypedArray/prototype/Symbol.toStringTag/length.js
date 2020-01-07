@@ -61,7 +61,7 @@ is
 .
 info
 :
->
+|
 get
 %
 TypedArray

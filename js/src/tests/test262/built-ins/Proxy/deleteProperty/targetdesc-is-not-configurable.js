@@ -77,7 +77,7 @@ object
 .
 info
 :
->
+|
 14
 .
 If

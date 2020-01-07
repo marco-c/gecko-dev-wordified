@@ -55,7 +55,7 @@ unescape
 .
 info
 :
->
+|
 unescape
 (
 string

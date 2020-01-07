@@ -42,7 +42,7 @@ prototype
 gethours
 info
 :
->
+|
 The
 Date
 .

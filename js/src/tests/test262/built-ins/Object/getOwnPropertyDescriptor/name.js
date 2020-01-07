@@ -57,7 +57,7 @@ getOwnPropertyDescriptor
 .
 info
 :
->
+|
 Object
 .
 getOwnPropertyDescriptor

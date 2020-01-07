@@ -51,7 +51,7 @@ with
 getter
 info
 :
->
+|
 22
 .
 1

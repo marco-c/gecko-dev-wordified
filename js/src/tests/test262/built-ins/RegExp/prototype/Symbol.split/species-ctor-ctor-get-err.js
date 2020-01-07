@@ -56,7 +56,7 @@ constructor
 property
 info
 :
->
+|
 [
 .
 .

@@ -57,7 +57,7 @@ getOwnPropertyNames
 .
 info
 :
->
+|
 Object
 .
 getOwnPropertyNames

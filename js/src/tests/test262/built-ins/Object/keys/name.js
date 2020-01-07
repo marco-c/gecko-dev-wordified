@@ -57,7 +57,7 @@ keys
 .
 info
 :
->
+|
 Object
 .
 keys

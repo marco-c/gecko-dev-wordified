@@ -52,7 +52,7 @@ es6id
 1
 info
 :
->
+|
 The
 length
 property

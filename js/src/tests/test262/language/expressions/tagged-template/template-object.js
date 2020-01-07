@@ -51,7 +51,7 @@ template
 object
 info
 :
->
+|
 The
 first
 argument

@@ -68,7 +68,7 @@ toLocaleTimeString
 .
 info
 :
->
+|
 Date
 .
 prototype

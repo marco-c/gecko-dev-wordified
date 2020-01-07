@@ -80,7 +80,7 @@ directive
 .
 info
 :
->
+|
 Static
 Semantics
 :
@@ -108,7 +108,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

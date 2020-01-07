@@ -53,7 +53,7 @@ range
 expression
 info
 :
->
+|
 The
 compatibility
 extensions

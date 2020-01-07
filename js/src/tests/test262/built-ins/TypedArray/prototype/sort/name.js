@@ -61,7 +61,7 @@ sort
 .
 info
 :
->
+|
 %
 TypedArray
 %

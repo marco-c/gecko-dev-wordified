@@ -50,7 +50,7 @@ symbols
 )
 info
 :
->
+|
 String
 literals
 should

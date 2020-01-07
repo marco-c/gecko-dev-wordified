@@ -64,7 +64,7 @@ prototype
 __defineGetter__
 info
 :
->
+|
 Every
 other
 data

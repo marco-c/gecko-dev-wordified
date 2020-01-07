@@ -65,7 +65,7 @@ long
 succeeds
 info
 :
->
+|
 long
 was
 removed

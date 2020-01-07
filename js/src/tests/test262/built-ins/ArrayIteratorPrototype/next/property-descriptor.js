@@ -73,9 +73,6 @@ propertyHelper
 .
 js
 ]
-es6id
-:
-17
 features
 :
 [

@@ -74,7 +74,7 @@ object
 value
 info
 :
->
+|
 get
 RegExp
 .

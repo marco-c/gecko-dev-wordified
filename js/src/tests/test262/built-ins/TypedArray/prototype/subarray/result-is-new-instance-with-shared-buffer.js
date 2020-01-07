@@ -58,7 +58,7 @@ same
 buffer
 info
 :
->
+|
 22
 .
 2

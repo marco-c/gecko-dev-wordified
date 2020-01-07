@@ -51,7 +51,7 @@ pairs
 )
 info
 :
->
+|
 String
 literals
 should

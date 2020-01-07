@@ -53,7 +53,7 @@ prototype
 match
 info
 :
->
+|
 21
 .
 2

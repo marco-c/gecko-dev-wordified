@@ -52,7 +52,7 @@ name
 property
 info
 :
->
+|
 1
 .
 Return

@@ -67,7 +67,7 @@ primitive
 value
 info
 :
->
+|
 [
 .
 .

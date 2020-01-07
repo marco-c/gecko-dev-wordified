@@ -57,7 +57,7 @@ property
 descriptor
 info
 :
->
+|
 BigInt
 .
 asIntN

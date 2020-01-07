@@ -55,7 +55,7 @@ head
 pattern
 info
 :
->
+|
 The
 TV
 and

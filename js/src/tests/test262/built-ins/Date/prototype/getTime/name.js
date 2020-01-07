@@ -68,7 +68,7 @@ getTime
 .
 info
 :
->
+|
 Date
 .
 prototype

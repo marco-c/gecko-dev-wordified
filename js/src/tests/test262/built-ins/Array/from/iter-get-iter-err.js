@@ -59,7 +59,7 @@ iterator
 object
 info
 :
->
+|
 [
 .
 .

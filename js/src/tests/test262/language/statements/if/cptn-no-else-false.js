@@ -56,7 +56,7 @@ else
 clause
 info
 :
->
+|
 IfStatement
 :
 if

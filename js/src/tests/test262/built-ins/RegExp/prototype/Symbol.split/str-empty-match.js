@@ -53,7 +53,7 @@ empty
 string
 info
 :
->
+|
 [
 .
 .

@@ -42,7 +42,7 @@ prototype
 getfullyear
 info
 :
->
+|
 The
 Date
 .

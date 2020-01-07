@@ -61,7 +61,7 @@ detached
 buffer
 info
 :
->
+|
 22
 .
 2

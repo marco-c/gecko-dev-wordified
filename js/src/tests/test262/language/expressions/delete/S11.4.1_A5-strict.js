@@ -37,7 +37,7 @@ file
 -
 info
 :
->
+|
 A
 strict
 delete

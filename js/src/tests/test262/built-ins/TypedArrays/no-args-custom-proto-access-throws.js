@@ -53,7 +53,7 @@ s
 prototype
 info
 :
->
+|
 22
 .
 2

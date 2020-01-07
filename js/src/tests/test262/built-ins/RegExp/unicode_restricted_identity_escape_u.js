@@ -53,7 +53,7 @@ escape
 sequences
 info
 :
->
+|
 The
 compatibility
 extensions

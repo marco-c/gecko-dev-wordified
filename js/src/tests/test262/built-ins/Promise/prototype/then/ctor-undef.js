@@ -64,7 +64,7 @@ constructor
 property
 info
 :
->
+|
 1
 .
 Let

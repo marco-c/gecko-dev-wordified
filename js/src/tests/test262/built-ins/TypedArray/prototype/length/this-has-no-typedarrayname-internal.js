@@ -50,7 +50,7 @@ prototype
 length
 description
 :
-|
+>
 Throws
 a
 TypeError
@@ -70,7 +70,7 @@ internal
 slot
 info
 :
->
+|
 22
 .
 2

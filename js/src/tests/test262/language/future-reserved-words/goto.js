@@ -65,7 +65,7 @@ goto
 succeeds
 info
 :
->
+|
 goto
 was
 removed

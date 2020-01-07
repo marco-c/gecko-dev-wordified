@@ -64,7 +64,7 @@ property
 descriptor
 info
 :
->
+|
 WeakSet
 .
 prototype

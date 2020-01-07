@@ -57,7 +57,7 @@ is
 .
 info
 :
->
+|
 Date
 .
 prototype

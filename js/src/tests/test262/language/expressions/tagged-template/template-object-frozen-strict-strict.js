@@ -62,7 +62,7 @@ mode
 )
 info
 :
->
+|
 The
 first
 argument

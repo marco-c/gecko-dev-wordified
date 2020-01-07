@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Throws
 a
 TypeError
@@ -70,7 +70,7 @@ detached
 buffer
 info
 :
->
+|
 9
 .
 4

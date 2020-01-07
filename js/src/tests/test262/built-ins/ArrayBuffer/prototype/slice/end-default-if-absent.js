@@ -69,7 +69,7 @@ absent
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

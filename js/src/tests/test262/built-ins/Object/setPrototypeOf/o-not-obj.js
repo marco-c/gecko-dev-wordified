@@ -58,7 +58,7 @@ object
 value
 info
 :
->
+|
 1
 .
 Let

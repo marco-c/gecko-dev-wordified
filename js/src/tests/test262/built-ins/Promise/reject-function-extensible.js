@@ -59,7 +59,7 @@ Reject
 functions
 info
 :
->
+|
 17
 ECMAScript
 Standard

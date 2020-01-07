@@ -57,7 +57,7 @@ atan
 .
 info
 :
->
+|
 Math
 .
 atan

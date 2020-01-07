@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 It
 is
 an
@@ -79,7 +79,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 ReferenceError

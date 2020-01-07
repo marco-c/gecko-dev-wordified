@@ -76,7 +76,7 @@ error
 .
 info
 :
->
+|
 Lexical
 declarations
 may
@@ -93,7 +93,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

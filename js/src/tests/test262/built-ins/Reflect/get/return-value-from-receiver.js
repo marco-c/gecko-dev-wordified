@@ -53,7 +53,7 @@ receiver
 .
 info
 :
->
+|
 26
 .
 1

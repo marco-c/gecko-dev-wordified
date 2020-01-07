@@ -58,7 +58,7 @@ prototype
 .
 info
 :
->
+|
 26
 .
 1

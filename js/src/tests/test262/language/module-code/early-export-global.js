@@ -76,7 +76,7 @@ global
 binding
 info
 :
->
+|
 It
 is
 a
@@ -115,7 +115,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

@@ -68,7 +68,7 @@ getUint32
 .
 info
 :
->
+|
 DataView
 .
 prototype

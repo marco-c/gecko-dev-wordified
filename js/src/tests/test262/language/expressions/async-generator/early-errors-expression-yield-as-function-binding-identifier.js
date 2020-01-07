@@ -52,11 +52,7 @@ com
 >
 esid
 :
-12
-.
-1
-.
-1
+pending
 description
 :
 >
@@ -73,7 +69,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

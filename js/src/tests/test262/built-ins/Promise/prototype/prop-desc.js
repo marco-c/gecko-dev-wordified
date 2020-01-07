@@ -62,7 +62,7 @@ prototype
 property
 info
 :
->
+|
 This
 property
 has

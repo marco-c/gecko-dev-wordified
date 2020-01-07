@@ -67,7 +67,7 @@ prototype
 constructor
 info
 :
->
+|
 Number
 .
 prototype

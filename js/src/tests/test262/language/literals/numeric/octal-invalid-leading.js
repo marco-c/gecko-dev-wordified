@@ -66,7 +66,7 @@ leading
 0
 info
 :
->
+|
 OctalIntegerLiteral
 :
 :
@@ -97,7 +97,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

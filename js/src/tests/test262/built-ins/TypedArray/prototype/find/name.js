@@ -61,7 +61,7 @@ find
 .
 info
 :
->
+|
 %
 TypedArray
 %

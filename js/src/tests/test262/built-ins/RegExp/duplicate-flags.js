@@ -48,7 +48,7 @@ file
 -
 info
 :
->
+|
 RegExpInitialize
 (
 obj

@@ -65,7 +65,7 @@ duplicate
 .
 info
 :
->
+|
 WeakSet
 .
 prototype

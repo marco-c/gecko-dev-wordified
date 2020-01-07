@@ -64,7 +64,7 @@ isArray
 .
 info
 :
->
+|
 Array
 .
 isArray

@@ -60,7 +60,7 @@ element
 .
 info
 :
->
+|
 Promise
 .
 all

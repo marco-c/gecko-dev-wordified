@@ -58,7 +58,7 @@ template
 .
 info
 :
->
+|
 21
 .
 1

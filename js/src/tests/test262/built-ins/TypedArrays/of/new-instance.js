@@ -53,7 +53,7 @@ new
 TypedArray
 info
 :
->
+|
 9
 .
 4

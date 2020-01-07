@@ -65,7 +65,7 @@ native
 succeeds
 info
 :
->
+|
 native
 was
 removed

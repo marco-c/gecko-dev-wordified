@@ -65,7 +65,7 @@ prototype
 fontsize
 info
 :
->
+|
 Every
 other
 data

@@ -60,7 +60,7 @@ Array
 object
 info
 :
->
+|
 22
 .
 1

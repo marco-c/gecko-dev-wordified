@@ -59,7 +59,7 @@ search
 .
 info
 :
->
+|
 String
 .
 prototype

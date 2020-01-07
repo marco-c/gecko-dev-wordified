@@ -35,7 +35,7 @@ file
 -
 info
 :
->
+|
 This
 test
 is

@@ -57,7 +57,7 @@ isFrozen
 .
 info
 :
->
+|
 Object
 .
 isFrozen

@@ -76,7 +76,7 @@ generator
 function
 info
 :
->
+|
 1
 .
 Let

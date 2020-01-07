@@ -50,7 +50,7 @@ Promise
 object
 info
 :
->
+|
 25
 .
 4

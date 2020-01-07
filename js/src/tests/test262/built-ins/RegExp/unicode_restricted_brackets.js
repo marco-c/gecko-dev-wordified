@@ -51,7 +51,7 @@ Standalone
 brackets
 info
 :
->
+|
 The
 compatibility
 extensions

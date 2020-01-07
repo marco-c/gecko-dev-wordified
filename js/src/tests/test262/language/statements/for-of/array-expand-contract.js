@@ -53,7 +53,7 @@ for
 of
 info
 :
->
+|
 New
 entries
 inserted

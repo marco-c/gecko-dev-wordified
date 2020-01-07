@@ -57,7 +57,7 @@ searchString
 .
 info
 :
->
+|
 21
 .
 1

@@ -63,7 +63,7 @@ large
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

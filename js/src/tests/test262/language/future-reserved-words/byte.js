@@ -65,7 +65,7 @@ byte
 succeeds
 info
 :
->
+|
 byte
 was
 removed

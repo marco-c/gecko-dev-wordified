@@ -54,7 +54,7 @@ argument
 .
 info
 :
->
+|
 26
 .
 1

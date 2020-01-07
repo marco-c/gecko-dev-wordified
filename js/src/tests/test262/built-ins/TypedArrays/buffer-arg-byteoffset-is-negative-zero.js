@@ -61,7 +61,7 @@ zero
 .
 info
 :
->
+|
 %
 TypedArray
 %

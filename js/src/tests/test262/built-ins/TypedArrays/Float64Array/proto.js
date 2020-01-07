@@ -67,7 +67,7 @@ TypedArray
 .
 info
 :
->
+|
 The
 value
 of

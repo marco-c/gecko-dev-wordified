@@ -53,7 +53,7 @@ bound
 function
 info
 :
->
+|
 1
 .
 Let

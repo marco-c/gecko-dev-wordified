@@ -66,7 +66,7 @@ value
 .
 info
 :
->
+|
 ArrayBuffer
 .
 prototype

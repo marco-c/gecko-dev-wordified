@@ -62,7 +62,7 @@ encodeURI
 .
 info
 :
->
+|
 encodeURI
 (
 uri

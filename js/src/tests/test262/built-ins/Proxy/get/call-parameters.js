@@ -70,7 +70,7 @@ Receiver
 .
 info
 :
->
+|
 6
 .
 1

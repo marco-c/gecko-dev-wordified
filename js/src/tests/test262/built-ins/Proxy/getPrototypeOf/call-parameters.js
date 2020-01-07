@@ -61,7 +61,7 @@ parameter
 .
 info
 :
->
+|
 [
 [
 GetPrototypeOf

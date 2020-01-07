@@ -64,7 +64,7 @@ ordinary
 object
 info
 :
->
+|
 [
 .
 .

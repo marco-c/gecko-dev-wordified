@@ -48,7 +48,7 @@ Identity
 Escape
 info
 :
->
+|
 An
 incomplete
 HexEscape

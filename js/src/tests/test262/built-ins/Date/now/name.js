@@ -64,7 +64,7 @@ now
 .
 info
 :
->
+|
 Date
 .
 now

@@ -61,7 +61,7 @@ filter
 .
 info
 :
->
+|
 %
 TypedArray
 %

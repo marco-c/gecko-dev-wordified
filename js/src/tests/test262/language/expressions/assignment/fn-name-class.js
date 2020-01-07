@@ -54,7 +54,7 @@ ClassExpression
 )
 info
 :
->
+|
 AssignmentExpression
 [
 In

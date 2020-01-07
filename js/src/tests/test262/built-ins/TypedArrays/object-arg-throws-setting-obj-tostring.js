@@ -57,7 +57,7 @@ a
 property
 info
 :
->
+|
 22
 .
 2

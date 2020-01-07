@@ -59,7 +59,7 @@ to
 100
 info
 :
->
+|
 Number
 .
 prototype

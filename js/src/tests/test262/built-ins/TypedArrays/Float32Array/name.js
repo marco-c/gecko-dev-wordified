@@ -66,7 +66,7 @@ Float32Array
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

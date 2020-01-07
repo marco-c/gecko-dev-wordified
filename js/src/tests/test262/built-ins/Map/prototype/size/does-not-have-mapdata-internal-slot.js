@@ -67,7 +67,7 @@ slot
 .
 info
 :
->
+|
 get
 Map
 .

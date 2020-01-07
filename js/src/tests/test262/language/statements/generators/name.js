@@ -51,7 +51,7 @@ es6id
 12
 info
 :
->
+|
 GeneratorDeclaration
 :
 function

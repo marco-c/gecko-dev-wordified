@@ -61,7 +61,7 @@ reduceRight
 .
 info
 :
->
+|
 %
 TypedArray
 %

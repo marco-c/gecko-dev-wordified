@@ -67,7 +67,7 @@ escape
 sequence
 info
 :
->
+|
 OctalIntegerLiteral
 :
 :
@@ -98,7 +98,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

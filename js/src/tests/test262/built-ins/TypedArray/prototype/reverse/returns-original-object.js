@@ -54,7 +54,7 @@ same
 object
 info
 :
->
+|
 22
 .
 2

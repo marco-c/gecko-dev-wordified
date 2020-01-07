@@ -65,7 +65,7 @@ char
 succeeds
 info
 :
->
+|
 char
 was
 removed

@@ -63,7 +63,7 @@ SyntaxError
 .
 info
 :
->
+|
 The
 initial
 value

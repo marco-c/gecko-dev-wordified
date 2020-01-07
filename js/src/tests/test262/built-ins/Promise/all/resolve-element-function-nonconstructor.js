@@ -57,7 +57,7 @@ not
 constructors
 info
 :
->
+|
 17
 ECMAScript
 Standard

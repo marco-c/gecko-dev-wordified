@@ -67,7 +67,7 @@ length
 property
 info
 :
->
+|
 ES6
 section
 17

@@ -72,7 +72,7 @@ exists
 ;
 info
 :
->
+|
 [
 [
 HasProperty

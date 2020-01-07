@@ -59,7 +59,7 @@ anchor
 .
 info
 :
->
+|
 String
 .
 prototype

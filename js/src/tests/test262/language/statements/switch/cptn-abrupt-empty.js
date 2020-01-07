@@ -54,7 +54,7 @@ is
 empty
 info
 :
->
+|
 SwitchStatement
 :
 switch

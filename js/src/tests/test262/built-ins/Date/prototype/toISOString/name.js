@@ -68,7 +68,7 @@ toISOString
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -59,7 +59,7 @@ own
 keys
 info
 :
->
+|
 9
 .
 4

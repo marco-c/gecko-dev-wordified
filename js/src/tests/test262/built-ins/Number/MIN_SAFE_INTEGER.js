@@ -61,7 +61,7 @@ es6id
 8
 info
 :
->
+|
 The
 value
 of

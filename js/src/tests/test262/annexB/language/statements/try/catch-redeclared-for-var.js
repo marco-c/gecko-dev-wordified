@@ -48,7 +48,9 @@ catch
 blocks
 es6id
 :
-B3
+B
+.
+3
 .
 5
 description
@@ -67,7 +69,7 @@ statement
 )
 info
 :
->
+|
 It
 is
 a

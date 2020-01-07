@@ -48,7 +48,7 @@ Subclassing
 GeneratorFunction
 info
 :
->
+|
 25
 .
 2

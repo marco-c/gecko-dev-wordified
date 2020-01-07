@@ -53,7 +53,7 @@ enumerable
 .
 info
 :
->
+|
 17
 ECMAScript
 Standard

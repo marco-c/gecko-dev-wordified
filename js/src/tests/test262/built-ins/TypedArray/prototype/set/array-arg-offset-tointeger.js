@@ -60,7 +60,7 @@ offset
 operations
 info
 :
->
+|
 22
 .
 2

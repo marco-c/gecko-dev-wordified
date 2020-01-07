@@ -56,7 +56,7 @@ iterator
 ]
 info
 :
->
+|
 ES6
 Section
 17

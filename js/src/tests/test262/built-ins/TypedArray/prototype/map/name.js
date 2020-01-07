@@ -61,7 +61,7 @@ map
 .
 info
 :
->
+|
 %
 TypedArray
 %

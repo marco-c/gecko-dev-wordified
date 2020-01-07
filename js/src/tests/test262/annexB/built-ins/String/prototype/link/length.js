@@ -57,7 +57,7 @@ is
 .
 info
 :
->
+|
 String
 .
 prototype

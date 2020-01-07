@@ -35,7 +35,7 @@ file
 -
 info
 :
->
+|
 it
 isn
 '

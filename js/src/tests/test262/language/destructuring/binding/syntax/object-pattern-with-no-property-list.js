@@ -53,7 +53,7 @@ be
 }
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

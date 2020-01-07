@@ -63,7 +63,7 @@ abrupt
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

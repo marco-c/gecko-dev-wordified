@@ -64,7 +64,7 @@ index
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

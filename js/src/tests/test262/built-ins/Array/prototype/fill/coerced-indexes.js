@@ -68,7 +68,7 @@ end
 values
 info
 :
->
+|
 22
 .
 1

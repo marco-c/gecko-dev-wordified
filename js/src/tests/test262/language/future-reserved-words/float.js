@@ -65,7 +65,7 @@ float
 succeeds
 info
 :
->
+|
 float
 was
 removed

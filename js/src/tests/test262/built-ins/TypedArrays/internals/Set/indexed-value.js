@@ -64,7 +64,7 @@ setting
 value
 info
 :
->
+|
 9
 .
 4

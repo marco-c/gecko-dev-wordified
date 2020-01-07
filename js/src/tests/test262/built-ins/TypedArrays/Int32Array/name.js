@@ -66,7 +66,7 @@ Int32Array
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

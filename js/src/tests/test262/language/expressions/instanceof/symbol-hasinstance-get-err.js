@@ -55,7 +55,7 @@ hasInstance
 property
 info
 :
->
+|
 1
 .
 If

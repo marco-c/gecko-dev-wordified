@@ -62,7 +62,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError
@@ -90,7 +90,7 @@ es6id
 1
 info
 :
->
+|
 Although
 Annex
 B

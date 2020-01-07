@@ -42,7 +42,7 @@ prototype
 getminutes
 info
 :
->
+|
 The
 Date
 .

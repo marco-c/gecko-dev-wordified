@@ -61,7 +61,7 @@ every
 .
 info
 :
->
+|
 %
 TypedArray
 %

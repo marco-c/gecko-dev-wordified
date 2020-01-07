@@ -60,7 +60,7 @@ no
 parameters
 info
 :
->
+|
 Intl
 .
 NumberFormat

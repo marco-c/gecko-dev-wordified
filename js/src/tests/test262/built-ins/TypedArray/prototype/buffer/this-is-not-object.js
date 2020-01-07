@@ -57,7 +57,7 @@ not
 Object
 info
 :
->
+|
 22
 .
 2

@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Identifier
 must
 be
@@ -86,7 +86,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

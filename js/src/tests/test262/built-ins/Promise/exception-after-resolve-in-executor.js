@@ -59,7 +59,7 @@ exception
 .
 info
 :
->
+|
 Promise
 (
 executor

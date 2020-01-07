@@ -64,7 +64,7 @@ isView
 .
 info
 :
->
+|
 ArrayBuffer
 .
 isView

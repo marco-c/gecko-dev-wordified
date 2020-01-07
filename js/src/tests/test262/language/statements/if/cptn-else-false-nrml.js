@@ -63,7 +63,7 @@ normal
 completion
 info
 :
->
+|
 IfStatement
 :
 if

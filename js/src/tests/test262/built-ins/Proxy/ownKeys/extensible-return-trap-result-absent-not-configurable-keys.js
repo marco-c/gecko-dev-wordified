@@ -82,7 +82,7 @@ keys
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

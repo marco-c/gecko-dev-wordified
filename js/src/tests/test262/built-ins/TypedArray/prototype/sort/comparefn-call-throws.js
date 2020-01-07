@@ -54,7 +54,7 @@ from
 comparefn
 info
 :
->
+|
 22
 .
 2

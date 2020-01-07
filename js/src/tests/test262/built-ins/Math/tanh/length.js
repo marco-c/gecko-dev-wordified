@@ -48,7 +48,7 @@ es6id
 34
 info
 :
->
+|
 Math
 .
 tanh

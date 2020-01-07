@@ -57,7 +57,7 @@ Date
 "
 info
 :
->
+|
 Date
 .
 prototype

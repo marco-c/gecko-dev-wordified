@@ -55,7 +55,7 @@ Collator
 .
 info
 :
->
+|
 10
 .
 1

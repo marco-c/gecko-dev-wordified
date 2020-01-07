@@ -70,7 +70,7 @@ TypeError
 exception
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

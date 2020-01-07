@@ -46,7 +46,7 @@ es6id
 2
 description
 :
-|
+>
 Return
 value
 from
@@ -59,7 +59,7 @@ internal
 slot
 info
 :
->
+|
 22
 .
 2

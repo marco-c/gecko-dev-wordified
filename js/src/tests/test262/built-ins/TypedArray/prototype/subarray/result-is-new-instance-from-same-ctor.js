@@ -58,7 +58,7 @@ same
 constructor
 info
 :
->
+|
 22
 .
 2

@@ -62,7 +62,7 @@ or
 .
 info
 :
->
+|
 String
 .
 fromCodePoint

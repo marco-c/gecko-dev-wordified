@@ -72,7 +72,7 @@ properties
 .
 info
 :
->
+|
 22
 .
 1

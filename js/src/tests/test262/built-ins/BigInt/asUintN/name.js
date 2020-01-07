@@ -58,7 +58,7 @@ name
 descriptor
 info
 :
->
+|
 BigInt
 .
 asUintN

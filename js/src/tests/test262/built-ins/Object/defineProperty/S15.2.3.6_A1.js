@@ -32,7 +32,7 @@ file
 -
 info
 :
->
+|
 If
 a
 particular

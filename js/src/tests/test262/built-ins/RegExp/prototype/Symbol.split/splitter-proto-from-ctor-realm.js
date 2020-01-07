@@ -70,7 +70,7 @@ the
 constructor
 info
 :
->
+|
 10
 .
 Let

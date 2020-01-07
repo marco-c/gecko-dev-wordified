@@ -66,7 +66,7 @@ true
 .
 info
 :
->
+|
 [
 [
 DefineOwnProperty

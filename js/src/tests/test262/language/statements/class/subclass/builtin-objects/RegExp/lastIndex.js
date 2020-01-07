@@ -54,7 +54,7 @@ property
 lastIndex
 info
 :
->
+|
 21
 .
 2

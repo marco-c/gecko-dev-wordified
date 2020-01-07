@@ -63,7 +63,7 @@ sequences
 .
 info
 :
->
+|
 Terminal
 symbols
 of
@@ -155,7 +155,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

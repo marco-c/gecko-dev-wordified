@@ -66,7 +66,7 @@ HasProperty
 ]
 info
 :
->
+|
 9
 .
 4

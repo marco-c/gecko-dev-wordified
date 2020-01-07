@@ -54,7 +54,7 @@ property
 lists
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

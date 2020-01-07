@@ -59,7 +59,7 @@ object
 buffer
 info
 :
->
+|
 22
 .
 2

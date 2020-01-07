@@ -59,7 +59,7 @@ charAt
 .
 info
 :
->
+|
 String
 .
 prototype

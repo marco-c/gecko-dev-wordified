@@ -56,7 +56,7 @@ Braniecki
 includes
 :
 [
-testIntl
+compareArray
 .
 js
 ]
@@ -199,10 +199,12 @@ pr
 )
 )
 ;
-testArraysAreSame
+assert
+.
+compareArray
 (
-referenceSelected
 actual
+referenceSelected
 )
 ;
 reportCompare

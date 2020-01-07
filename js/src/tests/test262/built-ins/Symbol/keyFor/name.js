@@ -57,7 +57,7 @@ keyFor
 .
 info
 :
->
+|
 Symbol
 .
 keyFor

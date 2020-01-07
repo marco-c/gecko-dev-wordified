@@ -59,7 +59,7 @@ toLocaleString
 .
 info
 :
->
+|
 Number
 .
 prototype

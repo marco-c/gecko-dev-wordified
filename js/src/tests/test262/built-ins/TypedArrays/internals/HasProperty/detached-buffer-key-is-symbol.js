@@ -70,7 +70,7 @@ a
 Symbol
 info
 :
->
+|
 9
 .
 4

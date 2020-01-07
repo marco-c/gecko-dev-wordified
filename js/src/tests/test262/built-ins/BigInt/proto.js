@@ -71,7 +71,7 @@ bigint
 constructor
 info
 :
->
+|
 The
 value
 of

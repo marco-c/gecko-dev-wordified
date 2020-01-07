@@ -60,7 +60,7 @@ primitive
 element
 info
 :
->
+|
 22
 .
 1

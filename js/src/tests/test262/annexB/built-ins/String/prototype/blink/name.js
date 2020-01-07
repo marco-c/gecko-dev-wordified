@@ -59,7 +59,7 @@ blink
 .
 info
 :
->
+|
 String
 .
 prototype

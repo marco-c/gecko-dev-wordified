@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Check
 For
 Statement
@@ -95,7 +95,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

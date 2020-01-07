@@ -111,7 +111,7 @@ negative
 :
 phase
 :
-early
+resolution
 type
 :
 SyntaxError

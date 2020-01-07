@@ -66,7 +66,7 @@ Uint8ClampedArray
 .
 info
 :
->
+|
 Each
 TypedArray
 constructor

@@ -66,7 +66,7 @@ is
 detached
 info
 :
->
+|
 24
 .
 1

@@ -68,7 +68,7 @@ specified
 order
 info
 :
->
+|
 get
 RegExp
 .

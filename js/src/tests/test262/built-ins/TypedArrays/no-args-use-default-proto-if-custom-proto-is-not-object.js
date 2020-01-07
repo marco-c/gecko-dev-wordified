@@ -60,7 +60,7 @@ an
 Object
 info
 :
->
+|
 22
 .
 2

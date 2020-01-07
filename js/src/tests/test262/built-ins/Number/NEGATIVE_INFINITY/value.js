@@ -65,7 +65,7 @@ is
 Infinity
 info
 :
->
+|
 Number
 .
 NEGATIVE_INFINITY

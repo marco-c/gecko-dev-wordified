@@ -59,7 +59,7 @@ sup
 .
 info
 :
->
+|
 String
 .
 prototype

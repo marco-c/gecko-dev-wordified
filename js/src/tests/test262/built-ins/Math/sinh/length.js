@@ -48,7 +48,7 @@ es6id
 31
 info
 :
->
+|
 Math
 .
 sinh

@@ -60,7 +60,7 @@ prototype
 chain
 info
 :
->
+|
 1
 .
 Let

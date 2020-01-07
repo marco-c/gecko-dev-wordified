@@ -60,7 +60,7 @@ match
 result
 info
 :
->
+|
 [
 .
 .

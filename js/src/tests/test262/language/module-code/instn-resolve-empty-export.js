@@ -190,7 +190,7 @@ negative
 :
 phase
 :
-early
+resolution
 type
 :
 ReferenceError

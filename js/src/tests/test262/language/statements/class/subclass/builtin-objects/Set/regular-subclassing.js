@@ -50,7 +50,7 @@ Set
 object
 info
 :
->
+|
 23
 .
 2

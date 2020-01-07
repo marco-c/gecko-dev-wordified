@@ -42,7 +42,7 @@ prototype
 tostring
 info
 :
->
+|
 toString
 :
 If

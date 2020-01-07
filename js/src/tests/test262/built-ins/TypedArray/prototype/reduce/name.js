@@ -61,7 +61,7 @@ reduce
 .
 info
 :
->
+|
 %
 TypedArray
 %

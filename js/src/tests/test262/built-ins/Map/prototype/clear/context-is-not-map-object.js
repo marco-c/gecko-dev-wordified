@@ -66,7 +66,7 @@ slot
 .
 info
 :
->
+|
 Map
 .
 prototype

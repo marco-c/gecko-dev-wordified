@@ -42,7 +42,7 @@ prototype
 getday
 info
 :
->
+|
 The
 Date
 .

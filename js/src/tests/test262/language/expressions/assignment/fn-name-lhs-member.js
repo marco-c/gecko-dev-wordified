@@ -53,7 +53,7 @@ a
 MemberExpression
 info
 :
->
+|
 AssignmentExpression
 [
 In

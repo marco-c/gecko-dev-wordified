@@ -55,7 +55,7 @@ descriptor
 .
 info
 :
->
+|
 Map
 (
 [

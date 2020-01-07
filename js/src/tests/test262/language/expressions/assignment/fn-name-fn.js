@@ -54,7 +54,7 @@ FunctionExpression
 )
 info
 :
->
+|
 AssignmentExpression
 [
 In

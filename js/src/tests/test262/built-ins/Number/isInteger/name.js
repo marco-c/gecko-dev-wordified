@@ -57,7 +57,7 @@ isInteger
 .
 info
 :
->
+|
 Number
 .
 isInteger

@@ -62,7 +62,7 @@ name
 )
 info
 :
->
+|
 12
 .
 Let

@@ -59,7 +59,7 @@ and
 P
 info
 :
->
+|
 [
 [
 GetOwnProperty

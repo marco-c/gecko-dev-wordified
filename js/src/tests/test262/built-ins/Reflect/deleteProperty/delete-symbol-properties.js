@@ -52,7 +52,7 @@ property
 .
 info
 :
->
+|
 26
 .
 1

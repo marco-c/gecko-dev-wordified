@@ -73,7 +73,7 @@ a
 number
 info
 :
->
+|
 9
 .
 4

@@ -53,7 +53,7 @@ non
 writable
 info
 :
->
+|
 Change
 the
 descriptor

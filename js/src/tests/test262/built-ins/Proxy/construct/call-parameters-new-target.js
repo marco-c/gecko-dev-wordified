@@ -92,7 +92,7 @@ the
 NewTarget
 info
 :
->
+|
 [
 [
 Construct

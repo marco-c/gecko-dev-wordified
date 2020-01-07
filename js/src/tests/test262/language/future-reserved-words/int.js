@@ -65,7 +65,7 @@ int
 succeeds
 info
 :
->
+|
 int
 was
 removed

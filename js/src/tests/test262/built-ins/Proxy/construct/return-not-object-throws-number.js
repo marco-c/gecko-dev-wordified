@@ -59,7 +59,7 @@ Object
 Number
 info
 :
->
+|
 [
 [
 Construct

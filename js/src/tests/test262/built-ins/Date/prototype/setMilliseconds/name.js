@@ -68,7 +68,7 @@ setMilliseconds
 .
 info
 :
->
+|
 Date
 .
 prototype

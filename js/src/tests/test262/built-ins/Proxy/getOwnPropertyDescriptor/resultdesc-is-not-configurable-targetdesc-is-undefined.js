@@ -64,7 +64,7 @@ undefined
 .
 info
 :
->
+|
 [
 [
 GetOwnProperty

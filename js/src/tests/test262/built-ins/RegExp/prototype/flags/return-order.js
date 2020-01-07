@@ -79,7 +79,7 @@ source
 order
 info
 :
->
+|
 4
 .
 Let

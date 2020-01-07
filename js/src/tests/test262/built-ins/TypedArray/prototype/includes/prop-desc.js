@@ -57,7 +57,7 @@ of
 TypedArrayPrototype
 info
 :
->
+|
 ES6
 section
 17

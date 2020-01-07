@@ -62,7 +62,7 @@ of
 Number
 info
 :
->
+|
 20
 .
 1

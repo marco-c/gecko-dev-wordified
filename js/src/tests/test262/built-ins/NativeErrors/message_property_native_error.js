@@ -43,7 +43,7 @@ message
 property
 info
 :
->
+|
 19
 .
 5

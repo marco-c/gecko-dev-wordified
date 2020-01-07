@@ -67,7 +67,7 @@ NewTarget
 .
 info
 :
->
+|
 ArrayBuffer
 (
 length

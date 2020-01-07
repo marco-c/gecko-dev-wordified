@@ -50,7 +50,7 @@ target
 result
 info
 :
->
+|
 26
 .
 1

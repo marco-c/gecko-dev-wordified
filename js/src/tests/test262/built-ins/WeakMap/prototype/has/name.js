@@ -69,7 +69,7 @@ writability
 .
 info
 :
->
+|
 WeakMap
 .
 prototype

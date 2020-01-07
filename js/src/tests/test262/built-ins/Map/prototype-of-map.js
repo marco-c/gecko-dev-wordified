@@ -56,7 +56,7 @@ FunctionPrototype
 .
 info
 :
->
+|
 The
 value
 of

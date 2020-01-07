@@ -52,7 +52,7 @@ seconds
 ms
 info
 :
->
+|
 All
 of
 the

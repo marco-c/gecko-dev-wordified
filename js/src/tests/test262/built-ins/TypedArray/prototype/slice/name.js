@@ -61,7 +61,7 @@ slice
 .
 info
 :
->
+|
 %
 TypedArray
 %

@@ -57,7 +57,7 @@ random
 .
 info
 :
->
+|
 Math
 .
 random

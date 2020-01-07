@@ -56,7 +56,7 @@ and
 descriptor
 info
 :
->
+|
 The
 initial
 value

@@ -68,7 +68,7 @@ numeric
 index
 info
 :
->
+|
 9
 .
 4

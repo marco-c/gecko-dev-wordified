@@ -72,7 +72,7 @@ parameters
 .
 info
 :
->
+|
 Proxy
 .
 revocable

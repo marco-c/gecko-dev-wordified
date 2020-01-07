@@ -53,7 +53,7 @@ name
 attribute
 info
 :
->
+|
 [
 .
 .

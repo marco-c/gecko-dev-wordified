@@ -65,7 +65,7 @@ prototype
 link
 info
 :
->
+|
 Every
 other
 data

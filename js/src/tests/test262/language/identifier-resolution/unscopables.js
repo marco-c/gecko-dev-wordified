@@ -58,7 +58,7 @@ global
 scope
 info
 :
->
+|
 1
 .
 Let

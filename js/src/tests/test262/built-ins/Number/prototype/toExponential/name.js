@@ -59,7 +59,7 @@ toExponential
 .
 info
 :
->
+|
 Number
 .
 prototype

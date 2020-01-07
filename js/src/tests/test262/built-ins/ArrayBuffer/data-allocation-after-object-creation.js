@@ -67,7 +67,7 @@ Block
 .
 info
 :
->
+|
 ArrayBuffer
 (
 length

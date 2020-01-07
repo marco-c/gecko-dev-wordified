@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 1
 true
 non

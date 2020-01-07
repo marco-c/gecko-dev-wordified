@@ -56,7 +56,7 @@ escape
 sequence
 info
 :
->
+|
 TemplateCharacter
 (
 11
@@ -85,7 +85,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

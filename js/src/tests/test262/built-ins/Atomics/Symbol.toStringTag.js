@@ -52,7 +52,7 @@ on
 Atomics
 info
 :
->
+|
 The
 initial
 value

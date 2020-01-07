@@ -57,7 +57,7 @@ getPrototypeOf
 .
 info
 :
->
+|
 Object
 .
 getPrototypeOf

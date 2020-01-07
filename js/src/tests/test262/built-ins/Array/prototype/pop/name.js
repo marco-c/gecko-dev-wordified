@@ -68,7 +68,7 @@ pop
 .
 info
 :
->
+|
 Array
 .
 prototype

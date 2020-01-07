@@ -56,7 +56,7 @@ second
 argument
 info
 :
->
+|
 [
 .
 .

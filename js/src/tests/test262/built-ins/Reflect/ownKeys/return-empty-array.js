@@ -57,7 +57,7 @@ properties
 .
 info
 :
->
+|
 26
 .
 1

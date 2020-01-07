@@ -61,7 +61,7 @@ lastIndexOf
 .
 info
 :
->
+|
 %
 TypedArray
 %

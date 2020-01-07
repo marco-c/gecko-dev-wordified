@@ -57,7 +57,7 @@ isExtensible
 .
 info
 :
->
+|
 Object
 .
 isExtensible

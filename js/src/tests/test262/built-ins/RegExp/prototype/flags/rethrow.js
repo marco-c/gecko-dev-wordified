@@ -68,7 +68,7 @@ property
 gets
 info
 :
->
+|
 get
 RegExp
 .

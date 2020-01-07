@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Only
 three
 expressions
@@ -119,7 +119,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

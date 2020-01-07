@@ -60,7 +60,7 @@ descriptor
 .
 info
 :
->
+|
 get
 Map
 .

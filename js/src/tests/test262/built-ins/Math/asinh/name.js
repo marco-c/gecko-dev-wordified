@@ -57,7 +57,7 @@ asinh
 .
 info
 :
->
+|
 Math
 .
 asinh

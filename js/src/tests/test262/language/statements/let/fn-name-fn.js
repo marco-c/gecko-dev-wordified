@@ -56,7 +56,7 @@ FunctionExpression
 )
 info
 :
->
+|
 LexicalBinding
 :
 BindingIdentifier

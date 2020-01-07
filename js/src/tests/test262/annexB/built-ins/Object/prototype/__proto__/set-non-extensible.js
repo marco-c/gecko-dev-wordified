@@ -64,7 +64,7 @@ extensible
 object
 info
 :
->
+|
 [
 .
 .

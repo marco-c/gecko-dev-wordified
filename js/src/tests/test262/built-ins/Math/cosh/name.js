@@ -57,7 +57,7 @@ cosh
 .
 info
 :
->
+|
 Math
 .
 cosh

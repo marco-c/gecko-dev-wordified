@@ -59,7 +59,7 @@ valueOf
 .
 info
 :
->
+|
 Object
 .
 prototype

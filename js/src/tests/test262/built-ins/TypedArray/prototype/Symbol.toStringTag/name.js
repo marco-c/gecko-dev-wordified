@@ -68,7 +68,7 @@ toStringTag
 .
 info
 :
->
+|
 get
 %
 TypedArray

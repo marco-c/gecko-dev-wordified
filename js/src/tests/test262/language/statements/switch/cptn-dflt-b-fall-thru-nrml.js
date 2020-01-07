@@ -61,7 +61,7 @@ normal
 completion
 info
 :
->
+|
 SwitchStatement
 :
 switch

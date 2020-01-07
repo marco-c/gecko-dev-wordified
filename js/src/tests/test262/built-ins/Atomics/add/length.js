@@ -67,7 +67,7 @@ is
 .
 info
 :
->
+|
 Atomics
 .
 add

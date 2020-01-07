@@ -50,7 +50,7 @@ String
 object
 info
 :
->
+|
 21
 .
 1

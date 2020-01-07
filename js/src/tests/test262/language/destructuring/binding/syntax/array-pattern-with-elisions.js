@@ -52,7 +52,7 @@ elisions
 only
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

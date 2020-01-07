@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Array
 has
 a

@@ -69,7 +69,7 @@ entries
 .
 info
 :
->
+|
 [
 [
 OwnPropertyKeys

@@ -63,7 +63,7 @@ Object
 extensibility
 info
 :
->
+|
 The
 initial
 value

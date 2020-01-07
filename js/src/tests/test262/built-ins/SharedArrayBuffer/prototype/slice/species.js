@@ -60,7 +60,7 @@ SpeciesConstructor
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

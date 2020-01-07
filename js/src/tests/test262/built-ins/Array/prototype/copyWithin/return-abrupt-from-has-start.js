@@ -67,7 +67,7 @@ fromKey
 .
 info
 :
->
+|
 22
 .
 1

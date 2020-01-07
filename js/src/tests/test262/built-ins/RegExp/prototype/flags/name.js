@@ -74,7 +74,7 @@ flags
 .
 info
 :
->
+|
 get
 RegExp
 .

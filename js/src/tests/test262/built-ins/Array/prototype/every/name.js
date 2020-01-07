@@ -68,7 +68,7 @@ every
 .
 info
 :
->
+|
 Array
 .
 prototype

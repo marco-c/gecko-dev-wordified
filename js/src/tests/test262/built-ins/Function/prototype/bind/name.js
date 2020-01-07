@@ -59,7 +59,7 @@ bind
 .
 info
 :
->
+|
 Function
 .
 prototype

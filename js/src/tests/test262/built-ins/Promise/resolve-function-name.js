@@ -55,7 +55,7 @@ Resolve
 functions
 info
 :
->
+|
 A
 promise
 resolve

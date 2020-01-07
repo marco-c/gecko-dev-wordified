@@ -55,7 +55,7 @@ definition
 .
 info
 :
->
+|
 26
 .
 1

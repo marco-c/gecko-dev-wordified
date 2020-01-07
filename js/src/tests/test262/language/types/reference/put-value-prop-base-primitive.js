@@ -72,7 +72,7 @@ value
 assignment
 info
 :
->
+|
 [
 .
 .

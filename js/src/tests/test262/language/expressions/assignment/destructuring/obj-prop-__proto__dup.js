@@ -57,7 +57,7 @@ property
 names
 info
 :
->
+|
 Annex
 B
 defines

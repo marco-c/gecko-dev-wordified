@@ -64,7 +64,7 @@ slice
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

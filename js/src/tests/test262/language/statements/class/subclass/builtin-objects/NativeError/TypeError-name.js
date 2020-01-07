@@ -58,7 +58,7 @@ new
 instance
 info
 :
->
+|
 19
 .
 5

@@ -60,7 +60,7 @@ es6id
 8
 info
 :
->
+|
 16
 .
 Repeat

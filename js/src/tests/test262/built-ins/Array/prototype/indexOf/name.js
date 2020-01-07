@@ -68,7 +68,7 @@ indexOf
 .
 info
 :
->
+|
 Array
 .
 prototype

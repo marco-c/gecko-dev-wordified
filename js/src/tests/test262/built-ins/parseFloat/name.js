@@ -60,7 +60,7 @@ parseFloat
 .
 info
 :
->
+|
 parseFloat
 (
 string

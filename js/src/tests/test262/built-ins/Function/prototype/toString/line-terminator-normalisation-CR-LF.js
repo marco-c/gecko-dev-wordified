@@ -63,7 +63,7 @@ LF
 )
 info
 :
->
+|
 Function
 .
 prototype

@@ -50,7 +50,7 @@ RegExp
 object
 info
 :
->
+|
 21
 .
 2

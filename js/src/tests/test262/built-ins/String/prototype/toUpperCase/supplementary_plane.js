@@ -48,7 +48,7 @@ code
 points
 info
 :
->
+|
 21
 .
 1

@@ -62,7 +62,7 @@ parseInt
 .
 info
 :
->
+|
 parseInt
 (
 string

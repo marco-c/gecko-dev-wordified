@@ -55,7 +55,7 @@ writable
 .
 info
 :
->
+|
 26
 .
 1

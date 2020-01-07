@@ -65,7 +65,7 @@ descriptor
 .
 info
 :
->
+|
 The
 initial
 value

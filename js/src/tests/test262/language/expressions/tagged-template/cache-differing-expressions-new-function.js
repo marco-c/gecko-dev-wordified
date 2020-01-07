@@ -54,7 +54,7 @@ new
 Function
 info
 :
->
+|
 Previously
 -
 created

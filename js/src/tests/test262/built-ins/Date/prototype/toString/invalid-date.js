@@ -53,7 +53,7 @@ Date
 "
 info
 :
->
+|
 ToDateString
 (
 tv

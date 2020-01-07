@@ -56,7 +56,7 @@ property
 name
 info
 :
->
+|
 [
 .
 .

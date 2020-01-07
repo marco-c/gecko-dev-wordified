@@ -74,7 +74,7 @@ indexes
 .
 info
 :
->
+|
 22
 .
 2

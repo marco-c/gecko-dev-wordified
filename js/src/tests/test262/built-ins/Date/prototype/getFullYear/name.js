@@ -68,7 +68,7 @@ getFullYear
 .
 info
 :
->
+|
 Date
 .
 prototype

@@ -74,7 +74,7 @@ prototype
 object
 info
 :
->
+|
 The
 value
 of

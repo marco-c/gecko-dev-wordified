@@ -53,7 +53,7 @@ for
 of
 info
 :
->
+|
 Float32Array
 instances
 should

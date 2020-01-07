@@ -63,7 +63,7 @@ all
 realms
 info
 :
->
+|
 The
 GlobalSymbolRegistry
 is

@@ -59,7 +59,7 @@ callable
 .
 info
 :
->
+|
 Map
 .
 prototype

@@ -58,7 +58,7 @@ property
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

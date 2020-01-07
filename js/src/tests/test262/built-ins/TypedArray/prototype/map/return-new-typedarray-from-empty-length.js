@@ -48,7 +48,7 @@ prototype
 map
 description
 :
-|
+>
 Returns
 a
 new
@@ -79,7 +79,7 @@ length
 0
 info
 :
->
+|
 22
 .
 2

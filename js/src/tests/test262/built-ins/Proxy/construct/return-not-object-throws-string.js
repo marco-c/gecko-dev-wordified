@@ -59,7 +59,7 @@ Object
 String
 info
 :
->
+|
 [
 [
 Construct

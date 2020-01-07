@@ -65,7 +65,7 @@ GetPrototypeOf
 ]
 info
 :
->
+|
 1
 .
 Let

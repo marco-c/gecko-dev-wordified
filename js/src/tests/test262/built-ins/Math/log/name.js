@@ -57,7 +57,7 @@ log
 .
 info
 :
->
+|
 Math
 .
 log

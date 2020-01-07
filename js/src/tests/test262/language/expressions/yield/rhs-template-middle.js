@@ -61,7 +61,7 @@ TemplateMiddle
 construct
 info
 :
->
+|
 The
 syntactic
 context

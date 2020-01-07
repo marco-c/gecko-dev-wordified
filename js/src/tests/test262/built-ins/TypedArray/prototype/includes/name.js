@@ -65,7 +65,7 @@ includes
 .
 info
 :
->
+|
 %
 TypedArray
 %

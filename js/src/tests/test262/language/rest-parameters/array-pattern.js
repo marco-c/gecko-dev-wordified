@@ -56,7 +56,7 @@ pattern
 .
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

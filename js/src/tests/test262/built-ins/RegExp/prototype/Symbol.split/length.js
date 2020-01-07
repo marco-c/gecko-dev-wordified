@@ -58,7 +58,7 @@ length
 property
 info
 :
->
+|
 The
 length
 property

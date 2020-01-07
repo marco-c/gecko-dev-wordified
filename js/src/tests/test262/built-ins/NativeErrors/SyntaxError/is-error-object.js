@@ -59,7 +59,7 @@ slot
 .
 info
 :
->
+|
 NativeError
 instances
 are

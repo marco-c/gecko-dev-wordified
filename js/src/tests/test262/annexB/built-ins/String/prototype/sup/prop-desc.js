@@ -65,7 +65,7 @@ prototype
 sup
 info
 :
->
+|
 Every
 other
 data

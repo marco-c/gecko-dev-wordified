@@ -64,7 +64,7 @@ used
 .
 info
 :
->
+|
 ToDateTimeOptions
 (
 options

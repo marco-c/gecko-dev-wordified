@@ -55,7 +55,7 @@ becomes
 0
 info
 :
->
+|
 22
 .
 2

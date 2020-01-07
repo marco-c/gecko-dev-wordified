@@ -68,7 +68,7 @@ map
 .
 info
 :
->
+|
 Array
 .
 prototype

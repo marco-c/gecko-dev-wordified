@@ -59,7 +59,9 @@ string
 literals
 es6id
 :
-B1
+B
+.
+1
 .
 2
 description
@@ -84,7 +86,7 @@ B
 )
 info
 :
->
+|
 EscapeSequence
 :
 :
@@ -153,7 +155,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

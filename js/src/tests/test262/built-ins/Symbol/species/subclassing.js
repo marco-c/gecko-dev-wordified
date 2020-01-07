@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 Symbol
 .
 species
@@ -32,8 +32,6 @@ is
 retained
 on
 subclassing
-es6id
-:
 author
 :
 Sam

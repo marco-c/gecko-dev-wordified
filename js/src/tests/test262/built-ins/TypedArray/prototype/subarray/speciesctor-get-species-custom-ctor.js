@@ -57,7 +57,7 @@ if
 available
 info
 :
->
+|
 22
 .
 2

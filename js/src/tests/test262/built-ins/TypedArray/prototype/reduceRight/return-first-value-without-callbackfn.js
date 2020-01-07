@@ -68,7 +68,7 @@ present
 .
 info
 :
->
+|
 22
 .
 2

@@ -57,7 +57,7 @@ asin
 .
 info
 :
->
+|
 Math
 .
 asin

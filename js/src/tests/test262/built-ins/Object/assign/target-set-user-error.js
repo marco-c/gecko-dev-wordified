@@ -56,7 +56,7 @@ object
 attributes
 info
 :
->
+|
 [
 .
 .

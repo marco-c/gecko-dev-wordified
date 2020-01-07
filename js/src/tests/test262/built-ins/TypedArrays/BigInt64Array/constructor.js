@@ -63,7 +63,7 @@ constructor
 function
 info
 :
->
+|
 22
 .
 2

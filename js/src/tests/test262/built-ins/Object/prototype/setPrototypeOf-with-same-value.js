@@ -71,7 +71,7 @@ is
 same
 info
 :
->
+|
 9
 .
 4

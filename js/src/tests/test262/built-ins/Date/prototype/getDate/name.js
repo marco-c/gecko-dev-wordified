@@ -68,7 +68,7 @@ getDate
 .
 info
 :
->
+|
 Date
 .
 prototype

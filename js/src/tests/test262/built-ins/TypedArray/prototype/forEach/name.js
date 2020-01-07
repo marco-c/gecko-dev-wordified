@@ -61,7 +61,7 @@ forEach
 .
 info
 :
->
+|
 %
 TypedArray
 %

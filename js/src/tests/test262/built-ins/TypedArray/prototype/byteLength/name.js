@@ -63,7 +63,7 @@ byteLength
 .
 info
 :
->
+|
 get
 %
 TypedArray

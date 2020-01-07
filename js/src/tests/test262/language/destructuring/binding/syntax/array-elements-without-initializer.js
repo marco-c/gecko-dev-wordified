@@ -55,7 +55,7 @@ without
 initializers
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

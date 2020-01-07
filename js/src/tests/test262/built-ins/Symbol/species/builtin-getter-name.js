@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 ES6
 spec
 '

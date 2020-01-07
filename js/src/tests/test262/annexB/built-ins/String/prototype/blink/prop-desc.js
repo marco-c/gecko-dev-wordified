@@ -65,7 +65,7 @@ prototype
 blink
 info
 :
->
+|
 Every
 other
 data

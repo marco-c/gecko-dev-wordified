@@ -62,7 +62,7 @@ es6id
 3
 info
 :
->
+|
 The
 Number
 value

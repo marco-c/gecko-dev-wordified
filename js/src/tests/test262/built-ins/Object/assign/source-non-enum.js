@@ -56,7 +56,7 @@ source
 properties
 info
 :
->
+|
 [
 .
 .

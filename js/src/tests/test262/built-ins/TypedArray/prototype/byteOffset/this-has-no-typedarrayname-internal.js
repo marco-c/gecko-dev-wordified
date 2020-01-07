@@ -59,7 +59,7 @@ es6id
 3
 description
 :
-|
+>
 Throws
 a
 TypeError
@@ -79,7 +79,7 @@ internal
 slot
 info
 :
->
+|
 22
 .
 2

@@ -48,7 +48,9 @@ catch
 blocks
 es6id
 :
-B3
+B
+.
+3
 .
 5
 description
@@ -61,7 +63,7 @@ catch
 parameter
 info
 :
->
+|
 [
 .
 .

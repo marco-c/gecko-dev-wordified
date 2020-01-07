@@ -24,7 +24,7 @@ details
 -
 info
 :
->
+|
 RegExp
 has
 a

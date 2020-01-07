@@ -65,7 +65,7 @@ synchronized
 succeeds
 info
 :
->
+|
 synchronized
 was
 removed

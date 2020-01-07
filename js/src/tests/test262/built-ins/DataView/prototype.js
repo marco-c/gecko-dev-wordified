@@ -69,7 +69,7 @@ object
 .
 info
 :
->
+|
 The
 initial
 value

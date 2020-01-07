@@ -67,7 +67,7 @@ name
 property
 info
 :
->
+|
 The
 value
 of

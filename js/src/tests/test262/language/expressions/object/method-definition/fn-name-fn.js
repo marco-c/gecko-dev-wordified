@@ -56,7 +56,7 @@ MethodDefinition
 )
 info
 :
->
+|
 6
 .
 If

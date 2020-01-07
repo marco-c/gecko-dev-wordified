@@ -64,7 +64,7 @@ of
 evaluation
 info
 :
->
+|
 ExponentiationExpression
 :
 UpdateExpression

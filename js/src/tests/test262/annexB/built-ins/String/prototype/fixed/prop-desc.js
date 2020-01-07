@@ -65,7 +65,7 @@ prototype
 fixed
 info
 :
->
+|
 Every
 other
 data

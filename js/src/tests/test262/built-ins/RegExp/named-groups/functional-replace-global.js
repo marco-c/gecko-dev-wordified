@@ -85,7 +85,7 @@ groups
 ]
 info
 :
->
+|
 RegExp
 .
 prototype

@@ -68,7 +68,7 @@ getMilliseconds
 .
 info
 :
->
+|
 Date
 .
 prototype

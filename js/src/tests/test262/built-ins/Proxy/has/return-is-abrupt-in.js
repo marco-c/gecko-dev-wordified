@@ -56,7 +56,7 @@ obj
 .
 info
 :
->
+|
 [
 [
 HasProperty

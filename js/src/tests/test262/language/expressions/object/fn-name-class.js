@@ -56,7 +56,7 @@ ClassExpression
 )
 info
 :
->
+|
 6
 .
 If

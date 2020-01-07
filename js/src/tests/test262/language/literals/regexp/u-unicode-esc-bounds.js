@@ -67,7 +67,7 @@ es6id
 1
 info
 :
->
+|
 21
 .
 2
@@ -105,7 +105,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

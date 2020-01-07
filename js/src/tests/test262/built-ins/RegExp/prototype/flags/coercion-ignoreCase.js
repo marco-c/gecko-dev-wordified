@@ -54,7 +54,7 @@ ignoreCase
 property
 info
 :
->
+|
 get
 RegExp
 .

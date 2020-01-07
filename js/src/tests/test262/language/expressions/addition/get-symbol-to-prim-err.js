@@ -75,7 +75,7 @@ toPrimitive
 property
 info
 :
->
+|
 [
 .
 .

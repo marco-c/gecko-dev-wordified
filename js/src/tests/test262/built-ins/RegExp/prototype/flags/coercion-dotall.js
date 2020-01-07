@@ -68,7 +68,7 @@ dotAll
 property
 info
 :
->
+|
 get
 RegExp
 .

@@ -72,7 +72,7 @@ is
 .
 info
 :
->
+|
 The
 value
 of

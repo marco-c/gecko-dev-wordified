@@ -65,7 +65,7 @@ volatile
 succeeds
 info
 :
->
+|
 volatile
 was
 removed

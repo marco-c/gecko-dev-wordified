@@ -58,7 +58,7 @@ Assignment
 Operator
 info
 :
->
+|
 AssignmentExpression
 :
 LeftHandSideExpression

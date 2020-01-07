@@ -54,7 +54,7 @@ p
 desc
 description
 :
-|
+>
 Returns
 false
 if
@@ -75,7 +75,7 @@ is
 false
 info
 :
->
+|
 9
 .
 4

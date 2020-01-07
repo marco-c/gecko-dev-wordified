@@ -55,7 +55,7 @@ Math
 min
 info
 :
->
+|
 Math
 .
 min

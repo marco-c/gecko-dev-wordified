@@ -52,7 +52,7 @@ a
 constructor
 info
 :
->
+|
 ES6
 Section
 9

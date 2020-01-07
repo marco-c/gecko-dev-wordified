@@ -60,7 +60,7 @@ Symbol
 properties
 info
 :
->
+|
 9
 .
 4

@@ -59,7 +59,7 @@ toLocaleUpperCase
 .
 info
 :
->
+|
 String
 .
 prototype

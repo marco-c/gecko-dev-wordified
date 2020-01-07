@@ -58,7 +58,7 @@ es6id
 6
 info
 :
->
+|
 16
 .
 Let

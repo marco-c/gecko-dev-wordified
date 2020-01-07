@@ -58,7 +58,7 @@ extensible
 object
 info
 :
->
+|
 1
 .
 Let

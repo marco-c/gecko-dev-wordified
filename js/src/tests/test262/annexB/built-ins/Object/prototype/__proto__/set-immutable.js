@@ -55,7 +55,7 @@ exotic
 object
 info
 :
->
+|
 [
 .
 .

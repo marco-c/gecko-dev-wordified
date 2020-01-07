@@ -77,7 +77,7 @@ internal
 slot
 info
 :
->
+|
 get
 RegExp
 .

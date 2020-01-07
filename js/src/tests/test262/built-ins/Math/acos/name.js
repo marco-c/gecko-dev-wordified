@@ -57,7 +57,7 @@ acos
 .
 info
 :
->
+|
 Math
 .
 acos

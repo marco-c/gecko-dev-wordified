@@ -60,7 +60,7 @@ this
 instance
 info
 :
->
+|
 22
 .
 2

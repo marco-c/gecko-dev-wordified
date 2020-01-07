@@ -87,13 +87,13 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError
 info
 :
->
+|
 The
 following
 rules

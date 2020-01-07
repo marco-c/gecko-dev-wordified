@@ -68,7 +68,7 @@ valueOf
 .
 info
 :
->
+|
 Boolean
 .
 prototype

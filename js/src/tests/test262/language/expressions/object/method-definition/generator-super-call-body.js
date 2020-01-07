@@ -32,7 +32,7 @@ details
 -
 info
 :
->
+|
 GeneratorMethod
 early
 SyntaxError
@@ -72,7 +72,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

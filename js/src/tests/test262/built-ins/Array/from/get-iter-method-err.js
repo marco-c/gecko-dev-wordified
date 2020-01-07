@@ -63,7 +63,7 @@ iterator
 attribute
 info
 :
->
+|
 [
 .
 .

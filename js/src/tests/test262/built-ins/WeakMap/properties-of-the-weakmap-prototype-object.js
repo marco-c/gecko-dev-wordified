@@ -74,7 +74,7 @@ prototype
 .
 info
 :
->
+|
 23
 .
 3

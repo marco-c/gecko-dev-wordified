@@ -68,7 +68,7 @@ toString
 .
 info
 :
->
+|
 Date
 .
 prototype

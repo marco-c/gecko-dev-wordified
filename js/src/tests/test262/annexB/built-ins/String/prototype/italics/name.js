@@ -59,7 +59,7 @@ italics
 .
 info
 :
->
+|
 String
 .
 prototype

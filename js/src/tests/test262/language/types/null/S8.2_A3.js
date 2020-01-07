@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 For
 the
 keyword

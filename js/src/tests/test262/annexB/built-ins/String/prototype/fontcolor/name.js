@@ -59,7 +59,7 @@ fontcolor
 .
 info
 :
->
+|
 String
 .
 prototype

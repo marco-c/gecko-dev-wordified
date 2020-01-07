@@ -68,7 +68,7 @@ is
 .
 info
 :
->
+|
 Array
 .
 prototype

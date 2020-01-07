@@ -68,7 +68,7 @@ Function
 prototype
 info
 :
->
+|
 The
 value
 of

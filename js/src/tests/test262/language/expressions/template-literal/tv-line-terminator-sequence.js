@@ -54,7 +54,7 @@ terminator
 sequences
 info
 :
->
+|
 The
 TV
 of

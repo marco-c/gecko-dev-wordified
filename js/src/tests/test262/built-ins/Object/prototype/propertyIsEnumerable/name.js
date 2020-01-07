@@ -59,7 +59,7 @@ propertyIsEnumerable
 .
 info
 :
->
+|
 Object
 .
 prototype

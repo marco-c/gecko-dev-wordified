@@ -59,7 +59,7 @@ Object
 Symbol
 info
 :
->
+|
 [
 [
 Construct

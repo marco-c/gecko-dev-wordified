@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 White
 space
 cannot
@@ -84,7 +84,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

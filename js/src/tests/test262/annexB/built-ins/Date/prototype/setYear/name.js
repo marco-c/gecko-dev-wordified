@@ -59,7 +59,7 @@ setYear
 .
 info
 :
->
+|
 Date
 .
 prototype

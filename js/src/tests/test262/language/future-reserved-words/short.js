@@ -65,7 +65,7 @@ short
 succeeds
 info
 :
->
+|
 short
 was
 removed

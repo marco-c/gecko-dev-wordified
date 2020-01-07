@@ -61,7 +61,7 @@ CR
 )
 info
 :
->
+|
 Function
 .
 prototype

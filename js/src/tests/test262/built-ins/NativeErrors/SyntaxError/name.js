@@ -55,7 +55,7 @@ SyntaxError
 .
 info
 :
->
+|
 17
 ECMAScript
 Standard

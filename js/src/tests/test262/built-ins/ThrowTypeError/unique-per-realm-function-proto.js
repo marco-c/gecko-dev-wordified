@@ -55,7 +55,7 @@ realm
 .
 info
 :
->
+|
 %
 ThrowTypeError
 %

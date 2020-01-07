@@ -48,7 +48,7 @@ non
 enumerable
 info
 :
->
+|
 ES6
 Section
 17

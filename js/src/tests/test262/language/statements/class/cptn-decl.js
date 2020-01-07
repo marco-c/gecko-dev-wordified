@@ -57,7 +57,7 @@ empty
 .
 info
 :
->
+|
 ClassDeclaration
 :
 class

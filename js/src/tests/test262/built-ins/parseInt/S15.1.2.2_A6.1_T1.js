@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 If
 S
 contains

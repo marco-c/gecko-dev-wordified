@@ -41,7 +41,7 @@ file
 -
 info
 :
->
+|
 Arguments
 :
 (
@@ -71,7 +71,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError

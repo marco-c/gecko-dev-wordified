@@ -61,7 +61,7 @@ null
 .
 info
 :
->
+|
 SharedArrayBuffer
 .
 prototype

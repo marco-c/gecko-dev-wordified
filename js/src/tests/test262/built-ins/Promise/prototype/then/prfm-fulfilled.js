@@ -53,7 +53,7 @@ fulfilled
 promise
 info
 :
->
+|
 7
 .
 Return

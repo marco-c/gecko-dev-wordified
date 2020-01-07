@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Global
 FunctionDeclaration
 cannot

@@ -52,7 +52,7 @@ binding
 elements
 info
 :
->
+|
 Destructuring
 Binding
 Patterns

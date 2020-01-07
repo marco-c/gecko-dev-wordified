@@ -54,7 +54,7 @@ Quantifier
 '
 info
 :
->
+|
 The
 compatibility
 extensions

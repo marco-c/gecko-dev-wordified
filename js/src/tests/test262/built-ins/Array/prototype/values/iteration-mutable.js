@@ -74,7 +74,7 @@ done
 .
 info
 :
->
+|
 When
 an
 item

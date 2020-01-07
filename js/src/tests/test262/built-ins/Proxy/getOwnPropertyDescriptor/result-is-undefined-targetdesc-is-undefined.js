@@ -63,7 +63,7 @@ undefined
 .
 info
 :
->
+|
 [
 [
 GetOwnProperty

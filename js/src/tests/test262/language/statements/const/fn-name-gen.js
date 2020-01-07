@@ -56,7 +56,7 @@ GeneratorExpression
 )
 info
 :
->
+|
 LexicalBinding
 :
 BindingIdentifier

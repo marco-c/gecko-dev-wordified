@@ -57,7 +57,7 @@ isSafeInteger
 .
 info
 :
->
+|
 Number
 .
 isSafeInteger

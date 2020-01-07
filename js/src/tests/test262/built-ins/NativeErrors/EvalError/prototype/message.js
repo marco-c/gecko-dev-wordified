@@ -63,7 +63,7 @@ string
 .
 info
 :
->
+|
 The
 initial
 value

@@ -55,7 +55,7 @@ for
 of
 info
 :
->
+|
 Float64Array
 instances
 should

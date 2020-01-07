@@ -46,7 +46,9 @@ expressions
 patterns
 es6id
 :
-B1
+B
+.
+1
 .
 4
 description

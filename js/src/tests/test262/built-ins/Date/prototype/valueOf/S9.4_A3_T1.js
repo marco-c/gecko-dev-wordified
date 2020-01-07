@@ -42,7 +42,7 @@ prototype
 valueof
 info
 :
->
+|
 Result
 of
 ToInteger

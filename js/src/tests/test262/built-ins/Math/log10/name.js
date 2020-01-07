@@ -57,7 +57,7 @@ log10
 .
 info
 :
->
+|
 Math
 .
 log10

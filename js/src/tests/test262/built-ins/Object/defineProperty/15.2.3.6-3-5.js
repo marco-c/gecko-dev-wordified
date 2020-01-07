@@ -35,7 +35,7 @@ file
 -
 info
 :
->
+|
 The
 abtract
 operation

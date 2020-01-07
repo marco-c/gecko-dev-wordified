@@ -65,7 +65,7 @@ function
 .
 info
 :
->
+|
 ArrayBuffer
 (
 length

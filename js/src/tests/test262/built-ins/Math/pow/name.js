@@ -55,7 +55,7 @@ pow
 .
 info
 :
->
+|
 Math
 .
 pow

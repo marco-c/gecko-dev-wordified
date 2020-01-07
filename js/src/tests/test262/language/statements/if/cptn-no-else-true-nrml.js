@@ -64,7 +64,7 @@ completion
 .
 info
 :
->
+|
 IfStatement
 :
 if

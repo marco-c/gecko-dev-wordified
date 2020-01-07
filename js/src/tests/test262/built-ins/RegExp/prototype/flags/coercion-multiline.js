@@ -54,7 +54,7 @@ multiline
 property
 info
 :
->
+|
 get
 RegExp
 .

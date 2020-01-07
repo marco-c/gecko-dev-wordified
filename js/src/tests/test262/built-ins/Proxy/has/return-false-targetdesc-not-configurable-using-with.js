@@ -71,7 +71,7 @@ object
 .
 info
 :
->
+|
 [
 [
 HasProperty

@@ -68,7 +68,7 @@ lastIndexOf
 .
 info
 :
->
+|
 Array
 .
 prototype

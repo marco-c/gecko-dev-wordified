@@ -61,7 +61,7 @@ extensible
 .
 info
 :
->
+|
 [
 [
 GetPrototypeOf

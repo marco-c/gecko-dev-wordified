@@ -59,7 +59,7 @@ substr
 .
 info
 :
->
+|
 String
 .
 prototype

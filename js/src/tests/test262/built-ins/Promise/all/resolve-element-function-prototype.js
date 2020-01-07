@@ -61,7 +61,7 @@ Element
 functions
 info
 :
->
+|
 17
 ECMAScript
 Standard

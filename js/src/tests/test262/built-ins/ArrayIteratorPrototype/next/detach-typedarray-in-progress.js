@@ -57,7 +57,7 @@ iteration
 throw
 info
 :
->
+|
 %
 ArrayIteratorPrototype
 %

@@ -68,7 +68,7 @@ setFullYear
 .
 info
 :
->
+|
 Date
 .
 prototype

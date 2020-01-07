@@ -33,7 +33,7 @@ file
 -
 info
 :
->
+|
 Parentheses
 of
 the

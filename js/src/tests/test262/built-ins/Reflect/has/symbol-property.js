@@ -56,7 +56,7 @@ a
 Symbol
 info
 :
->
+|
 26
 .
 1

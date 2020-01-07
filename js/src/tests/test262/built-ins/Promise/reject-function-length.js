@@ -55,7 +55,7 @@ Reject
 functions
 info
 :
->
+|
 The
 length
 property

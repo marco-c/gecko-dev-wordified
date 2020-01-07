@@ -58,7 +58,7 @@ escape
 sequences
 info
 :
->
+|
 Function
 .
 prototype

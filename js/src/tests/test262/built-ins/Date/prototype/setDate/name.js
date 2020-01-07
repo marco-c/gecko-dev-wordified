@@ -68,7 +68,7 @@ setDate
 .
 info
 :
->
+|
 Date
 .
 prototype
