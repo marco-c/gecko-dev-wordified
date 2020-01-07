@@ -2580,6 +2580,9 @@ value
 testFetchArguments
 error
 "
+module
+:
+testPageUrl
 stacktrace
 :
 {
