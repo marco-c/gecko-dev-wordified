@@ -8198,10 +8198,14 @@ return
 APZInputBridge
 :
 :
-WillHandleWheelEvent
+ActionForWheelEvent
 (
 &
 wheelEvent
+)
+.
+isSome
+(
 )
 ;
 }
