@@ -1445,6 +1445,12 @@ preventDefault
 (
 )
 ;
+e
+.
+stopPropagation
+(
+)
+;
 onClick
 (
 this
