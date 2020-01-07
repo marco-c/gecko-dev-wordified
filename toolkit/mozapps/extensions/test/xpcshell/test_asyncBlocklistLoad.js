@@ -101,9 +101,7 @@ ok
 (
 blocklist
 .
-_isBlocklistLoaded
-(
-)
+isLoaded
 )
 ;
 await
@@ -151,9 +149,7 @@ ok
 !
 blocklist
 .
-_isBlocklistLoaded
-(
-)
+isLoaded
 )
 ;
 Assert
@@ -179,9 +175,7 @@ ok
 (
 blocklist
 .
-_isBlocklistLoaded
-(
-)
+isLoaded
 )
 ;
 Assert
@@ -294,9 +288,7 @@ ok
 (
 blocklist
 .
-_isBlocklistLoaded
-(
-)
+isLoaded
 )
 ;
 Assert
