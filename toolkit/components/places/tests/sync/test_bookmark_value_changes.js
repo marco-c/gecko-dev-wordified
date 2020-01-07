@@ -559,7 +559,7 @@ toolbar
 "
 hasDupe
 :
-false
+true
 parentName
 :
 BookmarksToolbarTitle
@@ -635,7 +635,7 @@ places
 "
 hasDupe
 :
-false
+true
 parentName
 :
 "
