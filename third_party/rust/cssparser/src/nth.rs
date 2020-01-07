@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :
