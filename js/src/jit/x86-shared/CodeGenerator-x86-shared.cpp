@@ -155,6 +155,15 @@ include
 "
 jit
 /
+CodeGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 JitCompartment
 .
 h
@@ -482,7 +491,7 @@ mirTrue
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitDouble
@@ -523,7 +532,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitFloat32
@@ -564,7 +573,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitTestIAndBranch
@@ -617,7 +626,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitTestDAndBranch
@@ -758,7 +767,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitTestFAndBranch
@@ -841,7 +850,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitBitAndAndBranch
@@ -1046,7 +1055,7 @@ right
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompare
@@ -1121,7 +1130,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareAndBranch
@@ -1205,7 +1214,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareD
@@ -1331,7 +1340,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareF
@@ -1457,7 +1466,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNotI
@@ -1507,7 +1516,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNotD
@@ -1642,7 +1651,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNotF
@@ -1777,7 +1786,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareDAndBranch
@@ -1904,7 +1913,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareFAndBranch
@@ -2031,7 +2040,7 @@ nanCond
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmStackArg
@@ -2290,7 +2299,7 @@ WasmStackArg
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmStackArgI64
@@ -2374,7 +2383,7 @@ dst
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmSelect
@@ -2673,7 +2682,7 @@ done
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmReinterpret
@@ -3068,7 +3077,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmAddOffset
@@ -3169,7 +3178,7 @@ OutOfBounds
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitWasmTruncateToInt32
@@ -4233,7 +4242,7 @@ deoptLabel_
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMinMaxD
@@ -4364,7 +4373,7 @@ handleNaN
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMinMaxF
@@ -4495,7 +4504,7 @@ handleNaN
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAbsD
@@ -4587,7 +4596,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAbsF
@@ -4672,7 +4681,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitClzI
@@ -4734,7 +4743,7 @@ knownNotZero
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCtzI
@@ -4796,7 +4805,7 @@ knownNotZero
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitPopcntI
@@ -4870,7 +4879,7 @@ temp
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSqrtD
@@ -4917,7 +4926,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSqrtF
@@ -4964,7 +4973,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitPowHalfD
@@ -5298,7 +5307,7 @@ ins_
 }
 ;
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAddI
@@ -5457,7 +5466,7 @@ snapshot
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAddI64
@@ -5555,7 +5564,7 @@ lhs
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSubI
@@ -5714,7 +5723,7 @@ snapshot
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSubI64
@@ -6122,7 +6131,7 @@ ins_
 }
 ;
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMulI
@@ -6620,7 +6629,7 @@ rejoin
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMulI64
@@ -6981,7 +6990,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitUDivOrMod
@@ -7469,7 +7478,7 @@ rejoin
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitUDivOrModConstant
@@ -8436,7 +8445,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitDivPowTwoI
@@ -8993,7 +9002,7 @@ snapshot
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitDivOrModConstantI
@@ -9781,7 +9790,7 @@ done
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitDivI
@@ -10511,7 +10520,7 @@ rejoin
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitModPowTwoI
@@ -11101,7 +11110,7 @@ rejoin
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitModI
@@ -11912,7 +11921,7 @@ rejoin
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitBitNotI
@@ -11958,7 +11967,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitBitOpI
@@ -12156,7 +12165,7 @@ opcode
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitBitOpI64
@@ -12366,7 +12375,7 @@ opcode
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitShiftI
@@ -12687,7 +12696,7 @@ op
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitShiftI64
@@ -12948,7 +12957,7 @@ op
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitUrshD
@@ -13731,7 +13740,7 @@ pointer
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMathD
@@ -13859,7 +13868,7 @@ opcode
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMathF
@@ -13987,7 +13996,7 @@ opcode
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitFloor
@@ -14412,7 +14421,7 @@ end
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitFloorF
@@ -14837,7 +14846,7 @@ end
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCeil
@@ -15260,7 +15269,7 @@ end
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCeilF
@@ -15685,7 +15694,7 @@ end
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitRound
@@ -16440,7 +16449,7 @@ end
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitRoundF
@@ -17191,7 +17200,7 @@ end
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNearbyInt
@@ -17260,7 +17269,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNearbyIntF
@@ -17329,7 +17338,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitEffectiveAddress
@@ -17601,7 +17610,7 @@ here
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNegI
@@ -17649,7 +17658,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNegD
@@ -17697,7 +17706,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitNegF
@@ -17745,7 +17754,7 @@ input
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimd128Int
@@ -17786,7 +17795,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimd128Float
@@ -17827,7 +17836,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitInt32x4ToFloat32x4
@@ -17873,7 +17882,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitFloat32x4ToInt32x4
@@ -18351,7 +18360,7 @@ bail
 out
 .
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitFloat32x4ToUint32x4
@@ -19118,7 +19127,7 @@ snapshot
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdValueInt32x4
@@ -19328,7 +19337,7 @@ Simd128DataSize
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdValueFloat32x4
@@ -19493,7 +19502,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSplatX16
@@ -19675,7 +19684,7 @@ output
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSplatX8
@@ -19761,7 +19770,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSplatX4
@@ -19910,7 +19919,7 @@ output
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdReinterpretCast
@@ -20494,7 +20503,7 @@ break
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdExtractElementB
@@ -20687,7 +20696,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdExtractElementI
@@ -20829,7 +20838,7 @@ length
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdExtractElementU2D
@@ -20927,7 +20936,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdExtractElementF
@@ -21133,7 +21142,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdInsertElementI
@@ -21484,7 +21493,7 @@ Simd128DataSize
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdInsertElementF
@@ -21722,7 +21731,7 @@ Simd128DataSize
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdAllTrue
@@ -21827,7 +21836,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdAnyTrue
@@ -22341,7 +22350,7 @@ stackSpace
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdGeneralShuffleI
@@ -22457,7 +22466,7 @@ shuffle
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdGeneralShuffleF
@@ -22485,7 +22494,7 @@ scratch
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSwizzleI
@@ -22877,7 +22886,7 @@ Simd128DataSize
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSwizzleF
@@ -23260,7 +23269,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdShuffle
@@ -23785,7 +23794,7 @@ Simd128DataSize
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdShuffleX4
@@ -25580,7 +25589,7 @@ lhs
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryCompIx16
@@ -26059,7 +26068,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryCompIx8
@@ -26538,7 +26547,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryCompIx4
@@ -26999,7 +27008,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryCompFx4
@@ -27196,7 +27205,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryArithIx16
@@ -27384,7 +27393,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryArithIx8
@@ -27546,7 +27555,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryArithIx4
@@ -27951,7 +27960,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryArithFx4
@@ -28761,7 +28770,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinarySaturating
@@ -29046,7 +29055,7 @@ arithmetic
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdUnaryArithIx16
@@ -29191,7 +29200,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdUnaryArithIx8
@@ -29336,7 +29345,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdUnaryArithIx4
@@ -29481,7 +29490,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdUnaryArithFx4
@@ -29761,7 +29770,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdBinaryBitwise
@@ -29967,7 +29976,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdShift
@@ -30545,7 +30554,7 @@ op
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitSimdSelect
@@ -30780,7 +30789,7 @@ output
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCompareExchangeTypedArrayElement
@@ -30991,7 +31000,7 @@ output
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAtomicExchangeTypedArrayElement
@@ -31285,7 +31294,7 @@ output
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAtomicTypedArrayElementBinop
@@ -31620,7 +31629,7 @@ InvalidReg
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitAtomicTypedArrayElementBinopForEffect
@@ -31795,7 +31804,7 @@ mem
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitMemoryBarrier
@@ -32304,7 +32313,7 @@ endif
 JS_MORE_DETERMINISTIC
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCopySignF
@@ -32454,7 +32463,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitCopySignD
@@ -32604,7 +32613,7 @@ out
 ;
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitRotateI64
@@ -32793,7 +32802,7 @@ temp
 }
 }
 void
-CodeGeneratorX86Shared
+CodeGenerator
 :
 :
 visitPopcntI64

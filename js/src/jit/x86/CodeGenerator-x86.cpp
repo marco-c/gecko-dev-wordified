@@ -160,6 +160,15 @@ include
 "
 jit
 /
+CodeGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 MIR
 .
 h
@@ -523,7 +532,7 @@ payloadReg
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitValue
@@ -557,7 +566,7 @@ out
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitBox
@@ -667,7 +676,7 @@ type
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitBoxFloatingPoint
@@ -720,7 +729,7 @@ out
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitUnbox
@@ -954,7 +963,7 @@ type
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareB
@@ -1176,7 +1185,7 @@ done
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareBAndBranch
@@ -1376,7 +1385,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareBitwise
@@ -1575,7 +1584,7 @@ done
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareBitwiseAndBranch
@@ -1778,7 +1787,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmUint32ToDouble
@@ -1855,7 +1864,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmUint32ToFloat32
@@ -1937,7 +1946,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitLoadTypedArrayElementStatic
@@ -2648,7 +2657,7 @@ output
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmLoad
@@ -2665,7 +2674,7 @@ ins
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmLoadI64
@@ -2931,7 +2940,7 @@ dstAddr
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmStore
@@ -2948,7 +2957,7 @@ ins
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmStoreI64
@@ -2965,7 +2974,7 @@ ins
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitAsmJSLoadHeap
@@ -3203,7 +3212,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitStoreTypedArrayElementStatic
@@ -3519,7 +3528,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitAsmJSStoreHeap
@@ -3734,7 +3743,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmCompareExchangeHeap
@@ -3899,7 +3908,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicExchangeHeap
@@ -4050,7 +4059,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicBinopHeap
@@ -4280,7 +4289,7 @@ out
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicBinopHeapForEffect
@@ -4479,7 +4488,7 @@ InvalidReg
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicLoadI64
@@ -4692,7 +4701,7 @@ srcAddr
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmCompareExchangeI64
@@ -5094,7 +5103,7 @@ again
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicStoreI64
@@ -5158,7 +5167,7 @@ offset
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicExchangeI64
@@ -5211,7 +5220,7 @@ offset
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmAtomicBinopI64
@@ -5597,7 +5606,7 @@ jit
 namespace
 js
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitTruncateDToInt32
@@ -5687,7 +5696,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitTruncateFToInt32
@@ -7002,7 +7011,7 @@ rejoin
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareI64
@@ -7222,7 +7231,7 @@ done
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCompareI64AndBranch
@@ -7488,7 +7497,7 @@ falseLabel
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitDivOrModI64
@@ -7895,7 +7904,7 @@ done
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitUDivOrModI64
@@ -8176,7 +8185,7 @@ low
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmSelectI64
@@ -8316,7 +8325,7 @@ done
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmReinterpretFromI64
@@ -8437,7 +8446,7 @@ uint64_t
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmReinterpretToI64
@@ -8552,7 +8561,7 @@ high
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitExtendInt32ToInt64
@@ -8671,7 +8680,7 @@ cdq
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitSignExtendInt64
@@ -8807,7 +8816,7 @@ cdq
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWrapInt64ToInt32
@@ -8890,7 +8899,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitClzI64
@@ -8946,7 +8955,7 @@ high
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitCtzI64
@@ -9002,7 +9011,7 @@ high
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitNotI64
@@ -9129,7 +9138,7 @@ output
 ;
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitWasmTruncateToInt64
@@ -9396,7 +9405,7 @@ floatTemp
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitInt64ToFloatingPoint
@@ -9576,7 +9585,7 @@ output
 }
 }
 void
-CodeGeneratorX86
+CodeGenerator
 :
 :
 visitTestI64AndBranch

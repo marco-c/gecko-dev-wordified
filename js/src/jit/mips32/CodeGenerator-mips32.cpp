@@ -346,7 +346,7 @@ payloadReg
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitBox
@@ -446,7 +446,7 @@ type
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitBoxFloatingPoint
@@ -499,7 +499,7 @@ out
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitUnbox
@@ -620,7 +620,7 @@ tag
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareB
@@ -846,7 +846,7 @@ done
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareBAndBranch
@@ -1060,7 +1060,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareBitwise
@@ -1249,7 +1249,7 @@ done
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareBitwiseAndBranch
@@ -1440,7 +1440,7 @@ ifFalse
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareI64
@@ -1628,7 +1628,7 @@ output
 }
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCompareI64AndBranch
@@ -1894,7 +1894,7 @@ falseLabel
 }
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitDivOrModI64
@@ -2263,7 +2263,7 @@ done
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitUDivOrModI64
@@ -2632,7 +2632,7 @@ lir
 }
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmLoadI64
@@ -2649,7 +2649,7 @@ lir
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmUnalignedLoadI64
@@ -2820,7 +2820,7 @@ ptrScratch
 }
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmStoreI64
@@ -2837,7 +2837,7 @@ lir
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmUnalignedStoreI64
@@ -2854,7 +2854,7 @@ lir
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmSelectI64
@@ -3054,7 +3054,7 @@ done
 }
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmReinterpretFromI64
@@ -3160,7 +3160,7 @@ output
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmReinterpretToI64
@@ -3261,7 +3261,7 @@ high
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitExtendInt32ToInt64
@@ -3357,7 +3357,7 @@ Imm32
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWrapInt64ToInt32
@@ -3440,7 +3440,7 @@ output
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitSignExtendInt64
@@ -3561,7 +3561,7 @@ Imm32
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitClzI64
@@ -3618,7 +3618,7 @@ high
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitCtzI64
@@ -3675,7 +3675,7 @@ high
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitNotI64
@@ -3743,7 +3743,7 @@ output
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmTruncateToInt64
@@ -4098,7 +4098,7 @@ output
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitInt64ToFloatingPoint
@@ -4355,7 +4355,7 @@ ReturnFloat32Reg
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitTestI64AndBranch
@@ -4469,7 +4469,7 @@ ReturnDoubleReg
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmAtomicLoadI64
@@ -4550,7 +4550,7 @@ output
 ;
 }
 void
-CodeGeneratorMIPS
+CodeGenerator
 :
 :
 visitWasmAtomicStoreI64
