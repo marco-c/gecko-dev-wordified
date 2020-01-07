@@ -1294,6 +1294,8 @@ nsHostObjectURI
 Mutator
 nsIURISetters
 nsIURIMutator
+nsIBlobURIMutator
+nsIPrincipalURIMutator
 )
 NS_IMETHODIMP
 nsHostObjectURI
