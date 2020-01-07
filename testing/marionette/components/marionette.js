@@ -3918,6 +3918,16 @@ eForceQuit
 )
 ;
 }
+env
+.
+set
+(
+ENV_ENABLED
+"
+1
+"
+)
+;
 Services
 .
 obs
