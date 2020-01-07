@@ -19126,6 +19126,9 @@ code
 ABINonArgReg0
 )
 ;
+#
+ifndef
+JS_CODEGEN_NONE
 static_assert
 (
 ABINonArgReg0
@@ -19138,6 +19141,8 @@ constraint
 "
 )
 ;
+#
+endif
 /
 /
 Switch
