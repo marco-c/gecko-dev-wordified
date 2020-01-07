@@ -103,18 +103,6 @@ Schema
 from
 taskgraph
 .
-util
-.
-scriptworker
-import
-(
-    
-get_balrog_server_scope
-get_worker_type_for_scope
-)
-from
-taskgraph
-.
 transforms
 .
 task
@@ -807,13 +795,6 @@ json
 }
 ]
         
-server_scope
-=
-get_balrog_server_scope
-(
-config
-)
-        
 task
 =
 {
@@ -829,18 +810,6 @@ description
 '
 :
 description
-            
-'
-worker
--
-type
-'
-:
-get_worker_type_for_scope
-(
-config
-server_scope
-)
             
 '
 worker
