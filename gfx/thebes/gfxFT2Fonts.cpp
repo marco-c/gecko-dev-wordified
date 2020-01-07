@@ -1050,6 +1050,7 @@ aUnscaledFont
 aCairoFont
 aFontEntry
 aFontStyle
+false
 )
 mCharGlyphCache
 (
@@ -1075,6 +1076,19 @@ whack
 "
 )
 ;
+/
+/
+TODO
+:
+use
+FreeType
+emboldening
+instead
+of
+multi
+-
+strike
+?
 mApplySyntheticBold
 =
 aNeedsBold
