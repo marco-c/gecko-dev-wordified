@@ -249,6 +249,10 @@ mQuotaCheckDisabled
 (
 false
 )
+mWritingDone
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -329,6 +333,9 @@ mSize
 ;
 bool
 mQuotaCheckDisabled
+;
+bool
+mWritingDone
 ;
 }
 ;
