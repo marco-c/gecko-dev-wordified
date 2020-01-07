@@ -88,12 +88,8 @@ changes
 .
 *
 /
-/
-*
-exported
-ObservedPropertiesMixin
-*
-/
+export
+default
 function
 ObservedPropertiesMixin
 (

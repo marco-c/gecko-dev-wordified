@@ -91,13 +91,10 @@ autofillEditForms
 js
 *
 /
-/
-*
 import
--
-globals
--
+PaymentStateSubscriberMixin
 from
+"
 .
 .
 /
@@ -106,8 +103,8 @@ mixins
 PaymentStateSubscriberMixin
 .
 js
-*
-/
+"
+;
 /
 *
 import
@@ -140,11 +137,6 @@ paymentRequest
 js
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -202,6 +194,8 @@ Fluent
 .
 *
 /
+export
+default
 class
 BasicCardForm
 extends

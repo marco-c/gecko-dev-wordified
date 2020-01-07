@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -99,12 +94,8 @@ propagation
 .
 *
 /
-/
-*
-exported
-PaymentsStore
-*
-/
+export
+default
 class
 PaymentsStore
 {
