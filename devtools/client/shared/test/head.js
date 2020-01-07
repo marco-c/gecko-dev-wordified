@@ -93,16 +93,6 @@ import
 globals
 -
 from
-.
-.
-/
-.
-.
-/
-framework
-/
-test
-/
 shared
 -
 head
@@ -149,7 +139,7 @@ devtools
 /
 client
 /
-framework
+shared
 /
 test
 /

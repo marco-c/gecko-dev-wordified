@@ -69,7 +69,7 @@ from
 .
 .
 /
-framework
+shared
 /
 test
 /

@@ -113,7 +113,7 @@ devtools
 /
 client
 /
-framework
+shared
 /
 test
 /

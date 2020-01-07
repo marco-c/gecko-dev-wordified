@@ -87,7 +87,7 @@ from
 .
 .
 /
-framework
+shared
 /
 test
 /

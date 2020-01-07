@@ -89,7 +89,7 @@ from
 .
 .
 /
-framework
+shared
 /
 test
 /
@@ -229,7 +229,7 @@ API
 into
 devtools
 /
-framework
+shared
 /
 test
 /
