@@ -49235,9 +49235,15 @@ source
 script
 -
 >
-compartment_
+realm_
 =
+JS
+:
+:
+GetRealmForCompartment
+(
 target
+)
 ;
 script
 -
