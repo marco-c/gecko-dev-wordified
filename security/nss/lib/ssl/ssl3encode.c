@@ -313,7 +313,6 @@ PRUint32
 bytes
 )
 {
-unsigned
 int
 i
 ;

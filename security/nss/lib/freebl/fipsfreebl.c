@@ -152,6 +152,9 @@ prtypes
 h
 "
 #
+ifdef
+NSS_ENABLE_ECC
+#
 include
 "
 ec
@@ -165,6 +168,8 @@ for
 ECDSA
 *
 /
+#
+endif
 /
 *
 *
@@ -8301,6 +8306,9 @@ SECFailure
 )
 ;
 }
+#
+ifdef
+NSS_ENABLE_ECC
 static
 SECStatus
 freebl_fips_ECDSA_Test
@@ -9689,6 +9697,13 @@ SECSuccess
 )
 ;
 }
+#
+endif
+/
+*
+NSS_ENABLE_ECC
+*
+/
 static
 SECStatus
 freebl_fips_DSA_PowerUpSelfTest
@@ -11667,6 +11682,9 @@ SECSuccess
 return
 rv
 ;
+#
+ifdef
+NSS_ENABLE_ECC
 /
 *
 ECDSA
@@ -11696,6 +11714,8 @@ SECSuccess
 return
 rv
 ;
+#
+endif
 }
 /
 *

@@ -75,13 +75,6 @@ FREEBL_POLY1305_H_
 #
 define
 FREEBL_POLY1305_H_
-#
-include
-"
-stddef
-.
-h
-"
 typedef
 unsigned
 char
