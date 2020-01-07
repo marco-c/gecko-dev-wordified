@@ -10493,16 +10493,12 @@ false
 /
 Whether
 to
-preserve
+validate
 OpenType
 variation
 tables
 in
 fonts
-(
-bypassing
-OTS
-)
 pref
 (
 "
@@ -10510,7 +10506,7 @@ gfx
 .
 downloadable_fonts
 .
-keep_variation_tables
+validate_variation_tables
 "
 true
 )
@@ -62896,8 +62892,8 @@ seconds
 .
 Default
 is
-20
-minutes
+72
+hours
 .
 pref
 (
@@ -62910,7 +62906,7 @@ blacklist
 -
 duration
 "
-1200
+259200
 )
 ;
 /

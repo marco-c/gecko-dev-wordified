@@ -1091,12 +1091,12 @@ tables
 in
 downloaded
 fonts
-mKeepVariationTables
+mCheckVariationTables
 =
 gfxPrefs
 :
 :
-KeepVariationTables
+ValidateVariationTables
 (
 )
 ;
@@ -1223,7 +1223,8 @@ B
 |
 |
 (
-mKeepVariationTables
+!
+mCheckVariationTables
 &
 &
 (
@@ -1643,7 +1644,7 @@ bool
 mCheckOTLTables
 ;
 bool
-mKeepVariationTables
+mCheckVariationTables
 ;
 bool
 mKeepColorBitmaps

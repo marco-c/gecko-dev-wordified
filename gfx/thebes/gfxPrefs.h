@@ -4926,11 +4926,11 @@ gfx
 .
 downloadable_fonts
 .
-keep_variation_tables
+validate_variation_tables
 "
-KeepVariationTables
+ValidateVariationTables
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
