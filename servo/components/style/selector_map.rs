@@ -88,7 +88,7 @@ use
 applicable_declarations
 :
 :
-ApplicableDeclarationBlock
+ApplicableDeclarationList
 ;
 use
 context
@@ -179,10 +179,7 @@ use
 smallvec
 :
 :
-{
 SmallVec
-VecLike
-}
 ;
 use
 std
@@ -1255,7 +1252,6 @@ fn
 get_all_matching_rules
 <
 E
-V
 F
 >
 (
@@ -1273,7 +1269,7 @@ matching_rules_list
 :
 &
 mut
-V
+ApplicableDeclarationList
 context
 :
 &
@@ -1301,12 +1297,6 @@ where
 E
 :
 TElement
-V
-:
-VecLike
-<
-ApplicableDeclarationBlock
->
 F
 :
 FnMut
@@ -1546,7 +1536,6 @@ fn
 get_matching_rules
 <
 E
-V
 F
 >
 (
@@ -1564,7 +1553,7 @@ matching_rules
 :
 &
 mut
-V
+ApplicableDeclarationList
 context
 :
 &
@@ -1589,12 +1578,6 @@ where
 E
 :
 TElement
-V
-:
-VecLike
-<
-ApplicableDeclarationBlock
->
 F
 :
 FnMut
