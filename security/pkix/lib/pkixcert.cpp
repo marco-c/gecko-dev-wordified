@@ -1254,7 +1254,7 @@ CA
 |
 true
 |
-id_pk_serverAuth
+id_kp_serverAuth
 /
 /
 SSL
