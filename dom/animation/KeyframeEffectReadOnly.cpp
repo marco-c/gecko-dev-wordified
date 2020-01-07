@@ -8385,8 +8385,10 @@ return
 true
 ;
 }
-if
-(
+const
+bool
+isVisibilityHidden
+=
 !
 frame
 -
@@ -8394,6 +8396,10 @@ frame
 IsVisibleOrMayHaveVisibleDescendants
 (
 )
+;
+if
+(
+isVisibilityHidden
 |
 |
 frame
@@ -8440,6 +8446,14 @@ nsChangeHint_UpdateTransformLayer
 )
 {
 return
+isVisibilityHidden
+?
+CanThrottleTransformChangesInScrollable
+(
+*
+frame
+)
+:
 CanThrottleTransformChanges
 (
 *
@@ -8699,7 +8713,7 @@ eCSSProperty_transform
 &
 &
 !
-CanThrottleTransformChangesForCompositor
+CanThrottleTransformChangesInScrollable
 (
 *
 frame
@@ -8885,7 +8899,7 @@ bool
 KeyframeEffectReadOnly
 :
 :
-CanThrottleTransformChangesForCompositor
+CanThrottleTransformChangesInScrollable
 (
 nsIFrame
 &

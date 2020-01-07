@@ -3048,7 +3048,7 @@ aFrame
 const
 ;
 bool
-CanThrottleTransformChangesForCompositor
+CanThrottleTransformChangesInScrollable
 (
 nsIFrame
 &
