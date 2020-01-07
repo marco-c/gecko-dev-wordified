@@ -2474,6 +2474,7 @@ atomic
 /
 class
 PseudoStack
+final
 {
 public
 :
