@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_GFX_BOX_H_
+MOZILLA_GFX_RECT_ABSOLUTE_H_
 #
 define
-MOZILLA_GFX_BOX_H_
+MOZILLA_GFX_RECT_ABSOLUTE_H_
 #
 include
 <
@@ -171,7 +171,7 @@ gfx
 *
 *
 A
-Box
+RectAbsolute
 is
 similar
 to
@@ -273,7 +273,7 @@ class
 Rect
 >
 struct
-BaseBox
+BaseRectAbsolute
 {
 protected
 :
@@ -285,7 +285,7 @@ y2
 ;
 public
 :
-BaseBox
+BaseRectAbsolute
 (
 )
 :
@@ -307,7 +307,7 @@ y2
 )
 {
 }
-BaseBox
+BaseRectAbsolute
 (
 T
 aX1
@@ -525,7 +525,7 @@ Intersect
 const
 Sub
 &
-aBox
+aOther
 )
 const
 {
@@ -545,7 +545,7 @@ T
 >
 (
 x1
-aBox
+aOther
 .
 x1
 )
@@ -563,7 +563,7 @@ T
 >
 (
 y1
-aBox
+aOther
 .
 y1
 )
@@ -581,7 +581,7 @@ T
 >
 (
 x2
-aBox
+aOther
 .
 x2
 )
@@ -599,7 +599,7 @@ T
 >
 (
 y2
-aBox
+aOther
 .
 y2
 )
@@ -614,7 +614,7 @@ IsEqualEdges
 const
 Sub
 &
-aBox
+aOther
 )
 const
 {
@@ -622,7 +622,7 @@ return
 x1
 =
 =
-aBox
+aOther
 .
 x1
 &
@@ -630,7 +630,7 @@ x1
 y1
 =
 =
-aBox
+aOther
 .
 y1
 &
@@ -638,7 +638,7 @@ y1
 x2
 =
 =
-aBox
+aOther
 .
 x2
 &
@@ -646,7 +646,7 @@ x2
 y2
 =
 =
-aBox
+aOther
 .
 y2
 ;
@@ -659,13 +659,13 @@ class
 Units
 >
 struct
-IntBoxTyped
+IntRectAbsoluteTyped
 :
 public
-BaseBox
+BaseRectAbsolute
 <
 int32_t
-IntBoxTyped
+IntRectAbsoluteTyped
 <
 Units
 >
@@ -700,10 +700,10 @@ tag
 )
 ;
 typedef
-BaseBox
+BaseRectAbsolute
 <
 int32_t
-IntBoxTyped
+IntRectAbsoluteTyped
 <
 Units
 >
@@ -721,7 +721,7 @@ int32_t
 >
 ToInt
 ;
-IntBoxTyped
+IntRectAbsoluteTyped
 (
 )
 :
@@ -730,7 +730,7 @@ Super
 )
 {
 }
-IntBoxTyped
+IntRectAbsoluteTyped
 (
 ToInt
 aX1
@@ -767,13 +767,13 @@ class
 Units
 >
 struct
-BoxTyped
+RectAbsoluteTyped
 :
 public
-BaseBox
+BaseRectAbsolute
 <
 Float
-BoxTyped
+RectAbsoluteTyped
 <
 Units
 >
@@ -808,10 +808,10 @@ tag
 )
 ;
 typedef
-BaseBox
+BaseRectAbsolute
 <
 Float
-BoxTyped
+RectAbsoluteTyped
 <
 Units
 >
@@ -822,7 +822,7 @@ Units
 >
 Super
 ;
-BoxTyped
+RectAbsoluteTyped
 (
 )
 :
@@ -831,7 +831,7 @@ Super
 )
 {
 }
-BoxTyped
+RectAbsoluteTyped
 (
 Float
 aX1
@@ -860,6 +860,6 @@ aY2
 endif
 /
 *
-MOZILLA_GFX_BOX_H_
+MOZILLA_GFX_RECT_ABSOLUTE_H_
 *
 /
