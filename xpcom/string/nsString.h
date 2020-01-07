@@ -203,12 +203,6 @@ kRadix16
 16
 )
 #
-define
-kAutoDetect
-(
-100
-)
-#
 endif
 #
 include
