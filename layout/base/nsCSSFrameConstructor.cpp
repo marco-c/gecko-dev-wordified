@@ -22420,7 +22420,6 @@ curData
 {
 if
 (
-*
 curData
 -
 >
@@ -22549,7 +22548,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -22568,7 +22566,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -22588,7 +22585,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -22952,7 +22948,6 @@ nsCSSFrameConstructor
 FindImgData
 )
 {
-&
 nsGkAtoms
 :
 :
@@ -23018,7 +23013,6 @@ nsCSSFrameConstructor
 ConstructFieldSetFrame
 )
 {
-&
 nsGkAtoms
 :
 :
@@ -23042,7 +23036,6 @@ iframe
 NS_NewSubDocumentFrame
 )
 {
-&
 nsGkAtoms
 :
 :
@@ -27238,7 +27231,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -27257,7 +27249,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -32082,7 +32073,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -32916,7 +32906,6 @@ _func
 )
 \
 {
-&
 nsGkAtoms
 :
 :
@@ -34480,7 +34469,6 @@ generic_
 NS_NewSVGGenericContainerFrame
 )
 {
-&
 nsGkAtoms
 :
 :
@@ -34498,7 +34486,6 @@ mozSVGText
 )
 }
 {
-&
 nsGkAtoms
 :
 :
