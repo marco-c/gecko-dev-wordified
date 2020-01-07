@@ -123,6 +123,10 @@ mozilla_dom_filereadersync_h__
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerCommon
 .
 h

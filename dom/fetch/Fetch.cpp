@@ -433,6 +433,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerCommon
 .
 h
@@ -440,6 +444,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
@@ -447,6 +455,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerRunnable
 .
 h
@@ -454,6 +466,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerScope
 .
 h

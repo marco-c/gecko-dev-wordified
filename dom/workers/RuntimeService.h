@@ -123,6 +123,10 @@ mozilla_dom_workers_runtimeservice_h__
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerCommon
 .
 h

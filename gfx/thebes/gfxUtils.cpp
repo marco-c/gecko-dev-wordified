@@ -10000,6 +10000,9 @@ workerPrivate
 dom
 :
 :
+workers
+:
+:
 GetCurrentThreadWorkerPrivate
 (
 )
