@@ -54,13 +54,6 @@ js
 }
 )
 ;
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 function
 makeRecord
 (

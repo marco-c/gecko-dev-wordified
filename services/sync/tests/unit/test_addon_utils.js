@@ -327,11 +327,8 @@ run_test
 (
 )
 {
-initTestLogging
+syncTestLogging
 (
-"
-Trace
-"
 )
 ;
 run_next_test

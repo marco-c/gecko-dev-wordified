@@ -1040,6 +1040,10 @@ setUp
 server
 )
 {
+syncTestLogging
+(
+)
+;
 await
 configureIdentity
 (

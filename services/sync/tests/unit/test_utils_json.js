@@ -65,10 +65,6 @@ js
 "
 )
 ;
-initTestLogging
-(
-)
-;
 add_task
 (
 async
