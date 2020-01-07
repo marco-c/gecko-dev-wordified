@@ -517,6 +517,7 @@ to
 become
 initialized
 .
+await
 Weave
 .
 Service
