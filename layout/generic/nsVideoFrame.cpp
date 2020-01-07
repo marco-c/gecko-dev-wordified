@@ -2926,7 +2926,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 RefPtr
@@ -2949,7 +2949,7 @@ container
 )
 {
 return
-false
+true
 ;
 }
 /
@@ -3169,7 +3169,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 VideoInfo
