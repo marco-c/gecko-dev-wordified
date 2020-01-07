@@ -1332,12 +1332,10 @@ process
 .
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 handler
 =
-do_QueryInterface
-(
 GetOwner
 (
 )
@@ -1345,7 +1343,6 @@ GetOwner
 >
 GetChromeEventHandler
 (
-)
 )
 ;
 nsCOMPtr

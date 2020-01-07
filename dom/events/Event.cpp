@@ -2979,7 +2979,7 @@ Event
 :
 SetTarget
 (
-nsIDOMEventTarget
+EventTarget
 *
 aTarget
 )
@@ -2989,10 +2989,7 @@ mEvent
 >
 mTarget
 =
-do_QueryInterface
-(
 aTarget
-)
 ;
 return
 NS_OK

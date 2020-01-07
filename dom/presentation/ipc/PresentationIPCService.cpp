@@ -392,7 +392,7 @@ nsAString
 aDeviceId
 uint64_t
 aWindowId
-nsIDOMEventTarget
+EventTarget
 *
 aEventTarget
 nsIPrincipal

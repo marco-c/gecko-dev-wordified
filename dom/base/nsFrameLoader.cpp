@@ -12731,9 +12731,9 @@ enclosing
 chrome
 shell
 .
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 chromeEventHandler
 ;
@@ -12771,10 +12771,7 @@ shell
 .
 chromeEventHandler
 =
-do_QueryInterface
-(
 mOwnerContent
-)
 ;
 NS_ASSERTION
 (
