@@ -1946,12 +1946,6 @@ GeckoView
 MediaPermission
 "
 }
-/
-*
-alwaysListen
-*
-/
-true
 )
 {
 Override
