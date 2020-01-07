@@ -1690,10 +1690,16 @@ draw
 target
 RefPtr
 <
+gfx
+:
+:
 DrawTargetCapture
 >
 captureDT
 =
+gfx
+:
+:
 Factory
 :
 :

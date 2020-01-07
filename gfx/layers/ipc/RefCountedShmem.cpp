@@ -482,6 +482,12 @@ RefCountedShm
 :
 Alloc
 (
+mozilla
+:
+:
+ipc
+:
+:
 IProtocol
 *
 aAllocator
@@ -555,6 +561,12 @@ RefCountedShm
 :
 Dealloc
 (
+mozilla
+:
+:
+ipc
+:
+:
 IProtocol
 *
 aAllocator
