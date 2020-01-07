@@ -1714,6 +1714,7 @@ this
 .
 *
 /
+MOZ_MUST_USE
 EditActionResult
 TryToJoinBlocksWithTransaction
 (
