@@ -248,6 +248,17 @@ builtin
 /
 intl
 /
+Collator
+.
+h
+"
+#
+include
+"
+builtin
+/
+intl
+/
 NumberFormat
 .
 h
