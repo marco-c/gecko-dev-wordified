@@ -698,7 +698,7 @@ VideoCaptureDeviceInfoAndroid
 java
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -730,7 +730,7 @@ Environment
 else
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -781,7 +781,7 @@ OSX
 .
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -842,7 +842,7 @@ respectively
 .
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -873,7 +873,7 @@ User
 else
 if
 (
-aName
+mDeviceName
 .
 Find
 (
