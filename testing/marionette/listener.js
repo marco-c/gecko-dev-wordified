@@ -5399,6 +5399,17 @@ chain
 curContainer
 .
 frame
+!
+capabilities
+.
+get
+(
+"
+moz
+:
+useNonSpecCompliantPointerOrigin
+"
+)
 )
 ;
 }

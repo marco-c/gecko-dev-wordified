@@ -9,7 +9,8 @@ support
 .
 mouse
 import
-get_center
+get_inview_center
+get_viewport_rect
 from
 tests
 .
@@ -476,11 +477,15 @@ False
         
 center
 =
-get_center
+get_inview_center
 (
 outer
 .
 rect
+get_viewport_rect
+(
+dblclick_session
+)
 )
         
 mouse_chain
@@ -722,11 +727,15 @@ False
         
 center
 =
-get_center
+get_inview_center
 (
 outer
 .
 rect
+get_viewport_rect
+(
+dblclick_session
+)
 )
         
 mouse_chain
