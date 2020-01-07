@@ -637,14 +637,6 @@ clobber
 '
                                           
 '
-read
--
-buildbot
--
-config
-'
-                                          
-'
 download
 -
 and
@@ -2026,12 +2018,6 @@ clobber
 defined
 in
 BaseScript
-    
-#
-read_buildbot_config
-defined
-in
-BuildbotMixin
     
 def
 download_and_extract

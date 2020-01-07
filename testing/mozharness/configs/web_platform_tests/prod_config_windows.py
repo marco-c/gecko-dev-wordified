@@ -278,16 +278,6 @@ hg
 }
     
 "
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
-"
 default_blob_upload_servers
 "
 :
