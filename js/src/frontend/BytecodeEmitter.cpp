@@ -15365,7 +15365,7 @@ return
 1
 /
 *
-SN_SETLINE
+SRC_SETLINE
 *
 /
 +
@@ -49174,8 +49174,7 @@ lazyScript
 )
 ;
 /
-*
-*
+/
 Set
 the
 |
@@ -49190,7 +49189,8 @@ the
 function
 has
 been
-*
+/
+/
 emitted
 .
 Function
@@ -49203,7 +49203,8 @@ the
 top
 of
 the
-*
+/
+/
 function
 will
 be
@@ -49214,8 +49215,6 @@ in
 two
 places
 .
-*
-/
 if
 (
 funbox
@@ -49599,8 +49598,7 @@ wasEmitted
 true
 ;
 /
-*
-*
+/
 Mark
 as
 singletons
@@ -49613,7 +49611,8 @@ be
 executed
 once
 or
-*
+/
+/
 which
 is
 inner
@@ -49630,7 +49629,8 @@ once
 In
 the
 latter
-*
+/
+/
 case
 if
 the
@@ -49641,7 +49641,8 @@ times
 then
 CloneFunctionObject
 will
-*
+/
+/
 make
 a
 deep
@@ -49650,8 +49651,6 @@ of
 its
 contents
 .
-*
-/
 if
 (
 fun
@@ -50103,7 +50102,7 @@ fun
 ;
 }
 /
-*
+/
 Make
 the
 function
@@ -50118,8 +50117,6 @@ script
 s
 pool
 .
-*
-/
 unsigned
 index
 =
@@ -50134,7 +50131,7 @@ pn_funbox
 )
 ;
 /
-*
+/
 Non
 -
 hoisted
@@ -50145,8 +50142,6 @@ their
 respective
 op
 .
-*
-/
 if
 (
 !
@@ -50159,7 +50154,7 @@ functionIsHoisted
 )
 {
 /
-*
+/
 JSOP_LAMBDA_ARROW
 is
 always
@@ -50169,8 +50164,6 @@ a
 new
 .
 target
-*
-/
 MOZ_ASSERT
 (
 fun
@@ -70977,7 +70970,7 @@ their
 final
 destination
 by
-CopySrcNotes
+copySrcNotes
 .
 *
 out

@@ -1,3 +1,17 @@
+/
+/
+Test
+how
+stepping
+interacts
+with
+for
+-
+in
+/
+of
+statements
+.
 var
 g
 =
