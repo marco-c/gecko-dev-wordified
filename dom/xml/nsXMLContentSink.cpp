@@ -2275,7 +2275,6 @@ mDocument
 >
 BeginUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 nsNodeUtils
@@ -2292,7 +2291,6 @@ mDocument
 >
 EndUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 }
@@ -8552,7 +8550,6 @@ mozAutoDocUpdate
 updateBatch
 (
 mDocument
-UPDATE_CONTENT_MODEL
 true
 )
 ;

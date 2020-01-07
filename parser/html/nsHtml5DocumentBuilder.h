@@ -432,7 +432,6 @@ mDocument
 >
 BeginUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 }
@@ -469,7 +468,6 @@ mDocument
 >
 EndUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 }

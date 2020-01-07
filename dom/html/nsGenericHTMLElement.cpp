@@ -17252,7 +17252,6 @@ updateBatch
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 true
 )
 ;

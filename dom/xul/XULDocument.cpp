@@ -17893,8 +17893,6 @@ XULDocument
 :
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 {
 XMLDocument
@@ -17902,7 +17900,6 @@ XMLDocument
 :
 EndUpdate
 (
-aUpdateType
 )
 ;
 MaybeBroadcast

@@ -669,8 +669,6 @@ virtual
 void
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 override
 ;

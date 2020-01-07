@@ -12783,8 +12783,6 @@ nsHTMLDocument
 :
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 {
 const
@@ -12803,7 +12801,6 @@ nsDocument
 :
 EndUpdate
 (
-aUpdateType
 )
 ;
 if

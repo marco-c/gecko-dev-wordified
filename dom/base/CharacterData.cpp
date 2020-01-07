@@ -1641,7 +1641,6 @@ mozAutoDocUpdate
 updateBatch
 (
 document
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;

@@ -3547,7 +3547,6 @@ mozAutoDocUpdate
 batch
 (
 doc
-UPDATE_CONTENT_MODEL
 true
 )
 ;
@@ -7534,7 +7533,6 @@ updateBatch
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
@@ -9333,7 +9331,6 @@ updateBatch
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
@@ -11453,7 +11450,6 @@ newContent
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 true
 )
 ;
@@ -12023,7 +12019,6 @@ newContent
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 true
 )
 ;
@@ -12482,7 +12477,6 @@ batch
 GetComposedDoc
 (
 )
-UPDATE_CONTENT_MODEL
 true
 )
 ;
