@@ -474,7 +474,7 @@ current
 thread
 .
 void
-runFromActiveCooperatingThread
+runFromMainThread
 (
 JSRuntime
 *

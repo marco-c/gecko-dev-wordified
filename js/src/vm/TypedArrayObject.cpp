@@ -1409,7 +1409,7 @@ nursery
 obj
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

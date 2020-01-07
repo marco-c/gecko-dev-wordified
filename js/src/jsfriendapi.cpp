@@ -1100,7 +1100,7 @@ trusted
 compartment
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -2533,7 +2533,7 @@ timeNow
 obj
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

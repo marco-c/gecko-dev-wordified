@@ -3658,7 +3658,7 @@ AutoWritableJitCode
 code
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 code

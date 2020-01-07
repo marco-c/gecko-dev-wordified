@@ -7049,7 +7049,7 @@ rt
 code
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

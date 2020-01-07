@@ -6200,7 +6200,7 @@ started
 freeMallocedBuffersTask
 -
 >
-runFromActiveCooperatingThread
+runFromMainThread
 (
 runtime
 (

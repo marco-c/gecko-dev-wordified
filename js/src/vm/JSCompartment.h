@@ -4583,7 +4583,7 @@ behaviors_
 }
 JSRuntime
 *
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 const

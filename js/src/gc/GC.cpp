@@ -4472,7 +4472,7 @@ if
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 )
@@ -4512,7 +4512,7 @@ MOZ_ASSERT_IF
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 keepArenas
@@ -14892,7 +14892,7 @@ FreeOp
 *
 fop
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -16453,7 +16453,7 @@ i
 fgTask
 -
 >
-runFromActiveCooperatingThread
+runFromMainThread
 (
 rt
 )
@@ -20476,7 +20476,7 @@ return
 ;
 decommitTask
 .
-runFromActiveCooperatingThread
+runFromMainThread
 (
 rt
 )
@@ -22365,7 +22365,7 @@ JSRuntime
 >
 rt
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -24495,7 +24495,7 @@ rt
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -33588,7 +33588,7 @@ phase
 ;
 task
 .
-runFromActiveCooperatingThread
+runFromMainThread
 (
 rt
 )
@@ -43627,7 +43627,7 @@ rt
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -48092,7 +48092,7 @@ rt
 source
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -55099,7 +55099,7 @@ rt
 tc
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

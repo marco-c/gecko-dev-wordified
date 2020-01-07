@@ -872,7 +872,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

@@ -486,7 +486,7 @@ uint32_t
 inlineMaxBytecodePerCallSiteHelperThread_
 ;
 uint32_t
-inlineMaxBytecodePerCallSiteActiveCooperatingThread_
+inlineMaxBytecodePerCallSiteMainThread_
 ;
 /
 /
@@ -1140,7 +1140,7 @@ limitScriptSize
 ?
 inlineMaxBytecodePerCallSiteHelperThread_
 :
-inlineMaxBytecodePerCallSiteActiveCooperatingThread_
+inlineMaxBytecodePerCallSiteMainThread_
 ;
 }
 uint16_t

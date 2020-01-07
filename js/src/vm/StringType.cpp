@@ -465,7 +465,7 @@ auto
 *
 cb
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -3906,7 +3906,7 @@ Nursery
 &
 nursery
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -4004,7 +4004,7 @@ Nursery
 &
 nursery
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

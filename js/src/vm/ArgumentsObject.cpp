@@ -6002,7 +6002,7 @@ nursery
 dst
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

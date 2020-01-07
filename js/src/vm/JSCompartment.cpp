@@ -526,7 +526,7 @@ wasm
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )
@@ -652,7 +652,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -7716,7 +7716,7 @@ zone
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

@@ -314,7 +314,7 @@ rt
 wrapped
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

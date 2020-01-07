@@ -1569,7 +1569,7 @@ rt
 script
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
