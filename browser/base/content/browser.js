@@ -54988,7 +54988,12 @@ state
 :
 SitePermissions
 .
-UNKNOWN
+getDefault
+(
+"
+popup
+"
+)
 scope
 :
 SitePermissions
