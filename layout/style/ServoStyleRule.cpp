@@ -264,14 +264,6 @@ ServoStyleRuleDeclaration
 (
 )
 {
-mDecls
--
->
-SetOwningRule
-(
-nullptr
-)
-;
 }
 /
 /
