@@ -498,16 +498,6 @@ css
 :
 :
 Rule
-already_AddRefed
-<
-Rule
->
-Clone
-(
-)
-const
-final
-;
 size_t
 SizeOfIncludingThis
 (
