@@ -4241,6 +4241,11 @@ aWhen
 )
 |
 |
+aOffset
+<
+0
+|
+|
 (
 aDuration
 .
@@ -4268,7 +4273,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
+NS_ERROR_RANGE_ERR
 )
 ;
 return
@@ -4885,7 +4890,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
+NS_ERROR_RANGE_ERR
 )
 ;
 return
