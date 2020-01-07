@@ -602,6 +602,14 @@ bool
 aCreatedCollection
 )
 ;
+static
+nsString
+PseudoTypeAsString
+(
+CSSPseudoElementType
+aPseudoType
+)
+;
 dom
 :
 :

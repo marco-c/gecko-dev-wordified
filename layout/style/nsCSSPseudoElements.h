@@ -1070,14 +1070,6 @@ eInUASheets
 )
 ;
 }
-static
-nsString
-PseudoTypeAsString
-(
-Type
-aPseudoType
-)
-;
 private
 :
 /
