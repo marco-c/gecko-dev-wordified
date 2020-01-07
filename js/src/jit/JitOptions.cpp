@@ -1563,6 +1563,12 @@ env
 )
 ;
 }
+SET_DEFAULT
+(
+spectreIndexMasking
+false
+)
+;
 /
 /
 Toggles

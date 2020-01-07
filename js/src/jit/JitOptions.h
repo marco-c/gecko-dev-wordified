@@ -470,6 +470,9 @@ IonRegisterAllocator
 >
 forcedRegisterAllocator
 ;
+bool
+spectreIndexMasking
+;
 /
 /
 The
