@@ -16907,7 +16907,7 @@ TextServicesDocument
 :
 WillDeleteSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )
@@ -16922,7 +16922,7 @@ TextServicesDocument
 :
 DidDeleteSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )

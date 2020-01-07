@@ -2137,7 +2137,7 @@ nsBaseDragService
 :
 InvokeDragSessionWithSelection
 (
-nsISelection
+Selection
 *
 aSelection
 const
@@ -2185,15 +2185,6 @@ aDataTransfer
 mSelection
 =
 aSelection
-?
-aSelection
--
->
-AsSelection
-(
-)
-:
-nullptr
 ;
 mHasImage
 =

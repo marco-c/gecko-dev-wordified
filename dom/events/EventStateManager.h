@@ -6226,7 +6226,10 @@ aDataTransfer
 nsIContent
 *
 aDragTarget
-nsISelection
+dom
+:
+:
+Selection
 *
 aSelection
 const

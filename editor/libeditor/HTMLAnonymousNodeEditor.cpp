@@ -1869,7 +1869,7 @@ HTMLEditor
 :
 CheckSelectionStateForAnonymousButtons
 (
-nsISelection
+Selection
 *
 aSelection
 )
