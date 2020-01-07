@@ -769,6 +769,13 @@ window
 gBrowser
 .
 selectedTab
+{
+trigger
+:
+"
+menu
+"
+}
 )
 ;
 }
