@@ -1135,7 +1135,6 @@ HTMLLinkElement
 /
 /
 nsStyleLinkElement
-virtual
 already_AddRefed
 <
 nsIURI
@@ -1150,9 +1149,8 @@ nsIPrincipal
 *
 aTriggeringPrincipal
 )
-override
+final
 ;
-virtual
 void
 GetStyleSheetInfo
 (
@@ -1167,12 +1165,9 @@ nsAString
 aMedia
 bool
 *
-aIsScoped
-bool
-*
 aIsAlternate
 )
-override
+final
 ;
 protected
 :

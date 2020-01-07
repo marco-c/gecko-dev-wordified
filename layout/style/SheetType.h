@@ -211,10 +211,6 @@ Doc
 /
 /
 CSS
-ScopedDoc
-/
-/
-CSS
 StyleAttr
 Override
 /
@@ -277,12 +273,6 @@ SheetType
 :
 :
 Doc
-:
-case
-SheetType
-:
-:
-ScopedDoc
 :
 case
 SheetType

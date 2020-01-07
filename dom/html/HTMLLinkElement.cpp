@@ -2341,9 +2341,6 @@ nsAString
 aMedia
 bool
 *
-aIsScoped
-bool
-*
 aIsAlternate
 )
 {
@@ -2364,11 +2361,6 @@ aMedia
 Truncate
 (
 )
-;
-*
-aIsScoped
-=
-false
 ;
 *
 aIsAlternate
