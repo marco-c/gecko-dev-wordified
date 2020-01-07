@@ -874,7 +874,13 @@ mDirection
 [
 keycode
 -
-nsIDOMKeyEvent
+mozilla
+:
+:
+dom
+:
+:
+KeyboardEventBinding
 :
 :
 DOM_VK_END
