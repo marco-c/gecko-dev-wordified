@@ -1398,8 +1398,9 @@ observe
 topic
 )
 ;
-resolve
+executeSoon
 (
+resolve
 )
 ;
 }
