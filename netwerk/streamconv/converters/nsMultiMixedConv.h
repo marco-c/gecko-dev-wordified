@@ -1039,6 +1039,12 @@ mContentType
 nsCString
 mContentDisposition
 ;
+nsCString
+mContentSecurityPolicy
+;
+nsCString
+mRootContentSecurityPolicy
+;
 uint64_t
 mContentLength
 ;
@@ -1224,6 +1230,7 @@ HEADER_CONTENT_DISPOSITION
 HEADER_SET_COOKIE
 HEADER_CONTENT_RANGE
 HEADER_RANGE
+HEADER_CONTENT_SECURITY_POLICY
 HEADER_UNKNOWN
 }
 mResponseHeader
