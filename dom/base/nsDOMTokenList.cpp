@@ -1644,7 +1644,7 @@ return
 isPresent
 ;
 }
-void
+bool
 nsDOMTokenList
 :
 :
@@ -1714,6 +1714,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
 return
+false
 ;
 }
 aError
@@ -1733,6 +1734,7 @@ Failed
 )
 {
 return
+false
 ;
 }
 aError
@@ -1752,6 +1754,7 @@ Failed
 )
 {
 return
+false
 ;
 }
 const
@@ -1770,8 +1773,10 @@ attr
 )
 {
 return
+false
 ;
 }
+return
 ReplaceInternal
 (
 attr
@@ -1780,7 +1785,7 @@ aNewToken
 )
 ;
 }
-void
+bool
 nsDOMTokenList
 :
 :
@@ -1900,6 +1905,7 @@ this
 case
 .
 return
+false
 ;
 }
 bool
@@ -2075,6 +2081,9 @@ mAttrAtom
 resultStr
 true
 )
+;
+return
+true
 ;
 }
 bool
