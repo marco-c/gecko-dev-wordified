@@ -373,6 +373,13 @@ h
 #
 include
 "
+TextDrawTarget
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -415,6 +422,13 @@ mozilla
 :
 :
 image
+;
+using
+namespace
+mozilla
+:
+:
+layout
 ;
 NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (

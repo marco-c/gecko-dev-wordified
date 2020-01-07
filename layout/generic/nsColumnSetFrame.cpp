@@ -138,6 +138,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsColumnSetFrame
 .
 h
@@ -550,6 +557,9 @@ LAYER_ACTIVE
 }
 already_AddRefed
 <
+nsDisplayItem
+:
+:
 Layer
 >
 nsDisplayColumnRule

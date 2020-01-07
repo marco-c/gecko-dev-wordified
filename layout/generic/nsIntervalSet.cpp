@@ -150,6 +150,10 @@ h
 /
 for
 allocation
+using
+namespace
+mozilla
+;
 nsIntervalSet
 :
 :
