@@ -244,6 +244,13 @@ mPresContext
 aPresContext
 )
 {
+mEventDispatcher
+=
+new
+AnimationEventDispatcher
+(
+)
+;
 }
 /
 /
@@ -439,7 +446,8 @@ aEvents
 )
 {
 mEventDispatcher
-.
+-
+>
 QueueEvents
 (
 Move
@@ -455,7 +463,8 @@ SortEvents
 )
 {
 mEventDispatcher
-.
+-
+>
 SortEvents
 (
 )
@@ -467,7 +476,8 @@ ClearEventQueue
 )
 {
 mEventDispatcher
-.
+-
+>
 ClearEventQueue
 (
 )
@@ -581,10 +591,13 @@ ctor
 to
 Disconnect
 )
+RefPtr
+<
 mozilla
 :
 :
 AnimationEventDispatcher
+>
 mEventDispatcher
 ;
 }
