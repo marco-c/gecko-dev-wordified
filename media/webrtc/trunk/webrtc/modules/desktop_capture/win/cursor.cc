@@ -337,6 +337,15 @@ defined
 (
 WEBRTC_ARCH_LITTLE_ENDIAN
 )
+const
+int
+kBytesPerPixel
+=
+DesktopFrame
+:
+:
+kBytesPerPixel
+;
 /
 /
 Pixel
@@ -649,9 +658,6 @@ uint32_t
 )
 =
 =
-DesktopFrame
-:
-:
 kBytesPerPixel
 "
 size
@@ -1200,9 +1206,6 @@ bmi
 .
 bV5BitCount
 =
-DesktopFrame
-:
-:
 kBytesPerPixel
 *
 8
