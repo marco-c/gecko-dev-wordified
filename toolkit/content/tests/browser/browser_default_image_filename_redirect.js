@@ -59,7 +59,7 @@ let
 WebRequest
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

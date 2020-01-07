@@ -105,7 +105,7 @@ InlineSpellChecker
 SpellCheckHelper
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

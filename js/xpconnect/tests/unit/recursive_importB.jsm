@@ -85,9 +85,7 @@ qux
 =
 {
 }
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

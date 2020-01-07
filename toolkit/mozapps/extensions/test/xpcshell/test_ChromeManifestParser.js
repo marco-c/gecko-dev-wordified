@@ -34,9 +34,7 @@ Tests
 ChromeManifestParser
 .
 js
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

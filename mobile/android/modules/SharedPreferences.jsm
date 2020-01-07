@@ -115,7 +115,7 @@ For
 adding
 observers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -134,7 +134,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

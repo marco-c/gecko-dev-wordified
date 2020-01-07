@@ -65,7 +65,7 @@ do_get_profile
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -227,7 +227,7 @@ test_worker_restart
 let
 backstagePass
 =
-Cu
+ChromeUtils
 .
 import
 (

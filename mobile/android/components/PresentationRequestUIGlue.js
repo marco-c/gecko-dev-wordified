@@ -158,7 +158,7 @@ response
 /
 globals
 XPCOMUtils
-Cu
+ChromeUtils
 .
 import
 (
@@ -181,7 +181,7 @@ jsm
 /
 globals
 Services
-Cu
+ChromeUtils
 .
 import
 (

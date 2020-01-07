@@ -99,7 +99,7 @@ TIMEOUT_INTERVAL
 =
 2000
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -118,7 +118,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -3,9 +3,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -24,9 +22,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -68,9 +64,7 @@ I
 /
 O
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -89,9 +83,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -110,9 +102,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

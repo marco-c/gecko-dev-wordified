@@ -80,9 +80,7 @@ const
 VariablesView
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

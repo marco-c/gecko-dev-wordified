@@ -45,7 +45,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -172,9 +172,7 @@ const
 FileUtils
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -200,9 +198,7 @@ const
 NetUtil
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

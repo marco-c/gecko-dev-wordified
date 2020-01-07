@@ -137,7 +137,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -156,7 +156,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -343,7 +343,7 @@ pref
 let
 ConsoleAPI
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -5523,7 +5523,7 @@ Path
 File
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

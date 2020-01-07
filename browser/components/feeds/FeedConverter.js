@@ -81,9 +81,7 @@ MPL
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -102,9 +100,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -123,9 +119,7 @@ js
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

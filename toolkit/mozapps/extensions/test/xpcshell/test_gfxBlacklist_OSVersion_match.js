@@ -74,7 +74,7 @@ Uses
 test_gfxBlacklist_OS
 .
 xml
-Cu
+ChromeUtils
 .
 import
 (

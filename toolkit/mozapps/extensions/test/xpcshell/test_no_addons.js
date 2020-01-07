@@ -58,9 +58,7 @@ ID
 var
 XPIScope
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

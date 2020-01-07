@@ -166,7 +166,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -185,7 +185,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -786,9 +786,7 @@ jsm
 let
 pdfjs
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

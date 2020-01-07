@@ -71,7 +71,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -134,7 +134,7 @@ Ci
 nsIPPAPIJSProcess
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -23,7 +23,7 @@ Promises
 let
 JSMPromise
 =
-Cu
+ChromeUtils
 .
 import
 (

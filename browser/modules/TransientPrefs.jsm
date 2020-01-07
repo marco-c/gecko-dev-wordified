@@ -71,9 +71,7 @@ TransientPrefs
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

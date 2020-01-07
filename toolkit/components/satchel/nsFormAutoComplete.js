@@ -100,7 +100,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -119,7 +119,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -138,9 +138,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -3227,7 +3227,7 @@ let
 FormAutoCompleteResult
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

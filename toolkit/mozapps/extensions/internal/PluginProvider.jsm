@@ -95,7 +95,7 @@ EXPORTED_SYMBOLS
 [
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -120,7 +120,7 @@ globals
 AddonManagerPrivate
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -182,7 +182,7 @@ shockwave
 flash
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

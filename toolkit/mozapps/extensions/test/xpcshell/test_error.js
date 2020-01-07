@@ -38,9 +38,7 @@ conditions
 are
 handled
 correctly
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

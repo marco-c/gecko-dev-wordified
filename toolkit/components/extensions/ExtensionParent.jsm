@@ -180,7 +180,7 @@ ExtensionParent
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -199,7 +199,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -408,7 +408,7 @@ amIAddonManagerStartup
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -427,7 +427,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -212,7 +212,7 @@ as
 a
 jsm
 module
-Cu
+ChromeUtils
 .
 import
 (
@@ -237,7 +237,7 @@ SharedAll
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

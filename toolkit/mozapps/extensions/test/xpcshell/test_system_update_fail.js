@@ -14,9 +14,7 @@ in
 expected
 cases
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

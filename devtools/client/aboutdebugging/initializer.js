@@ -80,9 +80,7 @@ const
 loader
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -108,9 +106,7 @@ const
 BrowserLoader
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -140,9 +136,7 @@ const
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

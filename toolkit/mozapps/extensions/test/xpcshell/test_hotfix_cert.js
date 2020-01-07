@@ -203,9 +203,7 @@ C5
 60
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

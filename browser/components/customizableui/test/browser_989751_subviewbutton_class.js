@@ -155,7 +155,7 @@ in
 /
 menuWebDeveloperPopup
 .
-Cu
+ChromeUtils
 .
 import
 (

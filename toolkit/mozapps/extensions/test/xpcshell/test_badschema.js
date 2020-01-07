@@ -43,9 +43,7 @@ with
 a
 bad
 schema
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

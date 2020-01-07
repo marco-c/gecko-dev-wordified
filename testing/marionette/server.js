@@ -102,7 +102,7 @@ initSpecialConnection
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -121,7 +121,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -140,7 +140,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -159,7 +159,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -178,7 +178,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -202,7 +202,7 @@ const
 GeckoDriver
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -228,7 +228,7 @@ const
 WebElement
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -255,7 +255,7 @@ error
 UnknownCommandError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -283,7 +283,7 @@ Message
 Response
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -309,7 +309,7 @@ const
 DebuggerTransport
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

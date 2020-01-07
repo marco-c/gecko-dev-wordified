@@ -77,9 +77,7 @@ strict
 mode
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

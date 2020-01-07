@@ -708,9 +708,7 @@ T_URI
 /
 Run
 maintenance
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

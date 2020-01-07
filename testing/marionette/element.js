@@ -82,7 +82,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -101,7 +101,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -128,7 +128,7 @@ NoSuchElementError
 StaleElementReferenceError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -154,7 +154,7 @@ const
 pprint
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -180,7 +180,7 @@ const
 PollPromise
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

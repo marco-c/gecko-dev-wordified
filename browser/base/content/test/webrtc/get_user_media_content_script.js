@@ -40,9 +40,7 @@ frame
 script
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

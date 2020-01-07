@@ -4,9 +4,7 @@ exported
 install
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

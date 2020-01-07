@@ -448,9 +448,7 @@ button
 /
 private
 section
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

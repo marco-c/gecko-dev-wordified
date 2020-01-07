@@ -164,7 +164,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -183,7 +183,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -231,7 +231,7 @@ const
 NoSuchElementError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -37,7 +37,7 @@ var
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -63,7 +63,7 @@ var
 SessionWorker
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -107,7 +107,7 @@ XULAppInfo
 to
 initialize
 SessionFile
-Cu
+ChromeUtils
 .
 import
 (
@@ -191,7 +191,7 @@ do_get_profile
 ;
 SessionFile
 =
-Cu
+ChromeUtils
 .
 import
 (

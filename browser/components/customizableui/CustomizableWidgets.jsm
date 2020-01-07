@@ -89,7 +89,7 @@ CustomizableWidgets
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -107,7 +107,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -126,7 +126,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -145,7 +145,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -447,7 +447,7 @@ scope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -61,7 +61,7 @@ const
 GlobalManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

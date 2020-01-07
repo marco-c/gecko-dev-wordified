@@ -68,9 +68,7 @@ let
 AppConstants
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -651,9 +649,7 @@ tmpScope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

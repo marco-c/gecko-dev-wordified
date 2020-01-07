@@ -147,7 +147,7 @@ URL
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -166,7 +166,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -363,7 +363,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

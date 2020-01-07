@@ -7,9 +7,7 @@ install
 uninstall
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

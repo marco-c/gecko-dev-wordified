@@ -65,9 +65,7 @@ interfaces
 .
 nsIQuotaManagerService
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

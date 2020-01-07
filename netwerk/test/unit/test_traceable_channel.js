@@ -37,7 +37,7 @@ is
 correctly
 modified
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -56,7 +56,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

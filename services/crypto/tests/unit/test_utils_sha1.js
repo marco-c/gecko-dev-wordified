@@ -42,7 +42,7 @@ messages
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

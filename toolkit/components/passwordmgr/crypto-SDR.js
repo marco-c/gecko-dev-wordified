@@ -74,9 +74,7 @@ Cr
 =
 Components
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -95,9 +93,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -116,9 +112,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

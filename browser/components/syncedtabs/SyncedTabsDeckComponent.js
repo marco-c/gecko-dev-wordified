@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -137,7 +137,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -157,7 +157,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -177,7 +177,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -197,7 +197,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -222,7 +222,7 @@ let
 getChromeWindow
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -257,9 +257,7 @@ function
 )
 {
 return
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -286,7 +284,7 @@ js
 let
 log
 =
-Cu
+ChromeUtils
 .
 import
 (

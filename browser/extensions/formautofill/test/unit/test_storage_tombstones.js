@@ -22,7 +22,7 @@ const
 ProfileStorage
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

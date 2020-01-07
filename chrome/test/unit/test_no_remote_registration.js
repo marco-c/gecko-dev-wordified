@@ -122,9 +122,7 @@ registerManifests
 manifests
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -562,9 +560,7 @@ run_test
 (
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

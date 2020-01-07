@@ -162,9 +162,7 @@ const
 Localization
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

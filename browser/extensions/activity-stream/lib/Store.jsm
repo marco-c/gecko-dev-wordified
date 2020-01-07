@@ -75,7 +75,7 @@ const
 ActivityStreamMessageChannel
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -103,7 +103,7 @@ const
 Prefs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -131,7 +131,7 @@ const
 reducers
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -159,7 +159,7 @@ const
 redux
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

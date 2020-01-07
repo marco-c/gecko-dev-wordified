@@ -140,7 +140,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -159,7 +159,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -387,7 +387,7 @@ initWithCallback
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -406,7 +406,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -425,7 +425,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

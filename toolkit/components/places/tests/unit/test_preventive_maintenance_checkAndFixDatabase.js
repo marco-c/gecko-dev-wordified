@@ -116,9 +116,7 @@ Include
 PlacesDBUtils
 module
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

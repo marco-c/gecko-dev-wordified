@@ -106,7 +106,7 @@ setOutputStream
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -125,7 +125,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

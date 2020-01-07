@@ -40,9 +40,7 @@ the
 telemetry
 service
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

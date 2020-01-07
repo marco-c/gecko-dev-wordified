@@ -59,9 +59,7 @@ cache
 enabled
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

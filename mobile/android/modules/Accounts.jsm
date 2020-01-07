@@ -80,7 +80,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -105,7 +105,7 @@ global
 Deprecated
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -130,7 +130,7 @@ global
 Messaging
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -155,7 +155,7 @@ global
 Promise
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

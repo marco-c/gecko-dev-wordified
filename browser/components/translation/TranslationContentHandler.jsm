@@ -86,7 +86,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -105,7 +105,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -124,9 +124,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -752,7 +752,7 @@ TranslateDocument
 "
 :
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -877,7 +877,7 @@ yandex
 "
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -918,7 +918,7 @@ to
 }
 else
 {
-Cu
+ChromeUtils
 .
 import
 (

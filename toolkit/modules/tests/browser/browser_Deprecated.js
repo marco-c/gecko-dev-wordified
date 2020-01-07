@@ -81,7 +81,7 @@ errorconsole
 deprecation_warnings
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

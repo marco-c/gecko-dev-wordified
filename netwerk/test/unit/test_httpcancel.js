@@ -49,7 +49,7 @@ start
 with
 ENSURE_CALLED_BEFORE_CONNECT
 :
-Cu
+ChromeUtils
 .
 import
 (
@@ -68,7 +68,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

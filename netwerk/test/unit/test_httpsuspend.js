@@ -18,7 +18,7 @@ future
 notifications
 correctly
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -37,7 +37,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -73,9 +73,7 @@ c9705f6554f1
 }
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -106,9 +104,7 @@ function
 (
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

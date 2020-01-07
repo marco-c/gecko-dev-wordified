@@ -106,7 +106,7 @@ on
 let
 CustomizableUIBSPass
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -99,7 +99,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -122,7 +122,7 @@ this
 const
 AssertCls
 =
-Cu
+ChromeUtils
 .
 import
 (

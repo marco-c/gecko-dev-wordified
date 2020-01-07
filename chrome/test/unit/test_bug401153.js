@@ -77,9 +77,7 @@ registerManifests
 MANIFESTS
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

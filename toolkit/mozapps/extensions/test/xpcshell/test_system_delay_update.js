@@ -42,9 +42,7 @@ on
 update
 works
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
