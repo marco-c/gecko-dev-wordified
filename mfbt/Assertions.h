@@ -354,7 +354,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -1750,7 +1750,7 @@ line
 }
 while
 (
-0
+false
 )
 #
 else
@@ -1790,7 +1790,7 @@ abort
 }
 while
 (
-0
+false
 )
 #
 else
@@ -1825,7 +1825,7 @@ abort
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -2109,7 +2109,7 @@ __LINE__
 }
 while
 (
-0
+false
 )
 #
 else
@@ -2157,7 +2157,7 @@ __LINE__
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -2672,7 +2672,7 @@ __VA_ARGS__
 }
 while
 (
-0
+false
 )
 MOZ_END_EXTERN_C
 /
@@ -3436,7 +3436,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -3514,7 +3514,7 @@ __LINE__
 }
 while
 (
-0
+false
 )
 /
 *
@@ -3603,7 +3603,7 @@ __LINE__
 }
 while
 (
-0
+false
 )
 #
 define
@@ -3666,7 +3666,7 @@ do
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -3815,7 +3815,7 @@ expr
 }
 while
 (
-0
+false
 )
 #
 else
@@ -3831,7 +3831,7 @@ do
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -4289,7 +4289,7 @@ MOZ_ASSUME_UNREACHABLE_MARKER
 }
 while
 (
-0
+false
 )
 /
 *
@@ -4364,7 +4364,7 @@ do
 }
 while
 (
-0
+false
 )
 *
 requiring
@@ -4684,7 +4684,7 @@ expr
 }
 while
 (
-0
+false
 )
 #
 define
@@ -4729,7 +4729,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 define
@@ -4796,7 +4796,7 @@ MOZ_MUST_USE
 }
 while
 (
-0
+false
 )
 #
 define
@@ -4829,7 +4829,7 @@ MOZ_MUST_USE
 }
 while
 (
-0
+false
 )
 #
 define
@@ -4866,7 +4866,7 @@ MOZ_MUST_USE
 }
 while
 (
-0
+false
 )
 #
 define
@@ -4903,7 +4903,7 @@ MOZ_MUST_USE
 }
 while
 (
-0
+false
 )
 #
 endif
