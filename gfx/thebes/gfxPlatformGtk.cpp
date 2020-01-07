@@ -141,13 +141,6 @@ h
 #
 include
 "
-gfxFontconfigFonts
-.
-h
-"
-#
-include
-"
 gfxConfig
 .
 h
@@ -184,6 +177,13 @@ h
 include
 "
 gfxPrefs
+.
+h
+"
+#
+include
+"
+gfxTextRun
 .
 h
 "
