@@ -13644,7 +13644,7 @@ service
 1
 "
 "
-mozIAsyncFavicons
+nsIFaviconService
 "
 )
 ;

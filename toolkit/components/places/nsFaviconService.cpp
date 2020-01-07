@@ -908,7 +908,6 @@ NS_IMPL_ISUPPORTS_CI
 (
 nsFaviconService
 nsIFaviconService
-mozIAsyncFavicons
 nsITimerCallback
 nsINamed
 )

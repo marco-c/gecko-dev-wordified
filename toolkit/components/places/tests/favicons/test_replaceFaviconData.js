@@ -33,9 +33,6 @@ zero
 *
 Tests
 for
-mozIAsyncFavicons
-:
-:
 replaceFaviconData
 (
 )

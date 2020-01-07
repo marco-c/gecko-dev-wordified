@@ -340,7 +340,7 @@ MOZ_PLACES
 #
 include
 "
-mozIAsyncFavicons
+nsIFaviconService
 .
 h
 "
@@ -8883,7 +8883,7 @@ specified
 page
 nsCOMPtr
 <
-mozIAsyncFavicons
+nsIFaviconService
 >
 favIconSvc
 (
